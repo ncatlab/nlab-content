@@ -38,6 +38,10 @@ On [[weakly constant functions]] and [[propositional truncation]] in [[homotopy 
 
 * [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
 
+On [[synthetic algebraic geometry]]:
+
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], *A Foundation for Synthetic Algebraic Geometry* (2023) &lbrack;[arXiv:2307.00073](https://arxiv.org/abs/2307.00073)&rbrack;
+
 
 ## Related entries
 
