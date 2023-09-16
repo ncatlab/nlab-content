@@ -1,5 +1,5 @@
 
-* [website](http://www.staff.science.uu.nl/~berg0002/)
+* [website](https://staff.fnwi.uva.nl/b.vandenberg3/)
 
 ## Selected writings
 
