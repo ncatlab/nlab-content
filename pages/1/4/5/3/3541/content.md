@@ -270,3 +270,7 @@ On quantum channel capacity:
 
 [[!redirects Kraus decomposition]]
 [[!redirects Kraus decompositions]]
+
+[[!redirects unitary quantum channel]]
+[[!redirects unitary quantum channels]]
+
