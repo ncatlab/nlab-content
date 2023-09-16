@@ -212,14 +212,14 @@ Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972
 \begin{remark}
 **(handedness of the underlying natural transformation)**
 \linebreak
-Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is orriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70).
+Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is oriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70).
 \end{remark}
 
 
 \begin{example}\label{TransformationOfMonadsOnFixedCategory}
 **(transformation of monads on a fixed category)**
 \linebreak
-This example is the simpler but important special case of the general Def. \ref{TwoCategoryOfMonads} where the monads all act on the same fixed object -- in particular the same category if $K = Cat$ (stated in this form for instance in [Barr & Wells 1983 §6.1](#BarrWells83)),  of relevance notably for [[monads in computer science]] (where this is [Moggi 1989 Def. 4.0.11](monad+in+computer+science#Moggi89Abstract)) which typically all act on the same category of [[data types|data]] [[types]]:
+This example is the simpler but important special case of the general Def. \ref{TwoCategoryOfMonads} where the monads all act on the same fixed object -- in particular the same category if $K = Cat$ (stated in this form for instance in [Barr & Wells 1985 §6.1](#BarrWells85)),  of relevance notably for [[monads in computer science]] (where this is [Moggi 1989 Def. 4.0.11](monad+in+computer+science#Moggi89Abstract)) which typically all act on the same category of [[data types|data]] [[types]]:
 
 
 For a pair of monads
@@ -238,7 +238,7 @@ a morphism between them is
 
 * a [[natural transformation]] $\lambda \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
 
-such that it respects the [[monad units]]
+such that it respects, in the evident way, the [[monad units]]
 
 \begin{tikzcd}[sep=20pt]
   \mathrm{id}
@@ -307,8 +307,16 @@ and the joins:
   \mathcal{E}'
 \end{tikzcd}
 
-in the evident way.
+in that it makes these [[commuting square|squares commute]].
 \end{example}
+
+\begin{example}\label{MonadTransformers}
+**(monad transfomers)**
+\linebreak
+  When monads are used to model [[computational effects]] in [[functional programming]], a common concern is to *combine* different effects, such that previous effects are subsumed among the newly combined effects. This is formalized by "[[monad transformers]]" which are systems of morphisms of monads as in Exp. \ref{TransformationOfMonadsOnFixedCategory}, forming a [[pointed endofunctor]] on the category $Mnd$ of all monads.
+\end{example}
+
+\linebreak
 
 ### Algebras/modules over a monad 
  {#Algebras}
@@ -526,7 +534,7 @@ Further original texts:
 * [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
-* {#BarrWells83} [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+* {#BarrWells85} [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1985), Reprints in Theory and Applications of Categories **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 
 
