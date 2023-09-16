@@ -74,6 +74,8 @@ to the type theory.
 
 * [[identity type]]
 
+* [[heterogeneous identity type]]
+
 ## References
 
 On why cubical path types and Martin-Löf identity types are different:
