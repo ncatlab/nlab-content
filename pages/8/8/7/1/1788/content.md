@@ -1,168 +1,52 @@
+Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-a coKleisli morphism
+Spelling this out, we see that  
 
-$$
-  \array{
-    S
-    &
-    \overset{
-      \big(
-        get
-        ,\, 
-        \widetilde{put}
-      \big)
-    }{\longrightarrow}
-    &
-    V \times [V, S]    
-    \\
-    s
-    &\mapsto&
-    \big(
-      get(s)
-      ,\,
-      put(-,s)
-    \big)
-  }
-$$
+1. an [[object]] in $Mnd(K)$ is a monad $(a,t,\eta,\mu)$ in $K$;
 
-counitality
+1. a [[1-morphism]] $(a,t) \to (b,s)$ in Mnd(K)$ is given by 
 
-$$
-  \array{
-    S
-    &
-    \overset{
-      \big(
-        get
-        ,\, 
-        \widetilde{put}
-      \big)
-    }{\longrightarrow}
-    &
-    V \times [V, S]    
-    &
-    \overset{\;\; ev \;\;}{\longrightarrow}
-    &
-    S
-    \\
-    s 
-    &\mapsto&
-    \big(
-      get(s)
-      ,\,
-      put(-,s)
-    \big)
-    &\mapsto&
-    put\big(
-      get(s)
-      ,\,
-      s
-    \big)
-  }
-$$
+   1. a [[1-morphism]] $x \colon a \to b$ 
+
+   1. a [[2-morphisms]] $\lambda \colon s x \to x t$ 
+
+   making the following [[commuting diagram|diagrams commute]]:
+
+   $$
+   \array{
+     x & \stackrel{\eta^s x}{\to} & s x 
+     \\
+     \mathllap{x \eta^t} 
+     \big\downarrow 
+       & & 
+     \big\downarrow    
+     \mathrlap{\lambda} 
+     \\
+     x t 
+      & \overset{1}{\longrightarrow} & 
+     x t
+   }
+   \qquad \qquad
+   \array{
+      s s x 
+      & 
+      \overset{s \lambda}{\to} 
+      & s x t &    
+      \overset{\lambda t}{\longrightarrow}
+      & x t t 
+      \\
+      \mathllap{\mu^s x} 
+      \big\downarrow 
+        & & & & 
+      \big\downarrow 
+      \mathrlap{x \mu^t}
+      \\
+      s x 
+      & & 
+      \overset{\lambda}{\longrightarrow} 
+      & & 
+      x t
+   }
+   $$
 
 
-\begin{tikzcd}[  
-  column sep=4pt
-]
-  V \times [V,S]
-  \ar[
-    rrrrr,
-    "{
-      \mathrm{dupl}^{ V\mathrm{Sotr} }_S
-    }"
-  ]
-  &[-5pt]
-  &&&[-150pt]
-  &[-30pt]
-  V \times \Big[ 
-    V 
-    ,\,
-    \big[
-      V 
-      \times 
-      [V,S] 
-    \big]
-  \Big]
-  \\
-  &
-  \big(
-    \mathrm{get}(s)
-    ,\,
-    \mathrm{put}(-,s)
-  \big)
-  \ar[rr, phantom, "{ \mapsto }"]
-  &&
-  \Big(
-    \mathrm{get}(s)
-    ,\,
-    v' \mapsto \big(v', \mathrm{put}(-,s)\big) 
-  \Big)
-  \\
-  &&&& 
-  \bigg(
-    \mathrm{get}(s)
-    ,\,
-    v'
-    \mapsto
-    \Big(
-      \mathrm{get}\big(\mathrm{put}(v',s)\big)
-      ,\,
-      \mathrm{put}\big(-, \mathrm{put}(v',s)\big)      
-    \Big)
-  \bigg)
-  \ar[ul, equals]
-  \\
-  & 
-  &&& 
-  \\
-  & 
-  s 
-  \ar[rrr, phantom, "{ \mapsto }"]
-  \ar[uuu, phantom, "{ \mapsto }"{sloped}]
-  &&& 
-  \big(
-    \mathrm{get}(s)
-    ,\,
-    v' \mapsto \mathrm{put}(v',s)
-  \big)
-  \ar[uu, phantom, "{ \mapsto }"{sloped}]
-  \\
-  S 
-  \ar[
-    rrrrr,
-    "{
-      \big(
-        \mathrm{get}
-        ,\,
-        \widetilde{\mathrm{put}}
-      \big)
-    }"{swap}
-  ]
-  \ar[
-    uuuuu,
-    "{
-      \big(
-        \mathrm{get}
-        ,\,
-        \widetilde{\mathrm{put}}
-      \big)
-    }"
-  ]
-  &&&&&
-  V \times [V, S]
-  \ar[
-    uuuuu,
-    "{
-      V \times \Big[
-        V
-        ,\,
-        \big(
-          \mathrm{get}
-          ,\,
-          \widetilde{\mathrm{put}}
-        \big)       
-      \Big]
-    }"{swap}
-  ]
-\end{tikzcd}
