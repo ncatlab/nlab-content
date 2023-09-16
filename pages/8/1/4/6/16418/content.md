@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -60,8 +59,10 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-L
 * [[Manfred Scheunert]], chapter II, 4.3.A of _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
 
 
-* {#Farmer84} Richard Joseph Farmer, _Orthosymplectic superalgebras in mathematics and science_, PhD Thesis (1984) ([web](http://eprints.utas.edu.au/19542/), [pdf](http://eprints.utas.edu.au/19542/1/whole_FarmerRichardJoseph1985_thesis.pdf))
+* {#Farmer84} Richard Joseph Farmer, *Orthosymplectic superalgebras in mathematics and science*, PhD Thesis (1984)
+&lbrack;[[Farmer-OSpSuperalgebra.pdf:file]]&rbrack;
 
+ 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.2 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 
