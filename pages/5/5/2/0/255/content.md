@@ -137,11 +137,11 @@ The axioms then appear as:
 ### The 2-category of monads
  {#BicategoryOfMonads}
 
-Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
+Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ &lbrack;[Bénabou 1967, pp. 39](#Bénabou67)&rbrack; it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-Spelling this out:
+Spelling this out &lbrack;[Street 1972, p. 150-151](#Street72)&rbrack;:
 
-\begin{definition}  
+\begin{definition}\label{TwoCategoryOfMonads}
 **(2-category of monads)**
 \linebreak
 
@@ -209,6 +209,98 @@ Spelling this out:
 
 \end{definition}
 
+\begin{example}\label{TransformationOfMonadsOnFixedCategory}
+**(transformation of monads on a fixed category)**
+\linebreak
+For the case $K = $ [[Cat]] and considering a pair of monads
+$(\mathcal{E}, ret^{\mathcal{E}}, join^{\mathcal{E}})$,
+$(\mathcal{E}', ret^{\mathcal{E}'}, join^{\mathcal{E}'})$
+on a fixed category $\mathbf{C}$:
+
+$$
+  \mathcal{E}, \mathcal{E}'
+  \;\colon\;
+  \mathbf{C} \longrightarrow \mathbf{C}
+  \,,
+$$
+
+a morphism between them is 
+
+* a [[natural transformation]] $\lambda \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
+
+(beware that above this is taken in the opposite direction)
+
+such that it respects the [[monad units]]
+
+\begin{tikzcd}[sep=20pt]
+  \mathrm{id}
+  \ar[
+    d,
+    "{
+      \mathrm{ret}^{\mathcal{E}}
+    }"{swap}
+  ]
+  \ar[
+    rr,
+    "{ \mathrm{id} }"
+  ]
+  &&
+  \mathrm{id}
+  \ar[
+    d,
+    "{
+      \mathrm{ret}^{\mathcal{E}}
+    }"{}
+  ]
+  \\
+  \mathcal{E}
+  \ar[
+     rr,
+     "{ \lambda }"{swap}
+  ]
+  &&
+  \mathcal{E}'
+\end{tikzcd}
+
+and the joins:
+
+\begin{tikzcd}[sep=20pt]
+  \mathcal{E} \circ \mathcal{E}
+  \ar[
+    rr,
+    "{
+      \lambda \circ \lambda
+    }"
+  ]
+  \ar[
+    dd,
+    "{
+      \mathrm{join}^{\mathcal{E}}
+    }"{swap}
+  ]
+  &&
+  \mathcal{E}' \circ \mathcal{E}'
+  \ar[
+    dd,
+    "{
+      \mathrm{join}^{\mathcal{E}'}
+    }"
+  ]
+  \\
+  \\
+  \mathcal{E}
+  \ar[
+    rr, 
+    "{
+      \lambda
+    }"{swap}
+  ]
+  &&
+  \mathcal{E}'
+\end{tikzcd}
+
+in the evident way.
+\end{example}
 
 ### Algebras/modules over a monad 
  {#Algebras}
