@@ -27,12 +27,6 @@ In [[dependent type theory]], a version of the [[identity type]] where elements 
 
 The phrase “two-type identity type” is a placeholder name for a concept which may or may not have another name in the type theory literature. The idea however is that two-type identity types are the "non-dependent" versions of [[dependent identity types]] in that it compares elements between two equivalent types, rather than between a family of dependent types which are equivalent via [[transport]] across an [[identification]] in the index type. 
 
-Two-type identity types are motivated as an alternative to [[John Major equality]] for a notion of non-dependent [[heterogeneous equality]] for which [[John Major equality]] either: 
-
-* fails to be heterogeneous equality, such as when [[UIP]] doesn't hold in the [[type universe]], or
-
-* cannot even be formed, such as when the type theory has no [[universes]] and types are determined by a separate [[type]] [[judgment]] - meaning that types cannot be compared for propositional equality. 
-
 ## Definition
 
 Given types $A$ and $B$, two-type identity types are an [[inductive family]] of [[types]] 
