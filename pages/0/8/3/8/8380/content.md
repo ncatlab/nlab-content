@@ -941,6 +941,10 @@ The original observation of monads as "notions of computation" is:
 
 * {#Moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
 
+* {#Moggi89Abstract} [[Eugenio Moggi]], *An abstract View of Programming Languages*, LFCS report ECS-LFCS-90-113 (1989) &lbrack;[web](http://www.lfcs.inf.ed.ac.uk/reports/90/ECS-LFCS-90-113), [[Moggi-AbstractView.pdf:file]]&rbrack;
+
+  > (considers also [transformations of monads](monad#BicategoryOfMonads) in Def. 4.0.8)
+
 * [[Philip Wadler]], *Comprehending Monads*, in _Conference on Lisp and functional programming_, ACM Press (1990) &lbrack;[[WadlerMonads.pdf:file]], [doi:10.1145/91556.91592](https://doi.org/10.1145/91556.91592)&rbrack;
 
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
@@ -1002,6 +1006,7 @@ Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
 * [[Bartosz Milewski]], §14 in: *The Dao of Functional Programming* (2023) &lbrack;[pdf](https://github.com/BartoszMilewski/Publications/blob/master/TheDaoOfFP/DaoFP.pdf), [github](https://github.com/BartoszMilewski/Publications/tree/master/TheDaoOfFP)&rbrack;
 
+On monads spring
 
 Further discussion/exposition of the notion and application of (co)monads in computer science:
  
