@@ -3,15 +3,25 @@ This page hosts material related to the textbook
 
 * [[Michael Barr]], and  [[Charles Wells]]
 
+  \linebreak
+
   **Toposes, Triples, and Theories** 
 
-  Grundlehren der math. Wissenschaften 278 Springer 1983, 
+  \linebreak
+
+  Grundlehren der math. Wissenschaften **278** 
+
+  Springer (1985) 
+
+  \linebreak
 
   republished in:
 
-  Reprints in Theory and Applications of Categories, No. 12 (2005) pp. 1-287
+  [[TAC reprints series|Reprints in Theory and Applications of Categories]]
+
+  **12** (2005) 1-287
  
-  ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
+  [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
 on [[toposes]], [[monads]] ("triples"), and [[universal algebra]], [[categorical algebra]] and [[categorical semantics]] via [[sketches]].
 
