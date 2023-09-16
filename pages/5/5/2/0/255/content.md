@@ -209,7 +209,7 @@ Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972
 
 \end{definition}
 
-Beware that $\lamda$ in Def. \ref{TwoCategoryOfMonads} is orriented oppositely to what one might expect. This need not be so, but is a choice, see [Pumplün 1970 p 334](#Pumplün70).
+Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is orriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70).
 
 \begin{example}\label{TransformationOfMonadsOnFixedCategory}
 **(transformation of monads on a fixed category)**
