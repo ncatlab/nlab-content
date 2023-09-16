@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+Early discussion of ([[comonad|co]])[[monads]], their [[Kleisli categories]] and [[Eilenberg-Moore categories]] and given apparently the first statement of [morphisms of monads](monad#BicategoryOfMonads):
+
+* {#Pumplün70} [[Dieter Pumplün]], *Eine Bemerkung über Monaden und adjungierte Funktoren*, Mathematische Annalen **185** (1970) 329-337 &lbrack;[eudml:161964](https://eudml.org/doc/161964), [[Pumpluen-Monaden.pdf:file]]&rbrack;
+
+
 On [[totally convex spaces]]:
 
 * [[Dieter Pumplün]], [[Helmut Röhrl]]: _Banach Spaces and totally convex spaces I_, Comm. Alg. **12** 8 (1984) 953-1019 &lbrack;[doi:10.1080/00927878408823035](https://doi.org/10.1080/00927878408823035)&rbrack;
