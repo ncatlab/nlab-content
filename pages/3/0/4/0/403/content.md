@@ -432,6 +432,11 @@ and their understanding as categories internal to [[TopologicalSpaces]] and to [
 
 but it seems that the definition is not actually contained in there, certainly not in its simple and widely understood form due to [Grothendieck 61](#Grothendieck61).
 
+The observation that (internal) categories are [[monads]] in the [[bicategory of spans]]:
+
+* {#Bénabou67} [[Jean Bénabou]], §5.4.3 in: *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
+
+
 Review:
 
 * [[Magnus Forrester-Barker]], *Group Objects and Internal Categories* &lbrack;[arXiv:math/0212065](https://arxiv.org/abs/math/0212065)&rbrack;
