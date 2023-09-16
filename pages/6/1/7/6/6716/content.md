@@ -69,6 +69,17 @@ $$
 following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
 
 
+## Examples
+
+* For $n=3$, the [[exceptional isomorphism]] between [[Spin(3)]] and [[SU(2)]] extends to an isomorphism between $Spin^c(3)$ and the [[unitary group]] $U(2)$:
+
+  $$
+    Spin^c(3) 
+    \;\simeq\; 
+    U(2)
+  $$
+over the exceptional isomorphism $SO(3) \simeq PU(2)$.
+
 ## Properties
 
 ### Group extension
@@ -478,15 +489,7 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 
 
 
-## Examples
 
-* For $n=3$, the [[exceptional isomorphism]] between [[Spin(3)]] and [[SU(2)]] extents to an isomorphism between $Spin^c(3)$ and the [[unitary group]] $U(2)$:
-
-  $$
-    Spin^c(3) 
-    \;\simeq\; 
-    U(2)
-  $$
 
 ## Related concepts
 
