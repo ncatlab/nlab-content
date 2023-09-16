@@ -13,17 +13,25 @@
 =--
 =--
 
+
 This entry collects hyperlinks related to the lecture notes
 
-* Sean Bates, [[Alan Weinstein]],
+* Sean Bates, [[Alan Weinstein]]:
 
-  _Lectures on the geometry of quantization_,
+  \linebreak
 
-   Berkeley Mathematics Lecture Notes series,
+  **Lectures on the geometry of quantization**
 
-   American Mathematical Society, 1997
+  \linebreak
 
-  ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
+  Berkeley Mathematics Lecture Notes series,
+
+  American Mathematical Society (1997)
+
+  [ams:bmln-8](https://bookstore.ams.org/bmln-8)
+
+  [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+  [[BatesWeinstein-Lectures.pdf:file]]
 
 on [[classical mechanics]] formalized in [[symplectic geometry]] and its [[quantization]] by the process of [[geometric quantization]].
 
