@@ -113,7 +113,7 @@ $$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta(b) \vdash \mathcal{J}(b)}{\G
 
 #### Families of types and elements
 
-A family of elements is an element $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
+A family of elements is an element $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
 
 Since types are elements of universe, a family of types is simply a family of elements of universes. 
 
