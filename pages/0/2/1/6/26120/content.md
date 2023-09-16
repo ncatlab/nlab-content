@@ -640,7 +640,7 @@ $$
 
 ### Quantum observables
 
-> (The following is now a little repetitive, being a special case of the general statement above. Will streamline...)
+> (The following now starts out a little repetitive, recalling a special case of the general statement above. Will streamline...)
 
 For the classical [[costate comonad]] on a [[cartesian closed category]] its value and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
 
@@ -878,7 +878,200 @@ $$
 $$
 \end{remark}
 
-(...)
+\begin{example}
+  \label{UnitaryQuantumChannelAsStoreComonadTransformation}
+  If $U \,\colon\, \mathscr{H}_1 \to \mathscr{H}_2$ is an [[invertible map]] with [[inverse]] $U^\dagger \,\colon\, \mathscr{H}_2 \to \mathscr{H}_1$, then the "[[unitary quantum channel]]"
+$$
+  \array{
+    \mathscr{H}_1
+      \otimes
+    \mathscr{H}_1^\ast
+      \otimes
+    (\text{-})
+    &
+    \overset{
+      U \otimes U^{\dagger \ast}
+    }{\longrightarrow}
+    &
+    \mathscr{H}_2
+      \otimes
+    \mathscr{H}_2^\ast
+      \otimes
+    (\text{-})
+  }
+$$
+is a [transformation of](monad#TransformationOfMonadsOnFixedCategory) quantum Store comonads.
+\end{example}
+\begin{proof}
+By direct unwinding of the definitions, we find:
+$$
+  \array{
+    \mathscr{H}_1
+      \otimes
+    \mathscr{H}_1^\ast
+      \otimes
+    \mathscr{K}^\ast
+    &
+    \overset{
+      U 
+        \otimes
+      U^{\dagger \ast}
+      \,
+        \otimes
+       id
+    }{\longrightarrow}
+    &
+    \mathscr{H}_2
+      \otimes
+    \mathscr{H}_2^\ast
+      \otimes
+    \mathscr{K}^\ast
+    &
+    \overset{ 
+      obt^{\mathscr{H}_2Store}_{\mathscr{K}_2} 
+    }{\longrightarrow}
+    &
+    \mathscr{K}^\ast
+    \\
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    \otimes
+    \left\langle \kappa \right\vert    
+    &\mapsto&
+    U
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    U^\dagger
+    \otimes
+    \left\langle \kappa \right\vert    
+    &\mapsto&
+    \left\langle \phi \right\vert
+      U^\dagger
+      U
+    \left\vert \psi \right\rangle
+    \otimes
+    \left\langle \kappa \right\vert        
+    \\
+    && &=&
+    \left\langle \phi \vert \psi \right\rangle
+    \otimes
+    \left\langle \kappa \right\vert        
+    \\
+    && &=&
+    obt^{\mathscr{H}_1 Store}_{\mathscr{K}^\ast}
+    \big(
+      \left\vert \psi \right\rangle
+      \left\langle \phi \right\vert
+      \otimes
+      \left\langle \kappa \right\vert    
+    \big)
+  }
+$$
+and
+$$
+  \array{
+    \mathscr{H}_1
+      \otimes
+    \mathscr{H}_1^\ast
+      \otimes
+    \mathscr{K}^\ast
+    &
+    \overset{
+      dupl^{\mathscr{H}_1 Store}_{\mathscr{K}^\ast}
+    }{\longrightarrow}
+    &
+    \mathscr{H}_1
+      \otimes
+    \mathscr{H}_1^\ast
+      \otimes
+    \mathscr{H}_1
+      \otimes
+    \mathscr{H}_1^\ast
+      \otimes
+    \mathscr{K}^\ast
+    &
+    \overset{
+      U \otimes U^{\dagger\ast}
+      \otimes
+      U \otimes U^{\dagger\ast}
+      \,
+      \otimes \mathrm{id}
+    }{\longrightarrow}
+    &
+    \mathscr{H}_2
+      \otimes
+    \mathscr{H}_2^\ast
+      \otimes
+    \mathscr{H}_2
+      \otimes
+    \mathscr{H}_2^\ast
+      \otimes
+    \mathscr{K}^\ast
+    \\
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    \otimes
+    \left\langle \kappa \right\vert  
+    &\mapsto&
+    \mathclap{
+    \underset{w_1}{\sum}
+    \,
+    \left\vert \psi \right\rangle 
+    \left\langle w_1 \right\vert 
+    \otimes
+    \left\vert w_1 \right\rangle
+    \left\langle \phi \right\vert U^\dagger
+    \otimes
+    \left\langle \kappa \right\vert  
+    }
+    &\mapsto&
+    \mathclap{
+    U \left\vert \psi \right\rangle 
+    \Big(
+    \underset{
+      =
+    \underset{w_2}{\sum}
+      \left\langle w_2 \right\vert 
+      \otimes
+      \left\vert w_2 \right\rangle
+    }
+    {
+    \underbrace{
+      \underset{w_1}{\sum}
+      \left\langle w_1 \right\vert 
+      U^\dagger
+      \otimes
+      U
+      \left\vert w_1 \right\rangle
+    }
+    }
+    \Big)
+    \left\langle \phi \right\vert U^\dagger
+    \otimes
+    \left\langle \kappa \right\vert  
+    }
+    \\
+    && 
+    &=&
+    \mathclap{
+    dupl^{\mathscr{H}_2 Store}_{\mathscr{K}^\ast}
+    \circ
+    \big(
+      U \otimes U^{\dagger \ast} 
+      \otimes id
+    \big)
+    \big(
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    \otimes
+    \left\langle \kappa \right\vert  
+    \big)
+    }
+  }
+$$
+\end{proof}
+
+
 
 
 ## Related concepts
