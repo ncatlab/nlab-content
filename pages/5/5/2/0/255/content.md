@@ -139,7 +139,7 @@ The axioms then appear as:
 
 Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ &lbrack;[Bénabou 1967, pp. 39](#Bénabou67)&rbrack; it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-Spelling this out &lbrack;[Street 1972, p. 150-151](#Street72)&rbrack;:
+Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
 
 \begin{definition}\label{TwoCategoryOfMonads}
 **(2-category of monads)**
@@ -208,6 +208,8 @@ Spelling this out &lbrack;[Street 1972, p. 150-151](#Street72)&rbrack;:
    $$
 
 \end{definition}
+
+Beware that $\lamda$ in Def. \ref{TwoCategoryOfMonads} is orriented oppositely to what one might expect. This need not be so, but is a choice, see [Pumplün 1970 p 334](#Pumplün70).
 
 \begin{example}\label{TransformationOfMonadsOnFixedCategory}
 **(transformation of monads on a fixed category)**
@@ -508,6 +510,8 @@ Further historical comments:
 Further original texts:
 
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+* {#Pumplün70} [[Dieter Pumplün]], *Eine Bemerkung über Monaden und adjungierte Funktoren*, Mathematische Annalen **185** (1970) 329-337 &lbrack;[eudml:161964](https://eudml.org/doc/161964), [[Pumpluen-Monaden.pdf:file]]&rbrack;
 
 * {#MacLane71} [[Saunders MacLane]], Ch. VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
