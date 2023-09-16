@@ -379,14 +379,11 @@ For more details see [[semilattice of commutative subalgebras]].
 
 The original articles:
 
-* {#Jordan32} [[Pascual Jordan]], *Über eine Klasse nichtassociativer hyperkomplexer Algebren*, Nachr. Ges. Wiss. Göttingen (1932) 569-575 &lbrack;[eudml:59403](https://eudml.org/doc/59403)&rbrack;
+* {#Jordan32} [[Pascual Jordan]], *Über eine Klasse nichtassociativer hyperkomplexer Algebren*, Nachr. Ges. Wiss. Göttingen (1932) 569-575 &lbrack;[eudml:59403](https://eudml.org/doc/59403), [[Jordan-Algebren.pdf:file]]&rbrack;
  
-
 * {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
  
 
-* {#Zelmanov83} E. I. Zelmanov, On prime Jordan algebras. II,
-_Sibirsk Mat. J._ **24** (1983), 89-104.
  
 Textbooks:
 
@@ -412,9 +409,24 @@ Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in 
 
 * [[Paul Townsend]], _The Jordan formulation of quantum mechanics: a review_ ([arXiv:1612.09228](https://arxiv.org/abs/1612.09228))
 
+More on the physical motivation for regarding any [[algebra of quantum observables]] (just) as a Jordan algebra:
+
+* [[John Baez]], *Jordan algebras*, Section 4 of: *Getting to the Bottom of Noether's Theorem* &lbrack;[arXiv:2006.14741](https://arxiv.org/abs/2006.14741)&rbrack;
+
+
+See also: 
+
+* Wikipedia, *[Jordan algebra](https://en.wikipedia.org/wiki/Jordan_algebra)*
+
+* {#Zelmanov83} E. I. Zelmanov, On prime Jordan algebras. II,
+_Sibirsk Mat. J._ **24** (1983), 89-104.
+
+
 Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are for instance in 
 
-* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], p. 80 of _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], p. 80 of: _[[Lectures on the geometry of quantization]]_, Berkeley Mathematics Lecture Notes series, American Mathematical Society (1997) &lbrack;[ams:bmln-8](https://bookstore.ams.org/bmln-8), [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf), [[BatesWeinstein-Lectures.pdf:file]]&rbrack;
+
+
 
 Discussion of [[spectral triples]] over Jordan algebras in the [[Connes-Lott model]]:
 
