@@ -1006,7 +1006,11 @@ Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
 * [[Bartosz Milewski]], §14 in: *The Dao of Functional Programming* (2023) &lbrack;[pdf](https://github.com/BartoszMilewski/Publications/blob/master/TheDaoOfFP/DaoFP.pdf), [github](https://github.com/BartoszMilewski/Publications/tree/master/TheDaoOfFP)&rbrack;
 
-On monads spring
+and [[Scala]]:
+
+* {#Winitzki22} [[Sergei Winitzki]], Section 10 of: *The Science of Functional Programming -- A tutorial, with examples in Scala* (2022) &lbrack;[leanpub:sofp](https://leanpub.com/sofp), [github:sofp](https://github.com/winitzki/sofp)&rbrack;
+
+
 
 Further discussion/exposition of the notion and application of (co)monads in computer science:
  
