@@ -76,6 +76,8 @@ A wiki platform based on Haskell, running texmath
 
 ## Related concepts
 
+* [[Scala]]
+
 * [[domain specific embedded programming language]]
 
   * [[Quipper]]
