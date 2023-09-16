@@ -233,6 +233,10 @@ General discussion:
 
 * {#Linton69} [[Fred Linton]], _Relative functorial semantics: adjointness results_, Lecture Notes in Mathematics, **99** (1969)
 
+* {#Pumplün70} [[Dieter Pumplün]], *Eine Bemerkung über Monaden und adjungierte Funktoren*, Mathematische Annalen **185** (1970) 329-337 &lbrack;[eudml:161964](https://eudml.org/doc/161964), [[Pumpluen-Monaden.pdf:file]]&rbrack;
+
+
+
 * [[Saunders MacLane]], §VI.2 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
