@@ -46,7 +46,9 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 * **general**
 
   * [[Python]]
+
 * **[[linear logic]]
+
   * [[Rust]]
 
 * **[[higher order logic]]**:
@@ -57,11 +59,15 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
   * [[Haskell]]
 
+  * [[Scala]]
+
 * **[[dependent type theory]]**:
 
   * [[Coq]], [[Agda]], [[Lean]], [[NuPRL]], ....
 
 * **[[quantum computation]]**
+
+  * [[QML]]
 
   * [[Quipper]]
 
