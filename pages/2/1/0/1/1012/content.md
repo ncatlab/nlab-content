@@ -157,3 +157,7 @@ A morphism $f:a \to b$ has a unique __inverse__ if it has a retraction that is a
 [[!redirects inverses of morphisms]]
 [[!redirects invertible morphism]]
 [[!redirects invertible morphisms]]
+
+[[!redirects invertible map]]
+[[!redirects invertible maps]]
+
