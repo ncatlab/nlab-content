@@ -80,11 +80,17 @@ Now it so happens --- in the [[topos theory|topos theoretic]] formulation of [[i
 
 A **monad** in a [[bicategory]] $K$ is given by
 
-* an [[object]] $a$, together with
+1. an [[object]] $a$ in $K$
 
-* an [[endomorphism]] $t \colon a \to a$, and
+1. an [[endomorphism]] $t \colon a \to a$ in $K$
 
-* [[2-cells]] $\;\eta \colon 1_a \to t$ (the _[[unit of a monad|unit]]_ of $t$) and $\mu \colon t \circ t \to t$ (the _multiplication_)
+1. a [[2-morphism]] $\;\eta \colon 1_a \to t$ in $K$
+
+   (the *[[unit of a monad|unit]]* or *return* operation) 
+
+1. a [[2-morphism]] $\mu \colon t \circ t \to t$ 
+
+   (the *multiplication* or *join* operation)
 
 such that the diagrams
 [\begin{tikzcd}
@@ -128,33 +134,81 @@ The axioms then appear as:
 
 
 
-### The bicategory of monads
+### The 2-category of monads
+ {#BicategoryOfMonads}
 
-Given the equivalence between monads in $K$ and lax functors $1 \to K$ it is straightforward to define the [[bicategory]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of lax functors, [[lax transformations]] and [[modifications]].
+Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-Spelling this out, we see that an object of $Mnd(K)$ is a monad $(a,t,\eta,\mu)$ in $K$.  A **morphism** of monads $(a,t) \to (b,s)$ is given by 1-cell $x \colon a \to b$ together with a 2-cell $\lambda \colon s x \to x t$ satisfying
-$$
-\array{
-  x & \stackrel{\eta^s x}{\to} & s x \\
-  \mathllap{x \eta^t} \downarrow & & \downarrow \mathrlap{\lambda} \\
-  x t & \stackrel{1}{\to} & x t
-}\qquad \qquad
-\array{
- s s x & \stackrel{s \lambda}{\to} & s x t & \stackrel{\lambda t}{\to}
- & x t t \\
- \mathllap{\mu^s x} \downarrow & & & & \downarrow \mathrlap{x \mu^t}
- \\
- s x & & \stackrel{\lambda}{\to} & & x t
-}
-$$
-Finally, a 2-cell $(x,\lambda) \Rightarrow (y, \kappa)$ is given by a 2-cell $m \colon x \Rightarrow y$ satisfying
-$$
-\array{
- s x & \stackrel{s m}{\to} & s y \\
- \mathllap{\lambda} \downarrow & & \downarrow \mathrlap{\kappa} \\
- x t & \stackrel{m t}{\to} & y t
-}
-$$
+Spelling this out:
+
+\begin{definition}  
+**(2-category of monads)**
+\linebreak
+
+1. An [[object]] in $Mnd(K)$ is a monad $(a,t,\eta,\mu)$ in $K$;
+
+1. a [[1-morphism]] $(a,t) \to (b,s)$ in $Mnd(K)$ is given by 
+
+   1. a [[1-morphism]] $x \colon a \to b$ in $K$ 
+
+   1. a [[2-morphisms]] $\lambda \colon s x \to x t$  in $K$
+ 
+   making the following [[commuting diagram|diagrams commute]]:
+
+   $$
+   \array{
+     x & \stackrel{\eta^s x}{\to} & s x 
+     \\
+     \mathllap{x \eta^t} 
+     \big\downarrow 
+       & & 
+     \big\downarrow    
+     \mathrlap{\lambda} 
+     \\
+     x t 
+      & \overset{1}{\longrightarrow} & 
+     x t
+   }
+   \qquad \qquad
+   \array{
+      s s x 
+      & 
+      \overset{s \lambda}{\to} 
+      & s x t &    
+      \overset{\lambda t}{\longrightarrow}
+      & x t t 
+      \\
+      \mathllap{\mu^s x} 
+      \big\downarrow 
+        & & & & 
+      \big\downarrow 
+      \mathrlap{x \mu^t}
+      \\
+      s x 
+      & & 
+      \overset{\lambda}{\longrightarrow} 
+      & & 
+      x t
+   }
+   $$
+
+
+1. a [[2-morphism]] $(x,\lambda) \Rightarrow (y, \kappa)$ in $Mnd(K)$ is given by 
+
+   * a [[2-morphism]] $m \colon x \Rightarrow y$  in $K$
+
+   making the following [[commuting diagram|diagram commute]]
+
+   $$
+   \array{
+    s x & \stackrel{s m}{\to} & s y \\
+    \mathllap{\lambda} \downarrow & & \downarrow    \mathrlap{\kappa} \\
+    x t & \stackrel{m t}{\to} & y t
+   }
+   $$
+
+\end{definition}
+
 
 ### Algebras/modules over a monad 
  {#Algebras}
