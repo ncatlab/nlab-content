@@ -25,17 +25,18 @@
 
 In [[functional programming]] using [[monads (in computer science)|monads for computational effects]], *monad transformers* are type constructors which take one monad to another in a compatible way.
 
-In practice this is typically motivated by and used for *combining* a monadic effect $\mathcal{E}_{new}$ into any given one $\mathcal{E}$ by $\mathcal{E} \mapsto \mathcal{E}_{new} \circ \mathcal{E} $.
+In practice this is typically motivated by and used for *combining* a monadic effect $\mathcal{E}_{new}$ into any given one $\mathcal{E}$ by $\mathcal{E} \mapsto \mathcal{E}_{new} \circ \mathcal{E} $ via a universal [[distributive law]].
 
 Formally, a monad transformer on a given category $\mathbf{C}$ (of [[data types|data]] [[types]]) is a [[pointed endofunctor]] on the [category of monads](monad#TransformationOfMonadsOnFixedCategory) $Mnd(\mathbf{C})$ (this is made explicit in [Winitzki 2022, p. 474](#Winitzki22)), namely:
 
 1. an [[endofunctor]] $\mathcal{E} \to \mathcal{E}'$ taking monads to monads
 
-1. for each $\mathcal{E}$ a [morphism of monads](monad#TransformationOfMonadsOnFixedCategory) $t_{\mathcal{E}} \colon \mathcal{E} \longrightarrow \mathcal{E}'$
+1. for each $\mathcal{E}$ a [morphism of monads](monad#TransformationOfMonadsOnFixedCategory) $trans_{\mathcal{E}} \,\colon\, \mathcal{E} \longrightarrow \mathcal{E}'$
 
-1. such that these are [[natural transformations|natural]].
+1. such that these are [[natural transformations|natural]] with respect to [morphism of monads](monad#TransformationOfMonadsOnFixedCategory).
 
-This construction is sometimes viewed (see [HP07](#HP07), [[Eff]]) as a complication resulting from passing to monads from the setting of [[Lawvere theories]], where any two theories may be naturally combined.
+This construction is sometimes viewed (see [HP07](#HP07), and at *[[Eff]]*) as a complication resulting from passing to monads from the setting of [[Lawvere theories]], where any two theories may be naturally combined.
+
 
 ## References
 
@@ -47,7 +48,7 @@ See also:
 
 * Wikipedia, *[Monad transformer](https://en.wikipedia.org/wiki/Monad_transformer)*
 
-* Haskell, [Monad transformers](https://en.wikibooks.org/wiki/Haskell/Monad_transformers)
+* Haskell, *[Monad transformers](https://en.wikibooks.org/wiki/Haskell/Monad_transformers)*
 
 * Bryan O'Sullivan, Don Stewart, and John Goerzen, _Monad transformers_, [Chapter 18](http://book.realworldhaskell.org/read/monad-transformers.html) of Real World Haskell.
 
