@@ -209,12 +209,20 @@ Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972
 
 \end{definition}
 
+\begin{remark}
+**(handedness of the underlying natural transformation)**
+\linebreak
 Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is orriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70).
+\end{remark}
+
 
 \begin{example}\label{TransformationOfMonadsOnFixedCategory}
 **(transformation of monads on a fixed category)**
 \linebreak
-For the case $K = $ [[Cat]] and considering a pair of monads
+This example is the simpler but important special case of the general Def. \ref{TwoCategoryOfMonads} where the monads all act on the same fixed object -- in particular the same category if $K = Cat$ (stated in this form for instance in [Barr & Wells 1983 §6.1](#BarrWells83)),  of relevance notably for [[monads in computer science]] (where this is [Moggi 1989 Def. 4.0.11](monad+in+computer+science#Moggi89Abstract)) which typically all act on the same category of [[data types|data]] [[types]]:
+
+
+For a pair of monads
 $(\mathcal{E}, ret^{\mathcal{E}}, join^{\mathcal{E}})$,
 $(\mathcal{E}', ret^{\mathcal{E}'}, join^{\mathcal{E}'})$
 on a fixed category $\mathbf{C}$:
@@ -229,8 +237,6 @@ $$
 a morphism between them is 
 
 * a [[natural transformation]] $\lambda \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
-
-(beware that above this is taken in the opposite direction)
 
 such that it respects the [[monad units]]
 
@@ -520,7 +526,7 @@ Further original texts:
 * [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
-* [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+* {#BarrWells83} [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 
 
