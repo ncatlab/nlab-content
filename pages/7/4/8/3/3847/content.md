@@ -82,6 +82,8 @@ Canonical references on Hall algebras include the following.
 
 * wikipedia: [Hall algebra](https://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](https://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
 
+* [The Hall multiplication](https://www.math.uni-bielefeld.de/~ringel/lectures/green/Welcome.html) (a page which a part of a lecture course by Ringel)
+
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. (chap. 10: Ringel-Hall algebras) [MR2009i:17023)](https://mathscinet.ams.org/mathscinet-getitem?mr=2457938)
