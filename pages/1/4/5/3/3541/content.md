@@ -1,3 +1,4 @@
+[[!redirects quantum operation]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -9,6 +10,7 @@
 =--
 =--
 
+
 #Contents
 * table of contents
 {:toc}
@@ -16,7 +18,7 @@
 ## Idea
  {#Idea}
 
-In [[quantum physics]] and specifically in [[quantum information theory]] and [[quantum probability theory]], by a *quantum operation* or *quantum channel* one means any physically reasonable operation on, or transformation of *[[mixed states]]* (in contrast to *[[quantum gates]]* operating on [[pure states]]), notably such as sending information through a "communication channel" (in the sense of [[information theory]]), whence the terminology *quantum channel*.
+In [[quantum physics]] -- and specifically in [[quantum information theory]] and [[quantum probability theory]] -- by a *quantum operation* or *quantum channel* one means any physically reasonable operation on, or transformation of *[[mixed states]]* (in contrast to *[[quantum gates]]* operating on [[pure states]]), notably such as sending information through a "communication channel" (in the sense of [[information theory]]), whence the terminology *quantum channel*.
 
 More concretely, the physical nature of quantum channels is that they unify "loss-less" [[unitary operator|unitary]] transformations on [[quantum states]] (as known [[Schrödinger equation|Schrödinger evoluation]] and [[quantum gates]]) with stochastic effects such as due to [[quantum noise]] and [[quantum state collapse]] due to [[quantum measurement]].
 
@@ -24,101 +26,137 @@ In short, just as the notion of [[mixed states]] generalizes the notion of [[pur
 
 Mathematically, with [[mixed states]] represented by [[density matrices]] and generally by [[positive linear operators]], a quantum channel is just a suitable [[map]] between spaces of such [[matrices]] or [[linear operators]], whence they are sometimes also called *[[superoperators]]* (in the sense of "operators operating on operators").
 
-Moreover, in the context of [[quantum information theory]] the relevant [[spaces of quantum states]] are all [[finite dimensional Hilbert space|finite-dimensional]], in which case quantum channels are traditionally discussed as (special) [[linear maps]] between [[vector spaces]] of [[square matrix|square]] [[matrices]]:
+But in the context of [[quantum information theory]] the relevant [[spaces of quantum states]] are all [[finite-dimensional Hilbert space|finite-dimensional]], in which case quantum channels are traditionally discussed as (special) [[linear maps]] between [[vector spaces]] of [[square matrix|square]] [[matrices]]:
 
 $$
   chan
   \;\colon\;
   Mat_{n_1}(\mathbb{C}) 
     \longrightarrow
-  Mat_{n_1}(\mathbb{C})
+  Mat_{n_2}(\mathbb{C})
   \,.
 $$
 
-Slightly more abstractly, such as in the formulation of [[quantum information theory via dagger compact categories]], these are certain [[morphisms]] in a [[compact closed category]] of the form
+Slightly more abstractly, such as in the formulation of [[quantum information theory via dagger-compact categories]], these are certain [[morphisms]] in a [[compact closed category]] of the form
 
 $$
   chan
   \;\colon\;
-  \mathscr{H}_1 \otimes \mathscr{H}_1^\otimes
+  \mathscr{H}_1 \otimes \mathscr{H}_1^\ast
     \longrightarrow
-  \mathscr{H}_2 \otimes \mathscr{H}_2^\otimes
+  \mathscr{H}_2 \otimes \mathscr{H}_2^\ast
 $$
 
-(where above $n_i = dim(\mathscr{H}_i)$ is the [[dimensionl of a vector space|dimension]] of the given [[finite-dimensional Hilbert space]]).
+(where above $n_i = dim(\mathscr{H}_i)$ is the [[dimension of a vector space|dimension]] of the given [[finite-dimensional Hilbert space]]).
 
 The key point is that such linear maps are to qualify as quantum channels iff they suitably restrict to maps between the *[[convex set|convex]]* [[subsets]] of [[density matrices]] (the [[mixed states]]) inside $\mathscr{H}_i\otimes\mathscr{H}_i^\ast$, which is a non-linear condition.
 
 There is some slight variation in the exact list of properties demanded of a quantum channel, but the key demand is that it  be a "*positive map*" in that it takes [[positive operators]] (such as [[density operators]]) to positive operators --- and in fact a *completely positive map*, meaning that it remains positive after [[tensor product of vector spaces|tensoring]] with any [[identity map|identity transformation]].
 
+This is discussed below at:
+
+* *[In terms of positivity conditions](#InTermsOfPositivityConditions)*
+
+
 Often demanded is also that a quantum channel preserves the [[trace]] of matrices, which in [[quantum probability]] means that it preserves total probability, hence that it is the quantum analog of a *[[stochastic map]]*  --- through what fundamentally matters is that a quantum channel at most lowers the probability (the description of the channel need not describe all possible outcomes, but it must not make new outcomes appear out of nowhere).
 
 Less often demanded is that a quantum channel also preserves the [[identity matrix]], in which case it is the quantum analog of a [[doubly stochastic map]].
 
-Beyond these abstract characterizations, the [[Stinespring factorization theorem]] characterizes quantum channels more explicitly as those maps on matrices arising as [[sums]] of [[conjugations]] by certain tuples of linear operators ("*Kraus operators*"). Much of the discussion of quantum channels in the literature proceeds by manipulating such *Kraus decompositions* of quantum channels.
+Beyond these abstract characterizations, the [[Stinespring factorization theorem]] characterizes quantum channels more explicitly as those maps on matrices arising as [[sums]] of [[conjugations]] 
+$$
+  chan
+  \;\colon\;
+  \rho 
+  \;\mapsto\;
+  \underset{w}{\sum}
+  E_w \cdot \rho \cdot E_w^\dagger
+$$
+by certain [[tuples]] $(E_w)_{w \colon W}$ of linear operators ("*Kraus operators*"). Much of the discussion of quantum channels in the literature proceeds by manipulating such *Kraus decompositions* of quantum channels.
 
-In particular, in [[quantum information theory via dagger-compact categories]] one reformulates ([Selinger 2005](#Selinger05)) the Stinespring theorem as saying that quantum channels are given precisely by those [[string diagrams]] of the following form:
+This is discussed below at:
 
-(...)
+* *[In terms of Kraus decompositions](#InTermsOfKrausDecompositions)*
+
+For example, a [[unitary quantum channel]] describing a loss-less [[quantum gate]] is given by a single [[unitary operator|unitary]] Kraus operator as
+
+\[
+  \label{UnitaryChannelInIdeaSection}
+  chan_U
+  \;\colon\;
+  \rho 
+  \;\mapsto\;
+  U \cdot \rho \cdot U^\dagger
+  \,,
+\]
+
+while, on the other extreme, a [[quantum measurement]] in a maesurement [[basis of a vector space|basis]] $W$, $\underset{W}{\oplus} \mathbb{C}  \simeq \mathscr{H}$ is given by the corresponding [[projection operators]] $P_w$ as
+
+\[
+  \label{MeasurementChannelInIdeaSection}
+  meas_W
+  \;\colon\;
+  \rho 
+  \;\mapsto\;
+  \underset{w}{\sum}
+  P_w \cdot \rho \cdot P_w
+  \,.
+\]
+
+Remarkably (from the discussion at *[[quantum decoherence]]*) one finds that such a measurement channel (eq:MeasurementChannelInIdeaSection) may equivalently be understood as the result of a unitary evolution (eq:UnitaryChannelInIdeaSection) of the state $\rho$ coupled to an environment state $\omega$ *followed by* the [[partial trace]] over the environment's Hilbert space. This observation turns out to generally lead to yet another characterization of quantum channels:
+
+Quantum channels equivalently act on a density matrix $\rho$ by 
+
+1. tensoring it to another state $\omega$
+
+   (coupling the system to an environment/"bath")
+
+1. sending the tensor state through a unitary channel (eq:UnitaryChannelInIdeaSection) 
+
+   ([[Schrödinger equation|Schrödinger evolution]] of the couplesystem)
+
+1. applying the [[partial trace]] over the Hilbert space of $\omega$
+
+   (averaging the outcome over all states of the environment/bath).
+
+In this perspective, quantum channels are understood as a kind of unitary quantum gates after all, but acting on [[open quantum systems]] including their environment with the stochasticity induced (only) by (deliberate) ignorance of the environment's state.
+
+This is discussed below at:
+
+* *[In terms of partial traces](#InTermsOfartialTraces)*
+
+In this last form, the formulation of quantum gates lends itself to formulation in the [[string diagram]]-calculus of [[quantum information theory via dagger-compact categories]]. 
+
+This is discussed below at :
+
+* [In terms of dagger-compact closed categories](#InTermsOfCompactClosedCategories)
+
+
+\linebreak
 
 
 ## Definition
 
-We first give the traditional definition in terms of [[linear algebra]] and [[matrices]] in 
+### In terms of positivity conditions
+ {#InTermsOfPositivityConditions}
 
-* [In terms of matrices](#InTermsOfMatrices)
+> old material, to be adjusted...
 
-Then we consider the general abstract formulation 
+Notice that the identity map is clearly completely positive and trace preserving, and that the composite of two maps that preserve positivity and trace clearly still preserves positivity and trace. Therefore we obtain a [[category]] $QChan \subset Vect$ -- a [[subcategory]] of [[Vect]]${}_{\mathbb{C}}$ -- whose
 
-* [In terms of compact closed categories](#InTermsOfCompactClosedCategories)
+* objects are the vector spaces $Mat(n \times n, \mathbb{C})$ for all $n \in \mathbb{N}$;
 
+* morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
 
-### In terms of matrices
- {#InTermsOfMatrices}
-
-Let $k,n \in \mathbb{N}$.
-
-A matrix $A \in Mat(n \times n, \mathbb{C})$ is called _[[positive semidefinite|positive]]_ if it is hermitian -- if $A^\dagger = A$ -- and if all its eigenvalues (which then are necessarily real) are non-negative.
-
-A linear map (morphism of [[vector space]]s of matrices)
-
-$$
-  \Phi
-  \;\colon\;
-  Mat(n \times n, \mathbb{C}) 
-    \to 
-  Mat(k \times k, \mathbb{C})
-$$
-
-is called _positive_ if it takes positive matrices to positive matrices.
-
-The map $\Phi$ is called _completely positive_ if for all $p \in \mathbb{N}$ the [[tensor product]]
-
-$$
-  \Phi \otimes Id_{Mat(p\times p),\mathbb{C}} 
-  \;\colon\;
-  Mat(n \times n , \mathbb{C})
-  \otimes
-  Mat(p \times p , \mathbb{C})
-    \longrightarrow
-  Mat(k \times k , \mathbb{C})
-  \otimes
-  Mat(p \times p , \mathbb{C})
-$$
-
-is positive.
-
-A _quantum operation_ (or quantum channel) is a map that is both completely positive and trace preserving (often abbreviated to CPTP).
-
-### In terms of compact closed categories
- {#InTermsOfCompactClosedCategories}
-
-... due to ([Selinger 05](#Selinger05)) ... see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)) for a quick summary ...
-
-## Properties
+* composition of morphisms is, of course, the composition in [[Vect]], i.e. the ordinary composition of linear maps.
 
 
-### Characterization of complete positivity
+
+
+
+### In terms of Kraus decompositions
+ {#InTermsOfKrausDecompositions}
+
+> old material, to be adjusted...
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -145,26 +183,34 @@ The matrices $\{E_i\}$ that are associated to a completely positive and trace-pr
 
 In the physics literature the above theorem is then phrased as: _Every quantum channel can be represented using Kraus operators_  .
 
-Notice that the identity map is clearly completely positive and trace preserving, and that the composite of two maps that preserve positivity and trace clearly still preserves positivity and trace. Therefore we obtain a [[category]] $QChan \subset Vect$ -- a [[subcategory]] of [[Vect]]${}_{\mathbb{C}}$ -- whose
 
-* objects are the vector spaces $Mat(n \times n, \mathbb{C})$ for all $n \in \mathbb{N}$;
+### In terms of partial traces 
+ {#InTermsOfartialTraces}
 
-* morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
+(...)
 
-* composition of morphisms is, of course, the composition in [[Vect]], i.e. the ordinary composition of linear maps.
 
-See also [[extremal quantum channels]] and [[graphical quantum channels]].
+
+### In terms of $\dagger$-compact closed categories
+ {#InTermsOfCompactClosedCategories}
+
+... due to ([Selinger 05](#Selinger05)) ... see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)) for a quick summary ...
+
+
+## Properties
+
+
 
 ### Universal property
 
 The [[category]] whose [[objects]] are indexed by [[natural numbers]] $n,m, \cdots$ and whose [[morphisms]] are quantum operations from $n \times n$ to $m \times m$ matrices is a [[semicartesian monoidal category]] with the [[monoidal category|monoidal structure]] given by multiplication of numbers. Being semicartesian, the monoidal [[tensor unit]] (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
 
-In fact, this category has the [[universal property]] of the semicartesian reflection of the monoidal category of [[isometries]]. This is the category whose objects are natural numbers, considered as [[Hilbert spaces]], and whose [[morphisms]] are isometries between them, where an [[isometry]] $m\to n$ is an $m\times n$ complex matrix $V$ such that $VV*=I$. 
+In fact, this category has the [[universal property]] of the semicartesian reflection of the monoidal category of [[isometries]]. This is the category whose objects are natural numbers, considered as [[Hilbert spaces]], and whose [[morphisms]] are isometries between them, where an [[isometry]] $m\to n$ is an $m\times n$ complex matrix $V$ such that $V V* = I$. 
 
 In detail, the [[universal property]] says that for any strict semicartesian monoidal category $\mathcal{D}$ and any monoidal functor $\mathbf{Isometries}\to \mathcal{D}$, there is a unique symmetric monoidal functor making the following diagram commute:
 $$
 \array{
-\mathbf{Isometries} &\rightarrow& \mathbf{Quantum Channels} \\
+{Isometries} &\rightarrow& {Quantum Channels} \\
 &\searrow&\downarrow\\
 && \mathcal{D}
 }
@@ -192,6 +238,8 @@ Examples of [[quantum noise]] channels:
 * [[bit flip channel]]
 
 ## Related concepts
+
+* [[extremal quantum channel]] 
 
 * [[quantum information theory via dagger-compact categories]]
 
