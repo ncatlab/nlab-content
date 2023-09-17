@@ -14,24 +14,52 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Any physical process is supposed to take [[physical states]] into physical states ([[Schrödinger picture]]). If  [[density matrices]] are used to describe [[quantum states]] in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices. So for finite-dimensional state spaces a process should be a [[linear map]] of [[vector spaces]] of [[matrices]]
+In [[quantum physics]] and specifically in [[quantum information theory]] and [[quantum probability theory]], by a *quantum operation* or *quantum channel* one means any physically reasonable operation on, or transformation of *[[mixed states]]* (in contrast to *[[quantum gates]]* operating on [[pure states]]), notably such as sending information through a "communication channel" (in the sense of [[information theory]]), whence the terminology *quantum channel*.
+
+More concretely, the physical nature of quantum channels is that they unify "loss-less" [[unitary operator|unitary]] transformations on [[quantum states]] (as known [[Schrödinger equation|Schrödinger evoluation]] and [[quantum gates]]) with stochastic effects such as due to [[quantum noise]] and [[quantum state collapse]] due to [[quantum measurement]].
+
+In short, just as the notion of [[mixed states]] generalizes the notion of [[pure state|pure]] [[quantum states]] with their objective, intrinsic and fundamental stochasticity (expressed the [[Born rule]]) to include also subjective, [[thermodynamics|thermodynamical]] [[probability distribution|classical stochasticity]], so quantum channels generalize [[quantum gates]] from pure to mixed states.
+
+Mathematically, with [[mixed states]] represented by [[density matrices]] and generally by [[positive linear operators]], a quantum channel is just a suitable [[map]] between spaces of such [[matrices]] or [[linear operators]], whence they are sometimes also called *[[superoperators]]* (in the sense of "operators operating on operators").
+
+Moreover, in the context of [[quantum information theory]] the relevant [[spaces of quantum states]] are all [[finite dimensional Hilbert space|finite-dimensional]], in which case quantum channels are traditionally discussed as (special) [[linear maps]] between [[vector spaces]] of [[square matrix|square]] [[matrices]]:
 
 $$
-  U 
+  chan
   \;\colon\;
-  Mat(n \times n, \mathbb{C}) 
-    \to 
-  Mat(k \times k, \mathbb{C})
+  Mat_{n_1}(\mathbb{C}) 
+    \longrightarrow
+  Mat_{n_1}(\mathbb{C})
+  \,.
 $$
 
-(so far this is a general "[[superoperator]]") that preserves the subset of [[density matrices]], in that
+Slightly more abstractly, such as in the formulation of [[quantum information theory via dagger compact categories]], these are certain [[morphisms]] in a [[compact closed category]] of the form
 
-* it preserves the [[trace]] of matrices;
+$$
+  chan
+  \;\colon\;
+  \mathscr{H}_1 \otimes \mathscr{H}_1^\otimes
+    \longrightarrow
+  \mathscr{H}_2 \otimes \mathscr{H}_2^\otimes
+$$
 
-* takes [[hermitian matrices]] with non-negative [[eigenvalues]] to hermitian matrices with non-negative eigenvalues.
+(where above $n_i = dim(\mathscr{H}_i)$ is the [[dimensionl of a vector space|dimension]] of the given [[finite-dimensional Hilbert space]]).
 
-Such a map is then called a _quantum operation_. The notion of a quantum operation is built from the [[Stinespring factorization theorem]].
+The key point is that such linear maps are to qualify as quantum channels iff they suitably restrict to maps between the *[[convex set|convex]]* [[subsets]] of [[density matrices]] (the [[mixed states]]) inside $\mathscr{H}_i\otimes\mathscr{H}_i^\ast$, which is a non-linear condition.
+
+There is some slight variation in the exact list of properties demanded of a quantum channel, but the key demand is that it  be a "*positive map*" in that it takes [[positive operators]] (such as [[density operators]]) to positive operators --- and in fact a *completely positive map*, meaning that it remains positive after [[tensor product of vector spaces|tensoring]] with any [[identity map|identity transformation]].
+
+Often demanded is also that a quantum channel preserves the [[trace]] of matrices, which in [[quantum probability]] means that it preserves total probability, hence that it is the quantum analog of a *[[stochastic map]]*  --- through what fundamentally matters is that a quantum channel at most lowers the probability (the description of the channel need not describe all possible outcomes, but it must not make new outcomes appear out of nowhere).
+
+Less often demanded is that a quantum channel also preserves the [[identity matrix]], in which case it is the quantum analog of a [[doubly stochastic map]].
+
+Beyond these abstract characterizations, the [[Stinespring factorization theorem]] characterizes quantum channels more explicitly as those maps on matrices arising as [[sums]] of [[conjugations]] by certain tuples of linear operators ("*Kraus operators*"). Much of the discussion of quantum channels in the literature proceeds by manipulating such *Kraus decompositions* of quantum channels.
+
+In particular, in [[quantum information theory via dagger-compact categories]] one reformulates ([Selinger 2005](#Selinger05)) the Stinespring theorem as saying that quantum channels are given precisely by those [[string diagrams]] of the following form:
+
+(...)
 
 
 ## Definition
