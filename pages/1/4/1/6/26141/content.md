@@ -5,6 +5,24 @@
 
 A version of [[propositional truncation]] which takes types and turns them into [[strict propositions]].
 
+## Definition
+
+### With sProp
+
+Given a [[type of strict propositions]] $\mathrm{sProp}$, the squash type could be defined in the same manner as [[propositional truncations]]:
+
+$$[A]_s \coloneqq \prod_{P:\mathrm{sProp}} (A \to P) \to P$$
+
+### Without sProp
+
+Without a [[type of strict propositions]] $\mathrm{sProp}$, the squash type would have to be defined  using [[inference rules]].
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash [A]_s \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:[A]_s, y:[A]_s \vdash x \equiv y:[A]_s} \qquad \frac{\Gamma \vdash x:A}{\Gamma \vdash \mathrm{squash}(x):[A]_s}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash P \; \mathrm{type} \quad \Gamma, p:P, q:P \vdash p \equiv q:P \quad \Gamma \vdash f:A \to P \quad \Gamma \vdash x:[A]_s}{\Gamma \vdash \mathrm{unsquash}_P(f, x):P}$$
+
+Similarly to [[propositional truncations]], the recursion rule for squash types is sufficient to define the induction rule for squash types. 
+
 ## Related concepts
 
 * [[judgmental equality]]
@@ -13,7 +31,7 @@ A version of [[propositional truncation]] which takes types and turns them into 
 
 * [[strict proposition]]
 
-* [[sProp]]
+* [[type of strict propositions]]
 
 ## References
 
