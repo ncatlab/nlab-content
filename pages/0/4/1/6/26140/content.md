@@ -1,11 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 \tableofcontents
 
 ## Idea
 
-In [[dependent type theory]], there are two notions of equality, strict or [[judgmental equality]] and weak or [[typal equality]]. Thus, there are two notions of propositions or subsingletons. The usual notion of proposition, [[h-propositions]], are the types $A$ where every two elements $a:A$ and $b:A$ are typally equal to each other $p(a, b):a =_A b$. Strict propositions are the types $A$ where every two elements $a:A$ and $b:A$ are judgmentally equal to each other $a \equiv b:A$. 
+In [[dependent type theory]], there are two notions of [[equality]], 
 
-Strict propositions are used to formalize [[logic over type theory]] in [[dependent type theory]] without having to postulate a separate proposition judgment, since strict propositions are judgmentally proof irrelevant, and thus behave as propositions in traditional [[propositional logic]]. 
+1. *strict* or *[[judgmental equality]]*,
+
+1. *weak* or *[[typal equality]]*. 
+
+Accordingly there are two corresponding notions of [[propositions]] or [[subsingletons]]:
+
+1. The usual notion of proposition, [[h-propositions]], are the types $A$ where every two elements $a:A$ and $b:A$ are typally equal to each other $p(a, b):a =_A b$. 
+
+1. *Strict propositions*, which are the types $A$ where every two elements $a:A$ and $b:A$ are [[judgemental equality|judgmentally equal]] to each other $a \equiv b:A$. 
+
+Strict propositions are used to formalize [[logic over type theory]] in [[dependent type theory]] without having to postulate a separate proposition judgment, since strict propositions are judgmentally [[proof relevance|proof irrelevant]], and thus behave as propositions in traditional [[propositional logic]]. 
 
 ## Examples
 
@@ -14,6 +35,7 @@ Strict propositions are used to formalize [[logic over type theory]] in [[depend
 * The strict [[unit type]] with judgmental [[computation rules]] is a strict proposition. 
 
 * The [[squash type]] of any type is a strict proposition.
+
 
 ## Related concepts
 
