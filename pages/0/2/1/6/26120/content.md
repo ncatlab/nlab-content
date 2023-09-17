@@ -496,6 +496,7 @@ This exhibits the linear $\mathscr{H}$-store comonad as [[left adjoint]] equival
     }
 \end{imagefromfile}
 
+Moreover, these (co)monads may equivalently be understood as the ([[cowriter comonad|co]]-)[[writer monads]] induced by the [[endomorphism algebra]] $End(\mathscr{H}) \,\simeq\, \mathscr{H}^\ast \otimes \mathscr{H}$, which is a [[Frobenius algebra]] (by general arguments as recalled in [Lauda 2006](Frobenius+algebra#Lauda2006), made explicit for instance in [Vicary 2011 Lem 3.17](endomorphism+ring#Vicary11)) and as such makes its ([[cowriter comonad|co]]-)[[writer monad]] into a [[Frobenius monad]].
 
 
 ### Kleisli structure
