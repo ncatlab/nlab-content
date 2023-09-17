@@ -54,6 +54,12 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash x \equiv 
 Univalence:
 $$\frac{\Gamma \vdash A:\mathrm{sProp} \quad \Gamma \vdash B:\mathrm{sProp}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\box(A, B))}$$
 
+#### The empty proposition and falsehood
+
+To ensure that the type of all strict propositions isn't a [[contractible type]], one could include the following axiom, which states that there exists a strict proposition satisfying [[ex falso quodlibet]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{axempty}:\sum_{\bot:\mathrm{sProp}} \prod_{C:\bot \to \mathrm{sProp}} \prod_{x:\bot} C(x)}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{axempty}:\sum_{\bot:\mathrm{sProp}} \prod_{C:\Box \bot \to \mathrm{sProp}} \prod_{x:\Box \bot} \Box C(x)}\mathrm{Tarski}$$
+
 ## Related concepts
 
 * [[judgmental equality]]
