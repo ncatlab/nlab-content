@@ -27,7 +27,7 @@ An immediate non-cartesian example is a [[category of vector spaces]]. At least 
 
 Due to this fact and the general broad identification of (multiplicative) [[linear logic]] with a form of [[quantum logic]], the linear (co)state (co)monad may deserve to be called the *quantum state monad* (cf. the similar situation for the *[[quantum reader monad]]*).
 
-For example, [[unitary quantum channels]] turn out to be embodied by [[monad transformations]] between such quantum state monads, so that with this terminology the plausible and desireable statement "*quantum channels are quantum state transformations*" becomes an actual theorem (Exp. \ref{UnitaryQuantumChannelsAsQUantumStateTransformations} below).
+For example, [[unitary quantum channels]] turn out to be embodied by [[monad transformations]] between such quantum state monads, so that with this terminology the plausible and desireable statement "*quantum channels are quantum state transformations*" becomes an actual theorem (see [below](#QuantumChannelsAreQuantumStateTransformations)).
 
 ## Preliminaries
 
@@ -765,17 +765,17 @@ $$
 
 ## Examples
 
-### Quantum observables
+### Quantum observables are the Quatum state contextful scalars
 
 > (The following now starts out a little repetitive, recalling a special case of the general statement above. Will streamline...)
 
 For the classical [[costate comonad]] on a [[cartesian closed category]] its value and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
 
 \begin{example}
-**(quantum observables as CoState coeffects)**
+**(quantum observables as quantum state contextful scalars)**
 \linebreak
 
-First notice that the value of the costate comonad on the tensor unit
+First notice that the quantum store on the tensor unit
 
 $$
   \mathscr{H}Store(\mathbb{1})
@@ -1005,7 +1005,8 @@ $$
 $$
 \end{remark}
 
-### Quantum channels
+### Quantum channels are the Quantum state transformations
+ {#QuantumChannelsAreQuantumStateTransformations}
 
 \begin{example}
 \label{UnitaryQuantumChannelsAsQUantumStateTransformations}
@@ -1156,7 +1157,8 @@ $$
 
 because $U^\dagger$ is also a [[right inverse]] to $U$, using here the [[compact closed category|compact closure]] identification
 
-$$
+\[
+  \label{SeeingThatUnitaryQuantumChannelPreservesSatteReturn}
   \array{ 
     \mathscr{H}_2
     \otimes
@@ -1191,7 +1193,7 @@ $$
     \left\langle w_2 \right\vert
     \mathrlap{\,.}
   }
-$$
+\]
 
 Therefore also the join and cojoin are preserved, eg.:
 $$
@@ -1297,7 +1299,168 @@ $$
 $$
 \end{proof}
 
+\begin{example}\label{QuantumMeasurementChannelsAreQuantumStateTransformations}
+**(quantum measurement channels are quantum state transformations)**
 
+A [[quantum measurement channel]]
+
+$$
+  \array{
+    (\text{-})
+      \otimes
+    \mathscr{H} 
+      \otimes
+    \mathscr{H}^\ast
+    &&
+    (\text{-})
+      \otimes
+    \mathscr{H} 
+      \otimes
+    \mathscr{H}^\ast
+    \\
+    \left\vert \text{-} \right\rangle
+    \otimes
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    &\mapsto&
+    \left\vert \text{-} \right\rangle
+    \otimes
+    \underset{w}{\sum}
+    P_w
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    P_w
+  }
+$$
+
+is a [transformation of](monad#TransformationOfMonadsOnFixedCategory) quantum state monads.
+\end{example}
+\begin{proof}
+As before, it is sufficient to check that the (co)units are preserved. This is the case:
+$$
+  \array{
+    (\text{-})
+      \otimes
+    \mathscr{H} 
+      \otimes
+    \mathscr{H}^\ast
+    &
+    \overset{meas_W}{\longrightarrow}
+    &  
+    (\text{-})
+      \otimes
+    \mathscr{H} 
+      \otimes
+    \mathscr{H}^\ast
+    &
+    \overset{
+      \mathrm{obt}^{ \mathscr{H}Store }_{(\text{-})}
+    }{\longrightarrow}
+    &  
+    (\text{-})
+    \\
+    \left\vert \text{-} \right\rangle
+    \otimes
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    &\mapsto&
+    \left\vert \text{-} \right\rangle
+    \otimes
+    \underset{w}{\sum}
+    P_w
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    P_w
+    &\mapsto&
+    \left\vert \text{-} \right\rangle
+    \otimes
+    \underset{w}{\sum}
+    \left\langle \phi \right\vert
+    P_w
+    P_w
+    \left\vert \psi \right\rangle
+    \\
+    && &=&
+    \left\vert \text{-} \right\rangle
+    \otimes
+    \left\langle \phi \right\vert
+    \left\vert \psi \right\rangle
+    \\
+    && &=&
+    obt^{ \mathscr{H}Store }_{(\text{-})}
+    \big(
+      \left\vert \text{-} \right\rangle
+      \otimes
+      \left\vert \psi \right\rangle
+      \left\langle \phi \right\vert      
+    \big)
+  }
+$$
+and
+$$
+  \array{
+    (\text{-})
+    &
+    \overset{   
+      ret^{\mathscr{H}State}_{(\text{-})}
+    }{\longrightarrow}
+    &
+    (\text{-})
+      \otimes
+    \mathscr{H}
+      \otimes
+    \mathscr{H}^\ast
+    &
+    \overset{
+      meas_W
+    }{\longrightarrow}
+    &
+    (\text{-})
+      \otimes
+    \mathscr{H}
+      \otimes
+    \mathscr{H}^\ast
+    \\
+    \left\vert \text{-} \right\rangle
+    &\mapsto&
+    \left\vert \text{-} \right\rangle
+      \otimes
+    \underset{w}{\sum}
+    \left\vert w \right\rangle
+    \left\langle w \right\vert   
+    &\mapsto&
+    \left\vert \text{-} \right\rangle
+      \otimes
+    \underset{w, w'}{\sum}
+    P_{w'}
+    \left\vert w \right\rangle
+    \left\langle w \right\vert   
+    P_{w'}
+    \\
+    && &=&
+    \left\vert \text{-} \right\rangle
+      \otimes
+    \underset{w}{\sum}
+    \left\vert w \right\rangle
+    \left\langle w \right\vert   
+    \\
+    && &=& 
+    ret^{\mathscr{H}}_{(\text{-})}
+    \big(
+      \left\vert \text{-} \right\rangle
+    \big)
+  }
+$$
+
+Notice that the second-but-last step on the right is particularly evident if $w$ and $w'$ run over the same basis set as shown here, but also that the return operation $ret^{\mathscr{H}State}$ could be written in terms of any other orthonormal basis (the conclusion still follows by an argument just as in (eq:SeeingThatUnitaryQuantumChannelPreservesSatteReturn).)
+
+
+\end{proof}
+
+In general:
+\begin{proposition}
+  Every [[unital quantum channels]] may be regarded as a [transformation of](monad#TransformationOfMonadsOnFixedCategory) quantum state monads.
+\end{proposition}
 
 
 ## Related concepts
