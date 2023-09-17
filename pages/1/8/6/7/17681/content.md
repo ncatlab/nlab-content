@@ -31,12 +31,15 @@ Formally, a monad transformer on a given category $\mathbf{C}$ (of [[data types|
 
 1. an [[endofunctor]] $\mathcal{E} \to \mathcal{E}'$ taking monads to monads
 
-1. for each $\mathcal{E}$ a [morphism of monads](monad#TransformationOfMonadsOnFixedCategory) $trans_{\mathcal{E}} \,\colon\, \mathcal{E} \longrightarrow \mathcal{E}'$
+1. for each $\mathcal{E}$ a [morphism of monads](monad#TransformationOfMonadsOnFixedCategory) $trans_{\mathcal{E}} \,\colon\, \mathcal{E} \longrightarrow \mathcal{E}'$ (a *[[monad transformation]]*)
 
 1. such that these are [[natural transformations|natural]] with respect to [morphism of monads](monad#TransformationOfMonadsOnFixedCategory).
 
 This construction is sometimes viewed (see [HP07](#HP07), and at *[[Eff]]*) as a complication resulting from passing to monads from the setting of [[Lawvere theories]], where any two theories may be naturally combined.
 
+## Related concepts
+
+* [[monad transformation]]
 
 ## References
 
