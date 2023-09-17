@@ -532,7 +532,7 @@ A textbook occurrence of dot notation for general spin groups, $Spin(n_1)\cdot S
 * {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], Prop. 17.3.1 _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
 
 
-The identification of $Spin \dot Spin(2)$ with [[Spin^c]] appears for instance in
+The identification of $Spin \cdot Spin(2)$ with [[Spin^c]] appears for instance in
 
 * {#Gompf97} [[Robert Gompf]], _$Spin^c$ structures and homotopy equivalences_, Geom. Topol. 1 (1997) 41-50 ([arXiv:math/9705218](https://arxiv.org/abs/math/9705218))
 
