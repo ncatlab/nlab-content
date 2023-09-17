@@ -139,7 +139,7 @@ The axioms then appear as:
 
 Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ &lbrack;[Bénabou 1967, pp. 39](#Bénabou67)&rbrack; it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
+Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Coppey 1970](#Coppey70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
 
 \begin{definition}\label{TwoCategoryOfMonads}
 **(2-category of monads)**
@@ -147,7 +147,9 @@ Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972
 
 1. An [[object]] in $Mnd(K)$ is a monad $(a,t,\eta,\mu)$ in $K$;
 
-1. a [[1-morphism]] $(a,t) \to (b,s)$ in $Mnd(K)$ is given by 
+1. a [[1-morphism]] $(a,t) \to (b,s)$ in $Mnd(K)$ ("monad functor" or "[[monad transformation]]")
+
+   is given by 
 
    1. a [[1-morphism]] $x \colon a \to b$ in $K$ 
 
@@ -209,10 +211,12 @@ Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Street 1972
 
 \end{definition}
 
-\begin{remark}
+\begin{remark}\label{HandednessOfMonadMorphism}
 **(handedness of the underlying natural transformation)**
 \linebreak
-Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is oriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70).
+Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is oriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70), [Street 1972 pp 158](#Street72).
+
+One issue is that the functor between [[Kleisli categories]] induced by a monad morphism goes in the direction *opposite* of $\lambda$ as defined above, so that for authors who adopt the opposite of the above convention (such as [Pumplün 1970 p 330](#Pumplün70), [Barr & Wells 1985 §6.1](#BarrWells85) and in our Exp. \ref{TransformationOfMonadsOnFixedCategory} below) the association of monad morphisms to functors between Kleisli catgeories is contravariant (eg. [Barr & Wells 1985 Thm. 6.3](#BarrWells85)).
 \end{remark}
 
 
@@ -526,6 +530,9 @@ Further original texts:
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
 * {#Pumplün70} [[Dieter Pumplün]], *Eine Bemerkung über Monaden und adjungierte Funktoren*, Mathematische Annalen **185** (1970) 329-337 &lbrack;[eudml:161964](https://eudml.org/doc/161964), [[Pumpluen-Monaden.pdf:file]]&rbrack;
+
+* {#Coppey70} Laurent Coppey, *Morphismes et comorphismes de cotriples*, [[Comptes rendus hebdomadaires des séances de l'Académie des sciences|C. R. Acad. Sc. Paris]] **271** (1970), &lbrack;[ark:12148/bpt6k5619186c/f27](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f27)&rbrack;
+
 
 * {#MacLane71} [[Saunders MacLane]], Ch. VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
