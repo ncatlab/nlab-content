@@ -72,7 +72,11 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _Réalisations dominées_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f17))
 - _Complétion de groupoïdes uniformes_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f21))
 - _Esquisse de topologie_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f24))
-- _Morphismes et comorphismes de cotriples_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f27))
+
+- _Morphismes et comorphismes de cotriples_, Laurent Coppey (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f27))
+
+  > (on [morphisms of (co)monads](monad#BicategoryOfMonads))
+
 - _Ensemble ordonné des atlas d'un groupoïde_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f31))
 - _Foncteurs structurés compatiblement engendrants et à adjoints compatibles_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5728916p/f16))
 - _Catégories discrèment structurées_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5728916p/f20))
