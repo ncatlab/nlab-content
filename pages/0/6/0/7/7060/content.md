@@ -211,6 +211,8 @@ is the type of all propositions.
 
 * [[type of classes]]
 
+* [[type of strict propositions]]
+
 * [[propositional logic as a dependent type theory]]
 
 ## References
