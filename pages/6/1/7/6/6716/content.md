@@ -95,8 +95,15 @@ $$
 $$
 defined by $(A,B,z) \mapsto (z A,z B)$, which has image $U(2)\times_{U(1)} U(2)$. Similarly to the case of $Spin^c(3)$, the kernel consists of triples $(A,B,z)$ such that $z A = I = z B$, hence that $A = B = (1/z) I$. Since $\det(A) = 1/z^2 = 1$, we must have $z=\pm 1$, and hence $A=B=\pm I$ with the same sign as $z$. Thus the kernel is precisely $\{\pm(I,I,1)\}$, and so again by the universal property we get the isomorphism as stated.
 
-This example can also be considered a type of exceptional isomorphism, even if not to one of the more classical Lie groups. The $Spin(4)$ subgroup can be seen as the subgroup of pairs of unitary matrices with both of them having determinant 1.
+  The $Spin(4)$ subgroup can be seen as the subgroup of pairs of unitary matrices with both of them having determinant 1.
 
+* Using the exceptional isomorphism $Spin(6) \simeq SU(4)$, and the multiplication map $SU(4)\times U(1) \to U(4)$ analogous to the above, it can be seen that the group $Spin^c(6)$ is the connected double cover of $U(4)$ corresponding to the (unique) index-2 subgroup $2\mathbb{Z} \hookrightarrow \mathbb{Z} \simeq \pi_1(U(4))$. This is because the multiplication map is surjective and has kernel canonically isomorphic to $\mu_4$, the fourth roots of unity, via the map $\mu_4\to SU(4)\times U(1)$ sending $\zeta\mapsto (\zeta^{-1}I,\zeta)$. Hence there are a pair of 2:1 surjective homomorphisms
+$$
+SU(4) \times U(1) \to Spin^c(6) \to U(4),
+$$
+and hence the result.
+
+The last two examples can also be considered as exceptional isomorphisms, even if not to one of the more classical Lie groups. 
 
 ## Properties
 
