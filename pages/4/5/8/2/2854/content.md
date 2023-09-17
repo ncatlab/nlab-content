@@ -18,9 +18,9 @@ h\mapsto 1\sharp h$ and the cocycle $\sigma$ built out of $\gamma$ is the same o
 Every cleft extension is a particular case of a [[Hopf-Galois extension]].
    
 * Y. Doi, [[Mitsuhiro Takeuchi]], _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818 [doi](https://doi.org/10.1080/00927878608823337)
-* S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
+* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
-* S. Montgomery, _Hopf algebras and their actions on rings_, CBMS 82, AMS 1993.
+* [[Susan Montgomery]], _Hopf algebras and their actions on rings_, CBMS 82, AMS 1993.
 
 There are generalizations for Hopf algebroids:
 
