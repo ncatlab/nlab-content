@@ -43,9 +43,9 @@ For $n \in \mathbb{N}$, the [[Lie group]] $Spin^c(n)$ is the [[quotient group]]
 
 $$
   \begin{aligned}
-    Spin^c & \coloneqq Spin \times_{\mathbb{Z}_2} U(1)
+    Spin^c(n) & \coloneqq Spin(n) \times_{\mathbb{Z}_2} U(1)
     \\
-    & = (Spin \times U(1))/{\mathbb{Z}_2}
+    & = (Spin(n) \times U(1))/{\mathbb{Z}_2}
     \,,
   \end{aligned}
 $$
@@ -53,6 +53,8 @@ $$
 of the [[product]] of the [[spin group]] with the [[circle group]] by the common [[subgroup|sub]]-[[group of order 2]] $\mathbb{Z}_2 \hookrightarrow Spin$ and $\mathbb{Z}_2 \hookrightarrow U(1)$ (i.e.: the [[central product group]]).
 
 =--
+
+Usually the only the case $n \geq 3$ is considered.
 
 Some authors (e.g. [Gompf 97, p. 2](#Gompf97)) denote this as 
 
@@ -78,7 +80,14 @@ following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
     \;\simeq\; 
     U(2)
   $$
-over the exceptional isomorphism $SO(3) \simeq PU(2)$.
+over the exceptional isomorphism $SO(3) \simeq PU(2)$ (both of these smaller groups are quotients by the respective centres, both identifiable with $U(1)$). This isomorphism follows from considering the surjective homomorphism $SU(2) \times U(1) \to U(2)$ given by $(A,z) \mapsto zA$, and noticing its kernel is precisely $\{\pm(I,1)\}$, hence $U(2)$ satisfies the universal property defining $Spin^c(3)$.
+
+* For $n=4$, we have 
+$$
+Spin^c(4) = \big(U(1) \times SU(2)\times SU(2)\big) / \{\pm(1,I,I)\} \simeq U(2)\times_{U(1)} U(2).  
+$$
+This latter group is the [[fibre product]] of groups over $U(1)$, namely $\{(A,B)\in U(2)\times U(2)\mid \det(A) = \det(B)\}$. This can also be considered a type of exceptional isomorphism, even if not to one of the more classical Lie groups. The $Spin(4)$ subgroup can be seen as pairs of unitary matrices with both of them having determinant 1.
+
 
 ## Properties
 
