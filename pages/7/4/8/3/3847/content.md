@@ -69,7 +69,10 @@ Canonical references on Hall algebras include the following.
 * [[Mikhail Kapranov]], _Eisenstein series and quantum affine algebras_, Journal Math. Sciences __84__ (1997), 1311&#8211;1360.
 * [[Mikhail Kapranov]], [[Eric Vasserot]], _Kleinian singularities, derived categories and Hall algebras_,  Math. Ann.  __316__  (2000) 565-576, [arXiv/9812016](https://arxiv.org/abs/math/9812016)
 * [[Bernhard Keller]], Dong Yang, Guodong Zhou, _The Hall algebra of a spherical object_, J. London Math Soc. (2) __80__ (2009) 771--784, [doi](https://doi.org/10.1112/jlms/jdp054), [pdf](www.math.jussieu.fr/~keller/publ/HallAlgSphericalObject.pdf)
-* C. Ringel, _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583&#8211;591.
+* [[C. M. Ringel]], _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583--591.
+* J. A. Green, _Hall algebras, hereditary algebras and quantum groups_, Invent. Math. __120__ (2), 361--377
+(1995)
+*J.  Xiao, F. Xu, M. Zhao, _Ringel-Hall algebras beyond their quantum groups I: Restriction functor and Green formula. Algebras & Represent. Theory __22__ (2019) , 1299--1329 [doi](https://doi.org/10.1007/s10468-018-9821-5)
 * O. Schiffmann, _Lectures on Hall algebras_, arXiv:[math/0611617](https://arXiv.org/abs/math/0611617)
 * [[Olivier Schiffmann]], [[Eric Vasserot]], _The elliptic Hall algebra_, Cherednik Hecke algebras and Macdonald polynomials, Compositio Mathematica __147__:1 (2011) 188-234 [doi](https://doi.org/10.1112/S0010437X10004872) [arXiv:0802.4001](https://arxiv.org/abs/0802.4001), (2008); _The elliptic Hall algebra and the equivariant K-theory of the Hilbert scheme of $\mathbf{A}^2$_,  Duke Math. J. 162(2): 279-366 (2013) [doi](https://doi.org/10.1215/00127094-1961849) [arXiv:0905.2555](http://arXiv.org/abs/0905.2555)
 * O. Schiffman, _Drinfeld realization of the elliptic Hall algebra_, J. Algebr. Comb. 35 (2012) 237--262  [doi](https://doi.org/10.1007/s10801-011-0302-8) [arxiv/1004.2575](https://arxiv.org/abs/1004.2575) 
