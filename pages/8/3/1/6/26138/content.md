@@ -25,7 +25,7 @@
 
 In [[dependent type theory]], a version of the [[identity type]] where elements from two different types can be compared for equality. Given types $A$ and $B$ and an [[equivalence of types]] $e:A \simeq B$, the two-type identity type between two elements $x:A$ and $y:B$ is a type $\mathrm{Id}_{A,B}(e, x, y)$ whose elements witness that $x$ and $y$ are "equal" over or modulo the equivalence $e$. 
 
-The phrase “two-type identity type” is a placeholder name for a concept which may or may not have another name in the type theory literature. The idea however is that two-type identity types are the "non-dependent" versions of [[dependent identity types]] in that it compares elements between two equivalent types, rather than between a family of dependent types which are equivalent via [[transport]] across an [[identification]] in the index type. 
+The phrase “two-type identity type” is a placeholder name for a concept which may or may not have another name in the type theory literature. The idea however is that two-type identity types are the "non-dependent" versions of [[dependent identity types]] in that it directly compares elements between two equivalent types, rather than between a family of dependent types which are equivalent via [[transport]] across an [[identification]] in the index type. 
 
 ## Definition
 
