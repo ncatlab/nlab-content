@@ -51,16 +51,16 @@ $$
 
 The key point is that such linear maps are to qualify as quantum channels iff they suitably restrict to maps between the *[[convex set|convex]]* [[subsets]] of [[density matrices]] (the [[mixed states]]) inside $\mathscr{H}_i\otimes\mathscr{H}_i^\ast$, which is a non-linear condition.
 
-There is some slight variation in the exact list of properties demanded of a quantum channel, but the key demand is that it  be a "*positive map*" in that it takes [[positive operators]] (such as [[density operators]]) to positive operators --- and in fact a *completely positive map*, meaning that it remains positive after [[tensor product of vector spaces|tensoring]] with any [[identity map|identity transformation]].
+There is slight variation in the exact list of properties demanded of a quantum channel, but the key demand is that it  be a "*positive map*" in that it takes [[positive operators]] (such as [[density operators]]) to positive operators --- and in fact a *completely positive map*, meaning that it remains positive after [[tensor product of vector spaces|tensoring]] with any [[identity map|identity transformation]].
 
 This is discussed below at:
 
 * *[In terms of positivity conditions](#InTermsOfPositivityConditions)*
 
 
-Often demanded is also that a quantum channel preserves the [[trace]] of matrices, which in [[quantum probability]] means that it preserves total probability, hence that it is the quantum analog of a *[[stochastic map]]*  --- through what fundamentally matters is that a quantum channel at most lowers the probability (the description of the channel need not describe all possible outcomes, but it must not make new outcomes appear out of nowhere).
+Often demanded is also that a quantum channel preserves the [[trace]] of matrices, which in [[quantum probability]] means that it preserves total probability, hence that it is the quantum analog of a *[[stochastic map]]*  --- through what fundamentally matters is that a quantum channel at most lowers the probability (the channel need not describe all possible outcomes, but it must not make new outcomes appear out of nowhere).
 
-Less often demanded is that a quantum channel also preserves the [[identity matrix]], in which case it is the quantum analog of a [[doubly stochastic map]].
+Less often demanded (but usually the case anyway) is that a quantum channel also preserves the [[identity matrix]], in which case it is the quantum analog of a [[doubly stochastic map]].
 
 Beyond these abstract characterizations, the [[Stinespring factorization theorem]] characterizes quantum channels more explicitly as those maps on matrices arising as [[sums]] of [[conjugations]] 
 $$
@@ -89,7 +89,18 @@ For example, a [[unitary quantum channel]] describing a loss-less [[quantum gate
   \,,
 \]
 
-while, on the other extreme, a [[quantum measurement]] in a maesurement [[basis of a vector space|basis]] $W$, $\underset{W}{\oplus} \mathbb{C}  \simeq \mathscr{H}$ is given by the corresponding [[projection operators]] $P_w$ as
+which on [[pure states]] among [[mixed states]], $\rho_{|\psi\rangle} \coloneqq \left\vert \psi \right\rangle \left\langle \psi \right\vert$, restricts to an ordinary [[quantum gate]]
+
+$$
+  chan_U
+  \;\colon\;
+  \rho_{\vert\psi \rangle}
+  \;\mapsto\;
+  \rho_{ U \vert \psi \rangle }
+  \,.
+$$
+
+On the other extreme, a [[quantum measurement]] in a measurement [[basis of a vector space|basis]] $W$, $\underset{W}{\oplus} \mathbb{C}  \simeq \mathscr{H}$ is given by the corresponding [[projection operators]] $P_w$ as
 
 \[
   \label{MeasurementChannelInIdeaSection}
