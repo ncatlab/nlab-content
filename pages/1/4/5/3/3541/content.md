@@ -111,7 +111,7 @@ $$
 
 =--
 
-This is originally due to ([Stinespring 55](#Stinespring55)). The decomposition in the theorem is called _Kraus decomposition_ after ([Kraus 71](#Kraus71)). See also ([Choi 76, theorem 1](#Choi76)). A brief review is for instance in ([Kuperberg 05, theorem 1.5.1](#Kuperberg05)). A general abstract proof in terms of [[dagger category|†-categories]] is given in ([Selinger 05](#Selinger05)). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in ([Coecke 07](#Coecke07)).
+This is originally due to [Stinespring 1955](#Stinespring55). The decomposition in the theorem is called _Kraus decomposition_ after [Kraus 1971](#Kraus71). See also ([Choi 75, theorem 1](#Choi75)). Review includes [Nielsen & Chuang 2000, Thm. 8.1](#NielsenChuang00, [Kuperberg 2005, Thm. 1.5.1](#Kuperberg05). A general abstract proof in terms of [[dagger category|†-categories]] is given by [Selinger 2005](#Selinger05). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in [Coecke 2007](#Coecke07).
 
 The matrices $\{E_i\}$ that are associated to a completely positive and trace-preserving map by the above theorem are called **Kraus operators**.
 
@@ -157,7 +157,7 @@ A [[quantum measurement]] is formally represented by a quantum operation that is
 
 For the moment see the references at *[[quantum decoherence]]*.
 
-### Noice channels
+### Noise channels
 
 Examples of [[quantum noise]] channels:
 
@@ -191,13 +191,13 @@ Review and survey:
 
 In the context of [[quantum computation]]:
 
-* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §8.2 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+* {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §8.2 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
 * [[John Preskill]], §3.2 in: *Measurement and Evolution*, chapter 3 of: *Quantum Information*, lecture notes, since 2004 &lbrack;[pdf](http://www.theory.caltech.edu/~preskill/ph219/chap3_15.pdf), [web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
 
 * {#Selinger04} [[Peter Selinger]], §6.3 in: _Towards a quantum programming language_, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
 
-* {#Kuperberg05} [[Greg Kuperberg]], §1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+* {#Kuperberg05} [[Greg Kuperberg]], §1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
 and in [[quantum information theory]]:
 
@@ -238,10 +238,9 @@ The description of completely positive maps in terms of [[dagger-categories]] (s
 * {#Coecke07} [[Bob Coecke]], _Complete positivity without compactness_, 2007 ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
  
 
-This is further explored in
+This is further explored in:
 
-* [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]
-&rbrack;
+* [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]&rbrack;
 
 * {#CoeckeHeunen11} [[Bob Coecke]], [[Chris Heunen]], _Pictures of complete positivity in arbitrary dimension_, EPTCS 95, 2012, pp. 27-35 ([arXiv:1110.3055](http://arxiv.org/abs/1110.3055))
  
@@ -273,4 +272,7 @@ On quantum channel capacity:
 
 [[!redirects unitary quantum channel]]
 [[!redirects unitary quantum channels]]
+
+[[!redirects quantum measurement channel]]
+[[!redirects quantum measurement channels]]
 
