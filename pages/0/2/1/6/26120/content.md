@@ -1459,8 +1459,14 @@ Notice that the second-but-last step on the right is particularly evident if $w$
 
 In general:
 \begin{proposition}
-  Every [[unital quantum channels]] may be regarded as a [transformation of](monad#TransformationOfMonadsOnFixedCategory) quantum state monads.
+  The [[unital quantum channels]] are among the [transformations of](monad#TransformationOfMonadsOnFixedCategory) quantum state monads.
 \end{proposition}
+
+### Heisenberg evolution is action by Quantum state transformations
+
+namely on the coKleisli category.
+
+(...)
 
 
 ## Related concepts
