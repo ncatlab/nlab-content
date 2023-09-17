@@ -963,7 +963,18 @@ Origin of the [[do-notation]] for [[Kleisli composition]] of effectful programs:
 
 * {#Launchbury93} [[John Launchbury]], §3.3 in: *Lazy imperative programming*, Proceedings of *ACM Sigplan Workshop on State in Programming Languages*, Copenhagen (1993) &lbrack;[pdf](https://launchbury.files.wordpress.com/2019/01/lazy-imperative-programming.pdf), [[Launchbury-LazyImperative.pdf:file]]&rbrack;
 
-    
+Introducing the notion of [[monad transformers]]:
+
+* {#Espinosa94} [[David A. Espinosa]], §3.2 in: *Building Interpreters by Transforming Stratified Monads* (1994) &lbrack;[pdf](https://github.com/davidespinosa01/papers/blob/master/E/Espinosa%20David/espinosa-stratified-monads.pdf), [[Espinosa-StratifiedMonads.pdf:file]]&rbrack;
+
+* {#Espinosa95} [[David A. Espinosa]], §2.6 in: *Semantic Lego*, PhD thesis, Columbia University (1995) &lbrack;[pdf](https://github.com/davidespinosa01/papers/blob/master/E/Espinosa%20David/espinosa-stratified-monads.pdf), [[Espinosa-SemanticLego.pdf:file]], slides:[pdf](https://github.com/davidespinosa01/papers/blob/346c2ded6af78805701106d51daee8f7a756c948/E/Espinosa%20David/espinosa-thesis-slides.pdf), [[Espinosa-SemanticLego-slides.pdf:file]]&rbrack;
+
+* {#LiangHudakJones95} Sheng Liang, [[Paul Hudak]], [[Mark Jones]], *Monad transformers and modular interpreters*, POPL '95 (1995) 333–343 &lbrack;[doi:10.1145/199448.199528](https://doi.org/10.1145/199448.199528)&rbrack;
+
+
+More (early) literature is listed here:
+
+* [[David A. Espinosa]], *[Effects bibliography](https://github.com/davidespinosa01/effects-bibliography)*   
 
 In the generality of [[relative monads]]:
 
