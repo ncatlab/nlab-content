@@ -276,3 +276,7 @@ On quantum channel capacity:
 [[!redirects quantum measurement channel]]
 [[!redirects quantum measurement channels]]
 
+[[!redirects unital quantum channel]]
+[[!redirects unital quantum channels]]
+
+
