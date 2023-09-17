@@ -58,6 +58,8 @@ The collection of all probability distributions on a measurable space carries va
 
 * [[entropy]]
 
+* [[stochastic map]]
+
 * [[positive-operator valued probability measure]]
 
 * [[density of a subset]]
