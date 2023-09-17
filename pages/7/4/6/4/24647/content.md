@@ -28,6 +28,8 @@ Other contributions
 * [[Travis Schedler]], _Zeroth Hochschild homology of preprojective algebras over the integers_, Adv. Math. __299__ (2016) 451--542 [doi](https://doi.org/10.1016/j.aim.2016.02.015)
 * Daniel Kaplan, Travis Schedler, _Multiplicative preprojective algebras are 2-Calabi-Yau_, [arXiv:1905.12025](https://arxiv.org/abs/1905.12025)
 * Christof Geiß, Bernard Leclerc, Jan Schroer, _Rigid modules over preprojective algebras_, Invent. Math. __165__(3):589--632 (2006) [doi](https://doi.org/10.1007/s00222-006-0507-y)
-* C. M. Ringel, _The preprojective algebra of a quiver. Algebras and modules, II_, (Geiranger 1996) 467--480, CMS Conf. Proc. __24_
+* [[C. M. Ringel]], _The preprojective algebra of a quiver. Algebras and modules, II_, (Geiranger 1996) 467--480, CMS Conf. Proc. __24__
 
 category: algebra
+
+[[!redirects preprojective algebras]]
