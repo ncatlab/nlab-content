@@ -36,14 +36,13 @@ e.g. Montgomery's book.
 Related entries include [[comodule algebra]], [[Schneider's descent theorem]], [[Yetter-Drinfeld module]], [[entwined module]]
 
 * BW2003: [[T. Brzeziński]], R. Wisbauer, __Corings and comodules__, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
-* &#352;koda 2008: [[Z. Škoda]], _Some equivariant constructions in noncommutative algebraic geometry_, Georgian Mathematical Journal __16__ (2009), No. 1, 183&#8211;202, [arXiv:0811.4770](http://arxiv.org/abs/0811.4770) [MR2011b:14004](http://www.ams.org/mathscinet-getitem?mr=2527623)
-* Susan Montgomery, _Hopf algebras and their actions on rings_, 
-CBMS Lecture Notes __82__, AMS 1993, 240p.
-* Peter Schauenburg, _Hopf modules and Yetter - Drinfel&#8242;d modules_, J. Algebra __169__:3 (1994) 874-890 [doi](http://dx.doi.org/10.1006/jabr.1994.1314); _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. 354 (2002), 3349-3378 [doi](http://dx.doi.org/10.1090/S0002-9947-02-02980-X) [pdf](http://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf); _Actions of monoidal categories, and generalized Hopf smash products_, Journal of Algebra __270__ (2003) 521-563, <a href="http://dx.doi.org/10.1016/S0021-8693(03)00403-4">doi</a> [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/amcghsp.ps)
+* &#352;koda 2008: [[Z. Škoda]], _Some equivariant constructions in noncommutative algebraic geometry_, Georgian Mathematical Journal __16__ (2009), No. 1, 183&#8211;202, [arXiv:0811.4770](https://arxiv.org/abs/0811.4770) [MR2011b:14004](https://www.ams.org/mathscinet-getitem?mr=2527623)
+* [[Susan Montgomery]], _Hopf algebras and their actions on rings_, CBMS Lecture Notes __82__, AMS 1993, 240p.
+* Peter Schauenburg, _Hopf modules and Yetter - Drinfel&#8242;d modules_, J. Algebra __169__:3 (1994) 874-890 [doi](https://doi.org/10.1006/jabr.1994.1314); _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. __354__ (2002), 3349-3378 [doi](https://doi.org/10.1090/S0002-9947-02-02980-X) [pdf](https://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf); _Actions of monoidal categories, and generalized Hopf smash products_, Journal of Algebra __270__ (2003) 521-563, <a href="https://doi.org/10.1016/S0021-8693(03)00403-4">doi</a> [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/amcghsp.ps)
 * A. Borowiec, G. A. Vazquez Coutino, _Hopf modules and their duals_, [math.QA/0007151](http://arxiv.org/abs/math/0007151)
 * H-J. Schneider, _Principal homogeneous spaces for arbitrary Hopf algebras_, 
-Israel J. Math. __72__ (1990), no. 1-2, 167&#8211;195 [MR92a:16047](http://www.ams.org/mathscinet-getitem?mr=1098988) [doi](http://dx.doi.org/10.1007/BF02764619)
-* Francesco d'Andrea, Alessandro de Paris, _On noncommutative equivariant bundles_, [arxiv/1606.09130](http://arxiv.org/abs/1606.09130)
+Israel J. Math. __72__ (1990), no. 1-2, 167--195 [MR92a:16047](http://www.ams.org/mathscinet-getitem?mr=1098988) [doi](https://doi.org/10.1007/BF02764619)
+* Francesco d'Andrea, Alessandro de Paris, _On noncommutative equivariant bundles_, [arXiv:1606.09130](http://arxiv.org/abs/1606.09130)
 
 category: algebra
 [[!redirects Hopf modules]]
