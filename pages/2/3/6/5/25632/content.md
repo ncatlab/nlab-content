@@ -212,6 +212,8 @@ See also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
 
 ## Related concepts
 
+* [[monad transformation]]
+
 * [[bifibration]]
 
 * [[model structures on Grothendieck fibrations]]
