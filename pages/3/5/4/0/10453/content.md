@@ -80,3 +80,6 @@ Discussion in [[dagger-compact categories]] with an eye twoards [[completely pos
 
 [[!redirects positive operator]]
 [[!redirects positive operators]]
+
+[[!redirects positive linear operator]]
+[[!redirects positive linear operators]]
