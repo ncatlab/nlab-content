@@ -15,7 +15,7 @@ of quantum Kac-Moody algebras_, SIGMA 5 (2009), 108, 23 pages
 Y-system has a remarkable connection to [[cluster algebra]]s:
 
 * [[Bernhard Keller]], _Cluster algebras, quiver representations and triangulated categories_, arXiv:0807.1960
-* Sergey Fomin, [[Andrey Zelevinsky]], _Y-systems and generalized associahedra_, Ann. Math. __158__ 977-1018 (2003) [doi](http://dx.doi.org/10.4007/annals.2003.158.977)
+* [[Sergey Fomin]], [[Andrei Zelevinsky]], _Y-systems and generalized associahedra_, Ann. Math. __158__ 977-1018 (2003) [doi](https://doi.org/10.4007/annals.2003.158.977)
 
 Y-systems are relevant for integrability phenomena in superstring theory and in relation to study of spectrum of N=4 SUSY Zang-Mills theory. See survey
 
