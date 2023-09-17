@@ -1,11 +1,11 @@
 
 ## Disambiguation
 
-There are multiple types which are called *heterogeneous equality* in the [[type theory]] literature:
+In the [[type theory]] literature, there are different kinds of [[types]] which are called *heterogeneous equality* types:
 
-* [[heterogeneous identity types]], which are a variant of identity types but between different types
+* *[[heterogeneous identity types]]* are a variant of [[identity types]] but parameterized over pairs of possibly different types,
 
-* [[John Major equality]], which is the dependent sum of heterogeneous identity types over all relevant [[identifications]]. 
+* *[[John Major equality]]* types are the [[dependent sum]] of heterogeneous identity types over all relevant [[identifications]]. 
 
 [[!redirects heterogeneous equality]]
 [[!redirects heterogeneous equalities]]
