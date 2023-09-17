@@ -42,7 +42,7 @@ In ([[dependent type theory|dependent]]) [[type theory]], the identity function 
 ## Properties
 
 \begin{theorem}
-For all [[terms]] $x \colon T$, the [[fiber]] of the identity function $\lambda(t \colon T).t \,\colon\, T \to T$ (eq:IdentityFunctionInTypeTheory) at $x$ is a [[contractible type]].
+Suppose that [[function types]] are defined using judgmental [[computation rules]]. Then for all [[terms]] $x \colon T$, the [[fiber]] of the identity function $\lambda(t \colon T).t \,\colon\, T \to T$ (eq:IdentityFunctionInTypeTheory) at $x$ is a [[contractible type]].
 \end{theorem}
 
 \begin{proof}
@@ -55,32 +55,13 @@ $$
   =_T x
   \,.
 $$
-All [[function types]] satisfy the propositional [[computation rule]] for function types whether the inference rules for function types are given with judgmental or propositional computation rules. By the propositional computation rule for function types, for all $y:T$ there is an [[identification]] $\beta_{T \to T}(y):\big(\lambda(t:T).t\big)(y) =_{T} y$. 
-
-This implies that for all elements $x:T$, the types $y =_T x$ and $\big(\lambda(t:T).t\big)(y) =_{T} x$ are equivalent to each other. If there is an identification $p:y =_T x$, by pre-composition with $\beta_{T \to T}(y)$, there is an identification $\beta_{T \to T}(y) \bullet p:\big(\lambda(t:T).t\big)(y) =_{T} x$, and if there is an identification $q:\big(\lambda(t:T).t\big)(y) =_{T} x$, then by pre-composition with the inverse identification of $\beta_{T \to T}(y)$, there is an identification $\beta_{T \to T}(y)^{-1} \bullet q:y =_T x$. Since the inverse identification is defined through induction on [[identity types]], $\beta_{T \to T}(y) \bullet \beta_{T \to T}(y)^{-1} \bullet q \equiv q:\big(\lambda(t:T).t\big)(y) =_{T} x$ and $\beta_{T \to T}(y)^{-1} \bullet \beta_{T \to T}(y) \bullet p \equiv p:y =_{T} x$, which implies that the types $y =_T x$ and $\big(\lambda(t:T).t\big)(y) =_{T} x$ are strictly equivalent to each other for all $y:T$, with strict equivalences 
-$$\lambda q:(\lambda(t:T).t\big)(y) =_{T} x).\beta_{T \to T}(y)^{-1} \bullet q):(\big(\lambda(t:T).t\big)(y) =_{T} x) \simeq (y =_T x)$$
-and
-$$\lambda p:(y =_{T} x).\beta_{T \to T}(y) \bullet q):(y =_T x) \simeq (\big(\lambda(t:T).t\big)(y) =_{T} x)$$
-that are [[strict inverse functions]] of each other.
-
-This means that the following dependent sum types are equivalent to each other with equivalence
-$$
-  \mathrm{tot}(\lambda q:(\lambda(t:T).t\big)(y) =_{T} x).\beta_{T \to T}(y)^{-1} \bullet q):\left(\sum_{y \colon T} 
-  \big(
-    \lambda(t:T).t
-  \big)(y) 
-  =_T x\right) \simeq
-  \left(\sum_{y \colon T} y 
-  \;=_T\; 
-  x\right)
-$$
-The type
+By the judgmental [[computation rule]] of [[function types]], the term $\big(\lambda(t:T).t\big)(x)$ reduces down to $x$, and the fiber type becomes
 $$
   \sum_{y \colon T} y 
   \;=_T\; 
   x
 $$
-is always a [[contractible type]]:
+This is always a [[contractible type]]:
 
 * the [[center of contraction]] is given by the [[dependent pair]] $(x, \mathrm{refl}_T(x))$,
 
@@ -120,23 +101,6 @@ $$
   \big(x, \mathrm{refl}_T(x)\big)
   \,.
 $$
-
-Since 
-$$
-  \sum_{y \colon T} y 
-  \;=_T\; 
-  x
-$$
-is a contractible type, by the equivalence $\mathrm{tot}(\lambda q:(\lambda(t:T).t\big)(y) =_{T} x).\beta_{T \to T}(y)^{-1} \bullet q)$, the type
-$$
-  \sum_{y \colon T} 
-  \big(
-    \lambda(t:T).t
-  \big)(y) 
-  =_T x
-  \,.
-$$
-is also contractible. 
 
 Thus, for all $x \colon T$, the [[fiber type]] of the identity function $\lambda(t:T).t:T \to T$ at $x$ is [[contractible type|contractible]]. 
 \end{proof}
