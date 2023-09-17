@@ -23,13 +23,14 @@
 ## Idea
  {#Idea}
 
-In [[functional programming]] using [[monads (in computer science)|monads for computational effects]], *monad transformers* are type constructors which take one monad to another in a compatible way.
+In [[functional programming]] using [[monads (in computer science)|monads for computational effects]], *monad transformers* &lbrack;[Espinosa 1994 §4](#Espinosa94), [1995 §2.6](#Espinosa95)&rbrack; are type constructors which take one monad to another in a compatible way.
+
 
 In practice this is typically motivated by and used for *combining* a monadic effect $\mathcal{E}_{new}$ into any given one $\mathcal{E}$ by $\mathcal{E} \mapsto \mathcal{E}_{new} \circ \mathcal{E} $ via a universal [[distributive law]].
 
 Formally, a monad transformer on a given category $\mathbf{C}$ (of [[data types|data]] [[types]]) is a [[pointed endofunctor]] on the [category of monads](monad#TransformationOfMonadsOnFixedCategory) $Mnd(\mathbf{C})$ (this is made explicit in [Winitzki 2022, p. 474](#Winitzki22)), namely:
 
-1. an [[endofunctor]] $\mathcal{E} \to \mathcal{E}'$ taking monads to monads
+1. an [[endofunctor]] $\mathcal{E} \mapsto \mathcal{E}'$ taking monads to monads
 
 1. for each $\mathcal{E}$ a [morphism of monads](monad#TransformationOfMonadsOnFixedCategory) $trans_{\mathcal{E}} \,\colon\, \mathcal{E} \longrightarrow \mathcal{E}'$ (a *[[monad transformation]]*)
 
@@ -42,6 +43,15 @@ This construction is sometimes viewed (see [HP07](#HP07), and at *[[Eff]]*) as a
 * [[monad transformation]]
 
 ## References
+
+Original discussion:
+
+* {#Espinosa94} [[David A. Espinosa]], §3.2 in: *Building Interpreters by Transforming Stratified Monads* (1994) &lbrack;[pdf](https://github.com/davidespinosa01/papers/blob/master/E/Espinosa%20David/espinosa-stratified-monads.pdf), [[Espinosa-StratifiedMonads.pdf:file]]&rbrack;
+
+* {#Espinosa95} [[David A. Espinosa]], §2.6 in: *Semantic Lego*, PhD thesis, Columbia University (1995) &lbrack;[pdf](https://github.com/davidespinosa01/papers/blob/master/E/Espinosa%20David/espinosa-stratified-monads.pdf), [[Espinosa-SemanticLego.pdf:file]], slides:[pdf](https://github.com/davidespinosa01/papers/blob/346c2ded6af78805701106d51daee8f7a756c948/E/Espinosa%20David/espinosa-thesis-slides.pdf), [[Espinosa-SemanticLego-slides.pdf:file]]&rbrack;
+
+* {#LiangHudakJones95} Sheng Liang, [[Paul Hudak]], [[Mark Jones]], *Monad transformers and modular interpreters*, POPL '95 (1995) 333–343 &lbrack;[doi:10.1145/199448.199528](https://doi.org/10.1145/199448.199528)&rbrack;
+
 
 Textbook account:
 
