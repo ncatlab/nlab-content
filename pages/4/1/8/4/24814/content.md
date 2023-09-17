@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[monad transformers]] in [[functional programming]] with [[monadic effects]]:
+
+* {#LiangHudakJones95} Sheng Liang, [[Paul Hudak]], [[Mark Jones]], *Monad transformers and modular interpreters*, POPL '95 (1995) 333–343 &lbrack;[doi:10.1145/199448.199528](https://doi.org/10.1145/199448.199528)&rbrack;
+
+
 On [[domain specific programming languages]]:
 
 * [[Paul Hudak]], *Building Domain-Specific Embedded Languages*, ACM Computing Surveys **28** 4e (1996) 196–es &lbrack;[doi:10.1145/242224.242477](https://doi.org/10.1145/242224.242477), [web](https://dl.acm.org/doi/fullHtml/10.1145/242224.242477)&rbrack;
