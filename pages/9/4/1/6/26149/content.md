@@ -9,6 +9,8 @@ In [[dependent type theory]], a **strict singleton** or a **strict contractible 
 
 * The strict [[unit type]] with judgmental [[computation rules]] is a strict singleton. 
 
+* Given a type $A$, the [[function type]] $\emptyset \to A$ from the [[empty type]] to $A$ is a strict singleton. 
+
 * The [[squash type]] of any [[pointed type]] is a strict singleton.
 
 ## Related concepts
