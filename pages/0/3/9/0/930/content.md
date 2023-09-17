@@ -30,7 +30,7 @@ In [[algebraic geometry]], given an affine algebraic $k$-group [[scheme]] $G$, t
 
 * Hans-J&#252;rgen Schneider, _Principal homogeneous spaces for arbitrary Hopf algebras_, Israel J. Math. __72__ (1990) 1-2, 167&#8211;195 [MR92a:16047](http://www.ams.org/mathscinet-getitem?mr=1098988) [doi](http://dx.doi.org/10.1007/BF02764619)
 
-* Susan Montgomery, Hopf Galois theory: a survey, Geometry and topology monographs 16 (2009) 367&#8211;-400; [link](http://www.msp.warwick.ac.uk/gtm/2009/16/p012.xhtml), [doi](http://dx.doi.org/10.2140/gtm.2009.16.367).
+* [[Susan Montgomery]], _Hopf Galois theory: a survey_, Geometry and topology monographs 16 (2009) 367--400; [link](http://www.msp.warwick.ac.uk/gtm/2009/16/p012.xhtml), [doi](https://doi.org/10.2140/gtm.2009.16.367)
 
 Discussion for [[ring spectra]]:
 
