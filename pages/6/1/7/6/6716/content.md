@@ -74,19 +74,28 @@ following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
 ## Examples
 
 * For $n=3$, the [[exceptional isomorphism]] between [[Spin(3)]] and [[SU(2)]] extends to an isomorphism between $Spin^c(3)$ and the [[unitary group]] $U(2)$:
-
   $$
     Spin^c(3) 
     \;\simeq\; 
     U(2)
   $$
-over the exceptional isomorphism $SO(3) \simeq PU(2)$ (both of these smaller groups are quotients by the respective centres, both identifiable with $U(1)$). This isomorphism follows from considering the surjective homomorphism $SU(2) \times U(1) \to U(2)$ given by $(A,z) \mapsto zA$, and noticing its kernel is precisely $\{\pm(I,1)\}$, hence $U(2)$ satisfies the universal property defining $Spin^c(3)$.
+over the exceptional isomorphism $SO(3) \simeq PU(2)$, as both of these quotient groups are quotients by the respective centres, both identifiable with $U(1)$) ([Ozbagci–Stipsicz 2004](#OzbagciStipsicz) Section 6.2). This isomorphism follows from considering the surjective homomorphism $SU(2) \times U(1) \to U(2)$ given by $(A,z) \mapsto z A$, and noticing its kernel is precisely $\{\pm(I,1)\}$, hence $U(2)$ satisfies the universal property defining $Spin^c(3)$ as a quotient.
 
 * For $n=4$, we have 
 $$
-Spin^c(4) = \big(U(1) \times SU(2)\times SU(2)\big) / \{\pm(1,I,I)\} \simeq U(2)\times_{U(1)} U(2).  
+    Spin^c(4) 
+      = \big(SU(2)\times SU(2)\times U(1)\big) / \{\pm(I,I,1)\} 
+      \simeq U(2)\times_{U(1)} U(2).  
 $$
-This latter group is the [[fibre product]] of groups over $U(1)$, namely $\{(A,B)\in U(2)\times U(2)\mid \det(A) = \det(B)\}$. This can also be considered a type of exceptional isomorphism, even if not to one of the more classical Lie groups. The $Spin(4)$ subgroup can be seen as pairs of unitary matrices with both of them having determinant 1.
+This latter group is the [[fibre product]] of groups over $U(1)$, namely $\{(A,B)\in U(2)\times U(2)\mid \det(A) = \det(B)\}$ ([Ozbagci–Stipsicz 2004](#OzbagciStipsicz) Section 6.3). The construction can be seen by considering the surjective homomorphism
+$$
+    SU(2) \times SU(2) \times U(1) 
+     \to SU(2) \times SU(2) \times U(1) \times U(2) 
+      \to U(2) \times U(2)
+$$
+defined by $(A,B,z) \mapsto (z A,z B)$, which has image $U(2)\times_{U(1)} U(2)$. Similarly to the case of $Spin^c(3)$, the kernel consists of triples $(A,B,z)$ such that $z A = I = z B$, hence that $A = B = (1/z) I$. Since $\det(A) = 1/z^2 = 1$, we must have $z=\pm 1$, and hence $A=B=\pm I$ with the same sign as $z$. Thus the kernel is precisely $\{\pm(I,I,1)\}$, and so again by the universal property we get the isomorphism as stated.
+
+This example can also be considered a type of exceptional isomorphism, even if not to one of the more classical Lie groups. The $Spin(4)$ subgroup can be seen as the subgroup of pairs of unitary matrices with both of them having determinant 1.
 
 
 ## Properties
@@ -523,6 +532,9 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 
 For more see the references at _[[spin^c structure]]_.
 
+The exceptional isomorphisms in low dimension are described in
+
+* {#OzbagciStipsicz} Ozbagci, B., Stipsicz, A.I. (2004). _$Spin^c$ Structures on 3- and 4-Manifolds._ In: Surgery on Contact 3-Manifolds and Stein Surfaces. Bolyai Society Mathematical Studies, vol 13. Springer, Berlin, Heidelberg. doi:[10.1007/978-3-662-10167-4_6](https://doi.org/10.1007/978-3-662-10167-4_6).
 
 
 [[!redirects Spin^c]]
