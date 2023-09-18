@@ -211,4 +211,7 @@ in that
 
 Conversely, every operation of the form (eq:QuantumChannelVieDecoherence) is a quantum channel.
 \end{proposition}
-(eg. [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes))
+For exposition: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00)
+
+Detailed **proof**, including the infinite-dimensional case: [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes).
+
