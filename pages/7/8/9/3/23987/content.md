@@ -1658,8 +1658,22 @@ Stone-von Neumann**
 
   **Topological Modular Forms and Heterotic String Theory**
 
+  cf. [arXiv:2305.06196](https://arxiv.org/abs/2305.06196), [arXiv:2108.13542](https://arxiv.org/abs/2108.13542)
+
   > In this talk, I will explain my works with [[Yuji Tachikawa|Y. Tachikawa]] to study [[quantum anomaly|anomalies]] in [[heterotic string theory]] via [[homotopy theory]], especially the theory of [[topological modular forms|Topological Modular Forms]] ([[TMF]]). TMF is an [[E-infinity ring|E-infinity]] [[ring spectrum]] which is [[What is an elliptic object?|conjectured by Stolz-Teichner]] to classify [[(2,1)-dimensional Euclidean field theory|two-dimensional supersymmetric quantum field theories]] in physics. In the previous work &lbrack;[arXiv:2108.13542](https://arxiv.org/abs/2108.13542)&rbrack;, we proved the vanishing of anomalies in heterotic string theory mathematically using TMF. Additionally, we have a recent update on the previous work &lbrack;[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)&rbrack;. Due to the vanishing result, we can consider a secondary transformation of spectra, which coincides with the [[Anderson duality|Anderson self-duality]] morphism of TMF. This allows us to detect subtle torsion phenomena in TMF by [[differential geometry|differential-geometric]] methods.
 
+
+\linebreak
+
+* 20 Sep 2023
+
+  [[Ulrich Pennig]]
+
+  **Equivariant Higher Twisted K-Theory of $SU(n)$ via Exponential Functors**
+
+  cf. [arXiv:2307.00423](https://arxiv.org/abs/2307.00423)
+
+  >  [[twisted K-theory|Twisted K-theory]] is a variant of [[topological K-theory]] that allows [[local coefficient bundle|local coefficient systems]] called [[twisted cohomology|twists]]. For spaces and twists equipped with an [[group action|action]] by a [[group]], [[equivariant twisted K-theory]] provides an even finer invariant. Equivariant twists over [[Lie groups]] gained increasing importance in the subject due to a [[Loop Groups and Twisted K-Theory|result by Freed, Hopkins and Teleman]] that relates the corresponding K-groups to the [[Verlinde ring]] of the associated [[loop group]]. From the point of view of [[homotopy theory]] only a small [[subgroup]] of all possible twists is considered in classical treatments of [[twisted K-theory]]. In this talk I will discuss an operator-algebraic model for equivariant higher (i.e. non-classical) twists over $SU(n)$ induced by exponential functors on the category of vector spaces and isomorphisms. These twists are represented by [[Fell bundles]] and the [[C*-algebra|C*-algebraic]] picture allows a full computation of the associated K-groups at least in low dimensions. I will also draw some parallels of our results with the [[Loop Groups and Twisted K-Theory|FHT theorem]]. This is joint work with [[David E. Evans|D. Evans]].
 
 \linebreak
 
