@@ -104,6 +104,7 @@ Review:
 
 * Astrid Eichhorn, Marc Schiffer, *Asymptotic safety of gravity with matter*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.07456](https://arxiv.org/abs/2212.07456)&rbrack;
 
+* Alexander Bednyakov, Alfiia Mukhaeva, *Perturbative Asymptotic Safety and Its Phenomenological Applications* &lbrack;[arXiv:2309.08258](https://arxiv.org/abs/2309.08258)&rbrack;
 
 
 
