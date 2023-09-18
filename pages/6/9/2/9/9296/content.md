@@ -20,6 +20,14 @@ In [[quantum physics]] _decoherence_ refers to the disappearance of quantum [[en
 
 This has been argued to resolve (and has been argued not to resolve) the problem with the [[interpretation of quantum mechanics|interpretation]] of [[quantum measurement]].
 
+## Properties
+
+
+
+[[!include quantum channels and decoherence -- section]]
+
+
+
 
 ## Related concepts
 
