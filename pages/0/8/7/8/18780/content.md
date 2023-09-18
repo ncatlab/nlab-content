@@ -155,7 +155,7 @@ In summary this means that the [[internal logic]] of [[slice category|slices]] o
 
 * [[sFinVect]]
 
-* [[quantum information theory]]$\;$[[quantum information theory in terms of dagger-compact categories|in terms of dagger-comact categories]]
+* [[quantum information theory]]$\;$[[quantum information theory in terms of dagger-compact categories|in terms of dagger-compact categories]]
 
 * [[linear logic]]
 
