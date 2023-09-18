@@ -772,6 +772,7 @@ $$
 For the classical [[costate comonad]] on a [[cartesian closed category]] its value and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
 
 \begin{example}
+\label{QuantumObservablesAsQuantumStateContextfulScalars}
 **(quantum observables as quantum state contextful scalars)**
 \linebreak
 
@@ -1462,11 +1463,75 @@ In general:
   The [[unital quantum channels]] are among the [transformations of](monad#TransformationOfMonadsOnFixedCategory) quantum state monads.
 \end{proposition}
 
-### Heisenberg evolution is action by Quantum state transformations
+### Heisenberg evolution is action of Quantum state transformations
+ {#HeisenbergEvolution}
 
-namely on the coKleisli category.
+namely on the quantum-state contextful scalars:
 
-(...)
+\begin{example}
+  The quantum state transformation induced by a [[unitary quantum channel]] $U$, according to Exp. \ref{UnitaryQuantumChannelsAsQUantumStateTransformations}, is invertible (its inverse given by the inverse unitary quantum channel) and hence it induces a functor between the [[Kleisli categories]] (by the discussion [here](monad#ExtensionOfFreeModalesAlsoIsomorphicMonadTransformation)) which on the quantum-state contextful scalars $\mathcal{O}_A$ (Exp. \ref{QuantumObservablesAsQuantumStateContextfulScalars}) is given by [[conjugation action|conjugation]] with $U$:
+$$
+  \array{
+    (\text{-})
+    \otimes
+    \mathscr{H}_1
+    \otimes
+    \mathscr{H}_1^\ast
+    &
+    \overset{
+      (\text{-})
+      \otimes
+      U \otimes U^{\dagger\ast}
+    }{\longleftarrow}
+    &
+    (\text{-})
+    \otimes
+    \mathscr{H}_2
+    \otimes
+    \mathscr{H}_2^\ast
+    \\
+    Kl(\mathscr{H}Store)
+    &\longrightarrow&
+    Kl(\mathscr{H}Store)
+    \\
+    \left[
+    \array{
+      \mathscr{H}_1
+      \otimes
+      \mathscr{H}_1^\ast
+      \\
+      \Big\downarrow\mathrlap{ \mathcal{O}_A }
+      \\
+      \mathbb{1}
+    }
+    \right]
+    &\mapsto&
+    \left[
+    \array{
+      \mathscr{H}_2
+      \otimes
+      \mathscr{H}_2^\ast
+      \\
+      \Big\downarrow\mathrlap{ 
+        \mathcal{O}_{ U \cdot A \cdot U^\dagger } 
+      }
+      \\
+      \mathbb{1}
+    }
+    \;\;\;\;\;\;
+    \right]
+  }
+$$
+
+This transformation
+
+$$
+  A \;\mapsto\; U \cdot A \cdot U^\dagger
+$$
+
+is of course the [[Heisenberg picture]]-evolution of [[quantum observables]] $A$ under unitary transformations $U$ of the [[quantum states]].
+
+\end{example}
 
 
 ## Related concepts
@@ -1484,7 +1549,6 @@ namely on the coKleisli category.
 
 [[!redirects linear store comonad]]
 [[!redirects linear store comonad]]
-
 
 
 
