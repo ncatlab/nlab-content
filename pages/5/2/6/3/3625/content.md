@@ -65,6 +65,8 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 
 * [[antiunitary operator]]
 
+* [[unitary quantum channel]]
+
 * [[unitary fusion category]]
 
 ## References
