@@ -146,53 +146,127 @@ This is discussed below at :
 
 
 ## Definition
+ {#Definition}
 
 ### In terms of positivity conditions
  {#InTermsOfPositivityConditions}
 
-> old material, to be adjusted...
-
-Notice that the identity map is clearly completely positive and trace preserving, and that the composite of two maps that preserve positivity and trace clearly still preserves positivity and trace. Therefore we obtain a [[category]] $QChan \subset Vect$ -- a [[subcategory]] of [[Vect]]${}_{\mathbb{C}}$ -- whose
-
-* objects are the vector spaces $Mat(n \times n, \mathbb{C})$ for all $n \in \mathbb{N}$;
-
-* morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
-
-* composition of morphisms is, of course, the composition in [[Vect]], i.e. the ordinary composition of linear maps.
 
 
+Let $\mathscr{H}_i$ be a [[complex vector space|complex]] [[finite-dimensional Hilbert space]], with 
 
+$$
+  Mat(\mathscr{H}_i) 
+  \,\simeq\, 
+  \mathscr{H}_i
+  \otimes
+  \mathscr{H}_i^\ast
+$$
+
+the corresponding space of [[matrices]]  --- including as a [[convex set|convex]] [[subset]] the [[density matrices]] representing the [[mixed states]] of the [[quantum system]] described by $\mathscr{H}$.
+
+\begin{definition}\label{PositiveMaps}
+  A $\mathbb{C}$-[[linear map]]
+$$
+  \Phi
+  \;\colon\;
+  \mathscr{H}_1
+  \otimes
+  \mathscr{H}_1^\ast
+  \longrightarrow  
+  \mathscr{H}_2
+  \otimes
+  \mathscr{H}_2^\ast
+$$
+is called
+
+* *hermitian* iff it preserves [[Hermitian matrices]],
+
+* *positive* iff it preserves [[positive operator|positive matrices]],
+
+* *$n$-positive* if $\Phi \otimes Id_{\mathbb{C}^n}$ is positive for $n \in \mathbb{N}$,
+
+* *completely positive* if $\Phi$ is $n$-positive for all $n \in \mathbb{N}$. 
+
+A positive $\Phi$ is furthermore called:
+
+* *[[stochastic map|stochastic]]* if it preserves the [[trace]] of matrices
+
+* *doubly stochastic* if it preserves also the identity matrix.
+
+Finally, a completely positive $\Phi$ is called:
+
+* a *quantum channel* if it is stochastic,
+
+* a *[[unital quantum channel]]* if it is doubly stochastic.
+ 
+\end{definition}
+
+(e.g. [Landau & Streater 1993 p. 107-108](#LandauStreater93))
 
 
 ### In terms of Kraus decompositions
  {#InTermsOfKrausDecompositions}
 
-> old material, to be adjusted...
 
-+-- {: .num_theorem}
-###### Theorem
-
-A map $\Phi$ as above is _completely positive_ precisely if there exists a [[set]] $I$ and an $I$-family $\{E_i \in Mat(k \times n, \mathbb{C}| i \in I)\}$ of matrices, such that for all $A \in Mat(n \times n, \mathbb{C})$ we have
+\begin{theorem}
+\label{OperatorSumDecompositionOfQuantumChannels}
+**(operator-sum deomposition of quantum channels)**
+\linebreak
+For $\mathscr{H}_i$ [[finite-dimensional Hilbert spaces]], a  [[linear map]] 
 
 $$
-  \Phi(A) = \sum_{i \in I} E_i A E_i^\dagger
+  chan
+  \;\colon\;
+  \mathscr{H}_1 \otimes \mathscr{H}_1^\ast
+  \longrightarrow
+  \mathscr{H}_2 \otimes \mathscr{H}_2^\ast
+$$
+
+is completely positive (Def. \ref{PositiveMaps}) precisely if there exists an [[indexed set]]
+
+\[
+  R \,\colon\, FinSet
+  ,\;\;
+  r \,\colon\, R
+  \;\;\;\;\;
+  \vdash
+  \;\;\;\;\;
+  E_r \,\colon\, \mathscr{H}_1 \longrightarrow \mathscr{H}_2
+\]
+
+of [[linear operators]] such that
+
+\[
+  \label{OperatorSumDecompositionFormula}
+  chan(\rho)
+  \;=\;
+  \underset{r}{\sum}
+  \,
+  E_r \cdot \rho \cdot E_r^\dagger.
+\]
+\end{theorem}
+Accordingly, in addition:
+
+* $chan$ preserves the [[trace]] and is hence a quantum channel iff 
+
+  $$
+  \sum_r \, E_r^\dagger \cdot E_r \,=\, id_{\mathscr{H}_1}
+  $$
+
+* $chan$ preserves also the identity matrix and is hence a [[unital quantum channel]] iff (in addition)
+
+  $$
+  \sum_r \, E_r \cdot E_r^\dagger \,=\, id_{\mathscr{H}_2}
   \,.
-$$
+  $$
 
-Moreover, such $\Phi$ preserves the trace of matrices precisely if 
 
-$$
-  \sum_{i \in I} E_i^\dagger E_i = Id_{Mat(n \times n, \mathbb{C})}
-  \,.
-$$
+The idea goes back to [Stinespring 1955](#Stinespring55). The decomposition (eq:OperatorSumDecompositionFormula) is also called *Kraus decomposition* by *Kraus operators*, after [Kraus 1971](#Kraus71). The fully explicit statement of Thm. \ref{OperatorSumDecompositionOfQuantumChannels} is due to [Choi 1975 Thm. 1](#Choi75). 
 
-=--
+Review includes: [Nielsen & Chuang 2000 Thm. 8.1](#NielsenChuang00), [Kuperberg 2005 Thm. 1.5.1](#Kuperberg05). 
 
-This is originally due to [Stinespring 1955](#Stinespring55). The decomposition in the theorem is called _Kraus decomposition_ after [Kraus 1971](#Kraus71). See also ([Choi 75, theorem 1](#Choi75)). Review includes [Nielsen & Chuang 2000, Thm. 8.1](#NielsenChuang00, [Kuperberg 2005, Thm. 1.5.1](#Kuperberg05). A general abstract proof in terms of [[dagger category|†-categories]] is given by [Selinger 2005](#Selinger05). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in [Coecke 2007](#Coecke07).
-
-The matrices $\{E_i\}$ that are associated to a completely positive and trace-preserving map by the above theorem are called **Kraus operators**.
-
-In the physics literature the above theorem is then phrased as: _Every quantum channel can be represented using Kraus operators_  .
+A general abstract proof in terms of [[dagger category|†-categories]] is given by [Selinger 2005](#Selinger05). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in [Coecke 2007](#Coecke07).
 
 
 
@@ -260,7 +334,7 @@ Examples of [[quantum noise]] channels:
 
 ## References
 
-The Kraus-decomposition characterization of completely positive maps is due to:
+The operator-sum decomposition characterization of completely positive maps is due to:
 
 * {#Stinespring55} [[W. Forrest Stinespring]], *Positive functions on $C^\ast$-algebras*, Proc. Amer. Math. Soc. **6** 2 (1955) 211-216 &lbrack;[doi:2032342](https://www.jstor.org/stable/2032342), [doi:10.2307/2032342](https://doi.org/10.2307/2032342)&rbrack;
  
@@ -268,18 +342,20 @@ The Kraus-decomposition characterization of completely positive maps is due to:
  
 * {#Choi75} [[Man-Duen Choi]], *Completely positive linear maps on complex matrices*, Linear Algebra and its Applications **10** 3 (1975) 285-290 &lbrack;<a href="https://doi.org/10.1016/0024-3795(75)90075-0">doi:10.1016/0024-3795(75)90075-0</a>&rbrack;
 
+with early review in:
+
 * {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
  
 The terminology "quantum operation" for linear maps on the linear dual of a [[C-star algebra|$C^\ast$-algebra]] which preserve the subset of [[states on a star-algebra]]:
 
 * {#HaagKastler64} [[Rudolf Haag]], [[Daniel Kastler]], pp. 850 in: *An algebraic approach to quantum field theory*, Journal of Mathematical Physics, **5** (1964) 848-861 &lbrack;[doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124)&rbrack;
 
+
 Analysis of [[extremal quantum channels]]:
 
 * [Choi 1975. Thm. 2.11](#Choi75)
 
-* [[L. J. Landau]], [[Raymond F. Streater]],  *On Birkhoff's theorem for doubly stochastic completely positive maps of matrix algebras*, Linear Algebra and its Applications
-**193** (1993) 107-127 &lbrack;<a href="https://doi.org/10.1016/0024-3795(93)90274-R">doi:10.1016/0024-3795(93)90274-R</a>&rbrack;
+* {#LandauStreater93} [[L. J. Landau]], [[Raymond F. Streater]],  *On Birkhoff's theorem for doubly stochastic completely positive maps of matrix algebras*, Linear Algebra and its Applications **193** (1993) 107-127 &lbrack;<a href="https://doi.org/10.1016/0024-3795(93)90274-R">doi:10.1016/0024-3795(93)90274-R</a>&rbrack;
 
 * [[Christian B. Mendl]], [[Michael M. Wolf]], *Unital Quantum Channels -- Convex Structure and Revivals of Birkhoff's Theorem*, Commun. Math. Phys. **289**  (2009) 1057-1096 &lbrack;[arXiv:0806.2820](http://arxiv.org/abs/0806.2820)&rbrack;
 
@@ -305,6 +381,10 @@ in the context of [[quantum probability]]:
 and in [[quantum information theory]]:
 
 * [[Mark M. Wilde]], *Quantum Information Theory*, Cambridge University Press (2013) &lbrack;[doi:10.1017/CBO9781139525343](https://doi.org/10.1017/CBO9781139525343), [arXiv:1106.1445](https://arxiv.org/abs/1106.1445)&rbrack;
+
+* [[Joseph M. Renes]], 4.32 in: *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
+
+
 
 * [[Sumeet Khatri]], [[Mark M. Wilde]], §3.2 in: _Principles of Quantum Communication Theory: A Modern Approach_ &lbrack;[arXiv:2011.04672](https://arxiv.org/abs/2011.04672)&rbrack;
 
