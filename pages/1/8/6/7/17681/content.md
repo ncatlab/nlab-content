@@ -63,15 +63,19 @@ See also:
 
 * Haskell, *[Monad transformers](https://en.wikibooks.org/wiki/Haskell/Monad_transformers)*
 
-* Bryan O'Sullivan, Don Stewart, and John Goerzen, _Monad transformers_, [Chapter 18](http://book.realworldhaskell.org/read/monad-transformers.html) of Real World Haskell.
+* Bryan O'Sullivan, Don Stewart, and John Goerzen, _Monad transformers_, [Chapter 18](http://book.realworldhaskell.org/read/monad-transformers.html) of *Real World Haskell*
 
-* Chung-Chieh Shan, _Monad transformers_, [blog post](http://conway.rutgers.edu/~ccshan/wiki/blog/posts/Monad_transformers/)
+* [[Mauro Jaskelioff]], [[Eugenio Moggi]], *Monad Transformers as Monoid Transformers*, Theoretical Computer Science **411** 51–52 (2010) 4441-4466 &lbrack;[doi:10.1016/j.tcs.2010.09.011](https://doi.org/10.1016/j.tcs.2010.09.011), [pdf](http://www.disi.unige.it/person/MoggiE/ftp/tcs10.pdf)&rbrack;
 
-* Mauro Jaskelioff, [[Eugenio Moggi]], _Monad Transformers as Monoid Transformers_, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/tcs10.pdf)
+* {#HP07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) **172** (2007) 437-458  &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
 
-* Oleksandr Manzyuk, _Calculating monad transformers with category theory_, [pdf](https://oleksandrmanzyuk.files.wordpress.com/2012/02/calc-mts-with-cat-th1.pdf)
+* Oleksandr Manzyuk, _Calculating monad transformers with category theory_ (2012) &lbrack;[pdf](https://oleksandrmanzyuk.files.wordpress.com/2012/02/calc-mts-with-cat-th1.pdf)&rbrack;
 
-* {#HP07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive Volume 172, April, 2007 Pages 437-458  ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
+
+* [[Maciej Piróg]], *Eilenberg--Moore Monoids and Backtracking Monad Transformers*, EPTCS **207** (2016) 23-56 &lbrack;[ar](https://arxiv.org/abs/1604.01184), [doi:10.4204/EPTCS.207.2](https://doi.org/10.4204/EPTCS.207.2)&rbrack
+
+* Chung-Chieh Shan, _Monad transformers_ (2020) &lbrack;[blog post](http://conway.rutgers.edu/~ccshan/wiki/blog/posts/Monad_transformers/)&rbrack;
+
 
 [[!redirects monad transformers]]
 
