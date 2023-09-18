@@ -139,7 +139,7 @@ The axioms then appear as:
 
 Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ &lbrack;[Bénabou 1967, pp. 39](#Bénabou67)&rbrack; it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Coppey 1970](#Coppey70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
+Spelling this out &lbrack;[Frei 1969 p. 269](#Frei69), [Pumplün 1970 p 330 & 334](#Pumplün70), [Coppey 1970](#Coppey70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
 
 \begin{definition}\label{TwoCategoryOfMonads}
 **(2-category of monads)**
@@ -217,7 +217,7 @@ Let $K$ be a [[2-category]].
 \linebreak
 Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is oriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70), [Street 1972 pp 158](#Street72).
 
-One issue is that the functor between [[Kleisli categories]] induced by a monad morphism goes in the direction *opposite* of $\lambda$ as defined above (as generally for [[extension of scalars]] of [[module objects]] along a [[homomorphism]] of [[monoids]]), so that for authors who adopt the opposite of the above convention (such as [Pumplün 1970 p 330](#Pumplün70), [Barr & Wells 1985 §6.1](#BarrWells85) and in our Exp. \ref{TransformationOfMonadsOnFixedCategory} below) the association of monad morphisms to functors between Kleisli catgeories is contravariant (eg. [Barr & Wells 1985 Thm. 6.3](#BarrWells85)).
+One issue is that the functor between [[Kleisli categories]] induced by a monad morphism goes in the direction *opposite* of $\lambda$ as defined above (as generally for [[extension of scalars]] of [[module objects]] along a [[homomorphism]] of [[monoids]]), so that for authors who adopt the opposite of the above convention (such as [Frei 1969 p. 269](#Frei69), [Pumplün 1970 p 330](#Pumplün70), [Barr & Wells 1985 §6.1](#BarrWells85) and in our Exp. \ref{TransformationOfMonadsOnFixedCategory} below) the association of monad morphisms to functors between Kleisli catgeories is contravariant (eg. [Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 Thm. 6.3](#BarrWells85)).
 \end{remark}
 
 
@@ -314,7 +314,7 @@ and the joins:
 
 in that it makes these [[commuting square|squares commute]].
 
-Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
 $$
   \array{
@@ -370,6 +370,7 @@ $$
 \end{example}
 
 \linebreak
+
 
 ### Algebras/modules over a monad 
  {#Algebras}
@@ -577,6 +578,8 @@ Further historical comments:
 Further original texts:
 
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+* {#Frei69} [[Armin Frei]], *Some remarks on triples*, Mathematische Zeitschrift **109** (1969) 269–272 &lbrack;[doi:10.1007/BF01110118](https://doi.org/10.1007/BF01110118)&rbrack;
 
 * {#Pumplün70} [[Dieter Pumplün]], *Eine Bemerkung über Monaden und adjungierte Funktoren*, Mathematische Annalen **185** (1970) 329-337 &lbrack;[eudml:161964](https://eudml.org/doc/161964), [[Pumpluen-Monaden.pdf:file]]&rbrack;
 
