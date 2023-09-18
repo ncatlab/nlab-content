@@ -11,6 +11,11 @@ Introducing ([[strong monad|strong]]) [[monads in computer science]] (in the for
 
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
+and on their [[monad transformers]]:
+
+* [[Mauro Jaskelioff]], [[Eugenio Moggi]], *Monad Transformers as Monoid Transformers*, Theoretical Computer Science **411** 51–52 (2010) 4441-4466 &lbrack;[doi:10.1016/j.tcs.2010.09.011](https://doi.org/10.1016/j.tcs.2010.09.011), [pdf](http://www.disi.unige.it/person/MoggiE/ftp/tcs10.pdf)&rbrack;
+
+
 Review:
 
 * [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
