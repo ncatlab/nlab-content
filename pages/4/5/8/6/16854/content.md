@@ -1,6 +1,6 @@
 Jacques Penon is a category theorist who has worked on [[synthetic differential geometry]] and higher categories. He introduced the concept of a [[quasitopos]] in ([Penon 1973](#Penono73)) and gave a definition of weak n-category that was later proved to be too strict by Cheng and Makkai. His proposal was updated to take this particular objection into account.
 
-* [Publications in NUMDAM](http://www.numdam.org/numdam-bin/search?h=aur&aur=Penon,+Jacques&format=short)
+* [Publications in NUMDAM](http://www.numdam.org/search/%22Penon,%20Jacques%22-c/)
 
 ## Related entries
 
@@ -10,9 +10,9 @@ Jacques Penon is a category theorist who has worked on [[synthetic differential 
 
 ## selected writings
 
-* {#Penon73}J. Penon, _Quasi-topos_ , C.R. Acad. Sci. Paris **276** S&#233;rie A (1973) pp.237&#8211;240. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6217213f/f251.image))
+* {#Penon73}J. Penon, _Quasi-topos_, C.R. Acad. Sci. Paris **276** S&#233;rie A (1973) pp.237&#8211;240. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6217213f/f251.image))
 
-* J. Penon, _Cat&#233;gories localement internes_ ,  C.R. Acad. Sci. Paris **278** S&#233;rie A (1974) pp.1577&#8211;1580. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6236784g/f355.image))
+* J. Penon, _Cat&#233;gories localement internes_,  C.R. Acad. Sci. Paris **278** S&#233;rie A (1974) pp.1577&#8211;1580. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6236784g/f355.image))
 
 * {#Penon81} [[Jacques Penon]], _Infinitésimaux et intuitionnisme_,  Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 22 (1981) no. 1, p. 67-72 ([numdam:CTGDC_1981__22_1_67_0](http://www.numdam.org/item/?id=CTGDC_1981__22_1_67_0))
 
