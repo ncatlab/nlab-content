@@ -47,49 +47,12 @@ $$
 
 ## Properties
 
-\begin{proposition}
-**([[quantum channels]] and [[decoherence]])**
 
-Every [[quantum channel]]
 
-$$
-  ch 
-  \;\;\colon\;\;
-  \mathscr{H} \otimes \mathscr{H}^\ast
-  \longrightarrow
-  \mathscr{H} \otimes \mathscr{H}^\ast
-$$
+[[!include quantum channels and decoherence -- section]]
 
-may be written as 
 
-1. a [[unitary quantum channel]] $U_{tot}$ 
 
-1. on a [[compound system]] with some $\mathscr{B}$ (the "bath"), yielding a *total system* $\mathscr{H} \otimes \mathscr{B}$ ([[tensor product of Hilbert spaces|tensor product]])
-
-1. acting on the given [[mixed state]] $\rho$ coupled (tensored) with a fixed [[mixed state]] $env \,\colon\, \mathscr{B} \otimes \mathscr{B}^\ast$ of the bath system,
-
-1. followed by [[partial trace]] (averaging) over $\mathscr{B}$ (leading to [[decoherence]] in the remaining state)
-
-in that
-
-\[
-  \label{QuantumChannelVieDecoherence}
-  ch(\rho)
-  \;\;=\;\;
-  Tr_{\mathscr{B}}
-  \big(
-    U_{tot}
-    \cdot
-    (\rho \otimes env)
-    \cdot
-    U_{tot}^\dagger
-  \big)
-  \,.
-\]
-
-Conversely, every operation of the form (eq:QuantumChannelVieDecoherence) is a quantum channel.
-\end{proposition}
-(eg. [Attal, Thm. 6.5 & 6.7](#Attal))
 
 ## References
 
