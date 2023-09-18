@@ -19,4 +19,10 @@ On [[cubical-type model category|model structures on cubical sets]] and [[unival
 
 * [[Thomas Streicher]], [[Jonathan Weinberger]]: *Simplicial sets inside cubical sets* &lbrack;[arXiv:1911.09594](https://arxiv.org/abs/1911.0959)&rbrack;, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)
 
+
+Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via [[simplicial homotopy type theory]] (in [[Rzk]]):
+
+* [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
+
+
 category: people
