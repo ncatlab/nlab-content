@@ -31,6 +31,10 @@ based on [[modal type theory]]:
 
 * [[Agda-flat]]: [installation instructions](http://www.cl.cam.ac.uk/~amp12/agda/internal-universes/code/agda-flat/install.txt)
 
+based on [[simplicial type theory]]:
+
+* [[Rzk]]
+
 For [[monoidal category|monoidal]] [[category theory]]:
 
 * [[DisCoPy]]
