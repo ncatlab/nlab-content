@@ -13,4 +13,6 @@ On [[non-perturbative quantum field theory|non-perturbative]]/[[AQFT|algebraic]]
 category: people
 
 [[!redirects Raymond Streater]]
+
 [[!redirects Ray Streater]]
+[[!redirects Ray F. Streater]]
