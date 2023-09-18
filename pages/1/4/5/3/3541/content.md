@@ -260,19 +260,30 @@ Examples of [[quantum noise]] channels:
 
 ## References
 
-The Kraus-decomposition characterization of completely positive maps is due to
+The Kraus-decomposition characterization of completely positive maps is due to:
 
 * {#Stinespring55} [[W. Forrest Stinespring]], *Positive functions on $C^\ast$-algebras*, Proc. Amer. Math. Soc. **6** 2 (1955) 211-216 &lbrack;[doi:2032342](https://www.jstor.org/stable/2032342), [doi:10.2307/2032342](https://doi.org/10.2307/2032342)&rbrack;
  
 * {#Kraus71} [[Karl Kraus]], *General state changes in quantum theory*, Ann. Physics **64** 2 (1971) 311-335 &lbrack;<a href="https://doi.org/10.1016/0003-4916(71)90108-4">doi:10.1016/0003-4916(71)90108-4</a>&rbrack;
  
-* {#Choi75} M. Choi, _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, (1975), Pages 285-290
+* {#Choi75} [[Man-Duen Choi]], *Completely positive linear maps on complex matrices*, Linear Algebra and its Applications **10** 3 (1975) 285-290 &lbrack;<a href="https://doi.org/10.1016/0024-3795(75)90075-0">doi:10.1016/0024-3795(75)90075-0</a>&rbrack;
 
 * {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
  
 The terminology "quantum operation" for linear maps on the linear dual of a [[C-star algebra|$C^\ast$-algebra]] which preserve the subset of [[states on a star-algebra]]:
 
 * {#HaagKastler64} [[Rudolf Haag]], [[Daniel Kastler]], pp. 850 in: *An algebraic approach to quantum field theory*, Journal of Mathematical Physics, **5** (1964) 848-861 &lbrack;[doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124)&rbrack;
+
+Analysis of [[extremal quantum channels]]:
+
+* [Choi 1975. Thm. 2.11](#Choi75)
+
+* [[L. J. Landau]], [[Raymond F. Streater]],  *On Birkhoff's theorem for doubly stochastic completely positive maps of matrix algebras*, Linear Algebra and its Applications
+**193** (1993) 107-127 &lbrack;<a href="https://doi.org/10.1016/0024-3795(93)90274-R">doi:10.1016/0024-3795(93)90274-R</a>&rbrack;
+
+* [[Christian B. Mendl]], [[Michael M. Wolf]], *Unital Quantum Channels -- Convex Structure and Revivals of Birkhoff's Theorem*, Commun. Math. Phys. **289**  (2009) 1057-1096 &lbrack;[arXiv:0806.2820](http://arxiv.org/abs/0806.2820)&rbrack;
+
+* James Miller, S. T. da Silva, *On the Extremality of the Tensor Product of Quantum Channels* &lbrack;[arXiv;2305.05795](https://arxiv.org/abs/2305.05795)&rbrack;
 
 
 Review and survey:
@@ -310,10 +321,9 @@ Further:
 
 See also
 
-* Caleb J. O'Loan (2009), _Topics in Estimation of Quantum Channels_ , PhD thesis, University of St. Andrews, ([arXiv](http://arxiv.org/abs/1001.3971))
+* Caleb J. O'Loan, *Topics in Estimation of Quantum Channels*, PhD thesis, University of St. Andrews (2009) &lbrack;[arXiv:1001.397](http://arxiv.org/abs/1001.3971)&rbrack;
 
 
-* Christian B. Mendl, Michael M. Wolf, _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ , Commun. Math. Phys. 289, 1057-1096 (2009) ([arXiv:0806.2820](http://arxiv.org/abs/0806.2820))
 
 
 * John A. Smolin, Frank Verstraete, Andreas Winter, *Entanglement of assistance and multipartite state distillation*, Phys. Rev. A **72** (2005) 052317 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
