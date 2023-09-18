@@ -54,19 +54,18 @@ The exact reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad
 \end{imagefromfile}
 
 
-{#ItIsStriking} But it is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]] "$\underline{S}$") and then proceeds to unwind the equivalence of this definition to the traditional one
+{#ItIsStriking} But it is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] $1$ to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]] "$\underline{S}$") and then proceeds to unwind the equivalence of this definition to the traditional one:
 $$
   Monads(\underline{S})
   \;\;\;
    \simeq
   \;\;\;
   \Big\{
-    \ast \xrightarrow{\; lax \;} \underline{S}
+    1 \xrightarrow{\; lax \;} \underline{S}
   \Big\}
   \,.
 $$
-In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks.
-
+In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks. In fact, as discussed there,  "monad" (both in ancient and still in modern Greek) just means "unit" in the sense of the unit natural number $1$ and [Bénabou 1967, Def. 5.4.1](#Bénabou67) literally identifies monads with the (lax) units $1 \to \underline{S}$ in the ambient 2-category.
 
 On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)), just a few years earlier the ancient [[monad terminology]] had already been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
 
