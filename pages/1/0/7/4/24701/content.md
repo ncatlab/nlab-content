@@ -86,9 +86,9 @@ In addition, we have a [[countable set|countably]] [[infinite set|infinite]] num
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_i:\mathrm{Type}_{i + 1}}$$
 
-as well as inference rules for [[cumulativity]], that any type in a universe is also in the next universe of the hierarchy:
+as well as inference rules for either [[cumulativity]], that any type in a universe is also in the next universe of the hierarchy, or [[lifting]], that any type in a universe can be lifted to the next universe of the hierarchy:
 
-$$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma \vdash A:\mathrm{Type}_{i + 1}}$$
+$$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma \vdash A:\mathrm{Type}_{i + 1}}\mathrm{cumul} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma \vdash \mathrm{Lift}(A):\mathrm{Type}_{i + 1}}\mathrm{lifting}$$
 
 Contexts are lists of element judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the inference rules for the empty context and extending the context by a element judgment
 
