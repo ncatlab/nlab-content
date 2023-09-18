@@ -132,6 +132,8 @@ The following examples have no classical analog:
 
 * [[controlled quantum gate]]
 
+* [[unitary quantum channel]]
+
 * [[quantum circuit]]
 
 * [[quantum logic]]
