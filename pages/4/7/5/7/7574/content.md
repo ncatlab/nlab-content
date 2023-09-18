@@ -9,5 +9,8 @@ On [[higher twisted K-theory]] via [[C-star algebras|$C^\ast$-algebras]]:
 
 * [[Marius Dadarlat]], [[Ulrich Pennig]], *Unit spectra of K-theory from strongly self-absorbing $C^\ast$-algebras*, Algebr. Geom. Topol. 15 (2015) 137-168 ([arXiv:1306.2583](https://arxiv.org/abs/1306.2583))
 
+* [[David E. Evans]], [[Ulrich Pennig]], *Spectral Sequence Computation of Higher Twisted K-Groups of $SU(n)$* &lbrack;[arXiv:2307.00423](https://arxiv.org/abs/2307.00423)&rbrack;
+
+
 
 category: people
