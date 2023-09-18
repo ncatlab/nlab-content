@@ -133,9 +133,9 @@ In this perspective, quantum channels are understood as a kind of unitary quantu
 
 This is discussed below at:
 
-* *[In terms of partial traces](#InTermsOfartialTraces)*
+* *[Quantum channels and Decoherence](#QuantumChannelsAndDecoherence)*
 
-In this last form, the formulation of quantum gates lends itself to formulation in the [[string diagram]]-calculus of [[quantum information theory via dagger-compact categories]]. 
+In this last form, the formulation of quantum channels lends itself to formulation in the [[string diagram]]-calculus of [[quantum information theory via dagger-compact categories]]. 
 
 This is discussed below at :
 
@@ -195,10 +195,11 @@ The matrices $\{E_i\}$ that are associated to a completely positive and trace-pr
 In the physics literature the above theorem is then phrased as: _Every quantum channel can be represented using Kraus operators_  .
 
 
-### In terms of partial traces 
- {#InTermsOfartialTraces}
 
-(...)
+
+[[!include quantum channels and decoherence -- section]]
+
+
 
 
 
@@ -286,6 +287,10 @@ In the context of [[quantum computation]]:
 
 * {#Kuperberg05} [[Greg Kuperberg]], §1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
+in the context of [[quantum probability]]:
+
+* [[Rolando Rebolledo]], *Complete Positivity and the Markov structure of Open Quantum Systems*, chapter in: [[Stéphane Attal]], [[Alain Joye]], [[Claude-Alain Pillet]] (eds.), *Open Quantum Systems II -- The Markovian approach*,  Lecture Notes in Mathematics **1881**, Springer (2006) 149-182 &lbrack;[doi:10.1007/b128451](https://doi.org/10.1007/b128451)&rbrack;
+
 and in [[quantum information theory]]:
 
 * [[Mark M. Wilde]], *Quantum Information Theory*, Cambridge University Press (2013) &lbrack;[doi:10.1017/CBO9781139525343](https://doi.org/10.1017/CBO9781139525343), [arXiv:1106.1445](https://arxiv.org/abs/1106.1445)&rbrack;
@@ -300,7 +305,7 @@ Further:
 
 * [[Robert B. Griffiths]], *Quantum Channels, Kraus Operators, POVMs* (2012) &lbrack;[pdf](https://quantum.phys.cmu.edu/QCQI/qitd412.pdf), [[Griffiths-QuantumChannels.pdf:file]]&rbrack;
 
-* [[Stéphane Attal]], *Quantum Channels*, Lecture 6 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Channels.pdf), [[Attal-QuantumChannels.pdf:file]], [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
+* {#AttalLectureNotes} [[Stéphane Attal]], *Quantum Channels*, Lecture 6 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Channels.pdf), [[Attal-QuantumChannels.pdf:file]], [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
 
 
 See also
