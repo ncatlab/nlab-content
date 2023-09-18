@@ -110,7 +110,7 @@ The [[category of operators]] of a globular operad $A$ is (the [[syntactic categ
 
 ## Examples
 
-### The Globular operad for $\omega$-categories
+### The globular operad for $\omega$-categories
 
 Write $\omega$ for the globular operad whose [[category of operators]], see [above](#CategoryOfOperators), is the [[Theta category]] $\Theta$.
 
