@@ -48,7 +48,7 @@ satisfying the integrability condition $\Phi\wedge\Phi = 0$. The pair of data $(
 
 (Notice that this is similar to but crucially different the definition of a [[flat connection]] on a [[vector bundle]]. For that the map $\Phi$ is just $\mathbb{C}$-linear and the integrability condition is $\mathbf{d}\phi + \Phi\wedge\Phi = 0$.)
 
-Higgs bundles can be considered as a limiting case of a [[curvature|flat]] [[connection on a bundle|connection]] in the limit in which its exterior differential tends to zero, be obtained by rescaling. So the equation $d u/dz = A(z)u$ where $A(z)$ is a matrix of connection can be rescaled by putting a small parameter in front of $d u/dz$. 
+Higgs bundles can be considered as a limiting case of a [[curvature|flat]] [[connection on a bundle|connection]] in the limit in which its exterior differential tends to zero, what can be obtained by rescaling the connection form. So the equation $d u/dz = A(z)u$ where $A(z)$ is a matrix of connection can be rescaled by putting a small parameter in front of $d u/dz$, or equivalently a large parameter in front of $A(z)$. Then the Maurer-Cartan equation has a term quadratic in the large parameter and the exterior derivative term is linear in large parameter and can be neglected, so the flatness reduces to the Higgs equation $\Phi\wedge\Phi = 0$.
 
 ### Formulation in D-geometry
 
