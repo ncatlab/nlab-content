@@ -129,6 +129,14 @@ A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory
 
 A [[proof assistant]] implementing simplicial type theory: 
 
-* [rzk](https://github.com/fizruk/rzk)
+* [[Rzk]] &lbrack;[github.com/fizruk/rzk](https://github.com/fizruk/rzk)&rbrack;
+
+Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via [[simplicial homotopy type theory]] (in [[Rzk]]):
+
+* [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
+
 
 [[!redirects simplicial homotopy type theory]]
+
+
+
