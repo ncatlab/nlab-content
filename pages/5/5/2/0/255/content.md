@@ -144,6 +144,7 @@ Spelling this out &lbrack;[Pumplün 1970 p 330 & 334](#Pumplün70), [Coppey 1970
 \begin{definition}\label{TwoCategoryOfMonads}
 **(2-category of monads)**
 \linebreak
+Let $K$ be a [[2-category]].
 
 1. An [[object]] in $Mnd(K)$ is a monad $(a,t,\eta,\mu)$ in $K$;
 
@@ -312,6 +313,54 @@ and the joins:
 \end{tikzcd}
 
 in that it makes these [[commuting square|squares commute]].
+
+Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|monad]] by [[extension of scalars]] &lbrack;[Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+
+$$
+  \array{
+    \mathcal{E}' 
+    &
+    \xleftarrow{\;\;\;\;\;  tr \;\;\;\;\;}
+    &
+    \mathcal{E}
+    \\
+    \mathbf{C}^{\mathcal{E}}
+    &
+    \xrightarrow{\;\;\;\; tr^\ast \;\;\;\;}
+    &
+    \mathbf{C}^{ \mathcal{E}^' }
+    \\
+    \left(
+      \array{
+        \mathcal{E}'(D)
+        \\
+        \big\downarrow\mathrlap{ {}^{\rho'} }
+        \\
+        D
+      }
+    \right)
+    &\mapsto&
+    \left(
+      \array{
+        \mathcal{E}(D)
+        &\overset{tr_D}{\to}&
+        \mathcal{E}'(D)
+        \\
+        \big\downarrow
+        \mathrlap{ {}^{
+          tr^\ast\rho'
+        } }
+        &&
+        \big\downarrow\mathrlap{ {}^{\rho'} }
+        \\
+        D
+        &=&
+        D
+      }
+    \right)
+  }
+$$
+
 \end{example}
 
 \begin{example}\label{MonadTransformers}
