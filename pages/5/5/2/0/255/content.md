@@ -54,7 +54,7 @@ The exact reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad
 \end{imagefromfile}
 
 
-But it is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]] "$\underline{S}$") and then proceeds to unwind the equivalence of this definition to the traditional one
+{#ItIsStriking} But it is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]] "$\underline{S}$") and then proceeds to unwind the equivalence of this definition to the traditional one
 $$
   Monads(\underline{S})
   \;\;\;
@@ -241,7 +241,7 @@ $$
 
 a morphism between them is 
 
-* a [[natural transformation]] $\lambda \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
+* a [[natural transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
 
 such that it respects, in the evident way, the [[monad units]]
 
@@ -269,7 +269,7 @@ such that it respects, in the evident way, the [[monad units]]
   \mathcal{E}
   \ar[
      rr,
-     "{ \lambda }"{swap}
+     "{ \mathrm{tr} }"{swap}
   ]
   &&
   \mathcal{E}'
@@ -282,7 +282,7 @@ and the joins:
   \ar[
     rr,
     "{
-      \lambda \circ \lambda
+      \mathrm{tr} \circ \mathrm{tr}
     }"
   ]
   \ar[
@@ -305,7 +305,7 @@ and the joins:
   \ar[
     rr, 
     "{
-      \lambda
+      \mathrm{tr}
     }"{swap}
   ]
   &&
@@ -314,7 +314,7 @@ and the joins:
 
 in that it makes these [[commuting square|squares commute]].
 
-Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+{#ExtensionOfModalesAlongMonadTransformation} Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
 $$
   \array{
@@ -360,6 +360,67 @@ $$
     \right)
   }
 $$
+
+Since this [[extension of scalars]] is the identity on [[underlying]] [[objects]], it cannot in general restrict to a functor on [[Kleisli categories]]. 
+
+{#ExtensionOfFreeModalesAlsoIsomorphicMonadTransformation} However, when the [[monad transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ is an [[isomorphism]] then $tr^\ast$ does take [free modales](algebra+over+a+monad#FreeAlgebras) to free modales. This is seen from the following diagram:
+
+$$
+  \array{
+    D 
+    &=& 
+    D
+    \\
+    \Big\downarrow\mathrlap{
+      {}^{ ret^{\mathcal{E}}_{\mathcal{E}(D)} }
+    }
+    &&
+    \Big\downarrow\mathrlap{
+      {}^{ ret^{\mathcal{E}}_{\mathcal{E}'(D)} }
+    }
+    \\
+    \mathcal{E}
+    \mathcal{E}(D)
+    &
+    \overset{
+      \mathcal{E}(tr_D)
+    }{\longrightarrow}
+    &
+    \mathcal{E}
+    \mathcal{E}'(D)
+    &
+    \overset{
+      tr_{\mathcal{E}'(D)}
+    }{\longrightarrow}
+    &
+    \mathcal{E}' 
+    \mathcal{E}'(D)
+    \\
+    \Big\downarrow\mathrlap{ {}^{ join^{\mathcal{E}}_D } } 
+    &&
+    \Big\downarrow\mathrlap{ {}^{  
+      tr^\ast 
+      join^{\mathcal{E}'}_D
+    } } 
+    &&
+    \Big\downarrow\mathrlap{ {}^{ join^{\mathcal{E}'}_D } }
+    \\
+    \mathcal{E}(D)
+    &
+    \underset{
+      \;\; tr_D \;\;
+    }{\longrightarrow}
+    &
+    \mathcal{E}'(D)
+    &=&
+    \mathcal{E}'(D)
+  }
+$$
+
+Here the middle vertical morphism is the nominal image under $tr^\ast$ of the free modale on the right, but the squares on the left, which commute by assumption on $tr$, exhibit an isomorphism from the middle modale to the $\mathcal{E}$-free modale on the left.
+
+
+
 
 \end{example}
 
