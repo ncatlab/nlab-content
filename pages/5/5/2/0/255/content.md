@@ -217,7 +217,7 @@ Let $K$ be a [[2-category]].
 \linebreak
 Beware that $\lambda$ in Def. \ref{TwoCategoryOfMonads} is oriented oppositely to what one might expect. This need not be so but is a possible choice, see [Pumplün 1970 p 334](#Pumplün70), [Street 1972 pp 158](#Street72).
 
-One issue is that the functor between [[Kleisli categories]] induced by a monad morphism goes in the direction *opposite* of $\lambda$ as defined above, so that for authors who adopt the opposite of the above convention (such as [Pumplün 1970 p 330](#Pumplün70), [Barr & Wells 1985 §6.1](#BarrWells85) and in our Exp. \ref{TransformationOfMonadsOnFixedCategory} below) the association of monad morphisms to functors between Kleisli catgeories is contravariant (eg. [Barr & Wells 1985 Thm. 6.3](#BarrWells85)).
+One issue is that the functor between [[Kleisli categories]] induced by a monad morphism goes in the direction *opposite* of $\lambda$ as defined above (as generally for [[extension of scalars]] of [[module objects]] along a [[homomorphism]] of [[monoids]]), so that for authors who adopt the opposite of the above convention (such as [Pumplün 1970 p 330](#Pumplün70), [Barr & Wells 1985 §6.1](#BarrWells85) and in our Exp. \ref{TransformationOfMonadsOnFixedCategory} below) the association of monad morphisms to functors between Kleisli catgeories is contravariant (eg. [Barr & Wells 1985 Thm. 6.3](#BarrWells85)).
 \end{remark}
 
 
@@ -314,7 +314,7 @@ and the joins:
 
 in that it makes these [[commuting square|squares commute]].
 
-Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|monad]] by [[extension of scalars]] &lbrack;[Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
 $$
   \array{
