@@ -179,6 +179,10 @@ Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞
 
 * [[Louis Martini]], *Yoneda's lemma for internal higher categories*, &lbrack;[arXiv:2103.17141](https://arxiv.org/abs/2103.17141)&rbrack;
 
+Formalization on [[Rzk]] is discussed in
+
+* Nikolai Kudasov, [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma*. (2023). ([arXiv:2309.08340](https://arxiv.org/abs/2309.08340)).
+
 
 [[!redirects Yoneda lemma for (∞,1)-categories]]
 [[!redirects (infinity,1)-Yoneda lemma]]
