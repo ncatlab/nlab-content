@@ -152,6 +152,30 @@ In this [[bra-ket]]-notation, the
 
 ## Definition
 
+For $\mathscr{H}$ a [[finite-dimensional Hilbert space]] --- or generally an object in a [[compact closed category]] $QuTypes$ --- its [[internal hom]]-[[adjoint functor|adjunction]] is [[ambidextrous adjunction|ambidextrous]] and associated to a pair of [[Frobenius monads]], in linear version of the classical [[state monads]]/[[store comonad]]-construction:
+
+\begin{imagefromfile}
+    "file_name": "QuantumStateFrobeniusMonads-230919.jpg",
+    "width": 680,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+Moreover, these (co)monads may equivalently be understood as the ([[cowriter comonad|co]]-)[[writer monads]] induced by the [[endomorphism algebra]] $End(\mathscr{H}) \,\simeq\, \mathscr{H}^\ast \otimes \mathscr{H}$, which is a [[Frobenius algebra]] (by general arguments as recalled in [Lauda 2006](Frobenius+algebra#Lauda2006), made explicit for instance in [Vicary 2011 Lem 3.17](endomorphism+ring#Vicary11)) and as such makes its ([[cowriter comonad|co]]-)[[writer monad]] into a [[Frobenius monad]].
+
+\linebreak
+
+We next spell this out in more detail
+
+> (Beware that there is now a switch in conventions. Will streamline later.)
+
+
 ### The defining adjunction
  {#TheDefiningAdjunction}
 
@@ -454,49 +478,6 @@ as follows:
 
 Finally, the obtain-operation (the [[counit of a comonad|comonad counit]]) is the adjunction counit (eq:TheAdjunctionCounit)
 
-
-
-## Properties
-
-### Frobenius structure
- {#FrobeniusStructure}
-
-For $\mathscr{H}$ a [[finite-dimensional vector space]] (and generally in a [[compact closed category]]) we have not just 
-
-* the  adjointness  $\;\;\mathscr{H}\otimes(\text{-}) \;\;\dashv\;\; \mathscr{H} \multimap(\text{-})\;\;$ from (eq:InternalHomHomIsomorphism)
-
-* the compact closure $\;\;\mathscr{H} \multimap(\text{-}) \;\;\simeq\;\; \mathscr{H}^\ast \otimes (\text{-})\;\;$ from (eq:CompactClosureViaBraKetNotation)
-
-but also
-
-* double-dual isomorphisms ${\mathscr{H}^{\ast}}^\ast \,\simeq\, \mathscr{H}$
-
-and hence an [[ambidextrous adjunction]]
-
-$$
-  \mathscr{H}\otimes(\text{-}) 
-    \;\dashv\; 
-  \mathscr{H}^\ast\otimes(\text{-}) 
-    \;\dashv\; 
-  \mathscr{H}\otimes(\text{-}) 
-  \,.
-$$
-
-This exhibits the linear $\mathscr{H}$-store comonad as [[left adjoint]] equivalent to the linear $\mathscr{H}^\ast$-[[state monad]] and hence as a [[Frobenius monad]]:
-
-\begin{imagefromfile}
-    "file_name": "LinearStoreStateFrobeniusMonad-230915.jpg",
-    "width": 310,
-    "unit": "px",
-    "margin": {
-        "top": -40,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
-
-Moreover, these (co)monads may equivalently be understood as the ([[cowriter comonad|co]]-)[[writer monads]] induced by the [[endomorphism algebra]] $End(\mathscr{H}) \,\simeq\, \mathscr{H}^\ast \otimes \mathscr{H}$, which is a [[Frobenius algebra]] (by general arguments as recalled in [Lauda 2006](Frobenius+algebra#Lauda2006), made explicit for instance in [Vicary 2011 Lem 3.17](endomorphism+ring#Vicary11)) and as such makes its ([[cowriter comonad|co]]-)[[writer monad]] into a [[Frobenius monad]].
 
 
 ### Kleisli structure
