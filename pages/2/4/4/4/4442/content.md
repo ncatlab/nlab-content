@@ -48,7 +48,7 @@ More recently, for the archetypical case of AdS/CFT relating [[N=4 D=4 super Yan
 
 Thus regarded as a [[duality in string theory]], the AdS/CFT correspondence is an incarnation of [[open/closed string duality]], reflecting the fact that the physics on [[D-branes]] has two equivalent descriptions: 
 
-1) as a [[Yang-Mills theory|Yang-Mills]]-[[gauge theory]] coming from [[open strings]] attached the [[brane]]
+1) as a [[Yang-Mills theory|Yang-Mills]]-[[gauge theory]] coming from [[open strings]] attached to the [[brane]]
 
 2) as a [[gravity]] theory coming from [[closed strings]] emitted/absorbed by the brane.
 
