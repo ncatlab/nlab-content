@@ -1439,10 +1439,6 @@ Notice that the second-but-last step on the right is particularly evident if $w$
 
 \end{proof}
 
-In general:
-\begin{proposition}
-  The [[unital quantum channels]] are among the [transformations of](monad#TransformationOfMonadsOnFixedCategory) quantum state monads.
-\end{proposition}
 
 ### Heisenberg evolution is action of Quantum state transformations
  {#HeisenbergEvolution}
