@@ -411,18 +411,6 @@ Since this [[extension of scalars]] is the identity on [[underlying]] [[objects]
 
 $$
   \array{
-    D 
-    &=& 
-    D
-    \\
-    \Big\downarrow\mathrlap{
-      {}^{ ret^{\mathcal{E}}_{\mathcal{E}(D)} }
-    }
-    &&
-    \Big\downarrow\mathrlap{
-      {}^{ ret^{\mathcal{E}}_{\mathcal{E}'(D)} }
-    }
-    \\
     \mathcal{E}
     \mathcal{E}(D)
     &
