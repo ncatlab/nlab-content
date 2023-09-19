@@ -231,6 +231,8 @@ Lecture notes:
 
 * Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
 
+* [[Edward Witten]], *A Mini-Introduction To Information Theory*, Rivista Nuovo Cimento **43** (2020) 187–227 &lbrack;[arXiv:1805.11965](https://arxiv.org/abs/1805.11965), [doi:10.1007/s40766-020-00004-5](https://doi.org/10.1007/s40766-020-00004-5)&rbrack;
+
 * [[Scott Aaronson]], *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
   *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
