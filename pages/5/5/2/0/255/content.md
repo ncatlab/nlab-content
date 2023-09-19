@@ -358,56 +358,24 @@ and the joins:
 
 in that it makes these [[commuting square|squares commute]].
 
-{#ExtensionOfModalesAlongMonadTransformation} Such a monad transformations [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+{#ExtensionOfModalesAlongMonadTransformation} Such a monad transformation [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
-$$
-  \array{
-    \mathcal{E}' 
-    &
-    \xleftarrow{\;\;\;\;\;  tr \;\;\;\;\;}
-    &
-    \mathcal{E}
-    \\
-    \mathbf{C}^{\mathcal{E}}
-    &
-    \xrightarrow{\;\;\;\; tr^\ast \;\;\;\;}
-    &
-    \mathbf{C}^{ \mathcal{E}^' }
-    \\
-    \left(
-      \array{
-        \mathcal{E}'(D)
-        \\
-        \big\downarrow\mathrlap{ {}^{\rho'} }
-        \\
-        D
-      }
-    \right)
-    &\mapsto&
-    \left(
-      \array{
-        \mathcal{E}(D)
-        &\overset{tr_D}{\to}&
-        \mathcal{E}'(D)
-        \\
-        \big\downarrow
-        \mathrlap{ {}^{
-          tr^\ast\rho'
-        } }
-        &&
-        \big\downarrow\mathrlap{ {}^{\rho'} }
-        \\
-        D
-        &=&
-        D
-      }
-    \right)
-  }
-$$
+\begin{imagefromfile}
+    "file_name": "FunctorOnModalesFromMonadMorphism-230919.jpg",
+    "width": 450,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 Since this [[extension of scalars]] is the identity on [[underlying]] [[objects]], it cannot in general restrict to a functor on [[Kleisli categories]]. 
 
-{#ExtensionOfFreeModalesAlsoIsomorphicMonadTransformation} However, when the [[monad transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ is an [[isomorphism]] then $tr^\ast$ does take [free modales](algebra+over+a+monad#FreeAlgebras) to free modales. This is seen from the following diagram:
+{#ExtensionOfFreeModalesAlsoIsomorphicMonadTransformation} However, when the [[monad transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ is an [[isomorphism]] then $tr^\ast$ does take [free modales](algebra+over+a+monad#FreeAlgebras) to free modales up to [[isomorphism]]. This is seen from the following diagram:
 
 $$
   \array{
@@ -449,7 +417,7 @@ $$
   }
 $$
 
-Here the middle vertical morphism is the nominal image under $tr^\ast$ of the free modale on the right, but the squares on the left, which commute by assumption on $tr$, exhibit an isomorphism from the middle modale to the $\mathcal{E}$-free modale on the left.
+Here the middle vertical morphism is the nominal image under $tr^\ast$ of the free modale on the right, but the square on the left, which commutes by assumption on $tr$, exhibits an isomorphism from the middle modale to the $\mathcal{E}$-free modale on the left.
 
 
 
