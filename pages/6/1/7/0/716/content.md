@@ -28,17 +28,19 @@ A compact closed category is a special case of the notion of [[compact closed ps
 A rigid symmetric monoidal category $(\mathcal{C}, \otimes)$ is in particular a [[closed monoidal category]], with the [[internal hom]] given by 
 
 $$
-  [A,B] \simeq A^* \otimes B
+  [A,B] 
+    \;\simeq\; 
+  B \otimes A^*
 $$ 
 
 (where $A^*$ is the [[dual object]] of $A$), via the [[adjunction]] [[natural equivalence]] that defines [[dual objects]]
 
 $$
-  \mathcal{C}(C,[A,B])
+  \mathcal{C}\big(C,[A,B]\big)
   \simeq
-  \mathcal{C}(C, A^\ast \otimes B)
+  \mathcal{C}\big(C, B \otimes A^\ast\big)
   \simeq
-  \mathcal{C}(C \otimes A, B)
+  \mathcal{C}\big(C \otimes A, B\big)
   \,.
 $$
 
