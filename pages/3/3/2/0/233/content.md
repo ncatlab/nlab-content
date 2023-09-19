@@ -25,6 +25,8 @@ The basic idea is that a _module_ $V$ is an object equipped with an [[action]] b
 
 A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups: every element in $k$ acts on the vector space by multiplication of vectors, and this action respects the addition of vectors, but nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[commutative ring]] (or even a general [[rig]]) $R$. The analog of a vector space for fields replaced by rings is that of a _module_ over the ring $R$.
 
+An $R$-module in [[Ab]] can be thought of as a generalization of an abelian group, where the operation taking integer multiples of an element (seen as iterated addition) is extended to taking arbitrary multiples with coefficients in $R$. In the trivial case a $\mathbb{Z}$-module is simply an abelian group.
+
 This is the traditional and maybe most common notion of modules. But the basic notion is easily much more general.
 
 ### Motivation for and role of modules: generalized vector bundles
