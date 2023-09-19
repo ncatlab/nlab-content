@@ -1,4 +1,4 @@
-
+I
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -54,11 +54,22 @@ An application of Batanin weak $\omega$-groupoids to [[homotopy type theory]] ap
 
 * [[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
 
-A discussion of weak $\omega$-functors between Batanin $\omega$-categories, and all kind of weak $n$-transformations in the spirit of Batanin approach, with an emphasis to the possibility to the existence of the weak $\omega$-category of the weak $\omega$-categories in Batanin's sense is in 
+A discussion of weak $\omega$-functors between Batanin $\omega$-categories, and all kind of weak $n$-transformations in the spirit of Batanin approach, with an emphasis to the possibility to the existence of the weak $\omega$-category of the weak $\omega$-categories in Batanin's sense appears in
 
 * [[Camell Kachour]], Steps toward the weak higher category of weak higher categories in the globular setting, published in *Categories and General Algebraic Structures with Applications* (2015).  ([web](https://www.researchgate.net/publication/283018471_Steps_toward_the_weak_higher_category_of_weak_higher_categories_in_the_globular_setting))
 
+Batanin weak $\omega$-categories were further developed here:
 
+* [[Tom Leinster]], Higher Operads, Higher Categories, London Mathematical Society Lecture Note Series **298**, Cambridge University Press, 2004.   ([arXiv:math/0305049](https://arxiv.org/abs/math/0305049))
+
+An approach to Batanin's weak $\omega$-categories that also sets up a definition of [[Trimble n-category|Trimble infinity-category]] and a [[fundamental infinity-groupoid]] construction is here:
+
+* [[Eugenia Cheng]] and [[Tom Leinster]], Weak ∞-categories via terminal coalgebras, ([arXiv:1212.5853](https://arxiv.org/abs/1212.5853)).
+
+[[!redirects Batanin infinity-category]]
+[[!redirects Batanin infinity-categories]]
+[[!redirects Batanin weak infinity-category]]
+[[!redirects Batanin infinity-categories]]
 [[!redirects Batanin ∞-category]]
 [[!redirects Batanin omega-categories]]
 [[!redirects Batanin ∞-categories]]
