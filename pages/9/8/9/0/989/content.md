@@ -13,6 +13,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Similar to the way [[modules]] generalize [[abelian groups]] by adding the operation of taking non-integer multiples, an $R$-algebra can be thought of as a generalization of a ring $S$, where the operation of taking integer multiples (seen as iterated addition) has been extended to taking arbitrary multiples with coefficients in $R$. In the trivial case, a $\mathbb{Z}$-algebra is simply a ring.
+
 ## Definition
 
 ### Over ordinary rings
