@@ -1,4 +1,12 @@
 
+Bath coupling is quantum state transformation
+
+Unitary evolution is quantum state and costate transformation
+
+
+Partial trace is quantum costate transformation
+
+
 $\Rho$
 
 $$
