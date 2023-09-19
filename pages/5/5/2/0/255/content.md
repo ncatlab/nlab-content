@@ -34,10 +34,40 @@ Last not least, monads play a central role in [[formal logic]] (cf. [[modal logi
 ## Etymology
  {#Etymology}
 
-The exact reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad* seems to be lost to history. The closest contemporary account that seems to exist, [Barr 2009](#Barr09), only recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology of "standard construction" and "triple":
+The terminology "monad" was introduced in [Bénabou 1967, Def. 5.4.1](#Bénabou67), where, after observing (Exp. 5.4.1) that monads in 1-object 2-categories ([deloopings of](delooping#DeloopingOfHigherCategoricalStructures) [[monoidal categories]]) are *[[monoids]]*:
+
+\begin{imagefromfile}
+    "file_name": "Benabou-MonoidsAsMonads.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+it says in a footnote:
+
+\begin{imagefromfile}
+    "file_name": "Benabou-FootnoteOnMonadTerminology.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Bénabou 1967, p. 40](#Bénabou67))"
+\end{imagefromfile}
+
+Beyond this footnote, the only contemporary account that seems to exist of the terminological genesis, [Barr 2009](#Barr09), recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology of "standard construction" and "triple":
 
 > In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Benabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me. So Jean proposed it to the general audience and there was general agreement. It suggested "monoid" of course and it is a monoid in a functor category.
 
+But Bénabou's footnote above gives a second motivation for "monad":
 
 \begin{imagefromfile}
     "file_name": "Benabou-MonadDefinition.jpg",
@@ -54,7 +84,7 @@ The exact reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad
 \end{imagefromfile}
 
 
-{#ItIsStriking} But it is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] $1$ to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]] "$\underline{S}$") and then proceeds to unwind the equivalence of this definition to the traditional one:
+{#ItIsStriking} It is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] $1$ to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]] "$\underline{S}$") and then proceeds to unwind the equivalence of this definition to the traditional one:
 $$
   Monads(\underline{S})
   \;\;\;
@@ -66,6 +96,21 @@ $$
   \,.
 $$
 In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks. In fact, as discussed there,  "monad" (both in ancient and still in modern Greek) just means "unit" in the sense of the unit natural number $1$ and [Bénabou 1967, Def. 5.4.1](#Bénabou67) literally identifies monads with the (lax) units $1 \to \underline{S}$ in the ambient 2-category.
+
+In generalization of this situation, one may consider lax functors out of [[codiscrete groupoids]] $CoDisc(1^{\sqcup_n})$ on $n$ objects, which [Bénabou 1967, Def. 5.5](#Bénabou67) calls *polyads*:
+$$
+  Polyads(\underline{S})
+  \;\;\;
+   \simeq
+  \;\;\;
+  \Big\{
+    CoDisc(1^{\sqcup_n}) 
+     \xrightarrow{\; lax \;} 
+  \underline{S}
+  \Big\}
+  \,.
+$$
+
 
 On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)), just a few years earlier the ancient [[monad terminology]] had already been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
 
