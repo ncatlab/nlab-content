@@ -34,7 +34,7 @@ For a trivial bundle $P = X \times F$ the underlying complex of $\Omega^\bullet_
 
 ## References
 
-* [pdf](http://jones.math.unibas.ch/~bonnet/Publications/Bullscience.pdf)
+* Philippe Bonnet, Alexandru Dimca, _Relative differential forms and complex polynomials_, Bulletin des Sciences Mathématiques **124** Issue 7 (2000) pp 557-571, doi:[10.1016/s0007-4497(00)01055-1](https://doi.org/10.1016/s0007-4497%2800%2901055-1), ([author pdf](https://web.archive.org/web/20150326174153/https://jones.math.unibas.ch/~bonnet/Publications/Bullscience.pdf))
 
 [[!redirects vertical differential forms]]
 
