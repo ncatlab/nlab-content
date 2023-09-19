@@ -155,7 +155,29 @@ $$
 
 ### Rational $n$-disk 
 
-...
+The rational $n$-disk is computed as the [[cone]] of the rational sphere:
+
+$$
+D^{n+1}_{\mathbb{Q}} = C(S^n_{\mathbb{Q}}) = (S^n_{\mathbb{Q}}\times I)/(S^n_{\mathbb{Q}}\times\{0\}).
+$$
+
+Since the cochain complex of the $n$-disk consists of two generators $b$ and $c$ of degree $n$ and $(n+1)$, respectively, such that $db=c$, the [[cdga]] corresponding to the rational $n$-disk consists of linear combinations of $b^k$ and $cb^k$ when $n$ is even, with differentials:
+
+$$
+d(b^k)=k\cdot cb^{k-1}
+$$
+$$
+d(cb^k)=0,
+$$
+
+and of linear combinations of $c^kb$ and $c^k$ when $n$ is odd, with differentials
+$$
+d(c^kb)=c^{k+1}
+$$
+$$
+d(c^k)=0
+$$
+
 
 ### Rational compact Lie-groups
 
