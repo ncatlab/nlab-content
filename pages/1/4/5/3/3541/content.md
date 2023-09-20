@@ -1,4 +1,4 @@
-[[!redirects quantum operation]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
