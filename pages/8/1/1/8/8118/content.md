@@ -28,6 +28,10 @@ _&#1071;&#1085;&#1075;&#1080;&#1072;&#1085;&#1099; &#1080; &#1082;&#1083;&#1072;
 * A. N. Kirillov, N. Y. Reshetikhin, _The Yangians, Bethe Ansatz and combinatorics_, Lett. Math. Phys. __12__, 199 (1986)
 * Sachin Gautam, Valerio Toledano-Laredo, _Yangians and quantum loop algebras_, Selecta Mathematica __19__ (2013), 271-336  [arXiv:1012.3687](https://arxiv.org/abs/1012.3687); _Yangians, quantum loop algebras and abelian difference equations_ (Formerly: Yangians and quantum loop algebras II. Equivalence of categories via abelian difference equations) J. Amer. Math. Soc. __29__ (2016) 775--824 [arXiv:1310.7318](https://arxiv.org/abs/1310.7318); _III. Meromorphic tensor equivalence for Yangians and quantum loop algebras_, Publ.math. IHES __125__, 267--337 (2017). [doi](https://doi.org/10.1007/s10240-017-0089-9) [arXiv:1403.5251](https://arxiv.org/abs/1403.5251)
 
+Braided Yangians and Yangians associated to R-matrices were defined and studied in
+
+* Dmitri I. Gurevich, Pavel A. Saponov, _Generalized Yangians and their Poisson counterparts_, Theor. Math. Phys. __192__, 1243--1257 (2017) [doi](https://doi.org/10.1134/S004057791709001X)
+
 Yangians for quivers and relation to quantum equivariant cohomology of Nakajima's quiver varieties
 
 * Davesh Maulik, Andrei Okounkov, _Quantum groups and quantum cohomology_, Astérisque 408, SMF 2019 [arXiv:1211.1287](https://arxiv.org/abs/1211.1287)
