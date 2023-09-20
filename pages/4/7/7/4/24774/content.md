@@ -129,6 +129,10 @@ On [[asymptotic safety]]:
 
 \linebreak
 
+* Jan M. Pawlowski, Manuel Reichert, *Quantum Gravity from dynamical metric fluctuations* in *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2309.10785](https://arxiv.org/abs/2309.10785)&rbrack;
+
+\linebreak
+
 On [[black holes]] in the context of [[asymptotic safety]]:
 
 * Alessia Platania, *Black Holes in Asymptotically Safe Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.04272](https://arxiv.org/abs/2302.04272)&rbrack;
