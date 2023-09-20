@@ -1,5 +1,5 @@
 
-> beware that there is also *[[Ilya Shapiro]]*
+> beware that there is also mathematician *[[Ilya Shapiro]]*
 
 ***
 
