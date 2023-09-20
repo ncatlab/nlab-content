@@ -32,7 +32,7 @@ Named after [[Charles Rezk]]'s definition of [[complete Segal spaces]] (cf. *[[R
 
 Landing page:
 
-* [github.com/fizruk/rzk](https://github.com/fizruk/rzk)
+* [github.com/rzk-lang](https://github.com/rzk-lang)
 
 Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via [[simplicial homotopy type theory]] (in [[Rzk]]):
 
