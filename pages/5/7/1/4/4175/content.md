@@ -71,13 +71,18 @@ If $T$ is a (Brugui&#232;res-Lack-Virelizier) Hopf monad on a [[closed monoidal 
 
 ## References
 
-Hopf (bi)monads are extensively studied in the book
+* [[Alain Bruguières]], [[Alexis Virelizier]], *Hopf monads*, Advances in Mathematics **215** 2 (2007) 679-733 &lbrack;[doi:10.1016/j.aim.2007.04.011](https://doi.org/10.1016/j.aim.2007.04.011), [arXiv:math/0604180](https://arxiv.org/abs/math/0604180)&rbrack;
+
+* Masahito Hasegawa and Jean-Simon Pacaud Lemay, *Hopf Monads on Biproducts*, Theory and Applications of Categories **39** 28 (2023) 804-823 &lbrack;[tac:3928](http://www.tac.mta.ca/tac/volumes/39/28/39-28abs.html)&rbrack;
+
+Monograph:
 
 * [[Gabriella Böhm]], _Hopf algebras and their generalizations from a category theoretical point of view_, Lecture Notes in Math. __2226__, Springer 2018, [doi](https://link.springer.com/book/10.1007/978-3-319-98137-6)
 
-* [[Alain Bruguières]], [[Alexis Virelizier]], *Hopf monads*, Advances in Mathematics **215** 2 (2007) 679-733 &lbrack;[doi:10.1016/j.aim.2007.04.011](https://doi.org/10.1016/j.aim.2007.04.011), [arXiv:math/0604180](https://arxiv.org/abs/math/0604180)&rbrack;
+See also:
 
 * Wikipedia. *[Opmonoidal monad](http://en.wikipedia.org/wiki/Monoidal_monad)*
+
 
 * [[Kornél Szlachányi]], _The monoidal Eilenberg-Moore construction and bialgebroids_, J. Pure Appl. Algebra __182__, no. 2&#8211;3 (2003) 287&#8211;315
 
@@ -93,8 +98,7 @@ Hopf (bi)monads are extensively studied in the book
 
   * _Hopf monads, tensor categories and quantum invariants_, an expos&#232;, [pdf](http://www.cirm.univ-mrs.fr/videos/2008/exposes/307/Bruguiere.pdf); 
 
-  * _Galois-Grothendieck duality, Tannaka duality and Hopf
-(co)monads_. talk at workshop "Hopf algebras and tensor categories", University of Almer&#237;a, July 4-8, 2011, [pdf](http://www.ual.es/Congresos/hopf2010/charlas/bruguiertalk.pdf)
+  * _Galois-Grothendieck duality, Tannaka duality and Hopf (co)monads_. talk at workshop "Hopf algebras and tensor categories", University of Almer&#237;a, July 4-8, 2011, [pdf](http://www.ual.es/Congresos/hopf2010/charlas/bruguiertalk.pdf)
  
 
 
