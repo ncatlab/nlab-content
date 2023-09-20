@@ -67,6 +67,7 @@ Some categories of geometric shapes, such as the [[tree category]] $\Omega$ and 
 * $D$ contains no infinite descending chains of noninvertible morphisms $\cdots \to\cdot \to\cdot\to\cdot$.
 * The relation $a\prec b$ on $ob(D)$ defined by "there exists a noninvertible morphism from $a$ to $b$" is [[well-founded relation|well-founded]].
 * There exists a function $d\colon ob(D)\to Ord$, where $Ord$ is the class of [[ordinals]], such that every noninvertible morphism of $D$ raises the degree.
+* There exists an isomorphism-reflecting functor (that is, it maps a morphism to an isomorphism if and only if the morphism is itself an isomorphism) $d : D\to \mathbf{Ord}$, where $\mathbf{Ord}$ is the large poset of ordinals viewed as a category.
 * $D$ is a [[generalized Reedy category]] in which $D_-$ consists only of isomorphisms (or equivalently $D_+$ is all of $D$).
 
 Of course, $\Omega$ and $\Lambda$ are not generalized direct categories themselves, since they have degree-lowering degeneracies as well, but their full subcategories of coface maps are generalized-direct.  More generally:
