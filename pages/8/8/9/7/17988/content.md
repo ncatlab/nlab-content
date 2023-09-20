@@ -107,6 +107,10 @@ Review:
 * Alexander Bednyakov, Alfiia Mukhaeva, *Perturbative Asymptotic Safety and Its Phenomenological Applications* &lbrack;[arXiv:2309.08258](https://arxiv.org/abs/2309.08258)&rbrack;
 
 
+* Jan M. Pawlowski, Manuel Reichert, *Quantum Gravity from dynamical metric fluctuations* in *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2309.10785](https://arxiv.org/abs/2309.10785)&rbrack;
+
+
+
 
 Critical review:
 
