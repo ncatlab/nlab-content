@@ -459,6 +459,9 @@ Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Sp
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
+* Andrew M. Evans, Alexandra Miller, Aaron Russell, *A Conformal Field Theory Primer in $D \geq 3$* &lbrack;[arXiv:2309.10107](https://arxiv.org/abs/2309.10107)&rbrack;
+
+
 
 
 For a discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
