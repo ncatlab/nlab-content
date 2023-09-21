@@ -54,9 +54,15 @@ By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s
 
 The definition appears around claim 2.3.19 of
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+* [[Jacob Lurie]], *[[On the Classification of Topological Field Theories]]*, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465), [doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3), [euclid:cdm/1254748657](https://projecteuclid.org/euclid.cdm/1254748657)&rbrack;
 
-Detailed discussion in degree 2 and 3 appears in 
+
+Review:
+
+* [[Dominic Culver]], [[Mitchell Faulk]], *Duality Notes*, lecture notes for *West Coast Algebraic Topology Summer School* (2014) &lbrack;[pdf](https://mathtube.org/sites/default/files/lecture-notes/Duality%20Notes.pdf), [[CulverFaulk-DualityNotes.pdf:file]] [mathtube](https://www.mathtube.org/lecture/notes/duality-notes)&rbrack;
+
+
+Detailed discussion in degree 2 and 3:
 
 * {#SchommerPries11} [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_ ([arXiv:1112.1000](http://arxiv.org/abs/1112.1000))
 
