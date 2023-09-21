@@ -21,7 +21,7 @@ Let $V$ be a [[closed category]] (for example a [[closed monoidal category]]), w
 +-- {: .num_defn}
 ###### Definition
 
-The **dual** $\mathbb{D}A$ of an object $A \in V$ is the [[internal hom]] out of $A$ into the [[unit object]] 
+The ("weak") **dual** $\mathbb{D}A$ of an object $A \in V$ is the [[internal hom]] out of $A$ into the [[unit object]] 
 
 $$
   \mathbb{D}A \coloneqq A \multimap I
