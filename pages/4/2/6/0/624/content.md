@@ -23,14 +23,20 @@
 A (left/right) _dual_ to an [[object]] in a [[monoidal category]] $\mathcal{C}$ is a [[left adjoint|left]]/[[right adjoint|right]] [[adjoint]] to the object regarded as a [[morphism]] in the [[delooping]] [[2-category]] $\mathbf{B}\mathcal{C}$. If a dual exists, the object is called _dualizable_.
 
 
-Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* for [[objects]] in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product]] precisely if it is a [[finite-dimensional vector space]]; and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] precisely if it is a [[finite spectrum]].
+Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* &lbrack;[Pareigis 1976](#Pareigis76)&rbrack; for [[objects]] in a [[monoidal category]].  For instance:
 
-A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the [[stable homotopy category]] are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[SupLat]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
+* a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product of vector spaces]] precisely if it is a [[finite-dimensional vector space]] (cf. Exp. \ref{FiniteDimensionalVectorSpaces}),
+
+* a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] precisely if it is a [[finite spectrum]].
+
+A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  For instance, since [[Vect]] and the [[stable homotopy category]] are finitely [[additive category|additive]], but not infinitely so, dualizability there is indeed a notion of plain finiteness, as is the case for many monoidal categories in which one considers dualizability.  
+
+However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the [[terminal object]] is dualizable --- whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[SupLat]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
 +-- {: .num_remark}
 ###### Remark
 
-Beware that there are other notions of "dual object", distinct from this one. See for example _[[dual object in a closed category]]_, and also the discussion at _[[category with duals]]_.
+Beware that there are other notions of "dual object", distinct from this one. See for example _[[dual object in a closed category]]_ (eq:DualityInClosedCategory), and also the discussion at _[[category with duals]]_.
 
 =--
 
@@ -56,23 +62,25 @@ consists of
 
 1. a [[morphism]] of the form
 
-   $$
+   \[
+     \label{EvaluationMap}
      ev_A
        \;\colon\;
      A^\ast \otimes A \longrightarrow \mathbb{1}
-   $$
+   \]
 
-   called the _counit_ of the duality, or the _[[evaluation]] map_;
+   called the _counit_ of the duality, or the _[[evaluation map]]_;
 
 1. a [[morphism]] of the form
 
-   $$
+   \[
+     \label{CoEvaluationMap}
      i_A 
        \;\colon\; 
      \mathbb{1} 
        \longrightarrow 
      A \otimes A^\ast
-   $$
+   \]
 
    called the _unit_ or _coevaluation map_
 
@@ -140,18 +148,12 @@ Of course, in a [[symmetric monoidal category]], there is no difference between 
 
 \begin{remark}
 There are various equivalent definitions of dualizability, some of which are apparently weaker than the explicit definition in terms of both unit and counit, or which assume only one of them together with a [[universal property]] for it.  
+
+Regarding the equivalent characterization via adjointable tensor products, beware Rem. \ref{TensorAdjunctabilityDoesNotImplyDualizability} below.
+
+
 \end{remark}
 
-But beware:
-\begin{remark}\label{TensorAdjunctabilityDoesNotImplyDualizability}
-**(Tensor-adjuncatibility does not imply dualizability)**
-\linebreak
-While it may be tempting to think that $A$ is dualizable as soon as the functor $(A\otimes -)$ has a [[right adjoint]] of the form $(A^* \otimes -)$, this is not the case: one also needs that the adjunction between these functors is preserved by tensoring with $A$.
-
-A [[counterexample]] is given by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).
-
-See also [Dold & Puppe 1984, Thm. 1.3 (c)](#DoldPuppe84).
-\end{remark}
 
 +-- {: .num_defn #InvertibleObject}
 ###### Definition
@@ -186,7 +188,7 @@ is the one obtained by $f$ by composing the duality unit, the counit and the [[b
 ### Examples
  {#Examples}
 
-\begin{definition}
+\begin{definition}\label{FiniteDimensionalVectorSpaces}
 **([[finite-dimensional vector spaces]])**
 \linebreak
 Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the [[triangle identities]], so $V^*$ is a dual of $V$ in $Vect_k$.
@@ -235,6 +237,84 @@ See at _[(∞,1)-category of (∞,1)-modules -- Compact generation](%28?%2C1%29-
 
 ### Properties
 
+#### Relation to adjunctable tensor products
+
+\begin{proposition}
+\label{RelationToAdjunctableTensorProducts}
+In a [[symmetric monoidal category]], the following are equivalent:
+
+* an object $A$ is dual to $A^\ast$ in the sense of Def. \ref{DualizableObject}, with [[evaluation map]] $ev_A \,\colon\, A^\ast \otimes A \to \mathbb{1}$ (eq:EvaluationMap),
+
+* the map 
+
+  \[
+    \label{HomIsoInducedByDualizability}
+    Hom\big( X,\, Y \otimes A^\ast \big)
+    \xrightarrow{\;
+      (\text{-}) \otimes A
+    \;}
+    Hom\big( X \otimes A ,\, Y \otimes A^\ast \otimes A \big)   
+    \xrightarrow{\;
+      id_Y \otimes ev_A \circ (\text{-}) 
+    \;}
+    Hom\big( X \otimes A ,\, Y \big)   
+  \]
+
+  is an [[isomorphism]] (a [[bijection]] of [[hom sets]]) for all objects $X$, $Y$.
+
+\end{proposition}
+This is [Dold & Puppe 1984, Thm. 1.3 (b) and (c)](#DoldPuppe84).
+
+\begin{remark}
+  Prop. \ref{RelationToAdjunctableTensorProducts} says *in particular* that for dual objects $A$, $A^\ast$ the map (eq:HomIsoInducedByDualizability) exhibits the tensor product [[functor]] $(\text{-}) \otimes A^\ast$ as a [[right adjoint|right]] [[adjoint functor|adjoint]] to $(\text{-}) \otimes A$ (hence: an [[internal hom]]-functor):
+
+$$
+  (\text{-}) \otimes A
+  \;\;
+    \dashv
+  \;\;
+  (\text{-}) \otimes A^\ast
+  \,.
+$$
+
+If the ambient category is indeed [[closed monoidal category|closed monoida]] with [[internal hom]] denoted $[-,-]$, this means that $(\text{-}) \otimes A^\ast \,\simeq\, [A,\text{-}]$ (by [essential uniqueness of adjoints](adjoint+functor#UniquenessOfAdjoints)) and hence in particular that:
+$$
+  A^\ast 
+    \;\simeq\; 
+  \mathbb{1} \otimes A^\ast 
+    \,\simeq\, 
+  [A,\mathbb{1}]
+  \,.
+$$
+
+But since (by [[symmetric monoidal category|symmetry]]) the object $A \,\simeq\, (A^{\ast})^\ast$ is also the dual object to $A^\ast$, there is 
+
+1. a *further* right adjoint to the [[internal hom]] (an "[[amazing right adjoint]]") 
+
+1. which coincides with the left adjoint to make an [[ambidextrous adjunction]]:
+
+$$
+  (\text{-}) \otimes A
+  \;\;
+    \dashv
+  \;\;
+  (\text{-}) \otimes A^\ast
+  \;\;
+    \dashv
+  \;\;
+  (\text{-}) \otimes A
+  \,.
+$$
+\end{remark}
+\begin{remark}\label{TensorAdjunctabilityDoesNotImplyDualizability}
+**(Tensor-adjuncatibility does not imply dualizability)**
+\linebreak
+Prop. \ref{RelationToAdjunctableTensorProducts} does *not* claim that for $A'$ to be a dual object of $A$ it is sufficient that $(\text{-}) \otimes A$ has a [[right adjoint]] of the form $(\text{-}) \otimes A'$, instead it claims that the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) for this adjunction must be of the particular form (eq:HomIsoInducedByDualizability).
+
+A [[counterexample]] to sufficiency of the weaker condition is indicated by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).
+\end{remark}
+
+
 #### Trace
 
 Dualizable objects support a good abstract notion of [[trace]]. (...)
@@ -246,7 +326,7 @@ Dualizable objects in an [[symmetric monoidal (∞,1)-category]] are already [[f
 
 ## In a closed category
 
-In a [[closed category]] $(\mathcal{C}, [-,-], 1)$ the dual to an object $X \in \mathcal{C}$ is defined to be the [[internal hom]] into the [[unit object]]
+In a [[closed category]] $(\mathcal{C}, [-,-], 1)$ the (weak) dual to an object $X \in \mathcal{C}$ is defined to be the [[internal hom]] into the [[unit object]]
 
 \[
   \label{DualityInClosedCategory}
@@ -354,7 +434,6 @@ Original articles:
 
   > (calls dualizable objects "finite objects")
     
-
 * Thomas S. Ligon, *Galois-Theorie in monoidalen Kategorien*, Munich (1978) &lbrack;[pdf](https://edoc.ub.uni-muenchen.de/14958/1/Ligon_Thomas.pdf), [doi:10.5282/edoc.14958](https://doi.org/10.5282/edoc.14958)&rbrack;
 
   transl: *Galois theory in monoidal categories* (2019) &lbrack;[pdf](https://edoc.ub.uni-muenchen.de/24952/7/Ligon_Thomas.pdf), [doi:10.5282/edoc.24952](https://doi.org/10.5282/edoc.24952)&rbrack;
@@ -386,6 +465,14 @@ Review:
 * [[Dominic Culver]], [[Mitchell Faulk]], *Duality Notes*, lecture notes for *West Coast Algebraic Topology Summer School* (2014) &lbrack;[pdf](https://mathtube.org/sites/default/files/lecture-notes/Duality%20Notes.pdf), [[CulverFaulk-DualityNotes.pdf:file]] [mathtube](https://www.mathtube.org/lecture/notes/duality-notes)&rbrack;
 
   > (towards [[fully dualizable objects]]) 
+
+
+
+See also:
+
+* Wikipedia, *[Dual object](https://en.wikipedia.org/wiki/Dual_object)*
+
+
 Further examples:
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
