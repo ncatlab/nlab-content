@@ -1,4 +1,8 @@
 
+> This entry is about a notion of reflexivity in [[cartesian closed categories]] of relevance in the [[categorical semantics]] of [[lambda calculus]]. For the notion of *reflexive [[weak dual objects]]* in [[closed monoidal categories]] see [there](dualizable+object#ReflexiveDualizableObject).
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
