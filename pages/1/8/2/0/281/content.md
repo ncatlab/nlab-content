@@ -54,6 +54,14 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 * [[automorphism ∞-group]]
 
 
+## References
+
+Discussion of automorphism groups [[internalization|internal]] to [[sheaf toposes]] ("automorphism sheaves"):
+
+* [[Simon Henry]], [MO:a/262687](https://mathoverflow.net/a/262687/381)
+
+* Robert Friedman, John W. Morgan, §2.1 in: *Automorphism sheaves, spectral covers, and the Kostant and Steinberg sections* &lbrack;[arXiv:math/0209053](https://arxiv.org/abs/math/0209053)&rbrack;
+
 
 [[!redirects automorphisms]]
 [[!redirects automorphism group]]
