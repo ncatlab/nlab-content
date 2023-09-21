@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -43,18 +44,22 @@ Beware that there are other notions of "dual object", distinct from this one. Se
 
 An object $A$ in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}\mathcal{C}$ corresponding to $\mathcal{C}$.  Its adjoint in $\mathbf{B}\mathcal{C}$ is called its **dual** in $C$ and often written as $A^*$.
 
+(This notion, though not the terminology, is due to [Lindner 1978](#Lindner78).)
+
 If $C$ is [[braided monoidal category|braided]] then left and right adjoints in $\mathbf{B}C$ are equivalent; otherwise one speaks of $A$ being **left dualizable** or **right dualizable**.  
 
 Explicitly this means the following:
 
-A right **[[duality]]** between objects $A, A^\ast \in (\mathcal{C}, \otimes, 1)$
+A right **[[duality]]** between objects $A, A^\ast \in (\mathcal{C}, \otimes, \mathbb{1})$
 
 consists of
 
 1. a [[morphism]] of the form
 
    $$
-     ev_A\;\colon\;A^\ast \otimes A \longrightarrow 1
+     ev_A
+       \;\colon\;
+     A^\ast \otimes A \longrightarrow \mathbb{1}
    $$
 
    called the _counit_ of the duality, or the _[[evaluation]] map_;
@@ -62,7 +67,11 @@ consists of
 1. a [[morphism]] of the form
 
    $$
-     i_A \;\colon\; 1 \longrightarrow A \otimes A^\ast
+     i_A 
+       \;\colon\; 
+     \mathbb{1} 
+       \longrightarrow 
+     A \otimes A^\ast
    $$
 
    called the _unit_ or _coevaluation map_
@@ -75,7 +84,7 @@ such that
     \array{
        A^\ast \otimes (A \otimes A^\ast)
          &\overset{id_{A^\ast} \otimes i_A}{\longleftarrow}&
-       A^\ast \otimes 1
+       A^\ast \otimes \mathbb{1}
        \\
        {}^{\mathllap{\alpha^{-1}_{A^\ast,A, A^\ast}}}_{\mathllap{\simeq}}\downarrow
        &&
@@ -83,7 +92,7 @@ such that
        \\
        (A^\ast \otimes A) \otimes A^\ast
          &\underset{ev_A \otimes id_{A^\ast}}{\longrightarrow}&
-       1 \otimes A^\ast
+       \mathbb{1} \otimes A^\ast
     }
   $$
 
@@ -93,7 +102,7 @@ such that
     \array{
        (A \otimes A^\ast)  \otimes A
          &\overset{i_A \otimes id_A}{\longleftarrow}&
-       1 \otimes A
+       \mathbb{1} \otimes A
        \\
        {}^{\mathllap{\alpha_{A,A^\ast, A}}}_{\mathllap{\simeq}}\downarrow
        &&
@@ -101,7 +110,8 @@ such that
        \\
        A \otimes (A^\ast \otimes A)
          &\underset{id_A \otimes ev_A}{\longrightarrow}&
-       A \otimes 1
+       A \otimes \mathbb{1}
+       \mathrlap{\,,}
     }
   $$
 
@@ -110,29 +120,43 @@ such that
 =--
 
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
+**(Terminology)**
+\linebreak
 Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  A common convention is that a *right dual* of $A$ is an object $A^*$ equipped with a **[[unit of an adjunction|unit]]** (or *[[coevaluation]]*)
-$$i: I \to A \otimes A^* $$
+$$
+  i \,\colon\, \mathbb{1} \to A \otimes A^* 
+$$
 and **counit** (or *[[evaluation]]*)
-$$e : A^* \otimes A \to I $$
-satisfying the '[[triangle identities]]' familiar from the concept of [[adjunction]].  With this convention, if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in [[diagrammatic order]], then right duals in $C$ are the same as right adjoints in $\mathbf{B}C$ --- whereas if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in classical 'Leibnizian' order, then right duals in $C$ are the same as *left* adjoints in $\mathbf{B} C$.
+$$
+  e \,\colon\, A^* \otimes A \to \mathbb{1} 
+$$
+satisfying the '[[triangle identities]]' familiar from [[adjunctions]].  
+
+With this convention, if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in [[diagrammatic order]], then right duals in $C$ are the same as right adjoints in $\mathbf{B}C$ --- whereas if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in classical 'Leibnizian' order, then right duals in $C$ are the same as *left* adjoints in $\mathbf{B} C$.
 
 Of course, in a [[symmetric monoidal category]], there is no difference between left and right duals.
+\end{remark}
 
-=--
+\begin{remark}
+There are various equivalent definitions of dualizability, some of which are apparently weaker than the explicit definition in terms of both unit and counit, or which assume only one of them together with a [[universal property]] for it.  
+\end{remark}
 
-+-- {: .num_remark}
-###### Remark
-There are various equivalent definitions of dualizability, some of which are apparently weaker than the explicit definition in terms of both unit and counit, or which assume only one of them together with a universal property for it.  However, in a few references one can find a claim that $A$ is dualizable as soon as the functor $(A\otimes -)$ has a right adjoint of the form $(A^* \otimes -)$, and this does not seem to be true; one also needs that the adjunction between these functors is preserved by tensoring with $A$.
-=--
+But beware:
+\begin{remark}\label{TensorAdjunctabilityDoesNotImplyDualizability}
+**(Tensor-adjuncatibility does not imply dualizability)**
+\linebreak
+While it may be tempting to think that $A$ is dualizable as soon as the functor $(A\otimes -)$ has a [[right adjoint]] of the form $(A^* \otimes -)$, this is not the case: one also needs that the adjunction between these functors is preserved by tensoring with $A$.
+
+A [[counterexample]] is given by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).
+
+See also [Dold & Puppe 1984, Thm. 1.3 (c)](#DoldPuppe84).
+\end{remark}
 
 +-- {: .num_defn #InvertibleObject}
 ###### Definition
 
-A dualizable object $A$, def. \ref{DualizableObject}, for which the structure unit/counit maps between $A \otimes A^\ast$ and the [[unit object]] are [[isomorphisms]] is called an _[[invertible object]]_.
-
+A dualizable object $A$, def. \ref{DualizableObject}, for which the structure unit/counit maps between $A \otimes A^\ast$ and the [[unit object]] are [[isomorphisms]] is called an **[[invertible object]]**.
 
 =--
 
@@ -224,18 +248,43 @@ Dualizable objects in an [[symmetric monoidal (∞,1)-category]] are already [[f
 
 In a [[closed category]] $(\mathcal{C}, [-,-], 1)$ the dual to an object $X \in \mathcal{C}$ is defined to be the [[internal hom]] into the [[unit object]]
 
-$$
+\[
+  \label{DualityInClosedCategory}
   \mathbb{D}X \coloneqq [X,1]
   \,.
-$$
+\]
 
 ## In a closed monoidal category
 
-In a [[closed monoidal category]] $\mathbb{D}X$ is also called the _weak dual_ of $X$ (e.g. [Becker-Gottlieb, p. 5](#BeckerGottlieb)), to contrast with the monoidal dual as above, which would then be called the _strong dual_ . If the induced morphism $X \to \mathbb{D}\mathbb{D}X$ is an [[equivalence]] this weak dual is called a _reflexive weak dual_.
+In a [[closed monoidal category]] $\mathbb{D}X$ (eq:DualityInClosedCategory) is also called the _weak dual_ of $X$ &lbrack;[Becker & Gottlieb, p. 5](#BeckerGottlieb)&rbrack; (in contrast with the monoidal dual of Def. \ref{DualizableObject}, which would then be called the *strong dual* &lbrack;[Dold & Puppe 1984 Def. 1.2](#DoldPuppe84)&rbrack;).
 
+\begin{definition}\label{ReflexiveDualizableObject}
+**(reflexive dualizable object)**
+\linebreak
+If the [[adjunct]]
+$$
+  X \longrightarrow \mathbb{D}\mathbb{D}X
+$$ 
+of
+$$
+  X \otimes \mathbb{D}X
+  \xrightarrow{\;\; \sigma \;\;}
+  \mathbb{D}X \otimes X
+  \xrightarrow{\;\; ev \;\;}
+  \mathbb{1}
+$$
+is an [[isomorphism]] (identifying $X$ with its double dual)
+then $X$ is called *reflexive* as a weak dualizable object.
+&lbrack;[Deligne & Milne 1982 p 111](#DeligneMilne82), [Dold & Puppe 1984 Def. 1.2](#DoldPuppe84)&rbrack;
+\end{definition}
+
+\begin{remark}
 If $\mathcal{C}$ is a [[compact closed category]], def. \ref{RigidAndCompactClosed}, then the weak dual $\mathbb{D}X$ is also [[generalized the|the]] strong dual object $X^\ast$ to $X$ in the above monoidal sense. Here dualization exhibits $\mathcal{C}$ as a [[star-autonomous category]] ($\mathbb{D}(-) = (-)^\ast$ is the star-operation).
+\end{remark}
 
+\begin{remark}
 The property of $X$ being dualizable can be expressed as a property of the weak dual, namely that the induced map $\mathbb{D}X \otimes X \to [X,X]$ is an isomorphsim.
+\end{remark}
 
 
 ## In a symmetric monoidal $(\infty,n)$-category
@@ -301,11 +350,24 @@ This notion of duality generalizes to that of [[linear adjoints]] in a [[linear 
 
 Original articles:
 
-* [[Harald Lindner]], _Adjunctions in monoidal categories_, manuscripta mathematica 26.1-2 (1978): 123-139. ([doi:10.1007/BF01167969](https://doi.org/10.1007/BF01167969))
+* {#Pareigis76} [[Bodo Pareigis]], *Non-additive ring and module theory IV: The Brauer group of a symmetric monoidal category*, Lecture Notes in Mathematics **549** (1976) &lbrack;[doi:10.1007/BFb0077339]( https://doi.org/10.1007/BFb0077339)&rbrack;
 
-* [[Pierre Deligne]], [[James Milne]]: §1 of: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
+  > (calls dualizable objects "finite objects")
+    
 
-* [[Albrecht Dold]], [[Dieter Puppe]], §1 of: *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics, **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)&rbrack;
+* Thomas S. Ligon, *Galois-Theorie in monoidalen Kategorien*, Munich (1978) &lbrack;[pdf](https://edoc.ub.uni-muenchen.de/14958/1/Ligon_Thomas.pdf), [doi:10.5282/edoc.14958](https://doi.org/10.5282/edoc.14958)&rbrack;
+
+  transl: *Galois theory in monoidal categories* (2019) &lbrack;[pdf](https://edoc.ub.uni-muenchen.de/24952/7/Ligon_Thomas.pdf), [doi:10.5282/edoc.24952](https://doi.org/10.5282/edoc.24952)&rbrack;
+
+  > (follows [Pareigis 1976](#Pareigis76))
+
+* {#Lindner78} [[Harald Lindner]], *Adjunctions in monoidal categories*, Manuscripta Mathematica **26** 1-2 (1978)  123-139 &lbrack;[doi:10.1007/BF01167969](https://doi.org/10.1007/BF01167969)&rbrack;
+
+  > (discusses dual objects in a monoidal category as [[adjunctions]] in its [[delooping]] [[2-category]])
+
+* {#DeligneMilne82} [[Pierre Deligne]], [[James Milne]]: §1  pp. 110 of: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
+
+* {#DoldPuppe84} [[Albrecht Dold]], [[Dieter Puppe]], §1 of: *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics, **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)&rbrack;
 
 Early history with an eye towards formulating [[Becker-Gottlieb transfer]]:
 
@@ -319,8 +381,11 @@ Further developments:
 
 Review:
 
-* [[Peter May]], §2 in: *Picard Groups, Grothendieck Rings, and Burnside Rings of Categories*, Advances in Mathematics **163** 1 (2001) 1-16 &lbrack;[pdf](http://math.uchicago.edu/~may/PAPERS/PicJan01.pdf), [doi:10.1006/aima.2001.1996](https://doi.org/10.1006/aima.2001.1996)&rbrack;
- 
+* [[Peter May]], §2 in: *Picard Groups, Grothendieck Rings, and Burnside Rings of Categories*, Advances in Mathematics **163** 1 (2001) 1-16 &lbrack;[pdf](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=86E4370463A9D802F6489B99282943AF?doi=10.1.1.205.7625&rep=rep1&type=pdf), [doi:10.1006/aima.2001.1996](https://doi.org/10.1006/aima.2001.1996)&rbrack;
+
+* [[Dominic Culver]], [[Mitchell Faulk]], *Duality Notes*, lecture notes for *West Coast Algebraic Topology Summer School* (2014) &lbrack;[pdf](https://mathtube.org/sites/default/files/lecture-notes/Duality%20Notes.pdf), [[CulverFaulk-DualityNotes.pdf:file]] [mathtube](https://www.mathtube.org/lecture/notes/duality-notes)&rbrack;
+
+  > (towards [[fully dualizable objects]]) 
 Further examples:
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
@@ -334,12 +399,19 @@ Monoidal categories with freely adjoint duals:
 
 *  Kevin Coulembier, [[Ross Street]], Michel van den Bergh, _Freely adjoining monoidal duals_  &lbrack;[arXiv:2004.09697](https://arxiv.org/abs/2004.09697)&rbrack;
 
-The notion of duals in a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]]:
+The notion of [[fully dualizable objects]] in a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]]:
 
 * {#Lurie} [[Jacob Lurie]], Section 2.3  _[[On the Classification of Topological Field Theories]]_
+
+
+
+
+[[!redirects dualizable objects]]
+
+[[!redirects dualisable object]]
+[[!redirects dualisable objects]]
+
  
-
-
 [[!redirects dual object]]
 [[!redirects dual objects]]
 
@@ -347,14 +419,12 @@ The notion of duals in a [[symmetric monoidal (infinity,n)-category|symmetric mo
 [[!redirects left dual objects]]
 [[!redirects left dual]]
 [[!redirects left duals]]
+
 [[!redirects right dual object]]
 [[!redirects right dual objects]]
 [[!redirects right dual]]
 [[!redirects right duals]]
 
-[[!redirects dualizable objects]]
-[[!redirects dualisable object]]
-[[!redirects dualisable objects]]
 
 [[!redirects weak dual]]
 [[!redirects weak duals]]
@@ -374,8 +444,6 @@ The notion of duals in a [[symmetric monoidal (infinity,n)-category|symmetric mo
 [[!redirects strongly dual object]]
 [[!redirects strongly dual object]]
 
-[[!redirects dual object]]
-[[!redirects dual objects]]
 
 [[!redirects dual type]]
 [[!redirects dual types]]
