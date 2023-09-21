@@ -1,4 +1,8 @@
 
+> This entry is about finite objects in generalization of [[finite sets]]. For generalization of [[finite-dimensional vector spaces]] see instead at *[[dualizable object]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
