@@ -260,7 +260,9 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 
 * Darien DeWolf and Dorette Pronk, _The Ehresmann-Schein-Nampooripad Theorem for Inverse Categories_, [arXiv](https://arxiv.org/abs/1507.08615). 
 
+* Igor Dolinka, Sergey V. Gusev, Mikhail V. Volkov, _Semiring and involution identities of powers of inverse semigroups_, [arXiv:2309.11432](https://arxiv.org/abs/2309.11432)
 
+> The set of all subsets of any inverse semigroup forms an involution semiring under set-theoretical union and element-wise multiplication and inversion. We find structural conditions on a finite inverse semigroup guaranteeing that neither semiring nor involution identities of the involution semiring of its subsets admit a finite identity basis. 
 
 [[!redirects inverse semigroups]]
 [[!redirects ordered groupoids]]
