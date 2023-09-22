@@ -214,9 +214,9 @@ Proof of failure of local compactness:
 
 Proof of [[Kazhdan's property (T)]] for $U(\mathcal{H})$:
 
-* [[Bachir Bekka]], *Kazhdan's Property (T) for the unitary group of a separable Hilbert space*, Geom. funct. anal. 13, 509–520 (2003) ([doi:10.1007/s00039-003-0420-0](https://doi.org/10.1007/s00039-003-0420-0))
+* [[Bachir Bekka]], *Kazhdan's Property (T) for the unitary group of a separable Hilbert space*, Geom. funct. anal. 13, 509–520 (2003) &lbrack;[doi:10.1007/s00039-003-0420-0](https://doi.org/10.1007/s00039-003-0420-0)&rbrack;
 
-* {#NSW} [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_, Int. Math. Res. Not. IMRN 16 (2013) 3678-3721, <https://doi.org/10.1093/imrn/rns154>, [arXiv:1104.4288](https://arxiv.org/abs/1104.4288)
+* {#NSW} [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_, Int. Math. Res. Not. IMRN **16** (2013) 3678-3721 &lbrack;[doi:10.1093/imrn/rns154](https://doi.org/10.1093/imrn/rns154), [arXiv:1104.4288](https://arxiv.org/abs/1104.4288)&rbrack;
 
 
 
