@@ -52,6 +52,11 @@ $$
 [[!include quantum channels and decoherence -- section]]
 
 
+## Related concepts
+
+* [[quantum channel]]
+
+  * [[quantum measurement channel]]
 
 
 ## References
