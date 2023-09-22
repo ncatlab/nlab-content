@@ -844,15 +844,20 @@ higher versions
 
 ## References
 
+The first monograph:
+
+* {#EilKel66} [[Samuel Eilenberg]], [[G. Max Kelly]], Section II.1 in: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 Textbook accounts:
 
 * {#MacLane71} [[Saunders MacLane]], Section VII.1 of: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * {#Borceux94} [[Francis Borceux]], Section 6.1 of: *Handbook of Categorical Algebra* Vol. 2: *Categories and Structures* $[$[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)$]$, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
-* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Chapter 2 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) $[$[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)$]$
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Chapter 2 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
 
   > (focus on [[tensor categories]])
+
 
 
 Exposition of basics of monoidal categories and [[categorical algebra]]:
@@ -869,19 +874,11 @@ Monoidal categories were introduced by B&#233;nabou under the name 'category wit
  
 Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence axioms could be whittled down to just two: 
 
-* {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._ , Journal of Algebra **1** (1964) pp.397-402. 
+* {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, Journal of Algebra **1** (1964) pp.397-402. 
  
-The first monograph:
-
-* {#EilKel66} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 
-Other textbook accounts include
-
-* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
-
-
-A fairly comprehensive set of lecture notes on the [[higher algebra]] of monoidal categories is in
+Lecture notes on the [[higher algebra]] of monoidal categories:
 
 * [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
 
