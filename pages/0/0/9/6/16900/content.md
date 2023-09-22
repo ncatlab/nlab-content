@@ -114,7 +114,7 @@ It was subsequently noted several times in the literature that Street's sketch i
 
 Scattered remarks by Street, [[Michael Barr]], and Schanuel may be found at the categories list, 
 
-* Schanuel et al., Thread on reals &#224; la Tate, Eudoxus, etc., [categories list](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/threads.html#00073) (year 2000). 
+* Schanuel et al., Thread on reals &#224; la Tate, Eudoxus, etc., <a href="https://web.archive.org/web/20160318123559/http://facultypages.ecc.edu/alsani/ct99-00(8-12)/threads.html">categories list</a> (year 2000). 
  {#thread} 
 
 The quote attributed to Schanuel (see the footnote) was drawn from that thread. 
