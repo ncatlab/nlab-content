@@ -11,6 +11,9 @@ On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], *The formal theory of relative monads* &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
+On [[higher-order logic|higher-order]] [[algebraic theories]]:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], *Higher-order algebraic theories* ([pdf](https://arkor.co/files/Higher-order%20algebraic%20theories.pdf))
 
 category: people
 
