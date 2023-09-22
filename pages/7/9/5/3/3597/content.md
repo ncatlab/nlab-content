@@ -116,6 +116,7 @@ The notion of density matrices originates with
 
   *Mathematical Foundations of Quantum Mechanics*, Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+(in precursor discussion of what later came to be called *[[quantum measurement channels]]*).
 
 Most accounts of [[quantum physics]] discuss density matrices in some form. See for instance:
 
