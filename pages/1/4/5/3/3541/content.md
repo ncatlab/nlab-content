@@ -474,6 +474,10 @@ The terminology "quantum operation" for linear maps on the linear dual of a [[C-
 
 * {#HaagKastler64} [[Rudolf Haag]], [[Daniel Kastler]], pp. 850 in: *An algebraic approach to quantum field theory*, Journal of Mathematical Physics, **5** (1964) 848-861 &lbrack;[doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124)&rbrack;
 
+The terminology "quantum channel":
+
+* [[Teiko Heinosaari]], [[Mário Ziman]], Section 4 of: *The Mathematical Language of Quantum Theory -- From Uncertainty to Entanglement*, Cambridge University Press  (2011) &lbrack;[doi:10.1017/CBO9781139031103]( https://doi.org/10.1017/CBO9781139031103)&rbrack;
+
 
 Analysis of [[extremal quantum channels]]:
 
