@@ -200,6 +200,13 @@ Here:
 
 ## References
 
+The [[initial object|initiality]] of the [[Kleisli category]] under [[monad morphisms]] was first observed in
+
+* {#Maranda66} [[Jean-Marie Maranda]], *On Fundamental Constructions and Adjoint Functors*, Canadian Mathematical Bulletin **9** 5  (1966) 581-591 &lbrack;[doi:10.4153/CMB-1966-072-9](https://doi.org/10.4153/CMB-1966-072-9)&rbrack;
+
+
+Textbook account:
+
 * {#MacLane71} [[Saunders MacLane]], §VI.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 [[!redirects comparison functors]]
