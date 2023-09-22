@@ -13,6 +13,8 @@
 
 
 ***
+Monad transformation property ensures that mixed composition of transformations with Kleisli morphisms is unambiguous.
+
 
 Bath coupling is quantum state transformation
 
