@@ -192,7 +192,7 @@ Discussion of traditional [[algebraic quantum field theory]] as being about non-
 
 Genral introduction and toy examples (e.g. [[phi^4-theory]] or anharmonic oscillator):
 
-* {#FloryHellingSluka12} Mario Flory, [[Robert C. Helling]], Constantin Sluka, Section 2 of: *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
+* {#FloryHellingSluka12} [[Mario Flory]], [[Robert C. Helling]], Constantin Sluka, Section 2 of: *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
 
 * [Mariño 12, section 2, section 3.1](#Marino12)
 
