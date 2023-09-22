@@ -294,13 +294,17 @@ Further introduction and survey:
 
 * Christine Middleton, *What’s under the hood of a quantum computer?*, Physics Today, March 2021 ([doi:10.1063/PT.6.1.20210305a](https://physicstoday.scitation.org/do/10.1063/PT.6.1.20210305a))
 
-* Sophie Choe, *Quantum computing overview: discrete vs. continuous variable models* $[$[arXiv:2206.07246](https://arxiv.org/abs/2206.07246)$]$
-
 * [[John Preskill]], *The Physics of Quantum Information*, talk at *The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
 
 * Oswaldo Zapata, *A Short Introduction to Quantum Computing for Physicists* &lbrack;[arXiv:2306.09388](https://arxiv.org/abs/2306.09388)&rbrack;
 
 * [[Peter Shor]], *Quantum Computation*, Lecture notes (2022) &lbrack;[web](https://math.mit.edu/~shor/435-LN/)&rbrack;
+
+On "continuous variable" analog quantum computation:
+
+* Sophie Choe, *Quantum computing overview: discrete vs. continuous variable models* &lbrack;[arXiv:2206.07246](https://arxiv.org/abs/2206.07246)&rbrack;
+
+* [[Vivien M. Kendon]], [[Kae Nemoto]], [[William J. Munro]], *Quantum Analogue Computing*, Phil. Trans. R. Soc. A **368** 1924 (2010) 3621-3632 &lbrack;[arXiv:1001.2215](https://arxiv.org/abs/1001.2215), [doi:10.1098/rsta.2010.0017](https://doi.org/10.1098/rsta.2010.0017)&rbrack;
 
 
 See also:
