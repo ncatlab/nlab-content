@@ -53,10 +53,13 @@ This perspective is taken from ([Webster11](#Webster)). See there for more detai
 
 ## References
 
-A good survey is given in
+A good surveys are given in
 
 * [[Ben Webster]], _Hall algebras are Grothendieck groups_ ([SBS](http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988))
  {#Webster}
+* O. Schiffmann, _Lectures on Hall algebras_, arXiv:[math/0611617](https://arXiv.org/abs/math/0611617)
+* wikipedia: [Hall algebra](https://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](https://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
+* [The Hall multiplication](https://www.math.uni-bielefeld.de/~ringel/lectures/green/Welcome.html) (a page which a part of a lecture course by Ringel)
 
 The characterization via [[2-Segal spaces]]/decomposition spaces is independently due to
 
@@ -64,28 +67,42 @@ The characterization via [[2-Segal spaces]]/decomposition spaces is independentl
  {#DyckerhoffKapranov12} (now part of their book _Higher Segal spaces_, Springer Lec. Notes in Math. 2244  [doi](https://doi.org/10.1007/978-3-030-27124-4))
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
+Some new light on interplay between 2-Segal and Hall product is in
+
+* Matthew B Young, _Relative 2-Segal spaces_, 
+Algebraic & Geometric Topology 18 (2018) 975--1039 [doi](https://doi.org/10.2140/agt.2018.18.975)
+
+> We introduce a relative version of the 2–Segal simplicial spaces defined by Dyckerhoff and Kapranov, and Gálvez-Carrillo, Kock and Tonks. Examples of relative 2–Segal spaces include the categorified unoriented cyclic nerve, real pseudoholomorphic polygons in almost complex manifolds and the $\mathcal{R}_\bullet$-construction from Grothendieck–Witt theory. We show that a relative 2–Segal space defines a categorical representation of the Hall algebra associated to the base 2–Segal space. In this way, after decategorification we recover a number of known constructions of Hall algebra representations. We also describe some higher categorical interpretations of relative 2–Segal spaces.
+
 Canonical references on Hall algebras include the following.
 
 * [[Mikhail Kapranov]], _Eisenstein series and quantum affine algebras_, Journal Math. Sciences __84__ (1997), 1311&#8211;1360.
 * [[Mikhail Kapranov]], [[Eric Vasserot]], _Kleinian singularities, derived categories and Hall algebras_,  Math. Ann.  __316__  (2000) 565-576, [arXiv/9812016](https://arxiv.org/abs/math/9812016)
 * [[Bernhard Keller]], Dong Yang, Guodong Zhou, _The Hall algebra of a spherical object_, J. London Math Soc. (2) __80__ (2009) 771--784, [doi](https://doi.org/10.1112/jlms/jdp054), [pdf](www.math.jussieu.fr/~keller/publ/HallAlgSphericalObject.pdf)
-* [[C. M. Ringel]], _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583--591.
+* [[C. M. Ringel]], _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583--591
+
+Green has introduced a coproduct on Hall algebras of a quiver which are related to quantum groups; Green's theorem states that the Hall algebra of the category of representations of a quiver over a finite field is a twisted bialgebra. The coproduct than agrees with the one on quantum groups:
+
 * J. A. Green, _Hall algebras, hereditary algebras and quantum groups_, Invent. Math. __120__ (2), 361--377
 (1995)
-*J.  Xiao, F. Xu, M. Zhao, _Ringel-Hall algebras beyond their quantum groups I: Restriction functor and Green formula. Algebras & Represent. Theory __22__ (2019) , 1299--1329 [doi](https://doi.org/10.1007/s10468-018-9821-5)
-* O. Schiffmann, _Lectures on Hall algebras_, arXiv:[math/0611617](https://arXiv.org/abs/math/0611617)
+* J.  Xiao, F. Xu, M. Zhao, _Ringel-Hall algebras beyond their quantum groups I: Restriction functor and Green formula. Algebras & Represent. Theory __22__ (2019) , 1299--1329 [doi](https://doi.org/10.1007/s10468-018-9821-5)
+* J. Xiao, _Drinfeld double and Ringel-Green theory of Hall algebras_, J Algebra __190__ (1997) 100--144 [Zbl0874.16026](https://zbmath.org/0874.16026)
+* Matthew B. Young, _Degenerate versions of Green's theorem for Hall modules_, J. Pure & Applied Algebra
+__225__:4 (2021) 106557 [doi](https://doi.org/10.1016/j.jpaa.2020.106557)
+
+Elliptic Hall algebras
+
 * [[Olivier Schiffmann]], [[Eric Vasserot]], _The elliptic Hall algebra_, Cherednik Hecke algebras and Macdonald polynomials, Compositio Mathematica __147__:1 (2011) 188-234 [doi](https://doi.org/10.1112/S0010437X10004872) [arXiv:0802.4001](https://arxiv.org/abs/0802.4001), (2008); _The elliptic Hall algebra and the equivariant K-theory of the Hilbert scheme of $\mathbf{A}^2$_,  Duke Math. J. 162(2): 279-366 (2013) [doi](https://doi.org/10.1215/00127094-1961849) [arXiv:0905.2555](http://arXiv.org/abs/0905.2555)
 * O. Schiffman, _Drinfeld realization of the elliptic Hall algebra_, J. Algebr. Comb. 35 (2012) 237--262  [doi](https://doi.org/10.1007/s10801-011-0302-8) [arxiv/1004.2575](https://arxiv.org/abs/1004.2575) 
 * O. Schiffmann, [[Eric Vasserot]], _Hall algebras of curves, commuting varieties and Langlands duality_, Math. Ann. 353 (2012) 1399-1451 [doi](https://doi.org/10.1007/s00208-011-0720-x) [arXiv:1009.0678](https://arxiv.org/abs/1009.0678)
+
+Toen's derived Hall algebras
+
 * [[Bertrand Toen]], _Derived Hall algebras_,  Duke Math. J. 135(3): 587-615 (2006) [doi](https://doi.org/10.1215/S0012-7094-06-13536-6) [arXiv:0501343](https://arxiv.org/abs/math/0501343)
 
 * [[Alexander I. Efimov]], _Cohomological Hall algebra of a symmetric quiver_, Compositio Mathematica __148__:4 (2012) 1133-1146 [doi](https://doi.org/10.1112/S0010437X12000152) [arxiv/1103.2736](https://arxiv.org/abs/1103.2736) 
 
 * Description of seminar on stability conditions, Hall algebras and [[Stokes phenomenon|Stokes factors]] in Bonn 2009 ([[Daniel Huybrechts|D. Huybrechts]]), [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
-
-* wikipedia: [Hall algebra](https://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](https://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
-
-* [The Hall multiplication](https://www.math.uni-bielefeld.de/~ringel/lectures/green/Welcome.html) (a page which a part of a lecture course by Ringel)
 
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 
@@ -98,7 +115,6 @@ Canonical references on Hall algebras include the following.
 * [[Tobias Dyckerhoff]], _Higher categorical aspects of Hall Algebras_, In: Herbera D., Pitsch W., Zarzuela S. (eds) Building Bridges Between Algebra and Topology. Advanced Courses in Mathematics - CRM Barcelona. Birkhäuser 2015 [arXiv:1505.06940](https://arxiv.org/abs/1505.06940) [doi](https://doi.org/10.1007/978-3-319-70157-8_1)
 
 * [[Mauro Porta]], Francesco Salla, _Two-dimensional categorified Hall algebras_, J. Eur. Math. Soc. __25__:3 (2023) 1113-1205 [doi](https://doi.org/10.4171/jems/1303)
-* J. Xiao, _Drinfeld double and Ringel-Green theory of Hall algebras_, J Algebra __190__ (1997) 100--144 [Zbl0874.16026](https://zbmath.org/0874.16026)
 * J. Xiao, F. Xu, _Hall algebras associated to triangulated categories_, Duke Math. J. 143 (2) (2008) 357--373
 
 A realization of (Drinfeld-Jimbo) [[quantum group]]s via a "Bridgeland" version of Hall algebra,
