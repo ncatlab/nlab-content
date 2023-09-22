@@ -90,6 +90,12 @@ The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are d
 * [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
  {#Kapranov}
 
+* Tashi Walde, _On the theory of higher Segal spaces_, thesis, Brexen 2020 [pdf](https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/8705/5938.pdf?sequence=1)
+* Matthew B Young, _Relative 2-Segal spaces_, 
+Algebraic & Geometric Topology 18 (2018) 975--1039 [doi](https://doi.org/10.2140/agt.2018.18.975)
+
+> We introduce a relative version of the 2–Segal simplicial spaces defined by Dyckerhoff and Kapranov, and Gálvez-Carrillo, Kock and Tonks. Examples of relative 2–Segal spaces include the categorified unoriented cyclic nerve, real pseudoholomorphic polygons in almost complex manifolds and the $\mathcal{R}_\bullet$-construction from Grothendieck–Witt theory. We show that a relative 2–Segal space defines a categorical representation of the Hall algebra associated to the base 2–Segal space. In this way, after decategorification we recover a number of known constructions of Hall algebra representations. We also describe some higher categorical interpretations of relative 2–Segal spaces. 
+
 The notion of unital 2-Segal space is also discovered independently under the name of a __decomposition space__ in
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
