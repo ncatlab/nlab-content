@@ -1,5 +1,9 @@
 
+14 July 1933 – 21 July 2014
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Stephen_Schanuel)
+
+* [[F. William Lawvere]]: [The legacy of Steve Schanuel!](https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)
 
 ## Related entries
 
@@ -8,6 +12,8 @@
 * [[Schanuel topos]]
 
 * [[Schanuel's lemma]]
+
+* [[Schanuel's conjecture]]
 
 category: people
 
