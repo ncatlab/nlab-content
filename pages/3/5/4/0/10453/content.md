@@ -58,6 +58,8 @@ Yet more generally, in a [[dagger category]] a [[morphism]] $f$ is positive if i
 
 ## Related concepts
 
+* [[positive operator valued measure]]
+
 * [[normal operator]]
 
 * [[self-adjoint operator]]
