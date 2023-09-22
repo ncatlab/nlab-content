@@ -183,7 +183,7 @@ The axioms then appear as:
 
 Given the equivalence between monads in a [[2-category]] $K$ and [[lax functors]] $1 \to K$ &lbrack;[Bénabou 1967, pp. 39](#Bénabou67)&rbrack; it is straightforward to define the [[2-category]] $Mnd(K)$ of monads in $K$ to be the [[lax functor|lax]] [[functor category]] $[1,K]_\ell$, which consists of [[lax functors]], [[lax transformations]] and their[[modifications]].
 
-Spelling this out &lbrack;[Frei 1969 p. 269](#Frei69), [Pumplün 1970 p 330 & 334](#Pumplün70), [Coppey 1970](#Coppey70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
+Spelling this out &lbrack;[Maranda 1966](#Maranda66), [Maranda 1968](#Maranda68), [Frei 1969 p. 269](#Frei69), [Pumplün 1970 p 330 & 334](#Pumplün70), [Coppey 1970](#Coppey70), [Street 1972 p. 150-151](#Street72), review in [Leinster 2004 pp. 148](#Leinster04)&rbrack;:
 
 \begin{definition}\label{TwoCategoryOfMonads}
 **(2-category of monads)**
@@ -637,6 +637,10 @@ Further historical comments:
 
 
 Further original texts:
+
+* {#Maranda66} [[Jean-Marie Maranda]], *On Fundamental Constructions and Adjoint Functors*, Canadian Mathematical Bulletin **9** 5  (1966) 581-591 &lbrack;[doi:10.4153/CMB-1966-072-9](https://doi.org/10.4153/CMB-1966-072-9)&rbrack;
+
+* {#Maranda68} [[Jean-Marie Maranda]], *Sur les Proprietes Universelles des Foncteurs Adjoints*,  In: *Études sur les Groupes abéliens* / *Studies on Abelian Groups* Springer (1968) &lbrack;[doi:10.1007/978-3-642-46146-0_16](https://doi.org/10.1007/978-3-642-46146-0_16)&rbrack;
 
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
