@@ -78,6 +78,13 @@ Non-abelian examples include free groups and torsion-free nilpotent groups.  The
 *  English Wikipedia: [Partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
    {#Wikipedia}
 
+The [[stable category]] of preordered groups is studied in
+
+* [[Aline Michel]], _The stable category of preordered groups_, 2023. &lbrack;[arXiv:2309.11953](https://arxiv.org/abs/2309.11953)&rbrack;
+
+This categorical properties of preordered groups was also studied in
+
+* [[Maria Manuel Clementino]], [[Nelson Martins-Ferreira]], and [[Andrea Montoli]], _On the categorical behaviour of preordered groups_, Journal of Pure and Applied Algebra, Vol. 223, No. 10, 2019. &lbrack;[doi:doi.org/10.1016/j.jpaa.2019.01.006](https://doi.org/10.1016/j.jpaa.2019.01.006)&rbrack;
 
 [[!redirects ordered group]]
 [[!redirects ordered groups]]
