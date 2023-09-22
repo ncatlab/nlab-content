@@ -308,6 +308,38 @@ This fits a physical intuition as follows. Suppose that the isometries are a mod
 ## Examples
  {#Examples}
 
+### Unitary quantum channels
+
+A *[[unitary quantum channel]]* is a quantum channel whose restriction to [[pure states]] acts by a [[unitary transformation]] just as a loss-less [[quantum gate]] does.
+
+Concretely, in terms of [operator-sym decomposition](#InTermsOfKrausDecompositions), a quantum channel 
+
+$$
+  \array{
+    \mathscr{H}_1
+    \otimes
+    \mathscr{H}_1^\ast
+    &
+    \longrightarrow
+    &
+    \mathscr{H}_2
+    \otimes
+    \mathscr{H}_2^\ast
+    \\
+    \rho
+    &\mapsto&
+    ch(\rho)
+  }
+$$
+
+is unitary iff there exists a [[unitary operator]] $U \,\colon\, \mathscr{H}_1 \longrightarrow \mathscr{H}_2$ such that $ch$ is given by [[conjugation]] with this operator:
+
+$$
+  ch(\rho) \;=\; U \cdot \rho \cdot U^\dagger
+  \,.  
+$$
+
+
 ### Quantum measurement and POVMs
 
 A [[quantum measurement]] is formally represented by a quantum operation that is induced by a [[positive-operator valued probability measure]] (POVM).
