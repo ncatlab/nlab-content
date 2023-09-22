@@ -108,7 +108,9 @@ Schanuel's discovery was unpublished by him, but was first disseminated by Ross 
 
 It was subsequently noted several times in the literature that Street's sketch in that note on how to establish completeness isn't quite right. Street of course acknowledged this and gave an updated account here, mentioning for example corrected versions (e.g., by Arthan; see below): 
 
-* Ross Street, _Update on the efficient reals_, September 2003. ([web](http://maths.mq.edu.au/~street/reals.pdf)) 
+* Ross Street, _Update on the efficient reals_, September 2003. ([web](http://maths.mq.edu.au/~street/reals.pdf))
+
+* James Douglas, Rony Kirollos, Ben Odgers, Ross Street and Nguyen Hanh Vo, _The Efficient Real Numbers_, February 2004 ([web](http://science.mq.edu.au/~street/EffR.pdf))
 
 Scattered remarks by Street, [[Michael Barr]], and Schanuel may be found at the categories list, 
 
