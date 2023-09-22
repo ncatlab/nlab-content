@@ -150,7 +150,11 @@ Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, coro
 
 * [[Daniel M. Kan]], _Adjoint functors_, Transactions of the American Mathematical Society 87:2 (1958), 294–294 ([doi:10.1090/s0002-9947-1958-0131451-0](https://doi.org/10.1090/s0002-9947-1958-0131451-0)).
 
-This paper refers to colimits as _direct limits_.
+The observation that colimits may be constructed from [[coequalizers]] and set-indexed [[coproducts]]:
+
+* [[Jean-Marie Maranda]], Thm. 1 in: *Some remarks on limits in categories*, Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
+
+Beware that these early articles refer to colimits as _[[direct limits]]_.
 
 Textbook account:
 
