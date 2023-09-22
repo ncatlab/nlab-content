@@ -205,7 +205,7 @@ Finally, a completely positive $\Phi$ is called:
 (e.g. [Landau & Streater 1993 p. 107-108](#LandauStreater93))
 
 
-### In terms of Kraus decompositions
+### In terms of operator-sum decompositions
  {#InTermsOfKrausDecompositions}
 
 
@@ -302,7 +302,7 @@ $$
 }
 $$
 
-This fits a physical intuition as follows. Suppose that the isometries are a model of reality, as in the the many worlds interpretation and the Church of the larger Hilbert space. But in practice the observer cannot access the entirety of reality, and so some bits are hidden. The canonical way to model this hiding is to do it freely, which is to form the semicartesian reflection.
+This fits a physical intuition as follows. Suppose that the isometries are a model of reality, as in the many worlds interpretation and the Church of the larger Hilbert space. But in practice the observer cannot access the entirety of reality, and so some bits are hidden. The canonical way to model this hiding is to do it freely, which is to form the semicartesian reflection.
 
 
 ## Examples
@@ -342,6 +342,7 @@ $$
 
 
 ### Quantum measurement and POVMs
+ {#QuantumMeasurementAndPOVM}
 
 Consider 
 
@@ -377,7 +378,7 @@ $$
 
 whence one also refers to the [[tuple]] $( w \mapsto P_w )$ aas  *[[projection valued measure]]* (here: on the [[finite set]] $W$).
 
-If now $W$ is a [[quantum measurement]]-[[linear basis|basis]] on $\mathscr{H}$, the the [[quantum state collapse|collapse postulate]] of [[quantum mechanics]] says that after measuring $w \,\colon\, W$ for a quantum system previously in [[pure state]] $\left\vert \psi \right\rangle\,\colon\, \mathscr{H}$, the state will have collapsed (up to normalization) according to
+If now $W$ is a [[quantum measurement]]-[[linear basis|basis]] on $\mathscr{H}$, then the [[quantum state collapse|collapse postulate]] of [[quantum mechanics]] says that after measuring $w \,\colon\, W$ for a quantum system previously in [[pure state]] $\left\vert \psi \right\rangle\,\colon\, \mathscr{H}$, the state will have collapsed (up to normalization) according to
 $$
   \left\vert \psi \right\rangle
   \;\mapsto \;
@@ -401,7 +402,7 @@ $$
   \underset{w}{\sum}
   \,
   P_w \left\vert \psi \right\rangle
- \left\langle \psi \right\vert
+ \left\langle \psi \right\vert P_w
   \,.
 $$
 
@@ -419,18 +420,20 @@ $$
     \\
     \rho
     &\mapsto&
+    \;\;\;\;\;
+    \mathclap{
     \underset{w}{\sum}
     \,
-    P_w \left\vert \psi \right\rangle
-    \left\langle \psi \right\vert
+    P_w \cdot \rho \cdot P_w
+    \mathrlap{\,.}
+    }
   }
 $$
 
-This is a quantum channel, and quantum channels of this form are called *quantum measurement channels*.
+This is a quantum channel, and quantum channels of this form are called *[[quantum measurement channels]]*.
 
-
-
-
+More generally, a quantum channel whose [operator-sum decompositon](#InTermsOfKrausDecompositions) is by [[positive operators]] (hence a [[positive operator valued measure]], POVM) is called a *[[generalized quantum measurement channel]]*.
+&lbrack;[Preskill 2004](#PreskillGenMeas04), [Barnett 2009 Ch. 4](#Barnett09), [Flory 2011](#Flory11), [Wheeler 2012](#Wheeler12)&rbrack;
 
 
 ### Decoherence and partial traces
@@ -506,8 +509,19 @@ and in [[quantum information theory]]:
 * [[Joseph M. Renes]], 4.32 in: *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
 
 
-
 * [[Sumeet Khatri]], [[Mark M. Wilde]], §3.2 in: _Principles of Quantum Communication Theory: A Modern Approach_ &lbrack;[arXiv:2011.04672](https://arxiv.org/abs/2011.04672)&rbrack;
+
+On [[generalized quantum measurement channels]]:
+
+
+* {#PreskillGenMeas04} [[John Preskill]], *Generalized measurements*, Section 3.1.2 &lbrack;[pdf](http://theory.caltech.edu/~preskill/ph219/chap3_15.pdf#page=8)&rbrack; in: *Quantum Computation*, lecture notes, since 2004 &lbrack;[web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
+
+* {#Barnett09} [[Stephen Barnett]], Chapter 4 of: *Quantum Information*, Oxford University Press (2009) &lbrack;[ISBN:9780198527633](https://global.oup.com/ukhe/product/quantum-information-9780198527633)&rbrack;
+
+* {#Flory11} [[Mario Flory]], *POVMs and superoperators* (2011) &lbrack;[pdf](https://wiki.physik.uni-muenchen.de/TMP/images/8/87/POVMs.pdf), [[Flory-POVM.pdf:file]]&rbrack;
+
+
+* {#Wheeler12} [[Nicholas Wheeler]], *Generalized Quantum Measurement* (2012) &lbrack;[pdf](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Generalized%20Quantum%20Measurement/Generalized%20Quantum%20Measurements.pdf), [[Wheeler-GeneralizedQuantumMeasurement.pdf:file]]&rbrack;
 
 
 Further:
@@ -560,7 +574,6 @@ On quantum channel capacity:
 
 * Alexander S. Holevo, *Quantum channel capacities*, Quantum Electron. **50** 440 (2020) &lbrack;[doi:10.1070/QEL17285/meta](https://iopscience.iop.org/article/10.1070/QEL17285/meta)&rbrack;
 
-
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
 [[!redirects quantum operation]]
@@ -573,8 +586,6 @@ On quantum channel capacity:
 [[!redirects Kraus decomposition]]
 [[!redirects Kraus decompositions]]
 
-[[!redirects quantum measurement channel]]
-[[!redirects quantum measurement channels]]
 
 [[!redirects unital quantum channel]]
 [[!redirects unital quantum channels]]
