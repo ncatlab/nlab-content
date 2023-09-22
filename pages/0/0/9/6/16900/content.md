@@ -123,3 +123,7 @@ A correct and fairly comprehensive account of the construction is by Arthan, who
 
 * Rob Arthan, _The Eudoxus Real Numbers_, [http://arxiv.org/abs/math/0405454](http://arxiv.org/abs/math/0405454) (May 24, 2004). 
  {#Arthan} 
+
+A blog post on the Eudoxus real numbers:
+
+* [[Emily Riehl]], *Constructing the real numbers as nearly multiplicative sequences*, [[n-Category Café]] ([web](https://golem.ph.utexas.edu/category/2023/09/constructing_the_real_numbers.html))
