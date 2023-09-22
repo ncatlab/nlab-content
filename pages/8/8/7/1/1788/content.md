@@ -1,5 +1,13 @@
 
 
+
+* [[John Preskill]], *Generalized measurements*, Section 3.1.2 &lbrack;[pdf](http://theory.caltech.edu/~preskill/ph219/chap3_15.pdf#page=8)&rbrack; in: *Quantum Computation*, lecture notes, since 2004 &lbrack;[web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
+
+
+* [[Stephen Barnett]], Chapter 4 of: *Quantum Information*, Oxford University Press (2009) &lbrack;[ISBN:9780198527633](https://global.oup.com/ukhe/product/quantum-information-9780198527633)&rbrack;
+
+
+
 * [[Nicholas Wheeler]], *Generalized Quantum Measurement* (2012) &lbrack;[pdf](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Generalized%20Quantum%20Measurement/Generalized%20Quantum%20Measurements.pdf), [[Wheeler-GeneralizedQuantumMeasurement.pdf:file]]&rbrack;
 
 
