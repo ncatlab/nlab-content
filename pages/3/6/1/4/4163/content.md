@@ -196,7 +196,7 @@ recalled for instance in
 
 * Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
 
-* {#FloryHellingSluka12} Mario Flory, [[Robert C. Helling]], Constantin Sluka, Section 2 of: *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
+* {#FloryHellingSluka12} [[Mario Flory]], [[Robert C. Helling]], Constantin Sluka, *How I Learned to Stop Worrying and Love QFT* &lbrack;[arXiv:1201.2714](https://arxiv.org/abs/1201.2714)&rbrack;
 
 * {#Strocchi13} [[Franco Strocchi]], §2.2 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
