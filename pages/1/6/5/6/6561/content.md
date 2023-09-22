@@ -178,13 +178,13 @@ See also the references and discussion at _[[M5-brane]]_.
 
 
 ### Compactification to 4d super-Yang-Mills
+ {#CompactificationTo4DSYM}
 
-[[KK-compactification]] on [[torus]] [[fibers]] to [[D=4 super Yang-Mills theory]] and the related [[electric-magnetic duality]]/[[S-duality]] in 4-dimensions is discussed in
+[[KK-compactification]] of the $D=6$ $\mathcal{N} = (2,0)$-CFT on [[torus]] [[fibers]] to [[D=4 super Yang-Mills theory]] and the related [[electric-magnetic duality]]/[[S-duality]] in 4-dimensions:
 
 * {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_ in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  
-
-and the resulting relation to the [[geometric Langlands correspondence]] is disucssed in 
+and the resulting relation to the [[geometric Langlands correspondence]]:
 
 * {#Witten09} [[Edward Witten]], *Geometric Langlands From Six Dimensions*, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes **50** AMS (2010) &lbrack;[arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50)&rbrack;
  
