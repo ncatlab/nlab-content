@@ -83,9 +83,9 @@ The [[limit of a sequence|limit]] of this sequence is $\underset{k \to \infty}{l
 
 
 \begin{prop}\label{WithNormTopology}
-  The [norm topology](#NormTopology) makes $U(\mathcal{H})$ a [[topological group]], in fact a [[Banach Lie group]].
+  The [norm topology](#NormTopology) makes $U(\mathcal{H})$ a [[topological group]], in fact a [[Banach Lie group]]. Further, it is [[metrizable]], hence [[paracompact]].
 \end{prop}
-(e.g. [Schottenloher 2013 p. 4/Sec. 3](#Schottenloher13))
+(That it is a Banach Lie group, see e.g. [Schottenloher 2013 p. 4/Sec. 3](#Schottenloher13). Paracompactness/metrizability is [Nikolaus-Sachse-Wockel, Sec. 3](#NSW))
 
 \begin{prop}\label{WithOperatorTopology}
   On $U(\mathcal{H})$ the [weak operator topology](#WeakOperatorTopology) and [strong operator topology](#StrongOperatorTopology) agree and make it a [[topological group]].
@@ -216,7 +216,9 @@ Proof of [[Kazhdan's property (T)]] for $U(\mathcal{H})$:
 
 * [[Bachir Bekka]], *Kazhdan's Property (T) for the unitary group of a separable Hilbert space*, Geom. funct. anal. 13, 509–520 (2003) ([doi:10.1007/s00039-003-0420-0](https://doi.org/10.1007/s00039-003-0420-0))
 
-    
+* {#NSW} [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_, Int. Math. Res. Not. IMRN 16 (2013) 3678-3721, <https://doi.org/10.1093/imrn/rns154>, [arXiv:1104.4288](https://arxiv.org/abs/1104.4288)
+
+
 
 [[!redirects U(H)]]
 [[!redirects UH]]
