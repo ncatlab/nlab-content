@@ -461,6 +461,10 @@ Classical textbook accounts:
 
 More recent textbook accounts:
 
+* Paul Busch, Marian Grabowski, Pekka J. Lahti, *Operational Quantum Physics*, Lecture Notes in Physics Monographs **31**, Springer (1995) &lbrack;[doi:10.1007/978-3-540-49239-9](https://doi.org/10.1007/978-3-540-49239-9)&rbrack;
+
+  > (perspective of [[quantum probability theory]])
+
 * [[Chris Isham]], *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
 
 * [[Klaas Landsman]], *[[Mathematical Topics Between Classical and Quantum Mechanics]]*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
@@ -477,6 +481,7 @@ More recent textbook accounts:
 
   > (focus on [[open quantum systems]])
 
+* [[Teiko Heinosaari]], [[Mário Ziman]], *The Mathematical Language of Quantum Theory -- From Uncertainty to Entanglement*, Cambridge University Press  (2011) &lbrack;[doi:10.1017/CBO9781139031103]( https://doi.org/10.1017/CBO9781139031103)&rbrack;
 
 * {#Landsman17} [[Klaas Landsman]], *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
