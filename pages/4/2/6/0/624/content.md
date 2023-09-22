@@ -23,7 +23,7 @@
 A (left/right) _dual_ to an [[object]] in a [[monoidal category]] $\mathcal{C}$ is a [[left adjoint|left]]/[[right adjoint|right]] [[adjoint]] to the object regarded as a [[morphism]] in the [[delooping]] [[2-category]] $\mathbf{B}\mathcal{C}$. If a dual exists, the object is called _dualizable_.
 
 
-Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* &lbrack;[Pareigis 1976](#Pareigis76)&rbrack; for [[objects]] in a [[monoidal category]].  For instance:
+Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* &lbrack;[Pareigis 1976 p. 113](#Pareigis76)&rbrack; for [[objects]] in a [[monoidal category]].  For instance:
 
 * a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product of vector spaces]] precisely if it is a [[finite-dimensional vector space]] (cf. Exp. \ref{FiniteDimensionalVectorSpaces}),
 
@@ -430,7 +430,7 @@ This notion of duality generalizes to that of [[linear adjoints]] in a [[linear 
 
 Original articles:
 
-* {#Pareigis76} [[Bodo Pareigis]], *Non-additive ring and module theory IV: The Brauer group of a symmetric monoidal category*, Lecture Notes in Mathematics **549** (1976) &lbrack;[doi:10.1007/BFb0077339]( https://doi.org/10.1007/BFb0077339)&rbrack;
+* {#Pareigis76} [[Bodo Pareigis]], p. 113 in: *Non-additive ring and module theory IV: The Brauer group of a symmetric monoidal category*, Lecture Notes in Mathematics **549** (1976) &lbrack;[doi:10.1007/BFb0077339]( https://doi.org/10.1007/BFb0077339)&rbrack;
 
   > (calls dualizable objects "finite objects")
     
