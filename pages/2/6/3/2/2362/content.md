@@ -13,7 +13,9 @@
 =--
 =--
 
-The term __direct limit__ is essentially another term for [[colimit]], dating from a time before [[category theory|category theoretic]] terminology became established. It is still used in various areas of mathematics.  ([[formal duality|Dually]], *[[inverse limit]]* is another term for *[[limit]]*.)  In this terminology, _direct system_ means *[[diagram]]*, and _direct cone_ means [[cocone]].
+The term __direct limit__ is essentially another term for *[[colimit]]*, dating from a time before [[category theory|category theoretic]] terminology became established.
+
+It is still used in various areas of mathematics.  ([[formal duality|Dually]], *[[inverse limit]]* is another term for *[[limit]]*.)  In this terminology, _direct system_ means *[[diagram]]*, and _direct cone_ means [[cocone]].
 
 More specifically, the term *direct limit* is often understood by default to refer to [[colimits]] over [[directed sets]] (or [[filtered categories]]); see _[[directed colimit]]_  (or *[[filtered colimit]]*) for discussion of this case.
 
