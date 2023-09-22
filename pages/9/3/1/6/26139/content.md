@@ -20,7 +20,7 @@ The following terminology for the ([[higher morphism|higher]]) [[morphisms]] in 
 
 | author(s) | [[1-morphisms]] | [[2-morphisms]] |
 |---------|-----------------|-----------------|
-| [Frei 1969](#Frei69), <br/>[Pumplün 1970](#Pumplün70), <br/> [Borceux 1994](#Borceux94) | "morphisms of monads" | ---  |
+| [Maranda 1966](#Maranda66), [1968](#Maranda68), <br/> [Frei 1969](#Frei69), <br/>[Pumplün 1970](#Pumplün70), <br/> [Borceux 1994](#Borceux94) | "morphisms of monads" | ---  |
 | [Street 1972](#Street72) | "monad functors" | "monad functor transformations" |
 | [Moggi 1989](#Moggi89) | "monad-morphisms" | --- |
 | [Espinosa 1995](#Espinosa95), <br/> [Liang, Hudak & Jones 1995](#LiangHudakJones95) | "[[monad transformers]]" ${}^1$ | ---
@@ -42,6 +42,10 @@ Similarly, if one thinks of monads as [[lax functors]] $\ast \to Cat$ (which is 
 * [[transformation of adjoints]]
 
 ## References
+
+* {#Maranda66} [[Jean-Marie Maranda]], *On Fundamental Constructions and Adjoint Functors*, Canadian Mathematical Bulletin **9** 5  (1966) 581-591 &lbrack;[doi:10.4153/CMB-1966-072-9](https://doi.org/10.4153/CMB-1966-072-9)&rbrack;
+
+* {#Maranda68} [[Jean-Marie Maranda]], *Sur les Proprietes Universelles des Foncteurs Adjoints*,  In: *Études sur les Groupes abéliens* / *Studies on Abelian Groups* Springer (1968) &lbrack;[doi:10.1007/978-3-642-46146-0_16](https://doi.org/10.1007/978-3-642-46146-0_16)&rbrack;
 
 * {#Frei69} [[Armin Frei]], *Some remarks on triples*, Mathematische Zeitschrift **109** (1969) 269–272 &lbrack;[doi:10.1007/BF01110118](https://doi.org/10.1007/BF01110118)&rbrack;
    
