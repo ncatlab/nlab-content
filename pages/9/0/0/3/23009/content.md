@@ -16,7 +16,7 @@ On [[graviton]] [[scattering amplitudes]] in [[D=11 supergravity]] via the [[BFS
 
 On [[perturbative quantum field theory]] with emphasis on conceptual aspects of [[non-perturbative effects]] and [[renormalization]]:
 
-* {#FloryHellingSluka12} Mario Flory, [[Robert C. Helling]], Constantin Sluka, Section 2 of: *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
+* {#FloryHellingSluka12} [[Mario Flory]], [[Robert C. Helling]], Constantin Sluka, *How I Learned to Stop Worrying and Love QFT* ([arXiv:1201.2714](https://arxiv.org/abs/1201.2714))
 
 and notes on the perturbation series specifically for [[phi^4 theory]]:
 
