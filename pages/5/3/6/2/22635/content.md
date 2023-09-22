@@ -4,7 +4,7 @@
 
 On [[quantum error correction]]:
 
-* {#DevittNemotoMunro09} [[Simon J. Devitt]], Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
+* {#DevittNemotoMunro09} [[Simon J. Devitt]], [[Kae Nemoto]], [[William J. Munro]], *Quantum Error Correction for Beginners*, Rep. Prog. Phys. **76** (2013) 076001 &lbrack;[arXiv:0905.2794](https://arxiv.org/abs/0905.2794)&rbrack;
 
 On [[classically controlled quantum computation]]:
 
