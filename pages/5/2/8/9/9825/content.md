@@ -101,6 +101,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 ## Related concepts
 
+* [[quantum measurement channel]]
+
 * [[deferred measurement principle]]
 
 * [[measurement-based quantum computation]]
