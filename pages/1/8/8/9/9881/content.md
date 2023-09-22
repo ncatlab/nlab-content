@@ -198,6 +198,9 @@ The technical issue of the [[moduli space]] of [[super Riemann surfaces]] of hig
 
 * [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
 
+Review of the scattering of massive modes in [[type IIB string theory]]:
+
+* Nicholas Agia, *Massive Type IIB Superstrings Part I: 3- and 4-Point Amplitudes* &lbrack;[arXiv:2309.11538](https://arxiv.org/abs/2309.11538)&rbrack;
 
 
 
