@@ -197,6 +197,7 @@ CPM, classical structures, ...
 * [[entanglement entropy]], [[holographic entanglement entropy]]
 
 
+
 ## References
 
 ### General
@@ -204,6 +205,8 @@ CPM, classical structures, ...
 Textbook accounts:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
+* [[Stephen Barnett]], *Quantum Information*, Oxford University Press (2009) &lbrack;[ISBN:9780198527633](https://global.oup.com/ukhe/product/quantum-information-9780198527633)&rbrack;
 
 * [[Benjamin Schumacher]], [[Michael Westmoreland]],  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
 
