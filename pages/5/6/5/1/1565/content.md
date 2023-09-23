@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -102,11 +103,17 @@ Some rigs which are neither rings nor distributive lattices include:
 
 ## References
 
-Early use of the terminology "rig" is due to:
+The terminology "rig" is due to:
 
 * {#Schanuel91} [[Stephen H. Schanuel]], p. 379 of: *Negative sets have Euler characteristic and dimension*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) 379–385 &lbrack;[doi:10.1007/BFb0084232](https://doi.org/10.1007/BFb0084232)&rbrack;
 
 * {#Lawvere92} [[William Lawvere]], pp. 1 of: *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
+
+as recalled in: 
+
+* [[F. William Lawvere]]: *The legacy of Steve Schanuel!* (2015) &lbrack;[web](https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)&rbrack;
+
+> "We were amused when we finally revealed to each other that we had each independently come up with the term 'rig'."
 
 Discussion under the name *semirings*:
 
