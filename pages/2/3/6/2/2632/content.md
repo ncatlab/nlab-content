@@ -469,6 +469,8 @@ More recent textbook accounts:
 
 * [[Klaas Landsman]], *[[Mathematical Topics Between Classical and Quantum Mechanics]]*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
 
+* [[Robert B. Griffiths]], *Consistent Quantum Theory*, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511606052](https://doi.org/10.1017/CBO9780511606052), [webpage](https://quantum.phys.cmu.edu/CQT)&rbrack;
+
 * [[Mikio Nakahara]], Chapter 1 of: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
 * [[Serge Haroche]], [[Jean-Michel Raimond]], *Exploring the Quantum: Atoms, Cavities, and Photons*, Oxford University Press (2006) &lbrack;[doi:10.1093/acprof:oso/9780198509141.001.0001](https://doi.org/10.1093/acprof:oso/9780198509141.001.0001)&rbrack;
