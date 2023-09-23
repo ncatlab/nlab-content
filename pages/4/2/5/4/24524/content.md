@@ -35,3 +35,8 @@ First suppose that we have a [[homomorphism]] $f \colon \mathbb{N} \rightarrow R
 To show existence, let's verify that we indeed define a rig homomorphism by setting $f(n)=n.1_{R}$. First, we obviously have $f(1)=1_{R}$, $f(0)=0.1_{R}=0_{R}$. Moreover, by [[induction]] on $n, p \,\in\, \mathbb{N}$ we have $f(n+p)=(n+p).1_{R}=(n.1_{R})+(p.1_{R})$ and $f(n p) = n p.1_{R}=(n.1_{R})(p.1_{R})$.
 \end{proof}
 
+## Related concepts
+
+* [[Ring]], [[CRing]]
+
+[[!redirects category of rigs]]
