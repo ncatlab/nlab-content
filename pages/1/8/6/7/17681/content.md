@@ -43,17 +43,23 @@ This construction is sometimes viewed (see [HP07](#HP07), and at *[[Eff]]*) as a
 
 The following Def. \ref{MonadTransformer} is essentially the notion in [Liang, Hudak & Jones 1995, left column of p. 339 ](#LiangHudakJones95). 
 
-> The key point being their condition for the respect of the bind-operation, which we state as (eq:RespectForBindOperation) below. These authors do not seem to *demand* [[natural transformation|naturality]] of the transformation (eq:UnderlyingNaturalTransformation), though their examples all are natural. On the other hand, these authors insist that $trans$ (eq:UnderlyingNaturalTransformation) is not just a transformation between a single pair of monads, but a component of what would be a [[pointed endofunctor]] on the whole category of monads... if they demanded naturality.
+> These authors insist that "$trans_{(\text{-})}$" (eq:UnderlyingNaturalTransformation) --- which they denote "$lift \text{-}$" ---  is not just a transformation between a single pair of monads, but a component a [[pointed endofunctor]] on the whole category of monads. This further condition may be considered (or not) in addition to the following discussion.
 
 \begin{definition}
 \label{MonadTransformer}
   Given monads $\mathcal{E}$, $\mathcal{E}'$ on the same [[category]] $\mathbf{C}$, a *monad transformer* between them is:
 
-* a [[natural transformation]] of the [[underlying]] [[functors]]
+* a system of [[morphisms]]
 
   \[
      \label{UnderlyingNaturalTransformation}
-     trans \,\colon\, \mathcal{E} \to \mathcal{E}'
+     D \,\colon\, Type
+     \;\;\;\;\;\;
+     \vdash
+     \;\;\;\;\;\;
+     trans_D 
+       \,\colon\, 
+     \mathcal{E}(D) \to \mathcal{E}'(D)
   \]
 
 which
@@ -64,6 +70,7 @@ which
      trans \circ ret^{\mathcal{E}}
      \;=\;
      ret^{\mathcal{E}'}
+     \,,
    $$
 
 1. preserves the bind-operations, in that for
@@ -93,12 +100,36 @@ which
      \big(
        trans_{D_2} \circ prog_{12}
      \big)
+     \mathrlap{\,.}
    \] 
 
 \end{definition}
 
 \begin{proposition}
-  A natural transformation $trans \,\colon\, \mathcal{E} \to \mathcal{E}'$ is a monad transformer in the sense of Def. \ref{MonadTransformer} iff it is a [homomorphism of monads](monad#TransformationOfMonadsOnFixedCategory) (in the original sense of [Maranda 1966](monad#Maranda66)), i.e.: besides respecting the [[unit of a monad|unit/return-operation]] it also respects the join-operation (the "monad multiplication"), in that it makes the following [[commuting diagram|diagrams commute]]:
+  A system of transformations $trans_D \,\colon\, \mathcal{E}(D) \to \mathcal{E}'(D)$ is a monad transformer in the sense of Def. \ref{MonadTransformer} iff it is a [homomorphism of monads](monad#TransformationOfMonadsOnFixedCategory) (in the original sense of [Maranda 1966](monad#Maranda66)), i.e.: 
+
+1. a [[natural transformation]] $\trans \,\colon\, \mathcal{E} \to \mathcal{E}'$ of the [[underlying]] [[functors]],
+
+1. respecting the [[unit of a monad|unit/return-operation]], in that the following [[commuting diagram|diagrams commute]]:
+
+   \[
+     \label{RespectForTheUnit}
+     \array{
+       D 
+         &\overset{ret^{\mathcal{E}}_D}{\longrightarrow}&
+       \mathcal{E}(D)
+       \\
+       \mathllap{{}^{id}}\Big\downarrow 
+         && 
+       \Big\downarrow\mathrlap{{}^{trans_D}}
+       \\
+       D 
+         &\underset{ret^{\mathcal{E}'}_D}{\longrightarrow}&
+       \mathcal{E}(D)
+     }
+   \]
+
+1. respecting the join-operation (the "monad multiplication"), in that it makes the following [[commuting diagram|diagram commute]]:
 
 \begin{tikzcd}[sep=large]
   \mathcal{E}\big(\mathcal{E}(\mbox{-})\big)
@@ -147,23 +178,41 @@ which
 \begin{proof}
 Recall that the relation between the bind- and join-operations is:
 
-$$
+\[
+  \label{BindFromJoin}
   bind^{\mathcal{E}} \big( f \,\colon\, D_1 \to \mathcal{E}(D_2) \big)
   \;\equiv\;
   join^{\mathcal{E}}_{D_2} \circ \mathcal{E}(f)
-$$
+\]
 
 and 
 
-$$
+\[
+  \label{FunctorFromBind}
+ \mathcal{E}(f \,\colon\, D_1 \to D_2)
+ \;\equiv\;
+ bind^{\mathcal{E}}
+ \big(
+   D_1 
+     \xrightarrow{\; f \;} 
+   D_2
+     \xrightarrow{\; ret^{\mathcal{E}}_{D_2} \;}
+   \mathcal{E}(D_2)
+ \big) 
+\]
+
+\[
+  \label{JoinFromBind}
   join^{\mathcal{E}}_{D}
   \;\equiv\;
   bind^{\mathcal{E}}\big( id_{\mathcal{E}(D)} \big)
   \,.
-$$
+\]
 
 
-Now in one direction: If the above square commutes then consider its [[pasting diagram]] with the [[naturality square]] of $trans$ as follows
+Now in one direction: 
+Given a [morphism of monads](monad#TransformationOfMonadsOnFixedCategory) $trans \,\colon\, \mathcal{E} \to \mathcal{E}'$,
+then consider the [[pasting diagram]] of the above square with the [[naturality square]] of $trans$ as follows:
 
 \begin{tikzcd}[sep=large]
   D_1
@@ -241,9 +290,61 @@ Now in one direction: If the above square commutes then consider its [[pasting d
   \mathcal{E}'(D_3)
 \end{tikzcd}
 
-Going diagonally through this [[commuting diagram]]: The total left and bottom composite is the left hand side of (eq:RespectForBindOperation) and the total top and right composite is the right hand side of (eq:RespectForBindOperation), thus proving their equality.
+Going diagonally through this [[commuting diagram]] and using (eq:BindFromJoin): The total left and bottom composite is the left hand side of (eq:RespectForBindOperation) and the total top and right composite is the right hand side of (eq:RespectForBindOperation), thus proving their equality.
 
-In the other direction, if (eq:RespectForBindOperation) holds then its restriction to the case $prog_{12} \,\equiv\, id \,\equiv\, prog_{23}$ yields the above commtuting diagram.
+In the other direction, if (eq:RespectForBindOperation) holds then its restriction to the case $prog_{12} \,\equiv\, id \,\equiv\, prog_{23}$ immediately yields, by (eq:JoinFromBind), the above commtuting diagram expressing respect for the join.
+
+{#NaturalityFollows} It just remains to see that the system of transformations $trans_{(\text{-})}$ (eq:UnderlyingNaturalTransformation) is necessarily [[natural transformation|natural]]. This is shown by the following sequence of equalities, for $prog \,\colon\, D_1 \to D_2$:
+
+
+$$
+  \begin{array}{ll}
+    trans_{D_2}  \circ \mathcal{E}(prog)
+    \\
+    \;=\;
+    trans_{D_2}
+    \circ
+    bind^{\mathcal{E}}\big(
+      D_1 
+        \xrightarrow{ prog } 
+      D_2
+        \xrightarrow{ ret^{\mathcal{E}}_D }
+      \mathcal{E}(D_2)
+    \big)
+    \\
+    \;=\;
+    bind^{\mathcal{E}'}\big(
+      D_1 
+        \xrightarrow{ prog } 
+      D_2
+        \xrightarrow{ ret^{\mathcal{E}}_D }
+      \mathcal{E}(D_2)
+        \xrightarrow{ trans_{D_2} }
+      \mathcal{E}'(D_2)
+    \big)
+    \circ
+    trans_{D_1}
+    \\
+    \;=\;
+    bind^{\mathcal{E}'}\big(
+      D_1 
+        \xrightarrow{ prog } 
+      D_2
+        \xrightarrow{ ret^{\mathcal{E}'}_D }
+      \mathcal{E}'(D_2)
+    \big)
+    \circ
+    trans_{D_1}
+    \\
+    \;=\;
+    \mathcal{E}'(prog)
+    \circ
+    trans_{D_1}
+    \mathrlap{\,,}
+  \end{array}
+$$
+
+where we used, in order of appearance: (eq:FunctorFromBind), (eq:RespectForBindOperation), (eq:RespectForTheUnit) and finally (eq:FunctorFromBind) again.
 \end{proof}
 
 
