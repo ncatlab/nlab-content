@@ -70,6 +70,8 @@ For example, if $(\mathcal{C}, \otimes, \mathbb{1})$ is even a [[dagger-compact 
 
 Traditional discussion:
 
+* {#ŻyczkowskiBengtsson04} [[Karol Życzkowski]], [[Ingemar Bengtsson]], Section 4 of: *On Duality between Quantum Maps and Quantum States*, Open Systems & Information Dynamics **11** 01 (2004) 3-42 &lbrack;[doi:10.1023/B:OPSY.0000024753.05661.c2](https://doi.org/10.1023/B:OPSY.0000024753.05661.c2)&rbrack;
+
 * {#Kuperberg05} [[Greg Kuperberg]], Section 1.4 of: _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
 See also:
