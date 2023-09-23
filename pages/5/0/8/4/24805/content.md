@@ -72,8 +72,34 @@ A quick *proof* of essentially the formulation of [Staton (2015)](#Staton15) exi
 ## Interpretation of Deferred measurement
  {#DeferredMeasurementAndInterpretations}
 
-A key argument in the discussion of [Everett (1957)](interpretation+of+quantum+mechanics#Everett57a), which famously led its author to the *[[many-worlds interpretation of quantum mechanics]]*, is that *intermediate state collapse* caused by one observer seems [[paradox|paradoxical]], since to a later observer the analogous state collapse occurs (only) at a later time. 
-(This is really the same paradox as that of [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat), if we grant that the cat the role of the first observer).
+The folklore of quantum physics knows [[paradox|paradoxical]]-sounding stories under the title of 
+
+* *[Schr&ouml;dinger's cat](https://en.wikipedia.org/wiki/Schrödinger's_cat)* (1935)
+
+* *[Everett's observers](#EverettObservers)* (1957)
+
+* *[Wigner's friend](https://en.wikipedia.org/wiki/Wigner%27s_friend)* (1961)
+
+The author of these paragraphs asserts that:
+
+1. These are all the same story, recast with different actors: Schr&ouml;dinger's cat plays the same role as Everett's observer A and the same role as Wigner's friend. The point in any case is that this first observer makes a quantum measurement and (only) ofterwards is himself observed by a second observer.
+
+1. This is just what is formalized by the set-up of the deferred measurement principle: 
+
+   1. The first observer (called "cat" or "A" or "friend") is the controlled quantum gate denoted "$G$" above,
+
+   1. the quantum system observed by the first observer is $\mathrm{Q}W$ above,
+
+   1. the state space of the first observer is $\mathscr{H}$ (before) and $\mathscr{H}'$ (after the observation).
+
+   1. The second observer inspecting the scene at the end is the right hand side of the above setup, where the measurement is made at the end of the circuit execution. Before it is made, the first observer may have been in a superposition (in $\mathscr{H}'$).
+
+   1. But the deferred measurement principle says the outcome is indistinguishable from the situation where the first observer already collapses the original state in $\mathrm{Q}W$.
+
+For the record, we recall Everett's version of this story:
+
+{#EverettObservers} A key argument in the discussion of [Everett (1957)](interpretation+of+quantum+mechanics#Everett57a), which famously led its author to the *[[many-worlds interpretation of quantum mechanics]]*, is that *intermediate state collapse* caused by one observer seems [[paradox|paradoxical]], since to a later observer the analogous state collapse occurs (only) at a later time. 
+(This is really the same paradox as that of [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat), if we grant the cat the role of the first observer).
 
 [Everett (1957)](interpretation+of+quantum+mechanics#Everett57a) casts this into the following prose:
 
@@ -121,3 +147,5 @@ See also:
 General precise statement and [[proof]]:
 
 * {#GurevichBlass21} [[Yuri Gurevich]], [[Andreas Blass]], *Quantum circuits with classical channels and the principle of deferred measurements*, Theoretical Computer Science **920** (2022) 21–32 &lbrack;[arXiv:2107.08324](https://arxiv.org/abs/2107.08324), [doi:10.1016/j.tcs.2022.02.002](https://doi.org/10.1016/j.tcs.2022.02.002)&rbrack;
+
+
