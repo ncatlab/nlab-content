@@ -3,9 +3,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Stephen_Schanuel)
 
-* [[F. William Lawvere]]: [The legacy of Steve Schanuel!](https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)
+* [[F. William Lawvere]]: *The legacy of Steve Schanuel!* (2015) &lbrack;[web](https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)&rbrack;
 
 ## Related entries
+
+* [[rig]]
 
 * [[objective number theory]]
 
