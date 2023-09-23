@@ -41,9 +41,9 @@ This construction is sometimes viewed (see [HP07](#HP07), and at *[[Eff]]*) as a
 ## Details
  {#Details}
 
-The following Def. \ref{MonadTransformer} is essentially the notion in [Liang, Hudak & Jones 1995, left column of p. 339 ](#LiangHudakJones95). 
+The following Def. \ref{MonadTransformer} is essentially the notion in [Liang, Hudak & Jones 1995, left column of p. 339 ](#LiangHudakJones95), as now commonly used in [[Haskell]] (see the *[Haskell Transformer class](https://hackage.haskell.org/package/transformers-0.5.6.2/docs/Control-Monad-Trans-Class.html#g:1)*).
 
-> These authors insist that "$trans_{(\text{-})}$" (eq:UnderlyingNaturalTransformation) --- which they denote "$lift \text{-}$" ---  is not just a transformation between a single pair of monads, but a component a [[pointed endofunctor]] on the whole category of monads. This further condition may be considered (or not) in addition to the following discussion.
+> These authors, and the [[functional programming]]/[[Haskell]]-community following them, insist that "$trans_{(\text{-})}$" (eq:UnderlyingNaturalTransformation) --- which they denote "$lift \text{-}$" ---  is not just a transformation between a single pair of monads, but a component a [[pointed endofunctor]] on the whole category of monads. This further condition may be considered (or not) in addition to the following discussion.
 
 \begin{definition}
 \label{MonadTransformer}
@@ -104,6 +104,8 @@ which
    \] 
 
 \end{definition}
+
+In [Schrijvers, Piróg, Wu & Jaskelioff 2019 p. 99](#SchrijversPirógWuJaskelioff19) the analogous condition is stated in terms of the join-operation. We may check that these are equivalent:
 
 \begin{proposition}
   A system of transformations $trans_D \,\colon\, \mathcal{E}(D) \to \mathcal{E}'(D)$ is a monad transformer in the sense of Def. \ref{MonadTransformer} iff it is a [homomorphism of monads](monad#TransformationOfMonadsOnFixedCategory) (in the original sense of [Maranda 1966](monad#Maranda66)), i.e.: 
@@ -362,6 +364,8 @@ Original discussion:
 
 * {#LiangHudakJones95} Sheng Liang, [[Paul Hudak]], [[Mark Jones]], *Monad transformers and modular interpreters*, POPL '95 (1995) 333–343 &lbrack;[doi:10.1145/199448.199528](https://doi.org/10.1145/199448.199528)&rbrack;
 
+* {#SchrijversPirógWuJaskelioff19} Tom Schrijvers, Maciej Piróg, Nicolas Wu, Mauro Jaskelioff: *Monad transformers and modular algebraic effects: what binds them together*, in: *Haskell 2019: Proceedings of the 12th ACM SIGPLAN International Symposium on Haskell* (2019) 98–113 &lbrack;[doi:10.1145/3331545.3342595](https://doi.org/10.1145/3331545.3342595)&rbrack;
+
 
 Textbook account:
 
@@ -373,11 +377,16 @@ See also:
 
 * Haskell, *[Monad transformers](https://en.wikibooks.org/wiki/Haskell/Monad_transformers)*
 
+* [hackage.haskell.org/package/transformers-0.5.6.2/docs/Control-Monad-Trans-Class.html](https://hackage.haskell.org/package/transformers-0.5.6.2/docs/Control-Monad-Trans-Class.html)
+
 * Bryan O'Sullivan, Don Stewart, and John Goerzen, _Monad transformers_, [Chapter 18](http://book.realworldhaskell.org/read/monad-transformers.html) of *Real World Haskell*
 
 * [[Mauro Jaskelioff]], [[Eugenio Moggi]], *Monad Transformers as Monoid Transformers*, Theoretical Computer Science **411** 51–52 (2010) 4441-4466 &lbrack;[doi:10.1016/j.tcs.2010.09.011](https://doi.org/10.1016/j.tcs.2010.09.011), [pdf](http://www.disi.unige.it/person/MoggiE/ftp/tcs10.pdf)&rbrack;
 
 * {#HP07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) **172** (2007) 437-458  &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+
+* Mauro Jaskelioff, *Monatron: An Extensible Monad Transformer Library*, in: *Implementation and Application of Functional Languages. IFL 2008*, Lecture Notes in Computer Science **5836** (2011) 233–248 &lbrack;[doi:10.1007/978-3-642-24452-0_13](https://doi.org/10.1007/978-3-642-24452-0_13)&rbrack;
+     
 
 * Oleksandr Manzyuk, _Calculating monad transformers with category theory_ (2012) &lbrack;[pdf](https://oleksandrmanzyuk.files.wordpress.com/2012/02/calc-mts-with-cat-th1.pdf)&rbrack;
 
