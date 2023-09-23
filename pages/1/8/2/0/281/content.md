@@ -19,7 +19,7 @@
 ## Definition
 
 
-An __automorphism__ of an [[object]] $x$ in a [[category]] $C$ is an [[isomorphism]] $f : x \to x$.  In other words, an automorphism is an [[isomorphism]] that is an [[endomorphism]].
+An __automorphism__ of an [[object]] $x$ in a [[category]] $C$ is an [[isomorphism]] $f : x \to x$.  In other words, an automorphism is an [[endomorphism]] that is an [[isomorphism]].
 
 
 ## Automorphism group
