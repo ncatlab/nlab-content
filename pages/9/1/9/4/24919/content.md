@@ -14,6 +14,10 @@ Introducing the "[[consistent histories]]"-[[interpretation of quantum mechanics
 
 * [[Robert Griffiths]], *Consistent Quantum Theory*, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511606052](https://doi.org/10.1017/CBO9780511606052), [webpage](http://quantum.phys.cmu.edu/CQT/)&rbrack;
 
+On [[quantum physics]] in general:
+
+* [[Robert B. Griffiths]], *Consistent Quantum Theory*, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511606052](https://doi.org/10.1017/CBO9780511606052), [webpage](https://quantum.phys.cmu.edu/CQT)&rbrack;
+
 
 On [[quantum operations]] ([[Kraus decomposition]], etc.)
 
@@ -22,7 +26,7 @@ On [[quantum operations]] ([[Kraus decomposition]], etc.)
 
 ## Related entries
 
-* [[consistent histories]] [[interpretation of quantum mechanics]]
+* [[consistent histories]]$\;$[[interpretation of quantum mechanics]]
 
 category: people
 
