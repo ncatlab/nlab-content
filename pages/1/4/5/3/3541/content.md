@@ -468,13 +468,23 @@ The operator-sum decomposition characterization of completely positive maps is d
 
 with early review in:
 
+* [[David E. Evans]], [[John T. Lewis]],  *Dilations of irreversible evolutions in algebraic quantum theory*, Communications of the Dublin Institute for Advanced Studies, Series A: Theoretical Physics **24** (1977) &lbrack;[eprint:34031](https://orca.cardiff.ac.uk/id/eprint/34031), [pdf](https://orca.cardiff.ac.uk/id/eprint/34031/1/Evans_Lewis_DIAS.pdf)&rbrack;
+
 * {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
  
+Early discussion of the [environmental representation](#QuantumChannelsAndDecoherence) of completely positive maps:
+
+* {#Lindblad75} [[Göran Lindblad]], *Completely positive maps and entropy inequalities*,  Commun. Math. Phys. **40** (1975) 147–151 &lbrack;[doi:10.1007/BF01609396](https://doi.org/10.1007/BF01609396)&rbrack;
+
+     
+
 The terminology "quantum operation" for linear maps on the linear dual of a [[C-star algebra|$C^\ast$-algebra]] which preserve the subset of [[states on a star-algebra]]:
 
 * {#HaagKastler64} [[Rudolf Haag]], [[Daniel Kastler]], pp. 850 in: *An algebraic approach to quantum field theory*, Journal of Mathematical Physics, **5** (1964) 848-861 &lbrack;[doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124)&rbrack;
 
 The terminology "quantum channel":
+
+* {#ŻyczkowskiBengtsson04} [[Karol Życzkowski]], [[Ingemar Bengtsson]], Section 3 of: *On Duality between Quantum Maps and Quantum States*, Open Systems & Information Dynamics **11** 01 (2004) 3-42 &lbrack;[doi:10.1023/B:OPSY.0000024753.05661.c2](https://doi.org/10.1023/B:OPSY.0000024753.05661.c2)&rbrack;
 
 * [[Teiko Heinosaari]], [[Mário Ziman]], Section 4 of: *The Mathematical Language of Quantum Theory -- From Uncertainty to Entanglement*, Cambridge University Press  (2011) &lbrack;[doi:10.1017/CBO9781139031103]( https://doi.org/10.1017/CBO9781139031103)&rbrack;
 
