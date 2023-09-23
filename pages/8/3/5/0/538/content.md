@@ -28,7 +28,7 @@ For $C$ a [[category]] and $x, y \in Obj(C)$ two [[object]]s, their **coproduct*
 
 \begin{center}
 \begin{tikzcd}
-x \arrow[rd, "i_y"'] &            & y \arrow[ld, "i_y"] \\
+x \arrow[rd, "i_x"'] &            & y \arrow[ld, "i_y"] \\
                      & x \amalg y &                    
 \end{tikzcd}
 \end{center}
