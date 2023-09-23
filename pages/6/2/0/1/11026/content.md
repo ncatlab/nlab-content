@@ -11,6 +11,8 @@
 
 * [[objective number theory]]
 
+* [[Eudoxus real number]]
+
 * [[Schanuel topos]]
 
 * [[Schanuel's lemma]]
