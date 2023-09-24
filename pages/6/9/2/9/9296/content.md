@@ -86,7 +86,7 @@ Textbook accounts:
 
 * [[Heinz-Peter Breuer]], [[Francesco Petruccione]], *Decoherence*, Chapter 4 in: *The Theory of Open Quantum Systems*, Oxford University Press (2007) &lbrack;book:[doi:10.1093/acprof:oso/9780199213900.001.0001](https://doi.org/10.1093/acprof:oso/9780199213900.001.0001), chapter:[.003.04](https://doi.org/10.1093/acprof:oso/9780199213900.003.04)&rbrack;
 
-* [[Maximilian Schlosshauer]], *Decoherence and the Quantum-To-Classical Transition*, The Frontiers Collection, Springer (2007) &lbrack;[doi:10.1007/978-3-540-35775-9](https://doi.org/10.1007/978-3-540-35775-9)&rbrack;
+* {#Schlosshauer07} [[Maximilian Schlosshauer]], *Decoherence and the Quantum-To-Classical Transition*, The Frontiers Collection, Springer (2007) &lbrack;[doi:10.1007/978-3-540-35775-9](https://doi.org/10.1007/978-3-540-35775-9)&rbrack;
 
 Further review:
 
