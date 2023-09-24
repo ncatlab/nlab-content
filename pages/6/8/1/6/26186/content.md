@@ -64,3 +64,7 @@ which represents the "operation" of averaging the [[mixed state|mixed]] [[quantu
 
 
 [[!redirects partial trace quantum channels]]
+
+[[!redirects averaging quantum channel]]
+[[!redirects averaging quantum channels]]
+
