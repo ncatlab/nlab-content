@@ -469,6 +469,11 @@ This is a quantum channel, and quantum channels of this form are called *[[quant
 
 
 
+[[!include environment rep of quantum measurement channel - section]]
+
+
+
+
 
 
 ### Noise channels
