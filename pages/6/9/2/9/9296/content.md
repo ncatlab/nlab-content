@@ -60,11 +60,13 @@ Precursor discussion:
 
 Original discusssion identifying quantum decoherence as interaction with an averaged environment ("bath"):
 
+* {#Zeh70} [[H. Dieter Zeh]], *On the interpretation of measurement in quantum theory*, Found Phys **1** (1970) 69–76 &lbrack;[doi:10.1007/BF00708656](https://doi.org/10.1007/BF00708656)&rbrack;
+
 * {#Zurek81} [[Wojciech Zurek]], *Pointer basis of quantum apparatus: Into what mixture does the wave packet collapse?*, Phys. Rev. D **24** (1981) 1516-1525 &lbrack;[doi:10.1103/PhysRevD.24.1516](https://doi.org/10.1103/PhysRevD.24.1516)&rbrack;
 
 * {#Zurek82} [[Wojciech Zurek]], *Environment-induced superselection rules*, Phys. Rev. D **26** (1982) 1862-1880 &lbrack;[doi:10.1103/PhysRevD.26.1862](https://doi.org/10.1103/PhysRevD.26.1862)&rbrack;
 
-* [[Erich Joos]], [[H. Dieter Zeh]], *The emergence of classical properties through interaction with the environment*, Z. Physik B -- Condensed Matter **59** (1985) 223–243 &lbrack;[doi:10.1007/BF01725541](https://doi.org/10.1007/BF01725541)&rbrack;
+* {#JoosZeh85} [[Erich Joos]], [[H. Dieter Zeh]], *The emergence of classical properties through interaction with the environment*, Z. Physik B -- Condensed Matter **59** (1985) 223–243 &lbrack;[doi:10.1007/BF01725541](https://doi.org/10.1007/BF01725541)&rbrack;
 
 * [[Erich Joos]], *[www.decoherence.de](http://www.decoherence.de/)*
 
