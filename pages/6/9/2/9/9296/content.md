@@ -49,13 +49,27 @@ This has been argued to resolve (and has been argued not to resolve) the problem
 
 ## References
 
+Precursor discussion:
+
+* {#vonNeumann32} [[John von Neumann]], §VI.3 of: 
+
+  *Mathematische Grundlagen der Quantenmechanik* (German) (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+
 Original discusssion identifying quantum decoherence as interaction with an averaged environment ("bath"):
+
+* {#Zurek81} [[Wojciech Zurek]], *Pointer basis of quantum apparatus: Into what mixture does the wave packet collapse?*, Phys. Rev. D **24** (1981) 1516-1525 &lbrack;[doi:10.1103/PhysRevD.24.1516](https://doi.org/10.1103/PhysRevD.24.1516)&rbrack;
+
+* {#Zurek82} [[Wojciech Zurek]], *Environment-induced superselection rules*, Phys. Rev. D **26** (1982) 1862-1880 &lbrack;[doi:10.1103/PhysRevD.26.1862](https://doi.org/10.1103/PhysRevD.26.1862)&rbrack;
 
 * [[Erich Joos]], [[H. Dieter Zeh]], *The emergence of classical properties through interaction with the environment*, Z. Physik B -- Condensed Matter **59** (1985) 223–243 &lbrack;[doi:10.1007/BF01725541](https://doi.org/10.1007/BF01725541)&rbrack;
 
 * [[Erich Joos]], *[www.decoherence.de](http://www.decoherence.de/)*
 
-* [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
+
+* {#Zurek03} [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
 
 With regards to the [[measurement problem]] and [[interpretations of quantum mechanics]]:
 
@@ -73,6 +87,9 @@ Textbook accounts:
 * [[Maximilian Schlosshauer]], *Decoherence and the Quantum-To-Classical Transition*, The Frontiers Collection, Springer (2007) &lbrack;[doi:10.1007/978-3-540-35775-9](https://doi.org/10.1007/978-3-540-35775-9)&rbrack;
 
 Further review:
+
+* Claus Kiefer, [[Erich Joos]], *Decoherence: Concepts and Examples*, in: *Quantum Future From Volta and Como to the Present and Beyond*, Lecture Notes in Physics *517** (1999) &lbrack;[arXiv:quant-ph/9803052](https://arxiv.org/abs/quant-ph/9803052), [doi:10.1007/BFb0105342](https://doi.org/10.1007/BFb0105342)&rbrack;
+
 
 * [[Maximilian Schlosshauer]], *Quantum Decoherence*, Phys. Rep. **831** (2019) 1-57 &lbrack;[arXiv:1911.06282](https://arxiv.org/abs/1911.06282), [doi:10.1016/j.physrep.2019.10.001](https://doi.org/10.1016/j.physrep.2019.10.001)&rbrack;
 
