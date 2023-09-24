@@ -105,9 +105,6 @@ $$
 
 This is a quantum channel, and quantum channels of this form are called *quantum measurement channels*.
 
-More generally, a quantum channel whose [operator-sum decompositon](#InTermsOfKrausDecompositions) is by [[positive operators]] (hence a [[positive operator valued measure]], POVM) is called a *generalized quantum measurement channel*.
-&lbrack;[Preskill 2004](#PreskillGenMeas04), [Barnett 2009 Ch. 4](#Barnett09), [Flory 2011](#Flory11), [Wheeler 2012](#Wheeler12)&rbrack;
-
 ## Related concepts
 
 * [[quantum measurement]]
@@ -144,15 +141,6 @@ The operation of quantum measurement channels on mixed states first appears (bef
 
 (In generalization of the formula restricted to [[pure state]] that was previously given by [von Neumann 1932](density+matrix#vonNeumann32)).
 
-Discussion in the generality of *generalized quantum measurement channels* and [[POVMs]]:
-
-* {#PreskillGenMeas04} [[John Preskill]], *Generalized measurements*, Section 3.1.2 &lbrack;[pdf](http://theory.caltech.edu/~preskill/ph219/chap3_15.pdf#page=8)&rbrack; in: *Quantum Computation*, lecture notes, since 2004 &lbrack;[web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
-
-* {#Barnett09} [[Stephen Barnett]], Chapter 4 of: *Quantum Information*, Oxford University Press (2009) &lbrack;[ISBN:9780198527633](https://global.oup.com/ukhe/product/quantum-information-9780198527633)&rbrack;
-
-* {#Flory11} [[Mario Flory]], *POVMs and superoperators* (2011) &lbrack;[pdf](https://wiki.physik.uni-muenchen.de/TMP/images/8/87/POVMs.pdf), [[Flory-POVM.pdf:file]]&rbrack;
-
-* {#Wheeler12} [[Nicholas Wheeler]], *Generalized Quantum Measurement* (2012) &lbrack;[pdf](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Generalized%20Quantum%20Measurement/Generalized%20Quantum%20Measurements.pdf), [[Wheeler-GeneralizedQuantumMeasurement.pdf:file]]&rbrack;
 
 
 
