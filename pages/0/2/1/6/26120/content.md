@@ -987,7 +987,7 @@ $$
 $$
 \end{remark}
 
-### Quantum channels are the Quantum state transformations
+### Quantum channels that are Quantum state transformations
  {#QuantumChannelsAreQuantumStateTransformations}
 
 \begin{example}
@@ -1133,7 +1133,7 @@ $$
     \left\langle w_2 \right\vert
     \otimes
     \left\vert \text{-} \right\rangle    
-    \mathrlap{\,.}
+    \mathrlap{\,,}
   }
 $$
 
@@ -1279,6 +1279,71 @@ $$
     }
   }
 $$
+\end{proof}
+
+\begin{example}
+\label{PartialTraceAsComonadicQuantumStateTransformation}
+  A [[partial trace quantum channel]] 
+$$
+  \array{
+    (\text{-})
+    \otimes
+    \mathscr{H}
+    \otimes
+    \mathscr{B}
+    \otimes
+    \mathscr{B}^\ast
+    \otimes
+    \mathscr{H}^\ast
+    &
+    \xrightarrow{
+      id 
+      \otimes
+      trace^{\mathscr{B}}
+    }
+    &
+    \mathscr{H} \otimes \mathscr{H}^\ast
+    \\
+    \left\vert \psi, \beta \right\rangle
+    \left\langle \beta', \psi' \right\vert
+    &\mapsto&
+    \left\vert \psi \right\rangle
+    \left\langle \beta' \vert \beta \right\rangle
+    \left\langle \psi' \right\vert
+    \mathrlap{\,.}
+  }  
+$$
+is a comonadic quantum state transformation
+$$
+  trace^{\mathscr{B}}
+  \,\colon\,
+  (\mathscr{H} \otimes \mathscr{B})State
+  \underoverset{ comon\;transf }{}{\longrightarrow}
+  \mathscr{H}State
+  \,.
+$$
+\end{example}
+\begin{proof}
+Since the structure maps of the $(\mathscr{H} \otimes \mathscr{B})\mathrm{State}$-comonad are [[tensor products]] of structure maps of $\mathscr{H}\mathrm{State}$ and $\mathscr{B}\mathrm{State}$, 
+it is sufficient to show this for $\mathscr{H} = \mathbb{1}$ the [[tensor unit]], hence for the case that $\mathscr{H}\mathrm{State} = \mathrm{Id}$.
+But in this case $\mathrm{trace}^{\mathscr{B}} \,=\, obt^{ \mathscr{H}^\ast\mathrm{Store} }{}$, which is a comonadic transformation (in fact the [[terminal object|terminal]] one) by [this example](monad#IdentityMonadIsInitial)).
+
+Alternatively, onee readily checks the required conditions explicitly:
+
+
+
+\begin{imagefromfile}
+    "file_name": "PartialTraceAsQuantumStateComonTransf-230924b.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 \end{proof}
 
 
