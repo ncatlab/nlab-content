@@ -105,6 +105,14 @@ $$
 
 This is a quantum channel, and quantum channels of this form are called *quantum measurement channels*.
 
+## Properties
+
+
+[[!include environment rep of quantum measurement channel - section]]
+
+
+
+
 ## Related concepts
 
 * [[quantum measurement]]
@@ -147,6 +155,9 @@ The operation of quantum measurement channels on mixed states first appears (bef
 
 
 [[!redirects quantum measurement channels]]
+
+[[!redirects measurement quantum channel]]
+[[!redirects measurement quantum channels]]
 
 [[!redirects generalized quantum measurement channel]]
 [[!redirects generalized quantum measurement channels]]
