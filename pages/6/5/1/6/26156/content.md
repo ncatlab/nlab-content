@@ -1,5 +1,5 @@
 
-### Quantum channels and decoherence
+### Environmental representation of quantum channels
  {#QuantumChannelsAndDecoherence}
 
 The crux of dynamical [[quantum decoherence]] is that *fundamentally* the (time-)evolution of any [[quantum system]] $\mathscr{H}$ may be assumed [[unitary quantum channel|unitary]] (say via a [[Schrödinger equation]]) *when taking the whole evolution of its environment* $\mathscr{B}$ (the "bath", ultimately the whole [[observable universe]]) into account, too, in that the evolution of the total system $\mathscr{H} \otimes \mathscr{B}$  is given by a [[unitary operator]]
