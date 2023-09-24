@@ -341,7 +341,7 @@ $$
 
 
 
-### Quantum measurement and POVMs
+### Quantum measurement channels
  {#QuantumMeasurementAndPOVM}
 
 Consider 
@@ -432,14 +432,42 @@ $$
 
 This is a quantum channel, and quantum channels of this form are called *[[quantum measurement channels]]*.
 
-More generally, a quantum channel whose [operator-sum decompositon](#InTermsOfKrausDecompositions) is by [[positive operators]] (hence a [[positive operator valued measure]], POVM) is called a *[[generalized quantum measurement channel]]*.
-&lbrack;[Preskill 2004](#PreskillGenMeas04), [Barnett 2009 Ch. 4](#Barnett09), [Flory 2011](#Flory11), [Wheeler 2012](#Wheeler12)&rbrack;
 
 
 ### Decoherence and partial traces
  {#DecoherenceExample}
 
-For the moment see the references at *[[quantum decoherence]]*.
+For $\mathscr{B}$ a [[finite-dimensional Hilbert space]], the operation of [[partial trace]] over $\mathscr{B}$ is a quantum channel
+
+$$
+  \array{
+    \mathscr{H}
+    \otimes
+    \mathscr{B}
+    \otimes
+    \mathscr{B}^\ast
+    \otimes
+    \mathscr{H}^\ast
+    &
+    \xrightarrow{
+      trace^{\mathscr{B}}
+    }
+    &
+    \mathscr{H} \otimes \mathscr{H}^\ast
+    \\
+    \left\vert \psi, \beta \right\rangle
+    \left\langle \beta', \psi' \right\vert
+    &\mapsto&
+    \left\vert \psi \right\rangle
+    \left\langle \beta' \vert \beta \right\rangle
+    \left\langle \psi' \right\vert
+    \mathrlap{\,.}
+  }  
+$$
+
+See also at *[[quantum decoherence]]*.
+
+
 
 ### Noise channels
 
