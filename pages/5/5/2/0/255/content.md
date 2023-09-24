@@ -285,7 +285,7 @@ $$
 
 a morphism between them is 
 
-* a [[natural transformation]] $tr \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
+* a [[natural transformation]] $trans^{\mathcal{E} \to \mathcal{E}'} \,\colon\, \mathcal{E} \to \mathcal{E}'$ between the [[underlying]] [[functors]]
 
 such that it respects, in the evident way, the [[monad units]]
 
@@ -313,7 +313,9 @@ such that it respects, in the evident way, the [[monad units]]
   \mathcal{E}
   \ar[
      rr,
-     "{ \mathrm{tr} }"{swap}
+     "{ 
+       \mathrm{trans}^{\mathcal{E} \to \mathcal{E}'} 
+     }"{swap}
   ]
   &&
   \mathcal{E}'
@@ -324,16 +326,28 @@ and the joins:
 \begin{tikzcd}[sep=20pt]
   \mathcal{E} \circ \mathcal{E}
   \ar[
-    rr,
-    "{
-      \mathrm{tr} \circ \mathrm{tr}
-    }"
-  ]
-  \ar[
     dd,
     "{
       \mathrm{join}^{\mathcal{E}}
     }"{swap}
+  ]
+  \ar[
+    rr,
+    "{
+      \mathcal{E}\big(
+        \mathrm{trans}^{\mathcal{E} \to \mathcal{E}'}
+      \big)
+    }"
+  ]
+  &&
+  \mathcal{E} \circ \mathcal{E}'
+  \ar[
+    rr,
+    "{
+      \mathrm{trans}^{ \mathcal{E} \to \mathcal{E}' }_{
+        \mathcal{E}(\text{-})
+      }
+    }"
   ]
   &&
   \mathcal{E}' \circ \mathcal{E}'
@@ -347,21 +361,26 @@ and the joins:
   \\
   \mathcal{E}
   \ar[
-    rr, 
+    rrrr, 
     "{
-      \mathrm{tr}
+      \mathrm{trans}^{\mathcal{E} \to \mathcal{E}'}
     }"{swap}
   ]
+  &&
   &&
   \mathcal{E}'
 \end{tikzcd}
 
 in that it makes these [[commuting square|squares commute]].
 
-{#ExtensionOfModalesAlongMonadTransformation} Such a monad transformation [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
+\end{example}
+
+\begin{remark} {#ExtensionOfModalesAlongMonadTransformation} 
+A monad transformation as in Exp. \ref{TransformationOfMonadsOnFixedCategory}
+[[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
 \begin{imagefromfile}
-    "file_name": "FunctorOnModalesFromMonadMorphism-230919.jpg",
+    "file_name": "FunctorOnModalesFromMonadMorphism-230924.jpg",
     "width": 450,
     "unit": "px",
     "margin": {
@@ -371,7 +390,6 @@ in that it makes these [[commuting square|squares commute]].
         "left": 10
     }
 \end{imagefromfile}
-
 
 Since this [[extension of scalars]] is the identity on [[underlying]] [[objects]], it cannot in general restrict to a functor on [[Kleisli categories]]. 
 
@@ -390,16 +408,20 @@ $$
     \mathcal{E}'(D)
     &
     \overset{
-      tr_{\mathcal{E}'(D)}
+      trans
+        ^{\mathcal{E} \to \mathcal{E}'}
+        _{\mathcal{E}'(D)}
     }{\longrightarrow}
     &
     \mathcal{E}' 
     \mathcal{E}'(D)
     \\
-    \Big\downarrow\mathrlap{ {}^{ join^{\mathcal{E}}_D } } 
+    \Big\downarrow\mathrlap{ {}^{ 
+      join^{\mathcal{E}}_D 
+    } } 
     &&
     \Big\downarrow\mathrlap{ {}^{  
-      tr^\ast 
+      trans^\ast 
       join^{\mathcal{E}'}_D
     } } 
     &&
@@ -408,7 +430,9 @@ $$
     \mathcal{E}(D)
     &
     \underset{
-      \;\; tr_D \;\;
+      \;\; 
+      trans^{\mathcal{E} \to \mathcal{E}'}_D 
+      \;\;
     }{\longrightarrow}
     &
     \mathcal{E}'(D)
@@ -417,18 +441,111 @@ $$
   }
 $$
 
-Here the middle vertical morphism is the nominal image under $tr^\ast$ of the free modale on the right, but the square on the left, which commutes by assumption on $tr$, exhibits an isomorphism from the middle modale to the $\mathcal{E}$-free modale on the left.
+Here the middle vertical morphism is the nominal image under extension of the free modale on the right along $trans^{\mathcal{E} \to \mathcal{E}'}$, but the square on the left, which commutes by assumption on $trans^{\mathcal{E} \to \mathcal{E}'}$, exhibits an isomorphism from the middle modale to the $\mathcal{E}$-free modale on the left.
+\end{remark}
 
 
-
-
-\end{example}
-
-\begin{example}\label{MonadTransformers}
+\begin{remark}\label{MonadTransformers}
 **(monad transfomers)**
 \linebreak
   When monads are used to model [[computational effects]] in [[functional programming]], a common concern is to *combine* different effects, such that previous effects are subsumed among the newly combined effects. This is formalized by "[[monad transformers]]" which are systems of morphisms of monads as in Exp. \ref{TransformationOfMonadsOnFixedCategory}, forming a [[pointed endofunctor]] on the category $Mnd$ of all monads.
+\end{remark}
+
+
+\begin{example}\label{IdentityMonadIsInitial}
+  The [[initial object]] in the category of monads on a fixed category $\mathbf{C}$ (Exp. \ref{TransformationOfMonadsOnFixedCategory}) is the identity monad.
 \end{example}
+\begin{proof}
+  We need to show that for every monad $\mathcal{E}$ on $\mathbf{C}$ there is a natural transformation $trans^{Id \to \mathcal{E}} \,\colon\,  Id \to \mathcal{E}$ which makes, first of all, this square commute:
+
+\begin{tikzcd}[sep=large]
+  D 
+    \ar[
+      rr,
+      equals
+    ] 
+    \ar[
+      dd,
+      equals
+    ]
+    &&  
+  D
+  \ar[
+    dd,
+    dashed,
+    "{  
+      \mathrm{trans}^{ \mathrm{Id} \to \mathcal{E} }_D
+      \,=\,
+      \mathrm{ret}^{\mathcal{E}}_D
+    }"{description}
+  ]
+  \\
+  \\
+  D
+  \ar[
+    rr,
+    "{
+      \mathrm{ret}^{\mathcal{E}}_D
+    }"{swap}
+  ]
+  &&
+  \mathcal{E}(D)
+  \mathrlap{\,,}
+\end{tikzcd}
+
+and this already fixes the transformation to be the [[monad unit]] of $\mathcal{E}$, as shown -- such that, secondly, this square commutes:
+
+\begin{tikzcd}[sep=large]
+  D 
+  \ar[
+    rr,
+    "{
+      \mathrm{ret}^{\mathcal{E}}_D
+    }"
+  ]
+  \ar[
+    dd,
+    equals
+  ]
+  &&
+  \mathcal{E}(D)
+  \ar[
+    rr,
+    "{
+      \mathrm{ret}^{\mathcal{E}}_{\mathcal{E}(D)}
+    }"
+  ]
+  \ar[
+    ddrr,
+    lightgray,
+    equals
+  ]
+  &&
+  \mathcal{E}\big(
+    \mathcal{E}(D)
+  \big)
+  \ar[
+    dd,
+    "{ 
+      \mathrm{join}^{\mathcal{E}}_D
+    }"
+  ]
+  \\
+  \\
+  D
+  \ar[
+    rrrr,
+    "{
+      \mathrm{ret}^{\mathcal{E}}_{D}
+    }"{swap}
+  ]
+  &&
+  &&
+  \mathcal{E}(D)
+\end{tikzcd}
+
+which is the case by the unitality clause on $\mathcal{E}$, as indicated.
+\end{proof}
 
 \linebreak
 
