@@ -85,9 +85,18 @@ Both of these options naturally emerge and are naturally unified in the "[Quantu
 
 ## Properties
 
+## Various
+
 * [[collapse of the wavefunction]]
 
 * [[deferred measurement principle]]
+
+
+
+[[!include environment rep of quantum measurement channel - section]]
+
+
+
 
 \linebreak
 
