@@ -113,7 +113,7 @@ On the other extreme, a [[quantum measurement]] in a measurement [[basis of a ve
   \,.
 \]
 
-Remarkably (from the discussion at *[[quantum decoherence]]*) one finds that such a measurement channel (eq:MeasurementChannelInIdeaSection) may equivalently be understood as the result of a unitary evolution (eq:UnitaryChannelInIdeaSection) of the state $\rho$ coupled to an environment state $\omega$ *followed by* the [[partial trace]] over the environment's Hilbert space. This observation turns out to generally lead to yet another characterization of quantum channels:
+Remarkably (from the discussion at *[[quantum decoherence]]*) one finds that such a measurement channel (eq:MeasurementChannelInIdeaSection) may equivalently be understood as the result of a unitary evolution (eq:UnitaryChannelInIdeaSection) of the state $\rho$ coupled to an environment state $\omega$ *followed by* the [[partial trace quantum channel|partial trace]] over the environment's Hilbert space. This observation turns out to generally lead to yet another characterization of quantum channels:
 
 Quantum channels equivalently act on a density matrix $\rho$ by 
 
@@ -125,7 +125,7 @@ Quantum channels equivalently act on a density matrix $\rho$ by
 
    ([[Schrödinger equation|Schrödinger evolution]] of the couplesystem)
 
-1. applying the [[partial trace]] over the Hilbert space of $\omega$
+1. applying the [[partial trace quantum channel|partial trace]] over the Hilbert space of $\omega$
 
    (averaging the outcome over all states of the environment/bath).
 
@@ -340,6 +340,41 @@ $$
 $$
 
 
+### Decoherence and partial traces
+ {#DecoherenceExample}
+
+For $\mathscr{B}$ a [[finite-dimensional Hilbert space]], the operation of [[partial trace quantum channel|partial trace]] over $\mathscr{B}$ is a quantum channel
+
+$$
+  \array{
+    \mathscr{H}
+    \otimes
+    \mathscr{B}
+    \otimes
+    \mathscr{B}^\ast
+    \otimes
+    \mathscr{H}^\ast
+    &
+    \xrightarrow{
+      trace^{\mathscr{B}}
+    }
+    &
+    \mathscr{H} \otimes \mathscr{H}^\ast
+    \\
+    \left\vert \psi, \beta \right\rangle
+    \left\langle \beta', \psi' \right\vert
+    &\mapsto&
+    \left\vert \psi \right\rangle
+    \left\langle \beta' \vert \beta \right\rangle
+    \left\langle \psi' \right\vert
+    \mathrlap{\,.}
+  }  
+$$
+
+See also at *[[quantum decoherence]]*.
+
+
+
 
 ### Quantum measurement channels
  {#QuantumMeasurementAndPOVM}
@@ -433,39 +468,6 @@ $$
 This is a quantum channel, and quantum channels of this form are called *[[quantum measurement channels]]*.
 
 
-
-### Decoherence and partial traces
- {#DecoherenceExample}
-
-For $\mathscr{B}$ a [[finite-dimensional Hilbert space]], the operation of [[partial trace]] over $\mathscr{B}$ is a quantum channel
-
-$$
-  \array{
-    \mathscr{H}
-    \otimes
-    \mathscr{B}
-    \otimes
-    \mathscr{B}^\ast
-    \otimes
-    \mathscr{H}^\ast
-    &
-    \xrightarrow{
-      trace^{\mathscr{B}}
-    }
-    &
-    \mathscr{H} \otimes \mathscr{H}^\ast
-    \\
-    \left\vert \psi, \beta \right\rangle
-    \left\langle \beta', \psi' \right\vert
-    &\mapsto&
-    \left\vert \psi \right\rangle
-    \left\langle \beta' \vert \beta \right\rangle
-    \left\langle \psi' \right\vert
-    \mathrlap{\,.}
-  }  
-$$
-
-See also at *[[quantum decoherence]]*.
 
 
 
