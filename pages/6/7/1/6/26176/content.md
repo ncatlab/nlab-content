@@ -115,6 +115,8 @@ This is a quantum channel, and quantum channels of this form are called *quantum
 
   * [[unitary quantum channel]]
 
+  * [[partial trace quantum channel]]
+
 
 ## References
 
