@@ -44,7 +44,7 @@ $$
   }
 $$
 
-...the only catch being that one cannot --- and in any case does not (want or need to) ---  keep track of the precise [[quantum state]] of the environment/bath, instead only of its *average* effect on the given [[quantum system]], which by the rule of [[quantum probability]] is the [[mixed state]] that remains after the [[partial trace]] over the environment: 
+...the only catch being that one cannot --- and in any case does not (want or need to) ---  keep track of the precise [[quantum state]] of the environment/bath, instead only of its *average* effect on the given [[quantum system]], which by the rule of [[quantum probability]] is the [[mixed state]] that remains after the [[partial trace quantum channel|partial trace]] over the environment: 
 \[
   \label{PartialTraceOverBathTowardsQuantumChannels}
   \array{
@@ -190,7 +190,7 @@ may be written as
 
 1. and acting on the given [[mixed state]] $\rho$ coupled (tensored) with a fixed [[mixed state]] $env \,\colon\, \mathscr{B} \otimes \mathscr{B}^\ast$ of the bath system,
 
-1. followed by [[partial trace]] (averaging) over $\mathscr{B}$ (leading to [[decoherence]] in the remaining state)
+1. followed by [[partial trace quantum channel|partial trace]] (averaging) over $\mathscr{B}$ (leading to [[decoherence]] in the remaining state)
 
 in that
 
