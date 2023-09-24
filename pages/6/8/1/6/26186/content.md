@@ -52,6 +52,10 @@ which represents the "operation" of averaging the [[mixed state|mixed]] [[quantu
 [[!include quantum channels and decoherence -- section]]
 
 
+
+[[!include environment rep of quantum measurement channel - section]]
+
+
 ## Related concepts
 
 * [[decoherence]]
