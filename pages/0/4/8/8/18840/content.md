@@ -203,7 +203,11 @@ see also:
 
 * [[Jagdish Mehra]], Helmut Rechenberg, *The Probability Interpretation and the Statistical Transformation Theory, the Physical Interpretation, and the Empirical and Mathematical Foundations of Quantum Mechanics 1926-1932*, Part 1 in:  *The Historical Development of Quantum Theory. Volume 6: The Completion of Quantum Mechanics, 1926-1941*, Springer (2001)   &lbrack;[ISBN:978-0-387-98971-6](https://link.springer.com/book/9780387989716)&rbrack;
 
-* Paul Busch, Marian Grabowski, Pekka J. Lahti, *Operational Quantum Physics*, Lecture Notes in Physics Monographs **31**, Springer (1995) &lbrack;[doi:10.1007/978-3-540-49239-9](https://doi.org/10.1007/978-3-540-49239-9)&rbrack;
+with emphasis on [[POVMs]]:
+
+* [[Paul Busch]], Marian Grabowski, [[Pekka J. Lahti]], *Operational Quantum Physics*, Lecture Notes in Physics Monographs **31**, Springer (1995) &lbrack;[doi:10.1007/978-3-540-49239-9](https://doi.org/10.1007/978-3-540-49239-9)&rbrack;
+
+* [[Paul Busch]], [[Pekka J. Lahti]], Juha-Pekka Pellonpää, Kari Ylinen, *Quantum Measurement*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-43389-9](https://doi.org/10.1007/978-3-319-43389-9)&rbrack;
 
 The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in
 
