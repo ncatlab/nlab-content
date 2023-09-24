@@ -44,10 +44,17 @@ See also:
 
 * {#Wheeler12} [[Nicholas Wheeler]], *Generalized Quantum Measurement* (2012) &lbrack;[pdf](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Generalized%20Quantum%20Measurement/Generalized%20Quantum%20Measurements.pdf), [[Wheeler-GeneralizedQuantumMeasurement.pdf:file]]&rbrack;
 
-
 * Wikipedia, _[POVM](https://en.wikipedia.org/wiki/POVM)_
 
-For more see the references at *[[quantum measurement channel]]*.
+Critical comments on the notion of POVMs as "generalized measurements":
+
+* {#Griffiths12} [[Robert B. Griffiths]], Section 5 of: *Quantum Channels, Kraus Operators, POVMs* (2012) &lbrack;[pdf](https://quantum.phys.cmu.edu/QCQI/qitd412.pdf), [[Griffiths-QuantumChannels.pdf:file]]&rbrack;
+
+  > &lbrack;[p. 17:](https://ncatlab.org/nlab/files/Griffiths-QuantumChannels.pdf#page=17)&rbrack; When $G_k$ has rank greater than one but is not a projector it is not so clear what one learns from the POVM when the outcome is $k$. One can assert that in this instance the system a at the time of interest had the property given by the support of $G_k$: the smallest projector P such that $P G_k = G_k$, see CQT, p. 44. This, however, need not be very informative. In particular there are cases in which the support of $G_k$ is $I_a$, in which case the fact that a had this (always true) property tells us nothing.
+
+  > Given the generality allowed in the definition of a POVM, this lack of clarity is not too surprising. Think of a situation in which two vehicles collide and a wheel spins off of one of them. What does this tell one about the state of affairs before the collision? Probably it says something, but it might be rather difficult to say just what it is.
+
+  > For this reason it is a bit odd to refer to a general POVM as a "measurement."
 
 
 [[!redirects POVM]]
