@@ -67,6 +67,8 @@ $$
 
   * [[quantum measurement channel]]
 
+  * [[partial trace quantum channel]]
+
 
 ## References
 
