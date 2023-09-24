@@ -93,6 +93,7 @@ Textbook accounts:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], Fig. 2.1 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+* [[Robert B. Griffiths]], *Linear Algebra in Dirac notation*, Section 3 in: *Consistent Quantum Theory*, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511606052](https://doi.org/10.1017/CBO9780511606052), [webpage](https://quantum.phys.cmu.edu/CQT)&rbrack;
 
 See also:
 
