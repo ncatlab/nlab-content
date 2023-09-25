@@ -34,6 +34,11 @@ Monographs:
 
 * [[Paul Busch]], [[Pekka J. Lahti]], Juha-Pekka Pellonpää, Kari Ylinen, *Quantum Measurement*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-43389-9](https://doi.org/10.1007/978-3-319-43389-9)&rbrack;
 
+Review with extensive references to the literature and historical quotes:
+
+* [[Arnold Neumaier]], *Born's rule and measurement* &lbrack;[arXiv:1912.09906](https://arxiv.org/abs/1912.09906)&rbrack;
+
+
 See also:
 
 * {#PreskillGenMeas04} [[John Preskill]], *Generalized measurements*, Section 3.1.2 &lbrack;[pdf](http://theory.caltech.edu/~preskill/ph219/chap3_15.pdf#page=8)&rbrack; in: *Quantum Computation*, lecture notes, since 2004 &lbrack;[web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
@@ -92,4 +97,5 @@ Critical comments on the notion of POVMs as "generalized measurements":
 [[!redirects projection-valued measure]]
 [[!redirects projection-valued measures]]
 
-
+[[!redirects generalized quantum measurement]]
+[[!redirects generalized quantum measurements]]
