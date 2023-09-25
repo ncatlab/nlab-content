@@ -77,6 +77,8 @@ If however $f$ is a _surjective_ isometry between normed vector spaces, then $f$
 
 * [[isometry group]]
 
+* [[linear isometry]]
+
 * [[superisometry]]
 
 
