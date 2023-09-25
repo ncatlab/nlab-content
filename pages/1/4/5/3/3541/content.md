@@ -211,7 +211,7 @@ Finally, a completely positive $\Phi$ is called:
 
 \begin{theorem}
 \label{OperatorSumDecompositionOfQuantumChannels}
-**(operator-sum deomposition of quantum channels)**
+**(operator-sum decomposition of quantum channels)**
 \linebreak
 For $\mathscr{H}_i$ [[finite-dimensional Hilbert spaces]], a  [[linear map]] 
 
