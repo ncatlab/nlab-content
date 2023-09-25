@@ -139,18 +139,22 @@ $$
 
 for $c \in \mathbb{C}$, is a distributional solution to $x F(x) =  1$.
 
-The [[wave front set]] of all these solutions is
+The [[wave front set]] of these solutions is
 
-$$
+\[
   WF\left(
     PV(1/x) + c \delta(x)
   \right)
   \;=\;
+\begin{cases}
   \left\{
     (0,k) \;\vert\; k \in \mathbb{R}^\ast \setminus \{0\}
-  \right\}
-  \,.
-$$
+  \right\}, & c\not \in \{\pi i,-\pi i\},\\
+  \left\{
+  (0,k) \;\vert\;\mp k>0
+  \right\}, & c=\pm\pi i.
+\end{cases}
+\]
 
 =--
 
@@ -176,7 +180,7 @@ $$
   \end{aligned}
 $$
 
-Regarding the second statement: It is clear that the wave front set is concentrated at the origin. By symmetry of the distribution around the origin, it must contain both [[direction of a vector|directions]].
+Regarding the second statement: One computes that the Fourier transforms (with oscillation factor $-1$ and normalization factor 1) of $PV(1/x)$ and $\delta$ are given by $\xi\mapsto -\pi i \mathrm{sgn}(\xi)$ and $\xi \mapsto 1$, respectively. From this the statement immediately follows.
 
 =--
 
