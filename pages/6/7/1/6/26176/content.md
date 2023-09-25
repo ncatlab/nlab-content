@@ -159,7 +159,5 @@ The operation of quantum measurement channels on mixed states first appears (bef
 [[!redirects measurement quantum channel]]
 [[!redirects measurement quantum channels]]
 
-[[!redirects generalized quantum measurement channel]]
-[[!redirects generalized quantum measurement channels]]
 
 
