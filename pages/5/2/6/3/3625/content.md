@@ -33,7 +33,7 @@ where $U^{*}$ is the [[Hilbert space adjoint]] of $U$ and $I$ is the [[identity]
 
 Unitary operators are the [[isomorphism]]s of Hilbert spaces since they preserve the basic structure of the space, e.g. the topology.  The group of all unitary operators from a given Hilbert space to itself is sometimes called the [[unitary group]] $U(\mathcal{H})$ or  _Hilbert group_ of $H$ and is denoted Hilb($H$).
 
-Sometimes operators may only obey the _[[isometry]]_ condition $U^{*}U=I$ or the _[[coisometry]]_ condition $U U^{*}=I$.
+Sometimes operators may only obey the _[[linear isometry]]_ condition $U^{*}U=I$ or the _[[coisometry]]_ condition $U U^{*}=I$.
 
 The generalization of a unitary operator is called a _unitary element_ of a [[unital algebra|unital]] [[star-algebra|*-algebra]].
 
@@ -56,6 +56,8 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 * In [[harmonic analysis]], [[Parseval's theorem]] says that the [[Fourier transform]] is a unitary operator.
 
 ## Related concepts
+
+* [[linear isometry]]
 
 * [[unitary group]]
 
