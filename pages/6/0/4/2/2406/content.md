@@ -11,7 +11,7 @@ to cattle breeding to uncertainty modeling in space system design).
 I wrote books on topics in finite geometry, numerical analysis, and Lie algebras (different ones for each of 
 these subjects).
 
-## Publications
+## Selected writings
 
 On the foundations and [[interpretation of quantum mechanics|interpretation]] of [[quantum physics]]:
 
@@ -19,5 +19,10 @@ On the foundations and [[interpretation of quantum mechanics|interpretation]] of
 
 
 * [[Arnold Neumaier]], *Coherent Quantum Physics: A Reinterpretation of the Tradition*, 1st edition, De Gruyter (2019) &lbrack;ISBN:9783110667295, [doi:10.1515/9783110667387](https://doi.org/10.1515/9783110667387)&rbrack;
+
+On [[generalized quantum measurement]] via [[POVMs]] (and [[Born's rule]]):
+
+* [[Arnold Neumaier]], *Born's rule and measurement* &lbrack;[arXiv:1912.09906](https://arxiv.org/abs/1912.09906)&rbrack;
+
 
 category: people
