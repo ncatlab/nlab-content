@@ -47,7 +47,7 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[operator product]]
 
-* [[linear isomorphism]]
+* [[linear isomorphism]], [[linear isometry]]
 
 * [[bounded linear operator]] / [[unbounded linear operator]]
 
