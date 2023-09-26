@@ -40,14 +40,19 @@ Second-order logic with [[existential quantification]] but not [[universal quant
 
 ## Examples
 
-The complexity class [[R]] corresponds to the height of computability according to the [[Church-Turing thesis]].
+* The complexity class [[R]] corresponds to the height of computability according to the [[Church-Turing thesis]].
 
-The classes [[PTIME]] and [[NPTIME]] are clearly related, but the exact details are elusive. The question of [[P vs NP]] is central to computer science.
+* The classes [[PTIME]] and [[NPTIME]] are clearly related, but the exact details are elusive. The question of [[P vs NP]] is central to computer science.
 
-The complexity class [[BQP]] is relevant to the field of [[quantum computation]].
+* The complexity class [[REG]] describes both deterministic and non-deterministic finite-state automata (DFAs and NFAs) because DFAs and NFAs are equivalent in computational power. In practice, this has led to the popularity of regular languages and [[regular expression|regular expressions]] in computer science. The [McNaughton-Yamada-Thompson algorithm](https://en.wikipedia.org/wiki/Thompson%27s_construction) and [Glushkov's algorithm](https://en.wikipedia.org/wiki/Glushkov%27s_construction_algorithm) send regular languages to equivalent NFAs, and [Kleene's algorithm](https://en.wikipedia.org/wiki/Kleene%27s_algorithm) sends NFAs to equivalent regular languages.
 
-The complexity class [[REG]] describes both deterministic and non-deterministic finite-state automata (DFAs and NFAs) because DFAs and NFAs are equivalent in computational power. In practice, this has led to the popularity of regular languages and [[regular expression|regular expressions]] in computer science. The [McNaughton-Yamada-Thompson algorithm](https://en.wikipedia.org/wiki/Thompson%27s_construction) and [Glushkov's algorithm](https://en.wikipedia.org/wiki/Glushkov%27s_construction_algorithm) send regular languages to equivalent NFAs, and [Kleene's algorithm](https://en.wikipedia.org/wiki/Kleene%27s_algorithm) sends NFAs to equivalent regular languages.
+* [[quantum complexity theory|quantum complexity classes]]: 
 
+  [[BQP]] for default [[quantum computers]]
+
+  [[DQC1]] ("one clean qbit"),
+
+  (...)
 
 ## Related entries
 
