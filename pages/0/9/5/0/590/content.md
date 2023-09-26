@@ -71,7 +71,7 @@ The properties of colimits are of course [[duality|dual]] to those of [[limit]]s
 ###### Contravariant Hom sends colimits to limits
 
 For $C$ a [[locally small]] category,
-for $F : D \to C$ a functor, for $c \in C$ and object and writing $C(F(-), c) : C \to Set$, we have
+for $F : D \to C$ a functor, for $c \in C$ and object and writing $C(F(-), c) : D \to Set$, we have
 $$
   C(colim F, c) \simeq lim C(F(-), c)
   \,.
