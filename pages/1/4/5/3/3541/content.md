@@ -202,7 +202,7 @@ Finally, a completely positive $\Phi$ is called:
  
 \end{definition}
 
-(e.g. [Landau & Streater 1993 p. 107-108](#LandauStreater93))
+&lbrack;[Arveson 1969 §1](#Arveson69), cf. eg. [Landau & Streater 1993 p. 107-108](#LandauStreater93)&rbrack;
 
 
 ### In terms of operator-sum decompositions
@@ -506,11 +506,17 @@ with early review in:
 * [[David E. Evans]], [[John T. Lewis]],  *Dilations of irreversible evolutions in algebraic quantum theory*, Communications of the Dublin Institute for Advanced Studies, Series A: Theoretical Physics **24** (1977) &lbrack;[eprint:34031](https://orca.cardiff.ac.uk/id/eprint/34031), [pdf](https://orca.cardiff.ac.uk/id/eprint/34031/1/Evans_Lewis_DIAS.pdf)&rbrack;
 
 * {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
+
+See also 
+
+* {#Arveson69} [[William B. Arveson]], *On subalgebras of $C^\ast$-algebras*, Bull. Amer. Math. Soc. **75** (1969) 790-794 &lbrack;[doi:1969-75-04/S0002-9904-1969-12293-7](https://www.ams.org/journals/bull/1969-75-04/S0002-9904-1969-12293-7), [pdf](https://www.ams.org/journals/bull/1969-75-04/S0002-9904-1969-12293-7/S0002-9904-1969-12293-7.pdf)&rbrack; 
  
-Early discussion of the [environmental representation](#QuantumChannelsAndDecoherence) of completely positive maps:
+The [environmental representation](#QuantumChannelsAndDecoherence) of completely positive maps originates with
+
 
 * {#Lindblad75} [[Göran Lindblad]], *Completely positive maps and entropy inequalities*,  Commun. Math. Phys. **40** (1975) 147–151 &lbrack;[doi:10.1007/BF01609396](https://doi.org/10.1007/BF01609396)&rbrack;
 
+and was then eventually rediscovered for the special case of [[quantum measurement channels]] following the 1980s discussion of *[[decoherence]]*.
      
 
 The terminology "quantum operation" for linear maps on the linear dual of a [[C-star algebra|$C^\ast$-algebra]] which preserve the subset of [[states on a star-algebra]]:
@@ -560,22 +566,10 @@ and in [[quantum information theory]]:
 
 * [[Sumeet Khatri]], [[Mark M. Wilde]], §3.2 in: _Principles of Quantum Communication Theory: A Modern Approach_ &lbrack;[arXiv:2011.04672](https://arxiv.org/abs/2011.04672)&rbrack;
 
-On [[generalized quantum measurement channels]]:
-
-
-* {#PreskillGenMeas04} [[John Preskill]], *Generalized measurements*, Section 3.1.2 &lbrack;[pdf](http://theory.caltech.edu/~preskill/ph219/chap3_15.pdf#page=8)&rbrack; in: *Quantum Computation*, lecture notes, since 2004 &lbrack;[web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
-
-* {#Barnett09} [[Stephen Barnett]], Chapter 4 of: *Quantum Information*, Oxford University Press (2009) &lbrack;[ISBN:9780198527633](https://global.oup.com/ukhe/product/quantum-information-9780198527633)&rbrack;
-
-* {#Flory11} [[Mario Flory]], *POVMs and superoperators* (2011) &lbrack;[pdf](https://wiki.physik.uni-muenchen.de/TMP/images/8/87/POVMs.pdf), [[Flory-POVM.pdf:file]]&rbrack;
-
-
-* {#Wheeler12} [[Nicholas Wheeler]], *Generalized Quantum Measurement* (2012) &lbrack;[pdf](https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Generalized%20Quantum%20Measurement/Generalized%20Quantum%20Measurements.pdf), [[Wheeler-GeneralizedQuantumMeasurement.pdf:file]]&rbrack;
-
 
 Further:
 
-* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 10 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 10 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048), [ResearchGate](https://www.researchgate.net/publication/266435541_Geometry_of_Quantum_States_An_Introduction_to_Quantum_Entanglement)&rbrack;
 
 
 * [[Robert B. Griffiths]], *Quantum Channels, Kraus Operators, POVMs* (2012) &lbrack;[pdf](https://quantum.phys.cmu.edu/QCQI/qitd412.pdf), [[Griffiths-QuantumChannels.pdf:file]]&rbrack;
