@@ -51,6 +51,9 @@ When you get tired of thinking individually about $n$-categories, functors, tran
 
 ## References
 
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 4.4 of: *2-Dimensional Categories*, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
+
 * [[Tom Leinster]], _Basic bicategories_,
 ([arXiv:math/9810017](http://arxiv.org/abs/math/9810017))
 
