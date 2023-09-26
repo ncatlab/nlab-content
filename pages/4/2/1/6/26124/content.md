@@ -1,6 +1,6 @@
 ## Idea
 
-Principal symbol is the heighest homogeneous degree part of a [[symbol of a differential operator|symbol]] of a [[pseudodifferential operator]]. Sometimes it is called just a symbol while symbol is then called the total symbol.
+A *principal symbol* is the highest homogeneous degree part of a [[symbol of a differential operator|symbol]] of a [[pseudodifferential operator]]. Some authors call a principal symbol a "symbol", and [[symbol of a differential operator|symbol]] the "total symbol".
 
 ## References
 
