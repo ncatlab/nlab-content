@@ -166,16 +166,21 @@ $$
   }
 $$
 
-This composite turns out to be a "*[[quantum channel]]*" and in fact all quantum channels arise this way:
+This composite turns out to be a "*[[quantum channel]]*" 
+
+The realization of a quantum channel in the form (eq:QuantumChannelVieDecoherence) is also called an *environmental representation* (eg. [Życzkowski & Bengtsson 2004 (3.5)](quantum+channel#ŻyczkowskiBengtsson04)).
+
+
+In fact all quantum channels on a fixed Hilbert space have such an evironmental representation:
 
 \begin{proposition}
 \label{QuantumChannelsAsPartialTracesOfUnitariesOnTensors}
-**([[quantum channels]] and [[decoherence]])**
+**(environmental representation of quantum channels)**
 
 Every [[quantum channel]]
 
 $$
-  ch 
+  chan 
   \;\;\colon\;\;
   \mathscr{H} \otimes \mathscr{H}^\ast
   \longrightarrow
@@ -196,7 +201,7 @@ in that
 
 \[
   \label{QuantumChannelVieDecoherence}
-  ch(\rho)
+  chan(\rho)
   \;\;=\;\;
   Tr_{\mathscr{B}}
   \big(
@@ -212,12 +217,238 @@ in that
 Conversely, every operation of the form (eq:QuantumChannelVieDecoherence) is a quantum channel.
 \end{proposition}
 
-The **original proof** is due to [Lindblad 1975 ](quantum+channel#Lindblad75) (see top of p. 149 and inside the proof of Lem. 5).
+This is originally due to [Lindblad 1975 ](quantum+channel#Lindblad75) (see top of p. 149 and inside the proof of Lem. 5). For exposition see: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00)
+Review of a detailed proof including the infinite-dimensional case is in [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes).
 
-For exposition see: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00)
+\begin{proof}
+\label{ProofOfEnvironmentalRepresentationOfQuantumChannels}
+We spell out the proof assuming [[finite-dimensional Hilbert spaces]]. (The general case follows the same idea, supplemented by arguments that the following [[sums]] [[convergence|converge]].)
 
-For detailed **proof**, including the infinite-dimensional case: [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes).
+In one direction, assume that 
 
-The realization of a quantum channel in the form (eq:QuantumChannelVieDecoherence) is also called an *environmental representation* (eg. [Życzkowski & Bengtsson 2004 (3.5)](quantum+channel#ŻyczkowskiBengtsson04)).
+$$
+  chan 
+    \,\colon\,
+  \mathscr{H} \otimes \mathscr{H}^\ast
+  \longrightarrow
+  \mathscr{H} \otimes \mathscr{H}^\ast 
+$$
+
+is a [[completely positive map]]. Then by  [operator-sum decomposition](quantum+channel#OperatorSumDecompositionOfQuantumChannels) there exists a [[set]] ([[finite set|finite]], under our assumptions) [[inhabited set|inhabited]] by at least one element
+$$
+  s_{ini} \,\colon\, S
+  \,,
+$$
+and an $S$-[[indexed set]] of [[linear operators]]
+$$
+  s \,\colon\, S
+  \;\;\;
+    \vdash
+  \;\;\;
+  E_s 
+  \;\colon\;
+  \mathscr{H} 
+  \longrightarrow
+  \mathscr{H}
+  \,,\;\;\;\;
+  \text{with}
+  \;\;\;\;
+  \underset{s}{\sum}
+  E_s^\dagger \cdot E_s \,=\, Id
+  \mathrlap{\,,}
+$$
+
+such that 
+
+$$
+  chan(\rho)
+  \;=\;
+  \underset{s}{\sum}
+  \,
+  E_s \cdot \rho \cdot E_s^\dagger
+  \,.
+$$
+
+Now take
+
+$$
+  \mathscr{B}
+  \,\equiv\,
+  \underset{S}{\oplus} \mathbb{C}
+$$
+
+with its canonical [[Hermitian form|Hermitian]] [[inner product]]-structure with [[orthonormal linear basis]] $\big(\left\vert s \right\rangle\big)_{s \colon S}$ and consider the linear map
+
+$$
+  \array{
+    \mathllap{
+      V
+      \;\colon\;\;
+    }
+    \mathscr{H} 
+    &\longrightarrow&
+    \mathscr{H}
+    \otimes
+    \mathscr{B}
+    \\
+    \left\vert \psi \right\rangle
+    &\mapsto&
+    \underset{s}{\sum}
+    \,
+    E_s
+    \left\vert
+      \psi
+    \right\rangle
+    \otimes
+    \left\vert s \right\rangle
+    \mathrlap{\,.}
+  }
+$$
+
+Observe that this is a [[linear isometry]]
+
+$$
+  \begin{array}{ll}
+    \left\langle \psi \right\vert
+      V^\dagger
+      V 
+    \left\vert \psi \right\rangle
+    \\
+    \;=\;
+    \underset{s,s'}{\sum}
+    \left\langle \psi \right\vert
+      E_{s'}^\dagger
+      E_s
+    \left\vert \psi \right\rangle
+    \underset{
+      \delta_s^{s'}
+    }{
+      \underbrace{
+        \left\langle s' \vert s \right\rangle
+      }
+    }
+    \\
+    \;=\;
+    \left\langle \psi \right\vert
+    \underset{
+      Id
+    }{
+      \underbrace{
+        \underset{s}{\sum}
+        E_{s}^\dagger
+        E_s
+      }
+    }
+    \left\vert \psi \right\rangle
+    \\
+    \;=\;
+    \left\langle \psi \vert \psi \right\rangle
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+This [implies](linear+isometryLinearIsometriesAreInjective) that $V$ is [[injective map|injective]] so that we have a [[direct sum]]-decomposition of its [[codomain]] into its [[image]] and its [[cokernel]] [[orthogonal complement]], which is unitarily isomorphic to $dim(\mathscr{B})-1$ summands of $\mathscr{H}$ that we may identify as follows:
+
+$$
+  \mathscr{H} \otimes \mathscr{B}
+  \;\simeq\;
+  V\big( \mathscr{H} \big)
+  \oplus
+  \Big(
+    \mathscr{H}
+    \otimes
+    \big( 
+      \mathscr{B} 
+        \ominus 
+      \mathbb{C}\left\vert s_0 \right\rangle   
+    \big)
+  \Big)
+  \,.
+$$
+
+In total this yields a unitary operator
+
+$$
+  U
+  \;\colon\;
+  \mathscr{H} \otimes \mathscr{B}
+  \,\simeq\,
+  \mathscr{H} 
+  \oplus
+  \Big(
+    \mathscr{H} 
+      \otimes 
+    \big(
+      \mathscr{B} 
+        \ominus 
+      \mathbb{C}\left\vert s_{ini} \right\rangle
+    \big)
+  \Big)
+  \underoverset{}{}{\longrightarrow}
+  V\big(
+    \mathscr{H}
+  \big) 
+  \oplus
+  \Big(
+    \mathscr{H} 
+      \otimes 
+    \big(
+      \mathscr{B} 
+        \ominus 
+      \mathbb{C}\left\vert s_{ini} \right\rangle
+    \big)
+  \Big)
+  \;\simeq\;
+  \mathscr{H} \otimes \mathscr{B}
+$$
+
+and we claim that this has the desired action on couplings of the $\mathscr{H}$-system to the pure bath state $\left\vert s_{ini} \right\rangle$:
+
+$$
+  \begin{array}{l}
+    trace^{\mathscr{B}}
+    \Big(
+      U
+      \big(
+        \left\vert s_{ini} \right\rangle
+          \rho 
+        \left\langle s_{ini} \right\vert
+      \big)
+      U^\dagger
+    \Big)
+    \\
+    \;=\;
+    \underset{s,s'}{\sum}
+    trace^{\mathscr{B}}
+    \big(
+        \left\vert s \right\rangle
+          E_s \cdot \rho \cdot E_{s'}^\dagger
+        \left\langle s' \right\vert
+    \big)
+    \\
+    \;=\;
+    \underset{s,s'}{\sum}
+    \underset{
+      \delta_{s}^{s'}
+    }{
+      \underbrace{
+        \left\langle s' \vert s \right\rangle
+      }
+    }
+    E_s \cdot \rho \cdot E_{s'}^\dagger
+    \\
+    \;=\;
+    \underset{s}{\sum}
+    E_s \cdot \rho \cdot E_{s}^\dagger
+    \\
+    \;=\;
+    chan(\rho)
+    \,.
+  \end{array}
+$$
+
+\end{proof}
+
+
 
 
