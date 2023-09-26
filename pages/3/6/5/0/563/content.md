@@ -182,6 +182,9 @@ The general notion of pseudo-functors as [[2-functors]] between [[2-categories]]
 
 * {#Ben} [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], *2-Dimensional Categories*, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
+
 See also:
 
 * {#Lack} [[Stephen Lack]], _Codescent objects and coherence_, JPAA Vol. 175 (2002), 223-241. ([web](http://www.sciencedirect.com/science/journal/00224049/175/1))
