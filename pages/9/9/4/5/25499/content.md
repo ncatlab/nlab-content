@@ -20,6 +20,8 @@
 
 ## Related concepts
 
+* [[DQC1]] ("one clean qbit" computing model)
+
 * [[nitrogen-vacancy center in diamond]]
 
 * [[spin resonance]]
