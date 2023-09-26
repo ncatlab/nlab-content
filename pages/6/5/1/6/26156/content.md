@@ -217,8 +217,8 @@ in that
 Conversely, every operation of the form (eq:QuantumChannelVieDecoherence) is a quantum channel.
 \end{proposition}
 
-This is originally due to [Lindblad 1975 ](quantum+channel#Lindblad75) (see top of p. 149 and inside the proof of Lem. 5). For exposition see: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00)
-Review of a detailed proof including the infinite-dimensional case is in [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes).
+This is originally due to [Lindblad 1975 ](quantum+channel#Lindblad75) (see top of p. 149 and inside the proof of Lem. 5). For exposition and review see: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00), [Życzkowski & Bengtsson 2004](quantum+channel#ŻyczkowskiBengtsson04).
+An account of the infinite-dimensional case is in [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes).
 
 \begin{proof}
 \label{ProofOfEnvironmentalRepresentationOfQuantumChannels}
