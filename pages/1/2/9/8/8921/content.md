@@ -179,3 +179,13 @@ Hybrid models which contain both [[MOND]] and [[dark matter]] are explored in
 * [[Tobias Mistele]], *Cherenkov radiation from stars constrains hybrid MOND dark matter models*. Journal of Cosmology and Astroparticle Physics, Volume 2022, November 2022 ([doi:10.1088/1475-7516/2022/11/008](https://doi.org/10.1088/1475-7516/2022/11/008), [arXiv:2103.16954](https://arxiv.org/abs/2103.16954))
 
 * [[Tobias Mistele]], *A novel Cherenkov radiation constraint for hybrid MOND dark matter models*, ([arXiv:2208.14308](https://arxiv.org/abs/2208.14308))
+
+### Other references
+
+For possible MOND effects in the Solar System:
+
+* Cezary Migaszewski, *On the origin of extreme trans-Neptunian objects within Modified Newtonian Dynamics* ([arXiv:2303.13339](https://arxiv.org/abs/2303.13339))
+
+MOND as an alternative to Planet Nine hypothesis:
+
+* Katherine Jones-Smith, Harsh Mathur, *Modified Newtonian Dynamics as an Alternative to the Planet Nine Hypothesis* ([arXiv:2304.00576](https://arxiv.org/abs/2304.00576))
