@@ -1,4 +1,123 @@
 
+In one direction, assume that 
+
+$$
+  chan \,\colon\,
+  \mathscr{H} \otimes \mathscr{H}^\ast
+  \longrightarrow
+  \mathscr{H} \otimes \mathscr{H}^\ast 
+$$
+
+is a [[completely positive map]]. Then by  [operator-sum decomposition](quantum+channel#OperatorSumDecompositionOfQuantumChannels) there exists a [[set]] ([[finite set|finite]], under our assumptions) $S$ and an $S$-[[indexed set]] of [[linear operators]]
+
+$$
+  s \,\colon\, S
+  \;\;\;
+    \vdash
+  \;\;\;
+  E_s 
+  \;\colon\;
+  \mathscr{H} 
+  \longrightarrow
+  \mathscr{H}
+  \,,\;\;\;\;
+  with
+  \underset{s}{\sum}
+  E_s^\dagger \cdot E_s \,=\, Id
+  \mathrlap{\,,}
+$$
+
+such that 
+
+$$
+  chan(\rho)
+  \;=\;
+  \underset{s}{\sum}
+  \,
+  E_s \cdot \rho \cdot E_s^\dagger
+  \,.
+$$
+
+Now take
+
+$$
+  \mathscr{B}
+  \,\equiv\,
+  \underset{S}{\oplus} \mathbb{C}
+$$
+
+with its canonical [[Hermitian form|Hermitian]] [[inner product]]-structure with [[orthonormal linear basis]] $\big(\left\vert s \right\rangle\big)_{s \colon S}$ and consider the linear map
+
+$$
+  \array{
+    \mathllap{
+      V
+      \;\colon\;\;
+    }
+    \mathscr{H} 
+    &\longrightarrow&
+    \mathscr{H}
+    \otimes
+    \mathscr{B}
+    \\
+    \left\vert \psi \right\rangle
+    &\mapsto&
+    \underset{s}{\sum}
+    \,
+    E_s
+    \left\vert
+      \psi
+    \right\rangle
+    \otimes
+    \left\vert s \right\rangle
+    \mathrlap{\,.}
+  }
+$$
+
+and observe that this is a [[linear isometry]]
+
+$$
+  \begin{array}{ll}
+    \left\langle \psi \right\vert
+      V^\dagger
+      V 
+    \left\vert \psi \right\rangle
+    \\
+    \;=\;
+    \underset{s,s'}{\sum}
+    \left\langle \psi \right\vert
+      E_{s'}^\dagger
+      E_s
+    \left\vert \psi \right\rangle
+    \underset{
+      \delta_w^{w'}
+    }{
+      \underbrace{
+        \left\langle s' \vert s \right\rangle
+      }
+    }
+    \\
+    \;=\;
+    \left\langle \psi \right\vert
+    \underset{
+      Id
+    }{
+      \underbrace{
+        \underset{s}{\sum}
+        E_{s}^\dagger
+        E_s
+      }
+    }
+    \left\vert \psi \right\rangle
+    \\
+    \;=\;
+    \left\langle \psi \vert \psi \right\rangle
+  \end{array}
+$$
+
+
+
+
 
 #Contents#
 * table of contents
