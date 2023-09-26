@@ -287,7 +287,7 @@ This appears as ([Waldorf, lemma A.1.7](#Waldorf)).
 Cat&#233;g., 35(4):274&#8211;290, 1994.
  
 
-* {#Waldorf} [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+* {#Waldorf} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  
 
 * {#Stacey}[[Andrew Stacey]], _Yet more smooth mapping spaces and their smoothly local properties_ arXiv:[1301.5493](http://arxiv.org/abs/1301.5493)
