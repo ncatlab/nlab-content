@@ -50,6 +50,8 @@ A bicategory can be viewed as a [[pseudo double category]] whose tight-cells are
 
 * {#Pare13} [[Robert Paré]]. _Composition of modules for lax functors_. Theory and Applications of Categories 27.16 (2013): 393-444.
 
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 4.6 of: *2-Dimensional Categories*, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 
 [[!redirects icon]]
 [[!redirects icons]]
