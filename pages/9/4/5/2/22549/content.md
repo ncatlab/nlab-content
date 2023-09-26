@@ -22,7 +22,12 @@ Influential early discussion of ([[controlled quantum gate|controlled]]) [[quant
 
 Introducing [[stabilizer codes]]:
 
-* [[Robert Calderbank]], E. M Rains, [[Peter W. Shor]], N. J. A. Sloane, *Quantum Error Correction and Orthogonal Geometry*, Phys. Rev. Lett. 78:405-408, 1997 ([arXiv:quant-ph/9605005](https://arxiv.org/abs/quant-ph/9605005))
+* [[Robert Calderbank]], E. M Rains, [[Peter W. Shor]], N. J. A. Sloane, *Quantum Error Correction and Orthogonal Geometry*, Phys. Rev. Lett. **78** 405-408 (1997) &lbrack;[arXiv:quant-ph/9605005](https://arxiv.org/abs/quant-ph/9605005)&rbrack;
+
+On the [[DQC1]] [[quantum complexity theory|quantum complexity]] [[complexity class|class]] ("one clean qbit"):
+
+* {#Shor08} [[Peter W. Shor]], Stephen P. Jordan, *Estimating Jones polynomials is a complete problem for one clean qubit*, Quantum Information and Computation **8** (2008) 681 &lbrack;[arXiv:0707.2831](https://arxiv.org/abs/0707.2831), [doi:10.5555/2017011.2017012](https://dl.acm.org/doi/10.5555/2017011.2017012)&rbrack;
+
 
 On [[quantum computation]]:
 
