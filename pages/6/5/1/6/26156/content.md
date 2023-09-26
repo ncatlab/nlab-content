@@ -193,7 +193,7 @@ may be written as
 
 1. on a [[compound system]] with some $\mathscr{B}$ (the "bath"), yielding a *total system* [[Hilbert space]] $\mathscr{H} \otimes \mathscr{B}$ ([[tensor product of Hilbert spaces|tensor product]]),
 
-1. and acting on the given [[mixed state]] $\rho$ coupled (tensored) with a fixed [[mixed state]] $env \,\colon\, \mathscr{B} \otimes \mathscr{B}^\ast$ of the bath system,
+1. and acting on the given [[mixed state]] $\rho$ coupled (tensored) with any [[pure state]] of the bath system,
 
 1. followed by [[partial trace quantum channel|partial trace]] (averaging) over $\mathscr{B}$ (leading to [[decoherence]] in the remaining state)
 
@@ -217,14 +217,14 @@ in that
 Conversely, every operation of the form (eq:QuantumChannelVieDecoherence) is a quantum channel.
 \end{proposition}
 
-This is originally due to [Lindblad 1975 ](quantum+channel#Lindblad75) (see top of p. 149 and inside the proof of Lem. 5). For exposition and review see: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00), [Życzkowski & Bengtsson 2004](quantum+channel#ŻyczkowskiBengtsson04).
-An account of the infinite-dimensional case is in [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes).
+This is originally due to [Lindblad 1975 ](quantum+channel#Lindblad75) (see top of p. 149 and inside the proof of Lem. 5). For exposition and review see: [Nielsen & Chuang 2000 §8.2.2-8.2.3](quantum+channel#NielsenChuang00).
+An account of the infinite-dimensional case is in [Attal, Thm. 6.5 & 6.7](quantum+channel#AttalLectureNotes). These authors focus on the case that the environment is in a [[pure state]], the (parital) generalization to [[mixed state|mixed]] environment states is discussed in [Bengtsson & Życzkowski  2006 pp. 258](quantum+channel#BengtssonŻyczkowski06).
 
 \begin{proof}
 \label{ProofOfEnvironmentalRepresentationOfQuantumChannels}
 We spell out the proof assuming [[finite-dimensional Hilbert spaces]]. (The general case follows the same idea, supplemented by arguments that the following [[sums]] [[convergence|converge]].)
 
-In one direction, assume that 
+Now given a [[completely positive map]]:
 
 $$
   chan 
@@ -232,15 +232,17 @@ $$
   \mathscr{H} \otimes \mathscr{H}^\ast
   \longrightarrow
   \mathscr{H} \otimes \mathscr{H}^\ast 
+  \,,
 $$
 
-is a [[completely positive map]]. Then by  [operator-sum decomposition](quantum+channel#OperatorSumDecompositionOfQuantumChannels) there exists a [[set]] ([[finite set|finite]], under our assumptions) [[inhabited set|inhabited]] by at least one element
+then by  [operator-sum decomposition](quantum+channel#OperatorSumDecompositionOfQuantumChannels) there exists a [[set]] ([[finite set|finite]], under our assumptions) [[inhabited set|inhabited]] by at least one element
 $$
   s_{ini} \,\colon\, S
   \,,
 $$
 and an $S$-[[indexed set]] of [[linear operators]]
-$$
+\[
+  \label{KrausDecompositionInConstructionOfEnvRep}
   s \,\colon\, S
   \;\;\;
     \vdash
@@ -256,7 +258,7 @@ $$
   \underset{s}{\sum}
   E_s^\dagger \cdot E_s \,=\, Id
   \mathrlap{\,,}
-$$
+\]
 
 such that 
 
@@ -446,7 +448,7 @@ $$
     \,.
   \end{array}
 $$
-
+This concludes the construction of an environmental representation where the environment is in a pure state.
 \end{proof}
 
 
