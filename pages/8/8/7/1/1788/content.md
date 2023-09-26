@@ -8,8 +8,12 @@ $$
   \mathscr{H} \otimes \mathscr{H}^\ast 
 $$
 
-is a [[completely positive map]]. Then by  [operator-sum decomposition](quantum+channel#OperatorSumDecompositionOfQuantumChannels) there exists a [[set]] ([[finite set|finite]], under our assumptions) $S$ and an $S$-[[indexed set]] of [[linear operators]]
-
+is a [[completely positive map]]. Then by  [operator-sum decomposition](quantum+channel#OperatorSumDecompositionOfQuantumChannels) there exists a [[set]] ([[finite set|finite]], under our assumptions) [[inhabited set|inhabited]] by at least one element
+$$
+  s_{ini} \,\colon\, S
+  \,,
+$$
+and an $S$-[[indexed set]] of [[linear operators]]
 $$
   s \,\colon\, S
   \;\;\;
@@ -21,7 +25,8 @@ $$
   \longrightarrow
   \mathscr{H}
   \,,\;\;\;\;
-  with
+  \text{with}
+  \;\;\;\;
   \underset{s}{\sum}
   E_s^\dagger \cdot E_s \,=\, Id
   \mathrlap{\,,}
@@ -74,7 +79,7 @@ $$
   }
 $$
 
-and observe that this is a [[linear isometry]]
+Observe that this is a [[linear isometry]]
 
 $$
   \begin{array}{ll}
@@ -90,7 +95,7 @@ $$
       E_s
     \left\vert \psi \right\rangle
     \underset{
-      \delta_w^{w'}
+      \delta_s^{s'}
     }{
       \underbrace{
         \left\langle s' \vert s \right\rangle
@@ -112,11 +117,109 @@ $$
     \\
     \;=\;
     \left\langle \psi \vert \psi \right\rangle
+    \mathrlap{\,.}
   \end{array}
 $$
 
+This [implies](linear+isometryLinearIsometriesAreInjective) that $V$ is [[injective map|injective]] so that we have a [[direct sum]]-decomposition of its [[codomain]] into its [[image]] and its [[cokernel]] [[orthogonal complement]], which is unitarily isomorphic to $dim(\mathscr{B})-1$ summands of $\mathscr{H}$ that we may identify as follows:
 
+$$
+  \mathscr{H} \otimes \mathscr{B}
+  \;\simeq\;
+  V\big( \mathscr{H} \big)
+  \oplus
+  \Big(
+    \mathscr{H}
+    \otimes
+    \big( 
+      \mathscr{B} 
+        \ominus 
+      \mathbb{C}\left\vert s_0 \right\rangle   
+    \big)
+  \Big)
+  \,.
+$$
 
+In total this yields a unitary operator
+
+$$
+  U
+  \;\colon\;
+  \mathscr{H} \otimes \mathscr{B}
+  \,\simeq\,
+  \mathscr{H} 
+  \oplus
+  \Big(
+    \mathscr{H} 
+      \otimes 
+    \big(
+      \mathscr{B} 
+        \ominus 
+      \mathbb{C}\left\vert s_{ini} \right\rangle
+    \big)
+  \Big)
+  \underoverset{}{}{\longrightarrow}
+  V\big(
+    \mathscr{H}
+  \big) 
+  \oplus
+  \Big(
+    \mathscr{H} 
+      \otimes 
+    \big(
+      \mathscr{B} 
+        \ominus 
+      \mathbb{C}\left\vert s_{ini} \right\rangle
+    \big)
+  \Big)
+  \;\simeq\;
+  \mathscr{H} \otimes \mathscr{B}
+$$
+
+and we claim that this has the desired action if we couple the system to the pure bath state: $\left\vert s_0 \right\rangle$:
+
+$$
+  \begin{array}{l}
+    trace^{\mathscr{B}}
+    \Big(
+      U
+      \big(
+        \left\vert s_{ini} \right\rangle
+          \rho 
+        \left\langle s_{ini} \right\vert
+      \big)
+      U^\dagger
+    \Big)
+    \\
+    \;=\;
+    \underset{s,s'}{\sum}
+    trace^{\mathscr{B}}
+    \big(
+        \left\vert s \right\rangle
+          E_s \cdot \rho \cdot E_{s'}^\dagger
+        \left\langle s' \right\vert
+    \big)
+    \\
+    \;=\;
+    \underset{s,s'}{\sum}
+    \underset{
+      \delta_{s}^{s'}
+    }{
+      \underbrace{
+        \left\langle s' \vert s \right\rangle
+      }
+    }
+    E_s \cdot \rho \cdot E_{s'}^\dagger
+    \\
+    \;=\;
+    \underset{s}{\sum}
+    E_s \cdot \rho \cdot E_{s}^\dagger
+    \\
+    \;=\;
+    chan(\rho)
+    \,.
+  \end{array}
+$$
 
 
 #Contents#
