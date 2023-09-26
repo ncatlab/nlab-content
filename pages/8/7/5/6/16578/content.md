@@ -6,7 +6,7 @@ is called the **cartographic group** (of dimension 2), while its [[index of a su
 
 $$\mathcal{C}_2^+ = \langle\rho_0,\rho_1,\rho_2 \mid \rho_1^2 = \rho_0\rho_1\rho_2 = 1\rangle$$
 
-is called the **oriented cartographic group**.  Specifically, this terminology comes from [[Grothendieck]]'s [[Esquisse d'un programme]], and is motivated by the fact that [[transitive action|transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may or may not be orientable or have a boundary.
+is called the **oriented cartographic group**.  Specifically, this terminology comes from [[Grothendieck]]'s [[Esquisse d'un programme]], and is motivated by the fact that [[transitive action|transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may or may not be orientable or have a boundary.
 
 ## Higher dimensions
 
