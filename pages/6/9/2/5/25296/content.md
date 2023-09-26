@@ -28,6 +28,9 @@ See also:
 
 Exposition, review and outlook:
 
+* [[Raymond Laflamme]], [[Emanuel Knill]], et al., *Introduction to NMR Quantum Information Processing*, Proceedings of the International School of Physics "Enrico Fermi" **148** Experimental Quantum Computation and Information $[$[arXiv;quant-ph/0207172](https://arxiv.org/abs/quant-ph/0207172)$]$
+
+
 * [[Asif Equbal]], *Molecular spin qubits for future quantum technology*, talk at [[CQTS]] (Nov 2022) $[$slides: [[Equbal-CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/YTjIGL-Bevb1H44UuL-ZimXdxph5cffddWpP3H4ZsuRT2xu3OrnTbC0NZLsKedUGwS68DJ8onVFPAETb.rreoi7Wt6uXFyaYN?continueMode=true&_x_zm_rtaid=e0VPIMlfT9KlVd_wiaOq6A.1669794985784.11f8cd37091ebf6bdd2a878668e26cd6&_x_zm_rhtaid=404)$]$
 
 
