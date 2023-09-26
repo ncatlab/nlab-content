@@ -73,7 +73,7 @@ Sufficient conditions for a limit-preserving functor $R : C \to D$ to be a [[rig
 
   This is Freyd's original version, sometimes called the "**General Adjoint Functor Theorem**".
 
-* $C$ is complete, locally small [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $D$ is [[locally small category|locally small]].  
+* $C$ is complete, locally small, [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $D$ is [[locally small category|locally small]].  
 
   This is sometimes called the "**Special Adjoint Functor Theorem**", and abbreviated to SAFT.
 
