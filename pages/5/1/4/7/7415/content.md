@@ -37,7 +37,7 @@ towards a so-called "tame" topology.
 
 ##References
 
-* A copy of the original version is [here](http://people.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf).
+* A copy of the original version is [here](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseFr.pdf).
 
 * An English translation is [here](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseEng.pdf).
 
