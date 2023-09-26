@@ -235,7 +235,7 @@ is completely positive (Def. \ref{PositiveMaps}) precisely if there exists an [[
   E_r \,\colon\, \mathscr{H}_1 \longrightarrow \mathscr{H}_2
 \]
 
-of [[linear operators]] such that
+of [[linear operators]] such that $chan$ is the sum of [[conjugation actions]] with these operators:
 
 \[
   \label{OperatorSumDecompositionFormula}
