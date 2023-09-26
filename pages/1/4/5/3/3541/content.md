@@ -235,7 +235,7 @@ is completely positive (Def. \ref{PositiveMaps}) precisely if there exists an [[
   E_r \,\colon\, \mathscr{H}_1 \longrightarrow \mathscr{H}_2
 \]
 
-of [[linear operators]] such that $chan$ is the sum of [[conjugation actions]] with these operators:
+of [[linear operators]] such that $chan$ is the sum of [[conjugation actions]] with these operators ("Kraus form"):
 
 \[
   \label{OperatorSumDecompositionFormula}
@@ -266,8 +266,28 @@ The idea goes back to [Stinespring 1955](#Stinespring55). The decomposition (eq:
 
 Review includes: [Nielsen & Chuang 2000 Thm. 8.1](#NielsenChuang00), [Kuperberg 2005 Thm. 1.5.1](#Kuperberg05). 
 
-A general abstract proof in terms of [[dagger category|†-categories]] is given by [Selinger 2005](#Selinger05). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in [Coecke 2007](#Coecke07).
+A general abstract proof in terms of [[dagger category|†-categories]] is claimed by [Selinger 2005](#Selinger05). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in [Coecke 2007](#Coecke07).
 
+\begin{proposition}\label{CanonicalKrausDecomposition}
+**(canonical operator sum-decomposition)**
+\linebreak
+The operator-sum decomosition $(E_r)_{r \colon R}$ in Thm. \ref{OperatorSumDecompositionOfQuantumChannels} may always be chosen such as to be [[orthogonality|orthogonal]] under the [[trace]]:
+$$
+  r,r' \,\colon\, R
+  \;\;\;\;
+  \vdash
+  \;\;\;\;
+  trace^{ \mathscr{H} }\big(
+    E_{r'}^\dagger \cdot E_{r}
+  \big)
+  \;=\;
+  d_r \delta_{r}^{r'}
+$$
+([[Kronecker delta]]) for some [[non-negative number|non-negative]] [[real numbers]] $(d_r)_{r \colon R}$.
+
+Moreover, this *canonical Kraus form* is unique up to [[permutation]] of $R$. 
+\end{proposition}
+[Bengtsson & Życzkowski 2006 p. 256](#BengtssonŻyczkowski06)
 
 
 
@@ -569,7 +589,7 @@ and in [[quantum information theory]]:
 
 Further:
 
-* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 10 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048), [ResearchGate](https://www.researchgate.net/publication/266435541_Geometry_of_Quantum_States_An_Introduction_to_Quantum_Entanglement)&rbrack;
+* {#BengtssonŻyczkowski06} [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 10 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048), [ResearchGate](https://www.researchgate.net/publication/266435541_Geometry_of_Quantum_States_An_Introduction_to_Quantum_Entanglement)&rbrack;
 
 
 * [[Robert B. Griffiths]], *Quantum Channels, Kraus Operators, POVMs* (2012) &lbrack;[pdf](https://quantum.phys.cmu.edu/QCQI/qitd412.pdf), [[Griffiths-QuantumChannels.pdf:file]]&rbrack;
