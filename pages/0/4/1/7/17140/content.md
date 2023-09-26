@@ -60,7 +60,7 @@ For $n \in \mathbb{N}$, write
 $$
   \overline{E}_n 
    \coloneqq
-  hocof( \overline{E}^n \overset{i^n}{\longrightarrow} \mathbb{S})
+  hocof( \overline{E}^{n+1} \overset{i^{n+1}}{\longrightarrow} \mathbb{S})
 $$
 
 for the homotopy cofiber. Here $\overline{E}_0 \simeq 0$.
