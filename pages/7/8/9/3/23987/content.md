@@ -1127,7 +1127,26 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > In [[NMR|magnetic resonance]], optimal control theory is used to generate pulses and pulse sequences that achieve instrumentally difficult objectives (for example, uniform 13C excitation in a 1.2 GHz magnet) with high precision under stringent time and radiofrequency/microwave power constraints. At the moment, the most popular framework is GRAPE (gradient ascent pulse engineering, [10.1016/j.jmr.2004.11.004](https://doi.org/10.1016/j.jmr.2004.11.004)). This lecture reports our recent mathematical and software engineering work on the various extensions and refinements of the GRAPE framework, and on its implementation as a module of Spinach library. Recently implemented functionality includes: fidelity Hessians and regularised Newton-Raphson optimisation, generalised curvilinear waveform parametrisation, prefix and suffix pulse sequences, multi-target and subspace control, keyhole states and subspaces, cooperative pulses and phase cycles, and piecewise-linear control sequences. In keeping with the long tradition, the methods are also directly applicable to quantum technologies outside Magnetic Resonance.
 
+
+
+
 \linebreak
+
+
+### Sep 2023
+
+* 25 Sep 2023
+
+  [[Urs Schreiber]] (NYUAD, CQTS)
+
+  **Quantum Channels as QuantumState Monad Transformations (Part I)**
+
+  notes: [here](https://ncatlab.org/schreiber/show/Quantum+Certification+via+Linear+Homotopy+Types#draft)
+
+  > The talk recalls some of the theory of "[[quantum channels]]" and then explains how this is captured by "[[monad (in computer science)|monadic computation]]" with the [[linear logic|linear version]] of the "[[state monad|State monad]]" -- the "[[quantum state monad|QuantumState Frobenius monad]]".
+
+
+\linebreak 
 
 ***
 
@@ -1676,6 +1695,20 @@ Stone-von Neumann**
   >  [[twisted K-theory|Twisted K-theory]] is a variant of [[topological K-theory]] that allows [[local coefficient bundle|local coefficient systems]] called [[twisted cohomology|twists]]. For spaces and twists equipped with an [[group action|action]] by a [[group]], [[equivariant twisted K-theory]] provides an even finer invariant. Equivariant twists over [[Lie groups]] gained increasing importance in the subject due to a [[Loop Groups and Twisted K-Theory|result by Freed, Hopkins and Teleman]] that relates the corresponding K-groups to the [[Verlinde ring]] of the associated [[loop group]]. From the point of view of [[homotopy theory]] only a small [[subgroup]] of all possible twists is considered in classical treatments of [[twisted K-theory]]. In this talk I will discuss an operator-algebraic model for equivariant higher (i.e. non-classical) twists over $SU(n)$ induced by exponential functors on the category of vector spaces and isomorphisms. These twists are represented by [[Fell bundles]] and the [[C*-algebra|C*-algebraic]] picture allows a full computation of the associated K-groups at least in low dimensions. I will also draw some parallels of our results with the [[Loop Groups and Twisted K-Theory|FHT theorem]]. This is joint work with [[David E. Evans|D. Evans]].
 
 \linebreak
+
+* 27 Sep 2023
+
+  [[Urs Schreiber]] (NYUAD, CQTS)
+
+  **Quantum Channels as QuantumState Monad Transformations (Part II)**
+
+  notes: [here](https://ncatlab.org/schreiber/show/Quantum+Certification+via+Linear+Homotopy+Types#draft)
+
+  > The talk recalls some of the theory of "[[quantum channels]]" and then explains how this is captured by "[[monad (in computer science)|monadic computation]]" with the [[linear logic|linear version]] of the "[[state monad|State monad]]" -- the "[[quantum state monad|QuantumState Frobenius monad]]".
+
+
+\linebreak
+
 
 ## External presentations
  {#ExternalTalk}
