@@ -202,7 +202,7 @@ Finally, a completely positive $\Phi$ is called:
  
 \end{definition}
 
-&lbrack;[Arveson 1969 §1](#Arveson69), cf. eg. [Landau & Streater 1993 p. 107-108](#LandauStreater93)&rbrack;
+&lbrack;[Arveson 1969 §1](#Arveson69), [Landau & Streater 1993 p. 107-108](#LandauStreater93)&rbrack;
 
 
 ### In terms of operator-sum decompositions
