@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[quantum complexity theory]], "BQP" denotes a fundamental [[complexity class]] of [[quantum computation]].
+In [[quantum complexity theory]], "BQP" stands for *bounded-error quantum polynomial time*, denoting a fundamental [[complexity class]] of [[quantum computation]].
 
 ## Related concepts
 
