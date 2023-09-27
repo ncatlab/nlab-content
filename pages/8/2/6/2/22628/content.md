@@ -26,7 +26,11 @@
 
 ## Quantum complexity classes
 
+Quantum [[complexity classes]]:
+
 * [[BQP]]
+
+* [[PostBQP]]
 
 * [[DQC1]] ("one clean qbit")
 
