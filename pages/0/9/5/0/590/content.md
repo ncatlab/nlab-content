@@ -77,8 +77,9 @@ $$
   C(colim F, c) \simeq lim C(F(-), c)
   \,.
 $$
-=--
-Depending on how one introduces limits this holds by definition or is an easy consequence. In fact, this is just rewriting the respect of the covariant Hom  of [[limit]]s (as described there) in $C^{op}$ in terms of $C$:
+\end{proposition} 
+
+Depending on how one introduces limits this holds by definition or is an easy consequence. In fact, this is just rewriting the fact that the covariant Hom respects [[limit]]s (as described there) in $C^{op}$ in terms of $C$:
 
 $$
   \begin{aligned}
@@ -93,7 +94,6 @@ $$
 $$
 
 Notice that this actually says that $C(-,-) : C^{op} \times C \to Set$ is a [[continuous functor]] in both variables: in the first it sends limits in $C^{op}$ and hence equivalently colimits in $C$ to limits in $Set$.
-\end{proposition}
 
 
 \begin{proposition}
