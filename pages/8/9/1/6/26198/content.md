@@ -1,0 +1,1 @@
+A [[monoidal category|monoidal]] [[linear category]].
