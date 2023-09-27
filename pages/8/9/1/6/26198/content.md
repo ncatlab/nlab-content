@@ -1,1 +1,3 @@
-A [[monoidal category|monoidal]] [[linear category]].
+A [[monoidal category|monoidal]] [[linear category]], see at *[[tensor category]]*.
+
+[[!redirects tensor linear categories]]
