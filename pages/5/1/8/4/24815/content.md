@@ -146,14 +146,11 @@ The terminology "quantum random access memory" is due to
 
 * {#GiovanettiLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310), [arXiv:0807.4994](https://arxiv.org/abs/0807.4994)&rbrack;
 
-but it could be argued (?) that the notion is implicit already in [Knill (1996)](quantum+programming+language#Knill96).
-
 Further development:
 
 * {#ArunachalamEtAl15} S. Arunachalam et al., *On the robustness of bucket brigade quantum RAM*, New Journal of Physics, **17** 12  (2015) 123010 &lbrack;[arXiv:1502.03450](https://arxiv.org/abs/1502.03450), [doi:10.1088/1367-2630/17/12/123010](https://doi.org/10.1088/1367-2630/17/12/123010)&rbrack;
 
 * {#ParkPetruccioneRhee19} Park, Petruccione, Rhee, *Circuit-Based Quantum Random Access Memory for Classical Data*, Scientific Reports **9** 3949 (2019) &lbrack;[doi:10.1038/s41598-019-40439-3](https://doi.org/10.1038/s41598-019-40439-3)&rbrack;
-
 
 Review:
 
@@ -162,6 +159,11 @@ Review:
 * {#PhalakChatterjeeGhosh23} Koustubh Phalak, Avimita Chatterjee, Swaroop Ghosh, *Quantum Random Access Memory For Dummies* &lbrack;[arXiv:2305.01178](https://arxiv.org/abs/2305.01178)&rbrack;
 
 * Samuel Jaques, Arthur G. Rattew, *QRAM: A Survey and Critique* &lbrack;[arXiv:2305.10310](https://arxiv.org/abs/2305.10310)&rbrack;
+
+With emhasis on laboratory realization:
+
+* Chenxu Liu, et al., III.C (pp. 18) of:  *Quantum Memory: A Missing Piece in Quantum Computing Units* &lbrack;[arXiv:2309.14432](https://arxiv.org/abs/2309.14432)&rbrack;
+
 
 With Qiskit:
 
