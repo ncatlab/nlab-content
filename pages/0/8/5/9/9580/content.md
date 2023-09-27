@@ -16,13 +16,15 @@
 
 ## Idea
 
-By "module category" may be meant 
+By **module category** may be meant 
 
-1. a [[category]] equipped with an [[action]] of a [[monoidal category]].
+1. a [[category]] equipped with an [[action]] of a [[monoidal category]] (more commonly called *[[actegory]]*),
 
-1. a [[category of modules]] of a [[monoid]] (e.g. an [[associative algebra]]).
+1. a [[category of modules]] of a [[monoid]] (e.g. an [[associative algebra]]),
 
-Here we consider the first sense (see also at "*[[actegory]]*". For the second, see at _[[category of modules]]_.
+1. a [[linear category]] equipped with an action of a [[tensor linear category]] (basically the first bullet point but in the $K\mathbf{Mod}$-[[enriched category|enriched]] setting).
+
+Here we consider the first sense. For the second, see at *[[category of modules]]*.
 
 
 The collection of module categories over a monoidal category forms a [[2-category]] of module categories.
