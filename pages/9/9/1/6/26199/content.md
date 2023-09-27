@@ -3,7 +3,7 @@
 
 \section{Idea}
 
-In [[quantum complexity theory]], "PostBQP" stands for *[[postselected]] bounded-error quantum polynomial time*, denoting a fundamental [[complexity class]] of [[quantum computation]]. 
+In [[quantum complexity theory]], "PostBQP" stands (in variation of *[[BQP]]*) for *[[postselected]] bounded-error quantum polynomial time*, denoting a fundamental [[complexity class]] of [[quantum computation]]. 
 
 \section{Properties}
 
