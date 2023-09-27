@@ -428,7 +428,13 @@ This notion of duality generalizes to that of [[linear adjoints]] in a [[linear 
 
 ## References
 
-Original articles:
+The strong-duality of [[finite-dimensional vector spaces]] is the lead-in example used in 
+
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], first page of: *[[General Theory of Natural Equivalences]]*,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
+
+to motivate [[category theory]] in the first place.
+
+Further original articles with dedicated discussion of the notion of dualizable objects in [[monoidal categories]]:
 
 * {#Pareigis76} [[Bodo Pareigis]], p. 113 in: *Non-additive ring and module theory IV: The Brauer group of a symmetric monoidal category*, Lecture Notes in Mathematics **549** (1976) &lbrack;[doi:10.1007/BFb0077339]( https://doi.org/10.1007/BFb0077339)&rbrack;
 
