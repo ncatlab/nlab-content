@@ -339,9 +339,9 @@ This and much more history is recalled in
 \subsubsection{Basic category theory}
  {#BasicTextBooks}
 
-* {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
+* {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, Harper and Row (1964), Reprints in Theory and Applications of Categories, **3** (2003)  &lbrack;[tac:tr3](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/3/tr3.pdf)&rbrack;
 
-* {#Freyd65} [[Peter Freyd]], _The theories of functors and models_, in: Proceedings of _Symposium on the Theory of Models_, North Holland, 1965 ([doi:10.1016/C2013-0-11897-1](https://doi.org/10.1016/C2013-0-11897-1))
+* {#Freyd65} [[Peter Freyd]], _The theories of functors and models_, in: Proceedings of _Symposium on the Theory of Models_, North Holland (1965) &lbrack;[doi:10.1016/C2013-0-11897-1](https://doi.org/10.1016/C2013-0-11897-1)&rbrack;
 
 * {#Mitchell65} [[Barry Mitchell]], *Theory of categories*, Pure and Applied Mathematics **17**, Academic Press (1965) &lbrack;[ISBN:978-0-12-499250-4](https://www.elsevier.com/books/theory-of-categories/mitchell/978-0-12-499250-4)&rbrack;
 
