@@ -81,11 +81,11 @@ Given such an $\mathcal{E}$-effectful program $prog_{12} \;\colon\; D_1 \to \mat
 
 1. then forming the naive [[composition]] $bind^{\mathcal{E}} prog_{23} \;\circ\;  prog_{12}$
 
-as follows:
+{#BindAndReturnGraphics} as follows:
 
 \begin{imagefromfile}
-    "file_name": "KleisliCompositionOfEffectfulPrograms-221105.jpg",
-    "width": "800",
+    "file_name": "KleisliCompositionOfEffectfulPrograms-230927.jpg",
+    "width": "840",
     "unit": "px",
     "margin": {
         "top": -20,
