@@ -50,6 +50,8 @@ Second-order logic with [[existential quantification]] but not [[universal quant
 
   [[BQP]] for default [[quantum computers]]
 
+  [[PostBQP]]
+
   [[DQC1]] ("one clean qbit"),
 
   (...)
@@ -63,3 +65,6 @@ Second-order logic with [[existential quantification]] but not [[universal quant
 ## References
 
 * Wikipedia, _[Complexity class](https://en.wikipedia.org/wiki/Complexity_class)_, _[P versus NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)_
+
+[[!redirects complexity classes]]
+
