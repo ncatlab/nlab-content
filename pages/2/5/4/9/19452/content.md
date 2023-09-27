@@ -99,7 +99,7 @@ $$
 
 For example, _[[cohesion|cohesive]]_ [[geometry|geometric]] [[structure]] on [[generalized spaces]] is captured, this way, as [[modality]] in between the [[discrete object|discrete]] and the [[codiscrete object|codiscrete]] (Example \ref{DiscreteTopologicalSpaces}, and Def. \ref{CohesiveTopos} below).
 
-Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). 
+Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see [Freyd 1964, p. 1](category+theory#Freyd64)). 
 
 \begin{imagefromfile}
   "file_name": "Adjointness.jpg",
