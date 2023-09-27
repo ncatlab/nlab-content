@@ -45,13 +45,22 @@
 
 ## References
 
-Textbook account:
+Textbook accounts:
 
-* {#Winitzki} [[Sergei Winitzki]], *The Science of Functional Programming -- A tutorial, with examples in Scala* ([leanpub:sofp](https://leanpub.com/sofp))
+* [[Simon Thompson]], *Haskell: the Craft of Functional Programming*, Addison-Wesley (1996) &lbrack;[webpage](https://www.haskellcraft.com/craft3e/Home.html), [pdf](https://simonjohnthompson.github.io/craft3e/craft3e.pdf)&rbrack;
+
+  > (with examples in [[Haskell]])
+
+* Guy Cousineau, Michel Mauny, *The Functional Approach to Programming*, Cambridge University Press  (2012) &lbrack;[doi:10.1017/CBO9781139173018]( https://doi.org/10.1017/CBO9781139173018)&rbrack;
+
+* {#Winitzki} [[Sergei Winitzki]], *The Science of Functional Programming -- A tutorial, with examples in Scala* &lbrack;[leanpub:sofp](https://leanpub.com/sofp)&rbrack;
+
+  > (with examples in [[Scala]])
+
 
 and with emphasis on the relation to [[type theory]]:
 
-* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack
+* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
 
 Exposition of the [[categorical semantics]] of functional programming (such as via [[monads in computer science]]):
 
