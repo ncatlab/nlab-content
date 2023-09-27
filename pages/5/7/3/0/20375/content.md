@@ -3,9 +3,12 @@
 
 ## Selected writings
 
-On [[semi-holomorphic 4d Chern-Simons theory]]:
+On [[semi-holomorphic 4d Chern-Simons theory]] and relation to [[integrable systems]]:
 
 * [[Meer Ashwinkumar]], _Integrable Lattice Models and Holography_ ([arXiv:2003.08931](https://arxiv.org/abs/2003.08931))
+
+* [[Meer Ashwinkumar]], Jun-ichi Sakamoto, [[Masahito Yamazaki]], *Dualities and Discretizations of Integrable Quantum Field Theories from 4d Chern-Simons Theory* &lbrack;[arXiv:2309.14412](https://arxiv.org/abs/2309.14412)&rbrack;
+
 
 On [[D-brane]]-realizations of [[semi-holomorphic 4d Chern-Simons theory]]:
 
