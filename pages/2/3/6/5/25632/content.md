@@ -79,7 +79,7 @@ is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrac
     &&
     \Big\downarrow
     \mathrlap{{}^{
-      \mathcal{C}\big(id_{(-)},\,\rho_{(-)}\big)
+      \mathcal{D}\big(id_{(-)},\,\rho_{(-)}\big)
     }}
     \\
     \mathcal{C}\big(
