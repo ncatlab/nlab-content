@@ -10,6 +10,9 @@ On [[quantum information theory]]:
 
   *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
 
+On [[quantum complexity theory]]:
+
+* [[Scott Aaronson]], *Quantum computing, postselection, and probabilistic polynomial-time*, Proceedings of the Royal Society A, Volume 461, Issue 2063, pages 3473–3482, 08 November 2005. ([doi:10.1098/rspa.2005.1546](https://doi.org/10.1098%2Frspa.2005.1546), [arXiv:quant-ph/0412187](https://arxiv.org/abs/quant-ph/0412187))
 
 On [[complexity theory|complexity theoretic]] aspects of [[quantum supremacy]]:
 
