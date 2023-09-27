@@ -56,6 +56,9 @@ The idea of semi-topological 4d CS theory, and its relation to [[Yangians]] and 
 
 * [[Meer Ashwinkumar]], _Integrable Lattice Models and Holography_, JHEP 02 (2021) 227 ([arXiv:2003.08931](https://arxiv.org/abs/2003.08931))
 
+* [[Meer Ashwinkumar]], Jun-ichi Sakamoto, [[Masahito Yamazaki]], *Dualities and Discretizations of Integrable Quantum Field Theories from 4d Chern-Simons Theory* &lbrack;[arXiv:2309.14412](https://arxiv.org/abs/2309.14412)&rbrack;
+
+
 Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
 
 * [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
