@@ -34,6 +34,9 @@ We have
 
 Sometimes colimits (or some colimits) are called _[[inductive limits]]_ or _[[direct limits]]_; see the discussion of terminology at [[limit]].
 
+A [[weighted colimit]] in $C$ is a 
+[[weighted limit]] in $C^{op}$.
+
 
 ## Definition
 
@@ -56,22 +59,20 @@ Here are some important examples of colimits:
 * A colimit of a connected diagram is a [[connected colimit]].
 * A colimit of a nonempty diagram is a [[nonempty colimit]].
 
-See also [[limits and colimits by example]].
+See also *[[limits and colimits by example]]*.
 
-## Weighted colimits
 
-A [[weighted colimit]] in $C$ is a 
-[[weighted limit]] in $C^{op}$.
+
 
 ## Properties
 
-The properties of colimits are of course [[duality|dual]] to those of [[limit]]s. It is still worthwhile to make some of them explicit.
+The properties of colimits are of course [[formal duality|dual]] to those of [[limits]]. It is still worthwhile to make some of them explicit.
 
-+-- {: .un_prop}
-###### Contravariant Hom sends colimits to limits
-
+\begin{proposition}
+**([[hom-functor preserves limits|contravariant Hom sends colimits to limits]])**
+\linebreak
 For $C$ a [[locally small]] category,
-for $F : D \to C$ a functor, for $c \in C$ and object and writing $C(F(-), c) : D \to Set$, we have
+for $F : D \to C$ a functor, for $c \in C$ an object and writing $C(F(-), c) : D \to Set$, we have
 $$
   C(colim F, c) \simeq lim C(F(-), c)
   \,.
@@ -92,12 +93,12 @@ $$
 $$
 
 Notice that this actually says that $C(-,-) : C^{op} \times C \to Set$ is a [[continuous functor]] in both variables: in the first it sends limits in $C^{op}$ and hence equivalently colimits in $C$ to limits in $Set$.
+\end{proposition}
 
 
-
-+-- {: .un_prop}
-###### Proposition -- left adjoints commute with colimits
-
+\begin{proposition}
+**([[adjoints preserve (co-)limits|left adjoint functors preserve colimits]])**
+\linebreak
 Let $L : C \to C'$ be a functor that is [[left adjoint]] to some functor $R : C' \to C$. Let $D$ be a [[small category]] such that $C$ admits limits of shape $D$. Then $L$ commutes with $D$-shaped colimits in $C$ in that
 
 for $F : D \to C$ some diagram, we have
@@ -105,7 +106,7 @@ $$
   L(colim F) \simeq colim (L \circ F)
   \,.
 $$
-=--
+\end{proposition}
 
 +-- {: .proof}
 ######Proof
