@@ -21,6 +21,8 @@ In [[quantum complexity theory]], "BQP" stands for *bounded-error quantum polyno
 
 * [[DQC1]]
 
+* [[PostBQP]]
+
 ## References
 
 See also: 
