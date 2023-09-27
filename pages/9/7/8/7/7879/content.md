@@ -84,6 +84,7 @@ A wiki platform based on Haskell, running texmath
 
 [[!include proof assistants and formalization projects -- list]]
 
+
 ## References
 
 ### General
@@ -94,6 +95,9 @@ A wiki platform based on Haskell, running texmath
 
 * [language and library specification](http://www.haskell.org/haskellwiki/Language_and_library_specification)
 
+Joint introduction to [[functional programming]] in general and Haskell in particular:
+
+* [[Simon Thompson]], *Haskell: the Craft of Functional Programming*, Addison-Wesley (1996) &lbrack;[webpage](https://www.haskellcraft.com/craft3e/Home.html), [pdf ](https://simonjohnthompson.github.io/craft3e/craft3e.pdf)&rbrack;
 
 Discussion of the [[category]] of Haskell [[types]] (see at _[[relation between category theory and type theory]]_ and at _[[monad (in computer science)]]_) is in
 
