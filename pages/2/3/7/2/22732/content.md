@@ -59,7 +59,7 @@ With reference to this relation, the intrinsic effect that breaks the [[time-rev
 
 ### Chern semi-metals
 
-Notice that for genuinely 3-dimensional [[crystal|crystalline]] [[insulators]] the [[first Chern class]] is necessarily trivial (since there are no 2-[[cycles]] in the [[3-torus]]). But if such insulator is deformed (mentally at least) to a [[semi-metal]] with band gap closures over isolated nodal points $\{k_1, \cdots, k_N\}$ in the [[Brillouin torus]], then the relevant domain space becomes the [[complement]] $\mathbb{T}^3 \setminus \{k_1, \cdots, k_N\}$, and this does admit non-trivial Chern numbers, corresponding to the evaluation of $c_1(V)$ on any [[2-sphere]] surrounding the $I$th nodal point which now measures the topological protection of the semimetal phase (see eg. [Mathai-Thiang 17b](semi-metal#MathaiThiang17b) for a transparent account). 
+If a Chern insulator is deformed (mentally at least) to a [[semi-metal]] with band gap closures over isolated nodal points $\{k_1, \cdots, k_N\}$ in the [[Brillouin torus]], then the relevant domain space becomes the [[complement]] $\mathbb{T}^3 \setminus \{k_1, \cdots, k_N\}$, which admits non-trivial Chern numbers for each puncture, corresponding to the evaluation of $c_1(V)$ on any [[2-sphere]] surrounding the $I$th nodal point. This now measures the topological protection of the semimetal phase (see eg. [Mathai-Thiang 17b](semi-metal#MathaiThiang17b) for a transparent account). 
 
 Some authors speak of "Chern semi-metals" to amplify this.
 
