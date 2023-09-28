@@ -110,7 +110,7 @@ and terminology "unistochastic channels" was introduced in:
 
 * Marcin Musz, Marek Kuś, [[Karol Życzkowski]], *Unitary quantum gates, perfect entanglers, and unistochastic maps*, Phys. Rev. A **87** (2013) 022111 &lbrack;[doi:10.1103/PhysRevA.87.022111](https://doi.org/10.1103/PhysRevA.87.022111)&rbrack;
 
-Proof that all [[unital quantum channels]] on [[qubits]] are unistochastic (noisy operations) for a bath of size at least 4:
+Proof that all [[unital quantum channels]] on single [[qubits]] are unistochastic (noisy operations) for a bath of size at least 4:
 
 * {#Müller-HermesPerry19} Alexander Müller-Hermes, Christopher Perry, *All unital qubit channels are 4-noisy operations*, Letters in Mathematical Physics **109** (2019) 1–9 &lbrack;[doi:10.1007/s11005-018-1104-x](https://doi.org/10.1007/s11005-018-1104-x), [arXiv:1802.01337](https://arxiv.org/abs/1802.01337)&rbrack;
 
