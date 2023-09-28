@@ -16,7 +16,7 @@ A __lax 2-adjunction__ is instead given by a (suitably natural) pair of functors
 $$\hat\phi_{A,B} : D(F A,B) \overset{\to}{\leftarrow} C(A,G B) :
 \check\phi_{A,B} $$
 
-such that we have an *adjunction* $\check\phi\dashv\hat\phi$.  Independently of this laxness aspect, we can make a choice of weakness or strictness for the categories, functors, and natural transformations involved; thus one might speak of "lax biadjunctions", "lax pseudoadjunctions", and so on.
+such that we have an *adjunction* $\hat\phi\dashv\check\phi$.  Independently of this laxness aspect, we can make a choice of weakness or strictness for the categories, functors, and natural transformations involved; thus one might speak of "lax biadjunctions", "lax pseudoadjunctions", and so on.
 
 It is not entirely clear that the term "lax 2-adjunction" is appropriate; in particular it is not an instance of the general notion of [[lax algebras]], unlike nearly all other usages of the word "lax".  Other terms that have been used for the same or similar notions are "transcendental quasi-adjunction" [(Gray)](#Gray) and "local adjunction" [(Betti-Power)](#BP).
 
