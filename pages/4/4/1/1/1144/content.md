@@ -49,7 +49,7 @@ is formed by taking on each simplex the dg-algebra of ordinary rational [[polyno
 1. In the **Quillen approach** ([Quillen 69](#Quillen69)) the [[loop space]] of the rational space/simplicial set is formed and its [[H-space]] structure strictified to a [[simplicial group]], of which then a [[dg-Lie algebra]] (a strict [[L-infinity-algebra]]) is formed by mimicking the construction of the Lie algebra of a [[Lie group]] from the [[primitive element]]s of its completed [[group ring]]: the group ring of the simplicial group here is a simplicial ring, whose degreewise primitive elements hence yield a [[simplicial Lie algebra]]. The [[Moore complex]] functor maps this to the [[dg-Lie algebra]] functor that models the rational homotopy type in the Quillen approach.
 
 
-The connection between these two appoaches is discussed in ([Majewski 00](#Majewski00)): The Sullivan dg-algebra of forms is the [[formal dual]] (the [[Chevalley-Eilenberg algebra]]) of an [[L-infinity algebra]] that may be rectified (see at _[[model structure for L-infinity algebras]]_) to a [[dg-Lie algebra]], and that is the one from Quillen's construction.
+The connection between these two approaches is discussed in ([Majewski 00](#Majewski00)): The Sullivan dg-algebra of forms is the [[formal dual]] (the [[Chevalley-Eilenberg algebra]]) of an [[L-infinity algebra]] that may be rectified (see at _[[model structure for L-infinity algebras]]_) to a [[dg-Lie algebra]], and that is the one from Quillen's construction.
 
 (Beware that --  while both rational homotopy types as well as $L_\infty$-algebras are presented by [[formal duals]] of [[dg-algebras]] (via [[Sullivan construction]] and via forming [[Chevalley-Eilenberg algebras]], respectively) -- the class of [[weak equivalences]] in the former case strictly includes that in the latter. See [this remark](model+structure+for+L-infinity+algebras#OndgCoAlgWEs) at _[[model structure for L-∞ algebras]]_.)
 
@@ -1256,13 +1256,13 @@ Survey and review:
 
   > (with aspects of the generalizing to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]])
 
-* {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
+* {#Majewski00} Martin Majewski, *Rational homotopy models and uniqueness*, Memoir of the AMS **143** 682 (2000) &lbrack;[doi:10.1090/memo/0682](https://doi.org/10.1090/memo/0682)&rbrack;
 
 * {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
 * [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press 2008 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520))
 
-* {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
+* {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_ (2015) &lbrack;[pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]]&rbrack;
 
 * [[Martin Speirs]], *Model Categories with a view towards rational homotopy theory*, MSc thesis, Copenhagen (2015) &lbrack;[pdf](https://speirs.sites.ku.dk/files/2017/10/Master.pdf), [[Speirs-ModelCategories.pdf:file]]&rbrack;
 
