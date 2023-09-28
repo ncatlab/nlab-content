@@ -359,11 +359,25 @@ $$
   \,.  
 $$
 
+### Mixed unitary quantum channels
 
-### Decoherence and partial traces
+More generally, a *[[mixed unitary quantum channel]]* is given by an $S$-[[indexed set]] of [[unitary operators]] $(U_s)_{s \colon S}$ and a [[probability distribution]] $p \,\colon\, S \to [0,1]$ as
+
+$$
+  \rho 
+    \,\mapsto\,
+  \underset{s}{\sum}
+  \,
+  U_s \cdot \rho U_s^\dagger
+  \,.
+$$
+
+This class includes for instance the [[bit-flip quantum channels]].
+
+### Averaging quantum channels
  {#DecoherenceExample}
 
-For $\mathscr{B}$ a [[finite-dimensional Hilbert space]], the operation of [[partial trace quantum channel|partial trace]] over $\mathscr{B}$ is a quantum channel
+For $\mathscr{B}$ a [[finite-dimensional Hilbert space]], the operation of [[partial trace quantum channel|partial trace]] over $\mathscr{B}$ is a quantum channel, the *[[averaging quantum channel]]*.
 
 $$
   \array{
@@ -648,9 +662,5 @@ On quantum channel capacity:
 
 [[!redirects Kraus decomposition]]
 [[!redirects Kraus decompositions]]
-
-
-[[!redirects unital quantum channel]]
-[[!redirects unital quantum channels]]
 
 
