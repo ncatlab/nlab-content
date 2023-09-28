@@ -60,6 +60,464 @@ The communities using these different terminologies for closely related ideas ma
 \end{remark}
 
 
+## Properties
+
+\begin{proposition}
+  \label{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}
+  On a single [[qbit]], every [[mixed unitary quantum channel]]  is a unistochastic channel.
+\end{proposition}
+([Müller-Hermes & Perry 2019, Cor 1.4](#Müller-HermesPerry19))
+\begin{proof}
+  First observe that a mixed unitary channel for a *uniform* probability distribution, i.e. one of the form
+$$
+  \rho
+  \;\mapsto\;
+  \tfrac{1}{Card(S)}
+  \underset{s \colon S}{\sum}
+  \,
+  U_s \cdot \rho \cdot U_s^\dagger,
+  \;\;\;\;
+  \text{for unitaries}\; (U_s)_{s \colon S}
+  \,,
+$$
+is unistochastic, as evidently exhibited by the following coupling unitary
+$$
+  U_tot
+  \;\colon\;
+  QBit \otimes \underset{S}{\oplus} \mathbb{C}
+  \to
+  QBit \otimes \underset{S}{\oplus} \mathbb{C}
+$$
+\[
+  \label{CouplingMatrixForUniformMixedUnitaryChannel}
+  U_{tot}
+  \;\;\coloneqq\;\;
+  \tfrac{1}{Card(S)}
+  \underset{s \colon S}{\sum}
+  \,
+  U_s 
+    \otimes 
+  \left\vert s \right\rangle 
+  \left\langle s \right\vert
+  \mathrlap{\,.}
+\]
+Therefore one is reduced to showing that on QBits every mixed unitary quantum channel equals one with uniformly distributed unitaries. (This is [M-H & P 19, Thm. 1.2](#Müller-HermesPerry19)). We further spell out the case where there are two unitaries ([M-H & P 19, Lem. 1.1](#Müller-HermesPerry19)):
+
+So let the mixed unitary channel be given by
+$$
+  \rho
+  \;\mapsto\;
+  p_1 \, U_1 \cdot \rho \cdot U_1^\dagger
+  \;+\;
+  p_2 \, U_2 \cdot \rho \cdot U_2^\dagger
+$$
+then we want to find $U'_i$ with
+$$
+  p_1 \, U_1 \cdot (\text{-}) \cdot U_1^\dagger
+  \;+\;
+  p_2 \, U_2 \cdot (\text{-}) \cdot U_2^\dagger
+  \;\;
+  =
+  \;\;
+  \tfrac{1}{2}
+  \,
+  U'_1 \cdot (\text{-}) \cdot U'_1^\dagger
+  \;+\;
+  \tfrac{1}{2}
+  \,
+  U'_2 \cdot (\text{-}) \cdot U'_2^\dagger
+  \,.
+$$
+First, by replacing $(\text{-}) \mapsto S \cdot (\text{-}) S^\dagger$ --- for a unitary $S$ to be specified in a moment ---, this is equivalent to
+$$
+  \begin{array}{r}
+  p_1 \, U_1 \cdot S \cdot (\text{-}) \cdot S^\dagger \cdot U_1^\dagger
+  \\
+  +\;
+  p_2 \, U_2 \cdot S \cdot (\text{-}) \cdot S^\dagger \cdot U_2^\dagger
+  \end{array}
+  \;\;
+  =
+  \;\;
+  \begin{array}{r}
+  \tfrac{1}{2}
+  \,
+  U'_1 \cdot S \cdot (\text{-}) \cdot S^\dagger \cdot U'_1^\dagger
+  \\
+  +
+  \;
+  \tfrac{1}{2}
+  \,
+  U'_2 \cdot S \cdot (\text{-}) \cdot S^\dagger \cdot U'_2^\dagger
+  \mathrlap{\,.}
+  \end{array}
+$$
+and then conjugating both sides by $S^\dagger \cdot U^\dagger_1$  gives that this is equivalent to
+\[
+  \label{IntermediateStepInQBitArgument}
+  p_1 \, (\text{-})
+  \;+\;
+  p_2 \, 
+  \underset{D}{
+  \underbrace{
+    S^\dagger U_1^\dagger \cdot U_2 \cdot S
+  } }
+  \cdot 
+  (\text{-}) 
+  \cdot 
+  \underset{D^\dagger}{
+  \underbrace{
+    S^\dagger \cdot U_2^\dagger \cdot U_1 \cdot S
+  }
+  }
+  \;\;
+  =
+  \;\;  
+  \begin{array}{r}
+  \tfrac{1}{2}
+  \,
+  \underset{ W_1 }{
+  \underbrace{
+    S^\dagger \cdot U_1^\dagger \cdot U'_1 \cdot S 
+  }
+  }
+  \cdot 
+    (\text{-}) 
+  \cdot 
+  \underset{
+    W_1^\dagger
+  }{
+  \underbrace{
+    S^\dagger \cdot U'_1^\dagger \cdot U_1 \cdot S
+  }
+  }
+  \\
+  +
+  \;
+  \tfrac{1}{2}
+  \,
+  \underset{
+    W_2
+  }{
+    \underbrace{
+      S^\dagger \cdot U_1^\dagger \cdot U'_2 \cdot S 
+    }
+  }
+  \cdot 
+  (\text{-}) 
+  \cdot 
+  \underset{W_2^\dagger}{
+    \underbrace{
+      S^\dagger \cdot U'_2^\dagger \cdot U_1 \cdot S
+    }
+  }
+  \end{array}
+\]
+At this point we fix $S$: Since $U_1^\dagger \cdot U_2$ is evidently a [[normal operator]], the [[spectral theorem]] applies to show that we may find $S$ such that $D$ above is a [[diagonal matrix]]:
+\[
+  \label{DiagonalizingOperatorInQBitArgument}
+  S \cdot U_1^\dagger \cdot U_2 \cdot S^\dagger
+  \;\;=\;\;
+  diag\big( D_{11}, \, D_{22} \big)
+  \,=\,
+  D
+  \,.
+\]
+
+This way we are now reduced to finding unitary operators $W_i$, such that
+$$
+  p_1 \, (\text{-})
+  \;+\;
+  p_2
+  \,
+  D \cdot (\text{-}) \cdot D^\dagger
+  \;\;
+  =
+  \;\;
+  \tfrac{1}{2}
+  \,
+  W_1 \cdot (\text{-}) \cdot W_1^\dagger
+  \;+\;
+  \tfrac{1}{2}
+  \,
+  W_2 \cdot (\text{-}) \cdot W_2^\dagger
+  \,.
+$$
+Plugging in the simple ansatz
+$$
+  W_i 
+  \;\coloneqq\;
+  \left[
+  \array{
+    e^{2 \pi \mathrm{i} \phi_i } & 0
+    \\
+    0 & 1
+  }
+  \right]
+$$
+shows that this works for
+\[
+  \label{PhaseConditionForQBitArgument}
+  \tfrac{1}{2}
+  \big(
+    e^{2 \pi \mathrm{i} \phi_1}
+    +
+    e^{2 \pi \mathrm{i} \phi_2}
+  \big)
+  \;\;
+  =
+  \;\;
+  p_1 
+  \,+\, 
+  p_2 
+  \,
+  D_11 \overline{D_22}
+  \mathrlap{\,.}
+\]
+which always has a solution for $\phi_i$ ([M-H & P 19, p. 3](#Müller-HermesPerry19)).
+
+Finally plugging back into (eq:IntermediateStepInQBitArgument) shows that the desired uniformly distributed unitaries are
+$$
+  \label{UniformUnitariesInQBitCase}
+  U'_i
+  \;\;=\;\;
+  U_1
+  \cdot
+  S
+  \cdot
+  \left[
+  \array{
+    e^{2 \pi \mathrm{i} \phi_i} & 0
+    \\
+    0 & 1
+  }
+  \right]
+  \cdot
+  S^\dagger
+  \,.
+$$
+\end{proof}
+
+
+
+## Examples
+
+\begin{example}
+\label{BitFlipAsUnistochasticChannel}
+The [[bit-flip quantum channel]] 
+$$
+  \array{
+    \mathllap{ flip \;\colon\; }
+    QBit \otimes QBit^\ast
+    &\longrightarrow&
+    QBit \otimes QBit^\ast
+    \\
+    \rho &\mapsto&
+    (1-p)\,\rho
+    \;+\;
+    p \, X \cdot \rho \cdot X
+  }
+$$
+is unistochastic
+  (by Prop. \ref{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}, since it is manifestly [[mixed unitary quantum channel|mixed unitary]]).
+
+Explicitly, the unitary $S$ (eq:DiagonalizingOperatorInQBitArgument) in this case may be taken to be
+$$
+  S 
+  \;=\;
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & 1 
+    \\
+    -1 & 1
+  }
+  \right]
+$$
+which gives
+$$
+  D
+  \;\;
+  =
+  \;\;
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & 1 
+    \\
+    -1 & 1
+  }
+  \right]
+  \cdot
+  \underset{
+    X
+  }{
+  \underbrace{
+  \left[
+  \array{
+    0 & 1 
+    \\
+    1 & 0
+  }
+  \right]
+  }
+  }
+  \cdot
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & -1 
+    \\
+    1 & 1
+  }
+  \right]
+  \;\;
+  =
+  \;\;
+  \left[
+  \array{
+    1 & 0 
+    \\
+    0 & -1
+  }
+  \right]
+  \mathrlap{\,,}
+$$
+and the condition (eq:PhaseConditionForQBitArgument) in this case is
+$$
+  \tfrac{1}{2}
+  \big(
+    e^{2 \pi \mathrm{i} \phi_1}
+    +
+    e^{2 \pi \mathrm{i} \phi_2}
+  \big)
+  \;\;
+  =
+  \;\;
+  (1 - 2 p)
+  \,.
+$$
+This is solved for 
+$$
+  \phi_1 = -\phi_2 = arccos(1-2p)
+  \,,
+$$
+so that the desired unitary operators finally are, from (eq:UniformUnitariesInQBitCase):
+$$
+  U_{1/2}
+  \;=\;
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & 1 
+    \\
+    -1 & 1
+  }
+  \right]
+  \cdot
+  \left[
+  \array{
+    z^{\pm 1} 
+    & 0
+    \\
+    0 & 1
+  }
+  \right]
+  \cdot   
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & -1 
+    \\
+    1 & 1
+  }
+  \right] 
+  \;\;
+  =
+  \;\;
+  \tfrac{1}{2}
+  \left[
+  \array{
+    1 + z^{\pm 1} 
+    & 
+    1 - z^{\pm 1} 
+    \\
+    1 - z^{\pm 1} 
+    & 
+    1 + z^{\pm 1} 
+  }
+  \right]
+  \mathrlap{\,.}
+$$
+for 
+$$
+  z 
+  \,\coloneqq\,
+  e^{\mathrm{i} \, arccos(1-2p)} 
+  \,.
+$$
+Hence
+$$
+  flip(\rho)
+  \;=\;
+  \tfrac{1}{4}
+  \left[
+  \array{
+    1 + z 
+    & 
+    1 - z 
+    \\
+    1 - z 
+    & 
+    1 + z 
+  }
+  \right]
+  \cdot 
+  \rho
+  \cdot
+  \left[
+  \array{
+    1 + \overline{z} 
+    & 
+    1 - \overline{z} 
+    \\
+    1 - \overline{z} 
+    & 
+    1 + \overline{z} 
+  }
+  \right]
+  \;+\;
+  \tfrac{1}{4}
+  \left[
+  \array{
+    1 + \overline{z} 
+    & 
+    1 - \overline{z} 
+    \\
+    1 - \overline{z} 
+    & 
+    1 + \overline{z} 
+  }
+  \right]
+  \cdot 
+  \rho
+  \cdot
+  \left[
+  \array{
+    1 + z 
+    & 
+    1 - z 
+    \\
+    1 - z 
+    & 
+    1 + z 
+  }
+  \right]
+  \mathrlap{\,.}
+$$
+With (eq:CouplingMatrixForUniformMixedUnitaryChannel) this uniform mixed unitary presentation immediately gives the unistochastic presentation of the bit-flip channel. 
+\end{example}
+
 ## References
 
 ### DQC1 computation
