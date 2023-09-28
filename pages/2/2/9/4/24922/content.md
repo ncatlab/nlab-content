@@ -56,6 +56,8 @@ $$
   \end{aligned}
 $$
 
+Since $X$ is a [[unitary operator]], this makes the bit flip channel an example of a [[mixed unitary quantum channel]].
+
 One readily checks that on [[pure states]] in the [[q-bit]]-[[linear basis|basis]] this acts as expected:
 
 $$
@@ -92,7 +94,7 @@ $$
   \end{array}
 $$
 
-Alternatively, one finds that a [[Kraus decomposition]] of this operator as a [[unitary operator]] followed by a [[quantum measurement]] is:
+Equivalently, the bit flip channel may be expressed as a [[unitary quantum channel]] followed by a [[quantum measurement channel]]:
 
 $$
   flip 
@@ -135,6 +137,9 @@ $$
 * [[Stéphane Attal]], §6.1.6.1 in: *Quantum Channels*, Lecture 6 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Channels.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
 
 
+[[!redirects bit-flip quantum channels]]
+
+[[!redirects bit flip channel]]
 [[!redirects bit flip channels]]
 
 [[!redirects bit-flip channel]]
@@ -149,4 +154,12 @@ $$
 [[!redirects q-bit flip channels]]
 [[!redirects q-bit-flip channel]]
 [[!redirects q-bit-flip channels]]
+
+[[!redirects bit-flip quantum channel]]
+[[!redirects bit-flip quantum channesl]]
+
+[[!redirects bit flip quantum channel]]
+[[!redirects bit flip quantum channesl]]
+
+
 
