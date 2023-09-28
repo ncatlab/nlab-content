@@ -51,6 +51,11 @@ See also:
 
 * Wikipedia, _[POVM](https://en.wikipedia.org/wiki/POVM)_
 
+Discussion in [[quantum field theory]]:
+
+* Adam Bednorz, *General quantum measurements in relativistic quantum field theory*, Phys. Rev. D **108** 056020 (2023) &lbrack;[arXiv:2305.12765](https://arxiv.org/abs/2305.12765), [doi:10.1103/PhysRevD.108.056020](https://doi.org/10.1103/PhysRevD.108.056020)&rbrack;
+
+
 Critical comments on the notion of POVMs as "generalized measurements":
 
 * {#Griffiths12} [[Robert B. Griffiths]], Section 5 of: *Quantum Channels, Kraus Operators, POVMs* (2012) &lbrack;[pdf](https://quantum.phys.cmu.edu/QCQI/qitd412.pdf), [[Griffiths-QuantumChannels.pdf:file]]&rbrack;
