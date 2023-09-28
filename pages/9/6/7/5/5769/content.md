@@ -18,7 +18,8 @@
 An element $a \in A$ in a [[C-star algebra]] is called _normal_ if it commutes with its star-adjoint:
 
 $$
-  a a^* = a^* a
+  a \cdot a^* 
+  \;=\; a^* \cdot a
   \,.
 $$ 
 
