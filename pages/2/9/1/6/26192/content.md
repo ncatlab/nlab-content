@@ -10,7 +10,7 @@
 =--
 
 
-#Contemts#
+#Contents#
 * table of contents
 {:toc}
 
@@ -90,6 +90,11 @@ Discussion where even the single system qbit is not fully coherent, either:
 
 * Tomoyuki Morimae, Keisuke Fujii, Harumichi Nishimura, *Power of one non-clean qubit*, Phys. Rev. A *95* 042336 (2017) &lbrack;[arXiv:1610.07244](https://arxiv.org/abs/1610.07244), [doi:10.1103/PhysRevA.95.042336](https://doi.org/10.1103/PhysRevA.95.042336)&rbrack;
 
+Proof that all [[unital quantum channels]] on single [[qubits]] are unistochastic (noisy operations) for a bath of size at least 4:
+
+* {#Müller-HermesPerry19} Alexander Müller-Hermes, Christopher Perry, *All unital qubit channels are 4-noisy operations*, Letters in Mathematical Physics **109** (2019) 1–9 &lbrack;[doi:10.1007/s11005-018-1104-x](https://doi.org/10.1007/s11005-018-1104-x), [arXiv:1802.01337](https://arxiv.org/abs/1802.01337)&rbrack;
+
+
 Discussion of DQC1 in the language of [[quantum channels]]:
 
 * {#XuerebCampbellGooldXuereb23} Jake Xuereb, Steve Campbell, John Goold, André Xuereb, *DQC1 as an Open Quantum System*, Phys. Rev. A **107** 042222 (2023) &lbrack;[arXiv:2209.03947](https://arxiv.org/abs/2209.03947), [doi:10.1103/PhysRevA.107.042222](https://doi.org/10.1103/PhysRevA.107.042222)&rbrack;
@@ -102,7 +107,9 @@ The terminology of "noisy operations" is due to
 
 * {#HorodeckiHorodeckiOppenheim03} [[Michal Horodecki]], [[Pawel Horodecki]], [[Jonathan Oppenheim]], *Reversible transformations from pure to mixed states, and the unique measure of information*, Phys. Rev. A 67 062104 (2003) &lbrack;[doi:10.1103/PhysRevA.67.062104](https://doi.org/10.1103/PhysRevA.67.062104), [arXiv;quant-ph/0212019](https://arxiv.org/abs/quant-ph/0212019)&rbrack;
 
-and terminology "unistochastic channels" was introduced in:
+* picked up by [Müller-Hermes & Perry 2019](#Müller-HermesPerry19)
+
+and the terminology "unistochastic channels" was introduced in:
 
 * {#ŻyczkowskiBengtsson04} [[Karol Życzkowski]], [[Ingemar Bengtsson]], p. 13 of: *On Duality between Quantum Maps and Quantum States*, Open Systems & Information Dynamics **11** 01 (2004) 3-42 &lbrack;[doi:10.1023/B:OPSY.0000024753.05661.c2](https://doi.org/10.1023/B:OPSY.0000024753.05661.c2)&rbrack;
 
@@ -110,9 +117,6 @@ and terminology "unistochastic channels" was introduced in:
 
 * Marcin Musz, Marek Kuś, [[Karol Życzkowski]], *Unitary quantum gates, perfect entanglers, and unistochastic maps*, Phys. Rev. A **87** (2013) 022111 &lbrack;[doi:10.1103/PhysRevA.87.022111](https://doi.org/10.1103/PhysRevA.87.022111)&rbrack;
 
-Proof that all [[unital quantum channels]] on single [[qubits]] are unistochastic (noisy operations) for a bath of size at least 4:
-
-* {#Müller-HermesPerry19} Alexander Müller-Hermes, Christopher Perry, *All unital qubit channels are 4-noisy operations*, Letters in Mathematical Physics **109** (2019) 1–9 &lbrack;[doi:10.1007/s11005-018-1104-x](https://doi.org/10.1007/s11005-018-1104-x), [arXiv:1802.01337](https://arxiv.org/abs/1802.01337)&rbrack;
 
 
 
