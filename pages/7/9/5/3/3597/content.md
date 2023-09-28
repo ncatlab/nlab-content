@@ -98,9 +98,12 @@ More controversially, two entirely different probabilisitic combinations of stat
 
 ## Related concepts
 
-* [[quantum operation]]
+* [[maximally mixed quantum state]]
+
+* [[quantum channel]]
 
 * [[quantum computation]]
+
 
 [[!include states and observables -- content]]
 
