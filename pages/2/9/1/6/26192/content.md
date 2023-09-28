@@ -16,7 +16,7 @@
 
 ## Idea
 
-A [[quantum operation]]/[[quantum channel]] $chan \,\colon\, \mathscr{H} \otimes \mathscr{H}^\ast \to \mathscr{H} \otimes \mathscr{H}^\ast$ is called a *noisy operation* &lbrack;by [Horodecki, Horodecki & Oppenheim 2003](#HorodeckiHorodeckiOppenheim03), but beware that this can be ambiguous&rbrack; or a *unistochastic channel* &lbrack;[Życzkowski & Bengtsson 2004](#ŻyczkowskiBengtsson04)&rbrack; if it has an [environmental representation](quantum+channel#QuantumChannelsAndDecoherence) where the environment/bath system $\mathscr{B}$ is in its *maximally* [[mixed quantum state]]:
+A [[quantum operation]]/[[quantum channel]] $chan \,\colon\, \mathscr{H} \otimes \mathscr{H}^\ast \to \mathscr{H} \otimes \mathscr{H}^\ast$ is called a *noisy operation* &lbrack;by [Horodecki, Horodecki & Oppenheim 2003](#HorodeckiHorodeckiOppenheim03), but beware that this can be ambiguous&rbrack; or a *unistochastic channel* &lbrack;[Życzkowski & Bengtsson 2004](#ŻyczkowskiBengtsson04)&rbrack; if it has an [environmental representation](quantum+channel#QuantumChannelsAndDecoherence) where the environment/bath system $\mathscr{B}$ is in its *[[maximally mixed state|maximally]]* [[mixed quantum state]]:
 
 $$
   chan(\rho)
