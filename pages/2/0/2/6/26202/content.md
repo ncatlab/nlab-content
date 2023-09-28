@@ -79,7 +79,7 @@ necessarily form a [[probability distribution]] over the index [[set]] $S$.
       p \, X \cdot \rho \cdot X
     }
   $$
-  is a mixed unitary quantum channel, where the two unitary operators are the [[identity matrix]] on [[qbits]] and the $X$-[[Pauli gate]]-operator, respectively.
+  is a mixed unitary quantum channel, as follows...
 \end{example}
 
 In fact:
