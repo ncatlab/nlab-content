@@ -5,23 +5,25 @@
 
 * [[Set]]
 
-  * [[Rel]], [[Prof]]
+  * [[Rel]]
 
 * [[Grpd]], [[∞Grpd]]
 
 * [[Cat]]
 
-  * [[elementary theory of the 2-category of categories]] ([[ETCC]])
-
   * [[AccCat]]
 
   * [[PrCat]]
+
+  * [[LexCat]]
 
   * [[MonCat]]
 
   * [[VCat]]
 
   * [[CatAdj]]
+
+  * [[Prof]]
 
   * [[Operad]]
 
@@ -34,3 +36,4 @@
   * [[(∞,1)Operad]]
 
 * [[(∞,n)Cat]]
+
