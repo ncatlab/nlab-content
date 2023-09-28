@@ -47,5 +47,71 @@ $$
   \right]
 $$
 
+$$
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & 1
+    \\
+    -1 & 1
+  }
+  \right]
+  \cdot
+  \left(
+  (1-\rho)
+  \,
+  \left[
+  \array{
+    1 & 0 
+    \\
+    0 & 1
+  }
+  \right]
+  \;+\;
+  \rho
+  \,
+  \left[
+  \array{
+    0 & 1 
+    \\
+    1 & 0
+  }
+  \right]
+  \,
+  \right)
+  \cdot
+  \tfrac{1}{\sqrt{2}}
+  \left[
+  \array{
+    1 & -1
+    \\
+    1 & 1
+  }
+  \right]
+  \;=\;
+  \left(
+  (1-\rho)
+  \,
+  \left[
+  \array{
+    1 & 0 
+    \\
+    0 & 1
+  }
+  \right]
+  \;+\;
+  \rho
+  \,
+  \left[
+  \array{
+    1 & 0 
+    \\
+    0 & -1
+  }
+  \right]
+  \,
+  \right)
+$$
+
 
 \end{example}
