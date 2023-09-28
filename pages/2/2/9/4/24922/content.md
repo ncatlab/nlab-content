@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -55,6 +56,8 @@ $$
     (1-p) \cdot \rho \,+\, p \cdot (X \rho X)
   \end{aligned}
 $$
+
+Since $X$ is a [[unitary operator]], this makes the bit flip channel an example of a [[mixed unitary quantum channel]].
 
 One readily checks that on [[pure states]] in the [[q-bit]]-[[linear basis|basis]] this acts as expected:
 
