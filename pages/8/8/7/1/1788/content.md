@@ -1,4 +1,6 @@
 
+A [[topos]] [[topos]]
+
 A [[quantum operation]]/[[quantum channel]] $chan \,\colon\, \mathscr{H} \otimes \mathscr{H}^\ast \to \mathscr{H} \otimes \mathscr{H}^\ast$ is called a *noisy operation* &lbrack;[Horodecki, Horodecki & Oppenheim 2003](#HorodeckiHorodeckiOppenheim03)&rbrack; or a *unistochastic channel* &lbrack;[Życzkowski & Bengtsson 2004](#ŻyczkowskiBengtsson04)&rbrack; if it has an [environmental representation](quantum channel#QuantumChannelsAndDecoherence) where the environment/bath system $\mathscr{B}$ is in its maximally mixed state:
 
 
