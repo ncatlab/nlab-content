@@ -93,7 +93,126 @@ $$
   }
   \right]
   \;=\;
+$$
 
+$$
+  (1-p)
+  \,
+  \rho
+  +
+  p 
+  \,
+  \left[
+  \array{  
+    1 & 0
+    \\
+    0 & -1
+  }
+  \right]
+  \cdot
+  \rho
+  \cdot
+  \left[
+  \array{  
+    1 & 0
+    \\
+    0 & -1
+  }
+  \right]
+$$
+
+$$
+  \left[
+  \array{
+    \rho_{00} & (1-2p) \rho_{01}
+    \\ 
+    (1-2p) \rho_{01} & \rho_{11}
+  }
+  \right]
+$$
+
+$$
+  \phi = arccos (1-2p)
+$$
+
+$$
+  \left[
+  \array{
+    \rho_{00} & e^{2 \pi \mathrm{i} \phi} \rho_{01}
+    \\ 
+    (1-2p) \rho_{01} & \rho_{11}
+  }
+  \right]
+$$
+
+
+$$
+  U_1
+  \;=\;
+  \left[
+    \array{
+      1 & 1
+      \\
+      -1 & 1
+    }
+  \right]
+  \cdot
+  \left[
+    \array{
+      e^{2 \pi \mathrm{i} \phi} & 0
+      \\
+      0 & 1
+    }
+  \right]  
+  \cdot
+  \left[
+    \array{
+      1 & -1
+      \\
+      1 & 1
+    }
+  \right]
+$$
+
+$$
+  U_1
+  \;=\;
+  \left[
+    \array{
+      1 & 1
+      \\
+      -1 & 1
+    }
+  \right]
+  \cdot
+  \left[
+    \array{
+      e^{2 \pi \mathrm{i} \phi} 
+      &
+      - 
+      e^{2 \pi \mathrm{i} \phi} 
+      \\
+      1 & 1
+    }
+  \right]  
+  \cdot
+$$
+
+$$
+  U_1
+  \;=\;
+  \left[
+    \array{
+      e^{2 \pi \mathrm{i} \phi} + 1
+        & 
+      - e^{2 \pi \mathrm{i} \phi} + 1
+      \\
+      - e^{2 \pi \mathrm{i} \phi} + 1
+      & 
+      e^{2 \pi \mathrm{i} \phi} + 1
+    }
+  \right]
+  \cdot
 $$
 
 
