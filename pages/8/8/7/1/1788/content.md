@@ -58,18 +58,22 @@ $$
   \right]
   \cdot
   \left(
-  (1-\rho)
+  (1-p)
+  \,
+  \rho
+  \;+\;
+  p
   \,
   \left[
   \array{
-    1 & 0 
+    0 & 1 
     \\
-    0 & 1
+    1 & 0
   }
   \right]
-  \;+\;
+  \cdot
   \rho
-  \,
+  \cdot
   \left[
   \array{
     0 & 1 
@@ -89,28 +93,7 @@ $$
   }
   \right]
   \;=\;
-  \left(
-  (1-\rho)
-  \,
-  \left[
-  \array{
-    1 & 0 
-    \\
-    0 & 1
-  }
-  \right]
-  \;+\;
-  \rho
-  \,
-  \left[
-  \array{
-    1 & 0 
-    \\
-    0 & -1
-  }
-  \right]
-  \,
-  \right)
+
 $$
 
 
