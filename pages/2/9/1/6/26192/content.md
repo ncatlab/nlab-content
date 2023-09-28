@@ -276,7 +276,7 @@ shows that this works for
 \]
 which always has a solution for $\phi_i$ ([M-H & P 19, p. 3](#Müller-HermesPerry19)).
 
-Finally plugging back into (eq:IntermediateStepInQBitArgument) shows that the desired uniformly distributed unitaries are
+Finally plugging back into (eq:IntermediateStepInQBitArgument) shows that the desired uniformly distributed unitaries may be taken to be:
 $$
   \label{UniformUnitariesInQBitCase}
   U'_i
