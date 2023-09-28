@@ -180,9 +180,11 @@ The properties of corollary \ref{ExactFunctorPreservesExactSequences} explain th
 
 ## Related concepts
 
-* **exact functor**, [[derived functor]]
+* [[LexCat]]
 
-*  [[exact (∞,1)-functor]]
+* [[derived functor]]
+
+* [[exact (∞,1)-functor]]
 
 * [[satellite]]
 
