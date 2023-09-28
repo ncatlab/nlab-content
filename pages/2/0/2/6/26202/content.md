@@ -55,7 +55,7 @@ $$
   p_{(-)} \,\colon\, S \to [0,1]
 $$
 
-necessarily form a [[probability distribution]] over the index [[set]] $S$.
+necessarily form a [[probability distribution]] over the [[finite set|finite]] index [[set]] $S$.
 
 
 ## Examples
@@ -79,7 +79,7 @@ necessarily form a [[probability distribution]] over the index [[set]] $S$.
       p \, X \cdot \rho \cdot X
     }
   $$
-  is a mixed unitary quantum channel, as follows...
+  is a mixed unitary quantum channel, where the two unitary operators are the [[identity matrix]] on [[qbits]] and the $X$-[[Pauli gate]]-operator, respectively.
 \end{example}
 
 In fact:
