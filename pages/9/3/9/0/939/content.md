@@ -34,9 +34,13 @@ Such a transformation, satisfying suitable axioms to make $T S$ into a monad, is
 [[monad|Monads]] in any [[2-category]] $C$ make themselves a 2-category $\mathrm{Mnd}$ in which [[1-morphisms]] are either lax or colax [[homomorphisms]] of monads.
 By [[formal duality]] the analogue is true for [[comonads]]. 
 
-Monads [[internalization|internal]] to the 2-category of monads are called _distributive laws_. In particular, distributive laws themselves make a 2-category. There are other variants like distributive laws between a monad and an [[endofunctor]], "mixed" distributive laws between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structure]]s), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. Having a distributive law $l$ from one monad to another enables to define the composite monad $\mathbf T\circ_l\mathbf P$. This correspondence extends to a 2-functor $\mathrm{comp}:\mathrm{Mnd}(\mathrm{Mnd}(C))\to\mathrm{Mnd}(C)$. An analogue of this 2-functor in the mixed setup is a homomorphism of bicategories from the bicategory of entwinings to a bicategory of [[coring]]s.
+Monads [[internalization|internal]] to the 2-category of monads are called _distributive laws_. In particular, distributive laws themselves make a 2-category. There are other variants like distributive laws between a monad and an [[endofunctor]], "mixed" distributive laws between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structure]]s), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. Having a distributive law $l$ from one monad to another enables to define the composite monad $\mathbf T\circ_l\mathbf P$. This correspondence extends to a 2-functor $\mathrm{comp}:\mathrm{Mnd}(\mathrm{Mnd}(C))\to\mathrm{Mnd}(C)$. An analogue of this 2-functor in the mixed setup is a homomorphism of bicategories from the bicategory of entwinings to a bicategory of [[corings]].
+
+
 
 ## Explicit definition
+
+### Monad distributing over monad
 
 A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ to an endofunctor
 $P$ is a 2-cell $l : T P \Rightarrow P T$ such that
@@ -77,7 +81,49 @@ such that $U^{\mathbf T} : A^{\mathbf T}\to A$ preserves the monad structure.
 Thus all together a distributive law from a monad to a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
-Similarly, there are definitions of distributive laws of a comonad over a comonad, a monad over a comonad (eg. [Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93) sometimes called a _mixed_ distributive laws).
+Similarly, there are definitions of distributive laws of a comonad over a comonad, 
+
+### Monad distributing over comonad
+ {#MonadDistributingOverComonad}
+
+The distributivity law of 
+
+* a monad $\mathcal{E}$ over 
+
+* a comonad $\mathcal{C}$ 
+
+is as follows ([Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93)):
+
+A [[natural transformation]]
+
+$$
+  distr^{\mathcal{C}, \mathcal{E}}
+  \;\;\colon\;\;
+  \mathcal{C}
+  \big(
+    \mathcal{E}(D)
+  \big)
+  \longrightarrow
+  \mathcal{E}
+  \big(
+    \mathcal{C}(D)
+  \big)
+$$
+
+such that the following [[commuting diagram|diagrams commute]] for all objects $D$:
+
+
+\begin{imagefromfile}
+    "file_name": "MixedCoMonadDistributivity-230929.jpg",
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
 
 ##Examples##
