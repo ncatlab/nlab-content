@@ -95,7 +95,12 @@ $$
   \end{array}
 $$
 
-Equivalently, the bit flip channel may be expressed as a [[unitary quantum channel]] followed by a [[quantum measurement channel]]:
+## Properties
+
+### Equivalent formulations
+
+\begin{example}
+The bit flip channel may be expressed as a [[unitary quantum channel]] followed by a [[quantum measurement channel]]:
 
 $$
   flip 
@@ -123,6 +128,14 @@ $$
   \;\colon\;
   QBit \multimap QBit
 $$
+\end{example}
+
+\begin{example}
+  The bit-flip quantum channel has an alternative presentation as a *uniformly* [[mixed unitary quantum channel]] and hence as a *[[unistochastic quantum channel]]*, see the discussion [there](unistochastic+quantum+channel#BitFlipAsUnistochasticChannel).
+\end{example}
+
+
+
 
 ## Related concepts
 
