@@ -242,6 +242,7 @@ $$
   \pm i \pi \delta
   \,.
 $$
+(Plemelj-Sochocki formula)
 
 In particular, by prop. \ref{PrincipalValueOfInverseFunctionCharacteristicEquation} this means that $\tfrac{1}{x + i 0^\pm}$ solves the distributional equation
 
