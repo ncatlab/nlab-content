@@ -77,7 +77,7 @@ such that $U^{\mathbf T} : A^{\mathbf T}\to A$ preserves the monad structure.
 Thus all together a distributive law from a monad to a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
-Similarly, there are definitions of distributive law of a comonad over a comonad, a monad over a comonad (sometimes called a __mixed__ distributive law), and so on.
+Similarly, there are definitions of distributive laws of a comonad over a comonad, a monad over a comonad (eg. [Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93) sometimes called a _mixed_ distributive laws).
 
 
 ##Examples##
@@ -126,7 +126,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
  
   ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
 
-* [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
+* {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
 
 * [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
 
