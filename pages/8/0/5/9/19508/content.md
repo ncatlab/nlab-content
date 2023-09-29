@@ -199,6 +199,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 * [[combinatorial simplicial model category]]
 
 
+[[!include categories of categories - contents]]
+
 [[!include locally presentable categories - table]]
 
 
