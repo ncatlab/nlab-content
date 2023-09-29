@@ -209,7 +209,7 @@ with emphasis on [[POVMs]]:
 
 * [[Paul Busch]], [[Pekka J. Lahti]], Juha-Pekka Pellonpää, Kari Ylinen, *Quantum Measurement*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-43389-9](https://doi.org/10.1007/978-3-319-43389-9)&rbrack;
 
-The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in
+The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in:
 
 * [vonNeumann 1932, §IV.1](#vonNeumann32)
 
@@ -218,7 +218,6 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992 ([doi:10.1007/978-1-4612-0509-8](https://link.springer.com/book/10.1007/978-1-4612-0509-8))
 
 * [[Rolando Rebolledo]], *An algebraic view on Probability*, Section 1.2 in: *Complete Positivity and the Markov structure of Open Quantum Systems*, chapter in: [[Stéphane Attal]], [[Alain Joye]], [[Claude-Alain Pillet]] (eds.), *Open Quantum Systems II -- The Markovian approach*,  Lecture Notes in Mathematics **1881**, Springer (2006) 149-182 &lbrack;[doi:10.1007/b128451](https://doi.org/10.1007/b128451)&rbrack;
-
 
 
 Dedicated discussion of quantum probability theory:
