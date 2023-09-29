@@ -101,7 +101,7 @@ $$
   \left\langle s \right\vert
   \mathrlap{\,.}
 \]
-Therefore one is reduced to showing that on QBits every mixed unitary quantum channel equals one with uniformly distributed unitaries. (This is [M-H & P 19, Thm. 1.2](#Müller-HermesPerry19)). We further spell out the case where there are two unitaries ([M-H & P 19, Lem. 1.1](#Müller-HermesPerry19)):
+Therefore one is reduced to showing that on QBits every mixed unitary quantum channel equals one with uniformly distributed unitaries (this is [M-H & P 19, Thm. 1.2](#Müller-HermesPerry19)). We further spell out the case where there are two unitaries to start with ([M-H & P 19, Lem. 1.1](#Müller-HermesPerry19)):
 
 So let the mixed unitary channel be given by
 $$
@@ -305,9 +305,13 @@ $$
 \begin{example}
 \label{BitFlipAsUnistochasticChannel}
 The [[bit-flip quantum channel]] 
-$$
+\[
+  \label{OrdinaryBitFlipChannel}
   \array{
-    \mathllap{ flip \;\colon\; }
+    \mathllap{ 
+      flip_p 
+      \;\colon\; 
+    }
     QBit \otimes QBit^\ast
     &\longrightarrow&
     QBit \otimes QBit^\ast
@@ -317,7 +321,7 @@ $$
     \;+\;
     p \, X \cdot \rho \cdot X
   }
-$$
+\]
 is unistochastic
   (by Prop. \ref{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}, since it is manifestly [[mixed unitary quantum channel|mixed unitary]]).
 
@@ -402,9 +406,11 @@ $$
   \phi_1 = -\phi_2 = arccos(1-2p)
   \,,
 $$
-so that the desired unitary operators finally are, from (eq:UniformUnitariesInQBitCase):
+so that the desired unitary operators as obtained from formula (eq:UniformUnitariesInQBitCase) are:
 $$
+  \begin{array}{l}
   U_{1/2}
+  \\
   \;=\;
   \tfrac{1}{\sqrt{2}}
   \left[
@@ -417,7 +423,7 @@ $$
   \cdot
   \left[
   \array{
-    z^{\pm 1} 
+    e^{ \pm \mathrm{i} \phi }
     & 0
     \\
     0 & 1
@@ -432,44 +438,69 @@ $$
     1 & 1
   }
   \right] 
-  \;\;
-  =
-  \;\;
+  \\
+  \;=\;
   \tfrac{1}{2}
   \left[
   \array{
-    1 + z^{\pm 1} 
+    1 + e^{ \pm \mathrm{i} \phi } 
     & 
-    1 - z^{\pm 1} 
+    1 - e^{ \pm \mathrm{i} \phi }
     \\
-    1 - z^{\pm 1} 
+    1 - e^{ \pm \mathrm{i} \phi } 
     & 
-    1 + z^{\pm 1} 
+    1 + e^{ \pm \mathrm{i} \phi } 
+  }
+  \right]
+  \\
+  \;=\;
+  \tfrac{1}{2}
+  e^{ \pm \mathrm{i} \phi/2 }
+  \left[
+  \array{
+    e^{ \mp \mathrm{i} \phi/2 } + e^{ \pm \mathrm{i} \phi/2 } 
+    & 
+    e^{ \mp \mathrm{i} \phi/2 } - e^{ \pm \mathrm{i} \phi/2 }
+    \\
+    e^{ \mp \mathrm{i} \phi/2 } - e^{ \pm \mathrm{i} \phi/2 } 
+    & 
+    e^{ \mp \mathrm{i} \phi/2 } + e^{ \pm \mathrm{i} \phi/2 } 
+  }
+  \right]
+  \\  
+  \;=\;
+  e^{ \pm \mathrm{i} \phi/2 }
+  \left[
+  \array{
+    cos(\phi/2) & \pm\mathrm{i}\,sin(\phi/2)
+    \\
+    \pm\mathrm{i}\,sin(\phi/2) & cos(\phi/2)
   }
   \right]
   \mathrlap{\,.}
+  \end{array}
 $$
 for 
 $$
-  z 
+  \phi
   \,\coloneqq\,
-  e^{\mathrm{i} \, arccos(1-2p)} 
+  arccos(1-2p)
   \,.
 $$
-Hence
-$$
-  flip(\rho)
-  \;=\;
-  \tfrac{1}{4}
+
+Hence a uniformly mixed unitary channel representation of the [[bit-flip quantum channel]] (eq:OrdinaryBitFlipChannel) is:
+\[
+  \label{UniformlyMixedUnitaryFormOfBitFliChannel}
+  \begin{array}{rcl}
+  flip_p(\rho)
+  &=&
+  \tfrac{1}{2}
+  \,
   \left[
   \array{
-    1 + z 
-    & 
-    1 - z 
+    cos(\phi/2) & -\mathrm{i}\,sin(\phi/2)
     \\
-    1 - z 
-    & 
-    1 + z 
+    -\mathrm{i}\,sin(\phi/2) & cos(\phi/2)
   }
   \right]
   \cdot 
@@ -477,26 +508,20 @@ $$
   \cdot
   \left[
   \array{
-    1 + \overline{z} 
-    & 
-    1 - \overline{z} 
+    cos(\phi/2) & +\mathrm{i}\,sin(\phi/2)
     \\
-    1 - \overline{z} 
-    & 
-    1 + \overline{z} 
+    +\mathrm{i}\,sin(\phi/2) & cos(\phi/2)
   }
   \right]
-  \;+\;
-  \tfrac{1}{4}
+  \\
+  &+&
+  \tfrac{1}{2}
+  \,
   \left[
   \array{
-    1 + \overline{z} 
-    & 
-    1 - \overline{z} 
+    cos(\phi/2) & +\mathrm{i}\,sin(\phi/2)
     \\
-    1 - \overline{z} 
-    & 
-    1 + \overline{z} 
+    +\mathrm{i}\,sin(\phi/2) & cos(\phi/2)
   }
   \right]
   \cdot 
@@ -504,18 +529,22 @@ $$
   \cdot
   \left[
   \array{
-    1 + z 
-    & 
-    1 - z 
+    cos(\phi/2) & -\mathrm{i}\,sin(\phi/2)
     \\
-    1 - z 
-    & 
-    1 + z 
+    -\mathrm{i}\,sin(\phi/2) & cos(\phi/2)
   }
   \right]
-  \mathrlap{\,.}
-$$
-With (eq:CouplingMatrixForUniformMixedUnitaryChannel) this uniform mixed unitary presentation immediately gives the unistochastic presentation of the bit-flip channel. 
+  \mathrlap{\,,}
+  \\
+  &&
+  \text{where}\;
+  \phi
+  \,\equiv\,
+  arccos(1-2p)
+  \text{.}
+  \end{array}
+\]
+With (eq:CouplingMatrixForUniformMixedUnitaryChannel) this uniformly mixed unitary presentation immediately gives the unistochastic presentation of the bit-flip channel. 
 \end{example}
 
 ## References
