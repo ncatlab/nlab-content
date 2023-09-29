@@ -87,4 +87,7 @@ Since all the categories involved were groupoids (except possibly $P$), the same
 
 * [[Ho(CombModCat)]]
 
+[[!include categories of categories - contents]]
+
+
 category: category
