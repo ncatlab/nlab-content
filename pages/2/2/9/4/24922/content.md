@@ -143,7 +143,7 @@ $$
  
 ## References
 
-* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §8.3.3 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §8.1 and §8.3.3 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
 * {#Chuang11} [[Isaac L. Chuang]], *Quantum error correction*, Chapter 7 in: *Quantum Machines: Measurement and Control of Engineered Quantum Systems* Lecture Notes of the Les Houches Summer School **96** (2011) 273–320  &lbrack;[doi:10.1093/acprof:oso/9780199681181.003.0007](https://doi.org/10.1093/acprof:oso/9780199681181.003.0007)&rbrack;
 
