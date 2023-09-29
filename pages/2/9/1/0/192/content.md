@@ -118,15 +118,9 @@ In constructive mathematics, $\mathcal{P}$ defines an equivalence of $\Set$ with
 
 * A variant of $Set$ where [[functions]] are generalized to [[relations]] is _[[Rel]]_.
 
-In [[higher category theory]] the role of _$Set$_ is played for instance by
 
-* [[Pos]]
+[[!include categories of categories - contents]]
 
-* [[Grpd]], [[∞Grpd]]
-
-* [[Cat]],  [[(∞,1)Cat]]
-
-* [[(∞,n)Cat]]
 
 ## References
 
