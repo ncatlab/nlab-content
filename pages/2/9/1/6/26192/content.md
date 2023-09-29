@@ -274,13 +274,13 @@ shows that this works for
   D_11 \overline{D_22}
   \mathrlap{\,.}
 \]
-which always has a solution for $\phi_i$ ([M-H & P 19, p. 3](#Müller-HermesPerry19)).
+which always has a solution for the $\phi_i$ ([M-H & P 19, p. 3](#Müller-HermesPerry19)).
 
 Finally plugging back into (eq:IntermediateStepInQBitArgument) shows that the desired uniformly distributed unitaries may be taken to be:
 $$
   \label{UniformUnitariesInQBitCase}
   U'_i
-  \;\;=\;\;
+  \;\;\coloneqq\;\;
   U_1
   \cdot
   S
