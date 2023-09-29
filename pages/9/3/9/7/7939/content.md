@@ -43,6 +43,8 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 * [[spin resonance qbit]]
 
+* [[one clean qbit]]
+
 * [[Pauli gate]]
 
 * [[bit]], [[truth value]]
