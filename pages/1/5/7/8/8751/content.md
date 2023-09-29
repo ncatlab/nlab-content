@@ -11,6 +11,8 @@
 
 * [[Cat]]
 
+  * [[Ho(Cat)]]
+
   * [[AccCat]]
 
   * [[PrCat]]
@@ -29,7 +31,7 @@
 
 * [[2Cat]]
 
-* [[CombModCat]]
+* [[ModCat]], [[CombModCat]]
 
 * [[(∞,1)Cat]]
 
