@@ -39,6 +39,8 @@ $$
 * [[Grothendieck construction for model categories]]
 
 
+[[!include categories of categories - contents]]
+
 ## References
 
 The [[2-category]] of [[model categories]], left-pointing [[Quillen adjunctions]] and [[conjugate transformations of adjoints]] is considered in:
