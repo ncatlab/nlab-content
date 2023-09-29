@@ -551,7 +551,7 @@ With (eq:CouplingMatrixForUniformMixedUnitaryChannel) this uniformly mixed unita
 
 ### DQC1 computation
 
-The exploration of the possibilities of [[quantum computing]]/[[quantum information theory]] with (a few or even just single) "clean" [[qubits]] coupled to a maximally mixed environment goes back to
+The exploration of the possibilities of [[quantum computing]]/[[quantum information theory]] with (a few or even just single) "clean" [[qubits]] coupled to a [[maximally mixed state]] environment goes back to
 
 * {#KnillLaflamme98} [[Emanuel Knill]], [[Raymond Laflamme]], *On the Power of One Bit of Quantum Information*, Phys. Rev. Lett. **81** (1998) 5672-5675 &lbrack;[arXiv:quant-ph/9802037](https://arxiv.org/abs/quant-ph/9802037), [doi:10.1103/PhysRevLett.81.5672](https://doi.org/10.1103/PhysRevLett.81.5672)&rbrack;
 
