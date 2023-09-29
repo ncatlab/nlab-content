@@ -29,6 +29,8 @@
 
 * [[2Cat]]
 
+* [[CombModCat]]
+
 * [[(∞,1)Cat]]
 
   * [[Pr(∞,1)Cat]]
