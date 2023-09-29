@@ -745,46 +745,6 @@ $$
 $$
 
 
-## Properties
-
-\begin{proposition}
-\label{QuantumStoreDistributesOverQuantumReader}
-  For $\mathscr{H}$ a dualizable linear type and $W$ a finite classical type, the $\mathscr{H}$QuantumState comonad $\mathscr{H}^\ast Store$ [[distributivity law|distributes]] over the $W$[[quantum reader monad|QuantumReader monad]] $\bigcirc_W$.
-\end{proposition}
-\begin{proof}
-  The distributivity structure and its relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93)) all come from the the distribitivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). For definiteness, we spell it out in detail:
-
-The distributivity structure is this:
-
-\begin{imagefromfile}
-    "file_name": "DistrStrucQuantumStoreOverQuantumReader-230929.jpg",
-    "width": 800,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 0
-    }
-\end{imagefromfile}
-
-Its consistency conditions are exhibited by the following diagrams, whose communtativity is immediate in components, as shown:
-
-\begin{imagefromfile}
-    "file_name": "DistrCondQuantumStoreOverQuantumReader-230929.jpg",
-    "width": 700,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 0
-    }
-\end{imagefromfile}
-
-
-\end{proof}
-
 
 ## Examples
 
@@ -1456,6 +1416,85 @@ $$
 $$
 
 is of course the [[Heisenberg picture]]-evolution of [[quantum observables]] $A$ under unitary transformations $U$ of the [[quantum states]].
+
+\end{example}
+
+
+## Properties
+
+### Interaction with QuantumReader monad
+
+\begin{proposition}
+\label{QuantumStoreDistributesOverQuantumReader}
+  For $\mathscr{H}$ a dualizable linear type and $W$ a finite classical type, the $\mathscr{H}$QuantumState comonad $\mathscr{H}^\ast Store$ [[distributivity law|distributes]] over the $W$[[quantum reader monad|QuantumReader monad]] $\bigcirc_W$.
+\end{proposition}
+\begin{proof}
+  The distributivity structure and its relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93)) all come from the the distribitivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). For definiteness, we spell it out in detail:
+
+The distributivity structure is this:
+
+\begin{imagefromfile}
+    "file_name": "DistrStrucQuantumStoreOverQuantumReader-230929.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+Its consistency conditions are exhibited by the following diagrams, whose communtativity is immediate in components, as shown:
+
+\begin{imagefromfile}
+    "file_name": "DistrCondQuantumStoreOverQuantumReader-230929.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+\end{proof}
+
+\begin{example}
+\label{QuantumStateReaderKleisliCategory}
+  The double-[[Kleisli category]] induced by Prop. \ref{QuantumStoreDistributesOverQuantumReader} (via [Brookes & Van Stone 1993 Thm. 2](distributivity+law#BrookesVanStone93)) equivalently has (by arguing $W$-wise just as in Prop. \ref{KleisliCompositionIsSuperoperatorComposition}):
+
+* as morphisms $W$-indexed sets of linear operators 
+
+
+\begin{imagefromfile}
+    "file_name": "QuantumStateReaderKleisliMap-230929b.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+* with composition given by their $W$-wise operator products
+
+\begin{imagefromfile}
+    "file_name": "QuantumStateReaderKleisliComposition-230929b.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
 
 \end{example}
 
