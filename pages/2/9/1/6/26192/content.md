@@ -60,15 +60,11 @@ The communities using these different terminologies for closely related ideas ma
 \end{remark}
 
 
-## Properties
+## Examples
 
-\begin{proposition}
-  \label{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}
-  On a single [[qbit]], every [[mixed unitary quantum channel]]  is a unistochastic channel.
-\end{proposition}
-([Müller-Hermes & Perry 2019, Cor 1.4](#Müller-HermesPerry19))
-\begin{proof}
-  First observe that a mixed unitary channel for a *uniform* probability distribution, i.e. one of the form
+\begin{example}
+\label{UniformlyMixedUnitaryChannelsAreUnistochastic}
+Any [[mixed unitary quantum channel]] for a *uniform* [[probability distribution]], i.e. one of the form
 $$
   \rho
   \;\mapsto\;
@@ -77,16 +73,23 @@ $$
   \,
   U_s \cdot \rho \cdot U_s^\dagger,
   \;\;\;\;
-  \text{for unitaries}\; (U_s)_{s \colon S}
   \,,
+$$
+for unitaries
+$$
+  s\,\colon\, S
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  U_s \,\colon\, \mathscr{H}_1 \to \mathscr{H}_2
 $$
 is unistochastic, as evidently exhibited by the following coupling unitary
 $$
   U_tot
   \;\colon\;
-  QBit \otimes \underset{S}{\oplus} \mathbb{C}
+  \mathscr{H}_1 \otimes \underset{S}{\oplus} \mathbb{C}
   \to
-  QBit \otimes \underset{S}{\oplus} \mathbb{C}
+  \mathscr{H}_2 \otimes \underset{S}{\oplus} \mathbb{C}
 $$
 \[
   \label{CouplingMatrixForUniformMixedUnitaryChannel}
@@ -101,7 +104,16 @@ $$
   \left\langle s \right\vert
   \mathrlap{\,.}
 \]
-Therefore one is reduced to showing that on QBits every mixed unitary quantum channel equals one with uniformly distributed unitaries (this is [M-H & P 19, Thm. 1.2](#Müller-HermesPerry19)). We further spell out the case where there are two unitaries to start with ([M-H & P 19, Lem. 1.1](#Müller-HermesPerry19)):
+\end{example}
+(cf. [Müller-Hermes & Perry 2019, proof of Cor. 1.4](#Müller-HermesPerry19))
+
+\begin{proposition}
+  \label{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}
+  On a single [[qbit]], every [[mixed unitary quantum channel]]  is a unistochastic channel.
+\end{proposition}
+([Müller-Hermes & Perry 2019, Cor 1.4](#Müller-HermesPerry19))
+\begin{proof}
+By Exp. \ref{UniformlyMixedUnitaryChannelsAreUnistochastic} one is reduced to showing that on QBits every mixed unitary quantum channel equals one with uniformly distributed unitaries (this is [M-H & P 19, Thm. 1.2](#Müller-HermesPerry19)). We further spell out the case where there are two unitaries to start with ([M-H & P 19, Lem. 1.1](#Müller-HermesPerry19)):
 
 So let the mixed unitary channel be given by
 $$
@@ -300,7 +312,6 @@ $$
 
 
 
-## Examples
 
 \begin{example}
 \label{BitFlipAsUnistochasticChannel}
@@ -322,8 +333,7 @@ The [[bit-flip quantum channel]]
     p \, X \cdot \rho \cdot X
   }
 \]
-is unistochastic
-  (by Prop. \ref{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}, since it is manifestly [[mixed unitary quantum channel|mixed unitary]]).
+is unistochastic, by Exp. \ref{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}, since it is manifestly [[mixed unitary quantum channel|mixed unitary]].
 
 Explicitly, the unitary $S$ (eq:DiagonalizingOperatorInQBitArgument) in this case may be taken to be
 $$
