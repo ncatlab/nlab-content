@@ -137,21 +137,21 @@ See also the commented list of problems at:
 
 * Does [[cubical type theory]] with [[regularity]] have an [[algorithm]] to compute [[normal forms]]?
 
-## In objective type theory
+## In weak type theory
 
-* Does [[univalence]] imply [[function extensionality]] for types in the universe in [[objective type theory]]?
+* Does [[univalence]] imply [[function extensionality]] for types in the universe in [[weak type theory]]?
 
-* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[objective type theory]]?
+* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[weak type theory]]?
 
-* How much of the [[HoTT book]] could be done in [[objective type theory]]?
+* How much of the [[HoTT book]] could be done in [[weak type theory]]?
 
-* Does [[objective type theory]] have [[homotopy canonicity]] and [[normalization]]?
+* Does [[weak type theory]] have [[homotopy canonicity]] and [[normalization]]?
 
-* What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[objective type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
+* What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[weak type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
 
-* Is [[weak function extensionality]] equivalent to [[function extensionality]] in [[objective type theory]]?
+* Is [[weak function extensionality]] equivalent to [[function extensionality]] in [[weak type theory]]?
 
-* Does [[product extensionality]] hold in [[objective type theory]]? Namely, given types $A$ and $B$ and elements $a:A \times B$ and $b:A \times B$, is the canonical function $\mathrm{idtoprojectionids}:(a =_{A \times B} b) \to (\pi_1(a) \simeq \pi_1(b)) \times (\pi_2(a) \simeq \pi_2(b))$ an [[equivalence of types]]?
+* Does [[product extensionality]] hold in [[weak type theory]]? Namely, given types $A$ and $B$ and elements $a:A \times B$ and $b:A \times B$, is the canonical function $\mathrm{idtoprojectionids}:(a =_{A \times B} b) \to (\pi_1(a) \simeq \pi_1(b)) \times (\pi_2(a) \simeq \pi_2(b))$ an [[equivalence of types]]?
 
 ## Formalization
 
