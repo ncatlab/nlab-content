@@ -37,7 +37,7 @@ As we will explain in more detail below, [[representable functor|representable p
 
 $$i: C \to \bar{C}$$ 
 
-and we say the $V$-category $C$ is **Cauchy-complete** if this embedding is an equivalence. We work through a few examples in the following section. 
+and we say the $V$-category $C$ is **Cauchy complete** if this embedding is an equivalence. We work through a few examples in the following section. 
 
 
 ## In ordinary category theory
@@ -271,7 +271,7 @@ The converse inclusion is now immediate by the same arguments: since the objects
 =--
 
 Write $Cat_{Cauchy} \hookrightarrow$ [[Cat]] for the [[full sub-2-category]]
-of [[Cat]] on the Cauchy-complete categories.
+of [[Cat]] on the Cauchy complete categories.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -304,7 +304,7 @@ $$
 ###### Proof
 
 We first claim that when working with all categories
-instead of just the Cauchy-complete categories 
+instead of just the Cauchy complete categories 
 there is a [[2-adjunction]]
 
 $$
@@ -352,7 +352,7 @@ $$
 $$
 
 are [[equivalence of categories|equivalences]] precisely if $C$ is 
-Cauchy-complete. This means that restricted along 
+Cauchy complete. This means that restricted along 
 $Cat_{Cauchy} \hookrightarrow Cat$ the adjunction exhibits a coreflective embedding.
 
 =--
@@ -433,7 +433,7 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 * In the $\infty$-categorical context, we can consider enrichment in the $\infty$-category of [[spectra]]. The Cauchy completion of an $\infty$-category enriched in spectra is its completion under _all finite colimits_.
 
-* Generalizing to bicategorical enrichment, we can construct from a [[site]] $(\mathcal{C}, J)$ a certain bicategory $\mathcal{W}$ such that the Cauchy-complete, symmetric, skeletal $\mathcal{W}$-categories are just the sheaves on $(\mathcal{C}, J)$. Variations on this theme can yield $\mathcal{C}$-indexed categories, stacks, prestacks, or presheaves as Cauchy completions or sub-Cauchy completions for categories enriched in certain bicategories.
+* Generalizing to bicategorical enrichment, we can construct from a [[site]] $(\mathcal{C}, J)$ a certain bicategory $\mathcal{W}$ such that the Cauchy complete, symmetric, skeletal $\mathcal{W}$-categories are just the sheaves on $(\mathcal{C}, J)$. Variations on this theme can yield $\mathcal{C}$-indexed categories, stacks, prestacks, or presheaves as Cauchy completions or sub-Cauchy completions for categories enriched in certain bicategories.
 
 Now we look at two examples in more detail: metric spaces and ordinary categories.
 
