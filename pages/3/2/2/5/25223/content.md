@@ -149,3 +149,12 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma
 * [[set-level type theory]]
 
 [[!redirects axioms of set truncation]]
+
+[[!redirects set truncation axiom]]
+[[!redirects set truncation axioms]]
+
+[[!redirects rule of set truncation]]
+[[!redirects rules of set truncation]]
+
+[[!redirects set truncation rule]]
+[[!redirects set truncation rules]]
