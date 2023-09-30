@@ -92,6 +92,8 @@ The distributivity law of
 
 * a comonad $\mathcal{C}$ 
 
+on the same [[category]] $\mathbf{C}$
+
 is as follows ([Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93)):
 
 A [[natural transformation]]
@@ -124,6 +126,41 @@ such that the following [[commuting diagram|diagrams commute]] for all objects $
         "left": 0
     }
 \end{imagefromfile}
+
+{#TwoSidedKleisliComposition} Given this distributivity structure, there is a two-sided ("double") [[Kleisli category]] ([Brookes & Van Stone 1993 Thm. 2](#BrookesVanStone93)) whose [[objects]] are those of $\mathbf{C}$, and whose morphisms $D_1 \to D_2$ are morphisms in $\mathbf{C}$ of the form
+$$
+  prog_{12}
+  \;\colon\;
+  \mathcal{C}(D_1) 
+    \longrightarrow 
+  \mathcal{E}(D_2)
+$$
+with two-sided Kelisli composition
+
+$$
+  prog_{12} \text{>=>} prog_{23}
+  \;\;
+  \colon
+  \;\;
+  \mathcal{C}(D_1)
+  \longrightarrow
+  \mathcal{E}(D_3)
+$$
+
+given by the (co-)[[Kleisli extension|bind-operation]] on the factors connected by the distributivity transformation:
+
+\begin{imagefromfile}
+    "file_name": "CoMonKleisliComposition-230930b.pdf",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
 
 
 ##Examples##
@@ -168,11 +205,11 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * {#Street72} [[Ross Street]], §6 of: *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
 
-* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Springer (1985) republished in: Reprints in Theory and Applications of Categories, **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Springer (1985) republished in: [[TAC reprints series|Reprints in Theory and Applications of Categories]], **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html), [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
  
-  ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
 
-* {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf)&rbrack;
+* {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[BrookesVanStone-CoMonads.pdf:file]]&rbrack;
+
 
 * [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
 
