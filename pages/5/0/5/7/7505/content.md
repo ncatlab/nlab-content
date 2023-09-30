@@ -30,11 +30,11 @@ In [[denotational semantics]], positive types behave well with respect to "[[cal
 * [[inductive type]]
   * [[sum type]]
   * [[product type]] (but see below)
-  * [[dependent sum type]]
+  * [[dependent sum type]] (but see below)
   * [[empty type]]
-  * [[unit type]]
+  * [[unit type]] (but see below)
   * [[identity type]]
 
-* cartesian [[product types]] can be presented both positively (as a particular inductive type) and negatively.  The two definitions are equivalent in ordinary type theory, but distinct in [[linear logic]].  The same is true for binary [[sum types]] if we allow [[sequents]] with multiple conclusions.
+* [[unit types]], [[dependent sum types]] and cartesian [[product types]] can be presented both positively (as a particular inductive type) and negatively.  The two definitions are equivalent in ordinary type theory, but distinct in [[linear logic]].  The same is true for binary [[sum types]] if we allow [[sequents]] with multiple conclusions.
 
 [[!redirects positive types]]
