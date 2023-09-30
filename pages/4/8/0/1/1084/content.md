@@ -38,7 +38,7 @@ The dual notion is that of [[mapping cocone]].
 
 The mapping cone construction is a means to _present_ in a [[category with weak equivalences]] the following canonical
 construction in [[homotopy theory]]/[[(∞,1)-category theory]].
-the 
+
 +-- {: .num_defn #InfinityCokernel}
 ###### Definition
 
