@@ -150,7 +150,7 @@ Just as the [[Kleisli object]] of a monad $t$ in a 2-category $K$ can be defined
 
 [[Steve Lack]] has shown how Eilenberg--Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
 
-* [[Steve Lack]], _Limits for lax morphisms_ , Applied Categorical Structures __13__:3 (2005) , pp. 189--203(15) 
+* [[Steve Lack]], _Limits for lax morphisms_, Applied Categorical Structures __13__:3 (2005) , pp. 189--203(15) 
 
 This encompasses for example the theory of (op)monoidal monads and corresponding monoidal Eilenberg--Moore categories.
 
