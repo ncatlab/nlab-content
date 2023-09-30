@@ -26,11 +26,9 @@
 
 ## Idea
 
-**Objective type theory**, also known as **propositional type theory** or **weak type theory**, is a [[dependent type theory]] without [[judgmental equality]]. 
+**Objective type theory** is a [[dependent type theory]] without [[judgmental equality]]. 
 
-This means that the computation and uniqueness rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all typal computational and uniqueness rules using the [[identity type]], and in particular means that the identity type has to be introduced at the same time the dependent function type is introduced. As a result, the results in objective type theory are more general than in models which use judgmental equality for computational and uniqueness rules, since judgmental equality implies typal equality, while the converse isn't necessarily the case. 
-
-In addition, objective type theory is similar to other non-type theory foundations such as the various flavors of set theory, since it also only has one notion of equality, propositional equality, and uses propositional equality in [[definitions]]. 
+This means that in additon to being a [[weak type theory]], where the computation and uniqueness rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computational and uniqueness rules using the [[identity type]], objective type theory is similar to other non-type theory foundations such as the various flavors of set theory, since it also only has one notion of equality, propositional equality, and uses propositional equality in [[definitions]]. 
 
 Objective type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
 
@@ -514,29 +512,9 @@ $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 
 The fragment of objective type theory consisting of only [[identity types]] and [[dependent product types]] can be interpreted in any [[path category]] with weak homotopy $\Pi$-types. 
 
-## Open problems
-
-There are plenty of questions which are currently unresolved in objective type theory. Van der Berg and Besten in particular listed the following problems in their article:
-
-* Does [[univalence]] imply [[function extensionality]] for types in the universe in [[objective type theory]]?
-
-* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[objective type theory]]?
-
-* How much of the [[HoTT book]] could be done in [[objective type theory]]?
-
-* Does [[objective type theory]] have [[homotopy canonicity]] and [[normalization]]?
-
-Other problems include
-
-* What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[objective type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
-
-* Is [[weak function extensionality]] equivalent to [[function extensionality]] in [[objective type theory]]?
-
-* Does [[product extensionality]] hold in [[objective type theory]]? Namely, given types $A$ and $B$ and elements $a:A \times B$ and $b:A \times B$, is the canonical function $\mathrm{idtoprojectionids}:(a =_{A \times B} b) \to (\pi_1(a) \simeq \pi_1(b)) \times (\pi_2(a) \simeq \pi_2(b))$ an [[equivalence of types]]?
-
-See also [[open problems in homotopy type theory]]
-
 ## See also
+
+* [[weak type theory]]
 
 * [[judgmental equality]], [[identity type]]
 
@@ -548,20 +526,6 @@ The original paper on this topic:
 
 * {#BB21} [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
 
-Talks at Strength of Weak Type Theory, hosted by [[DutchCATS]]:
-
-* [[Daniël Otten]], *Models for Propositional Type Theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_otten.pdf))
-
-* [[Théo Winterhalter]], *A conservative and constructive translation from extensional type theory to weak type theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf))
-
-* [[Sam Speight]], *Higher-Dimensional Realizability for Intensional Type Theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_speight.pdf))
-
-* [[Matteo Spadetto]], *Weak type theories: a conservativity result for homotopy elementary types*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_spadetto.pdf))
-
-* [[Benno van den Berg]], *Towards homotopy canonicity for propositional type theory*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_van_den_berg.pdf))
-
-* [[Rafaël Bocquet]], *Towards coherence theorems for equational extensions of type theories*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_bocquet.pdf))
-
 General dependent type theory references used for the formalizations of objective type theory in this article:
 
 * {#UFP13} *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
@@ -572,7 +536,3 @@ General dependent type theory references used for the formalizations of objectiv
 
 [[!redirects objective type theory]]
 [[!redirects objective type theories]]
-[[!redirects propositional type theory]]
-[[!redirects propositional type theories]]
-[[!redirects weak type theory]]
-[[!redirects weak type theories]]
