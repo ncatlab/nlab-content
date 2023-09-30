@@ -94,7 +94,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \eta_{A \to B}(f):f =_{A \to B} \lambda(x:A).f(x)}$$
 
-Weak function types appear in some [[weak type theories]]. 
+Weak function types appear in [[weak type theories]]. 
 
 This contrasts with **strict function types** which use judgmental computation and uniqueness rules:
 
