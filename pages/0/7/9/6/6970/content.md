@@ -86,6 +86,26 @@ The conversion rules also correspond.
 
 In dependent type theory, this definition of $funsplit$ only gives us a properly typed dependent eliminator if the negative function type satisfies $\eta$-conversion.  As usual, if it satisfies [propositional eta-conversion](/nlab/show/eta-conversion#Propositional) then we can transport along that instead---and conversely, the dependent eliminator allows us to prove propositional $\eta$-conversion.  This is the content of Propositions 3.5, 3.6, and 3.7 in [(Garner)](#GarnerSDP).
 
+### Weak and strict function types
+
+In [[dependent type theory]], **weak function types** are function types for which the [[computation rules]] ($\beta$-conversion) and [[uniqueness rules]] ($\eta$-conversion) are propositional rather than judgmental:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B}{\Gamma, a:A \vdash \beta_{A \to B}^{x:A.b(x)}(a):(\lambda(x:A).b(x))(a) =_{B} b(a)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \eta_{A \to B}(f):f =_{A \to B} \lambda(x:A).f(x)}$$
+
+Weak function types appear in some [[weak type theories]]. 
+
+This contrasts with **strict function types** which use judgmental computation and uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B}{\Gamma, a:A \vdash (\lambda(x:A).b(x))(a) \equiv b(a):B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash f \equiv \lambda(x:A).f(x):A \to B}$$
+
+Strict function types appear in most dependent type theories such as [[Martin-Löf type theory]], [[observational type theory]], and [[cubical type theory]].
+
+For strict function types, the judgmental computation and uniqueness rules automatically imply the propositional computation and uniqueness rules, as by the rules for [[judgmental equality]] and [[identity types]], judgmental equality of two terms always implies propositional equality of the two terms. 
+
 ### As a special case of the dependent product
 
 In [[dependent type theory]] a function type $A \to B$ is the
@@ -139,6 +159,266 @@ $$
 
 See also at _[[function monad]]_.
 
+### Categorical structure of function types 
+
+Function types have a [[category|categorical structure]]: they have [[identity functions]] and [[function composition]] which together satisfy the associative and unital laws:
+
+* For strict function types, the associative and unital laws are represented by judgmental equality
+
+* For weak function types, the associative and unital laws are represented by [[associator]] and [[unitor]] [[homotopies]], and, assuming [[function extensionality]], also by [[associator]] and [[unitor]] [[identifications]]. In addition, there is also an infinite tower of [[coherence laws]] representing the [[(infinity,1)-category|$(\infty,1)$-categorical structure]] of function types by constructing the [[pentagonator]] and so forth, but this isn't demonstrated in this section, and is unnecessary in the presence of a [[set truncation axiom]] like [[UIP]] or [[axiom K]]. 
+
+#### Strict function types
+
+To be done, but for now see section 2.2 of [Rijke 2022](#Rijke22). 
+
+#### Weak function types
+
+Here we assume that dependent function types still use judgmental computation and uniqueness rules, and for constant type families $x:A \vdash B$ the type $\prod_{x:A} B$ still represents strict function types. 
+
+\begin{definition}
+Given a type $A$, we define the **identity function** on $A$ as the function
+
+$$\mathrm{id}_A \equiv \lambda (x:A).x:A \to A$$
+\end{definition}
+
+\begin{theorem}
+By the computation rules for weak function types, the identity function on a type $A$ comes with a dependent function
+
+$$\beta_{A \to A}^{x:A.x}:\prod_{x:A} \mathrm{id}_A(x) =_{A} x$$
+\end{theorem}
+
+\begin{definition}
+Given types $A$, $B$, and $C$ and functions $f:A \to B$, and $g:B \to C$, **function composition** of $f$ and $g$ is defined as
+
+$$g \circ_{A, B, C} f \equiv \lambda (x:A).g(f(x)):A \to C$$
+\end{definition}
+
+\begin{theorem}
+By the computation rules for weak function types, function composition comes with a dependent function 
+
+$$\beta_{A \to C}^{x:A.g(f(x))}:\prod_{x:A} (g \circ_{A, B, C} f)(x) =_{C} g(f(x))$$
+\end{theorem}
+
+\begin{theorem}
+For all types $A$ and $B$ and functions $f:A \to B$, the dependent function type
+
+$$\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)$$
+
+has a homotopy. 
+\end{theorem}
+
+\begin{proof}
+By the computation rule for weak function types, there is a homotopy
+
+$$\beta_{A \to B}^{x:A.\mathrm{id}_B(f(x))}:\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} \mathrm{id}_B(f(x))$$
+
+and a homotopy
+
+$$\beta_{B \to B}^{x:A.f(x)}:\prod_{x:A} \mathrm{id}_B(f(x)) =_{B} f(x)$$
+
+Now, by concatenating the individual identifications together and then using lambda abstraction, we have the homotopy
+
+$$\lambda (x:A).\beta_{A \to B}^{x:A.\mathrm{id}_B(f(x))}(x) \bullet \beta_{B \to B}^{x:A.f(x)}(x):\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)$$
+\end{proof}
+
+\begin{definition}
+For types $A$ and $B$ and function $f:A \to B$, we define the **left unitor homotopy** as the homotopy 
+
+$$\mathrm{lunith}_{A, B}(f) \equiv \lambda (x:A).\beta_{A \to B}^{x:A.\mathrm{id}_B(f(x))}(x) \bullet \beta_{B \to B}^{x:A.f(x)}(x):\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)$$
+\end{definition}
+
+\begin{theorem}
+For all types $A$ and $B$ and functions $f:A \to B$, the dependent function type
+
+$$\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)$$
+
+has a homotopy. 
+\end{theorem}
+
+\begin{proof}
+By the computation rule for weak function types, there is a homotopy
+
+$$\beta_{A \to B}^{x:A.f(\mathrm{id}_A(x))}:\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(\mathrm{id}_A(x))$$
+
+and also by the action on identifications of the function $f:A \to B$, a homotopy
+
+$$\lambda (x:A).\mathrm{ap}_B(f, \mathrm{id}_A(x), x, \beta_{A \to A}^{x:A.x}(x)):\prod_{x:A} f(\mathrm{id}_A(x)) =_{B} f(x)$$
+
+Now, by concatenating the individual identifications together and then using lambda abstraction, we have the homotopy
+
+$$\lambda (x:A).\beta_{A \to B}^{x:A.f(\mathrm{id}_A(x))}(x) \bullet \mathrm{ap}_B(f, \mathrm{id}_A(x), x, \beta_{A \to A}^{x:A.x}(x)):\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)$$
+\end{proof}
+
+\begin{definition}
+For types $A$ and $B$ and function $f:A \to B$, we define the **right unitor homotopy** as the homotopy 
+
+$$\mathrm{runith}_{A, B}(f) \equiv \lambda (x:A).\beta_{A \to B}^{x:A.f(\mathrm{id}_A(x))}(x) \bullet \mathrm{ap}_B(f, \mathrm{id}_A(x), x, \beta_{A \to A}^{x:A.x}(x)):\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)$$
+\end{definition}
+
+\begin{theorem}
+For all types $A$, $B$, $C$, and $D$, and functions $f:A \to B$, $g:B \to C$, and $h:C \to D$, the dependent function type
+
+$$\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)$$
+
+has a homotopy. 
+\end{theorem}
+
+\begin{proof}
+By the computation rule for weak function types, there are homotopies
+
+$$\beta_{A \to D}^{x:A.h((g \circ_{A, B, C} f)(x))}:\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} h((g \circ_{A, B, C} f)(x))$$
+
+$$\beta_{A \to D}^{x:A.(h \circ_{B, C, D} g)(f(x))}:\prod_{x:A} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x) =_{D} (h \circ_{B, C, D} g)(f(x))$$
+
+$$\beta_{A \to D}^{x:A.h(g(f(x)))}:\prod_{x:A} (h \circ_{B, C, D} g)(f(x)) =_{D} h(g(f(x)))$$
+
+and also by the action on identifications of the function $h:C \to D$, there is a homotopy
+
+$$\lambda (x:A).\mathrm{ap}_D(h, (g \circ_{A, B, C} f)(x), g(f(x)), \beta_{A \to C}^{x:A.g(f(x))}(x)):\prod_{x:A} h((g \circ_{A, B, C} f)(x)) =_{D} h(g(f(x))$$
+
+Now, by concatenating and inverting the individual identifications together and then using lambda abstraction, we have the homotopy
+
+$$\begin{array}{c}
+	\lambda (x:A).\beta_{A \to D}^{x:A.h((g \circ_{A, B, C} f)(x))}(x) \bullet \mathrm{ap}_D(h, (g \circ_{A, B, C} f)(x), g(f(x)), \beta_{A \to C}^{x:A.g(f(x))}(x)) \\
+	 \bullet \beta_{A \to D}^{x:A.h(g(f(x)))}(x)^{-1} \bullet \beta_{A \to D}^{x:A.(h \circ_{B, C, D} g)(f(x))}(x)^{-1}:\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)
+\end{array}
+$$
+\end{proof}
+
+\begin{definition}
+For types $A$, $B$, $C$, and $D$ and functions $f:A \to B$, $f:B \to C$, and $h:C \to D$, we define the **associator homotopy** as the homotopy 
+
+$$\begin{array}{c}
+	\mathrm{assoch}_{A, B, C, D}(f, g, h) \equiv \lambda (x:A).\beta_{A \to D}^{x:A.h((g \circ_{A, B, C} f)(x))}(x) \bullet \mathrm{ap}_D(h, (g \circ_{A, B, C} f)(x), g(f(x)), \beta_{A \to C}^{x:A.g(f(x))}(x)) \\
+	 \bullet \beta_{A \to D}^{x:A.h(g(f(x)))}(x)^{-1} \bullet \beta_{A \to D}^{x:A.(h \circ_{B, C, D} g)(f(x))}(x)^{-1}:\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)
+\end{array}
+$$
+\end{definition}
+
+Now, recall that the happly function 
+
+$$\mathrm{happly}_{A, B}(f, g):f =_{A \to B} g \to \prod_{x:A} f(x) =_{B} g(x)$$
+
+is inductively defined by
+
+$$\mathrm{happly}_{A, B}(f, f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\mathrm{refl}_{B}(f(x)):\prod_{x:A} f(x) =_{B} g(x)$$
+
+[[function extensionality]] states that $\mathrm{happly}_{A, B}(f, g)$ is an [[equivalence of types]] for all functions $f:A \to B$ and $g:A \to B$
+
+$$\mathrm{funext}_{A, B}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{isEquiv}(\mathrm{happly}_{A, B}(f, g))$$
+
+Thus, there is an [[inverse function]] 
+
+$$\mathrm{happly}_{A, B}(f, g)^{-1}:\left(\prod_{x:A} \mathrm{Id}_{B}(f(x), g(x))\right) \to f =_{A \to B} g$$
+
+With function extensionality, we can now prove the associative and unital laws, showing that function are a category:
+
+\begin{theorem}
+Assuming function extensionality, for all types $A$ and $B$ and functions $f:A \to B$, the identity type
+
+$$\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
+
+has an identification.
+\end{theorem}
+
+\begin{proof}
+By function extensionality, the function 
+
+$$\mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f):(\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f) \to \prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)$$ 
+
+has an inverse function 
+
+$$\mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}:\left(\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)\right) \to (\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f)$$
+
+One then gets the identification
+
+$$\mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}(\mathrm{lunith}_{A, B}(f)):\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
+\end{proof}
+
+\begin{definition}
+For types $A$ and $B$ and function $f:A \to B$, we define the **left unitor** as the identification 
+
+$$\mathrm{lunit}_{A, B}(f) \equiv \mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}(\mathrm{lunith}_{A, B}(f)):\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
+\end{definition}
+
+\begin{theorem}
+Assuming function extensionality, for all types $A$ and $B$ and functions $f:A \to B$, the identity type
+
+$$f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
+
+has an identification.
+\end{theorem}
+
+\begin{proof}
+By function extensionality, the function 
+
+$$\mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f):(f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f) \to \prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)$$ 
+
+has an inverse function 
+
+$$\mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}:\left(\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)\right) \to (f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f)$$
+
+One then gets the identification
+
+$$\mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}(\mathrm{runith}_{A, B}(f)):f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
+\end{proof}
+
+\begin{definition}
+For types $A$ and $B$ and function $f:A \to B$, we define the **right unitor** as the identification 
+
+$$\mathrm{runit}_{A, B}(f) \equiv \mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}(\mathrm{runith}_{A, B}(f)):f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
+\end{definition}
+
+\begin{theorem}
+Assuming function extensionality, for all types $A$, $B$, $C$, and $D$ and functions $f:A \to B$, $f:B \to C$, and $h:C \to D$, the identity type
+
+$$h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f$$
+
+has an identification.
+\end{theorem}
+
+\begin{proof}
+By function extensionality, the function 
+
+$$
+\begin{array}{c}
+	\mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f): \\
+	(h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f) \\
+	\to \prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)
+\end{array}
+$$ 
+
+has an inverse function 
+
+$$
+\begin{array}{c}
+	\mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}: \\
+	\left(\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)\right) \\
+	\to (h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f)
+\end{array}
+$$ 
+
+One then gets the identification
+
+$$
+\begin{array}{c}
+	\mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}(\mathrm{assoch}_{A, B, C, D}(f, g, h)):\\
+	h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f
+\end{array}
+$$
+\end{proof}
+
+\begin{definition}
+For types $A$, $B$, $C$, and $D$ and functions $f:A \to B$, $f:B \to C$, and $h:C \to D$, we define the **associator** as the identification 
+
+$$
+\begin{array}{c}
+	\mathrm{assoc}_{A, B, C, D}(f, g, h) \equiv \mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}(\mathrm{assoch}_{A, B, C, D}(f, g, h)):\\
+	h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f
+\end{array}
+$$
+\end{definition}
+
 ### Application in logic
 
 In [[logic]], functions types express [[implication]]. More precisely, for $\phi, \psi$ two [[propositions]], under [[propositions as types]] the [[implication]] $\phi \Rightarrow \psi$ is the function type $\phi \to \psi$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
@@ -167,6 +447,10 @@ A textbook account in the context of [[programming languages]] is in section III
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
+Another textbook account could be found in section 2.2 of:
+
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
 See also
 
 * [[Richard Garner]], *On the strength of dependent products in the type theory of Martin-L&#246;f*.
@@ -174,3 +458,9 @@ See also
 
 [[!redirects function type]]
 [[!redirects function types]]
+
+[[!redirects strict function type]]
+[[!redirects strict function types]]
+
+[[!redirects weak function type]]
+[[!redirects weak function types]]
