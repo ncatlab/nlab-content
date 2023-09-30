@@ -289,6 +289,62 @@ This Kleisli composition plays an important role in [[computer science]]; for th
 =--
 
 
+
+
+### Two-sided Kleisli category
+ {#TwoSidedKleisliCategory}
+
+If in addition to the given monad $\mathcal{E}$ there is a [[comonad]] $\mathcal{C}$ on the same category $\mathbf{C}$, equipped with a [[distributivity law]] (see [there](distributive+law#MonadDistributingOverComonad))
+
+$$
+  distr^{\mathcal{C}, \mathcal{E}}
+  \;\;\colon\;\;
+  \mathcal{C}
+  \big(
+    \mathcal{E}(D)
+  \big)
+  \longrightarrow
+  \mathcal{E}
+  \big(
+    \mathcal{C}(D)
+  \big)
+$$
+
+then there is a two-sided ("double") [[Kleisli category]] ([Brookes & Van Stone 1993 Thm. 2](#BrookesVanStone93)) whose [[objects]] are those of $\mathbf{C}$, and whose morphisms $D_1 \to D_2$ are morphisms in $\mathbf{C}$ of the form
+$$
+  prog_{12}
+  \;\colon\;
+  \mathcal{C}(D_1) 
+    \longrightarrow 
+  \mathcal{E}(D_2)
+$$
+with two-sided Kelisli composition
+
+$$
+  prog_{12} \text{>=>} prog_{23}
+  \;\;
+  \colon
+  \;\;
+  \mathcal{C}(D_1)
+  \longrightarrow
+  \mathcal{E}(D_3)
+$$
+
+given by the (co-)[[Kleisli extension|bind-operation]] on the factors connected by the distributivity transformation:
+
+\begin{imagefromfile}
+    "file_name": "CoMonKleisliComposition-230930b.pdf",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
 ## Properties
 
 ### Universal properties
