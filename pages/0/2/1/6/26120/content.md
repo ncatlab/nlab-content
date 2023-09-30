@@ -1429,7 +1429,7 @@ is of course the [[Heisenberg picture]]-evolution of [[quantum observables]] $A$
   For $\mathscr{H}$ a dualizable linear type and $W$ a finite classical type, the $\mathscr{H}$QuantumState comonad $\mathscr{H}^\ast Store$ [[distributivity law|distributes]] over the $W$[[quantum reader monad|QuantumReader monad]] $\bigcirc_W$.
 \end{proposition}
 \begin{proof}
-  The distributivity structure and its relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93)) all come from the the distribitivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). For definiteness, we spell it out in detail:
+  The distributivity structure and its relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93), see [there](distributive+law#MonadDistributingOverComonad)) all come from the the distribitivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). For definiteness, we spell it out in detail:
 
 The distributivity structure is this:
 
