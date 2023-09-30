@@ -153,6 +153,8 @@ See also the commented list of problems at:
 
 * Does [[product extensionality]] hold in [[weak type theory]]? Namely, given types $A$ and $B$ and elements $a:A \times B$ and $b:A \times B$, is the canonical function $\mathrm{idtoprojectionids}:(a =_{A \times B} b) \to (\pi_1(a) \simeq \pi_1(b)) \times (\pi_2(a) \simeq \pi_2(b))$ an [[equivalence of types]]?
 
+* Is [[function extensionality]] still provable in weak [[cubical type theory]]?
+
 ## Formalization
 
 * Formalize the construction of models of type theory using [[contextual categories]].
