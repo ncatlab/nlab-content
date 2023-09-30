@@ -1448,8 +1448,8 @@ The distributivity structure is this:
 Its consistency conditions are exhibited by the following diagrams, whose communtativity is immediate in components, as shown:
 
 \begin{imagefromfile}
-    "file_name": "DistrCondQuantumStoreOverQuantumReader-230929.jpg",
-    "width": 700,
+    "file_name": "DistrCondQuantumStoreOverQuantumReader-230930.jpg",
+    "width": 750,
     "unit": "px",
     "margin": {
         "top": -20,
