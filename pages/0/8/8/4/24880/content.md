@@ -549,9 +549,31 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 \label{SymmetricMonoidalMonadStructure}
   The above quantum reader monad carries the [[structure]] of a [[symmetric monoidal functor|symmetric]] [[monoidal monad]] with respect to the [[tensor product of vector spaces]] (or whatever the [[tensor product]] of the given linear types) as follows:
 
-<center>
-<img src="/nlab/files/LaxMonoidalStructureOnQuantumReader-230903.jpg" width="850">
-</center>
+\begin{imagefromfile}
+    "file_name": "LaxMonoidalStructureOnQuantumReader-230930.jpg",
+    "width": 710,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+{#ComomoidalStructure} [[formal duality|Dually]], the quantum coreaders is comonoidal comonadic:
+
+\begin{imagefromfile}
+    "file_name": "LaxCoMonoidalStructureOnQuantumCoreader-230930.jpg",
+    "width": 710,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
 
 \end{proposition}
