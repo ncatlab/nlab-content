@@ -67,6 +67,7 @@ _[[relation between type theory and category theory]]_.
 ## Examples
 
 * [[objective type theory]]
+* [[weak type theory]]
 * [[book HoTT]]
 * [[Martin-Löf type theory]]
 * [[cubical type theory]]
