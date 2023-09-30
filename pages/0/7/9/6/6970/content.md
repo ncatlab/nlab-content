@@ -167,13 +167,7 @@ Function types have a [[category|categorical structure]]: they have [[identity f
 
 * For weak function types, the associative and unital laws are represented by [[associator]] and [[unitor]] [[homotopies]], and, assuming [[function extensionality]], also by [[associator]] and [[unitor]] [[identifications]]. In addition, there is also an infinite tower of [[coherence laws]] representing the [[(infinity,1)-category|$(\infty,1)$-categorical structure]] of function types by constructing the [[pentagonator]] and so forth, but this isn't demonstrated in this section, and is unnecessary in the presence of a [[set truncation axiom]] like [[UIP]] or [[axiom K]]. 
 
-#### Strict function types
-
-To be done, but for now see section 2.2 of [Rijke 2022](#Rijke22). 
-
-#### Weak function types
-
-Here we assume that dependent function types still use judgmental computation and uniqueness rules, and for constant type families $x:A \vdash B$ the type $\prod_{x:A} B$ still represents strict function types. 
+#### Strict function types 
 
 \begin{definition}
 Given a type $A$, we define the **identity function** on $A$ as the function
@@ -182,9 +176,9 @@ $$\mathrm{id}_A \equiv \lambda (x:A).x:A \to A$$
 \end{definition}
 
 \begin{theorem}
-By the computation rules for weak function types, the identity function on a type $A$ comes with a dependent function
+By the computation rules for strict function types, the identity function on a type $A$ comes with a family of judgmental equalities
 
-$$\beta_{A \to A}^{x:A.x}:\prod_{x:A} \mathrm{id}_A(x) =_{A} x$$
+$$x:A \vdash \mathrm{id}_A(x) \equiv x:A$$
 \end{theorem}
 
 \begin{definition}
@@ -194,9 +188,119 @@ $$g \circ_{A, B, C} f \equiv \lambda (x:A).g(f(x)):A \to C$$
 \end{definition}
 
 \begin{theorem}
-By the computation rules for weak function types, function composition comes with a dependent function 
+By the computation rules for strict function types, function composition comes with a family of judgmental equalities
 
-$$\beta_{A \to C}^{x:A.g(f(x))}:\prod_{x:A} (g \circ_{A, B, C} f)(x) =_{C} g(f(x))$$
+$$x:A \vdash (g \circ_{A, B, C} f)(x) \equiv g(f(x)):C$$
+\end{theorem}
+
+\begin{theorem}
+For all types $A$ and $B$ and functions $f:A \to B$, there is a family of judgmental equalities
+
+$$x:A \vdash (\mathrm{id}_B \circ_{A, B, B} f)(x) \equiv f(x):B$$
+\end{theorem}
+
+\begin{proof}
+By the computation rule for strict function types, there is a family of judgmental equalities
+
+$$x:A \vdash (\mathrm{id}_B \circ_{A, B, B} f)(x) \equiv \mathrm{id}_B(f(x)):B$$
+
+and a family of judgmental equalities
+
+$$x:A \vdash \mathrm{id}_B(f(x)) \equiv f(x):B$$
+
+Now, by the [[structural rules]] for [[judgmental equality]], there is a family of judgmental equalities
+
+$$x:A \vdash (\mathrm{id}_B \circ_{A, B, B} f)(x) \equiv f(x):B$$
+\end{proof}
+
+\begin{theorem}
+For all types $A$ and $B$ and functions $f:A \to B$, there is a family of judgmental equalities
+
+$$x:A \vdash (f \circ_{A, A, B} \mathrm{id}_A)(x) \equiv f(x):B$$
+\end{theorem}
+
+\begin{proof}
+By the computation rule for strict function types, there is a family of judgmental equalities
+
+$$x:A \vdash (f \circ_{A, A, B} \mathrm{id}_A)(x) \equiv f(\mathrm{id}_A(x)):B$$
+
+and a family of identifications
+
+$$x:A \vdash f(\mathrm{id}_A(x)) \equiv f(x):B$$
+
+Now, by the [[structural rules]] for [[judgmental equality]], there is a family of judgmental equalities
+
+$$x:A \vdash (f \circ_{A, A, B} \mathrm{id}_A)(x) \equiv f(x):B$$
+\end{proof}
+
+\begin{theorem}
+For all types $A$, $B$, $C$, and $D$, and functions $f:A \to B$, $g:B \to C$, and $h:C \to D$, there is a family of judgmental equalities
+
+$$x:A \vdash (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) \equiv ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x):D$$
+\end{theorem}
+
+\begin{proof}
+By the computation rule for strict function types, there are families of judgmental equalities
+
+$$x:A \vdash (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) \equiv h((g \circ_{A, B, C} f)(x)):D$$
+
+$$x:A \vdash ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x) \equiv (h \circ_{B, C, D} g)(f(x)):D$$
+
+$$x:A \vdash (h \circ_{B, C, D} g)(f(x)) \equiv h(g(f(x))):D$$
+
+$$x:A \vdash h((g \circ_{A, B, C} f)(x)) \equiv h(g(f(x)):D$$
+
+Now, by the [[structural rules]] for [[judgmental equality]], there is a family of judgmental equalities
+
+$$x:A \vdash (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) \equiv ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x):D$$
+\end{proof}
+
+Now, the judgmental [[uniqueness rule]] for strict function types implies function extensionality for judgmental equality: for types $A$ and $B$ and functions $f:A \to B$ and $g:A \to B$ such that there is a family of judgmental equalities $x:A \vdash f(x) \equiv g(x):B$, there is a judgmental equality $f \equiv g:A \to B$. (See exercise 2.1 of [Rijke 2022](#Rijke22))
+
+As a result, the associative and unital laws hold for functions:
+
+\begin{theorem}
+For all types $A$ and $B$ and functions $f:A \to B$, there is a judgmental equality 
+
+$$\mathrm{id}_B \circ_{A, B, B} f \equiv f:A \to B$$
+\end{theorem}
+
+\begin{theorem}
+For all types $A$ and $B$ and functions $f:A \to B$, there is a judgmental equality 
+
+$$f \circ_{A, A, B} \mathrm{id}_A \equiv f:A \to B$$
+\end{theorem}
+
+\begin{theorem}
+For all types $A$, $B$, $C$, and $D$, and functions $f:A \to B$, $g:B \to C$, and $h:C \to D$, there is a judgmental equality
+
+$$(h \circ_{A, C, D} (g \circ_{A, B, C} f)) \equiv ((h \circ_{B, C, D} g) \circ_{A, B, D} f):A \to D$$
+\end{theorem}
+
+#### Weak function types
+
+\begin{definition}
+Given a type $A$, we define the **identity function** on $A$ as the function
+
+$$\mathrm{id}_A \equiv \lambda (x:A).x:A \to A$$
+\end{definition}
+
+\begin{theorem}
+By the computation rules for weak function types, the identity function on a type $A$ comes with a family of identifications
+
+$$x:A \vdash \beta_{A \to A}^{x:A.x}(x):\mathrm{id}_A(x) =_{A} x$$
+\end{theorem}
+
+\begin{definition}
+Given types $A$, $B$, and $C$ and functions $f:A \to B$, and $g:B \to C$, **function composition** of $f$ and $g$ is defined as
+
+$$g \circ_{A, B, C} f \equiv \lambda (x:A).g(f(x)):A \to C$$
+\end{definition}
+
+\begin{theorem}
+By the computation rules for weak function types, function composition comes with a family of identifications
+
+$$x:A \vdash \beta_{A \to C}^{x:A.g(f(x))}(x):(g \circ_{A, B, C} f)(x) =_{C} g(f(x))$$
 \end{theorem}
 
 \begin{theorem}
@@ -208,13 +312,13 @@ has a homotopy.
 \end{theorem}
 
 \begin{proof}
-By the computation rule for weak function types, there is a homotopy
+By the computation rule for weak function types, there is a family of identifications
 
-$$\beta_{A \to B}^{x:A.\mathrm{id}_B(f(x))}:\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} \mathrm{id}_B(f(x))$$
+$$x:A \vdash \beta_{A \to B}^{x:A.\mathrm{id}_B(f(x))}(x):(\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} \mathrm{id}_B(f(x))$$
 
-and a homotopy
+and a family of identifications
 
-$$\beta_{B \to B}^{x:A.f(x)}:\prod_{x:A} \mathrm{id}_B(f(x)) =_{B} f(x)$$
+$$x:A \vdash \beta_{B \to B}^{x:A.f(x)}(x):\mathrm{id}_B(f(x)) =_{B} f(x)$$
 
 Now, by concatenating the individual identifications together and then using lambda abstraction, we have the homotopy
 
@@ -236,13 +340,13 @@ has a homotopy.
 \end{theorem}
 
 \begin{proof}
-By the computation rule for weak function types, there is a homotopy
+By the computation rule for weak function types, there is a family of identifications
 
-$$\beta_{A \to B}^{x:A.f(\mathrm{id}_A(x))}:\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(\mathrm{id}_A(x))$$
+$$x:A \vdash \beta_{A \to B}^{x:A.f(\mathrm{id}_A(x))}(x):(f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(\mathrm{id}_A(x))$$
 
-and also by the action on identifications of the function $f:A \to B$, a homotopy
+and also by the action on identifications of the function $f:A \to B$, a family of identifications
 
-$$\lambda (x:A).\mathrm{ap}_B(f, \mathrm{id}_A(x), x, \beta_{A \to A}^{x:A.x}(x)):\prod_{x:A} f(\mathrm{id}_A(x)) =_{B} f(x)$$
+$$x:A \vdash \mathrm{ap}_B(f, \mathrm{id}_A(x), x, \beta_{A \to A}^{x:A.x}(x)):f(\mathrm{id}_A(x)) =_{B} f(x)$$
 
 Now, by concatenating the individual identifications together and then using lambda abstraction, we have the homotopy
 
@@ -264,17 +368,17 @@ has a homotopy.
 \end{theorem}
 
 \begin{proof}
-By the computation rule for weak function types, there are homotopies
+By the computation rule for weak function types, there are families of identifications
 
-$$\beta_{A \to D}^{x:A.h((g \circ_{A, B, C} f)(x))}:\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} h((g \circ_{A, B, C} f)(x))$$
+$$x:A \vdash \beta_{A \to D}^{x:A.h((g \circ_{A, B, C} f)(x))}(x):(h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} h((g \circ_{A, B, C} f)(x))$$
 
-$$\beta_{A \to D}^{x:A.(h \circ_{B, C, D} g)(f(x))}:\prod_{x:A} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x) =_{D} (h \circ_{B, C, D} g)(f(x))$$
+$$x:A \vdash \beta_{A \to D}^{x:A.(h \circ_{B, C, D} g)(f(x))}(x):((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x) =_{D} (h \circ_{B, C, D} g)(f(x))$$
 
-$$\beta_{A \to D}^{x:A.h(g(f(x)))}:\prod_{x:A} (h \circ_{B, C, D} g)(f(x)) =_{D} h(g(f(x)))$$
+$$x:A \vdash \beta_{A \to D}^{x:A.h(g(f(x)))}(x):(h \circ_{B, C, D} g)(f(x)) =_{D} h(g(f(x)))$$
 
-and also by the action on identifications of the function $h:C \to D$, there is a homotopy
+and also by the action on identifications of the function $h:C \to D$, there is a family of identifications
 
-$$\lambda (x:A).\mathrm{ap}_D(h, (g \circ_{A, B, C} f)(x), g(f(x)), \beta_{A \to C}^{x:A.g(f(x))}(x)):\prod_{x:A} h((g \circ_{A, B, C} f)(x)) =_{D} h(g(f(x))$$
+$$x:A \vdash \mathrm{ap}_D(h, (g \circ_{A, B, C} f)(x), g(f(x)), \beta_{A \to C}^{x:A.g(f(x))}(x)):h((g \circ_{A, B, C} f)(x)) =_{D} h(g(f(x))$$
 
 Now, by concatenating and inverting the individual identifications together and then using lambda abstraction, we have the homotopy
 
