@@ -294,6 +294,9 @@ This Kleisli composition plays an important role in [[computer science]]; for th
 ### Two-sided Kleisli category
  {#TwoSidedKleisliCategory}
 
+
+\begin{proposition}
+\label{ExistenceOfTwoSidedKleisliCategory}
 If in addition to the given monad $\mathcal{E}$ there is a [[comonad]] $\mathcal{C}$ on the same category $\mathbf{C}$, equipped with a [[distributivity law]] (see [there](distributive+law#MonadDistributingOverComonad))
 
 $$
@@ -310,7 +313,7 @@ $$
   \big)
 $$
 
-then there is a two-sided ("double") [[Kleisli category]] ([Brookes & Van Stone 1993 Thm. 2](#BrookesVanStone93)) whose [[objects]] are those of $\mathbf{C}$, and whose morphisms $D_1 \to D_2$ are morphisms in $\mathbf{C}$ of the form
+then there is a two-sided ("double") [[Kleisli category]] whose [[objects]] are those of $\mathbf{C}$, and whose morphisms $D_1 \to D_2$ are morphisms in $\mathbf{C}$ of the form
 $$
   prog_{12}
   \;\colon\;
@@ -318,6 +321,7 @@ $$
     \longrightarrow 
   \mathcal{E}(D_2)
 $$
+
 with two-sided Kelisli composition
 
 $$
@@ -344,6 +348,121 @@ given by the (co-)[[Kleisli extension|bind-operation]] on the factors connected 
     }
 \end{imagefromfile}
 
+\end{proposition}
+([Brookes & Van Stone 1993 Thm. 2](#BrookesVanStone93))
+
+\begin{proposition}
+\label{MonadTransformationsOnTwoSidedKleisli}
+In the situation of Prop. \ref{ExistenceOfTwoSidedKleisliCategory}, given in addition:
+
+1. $\mathcal{E}'$ another monad on $\mathbf{C}$ 
+
+   * also equipped with distributivity $distr^{\mathcal{C}, \mathcal{E}'} \,\colon\, \mathcal{C}\circ \mathcal{E}' \to \mathcal{E}' \circ \mathcal{C}$ over the given comonad $\mathcal{C}$,
+
+1. a [[monad transformer|monad transformation]] $trans^{\mathcal{E} \to \mathcal{E}'} \,\colon\, \mathcal{E} \to \mathcal{E}'$ 
+
+   * which is compatible with the distributive laws in that that 
+
+\begin{tikzcd}
+    \mathcal{C}\big(
+      \mathcal{E}(-)
+    \big)
+    \ar[
+      dd,
+      "{
+        \mathrm{distr}
+          ^{ \mathcal{C}, \mathcal{E} }
+          _{ (-) }
+      }"{description}
+    ]
+    \ar[
+      rr,
+      "{
+        \mathcal{C}\big(
+          \mathrm{trans}
+            ^{ \mathcal{E} \to \mathcal{E}' }
+            _{ (-) }
+        \big)
+      }"
+    ]
+    &&
+    \mathcal{C}\big(
+      \mathcal{E}'(-)
+    \big)
+    \ar[
+      dd,
+      "{
+        \mathrm{distr}
+          ^{ \mathcal{C}, \mathcal{E}' }
+          _{ (-) }
+      }"{description}
+    ]
+    \\
+    \\
+    \mathcal{E}\big(
+      \mathcal{C}(-)
+    \big)
+    \ar[
+      rr,
+      "{
+        \mathrm{trans}
+          ^{ \mathcal{E} \to \mathcal{E}' }
+          _{ \mathcal{C}(-) }
+      }"{swap}
+    ]
+    &&
+    \mathcal{E}'\big(
+      \mathcal{C}(-)
+    \big)
+\end{tikzcd}
+
+then the usual compatibility of the one-sided-Kleisli category under monad transformations (see [here](monad+transformer#eq:RespectForBindOperation)) passes to the two-sided Kleisli category, in that 
+
+\[
+  \label{TransformationActingOnTwoSidedKleisliComposition}
+  \big(
+    trans^{ \mathcal{E} \to \mathcal{E}' }_{D_2}
+    \circ 
+    prog_{12}
+  \big)
+  \;\;
+  \text{>=>}
+  \;\;
+  \big(
+    trans^{ \mathcal{E} \to \mathcal{E}' }_{D_3}
+    \circ 
+    prog_{23}
+  \big)
+  \;\;\;
+  =
+  \;\;\;
+  trans^{ \mathcal{E} \to \mathcal{E}' }_{D_3}
+  \circ
+  \big(
+    prog_{12}
+    \;\text{>=>}\;
+    prog_{23}
+  \big)
+  \,.
+\]
+\end{proposition}
+\begin{proof}
+Consider the following diagram:
+
+\begin{imagefromfile}
+    "file_name": "MonadTransfOnTwoSidedKleisli-290801.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+Here all squares commute by assumption on the monad transformation and hence the entire [[commuting diagram|diagram commutes]]. Now the total top and right composite is the right hand side of (eq:TransformationActingOnTwoSidedKleisliComposition), while the total left and bottom composite is the left hand side of (eq:TransformationActingOnTwoSidedKleisliComposition), thus proving their equality.
+\end{proof}
 
 ## Properties
 
