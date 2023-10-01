@@ -66,6 +66,9 @@ Critical comments on the notion of POVMs as "generalized measurements":
 
   > For this reason it is a bit odd to refer to a general POVM as a "measurement."
 
+Projection valued measures are central objects in the theory of (general) [[coherent state]]s.
+
+* Syed Twareque Ali, Jean-Pierre Antoine, Jean-Pierre Gazeau, _Coherent states, wavelets and their generalizations_, Graduate Texts in Contemporary Physics. Springer 2000
 
 [[!redirects POVM]]
 [[!redirects POVMs]]
