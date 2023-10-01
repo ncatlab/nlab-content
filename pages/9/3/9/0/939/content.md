@@ -286,7 +286,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[Zoran Škoda]], _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
 
-* R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295.
+* R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295 [doi](https://doi.org/10.1007/s10485-007-9076-5)
 
 * [[Francisco Marmolejo]], Adrian Vazquez-Marquez, *No-iteration mixed distributive laws*, Mathematical Structures in Computer Science **27** 1 (2017) 1-16 &lbrack;[doi:10.1017/S0960129514000656](https://doi.org/10.1017/S0960129514000656)&rbrack;
 
