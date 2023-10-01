@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Distributive laws
 
 * table of contents
@@ -83,18 +84,18 @@ Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they ca
 
 Similarly, there are definitions of distributive laws of a comonad over a comonad, 
 
-### Monad distributing over comonad
- {#MonadDistributingOverComonad}
+### Comonad distributing over monad
+ {#ComonadDistributingOverMonad}
 
 The distributivity law of 
 
-* a monad $\mathcal{E}$ over 
+* a comonad $\mathcal{C}$ over 
 
-* a comonad $\mathcal{C}$ 
+* a monad $\mathcal{E}$  
 
 on the same [[category]] $\mathbf{C}$
 
-is as follows ([Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93)):
+is as follows ([Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93), [Power & Watanabe 2002](#PowerWatanabe02)):
 
 A [[natural transformation]]
 
@@ -127,7 +128,7 @@ such that the following [[commuting diagram|diagrams commute]] for all objects $
     }
 \end{imagefromfile}
 
-{#TwoSidedKleisliComposition} Given this distributivity structure, there is a two-sided ("double") [[Kleisli category]] ([Brookes & Van Stone 1993 Thm. 2](#BrookesVanStone93)) whose [[objects]] are those of $\mathbf{C}$, and whose morphisms $D_1 \to D_2$ are morphisms in $\mathbf{C}$ of the form
+{#TwoSidedKleisliComposition} Given this distributivity structure, there is a two-sided ("double") [[Kleisli category]] ([Brookes & Van Stone 1993 Thm. 2](#BrookesVanStone93), [Power & Watanabe 2002, Prop. 7.4](#PowerWatanabe02)) whose [[objects]] are those of $\mathbf{C}$, and whose morphisms $D_1 \to D_2$ are morphisms in $\mathbf{C}$ of the form
 $$
   prog_{12}
   \;\colon\;
@@ -211,9 +212,9 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 * {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[BrookesVanStone-CoMonads.pdf:file]]&rbrack;
 
 
-* [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
+* {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
 
-* [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
+* {#PowerWatanabe02} [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
 
 * [[Gabi Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. **376** (2005) 207-226 &lbrack;[arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)&rbrack;
 
