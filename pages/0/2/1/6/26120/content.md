@@ -55,11 +55,11 @@ Throughout the following we fix
 
 a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]]. 
 
-But most or all of the following discussion works for $Mod_{\mathbb{C}}$ replaced bt any [[symmetric monoidal closed category]] and $\mathscr{H}$ taken from a [[compact closed category|compact closed]] [[subcategory]].
+But most or all of the following discussion works for $Mod_{\mathbb{C}}$ replaced by any [[symmetric monoidal closed category]] and $\mathscr{H}$ taken from a [[compact closed category|compact closed]] [[subcategory]].
 
 In this vein, for notational purposes only (at this point) we choose on $\mathscr{H}$:
 
-1. a [[Hermitian form|Hermitian]] [[inner product]] $\left\langle\cdot \vert \cdot\right\rangle$, hence as a [[finite-dimensional Hilbert space]] and use [[bra-ket]] notation to denote the generic elements of $\mathscr{H}$ by 
+1. a [[Hermitian form|Hermitian]] [[inner product]] $\left\langle\cdot \vert \cdot\right\rangle$, hence consider it as a [[finite-dimensional Hilbert space]] and use [[bra-ket]] notation to denote the generic elements of $\mathscr{H}$ by 
 
    $$
      \left\vert \psi \right\rangle
@@ -556,7 +556,7 @@ which in turn are isomorphically "*[[superoperators]]*" of the form
 
 \begin{proposition}
 \label{KleisliCompositionIsSuperoperatorComposition}
-  The [[Kleisli composition]] on [[Kleisli morphisms]] (eq:KleisliMorphism) of the quantum store comoand is given by the plain composition of the linear duals of the corresponding [[superoperators]] (eq:SuperoperatorOnMatrices):
+  The [[Kleisli composition]] on [[Kleisli morphisms]] (eq:KleisliMorphism) of the quantum store comonad is given by the plain composition of the linear duals of the corresponding [[superoperators]] (eq:SuperoperatorOnMatrices):
 \[
   \label{KleisliComposition}
   \big(
@@ -748,7 +748,7 @@ $$
 
 ## Examples
 
-### Quantum observables are the Quatum state contextful scalars
+### Quantum observables are the Quantum state contextful scalars
 
 > (The following now starts out a little repetitive, recalling a special case of the general statement above. Will streamline...)
 
