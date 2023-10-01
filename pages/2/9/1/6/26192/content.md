@@ -54,7 +54,9 @@ But [Müller-Hermes & Perry 2019](#Müller-HermesPerry19) show that at least all
 \begin{remark}
 **(DQC1 model)**
 \linebreak
-But the idea of exploring [[quantum computation]]/[[quantum information theory]] on (a few or just single) clean [[qbits]] coupled to an environment in a maximally [[mixed state]] goes back already to [Knill & Laflamme 1998](#KnillLaflamme98), who referred to this model of computation as *deterministic quantum computation with one quantum bit* (abbreviated "*DQC1*", now also used for the corresponding [[quantum complexity theory|quantum complexity ]] [[complexity class|class]], first studied by [Shor 2008](#Shor08), and often referred to by the phrase "one clean qbit"). 
+But the idea of exploring [[quantum computation]]/[[quantum information theory]] on (a few or just single) clean [[qbits]] coupled to an environment in a maximally [[mixed state]] goes back already to [Knill & Laflamme 1998](#KnillLaflamme98), who referred to this model of computation as *deterministic quantum computation with one quantum bit* (abbreviated "*DQC1*", now also used for the corresponding [[quantum complexity theory|quantum complexity ]] [[complexity class|class]], first studied by [Shor 2008](#Shor08), and often referred as the "one clean qbit"-model). 
+
+> The DQC1 model is believed to be a very restricted, but still genuinely quantum, computing model -- a sub-universal quantum computing model whose power is something between classical computation and universal quantum computation. &lbrack;[FKMNTT18, p. 2](#FKMNTT18)&rbrack;
 
 The communities using these different terminologies for closely related ideas may have been somewhat disconnected. A proposal to look at DQC1 in terms of [[quantum channels]] seems to not appear not before [Xuereb, Campbell, Goold & Xuereb 2023](#XuerebCampbellGooldXuereb23); [Fu, He, Li & Luo 2023](#FuHeLiLuo23) (and the "unistochastic" terminology is not used there).
 \end{remark}
@@ -597,6 +599,11 @@ Discussion of DQC1 in the language of [[quantum channels]]:
 * {#XuerebCampbellGooldXuereb23} Jake Xuereb, Steve Campbell, John Goold, André Xuereb, *DQC1 as an Open Quantum System*, Phys. Rev. A **107** 042222 (2023) &lbrack;[arXiv:2209.03947](https://arxiv.org/abs/2209.03947), [doi:10.1103/PhysRevA.107.042222](https://doi.org/10.1103/PhysRevA.107.042222)&rbrack;
 
 * {#FuHeLiLuo23} Shuangshuang Fu, Jiayu He, Xiaohui Li and Shunlong Luo, *Uncertainties and coherence in DQC1*, Physica Scripta, **98** 4 (2023) &lbrack;[doi:10.1088/1402-4896/acc5ba](https://iopscience.iop.org/article/10.1088/1402-4896/acc5ba)&rbrack;
+
+Discussion of classical simulation (or not) of the DQC1 model
+
+* {#FKMNTT18} Keisuke Fujii, Hirotada Kobayashi, Tomoyuki Morimae, Harumichi Nishimura, Shuhei Tamate, Seiichiro Tani, *Impossibility of Classically Simulating One-Clean-Qubit Computation*,  	Phys. Rev. Lett. **120** 200502 (2018) &lbrack;[arXiv:1409.6777](https://arxiv.org/abs/1409.6777), [doi:10.1103/PhysRevLett.120.200502](https://doi.org/10.1103/PhysRevLett.120.200502)&rbrack;
+
 
 ### Noisy operations/unistochastic channels
 
