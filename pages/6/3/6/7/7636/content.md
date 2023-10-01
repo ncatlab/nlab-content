@@ -447,7 +447,7 @@ For [[dependent linear type theory]] see:
 * {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
 
 
-An [[adjunction]] between the category of [[type theory|type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of
+The relation between [[typed lambda-calculus]] and [[cartesian closed categories]] is discussed in part I, and the [[adjunction]] between the category of [[type theory|type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of:
 
 * {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
 
