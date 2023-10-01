@@ -162,7 +162,7 @@ See also at _[[function monad]]_.
 ### Categorical structure of function types 
  {#AsHomObjects}
 
-Function types have a [[category|categorical structure]]: they have [[identity functions]] and [[function composition]] which together satisfy the associative and unital laws:
+Function types play the role of [[hom-objects]] in a kind of [[enriched category]] whose objects are the types. (In fact, in the presence of compatible [[product types]] this is a [[cartesian closed category]]-structure [cf. Lambek & Scott 1986](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory#LambekScott86)). They have [[identity functions]] and [[function composition]] which together satisfy the associative and unital laws:
 
 * For strict function types, the associative and unital laws are represented by judgmental equality
 
