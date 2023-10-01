@@ -22,7 +22,17 @@ On a [[de Rham theorem]] for [[algebraic stack|algbraic]] [[infinity-stacks|$\in
 
 * _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_, arXiv:[alg-geom/9712020](https://arxiv.org/abs/alg-geom/9712020)
 
-On [[nonabelian Hodge theory]]:
+On Deligne's [[lambda-connection]]s and Hodge moduli space
+
+* C. T. Simpson, _The Hodge filtration on nonabelian cohomology_, in Algebraic geometry-Santa
+Cruz 1995, 217--281
+* Carlos T. Simpson, _A weight two phenomenon for the moduli space of rank one local systems on
+open varieties_ [arXiv:0710.2800](https://arxiv.org/abs/0710.2800)
+* C. T. Simpson, _Iterated destability modifications for vector bundles with connection, Contemp. Math. __522__ (2010) 183--206
+* [[Carlos Simpson]], _On the notion of lambda-connection_, [slides](https://math.univ-cotedazur.fr/~carlos/slides/deligneconf/slideA.html)
+* C. T. Simpson, _Geometricity of the Hodge filtration on the ∞-stack of perfect complexes over $X_{DR}$_, Mosc. Math. J. 9 (2009) no. 3, 665--721 arXiv:[math.AG/0510269](https://arxiv.org/abs/math/0510269) [journal](http://www.mathjournals.org/mmj/vol9-3-2009/cont9-3-2009.html)
+
+More on [[nonabelian Hodge theory]]:
 
 * _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95 ([numdam:PMIHES_1992__75__5_0](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), [MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027))
 * _Algebraic aspects of higher nonabelian Hodge theory_, arXiv:[math.AG/9902067](https://arxiv.org/abs/math/9902067)
