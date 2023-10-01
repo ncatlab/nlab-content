@@ -29,8 +29,6 @@
 
 **Weak type theory** or **propositional type theory** is a [[dependent type theory]] without judgmental conversion; all the [[computation rules]]/[[beta-conversion|$\beta$-conversion rules]] and [[uniqueness rules]]/[[eta-conversion|$\eta$-conversion rules]] for types use [[identity types]] instead of [[judgmental equality]]. As a result, the results in weak type theory are more general than in models which use judgmental equality for computational and uniqueness rules, since judgmental equality implies typal equality, while the converse isn't necessarily the case. 
 
-In formal presentations of weak type theories, the [[identity type]] has to be introduced at the same time the [[dependent function type]] is introduced, since the computation rules for one relies on the existence of the other. 
-
 Formally, weak type theories come into two general versions:
 
 * Dependent type theories which do not have judgmental equality and its [[structural rules]]. Instead, [[definitions]] of [[types]] and [[terms]] are made using [[identifications]] or [[equivalences of types]]. See [[objective type theory]] for more details on this. 
