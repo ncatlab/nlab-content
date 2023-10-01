@@ -38,7 +38,7 @@ Selecta Mathematica __1__:1, 1--19 (1995) [doi](http://dx.doi.org/10.1007/BF0161
 
 A relation to Chern-Bott connection is explained in 4.1 of lecture notes
 
-* Mauro Spera, _Geometric methods of quantum mechanics_, J.  Geometry and Symmetry in Physics __24__ 1-44 (2011) [euclid](https://projecteuclid.org/euclid.jgsp/1495677645)
+* [[Mauro Spera]], _Geometric methods of quantum mechanics_, J.  Geometry and Symmetry in Physics __24__ 1-44 (2011) [euclid](https://projecteuclid.org/euclid.jgsp/1495677645)
 
 * D. Rohrlich, _Berry's phase_, entry in _Compendium of Quantum Physics: Concepts, Experiments, History and Philosophy_, ed. F. Weinert, K. Hentschel, D. Greenberger and B. Falkenburg (Springer), to appear; [arxiv/0708.3749](http://arxiv.org/abs/0708.3749)
 
