@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Distributive laws
 
 * table of contents
@@ -21,13 +20,49 @@
 
 ## Idea
 
-Sometimes in [[mathematics]] we want to consider objects equipped with two different types of [[extra structure]] which interact in a suitable way.  For instance, a [[ring]] is a [[set]] equipped with both (1) the structure of an (additive) [[abelian group]] and (2) the structure of a (multiplicative) [[monoid]], which satisfy the distributive laws $a\cdot (b+c) = a\cdot b + a\cdot c$ and $a\cdot 0 = 0$.
+Sometimes in [[mathematics]] one considers objects equipped with two different types of [[extra structure]] which interact in a suitable way.  For instance, a [[ring]] is a [[set]] equipped with both (1) the structure of an (additive) [[abelian group]] and (2) the structure of a (multiplicative) [[monoid]], which satisfy the distributive laws $a\cdot (b+c) = a\cdot b + a\cdot c$ and $a\cdot 0 = 0$.
 
 Abstractly, there are two [[monads]] on the [[category]] [[Set]], one (call it $\mathbf{T}$) whose [[algebra over a monad|algebras]] are abelian groups, and one (call it $\mathbf{S}$) whose algebras are monoids, and so we might ask "can we construct, from these two monads, a third monad whose algebras are rings?"  Such a monad would assign to each set $X$ the [[free object|free]] ring on that set, which consists of formal sums of formal products of elements of $X$---in other words, it can be identified with $T(S(X))$.  Thus the question becomes "given two monads $\mathbf{T}$ and $\mathbf{S}$, what further structure is required to make the composite $T S$ into a monad?"
 
 It is easy to give $T S$ a unit, as the composite $Id \xrightarrow{\eta^S} S \xrightarrow{\eta^T S} T S$, but to give it a multiplication we need a transformation from $T S T S$ to $T S$.  We naturally want to use the multiplications $\mu^T\colon T T \to T$ and $\mu^S\colon S S \to S$, but in order to do this we first need to switch the order of $T$ and $S$.  However, if we have a transformation $\lambda\colon S T \to T S$, then we can define $\mu^{T S}$ to be the composite $T S T S \xrightarrow{\lambda} T T S S \xrightarrow{\mu^T\mu^S} T S$.
 
 Such a transformation, satisfying suitable axioms to make $T S$ into a monad, is called a *distributive law*, because of the motivating example relating addition to multiplication in a ring.  In that case, $S T X$ is a formal product of formal sums such as $(x_1 + x_2 + x_3)\cdot (x_4 + x_5)$, and the distributive law $\lambda$ is given by multiplying out such an expression formally, resulting in a formal sum of formal products such as $x_1\cdot x_4 + x_1 \cdot x_5 + x_2 \cdot x_4 + x_2 \cdot x_5 + x_3\cdot x_4 + x_3 \cdot x_5$.
+
+
+\begin{remark}
+\label{TerminologyWhatDistributesOverWhat}
+**(terminology -- what distributes over what)**
+\linebreak
+The eponymous example of distributivity in [[arithmetic]]
+$$
+  a \times \sum_i b_i \;=\; \sum_i a \times b_i
+$$
+hence
+$$
+  \big( a \times (-) \big) 
+  \circ 
+  \big(
+    \sum (-)
+  \big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \sum (-)
+  \big)
+  \circ 
+  \big( a \times (-) \big) 
+$$
+suggests that a suitable transformation of (co)monads of the form
+$$
+  T_1 \circ T_2 \longrightarrow T_2 \circ T_1
+$$
+should be referred to as *$T_1$ distributing over $T_2$* instead of the other way around. 
+
+However, already the original reference [Beck 1969 §1](#Beck69) uses the opposite terminology.
+
+Authors sticking to this original but arguably reverse terminological convention include [Brookes & Van Stone 1993](#BrookesVanStone93), while other authors following them tacitly switch to the other convention (eg. [Power & Watanabe 2002 p. 138](#PowerWatanabe02)).
+\end{remark}
 
 
 ## Big picture
@@ -43,8 +78,9 @@ Monads [[internalization|internal]] to the 2-category of monads are called _dist
 
 ### Monad distributing over monad
 
-A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ to an endofunctor
-$P$ is a 2-cell $l : T P \Rightarrow P T$ such that
+
+A __distributive law__ for a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ over an endofunctor
+$P$ is a [[2-morphisms]] $l : T P \Rightarrow P T$ such that
 $l \circ (\eta^T)_P = P(\eta^T)$ and
 $l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$. In diagrams:
 \begin{tikzcd}
@@ -56,14 +92,13 @@ T T P \ar{d}{\mu^T P} \ar{r}{T l} & T P T \ar{r}{l T} & P T T \ar{d}{P \mu^T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
 
-Distributive laws from the monad $\mathbf{T}$ to the endofunctor $P$ are in a canonical bijection with lifts of $P$ to an endofunctor $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
+Distributive laws for the monad $\mathbf{T}$ over the endofunctor $P$ are in a canonical bijection with lifts of $P$ to an endofunctor $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
 satisfying $U^{\mathbf T} P^{\mathbf T} = P U^{\mathbf T}$. Indeed, the endofunctor $P^{\mathbf T}$
 is given by $(M,\nu) \mapsto (P M,P(\nu)\circ l_M)$.
 
-A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ to a monad
+A __distributive law__ for a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ over a monad
 $\mathbf{P} = (P, \mu^P, \eta^P)$ in $A$ 
-(or _of_ $\mathbf T$ _over_ $\mathbf P$)
-is a distributive law from $\mathbf T$ to the endofunctor $P$,
+is a distributive law for $\mathbf T$ over the endofunctor $P$,
 compatible with $\mu^P,\eta^P$ in the sense that
 $l \circ T(\eta^P) = (\eta^P)_T$ and
 $l \circ T(\mu^P) = (\mu^P)_T \circ P(l) \circ l_P$. In diagrams:
@@ -76,13 +111,22 @@ T P P \ar{d}{T \mu^P} \ar{r}{l P} & P T P \ar{r}{P l} & P P T \ar{d}{\mu^P T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
 
+(cf. [Beck 1969](#Beck69))
+
 The correspondence between distributive laws and _endofunctor_ liftings extends to a correspondence between distributive laws and _monad_ liftings. That is, distributive laws $l : T P \Rightarrow P T$ from the monad $\mathbf{T}$ to the monad $\mathbf{P}$ are in a canonical bijection with lifts of the monad $\mathbf{P}$ to a monad $\mathbf{P}^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
 such that $U^{\mathbf T} : A^{\mathbf T}\to A$ preserves the monad structure.
 
-Thus all together a distributive law from a monad to a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
+Thus all together a distributive law for a monad over a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
-Similarly, there are definitions of distributive laws of a comonad over a comonad, 
+
+
+### Monad distributing over a comonad 
+
+[van Osdol 1973 p. 456](#vanOsdol73) 
+
+(...)
+
 
 ### Comonad distributing over monad
  {#ComonadDistributingOverMonad}
@@ -200,9 +244,13 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[pseudo-distributive law]]
 
-## Literature
 
-* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: *[[Seminar on Triples and Categorical Homology Theory]]*, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+## Literature
+ {#Literature}
+
+* {#Beck69} [[Jon Beck]], *Distributive Laws*, in: *[[Seminar on Triples and Categorical Homology Theory]]*, ETH 1966/67, Lecture Notes in Mathemativs, Springer (1969), Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
+* {#vanOsdol73} [[Donovan van Osdol]], *Bicohomology Theory*, Transactions of the American Mathematical Society **183** (1973) 449-476 &lbrack;[jstor:1996479](https://www.jstor.org/stable/1996479)&rbrack;
 
 * {#Street72} [[Ross Street]], §6 of: *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
 
@@ -212,13 +260,13 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 * {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[BrookesVanStone-CoMonads.pdf:file]]&rbrack;
 
 
-* {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>&rbrack;
+* {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>, [[PowerWatanabe-Distributivity.pdf:file]]&rbrack;
 
 * {#PowerWatanabe02} [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
 
 * [[Gabi Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. **376** (2005) 207-226 &lbrack;[arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)&rbrack;
 
-* [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)).
+* [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  **191** 2  (1998) 467--492 &lbrack;[arXiv:q-alg/9602022](http://arxiv.org/abs/q-alg/9602022)&rbrack;
 
 * [[T. Brzeziński]], [[Robert Wisbauer]], _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge (2003)
 
