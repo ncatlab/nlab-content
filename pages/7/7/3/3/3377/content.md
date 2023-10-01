@@ -50,6 +50,8 @@ satisfying the integrability condition $\Phi\wedge\Phi = 0$. The pair of data $(
 
 Higgs bundles can be considered as a limiting case of a (holomorphic) [[curvature|flat]] [[connection on a bundle|connection]] in the limit in which its exterior differential $d\Phi$ is small in comparison to the exterior square $\Phi\wedge\Phi$, what can be obtained by rescaling the connection form. So the equation $d u/dz = A(z)u$ where $A(z)$ is a matrix of connection can be rescaled by putting a small parameter in front of $d u/dz$, or equivalently a large parameter in front of $A(z)$. Then the Maurer-Cartan equation has a term quadratic in the large parameter and the exterior derivative term is linear in large parameter and can be neglected, so the flatness reduces to the Higgs bundle condition  $\Phi\wedge\Phi = 0$.
 
+In fact, there is a notion interpolating between flat connections and Higgs bundles due Deligne, the Deligne's $\lambda$-[[lambda-connection|connection]].
+
 ### Formulation in D-geometry
 
 Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the [[formal completion]] of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
