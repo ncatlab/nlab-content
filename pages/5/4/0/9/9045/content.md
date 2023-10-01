@@ -421,6 +421,9 @@ The basic Hodge filtration:
 
 * [[Stacks Project]], *The Hodge Filtration* &lbrack;[tag:0FM7](https://stacks.math.columbia.edu/tag/0FM7)&rbrack;
 
+Hodge filtration induced by the Hodge-to-de Rham spectral sequence on $H_{dR}(X/S)$ of an $S$-scheme $X$
+
+* The Stacks Project 50.7, tag/[0FM7](https://stacks.math.columbia.edu/tag/0FM7)
 
 Textbook accounts on Hodge structures:
 
