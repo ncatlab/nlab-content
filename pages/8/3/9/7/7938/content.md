@@ -31,7 +31,7 @@ The original reference that interpreted coherent states in [[geometric quantizat
 
 A review and further developments of these considerations are in
 
-* Mauro Spera, _On K&#228;hlerian coherent states_ ([djvu](http://www.bio21.bas.bg/proceedings/Proceedings_files/vol1/GEOM19.DJVU))
+* [[Mauro Spera]], _On K&#228;hlerian coherent states_ ([djvu](http://www.bio21.bas.bg/proceedings/Proceedings_files/vol1/GEOM19.DJVU))
 
 Generalization to non-K&#228;hler symplectic manifolds is in 
 
