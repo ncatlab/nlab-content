@@ -31,7 +31,7 @@
 
 In formal presentations of weak type theories, the [[identity type]] has to be introduced at the same time the [[dependent function type]] is introduced, since the computation rules for one relies on the existence of the other. 
 
-Formally, weak type theories come into two general formats:
+Formally, weak type theories come into two general versions:
 
 * Dependent type theories which do not have judgmental equality and its [[structural rules]]. Instead, [[definitions]] of [[types]] and [[terms]] are made using [[identifications]] or [[equivalences of types]]. See [[objective type theory]] for more details on this. 
 
@@ -47,7 +47,7 @@ There are plenty of questions which are currently unresolved in weak type theory
 
 * Does [[univalence]] imply [[function extensionality]] for types in the universe in [[weak type theory]]?
 
-* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[weak type theory]]?
+* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[weak type theory|weak]] Martin-Löf type theory?
 
 * How much of the [[HoTT book]] could be done in [[weak type theory]]?
 
