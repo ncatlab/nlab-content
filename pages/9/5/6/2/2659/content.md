@@ -212,6 +212,8 @@ Nonabelian Hodge theory is closely related to the [[geometric Langlands correspo
 
 ## References
 
+* wikipedia [nonabelian Hodge correspondence](https://en.wikipedia.org/wiki/Nonabelian_Hodge_correspondence)
+
 Lecture notes on nonabelian Hodge theory include:
 
 * [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
@@ -241,6 +243,12 @@ The nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) is generalized to [[t
 
 * {#Raboso15} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([arXiv:1501.05872](http://arxiv.org/abs/1501.05872), [pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
 
+Gothen's paper starts with a survey on nonabelian Hodge correspondence,
+
+* Peter B. Gothen, _Higgs bundles and the real symplectic group_, [arXiv:1102.4175](https://arxiv.org/abs/1102.4175)
+
+* C. C. Liu, S. Rayan, Y. Tanaka, _The Kapustin--Witten equations and nonabelian Hodge theory_ Eur. J. Math. __8__ (Suppl 1) 23--41 (2022) [doi](https://doi.org/10.1007/s40879-022-00538-4)
 
 [[!redirects nonabelian Hodge theorem]]
 [[!redirects nonabelian Hodge theorems]]
+[[!redirects nonabelian Hodge correspondence]]
