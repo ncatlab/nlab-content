@@ -160,6 +160,7 @@ $$
 See also at _[[function monad]]_.
 
 ### Categorical structure of function types 
+ {#AsHomObjects}
 
 Function types have a [[category|categorical structure]]: they have [[identity functions]] and [[function composition]] which together satisfy the associative and unital laws:
 
