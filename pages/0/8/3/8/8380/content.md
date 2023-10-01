@@ -96,7 +96,7 @@ Given such an $\mathcal{E}$-effectful program $prog_{12} \;\colon\; D_1 \to \mat
 \end{imagefromfile}
 
 
-> (Beware that we are denoting by "$bind^{\mathcal{E}} prog (-)$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which some authors denote by an upper-star, "$prog^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
+> (Beware that we are denoting by "$bind^{\mathcal{E}} prog (-)$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski 2019 p. 321](#Milewski19), and which some authors denote by an upper-star, "$prog^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
 
 Depending on the intended behaviour of these programs, it remains to specify how exactly $bind^{\mathcal{E}} prog_{23}$ "carries $\mathcal{E}(-)$-effects along", hence what the "bind" operation (eq:BindingLawInIntroduction) does concretely. 
 
