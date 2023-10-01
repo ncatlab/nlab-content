@@ -141,7 +141,7 @@ See also the commented list of problems at:
 
 * Does [[univalence]] imply [[function extensionality]] for types in the universe in [[weak type theory]]?
 
-* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[weak type theory]]?
+* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[weak type theory|weak]] Martin-Löf type theory?
 
 * How much of the [[HoTT book]] could be done in [[weak type theory]]?
 
