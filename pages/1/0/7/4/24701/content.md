@@ -115,43 +115,40 @@ A family of elements is an element $b:B$ in the context of the variable judgment
 
 Since types are elements of universe, a family of types is simply a family of elements of universes. 
 
-#### Basic type formers - identification types and dependent function types
-
-In this section, we give the rules for the basic type formers of type theory, which are [[identification types]] and [[dependent function types]]. 
+#### Identification types
 
 Formation rules for identification types:
 $$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma, a:A, b:A \vdash a =_A b:\mathrm{Type}_i}$$
 
-Formation rules for dependent function types:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i}{\Gamma \vdash \prod_{x:A} B(x):\mathrm{Type}_i}$$
-
 Introduction rules for identification types:
 $$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
-Introduction rules for dependent function types:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
-
 Elimination rule for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y \vdash J_A(t, x, y, p):C(x, y, p)}$$
-
-Elimination rules for dependent function types:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i}{\Gamma, f:\prod_{x:A} B(x), a:A \vdash \mathrm{ind}_{\prod_{x:A} B(x)}(f, a):B(a)}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i \quad \Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash t(x):C(x, x, \mathrm{refl}_A(x))}{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash \mathrm{ind}_{=_A}^{x:A.t(x)}(x, y, p):C(x, y, p)}$$
 
 Computation rules for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A \vdash \beta_{=_A}(t, x):\mathrm{ind}_{=_A}(t, x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t(x)}$$
-
-Computation rules for dependent function types
-$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\prod_{x:A} B(x)}(a):\mathrm{ind}_{\prod_{x:A} B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
-
-Uniqueness rules for identification types
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y, q:C(x, y, p) \vdash \eta_{=_A}(t, x, y, p, q):J_A(t, x, y, p) =_{C(x, y, p)} q}$$
-
-Uniqueness rules for dependent function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda(x:A).\mathrm{ind}_{\prod_{x:A} B(x)}(f, x)}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i \quad \Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash t(x):C(x, x, \mathrm{refl}_A(x))}{\Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash \beta_{=_A}^{x:A.t(x)}(x):\mathrm{ind}_{=_A}^{x:A.t(x)}(x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t(x)}$$
 
 #### Definitions
 
 Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A:\mathrm{Type}_i$ are made in the same way, as $\mathrm{def}_{A, B}:A =_{\mathrm{Type}_i} B$. 
+
+#### Dependent function types
+
+Formation rules for dependent function types:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i}{\Gamma \vdash \prod_{x:A} B(x):\mathrm{Type}_i}$$
+
+Introduction rules for dependent function types:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
+
+Elimination rules for dependent function types:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i}{\Gamma, f:\prod_{x:A} B(x), a:A \vdash \mathrm{ind}_{\prod_{x:A} B(x)}(f, a):B(a)}$$
+
+Computation rules for dependent function types
+$$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\prod_{x:A} B(x)}(a):\mathrm{ind}_{\prod_{x:A} B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
+
+Uniqueness rules for dependent function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x):\mathrm{Type}_i}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda(x:A).\mathrm{ind}_{\prod_{x:A} B(x)}(f, x)}$$
 
 #### Function types
 
@@ -331,36 +328,33 @@ A family of types is a type $B$ in the context of the element judgment $x:A$, $x
 
 A family of terms is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
 
-#### Basic type formers - identification types and dependent function types
-
-In this section, we give the rules for the basic type formers of type theory, which are [[identification types]] and [[dependent function types]]. 
+#### Identificaiton types
 
 Formation rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
 
-Formation rules for dependent function types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
-
 Introduction rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
+
+Elimination rule for identification types:
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash t(x):C(x, x, \mathrm{refl}_A(x)}{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash \mathrm{ind}_{=_A}^{x:A.t(x)}(x, y, p):C(x, y, p)}$$
+
+Computation rules for identification types:
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash t(x):C(x, x, \mathrm{refl}_A(x)}{\Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash \beta_{=_A}^{x:A.t(x)}(x):\mathrm{ind}_{=_A}^{x:A.t(x)}(x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t(x)}$$
+
+#### Dependent function types
+
+Formation rules for dependent function types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}$$
 
 Introduction rules for dependent function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
 
-Elimination rule for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y \vdash J_A(t, x, y, p):C(x, y, p)}$$
-
 Elimination rules for dependent function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x), a:A \vdash \mathrm{ind}_{\prod_{x:A} B(x)}(f, a):B(a)}$$
 
-Computation rules for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A \vdash \beta_{=_A}(t, x):\mathrm{ind}_{=_A}(t, x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t(x)}$$
-
 Computation rules for dependent function types
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\prod_{x:A} B(x)}(a):\mathrm{ind}_{\prod_{x:A} B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
-
-Uniqueness rules for identification types
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y, q:C(x, y, p) \vdash \eta_{=_A}(t, x, y, p, q):J_A(t, x, y, p) =_{C(x, y, p)} q}$$
 
 Uniqueness rules for dependent function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda(x:A).\mathrm{ind}_{\prod_{x:A} B(x)}(f, x)}$$
