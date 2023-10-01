@@ -75,15 +75,15 @@ The original paper on weak type theory, in the context of [[objective type theor
 
 * {#BB21} [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
 
-Talks at Strength of Weak Type Theory, hosted by [[DutchCATS]]:
+Talks at *Strength of Weak Type Theory*, hosted by *[[DutchCATS]]*:
 
-* [[Daniël Otten]], *Models for Propositional Type Theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_otten.pdf))
+* [[Daniël Otten]], *Models for Propositional Type Theory* (11 May 2023) &lbrack;[slides pdf](https://dutchcats.github.io/Weak_type_theories/slides_otten.pdf)&rbrack;
 
 * [[Théo Winterhalter]], *A conservative and constructive translation from extensional type theory to weak type theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf))
 
 * [[Sam Speight]], *Higher-Dimensional Realizability for Intensional Type Theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_speight.pdf))
 
-* [[Matteo Spadetto]], *Weak type theories: a conservativity result for homotopy elementary types*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_spadetto.pdf))
+* [[Matteo Spadetto]], *Weak type theories: a conservativity result for homotopy elementary types* (12 May 2023) &lbrack;[slides pdf](https://dutchcats.github.io/Weak_type_theories/slides_spadetto.pdf)&rbrack;
 
 * [[Benno van den Berg]], *Towards homotopy canonicity for propositional type theory*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_van_den_berg.pdf))
 
