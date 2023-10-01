@@ -147,9 +147,11 @@ Discussion in the context of [[geometric Langlands duality]] includes
 
 * {#KapustinWitten06} [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_, Communications in Number Theory and Physics Volume 1 (2007) Number 1 ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
 
-
-
 * {#Witten08} [[Edward Witten]], _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
+
+The following paper starts with a survey of [[nonabelian Hodge correspondence]],
+
+* Peter B. Gothen, _Higgs bundles and the real symplectic group_, [arXiv:1102.4175](https://arxiv.org/abs/1102.4175)
 
 ### Relation to $Spin(7)$-manifolds
 
