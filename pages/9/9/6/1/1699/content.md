@@ -16,10 +16,15 @@ On a [[de Rham theorem]] for [[algebraic stack|algbraic]] [[infinity-stacks|$\in
 
 * {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ (1997) &lbrack;[pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf), [[SimpsonTeleman-deRham.pdf:file]]&rbrack;
 
+* _Homotopy over the complex numbers and generalized de Rham cohomology_, in: Moduli of Vector Bundles, edited by Masaki Maruyama, CRC Press 1996
+
+* _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_, arXiv:[alg-geom/9712020](https://arxiv.org/abs/alg-geom/9712020)
 
 On [[nonabelian Hodge theory]]:
 
 * _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95 ([numdam:PMIHES_1992__75__5_0](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), [MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027))
+* _Algebraic aspects of higher nonabelian Hodge theory_, arXiv:[math.AG/9902067](https://arxiv.org/abs/math/9902067)
+
 
 An early conception of [[presentable (infinity,1)-categories|presentable $\infty$-categorues]] and  [[(infinity,1)-toposes|$\infty$-toposes]] (the term seems to originate here) via (what later were called) [[model toposes]]:
 
