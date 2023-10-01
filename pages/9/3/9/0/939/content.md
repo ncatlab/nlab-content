@@ -99,16 +99,16 @@ is as follows ([Brookes & Van Stone 1993 Def. 3](#BrookesVanStone93)):
 A [[natural transformation]]
 
 $$
-  distr^{\mathcal{C}, \mathcal{E}}
+  distr^{\mathcal{C}, \mathcal{E}}_{(\text{-})}
   \;\;\colon\;\;
   \mathcal{C}
   \big(
-    \mathcal{E}(D)
+    \mathcal{E}(-)
   \big)
   \longrightarrow
   \mathcal{E}
   \big(
-    \mathcal{C}(D)
+    \mathcal{C}(-)
   \big)
 $$
 
