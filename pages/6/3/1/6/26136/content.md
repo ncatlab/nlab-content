@@ -45,6 +45,9 @@ for [[Russell universes]]
 
 ## References
 
-* [[Conor McBride]], *Dependently Typed Functional Programs and their Proofs*, (1999) $[$[pdf](https://www.lfcs.inf.ed.ac.uk/reports/00/ECS-LFCS-00-419/ECS-LFCS-00-419.pdf)$]$
+For better or worse, the terminology "John Major equality" was coinded in [McBride 1999 §5.1.3](#McBride99) with reference to British political discussion of that times:
+
+* {#McBride99} [[Conor McBride]], *Dependently Typed Functional Programs and their Proofs*, (1999) &lbrack;[pdf](https://www.lfcs.inf.ed.ac.uk/reports/00/ECS-LFCS-00-419/ECS-LFCS-00-419.pdf)&rbrack;
 
 * [[Théo Winterhalter]], *A conservative and constructive translation from extensional type theory to weak type theory*, Strength of Weak Type Theory, [[DutchCATS]], 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf))
+
