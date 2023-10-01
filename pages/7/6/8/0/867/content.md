@@ -222,7 +222,7 @@ In [[homotopy type theory]], every [[type]] with a partial order in a [[univalen
 
 [[Cauchy completion]] of prosets and posets is discussed in 
 
-* G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
+* G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://rivista.math.unipr.it/fulltext/1999-2s/06.pdf))
  {#Rosolini}
 
 Here are some references on [[directed homotopy theory]]:
