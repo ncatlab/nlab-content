@@ -10,7 +10,9 @@
 
 ## Selected writings
 
-* _Systems of Hodge bundles and uniformization_, Ph.D. Thesis, Harvard Univ., Cambridge, MA, 1987; J. Amer. Math. Soc. 1 (1988), no. 4, 867--918; [MR90e:58026](http://www.ams.org/mathscinet-getitem?mr=90e:58026), [doi](http://dx.doi.org/10.2307/1990994)
+* _Systems of Hodge bundles and uniformization_, Ph.D. Thesis, Harvard Univ., Cambridge, MA, 1987; J. Amer. Math. Soc. 1 (1988), no. 4, 867--918; [MR90e:58026](http://www.ams.org/mathscinet-getitem?mr=90e:58026), [doi](https://doi.org/10.2307/1990994)
+* _Some families of local systems over smooth projective varieties_, Ann. Math., Sec. Ser. __138__:2 (1993) 337--425 
+[doi](https://doi.org/10.2307/2946614)
 
 On a [[de Rham theorem]] for [[algebraic stack|algbraic]] [[infinity-stacks|$\infty$-stacks]] via an [[infinitesimal shape modality]] realizing the [[de Rham stack]]:
 
@@ -39,6 +41,9 @@ On [[homotopy theory]] and [[higher category theory]]:
 
 * [[Carlos Simpson]], *[[Homotopy Theory of Higher Categories]]*, Cambridge University Press 2011 ([ISBN:9780521516952](https://www.cambridge.org/in/academic/subjects  /mathematics/geometry-and-topology/homotopy-theory-higher-categories-segal-categories-ini-categories-and-beyond?format=HB)), [hal:00449826](https://hal.archives-ouvertes.fr/hal-00449826/document), [http://arxiv.org/abs/1001.4071](http://arxiv.org/abs/1001.4071) )
 
+Lectures on [[stack]]s:
+
+* Nicole Mestrano, Carlos Simpson, _Stacks_, 32 pp. [pdf](https://hal.science/hal-03347136/document)
 
 On [[descent]]:
 
