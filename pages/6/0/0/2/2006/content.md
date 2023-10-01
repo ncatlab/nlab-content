@@ -297,7 +297,7 @@ This Kleisli composition plays an important role in [[computer science]]; for th
 
 \begin{proposition}
 \label{ExistenceOfTwoSidedKleisliCategory}
-If in addition to the given monad $\mathcal{E}$ there is a [[comonad]] $\mathcal{C}$ on the same category $\mathbf{C}$, equipped with a [[distributivity law]] (see [there](distributive+law#MonadDistributingOverComonad))
+If in addition to the given monad $\mathcal{E}$ there is a [[comonad]] $\mathcal{C}$ on the same category $\mathbf{C}$, equipped with a [[distributivity law]] (see [there](distributive+law#ComonadDistributingOverMonad))
 
 $$
   distr^{\mathcal{C}, \mathcal{E}}
