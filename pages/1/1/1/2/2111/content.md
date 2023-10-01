@@ -67,20 +67,22 @@ Quart. J. Math. Oxford (2), 28 (1977), pp. 403--415
 
 * F. A. Berezin, _Quantization_, Math. USSR Izv., 8 (1974), 1109-1163. MR 0395610 (52:16404) 
 
-* M. Spera, _On a generalized uncertainty principle,
-coherent states and the moment map_, J. of Geometry and Physics 12 (1993) 165-182.
+* [[Mauro Spera]], _On a generalized uncertainty principle, coherent states and the moment map_, J. of Geometry and Physics 12 (1993) 165-182.
 
 * Enrico Onofri, _A note on coherent state representations of Lie groups_, J. Math. Phys. __16__:5, 1087-1089, may 1975. 
 
 * for physical aspects [wikipedia:Coherent_state](https://en.wikipedia.org/wiki/Coherent_state).
 
-* V. V. Kisil, _Integral representations and coherent states_,
-Bulletin of the Belgian Mathematical Society, v. 2 (1995), No 5, pp. 529-540.
+* V. V. Kisil, _Integral representations and coherent states_, Bulletin of the Belgian Mathematical Society, v. 2 (1995), No 5, 529--540.
 
 * Thomas Appl,  Diethard H Schiller, _Generalized hypergeometric coherent states_, J. Phys A37:7 (2004) 2731 [doi](https://doi.org/10.1088/0305-4470/37/7/015)
-* M. Spera, _On Kahlerian coherent states_, in Proc. Int. Conf. on Geometry, Integrability and Quantization 241-256, Institute of Biophysics and Biomedical Engineering, Bulg. Acad. Sci. 2000.
+* [[Mauro Spera]], _On Kahlerian coherent states_, in Proc. Int. Conf. on Geometry, Integrability and Quantization 241-256, Institute of Biophysics and Biomedical Engineering, Bulg. Acad. Sci. 2000.
 * Rukmini Dey, Kohinoor Ghosh, Pullback coherent and squeezed states and quantization, [arXiv:2108.08082](https://arxiv.org/abs/2108.08082)
 * JP Antoine, F. Bagarello, JP Gazeau (eds) Coherent States and Their Applications. Springer Proceedings in Physics 205
+
+Projection valued measures are central objects in the theory of (general) [[coherent state]]s.
+
+* Syed Twareque Ali, Jean-Pierre Antoine, Jean-Pierre Gazeau, _Coherent states, wavelets and their generalizations_, Graduate Texts in Contemporary Physics. Springer 2000
 
 Coherent states can be generalized to [[noncommutative geometry]], most notably for [[quantum groups]]:
 
