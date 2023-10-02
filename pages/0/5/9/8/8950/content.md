@@ -10,7 +10,9 @@ Given an [[entwining structure]] between a $k$-[[algebra]] $A$ and a $k$-[[coalg
 
 Historically, the entwined modules are first introduced under the name "bialgebras" by van Osdol for the mixed distributive laws between monads and comonads instead of $k$-algebras and $k$-coalgebras. The same terminology is used by Power and Watanabe.
 
-* D. H. van Osdol, _Bicohomology theory_, Trans. Amer. Math. Soc. __183__ (1973) 449--476 [jstor:1996479](https://www.jstor.org/stable/1996479)
+* {#vanOsdol73} [[Donovan van Osdol]], *Bicohomology Theory*, Transactions of the American Mathematical Society **183** (1973) 449-476 &lbrack;[jstor:1996479](https://www.jstor.org/stable/1996479)&rbrack;
+
+
 * [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1--2 (2002) 137--162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
 
 [[!redirects entwined modules]]
