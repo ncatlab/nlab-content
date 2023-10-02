@@ -27,7 +27,7 @@ Prismatic cohomology is a cohomology theory for p-adic [[formal schemes]] which 
 
 ## Prisms
 
-A prism is a pair $(A,I)$ where $A$ is a $\delta$-ring and $I$ is an ideal defining a Cartier divisor on $\mathrm{Spec}(A)$, such that such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.
+A prism is a pair $(A,I)$ where $A$ is a $\delta$-ring and $I$ is an ideal defining a Cartier divisor on $\mathrm{Spec}(A)$, such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.
 
 ## Examples of Prisms
 
