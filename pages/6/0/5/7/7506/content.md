@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[type theory]], $\beta$-reduction is a process of "computation", which generally replaces more complicated terms with simpler ones.  It was originally identified in the [[lambda-calculus]], where it contrasts with $\alpha$-[[alpha-equivalence|equivalence]] and $\eta$-[[eta expansion|expansion]]; this is the version described below for [[function types]].  The analogous reduction for [[inductive types]] may also be known as $\iota$-reduction.
+In [[type theory]], $\beta$-reduction is a [[conversion rule]] of "computation", which generally replaces more complicated terms with simpler ones.  It was originally identified in the [[lambda-calculus]], where it contrasts with $\alpha$-[[alpha-equivalence|equivalence]] and $\eta$-[[eta expansion|expansion]]; this is the version described below for [[function types]].  The analogous reduction for [[inductive types]] may also be known as $\iota$-reduction.
 
 
 ## "Definition"
