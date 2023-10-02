@@ -120,7 +120,7 @@ If an object $B$ has the [[left lifting property]] against a morphism $X \to Y$,
 $$
   \left(
   \array{
-     && Y
+     && X
      \\
      & {}^{\mathllap{\exists}}\nearrow& \downarrow
      \\
@@ -132,7 +132,7 @@ $$
   \;\;\;\;
   \left(    
   \array{
-     && && &&  Y
+     && && &&  X
      \\
      &&& {}^{\mathllap{\exists}}\nearrow& && \downarrow
      \\
