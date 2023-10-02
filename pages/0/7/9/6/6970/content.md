@@ -400,21 +400,21 @@ $$\begin{array}{c}
 $$
 \end{definition}
 
-Now, recall that the happly function 
+Now, recall that the canonical $\mathrm{idtohomotopy}$ function 
 
-$$\mathrm{happly}_{A, B}(f, g):f =_{A \to B} g \to \prod_{x:A} f(x) =_{B} g(x)$$
+$$\mathrm{idtohomotopy}_{A, B}(f, g):f =_{A \to B} g \to \prod_{x:A} f(x) =_{B} g(x)$$
 
 is inductively defined by
 
-$$\mathrm{happly}_{A, B}(f, f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\mathrm{refl}_{B}(f(x)):\prod_{x:A} f(x) =_{B} g(x)$$
+$$\mathrm{idtohomotopy}_{A, B}(f, f)(\mathrm{refl}_{A \to B}(f)) \equiv \lambda (x:A).\mathrm{refl}_{B}(f(x)):\prod_{x:A} f(x) =_{B} g(x)$$
 
-[[function extensionality]] states that $\mathrm{happly}_{A, B}(f, g)$ is an [[equivalence of types]] for all functions $f:A \to B$ and $g:A \to B$
+[[function extensionality]] states that $\mathrm{idtohomotopy}_{A, B}(f, g)$ is an [[equivalence of types]] for all functions $f:A \to B$ and $g:A \to B$
 
-$$\mathrm{funext}_{A, B}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{isEquiv}(\mathrm{happly}_{A, B}(f, g))$$
+$$\mathrm{funext}_{A, B}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{isEquiv}(\mathrm{idtohomotopy}_{A, B}(f, g))$$
 
 Thus, there is an [[inverse function]] 
 
-$$\mathrm{happly}_{A, B}(f, g)^{-1}:\left(\prod_{x:A} \mathrm{Id}_{B}(f(x), g(x))\right) \to f =_{A \to B} g$$
+$$\mathrm{idtohomotopy}_{A, B}(f, g)^{-1}:\left(\prod_{x:A} \mathrm{Id}_{B}(f(x), g(x))\right) \to f =_{A \to B} g$$
 
 With function extensionality, we can now prove the associative and unital laws, showing that function are a category:
 
@@ -429,21 +429,21 @@ has an identification.
 \begin{proof}
 By function extensionality, the function 
 
-$$\mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f):(\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f) \to \prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)$$ 
+$$\mathrm{idtohomotopy}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f):(\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f) \to \prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)$$ 
 
 has an inverse function 
 
-$$\mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}:\left(\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)\right) \to (\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f)$$
+$$\mathrm{idtohomotopy}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}:\left(\prod_{x:A} (\mathrm{id}_B \circ_{A, B, B} f)(x) =_{B} f(x)\right) \to (\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f)$$
 
 One then gets the identification
 
-$$\mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}(\mathrm{lunith}_{A, B}(f)):\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
+$$\mathrm{idtohomotopy}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}(\mathrm{lunith}_{A, B}(f)):\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
 \end{proof}
 
 \begin{definition}
 For types $A$ and $B$ and function $f:A \to B$, we define the **left unitor** as the identification 
 
-$$\mathrm{lunit}_{A, B}(f) \equiv \mathrm{happly}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}(\mathrm{lunith}_{A, B}(f)):\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
+$$\mathrm{lunit}_{A, B}(f) \equiv \mathrm{idtohomotopy}_{A, B}(\mathrm{id}_B \circ_{A, B, B} f, f)^{-1}(\mathrm{lunith}_{A, B}(f)):\mathrm{id}_B \circ_{A, B, B} f =_{A \to B} f$$
 \end{definition}
 
 \begin{theorem}
@@ -457,21 +457,21 @@ has an identification.
 \begin{proof}
 By function extensionality, the function 
 
-$$\mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f):(f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f) \to \prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)$$ 
+$$\mathrm{idtohomotopy}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f):(f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f) \to \prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)$$ 
 
 has an inverse function 
 
-$$\mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}:\left(\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)\right) \to (f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f)$$
+$$\mathrm{idtohomotopy}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}:\left(\prod_{x:A} (f \circ_{A, A, B} \mathrm{id}_A)(x) =_{B} f(x)\right) \to (f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f)$$
 
 One then gets the identification
 
-$$\mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}(\mathrm{runith}_{A, B}(f)):f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
+$$\mathrm{idtohomotopy}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}(\mathrm{runith}_{A, B}(f)):f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
 \end{proof}
 
 \begin{definition}
 For types $A$ and $B$ and function $f:A \to B$, we define the **right unitor** as the identification 
 
-$$\mathrm{runit}_{A, B}(f) \equiv \mathrm{happly}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}(\mathrm{runith}_{A, B}(f)):f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
+$$\mathrm{runit}_{A, B}(f) \equiv \mathrm{idtohomotopy}_{A, B}(f \circ_{A, A, B} \mathrm{id}_A, f)^{-1}(\mathrm{runith}_{A, B}(f)):f \circ_{A, A, B} \mathrm{id}_A =_{A \to B} f$$
 \end{definition}
 
 \begin{theorem}
@@ -487,7 +487,7 @@ By function extensionality, the function
 
 $$
 \begin{array}{c}
-	\mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f): \\
+	\mathrm{idtohomotopy}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f): \\
 	(h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f) \\
 	\to \prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)
 \end{array}
@@ -497,7 +497,7 @@ has an inverse function
 
 $$
 \begin{array}{c}
-	\mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}: \\
+	\mathrm{idtohomotopy}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}: \\
 	\left(\prod_{x:A} (h \circ_{A, C, D} (g \circ_{A, B, C} f))(x) =_{D} ((h \circ_{B, C, D} g) \circ_{A, B, D} f)(x)\right) \\
 	\to (h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f)
 \end{array}
@@ -507,7 +507,7 @@ One then gets the identification
 
 $$
 \begin{array}{c}
-	\mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}(\mathrm{assoch}_{A, B, C, D}(f, g, h)):\\
+	\mathrm{idtohomotopy}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}(\mathrm{assoch}_{A, B, C, D}(f, g, h)):\\
 	h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f
 \end{array}
 $$
@@ -518,7 +518,7 @@ For types $A$, $B$, $C$, and $D$ and functions $f:A \to B$, $f:B \to C$, and $h:
 
 $$
 \begin{array}{c}
-	\mathrm{assoc}_{A, B, C, D}(f, g, h) \equiv \mathrm{happly}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}(\mathrm{assoch}_{A, B, C, D}(f, g, h)):\\
+	\mathrm{assoc}_{A, B, C, D}(f, g, h) \equiv \mathrm{idtohomotopy}_{A, D}(h \circ_{A, C, D} (g \circ_{A, B, C} f), (h \circ_{B, C, D} g) \circ_{A, B, D} f)^{-1}(\mathrm{assoch}_{A, B, C, D}(f, g, h)):\\
 	h \circ_{A, C, D} (g \circ_{A, B, C} f) =_{A \to D} (h \circ_{B, C, D} g) \circ_{A, B, D} f
 \end{array}
 $$
@@ -530,42 +530,17 @@ These are called *typal congruence rules* because they are the analogue of the j
 
 #### Strict function types
 
-\begin{theorem}
-Given types $A$, $A'$, $B$, $B'$ and equivalences $e_A:A \simeq A'$ and $e_B:B \simeq B'$, there is an equivalence 
-$$\mathrm{congform}(e_A, e_B):(A \to B) \simeq (A' \to B')$$
-\end{theorem}
-
-\begin{proof}
-We define the function $\mathrm{congform}(e_A, e_B):(A \to B) \to (A' \to B')$ by 
-
-$$\mathrm{congform}(e_A, e_B) \coloneqq \lambda (f:A \to B).\lambda x:A'.e_B(f(e_A^{-1}(x)))$$
-
-and the inverse function by
-
-$$\mathrm{congform}(e_A, e_B)^{-1} \coloneqq \lambda (g:A' \to B').\lambda x:A.e_B^{-1}(g(e_A(x)))$$
-
-Now it suffices to construct homotopies 
-
-$$\prod_{f:A \to B} \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{A \to B} f$$
-
-$$\prod_{g:A' \to B'} \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{A' \to B'} g$$
-
-from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse and contractible fibers and is thus an [[equivalence of types]]. 
-
-To be finished...
-\end{proof}
-
-Since [[function types]] are negative types, we first present the typal computation rule for the elimination rule of function types
+Since [[function types]] are negative types, we first present the typal congruence rule for the elimination rule of function types
 
 \begin{theorem}
 Given types $A$ and $B$, functions $f:A \to B$ and $g:A \to B$ and an identification $p:f =_{A \to B} g$ there are families of identifications $x:A \vdash \mathrm{compelim}(f, g, p)(x):f(x) =_B g(x)$. 
 \end{theorem}
 
 \begin{proof}
-We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
+We simply define the dependent function $\mathrm{compelim}$ to be the canonical inductively defined function $\mathrm{idtohomotopy}$ which takes identifications between functions to homotopies between functions. 
 \end{proof}
 
-The next is the typal computation rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs function extensionality. 
+The next is the typal congruence rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs function extensionality. 
 
 \begin{theorem}
 Assuming [[function extensionality]], given types $A$ and $B$, families of elements $x:A \vdash b(x):B$ and $x:A \vdash b'(x):B$, and families of [[identifications]] $x:A \vdash p(x):b(x) =_B b'(x)$, there is an identification 
@@ -599,6 +574,76 @@ We define
 $$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{funext}^{-1}(\lambda (x:A).p(x)):(\lambda x:A.b(x)) =_{A \to B} (\lambda x:A.b'(x))$$
 \end{proof}
 
+Finally, we present the typal congruence rule for the formation rule of function types, which relies upon the previous two results. 
+
+\begin{theorem}
+Given types $A$, $A'$, $B$, $B'$ and equivalences $e_A:A \simeq A'$ and $e_B:B \simeq B'$, there is an equivalence 
+$$\mathrm{congform}(e_A, e_B):(A \to B) \simeq (A' \to B')$$
+\end{theorem}
+
+\begin{proof}
+We define the function $\mathrm{congform}(e_A, e_B):(A \to B) \to (A' \to B')$ by 
+
+$$\mathrm{congform}(e_A, e_B) \coloneqq \lambda (f:A \to B).\lambda x:A'.e_B(f(e_A^{-1}(x)))$$
+
+and the inverse function by
+
+$$\mathrm{congform}(e_A, e_B)^{-1} \coloneqq \lambda (g:A' \to B').\lambda x:A.e_B^{-1}(g(e_A(x)))$$
+
+Now it suffices to construct homotopies 
+
+$$\prod_{f:A \to B} \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{A \to B} f$$
+
+$$\prod_{g:A' \to B'} \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{A' \to B'} g$$
+
+from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse and contractible fibers and is thus an [[equivalence of types]]. 
+
+By definition, 
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B^{-1}((\lambda x:A'.e_B(f(e_A^{-1}(x))))(e_A(x)))$$
+
+By the computation rules of strict function types, there is a family of judgmental equalities
+$$x:A (\lambda x:A'.e_B(f(e_A^{-1}(x))))(e_A(x)) \equiv e_B(f(e_A^{-1}(e_A(x))))$$
+and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for function types, a judgmental equality
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B^{-1}(e_B(f(e_A^{-1}(e_A(x)))))$$
+
+The equivalence $e_B:B \simeq B'$ has a family of identifications 
+$$x:B \vdash \mathrm{ret}_{e_B}(x):e_B^{-1}(e_B(x)) =_{B} x$$
+witnessing that $e_B^{-1}$ is a [[retraction]] of $e_B$. 
+
+This means that by applying the canonical inductively defined function $\mathrm{idtohomotopy}$ which takes identifications between functions to homotopies between functions, one gets the family of identifications
+$$\mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))):e_B^{-1}(e_B(f(e_A^{-1}(e_A(x))))) =_{B} f(e_A^{-1}(e_A(x)))$$
+
+Similarly, the equivalence $e_A:A \simeq A'$ has a family of identifications 
+$$x:A \vdash \mathrm{ret}_{e_A}(x):e_A^{-1}(e_A(x)) =_{A} x$$
+witnessing that $e_B^{-1}$ is a [[retraction]] of $e_B$. 
+
+This means by applying $f$ to the above family of identifications, one gets the family of identifications
+$$x:A \vdash \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)):f(e_A^{-1}(e_A(x))) =_{B} f(x)$$
+
+By concatenation of identifications, one gets the family of identifications
+
+$$x:A \vdash \mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))) \bullet \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)):e_B^{-1}(e_B(f(e_A^{-1}(e_A(x))))) =_{B} f(x)$$
+
+By lambda abstraction, one gets the homotopy
+$$\lambda x:A.\mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))) \bullet \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)):\prod_{x:A} e_B^{-1}(e_B(f(e_A^{-1}(e_A(x))))) =_{B} f(x)$$
+and by function extensionality, this is the same as 
+$$\mathrm{funext}^{-1}(\lambda x:A.\mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))) \bullet \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))):\lambda (x:A).e_B^{-1}(e_B(f(e_A^{-1}(e_A(x))))) =_{A \to B} \lambda x:A.f(x)$$
+
+By the computation rules of strict function types and the structural rules of judgmental equality, the type 
+$$\lambda (x:A).e_B^{-1}(e_B(f(e_A^{-1}(e_A(x))))) =_{A \to B} \lambda x:A.f(x)$$ 
+is judgmentally equal to $\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{A \to B} f$, so we have 
+$$\mathrm{funext}^{-1}(\lambda x:A.\mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))) \bullet \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{A \to B} f$$
+
+$\lambda$-abstraction on functions $f:A \to B$ leads to the dependent function
+
+$$\lambda (f:A \to B).\mathrm{funext}^{-1}(\lambda x:A.\mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))) \bullet \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))):\prod_{f:A \to B} \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{A \to B} f$$
+
+By a similar argument swapping the types around and the corresponding equivalences with inverse equivalences; one also has 
+$$\lambda (g:A' \to B').\mathrm{funext}^{-1}(\lambda x:A'.\mathrm{idtohomotopy}(\lambda x:A'.e_B(e_B^{-1}(x)), \lambda x:A'.x, g(e_A(e_A^{-1}(x))) \bullet \mathrm{ap}(g, e_A(e_A^{-1}(x)), x, \mathrm{ret}_{e_A^{-1}}(x))):\prod_{g:A' \to B'} \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{A' \to B'} g$$
+
+Thus, $\mathrm{congform}(e_A, e_B):(A \to B) \to (A' \to B')$ is an equivalence of types. 
+\end{proof}
+
 #### Weak function types
 
 \begin{theorem}
@@ -626,17 +671,17 @@ from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse 
 To be finished...
 \end{proof}
 
-Since [[function types]] are negative types, we first present the typal computation rule for the elimination rule of function types
+Since [[function types]] are negative types, we first present the typal congruence rule for the elimination rule of function types
 
 \begin{theorem}
 Given types $A$ and $B$, functions $f:A \to B$ and $g:A \to B$ and an identification $p:f =_{A \to B} g$ there are families of identifications $x:A \vdash \mathrm{compelim}(f, g, p)(x):f(x) =_B g(x)$. 
 \end{theorem}
 
 \begin{proof}
-We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
+We simply define the dependent function $\mathrm{compelim}$ to be the canonical inductively defined function $\mathrm{idtohomotopy}$ which takes identifications between functions to homotopies between functions. 
 \end{proof}
 
-The next is the typal computation rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs function extensionality. 
+The next is the typal congruence rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs function extensionality. 
 
 \begin{theorem}
 Assuming [[function extensionality]], given types $A$ and $B$, families of elements $x:A \vdash b(x):B$ and $x:A \vdash b'(x):B$, and families of [[identifications]] $x:A \vdash p(x):b(x) =_B b'(x)$, there is an identification 
