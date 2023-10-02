@@ -1146,6 +1146,22 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > The talk recalls some of the theory of "[[quantum channels]]" and then explains how this is captured by "[[monad (in computer science)|monadic computation]]" with the [[linear logic|linear version]] of the "[[state monad|State monad]]" -- the "[[quantum state monad|QuantumState Frobenius monad]]".
 
 
+\linebreak
+
+
+### Oct 2023
+
+* {#NeupertOct2023} 2 Oct 2023
+
+  [[Titus Neupert]] (University of Zurich)
+
+  **Realizing Higher-Order Topology**
+
+  cf. [doi:10.1126/sciadv.aat0346](topological+insulator#SchindlerEtAl18)
+
+  > Higher-order topology generalizes the bulk-boundary correspondence of [[topological phases of matter]], by allowing topological modes to be localized at [[manifold with corners|corners]] and hinges instead of edges and surfaces. I will introduce the theory behind this concept, both for noninteracting as well as interacting systems and consecutively discuss two realizations in rather distinct setups. First, as-grown crystals of bismuth, grey arsenic, as well as bismuth bromide are demonstrated to display the essential physics of higher-order topological insulators. Second, it is shown that lattices of so-called Shiba bound states induced by magnetic adatoms in conventional superconductors can be brought into a higher-order superconducting phase. I will report on experimental progress for both system types based on spanning probe as well as transport measurements.
+
+
 \linebreak 
 
 ***
