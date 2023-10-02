@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[type theory]], a **display map** &lbrack;[Tayloer 1983-7, §4.3.2](#Taylor87)&rbrack; is a [[morphism]] $p\colon B\to A$ in a [[category]] which represents a [[dependent type]] under [[categorical semantics of dependent type theory]].
+In [[type theory]], a **display map** &lbrack;[Taylor 1983-7, §4.3.2](#Taylor87)&rbrack; is a [[morphism]] $p\colon B\to A$ in a [[category]] which represents a [[dependent type]] under [[categorical semantics of dependent type theory]].
 
 That is, $B$ represents (interprets) a [[type]] [[dependent type|dependent]] on a [[variable]] of type $A$, usually written syntactically as $x\colon A \vdash B(x)\colon Type$.  The intended intuition is that $B(x)$ is the [[fiber]] of the map $p$ over $x\colon A$.
 
