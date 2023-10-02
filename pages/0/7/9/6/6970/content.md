@@ -524,6 +524,59 @@ $$
 $$
 \end{definition}
 
+### Typal congruence rules
+
+These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]:
+
+\begin{theorem}
+Given types $A$, $A'$, $B$, $B'$ and equivalences $e_A:A \simeq A'$ and $e_B:B \simeq B'$, there is an equivalence 
+$$\mathrm{congform}(e_A, e_B):(A \to B) \simeq (A' \to B')$$
+\end{theorem}
+
+Since [[function types]] are negative types, we first present the typal computation rule for the elimination rule of function types
+
+\begin{theorem}
+Given types $A$ and $B$, functions $f:A \to B$ and $g:A \to B$ and an identification $p:f =_{A \to B} g$ there are families of identifications $x:A \vdash \mathrm{compelim}(f, g, p)(x):f(x) =_B g(x)$. 
+\end{theorem}
+
+\begin{proof}
+We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
+\end{proof}
+
+The next is the typal computation rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs function extensionality. 
+
+\begin{theorem}
+Assuming [[function extensionality]], given types $A$ and $B$, families of elements $x:A \vdash b(x):B$ and $x:A \vdash b'(x):B$, and families of [[identifications]] $x:A \vdash p(x):b(x) =_B b'(x)$, there is an identification 
+$$\mathrm{congintro}_{x:A.p(x)}:\lambda (x:A).b(x) =_{A \to B} \lambda (x:A).b'(x)$$
+\end{theorem}
+
+\begin{proof}
+By the computation rule of weak function types, there are families of identifications 
+
+$$x:A \vdash \beta_{A \to B}^{x:A.b(x)}(b(x)):((\lambda x:A.b(x))(x) =_{B} b(x)$$
+$$x:A \vdash \beta_{A \to B}^{x:A.b'(x)}(b'(x)):((\lambda x:A.b'(x))(x) =_{B} b'(x)$$
+
+Thus, there are families of identificaitons 
+
+$$x:A \vdash \beta_{A \to B}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{A \to B}^{x:A.b'(x)}(b'(x))^{-1}:(\lambda x:A.b(x))(x) =_B (\lambda x:A.b'(x))(x)$$
+
+and by $\lambda$-abstraction, one gets the dependent function
+
+$$\lambda (x:A).\beta_{A \to B}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{A \to B}^{x:A.b'(x)}(b'(x))^{-1}:(\lambda x:A.b(x))(x) =_B (\lambda x:A.b'(x))(x)$$
+
+By [[function extensionality]], there is an [[equivalence of types]]
+
+$$\mathrm{funext}:(\lambda x:A.b(x)) =_{A \to B} (\lambda x:A.b'(x)) \simeq \prod_{x:A} \mathrm{Id}_B((\lambda x:A.b(x))(x), (\lambda x:A.b'(x))(x))$$
+
+which yields an identification 
+
+$$\mathrm{funext}^{-1}(\lambda (x:A).\beta_{A \to B}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{A \to B}^{x:A.b'(x)}(b'(x))^{-1}):(\lambda x:A.b(x)) =_{A \to B} (\lambda x:A.b'(x))$$
+
+We define 
+
+$$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{funext}^{-1}(\lambda (x:A).\beta_{A \to B}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{A \to B}^{x:A.b'(x)}(b'(x))^{-1}):(\lambda x:A.b(x)) =_{A \to B} (\lambda x:A.b'(x))$$
+\end{proof}
+
 ### Application in logic
 
 In [[logic]], functions types express [[implication]]. More precisely, for $\phi, \psi$ two [[propositions]], under [[propositions as types]] the [[implication]] $\phi \Rightarrow \psi$ is the function type $\phi \to \psi$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
