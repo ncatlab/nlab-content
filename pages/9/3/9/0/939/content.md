@@ -53,6 +53,7 @@ $$
   \circ 
   \big( a \times (-) \big) 
 $$
+(where, of course, the [[equality]] as such works in both directions, but the *distribution* of factors over summands is the step from left to right)
 suggests that a suitable transformation of (co)monads of the form
 $$
   T_1 \circ T_2 \longrightarrow T_2 \circ T_1
