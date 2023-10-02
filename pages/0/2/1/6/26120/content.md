@@ -1422,7 +1422,7 @@ is of course the [[Heisenberg picture]]-evolution of [[quantum observables]] $A$
 
 ## Properties
 
-### Interaction with QuantumReader monad
+### Interaction with QuantumEnvironment monad
 
 \begin{proposition}
 \label{QuantumStoreDistributesOverQuantumReader}
@@ -1438,15 +1438,8 @@ we have:
 
 1. the $W$-[[quantum reader monad|QuantumEnvironment]] comonad $\bigstar_W$ [distributes over](distributive+law#ComonadDistributingOverMonad) over the $\mathscr{H}$QuantumState monad $\mathscr{H}^\ast Store$.
 
-
-\end{proposition}
-\begin{proof}
-  The distributivity structure and its relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93), see [there](distributive+law#MonadDistributingOverComonad)) all come from the the distribitivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). For definiteness, we spell it out in detail:
-
-The distributivity conditions for the first statement:
-
 \begin{imagefromfile}
-    "file_name": "DistrStrucQuantumStoreOverQuantumReader-230929.jpg",
+    "file_name": "DistrStrucQuantumStoreOverQuantumReader-231002.jpg",
     "width": 700,
     "unit": "px",
     "margin": {
@@ -1457,7 +1450,12 @@ The distributivity conditions for the first statement:
     }
 \end{imagefromfile}
 
-Its consistency conditions are exhibited by the following diagrams, whose communtativity is immediate in components, as shown:
+
+\end{proposition}
+\begin{proof}
+  The relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93), see [there](distributive+law#MonadDistributingOverComonad)) all follows immediately from the distributivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). 
+
+For definiteness, we spell it out. In the first direction we have:
 
 \begin{imagefromfile}
     "file_name": "DistrCondQuantumStoreOverQuantumEnvrn-231002.jpg",
@@ -1471,6 +1469,19 @@ Its consistency conditions are exhibited by the following diagrams, whose commun
     }
 \end{imagefromfile}
 
+and in the converse direction we have:
+
+\begin{imagefromfile}
+    "file_name": "DistrCondQuantumEnvrnOverQuantumStore-231002.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
 \end{proof}
 
