@@ -181,7 +181,22 @@ Also just as for [[product types]], in order to recover the important *dependent
 
 One might expect that in "[[dependent linear type theory]]" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
 
-## Quantification in dependent type theory
+## Properties
+
+### Typal congruence rules
+
+These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]:
+
+\begin{theorem}
+Given types $A$ and $A'$ and type families $x:A \vdash B(x)$ and $x:A \vdash B'(x)$ and equivalences $e_A:A \simeq A'$ and dependent function of equivalences $e_B:\prod_{x:A} B(x) \simeq B'(x)$, there is an equivalence 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
+\end{theorem}
+
+\begin{proof}
+This is theorem 11.1.6 of [Rijke 2022](#Rijke22), and a proof of this is given in that reference.
+\end{proof}
+
+### Quantification in dependent type theory
 
 Given a family of types $x:A \vdash B(x)$, the [[existential quantifier]] is defined as the [[bracket type]] of the dependent sum type
 
@@ -222,6 +237,10 @@ Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon T
 
 
 ## References
+
+A textbook account could be found in section 4.6 of:
+
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 Discussion in a context of [[homotopy type theory]]:
 
