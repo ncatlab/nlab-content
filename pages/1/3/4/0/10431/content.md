@@ -148,6 +148,10 @@ Discussion via [[AdS/CFT in solid state physics]]:
 
 * Georgios Linardopoulos, *Modelling Topological Materials with D-branes*, INPP Annual Meeting 2017 ([pdf](https://indico.cern.ch/event/680759/contributions/2789343/attachments/1559809/2454998/Linardopoulos.pdf), [[LinardopoulosTopologicalMaterialsWithDBranes.pdf:file]])
 
+Higher order topological insulators (with protected corner-modes beyond the edge-modes):
+
+* {#SchindlerEtAl18} [[Frank Schindler]], Ashley M. Cook, Maia G. Vergniory, Zhijun Wang, Stuart S. P. Parkin, [[B. Andrei Bernevig]], [[Titus Neupert]], *Higher-Order Topological Insulators*, Science Advances 01  **4** 6 (2018) eaat0346 &lbrack;[arXiv:1708.03636](https://arxiv.org/abs/1708.03636), [doi:10.1126/sciadv.aat0346](https://doi.org/10.1126/sciadv.aat0346)&rbrack;
+
 
 ### Experimental realization
 
