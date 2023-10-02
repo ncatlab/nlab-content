@@ -9,13 +9,14 @@
 =--
 =--
 
+
 # $\eta$-conversion
 * table of contents
 {: toc}
 
 ## Idea
 
-In [[type theory]], $\eta$-conversion is a process of "computation" which is "dual" to [[beta-conversion]].
+In [[type theory]], $\eta$-conversion is a [[conversion rule]] for "computation" which is "dual" to [[beta-conversion]].
 
 Whereas $\beta$-reduction tells us how to simplify a term that involves an *eliminator* applied to a *constructor*, $\eta$-reduction tells us how to simplify a term that involves a *constructor* applied to an *eliminator*.
 
