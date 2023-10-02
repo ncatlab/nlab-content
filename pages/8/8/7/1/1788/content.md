@@ -1,3 +1,6 @@
+
+$\bigstar$
+
 \begin{proposition}
   \label{MixedUnitaryChannelsOnSIngleQBitAreUnistochastic}
   On a single [[qbit]], every [[mixed unitary quantum channel]]  is a unistochastic channel.
