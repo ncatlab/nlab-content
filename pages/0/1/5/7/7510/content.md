@@ -144,7 +144,7 @@ Assuming dependent function extensionality, given types $A$ and $A'$ and type fa
 $$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
 \end{theorem}
 
-Since [[dependent function types]] are negative types, we first present the typal computation rule for the elimination rule of dependent function types
+Since [[dependent function types]] are negative types, we first present the typal congruence rule for the elimination rule of dependent function types
 
 \begin{theorem}
 Given a type $A$ and a type family $x:A \vdash B(x)$, dependent functions $f:\prod_{x:A} B(x)$ and $g:\prod_{x:A} B(x)$ and an identification $p:f =_{\prod_{x:A} B(x)} g$ there are families of identifications $x:A \vdash \mathrm{compelim}(f, g, p)(x):f(x) =_{B(x)} g(x)$. 
@@ -154,7 +154,7 @@ Given a type $A$ and a type family $x:A \vdash B(x)$, dependent functions $f:\pr
 We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
 \end{proof}
 
-The next is the typal computation rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs dependent function extensionality. 
+The next is the typal congruence rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs dependent function extensionality. 
 
 \begin{theorem}
 Assuming dependent function extensionality, given a type $A$ and a type family $x:A \vdash B(x)$, families of elements $x:A \vdash b(x):B(x)$ and $x:A \vdash b'(x):B(x)$, and families of [[identifications]] $x:A \vdash p(x):b(x) =_{B(x)} b'(x)$, there is an identification 
