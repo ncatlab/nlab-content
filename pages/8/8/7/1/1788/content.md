@@ -1,4 +1,6 @@
 
+[[DistrCondQuantumEnvrnOverQuantumStore-231002.jpg:file]]
+
 $\bigstar$
 
 \begin{proposition}
