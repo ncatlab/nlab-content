@@ -1426,12 +1426,24 @@ is of course the [[Heisenberg picture]]-evolution of [[quantum observables]] $A$
 
 \begin{proposition}
 \label{QuantumStoreDistributesOverQuantumReader}
-  For $\mathscr{H}$ a dualizable linear type and $W$ a finite classical type, the $\mathscr{H}$QuantumState comonad $\mathscr{H}^\ast Store$ [[distributivity law|distributes]] over the $W$[[quantum reader monad|QuantumReader monad]] $\bigcirc_W$.
+For 
+
+* $\mathscr{H}$ a [[dualizable object|dualizable]] linear type 
+
+* $W$ a [[finite set|finite]] classical type, 
+
+we have:
+
+1. the $\mathscr{H}$QuantumState comonad $\mathscr{H}^\ast Store$ [distributes over](distributive+law#ComonadDistributingOverMonad) the $W$[[quantum reader monad|QuantumEnvironment]] monad $\bigcirc_W$,
+
+1. the $W$-[[quantum reader monad|QuantumEnvironment]] comonad $\bigstar_W$ [distributes over](distributive+law#ComonadDistributingOverMonad) over the $\mathscr{H}$QuantumState monad $\mathscr{H}^\ast Store$.
+
+
 \end{proposition}
 \begin{proof}
   The distributivity structure and its relevant conditions (from  [Brookes & Van Stone 1993 Def. 3](distributivity+law#BrookesVanStone93), see [there](distributive+law#MonadDistributingOverComonad)) all come from the the distribitivity of the [[tensor product]] (being a [[left adjoint]]) over the [[direct sum]] (being a [[coproduct]]). For definiteness, we spell it out in detail:
 
-The distributivity structure is this:
+The distributivity conditions for the first statement:
 
 \begin{imagefromfile}
     "file_name": "DistrStrucQuantumStoreOverQuantumReader-230929.jpg",
@@ -1448,8 +1460,8 @@ The distributivity structure is this:
 Its consistency conditions are exhibited by the following diagrams, whose communtativity is immediate in components, as shown:
 
 \begin{imagefromfile}
-    "file_name": "DistrCondQuantumStoreOverQuantumReader-230930.jpg",
-    "width": 750,
+    "file_name": "DistrCondQuantumStoreOverQuantumEnvrn-231002.jpg",
+    "width": 800,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -1464,7 +1476,7 @@ Its consistency conditions are exhibited by the following diagrams, whose commun
 
 \begin{example}
 \label{QuantumStateReaderKleisliCategory}
-  The double-[[Kleisli category]] induced by Prop. \ref{QuantumStoreDistributesOverQuantumReader} (via [Brookes & Van Stone 1993 Thm. 2](distributivity+law#BrookesVanStone93)) equivalently has (by arguing $W$-wise just as in Prop. \ref{KleisliCompositionIsSuperoperatorComposition}):
+  The two-sided [[Kleisli category]] induced by Prop. \ref{QuantumStoreDistributesOverQuantumReader} (via [Brookes & Van Stone 1993 Thm. 2](distributivity+law#BrookesVanStone93)) equivalently has (by arguing $W$-wise just as in Prop. \ref{KleisliCompositionIsSuperoperatorComposition}):
 
 * as morphisms $W$-indexed sets of linear operators 
 
