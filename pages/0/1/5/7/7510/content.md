@@ -88,6 +88,26 @@ The conversion rules also correspond.
 
 In dependent type theory, this definition of $funsplit$ only gives us a properly typed dependent eliminator if the negative dependent product type satisfies $\eta$-conversion.  As usual, if it satisfies [propositional eta-conversion](/nlab/show/eta-conversion#Propositional) then we can transport along that instead---and conversely, the dependent eliminator allows us to prove propositional $\eta$-conversion.  This is the content of Propositions 3.5, 3.6, and 3.7 in [(Garner)](#GarnerSDP).
 
+### Weak and strict dependent product types
+
+In [[dependent type theory]], **weak dependent product types** are dependent product types for which the [[computation rules]] ($\beta$-conversion) and [[uniqueness rules]] ($\eta$-conversion) are propositional rather than judgmental:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{A \to B}^{x:A.b(x)}(a):(\lambda(x:A).b(x))(a) =_{B(x)} b(a)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{A \to B}(f):f =_{\prod_{x:A} B(x)} \lambda(x:A).f(x)}$$
+
+Weak dependent product types appear in [[weak type theories]]. 
+
+This contrasts with **strict dependent product types** which use judgmental computation and uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash (\lambda(x:A).b(x))(a) \equiv b(a):B(x)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash f \equiv \lambda(x:A).f(x):\prod_{x:A} B(x)}$$
+
+Strict dependent product types appear in most dependent type theories such as [[Martin-Löf type theory]], [[observational type theory]], and [[cubical type theory]].
+
+For strict dependent product types, the judgmental computation and uniqueness rules automatically imply the propositional computation and uniqueness rules, as by the rules for [[judgmental equality]] and [[identity types]], judgmental equality of two terms always implies propositional equality of the two terms. 
+
 ### As types of dependent anafunctions
 
 In the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]] and [[function types]] as types of [[anafunctions]], one could define dependent function types as types of [[dependent anafunctions]]. This requires both [[identity types]] and [[heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$. We use Agda notation $(x:A) \to B(x)$ for dependent function types rather than the dependent product type notation $\prod_{x:A} B(x)$ or $\Pi(x:A).B(x)$ in this section. 
@@ -113,6 +133,65 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent anafunction]] for all dependent functions $f:(x:A) \to B(x)$. 
 
+## Properties
+
+### Typal congruence rules
+
+These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]:
+
+\begin{theorem}
+Assuming dependent function extensionality, given types $A$ and $A'$ and type families $x:A \vdash B(x)$ and $x:A \vdash B'(x)$ and equivalences $e_A:A \simeq A'$ and dependent function of equivalences $e_B:\prod_{x:A} B(x) \simeq B'(x)$, there is an equivalence 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
+\end{theorem}
+
+Since [[dependent function types]] are negative types, we first present the typal computation rule for the elimination rule of dependent function types
+
+\begin{theorem}
+Given a type $A$ and a type family $x:A \vdash B(x)$, dependent functions $f:\prod_{x:A} B(x)$ and $g:\prod_{x:A} B(x)$ and an identification $p:f =_{\prod_{x:A} B(x)} g$ there are families of identifications $x:A \vdash \mathrm{compelim}(f, g, p)(x):f(x) =_{B(x)} g(x)$. 
+\end{theorem}
+
+\begin{proof}
+We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
+\end{proof}
+
+The next is the typal computation rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs dependent function extensionality. 
+
+\begin{theorem}
+Assuming dependent function extensionality, given a type $A$ and a type family $x:A \vdash B(x)$, families of elements $x:A \vdash b(x):B(x)$ and $x:A \vdash b'(x):B(x)$, and families of [[identifications]] $x:A \vdash p(x):b(x) =_{B(x)} b'(x)$, there is an identification 
+$$\mathrm{congintro}_{x:A.p(x)}:\lambda (x:A).b(x) =_{\prod_{x:A} B(x)} \lambda (x:A).b'(x)$$
+\end{theorem}
+
+\begin{proof}
+By the computation rule of weak dependent function types, there are families of identifications 
+
+$$x:A \vdash \beta_{\prod_{x:A} B(x)}^{x:A.b(x)}(b(x)):((\lambda x:A.b(x))(x) =_{B(x)} b(x)$$
+$$x:A \vdash \beta_{\prod_{x:A} B(x)}^{x:A.b'(x)}(b'(x)):((\lambda x:A.b'(x))(x) =_{B(x)} b'(x)$$
+
+Thus, there are families of identificaitons 
+
+$$x:A \vdash \beta_{\prod_{x:A} B(x)}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{\prod_{x:A} B(x)}^{x:A.b'(x)}(b'(x))^{-1}:(\lambda x:A.b(x))(x) =_{B(x)} (\lambda x:A.b'(x))(x)$$
+
+and by $\lambda$-abstraction, one gets the dependent function
+
+$$\lambda (x:A).\beta_{\prod_{x:A} B(x)}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{\prod_{x:A} B(x)}^{x:A.b'(x)}(b'(x))^{-1}:(\lambda x:A.b(x))(x) =_{B(x)} (\lambda x:A.b'(x))(x)$$
+
+By dependent function extensionality, there is an [[equivalence of types]]
+
+$$\mathrm{funext}:(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x)) \simeq \prod_{x:A} \mathrm{Id}_{B(x)}((\lambda x:A.b(x))(x), (\lambda x:A.b'(x))(x))$$
+
+which yields an identification 
+
+$$\mathrm{funext}^{-1}(\lambda (x:A).\beta_{\prod_{x:A} B(x)}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{\prod_{x:A} B(x)}^{x:A.b'(x)}(b'(x))^{-1}):(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x))$$
+
+We define 
+
+$$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{funext}^{-1}(\lambda (x:A).\beta_{\prod_{x:A} B(x)}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{\prod_{x:A} B(x)}^{x:A.b'(x)}(b'(x))^{-1}):(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x))$$
+\end{proof}
+
+### Application in logic
+
+In [[logic]], dependent functions types express [[universal quantifications]]. More precisely, for $x:A \vdash \phi(x)$ a [[predicate]] on a type $A$, under [[propositions as types]] the [[universal quantification]] $\forall x:A.\phi(x)$ is the dependent product type $\prod_{x:A} \phi(x)$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
+
 ## Related concepts
 
 * [[dependent product]]
@@ -126,6 +205,10 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent a
 The standard rules for type-formation, term introduction/elimination and computation of dependent product type are listed for instance in [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf)  of
 
 * [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
+
+Another textbook account could be found in section 2.1 of:
+
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 See also:
 
