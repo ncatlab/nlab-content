@@ -44,7 +44,7 @@ With a notion of tangent bundle comes the following terminology
 
 * A _tangent vector field_ on $X$ is a [[section]] of $T X$.
 
-The precise definition of tangent bundle depends on the nature of the ambient category of [[space]]s. Below we give first the traditional definitions in ordinary [[differential geometry]]. Then we discuss the construction in more general context of [[smooth toposes]] in [[synthetic differential geometry]] and other categories of [[generalized smooth spaces]].
+The precise definition of tangent bundle depends on the nature of the ambient category of [[space | spaces]]. Below we give first the traditional definitions in ordinary [[differential geometry]]. Then we discuss the construction in more general context of [[smooth toposes]] in [[synthetic differential geometry]] and other categories of [[generalized smooth spaces]].
 
 ## Definitions
 
@@ -959,19 +959,19 @@ with
 
 =--
 
-This definition captures elegantly and usefully the notion of tangent vectors as infinitesimal curves. But it is not guaranteed that the fibers of a synthetic tangent bundle $X^D$ are fiberwise linear, i.e. are fiberwise $R$-modules the way one expects. Objects $X$ for which this is true are [[microlinear space]]s in $\mathcal{T}$. See there for more details.
+This definition captures elegantly and usefully the notion of tangent vectors as infinitesimal curves. But it is not guaranteed that the fibers of a synthetic tangent bundle $X^D$ are fiberwise linear, i.e. are fiberwise $R$-modules the way one expects. Objects $X$ for which this is true are [[microlinear space | microlinear spaces]] in $\mathcal{T}$. See there for more details.
 
-A [[smooth topos]] $\mathcal{T}$ is called a _well-adapted model_ for [[synthetic differential geometry]] if there is a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$ of the category of [[manifold]]s into $\mathcal{T}$.
+A [[smooth topos]] $\mathcal{T}$ is called a _well-adapted model_ for [[synthetic differential geometry]] if there is a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$ of the category of [[manifold | manifolds]] into $\mathcal{T}$.
 
 Typically, for well adapted models, under this embedding
 
-* manifolds are [[microlinear space]]s
+* manifolds are [[microlinear space | microlinear spaces]]
 
 * the synthetic definition of tangent bundle $X^D$ for $X$ a manifold does coincide with the ordinary notion of $T X$.
 
 Let $\mathbb{L} = (C^\infty Ring^{fin})^{op}$ be the category of [[generalized smooth algebra|smooth loci]]. For $M$ a [[manifold]], the exponential $M^D$ does exist in $\mathbb{L}$ and is isomorphic to the ordinary tangent bundle $T X$ of $X$. (For instance  [[Models for Smooth Infinitesimal Analysis|MSIA, chapter II, prop 1.12]].
 
-There are well-adapted [[smooth topos]]es $\mathcal{Z}$ and $\mathcal{B}$ presented as [[category of sheaves|categories of sheaves]] on $\mathbb{L}$: the first for the [[Grothendieck topology]] where covers are _finite_ open covers, the second where covers are finite open covers and projections ([[Models for Smooth Infinitesimal Analysis|MSIA, chapter VI]]). Both topologies are [[subcanonical coverage|subcanonical]], hence the [[Yoneda embedding]] $Y : \mathbb{L} \to Sh(\mathbb{L})$ does preserve the above property.
+There are well-adapted [[smooth topos | smooth topoi]] $\mathcal{Z}$ and $\mathcal{B}$ presented as [[category of sheaves|categories of sheaves]] on $\mathbb{L}$: the first for the [[Grothendieck topology]] where covers are _finite_ open covers, the second where covers are finite open covers and projections ([[Models for Smooth Infinitesimal Analysis|MSIA, chapter VI]]). Both topologies are [[subcanonical coverage|subcanonical]], hence the [[Yoneda embedding]] $Y : \mathbb{L} \to Sh(\mathbb{L})$ does preserve the above property.
 
 Hence in these models for $X \in Diff$ a [[manifold]], $T X \in Diff$ its ordinary tangent bundle and $s : Diff \to Sh(\mathbb{L})$ the full and faithful embedding, we have isomorphisms
 
@@ -988,7 +988,7 @@ The tangent bundle of a manifold $X$ may be interpreted as a [[supermanifold]] i
 
 ### For other generalized smooth spaces
 
-There are useful categories of [[generalized smooth space]]s which are neither categories of manifolds nor [[smooth topos]]es modeling [[synthetic differential geometry]]. But most of them admit useful notions of tangent bundles, too, sometimes more than one.
+There are useful categories of [[generalized smooth space | generalized smooth spaces]] which are neither categories of manifolds nor [[smooth topos | smooth topoi]] modeling [[synthetic differential geometry]]. But most of them admit useful notions of tangent bundles, too, sometimes more than one.
 
 See [[Frölicher space]] and [[diffeological space]] for the definitions in their context.
 
