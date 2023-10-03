@@ -29,7 +29,7 @@ If $C$ is a [[category]], then $F$ need *not* preserve its [[identity morphisms]
 
 ## Relation to Profunctors
 
-In [[Rel]], the bicategory of relations, adjoint pairs of relations (using [[axiom of choice]]) are equivalent to functions. Even with choice, the analogous theorem for [[Prof]], the bicategory of profunctors, says that an adjoint pair of profunctors is equivalent, not necessarily to a functor, but instead a semifunctor. If the codomain of the semifunctor is [[Cauchy complete]] this is equivalent to a functor, which recovers the usual formulation of this theorem.
+In [[Rel]], the bicategory of relations, adjoint pairs of relations are equivalent to functions (see [[principle of unique choice]]). Even with the axiom of choice, the analogous theorem for [[Prof]], the bicategory of profunctors, says that an adjoint pair of profunctors is equivalent, not necessarily to a functor, but instead a semifunctor. If the codomain of the semifunctor is [[Cauchy complete]] this is equivalent to a functor, which recovers the usual formulation of this theorem.
 
 ## Examples
 
