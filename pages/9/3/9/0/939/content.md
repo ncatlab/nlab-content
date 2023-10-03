@@ -62,8 +62,9 @@ should be referred to as *$T_1$ distributing over $T_2$* instead of the other wa
 
 However, already the original reference [Beck 1969 §1](#Beck69) uses the opposite terminology.
 
-Authors sticking to this original but arguably reverse terminological convention include [Brookes & Van Stone 1993](#BrookesVanStone93), while other authors following them tacitly switch to the other convention (eg. [Power & Watanabe 2002 p. 138](#PowerWatanabe02)).
+Authors sticking to this original but arguably reverse terminological convention include [Brookes & Van Stone 1993](#BrookesVanStone93), while other authors tacitly switch to the other terminological convention (eg. [Barr & Wells 1985 §9 2.1](#BarrWells85), [Power & Watanabe 2002 p. 138](#PowerWatanabe02)).
 \end{remark}
+
 
 
 ## Big picture
@@ -112,7 +113,7 @@ T P P \ar{d}{T \mu^P} \ar{r}{l P} & P T P \ar{r}{P l} & P P T \ar{d}{\mu^P T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
 
-(cf. [Beck 1969](#Beck69))
+(due to [Beck 1969](#Beck69), review includes [Barr & Wells 1985 §9 2.1](#BarrWells85))
 
 The correspondence between distributive laws and _endofunctor_ liftings extends to a correspondence between distributive laws and _monad_ liftings. That is, distributive laws $l : T P \Rightarrow P T$ from the monad $\mathbf{T}$ to the monad $\mathbf{P}$ are in a canonical bijection with lifts of the monad $\mathbf{P}$ to a monad $\mathbf{P}^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
 such that $U^{\mathbf T} : A^{\mathbf T}\to A$ preserves the monad structure.
@@ -255,45 +256,49 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * {#Street72} [[Ross Street]], §6 of: *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
 
-* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Springer (1985) republished in: [[TAC reprints series|Reprints in Theory and Applications of Categories]], **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html), [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+* {#BarrWells85} [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Springer (1985) republished in: [[TAC reprints series|Reprints in Theory and Applications of Categories]], **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html), [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
  
-
 * {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[BrookesVanStone-CoMonads.pdf:file]]&rbrack;
 
 
-* {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>, [[PowerWatanabe-Distributivity.pdf:file]]&rbrack;
+* [[Martin Markl]], _Distributive laws and Koszulness_,  Ann. Inst. Fourier (Grenoble)  46  (1996),  no. 2, 307--323 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=AIF_1996__46_2_307_0))
 
-* {#PowerWatanabe02} [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
-
-* Liang Ze Wong, _Distributive laws_, post at $n$-[cafe](https://golem.ph.utexas.edu/category/2017/02/distributive_laws.html), Feb 2017
-
-* [[Gabi Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. **376** (2005) 207-226 &lbrack;[arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)&rbrack;
+* T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),   Contemp. Math. **202** AMS (1997) 167-205
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  **191** 2  (1998) 467--492 &lbrack;[arXiv:q-alg/9602022](http://arxiv.org/abs/q-alg/9602022)&rbrack;
 
-* [[T. Brzeziński]], [[Robert Wisbauer]], _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge (2003)
+* {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>, [[PowerWatanabe-Distributivity.pdf:file]]&rbrack;
 
-* Bachuki Mesablishvili, [[Robert Wisbauer]], *Bimonads and Hopf monads on categories*, Journal of K-Theory **7** 2 (2011) 349-388  &lbrack;[arXiv:0710.1163](https://arxiv.org/abs/0710.1163), [doi:10.1017/is010001014jkt105](https://doi.org/10.1017/is010001014jkt105)&rbrack;
-
-
-* T. F. Fox, [[Martin Markl]], _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),   Contemp. Math. **202** AMS (1997) 167-205
 
 * [[Steve Lack]], _Composing PROPS_, [Theory Appl. Categ.](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) 13 (2004), No. 9, 147--163.
 
 * [[Steve Lack]], [[Ross Street]], _The formal theory of monads II_, Special volume celebrating the 70th birthday of Professor Max Kelly, J. Pure Appl. Algebra **175** 1-3 (2002) 243-265 
 
-* [[Martin Markl]], _Distributive laws and Koszulness_,  Ann. Inst. Fourier (Grenoble)  46  (1996),  no. 2, 307--323 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=AIF_1996__46_2_307_0))
+
+* {#PowerWatanabe02} [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
+
+* [[T. Brzeziński]], [[Robert Wisbauer]], _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge (2003)
+
+
+* [[Gabi Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. **376** (2005) 207-226 &lbrack;[arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)&rbrack;
 
 
 * [[Zoran Škoda]], _Distributive laws for monoidal categories_ ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_ ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); _Bicategory of entwinings_  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
 
+* R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  1-2 (2008) 255--295 &lbrack;[doi:10.1007/s10485-007-9076-5](https://doi.org/10.1007/s10485-007-9076-5)&rbrack;
+
 * [[Zoran Škoda]], _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
 
-* R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295 [doi](https://doi.org/10.1007/s10485-007-9076-5)
+* Bachuki Mesablishvili, [[Robert Wisbauer]], *Bimonads and Hopf monads on categories*, Journal of K-Theory **7** 2 (2011) 349-388  &lbrack;[arXiv:0710.1163](https://arxiv.org/abs/0710.1163), [doi:10.1017/is010001014jkt105](https://doi.org/10.1017/is010001014jkt105)&rbrack;
+
 
 * [[Francisco Marmolejo]], Adrian Vazquez-Marquez, *No-iteration mixed distributive laws*, Mathematical Structures in Computer Science **27** 1 (2017) 1-16 &lbrack;[doi:10.1017/S0960129514000656](https://doi.org/10.1017/S0960129514000656)&rbrack;
 
+* Liang Ze Wong, _Distributive laws_, post at $n$-[cafe](https://golem.ph.utexas.edu/category/2017/02/distributive_laws.html), Feb 2017
+
 * Enrique Ruiz Hernández, *Another characterization of no-iteration distributive laws*, [arxiv](https://arxiv.org/abs/1910.06531)
+
+
 
 On distributive laws for [[relative monads]]:
 
