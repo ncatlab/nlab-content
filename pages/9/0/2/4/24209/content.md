@@ -18,7 +18,7 @@ The _join type_ is an [[axiom|axiomatization]] of the [[join of topological spac
 
 ## Definition 
 
-The join type of a [[type]] $A$ and $B$ is the [[pushout type]] of the following span
+The join type of a [[type]] $A$ and $B$, $A * B$, is the [[pushout type]] of the following span
 
 $$A \xleftarrow{\text{fst}} A \times B \xrightarrow{\text{snd}} B$$
 
