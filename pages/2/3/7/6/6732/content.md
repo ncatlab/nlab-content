@@ -107,6 +107,9 @@ Lecture notes:
 
 * {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_, 2008 ([[GreevySwingle.pdf:file]])
 
+* [[Paul Romatschke]], *Quantum Field Theory in Large $N$ Wonderland: Three Lectures* &lbrack;[arXiv:2310.00048](https://arxiv.org/abs/2310.00048)&rbrack;
+
+
 
 See also:
 
