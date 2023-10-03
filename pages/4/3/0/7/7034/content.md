@@ -186,8 +186,7 @@ For propositional truncations as sequential colimits, see section 26.5 of
 
 as well as section 16.2 of the lecture notes:
 
-* [[Egbert Rijke]], *The homotopy image of a
-map* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/sequences.pdf)&rbrack;, Lecture 16 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+* [[Egbert Rijke]], *The homotopy image of a map*, Lecture 16 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
 
 For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
