@@ -39,7 +39,7 @@ By the [[Wedderburn-Artin theorem]], every semisimple ring is a finite product o
 
 As a special case, every semisimple [[commutative ring]] is a finite product of [[fields]].  In particular, every semisimple [[integral domain]] is a [[field]].  Similarly, every semisimple [[local ring]] is a [[field]].
 
-Beware: not every [[simple ring]] is a semisimple ring.  A simple ring is semisimple if and only if it is Artinian.  For example the [[Weyl algebra]] over any field is a simple ring that is not Artinian and not semisimple: intuitively speaking, it is "too infinite" to be Artinian, which is a kind of finiteness condition.  The ring of linear transformations of an infinite-dimensional vector space over field is also simple but not Artinian and thus not semisimple.
+Beware: not every [[simple ring]] is a semisimple ring.  A simple ring is semisimple if and only if it is Artinian.  For example the [[Weyl algebra]] over any field is a simple ring that is not Artinian and not semisimple: intuitively speaking, it is "too infinite" to be Artinian, which is a kind of finiteness condition.  
 
 ## See also
 
