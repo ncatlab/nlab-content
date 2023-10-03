@@ -80,6 +80,14 @@ This is the special case of the [[n-truncation modality]] as the [[n-truncation 
 
 For more see at _[[n-truncation modality]]_.
 
+### As a sequential colimit
+
+Let $A * B$ denote the [[join type]] of $A$ and $B$, and let $A^{*(n)}$ be the iterated join type, inductively defined on the natural numbers by $A^{*(0)} \coloneqq \emptyset$ and $A^{*(n + 1)} \coloneqq A^{*(n)} * A$. 
+
+Then the propositional truncation of $A$ is the [[sequential colimit]] of the sequence of functions 
+
+$$A^{*(0)} \overset{\mathrm{inr}}\to A^{*(1)} \overset{\mathrm{inr}}\to A^{*(2)} \overset{\mathrm{inr}}\to \ldots$$
+
 ## Semantics
 
 One presentation of the [[internal logic|internal]] [[type theory]] of 
@@ -172,6 +180,9 @@ More on the [[universal property]] of propositional truncation:
 
 * [[Nicolai Kraus]], *The General Universal Property of the Propositional Truncation*, in *TYPES 2014* Leibniz International Proceedings in Informatics (LIPIcs) **39** (2015) &lbrack;[arXiv:1411.2682](https://arxiv.org/abs/1411.2682), [doi:10.4230/LIPIcs.TYPES.2014.111](https://doi.org/10.4230/LIPIcs.TYPES.2014.111)&rbrack;
 
+For propositional truncations as sequential colimits, see section 26.5 of
+
+* {#RijkeDraft22} [[Egbert Rijke]] (2022), *[[Introduction to Homotopy Type Theory]]*, draft. ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf))
 
 For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
