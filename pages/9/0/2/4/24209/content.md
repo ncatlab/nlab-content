@@ -28,6 +28,8 @@ $$A \xleftarrow{\text{fst}} A \times B \xrightarrow{\text{snd}} B$$
 
 * [[join of topological spaces]]
 
+* [[bracket type]]
+
 ## References
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
