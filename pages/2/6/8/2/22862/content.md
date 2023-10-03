@@ -1505,7 +1505,7 @@ Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for
 
 The above discussion and proof is taken from:
 
-* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:cyclic loop spaces 2022|Cyclification of Orbifolds]]* (2022), in preparation
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:cyclic loop spaces 2022|Cyclification of Orbifolds]]* Comm. Math. Phys. (2023)
 
 
 [[!redirects transgressions in group cohomology]]
