@@ -184,6 +184,11 @@ For propositional truncations as sequential colimits, see section 26.5 of
 
 * {#RijkeDraft22} [[Egbert Rijke]] (2022), *[[Introduction to Homotopy Type Theory]]*, draft. ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf))
 
+as well as section 16.2 of the lecture notes:
+
+* [[Egbert Rijke]], *The homotopy image of a
+map* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/sequences.pdf)&rbrack;, Lecture 16 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
 For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
 * [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
@@ -193,8 +198,6 @@ For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
 [[!redirects propositional truncation]]
 [[!redirects propositional truncations]]
-[[!redirects propositionally truncated]
-[[!redirects squash type]]
-[[!redirects squash types]]
+[[!redirects propositionally truncated]]
 [[!redirects isInhab]]
 
