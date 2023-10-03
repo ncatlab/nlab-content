@@ -34,6 +34,9 @@ Discussion of [[sequential colimits]] (in the generality of [[homotopy colimits]
 
 * [[Egbert Rijke]], *Sequential colimits* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/sequences.pdf)&rbrack;, Lecture 15 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
 
+It could also be found in section 26 of the draft of the textbook:
+
+* {#RijkeDraft22} [[Egbert Rijke]] (2022), *[[Introduction to Homotopy Type Theory]]*, draft. ([pdf](https://raw.githubusercontent.com/martinescardo/HoTTEST-Summer-School/main/HoTT/hott-intro.pdf))
 
 [[!redirects sequential limit]]
 [[!redirects sequential limits]]
