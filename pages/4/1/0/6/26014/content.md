@@ -29,7 +29,23 @@ The upshot is that just as groups correctly describe the symmetries of classical
 
 In this sense, the concept may be better understood as **higher quantum symmetries** (even though the name "quantum symmetries" is already used in the Physics literature for a "dual" symmetry that arises after gauging a symmetry, originating in [Vafa (1989)](#Vafa89)).
 
-A significant part of the current Physics literature on the topic restricts to the study of *finite* generalized symmetries, thus avoiding questions regarding the *[[smooth|smoothness]]* of the corresponding higher algebra (in contrast with the situation of [[n-group|higher groups]], by which one really means a [[smooth infinity-groupoid]]). In such a case, the concrete mathematical objects of study are *bare* [[fusion categories|fusion category]] (and their vertical categorifications as in e.g. [Decoppet and Yu (2023)](#DY23)). These fusion categories are argued to contain information about the quantum operators and their fusion rules but also about any present [['t Hooft anomaly]], all (somehow) encoded in the [[topological quantum field theory]] defined through the [[Turaev-Viro model]] and their would-be higher generalizations.  Unfortunately, not only these expectations but even fundamental questions such as precisely *how* a smooth higher algebra acts on a quantum field theory (beyond the slogan of *a symmetry operator inserted on a codimension $d$ submanifold acts on quantum operators supported on dimension $d-1$ submanifolds*) are still not understood. An accurate description of such an action of a smooth higher algebra should in particular describe how the [[group action]] of the [[quantomorphism group]] on the [[prequantum circle n-bundle]] becomes this after [[motivic quantization]].
+A significant part of the current Physics literature on the topic restricts to the study of *finite* generalized symmetries, thus avoiding questions regarding the *[[smooth|smoothness]]* of the corresponding higher algebra (in contrast with the situation of [[n-group|higher groups]], by which one really means a [[smooth infinity-groupoid]]). In such a case, the concrete mathematical objects of study are *bare* [[fusion categories|fusion category]] (and their vertical categorifications as in e.g. [Decoppet and Yu (2023)](#DY23)). These fusion categories are argued to contain information about the quantum operators and their fusion rules but also about any present [['t Hooft anomaly]], all (somehow) encoded in the [[topological quantum field theory]] defined through the [[Turaev-Viro model]] and their would-be higher generalizations.  Unfortunately, not only these expectations but even fundamental questions such as precisely *how* a smooth higher algebra acts on a quantum field theory (beyond the slogan of *a symmetry operator inserted on a codimension $d$ submanifold acts on quantum operators supported on dimension $d-1$ submanifolds*) are still not fully understood. An accurate description of such an action of a smooth higher algebra should in particular describe how the [[group action]] of the [[quantomorphism group]] on the [[prequantum circle n-bundle]] becomes this after [[motivic quantization]]. In this picture, the action of a higher group makes sense since the prequantum n-bundle also has a higher structure. In this sense, the action of a higher algebra should be defined on an object which has both a higher and a linear structure. This is the case for higher [[vector bundle|vector bundles]] such as [[2-vector bundle|2-vector bundles]] or, in much greater generality, an [[n-vector bundle]] over some [[E-∞ ring]].
+
+## Freed-Moore-Teleman *quiche*
+
+In [Freed, Moore and Teleman (2022)](#FMT22), the authors describe a proposal to make mathematical sense of the heuristics of generalized symmetries. The approach is based on the presentation of Quantum Field Theory as [[extended functorial field theory]], and relies on the idea that any QFT $T$ defines a [[topological field theory]] $Sym(T)$ defined by the generalized symmetries of $T$, called the *Symmetry TFT* and that, in turn, $T$ can be recovered from $Sym(T)$ via manipulations on its boundary.
+
+The main concept is that of a **quiche**, which is a pair $(\sigma,\rho)$ where $\sigma$ is a fully extended $(n+1)$-dimensional TFT, and $\rho$ is a $\sigma$-"module" (where the concept of module is defined only in analogy with a [[domain wall]] between TFT's). Then the statement that an $n$-dimensional QFT $T$ has $\sigma=Sym(T)$ as its symmetry theory consists of another pair $(\tilde{T},\theta)$ where $\tilde{T}$ is a $\sigma$-module and $\theta$ is an "isomorphism"
+
+$$
+\theta: \rho\otimes_{\sigma}\tilde{T} \cong T
+$$
+
+where $\rho\otimes_{\sigma}\tilde{T}$ is schematically understood as placing $\sigma$ on a spacetime $X^n\times [0,1]$ with $\rho$ on one end and $\tilde{T}$ on the other, such that collapsing the slab gives $T$ on $X^n$.
+
+Some remarks about this proposal are in order. First, the kind of symmetries that are dealt with here are of finite character (related to a [[homotopy type with finite homotopy groups]] as explained in Appendix A). This allows to avoid discussions regarding smoothness of categories. Second, some statements (which are not necessarily minor points) are still only schematic. This includes the isomorphism $\theta$ mentioned. This is partly due to the following assertion: *"Recall that the cobordism hypothesis enables a calculus of such functors (FTFT's) in terms of duality data inside the codomain category C. Turning to nontopological theories, a similar calculus is not in place and is a subject of wide interest.*" ([FMT22](#FMT22), p. 10). In particular, the work of [Grady and Pavlov (2021)](#GradyPavlov21) on the *geometric* [[cobordism hypothesis]] has clear relevance to these two remarks.
+
+
 
 ## Related concepts
 
@@ -71,6 +87,8 @@ See also:
 * {#BT17} [[Lakshya Bhardwaj]], [[Yuji Tachikawa]]. *On finite symmetries and their gauging in two dimensions*, J. High Energ. Phys. **2018** 189 (2018) &lbrack;[arXiv:1704.02330](https://arxiv.org/abs/1704.02330), <a href="https://doi.org/10.1007/JHEP03(2018)189">doi:10.1007/JHEP03(2018)189</a>&rbrack;
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
+
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
 
 Further activity:
 
