@@ -56,6 +56,8 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 
 ## Related concepts
 
+* [[injective object]]
+
 [[!include (co)isotropic subspaces - table]]
 
 * [[orthogonal structure]], [[orthogonal basis]]
