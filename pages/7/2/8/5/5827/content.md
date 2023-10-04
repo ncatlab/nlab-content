@@ -38,7 +38,7 @@ In contrast to Exp. \ref{InnerProductOnRealVectorSpace},beware that an [[inner p
 
 \begin{example}
 If $f \colon \mathbb{R}^n \to \mathbb{R}$ is a [[differentiable function]] of class $C^2$, then the [[Hessian]] of $f$ at a point defines a symmetric bilinear form. It may be degenerate, but in [[Morse theory]], a [[Morse function]] is a $C^2$ function such that the Hessian at each critical point is nondegenerate. 
-\end{examples}
+\end{example}
 
 ## Categorification and $n$POV
  {#CategorificationsAndnPOV}
@@ -69,7 +69,7 @@ However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the cat
 
 This concept could be generalized from the [[category of modules]] to any [[monoidal category]], since the ground ring $k$ is the [[tensor unit]] of the category of $k$-modules:
 
-Let $(C, I, \otimes)$ be a [[monoidal category]]. Then given an object $V \in C$, a bilinear form is just a morphism $V \otimes V \to I$, and any morphism $I \otimes V \to V$ is given by the composition of an [[endomorphism]] $V \to V$ with the [[left unitor]] $\lambda_V:I \otimes V \to V$. However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. In [[cartesian monoidal categories]] $(C, 1, \times)$, the binary forms $V \times V \to 1$ always exist and is unique, by the universal property of the [[terminal object]]. 
+Let $(C, I, \otimes)$ be a [[monoidal category]]. Given an object $V$, every morphism $I \otimes V \to V$ is given by the composition of an [[endomorphism]] $V \to V$ with the [[left unitor]] $\lambda_V:I \otimes V \to V$. Then given an object $V \in C$, a bilinear form is just a morphism $V \otimes V \to I$. However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. In [[cartesian monoidal categories]] $(C, 1, \times)$, the binary forms $V \times V \to 1$ always exist and is unique, by the universal property of the [[terminal object]]. 
 
 ## Related concepts
 
