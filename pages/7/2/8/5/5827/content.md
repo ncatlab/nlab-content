@@ -33,7 +33,7 @@ Let $k = \mathbb{R}$ be the [[real numbers]]. A symmetric bilinear form is calle
 An _[[inner product]]_ on a [[real vector space]] (not though generally on [[complex vector spaces]], see Rem. \ref{BewareInnerProductsOnComplexVectorSpaces}) is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).)
 \end{example}
 \begin{remark}\label{BewareInnerProductsOnComplexVectorSpaces}
-In contrast to Exp. \ref{InnerProductOnRealVectorSpace},beware that an [[inner product]] on a [[complex vector space]] is typically *not* taken to be a bilinear form, but a *[[sesquilinear form]]* (called a *[[Hermitian form]]* if positive definite). 
+In contrast to Exp. \ref{InnerProductOnRealVectorSpace}, beware that an [[inner product]] on a [[complex vector space]] is typically *not* taken to be a bilinear form, but a *[[sesquilinear form]]* (called a *[[Hermitian form]]* if positive definite). 
 \end{remark}
 
 \begin{example}
