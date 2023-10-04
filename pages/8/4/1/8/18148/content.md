@@ -46,6 +46,8 @@ Examples include [[unital rings]] etc.
 
 * [[nonassociative group]]
 
+* [[paraunital magma]]
+
 [[!include oidification - table]]
 
 [[!redirects unital magmas]]
