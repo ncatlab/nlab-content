@@ -21,15 +21,31 @@
 
 Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **unital composition algebra** over $k$ consists of a [[finite-dimensional vector space|finite-dimensional]] [[vector space]] $V$ together with a 
 
-* A nondegenerate symmetric [[bilinear form]] $\langle - , - \rangle: V \otimes V \to k$, 
+* a nondegenerate symmetric [[bilinear form]] 
 
-* A multiplication map, i.e., a [[bilinear map]] $- \cdot -: V \otimes V \to V$, 
+  $$
+    \langle - , - \rangle: V \otimes V \to k
+    \,,
+  $$ 
 
-* A [[unit]] $e \in V$ for the multiplication, i.e., so that $e \cdot v = v = v \cdot e$, 
+* a multiplication map, i.e., a [[bilinear map]] 
 
-such that, putting $N(v) = \langle v, v \rangle$, 
+  $$
+    - \cdot - \;\colon\; V \otimes V \to V
+    \,,
+  $$ 
 
-* $N(u) N(v) = N(u v)$ (writing $u v$ for $u \cdot v$). 
+* a [[unit]] $e \in V$ for the multiplication, i.e., so that $e \cdot v = v = v \cdot e$, 
+
+such that:
+
+$$
+  \langle u\cdot v ,\, u \cdot v \rangle
+  \;=\;
+  \langle u,u \rangle
+  \langle v,v rangle
+$$
+
 
 Beware that there are *no* assumptions on the multiplication such as [[associativity]], [[commutativity]], etc. 
 
@@ -481,11 +497,36 @@ See also [[Moufang loop]].
 
 ## Generalizations
 
-This concept could be generalized from the [[category of vector spaces]] to any [[monoidal category]], since the ground field $k$ is the [[tensor unit]] of the category of $k$-vector spaces:
+This concept may be generalized from the [[category of vector spaces]] to any [[monoidal category]], observing that the ground field $k$ is the [[tensor unit]] of the category of $k$-vector spaces:
 
-Let $(C, I, \otimes)$ be a [[monoidal category]]. Then a **(nonunital) composition algebra object** in $C$ is an object $A \in C$ with a morphism $\pi:A \otimes A \to A$ and $f:A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v:I \to A$, 
+Let $(C, I, \otimes)$ be a [[monoidal category]]. Then a **(nonunital) composition algebra object [[internalization|in]] $C$** is an [[object]] $A \in C$ with a morphism $\pi \colon A \otimes A \to A$ and $f \colon A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v \colon I \to A$, 
 
-$$f \circ ((\pi \circ (u \otimes u)) \otimes (\pi \circ (v \otimes v))) = \pi \circ ((f \circ (u \otimes v)) \otimes (f \circ (u \otimes v)))$$
+\[
+  \label{InternalCondition}
+  f 
+    \circ 
+   \Big(  
+     \big( 
+       \pi \circ (u \otimes u) 
+     \big) 
+       \otimes 
+     \big( 
+       \pi \circ (v \otimes v)
+     \big)
+   \Big) 
+     \;\;=\;\; 
+   \pi 
+     \circ 
+   \Big(
+     \big(
+       f \circ (u \otimes v) \big) 
+      \otimes 
+     \big(
+       f \circ (u \otimes v)
+     \big)
+  \Big)
+  \,.
+\]
 
 A **paraunital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[paraunital algebra object]] with respect to the morphism $\pi:A \otimes A \to A$, and a **unital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[unital algebra object]] with respect to the morphism $\pi:A \otimes A \to A$. 
 
