@@ -2,6 +2,10 @@
 
 ## Definition
 
+Traditionally, in mathematics and in [[formal topology]] the cover is a relation between pairs of rational numbers and subsets of pairs of real numbers. However, the [[HoTT book]] uses a definition of a cover as a relation between pairs of rational numbers and families of pairs of real numbers; the latter which necessarily requires an existing [[type universe]] in the type theory. 
+
+### Inference rules
+
 Given a [[Tarski universe]] $(U, T)$, the **locally $U$-small inductive cover** for a notion of [[real numbers]] is an [[inductive]] [[type family]] defined by the following rules:
 
 Formation rules for locally $U$-small inductive covers:
