@@ -21,7 +21,7 @@ It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all 
 
 It is called _nondegenerate_ if the [[mate]] $V \to V^\ast = \hom(V, k)$ is injective (a [[monomorphism]]). 
 
-Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is called
+Let $k = \mathbb{R}$ be the [[real numbers]]. A symmetric bilinear form is called
 
 * [[positive definite]] if $\langle x,x\rangle \gt 0$ if $x \neq 0$.
 
@@ -29,9 +29,16 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 ## Examples
 
-* An _[[inner product]]_ on a real vector space is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).) 
+\begin{example}\label{InnerProductOnRealVectorSpace}
+An _[[inner product]]_ on a [[real vector space]] (not though generally on [[complex vector spaces]], see Rem. \ref{BewareInnerProductsOnComplexVectorSpaces}) is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).)
+\end{example}
+\begin{remark}\label{BewareInnerProductsOnComplexVectorSpaces}
+In contrast to Exp. \ref{InnerProductOnRealVectorSpace},beware that an [[inner product]] on a [[complex vector space]] is typically *not* taken to be a bilinear form, but a *[[sesquilinear form]]* (called a *[[Hermitian form]]* if positive definite). 
+\end{remark}
 
-* If $f \colon \mathbb{R}^n \to \mathbb{R}$ is of class $C^2$, then the [[Hessian]] of $f$ at a point defines a symmetric bilinear form. It may be degenerate, but in [[Morse theory]], a [[Morse function]] is a $C^2$ function such that the Hessian at each critical point is nondegenerate. 
+\begin{example}
+If $f \colon \mathbb{R}^n \to \mathbb{R}$ is a [[differentiable function]] of class $C^2$, then the [[Hessian]] of $f$ at a point defines a symmetric bilinear form. It may be degenerate, but in [[Morse theory]], a [[Morse function]] is a $C^2$ function such that the Hessian at each critical point is nondegenerate. 
+\end{examples}
 
 ## Categorification and $n$POV
  {#CategorificationsAndnPOV}
