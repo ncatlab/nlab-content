@@ -72,8 +72,7 @@ Due to [[Adolf Hurwitz]] (1859&#8211;1919), published posthumously in 1923.
 
 * Wikipedia, _[Hurwitz theorem (composition algebras)](http://en.wikipedia.org/wiki/Hurwitz%27s_theorem_%28composition_algebras%29)_
 
-* {#Elduque21} Alberto Elduque , Composition algebras: “Algebra and Applications I: Non-associative Algebras and
-Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Mathematics, ISTEWiley, London 2021.
+* {#Elduque21} Alberto Elduque , Composition algebras: “Algebra and Applications I: Non-associative Algebras and Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Mathematics, ISTEWiley, London 2021.
 
 
 
@@ -91,3 +90,33 @@ Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Math
 [[!redirects Hurwitz’s Theorem]]
 [[!redirects Hurwitz\'s theorem]]
 [[!redirects Hurwitz\'s Theorem]]
+
+[[!redirects generalized Hurwitz theorem]]
+[[!redirects generalized Hurwitz Theorem]]
+[[!redirects generalized Hurwitz' theorem]]
+[[!redirects generalized Hurwitz' Theorem]]
+[[!redirects generalized Hurwitz’ theorem]]
+[[!redirects generalized Hurwitz’ Theorem]]
+[[!redirects generalized Hurwitz\' theorem]]
+[[!redirects generalized Hurwitz\' Theorem]]
+[[!redirects generalized Hurwitz's theorem]]
+[[!redirects generalized Hurwitz's Theorem]]
+[[!redirects generalized Hurwitz’s theorem]]
+[[!redirects generalized Hurwitz’s Theorem]]
+[[!redirects generalized Hurwitz\'s theorem]]
+[[!redirects generalized Hurwitz\'s Theorem]]
+
+[[!redirects generalised Hurwitz theorem]]
+[[!redirects generalised Hurwitz Theorem]]
+[[!redirects generalised Hurwitz' theorem]]
+[[!redirects generalised Hurwitz' Theorem]]
+[[!redirects generalised Hurwitz’ theorem]]
+[[!redirects generalised Hurwitz’ Theorem]]
+[[!redirects generalised Hurwitz\' theorem]]
+[[!redirects generalised Hurwitz\' Theorem]]
+[[!redirects generalised Hurwitz's theorem]]
+[[!redirects generalised Hurwitz's Theorem]]
+[[!redirects generalised Hurwitz’s theorem]]
+[[!redirects generalised Hurwitz’s Theorem]]
+[[!redirects generalised Hurwitz\'s theorem]]
+[[!redirects generalised Hurwitz\'s Theorem]]
