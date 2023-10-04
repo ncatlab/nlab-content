@@ -132,8 +132,21 @@ The algebra of [[horizontal chord diagrams]] is a star-algebra under reversal of
 Since [[horizontal chord diagrams are the homology of the loop space of configuration space]] and the [[homology of a loop space]] is an [[involutive Hopf algebra]], this is a special case of Example \ref{InvolutiveHopfAlgebrasAreStarAlgebras}.
 \end{example}
 
+## Generalizations
 
+This concept could be generalized from the category of $R$-modules to any [[monoidal category]]:
 
+Let $(C, I, \otimes)$ be a [[monoidal category]] and let $(A, e:I \to A, \pi:A \otimes A \to A)$ be a [[unital algebra object]] in $C$. Then $A$ is a **$*$-algebra object** [[internalization|in]] $C$ if it comes with a morphism $\iota:A \to A$ such that 
+
+* $\iota \circ \iota = \mathrm{id}_A$
+
+* $\iota \circ e = e$
+
+* for all morphisms $a:I \to A$ and $b:I \to A$, 
+
+$$\iota \circ \pi \circ (a \otimes b) = \pi \circ ((\iota \circ b) \otimes (\iota \circ a))$$
+
+In the [[category of sets]], $*$-algebra objects are called **[[anti-involution|anti-involutive]] [[unital magmas]]**, and in the [[category of abelian groups]], associative $*$-algebra objects are called **[[*-rings]]**. 
 
 ## Related concepts
 
@@ -160,7 +173,6 @@ Discussion for [[group algebras]]:
 Discussion of the Example \ref{StarAlgebraOfHorizontalChordDiagrams} of [[horizontal chord diagrams]]:
 
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
-
 
 [[!redirects star-algebra]]
 [[!redirects star-algebras]]
@@ -197,3 +209,12 @@ Discussion of the Example \ref{StarAlgebraOfHorizontalChordDiagrams} of [[horizo
 [[!redirects Banach *-algebras]]
 [[!redirects Banach * algebra]]
 [[!redirects Banach * algebras]]
+
+[[!redirects star-algebra object]]
+[[!redirects star-algebra objects]]
+[[!redirects star algebra object]]
+[[!redirects star algebra objects]]
+[[!redirects *-algebra object]]
+[[!redirects *-algebra objects]]
+[[!redirects * algebra object]]
+[[!redirects * algebra objects]]
