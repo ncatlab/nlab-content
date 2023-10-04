@@ -46,6 +46,7 @@ $$
   \langle v,v \rangle
 $$
 
+The bilinear form defines a *[[norm]]* $N(u) = \langle u,u\rangle$.
 
 Beware that there are *no* assumptions on the multiplication such as [[associativity]], [[commutativity]], etc. 
 
