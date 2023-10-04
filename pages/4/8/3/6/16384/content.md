@@ -72,7 +72,7 @@ Due to [[Adolf Hurwitz]] (1859&#8211;1919), published posthumously in 1923.
 
 * Wikipedia, _[Hurwitz theorem (composition algebras)](http://en.wikipedia.org/wiki/Hurwitz%27s_theorem_%28composition_algebras%29)_
 
-* {#Elduque21} Alberto Elduque , Composition algebras: “Algebra and Applications I: Non-associative Algebras and Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Mathematics, ISTEWiley, London 2021.
+* {#Elduque21} [[Alberto Elduque]], Composition algebras: “Algebra and Applications I: Non-associative Algebras and Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Mathematics, ISTEWiley, London 2021.
 
 
 
