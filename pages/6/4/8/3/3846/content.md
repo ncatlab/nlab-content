@@ -479,6 +479,17 @@ For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v
 
 See also [[Moufang loop]]. 
 
+## Generalizations
+
+This concept could be generalized from the [[category of vector spaces]] to any [[monoidal category]], since the ground field $k$ is the [[tensor unit]] of the category of $k$-vector spaces:
+
+Let $(C, I, \otimes)$ be a [[monoidal category]]. Then a **(nonunital) composition algebra object** in $C$ is an object $A \in C$ with a morphism $\pi:A \otimes A \to A$ and $f:A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v:I \to A$, 
+
+$$f \circ ((\pi \circ (u \otimes u)) \otimes (\pi \circ (v \otimes v))) = \pi \circ ((f \circ (u \otimes v)) \otimes (f \circ (u \otimes v)))$$
+
+A **paraunital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[paraunital algebra object]] with respect to the morphism $\pi:A \otimes A \to A$, and a **unital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[unital algebra object]] with respect to the morphism $\pi:A \otimes A \to A$. 
+
+In [[cartesian monoidal categories]] $(C, 1, \times)$, since any morphism $V \times V \to 1$ exists and is unique by the universal property of the [[terminal object]], composition algebra objects are the same as [[magma]] objects. 
 
 ## Related concepts
 
@@ -544,3 +555,5 @@ A proposed application of (non-unital) composition algebras in [[QCD]] is descri
 [[!redirects split composition algebra]]
 [[!redirects split composition algebras]]
 
+[[!redirects composition algebra object]]
+[[!redirects composition algebra objects]]
