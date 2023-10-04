@@ -331,6 +331,9 @@ See also:
 
 * Matthew Headrick, Veronika E. Hubeny, *Covariant bit threads* &lbrack;[arXiv:2208.10507](https://arxiv.org/abs/2208.10507)&rbrack;
 
+* Eugenia Colafranceschi, [[Xi Dong]], [[Donald Marolf]], Zhencheng Wang, *Algebras and Hilbert spaces from gravitational path integrals: Understanding Ryu-Takayanagi/HRT as entropy without invoking holography* &lbrack;[arXiv:2310.02189](https://arxiv.org/abs/2310.02189)&rbrack;
+
+
 
 
 ### Via holographic tensor networks and quantum codes
