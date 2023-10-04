@@ -19,7 +19,7 @@
 
 ## Definition
 
-Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **composition algebra** over $k$ consists of a [[finite-dimensional vector space|finite-dimensional]] [[vector space]] $V$ together with a 
+Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **unital composition algebra** over $k$ consists of a [[finite-dimensional vector space|finite-dimensional]] [[vector space]] $V$ together with a 
 
 * A nondegenerate symmetric [[bilinear form]] $\langle - , - \rangle: V \otimes V \to k$, 
 
@@ -47,6 +47,23 @@ and this will be frequently used in the sequel.
 
 Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \neq 0$. From $N(v) = N(e v) = N(e)N(v)$, it follows that $N(e) = 1$. 
 
+Frequently, one refers to *unital* composition algebras simply as composition algebras. However, this unital property can be weakened or removed altogether. A weakening of this condition leads to **para-unital** composition algebras. This requires the existence of an involution
+
+$$
+x\mapsto\bar{x}
+$$
+
+such that there exists a distinguished element **1**, called the **para-unit**, such that
+
+$$
+x\cdot \mathbf{1} = \mathbf{1}\cdot x = \bar{x}
+$$
+
+meaning **1** acts as a unit up to an involution.
+
+On the other hand, removing the existence of a unit altogether leads to the notion of **non-unital** composition algebras.
+
+These two generalizations of composition algebras are intimately related to a generalization of the [[Hurwitz theorem]] (see [generalized Hurwitz theorem](https://ncatlab.org/nlab/show/Hurwitz+theorem#generalized_hurwitz_theorem) for the statement).
 
 
 ## Properties
@@ -511,6 +528,11 @@ See also
 
 
 * [[eom]]: [Lie-admissible algebra](http://eom.springer.de/l/l058360.htm)
+
+A proposed application of (non-unital) composition algebras in [[QCD]] is described in
+
+* [[Alessio Marrani]], Daniele Corradetti, Francesco Zucconi. *Physics with non-unital algebras? An invitation to the Okubo algebra*. (2023) ([arXiv:2309.17435](https://arxiv.org/abs/2309.17435)).
+
 
 [[!redirects composition algebras]]
 
