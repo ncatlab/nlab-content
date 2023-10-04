@@ -246,17 +246,17 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 
 
-### Store-Comodales are Lenses
- {#LabelStoreComodalesAreLenses}
+### Store-Comodules are Lenses
+ {#LabelStoreComodulesAreLenses}
 
-We spell out the data of [[comodule over a comonad|comodales]] over the classical Store-comonad (from [above](#OnACartesianClosedCategory)).
+We spell out the data of [[comodule over a comonad|comodules]] over the classical Store comonad defined [above](#OnACartesianClosedCategory).
 
-> (Beware that we are switching herefrom using "$S$" for the state space to using it for the argument of the comonad -- this in order to be closer to the notation used at *[[lens in computer science]]*.)
+> (Beware that we are switching from using "$S$" for the state space to using it for the argument of the comonad -- this in order to be closer to the notation used at *[[lens in computer science]]*.)
 
-Unwinding the definitions, a $V$-store [[comodule over a comonad|comodale]] [[structure]] on a type $S$ is a [[map]] of the form
+Unwinding the definitions, a $V$-store [[comodule over a comonad|comodule]] [[structure]] on a type $S$ is a [[map]] of the form
 
 \[
-  \label{ComodaleMap}
+  \label{ComoduleMap}
   \array{
     S
     &
@@ -291,7 +291,7 @@ and hence consists, equivalently, of a [[pair]] of [[functions]] of the form
   \end{array}
 \]
 
-On this data, the counitality condition of a comodale (eq:ComodaleMap) requires that the following composite is the [[identity morphism|identity]]
+On this data, the counitality condition of a comodule (eq:ComoduleMap) requires that the following composite is the [[identity morphism|identity]]
 
 $$
   \array{
@@ -497,7 +497,7 @@ This data --- a pair of maps (eq:LensStructureMaps) satisfying the *get-put law*
 Hence, as first observed by [O’Connor 2010](#O’Connor10):
 
 \begin{proposition}
-Classical $V$-store [[comodule over a comonad|comodales]] are equivalently [[lawful lenses]] with "view" $V$.
+Classical $V$-store [[comodule over a comonad|comodules]] are equivalently [[lawful lenses]] with "view" $V$.
 \end{proposition}
 
 
