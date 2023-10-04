@@ -13,7 +13,45 @@ A [[unital algebra]] is a paraunital algebra in multiple different ways:
 
 These were first defined in the specific context of [[composition algebras]] in the [[generalized Hurwitz theorem]] in [Elduque 2021](#Elduque21) but could be generalized from composition algebras to any $R$-algebra. 
 
+## Generalizations
+
+This concept could be generalized from the category of $R$-modules to any [[monoidal category]]:
+
+A **paraunital algebra object** in a [[monoidal category]] $(C, I, \otimes)$ is an object $A \in C$ with morphisms $\iota:I \to A$, $\pi:A \otimes A \to A$, and $j:A \to A$ such that $j \circ j = \mathrm{id}_A$ and the following [[commuting diagram|diagrams commute]]:
+
+   $$
+     \array{
+       I \otimes A 
+         &\overset{\iota \otimes \mathrm{id}_A}{\longrightarrow}&
+       A \otimes A
+       \\
+       \downarrow^{\lambda_A} & & \downarrow^{\pi} 
+       \\
+       A &\overset{j}{\longrightarrow}& A
+     }
+     \,,
+   $$
+
+   $$
+     \array{
+       A \otimes I 
+         &\overset{\mathrm{id}_A \otimes \iota}{\longrightarrow}&
+       A \otimes A
+       \\
+       \downarrow^{\rho_A} & & \downarrow^{\pi} 
+       \\
+       A &\overset{j}{\longrightarrow}& A
+     }
+     \,,
+   $$
+
+where $\lambda_A:I \otimes A \to A$ and $\rho_A:A \otimes I \to A$ are the left and right [[unitors]] of the [[monoidal category]]. 
+
+In the [[category of sets]], paraunital algebra objects are called **paraunital magmas**, and in the [[category of abelian groups]], paraunital algebra objects are called **paraunital rings**. 
+
 ## Related concepts
+
+* [[magma]], [[unital magma]]
 
 * [[nonunital algebra]], [[nonunital ring]]
 
@@ -34,3 +72,13 @@ These were first defined in the specific context of [[composition algebras]] in 
 [[!redirects paraunital rings]]
 [[!redirects para-unital ring]]
 [[!redirects para-unital rings]]
+
+[[!redirects paraunital algebra object]]
+[[!redirects paraunital algebra objects]]
+[[!redirects para-unital algebra object]]
+[[!redirects para-unital algebra objects]]
+
+[[!redirects paraunital magma]]
+[[!redirects paraunital magmas]]
+[[!redirects para-unital magma]]
+[[!redirects para-unital magmas]]
