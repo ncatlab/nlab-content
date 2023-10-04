@@ -61,7 +61,7 @@ In the [[category of sets]], paraunital algebra objects are called **paraunital 
 
 ## References
 
-* {#Elduque21} Alberto Elduque , Composition algebras: “Algebra and Applications I: Non-associative Algebras and Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Mathematics, ISTEWiley, London 2021.
+* {#Elduque21} [[Alberto Elduque]], *Composition algebras*, Chapter 2 in:  Abdenacer Makhlouf (ed.), *Algebra and Applications I: Non-associative Algebras and Categories*, Sciences-Mathematics, ISTEWiley (2021) 27-57 &lbrack;[arXiv:1810.09979](https://arxiv.org/abs/1810.09979), [ISBN:978-1-789-45017-0](https://www.wiley.com/en-ae/Algebra+and+Applications+1:+Non+associative+Algebras+and+Categories-p-9781789450170)&rbrack;
 
 [[!redirects paraunital algebra]]
 [[!redirects paraunital algebras]]
