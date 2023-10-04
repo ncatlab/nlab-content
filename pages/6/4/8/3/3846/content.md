@@ -498,9 +498,13 @@ The term "composition algebra" refers to "composition of sums of squares", as in
 
 * {#Taussky70} Olga Taussky, Section 6 of: *Sums of squares*, The American Mathematical Monthly **77** 8  (1970) 805-830 $[$[doi:10.2307/2317016](https://doi.org/10.2307/2317016)$]$
 
-Textbook account on composition algebras:
+Textbook account:
 
 * {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 1 of: _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
+Survey:
+
+* {#Elduque21} [[Alberto Elduque]], *Composition algebras*, Chapter 2 in:  Abdenacer Makhlouf (ed.), *Algebra and Applications I: Non-associative Algebras and Categories*, Sciences-Mathematics, ISTEWiley (2021) 27-57 &lbrack;[arXiv:1810.09979](https://arxiv.org/abs/1810.09979), [ISBN:978-1-789-45017-0](https://www.wiley.com/en-ae/Algebra+and+Applications+1:+Non+associative+Algebras+and+Categories-p-9781789450170)&rbrack;
 
 
 A general abstract formulation of [Rost 96](#Rost96) 
