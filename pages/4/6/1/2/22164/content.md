@@ -14,6 +14,10 @@ Introducing [[holographic Renyi entropy]]:
 
 * [[Xi Dong]], *Holographic Renyi Entropy at High Energy Density*, Phys. Rev. Lett. 122, 041602 (2019) ([arXiv:1811.04081](https://arxiv.org/abs/1811.04081))
 
+More on [[holographic entanglement entropy]]:
+
+* Eugenia Colafranceschi, [[Xi Dong]], [[Donald Marolf]], Zhencheng Wang, *Algebras and Hilbert spaces from gravitational path integrals: Understanding Ryu-Takayanagi/HRT as entropy without invoking holography* &lbrack;[arXiv:2310.02189](https://arxiv.org/abs/2310.02189)&rbrack;
+
 
 
 category: people
