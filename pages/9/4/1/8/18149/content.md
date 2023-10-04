@@ -67,6 +67,8 @@ Examples include [[Lie rings]] and [[nonassociative algebras]] such as [[alterna
 
 * [[noncommutative ring]]
 
+* [[unital magma object]]
+
 [[!redirects nonassociative rings]]
 
 [[!redirects non-associative ring]]
