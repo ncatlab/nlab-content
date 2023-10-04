@@ -65,11 +65,15 @@ $$f \circ (v \otimes (\rho \circ (a \otimes w))) = \pi \circ (a \otimes (f \circ
 
 However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. 
 
+Symmetric bilinear forms can similarly be generalized from the [[category of abelian groups]] to any [[monoidal category]], where for all morphisms $v:I \to V$ and $w:I \to V$, we have $f \circ (v \otimes w) = f \circ (w \otimes v)$. 
+
 ### From Mod to monoidal categories
 
 This concept could be generalized from the [[category of modules]] to any [[monoidal category]], since the ground ring $k$ is the [[tensor unit]] of the category of $k$-modules:
 
-Let $(C, I, \otimes)$ be a [[monoidal category]]. Given an object $V$, every morphism $I \otimes V \to V$ is given by the composition of an [[endomorphism]] $V \to V$ with the [[left unitor]] $\lambda_V:I \otimes V \to V$. Then given an object $V \in C$, a bilinear form is just a morphism $V \otimes V \to I$. However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. In [[cartesian monoidal categories]] $(C, 1, \times)$, the binary forms $V \times V \to 1$ always exist and is unique, by the universal property of the [[terminal object]]. 
+Let $(C, I, \otimes)$ be a [[monoidal category]]. Given an object $V$, every morphism $I \otimes V \to V$ is given by the composition of an [[endomorphism]] $V \to V$ with the [[left unitor]] $\lambda_V:I \otimes V \to V$. Then given an object $V \in C$, a bilinear form is just a morphism $f:V \otimes V \to I$. However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. In [[cartesian monoidal categories]] $(C, 1, \times)$, the binary forms $V \times V \to 1$ always exist and is unique, by the universal property of the [[terminal object]]. 
+
+Symmetric bilinear forms can similarly be generalized from the [[category of modules]] to any [[monoidal category]], where for all morphisms $v:I \to V$ and $w:I \to V$, we have $f \circ (v \otimes w) = f \circ (w \otimes v)$. 
 
 ## Related concepts
 
