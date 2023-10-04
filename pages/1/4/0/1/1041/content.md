@@ -321,3 +321,4 @@ Formalization of abelian categories as [[univalent categories]] in [[univalent f
 * [[unimath]], *Abelian Categories* &lbrack;[UniMath.CategoryTheory.Abelian](https://unimath.github.io/doc/UniMath/4dd5c17/UniMath.CategoryTheory.Abelian.html)&rbrack;
 
 [[!redirects abelian categories]]
+[[!redirects Abelian category]]
