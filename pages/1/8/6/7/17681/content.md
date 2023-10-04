@@ -127,7 +127,7 @@ In [Schrijvers, Piróg, Wu & Jaskelioff 2019 p. 99](#SchrijversPirógWuJaskeliof
        \\
        D 
          &\underset{ret^{\mathcal{E}'}_D}{\longrightarrow}&
-       \mathcal{E}(D)
+       \mathcal{E}'(D)
      }
    \]
 
