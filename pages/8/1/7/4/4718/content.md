@@ -227,6 +227,7 @@ The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital
 
 * [[nonunital Ek-algebra]]
 
+* [[paraunital ring]]
 
 ## References
  {#References}
@@ -267,7 +268,6 @@ with further developments (in [[KK-theory]]) including
 Discussion in the context of [[higher algebra]] ([[nonunital Ek-algebras]]) is in 
 
 * {#Lurie} [[Jacob Lurie]], section 5.2.3 of _[[Higher Algebra]]_
-
 
 [[!redirects rng]]
 [[!redirects rngs]]
