@@ -43,7 +43,7 @@ $$
   \langle u\cdot v ,\, u \cdot v \rangle
   \;=\;
   \langle u,u \rangle
-  \langle v,v rangle
+  \langle v,v \rangle
 $$
 
 
@@ -497,25 +497,36 @@ See also [[Moufang loop]].
 
 ## Generalizations
 
-This concept may be generalized from the [[category of vector spaces]] to any [[monoidal category]], observing that the ground field $k$ is the [[tensor unit]] of the category of $k$-vector spaces:
+### From Ab to monoidal categories
 
-Let $(C, I, \otimes)$ be a [[monoidal category]]. Then a **(nonunital) composition algebra object [[internalization|in]] $C$** is an [[object]] $A \in C$ with a morphism $\pi \colon A \otimes A \to A$ and $f \colon A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v \colon I \to A$, 
+This concept could be generalized from the [[category of abelian groups]] to any [[monoidal category]], since $k$-vector spaces are $k$-modules when $k$ is a field:
+
+Let $(C, I, \otimes)$ be a [[monoidal category]], let $(k, 1, \pi_k)$ be a [[monoid object]] in $C$. $k$ itself is a $k$-module object with the [[action]] being represented by the [[monoid]] [[binary operation]] $\pi_k$. A **(nonunital) composition algebra object** [[internalization|in]] $C$ is a $k$-module object $(A, \rho)$ with
+
+* an [[action]]-preserving [[morphism]] $f:V \otimes V \to k$ from the [[tensor product]] $V \otimes V$ to $k$: given morphisms $a:I \to k$, $v:I \to V$, and $w:I \to V$, 
+
+$$f \circ ((\rho \circ (a \otimes v)) \otimes w) = \pi \circ (a \otimes (f \circ (v \otimes w))$$
+
+and 
+
+$$f \circ (v \otimes (\rho \circ (a \otimes w))) = \pi \circ (a \otimes (f \circ (v \otimes w))$$
+
+* a morphism $\pi_A \colon A \otimes A \to A$ 
+
+* such that for all morphisms $u \colon I \to A$ and $v \colon I \to A$, 
 
 \[
   \label{InternalCondition}
   f 
     \circ 
    \Big(  
-     \big( 
-       \pi \circ (u \otimes u) 
-     \big) 
-       \otimes 
-     \big( 
-       \pi \circ (v \otimes v)
-     \big)
+       \pi_A \circ (u \otimes u) \big) 
+      \otimes 
+     \big(
+       \pi_A \circ (v \otimes v)
    \Big) 
      \;\;=\;\; 
-   \pi 
+   \pi_k 
      \circ 
    \Big(
      \big(
@@ -528,9 +539,43 @@ Let $(C, I, \otimes)$ be a [[monoidal category]]. Then a **(nonunital) compositi
   \,.
 \]
 
-A **paraunital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[paraunital algebra object]] with respect to the morphism $\pi:A \otimes A \to A$, and a **unital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[unital algebra object]] with respect to the morphism $\pi:A \otimes A \to A$. 
+A **paraunital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[paraunital algebra object]] with respect to the morphism $\pi_A:A \otimes A \to A$, and a **unital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[unital algebra object]] with respect to the morphism $\pi_A:A \otimes A \to A$. 
 
-In [[cartesian monoidal categories]] $(C, 1, \times)$, since any morphism $V \times V \to 1$ exists and is unique by the universal property of the [[terminal object]], composition algebra objects are the same as [[magma]] objects. 
+### From Vect to monoidal categories
+
+This concept may be generalized from the [[category of vector spaces]] to any [[monoidal category]], observing that the ground field $k$ is the [[tensor unit]] of the category of $k$-vector spaces:
+
+Let $(C, I, \otimes)$ be a [[monoidal category]], such that $I$ is a [[monoid object]] with morphisms $e:I \to I$ and $\pi_{I}:I \otimes I \to I$. Then a **(nonunital) composition algebra object** [[internalization|in]] $C$ is an [[object]] $A \in C$ with a morphism $\pi_A \colon A \otimes A \to A$ and $f \colon A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v \colon I \to A$, 
+
+\[
+  \label{InternalCondition2}
+  f 
+    \circ 
+   \Big(  
+     \big(
+       \pi_A \circ (u \otimes u) \big) 
+      \otimes 
+     \big(
+       \pi_A \circ (v \otimes v)
+     \big)
+   \Big) 
+     \;\;=\;\; 
+   \pi_I 
+     \circ 
+   \Big(
+     \big(
+       f \circ (u \otimes v) \big) 
+      \otimes 
+     \big(
+       f \circ (u \otimes v)
+     \big)
+  \Big)
+  \,.
+\]
+
+A **paraunital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[paraunital algebra object]] with respect to the morphism $\pi_A:A \otimes A \to A$, and a **unital composition algebra object** in $C$ is a composition algebra object $A$ which is also a [[unital algebra object]] with respect to the morphism $\pi_A:A \otimes A \to A$. 
+
+In [[cartesian monoidal categories]] $(C, 1, \times)$, since any morphism $V \times V \to 1$ exists and is unique by the universal property of the [[terminal object]], the only monoid structure on $1$ is the [[trivial monoid]] structure given by the identity function on $1$ and the (left or right) [[unitor]] on $1$ respectively, and composition algebra objects are the same as [[magma]] objects. 
 
 ## Related concepts
 
@@ -589,9 +634,8 @@ A proposed application of (non-unital) composition algebras in [[QCD]] is descri
 
 * [[Alessio Marrani]], Daniele Corradetti, Francesco Zucconi. *Physics with non-unital algebras? An invitation to the Okubo algebra*. (2023) ([arXiv:2309.17435](https://arxiv.org/abs/2309.17435)).
 
-
+[[!redirects composition algebra]]
 [[!redirects composition algebras]]
-
 
 [[!redirects split composition algebra]]
 [[!redirects split composition algebras]]
