@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Bilinear forms
 * table of contents
 {: toc}
@@ -28,7 +27,6 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 * [[negative definite]] if $\langle x,x\rangle \lt 0$ if $x \neq 0$.
 
-
 ## Examples
 
 * An _[[inner product]]_ on a real vector space is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).) 
@@ -43,6 +41,28 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 * [[2-Hilbert space]]
 
 * [[Calabi-Yau object]], [[Calabi-Yau A-infinity category]]
+
+## Generalizations
+
+### From Ab to monoidal categories
+
+This concept could be generalized from the [[category of abelian groups]] to any [[monoidal category]]:
+
+Let $(C, I, \otimes)$ be a [[monoidal category]], let $(k, 1, \pi)$ be a [[monoid object]] in $C$, and let $(V, \rho)$ be a $k$-[[module object]] in $C$. $k$ itself is a $k$-module object with the [[action]] being represented by the [[monoid]] [[binary operation]] $\pi$. A bilinear form is simply an [[action]]-preserving [[morphism]] $f:V \otimes V \to k$ from the [[tensor product]] $V \otimes V$ to $k$: given morphisms $a:I \to k$, $v:I \to V$, and $w:I \to V$, 
+
+$$f \circ ((\rho \circ (a \otimes v)) \otimes w) = \pi \circ (a \otimes (f \circ (v \otimes w))$$
+
+and 
+
+$$f \circ (v \otimes (\rho \circ (a \otimes w))) = \pi \circ (a \otimes (f \circ (v \otimes w))$$
+
+However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. 
+
+### From Mod to monoidal categories
+
+This concept could be generalized from the [[category of modules]] to any [[monoidal category]], since the ground ring $k$ is the [[tensor unit]] of the category of $k$-modules:
+
+Let $(C, I, \otimes)$ be a [[monoidal category]]. Then given an object $V \in C$, a bilinear form is just a morphism $V \otimes V \to I$, and any morphism $I \otimes V \to V$ is given by the composition of an [[endomorphism]] $V \to V$ with the [[left unitor]] $\lambda_V:I \otimes V \to V$. However, if $C$ is not a [[Ab-enriched category]], then the morphisms of the category are not linear and it would probably be better to call these morphisms *binary forms* or something similar. In [[cartesian monoidal categories]] $(C, 1, \times)$, the binary forms $V \times V \to 1$ always exist and is unique, by the universal property of the [[terminal object]]. 
 
 ## Related concepts
 
