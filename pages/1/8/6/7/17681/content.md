@@ -148,7 +148,7 @@ In [Schrijvers, Piróg, Wu & Jaskelioff 2019 p. 99](#SchrijversPirógWuJaskeliof
     }"{description}
   ]
   &&
-  \mathcal{E}\big(\mathcal{E}'(\text{-})\big)
+  \mathcal{E}'\big(\mathcal{E}(\text{-})\big)
   \ar[
     rr,
     "{
