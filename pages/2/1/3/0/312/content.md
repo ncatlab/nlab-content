@@ -36,7 +36,7 @@ $$
 
 defined by the condition that there exists $k: a \to b$ such that $i = j k$. (There is at most one such $k$ since $j$ is monic, and such $k$ is monic since $i$ is monic.) 
 
-A subobject of $c$ may equivalently be defined as an element of the [[poset]]al reflection $Sub(c)$ of this preorder.  
+A subobject of $c$ may equivalently be defined as an element of the [[posetal reflection]] $Sub(c)$ of this preorder.  
 
 
 ### In terms of over categories
