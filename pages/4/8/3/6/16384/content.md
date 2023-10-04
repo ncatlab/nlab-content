@@ -48,6 +48,17 @@ The classification matches that of [[Hopf invariant one]] maps. See there for mo
 
 See also at _[[cross product]]_.
 
+## Generalized Hurwitz Theorem
+
+As describe in [Elduque (2021)](#Elduque21), the Hurwitz Theorem can be extended to more general [[composition algebras]] that are not necessarily unital, but that are *para-unital* or even *non-unital* (see [here](https://ncatlab.org/nlab/show/composition+algebra#definition) for the relevant definitions). 
+
+The Generalized Hurwitz Theorem then becomes the statement that the only Euclidean composition algebras over the real numbers are, up to isomorphism:
+
+1. Seven unital algebras: real numbers, complex numbers, quaternions, and octonions (along with their [split](https://ncatlab.org/nlab/show/composition+algebra#split_composition_algebras) companions).
+
+2. Seven para-unital algebras, corresponding to the para- counterparts of the unital algebras above.
+
+3. Two eight-dimensional non-unital algebras: the [[Okubo algebra]] $\mathcal{O}$ and its split counterpart $\mathcal{O}_s$.
 
 
 ## References
@@ -60,6 +71,10 @@ Due to [[Adolf Hurwitz]] (1859&#8211;1919), published posthumously in 1923.
 
 
 * Wikipedia, _[Hurwitz theorem (composition algebras)](http://en.wikipedia.org/wiki/Hurwitz%27s_theorem_%28composition_algebras%29)_
+
+* {#Elduque21} Alberto Elduque , Composition algebras: “Algebra and Applications I: Non-associative Algebras and
+Categories”, Chapter 2, pp. 27-57, edited by Abdenacer Makhlouf, Sciences-Mathematics, ISTEWiley, London 2021.
+
 
 
 [[!redirects Hurwitz theorem]]
