@@ -546,7 +546,7 @@ A **paraunital composition algebra object** in $C$ is a composition algebra obje
 
 This concept may be generalized from the [[category of vector spaces]] to any [[monoidal category]], observing that the ground field $k$ is the [[tensor unit]] of the category of $k$-vector spaces:
 
-Let $(C, I, \otimes)$ be a [[monoidal category]], such that $I$ is a [[monoid object]] with morphisms $e:I \to I$ and $\pi_{I}:I \otimes I \to I$. Then a **(nonunital) composition algebra object** [[internalization|in]] $C$ is an [[object]] $A \in C$ with a morphism $\pi_A \colon A \otimes A \to A$ and $f \colon A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v \colon I \to A$, 
+Let $(C, I, \otimes)$ be a [[monoidal category]], where $I$ is a [[monoid object]] with unit $e:I \to I$ and binary operation $\pi_{I}:I \otimes I \to I$. Then a **(nonunital) composition algebra object** [[internalization|in]] $C$ is an [[object]] $A \in C$ with a morphism $\pi_A \colon A \otimes A \to A$ and $f \colon A \otimes A \to I$ such that for all morphisms $u:I \to A$ and $v \colon I \to A$, 
 
 \[
   \label{InternalCondition2}
@@ -561,7 +561,7 @@ Let $(C, I, \otimes)$ be a [[monoidal category]], such that $I$ is a [[monoid ob
      \big)
    \Big) 
      \;\;=\;\; 
-   \pi_I 
+   \pi_{I} 
      \circ 
    \Big(
      \big(
