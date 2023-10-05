@@ -21,10 +21,12 @@ A dependent function application to identifications is like an function applicat
 ## Definition
 
 In [[dependent type theory]], given a type $A$ and a type family $x:A \vdash B(x)$ and a family of elements $x:A \vdash f(x):B(x)$, the **dependent function application to identifications** or **dependent action on identifications** for $f(x)$ is the family of elements
-$$a:A, b:A, p:a =_A b \vdash \mathrm{apd}_f(a, b, p):f(a) =_B^p f(b)$$ 
+$$a:A, b:A, p:a =_A b \vdash \mathrm{apd}_f(a, b, p):\mathrm{hId}_{B}(a, b, p, f(a), f(b))$$ 
 inductively defined by 
-$$a:A \vdash \mathrm{apd}_f(a, a, \mathrm{refl}_A(a)) =_{f(a) =_{B(a)} f(a)} \mathrm{refl}_A(a)$$ 
-where $f(a) =_B^p f(b)$ is a [[heterogeneous identity type]]. 
+$$a:A \vdash \mathrm{apd}_f(a, a, \mathrm{refl}_A(a)) \coloneqq \mathrm{hrefl}_A(a, f(a)):\mathrm{hId}_{B}(a, a, \mathrm{refl}_A(a), f(a), f(a))$$ 
+where $\mathrm{hId}_{B}(a, b, p, f(a), f(b))$ is a [[heterogeneous identity type]]. 
+
+### Using transport
 
 In addition, there are two other families of elements which could be considered dependent function applications to identifications, which use [[transport]] and the inverse of transport rather than heterogeneous identity types:
 
