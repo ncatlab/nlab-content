@@ -403,9 +403,14 @@ Aspects of the category of smooth sets is discussed, with an eye towards its gen
 
 The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
 
-As a [[cohesive topos]], smooth sets are discussed in 
+As a [[cohesive topos]], smooth sets are discussed in:
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+Discussion of smooth sets as a [[convenient category of spaces|convenient category]] for [[variational calculus|variational]] [[classical field theory]]:
+
+* [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]&rbrack;
+
 
 [[!redirects smooth space]]
 [[!redirects smooth spaces]]
