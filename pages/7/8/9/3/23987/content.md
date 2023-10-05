@@ -1331,7 +1331,7 @@ Stone-von Neumann**
 
 * 21 Sep 2022
   
-  Grigorios Giotopoulos (NYU Abi Dhabi)
+  [[Grigorios Giotopoulos]] (NYU Abi Dhabi)
 
   **Braided Homotopy Lie Algebras and Noncommutative Field Theories**
 
@@ -1725,13 +1725,16 @@ Stone-von Neumann**
 
 \linebreak
 
+
 ### Oct 2023
 
-* 4 Oct 2023
+* {#GiotopoulosOct2023} 4 Oct 2023
 
   [[Grigorios Giotopoulos]] (NYUAD)
 
   **Classical field theory in the topos of smooth sets**
+
+  notes: [[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]
 
   > By recalling the textbook description of a ([[variational calculus|variational]]) [[classical field theory]] and its [[critical locus]] of [[on-shell]] [[field (physics)|fields]], I will list desiderata for a [[category]] in which this can rigorously take place. This category will consist of [[generalized smooth spaces]], completely determined by "how they may be smoothly probed by finite dimensional manifolds". By expanding on this intuition, I will describe how one naturally arrives at the definition of a [[smooth set]] as a "[[sheaf]] over the [[site]] [[CartSp|of]] [[Cartesian spaces]]''. I will then explain how the [[sheaf topos]] of [[smooth sets]] satisfies the desiderata of (variational) classical field theory. Time permitting, I will indicate how the setting naturally generalizes to include the description of [[fermionic fields]], and ([[gauge field|gauge]]) fields with [[internal symmetries]].
 
@@ -1972,7 +1975,6 @@ Researchers:
 * [[Vivek Kumar Singh]]
 
 * [[Sachin Valera]]
-
 
 
 ***
