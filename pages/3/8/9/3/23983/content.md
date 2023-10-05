@@ -170,20 +170,88 @@ Given
 
 there is a function called the **concatenation of heterogeneous identifications**
 
-$$\mathrm{comp}(a_1, a_2, a_3, p_1, p_2, y_1, y_2, y_3):\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2) \times \mathrm{hId}_{x:A.B(x)}(a_2, a_3, p_2, y_2, y_3) \to \mathrm{hId}_{x:A.B(x)}(a_1, a_3, p_1 \bullet p_2, y_1, y_3)$$
+$$(-) \bullet (-):\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2) \times \mathrm{hId}_{x:A.B(x)}(a_2, a_3, p_2, y_2, y_3) \to \mathrm{hId}_{x:A.B(x)}(a_1, a_3, p_1 \bullet p_2, y_1, y_3)$$
 
-defined by double induction on heterogeneous reflexivity
+defined by double induction on heterogeneous reflexivity for $a:A$ and $y:B(a)$
 
-$$a:A, y:B(a) \vdash \mathrm{comp}(a, a, a, \mathrm{refl}_A(a), \mathrm{refl}_A(a), y, y, y)(\mathrm{hrefl}_A(a, y), \mathrm{hrefl}_A(a, y)) \equiv \mathrm{hrefl}_A(a, y):\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)$$
+$$\mathrm{hrefl}_A(a, y) \bullet \mathrm{hrefl}_A(a, y) \equiv \mathrm{hrefl}_A(a, y)$$
+
+in the type 
+
+$$\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)$$
 \end{definition}
 
-\begin{theorem}
-Concatenation of heterogeneous reflexivity satisfies the associative, left unital, and right unital laws.
-\end{theorem}
+\begin{definition}
+Given 
 
-\begin{proof}
-to be done...
-\end{proof}
+* a type family $x:A \vdash B(x)$, 
+
+* elements $a:A$, $b:A$ 
+
+* identifications $p:\mathrm{Id}_A(a, b)$ 
+
+* elements $y:B(a)$, $z:B(b)$,
+
+there is a dependent function called the **left unitor of heterogeneous identifications**
+
+$$\mathrm{hlunitor}:\prod_{q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)} \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}(\mathrm{hrefl}_A(a, y) \bullet q, q)$$
+
+defined by induction on heterogeneous reflexivity for $a:A$ and $y:B(a)$:
+
+$$\mathrm{hlunitor}(\mathrm{hrefl}_A(a, y)) \equiv \mathrm{refl}_{\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)}(\mathrm{hrefl}_A(a, y))$$
+
+in the type 
+
+$$\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)}(\mathrm{hrefl}_A(a, y) \bullet \mathrm{hrefl}_A(a, y), \mathrm{hrefl}_A(a, y))$$
+\end{definition}
+
+\begin{definition}
+Given 
+
+* a type family $x:A \vdash B(x)$, 
+
+* elements $a:A$, $b:A$ 
+
+* identifications $p:\mathrm{Id}_A(a, b)$ 
+
+* elements $y:B(a)$, $z:B(b)$,
+
+there is a dependent function called the **right unitor of heterogeneous identifications**
+
+$$\mathrm{hrunitor}:\prod_{q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)} \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}(q \bullet \mathrm{hrefl}_A(b, z), q)$$
+
+defined by induction on heterogeneous reflexivity for $b:B$ and $z:B(b)$
+
+$$\mathrm{hrunitor}(\mathrm{hrefl}_A(b, z)) \equiv \mathrm{refl}_{\mathrm{hId}_{x:A.B(x)}(b, b, \mathrm{refl}_A(b), z, z)}(\mathrm{hrefl}_A(b, z))$$
+
+in the type 
+
+$$\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(b, b, \mathrm{refl}_A(b), z, z)}(\mathrm{hrefl}_A(b, z) \bullet \mathrm{hrefl}_A(b, z), \mathrm{hrefl}_A(b, z))$$
+\end{definition}
+
+\begin{definition}
+Given 
+
+* a type family $x:A \vdash B(x)$, 
+
+* elements $a_1:A$, $a_2:A$, $a_3:A$, $a_4:A$
+
+* identifications $p_1:\mathrm{Id}_A(a_1, a_2)$, $p_2:\mathrm{Id}_A(a_2, a_3)$, $p_3:\mathrm{Id}_A(a_3, a_4)$, 
+
+* elements $y_1:B(a_1)$, $y_2:B(a_2)$, $y_3:B(a_3)$, $y_4:B(a_4)$,
+
+there is a dependent function called the **associator of heterogeneous identifications**
+
+$$\mathrm{hassoc}:\prod_{q_1:\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2)} \prod_{q_2:\mathrm{hId}_{x:A.B(x)}(a_2, a_3, p_2, y_2, y_3)} \prod_{q_3:\mathrm{hId}_{x:A.B(x)}(a_3, a_4, p_3, y_3, y_4)} \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a_1, a_4, \mathrm{assoc}(p_1, p_2, p_3), y_1, y_4)}(q_1 \bullet (q_2 \bullet q_3), (q_1 \bullet q_2) \bullet q_3)$$
+
+defined by triple induction on heterogeneous reflexivity for $a:A$ and $y:B(a)$
+
+$$\mathrm{hassoc}(\mathrm{hrefl}_A(a, y),  \mathrm{hrefl}_A(a, y), \mathrm{hrefl}_A(a, y)) \equiv \mathrm{refl}_{\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)}(\mathrm{hrefl}_A(a, y))$$
+
+in the type 
+
+$$\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)}(\mathrm{hrefl}_A(a, y) \bullet (\mathrm{hrefl}_A(a, y) \bullet \mathrm{hrefl}_A(a, y)), (\mathrm{hrefl}_A(a, y) \bullet \mathrm{hrefl}_A(a, y)) \bullet \mathrm{hrefl}_A(a, y))$$
+\end{definition}
 
 \begin{definition}
 Given 
