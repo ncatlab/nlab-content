@@ -142,7 +142,7 @@ and it is called *very well-behaved* or *lawful* if in addition it satisfies:
 
 \end{definition}
 
-Definition \ref{Lens} appears, under no particular name, in [Hofmann & Pierce 1996, p. 12](#HofmannPierce96), where it is thought of as providing aspects of [[object-oriented programming]]: Here one thinks of $S$ as a "class" which inherts functionality from the class $V$. And indeed, for lawful lenses it follows (see [below](#PossibilityMonadicity)) that $S \simeq D \times V$ is a "record" which inherits all fields present in $V$ but may add some more).
+Definition \ref{Lens} appears, under no particular name, in [Hofmann & Pierce 1996, p. 12](#HofmannPierce96), where it is thought of as providing aspects of [[object-oriented programming]]: Here one thinks of $S$ as a "class" which inherits functionality from the class $V$. And indeed, for lawful lenses it follows (see [below](#PossibilityMonadicity)) that $S \simeq D \times V$ is a "record" which inherits all fields present in $V$ but may add some more).
 
 The terminology "lens" for Def. \ref{Lens}
 is due to [Bohannon, Pierce & Vaughan 2006, Def. 3.2](#BohannonPierceVaughan06). 
