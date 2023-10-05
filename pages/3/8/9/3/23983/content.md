@@ -153,6 +153,58 @@ $$\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \coloneqq \mathrm{Id}_{B(a), B(b)}(\mat
 
 ## Properties
 
+### Groupoidal structure of heterogeneous identity types
+
+Reflexivity of heterogeneous identifications is already given in the [[introduction rule]] of heterogeneous identity types.
+
+\begin{definition}
+Given 
+
+* a type family $x:A \vdash B(x)$, 
+
+* elements $a_1:A$, $a_2:A$, $a_3:A$, 
+
+* identifications $p_1:\mathrm{Id}_A(a_1, a_2)$ and $p_2:\mathrm{Id}_A(a_2, a_3)$, 
+
+* elements $y_1:B(a_1)$, $y_2:B(a_2)$, and $y_3:B(a_3)$,
+
+there is a function called the **concatenation of heterogeneous identifications**
+
+$$\mathrm{comp}(a_1, a_2, a_3, p_1, p_2, y_1, y_2, y_3):\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2) \times \mathrm{hId}_{x:A.B(x)}(a_2, a_3, p_2, y_2, y_3) \to \mathrm{hId}_{x:A.B(x)}(a_1, a_3, p_1 \bullet p_2, y_1, y_3)$$
+
+defined by double induction on heterogeneous reflexivity
+
+$$a:A, y:B(a) \vdash \mathrm{comp}(a, a, a, \mathrm{refl}_A(a), \mathrm{refl}_A(a), y, y, y)(\mathrm{hrefl}_A(a, y), \mathrm{hrefl}_A(a, y)) \equiv \mathrm{hrefl}_A(a, y):\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)$$
+\end{definition}
+
+\begin{theorem}
+Concatenation of heterogeneous reflexivity satisfies the associative, left unital, and right unital laws.
+\end{theorem}
+
+\begin{proof}
+to be done...
+\end{proof}
+
+\begin{definition}
+Given 
+
+* a type family $x:A \vdash B(x)$, 
+
+* elements $a_1:A$, $a_2:A$ 
+
+* identifications $p_1:\mathrm{Id}_A(a_1, a_2)$ 
+
+* elements $y_1:B(a_1)$, $y_2:B(a_2)$,
+
+there is a function called the **inverse of heterogeneous identifications**
+
+$$\mathrm{inv}(a_1, a_2, p_1, y_1, y_2):\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2) \to \mathrm{hId}_{x:A.B(x)}(a_2, a_1, p_1^{-1}, y_2, y_1)$$
+
+defined by induction on heterogeneous reflexivity:
+
+$$a:A, y:B(a) \vdash \mathrm{inv}(a, a, \mathrm{refl}_A(a), y, y)(\mathrm{hrefl}_A(a, y)) \equiv \mathrm{hrefl}_A(a, y):\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y) \to \mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)$$
+\end{definition}
+
 ### Relation between identity types and heterogeneous identity types
 
 There are equivalences between identity types and heterogeneous identity types
