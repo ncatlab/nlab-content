@@ -35,7 +35,7 @@ Unwrapping the recursive definition above, a function $f:\mathbb{R} \to \mathbb{
 * for every natural number $n \in \mathbb{N}$, for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every real number $h \in \mathbb{R}$ such that $0 \lt | h | \lt M^{n}f(\epsilon)$, and for every real number $x \in \mathbb{R}$, 
 $$\left|f(x + h) - \sum_{i=0}^n \frac{h^i (D^{i}f)(x)}{i!}\right| \lt \epsilon |h^n|$$
 
-#### Infintesimal definition
+#### Infinitesimal definition
 
 Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set of all elements in $\mathbb{R}$ for which $P$ holds. A [[partial function]] $f:\mathbb{R} \to \mathbb{R}$ is equivalently a function $f:I \to \mathbb{R}$ for any such predicate $P$ and set $I$. 
 
@@ -59,7 +59,7 @@ The concept can be generalised from cartesian spaces to [[Banach spaces]] and so
 
 ### Between smooth manifolds
 
-A [[topological manifold]] whose transition functions are smooth maps is a [[smooth manifold]]. A smooth function between smooth manifolds is a function that (co-)restricts to a smooth function between subsets of Cartesian spaces, as above, with respect to any choice of [[atlases]], hence which is a $k$-fold [[differentiable function]] (see there for more details), for all $k$ The [[category]] [[Diff]] is the category whose objects are smooth manifolds and whose morphisms are smooth maps betweeen them.
+A [[topological manifold]] whose transition functions are smooth maps is a [[smooth manifold]]. A smooth function between smooth manifolds is a function that (co-)restricts to a smooth function between subsets of Cartesian spaces, as above, with respect to any choice of [[atlases]], hence which is a $k$-fold [[differentiable function]] (see there for more details), for all $k$ The [[category]] [[Diff]] is the category whose objects are smooth manifolds and whose morphisms are smooth maps between them.
 
 ### Between generalized smooth spaces
 
