@@ -82,7 +82,7 @@ If $C$ is $\lambda$-accessible and $\lambda\unlhd\mu$ (see [[sharply smaller car
 +-- {: .num_prop}
 ###### Proposition 
 
-If $\mathcal{C}$ is an accessible category and $K$ is a [[small category]], then the [[category of presheaves]] $Func(K^{op}, \mathcal{C})$ is again accessible.
+If $\mathcal{C}$ is an accessible category and $K$ is a [[small category]], then the [[functor category]] $Func(K^{op}, \mathcal{C})$ is again accessible.
 
 =--
 
