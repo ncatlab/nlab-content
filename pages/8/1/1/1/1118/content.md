@@ -103,7 +103,7 @@ As a slight abuse of notation we have reused $1$ here to denote $1: G \to G$, de
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
-### Generalization to arbitrary monoidal categories
+#### Generalization to arbitrary monoidal categories
 
 This concept could be generalized from [[cartesian monoidal categories]] to any [[monoidal category]]:
 
