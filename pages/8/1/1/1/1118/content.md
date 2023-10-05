@@ -19,7 +19,6 @@
 
 A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$.
 
-
 ## Definition 
 
 ### In terms of internal group objects
@@ -104,6 +103,17 @@ As a slight abuse of notation we have reused $1$ here to denote $1: G \to G$, de
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
+### Generalization to arbitrary monoidal categories
+
+This concept could be generalized from [[cartesian monoidal categories]] to any [[monoidal category]]:
+
+Let $(C, I, \otimes)$ be a [[monoidal category]] and let $(G, e:I \to G, \pi:G \otimes G \to G)$ be a [[monoid object]] in $C$. Then $G$ is a **group object** [[internalization|in]] $C$ if it comes with a morphism $\iota:A \to A$ such that for all morphisms $a:I \to A$,
+
+$$\pi \circ (a \otimes (\iota \circ a)) = e$$
+
+and
+
+$$\pi \circ ((\iota \circ a) \otimes a) = e$$
 
 ### In terms of presheaves of groups
  {#InTermsOfPresheavesOfGroups}
