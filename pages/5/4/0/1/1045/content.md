@@ -107,7 +107,7 @@ $
   \tilde F \circ Y \simeq F
 $.
 
-* The Yoneda extension commutes with small colimits in $C$ in that for $\alpha : A \to C$ a [[diagram]], we have $\tilde F (colim (Y \circ \alpha)) \simeq colim F \circ \alpha$ .
+* The Yoneda extension commutes with small colimits in $C$, i.e. for $\alpha : A \to C$ a [[diagram]], we have $\tilde F (colim (Y \circ \alpha)) \simeq colim F \circ \alpha$ .
 
 * Moreover, $\tilde F$ is defined up to [[isomorphism]] by these two properties.
 
