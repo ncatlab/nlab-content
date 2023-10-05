@@ -46,6 +46,14 @@ In the interpretation of [[propositions as types]] in [[type theory]], [[proposi
 
 ## Definitions
 
+### Using function application and Russell universes
+
+Suppose that the dependent type theory uses a sequence of [[Russell universes]] $U_i$ to define types, instead of a separate type [[judgment]]. Then, given elements $a:A$, $b:A$, and identification $p:a =_A b$, [[transport]] across the type family $B:A \to U_i$ could be defined as the evaluation of the inductively defined function 
+$$\mathrm{idtoequiv}(B(a), B(b)):(B(a) =_{U_i} B(b)) \to (B(a) \simeq B(b))$$
+at the function application of $B$ to the identification $p$, $\mathrm{ap}_{U_i}(B, a, b, p):B(a) =_{U_i} B(b)$:
+
+$$\mathrm{transport}(B, a, b, p) \equiv \mathrm{idtoequiv}(B(a), B(b))(\mathrm{ap}_{U_i}(B, a, b, p)):B(a) \simeq B(b)$$
+
 ### Using the uniqueness quantifier
 
 Assuming that the type theory has [[uniqueness quantifiers]], a [[type]] $A$, a family of types $x:A \vdash B(x)$, [[elements]] $a:A$ and $b:A$, and an [[identity]] $p:a =_A b$, there is a family of elements between the types $B(a)$ and $B(b)$ called **transport**
