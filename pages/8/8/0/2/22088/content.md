@@ -157,4 +157,13 @@ One could call it the __fat geometric totalization__.
 
 * [[homotopy realization]]
 
+## References
+
+
+For the case of [[chain complexes]], see
+
+* [[Kensuke Arakawa]], _Homotopy Limits and Homotopy Colimits of Chain Complexes_, [arXiv:2310.00201](https://arxiv.org/abs/2310.00201).
+
+
+
 [[!redirects homotopy totalizations]]
