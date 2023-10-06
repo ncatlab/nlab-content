@@ -133,7 +133,7 @@ Like any [[elementary topos]], $\SimpSet$ has an [[internal logic]].  Here we li
 
 * By [[Diaconescu's theorem]], $\SimpSet$ therefore does not satisfy the [[axiom of choice]].
 
-* Like any presheaf topos, it satisfies the [[dependent choice]] (assuming
+* Like any presheaf topos, it satisfies [[dependent choice]] (assuming
  it holds in the metatheory); see [Fourman and Scedrov](#FourmanScedrov). Moreover, [[natural numbers object]] is simply the discrete simplicial set of ordinary natural numbers.
 
 * Similarly, it satisfies [[Markov's principle]].
@@ -149,7 +149,7 @@ Like any [[elementary topos]], $\SimpSet$ has an [[internal logic]].  Here we li
 * [[dSet]] ([[category]] of [[dendroidal sets]])
 
 ## References
-* {#FourmanScedrov} [[Mike Fourman]] and &#352;&#269;edrov, The "world's simplest axiom of choice" fails, manuscripta mathematica 1982, Volume 38, Issue 3, pp 325-332 [PDF](http://link.springer.com/content/pdf/10.1007%2FBF01170929.pdf)
+* {#FourmanScedrov} [[Michael Fourman]] and [[Andrej Ščedrov]], The "world's simplest axiom of choice" fails, manuscripta mathematica 1982, Volume 38, Issue 3, pp 325-332 [PDF](http://link.springer.com/content/pdf/10.1007%2FBF01170929.pdf)
 
 category: category
 
