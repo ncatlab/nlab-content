@@ -37,3 +37,7 @@ Landing page:
 Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via [[simplicial homotopy type theory]] (in [[Rzk]]):
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
+
+Overview talk:
+
+* [[Nikolai Kudasov]]. *Rzk proof assistant and simplicial HoTT formalization*, Talk at [Homotopy Type Theory Electronic Seminar Talks (HoTTEST)](uwo.ca/math/faculty/kapulkin/seminars/hottest.html) (2023) [video](https://www.youtube.com/watch?v=IMxPu2agUNo)
