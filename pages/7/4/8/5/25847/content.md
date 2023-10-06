@@ -1,4 +1,4 @@
-Let $R$ be a commutative Noetherian local ring. Then for any nonzero finitely generated $R$-module $M$ of finite projective dimension $pd_R(M)$ the following formula holds
+Let $R$ be a commutative Noetherian local ring. Then for any nonzero finitely generated $R$-module $M$ of finite [[projective dimension]] $pd_R(M)$ the following formula holds
 $$
 pd_R(M) + depth(M) = depth(R)
 $$
