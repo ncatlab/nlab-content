@@ -185,7 +185,7 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 [[Cauchy completion]] for preorders is discussed in 
 
-* {#Rosolini} G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
+* {#Rosolini} G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://rivista.math.unipr.it/fulltext/1999-2s/06.pdf))
  
 
 
