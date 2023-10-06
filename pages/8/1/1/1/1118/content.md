@@ -23,20 +23,28 @@ A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal
 
 ### In terms of internal group objects
 
-A **group object** or **internal group** in a category $C$ with binary [[product]]s and a [[terminal object]] $*$ is an object $G$ in $C$ and arrows
-$$
-1:* \to G
-$$
-(the unit map)
-$$
-(-)^{-1}:G\to G
-$$
-(the inverse map) and
-$$
-m:G\times G \to G
-$$
-(the multiplication map),
-such that the following diagrams commute:
+\begin{definition}
+\label{GroupObjectInCartesianCategory}
+**(group object in [[cartesian monoidal category]])**
+\linebreak
+A **group object** or **internal group** [[internalization|internal to]] a category $C$ with [[finite products]] (binary [[Cartesian products]] and a [[terminal object]] $\ast$) is 
+
+* an [[object]] $G$ in $C$ 
+
+* and [[morphisms]] as follows
+
+  * [[neutral element]]: 
+
+    $\mathrm{e} \,\colon\,  \asy \to G$
+
+  * [[inverse elements]] 
+
+    $(-)^{-1} \,\colon\, G\to G$
+
+  * [[binary operation]] $m \colon G\times G \to G$
+
+such that the following [[commuting diagram|diagrams commute]]:
+
 $$
 \array{
   G\times G\times G 
@@ -58,7 +66,7 @@ $$
 $$
 \array{
   G 
-  & \stackrel{(1,id)}{\longrightarrow} 
+  & \stackrel{(\mathrm{e},id)}{\longrightarrow} 
   & G\times G
   \\
   {}^{\mathllap{(\id,1)}}
@@ -69,7 +77,7 @@ $$
   G\times G & \stackrel{m}{\longrightarrow} &G
 }
 $$
-(telling us that the unit map picks out an element that is a left and right identity), and
+(telling us that the [[neutral element]] is a left and right identity), and
 $$
 \array{
 G 
@@ -98,22 +106,32 @@ G
 }
 $$
 (telling us that the inverse map really does take an inverse).
+\end{definition}
 
-As a slight abuse of notation we have reused $1$ here to denote $1: G \to G$, defined as the composite $G \to * \stackrel{1}{\to} G$. Also, the associativity law technically factors through the isomorphisms between $(G\times G)\times G$ and $G\times (G\times G)$. The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[diagonal morphism]].
+\begin{remark}
+\label{UseOfDiagonalMorphism}
+The [[associativity law]] technically factors through the [[isomorphisms]] between $(G\times G)\times G$ and $G\times (G\times G)$. 
 
-Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
+The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[diagonal morphism]].
+\end{remark}
 
-#### Generalization to arbitrary monoidal categories
+\begin{remark}
+Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$, as above.
+\end{remark}
 
-This concept could be generalized from [[cartesian monoidal categories]] to any [[monoidal category]]:
+\begin{remark}
+\label{GroupObjectsInGeneralMonoidalCategories}
+**(group objects in general monoidal categories: [[Hopf monoids]])**
+\linebreak
 
-Let $(C, I, \otimes)$ be a [[monoidal category]] and let $(G, e:I \to G, \pi:G \otimes G \to G)$ be a [[monoid object]] in $C$. Then $G$ is a **group object** [[internalization|in]] $C$ if it comes with a morphism $\iota:A \to A$ such that for all morphisms $a:I \to A$,
+Notice that the use of [[diagonal maps]] (Rem. \ref{UseOfDiagonalMorphism}) in Def. \ref{GroupObjectInCartesianCategory} precludes direct generalization of this definition of group objects to non-[[cartesian monoidal category|cartesian]] [[monoidal categories]], where such maps in general do not exist.
 
-$$\pi \circ (a \otimes (\iota \circ a)) = e$$
+Hence, while the [[underlying]] [[monoid object]] may generally be defined in any [[monoidal category]], the internal formulation of existence of [[inverse elements]] requires [[extra structure]], such as that of a compatible [[comonoid object]]-[[structure]] to substitute for the missing [[diagonal maps]].
 
-and
+Given this, inverses may be encoded by an *[[antipode]]* map and the resulting "monoidal group objects" are known as *[[Hopf monoids]]*. These subsume and generalize *[[Hopf algebras]]*, which are widely studied, for instance in their role as [[quantum groups]].
 
-$$\pi \circ ((\iota \circ a) \otimes a) = e$$
+Alternatively, one might impose the existence of inverses in a [[monoid object]] only on [[global elements]] $I \to G$, but it's unclear if this definition has many use-cases.
+\end{remark}
 
 ### In terms of presheaves of groups
  {#InTermsOfPresheavesOfGroups}
