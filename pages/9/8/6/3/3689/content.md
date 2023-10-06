@@ -75,10 +75,10 @@ the category [[Ab]] of abelian groups.
 ### Tangents and deformation theory
  {#TangentsAndDeformationTheory}
 
-By an old observation of Quillen -- reviewed at [[module]] -- the bifibration $Mod \to CRing$ this is [[equivalence of categories|equivalent]] to the category of fiberwise abelian [[group object]] in the [[codomain fibration]] $[I,CRing] \to CRing$:
+By an old observation of Quillen -- reviewed at [[module]] -- the bifibration $Mod \to CRing$ is [[equivalence of categories|equivalent]] to the category of fiberwise abelian [[group object]]s in the [[codomain fibration]] $[I,CRing] \to CRing$:
 
 $$
-  (Mod \to CRing) \simeq Ab([I,CRing]] \to CRing)
+  (Mod \to CRing) \simeq Ab([I,CRing] \to CRing)
   \,.
 $$
 
