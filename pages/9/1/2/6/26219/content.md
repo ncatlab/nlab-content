@@ -8,6 +8,8 @@ $$
 $$
 where $P_n,\ldots,P_1,P_0$ are [[projective object]]s in $C$.
 
+An important identity involving the projective dimension of a module of finite projective dimension over a commutative Noetherian local ring is the [[Auslander-Buchsbaum formula]].
+
 Dually, we define the injective dimension of $M$. 
 
 Id $R$ is a ring then both the category of all right $R$-modules and the category of all left $R$-modules have enough projectives. The left (right) __global dimension__ of $R$ is the supremum of projective dimensions of all left (right) $R$-modules. More generally, a __global dimension of an abelian category__ $C$ may be defined as
