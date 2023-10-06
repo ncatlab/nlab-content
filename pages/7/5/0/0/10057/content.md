@@ -44,7 +44,7 @@ as does the analogous diagram with $1\otimes s$ replaced by $s\otimes 1$.
 
 * A Hopf monoid in $Vect$ is precisely a [[Hopf algebra]].
 
-* In a [[cartesian monoidal category]], every [[monoid]] object is a bimonoid in a unique way.  Such a bimonoid is a Hopf monoid exactly when the monoid object is a [[group object]].
+* In a [[cartesian monoidal category]], every [[monoid]] object is a bimonoid in a unique way.  Such a bimonoid is a Hopf monoid exactly when the monoid object is a [[group object]]. More generally, see the corresponding remark [there](https://ncatlab.org/nlab/show/group+object#GroupObjectsInGeneralMonoidalCategories).
 
 ## Properties
 
