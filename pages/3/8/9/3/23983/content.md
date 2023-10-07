@@ -385,13 +385,14 @@ and for constant families $B:\mathcal{U}$
 
 $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\mathcal{T}_\mathcal{U}(B)}(u, v)$$
 
-## See also
-
-[[!include notions of type]]
+## Related concepts
 
 * [[two-type identity type]]
 
-* [[John Major equality]]
+* [[fibered heterogeneous identity type]]
+
+[[!include notions of type]]
+
 
 ## References
 
