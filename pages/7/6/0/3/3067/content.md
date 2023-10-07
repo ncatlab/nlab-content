@@ -45,6 +45,10 @@ Eventually these should probably have their own pages.
 
 The 2-category of symmetric pseudomonoids in a symmetric monoidal 2-category has (weak) 2-coproducts given by the tensor product of underlying objects (analogously to how the category of [[commutative monoids]] in a monoidal category has coproducts given by the tensor product of the underlying objects).  This is proven in [Schaeppi, Appendix A](#Schaeppi).
 
+## See also
+* [[pseudoaction]]
+* [[pseudomonad]]
+
 ## References 
 
 * {#StreetDay97} [[Ross Street]], [[Brian Day]], *Monoidal bicategories and Hopf algebroids*, Advances in Mathematics, **129** 1 (1997) 99-157 &lbrack;[doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649)&rbrack;
