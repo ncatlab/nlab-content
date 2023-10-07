@@ -15,31 +15,88 @@
 
 \tableofcontents
 
+## Idea
+
+A form of [[heterogeneous equality]] in [[dependent type theory]].
+
 ## Definition
+ {#Definition}
 
-Given a type $A$ and a type family $x:A \vdash B(x)$, **John Major equality** or **heterogeneous equality** is a type family indexed by $a:A$, $b:A$, $y:B(a)$, and $z:B(b)$ representing the notion of equality between elements $y$ and $z$ over the type family $x:A \vdash B(x)$. There are a few different ways to define John Major equality: 
+Given a [[type]] $A$ and an $A$-[[dependent type]] $a \colon A \;\vdash\; B(a)$, the *fibered heterogeneous identity type*  is the [[dependent type]] indexed by
 
-* as the [[dependent sum type]] of the [[heterogeneous identity type]] 
-$$\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \equiv \mathrm{Id}_{B(b)}(\mathrm{transport}_{x:A.B(x)}(a, b, p)(y), z)$$ 
-over all [[identifications]] $p:\mathrm{Id}_A(a, b)$. 
+1. a pair of parameters
 
-$$\mathrm{JMEq}_{x:A.B(x)}(a, b, y, z) \coloneqq \sum_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$$
+   $$
+     a ,\, a' \;\colon\;  A
+   $$ 
 
-* as the [[identity type]] of [[dependent pairs]] in the [[dependent sum type]] $\sum_{x:A} B(x)$
+   indexing a [[pair]] of [[fibers]] of $B$,
 
-$$\mathrm{JMEq}_{x:A.B(x)}(a, b, y, z) \coloneqq \mathrm{Id}_{\sum_{x:A} B(x)}\left(\mathrm{pair}(a, y), \mathrm{pair}(b, z)\right)$$
+1. a pair of terms of these fiber types
 
-By the extensionality property of [[dependent sum types]], these two definitions are equivalent. 
+   $$
+     b \;\colon\; B(a) 
+     ,\;\;\;\;
+     b' \;\colon\; B(a')
+   $$ 
 
-Usually, these are defined for a [[Tarski universe]] $(U, \mathrm{El})$ or a [[Russell universe]] $(U)$. Suppressing the annotations in John Major equality above, the type becomes $\mathrm{JMEq}(a, b, y, z)$, defined as one of 
+   whose "[[heterogeneous identity type|heterogeneous]]" [[identification]] is to be witnessed,
 
-$$\mathrm{JMEq}(A, B, x, y) \coloneqq \sum_{p:\mathrm{Id}_U(A, B)} \mathrm{hId}(A, B, p, y, z)$$
+and defined equivalently as follows:
 
-$$\mathrm{JMEq}(A, B, x, y) \coloneqq \mathrm{Id}_{\sum_{X:U} X}\left(\mathrm{pair}(x, A), \mathrm{pair}(y, B)\right)$$
+* &lbrack;[Winterhalter 2023](#Winterhalter23), [p. 30](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf#page=30)&rbrack; as the [[dependent sum type]] 
 
-for [[Russell universes]]
+  $$
+    fhId(a, b; a', b') 
+    \;\coloneqq\; 
+    \sum_{p \colon \mathrm{Id}_A(a, a')} 
+    \mathrm{hId}(b, p, b')
+  $$
+
+  of the [[heterogeneous identity types]] 
+  
+  $$
+   hId(b, p, b') 
+   \;\equiv\; 
+   \mathrm{Id}_{B(b)}\big(
+     p_\ast(b)
+     ,\, 
+     b'
+   \big)
+   \,,
+  $$ 
+
+  over all [[identifications]] $p \colon \mathrm{Id}_A(a, b)$, where 
+
+  $$
+    p_\ast \,\colon\, B(a) \overset{\sim}{\to} B(a')
+  $$
+
+  denotes the [[type transport]] along $p$;
+
+
+* as the [[identification type]] of [[dependent pairs]] in the [[dependent sum type]] $\sum_{x:A} B(x)$
+
+  $$
+    fhId(a, b; a', b') 
+    \;\coloneqq\; 
+    \mathrm{Id}_{\sum_{x:A} B(x)}
+    \big(
+      (a, b)
+      ,\, 
+      (a', b')
+    \big)
+    \mathrlap{\,.}
+  $$
+
+The two definitions are [[equivalence of types|equivalent]]
+due to the [extensionality property](dependent+sum+type#ExtensionalityPrinciple) of [[dependent sum types]].
 
 ### Inference rules with UIP
+ {#InferenceRulesWithUIP}
+
+> Beware that the following text writes "$\mathrm{JMEq}(a, b, x, y)$" for what [above](#Definition) is denoted $fhId(a,x; b,y)$.
+
 
 When the type theory has a [[set truncation axiom]] such as [[UIP]] or [[axiom K]], one could use one of the following [[inference rules]] to define John Major equality: 
 
@@ -171,9 +228,15 @@ Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  B
 
 ## References
 
-For better or worse, the terminology "John Major equality" was coinded in [McBride 1999 §5.1.3](#McBride99) with reference to British political discussion of that times:
+* {#McBride99} [[Conor McBride]], §5.1.3 in: *Dependently Typed Functional Programs and their Proofs*, (1999) &lbrack;[pdf](https://www.lfcs.inf.ed.ac.uk/reports/00/ECS-LFCS-00-419/ECS-LFCS-00-419.pdf)&rbrack;
 
-* {#McBride99} [[Conor McBride]], *Dependently Typed Functional Programs and their Proofs*, (1999) &lbrack;[pdf](https://www.lfcs.inf.ed.ac.uk/reports/00/ECS-LFCS-00-419/ECS-LFCS-00-419.pdf)&rbrack;
+  > (who speaks of "John Major equality" [McBride 1999 ](#McBride99) with reference to British political discussion of that times)
 
 * {#Winterhalter23} [[Théo Winterhalter]], *A conservative and constructive translation from extensional type theory to weak type theory*, Strength of Weak Type Theory, [[DutchCATS]], 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf))
+
+[[!redirects John Major equality]]
+
+
+[[!redirects fibered heterogeneous identity types]]
+
 
