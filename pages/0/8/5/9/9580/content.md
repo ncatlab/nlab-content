@@ -1,4 +1,7 @@
 
+> *This page is about actions of tensor categories.
+> For [[categories of modules]] or [[actegory|actions of monoidal categories]], see there.*
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,38 +18,8 @@
 {:toc}
 
 ## Idea
-
-By **module category** may be meant 
-
-1. a [[category]] equipped with an [[action]] of a [[monoidal category]] (more commonly called *[[actegory]]*),
-
-1. a [[category of modules]] of a [[monoid]] (e.g. an [[associative algebra]]),
-
-1. a [[linear category]] equipped with an action of a [[tensor linear category]] (basically the first bullet point but in the $K\mathbf{Mod}$-[[enriched category|enriched]] setting).
-
-Here we consider the first sense. For the second, see at *[[category of modules]]*.
-
-
-The collection of module categories over a monoidal category forms a [[2-category]] of module categories.
-
-
-## Definition
-
-Let $\mathcal{M}$ be a monoidal category and $B\mathcal{M}$ its [[delooping]] as a [[bicategory]]. A (left) module category is then simply a [[2-functor]] $B\mathcal{M} \to Cat$.
-
-Written out, this amounts to:
-
-* A category $\mathcal{C}$
-* A monoidal functor $\mathcal{M} \to End(\mathcal{C})$
-
-Further expanding this definition, we have the following data:
-
-* A category $\mathcal{C}$
-* A functor $- \triangleright -\colon \mathcal{M} \times \mathcal{C} \to \mathcal{C}$
-* A natural isomorphism $\alpha_{A,B,X}\colon A \triangleright (B \triangleright X) \to (A \otimes B) \triangleright X$ satisfying a pentagon axiom involving the associator of $\mathcal{M}$
-* A natural isomorphism $\lambda_X\colon I \triangleright X \to X$, where $I$ is the monoidal unit of $\mathcal{M}$, compatible with the left unitor of $\mathcal{M}$.
-
-An obvious example is given by a monoidal category, which has an action on itself by left multiplication.
+A **module category** is a [[linear category]] equipped with an action of a [[tensor linear category]].
+That is, a module category is an [[actegory]] [[enriched category|enriched]] in $K\mathbf{Mod}$, or a [[pseudoaction]] in $K\mathbf{Mod}$-$\mathbf{Cat}$.
 
 ## Related concepts
 
@@ -64,11 +37,7 @@ An obvious example is given by a monoidal category, which has an action on itsel
 
 ## References
 
-For instance
-
-* [[G. Janelidze]], [[G.M. Kelly]], _A note on actions of a monoidal category_, Theory and Applications of Categories, Vol. 9, No. 4, 2001, pp. 61&#8211;91, [pdf](http://www.tac.mta.ca/tac/volumes/9/n4/n4.pdf).
-
-* [[Robert Gordon]], [[A.J. Power]], _Enrichment through variation_, J. Pure Appl. Algebra 120 (1997), 167-185.
+* Victor Ostrik, _Module categories, weak Hopf algebras and modular invariants_, ([doi](https://doi.org/10.1007/s00031-003-0515-6)), Transformation Groups, p.177-206, vol. 8, 2003, ([arXiv:0111139](https://arxiv.org/abs/math/0111139))
 
 * {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
