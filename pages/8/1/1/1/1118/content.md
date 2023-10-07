@@ -129,8 +129,6 @@ Notice that the use of [[diagonal maps]] (Rem. \ref{UseOfDiagonalMorphism}) in D
 Hence, while the [[underlying]] [[monoid object]] may generally be defined in any [[monoidal category]], the internal formulation of existence of [[inverse elements]] requires [[extra structure]], such as that of a compatible [[comonoid object]]-[[structure]] to substitute for the missing [[diagonal maps]].
 
 Given this, inverses may be encoded by an *[[antipode]]* map and the resulting "monoidal group objects" are known as *[[Hopf monoids]]*. These subsume and generalize *[[Hopf algebras]]*, which are widely studied, for instance in their role as [[quantum groups]].
-
-Alternatively, one might impose the existence of inverses in a [[monoid object]] only on [[global elements]] $I \to G$, but it's unclear if this definition has many use-cases.
 \end{remark}
 
 ### In terms of presheaves of groups
