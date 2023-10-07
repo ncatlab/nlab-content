@@ -1,5 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
-**Pseudoactions** are categorified [[actions]]. In other words, they are coherent actions of [[pseudomonoid]]s.
+**Pseudoactions** are [[categorification|categorified]] [[actions]]. In other words, they are coherent actions of [[pseudomonoids]].
 
 ## Examples
 1. A pseudomonoid in $(\mathbf{Cat}, 1, \times)$ is exactly a [[monoidal category]]. The pseudoaction of a monoidal category on a category is an [[actegory]].
