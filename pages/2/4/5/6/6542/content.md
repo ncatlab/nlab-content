@@ -310,6 +310,6 @@ Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler 
 
 
 [[!redirects Euler classes]]
-
+[[!redirects Euler characteristic class]]
 [[!redirects Euler form]]
 [[!redirects Euler forms]]
