@@ -91,5 +91,6 @@ See also:
 
 * Oleksandr Manzyk, _A-infinity-bimodules and Serre A-infinity-functors_, dissertation [pdf](https://kluedo.ub.uni-kl.de/files/1910/dissertation.pdf), [djvu](https://kluedo.ub.uni-kl.de/files/1910/dissertation.djvu);  _Serre $A_\infty$ functors_, talk at Categories in geometry and math. physics, Split 2007, slides, [pdf](http://www.irb.hr/korisnici/zskoda/manzyukslides.pdf), work with [[Volodymyr Lyubashenko]]
 * Volodymyr Mazorchuk, Vanessa Miemietz, _Serre functors for Lie algebras and superalgebras_
+* [[Sefi Ladkani]], _Categorification of a linear algebra identity and factorization of Serre functors_,  Mathematische Zeitschrift __285__ (2017) 879--896 [doi](https://doi.org/10.1007/s00209-016-1731-9)
 
 [[!redirects Serre functors]]
