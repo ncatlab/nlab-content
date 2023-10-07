@@ -14,7 +14,7 @@ If $\langle -,-\rangle$ is nondegenerate then it follows that $A$ is torsion fre
 
 ## Examples
 
-...talk about [[Euler form]] on the [[Grothendieck group]] of a suitable Abelian or triangulated category. In particular, about the Coxeter transformation induced by [[Serre duality]]. 
+...talk about [[Euler bilinear form]] on the [[Grothendieck group]] of a suitable Abelian or triangulated category. In particular, about the Coxeter transformation induced by [[Serre duality]]. 
 
 ...Auslander-Reiten translation induces Coxeter transformation...
 
