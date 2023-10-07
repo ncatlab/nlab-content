@@ -30,7 +30,7 @@ where $k$ is the [[ground field]]. Notice that such a formulation of Koszul dual
 
 ## Remarks
 
-Moore was one of the people who studied the subject of 'differential coalgebra', including twisting cochains, in the 1960s and 1970s and gave a survey of the area during his ICM address.
+John C. Moore was one of the people who studied the subject of 'differential coalgebra', including twisting cochains, in the 1960s and 1970s and gave a survey of the area during his ICM address.
 
 There are variants of the notion of twisting cochain in a variety of other contexts.
 
