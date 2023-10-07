@@ -247,6 +247,9 @@ Establishing the [[syntax-semantics duality|syntax/semantics]] [[relation betwee
 
 * {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], Part I of: *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
 
+A proof that a cartesian closed category is [[poset|posetal]] if it satisfies an equality of morphisms not satisfied in a free cartesian closed category:
+
+* Kosta Dosen, and Zoran Petric. _The maximality of the typed lambda calculus and of cartesian closed categories_ (1999), ([arXiv:math/9911073](https://arxiv.org/abs/math/9911073))
 
 
 [[!redirects cartesian closed]]
