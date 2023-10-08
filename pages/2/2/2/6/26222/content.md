@@ -30,6 +30,8 @@ If $A$ is a bilinear lattice then $ \tau$ belongs to the center of $Aut(A)$.
 * Andrzej Mróz,  José Antonio de la Peña, _Periodicity in bilinear lattices and the Coxeter formalism_, [doi](https://doi.org/10.1016/j.laa.2015.11.021)
 * Xinhong Chen, Ming Lu, _Coxeter transformations of the derived categories of coherent sheaves_, Journal of Algebra __399__ (2014) 79-101 [DOI](https://doi.org/10.1016/j.jalgebra.2013.10.003)
 * [[Sefi Ladkani]], _On the periodicity of Coxeter transformations and the non-negativity of their Euler forms_, [pdf](https://www.math.uni-bonn.de/people/sefil/Papers/coxhered.pdf)
+*  Michael Barot, Dirk Kussin, Helmut Lenzing, _The Grothendieck group of a cluster category_, 
+arXiv:[math.RT/0606518](https://arxiv.org/abs/math/0606518)
 
 [[!redirects Coxeter element]]
 [[!redirects bilinear lattice]]
