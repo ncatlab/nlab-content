@@ -18,13 +18,14 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The *quantum IO monad* ([Altenkirch & Green (2010)](#AltenkirchGreen10)) is a [[monad in computer science]] (implemented in [[Haskell]]) which provides in/output specification for [[quantum computation]] with [[qbits]].
+The *quantum IO monad* &lbrack;[Altenkirch & Green (2010)](#AltenkirchGreen10)&rbrack; is a [[monad in computer science]] (implemented in [[Haskell]]) which means to model the control of a classical computer over a [[quantum computation]]-device that it is connected to: Much like the classical [[IO monad]] (or generally a [[state monad]]) models the effects of writing to and reading from an external device, so the quantum IO monad means to model the effect of instructing a quantum device to prepare a [[qbit]]-state or to read out ([[quantum measurement|measure]]) that qbit state, etc.
 
 ## Related concepts
 
