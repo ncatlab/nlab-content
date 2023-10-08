@@ -189,7 +189,7 @@ Discussion of bunched logic with the [[linear logic]]-part regarded as a [[quant
 
 A bunched [[dependent type theory]], to some extent:
 
-* {#SchöppStark04} [[Ulrich Schöpp]], [[Ian Stark]], *A Dependent Type Theory with Names and Binding*, Computer Science Logic. CSL 2004. Lecture Notes in Computer Science **3210** (2004) &lbrack;[doi:10.1007/978-3-540-30124-0_20](https://doi.org/10.1007/978-3-540-30124-0_20)&rbrack;
+* {#SchöppStark04} [[Ulrich Schöpp]], [[Ian Stark]], *A Dependent Type Theory with Names and Binding*, in *Computer Science Logic. CSL 2004*, Lecture Notes in Computer Science **3210** (2004) 235–249 &lbrack;[doi:10.1007/978-3-540-30124-0_20](https://doi.org/10.1007/978-3-540-30124-0_20), [web](https://homepages.inf.ed.ac.uk/stark/names+binding.html)&rbrack;
 
 
 Further refinement to *dependent bunches*  for a [[dependent linear types|dependent linear]] [[homotopy type theory|homotopy types]]:    
