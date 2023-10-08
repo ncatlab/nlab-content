@@ -756,7 +756,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 13 Sep 2022
+* {#RileySep2022} 13 Sep 2022
   {#InitialResearcherMeeting-Riley}
 
   [[Mitchell Riley]] (NYU Abu Dhabi, [[CQTS]]):
