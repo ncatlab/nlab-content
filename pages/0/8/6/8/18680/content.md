@@ -293,37 +293,47 @@ Proposals for a genuine [[syntax]] for dependent linear type theory:
 
 * {#Lundfall17} [[Martin Lundfall]], *Models of linear dependent type theory*, 2017 ([[LundfallModelsOfLinerDTT.pdf:file]])
 
-* {#Lundfall18} [[Martin Lundfall]], _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
+* {#Lundfall18} [[Martin Lundfall]], _A diagram model of linear dependent type theory_ &lbrack;[arXiv:1806.09593](https://arxiv.org/abs/1806.09593)&rbrack;
 
   > (with [[homotopy type theory]]-aspects)
 
-* Robert Atkey, _Syntax and semantics of quantitative type theory_.  In LICS '18: 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, July 9--12, 2018, Oxford, United Kingdom. 2018.  DOI: [10.1145/3209108.3209189](https://dl.acm.org/doi/10.1145/3209108.3209189)
+* [[Conor McBride]], *I Got Plenty o’ Nuttin’*, in: *A List of Successes That Can Change the World*, Lecture Notes in Computer Science **9600**, Springer (2016) &lbrack;[doi:10.1007/978-3-319-30936-1_12](https://doi.org/10.1007/978-3-319-30936-1_12)&rbrack;
+
+* [[Robert Atkey]], *Syntax and semantics of quantitative type theory*, in *33rd Annual ACM/IEEE Symposium on Logic in Computer Science*, LICS (2018) 56–65 &lbrack;[doi:10.1145/3209108.3209189](https://dl.acm.org/doi/10.1145/3209108.3209189)&rbrack;
+
+* [[Mike Shulman]], _A type theory for fibred functors and polynomials_, unfinished note (2018)  &lbrack;[pdf](http://home.sandiego.edu/~shulman/papers/functors.pdf)&rbrack;
+
+* [[Benjamin Moon]], [[Harley Eades III]], [[Dominic Orchard]], *Graded Modal Dependent Type Theory*. In: N. Yoshida (ed.) *Programming Languages and Systems ESOP 2021*, Lecture Notes in Computer Science **12648**, Springer (2021) 462-490 &lbrack;[doi:10.1007/978-3-030-72019-3_17](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)&rbrack;
 
 
+(Detailed critical discussion of most of these previous proposals is given in [Riley 2022, §1.7](#Riley22Thesis) [p. 90](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=90), see also brief comments in [Riley 2022b](#Riley22), [p. 22](https://ncatlab.org/nlab/files/CQTS-InitialResearcherMeeting-Riley-220913.pdf#page=22)).
 
-
-* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
-
-* [[Mitchell Riley]], *Extending Homotopy Type Theory with Linear Type Formers*, talk at *The ForML Lab* (2021)  &lbrack;[web](https://the-au-forml-lab.github.io/colloquium_talks/Riley.html), [video](https://www.youtube.com/watch?v=sPxtdCtjSDc)&rbrack;
+A satisfactory dependent [[linear homotopy type theory]] is given in
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
   > (using ideas from [[bunched logic]])
 
+based on
+
+* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
+
+Exposition:
+
+* [[Mitchell Riley]], *Extending Homotopy Type Theory with Linear Type Formers*, talk at *The ForML Lab* (2021)  &lbrack;[web](https://the-au-forml-lab.github.io/colloquium_talks/Riley.html), [video](https://www.youtube.com/watch?v=sPxtdCtjSDc)&rbrack;
+
 * {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), [[Riley-LHoTT-talk.pdf:file]], video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
 
   > **Abstract.** Some ∞-toposes support constructions that are inherently 'linear', such as the external smash product of parameterised spectra. These cannot be added axiomatically to ordinary HoTT, because there is no way to enforce this linearity: there are no restrictions on variable uses. This talk describes an extension of HoTT with linear tensor and hom type formers, as a kind of 'binary modality' and its right adjoint. Trying to stay compatible with existing results in HoTT naturally leads us to a novel kind of bunched dependent type theory. Our type theory is intended to be as human-usable as possible, with an eye towards synthetic stable homotopy theory.
 
-* [[Mitchell Riley]], *Dependent Type Theories à la Carte*, talk at *[[CQTS]] Initial Researcher's Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]&rbrack;
+* {#Riley22} [[Mitchell Riley]], *Dependent Type Theories à la Carte*, [talk at](Center+for+Quantum+and+Topological+Systems#RileySep2022) *[[CQTS]] Initial Researcher's Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]&rbrack;
 
 * [[Mitchell Riley]], *[[schreiber:Quantum Certification via Linear Homotopy Types|A Linear Dependent Type Theory with Identity Types as a Quantum Verification Language]]* (2023) &lbrack;[pdf](https://mvr.hosting.nyu.edu/pubs/translation.pdf), [[Riley-QuantumCertification.pdf:file]]&rbrack;
 
   > (translation between `LHoTT` and the proto-[[nLab:Quipper|`Quipper`]] of [Fu, Kishida & Selinger 2020](Quipper#FuKishidaSelinger20))
 
 
-* Benjamin Moon, Harley Eades III, Dominic Orchard, _Graded Modal Dependent Type Theory_. In: Yoshida N. (eds) Programming Languages and Systems. ESOP 2021. Lecture Notes in Computer Science, vol 12648. Springer, Cham [doi](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)
 
-* [[Mike Shulman]], _A type theory for fibred functors and polynomials_.  Unfinished note, 2018.  [pdf](http://home.sandiego.edu/~shulman/papers/functors.pdf)
 
 Potential semantics for dependent linear type theory and linear homotopy type theory are discussed in
 
@@ -335,6 +345,7 @@ Potential semantics for dependent linear type theory and linear homotopy type th
 
 * {#Schreiber14} [[Urs Schreiber]], *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
 
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Entanglement of Sections]]* &lbrack;[arXiv:2309.07245](https://arxiv.org/abs/2309.07245)&rbrack;
 
 As a [[quantum programming language]]:
 
