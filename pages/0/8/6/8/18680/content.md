@@ -278,6 +278,8 @@ More recent work in the type-theoretic literature includes:
 
 Proposals for a genuine [[syntax]] for dependent linear type theory:
 
+* {#SchöppStark04} [[Ulrich Schöpp]], [[Ian Stark]], *A Dependent Type Theory with Names and Binding*, in *Computer Science Logic. CSL 2004*, Lecture Notes in Computer Science **3210** (2004) 235–249 &lbrack;[doi:10.1007/978-3-540-30124-0_20](https://doi.org/10.1007/978-3-540-30124-0_20), [web](https://homepages.inf.ed.ac.uk/stark/names+binding.html)&rbrack;
+
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
 * {#VakarSlides14} [[Matthijs Vákár]], _Splitting the Atom of Dependent Types... or Linear and Operational Dependent Type Theory_, talk at Oxford, November 2014 ([[VakarLinearAndOperationalDTT.pdf:file]]) 
@@ -286,7 +288,7 @@ Proposals for a genuine [[syntax]] for dependent linear type theory:
 
 * {#Vakar17} [[Matthijs Vákár]], Section 3 of: *In Search of Effectful Dependent Types* ([arXiv:1706.07997](https://arxiv.org/abs/1706.07997), [uuid:e91e19b3-7e10-4fda-9433-f23b469e4049](https://ora.ox.ac.uk/objects/uuid:e91e19b3-7e10-4fda-9433-f23b469e4049))
 
-* {#KPB15} [[Neelakantan Krishnaswami]], Pierre Pradic, [[Nick Benton]], _Integrating Dependent and Linear Types_, POPL 15  ([pdf](https://www.cl.cam.ac.uk/~nk480/dlnl-paper.pdf))
+* {#KPB15} [[Neelakantan Krishnaswami]], [[Pierre Pradic]], [[Nick Benton]], *Integrating Dependent and Linear Types*,  ACM SIGPLAN Notices **50** 1 (2015)  17–30  &lbrack;[pdf](https://www.cl.cam.ac.uk/~nk480/dlnl-paper.pdf),  [doi:10.1145/2775051.2676969](https://doi.org/10.1145/2775051.2676969)&rbrack;
 
 
 * {#Lundfall17} [[Martin Lundfall]], *Models of linear dependent type theory*, 2017 ([[LundfallModelsOfLinerDTT.pdf:file]])
@@ -297,7 +299,8 @@ Proposals for a genuine [[syntax]] for dependent linear type theory:
 
 * Robert Atkey, _Syntax and semantics of quantitative type theory_.  In LICS '18: 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, July 9--12, 2018, Oxford, United Kingdom. 2018.  DOI: [10.1145/3209108.3209189](https://dl.acm.org/doi/10.1145/3209108.3209189)
 
-* Ulrich Schöpp and Ian Stark, _A Dependent Type Theory with Names and Binding_, In Computer Science Logic: Proceedings of the 18th International Workshop CSL 2004, Karpacz, Poland, September 20–24, 2004, Lecture Notes in Computer Science 3210, pages 235–249. Springer-Verlag.  [web](https://homepages.inf.ed.ac.uk/stark/names+binding.html)
+
+
 
 * {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
 
