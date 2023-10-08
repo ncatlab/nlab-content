@@ -43,6 +43,11 @@ A formal framework for type theories with a collection of modalities is in
 
 * [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
 
+On [[dependent linear types]] and [[graded modalities]]:
+
+* [[Benjamin Moon]], [[Harley Eades III]], [[Dominic Orchard]], *Graded Modal Dependent Type Theory*. In: N. Yoshida (ed.) *Programming Languages and Systems ESOP 2021*, Lecture Notes in Computer Science **12648**, Springer (2021) 462-490 &lbrack;[doi:10.1007/978-3-030-72019-3_17](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)&rbrack;
+
+
 For discussion in [[philosophy]] and linguistics, see
 
 * Patrick Grosz, _Grading Modality: A New Approach to Modal Concord and its Relatives_, ([paper](https://www.univie.ac.at/sub14/proc/grosz.pdf))
