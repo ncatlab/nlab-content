@@ -82,6 +82,7 @@ such that for $X, Y, Z \colon \mathbf J$ and $k \colon J X \to T Y$ the followin
    for every $k \colon J X \to T Y$ and $\ell \colon J Y \to T Z$.
 
 \end{definition}
+&lbrack;[ACU14, Def. 2.1](#ACU14)&rbrack;
 
 Notice that for any $f \colon X \to Y$ in $\mathbf J$, one has
 \[
