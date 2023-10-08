@@ -5,10 +5,13 @@ The terminology is allegedly due [[Claus Michael Ringel]].
 
 If $C$ a $k$-linear [[abelian category]] such that $dim(Ext^i(M,N))\lt \infty$ for all $i$ and all objects $M,N$ in $C$, then the Euler form is a $\mathbf{Z}$-bilinear form $\langle -,-\rangle : K_0(C)\times K_0(C)\to\mathbf{Z}$ defined by
 $$
-\langle [M],[N]\rangle = \sum_{i\geq 0} (-1)^i dim(Ext^i(M,N)).
+\langle [M],[N]\rangle = \sum_{i\geq 0} (-1)^i dim_k(Ext^i(M,N)).
 $$
-
+Similarly, for suitable $k$-linear [[triangulated category]] $D$ one sets
+$$
+\langle [M],[N]\rangle = \sum_{i\geq 0} (-1)^i dim_k(Hom_D(M,\Sigma^i N))
+$$
 
 ## Literature
 
-...
+* C. Geiß, _Derived tame algebras and Euler-forms_, Math Z. __239__ (2002) 829--862 [doi](https://doi.org/10.1007/s002090100349)
