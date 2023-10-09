@@ -43,7 +43,10 @@ This construction is sometimes viewed (see [HP07](#HP07), and at *[[Eff]]*) as a
 
 The following Def. \ref{MonadTransformer} is essentially the notion in [Liang, Hudak & Jones 1995, left column of p. 339 ](#LiangHudakJones95), as now commonly used in [[Haskell]] (see the *[Haskell Transformer class](https://hackage.haskell.org/package/transformers-0.5.6.2/docs/Control-Monad-Trans-Class.html#g:1)*).
 
-> These authors, and the [[functional programming]]/[[Haskell]]-community following them, insist that "$trans_{(\text{-})}$" (eq:UnderlyingNaturalTransformation) --- which they denote "$lift \text{-}$" ---  is not just a transformation between a single pair of monads, but a component a [[pointed endofunctor]] on the whole category of monads. This further condition may be considered (or not) in addition to the following discussion.
+\begin{remark}
+\label{PointedEndofunctorConditionOrNot}
+These authors, and the [[functional programming]]/[[Haskell]]-community following them, insist that "$trans_{(\text{-})}$" (eq:UnderlyingNaturalTransformation) --- which they denote "$lift \text{-}$" ---  is not just a transformation between a single pair of monads, but a component a [[pointed endofunctor]] on the whole category of monads. This further condition may be considered (or not) in addition to the following discussion.
+\end{remark}
 
 \begin{definition}
 \label{MonadTransformer}
@@ -108,7 +111,8 @@ which
 In [Schrijvers, Piróg, Wu & Jaskelioff 2019 p. 99](#SchrijversPirógWuJaskelioff19) the analogous condition is stated in terms of the join-operation. We may check that these are equivalent:
 
 \begin{proposition}
-  A system of transformations $trans_D \,\colon\, \mathcal{E}(D) \to \mathcal{E}'(D)$ is a monad transformer in the sense of Def. \ref{MonadTransformer} iff it is a [homomorphism of monads](monad#TransformationOfMonadsOnFixedCategory) (in the original sense of [Maranda 1966](monad#Maranda66)), i.e.: 
+\label{EquivalenceOfDefinitions}
+  A system of transformations $trans_D \,\colon\, \mathcal{E}(D) \to \mathcal{E}'(D)$ is a monad transformer in the sense of Def. \ref{MonadTransformer} (cf. Rem. \ref{PointedEndofunctorConditionOrNot}) iff it is a [homomorphism of monads](monad#TransformationOfMonadsOnFixedCategory) (in the original sense of [Maranda 1966](monad#Maranda66)), i.e.: 
 
 1. a [[natural transformation]] $\trans \,\colon\, \mathcal{E} \to \mathcal{E}'$ of the [[underlying]] [[functors]],
 
