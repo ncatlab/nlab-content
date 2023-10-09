@@ -7,6 +7,10 @@
 
 * [Guitart's articles on Numdam](http://numdam.mathdoc.fr/numdam-bin/recherche?format=short&h=aur&f=1&n=30&bibitems.au_op=and&bibitems.text_op=and&aur=Guitart,+Ren%E9&ti_op=and&bibitems.ti_op=and&au_op=and)
 
+## Related entries
+
+* [[relative pseudomonad]]
+
 [[!redirects Rene Guitart]]
 [[!redirects Guitart]]
 
