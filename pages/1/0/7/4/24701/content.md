@@ -46,6 +46,9 @@ for types $\mathrm{isContr}(A):\mathrm{Type}_i$ and $\sum_{x:A} \prod_{y:A} \mat
 $$\mathrm{defisContr}_A:\mathrm{isContr}(A) \simeq \sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)$$
 This poses another problem: the [[equivalence type]] $A \simeq B$ has not yet been defined yet; neither has [[isEquiv]] or the [[uniqueness quantifier]] been defined yet either, since all of them involve first defining [[isContr]]. When expanded fully out using only the types defined through rules: [[identity types]], [[dependent function types]], [[function types]], and [[dependent sum types]], one gets this rather unwieldy expression for any equivalence type between types $A$ and $B$:
 $$\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)$$
+
+There are two ways to define equivalence types $A \simeq B$. 
+
 For defining isContr, the expression is the following:
 $$\mathrm{defisContr}_A:\sum_{f:\mathrm{isContr}(A) \to \sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)} \prod_{y:\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)} \sum_{p:\sum_{x:\mathrm{isContr}(A)} \mathrm{Id}_{\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)}(f(x), y)} \prod_{q:\sum_{x:\mathrm{isContr}(A)} \mathrm{Id}_{\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)}(f(x), y)} \mathrm{Id}_{\sum_{x:\mathrm{isContr}(A)} \mathrm{Id}_{\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)}(f(x), y)}(p, q)$$
 Having done that, we could replace all instances of $\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)$ with $\mathrm{isContr}(A)$ in the expression for equivalence types, to get 
@@ -62,7 +65,102 @@ for equivalence types, and finally [[equivalence types]]:
 $$\def_{A \simeq B}:\sum_{f:(A \simeq B) \to \sum_{g:A \to B} \mathrm{isEquiv}(g)} \mathrm{isEquiv}(f)$$
 resulting in $A \simeq B$ for equivalence types.
 
-To avoid having to write out very complicated types, such as for publication on physical paper, one could postulate a single equality judgment between types $A \equiv B \; \mathrm{type}$ which reflects into an equivalence:
+We could instead unpack the type, 
+$$\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)$$
+where one gets 
+
+* a function $f:A \to B$, 
+
+* for all $y:B$, a family of elements $p:\sum_{x:A} \mathrm{Id}_B(f(x), y)$
+
+* for all $y:B$ and $q:\sum_{x:A} \mathrm{Id}_B(f(x), y)$, an identification of type $\mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)$
+
+This could be further broken down into 
+
+* a family of elements $x:A \vdash f(x):B$, 
+
+* for all $y:B$, a family of elements $f^{-1}(y)$
+
+* for all $y:B$, a family of identifications $\mathrm{sec}_f(y):\mathrm{Id}_B(f(f^{-1}(y)), y)$
+
+* for all $y:B$, $x:A$, and $p:\mathrm{Id}_B(f(x), y)$, an identificaiton of type $\mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}((f^{-1}(y), \mathrm{sec}_f(y)), (x, p))$
+
+By the extensionality principle of [[dependent sum types]], there is an equivalence between the types
+
+$$\mathrm{Id}_{\sum_{x:A} B(x)}((a, b), (a', b'))$$
+
+and
+
+$$\sum_{p:a =_A a'} \mathrm{hId}(a, a', p, b, b')$$
+
+by the function 
+
+$$\mathrm{sigmaIdToId}(a, a', b, b'):\sum_{p:a =_A a'} \mathrm{hId}(a, a', p, b, b') \to \mathrm{Id}_{\sum_{x:A} B(x)}((a, b), (a', b'))$$
+
+inductively defined by 
+
+$$\beta(a, b):\mathrm{Id}_{\mathrm{Id}_{\sum_{x:A} B(x)}((a, b), (a, b))}(\mathrm{sigmaIdToId}(a, a, b, b)(\mathrm{refl}_A(a), \mathrm{hrefl}_A(a, b)), \mathrm{refl}_{\sum_{x:A} B(x)}(a, b))$$
+
+When applied to this case, with types
+
+$$\mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}((f^{-1}(y), \mathrm{sec}_f(y)), (x, p))$$
+
+and 
+
+$$\sum_{q:\mathrm{Id}_A(f^{-1}(y), x)} \mathrm{hId}(f^{-1}(y), x, q, \mathrm{sec}_f(y), p)$$
+
+it results in 
+
+* a family of elements $x:A \vdash f(x):B$, 
+
+* a family of elements $y:B \vdash f^{-1}(y):A$
+
+* a family of identifications $y:B \vdash \mathrm{sec}_f(y):\mathrm{Id}_B(f(f^{-1}(y)), y)$
+
+* a family of identifications $y:B, x:A, p:\mathrm{Id}_B(f(x), y) \vdash \mathrm{adj}_f(y, x, p):\mathrm{Id}_A(f^{-1}(y), x)$
+
+* a family of heterogeneous identifications 
+$$y:B, x:A, p:\mathrm{Id}_B(f(x), y) \vdash \mathrm{coh}_f(y, x, p):\mathrm{hId}(f^{-1}(y), x, \mathrm{adj}_f(y, x, p), \mathrm{sec}_f(y), p)$$
+
+Thus, one gets the equivalence
+
+$$\lambda f:A \to B.\lambda y:B.((f(x), \mathrm{sec}_f(y)), \lambda x:A.\lambda p:\mathrm{Id}_B(f(x), y).\mathrm{sigmaIdToId}(f^{-1}(y), x, \mathrm{sec}_f(y), p)(\mathrm{adj}_f(y, x, p), \mathrm{coh}_f(y, x, p))):\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)$$
+
+Thus, for defining isContr, it is sufficient to define 
+
+* a family of elements 
+$$x:\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b) \vdash \mathrm{defisContr}_A(x):\mathrm{isContr}(A)$$ 
+
+* a family of elements 
+$$y:\mathrm{isContr}(A) \vdash \mathrm{defisContr}_A^{-1}(y):\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)$$
+
+* a family of identifications 
+$$y:\mathrm{isContr}(A) \vdash \mathrm{secdefisContr}_A(y):\mathrm{Id}_{\mathrm{isContr}(A)}(\mathrm{defisContr}_A(\mathrm{defisContr}_A^{-1}(y)), y)$$
+
+* a family of identifications 
+$$y:\mathrm{isContr}(A), x:\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b), p:\mathrm{Id}_{\mathrm{isContr}(A)}(f(x), y) \vdash \mathrm{adjdefisContr}_A(y, x, p):\mathrm{Id}_{\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)}(f^{-1}(y), x)$$
+
+* a family of heterogeneous identifications 
+$$y:\mathrm{isContr}(A), x:\sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b), p:\mathrm{Id}_{\mathrm{isContr}(A)}(f(x), y) \vdash \mathrm{cohdefisContr}_A(y, x, p):\mathrm{hId}(\mathrm{defisContr}_A^{-1}(y), x, \mathrm{adjdefisContr}_A(y, x, p), \mathrm{secdefisContr}_A(y), p)$$
+
+Similarly, for defining equivalence types $A \simeq B$, it is sufficient to define
+
+* a family of elements 
+$$x:\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q) \vdash \mathrm{defequiv}_{A, B}(x):A \simeq B$$ 
+
+* a family of elements 
+$$y:A \simeq B \vdash \mathrm{defequiv}_{A, B}^{-1}(y):\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)$$
+
+* a family of identifications 
+$$y:A \simeq B \vdash \mathrm{secdefequiv}_{A, B}(y):\mathrm{Id}_{A \simeq B}(\mathrm{defequiv}_{A, B}(\mathrm{defequiv}_{A, B}^{-1}(y)), y)$$
+
+* a family of identifications 
+$$y:A \simeq B, x:\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q), p:\mathrm{Id}_{A \simeq B}(f(x), y) \vdash \mathrm{adjdefequiv}_{A, B}(y, x, p):\mathrm{Id}_{\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)}(f^{-1}(y), x)$$
+
+* a family of heterogeneous identifications 
+$$y:A \simeq B, x:\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q), p:\mathrm{Id}_{A \simeq B}(f(x), y) \vdash \mathrm{cohdefequiv}_{A, B}(y, x, p):\mathrm{hId}(\mathrm{defequiv}_{A, B}^{-1}(y), x, \mathrm{adjdefeqiv}_{A, B}(y, x, p), \mathrm{secdefequiv}_{A, B}(y), p)$$
+
+Regardless, to avoid having to write out very complicated types, such as for publication on physical paper, one could postulate a single equality judgment between types $A \equiv B \; \mathrm{type}$ which reflects into an equivalence:
 $$\frac{\Gamma \vdash B \equiv A \; \mathrm{type}}{\Gamma \vdash \mathrm{def}_{A, B}:\sum_{f:A \to B} \prod_{y:B} \sum_{p:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \prod_{q:\sum_{x:A} \mathrm{Id}_B(f(x), y)} \mathrm{Id}_{\sum_{x:A} \mathrm{Id}_B(f(x), y)}(p, q)}$$
 A similar equality judgment could be made for terms, with a similar rule to reflect it into an identification:
 $$\frac{\Gamma \vdash b \equiv a:A}{\Gamma \vdash \mathrm{def}_{A, a, b}:\mathrm{Id}_A(a, b)}$$
