@@ -490,7 +490,7 @@ Since it is evident that composite monad transformations give composite such fun
   \mathcal{E} &\mapsto& \mathbf{C}_{\mathcal{E}}
 \end{tikzcd}
 
-This is probably the functor alluded to in [Linton 1969, Lem. 10.2](#Linton69). 
+This is probably the functor alluded to in [Linton 1969, Lem. 10.2](monad#Linton69). 
 \end{remark}
 
 ## Related concepts
