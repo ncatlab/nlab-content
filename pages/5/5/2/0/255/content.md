@@ -760,7 +760,7 @@ Further original texts:
 
 * {#Maranda68} [[Jean-Marie Maranda]], *Sur les Proprietes Universelles des Foncteurs Adjoints*,  In: *Études sur les Groupes abéliens* / *Studies on Abelian Groups* Springer (1968) &lbrack;[doi:10.1007/978-3-642-46146-0_16](https://doi.org/10.1007/978-3-642-46146-0_16)&rbrack;
 
-* [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+* {#Linton69} [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
 * {#Frei69} [[Armin Frei]], *Some remarks on triples*, Mathematische Zeitschrift **109** (1969) 269–272 &lbrack;[doi:10.1007/BF01110118](https://doi.org/10.1007/BF01110118)&rbrack;
 
