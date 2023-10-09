@@ -383,7 +383,7 @@ Overview:
 
 * [[Denis-Charles Cisinski]], _Cat&#233;gories sup&#233;rieures et th&#233;orie des topos_, S&#233;minaire Bourbaki, 21.3.2015, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/1097.pdf).
 
-* [[Charles Rezk]], _Lectures on Higher Topos Theory_, Leeds 2019 ([pdf](https://faculty.math.illinois.edu/~rezk/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]])
+* {#Rezk19} [[Charles Rezk]], _Lectures on Higher Topos Theory_, Leeds (2019) &lbrack;[pdf](https://rezk.web.illinois.edu/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]]&rbrack;
 
 
 A useful collection of facts of [[simplicial homotopy theory]] and [[(infinity,1)-topos theory]] is in
