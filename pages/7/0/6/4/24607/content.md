@@ -134,6 +134,8 @@ See also [Valera (2023)](#Valera23).
 
 ## Related concepts
 
+* [[superdense coding]]
+
 * [[quantum entanglement]]
 
 * [[measurement-based quantum computation]]
