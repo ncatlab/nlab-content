@@ -424,7 +424,7 @@ As shown, this respects the [free-module](algebra+over+a+monad#FreeAlgebras) fun
   \mathcal{E}(D_2)
 \end{tikzcd}
 
-because the following [[commuting diagram|diagram commutes]]:
+because the following [[pasting diagram]] [[commuting diagram|commutes]] (the left square by (eq:RespectForReturnOperation), the right square by [[natural transformation|naturality]], see [above](#NaturalityFollows)):
 
 \begin{tikzcd}[sep=20pt]
     D_1
