@@ -376,7 +376,7 @@ For any [[Lawvere theory]] $T$, its category of models is the category
 $$Prod(T, Set)$$
 of product preserving functors into $Set$ and natural transformations between them. The inclusion 
 $$Prod(T, Set) \hookrightarrow [T, Set]$$
-is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,Set]$ is complete and cocomplete (limitsapocalypticists and colimits are computed pointwise), so is $Prod(T, Set)$. This implies that many familar algebraic categories such as [[Grp]], [[Mon]], [[Ring]], etc. are complete and cocomplete as a special case.
+is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,Set]$ is complete and cocomplete (limits and colimits are computed pointwise), so is $Prod(T, Set)$. This implies that many familar algebraic categories such as [[Grp]], [[Mon]], [[Ring]], etc. are complete and cocomplete as a special case.
 =--
 
 ## Related concepts
