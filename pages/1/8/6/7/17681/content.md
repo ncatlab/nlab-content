@@ -69,12 +69,13 @@ which
 
 1. preserves the return-operations, in that
 
-   $$
+   \[
+     \label{RespectForReturnOperation}
      trans \circ ret^{\mathcal{E}}
      \;=\;
      ret^{\mathcal{E}'}
      \,,
-   $$
+   \]
 
 1. preserves the bind-operations, in that for
    $prog_{12}\,\colon\, D_1 \to \mathcal{E}(D_2)$
@@ -353,6 +354,136 @@ $$
 where we used, in order of appearance: (eq:FunctorFromBind), (eq:RespectForBindOperation), (eq:RespectForTheUnit) and finally (eq:FunctorFromBind) again.
 \end{proof}
 
+\begin{remark}
+\label{MonadTransformationsActCovariantlyOnKleisliCategories}
+**(monad transformations act covariantly on Kleisli categories)**
+\linebreak
+  The conditions (eq:RespectForReturnOperation) and (eq:RespectForBindOperation) equivalently say that the monad transformation $trans$ (eq:UnderlyingNaturalTransformation) induces a functor between the respective [[Kleisli categories]]
+
+  \begin{tikzcd}[
+    row sep=2pt
+  ]
+    &
+    \mathbf{C}
+    \ar[dl, "{ F_{\mathcal{E}} }"{swap}]
+    \ar[dr, "{ F_{\mathcal{E}'} }"]
+    \\
+    \mathbf{C}_{\mathcal{E}}
+    \ar[
+      rr
+    ]
+    &&
+    \mathbf{C}_{\mathcal{E}'}
+    \\
+    \mathcal{E}(D_1)
+    \xrightarrow{ \phi }
+    \mathcal{E}(D_2)
+    &\mapsto&
+    \mathrm{bind}
+      ^{ \mathcal{E}' }
+    \bigg(
+    D_1
+    \xrightarrow{
+      \mathrm{ret}
+        ^{ \mathcal{E} }
+        _{ D_1 }
+    }
+    \mathcal{E}(D_1)
+    \xrightarrow{ \phi }
+    \mathcal{E}(D_2)
+    \xrightarrow{
+      \mathrm{trans}
+        _{ D_2 }
+    }
+    \mathcal{E}'(D_2)
+    \bigg)
+    \,.
+  \end{tikzcd}
+
+As shown, this respects the [free-module](algebra+over+a+monad#FreeAlgebras) functors 
+
+\begin{tikzcd}[
+  row sep=5, column sep=10
+]
+  \mathbf{C}
+  \ar[rr, "{ F_{\mathcal{E}} }"]
+  &&
+  \mathbf{C}_{\mathcal{E}}
+  \\
+  D_1 \xrightarrow{f} D_2
+  &\mapsto&
+  \mathcal{E}(D_1) \xrightarrow{ \mathcal{E}(f) } 
+  \mathcal{E}(D_2)
+\end{tikzcd}
+
+because the following [[commuting diagram|diagram commutes]]:
+
+\begin{tikzcd}[sep=20pt]
+    D_1
+    \ar[
+      rr,
+      "{
+        \mathrm{ret}
+          ^{ \mathcal{E} }
+          _{ D_1 }
+      }"
+    ]
+    \ar[dd, equals]
+    &&
+    \mathcal{E}(D_1)
+    \ar[
+      rr,
+      "{ \mathcal{E}(f) }"
+    ]
+    \ar[
+      dd,
+      "{ \mathrm{trans}_{D_1} }"{description}
+    ]
+    &&
+    \mathcal{E}(D_2)
+    \ar[
+      dd,
+      "{
+        \mathrm{trans}
+          _{ D_2 }
+      }"{description}
+    ]
+    \\
+    \\
+    D_1
+    \ar[
+      rr,
+      "{
+        \mathrm{ret}
+          ^{ \mathcal{E}' }
+          _{ D_1 }
+      }"
+    ]
+    &&
+    \mathcal{E}'(D_1)
+    \ar[
+      rr,
+      "{ \mathcal{E}'(f) }"
+    ]
+    &&
+    \mathcal{E}'(D_2)
+\end{tikzcd}
+
+Since it is evident that composite monad transformations give composite such functors, this means that assigning [[Kleisli categories]] to [[monads]] on $\mathbf{C}$ extends to a [[functor]] of the form:
+
+\begin{tikzcd}[sep=0pt]
+  \mathrm{Mnd}(\mathbf{C})
+  \ar[
+     rr
+  ]
+  &&
+  \mathrm{Cat}^{C/}
+  \\
+  \mathcal{E} &\mapsto& \mathbf{C}_{\mathcal{E}}
+\end{tikzcd}
+
+This is probably the functor alluded to in [Linton 1969, Lem. 10.2](#Linton69). 
+\end{remark}
 
 ## Related concepts
 
