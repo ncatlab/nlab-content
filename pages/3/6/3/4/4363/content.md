@@ -78,6 +78,7 @@ If you [[categorify]] from locales to [[toposes]], then nuclei become [[Lawvere‚
 ## References
 
 * _[[Stone Spaces]]_, II.2
+* [[Andr√© Joyal]], _A crash course on topos theory_, part 1/4, IHES 2006 [yt](https://www.youtube.com/watch?v=Ro8KoFFdtS4)
 
 
 [[!redirects nucleus]]
