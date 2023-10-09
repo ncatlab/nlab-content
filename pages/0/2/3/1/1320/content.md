@@ -56,7 +56,7 @@ In this situation $U$ is identified with the [[forgetful functor]] from the [[Ei
 
 The *[[monadicity theorem]]* characterizes monadic functors and makes these 'nice properties' precise.
 
-Monadic functors are sometimes called *functors of effective descent type*. See the page on *[[monadic descent]]* for more on this aspect.
+Monadic functors are sometimes called *functors of effective descent (type)*. See the page on *[[monadic descent]]* for more on this aspect.
 
 
 ## Definition
