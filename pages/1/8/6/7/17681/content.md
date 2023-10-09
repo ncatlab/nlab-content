@@ -365,8 +365,16 @@ where we used, in order of appearance: (eq:FunctorFromBind), (eq:RespectForBindO
   ]
     &
     \mathbf{C}
-    \ar[dl, "{ F_{\mathcal{E}} }"{swap}]
-    \ar[dr, "{ F_{\mathcal{E}'} }"]
+    \ar[
+      dl, 
+      end anchor={[yshift=2pt]},
+      "{ F_{\mathcal{E}} }"{swap}
+    ]
+    \ar[
+      dr, 
+      end anchor={[yshift=4pt]},
+      "{ F_{\mathcal{E}'} }"
+    ]
     \\
     \mathbf{C}_{\mathcal{E}}
     \ar[
@@ -477,7 +485,7 @@ Since it is evident that composite monad transformations give composite such fun
      rr
   ]
   &&
-  \mathrm{Cat}^{C/}
+  \mathrm{Cat}^{\mathbf{C}/}
   \\
   \mathcal{E} &\mapsto& \mathbf{C}_{\mathcal{E}}
 \end{tikzcd}
