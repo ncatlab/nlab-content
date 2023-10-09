@@ -320,7 +320,7 @@ The [[category of sheaves]] on a [[site]] $S$ is a reflective subcategory of the
 
 A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [[concrete site]] is a reflective subcategory.
 
-=--apocalypticists
+=--
 
 
 +-- {: .num_example }
@@ -443,7 +443,6 @@ The example of affine schemes in [[noncommutative algebraic geometry]] is in
 
 * {#Rosenberg98} [[Alexander Rosenberg]], _Noncommutative schemes_, Comp. Math. 112, 93&#8211;125 (1998)
 
-## References
 
 Formalization in [[cubical Agda]]:
 
