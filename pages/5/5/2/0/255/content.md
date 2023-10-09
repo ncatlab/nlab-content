@@ -375,7 +375,8 @@ in that it makes these [[commuting square|squares commute]].
 
 \end{example}
 
-\begin{remark} {#ExtensionOfModalesAlongMonadTransformation} 
+\begin{remark} 
+\label{ExtensionOfModalesAlongMonadTransformation} 
 A monad transformation as in Exp. \ref{TransformationOfMonadsOnFixedCategory}
 [[contravariant functor|contravariantly]] induces a [[functor]] of [[Eilenberg-Moore categories]] of [[module over a monad|modales]] by [[extension of scalars]] &lbrack;[Frei 1969, Thm. 2](#Frei69), [Barr & Wells 1985 thm. 6.3](#BarrWells85)&rbrack;:
 
