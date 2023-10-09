@@ -36,7 +36,7 @@ Throughout, let
 ###### Definition
 **([[evolutionary vector fields]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles}). Then an _[[evolutionary vector field]]_ $v$ on $E$ is  "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]]. Then an _[[evolutionary vector field]]_ $v$ on $E$ is  "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
 out of the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 
 
@@ -53,7 +53,7 @@ $$
   }
 $$
 
-to the [[vertical tangent bundle]] $T_\Sigma E \overset{}{\to} \Sigma$ (def. \ref{VerticalTangentBundle}) of $E \overset{fb}{\to} \Sigma$.
+to the [[vertical tangent bundle]] $T_\Sigma E \overset{}{\to} \Sigma$ of $E \overset{fb}{\to} \Sigma$.
 
 In the special case that the [[field bundle]] is a [[trivial vector bundle]] over [[Minkowski spacetime]] as in example \ref{TrivialVectorBundleAsAFieldBundle}, this means that an evolutionary vector field is
 a [[tangent vector field]] (example \ref{TangentVectorFields}) on $J^\infty_\Sigma(E)$ of the special form
@@ -113,7 +113,7 @@ of the evolutionary vector field:
 Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]].
 
 Given an [[evolutionary vector field]] $v$ on $E$ (def. \ref{EvolutionaryVectorField})
-there is a unique [[tangent vector field]] $\hat v$ (example \ref{TangentVectorFields}) on the [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) such that
+there is a unique [[tangent vector field]] $\hat v$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ such that
 
 1. $\hat v$ agrees on field coordinates (as opposed to jet coordinates) with $v$:
 
@@ -122,9 +122,7 @@ there is a unique [[tangent vector field]] $\hat v$ (example \ref{TangentVectorF
      \,,
    $$
 
-   which means in the special case that $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]]
-   (example \ref{TrivialVectorBundleAsAFieldBundle})
-   that $\hat v$ is of the form
+   which means in the special case that $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] that $\hat v$ is of the form
 
    $$
      \label{GenericComponentsForProlongationOfEvolutionaryVectorField}
@@ -228,7 +226,7 @@ This shows that $\hat v$ satisfying the two conditions given exists uniquely.
 
 Finally formula (eq:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField) for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
 $\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$ (prop. \ref{CartanHomotopyFormula})
-together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
+together with $\mathbf{d} = \delta + d$.
 
 =--
 
@@ -293,7 +291,7 @@ induces on the [[space of field histories]]:
 ###### Definition
 **([[flow]] of [[field histories]] along [[evolutionary vector field]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles})
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]]
 and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
 such that the ordinary [[flow]] of its prolongation $\hat v$ (prop. \ref{EvolutionaryVectorFieldProlongation})
 
@@ -307,7 +305,7 @@ on is bounded).
 
 
 For $\Phi_{(-)} \colon U_1 \to  \Gamma_\Sigma(E)$ a collection of  [[field histories]]
-(hence a plot of the [[space of field histories]] (def. \ref{SupergeometricSpaceOfFieldHistories}) ) the _[[flow]]_ of $v$
+(hence a plot of the [[space of field histories]]) the _[[flow]]_ of $v$
 through $\Phi_{(-)}$ is the [[smooth function]]
 
 $$
@@ -317,13 +315,17 @@ $$
 $$
 
 whose unique factorization $\widehat{\exp(v)}(\Phi_{(-)})$ through the space of jets of field histories
-(i.e. the [[image]] $im(j^\infty_\Sigma)$ of [[jet prolongation]], def. \ref{JetProlongation})
+(i.e. the [[image]] $im(j^\infty_\Sigma)$ of [[jet prolongation]])
 
 $$
   \array{
     && im(j^\infty_\Sigma) &\hookrightarrow& \Gamma_\Sigma(J^\infty_\Sigma(E))
     \\
-    & {}^{\mathllap{\widehat{\exp(v)}(\Phi_{(-)})}} \nearrow& \downarrow^{\mathrlap{\simeq}}
+    & 
+    {}^{\mathllap{\widehat{\exp(v)}(\Phi_{(-)})}} 
+    \nearrow
+    & 
+    \Big\downarrow^{\mathrlap{\simeq}}
     \\
     U_1 \times \mathbb{R}^1
       &\underset{ \exp(v)(\Phi) }{\longrightarrow}&
@@ -332,7 +334,7 @@ $$
 $$
 
 takes a plot $t_{(-)} \;\colon\; U_2 \to \mathbb{R}^1$ of the [[real line]]
-(regarded as a [[super formal smooth set|super smooth set]] via example \ref{SuperSmoothSetSuperCartesianSpaces}), to the plot
+(regarded as a [[super formal smooth set|super smooth set]]), to the plot
 
 $$
   \label{LocalDataForFlowOfImplicitInfinitesimalGaugeSymmetry}
