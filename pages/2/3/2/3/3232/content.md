@@ -22,7 +22,7 @@
 
 Just as the notion of a [[monad]] in a [[bicategory]] $K$ generalizes that of a [[monoid in a monoidal category]], [[module over a monoid|modules over monoids]] generalize easily to modules over monads.
 
-Beware that modules over monads in [[Cat]] are often called *algebras* for the monad, since they literally are algebras in the sense of [[universal algebra]], see [below](#AlgebrasForMonadsInCat). By extension, one might speak of modules over monads in any [[2-category]] as "algebras for the monad".
+Beware that modules over monads in [[Cat]] are often called [[algebra over a monad|*algebras* for the monad]] (see there for more), since they literally are algebras in the sense of [[universal algebra]], see [below](#AlgebrasForMonadsInCat). By extension, one might speak of modules over monads in any [[2-category]] as "algebras for the monad".
 
 The [[formal dual|formally dual]] concept is that of _[[coalgebra over a comonad]]_.
 
