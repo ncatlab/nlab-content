@@ -1161,6 +1161,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Higher-order topology generalizes the bulk-boundary correspondence of [[topological phases of matter]], by allowing topological modes to be localized at [[manifold with corners|corners]] and hinges instead of edges and surfaces. I will introduce the theory behind this concept, both for noninteracting as well as interacting systems and consecutively discuss two realizations in rather distinct setups. First, as-grown crystals of bismuth, grey arsenic, as well as bismuth bromide are demonstrated to display the essential physics of higher-order topological insulators. Second, it is shown that lattices of so-called Shiba bound states induced by magnetic adatoms in conventional superconductors can be brought into a higher-order superconducting phase. I will report on experimental progress for both system types based on spanning probe as well as transport measurements.
 
+\linebreak
+
+* {#ValeraOct2023} 9 Oct 2023
+
+  [[Sachin Valera]] (NYUAD, [[CQTS]])
+
+  **Topological Quantum Teleportation Without Braiding**
+
+  cf. [arXiv:2303.17700](https://arxiv.org/abs/2303.17700)
+
+  > We present the [[quantum teleportation]] and [[superdense coding]] protocols in the context of [[topological quantum computation|topological]] [[qudits]], as realised by [[anyons]]. The simplicity of our proposed realisation hinges on the [[monoidal category|monoidal structure]] of [[Tambara-Yamagami categories]], which readily allows for the generation of maximally [[quantum entanglement|entangled]] qudits. In particular, we remove the necessity for the [[braiding]] of anyons, an operation which typically underpins any computation. Both protocols find a natural interpretation in the [[string diagram|graphical calculus]] for these categories.
+
+  
+
+
 
 \linebreak 
 
