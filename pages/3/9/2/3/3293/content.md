@@ -267,9 +267,12 @@ Hence it makes sense to speak of _[[locally pro-manifolds]]_.
 
 * [[geometry of physics -- smooth sets]]
 
+
 ## References
 
-Accounts include
+Accounts include:
+
+* [[Richard S. Hamilton]], Section I.4 in: *The inverse function theorem of Nash and Moser*, Bull. Amer. Math. Soc. **7** (1982) 65-222 &lbrack;[doi:1982-07-01/S0273-0979-1982-15004-2](https://www.ams.org/journals/bull/1982-07-01/S0273-0979-1982-15004-2)&rbrack;
 
 * {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
 
