@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _base_ or _subbase_ for a [[topological space]] is a way of generating its topology from something simpler.  This is the application to topology of the general concept of [[base]].
+A _base_ and a _subbase_ for a [[topological space]] are ways of generating its topology from something simpler.  This is the application to topology of the general concept of [[base]].
 
 
 ## Definition {#ForTopologicalSpaces}
@@ -137,6 +137,12 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 
 * [[neighbourhood base]]
 
+## Literature
+
+* [[Ryszard Engelking]], _General Topology_, PWN; Warszawa 1977; Revised and completed edition in: Sigma series in pure mathematics __6__, Heldermann 1989 [ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm)
+
+* Parimal, Proofs (?), Lecture 13: [Basis for a topology](https://ece.iisc.ac.in/~parimal/proofs/lecture-13.pdf
+
 
 [[!redirects base for a topology]]
 [[!redirects basis for a topology]]
@@ -231,17 +237,3 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects sub-base of its topology]]
 [[!redirects sub-basis of its topology]]
 [[!redirects sub-bases of its topology]]
-
-[[!redirects local base]]
-[[!redirects local basis]]
-[[!redirects local bases]]
-[[!redirects base of neighborhoods]]
-[[!redirects basis of neighborhoods]]
-[[!redirects bases of neighborhoods]]
-[[!redirects base of neighbourhoods]]
-[[!redirects basis of neighbourhoods]]
-[[!redirects bases of neighbourhoods]]
-[[!redirects fundamental system of neighborhoods]]
-[[!redirects fundamental systems of neighborhoods]]
-[[!redirects fundamental system of neighbourhoods]]
-[[!redirects fundamental systems of neighbourhoods]]
