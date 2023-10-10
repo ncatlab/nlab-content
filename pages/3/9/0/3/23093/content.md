@@ -11,6 +11,8 @@ On [[celestial amplitudes]]:
 
 * [[Sabrina Pasterski]], *Celestial Amplitudes*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021) &lbrack;slides: [pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/07/Sabrina-G.-Pasterski.pdf), video: [YT](https://youtu.be/cXSv_SWQsTs)&rbrack;
 
+* [[Sabrina Pasterski]], *A Chapter on Celestial Holography*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, &lbrack;[arXiv:2310.04932](https://arxiv.org/abs/2310.04932)&rbrack;
+
 
 category: people
 
