@@ -26,6 +26,10 @@ On [[category theory]]:
  
 **Preprints**
 
+On [[ring theory]]:
+
+* Equational proofs of Jacobson's Theorem, 2023, [arxiv](https://arxiv.org/abs/2310.05301)
+
 On [[Galois theory]]:
 
 * A simple proof of the fundamental theorem of Galois theory, 2022, [arxiv](https://arxiv.org/abs/2211.07508)
