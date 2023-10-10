@@ -301,7 +301,7 @@ the many experimental cross section measurements.
 
 \linebreak
 
-* Daniele Binosi, *Emergent Hadron Mass in Strong Dynamics*, Few-Body Syst **63** 42 (2022) &lbrack;[arXiv:2203.00942](https://arxiv.org/abs/2203.00942), [doi:10.1007/s00601-022-01740-6](https://doi.org/10.1007/s00601-022-01740-6)&rbrack;
+* Daniele Binosi, *Emergent Hadron Mass in Strong Dynamics*, Few-Body Syst **63** 42 (2022) $[$[arXiv:2203.00942](https://arxiv.org/abs/2203.00942), [doi:10.1007/s00601-022-01740-6](https://doi.org/10.1007/s00601-022-01740-6)$]$
 
 > [[asymptotic freedom]] implies that the theory is innately [[nonperturbative quantum field theory|nonperturbative]] at short distances, which in turn means that it is extremely difficult to describe [[QCD]]’s dynamics at the [[fm|$fm$]] scale. Indeed, QCD’s colour-charged degrees of freedom, the massless gluons and the light up and down quarks, have never been observed in isolation: they are confined in colour-neutral bound-states, the hadrons, of which the (light) pion and the (heavy) proton are primary examples. It should be noticed that without a mass-scale confinement would not be possible: colour-singlet combinations of quarks would still be there, but the participating particles would need not be close together, since in a scale invariant theory all lengths are equivalent. Accordingly, the question "how does confinement appear in QCD" is inextricably connected to the question “how does mass emerge in strong dynamics”.
 
@@ -326,7 +326,7 @@ is absent.
 
 \linebreak
 
-* [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* &lbrack;[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)&rbrack;
+* [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* $[$[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)$]$
 
   > (discussion in [[holographic light front QCD]])
 
