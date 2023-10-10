@@ -369,7 +369,7 @@ This and much more history is recalled in
 
 * [[Horst Schubert]], *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
 
-* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
+* {#Geroch85} [[Robert Geroch]], *Mathematical Physics*, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html)&rbrack;
 
   > (introduces categories by examples arising in [[mathematical physics]])
 
