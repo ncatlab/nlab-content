@@ -5,7 +5,7 @@ A __Gabriel filter__ $G$ is a [[uniform filter]] of left ideals in a [[ring]] $R
 ## Terminology
 
 In our definition this notion is equivalent to [[topologizing filter]]; though for some authors the latter notion slightly differs. Stenstroem 
-says Gabriel topology instead of Gabriel filter, because all Gabriel filters form a basis of nieghborhoods of $0$ for a topology on $R$. 
+says Gabriel topology instead of Gabriel filter, because all Gabriel filters form a basis of neighborhoods of $0$ for a topology on $R$. 
 
 ## Properties
 
@@ -14,6 +14,10 @@ If $L$ and $L'$ are left ideals in a Gabriel filter $F$, then the set $L L'$ (of
 ## Literature
 
 * [[Pierre Gabriel]], _[[Des catégories abéliennes]]_
-* Bo Stenstroem, _Rings of quotients_, Springer 1975.
-* Z. &#352;koda, _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series __330__, ed. A. Ranicki; pp. 220&#8211;313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
-* W.Lowen, _A generalization of the Gabriel–Popescu theorem_, J. Pure Appl. Alg. __190:1–3 (2004) 197-211 [doi](https://doi.org/10.1016/j.jpaa.2003.11.016)
+* [[Bo Stenstroem]], _Rings of quotients_, Springer 1975.
+* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series __330__, ed. A. Ranicki; pp. 220&#8211;313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
+* [[Wendy Lowen]], _A generalization of the Gabriel–Popescu theorem_, J. Pure Appl. Alg. __190__:1–3 (2004) 197-211 [doi](https://doi.org/10.1016/j.jpaa.2003.11.016)
+
+A version for [[quantale]]s:
+
+* [[Kimmo Rosenthal|Kimmo I. Rosenthal]], _A general approach to Gabriel filters on quantales_, Comm. Algebra __20__, n.11 (1992) 3393--3409 [doi](https://doi.org/10.1080
