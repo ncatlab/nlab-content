@@ -69,7 +69,7 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 \begin{example}
 **(finite-dimensional vector spaces)**
 \linebreak
-The category [[FinDimVect]] of [[finite-dimensional vector spaces]] is compact closed with resoect to the usual [[tensor product of vector spaces]], see [there](finite-dimensional+vector+space#CompactClosure). 
+The category [[FinDimVect]] of [[finite-dimensional vector spaces]] is compact closed with respect to the usual [[tensor product of vector spaces]], see [there](finite-dimensional+vector+space#CompactClosure). 
 
   (It is not compact closed with the [[direct sum]] as monoidal product.)
 \end{example}
