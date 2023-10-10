@@ -39,6 +39,10 @@ See also
 
 * Wikipeda, _[Neighbourhood system -- Basis](https://en.wikipedia.org/wiki/Neighbourhood_system#Basis)_
 
+[[!redirects local base]]
+[[!redirects local basis]]
+[[!redirects local bases]]
+
 [[!redirects neighborhood bases]]
 [[!redirects neighborhood basis]]
 
@@ -54,4 +58,11 @@ See also
 [[!redirects basis of neighbourhoods]]
 [[!redirects bases of neighbourhoods]]
 
+[[!redirects base of neighborhoods]]
+[[!redirects basis of neighborhoods]]
+[[!redirects bases of neighborhoods]]
 
+[[!redirects fundamental system of neighborhoods]]
+[[!redirects fundamental systems of neighborhoods]]
+[[!redirects fundamental system of neighbourhoods]]
+[[!redirects fundamental systems of neighbourhoods]]
