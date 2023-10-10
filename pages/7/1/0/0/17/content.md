@@ -8,6 +8,7 @@
 =--
 =--
 
+
 This page gives hints for how to edit [[nLab:HomePage|nLab]]-pages.
 
 If you feel you can most easily start by modifying an  example, look at the *[[template page]]* and do experiments in the *[[Sandbox]]*.
@@ -395,9 +396,13 @@ and a remark in
 
      =--
 
-Beware, contrary to the behaviour with the LaTeX syntax described above, you do need to use the labels exactly as given above. That is, it needs to be `defn`, `thm`, and `cor`; neither `definition` nor `theorem` nor `corollary` (nor other abbreviations such as `def`) will be recognized by the software.
+Beware: 
 
-Use the LaTeX syntax where possible.
+1. Contrary to the behaviour with the LaTeX syntax described above, you do need to use the labels exactly as given above. That is, it needs to be `defn`, `thm`, and `cor`; neither `definition` nor `theorem` nor `corollary` (nor other abbreviations such as `def`) will be recognized by the software.
+
+1. {#WhitespaceAfterMarukuEnvironment} There *must* be a whitespace after the closing `=--`. Otherwise the parser will not recognize the end of the environment and will in fact ignore its content and *all* following code (unless and until it happens to spot an unpaired `=--` further down the line).
+
+Hence best to instead use the above [LaTeX syntax](#LatexSyntax), where possible.
 
 ### Cross-links
  {#CrossLinks}
