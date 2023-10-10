@@ -11,25 +11,25 @@ Recall that [[frames]] are [[duality|dual]] to [[locales]], and locales are kind
 
 Thus, nuclei correspond to [[sublocales]].
 
-
 ## Definitions
 
 Let $L$ be a [[frame]], that is a [[suplattice]] satisfying the infinite distributivity law.
 
-A __nucleus__ on $L$ is a [[function]] $j\colon L \to L$ that satisfies the following identities:
+A __nucleus__ on $L$ is a [[function]] $j\colon L \to L$ which is
 
-1.  $j(a \wedge b) = j(a) \wedge j(b)$,
-2.  $a \leq j(a)$,
-3.  $j(j(a)) \leq j(a)$.
+1.  monotone, i.e. $j(a \wedge b) = j(a) \wedge j(b)$ for all $a,b\in L$, 
+2.  inflationary, $a \leq j(a)$ for all $a\in L$,
+3.  satisfies $j(j(a)) \leq j(a)$ for all $a\in L$.
 
-In other words, a nucleus on $L$ is a [[meet]]-preserving [[monad]] on $L$.
+In other words, a nucleus on $L$ is a [[meet]]-preserving [[monad]] on $L$. If only the first two properties are satisfied, $j$ is sometimes called an __inflator__.
 
 Note that the following properties of a nucleus might be included in the definition, but they follow from the above:
 
 1.  $j(\top) = \top$,
 2.  $j(a) \leq j(b)$ if $a \leq b$,
-3.  $j(j(a)) = j(a)$.
+3.  (idempotency) $j(j(a)) = j(a)$.
 
+Thus one sometimes defines a nucleus as a monotone, inflationary and idempotent (endo)function on $L$
 
 ## The subset of closed elements
 
@@ -69,6 +69,9 @@ In short, given a nucleus $j$, we have an [[adjunction]] $j^*\colon L \rightleft
 
 If we think of $L$ as a [[locale]], then we define a __[[sublocale]]__ of $L$ to be a quotient frame of $L$, which corresponds to a nucleus on $L$ as above.
 
+## For quantales
+
+Quantales are a generalization of locales. The corresponding version of a nucleus is sometimes called [[quantic nucleus]].
 
 ## Categorification
 
