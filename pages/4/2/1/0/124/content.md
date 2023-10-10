@@ -295,7 +295,7 @@ Introductions to [[topos theory]] include
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
 
-* {#Wyler} [[Oswald Wyler]], _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991 ([doi:10.1142/1047](https://doi.org/10.1142/1047))
+* {#Wyler} [[Oswald Wyler]], _Lecture Notes on Topoi and Quasitopoi_, World Scientific (1991) &lbrack;[doi:10.1142/1047](https://doi.org/10.1142/1047)&rbrack;
 
 * [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
 
