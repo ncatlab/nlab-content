@@ -5,7 +5,7 @@ There is much code after this line in the [source](https://ncatlab.org/nlab/sour
 
 The problem is caused by the character immediately after the following closing tag:
 
-=--
+=--a
 
 Test
 
@@ -45,9 +45,21 @@ Here it is fundamentally not a coincidence that the main application of construc
 Toposes are essentially the possible *models* of such constructive ("physical") reasoning.
 There are many topos models relevant for the discussion of physics. 
 
-For example, there is a topos of [[super smooth sets]] which includes also [[super-manifolds]] on the same ontological level as smooth manifolds (and plain sets). One can argue that it is (only) in a topos like this that much of the discussion of "super-fields" in the physics literature really finds its precise home.
+For example, there is a topos of [[super smooth sets]] which includes also [[super-manifolds]] on the same ontological level as smooth manifolds (and plain sets). 
 
-Despite traditional "super"-terminology, the [[super-geometry]] embodied by the topos of [[super smooth sets]] is not exclusive to discussion of *[[supersymmetry]]* (though this is captured, too, if one cares) but is much more fundamentally concerned with fermionic geometry: The fact that fermion fields appear as *anti*-commuting variables in the Dirac Lagrangian (such as the leptons and quarks in the standard model of particle physics)
+Despite traditional "super"-terminology, the [[super-geometry]] embodied by the topos of [[super smooth sets]] is not exclusive to discussion of *[[supersymmetry]]* (though this is captured, too, if one cares) but is much more fundamentally concerned with fermionic geometry: The fact that any fermion fields (such as the leptons and quarks in the standard model of particle physics) appear as *anti*-commuting variables in the Dirac Lagrangian means that the field space of *any* field theory containing fermions is an (infinite-dimensional) supermanifold under favorable conditions, and in general is a [[super smooth set]].
+
+Since anti-commuting fermionic variables are an example of nilpotent and hence explicitly *infinitesimal* coordinates, the supergeometric topos is a model for "[[synthetic differential geometry]]". This refers to (reasoning interpretable in) toposes which contain explicit objects $\mathbb{D} \hookrightarrow \mathbb{R}$ that behave like the (first-order) "infinitesimal neighbourhood" around the origin of the real line, such that a map $\mathbb{D} \to X$ is equivalently a "smooth curve to first infinitesimal order" in $X$, hence a tangent vector. The informal intuition that such objects should exist was already voiced by Sophus Lie and underlies many arguments in physics textbooks ("assume that $\epsilon$ is so small that we may take $\epsilon^2 = 0$"). It is by working in suitable toposes that this intuition is realized as an actual mathematical fact.
+
+
+In summary so far, one may say that topos theory provides just the mathematical context that physicists have often intuitively but informally been assuming anyway. There clearly remains a large gap between the languages that the communities of topos theorists and physicists speak, but this is but a historical artefact which is increasingly being bridged.
+
+next: gauge principle, higher toposes
+
+BV-formalism $\infty$-localic higher toposes.
+
+
+
 
 
 
