@@ -165,6 +165,8 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[beable]]
 
+* [[quantum contextuality]]
+
 * [[Bohr topos]]
 
 * [[interpretation of quantum mechanics]]
@@ -257,7 +259,10 @@ Relation of Kochen-Specker to [[Bell's inequalities]]:
 
 * [[Leandro Aolita]], Rodrigo Gallego, Antonio Acín, Andrea Chiuri, Giuseppe Vallone, Paolo Mataloni, Adán Cabello, *Fully nonlocal quantum correlations*, Phys. Rev. A **85** 032107 (2012) &lbrack;[arXiv:1105.3598](https://arxiv.org/abs/1105.3598), [doi:10.1103/PhysRevA.85.032107](https://doi.org/10.1103/PhysRevA.85.032107)&rbrack;
 
+[[!redirects Kochen-Specker theorems]]
 
+[[!redirects Bell-Kochen-Specker theorem]]
+[[!redirects Bell-Kochen-Specker theorems]]
 
 
 [[!redirects free will theorem]]
