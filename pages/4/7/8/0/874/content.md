@@ -91,7 +91,7 @@ $$
 for all $i \in I$.
 
 
-The case of a binary products it is also denoted by "$(-)\times(-)$":
+In the case of a binary product it is also denoted by "$(-)\times(-)$":
 
 $$
   \array{
