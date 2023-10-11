@@ -38,6 +38,8 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 
 ## Related concepts
 
+* [[quantum contextuality]]
+
 * [[interpretation of quantum mechanics]]
 
 * [[Einstein-Podolsky-Rosen paradox]]
@@ -47,6 +49,7 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 * [[Bell's theorem]]
 
 * [[Hardy's paradox]]
+
 
 ## References
 
@@ -58,12 +61,15 @@ Hidden variables (and their non-existence) are already mentioned in:
 
   p. 198 in: *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+Textbook account:
 
-Surveys include
+* {#Moretti16} [[Valter Moretti]], §5.1 of: *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
+
+See also:
 
 * Wikipedia, _[Hidden variable theory](http://en.wikipedia.org/wiki/Hidden_variable_theory)_
 
-The original article on [[Bell's theorem]] is
+The original article on [[Bell's theorem]]:
 
 * {#Bell64} [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics **1** (1964) 195-200 &lbrack;[pdf](http://www.drchinese.com/David/Bell_Compact.pdf)&rbrack;
   
