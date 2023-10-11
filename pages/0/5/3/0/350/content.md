@@ -494,7 +494,7 @@ In this form the statement appears in the proof of ([Johnstone, Theorem A4.3.9](
 
 * [[Francis Borceux]], _Sheaves of algebras for a commutative theory_, Ann. Soc. Sci. Bruxelles S&#233;r. I **95** (1981), no. 1, 3&ndash;19. ([MR83c:18006](http://www.ams.org/mathscinet-getitem?mr=628032))
 
-Let $\mathcal{C}$ be a small category enriched over $Set^{\mathbf{T}}$ where $\mathbf{T}$ is a [[commutative algebraic theory]]. Then $[\mathcal{C}^{op},\text{Set}^{\mathbf{T}}]$. A $\mathbf{T}$-sieve as an enriched subfunctor of $\mathcal{C}(-,x)\colon\mathcal{C}^{op}\rightarrow\text{Set}^{\mathbf{T}}$. A $\mathbf{T}$-topology is a set $J(x)$ of $\mathbf{T}$-sieves for every $x$, satisfying some axioms. Borceux defines the notion of a sheaf over such enriched site and proves the existence and exactness of the associated sheaf functor. 
+Let $\mathcal{C}$ be a small category enriched over $Set^{\mathbf{T}}$ where $\mathbf{T}$ is a [[commutative algebraic theory]]. Then $[\mathcal{C}^{op},\text{Set}^{\mathbf{T}}]$. A $\mathbf{T}$-sieve as an enriched subfunctor of $\mathcal{C}(-,x)\colon\mathcal{C}^{op}\rightarrow\text{Set}^{\mathbf{T}}$. A $\mathbf{T}$-topology is a set $J(x)$ of emptypage$\mathbf{T}$-sieves for every $x$, satisfying some axioms. Borceux defines the notion of a sheaf over such enriched site and proves the existence and exactness of the associated sheaf functor. 
 
 He proves that there is an object $\Omega_{\mathbf{T}}$ in $[\mathcal{C}^{op},\text{Set}]$ which classifies subobjects in $[\mathcal{C}^{op},\text{Set}^{\mathbf{T}}]$. Moreover, there is a correspondence between
 
@@ -539,6 +539,9 @@ Discussion in [[homotopy type theory]] is in
 
 * {#QuirinTabareau16} Kevin Quirin, Nicolas Tabareau, _Lawvere-Tierney sheafification in Homotopy Type Theory_, Journal of Formalized Reasoning, Vol 9, No 2, (2016) ([web](https://jfr.unibo.it/article/view/6232))
 
+The additive version of Lawvere-Tierney closure operators -- equivalent to [[Gabriel topology]] (=$Ab$-enriched Grothendieck topology) has been studied (and the equivalence proven) several years before Lawvere and Tierney in
+
+* K. L. Chew, _Closure operations in the study of rings of quotients_, Bull. Math. Soc. Nanyang Univ. (1965) 1-20.
 
 [[!redirects sheafification in a Lawvere-Tierney topos]]
 [[!redirects sheafification in a Lawvere–Tierney topos]]
