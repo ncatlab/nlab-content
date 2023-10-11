@@ -56,4 +56,9 @@ On [[spectral theory]]
 
 * [[state on a star-algebra]]
 
+* [[hidden variable theory]]
+
+* [[quantum contextuality]]
+
 category: people
+
