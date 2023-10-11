@@ -90,7 +90,7 @@ The formalization with the above topological/[[homotopy theory|homotopy theoreti
 
 * {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev. Math. Phys. **17** (2005) 77-112 &lbrack;[arXiv:math/0405132](https://arxiv.org/abs/math/0405132), [doi:10.1142/S0129055X05002315](https://doi.org/10.1142/S0129055X05002315)&rbrack;
 
-* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487)&rbrack;
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487), [doi:10.1142/S0129055X06002875](https://doi.org/10.1142/S0129055X06002875)&rbrack;
 
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Periodic twisted cohomology and T-duality_, Ast&#233;risque No. 337 (2011), vi+134 pp. ISBN: 978-2-85629-307-2
 
@@ -163,6 +163,13 @@ Comprehensive discussion in [[higher differential geometry]]:
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+
+### Equivariant refinement
+
+Discussion in the [[equivariant cohomology|equivariant]] generality, ie. as an equivalence of [[twisted equivariant K-theory]] groups:
+
+* [[Tom Dove]], [[Thomas Schick]], *Equivariant Topological T-Duality* &lbrack;[arXiv:2310.06064](https://arxiv.org/abs/2310.06064)&rbrack;
+
 
 ### Geometric refinement
  {#ReferencesGeometricRefinement}
