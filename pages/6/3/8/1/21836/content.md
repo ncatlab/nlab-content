@@ -22,7 +22,7 @@ Surveys:
 
 * {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
 
-* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  (2015) $[$[web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://faculty.math.illinois.edu/~rezk/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]], video rec: [part 1](https://youtu.be/eFzB_2fkOxY), [2](https://youtu.be/4e9e3AtK7yg), [3](https://youtu.be/ueL5dMH9JoI), [4](https://youtu.be/r_7SsIoU9No)$]$
+* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  (2015) $[$[web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://rezk.web.illinois.edu/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]], video rec: [part 1](https://youtu.be/eFzB_2fkOxY), [2](https://youtu.be/4e9e3AtK7yg), [3](https://youtu.be/ueL5dMH9JoI), [4](https://youtu.be/r_7SsIoU9No)$]$
 
 
 Textbook accounts:
