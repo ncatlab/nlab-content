@@ -1494,6 +1494,8 @@ etc. In the [[categorical semantics]] in a [[type-theoretic model category]] thi
 
 * [[internal category]], [[internal functor]]
 
+* [[internal pseudocategory]]
+
 * [[2-congruence]], [[(n,r)-congruence]]
 
 * [[Segal space]], [[semi-Segal space]]
