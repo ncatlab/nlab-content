@@ -25,6 +25,12 @@ On [[quantum logic]] as the [[linear logic]] [[internal language]] of [[symmetri
 
 * {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
 
+[[sheaf theory|Sheaf theoretic]] discussion of [[quantum contextuality]] ([[hidden variable theories]], [[Kochen-Specker theorem]]):
+
+* {#AbramskyBrandenburger11} [[Samson Abramsky]], [[Adam Brandenburger]], _The Sheaf-Theoretic Structure Of Non-Locality and Contextuality_, New Journal of Physics **13** (2011) 113036 &lbrack;[arXiv:1102.0264](https://arxiv.org/abs/1102.0264), [doi:10.1088/1367-2630/13/11/113036](https://doi.org/10.1088/1367-2630/13/11/113036)&rbrack;
+
+
+
 On [[simplicial complexes]] treated in [[homotopy type theory]]:
 
 * Maximilian Doré, [[Samson Abramsky]], _Towards Simplicial Complexes in Homotopy Type Theory_ ([pdf](https://hott-uf.github.io/2020/HoTTUF_2020_paper_11.pdf))
