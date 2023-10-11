@@ -2,6 +2,14 @@
 
 ## Selected writings
 
+
+On [[topological T-duality]]:
+
+* {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev. Math. Phys. **17** (2005) 77-112 &lbrack;[arXiv:math/0405132](https://arxiv.org/abs/math/0405132), [doi:10.1142/S0129055X05002315](https://doi.org/10.1142/S0129055X05002315)&rbrack;
+
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. **18** 1103 (2006) &lbrack;[arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487), [doi:10.1142/S0129055X06002875](https://doi.org/10.1142/S0129055X06002875)&rbrack;
+
+
 On [[twisted ad-equivariant K-theory]] via [[differentiable stacks]]:
 
 * [[Ulrich Bunke]], Ingo Schroeder, _Twisted K-Theory and TQFT_ ([arXiv:math/0504458](https://arxiv.org/abs/math/0504458), [spire:681555](https://inspirehep.net/literature/681555))
