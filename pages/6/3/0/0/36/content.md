@@ -255,16 +255,27 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 * [[Lie algebra object]]
 
+* [[internal locale]]
 
-* [[internal category]], [[internal diagram]], [[internal groupoid]], [[groupoid object in an (∞,1)-category]], [[category object in an (∞,1)-category]]
+* [[internal category]] 
+
+  * [[internal diagram]]
+
+  * [[internal site]], 
+
+  * [[internal groupoid]]
+
+  * [[internal pseudocategory]]
+
+  * [[groupoid object in an (∞,1)-category]], 
+
+  * [[category object in an (∞,1)-category]]
 
 * [[internal (co-)limit]]
 
-* [[internal site]], [[internal locale]]
-
+## Related concepts
 
 * [[internal logic]]
-
 
 
 ## References
