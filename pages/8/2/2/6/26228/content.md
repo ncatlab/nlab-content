@@ -21,8 +21,7 @@ based on the [[adjusted Weil algebras]] discussed earlier in
 
 As the title of [FSS 12](#FSS12) indicates, this procedure constructs [[Čech cohomology]] [[cocycles]] for non-fake flat higher connections in the style of the cocycles in
 
-* [[Jean-Luc Brylinski]], D. A. McLaughlin. *Čech cocycles for characteristic classes*,
-Comm. Math. Phys., **178** 1 (1996) 225–236 &lbrack;[doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
+* {#BrylinskiMcLaughlin96} [[Jean-Luc Brylinski]], D. A. McLaughlin. *Čech cocycles for characteristic classes*, Comm. Math. Phys., **178** 1 (1996) 225–236 &lbrack;[doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
 
 for the underlying bundles.
 
