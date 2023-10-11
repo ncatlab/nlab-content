@@ -1,7 +1,7 @@
 
 ## Idea
 
-A notion of connection for [[principal 2-bundles]] that does not impose the fake flatness condition.
+A notion of connection for [[principal ∞-bundles]] that does not impose the fake flatness condition.
 
 ## Related concepts
 
