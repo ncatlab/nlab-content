@@ -5,7 +5,7 @@ A __Gabriel filter__ $G$ is a [[uniform filter]] of left ideals in a [[ring]] $R
 ## Terminology
 
 In our definition this notion is equivalent to [[topologizing filter]]; though for some authors the latter notion slightly differs. Stenstroem 
-says Gabriel topology instead of Gabriel filter, because all Gabriel filters form a basis of neighborhoods of $0$ for a topology on $R$. 
+says __Gabriel topology__ instead of Gabriel filter, because all Gabriel filters form a basis of neighborhoods of $0$ for a topology on $R$; on the other hand the Gabriel filter itself is an additive analogue of Grothendieck topology, see also [[enriched sheaf]].
 
 ## Properties
 
@@ -20,4 +20,7 @@ If $L$ and $L'$ are left ideals in a Gabriel filter $F$, then the set $L L'$ (of
 
 A version for [[quantale]]s:
 
-* [[Kimmo Rosenthal|Kimmo I. Rosenthal]], _A general approach to Gabriel filters on quantales_, Comm. Algebra __20__, n.11 (1992) 3393--3409 [doi](https://doi.org/10.1080
+* [[Kimmo Rosenthal|Kimmo I. Rosenthal]], _A general approach to Gabriel filters on quantales_, Comm. Algebra __20__, n.11 (1992) 3393--3409 [doi](https://doi.org/10.1080/00927879208824522)
+
+[[!redirects Gabriel topology]]
+[[!redirects Gabriel filters]]
