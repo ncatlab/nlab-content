@@ -308,7 +308,7 @@ Expositions:
 
 A textbook that introduces categories by examples arising in [[mathematical physics]] is 
 
-* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985
+* {#Geroch85} [[Robert Geroch]], *Mathematical Physics*, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html)&rbrack;
 
 A textbook with an eye towards the theory of [[categories of sheaves]] and their application in [[homological algebra]] is
 
