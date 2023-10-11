@@ -10,7 +10,7 @@ John Stewart Bell was an Irish physicist credited with developing one of the mos
 
 See also:
 
-* Marian Kupczynski, *My discussions with John Stuart Bell* &lbrack;[arXiv:2210.16837](https://arxiv.org/abs/2210.16837)&rbrack;
+* Marian Kupczynski, *My discussions of quantum foundations with John Stewart Bell* &lbrack;[arXiv:2210.16837](https://arxiv.org/abs/2210.16837)&rbrack;
 
 ## Related 
 
