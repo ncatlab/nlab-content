@@ -45,7 +45,7 @@ The [[syntax]] of Martin-Löf dependent type theory can be constructed in two st
 
 * The second stage consists of defining the *derivable judgements* of the type theory [[induction|inductively]] which then pick out the meaningful [[contexts]], [[types]] and [[terms]].
 
-A [[context]] is a [[list]] of succesivley [[dependent types]]. The [[variables]] may be defined as [[de Bruijn indices]], in which case the type of a variable $n$ is given by $n$th type in a [[context]].
+A [[context]] is a [[list]] of succesively [[dependent types]]. The [[variables]] may be defined as [[de Bruijn indices]], in which case the type of a variable $n$ is given by $n$th type in a [[context]].
 
 One may also define contexts as coming with a variable name, in which case one needs a notion of $\alpha$-equivalence (syntactic identity modulo renaming of bound variables) and of capture-free substitution. De Bruijn indices avoid this step but can be more obfuscating.
 
