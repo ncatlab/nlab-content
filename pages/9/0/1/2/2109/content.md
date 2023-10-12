@@ -359,7 +359,12 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 
 ## References
 
-* R.J. Wood, "Abstract Proarrows I" and "Proarrows II" (the original definitions), and a number of following papers.
+* {#Wood82} [[Richard J. Wood]], *Abstract Proarrows I*, Cahiers de topologie et géométrie différentielle **23** 3 (1982)  279-290 &lbrack;[numdam:CTGDC_1982__23_3_279_0](http://www.numdam.org/item/CTGDC_1982__23_3_279_0)&rbrack;
+
+* {#Wood85} [[Richard J. Wood]], *Proarrows II*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **26** 2 (1985) 135-168 &lbrack;[numdam:CTGDC_1985__26_2_135_0](http://www.numdam.org/item/CTGDC_1985__26_2_135_0)&rbrack; 
+
+
+and "Proarrows II" (the original definitions), and a number of following papers.
 
 * [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
 
