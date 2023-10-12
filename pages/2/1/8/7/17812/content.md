@@ -2053,7 +2053,7 @@ Grassmann algebra elements to yield a homogeneously graded sum is called a _[[su
 
 In order to make sense of this, some physics textbooks (e.g. [[Bryce DeWitt|de Witt]] 92) posit a single "infinite dimensional Grassmann algebra"
 from which to draw the elements $\theta_i$. This approach has its pitfalls [Sachse 08, section 5.2](#Sachse08).
-The [[functorial geometry]] perspecive (remark \ref{ASheafAsASpace}) fixes this: the "arbitrary supply"
+The [[functorial geometry]] perspective (remark \ref{ASheafAsASpace}) fixes this: the "arbitrary supply"
 of Grassmann variables is encoded by saying that
 
 1. for each finite dimensional Grassmann algebra $\wedge^\bullet \langle \theta_1, \cdots, \theta_q\rangle = C^\infty(\mathbb{R}^{0\vert q})$
