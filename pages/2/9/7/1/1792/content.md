@@ -268,7 +268,7 @@ On the [[free loop space]] of a suspension:
 
 * [[Ralph Cohen]], _A model for the free loop space of a suspension_ Lecture Notes in Mathematics, 1987, Volume 1286/1987, 193-207
 
-On the question on what is the Eckman-Hilton dual to $X\star Y$:
+On the question on what is the Eckmann-Hilton dual to $X\star Y$:
 
 * D. B. Fuks, Eckmann--Hilton duality and the theory of functors in the category of topological spaces, 1966 Russ. Math. Surv. 21 1--33 [doi](http://dx.doi.org/10.1070/RM1966v021n02ABEH004149), [free Russian original pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=5847&what=fullt&option_lang=rus)
 
