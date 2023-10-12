@@ -1,3 +1,4 @@
+*Not to be confused with the biologist, [[Michael Levin (biologist)]].*
 
 * [Institute page](https://physics.uchicago.edu/people/profile/michael-levin)
 
@@ -28,12 +29,6 @@ On [[loop braid group]]-[[representations]] in [[model (in theoretical physics)|
 On [[string-net models]]:
 
 * Chien-Hung Lin, [[Michael Levin]], Fiona J. Burnell, *Generalized string-net models: A thorough exposition*, Phys. Rev. B **103** (2021) 195155  &lbrack;[arXiv:2012.14424](https://arxiv.org/abs/2012.14424), [doi:10.1103/PhysRevB.103.195155](https://doi.org/10.1103/PhysRevB.103.195155)&rbrack;
-
-
-On [[quantum biology]], arguing that cellular [[information theory|information processing]] must employ [[quantum coherence]] as a resource for [[reversible computation|reversibility]] in order to maintain a biologically reasonable [[free energy]] budget:
-
-* [[Chris Fields]], [[Michael Levin]], _Metabolic limits on classical information processing by biological cells_ Biosystems **209** (2021) 104513 &lbrack;[doi:10.1016/j.biosystems.2021.104513](https://doi.org/10.1016/j.biosystems.2021.104513)&rbrack;
-
 
 
 category:people
