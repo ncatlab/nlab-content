@@ -27,13 +27,59 @@ Often one also assumes a [[braided monoidal category|braiding]] and speaks of a 
 
 
 ## Examples
+ {#Examples}
 
 The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably [[representations]] of [[loop groups]] and of [[Hopf algebras]] and of [[vertex operator algebras]]. 
 
-Some of the easiest examples are:
+Simple examples:
 
-* Representations of a finite group or ([finite super-group](https://ncatlab.org/nlab/show/supergroup#finite_supergroups))
-* For a given finite group $G$ and a 3-cocycle on $G$ with values in (the multiplicative group of units of) a field $k$ (an element of $H^3(G,k^\times)$), take $G$-graded vector spaces with the cocycle as associator.
+\begin{example}
+\label{GradedVectorSpaces}
+**(graded vector spaces)**
+\linebreak
+For 
+
+* $G$ a [[finite group]],
+
+* $\mathbb{K}$ a [[field]],
+
+the category of [[finite-dimensional vector space|finite-dimensional]] $G$-[[graded vector spaces|graded]] $\mathbb{K}$-[[vector spaces]]
+
+$$
+  Vect_{G}^{fdim}
+$$ 
+
+is a fusion category, with [[tensor product]] given by the [[tensor product of vector spaces]] and the [[binary operation]] of the group:
+
+$$
+  V_g \otimes W_h
+  \;\;
+  \coloneqq
+  \;\;
+  (V \otimes W)_{g \cdot h}
+  \,.
+$$
+
+More generally, for 
+
+* $\omega \,\in\, H^3_{Grp}(G, \mathbb{K}^\times)$ a 3-cocycle in the [[group cohomology]] of $G$ with [[coefficients]] in the [[group of units]] $\mathbb{K}^\times$, 
+
+the above construction but with [[associator]] multiplied by the 3-cocycle applied to the $G$-degrees of the 3 factors is again a fusion category
+
+
+$$
+  Vect_{G, \omega}^{fdim}
+  \,.
+$$ 
+\end{example}
+([Etingof, Nikshych & Ostrik 2005, item 1. on p. 584](#EtingofNikshychOstrik05))
+
+\begin{example}
+For $\mathbb{K}$ a [[field]] and
+$G$ a [[finite group]] (or [finite super-group](supergroup#finite_supergroups)), whose [[order of a group|order]] is [[coprime integer|relatively prime]] to the [[characteristic of a field|characteristic]] of $\mathbb{K}$, then the [[category of representations]] $Rep(G, \mathbb{K})$ is a fusion category. 
+\end{example}
+([Etingof, Nikshych & Ostrik 2005, item 2. on p. 584](#EtingofNikshychOstrik05))
+
 
 ## Properties
 
@@ -43,7 +89,7 @@ Under [[Tannaka duality]], every fusion category $C$ arises as the [[representat
 
 ### Relation to pivotal and spherical categories
 
-Fusion categories were first systematically studied by [[Etingof]], Nikshych and [[Ostrik]] in [On fusion categories](http://arxiv.org/abs/math/0203060). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
+Fusion categories were first systematically studied by [Etingof, Nikshych & Ostrik 2005](#EtingofNikshychOstrik05). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
 
 +-- {: .num_theorem}
 ###### Conjecture (Etingof, Nikshych, and Ostrik)
@@ -143,7 +189,7 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 Original articles:
 
-* {#EtingofNikshychOstrik05} [[Pavel Etingof]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On fusion categories*, Annals of Mathematics Second Series, Vol. 162, No. 2 (Sep., 2005), pp. 581-642 ([arXiv:math/0203060](http://arxiv.org/abs/math/0203060), [jstor:20159926](https://www.jstor.org/stable/20159926))
+* {#EtingofNikshychOstrik05} [[Pavel Etingof]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On fusion categories*, Annals of Mathematics Second Series **162** 2 (2005) 581-642 &lbrack;[arXiv:math/0203060](http://arxiv.org/abs/math/0203060), [jstor:20159926](https://www.jstor.org/stable/20159926)&rbrack;
 
 * [[Pavel Etingof]] and [[Damien Calaque]], [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
 
