@@ -165,7 +165,7 @@ Each of the above contexts for generalized multicategories requires a monad of a
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [another link](http://www.maths.gla.ac.uk/~tl/book.html)
 
-* [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, [arxiv/0907.2460](http://arxiv.org/abs/0907.2460)
+* {#CruttwellShulman10} [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, Theory Appl. Categ. **24** 21 (2010) 580-655 &lbrack;[arxiv/0907.2460](http://arxiv.org/abs/0907.2460), [TAC:24-21](http://www.tac.mta.ca/tac/volumes/24/21/24-21abs.html)&rbrack;
 
 * [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 
