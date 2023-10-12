@@ -41,7 +41,7 @@ At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-cate
 
 ## Approaches
 
-> The following text is adapted from a non-public message by Nathaniel Arkor to the Category Theory Community Server:
+> The following text is adapted from a non-public message by [[Nathanael Arkor]] to the Category Theory Community Server:
 
 There are three main approaches to formal category theory:
 
