@@ -39,50 +39,41 @@ By analogy, this may be referred to as a *formal theory of $(\infty,1)$-categori
 
 At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]] this formal $\infty$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
 
-Nathaniel Arkor wrote:
+## Approaches
 
-<blockquote>
-There are three main approaches:
-<ul>
-<li>
-Yoneda structures (cf. Street–Walters' <a href = "https://www.sciencedirect.com/science/article/pii/0021869378901606">Yoneda structures on 2-categories</a>)
-</li>
-<li>
-Proarrow equipments/fibrant double categories/virtual equipments (cf. Wood's <a href = "http://www.numdam.org/item/CTGDC_1982__23_3_279_0/">Abstract pro arrows I</a> and <a href = "http://www.numdam.org/item/CTGDC_1985__26_2_135_0/">Proarrows II</a>, Shulman's <a href = "https://arxiv.org/abs/0706.1286">Framed bicategories and monoidal fibrations</a>;  Cruttwell–Shulman's <a href = "https://arxiv.org/abs/0907.2460">A unified framework for generalized multicategories</a>; Koudenberg's <a href = "https://arxiv.org/abs/2205.04890">Formal category theory in augmented virtual double categories</a>)
-</li>
-<li>
-Lax-idempotent pseudomonads (cf. Bunge–Funke's <a href = "https://www.sciencedirect.com/science/article/pii/S002240499800108X">On a bicomma object condition for KZ-doctrines</a>)
-</li>
-</ul>
+> The following text is adapted from a non-public message by Nathaniel Arkor to the Category Theory Community Server:
 
-Most recent approaches to formal category theory take the second approach (although the precise formalism varies). The relationship between the approaches, for the most part, is not laid out clearly in the literature, but a basic intuition is:
-<ul>
-<li>
-Yoneda structures are based on formalising the presheaf construction.
-</li>
-<li>
-Proarrow equipments and related structures are based on formalising distributors/profunctors.
-</li>
-<li>
-Lax-idempotent pseudomonads are based on formalising the free cocompletion construction.
-</li>
-</ul>
+There are three main approaches to formal category theory:
 
-In nice settings, e.g. enriched category theory for a well-behaved base of enrichment (e.g. satisfying Kelly's assumptions in <i><a href = "http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html">Basic Concepts of Enriched Category Theory</a></i> all three approaches are viable. However, with weaker assumptions, not every approach is viable. For instance, when the base of enrichment is not well-behaved, one no longer has a presheaf construction or free cocompletion, and so Yoneda structures and lax-idempotent pseudomonads are not applicable. Without enough coequalisers in the base, distributors do not compose, and so proarrow equipments and fibrant double categories are not applicable.
+1. [[Yoneda structures]] 
 
-The most general settings are those of virtual equipments and augmented virtual equipments. It is possible to formalise presheaves in this setting (as in the work of Koudenberg), thus recovering Yoneda structures; as well as free cocompletions (not yet in the literature), and so these approaches subsume the others. Technically, augmented virtual equipments generalise virtual equipments, but it is not clear to me that there are examples captured by the former that cannot be captured by the latter by making appropriate modifications. If you are interested in learning about formal category theory in the context of higher category theory (e.g. Riehl–Verity), then it is probably most helpful to start by reading about virtual equipments (starting with Cruttwell–Shulman). However, there is still a lot of formal category theory that has not yet been carried out in this generality, so the other papers are also helpful in understanding the kinds of phenomena that may be understood using formal category theory.
-</blockquote>
+   (cf. [Street & Walters 1978](Yoneda+structure#SW78))
+
+1. [[proarrow equipments]]/[[framed bicategories]]/[[virtual equipments]] 
+
+   (cf. [Wood 1982](2-category+equipped+with+proarrows#Wood82), [1985](2-category+equipped+with+proarrows#Wood85); [Shulman 2008](framed+bicategory#Shulman08); [Cruttwell & Shulman 2010](generalized+multicategory#CruttwellShulman10); [Koudenburg 2022](#Koudenburg22))
+
+1. [[lax-idempotent 2-monads]] 
+
+   (cf. [Bunge & Funk 1999](lax-idempotent+2-monad#BF99))
+
+Most recent authors take the second approach (although the precise formalism varies). The relationship between the approaches, for the most part, is not laid out clearly in the literature, but a basic intuition is that:
+
+1. Yoneda structures are based on formalising the presheaf construction.
+
+1. Proarrow equipments and related structures are based on formalising distributors/profunctors.
+
+1. Lax-idempotent pseudomonads are based on formalising the free cocompletion construction.
+
+In nice settings, e.g. in [[enriched category theory]] for a well-behaved [[base of enrichment]] (eg. a [[Bénabou cosmos]]) all three approaches are viable. However, with weaker assumptions, not all of them are. 
+
+For instance, one may not in general have a [[presheaf category]]-construction or [[free cocompletion]], and so Yoneda structures and lax-idempotent pseudomonads are not applicable in general. Without enough [[coequalisers]] in the base, [[distributors]] do not compose, and so proarrow equipments and fibrant double categories are not applicable.
+
+The most general settings are those of [[virtual equipments]] and augmented virtual equipments. Here it is possible to formalise presheaves (as in the work of Koudenberg), thus recovering Yoneda structures; as well as free cocompletions (though not yet in the literature), and so these approaches subsume the others. 
+
+Technically, augmented virtual equipments generalise virtual equipments, but it is not clear that there are examples captured by the former that cannot be captured by the latter by making appropriate modifications. 
 
 
-## Details
-
-Contexts for developing formal category theory: 
-
-* [[Yoneda structures]]
-
-* [[proarrow equipments]], [[framed bicategories]], [[virtual equipments]]
-
-* [[KZ doctrines]]
 
 
 ## Related pages
@@ -117,7 +108,12 @@ Discussion in [[double category]]-theory:
 
 * {#Koudenburg15} [[Seerp Roald Koudenburg]], *A double-dimensional approach to formal category theory* ([arXiv:1511.04070](http://arxiv.org/abs/1511.04070)) 2015.  
 
-* {#Koudenburg19} [[Seerp Roald Koudenburg]], *Augmented virtual double categories*, Theory and Applications of Categories, Vol. 35, 2020, No. 10, pp 261-325 ([arXiv:1910.11189](https://arxiv.org/abs/1910.11189), [tac:35-10](http://www.tac.mta.ca/tac/volumes/35/10/35-10abs.html))  (On [[augmented virtual double categories]], a expanded version of Sec. 1-3 of [the previous reference](#Koudenburg15).)
+* {#Koudenburg19} [[Seerp Roald Koudenburg]], *Augmented virtual double categories*, Theory and Applications of Categories, Vol. 35, 2020, No. 10, pp 261-325 ([arXiv:1910.11189](https://arxiv.org/abs/1910.11189), [tac:35-10](http://www.tac.mta.ca/tac/volumes/35/10/35-10abs.html))  
+
+* {#Koudenburg22} [[Seerp Roald Koudenburg]], *Formal category theory in augmented virtual double categories* &lbrack;[arXiv:2205.04890](https://arxiv.org/abs/2205.04890)&rbrack;
+
+
+  > (On [[augmented virtual double categories]], a expanded version of Sec. 1-3 of [the previous reference](#Koudenburg15).)
 
 A domain-specific [[type theory]] for formal category theory: 
 
