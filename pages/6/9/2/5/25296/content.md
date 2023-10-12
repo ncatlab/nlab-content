@@ -16,7 +16,7 @@ The very first proof-of-principle [[quantum computations]] were made with [[nucl
 
 * [[Jonathan A. Jones]], *Quantum Computing with NMR*, Prog. NMR Spectrosc. **59** (2011) 91-120 $[$[doi:10.1016/j.pnmrs.2010.11.001](https://doi.org/10.1016/j.pnmrs.2010.11.001), [arXiv:1011.1382](https://arxiv.org/abs/1011.1382)$]$
 
-* Dorothea Golze, Maik Icker, Stefan Berger, *Implementation of two-qubit and three-qubit quantum computers using liquid-state nuclear magnetic resonance*, Concepts in Magnetic Resonance **40A** 1 (2012) 25-37 $[$[doi:10.1002/cmr.a.21222](https://doi.org/10.1002/cmr.a.21222)$[$
+* Dorothea Golze, Maik Icker, Stefan Berger, *Implementation of two-qubit and three-qubit quantum computers using liquid-state nuclear magnetic resonance*, Concepts in Magnetic Resonance **40A** 1 (2012) 25-37 $[$[doi:10.1002/cmr.a.21222](https://doi.org/10.1002/cmr.a.21222)$]$
 
 * *NMR Quantum Computing* (2012) $[$slides [pdf](https://qudev.phys.ethz.ch/static/content/QSIT12/QSIT12_NMR_L01.pdf)$]$
 
