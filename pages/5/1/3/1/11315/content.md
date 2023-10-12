@@ -53,9 +53,10 @@ Specifically on the existence and relevance -- or not -- of non-negligible coher
 
 * {#Cao20} J. Cao et al., *Quantum biology revisited*, Science Advances **6** 14 (2020) &lbrack;[doi:10.1126/sciadv.aaz4888](https://doi.org/10.1126/sciadv.aaz4888)&rbrack;
 
-An argument in favour of quantum biology which claims that cellular information processing must employ quantum coherence as a resource for reversibility in order to maintain a biologically reasonable free energy budget is in 
 
-* Chris Fields, Michael Levin, _Metabolic limits on classical information processing by biological cells_ *Biosystems* 209, November 2021, [doi:10.1016/j.biosystems.2021.104513](https://doi.org/10.1016/j.biosystems.2021.104513)
+An argument in favour of quantum biology which claims that cellular [[information theory|information processing]] must employ [[quantum coherence]] as a resource for [[reversible computation|reversibility]] in order to maintain a biologically reasonable [[free energy]] budget:
+
+* [[Chris Fields]], [[Michael Levin (biologist)|Michael Levin]], _Metabolic limits on classical information processing by biological cells_ Biosystems **209** (2021) 104513 &lbrack;[doi:10.1016/j.biosystems.2021.104513](https://doi.org/10.1016/j.biosystems.2021.104513)&rbrack;
 
 
 
