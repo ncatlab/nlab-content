@@ -16,9 +16,17 @@ On [[indexed categories]]:
 * [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
 
 
+
 On [[total categories]]:
 
 * {#Wood82} [[Richard J. Wood]], *Some remarks on total categories*, J. Algebra **75** 2 (1982) 538-545 &lbrack;<a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi:10.1016/0021-8693(82)90055-2</a>&rbrack;
+
+Introducing the notion of [[2-categories equipped with proarrows]] ("[[proarrow equipments]]"):
+
+* {#Wood82} [[Richard J. Wood]], *Abstract Proarrows I*, Cahiers de topologie et géométrie différentielle **23** 3 (1982)  279-290 &lbrack;[numdam:CTGDC_1982__23_3_279_0](http://www.numdam.org/item/CTGDC_1982__23_3_279_0)&rbrack;
+
+* {#Wood85} [[Richard J. Wood]], *Proarrows II*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **26** 2 (1985) 135-168 &lbrack;[numdam:CTGDC_1985__26_2_135_0](http://www.numdam.org/item/CTGDC_1985__26_2_135_0)&rbrack; 
+
 
 
 On [[completely distributive lattices]]:
