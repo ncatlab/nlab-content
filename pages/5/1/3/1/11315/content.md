@@ -42,7 +42,7 @@ Review:
 
 * N. Lambert et al.,  *Quantum biology*, Nature Physics **9** (2013) 10–18 &lbrack;[doi:10.1038/nphys2474](https://doi.org/10.1038/nphys2474)&rbrack;
 
-* Y. Kim, *Quantum Biology: An Update and Perspective*, Quantum Rep. **3** 1 (2021) 80-126 &lbrack;[doi:10.3390/quantum3010006](https://doi.org/10.3390/quantum3010006)&rbrack;
+* Y. Kim et al., *Quantum Biology: An Update and Perspective*, Quantum Reports **3** 1 (2021) 80-126 &lbrack;[doi:10.3390/quantum3010006](https://doi.org/10.3390/quantum3010006)&rbrack;
 
 
 Specifically on the existence and relevance -- or not -- of non-negligible coherent quantum entanglement in photosynthesis:
