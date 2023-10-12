@@ -539,9 +539,9 @@ Discussion in [[homotopy type theory]] is in
 
 * {#QuirinTabareau16} Kevin Quirin, Nicolas Tabareau, _Lawvere-Tierney sheafification in Homotopy Type Theory_, Journal of Formalized Reasoning, Vol 9, No 2, (2016) ([web](https://jfr.unibo.it/article/view/6232))
 
-The additive version of Lawvere-Tierney closure operators -- equivalent to [[Gabriel topology]] (=$Ab$-enriched Grothendieck topology) has been studied (and the equivalence proven) several years before Lawvere and Tierney in
+The additive version of Lawvere-Tierney modular closure operators on categories of modules (as an additive version of a presheaf topos) -- equivalent to [[Gabriel topology]] (=$Ab$-enriched Grothendieck topology) has been studied (and the equivalence proven) several years before Lawvere and Tierney in
 
-* K. L. Chew, _Closure operations in the study of rings of quotients_, Bull. Math. Soc. Nanyang Univ. (1965) 1-20.
+* [[Kim Lin Chew]], _Closure operations in the study of rings of quotients_, Bull. Math. Soc. Nanyang Univ. (1965) 1-20.
 
 [[!redirects sheafification in a Lawvere-Tierney topos]]
 [[!redirects sheafification in a Lawvere–Tierney topos]]
