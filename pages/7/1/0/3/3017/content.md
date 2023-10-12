@@ -31,7 +31,7 @@ This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. 
 
 ## References
 
-* [[Mike Shulman]], *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650–738 &lbrack;[tac:2018](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html), [arXiv:0706.1286](https://arxiv.org/abs/0706.1286)&rbrack;
+* {#Shulman08} [[Mike Shulman]], *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650–738 &lbrack;[tac:2018](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html), [arXiv:0706.1286](https://arxiv.org/abs/0706.1286)&rbrack;
 
 * [[Nicola Gambino]], [[Joachim Kock]], _Polynomial functors and polynomial monads_, ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931))
 
