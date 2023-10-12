@@ -35,3 +35,5 @@ On [[string-net models]]:
 
 
 category:people
+
+[[!redirects Michael Levin (physicist)]]
