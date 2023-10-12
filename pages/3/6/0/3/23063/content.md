@@ -59,11 +59,11 @@ There are three main approaches to formal category theory:
 
 Most recent authors take the second approach (although the precise formalism varies). The relationship between the approaches, for the most part, is not laid out clearly in the literature, but a basic intuition is that:
 
-1. Yoneda structures are based on formalising the presheaf construction.
+1. Yoneda structures are based on formalising the [[category of presheaves|presheaf construction]].
 
-1. Proarrow equipments and related structures are based on formalising distributors/profunctors.
+1. Proarrow equipments and related structures are based on formalising [[distributors]]/[[profunctors]].
 
-1. Lax-idempotent pseudomonads are based on formalising the free cocompletion construction.
+1. Lax-idempotent pseudomonads are based on formalising the [[free cocompletion]]-construction.
 
 In nice settings, e.g. in [[enriched category theory]] for a well-behaved [[base of enrichment]] (eg. a [[Bénabou cosmos]]) all three approaches are viable. However, with weaker assumptions, not all of them are. 
 
