@@ -52,9 +52,10 @@ But [Müller-Hermes & Perry 2019](#Müller-HermesPerry19) show that at least all
 \end{remark}
 
 \begin{remark}
+\label{DQC1Model}
 **(DQC1 model)**
 \linebreak
-But the idea of exploring [[quantum computation]]/[[quantum information theory]] on (a few or just single) clean [[qbits]] coupled to an environment in a maximally [[mixed state]] goes back already to [Knill & Laflamme 1998](#KnillLaflamme98), who referred to this model of computation as *deterministic quantum computation with one quantum bit* (abbreviated "*DQC1*", now also used for the corresponding [[quantum complexity theory|quantum complexity ]] [[complexity class|class]], first studied by [Shor 2008](#Shor08), and often referred as the "one clean qbit"-model). 
+But the idea of exploring [[quantum computation]]/[[quantum information theory]] on (a few or just single) clean [[qbits]] coupled to an environment in a maximally [[mixed state]] goes back already to [Knill & Laflamme 1998](#KnillLaflamme98) (motivated by discussion of [[spin resonance qbits]]), who referred to this model of computation as *deterministic quantum computation with one quantum bit* (abbreviated "*DQC1*", now also used for the corresponding [[quantum complexity theory|quantum complexity ]] [[complexity class|class]], first studied by [Shor 2008](#Shor08), and often referred as the "one clean qbit"-model). 
 
 > The DQC1 model is believed to be a very restricted, but still genuinely quantum, computing model -- a sub-universal quantum computing model whose power is something between classical computation and universal quantum computation. &lbrack;[FKMNTT18, p. 2](#FKMNTT18)&rbrack;
 
