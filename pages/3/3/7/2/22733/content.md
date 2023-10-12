@@ -1,4 +1,7 @@
-*Not to be confused with the biologist, [[Michael Levin (biologist)]].*
+
+> This page is about the [[mathematical physics|mathematical physicist]] Michael levin, while there is also a [[biology|biologist]] of that name, see the entry *[[Michael Levin (biologist)]]*. (Both authors publish on [[quantum systems]].) 
+
+***
 
 * [Institute page](https://physics.uchicago.edu/people/profile/michael-levin)
 
