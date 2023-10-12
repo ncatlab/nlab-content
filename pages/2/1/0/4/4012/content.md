@@ -141,7 +141,7 @@ Special facets of the concept are studied in
 
 * [[Marta Bunge]], _Tightly Bounded Completions_ , TAC **28** no.8 (2013) pp.213-240. ([abstract](http://tac.mta.ca/tac/volumes/28/8/28-8abs.html))
 
-* {#BF99} [[Marta Bunge]], [[Jonathon Funk]], _On a bicomma object condition for KZ-doctrines_ , JPAA **143** (1999) pp.69-105.
+* {#BF99} [[Marta Bunge]], [[Jonathon Funk]], _On a bicomma object condition for KZ-doctrines_, JPAA **143** (1999) 69-105 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00108-X">doi:10.1016/S0022-4049(98)00108-X</a>&rbrack;
 
 * A. J. Power, G. L. Cattani, G. Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000 {#PowerCattaniWinskel} <a href="        http://dx.doi.org/10.1016/S0022-4049(99)00063-8">doi</a>
 
