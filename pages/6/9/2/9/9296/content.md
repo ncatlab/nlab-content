@@ -117,5 +117,6 @@ which was rediscovered and then became famous with:
 
 [[!redirects decoherence]]
 
-
+[[!redirects quantum coherence]]
+[[!redirects quantum coherences]]
 
