@@ -1,3 +1,8 @@
+
+> This page is about the [[biology|biologist]] Michael Levin, while there is also a [[mathematical physics|mathematical physicist]] of that name, see the entry *[[Michael Levin]]*. (Both authors publish on [[quantum systems]].) 
+
+***
+
 * [Institute page](https://as.tufts.edu/biology/people/faculty/michael-levin) at Tufts University.
 
 ##Selected writings##
