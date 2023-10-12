@@ -176,7 +176,7 @@ $$
 
 yield identity 2-cells.
 
-Of course, this situation expresses an **adjunction** $g\dashv f$ with _unit_ $\eta$ and _counit_ $\epsilon$.  Here the absolute left lifting property of $\eta$ is furthermore equivalent to the left lifting property of $\eta$ plus preservation by $f:A\to B$ (cf. [Street-Walters 1978](#SW78), prop.2).
+Of course, this situation expresses an **adjunction** $g\dashv f$ with _unit_ $\eta$ and _counit_ $\epsilon$.  Here the absolute left lifting property of $\eta$ is furthermore equivalent to the left lifting property of $\eta$ plus preservation by $f \colon A\to B$ (cf. [Street-Walters 1978](#SW78), prop.2).
 
 =--
 
@@ -395,7 +395,7 @@ The original sources are
 
 * {#KS73}[[Max Kelly]], [[Ross Street]] (eds.), _Abstracts of the Sydney Category Theory Seminar 1972/73_ , Macquarie University.
 
-* {#SW78}[[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_ ,  JPAA **50** (1978) pp.350-379.
+* {#SW78} [[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_,  JPAA **50** (1978) 350-379 &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>&rbrack;
 
 Early variations on the theme are in
 
