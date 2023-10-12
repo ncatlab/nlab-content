@@ -71,7 +71,7 @@ Any practical quantum computer will be *[[classically controlled quantum computa
 
 See the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
 
-The paradigm of [[classically controlled quantum computation]] applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be emdedded in and called from a more comprehensive classical computing environment. 
+The paradigm of [[classically controlled quantum computation]] applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be embedded in and called from a more comprehensive classical computing environment. 
 
 This, in turn, applies particularly to applications like [[quantum machine learning]] ([Benedetti, Lloyd, Sack & Fiorentini 19](#BenedettiLloydSackFiorentini19), [TensorFlow Quantum](#TensorFlow), for more see the references [there](machine+learning#ReferencesQuantumMachineLearning)).
 
