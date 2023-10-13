@@ -12,11 +12,13 @@ On [[categorical logic]] and [[forcing]] via [[classifying toposes]]:
 
 On [[synthetic differential geometry]]:
 
-* (with [[Ieke Moerdijk]]), _[[Models for Smooth Infinitesimal Analysis]]_ , Springer Berlin 1991.      (on [[synthetic differential geometry]])
+* (with [[Ieke Moerdijk]]), _[[Models for Smooth Infinitesimal Analysis]]_ , Springer Berlin 1991.      
 
-On [[topos theory]]:
+  > (on [[synthetic differential geometry]])
 
-* (with Marie La Palme Reyes and Houman Zolfaghari), _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+An introduction to [[topos theory]] with emphasis on [[presheaf toposes]]:
+
+* [[Marie La Palme Reyes]], [[Gonzalo E. Reyes]], [[Houman Zolfaghari]], _Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008) &lbrack;[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf), ISBN:8876990046&rbrack;
 
 On the history of [[categorical logic]]:
 
