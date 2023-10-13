@@ -47,7 +47,7 @@ At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-cate
 ## Approaches
  {#Approaches}
 
-Roughly speaking, there are three main approaches to formal category theory:
+Roughly speaking, there are three main approaches to formal category theory in the generality that captures not just plain categories, but also [[internal categories]], [[fibered category|fibered]]/[[indexed categories]] and notably [[enriched categories]]:
 
 1. [[Yoneda structures]] 
 
