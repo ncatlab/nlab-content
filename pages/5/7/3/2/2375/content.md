@@ -1,7 +1,7 @@
 
 **[[category theory]]**
 
-## Concepts
+## Concepts {#sidebar_concepts}
 
 * [[category]]
 
@@ -11,7 +11,7 @@
 
 * [[Cat]]
 
-## Universal constructions
+## Universal constructions {#sidebar_universal_constructions}
 
 * [[universal construction]]
 
@@ -27,7 +27,7 @@
 
   * [[Kan extension]]
 
-## Theorems
+## Theorems {#sidebar_theorems}
 
 * [[Yoneda lemma]]
 
@@ -51,7 +51,7 @@
 
 * [[relation between type theory and category theory]]
 
-## Extensions 
+## Extensions {#sidebar_extensions}
 
 * [[sheaf and topos theory]]
 
@@ -59,7 +59,7 @@
 
 * [[higher category theory]]
 
-## Applications
+## Applications {#sidebar_applications}
 
 * [[applications of (higher) category theory]]
 
