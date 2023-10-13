@@ -15,3 +15,6 @@ $$
 ## Literature
 
 * C. Geiß, _Derived tame algebras and Euler-forms_, Math Z. __239__ (2002) 829--862 [doi](https://doi.org/10.1007/s002090100349)
+* Helmut Lenzing, _On the K-theory of weighted projective curves_, [arXiv:1702.03445](https://arxiv.org/abs/1702.03445)
+* Helmut Lenzing, _A K-theoretic study of canonical algebras_, in: Representation theory of algebras (Cocoyoc, 1994), CMS Conf. Proc, 1996 [RG](https://www.researchgate.net/profile/Helmut-Lenzing/publication/265548116_A_K-theoretic_study_of_canonical_algebras/links/55ba4d0008aec0e5f43e995b/A-K-theoretic-study-of-canonical-algebras.pdf)
+* [[Sefi Ladkani]], _Refined Coxeter polynomials_, [arXiv:2110.15329](https://arxiv.org/pdf/2110.15329)
