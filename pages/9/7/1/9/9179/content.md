@@ -92,6 +92,18 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 ## References
 
+### Early history
+
+A discussion of Pauli's thoughts leading him to the prediction of the neutrino:
+
+* {#AP06} Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
+
+* [[Francesco Vissani]], *First steps towards understanding neutrinos* &lbrack;[arXiv:2310.07834](https://arxiv.org/abs/2310.07834)&rbrack;
+
+
+
+### General
+
 * [[Goran Senjanovic]], _LHC and the neutrino paradigm_, talk at CERN EP seminar 2011 ([cern:148714](https://indico.cern.ch/event/148714), [recording](https://youtu.be/VVoMUHokn2U))
 
 * Athar et al. *Status and Perspectives of Neutrino Physics*, [IUPAP Neutrino Panel](https://www.iupapneutrinopanel.org/) Report ([arXiv:2111.07586](https://arxiv.org/abs/2111.07586))
@@ -105,9 +117,7 @@ See also
 
 * Wikipedia, _[Neutrino](http://en.wikipedia.org/wiki/Neutrino)_
 
-A discussion of Pauli's thoughts leading him to the prediction of the neutrino is in 
 
-* {#AP06} Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
 
 On the neutrino mass problem:
 
@@ -118,7 +128,8 @@ On the neutrino mass problem:
 * Boris Kayser, _Are Neutrinos Their Own Antiparticles?_, 
 J. Phys. Conf. Ser. 173:012013, 2009 ([arXiv:0903.0899](https://arxiv.org/abs/0903.0899))
 
-* Guido Fantini, Andrea Gallo Rosso, Francesco Vissani, Vanessa Zema, _The formalism of neutrino oscillations: an introduction_ ([arXiv:1802.05781](https://arxiv.org/abs/1802.05781))
+* Guido Fantini, Andrea Gallo Rosso, [[Francesco Vissani]], Vanessa Zema, _The formalism of neutrino oscillations: an introduction_, in: *The State of the Art of Neutrino Physics* World Scientific (2018)
+&lbrack;[arXiv:1802.05781](https://arxiv.org/abs/1802.05781), [doi:10.1142/10600](https://doi.org/10.1142/10600)&rbrack;
 
 What it would mean if neutrinos were [[Dirac spinors]]:
 
@@ -145,7 +156,7 @@ See also
 
 * S. Bilenky, _Neutrinos: Majorana or Dirac?_ ([arXiv:2008.02110](https://arxiv.org/abs/2008.02110))
 
-* Francesco Vissani, _What is matter according to particle physics and why try to observe its creation in lab_ ([arXiv:2103.02642](https://arxiv.org/abs/2103.02642))
+* [[Francesco Vissani]], _What is matter according to particle physics and why try to observe its creation in lab?_, Universe **7** 3 (2021) 61 &lbrack;[arXiv:2103.02642](https://arxiv.org/abs/2103.02642), [doi:10.3390/universe7030061](https://doi.org/10.3390/universe7030061)&rbrack;
 
 
 
