@@ -1,3 +1,21 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 There are many flavours of category:
@@ -73,6 +91,16 @@ Below, we list some fundamental theorems in category theory that have been formu
 * General results about [[presheaves]] are developed in [Koudenburg 2022](#Koudenburg22) (for [[augmented virtual equipments]]).
 * A ([[relative monad|relative]]) [[monadicity theorem]] is proven in [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
 
+## Intramural and extramural formal category theory
+
+There are two distinct aspects to the [[category theory|theory of categories]]. One aspect is concerned with the structure of an individual category, with regards to its [[objects]] and [[morphisms]]. For instance, the study of [[monomorphisms]] and [[epimorphisms]], [[limits]] and [[colimits]], and so on. We shall refer to this aspect as **intramural category theory**.
+
+The other aspect is concerned with the relation between different categories, constructions on categories (e.g. [[product categories]], [[functor categories]], [[adjoint functors]]), and so on. In essence, this is the theory of the [[2-category]] [[Cat]]. It is important to note that this latter aspect is not the more general theory of objects in an arbitrary [[2-category]] (which would be the study of formal category theory). We shall refer to this aspect as **extramural category theory**.
+
+In the same way, there are both intramural and extramural aspects to formal category theory. **Intramural formal category theory** is what we have meant by "formal category theory" above, i.e. developing category theory inside some 2-dimensional structure (e.g. a [[Yoneda structure]] or [[proarrow equipment]]). On the other hand, **extramural category theory** is the theory of such 2-dimensional structures, e.g. the theory of Yoneda structures, or the theory of proarrow equipments. Note that, just as extramural category theory is distinct from formal category theory, so too is extramural formal category theory distinct from what might be called "formal 2-category theory", "formal 2-dimensional category theory", or "formal formal category theory".
+
+Extramural formal category theory is motivated by formal category theory. For instance, an important construction in extramural formal category theory is the [[bimodule|monads and bimodules construction]], which constructs a new [[proarrow equipment]] $Mod(X)$ from an existing [[proarrow equipment]] (there are analogues for other approaches to formal category theory). This provides a family of new examples of formal category theories, in which one can perform intramural formal category theory. For instance, proarrow equipments of the form $Mod(X)$ are very well behaved, which equips them with a rich intramural category theory (as studied in [Wood 1985](2-category+equipped+with+proarrows#Wood85)): for instance, the existence of a factorisation system, and the existence of [[Kleisli objects]] and [[Eilenberg–Moore objects]].
+
 ## Related pages
 
 * [[enriched category theory]]
@@ -126,9 +154,27 @@ On the intuition for [[Yoneda structures]] as [[2-toposes]]:
 
 * [[Ross Street]], *An Australian conspectus of higher category theory*, talk at Institute for Mathematics and its Applications Summer Program: *$n$-Categories: Foundations and Applications* at the University of Minnesota (Minneapolis, 7–18 June 2004), in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152**, Springer (2010) 237-264 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf), [[Street-Conspectus.pdf:file]], [doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5)&rbrack;
 
-Papers developing general theorems in formal category theory:
+Papers developing general theorems in (intramural) formal category theory:
 
 * {#DL23} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_, Journal of Pure and Applied Algebra 227.1 (2023)([arXiv:1804.08710](https://arxiv.org/abs/1804.08710))
 * {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], and [[Fosco Loregian]]. _Adjoint functor theorems for lax-idempotent pseudomonads_, ([arXiv:2306.10389](https://arxiv.org/abs/2306.10389))
 * {#AM23a} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, 2023. &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 * {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+Papers developing general theorems in (extramural) formal category theory:
+
+* [[Ross Street]], "Fibrations in bicategories", [Numdam](http://www.numdam.org/item/?id=CTGDC_1980__21_2_111_0), and [correction](http://www.ams.org/mathscinet-getitem?mr=903151).
+
+* [[Aurelio Carboni]] and [[Scott Johnson]] and [[Ross Street]] and [[Dominic Verity]], "Modulated bicategories" (MB) [MR](http://www.ams.org/mathscinet-getitem?mr=1285544).
+
+* [[Bob Rosebrugh]] and [[Richard Wood]], "Proarrows and cofibrations" (PC), [MR](http://www.ams.org/mathscinet-getitem?mr=961365)
+
+* [[Bob Rosebrugh]] and [[Richard Wood]], "Gamuts and cofibrations". Cahiers de topologie et geometrie differentielle categoriques 31.3 (1990): 197-211. [Numdam](http://www.numdam.org/item/CTGDC_1990__31_3_197_0/)
+
+* [[Bob Rosebrugh]] and [[Richard Wood]], "Pullback preserving functors". Journal of Pure and Applied Algebra 73.1 (1991): 73-90.
+
+* [[Aurelio Carboni]], Scott Johnson, [[Ross Street]], and [[Dominic Verity]], _Modulated bicategories_
+
+* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], and Robert Walters, _Variation through enrichment_
+
+* [[Richard Garner]] and [[Mike Shulman]], *Enriched categories as a free cocompletion*, [arXiv](http://arxiv.org/abs/1301.3191)
