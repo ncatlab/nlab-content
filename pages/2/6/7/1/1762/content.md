@@ -11,7 +11,6 @@ His most important works include works in [[sheaf]]-, [[fibred category]]-, and 
 
 
 
-
 On [[lax functors]]:
 
 * R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
@@ -25,6 +24,10 @@ On [[enriched category theory]] and [[cosmoi]]:
 * {#Street74} [[Ross Street]],  *Elementary cosmoi I.* in *Category Seminar*, Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063103](https://doi.org/10.1007/BFb0063103)&rbrack;
 
 * {#Street80} [[Ross Street]], *Cosmoi of internal categories*, Transactions of the American Mathematical Society **258** 2 (1980) 271-318 &lbrack;[doi:10.2307/1998059](https://doi.org/10.2307/1998059)&rbrack;
+
+On [[topos theory]]:
+
+* [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
 
 
 Introducing the notion of [[traced monoidal categories]]:
