@@ -71,6 +71,8 @@ of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
 
 * The category of [[decidable objects]] of a [[topos]] is a Boolean pretopos. 
 
+* The [[exact completion]] of the category [[Ho(Top)]] of [[topological spaces]] and [[homotopy classes]] of [[continuous maps]] is a pretopos. 
+
 * In [[dependent type theory]], a [[univalent universe]] where every type in the universe satisfies [[axiom K]] and is closed under the [[empty type]], [[unit type]], [[sum types]], [[dependent sum types]], [[product types]], [[propositional truncations]], and [[quotient sets]] is a pretopos. 
   * the universe becomes an [[arithmetic pretopos]] if it is closed under a parameterized [[natural numbers type]]
   * the universe becomes a Heyting pretopos if the universe is closed under [[dependent product types]] for families of [[mere propositions]], or equivalently, if it is closed under types of [[embeddings]]
@@ -114,6 +116,8 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 * {#MarraReggio} [[Vincenzo Marra]], [[Luca Reggio]], _A characterisation of the category of compact Hausdorff spaces_, Theory Appl. Categ. 35 (2020), Paper No. 51, 1871–1906. [pdf](http://www.tac.mta.ca/tac/volumes/35/51/35-51.pdf), [arXiv:1808.09738](https://arxiv.org/abs/1808.09738).
 
 * {#Taylor} [[Paul Taylor]], [MathOverflow answer](https://mathoverflow.net/questions/382348/subobjects-in-the-category-of-compact-hausdorff-spaces/382351#382351).
+
+* [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
 
 [[!redirects pretopos]]
 [[!redirects pretoposes]]
