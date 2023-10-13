@@ -1,3 +1,6 @@
+[[!redirects synthetic (infinity,1)-category theory]]
+[[!redirects synthetic (infinity,1)-category theory]]
+[[!redirects synthetic (infinity,1)-category theory]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,14 +21,28 @@
 
 ## Idea
 
-In general, by *synthetic $(\infty,1)$-category theory* one will want to mean some formulation of [[(∞,1)-category theory]] in the spirit of [[synthetic mathematics]], here specifically relating to [[synthetic homotopy theory]] as $\infty$-category theory relates to [[homotopy theory]].
+**Formal $(\infty,1)$-category theory** is to [[(infinity,1)-category theory|$(\infty,1)$-category theory]] what [[formal category theory]] is to [[category theory|1-category theory]], that is: a [[synthetic mathematics|synthetic]] approach to $(\infty,1)$-categories standing in relation to [[synthetic homotopy theory]] as $(\infty, 1)$-category theory stands to [[homotopy theory]]. Consequently, formal $(\infty,1)$-category theory has also been called **synthetic $(\infty,1)$-category theory**.
 
-One implementation of this idea was proposed by 
-[Riehl & Shulman 2017](#RiehlShulman17), based on a variant of [[homotopy type theory]] called *[[simplicial type theory]]*. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21). 
+## Approaches
 
-Another implementation of this idea was proposed by [Weaver & Licata 2020](#WeaverLicata20S). 
+There have been two main styles of approaches to formal $(\infty,1)$-category theory: *categorical*, which are $(\infty,2)$-categorical in nature; and *type theoretic*, which propose [[deductive systems]] for reasoning about $(\infty,1)$-categories.
 
-## See also
+### Categorical approaches
+
+- Following [Joyal 08](#Joyal08) [p. 158](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=10)), ([Riehl & Verity 13](#RiehlVerity13) observe that the [[homotopy 2-category|homotopy 2-category of $(\infty,1)$-categories]] $2Ho\big( Cat_{(\infty,1)}\big)$ retains much of the interesting structure of the $(\infty,2)$-category $Cat_{(\infty,1)}$. Thus, one may use the techniques of [[formal category theory]] to study certain aspects of the formal theory of $(\infty,1)$-categories. For instance, this includes the theory of [[adjoint (infinity,1)-functors|adjoint $(\infty,1)$-functors]] (which are automatically homotopy coherent), but not the theory of [[(infinity,1)-monads|$(\infty,1)$-monads]] (which are not). This is developed in [[Elements of ∞-Category Theory]] in the setting of a [[virtual equipment]].
+- For [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]], formal $(\infty,1)$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
+- [Ruit 2023](#Ruit23) has introduced an $\infty$-double categorical generalisation of [[fibrant double categories]].
+
+### Type theoretic approaches
+
+- [Riehl & Shulman 2017](#RiehlShulman17) propose a type theory called [[simplicial type theory]], whose semantics are based on [[bisimplicial sets]]. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21). 
+- [Weaver & Licata 2020](#WeaverLicata20) propose a type theory, whose semantics are based on [[bicubical sets]].
+
+## Related pages
+
+* [[formal category theory]]
+
+* [[(infinity,2)-topos|$(\infty,2)$-topos]]
 
 * [[internal category in homotopy type theory]]
 
@@ -38,6 +55,28 @@ Another implementation of this idea was proposed by [Weaver & Licata 2020](#Weav
 * [[simplicial type theory]], [[cubical type theory]]
 
 ## References
+
+### Category theoretic approaches
+
+With ([[small (infinity,1)-category|small]]) [[(∞,1)-categories]] modeled as [[quasi-categories]], their [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category]] was considered first in
+
+* {#Joyal08} [[André Joyal]], [p. 158](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=10) in: _The theory of quasicategories and its applications_, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+
+and then developed further (in the generality of [[homotopy 2-categories]] of [[∞-cosmoi]]) in:
+
+* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021))
+
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]],  _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+
+* {#RiehlVerity21} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
+
+* {#Riehl21} [[Emily Riehl]], *The formal theory of ∞-categories*, talk at *[Categories and Companions Symposium June 8–12, 2021](http://web.science.mq.edu.au/groups/coact/seminar/CaCS2021/)* ([video](https://youtu.be/iX5Fxen3K-U))
+
+In an [[(∞,1)-category theory|(∞,1)-category theoretic]] version of [[proarrow equipments]]:
+
+* {#Ruit23} Jaco Ruit, _Formal category theory in ∞-equipments I_ ([arXiv:2308.03583](https://arxiv.org/abs/2308.03583))
+
+### Type theoretic approaches
 
 For synthetic (infinity, 1)-category theory in [[cubical type theory]]:
 
@@ -65,5 +104,8 @@ A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory
 
 * [[Emily Riehl]], *The synthetic theory of infinity-categories vs the synthetic theory of infinity-categories*, [[Homotopy Type Theory Electronic Seminar Talks]], 1 March 2018, ([video](https://www.youtube.com/watch?v=ge-9m1SsEmc), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riehl-2018-03-01-HoTTEST.pdf))
 
+[[!redirects formal (∞,1)-category theory]]
+[[!redirects formal infinity1-category theory]]
+[[!redirects synthetic (infinity,1)-category theory]]
 [[!redirects synthetic (∞,1)-category theory]]
 [[!redirects synthetic infinity1-category theory]]
