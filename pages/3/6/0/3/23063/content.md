@@ -19,7 +19,7 @@
 
 ## Idea
 
-The idea of **formal category theory**  is to handle the fundamental notions and constructions of [[category theory]] -- such as [[adjoint functors]], [[monads]], [[limits]], etc. -- [[axiom|axiomatically]] via abstract properties enjoyed by the ([[very large category|very large]]) [[2-category]] [[Cat]] of all [[categories]], which is the archetypical [[2-topos]].
+The idea of **formal category theory**  is to handle the fundamental notions and constructions of [[category theory]] -- such as [[adjoint functors]], [[monads]], [[limits]], etc. -- [[axiom|axiomatically]].
 
 
 In the words of [Gray 1974, p. VII](#Gray74):
@@ -29,7 +29,9 @@ In the words of [Gray 1974, p. VII](#Gray74):
 
 > The basic  idea is that the category of small categories, $Cat$, is a 2-category with properties and that one  should attempt to identify those properties  that  enable one to do the "structural parts of category theory".
 
-This is analogous to -- in fact is a [[categorification]] of -- how ([[structural set theory|structural]]) [[set theory]] may be understood as the study of the [[1-category]] [[Set]] of all [[sets]], whose good abstract properties are largely captured by understanding it as being the archetypical [[topos]] ("1-topos"). 
+This is analogous to -- in fact is a [[categorification]] of -- how ([[structural set theory|structural]]) [[set theory]] may be understood as the study of the [[1-category]] [[Set]] of all [[sets]], whose good abstract properties are largely captured by understanding it as being the archetypical [[topos]] ("1-topos").
+
+Note that, while early approaches to formal category theory took place in the setting of 2-categories with [[property-like structure]] (e.g. [[2-limits]], [[exponentials]], etc.), as alluded to in Gray's quote, this is an insufficient setting to develop many important concepts in category theory in a way that captures [[enriched category theory]]. For this, it is necessary to consider extra [[structure]]. See the **Approaches** section below.
 
 In the other direction of [[higher category theory]] there would be room for "formal" [[(infinity,1)-category theory|$(\infty,1)$-category theory]] via axiomatization of the ([[very large category|very large]]) [[(infinity,2)-category of (infinity,1)-categories|$(\infty,2)$-category of $(\infty,1)$-categories]] $Cat_{(\infty,1)}$ -- the archetypical [[(infinity,2)-topos|$(\infty,2)$-topos]]. 
 
@@ -41,15 +43,13 @@ At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-cate
 
 ## Approaches
 
-> The following text is adapted from a non-public message by [[Nathanael Arkor]] to the Category Theory Community Server:
-
-There are three main approaches to formal category theory:
+Roughly speaking, there are three main approaches to formal category theory:
 
 1. [[Yoneda structures]] 
 
    (cf. [Street & Walters 1978](Yoneda+structure#SW78))
 
-1. [[proarrow equipments]]/[[framed bicategories]]/[[virtual equipments]] 
+1. [[proarrow equipments]]/[[framed bicategories]]/(augmented) [[virtual equipments]] 
 
    (cf. [Wood 1982](2-category+equipped+with+proarrows#Wood82), [1985](2-category+equipped+with+proarrows#Wood85); [Shulman 2008](framed+bicategory#Shulman08); [Cruttwell & Shulman 2010](generalized+multicategory#CruttwellShulman10); [Koudenburg 2022](#Koudenburg22))
 
@@ -69,11 +69,7 @@ In nice settings, e.g. in [[enriched category theory]] for a well-behaved [[base
 
 For instance, one may not in general have a [[presheaf category]]-construction or [[free cocompletion]], and so Yoneda structures and lax-idempotent pseudomonads are not applicable in general. Without enough [[coequalisers]] in the base, [[distributors]] do not compose, and so proarrow equipments and fibrant double categories are not applicable.
 
-The most general settings are those of [[virtual equipments]] and augmented virtual equipments. Here it is possible to formalise presheaves (as in the work of Koudenburg), thus recovering Yoneda structures; as well as free cocompletions (though not yet in the literature), and so these approaches subsume the others. 
-
-Technically, augmented virtual equipments generalise virtual equipments, but it is not clear that there are examples captured by the former that cannot be captured by the latter by making appropriate modifications. 
-
-
+The most general settings are those of [[virtual equipments]] and augmented virtual equipments. Here it is possible to formalise presheaves (as in the work of Koudenburg), thus recovering Yoneda structures; as well as free cocompletions (though not yet in the literature), and so these approaches subsume the others.
 
 
 ## Related pages
@@ -98,13 +94,22 @@ The undertaking of laying these foundations instead for the [[2-category]] of al
 
 * {#Gray74} [[John Gray]], *[[Adjointness for 2-Categories|Formal category theory: adjointness for $2$-categories]]*, Lecture Notes in Mathematics, **391**, Springer 1974 ([doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280))
 
-Review and further discussion:
+Review and further discussion, including on the relationship between the different approaches:
 
 * [[Ivan Di Liberti]], [[Simon Henry]], Mike Lieberman, [[Fosco Loregian]], _Formal category theory_, ([course notes](https://tetrapharmakon.github.io/stuff/course_muni-formal.pdf))
 
 * [[Ivan Di Liberti]], [[Fosco Loregian]], _On the unicity of formal category theories_ ([arXiv:1901.01594](https://arxiv.org/abs/1901.01594))
 
+The relation between [[lax-idempotent pseudomonads]] and [[Yoneda structures]] is due to:
+
+* Charles Walker, *Yoneda Structures and KZ Doctrines*, [arxiv](https://arxiv.org/abs/1703.08693)
+ {#WalkerYS}
+
 Discussion in [[double category]]-theory:
+
+* [[Michael Shulman]], _Framed bicategories and monoidal fibrations_.
+
+* {#CruttwellShulman10} [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, Theory Appl. Categ. **24** 21 (2010) 580-655 &lbrack;[arxiv/0907.2460](http://arxiv.org/abs/0907.2460), [TAC:24-21](http://www.tac.mta.ca/tac/volumes/24/21/24-21abs.html)&rbrack;
 
 * {#Koudenburg15} [[Seerp Roald Koudenburg]], *A double-dimensional approach to formal category theory* ([arXiv:1511.04070](http://arxiv.org/abs/1511.04070)) 2015.  
 
