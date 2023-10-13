@@ -312,11 +312,11 @@ A classical (advanced) reference is expos&#233; 1 of
 
 * {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), *Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - [[SGA 4]]*, LNM 269 Springer  Heidelberg 1972.
 
-An elementary introduction to presheaf toposes emphasizing finite underlying categories $C$ is 
+Introduction:
 
-* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, *Generic Figures and their Glueings*, Polimetrica Milano 2004.
+* [[Marie La Palme Reyes]], [[Gonzalo E. Reyes]], [[Houman Zolfaghari]], _Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008) &lbrack;[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf), ISBN:8876990046&rbrack;
 
-Standard references are
+See also most accounts of general [[topos theory]], such as:
 
 * {#Borceux3} [[Francis Borceux]], *Handbook of Categorical Algebra 3 : Categories of Sheaves*, Cambridge UP 1994.
 
