@@ -133,7 +133,7 @@ Motivic Hall algebras:
 
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arXiv/1006.2706](https://arxiv.org/abs/1006.2706)
-
+* [[Richard Rimányi]], _Motivic characteristic classes in cohomological Hall algebras_, Advances in Mathematics __360__ (2020) 106888 [doi](https://doi.org/10.1016/j.aim.2019.106888) [arXiv:1808.05654](https://arxiv.org/pdf/1808.05654)
 
 [[!redirects Hall algebras]]
 
