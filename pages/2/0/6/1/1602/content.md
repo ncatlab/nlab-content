@@ -329,7 +329,7 @@ We say that:
 
   is the **differential anomaly**.
 
-One finds that this curvature 2-form is given by the [[fiber integration]] of the wedge product of the [[electric charge]] $(n+1)$-form with the [[magnetic charge]] $dim X - n$-form over $X$:
+One finds that this curvature 2-form is given by the [[fiber integration]] of the wedge product of the [[electric current]] $(n+1)$-form with the [[magnetic charge]] $dim X - n$-form over $X$:
 
 $$
   Curv_{Anom_{\hat j_B}}
@@ -394,7 +394,7 @@ $$
   \,,
 $$
 
-for some $I_{n+2} \in \Omega^{n+2}_{cl}(X)$ and 
+for some $I_{n+2} \in \Omega^{n+2}_{cl}(X)$ (understood, as explained [above](https://ncatlab.org/nlab/show/Green-Schwarz+mechanism#the_anomaly_line_bundle), as forms in $\Omega^{n+2}_{cl}(X\times U)$) and 
 $j_{el} \in \Omega^{dim X - n}(X)$.
 
 
