@@ -64,7 +64,11 @@ The category $Ho(Top)_{he}$ can be studied by testing its objects with objects f
 
 * [[stable homotopy category]]
 
+## References
 
+The [[exact completion]] of the category $Ho(Top)$ is shown to be a [[pretopos]] in:
+
+* [[Marino Gran]] and [[Enrico Vitale]], _On the exact completion of the homotopy category_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 39 (1998) no. 4, pp. 287-297. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1998__39_4_287_0/)&rbrack;
 
 category: category
 
