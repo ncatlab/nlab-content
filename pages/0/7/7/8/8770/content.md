@@ -9,7 +9,7 @@
 
 * [[Karoubi envelope]], [[Cauchy completion]]
 
-### Examples
+### Examples {#sidebar_examples}
 
 * [[projector]]
 
