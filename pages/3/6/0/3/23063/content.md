@@ -20,6 +20,8 @@ and so on. Rather than define these concepts and prove these theorems in each of
 
 **Formal category theory** may be thought of as applying the philosophy of category theory to category theory itself. Typically, this takes the form of applying 2-dimensional category theories (e.g. [[2-category|2-category theory]] or [[double category|double category theory]]) to study 1-dimensional category theory. This may be viewed as a [[synthetic mathematics|synthetic]] approach to category theory.
 
+This may be seen as a [[categorification]] of the approach of [[structural set theory]], which is a [[synthetic mathematics|synthetic]] approach to [[set theory]]. (In fact, just as a [[topos]] is intended as an axiomatisation of the logical nature of the archetypical topos [[Set]], [Street & Walters](Yoneda+structure#SW78) introduced [[Yoneda structures]], one of the earliest approaches to formal category theory, as an axiomatisation of the "logical" nature of the archetypical [[2-topos]] [[Cat]].)
+
 ## Approaches
 
 An important question is: what is the appropriate setting in which to study the formal theory of categories? There is not one obvious answer, and several approaches have been proposed in the literature.
@@ -28,7 +30,7 @@ Roughly speaking, there are four main approaches (listed in chronological order 
 
 1. [[2-categories]] with [[property-like structure]]
 
-  (cf. [Gray 1974](#Gray74))
+   (cf. [Gray 1974](#Gray74))
 
 1. [[Yoneda structures]] 
 
@@ -40,7 +42,7 @@ Roughly speaking, there are four main approaches (listed in chronological order 
 
 1. [[lax-idempotent 2-monads]] 
 
-   (cf. [Bunge & Funk 1999](lax-idempotent+2-monad#BF99))
+   (cf. [Bunge & Funk 1999](lax-idempotent+2-monad#BF99), Trimble's [epistemologies](https://ncatlab.org/toddtrimble/published/Epistemologies))
 
 The relationship between the approaches, for the most part, is not laid out clearly in the literature, but a basic intuition is that:
 
@@ -58,17 +60,18 @@ On the other hand, in nice settings, e.g. in [[enriched category theory]] for a 
 
 For instance, one may not in general have a [[presheaf category]]-construction or [[free cocompletion]], and so Yoneda structures and [[lax-idempotent pseudomonads]] are not applicable in general. Without enough [[coequalisers]] in the base, [[distributors]] do not compose, and so proarrow equipments and fibrant double categories are not applicable. For instance, for a general [[monoidal category]] $V$, only the formalisms of [[virtual equipments]] and [[augmented virtual equipments]] capture the structure of $V$-[[enriched categories]]. These are thus the most general approaches to formal category theory. Here it is possible to formalise [[presheaves]] as in [Koudenburg 2022](#Koudenburg22), thus recovering [[Yoneda structure]]; as well as free cocompletions (though this had not been developed in the literature): these approaches consequently strictly subsume the others.
 
-## Formal higher category theory
+## Theorems in formal category theory
 
-In the other direction of [[higher category theory]] there would be room for "formal" [[(infinity,1)-category theory|$(\infty,1)$-category theory]] via axiomatization of the ([[very large category|very large]]) [[(infinity,2)-category of (infinity,1)-categories|$(\infty,2)$-category of $(\infty,1)$-categories]] $Cat_{(\infty,1)}$ -- the archetypical [[(infinity,2)-topos|$(\infty,2)$-topos]]. 
+Below, we list some fundamental theorems in category theory that have been formulated in formal category theory.
 
-While this has not been developed, it is interesting to observe ([Riehl & Verity 13](#RiehlVerity13), following [Joyal 08](#Joyal08) [p. 158](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=10)) that already its truncation down to a plain [[2-category]] $2Ho\big( Cat_{(\infty,1)}\big)$ -- the [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category of $(\infty,1)$-categories]] -- retains much of the interesting structure of [[(infinity,1)-category theory|$(\infty,1)$-category theory]]. For example, formal [[2-category theory|2-category theoretic]] [[adjunctions]] -- as envisioned by [Gray 1974](#Gray74) in $Cat$, but now interpreted in $2Ho\big( Cat_{(\infty,1)}\big)$ -- turn out to encode the correct notion of [[adjoint (infinity,1)-functors|adjoint $(\infty,1)$-functors]] (see [there](adjoint+infinity1-functor#InTheHomotopy2Category) for more).
-
-By analogy, this may be referred to as a *formal theory of $(\infty,1)$-categories* ([Riehl 2021](#Riehl21)).
-
-At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]] this formal $\infty$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
-
-See [[synthetic (infinity,1)-category theory]].
+* General results about [[weighted limits]] and [[weighted colimits]] are developed in [Street & Walters 1978](Yoneda+structure#SW78) (for [[Yoneda structures]]); [Wood 1982](2-category+equipped+with+proarrows#Wood82) (for [[proarrow equipments]]); [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
+* Adjoint functor theorems are proven in Proposition 21 of [Street & Walters 1978](Yoneda+structure#SW78); Corollary 10 of [Wood 1982](2-category+equipped+with+proarrows#Wood82); Theorem 2.16 of [Arkor, Di Liberti, Loregian](#ALL23).
+* An analogue of the [[bijective-on-objects functor|bijective-on-objects]]/[[fully faithful functor|fully faithful]] factorisation system is established in [Wood 1985](2-category+equipped+with+proarrows#Wood85).
+* General results about [[monads]] are developed in [Street & Walters 1978](Yoneda+structure#SW78) (for [[Yoneda structures]]); [Wood 1985](2-category+equipped+with+proarrows#Wood85) (for [[proarrow equipments]]); [Arkor & McDermott 2023a](#AM23b) in the additional generality of [[relative monads]] (for [[virtual equipments]]).
+* The theory of [[total categories]] is developed in [Street & Walters 1978](Yoneda+structure#SW78) (for [[Yoneda structures]]); [Koudenburg 2022](#Koudenburg22) (for [[augmented virtual equipments]]).
+* A general duality theorem subsuming [[Gabriel–Ulmer duality]] (and many others) is proven in [Di Liberti & Loregian 2023](#DL18) (for [[lax-idempotent pseudomonads]]).
+* General results about [[presheaves]] are developed in [Koudenburg 2022](#Koudenburg22) (for [[augmented virtual equipments]]).
+* A ([[relative monad|relative]]) [[monadicity theorem]] is proven in [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
 
 ## Related pages
 
@@ -76,13 +79,11 @@ See [[synthetic (infinity,1)-category theory]].
 
 * [[ETCC]]
 
-* [[2-topos]], [[(infinity,2)-topos|$(\infty,2)$-topos]]
+* [[2-topos]]
 
-* [[synthetic (infinity,1)-category theory]]
+* [[formal (infinity,1)-category theory]]
 
 ## References
-
-### For 1-categories
 
 An axiomatization of (just) the ([[very large category|very large]]) [[1-category]] of all categories, but fully in [[formal logic]] is the *[[elementary theory of the category of categories]]* (ETCC) due to:
 
@@ -115,34 +116,19 @@ Discussion in [[double category]]-theory:
 
 * {#Koudenburg22} [[Seerp Roald Koudenburg]], *Formal category theory in augmented virtual double categories* &lbrack;[arXiv:2205.04890](https://arxiv.org/abs/2205.04890)&rbrack;
 
-
   > (On [[augmented virtual double categories]], a expanded version of Sec. 1-3 of [the previous reference](#Koudenburg15).)
 
 A domain-specific [[type theory]] for formal category theory: 
 
 * [[Max S. New]], [[Daniel Licata]], _A Formal Logic for Formal Category Theory_ ([arXiv:2210.08663](https://arxiv.org/abs/2210.08663))
 
+On the intuition for [[Yoneda structures]] as [[2-toposes]]:
 
+* [[Ross Street]], *An Australian conspectus of higher category theory*, talk at Institute for Mathematics and its Applications Summer Program: *$n$-Categories: Foundations and Applications* at the University of Minnesota (Minneapolis, 7–18 June 2004), in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152**, Springer (2010) 237-264 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf), [[Street-Conspectus.pdf:file]], [doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5)&rbrack;
 
-### For $(\infty,1)$-categories
+Papers developing general theorems in formal category theory:
 
-With ([[small (infinity,1)-category|small]]) [[(∞,1)-categories]] modeled as [[quasi-categories]], their [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category]] was considered first in
-
-* {#Joyal08} [[André Joyal]], [p. 158](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=10) in: _The theory of quasicategories and its applications_, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
-
-and then developed further (in the generality of [[homotopy 2-categories]] of [[∞-cosmoi]]) in:
-
-* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021))
-
-
-* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]],  _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
-
-* {#RiehlVerity21} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
-
-* {#Riehl21} [[Emily Riehl]], *The formal theory of ∞-categories*, talk at *[Categories and Companions Symposium June 8–12, 2021](http://web.science.mq.edu.au/groups/coact/seminar/CaCS2021/)* ([video](https://youtu.be/iX5Fxen3K-U))
-
-In an [[(∞,1)-category theory|(∞,1)-category theoretic]] version of [[proarrow equipments]]:
-
-* Jaco Ruit, _Formal category theory in ∞-equipments I_ ([arXiv:2308.03583](https://arxiv.org/abs/2308.03583))
-
-[[!redirects formal (infinity,1)-category theory]]
+* {#DL23} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_, Journal of Pure and Applied Algebra 227.1 (2023)([arXiv:1804.08710](https://arxiv.org/abs/1804.08710))
+* {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], and [[Fosco Loregian]]. _Adjoint functor theorems for lax-idempotent pseudomonads_, ([arXiv:2306.10389](https://arxiv.org/abs/2306.10389))
+* {#AM23a} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, 2023. &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
