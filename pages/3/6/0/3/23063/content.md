@@ -29,9 +29,12 @@ In the words of [Gray 1974, p. VII](#Gray74):
 
 > The basic  idea is that the category of small categories, $Cat$, is a 2-category with properties and that one  should attempt to identify those properties  that  enable one to do the "structural parts of category theory".
 
+Early approaches to formal category theory took place in the setting of plain [[2-categories]] with [[property-like structure]] (e.g. [[2-limits]], [[exponentials]], etc.), as alluded to in Gray's quote above. (But to capture also [[enriched category theory]] it is necessary to consider extra [[structure]], see the *[Approaches](#Approaches)* below.)
+
+
 This is analogous to -- in fact is a [[categorification]] of -- how ([[structural set theory|structural]]) [[set theory]] may be understood as the study of the [[1-category]] [[Set]] of all [[sets]], whose good abstract properties are largely captured by understanding it as being the archetypical [[topos]] ("1-topos").
 
-Note that, while early approaches to formal category theory took place in the setting of 2-categories with [[property-like structure]] (e.g. [[2-limits]], [[exponentials]], etc.), as alluded to in Gray's quote, this is an insufficient setting to develop many important concepts in category theory in a way that captures [[enriched category theory]]. For this, it is necessary to consider extra [[structure]]. See the **Approaches** section below.
+
 
 In the other direction of [[higher category theory]] there would be room for "formal" [[(infinity,1)-category theory|$(\infty,1)$-category theory]] via axiomatization of the ([[very large category|very large]]) [[(infinity,2)-category of (infinity,1)-categories|$(\infty,2)$-category of $(\infty,1)$-categories]] $Cat_{(\infty,1)}$ -- the archetypical [[(infinity,2)-topos|$(\infty,2)$-topos]]. 
 
@@ -42,6 +45,7 @@ By analogy, this may be referred to as a *formal theory of $(\infty,1)$-categori
 At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]] this formal $\infty$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
 
 ## Approaches
+ {#Approaches}
 
 Roughly speaking, there are three main approaches to formal category theory:
 
