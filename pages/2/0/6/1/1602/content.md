@@ -208,24 +208,26 @@ $$
 
 whose
 
-* [[object]]s are field configurations on $X$;
+* [[objects]] are field configurations on $X$;
 
-* [[morphism]]s are [[gauge transformation]]s;
+* [[morphisms]] are [[gauge transformations]];
 
-* [[2-morphism]]s are gauge transformations of gauge transformation, 
+* [[2-morphisms]] are gauge transformations of gauge transformation, 
 
 * and so on.
 
-Moreover this cocycle [[∞-groupoid]] is not just a [[discrete ∞-groupoid]] but it naturally has _smooth structure_ : it is naturally a [[smooth ∞-groupoid]]: an [[∞-stack]] over the [[category]] [[SmoothMfd]]. We shall write
+Moreover this cocycle [[∞-groupoid]] is not just a [[discrete ∞-groupoid]] but it naturally has _smooth structure_ making it a [[smooth ∞-groupoid]]: an [[∞-stack]] over the [[category]] [[SmoothMfd]]. We shall write
 
 $$
-  Conf :=
+  Conf
+  \coloneqq
   [X,(\mathbf{B}^{n}U(1) \times \mathbf{B}^{dim X - n-1}U(1))_{conn}]
   \in 
   Smooth\infty Grpd
 $$
 
-for this smooth $\infty$-groupoid of configuration of the physical system -- defined as the [[internal hom]] in terms of the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on the (∞,1)-topos</a> [[Smooth∞Grpd]] of $X \in SmoothMfd \hookrightarrow Smooth\infty Grpd$ into the target object of the higher [[gauge theory]], (this object is discussed in detail <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucDifferentialCohomology">here</a>; it is presented under the [[Dold-Kan correspondence]] by the [[Deligne complex]] of sheaves on [[CartSp]]).
+for this smooth $\infty$-groupoid of configurations of the physical system -- defined as the [[internal hom]] in terms of the [closed monoidal structure on the (∞,1)-topos](infinity1-topos#ClosedMonoidalStructure)
+[[Smooth∞Grpd]] of $X \in SmoothMfd \hookrightarrow Smooth\infty Grpd$ into the target object of the higher [[gauge theory]], (this object is discussed in detail <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucDifferentialCohomology">here</a>; it is presented under the [[Dold-Kan correspondence]] by the [[Deligne complex]] of sheaves on [[CartSp]]).
 
 This smooth structure is characterized by saying that for any $U \in$ [[SmoothMfd]] the $U$-parameterized smooth families of field configurations, gauge transformations, etc. form the [[∞-groupoid]] 
 
@@ -237,7 +239,7 @@ $$
 
 of gauge fields on the [[product]] of [[spacetime]] $X$ with the parameter space $U$. (See for instance [[Lie integration]] and [[connection on an ∞-bundle]] for details on how differential forms on $U \times X$ encode $U$-families of forms on $X$).
 
-This way the configuration space of higher electromagnetism in the presence of electric and magnetic charge is naturally incarnated as an object in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s, and accordingly all the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">differential geometric structures</a> in cohesive $(\infty,1)$-topos are available. In particular we may speak of [[circle n-bundle with connection|line bundle with connection]] on $Conf$, given for instance by morphisms
+This way the configuration space of higher electromagnetism in the presence of electric and magnetic charge is naturally incarnated as an object in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s, and accordingly all the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">differential geometric structures</a> in cohesive $(\infty,1)$-topos are available. In particular we may speak of [[circle n-bundle with connection|line bundles with connection]] on $Conf$, given for instance by morphisms
 
 $$
   Anom_{\hat j_B} : Conf \to \mathbf{B} U(1)_{conn}
@@ -250,7 +252,7 @@ We say
 * the underlying class in [[ordinary cohomology]]
 
   $$
-    [Anom_{\hat j_B}] \in H^1(Conf, U(1))
+    [Anom_{\hat j_B}] \in H^2(Conf, \mathbb{Z})
   $$
 
   is **the anomaly** of the system of higher electromagnetism coupled to electric and magnetic charge;
@@ -258,7 +260,7 @@ We say
 * its [[curvature]] 2-form
 
   $$
-    Curv_{Anom_{\hat j_B}} : Conf \to \mathbf{\flat}_{dR} \mathbf{B}^2 \mathbb{R}
+    Curv_{Anom_{\hat j_B}} : Conf \to \Omega^2_{flat}
   $$
 
   is the **differential anomaly**.
@@ -272,7 +274,7 @@ $$
   \,.
 $$
 
-This means that for every parameter space $U \in $ [[SmoothMfd]] and every morphism $\phi : U \to Conf$ -- which corresponds by the nature of the [[∞-stack]] $Conf$ to a field configuration $(\nabla, \hat j_E) \in C^{n+1}_{diff}(U \times X) \times C^{dim X - n}_{diff}(U \times X)$ -- the pullback of this differential form to $U$ yields the ordinary differential form $\int_X j_E \wedge j_B$ in the image of $(\nabla, \hat j_E)$ under the [[fiber integration]] map
+This means that for every parameter space $U \in $ [[SmoothMfd]] and every morphism $\phi : U \to Conf$ -- which corresponds by the nature of the [[∞-stack]] $Conf$ to a field configuration $(\nabla, \hat j_E) \in C^{n+1}_{diff}(U \times X) \times C^{dim X - n}_{diff}(U \times X)$ -- the pullback of this differential form to $U$ yields the ordinary differential form $\int_X j_E \wedge j_B$ which is the image of $(\nabla, \hat j_E)$ under the [[fiber integration]] map
 
 $$
   \int_X(-) : \Omega^\bullet(U \times X) \to \Omega^\bullet(U)
