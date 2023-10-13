@@ -2,6 +2,11 @@
 
 ## Selected writings
 
+On the [[exact completion]] of the [[classical homotopy category]] $Ho(Top)$ being a [[pretopos]]:
+
+* [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
+
+
 On [[regular categories]] and [[protomodular categories]]:
 
 * [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_, Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
