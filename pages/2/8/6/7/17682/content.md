@@ -7,6 +7,8 @@ A number of researchers have proposed that the [[category theory|category theore
 
 >Side effects are to programming languages what pragmatics are to natural languages: they both study how expressions interact with the worlds of their users. It might then come as no surprise that phenomena such as anaphora, presupposition, deixis and conventional implicature yield a monadic description. ([Mar&#353;&#237;k Amblard 2016, p. 3](#MarAmb16))
 
+## Examples 
+
 In overview papers ([Cohn-Gordon](#Cohn-Gordon), [Asudeh](#Asudeh)), it is proposed that the following topics are explained by specific monads:
 
 1. Conventional implicature: the [[writer monad]]
@@ -20,17 +22,9 @@ In overview papers ([Cohn-Gordon](#Cohn-Gordon), [Asudeh](#Asudeh)), it is propo
 1. Interrogatives: the set monad
 1. Performatives: the [[IO monad]]
 
-* {#Cohn-Gordon} Reuben Cohn-Gordon, _Monad Transformers for Natural Language:Combining Monads to Model Effect Interaction_, [pdf](https://reubenharry.github.io/docs/monads.pdf)
+In ([Burke 1](#Burke1)) it is claimed that hyperintensionality can be analysed via monads and applicatives, while in ([Burke 2](#Burke2)) cross-sentential intensional anaphora is modelled using [[continuation-passing style|continuations]].
 
 
-In both of the following papers ([Burke] (#Burke)), it is claimed that hyperintensionality can be analysed via monads and applicatives, and in the second paper cross-sentential intensional anaphora is modelled using continuations:
-
-*  {#Burke} Luke Burke, _Monads for hyperintensionality? A situation semantics for hyperintensional side effects and intra-sentential anaphora
-_, [pdf]
-(https://www.aclweb.org/anthology/W19-1104.pdf)
-
-*   {#Burke} Luke Burke, _P-HYPE: A monadic situation semantics for hyperintensional side effects_, [pdf]
-(https://semanticsarchive.net/Archive/Tg3ZGI2M/Burke.pdf)
 
 ## Related concepts
 
@@ -47,7 +41,6 @@ For a summary of uses, see
 
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], _Natural Language Semantics with Enriched Meanings_, [pdf](http://www.sas.rochester.edu/lin/sites/asudeh/pdf/esslli2015-course-notes.pdf)
 
-
 These refer to:
 
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2011. Multidimensional Semantics with Unidimensional Glue Logic. In Butt and King 2011, 236&#8211;256.
@@ -59,6 +52,14 @@ These refer to:
 * Shan, Chung-chieh. 2001. _Monads for Natural Language Semantics._ In Kristina Striegnitz, ed., Proceedings of the ESSLLI-2001 Student Session, 285&#8211;298. 13th European Summer School in Logic, Language and Information.
 * Christina Unger, 2011. _Dynamic Semantics as Monadic Computation._ In Manabu Okumura, Daisuke Bekki, and Ken Satoh, eds., New Frontiers in Artificial Intelligence - JSAI-isAI 2011, 68&#8211;81.
 * Simon Charlow, 2014. _On the semantics of exceptional scope_, New York University dissertation.
+
+For work on hypertensionality, see:
+
+*  {#Burke1} Luke Burke, _Monads for hyperintensionality? A situation semantics for hyperintensional side effects and intra-sentential anaphora
+_, [pdf](https://www.aclweb.org/anthology/W19-1104.pdf)
+
+*  {#Burke2} Luke Burke, _P-HYPE: A monadic situation semantics for hyperintensional side effects_, [pdf](https://semanticsarchive.net/Archive/Tg3ZGI2M/Burke.pdf)
+
 
 For the specific use of [[continuation-passing style]] techniques, see
 
