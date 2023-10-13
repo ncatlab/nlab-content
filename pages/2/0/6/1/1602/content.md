@@ -52,7 +52,7 @@ A **Green--Schwarz mechanism** is the addition of an action functional for highe
 In the more strict and original sense of the word, _the_ Green--Schwarz mechanism is the application of this procedure in the theory called [[heterotic string theory|heterotic supergravity]]: there it so happens that the Pfaffian line bundle of the fermionic action has as [[Chern class]] the [[transgression]] of a degree-12 class in [[ordinary differential cohomology]] that factorizes as $I_8 \wedge I_4$. Since heterotic supergravity contains a higher gauge field that couples to [[string theory|strings]], this is precisely of the form $J_{electric} \wedge J_{magnetic}$ that the anomaly for the corresponding higher gauge theory in the presence of magnetic charges gives rise to. So the original Green--Schwarz anomaly cancellation mechanism consist of modifying the "naive" action functional for heterotic supergravity by adding the contribution that corresponds to adding a magnetic current of the form
 
 $$
-  j_B := I_4
+  j_B \,\coloneqq\, I_4
   \,.
 $$
 
@@ -81,75 +81,105 @@ $$
 The abelian [[Yang-Mills action functional]] for our gauge field (the [[action functional]] of higher order [[electromagnetism]]) is the [[function]]
 
 $$
-  \exp(i S_{YM}(-)) : H_{diff}^{n+1}(X) \to \mathbb{C}
+  \exp\big(
+    \mathrm{i} S_{YM}(-)
+  \big) 
+  \;\colon\; 
+  H_{diff}^{n+1}(X) \to \mathbb{C}
 $$
 
 that sends the field $\nabla$
 
 $$
-  \exp(i S_{YM}(-))
-    : 
+  \exp\big( \mathrm{i} S_{YM}(-)\big)
+  \;\colon\; 
   [\nabla] 
    \mapsto 
-  \exp(-i \int_X F_\nabla \wedge \star F_\nabla)
+  \exp\big(
+    - \mathrm{i} 
+    \textstyle{\int}_X F_\nabla \wedge \star F_\nabla
+  \big)
 $$
 
 to the [[exponential]] of the [[integral]] over the [[spacetime]] $X$ of the  [[differential form]] obtained as the [[wedge product]] of the [[curvature form]] with its image under the [[Hodge star operator]] correspondonding to the [[pseudo-Riemannian manifold|pseudo-Riemannian metric]] on $X$.
 
-The fact that this map [[function]] defined in terms of [[cocycle]]s is a well defined function on [[cohomology]] means that the [[action functional]] is [[gauge transformation|gauge invariant]]. At this point this is just the trivial statement that under a [[gauge transformation]]
+The fact that this [[map]] defined in terms of [[cocycles]] is a well defined function on [[cohomology]] means that the [[action functional]] is [[gauge transformation|gauge invariant]]. At this point this is just the trivial statement that under a [[gauge transformation]]
 
 $$
   \nabla \stackrel{g}{\to} \nabla'
 $$
 
-the [[curvature]] invariant: $F_\nabla = F_{\nabla'}$.
+the [[curvature]] is invariant (due to the [[infinity-group|higher]] [[gauge group]] being [[abelian infinity-group|abelian]]): $F_\nabla = F_{\nabla'}$.
 
 
 
 ### ... with electric charge ...
   {#WithElectricCharge}
 
-The [above](#YMactionfunctional) [[action functional]] describes the dynamics of the [[gauge field]] all by itself, with no interactions with other fields or with [[relativistic particle|fundamental particle]]s/[[brane|fundamental brane]]s.
+The [above](#YMactionfunctional) [[action functional]] describes the dynamics of the [[gauge field]] all by itself, with no interactions with other fields or with [[relativistic particle|fundamental particles]]/[[brane|fundamental branes]].
 
 A distribution of  $n$-[[electric charge]] on $X$ is modeled itself by a [[cocycle]] $\hat j_E$ in [[ordinary differential cohomology]] in degree $dim X - n$
 
 $$
-  [\hat j_E] \in H_{diff}^{dim X - n}(X)
-  \,.
+  [\hat j_E] 
+    \;\in\; 
+  H_{diff}^{dim X - n}(X)
+  \,,
 $$
 
-The [[curvature]] $j_E$ of $\hat j_E$ is the [[electric current]] form. The [[action functional]] that encodes the [[force]] of the [[gauge field]] exerted on this electric charge distribution is locally on [[coordinate chart]]s $U \subset X$ given by the [[integral]] $\int_X A_U \wedge j_E$, where $A_U$ is the local [[connection on an infinity-bundle|connection]] $n$-form of the gauge field $\nabla$.
+so that the [[curvature]] $j_E$ of $\hat j_E$ is the [[electric current]] form. The [[action functional]] that encodes the [[Lorentz force]] of the [[gauge field]] exerted on this electric charge distribution is locally on [[coordinate charts]] $U \subset X$ given by the [[integral]] $\int_X A_U \wedge j_E$, where $A_U$ is the local [[connection on an infinity-bundle|connection]] $n$-form of the gauge field $\nabla$.
 
 Globally, this contribution is given by the push-forward 
 
 $$
-  2 \pi i\int_X (-) : H_{diff}^{dim X}(X) \to H_{diff}^0(*) = U(1)
+  2 \pi \mathrm{i}
+  \textstyle{\int}_X (-) 
+  \;\colon\; 
+  H_{flat}^{dim X + 1}(X) \to H_{flat}^1(*) 
+  \;=\; 
+  U(1)
+  \,.
 $$ 
 
 of the [[cup product]] $\hat j_E \cdot \nabla$ in [[ordinary differential cohomology]].
 
-In total the [[action functional]] of higher abelian [[Yang-Mills theory]] in the presence of [[electric charge]] is the [[function]]
+In total then, the [[action functional]] of higher abelian [[Yang-Mills theory]] in the presence of [[electric charge]] is the [[function]]
 
 $$
-  \exp(i S_{YM}(-) + i S_{el}(-)) 
-    :
+  \exp\big(
+    \mathrm{i} 
+    S_{YM}(-) 
+      + 
+    \mathrm{i} 
+    S_{el}(-)
+  \big) 
+    \;\;\colon\;\;
   H^{n+1}_{diff}(X) 
    \times
   H^{dim X - n}_{diff}(X)
-   \to
+   \longrightarrow
   \mathbb{C}
 $$
 
 given by
 
 $$
-  ([\nabla], [\hat j_E]) 
-     \mapsto
-  \exp(i \int_X F_\nabla \wedge \star F_\nabla)
-  \exp(2 \pi i \int_X \hat j_E \cdot \nabla)
+  \big(
+    [\nabla], [\hat j_E]
+  \big) 
+     \;\mapsto\;
+  \exp\big(
+    \mathrm{i} 
+    \textstyle{\int}_X F_\nabla \wedge \star F_\nabla
+  \big)
+  \,
+  \exp\big(
+    2 \pi \mathrm{i} \int_X \hat j_E \cdot \nabla
+  \big)
   \,.
 $$
 
+&lbrack;cf. [Freed 2002 (2.17)](#Freed00)&rbrack;
 
 ### ... and with magnetic charge.
 
@@ -161,11 +191,13 @@ The [[magnetic charge]] distribution itself is also modeled as a  [[cocycle]] $\
 Namely the kinematic higher [[Maxwell equations]] is a condition of the form
 
 $$
-  d F_\nabla = j_B
+  \mathrm{d} F_\nabla 
+    \;=\; 
+  j_B
   \,,
 $$
 
-where $j_B$ is the [[magnetic charge]] distribution. If $F_\nabla$ is the [[curvature]] of a [[circle n-bundle with connection]], then necessarily $d F_\nabla = 0$. Therefore the system of higher electromagnetism in the presence of magnetic charge cannot be modeled any more by [[cocycle]]s in [[ordinary differential cohomology]].
+where $j_B$ is the [[magnetic charge]] distribution. If $F_\nabla$ is the [[curvature]] of a [[circle n-bundle with connection]], then necessarily $d F_\nabla = 0$. Therefore the system of higher electromagnetism in the presence of magnetic charge cannot be modeled any more by [[cocycles]] in [[ordinary differential cohomology]].
 
 One finds instead that one has to model $\nabla$ not as a [[circle n-bundle with connection]], but as an $n$-[[twisted bundle]] with connection, where the [[twisted cohomology|twist]] is $\hat j_B$. 
 
@@ -174,29 +206,48 @@ We shall write $C^{n+1}_{diff}(X)_{\hat j_B}$ for the [[∞-groupoid]] of twiste
 the [above](#WithElectricCharge) expression 
 
 $$
-  \exp(i S_{el}(\nabla, \hat j_E)) 
-    :
-    \exp(2 \pi i \int_X \hat j_E \cdot \nabla)
+  \exp\big(
+    \mathrm{i} 
+       S_{el}(\nabla, \hat j_E)
+  \big) 
+    \;\colon\;
+  \exp\big(
+    2 \pi \mathrm{i} 
+    \textstyle{\int}_X \hat j_E \cdot \nabla
+  \big)
 $$
 
 for the electric coupling can still be given sense, even with $\nabla \in C^{n+1}_{diff}(X)_{\hat j_B}$, but it no longer has the interpretation of a [[circle group]]-valued [[function]]. Rather, it has now the interpretation of a [[section]] of a [[line bundle]] 
 
-$$
-  \array{
-    && Anom_{\hat j_B}
-    \\
-     & {}^{\mathllap{\exp(S_{el})}}\nearrow & \downarrow
-    \\
-    Conf &=& Conf
-  }
-$$
+
+\begin{tikzcd}[sep=30pt]
+  &
+  \mathrm{Anom}_{\hat j_B}
+  \ar[d, ->>]
+  \\
+  \mathrm{Conf}
+  \ar[r, equals]
+  \ar[
+    ur, 
+    dashed,
+    "{
+      \exp(\mathrm{i} S_{el})
+    }"
+  ]
+  &
+  \mathrm{Conf}
+\end{tikzcd}
 
 on configuration space. The [[characteristic class]] of this line bundle -- its  [[Chern class]] -- is hence the _magnetic anomaly_ in higher gauge theory.
+
+&lbrack;cf. [Freed 2002 (2.29)](#Freed00)&rbrack;
+
 
 In the next section we formalize properly the notion of this line bundle on configuration space.
 
 
 ### The anomaly line bundle
+ 
 
 In order to formalize this we have to refine the formalization of the structure of the configuration space. So far we had regarded the [[set]] $H^{dim X - n}_{diff}(X) \times H_{diff}^{n+1}(X)$ of gauge equivalence classes of field configurations. This is the set of connected components of the full [[cocycle]] [[∞-groupoid]]
 
@@ -216,14 +267,22 @@ whose
 
 * and so on.
 
-Moreover this cocycle [[∞-groupoid]] is not just a [[discrete ∞-groupoid]] but it naturally has _smooth structure_ making it a [[smooth ∞-groupoid]]: an [[∞-stack]] over the [[category]] [[SmoothMfd]]. We shall write
+Moreover, this cocycle [[∞-groupoid]] is not just a [[discrete ∞-groupoid]] but it naturally has _smooth structure_ making it a [[smooth ∞-groupoid]]: an [[∞-stack]] over the [[category]] [[SmoothMfd]]. We shall write
 
 $$
   Conf
-  \coloneqq
-  [X,(\mathbf{B}^{n}U(1) \times \mathbf{B}^{dim X - n-1}U(1))_{conn}]
-  \in 
-  Smooth\infty Grpd
+  \;\coloneqq\;
+  \Big[
+    X
+    ,\,
+    \big(
+      \mathbf{B}^{n}U(1) 
+        \times 
+      \mathbf{B}^{dim X - n-1}U(1)
+    \big)_{conn}
+  \Big]
+  \;\in\; 
+  SmoothGrpd_{\infty}
 $$
 
 for this smooth $\infty$-groupoid of configurations of the physical system -- defined as the [[internal hom]] in terms of the [closed monoidal structure on the (∞,1)-topos](infinity1-topos#ClosedMonoidalStructure)
@@ -242,12 +301,15 @@ of gauge fields on the [[product]] of [[spacetime]] $X$ with the parameter space
 This way the configuration space of higher electromagnetism in the presence of electric and magnetic charge is naturally incarnated as an object in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s, and accordingly all the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">differential geometric structures</a> in cohesive $(\infty,1)$-topos are available. In particular we may speak of [[circle n-bundle with connection|line bundles with connection]] on $Conf$, given for instance by morphisms
 
 $$
-  Anom_{\hat j_B} : Conf \to \mathbf{B} U(1)_{conn}
+  Anom_{\hat j_B} 
+  \;\colon\; 
+  Conf \to \mathbf{B} U(1)_{conn}
+  \,.
 $$
 
 in [[Smooth∞Grpd]].
 
-We say
+We say that:
 
 * the underlying class in [[ordinary cohomology]]
 
@@ -260,7 +322,9 @@ We say
 * its [[curvature]] 2-form
 
   $$
-    Curv_{Anom_{\hat j_B}} : Conf \to \Omega^2_{flat}
+    Curv_{Anom_{\hat j_B}} 
+    \;\colon\; 
+    Conf \to \Omega^2_{flat}
   $$
 
   is the **differential anomaly**.
@@ -269,15 +333,19 @@ One finds that this curvature 2-form is given by the [[fiber integration]] of th
 
 $$
   Curv_{Anom_{\hat j_B}}
-   =
-   \int_X j_E \wedge j_B
+   \,=\,
+  \textstyle{\int}_X 
+  \,
+  j_E \wedge j_B
   \,.
 $$
 
 This means that for every parameter space $U \in $ [[SmoothMfd]] and every morphism $\phi : U \to Conf$ -- which corresponds by the nature of the [[∞-stack]] $Conf$ to a field configuration $(\nabla, \hat j_E) \in C^{n+1}_{diff}(U \times X) \times C^{dim X - n}_{diff}(U \times X)$ -- the pullback of this differential form to $U$ yields the ordinary differential form $\int_X j_E \wedge j_B$ which is the image of $(\nabla, \hat j_E)$ under the [[fiber integration]] map
 
 $$
-  \int_X(-) : \Omega^\bullet(U \times X) \to \Omega^\bullet(U)
+  \textstyle{\int}_X(-) 
+  \;\colon\; 
+  \Omega^\bullet(U \times X) \to \Omega^\bullet(U)
   \,.
 $$
 
@@ -291,15 +359,17 @@ We can now state the **Green-Schwarz mechanism** itself.
 Let $\hat Conf \in $ [[Smooth∞Grpd]] be the configuration space of a physical system that contains among its fields higher abelian gauge theory with [[electric charge]] with configuration space $Conf$
 
 $$
-  \hat Conf = Conf_{rest} \times Conf
+  \hat Conf \,=\, Conf_{rest} \times Conf
 $$
 
 and equipped with an [[action functional]]
 
 
 $$
-  \exp(i S_{rest}(-) + i S_{el}(-))
-  : 
+  \exp\big(
+    \mathrm{i} S_{rest}(-) + \mathrm{i} S_{el}(-)
+  \big)
+  \;\colon\;
   \hat Conf \to Anom_{rest}
 $$
 
@@ -318,42 +388,52 @@ $$
 such that the [[curvature]] 2-form of $Anom_{tot}$ happens to be of the form
 
 $$
-  Curv{Anom_{ref}} = \int_X I_{n+2} \wedge I_{(dim X - n)}
+  Curv{Anom_{ref}} 
+  \,=\, 
+  \textstyle{\int}_X I_{n+2} \wedge j_{el}
   \,,
 $$
 
 for some $I_{n+2} \in \Omega^{n+2}_{cl}(X)$ and 
-$I_{dim X - n} \in \Omega^{dim X - n}(X)$.
+$j_{el} \in \Omega^{dim X - n}(X)$.
 
 
-Then the **Green-Schwarz mechanism** is the map that changes this physical system by adding magnetic charge to it, given by a cocycle 
-$\hat j_B$ with
-
-$$
-  [\hat j_B] = - [Anom_{rest}]
-$$
+Then the **Green-Schwarz mechanism** is the map that changes this physical system by adding magnetic charge to it, given by a cocycle  $\hat j_B$ with
 
 $$
-  j_B = - I_{dim X - n}
+  [\hat j_B] 
+  \,=\, 
+  - [Anom_{rest}]
+$$
+
+$$
+  j_B 
+  \,=\, 
+  - I_{n+2}
   \,.
 $$
 
-This means by the above that the new [[action functional]] is now a section 
+This means, by the above, that the new [[action functional]] is now a section 
 
 $$
-  \exp(i S_{rest}(-) + i S_{el}(-))
-  : 
-  Conf_{rest} \times Conf \to Anom_{rest} \otimes Anom_{\hat j_B} 
+  \exp\big(
+    \mathrm{i} S_{rest}(-) + \mathrm{i} S_{el}(-)
+  \big)
+  \,\colon\, 
+  Conf_{rest} \times Conf 
+    \to 
+  Anom_{rest} \otimes Anom_{\hat j_B} 
 $$
 
 of the [[tensor product]] of the two anomaly line bundles. 
-The [[Chern class]] of the tensor product is the sum of the two Chern-classes, hence by definition of $j_B$ they cancel, so that $Anom_{rest} \otimes Anom_{\hat j_B}$ is trivializatable as a line bundle with connection.
+The [[first Chern class]] of the tensor product is the sum of the two 1st Chern-classes, hence by definition of $j_B$ they cancel, so that $Anom_{rest} \otimes Anom_{\hat j_B}$ is trivializatable as a line bundle with connection.
 
 A choice of such trivialization identifies the section then with an ordinary function
 
 $$
-  \exp(i S_{rest}(-) + i S_{el}(-))
-  : 
+  \exp\big(
+    \mathrm{i} S_{rest}(-) + \mathrm{i} S_{el}(-)\big)
+  \;\colon\; 
   Conf_{rest} \times Conf \to U(1) 
   \,.
 $$
@@ -547,7 +627,7 @@ A clear and precise account of what the relevant anomalies are and what the Gree
 
 Review, broader context and further discussion is given in
 
-* [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
+* {#Freed00} [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry **7** (2002) 129-194  &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6)&rbrack;
 
 
 An account of historical developments is in section 7 of
