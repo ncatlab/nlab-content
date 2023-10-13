@@ -17,6 +17,11 @@ On [[regular and exact completions]] (and on [[free coproduct completions]] etc.
 * [[Aurelio Carboni]], [[Enrico Vitale]], *Regular and exact completions*, Journal of Pure and Applied Algebra **125** 1–3  (1998) 79-116 (<a href="https://doi.org/10.1016/S0022-4049(96)00115-6">doi:10.1016/S0022-4049(96)00115-6</a>)
 
 
+On the [[exact completion]] of the [[classical homotopy category]] $Ho(Top)$ being a [[pretopos]]:
+
+* [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
+
+
 On [[Beck's theorem]] for [[pseudomonads]] ([[higher monadic descent]]):
 
 * I. J. Le Creurer, [[Francisco Marmolejo]], [[Enrico M. Vitale]], _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra **173** 3 (2002) 293-313 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00038-5">doi:10.1016/S0022-4049(02)00038-5</a>&rbrack;
