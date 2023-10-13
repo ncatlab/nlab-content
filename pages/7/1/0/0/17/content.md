@@ -599,20 +599,20 @@ or sometimes
 
 which contains a bullet list of relevant references. A standard way to format an entry is this list is the following:
 
-      * {#LastnameAnotherlastnameYear} <nowiki>[[Firstname Lastname]]</nowiki>, <nowiki>[[Anotherfirstname Anotherlastname]]</nowiki>, _Title_, Journal, volume, year (<nowiki>[arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy)</nowiki>, <nowiki>[doi:xyz](http://doi.xyz)</nowiki>)
+      * {#LastnameAnotherlastnameYear} <nowiki>[[Firstname Lastname]]</nowiki>, <nowiki>[[Anotherfirstname Anotherlastname]]</nowiki>, _Title_, Journal **volume** issue (year) firstpage-lastpage <nowiki>&lbrack;[arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy)</nowiki>, <nowiki>[doi:xyz](http://doi.xyz)&rbrack;</nowiki>
 
 which comes out as
 
->  * {#LastnameAnotherlastnameYear} [[HowTo|Firstname Lastname]], [[HowTo|Anotherfirstname Anotherlastname]], _Title_, Journal, volume, year ([arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy), [doi:xyz](http://doi.xyz))
+>  * {#LastnameAnotherlastnameYear} [[HowTo|Firstname Lastname]], [[HowTo|Anotherfirstname Anotherlastname]], _Title_, Journal **volume** issue (year) firstpage-lastpage &lbrack;[arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy), [doi:xyz](http://doi.xyz)&rbrack;
 
 
 Given such an item in the list of references, a standard way to reference it from the main text of the entry is as follows:
 
-      see (<nowiki>[Lastname-Anotherlastname Year, theorem 1.3](#LastnameAnotherlastnameYear)</nowiki>)
+      see (<nowiki>[Lastname & Anotherlastname Year, theorem 1.3](#LastnameAnotherlastnameYear)</nowiki>)
 
 which comes out at 
 
-> see ([Lastname-Anotherlastname Year, theorem 1.3](#LastnameAnotherlastnameYear))
+> see ([Lastname & Anotherlastname Year, theorem 1.3](#LastnameAnotherlastnameYear))
 
 This produces a hyperlink, and in fact such that following it brings up the above bullet item highlighted by a gray box.
 
