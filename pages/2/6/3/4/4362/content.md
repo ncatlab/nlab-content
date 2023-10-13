@@ -14,16 +14,18 @@
 =--
 
 
-This entry is about the article
+This entry collects links related to the article:
 
 
-* [[Daniel Freed]], 
+* [[Daniel Freed]]:
 
-  _Dirac charge quantization and generalized differential cohomology_, 
+  \linebreak
 
-  Surveys in Differential Geometry, 
+  **Dirac charge quantization and generalized differential cohomology_
 
-  Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 
+  \linebreak
+
+  Surveys in Differential Geometry **7** (2002) 129-194
 
   [arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220)
 
