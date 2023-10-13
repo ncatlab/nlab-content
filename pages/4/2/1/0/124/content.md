@@ -175,6 +175,7 @@ In a topos [[epimorphism]]s are stable under [[pullback]] and hence the [[(epi, 
 While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
 
 
+
 ### Reasoning in a topos 
 
 Any result in [[ordinary mathematics]] whose proof is [[finite mathematics|finitist]] and [[constructive mathematics|constructive]] automatically holds in any topos.  If you remove the restriction that the proof be finitist, then the result holds in any topos with a [[natural numbers object]]; if you remove the restrictions that the proof be constructive, then the result holds in any [[boolean topos]].  On the other hand, if you add the restriction that the proof be predicative in the weaker sense used by constructivists, then the result may fail in some toposes but holds in any $\Pi$-[[Pi-pretopos|pretopos]]; if you add the restriction that the proof be predicative in a stronger sense, then the result holds in any [[Heyting pretopos]].
@@ -290,43 +291,44 @@ For various applications one uses toposes that have [[stuff, structure, property
   {#References}
 
 ### Introductions
+ {#Introductions}
 
-Introductions to [[topos theory]] include 
+Brief expositions:
 
-* [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
+* [[Ieke Moerdijk]], *Background in topos theory*, chapter I in: _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics **1616**, Springer (1995) &lbrack;[doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441)&rbrack;
 
-* {#Wyler} [[Oswald Wyler]], _Lecture Notes on Topoi and Quasitopoi_, World Scientific (1991) &lbrack;[doi:10.1142/1047](https://doi.org/10.1142/1047)&rbrack;
+* [[Luc Illusie]], *What is... a Topos?*, Notices of the AMS **51** 9 (2004) &lbrack;[pdf](https://www.ams.org/notices/200409/what-is-illusie.pdf), full volume:[pdf](https://www.ams.org/notices/200409/200409FullIssue.pdf)&rbrack;
 
-* [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
+* [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010) &lbrack;[arXiv:1012.5647](https://arxiv.org/abs/1012.5647)&rbrack;
 
-* [[Francis Borceux]], _Some glances at topos theory_, [pdf](https://tcsc.lakecomoschool.org/files/2018/01/Borceux.pdf).
+* [[John Baez]], *Topos Theory in a Nutshell* (2021) &lbrack;[web](http://math.ucr.edu/home/baez/topos.html)&rbrack;
 
-An introduction amplifying the simple but important case of [[presheaf toposes]] is
+* MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
 
-* Marie La Palme Reyes, [[Gonzalo E. Reyes]], Houman Zolfaghari,
-_Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008), ISBN: 8876990046.
-[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf).
 
-A quick introduction of the basic facts of [[Grothendieck topos]] theory is Chapter I, "Background in topos theory" in 
+Lecture notes:
 
-* [[Ieke Moerdijk]], _[[Classifying Spaces and Classifying Topoi]]_, Lecture Notes in Mathematics 1616 (1995), Springer
+* [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
 
-Course notes covering both [[Grothendieck toposes]] and the [[effective topos]]:
+* {#Wyler} [[Oswald Wyler]], *Lecture Notes on Topoi and Quasitopoi*, World Scientific (1991) &lbrack;[doi:10.1142/1047](https://doi.org/10.1142/1047)&rbrack;
+
+
+* {#Joyal15} [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), Paris (November 2015)
+
+* [[André Joyal]], _Geometric aspects of topos theory in relation with logical doctrines_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kaZpOEOAUzE))
 
 * [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos Theory_, Master class notes (2007) &lbrack;[pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)&rbrack;
 
 * [[Jaap van Oosten]], *Topos Theory* (2018) &lbrack;[pdf](https://webspace.science.uu.nl/~ooste110/syllabi/topostheory.pdf), [[vanOosten-ToposTheory.pdf:file]]&rbrack;
 
+* [[Francis Borceux]], *Some glances at topos theory*, lecture notes, Como (2018) &lbrack;[pdf](https://tcsc.lakecomoschool.org/files/2018/01/Borceux.pdf), [[Borceux-ToposTheory.pdf:file]], [video playlist](https://www.youtube.com/watch?v=s_fN9euuVAY&list=PLh_3Q6ZRqWs0LBptMGClJ8OArR0fBT6Pp&index=11)&rbrack;
 
-A gentle basic introduction is 
+A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
-* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
+* [[Marie La Palme Reyes]], [[Gonzalo E. Reyes]], [[Houman Zolfaghari]], _Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008) &lbrack;[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf), ISBN:8876990046&rbrack;
 
-### Videos
 
-* [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos à l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
 
-* MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
 
 
 
