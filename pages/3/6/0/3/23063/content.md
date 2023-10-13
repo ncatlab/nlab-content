@@ -69,7 +69,7 @@ In nice settings, e.g. in [[enriched category theory]] for a well-behaved [[base
 
 For instance, one may not in general have a [[presheaf category]]-construction or [[free cocompletion]], and so Yoneda structures and lax-idempotent pseudomonads are not applicable in general. Without enough [[coequalisers]] in the base, [[distributors]] do not compose, and so proarrow equipments and fibrant double categories are not applicable.
 
-The most general settings are those of [[virtual equipments]] and augmented virtual equipments. Here it is possible to formalise presheaves (as in the work of Koudenberg), thus recovering Yoneda structures; as well as free cocompletions (though not yet in the literature), and so these approaches subsume the others. 
+The most general settings are those of [[virtual equipments]] and augmented virtual equipments. Here it is possible to formalise presheaves (as in the work of Koudenburg), thus recovering Yoneda structures; as well as free cocompletions (though not yet in the literature), and so these approaches subsume the others. 
 
 Technically, augmented virtual equipments generalise virtual equipments, but it is not clear that there are examples captured by the former that cannot be captured by the latter by making appropriate modifications. 
 
