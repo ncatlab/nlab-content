@@ -45,3 +45,4 @@ This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. 
 
 [[!redirects framed bicategories]]
 [[!redirects fibrant double category]]
+[[!redirects fibrant double categories]]
