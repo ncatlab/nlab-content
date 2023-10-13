@@ -35,7 +35,7 @@ A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\O
 
 * Let $\mathbb{T}$ be a [[geometric theory]] over the signature $\Sigma$. Then $\mathbb{T}$ is called [[complete theory|complete]] if every geometric sentence $\varphi$ over $\Sigma$ is $\mathbb{T}$-provably equivalent to either $\top$ or $\bottom\; ,$ but not both. A geometric theory $\mathbb{T}$ is complete precisely iff its [[classifying topos]] $Set[\mathbb{T}]$ is two-valued (Caramello [2012](#Ca12), remark 2.5).
 
-* Being two-valued is different from saying that $\Omega\cong 1\coprod 1$: The latter property characterizes [[Boolean topos|Boolean toposes]] but a Boolean topos is not necessarily two-valued - the easist consistent example possibly being $Set\times Set$ which is four-valued, more complicated ones often arising in intermediates steps in set-theoretic [[forcing]] (cf. [[continuum hypothesis]]). There exists a general _filter quotient construction_ turning a Boolean topos into a two-valued Boolean topos (cf. Mac Lane-Moerdijk [1994](#MM94), pp.256ff, 274). 
+* Being two-valued is different from saying that $\Omega\cong 1\coprod 1$: The latter property characterizes [[Boolean topos|Boolean toposes]] but a Boolean topos is not necessarily two-valued - the easiest consistent example possibly being $Set\times Set$ which is four-valued, more complicated ones often arising in intermediates steps in set-theoretic [[forcing]] (cf. [[continuum hypothesis]]). There exists a general _filter quotient construction_ turning a Boolean topos into a two-valued Boolean topos (cf. Mac Lane-Moerdijk [1994](#MM94), pp.256ff, 274). 
 
 ## Examples
 
