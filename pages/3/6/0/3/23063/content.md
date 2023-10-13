@@ -1,53 +1,34 @@
-
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Category theory
-+-- {: .hide}
-[[!include category theory - contents]]
-=--
-#### 2-category theory
-+--{: .hide}
-[[!include 2-category theory - contents]]
-=--
-=--
-=--
-
-#Contents#
-* table of contents
-{: toc}
-
 ## Idea
 
-The idea of **formal category theory**  is to handle the fundamental notions and constructions of [[category theory]] -- such as [[adjoint functors]], [[monads]], [[limits]], etc. -- [[axiom|axiomatically]].
+There are many flavours of category:
 
+- ordinary [[categories]]
+- [[enriched categories]]
+- [[internal categories]]
+- [[fibred categories]]
+- [[indexed categories]]
+- [[monoidal categories]]
 
-In the words of [Gray 1974, p. VII](#Gray74):
+and so on. In each flavour of category theory, one finds essentially the same definitions and theorems:
 
+- [[presheaves]] and the [[Yoneda lemma]]
+- [[adjunctions]] and [[adjoint functor theorems]]
+- [[monads]] and [[monadicity theorems]]
+- theories of [[accessible category|accessible]] and [[locally presentable categories]] and [[Gabriel--Ulmer duality|duality theorems]]
 
-> The purpose of category theory is to try to describe certain general aspects of the structure of mathematics.  Since category theory is also part of mathematics, this categorical type of description should apply to it as well as to other parts of mathematics. $[\dots]$
+and so on. Rather than define these concepts and prove these theorems in each of the different flavours of category theory independently (as has been done traditionally), one would rather be able to define these concepts and prove these theorems abstractly, and then specialise to each of these flavours, obtaining for instance the statements for enriched category theory as a corollary of the more abstract version. This is the motivation for formal category theory.
 
-> The basic  idea is that the category of small categories, $Cat$, is a 2-category with properties and that one  should attempt to identify those properties  that  enable one to do the "structural parts of category theory".
-
-Early approaches to formal category theory took place in the setting of plain [[2-categories]] with [[property-like structure]] (e.g. [[2-limits]], [[exponentials]], etc.), as alluded to in Gray's quote above. (But to capture also [[enriched category theory]] it is necessary to consider extra [[structure]], see the *[Approaches](#Approaches)* below.)
-
-
-This is analogous to -- in fact is a [[categorification]] of -- how ([[structural set theory|structural]]) [[set theory]] may be understood as the study of the [[1-category]] [[Set]] of all [[sets]], whose good abstract properties are largely captured by understanding it as being the archetypical [[topos]] ("1-topos").
-
-
-
-In the other direction of [[higher category theory]] there would be room for "formal" [[(infinity,1)-category theory|$(\infty,1)$-category theory]] via axiomatization of the ([[very large category|very large]]) [[(infinity,2)-category of (infinity,1)-categories|$(\infty,2)$-category of $(\infty,1)$-categories]] $Cat_{(\infty,1)}$ -- the archetypical [[(infinity,2)-topos|$(\infty,2)$-topos]]. 
-
-While this has not been developed, it is interesting to observe ([Riehl & Verity 13](#RiehlVerity13), following [Joyal 08](#Joyal08) [p. 158](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=10)) that already its truncation down to a plain [[2-category]] $2Ho\big( Cat_{(\infty,1)}\big)$ -- the [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category of $(\infty,1)$-categories]] -- retains much of the interesting structure of [[(infinity,1)-category theory|$(\infty,1)$-category theory]]. For example, formal [[2-category theory|2-category theoretic]] [[adjunctions]] -- as envisioned by [Gray 1974](#Gray74) in $Cat$, but now interpreted in $2Ho\big( Cat_{(\infty,1)}\big)$ -- turn out to encode the correct notion of [[adjoint (infinity,1)-functors|adjoint $(\infty,1)$-functors]] (see [there](adjoint+infinity1-functor#InTheHomotopy2Category) for more).
-
-By analogy, this may be referred to as a *formal theory of $(\infty,1)$-categories* ([Riehl 2021](#Riehl21)).
-
-At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]] this formal $\infty$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
+**Formal category theory** may be thought of as applying the philosophy of category theory to category theory itself. Typically, this takes the form of applying 2-dimensional category theories (e.g. [[2-category|2-category theory]] or [[double category|double category theory]]) to study 1-dimensional category theory. This may be viewed as a [[synthetic mathematics|synthetic]] approach to category theory.
 
 ## Approaches
- {#Approaches}
 
-Roughly speaking, there are three main approaches to formal category theory in the generality that captures not just plain categories, but also [[internal categories]], [[fibered category|fibered]]/[[indexed categories]] and notably [[enriched categories]]:
+An important question is: what is the appropriate setting in which to study the formal theory of categories? There is not one obvious answer, and several approaches have been proposed in the literature.
+
+Roughly speaking, there are four main approaches (listed in chronological order of the first time they were proposed).
+
+1. [[2-categories]] with [[property-like structure]]
+
+  (cf. [Gray 1974](#Gray74))
 
 1. [[Yoneda structures]] 
 
@@ -61,22 +42,37 @@ Roughly speaking, there are three main approaches to formal category theory in t
 
    (cf. [Bunge & Funk 1999](lax-idempotent+2-monad#BF99))
 
-Most recent authors take the second approach (although the precise formalism varies). The relationship between the approaches, for the most part, is not laid out clearly in the literature, but a basic intuition is that:
+The relationship between the approaches, for the most part, is not laid out clearly in the literature, but a basic intuition is that:
+
+1. [[2-categories]] may be equipped with various [[property-like structure]] possessed by the 2-category [[Cat]], e.g. [[2-limits]] and [[2-colimits]], [[exponentials]], etc.
 
 1. Yoneda structures are based on formalising the [[category of presheaves|presheaf construction]].
 
 1. Proarrow equipments and related structures are based on formalising [[distributors]]/[[profunctors]].
 
-1. Lax-idempotent pseudomonads are based on formalising the [[free cocompletion]]-construction.
+1. Lax-idempotent pseudomonads (also called **KZ-doctrines**) are based on formalising the [[free cocompletion]]-construction.
 
-In nice settings, e.g. in [[enriched category theory]] for a well-behaved [[base of enrichment]] (eg. a [[Bénabou cosmos]]) all three approaches are viable. However, with weaker assumptions, not all of them are. 
+The first, purely 2-categorical, approach is unsufficient to capture [[enriched categories]] (though captures many aspects of ordinary and internal category theory), and is therefore not viable as a general approach to formal category theory.
 
-For instance, one may not in general have a [[presheaf category]]-construction or [[free cocompletion]], and so Yoneda structures and lax-idempotent pseudomonads are not applicable in general. Without enough [[coequalisers]] in the base, [[distributors]] do not compose, and so proarrow equipments and fibrant double categories are not applicable.
+On the other hand, in nice settings, e.g. in [[enriched category theory]] for a well-behaved [[base of enrichment]] (eg. a [[Bénabou cosmos]]), approaches (2 -- 4) are all viable, and are distinguished primarily by their methodology. However, in weaker settings, some approaches are no longer viable.
 
-The most general settings are those of [[virtual equipments]] and augmented virtual equipments. Here it is possible to formalise presheaves (as in the work of Koudenburg), thus recovering Yoneda structures; as well as free cocompletions (though not yet in the literature), and so these approaches subsume the others.
+For instance, one may not in general have a [[presheaf category]]-construction or [[free cocompletion]], and so Yoneda structures and [[lax-idempotent pseudomonads]] are not applicable in general. Without enough [[coequalisers]] in the base, [[distributors]] do not compose, and so proarrow equipments and fibrant double categories are not applicable. For instance, for a general [[monoidal category]] $V$, only the formalisms of [[virtual equipments]] and [[augmented virtual equipments]] capture the structure of $V$-[[enriched categories]]. These are thus the most general approaches to formal category theory. Here it is possible to formalise [[presheaves]] as in [Koudenburg 2022](#Koudenburg22), thus recovering [[Yoneda structure]]; as well as free cocompletions (though this had not been developed in the literature): these approaches consequently strictly subsume the others.
 
+## Formal higher category theory
+
+In the other direction of [[higher category theory]] there would be room for "formal" [[(infinity,1)-category theory|$(\infty,1)$-category theory]] via axiomatization of the ([[very large category|very large]]) [[(infinity,2)-category of (infinity,1)-categories|$(\infty,2)$-category of $(\infty,1)$-categories]] $Cat_{(\infty,1)}$ -- the archetypical [[(infinity,2)-topos|$(\infty,2)$-topos]]. 
+
+While this has not been developed, it is interesting to observe ([Riehl & Verity 13](#RiehlVerity13), following [Joyal 08](#Joyal08) [p. 158](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=10)) that already its truncation down to a plain [[2-category]] $2Ho\big( Cat_{(\infty,1)}\big)$ -- the [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category of $(\infty,1)$-categories]] -- retains much of the interesting structure of [[(infinity,1)-category theory|$(\infty,1)$-category theory]]. For example, formal [[2-category theory|2-category theoretic]] [[adjunctions]] -- as envisioned by [Gray 1974](#Gray74) in $Cat$, but now interpreted in $2Ho\big( Cat_{(\infty,1)}\big)$ -- turn out to encode the correct notion of [[adjoint (infinity,1)-functors|adjoint $(\infty,1)$-functors]] (see [there](adjoint+infinity1-functor#InTheHomotopy2Category) for more).
+
+By analogy, this may be referred to as a *formal theory of $(\infty,1)$-categories* ([Riehl 2021](#Riehl21)).
+
+At least for [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]] this formal $\infty$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
+
+See [[synthetic (infinity,1)-category theory]].
 
 ## Related pages
+
+* [[enriched category theory]]
 
 * [[ETCC]]
 
@@ -91,8 +87,6 @@ The most general settings are those of [[virtual equipments]] and augmented virt
 An axiomatization of (just) the ([[very large category|very large]]) [[1-category]] of all categories, but fully in [[formal logic]] is the *[[elementary theory of the category of categories]]* (ETCC) due to:
 
 * {#Law66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp. 1-20 in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
-
-
 
 The undertaking of laying these foundations instead for the [[2-category]] of all categories is famously associated with:
 
@@ -152,4 +146,3 @@ In an [[(∞,1)-category theory|(∞,1)-category theoretic]] version of [[proarr
 * Jaco Ruit, _Formal category theory in ∞-equipments I_ ([arXiv:2308.03583](https://arxiv.org/abs/2308.03583))
 
 [[!redirects formal (infinity,1)-category theory]]
-
