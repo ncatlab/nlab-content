@@ -131,13 +131,13 @@ Classical references are
 
 * Volker Zöberlein, _Doctrines on 2-categories_ , Math. Zeitschrift **148** (1976) pp.267-279. ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0148?tify={%22pages%22:[273],%22view%22:%22info%22}))
 
-"Textbook" accounts of the concept can be found in
+Textbook accounts:
 
 * [[Peter Johnstone]], _Sketches of an elephant vol.1_ , Oxford UP 2004. (B1.1.11, pp.250-54)
 
 * [[Marta Bunge]], [[Jonathon Funk]], _Singular coverings of Toposes_ , Springer Heidelberg 2006. (pp.79ff)
 
-Special facets of the concept are studied in
+See also:
 
 * [[Marta Bunge]], _Tightly Bounded Completions_ , TAC **28** no.8 (2013) pp.213-240. ([abstract](http://tac.mta.ca/tac/volumes/28/8/28-8abs.html))
 
@@ -155,14 +155,19 @@ Their distributive laws come into focus in
 * Charles Walker, *Distributive Laws via Admissibility*, [arXiv](https://arxiv.org/abs/1706.09575)
  {#WalkerDL}
 
-The relation to Yoneda structures is due to
+The relation to [[Yoneda structures]]:
 
 * Charles Walker, *Yoneda Structures and KZ Doctrines*, [arxiv](https://arxiv.org/abs/1703.08693)
  {#WalkerYS}
 
-The logical-syntactical side is examined in
+The logical-syntactical side:
 
 *  [[Jiri Adamek]], Lurdes Sousa, *KZ-monadic categories and their logic*, [tac](http://tac.mta.ca/tac/volumes/32/10/32-10abs.html)
+
+Discussion of the [[adjoint functor theorem]]:
+
+* {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
+
 
 
 [[!redirects KZ monad]]
