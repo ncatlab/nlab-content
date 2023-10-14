@@ -392,6 +392,8 @@ This is Lemma 2.7 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/
 
 * [[decalage]]
 
+* [[bicubical set]]
+
 ## References
 
 Some standard material is for instance in
