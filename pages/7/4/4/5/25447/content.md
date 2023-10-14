@@ -1,4 +1,4 @@
-Once a type theorist, nowadays a(n hyper)formalist. Rust-y by day, online at night.
+Nathanael Arkor is a postdoc researching [[category theory]] and [[type theory]].
 
 * [personal page](https://arkor.co/)
 
