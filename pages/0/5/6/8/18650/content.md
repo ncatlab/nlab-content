@@ -6,6 +6,13 @@ You can visit my [webpage](https://diliberti.github.io).
 
 ## Selected writings
 
+On [[formal category theory]]:
+
+* [[Ivan Di Liberti]], [[Simon Henry]], [[Mike Lieberman]], [[Fosco Loregian]], _Formal category theory_, course notes (2017) &lbrack;[pdf](https://tetrapharmakon.github.io/stuff/course_muni-formal.pdf), [[DLHLL-FormalCategoryTheory.pdf:file]]&rbrack;
+
+* [[Ivan Di Liberti]], [[Fosco Loregian]], _On the unicity of formal category theories_ &lbrack;[arXiv:1901.01594](https://arxiv.org/abs/1901.01594)&rbrack;
+
+
 A geometric account on the [[Scott adjunction]] and the duality between [[topoi]] and [[ionads]]:
 
 * [[Ivan Di Liberti]], *Towards Higher Topology* &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
@@ -22,13 +29,29 @@ On [[judgements]], [[natural deduction]] and [[dependent type theory]]:
 
 * Greta Coraglia, [[Ivan Di Liberti]], *Context, Judgement, Deduction* &lbrack;[arXiv:2009.14145](https://arxiv.org/abs/2009.14145)&rbrack;
 
+
+On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]:
+
+* {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
+
+
 ## Related entries
+
 * [[judgement]]
+
 * [[Isbell duality]]
+
 * [[Gabriel–Ulmer duality]]
+
 * [[Functorial Semantics  of Algebraic Theories]]
+
 * [[adjoint functor theorem]]
+
 * [[ionad]]
+
 * [[Kan extension]]
+
 * [[codensity monad]]
+
 * [[concrete category]]
+
