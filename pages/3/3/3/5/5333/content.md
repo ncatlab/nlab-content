@@ -81,6 +81,7 @@ Moreover, where the traditional construction only produces level-1 [[current alg
 However, presently questions remain concerning formulating a [[sigma-model]] for strings propagating on the total space of the bundle, as it is only the chiral part of the geometric WZW model that appears in the heterotic string. (...)
 
 ### Superspace formulation
+ {#SuperspaceFormulation}
 
 The [[gauge field]] [[field strength|strength]]:
 
