@@ -101,6 +101,8 @@ Below, we list some fundamental theorems in category theory that have been formu
 
 * A ([[relative monad|relative]]) [[monadicity theorem]] is proven in [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
 
+For instance, one motivation for the development of this theory in the setting of (augmented) [[virtual equipments]] is to develop [[enriched category theory]] without the assumptions taken, for instance, by [[Max Kelly|Kelly]] in [Basic concepts of enriched category theory](enriched+category#Kelly82). This therefore gives a development of enriched category theory for categories enriched in a nonsymmetric [[monoidal category]], a [[bicategory]], or even a [[virtual double category]].
+
 ## Intramural and extramural formal category theory
 
 There are two distinct aspects to the [[category theory|theory of categories]]. One aspect is concerned with the structure of an individual category, with regards to its [[objects]] and [[morphisms]]. For instance, the study of [[monomorphisms]] and [[epimorphisms]], [[limits]] and [[colimits]], and so on. We shall refer to this aspect as **intramural category theory**.
