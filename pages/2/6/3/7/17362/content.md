@@ -56,11 +56,12 @@ Consider the [[type theory|type theoretic]] expression $\sum_{x: man} \sum_{y: d
 
 ## References
 
-* {#Landin64} [[Peter Landin]], _The mechanical evaluation of expressions_, ([pdf](http://www.cs.cmu.edu/~crary/819-f09/Landin64.pdf))
-
-* [[Aarne Ranta]], _Type-theoretical grammar_, Oxford University Press (1994)
+* {#Landin64} [[Peter Landin]], _The mechanical evaluation of expressions_ &lbrack;[pdf](http://www.cs.cmu.edu/~crary/819-f09/Landin64.pdf)&rbrack;
 
 * {#Ranta93} [[Aarne Ranta]], _Type theory and the informal language of mathematics_, TYPES '93: Proceedings of the international workshop on Types for proofs and programs, pp. 352–365, ([pdf](/nlab/files/InfLang.pdf))
+
+* {#Ranta94} [[Aarne Ranta]], §1.6, §1.7, §9 in: *Type-theoretical grammar*, Oxford University Press (1994) &lbrack;[ISBN:9780198538578](https://global.oup.com/academic/product/type-theoretical-grammar-9780198538578)&rbrack;
+
 
 See also:
 
