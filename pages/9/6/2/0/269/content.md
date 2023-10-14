@@ -226,6 +226,10 @@ For Expository and other material, see [[cubical set - exposition]].
 
 ## Related entries
 
+### General
+
+* [[bicubical sets]]
+
 ### Applications of cubical sets
 
 * [[cubical type theory]]
