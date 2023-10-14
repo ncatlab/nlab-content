@@ -2,6 +2,8 @@
 
 Most of what I do is motivated by logic, foundations of mathematics and foundations of geometry. Concretely, my work is in categorical logic, syntax-semantics dualities, topos theory, general category theory and [[formal category theory]].
 
+Academic life went as follows. Brno (Ph.D. under [[Jiří Rosický]]), Prague (Postdoc), Stockholm (Postdoc), Gothenburg (Postdoc, ongoing).
+
 You can visit my [webpage](https://diliberti.github.io).
 
 ## Selected writings
