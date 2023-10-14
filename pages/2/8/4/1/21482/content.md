@@ -15,3 +15,5 @@ On identifying the [[shape modality]] on the [[cohesive (∞,1)-topos]] of [[smo
 
 
 category: people
+
+[[!redirects Pedro Boavida]]
