@@ -8,6 +8,10 @@ On [[measure theory]] via [[Boolean toposes]]:
 
 * {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 163 Issue 1, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605), [doi:10.1017/S0305004116000700](https://doi.org/10.1017/S0305004116000700))
 
+On [[formal category theory]]:
+
+* [[Ivan Di Liberti]], [[Simon Henry]], [[Mike Lieberman]], [[Fosco Loregian]], _Formal category theory_, course notes (2017) &lbrack;[pdf](https://tetrapharmakon.github.io/stuff/course_muni-formal.pdf), [[DLHLL-FormalCategoryTheory.pdf:file]]&rbrack;
+
 
 On [[weak model category|weak model categories]];
 
