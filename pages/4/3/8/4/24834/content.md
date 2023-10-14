@@ -15,6 +15,7 @@ On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], *The formal theory of relative monads* &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
 
 category: people
