@@ -30,8 +30,11 @@ There are many flavours of category:
 and so on. In each flavour of category theory, one finds essentially the same definitions and theorems:
 
 - [[presheaves]] and the [[Yoneda lemma]]
+
 - [[adjunctions]] and [[adjoint functor theorems]]
+
 - [[monads]] and [[monadicity theorems]]
+
 - theories of [[accessible category|accessible]] and [[locally presentable categories]] and [[Gabriel--Ulmer duality|duality theorems]]
 
 and so on. Rather than define these concepts and prove these theorems in each of the different flavours of category theory independently (as has been done traditionally), one would rather be able to define these concepts and prove these theorems abstractly, and then specialise to each of these flavours, obtaining for instance the statements for enriched category theory as a corollary of the more abstract version. This is the motivation for formal category theory.
@@ -83,12 +86,19 @@ For instance, one may not in general have a [[presheaf category]]-construction o
 Below, we list some fundamental theorems in category theory that have been formulated in formal category theory.
 
 * General results about [[weighted limits]] and [[weighted colimits]] are developed in [Street & Walters 1978](Yoneda+structure#SW78) (for [[Yoneda structures]]); [Wood 1982](2-category+equipped+with+proarrows#Wood82) (for [[proarrow equipments]]); [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
-* Adjoint functor theorems are proven in Proposition 21 of [Street & Walters 1978](Yoneda+structure#SW78); Corollary 10 of [Wood 1982](2-category+equipped+with+proarrows#Wood82); Theorem 2.16 of [Arkor, Di Liberti, Loregian](#ALL23).
+
+* [[adjoint functor theorem|Adjoint functor theorems]] are proven in Proposition 21 of [Street & Walters 1978](Yoneda+structure#SW78); Corollary 10 of [Wood 1982](2-category+equipped+with+proarrows#Wood82); Theorem 2.16 of [Arkor, Di Liberti, Loregian](#ALL23).
+
 * An analogue of the [[bijective-on-objects functor|bijective-on-objects]]/[[fully faithful functor|fully faithful]] factorisation system is established in [Wood 1985](2-category+equipped+with+proarrows#Wood85).
+
 * General results about [[monads]] are developed in [Street & Walters 1978](Yoneda+structure#SW78) (for [[Yoneda structures]]); [Wood 1985](2-category+equipped+with+proarrows#Wood85) (for [[proarrow equipments]]); [Arkor & McDermott 2023a](#AM23b) in the additional generality of [[relative monads]] (for [[virtual equipments]]).
+
 * The theory of [[total categories]] is developed in [Street & Walters 1978](Yoneda+structure#SW78) (for [[Yoneda structures]]); [Koudenburg 2022](#Koudenburg22) (for [[augmented virtual equipments]]).
+
 * A general duality theorem subsuming [[Gabriel–Ulmer duality]] (and many others) is proven in [Di Liberti & Loregian 2023](#DL18) (for [[lax-idempotent pseudomonads]]).
+
 * General results about [[presheaves]] are developed in [Koudenburg 2022](#Koudenburg22) (for [[augmented virtual equipments]]).
+
 * A ([[relative monad|relative]]) [[monadicity theorem]] is proven in [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
 
 ## Intramural and extramural formal category theory
@@ -121,11 +131,13 @@ The undertaking of laying these foundations instead for the [[2-category]] of al
 
 * {#Gray74} [[John Gray]], *[[Adjointness for 2-Categories|Formal category theory: adjointness for $2$-categories]]*, Lecture Notes in Mathematics, **391**, Springer 1974 ([doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280))
 
+
 Review and further discussion, including on the relationship between the different approaches:
 
-* [[Ivan Di Liberti]], [[Simon Henry]], Mike Lieberman, [[Fosco Loregian]], _Formal category theory_, ([course notes](https://tetrapharmakon.github.io/stuff/course_muni-formal.pdf))
+* [[Ivan Di Liberti]], [[Simon Henry]], [[Mike Lieberman]], [[Fosco Loregian]], _Formal category theory_, course notes (2017) &lbrack;[pdf](https://tetrapharmakon.github.io/stuff/course_muni-formal.pdf), [[DLHLL-FormalCategoryTheory.pdf:file]]&rbrack;
 
-* [[Ivan Di Liberti]], [[Fosco Loregian]], _On the unicity of formal category theories_ ([arXiv:1901.01594](https://arxiv.org/abs/1901.01594))
+* [[Ivan Di Liberti]], [[Fosco Loregian]], _On the unicity of formal category theories_ &lbrack;[arXiv:1901.01594](https://arxiv.org/abs/1901.01594)&rbrack;
+
 
 The relation between [[lax-idempotent pseudomonads]] and [[Yoneda structures]] is due to:
 
@@ -157,9 +169,12 @@ On the intuition for [[Yoneda structures]] as [[2-toposes]]:
 Papers developing general theorems in (intramural) formal category theory:
 
 * {#DL23} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_, Journal of Pure and Applied Algebra 227.1 (2023)([arXiv:1804.08710](https://arxiv.org/abs/1804.08710))
-* {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], and [[Fosco Loregian]]. _Adjoint functor theorems for lax-idempotent pseudomonads_, ([arXiv:2306.10389](https://arxiv.org/abs/2306.10389))
-* {#AM23a} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, 2023. &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
-* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+* {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
+
+* {#AM23a} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_ (2023) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
 Papers developing general theorems in (extramural) formal category theory:
 
