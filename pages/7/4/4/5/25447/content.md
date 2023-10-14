@@ -1,3 +1,4 @@
+Once a type theorist, nowadays a(n hyper)formalist. Rust-y by day, online at night.
 
 * [personal page](https://arkor.co/)
 
