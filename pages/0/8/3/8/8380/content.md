@@ -598,7 +598,7 @@ Syntactically, do-notation is the following [[syntactic sugar]] for combined [[K
 
 3. `do (x <- prog1) prog2` $\;\;\equiv\;\;$ `prog1 bind (\x -> prog2)`
  
-This is, first of all, a suggestive notation for expressing effect-binding:
+This is, first of all, a suggestive notation (in fact a "[[domain specific embedded programming language]]", see [there](domain+specific+embedded+programming+language#RelationToMonadicEffects)) for expressing effect-binding:
 
 \begin{imagefromfile}
     "file_name": "EffectBindingViaDoNotation-230828.jpg",
