@@ -20,39 +20,39 @@
 
 ## Idea
 
-An _inverse image_ operation is the [[left adjoint]] part $f^*$ of a [[geometric morphism]] $(f^* \dashv f_*) : E \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} F$ of [[topos]].
+An _inverse image_ operation is the [[left adjoint]] part $f^*$ of a [[geometric morphism]] $(f^* \dashv f_*) \colon E \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} F$ between [[topoi]].
 
-
-Given a morphism $f : X \to Y$ of [[site]]s, the _inverse image_ operation of the induced geometric morphism $Sh(X) \to Sh(Y)$ on [[categories of sheaves]] is a [[functor]]
+For the case of [[sheaf topoi]] the inverse image
 
 $$
   f^{-1} : Sh(Y) \to Sh(X)
 $$
 
-that may be interpreted as encoding the idea of _pulling back along $f$_ the "bundle of which the sheaf is the sheaf of sections".
+may be interpreted as encoding the idea of *[[pullback bundle|pulling back]]* along $f$ the "[[bundle]] of which the sheaf is the sheaf of sections".
 
-In the case that $X$ and $Y$ are (the [[site]]s corresponding to) [[topological space]]s this interpretation becomes literally true: the inverse image of a sheaf on topological spaces is the pullback operation on the corresponding [[etale space]]s.
+In the case that $X$ and $Y$ are (the [[sites]] corresponding to) [[topological spaces]], this interpretation becomes literally true: the inverse image of a sheaf on topological spaces is the pullback operation on the corresponding [[etale spaces]].
 
 
 ## Definition
 
-Given a [[topos|morphism of topos]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$ of the underlying [[category|categories]].
+Consider a [[functor]] $f^t \colon Y \to X$ between the [[underlying]] categories of [[sites]].
 
 
 ### on presheaves
 
-The [[direct image]] operation $f_* : PSh(S_X) \to PSh(S_Y)$ on [[presheaf|presheaves]] 
-is just precomposition with $f^t$
+The [[direct image]] operation $f_* \colon PSh(X) \to PSh(Y)$ on [[presheaves]] is just precomposition with $f^t$
 
 $$
   \array{
-    S_Y^{op}
-    &\stackrel{f_* F}{\to}&
+    Y^{op}
+    &\overset{f_* F}{\longrightarrow}&
     Set
     \\
-    \downarrow^{f^t} & \nearrow_{F}
+    \mathllap{
+     {}^{f^t}
+    }\big\downarrow & \nearrow\mathrlap{_{F}}
     \\
-    S_X^{op}
+    X^{op}
   }
   \,.
 $$
@@ -60,16 +60,17 @@ $$
 The **inverse image** operation 
 
 $$
-  f^{-1} : PSh(S_Y) \to PSh(S_X)
+  f^{-1} \colon PSh(Y) \to PSh(X)
 $$
 
-on [[presheaf|presheaves]] is the [[adjoint functor|left adjoint]] to the direct image operation on presheaves, hence the left [[Kan extension]]
+on [[presheaves]] is the [[left adjoint]] to the [[direct image]] operation on presheaves, hence the left [[Kan extension]] along $f^t$:
 
 $$
-  f^{-1} F := Lan_{f^t} F
+  f^{-1} F \;\coloneqq\;  Lan_{f^t} F
+  \,.
 $$
 
-of a [[presheaf]] $F$ along $f^t$. 
+. 
 
 
 ### on sheaves
@@ -81,20 +82,20 @@ First notice that
 +-- {: .un_lemma}
 ###### Lemma
 
-The [[direct image]] operation $f_* : PSh(X) \to PSh(Y)$ restricts to a functor $f_* : Sh(X) \to Sh(Y)$ that sends sheaves to sheaves.
+The [[direct image]] operation $f_* \colon PSh(X) \to PSh(Y)$ restricts to a functor $f_* \colon Sh(X) \to Sh(Y)$ that sends sheaves to sheaves.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The direct image $f_* : PSh(X) \to PSh(Y)$ is more generally characterized by 
+The direct image $f_* \colon PSh(X) \to PSh(Y)$ is more generally characterized by 
 $$
   Hom_{PSh(Y)}(A, f_* F)
   \simeq
   Hom_{PSh(X)}(\hat {f^t} A, F)
 $$
-where $\hat f^t$ is the [[Yoneda extension]] of $Y \circ f^t : Y \to PSh(X)$ to a functor $\hat {f^t} : PSh(Y) \to PSh(X)$, because using the [[co-Yoneda lemma]] and the colim expression for the [[Yoneda extension]] we have
+where $\hat f^t$ is the [[Yoneda extension]] of $Y \circ f^t \colon Y \to PSh(X)$ to a functor $\hat {f^t} : PSh(Y) \to PSh(X)$, because using the [[co-Yoneda lemma]] and the colim expression for the [[Yoneda extension]] we have
 
 $$
  \begin{aligned}
@@ -115,7 +116,7 @@ $$
  \end{aligned}
 $$
 
-Let now $\pi : B \to A$ be a [[local isomorphism]] in $PSh(Y)$.  By definition of morphism of [[site]]s we have that 
+Let now $\pi \colon B \to A$ be a [[local isomorphism]] in $PSh(Y)$.  By definition of morphism of [[sites]] we have that 
 $$
   \hat {f^t}(\pi) : \hat{f^t}(B) \to \hat{f^t}(A)
 $$
