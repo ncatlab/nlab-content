@@ -1018,7 +1018,7 @@ so that the fibration on the right is the covering space which exhibits the clai
 \end{proof}
 
 \begin{example}\label{ExampleOfHypergeometricKZEquations}
-**(Hypergeometric Knizhnik-Zamologchikov equations)**
+**(Hypergeometric Knizhnik-Zamolodchikov equations)**
 \linebreak
   Let 
 
@@ -1093,7 +1093,7 @@ Lecture notes:
 
 Gauss-Manin connections over [[configuration spaces of points]]:
 
-* [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin Connections for Arrangements, I Eigenvalues*, Compositio Math. **136** (2003) 299-316 $[$[arXiiv:math/0105063](https://arxiv.org/abs/math/0105063), [doi:10.1023/A:1023262022279](https://doi.org/10.1023/A:1023262022279)$]$
+* [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin connections for arrangements, I Eigenvalues*, Compositio Math. **136** (2003) 299-316 $[$[arXiv:math/0105063](https://arxiv.org/abs/math/0105063), [doi:10.1023/A:1023262022279](https://doi.org/10.1023/A:1023262022279)$]$
 
 * [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin connections for arrangements, II Nonresonant weights*, Amer. J. Math. **127** (2005) 569-594 $[$[arXiv:math/0207114](https://arxiv.org/abs/math/0207114), [jstor:40067930](https://www.jstor.org/stable/40067930)$]$
 
@@ -1123,11 +1123,12 @@ Discussion in [[cyclic homology]]:
 
 * [[Boris Tsygan]], _On the Gauss-Manin connection in cyclic homology_, Methods Funct. Anal. Topology __13__ (2007), no. 1, 8394.
 
-* [[Ezra Getzler]], _Cartan homotopy formulas and the Gauss/Manin connection in cyclic homology_, [pdf](http://www.math.northwestern.edu/~getzler/Papers/barilan.pdf)
+* [[Victor Ginzburg]], [[Travis Schedler]], [[Boris Tsygan]], _Free products, cyclic homology, and the Gauss–Manin connection_, Advances in Mathematics __231__:3-4 (2012) 2352--2389 [doi](https://doi.org/10.1016/j.aim.2012.06.016)
 
+* [[Ezra Getzler]], _Cartan homotopy formulas and the Gauss/Manin connection in cyclic homology_, in: “Quantum deformations of algebras and their representations,” Israel Math. Conf. Proc. 7 (1993) 65--78 [pdf](http://www.math.northwestern.edu/~getzler/Papers/barilan.pdf)
 
 In [[noncommutative geometry]]:
 
-* [[Vasily Dolgushev]], [[Dmitry Tamarkin]], [[Boris Tsygan]], _Noncommutative calculus and the Gauss-Manin connection_ ([arxiv/0902.2202](http://arxiv.org/abs/0902.2202))
+* [[Vasily Dolgushev]], [[Dmitry Tamarkin]], [[Boris Tsygan]], _Noncommutative calculus and the Gauss-Manin connection_ ([arxiv/0902.2202](https://arxiv.org/abs/0902.2202))
 
 [[!redirects Gauss-Manin connections]]
