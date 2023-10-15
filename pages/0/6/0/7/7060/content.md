@@ -215,6 +215,8 @@ is the type of all propositions.
 
 * [[propositional logic as a dependent type theory]]
 
+* [[type of entire relations]]
+
 ## References
 
 Detailed discussion of the type of propositions in [[Coq]] is in
