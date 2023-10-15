@@ -20,11 +20,15 @@ The *$\pi_\ast$-Kan condition* ([Bousfield & Friedlander 1978, B.3](#BousfieldFr
 
 See also [this Prop.](geometric+realization+of+simplicial+topological+spaces#SufficientConditionsForRealizationToPreserveHomotopyPullback) at *[[geometric realization of simplicial topological spaces]]*.
 
+## Related entries
+
+* [[commutativity of homotopy limits and colimits]]
+
 ## References
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]])
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math. **658** Springer (1978) 80-130 &lbrack;[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]]&rbrack;
 
-* {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_, 2014 ([i-hate-the-pi-star-kan-condition.pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]])
+* {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_ (2014) &lbrack;[i-hate-the-pi-star-kan-condition.pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]]&rbrack;
 
 
 [[!redirects π-Kan+conditions]]
