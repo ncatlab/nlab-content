@@ -63,7 +63,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 Extensionality rule:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B) \quad \Gamma \vdash S:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelext}_{A, B}(R, S):(R =_{\mathrm{EntRel}(A, B)} S) \simeq (\lambda x:A.\lambda y:B.R(x, y) \simeq S(x, y))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B) \quad \Gamma \vdash S:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelext}_{A, B}(R, S):(R =_{\mathrm{EntRel}(A, B)} S) \simeq \prod_{x:A} \prod_{y:B} R(x, y) \simeq S(x, y)}$$
 
 ### A la Tarski
 
@@ -75,11 +75,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Type reflection:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma, x:A, y:B \vdash \mathrm{El}(R)(x, y) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:\mathrm{EntRel}(A, B), x:A, y:B \vdash \mathrm{El}(R, x, y) \; \mathrm{type}}$$
 
 Witness that each type reflection is an entire relation:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelwitn}(R):\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(\mathrm{El}(R)(x, y))\right) \times \exists y:B.\mathrm{El}(R)(x, y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:\mathrm{EntRel}(A, B) \vdash \mathrm{entrelwitn}(R):\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(\mathrm{El}(R, x, y))\right) \times \exists y:B.\mathrm{El}(R, x, y)}$$
 
 Introduction rule:
 
@@ -87,13 +87,13 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 [[essentially small type|Essential smallness]] of entire relations (for weak type of entire relations) or [[judgmental equality]] (for strict type of entire relations):
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \delta_R(x, y):\mathrm{El}(R_E)(x, y) \simeq R(x, y)}\mathrm{weak}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \delta_R(x, y):\mathrm{El}(R_E, x, y) \simeq R(x, y)}\mathrm{weak}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{u:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)}{\Gamma, x:A, y:B \vdash \mathrm{El}(R_E)(x, y) \equiv R(x, y) \; \mathrm{type}}\mathrm{strict}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \mathrm{El}(R_E, x, y) \equiv R(x, y) \; \mathrm{type}}\mathrm{strict}$$
 
 Extensionality rule:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B) \quad \Gamma \vdash S:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelext}_{A, B}(R, S):(R =_{\mathrm{EntRel}(A, B)} S) \simeq (\lambda x:A.\lambda y:B.\mathrm{El}(R)(x, y) \simeq \mathrm{El}(S)(x, y))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B) \quad \Gamma \vdash S:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelext}_{A, B}(R, S):(R =_{\mathrm{EntRel}(A, B)} S) \simeq \prod_{x:A} \prod_{y:B} \mathrm{El}(R, x, y) \simeq \mathrm{El}(S, x, y)}$$
 
 ## Related concepts
 
