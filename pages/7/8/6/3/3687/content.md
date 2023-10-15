@@ -81,14 +81,17 @@ Close relation to [[tropical geometry]], see e.g. [Gross 11](#Gross11).
 
 ### General
 
+
+
+
 The original statement of the homological mirror symmetry conjecture is in
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, Proc. ICM Z&#252;rich 1994, [alg-geom/9411018](http://arxiv.org/abs/alg-geom/9411018)
 
 See also
 
-* [[Paul Aspinwall]], [[Brian Greene]], [[David Morrison]], _Calabi-Yau Moduli Space, Mirror Manifolds and Spacetime Topology Change in String Theory_, Nucl.Phys. B416 (1994) 414-480 ([arXiv:hep-th/9309097](http://arxiv.org/abs/hep-th/9309097))
-
+* [[Paul Aspinwall]], [[Brian Greene]], [[David Morrison]], _Calabi-Yau moduli space, mirror manifolds and spacetime topology change in string theory_, Nucl.Phys. B416 (1994) 414-480 ([arXiv:hep-th/9309097](https://arxiv.org/abs/hep-th/9309097))
+* [[Philip Candelas]], Xenia C. de la Ossa, Paul S. Green, Linda Parkes, _A pair of Calabi-Yau manifolds as an exactly soluble superconformal theory_, Nuclear Phys. B 359 (1):21--74, 1991
 
 Review contains 
 
@@ -96,13 +99,13 @@ Review contains
 
 * M. Ballard, _Meet homological mirror symmetry_ ([arxiv:0801.2014](http://arxiv.org/abs/0801.2014))
 
-* A. Port, _An Introduction to Homological Mirror Symmetry and the Case of Elliptic Curves_ ([arXiv:1501.00730](http://arxiv.org/abs/1501.00730))
+* A. Port, _An introduction to homological mirror symmetry and the case of elliptic curves_ ([arXiv:1501.00730](http://arxiv.org/abs/1501.00730))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 10.1.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 Discussion amplifying the role of [[category theory]], and [[higher geometry]] is in 
 
-* {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
+* {#Sharpe19} [[Eric Sharpe]], _Categorical equivalence and the renormalization group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
 Other reviews include
 
