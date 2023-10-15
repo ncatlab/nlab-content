@@ -9,7 +9,6 @@ In [[set theory]] and the [[foundations]] of mathematics, the axiom of __fullnes
 
 The axiom of __subset collection__ combines fullness with the [[axiom of collection]] to apply in the situations where fullness is used.  In the presence (I think) of either collection or [[full separation]], subset collection is equivalent to fullness.
 
-
 ## Statements
 
 In its guise as _fullness_, the axiom states that, given any [[sets]] $X$ and $Y$, there is a set $F_{X,Y}$ of _enough [[entire relations]]_ from $X$ to $Y$ in this sense:
@@ -41,6 +40,37 @@ In its guise as _subset collection_, the axiom states ...
 I need to look this up again, including the conditions for its equivalence with fullness.  In the meantime, see [the Stanford Encyclopedia's list of axioms](http://plato.stanford.edu/entries/set-theory-constructive/axioms-CZF-IZF.html).
 =--
 
+### In dependent type theory
+
+In [[dependent type theory]], given a [[Russell universe]] $U$, the type of all [[entire relations]] between types $A:U$ and $B:U$ is given by the type 
+
+$$\sum_{R:A \times B \to U} \prod_{x:A} \left(\prod_{y:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)$$
+
+In general, this type is not [[small type|$U$-small]]. The **axiom of fullness** for $U$ states that the above type is $U$-small, and is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma \vdash \mathrm{EntRel}(A, B):U}$$
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma \vdash \mathrm{EntRel}(A, B) \equiv \sum_{R:A \times B \to U} \prod_{x:A} \left(\prod_{y:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y) \; \mathrm{type}}$$
+
+Similarly, for [[Tarski universes]] $(U, T)$, the type of all entire relations between $U$-small types $A:U$ and $B:U$ is given by the type 
+
+$$\sum_{R:T(A) \times T(B) \to U} \prod_{x:T(A)} \left(\prod_{y:T(A)} \mathrm{isProp}(T(R(x, y)))\right) \times \exists y:T(A).T(R(x, y))$$
+
+There are similar inference rules for [[strict Tarski universes]]:
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma \vdash \mathrm{EntRel}(A, B):U}$$
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma \vdash T(\mathrm{EntRel}(A, B)) \equiv \sum_{R:T(A) \times T(B) \to U} \prod_{x:T(A)} \left(\prod_{y:T(A)} \mathrm{isProp}(T(R(x, y)))\right) \times \exists y:T(A).T(R(x, y)) \; \mathrm{type}}$$
+
+For [[weak Tarski universes]], one uses an [[equivalence of types]] instead of [[judgmental equality]]
+
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U}{\Gamma \vdash \mathrm{fullness}(A, B):T(\mathrm{EntRel}(A, B)) \simeq \sum_{R:T(A) \times T(B) \to U} \prod_{x:T(A)} \left(\prod_{y:T(A)} \mathrm{isProp}(T(R(x, y)))\right) \times \exists y:T(A).T(R(x, y))}$$
+
+and the two inference rules could be reduced down to the element:
+
+$$\mathrm{fullness}:\sum_{F:U \times U \to U} \prod_{A:U} \prod_{B:U} T(F(A, B)) \simeq \sum_{R:T(A) \times T(B) \to U} \prod_{x:T(A)} \left(\prod_{y:T(A)} \mathrm{isProp}(T(R(x, y)))\right) \times \exists y:T(A).T(R(x, y))$$
+
+If the dependent type theory does not have any type universes at all, one could still express the axiom of fullness by explicitly postulating the [[type of all entire relations]] using [[inference rules]]. 
 
 ## Relation to other axioms
 
@@ -84,5 +114,6 @@ category: foundational axiom
 
 [[!redirects axiom of fullness]]
 [[!redirects fullness axiom]]
+
 [[!redirects axiom of subset collection]]
 [[!redirects subset collection]]
