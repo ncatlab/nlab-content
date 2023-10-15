@@ -277,8 +277,9 @@ Exposition and review:
 * {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
 
-[[!redirects Cauchy real number]]
 [[!redirects Cachy real number]]
+
+[[!redirects Cauchy real number]]
 [[!redirects Cauchy real numbers]]
 [[!redirects Cauchy real]]
 [[!redirects Cauchy reals]]
@@ -308,8 +309,17 @@ Exposition and review:
 [[!redirects regular Cantor real]]
 [[!redirects regular Cantor reals]]
 
-
 [[!redirects sequential real number]]
 [[!redirects sequential real numbers]]
 [[!redirects sequential real]]
 [[!redirects sequential reals]]
+
+[[!redirects multivalued Cauchy real number]]
+[[!redirects multivalued Cauchy real numbers]]
+[[!redirects multivalued Cauchy real]]
+[[!redirects multivalued Cauchy reals]]
+
+[[!redirects multivalued Cantor real number]]
+[[!redirects multivalued Cantor real numbers]]
+[[!redirects multivalued Cantor real]]
+[[!redirects multivalued Cantor reals]]
