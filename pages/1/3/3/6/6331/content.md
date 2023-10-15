@@ -1125,7 +1125,7 @@ Discussion in [[cyclic homology]]:
 
 * [[Victor Ginzburg]], [[Travis Schedler]], [[Boris Tsygan]], _Free products, cyclic homology, and the Gauss–Manin connection_, Advances in Mathematics __231__:3-4 (2012) 2352--2389 [doi](https://doi.org/10.1016/j.aim.2012.06.016)
 
-* [[Ezra Getzler]], _Cartan homotopy formulas and the Gauss/Manin connection in cyclic homology_, in: “Quantum deformations of algebras and their representations,” Israel Math. Conf. Proc. 7 (1993) 65--78 [pdf](http://www.math.northwestern.edu/~getzler/Papers/barilan.pdf)
+* [[Ezra Getzler]], _Cartan homotopy formulas and the Gauss/Manin connection in cyclic homology_, in: “Quantum deformations of algebras and their representations,” Israel Math. Conf. Proc. 7 (1993) 65--78 [pdf](https://sites.northwestern.edu/getzler/files/2019/08/barilan.pdf)
 
 In [[noncommutative geometry]]:
 
