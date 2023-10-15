@@ -1131,5 +1131,3 @@ In [[noncommutative geometry]]:
 * [[Vasily Dolgushev]], [[Dmitry Tamarkin]], [[Boris Tsygan]], _Noncommutative calculus and the Gauss-Manin connection_ ([arxiv/0902.2202](http://arxiv.org/abs/0902.2202))
 
 [[!redirects Gauss-Manin connections]]
-
-[[!redirects Picard-Fuchs equation]]
