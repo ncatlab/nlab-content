@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Picard-Fuchs equation is a linear [[ordinary differential equation]] of degree $2g$ for $2g$ periods of a  nonsingular projective curve of genus $g$ over a field $K$ of characteristic $0$. For curves over complex numbers it has been first derived by [[Lazarus Fuchs]]. It may be more abstractly defined using a [[Gauss-Manin connection]] which makes sense in a more general context (beyond curves and algebraic/analytic geometry).
@@ -21,4 +26,11 @@ Doran has clarified in which cases the corresponding mirror map is the Hauptmodu
 
 category: algebraic geometry
 
+[[!redirects Picard-Fuchs equations]]
+
 [[!redirects Picard-Fuchs differential equation]]
+[[!redirects Picard-Fuchs differential equations]]
+
+
+
+
