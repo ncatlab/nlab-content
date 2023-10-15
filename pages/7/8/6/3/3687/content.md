@@ -67,6 +67,8 @@ Close relation to [[tropical geometry]], see e.g. [Gross 11](#Gross11).
 
 ## Related concepts
 
+* [[mirror map]]
+
 * [[moduli space of Calabi-Yau spaces]]
 
 * [[3d mirror symmetry]]
@@ -80,8 +82,6 @@ Close relation to [[tropical geometry]], see e.g. [Gross 11](#Gross11).
 ## References
 
 ### General
-
-
 
 
 The original statement of the homological mirror symmetry conjecture is in
