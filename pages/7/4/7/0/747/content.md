@@ -1177,18 +1177,19 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 ## References
 
-A nice introduction and survey is provided in the notes
+Introductions:
 
 * {#Dugger98} [[Dan Dugger]], _Sheaves and homotopy theory_, (1998) &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf), [[DuggerSheavesAndHomotopyTheory.pdf:file]]&rbrack;
 
+* {#Jardine07} [[John F. Jardine]], *Simplicial Presheaves*, lecture notes, Fields Institute (2007) &lbrack;[pdf](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf), [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
 
 Detailed discussion of the injective model structures on simplicial presheaves:
 
-* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_, Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://math.uchicago.edu/~amathew/simplicialpresheaves.pdf))
+* {#JardineLecture} [[John F. Jardine]], *Simplicial presheaves*, Journal of Pure and Applied Algebra **47** (1987) 35-87 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>&rbrack;
 
 * [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384 ([euclid:hha/1139840259](https://projecteuclid.org/euclid.hha/1139840259))
 
-* {#Jardine96} [[John F. Jardine]], _Boolean localization, in practice_, Documenta Mathematica, Vol. 1 (1996), 245-275 ([documenta:vol-01/13](https://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
+* {#Jardine96} [[John F. Jardine]], _Boolean localization, in practice_, Documenta Mathematica **1** (1996), 245-275 ([documenta:vol-01/13](https://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
   
 
 * [[John F. Jardine]], *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
