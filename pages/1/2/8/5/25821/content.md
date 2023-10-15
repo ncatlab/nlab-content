@@ -11,6 +11,13 @@ Am. Math. Soc. __360__ (2008) 4739-4776 [doi](https://doi.org/10.1090/S0002-9947
 * B. Lian, A. Linshaw, B. Song, _Chiral equivariant cohomology III_, [arXiv:0705.0207](https://arxiv.org/abs/0705.0207) Amer. J. Math. __132__:6 (2010) 1549-1590
 [doi](https://doi.org/10.1353/ajm.2010.a404141)
 
+On [[mirror map]]
+
+* Bong H. Lian, [[Shing-Tung Yau]], _Arithmetic properties of mirror map and quantum coupling_, Commun. Math. Phys. __176__ (1996) 163--191 [doi](https://doi.org/10.1007/BF02099367)
+* B. Lian, S-T. Yau, _Mirror symmetry, rational curves on algebraic manifolds and hypergeometric series_, 163--183 in: XIth International Congress of Mathematical Physics (Paris 1994), Daniel Iagolnitzer (eds.), Intern. Press 1995
+* Bong H. Lian, [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series I_, arXiv:[hep-th/9507151](https://arxiv.org/pdf/hep-th/9507151)
+* Bong H. Lian, [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series II_, arXiv:[hep-th](https://arxiv.org/abs/hep-th/9507153) Nuclear Physics B - Proc. Suppl. __46__:1--3 (1996) 248--262 <a href="https://doi.org/10.1016/0920-5632(96)00026-6">doi</a>
+
 On analogues of Howe pairs 
 
 * B. Lian, A. Linshaw, Howe pairs in the theory of vertex algebras, J. Algebra 317, 111-152 (2007) arXiv:[math.RT/0605174](https://arxiv.org/abs/math/0605174) [doi](https://doi.org/10.1016/j.jalgebra.2007.07.002)
