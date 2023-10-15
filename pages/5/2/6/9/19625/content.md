@@ -7,9 +7,9 @@
 
 _Irreducible ideals_ generalize [[prime ideals]] by replacing [[ideal product|multiplication]] of [[ideals]] with [[intersection]].  (Strictly speaking, this gives us the notion of _strongly_ irreducible ideals; the irreducible ideals are found by replacing a containment with an equality.  However, in many common situations, these are equivalent.)
 
-In [[lattices]] (or [[prosets]] more broadly), where multiplication of ideals *is* intersection, the (strongly) irreduicible ideals are the same as the prime ideals; this is true in some other cases, such as the [[ring of integers]].  (For this reason, the term 'strongly irreducible' is not needed in [[order theory]].)
+In [[lattices]] (or [[prosets]] more broadly), where multiplication of ideals *is* intersection, the (strongly) irreducible ideals are the same as the prime ideals; this is true in some other cases, such as the [[ring of integers]].  (For this reason, the term 'strongly irreducible' is not needed in [[order theory]].)
 
-There is also an infinitary version, the _completely_ irreducible ideals_, which also have a strong version.  (The completely strongly irreduicible ideals are usually called 'completely prime' in order theory, although they are different from the [[completely prime ideals]] of noncommutative ring theory).
+There is also an infinitary version, the _completely_ irreducible ideals, which also have a strong version.  (The completely strongly irreducible ideals are usually called 'completely prime' in order theory, although they are different from the [[completely prime ideals]] of noncommutative ring theory).
 
 Irreducible ideals are related to [[irreducible elements]] but don\'t line up perfectly.
 
