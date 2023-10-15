@@ -1,3 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 …
@@ -109,30 +131,39 @@ Textbook accounts include Chapter 7 of [Cisinski](#Cisinski).
 
 ### Universal commutativity
 
-* [[Jacob Lurie]], [[Higher Topos Theory]].
+* [[Jacob Lurie]], *[[Higher Topos Theory]]* (2009)
 
 ### Special commutativity
 
-* Section A.5, in particular, Definition A.5.2.1, Theorems A.5.3.1, A.5.4.1, A.5.6.1 in Lurie's Spectral Algebraic Geometry.
+On conditions that [[base change]] via [[homotopy pullback]] commutes with [[geometric realization of simplicial topological spaces|realization]] (cf. *[[π-Kan condition]]* and [this Prop.](geometric+realization+of+simplicial+topological+spaces#SufficientConditionsForRealizationToPreserveHomotopyPullback)):
 
-Earlier lecture notes by Lurie: <https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf>.
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math. **658** Springer (1978) 80-130 &lbrack;[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]]&rbrack;
 
-For a treatment without ∞-categories, see also Definition 3.2 in arXiv:1912.10544.
+* {#Lurie11} [[Jacob Lurie]], *Simplicial spaces*, Lecture 7 of: *[Algebraic L-theory and Surgery](https://www.math.ias.edu/~lurie/287x.html)* (2011) &lbrack;[pdf](https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf)&rbrack;
 
-Rezk's manuscript discusses how to commute base changes past realizations:
+* {#Rezk14} [[Charles Rezk]], *When are homotopy colimits compatible with homotopy base change?* (2014) &lbrack;[i-hate-the-pi-star-kan-condition.pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]]&rbrack;
 
-* [[Charles Rezk]], When are homotopy colimits compatible with homotopy base change?  February 2, 2014.  <https://rezk.web.illinois.edu/i-hate-the-pi-star-kan-condition.pdf>.
+* [[Jacob Lurie]], §A.5, esp. Def. A.5.2.1, Thms. A.5.3.1, A.5.4.1, A.5.6.1 in  *[[Spectral Algebraic Geometry]]* (2018) &lbrack;[pdf](https://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf)&rbrack;
+
+{#ForATreatment} For a treatment without ∞-categories, see also [BEBP19, Def. 3.2](#BEBP19) below.
 
 An even larger class of maps of so-called _weak Kan fibrations_ is studied in Section 3 of
 
-* [[Daniel Berwick-Evans]], [[Pedro Boavida]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_, [arXiv:1912.10544](https://arxiv.org/abs/1912.10544).  Algebraic & Geometric Topology.
+* {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_, Algebraic & Geometric Topology  &lbrack;[arXiv:1912.10544](https://arxiv.org/abs/1912.10544)&rbrack;  
 
-The general theory of model ∞-categories that allows one to commute homotopy colimits past homotopy limits is developed in a series of papers by Aaaron Mazel-Gee:
+The general theory of [[model (∞,1)-categories]] that allows one to commute homotopy colimits past homotopy limits is developed in a series of papers by Aaaron Mazel-Gee:
 
-* [[Aaron Mazel-Gee]], _Model ∞-categories I, II, III_.
+* [[Aaron Mazel-Gee]], *Model ∞-categories I: some pleasant properties of the ∞-category of simplicial spaces* &lbrack;[arXiv:1412.8411](https://arxiv.org/abs/1412.8411)&rbrack;
+ 
+* [[Aaron Mazel-Gee]], *Model ∞-categories II: Quillen adjunctions*, New York Journal of Mathematics **27** (2021) 508-550.  &lbrack;[arXiv:1510.04392](https://arxiv.org/abs/1510.04392), [nyjm:27-21](http://nyjm.albany.edu/j/2021/27-21.html)&rbrack;
 
-and in Chapter 7 of
+* [[Aaron Mazel-Gee]], *Model ∞-categories III: the fundamental theorem*, New York Journal of Mathematics **27** (2021) 551-599 &lbrack;[arXiv:1510.04777](https://arxiv.org/abs/1510.04777), [nyjm:27-22](http://nyjm.albany.edu/j/2021/27-22.html)&rbrack;
 
-* {#Cisinski} [[Denis-Charles Cisinski]], [[Higher Categories and Homotopical Algebra]].
+and in 
+
+* {#Cisinski} [[Denis-Charles Cisinski]], Chapter 7 of: *[[Higher Categories and Homotopical Algebra]]*, Cambridge Studies in Advanced Mathematics **180**, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf)&rbrack;
+
 
 [[!redirects commutativity of homotopy colimits and limits]]
+
+
