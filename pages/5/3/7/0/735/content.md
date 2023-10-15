@@ -27,6 +27,10 @@ The [[axiom of choice]] says precisely that every entire relation contains a [[f
 
 When [[internalization|internalising]] entire relations to a [[site]], one may want to replace the projection map $\pi_r: \Gamma_r \to X$ by a [[cover|covering family]].
 
+## Related concepts
+
+* [[axiom of fullness]]
+
 
 [[!redirects entire relation]]
 [[!redirects entire relations]]
