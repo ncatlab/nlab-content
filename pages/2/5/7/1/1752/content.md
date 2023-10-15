@@ -70,9 +70,9 @@ One usually says that a **local model structure** on a category of [[presheaf|pr
 There are different equivalent ways to define local weak equivalences of simplicial presheaves on a site $S$.
 
 
-###In terms of sheaves of homotopy groups###
+### In terms of sheaves of homotopy groups
 
-(see section 2 of _Jardine07_)
+(see section 2 of [Jardine 2007](#Jardine07))
 
 We want to say that a local weak equivalence of simplicial presheaves is one which is "over each point" an isomorphism of homotopy groups.
 
@@ -127,7 +127,7 @@ $$
 $$
 are isomorphisms for all $U \in S$, for $X|_U, Y|_U$ the pullbacks to the over-category site $S/U$, for all $x \in X_0(U)$ and all $n \geq 0$.
 
-If the site $S$ _has enough points_ then this condition is equivalent to saying that $f$ is a weak equivalence in the [[model structure on simplicial sets]] over every stalk (see [p. 363](http://www.intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf#page=3) of _Jardine01_).
+If the site $S$ _has enough points_ then this condition is equivalent to saying that $f$ is a weak equivalence in the [[model structure on simplicial sets]] over every [[stalk]] (see [Jardine 2001 p. 363](#Jardine01), [Jardine 2015 pp. 63](#Jardine15)).
 
 
 
@@ -190,19 +190,11 @@ So
 ###### Theorem 
 
 The inclusion of sheaves into simplicial presheaves
-$SimpSh(S) \hookrightarrow SimpPr(S)$ and the [[sheafification]] functor 
-$SimpPr(S) \to SimpSh(S)$ constitute a 
-[[Quillen equivalence]] with respect to the above
-_local injective model structure_ on $SimpPr(S)$ ans the local [[model structure on simplicial sheaves]].
+$SimpSh(S) \hookrightarrow SimpPr(S)$ and the [[sheafification]] functor  $SimpPr(S) \to SimpSh(S)$ constitute a  [[Quillen equivalence]] with respect to the above _local injective model structure_ on $SimpPr(S)$ and the local [[model structure on simplicial sheaves]].
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-See _Jardine07_, theorem 5.
-
-=--
+([Jardine 2007, Thm. 5](#Jardine07))
 
 
 +-- {: .un_theorem }
@@ -289,9 +281,20 @@ _DHI04_, theorem 1.3
 
 One can regard the projective and the injective model structure as two extrema of a poset of model structures on simplicial presheaves; see [[intermediate model structure]].
 
-#References#
+## References
 
-See *[[model structure on simplicial presheaves]]*.
+Eg.
+
+* {#JardineLecture} [[John F. Jardine]], *Simplicial presheaves*, Journal of Pure and Applied Algebra **47** (1987) 35-87 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>, [pdf](http://math.uchicago.edu/~amathew/simplicialpresheaves.pdf)&rbrack;
+
+* {#Jardine01} [[J. F. Jardine]], *Stacks and the homotopy theory of simplicial sheaves*, Homology, Homotopy and Applications **3** 2 (2001)  361–384 &lbrack;[doi:10.4310/HHA.2001.v3.n2.a5](https://dx.doi.org/10.4310/HHA.2001.v3.n2.a5), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-3/issue-2/Stacks-and-the-homotopy-theory-of-simplicial-sheaves/hha/1139840259.full)&rbrack;
+
+* {#Jardine07} [[John F. Jardine]], *Simplicial Presheaves*, lecture notes, Fields Institute (2007) &lbrack;[pdf](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf), [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
+
+* {#Jardine15} [[John F. Jardine]], *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
+
+
+For more see at *[[model structure on simplicial presheaves]]*.
 
 The local projective model structure on simplicial presheaves appears as theorem 1.6 in
 
