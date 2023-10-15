@@ -22,11 +22,11 @@ On [[E-strings]] in [[F-theory]]:
 
 * Jie Gu, Babak Haghighat, [[Albrecht Klemm]], Kaiwen Sun, Xin Wang, _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_ ([arXiv:1911.11724](https://arxiv.org/abs/1911.11724))
 
-On [[mirror map]]:
+On the [[mirror map]]:
 
-* S. Hosono, [[Albrecht Klemm|A. Klemm]], S. Thiesen, [[Shing-Tung Yau|S-T. Yau]], _Mirror symmetry, mirror map and applications to Calabi-Yau hypersurfaces_, Commun. Math. Phys. __167__ (1995) 301--350 [doi](https://doi.org/10.1007/BF02100589)
+* S. Hosono, [[Albrecht Klemm]], [[Stefan Theisen]], [[Shing-Tung Yau]], _Mirror symmetry, mirror map and applications to Calabi-Yau hypersurfaces_, Commun. Math. Phys. __167__ (1995) 301-350 &lbrack;[doi:10.1007/BF02100589](https://doi.org/10.1007/BF02100589), [arXiv:hep-th/9308122](https://arxiv.org/abs/hep-th/9308122)&rbrack;
 
-## Related $n$Lab entries
+## Related entries
 
 * [[topological recursion]]
 
