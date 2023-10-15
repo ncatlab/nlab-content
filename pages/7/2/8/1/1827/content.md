@@ -35,6 +35,8 @@ In the context of material set theory, the structural axiom is weaker than the m
 
 You can also write down an [[internalization|internal]] version of fullness by adding arbitrary additional parameters to the structural version above (analogously to the generalisation from [[power set]] to [[power object]], although more complicated since $F_{X,Y}$ is not given by a [[universal property]]).  
 
+Given [[function sets]], fullness is equivalent to the set theory having sets of [[inhabited]] [[subsets]], since an entire relation between $A$ and $B$ is a [[function]] from $A$ to the set of inhabited subsets of $B$. (Power sets on the other hand are sets of *all* subsets). 
+
 In its guise as _subset collection_, the axiom states ...
 +-- {: .query}
 I need to look this up again, including the conditions for its equivalence with fullness.  In the meantime, see [the Stanford Encyclopedia's list of axioms](http://plato.stanford.edu/entries/set-theory-constructive/axioms-CZF-IZF.html).
@@ -112,6 +114,7 @@ Then this defines an [[equivalence relation]] on the set of regular presequences
 
 category: foundational axiom
 
+[[!redirects fullness]]
 [[!redirects axiom of fullness]]
 [[!redirects fullness axiom]]
 
