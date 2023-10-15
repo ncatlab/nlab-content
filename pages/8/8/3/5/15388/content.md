@@ -19,6 +19,12 @@ On a rigorous [[proof]] of [[moduli stabilization]] of vacuum [[spacetimes]], re
 
 * {#AndersonBlueWyattYau20} [[Lars Andersson]], [[Pieter Blue]], [[Zoe Wyatt]], [[Shing-Tung Yau]], _Global stability of spacetimes with supersymmetric compactifications_ ([arXiv:2006.00824](https://arxiv.org/abs/2006.00824))
 
+On [[mirror map]]
+
+* [[Bong H. Lian]], [[Shing-Tung Yau]], _Arithmetic properties of mirror map and quantum coupling_, Commun. Math. Phys. __176__ (1996) 163--191 [doi](https://doi.org/10.1007/BF02099367)
+* B. Lian, S-T. Yau, _Mirror symmetry, rational curves on algebraic manifolds and hypergeometric series_, 163--183 in: XIth International Congress of Mathematical Physics (Paris 1994), Daniel Iagolnitzer (eds.), Intern. Press 1995
+* [[Bong H. Lian]], [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series I_, arXiv:[hep-th/9507151](https://arxiv.org/pdf/hep-th/9507151)
+* [[Bong H. Lian]], [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series II_, arXiv:[hep-th/9507153](https://arxiv.org/abs/hep-th/9507153) Nuclear Physics B - Proc. Suppl. __46__:1--3 (1996) 248--262 <a href="https://doi.org/10.1016/0920-5632(96)00026-6">doi</a>
 
 ## related $n$Lab entries
 
@@ -28,6 +34,6 @@ On a rigorous [[proof]] of [[moduli stabilization]] of vacuum [[spacetimes]], re
 
 * [[p-adic string theory]], [[Riemann zeta function]]
 
-* ...
+* [[mirror symmetry]]...
 
 category: people
