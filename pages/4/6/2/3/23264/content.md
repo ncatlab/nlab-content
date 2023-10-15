@@ -26,6 +26,7 @@ The notion of *model $(\infty,1)$-category* (or *model $\infty$-category*, for s
 Where the [[classical model structure on simplicial sets]] is an archetypical example of a [[model category]], so [[simplicial object in an (infinity,1)-category|simplicial]] [[infinity-groupoids|$\infty$-groupoids]] ("[[simplicial spaces]]", [[bisimplicial sets]]) form an archetypical example of a model $\infty$-category. In this example, a fundamental application of the theory says, for instance,  that [[geometric realization of simplicial topological spaces|geometric realization]] preserves [[homotopy pullbacks]] of [[homotopy Kan fibrations]] (see [there](geometric+realization+of+simplicial+topological+spaces#PreservationOfHomotopyLimits)).
 
 ## References
+ {#References}
 
 * [[Aaron Mazel-Gee]], *Model ∞-categories I: some pleasant properties of the ∞-category of simplicial spaces* &lbrack;[arXiv:1412.8411](https://arxiv.org/abs/1412.8411)&rbrack;
  
@@ -38,5 +39,7 @@ Where the [[classical model structure on simplicial sets]] is an archetypical ex
 
 [[!redirects model (infinity,1)-category]]
 [[!redirects model (infinity,1)-categories]]
+
+[[!redirects model infinity1-category]]
 
 
