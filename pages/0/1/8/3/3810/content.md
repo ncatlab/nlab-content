@@ -37,7 +37,7 @@ Some of the questions in [[set theory|set]] and [[model theory]] concerning the 
 
 * [[combinatorial functor]]
 
-* [[Catalan number]], [[Motzkin number]]
+* [[Catalan number]], [[Motzkin number]], [[Moebius function]]
 
 * [[game theory]]
 
@@ -57,9 +57,19 @@ Some of the questions in [[set theory|set]] and [[model theory]] concerning the 
 
 On combinatorics in [[algebraic topology]]:
 
-* [[Dmitry N. Kozlov]], *Trends in Topological Combinatorics* &lbrack;[arXiv:math/0507390](https://arxiv.org/abs/math/0507390)&rbrack;
+* [[Dmitry N. Kozlov]], *Trends in topological combinatorics* &lbrack;[arXiv:math/0507390](https://arxiv.org/abs/math/0507390)&rbrack;
 
 * [[Dmitry Kozlov]], *Combinatorial Algebraic Topology*,  Algorithms and Computation in Mathematics **21**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-71962-5](https://doi.org/10.1007/978-3-540-71962-5)&rbrack;
+
+An application of [[Hodge theory]]
+
+* {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
+ &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
+
+A categorification of many counting procedures may be viewed via so called objective linear algebra. Some ideas can be found in 
+
+* [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
+
 
 [[!redirects combinatorial]]
 [[!redirects combinatorialist]]
