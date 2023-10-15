@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the [[mirror map]]:
+
+* S. Hosono, [[Albrecht Klemm]], [[Stefan Theisen]], [[Shing-Tung Yau]], _Mirror symmetry, mirror map and applications to Calabi-Yau hypersurfaces_, Commun. Math. Phys. __167__ (1995) 301-350 &lbrack;[doi:10.1007/BF02100589](https://doi.org/10.1007/BF02100589), [arXiv:hep-th/9308122](https://arxiv.org/abs/hep-th/9308122)
+&rbrack;
+
 On [[moduli spaces of curves]]/[[moduli spaces of Riemann surfaces]] with emphasis on their [[orbifold]]-structure:
 
 * Lizhen Ji, [[Shing-Tung Yau]], _Transformation Groups and Moduli Spaces of Curves_, International Press of Boston 2011 ([ISBN:9781571462237](https://www.intlpress.com/site/pub/pages/books/items/00000353/index.php))
