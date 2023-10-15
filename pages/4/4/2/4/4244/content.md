@@ -137,7 +137,8 @@ The original articles are
 
 Surveys and review:
 
-* Scholarpedia, _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_
+* [[Shing-Tung Yau]], _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_
+Scholarpedia 4(8):6524 (2009) [doi](https://doi.org/10.4249/scholarpedia.6524) 	
 
 Motivated from the relation between [[supersymmetry and Calabi-Yau manifolds]]:
 
