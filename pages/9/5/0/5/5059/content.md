@@ -1173,7 +1173,7 @@ and the computation there was highlighted and a little simplified around p. 17 o
 
 A more comprehensive result arguing that the heterotic supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the heterotic GS-string on that background being consistent was then claimed in
 
-* {#ShapiroTaylor87} [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987 ([pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198609078))
+* {#ShapiroTaylor87} [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B **186** 1 (1987) &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)90514-4">doi:10.1016/0370-2693(87)90514-4</a>&rbrack;
 
 Discussion of this with the heterotic gauge-field included (hence including the [[Green-Schwarz anomaly cancellation]]) is in
 
