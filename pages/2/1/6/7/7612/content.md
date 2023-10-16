@@ -326,6 +326,11 @@ Projects:
 
 * *[VeriqTAS -- Verification of Quantum Technologies, Applications and Systems](https://veriqtas.cft.edu.pl/index.html)*
 
+See also
+
+* [[Anne Broadbent]], Arthur Mehta, Yuming Zhao, *Quantum delegation with an off-the-shelf device* &lbrack;[arXiv:2304.03448](https://arxiv.org/abs/2304.03448)&rbrack;
+
+
 
 ### Hardware verification
  {#HardwareVerification}
