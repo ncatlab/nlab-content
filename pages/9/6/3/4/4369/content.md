@@ -30,6 +30,12 @@ In [[categorical logic]], such categories are also known as *finite limits theor
 
 [[!include categories of categories - contents]]
 
+## References
+
+A study of [[descent]] in $Lex$:
+
+* [[Marek Zawadowski]], _Lax descent theorems for left exact categories_ (1995) ([pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.zamlynska-6bb9d2b7-234c-4e9f-8a17-24ecbae7658a/c/rm34601.pdf))
+
 category: category
 
 
