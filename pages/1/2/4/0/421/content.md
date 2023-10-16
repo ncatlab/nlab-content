@@ -62,20 +62,21 @@ In the following, for $n \in \mathbb{N}$ we regard the [[Cartesian space]] $\mat
 
 For $n \in \mathbb{N}$, the **topological $n$-simplex** is, 
 up to [[homeomorphism]], the [[topological space]] whose underlying set is
-the subset
+the [[subset]]
 
 $$
-  \Delta^n \coloneqq 
-  \{
-    \vec x \in \mathbb{R}^{n+1}
-    |
-    \sum_{i = 0 }^n x_i = 1 \; and \;
-    \forall i . x_i \geq 0 
-  \}
-  \subset \mathbb{R}^{n+1}
+  \Delta^n 
+    \;\coloneqq\; 
+  \Big\{
+    \vec x \in (\mathbb{R}_{\geq 0})^{n+1}
+    \,\big|\,
+    \textstyle{\sum}_{i = 0 }^n x_i = 1 
+  \Big\}
+  \;\subset\; 
+  \mathbb{R}^{n+1}
 $$
 
-of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose [[topological space|topology]] is the  [[subspace topology]] inherited from the [[Euclidean topology]] on $\mathbb{R}^{n+1}$.
 
 =--
 
