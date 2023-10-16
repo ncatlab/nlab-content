@@ -126,7 +126,7 @@ $= R\chi \circ \eta_{c', i'} \circ \phi = \alpha(J\chi \circ (i', id_{c'})) \cir
 \end{proof}
 
 \begin{proposition}
-A functor has a left multiadjoint if and only if it facts (essentially uniquely) as a right adjoint functor followed by a discrete fibration.
+A functor has a left multiadjoint if and only if it factors (essentially uniquely) as a right adjoint functor followed by a discrete fibration.
 \end{proposition}
 
 Since both [[right adjoint]] functors and [[discrete fibrations]] have left multiadjoints, one direction follows from the closure of functors having left multiadjoints under composition.
