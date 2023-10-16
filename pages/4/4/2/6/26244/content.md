@@ -145,7 +145,7 @@ On conditions that [[base change]] via [[homotopy pullback]] commutes with [[geo
 
 * [[Jacob Lurie]], §A.5, esp. Def. A.5.2.1, Thms. A.5.3.1, A.5.4.1, A.5.6.1 in  *[[Spectral Algebraic Geometry]]* (2018) &lbrack;[pdf](https://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf)&rbrack;
 
-{#ForATreatment} For a treatment without ∞-categories, see also [BEBP19, Def. 3.2](#BEBP19) below.
+{#ForATreatment} For a treatment without ∞-categories, see also [BEBP19, Def. 3.2, Ex. 3.10, Thm. 3.17](#BEBP19) below.
 
 An even larger class of maps of so-called _weak Kan fibrations_ is studied in Section 3 of
 
@@ -163,6 +163,7 @@ and in
 
 * {#Cisinski} [[Denis-Charles Cisinski]], Chapter 7 of: *[[Higher Categories and Homotopical Algebra]]*, Cambridge Studies in Advanced Mathematics **180**, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf)&rbrack;
 
+In particular, see Propositions 7.5.5, 7.7.4, 7.7.5.
 
 [[!redirects commutativity of homotopy colimits and limits]]
 
