@@ -44,7 +44,13 @@ A bicategory can be viewed as a [[pseudo double category]] whose tight-cells are
 
 ## References
 
-* {#Lack10} [[Stephen Lack]], _Icons_. Appl. Categ. Structures. Volume 18, Issue 3,(2010), pp 289&#8211;307. [arxiv:0711.4657](http://arxiv.org/abs/0711.4657)
+An early observation that restricting to icons allows one to form a bicategory of bicategories and lax functors appears in:
+
+* [[Aurelio Carboni]], and [[Robert Rosebrugh]]. _Lax monads: Indexed monoidal monads_, Journal of Pure and Applied Algebra 76.1 (1991): 13-32.
+
+The terminology "ICON" was introduced in:
+
+* {#Lack10} [[Stephen Lack]], _Icons_. Appl. Categ. Structures. Volume 18, Issue 3 (2010), pp 289&#8211;307. [arxiv:0711.4657](http://arxiv.org/abs/0711.4657)
 
 * {#GarnerShulman16} [[Richard Garner]], [[Mike Shulman]], Section 3.8 of _Enriched categories as a free cocompletion_, Adv. Math. 289 (2016), 1--94
 
