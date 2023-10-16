@@ -105,4 +105,8 @@ A recent survey of many basic definitions and operations on actegories is
 
 * Matteo Capucci, Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
 
+A generalisation from [[monoidal categories]] to [[bicategories]] is studied in, where actions are called **representations**:
+
+* [[Robert Gordon]], and [[John Power]]. _Enrichment through variation_, Journal of Pure and Applied Algebra 120.2 (1997): 167-185.
+
 [[!redirects actegories]]
