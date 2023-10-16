@@ -446,6 +446,13 @@ Discussion of sketches the generality of [[enriched category theory]]:
 
 * [[Francis Borceux]], [[Carmen Quinteriro]], [[Jiří Rosický]], *A theory of enriched sketches*, Theory and Applications of Categories, **4** 3 (1998) 47-72 &lbrack;[tac:4-03](http://www.tac.mta.ca/tac/volumes/1998/n3/4-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1998/n3/n3.pdf)&rbrack;
 
+### Generalisations
+
+A generalisation internal to a [[2-category]] is discussed in:
+
+* Yoshiki Kinoshita, [[John Power]], and Makoto Takeyama. _Sketches_, Journal of Pure and Applied Algebra 143.1-3 (1999): 275-291.
+
+* [[Ross Street]]. _Pointwise extensions and sketches in bicategories_ (2014), ([arXiv:1409.6427](https://arxiv.org/abs/1409.6427)).
 
 [[!redirects sketches]]
 
