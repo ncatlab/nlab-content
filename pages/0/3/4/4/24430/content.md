@@ -54,7 +54,7 @@ The second condition is equivalent to:
 
 The definition is due to
 
-* [[Francois Lamarche]]. _Modelling polymorphism with categories_ (1988)
+* [[François Lamarche]]. _Modelling polymorphism with categories_ (1988)
 
 
 [[!redirects locally polypresentable]]
