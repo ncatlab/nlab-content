@@ -1173,7 +1173,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > We present the [[quantum teleportation]] and [[superdense coding]] protocols in the context of [[topological quantum computation|topological]] [[qudits]], as realised by [[anyons]]. The simplicity of our proposed realisation hinges on the [[monoidal category|monoidal structure]] of [[Tambara-Yamagami categories]], which readily allows for the generation of maximally [[quantum entanglement|entangled]] qudits. In particular, we remove the necessity for the [[braiding]] of anyons, an operation which typically underpins any computation. Both protocols find a natural interpretation in the [[string diagram|graphical calculus]] for these categories.
 
-  
+\linebreak
+
+* {#BroadbentOct2023} 16 Oct 2023
+
+  [[Anne Broadbent]] (University of Ottowa, Canada)
+
+  **Quantum Delegation with an Off-the-Shelf Device**
+
+  cf. [arXiv:2304.03448](https://arxiv.org/abs/2304.03448)
+
+  > Given that reliable cloud [[quantum computers]] are becoming closer to reality, the concept of delegation of [[quantum computations]] and its [[software verification|verifiability]] is of central interest. Many models have been proposed, each with specific strengths and weaknesses. Here, we put forth a new model where the client trusts only its classical processing, makes no computational assumptions, and interacts with a quantum server in a single round. In addition, during a set-up phase, the client specifies the size $n$ of the computation and receives an untrusted, off-the-shelf (OTS) quantum device that is used to report the outcome of a single constant-sized measurement from a predetermined logarithmic-sized input. In the OTS model, we thus picture that a single quantum server does the bulk of the computations, while the OTS device is used as an untrusted and generic verification device, all in a single round.  In this talk, we will show how the delegation of quantum computations can be achieved in the OTS model, and furthermore how to make this protocol zero-knowledge. The emphasis will be on the concepts that contribute to this result; these concepts are drawn from a long line of research related to blind and delegated quantum computation, as well as quantum zero-knowledge proofs. Based on joint work with Arthur Mehta and Yuming Zhao.
+
+
 
 
 
