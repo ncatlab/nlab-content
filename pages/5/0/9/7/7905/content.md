@@ -9,13 +9,13 @@
 
 
 
-## Context
+## Context {#sidebar_context}
 
 * [[slice topos]], [[slice (∞,1)-topos]]
 
 * ([[dependent linear type theory|linear]]) [[dependent type theory]]
 
-## Classes of bundles
+## Classes of bundles {#sidebar_classes_of_bundles}
 
 * [[covering space]]
 
@@ -83,7 +83,7 @@
 * [[equivariant bundle]]
 
 
-## Universal bundles
+## Universal bundles {#sidebar_universal_bundles}
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
 
@@ -92,7 +92,7 @@
 * [[subobject classifier]], [[object classifier]]
 
 
-## Presentations
+## Presentations {#sidebar_presentations}
 
 * [[bundle gerbe]]
 
@@ -100,7 +100,7 @@
 
 * [[microbundle]]
 
-## Examples
+## Examples {#sidebar_examples}
 
 * [[empty bundle]], [[zero bundle]]
 
@@ -118,7 +118,7 @@
 
 * [[prequantum circle bundle]], [[prequantum circle n-bundle]]
 
-## Constructions
+## Constructions {#sidebar_constructions}
 
 * [[clutching construction]]
 
