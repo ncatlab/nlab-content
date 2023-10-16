@@ -21,7 +21,6 @@
 =--
 =--
 
-#Strong monads#
 * table of contents
 {:toc}
 
