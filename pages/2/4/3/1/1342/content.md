@@ -578,7 +578,7 @@ Further developments with categorical perspectives and generalizations can be fo
 
 * [[Fernando Lucatelli Nunes]], *Pseudo-Kan extensions and descent theory*, 2018, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
 
-
+* [[Renato Betti]]. _Adjointness in descent theory_, Journal of Pure and Applied Algebra 116.1-3 (1997): 41-47.
 
 
 [[!redirects descent and codescent]]
