@@ -454,6 +454,10 @@ A generalisation internal to a [[2-category]] is discussed in:
 
 * [[Ross Street]]. _Pointwise extensions and sketches in bicategories_ (2014), ([arXiv:1409.6427](https://arxiv.org/abs/1409.6427)).
 
+* [[Ross Street]]. _Complete objects with respect to a theory_.
+
+
+
 [[!redirects sketches]]
 
 [[!redirects finite product sketch]]
