@@ -1,9 +1,10 @@
+Peter Orlik is a professor emeritus at the Departement of Mathematics of the University of Wisconsin at Madison.
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Peter_Orlik)
 
 * [MathematicsGenealogy page](https://www.mathgenealogy.org/id.php?id=5509)
 
-* [institute page](https://math.wisc.edu/staff/orlik-peter/)
+* [university page](https://math.wisc.edu/staff/orlik-peter)
 
 ## Selected writings
 
@@ -19,7 +20,7 @@ On [[local system]]-[[twisted de Rham cohomology]] over [[configuration spaces o
 
 On [[Gauss-Manin connections]] over [[configuration spaces of points]]:
 
-* [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin Connections for Arrangements, I Eigenvalues*, Compositio Math. **136** (2003) 299-316 $[$[arXiiv:math/0105063](https://arxiv.org/abs/math/0105063), [doi:10.1023/A:1023262022279](https://doi.org/10.1023/A:1023262022279)$]$
+* [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin connections for arrangements, I Eigenvalues*, Compositio Math. **136** (2003) 299-316 $[$[arXiv:math/0105063](https://arxiv.org/abs/math/0105063), [doi:10.1023/A:1023262022279](https://doi.org/10.1023/A:1023262022279)$]$
 
 * [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin connections for arrangements, II Nonresonant weights*, Amer. J. Math. **127** (2005) 569-594 $[$[arXiv:math/0207114](https://arxiv.org/abs/math/0207114), [jstor:40067930](https://www.jstor.org/stable/40067930)$]$
 
