@@ -109,4 +109,6 @@ A generalisation from [[monoidal categories]] to [[bicategories]] is studied in,
 
 * [[Robert Gordon]], and [[John Power]]. _Enrichment through variation_, Journal of Pure and Applied Algebra 120.2 (1997): 167-185.
 
+[[!redirects actegory]]
 [[!redirects actegories]]
+[[!redirects actions of a monoidal category]]
