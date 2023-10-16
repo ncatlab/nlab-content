@@ -6,7 +6,7 @@
 
 * [[linear algebra]], [[algebra]], [[higher algebra]]
 
-## Definitions
+## Definitions {#sidebar_definitions}
 
 [[representation]], [[2-representation]], [[∞-representation]]
 
@@ -52,7 +52,7 @@
 
 * [[reconstruction theorems]]
 
-## Theorems
+## Theorems {#sidebar_theorems}
 
 * [[Borel-Weil-Bott theorem]]
 
