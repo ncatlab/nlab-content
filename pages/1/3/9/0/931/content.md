@@ -12,7 +12,6 @@
 =--
 =--
 
-
 \tableofcontents
 
 ## Idea
