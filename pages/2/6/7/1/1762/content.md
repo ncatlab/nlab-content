@@ -392,6 +392,10 @@ On [[monoidal categories]]:
 
 * [[Ross Street]], _The core groupoid can suffice_, 2022. &lbrack;[arXiv:2208.11332](https://arxiv.org/abs/2208.11332)&rbrack;
 
+## Notes
+
+* [[Ross Street]], _Complete objects relative to a theory_, June 1976 ([pdf](http://maths.mq.edu.au/~street/Sketch.pdf))
+
 category: people
 
 [[!redirects R. Street]]
