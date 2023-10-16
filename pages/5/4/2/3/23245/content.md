@@ -16,6 +16,9 @@ On [[Gauss-Manin connections]] over [[configuration spaces of points]]:
 
 * [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin connections for arrangements, III Formal connections*, Trans. Amer. Math. Soc. **357** (2005) 3031-3050 $[$[arXiv:math/0307210](https://arxiv.org/abs/math/0307210), [doi:10.1090/S0002-9947-04-03621-9](https://doi.org/10.1090/S0002-9947-04-03621-9)$]$
 
+On [[Milnor fibration]] and [[local system]]s for arrangements of complex hyperplanes
+
+* [[Daniel C. Cohen]], Alexander I. Suciu, _On Milnor ﬁbrations of arrangements_, J. London Math. Soc. 51 (1995) 105--119; MR96e:32034 [doi](https://doi.org/10.1112/jlms/51.1.105)
 
 On [[braid group representations]] seen in the [[topological K-theory]] of the [[classifying space]] of the [[braid group]]:
 
