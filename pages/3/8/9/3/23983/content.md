@@ -385,6 +385,104 @@ and for constant families $B:\mathcal{U}$
 
 $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\mathcal{T}_\mathcal{U}(B)}(u, v)$$
 
+## A variant using dependent function types
+
+There is a variant of heterogeneous identity types which uses a dependent function $f:\prod_{x:A} B(x)$ instead of two elements $y:B(a)$ and $z:B(b)$ in the constructor. This variant is useful for defining [[dependent function application to identifications]]. 
+
+These are given by the following inference rules:
+
+* Formation rules
+  $$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) 
+    \end{array}
+  }{\Gamma \vdash \mathrm{fhId}_{x:A.B(x)}(f, a, b, p) \; \mathrm{type}}$$ 
+  
+* Introduction rules
+  $$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x) \\
+      \Gamma \vdash a:A
+    \end{array}
+  }{\Gamma \vdash \mathrm{hrefl}_{x:A.B(x)}(f, a):\mathrm{fhId}_{x:A.B(x)}(f, a, b, p)}$$ 
+  
+* Elimination rules
+  $$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), q:\mathrm{fhId}_{x:A.B(x)}(f, a, b, p) \vdash C(a, b, p, q) \; \mathrm{type} \\
+      \Gamma \vdash \vdash t:\prod_{x:A} C(a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(f, a, b, p)
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{fhId}_{x:A.B(x)}}(t, f, a, b, p, q):C(a, b, p, q)}$$
+
+* Judgmental computational rule
+  $$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), q:\mathrm{fhId}_{x:A.B(x)}(f, a, b, p) \vdash C(a, b, p, q) \; \mathrm{type} \\
+      \Gamma \vdash \vdash t:\prod_{x:A} C(a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash q:\mathrm{fhId}_{x:A.B(x)}(f, a, b, p)
+    \end{array}
+  }{\Gamma, a:A \vdash \mathrm{ind}_{\mathrm{fhId}_{x:A.B(x)}}(t, f, a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a)) \equiv t(a):C(a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a))}$$
+
+* Propositional computational rule  
+  $$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), q:\mathrm{fhId}_{x:A.B(x)}(f, a, b, p) \vdash C(a, b, p, q) \; \mathrm{type} \\
+      \Gamma \vdash \vdash t:\prod_{x:A} C(a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash q:\mathrm{fhId}_{x:A.B(x)}(f, a, b, p)
+    \end{array}
+  }{\Gamma, a:A \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, f, a):\mathrm{Id}_{C(a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a))}(\mathrm{ind}_{\mathrm{fhId}_{x:A.B(x)}}(t, f, a, a, \mathrm{refl}_A(a), \mathrm{hrefl}_{x:A.B(x)}(f, a)), t(a))}$$
+
+Given a dependent function $f:\prod_{x:A} B(x)$, we have 
+
+$$\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b)) \simeq \mathrm{fhId}_{x:A.B(x)}(f, a, b, p)$$
+
+since by induction we have functions 
+
+$$\mathrm{hIdTofhId}(f, a, b, p):\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b)) \to \mathrm{fhId}_{x:A.B(x)}(f, a, b, p)$$
+
+and 
+
+$$\mathrm{fhIdTohId}(f, a, b, p):\mathrm{fhId}_{x:A.B(x)}(f, a, b, p) \to \mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))$$
+
+inductively defined by 
+
+$$\mathrm{hIdTofhId}(f, a, a, \mathrm{refl}_A(a))(\mathrm{hrefl}_{x:A.B(x)}(a, f(a))) \equiv \mathrm{hrefl}_{x:A.B(x)}(f, a)$$
+
+and 
+
+$$\mathrm{fhIdTohId}(f, a, a, \mathrm{refl}_A(a))(\mathrm{hrefl}_{x:A.B(x)}(f, a)) \equiv \mathrm{hrefl}_{x:A.B(x)}(a, f(a))$$
+
+Thus, we have identifications 
+
+$$H(f, a, b, p):\mathrm{Id}_{\mathrm{fhId}_{x:A.B(x)}(f, a, b, p)}(\mathrm{hIdTofhId}(f, a, b, p)(\mathrm{fhIdTohId}(f, a, b, p)(q), q)$$
+
+and 
+
+$$K(f, a, b, p):\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))}(\mathrm{fhIdTohId}(f, a, b, p)(\mathrm{hIdTofhId}(f, a, b, p)(q)), q)$$
+
+inductively defined by 
+
+$$H(f, a, a, \mathrm{refl}_A(a)) \equiv \mathrm{refl}_{\mathrm{fhId}_{x:A.B(x)}(f, a, a, \mathrm{refl}_A(a))}(\mathrm{hrefl}_{x:A.B(x)}(f, a))$$
+
+and
+
+$$K(f, a, a, \mathrm{refl}_A(a)) \equiv \mathrm{refl}_{\mathrm{hId}_{x:A.B(x)}(f, a, a, \mathrm{refl}_A(a))}(\mathrm{hrefl}_{x:A.B(x)}(a, f(a))$$
+
+since by the properties of [[judgmental equality]]
+
+$$\mathrm{Id}_{\mathrm{fhId}_{x:A.B(x)}(f, a, a, \mathrm{refl}_A(a))}(\mathrm{fhIdTofhId}(f, a, a, \mathrm{refl}_A(a))(\mathrm{hIdTofhId}(f, a, a, \mathrm{refl}_A(a))(\mathrm{hrefl}_{x:A.B(x)}(f, a))), \mathrm{hrefl}_{x:A.B(x)}(f, a)) \equiv \mathrm{Id}_{\mathrm{fhId}_{x:A.B(x)}(f, a, a, \mathrm{refl}_A(a))}(\mathrm{hrefl}_{x:A.B(x)}(f, a)), \mathrm{hrefl}_{x:A.B(x)}(f, a))$$
+
+and 
+
+$$\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), f(a), f(a))}(\mathrm{hIdTofhId}(f, a, a, \mathrm{refl}_A(a))(\mathrm{fhIdTohId}(f, a, a, \mathrm{refl}_A(a))(\mathrm{hrefl}_{x:A.B(x)}(a, f(a))), \mathrm{hrefl}_{x:A.B(x)}(a, f(a))) \equiv \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), f(a), f(a))}(\mathrm{hrefl}_{x:A.B(x)}(a, f(a)), \mathrm{hrefl}_{x:A.B(x)}(a, f(a)))$$
+
+Then by the properties of [[quasi-inverse functions]] and [[equivalences of types]] one could prove that both $\mathrm{hIdTofhId}(f, a, b, p)$ and $\mathrm{fhIdTohId}(f, a, b, p)$ are equivalences of types. 
+
 ## Related concepts
 
 * [[two-type identity type]]
