@@ -10,7 +10,7 @@ Nelson's internal set approach is used in these references
 
 * Edward Nelson, Internal set theory: a new approach to nonstandard analysis.  Bull. Amer. Math. Soc.  83  (1977), no. 6, 1165--1198. 
 
-* Nelson is writing a book on nonstandard analysis in this approach: [draft first chapter](http://www.math.princeton.edu/~nelson/books/1.pdf)
+* Nelson was writing a book on nonstandard analysis in this approach: [draft first chapter](http://www.math.princeton.edu/~nelson/books/1.pdf)
 
 * A. G. Kusraev, S. S. Kutateladze, Nonstandard Methods of Analysis. Mathematics and Its Applications 291, Kluwer 1994 (has also short excursion into external sets)
 
