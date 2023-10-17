@@ -22,24 +22,27 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 ## Latest events
  {#LatestsEvents}
 
-* 2023, October 25th
 
-  **ItaCa Fest (online)**
+* 2024, July 1-5th 
 
-  (recurrent online seminar)
+  **TACL24**
 
-  home page: [https://progetto-itaca.github.io/pages/fest23.html#oct25](https://progetto-itaca.github.io/pages/fest23.html#oct25)  
+  (annual *conference on Topology, Algebra and Categories in Logic*)
 
+  home page: [iiia.csic.es/tacl2024](https://iiia.csic.es/tacl2024/)  
 
-* 2023, December 18th-19th 
+  in Barcelona (Spain) 
 
-  **ItaCa23**
+* 2024, June 24rd-28th 
 
-  (annual meeting of the Italian Category Theory Community)
+  **Logic Colloqium 2024**
 
-  home page: [https://progetto-itaca.github.io/ItaCa-23/](https://progetto-itaca.github.io/ItaCa-23/)  
+  (annual *conference of the Association of Symbolic Logic*)
 
-  in Turin (Italy) 
+  home page: [lc2024.se](https://lc2024.se)  
+
+  in Gothenburg (Sweden)
+
 
 
 * 2024, June 23rd-29th 
@@ -53,26 +56,31 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
   in Santiago de Compostela (Spain) 
 
 
-* 2024, June 24rd-28th 
+* 2023, December 18th-19th 
 
-  **Logic Colloqium 2024**
+  **ItaCa23**
 
-  (annual *conference of the Association of Symbolic Logic*)
+  (annual meeting of the Italian Category Theory Community)
 
-  home page: [lc2024.se](https://lc2024.se)  
+  home page: [https://progetto-itaca.github.io/ItaCa-23/](https://progetto-itaca.github.io/ItaCa-23/)  
 
-  in Gothenburg (Sweden)
+  in Turin (Italy) 
+
+* 2023, October 28/29
+
+  **Category Theory Octoberfest**
+
+  website: [https://richardblute.ca/octoberfest-2023/](https://richardblute.ca/octoberfest-2023/)
 
 
-* 2024, July 1-5th 
+* 2023, October 25th
 
-  **TACL24**
+  **ItaCa Fest (online)**
 
-  (annual *conference on Topology, Algebra and Categories in Logic*)
+  (recurrent online seminar)
 
-  home page: [iiia.csic.es/tacl2024](https://iiia.csic.es/tacl2024/)  
+  home page: [https://progetto-itaca.github.io/pages/fest23.html#oct25](https://progetto-itaca.github.io/pages/fest23.html#oct25)  
 
-  in Barcelona (Spain) 
 
 
 category: reference 
