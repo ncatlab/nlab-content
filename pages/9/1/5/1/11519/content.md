@@ -60,7 +60,7 @@ This also shows that $S^V$ is a [[smooth manifold]] with smooth $G$-[[action]].
 
 =--
 
-(e.g. [MP 04, p. 2](#MP04))
+(e.g. [Marzantowicz & Prieto 2004, p. 215 (2 of 17)](#MarzantowiczPrieto04))
 
 ### Equivariant projective lines
 
@@ -138,7 +138,7 @@ Let $\{b_1, b_2, \cdots, b_{n+1}\}$ be an [[orthonormal basis]] of $\mathbb{R} \
 
 * {#Blumberg17} [[Andrew Blumberg]], Example 1.1.5 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
-* {#MP04} Waclaw Marzantowicz, Carlos Prieto, _The unstable equivariant fixed point index and the equivariant degree_, Jourmal of the London Mathematical Society,  Volume 69, Issue 1 February 2004 , pp. 214-230 ([pdf](http://hopf.math.purdue.edu/Marzantowicz-Prieto/Marprieto.pdf), <a href=" https://doi.org/10.1112/S0024610703004721">doi:10.1112/S0024610703004721</a>)
+* {#MarzantowiczPrieto04} Waclaw Marzantowicz, [[Carlos Prieto]], _The unstable equivariant fixed point index and the equivariant degree_, Jourmal of the London Mathematical Society **69**  1 (2004) 214-230 &lbrack;[pdf](http://hopf.math.purdue.edu/Marzantowicz-Prieto/Marprieto.pdf), <a href=" https://doi.org/10.1112/S0024610703004721">doi:10.1112/S0024610703004721</a>&rbrack;
 
 
 
