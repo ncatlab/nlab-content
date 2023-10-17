@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -87,7 +88,8 @@ Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quater
 
 =--
 
-(e.g. [Berger 87, Thm. 8.9.8](#Berger87), [Garrett 13](#Garrett13))
+(e.g. [Berger 87, Thm. 8.9.8](#Berger87), [Garrett 13, §2.3](#Garrett13))
+
 
 In summary:
 
@@ -324,6 +326,7 @@ linebreak
 
 * {#CadekVanzura98} [[Martin Čadek]], [[Jiří Vanžura]], _On 4-fields and 4-distributions in 8-dimensional vector bundles over 8-complexes_,  Colloquium Mathematicum 1998, 76 (2), pp 213-228 ([web](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-cmv76z2p213bwm))
 
-* {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
+* {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_ (July 2013) &lbrack;[pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf), [[Garrett-SporadicIsogenies.pdf:file]] &rbrack;
+
 
 [[!redirects Spin4]]
