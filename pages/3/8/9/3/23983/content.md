@@ -59,7 +59,7 @@ The inference rules for forming heterogeneous identity types and terms are as fo
 Formation rule for heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
       \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b)
     \end{array}
   }{\Gamma \vdash \mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \; \mathrm{type}}$$ 
