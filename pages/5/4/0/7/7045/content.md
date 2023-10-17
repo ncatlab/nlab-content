@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -48,6 +46,14 @@ In Tarski universes the corresponding hypothetical judgment would be of the form
 $$
   x : X \vdash El(A)(x)\; type
 $$
+
+Type universes are important in [[dependent type theory]] for numerous reasons:
+
+1. In [[set theory]], one could usually quantify over sets using the [[universal quantifier]] and the [[existential quantifier]]. However, in [[dependent type theory]], one could only quantify over elements of types. Without type universes, types are not elements of type universes, but rather [[judgment|judged]] separately as a type, and thus it is impossible to quantify over types. Quantification over types is necessary for proving [[universal properties]] of various [[mathematical structures]], such as that the [[integers]] are the [[initial object|initial]] [[commutative ring]]. 
+
+1. Having type universes in the type theory avoids having to use long annotations everywhere. For example, without type universes, the [[heterogeneous identity type]] for the type family $x:A \vdash B(x)$, elements $a:A$, $b:A$, $p:\mathrm{Id}_A(a, b)$, $y:B(a)$, and $z:B(b)$ is represented by $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$, where the subscript $x:A.B(x)$ is a long annotation used to represent the type family $x:A \vdash B(x)$. With type universes, the type family $x:A \vdash B(x):U$ is represented by the function $B:A \to U$, and the same heterogeneous identity type is then represented by $\mathrm{hId}_{B}(a, b, p, y, z)$, which is more concise when written out, and in addition, the subscript $B$ is now represents that the type depends upon the universe, rather than merely being an annotation, and could be written as the dependent type $\mathrm{hId}(B, a, b, p, y, z)$. 
+
+1. In [[objective type theory]], there is no separate [[judgmental equality]] in the theory. While this results in a simpler formal theory, since one doesn't need all the structural and congruence rules for judgmental equality, there is the question of how one forms [[definitions]] of types in the theory without judgmental equality. With type universes, one could define a symbol $B$ as a type $A:U$ using the [[propositional equality]] $B =_U A$. However, without type universes, types are not elements of type universes, but rather [[judgment|judged]] separately as a type, and thus one cannot compare them for equality. Instead, one would have to use [[equivalences of types]]. However, equivalences are significantly more complex to define, since the symbol $B \simeq A$ usually representing the [[equivalence type]] hasn't been formally defined in the theory yet, and any definition of [[equivalence type]] or [[isEquiv]] for functions is itself a very complex expression when only using [[dependent function types]], [[function types]], [[dependent pair types]], [[pair types]], and [[identity types]] in the expression. 
 
 In [[homotopy type theory]] the type universe $\mathcal{U}$ is often assumed to satisfy the [[univalence]] [[axiom]]. This is a reflection of the fact that in its [[categorical semantics]] as an [[object classifier]] is part of an [[internal (∞,1)-category]] in the ambient [[(∞,1)-topos]]: the one that as an [[indexed category]] is the small [[codomain fibration]].
 
