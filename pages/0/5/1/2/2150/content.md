@@ -26,6 +26,34 @@ in _Topologie algébrique et théorie des faisceaux_
 (the paragraph after Theorem II.3.7.2):
 a sheaf $F$ is __fine__ if the internal hom $Hom(F,F)$ is a [[soft sheaf]].
 
+## Properties
+
+* For any fine sheaf $J$ over a paracompact Hausdorff space $M$, the [[sheaf cohomology]] groups of positive degree $j$ are all trivial
+
+$$
+H^j(M,J) = 0.
+$$
+
+* Any sheaf $S$ of abelian groups admits a [[resolution]] by fine sheaves $\{J_i\}$
+
+$$
+0\to S\to J_0\to J_1\to \cdots
+$$
+
+These resolutions can be used to compute the sheaf cohomology groups of $S$ in terms of the induced maps of sections
+
+$$
+d_i^*: \Gamma(M,J_i)\to\Gamma(M,J_{i+1}).
+$$
+
+as
+
+$$
+H^q(M,S) \cong (\text{ker}d^*_{q})/(\text{im}d^*_{q-1})
+$$
+
+(see Section 3 of [Gunning (1966)](#Gun66).).
+
 ## Related concepts
 
 * [[sheaf]]
@@ -35,5 +63,9 @@ a sheaf $F$ is __fine__ if the internal hom $Hom(F,F)$ is a [[soft sheaf]].
   * [[soft sheaf]]
 
   * [[flabby sheaf]]
+
+## References
+
+* {#Gun66} Robert C. Gunning. *Lectures on Riemann Surfaces*. Princeton University Press (1966).
 
 category: sheaf theory
