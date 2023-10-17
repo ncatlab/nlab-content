@@ -116,7 +116,7 @@ such that the following equivalent conditions hold:
   &=&
   C
   \ar[r, bend left=40, "{L}", "{\ }"{name=s3, swap}]
-  \ar[r, bend right=40, "{\mathrm{id}}"{swap}, "{\ }"{name=t3}]
+  \ar[r, bend right=40, "{L}"{swap}, "{\ }"{name=t3}]
   \ar[from=s3, to=t3, Rightarrow, "{\mathrm{id}}"]
   &
   D
