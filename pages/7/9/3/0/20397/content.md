@@ -51,6 +51,11 @@ See at [[icosahedral group#IsomorphismToSL25|Icosahedral group -- Exceptional is
 
 * [[universal exceptionalism]]
 
+## References
+
+* {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_ (July 2013) &lbrack;[pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf), [[Garrett-SporadicIsogenies.pdf:file]] &rbrack;
+
+
 
 [[!redirects exceptional isomorphisms]]
 
