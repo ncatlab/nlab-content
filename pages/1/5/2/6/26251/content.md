@@ -22,16 +22,25 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 ## Latest events
  {#LatestsEvents}
 
+* 2023, October 25th
 
-* 2024, July 1-5th 
+  **ItaCa Fest (online)**
 
-  **TACL24**
+  (recurrent online seminar)
 
-  (annual *conference on Topology, Algebra and Categories in Logic*)
+  home page: [https://progetto-itaca.github.io/pages/fest23.html#oct25](https://progetto-itaca.github.io/pages/fest23.html#oct25)  
 
-  home page: [iiia.csic.es/tacl2024](https://iiia.csic.es/tacl2024/)  
 
-  in Barcelona (Spain) 
+* 2023, December 18th-19th 
+
+  **ItaCa23**
+
+  (annual meeting of the Italian Category Theory Community)
+
+  home page: [https://progetto-itaca.github.io/ItaCa-23/](https://progetto-itaca.github.io/ItaCa-23/)  
+
+  in Turin (Italy) 
+
 
 * 2024, June 23rd-29th 
 
@@ -53,6 +62,17 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
   home page: [lc2024.se](https://lc2024.se)  
 
   in Gothenburg (Sweden)
+
+
+* 2024, July 1-5th 
+
+  **TACL24**
+
+  (annual *conference on Topology, Algebra and Categories in Logic*)
+
+  home page: [iiia.csic.es/tacl2024](https://iiia.csic.es/tacl2024/)  
+
+  in Barcelona (Spain) 
 
 
 category: reference 
