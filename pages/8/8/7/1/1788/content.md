@@ -1,4 +1,5 @@
 
+[[category theory events]]
 
 $$
   \mathbf{B}G
