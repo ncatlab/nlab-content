@@ -322,7 +322,7 @@ See also
 
 Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isogenies]] onto [[orthogonal groups]] are discussed in 
 
-* {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
+* {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_ (July 2013) &lbrack;[pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf), [[Garrett-SporadicIsogenies.pdf:file]] &rbrack;
  
 * {#GorbunovRay92} [[Vassily Gorbunov]], [[Nigel Ray]], _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]], [doi: 10.2977/prims/1195168855](https://www.ems-ph.org/journals/show_abstract.php?issn=0034-5318&vol=28&iss=1&rank=4))
 
