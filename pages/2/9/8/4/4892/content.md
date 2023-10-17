@@ -56,7 +56,7 @@ However, in general $C(X,\mathcal{U})$ may differ from the [[weak homotopy type]
 \end{remark}
 
 
-If $\mathcal{U}$ is a [[refinement of an open cover|refinement]] open cover, i.e. such that for each $U' \in \mathcal{U}$, there is a $U \in \mathcal{U}$ with $U \subseteq U$, then these inclusions induce a [[morphism]] of [[simplicial sets]]
+If $\mathcal{U}$ is a [[refinement of an open cover|refinement]] open cover, i.e. such that for each $U' \in \mathcal{U}$, there is a $U \in \mathcal{U}$ with $U' \subseteq U$, then these inclusions induce a [[morphism]] of [[simplicial sets]]
 
 
 $$
