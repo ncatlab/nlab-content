@@ -146,7 +146,15 @@ See also
 
 * {#Borceux94} [[Francis Borceux]], vol 1, chapter 5 of: _[[Handbook of Categorical Algebra]], Cambridge University Press (1994)
 
+Generalization from categories to [[quasi-categories]] ("$(\infty,1)$-calculus of fractions", cf. at *[[localization of an (infinity,1)-category|localization of an $(\infty,1)$-category]]*):
+
+* [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], *Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
+
+
+
 [[!redirects left calculus of fractions]]
 [[!redirects right calculus of fractions]]
 [[!redirects calculus of left fractions]]
 [[!redirects calculus of right fractions]]
+
+
