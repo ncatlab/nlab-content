@@ -249,3 +249,5 @@ The coordinate system for an $n$-diagram is defined in the following way. An $n$
 * [[Jamie Vicary]], _Globular tutorial video_, 2015-12-07 [15 minute video] (https://youtu.be/QXZJvXgs0xk)
 
 * [[Jamie Vicary]], _Data Structures for Quasistrict Higher Categories_, referencing [arxiv:1610098] (https://arxiv.org/abs/1610.06908), 2016-12-05 talk at Simons Institute [48 minute video] (https://youtu.be/9w8t0Ze08l4)
+
+category: software
