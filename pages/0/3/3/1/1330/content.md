@@ -80,6 +80,10 @@ With an eye towards [[modal homotopy type theory]]:
 
 * [[Marco Vergura]], *Localization Theory in an Infinity Topos*, 2019 ([pdf](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=8583&context=etd), [ir.lib.uwo.ca:etd/6257](https://ir.lib.uwo.ca/etd/6257))
 
+Via a [[calculus of fractions]] for [[quasi-categories]]:
+
+* [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], *Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
+
 
 [[!redirects localization of an (∞,1)-category]]
 [[!redirects localisation of an (infinity,1)-category]]
