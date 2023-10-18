@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -173,6 +174,18 @@ Localization is especially well developed in abelian setup where several competi
 
   This is because localization is a [[reflector]] into the [[exponential ideal]] of minimal categories with weak equivalences.
 
+## Examples
+
+* examples of localizations of [[locally small categories]] that are *not* themselves locally small:
+
+  * [Krause 2008, Ex. 4.15](#Krause08)
+
+  * [math.SE.a/703354](https://math.stackexchange.com/a/703354/58526)
+
+
+
+  
+
 ## In higher category theory
 
 The notion of localization of a category has analogs in [[higher category theory]].
@@ -231,6 +244,7 @@ See also [[localization of a simplicial model category]].
 
 * [[ring of fractions]]
 
+
 ## References
 
 A classical reference:
@@ -253,6 +267,11 @@ The pioneering work on abelian categories, with a large part on the localization
 Review of localization in [[homotopy theory]]:
 
 * [[William Dwyer]], _Localizations_, in: _Axiomatic, enriched and motivic homotopy theory_, NATO Sci. Ser. II **131**, Kluwer Acad. Publ. (2004) 3-28 &lbrack;[doi:10.1007/978-94-007-0948-5](https://doi.org/10.1007/978-94-007-0948-5)&rbrack;
+
+For [[triangulated categories]]:
+
+* {#Krause08} [[Henning Krause]], *Localization theory for triangulated categories*, in proceedings of *[Workshop on Triangulated Categories, Leeds 2006](https://www.commalg.org/2006/08/13/workshop-on-triangulated-categories-leeds/)* &lbrack;[arXiv:0806.1324](https://arxiv.org/abs/0806.1324)&rbrack;
+
 
 
 A __terminological discussion__ prompted by question in which sense "localization" is a descriptive term or not is archived ion $n$Forum [here](https://nforum.ncatlab.org/discussion/481/localization/?Focus=23461#Comment_23461).
