@@ -35,7 +35,7 @@ Since a complex number can be understood as a pair of [[real numbers]], this wou
 
 * Wikipedia (English): [Complex analysis](http://en.wikipedia.org/wiki/Complex_analysis), [Several complex variables](http://en.wikipedia.org/wiki/Several_complex_variables)
 
-* John B. Conway, _Functions of one complex variable_, Springer 1978; _Functions of one complex variable II_, GTM 159
+* [[John B. Conway]], _Functions of one complex variable_, Springer 1978; _Functions of one complex variable II_, GTM 159
 
 * Lars V. Ahlfors, _Complex analysis_, McGraw-Hill, 1966.
 
@@ -45,7 +45,7 @@ Since a complex number can be understood as a pair of [[real numbers]], this wou
 
 * Steven G. Krantz, _Geometric function theory: explorations in complex analysis_, Birkh&#228;user
 
-* Robert C. Gunning, Hugo Rossi, _Analytic functions of several complex variables_, AMS Chelsea Publishing
+* [[Robert C. Gunning]], Hugo Rossi, _Analytic functions of several complex variables_, AMS Chelsea Publishing
 
 * Douglas N. Arnold, _Complex analysis_, lecture notes, [pdf](http://www.ima.umn.edu/~arnold/502.s97/complex.pdf)
 
