@@ -24,9 +24,15 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Yuhma Asano]], [[Harold Steinacker]], *Spherically symmetric solutions of higher-spin gravity in the IKKT matrix model* ([arXiv:2112.08204](https://arxiv.org/abs/2112.08204))
 
+On [[cosmology]] within the [[IKKT matrix model]]:
 
-## Related $n$Lab entries
+* Emmanuele Battista, [[Harold C. Steinacker]], *One-loop effective action of the IKKT model for cosmological backgrounds* &lbrack;[arXiv:2310.11126](https://arxiv.org/abs/2310.11126)&rbrack;
+
+
+## Related entries
 
 * [[IKKT matrix model]]
 
 category: people
+
+[[!redirects Harold C. Steinacker]]
