@@ -49,9 +49,13 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 ## Related pages
 
-- [[Peripatetic Seminar on Sheaves and Logic]]
-- [Séminaire Itinérant des Catégories](http://www-lmpa.univ-littoral.fr/SIC/)
-- [[Oberwolfach]]
+* [[Peripatetic Seminar on Sheaves and Logic]]
+
+* [Séminaire Itinérant des Catégories](http://www-lmpa.univ-littoral.fr/SIC/)
+
+* [[events of interest for the working category theorist]]
+
+* [[Oberwolfach]]
 
 ## References 
 
