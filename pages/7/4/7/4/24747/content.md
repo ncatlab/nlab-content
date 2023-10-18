@@ -38,7 +38,9 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 ## Related pages
 
-- [[Category Theory conference]]
+* [[Category Theory conference]]
+
+* [[events of interest for the working category theorist]]
 
 category: reference
 
