@@ -17,7 +17,7 @@
 
 Let $X$ be a [[paracompact space|paracompact]] [[Hausdorff space]]. A [[sheaf]] $F$ of [[groups]] over $X$ is __fine__ if for every two disjoint closed subsets $A,B\subset X$, $A\cap B = \emptyset$, there is an [[endomorphism]] of the sheaf of groups $F\to F$ which restricts to the identity in a neighborhood of $A$ and to the $0$ endomorphism in a neighborhood of $B$. Every fine sheaf is [[soft sheaf|soft]].
 
-A slightly different definition is given in Voisin, in _Hodge Theory and Complex Algebraic Geometry I_ (Definition 4.35):
+A slightly different definition is given in [Voisin 2002](#Voisin02) (Vol I, Def. 4.35):
 
 A __fine sheaf__ $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-[[modules]], where $\mathcal{A}$ is a sheaf of [[rings]] such that, for every [[open cover]] $U_i$ of $X$, there is a [[partition of unity]] $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
 
@@ -51,7 +51,7 @@ $$
 H^q(M,S) \cong (\text{ker}d^*_{q})/(\text{im}d^*_{q-1})
 $$
 
-(see Section 3 of [Gunning (1966)](#Gun66).).
+(see Section 3 of [Gunning (1966)](#Gunning66).).
 
 ## Related concepts
 
@@ -68,6 +68,9 @@ $$
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
-* {#Gun66} Robert C. Gunning. *Lectures on Riemann Surfaces*. Princeton University Press (1966).
+* {#Gunning66} [[Robert C. Gunning]], *Lectures on Riemann Surfaces*, Princeton University Press (1966) &lbrack;[pdf](http://ronan.terpereau.perso.math.cnrs.fr/Master_Class_2023_Dijon/GUNNING_Lectures%20on%20Riemann%20Surfaces.pdf)&rbrack;
+
+* {#Voisin02} [[Claire Voisin]], _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__ (2002/3) &lbrack;[doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344)&rbrack;
+
 
 category: sheaf theory
