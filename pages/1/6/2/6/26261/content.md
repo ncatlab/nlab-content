@@ -1,3 +1,4 @@
+[[!redirects fibred transformation]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,11 +19,11 @@
 {:toc}
 
 ## Idea
-**Fibred transformations** are natural transformations between [[fibred functors]].
+**Fibred natural transformations** are natural transformations between [[fibred functors]].
 They are 2-cells in the [[2-category]] $\mathbf{Fib}$.
 
 ## Definition
-Given [[fibred category|fibrations]] $p$ and $p'$ and [[fibred functors]] $F,G:p \to p'$, a **fibred transformation** $\alpha=(\alpha_1,\alpha_0):F \Rightarrow G$ is a pair of 2-cells as follows:
+Given [[fibred category|fibrations]] $p$ and $p'$ and [[fibred functors]] $F,G:p \to p'$, a **fibred natural transformation** $\alpha=(\alpha_1,\alpha_0):F \Rightarrow G$ is a pair of 2-cells as follows:
 \begin{tikzcd}
 	{\mathcal{E}} && {\mathcal{E}'} \\
 	{\mathcal{B}} && {\mathcal{B}'}
@@ -45,13 +46,17 @@ In that case, $\alpha$ reduces to a natural transformation between the functor $
 
 * [[natural transformation]]
 
-[[!redirects fibred natural transformation]]
-[[!redirects fibred natural transformations]]
+[[!redirects fibred transformation]]
+[[!redirects fibred transformations]]
+[[!redirects fibered transformations]]
 [[!redirects fibered natural transformation]]
 [[!redirects fibered natural transformations]]
+[[!redirects fibred natural transformations]]
 
-[[!redirects transformation of fibrations]]
-[[!redirects transformations of fibrations]]
+[[!redirects transformation of fibred functors]]
+[[!redirects transformations of fibred functors]]
+[[!redirects transformation of fibered functors]]
+[[!redirects transformations of fibered functors]]
 
 [[!redirects natural transformation of fibrations]]
 [[!redirects natural transformations of fibrations]]
