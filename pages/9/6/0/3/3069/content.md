@@ -867,14 +867,14 @@ expanded on in
 
 Review:
 
-* {#Pavlović91} [[Duško Pavlović]], Section 1 of: *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
+* {#Pavlović91} [[Duško Pavlović]], Section 1 of: *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://dusko.org/wp-content/uploads/2020/03/1990-Como-BCDE.pdf)&rbrack;
 
 * [[Simon John Ambler]], §5.5.1 in: *First Order Linear Logic in Symmetric Monoidal Closed Categories*, PhD thesis, Edinburgh (1991) &lbrack;[ECS-LFCS-92-194](https://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194/ECS-LFCS-92-194.pdf), [[Ambler-FOLL.pdf:file]]&rbrack;
 
 > (in view of [[linear type theory]])
 
 
-* {#Pavlović96} [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
+* {#Pavlović96} [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://dusko.org/wp-content/uploads/2020/03/00-95-IGPL-mapsII.pdf)&rbrack;
 
 * [[Paul Balmer]], around §7.5 of: *Stacks of group representations*, J. European Math. Soc. **17** 1 (2015) 189-228 &lbrack;[arXiv:1302.6290](https://arxiv.org/abs/1302.6290), [doi:10.4171/jems/501](https://doi.org/10.4171/jems/501)&rbrack;
 
