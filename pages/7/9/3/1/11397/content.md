@@ -25,6 +25,8 @@ Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are t
 
 * [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
 
+On the category of [[internal categories]] in a [[Malcev category]]:
 
+* {#Gran99} [[Marino Gran]], _Internal categories in Mal’cev categories_, Journal of Pure and Applied Algebra **143** 1-3 (1999) 221-229 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00112-1">doi:10.1016/S0022-4049(98)00112-1</a>&rbrack;
 
 category:people
