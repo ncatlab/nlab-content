@@ -5,7 +5,7 @@
 
 ## Introduction 
 
-This article is about structure on a closed interval of real numbers, generally taken to be $I = [0, 1]$, that is derivable from a [[coalgebra of an endofunctor|coalgebraic]] perspective. This topic was introduced by [[Peter Freyd]]. 
+This article is about structure on a closed interval of real numbers, generally taken to be $I = [0, 1]$, that is derivable from a [[coalgebra of an endofunctor|coalgebraic]] perspective. This topic was introduced by [[Peter Freyd]] in a [posting](#Freydcomment) about the [paper](#PavlovicPratt) by [[Dusko Pavlovic]] and [[Vaughan Pratt]]. 
 
 
 ## Coalgebraic description of $I$ 
@@ -111,9 +111,9 @@ Now defining $sq_\#$ on $Twop_\#$, its final coalgebra is again the Dedekind uni
 
 ## References 
 
-The original development by Freyd is
+* {#PavlovicPratt} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, Electronic Notes in Theoretical Computer Science **19** (1999) 103-117, doi:[10.1016/S1571-0661(05)80272-5](https://doi.org/10.1016/S1571-0661%2805%2980272-5), [CiteSeerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204)
 
-* [[Peter Freyd]], _Real coalgebra_, post to the categories list, December 22, 1999 ([web](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00039.html))
+* {#Freydcomment} [[Peter Freyd]], _Real coalgebra_ Mailing to the categories list, Dec. 22, 1f999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
 
 The constructive version is also due to Freyd:
 
