@@ -40,7 +40,7 @@ This is recalled for instance in  ([Forstneri&#269; 11, theorem 2.4.6](#Forstner
 
 Named after [[Henri Cartan]].
 
-* {#GunningRossi} Robert C. Gunning and Hugo Rossi, _Analytic functions of several complex variables_, Prentice-Hall Inc., Englewood Cliffs, N.J., (1965)
+* {#GunningRossi} [[Robert C. Gunning]], [[Hugo Rossi]], *Analytic functions of several complex variables*, Prentice-Hall Inc., Englewood Cliffs (1965)
  
 
 * {#Forstneric11} [[Franc Forstnerič]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011
