@@ -43,3 +43,6 @@ category: reference
 [[!redirects Gabriel--Zisman]]
 [[!redirects Gabriel and Zisman]]
 [[!redirects Calculus of fractions and homotopy theory]]
+
+[[!redirects Calculus of Fractions and Homotopy Theory]]
+
