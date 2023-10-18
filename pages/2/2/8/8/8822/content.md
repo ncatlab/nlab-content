@@ -44,12 +44,12 @@ More generally:
 +-- {: .num_defn}
 ###### Definition
 
-A [[family]] $\mathcal{S} = (S_a)_{(a\colon A)}$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
+A [[family]] $\mathcal{S} = (S_a)_{(a \in A)}$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
 
 * for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if $f \circ e = g \circ e$ for every $e \colon S_a \to X$ sourced in the family, then $f = g$.
 =--
 
-Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(S_a,-) \colon \mathcal{C} \to $ [[Set]] is [[jointly faithful family of functors|jointly faithful]].
+Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(S_a,-) \colon \mathcal{C} \to $ [[Set]] (for $a \in A$) is [[jointly faithful family of functors|jointly faithful]].
 
 Since repetition is irrelevant in a separating family, we may also speak of a _separating [[class]]_ instead of a separating family.
 
