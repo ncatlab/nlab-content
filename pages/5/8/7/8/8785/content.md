@@ -163,9 +163,7 @@ $$
 
 * {#Maddock} Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
  
-
-* {#GunningRossi} Robert C. Gunning and Hugo Rossi, _Analytic functions of several complex variables_, Prentice-Hall Inc., Englewood Cliffs, N.J., (1965)
- 
+* {#GunningRossi} [[Robert C. Gunning]], [[Hugo Rossi]], *Analytic functions of several complex variables*, Prentice-Hall Inc., Englewood Cliffs (1965) 
 
 * {#Serre} [[Jean-Pierre Serre]], _Quelques probl&#232;mes globaux relatifs aux vari&#233;t&#233;s de Stein_, Colloque sur les fonctions de plusieurs variables, tenu &#224; Bruxelles, 1953, Georges Thone, Li&#232;ge, 1953, pp. 57&#8211;68. MR 0064155 (16,235b)
  
