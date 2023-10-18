@@ -330,6 +330,9 @@ Very explicitely, it means that:
 * $(A \otimes B) \otimes C = A \otimes (B \otimes C)$
 * $1 \otimes A = A$
 * $A \otimes 1 = A$
+* $(f \otimes g) \otimes h = f \otimes (g \otimes h)$
+* $Id_{1} \otimes f = f$
+* $f \otimes Id_{1} = f$
 
 \end{definition}
 
