@@ -79,10 +79,12 @@ and in full generality by
 
 * [[John Tate]] (1961)
 
-Textbook accounts include
+Textbook accounts:
 
-* Jacek Bochnak and J&#243;zef Siciak, _Analytic functions in topological vector spaces_; Studia Mathematica 39 (1971);  ([pdf](http://matwbn.icm.edu.pl/ksiazki/sm/sm39/sm3916.pdf)).
- {#BS}
+* {#GunningRossi} [[Robert C. Gunning]], [[Hugo Rossi]], *Analytic functions of several complex variables*, Prentice-Hall Inc., Englewood Cliffs (1965)
+
+* {#BS} Jacek Bochnak and J&#243;zef Siciak, _Analytic functions in topological vector spaces_; Studia Mathematica 39 (1971);  ([pdf](http://matwbn.icm.edu.pl/ksiazki/sm/sm39/sm3916.pdf)).
+ 
 
 * {#Schanuel} [[Stephen Schanuel]], _Continuous extrapolation to triangular matrices characterizes smooth functions_, J. Pure App. Alg. 24, Issue 1 (1982), 59&#8211;71. [web](http://www.sciencedirect.com/science/journal/00224049/24/1)
 
