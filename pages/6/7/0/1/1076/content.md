@@ -602,6 +602,10 @@ Discussion of the redundancy in the traditional definition of triangulated categ
 
 There was also some discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category).
 
+On [[localization]] of triangulated categories:
+
+* {#Krause08} [[Henning Krause]], *Localization theory for triangulated categories*, in proceedings of *[Workshop on Triangulated Categories, Leeds 2006](https://www.commalg.org/2006/08/13/workshop-on-triangulated-categories-leeds/)* &lbrack;[arXiv:0806.1324](https://arxiv.org/abs/0806.1324)&rbrack;
+
 category: triangulated categories
 
 [[!redirects triangulated categories]]
