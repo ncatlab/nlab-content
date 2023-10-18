@@ -88,7 +88,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{level}_A:\mathbb
 
 Then the first rule for the infinite tower becomes one of
 
-$$\frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash \mathrm{level}_{U(i)} \equiv s(i):\mathbb{N}}\mathrm{strict} \quad \frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash \mathrm{defminLevelU}(i):\mathrm{level}_{U(i)} =_\mathbb{N} s(i)}\mathrm{weak}$$
+$$\frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash \mathrm{level}_{U(i)} \equiv s(i):\mathbb{N}}\mathrm{strict} \quad \frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash \mathrm{defLevelU}(i):\mathrm{level}_{U(i)} =_\mathbb{N} s(i)}\mathrm{weak}$$
 
 This is how one would formally present a dependent type theory like the one in [[Book HoTT]] or the ones in [[Agda]], [[Coq]], [[Lean]], without resorting to external layers. 
 
