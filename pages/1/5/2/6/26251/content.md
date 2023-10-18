@@ -1,4 +1,3 @@
-[[!redirects Events of interest for the working category theorist]]
 
 
 +-- {: .rightHandSide}
@@ -93,7 +92,7 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
 category: reference 
 
-[[!redirects category theory events]]
+[[!redirects Events of interest for the working category theorist]]
 [[!redirects category theory events]]
 
 
