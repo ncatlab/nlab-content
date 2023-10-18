@@ -254,7 +254,7 @@ where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1
 $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is again a poset isomorphism if we endow the right-hand side with the lexicographic order.
 
-There are more and similar characterizations along these lines. 
+There are more and similar characterizations along these lines. An interesting application of the coalgebraic views is that they allow defining morphisms between the reals. A coalgebaic version Dedekind cuts or Conway numbers makes $\mathbb{R}$ into a compact category where the addition arises as the biproduct. The real vector spaces are the $\mathbb{R}$-enriched bicompletions and linear operators arise as the $\mathbb{R}$-enriched Kan extensions. ([Pavlovic 2020](#Pavlovic)) 
 
 ### Smooth real numbers
 
@@ -335,6 +335,12 @@ Review and history:
 As the [[coalgebra of the real interval]]:
 
 * {#PavlovicPratt} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, Electronic Notes in Theoretical Computer Science **19** (1999) 103-117, doi:[10.1016/S1571-0661(05)80272-5](https://doi.org/10.1016/S1571-0661%2805%2980272-5), [CiteSeerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204)
+
+
+A compact category $\mathbb{R}$ making the $\mathbb{R}$-linear operators into $\mathbb{R}$-enriched Kan extensions:
+
+* {#Pavlovic} [[Dusko Pavlovic]], _From process-propositions-as-types to categorified real numbers 
+and  monoidal computers_, Logic and Structure in Computer Science 1000-1070, doi:[10.1007/978-3-031-24117-8](https://doi.org/10.1007/978-3-031-24117-8), [arXiv:2007.10057](https://arxiv.org/abs/2007.10057v3)
 
 
 The definition of the real numbers in [[constructive analysis]] as [[Cauchy real numbers]], namely as [[regular sequences|regular]] [[Cauchy sequences]] of [[rational numbers]] is due to:
