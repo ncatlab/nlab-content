@@ -161,6 +161,11 @@ Historical references:
 
   > (proving the [[triangulation theorem]])
 
+Monograph:
+
+* {#Gunning66} [[Robert C. Gunning]], *Lectures on Riemann Surfaces*, Princeton University Press (1966) &lbrack;[pdf](http://ronan.terpereau.perso.math.cnrs.fr/Master_Class_2023_Dijon/GUNNING_Lectures%20on%20Riemann%20Surfaces.pdf)&rbrack;
+
+
 Lecture notes:
 
 * {#Bobenko} [[Alexander Bobenko]], _Compact Riemann Surfaces_ lecture notes ([pdf](http://page.math.tu-berlin.de/~bobenko/Lehre/Skripte/RS.pdf))
