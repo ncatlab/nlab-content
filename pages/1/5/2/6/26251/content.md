@@ -65,12 +65,6 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   in Turin (Italy) 
 
-* 2023, October 28/29
-
-  **Category Theory Octoberfest**
-
-  website: [richardblute.ca/octoberfest-2023/](https://richardblute.ca/octoberfest-2023/)
-
 * 2023, November 23rd
 
   **ItaCa Fest**
@@ -78,6 +72,12 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
   (recurrent [[ItaCa]] online seminar)
 
   home page: [progetto-itaca.github.io/pages/fest23.html#nov23](https://progetto-itaca.github.io/pages/fest23.html#nov23)  
+
+* 2023, October 28/29
+
+  **Category Theory Octoberfest**
+
+  website: [richardblute.ca/octoberfest-2023/](https://richardblute.ca/octoberfest-2023/)
 
 
 * 2023, October 25th
