@@ -1,5 +1,5 @@
-[[!redirects category theory events]]
-[[!redirects category theory events]]
+[[!redirects Events of interest for the working category theorist]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -60,9 +60,9 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   **ItaCa23**
 
-  (annual meeting of the Italian Category Theory Community)
+  (annual meeting of the [[ItaCa|Italian Category Theory Community]])
 
-  home page: [https://progetto-itaca.github.io/ItaCa-23/](https://progetto-itaca.github.io/ItaCa-23/)  
+  home page: [progetto-itaca.github.io/ItaCa-23/](https://progetto-itaca.github.io/ItaCa-23/)  
 
   in Turin (Italy) 
 
@@ -70,28 +70,31 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   **Category Theory Octoberfest**
 
-  website: [https://richardblute.ca/octoberfest-2023/](https://richardblute.ca/octoberfest-2023/)
+  website: [richardblute.ca/octoberfest-2023/](https://richardblute.ca/octoberfest-2023/)
 
 * 2023, November 23rd
 
-  **ItaCa Fest (online)**
+  **ItaCa Fest**
 
-  (recurrent online seminar)
+  (recurrent [[ItaCa]] online seminar)
 
-  home page: [https://progetto-itaca.github.io/pages/fest23.html#nov23](https://progetto-itaca.github.io/pages/fest23.html#nov23)  
+  home page: [progetto-itaca.github.io/pages/fest23.html#nov23](https://progetto-itaca.github.io/pages/fest23.html#nov23)  
 
 
 * 2023, October 25th
 
-  **ItaCa Fest (online)**
+  **ItaCa Fest** 
 
-  (recurrent online seminar)
+  (recurrent [[ItaCa]] online seminar)
 
-  home page: [https://progetto-itaca.github.io/pages/fest23.html#oct25](https://progetto-itaca.github.io/pages/fest23.html#oct25)  
+  home page: [progetto-itaca.github.io/pages/fest23.html#oct25](https://progetto-itaca.github.io/pages/fest23.html#oct25)  
 
 
 
 category: reference 
+
+[[!redirects category theory events]]
+[[!redirects category theory events]]
 
 
 
