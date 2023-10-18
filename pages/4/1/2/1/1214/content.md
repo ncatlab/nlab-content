@@ -36,7 +36,9 @@ More generally, the category of $T$-algebras for any [[Lawvere theory|theory]] $
 In any Malcev category, every [[internal category]] is an [[internal groupoid]].
 \end{proposition}
 
-
+\begin{proposition}
+The category of [[internal categories]] and functors in a Mal’cev category is Mal’cev category. ([Gran 1999, Theorem 3.2](#Gran99))
+\end{proposition}
 
 ## Related notions
 
@@ -50,7 +52,7 @@ In any Malcev category, every [[internal category]] is an [[internal groupoid]].
 
 * [[Dominique Bourn]], [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017 (textbook)
 
-
+* {#Gran99} [[Marino Gran]], _Internal categories in Mal’cev categories_, Journal of Pure and Applied Algebra **143** 1-3 (1999) 221-229 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00112-1">doi:10.1016/S0022-4049(98)00112-1</a>&rbrack;
 
 [[!redirects Mal'cev categories]]
 [[!redirects Mal'cev category]]
