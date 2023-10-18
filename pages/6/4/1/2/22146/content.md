@@ -29,3 +29,11 @@ via Majorana zero modes restricted to edges of [[topological insulators]]:
 
 * Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, Xiao-Liang Qi, and Shou-Cheng Zhang, _Topological quantum computation based on chiral Majorana fermions_, PNAS October 23, 2018 115 (43) 10938-10942; first published October 8, 2018 ([doi:10.1073/pnas.1810003115](https://doi.org/10.1073/pnas.1810003115))
 
+See also:
+
+* Yusuke Masaki, Takeshi Mizushima, [[Muneto Nitta]], *Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors* $[$[arXiv:2301.11614](https://arxiv.org/abs/2301.11614)$]$
+
+
+
+
+
