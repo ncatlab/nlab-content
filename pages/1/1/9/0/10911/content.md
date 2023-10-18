@@ -123,6 +123,9 @@ See also
 
 * [[Frans R. Klinkhamer]], *A first look at the master-field equation of the IIB matrix model* ([arXiv:2105.05831](https://arxiv.org/abs/2105.05831))
 
+* Emmanuele Battista, [[Harold C. Steinacker]], *One-loop effective action of the IKKT model for cosmological backgrounds* &lbrack;[arXiv:2310.11126](https://arxiv.org/abs/2310.11126)&rbrack;
+
+
 
 
 
