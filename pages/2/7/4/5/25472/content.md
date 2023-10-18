@@ -27,13 +27,11 @@ Lots of fibred category theory is done at a higher level of generality, dealing 
 
 ## See also
 
-* [[formal category theory]]
+* [[fibred category]], [[fibred functor]], [[fibred transformation]]
 
 * [[fibrations in a 2-category]]
 
 * [[displayed category]]
-
-* [[directed homotopy type theory]]
 
 
 ## References
