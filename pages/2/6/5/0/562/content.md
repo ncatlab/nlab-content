@@ -47,9 +47,14 @@ We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$,
 
 As a side note, we say that $\phi$ is [[prefibered category|weakly cartesian]] if it has the property described above only when $g$ is an identity.  One can prove that $p$ is a fibration if and only if firstly, it has the above property with "cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  In a fibration, every weakly cartesian lifting $\phi$ of $f$ to $e$ is in fact cartesian (as one can show by combining the universal properties of $\phi$ and of a given cartesian lifting of $f$ to $e$), but this is not true in general.  Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.  If weakly cartesian liftings exist but weakly cartesian arrows are *not* necessarily closed under composition, one sometimes speaks of a [[prefibered category]].
 
+### Morphisms and transformations
 A square
 $$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
-is a **cartesian morphism** or *morphism of fibrations* if the top arrow takes cartesian arrows to cartesian arrows.  Most frequently when considering morphisms of fibrations, the bottom arrow $B'\to B$ is an identity.  A 2-cell between morphisms of fibrations is a pair of 2-cells, one lying over the other.  If the bottom arrow is an identity, this means that the top 2-cell is "vertical" (its components lie in fibers).
+is a **cartesian square** or **morphism of fibrations** or **fibred functor** if the top arrow takes cartesian arrows to cartesian arrows.  Most frequently when considering morphisms of fibrations, the bottom arrow $B'\to B$ is an identity.
+
+A 2-cell between morphisms of fibrations is a pair of 2-cells, one lying over the other.  If the bottom arrow is an identity, this means that the top 2-cell is "vertical" (its components lie in fibers).
+
+See [[fibred functor]] and [[fibred transformation]] for more details.
 
 ## Fibrations versus pseudofunctors
 
@@ -403,9 +408,6 @@ See also:
 
 * [[Ronnie Brown|R. Brown]], R. Sivera, _Algebraic colimit calculations in homotopy theory using fibred and cofibred categories_, TAC **22** (2009) pp.222-251. ([pdf](http://www.tac.mta.ca/tac/volumes/22/8/22-08.pdf))
 
-
-
-
 [[!redirects Grothendieck fibrations]]
 [[!redirects Grothendieck opfibration]]
 [[!redirects Grothendieck cofibration]]
@@ -427,11 +429,6 @@ See also:
 [[!redirects cofibred category]]
 [[!redirects cofibred categories]]
 
-
-
 [[!redirects (Grothendieck) fibration]]
 [[!redirects (Grothendieck) fibrations]]
-
-[[!redirects morphism of fibrations]]
-[[!redirects morphisms of fibrations]]
 
