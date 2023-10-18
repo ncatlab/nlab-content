@@ -44,7 +44,7 @@ The total category of a fibration supports a [[factorization system]] whose left
 Fibred functors, by definition, only support the latter, because vertical maps are supported by square of functors in general:
 
 \begin{proposition}
-Let $p,p',F_0,F_1$ be functors arranged in a commutative square:
+Consider a [[commutative square]] of [[functors]]:
 \begin{tikzcd}
 \mathcal{E} \arrow[swap]{d}{p} \arrow{r}{F_1} & \mathcal{E}' \arrow{d}{p'}\\
 \mathcal{B} \arrow{r}{F_0} & \mathcal{B}',
@@ -58,7 +58,7 @@ Let $\varphi:D \to E$ be a vertical map in $\mathcal{E}$, meaning $p(\varphi) = 
 Thus fibred functors preserve the vertical-cartesian factorization of maps.
 
 ## See also
-* [[fibred category]], [[fibred transformation]]
+* [[fibred category]], [[fibred natural transformation]]
 
 [[!redirects morphism of fibrations]]
 [[!redirects morphisms of fibrations]]
