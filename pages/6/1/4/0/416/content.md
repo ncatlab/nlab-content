@@ -98,13 +98,15 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
   is effectively the definition of the product (see [[limit]]).
 
-
+* In a [[2-category]] $\mathcal{K}$ (seen as a $\mathbf{Cat}$-enriched category), powers by the walking arrow $\downarrow$ are ways to internalize 'generalized arrows' of a given object $A:\mathcal{K}$.
+Specifically, ${A^\downarrow} := {\downarrow \pitchfork A}$, called the **object of arrows** of $A$ is, when it exists, an object such that:
+$$
+\mathcal{K}(X, A^\downarrow) \simeq \mathbf{Cat}(\downarrow, \mathcal{K}(X,A)) = \mathcal{K}(X,A)^\downarrow.
+$$
+Thus [[generalized elements]] of $A^\downarrow$ correspond to 2-cells between generalized elements of $A$, explaining why $A^\downarrow$ can be considered a 'view from the inside' of the internal structure of $A$.
 
 
 [[!include powering of ∞-toposes over ∞-groupoids -- section]]
-
-
-
 
 
 ## Related concepts
