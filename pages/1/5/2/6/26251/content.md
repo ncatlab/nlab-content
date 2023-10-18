@@ -18,9 +18,20 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
 \linebreak
 
+
 ## Latest events
  {#LatestsEvents}
 
+
+* 2024, July 15-19
+
+  **QPL 2024**
+
+  (annual Quantum Physics and Logic conference)
+
+  home page: [qpl2024.dc.uba.ar](https://qpl2024.dc.uba.ar)
+
+  Buenos Aires (Argentina)
 
 * 2024, July 1-5th 
 
