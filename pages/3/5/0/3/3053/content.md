@@ -112,7 +112,7 @@ Further early discussion (not using the terminology "bifibration", though):
 
 Discussion in the context of the [[Beck-Chevalley condition]]:
 
-* [[Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ in:_Category theory Como 1990_, LNM **1488** Springer (1991) 306-325 &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
+* [[Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ in:_Category theory Como 1990_, LNM **1488** Springer (1991) 306-325 &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://dusko.org/wp-content/uploads/2020/03/1990-Como-BCDE.pdf)&rbrack;
 
 
 In the context of [[categorical semantics for dependent types]]:
