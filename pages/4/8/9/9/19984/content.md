@@ -233,5 +233,4 @@ In relation to `homotopy.io`:
 * [[Lukas Heidemann]], [[David Reutter]], [[Jamie Vicary]], *Zigzag normalisation for associative $n$-categories*, Proceedings of the Thirty-Seventh Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2022) &lbrack;[arXiv:2205.08952](https://arxiv.org/abs/2205.08952), [doi:10.1145/3531130.3533352](https://dl.acm.org/doi/10.1145/3531130.3533352)&rbrack;
 
 
-
-
+category: software
