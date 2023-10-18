@@ -74,7 +74,7 @@ by the [[chain rule]], whence $D(f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimil
 
 Discussion of [[differential calculus]] in terms of coinduction is in 
 
-* Martin Escardo, Du&#353;ko Pavlovi&#263;, _Calculus in coinductive form_ (1998) ([pdf](http://www.isg.rhul.ac.uk/dusko/papers/1998-lapl-LICS.pdf))
+* Martin Escardo, Du&#353;ko Pavlovi&#263;, _Calculus in coinductive form_ (1998) ([web](https://ieeexplore.ieee.org/abstract/document/705675) or [pdf](http://dusko.org/wp-content/uploads/2020/03/current.pdf))
 
 About coinduction in [[cubical type theory]]:
 
