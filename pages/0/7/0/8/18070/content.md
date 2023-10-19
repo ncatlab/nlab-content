@@ -38,7 +38,7 @@ Here are some of these variant definitions:
 
 +-- {: .num_defn #OrderedUnlabeledConfigurations}
 ###### Definition
-**(ordered unlabled configurations of a fixed number of points)**
+**(ordered unlabeled configurations of a fixed number of points)**
 
 Let $X$ be a [[closed manifold|closed]] [[smooth manifold]].
 For $n \in \mathbb{N}$ write
@@ -68,7 +68,7 @@ This is the space of ordered but otherwise unlabeled configurations of $n$ point
 
 +-- {: .num_defn #UnorderedUnlabeledConfigurations}
 ###### Definition
-**(unordered unlabled configurations of a fixed number of points)**
+**(unordered unlabeled configurations of a fixed number of points)**
 
 Let $X$ be a [[closed manifold|closed]] [[smooth manifold]],
 For $n \in \mathbb{N}$ write
@@ -88,7 +88,7 @@ For $n \in \mathbb{N}$ write
       \big(
         X
       \big)
-    \big) / Sym(n)
+    \Big) / Sym(n)
     \\
     &
     =\;
@@ -1269,7 +1269,7 @@ See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohom
 ###### Remark
 **([[real cohomology]] of the configuration space in terms of [[graph cohomology]])**
 
-In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered unlabled [[configuration space of points]] 
+In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered unlabeled [[configuration space of points]] 
 $\underset{{}^{\{1,\cdots,n\}}}{Conf}\big( \mathbb{R}^D\big)$ the three relations in Prop. \ref{RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace} are incarnated as follows:
 
 1. a graph changes sign when one of its edges is reversed ([this Def.](graph+complex#SignRulesForGraphs))
