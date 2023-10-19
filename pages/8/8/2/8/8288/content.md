@@ -1790,7 +1790,7 @@ $$
   }
 $$
 
-lifting the identity map on $G$ two a [[chain map]] between the two resolutions.
+lifting the identity map on $G$ to a [[chain map]] between the two resolutions.
 
 By the commutativity of the top square, the morphism $c$ is 1-[[cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. 
 
