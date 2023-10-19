@@ -116,8 +116,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 * [[Jennifer Paykin]], *Linear/non-Linear Types For Embedded Domain-Specific Languages*, 2018 ([upenn:2752](https://repository.upenn.edu/edissertations/2752))
 
-  
-* [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
+* {#PaykinZdancewic19} [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) $[$[arXiv:1904.04371](https://arxiv.org/abs/1904.04371), talk slides: [pdf](https://jpaykin.github.io/talks/HoTT-3-8-2019.pdf), [[PaykinZdancewic-HoTTQuantum.pdf:file]]$]$
 
   > (using ambient [[homotopy type theory]])
 
