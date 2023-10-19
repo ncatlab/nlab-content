@@ -725,6 +725,16 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 \linebreak
 
+### Oct 2023
+
+**Workshop on Homotopy Theory and Applications**
+ {#WorkshopOnHomotopyTheory2023}
+
+<center>
+<img src="/nlab/files/CQTS-HomotopyWorkshop-2023.jpg" width="520">
+</center>
+
+\linebreak
 
 ***
 
