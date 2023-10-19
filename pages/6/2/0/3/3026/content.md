@@ -381,7 +381,7 @@ We discuss how the [[one-point compactification]] of [[Euclidean space]] of [[di
 
 +-- {: .num_example #nSphereIsOnePointCompactificationOfRn}
 ###### Example
-**([[one-point compactification]] of [[Euclidean space|Euclidean n-space]] si the [[n-sphere]])
+**([[one-point compactification]] of [[Euclidean space|Euclidean n-space]] is the [[n-sphere]])
 
 For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the one-point compactification (def. \ref{OnePointExtension}) of the [[Euclidean space]] $\mathbb{R}^n$
 
