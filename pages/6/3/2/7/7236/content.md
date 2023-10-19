@@ -45,7 +45,7 @@ Notice that generally [[monomorphisms]] are preserved by [[pullback]] (see [ther
 +-- {: .num_prop}
 ###### Proposition
 In an adhesive category, suppose given a [[pushout]] square
-$$ 
+$$
   \array{ 
     C 
     & \overset{m}{\longrightarrow} 
@@ -90,7 +90,38 @@ In an adhesive category, if $m:C\to A$ is mono and $g:A\to D$ is any morphism, t
 We give only a sketch; details are in [(LS, Lemma 4.5)](#LS).  If $(f,n)$ and $(f',n')$ are two pushout complements, consider the two pushout squares as morphisms in the [[arrow category]] with target $g$, and take their pullback.  The resulting commutative cube can be viewed as a morphism in the category of commutative squares from the pullback square of $m$ against itself (which is again $m$, since $m$ is mono) to the pullback square of $n$ against $n'$.  Denote the vertex of the latter pullback square by $U$.  Applying the van Kampen property in two directions, we find that the maps $U\to B$ and $U\to B'$ are both pushouts of $1_C$, hence isomorphisms.  This gives an isomorphism between the pushout complements; it is unique since $n$ and $n'$ are mono (being pushouts of the mono $m$).
 =--
 
++-- {: .num_prop}
+###### Proposition
+In an adhesive category, every monomorphism is [[regular monomorphism|regular]].
+In particular, every adhesive category is [[balanced category|balanced]].
+=--
 
++-- {: .proof}
+###### Proof
+Let $m: A \to B$ be a monomorphism.
+By adhesiveness, the cokernel pair (pushout)
+$$
+  \array{ 
+    A
+    & \overset{m}{\longrightarrow} 
+    &
+    B
+    \\
+    \mathllap{{}^m}\big\downarrow 
+    && 
+    \big\downarrow\mathrlap{{}^u} 
+    \\ 
+    B
+    &
+    \underset{v}{\longrightarrow} 
+    &
+    P
+    \rlap{.}
+  } 
+$$
+is a pullback.
+This exhibits $m$ as an equalizer of $u$ and $v$.
+=--
 
 ## Examples
  {#Examples}
