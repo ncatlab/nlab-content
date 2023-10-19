@@ -69,3 +69,5 @@ On the local formulation (allowing decomposition and re-gluing of [[spacetime]])
 [[!redirects A. S. Cattaneo]]
 [[!redirects Alberto S. Cattaneo]]
 [[!redirects Cattaneo]]
+
+category: people
