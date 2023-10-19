@@ -20,7 +20,7 @@ A [[topological space]] $X$ is _(semi-)locally simply connected_ if every neighb
 
 ## Definition
 
-A [[topological space]] $X$ is **semi-locally simply-connected** if it has a [[basis of the topology|basis]] of [[neighbourhood]]s $U$ such that the inclusion $\Pi_1(U) \to \Pi_1(X)$ of [[fundamental groupoid]]s factors through the canonical functor $\Pi_1(U) \to codisc(U)$ to the [[codiscrete groupoid]] whose objects are the elements of $U$. The condition on $U$ is equivalent to the condition that the homomorphism $\pi_1(U, x) \to \pi_1(X, x)$ of [[fundamental group]]s induced by inclusion $U \subseteq X$ is trivial. 
+A [[topological space]] $X$ is **semi-locally simply-connected** if it has a [[basis of the topology|basis]] of [[neighbourhood | neighbourhoods]] $U$ such that the inclusion $\Pi_1(U) \to \Pi_1(X)$ of [[fundamental groupoid | fundamental groupoids]] factors through the canonical functor $\Pi_1(U) \to codisc(U)$ to the [[codiscrete groupoid]] whose objects are the elements of $U$. The condition on $U$ is equivalent to the condition that the homomorphism $\pi_1(U, x) \to \pi_1(X, x)$ of [[fundamental group | fundamental groups]] induced by inclusion $U \subseteq X$ is trivial. 
 
 ## Examples
 
@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-But these open intervals are simply connected [this example](fundamental group#EuclideanSpaceFundamentalGroup).
+But these open intervals are simply connected ([this example](fundamental+group#EuclideanSpaceFundamentalGroup)).
 
 =--
 
@@ -60,7 +60,7 @@ But these open intervals are simply connected [this example](fundamental group#E
 
 ## Application 
 
-Semi-local simple connectedness is the crucial condition needed to have a good theory of [[covering space]]s, to the effect that the topos of permutation representations of the fundamental groupoid of $X$ is equivalent to the category of covering spaces of $X$. 
+Semi-local simple connectedness is the crucial condition needed to have a good theory of [[covering space | covering spaces]], to the effect that the topos of permutation representations of the fundamental groupoid of $X$ is equivalent to the category of covering spaces of $X$. 
 
 This is the _[[fundamental theorem of covering spaces]]_, see there for more.
 
