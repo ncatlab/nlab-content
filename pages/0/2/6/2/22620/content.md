@@ -21,6 +21,6 @@ Application to [[verified programming]] after implementation in [[Coq]]:
 
 Using ambient [[homotopy type theory]]:
 
-* [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
+* [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) &lbrack;[arXiv:1904.04371](https://arxiv.org/abs/1904.04371), [pdf](https://jpaykin.github.io/talks/HoTT-3-8-2019.pdf), [[PaykinZdancewic-HoTTQuantum.pdf:file]]&rbrack;
 
 category: people
