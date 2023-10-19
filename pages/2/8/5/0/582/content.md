@@ -87,13 +87,9 @@ and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique 
 
 =-- 
 
-
-
-
-
 ## Examples {#Examples}
 
-* In [[Set]], or more generally in any [[pretopos]], every [[monomorphism]] is regular.
+* In [[Set]], or more generally in any [[pretopos]], every [[monomorphism]] is regular. More generally, this holds in every [[adhesive category]].
 
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
