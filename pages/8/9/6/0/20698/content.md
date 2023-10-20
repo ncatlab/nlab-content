@@ -59,8 +59,23 @@ The category $PF$ of [[sets]] and [[partial functions]] is the prototypical exam
 
 * {#CockettGarner14} [[Robin Cockett]] and [[Richard Garner]], _Restriction categories as enriched categories_, Theoretical Computer Science **523** (2014) 37-55 &lbrack;[arXiv:1211.6170](https://arxiv.org/abs/1211.6170), [doi:10.1016/j.tcs.2013.12.018](https://doi.org/10.1016/j.tcs.2013.12.018)&rbrack;
 
+A [[double category|double categorical]] approach to restriction categories is proposed in:
+
+* [[Robert Paré]], _A double category take on restriction categories_, ([slides](https://www.mscs.dal.ca/~pare/Azores.pdf))
+
+On showing that restriction categories are [[categories enriched in a double category]]:
+
+* [[Robin Cockett]] and [[Richard Garner]], _Restriction categories as enriched categories_, Theoretical Computer Science 523 (2014): 37-55.
+
+On [[free cocompletions]] of restriction categories:
+
+* [[Richard Garner]] and Daniel Lin, _Cocompletion of restriction categories_, Theory and Applications of Categories 35.22 (2020): 809-844.
+
+On using restriction categories to model [[essentially algebraic theories]]:
+
+* [[Ivan Di Liberti]], [[Fosco Loregian]], [[Chad Nester]], [[Paweł Sobociński]]. _Functorial semantics for partial theories_, Proceedings of the ACM on Programming Languages 5.POPL (2021): 1-28.
+
 [[!redirects restriction categories]]
 
 [[!redirects cartesian restriction category]]
 [[!redirects cartesian restriction categories]]
-
