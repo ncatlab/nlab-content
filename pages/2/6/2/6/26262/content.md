@@ -10,3 +10,5 @@ The name "quiver" is based on the term [[quiver]].
 * [quiver GitHub repository](https://github.com/varkor/quiver)
 
 category: software
+
+[[!redirects quiver editor]]
