@@ -179,7 +179,7 @@ Further discussion of the phase space of gravity in [[first-order formulation of
 
 * {#CattaneoSchiavina17b} [[Alberto Cattaneo]], [[Michele Schiavina]], *BV-BFV approach to General Relativity: Palatini-Cartan-Holst action*, Adv. Theor. Math. Phys. **23**  (2019) 1801-1835 &lbrack;[arXiv:1707.06328](https://arxiv.org/abs/1707.06328), [doi:10.4310/ATMP.2019.v23.n8.a3](https://doi.org/10.4310/ATMP.2019.v23.n8.a3)&rbrack;
 
-* [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
+* [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
   > (following [Kijowski & Tulczyjew (2005)](phase+space#KijowskiTulczyjew05))
 
