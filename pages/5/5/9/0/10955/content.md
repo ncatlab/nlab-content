@@ -13,7 +13,7 @@ This page collects links related to the book
 
   ([ISBN:9780691036694](http://press.princeton.edu/titles/5525.html))
 
-on the [[interpretation of quantum mechanics]] ([[philosophy of physics|philosophy of]] of [[quantum mechanics]]).
+on the [[interpretation of quantum mechanics]] ([[philosophy of physics|philosophy of]] [[quantum mechanics]]).
 
 #Index#
 * table of contents
