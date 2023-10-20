@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Smooth spaces
 * table of contents
 {: toc}
@@ -393,19 +394,25 @@ $\,$
 
 ## References
 
-Lecture notes are at
+The notion appears as a model for [[homotopy types]] in
 
-* _[[geometry of physics -- smooth sets]]_
+* [[Denis-Charles Cisinski]], Ch. 6 in: *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
 
-Aspects of the category of smooth sets is discussed, with an eye towards its generalization to [[smooth ∞-groupoids]] and their [[homotopy]] [[localization]] in
+and in the context of [[smooth ∞-groupoids]] in
 
-* [[Daniel Dugger]], section 3.4, from page 29 on in:  _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Daniel Dugger]], section 3.4, from page 29 on in:  _Sheaves and Homotopy Theory_ &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)&rbrack;
 
-The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
+  > (the [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36, mentioned before on p. 31)
 
-As a [[cohesive topos]], smooth sets are discussed in:
+and then more explicitly, as a [[cohesive topos]] using the small site [[CartSp]], in
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* [[Urs Schreiber]], Def. 1.2.197 of: _[[schreiber:differential cohomology in a cohesive topos]]_
+
+
+Lecture notes:
+
+* [[Urs Schreiber]]: _[[geometry of physics -- smooth sets]]_
+
 
 Discussion of smooth sets as a [[convenient category of spaces|convenient category]] for [[variational calculus|variational]] [[classical field theory]]:
 
