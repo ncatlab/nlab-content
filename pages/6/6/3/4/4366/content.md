@@ -8,6 +8,12 @@ On a [[Thomason model structure]] on [[n-categories]]:
 
 * [[Thomas M. Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*, Algebr. Geom. Topol. **10** 4 (2010) 1933-2008 &lbrack;[arXiv:0808.4108](http://arxiv.org/abs/0808.4108), [doi:10.2140/agt.2010.10.1933](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-10/issue-4/A-Thomason-model-structure-on-the-category-of-small-nfold/10.2140/agt.2010.10.1933.full)&rbrack;
 
+On [[model structures on DblCat]]:
+
+* {#FPPModel} [[Thomas M. Fiore]], [[Simona Paoli]], [[Dorette A. Pronk]], *Model structures on the category of small double categories*, _Algebraic & Geometric Topology_ **8** (2008) 1855–1959 &lbrack;[doi:10.2140/agt.2008.8.1855](https://doi.org/10.2140/agt.2008.8.1855)&rbrack;
+
+* {#FPThomason} [[Thomas Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*_Algebraic & Geometric Topology_ **10** (2010) 1933–2008 &lbrack;[doi:10.2140/agt.2010.10.1933](http://doi.org/10.2140/agt.2010.10.1933)&rbrack;
+
 See also:
 
 * Thomas M. Fiore, Wolfgang L&#252;ck, and Roman Sauer. Euler Characteristics of Categories and Homotopy Colimits. 43 pages. [arXiv:1007.3868](http://arxiv.org/abs/1007.3868)
