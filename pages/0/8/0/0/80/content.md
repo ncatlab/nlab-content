@@ -15,7 +15,7 @@
 
 ## Scope
 
-In the philosophical part of $n$Lab we already discuss [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in $n$Lab would be nice to contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
+In the philosophical part of $n$Lab we already discuss [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in $n$Lab would be nice to contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. Similarly about [[philosophy of physics]] including interpretation and foundational issues of [[quantum mechanics]]. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
 
 ## Nonscope
 
