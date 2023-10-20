@@ -98,20 +98,20 @@ Given types $A$ and $B$ and $f:A \to B$, $f$ is an [[equivalence of types]] if $
 Indeed, one could define the [[isEquiv]] type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ by very similar rules to the rules for positive copy types:
 
 Formation rules for isEquiv:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
 
 Introduction rules for isEquiv:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
-      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+      \Gamma \vdash G:\prod_{y:B} f(g(y)) =_B y \quad \Gamma \vdash H:\prod_{x:A} (g(f(x)) =_A x)
     \end{array}
-  }{\Gamma \vdash \mathrm{witn}(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
+  }{\Gamma \vdash \mathrm{witn}(f, g, G, H):\mathrm{isEquiv}(f)}$$
 
 Elimination rules for isEquiv:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
       \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_f:\prod_{x:A} C(f(x)) \quad \Gamma \vdash b:B
     \end{array}
   }{\Gamma \vdash \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c_f, b):C(b)}$$
@@ -119,7 +119,7 @@ $$\frac{
 Computation rules for isEquiv:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
       \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_f:\prod_{x:A} C(f(x)) \quad \Gamma \vdash a:A
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{isEquiv}(f)}(f, p, c_f, a):\mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c_f, f(a)) =_{C(f(a))} c_f(a)}$$
@@ -127,7 +127,7 @@ $$\frac{
 Uniqueness rules for isEquiv:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash p:\mathrm{isEquiv}(f) \\
       \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:B} C(y) \quad \Gamma \vdash b:B
     \end{array}
   }{\Gamma \vdash \eta_{\mathrm{isEquiv}(f)}(f, p, c, b):c(b) =_{C(b)} \mathrm{ind}_{\mathrm{isEquiv}(f)}^C(f, p, c, b)}$$
@@ -140,10 +140,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 Introduction rules for equivalence types:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
-      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+      \Gamma \vdash G:\prod_{y:B} f(g(y)) =_B y \quad \Gamma \vdash H:\prod_{x:A} (g(f(x)) =_A x)
     \end{array}
-  }{\Gamma \vdash \mathrm{equiv}(f, a, b, \tau_A, \tau_B):A \simeq B}$$
+  }{\Gamma \vdash \mathrm{equiv}(f, g, G, H):A \simeq B}$$
 
 Elimination rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B}{\Gamma, x:A \vdash f_R(x):B}$$
@@ -187,10 +187,58 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 
 [[!redirects copy]]
 [[!redirects copies]]
+
+[[!redirects positive copy]]
+[[!redirects positive copies]]
+
+[[!redirects negative copy]]
+[[!redirects negative copies]]
+
 [[!redirects copying]]
 
 [[!redirects wrapped copy]]
 [[!redirects wrapped copies]]
+
+[[!redirects positive wrapped copy]]
+[[!redirects positive wrapped copies]]
+
+[[!redirects negative wrapped copy]]
+[[!redirects negative wrapped copies]]
+
+[[!redirects copy type]]
+[[!redirects copy types]]
+
+[[!redirects positive copy type]]
+[[!redirects positive copy types]]
+
+[[!redirects negative copy type]]
+[[!redirects negative copy types]]
+
+[[!redirects copying types]]
+
+[[!redirects wrapped copy type]]
+[[!redirects wrapped copy types]]
+
+[[!redirects positive wrapped copy type]]
+[[!redirects positive wrapped copy types]]
+
+[[!redirects negative wrapped copy type]]
+[[!redirects negative wrapped copy types]]
+
+[[!redirects unary sum]]
+[[!redirects unary sums]]
+
+[[!redirects unary sum type]]
+[[!redirects unary sum types]]
+
+[[!redirects unary sum type]]
+[[!redirects unary sum types]]
+
+[[!redirects unary product]]
+[[!redirects unary products]] 
+
+[[!redirects unary product type]]
+[[!redirects unary product types]] 
 
 [[!redirects universal property of a copy]]
 [[!redirects dependent universal property of a copy]]
@@ -204,25 +252,23 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 [[!redirects universal property of wrapped copies]]
 [[!redirects dependent universal property of wrapped copies]]
 
-[[!redirects copy type]]
-[[!redirects copy types]]
+[[!redirects universal property of copy types]]
+[[!redirects dependent universal property of copy types]]
 
-[[!redirects copying types]]
+[[!redirects universal property of positive copy types]]
+[[!redirects dependent universal property of positive copy types]]
 
-[[!redirects wrapped copy type]]
-[[!redirects wrapped copy types]]
+[[!redirects universal property of wrapped copy types]]
+[[!redirects dependent universal property of wrapped copy types]]
 
-[[!redirects unary sum]]
-[[!redirects unary sums]]
+[[!redirects universal property of positive wrapped copy types]]
+[[!redirects dependent universal property of positive wrapped copy types]]
 
-[[!redirects unary sum type]]
-[[!redirects unary sum types]]
+[[!redirects universal property of unary sums]]
+[[!redirects dependent universal property of unary sums]]
 
-[[!redirects unary product]]
-[[!redirects unary products]] 
-
-[[!redirects unary product type]]
-[[!redirects unary product types]] 
+[[!redirects universal property of unary sum types]]
+[[!redirects dependent universal property of unary sum types]]
 
 [[!redirects copy induction]] 
 
