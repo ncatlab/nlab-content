@@ -59,6 +59,10 @@ in [[2Cat]], there is a functor $k: \mathcal{B} \times \mathcal{E}_{semi} \right
 
 \begin{proof} By the section 'Structured interval' of the page [[walking equivalence]], $\mathcal{E}_{semi}$ can be equipped with the structure of an [[interval object]], and embellished with all the structures of [Williamson2011](#Williamson2011) which are required for Corollary XV.6 and/or Corollary XV.7 of this work, satisfying all the hypotheses of these corollaries. Applying these corollaries, we immediately obtain the theorem. \end{proof}
 
+## Related concepts
+
+* [[model structure on DblCat]]
+
 \section{References}
 
 * {#Lack2002} [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory 26, No. 2, 171-205 (2002). [Zentralblatt review](https://zbmath.org/?q=an%3A1017.18005) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html) 
