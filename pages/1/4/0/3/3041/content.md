@@ -17,11 +17,13 @@ On [[higher category theory]] in terms of [[n-fold categories]] and comparison w
 
 * [[D. Blanc]], S.Paoli, _Comonad cohomology of track categories_, Journal of Homotopy and Related Structures, published online 14 May 2019,  arXiv.1801.05065
 
+Specifically on a [[Thomason model structure]] on [[n-categories]] (cf. [[model structure on DblCat]]):
 
-Specifically on a [[Thomason model structure]] on [[n-categories]]:
+
+* {#FPPModel} [[Thomas M. Fiore]], [[Simona Paoli]], [[Dorette A. Pronk]], *Model structures on the category of small double categories*, _Algebraic & Geometric Topology_ **8** (2008) 1855–1959 &lbrack;[doi:10.2140/agt.2008.8.1855](https://doi.org/10.2140/agt.2008.8.1855)&rbrack;
+
 
 * [[Thomas M. Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*, Algebr. Geom. Topol. **10** 4 (2010) 1933-2008 &lbrack;[arXiv:0808.4108](http://arxiv.org/abs/0808.4108), [doi:10.2140/agt.2010.10.1933](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-10/issue-4/A-Thomason-model-structure-on-the-category-of-small-nfold/10.2140/agt.2010.10.1933.full)&rbrack;
-
 
 
 Introducing [[weakly globular n-fold categories]]:
