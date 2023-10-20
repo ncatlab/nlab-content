@@ -51,11 +51,13 @@ The category $PF$ of [[sets]] and [[partial functions]] is the prototypical exam
 
 ## References
 
-* {#CockettLack02} [[Robin Cockett]], [[Steve Lack]], _Restriction categories I: categories of partial maps_, Theoretical Computer Science **270** (2002) pp 223–259 ([author pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS_06/RestrictionsI.pdf))
+* {#CockettLack02} [[Robin Cockett]] and [[Steve Lack]], _Restriction categories I: categories of partial maps_, Theoretical Computer Science **270** 1-2 (2002) 223-259 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(00)00382-0">doi:10.1016/S0304-3975(00)00382-0</a>&rbrack;
 
-* [[Robin Cockett]], [[Steve Lack]], _Restriction categories II: partial map classification_ ([web](http://maths.mq.edu.au/~slack/papers/restii.html))
+* {#CockettLack03} [[Robin Cockett]] and [[Steve Lack]], _Restriction categories II: partial map classification_, Theoretical Computer Science **294** 1-2 (2003) 61-102 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00245-6">doi:10.1016/S0304-3975(01)00245-6</a>&rbrack;
 
-* [[Robin Cockett]], [[Steve Lack]], _Restriction categories III: colimits, partial limits, and extensivity_ ([arXiv:math/0610500](http://arxiv.org/abs/math/0610500))
+* {#CockettLack07} [[Robin Cockett]] and [[Steve Lack]], _Restriction categories III: colimits, partial limits and extensivity_, Mathematical Structures in Computer Science **17** 4 (2007)  775-817 &lbrack;[arXiv:math/0610500](https://arxiv.org/abs/math/0610500), [doi:10.1017/S0960129507006056](https://doi.org/10.1017/S0960129507006056)&rbrack;
+
+* {#CockettGarner14} [[Robin Cockett]] and [[Richard Garner]], _Restriction categories as enriched categories_, Theoretical Computer Science **523** (2014) 37-55 &lbrack;[arXiv:1211.6170](https://arxiv.org/abs/1211.6170), [doi:10.1016/j.tcs.2013.12.018](https://doi.org/10.1016/j.tcs.2013.12.018)&rbrack;
 
 [[!redirects restriction categories]]
 
