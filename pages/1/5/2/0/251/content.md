@@ -218,9 +218,9 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 ## Model structures on the category of double categories
 
-The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo I](#MSV2Cat) and [Moser, Sarazola, and Verdugo II](#MSVHInvar).
+The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo I](#MSV2Cat) and [Moser, Sarazola, and Verdugo II](#MSVHInvar) and [Campbell](#CampbellGreg).
 
-Eventually this page should describe all of these and their relationships, but for the moment we mention only another one called the "gregarious" model structure; see [Campbell](#CampbellGreg).
+For more see *[[model structure on DblCat]]*.
 
 ### Gregarious model structure
 
@@ -319,17 +319,17 @@ See also:
 
 * Virtual Double Categories Workshop 2022 ([webpage](https://bryceclarke.github.io/virtual-double-categories-workshop/)).
 
-Model structures on the category of double categories are discussed in:
+On [[model structures on DblCat]]:
 
-* {#FPPModel} Thomas M. Fiore, Simona Paoli, Dorette A. Pronk, [Model structures on the category of small double categories](https://doi.org/10.2140/agt.2008.8.1855), _Algebraic & Geometric Topology_ **8** (2008) 1855–1959.
+* {#FPPModel} [[Thomas M. Fiore]], [[Simona Paoli]], [[Dorette A. Pronk]], *Model structures on the category of small double categories*, _Algebraic & Geometric Topology_ **8** (2008) 1855–1959 &lbrack;[doi:10.2140/agt.2008.8.1855](https://doi.org/10.2140/agt.2008.8.1855)&rbrack;
 
-* {#FPThomason} Thomas M. Fiore, Simona Paoli, [A Thomason model structure on the category of small $n$-fold categories](http://doi.org/10.2140/agt.2010.10.1933), _Algebraic & Geometric Topology_ **10** (2010) 1933–2008. 
+* {#FPThomason} [[Thomas Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*_Algebraic & Geometric Topology_ **10** (2010) 1933–2008 &lbrack;[doi:10.2140/agt.2010.10.1933](http://doi.org/10.2140/agt.2010.10.1933)&rbrack;
 
-* {#MSV2Cat} Lyne Moser, Maru Sarazola, Paula Verdugo, *A 2Cat-inspired model structure for double categories*, [arxiv](https://arxiv.org/abs/2004.14233), 2020
+* {#MSV2Cat} [[Lyne Moser]], Maru Sarazola, Paula Verdugo, *A $2Cat$-inspired model structure for double categories*, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **LXIII**2 (2022) &lbrack;[arxiv:2004.14233](https://arxiv.org/abs/2004.14233), journal:[pdf](http://cahierstgdc.com/wp-content/uploads/2022/04/MoserSarazolaVerdugo-LXIII-2.pdf)&rbrack;
 
 * {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories* (2020) &lbrack;[talk slides pdf](https://acmbl.github.io/greg_slides.pdf)&rbrack;
 
-* {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
+* {#MSVHInvar} [[Lyne Moser]], Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, Algebraic & Geometric Topology **23** 4 (2023) 1725-1786 &lbrack;[arxiv:2007.00588](https://arxiv.org/abs/2007.00588), journal:[pdf](https://msp.org/agt/2023/23-4/agt-v23-n4-p08-p.pdf)&rbrack;
 
 [[Fibrations]] of double categories, or _double fibrations_, are treated in 
 
