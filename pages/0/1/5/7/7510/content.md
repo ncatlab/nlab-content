@@ -88,7 +88,7 @@ The conversion rules also correspond.
 
 In dependent type theory, this definition of $funsplit$ only gives us a properly typed dependent eliminator if the negative dependent product type satisfies $\eta$-conversion.  As usual, if it satisfies [propositional eta-conversion](/nlab/show/eta-conversion#Propositional) then we can transport along that instead---and conversely, the dependent eliminator allows us to prove propositional $\eta$-conversion.  This is the content of Propositions 3.5, 3.6, and 3.7 in [(Garner)](#GarnerSDP).
 
-### Function types a la Russell and a la Tarski
+### Dependent product types a la Russell and a la Tarski
 
 In [[dependent type theory]], there are two different ways to interpret the term $f:\prod_{x:A} B(x)$: 
 
@@ -107,6 +107,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 * given type $A$ and the type family $x:A \vdash B(x)$ one could form the family of terms $f:\prod_{x:A} B(x), x:A \vdash \mathrm{eval}(f, x):B(x)$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x), x:A \vdash \mathrm{eval}(f, x):B(x)}$$
+
+Dependent product types a la Tarski corresponds to the notion of [[dependent product]] in [[category theory]] where the dependent product $\Pi(A, B)$ literally comes with a morphism $\mathrm{eval}:\Pi(A, B) \times A \to \Sigma(A, B)$ in the [[slice category]] $C/A$, but dependent product types a la Russell are the one most commonly used in [[dependent type theory]]. 
 
 The conversion rules for dependent product types a la Russell are as follows:
 
