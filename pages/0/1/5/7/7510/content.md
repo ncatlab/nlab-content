@@ -88,6 +88,40 @@ The conversion rules also correspond.
 
 In dependent type theory, this definition of $funsplit$ only gives us a properly typed dependent eliminator if the negative dependent product type satisfies $\eta$-conversion.  As usual, if it satisfies [propositional eta-conversion](/nlab/show/eta-conversion#Propositional) then we can transport along that instead---and conversely, the dependent eliminator allows us to prove propositional $\eta$-conversion.  This is the content of Propositions 3.5, 3.6, and 3.7 in [(Garner)](#GarnerSDP).
 
+### Function types a la Russell and a la Tarski
+
+In [[dependent type theory]], there are two different ways to interpret the term $f:\prod_{x:A} B(x)$: 
+
+1. $f$ is literally a family of terms in the family of types $B(x)$ indexed by $A$
+
+1. $f$ is a term representation for a family of terms in the family of types $B(x)$ indexed by $A$
+
+This situation is similar to how there are two notions of [[type universe]] where [[small types]] of a universe are interpreted [[Russell universe|a la Russell]], literally as types, or [[Tarski universe|a la Tarski]], as a term representation of types. Thus, in analogy to type universes, we can refer to dependent product types *a la Russell* and function types *a la Tarski*. 
+
+Dependent product types a la Russell and a la Tarski are expressed respectively via the [[elimination rule]] of function types: 
+
+* given type $A$ and the type family $x:A \vdash B(x)$ and an element $f:\prod_{x:A} B(x)$, one could form the family of terms $x:A \vdash f(x):B$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma, x:A \vdash f(x):B(x)}$$
+
+* given type $A$ and the type family $x:A \vdash B(x)$ one could form the family of terms $f:\prod_{x:A} B(x), x:A \vdash \mathrm{eval}(f, x):B(x)$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x), x:A \vdash \mathrm{eval}(f, x):B(x)}$$
+
+The conversion rules for dependent product types a la Russell are as follows:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, x:A \vdash (\lambda x:A.b(x))(x) \equiv b(x):B(x)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda x:A.f(x):\prod_{x:A} B(x)}$$
+
+and the conversion rules for dependent product types a la Tarski are as follows: 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, x:A \vdash \mathrm{eval}(\lambda x:A.b(x), x) \equiv b(x):B(x)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash f \equiv \lambda x:A.\mathrm{eval}(f, x):\prod_{x:A} B(x)}$$
+
+For the rest of the article we shall assume the use of dependent product types a la Russell. 
+
 ### Weak and strict dependent product types
 
 In [[dependent type theory]], **weak dependent product types** are dependent product types for which the [[computation rules]] ($\beta$-conversion) and [[uniqueness rules]] ($\eta$-conversion) are propositional rather than judgmental:
@@ -231,3 +265,55 @@ On the [[categorical semantics]] of [[dependent product types]] as *[[relative a
 [[!redirects Π-types]]
 [[!redirects Π type]]
 [[!redirects Π types]]
+
+[[!redirects Russell dependent product type]]
+[[!redirects Russell dependent product types]]
+[[!redirects Russell dependent function type]]
+[[!redirects Russell dependent function types]]
+[[!redirects Russell Pi-type]]
+[[!redirects Russell Pi-types]]
+[[!redirects Russell Pi type]]
+[[!redirects Russell Pi types]]
+[[!redirects Russell Π-type]]
+[[!redirects Russell Π-types]]
+[[!redirects Russell Π type]]
+[[!redirects Russell Π types]]
+
+[[!redirects dependent product type a la Russell]]
+[[!redirects dependent product types a la Russell]]
+[[!redirects dependent function type a la Russell]]
+[[!redirects dependent function types a la Russell]]
+[[!redirects Pi-type a la Russell]]
+[[!redirects Pi-types a la Russell]]
+[[!redirects Pi type a la Russell]]
+[[!redirects Pi types a la Russell]]
+[[!redirects Π-type a la Russell]]
+[[!redirects Π-types a la Russell]]
+[[!redirects Π type a la Russell]]
+[[!redirects Π types a la Russell]]
+
+[[!redirects Tarski dependent product type]]
+[[!redirects Tarski dependent product types]]
+[[!redirects Tarski dependent function type]]
+[[!redirects Tarski dependent function types]]
+[[!redirects Tarski Pi-type]]
+[[!redirects Tarski Pi-types]]
+[[!redirects Tarski Pi type]]
+[[!redirects Tarski Pi types]]
+[[!redirects Tarski Π-type]]
+[[!redirects Tarski Π-types]]
+[[!redirects Tarski Π type]]
+[[!redirects Tarski Π types]]
+
+[[!redirects dependent product type a la Tarski]]
+[[!redirects dependent product types a la Tarski]]
+[[!redirects dependent function type a la Tarski]]
+[[!redirects dependent function types a la Tarski]]
+[[!redirects Pi-type a la Tarski]]
+[[!redirects Pi-types a la Tarski]]
+[[!redirects Pi type a la Tarski]]
+[[!redirects Pi types a la Tarski]]
+[[!redirects Π-type a la Tarski]]
+[[!redirects Π-types a la Tarski]]
+[[!redirects Π type a la Tarski]]
+[[!redirects Π types a la Tarski]]
