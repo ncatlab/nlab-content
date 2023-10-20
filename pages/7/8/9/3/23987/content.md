@@ -736,21 +736,51 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 <img src="/nlab/files/CQTS-HomotopyWorkshop-2023.jpg" width="520">
 </center>
 
-Materials
 
-* [[Sadok Kallel]]: ...
+* [[Sadok Kallel]]: 
 
-* [[David Jaz Myers]]: ...
+  **The Homotopy Type of Graph Configuration Spaces**
 
-* [[Lyne Moser]]: ...
+  cf. upcoming preprint
 
-* [[Adrian Clough]]: ...
+  on [[configuration spaces of points]]
 
-* [[Zhen Huan]]: ...
+* [[David Jaz Myers]]: 
+
+  **Homotopy Manifolds and Tangent Bundles in HoTT**
+
+  cf. upcoming preprint
+
+  on [[homotopy types]] of [[smooth manifolds]] in [[homotopy type theory]]
+
+* [[Lyne Moser]]: 
+
+  **Model Structures for Double Categories**
+
+  cf. [arXiv:2004.14233](https://arxiv.org/abs/2004.14233), [arXiv:2007.00588](https://arxiv.org/abs/2007.00588)
+
+  on [[model structures on DblCat]]
+
+* [[Adrian Clough]]: 
+
+  **The Homotopy Theory of Differentiable Sheaves**
+
+  cf. [arXiv:2309.01757](https://arxiv.org/abs/2309.01757)
+
+  on the [[homotopy theory]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]
+  
+
+* [[Zhen Huan]]: 
+
+  **2-Representations and 2-Vector Bundles**
+
+  cf. [arXiv:2208.10042](https://arxiv.org/abs/2208.10042)
+
+  on [[2-representations]] and [[2-vector bundles]]
 
 * [[Urs Schreiber]]: 
 
-  *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]*
+  **[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]**
 
 \linebreak
 
