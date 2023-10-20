@@ -86,6 +86,42 @@ The conversion rules also correspond.
 
 In dependent type theory, this definition of $funsplit$ only gives us a properly typed dependent eliminator if the negative function type satisfies $\eta$-conversion.  As usual, if it satisfies [propositional eta-conversion](/nlab/show/eta-conversion#Propositional) then we can transport along that instead---and conversely, the dependent eliminator allows us to prove propositional $\eta$-conversion.  This is the content of Propositions 3.5, 3.6, and 3.7 in [(Garner)](#GarnerSDP).
 
+### Function types a la Russell and a la Tarski
+
+In [[dependent type theory]], there are two different ways to interpret the term $f:A \to B$: 
+
+1. $f$ is literally a family of terms in $B$ indexed by $A$
+
+1. $f$ is a term representation for a family of terms in $B$ indexed by $A$
+
+This situation is similar to how there are two notions of [[type universe]] where [[small types]] of a universe are interpreted [[Russell universe|a la Russell]], literally as types, or [[Tarski universe|a la Tarski]], as a term representation of types. Thus, in analogy to type universes, we can refer to function types *a la Russell* and function types *a la Tarski*. 
+
+Function types a la Russell and a la Tarski are expressed respectively via the [[elimination rule]] of function types: 
+
+* given types $A$ and $B$ and a term $f:A \to B$, one could form the family of terms $x:A \vdash f(x):B$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma, x:A \vdash f(x):B}$$
+
+* given types $A$ and $B$, one could form the family of terms $f:A \to B, x:A \vdash \mathrm{eval}(f, x):B$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A \vdash \mathrm{eval}(f, x):B}$$
+
+Function types a la Tarski corresponds to the notion of [[exponential object]] in [[category theory]] where the exponential object $B^A$ literally comes with a morphism $\mathrm{eval}:B^A \times A \to B$, but function types a la Russell are the one most commonly used in [[dependent type theory]]. 
+
+The conversion rules for function types a la Russell are as follows:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B}{\Gamma, x:A \vdash (\lambda x:A.b(x))(x) \equiv b(x):B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash f \equiv \lambda x:A.f(x):A \to B}$$
+
+and the conversion rules for function types a la Tarski are as follows: 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B}{\Gamma, x:A \vdash \mathrm{eval}(\lambda x:A.b(x), x) \equiv b(x):B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash f \equiv \lambda x:A.\mathrm{eval}(f, x):A \to B}$$
+
+For the rest of the article we shall assume the use of function types a la Russell. 
+
 ### Weak and strict function types
 
 In [[dependent type theory]], **weak function types** are function types for which the [[computation rules]] ($\beta$-conversion) and [[uniqueness rules]] ($\eta$-conversion) are propositional rather than judgmental:
@@ -760,3 +796,39 @@ See also
 
 [[!redirects weak function type]]
 [[!redirects weak function types]]
+
+[[!redirects Russell function type]]
+[[!redirects Russell function types]]
+
+[[!redirects strict Russell function type]]
+[[!redirects strict Russell function types]]
+
+[[!redirects weak Russell function type]]
+[[!redirects weak Russell function types]]
+
+[[!redirects function type a la Russell]]
+[[!redirects function types a la Russell]]
+
+[[!redirects strict function type a la Russell]]
+[[!redirects strict function types a la Russell]]
+
+[[!redirects weak function type a la Russell]]
+[[!redirects weak function types a la Russell]]
+
+[[!redirects Tarski function type]]
+[[!redirects Tarski function types]]
+
+[[!redirects strict Tarski function type]]
+[[!redirects strict Tarski function types]]
+
+[[!redirects weak Tarski function type]]
+[[!redirects weak Tarski function types]]
+
+[[!redirects function type a la Tarski]]
+[[!redirects function types a la Tarski]]
+
+[[!redirects strict function type a la Tarski]]
+[[!redirects strict function types a la Tarski]]
+
+[[!redirects weak function type a la Tarski]]
+[[!redirects weak function types a la Tarski]]
