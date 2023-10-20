@@ -454,9 +454,32 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A \; \mathrm{type}$ are made by using [[equivalence types]] between the symbol and the type: $\mathrm{def}_{A, B}:A \simeq B$. 
 
+#### isContr and uniqueness quantifiers
+
+Now that we have [[equivalence types]], [[identification types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
+
+* the [[isContr]] [[modality]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{defisContr}(A):\mathrm{isContr}(A) \simeq \sum_{y:A} \prod_{z:A} y =_{A} z}$$
+
+* the [[uniqueness quantifier]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \exists!x:A.B(x) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{def}\exists!_{x:A.B(x)}:\exists!x:A.B(x) \simeq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)}$$
+
 #### Positive types
 
 Now that we have the [[uniqueness quantifier]] we can combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[induction]] rule. 
+
+##### Empty type
+
+Formation rules for the empty type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
+
+Recursion rule for the empty type:
+$$\frac{\Gamma \vdash C \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\mathrm{isContr}\left(\mathbb{0} \to C\right)}$$
+
+Induction rule for the empty type:
+$$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{dup}_\mathbb{0}^C:\mathrm{isContr}\left(\prod_{x:\mathbb{0}} C(x)\right)}$$
 
 ##### Unit type
 
@@ -466,16 +489,11 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
 Introduction rules for the unit type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{pt}:\mathbb{1}}$$
 
+Recursion rule for the unit type:
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{pt}:C}{\Gamma \vdash \mathrm{up}_\mathbb{1}^C(c_\mathrm{pt}):\exists!c:\mathbb{1} \to C.(c(\mathrm{pt}) =_{C} c_\mathrm{pt})}$$
+
 Induction rule for the unit type:
-$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{pt}:C(\mathrm{pt})}{\Gamma \vdash \mathrm{up}_\mathbb{1}^C(c_\mathrm{pt}):\exists!c:\prod_{x:\mathbb{1}} C(x).(c(\mathrm{pt}) =_{C(\mathrm{pt})} c_\mathrm{pt})}$$
-
-##### Empty type
-
-Formation rules for the empty type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
-
-Induction rule for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\mathrm{isContr}\left(\prod_{x:\mathbb{0}} C(x)\right)}$$
+$$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{pt}:C(\mathrm{pt})}{\Gamma \vdash \mathrm{dup}_\mathbb{1}^C(c_\mathrm{pt}):\exists!c:\prod_{x:\mathbb{1}} C(x).(c(\mathrm{pt}) =_{C(\mathrm{pt})} c_\mathrm{pt})}$$
 
 ##### Booleans type
 
@@ -485,8 +503,11 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
 Introduction rules for the booleans type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
 
+Recursion rule for the booleans type:
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash c_1:C}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\exists!c:\mathbb{2} \to C.(c(0) =_{C} c_0) \times (c(1) =_{C} c_1)}$$
+
 Induction rule for the booleans type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\exists!c:\prod_{x:\mathbb{2}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)}$$
+$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{dup}_\mathbb{2}^C(c_0, c_1):\exists!c:\prod_{x:\mathbb{2}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)}$$
 
 ##### Natural numbers type
 
@@ -496,8 +517,11 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
 Introduction rules for the natural numbers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{N} \to \mathbb{N}}$$
 
+Recursion rule for the natural numbers type:
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash c_s:C \to C}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\mathbb{N} \to C.(c(0) =_{C} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C} c_s(c(x))}$$
+
 Induction rule for the natural numbers type:
-$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
+$$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{dup}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
 
 ##### Integers type
 
@@ -506,6 +530,9 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{Z} \; \mathrm{type}}$$
 
 Introduction rules for the integers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{Z} \simeq \mathbb{Z}}$$
+
+Recursion rule for the integers type:
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash c_s:C \simeq C}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\mathbb{Z} \to C.(c(0) =_{C} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C} c_s(c(x))}$$
 
 Induction rule for the integers type:
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{Z}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
