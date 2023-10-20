@@ -730,9 +730,27 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 **Workshop on Homotopy Theory and Applications**
  {#WorkshopOnHomotopyTheory2023}
 
+* 20 Oct 2023
+
 <center>
 <img src="/nlab/files/CQTS-HomotopyWorkshop-2023.jpg" width="520">
 </center>
+
+Materials
+
+* [[Sadok Kallel]]: ...
+
+* [[David Jaz Myers]]: ...
+
+* [[Lyne Moser]]: ...
+
+* [[Adrian Clough]]: ...
+
+* [[Zhen Huan]]: ...
+
+* [[Urs Schreiber]]: 
+
+  *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]*
 
 \linebreak
 
