@@ -1,3 +1,5 @@
+[[!redirects Pawel Sobocinski]]
+[[!redirects Pawel Sobocinski]]
 
 * [webpage](https://www.ioc.ee/~pawel/)
 
@@ -22,4 +24,4 @@ On [[toposes]] as [[adhesive categories]]:
 
 category: people
 
-[[!redirects Pawel Sobocínski]]
+[[!redirects Pawel Sobocinski]]
