@@ -74,18 +74,53 @@ This is only true for the evident type of homotopy equivalences if we assume [[a
 
 #### Rules for isEquiv
 
-Given types $A$ and $B$ and [[function]] $f:A \to B$, $f$ is an [[equivalence of types]] if $f$ has [[contractible type|contractible]] [[fiber type|fibers]] and $B$ satisfies the [[universal property]] of a [[unary sum]]/[[copy]] of $A$ with copy function $f:A \to B$. This means that one could define the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ using very similar natural deduction rules to the rules for [[unary sums]], but where the [[introduction rule]] states that given a function $f:A \to B$ and evidence that $f$ has contractible fibers, one could form a witness of $\mathrm{isEquiv}(f)$:
+Given types $A$ and $B$ and [[function]] $f:A \to B$, $f$ is an [[equivalence of types]] if $f$ has a [[quasi-inverse function]] and $B$ satisfies the [[universal property]] of a [[copy type]] of $A$ with copy function $f:A \to B$. This means that one could define the family of [[h-propositions]] $f:A \to B \vdash \mathrm{isEquiv}(f)$ using very similar natural deduction rules to the rules for [[copy types]], but where the [[introduction rule]] states that given a function $f:A \to B$ and evidence that $f$ has a quasi-inverse function, one could form a witness of $\mathrm{isEquiv}(f)$:
+
+Defining 
+
+$$f:A \to B \vdash \mathrm{qInv}(f) \equiv \sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right)$$
+
+and 
+
+$$\mathrm{isProp}(A) \equiv \prod_{x:A} \prod_{y:A} x =_A y$$
+
+the formation and introduction rules for isEquiv state that that the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ comes with 
+
+* a family of functions 
+$$f:A \to B \vdash \mathrm{qinvtoisEquiv}(f):\mathrm{qInv}(f) \to \mathrm{isEquiv}(f)$$
+
+* a family of identifications
+$$f:A \to B \vdash \mathrm{proptruncisEquiv}(f):\mathrm{isProp}(\mathrm{isEquiv}(f))$$
 
 Formation rules for isEquiv:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B}{\Gamma \vdash \mathrm{isEquiv}(f) \; \mathrm{type}}$$
 
 Introduction rules for isEquiv:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
-      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
-    \end{array}
-  }{\Gamma \vdash \mathrm{witn}(a, b, \tau_A, \tau_B):\mathrm{isEquiv}(f)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B}{\Gamma \vdash \mathrm{qInvToIsEquiv}(f):\mathrm{qInv}(f) \to \mathrm{isEquiv}(f)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{proptruncisEquiv}(f):\mathrm{isProp}(\mathrm{isEquiv}(f))}$$
+
+The elimination, computation, and uniqueness rules depend upon whether $B$ behaves like a [[positive copy type]] or a [[negative copy type]]:
+
+##### As a negative type
+
+Elimination rules for isEquiv:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash f^{-1}:B \to A}$$
+
+Computation rules for isEquiv:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma, y:B \vdash \beta_{\mathrm{isEquiv}(f)}(y):f(f^{-1}(y)) =_B y}$$
+
+Uniqueness rules for isEquiv:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma, x:A \vdash \eta_{\mathrm{isEquiv}(f)}(x):f^{-1}(f(x)) =_A x}$$
+
+Using [[dependent sum types]] and [[product types]], this could be reduced to the following inference rule
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquivtoqinv}(f):\mathrm{isEquiv}(f) \to \mathrm{qInv}(f)}$$
+
+##### As a positive type
 
 Elimination rules for isEquiv:
 $$\frac{
@@ -118,7 +153,7 @@ $$\mathrm{isContr}(A) \coloneqq \sum_{x:A} \prod_{y:A} x =_A y$$
 and the [[uniqueness quantifier]] on a type family $x:A \vdash B(x)$, is defined as 
 $$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
 
-One could define $\mathrm{isEquiv}$ type family and the [[equivalence type]] for the first and fifth definition:
+Assuming [[function extensionality]], one could define $\mathrm{isEquiv}$ type family and the [[equivalence type]] for the first and fifth definition:
 
 * We define the property that a function $f:A \to B$ is an equivalence as the property that the function has contractible fibers:
 $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \prod_{y:B} \exists!x:A.f(x) =_B y$$
