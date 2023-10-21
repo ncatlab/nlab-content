@@ -65,44 +65,37 @@ $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[mu
 
 #### Rules for weak equivalence types
 
-In the same way that [[isEquiv]] could be defined in a way such that given the function $f:A \to B$ and a witness $p:\mathrm{isEquiv}(f)$, $(B, f, p)$ satisfies the universal property of a [[wrapped copy]] of $A$, one could define weak equivalence types such that given an equivalence $R:A \simeq B$, $(B, R)$ satsifes the universal property of a [[wrapped copy]] of $A$:
+In the same way that [[isEquiv]] could be defined in a way such that given the function $f:A \to B$ and a witness $p:\mathrm{isEquiv}(f)$, $(B, f, p)$ satisfies the universal property of a [[wrapped copy]] of $A$, one could define weak equivalence types such that given an equivalence $e:A \simeq B$, $(B, e)$ satsifes the universal property of a [[wrapped copy]] of $A$:
 
 Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
 Introduction rules for equivalence types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:\prod_{y:B} f(a) =_B y \\
-      \Gamma \vdash \tau_A:\prod_{x:A} \prod_{y:B} (f(x) =_B y) \to (a =_A x) \quad \Gamma \vdash \tau_B:\prod_{x:A} \prod_{y:B} \prod_{z:f(x) =_B y} b(y) =_B^{\tau_A(x, y, z)} z
-    \end{array}
-  }{\Gamma \vdash \mathrm{equiv}(f, a, b, \tau_A, \tau_B):A \simeq B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash G:\prod_{y:B} \mathrm{Id}_B(f(g(y)), y) \quad \Gamma \vdash H:\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)}{\Gamma \vdash \mathrm{toequiv}(f, g, G, H):A \simeq B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \mathrm{eval}_{A, B}(e, x):B}$$
 
 Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B}{\Gamma, x:A \vdash f_R(x):B}$$
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(f_R(x)) \quad \Gamma \vdash b:B
-    \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{A \simeq B}^C(R, c_R, b):C(b)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma, e:A \simeq B, y:B \vdash \mathrm{ind}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}, e, y):C(y)}$$
 
 Computation rules for equivalence types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_R:\prod_{x:A} C(f_R(x)) \quad \Gamma \vdash a:A
-    \end{array}
-  }{\Gamma \vdash \beta_{A \simeq B}(R, c_R, a):\mathrm{ind}_{A \simeq B}^C(R, c_R, f_R(a)) =_{C(f_R(a))} c_R(a)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma, e:A \simeq B, x:A \vdash \beta_{A \simeq B}^{C}(c_{\mathrm{eval}_{A, B}}, e, x):\mathrm{ind}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}, e, \mathrm{eval}_{A, B}(e, x)) =_{C(\mathrm{eval}_{A, B}(e, x))} c_{\mathrm{eval}_{A, B}}(e, x)}$$
 
 Uniqueness rules for equivalence types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:B} C(y) \quad \Gamma \vdash b:B
+      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:A \simeq B \to \prod_{y:B} C(y) \quad \Gamma \vdash b:B
     \end{array}
-  }{\Gamma \vdash \eta_{A \simeq B}(R, c, b):c(b) =_{C(b)} \mathrm{ind}_{A \simeq B}^C(R, c, b)}$$
+  }{\Gamma, e:A \simeq B, y:B \vdash \eta_{A \simeq B}(c, e, y):c(y) =_{C(y)} \mathrm{ind}_{A \simeq B}^C(c, e, y)}$$
+
+If we have [[uniqueness quantifiers]], we could combine the elimination, computation, and uniqueness rules for equivalence types into recursion and induction rules for equivalence types:
+
+Recursion rule for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:A \simeq B \to (A \to C)}{\Gamma \vdash \mathrm{up}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}):\exists!c:(A \simeq B) \to (B \to C).\prod_{e:A \simeq B} \prod_{x:A} c(e, \mathrm{eval}_{A, B}(e, x)) =_{C} c_{\mathrm{eval}_{A, B}}(e, x)}$$
+
+Induction rule for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma \vdash \mathrm{dup}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}):\exists!c:(A \simeq B) \to \prod_{y:B} C(y).\prod_{e:A \simeq B} \prod_{x:A} c(e, \mathrm{eval}_{A, B}(e, x)) =_{C(\mathrm{eval}_{A, B}(e, x))} c_{\mathrm{eval}_{A, B}}(e, x)}$$
 
 #### Coinductive definition
 
