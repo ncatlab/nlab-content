@@ -468,7 +468,7 @@ motivated there by [[diffeological groups]] arising in [[geometric quantization]
 
 The article 
 
-* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_, Transactions of the American Mathematical Society Vol. 363, No. 11  ([arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [jstor:41307457](https://www.jstor.org/stable/41307457))
+* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_, Transactions of the American Mathematical Society **363** 11 (2011) &lbrack;[arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [jstor:41307457](https://www.jstor.org/stable/41307457)&rbrack;
 
 proved that diffeological spaces are [[concrete sheaves]] forming a [[quasi-topos]].
 
