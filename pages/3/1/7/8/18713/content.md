@@ -32,6 +32,9 @@ On the relation between [[functorial quantum field theory]] (axiomatizing the [[
 
 * {#BunkMacManusSchenkel23} [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *Lorentzian bordisms in algebraic quantum field theory* &lbrack;[arXiv:2308.01026](https://arxiv.org/abs/2308.01026)&rbrack;
 
+On [[principal infinity-bundles|principal $\infty$-bundles]]:
+
+* [[Severin Bunk]], *$\infty$-Bundles*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2308.04196](https://arxiv.org/abs/2308.04196)&rbrack;
 
 
 
