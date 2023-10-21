@@ -28,6 +28,11 @@ On [[celestial holography]]:
 
 * [[Sabrina Pasterski]], *A Chapter on Celestial Holography*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, &lbrack;[arXiv:2310.04932](https://arxiv.org/abs/2310.04932)&rbrack;
 
+On [[principal infinity-bundles|principal $\infty$-bundles]]:
+
+* [[Severin Bunk]], *$\infty$-Bundles*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2308.04196](https://arxiv.org/abs/2308.04196)&rbrack;
+
+
 (...)
 
 category: reference
