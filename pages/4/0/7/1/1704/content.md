@@ -791,6 +791,9 @@ Discussion in [[higher differential geometry]] of [[Kaluza-Klein compactificatio
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
 
+Review:
+
+* [[Severin Bunk]], *$\infty$-Bundles*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2308.04196](https://arxiv.org/abs/2308.04196)&rbrack;
 
 
 
