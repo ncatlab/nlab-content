@@ -500,7 +500,7 @@ The characterization of $Sh(S)$ as the [[homotopy category]] of $PSh(S)$ with re
 
 Details are in 
 
-* Kashiwara-Schapira, _[[Categories and Sheaves]]_ .
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_ (2006)
 
 It's a bit odd that the full final statement does not seem to be stated there explicitly, but all the ingredients are discussed:
 
@@ -509,6 +509,10 @@ It's a bit odd that the full final statement does not seem to be stated there ex
 * lemma 16.3.2 states that the unit of the [[adjoint functor|adjunction]] $Id_{PSh(S)} \rightarrow i \circ \bar{(-)} : PSh(S) \to PSh(S)$ is componentwise a [[local isomorphism]];
 
 * using this corollary 7.2.2 says that $Sh(S) \simeq Ho_{PSh(S)}$ with the [[homotopy category]] $Ho_{PSh(S)}$ formed using [[local isomorphism]]s as weak equivalences.
+
+Letcure notes:
+
+* [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf)&rbrack;
 
 
 
