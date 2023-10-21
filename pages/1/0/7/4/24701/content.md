@@ -346,7 +346,7 @@ A family of types is a type $B$ in the context of the element judgment $x:A$, $x
 
 A family of terms is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
 
-#### Identificaiton types
+#### Identification types
 
 Formation rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
@@ -369,6 +369,24 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 Uniqueness rules for dependent function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda(x:A).\mathrm{ind}_{\prod_{x:A} B(x)}(f, x)}$$
+
+#### Equivalence types
+
+Formation rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+
+Introduction rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \mathrm{eval}_{A, B}(e, x):B}$$
+
+Elimination rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma, e:A \simeq B, y:B \vdash \mathrm{ind}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}, e, y):C(y)}$$
+
+Computation rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma, e:A \simeq B, x:A \vdash \beta_{A \simeq B}^{C}(c_{\mathrm{eval}_{A, B}}, e, x):\mathrm{ind}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}, e, \mathrm{eval}_{A, B}(e, x)) =_{C(\mathrm{eval}_{A, B}(e, x))} c_{\mathrm{eval}_{A, B}}(e, x)}$$
+
+#### Definitions
+
+Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A \; \mathrm{type}$ are made by using [[equivalence types]] between the symbol and the type: $\mathrm{def}_{A, B}:A \simeq B$. 
 
 #### Function types
 
@@ -424,28 +442,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 Uniqueness rules for dependent pair types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \eta_{\sum_{x:A} B(x)}(z):z =_{\sum_{x:A} B(x)} \mathrm{in}(\mathrm{ind}_{\sum_{x:A} B(x))}^A(z), \mathrm{ind}_{\sum_{x:A} B(x)}^B(z))}$$
-
-#### isEquiv and equivalence types
-
-Now that we have [[identification types]], [[dependent sum types]], and [[dependent product types]], we can use that to define the [[isEquiv]] [[type family]]:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquiv}(f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{qinvtoisEquiv}(f):\sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right) \to \mathrm{isEquiv}(f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquivtoqinv}(f):\mathrm{isEquiv}(f) \to \sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, p:\mathrm{isEquiv}(f), q:\mathrm{isEquiv}(f) \vdash \mathrm{proptruncisEquiv}(f, p, q):\mathrm{Id}_{\mathrm{isEquiv}(f)}(p, q)}$$
-
-and the [[equivalence type]]: 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \def_{A \simeq B}:\sum_{f:(A \simeq B) \to \sum_{g:A \to B} \mathrm{isEquiv}(g)} \mathrm{isEquiv}(f)}$$
-
-#### Definitions
-
-Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A \; \mathrm{type}$ are made by using [[equivalence types]] between the symbol and the type: $\mathrm{def}_{A, B}:A \simeq B$. 
 
 #### isContr and uniqueness quantifiers
 
