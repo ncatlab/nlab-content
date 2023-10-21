@@ -36,7 +36,7 @@ Review:
 
 * [[Steven Carlip]], _[My Research -- (2+1)-Dimensional quantum gravity](http://www.physics.ucdavis.edu/Text/Carlip.html#2+1)_
 
-* Laura Donnay, _Asymptotic dynamics of three-dimensional gravity_ ([arXiv:1602.09021](http://arxiv.org/abs/1602.09021))
+* [[Laura Donnay]], _Asymptotic dynamics of three-dimensional gravity_, Proceedings of *Eleventh Modave Summer School in Mathematical Physics*, POS **271** (2016)  $[$[arXiv:1602.09021](http://arxiv.org/abs/1602.09021), [doi:10.22323/1.271.0001 ](https://doi.org/10.22323/1.271.0001 )$]$
 
 * [[Wout Merbis]], _Chern-Simons-like Theories of Gravity_ ([arXiv:1411.6888](https://arxiv.org/abs/1411.6888))
 
