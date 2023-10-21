@@ -376,6 +376,8 @@ Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
 Introduction rules for equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash G:\prod_{y:B} \mathrm{Id}_B(f(g(y)), y) \quad \Gamma \vdash H:\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)}{\Gamma \vdash \mathrm{toequiv}(f, g, G, H):A \simeq B}$$
+
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \mathrm{eval}_{A, B}(e, x):B}$$
 
 Elimination rules for equivalence types:
@@ -472,20 +474,6 @@ $$\frac{\Gamma, x:A, y:A \vdash C(x, y) \; \mathrm{type} \quad \Gamma \vdash c_{
 
 Induction rule for identification types:
 $$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{refl}_A}:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))}{\Gamma \vdash \mathrm{dup}_{=_A}^C(c_{\mathrm{refl}_A}):\exists!c:\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} C(x, y, p).c(x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} c_{\mathrm{refl}_A}(x)}$$
-
-##### Equivalence types, continued
-
-Formation rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Introduction rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \mathrm{eval}_{A, B}(e, x):B}$$
-
-Recursion rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:A \simeq B \to (A \to C)}{\Gamma \vdash \mathrm{up}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}):\exists!c:(A \simeq B) \to (B \to C).\prod_{e:A \simeq B} \prod_{x:A} c(e, \mathrm{eval}_{A, B}(e, x)) =_{C} c_{\mathrm{eval}_{A, B}}(e, x)}$$
-
-Induction rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma \vdash \mathrm{dup}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}):\exists!c:(A \simeq B) \to \prod_{y:B} C(y).\prod_{e:A \simeq B} \prod_{x:A} c(e, \mathrm{eval}_{A, B}(e, x)) =_{C(\mathrm{eval}_{A, B}(e, x))} c_{\mathrm{eval}_{A, B}}(e, x)}$$
 
 ##### Empty type
 
