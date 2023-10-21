@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -24,9 +25,9 @@
 
 Write $CartSp$ for the [[category]] whose 
 
-* [[object]]s are [[Cartesian space]]s $\mathbb{R}^n$ for $n \in \mathbb{N}$;
+* [[objects]] are [[Cartesian space]]s $\mathbb{R}^n$ for $n \in \mathbb{N}$;
 
-* [[morphisms]] are suitable structure-preserving [[function]]s between these spaces. 
+* [[morphisms]] are suitable structure-preserving [[functions]] between these spaces. 
 
 For definiteness we write
 
@@ -34,7 +35,7 @@ $CartSp_{lin}$ for the category whose objects are [[Cartesian space]]s regarded 
 
 * $CartSp_{top}$ for the category whose objects are Cartesian spaces regarded as [[topological spaces]] equipped with their [[Euclidean topology]] and morphisms are [[continuous maps]] between them.
 
-* $CartSp_{smooth}$ for the category whose objects are Cartesian spaces regarded as [[smooth manifolds]] with their standard [[smooth structure]] and morphisms are [[smooth function]]s.
+* $CartSp_{smth}$ for the category whose objects are Cartesian spaces regarded as [[smooth manifolds]] with their standard [[smooth structure]] and morphisms are [[smooth function]]s.
 
 =--
 
@@ -62,7 +63,7 @@ Write
 
 * [[CartSp]]${}_{top}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[continuous maps]] between these.
 
-* [[CartSp]]${}_{smooth}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[smooth functions]] between these.
+* [[CartSp]]${}_{smooth}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[smooth f# Refefunctions]] between these.
 
 * [[CartSp]]${}_{synthdiff}$ for the [[full subcategory]] of the category of [[smooth loci]] on those of the form $\mathbb{R}^n \times D$ for $D$ an [[infinitesimal space]] (the formal dual of a Weil algebra).
 
@@ -168,29 +169,34 @@ $\,$
 ## References 
  {#References}
 
-In secton 2 of 
+$CartSp_{smth}$ as an example of a "cartesian [[differential category]]":
 
-* [[R. Blute]], [[J.R.B. Cockett]], [[Robert Seely]], _Cartesian differential categories_, Theory and Applications of Categories, Vol. 22, 2009, No. 23, pp 622-672. ([journal](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/22/23/22-23.pdf))
+* [[R. Blute]], [[J.R.B. Cockett]], [[Robert Seely]], section 2 of _Cartesian differential categories_, Theory and Applications of Categories **22** 23 (2009) 622-672 &lbrack;[tac:22-23](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/22/23/22-23.pdf)&rbrack;
 
-$CartSp$ is discussed as an example of a "cartesian differential category".
+{#CartSpAsSiteReference} $CartSp_{smth}$ as a convenient [[site]] for [[diffeological spaces]], [[smooth sets]], [[smooth groupoids]], ... [[smooth infinity-groupoids|smooth $\infty$-groupoids]] was first considered in:
 
-There are various slight variations of the category $CartSp$ (many of them [[equivalence of categories|equivalent]]) that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth spaces]]. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], p. 22 in: *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics **315** 1 (2012) 169-213 &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://doi.org/10.1007/s00220-012-1510-3)&rbrack;
 
-The [[site]] $CartSp_{synthdiff}$ of [[formal smooth manifold|infinitesimally thickened]] Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered in detail in section 5 of
+* {#FSS12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], Appendix of: _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
 
-* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0))
+* [[Urs Schreiber]], §3.2.1 & §4.4 in: *[[schreiber:differential cohomology in a cohesive topos]]* &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
-and briefly mentioned in example 2) on p. 191 of
 
-* [[Anders Kock]], _Synthetic differential geometry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+following the [[site]] [[ThCartSp|$CartSp_{synthdiff}$]] of [[formal smooth manifold|infinitesimally thickened]] Cartesian for the [[Cahiers topos]] (of [[formal smooth sets]]), considered in:
 
-following the original article
+* [[Anders Kock]], Section 5 of: *Convenient vector spaces embed into the Cahiers topos*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **27** 1 (1986) 3-17  &lbrack;[numdam:CTGDC_1986__27_1_3_0](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)&rbrack;
 
-* [[Eduardo Dubuc]], _Sur les modeles de la geometrie differentielle synthetique_ ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
+also briefly mentioned in 
 
-With an eye towards [[Frölicher space]]s the site is also considered in section 5 of 
+*  {#Kock81} [[Anders Kock]], ex. 2 on p. 191 of: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
 
-* Hirokazu Nishimura, _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
+and in turn following the original article:
+
+* [[Eduardo Dubuc]], *Sur les modèles de la géométrie différentielle synthétique*, Cahiers de topologie et géométrie différentielle **20** 3 (1979) 231-279 &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack;
+
+With an eye towards [[Frölicher spaces]], $CartSp_{synthdiff}$ also briefly appears in:
+
+* Hirokazu Nishimura, Section 5 of: _Microlinearity in Frölicher -- Beyond the Regnant Philosophy of Manifolds_ &lbrack;[arXiv:0912.0827](http://arxiv.org/abs/0912.0827)&rbrack;
 
 
 category: category
