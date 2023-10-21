@@ -291,8 +291,7 @@ Unwinding the definition of this [[coend]] as a [[coequalizer]] yields the above
 
 The Cahiers topos was introduced in 
 
-* {#Dubuc79} [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_ [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 3 (1979), p. 231-279  ([numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
- 
+* {#Dubuc79} [[Eduardo Dubuc]], *Sur les modèles de la géométrie différentielle synthétique*, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **20**  3 (1979) 231-279  &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack; 
 
 and got its name from this journal publication. The definition appears in theorem 4.10 there, which asserts that it is a well-adapted model for [[synthetic differential geometry]].
 
@@ -303,7 +302,7 @@ A review discussion is in section 5 of
 
 and with a corrected definition of the site of definition in
 
-* {#KockReyes} [[Anders Kock]], [[Gonzalo Reyes]], _Corrigendum and addenda to: Convenient vector spaces embed into the Cahiers topos_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17 ([numdam:CTGDC_1987__28_2_99_0](http://www.numdam.org/item?id=CTGDC_1987__28_2_99_0))
+* {#KockReyes} [[Anders Kock]], [[Gonzalo Reyes]], _Corrigendum and addenda to: Convenient vector spaces embed into the Cahiers topos_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **28** 2 (1987)  99-110 &lbrack;[numdam:CTGDC_1987__28_2_99_0](http://www.numdam.org/item?id=CTGDC_1987__28_2_99_0)&rbrack;
  
 
 It appears briefly mentioned in example 2) on p. 191 of the standard textbook
