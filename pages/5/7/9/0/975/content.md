@@ -19,7 +19,7 @@
 
 
 
-This entry provides a hyperlinked index for the book
+This entry provides links related to the book
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], 
  
@@ -35,10 +35,11 @@ This entry provides a hyperlinked index for the book
 
 on basics of [[category theory]] and the foundations of [[homological algebra]] and [[abelian sheaf cohomology]].
 
-See also the related lecture notes
+See also the related lecture notes:
 
 * [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
- {#Schapira}
+
+* [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf)&rbrack;
 
 
 **Summary**
