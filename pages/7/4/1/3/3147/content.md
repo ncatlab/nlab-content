@@ -17,7 +17,7 @@ This entry is about the article
 
   \linebreak
 
-  **Quadratic Functions in Geometry, Topology,and M-Theory**  
+  **Quadratic Functions in Geometry, Topology, and M-Theory**  
 
   \linebreak
 
