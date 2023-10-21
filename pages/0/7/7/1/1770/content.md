@@ -418,6 +418,8 @@ Discussion of smooth sets as a [[convenient category of spaces|convenient catego
 
 * [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]&rbrack;
 
+  > (on *[[schreiber:Smooth Sets of Fields]]*)
+
 
 [[!redirects smooth space]]
 [[!redirects smooth spaces]]
