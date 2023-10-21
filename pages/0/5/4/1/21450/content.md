@@ -333,5 +333,11 @@ is absent.
 > At large distances, however, the nonperturbative nature of the strong interactions becomes dominant and a basic understanding of the essential features of hadron physics from first principles QCD has remained an important unsolved problem in the standard model of particle physics. Hadronic characteristics are not explicit properties of the QCD Lagrangian but emergent phenomena, notably, the origin of the hadron mass scale, the mechanism of color confinement, the relation between chiral symmetry breaking and confinement, the massless pion in the chiral limit (the limit of zero quark masses), bound states and the pattern of hadron excitations.
 
 
+\linebreak
+
+* Seth Grable, [[Paul Romatschke]], *Elements of Confinement for QCD with Twelve Massless Quarks* $[$[arXiv:2310.12203](https://arxiv.org/abs/2310.12203)$]$
+
+> Quantum Chromodynamics (QCD) is notorious for being a quantum field theory that is difficult to solve on large length scales $[\ldots]$ what is missing in current QCD literature is a (potentially approximate) solution to continuum QCD that captures the main qualitative features such as confinement in the IR and asymptotic freedom in the UV $[\ldots]$ if such a solution does exist, it cannot be based on a perturbative weak-coupling expansion, because QCD becomes strongly coupled towards long length scales. So the putative solution must arise from non-perturbative methods.
+
 
 
