@@ -106,6 +106,8 @@ Review:
 
 * [[Sabrina Pasterski]], *A Chapter on Celestial Holography*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, &lbrack;[arXiv:2310.04932](https://arxiv.org/abs/2310.04932)&rbrack;
 
+* [[Laura Donnay]], *Celestial holography: An asymptotic symmetry perspective* &lbrack;[arXiv:2310.12922](https://arxiv.org/abs/2310.12922)&rbrack;
+
 
 [[!redirects celestial holography]]
 
