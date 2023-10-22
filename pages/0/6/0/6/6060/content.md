@@ -573,7 +573,7 @@ for the [[group homomorphism]] from the [[fundamental group]] to the multiplicat
    $$
 
 \end{proposition}
-A **proof** is spelled out in [this pdf](https://www.dropbox.com/s/l51nx8ptjgi1cff/TwistedDeRhamCohomology.pdf?dl=0). It proceeds by observing that the bundle and its connection trivialize after pullback to the universal cover $\widehat{\mathrm{X}}$, in fact that the local connection form $\widehat{\omega}$ on $\widehat{\mathrm{X}}$ becomes exact (by the [[Poincaré lemma]] for simply connected domains, [here](Poincaré+lemma#ForOneFormsOnSimplyConnectedDomain)):
+A **proof** is spelled out in this [[OneTwistedAsDeckEquivariantDeRham.pdf:file]]. It proceeds by observing that the bundle and its connection trivialize after pullback to the universal cover $\widehat{\mathrm{X}}$, in fact that the local connection form $\widehat{\omega}$ on $\widehat{\mathrm{X}}$ becomes exact (by the [[Poincaré lemma]] for simply connected domains, [here](Poincaré+lemma#ForOneFormsOnSimplyConnectedDomain)):
 \[
   \label{MasterFunction}
   \underset{
