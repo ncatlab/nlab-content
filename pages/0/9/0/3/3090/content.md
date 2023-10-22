@@ -376,6 +376,13 @@ See [tom Dieck 08, p. 130, Thm. 6.3.3](#tomDieck2008).
 ## Examples
  {#Examples}
 
+### General
+
+\begin{example}
+  The [[topological realization]] of a [[Kan fibration]] of [[simplicial sets]] is a Serre fibration.
+\end{example}
+(due to [Quillen 1968](Quillen68), see also [Goerss & Jardine 1999, Thm. 10.10](#GoerssJardine99))
+
 
 ### Empty bundles
 
@@ -433,13 +440,20 @@ Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz f
 
 ## References
 
+* {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration*, Proc. AMS 19 (1968) 1499-1500 &lbrack;[doi:1968-019-06/S0002-9939-1968-0238322-1](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1), [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)&rbrack;
+
+
 * {#SteinbergerWest84} M. Steinberger and J. West, _Covering homotopy properties of maps between CW complexes or ANRs_, Proc. Amer. Math. Soc. 92 (1984), 573-577.  
+
 
 * {#Cauty92} R. Cauty, _Sur les ouverts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
 
 * [[Stephen Mitchell]], *Notes on Serre fibrations*, 2001 ([pdf](https://sites.math.washington.edu/~mitchell/Atopc/serre.pdf), [[MitchellSerreFibrations.pdf:file]])
 
 * {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
+
+
+* {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]]: *[[Simplicial homotopy theory]]*, Progress in Mathematics, Birkhäuser (1999), Modern Birkhäuser  Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack;
 
 For more see at _[[classical model structure on topological spaces]]_.
 
