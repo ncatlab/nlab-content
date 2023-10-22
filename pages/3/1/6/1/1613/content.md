@@ -84,7 +84,7 @@ Review:
 
 * [[Liang Kong]], _Conformal field theory and a new geometry_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings in Symposia in Pure Mathematics, AMS, (2011) ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], p. 13 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], p. 13 of: *Algebraic structures in two-dimensional conformal field theory*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
 
 An explicit amplification of how the FRS formalism follows from 3-dimensional [[Chern-Simons theory]] regarded as an [[extended topological quantum field theory]] [[QFT with defects|with defects]] and the [[holographic principle]] is in 
