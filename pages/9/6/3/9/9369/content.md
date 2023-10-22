@@ -73,7 +73,7 @@ Every [[complex manifold]] admits a [[good cover]] by Stein manifolds, in the se
 ### Cohomology
  {#Cohomology}
 
-The following central property of Stein manifolds is due to [[Henri Cartan]]
+The following central property of Stein manifolds is due to [[Henri Cartan]].
 
 +-- {: .num_theorem #CartanTheoremB}
 ###### Theorem
@@ -88,7 +88,7 @@ $$
 
 =--
 
-This is recalled for instance as ([Forstneri&#269; 11, theorem 2.4.1](#Forstneric11))
+([Serre 1954](#Serre54), Thm. B on  [p. 214](http://www.numdam.org/item/SB_1951-1954__2__213_0.pdf#page=3), recalled for instance in [Forstneri&#269; 2011, theorem 2.4.1](#Forstneric11))
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -102,7 +102,16 @@ $$
 
 =--
 
-This is recalled for instance as  ([Forstneri&#269; 11, theorem 2.4.6](#Forstneric11)).
+(recalled in [Forstneri&#269; 2011, theorem 2.4.6](#Forstneric11)).
+
+As an important special case, it follows that:
+
+\begin{proposition}
+\label{HolomorphicDeRhamCoincidesWithDeRhamOnSteinMfds}
+The [[holomorphic de Rham cohomology]] of  Stein manifolds coincides with ordinary [[de Rham cohomology]] (with [[complex numbers|complex]] [[coefficients]]).
+\end{proposition}
+([Serre 1954 §2.1](#Serre54), cf. also [MO:q/273178](https://mathoverflow.net/q/273178/381))
+
 
 ### Relation to affine varieties
  {#RelationToAffineVarieties}
@@ -123,6 +132,7 @@ The _[[Oka-Grauert principle]] states that for any [[Stein manifold]] $X$ the ho
 
 * [[complex analytic ∞-groupoid]]
 
+
 ## References
 
 The original article:
@@ -137,7 +147,11 @@ Relation to [[Riemann surfaces]]:
 
 * {#BehnkeStein47} [[Heinrich Behnke]], [[Karl Stein]], *Entwicklung analytischer Funktionen auf Riemannschen Flächen*, Mathematische Annalen volume 120, pages 430–461 (1947) ([doi:10.1007/BF01447838](https://doi.org/10.1007/BF01447838))
 
+On how [[holomorphic de Rham cohomology]] on Stein manifolds coincides with ordinary [[de Rham cohomology]]:
 
+* [[Jean-Pierre Serre]]: *Quelques problemes globaux relatifs aux varietes de Stein*,  Colloque sur les fonctions de plusieurs variables (1953) &lbrack;[doi:10.1007/978-3-642-39816-2_23](https://doi.org/10.1007/978-3-642-39816-2_23)&rbrack;
+
+* {#Serre54} [[Jean-Pierre Serre]]: §2.1 in: *Cohomologie et fonctions de variables complexes*, Séminaire Bourbaki 2 71 (1954) &lbrack;[numdam:SB_1951-1954__2__213_0](http://www.numdam.org/item/SB_1951-1954__2__213_0)&rbrack;
 
 Texbook accounts:
 
