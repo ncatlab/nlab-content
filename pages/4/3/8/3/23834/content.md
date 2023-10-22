@@ -77,6 +77,8 @@ This "hypergeometric" construction uses results on the [[twisted de Rham cohomol
 
 also:
 
+* [[Peter Orlik]], *Hypergeometric integrals and arrangements*, Journal of Computational and Applied Mathematics **105** (1999) 417–424 $[$<a href="https://doi.org/10.1016/S0377-0427(99)00036-9">doi:10.1016/S0377-0427(99)00036-9</a>, [pdf](https://core.ac.uk/download/pdf/82631708.pdf)$]$
+
 * [[Daniel C. Cohen]], [[Peter Orlik]], *Arrangements and local systems*, Math. Res. Lett. **7** (2000) 299-316 $[$[arXiv:math/9907117](https://arxiv.org/abs/math/9907117), [doi:10.4310/MRL.2000.v7.n3.a5](https://dx.doi.org/10.4310/MRL.2000.v7.n3.a5)$]$
 
 
