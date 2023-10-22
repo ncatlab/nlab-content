@@ -173,7 +173,7 @@ $CartSp_{smth}$ as an example of a "cartesian [[differential category]]":
 
 * [[R. Blute]], [[J.R.B. Cockett]], [[Robert Seely]], section 2 of _Cartesian differential categories_, Theory and Applications of Categories **22** 23 (2009) 622-672 &lbrack;[tac:22-23](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/22/23/22-23.pdf)&rbrack;
 
-{#CartSpAsSiteReference} $CartSp_{smth}$ as a convenient [[site]] for [[diffeological spaces]], [[smooth sets]], [[smooth groupoids]], ... [[smooth infinity-groupoids|smooth $\infty$-groupoids]] was first considered in:
+{#CartSpAsSiteReference} $CartSp_{smth}$ as a convenient [[site]] for [[diffeological spaces]], [[smooth sets]], [[smooth groupoids]], ... [[smooth infinity-groupoids|smooth $\infty$-groupoids]] (and the term "CartSp", or similar, for it) was first considered in:
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], p. 22 in: *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics **315** 1 (2012) 169-213 &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://doi.org/10.1007/s00220-012-1510-3)&rbrack;
 
