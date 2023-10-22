@@ -195,6 +195,12 @@ Discussion in the modern formalism of [[geometric quantization]]:
 
 * Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
 
+and with application to [[conformal blocks]]:
+
+* [[Andrei Tyurin]], *On Bohr-Sommerfeld bases*, Izvestiya: Mathematics **64** 5 (2000) 1033–1064 &lbrack;[arXiv:math/9909084](https://arxiv.org/abs/math/9909084), [doi:10.1070/IM2000v064n05ABEH000308](https://iopscience.iop.org/article/10.1070/IM2000v064n05ABEH000308), [pdf](https://www.mathnet.ru/links/d8ad7540137cf2f33c44ab3e9455d392/im308_eng.pdf)&rbrack;
+
+
+
 [[!redirects Bohr-Sommerfeld leaves]]
 
 
