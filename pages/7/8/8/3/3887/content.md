@@ -78,6 +78,11 @@ On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of points
 
 * [[Toshitake Kohno]], §1.4 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
+and via [[Bohr-Sommerfeld leaves]] in [[geometric quantization]]:
+
+* [[Andrei Tyurin]], *On Bohr-Sommerfeld bases*, Izvestiya: Mathematics **64** 5 (2000) 1033–1064 &lbrack;[arXiv:math/9909084](https://arxiv.org/abs/math/9909084), [doi:10.1070/IM2000v064n05ABEH000308](https://iopscience.iop.org/article/10.1070/IM2000v064n05ABEH000308), [pdf](https://www.mathnet.ru/links/d8ad7540137cf2f33c44ab3e9455d392/im308_eng.pdf)&rbrack;
+
+
 Brief review:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], pp. 8 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
