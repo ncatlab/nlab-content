@@ -8,11 +8,14 @@ Peter Orlik is a professor emeritus at the Departement of Mathematics of the Uni
 
 ## Selected writings
 
-On the ([[Dolbeault cohomology|holomorphic]]) [[de Rham cohomology]] of [[configuration spaces of points]] (the result whose "[[twisted de Rham cohomology|twisted]]" generalization leads to the [[hypergeometric construction of KZ solutions]]):
+On the ([[holomorphic de Rham complex|holomorphic]]) [[de Rham cohomology]] of [[configuration spaces of points]] (whose "[[twisted de Rham cohomology|twisted]]" generalization leads to the [[hypergeometric construction of KZ solutions]]):
 
-* [[Peter Orlik]], [[Louis Solomon]], *Combinatorics and topology of complements of hyperplanes*, Invent Math **56** (1980) 167–189  $[$[doi:10.1007/BF01392549](https://doi.org/10.1007/BF01392549)$]$
+* [[Peter Orlik]], [[Louis Solomon]], *Combinatorics and topology of complements of hyperplanes*, Invent Math **56** (1980) 167–189  &lbrack;[doi:10.1007/BF01392549](https://doi.org/10.1007/BF01392549)&rbrack;
+
 
 On [[local system]]-[[twisted de Rham cohomology]] over [[configuration spaces of points]] (such as for the [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) of solutions to the [[Knizhnik-Zamolodchikov equation]]):
+
+* [[Peter Orlik]], *Hypergeometric integrals and arrangements*, Journal of Computational and Applied Mathematics **105** (1999) 417–424 &lbrack;<a href="https://doi.org/10.1016/S0377-0427(99)00036-9">doi:10.1016/S0377-0427(99)00036-9</a>, [pdf](https://core.ac.uk/download/pdf/82631708.pdf)&rbrack;
 
 * [[Daniel C. Cohen]], [[Peter Orlik]], *Arrangements and local systems*, Math. Res. Lett. **7** (2000) 299-316 $[$[arXiv:math/9907117](https://arxiv.org/abs/math/9907117), [doi:10.4310/MRL.2000.v7.n3.a5](https://dx.doi.org/10.4310/MRL.2000.v7.n3.a5)$]$
 
