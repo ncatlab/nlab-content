@@ -31,7 +31,7 @@ Write $CartSp$ for the [[category]] whose
 
 For definiteness we write
 
-$CartSp_{lin}$ for the category whose objects are [[Cartesian space]]s regarded as [[real number|real]] [[vector space]]s and whose morphisms are [[linear function]]s between these;
+$CartSp_{lin}$ for the category whose objects are [[Cartesian space]]s regarded as [[real number|real]] [[vector spaces]] and whose morphisms are [[linear function]]s between these;
 
 * $CartSp_{top}$ for the category whose objects are Cartesian spaces regarded as [[topological spaces]] equipped with their [[Euclidean topology]] and morphisms are [[continuous maps]] between them.
 
@@ -182,17 +182,17 @@ $CartSp_{smth}$ as an example of a "cartesian [[differential category]]":
 * [[Urs Schreiber]], §3.2.1 & §4.4 in: *[[schreiber:differential cohomology in a cohesive topos]]* &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
 
-following the [[site]] [[ThCartSp|$CartSp_{synthdiff}$]] of [[formal smooth manifold|infinitesimally thickened]] Cartesian for the [[Cahiers topos]] (of [[formal smooth sets]]), considered in:
+following the [[site]] [[ThCartSp|$CartSp_{synthdiff}$]] of [[formal smooth manifold|infinitesimally thickened]] Cartesian spaces, previously claimed (then without proof, it seems) to be a site for the [[Cahiers topos]] in:
 
 * [[Anders Kock]], Section 5 of: *Convenient vector spaces embed into the Cahiers topos*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **27** 1 (1986) 3-17  &lbrack;[numdam:CTGDC_1986__27_1_3_0](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)&rbrack;
 
-also briefly mentioned in 
+* {#KockReyes} [[Anders Kock]], [[Gonzalo Reyes]], _Corrigendum and addenda to: Convenient vector spaces embed into the Cahiers topos_, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **28** 2 (1987)  99-110 &lbrack;[numdam:CTGDC_1987__28_2_99_0](http://www.numdam.org/item?id=CTGDC_1987__28_2_99_0)&rbrack;
 
-*  {#Kock81} [[Anders Kock]], ex. 2 on p. 191 of: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
 
-and in turn following the original article:
+The idea is also implicit in
 
-* [[Eduardo Dubuc]], *Sur les modèles de la géométrie différentielle synthétique*, Cahiers de topologie et géométrie différentielle **20** 3 (1979) 231-279 &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack;
+* [[Denis-Charles Cisinski]], Exp. 6.1.2 in: *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
+
 
 With an eye towards [[Frölicher spaces]], $CartSp_{synthdiff}$ also briefly appears in:
 
