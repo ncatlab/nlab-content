@@ -538,9 +538,14 @@ A standard textbook account is
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, 1996
 
-That [[geometric realization]] takes Kan fibrations to [[Serre fibrations]] is due to
+That [[topological realization]] takes Kan fibrations to [[Serre fibrations]] is due to:
 
-* {#Quillen68} [[Dan Quillen]], _The geometric realization of a Kan fibration is a Serre fibration, Proc. AMS 19 (1968), 1499&#8211;1500
+* {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration*, Proc. AMS 19 (1968) 1499-1500 &lbrack;[doi:1968-019-06/S0002-9939-1968-0238322-1](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1), [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)&rbrack;
+
+reviewed in
+
+* {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]], Thm. 10.10 in: *[[Simplicial homotopy theory]]*, Progress in Mathematics, Birkhäuser (1999), Modern Birkhäuser  Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack;
+
 
 See also
 
