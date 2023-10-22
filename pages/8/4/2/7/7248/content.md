@@ -15,9 +15,9 @@ This page collects material related to the textbook
 
   **Simplicial homotopy theory** 
 
-  Progress in Mathematics, Birkh&#228;user (1999) 
+  Progress in Mathematics, Birkhäuser  (1999) 
 
-  Modern Birkh&#228;user Classics (2009)
+  Modern Birkhäuser  Classics (2009)
 
   [doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)
 
