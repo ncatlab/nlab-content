@@ -190,6 +190,31 @@ Given a type $A$ and a type family $x:A \vdash B(x)$, dependent functions $f:\pr
 We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
 \end{proof}
 
+The next is the typal congruence rule for the uniqueness rule of dependent function types.
+
+\begin{theorem}
+For weak dependent product types with dependent function
+$$\eta:\prod_{f:\prod_{x:A} B(x)} f =_{\prod_{x:A} B(x)} \lambda x:A.f(x)$$
+
+given 
+
+* a type $A$
+
+* a type family $x:A \vdash B(x)$ 
+
+* dependent functions $f:\prod_{x:A} B(x)$ and $f':\prod_{x:A} B(x)$
+
+* an identification $p:f =_{\prod_{x:A} B(x)} f'$, 
+
+there is a family of identifications 
+
+$$\mathrm{etaCong}_{\prod}(f, f', p):\mathrm{transport}(f, f', p)(\eta_{\prod_{x:A} B(x)}(f)) =_{f =_{\prod_{x:A} B(x)} \lambda x:A.f(x)} \eta_{\prod_{x:A} B(x)}(f')$$
+\end{theorem}
+
+\begin{proof}
+We simply define $\mathrm{etaCong}_{\prod}(f, f', p)$ to be the [[dependent function application to identifications]] $\mathrm{apd}(\eta, f, f' p)$. 
+\end{proof}
+
 The next is the typal congruence rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs dependent function extensionality. 
 
 \begin{theorem}
