@@ -65,7 +65,7 @@ Historical recollection:
 
 * [[Samuel A. Goudsmit]], *The discovery of the electron spin*, in: *Foundations of Modern EPR*, World Scientific (1998) &lbrack;[pdf](https://www.ifsc.usp.br/~laf/quantica1/goudsmit_discovery_of_spin.pdf), [webpage](https://lorentz.leidenuniv.nl/history/spin/goudsmit.html), [doi:10.1142/3624](https://doi.org/10.1142/3624)&rbrack;
 
-* [[Richard G. Milner]], *A Short History of Spin* &lbrack;[arXiv:1311.5016](https://arxiv.org/abs/1311.5016)&rbrack
+* [[Richard G. Milner]], *A Short History of Spin*, [Proceedings of PSTP2013](https://pos.sissa.it/182/PSTP2013), POS **182** (2014) &lbrack;[arXiv:1311.5016](https://arxiv.org/abs/1311.5016), [doi:10.22323/1.182.0003 ](https://doi.org/10.22323/1.182.0003 )&rbrack;
 
 
 [[!redirects spins]]
