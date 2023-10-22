@@ -85,6 +85,27 @@ The elimination rules and the propositional computation and uniqueness rules for
 
 $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_{x:\mathbb{I}.C(x)}(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
 
+In type theories with a separate type judgment where not all types are elements of universes, one has to additionally add the following elimination and computation rules:
+
+Elimination rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:\mathrm{I} \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, i) \; \mathrm{type}}$$
+
+Computation rules:
+
+* judgmental computation rules
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 0) \equiv A \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \equiv B \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) \equiv e:A \simeq B}$$
+
+* typal computation rules
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{0, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 0) \simeq A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{1, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \simeq B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{p_\mathrm{I}, A, B}(e):\mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) =_{A \simeq B} e}$$
+
 ### Using a function from the boolean domain
 
 The interval type is defined by the following rules:
