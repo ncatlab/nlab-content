@@ -38,9 +38,11 @@ The local extension of germs to the open neighborhoods of points by paracompactn
 
 ## References
 
-Standard references are [[Tohoku]] and 
+Standard references:
 
-* [[Roger Godement]], _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
+* [[Tohoku]]
+
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
 
 category: sheaf theory
