@@ -36,7 +36,12 @@ On [[rational homotopy theory]]:
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
 
-On the (co)homology of commutative algebras:
+Proof that [[topological realization]] takes [[Kan fibrations]] to [[Serre fibrations]]:
+
+* {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration*, Proc. AMS 19 (1968) 1499-1500 &lbrack;[doi:1968-019-06/S0002-9939-1968-0238322-1](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1), [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)&rbrack;
+
+
+On the (co)homology of [[commutative algebras]]:
 
 * [[D. G. Quillen]], 1970, _On the (co-)homology of commutative rings_, in _Proc. Symp. on Categorical Algebra_, 65–87, American Math. Soc.
 
