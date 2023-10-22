@@ -672,11 +672,14 @@ The original articles are
 
 * [[Igor Batalin]], [[Grigori Vilkovisky]], _Existence Theorem For Gauge Algebra_, J. Math. Phys. 26 (1985) 172-184.
 
-Reviews are in
+Review:
 
 * [[Joaquim Gomis]], J. Paris, S. Samuel, _Antibrackets, Antifields and Gauge Theory Quantization_ ([arXiv:hep-th/9412228](http://arxiv.org/abs/hep-th/9412228))
 
 * {#Park} J. Park, _Pursuing the quantum world_ ([pdf](http://cds.cern.ch/record/638963/files/0308130.pdf))
+
+* [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
+
  
 
 Geometrical aspects were pioneered in 
