@@ -91,6 +91,10 @@ Further discussion:
 
 * [[Po Hu]], [[Igor Kriz]], *Some Remarks on Real and Algebraic Cobordism*, K-Theory **22** (2001) 335–366 &lbrack;[pdf](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/43150/10977_2004_Article_321295.pdf?sequence=1), [doi:10.1023/A:1011196901303](http://dx.doi.org/10.1023/A:1011196901303)&rbrack;
 
+* [[Po Hu]], [[Igor Kriz]], *Topological Hermitian Cobordism*, Journal of Homotopy and Related Structures, **11** (2016) 173–197 &lbrack;[arXiv:1110.5608](https://arxiv.org/abs/1110.5608), [doi:10.1007/s40062-014-0100-9](https://doi.org/10.1007/s40062-014-0100-9)&rbrack;
+
+
+
 
 [[!redirects MR-theory]]
 
