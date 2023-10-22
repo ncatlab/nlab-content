@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -48,6 +53,19 @@ By the [[spin-statistics theorem]], the spin of any [[elementary particle]] must
 * [[division algebras and supersymmetry]]
 
 * [[geometry of physics -- supersymmetry]]
+
+## References
+ {#References}
+
+The concept of intrinsic spin of the [[electron]] (making it a "[[spinor]]") originates with:
+
+* [[Samuel A. Goudsmit]], [[George E. Uhlenbeck]]: *Ersetzung der Hypothese vom unmechanischen Zwang durch eine Forderung bezüglich des inneren Verhaltens jedes einzelnen Elektrons*, Naturwissenschaften **13** 47 (1925) 953 &lbrack;<a href="http://jupiter.chem.uoa.gr/thanost/papers/papers4/Naturwissenschaften_13(1925)953.pdf">pdf</a>, [[GoudsmitUhlenbeck-ElektronSpin.pdf:file]]&rbrack;
+
+Historical recollection:
+
+* [[Samuel A. Goudsmit]], *The discovery of the electron spin*, in: *Foundations of Modern EPR*, World Scientific (1998) &lbrack;[pdf](https://www.ifsc.usp.br/~laf/quantica1/goudsmit_discovery_of_spin.pdf), [webpage](https://lorentz.leidenuniv.nl/history/spin/goudsmit.html), [doi:10.1142/3624](https://doi.org/10.1142/3624)&rbrack;
+
+* [[Richard G. Milner]], *A Short History of Spin* &lbrack;[arXiv:1311.5016](https://arxiv.org/abs/1311.5016)&rbrack
 
 
 [[!redirects spins]]
