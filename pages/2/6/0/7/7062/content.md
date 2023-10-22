@@ -63,20 +63,29 @@ Elimination rules for the interval type:
 $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma, x:\mathbb{I} \vdash \mathrm{ind}_\mathbb{I}^C(c_0, c_1, c_p)(x):C(x)}$$
 
 Computation rules for the interval type:
-$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{0}: \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(0) =_{C(0)} c_0}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}:\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(1) =_{C(1)} c_1}$$
+* judgmental computational rules
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(0) \equiv c_0:C(0)}$$
 
-$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}:\mathrm{apd}_C(p, \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)) =_{c_0 =_C^p c_1} c_p}$$
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(1) \equiv c_1:C(1)}$$
+
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{apd}_C(\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p), 0, 1, p) \equiv c_p:c_0 =_C^p c_1}$$
+
+* propositional computation rules
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{0}(c_0, c_1, c_p): \mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(0) =_{C(0)} c_0}$$
+
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{1}(c_0, c_1, c_p):\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p)(1) =_{C(1)} c_1}$$
+
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \beta_\mathbb{I}^{p}(c_0, c_1, c_p):\mathrm{apd}_C(\mathrm{ind}_\mathbb{I}^{C}(c_0, c_1, c_p), 0, 1, p) =_{c_0 =_C^p c_1} c_p}$$
 
 Uniqueness rules for the interval type:
 $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma, x:\mathbb{I} \vdash c:C(x)}{\Gamma, x:\mathbb{I} \vdash \eta_\mathbb{I}(c):c =_{C(x)} \mathrm{ind}_\mathbb{I}^{C}(c(0), c(1), \mathrm{apd}_C(p, c))}$$
 
-The elimination, computation, and uniqueness rules for the interval type state that the interval type satisfy the **dependent universal property of the interval type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the interval type could be simplified to the following rule:
+The elimination rules and the propositional computation and uniqueness rules for the interval type state that the interval type satisfy the **dependent universal property of the interval type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the interval type could be simplified to the following rule:
 
 $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_{x:\mathbb{I}.C(x)}(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
 
-### Using a function from the two-valued type
+### Using a function from the boolean domain
 
 The interval type is defined by the following rules:
 
