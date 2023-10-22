@@ -717,6 +717,22 @@ Given types $A$ and $B$, functions $f:A \to B$ and $g:A \to B$ and an identifica
 We simply define the dependent function $\mathrm{compelim}$ to be the canonical inductively defined function $\mathrm{idtohomotopy}$ which takes identifications between functions to homotopies between functions. 
 \end{proof}
 
+The next is the typal congruence rule for the uniqueness rule of function types.
+
+\begin{theorem}
+Given types $A$ and $B$, functions $f:A \to B$ and $g:A \to B$, and an identification $p:f =_{A \to B} g$, there is an identification 
+
+$$\mathrm{etaCong}_{A \to B}(f, g, p):\mathrm{transport}_{h:A \to B.h =_{A \to B} \lambda x:A.h(x)}(f, g, p)(\eta_{A \to B}(f)) =_{g =_{A \to B} \lambda x:A.g(x)} \eta_{A \to B}(g)$$
+\end{theorem}
+
+\begin{proof}
+We simply define $\mathrm{etaCong}_{A \to B}(f, g, p)$ to be the [[dependent function application to identifications]] 
+$$\mathrm{apd}_{h:A \to B.h =_{A \to B} \lambda x:A.h(x)}(\lambda x:A \to B.\eta_{A \to B}(x), f, g, p)$$ 
+where
+$$f:A \to B \vdash \eta_{A \to B}(f):f =_{A \to B} \lambda x:A.f(x)$$
+is the family of elements in the conclusion of the uniqueness rule for weak function types. 
+\end{proof}
+
 The next is the typal congruence rule for the introduction rule of function types. However, unlike the case for the other two rules, one needs function extensionality. 
 
 \begin{theorem}
