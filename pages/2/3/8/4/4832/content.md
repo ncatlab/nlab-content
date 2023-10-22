@@ -36,8 +36,9 @@ On the [[Poisson sigma-model]]:
 
 On [[BV-BRST formalism]] compatible with decomposing [[spacetime]] into pieces ([[BV-BFV formalism]]):
 
-
 * {#CattaneoMnevReshetikhin12} [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_, [arXiv:1201.0290](http://arxiv.org/abs/1201.0290); _Classical and quantum Lagrangian field theories with boundary_, [arXiv:1207.0239](http://arxiv.org/abs/1207.0239);  _Perturbative quantum gauge theories on manifolds with boundary_, [arxiv/1507.01221](http://arxiv.org/abs/1507.01221)
+
+* [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
 
 
 
