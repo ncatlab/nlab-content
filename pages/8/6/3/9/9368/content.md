@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -18,7 +32,7 @@ $$
 
 =--
 
-This is recalled for instance as ([Forstneri&#269; 11, theorem 2.4.1](#Forstneric11))
+([Serre 1954](#Serre54), Thm. B on  [p. 214](http://www.numdam.org/item/SB_1951-1954__2__213_0.pdf#page=3), recalled for instance as ([Forstneri&#269; 11, theorem 2.4.1](#Forstneric11))
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -32,13 +46,16 @@ $$
 
 =--
 
-This is recalled for instance in  ([Forstneri&#269; 11, theorem 2.4.6](#Forstneric11), [Gunning-Rossi](#GunningRossi)).
+(recalled for instance in  ([Forstneri&#269; 11, theorem 2.4.6](#Forstneric11), [Gunning-Rossi](#GunningRossi)).
 
 
 
 ## References
 
 Named after [[Henri Cartan]].
+
+* {#Serre54} [[Jean-Pierre Serre]]: Thm. B on  [p. 214](http://www.numdam.org/item/SB_1951-1954__2__213_0.pdf#page=3) of: *Cohomologie et fonctions de variables complexes*, Séminaire Bourbaki 2 71 (1954) &lbrack;[numdam:SB_1951-1954__2__213_0](http://www.numdam.org/item/SB_1951-1954__2__213_0)&rbrack;
+
 
 * {#GunningRossi} [[Robert C. Gunning]], [[Hugo Rossi]], *Analytic functions of several complex variables*, Prentice-Hall Inc., Englewood Cliffs (1965)
  
