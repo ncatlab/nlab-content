@@ -41,6 +41,8 @@ A [[Dirac operator]] acts on [[sections]] of a spinor bundle.
 
 In [[physics]], sections of spinor bundles model matter [[relativistic particle|particle]]s: [[fermion]]. See [[spinors in Yang-Mills theory]].
 
+* [[spin]]
+
 * [[fermion]]
 
   * [[electron]], [[quark]]
@@ -59,7 +61,7 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 ## References
 
-The term "spinor" is due to [[Paul Ehrenfest]].
+The term "spinor" is due to [[Paul Ehrenfest]], see the historical references at *[[spin]]*.
 
 * {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  first edition 1966
 
