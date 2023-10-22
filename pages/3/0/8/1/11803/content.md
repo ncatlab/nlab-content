@@ -103,7 +103,16 @@ If $X$ happens to be a [[Kähler manifold]] then the [[Frölicher spectral seque
 
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], section 2.5 of: *Deligne-Beilinson cohomology*, in: [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_, Perspectives in Mathematics **4**, Academic Press, Inc. (1988) &lbrack;ISBN:978-0-12-581120-0, [[EsnaultViehweg-DeligneBeilinsonCohomology.pdf:file]]&rbrack;
 
+On holomorphic de Rham cohomology of [[Stein manifolds]] (where it coincides with ordinary [[de Rham cohomology]], see [there](Stein+manifold#HolomorphicDeRhamCoincidesWithDeRhamOnSteinMfds)):
+
+* [[Jean-Pierre Serre]]: *Quelques problemes globaux relatifs aux varietes de Stein*,  Colloque sur les fonctions de plusieurs variables (1953) &lbrack;[doi:10.1007/978-3-642-39816-2_23](https://doi.org/10.1007/978-3-642-39816-2_23)&rbrack;
+
+* {#Serre54} [[Jean-Pierre Serre]]: §2.1 in: *Cohomologie et fonctions de variables complexes*, Séminaire Bourbaki 2 71 (1954) &lbrack;[numdam:SB_1951-1954__2__213_0](http://www.numdam.org/item/SB_1951-1954__2__213_0)&rbrack;
 
 
 
 [[!redirects holomorphic de Rham complexes]]
+
+[[!redirects holomorphic de Rham cohomology]]
+
+
