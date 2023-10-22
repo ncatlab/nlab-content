@@ -83,17 +83,25 @@ $$\frac{\Gamma, x:\mathrm{Bit} \vdash C(x) \; \mathrm{type}}{\Gamma, c_0:C(0), c
 
 The judgmental computation and uniqueness rules imply the typal computation and uniqueness rules and thus imply the dependent universal property of the boolean domain. 
 
-#### Extensionality principle of the boolean domain
+In type theories with a separate type judgment where not all types are elements of universes, one has to additionally add the following elimination and computation rules:
 
-The elements of the boolean domain represent certain truth values or propositions, namely, [[true]] and [[false]]. By the principle of [[propositions as some types]], truth values or propositions are represented as certain types: specifically, [[true]] or $1$ is represented by the [[unit type]] $\mathbb{1}$, and [[false]] or $0$ is represented by the [[empty type]] $\mathbb{0}$. We represent the above by making the boolean domain into a [[Tarski universe]], by including rules 
+Elimination rules:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bit} \vdash \mathrm{El}_\mathrm{Bit}(x) \; \mathrm{type}} \qquad\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{El}_\mathrm{Bit}(1) \equiv \mathbb{1} \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{El}_\mathrm{Bit}(0) \equiv \mathbb{0} \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, x:\mathrm{Bit} \vdash \mathrm{typerec}_{\mathrm{Bit}}^{A, B}(x) \; \mathrm{type}}$$
 
-The extensionality principle of the boolean domain is then given by the [[univalence axiom]]:
+Computation rules:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bit}, y:\mathrm{Bit} \vdash \mathrm{ua}(x, y):\mathrm{Id}_\mathrm{Bit}(x, y) \simeq (\mathrm{El}_\mathrm{Bit}(x) \simeq \mathrm{El}_\mathrm{Bit}(y))}$$
+* judgmental computation rules
 
-Since the empty type is not equivalent to the unit type, this automatically implies that $0$ is not equal to $1$. 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{typerec}_{\mathrm{Bit}}^{A, B}(0) \equiv A \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{typerec}_{\mathrm{Bit}}^{A, B}(1) \equiv B \; \mathrm{type}}$$
+
+* typal computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \beta_{\mathrm{Bit}}^{0, A, B}:\mathrm{typerec}_{\mathrm{Bit}}^{A, B}(0) \simeq A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \beta_{\mathrm{I}}^{1, A, B}:\mathrm{typerec}_{\mathrm{Bit}}^{A, B}(1) \simeq B}$$
 
 ### In homotopy type theory
  {#InHomotopyTypeTheory}
@@ -105,6 +113,26 @@ In [[homotopy type theory]] the type of booleans / bits looks as [above](#InType
 </center>
 
 \linebreak
+
+## Properties
+
+### Extensionality principle of the boolean domain
+
+The elements of the boolean domain represent certain truth values or propositions, namely, [[true]] and [[false]]. By the principle of [[propositions as some types]], truth values or propositions are represented as certain types: specifically, [[true]] or $1$ is represented by the [[unit type]] $\mathbb{1}$, and [[false]] or $0$ is represented by the [[empty type]] $\mathbb{0}$. The boolean domain becomes a [[Tarski universe]] via type recursion:
+
+$$x:\mathrm{Bit} \vdash \mathrm{typerec}_{\mathrm{Bit}}^{\mathbb{0}, \mathbb{1}}(x) \; \mathrm{type}$$
+
+The extensionality principle of the boolean domain is then given by the [[univalence axiom]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bit}, y:\mathrm{Bit} \vdash \mathrm{ua}(x, y):\mathrm{Id}_\mathrm{Bit}(x, y) \simeq (\mathrm{typerec}_{\mathrm{Bit}}^{\mathbb{0}, \mathbb{1}}(x) \simeq \mathrm{typerec}_{\mathrm{Bit}}^{\mathbb{0}, \mathbb{1}}(y))}$$
+
+Since the empty type is not equivalent to the unit type, this automatically implies that $0$ is not equal to $1$. 
+
+### Relation to sum types
+
+The [[sum types]] could be defined in terms of the boolean domain and the [[dependent sum type]]. Given types $A$ and $B$, the sum type $A + B$ is defined as 
+
+$$A + B \coloneqq \sum_{x:\mathbb{2}} \mathrm{typerec}_{\mathrm{Bit}}^{A, B}(x)$$
 
 ## Related concepts
 
