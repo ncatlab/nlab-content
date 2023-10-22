@@ -11,7 +11,7 @@ On the [[Verlinde formula]] for [[logarithmic CFTs]]:
 
 Survey of [[algebra|algebraic]] [[structures]] in [[2d conformal field theory]] ([[vertex operator algebras]], [[conformal blocks]], [[modular tensor category|modular]] [[fusion categories]], [[modular functors]], [[FRS theorem]], [[string-net models]]):
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
 
 category: people
