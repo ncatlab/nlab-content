@@ -85,7 +85,7 @@ between the [[ordinary cohomology]] and the [[ordinary homology]] groups of $X$.
 
 =--
 
-Later this was turned around and more general [[topological spaces]] satisfying this condition were considered
+Later this was turned around and more general [[topological spaces]] satisfying this condition were considered:
 
 +-- {: .num_defn #PoincareDualitySpace}
 ###### Definition
@@ -185,7 +185,7 @@ The Poincar&#233; dual of a [[submanifold]] can be identified with the [[Thom cl
 
 ### Relation to push-forward in cohomology
 
-Given Poincare duality and hence (twisted-)[[self-dual objects]], the [induced dagger-structure](self-dual+object#RelationToDaggerCompactStructure) allows torevert morphisms in [[cohomology]]. These "[[Umkehr maps]]" describe _[[fiber integration in cohomology]]_.
+Given Poincare duality and hence (twisted-)[[self-dual objects]], the [induced dagger-structure](self-dual+object#RelationToDaggerCompactStructure) allows torevert morphisms in [[cohomology]]. These "[[Umkehr maps]]" describe *[[fiber integration]]* in cohomology.
 
 ### Generalizations
 
