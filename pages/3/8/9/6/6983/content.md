@@ -61,6 +61,21 @@ $$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma, x:\mathb
 
 Thus, the unit type satisfies [[singleton induction]]. 
 
+In type theories with a separate type judgment where not all types are elements of universes, one has to additionally add the following elimination and computation rules:
+
+Elimination rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\mathbb{1} \vdash \mathrm{typerec}_{\mathbb{1}}^{A}(x) \; \mathrm{type}}$$
+
+Computation rules:
+
+* judgmental computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{typerec}_{\mathbb{1}}^{A}(*) \equiv A \; \mathrm{type}}$$
+
+* typal computation rules
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \beta_{\mathbb{1}}^{A}:\mathrm{typerec}_{\mathbb{1}}^{A}(*) \simeq A}$$
+
 #### As a negative type
 
 As a negative type, there are no [[elimination rules]] or [[computation rules]] for $\mathbb{1}$. The [[uniqueness rule]] states that $*$ is the [[center of contraction]] of $\mathbb{1}$ and is given by:
