@@ -295,19 +295,22 @@ The Cahiers topos was introduced in
 
 and got its name from this journal publication. The definition appears in theorem 4.10 there, which asserts that it is a well-adapted model for [[synthetic differential geometry]].
 
-A review discussion is in section 5 of
+A review discussion is in of
 
-* {#Kock} [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17  ([numdam:CTGDC_1986__27_1_3_0](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0))
-  
+* {#Kock} [[Anders Kock]], Section 5 of _Convenient vector spaces embed into the Cahiers topos_, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **27** 1 (1986) 3-17  &lbrack;[numdam:CTGDC_1986__27_1_3_0](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)&rbrack;
 
 and with a corrected definition of the site of definition in
 
-* {#KockReyes} [[Anders Kock]], [[Gonzalo Reyes]], _Corrigendum and addenda to: Convenient vector spaces embed into the Cahiers topos_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **28** 2 (1987)  99-110 &lbrack;[numdam:CTGDC_1987__28_2_99_0](http://www.numdam.org/item?id=CTGDC_1987__28_2_99_0)&rbrack;
+* {#KockReyes} [[Anders Kock]], [[Gonzalo Reyes]], _Corrigendum and addenda to: Convenient vector spaces embed into the Cahiers topos_, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **28** 2 (1987)  99-110 &lbrack;[numdam:CTGDC_1987__28_2_99_0](http://www.numdam.org/item?id=CTGDC_1987__28_2_99_0)&rbrack;
+
+where it is first observed (but apparently without proof) that [[ThCartSp]] is still a site of definition for the Cahiers topos (cf. [[formal smooth set]]).
  
 
-It appears briefly mentioned in example 2) on p. 191 of the standard textbook
+With its original site of all [[formal smooth manifolds]], the Cahiers topos also appears briefly mentioned in:
 
-* [[Anders Kock]], _Synthetic differential geometry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+*  {#Kock81} [[Anders Kock]], ex. 2 on p. 191 of: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
+
+
 
 With an eye towards [[Frölicher space]]s the site is also considered in section 5 of 
 
