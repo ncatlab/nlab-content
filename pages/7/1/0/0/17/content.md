@@ -1035,7 +1035,9 @@ One can upload an image to the nLab as follows.
 
 3. You will be sent to a page where you can upload the image.
 
-Once uploaded, the picture should appear on the page. However, the `:pic` functionality does not allow much configuration. Instead, once it is uploaded one can replace it by an `imagefromfile` block, such as the following.
+4. After uploading the image, you will need to make some edit to the page to refresh it. After this, the picture should appear on the page.
+
+The `:pic` functionality does not allow much configuration.Once it is uploaded, one can replace it by an `imagefromfile` block, such as the following.
 
 <nowiki>
         \begin{imagefromfile}
