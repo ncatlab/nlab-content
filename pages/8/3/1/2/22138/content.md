@@ -22,3 +22,6 @@ On [[dependent linear type theory]] and [[categorical semantics]] for versions o
 category: people
 
 [[!redirects Frank Fu]]
+
+[[!redirects Frank (Peng) Fu]]
+
