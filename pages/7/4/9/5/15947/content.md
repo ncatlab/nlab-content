@@ -8,18 +8,24 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Hermitian K-theory is a generalization of usual [[K-theory]] to the setting of (Banach) rings (or more generally Banach categories) equipped with an involution. It was defined first by Karoubi and Villamayor, and then studied by various authors.
+Where [[K-theory]] concerns the [[Grothendieck groups]] of ([[finitely generated module|finitely generated]] [[projective module|projective]]) [[modules]]/[[vector spaces]], Hermitian K-theory is concerned with Grothendieck groups of modules equipped with [[Hermitian form|Hermitian]] [[quadratic forms]].
 
+Since the resulting groups were originally denoted (in [Wall 1969](#Wall69)) by the letter "L" (just the next letter in the alphabet after "K" for "class"), this is also known as "[[L-theory]]".
+
+
+ 
 ## References
 
-On the [[Grothendieck group]] of [[Hermitian form|Hermitian]] [[modules]] (and some small variants):
+* {#Wall69} [[C. T. C. Wall]] (ed. [[Andrew Ranicki]]), *Surgery on compact Manifolds*, Math. Surveys and Monographs **69** (1999) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/books/scm.pdf)&rbrack;
+
+* {#Mishchenko76} [[Alexandr S. Mishchenko]], *Hermitian K-Theory. The Theory of characteristic classes and methods of functional analysis*, Uspeki Mat. Nauk **31** 2 (1976) 69-134,  Russ. Math. Surv. **31** 71 (1976) &lbrack;[doi:10.1070/RM1976v031n02ABEH001478](https://iopscience.iop.org/article/10.1070/RM1976v031n02ABEH001478), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mishch5.pdf)&rbrack;
+
 
 * [[Max Karoubi]], *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
 
