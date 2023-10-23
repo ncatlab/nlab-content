@@ -17,8 +17,9 @@ Physics in the 21st Century (Kontsevich Festschrift), Birkhäuser, Progress in M
 __324__ (2017), 99–129
 * D. Kaledin, A. Konovalov, K. Magidson, _Spectral algebras and non-commutative Hodge-to-de Rham degeneration_, [arxiv/1906.09518](https://arxiv.org/abs/1906.09518)
 
-* [[Dmitri Kaledin]], [[Misha Verbitsky]], _Hyperkahler manifolds_
-2000; International Press of Boston
+* [[Dmitri Kaledin]], [[Misha Verbitsky]], _Hyperkahler manifolds_, International Press of Boston 2000
+
+* [[Dmitry Kaledin]], _Geometry and topology of symplectic resolutions_, in: Algebraic Geometry: 2005 Summer Research Institute, edited by Dan Abramovich, pp. 595--628, arXiv:[math.AG/0608143](https://arxiv.org/abs/math/0608143)
 
 
 category:people
