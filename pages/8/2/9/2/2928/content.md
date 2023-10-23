@@ -133,11 +133,13 @@ and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ
 
 * [[dagger category]]
 
+* [[complex conjugation]]
+
+* [[anti-linear map]], [[anti-dual linear space]]
+
 * [[duality]]
 
 * [[involutive Hopf algebra]]
-
-* [[complex conjugation]]
 
 * [[idempotent]]
 
