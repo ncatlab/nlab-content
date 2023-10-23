@@ -16,7 +16,7 @@
 
 ## Idea
 
-The **Atiyah Lie groupoid** $At(P)$ of a $G$-[[principal bundle]] $P \to X$ is the [[Lie groupoid]] whose [[objects]] are the [[fibers]] of the bundle, and whose [[morphisms]] are the $G$-[[equivariant maps]] between the fibers. 
+The **Atiyah Lie groupoid** $At(P)$ of a smooth $G$-[[principal bundle]] $P \to X$ is the [[Lie groupoid]] whose [[objects]] are the [[fibers]] of the bundle, and whose [[morphisms]] are the $G$-[[equivariant maps]] between the fibers. 
 
 Schematically:
 
@@ -74,7 +74,7 @@ where
 
 * $Pair(X) = (X \times X \rightrightarrows X)$ is the [[pair groupoid]] of $X$
 
-* the [[functor]] $Ad(P) \to At(P)$ is the identity on objects and on morphisms given by the canonical identification $P_x \times_G G \stackrel{\simeq}{\to} (P_x \times P_x) G$, where again we use the diagonal action of $G$ on $P_x \times P_x$.
+* the [[functor]] $Ad(P) \to At(P)$ is the identity on objects and on morphisms given by the canonical identification $P_x \times_G G \stackrel{\simeq}{\to} (P_x \times P_x)/G$, where again we use the diagonal action of $G$ on $P_x \times P_x$.
 
 * the functor $At(P) \to Pair(X)$ is the unique one that is the identity on objects.
 
