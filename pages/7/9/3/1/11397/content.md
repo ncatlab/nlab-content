@@ -6,6 +6,13 @@ On the [[exact completion]] of the [[classical homotopy category]] $Ho(Top)$ bei
 
 * [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
 
+On the category of [[internal categories]] in a [[Malcev category]]:
+
+* {#Gran99} [[Marino Gran]], _Internal categories in Mal’cev categories_, Journal of Pure and Applied Algebra **143** 1-3 (1999) 221-229 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00112-1">doi:10.1016/S0022-4049(98)00112-1</a>&rbrack;
+
+For the characterisation of [[categories]] which are [[localizations]] of [[Maltsev varieties]]:
+
+* [[Marino Gran]] and [[Enrico Vitale]], _Localizations of Maltsev varieties_, Theory and Applications of Categories **5** 12 (1999) 281-291 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1999/n12/5-12abs.html)&rbrack;
 
 On [[regular categories]] and [[protomodular categories]]:
 
@@ -24,9 +31,5 @@ On the [[Beck-Chevalley condition]] in [[Goursat categories]]:
 Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are the [[groupoids]] ([[skeletal categories]], respectively), hence whose "trivial objects" are the [[skeletal groupoids]]:
 
 * [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
-
-On the category of [[internal categories]] in a [[Malcev category]]:
-
-* {#Gran99} [[Marino Gran]], _Internal categories in Mal’cev categories_, Journal of Pure and Applied Algebra **143** 1-3 (1999) 221-229 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00112-1">doi:10.1016/S0022-4049(98)00112-1</a>&rbrack;
 
 category:people
