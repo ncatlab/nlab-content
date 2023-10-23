@@ -307,7 +307,7 @@ the analogous statement for  Hermitian complex inner products $\langle - \vert -
 
 are now complex *[[anti-linear map|anti-linear]]* and hence not [[morphisms]] in the [[category]] of [[complex vector spaces]].
 
-(What one does get is a complex-linear isomorphism to the anti-dual space.)
+(What one does get is a complex-linear isomorphism to the [[anti-dual linear space]], eg. [Karoubi 2010, §1](#Karoubi10).)
 
 But one may absorb this anti-linearity into an ambient category so that Hermitian/unitary structure regarded *[[internalization|internally]]* to that category looks just like Euclidean/orthogonal structure. Since this uses basic structures known from Atiyah's *[[Real K-theory]]* --- with capital "R", [[KR-theory]] --- it is suggestive and convenient to refer to "Real" structures, as follows:
 
@@ -585,7 +585,7 @@ see:
 
 * Jürgen Elstrodt, Fritz Grunewald, Jens Mennicke: *Integral Binary Hermitian Forms*, Ch. 9 in *Groups Acting on Hyperbolic Space*, Springer (1998) &lbrack;[doi:10.1007/978-3-662-03626-6_9]( https://doi.org/10.1007/978-3-662-03626-6_9)&rbrack;
 
-Discussion of Hermitian forms over the [[complex numbers]] as understood today originates in the definition of [[Hilbert space]] (in laying of mathematical foundations of [[quantum mechanics]]):
+Discussion of Hermitian forms over the [[complex numbers]], as understood today, originates in the definition of [[Hilbert spaces]] (in laying of mathematical foundations of [[quantum mechanics]]):
 
 * {#vonNeumann30} [[John von Neumann]], p. 64 in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
 
@@ -608,6 +608,12 @@ See also:
 * Wikipedia, _[Hermitian form](https://en.wikipedia.org/wiki/Sesquilinear_form#Hermitian_form)_
 
 and see the references at *[[Hilbert space]]*.
+
+Hermitian forms as isomorphisms to the [[anti-dual linear space]]:
+
+* {#Karoubi10} [[Max Karoubi]], §1 in: *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
+
+  > (in the context of [[Hermitian K-theory]])
 
 Hermitian forms in the generality over [[noncommutative ring|noncommutative]] [[ground rings]]:
 
