@@ -14,5 +14,10 @@ The variant for [[Pontryagin products]] not in [[ordinary homology]] but in [[to
 
 * [[Thomas Lam]], [[Changzheng Li]], [[Leonardo C. Mihalcea]], [[Mark Shimozono]], *A conjectural Peterson isomorphism in K-theory*, Journal of Algebra **513** (2018) 326-343 &lbrack;[doi:10.1016/j.jalgebra.2018.07.029](https://doi.org/10.1016/j.jalgebra.2018.07.029), [arXiv:1705.03435](https://arxiv.org/abs/1705.03435)&rbrack;
 
+On [[configuration spaces of points]] in general poisition inside [[complex projective spaces]]:
+
+* [[Nima Arkani-Hamed]], [[Thomas Lam]], [[Marcus Spradlin]], *Positive configuration space*, Commun. Math. Phys. **384** (2021) 909–954  &lbrack;[arXiv:2003.03904](https://arxiv.org/abs/2003.03904), [doi:10.1007/s00220-021-04041-x](https://doi.org/10.1007/s00220-021-04041-x)&rbrack;
+
+
 
 category: people
