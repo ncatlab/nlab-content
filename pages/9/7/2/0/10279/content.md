@@ -70,6 +70,8 @@ A [[star-algebra|$*$-algebra]] requires by definition its [[anti-involution]] to
 
 * [[real structure]]
 
+* [[anti-dual linear space]]
+
 * [[antiunitary operator]]
 
 * [[star-algebra]]
