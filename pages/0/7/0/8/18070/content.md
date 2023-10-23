@@ -1783,6 +1783,18 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 
 * [[Fred Cohen]], [[Samuel Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, ([jstor:2693715](https://www.jstor.org/stable/2693715), [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013))
 
+### Configurations in general position
+ {#ReferencesCOnfigiurationsInGeneralPosition}
+
+Discussion of spaces of configurations of points "in general position", where not only any pair of points is required to be non-coincident, but any $n+1$-[[tuple]] is required to [[linear span|span]] an $n$-dimensional subspace, typically considered after projective quotienting:
+
+* [[Mikhail Kapranov]], §2.1 in: *Chow quotients of Grassmannian I*, Advances in Soviet Mathematics **16** (1993) 29–110 &lbrack;[arXiv:alg-geom/9210002](https://arxiv.org/abs/alg-geom/9210002)&rbrack;
+
+* [[Nima Arkani-Hamed]], [[Thomas Lam]], [[Marcus Spradlin]], *Positive configuration space*, Commun. Math. Phys. **384** (2021) 909–954  &lbrack;[arXiv:2003.03904](https://arxiv.org/abs/2003.03904), [doi:10.1007/s00220-021-04041-x](https://doi.org/10.1007/s00220-021-04041-x)&rbrack;
+
+
+
+
 ### In quantum field theory
  {#ReferencesInQuantumFieldTheory}
 
