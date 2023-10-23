@@ -186,6 +186,9 @@ For the connection to unorderability and recursion, see the following article an
 
 * [[Peter Selinger]], [_Order-Incompleteness and Finite Lambda Reduction Models_](https://www.mscs.dal.ca/~selinger/papers/cmaa.pdf), Theoretical Computer Science 309 (2003) 43–63.
 
+For the characterisation of [[categories]] which are [[localizations]] of [[Maltsev varieties]]:
+
+* [[Marino Gran]] and [[Enrico Vitale]], _Localizations of Maltsev varieties_, Theory and Applications of Categories **5** 12 (1999) 281-291 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1999/n12/5-12abs.html)&rbrack;
 
 
 ## Spelling
