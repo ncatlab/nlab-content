@@ -17,15 +17,13 @@ Symplectic resolutions are analogous to [[hyper Kähler manifolds]].
 
 The term was introduced in 
 
-* Arnaud Beauville, _Symplectic singularities_ (1999) ([arXiv:math/9903070](http://arxiv.org/abs/math/9903070))
+* [[Arnaud Beauville]], _Symplectic singularities_ (1999) ([arXiv:math/9903070](https://arxiv.org/abs/math/9903070))
 
 Useful surveys include:
 
-* [[Dmitry Kaledin]], _Geometry and topology of symplectic resolutions_, ([arXiv/0608143](http://arxiv.org/abs/math/0608143))
+* [[Dmitry Kaledin]], _Geometry and topology of symplectic resolutions_, Algebraic Geometry: 2005 Summer Research Institute, edited by Dan Abramovich ([arXiv:math.AG/0608143](https://arxiv.org/abs/math/0608143))
 * Baohua Fu, _A survey on symplectic singularities and symplectic resolution_, Annales Math&#233;matiques Blaise Pascal 13 (2006) ([web](http://ambp.cedram.org/item?id=AMBP_2006__13_2_209_0))
 
 from which some of the above text is taken.
-
-[[!redirects symplectic singularities]]
 
 [[!redirects symplectic singularities]]
