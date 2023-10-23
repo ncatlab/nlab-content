@@ -21,6 +21,9 @@ On the [[exact completion]] of the [[classical homotopy category]] $Ho(Top)$ bei
 
 * [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
 
+For the characterisation of [[categories]] which are [[localizations]] of [[Maltsev varieties]]:
+
+* [[Marino Gran]] and [[Enrico Vitale]], _Localizations of Maltsev varieties_, Theory and Applications of Categories **5** 12 (1999) 281-291 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1999/n12/5-12abs.html)&rbrack;
 
 On [[Beck's theorem]] for [[pseudomonads]] ([[higher monadic descent]]):
 
