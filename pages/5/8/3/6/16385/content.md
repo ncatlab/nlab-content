@@ -554,6 +554,7 @@ In **summary**: After [[internalization]] as Real complex modules, complex Hermi
 \linebreak
 
 
+
 ## Related concepts
 
 * [[Hilbert space]]
@@ -562,7 +563,6 @@ In **summary**: After [[internalization]] as Real complex modules, complex Hermi
 
 * [[symplectic form]], [[Kähler form]]
 
-
 * [[hermitian matrix]]
 
 * [[Hermitian manifold]]
@@ -570,6 +570,8 @@ In **summary**: After [[internalization]] as Real complex modules, complex Hermi
 * [[quadratic form]]
 
 * [[bra-ket]]
+
+* [[Hermitian K-theory]]
 
 ## References
 
