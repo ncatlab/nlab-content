@@ -1,5 +1,4 @@
-
-* [Institute page](https://www.cs.ox.ac.uk/people/jean-simon.lemay/)
+* [Personal webpage](https://sites.google.com/view/jspl-personal-webpage/)
 
 ## Selected writings
 
