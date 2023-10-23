@@ -1243,7 +1243,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Given that reliable cloud [[quantum computers]] are becoming closer to reality, the concept of delegation of [[quantum computations]] and its [[software verification|verifiability]] is of central interest. Many models have been proposed, each with specific strengths and weaknesses. Here, we put forth a new model where the client trusts only its classical processing, makes no computational assumptions, and interacts with a quantum server in a single round. In addition, during a set-up phase, the client specifies the size $n$ of the computation and receives an untrusted, off-the-shelf (OTS) quantum device that is used to report the outcome of a single constant-sized measurement from a predetermined logarithmic-sized input. In the OTS model, we thus picture that a single quantum server does the bulk of the computations, while the OTS device is used as an untrusted and generic verification device, all in a single round.  In this talk, we will show how the delegation of quantum computations can be achieved in the OTS model, and furthermore how to make this protocol zero-knowledge. The emphasis will be on the concepts that contribute to this result; these concepts are drawn from a long line of research related to blind and delegated quantum computation, as well as quantum zero-knowledge proofs. Based on joint work with Arthur Mehta and Yuming Zhao.
 
+\linebreak
 
+* {#PengFuOct2023} 23 Oct 2023
+
+  [[Frank (Peng) Fu]]:
+
+  **Proto-Quipper with Dynamic Lifting**
+
+  > [[Quipper]] is a [[functional programming language]] for [[quantum computing]]. Proto-Quipper is a family of languages aiming to provide a [[formal methods|formal foundation]] for Quipper. By virtue of being a [[quantum circuit|circuit]] description language, Proto-Quipper has two separate runtimes: circuit generation time and circuit execution time. Values that are known at circuit generation time are called parameters, and values that are known at circuit execution time are called states. [[dynamic lifting|Dynamic lifting]] is an operation that enables a state, such as the result of a [[quantum measurement|measurement]], to be lifted to a parameter, where it can influence the generation of the next portion of the circuit. As a result, dynamic lifting enables Proto-Quipper programs to [interleave classical and quantum computation](quantum+computation#ClassicalControlQuantumData). In his talk, Dr. Frank will describe how to extend Proto-Quipper-M with dynamic lifting. He will explain the syntax of a language named Proto-Quipper-Dyn. Its type system uses a system of [[modalities]] to keep track of the use of dynamic lifting. Then, he will discuss the [[categorical semantics]] for dynamic lifting. Finally, if time permits, Dr. Frank will give some examples of Proto-Quipper-Dyn programs.
 
 
 
