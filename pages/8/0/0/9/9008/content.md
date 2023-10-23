@@ -6,6 +6,11 @@ Charles Terence Clegg Wall is a British mathematician, who was particularly invo
 
 ## Selected writings
 
+On [[surgery]] and introducing [[L-theory]] ([[Hermitian K-theory]]):
+
+* {#Wall69} [[C. T. C. Wall]] (ed. [[Andrew Ranicki]]), *Surgery on compact Manifolds*, Math. Surveys and Monographs **69** (1999) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/books/scm.pdf)&rbrack;
+
+
 On [[free group actions on n-spheres]]:
 
 * {#MadsenThomasWall76} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *The topological spherical space form problem II: existence of free actions*, Topology Volume 15, Issue 4, 1976, Pages 375-382 (<a href="https://doi.org/10.1016/0040-9383(76)90031-8">doi:10.1016/0040-9383(76)90031-8</a>)
