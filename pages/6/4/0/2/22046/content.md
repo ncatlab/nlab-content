@@ -81,6 +81,8 @@ $$
 
 * [[anti-involution]]
 
+* [[anti-linear map]], [[anti-dual linear space]]
+
 * [[automorphism of the complex numbers]]
 
 For an unrelated (or vaguely related) notion with a similar name see at _[[conjugacy class]]_ and _[[adjoint action]]_.
