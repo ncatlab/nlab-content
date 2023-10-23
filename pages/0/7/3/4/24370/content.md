@@ -24,7 +24,7 @@ An *anti-unitary operator* on a [[Hilbert space]] is an [[anti-linear map]] whic
 
 ## Related concepts
 
-* [[antilinear map]]
+* [[antilinear map]], [[anti-dual linear space]]
 
 * [[time-reversal symmetry]]
 
