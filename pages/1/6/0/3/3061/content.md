@@ -73,14 +73,21 @@ For Atiyah classes see:
 * [MO:atiyah-class-for-non-locally-free-sheaf](http://mathoverflow.net/questions/56405/atiyah-class-for-non-locally-free-sheaf)
 
 * [[M. Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_, Compositio Math. 115 (1999), 71&#8211;113.
+
 * [[Ugo Bruzzo]], Igor Mencattini, [[Vladimir Rubtsov]], 
  _Nonabelian holomorphic Lie algebroid extensions_, Intern. J. Math. 26, No. 05, 1550040 (2015) [doi](https://doi.org/10.1142/S0129167X15500408) [arXiv:1305.2377](https://arxiv.org/abs/1305.2377)
+
 * Zhuo Chen, Mathieu Sti&#233;non, Ping Xu, _From Atiyah classes to homotopy Leibniz algebras_, [arXiv/1204.1075](http://arxiv.org/abs/1204.1075); _A Hopf algebra associated to a Lie pair_, [arxiv/1409.6803](http://arxiv.org/abs/1409.6803)
+
 * R. A. Mehta, M. Sti&#233;non, P. Xu, _The Atiyah class of a dg-vector bundle_, [arxiv/1502.03119](http://arxiv.org/abs/1502.03119)
+
 * [[Nikita Markarian]], _The Atiyah class, Hochschild cohomology and the Riemann-Roch theorem_, J. Lond. Math. Soc. (2) 79 (2009), no. 1, 129--143 [doi](https://doi.org/10.1112/jlms/jdn064)
+
 * F. Bottacin, _Atiyah classes for Lie algebroids_, [pdf](http://www.math.unipd.it/~bottacin/papers/liealgebroids.pdf)
+
 * Ajay C. Ramadoss, _The big Chern classes and the Chern character_, Internat. J. Math. 19 (2008), no. 6, 699--746.
-* Zhuo Chen, [[Mathieu Stiénon]], [[Ping Xu]], _From Atiyah classes to homotopy Leibniz algebras_, Commun. Math. Phys. __341__ (2016) 309--349 [doi](https://doi.org/10.1007/s00220-015-2494-6)
+
+* [[Zhuo Chen]], [[Mathieu Stiénon]], [[Ping Xu]], _From Atiyah classes to homotopy Leibniz algebras_, Commun. Math. Phys. __341__ (2016) 309-349 &lbrack;[arXiv:1204.1075](https://arxiv.org/abs/1204.1075), [doi:10.1007/s00220-015-2494-6](https://doi.org/10.1007/s00220-015-2494-6)&rbrack;
 
 [[!redirects Atiyah Lie algebroids]]
 [[!redirects Atiyah algebroid]]
