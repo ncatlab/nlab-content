@@ -159,19 +159,25 @@ See _[[Riesz representation theorem]]_ for more examples from [[functional analy
 
 * [[dual space]]
 
+* [[anti-dual linear space]]
+
 * [[dual vector bundle]]
 
 * [[bra-ket]]
 
+
 ## References
 
-Discussion in the context of [[distributions]] includes
+Discussion in the context of [[distributions]]:
 
 * {#Hoermander90} [[Lars Hörmander]], section 2.1 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 
 [[!redirects dual vector space]]
 [[!redirects dual vector spaces]]
+
+[[!redirects dual linear space]]
+[[!redirects dual linear spaces]]
 
 [[!redirects dual module]]
 [[!redirects dual modules]]
