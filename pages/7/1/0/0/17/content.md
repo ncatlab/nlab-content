@@ -800,7 +800,7 @@ or
 
 and adding usual `TikZ`-code inside. 
 
-{#QuiverTool} A graphical user interface for generating TikZcd code is the [[quiver (editor)|quiver editor]] at [q.uiver.app](https://q.uiver.app/). (After drawing your diagram there, click on `LaTeX` at the bottom to copy-and-paset the code that can be inserted into the above environments.)
+{#QuiverTool} A graphical user interface for generating TikZcd code is the [[quiver (editor)|quiver editor]] at [q.uiver.app](https://q.uiver.app/). (After drawing your diagram there, click on `LaTeX` at the bottom to copy-and-paste the code to be inserted into the above environments.)
 
 Beware that this functionality is a hack: The `tikz`-code is compiled server-side and then included as an SVG in the page's HTML source. 
 
