@@ -186,7 +186,7 @@ is an inner product as required.  Notice that the sum is well defined by [[local
 
 ## References
 
-* Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
+* [[Glenys Luke]], [[Alexandr S. Mishchenko]], *Vector bundles and their applications*, Math. and its Appl. **447** Kluwer (1998) &lbrack;[doi:10.1007/978-1-4757-6923-4](https://doi.org/10.1007/978-1-4757-6923-4), [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)&rbrack;
 
 Discussion with an eye towards [[topological K-theory]] is in
 
