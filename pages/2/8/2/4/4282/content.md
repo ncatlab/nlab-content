@@ -152,6 +152,10 @@ In the [[category of sets]], $*$-algebra objects are called **[[anti-involution|
 
 * [[real part]], [[imaginary part]]
 
+* [[anti-linear map]], [[anti-dual linear space]]
+
+* [[Hermitian form]]
+
 * [[state on a star-algebra]]
 
 * [[star-representation]]
