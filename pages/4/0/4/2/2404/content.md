@@ -14,6 +14,7 @@ Manin's students include:
 * Ivan Penkov
 * [[M. Kapranov]]
 * [[Yuri Tschinkel]]
+* [[Ralph Kaufmann]]
 * ... 
 
 
