@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[K-theory]] of [[quadratic forms]].
+The [[K-theory]] of ([[Hermitian form|Hermitian]]) [[quadratic forms]]. See at: *[[Hermitian K-theory]]*.
 
 ## References
 
