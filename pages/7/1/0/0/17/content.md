@@ -770,10 +770,10 @@ If you want to include multiple contents pages, you can repeat the four lines fr
 ### How to draw commutative diagrams and pictures {#diagrams}
 
 
-#### Tikz
+#### TikZ
  {#TikZ}
 
-You can enter basic [`tikz`](https://en.wikipedia.org/wiki/PGF/TikZ)-diagrams by (omitting the usual math delimiters such as `$$...$$' and instead) 
+You can enter basic [`TikZ`](https://en.wikipedia.org/wiki/PGF/TikZ)-diagrams by (omitting the usual math delimiters such as `$$...$$' and instead) 
 directly opening a block of the form
 
 <nowiki>
@@ -798,11 +798,13 @@ or
 \end{tikzcd}
 </nowiki>
 
-and adding usual `tikz`-code inside. 
+and adding usual `TikZ`-code inside. 
+
+{#QuiverTool} A graphical user interface for generating TikZcd code is the [[quiver (editor)|quiver editor]] at [q.uiver.app](https://q.uiver.app/). (After drawing your diagram there, click on `LaTeX` at the bottom to copy-and-paset the code that can be inserted into the above environments.)
 
 Beware that this functionality is a hack: The `tikz`-code is compiled server-side and then included as an SVG in the page's HTML source. 
 
-In practice this means that `tikz`-code does not interact with the ambient `instiki`-code, for instance it cannot be included inside bullet-items. To prevent `instiki`'s indentation mechanism to clash, be sure to align the outer block of the `tikz`-code to the left of the edit window.
+In practice this means that `TikZ`-code does not interact with the ambient `instiki`-code, for instance it cannot be included inside bullet-items. To prevent `instiki`'s indentation mechanism to clash, be sure to align the outer block of the `TikZ`-code to the left of the edit window.
 
 > (There used to be a claim here that `\usetikzlibrary` can be called inside the `tikz`-code block, but it does not seem to be the case.)
 
