@@ -137,15 +137,12 @@ Modulo the issues discussed above, the Koszul duality portion of duality is show
 
 and the duality between twisting and shuffling in 
 
-* [[Volodymyr Mazorchuk]], [[Serge Ovsienko]], and [[Catharina Stroppel]], _Quadratic
-  duals, Koszul dual functors, and applications_, Trans. Amer. Math. Soc.
+* [[Volodymyr Mazorchuk]], [[Serge Ovsienko]], and [[Catharina Stroppel]], _Quadratic duals, Koszul dual functors, and applications_, Trans. Amer. Math. Soc.
   **361** (2009), no. 3, 1129-1172.
 
 More generally, given partitions $\nu$ and $\mu$, there is a symplectic variety called an **S3-variety** $\mathfrak{X}^\nu_\mu$ which is the preimage in the cotangent bundle of the space of flags of type $\nu$ of the Slodowy slice to the nilpotent orbit with Jordan type $\mu$.  The algebra quantizing this variety is a primitive quotient of the W-algebra for the orbit of Jordan type $\mu$.  In 
 
-* [[Ben Webster]], _Singular blocks of parabolic category $\mathcal{O}$ and
-  finite W-algebras_, Journal of Pure and Applied Algebra
-Volume 215, Issue 12, December 2011, Pages 2797&#8211;2804 [arXiv:0909.1860](http://front.math.ucdavis.edu/0909.1860) 
+* [[Ben Webster]], _Singular blocks of parabolic category $\mathcal{O}$ and finite W-algebras_, Journal of Pure and Applied Algebra __215__:12 (2011) 2797--2804 [arXiv:0909.1860](https://arxiv.org/abs/0909.1860) 
 
 it's shown that the category $\mathcal{O}$'s attached to generic integral quantization parameters are in fact singular blocks of parabolic category $\mathcal{O}$'s (in the BGG sense) attached to the same Lie algebra.  
 
