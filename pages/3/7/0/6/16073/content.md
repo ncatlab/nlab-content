@@ -15,6 +15,7 @@
 
 ## References
 
+* {#Wall69} [[C. T. C. Wall]] (ed. [[Andrew Ranicki]]), *Surgery on compact Manifolds*, Math. Surveys and Monographs **69** (1999) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/books/scm.pdf)&rbrack;
 
 * [[Rustam Sadykov]], _Elements of Surgery Theory_, 2013 ([pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf), [[SadykovSurgeryTheory.pdf:file]])
 
