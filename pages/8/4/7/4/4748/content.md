@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -72,9 +73,6 @@ $$
   \phi^* \nabla : \Sigma \stackrel{\phi}{\to} X \stackrel{\nabla}{\to} A_{conn}
 $$
 
-WORDS MISSING
-
-
 **flat** in that it factors through the canonical inclusion $\mathbf{\flat}A \to A_{conn}$.
 
 In other words: if all the lower [[curvature]] $k$-forms, $1 \leq k \leq n$ of $\phi^* \nabla$ vanish (the higher ones vanish automatically for dimensional reasons).
@@ -121,8 +119,7 @@ $$
 The objects of the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">path ∞-groupoid</a> $\mathbf{\Pi}(\Sigma)$ are points in $\Sigma$, the morphisms are paths in there, the 2-morphisms surfaces between these paths, and so on. Hence a morphism $\mathbf{\Pi}(\Sigma) \to A$ assigns fibers in $A$ to points in $X$, and equivalences between these fibers to paths in $\Sigma$, and so on.
 
 =--
-Jim: so this makes sense for an ordinary bundle??
-=--
+
 
 ### Higher holonomy
 
