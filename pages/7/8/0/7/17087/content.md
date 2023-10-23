@@ -31,7 +31,7 @@ Definitions of the Coulomb and Higgs branches have been extended to [[N=4 D=3 su
 
 ### D=3
 
-Given $G$ a complex reductive group and $M$ a complex symplectic representation of the form $M=N \bigoplus N^*$, the Coulomb branch is defined as the spectrum of the ring given by equivariant Borel-Moore homology $H_\bullet^{G_\mathcal{O}} ( \mathcal{R} )$ with convolution product. $\mathcal{R}$ is a space of triples of a $G$ principle bundle over the formal disk $\mathcal{P}$, a trivialization over the punctured formal disk $\phi$ and a section $s$ of $\mathcal{P} \times_G N$ with the restriction that $\phi (s)$ extends over the puncture.
+Given $G$ a complex reductive group and $M$ a complex [[symplectic representation]] of the form $M=N \bigoplus N^*$, the Coulomb branch is defined as the spectrum of the ring given by equivariant Borel-Moore homology $H_\bullet^{G_\mathcal{O}} ( \mathcal{R} )$ with convolution product. $\mathcal{R}$ is a space of triples of a $G$ principle bundle over the formal disk $\mathcal{P}$, a trivialization over the punctured formal disk $\phi$ and a section $s$ of $\mathcal{P} \times_G N$ with the restriction that $\phi (s)$ extends over the puncture.
 
 By including $\mathbb{C}^*$ equivariance as well, this gives a non-commutative deformation. This gives a Poisson structure at the classical level.
 
