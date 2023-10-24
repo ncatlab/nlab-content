@@ -89,6 +89,8 @@ For Atiyah classes see:
 
 * [[Zhuo Chen]], [[Mathieu Stiénon]], [[Ping Xu]], _From Atiyah classes to homotopy Leibniz algebras_, Commun. Math. Phys. __341__ (2016) 309-349 &lbrack;[arXiv:1204.1075](https://arxiv.org/abs/1204.1075), [doi:10.1007/s00220-015-2494-6](https://doi.org/10.1007/s00220-015-2494-6)&rbrack;
 
+* Stack Project 92.19 ([tag/09DF](https://stacks.math.columbia.edu/tag/09DF)) The Atiyah class of a sheaf of modules
+
 [[!redirects Atiyah Lie algebroids]]
 [[!redirects Atiyah algebroid]]
 [[!redirects Atiyah algebroids]]
