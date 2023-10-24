@@ -5,11 +5,18 @@
 
 * German [wikipedia](http://de.wikipedia.org/wiki/Max_Karoubi)
 
+
 ## Selected writings
 
 Introducing what came to be known as [[Karoubi K-theory]]:
 
 * [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)$]$
+
+Introducing [[Hermitian K-theory]]:
+
+* [[Max Karoubi]], [[Orlando Villamayor]], *K-théorie algébrique et K-théorie topologique II*, Math. Scand. **32** (1973) 57-86 &lbrack;[jstor:24490565](https://www.jstor.org/stable/24490565)&rbrack;
+
+* {#Karoubi10} [[Max Karoubi]], §1 in: *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
 
 
 On [[topological K-theory]]:
