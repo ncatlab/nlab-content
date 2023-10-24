@@ -197,11 +197,16 @@ Reviews include
 
 * Wikipedia, _[KR-theory](http://en.wikipedia.org/wiki/KR-theory)_
 
+Relation to [[topological Hermitian K-theory]]:
+
+* {#Crabb80} [[Michael C. Crabb]], §9 of: *$\mathbb{Z}/2$-Homotopy Theory*, Lond. Math. Soc. Lecture Notes **44**, Cambridge University Press (1980) &lbrack;[ark:/13960/t3jx7bg4w](https://archive.org/details/zz2homotopytheor0000crab), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabb.pdf)&rbrack;
+
+* [[Po Hu]], [[Igor Kriz]], Appendix of: *Topological Hermitian cobordism*, Journal of Homotopy and Related Structures **11** (2016) 173–197 &lbrack;[doi:10.1007/s40062-014-0100-9](https://doi.org/10.1007/s40062-014-0100-9)&rbrack;
 
 
 Remarks on homotopy-theoretic KR in the context of [[algebraic K-theory]] are in
 
-* [[Vigleik Angeltveit]], [[Andrew Blumberg]], Teena Gerhardt, [[Michael Hill]], _Algebraic K-theory and equivariant homotopy theory_, 2012 ([pdf](http://www.birs.ca/workshops/2012/12w5116/report12w5116.pdf))
+* [[Vigleik Angeltveit]], [[Andrew Blumberg]], [[Teena Gerhardt]], [[Michael Hill]], _Algebraic K-theory and equivariant homotopy theory_ (2012) &lbrack;[pdf](http://www.birs.ca/workshops/2012/12w5116/report12w5116.pdf)&rbrack;
 
 Discussion of [[equivariant K-theory|equivariant]] and [[twisted K-theory|twisted]] versions of KR-theory
 
