@@ -1,6 +1,6 @@
 
 
-__Shlomo Gelaki__ is a mathematician at Iowa State University ([web](https://faculty.sites.iastate.edu/gelaki/)). He is one of the figures in the development of the theory of [[tensor categories]].
+__Shlomo Gelaki__ is a mathematician at Iowa State University ([web](https://faculty.sites.iastate.edu/gelaki)). Much of his work is on the theory of [[tensor categories]].
 
 ## Selected writings
 
