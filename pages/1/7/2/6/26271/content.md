@@ -79,7 +79,7 @@ $$
 $$
 
 \end{definition}
-(eg. [Karoubi 2010, §1](#Karoubi10))
+(eg. [Karoubi & Villamayor 1973, Ex. 1](KaroubiVillamayor73); [Karoubi 2010, §1](#Karoubi10))
 
 As the notation already indicates, an equivalent definition is:
 \begin{definition}
@@ -143,6 +143,8 @@ $$
 ## References
 
 Discussion in the context of [[Hermitian K-theory]]:
+
+* {#KaroubiVillamayor73} [[Max Karoubi]], [[Orlando Villamayor]], Ex. 1 in: *K-théorie algébrique et K-théorie topologique II*, Math. Scand. **32** (1973) 57-86 &lbrack;[jstor:24490565](https://www.jstor.org/stable/24490565)&rbrack;
 
 * {#Mishchenko76} [[Alexandr S. Mishchenko]], §1.1 (pp. 76) in: *Hermitian K-Theory. The Theory of characteristic classes and methods of functional analysis*, Uspeki Mat. Nauk **31** 2 (1976) 69-134,  Russ. Math. Surv. **31** 71 (1976) &lbrack;[doi:10.1070/RM1976v031n02ABEH001478](https://iopscience.iop.org/article/10.1070/RM1976v031n02ABEH001478), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mishch5.pdf)&rbrack;
 
