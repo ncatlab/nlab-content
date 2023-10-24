@@ -5,6 +5,7 @@
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18622)
 
+
 ## Selected writings
 
 On the [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]] ([[cocycle spaces]] in [[rational Cohomotopy]] on [[n-spheres]]):
@@ -17,7 +18,12 @@ On [[configuration spaces of points]]:
 
 * [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
 
-## Related $n$Lab entries
+On [[graph-indexed configuration spaces of points]]:
+
+* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]]&rbrack;
+
+
+## Related entries
 
 * [[configuration space of points]]
 
