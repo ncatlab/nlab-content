@@ -210,5 +210,17 @@ Higher observational type theory was introduced as joint work of [[Thorsten Alte
 
 * {#AgdaCode} Agda code: [github.com/mikeshulman/ohtt](https://github.com/mikeshulman/ohtt)
 
+The following article is about a fragment of higher observational type theory:
+
+* [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval* ([arXiv:2307.06448](https://arxiv.org/abs/2307.06448))
+
+The authors of the above article write: 
+
+> We presented a type theory with internal parametricity, a presheaf model and a canonicity proof. It can be seen as a baby version of higher observational type theory (HOTT). To obtain HOTT, we plan to add the following additional features to our theory:
+
+> * a bridge type which can be seen as an indexed version of $\forall$,
+> * Reedy fibrancy, which replaces spans by relations,
+> * a strictification construction which turns the isomorphism for $\Pi$ types into a definitional equality (in case of bridge, we also need the same for $\Sigma$),
+> * Kan fibrancy, which adds transport and turns the bridge type into a proper identity type. This would also change the correspondence between $\forall U$ and spans into $\forall U$ and equivalences.
 
 [[!redirects higher observational type theories]]
