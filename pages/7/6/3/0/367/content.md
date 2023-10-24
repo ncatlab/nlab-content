@@ -193,8 +193,10 @@ See also:
 
 * [[Dai Tamaki]], [[Akira Kono]], Appendix A.1 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
-
 * {#RSS01} [[Charles Rezk]], [[Stefan Schwede]], and [[Brooke Shipley]], *Simplicial structures on model categories and functors*, [arxiv](https://arxiv.org/abs/math/0101162)
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Contractible simplicial objects*, Comm. Math. Univ. Carol. **60** 4 (2019) 473–495 &lbrack;[pdf](https://math.mcgill.ca/barr/papers/cso.pdf) [eudml:295068](https://eudml.org/doc/295068)&rbrack;
+
 
 [[!redirects simplicial objects]]
 
