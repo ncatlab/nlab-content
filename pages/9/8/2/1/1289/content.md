@@ -110,6 +110,10 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * Robert El Bashir, Jiri Velebil, _Simultaneously Reflective And Coreflective Subcategories of Presheaves_ ([TAC](http://www.tac.mta.ca/tac/volumes/10/16/10-16abs.html))
 
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On reflective and coreflective hulls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]] **56** (2015) 162–208 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/biref.pdf), [[BarrKennisonRaphael-Reflective.pdf:file]]&rbrack;
+
+
 [[!redirects coreflective subcategories]]
 
 [[!redirects coreflective embedding]]
