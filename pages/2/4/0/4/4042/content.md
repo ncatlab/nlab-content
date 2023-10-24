@@ -77,8 +77,11 @@ Perhaps the most general [[set theory|set-theoretically]] based construction of 
 
 * [[Steve Lack]], ["On the monadicity of finitary monads"](http://www.maths.usyd.edu.au/res/Catecomb/Lack/1997-29.html)
 
-* [[Nicola Gambino]], [[Martin Hyland]], section 6 of _Wellfounded trees and dependent polynomial functors_. In Types for proofs and programs, volume 3085 of Lecture Notes in Comput. Sci., pages 210&#8211;225. Springer-Verlag, Berlin, 2004 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.98.4534))
- {#GambinoHyland04}
+* {#GambinoHyland04} [[Nicola Gambino]], [[Martin Hyland]], section 6 of _Wellfounded trees and dependent polynomial functors_. In Types for proofs and programs, volume 3085 of Lecture Notes in Comput. Sci., pages 210-225 Springer (2004) &lbrack;[web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.98.4534)&rbrack;
+ 
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Coequalizers and free triples, II*, Theory Appl. Categories **34** (2019) 662–683 &lbrack;[tac:34-23](http://www.tac.mta.ca/tac/volumes/34/23/34-23abs.html)&rbrack;
+
 
 
 [[!redirects free monads]]
