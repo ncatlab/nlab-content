@@ -33,6 +33,14 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   Buenos Aires (Argentina)
 
+* 2024, July 8th-13th
+
+  **Foundational Methods in Computer Science 2024 (FMCS 2024)**
+
+  homepage: TBA
+
+  Kananaskis (Alberta, Canada) at [Biogeoscience Institute](https://research.ucalgary.ca/biogeoscience-institute)
+
 * 2024, July 1-5th 
 
   **TACL24**
