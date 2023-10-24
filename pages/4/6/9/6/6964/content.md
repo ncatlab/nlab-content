@@ -166,6 +166,8 @@ A [[composite]] of uniformly continuous maps is uniformly continuous, as is any 
 
 * [[uniform property]]
 
+* [[modulus of continuity]]
+
 [[!redirects uniform continuity]]
 [[!redirects uniformly continuous]]
 [[!redirects uniformly continuous map]]
@@ -213,5 +215,3 @@ A [[composite]] of uniformly continuous maps is uniformly continuous, as is any 
 [[!redirects anti-uniform homeomorphisms]]
 [[!redirects antiuniformly homeomorphic]]
 [[!redirects anti-uniformly homeomorphic]]
-
-[[!redirects modulus of continuity]]
