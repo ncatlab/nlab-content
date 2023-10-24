@@ -3544,6 +3544,10 @@ See also
 
 * {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
 
+* {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
+
+
+
 The observation that the proof directly extends to give the [[projective model structures on enriched functors]], enriched over $Top_{Quillen}$, is due to 
 
 * {#Piacenza91} [[Robert Piacenza]]  section 5 of _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
