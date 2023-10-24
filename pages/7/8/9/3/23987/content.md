@@ -737,13 +737,14 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 </center>
 
 
-* [[Sadok Kallel]]: 
+* {#KallelOct2023} [[Sadok Kallel]]: 
 
   **The Homotopy Type of Graph Configuration Spaces**
 
-  cf. upcoming preprint
-
   on [[configuration spaces of points]]
+
+  slides: [[Kallel-GraphConfiguration.pdf:file]]
+
 
 * [[David Jaz Myers]]: 
 
