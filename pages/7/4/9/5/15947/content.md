@@ -38,7 +38,12 @@ More early references at:
 
 * [[Max Karoubi]], *K-théorie hermitienne* &lbrack;[webpage](https://webusers.imj-prg.fr/~max.karoubi/K-theorie.hermitienne.html)&rbrack;
 
-The case of topological Hermitian K-theory and its relation to [[KR-theory]]:
+The case of topological Hermitian K-theory 
+
+* [[Max Karoubi]], *Périodicité de la K-théorie hermitienne*, in: [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) 301-411 &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
+
+
+and its relation to [[KR-theory]]:
 
 * {#Crabb80} [[Michael C. Crabb]], §9 of: *$\mathbb{Z}/2$-Homotopy Theory*, Lond. Math. Soc. Lecture Notes **44**, Cambridge University Press (1980) &lbrack;[ark:/13960/t3jx7bg4w](https://archive.org/details/zz2homotopytheor0000crab), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabb.pdf)&rbrack;
 
