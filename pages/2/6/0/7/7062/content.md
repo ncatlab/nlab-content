@@ -144,19 +144,19 @@ Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ h
 
 * $\beta_f^0:f(0) =_A a$
 * $\beta_f^1:f(1) =_A b$
-* $\beta_f^p:\mathrm{ap}_f(p) =_{f(0) =_A f(1)} \mathrm{concat}_{f(0), b, f(1)}(\mathrm{concat}_{f(0), a, b}(\beta_f^0, q), \mathrm{inv}_{f(1), b}(\beta_f^1))$
+* $\beta_f^p:\mathrm{ap}_f(p) =_{f(0) =_A f(1)} \beta_f^0 \bullet q \bullet (\beta_f^1)^{-1}$
 
 where 
 $$\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$$ 
 is the [[function application to identities]], 
-$$\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$$ 
+$$(-)\bullet(-):(a =_A b) \times (b =_A c) \to (a =_A c)$$ 
 is concatenation of identities (i.e. [[transitivity]]), and 
-$$\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$$ 
+$$(-)^{-1}:(a =_A b) \to (b =_A a)$$ 
 is the inverse of identities (i.e. [[symmetry]]).
 
 Conversely, given a function $f:\mathbb{I} \to A$ and terms $a:A$ and $b:A$ with identities $\delta_a:f(0) =_A a$ and $\delta_b:f(1) =_A b$, there is an identity 
 
-$$\mathrm{concat}_{a, f(1), b}(\mathrm{concat}_{a, f(0), f(1)}(\mathrm{inv}_{f(0), a}(\delta_a), \mathrm{ap}_{f}(p)), \delta_b):a =_{A} b$$
+$$\delta_a^{-1} \bullet \mathrm{ap}_{f}(p) \bullet \delta_b:a =_{A} b$$
 
 ### Relation to dependent identity types
 
@@ -178,17 +178,17 @@ The proof assumes a typal [[uniqueness rule]] for [[function types]]. First it c
 
 * $\beta_{k(x)}^0:k(x)(0) =_B f(x)$
 * $\beta_{k(x)}^1:k(x)(1) =_B g(x)$
-* $\beta_{k(x)}^p:\mathrm{ap}_{k(x)}(p) =_{k(x)(0) =_B k(x)(1)} \mathrm{concat}_{k(x)(0), f(x), k(x)(1)}(\mathrm{concat}_{k(x)(0), f(x), g(x)}(\beta_{k(x)}^0, h(x)), \mathrm{inv}_{k(x)(1), g(x)}(\beta_{k(x)}^1))$
+* $\beta_{k(x)}^p:\mathrm{ap}_{k(x)}(p) =_{k(x)(0) =_B k(x)(1)} \beta_{k(x)}^0 \bullet h(x) \bullet (\beta_{k(x)}^1)^{-1}$
 
 Then it uses the properties of function types, product types, currying, uncurrying, and the symmetry of products $A \times B \simeq B \times A$, to construct a function $k':\mathbb{I} \to (A \to B)$, inductively defined by
 
 * $\beta_{k'}^0(x):k'(0)(x) =_B f(x)$
 * $\beta_{k'}^1(x):k'(1)(x) =_B g(x)$
-* $\beta_{k'}^p(x):\mathrm{ap}_{k'}(p)(x) =_{k'(0)(x) =_B k'(1)(x)} \mathrm{concat}_{k'(0)(x), f(x), k'(1)(x)}(\mathrm{concat}_{k'(0)(x), f(x), g(x)}(\beta_{k'}^0(x), h(x)), \mathrm{inv}_{k'(1)(x), g(x)}(\beta_{k'}^1(x)))$
+* $\beta_{k'}^p(x):\mathrm{ap}_{k'}(p)(x) =_{k'(0)(x) =_B k'(1)(x)} \beta_{k'}^0(x) \bullet h(x) \bullet (\beta_{k'}^1(x))^{-1})$
 
 If the interval type has judgmental computation rules for the point constructors, then $k'(x)(0) \equiv f(x)$ and $k'(x)(1) \equiv g(x)$ for all $x:A$, which implies that $k'(0)(x) \equiv f(x)$ and $k'(1)(x) \equiv g(x)$ for all $x:A$, and subsequently that $k'(0) \equiv f$ and $k'(1) \equiv g$. This means that there are identities $\beta_{k'}^0:k'(0) =_{A \to B} f$ and $\beta_{k'}^1:k'(1) =_{A \to B} g$, and an identity 
 
-$$\mathrm{concat}_{f, k'(1), g}(\mathrm{concat}_{f, k'(0), k'(1)}(\mathrm{inv}_{k'(0), f}(\beta_{k'}^0), \mathrm{ap}_{k'}(p)), \beta_{k'}^1):f =_{A \to B} g$$
+$$(\beta_{k'}^0)^{-1} \bullet \mathrm{ap}_{k'}(p) \bullet \beta_{k'}^1:f =_{A \to B} g$$
 
 thus proving function extensionality. 
 
