@@ -16,7 +16,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -121,6 +120,147 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 depending on whether the [[equivalence type]] uses [[judgmental equality]], [[propositional equality]], or the [[identity type]] in its [[computation rules]]. 
 
+## Properties
+
+The type of families of transport functions on a [[type family]] $x:A \vdash B(x)$ is given by the type 
+
+$$\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+
+where $x =_{x:A.B(x)}^{(a, b, p)} y$ is a [[heterogeneous identity type]]. 
+
+In general, a family of transport functions is an element of this type. However, any element of the type of families of transport functions is unique up to identification:
+
+\begin{theorem}
+The type of families of transport functions 
+
+$$\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+
+is a [[contractible type]].
+\end{theorem}
+
+\begin{proof}
+We first show that the type 
+
+$$\sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+
+is contractible for all $a:A$, $b:A$, and $p:a =_A b$. By induction on identity types, it suffices to show that the type 
+
+$$\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, a, \mathrm{refl}_A(a))} f(x)$$
+
+is contractible for all $a:A$. There is an equivalence of types
+
+$$(x =_{x:A.B(x)}^{(a, a, \mathrm{refl}_A(a))} f(x)) \simeq (x =_{B(a)} f(x))$$
+
+and thus by the typal congruence rules for dependent function types and dependent pair types, there is an equivalence of types 
+
+$$\left(\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, a, \mathrm{refl}_A(a))} f(x)\right) \simeq \left(\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{B(a)} f(x)\right)$$
+
+Now, 
+
+$$\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{B(a)} f(x)$$
+
+is just the [[type of identity functions]] on $B(a)$, and is thus always contractible, which implies that 
+
+$$\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, a, \mathrm{refl}_A(a))} f(x)$$
+
+is contractible for all $a:A$. By induction on identity types, the type 
+
+$$\sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+
+is contractible for all $a:A$, $b:A$, and $p:a =_A b$. By [[weak function extensionality]], this implies that 
+
+$$\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+
+is contractible.
+\end{proof} 
+
+Thus, it makes sense to refer to the canonical family of transport functions 
+
+$$\mathrm{transport}_{x:A.B(x)}:\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$ 
+
+inductively defined by 
+
+$$\mathrm{transport}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a)) \equiv \left(\lambda x:B(a).x, \lambda x:B(a).\mathrm{idTohId}(x, (\lambda x:B(a).x)(x), \beta_{B(a) \to B(a)}^{x:B(a).x}(x))\right)$$
+
+for all $a:A$ as *[[generalized the|the]]* transport function on the type family $x:A \vdash B(x)$.
+
+\begin{theorem}
+Given a family of transport functions 
+$$t:\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+for all $a:A$, $b:A$, and $p:a =_A b$, the function $\pi_1(t(b, a, p^{-1}))$ is a [[quasi-inverse function]] of $\pi_1(t(a, b, p))$. 
+\end{theorem}
+
+\begin{proof}
+For all $a:A$, $b:A$, and $p:a =_A b$ and for all $x:B(a)$, we have 
+$$\pi_2(t(a, b, p))(x):x =_{x:A.B(x)}^{(a, b, p)} \pi_1(t(a, b, p))(x)$$ 
+and for all $y:B(b)$ we have
+$$\pi_2(t(b, a, p^{-1}))(x):x =_{x:A.B(x)}^{(b, a, p^{-1})} \pi_1(t(b, a, p^{-1}))(x)$$ 
+
+Thus, we have
+$$\pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)):\pi_1(t(b, a, p^{-1}))(y) =_{x:A.B(x)}^{(a, b, p)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$ 
+and 
+$$\pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)):\pi_1(t(a, b, p)(x)) =_{x:A.B(x)}^{(b, a, p^{-1})} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$ 
+
+By concatenating heterogeneous identifications, we get
+$$\pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)):x =_{x:A.B(x)}^{(a, a, p \bullet p^{-1})} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$
+and
+$$\pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)):y =_{x:A.B(x)}^{(b, b, p^{-1} \bullet p)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$
+
+Since $p \bullet p^{-1} \equiv \mathrm{refl}_{A}(a)$ and $p^{-1} \bullet p \equiv \mathrm{refl}_{A}(b)$, we thus have
+$$\pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)):x =_{x:A.B(x)}^{(a, a, p \bullet p^{-1})} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$
+and
+$$\pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)):y =_{x:A.B(x)}^{(b, b, p^{-1} \bullet p)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$
+
+By converting heterogeneous identifications over reflexivity to homogeneous identifications, one gets
+$$\mathrm{hIdToId}(x, \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)), \pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p)(x))))):x =_{B(a)} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$
+and
+$$\mathrm{hIdToId}(y, \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)), \pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))):y =_{B(b)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$
+
+Thus, we have shown that $\pi_1(t(b, a, p^{-1}))$ is a quasi-inverse function of $\pi_1(t(a, b, p))$ for all $a:A$, $b:A$, and $p:a =_A b$. 
+\end{proof}
+
+We define the dependent functions
+
+$$\mathrm{linv}(t, a, b, p) \equiv \lambda x:B(a).\mathrm{hIdToId}(x, \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)), \pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p)(x)))))$$
+
+in type $\prod_{x:B(a)} x =_{B(a)} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$
+
+and 
+
+$$\mathrm{rinv}(t, a, b, p) \equiv \lambda y:B(b).\mathrm{hIdToId}(y, \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)), \pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)))$$
+
+in type $\prod_{y:B(b)} y =_{B(b)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$
+
+for all $a:A$, $b:A$, and $p:a =_A b$. 
+
+\begin{theorem}
+Given a family of transport functions 
+$$t:\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+for all $a:A$, $b:A$, and $p:a =_A b$, the function $\pi_1(t(a, b, p))$ is bi-invertible. 
+\end{theorem}
+
+\begin{proof}
+We construct the element 
+
+$$((\pi_1(t(b, a, p^{-1})), \mathrm{linv}(t, a, b, p)), (\pi_1(t(b, a, p^{-1})), \mathrm{rinv}(t, a, b, p))$$
+
+in the type 
+
+$$\left(\sum_{f:B(b) \to B(a)} \prod_{x:B(a)} x =_{B(a)} f(\pi_1(t(a, b, p))(x))\right) \times \left(\sum_{g:B(b) \to B(a)} \prod_{y:B(b)} y =_{B(b)} \pi_1(t(a, b, p))(g(y))\right)$$
+
+indicating that $\pi_1(t(a, b, p))$ is bi-invertible for all $a:A$, $b:A$, and $p:a =_A b$. 
+\end{proof}
+
+By definition, it follows that:
+
+\begin{corollary}
+Given a family of transport functions 
+$$t:\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
+for all $a:A$, $b:A$, and $p:a =_A b$, the transport function $\pi_1(t(a, b, p))$ is an [[equivalence of types]]. 
+\end{corollary}
+
+Hence, in [[dependent type theory]], transport functions are also called **transport equivalences**.
+
 ## Examples and applications
 
 ### Univalent Tarski universes
@@ -180,6 +320,8 @@ In this case, the identity transport (eq:TheTransportFunctions) along paths in [
 * [[dependent identity type]]
 
 * [[identity of indiscernibles]]
+
+* [[identity function]]
 
 ## References ##
 
@@ -262,6 +404,9 @@ For the role of transport in defining an equivalent notion of [[univalence]] in 
 [[!redirects transport functor]]
 [[!redirects transport functors]]
 
+
+[[!redirects type of transport functions]]
+[[!redirects types of transport functions]]
 
 [[!redirects indiscernibility of identicals]]
 
