@@ -18,6 +18,10 @@ Introducing [[Hermitian K-theory]]:
 
 * {#Karoubi10} [[Max Karoubi]], §1 in: *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
 
+and [[topological Hermitian K-theory]]:
+
+* [[Max Karoubi]], *Périodicité de la K-théorie hermitienne*, in: [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) 301-411 &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
+
 
 On [[topological K-theory]]:
 
