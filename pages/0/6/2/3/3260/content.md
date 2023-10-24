@@ -416,6 +416,9 @@ Textbooks and other accounts
 
   > (with an eye towards the [[Arf-Kervaire invariant problem]])
 
+The case of [[cyclic group of order 2|$\mathbb{Z}/2$]]-equivariance (such as with [[KR-theory]]):
+
+* {#Crabb80} [[Michael C. Crabb]], *$\mathbb{Z}/2$-Homotopy Theory*, Lond. Math. Soc. Lecture Notes **44**, Cambridge University Press (1980) &lbrack;[ark:/13960/t3jx7bg4w](https://archive.org/details/zz2homotopytheor0000crab), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabb.pdf)&rbrack;
 
 The generalization of the homotopy theory of $G$-spaces and of [[Elmendorf's theorem]] to that of $G$-objects in more general [[model category|model categories]] is in 
 
