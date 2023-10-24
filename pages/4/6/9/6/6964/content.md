@@ -116,6 +116,40 @@ A __uniform [[homeomorphism]]__ is a uniformly continuous [[bijection]] whose [[
 
 =--
 
+### As structure
+
+In [[dependent type theory]], one could change the [[universal quantifiers]] and [[existential quantifiers]] in the definition of uniformly continuous function into [[dependent product types]] and [[dependent sum types]]. 
+
+\begin{definition}
+Let $\mathrm{R}_+ \coloneqq \sum_{x:\mathbb{R}} \epsilon \gt 0$ denote the positive real numbers. Given [[metric spaces]] $(X, d_X)$ and $(Y, d_Y)$, a **uniformly continuous function** between $X$ and $Y$ is a function $f:X \to Y$ between their underlying sets with a dependent function which says: 
+
+> Given any positive real number $\epsilon \gt 0$, there is as structure a positive real number $\delta \gt 0$ such that for all elements $a:X$ and $b:X$, $\delta_Y(f(a), f(b))$ is less than $\epsilon$ whenever $\delta_X(a, b)$ is less than $\delta$
+
+$$\prod_{\epsilon:\mathrm{R}_+} \sum_{\delta:\mathbb{R}_+} \prod_{a:X} \prod_{b:X} (\delta_X(a, b) \lt \delta) \to (\delta_Y(f(a), f(b)) \lt \epsilon)$$
+
+By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying that 
+
+> There exists as structure a function on the positive real numbers $\omega:\mathrm{R}_+ \to \mathrm{R}_+$ such that for all positive real numbers $\epsilon \gt 0$ and for all elements $a:X$ and $b:X$, $\delta_Y(f(a), f(b))$ is less than $\epsilon$ whenever $\delta_X(a, b)$ is less than $\omega(\epsilon)$
+
+$$\sum_{\omega:\mathrm{R}_+ \to \mathrm{R}_+} \prod_{\epsilon:\mathrm{R}_+} \prod_{a:X} \prod_{b:X} (\delta_X(a, b) \lt \omega(\epsilon)) \to (\delta_Y(f(a), f(b)) \lt \epsilon)$$
+\end{definition}
+
+There exists a similar definition for [[uniform spaces]]: 
+
+\begin{definition}
+Given uniform spaces $(X, \mathcal{U}(X), \approx)$ and $(Y, \mathcal{U}(Y), \approx)$, a **uniformly continuous function** between $X$ and $Y$ is a function $f:X \to Y$ with a dependent function which says: 
+
+> Given any [[entourage]] $E:\mathcal{U}(Y)$, there is as structure an entourage $D:\mathcal{U}(X)$ such that for all elements $a:X$ and $b:X$, $f(a) \approx_{E} f(b)$ whenever $a \approx_{D} b$
+
+$$\prod_{E:\mathcal{U}(Y)} \sum_{D:\mathcal{U}(X)} \prod_{a:X} \prod_{b:X} (a \approx_{D} b) \to (f(a) \approx_{E} f(b))$$
+
+By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying that 
+
+> There exists as structure a function $\omega:\mathcal{U}(Y) \to \mathcal{U}(X)$ between the sets of entourages such that for all entourages $E:\mathcal{U}(Y)$ and for all elements $a:X$ and $b:X$, $f(a) \approx_{E} f(b)$ whenever $a \approx_{\omega(E)} b$
+
+$$\sum_{\omega:\mathcal{U}(Y) \to \mathcal{U}(X)} \prod_{E:\mathcal{U}(Y)} \prod_{a:X} \prod_{b:X} (a \approx_{\omega(E)} b) \to (f(a) \approx_{E} f(b))$$
+\end{definition}
+
 ## Properties
 
 Every uniformly continuous map between uniform spaces is [[continuous map|continuous]] (between the underlying [[topological spaces]]) and in fact [[Cauchy map|Cauchy continuous]] (between the underlying [[Cauchy spaces]]).  Also, every uniformly continuous or antiuniformly continuous map between quasiuniform spaces is Cauchy continuous.  Conversely, every [[short map|short]] or even [[Lipschitz map|Lipschitz]] map between metric spaces (or Lipschitz [[manifolds]]) is uniformly continuous.
@@ -179,3 +213,5 @@ A [[composite]] of uniformly continuous maps is uniformly continuous, as is any 
 [[!redirects anti-uniform homeomorphisms]]
 [[!redirects antiuniformly homeomorphic]]
 [[!redirects anti-uniformly homeomorphic]]
+
+[[!redirects modulus of continuity]]
