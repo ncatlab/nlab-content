@@ -617,7 +617,7 @@ The original articles on Isbell duality and the [[Isbell envelope]] are
 
 * {#Isbell67} [[John Isbell]], _Normal completions of categories_, Reports of the Midwest Category Seminar, **47**, Springer (1967) 110-155 &lbrack;[doi:10.1007/BFb0074302](https://doi.org/10.1007/BFb0074302)&rbrack;
 
-* {#Kock66} [[Anders Kock]]. _Continuous Yoneda representation of a small category_. University of Aarhus, Denmark, 1966.
+* {#Kock66} [[Anders Kock]]. _Continuous Yoneda representation of a small category_. University of Aarhus, Denmark, 1966. ([pdf](https://tildeweb.au.dk/au76680/CYRSC.pdf))
 
 More recent discussion is in
 
