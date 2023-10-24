@@ -8,13 +8,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Where [[K-theory]] concerns the [[Grothendieck groups]] of ([[finitely generated module|finitely generated]] [[projective module|projective]]) [[modules]]/[[vector spaces]], Hermitian K-theory is concerned with Grothendieck groups of modules equipped with [[Hermitian form|Hermitian]] [[quadratic forms]].
+Where [[algebraic K-theory]] concerns (in degree zero) the [[Grothendieck groups]] of ([[finitely generated module|finitely generated]] [[projective module|projective]]) [[modules]]/[[vector spaces]], Hermitian K-theory is concerned with Grothendieck groups of modules equipped with [[Hermitian form|Hermitian]] [[quadratic forms]].
 
 Since the resulting groups were originally denoted (in [Wall 1969](#Wall69)) by the letter "L" (just the next letter in the alphabet after "K" for "class"), this is also known as "[[L-theory]]".
 
@@ -37,8 +38,17 @@ More early references at:
 
 * [[Max Karoubi]], *K-théorie hermitienne* &lbrack;[webpage](https://webusers.imj-prg.fr/~max.karoubi/K-theorie.hermitienne.html)&rbrack;
 
+The case of topological Hermitian K-theory and its relation to [[KR-theory]]:
+
+* {#Crabb80} [[Michael C. Crabb]], §9 of: *$\mathbb{Z}/2$-Homotopy Theory*, Lond. Math. Soc. Lecture Notes **44**, Cambridge University Press (1980) &lbrack;[ark:/13960/t3jx7bg4w](https://archive.org/details/zz2homotopytheor0000crab), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabb.pdf)&rbrack;
+
+* [[Po Hu]], [[Igor Kriz]], Appendix of: *Topological Hermitian cobordism*, Journal of Homotopy and Related Structures **11** (2016) 173–197 &lbrack;[doi:10.1007/s40062-014-0100-9](https://doi.org/10.1007/s40062-014-0100-9)&rbrack;
 
 
 
+[[!redirects Hermitian K-theories]]
+
+[[!redirects topological Hermitian K-theory]]
+[[!redirects topological Hermitian K-theories]]
 
 
