@@ -651,6 +651,11 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 * Sober spaces in the [$\pi$-base](http://topology.jdabbs.com/properties/73).
 
+A [[model category]] of [[locales]] which makes the [[reflective subcategory|reflection]] of [[sober topological spaces]] a [[Quillen adjunction]] to the sober-restriction of the [[classical model structure on topological spaces]]:
+
+* {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], Thm. 4.45 in: *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
+
+
 [[!redirects sober]]
 [[!redirects sober topological space]]
 [[!redirects sober topological spaces]]
