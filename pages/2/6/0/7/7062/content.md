@@ -104,7 +104,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{1, A, B}(e):\mathrm{typerec}_{\mathbb{I}}^{A, B}(e, 1) \simeq B}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{p_\mathrm{I}, A, B}(e):\mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) =_{A \simeq B} e}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \beta_{\mathrm{I}}^{p_\mathrm{I}, A, B}(e):\beta_{\mathrm{I}}^{1, A, B}(e) \circ \mathrm{transport}_{\mathrm{typerec}_{\mathbb{I}}^{A, B}(e)}(0, 1, p_\mathbb{I}) \circ \beta_{\mathrm{I}}^{0, A, B}(e)^{-1} =_{A \simeq B} e}$$
 
 ### Using a function from the boolean domain
 
