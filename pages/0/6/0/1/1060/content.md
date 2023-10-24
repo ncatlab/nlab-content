@@ -280,6 +280,9 @@ See also:
 
 * [[Michael Barr]], *Topological $\ast$-autonomous categories, revisited*, Tbilisi Math. J. **10** 3 (2017) 51–64 &lbrack;[arXiv:1609.04241](https://arxiv.org/abs/1609.04241)&rbrack;
 
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *The $\ast$-autonomous category of uniform sup semi-lattices*,  Theory and Applications of Categories **27** 11 (2012) 222–241 &lbrack;[tac:27-11](http://www.tac.mta.ca/tac/volumes/27/11/27-11abs.html)&rbrack;
+
+
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
