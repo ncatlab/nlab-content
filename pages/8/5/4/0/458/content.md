@@ -560,6 +560,10 @@ A basic introduction to locale theory can be found in section 1 of
 
 * [[Ingo Blechschmidt]], *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
 
+A [[model category]] of [[locales]] which makes the [[reflective subcategory|reflection]] of [[sober topological spaces]] a [[Quillen adjunction]] to the sober-restriction of the [[classical model structure on topological spaces]]:
+
+* {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], Thm. 4.45 in: *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
+
 [[!redirects locale]]
 [[!redirects locales]]
 
