@@ -1783,6 +1783,13 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 
 * [[Fred Cohen]], [[Samuel Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, ([jstor:2693715](https://www.jstor.org/stable/2693715), [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013))
 
+### Graph configuration spaces
+
+On configuration spaces of points any two of which are required to be non-coincident only if connected by an [[edge]] in a labelin [[graph]]:
+
+* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]]&rbrack;
+
+
 ### Configurations in general position
  {#ReferencesCOnfigiurationsInGeneralPosition}
 
@@ -1915,7 +1922,8 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 [[!redirects configuration space (mathematics)]]
 [[!redirects configuration spaces (mathematics)]]
 
-
+[[!redirects graph-indexed configuration space of points]]
+[[!redirects graph-indexed configuration spaces of points]]
 
 
 
