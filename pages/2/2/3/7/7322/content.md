@@ -1,9 +1,11 @@
 
-Thorsten Altenkirch is an associate professor for [[computer science]] at University of Nottingham.
+Thorsten Altenkirch is a professor of [[computer science]] at the University of Nottingham.
 
 * [personal page](http://www.cs.nott.ac.uk/~txa/)
 
 * [institute page](https://www.nottingham.ac.uk/computerscience/People/thorsten.altenkirch)
+
+* [wikipedia](https://en.wikipedia.org/wiki/Thorsten_Altenkirch)
 
 ## Talks
 
@@ -53,11 +55,14 @@ On the prehistory of [[homotopy type theory]] and the [[univalence axiom]] in th
 
 * {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
 
+A fragment of [[higher observational type theory]]
+
+* [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval* ([arXiv:2307.06448](https://arxiv.org/abs/2307.06448))
 
 
 ## Related entries
 
-* [[type theory]], [[homotopy type theory]]
+* [[type theory]], [[homotopy type theory]], [[higher observational type theory]]
 
 * [[verified software]]
 
