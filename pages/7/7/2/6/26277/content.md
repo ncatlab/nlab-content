@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[reflective subcategory|reflective]] and [[coreflective subcategories]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On reflective and coreflective hulls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]] **56** (2015) 162–208 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/biref.pdf), [[BarrKennisonRaphael-Reflective.pdf:file]]&rbrack;
+
+
 On contractibility of [[simplicial objects]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Contractible simplicial objects*, Comm. Math. Univ. Carol. **60** 4 (2019) 473–495 &lbrack;[pdf](https://math.mcgill.ca/barr/papers/cso.pdf), [eudml:295068](https://eudml.org/doc/295068)&rbrack;
