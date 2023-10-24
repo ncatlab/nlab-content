@@ -77,8 +77,12 @@ $$
 * {#Gaucher07} [[Philippe Gaucher]], p. 7 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
 
-
 * {#Haraguchi13} [[Tadayuki Haraguchi]], _On model structure for coreflective subcategories of a model category_, Math. J. Okayama Univ. 57 (2015), 79–84 ([arXiv:1304.3622](http://arxiv.org/abs/1304.3622), [doi:10.18926/mjou/53040](http://doi.org/10.18926/mjou/53040), MR3289294, Zbl 1311.55027)
+
+See also:
+
+* {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], Thm. 4.9 in: *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
+
 
 
 [[!redirects model structure on Delta-generated spaces]]
