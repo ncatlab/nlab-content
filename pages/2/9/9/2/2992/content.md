@@ -348,10 +348,26 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 
 One could analytically define the concepts of [[limit of a function]] and [[continuous function]] with respect to the absolute-value topology, and prove that the limit of a function satisfy the [[algebraic limit theorem]]. Since the [[reciprocal function]] on the rational numbers is well defined for non-zero rational numbers $\mathbb{Q}_{\neq 0}$, given a continuous function $f:I \to \mathbb{Q}$ for open interval $I \subseteq \mathbb{Q}$ the [[difference quotient]] function exists and thus the [[derivative]] is well-defined for continuous functions. One could thus define [[smooth functions]] on the rational numbers, and because the rational numbers are a Hausdorff space, [[analytic functions]] on the rational numbers, despite the fact that the rational numbers are a totally disconnected space. 
 
-For example, a [[uniformly continuous function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a function on the positive rational numbers $\omega:\mathrm{Q}_+ \to \mathrm{Q}_+$ such that for all positive rational numbers $\epsilon:\mathrm{R}_+$ and for all rational numbers $a:\mathbb{Q}$ and $b:\mathbb{Q}$, ${|a - b|} \lt \omega(\epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+For example, 
 
-Similarly, a [[uniformly differentiable function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[derivative]] function $f':\mathbb{Q} \to \mathbb{Q}$ on the rational numbers function on the positive rational numbers $\omega:\mathrm{Q}_+ \to \mathrm{Q}_+$ such that for all positive rational numbers $\epsilon:\mathrm{R}_+$ and for all rational numbers $a:\mathbb{Q}$ and $b:\mathbb{Q}$, ${|f(a) - f(b)|} \lt \omega(\epsilon)$ implies that 
+* if it exists, the [[limit of a function]] $f:\mathbb{Q} \to \mathbb{Q}$ on the rational numbers approaching a rational number $a \in \mathbb{Q}$ is an rational number $L \in \mathbb{Q}$ with a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $b \in \mathbb{Q}$, $0 \lt {|b - a|} \lt M(\epsilon)$ implies ${|f(b) - L|} \lt \epsilon$
+
+* a [[pointwise continuous function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a function from the rational numbers to the set of endofunctions on the positive rational numbers $M:\mathbb{Q} \to \mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|a - b|} \lt M(a, \epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+
+* a [[uniformly continuous function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|a - b|} \lt M(\epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+
+* a [[pointwise differentiable function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[derivative]] function $f':\mathbb{Q} \to \mathbb{Q}$ on the rational numbers and a function from the rational numbers to the set of endofunctions on the positive rational numbers $M:\mathbb{Q} \to \mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathrm{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|f(a) - f(b)|} \lt M(a, \epsilon)$ implies that 
 $${|f(b) - f(a) - f'(a)(b - a))|} \lt \epsilon {|f(a) - f(b)|}$$
+
+* a [[uniformly differentiable function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[derivative]] function $f':\mathbb{Q} \to \mathbb{Q}$ on the rational numbers and a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathrm{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|f(a) - f(b)|} \lt M(\epsilon)$ implies that 
+$${|f(b) - f(a) - f'(a)(b - a))|} \lt \epsilon {|f(a) - f(b)|}$$
+
+* a [[smooth function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[sequence]] of functions $D^{(-)}f:\mathbb{N} \to (\mathbb{Q} \to \mathbb{Q})$ and a sequence of functions $M^{(-)}f:\mathbb{N} \to (\mathbb{Q}_+ \to \mathbb{Q}_+)$ in the positive rational numbers, such that 
+
+  * for every rational number $x \in \mathbb{Q}$, $(D^{0}f)(x) = f(x)$
+
+  * for every natural number $n \in \mathbb{N}$, for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every rational number $h \in \mathbb{Q}$ such that $0 \lt | h | \lt M^{n}f(\epsilon)$, and for every rational number $x \in \mathbb{Q}$, 
+$$\left|f(x + h) - \sum_{i=0}^n \frac{h^i (D^{i}f)(x)}{i!}\right| \lt \epsilon |h^n|$$
 
 ## Related concepts
 
