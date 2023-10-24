@@ -31,10 +31,10 @@ An introduction into the monograph above is the preprin
 * Ivan Cherednik, _Introduction to double Hecke algebras_, [math.QA/0404307](https://arxiv.org/abs/math/0404307)
 * I. Cherednik, Y. Markov, _Hankel transform via double Hecke algebra_, math.QA/0004116
 
-* M. Haiman, _Cherednik algebras, Macdonald polynomials and combinatorics_, Proc. ICM, Madrid 2006, Vol. III, 843-872, [djvu scan](http://www.mathunion.org/ICM/ICM2006.3/Main/icm2006.3.0843.0872.ocr.djvu), [author's pdf](http://math.berkeley.edu/~mhaiman/ftp/icm-2006/comb-mac-chered.pdf)
+* [[Mark Haiman]], _Cherednik algebras, Macdonald polynomials and combinatorics_, Proc. ICM, Madrid 2006, Vol. III, 843--872, [djvu scan](http://www.mathunion.org/ICM/ICM2006.3/Main/icm2006.3.0843.0872.ocr.djvu); author's [pdf](https://math.berkeley.edu/~mhaiman/ftp/icm-2006/comb-mac-chered.pdf)
 
-* Pavel Etingof, _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
-* Wee Liang Gan, [[Victor Ginzburg]], _Almost-commuting variety, $\mathcal{D}$-modules, and Cherednik algebras_, With an appendix by Ginzburg. IMRP Int. Math. Res. Pap. 2006, 26439, 1&#8211;54, [MR2008c:14062](https://www.ams.org/mathscinet-getitem?mr=2210660)
+* [[Pavel Etingof]], _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
+* Wee Liang Gan, [[Victor Ginzburg]], _Almost-commuting variety, $\mathcal{D}$-modules, and Cherednik algebras_, With an appendix by Ginzburg. IMRP Int. Math. Res. Pap. 2006, 26439, 1--54, [MR2008c:14062](https://www.ams.org/mathscinet-getitem?mr=2210660)
 
 A construction via [[factorization homology]] of [[quantum group]] [[representation categories]] is indicated in 
 
