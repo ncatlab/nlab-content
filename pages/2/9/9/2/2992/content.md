@@ -348,6 +348,11 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 
 One could analytically define the concepts of [[limit of a function]] and [[continuous function]] with respect to the absolute-value topology, and prove that the limit of a function satisfy the [[algebraic limit theorem]]. Since the [[reciprocal function]] on the rational numbers is well defined for non-zero rational numbers $\mathbb{Q}_{\neq 0}$, given a continuous function $f:I \to \mathbb{Q}$ for open interval $I \subseteq \mathbb{Q}$ the [[difference quotient]] function exists and thus the [[derivative]] is well-defined for continuous functions. One could thus define [[smooth functions]] on the rational numbers, and because the rational numbers are a Hausdorff space, [[analytic functions]] on the rational numbers, despite the fact that the rational numbers are a totally disconnected space. 
 
+For example, a [[uniformly continuous function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a function on the positive rational numbers $\omega:\mathrm{Q}_+ \to \mathrm{Q}_+$ such that for all positive rational numbers $\epsilon:\mathrm{R}_+$ and for all rational numbers $a:\mathbb{Q}$ and $b:\mathbb{Q}$, ${|a - b|} \lt \omega(\epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+
+Similarly, a [[uniformly differentiable function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[derivative]] function $f':\mathbb{Q} \to \mathbb{Q}$ on the rational numbers function on the positive rational numbers $\omega:\mathrm{Q}_+ \to \mathrm{Q}_+$ such that for all positive rational numbers $\epsilon:\mathrm{R}_+$ and for all rational numbers $a:\mathbb{Q}$ and $b:\mathbb{Q}$, ${|f(a) - f(b)|} \lt \omega(\epsilon)$ implies that 
+$${|f(b) - f(a) - f'(a)(b - a))|} \lt \epsilon {|f(a) - f(b)|}$$
+
 ## Related concepts
 
 * [[natural number]]
