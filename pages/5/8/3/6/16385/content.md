@@ -307,7 +307,7 @@ the analogous statement for  Hermitian complex inner products $\langle - \vert -
 
 are now complex *[[anti-linear map|anti-linear]]* and hence not [[morphisms]] in the [[category]] of [[complex vector spaces]].
 
-(What one does get is a complex-linear isomorphism to the [[anti-dual linear space]], eg. [Karoubi 2010, §1](#Karoubi10).)
+(What one does get is a complex-linear isomorphism to the [[anti-dual linear space]], eg. [Karoubi & Villamayor 1973, p. 58 (3 of 31)](#KaroubiVillamayor73); [Karoubi 2010, §1](#Karoubi10).)
 
 But one may absorb this anti-linearity into an ambient category so that Hermitian/unitary structure regarded *[[internalization|internally]]* to that category looks just like Euclidean/orthogonal structure. Since this uses basic structures known from Atiyah's *[[Real K-theory]]* --- with capital "R", [[KR-theory]] --- it is suggestive and convenient to refer to "Real" structures, as follows:
 
@@ -617,7 +617,9 @@ Hermitian forms as isomorphisms to the [[anti-dual linear space]]:
 
   > (in the context of [[Hermitian K-theory]])
 
-Hermitian forms in the generality over [[noncommutative ring|noncommutative]] [[ground rings]]:
+Hermitian forms in the generality over [[noncommutative ring|noncommutative]] [[ground rings]] (and discusssed in the context of [[Hermitian K-theory]]):
+
+* {#KaroubiVillamayor73} [[Max Karoubi]], [[Orlando Villamayor]], Ex. 1 in: *K-théorie algébrique et K-théorie topologique II*, Math. Scand. **32** (1973) 57-86 &lbrack;[jstor:24490565](https://www.jstor.org/stable/24490565)&rbrack;
 
 * [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. **67** (1970) 243-250 &lbrack;[doi:10.1017/S0305004100045515](https://doi.org/10.1017/S0305004100045515), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/wall9.pdf)&rbrack;
 
