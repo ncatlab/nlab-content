@@ -101,7 +101,7 @@ Since the type
 
 $$\sum_{f:A \to A} \prod_{x:A} f(x) =_A x$$
 
-is a proposition, it suffices to construct an element of the above type. Given a type $A$, by the weakening rules and the generic variable rule in dependent type theory, one gets the identity family of elements $x:A \vdash x:A$. Then by lambda abstraction, one gets a function $\lambda x:A.x:A \to A$, and by the typal computation rule for [[weak function types]] one gets the dependent function $\beta_{A \to A}^{x:A.x}:\prod_{x:A} (\lambda x:A.x)(x) =_A x$. Thus, one has the identity function
+is a proposition, it suffices to construct an element of the above type. Given a type $A$, by the weakening rules and the generic variable rule in dependent type theory, one gets the identity family of elements $x:A \vdash x:A$. Then by lambda abstraction, one gets a function $\lambda x:A.x:A \to A$, and by the typal computation rule for [[weak function types]] one gets the dependent function $\beta_{A \to A}^{x:A.x}:\prod_{x:A} (\lambda x:A.x)(x) =_A x$. For [[strict function types]], we have $\beta_{A \to A}^{x:A.x} \equiv \mathrm{refl}_A$. Thus, one has the identity function
 $$(\lambda x:A.x, \beta_{A \to A}^{x:A.x}):\sum_{f:A \to A} \prod_{x:A} f(x) =_A x$$ 
 
 Since the type 
