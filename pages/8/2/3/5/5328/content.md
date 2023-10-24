@@ -92,7 +92,7 @@ Because the [[simplex category]] is a [[sifted (infinity,1)-category]] (as discu
 
 ## Examples
 
-* A commutative monoid in [[∞Grpd]] is a [[E-∞ space]].
+* A commutative monoid in [[∞Grpd]] is an [[E-∞ space]].
 
 * A commutative monoid in the [[stable (infinity,1)-category of spectra]] is a [[commutative ring spectrum]] or [[E-infinity ring]].
 
