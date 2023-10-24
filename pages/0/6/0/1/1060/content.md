@@ -274,6 +274,12 @@ According to Tobias Fritz (on the [Category Theory Community Server](https://cat
 
 >  They apparently didn't know about $\ast$-autonomous categories (which were introduced a few years prior to that), and their statement has slightly weaker assumptions in that they start with a natural isomorphism $\mathscr{C}(A \otimes B, I) \cong \mathscr{C}(A, B^*)$ only, but they also require the induced morphisms $A^* \otimes B^* \to (A \otimes B)^*$ to be isomorphisms.
 
+See also:
+
+* [[Michael Barr]], *Topological $\ast$-autonomous categories*, Theory Appl. Categories, 16 (2006) 700–708 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/mack.pdf), [[Barr-TopologicalStarAutonomous.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Topological $\ast$-autonomous categories, revisited*, Tbilisi Math. J. **10** 3 (2017) 51–64 &lbrack;[arXiv:1609.04241](https://arxiv.org/abs/1609.04241)&rbrack;
+
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
