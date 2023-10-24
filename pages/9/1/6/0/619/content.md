@@ -448,6 +448,10 @@ Formalization in [[cubical Agda]]:
 
 * {#1Lab} [[1lab]], *[Reflective Subcategories](https://1lab.dev/Cat.Functor.Adjoint.Reflective.html)*
 
+See also:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On reflective and coreflective hulls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]] **56** (2015) 162–208 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/biref.pdf), [[BarrKennisonRaphael-Reflective.pdf:file]]&rbrack;
+
 
 
 [[!redirects reflector]]
