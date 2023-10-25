@@ -171,6 +171,8 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
 * [[strict 2-limit]]
 
+* [[marked 2-limit]]
+
 * [[(∞,1)-limit]]
 
   * [[homotopy limit]]
