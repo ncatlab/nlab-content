@@ -34,6 +34,6 @@ Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/
 
 * [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* &lbrack;[arXiv:2208.12824](https://arxiv.org/abs/2208.12824)&rbrack;
 
-
+* Wojciech J. Jankowski, Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]], *Disorder-induced topological quantum phase transitions in Euler semimetals* &lbrack;[arXiv:2306.13084](https://arxiv.org/abs/2306.13084)&rbrack;
 
 category: people
