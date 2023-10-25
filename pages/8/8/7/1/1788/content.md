@@ -1,77 +1,124 @@
 
 #Contents#
 * table of contents
-{:toc}
-
+{:to}
 
 ## Idea
 
-If the [[ground ring]] ([[ground field]]) is equipped with a [[star-ring|star structure]] (an [[anti-involution]], such as [[complex conjugation]] in the complex numbers), then the operation of forming [[dual linear spaces]] may be "twisted" by this involution to yield a notion of "anti-dual" spaces. These relate to [[Hermitian forms]] as ordinary dual spaces relate to ordinary [[inner products]].
- 
-## Definition
-
-Let $\mathbb{K}$ be a [[star-ring]], hence a [[unital ring]] (often a [[field]], whence our notation, and here often the [[complex numbers]]) equipped with an [[anti-involution]] (for instance [[complex conjugation]]):
-
+In the context of [[quadratic form|quadratic]]/[[Hermitian forms]] and in particular of [[Hermitian K-theory]], by the *hyperbolic functor* one refers to the construction which sends a [[module]] $\mathscr{V}$ over a given ([[star-algebra|star]]-)[[ground ring]] $R$ to its [[direct sum]] 
 $$
-  \overline{(-)} \,\colon\, \mathbb{K} \to \mathbb{K}
-$$
-$$
-  \overline{x \cdot y} 
-    \,=\, 
-  \overline{y} \cdot \overline{x}
-  \,.
-$$
-
-\begin{definition}
-For a $\mathbb{K}$-[[module]] $\mathscr{V} \,\in\, \mathbb{K}Mod$ (say *right* modules for possibly non-commutative $\mathbb{K}$, but being just $\mathbb{K}$-[[vector spaces]] if $\mathbb{K}$ is a [[field]]), its *anti-dual* space $\mathr{V}^\ast$ is the space of [[anti-linear maps]] to the [[ground ring]] ([[ground field]])
-
-$$
-  \mathscr{V}^\ast
+  \mathscr{V}
+  \;\mapsto\;
+  H(\mathscr{V})
   \;\coloneqq\;
-  \Big\{
-    \phi \,\colon\, 
-    \mathscr{V} \to \mathbb{K}   
-    \,\Big\vert\,
-    \underset{
-      { v \in \mathscr{V} }
-      \atop
-      { \lambda \in \mathbb{K} }
-    }{\forall}
-    \,
-    \phi(v \cdot \lambda) \,=\, \overline{\lambda} \cdot v
-  \Big\}
+  \mathscr{V}
+  \oplus
+  \mathscr{V}^\ast
 $$
-
-equipped with the structure of a (right) module by
+with its  ([[anti-dual linear space|anti]]-)[[linear dual]] and then equipped with the ([[sesquilinear form|sesqui]]- or) [[bilinear form]]
 
 $$
-  \phi \in \mathscr{V}^\ast
-  \,\lambda \in \mathbb{K}
-  \;\;\;
-    \vdash
-  \;\;\; 
-  (\phi \cdot \lambda)(c)
-    \;=\;
-  \phi(v) \cdot \lambda
+  \array{
+    H(\mathscr{V})
+    \otimes
+    H(\mathscr{V})
+    &\longrightarrow&
+    R
+  }
+$$
+which on the mixed summands is (the [[complex conjugation|conjugation]] of) the [[evaluation]] map
+$$
+  \mathscr{V} \otimes \mathscr{V}^\ast
+  \longrightarrow
+  R
+$$
+and vanishing on the homogeneous summands.
+
+This construction extends to [[functor]] from the [[core groupoid]] [[Mod|of $R$-modules]] to that of [[inner product spaces]] with [[isometries]] between them, by sending an [[isomorphism]] $\phi \colon \mathscr{V} \overset{\sim}{\to} \mathscr{W}$ to its [[direct sum]] with the [[dual linear map]] of its [[inverse morphism|inverse]]:
+
+$$
+  \phi \,\mapsto\, \phi \oplus (\phi^{-1})^\ast
   \,.
 $$
 
-\end{definition}
-(eg. [Karoubi 2010, §1](#Karoubi10))
+Regarded with suitable $\mathbb{Z}/2 \times \mathbb{Z}/2$-[[equivariant homotopy theory|equivariance]], the hyperbolic functor establishes an equivalence between [[KR-theory]] and [[topological Hermitian K-theory]].
 
-## Properties
+## Example
 
 \begin{example}
-  
+  In the simple special case that the [[ground ring]] is the [[real numbers]] $\mathbb{R}$ and $\mathscr{V}$ is also $\mathbb{R}$, regared as the 1-dimensional [[vector space]] over itself, and finally identifying $\mathbb{R}^\ast \simeq \mathbb{R}$, canonically, the hyperbolic construction on $\mathbb{R}$ is the [[plane]] $\mathbb{R}^2 = \mathbb{R} \oplus \mathbb{R}$ equipped with its standard [[Minkowski metric]]. 
+
+Here the subspaces of fixed non-vanishing [[norm]] are the usual [[hyperbolas]]. This gives the name "hyperbolic form" to all modules of the above form $\mathscr{V} \oplus \mathscr{V}^\ast$.
 \end{example}
 
 ## References
 
-* {#Karoubi10} [[Max Karoubi]], §1 in: *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
 
-See also:
+The term "hyperbolic functor" seems to originate with:
 
-* Wikipedia, *[Anti-dual space](https://en.wikipedia.org/wiki/Antilinear_map#Anti-dual_space)*
+* [[Hyman Bass]] (notes by Amit Roy), §5.2 in: *Lectures on Topics in Algebraic K-Theory*, Tata Institute of Fundamental Research (1965) &lbrack;[[Bass-HyperbolicFunctor.pdf:file]]&rbrack;
+
+See also
+
+* {#Wall69} [[C. T. C. Wall]] (ed. [[Andrew Ranicki]]), p. 177 of: *Surgery on compact Manifolds*, Math. Surveys and Monographs **69** (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/books/scm.pdf)&rbrack;
+
+Further discussion in the context of [[Hermitian K-theory]]:
+
+* [[Max Karoubi]], [[Orlando Villamayor]], p. 60 of *K-théorie algébrique et K-théorie topologique II*, Math. Scand. **32** (1973) 57-86 &lbrack;[jstor:24490565](https://www.jstor.org/stable/24490565)&rbrack;
+
+* [[Max Karoubi]], pp. 307 (7 of 111) in: *Périodicité de la K-théorie hermitienne*, in: [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) 301-411 &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
+
+See also
+
+* [[Anthony Bak]], §3 in: *Grothendieck Groups of Modules and Forms Over Commutative Orders*, American Journal of Mathematics, **99** 1 (1977) 107-120 &lbrack;[jstor:2374010](https://www.jstor.org/stable/2374010), [doi:10.2307/2374010](https://doi.org/10.2307/2374010)&rbrack;
+
+* [[Richard Elman]], [[Nikita Karpenko]], [[Alexander Merkurjev]], p. 4 of: *Algebraic and Geometric Theory of Quadratic Forms*, Colloquium Publication **56**, AMS (2008) &lbrack;[ams:coll-56](https://bookstore.ams.org/coll-56), [pdf](https://www.math.ucla.edu/~rse/old_book/Kniga.pdf)&rbrack;
+
+* [[Marco Schlichting]], p. 8 of: *Higher $K$-Theory of Forms I. From Rings to Exact Categories*, Journal of the Institute of Mathematics of Jussieu **20** 4 (2021) 1205-1273 &lbrack;[doi:10.1017/S1474748019000410](https://doi.org/10.1017/S1474748019000410)&rbrack;
+
+***
+
+
+\begin{tikzcd}[sep=20pt]
+  &
+  A \otimes A
+  \ar[
+    dr,
+    "{ \epsilon \otimes \mathrm{id} }"
+  ]
+  \\
+  A
+  \ar[
+    ur,
+    "{ \Delta }"
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &&
+  A
+\end{tikzcd}
+\begin{tikzcd}[sep=20pt]
+  &
+  A \otimes A
+  \ar[
+    dr,
+    "{ \mathrm{id} \otimes \epsilon }"
+  ]
+  \\
+  A
+  \ar[
+    ur,
+    "{ \Delta }"
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &&
+  A
+\end{tikzcd}
 
 
 #Commuting diagrams
