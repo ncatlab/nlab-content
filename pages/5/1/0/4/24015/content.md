@@ -74,6 +74,10 @@ See also:
 
 * Huahui Qiu et al., *Minimal non-abelian nodal braiding in ideal metamaterials*, Nature Communications **14** 1261 (2023) $[$[doi:10.1038/s41467-023-36952-9](https://doi.org/10.1038/s41467-023-36952-9)$]$
 
+* Wojciech J. Jankowski, Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]], *Disorder-induced topological quantum phase transitions in Euler semimetals* $[$[arXiv:2306.13084](https://arxiv.org/abs/2306.13084)$]$
+
+
+
 
 Incidentally, references indicating that the required toroidal (or yet higher genus) geometry for anyonic topological order in position space is dubious (as opposed to the evident toroidal geometry of the momentum-space [[Brillouin torus]]): [Lan 19, p. 1](Laughlin+state#Lan19), ....
 
