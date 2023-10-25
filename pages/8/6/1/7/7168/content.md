@@ -104,6 +104,9 @@ See also
 
 Textbook accounts:
 
+* [[Richard Elman]], [[Nikita Karpenko]], [[Alexander Merkurjev]], *Algebraic and Geometric Theory of Quadratic Forms*, Colloquium Publication **56**, AMS (2008) &lbrack;[ams:coll-56](https://bookstore.ams.org/coll-56), [pdf](https://www.math.ucla.edu/~rse/old_book/Kniga.pdf)&rbrack;
+
+
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §6 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
 
