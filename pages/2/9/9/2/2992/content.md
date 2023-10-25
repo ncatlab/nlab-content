@@ -34,9 +34,11 @@ Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv
 
 It can then be proven from the ring axioms and the properties of the integers that every rational number apart from zero and has a multiplicative inverse, making $\mathbb{Q}$ a field.
 
-### As an directed colimit in CRing
+### As an sequential colimit in CRing
 
-Let $(\mathbb{N},\leq)$ be the directed set of positive integers, and let $A:\mathbb{N}\to CRing$ be a family of [[commutative rings]] where $A_n$ is defined to be $\mathbb{Z}[1/n!]$, the [[localization of a commutative ring|localization]] of the [[integers]] $\mathbb{Z}$ [[localisation of a commutative ring away from an element|away from]] the [[factorial]] $n!$, and for $i, j:\mathbb{N}$, $i\leq j$, there is a commutative [[ring homomorphism]] from $f_{ij}:\mathbb{Z}[1/i!]\to\mathbb{Z}[1/j!]$, with $f_{ii}$ being the [[identity morphism|identity commutative ring homomorphism]] on $\mathbb{Z}[1/i!]$. Then the commutative ring of __rational numbers__ $\mathbb{Q}$ is the [[directed colimit]] $\underset{\to}\lim_i A_i$ of the system. 
+Let $\mathbb{Z}[1/n!]$ be the [[localization of a commutative ring|localization]] of the [[integers]] $\mathbb{Z}$ [[localisation of a commutative ring away from an element|away from]] the [[factorial]] $n!$, and for each $i \in \mathbb{N}$, there is a unique commutative [[ring homomorphism]] $h_{i}:\mathbb{Z}[1/i!]\to\mathbb{Z}[1/(i + 1)!]$ defined by the [[universal property]] of localisation of $\mathbb{Z}[1/i!]$ away from $i + 1$. Then the commutative ring of __rational numbers__ $\mathbb{Q}$ is the [[sequential colimit]] of the [[diagram]]
+
+$$\mathbb{Z}[1/0!] \overset{h_0}\to \mathbb{Z}[1/1!] \overset{h_1}\to \mathbb{Z}[1/2!] \overset{h_2}\to \ldots$$
 
 ### As an abelian group
 
@@ -350,24 +352,47 @@ One could analytically define the concepts of [[limit of a function]] and [[cont
 
 For example, 
 
-* if it exists, the [[limit of a function]] $f:\mathbb{Q} \to \mathbb{Q}$ on the rational numbers approaching a rational number $a \in \mathbb{Q}$ is an rational number $L \in \mathbb{Q}$ with a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $b \in \mathbb{Q}$, $0 \lt {|b - a|} \lt M(\epsilon)$ implies ${|f(b) - L|} \lt \epsilon$
+* A rational metric space is a type $X$ with a function $d_X:X \times X \to \mathbb{Q}_{\geq 0}$ such that 
 
-* a [[pointwise continuous function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a function from the rational numbers to the set of endofunctions on the positive rational numbers $M:\mathbb{Q} \to \mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|a - b|} \lt M(a, \epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+  * for all $x \in X$ and $y \in X$, $d_X(x, y) = d_X(y, x)$
+  * for all $x \in X$, $y \in X$, and $z \in X$, $d_X(x, z) \leq d_X(x, y) + d_X(y, z)$
+  * for all $x \in X$, $x = y \iff d_X(x, y) = 0$
 
-* a [[uniformly continuous function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|a - b|} \lt M(\epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+One could show that any [[open interval]], [[half-open interval]], and [[closed interval]] in the rational numbers is a rational metric space, with its metric inherited from the Euclidean metric on the rational numbers $d_\mathbb{Q}(x, y) = {|a - b|}$. Thus one could do analysis with [[partial functions]] in the [[rational numbers]], such as the [[reciprocal function]] $x \mapsto \frac{1}{x}$ and the [[rational functions]] on the rational numbers. 
 
-* a [[pointwise differentiable function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[derivative]] function $f':\mathbb{Q} \to \mathbb{Q}$ on the rational numbers and a function from the rational numbers to the set of endofunctions on the positive rational numbers $M:\mathbb{Q} \to \mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathrm{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|f(a) - f(b)|} \lt M(a, \epsilon)$ implies that 
-$${|f(b) - f(a) - f'(a)(b - a))|} \lt \epsilon {|f(a) - f(b)|}$$
+Then, given a rational metric space $(X, d_X)$:
 
-* a [[uniformly differentiable function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[derivative]] function $f':\mathbb{Q} \to \mathbb{Q}$ on the rational numbers and a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathrm{Q}_+$ and for all rational numbers $a \in \mathbb{Q}$ and $b \in \mathbb{Q}$, ${|f(a) - f(b)|} \lt M(\epsilon)$ implies that 
-$${|f(b) - f(a) - f'(a)(b - a))|} \lt \epsilon {|f(a) - f(b)|}$$
+* if it exists, the [[limit of a function]] $f:X \to \mathbb{Q}$ from $X$ to the rational numbers approaching an element $a \in X$ is an rational number $L \in \mathbb{Q}$ with a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all elements $b \in X$, $0 \lt d_X(a, b) \lt M(\epsilon)$ implies ${|f(b) - L|} \lt \epsilon$
 
-* a [[smooth function]] on the rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[sequence]] of functions $D^{(-)}f:\mathbb{N} \to (\mathbb{Q} \to \mathbb{Q})$ and a sequence of functions $M^{(-)}f:\mathbb{N} \to (\mathbb{Q}_+ \to \mathbb{Q}_+)$ in the positive rational numbers, such that 
+* a [[pointwise continuous function]] from $X$ to the rational numbers is a function $f:X \to \mathbb{Q}$ with a function from $X$ to the set of endofunctions on the positive rational numbers $M:X \to \mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all rational numbers $a \in X$ and $b \in X$, $\delta_X(a, b) \lt M(a, \epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
 
-  * for every rational number $x \in \mathbb{Q}$, $(D^{0}f)(x) = f(x)$
+* a [[uniformly continuous function]] from $X$ to the rational numbers is a function $f:X \to \mathbb{Q}$ with a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathbb{Q}_+$ and for all elements numbers $a \in X$ and $b \in X$, $\delta_X(a, b) \lt M(\epsilon)$ implies that ${|f(a) - f(b)|} \lt \epsilon$. 
+
+Now, given an [[injection]] $i:X \hookrightarrow \mathbb{Q}$, so that $X$ is a [[subset]] of the rational numbers,
+
+* a [[pointwise differentiable function]] from $X$ to the rational numbers is a function $f:X \to \mathbb{Q}$ with a [[derivative]] function $f':X \to \mathbb{Q}$ on the rational numbers and a function from $X$ to the set of endofunctions on the positive rational numbers $M:X \to \mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathrm{Q}_+$ and for all elements $a \in X$ and $b \in X$, ${|f(a) - f(b)|} \lt M(a, \epsilon)$ implies that 
+$${|f(b) - f(a) - f'(a)(i(b) - i(a)))|} \lt \epsilon {|f(a) - f(b)|}$$
+
+* a [[uniformly differentiable function]] from $X$ to the rational numbers is a function $f:X \to \mathbb{Q}$ with a [[derivative]] function $f':X \to \mathbb{Q}$ on the rational numbers and a function on the positive rational numbers $M:\mathbb{Q}_+ \to \mathbb{Q}_+$ such that for all positive rational numbers $\epsilon \in \mathrm{Q}_+$ and for all elements $a \in X$ and $b \in X$, ${|f(a) - f(b)|} \lt M(\epsilon)$ implies that 
+$${|f(b) - f(a) - f'(a)(i(b) - i(a)))|} \lt \epsilon {|f(a) - f(b)|}$$
+
+* a [[smooth function]] in rational numbers is a function $f:\mathbb{Q} \to \mathbb{Q}$ with a [[sequence]] of functions $D^{(-)}f:\mathbb{N} \to (\mathbb{Q} \to \mathbb{Q})$ and a sequence of functions $M^{(-)}f:\mathbb{N} \to (\mathbb{Q}_+ \to \mathbb{Q}_+)$ in the positive rational numbers, such that 
+
+  * for every element $x \in X$, $(D^{0}f)(x) = f(x)$
 
   * for every natural number $n \in \mathbb{N}$, for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every rational number $h \in \mathbb{Q}$ such that $0 \lt | h | \lt M^{n}f(\epsilon)$, and for every rational number $x \in \mathbb{Q}$, 
 $$\left|f(x + h) - \sum_{i=0}^n \frac{h^i (D^{i}f)(x)}{i!}\right| \lt \epsilon |h^n|$$
+
+Alternatively, we could use [[infinitesimals]]. Let $\mathbb{Q}[\epsilon]/(\epsilon^2 = 0)$ be the dual rational numbers, and let $\mathbb{Q}[[\epsilon]]$ be the commutative ring of [[formal power series]] on the rational numbers. The former is equivalent to the product $\mathbb{Q} \times \mathbb{Q}$ and the latter is equivalent to the [[function set]] $\mathbb{Q}^\mathbb{N}$. 
+
+Both of these are commutative [[rational algebras]] with ring homomorphism $h:\mathbb{Q} \to \mathbb{Q}[\epsilon]/(\epsilon^2 = 0)$ and $k:\mathbb{Q} \to \mathbb{Q}[[\epsilon]]$. 
+
+* A function $f:X \to \mathbb{Q}$ is **differentiable** if it has a function $\mathrm{lift}_f:\mathbb{Q}[\epsilon]/(\epsilon^2 = 0) \to \mathbb{Q}[\epsilon]/(\epsilon^2 = 0)$ such that $\mathrm{lift}_f(h(i(a))) = h(i(a))$ and a function $f':X \to \mathbb{Q}$ such that for all elements $a \in X$,
+
+$$\mathrm{lift}_f(h(i(a)) + \epsilon) = h(i(a)) + h(f'(a)) \epsilon$$ 
+
+* A function $f:X \to \mathbb{Q}$ is **smooth** if it has a function $\mathrm{lift}_f:\mathbb{Q}[[\epsilon]] \to \mathbb{Q}[[\epsilon]]$ such that $\mathrm{lift}_f(h(i(a))) = h(i(a))$ and a sequence of functions $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times X \to \mathbb{Q}$ with $\frac{d^0 f}{d x^0}\left(a\right) = a$ for all $a \in X$, such that for all natural numbers $n \in \mathbb{N}$
+$$\mathrm{lift}_f(h(j(a)) + \epsilon) = \sum_{i = 0}^{\infty} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}\left(a\right)\right) \epsilon^i$$ 
 
 ## Related concepts
 
