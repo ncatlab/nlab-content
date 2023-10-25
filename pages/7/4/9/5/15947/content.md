@@ -54,6 +54,8 @@ For more see:
 
 Further developments:
 
+* [[Damjan Kobal]], *K-Theory, Hermitian K-Theory and the Karoubi Tower*, K-Theory **17** 113–140 (1999) &lbrack;[doi:10.1023/A:1007799508729](https://sci-hub.ru/10.1023/A:1007799508729)&rbrack;
+
 * [[Max Karoubi]], *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
 
 * [[Max Karoubi]], [[Mariusz Wodzicki]], *Algebraic and Hermitian K-theory of $\mathcal{K}$-rings*, The Quarterly Journal of Mathematics **64** 3 (2013) 903–940 &lbrack;[arXiv:1310.4123](https://arxiv.org/abs/1310.4123), [doi:10.1093/qmath/hat030](https://doi.org/10.1093/qmath/hat030)&rbrack;
