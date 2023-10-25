@@ -212,6 +212,6 @@ and with application to [[conformal blocks]]:
 
 [[!redirects Bohr-Sommerfeld condition]]
 [[!redirects Bohr--Sommerfeld condition]]
-
+[[!redirects Bohr-Sommerfeld quantization condition]]
 [[!redirects Bohr–Sommerfeld condition]]
 [[!redirects Bohr–Sommerfeld conditions]]
