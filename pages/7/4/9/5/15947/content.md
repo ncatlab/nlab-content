@@ -17,7 +17,7 @@
 
 Where [[algebraic K-theory]] concerns (in degree zero) the [[Grothendieck groups]] of ([[finitely generated module|finitely generated]] [[projective module|projective]]) [[modules]]/[[vector spaces]], Hermitian K-theory is concerned with Grothendieck groups of modules equipped with [[Hermitian form|Hermitian]] [[quadratic forms]].
 
-Since the resulting groups were originally denoted (in [Wall 1969](#Wall69)) by the letter "L" (just the next letter in the alphabet after "K" for "class"), this is also known as "[[L-theory]]".
+Since the resulting groups were originally denoted (in [Wall 1969](#Wall69)) by the letter "L" (just the next letter in the alphabet after "K" for "class"), this is also known as "[[L-theory]]" (cf. [Karoubi 1973, p. 306](#Karoubi73)).
 
 
 ## Related concepts
@@ -61,7 +61,7 @@ More early references at:
 
 The case of [[topological K-theory|topological]] Hermitian K-theory:
 
-* [[Max Karoubi]], *Périodicité de la K-théorie hermitienne*, in: [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) 301-411 &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
+* {#Karoubi73} [[Max Karoubi]], §III in: *Périodicité de la K-théorie hermitienne*, in: [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) 301-411 &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
 
 and its relation to [[KR-theory]] via the [[hyperbolic functor]]:
 
