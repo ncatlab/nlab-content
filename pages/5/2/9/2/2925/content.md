@@ -123,6 +123,16 @@ If [[excluded middle]] is true, then the classical IVT follows from the above th
 By way of contradiction (applying the [[double negation]] law of [[classical logic]]), suppose that ${|f(c)|} \gt 0$ for every $c$ in $[0,1]$.  Then the extra hypothesis of Theorem \ref{hypothesis} is certainly satisfied, so there exists some $c$ such that $f(c) = 0$ after all.  (Constructively, this is enough to show that the classical theorem has no counterexample.)
 =--
 
+There is also another constructively valid version of the IVT, where the conclusion is classically the contrapositive of the classical IVT, but which is weaker constructively since the reverse contrapositive rule does not hold constructively:
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $f\colon [a,b] \to \mathbb{R}$ be a [[continuous function]] from a [[compact space|compact]] [[closed interval]] to the [[real line]], and suppose that $f(x) \lt 0$ or $f(x) \gt 0$ for all $x \in [a,b]$. Then $f$ is either everywhere positive or everywhere negative.
+=--
+
+This appeared in [Bauer 2016](#Bauer16). 
+
 ### Constructive IVT with strengthened hypothesis
 
 +-- {: .num_theorem #hypothesis}
@@ -148,14 +158,23 @@ This proof originally appeared in [Booij 2018](#Booij18)
 Assuming [[weak countable choice]], for real numbers $a$ and $b$, let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]] that is a [[locally nonzero function]], and suppose that $f(a) \leq 0$ and $f(b) \geq 0$. Then, there exists a point $c$ in $[a, b]$ with a locator such that $f(c) = 0$. 
 =--
 
-
-
 +-- {: .num_theorem #hypothesis}
 ###### Theorem
 (constructive IVT with strengthened hypothesis, assuming [[weak countable choice]] and that the function is [[uniformly continuous]])
 
 Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$.  (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
+
++-- {: .num_theorem #hypothesis}
+###### Theorem
+(constructive IVT with strengthened hypothesis, assuming that the function is [[strictly monotonic]] with $0$ strictly between $f(0)$ and $f(1)$)
+
+Let $f\colon [0,1] \to \mathbb{R}$ be a [[strictly monotonic]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$. Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
+=--
+
+\begin{proof}
+We construct [[Dedekind cuts]] $L = \{y \in [0,1] \vert f(y) \lt 0\}$ and $U = \{z \in [0,1] \vert f(z) \gt 0\}$ and by the Dedekind completeness of the real numbers, there is a unique $x \in [0, 1]$ such that $y \lt x \lt z$. 
+\end{proof}
 
 ## See also
 
@@ -173,7 +192,9 @@ and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7)
 
 * [[Paul Taylor]]; The intermediate value theorem; A lambda calculus for real analysis, 14; [web](http://www.paultaylor.eu/ASD/lamcra/asdivt).
 
-* {#Booij18} Auke Booij, *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+* {#Booij18} [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+
+* {#Bauer16} [[Andrej Bauer]], *Five Stages of Accepting Constructive Mathematics*, Bulletin of the American Mathematical Society, Volume 54, Number 3, July 2017, Pages 481–498. ([doi:10.1090/bull/1556](http://dx.doi.org/10.1090/bull/1556), [pdf](https://www.ams.org/journals/bull/2017-54-03/S0273-0979-2016-01556-4/S0273-0979-2016-01556-4.pdf))
 
 On the intermediate value theorem in [[cohesive homotopy type theory]], see:
 
