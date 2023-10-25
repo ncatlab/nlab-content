@@ -80,14 +80,13 @@ An alternative proof based on a similar pattern of reasoning, but more explicitl
 
 ## References 
 
-* Bernhard Banaschewski, _Algebraic closure without choice_, Mathematical Logic Quarterly, Vol. 38 Issue 1 (1992), 383&#8211;385. (doi: 10.1002/malq.19920380136, [paywall](http://onlinelibrary.wiley.com/doi/10.1002/malq.19920380136/pdf)) 
- {#Ban} 
+* {#Ban}  Bernhard Banaschewski, _Algebraic closure without choice_, Mathematical Logic Quarterly, Vol. 38 Issue 1 (1992), 383&#8211;385. (doi: 10.1002/malq.19920380136, [paywall](http://onlinelibrary.wiley.com/doi/10.1002/malq.19920380136/pdf)) 
+ 
+* {#Con} [[Keith Conrad]], *Isomorphisms of Splitting Fields*, Galois theory notes &lbrack;[[Conrad-IsoSplittingFields.pdf:file]]&rbrack;
+ 
+* {#AC} [Andres Caicedo](http://mathoverflow.net/users/6085/andres-caicedo) _Is the statement that every field has an algebraic closure known to be equivalent to the ultrafilter lemma?_, URL (version: 2010-11-19): [http://mathoverflow.net/q/46568](http://mathoverflow.net/q/46568) 
+   
+* {#JDH} [[Joel David Hamkins]], _Is the statement that every field has an algebraic closure known to be equivalent to the ultrafilter lemma?_, URL (version: 2010-11-20): [http://mathoverflow.net/q/46729](http://mathoverflow.net/q/46729) 
+  
+[[!redirects splitting fields]]
 
-* Keith Conrad, _Isomorphisms of Splitting Fields_, Galois theory notes ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/splittingisom.pdf)). 
- {#Con}
-
-* Andres Caicedo (http://mathoverflow.net/users/6085/andres-caicedo), _Is the statement that every field has an algebraic closure known to be equivalent to the ultrafilter lemma?_, URL (version: 2010-11-19): [http://mathoverflow.net/q/46568](http://mathoverflow.net/q/46568) 
- {#AC} 
-
-* Joel David Hamkins (http://mathoverflow.net/users/1946/joel-david-hamkins), _Is the statement that every field has an algebraic closure known to be equivalent to the ultrafilter lemma?_, URL (version: 2010-11-20): [http://mathoverflow.net/q/46729](http://mathoverflow.net/q/46729) 
- {#JDH} 
