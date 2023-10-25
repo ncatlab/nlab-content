@@ -771,6 +771,18 @@ $$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{funext}^{-1}(\lambda (x:A).\be
 
 In [[logic]], functions types express [[implication]]. More precisely, for $\phi, \psi$ two [[propositions]], under [[propositions as types]] the [[implication]] $\phi \Rightarrow \psi$ is the function type $\phi \to \psi$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
 
+### Graph of a function
+
+Given a type $A$ and $B$, there is a function 
+
+$$\mathrm{graph}:\left(A \to B\right) \to \left(A \to A \times B\right)$$
+
+which takes a function $f:A \times B$ and returns the **[[graph of a function]]** 
+$$\mathrm{graph}(f):A \to (A \times B)$$ 
+defined by $\mathrm{graph}(f)(x) \equiv (x, f(x))$ for all $x:A$. As a [[dependent anafunction]] the graph of the function is represented by the [[identity type]] family
+
+$$x:A, y:B(x) \vdash f(x) =_{B} y$$
+
 ## Related concepts
 
 * [[function application]]
