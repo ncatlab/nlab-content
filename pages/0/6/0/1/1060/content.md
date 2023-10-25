@@ -219,13 +219,16 @@ $ d_A: A \to (A \multimap \bot) \multimap \bot $ is an isomorphism to the one th
 
 ## References ##
 
-The notion is originally due to
+The notion is originally due to:
 
-* [[Michael Barr]], _$*$-Autonomous Categories_. LNM 752, Springer-Verlag 1979.
+* [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
 
-See also
+See also:
 
 * [[Michael Barr]], _Topological $\ast$-autonomous categories, revisited_, rewrite of TAC, 16 (2006), 700-708 ([arXiv:1609.04241](http://arxiv.org/abs/1609.04241))
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On $\ast$-autonomous categories of topological modules*, Theory Appl. Categories, **24** 14 (2010) 278–293 &lbrack;[tac:24-14](http://www.tac.mta.ca/tac/volumes/24/14/24-14abs.html)&rbrack;
+
 
 The relation to [[linear logic]] was first described in 
 
