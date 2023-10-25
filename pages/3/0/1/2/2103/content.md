@@ -57,6 +57,10 @@ On the [[Chu construction]]:
 
 * [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
 
+On [[coherent spaces]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Countable meets in coherent spaces with applications to the cyclic spectrum*, Theory Appl. Categories **25** 19 (2011), 508–232 &lbrack;[tac:25-19](http://www.tac.mta.ca/tac/volumes/25/19/25-19abs.html)&rbrack;
+
 On [[star-autonomous categories]] of [[suplattice|sup]]-[[semilattices]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *The $\ast$-autonomous category of uniform sup semi-lattices*,  Theory Appl. Categories **27** (2012) 222–241 &lbrack;[tac:27-11](http://www.tac.mta.ca/tac/volumes/27/11/27-11abs.html)&rbrack;
