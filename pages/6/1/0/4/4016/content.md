@@ -57,6 +57,7 @@ This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
  
 * [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_ , Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e))
 
+* [[David P. Blecher]], [[Nik Weaver]], *Quantum measurable cardinals* ([arXiv:1607.08505](https://arxiv.org/abs/1607.08505))
 
 [[!redirects measurable cardinal]]
 [[!redirects measurable cardinals]]
