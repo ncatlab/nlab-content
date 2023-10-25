@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On discrete [[dynamical systems]] (here called "flows") on [[compact Hausdorff spaces]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Flows: cocyclic and almost cocyclic*, Theory Appl. Categories **25** 18 (2010) 490–507 &lbrack;[tac:25-18](http://www.tac.mta.ca/tac/volumes/25/18/25-18abs.html)&rbrack;
+
+
 On [[coherent spaces]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Countable meets in coherent spaces with applications to the cyclic spectrum*, Theory Appl. Categories **25** 19 (2011), 508–232 &lbrack;[tac:25-19](http://www.tac.mta.ca/tac/volumes/25/19/25-19abs.html)&rbrack;
