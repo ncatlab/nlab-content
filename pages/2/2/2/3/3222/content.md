@@ -33,7 +33,13 @@ On [[topological K-theory]]:
 
 On [[cyclic homology]], [[topological K-theory]] and [[differential K-theory]]:
 
-* [[Max Karoubi]], *Homologie cyclique et K-théorie*, Astérisque, no. 149 (1987) ([numdam:AST_1987__149__1_0](http://www.numdam.org/item/AST_1987__149__1_0))
+* [[Max Karoubi]], *Homologie cyclique et K-théorie*, Astérisque, no. 149 (1987) &lbrack;[numdam:AST_1987__149__1_0](http://www.numdam.org/item/AST_1987__149__1_0)&rbrack;
+
+
+On [[algebraic topology]] and [[differential geometry]]:
+
+* _Algebraic Topology via Differential Geometry_ (with Christian Leruste). Cambridge Univ. Press (1987), based on _M&#233;thodes de g&#233;om&#233;trie diff&#233;rentielle en topologie alg&#233;brique_ (1982, Paris 7)
+
 
 On a form of [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[topological K-theory]]:
 
@@ -53,11 +59,13 @@ On [[KR-theory]] of [[algebraic varieties]]:
 
 On [[Bott periodicity]]:
 
-* {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) _[[Handbook of K-Theory]]_, Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
+* {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  in: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) *[[Handbook of K-Theory]]*, Springer (2005) &lbrack;[doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4)&rbrack;
 
-On [[algebraic topology]] and [[differential geometry]]:
+On [[twisted K-theory]], [[Hermitian K-theory]] and [[KR-theory]]:
 
-* _Algebraic Topology via Differential Geometry_ (with Christian Leruste). Cambridge Univ. Press (1987), based on _M&#233;thodes de g&#233;om&#233;trie diff&#233;rentielle en topologie alg&#233;brique_ (1982, Paris 7)
+* [[Max Karoubi]], [[Marco Schlichting]], [[Charles Weibel]], *The Witt group of real algebraic varieties*, Journal of Topology **9** 4 (2016) 1257-1302 &lbrack;[arXiv:1506.03862](https://arxiv.org/abs/1506.03862), [doi:10.1112/jtopol/jtw024]( https://doi.org/10.1112/jtopol/jtw024)&rbrack;
+
+* [[Max Karoubi]], [[Charles Weibel]], *Twisted $K$-theory, Real $A$-bundles and Grothendieck–Witt groups*, Journal of Pure and Applied Algebra **221** 7 (2017) 1629-1640 &lbrack;[doi:10.1016/j.jpaa.2016.12.020](https://doi.org/10.1016/j.jpaa.2016.12.020)&rbrack;
 
 
 ## Related entries
