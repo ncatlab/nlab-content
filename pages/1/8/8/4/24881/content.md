@@ -24,28 +24,49 @@ An object in a [[monoidal category]] which is equipped with a [[comultiplication
 
 Given a [[monoidal category]] $(\mathcal{C}, \otimes)$ and an [[object]] $A$ in $\mathcal{C}$ equipped with a morphism ("[[co-multiplication]]") $\Delta \colon A \longrightarrow A \otimes A$, and a morphism $\epsilon \colon A \longrightarrow 1$, $\epsilon$ is called a *counit* if the following [[commuting diagram|diagrams commute]]
 
-$$
-  \array{
-    A &\overset{\Delta}{\longrightarrow}& A \otimes A
-    \\
-    &
-    {}_{\mathllap{id}}\searrow
-    & \downarrow^{\mathrlap{\epsilon \otimes id}}
-    \\
-    && A
-  }
-$$
 
-$$
-  \array{
-    A &\overset{\Delta}{\longrightarrow}& A \otimes A
-    \\
-    &   {}_{\mathllap{id}}\searrow
-    & \downarrow^{\mathrlap{id \otimes \epsilon}}
-    \\
-    && A
-  }
-$$
+\begin{tikzcd}[sep=20pt]
+  &
+  A \otimes A
+  \ar[
+    dr,
+    "{ \epsilon \otimes \mathrm{id} }"
+  ]
+  \\
+  A
+  \ar[
+    ur,
+    "{ \Delta }"
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &&
+  A
+  \mathrlap{\,,}
+\end{tikzcd}
+\begin{tikzcd}[sep=20pt]
+  &
+  A \otimes A
+  \ar[
+    dr,
+    "{ \mathrm{id} \otimes \epsilon }"
+  ]
+  \\
+  A
+  \ar[
+    ur,
+    "{ \Delta }"
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &&
+  A
+  \mathrlap{\,.}
+\end{tikzcd}
 
 
 ## Related concepts
