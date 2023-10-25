@@ -165,6 +165,7 @@ See _[[Riesz representation theorem]]_ for more examples from [[functional analy
 
 * [[bra-ket]]
 
+* [[hyperbolic functor]]
 
 ## References
 
