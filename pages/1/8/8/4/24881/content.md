@@ -28,10 +28,11 @@ $$
   \array{
     A &\overset{\Delta}{\longrightarrow}& A \otimes A
     \\
-    \downarrow && \downarrow^{\mathrlap{\epsilon \otimes id}}
+    &
+    {}_{\mathllap{id}}\searrow
+    & \downarrow^{\mathrlap{\epsilon \otimes id}}
     \\
-    A
-    &\underset{id}{\longrightarrow}& A
+    && A
   }
   \,.
 $$
@@ -40,10 +41,10 @@ $$
   \array{
     A &\overset{\Delta}{\longrightarrow}& A \otimes A
     \\
-    \downarrow && \downarrow^{\mathrlap{id \otimes \epsilon}}
+    &   {}_{\mathllap{id}}\searrow
+    & \downarrow^{\mathrlap{id \otimes \epsilon}}
     \\
-    A
-    &\underset{id}{\longrightarrow}& A
+    && A
   }
   \,.
 $$
