@@ -32,17 +32,17 @@ The following is an argument for a good definition of spectral supergeometry. Th
 
 Observe that 
 
-1. {#EInfinityGeometryAlreadyZGraded} [[E-∞ geometry]] is _already in itself_ a [[higher geometry|higher geometric]] version of $\mathbb{Z}$-graded supergeometry (in the sense discussed at _[[geometry of physics -- superalgebra]]_). 
+1. {#EInfinityGeometryAlreadyZGraded} [[E-∞ geometry|$E_\infty$-geometry]] is _already in itself_ a [[higher geometry|higher geometric]] version of $\mathbb{Z}$-graded supergeometry (in the sense discussed at _[[geometry of physics -- superalgebra]]_). 
 
    $\,$
 
    At the level of [[homotopy groups]] this is the following basic fact:
 
-   For $E$ a [[homotopy commutative ring spectrum]], its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded [[super-commutative ring]]  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
+   For $E$ a [[homotopy commutative ring spectrum]], its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded [[super-commutative ring]]  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum) in the section *[1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra)* of *[[Introduction to Stable homotopy theory]]*.
 
    $\,$
 
-   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S} \,\simeq\, \Sigma^\infty S^0$, and every [[E-infinity ring]] $(E, \cdot)$ is canonically $\mathbb{S}$-graded, in that  ([Sagave-Schlichtkrull 11, theorem 1.7-1.8](#SagaveSchlichtkrull11)):
+   But more is true: the $E_\infty$-analog of the [[integers]], $\mathbb{Z}$, is the [[sphere spectrum]], $\mathbb{S} \,\simeq\, \Sigma^\infty S^0$, and every [[E-infinity ring|$E_\infty$-ring]] $(E, \cdot)$ is canonically $\mathbb{S}$-graded, in that  ([Sagave-Schlichtkrull 2011, theorem 1.7-1.8](#SagaveSchlichtkrull11)):
 
    on [underlying](Introduction+to+Stable+homotopy+theory+--+1-1#SigmaInfinityOmegaInfinity) [[E-infinity spaces|$E_\infty$-spaces]] $E_0 \,\coloneqq\, \Omega^\infty(E)$, at least, realized as $\Omega^{\mathcal{J}}(E)$ in [SaSc11 (4.4)](#SagaveSchlichtkrull11), they are canonically equipped with an [[commutative monoid in a symmetric monoidal (infinity,1)-category|$E_\infty$-monoid]] [[homomorphism]] 
 
@@ -58,11 +58,11 @@ Observe that
 
    $\,$
 
-   So [[E-∞ geometry]] in itself is already a [[categorification|categorified]]/homotopified version of [[supergeometry]], but of $\mathbb{Z}$-graded supergeometry, not of the proper $\mathbb{Z}/2$-graded supergeometry.
+   So [[E-∞ geometry|$E_\infty$-geometry]] in itself is already a [[categorification|categorified]]/homotopified version of [[supergeometry]], but of $\mathbb{Z}$-graded supergeometry, not of the proper $\mathbb{Z}/2$-graded supergeometry.
 
    $\,$
 
-   (That grading over the [[sphere spectrum]] is closely related to [[superalgebra]] had been highlighted in [Kapranov 13](#Kapranov13), but the issue of the difference between homotopified $\mathbb{Z}$-grading compared to homotopified $\mathbb{Z}/2$-grading had been left open.)
+   (That grading over the [[sphere spectrum]] is closely related to [[superalgebra]] had been highlighted in [Kapranov 2013](#Kapranov13), but the issue of the difference between homotopified $\mathbb{Z}$-grading compared to homotopified $\mathbb{Z}/2$-grading had been left open.)
 
    $\,$
 
@@ -80,7 +80,7 @@ Observe that
 
 Hence it makes sense to say:
 
-**Definition.** _Spectral/$E_\infty$ super-geometry_ is simply the [[E-∞ geometry]] over [[even cohomology theory|even]] [[periodic ring spectra]].
+**Definition.** _Spectral/$E_\infty$ super-geometry_ is simply the [[E-∞ geometry|$E_\infty$-geometry]] over [[even cohomology theory|even]] [[periodic ring spectra]].
 
 ## Examples
 
