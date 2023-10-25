@@ -5,6 +5,7 @@ A toy [[model (in theoretical physics)|model]] for [[quantum chromodynamics]].
 
 ## References
 
+
 See also
 
 * Wikipedia, _[Gross-Neveu model](https://en.m.wikipedia.org/wiki/Gross%E2%80%93Neveu_model)_
@@ -12,5 +13,9 @@ See also
 Via [[intersecting D-brane models]]/[[AdS/QCD]]:
 
 * E. Antonyan, [[Jeffrey Harvey]], [[David Kutasov]], _The Gross-Neveu Model from String Theory_, Nucl. Phys. B776:93-117, 2007 ([arxiv:hep-th/0608149](https://arxiv.org/abs/hep-th/0608149))
+
+Relation to [[coadjoint orbits]]:
+
+* Dmitri Bykov, *Sigma models as Gross-Neveu models. II* &lbrack;[arXiv:2310.15394](https://arxiv.org/abs/2310.15394)&rbrack;
 
 
