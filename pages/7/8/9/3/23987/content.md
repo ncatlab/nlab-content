@@ -1858,8 +1858,19 @@ Stone-von Neumann**
   
   > In their 1967 book "[[Calculus of Fractions and Homotopy Theory]]", [[Pierre Gabriel|P. Gabriel]] and [[Michel Zisman|M. Zisman]] introduced *[[calculus of fractions]]* as a tool for understanding the [[localization of a category]] at a class of [[weak equivalences]]. While powerful, the condition of calculus of fractions is quite restrictive and it is rarely satisfied in various [[homotopy theory|homotopical]] settings, like [[model categories]] or [[Kenneth Brown|Brown]]'s [[categories of fibrant objects]], where one instead has homotopy calculus of fractions. This talk is based on a recent preprint [arXiv:2306.02218](https://arxiv.org/abs/2306.02218), which aims to reconcile the two. We define [[calculus of fractions]] for [[quasicategories]] and give a workable model for [[marked simplicial set|marked]] quasicategories satisfying our condition. Although we have already found several applications of this result, we would be very interested in getting feedback from the audience and exploring new applications from diverse areas.
 
+\linebreak
 
+* {#CarranzaOct2023} 25 Oct 2023
 
+  [[Daniel Carranza]] (Western University, Canada):
+
+  **Calculus of Fractions for Quasicategories (Part II)**
+
+  cf.: [arXiv:2306.02218](https://arxiv.org/abs/2306.02218)
+
+  > In their 1967 book "[[Calculus of Fractions and Homotopy Theory]]", [[Pierre Gabriel|P. Gabriel]] and [[Michel Zisman|M. Zisman]] introduced *[[calculus of fractions]]* as a tool for understanding the [[localization of a category]] at a class of [[weak equivalences]]. While powerful, the condition of calculus of fractions is quite restrictive and it is rarely satisfied in various [[homotopy theory|homotopical]] settings, like [[model categories]] or [[Kenneth Brown|Brown]]'s [[categories of fibrant objects]], where one instead has homotopy calculus of fractions. This talk is based on a recent preprint [arXiv:2306.02218](https://arxiv.org/abs/2306.02218), which aims to reconcile the two. We define [[calculus of fractions]] for [[quasicategories]] and give a workable model for [[marked simplicial set|marked]] quasicategories satisfying our condition. Although we have already found several applications of this result, we would be very interested in getting feedback from the audience and exploring new applications from diverse areas.
+
+  
 
 
 
