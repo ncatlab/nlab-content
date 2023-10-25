@@ -26,6 +26,7 @@ Introducing [[star-autonomous categories]]:
 
 * [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
 
+* [[Michael Barr]], _$\ast$-Autonomous categories: once more around the track_, Theory and Applications of Categories **6** 1 (1999) 5-24 &lbrack;[tac](http://www.tac.mta.ca/tac/volumes/6/n1/6-01abs.html)&rbrack;
 
 On [[toposes]], [[monads]] ("triples") and [[algebraic theories]]:
 
@@ -35,8 +36,6 @@ On [[category theory]] in [[computer science]],
 via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
-
-
 
 On topological [[star-autonomous categories]]:
 
