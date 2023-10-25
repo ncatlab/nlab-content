@@ -33,9 +33,10 @@ The default meaning where $\mathbb{F}$ is left unspecified is $\mathbb{F} = \mat
 * [[cyclotomic spectrum]]
 
 
+
 ## References
 
-* [[Keith Conrad]], _Cyclotomic extensions_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/cyclotomic.pdf))
+* [[Keith Conrad]], *Cyclotomic extensions* &lbrack;[pdf](https://kconrad.math.uconn.edu/blurbs/galoistheory/cyclotomic.pdf), [[Conrad-CyclotomicExtensions.pdf:file]]&rbrack; 
 
 * Wikipedia, _[cyclotomic field](http://en.wikipedia.org/wiki/Cyclotomic_field)_
 
