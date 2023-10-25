@@ -152,7 +152,7 @@ For $(n,k)$-categories with $k\gt 1$ it is unclear whether it is sensible to all
 There are also "internal" versions of these axioms.
 
 * In [[homotopy type theory]] (the internal logic of an $(\infty,1)$-topos), the internal version of $AC_n$ is "every surjection onto a set with $n$-type fibers has a section", or equivalently
-  $$ \prod_{(X:Set)} \prod_{(Y:X\to n Type)} \Big( \prod_{(x:X)} \Vert Y(x)\Vert \to \big\Vert \prod_{(x:X)} Y(x) \big\Vert \Big) $$
+  $$ \prod_{(X:Set)} \prod_{(Y:X\to n Type)} \Big( \prod_{(x:X)} \Vert Y(x)\Vert \to \Big\Vert \prod_{(x:X)} Y(x) \Big\Vert \Big) $$
 
 * More generally, we can replace the $(-1)$-truncation by the $k$-truncation to obtain a family of axioms $AC_{k,n}$.
 
