@@ -411,6 +411,8 @@ By direct unwinding of the definitions, one finds that the module property enfor
 Moreover, to see that the [[tensor products]] agree one can argue that the relevant [[coequalizers]] (see [here](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfModulesOverCommutativeMonoidObject)) in $Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}}$ are [[colimits]] in a [[category of presheaves]] which [[limits of presheaves are computed objectwise|are computed objectwise]] --- hence here over the single object of $\mathbf{B}\mathbb{Z}_2$, where they agree with the usual [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[complex vector spaces]]. 
 \end{proof}
 
+The following construction is essentially what is known as the *[[hyperbolic functor]]* with $\mathbb{Z}/2$-equivariance, establishing an equivalence between [[KR-theory]] and [[topological Hermitian K-theory]] (see the references [there](#ReferencesTopologicalHermitianKTheory)):
+
 \begin{example}\label{HermtianSpacesAsRealComplexModules}
 **(Complex Hermitian spaces as Euclidean Real complex modules)**
 \linebreak
