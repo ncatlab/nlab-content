@@ -9,9 +9,9 @@ On [[exact real computer arithmetic]]:
 
 * Dave Plume (supervised by [[Martín Escardó]], [[Alex Simpson]]): *A Calculator for Exact Real Number Computation*, University of Edinburgh  (1998) &lbrack;[web](https://www.dcs.ed.ac.uk/home/mhe/plume/)&rbrack;
 
-On [[measure theory]]:
+On [[measure theory]], [[probability theory]], and [[locales]]:
 
-* Alex Simpson, [Measure, randomness and sublocales](https://www.sciencedirect.com/science/article/pii/S0168007211001874). 
+* [[Alex Simpson]], *Measure, randomness and sublocales*, Annals of Pure and Applied Logic, Volume 163, Issue 11, November 2012, Pages 1642-1659. ([doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014))
 
 On [[probability theory]] in [[topos theory]]:
 
