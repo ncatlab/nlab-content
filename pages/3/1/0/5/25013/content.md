@@ -52,7 +52,7 @@ where $a:T, b:T \vdash \mathrm{idtonotapart}(a, b):(a =_T b) \to ((a \# b) \to \
 
 $$a:T \vdash \beta_{\mathrm{idtonotapart}}^{\mathrm{refl}_T}(a):\mathrm{idtonotapart}(a, a)(\mathrm{refl}_T(a)) =_{(a \# a) \to \mathbb{0}} \mathrm{irr}(a)$$
 
-The last condition ensures that the type is an [[h-set]]. By [[Hedberg's theorem]], every type with an equivalence $a \# b \simeq (a =_T b) \to \mathbb{0}$ has [[decidable equality]]. 
+The last condition ensures that the type is an [[h-set]].
 
 ## Strongly extensional functions
 
