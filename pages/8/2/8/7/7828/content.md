@@ -203,6 +203,8 @@ Relation to [[topological Hermitian K-theory]] via the [[hyperbolic functor]]:
 
 * [[Po Hu]], [[Igor Kriz]], Appendix of: *Topological Hermitian cobordism*, Journal of Homotopy and Related Structures **11** (2016) 173–197 &lbrack;[doi:10.1007/s40062-014-0100-9](https://doi.org/10.1007/s40062-014-0100-9)&rbrack;
 
+* [[Max Karoubi]], [[Charles Weibel]], Thm. 3.5 in: *Twisted $K$-theory, Real $A$-bundles and Grothendieck–Witt groups*, Journal of Pure and Applied Algebra **221** 7 (2017) 1629-1640 &lbrack;[doi:10.1016/j.jpaa.2016.12.020](https://doi.org/10.1016/j.jpaa.2016.12.020)&rbrack;
+
 
 Remarks on homotopy-theoretic KR in the context of [[algebraic K-theory]] are in
 
