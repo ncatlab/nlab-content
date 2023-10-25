@@ -93,6 +93,46 @@ $T$-algebras can also be defined as left [[modules]] over $T$ _qua_ monoid in $E
 The [[Eilenberg-Moore category]] of $T$ is the category of these algebras.  It has a universal property that allows the notion of
 [[Eilenberg-Moore object]] to be defined in any bicategory.
 
+### In a virtual double category
+It'sthe notion of (bi)module makes sense in [[virtual double categories]], generalizing the previous definition.
+
+A *monad* in a virtual double category is a [[loose map|loose]] endomorphism $t : a \nrightarrow a$ together with a binary map (i.e.~a square in the virtual double category) $\mu:t,t \to t$ giving the multiplication and a nullary map $\eta:() \to t$ giving the unit:
+<!--% https://q.uiver.app/#q=WzAsOSxbMCwwLCJhIl0sWzEsMCwiYSJdLFsyLDAsImEiXSxbMCwxLCJhIl0sWzIsMSwiYSJdLFszLDEsImEiXSxbNCwxLCJhIl0sWzMsMF0sWzQsMF0sWzMsNCwidCIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFswLDEsInQiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMSwyLCJ0IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzAsMywiIiwxLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMiw0LCIiLDEseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs3LDgsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6Im5vbmUifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsInQiLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMSw5LCJcXG11IiwyLHsic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfX1dLFsxNCw1LCIiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MjB9LCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzE0LDYsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMH0sInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMTQsMTUsIlxcZXRhIiwyLHsibGFiZWxfcG9zaXRpb24iOjYwLCJzaG9ydGVuIjp7InNvdXJjZSI6NDAsInRhcmdldCI6MjB9fV1d-->
+\begin{tikzcd}[row sep=scriptsize]
+	a & a & a & {} & {} \\
+	a && a & a & a
+	\arrow[""{name=0, anchor=center, inner sep=0}, "t"', "\shortmid"{marking}, from=2-1, to=2-3]
+	\arrow["t", "\shortmid"{marking}, from=1-1, to=1-2]
+	\arrow["t", "\shortmid"{marking}, from=1-2, to=1-3]
+	\arrow[Rightarrow, no head, from=1-1, to=2-1]
+	\arrow[Rightarrow, no head, from=1-3, to=2-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, draw=none, from=1-4, to=1-5]
+	\arrow[""{name=2, anchor=center, inner sep=0}, "t"', "\shortmid"{marking}, from=2-4, to=2-5]
+	\arrow["\mu"', shorten >=3pt, Rightarrow, from=1-2, to=0]
+	\arrow[shorten <=4pt, Rightarrow, no head, from=1, to=2-4]
+	\arrow[shorten <=4pt, Rightarrow, no head, from=1, to=2-5]
+	\arrow["\eta"'{pos=0.6}, shorten <=9pt, shorten >=4pt, Rightarrow, from=1, to=2]
+\end{tikzcd}
+This data satisfies strict unitality and associativity equations.
+
+A *left module* $m$ over a *monad* $t:a \nrightarrow a$ is another loose cell $m:a \nrightarrow b$ together with a binary map $\rhd : t,m \to m$:
+<!--
+% https://q.uiver.app/#q=WzAsNSxbMCwwLCJhIl0sWzEsMCwiYSJdLFsyLDAsImIiXSxbMCwxLCJhIl0sWzIsMSwiYiJdLFszLDQsIm0iLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMCwxLCJ0IiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzEsMiwibSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFswLDMsIiIsMSx7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsNCwiIiwxLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSw1LCJcXHJoZCIsMix7ImxhYmVsX3Bvc2l0aW9uIjo0MCwic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfX1dXQ==
+-->
+\begin{tikzcd}[row sep=scriptsize]
+	a & a & b \\
+	a && b
+	\arrow[""{name=0, anchor=center, inner sep=0}, "m"', "\shortmid"{marking}, from=2-1, to=2-3]
+	\arrow["t", "\shortmid"{marking}, from=1-1, to=1-2]
+	\arrow["m", "\shortmid"{marking}, from=1-2, to=1-3]
+	\arrow[Rightarrow, no head, from=1-1, to=2-1]
+	\arrow[Rightarrow, no head, from=1-3, to=2-3]
+	\arrow["\rhd"'{pos=0.4}, shorten >=3pt, Rightarrow, from=1-2, to=0]
+\end{tikzcd}
+This again satisfies standard equations stating compatibility with the monad structure on $t$.
+
+A *right module* is equipped with a binary map $\lhd : m, t \to m$ instead, and a bimodule has a ternary map $\rhd - \lhd : t,m,t \to m$.
+
 ## Properties
 
 ### Colimits
