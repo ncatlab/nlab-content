@@ -197,7 +197,7 @@ Reviews include
 
 * Wikipedia, _[KR-theory](http://en.wikipedia.org/wiki/KR-theory)_
 
-Relation to [[topological Hermitian K-theory]]:
+Relation to [[topological Hermitian K-theory]] via the [[hyperbolic functor]]:
 
 * {#Crabb80} [[Michael C. Crabb]], §9 of: *$\mathbb{Z}/2$-Homotopy Theory*, Lond. Math. Soc. Lecture Notes **44**, Cambridge University Press (1980) &lbrack;[ark:/13960/t3jx7bg4w](https://archive.org/details/zz2homotopytheor0000crab), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabb.pdf)&rbrack;
 
