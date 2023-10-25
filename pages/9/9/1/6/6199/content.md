@@ -4,23 +4,27 @@
 {:toc}
 
 
-## Overview
+## Idea
 
-A __dynamical system__ is a set $M$ equipped with some geometric structure (say a manifold) together with a __law of motion__, that is the law of evolution of points which is the action 
+A __dynamical system__ is a [[space]] $X$ (often a bare [[set]] or a [[manifold]]) together with a "law of motion" expressed by the [[action]] of a [[monoid]] $A$:
 
 $$
-\mathbb{R}\times M\to M
+  A \times X \longrightarrow X
+  \,.
 $$
 
-The parameter of evolution is called time. If the law of evolution is translation invariant we say that the dynamical system is __autonomous__. 
+To model continuous [[time]]-evolution one may take $A = (\mathbb{R}, +)$ to be the additive [[group]] of [[real numbers]]. 
 
-The law of motion is often given by (what is in a particular case) an equivalent datum, e.g. by an initial value problem for a differential equation "of evolution type".
+For discrete time evolution $A = (\mathbb{Z}, +)$ is the additive group of [[integers]] (or just the monoid $(\mathbb{N}, +)$ of [[natural numbers]]). In this case the law of motion is often given by an [[initial value problem]] for a [[differential equation]] "of evolution type".
+
+In this case, the dynamical system is equivalently a space $X$ equipped with an [[automorphism]] (this being the action of the [[unit element]] in $\mathbb{Z}$, sometimes called the "shift").
+  
 
 Sometimes the evolution is only partially defined; this is most often in dynamical systems induced by evolution differential equations which do not necessarily have existence of solutions for arbitrary large time, or the dynamical system is defined only for nonnegative time. 
 
-Sometimes time is taken to be __discrete__, that is belonging to integers $\mathbb{Z}$ or say to positive integers $\mathbb{N}$. The autonomous discrete dynamical system is determined by the morphism $S: M\to M$, sometimes called __shift__ which determines the change from time $n$ to $n+1$. The autonomous dynamical systems can be viewed in quite general categories in which there are nontrivial endomorphisms; so one has complex dynamics, [[algebraic dynamics]], arithmetic dynamics and so on. 
+The definition evidently makes sense quite generally [[internalization|internal to]] various ambient [[categories]]: For instance one considers complex dynamics, [[algebraic dynamics]], arithmetic dynamics and so on. 
 
-Most often one looks at dynamical systems in which $M$ is a [[smooth manifold]]. Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
+Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
 
 
 ## Literature
@@ -56,6 +60,9 @@ Discussion of dynamical systems in terms of [[category theory]] (see also at *[[
 * [[William Lawvere]], [_Functorial Remarks on the General Concept of Chaos_](http://www.ima.umn.edu/preprints/Functional-Remarks-General-Concept-Chaos), IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
 
 * George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, &lbrack;[arxiv/1307.8418](http://arxiv.org/abs/1307.8418)&rbrack;
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Flows: cocyclic and almost cocyclic*, Theory Appl. Categories **25** 18 (2010) 490–507 &lbrack;[tac:25-18](http://www.tac.mta.ca/tac/volumes/25/18/25-18abs.html)&rbrack;
+
 
 * [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1–57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
 
