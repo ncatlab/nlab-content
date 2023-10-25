@@ -262,10 +262,13 @@ see also
 
 * [[Jerome Gauntlett]], _Intersecting Branes_ ([hep-th/9705011](https://arxiv.org/abs/hep-th/9705011))
 
-* [[Igor Bandos]], [[[[José de Azcarraga]], [[[[José Izquierdo]], [[Jerzy Lukierski]], _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett. __86__:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
+* [[Igor Bandos]], [[José de Azcarraga]], [[José Izquierdo]], [[Jerzy Lukierski]], _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett. __86__:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
 
 * U. Gran, [[Jan Gutowski]], [[George Papadopoulos]], _Classification, geometry and applications of supersymmetric backgrounds_ ([arXiv:1808.07879](https://arxiv.org/abs/1808.07879))
 
+Semiclassical approach
+
+* T. Daniel Brennan, [[Gregory W. Moore]], _A note on the semiclassical formulation of BPS states in four-dimensional N = 2 theories_, Prog. Theor. Exp. Phys. 2016, 12C110 (19 pages) [doi](https://doi.org/10.1093/ptep/ptw159)
 
 Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
 
@@ -314,10 +317,9 @@ Discussion of relation of [[M5-brane]] BPS states to [[knot invariants]] include
 
 * [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
 
-* [[Sergei Gukov]], Marko Sto&#353;i&#263;, _Homological algebra of knots and BPS states_ ([arXiv:1112.0030](http://arxiv.org/abs/1112.0030))
+* [[Sergei Gukov]], Marko Sto&#353;i&#263;, _Homological algebra of knots and BPS states_, GTM __18__ (2012) 309--367 ([arXiv:1112.0030](https://arxiv.org/abs/1112.0030) [doi](https://doi.org/10.2140/gtm.2012.18.309))
 
-
-* Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](http://arxiv.org/abs/1505.01635))
+* Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](https://arxiv.org/abs/1505.01635))
 
 
 ### Spectral networks
