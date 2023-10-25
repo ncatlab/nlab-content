@@ -40,21 +40,24 @@ Introduction of Hermtian K-theory as such:
 
 * [[Max Karoubi]], [[Orlando Villamayor]], *K-théorie algébrique et K-théorie topologique II*, Math. Scand. **32** (1973) 57-86 &lbrack;[jstor:24490565](https://www.jstor.org/stable/24490565)&rbrack;
 
-Further discussion:
-
-* {#Mishchenko76} [[Alexandr S. Mishchenko]], *Hermitian K-Theory. The Theory of characteristic classes and methods of functional analysis*, Uspeki Mat. Nauk **31** 2 (1976) 69-134,  Russ. Math. Surv. **31** 71 (1976) &lbrack;[doi:10.1070/RM1976v031n02ABEH001478](https://iopscience.iop.org/article/10.1070/RM1976v031n02ABEH001478), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mishch5.pdf)&rbrack;
-
-* [[Max Karoubi]], *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
-
-
-More early references at:
+Further early discussion:
 
 * [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
 
+* {#Mishchenko76} [[Alexandr S. Mishchenko]], *Hermitian K-Theory. The Theory of characteristic classes and methods of functional analysis*, Uspeki Mat. Nauk **31** 2 (1976) 69-134,  Russ. Math. Surv. **31** 71 (1976) &lbrack;[doi:10.1070/RM1976v031n02ABEH001478](https://iopscience.iop.org/article/10.1070/RM1976v031n02ABEH001478), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mishch5.pdf)&rbrack;
+
 * [[Anthony Bak]], *Grothendieck Groups of Modules and Forms Over Commutative Orders*, American Journal of Mathematics, **99** 1 (1977) 107-120 &lbrack;[jstor:2374010](https://www.jstor.org/stable/2374010), [doi:10.2307/2374010](https://doi.org/10.2307/2374010)&rbrack;
 
+For more see:
 
 * [[Max Karoubi]], *K-théorie hermitienne* &lbrack;[webpage](https://webusers.imj-prg.fr/~max.karoubi/K-theorie.hermitienne.html)&rbrack;
+
+Further developments:
+
+* [[Max Karoubi]], *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
+
+* [[Max Karoubi]], [[Mariusz Wodzicki]], *Algebraic and Hermitian K-theory of $\mathcal{K}$-rings*, The Quarterly Journal of Mathematics **64** 3 (2013) 903–940 &lbrack;[arXiv:1310.4123](https://arxiv.org/abs/1310.4123), [doi:10.1093/qmath/hat030](https://doi.org/10.1093/qmath/hat030)&rbrack;
+
 
 ### Topological Hermitian K-theory
  {#ReferencesTopologicalHermitianKTheory}
