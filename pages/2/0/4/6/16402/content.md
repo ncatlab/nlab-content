@@ -12,5 +12,8 @@ On [[algebraic weak factorization systems]]:
 
 * [[John Bourke]], _An orthogonal approach to algebraic weak factorisation systems_, Journal of Pure and Applied Algebra **227** 6 (2023) 107294 &lbrack;[arxiv:2204.09584](https://arxiv.org/abs/2204.09584), [doi:10.1016/j.jpaa.2022.107294](https://doi.org/10.1016/j.jpaa.2022.107294)&rbrack;
 
+[[skew monoidal|Skew monoidal]] closed structures on the category of [[Gray categories]] are considered in:
+
+* [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, (2022). &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358)&rbrack;
 
 category: people
