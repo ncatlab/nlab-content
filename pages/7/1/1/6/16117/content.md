@@ -7,6 +7,8 @@
 
 * [[hyperbolic geometry]]
 
+* [[hyperbolic functor]]
+
 ## References
 
 * Wikipedia, _[Hyperbola](https://en.wikipedia.org/wiki/Hyperbola)_
