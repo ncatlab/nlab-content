@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 > Not to be confused with the notion of *[[coherence space]]* in [[models]] of [[linear logic]].
 
 ***
@@ -58,7 +69,12 @@ unlike the point-set version above.
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_.
 
-* [[Max Dickmann]], [[Niels Schwartz]], [[Marcus Tressl]], _Spectral Spaces_. New Mathematical Monographs 35 (2019).  Cambridge: Cambridge University Press. ISBN 9781107146723.
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Countable meets in coherent spaces with applications to the cyclic spectrum*, Theory Appl. Categories **25** 19 (2011), 508–232 &lbrack;[tac:25-19](http://www.tac.mta.ca/tac/volumes/25/19/25-19abs.html)&rbrack;
+
+
+* Max Dickmann, Niels Schwartz, [[Marcus Tressl]], _Spectral Spaces_. New Mathematical Monographs 35 (2019).  Cambridge: Cambridge University Press. ISBN 9781107146723.
+
+See also:
 
 * Wikipedia, _[Spectral space](http://en.wikipedia.org/wiki/Spectral_space)_
 
