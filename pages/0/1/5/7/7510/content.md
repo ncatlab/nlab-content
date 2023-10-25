@@ -253,6 +253,18 @@ $$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{funext}^{-1}(\lambda (x:A).\be
 
 In [[logic]], dependent functions types express [[universal quantifications]]. More precisely, for $x:A \vdash \phi(x)$ a [[predicate]] on a type $A$, under [[propositions as types]] the [[universal quantification]] $\forall x:A.\phi(x)$ is the dependent product type $\prod_{x:A} \phi(x)$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
 
+### Graph of a dependent function
+
+Given a type $A$ and a type family $x:A \vdash B(x)$, there is a function 
+
+$$\mathrm{graph}:\left(\prod_{x:A} B(x)\right) \to \left(A \to \sum_{x:A} B(x)\right)$$
+
+which takes a dependent function $f:\prod_{x:A} B(x)$ and returns the **[[graph of a function|graph of a dependent function]]** 
+$$\mathrm{graph}(f):A \to \sum_{x:A} B(x)$$ 
+defined by $\mathrm{graph}(f)(x) \equiv (x, f(x))$ for all $x:A$. As a [[dependent anafunction]] the graph of the dependent function is represented by the [[identity type]] family
+
+$$x:A, y:B(x) \vdash f(x) =_{B(x)} y$$
+
 ## Related concepts
 
 * [[dependent product]]
