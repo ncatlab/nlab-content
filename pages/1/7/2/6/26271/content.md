@@ -139,6 +139,9 @@ $$
   }
 $$
 
+## Related concepts
+
+* [[hyperbolic functor]]
 
 ## References
 
