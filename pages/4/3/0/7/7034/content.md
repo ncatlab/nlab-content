@@ -70,7 +70,7 @@ $$[A] \coloneqq \prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to \mathrm{El}(P
 
 ### As localization
 
-Let $\mathbb{1}$ be the [[unit type]] and let $\mathbb{2}$ be the [[two-valued type]]. The bracket type of a type $A$ is the [[localization of a type at a family of functions|localization]] of $A$ at the unique function $\mathbb{2} \to \mathbb{1}$. 
+Let $\mathbb{1}$ be the [[unit type]] and let $\mathbb{2}$ be the [[boolean domain]]. The bracket type of a type $A$ is the [[localization of a type at a family of functions|localization]] of $A$ at the unique function $\mathbb{2} \to \mathbb{1}$. 
 
 $$\left[A\right] \coloneqq L_\mathbb{2}(A)$$
 
