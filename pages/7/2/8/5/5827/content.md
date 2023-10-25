@@ -75,6 +75,7 @@ Let $(C, I, \otimes)$ be a [[monoidal category]]. Given an object $V$, every mor
 
 Symmetric bilinear forms can similarly be generalized from the [[category of modules]] to any [[monoidal category]], where for all morphisms $v:I \to V$ and $w:I \to V$, we have $f \circ (v \otimes w) = f \circ (w \otimes v)$. 
 
+
 ## Related concepts
 
 * [[quadratic form]], [[polarization identity]]
@@ -86,6 +87,8 @@ Symmetric bilinear forms can similarly be generalized from the [[category of mod
 * [[Hermitian K-theory]]
 
 * [[characteristic element of a bilinear form]]
+
+* [[hyperbolic functor]]
 
 * [[Riemannian metric]]
 
