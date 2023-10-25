@@ -25,17 +25,19 @@ In itself, a Kripke frame is just
 
 * an [[inhabited set|inhabited]] [[set]] $W$ 
 
-  often called the set of *[[possible worlds]]* (or the set of *nodes* or whatnot)
+  often called the set of *[[possible worlds]]* (or the set of *nodes* or *states* or *points*)
 
-* equipped with an [[indexed set]] of binary [[relations]] $R_i W \times W \to Prop$, one for each [[modal operator]] $\Box_i$ in the given [[modal logic]]
+* equipped with an [[indexed set]] of binary [[relations]] $R_i : W \times W \to Prop$, one for each [[modal operator]] $\Box_i$ in the given [[modal logic]]
 
-  called the *accessiblity* or *transition* relations between worlds, or similar, where $R_i (w,w')$ is interpreted as: "To agent $i$ in world $w$, world $w'$ appears (just as well) possible."
+  called the *accessibility* or *transition* relations between worlds, or similar, where $R_i (w,w')$ is often interpreted as (in the epistemic case): "To agent $i$ in world $w$, world $w'$ appears (just as well) possible."
+ 
+But note that, as there are many flavors of modal logic (epistemic, aletheic, deontic, temporal, dynamic, et cetera), there are many different interpretations of the accessibility relation in the corresponding Kripke frame.
 
-Hence a Kripke frame is a [[concept with an attitude]], namely the attidute to serve as a model for a [[modal logic]] -- the idea is to interpret:
+Hence a Kripke frame is a [[concept with an attitude]], namely the attitude to serve as a model for a [[modal logic]] -- the idea is to interpret:
 
 1. the [[elements]] of $W$ as the "[[possible worlds]]" about which the [[propositions]] in the modal logic make statements, 
 
-1. the [[relation]] $R_i(w,w')$ as asserting that it makes sense to reason about world $w'$ at world $w$.
+2. the [[relation]] $R_i(w,w')$ as asserting that it makes sense to reason about world $w'$ at world $w$.
 
 Namely a [[geometric model for modal logics|model]] of the modal logic based on such a Kripke frame will interpret 
 
@@ -49,6 +51,21 @@ Namely a [[geometric model for modal logics|model]] of the modal logic based on 
 
 > {#SubtypeNotation} (Here we are writing --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
 
+## Definition
+
+A (uni-modal) Kripke frame is a set $W$ and a binary $R$ relation on $W$. A multimodal Kripke frame for modal operators $\{\Box_i\}_{i \in I}$ is a set $W$ together with a binary relations $R_i$ for each $i \in I$. Equivalently, a uni-modal Kripke frame is a set $W$ and a [[coalgebra for an endofunctor|coalgebra]] for the powerset endofunctor, $f_R: W \to \mathscr{P}(W)$. A multimodal Kripke frame is, equivalently, a set $X$ and a coalgebra for the endofunctor $\mathscr{P}(I \times -)$.  
+
+A morphism of Kripke frames, called a bounded morphism or p-morphism (short for pseudo-epimorphism) is a homomorphism of the coalgebras. 
+
+We call the category of unimodal Kripke frames $\mathbf{Kr}$. $\mathbf{Kr}$ is dually equivalent to the category of complete, atomic, *completely additive* [[algebraic model for modal logics|boolean algebras with operators]]. This is the analogue of the result that $\mathbf{Set}$ is dually equivalent to the category of complete, atomic boolean algebras. 
+
+A *Kripke model* for a propositional language $L$ is a Kripke frame $\langle{W, f_R\rangle}$ together with a *valuation* $V: L \to \mathbb{2}^W$ which preserves the appropriate logical structure. The non-modal connectives are handled in the usual way with their set-theoretic analogues (intersection for $\land$, union for $\lor$, complement for negation, et cetera). For the modal operator $\Box$, the truth clause is $V(\Box p)(w) = 1$ if and only if $f_R(w) \subseteq V(p)$.
+
+We often consider particular classes of Kripke frames, identified by common features of the accessibility relations: e.g. reflexivity, transitivity, symmetry Euclidean, density, et cetera. These correspond to the validity of certain logical principles, and so, different modal logics. However, Kripke frames are not sufficient to classify all (normal) modal logics as detailed in [Holliday and Litak, 2019](#HollidayLitak19). Although every class of Kripke frames defines a normal modal logic for which the class is complete, some normal modal logics are not complete for any class of Kripke frames, a phenomenon known as "Kripke incompleteness." By duality, this means there are normal modal logics which are not complete with respect to any class of complete, atomic, completely additive boolean algebras with operators . 
+
+Below we detail some classes of Kripke frames. 
+
+## Some classes of Kripke frames  
 
 **The transparent case of S5 logic.** Specifically, for the case of [[S5 modal logic]] with a single [[comonad|comonadic]] [[modal operator]] $\Box$, a Kripke frame (originally considered in [Kripke 1963](#Kripke63)) is an 
 
@@ -183,7 +200,9 @@ Generalization of Kripke frames:
 
 * [[Dov Samet]], §6 in: *S5 knowledge without partitions*, Synthese **172** (2010) 145–155 &lbrack;[doi:10.1007/s11229-009-9469-0](https://doi.org/10.1007/s11229-009-9469-0)&rbrack;
 
+On Kripke-frame incompleteness:
 
+* {#HollidayLitak19} Holliday, W., Litak, T. (2019). Complete Additivity and Modal Incompleteness. The Review of Symbolic Logic, 12(3), 487-535. &lbrack;[doi:10.1017/S1755020317000259](https://doi:10.1017/S1755020317000259)&rbrack;
 
 
 [[!redirects Kripke frame]]
