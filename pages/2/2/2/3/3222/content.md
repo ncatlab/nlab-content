@@ -64,6 +64,7 @@ On [[algebraic topology]] and [[differential geometry]]:
 
 * [[Karoubian envelope]]
 
+* [[hyperbolic functor]]
 
 
 category: people
