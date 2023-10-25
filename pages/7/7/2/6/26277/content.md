@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[coherent spaces]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Countable meets in coherent spaces with applications to the cyclic spectrum*, Theory Appl. Categories **25** 19 (2011), 508–232 &lbrack;[tac:25-19](http://www.tac.mta.ca/tac/volumes/25/19/25-19abs.html)&rbrack;
+
+
 On [[star-autonomous categories]] of [[suplattice|sup]]-[[semilattices]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *The $\ast$-autonomous category of uniform sup semi-lattices*,  Theory & Applications of Categories **27** 11 (2012) 222–241 &lbrack;[tac:27-11](http://www.tac.mta.ca/tac/volumes/27/11/27-11abs.html)&rbrack;
