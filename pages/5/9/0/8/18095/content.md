@@ -1,4 +1,8 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 In a [[metric space]] $(X,d)$, the _unit ball_ around some point $x \in X$ is the [[set]] of points of [[distance]] at most 1 from $x$: $\{y \in X \vert d(x,y) \leq 1\}$.
@@ -12,5 +16,12 @@ Note that the unit ball around the zero vector makes sense in any [[norm#on_a_ve
 * [[disk]]
 
 * [[open ball]]
+
+## References
+
+On [[star-autonomous categories]] of [[unit balls]] in [[Banach spaces]]:
+
+* [[Michael Barr]], [[Heinrich Kleisli]], *Topological balls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]], **40** 1 (1999) 3–20 &lbrack;[numdam:CTGDC_1999__40_1_3_0](http://www.numdam.org/item/?id=CTGDC_1999__40_1_3_0)&rbrack;
+
 
 [[!redirects unit balls]]
