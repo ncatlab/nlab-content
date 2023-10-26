@@ -35,6 +35,10 @@ via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
+On [[relational structures]]:
+
+* [[Michael Barr]], *Note on a theorem of Putnam's*, Theory Appl. Categories, **3** 3 (1997) 45–49 &lbrack;[tac:3-03](http://www.tac.mta.ca/tac/volumes/1997/n3/3-03abs.html)&rbrack;
+
 On the [[Chu construction]] and [[star-autonomous categories]]:
 
 * [[Michael Barr]], *The separated extensional Chu category* Theory Appl. Categories **4** 6 (1998) 127–137 &lbrack;[tac:4-06](http://www.tac.mta.ca/tac/volumes/1998/n6/4-06abs.html)&rbrack;
