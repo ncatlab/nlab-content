@@ -225,6 +225,11 @@ The notion is originally due to:
 
 See also:
 
+* [[Michael Barr]], [[Heinrich Kleisli]], *Topological balls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]], **40** 1 (1999) 3–20 &lbrack;[numdam:CTGDC_1999__40_1_3_0](http://www.numdam.org/item/?id=CTGDC_1999__40_1_3_0)&rbrack;
+
+
+* [[Michael Barr]], _$\ast$-Autonomous categories: once more around the track_, Theory and Applications of Categories **6** 1 (1999) 5-24 &lbrack;[tac:6-01](http://www.tac.mta.ca/tac/volumes/6/n1/6-01abs.html)&rbrack;
+
 * [[Michael Barr]], _Topological $\ast$-autonomous categories, revisited_, rewrite of TAC, 16 (2006), 700-708 ([arXiv:1609.04241](http://arxiv.org/abs/1609.04241))
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On $\ast$-autonomous categories of topological modules*, Theory Appl. Categories, **24** 14 (2010) 278–293 &lbrack;[tac:24-14](http://www.tac.mta.ca/tac/volumes/24/14/24-14abs.html)&rbrack;
