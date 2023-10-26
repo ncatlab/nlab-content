@@ -129,7 +129,7 @@ General:
 
 * [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
-* Dale Rolfsen, _Knots and links_, AMS Chelsea, vol. __346__, 2003.
+* [[Dale Rolfsen]], _Knots and links_, AMS Chelsea __346__ (2003) &lbrack;[ams:chel-346-h](https://bookstore.ams.org/chel-346-h), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/rolfsen.pdf)&rbrack;
 
 
 Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
