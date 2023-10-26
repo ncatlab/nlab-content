@@ -43,7 +43,7 @@ $$
 
 where $\rho\otimes_{\sigma}\tilde{T}$ is schematically understood as placing $\sigma$ on a spacetime $X^n\times [0,1]$ with $\rho$ on one end and $\tilde{T}$ on the other, such that collapsing the slab gives $T$ on $X^n$.
 
-Some remarks about this proposal are in order. First, the kind of symmetries that are dealt with here are of finite character (related to a [[homotopy type with finite homotopy groups]] as explained in Appendix A). This allows to avoid discussions regarding smoothness of categories. Second, some statements (which are not necessarily minor points) are still only schematic. This includes the isomorphism $\theta$ mentioned. This is partly due to the following assertion: *"Recall that the cobordism hypothesis enables a calculus of such functors (FTFT's) in terms of duality data inside the codomain category C. Turning to nontopological theories, a similar calculus is not in place and is a subject of wide interest.*" ([FMT22](#FMT22), p. 10). In particular, the work of [Grady and Pavlov (2021)](#GradyPavlov21) on the *geometric* [[cobordism hypothesis]] has clear relevance to these two remarks.
+Some remarks about this proposal are in order. First, the kind of symmetries that are usually dealt with here are of finite character (related to a [[homotopy type with finite homotopy groups]] as explained in Appendix A). This allows to avoid discussions regarding smoothness of categories. Work aiming towards addressing this issue is in ([Gripaios, Randal-Williams, and Tooby-Smith (2023)](#GRT23)). Second, some statements (which are not necessarily minor points) are still only schematic. This includes the isomorphism $\theta$ mentioned. This is partly due to the following assertion: *"Recall that the cobordism hypothesis enables a calculus of such functors (FTFT's) in terms of duality data inside the codomain category C. Turning to nontopological theories, a similar calculus is not in place and is a subject of wide interest.*" ([FMT22](#FMT22), p. 10). In particular, the work of [Grady and Pavlov (2021)](#GradyPavlov21) on the *geometric* [[cobordism hypothesis]] has clear relevance to these two remarks.
 
 
 
@@ -89,6 +89,10 @@ See also:
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
 * {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
+
+An investigation of the interplay between the geometric [[cobordism hypothesis]] and *smooth* generalized symmetries is in:
+
+* {#GRT23} Ben Gripaios, Oscar Randal-Williams, Joseph Tooby-Smith. *Smooth generalized symmetries of quantum field theories*. (2023). [arXiv:2310.16090](https://arxiv.org/abs/2310.16090#).
 
 Further activity:
 
