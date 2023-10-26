@@ -22,7 +22,7 @@ $$
 (V^C)^{op}(F^{\ast} p, q) \cong V^{D^{op}}(p, F_{\ast} q).
 $$
 
-In the case of the $Hom$ profunctor, $Hom: A^{op} \otimes A \to V$, of a $V$-enriched category $A$, this adjunction is known as [[Isbell duality]] or Isbell conjugation.
+In the case of the $Hom$ profunctor, $Hom: A^{op} \otimes A \to V$, of a $V$-enriched category $A$, this adjunction is known as [[Isbell duality]] or Isbell conjugation. In analogy with this case, the general adjunction induced by a $V$-profunctor $F$ is called the **Isbell adjunction** induced by $F$.
 
 The **nucleus** of $F$ is the [[center of an adjunction|center]] of this adjunction. In the case where $F = Hom$, the nucleus is called the [[reflexive completion]].
 
@@ -40,3 +40,4 @@ The **nucleus** of $F$ is the [[center of an adjunction|center]] of this adjunct
 * [[Simon Willerton]], Tight spans, Isbell completions and semi-tropical modules, ([tac](http://www.tac.mta.ca/tac/volumes/28/22/28-22abs.html))
 * [[Simon Willerton]], _The Nucleus of a Profunctor: Some Categorified Linear Algebra_, [blog post](http://golem.ph.utexas.edu/category/2013/08/the_nucleus_of_a_profunctor_so.html)
 * [[Simon Willerton]], _Galois Correspondences and Enriched Adjunctions_, [blog post](http://golem.ph.utexas.edu/category/2014/02/galois_correspondences_and_enr.html)
+* Shen, Lili, and Dexue Zhang. _Categories enriched over a quantaloid: Isbell adjunctions and Kan adjunctions_ (2013), ([TAC](http://www.tac.mta.ca/tac/volumes/28/20/28-20abs.html))
