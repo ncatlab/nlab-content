@@ -43,8 +43,11 @@ Note that there is never any trouble finding a square root of $y$ if we assume t
 
 ## References
 
-*  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/html/docs.htm)
-{#Richman}
+* {#Richman} [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/html/docs.htm)
+
+More generally, square roots of [[positive operator|positive]] [[self-adjoint operators]]:
+
+* Zoltán Sebestyén, Zsigmond Tarcsay, *On the square root of a positive selfadjoint operator*, Period Math Hung **75**  (2017) 268–272 &lbrack;[doi:10.1007/s10998-017-0192-1](https://doi.org/10.1007/s10998-017-0192-1)&rbrack;
 
 
 [[!redirects square root]]
