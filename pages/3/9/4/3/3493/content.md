@@ -2,6 +2,8 @@
 
 * [homepage](https://www.math.mcgill.ca/bunge)
 
+* [institute obituary](https://www.mcgill.ca/mathstat/people-0/memoriam/marta-c-bunge)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Marta_Bunge)
 
 
@@ -22,10 +24,9 @@
   > (on [[weak equivalences of internal categories]])
 
 
-* Marta Bunge, [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __27__, no. 3 (1986), p. 3-22, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)
+* [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __27__, no. 3 (1986), p. 3-22, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)
 
-* Marta Bunge, Aurelio Carboni, _The symmetric topos_,
-J. Pure Appl. Algebra __105__ (1995), no. 3, 233&#8211;249, [MR96i:18004](http://www.ams.org/mathscinet-getitem?mr=1367869), <a href="http://dx.doi.org/10.1016/0022-4049(94)00157-X">doi</a>
+* [[Marta Bunge]], [[Aurelio Carboni]], _The symmetric topos_, J. Pure Appl. Algebra __105__ (1995), no. 3, 233&#8211;249, [MR96i:18004](http://www.ams.org/mathscinet-getitem?mr=1367869), <a href="http://dx.doi.org/10.1016/0022-4049(94)00157-X">doi</a>
 
 * [[Marta Bunge]], [[Steve Lack]], _van Kampen theorem for toposes_, [ps](http://www.maths.usyd.edu.au/u/stevel/papers/vkt.ps.gz)
 
