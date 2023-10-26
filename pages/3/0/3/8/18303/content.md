@@ -67,12 +67,10 @@ such that
 
 ### Existence
 
-+-- {: .num_prop #ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces}
-###### Proposition
-
+\begin{prop}
+\label{ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces}
 Let $X$ be a [[paracompact Hausdorff space]]. Then on every [[topological vector bundle]] $E \to X$ on $X$ there exists an inner product of topological vector bundles (def. \ref{InnerProductOnTopologicalVectorBundles})
-
-=--
+\end{prop}
 
 (e.g. [Hatcher, prop. 1.2](#Hatcher))
 
@@ -156,6 +154,8 @@ is an inner product as required.  Notice that the sum is well defined by [[local
 
 ## Related concepts
 
+* [[topological Hermitian K-theory]]
+
 * [[vector bundle]] 
    
   * [[real vector bundle]]
@@ -198,4 +198,6 @@ Discussion with an eye towards [[topological K-theory]] is in
 [[!redirects inner products on vector bundles]]
 
 [[!redirects inner products of vector bundles]]
+
+
 
