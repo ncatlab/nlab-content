@@ -1,4 +1,4 @@
-* [Personal webpage](https://mysite.science.uottawa.ca/mkarvone/)
+* [Personal webpage](https://marttikarvonen.cs.ucl.ac.uk/)
 
 
 ## Selected writings
