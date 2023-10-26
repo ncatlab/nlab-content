@@ -35,6 +35,10 @@ See also
 * Wikipedia, _[Relational theory](https://en.m.wikipedia.org/wiki/Relational_theory)_
 
 
+* [[Michael Barr]], *Note on a theorem of Putnam's*, Theory Appl. Categories, **3** 3 (1997) 45–49 &lbrack;[tac:3-03](http://www.tac.mta.ca/tac/volumes/1997/n3/3-03abs.html)&rbrack;
+
+
+
 
 
 [[!redirects relational structures]]
