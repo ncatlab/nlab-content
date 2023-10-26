@@ -241,6 +241,8 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 [[!include square roots of line bundles - table]]
 
+* [[non-Lagrangian field theory]]
+
 * [[Perry-Schwarz action]]
 
 * [[Kervaire invariant]]
@@ -350,7 +352,7 @@ The idea of describing self-dual higher gauge theory by [[holography]] with abel
 
 Conceptual aspects of this are also discussed in section 6.2 of 
 
-* S.L. Lyakhovich, [[A.A. Sharapov]], _Quantizing non-Lagrangian gauge theories: an augmentation method_, JHEP 0701:047,2007 ([arXiv:hep-th/0612086](http://arxiv.org/abs/hep-th/0612086))
+* S. L. Lyakhovich, [[A. A. Sharapov]], _Quantizing non-Lagrangian gauge theories: an augmentation method_, JHEP 0701 047 (2007) &lbrack;[arXiv:hep-th/0612086](http://arxiv.org/abs/hep-th/0612086)&rbrack;
 
 Motivated by this the [[ordinary differential cohomology]] of self-dual fields had been discussed in 
 
@@ -366,9 +368,11 @@ Discussion of the [[conformal blocks]] and [[geometric quantization]] of self-du
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
 
-
-
 For the case of nonabelian self-dual 1-form gauge fields see the references at _[[Yang-Mills instanton]]_.
+
+Another proposal for a Lagrangian for self-dual higher gauge fields, at the cost of an unusual kinds of decoupled [[auxiliary fields]]:
+
+* {#Sen20} [[Ashoke Sen]], *Self-dual forms: Action, Hamiltonian and Compactification*,  Journal of Physics A: Mathematical and Theoretical, **53** 8 (2020) &lbrack;[arXiv:1903.12196](https://arxiv.org/abs/1903.12196), [doi:10.1088/1751-8121/ab5423](https://doi.org/10.1088/1751-8121/ab5423)&rbrack;
 
 
 
