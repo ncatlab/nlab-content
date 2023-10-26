@@ -233,7 +233,7 @@ The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed mono
 
 * Certain nice categories of _[[pointed object|pointed/based]]_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
 
-* The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
+* The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations. There is exactly one other closed monoidal structure on [[Cat]], given by the [[funny tensor product]].
 
 * The category $2 Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed symmetric monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
 
@@ -286,6 +286,10 @@ Original articles studying monoidal biclosed categories are
 * {#Lambek68} [[Joachim Lambek]], _Deductive systems and categories_, Mathematical Systems Theory 2 (1968), 287-318. 
  
 * {#Lambek69} [[Joachim Lambek]], _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
+
+The category [[Cat]] is shown to have exactly two [[closed monoidal category|closed monoidal]] structures, each [[symmetric monoidal|symmetric]], in the paper:
+
+* François Foltz, Christian Lair, and [[G. M. Kelly]], _Algebraic categories with few monoidal biclosed structures or none_, Journal of Pure and Applied Algebra **17** 2 (1980), 171-177.  ([pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>)
 
 For more historical development see at _[linear type theory -- History of linear categorical semantics](linear+type+theory#HistoryCategoricalSemantics)_.
 
