@@ -86,6 +86,8 @@ is the corresponding [[local action functional]].
 
 * [[Lagrangian quantum field theory]]
 
+* [[non-Lagrangian field theory]]
+
 [[!include Hamiltonian and Lagrangian -- table]]
 
 
