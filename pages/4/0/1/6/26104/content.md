@@ -42,6 +42,11 @@ The fact that they form a [[dagger-compact category]] &lbrack;[cf. [Abramsky & C
 
 * {#Landsman17} [[Klaas Landsman]], §A.1 in: *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
 
+Lecture notes:
+
+* [[Bergfinnur Durhuus]], §4.1, §4.2 in: *Operators on Hilbert Space* &lbrack;[pdf](https://web.math.ku.dk/~durhuus/MatFys/MatFys4.pdf), [[Durhuus-OperatorsOnHilbertSpace.pdf:file]]&rbrack;
+
+
 
 [[!redirects finite-dimensional Hilbert spaces]]
 
