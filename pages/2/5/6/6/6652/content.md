@@ -37,6 +37,10 @@ Discussion of [[gravitational waves]] in relation to the [[soft graviton theorem
 * Sergei Alexandrov, Jan Manschot, [[Boris Pioline]], _D3-instantons, Mock Theta Series and Twistors_, JHEP 1304 (2013) 
 002 ([arXiv:1207.1109](http://arxiv.org/abs/1207.1109))
 
+On [[Lagrangian densities]] for [[self-dual higher gauge fields]] (generically thought to be [[non-Lagrangian field theories]]) at the cost of an unusual decoupling [[auxiliary field]]:
+
+* {#Sen20} [[Ashoke Sen]], *Self-dual forms: Action, Hamiltonian and Compactification*,  Journal of Physics A: Mathematical and Theoretical, **53** 8 (2020) &lbrack;[arXiv:1903.12196](https://arxiv.org/abs/1903.12196), [doi:10.1088/1751-8121/ab5423](https://doi.org/10.1088/1751-8121/ab5423)&rbrack;
+
 
 On [[D-brane instantons]] and [[moduli stabilization]] in [[type II string theory]]:
 
@@ -53,7 +57,7 @@ reviewed in
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Sen's conjecture]]
 
