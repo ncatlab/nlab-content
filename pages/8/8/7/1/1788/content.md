@@ -67,7 +67,7 @@ A [[homomorphism]] of such vector bundles with $\sigma$-quadratic form is a morp
 
 Write 
 $$
-  Q Vect_{\mathbb{C}}(X,\sigma)
+  QVect_{\mathbb{C}}(X,\sigma)
 $$ 
 for the resulting [[category]].
 
@@ -75,7 +75,7 @@ The [[direct sum of vector bundles|direct sum of]] [[underlying]] vector bundles
 \[
   \label{MonoidOfSigmaQuadraticComplexVectorBundles}
   \big(
-    Q Vect_{\mathbb{C}}(X,\sigma)_{/\sim}, 
+    QVect_{\mathbb{C}}(X,\sigma)_{/\sim}, 
     \oplus
   \big)
   \;\;\;
@@ -93,7 +93,7 @@ $$
   \;\;
   G
   \big(
-    Q Vect_{\mathbb{C}}(X,\sigma)_{/\sim}, 
+    QVect_{\mathbb{C}}(X,\sigma)_{/\sim}, 
     \oplus
   \big)
   \,.
@@ -127,7 +127,7 @@ $$
 $$
 and carries a canonical $\sigma$-quadratic form (Def. \ref{SigmaQuadraticFormOnComplexVectorBundle}), given componentwise by the [[evaluation map]] $ev \,\colon\,\mathscr{V} \otimes \mathscr{V}^\ast \to \underline{\mathbb{C}}$.
 
-This construction extends to an [[additive functor]] from the [[core groupoid]] of [[VectBund|$Vect_{\mathbb{C}}(X)$]] to $Q Vect_{\mathbb{C}}(X,\sigma)$, called the *[[hyperbolic functor]]*, and hence define a [[group homomorphism]] from the ordinary [[topological K-theory]]-group of $X$ to its topological Hermtian K-theory (eq:TopologicalHermitianKTheoryDueToCrabb):
+This construction extends to an [[additive functor]] from the [[core groupoid]] of [[VectBund|$Vect_{\mathbb{C}}(X)$]] to $QVect_{\mathbb{C}}(X,\sigma)$, called the *[[hyperbolic functor]]*, and hence define a [[group homomorphism]] from the ordinary [[topological K-theory]]-group of $X$ to its topological Hermtian K-theory (eq:TopologicalHermitianKTheoryDueToCrabb):
 $$
   K(X) \to KH(X,\sigma)
   \,.
