@@ -67,9 +67,19 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 ## References
 
+### General
+
 Textbook accounts:
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §4 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+### On Hilbert spaces
+
+On linear operators on [[Hilbert spaces]] (see also at *[[operator algebra]]*):
+
+Lecture notes:
+
+* [[Bergfinnur Durhuus]], *Operators on Hilbert Space* &lbrack;[pdf](https://web.math.ku.dk/~durhuus/MatFys/MatFys4.pdf), [[Durhuus-OperatorsOnHilbertSpace.pdf:file]]&rbrack;
 
 
 
