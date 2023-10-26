@@ -124,7 +124,7 @@ Another, alternative "weak [[decomposable differential form|decomposition]]" of 
 
 with the interesting difference that for this splitting [[super Lie algebra]]  is non-abelian, in fact an extension of the Lie algebra of the [[Spin group]] $Spin(10,1)$ ([Ravera 18, (3.5)-(3-6)](#Ravera18)). 
 
-See also
+See also:
  
 * {#Ravera18b} [[Lucrezia Ravera]], _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_ ([arXiv:1802.06602](https://arxiv.org/abs/1802.06602))
 
