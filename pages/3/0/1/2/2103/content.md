@@ -26,8 +26,6 @@ Introducing [[star-autonomous categories]]:
 
 * [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
 
-* [[Michael Barr]], _$\ast$-Autonomous categories: once more around the track_, Theory and Applications of Categories **6** 1 (1999) 5-24 &lbrack;[tac](http://www.tac.mta.ca/tac/volumes/6/n1/6-01abs.html)&rbrack;
-
 On [[toposes]], [[monads]] ("triples") and [[algebraic theories]]:
 
 *  [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Grundlehren der math. Wissenschaften **278** Springer (1983), [[TAC reprints series|Reprints in Theory and Applications of Categories]] **12** (2005) 1-287 &lbrack;[ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt/), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf), [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack; 
@@ -36,6 +34,18 @@ On [[category theory]] in [[computer science]],
 via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
+
+On the [[Chu construction]] and [[star-autonomous categories]]:
+
+* [[Michael Barr]], *The separated extensional Chu category* Theory Appl. Categories **4** 6 (1998) 127–137 &lbrack;[tac:4-06](http://www.tac.mta.ca/tac/volumes/1998/n6/4-06abs.html)&rbrack;
+
+On [[star-autonomous categories]] of [[unit balls]] in [[Banach spaces]]:
+
+* [[Michael Barr]], [[Heinrich Kleisli]], *Topological balls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]], **40** 1 (1999) 3–20 &lbrack;[numdam:CTGDC_1999__40_1_3_0](http://www.numdam.org/item/?id=CTGDC_1999__40_1_3_0)&rbrack;
+
+More on [[star-autonomous categories]]:
+
+* [[Michael Barr]], _$\ast$-Autonomous categories: once more around the track_, Theory and Applications of Categories **6** 1 (1999) 5-24 &lbrack;[tac:6-01](http://www.tac.mta.ca/tac/volumes/6/n1/6-01abs.html)&rbrack;
 
 On topological [[star-autonomous categories]]:
 
