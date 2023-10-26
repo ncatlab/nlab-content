@@ -1,5 +1,6 @@
 
-* [website](http://www.physics.rutgers.edu/~gmoore/)
+* [website](http://www.physics.rutgers.edu/~gmoore)
+* wikipedia: [Greg Moore (physicist)](https://en.wikipedia.org/wiki/Greg_Moore_(physicist))
 
 ## Selected writings
 
@@ -13,7 +14,7 @@ d = 4, N = 2 theories_ [pdf](http://www.physics.rutgers.edu/grad/695/PiTP-Lectur
 
 Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
 
-* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-Brane Inflow and Anomalous Couplings on D-Branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
+* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-brane inflow and anomalous couplings on D-branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
 
 On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] in the [[fractional quantum Hall effect]]:
 
@@ -37,9 +38,9 @@ On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[b
 
 On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
-* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in a Time-Dependent Orbifold_, JHEP 0206:045, 2002 ([arXiv:hep-th/0204168](https://arxiv.org/abs/hep-th/0204168))
+* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in a time-dependent orbifold_, JHEP 0206:045, 2002 ([arXiv:hep-th/0204168](https://arxiv.org/abs/hep-th/0204168))
 
-* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in Time-Dependent Orbifolds_, JHEP 0210:031, 2002 ([arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182))
+* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in time-dependent orbifolds_, JHEP 0210:031, 2002 ([arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182))
 
 
 On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]] and [[higher U(1)-gauge theory]]:
