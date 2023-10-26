@@ -197,12 +197,34 @@ $$
   \rangle
   \,.
 $$
-Now since 
+
+Similarly
+$$
+  \langle
+    v_1
+    ,
+    \tau(v_2)
+  \rangle
+  \;=\;
+  \langle
+    \tau(v_2)
+    ,
+    v_1
+  \rangle^\ast
+  \;=\;
+  g(v_2, v_1)^\ast
+  \;=\;
+  g(v_1, v_2)^\ast
+  \;=\;
+  \langle \tau(v_1) \vert v_2 \rangle^\ast
+$$
+This means that
 $$
   \tau_{\sigma(x)} \circ \tau_x
   \,\colon\,
   \mathscr{V}_x \to \mathscr{V}_x
 $$
+is a self-adjoint operator with respect to $\langle -, - \rangle$.
 
 (...)
 
