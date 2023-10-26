@@ -2,10 +2,18 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functorial Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
@@ -30,6 +38,8 @@ Many [[topological quantum field theories]] may be constructed by abstract algeb
 Similarly, some classes of [[2d CFTs]] may be constructed by purely algebraic means, in particular the construction of 2d [[rational conformal field theory]] is completely reduced to an algebraic construction in suitable [[modular tensor categories]] by the [[FRS-theorem on rational 2d CFT]]. This includes the (chiral or non-chiral) [[WZW model]] mentioned above, but there are also [[2d CFTs]] that are thought to be genuinely "non-geometric", such as the [[Gepner model]].
 
 ## Related concepts
+
+* [[non-Lagrangian field theory]]
 
 * [[local quantum field theory]]
 
