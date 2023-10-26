@@ -65,9 +65,9 @@ Categories enriched in the funny tensor product monoidal structure are precisely
 
 ##References
 
-* [[Mark Weber]], _Free products of higher operad algebras_.   ([arXiv](https://arxiv.org/abs/0909.4722))
+* [[Mark Weber]], _Free products of higher operad algebras_, Theory and Applications of Categories **28** 2 (2013) 24-65. ([arXiv](https://arxiv.org/abs/0909.4722), [TAC](http://www.tac.mta.ca/tac/volumes/28/2/28-02abs.html))
 
 This paper shows that there are just two symmetric closed monoidal structures on $Cat$, the cartesian product and the funny tensor product:
 
-* François Foltz, Christian Lair, and [[G. M. Kelly]], _Algebraic categories with few monoidal biclosed structures or none_, *Journal of Pure and Applied Algebra* **17** (1980), 171-177.  ([pdf](https://core.ac.uk/download/pdf/82322397.pdf))
+* François Foltz, Christian Lair, and [[G. M. Kelly]], _Algebraic categories with few monoidal biclosed structures or none_, Journal of Pure and Applied Algebra **17** 2 (1980), 171-177.  ([pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>)
 
