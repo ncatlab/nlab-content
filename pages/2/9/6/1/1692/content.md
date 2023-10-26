@@ -290,6 +290,8 @@ As a special case of this universal property, if all the $\ast$-polycategories a
 
 * {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
 
+* [[Michael Barr]], *The separated extensional Chu category* Theory Appl. Categories **4** 6 (1998) 127–137 &lbrack;[tac:4-06](http://www.tac.mta.ca/tac/volumes/1998/n6/4-06abs.html)&rbrack;
+
 * {#BarrTobAb} [[Michael Barr]], *On duality of topological abelian groups*, &lbrack;[pdf](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)&rbrack;
 
 * [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
