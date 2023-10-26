@@ -691,7 +691,7 @@ The relation of these with the abelian version is given in
 
 The paper
 
-* [[Ellis, G.J.]] and [[Steiner, R.]] _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
+* [[G. J. Ellis]] and [[R. Steiner]] _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
 
 should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey theorem]].
 
