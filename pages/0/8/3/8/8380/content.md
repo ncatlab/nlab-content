@@ -1112,6 +1112,9 @@ Implementation in [[Haskell]]:
 * [[Alexander Green]], *[hackage.haskell.org/package/QIO](https://hackage.haskell.org/package/QIO)*
 
 
+Much of the text and the diagrams in the entry above follow
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Quantum Monadology|The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
 
 [[!redirects monad (computer science)]]
