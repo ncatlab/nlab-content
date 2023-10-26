@@ -42,9 +42,11 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 > For more and for general references see at _[[N=2 D=4 super Yang-Mills theory]]_.
 
-The original article is
+The original articles are
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In $N=2$ Supersymmetric Yang-Mills Theory_. Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
+* [[Nathan Seiberg]], [[Edward Witten]], _Monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory_, Nucl.Phys. B426:19--52, 1994; Erratum-ibid. B430:485--486, 1994 ([arXiv:hep-th/9407087](https://arxiv.org/abs/hep-th/9407087))
+* [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, duality and chiral symmetry breaking in $N=2$
+supersymmetric QCD, Nucl. Phys. B431 (1994) 484--550, [hep-th/9408099](https://arxiv.org/abs/hep-th/9408099)
 
 Reviews include
 
@@ -71,19 +73,17 @@ Discussion of lifts of SW-invariants to [[M-theory]] includes
 
 A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant stable cohomotopy]] is discussed in
 
-* M. Furuta,  (2001), _Monopole Equation and the 11/8-Conjecture_ , Mathematical Research Letters 8: 279&#8211;291 ([doi](http://dx.doi.org/10.4310/MRL.2001.v8.n3.a5))
+* M. Furuta,  (2001), _Monopole Equation and the 11/8-Conjecture_ , Mathematical Research Letters 8: 279--291 ([doi](https://doi.org/10.4310/MRL.2001.v8.n3.a5))
 
-* _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ ([arXiv:math/0204340](http://arxiv.org/abs/math/0204340))
+* Stefan Bauer, Mikio Furuta, _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ ([arXiv:math/0204340](https://arxiv.org/abs/math/0204340))
 
-* _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](http://arxiv.org/abs/math/0204267))
+* Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](https://arxiv.org/abs/math/0204267))
 
 ### Relation to Rozansky-Witten invariants
 
 On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invariants]] of [[3-manifolds]]:
 
-* [[Matthias Blau]], George Thompson, _On the Relationship between the Rozansky-Witten and the 3-Dimensional Seiberg-Witten Invariants_, Adv. Theor. Math. Phys. 5 (2002) 483-498 ([arXiv:hep-th/0006244](https://arxiv.org/abs/hep-th/0006244))
-
-
+* [[Matthias Blau]], George Thompson, _On the Relationship between the Rozansky-Witten and the 3-Dimensional Seiberg-Witten Invariants_, Adv. Theor. Math. Phys. 5 (2002) 483--498 ([arXiv:hep-th/0006244](https://arxiv.org/abs/hep-th/0006244))
 
 
 [[!redirects Seiberg-Witten duality]]
