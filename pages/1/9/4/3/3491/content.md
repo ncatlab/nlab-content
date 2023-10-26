@@ -480,6 +480,5 @@ Discussion in [[homotopy type theory]]:
 
 [[!redirects weak fibration]]
 [[!redirects weak fibrations]]
-
-
-
+[[!redirects Joyal fibration]]
+[[!redirects Joyal fibrations]]
