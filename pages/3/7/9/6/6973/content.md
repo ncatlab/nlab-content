@@ -33,6 +33,10 @@ On [[fibered categories]] following [[Jean Bénabou]]:
 
 * {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
 
+A [[2-comonad]] characterizing [[Grothendieck fibrations]]:
+
+* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
+
 
 
 category: people
