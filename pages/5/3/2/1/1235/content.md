@@ -56,6 +56,6 @@ See also
 
 Models for Voevodsky motives:
 
-* Peter Bonart. "Triangulated Categories of Big Motives via Enriched Functors". (2023). ([arXiv:2310.17349]((https://arxiv.org/abs/2310.17349)).
+* Peter Bonart. "Triangulated Categories of Big Motives via Enriched Functors". (2023). ([arXiv:2310.17349](https://arxiv.org/abs/2310.17349)).
 
 [[!redirects Voevodsky motives]]
