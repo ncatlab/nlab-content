@@ -49,9 +49,12 @@ natural in $b \in B$, where $[A, B]_{l, A'}(\Delta(b), F)$ is the 2-category of 
 ## References
 
 * [[Adjointness for 2-Categories]]
+
 * {#StreetLimitsIndexed} [[Ross Street]], _Limits indexed by category-valued 2-functors_ Journal of Pure and Applied Algebra **8**, Issue 2 (1976) pp 149-181. doi:[10.1016/0022-4049(76)90013-X](https://doi.org/10.1016/0022-4049(76%2990013-X)
+
 * Martin Szyld. _Lifting PIE limits with strict projections_ (2018), ([arXiv:1809.04712](https://arxiv.org/abs/1809.04712))
-* Luca Mesiti. _The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits_, (2023), ([arXiv:2302.04566](https://arxiv.org/abs/2302.04566))
+
+* [[Luca Mesiti]], *The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits* (2023), &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
 
 A proof of the equivalence between weighted 2-limits and marked 2-limits is given in the following, as well as a generalisation of these ideas to weighted limits for [[F-categories]]:
 
