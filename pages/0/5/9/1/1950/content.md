@@ -138,7 +138,7 @@ The original article:
 
 (...)
 
-The analog version for the ([[localization of an (infinity,1)-category|localization of]]) [[quasi-categories]] incarnated as [[marked simplicial sets]]:
+The analog of $Ex$ for the ([[localization of an (infinity,1)-category|localization of]]) [[quasi-categories]] incarnated as [[marked simplicial sets]]:
 
 * [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], Def. 7.2 in:*Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
 
