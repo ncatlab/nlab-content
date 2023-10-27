@@ -50,3 +50,7 @@ The resolution by the [[chiral Dolbeault complex]] is due to
 
 * A. Linshaw, [[Varghese Mathai]], _Twisted chiral de Rham complex, generalized geometry, and T-duality_, Commun. Math. Phys. __339__ (2015) 663--697 [doi](https://doi.org/10.1007/s00220-015-2403-z)
 
+* [[Mikhail Kapranov]], [[Eric Vasserot]], _Vertex algebras and formal loop space_, Publ. Math., Inst. Hautes Étud. Sci. 100 (2004) 209--269 (2004) [doi](https://doi.org/10.1007/s10240-004-0023-9) [arXiv:math/0107143](https://arxiv.org/pdf/math/0107143.pdf)
+
+> We construct a certain algebro-geometric version $\mathcal{L}(X)$ of the free loop space for a complex algebraic variety $X$.
+This is an ind-scheme containing the scheme $\mathcal{L}_0(X)$ of formal arcs in X as studied by Kontsevich and Denef-Loeser. We describe the chiral de Rham complex of Malikov, Schechtman and Vaintrob in terms of the space of formal distributions on $\mathcal{L}(X)$ supported in $\mathcal{L}_0(X)$. We also show that $\mathcal{L}(X)$ possesses a factorization structure: a certain non-linear version of a vertex algebra structure. This explains the heuristic principle that “all” linear constructions applied to the free loop space produce vertex algebras.
