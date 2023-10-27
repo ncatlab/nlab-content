@@ -23,7 +23,7 @@
 
 The formulation of the [[sigma-model]] 2d [[CFT]]s that are used in (super) [[string theory]] had originally been of two types:
 
-1. In the [[RNS-string]] forumlation the worldsheet is a [[supermanifold]], while the target space is an ordinary [[manifold]].
+1. In the [[RNS-string]] formulation the worldsheet is a [[supermanifold]], while the target space is an ordinary [[manifold]].
 
    The advantage of this formulation is that its [[quantization]] is comparatively tractable: it is a 2-dimensional superconformal field theory, coming with a super [[vertex operator algebra]].
 
@@ -87,7 +87,7 @@ A good reference that explains the sheaf of vertex operator algebra perspective 
 
 The standard reference on the closely related mathematical theory of the chiral deRham complex is
 
-* [[Vassily Gorbounov]], Fyodor Malikov, [[Vadim Schechtman]], _Gerbes of chiral differential operators_  Math. Res. Lett. __7__ (2000),  no. 1, 55--66, [MR2002c:17040](http://www.ams.org/mathscinet-getitem?mr=2002c:17040), [math.AG/9906117](http://arxiv.org/abs/math/9906117); _Gerbes of chiral differential operators. II. Vertex algebroids_, Invent. Math. __155__ (2004), no. 3, 605--680, [MR2005e:17047](http://www.ams.org/mathscinet-getitem?mr=2005e:17047), [math.AG/0003170](http://arxiv.org/abs/math/0003170), [doi](http://dx.doi.org/10.1007/s00222-003-0333-4); _Gerbes of chiral differential operators. III_, in: The orbit method in geometry and physics (Marseille, 2000),  73--100, Progr. Math. __213__, Birkh&#228;user 2003, [MR2005a:17028](http://www.ams.org/mathscinet-getitem?mr=2005a:17028), [math.AG/0005201](http://arxiv.org/abs/math/0005201), _On chiral differential operators over homogeneous spaces_, Int. J. Math. Math. Sci. __26__ (2001), no. 2, 83--106, [MR2002g:14020](http://www.ams.org/mathscinet-getitem?mr=2002g:14020), [math.AG/0008154](http://arxiv.org/abs/math/0008154), [doi](http://dx.doi.org/10.1155/S0161171201020051)
+* [[Vassily Gorbounov]], Fyodor Malikov, [[Vadim Schechtman]], _Gerbes of chiral differential operators_  Math. Res. Lett. __7__ (2000),  no. 1, 55--66, [MR2002c:17040](http://www.ams.org/mathscinet-getitem?mr=2002c:17040), [math.AG/9906117](http://arxiv.org/abs/math/9906117); _Gerbes of chiral differential operators. II. Vertex algebroids_, Invent. Math. __155__ (2004), no. 3, 605--680, [MR2005e:17047](http://www.ams.org/mathscinet-getitem?mr=2005e:17047), [math.AG/0003170](http://arxiv.org/abs/math/0003170), [doi](http://dx.doi.org/10.1007/s00222-003-0333-4); _Gerbes of chiral differential operators. III_, in: The orbit method in geometry and physics (Marseille, 2000),  73--100, Progr. Math. __213__, Birkh&#228;user 2003, [MR2005a:17028](http://www.ams.org/mathscinet-getitem?mr=2005a:17028), [math.AG/0005201](http://arxiv.org/abs/math/0005201), _On chiral differential operators over homogeneous spaces_, Int. J. Math. Math. Sci. __26__ (2001), no. 2, 83--106, [MR2002g:14020](http://www.ams.org/mathscinet-getitem?mr=2002g:14020), [math.AG/0008154](https://arxiv.org/abs/math/0008154), [doi](https://doi.org/10.1155/S0161171201020051)
 
 
 
@@ -106,6 +106,9 @@ Here is some blog discussion about this topic:
 
     _[Sheaves of CDOs](http://golem.ph.utexas.edu/string/archives/000668.html)_
 
+Nekrasov work referred to above is partly from
+
+* Nathan Berkovits, [[Nikita Nekrasov]], _The character of pure spinors_, Letters in Mathematical Physics (2005) 74:75--109 [doi](https://doi.org/10.1007/s11005-005-0009-7)
 
 [[!redirects Berkovits string]]
 
