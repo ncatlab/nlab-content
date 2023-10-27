@@ -90,7 +90,7 @@ See also:
 
 * {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
 
-An investigation of the interplay between the geometric [[cobordism hypothesis]] and *smooth* generalized symmetries is in:
+Work in the direction of *smooth* generalized symmetries:
 
 * {#GRT23} Ben Gripaios, Oscar Randal-Williams, Joseph Tooby-Smith. *Smooth generalized symmetries of quantum field theories*. (2023). [arXiv:2310.16090](https://arxiv.org/abs/2310.16090#).
 
