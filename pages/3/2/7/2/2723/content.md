@@ -33,13 +33,13 @@ The formulation of the [[sigma-model]] 2d [[CFT]]s that are used in (super) [[st
 
    This has the immediate advantage that target space supersymmetry is now "manifest": as described at [[supergravity]] it is just the super-[[diffeomorphism]] invariance of the theory, and the [[sigma-models]] in question all manifestly have this property.
 
-The big disadvantage is, that it is not known how to [[quantization|quantize]] this system. The reason is that the standard procedure for quantization shows that the GS-type sigma models are [[constrained mechanics|constrained]] systems with second-class constraints. Little to nothing is known how to deal with that.
+   The big disadvantage is, that it is not known how to [[quantization|quantize]] this system. The reason is that the standard procedure for quantization shows that the GS-type sigma models are [[constrained mechanics|constrained]] systems with second-class constraints. Little to nothing is known how to deal with that.
 
 Berkovits was motivated by the desire to find a formulation of the superstring sigma model CFT that would combine the advantages of both the RNS formulation and the Green-Schwarz formulation. The goal was to have a CFT that looked like a free field theory (as the RNS string does for a flat Minkowski background, but as the GS string does not) if one just looked at a small part of the range of its fields, but which was globally constrained: the spinorial worldsheet fields here are maps into a space of [[pure spinors]] that locally lools like a Euclidean space, but globally has a cone geometry (...details...).
 
 Berkovits originally wrote down some more or less ad-hoc expressions. Later it was understood that what described is a _[[sheaf]] of vertex operator algebras_ (in general, not a [[sheaf]] but a [[stack]], in fact a [[gerbe]]) on target space: to each contractible open patch of target space is associate the [[vertex operator algebra]] of a free [[sigma-model]] CFT whose fields take values _just_ in that patch, such that on overlaps these vertex operator algebras glue in some way.
 
-This at once made the previously mathemtically rather unjustified approach make close contact with the developing theory of [[chiral deRham complex]], which is one of the most-studied examples of sheaves of vertex operator algebras.
+This at once made the previously mathemtically rather unjustified approach make close contact with the developing theory of [[chiral de Rham complex]], which is one of the most-studied examples of sheaves of vertex operator algebras.
 
 ## Related concepts
 
