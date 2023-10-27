@@ -49,6 +49,11 @@ PIE-limits can also be characterized as the coalgebras for a [[pseudo morphism c
 
 * [[John Power]], [[Edmund Robinson]], *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc.  **110** (1991) 33 &lbrack;[doi:10.1017/S0305004100070092](https://doi.org/10.1017/S0305004100070092)&rbrack;
 
+On $\lambda$-small objects in PIE-limits:
+
+* [[Leonid Positselski]], _Notes on limits of accessible categories_, [arXiv:2310.16773](https://arxiv.org/abs/2310.16773).
+
+
 [[!redirects PIE-limit]]
 [[!redirects PIE limit]]
 [[!redirects PIE-limits]]
