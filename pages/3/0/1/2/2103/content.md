@@ -3,7 +3,6 @@ Michael Barr is the Peter Redpath Emeritus Professor of Pure Mathematics at McGi
 
 He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving [[monads]], especially monadicity criteria and [[monadic cohomology]].
 
-
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
 
@@ -34,6 +33,15 @@ On [[category theory]] in [[computer science]],
 via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
+
+
+On the [[Chu construction]] on [Vect]]:
+
+* [[Michael Barr]], *Separability of tensor in Chu categories of vector spaces*, Math. Structures Comp. Sci. **6** (1996) 213–217 &lbrack;[doi:10.1017/S0960129500000955](https://doi.org/10.1017/S0960129500000955), [pdf](https://www.math.mcgill.ca/barr/papers/sepvec.pdf), [[Barr-ChuOfVect.pdf:file]]&rbrack;
+
+On [[sketches]]:
+
+* [[Michael Barr]], *Notes on Sketches*, Technical report of the Electrotechnical Laboratory (computer language section), Tsukuba, Japan (1997) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/sketch.pdf), [[Barr-NotesOnSketches.pdf:file]]&rbrack;
 
 On [[relational structures]]:
 
