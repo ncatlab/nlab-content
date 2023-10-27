@@ -5,7 +5,13 @@
 
 On [[WZW models]] at [[rational number|fractional]] [[level (Chern-Simons theory)|level]]:
 
+
 * [[Sunil Mukhi]], Sudhakar Panda, *Fractional-level current algebras and the classification of characters*, Nuclear Physics B **338** 1 (1990) 263-282 $[$<a href="https://doi.org/10.1016/0550-3213(90)90632-N">doi:10.1016/0550-3213(90)90632-N</a>$]$
+
+* {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], p. 389 of: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 $[$<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)$]$
+
+  > (suggesting the fractional level $k = -5/4$ as related to [[Laughlin wavefunctions]] of [[anyons]])
+
 
 * [[Hidetoshi Awata]], [[Yasuhiko Yamada]], *Fusion rules for the fractional level $\widehat{\mathfrak{sl}(2)}$ algebra*,     Mod. Phys. Lett. A **7** (1992) 1185-1196 $[$[spire:332974](https://inspirehep.net/literature/332974), [doi:10.1142/S0217732392003645](https://doi.org/10.1142/S0217732392003645)$]$
 
@@ -71,15 +77,13 @@ and its lift to a [[logarithmic CFT]]:
 * {#LesageMathieuRasmussenSaleur04} F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *Logarithmic lift of the $\mathfrak{su}(2)_{-1/2}$ model*, Nuclear Physics B **686** 3 (2004) 313-346 &lbrack;[doi:10.1016/j.nuclphysb.2004.02.039](https://doi.org/10.1016/j.nuclphysb.2004.02.039)&rbrack;
 
 
-
-
 On quasi-characters at fractional level:
 
-* Sachin Grover, *Quasi-Characters in $\widehat{\mathfrak{su}}(2)$ Current Algebra at Fractional Levels* $[$[arXiv:2208.09037](https://arxiv.org/abs/2208.09037)$]$
+* [[Sachin Grover]], *Quasi-Characters in $\widehat{\mathfrak{su}}(2)$ Current Algebra at Fractional Levels*, SciPost Phys. Core **6** 068 (2023)  $[$[arXiv:2208.09037](https://arxiv.org/abs/2208.09037), [doi:10.21468/SciPostPhysCore.6.4.068](https://scipost.org/10.21468/SciPostPhysCore.6.4.068)$]$
 
 
 
 Identification of would-be fractional level [[su(2)|$\mathfrak{su}(2)$]] [[conformal blocks]] in [[twisted equivariant K-theory]] of [[configuration spaces of points]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], Rem. 2.3 in: *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
+* [[Hisham Sati]], [[Urs Schreiber]], Rem. 2.3 in: *[[schreiber:Anyonic defect branes in TED-K-theory]]*, Rev. Math. Phys. **35** 06 (2023) 2350009 $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838), [doi:10.1142/S0129055X23500095](https://doi.org/10.1142/S0129055X23500095)$]$
 
