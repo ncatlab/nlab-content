@@ -17,7 +17,7 @@ Other writings:
 
 * [[Friedrich Ulmer]]. *Locally presentable categories II* (1975)
 
-* [[Friedrich Ulmer]]. *Bialgebras in locally presentable categories*, University of Wuppertal preprint (1977).
+* [[Friedrich Ulmer]]. *Bialgebras in locally presentable categories*, University of Wuppertal preprint (1977). [[Bialgebras_in_locally_presentable_categories.pdf:file]]
 
 
 category:people
