@@ -106,6 +106,10 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 * [[Ross Street]], [[R. F. C. Walters]], *The Comprehensive Factorization of Functor*, Bulletin of the American Mathematical Society 79(5): 936-941 ([bams:1183534973](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-79/issue-5/The-comprehensive-factorization-of-a-functor/bams/1183534973.full), [doi:10.1090/S0002-9904-1973-13268-9](https://doi.org/10.1090/S0002-9904-1973-13268-9))
 
+Note there is a mistake in the proof of the main theorem of the paper above, as noted on page 74 of:
+
+* {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
 * [[Fosco Loregian]], [[Emily Riehl]], *Categorical Notions of Fibration*, Expositiones Mathematicae **38**, 2020. ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004))
 
 * [[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
