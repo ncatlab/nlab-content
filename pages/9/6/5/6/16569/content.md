@@ -114,7 +114,9 @@ Cambridge J. Math. __4__: 4 (2016)
  403-461 [doi](https://doi.org/10.4310/CJM.2016.v4.n4.a1)
 [arXiv:404.7483](https://arxiv.org/abs/1404.7483)
 
+A formal version (ind-scheme) of free loop space for a complex algebraic variety containing the Kontsevich-Denef-Loeser arc scheme is studied in
 
+* [[Mikhail Kapranov]], [[Eric Vasserot]], _Vertex algebras and formal loop space_, Publ. Math., Inst. Hautes Étud. Sci. 100 (2004) 209--269 (2004) [doi](https://doi.org/10.1007/s10240-004-0023-9) [arXiv:math/0107143](https://arxiv.org/pdf/math/0107143.pdf)
 
 
 [[!redirects arc spaces]]
