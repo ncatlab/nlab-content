@@ -116,3 +116,7 @@ and relating to [[Kan extensions]]:
 [[!redirects pseudo-monads]]
 [[!redirects strict 2-monads]]
 [[!redirects 2-monadic]]
+
+[[!redirects 2-comonad]]
+[[!redirects 2-comonads]]
+
