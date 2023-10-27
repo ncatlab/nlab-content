@@ -10,13 +10,12 @@
 =--
 
 # The Chu construction
-
 * table of contents
 {: toc}
 
 ## Idea
 
-In [[category theory]], the _Chu construction_ is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of [[Michael Barr]], who gave the construction in his master's thesis at McGill University. It has been extensively developed by [Pratt (1999)](#Pratt99) for its potential applications in [[computer science|Theoretical Computer Science]].
+In [[category theory]], the _Chu construction_ &lbrack;[Chu 1979](#Chu79)&rbrack; is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. The construction has been extensively developed by [Pratt (1999)](#Pratt99) for its potential applications in [[computer science|Theoretical Computer Science]].
 
 In outline, given a [[closed symmetric monoidal category]] $C$ with [[pullbacks]] and an [[object]] $d$ of $C$, there is a [[star-autonomous category]] $Chu(C, d)$ and a [[strong monoidal functor|strong]] [[symmetric monoidal functor]]
 
@@ -286,22 +285,33 @@ As a special case of this universal property, if all the $\ast$-polycategories a
 
 ## References ##
 
-* {#Pavlovic97} [[Duško Pavlović]], *Chu I: cofree equivalences, dualities and $\ast$-autonomous categories*, Mathematical Structures in Computer Science **7** 1 (1997) 49-73 &lbrack;[doi:10.1017/S0960129596002046](https://doi.org/10.1017/S0960129596002046)&rbrack;
+The constructin originates with
 
-* {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
+* {#Chu79} [[Po-Hsiang Chu]], *Constructing $\ast$-autonomous categories*, appendix to: [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) 103-138 &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
+
+
+Further early discussion:
+
+* [[Michael Barr]], *Separability of tensor in Chu categories of vector spaces*, Math. Structures Comp. Sci. **6** (1996) 213–217 &lbrack;[doi:10.1017/S0960129500000955](https://doi.org/10.1017/S0960129500000955), [pdf](https://www.math.mcgill.ca/barr/papers/sepvec.pdf), [[Barr-ChuOfVect.pdf:file]]&rbrack;
+
+* {#Pavlovic97} [[Duško Pavlović]], *Chu I: cofree equivalences, dualities and $\ast$-autonomous categories*, Mathematical Structures in Computer Science **7** 1 (1997) 49-73 &lbrack;[doi:10.1017/S0960129596002046](https://doi.org/10.1017/S0960129596002046)&rbrack;
 
 * [[Michael Barr]], *The separated extensional Chu category* Theory Appl. Categories **4** 6 (1998) 127–137 &lbrack;[tac:4-06](http://www.tac.mta.ca/tac/volumes/1998/n6/4-06abs.html)&rbrack;
 
-* {#BarrTobAb} [[Michael Barr]], *On duality of topological abelian groups*, &lbrack;[pdf](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)&rbrack;
+* {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
 
-* [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
+* {#BarrTobAb} [[Michael Barr]], *On duality of topological abelian groups*, &lbrack;[pdf](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)&rbrack;
 
 * [[Vaughan Pratt]], *Linear process algebra*, in: *Distributed Computing and Internet Technology ICDCIT 2011*,  Lecture Notes in Computer Science **6536**, Springer (2011) &lbrack;[doi:10.1007/978-3-642-19056-8_6](https://doi.org/10.1007/978-3-642-19056-8_6), [pdf](http://boole.stanford.edu/pub/bhub.pdf)&rbrack;
 
   > (uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency)
 
+On the history of the notion:
 
-Review and further pointers:
+* [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
+
+
+See also:
 
 * [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
 
