@@ -234,6 +234,10 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 
 * [[indexed topos]]
 
+* [[indexed Grothendieck construction]]
+
+* [[indexed monoidal category]]
+
 * [[hyperdoctrine]]
 
 ## References
