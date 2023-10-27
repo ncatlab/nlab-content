@@ -54,4 +54,8 @@ See also
 * [[V.  Voevodsky]], _Motives over [[simplicial scheme|simplicial schemes]]_, Journal of K-Theory, Volume 5, Issue 01 , pp 1 - 38, 
 (preliminary version in K-theory preprint archive: [here](http://www.math.uiuc.edu/K-theory/0638/).
 
+Models for Voevodsky motives:
+
+* Peter Bonart. "Triangulated Categories of Big Motives via Enriched Functors". (2023). ([arXiv:2310.17349]((https://arxiv.org/abs/2310.17349)).
+
 [[!redirects Voevodsky motives]]
