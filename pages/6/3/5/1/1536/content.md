@@ -1327,9 +1327,14 @@ be the [[contravariant functor|contravariant]] [[pseudofunctor]] which sends
 The [[Grothendieck construction]] on this functor may be called the *[[tangent category]]* of $\mathcal{S}$.
 \end{example}
 
+
 ## Related concepts
 
 * [[category of elements]]
+
+* [[indexed Grothendieck construction]]
+
+* [[2-Grothendieck construction]]
 
 * [[(infinity,1)-Grothendieck construction]]
 
