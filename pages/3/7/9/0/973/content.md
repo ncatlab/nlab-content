@@ -408,6 +408,11 @@ Overview in:
 
 * [[Charles Wells]], *Sketches: Outline with references*, 1993 ([citeseer:10.1.1.217.3531](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.217.3531), [[Wells_Sketches.pdf:file]])
 
+See also:
+
+* [[Michael Barr]], *Notes on Sketches*, Technical report of the Electrotechnical Laboratory (computer language section), Tsukuba, Japan (1997) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/sketch.pdf), [[Barr-NotesOnSketches.pdf:file]]&rbrack;
+
+
 Textbook accounts:
 
 * [[Michael Barr]], [[Charles Wells]], Section 4 of: *[[Toposes, Triples, and Theories]]*, Originally published by: Springer-Verlag, New York, 1985, republished in:
