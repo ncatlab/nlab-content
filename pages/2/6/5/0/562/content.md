@@ -404,6 +404,12 @@ On the [[2-category]] of fibrations and application to [[computer science]]:
 
 * {#HermidaThesis} [[Claudio Hermida]], [PhD thesis, University of Edinburgh](https://era.ed.ac.uk/bitstream/handle/1842/14057/Hermida1993.Pdf)
 
+A [[2-comonad]] characterizing Grothendieck fibrations:
+
+* [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
+
+
+
 See also:
 
 * [[Ronnie Brown|R. Brown]], R. Sivera, _Algebraic colimit calculations in homotopy theory using fibred and cofibred categories_, TAC **22** (2009) pp.222-251. ([pdf](http://www.tac.mta.ca/tac/volumes/22/8/22-08.pdf))
