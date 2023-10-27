@@ -1,17 +1,16 @@
-# Paranatural transformations
-
+[[!redirects paranatural transformation]]
 * table of contents
 {:toc}
 
 ## Idea
 
-A **paranatural transformation**, or **strong dinatural transformation**, is a notion of [[natural transformation]] between two functors $C^{op}\times C\to D$ that is stronger than a [[dinatural transformation]].
+A **strong dinatural transformation** is a notion of [[natural transformation]] between two functors $C^{op}\times C\to D$ that is stronger than a [[dinatural transformation]].
 
-Unlike dinatural transformations, paranatural transformations can always be composed.  They have close connections to [[parametricity]] in [[computer science]].
+Unlike dinatural transformations, strong dinatural transformations can always be composed.  They have close connections to [[parametricity]] in [[computer science]].
 
 ## Definition
 
-Let $F,G:C^{op}\times C\to D$ be functors.  A **paranatural transformation** $\alpha :F\to G$ consists of, for each $c\in C$, a component $\alpha_c : F(c,c) \to G(c,c)$, such that for any morphism $f:c\to c'$ in $C$ and any [[span]] $F(c',c') \leftarrow W \to F(c,c)$ in $D$, if the square on the left commutes, then the outer hexagon also commutes:
+Let $F,G:C^{op}\times C\to D$ be functors.  A **strong dinatural transformation** $\alpha :F\to G$ consists of, for each $c\in C$, a component $\alpha_c : F(c,c) \to G(c,c)$, such that for any morphism $f:c\to c'$ in $C$ and any [[span]] $F(c',c') \leftarrow W \to F(c,c)$ in $D$, if the square on the left commutes, then the outer hexagon also commutes:
 
 \[
 \begin{array}{ccccccc}
@@ -31,7 +30,7 @@ By comparison, a [[dinatural transformation]] asserts this condition *only* when
 
 Originally introduced (as strong dinatural transformations) in Definition 2.7 of
 
-* [[Philip S. Mulry]], _Strong Monads, Algebras and Fixed Points_, in: _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177, 202–216, [doi](https://doi.org/10.1017/CBO9780511525902.012).
+* [[Philip S. Mulry]], _Strong Monads, Algebras and Fixed Points_ (1991), in: _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177, 202–216, [doi](https://doi.org/10.1017/CBO9780511525902.012).
 
 Further developments:
 
@@ -50,6 +49,8 @@ Computer Science. IEEE, 115–126.
 
 * Tarmo Uustalu. *A Note on Strong Dinaturality, Initial Algebras and Uniform Parameterized Fixpoint Operators*. In
 FICS. 77–82.
+
+Strong dinatural transformations are called **paranatural transformations** in:
 
 * [[Jacob Neumann]], *Paranatural Category Theory*, 2023, [arxiv:2307.09289](https://arxiv.org/abs/2307.09289)
 
