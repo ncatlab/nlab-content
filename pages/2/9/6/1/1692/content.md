@@ -285,7 +285,7 @@ As a special case of this universal property, if all the $\ast$-polycategories a
 
 ## References ##
 
-The constructin originates with
+The construction originates with
 
 * {#Chu79} [[Po-Hsiang Chu]], *Constructing $\ast$-autonomous categories*, appendix to: [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) 103-138 &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
 
