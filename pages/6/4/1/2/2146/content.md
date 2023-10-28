@@ -13,6 +13,14 @@ On [[quantum programming]] via [[quantum logic]] understood as [[linear type the
 
 * {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
 
+On [[linear logic]] and the [[Chu construction]]:
+
+* {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
+
+  > "Linear logic is seen in its best light as the
+realization of the [[Curry-Howard isomorphism]] for [[linear algebra]]"
+
+
 On [[Chu spaces]]:
 
 * [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
