@@ -84,6 +84,11 @@ See also:
 * Jinzhog Xu; 1996; Flat Covers of Modules, SLNM 1634.
 * [[Walter Tholen]], "Essential weak factorization systems".  *Contributions to General Algebra* 13 (2001) 321-333.  [ps](http://www.math.yorku.ca/~tholen/newessential.ps).
 
+On injective hulls of [[partial order|partially ordered]] [[monoids]]:
+
+* [[Joachim Lambek]], [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Injective hulls of partially ordered monoids*, Theory Appl. Categories **26** 13 (2012) 338–348 &lbrack;[tac:16-13](http://www.tac.mta.ca/tac/volumes/26/13/26-13abs.html)&rbrack;
+
+
 [[!redirects injective envelopes]]
 
 [[!redirects injective hull]]
