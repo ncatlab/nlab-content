@@ -29,13 +29,20 @@ On [[toposes]], [[monads]] ("triples") and [[algebraic theories]]:
 
 *  [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Grundlehren der math. Wissenschaften **278** Springer (1983), [[TAC reprints series|Reprints in Theory and Applications of Categories]] **12** (2005) 1-287 &lbrack;[ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt/), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf), [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack; 
 
+On [[star-autonomous categories]] and the [[Chu construction]] as [[categorical semantics]] for [[linear logic]]:
+
+* [[Michael Barr]], *$\ast$-Autonomous categories and linear logic*, Math. Structures Comp. Sci. **1** 2 (1991) 159–178 &lbrack;[doi:10.1017/S0960129500001274](https://doi.org/10.1017/S0960129500001274), [pdf](https://www.math.mcgill.ca/barr/papers/scatll.pdf), [[Barr-AutomomousCatAndLinLogic.pdf:file]]&rbrack;
+
 On [[category theory]] in [[computer science]], 
 via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
+On the [[Chu construction]]:
 
-On the [[Chu construction]] on [Vect]]:
+* [[Michael Barr]], *The Chu construction*, Theory Appl. Categories **2** 2 (1996) 17–35 &lbrack;[tac:2-02](http://www.tac.mta.ca/tac/volumes/1996/n2/2-02abs.html)&rbrack;
+
+On the [[Chu construction]] on [[Vect]]:
 
 * [[Michael Barr]], *Separability of tensor in Chu categories of vector spaces*, Math. Structures Comp. Sci. **6** (1996) 213–217 &lbrack;[doi:10.1017/S0960129500000955](https://doi.org/10.1017/S0960129500000955), [pdf](https://www.math.mcgill.ca/barr/papers/sepvec.pdf), [[Barr-ChuOfVect.pdf:file]]&rbrack;
 
