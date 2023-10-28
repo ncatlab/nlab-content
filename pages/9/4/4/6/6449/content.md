@@ -462,6 +462,9 @@ For higher dimensional non-abelian Chern-Simons theory see for instance
 
 * G Giachetta, L Mangiarotti, G Sardanashvily, _Noether conservation laws in higher-dimensional Chern-Simons theory_ Modern Physics Letters A Volume 18(2003) ([pdf](http://gnsardan.appfarm.ru/a84.pdf))
 
+* Danhua Song, Mengyao Wu, Ke Wu, Jie Yang, *Higher Chern-Simons based on (2-)crossed modules*, JHEP **2023** 207 (2023) &lbrack;[arXiv:2212.04667](https://arxiv.org/abs/2212.04667), <a href="https://link.springer.com/article/10.1007/JHEP07(2023)207">doi:10.1007/JHEP07(2023)207</a>&rbrack;
+
+
 ### Formulation in differential cohomology
 
 For the formulation of abelian Chern-Simons theory by fiber integration over cup products in [[ordinary differential cohomology]] see
