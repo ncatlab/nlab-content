@@ -14,6 +14,10 @@ On [[coherent spaces]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Countable meets in coherent spaces with applications to the cyclic spectrum*, Theory Appl. Categories **25** 19 (2011), 508–232 &lbrack;[tac:25-19](http://www.tac.mta.ca/tac/volumes/25/19/25-19abs.html)&rbrack;
 
+On [[injective hulls]] of [[partial order|partially ordered]] [[monoids]]:
+
+* [[Joachim Lambek]], [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Injective hulls of partially ordered monoids*, Theory Appl. Categories **26** 13 (2012) 338–348 &lbrack;[tac:16-13](http://www.tac.mta.ca/tac/volumes/26/13/26-13abs.html)&rbrack;
+
 
 On [[star-autonomous categories]] of [[suplattice|sup]]-[[semilattices]]:
 
