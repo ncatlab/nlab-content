@@ -1327,7 +1327,7 @@ See also
 
 * [[local topos]] / [[local (∞,1)-topos]]
   
-  * [[Pi modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
+  * [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 * [[cohesive topos]] / **cohesive (∞,1)-topos**
 
@@ -1343,7 +1343,13 @@ and
 
 * [[cohesive site]], [[(∞,1)-cohesive site]]
 
+See also
+
+* [[fractured (infinity,1)-topos|fractured $\infty$-topos]]
+
 _unrelated_ is the notion of _[[cohesive ∞-prestack]]_
+
+
 
 ## References
 
