@@ -64,6 +64,8 @@ on [[spectral algebraic geometry]].
 
   [[big and little toposes]]
 
+  [[fractured (infinity,1)-topos|fractured $\infty$-topos]]
+
 * 21 Structured sheaves
 
 #### VII Variants of Spectral Algebraic Geometry
