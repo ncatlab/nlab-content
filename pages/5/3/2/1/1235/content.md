@@ -30,6 +30,8 @@ Voevodsky used the derived category of mixed motives to solve [[Milnor's conject
 
 See also 
 
+* [[motivic homotopy theory]]
+
 * [[motive]]
 
   * [[pure motive]]
