@@ -22,7 +22,7 @@
 
 Broadly speaking, _quantum logic_ is meant to be a kind of [[formal logic]] that is to traditional formal logic as [[quantum mechanics]] is to [[classical mechanics]]: a formal framework which is supposed to be able to _express_ the statements whose [[semantics]] is the totality of all what is verifiable by [[measurement]] in a [[quantum system]] ([[quantum measurement]]).
 
-In its traditional and default meaning due to ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)) "quantum logic" refers specifically to the [[orthocomplemented lattice]] of [[closed subspace|closed]] [[linear subspaces]] of a [[Hilbert space]] [[space of quantum states|of quantum states]]. Later it was proposed ([Yetter 90](#Yetter90), [Pratt 92](#Pratt92), [Abramsky-Duncan 05](#AbramskyDuncan05), [Girard 11](#Girard11)) that a better way to think of the BvN quantum lattices is as the [[propositions]] in [[linear logic]] ([Girard 87](#Girard)), the [[categorical logic]] of [[symmetric monoidal categories]]. 
+In its traditional and default meaning due to ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)) "quantum logic" refers specifically to the [[orthocomplemented lattice]] of [[closed subspace|closed]] [[linear subspaces]] of a [[Hilbert space]] [[space of quantum states|of quantum states]]. Later it was proposed ([Yetter 90](#Yetter90), [Pratt 92](#Pratt92), [93](#Pratt93), [Abramsky-Duncan 05](#AbramskyDuncan05), [Girard 11](#Girard11)) that a better way to think of the BvN quantum lattices is as the [[propositions]] in [[linear logic]] ([Girard 87](#Girard)), the [[categorical logic]] of [[symmetric monoidal categories]]. 
 
 There is also the proposal ([Heunen-Landsman-Spitters 07](#HeunenLandsmanSpitters07)) that quantum logic should be understood as being the [[internal logic]] of [[Bohr toposes]].
 
@@ -323,6 +323,11 @@ The relation of [[linear logic]] to [[quantales]], which have otherwise been pro
 Maybe the first to really say that linear logic is a good kind of quantum logic:
 
 * {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
+
+* {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
+
+  > "Linear logic is seen in its best light as the
+realization of the [[Curry-Howard isomorphism]] for [[linear algebra]]"
  
 First practical development of this perspective (see *[[quantum information theory in terms of dagger-compact categories]]):
 
