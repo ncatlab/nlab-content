@@ -195,11 +195,16 @@ Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $
 \end{definition}
 
 
-\begin{example}
+\begin{example}\label{DualizableModules}
 **([[dualizable modules]])**
 \linebreak
-More generally, in the [[symmetric monoidal category]] of [[modules]] over a [[commutative ring]], dualizable objects are precisely [[finitely generated module|finitely generated]] [[projective modules]].
+More generally, in the [[symmetric monoidal category]] of [[modules]] over a [[commutative ring]], dualizable objects are precisely [[finitely generated module|finitely generated]] [[projective modules]]. &lbrack;[Dold & Puppe 1984, Ex. 1.4](#DoldPuppe84)&rbrack;.
 See at *[[dualizable module]]* for more.
+\end{example}
+
+\begin{example}\label{DualizableChainComplexes}
+**(dualizable [[chain complexes]])**
+Yet more generally, in the [[category of chain complexes]] of [[modules]] over a [[commutative ring]], with respect to the [[tensor product of chain complexes]], an object is dualizable iff it is a [[bounded chain complex]] of [[dualizable modules]], hence (by Ex. \ref{DualizableModules}) a bounded chain complex of [[finitely generated module|finitely generated]] [[projective modules]] &lbrack;[Dold & Puppe 1984, Prop. 1.6](#DoldPuppe84)&rbrack;.
 \end{example}
 
 \begin{example}
