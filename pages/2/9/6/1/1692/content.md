@@ -15,7 +15,9 @@
 
 ## Idea
 
-In [[category theory]], the _Chu construction_ &lbrack;[Chu 1979](#Chu79)&rbrack; is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. The construction has been extensively developed by [Pratt (1999)](#Pratt99) for its potential applications in [[computer science|Theoretical Computer Science]].
+In [[category theory]], the _Chu construction_ &lbrack;[Chu 1979](#Chu79); [Barr 1991](#Barr91), [1996](#Barr96)&rbrack; is a method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. 
+
+Early discussion of application of the Chu construction as [[categorical semantics]] for [[linear logic]] is due to [Barr 1991](#Barr91) and, motivated &lbrack;[Pratt 1992](quantum+logic#Pratt92)&rbrack; by [[categorical semantics]] of [[quantum logic]] in [[star-autonomous categories]], due to [Pratt 1993](Pratt93), [1999](#Pratt99).
 
 In outline, given a [[closed symmetric monoidal category]] $C$ with [[pullbacks]] and an [[object]] $d$ of $C$, there is a [[star-autonomous category]] $Chu(C, d)$ and a [[strong monoidal functor|strong]] [[symmetric monoidal functor]]
 
@@ -244,17 +246,10 @@ The same principle extends to other situations. For example, [[Pontryagin dualit
 
 Similarly, the 2-Chu construction, $Chu(Cat, Set)$, exhibits dualities, such as [[Gabriel-Ulmer duality]].
 
-+--{.query}
-Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thinking Boolean algebras is appropriate, as we have $ I \to x^* \wp x $, $ x \otimes x^* \to D $ [where $\wp$ denotes Girard's "par" and $D$ denotes the dualizer], together with appropriate triangular equations, categorifying the inequalities $1 \leq (\neg x) \vee v$ and $x \wedge (\neg x) \leq 0$ in a Boolean algebra. ---Todd
-
-Now that I go to write [[Boolean rig]], I\'m not so sure.  I just know that $Chu(P X,\empty)$ at [[measurable space]] is *not* (even classically) a Boolean algebra.  I\'ll get back to you in a day or less.  ---Toby
-
-Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous frame (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
-=--
 
 ## Chu spaces (Simple examples)##
 
-One of the simplest occurrences of Chu space constructions, and the one explored in Pratt's notes (see below), leads to examples that although extremely simple have a well developed theory with connections to areas of logic and to [[formal concept analysis]]. This will be explored in a separate entry, [[Chu spaces, simple examples]].
+One of the simplest occurrences of Chu space constructions, and the one explored in [Pratt 1999](#Pratt99), leads to examples that although extremely simple have a well developed theory with connections to areas of logic and to [[formal concept analysis]]. This will be explored in a separate entry, [[Chu spaces, simple examples]].
 
 ## Properties ##
 
@@ -289,6 +284,11 @@ The construction originates with
 
 * {#Chu79} [[Po-Hsiang Chu]], *Constructing $\ast$-autonomous categories*, appendix to: [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) 103-138 &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
 
+* {#Barr91} [[Michael Barr]], *$\ast$-Autonomous categories and linear logic*, Math. Structures Comp. Sci. **1** 2 (1991) 159–178 &lbrack;[doi:10.1017/S0960129500001274](https://doi.org/10.1017/S0960129500001274), [pdf](https://www.math.mcgill.ca/barr/papers/scatll.pdf), [[Barr-AutomomousCatAndLinLogic.pdf:file]]&rbrack;
+
+
+* {#Barr96} [[Michael Barr]], *The Chu construction*, Theory Appl. Categories **2** 2 (1996) 17–35 &lbrack;[tac:2-02](http://www.tac.mta.ca/tac/volumes/1996/n2/2-02abs.html)&rbrack;
+
 
 Further early discussion:
 
@@ -298,7 +298,9 @@ Further early discussion:
 
 * [[Michael Barr]], *The separated extensional Chu category* Theory Appl. Categories **4** 6 (1998) 127–137 &lbrack;[tac:4-06](http://www.tac.mta.ca/tac/volumes/1998/n6/4-06abs.html)&rbrack;
 
-* {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
+* {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
+
+* {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]], [webpage](http://chu.stanford.edu/)&rbrack;
 
 * {#BarrTobAb} [[Michael Barr]], *On duality of topological abelian groups*, &lbrack;[pdf](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)&rbrack;
 
@@ -310,21 +312,29 @@ On the history of the notion:
 
 * [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
 
+Further resources:
+
+* [[Vaughan Pratt]], *Chu Spaces* &lbrack;[webpage](http://chu.stanford.edu/)&rbrack;
+
+  * [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
+
+  * *Algebras and Bialgebras via categories with distinguished objects* &lbrack;[pdf](http://boole.stanford.edu/pub/PrattCDOOct2016.pdf)&rbrack;
+
 
 See also:
 
-* [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
-
 * Wikipedia, *[Chu space](https://en.wikipedia.org/wiki/Chu_space)*
 
-* [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
+
+* [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
+
 
 
 On [[categorifications]] and generalizations:
 
-* {#Shulman17} Mike Shulman, _The 2-Chu Construction_, ([blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
+* {#Shulman17} [[Mike Shulman]], _The 2-Chu Construction_, ([blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
 
-* {#Shulman18} Mike Shulman, _The 2-Chu-Dialectica construction and the polycategory of multivariable adjunctions_, 2018 [arxiv](https://arxiv.org/abs/1806.06082)
+* {#Shulman18} [[Mike Shulman]], _The 2-Chu-Dialectica construction and the polycategory of multivariable adjunctions_, 2018 [arxiv](https://arxiv.org/abs/1806.06082)
 
 category: category
 
