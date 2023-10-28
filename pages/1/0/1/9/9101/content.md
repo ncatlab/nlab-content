@@ -65,6 +65,9 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
 ## References
 
+* Danhua Song, Mengyao Wu, Ke Wu, Jie Yang, *Higher Chern-Simons based on (2-)crossed modules*, JHEP **2023** 207 (2023) &lbrack;[arXiv:2212.04667](https://arxiv.org/abs/2212.04667), <a href="https://link.springer.com/article/10.1007/JHEP07(2023)207">doi:10.1007/JHEP07(2023)207</a>&rbrack;
+
+
 (...)
 
 
