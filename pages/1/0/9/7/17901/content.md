@@ -44,6 +44,28 @@ The Wheeler-DeWitt [[quantum mechanics]] of the [[type II superstring theory|typ
 
 * [[geometrodynamics]]
 
+* [[quantum gravity]]
+
+* [[quantum cosmology]]
+
 ## References
 
+Original articles:
+
+* {#DeWitt67} [[Bryce DeWitt]], *Quantum Theory of Gravity. I. The Canonical Theory*, Phys. Rev. **160** (1967) 1113 &lbrack;[doi:10.1103/PhysRev.160.1113](https://doi.org/10.1103/PhysRev.160.1113)&rbrack;
+
+The Wheeler-DeWitt equation is (5.5) in [DeWitt 1967](#DeWitt67)
+
+Review:
+
 * [[Domenico Giulini]], _The Superspace of Geometrodynamics_ ([arXiv:0902.3923](https://arxiv.org/abs/0902.3923))
+
+See also:
+
+* Wikipedia, *[Wheeler-DeWitt equation](https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation)*
+
+“Quantum Theory of Gravity. I. The Canonical Theory”
+
+[[!redirects Wheeler-DeWitt equation]]
+[[!redirects Wheeler-DeWitt equations]]
+
