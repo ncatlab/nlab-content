@@ -20,6 +20,10 @@ Discussion of straightening and unstraightening for [[(∞,n)-categories]]:
 
 * [[Lyne Moser]], [[Nima Rasekh]], [[Martina Rovelli]], _An (∞,n)-categorical straightening-unstraightening construction_ ([arXiv:2307.07259](https://arxiv.org/abs/2307.07259)).
 
+On [[fractured (infinity,1)-toposes|fractured $\infty$-toposes]] in [[condensed mathematics]] (cf. [[condensed local contractibility]]):
+
+* [[Nima Rasekh]], *What is a topological structure?*, talk notes (April 2023) &lbrack;[pdf](https://guests.mpim-bonn.mpg.de/rasekh/Condensed.pdf), [[Rasekh-TopologicalStructure.pdf:file]]&rbrack;
+
 ## Related entries
 
 * [[elementary (infinity,1)-topos]]
