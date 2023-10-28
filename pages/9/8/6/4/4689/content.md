@@ -158,6 +158,15 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 
 ### General
 
+Original discussion of the [[Wheeler-DeWitt equation]]:
+
+* {#DeWitt67} [[Bryce DeWitt]], (5.5) in:  *Quantum Theory of Gravity. I. The Canonical Theory*, Phys. Rev. **160** (1967) 1113 &lbrack;[doi:10.1103/PhysRev.160.1113](https://doi.org/10.1103/PhysRev.160.1113)&rbrack;
+
+For further early discussion of the subject see pointers in:
+
+* [[Cécile DeWitt-Morette]], *The Pursuit of Quantum Gravity -- Memoirs of Bryce DeWitt from 1946 to 2004*, Springer (2011) &lbrack;[doi:10.1007/978-3-642-14270-3_4](https://doi.org/10.1007/978-3-642-14270-3_4)&rbrack;
+
+
 Some of the standard lore about necessity of and the problems of quantum gravity are discussed in reviews such as
 
 * [[Steve Carlip]], _Quantum Gravity: a Progress Report_ ([arXiv:gr-qc/0108040](http://arxiv.org/abs/gr-qc/0108040))
