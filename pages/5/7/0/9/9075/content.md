@@ -17,6 +17,10 @@ On [[path integrals]] such as in [[quantum physics]]:
 
 * [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
 
+On the early history of [[quantum gravity]] along the memoirs of [[Bryce DeWitt]]:
+
+* [[Cécile DeWitt-Morette]], *The Pursuit of Quantum Gravity -- Memoirs of Bryce DeWitt from 1946 to 2004*, Springer (2011) &lbrack;[doi:10.1007/978-3-642-14270-3_4](https://doi.org/10.1007/978-3-642-14270-3_4)&rbrack;
+
 
 Many more to go here...
 
