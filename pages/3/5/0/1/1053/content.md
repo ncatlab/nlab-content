@@ -519,6 +519,10 @@ Review:
 
 and making explicit the [[categorical semantics]] of linear logic in the category [[FinDimVect]] of [[finite-dimensional vector spaces]]:
 
+* {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
+
+  > "Linear logic is seen in its best light as the realization of the [[Curry-Howard isomorphism]] for [[linear algebra]]"
+
 * [[Benoît Valiron]], [[Steve Zdancewic]], *Finite Vector Spaces as Model of Simply-Typed Lambda-Calculi*, in: *Proc. of ICTAC'14*, Lecture Notes in Computer Science **8687**, Springer (2014) 442-459 &lbrack;[arXiv:1406.1310](https://arxiv.org/abs/1406.1310), [doi:10.1007/978-3-319-10882-7_26](https://doi.org/10.1007/978-3-319-10882-7_26), slides:[pdf](https://www.cs.bham.ac.uk/~drg/bll/steve.pdf), [[Zdancewic-LinearLogicAlgebra.pdf:file]]&rbrack;
  
 * {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
@@ -533,9 +537,18 @@ The [[categorical semantics]] of linear logic in general [[star-autonomous categ
 
 * {#Seely} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
  
+* [[Michael Barr]], *$\ast$-Autonomous categories and linear logic*, Math. Structures Comp. Sci. **1** 2 (1991) 159–178 &lbrack;[doi:10.1017/S0960129500001274](https://doi.org/10.1017/S0960129500001274), [pdf](https://www.math.mcgill.ca/barr/papers/scatll.pdf), [[Barr-AutomomousCatAndLinLogic.pdf:file]]&rbrack;
+
 and for the special case of [[quantales]] in 
 
 * {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41--64.
+
+and further in view of the [[Chu construction]]:
+
+* {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
+
+* {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
+
  
 
 The more general case of of multiplicative intuitionistic linear logic interpreted more generally in [[symmetric monoidal categories]] was systematically developed in
