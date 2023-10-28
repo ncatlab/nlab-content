@@ -92,4 +92,9 @@ More on supersymmetric 5d CS theory is in
 
 * Sergei M. Kuzenko, Joseph Novak, _On supersymmetric Chern-Simons-type theories in five dimensions_, JHEP 1402 (2014) 096 ([arXiv:1309.6803](http://arxiv.org/abs/1309.6803))
 
+See also:
+
+* Danhua Song, Mengyao Wu, Ke Wu, Jie Yang, *Higher Chern-Simons based on (2-)crossed modules*, JHEP **2023** 207 (2023) &lbrack;[arXiv:2212.04667](https://arxiv.org/abs/2212.04667), <a href="https://link.springer.com/article/10.1007/JHEP07(2023)207">doi:10.1007/JHEP07(2023)207</a>&rbrack;
+
+
 [[!redirects 5-dimensional Chern-Simons theory]]
