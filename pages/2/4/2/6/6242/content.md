@@ -326,8 +326,7 @@ Maybe the first to really say that linear logic is a good kind of quantum logic:
 
 * {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
 
-  > "Linear logic is seen in its best light as the
-realization of the [[Curry-Howard isomorphism]] for [[linear algebra]]"
+  > "Linear logic is seen in its best light as the realization of the [[Curry-Howard isomorphism]] for [[linear algebra]]"
  
 First practical development of this perspective (see *[[quantum information theory in terms of dagger-compact categories]]):
 
