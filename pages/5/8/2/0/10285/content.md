@@ -1,7 +1,14 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Bryce_DeWitt)
 
+* [[Cécile DeWitt-Morette]], *The Pursuit of Quantum Gravity -- Memoirs of Bryce DeWitt from 1946 to 2004*, Springer (2011) &lbrack;[doi:10.1007/978-3-642-14270-3_4](https://doi.org/10.1007/978-3-642-14270-3_4)&rbrack;
+
 ## Selected writings
+
+Early discussion of [[quantum gravity]] and introducing what came to be called the *[[Wheeler-DeWitt equation]]* (5.5):
+
+* {#DeWitt67} [[Bryce DeWitt]], *Quantum Theory of Gravity. I. The Canonical Theory*, Phys. Rev. **160** (1967) 1113 &lbrack;[doi:10.1103/PhysRev.160.1113](https://doi.org/10.1103/PhysRev.160.1113)&rbrack;
+
 
 On the [[many-worlds interpretation of quantum mechanics]]:
 
@@ -15,6 +22,8 @@ On the [[many-worlds interpretation of quantum mechanics]]:
 * [[Peierls bracket]]
 
 * [[Feynman propagator]]
+
+* [[quantum gravity]]
 
 category: people
 
