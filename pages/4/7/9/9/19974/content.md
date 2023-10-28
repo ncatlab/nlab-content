@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+The [[Sugimoto string]]:
+
+* {#Sug99} [[Shigeki Sugimoto]]. *Anomaly cancellations in type I D-9 - anti-D-9 system and the USp(32) string theory*. Prog. Theor. Phys. **102** (1999) 685-699 &lbrack;[hep-th/9905159](https://arxiv.org/abs/hep-th/9905159), [doi:10.1143/PTP.102.685](https://doi.org/10.1143/PTP.102.685)&rbrack;
+
+
 On [[orientifolds]], [[O-planes]] and [[RR-field tadpole cancellation]]:
 
 * Yoshifumi Hyakutake, Yosuke Imamura, [[Shigeki Sugimoto]], _Orientifold Planes, Type I Wilson Lines and Non-BPS D-branes_, JHEP 0008 (2000) 043 ([arXiv:hep-th/0007012](https://arxiv.org/abs/hep-th/0007012))
