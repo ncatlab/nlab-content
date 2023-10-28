@@ -92,15 +92,19 @@ and see
 
 * _[[The Stacks Project]]_
 
-Discussion of fundamental constructions of algebraic geometry from the perspective of the [[internal logic]] of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]]/[[etale topos]]) is in 
+On [[synthetic algebraic geometry]], i.e. via the [[internal logic]] of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]]/[[étale topos]]):
 
 * {#Blechschmidt15} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, talk at [Toposes at IHES](https://indico.math.cnrs.fr/event/747/), November 2015 ([pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf), [recording](https://www.youtube.com/watch?v=7S8--bIKaWQ))
 
-* {#Blechschmidt16} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, thesis 2016 ([pdf](http://rawgit.com/iblech/internal-methods/master/notes.pdf))
+* [[Ingo Blechschmidt]], *Using the internal language of toposes in algebraic geometry*, PhD thesis (2017) &lbrack;[pdf](https://rawgit.com/iblech/internal-methods/master/notes.pdf), [[Blechschmidt-InternalLanguage.pdf:file]]&rbrack;
 
-For more see 
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], *A Foundation for Synthetic Algebraic Geometry* (2023) &lbrack;[arXiv:2307.00073](https://arxiv.org/abs/2307.00073)&rbrack;
 
-* [[Ingo Blechschmidt]], _Internal methods_ [github repository](https://github.com/iblech/internal-methods)
+* [[Felix Cherubini]], *A Foundation for Synthetic Algebraic Geometry*, talk at *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (Oct 2023) &lbrack;slides:[pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Cherubini-2023-10-18-HoTTEST.pdf), video:[YT](https://www.youtube.com/watch?v=lp4kcmQ0ueY)&rbrack;
+
+For more see:
+
+* [[Ingo Blechschmidt]], _Internal methods_ &lbrack;[github](https://github.com/iblech/internal-methods)&rbrack;
 
 
 category: algebraic geometry
