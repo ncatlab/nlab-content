@@ -134,7 +134,7 @@ Therefore Real vector bundles over a [[Real space]] $X$ whose [[involution]] is 
 
 
 \begin{remark}
-  The complex numbers $\mathbb{C}$ equipped with their [[involution]] by [[complex conjugation]] under their usual multiplication operation form a [[monoid object]] [[internalization|internal]] to the category of $\mathbb{R}$-vector spaces equipped with $\mathbb{R}$-linear involution, the "[Real complex numbers](Hermitian+form#RealComplexNumbers)"
+  The complex numbers $\mathbb{C}$ equipped with their [[involution]] by [[complex conjugation]] under their usual multiplication operation form a [[monoid object]] [[internalization|internal]] to the category of $\mathbb{R}$-vector spaces equipped with $\mathbb{R}$-linear involution, the "[Real numbers](Hermitian+form#RealComplexNumbers)"
 \[
   \label{RealComplexNumbers}
   \mathbb{Z}_2 \curvearrowright \mathbb{C}
@@ -146,7 +146,7 @@ Therefore Real vector bundles over a [[Real space]] $X$ whose [[involution]] is 
   \big)
   \,.
 \]
-The Real vector bundles of Def. \ref{AtiyahRealVectorBundle} are equivalently the vector bundles [[internalization|internal]] to the [[topos]] [[G-set|$\mathbb{Z}_2 Set$]] with the "[[ground ring|ground monoid]]" taken to be the Real complex numbers (eq:RealComplexNumbers).
+The Real vector bundles of Def. \ref{AtiyahRealVectorBundle} are equivalently the vector bundles [[internalization|internal]] to the [[topos]] [[G-set|$\mathbb{Z}_2 Set$]] with the "[[ground ring|ground monoid]]" taken to be the Real numbers (eq:RealComplexNumbers).
 \end{remark}
 
 
