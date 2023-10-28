@@ -68,8 +68,13 @@ Notions of bialgebra with further structure notably include _[[Hopf algebras]]_ 
 
 [[Tannaka duality]] for bialgebras
 
-* T&#248;rris Kol&#248;en Bakke, _Hopf algebras and monoidal categories_ (2007) ([pdf](http://munin.uit.no/bitstream/handle/10037/1084/finalthesis.pdf;jsessionid=C0D15EADBDC35E93D95D2DD090411004?sequence=1))
- {#Bakke}
+* {#Bakke} T&#248;rris Kol&#248;en Bakke, _Hopf algebras and monoidal categories_ (2007) ([pdf](http://munin.uit.no/bitstream/handle/10037/1084/finalthesis.pdf;jsessionid=C0D15EADBDC35E93D95D2DD090411004?sequence=1))
+ 
+
+On [[bialgebras]] in [[locally presentable categories]]:
+
+* [[Friedrich Ulmer]]. *Bialgebras in locally presentable categories*, University of Wuppertal preprint (1977) &lbrack;[pdf](/nlab/files/Bialgebras_in_locally_presentable_categories.pdf)&rbrack;
+
 
 
 [[!redirects bialgebra]]
