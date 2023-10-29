@@ -67,6 +67,11 @@ On [[string topology]] and [[TCFT]]:
 
 * [[Andrew Blumberg]], [[Ralph Cohen]], Constantin Teleman, _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
 
+On [[TQFT]]:
+
+
+* {#Teleman14} [[Constantin Teleman]], *Five lectures on topological field theory*, in *Geometry and Quantization of Moduli Spaces*, CRM Advanced Courses in Mathematics, Birkhäuser (2016) &lbrack;[doi:10.1007/978-3-319-33578-0_3](https://doi.org/10.1007/978-3-319-33578-0_3), [pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf), [[Teleman-LecturesOnTFT.pdf:file]]&rbrack;
+
 
 
 
