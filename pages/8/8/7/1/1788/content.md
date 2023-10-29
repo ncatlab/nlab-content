@@ -1,4 +1,5 @@
 
+
 Let $X$ be a [[compact Hausdorff space]]. By a [[vector bundle]] (over $X$) we mean a [[topological vector bundle|topological]] [[complex vector bundle]].
 
 Let $X$ be equipped with an [[involution]] $\sigma \,\colon\, X \to X$ (a [[homeomorphism]] such that $\sigma \circ \sigma = Id_X$ is the [[identity function]]).
