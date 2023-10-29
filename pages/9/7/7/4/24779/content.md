@@ -3,8 +3,12 @@
 
 ## Selected writings
 
-On [[higher Segal spaces]]:
+On [[self-dual object|self-dual]] [[modules]] over [[Hall algebras]]:
 
+* [[Matthew B. Young]], *Self-Dual Hall modules*, PhD thesis, Stony Brook (2013) &lbrack;[pdf](https://www.math.stonybrook.edu/alumni/2013-Matthew-Young.pdf), [[Young-HallModules.pdf:file]]&rbrack;
+
+
+On [[higher Segal spaces]]:
 
 * [[Matthew B. Young]], *Relative 2-Segal spaces*, Algebraic & Geometric Topology **18** (2018) 975-1039 &lbrack;[doi:10.2140/agt.2018.18.975](https://doi.org/10.2140/agt.2018.18.975)&rbrack;
 
