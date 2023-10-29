@@ -2,7 +2,13 @@ Claus Michael Ringel is a German algebraist.
 
 * personal [page at Bielefeld](https://www.math.uni-bielefeld.de/~ringel)
 
+
 ## Selected work
+
+On [[Hall algebras]]:
+
+* [[Claus M. Ringel]], *The Hall multiplication]*, lecture notes  (2006) &lbrack;[web](https://www.math.uni-bielefeld.de/~ringel/lectures/green/Welcome.html)&rbrack; 
+
 
 Ringel realized that [[Hall algebra|Hall's construction]] of an associative algebra structure from the combinatorics of flags of [[p-group|p-abelian groups]] (defined in terms of numbers of extensions) can be applied to the category of representations of a quiver over a finite field $\mathbf{F}_q$ and related it to quantum groups in
 
@@ -18,3 +24,6 @@ Other works include
 category: people
 [[!redirects C. M. Ringel]]
 [[!redirects Claus Ringel]]
+[[!redirects Claus M. Ringel]]
+
+
