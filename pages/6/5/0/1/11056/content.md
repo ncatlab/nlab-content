@@ -41,6 +41,7 @@ See for instance ([Selinger, remark 4.5](#Selinger)).
 Applied for instance to the category of finite-dimensional [[inner product spaces]] this dagger-operation sends [[matrices]] to their [[transposed matrix]]. 
 
 ## Graphical language
+ {#GraphicalLanguage}
 
 In terms of [[string diagrams]] (following Joyal and Street's conventions for [[braided monoidal categories]]), [Selinger](#Selinger) argues that the isomorphism $h_X : X \simeq X^\ast$ should be depicted as a half-twist.  In particular, for a [[tortile category]] equipped with a self-duality structure, the [[coherence]] condition
 
@@ -51,7 +52,7 @@ $$
 
 decomposes a full [[twist]] into a pair of half-twists.
 
-This is a special case of half-twists as described by [Egger](#Egger).
+This is a special case of half-twists as described by [Egger 2011](#Egger11).
 
 ## Related concepts
 
@@ -60,9 +61,14 @@ This is a special case of half-twists as described by [Egger](#Egger).
 ## References
 
 * {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
- 
 
-* {#Egger}[[Jeff Egger]], _On involutive monoidal categories_, Theory and Applications of Categories, Vol. 25, 2011, No. 14, pp 368-393. ([TAC](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html))
+* Chenjing Bu, Def. 3.2 in: *Enumerative invariants in self-dual categories. I. Motivic invariants* &lbrack;[arXiv:2302.00038](https://arxiv.org/abs/2302.00038)&rbrack;
+
+On half-twists as [above](#GraphicalLanguage)
+
+* {#Egger11} [[Jeff Egger]], *On involutive monoidal categories*, Theory and Applications of Categories **25** 14 (2011) 368-393 &lbrack;[tac:25-14](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html)&rbrack;
+
+
 
 [[!redirects self-dual objects]]
 
