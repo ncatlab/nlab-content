@@ -110,7 +110,9 @@ On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]
 
 * [[Chris Hull]], *Gravity, Duality and Conformal Symmetry* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
 
+On [[type II string theory]] and [[M-theory]] on [[spacetime]] with different [[signature of a metric|signatures]]:
 
+* [[Chris Hull]]. *Duality and the signature of space-time.* Journal of High Energy Physics 1998, no. 11 (1999): 017.
 
 
 ## Related $n$Lab entries
