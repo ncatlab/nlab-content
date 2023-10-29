@@ -1,4 +1,4 @@
-## Painlev&#233; transcendents
+## Overview of Painlev&#233; transcendents
 
 In the study of ordinary differential equations one of the important things is the behaviour of [[monodromies]] and closely related singularities of solutions. In the linear case, the poles possibly appear just at the poles of coefficients of the solutions. In the nonlinear case the solutions can appear elsewhere and generally propagate with change of initial conditions. Very important is if the singularities do not move or monodromies don't change with change of parameters. 
 An [[ordinary differential equation]] (ODE) satisfies the __Painlev&#233; property__ if all solutions are single valued around every movable singularity (this is more effective way to express that they can be made single-valued functions by uniformization). A class of such "good" nonlinear equations has been defined by __Paul Painlev&#233;__ ([wikipedia](http://en.wikipedia.org/wiki/Paul_Painlev%C3%A9)), who discovered at the end of 19th century a truly remarkable fact that all _second order_ ODEs of the form
@@ -55,7 +55,7 @@ Modern viewpoint to R. Fuchs work
 
 Connection to [[mirror symmetry]] is in
 
-* Yu. I. Manin, _Rational curves, elliptic curves, and the Painlevé equation_, Surveys in modern mathematics, London Math. Soc. Lec. Note Ser. __321__, Cambridge Univ. Press 2005, 24-33 [doi](https://doi.org/10.1017/CBO9780511614156.004) MR2166923
+* [[Yu. I. Manin]], _Rational curves, elliptic curves, and the Painlevé equation_, Surveys in modern mathematics, London Math. Soc. Lec. Note Ser. __321__, Cambridge Univ. Press 2005, 24-33 [doi](https://doi.org/10.1017/CBO9780511614156.004) MR2166923
 
 An arithmetic analogue is studied in 
 
@@ -66,7 +66,7 @@ An arithmetic analogue is studied in
 * M. Olshanetsky, _Painlevé type equations and Hitchin systems_, Proc. "Integrability: the Seiberg-Witten and Whitham Equations", Edinburgh, Sep. 1998 [math-ph/9901019](https://arxiv.org/abs/math-ph/9901019)
 * AM Levin, MA Olshanetsky, _Hierarchies of isomonodromic deformations and Hitchin systems_, [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.263.2907&rep=rep1&type=pdf)
 
-* Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
+* Martin D. Kruskal, [[Nalini Joshi]], Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
 
 * Hiroshi Umemura, _On the irreducibility of the first differential equation of Painlevé_, Algebraic geometry and commutative algebra, Vol. II, Kinokuniya, Tokyo (1988) 771–789; _Second proof of the irreducibility of the first differential equation of Painlevé_, Nagoya Math. J. __117__, 125-171 [doi](https://doi.org/10.1017/S0027763000001835)
 * Robert Conte, Micheline Musette, _The Painlevé handbook_
@@ -78,7 +78,7 @@ An arithmetic analogue is studied in
 * A. A. Bolibruch, A. R. Its, A. A. Kapaev, _On the Riemann&#8211;Hilbert&#8211;Birkhoff inverse monodromy problem and the Painlev&#233; equations_, &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072; &#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;, 16:1 (2004), 121&#8211;162 
 * M. V. Babich, _Isomonodromic deformations and Painlevé equations_, Constr. Approx. 41:3 (2015) 335-356 [doi](https://doi.org/10.1007/s00365-015-9286-2)
 * Leonid O. Chekhov, Marta Mazzocco, Vladimir N. Rubtsov, _Painlevé monodromy manifolds, decorated character varieties, and cluster algebras_, IMRN __24__ (2017) 7639–7691 [arxiv/1511.03851](https://arxiv.org/abs/1511.03851) [doi](https://doi.org/10.1093/imrn/rnw219); _Algebras of quantum monodromy data and decorated character varieties_, n: Geometry and physics: A Festschrift in honour of Nigel Hitchin, Oxford Univ. Press 2018 [arxiv/1705.01447](https://arxiv.org/abs/1705.01447); _Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras_, Adv. Math. __376__ (2021) 107442 [arxiv/1905.02772](https://arxiv.org/abs/1905.02772) [doi](https://doi.org/10.1016/j.aim.2020.107442)
-* Marta Mazzocco, Vladimir Rubtsov, _Confluence on the Painlevé monodromy manifolds, their Poisson structure and quantisation_, [arXiv/1212.6723](https://arxiv.org/abs/1212.6723)
+* Marta Mazzocco, [[Vladimir Rubtsov]], _Confluence on the Painlevé monodromy manifolds, their Poisson structure and quantisation_, [arXiv/1212.6723](https://arxiv.org/abs/1212.6723)
 
 * Marco Bertola, _Fredholm determinants and (noncommutative) Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentations/Bertola.pdf)
 
@@ -91,16 +91,16 @@ An arithmetic analogue is studied in
 Multidimensional generalizations of Painlev&#233; VI are introduced in 
 
 * G. Aminov, S. Arthamonov, A. Levin, M. Olshanetsky, A. Zotov, _Painlev&#233; field theory_, [arXiv/1306.3265](https://arxiv.org/abs/1306.3265)
-* Nalini Joshi, Pieter Roffelsen, _On the monodromy manifold of $q$-Painlevé VI and its Riemann-Hilbert problem_, [arXiv/2202.10597](https://arxiv.org/abs/2202.10597)
-* Nikita Nekrasov, _Blowups in BPS/CFT correspondence, and Painlevé VI_, [arXiv:2007.03646](https://arxiv.org/abs/2007.03646)
+* [[Nalini Joshi]], Pieter Roffelsen, _On the monodromy manifold of $q$-Painlevé VI and its Riemann-Hilbert problem_, [arXiv/2202.10597](https://arxiv.org/abs/2202.10597)
+* [[Nikita Nekrasov]], _Blowups in BPS/CFT correspondence, and Painlevé VI_, [arXiv:2007.03646](https://arxiv.org/abs/2007.03646)
 
 
 #### Model-theoretic aspects
 
 * Joel Nagloo, _Geometric triviality of the strongly minimal second Painlevé equations_ Annals of Pure and Applied Logic, 166(3):358–368, 2015.
 * J. Nagloo, A. Pillay, _On  the  algebraic  independence  of  generic  Painlevé transcendents_, Compos.Math. __150__ (2014) 668-678.
-* James Freitag, _Algebraic relations between solutions of Painlevé equations_, [arXiv:1710.03304](https://arXiv.org/abs/1710.03304)
-* Guy Casale, James Freitag, Joel Nagloo, _Ax-Lindemann-Weierstrass with derivatives and the genus 0 Fuchsian groups_, Annals of Mathematics __192__ (2020), 721–765 [doi](https://doi.org/10.4007/annals.2020.192.3.2)
+* [[James Freitag]], _Algebraic relations between solutions of Painlevé equations_, [arXiv:1710.03304](https://arXiv.org/abs/1710.03304)
+* Guy Casale, [[James Freitag]], Joel Nagloo, _Ax-Lindemann-Weierstrass with derivatives and the genus 0 Fuchsian groups_, Annals of Mathematics __192__ (2020), 721–765 [doi](https://doi.org/10.4007/annals.2020.192.3.2)
 
 [[!redirects Painlev%C3%A9 transcendent]]
 [[!redirects Painlev%C3%A9 transcendents]]
