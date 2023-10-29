@@ -80,7 +80,7 @@ On half-twists as [above](#GraphicalLanguage)
 
 * {#Teleman16} [[Constantin Teleman]], Rem. 1.7 in: *Five lectures on topological field theory*, in *Geometry and Quantization of Moduli Spaces*, CRM Advanced Courses in Mathematics, Birkhäuser (2016) &lbrack;[doi:10.1007/978-3-319-33578-0_3](https://doi.org/10.1007/978-3-319-33578-0_3), [pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf), [[Teleman-LecturesOnTFT.pdf:file]]&rbrack;
 
-same in the non-topological case:
+same non-topological [[functorial field theory]]
 
 * {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], Thm 6.1.5 in: *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
 
