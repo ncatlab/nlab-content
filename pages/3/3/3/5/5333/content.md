@@ -39,16 +39,16 @@ A priori the [[worldsheet]] [[2d SCFT]] describing the quantum heterotic string 
 
 ### Gauge groups
 
-Precisely two ([[isomorphism classes]] of) [[gauge groups]] are consistent (give [[quantum anomaly cancellation]]) *while preserving [[supersymmetry]]*: one is the [[direct product group]] $E_8 \times E_8$ of the [[exceptional Lie group]] [[E8]] with itself, the other is in fact the [[semi-spin group]] $SemiSpin(32)$.
+Precisely two ([[isomorphism classes]] of) [[gauge groups]] are consistent (give [[quantum anomaly cancellation]]) *while preserving [[supersymmetry]]*: one is the [[direct product group]] $E_8 \times E_8$ of the [[exceptional Lie group]] [[E8]] with itself, the other is in fact the [[semi-spin group]] [[SemiSpin(32)|$SemiSpin(32)$]].
 
-If the supersymmetry requirement is dropped, then there is a third option, which [[Lie algebra|locally]] looks like the product of the [[special orthogonal group]] $SO(16)\times SO(16)$, as first described in ([Alvarez-Gaumé, Ginsparg, Moore, and Vafa (1986)](#AGMV86het)) and in ([Dixon, and Harvey (1986)](#DH86het)). It was suggested in ([Schellekens, and Warner (1987)](#SW87anom)) that this theory could be regarded as some sort of "difference" (what is better understood as a [[correspondence]], or duality) between the $E_8\times E_8$ and $\text{SemiSpin}(32)$ theories, by looking at how the relevant representations of these two theories assemble into those appearing in the $SO(16)\times SO(16)$ theory.
+If the supersymmetry requirement is dropped, then there is a third option, which [[Lie algebra|locally]] looks like the product of the [[special orthogonal group]] $SO(16)\times SO(16)$, as first described in ([Alvarez-Gaumé, Ginsparg, Moore, and Vafa (1986)](#AGMV86het)) and in ([Dixon, and Harvey (1986)](#DH86het)). It was suggested in ([Schellekens, and Warner (1987)](#SW87anom)) that this theory could be regarded as some sort of "difference" (what is better understood as a [[correspondence]], or duality) between the $E_8\times E_8$ and [[SemiSpin(32)|$\text{SemiSpin}(32)$]] theories, by looking at how the relevant representations of these two theories assemble into those appearing in the $SO(16)\times SO(16)$ theory.
 
 The *global* character of the gauge group is not $SO(16)\times SO(16)$, however. In ([McInnes (1999)](#McIn99spin)) it is proposed that the actual gauge group is a quotient of [[spin group|spin groups]] $\text{Spin}(16) \times \text{Spin}(16)$ by a $\mathbb{Z}_2$-[[action]] (not corresponding to $\text{SemiSpin}(16)\times \text{SemiSpin}(16)$). This proposal allows to identify $\text{Spin} (16) \times \text{Spin}(16)/ \mathbb{Z}_2$ as a subgroup of both $E_8\times E_8$ and $\text{SemiSpin}(32)$, where the author's purpose for this is identifying the $\text{Spin} (16) \times \text{Spin} (16)/\mathbb{Z}_2$ theory as the realization of the [[T-duality]] between the supersymmetric heterotic strings.
 
 ### Dualities
  {#Dualities}
 
-Some [[duality in string theory]] involving the heterotic string:
+Some [[dualities in string theory]] involving the heterotic string:
 
 #### Duality with type I string theory
 
