@@ -20,6 +20,11 @@ Discussion of the [[Nambu-Goto action]] and [[Polyakov action]] on [[worldsheets
 
 * {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
 
+On the [[relativistic particle]], and related systems, in [[BV-BRST formalism]]:
+
+* [[Alberto Cattaneo]], [[Michele Schiavina]], _On time_, Lett. Math. Phys. **107** (2017) 375-408 &lbrack;[doi:10.1007/s11005-016-0907-x](https://doi.org/10.1007/s11005-016-0907-x), [arXiv:1607.02412](http://arxiv.org/abs/1607.02412)&rbrack;
+
+
 On [[BV quantization]]:
 
 * [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
