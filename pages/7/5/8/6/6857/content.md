@@ -17,7 +17,7 @@ Some other important special functions include [[gamma function]], [[Euler beta 
 
 ...and $q$-version of many of the mentioned functions (e.g. [[Ramanujan]]'s $q$/beta integral); 
 
-...many interesting functions with parametyers or with many variables (e.g. Hall polynomials, [[Macdonald polynomial]]s, Kostka polynomials...). 
+...many interesting functions with parameters or with many variables (e.g. [[Hall polynomial]]s, [[Macdonald polynomial]]s, Kostka polynomials...). 
 
 Unlike [[hypergeometric functions]] which are solutions of linear second order ODEs, the [[Painlevé transcendents]] are solutions of certain nonlinear ODEs. 
 
