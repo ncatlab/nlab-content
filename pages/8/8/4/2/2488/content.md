@@ -29,7 +29,7 @@ An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homot
 
 An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such that all [[(∞,1)-categorical hom-space|hom-∞-groupoids]] into it are $n$-truncated.
 
-If an object in an [[(∞,1)-topos]]_ is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
+If an object in an [[(∞,1)-topos]] is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
 
 The complementary notion of $n$-truncated object is that of an [[n-connected object of an (∞,1)-category]].
 
@@ -44,7 +44,7 @@ The complementary notion of $n$-truncated object is that of an [[n-connected obj
 
 An [[∞-groupoid]] $A \in \infty Grpd$ is **$n$-truncated** for $n \in \mathbb{N}$ if it is an [[n-groupoid]]:
 
-Precisely: in the model of [[∞-groupoid]]s given by [[Kan complex]]es $A$ is **$n$-truncated** if the [[simplicial homotopy group]]s $\pi_k(A,x)$ are trivial for all $x$ and all $k \gt n$.
+Precisely: in the model of [[∞-groupoid | ∞-groupoids]] given by [[Kan complex | Kan complexes]] $A$ is **$n$-truncated** if the [[simplicial homotopy group | simplicial homotopy groups]] $\pi_k(A,x)$ are trivial for all $x$ and all $k \gt n$.
 
 =--
 
@@ -84,7 +84,7 @@ Some terminology:
 
 * A 0-truncated object is also called **discrete**. Notice that this is _categorically discrete_ as in [[discrete category]], not discrete in the sense of [[discrete topological space]]. An object in an [[(∞,1)-topos]] is discrete in this sense if, regarded as an [[∞-groupoid]] with extra structure, it has only trivial morphisms.
 
-* By the above convention on (-2)-truncated $\infty$-groupoids, it is only the [[terminal object]]s of $C$ that is (-2)-truncated.
+* By the above convention on (-2)-truncated $\infty$-groupoids, it is only the [[terminal object | terminal objects]] of $C$ that are (-2)-truncated.
 
 * Similarly, the (-1)-truncated objects are the [[subterminal objects]].
 
@@ -173,7 +173,7 @@ This is [[Higher Topos Theory|HTT, lemma 5.5.6.15]].
 
 By definition $f$ is $k$-truncated if for each object 
 $d \in C$ we have that $C(d,f)$ is $k$-truncated in 
-[[∞Grpd]]. Since the [[hom-functor]]s $C(d,-)$ preserve
+[[∞Grpd]]. Since the [[hom-functor | hom-functors]] $C(d,-)$ preserve
 [[(∞,1)-limits]], we have 
 in particular that $X \to X \times_Y X$ in $C$ 
 is $k$-truncated 
@@ -182,18 +182,18 @@ $k$-truncated for all $d$ in [[∞Grpd]]. Therefore it is
 sufficient to prove the statement for
 morphisms in $C =$ [[∞Grpd]].
 
-So let now $f : X \to Y$ be a morphism of [[∞-groupoid]]s. 
+So let now $f : X \to Y$ be a morphism of [[∞-groupoid | ∞-groupoids]]. 
 We may find a fibration $\bar \phi : \bar X \to \bar Y$ 
-between [[Kan complex]]es  in [[sSet]] that models $f : X \to Y$
+between [[Kan complex|Kan complexes]]  in [[sSet]] that models $f : X \to Y$
 in the standard [[model structure on simplicial sets]], and by the
-standard rules for [[homotopy pullback]]s it follows that the object
+standard rules for [[homotopy pullback | homotopy pullbacks]] it follows that the object
 $X \times_Y X$ in $\infty$-Grpd is then modeled by the ordinary 
 [[pullback]] $\bar X \times_{\bar Y} \bar X$ in [[sSet]]. And the
 homotopy fibers of $f$ over $y \in Y$ are then given by the ordinary fibers 
 $\bar X_y$ of $\bar f$ in $sSet$.
 
 This way, the statement is reduced to the following fact: a [[Kan complex]]
-$\bar X_y$ is $k$-truncated precisely if the [[homotopy fiber]]s of
+$\bar X_y$ is $k$-truncated precisely if the [[homotopy fiber | homotopy fibers]] of
 $\bar X_y \to \bar X_y \times \bar X_y$ are $(k-1)$-truncated.
 
 We now write $X$ for $\bar X_y$ for simplicity. To see the last statement, 
@@ -213,7 +213,7 @@ as usual by replacing the right vertical morphism with the fibration
 $(X \times X)^I \times_{X \times X} (a,b) \to X \times X$
 and then forming the ordinary pullback. This shows that 
 $Q$ is equivalent to the space of paths $P_{a,b}X$ in $X$ from $a$ to $b$.
-(Use that gluing of [[path space object]]s at endpoints of 
+(Use that gluing of [[path space object | path space objects]] at endpoints of 
 paths produces a new
 path space; see, for instance, section 4 of [[BrownAHT]]).
 
@@ -263,7 +263,7 @@ There are [[model structures for homotopy n-types]] that [[presentable (∞,1)-c
 
 ### Definition
 
-Under mild conditions there is for each $n$ a universal way to send an arbitrary object $A$ to its $n$-truncation $\tau_{\leq n} A$. This is a general version of [[decategorification]] where [[k-morphism|n-morphism]]s are identified if they are connected by an invertible $(n+1)$-morphism.
+Under mild conditions there is for each $n$ a universal way to send an arbitrary object $A$ to its $n$-truncation $\tau_{\leq n} A$. This is a general version of [[decategorification]] where [[k-morphism|n-morphisms]] are identified if they are connected by an invertible $(n+1)$-morphism.
 
 For $C$ an [[(∞,1)-category]] and $n \geq -2$ in $\mathbb{Z}$ write $\tau_{\leq n} C $ for the [[full subcategory]] of $C$ on its $n$-truncated objects. 
 
@@ -427,7 +427,7 @@ This appears as [[Higher Topos Theory|HTT, lemma 6.5.1.2]].
 +-- {: .proof}
 ###### Proof
 
-First notice that the statement is true for $C = $ [[∞Grpd]]. For instance we can use the example [In ∞Grpd and Top](#InInfGrpd), model [[∞-groupoid]]s by [[Kan complex]]es and notice that then $\tau_{\leq n}$ is given by the truncation functor $tr_{n+1} : sSet \to [\Delta^{op}_{\leq n+1}, Set]$. This is also a [[right adjoint]] and as such preserves in particular products in $sSet$, which are $(\infty,1)$-products in $\infty Grpd$.
+First notice that the statement is true for $C = $ [[∞Grpd]]. For instance we can use the example [In ∞Grpd and Top](#InInfGrpd), model [[∞-groupoid|∞-groupoids]] by [[Kan complex|Kan complexes]] and notice that then $\tau_{\leq n}$ is given by the truncation functor $tr_{n+1} : sSet \to [\Delta^{op}_{\leq n+1}, Set]$. This is also a [[right adjoint]] and as such preserves in particular products in $sSet$, which are $(\infty,1)$-products in $\infty Grpd$.
 
 From that we deduce that the statement is true for  $C$ any [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K) = Func_{(\infty,1)}(K^{op}, \infty Grpd)$ because all relevant operations there are objectwise those in $\infty Grpd$.
 
@@ -502,7 +502,7 @@ See at _[[n-truncation modality]]_.
 
 ### Relation to homotopy groups {#RelationToHomotopyGroups}
 
-In an $(\infty,1)$-topos $C$ there is a notion of categorical [[homotopy groups in an (∞,1)-topos]]. For the $(\infty,1)$-topos [[∞Grpd]] given by the model of [[Kan complex]]es this coincides with the notion of [[simplicial homotopy groups]]:
+In an $(\infty,1)$-topos $C$ there is a notion of categorical [[homotopy groups in an (∞,1)-topos]]. For the $(\infty,1)$-topos [[∞Grpd]] given by the model of [[Kan complex|Kan complexes]] this coincides with the notion of [[simplicial homotopy groups]]:
 
 +-- {: .num_lemma}
 ###### Observation
@@ -535,7 +535,7 @@ If $A \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-trunca
 
 =--
 
-**Notice.** If $A$, on the other hand, is not truncated at all, then all its homotopy groups may be trivial, and $A$ may still not be equivalent to the [[terminal object]]. This means that [[Whitehead's theorem]] may fail in a general [[(∞,1)-topos]] for untruncated objects. It holds, however, in [[hypercomplete (∞,1)-topos]]es.
+**Notice.** If $A$, on the other hand, is not truncated at all, then all its homotopy groups may be trivial, and $A$ may still not be equivalent to the [[terminal object]]. This means that [[Whitehead's theorem]] may fail in a general [[(∞,1)-topos]] for untruncated objects. It holds, however, in [[hypercomplete (∞,1)-topos|hypercomplete (∞,1)-toposes]].
 
 
 ## Examples
@@ -647,7 +647,7 @@ $$
 +-- {: .num_lemma}
 ###### Observation
 
-If we model the [[(∞,1)-category]] [[∞Grpd]] as the [[Kan complex]]-[[enriched category]]/fibrant [[simplicial category]] $KanCplx \subset $ [[sSet]] of [[Kan complex]]es, then the truncation adjunction
+If we model the [[(∞,1)-category]] [[∞Grpd]] as the [[Kan complex]]-[[enriched category]]/fibrant [[simplicial category]] $KanCplx \subset $ [[sSet]] of [[Kan complex|Kan complexes]], then the truncation adjunction
 
 $$
   (\tau_{\leq n } \dashv i)
@@ -685,7 +685,7 @@ induces isomorphisms on homotopy groups $\pi_k$ for $k \leq n$.
 
 This shows that $KanCplx_{n+1}$ is indeed a full [[sub-(∞,1)-category]] of $KanCplx$ on $n$-truncated objects  
 
-Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#SimplicialAndDerived">Simplicial and derived adjunctions</a> at [[adjoint (∞,1)-functor]] we have that the [[sSet]]-enriched adjunction $(tr_{n+1} \dashv cosk_{n+1})$ on $KanCplx$ indeed presents a pair of [[adjoint (∞,1)-functor]]s on [[∞Grpd]]. So $tr_{n+1} : KanCplx \to KanCplx$ indeed presents the [[left adjoint]] $\tau_{\leq} : \infty Grpd \to n Grpd$ to the inclusion $n Grpd \hookrightarrow \infty Grpd$.
+Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#SimplicialAndDerived">Simplicial and derived adjunctions</a> at [[adjoint (∞,1)-functor]] we have that the [[sSet]]-enriched adjunction $(tr_{n+1} \dashv cosk_{n+1})$ on $KanCplx$ indeed presents a pair of [[adjoint (∞,1)-functor|adjoint (∞,1)-functors]] on [[∞Grpd]]. So $tr_{n+1} : KanCplx \to KanCplx$ indeed presents the [[left adjoint]] $\tau_{\leq} : \infty Grpd \to n Grpd$ to the inclusion $n Grpd \hookrightarrow \infty Grpd$.
 
 =--
 
