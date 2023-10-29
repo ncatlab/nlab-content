@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -73,9 +74,15 @@ On half-twists as [above](#GraphicalLanguage)
 
 * {#Egger11} [[Jeff Egger]], *On involutive monoidal categories*, Theory and Applications of Categories **25** 14 (2011) 368-393 &lbrack;[tac:25-14](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html)&rbrack;
 
-Under the [[cobordism hypothesis]] (which is a theorem certainly for the relevant case $n = 1$), self-dual objects in [[symmetric monoidal (infinity,1)-categories|symmetric monoidal $\infty$-categories]] correspond equivalently to *un*-oriented 1-dimensional [[TQFTs]]: 
+{#InTQFT} Under the [[cobordism hypothesis]] (which is a theorem certainly for the relevant case $n = 1$), self-dual objects in [[symmetric monoidal (infinity,1)-categories|symmetric monoidal $\infty$-categories]] correspond equivalently to *un*-oriented 1-dimensional [[TQFTs]]: 
 
 * [[Jacob Lurie]]: Ex. 2.4.28 in: *[[On the Classification of Topological Field Theories]]*, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465), [doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3), [euclid:cdm/1254748657](https://projecteuclid.org/euclid.cdm/1254748657)&rbrack;
+
+* {#Teleman16} [[Constantin Teleman]], Rem. 1.7 in: *Five lectures on topological field theory*, in *Geometry and Quantization of Moduli Spaces*, CRM Advanced Courses in Mathematics, Birkhäuser (2016) &lbrack;[doi:10.1007/978-3-319-33578-0_3](https://doi.org/10.1007/978-3-319-33578-0_3), [pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf), [[Teleman-LecturesOnTFT.pdf:file]]&rbrack;
+
+same in the non-topological case:
+
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], Thm 6.1.5 in: *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
 
 
 [[!redirects self-dual objects]]
