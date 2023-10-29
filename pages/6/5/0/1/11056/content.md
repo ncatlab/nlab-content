@@ -62,12 +62,20 @@ This is a special case of half-twists as described by [Egger 2011](#Egger11).
 
 * {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
 
+* [[Matthew B. Young]], §3.1 in *Self-Dual Hall modules*, PhD thesis, Stony Brook (2013) &lbrack;[pdf](https://www.math.stonybrook.edu/alumni/2013-Matthew-Young.pdf), [[Young-HallModules.pdf:file]]&rbrack;
+
+  > (in a context relating to [[orientifold]]-[[BPS state|BPS]]-algebras)
+
+
 * Chenjing Bu, Def. 3.2 in: *Enumerative invariants in self-dual categories. I. Motivic invariants* &lbrack;[arXiv:2302.00038](https://arxiv.org/abs/2302.00038)&rbrack;
 
 On half-twists as [above](#GraphicalLanguage)
 
 * {#Egger11} [[Jeff Egger]], *On involutive monoidal categories*, Theory and Applications of Categories **25** 14 (2011) 368-393 &lbrack;[tac:25-14](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html)&rbrack;
 
+Under the [[cobordism hypothesis]] (which is a theorem certainly for the relevant case $n = 1$), self-dual objects in [[symmetric monoidal (infinity,1)-categories|symmetric monoidal $\infty$-categories]] correspond equivalently to *un*-oriented 1-dimensional [[TQFTs]]: 
+
+* [[Jacob Lurie]]: Ex. 2.4.28 in: *[[On the Classification of Topological Field Theories]]*, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465), [doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3), [euclid:cdm/1254748657](https://projecteuclid.org/euclid.cdm/1254748657)&rbrack;
 
 
 [[!redirects self-dual objects]]
