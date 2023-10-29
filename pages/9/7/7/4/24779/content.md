@@ -29,6 +29,9 @@ On [[super Chern-Simons theory]] and [[Rozansky-Witten theory]]:
 
 * [[Matthew B. Young]], *Non-semisimple TFT and $U(1\vert 1)$ Chern-Simons theory*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023)&lbrack;[web](Center+for+Quantum+and+Topological+Systems#YoungMar2023), video: [YT](https://www.youtube.com/watch?v=m73KQCwXOrY)&rbrack;
 
+## Related entries
+
+* [[hyperbolic functor]]
 
 
 category: people
