@@ -15,7 +15,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -479,6 +478,10 @@ Abstract discussion via [[virtual equipments]]:
 * [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, 2023. &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+Exposition:
+
+* [[Nathanael Arkor]], *Relative monads and their many guises*, talk at *[[Category Theory Octoberfest]]* [2022](https://richardblute.ca/octoberfest-2022/) &lbrack;slides:[pdf](https://richardblute.files.wordpress.com/2022/10/arkor-ofest.pdf), video:[mp4](https://richardblute.files.wordpress.com/2022/10/arkor-ofest-1.mp4)&rbrack;
 
 On [[distributive laws]] for relative monads:
 
