@@ -40,7 +40,7 @@ More generally, we may consider analogous statements in [[categories]] $C$ other
 
 We say that $C$ satisfies the **external axiom of choice** if every [[epimorphism]] in $C$ [[split epimorphism|splits]].
 
-In this form, the axiom of choice may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle]]s.
+In this form, the axiom of choice may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle | fiber bundles]].
 
 If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]] (or [[extremal epimorphism]], [[effective epimorphism]], etc.)  In $Set$ (and in any [[topos]]), all of these notions of epimorphism are the same.
 
@@ -80,7 +80,7 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * That any [[cartesian product]] of any [[family]] of [[inhabited sets]] is [[inhabited]]. 
 * The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
 * [[Zorn's lemma]],
-* That ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
+* That ($L =$ [[monomorphism | monomorphisms]], $R =$ [[epimorphism | epimorphisms]]) is a [[weak factorization system on Set]].
 * That [[Set]] is equivalent to its own [[free exact completion]].
 * That there exists a [[group]] structure on every [[inhabited set]] (see [[Hartogs number]], or [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
 
@@ -104,11 +104,11 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * A very weak form of choice (which follows from EM) is the statement that [[supports split]] in $Set$.
 
-* The axioms of [[countable choice]] (CC) and [[dependent choice]] (DC) suffice for many of the usual applications of choice in the analysis of [[separable space]]s.  CC states that the set $\mathbb{N}$ of [[natural number]]s is projective.  DC strenghtens CC by allowing the set of possible choices for $n+1$ to depend on the choice made for $n$.
+* The axioms of [[countable choice]] (CC) and [[dependent choice]] (DC) suffice for many of the usual applications of choice in the analysis of [[separable space | separable spaces]].  CC states that the set $\mathbb{N}$ of [[natural number | natural numbers]] is projective.  DC strenghtens CC by allowing the set of possible choices for $n+1$ to depend on the choice made for $n$.
 
-* The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This implies CC and DC, and is moreover sufficient for the existence of [[projective resolution]]s and cofibrant replacements, as well as the usual theorems in algebra that (for example) [[Mod]] has enough projectives.  For example, see the [[canonical model structure on Cat]].
+* The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This implies CC and DC, and is moreover sufficient for the existence of [[projective resolution | projective resolutions]] and cofibrant replacements, as well as the usual theorems in algebra that (for example) [[Mod]] has enough projectives.  For example, see the [[canonical model structure on Cat]].
 
-* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution]]s, and together with COSHEP and EM it implies full AC.
+* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution | injective resolutions]], and together with COSHEP and EM it implies full AC.
 
 * The [[axiom of multiple choice]] is a different way of saying that choice is violated in only a small way, which is more "local" than SVC.  It apparently follows from SVC, at least in [[ZF]].
 
