@@ -28,7 +28,9 @@ A kind of local generalization of *[[cohesive (infinity,1)-toposes|cohesive $\in
 
 * [[Jacob Lurie]], *Fractured $\infty$-Topoi*, Chapter 20 in: *[[Spectral Algebraic Geometry]]*
 
-* [[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_, &lbrack;[arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;.
+following 
+
+* [[David Carchedi]], *Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi*, Memoirs of the American Mathematical Society **264** 1282 (2020) &lbrack;[doi:10.1090/memo/1282](https://doi.org/10.1090/memo/1282), [arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;
 
 The example of [[condensed local contractibility]]:
 
