@@ -981,7 +981,7 @@ $$
   f \;\colon\; V_1 \to V_2
 $$
 
-in $\mathcal{C}$, an _[[fiber integration]]/[[push-forward in generalized cohomology|push-forward]]/[[index|index map]]_ is just
+in $\mathcal{C}$, a _[[fiber integration]]/[[push-forward in generalized cohomology|push-forward]]/[[index|index map]]_ is just
 
 * forming the [[dual morphism]] $f^\vee \colon V_2^\vee \to V_1^\vee$;
 
