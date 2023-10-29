@@ -241,7 +241,7 @@ The category [[Set]] of [[sets]] is locally finitely presentable.
 
 For notice that every [[set]] is the [[directed colimit]] over the [[poset]] of all its [[finite set|finite]] [[subsets]].
 
-Moreover, a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are [[?]]$_0$-compact. 
+Moreover, a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are [[aleph|$\aleph_0$]]-compact. 
 
 Hence a a set of generators that exhibits $Set$ as a locally finitely complete category is given by the set containing one finite set of [[cardinality]] $n \in \mathbb{N}$ for all $n$.
 
