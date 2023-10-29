@@ -15,8 +15,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -135,7 +133,7 @@ Exposition of the conceptual ingredients:
 
 More technical lecture notes:
 
-* [[Daniel Freed]], _Lectures on topological quantum field theory_, 1992 ([pdf](http://www.ma.utexas.edu/users/dafr/OldTQFTLectures.pdf))
+* [[Daniel Freed]], *Lectures on topological quantum field theory*, in: *Integrable Systems, Quantum Groups, and Quantum Field Theories*, NATO ASI Series **409** (1992) &lbrack;[doi:10.1007/978-94-011-1980-1_5](https://doi.org/10.1007/978-94-011-1980-1_5), [pdf](http://www.ma.utexas.edu/users/dafr/OldTQFTLectures.pdf), [[Freed-TQFTLectures.pdf:file]]&rbrack;
 
 * {#Quinn95} [[Frank Quinn]], *Lectures on axiomatic topological quantum field theory*, in [[Dan Freed]], [[Karen Uhlenbeck]] (eds.) *Geometry and Quantum Field Theory* **1** (1995) &lbrack;[doi:10.1090/pcms/001](https://doi.org/10.1090/pcms/001)&rbrack;
 
@@ -165,9 +163,10 @@ and formalized and proven in
 
 This also shows how [[TCFT]] fits in, which formalizes the original proposal of 2d [[cohomological quantum field theory]].
 
-Lecture notes include
 
-* {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
+Lecture notes:
+
+* {#Teleman14} [[Constantin Teleman]], *Five lectures on topological field theory*, in *Geometry and Quantization of Moduli Spaces*, CRM Advanced Courses in Mathematics, Birkhäuser (2016) &lbrack;[doi:10.1007/978-3-319-33578-0_3](https://doi.org/10.1007/978-3-319-33578-0_3), [pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf), [[Teleman-LecturesOnTFT.pdf:file]]&rbrack;
 
 A discussion amplifying the aspects of [[higher category theory]] is in
 
@@ -175,7 +174,7 @@ A discussion amplifying the aspects of [[higher category theory]] is in
 
 See also
 
-* Mark Feshbach, Alexander A. Voronov, _A higher category of cobordisms and topological quantum field theory_, [arxiv/1108.3349](http://arxiv.org/abs/1108.3349) 
+* Mark Feshbach, [[Alexander Voronov]], _A higher category of cobordisms and topological quantum field theory_ &lbrack;[arxiv/1108.3349](http://arxiv.org/abs/1108.3349)&rbrack; 
 
 Indication of local [[quantization]] in the context of [[infinity-Dijkgraaf-Witten theory]] is in
 
