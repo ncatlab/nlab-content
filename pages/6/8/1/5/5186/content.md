@@ -282,7 +282,7 @@ Discussion in terms of [[BV-formalism]] includes
 
 * Jean M. L. Fisch and [[Marc Henneaux]], _Antibracket&#8212;antifield formalism for constrained hamiltonian systems_ ([doi](http://dx.doi.org/10.1016/0370-2693%2889%2990292-X))
 
-* [[Alberto Cattaneo]], Michele Schiavina, _On time_ ([arXiv:1607.02412](http://arxiv.org/abs/1607.02412))
+* [[Alberto Cattaneo]], [[Michele Schiavina]], _On time_, Lett. Math. Phys. **107** (2017) 375-408 &lbrack;[doi:10.1007/s11005-016-0907-x](https://doi.org/10.1007/s11005-016-0907-x), [arXiv:1607.02412](http://arxiv.org/abs/1607.02412)&rbrack;
 
 See also
 
