@@ -107,7 +107,7 @@ Beware  that the [[string theory]] literature often writes this as $Spin(32)/\ma
 
 ## References
 
-* {#McInnes99a} [[Brett McInnes]], _The Semispin Groups in String Theory_, J. Math. Phys. 40:4699-4712, 1999 ([arXiv:hep-th/9906059](https://arxiv.org/abs/hep-th/9906059))
+* {#McInnes99a} [[Brett McInnes]], _The Semispin Groups in String Theory_, J. Math. Phys. **40** (1999) 4699-4712 \[<a href="https://arxiv.org/abs/hep-th/9906059">arXiv:hep-th/9906059</a>, [doi:10.1063/1.532999](https://doi.org/10.1063/1.532999)\]
 
 * {#McInnes99b} [[Brett McInnes]], _Gauge Spinors and String Duality_,  Nucl. Phys. B577:439-460, 2000 ([arXiv:hep-th/9910100](https://arxiv.org/abs/hep-th/9910100))
 
