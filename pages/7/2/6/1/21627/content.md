@@ -4,13 +4,13 @@
 
 The historical origin of all [[string phenomenology]] is the [[top-down model building|top-down]] [[GUT]]-model building in [[heterotic string theory]] due to
 
-* {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
+* {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) \[<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>\]
 
 Review and exposition:
 
-* {#Witten02} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
+* {#Witten02} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg \[<a href="http://arxiv.org/abs/hep-ph/0207124">arXiv:hep-ph/0207124</a>\]
 
-* {#Nilles11} [[Hans-Peter Nilles]], _Strings, Exceptional Groups and Grand Unification_, talk at _[Planck 2011](https://indico.cern.ch/event/112851/)_ ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/114planck.pdf), [[Nilles11GUT.pdf:file]])
+* {#Nilles11} [[Hans-Peter Nilles]], _Strings, Exceptional Groups and Grand Unification_, talk at _[Planck 2011](https://indico.cern.ch/event/112851/)_ \[<a href="http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/114planck.pdf">pdf</a>, [[Nilles11GUT.pdf:file]]\]
 
 
 #### The $E_8 \times E_8$-heterotic string 
@@ -132,19 +132,17 @@ On [[heterotic line bundle models]]:
 
 This non-[[supersymmetry|supersymmetric]] string theory was first described in:
 
-* {#AGMV86het} [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], [[Gregory Moore]] and [[Cumrun Vafa]], *An $O(16)\times O(16)$ heterotic string, Phys. Lett. B **171** (1986) 155.
+* {#AGMV86het} [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], [[Gregory Moore]] and [[Cumrun Vafa]], *An $O(16)\times O(16)$ heterotic string*, Phys. Lett. B **171** (1986) 155 \[<a href="https://doi.org/10.1016/0370-2693(86)91524-8">doi:10.1016/0370-2693(86)91524-8</a>\]
 
-* {#DH86het} [[Lance Dixon]] and [[Jeffrey Harvey]], *String Theories in Ten-Dimensions Without Space-Time Supersymmetry*, Nucl. Phys. B **274** (1986) 93.
+* {#DH86het} [[Lance Dixon]] and [[Jeffrey Harvey]], *String Theories in Ten-Dimensions Without Space-Time Supersymmetry*, Nucl. Phys. B **274** (1986) 93 \[<a href="https://doi.org/10.1016/0550-3213(86)90619-X">doi:10.1016/0550-3213(86)90619-X</a>\]
 
 A proposal on what the correct global character of the [[gauge group]] is appears in:
 
-* {#McIn99spin} [[Brett McInnes]]. *The semispin groups in string theory.* Journal of Mathematical Physics **40**, no. 10 (1999): 4699-4712.
+* {#McIn99spin} [[Brett McInnes]], _The Semispin Groups in String Theory_, J. Math. Phys. **40** (1999) 4699-4712 \[<a href="https://arxiv.org/abs/hep-th/9906059">arXiv:hep-th/9906059</a>, [doi:10.1063/1.532999](https://doi.org/10.1063/1.532999)\]
 
-The suggestion that the $SO(16)\times SO(16)$ heterotic string is a the $E_8\times E_8$ string "minus" the $\text{Spin}(32)/\mathbb{Z}_2$ is in
+A suggestion that the $SO(16)\times SO(16)$ heterotic string is a the $E_8\times E_8$ string "minus" the [[semispin group]] [[SemiSpin(32)|$\text{Spin}(32)/\mathbb{Z}_2$]]:
 
-* {#SW87anom} [[Adrian Norbert Schellekens]], and [[Nicholas Warner]]. *Anomalies, characters and strings.* Nuclear Physics B **287** (1987): 317-361.
-
-
+* {#SW87anom} [[Adrian Norbert Schellekens]], and [[Nicholas Warner]] *Anomalies, characters and strings*, Nuclear Physics B **287** (1987) 317-361 \[<a href="https://doi.org/10.1016/0550-3213(87)90108-8">doi:10.1016/0550-3213(87)90108-8</a>\]
 
 
 
