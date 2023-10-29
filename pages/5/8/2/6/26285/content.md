@@ -85,5 +85,7 @@ See also:
 
 * [[Richard Elman]], [[Nikita Karpenko]], [[Alexander Merkurjev]], p. 4 of: *Algebraic and Geometric Theory of Quadratic Forms*, Colloquium Publication **56**, AMS (2008) &lbrack;[ams:coll-56](https://bookstore.ams.org/coll-56), [pdf](https://www.math.ucla.edu/~rse/old_book/Kniga.pdf)&rbrack;
 
+* [[Matthew B. Young]], p. 15 of: *Self-Dual Hall modules*, PhD thesis, Stony Brook (2013) &lbrack;[pdf](https://www.math.stonybrook.edu/alumni/2013-Matthew-Young.pdf), [[Young-HallModules.pdf:file]]&rbrack;
+
 * [[Marco Schlichting]], p. 8 of: *Higher $K$-Theory of Forms I. From Rings to Exact Categories*, Journal of the Institute of Mathematics of Jussieu **20** 4 (2021) 1205-1273 &lbrack;[doi:10.1017/S1474748019000410](https://doi.org/10.1017/S1474748019000410)&rbrack;
 
