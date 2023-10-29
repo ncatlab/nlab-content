@@ -36,7 +36,7 @@ On [[derived smooth manifolds]]:
 
 On higher [[orbifolds]] and [[Deligne-Mumford stacks]] as [[(∞,1)-toposes]]:
 
-* [[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_, &lbrack;[arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;, Memoirs of the American Mathematical Society 264(1282): v+120, 2020.
+* [[David Carchedi]], *Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi*, Memoirs of the American Mathematical Society **264** 1282 (2020) &lbrack;[doi:10.1090/memo/1282](https://doi.org/10.1090/memo/1282), [arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;
 
 
 ## Related $n$Lab entries
