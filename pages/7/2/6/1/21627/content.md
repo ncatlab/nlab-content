@@ -127,6 +127,24 @@ On [[heterotic line bundle models]]:
 
 * Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
 
+#### The "$SO(16)\times SO(16)$"-heterotic string
+ {#HeteroticStringPhenomenologyReferencesForSO16}
+
+This non-[[supersymmetry|supersymmetric]] string theory was first described in:
+
+* {#AGMV86het} [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], [[Gregory Moore]] and [[Cumrun Vafa]], *An $O(16)\times O(16)$ heterotic string, Phys. Lett. B **171** (1986) 155.
+
+* {#DH86het} [[Lance Dixon]] and [[Jeffrey Harvey]], *String Theories in Ten-Dimensions Without Space-Time Supersymmetry*, Nucl. Phys. B **274** (1986) 93.
+
+A proposal on what the correct global character of the [[gauge group]] is appears in:
+
+* {#McIn99spin} [[Brett McInnes]]. *The semispin groups in string theory.* Journal of Mathematical Physics **40**, no. 10 (1999): 4699-4712.
+
+The suggestion that the $SO(16)\times SO(16)$ heterotic string is a the $E_8\times E_8$ string "minus" the $\text{Spin}(32)/\mathbb{Z}_2$ is in
+
+* {#SW87anom} [[Adrian Norbert Schellekens]], and [[Nicholas Warner]]. *Anomalies, characters and strings.* Nuclear Physics B **287** (1987): 317-361.
+
+
 
 
 
