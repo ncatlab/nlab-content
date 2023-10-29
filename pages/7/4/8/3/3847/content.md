@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -51,15 +50,21 @@ The _Hall algebra_ of an [[abelian category]] is the [[Grothendieck group]] of [
 
 This perspective is taken from ([Webster11](#Webster)). See there for more details.
 
+
 ## References
 
-A good surveys are given in
+Survey:
 
-* [[Ben Webster]], _Hall algebras are Grothendieck groups_ ([SBS](http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988))
- {#Webster}
-* O. Schiffmann, _Lectures on Hall algebras_, arXiv:[math/0611617](https://arXiv.org/abs/math/0611617)
-* wikipedia: [Hall algebra](https://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](https://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
-* [The Hall multiplication](https://www.math.uni-bielefeld.de/~ringel/lectures/green/Welcome.html) (a page which a part of a lecture course by Ringel)
+* [[Claus M. Ringel]], *The Hall multiplication]*, lecture notes  (2006) &lbrack;[web](https://www.math.uni-bielefeld.de/~ringel/lectures/green/Welcome.html)&rbrack; 
+
+* {#Webster} [[Ben Webster]], _Hall algebras are Grothendieck groups_ (2011) &lbrack;[webpage](http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988)&rbrack;
+ 
+* [[Olivier Schiffmann]], *Lectures on Hall algebras* &lbrack;[arXiv:math/0611617](https://arXiv.org/abs/math/0611617)&rbrack;
+
+* [[Matthew B. Young]], *Self-Dual Hall modules*, PhD thesis, Stony Brook (2013) &lbrack;[pdf](https://www.math.stonybrook.edu/alumni/2013-Matthew-Young.pdf), [[Young-HallModules.pdf:file]]&rbrack;
+
+* Wikipedia: [Hall algebra](https://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](https://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
+
 
 The characterization via [[2-Segal spaces]]/decomposition spaces is independently due to
 
@@ -67,19 +72,22 @@ The characterization via [[2-Segal spaces]]/decomposition spaces is independentl
  {#DyckerhoffKapranov12} (now part of their book _Higher Segal spaces_, Springer Lec. Notes in Math. 2244  [doi](https://doi.org/10.1007/978-3-030-27124-4))
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
-Some new light on interplay between 2-Segal and Hall product is in
+Anew light on the interplay between 2-Segal and Hall product:
 
-* Matthew B Young, _Relative 2-Segal spaces_, 
-Algebraic & Geometric Topology 18 (2018) 975--1039 [doi](https://doi.org/10.2140/agt.2018.18.975)
+* [[Matthew B. Young]], _Relative 2-Segal spaces_, 
+Algebraic & Geometric Topology **18&& (2018) 975--1039 &lbrack;[doi:10.2140/agt.2018.18.975](https://doi.org/)&rbrack;
 
-> We introduce a relative version of the 2–Segal simplicial spaces defined by Dyckerhoff and Kapranov, and Gálvez-Carrillo, Kock and Tonks. Examples of relative 2–Segal spaces include the categorified unoriented cyclic nerve, real pseudoholomorphic polygons in almost complex manifolds and the $\mathcal{R}_\bullet$-construction from Grothendieck–Witt theory. We show that a relative 2–Segal space defines a categorical representation of the Hall algebra associated to the base 2–Segal space. In this way, after decategorification we recover a number of known constructions of Hall algebra representations. We also describe some higher categorical interpretations of relative 2–Segal spaces.
+  > We introduce a relative version of the 2–Segal simplicial spaces defined by Dyckerhoff and Kapranov, and Gálvez-Carrillo, Kock and Tonks. Examples of relative 2–Segal spaces include the categorified unoriented cyclic nerve, real pseudoholomorphic polygons in almost complex manifolds and the $\mathcal{R}_\bullet$-construction from Grothendieck–Witt theory. We show that a relative 2–Segal space defines a categorical representation of the Hall algebra associated to the base 2–Segal space. In this way, after decategorification we recover a number of known constructions of Hall algebra representations. We also describe some higher categorical interpretations of relative 2–Segal spaces.
 
-Canonical references on Hall algebras include the following.
+Further references:
 
 * [[Mikhail Kapranov]], _Eisenstein series and quantum affine algebras_, Journal Math. Sciences __84__ (1997), 1311&#8211;1360.
+
 * [[Mikhail Kapranov]], [[Eric Vasserot]], _Kleinian singularities, derived categories and Hall algebras_,  Math. Ann.  __316__  (2000) 565-576, [arXiv/9812016](https://arxiv.org/abs/math/9812016)
+
 * [[Bernhard Keller]], Dong Yang, Guodong Zhou, _The Hall algebra of a spherical object_, J. London Math Soc. (2) __80__ (2009) 771--784, [doi](https://doi.org/10.1112/jlms/jdp054), [pdf](www.math.jussieu.fr/~keller/publ/HallAlgSphericalObject.pdf)
-* [[C. M. Ringel]], _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583--591
+
+* [[Claus M. Ringel]], _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583--591
 
 Green has introduced a coproduct on Hall algebras of a quiver which are related to quantum groups; Green's theorem states that the Hall algebra of the category of representations of a quiver over a finite field is a twisted bialgebra. The coproduct than agrees with the one on quantum groups:
 
@@ -131,9 +139,10 @@ Motivic Hall algebras:
 
 * [[Kontsevich|M. Kontsevich]], [[Yan Soibelman|Y. Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [arXiv/0910.4315](https://arxiv.org/abs/0910.4315)
 
-
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arXiv/1006.2706](https://arxiv.org/abs/1006.2706)
-* [[Richard Rimányi]], _Motivic characteristic classes in cohomological Hall algebras_, Advances in Mathematics __360__ (2020) 106888 [doi](https://doi.org/10.1016/j.aim.2019.106888) [arXiv:1808.05654](https://arxiv.org/pdf/1808.05654)
+
+* Richard Rimányi, _Motivic characteristic classes in cohomological Hall algebras_, Advances in Mathematics __360__ (2020) 106888 [doi](https://doi.org/10.1016/j.aim.2019.106888) [arXiv:1808.05654](https://arxiv.org/pdf/1808.05654)
+
 * Alexei Latyntsev, _Vertex algebras, moduli stacks,
 cohomological Hall algebras and quantum groups_, PhD thesis, Oxford 2022 [pdf](https://people.maths.ox.ac.uk/joyce/theses/LatyntsevDPhil.pdf)
 
