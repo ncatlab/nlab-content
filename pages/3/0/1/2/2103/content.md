@@ -5,7 +5,6 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
-
 ## Selected writings
 
 See also:
@@ -37,6 +36,18 @@ On [[category theory]] in [[computer science]],
 via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
+
+
+On [[cohomology]] of [[algebra|algebraic]]-[[structures]] (such as [[Lie algebra cohomology]]) via [[monads]] ("triples"):
+
+* [[Michael Barr]], *Cartan-Eilenberg cohomology and triples*, J. Pure Applied Algebra **112** 3 (1996) 219–238 &lbrack;<a href="https://doi.org/10.1016/0022-4049(95)00138-7">doi:10.1016/0022-4049(95)00138-7</a>, [pdf](https://www.math.mcgill.ca/barr/papers/coho.pdf), [[Barr-CECohomology.pdf:file]]&rbrack;
+
+On [[acyclic objects]] in [[categories of chain complexes]]:
+
+* [[Michael Barr]], *Acyclic models*, Canadian J. Math. **48** 2 (1996) 258–273 &lbrack;[doi:10.4153/CJM-1996-013-x](https://doi.org/10.4153/CJM-1996-013-x), [pdf](https://www.math.mcgill.ca/barr/papers/acmod.pdf), [[Barr-AcyclicModels1996.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Acyclic models*, CRM Monograph Series **17** (2002) &lbrack;[ams:crmm-17](https://bookstore.ams.org/crmm-17), [pdf](https://www.math.mcgill.ca/barr/papers/acycmod.pdf), [[Barr-AcyclicModels2002.pdf:file]]&rbrack;
+
 
 On the [[Chu construction]]:
 
