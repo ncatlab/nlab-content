@@ -11,8 +11,6 @@ On [[smooth superalgebras]]:
 
 * [[David Carchedi]], [[Dmitry Roytenberg]], *On Theories of Superalgebras of Differentiable Functions* &lbrack;[arXiv:1211.6134](http://arxiv.org/abs/1211.6134)&rbrack;
 
-
-
 On [[étale infinity-groupoids]]:
 
 * [[David Carchedi]], _&#201;tale Stacks as Prolongations_, Advances in Mathematics Volume 352, 20 August 2019, Pages 56-132 ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
@@ -36,7 +34,9 @@ On [[derived smooth manifolds]]:
 
 * [[David Carchedi]], *Derived Manifolds as Differential Graded Manifolds* &lbrack;[arXiv:2303.11140](https://arxiv.org/abs/2303.11140)&rbrack;
 
+On higher [[orbifolds]] and [[Deligne-Mumford stacks]] as [[(∞,1)-toposes]]:
 
+* [[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_, &lbrack;[arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;, Memoirs of the American Mathematical Society 264(1282): v+120, 2020.
 
 
 ## Related $n$Lab entries
