@@ -1254,6 +1254,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > [[Quipper]] is a [[functional programming language]] for [[quantum computing]]. Proto-Quipper is a family of languages aiming to provide a [[formal methods|formal foundation]] for Quipper. By virtue of being a [[quantum circuit|circuit]] description language, Proto-Quipper has two separate runtimes: circuit generation time and circuit execution time. Values that are known at circuit generation time are called parameters, and values that are known at circuit execution time are called states. [[dynamic lifting|Dynamic lifting]] is an operation that enables a state, such as the result of a [[quantum measurement|measurement]], to be lifted to a parameter, where it can influence the generation of the next portion of the circuit. As a result, dynamic lifting enables Proto-Quipper programs to [interleave classical and quantum computation](quantum+computation#ClassicalControlQuantumData). In his talk, Dr. Frank will describe how to extend Proto-Quipper-M with dynamic lifting. He will explain the syntax of a language named Proto-Quipper-Dyn. Its type system uses a system of [[modalities]] to keep track of the use of dynamic lifting. Then, he will discuss the [[categorical semantics]] for dynamic lifting. Finally, if time permits, Dr. Frank will give some examples of Proto-Quipper-Dyn programs.
 
+\linebreak
+
+* 30 Oct 2023
+
+  [[Dominik Bucher]] (Technical University, Munich):
+
+  **Quantum Sensing with Spin Defects in Diamond**
+
+  cf.: [arXiv:2306.07593](https://arxiv.org/abs/2306.07593)
+
+  > The [[nitrogen-vacancy center in diamond|nitrogen-vacancy (NV) point defect in diamond]] has emerged as a new class of [[quantum sensors]]. The technique is based on optically detected [[spin resonance|magnetic resonance]] of the NV [[electron|electronic]] [[spins]], which can be used to detect [[magnetic fields]] on unprecedented length scales. In my talk, I will briefly introduce the basics of NV-based quantum sensing, its hardware and review recent highlights in the field. In the second part, I will discuss recent developments in my research group, including quantum sensing in microfluidics for lab-on-a-chip applications and an outlook for single-cell NMR metabolomics.
 
 
 \linebreak 
