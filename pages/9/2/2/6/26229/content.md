@@ -39,6 +39,10 @@ On [[BV quantization]]:
 
 * [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
 
+On [[Shifted symplectic structures]]:
+
+* [[Damien Calaque]], *Derived symplectic geometry*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2308.04210](https://arxiv.org/abs/2308.04210)&rbrack;
+
 
 (...)
 
