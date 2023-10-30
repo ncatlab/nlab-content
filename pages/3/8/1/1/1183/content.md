@@ -228,7 +228,15 @@ A standard reference on 2-dimensional [[string]] $\sigma$-models is
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+General exposition of $n$-dimensional $\sigma$-models, including the fact that these are [[renormalization|non-renormalizable]] for $n\geq 3$:
+
+* [[Christopher Hull]]. "Lectures on Non-Linear Sigma-Models and Strings". In *Super field theories*, pp. 77-168. Boston, MA: Springer US, 1987.
+
 Further (and original) discussion of [[string]] sigma-models and their [[Ricci flow]] [[renormalization group flow]]  is for instance in 
+
+* [[Daniel Friedan]]. *Nonlinear models in $2+\epsilon$ dimensions*. Annals of Physics, 163(2):318–419, 1980.
+
+* [[Daniel Friedan]]. *Nonlinear models in $2+\epsilon$ dimensions*. Physical Review Letters, 45(13):1057, 1980.
 
 * {#Tseytlin89} [[Arkady Tseytlin]], _Sigma model approach to string theory_, Int. J. Mod. Phys. A 4, 1257 (1989).
 
