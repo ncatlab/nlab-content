@@ -5,6 +5,12 @@
 
 ## Selected writings
 
+In [[Isbell duality]] for [[modules]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
+
+
+
 On discrete [[dynamical systems]] (here called "flows") on [[compact Hausdorff spaces]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Flows: cocyclic and almost cocyclic*, Theory Appl. Categories **25** 18 (2010) 490–507 &lbrack;[tac:25-18](http://www.tac.mta.ca/tac/volumes/25/18/25-18abs.html)&rbrack;
