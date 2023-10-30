@@ -18,7 +18,7 @@ For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
 * {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]*, Adv. Theor. Math. Phys. **26** 4 (2022) &lbrack;[arXiv:1912.10425](https://arxiv.org/abs/1912.10425)&rbrack;
 
-* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* $[$[arXiv:2105.02871](https://arxiv.org/abs/2105.02871)$]$
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* Lett. Math. Phys. **113** 112 (2023) \[<a href="https://arxiv.org/abs/2105.02871">arXiv:2105.02871</a>, [doi:10.1007/s11005-023-01725-4](https://doi.org/10.1007/s11005-023-01725-4)\]
 
 * {#Collari2023} [[Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023) $[$[arXiv:2210.05399](https://arxiv.org/abs/2210.05399), [doi:10.4153/S0008439523000206](https://doi.org/10.4153/S0008439523000206)$]$
 
