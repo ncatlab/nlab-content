@@ -24,7 +24,7 @@ $$
   P : C^{op} \to DistLattice
 $$
 
-from the [[opposite category]] of $C$ to the category of [[distributive lattices]], such that for every [[morphism]] $f : A \to B$ in $C$, the functor $P(A) \to P(B)$ has a [[left adjoint]] $\exists_f$ satisfying
+from the [[opposite category]] of $C$ to the category of [[distributive lattices]], such that for every [[morphism]] $f : A \to B$ in $C$, the functor $P(f) : P(B) \to P(A)$ has a [[left adjoint]] $\exists_f$ satisfying
 
 1. [[Frobenius reciprocity]];
 
