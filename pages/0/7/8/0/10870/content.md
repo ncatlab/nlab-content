@@ -1,9 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[derived geometry]]-version of [[symplectic geometry]].
+
 ## Related concepts
 
 * [[symplectic structures]]
+
 * [[derived algebraic geometry]]
+
 * [[AKSZ sigma-model]]
+
+* [[BV-BRST formalism]]
+
 
 ## References
 
@@ -40,6 +63,11 @@ Shifted Poisson structures
 * [[J. P. Pridham]], _Shifted symplectic structures on derived analytic moduli of l-adic local systems and Galois representations_, [arXiv:2205.02292](https://arxiv.org/abs/2205.02292) 
 
 * [[Pavel Safronov]], _Poisson reduction as a coisotropic intersection_, [arXiv:1509.08081](http://arxiv.org/abs/1509.08081)
+
+Review:
+
+* [[Damien Calaque]], *Derived symplectic geometry*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2308.04210](https://arxiv.org/abs/2308.04210)&rbrack;
+
 
 [[!redirects shifted symplectic structures]]
 [[!redirects derived symplectic geometry]]
