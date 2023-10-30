@@ -12,4 +12,10 @@
 * Tristan Bozec, [[Damien Calaque]], Sarah Scherotzke, _Calabi-Yau structures for multiplicative preprojective algebras_, [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
 
 
+Review of [[shifted symplectic structures]]:
+
+
+* [[Damien Calaque]], *Derived symplectic geometry*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2308.04210](https://arxiv.org/abs/2308.04210)&rbrack;
+
+
 category: people
