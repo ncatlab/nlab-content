@@ -22,6 +22,10 @@ On [[D=4 supergravity]]:
 
 * [[Chris Hull]], _New Gauged $N=8$, $D=4$ Supergravities_, _Class.Quant.Grav.20:5407-5424,2003_ ([arXiv:hep-th/0204156](https://arxiv.org/abs/hep-th/0204156))
 
+On [[sigma-models]]:
+
+* [[Christopher Hull]], *Lectures on Non-Linear Sigma-Models and Strings*, in *Super field theories*, NATO Science Series **160**, Springer (1987) 77-168 &lbrack;[doi:10.1007/978-1-4613-0913-0_4](https://doi.org/10.1007/978-1-4613-0913-0_4)&rbrack;
+
 
 On [[BPS states]]:
 
