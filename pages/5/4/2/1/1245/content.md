@@ -37,12 +37,14 @@ category: reference
 
 The original paper is
 
-* [[Alexandre Grothendieck]], _Sur quelques points d'algèbre homologique_.  [Project Euclid](http://projecteuclid.org/euclid.tmj/1178244839).
+* [[Alexandre Grothendieck]], *Sur quelques points d'algèbre homologique*, Tohoku Math. J. (2) 9(2) (1957) 119-221  &lbrack;[doi:10.2748/tmj/1178244839](https://projecteuclid.org/journals/tohoku-mathematical-journal/volume-9/issue-2/Sur-quelques-points-dalg%c3%a8bre-homologique-I/10.2748/tmj/1178244839.full), [euclid:1178244839](http://projecteuclid.org/euclid.tmj/1178244839)&rbrack;
+
+English translation:
+
+* by Marcia L. Barr & [[Michael Barr]] (2011): *Some aspects of homological algebra*  &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/gk.pdf), [[BarrTranslOf-GrothedieckTohoku.pdf:file]]&rbrack;
+
 
 A Russian translation:
 
 * А. Гротендик, _О некоторых вопросах гомологической алгебры_, Москва, Издательство иностранной литературы, 1961.  Перевод с французского Б. Б. Венкова, А. В. Руколайне, Б. В. Степанова.  [DjVu](http://ncatlab.org/nlab/files/GrotendikTohoku.djvu).
 
-An English translation due to [[Michael Barr]] can be found in
-
-* [[Alexandre Grothendieck]], _Some aspects of homological algebra_.  [PDF](https://www.math.mcgill.ca/barr/papers/gk.pdf).
