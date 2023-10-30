@@ -49,6 +49,9 @@ Further discussion:
 
 * {#IonnadouSutcliffe99b} [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
 
+* Max Schult, *Nahm's Equations and Rational Maps from $\mathbb{C}P^1$ to $\mathbb{C}P^n$* \[<a href="https://arxiv.org/abs/2310.18058">arXiv:2310.18058</a>\]
+
+
 Review:
 
 * [[Alexander B. Atanasov]], *Magnetic monopoles and the equations of Bogomolny and Nahm* ([pdf](http://abatanasov.com/Files/3D%20Monopoles.pdf)), chapter 5 in: *Magnetic Monopoles, 't Hooft Lines, and the Geometric Langlands Correspondence*, 2018 ([pdf](http://abatanasov.com/Files/Thesis.pdf), [slides](http://abatanasov.com/Files/Thesis%20Presentation.pdf))
