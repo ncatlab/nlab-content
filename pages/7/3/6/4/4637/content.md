@@ -663,6 +663,12 @@ See also
 
 * R.J. Wood, _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
+In Isbell duality for [[modules]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
+
+
+
 [[!redirects Isbell dualities]]
 
 [[!redirects Isbell conjugation]]
