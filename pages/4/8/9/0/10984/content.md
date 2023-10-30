@@ -23,7 +23,7 @@
 An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambiadjunction_ or _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$, or
 more precisely: equipped with a specified equivalence.  
 
-In fact, often $F$ is *identified* with $H$*, which is the situation of a *strongly adjoint pair* $(F \dashv G \dashv F)$ originally considered by [Morita 1965](#Morita65). Some authors refer to this situation by saying that $G$ is a *[[Frobenius functor]]* (ie. a functor which has a [[left adjoint]] that is also a [[right adjoint]]).
+In fact, often $F$ is *identified* with $H$, which is the situation of a *strongly adjoint pair* $(F \dashv G \dashv F)$ originally considered by [Morita 1965](#Morita65). Some authors refer to this situation by saying that $G$ is a *[[Frobenius functor]]* (ie. a functor which has a [[left adjoint]] that is also a [[right adjoint]]).
 
 Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of *[[biadjunction]]*). Functor $G$ which has a left and right adjoint which are equivalent is said to be [[Frobenius functor]]. 
 
