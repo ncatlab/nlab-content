@@ -85,6 +85,10 @@ On topological [[star-autonomous categories]]:
 
 * [[Michael Barr]], *Topological $\ast$-autonomous categories, revisited*, Tbilisi Math. J. **10** 3 (2017) 51–64 &lbrack;[arXiv:1609.04241](https://arxiv.org/abs/1609.04241)&rbrack;
 
+English translation of [[Alexander Grothendieck]]'s [[Tohoku]]-article on [[homological algebra]]:
+
+* Marcia L. Barr & [[Michael Barr]] (2011), Engl. translation of: [[Alexander Grothendieck]], *Some aspects of homological algebra* &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/gk.pdf), [[BarrTranslOf-GrothedieckTohoku.pdf:file]]&rbrack;
+
 
 On an improved context for [[Pontrjagin duality]]:
 
@@ -95,6 +99,10 @@ On an improved context for [[Pontrjagin duality]]:
 On the [[Chu construction]]:
 
 * [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
+
+On [[Isbell duality]] for [[modules]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
 
 On discrete [[dynamical systems]] (here called "flows") on [[compact Hausdorff spaces]]:
 
