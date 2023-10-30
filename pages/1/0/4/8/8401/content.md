@@ -1,10 +1,6 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Albert_Einstein)
 
-In his Spencer lecture, delivered at Oxford in 1933, Einstein stressed the importance to be accorded to formal beauty: 
-
-> Experience can of course guide us in our choice of serviceable mathematical concepts; it cannot possibly be the source from which they are derived; experience of course remains the sole criterion of the serviceability of a mathematical construction for physics, but the truly creative principle resides in mathematics.
-
 ## References
   {#References}
 
@@ -44,9 +40,25 @@ Introducing the [[Einstein-Podolsky-Rosen paradox]] concerning [[quantum entangl
 
 * {#EPR} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) ([doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777))
 
+
 ## Further selected writings
 
-* [[Albert Einstein]], *Why Socialism?*, Monthly Review 1949 ([web version](https://monthlyreview.org/2009/05/01/why-socialism/), [Wikipedia entry](https://en.wikipedia.org/wiki/Why_Socialism%3F))
+* [[Albert Einstein]], *Why Socialism?*, Monthly Review (1949) &lbrack;[web version](https://monthlyreview.org/2009/05/01/why-socialism/), [Wikipedia entry](https://en.wikipedia.org/wiki/Why_Socialism%3F)&rbrack;
+
+## Quotes
+
+In his Spencer lecture, delivered at Oxford in 1933, Einstein stressed the importance to be accorded to formal beauty: 
+
+> Experience can of course guide us in our choice of serviceable mathematical concepts; it cannot possibly be the source from which they are derived; experience of course remains the sole criterion of the serviceability of a mathematical construction for physics, but the truly creative principle resides in mathematics.
+
+
+
+Concerning what are now called [[Einstein equations]] ([[equations of motion]] for [[Einstein gravity]]):
+
+
+> I have learned something else from the theory of gravitation: No ever so inclusive collection of empirical facts can ever lead to the setting up of such complicated equations. A theory can be tested by experience, but there is no way from experience to the setting up of a theory. Equations of such complexity as are the equations of the gravitational field can be found only through the discovery of a logically simple mathematical condition which determines the equations completely or [at least] almost completely.
+
+(From A. Einstein, *Autobiographical Notes*, as translated in P. A. Schilpp: *Albert Einstein -- Philosopher-Scientist*, MJF books, New York (1949, 1951, 1969, 1970), p. 89, [scan](https://ncatlab.org/nlab/files/Einstein-AutobioNotes-from-Schilpp-p88.jpg))
 
 
 category: people
