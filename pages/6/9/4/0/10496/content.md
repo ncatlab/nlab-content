@@ -328,6 +328,9 @@ Discussion via [[twisted equivariant K-theory]]:
 
 * {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)&rbrack;
 
+Discussion of [[quantum measurement]] of topologically ordered states:
+
+* Yabo Li, Mikhail Litvinov, Tzu-Chieh Wei, *Measuring Topological Field Theories: Lattice Models and Field-Theoretic Description* &lbrack;[arXiv:2310.17740](https://arxiv.org/abs/2310.17740)&rbrack;
 
 
 
