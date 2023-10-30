@@ -63,7 +63,7 @@ There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
   1. $f$ induces in [[isomorphism]] on [[connected components]] $\pi_0 f \colon \pi_0 H \to \pi_0 K$;
 
-  1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]], which in turn equivalently means that it is a weak equivalence of [[underlying]] simplicial sets in the [[classical model structure on simplicial sets]] (a [[simplicial weak homotopy equivalence]]).
+  1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K\big(f(x), f(x)\big)$ is a weak equivalence in the [[model structure on simplicial groups]], which in turn equivalently means that it is a weak equivalence of [[underlying]] simplicial sets in the [[classical model structure on simplicial sets]] (a [[simplicial weak homotopy equivalence]]).
 
 * [[fibrations]] are the [[Kan fibration|Kan]]-[[isofibrations]], namely those morphisms $f \colon H \to K$ such that 
 
