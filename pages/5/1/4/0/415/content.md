@@ -198,5 +198,6 @@ Textbook accounts:
 [[!redirects copowering]]
 [[!redirects copowerings]]
 
+[[!redirects copowered]]
 
 
