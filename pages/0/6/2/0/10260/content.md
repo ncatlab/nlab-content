@@ -28,6 +28,8 @@ Almost quaternionic structure: [[reduction of structure group|reduction of the s
 
 * [[real vector space]], [[complex vector space]], [[quaternionic vector space]]
 
+* [[para-quaternionic structure]]
+
 ## References
 
 * Wikipedia, _[Quaternionic structure](http://en.wikipedia.org/wiki/Quaternionic_structure)_
