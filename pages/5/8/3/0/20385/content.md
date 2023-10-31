@@ -34,6 +34,6 @@ The arccosine is a [[section]] (or [[right inverse]]) to the cosine function [[c
 
 See also
 
-* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#arccos">Arccos (trigonometry)</a>_
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Inverse_trigonometric_functions">Inverse trigonometric functions</a>_
 
 [[!redirects arccosine]]
