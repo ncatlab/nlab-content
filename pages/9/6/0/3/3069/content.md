@@ -867,6 +867,8 @@ expanded on in
 
 Review:
 
+* {#Pavlovic1990} [[Duško Pavlović]], pp. 105 in: *Predicates and Fibrations*, PhD thesis, Utrecht (1990) &lbrack;[pdf](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf), [[Pavlovic-PredicatesAndFibrations.pdf:file]]&rbrack
+
 * {#Pavlović91} [[Duško Pavlović]], Section 1 of: *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://dusko.org/wp-content/uploads/2020/03/1990-Como-BCDE.pdf)&rbrack;
 
 * [[Simon John Ambler]], §5.5.1 in: *First Order Linear Logic in Symmetric Monoidal Closed Categories*, PhD thesis, Edinburgh (1991) &lbrack;[ECS-LFCS-92-194](https://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194/ECS-LFCS-92-194.pdf), [[Ambler-FOLL.pdf:file]]&rbrack;
