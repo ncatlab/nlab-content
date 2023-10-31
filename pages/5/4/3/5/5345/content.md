@@ -275,7 +275,7 @@ of the category of [[sSet]]-[[enriched groupoids]] into that of [[sSet-enriched 
 
 1. has a [[left adjoint]], given degreewise by the [[free groupoid]]-construction ([[localization of a category|localization]] at the class of all morphisms)
 
-1. evidently preserves fibrations and weak equivalences between the above model structure on simplicial groupoids and the Bergner-[[model structure on sSet-categories]] (see [there](model+structure+on+sSet-categories#ModelForInfinityCategories))
+1. evidently preserves fibrations and weak equivalences between the above model structures on simplicial groupoids and the Bergner-[[model structure on sSet-categories]] (see [there](model+structure+on+sSet-categories#ModelForInfinityCategories)),
 
 hence we have a [[Quillen adjunction]]:
 \[
@@ -352,6 +352,109 @@ $$
   }
 $$
 where the vertical morphisms are [[Dwyer-Kan equivalences]]. Now observe that the [[Dwyer-Kan fundamental simplicial groupoid]]-functor $\mathcal{G}$ preserves all weak equivalences by [[Ken Brown's lemma]]: because it is a [[left Quillen functor]]  on a model category all whose objects are cofibrant. Therefore also $F \circ \mathfrak{C}$ preserves all weak equivalences, by [[2-out-of-3]].
+\end{proof}
+
+
+## Examples
+ {#Examples}
+
+While the underlying category of [[sSet-enriched groupoids]] is [[cartesian closed monoidal category|cartesian closed]] (see [there](simplicial+groupoid#CartesianClosedStructure)), the model category is not [[cartesian monoidal model category|cartesian monoidal as a model structure]]. 
+
+Here is a simple special case at least of (fiber) products preserving cofibrations:
+
+Consider
+
+* a [[group]] $G \,\in\, Grp(Set)$, 
+
+* with [[delooping groupoid]] denoted $\mathbf{B}G \,\in\, Grpd(Set) \subset sSet\text{-}Grpd$, 
+
+* an [[inhabited set]] $W \,\in\, Set$,
+
+* equipped with a [[group action]] $G \curvearrowright W \,\in\, G Act(Set)$,
+
+* with [[action groupoid]] denoted $W \sslash G \,\in\, Grpd \hookrightarrow sSet\text{-}Grpd$,
+
+  canonically regarded in the [[slice category|slice]] $sSet\text{-}Grpd_{/\mathbf{B}G}$,
+
+* [[sSet-enriched groupoids]]$\;\mathbf{X}, \mathbf{Y} \,\in\, sSet\text{-}Grpd$ lifted to the [[slice category|slice]] over $\mathbf{B}G$ via $p_\mathbf{X},\, p_\mathbf{Y} \,\in\, sSet\text{-}Grpd_{/\mathbf{B}G}$, where $p_{\mathbf{Y}}$ is an [[isofibration]].
+
+\begin{proposition}
+For
+$f \colon \mathbf{X} \to \mathbf{Y}$ a morphism in the slice over $\mathbf{B}G$, which is a cofibration in the [[slice model category]] in that its [[underlying]] morphism in $sSet\text{-}Grpd$ is a Dwyer-Kan cofibration (Def. \ref{TheModelStructure}), then also the fiber product morphism
+$$
+  (W \sslash G) \times_{\mathbf{B}G} f
+  \;\colon\;
+  (W \sslash G) \times_{\mathbf{B}G} \mathbf{X}
+  \longrightarrow
+  (W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}
+$$
+is a (slice-)cofibration.
+\end{proposition}
+\begin{proof}
+  If $Obj(\mathbf{Y}) = \varnothing$ then injectivity of $f$ implies that also $Obj(\mathbf{X}) = \varnothing$ and the claim follows readily. Hence assume now that there exists $y_0 \,\in\, Obj(\mathbf{Y})$.
+
+By the assumption that $W$ is inhabited, there is $w_0 \in W$.
+
+If $W \sslash G$ or $\mathbf{Y}$ are not connected, then we may apply the following argument to all its connected components from which the general claim follows readily. Hence assume now that both $W \sslash G$ and $\mathbf{Y}$ are connected.
+
+By the assumption that $p_{\mathbf{Y}}$ is an isofibration, we may choose for each $g \in G$ and $y \in Obj(\mathbf{Y})$ a [[1-morphism]] 
+\[
+  \label{LiftedOneMorphism}
+  \gamma^y_g \,\colon\, y \to y'
+\] 
+in $Mor(\mathbf{Y})_1$ with $p_{\mathbf{Y}}(\gamma_g^y) = g$.
+
+Moreover, assuming the [[axiom of choice]] in the underlying [[set theory]], we may choose representatives $g' \in G$ for each $[g'] \in G/Stab_G(w_0)$.
+
+
+Finally, it is sufficient to assume that $f$ is a free map (Def. \ref{FreeMorphismsOfSimplicialGroupoids}), since the statement for this case readily implies the statement for retracts of free maps.
+
+So let $\Gamma \subset Mor(\mathbf{Y})$ denote a set of generators which exhibits $f$ as a free map. Write 
+
+\[
+  \Gamma_{w_0} 
+    \,\subset\, 
+  Mor\big( \{w_0\} \times \mathbf{Y} \big) 
+    \,\subset\, 
+  Mor\big( 
+    (W \sslash G) 
+      \times_{\mathbf{B}G} 
+    \mathbf{Y} 
+  \big)
+\] 
+
+for the corresponding subset in the fiber product.
+
+
+We claim that
+$$
+  \widehat \Gamma
+  \;\coloneqq\;
+  \Gamma_{w_0}
+  \cup
+  \big\{
+    \gamma^y_{g'}
+  \big\}_{
+    { y \in Obj(\mathbf{Y}) \setminus f(Obj(\mathbf{X})) }
+    \atop
+    { [g'] \in G/Stab_G(w_0) }
+  }
+$$
+is a set of generators which exhibits $(W \sslash G) \times_{\mathbf{B}G} f$ as a free map (Def. \ref{FreeMorphismsOfSimplicialGroupoids}) and hence as a DK-cofibration.
+
+Namely, every morphism $(w_0, y_1) \to (w, y'_2)$ in $(W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}$ is uniquely decomposed in the form
+$$
+  (w_0, y_1)
+    \xrightarrow{ 
+      (\mathrm{e}, \gamma)
+    }
+  (w_0, y_2) 
+    \xrightarrow{ (g', \gamma^{y_2}_{g'}) } 
+  (w, y'_2)
+$$
+for some $\gamma \in p_{\mathbf{Y}}^{-1}\big\{pt \xrightarrow{\mathrm{e}} pt\big\} \subset Mor\big(\{w_0\} \times \mathbf{Y}\big)$. 
+
+Now $\gamma$ has furthermore a unique $\Gamma$-generation by assuption, which clealy remains $\widehat{\Gamma}$-unique. If this sequence ends on a morphism in the image of $f$ and at the same time $\gamma^{y_2}_{g'}$ is in the image of $f$, then we compose the latter onto the last step in the sequence, otherwise we append $\gamma^{y_2}_{g'}$ to the sequence. In either case we have uniquely obtained a reduced $\widehat{\Gamma}$-decomposition of the given morphism.
 \end{proof}
 
 
