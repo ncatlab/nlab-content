@@ -5,7 +5,7 @@ Consider
 
 * with [[delooping groupoid]] denoted $\mathbf{B}G \,\in\, Grpd(Set) \subset sSet\text{-}Grpd$, 
 
-* a [[set]] $W \,\in\, Set$,
+* an [[inhabited set]] $W \,\in\, Set$,
 
 * equipped with a [[group action]] $G \curvearrowright W \,\in\, G Act(Set)$,
 
@@ -13,12 +13,11 @@ Consider
 
   canonically regarded in the [[slice category|slice]] $sSet\text{-}Grpd_{/\mathbf{B}G}$,
 
-* [[sSet-enriched groupoids]]$\;\mathbf{X}, \mathbf{Y} \,\in\, sSet\text{-}Grpd$ in the [[slice category|slice]] over $\mathbf{B}G$, $p_\mathbf{X}, p_\mathbf{Y} \,\in\, sSet\text{-}Grpd_{/\mathbf{B}G}$.
+* [[sSet-enriched groupoids]]$\;\mathbf{X}, \mathbf{Y} \,\in\, sSet\text{-}Grpd$ lifted to the [[slice category|slice]] over $\mathbf{B}G$ via $p_\mathbf{X},\, p_\mathbf{Y} \,\in\, sSet\text{-}Grpd_{/\mathbf{B}G}$, where $p_{\mathbf{Y}}$ is an [[isofibration]].
 
 \begin{proposition}
 For
 $f \colon \mathbf{X} \to \mathbf{Y}$ a morphism in the slice over $\mathbf{B}G$, whose [[underlying]] morphism in $sSet\text{-}Grpd$ is a Dwyer-Kan cofibration, then also (the underlying map of) the fiber product morphism
-
 $$
   (W \sslash G) \times_{\mathbf{B}G} f
   \;\colon\;
@@ -26,30 +25,70 @@ $$
   \longrightarrow
   (W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}
 $$
-
 is a DK-cofibration.
 \end{proposition}
 \begin{proof}
-  If $Obj(\mathbf{Y}) = \varnothing$ then injectivity of $f$ implies that also $Obj(\mathbf{X}) = \varnothing$ and the claim follows readily. Hence assume now that there exists $w_0 \,\in\, Obj(\mathbf{Y})$.
+  If $Obj(\mathbf{Y}) = \varnothing$ then injectivity of $f$ implies that also $Obj(\mathbf{X}) = \varnothing$ and the claim follows readily. Hence assume now that there exists $y_0 \,\in\, Obj(\mathbf{Y})$.
+
+By the assumption that $W$ is inhabited, there is $w_0 \in W$.
+
+If $W \sslash G$ or $\mathbf{Y}$ are not connected, then we may apply the following arguments to all its connected components from which the general claim follows readily. Hence assume now that both $W \sslash G$ and $\mathbf{Y}$ are connected.
+
+By the assumption that $p_{\mathbf{Y}}$ is an isofibration, we may choose for each $g \in G$ and $y \in Obj(\mathbf{Y})$ a [[1-morphism]] 
+\[
+  \label{LiftedOneMorphism}
+  \gamma^y_g \,\colon\, y \to y'
+\] 
+in $Mor(\mathbf{Y})_1$ with $p_{\mathbf{Y}}(\gamma_g^y) = g$.
+
+Finally we may choose representatives $g' \in G$ for each $[g'] \in G/Stab_G(w_0)$.
+
+Now let $\Gamma \subset Mor(\mathbf{Y})$ denote a set of generators which exhibits $f$ as a cofibration. Write 
+
+\[
+  \Gamma_{w_0} 
+    \,\subset\, 
+  Mor\big( \{w_0\} \times \mathbf{Y} \big) 
+    \,\subset\, 
+  Mor\big( 
+    (W \sslash G) 
+      \times_{\mathbf{B}G} 
+    \mathbf{Y} 
+  \big)
+\] 
+
+for the corresponding subset in the fiber product.
 
 
-Let $\Gamma \subset Mor(\mathbf{Y})$ denote a set of generators which exhibits $f$ as a cofibration. Write $\Gamma_{w_0} \,\subset\, Mor\big( \{w_0\} \times \mathbf{Y} \big)$ for the corresponding subset in the product.
-
-Define
+We claim that
 $$
   \widehat \Gamma
   \;\coloneqq\;
   \Gamma_{w_0}
   \cup
-  \underset{
-    g \neq \mathrm{e}
-  }{\bigcup}
-  \Big(
-  p_{Mor(\mathbf{Y})}^{-1}(\{g\})
-  \setminus
-  f\big(Mor(\mathbf{X})\big)
-  \Big)
+  \big\{
+    \gamma^y_{g'}
+  \big\}_{
+    { y \in Obj(\mathbf{Y}) \setminus f(Obj(\mathbf{X})) }
+    \atop
+    { [g'] \in G/Stab_G(w_0) }
+  }
 $$
+is a set of generators which exhibits $(W \sslash G) \times_{\mathbf{B}G} f$ as a cofibration.
+
+Namely, every morphism $(w_0, y_1) \to (w, y'_2)$ in $(W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}$ is uniquely decomposed in the form
+$$
+  (w_0, y_1)
+    \xrightarrow{ 
+      (\mathrm{e}, \gamma)
+    }
+  (w_0, y_2) 
+    \xrightarrow{ (g', \gamma^{y_2}_{g'}) } 
+  (w, y'_2)
+$$
+for some $\gamma \in Mor\big(\{w_0\} \times \mathbf{Y}\big)$. 
+
+Now $\Gamma$ has furthermore a unique $\Gamma$-generation by assuption, which clealy remains $\widehat{\Gamma}$-unique. If this sequence ends on a morphism in the image of $f$ and at the same time $\gamma^{y_2}_{g'}$ is in the image of $f$, then we compose the latter onto the last step in the sequence, otherwise we append $\gamma^{y_2}_{g'}$ to the sequence. In either case we have uniquely obtained a reduced $\widehat{\Gamma}$-decomposition of the given morphism.
 \end{proof}
 
 ***
