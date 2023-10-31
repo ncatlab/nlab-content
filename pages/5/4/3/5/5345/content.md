@@ -35,21 +35,30 @@ Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[sim
 \begin{definition}\label{FreeMorphismsOfSimplicialGroupoids}
 **(free morphisms of simplicial groupoids)**
 \linebreak
-  Say that a [[morphism]] $f \colon X \to Y$ of [[simplicial groupoids]] is *free* iff:
+  Say that a [[morphism]] $\mathbf{f} \colon \mathbf{X} \to \mathbf{Y}$ of [[simplicial groupoids]] is *free* iff:
 
 1. it is degreewise [[injective]] (i.e. on the [[sets]] of [[objects]] and on the sets of [[morphisms]] in each degree);
 
-1. there is a [[subset]] $\Gamma \subset Y$ of [[morphisms]] in $Y$ (of any degree) with the following properties:
+1. there is a [[subset]] 
+
+   \[
+     \label{SetOfFreeGenerators}
+     \Gamma 
+       \;\subset\; 
+     \mathbf{Y}
+   \]
+  
+   of [[morphisms]] in $\mathbf{Y}$ (of any degree) with the following properties:
 
    1. $\Gamma$ contains no [[identity morphisms]];
 
    1. $\Gamma$ is closed under forming degenerate cells;
 
-   1. every non-[[identity morphism]] in $Y$ is *uniquely* the [[composition]] of a *reduced* sequence of morphisms 
+   1. every non-[[identity morphism]] in $\mathbf{Y}$ is *uniquely* the [[composition]] of a *reduced* sequence of morphisms 
 
       1. in $\Gamma$,
 
-      1. in the [[image]] under $f$ of non-identity morphisms in $X$,
+      1. in the [[image]] under $\mathbf{f}$ of non-identity morphisms in $X$,
 
       1. their [[inverse morphisms|inverses]],
 
@@ -58,7 +67,7 @@ Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[sim
 
       1. no morphism in the sequences is consecutive with its [[inverse morphisms|inverse]],
 
-      1. no two non-[[identity morphisms]] in the [[image]] of $f$ are consecutive.
+      1. no two non-[[identity morphisms]] in the [[image]] of $\mathbf{f}$ are consecutive.
 \end{definition}
 &lbrack;[Dwyer & Kan 1984, §2.3](#DwyerKan84)&rbrack;
 
@@ -68,19 +77,19 @@ Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[sim
 \linebreak
 There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
-* [[weak equivalences]] are the [Dwyer-Kan equivalences](model+structure+on+sSet-categories#DwyerKanEquivalences), hence those morphisms $f \colon H \to K$ such that
+* [[weak equivalences]] are the [Dwyer-Kan equivalences](model+structure+on+sSet-categories#DwyerKanEquivalences), hence those morphisms $\mathbf{f} \colon \mathbf{H} \to \mathbf{K}$ such that
 
-  1. $f$ induces in [[isomorphism]] on [[connected components]] $\pi_0 f \colon \pi_0 H \to \pi_0 K$;
+  1. $\mathbf{f}$ induces in [[isomorphism]] on [[connected components]] $\pi_0 \mathbf{f} \colon \pi_0 \mathbf{H} \to \pi_0 \mathbf{K}$;
 
-  1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K\big(f(x), f(x)\big)$ is a weak equivalence in the [[model structure on simplicial groups]], which in turn equivalently means that it is a weak equivalence of [[underlying]] simplicial sets in the [[classical model structure on simplicial sets]] (a [[simplicial weak homotopy equivalence]]).
+  1. for each object $x$ of $\mathbf{H}$ the induced morphism $\mathbf{H}(x,x) \to \mathbf{K}\big(\mathbf{f}(x), \mathbf{f}(x)\big)$ is a weak equivalence in the [[model structure on simplicial groups]], which in turn equivalently means that it is a weak equivalence of [[underlying]] simplicial sets in the [[classical model structure on simplicial sets]] (a [[simplicial weak homotopy equivalence]]).
 
-* [[fibrations]] are the [[Kan fibration|Kan]]-[[isofibrations]], namely those morphisms $f \colon H \to K$ such that 
+* [[fibrations]] are the [[Kan fibration|Kan]]-[[isofibrations]], namely those morphisms $\mathbf{f} \colon \mathbf{H} \to \mathbf{K}$ such that 
 
-  1. for every [[object]] $x$ of $H$ and every [[morphism]] $\omega \colon f(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
+  1. for every [[object]] $x$ of $\mathbf{H}$ and every [[morphism]] $\omega \colon \mathbf{f}(x) \to y$ in $\mathbf{K}_0$ there is a morphism $\hat \omega \colon x \to z$ of $H_0$ such that $\mathbf{f}(\hat \omega) = \omega$;
 
-  1. for every object $x$ in $H$ the induced morphism $f \colon H(x,x) \to K(f(x), f(x))$ is a [[Kan fibration]].
+  1. for every object $x$ in $\mathbf{H}$ the induced morphism $\mathbf{f} \colon \mathbf{H}(x,x) \to \mathbf{K}\big(\mathbf{f}(x), \mathbf{f}(x)\big)$ is a [[Kan fibration]].
 
-* [[cofibrations]] are the [[retracts]] (in the [[arrow category]]) of the free maps from Def. \ref{FreeMorphismsOfSimplicialGroupoids}.
+* {#CofIsRetractOfFree} [[cofibrations]] are the [[retracts]] (in the [[arrow category]]) of the free maps from Def. \ref{FreeMorphismsOfSimplicialGroupoids}.
 
 \end{proposition}
 This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), reviewed in [Goerss & Jardine (2009), p. 316 and after cor V.7.3](#GoerssJardine09).
@@ -358,11 +367,14 @@ where the vertical morphisms are [[Dwyer-Kan equivalences]]. Now observe that th
 ## Examples
  {#Examples}
 
+### Fiber products with action 1-groupoids
+ {#FiberProductsWithActionOneGroupoids}
+
 While the underlying category of [[sSet-enriched groupoids]] is [[cartesian closed monoidal category|cartesian closed]] (see [there](simplicial+groupoid#CartesianClosedStructure)), the model category is not [[cartesian monoidal model category|cartesian monoidal as a model structure]]. 
 
-Here is a simple special case at least of (fiber) products preserving cofibrations:
+But here is a (very) simple special case at least of an [[internal hom]] Quillen adjunction for [[action groupoid|action]] [[1-groupoids]].
 
-Consider
+{#AssumptionForFiberProductWithActionOneGroupoid} Consider:
 
 * a [[group]] $G \,\in\, Grp(Set)$, 
 
@@ -376,87 +388,196 @@ Consider
 
   canonically regarded in the [[slice category|slice]] $sSet\text{-}Grpd_{/\mathbf{B}G}$,
 
-* [[sSet-enriched groupoids]]$\;\mathbf{X}, \mathbf{Y} \,\in\, sSet\text{-}Grpd$ lifted to the [[slice category|slice]] over $\mathbf{B}G$ via $p_\mathbf{X},\, p_\mathbf{Y} \,\in\, sSet\text{-}Grpd_{/\mathbf{B}G}$, where $p_{\mathbf{Y}}$ is an [[isofibration]].
+* [[sSet-enriched groupoids]]$\;\mathbf{X}, \mathbf{Y} \,\in\, sSet\text{-}Grpd$ lifted to the [[slice category|slice]] over $\mathbf{B}G$ via $p_\mathbf{X},\, p_\mathbf{Y} \,\in\, sSet\text{-}Grpd_{/\mathbf{B}G}$.
 
-\begin{proposition}
-For
-$f \colon \mathbf{X} \to \mathbf{Y}$ a morphism in the slice over $\mathbf{B}G$, which is a cofibration in the [[slice model category]] in that its [[underlying]] morphism in $sSet\text{-}Grpd$ is a Dwyer-Kan cofibration (Def. \ref{TheModelStructure}), then also the fiber product morphism
+\begin{lemma}
+\label{FiberProductWithActionOneGroupoidPreservesCofibrations}
+With the [above assumptions](#AssumptionForFiberProductWithActionOneGroupoid),
+for
+$\mathbf{f} \colon \mathbf{X} \to \mathbf{Y}$ a morphism in the slice over $\mathbf{B}G$ which is a cofibration in the [[slice model category]] in that its [[underlying]] morphism in $sSet\text{-}Grpd$ is a Dwyer-Kan cofibration (Def. \ref{TheModelStructure}), then also the fiber product morphism
 $$
-  (W \sslash G) \times_{\mathbf{B}G} f
+  (W \sslash G) \times_{\mathbf{B}G} \mathbf{f}
   \;\colon\;
   (W \sslash G) \times_{\mathbf{B}G} \mathbf{X}
   \longrightarrow
   (W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}
 $$
-is a (slice-)cofibration.
-\end{proposition}
+is a DK-(slice-)cofibration.
+\end{lemma}
 \begin{proof}
-  If $Obj(\mathbf{Y}) = \varnothing$ then injectivity of $f$ implies that also $Obj(\mathbf{X}) = \varnothing$ and the claim follows readily. Hence assume now that there exists $y_0 \,\in\, Obj(\mathbf{Y})$.
-
-By the assumption that $W$ is inhabited, there is $w_0 \in W$.
-
-If $W \sslash G$ or $\mathbf{Y}$ are not connected, then we may apply the following argument to all its connected components from which the general claim follows readily. Hence assume now that both $W \sslash G$ and $\mathbf{Y}$ are connected.
-
-By the assumption that $p_{\mathbf{Y}}$ is an isofibration, we may choose for each $g \in G$ and $y \in Obj(\mathbf{Y})$ a [[1-morphism]] 
-\[
-  \label{LiftedOneMorphism}
-  \gamma^y_g \,\colon\, y \to y'
-\] 
-in $Mor(\mathbf{Y})_1$ with $p_{\mathbf{Y}}(\gamma_g^y) = g$.
-
-Moreover, assuming the [[axiom of choice]] in the underlying [[set theory]], we may choose representatives $g' \in G$ for each $[g'] \in G/Stab_G(w_0)$.
-
-
-Finally, it is sufficient to assume that $f$ is a free map (Def. \ref{FreeMorphismsOfSimplicialGroupoids}), since the statement for this case readily implies the statement for retracts of free maps.
-
-So let $\Gamma \subset Mor(\mathbf{Y})$ denote a set of generators which exhibits $f$ as a free map. Write 
-
-\[
-  \Gamma_{w_0} 
-    \,\subset\, 
-  Mor\big( \{w_0\} \times \mathbf{Y} \big) 
-    \,\subset\, 
-  Mor\big( 
-    (W \sslash G) 
-      \times_{\mathbf{B}G} 
-    \mathbf{Y} 
-  \big)
-\] 
-
-for the corresponding subset in the fiber product.
-
-
-We claim that
-$$
-  \widehat \Gamma
-  \;\coloneqq\;
-  \Gamma_{w_0}
-  \cup
-  \big\{
-    \gamma^y_{g'}
-  \big\}_{
-    { y \in Obj(\mathbf{Y}) \setminus f(Obj(\mathbf{X})) }
-    \atop
-    { [g'] \in G/Stab_G(w_0) }
-  }
-$$
-is a set of generators which exhibits $(W \sslash G) \times_{\mathbf{B}G} f$ as a free map (Def. \ref{FreeMorphismsOfSimplicialGroupoids}) and hence as a DK-cofibration.
-
-Namely, every morphism $(w_0, y_1) \to (w, y'_2)$ in $(W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}$ is uniquely decomposed in the form
-$$
-  (w_0, y_1)
-    \xrightarrow{ 
-      (\mathrm{e}, \gamma)
+By [definition](#CofIsRetractOfFree), the cofibration $\mathbf{f}$ is a retraction (in the [[arrow category]] of $sSet\text{-}Grpd$) of a free map $\widehat {f}$ (Def. \ref{FreeMorphismsOfSimplicialGroupoids}). But the right part of such a retraction diagram exhibits also $\widehat{f}$ as morphism in the slice over $\mathbf{B}G$ such that also the left part lifts to the slice: 
+\begin{tikzcd}[sep=15pt]
+  \mathbf{X}
+  \ar[rr]
+  \ar[
+    dd,
+    "{
+      \mathbf{f}
+    }"{description}
+  ]
+  \ar[
+    rrrr,
+    equals,
+    rounded corners,
+    to path={
+         ([yshift=+0pt]\tikztostart.north)    
+      -- ([yshift=+8pt]\tikztostart.north)    
+      -- ([yshift=+8pt]\tikztotarget.north)    
+      -- ([yshift=+0pt]\tikztotarget.north)    
     }
-  (w_0, y_2) 
-    \xrightarrow{ (g', \gamma^{y_2}_{g'}) } 
-  (w, y'_2)
-$$
-for some $\gamma \in p_{\mathbf{Y}}^{-1}\big\{pt \xrightarrow{\mathrm{e}} pt\big\} \subset Mor\big(\{w_0\} \times \mathbf{Y}\big)$. 
+  ]
+  &&
+  \widehat{\mathbf{X}}
+  \ar[rr]
+  \ar[
+    dd,
+    "{ 
+      \widehat{\mathbf{f}}
+    }"{description}
+  ]
+  \ar[drrr]
+  &&
+  \mathbf{X}
+  \ar[
+    dr,
+    "{ p_{\mathbf{X}} }"
+  ]
+  \\
+  && && & \mathbf{B}G
+  \\
+  \mathbf{Y}
+  \ar[rr]
+  \ar[
+    rrrr,
+    equals,
+    rounded corners,
+    to path={
+         ([yshift=+0pt]\tikztostart.south)    
+      -- ([yshift=-8pt]\tikztostart.south)    
+      -- ([yshift=-8pt]\tikztotarget.south)    
+      -- ([yshift=+0pt]\tikztotarget.south)    
+    }
+  ]
+  &&
+  \widehat{\mathbf{Y}}
+  \ar[rr]
+  \ar[urrr]
+  &&
+  \mathbf{Y}
+  \ar[
+    from=uu, 
+    crossing over,
+    "{ \mathbf{f} }"{description}
+  ]
+  \ar[
+    ur,
+    "{ p_{\mathbf{Y}} }"{swap}
+  ]
+\end{tikzcd} 
+Regarded this way as a diagram in the slice, the functor $(W \sslash G) \times_{\mathbf{B}G} (-)$ preserves its retraction property. 
 
-Now $\gamma$ has furthermore a unique $\Gamma$-generation by assuption, which clealy remains $\widehat{\Gamma}$-unique. If this sequence ends on a morphism in the image of $f$ and at the same time $\gamma^{y_2}_{g'}$ is in the image of $f$, then we compose the latter onto the last step in the sequence, otherwise we append $\gamma^{y_2}_{g'}$ to the sequence. In either case we have uniquely obtained a reduced $\widehat{\Gamma}$-decomposition of the given morphism.
+Therefore it is sufficient to prove the claim under the assumption that $\mathbf{f}$ is actually a free map.
+
+So let $\Gamma \subset Mor(\mathbf{Y})$ denote a [set of generators](#SetOfFreeGenerators) which exhibits $\mathbf{f}$ as a free map. We claim that then the set
+$$
+  (W \sslash G) 
+    \times_{\mathbf{B}G}
+  \Gamma
+  \;\;
+  \subset
+  \;\;
+  Mor\big(
+    (W \sslash G) 
+      \times_{\mathbf{B}G}
+    \mathbf{Y}
+  \big)
+$$
+serves as a set of generators exhibiting $(W \sslash G) \times_{\mathbf{B}G} f$ as a free map, and hence as a cofibration.
+
+Namely, by the nature of the [[fiber product]], every morphism in $(W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}$ is of the form
+$$
+  \big( p_{\mathbf{Y}}(\phi), \phi \big)
+  \;\colon\;
+  (w, y) \longrightarrow (w', y')
+  \,,
+$$
+where $w' \,=\, p_{\mathbf{Y}}(\phi) \cdot w$ is determined by the pair consisting of $\phi \colon y \to y'$ and of $w \in Obj(\mathbf{Y})$. By assumption on $\Gamma$, $\phi$ has a unique reduced decomposition into $\Gamma$-components and this uniquely lifts to a reduced decomposition in $(W \sslash G)\times_{\mathbf{B}G} \Gamma$, determined by $w$.
 \end{proof}
 
+\begin{proposition}
+  With the [above assumptions](#AssumptionForFiberProductWithActionOneGroupoid), we have a [[Quillen adjunction]] on the [[slice model category]] of the DK-model structure:
+$$
+  sSet\text{-}Grpd_{/\mathbf{B}G}
+  \underoverset
+    {
+      \underset{
+         Map\big( W \sslash G, - \big)_{\mathbf{B}G}
+      }{\longleftarrow}  
+    }
+    { 
+      \overset{ 
+        (W \sslash G) 
+          \times_{\mathbf{B}G}
+        (-)
+      }{\longrightarrow} 
+    }
+    { \bot_{\mathrlap{Qu}} }
+  sSet\text{-}Grpd_{/\mathbf{B}G}
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  With Lem. \ref{FiberProductWithActionOneGroupoidPreservesCofibrations}
+ it is now sufficient to show that $(W \sslash G) \times_{\mathbf{B}G}(-)$ preserves all weak equivalences.
+
+So assume that 
+$$
+  \mathbf{f}_{x,x'}
+    \,\colon\,
+  \mathbf{X}(x,x')
+  \longrightarrow
+  \mathbf{Y}\big(\mathbf{f}(x),\mathbf{f}(x')\big)  
+$$ 
+is a weak equivalence for all $w,w' \,\in\, Obj(\mathbf{X})$.
+
+By the fact that $\mathbf{f}$ is a map in the slice over $\mathbf{B}G$, these component maps decompose into [[disjoint unions]] indexed by $g \in G$:
+$$
+  \mathbf{f}_{x,x'}
+  \;=\;
+  \underset{g \in G}{\coprod}
+  \Big(
+    \mathbf{f}^g_{x,x'}
+      \,\colon\,
+    \big((p_{\mathbf{X}})_{x,x'}\big)^{-1}
+    \big(\{g\}\big)
+    \longrightarrow
+    \big(
+      (p_{\mathbf{Y}})_{
+        \mathbf{f}(x),
+        \mathbf{f}(x')
+      }\big)^{-1}
+      \big(\{g\}\big)
+  \Big)
+  \,.
+$$ 
+Accordingly, all the components $\mathbf{f}^g_{x,x'}$ must be weak equivalences.
+But then
+$$
+  \big(
+    (W \sslash G) 
+      \times_{\mathbf{B}G} 
+    \mathbf{f}
+  \big)_{(w,x), (w',x') }
+  \;=\;
+    \underset{
+      {g \in G}  
+      \atop
+      g \cdot w = w'
+    }{\coprod}
+      \mathbf{f}^g_{x,x'}
+$$
+is a coproduct of weak equivalences and hence a weak equivalence.
+\end{proof}
 
 ## Related concepts
 
