@@ -64,6 +64,8 @@ and this will be frequently used in the sequel.
 
 Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \neq 0$. From $N(v) = N(e v) = N(e)N(v)$, it follows that $N(e) = 1$. 
 
+### Para- and non-unital composition algebras
+
 Frequently, one refers to *unital* composition algebras simply as composition algebras. However, this unital property can be weakened or removed altogether. A weakening of this condition leads to **para-unital** composition algebras. This requires the existence of an involution
 
 $$
