@@ -3,8 +3,11 @@
 
 * [webpage](http://www.cs.ox.ac.uk/people/dusko.pavlovic/)
 
-
 ## Selected writings
+
+On [[categorical semantics]] of [[constructive logic]] and [[intuitionistic type theory]]:
+
+* {#Pavlovic1990} [[Duško Pavlović]], *Predicates and Fibrations*, PhD thesis, Utrecht (1990) &lbrack;[pdf](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf), [[Pavlovic-PredicatesAndFibrations.pdf:file]]&rbrack;
 
 On [[monadic descent]] and the [[Beck-Chevalley condition]]:
 
