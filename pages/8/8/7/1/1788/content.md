@@ -1,4 +1,58 @@
 
+Consider
+
+* a [[group]] $G \,\in\, Grp(Set)$, 
+
+* with [[delooping groupoid]] denoted $\mathbf{B}G \,\in\, Grpd(Set) \subset sSet\text{-}Grpd$, 
+
+* a [[set]] $W \,\in\, Set$,
+
+* equipped with a [[group action]] $G \curvearrowright W \,\in\, G Act(Set)$,
+
+* with [[action groupoid]] denoted $W \sslash G \,\in\, Grpd \hookrightarrow sSet\text{-}Grpd$,
+
+  canonically regarded in the [[slice category|slice]] $sSet\text{-}Grpd_{/\mathbf{B}G}$,
+
+* [[sSet-enriched groupoids]]$\;\mathbf{X}, \mathbf{Y} \,\in\, sSet\text{-}Grpd$ in the [[slice category|slice]] over $\mathbf{B}G$, $p_\mathbf{X}, p_\mathbf{Y} \,\in\, sSet\text{-}Grpd_{/\mathbf{B}G}$.
+
+\begin{proposition}
+For
+$f \colon \mathbf{X} \to \mathbf{Y}$ a morphism in the slice over $\mathbf{B}G$, whose [[underlying]] morphism in $sSet\text{-}Grpd$ is a Dwyer-Kan cofibration, then also (the underlying map of) the fiber product morphism
+
+$$
+  (W \sslash G) \times_{\mathbf{B}G} f
+  \;\colon\;
+  (W \sslash G) \times_{\mathbf{B}G} \mathbf{X}
+  \longrightarrow
+  (W \sslash G) \times_{\mathbf{B}G} \mathbf{Y}
+$$
+
+is a DK-cofibration.
+\end{proposition}
+\begin{proof}
+  If $Obj(\mathbf{Y}) = \varnothing$ then injectivity of $f$ implies that also $Obj(\mathbf{X}) = \varnothing$ and the claim follows readily. Hence assume now that there exists $w_0 \,\in\, Obj(\mathbf{Y})$.
+
+
+Let $\Gamma \subset Mor(\mathbf{Y})$ denote a set of generators which exhibits $f$ as a cofibration. Write $\Gamma_{w_0} \,\subset\, Mor\big( \{w_0\} \times \mathbf{Y} \big)$ for the corresponding subset in the product.
+
+Define
+$$
+  \widehat \Gamma
+  \;\coloneqq\;
+  \Gamma_{w_0}
+  \cup
+  \underset{
+    g \neq \mathrm{e}
+  }{\bigcup}
+  \Big(
+  p_{Mor(\mathbf{Y})}^{-1}(\{g\})
+  \setminus
+  f\big(Mor(\mathbf{X})\big)
+  \Big)
+$$
+\end{proof}
+
+***
 
 Let $X$ be a [[compact Hausdorff space]]. By a [[vector bundle]] (over $X$) we mean a [[topological vector bundle|topological]] [[complex vector bundle]].
 
