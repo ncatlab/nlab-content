@@ -203,6 +203,8 @@ One may consider the [[moduli stack of complex structures]] on a given manifold.
 
 * [[holomorphic vector bundle]], [[pseudoholomorphic vector bundle]]
 
+* [[para-complex structure]]
+
 ## References
 
 ### Complex structure on vector spaces
