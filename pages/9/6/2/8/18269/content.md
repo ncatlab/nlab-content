@@ -36,6 +36,12 @@ A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a
 
 ## References
 
+On [[product topological space|product spaces]] with Lindelöf spaces:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On productively  Lindelöf spaces*, Scient. Math. Japon. **65** (2007) 23–36 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/alster.pdf), [[BKR-ProductivelyLindeloef.pdf:file]]&rbrack;
+
+See also:
+
 * Wikipedia, _[Lindel&#246;f space](https://en.wikipedia.org/wiki/Lindel%C3%B6f_space)_
 
 [[!redirects Lindelöf topological spaces]]
