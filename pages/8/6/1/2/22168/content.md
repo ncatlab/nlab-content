@@ -1,4 +1,4 @@
-[[!redirects condensed cohesion]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
