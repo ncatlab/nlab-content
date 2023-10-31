@@ -489,3 +489,8 @@ See also:
 [[!redirects simplicial groupoids]]
 [[!redirects simplicially enriched groupoids]]
 [[!redirects simplicially enriched groupoid]]
+
+[[!redirects sSet-enriched groupoid]]
+[[!redirects sSet-enriched groupoids]]
+
+
