@@ -247,10 +247,14 @@ A standard textbook reference for categorical semantics of logic is section D1.2
 
 The categorical semantics of [[dependent type theory]] in [[locally cartesian closed categories]] is essentially due to
 
-* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
-  {#Seely}
+* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+  
 
 For more references on this see at _[[relation between category theory and type theory]]_.
+
+See also:
+
+* {#Pavlovic1990} [[Duško Pavlović]], *Predicates and Fibrations*, PhD thesis, Utrecht (1990) &lbrack;[pdf](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf), [[Pavlovic-PredicatesAndFibrations.pdf:file]]&rbrack;
 
 Lecture notes on this include for instance.
 
