@@ -442,6 +442,6 @@ A relative version of Freyd's classical results is in
 
 A history of the general adjoint functor theorem is discussed in:
 
-* [[Hans-E. Porst]], _The history of the General Adjoint Functor Theorem_, ([arxiv:2310.19528](https://arxiv.org/abs/2310.19528))
+* [[Hans-E. Porst]], _The history of the General Adjoint Functor Theorem_ &lbrack;[arxiv:2310.19528](https://arxiv.org/abs/2310.19528)&rbrack;
 
 [[!redirects adjoint functor theorems]]
