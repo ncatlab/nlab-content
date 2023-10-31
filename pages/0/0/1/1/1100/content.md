@@ -96,7 +96,7 @@ An [[object classifier]] is a (small) _self-reflection_ of the $\infty$-topos in
 
 =--
 
-A further equivalent one (essentially by an invocation of the adjoint functor theorem) is:
+A further equivalent one (essentially by an invocation of the [[adjoint functor theorem]]) is:
 
 +-- {: .num_prop}
 ###### Proposition
