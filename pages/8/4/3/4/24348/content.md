@@ -30,9 +30,11 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Operational Categories|Colin Barry Jay|1984| | |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
+|Predicates and Fibrations|[[Duško Pavlović]]|1990|[scan](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf)| |
 |Dialectica Categories|[[Valeria de Paiva]]|1991|[Computer Lab Technical Report](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.html)| |
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
 |Cauchy completion in enriched categories|Scott Russell Johnson|1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
+|Linear Logic, Bimodules, and Full Coherence for Autonomous Categories|[[Todd Trimble]]|1994| | |
 |Cobordism Categories|Sean Carmody|1995| | | 
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
@@ -50,6 +52,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Generalization of Algebraic Operations via Enrichment|[[Christina Vasilakopoulou]]|2014|[arXiv](https://arxiv.org/abs/1411.3038)| |
 |Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|[[Mitchell Buckley]]|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
 |Synthetic Lie theory|Matthew Burke|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068205)| |
+|Fibrations of predicates and bicategories of relations|[[Finn Lawler]]|2015|[arXiv](https://arxiv.org/abs/1502.08017)| |
 |Sketches in higher category theory|[[Remy Tuyeras|Remy Vincent Tuyeras]]|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1061373)| | 
 |A higher categorical approach to Giraud's non-abelian cohomology|[[Alexander Campbell]]|2016|[Macquarie repository](http://hdl.handle.net/1959.14/1261186)| |
 |The Algebra of Open and Interconnected Systems|Brendan Fong|2016|[arXiv](https://arxiv.org/abs/1609.05382)| |
