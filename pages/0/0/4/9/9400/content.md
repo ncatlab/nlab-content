@@ -93,7 +93,7 @@ There is an evident generalization of the definition to [[higher category theory
 
 If we take Theorem \ref{UniversalityAndDescent} as the definition of "van Kampen colimit", this follows from Theorem 6.1.3.9 of [[HTT]], see also around ([[(infinity,2)-Categories and the Goodwillie Calculus|Lurie 2Cats+Goodwillie, example 1.2.3]]).  The $(\infty,1)$-categorical version of Theorem \ref{UniversalityAndDescent} may not exactly be in the literature, however.  The cited theorem of HTT essentially gives Theorem \ref{UniversalityAndDescent} under the additional global hypothesis that all colimits in $C$ are universal.
 
-In this case, being van Kampen is also equivalent to being preserved by the composite of $S$ with the [[core]] functor $Core : (\infty,1)Cat \to \infty Gpd$.  Thus, the [[adjoint functor theorem]] implies that (assuming all colimits to be universal), all colimits are van Kampen just when all small versions of $Core \circ S$ are [[representable functor|representable]], i.e. when [[object classifiers]] exist.
+In this case, being van Kampen is also equivalent to being preserved by the composite of $S$ with the [[core]] functor $Core : (\infty,1)Cat \to \infty Gpd$.  Thus, the [[adjoint functor theorem]] (specifically, the [[representable functor theorem]]) implies that (assuming all colimits to be universal), all colimits are van Kampen just when all small versions of $Core \circ S$ are [[representable functor|representable]], i.e. when [[object classifiers]] exist.
 
 
 ## Related pages
