@@ -30,6 +30,8 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 * In ...
 
+Closely-related notions are those of [[type II* string theory]] and [[type II' string theory]].
+
 ## Properties
 
 ### Effective QFT
