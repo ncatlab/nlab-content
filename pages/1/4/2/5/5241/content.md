@@ -1,7 +1,14 @@
 
 * [website](http://www.math.uni-bremen.de/~porst/)
 
-## related $n$Lab entries
+## Selected writings
+
+On the history of the [[adjoint functor theorem]]:
+
+* [[Hans-E. Porst]], _The history of the General Adjoint Functor Theorem_ &lbrack;[arxiv:2310.19528](https://arxiv.org/abs/2310.19528)&rbrack;
+
+
+## Related entries
 
 * [[duality]]
 
