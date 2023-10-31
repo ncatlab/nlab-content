@@ -619,11 +619,14 @@ The original articles on Isbell duality and the [[Isbell envelope]] are
 
 * {#Kock66} [[Anders Kock]]. _Continuous Yoneda representation of a small category_. University of Aarhus, Denmark, 1966. ([pdf](https://tildeweb.au.dk/au76680/CYRSC.pdf))
 
-More recent discussion is in
+More recent discussion:
 
 * {#Lawvere86} [[William Lawvere]], p. 17 of _Taking categories seriously_, Revista Colombiana de Matematicas, XX (1986) 147-178, reprinted as: Reprints in Theory and Applications of Categories, No. 8 (2005) pp. 1-24 ([web](http://tac.mta.ca/tac/reprints/articles/8/tr8abs.html))
 
-* [[Michael Barr]], John Kennison, R. Raphael, Isbell Duality, Theory and Applications of Categories, Vol. 20, 2008, No. 15, pp 504-542. ([web](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html))
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell Duality* Theory and Applications of Categories **20** 15 (2008) 504-542 &lbrack;[tac:20-15](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html)&rbrack;
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
+
 
 * [[Richard Garner]], _The Isbell monad_, Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
 
@@ -663,9 +666,6 @@ See also
 
 * R.J. Wood, _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
-In Isbell duality for [[modules]]:
-
-* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
 
 
 
