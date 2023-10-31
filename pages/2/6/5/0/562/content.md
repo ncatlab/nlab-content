@@ -259,7 +259,7 @@ There are several alternate characterizations of when a functor is a fibration, 
 
 ### In terms of adjoints
 
-Since Grothendieck fibrations are a strict notion, in what follows we denote by $B\downarrow p$ the strict [[comma category]] (i.e. determined up to isomorphism, not merely up to equivalence) and by $Cat/B$ the [[strict slice 2-category]] (elsewhere denoted $Cat/_s B$).
+Since Grothendieck fibrations are a [[strict category|strict]] notion, in what follows we denote by $B\downarrow p$ the [[strict category|strict]] [[comma category]] (i.e. determined up to [[isomorphism]], not merely up to [[equivalence of categories|equivalence]]) and by $Cat/B$ the [[strict slice 2-category]].
 
 +--{: .un_lemma}
 ###### Lemma
