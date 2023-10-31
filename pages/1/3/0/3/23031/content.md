@@ -1,6 +1,6 @@
 
 
-## Selected wrirings
+## Selected writings
 
 On [[non-abelian cohomology|non-abelian]] [[group cohomology]], [[graded algebras]], [[crossed homomorphisms]], ...:
 
