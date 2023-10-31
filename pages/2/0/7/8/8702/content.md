@@ -360,6 +360,11 @@ The _Tychonoff topology_ is named after [[A. N. Tychonoff]].
 * {#Terilla14} [[John Terilla]],  _Notes on categories, the subspace topology and the product topology_ 2014 ([pdf](https://math.mit.edu/~jhirsh/terilla_subspace_quotient.pdf))
 
 
+On [[product topological space|product spaces]] with [[Lindelöf topological spaces]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On productively  Lindelöf spaces*, Scient. Math. Japon. **65** (2007) 23–36 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/alster.pdf), [[BKR-ProductivelyLindeloef.pdf:file]]&rbrack;
+
+
 [[!redirects product topological spaces]]
 
 [[!redirects topological product space]]
