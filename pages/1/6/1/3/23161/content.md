@@ -4,7 +4,7 @@
 ### Powering of $\infty$-toposes over $\infty$-groupoids
   {#PoweringOfInfinityToposesOverInfinityGroupoids}
 
-We discuss how the [[powering]] of [[(infinity,1)-toposes|$\infty$-toposes]] over [[Infinity-Grpd|$Grpd_\infty$]] is given by forming [[mapping stacks]] out of [[locally constant infinity-stacks|locally constant $\infty$-stacks]]. All of the following formulas and their proogfs hold verbatim also for [[Grothendieck toposes]], as they just use general abstract properties.
+We discuss how the [[powering]] of [[(infinity,1)-toposes|$\infty$-toposes]] over [[Infinity-Grpd|$Grpd_\infty$]] is given by forming [[mapping stacks]] out of [[locally constant infinity-stacks|locally constant $\infty$-stacks]]. All of the following formulas and their proofs hold verbatim also for [[Grothendieck toposes]], as they just use general abstract properties.
 
 \linebreak
 
