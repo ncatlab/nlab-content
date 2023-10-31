@@ -15,9 +15,13 @@
 
 ## Statement
 
-The __representable functor theorem__ states that a [[Set]]-valued [[functor]] on a [[cocomplete category]] is [[representable functor|representable]] if and only if it is [[continuous functor|continuous]] and has a [[solution set condition|solution set]].
+The __representable functor theorem__ states that:
 
-Dually, a [[Set]]-valued [[presheaf]] on a [[complete category]] is [[representable functor|representable]] if and only if it takes [[colimits]] to [[limits]] and has a [[solution set condition|solution set]].
+- A [[presheaf]] $C^{op} \to Set$ on a [[cocomplete category]] $C$ is [[representable functor|representable]] (i.e. of the form $C({-}, c)$ for some object $c \in C$) if and only if it sends [[colimits]] in $C$ to [[limits]] in $Set$ and has a [[solution set condition|solution set]].
+
+Dually, the __corepresentable functor theorem__ states that:
+
+- A [[copresheaf]] $C \to Set$ on a [[complete category]] $C$ is [[corepresentable functor|corepresentable]] (i.e. of the form $C(c, {-})$ for some object $c \in C$) if and only if it is [[continuous functor|continuous]] and has a [[solution set condition|solution set]].
 
 ## Related facts
 
@@ -38,6 +42,6 @@ is a right adjoint functor if and only if it is representable, in which case the
 * {#MacLane97} [[Saunders MacLane]], p. 118 (2nd ed: 130) in: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 
-
-
-[[!redirects representable functor theorem]]
+[[!redirects corepresentable functor theorem]]
+[[!redirects representability theorem]]
+[[!redirects corepresentability theorem]]
