@@ -27,7 +27,7 @@
 {:toc}
 
 ## Idea
-Intuitively, a **para-complex structure** is to a [[complex structure]] what the [[para-complex numbers]] (see [[composition algebra]] for the moment) are to the [[complex numbers]].
+Intuitively, a **para-complex structure** is to a [[complex structure]] what the [[para-complex numbers]] (see [here](https://ncatlab.org/nlab/show/composition+algebra#para_and_nonunital_composition_algebras) for the moment) are to the [[complex numbers]].
 
 
 ## Definition
@@ -52,5 +52,5 @@ An **almost para-complex structure** on a [[smooth manifold]] $M$ is an endomorp
 
 General:
 
-* Vicente Cortés, Christoph Mayer, Thomas Mohaupt, and Frank Saueressig. *Special geometry of Euclidean supersymmetry 1. Vector multiplets.* Journal of High Energy Physics 2004, no. 03 (2004): 028. \[[doi:10.1088/1126-6708/2004/03/028](https://doi.org/10.1088/1126-6708/2004/03/028)\]
+* [[Vicente Cortés]], Christoph Mayer, [[Thomas Mohaupt]], and Frank Saueressig. *Special geometry of Euclidean supersymmetry 1. Vector multiplets.* Journal of High Energy Physics 2004, no. 03 (2004): 028. \[[doi:10.1088/1126-6708/2004/03/028](https://doi.org/10.1088/1126-6708/2004/03/028)\]
 
