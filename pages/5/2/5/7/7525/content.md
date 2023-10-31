@@ -19,6 +19,11 @@ On [[categorical logic]] and [[topos theory]] (and establishing the [[relation b
 
 * {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
 
+On [[computability]] and [[formal language]]:
+
+* [[Joachim Lambek]] (with [[Michael Barr]]), *Programs, Grammars, Arguments*, lecture notes (2007) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/pga.pdf), [[LambekBarr-ProgramsGrammarArguments.pdf:file]]&rbrack;
+
+
 On [[injective hulls]] of [[partial order|partially ordered]] [[monoids]]:
 
 * [[Joachim Lambek]], [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Injective hulls of partially ordered monoids*, Theory Appl. Categories **26** 13 (2012) 338–348 &lbrack;[tac:16-13](http://www.tac.mta.ca/tac/volumes/26/13/26-13abs.html)&rbrack;
