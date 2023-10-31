@@ -58,12 +58,12 @@ See ([To&#235;n 04](#Toen), section 3) and ([Keller 06](#Keller06), theorem 3.2)
 
 These model structures present the [[derived dg-category]].
 
-## Properties
- {#Properties}
 
 ## Related concepts
 
 * [[model structure on chain complexes]]
+
+* [[module structure on modules in a monoidal model category]]
 
 * [[model structure on dg-algebras]]
 
@@ -91,7 +91,6 @@ A general account is around section 11.2.5 of
 and in section 3 of
 
 * {#Hinich}[[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
-
 
 
 The [[homotopy category]] and [[triangulated category]] of dg-modules is discussed for instance also in
