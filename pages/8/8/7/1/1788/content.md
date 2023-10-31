@@ -1,4 +1,42 @@
 
+\begin{tikzcd}[sep=15pt]
+  \mathbf{X}
+  \ar[rr]
+  \ar[dd]
+  \ar[
+    rrrr,
+    equals,
+    to path={
+         ([yshift=+00pt]\tikztostart.north)    
+      -- ([yshift=+10pt]\tikztostart.north)    
+      -- ([yshift=+10pt]\tikztotarget.north)    
+      -- ([yshift=+00pt]\tikztotarget.north)    
+    }
+  ]
+  &&
+  \widehat{\mathbf{X}}
+  \ar[rr]
+  \ar[dd]
+  \ar[drrr]
+  &&
+  \mathbf{X}
+  \ar[dr]
+  \\
+  && && & \mathbf{B}G
+  \\
+  \mathbf{Y}
+  \ar[rr]
+  &&
+  \widehat{\mathbf{Y}}
+  \ar[rr]
+  \ar[urrr]
+  &&
+  \mathbf{Y}
+  \ar[from=uu, crossing over]
+  \ar[ur]
+\end{tikzcd} 
+
+
 Consider
 
 * a [[group]] $G \,\in\, Grp(Set)$, 
