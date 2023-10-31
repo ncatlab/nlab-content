@@ -38,7 +38,9 @@ A _formal language_ is a collection of words over an [[alphabet]], i.e. strings 
 
 ## References
 
-See also 
+* [[Joachim Lambek]] (with [[Michael Barr]]), *Programs, Grammars, Arguments*, lecture notes (2007) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/pga.pdf), [[LambekBarr-ProgramsGrammarArguments.pdf:file]]&rbrack;
+
+See also:
 
 * Wikipedia, _[Formal language](https://en.wikipedia.org/wiki/Formal_language)_
 
