@@ -58,7 +58,7 @@ Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[sim
 
       1. in $\Gamma$,
 
-      1. in the [[image]] under $\mathbf{f}$ of non-identity morphisms in $X$,
+      1. in the [[image]] under $\mathbf{f}$ of non-identity morphisms in $\mathbf{X}$,
 
       1. their [[inverse morphisms|inverses]],
 
