@@ -440,4 +440,8 @@ A relative version of Freyd's classical results is in
 
 * [[Robert Paré]], [[Dietmar Schumacher]], _Abstract Families and the Adjoint Functor Theorems_ , pp.1-125 in LNM **661** Springer Heidelberg 1978.
 
+A history of the general adjoint functor theorem is discussed in:
+
+* [[Hans-E. Porst]], _The history of the General Adjoint Functor Theorem_, ([arxiv:2310.19528](https://arxiv.org/abs/2310.19528))
+
 [[!redirects adjoint functor theorems]]
