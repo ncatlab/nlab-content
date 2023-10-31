@@ -131,7 +131,7 @@ $$
   }
 $$
 
-of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda embedding]] $Y$ of $C$. (The top arrow is given by the nerve of the inclusion of the Kleisli category into the Eilenberg--Moore category.)
+of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda embedding]] $Y$ of $C$. (The top arrow is given by a functor isomorphic to the nerve of the inclusion of the Kleisli category into the Eilenberg--Moore category.)
 
 =--
 
