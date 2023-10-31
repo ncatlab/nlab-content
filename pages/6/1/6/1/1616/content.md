@@ -17,6 +17,9 @@ A series of workshops on [[category theory]] have taken place in Oberwolfach ove
 - 1975: [link](https://oda.mfo.de/handle/mfo/1432)
 - 1977: [link](https://oda.mfo.de/handle/mfo/1328)
 - 1979: [link](https://oda.mfo.de/handle/mfo/1230)
+- 1995: [link](https://oda.mfo.de/handle/mfo/365)
+
+(Note that the above list is likely incomplete.)
 
 # Workshop notes#
 
