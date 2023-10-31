@@ -5,6 +5,8 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
+
+
 ## Selected writings
 
 See also:
@@ -100,7 +102,21 @@ On the [[Chu construction]]:
 
 * [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
 
-On [[Isbell duality]] for [[modules]]:
+On [[product topological space|product spaces]] with [[Lindelöf topological spaces]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On productively  Lindelöf spaces*, Scient. Math. Japon. **65** (2007) 23–36 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/alster.pdf), [[BKR-ProductivelyLindeloef.pdf:file]]&rbrack;
+
+
+On [[computability]] and [[formal languages]]:
+
+* [[Joachim Lambek]] (with [[Michael Barr]]), *Programs, Grammars, Arguments*, lecture notes (2007) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/pga.pdf), [[LambekBarr-ProgramsGrammarArguments.pdf:file]]&rbrack;
+
+On [[Isbell duality]]:
+
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell Duality* Theory and Applications of Categories **20** 15 (2008) 504-542 &lbrack;[tac:20-15](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html)&rbrack;
+
+
+and specifically for [[modules]]:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
 
