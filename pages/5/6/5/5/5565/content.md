@@ -130,6 +130,12 @@ The model structure on functors with values in $Grpd_{nat}$ (a [[model structure
 * {#Hollander01} [[Sharon Hollander]], *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
 
 
+That the model structure on groupoids is a [[cartesian monoidal model category]] follows with 
+
+* [[Amit Sharma]], Thm. 2.24 in: *Picard groupoids and $\Gamma$-categories*, [[Cahiers]] **LXIV** 3 (2023) &lbrack;[arXiv:2002.05811](https://arxiv.org/abs/2002.05811), [pdf](http://cahierstgdc.com/wp-content/uploads/2023/07/SHARMA_LXIV-3.pdf)&rbrack;
+
+(The theorem there is stated there for the groupoidal localization of the model structure on $Cat$, instead, but it immediately applies to the model structure on groupoids, too.)
+
 [[!redirects natural model structure on groupoids]]
 
 
