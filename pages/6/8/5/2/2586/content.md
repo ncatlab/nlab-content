@@ -241,7 +241,7 @@ We have
 
   * $Spin(5,1) \simeq SL(2,\mathbb{H})$ -- 2d [[special linear group]] of [[quaternions]]
 
-  * $Spin(9,1) \simeq_{in\;some\;sense} SL(2, \mathbb{O})$ -- 2d [[special linear group]] of [[octonions]]
+  * $Spin(9,1) \simeq_{in\;some\;sense} SL(2, \mathbb{O})$ -- 2d [[special linear group]] of [[octonions]] (see [[SL(2,O)]] for more on this would-be isomorphism)
 
 * in [[anti de Sitter group|anti de Sitter]] signature
 
