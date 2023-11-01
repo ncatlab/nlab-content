@@ -30,9 +30,7 @@ Regardless, one purpose of the notion(s) is to ensure that all [[(∞,1)-categor
 
 Some of the additional assumptions on a model category $M$ that are often useful to include when constructing semantics of type theory are:
 
-* $M$ is [[right proper]].
-
-* $M$ is a [[locally cartesian closed category]], or at least that pullback along [[fibrations]] has a right adjoint.
+* $M$ is a [[locally cartesian closed category]], or at least pullbacks along [[fibrations]] have a right adjoint.
 
 * $M$ is [[combinatorial model category|combinatorial]], 
 
@@ -40,19 +38,22 @@ Some of the additional assumptions on a model category $M$ that are often useful
 
   or [[cofibrantly generated model category|cofibrantly generated]].
 
+* $M$ is [[right proper model category|right proper]].
+
 * The cofibrations in $M$ are the monomorphisms; 
 
   or at least: they are closed under [[limits]], preserved by [[pullbacks]], and all [[monomorphisms]] are [[cofibrations]], 
 
   or all [[fibrant objects]] are also [[cofibrant objects|cofibrant]].
 
-* Acyclic cofibrations are preserved by pullback along fibrations.
-
-* The underlying category of $M$ is a [[Grothendieck topos]], or even a [[presheaf topos]].
+* Acyclic cofibrations are preserved by pullback along fibrations (implied by the previous two requirements.)
 
 * $M$ is a [[simplicial model category]].
 
 * $M$ is a [[simplicially locally cartesian closed category]].
+
+* The underlying category of $M$ is a [[Grothendieck topos]], or even a [[presheaf topos]].
+
 
 Definitions in the literature include:
 
