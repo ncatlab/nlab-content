@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -89,6 +90,9 @@ See also:
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
 * {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
+
+* {#PutrovWang23} [[Pavel Putrov]], [[Juven Wang]], *Categorical Symmetry of the Standard Model from Gravitational Anomaly* &lbrack;[arXiv:2302.14862](https://arxiv.org/abs/2302.14862)&rbrack;
+
 
 Work in the direction of *smooth* generalized symmetries:
 
