@@ -1,4 +1,80 @@
 
+\begin{proposition}
+  The canonical model structure $Cat_{can}$ is [[cartesian monoidal model category]].
+\end{proposition}
+\begin{proof}
+Given a diagram in $Cat$ of for the form
+\begin{tikzcd}
+  & 
+  \mathcal{C} \times \mathcal{D}
+  \ar[
+    dl,
+    "{ F \times \mathrm{Id} }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ \mathrm{Id} \times G }"
+  ]
+  \ar[
+    dd,
+    phantom,
+    "{ \scalebox{.7}{ (po) } }"
+  ]
+  \\
+  \mathcal{C}' \times \mathcal{D}
+  \ar[
+    ddr,
+    "{ \mathrm{Id} \times G }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ q_l }"{swap}
+  ]
+  &&
+  \mathcal{C} \times \mathcal{D}'
+  \ar[
+    ddl,
+    "{ F \times \mathrm{Id} }"
+  ]
+  \ar[
+    dl,
+    "{ q_r }"
+  ]
+  \\
+  &
+  \mathcal{C}' \!\times\! \mathcal{D}
+  \underset{ 
+    \mathclap{
+      \mathcal{C} \times \mathcal{D}
+    }
+  }{\coprod}
+  \mathcal{C} \!\times\! \mathcal{D}'
+  \ar[
+    d, 
+    dashed, 
+    "{ F \widehat \times G }"{description}
+  ]
+  \\
+  &
+  \mathcal{C}' \times \mathcal{D}'
+\end{tikzcd}
+
+First we need to show that $F \widehat{\times} G$ is a cofibrations if both $F$ and $G$ are. By the definition of cofibrations, this means to show that on objects $(F \widehat{\times} G)_0$ is an injective map if both $F_0$ and $G_0$ are injective maps.
+
+Now, since [[limits]] and [[colimits]] in [[Cat]] are computed on the underlying [[graphs]], the functor 
+$$
+  (-)_0
+    \,\colon\,
+  Cat \to Set
+$$
+[[preserved limit|preserves]] both [[limits]] and [[colimits]] and hence in particular preserves [[pushout products]]. Therefore the first statement we are after is that pushout-products of injections of sets are themselves injections, and that is the case, by [this example](pushout-product#InjectionsOfSets).
+
+Second, if $F$ is in addition a weak equivalence, we need to show that then also $F \widehat{\times} G$ is a weak equivalence. 
+
+But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-ob-objects equivalence of categories, hence an acyclic cofibration in the model structure. But since $Cat_{can}$ is a model category, it follows that the pushout $q_r$ (in the above diagram) is an acyclic cofibration, hence in particular a weak equivalence, and by [[2-out-of-3]] applied to the bottom right triangle in the above diagram, it follows that with $F \times Id$ and $q_r$ also $F \widehat{\times} G$ is a weak equivalence.
+\end{proof}
+
+
 \begin{tikzcd}[sep=15pt]
   \mathbf{X}
   \ar[rr]
