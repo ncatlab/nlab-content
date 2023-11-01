@@ -31,7 +31,9 @@ There are two definitions of the Euler characteristic of a chain complex.  Let $
 
 If each $V_n$ is [[finitely generated object|finitely generated]] and [[projective object|projective]], then the **Euler characteristic** of $V$ is the alternating sum of their [[ranks]], if this is finite:
 $$
-  \chi(V) := \sum_{n \in \mathbb{Z}} (-1)^n rk_R V_n
+  \chi(V) 
+  \,\coloneqq\,
+  \sum_{n \in \mathbb{Z}} (-1)^n \, rk_R V_n
   \,.
 $$
 =--
@@ -41,7 +43,9 @@ $$
 
 If the [[homology group|homology]] of $V$ consists of finitely generated projective modules, then the **Euler characteristic** of $V$ is the alternating sum of its [[Betti number]]s (the [[ranks]] of its homology modules), if this is finite:
 $$
-  \chi(V) := \sum_{n \in \mathbb{Z}} (-1)^n rk_R H_n(V)
+  \chi(V)
+  \,\coloneqq\,
+  \sum_{n \in \mathbb{Z}} (-1)^n \, rk_R H_n(V)
   \,.
 $$
 =--
@@ -68,9 +72,9 @@ For $X$ a [[topological space]] and $R$ some [[ring]], its Euler characteristic 
     &
     \;\coloneqq\; 
     \sum_{n \in \mathbb{N}} 
-    \n
+    \,
     (-1)^n 
-    \cdot
+    \,
     rk_{\mathbb{Z}} H_n(X, \mathbb{Z})
     \\
     &
@@ -78,7 +82,7 @@ For $X$ a [[topological space]] and $R$ some [[ring]], its Euler characteristic 
     \sum_{n \in \mathbb{N}} 
     \,
     (-1)^n 
-    \dot
+    \,
     dim_{\mathbb{Q}} H_n(X, \mathbb{Q})
   \end{aligned}
   \,.
@@ -228,7 +232,7 @@ Since the combinatorial data in a [[category]] and all the more in a [[poset]] $
 Let $C$ be a finite [[category]]. A **weighting** on $C$ is a [[function]]
 
 $$
- k^{(-)} : ob C \to \mathbb{Q}
+ k^{(-)} \colon ob C \to \mathbb{Q}
 $$
 
 satsifying 
