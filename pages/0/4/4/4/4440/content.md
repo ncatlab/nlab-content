@@ -183,9 +183,9 @@ This is for instance ([Bunge-Pare, corollary 2.4](#BungePare)).
 Historically, the original definition of _[[stack]]_ 
 included the case of category-valued functors, hence of 2-sheaves, in:
 
-* [[Jean Giraud]], _Cohomologie non ab&#233;lienne, Grundlehren 179, Springer Verlag (1971) ([doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071))
+* [[Jean Giraud]], *Cohomologie non ab&#233;lienne* Grundlehren **179**, Springer (1971) &lbrack;[doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071)&rbrack;
 
-* [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics, vol 274. Springer (1972) ([doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964))
+* [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics **274**, Springer (1972) &lbrack;[doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964)&rbrack;
 
 ### In terms of categories internal to sheaf toposes
  {#ReferencesInTermsOfInternalCategories}
@@ -199,10 +199,11 @@ Category-valued stacks as [[internal categories]] in the underlying [[sheaf topo
 401-436, ([MR558106](http://www.ams.org/mathscinet-getitem?mr=558106), [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0))
  {#Bunge}
 
-and in section 3 of
 
-* [[André Joyal]], [[Myles Tierney]], _Strong stacks and classifying spaces_, Category theory ([[Como]], 1990), 213&#8212;236, Lecture Notes in Math. 1488, Springer (1991) ([pdf](http://www.pps.jussieu.fr/~mellies/semantics-operads-categories/joyal-tierney-strong-stacks.pdf)) 
- {#JoyalTierney}
+* {#JoyalTierney} [[André Joyal]], [[Myles Tierney]], section 3 of: *Strong stacks and classifying spaces*, in: *Category Theory* ([[Como]], 1990), Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
+
+  > (establishing the [[canonical model structure on Cat]] in the internal generality)
+
 
 ### In terms of fibered categories
  {#InTermsOfFiberedCategories}
