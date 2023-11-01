@@ -172,6 +172,7 @@ There is the structure of a  [[simplicial model category]] on $[\Delta^{op}, C]$
 ## Properties
 
 ### Cartesian monoidal model structure
+ {#CartesianMonoidalModelStructure}
 
 +-- {: .num_prop}
 ###### Proposition
