@@ -7,8 +7,14 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
 =--
 =--
+=--
+
+
 
 \tableofcontents
 
@@ -109,6 +115,9 @@ The isofibrations are the _fibrations_ in the [[canonical model structure on cat
 
 Generalizing in another direction, internalized isofibrations are the fibrations in the [[2-trivial model structure]] on any finitely complete and cocomplete [[strict 2-category]].
 
+## Related concepts
+
+* [[isocofibration]]
 
 ## References
 
