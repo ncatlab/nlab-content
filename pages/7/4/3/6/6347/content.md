@@ -30,7 +30,7 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 * In ...
 
-Closely-related notions are those of [[type II* string theory]] and [[type II' string theory]].
+The Type II string theory referred to here is defined on spaces in [[Lorentzian geometry]]. It is thought that Type II (and the other string theories) can also be defined in spaces with other metric signatures, such as [[type II* string theory]]. See [[non-Lorentzian type II string theory]].
 
 ## Properties
 
