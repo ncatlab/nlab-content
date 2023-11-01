@@ -40,7 +40,7 @@ such that the following two compatibility conditions are satisfied:
 
 1. {#PushoutProductAxiom} ([[pushout-product axiom]]) For every [[pair]] of [[cofibrations]] $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the [[pushout|cofibered]] [[coproduct]] over ways of forming the [[tensor product]] of these objects
 
-   $$
+   \[
      (X \otimes Y') 
        \overset
         {X \otimes X'}
@@ -49,17 +49,19 @@ such that the following two compatibility conditions are satisfied:
      \longrightarrow
      Y \otimes Y'
      \,,
-   $$
+   \]
 
    is itself a [[cofibration]], which, furthermore, is [[acyclic cofibration|acyclic]] (i.e. also a [[weak equivalence]]) if $f$ or $f'$ is so.
 
    (Equivalently this says that the [[tensor product]] $\otimes \colon C \times C \to C$ is a left [[Quillen bifunctor]].)
 
-1. (unit axiom) For every [[cofibrant object]] $X$ and every [[cofibrant resolution]] $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} I$ of the [[tensor unit]] $I$, the resulting morphism
+1. {#UnitAxiom} (unit axiom) For every [[cofibrant object]] $X$ and every [[cofibrant resolution]] $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} I$ of the [[tensor unit]] $I$, the resulting morphism
 
-   $$
-     Q I \otimes X \stackrel{p_I \otimes X}{\longrightarrow} I\otimes X \stackrel{\simeq}{\longrightarrow} X
-   $$ 
+   \[
+     Q I \otimes X 
+      \stackrel{p_I \otimes X}{\longrightarrow} 
+     I\otimes X \stackrel{\simeq}{\longrightarrow} X
+   \] 
 
   is a [[weak equivalence]].
 
