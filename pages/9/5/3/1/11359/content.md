@@ -19,5 +19,5 @@ The _Hirzebruch-Riemann-Roch theorem_ identifies for a [[holomorphic vector bund
 
 * [[Friedrich Hirzebruch]], _Topological methods in algebraic geometry_, russian translation, Mir, Moscow, 1973.
 
-* Wikipedia, _[Hirzebruch-Riemann-Roch theorem](http://en.wikipedia.org/wiki/Hirzebruch&#8211;Riemann&#8211;Roch_theorem)_
+* Wikipedia, _[Hirzebruch-Riemann-Roch theorem](https://en.wikipedia.org/wiki/Hirzebruch%E2%80%93Riemann%E2%80%93Roch_theorem)_
 
