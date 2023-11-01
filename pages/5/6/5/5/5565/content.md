@@ -53,10 +53,9 @@ Equipped with the classes from Def. \ref{TheDefinition} [[Grpd]] is a [[model ca
 * [[cartesian monoidal model category|cartesian monoidal]].
 
 \end{proposition}
-The claim that the classes in Def. \ref{TheDefinition} indeed give a model structure is due to [Anderson 1978](#Anderson78), repeated by [Bousfield 1989](#Bousfield89), both without proof. Proofs appear in [Joyal & Tierney 1991, Thm. 2](#JoyalTierney91) (there in the generality of [[groupoids internal to]] [[topoi]], hence: of [[stacks]]) and [Strickland 2000](#Strickland00), who also observes and proves [[right proper model category|right properness]] (left properness is immediate because all objects are [[cofibrant object|cofibrant]]). In the context of the [[model structure for (2,1)-sheaves]] the structure  is considered, [Hollander 2001, theorem 2.1](#Hollander01) who states also the [[cofibrantly generated model category|cofibrant generation]] and [[simplicial model category|simplicial enrichment]], without proof. 
+The claim that the classes in Def. \ref{TheDefinition} indeed give a model structure is due to [Anderson 1978](#Anderson78), repeated by [Bousfield 1989](#Bousfield89), both without proof. Proofs appear in [Joyal & Tierney 1991, Thm. 2](#JoyalTierney91) (there in the generality of [[internal groupoid|groupoids internal to]] [[topoi]], hence: of [[stacks]]) and [Strickland 2000](#Strickland00), who also observes and proves [[right proper model category|right properness]] (left properness is immediate because all objects are [[cofibrant object|cofibrant]]). In the context of the [[model structure for (2,1)-sheaves]] the structure  is considered, [Hollander 2001, theorem 2.1](#Hollander01) who states also the [[cofibrantly generated model category|cofibrant generation]] and [[simplicial model category|simplicial enrichment]], without proof. 
 Since [[Grpd]] is a [[locally presentable category]] (for instance by [this Prop](sketch#LimitSketchableCategoriesAreLocallyPresentable), observing that groupoids are the models of a [[limit sketch]], namely given by diagrams as shown at *[[internal category]]*) this implies that $Grpd_{can}$ is [[combinatorial model category|combinatorial]].
-Finally regarding the [[cartesian monoidal model category|cartesian model structure]]: the [unit axiom](monoidal+model+category#UnitAxiom) is immediate since all objects are cofibrant (hence in particular the Cartesian tensor unit, which is the [[terminal groupoid]]), while the [pushout-product axioms](monoidal+model+category#PushoutProductAxiom) follows as in 
-[Sharma 2023, Thm. 2.24](#Sharma23) (in the preprint, which is Thm. 2.26 in the published version, in either case stated there for the groupoid-localization of the [[canonical model structure on Cat]], but the argument immediately applies here).
+Finally the [[cartesian monoidal model category|cartesian model structure]] follows just as for the [[canonical model structure on Cat]], see [there](canonical+model+structure+on+Cat#CartesianMonoidalModelStructure).
 
 ## Properties
 
@@ -157,12 +156,10 @@ The model structure on functors with values in $Grpd_{nat}$ (a [[model structure
 
 * {#Hollander01} [[Sharon Hollander]], §2.1 in: *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
 
+A model structure on $Cat$ but localized such as to make the fibrant objects be groupoids:
 
-That the model structure on groupoids is a [[cartesian monoidal model category]] follows with 
+* {#Sharma23} [[Amit Sharma]], *Picard groupoids and $\Gamma$-categories*, [[Cahiers]] **LXIV** 3 (2023) &lbrack;[arXiv:2002.05811](https://arxiv.org/abs/2002.05811), [pdf](http://cahierstgdc.com/wp-content/uploads/2023/07/SHARMA_LXIV-3.pdf)&rbrack;
 
-* {#Sharma23} [[Amit Sharma]], Thm. 2.24 (in the preprint, 2.26 in the published version) of: *Picard groupoids and $\Gamma$-categories*, [[Cahiers]] **LXIV** 3 (2023) &lbrack;[arXiv:2002.05811](https://arxiv.org/abs/2002.05811), [pdf](http://cahierstgdc.com/wp-content/uploads/2023/07/SHARMA_LXIV-3.pdf)&rbrack;
-
-(The theorem there is stated there for the groupoidal localization of the model structure on $Cat$, instead, but it immediately applies to the model structure on groupoids, too.)
 
 [[!redirects natural model structure on groupoids]]
 
