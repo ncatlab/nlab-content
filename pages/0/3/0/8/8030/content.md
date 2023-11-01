@@ -115,6 +115,10 @@ Further discussion of these models as toy models for [[flux compactifications]] 
 
 ### In string theory
 
+Review:
+
+* [[Liam McAllister]], [[Fernando Quevedo]], *Moduli Stabilization in String Theory*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2310.20559](https://arxiv.org/abs/2310.20559)&rbrack;
+
 
 #### In type II string theory
 
