@@ -124,7 +124,7 @@ Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomati
 
 See also:
 
-* Juven Wang, *C-P-T Fractionalization* &lbrack;[arXiv:2109.15320](https://arxiv.org/abs/2109.15320)&rbrack;
+* [[Juven Wang]], *C-P-T Fractionalization*, Phys. Rev. D **106** (2022) 105009 &lbrack;[arXiv:2109.15320](https://arxiv.org/abs/2109.15320), [doi:10.1103/PhysRevD.106.105009](https://doi.org/10.1103/PhysRevD.106.105009)&rbrack;
 
 
 
