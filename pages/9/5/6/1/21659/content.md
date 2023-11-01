@@ -73,7 +73,7 @@ Applications in physics:
 
 * {#FH16} [[Dan Freed]] and [[Mike Hopkins]], _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527)).
 
-* {#WWW19} [[Juven Wang]], [[Xiao-Gang Wen]], and [[Edward Witten]], _A New SU(2) Anomaly_, Journal of Mathematical Physics 60, 052301 (2019) ([arXiv:1810.00844](https://arxiv.org/abs/1810.00844)).
+* {#WWW19} [[Juven Wang]], [[Xiao-Gang Wen]], [[Edward Witten]], _A New SU(2) Anomaly_, Journal of Mathematical Physics **60**  (2019) 052301 &lbrack;[arXiv:1810.00844](https://arxiv.org/abs/1810.00844), [doi:10.1063/1.5082852](https://doi.org/10.1063/1.5082852)&rbrack;
 
 
 [[!redirects spin^h structures]]
