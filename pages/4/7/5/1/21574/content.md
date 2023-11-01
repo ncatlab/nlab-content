@@ -71,5 +71,9 @@ in [[2Cat]], there is a functor $k: \mathcal{B} \times \mathcal{E}_{semi} \right
 
 * {#Williamson2011} [[Richard Williamson]], _Cylindrical model structures_, DPhil thesis, University of Oxford, 2011. [author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html) [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)
 
+[[!redirects canonical model structures on 2-categories]]
 
 [[!redirects canonical model structure on 2Cat]]
+[[!redirects canonical model structures on 2Cat]]
+
+
