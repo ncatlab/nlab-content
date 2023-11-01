@@ -44,23 +44,28 @@ For other purposes than integrable systems, e.g. in [[representation theory]], o
 
 * A. Beilinson, V. Drinfeld, _Quantization of Hitchin's integrable system and Hecke eigensheaves_, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
 
-* Ng&#244; B&#7843;o Ch&#226;u, _Le lemme fondamental pour les algebres de Lie_, [arxiv/0806.4566](http://arxiv4.library.cornell.edu/abs/0806.4566)
+* Ng&#244; B&#7843;o Ch&#226;u, _Le lemme fondamental pour les algebres de Lie_, [arxiv/0806.4566](https://arxiv.org/abs/0806.4566)
 
 * [[Carlos Simpson|Carlos T. Simpson]], _Higgs bundles and local systems_, Publ. Math&#233;matiques de l'IH&#201;S, 75 (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0)
 
 * R. Donagi, _Spectral covers_, MSRI series 28, [pdf](http://www.msri.org/publications/books/Book28/files/donagi.pdf)
 
-* Tamas Hausel, _Global topology of the Hitchin system_, [arxiv/1102.1717](http://arxiv.org/abs/1102.1717)
+* Tamas Hausel, _Global topology of the Hitchin system_, [arxiv/1102.1717](https://arxiv.org/abs/1102.1717)
 
-* David Nadler, _Springer theory via the Hitchin fibration_, [arxiv/0806.4566](http://arxiv.org/abs/0806.4566) ($n$POV emphasis to an example in representation theory) 
+* David Nadler, _Springer theory via the Hitchin fibration_, Compositio Math. __147__ (2011) 1635--1670
+[doi](https://doi.org/10.1112/S0010437X1100546X) [arxiv/0806.4566](https://arxiv.org/abs/0806.4566) ($n$POV emphasis to an example in representation theory) 
 
 * James Arthur, _The Work of Ng&#244; B&#7843;o Ch&#226;u_, Proc. ICM Hyderabad 2010, [pdf](http://www.icm2010.org.in/wp-content/icmfiles/laudaions/fields2.pdf)
 
-* Ken-ichi Sugiyama, _A quantization of the Hitchin hamiltonian system and the Beilinson-Drinfeld isomorphism_, [arxiv/0708.2957](http://arxiv.org/abs/0708.2957)
+* Ken-ichi Sugiyama, _A quantization of the Hitchin hamiltonian system and the Beilinson-Drinfeld isomorphism_, [arxiv/0708.2957](https://arxiv.org/abs/0708.2957)
+
+Treatment of [[wall crossing]], relation of Hitchin system to [[Donaldson-Thomas invariant]]s and theories of [[class S]]
+
+* [[Davide Gaiotto]], [[Greg Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation, Advances in Mathematics __234__ (2013) 239--403 [arXiv:0907.3987](https://arxiv.org/abs/0907.3987) [doi](https://doi.org/10.1016/j.aim.2012.09.027)
 
 Discussion in the context of the [[topological recursion]] includes
 
-* {#BaragliaHuang17} [[David Baraglia]], Zhenxi Huang, _Special Kähler geometry of the Hitchin system and topological recursion_ ([arXiv:1707.04975](https://arxiv.org/abs/1707.04975))
+* {#BaragliaHuang17} [[David Baraglia]], Zhenxi Huang, _Special Kähler geometry of the Hitchin system and topological recursion_, Adv. Theor. Math. Phys. __23__ No. 8 (2019) 1981--2024 ([arXiv:1707.04975](https://arxiv.org/abs/1707.04975) [doi](https://doi.org/10.4310/ATMP.2019.v23.n8.a2)
 
 reviewed in
 
