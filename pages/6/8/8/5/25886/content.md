@@ -55,7 +55,9 @@ On the [[quantum cohomology]] inducd by the $\mathbb{C}P^N$-model:
 
 * {#BourdeauDouglas94} [[M. F. Bourdeau]], [[Michael R. Douglas]], *Topological-Antitopological Fusion and the Large $N$ $\mathbb{C}P^N$ Model*, Nucl. Phys. B **420** (1994) 243-267 &lbrack;[doi:hep-th/9312095](https://arxiv.org/abs/hep-th/9312095), <a href="https://doi.org/10.1016/0550-3213(94)90380-8">doi:10.1016/0550-3213(94)90380-8</a>&rbrack;
 
+On the [[Nicolai map]] for the $\mathbb{C}P^n$ sigma-model:
 
+* [[Lorenzo Casarin]], [[Olaf Lechtenfeld]], [[Maximilian Rupprecht]], *Nicolai maps with four-fermion interactions* &lbrack;[arXiv:2310.19946](https://arxiv.org/abs/2310.19946)&rbrack;
 
 ### The $\mathbb{C}P^1$-model
 
