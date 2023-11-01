@@ -67,7 +67,7 @@ and it can be shown (see the following subsection) that the canonical model stru
 
 A remarkable and perhaps surprising result (and surprisingly not better known!) is that there is just one model structure on $Cat$[^fine] whose equivalences are the usual categorical equivalences. This result justifies the term "canonical". 
 
-The proof we present below is adapted (with minor changes) from a [proof](http://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/) given by [[Chris Schommer-Pries]]. See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
+The proof we present below is adapted (with minor changes) from [Schommer-Pries 2012](#Schommer-Pries12). See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
 
 [^fine]: Along similar lines, one can [prove](https://www.matem.unam.mx/~omar/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
 
@@ -217,7 +217,13 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 
 ## References
 
-* Joyal's CatLab: [[joyalscatlab:Model structures on Cat]]
+* {#JoyalTierney91} [[André Joyal]], [[Myles Tierney]], Thm. 4 (p. 232) of: *Strong stacks and classifying spaces*, in: *Category Theory* Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
+
+  > (in the generality of [[internal category|categories internal to]] [[topoi]], hence of [[2-sheaves]])
+
+* {#Schommer-Pries12} [[Chris Schommer-Pries]], *[The canonical model structure on Cat](https://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/)*, Secret Blogging Seminar (2012)
+
+* [[André Joyal]], *[[joyalscatlab:Model structures on Cat]]*
 
 
 [[!redirects canonical model structure on Cat]]
