@@ -128,6 +128,7 @@ for some set $S_n \subset Mor(SPSh(C))$ of morphisms.
   =--
 
 ### Cartesian monoidal and enriched structure 
+ {#CartesianMonoidalAndEnrichedStructure}
 
 The [[model category]] $\Theta_n Sp_k$ is a [[cartesian monoidal category|cartesian]] [[monoidal model category]].
 
