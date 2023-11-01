@@ -59,7 +59,7 @@ Surely, one often works at the derived level. An adaptation of the  notion of st
 * S. Cecotti, [[Cumrun Vafa]], _BPS wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
-* [[Davide Gaiotto]], [[Greg Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation, ([arxiv/0907.3987](http://arxiv.org/abs/0907.3987))
+* [[Davide Gaiotto]], [[Greg Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation, Advances in Mathematics __234__ (2013) 239--403 ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987) [doi](https://doi.org/10.1016/j.aim.2012.09.027))
 
 * E. Diaconescu, [[Greg Moore]], _Crossing the wall: branes vs. bundles_, [arXiv/0706.3193](http://arxiv.org/abs/0706.3193)
 
@@ -100,7 +100,7 @@ Also ([Gaiotto-Moore-Witten 15](#GaiottoMooreWitten15)).
 
 A [[categorification]] of wall crossing formulas to an [[(infinity,2)-category]] of sorts is discussed in 
 
-* {#GaiottoMooreWitten15} [[Davide Gaiotto]], [[Gregory Moore]], [[Edward Witten]], _An Introduction To The Web-Based Formalism_ ([arXiv.1506.04086](http://arxiv.org/abs/1506.04086))
+* {#GaiottoMooreWitten15} [[Davide Gaiotto]], [[Gregory Moore]], [[Edward Witten]], _An introduction to the web-based formalism_ ([arXiv.1506.04086](http://arxiv.org/abs/1506.04086))
 
 
 [[!redirects wall crossing]]
