@@ -56,22 +56,24 @@ The claim that the classes in Def. \ref{TheDefinition} indeed give a model struc
 
 ## Properties
 
-+-- {: .num_prop}
-###### Observation
+### Relation to canonical model structure on $Cat$
+
++-- {: .num_remark}
+###### Remark
 
 The model structure $Grpd_{nat}$ is the restriction of the
 [[canonical model structure on Cat]] from [[categories]] to groupoids.
 
 =--
 
-See [[canonical model structure]] for more.
+See at *[[canonical model structure]]* for more.
 
-+-- {: .num_defn}
-###### Definition
 
-Let
+### Relation to classical model structure on $sSet$
 
-$$
+Consider the pair of [[adjoint functors]]
+\[
+  \label{NerveAdjunction}
   (\tau \dashv N) 
   \,\colon\, 
   Grpd 
@@ -80,29 +82,33 @@ $$
       { \overset{\tau}{\longleftarrow} }
       { \bot }
   sSet
-$$
+\]
+where $N$ is the [[simplicial nerve]] with values in the category [[sSet]] of [[simplicial sets]].
 
-be the pair of [[adjoint functors]], where $N$ is the [[simpliciAL nerve]] with values in the category [[sSet]] of [[simplicial sets]].
- 
-=--
+One readily checks that: 
 
-+-- {: .num_prop}
-###### Proposition
-
-With the canonical model structure on $Grpd$ and the standard [[model structure on simplicial sets]] this is a [[Quillen adjunction]]
-
+\begin{proposition}
+With the canonical model structure on $Grpd$ (from Prop. \ref{ExistenceAndBasicProperties}) and the [[classical model structure on simplicial sets]], (eq:)NerveAdjunction is a [[Quillen adjunction]]
 $$
   (\tau \dashv N) 
   \,\colon\, 
-  Grpd_{nat} 
-   \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
-   sSet_{Quillen}
+  Grpd_{can} 
+    \underoverset
+      { \underset{N}{\longrightarrow} }
+      { \overset{\tau}{\longleftarrow} }
+      { \bot_{\mathrlap{Qu}} }
+  sSet_{Qu}
   \,.
 $$
+\end{proposition}
+(cf. [Hollander 2001, Cor. 2.3](#Hollander01))
 
-and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Quillen}$ under this adjunction.
+In fact:
+\begin{proposition}
+$Grpd_{can}$ is the [[transferred model structure]] obtained from [[classical model structure on simplicial sets|$sSet_{Qu}$]] under (eq:NerveAdjunction).
+\end{proposition}
+(cf. [Hollander 2001, Lem. 2.4](#Hollander01))
 
-=--
 
 ## Related concepts
 
@@ -123,9 +129,9 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 Some aspects (like the pullback stability of fibrations of groupoids in its prop. 2.8) appeared in 
 
-* {#Brown70} [[Ronnie Brown]], *Fibrations of groupoids*, Journal of Algebra **15** 1 (1970) 103-132
+* {#Brown70} [[Ronnie Brown]], *Fibrations of groupoids*, Journal of Algebra **15** 1 (1970) 103-132 \[<a href="https://doi.org/10.1016/0021-8693(70)90089-X">doi:10.1016/0021-8693(70)90089-X</a>, [pdf](https://groupoids.org.uk/pdffiles/fibrationsgpds.pdf)\]
 
-The existence of the model structure is stated (without proof) in 
+The existence of the model structure is stated (without proof) in:
 
 * {#Anderson78} [[Donald W. Anderson]], p. 783 (12 of 37) in: *Fibrations and geometric realization*,  Bull. Amer. Math. Soc. **84** 5 (1978) 765-788 &lbrack;[euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139)&rbrack;
 
@@ -139,7 +145,7 @@ The actual proof is spelled out in:
 
 The model structure on functors with values in $Grpd_{nat}$ (a [[model structure for (2,1)-sheaves]]):
 
-* {#Hollander01} [[Sharon Hollander]], §.1 in: *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
+* {#Hollander01} [[Sharon Hollander]], §2.1 in: *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
 
 
 That the model structure on groupoids is a [[cartesian monoidal model category]] follows with 
