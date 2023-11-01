@@ -45,7 +45,7 @@ On [[shifted symplectic structures]]:
 
 On [[KK-compactification]] in [[string theory]]:
 
-* [[Michael R. Douglas]], [[Liam McAllister]], *Compactification of Superstring Theory* &lbrack;[arXiv:2310.20118](https://arxiv.org/abs/2310.20118)&rbrack;
+* [[Michael R. Douglas]], [[Liam McAllister]], *Compactification of Superstring Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2310.20118](https://arxiv.org/abs/2310.20118)&rbrack;
 
 
 
