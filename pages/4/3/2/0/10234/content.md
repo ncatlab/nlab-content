@@ -78,6 +78,9 @@ On the [[pressure]] of the proton, via [[lattice QCD]]:
 
 * [[Phiala Shanahan]], [[William Detmold]], *Pressure Distribution and Shear Forces inside the Proton*, Physical Review Letters **122** 7 (2019) &lbrack;[doi:10.1103/PhysRevLett.122.072003](https://doi.org/10.1103/PhysRevLett.122.072003), [arXiv:1810.07589](https://arxiv.org/abs/1810.07589)&rbrack;
 
+On proton stability:
+
+* [[Juven Wang]], Zheyan Wan, Yi-Zhuang You, *Proton Stability: From the Standard Model to Beyond Grand Unification*, Phys. Rev. D **106** (2022) 025016 &lbrack;[arXiv:2204.08393](https://arxiv.org/abs/2204.08393), [doi:10.1103/PhysRevD.106.025016](https://doi.org/10.1103/PhysRevD.106.025016)&rbrack;
 
 
 
