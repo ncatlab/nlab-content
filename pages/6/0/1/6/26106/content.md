@@ -60,6 +60,11 @@ Review:
 
 * [[Olaf Lechtenfeld]], *The Nicolai-map approach to supersymmetry* &lbrack;[arXiv:2309.00481](https://arxiv.org/abs/2309.00481)&rbrack;
 
+On the Nicolai map for the [[CP^N sigma-model|$\mathbb{C}P^n$ sigma-model]]:
+
+* [[Lorenzo Casarin]], [[Olaf Lechtenfeld]], [[Maximilian Rupprecht]], *Nicolai maps with four-fermion interactions* &lbrack;[arXiv:2310.19946](https://arxiv.org/abs/2310.19946)&rbrack;
+
+
 [[!redirects Nicolai maps]]
 
 
