@@ -227,6 +227,7 @@ and the existence of a lift $1 \to \hat{C}$ filling in this diagram means that $
 \begin{proposition}
   The canonical model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is a [[cartesian monoidal model category]].
 \end{proposition}
+([Joyal 2010, Thm. 1.3](#Joyal10))
 \begin{proof}
 Since forming [[product categories]] with a fixed category $\mathcal{C}$ evidently preserves [[equivalence of categories|equivalences of categories]] and hence the canonical weak equivalences, the [unit axiom](monoidal+model+category#UnitAxiom) follows immediately. It remains to check the [pushout-product axiom](monoidal+model+category#PushoutProductAxiom).
 
@@ -299,7 +300,7 @@ $$
 
 Second, if $F$ is in addition a weak equivalence, we need to show that then also $F \widehat{\times} G$ is a weak equivalence. 
 
-But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-on-objects equivalence of categories, hence an [[acyclic cofibration]] in the canonical model structure. By the model category properties, it follows that also the pushout $q_r$ (in the above diagram) is an acyclic cofibration, hence in particular a weak equivalence; and by [[2-out-of-3]] applied to the bottom right triangle in the above diagram, it follows that with $F \times Id$ and $q_r$ also $F \widehat{\times} G$ is a weak equivalence.
+But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-on-objects equivalence of categories, hence an [[acyclic cofibration]] in the canonical model structure. By the model category properties, it follows that also the [[pushout]] $q_r$ (in the above diagram) is an acyclic cofibration, hence in particular a weak equivalence; and by [[2-out-of-3]] applied to the bottom right triangle in the above diagram it follows that with $F \times Id$ and $q_r$ also $F \widehat{\times} G$ is a weak equivalence.
 \end{proof}
 
 
@@ -326,9 +327,10 @@ and it can be shown that the canonical model structure on Cat is the model struc
 
   > (in the generality of [[internal category|categories internal to]] [[topoi]], hence of [[2-sheaves]])
 
+* {#Joyal10} [[André Joyal]], *[[joyalscatlab:Model structures on Cat]]* (2010)
+
 * {#Schommer-Pries12} [[Chris Schommer-Pries]], *[The canonical model structure on Cat](https://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/)*, Secret Blogging Seminar (2012)
 
-* [[André Joyal]], *[[joyalscatlab:Model structures on Cat]]*
 
 
 [[!redirects canonical model structure on Cat]]
