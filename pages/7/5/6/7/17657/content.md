@@ -16,9 +16,11 @@ On [[supergravity]] coupled to the (non-supersymmetric) [[standard model of part
 
 * [[Cliff P. Burgess]], [[Fernando Quevedo]], *Who's Afraid of the Supersymmetric Dark? The Standard Model vs Low-Energy Supergravity* ([arXiv:2110.13275](https://arxiv.org/abs/2110.13275))
 
+On [[moduli stabilization]] in [[string theory]]:
 
+* [[Liam McAllister]], [[Fernando Quevedo]], *Moduli Stabilization in String Theory*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2310.20559](https://arxiv.org/abs/2310.20559)&rbrack;
 
-## Related $n$Lab entries
+## Related  entries
 
 * [[moduli stabilization]]
 
