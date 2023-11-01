@@ -14,8 +14,9 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
+
 
 ## The canonical model structure on $Cat$
 
@@ -30,7 +31,11 @@ On this page we give a concise construction of the canonical model structure, as
 
 ### The classical version
 
-For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small categories]] and [[functors]], and our categories are all [[strict categories]] as in ordinary set-theoretic [[foundations]].  We write $C_0$ for the set of objects of a small category $C$.  Define a functor to be:
+For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small categories]] and [[functors]], and our categories are all [[strict categories]] as in ordinary set-theoretic [[foundations]].  We write $C_0$ for the set of [[objects]] of a [[small category]] $C$.  
+
+\begin{definition}
+\label{ClassesOfMorphisms}
+Declare a functor to be:
 
 * a [[weak equivalence]] if it is an [[equivalence of categories]], or equivalently if it is [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
 
@@ -38,7 +43,14 @@ For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small cat
 
 * a [[fibration]] if it is an [[isofibration]].
 
-We claim that this defines a model structure.  It is easy to verify that the weak equivalences satisfy the [[2-out-of-3 property]]; thus it remains to show that (acyclic cofibrations, fibrations) and (cofibrations, acyclic fibrations) are [[weak factorization systems]].
+\end{definition}
+
+\begin{proposition}
+\label{ExistenceOfTheCanonicalModelStructure}
+The classes in Def. \ref{ClassesOfMorphisms} constitute a [[model category]]-[[structure]] $Cat_{can}$ on [[Cat]].
+\end{proposition}  
+\begin{proof}
+It is easy to verify that the weak equivalences satisfy the [[2-out-of-3 property]]; thus it remains to show that (acyclic cofibrations, fibrations) and (cofibrations, acyclic fibrations) are [[weak factorization systems]].
 
 Suppose given a square
 $$\array{A & \overset{f}{\to} & C\\
@@ -54,24 +66,58 @@ It remains to prove the factorization axioms.  Suppose given a functor $f\colon 
 
 Next, define $D$ to be the category of triples $(a,b,\phi)$ where $\phi\colon f(a)\cong b$ is an isomorphism in $B$.  In other words, it is the [[comma object|strict iso-comma category]] $(f/_\cong 1_b)$.  The projection $D\to B$ is easily shown to be an isofibration, while the functor $A\to D$ defined by $a \mapsto (a, f(a), 1_{f(a)})$ is an injective equivalence.
 
-This completes the proof.  Note that the two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[algebraic weak factorization system]]s produced from Richard Garner's modified small object argument).
+This completes the proof.  
+\end{proof}
+
+\begin{remark}
+The two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[algebraic weak factorization system]]s produced from Richard Garner's modified small object argument).
+\end{remark}
 
 
-#### Relation with bisimplicial sets
+### Without choice
 
-Recall that Rezk's classifying diagram for a (small) category $C$ is the [[bisimplicial set]] $N (C)$ defined by $N (C)_{n, m} = Fun ([n] \times \mathbf{I}[m], C)$, where $[n]$ is the standard $n$-[[simplex]] considered as a category and $\mathbf{I}$ is the [[localization|groupoid completion]] functor (i.e. $D \mapsto D [D^{-1}]$). There is then an [[adjunction]]
-$$\tau_1 \dashv N : Cat \to ssSet$$
-and it can be shown (see the following subsection) that the canonical model structure on Cat is the model structure obtained by [[transferred model structure|transferring]] the [[model structure on simplicial presheaves|projective model structure]] on $ssSet$. 
+In the absence of the [[axiom of choice]], one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of [[generalized morphism]]: a span $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
 
-### Uniqueness of model structure 
+If there is to be such a model structure, however, then since generalized morphisms between fibrant-and-cofibrant objects are all represented by ordinary ones, there must exist "cofibrant categories" and "fibrant categories" such that every anafunctor between fibrant-and-cofibrant categories is equivalent to an honest functor, and every category can be replaced by a fibrant and cofibrant one.  It seems unlikely that this would be true without *any* choice-like axioms, but notably weaker axioms than full AC do suffice.
 
-A remarkable and perhaps surprising result (and surprisingly not better known!) is that there is just one model structure on $Cat$[^fine] whose equivalences are the usual categorical equivalences. This result justifies the term "canonical". 
 
-The proof we present below is adapted (with minor changes) from [Schommer-Pries 2012](#Schommer-Pries12). See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
+#### The projective model structure
 
-[^fine]: Along similar lines, one can [prove](https://www.matem.unam.mx/~omar/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
+For the existence of the model structure in this case, we assume [[COSHEP]], aka the "presentation axiom," namely that the category [[Set]] has enough [[projective objects]].  Define a functor $f\colon A\to B$ to be:
 
-#### Proof 
+* a [[weak equivalence]] if it is a weak equivalence of categories, i.e. [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective on objects]].
+
+* a [[cofibration]] if it is injective on objects, and $B_0\setminus f(A_0)$ is a projective object in $Set$.
+
+* a [[fibration]] if it is an [[isofibration]].
+
+As before, the acyclic fibrations are precisely the weak equivalences that are literally surjective on objects.  Now recall that assuming COSHEP, (monics with projective complement, epics) is a [[weak factorization system on Set]].  This supplies the lifting of cofibrations against acyclic fibrations.  Likewise, the factorization of $f\colon A\to B$ into a cofibration followed by an acyclic fibration is given by first factoring $f_0$ as $A_0 \to A_0 + B_0' \to B_0$, where $B_0'\to B_0$ is a projective cover.
+
+The other factorization works exactly as before, while for lifting acyclic cofibrations against fibrations, we notice that in the original proof, we only needed to apply choice for sets indexed by $B_0\setminus i(A_0)$, which we have assumed to be projective when $i\colon A\to B$ is a cofibration.
+
+Weak equivalences of categories are easily seen to satisfy the 2-out-of-3 property, so we have a model category.  Note that all categories are fibrant in this model structure, while the cofibrant categories are those whose set of objects is projective.
+
+The existence of this model structure implies, in particular, that under COSHEP the category $Ana(C,D)$ is [[essentially small category|essentially small]], being in fact equivalent to the category $Fun(C',D)$ of ordinary functors where $C'$ is a cofibrant replacement for $C$.
+
+
+#### The injective model structure
+
+Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's [[axiom of small cardinality selection]] (which he uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
+
+## Properties
+
+### Uniqueness of the model structure 
+
+Remarkably:
+\begin{proposition}
+The model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is the unique model structure on $Cat$[^fine] whose [[weak equivalences]] are the usual[[equivalences of categories]]. 
+\end{proposition}
+
+This result justifies the term "canonical". 
+
+The following **proof** is adapted (with minor changes) from [Schommer-Pries 2012](#Schommer-Pries12). See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
+
+[^fine]: Along similar lines, one can [prove](https://www.matem.unam.mx/~omar/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on [[Set|$Set$]]. 
 
 Let $\mathbf{M}$ denote any model structure on $Cat$ whose weak equivalences are categorical equivalences. We will prove that $\mathbf{M}$-fibrations are exactly canonical fibrations and that $\mathbf{M}$-cofibrations are exactly canonical cofibrations. 
 
@@ -175,35 +221,94 @@ _\mathllap{acyc.\; cof.} \downarrow & & \downarrow _\mathrlap{fib.} \\
 and the existence of a lift $1 \to \hat{C}$ filling in this diagram means that $\phi$ is an identity. In particular, every automorphism of $\hat{C}$ is an identity; since $C \simeq \hat{C}$, the same is true of $C$. 
 =-- 
 
-### Without choice
+### Cartesian monoidal model structure
+ {#CartesianMonoidalModelStructure}
 
-In the absence of the axiom of choice, one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of [[generalized morphism]]: a span $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
-
-If there is to be such a model structure, however, then since generalized morphisms between fibrant-and-cofibrant objects are all represented by ordinary ones, there must exist "cofibrant categories" and "fibrant categories" such that every anafunctor between fibrant-and-cofibrant categories is equivalent to an honest functor, and every category can be replaced by a fibrant and cofibrant one.  It seems unlikely that this would be true without *any* choice-like axioms, but notably weaker axioms than full AC do suffice.
-
-
-#### The projective model structure
-
-For the existence of the model structure in this case, we assume [[COSHEP]], aka the "presentation axiom," namely that the category [[Set]] has enough [[projective objects]].  Define a functor $f\colon A\to B$ to be:
-
-* a [[weak equivalence]] if it is a weak equivalence of categories, i.e. [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective on objects]].
-
-* a [[cofibration]] if it is injective on objects, and $B_0\setminus f(A_0)$ is a projective object in $Set$.
-
-* a [[fibration]] if it is an [[isofibration]].
-
-As before, the acyclic fibrations are precisely the weak equivalences that are literally surjective on objects.  Now recall that assuming COSHEP, (monics with projective complement, epics) is a [[weak factorization system on Set]].  This supplies the lifting of cofibrations against acyclic fibrations.  Likewise, the factorization of $f\colon A\to B$ into a cofibration followed by an acyclic fibration is given by first factoring $f_0$ as $A_0 \to A_0 + B_0' \to B_0$, where $B_0'\to B_0$ is a projective cover.
-
-The other factorization works exactly as before, while for lifting acyclic cofibrations against fibrations, we notice that in the original proof, we only needed to apply choice for sets indexed by $B_0\setminus i(A_0)$, which we have assumed to be projective when $i\colon A\to B$ is a cofibration.
-
-Weak equivalences of categories are easily seen to satisfy the 2-out-of-3 property, so we have a model category.  Note that all categories are fibrant in this model structure, while the cofibrant categories are those whose set of objects is projective.
-
-The existence of this model structure implies, in particular, that under COSHEP the category $Ana(C,D)$ is [[essentially small category|essentially small]], being in fact equivalent to the category $Fun(C',D)$ of ordinary functors where $C'$ is a cofibrant replacement for $C$.
+\begin{proposition}
+  The canonical model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is a [[cartesian monoidal model category]].
+\end{proposition}
+\begin{proof}
+Since forming [[product categories]] with a fixed category $\mathcal{C}$ evidently preserves [[equivalence of categories|equivalences of categories]] and hence the canonical weak equivalences, the [unit axiom](monoidal+model+category#UnitAxiom) follows immediately. It remains to check the [pushout-product axiom](monoidal+model+category#PushoutProductAxiom).
 
 
-#### The injective model structure
+So consider a diagram in $Cat$ of this form:
+\begin{tikzcd}
+  & 
+  \mathcal{C} \times \mathcal{D}
+  \ar[
+    dl,
+    "{ F \times \mathrm{Id} }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ \mathrm{Id} \times G }"
+  ]
+  \ar[
+    dd,
+    phantom,
+    "{ \scalebox{.7}{ (po) } }"
+  ]
+  \\
+  \mathcal{C}' \times \mathcal{D}
+  \ar[
+    ddr,
+    "{ \mathrm{Id} \times G }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ q_l }"{swap}
+  ]
+  &&
+  \mathcal{C} \times \mathcal{D}'
+  \ar[
+    ddl,
+    "{ F \times \mathrm{Id} }"
+  ]
+  \ar[
+    dl,
+    "{ q_r }"
+  ]
+  \\
+  &
+  \mathcal{C}' \!\times\! \mathcal{D}
+  \underset{ 
+    \mathclap{
+      \mathcal{C} \times \mathcal{D}
+    }
+  }{\coprod}
+  \mathcal{C} \!\times\! \mathcal{D}'
+  \ar[
+    d, 
+    dashed, 
+    "{ F \widehat \times G }"{description}
+  ]
+  \\
+  &
+  \mathcal{C}' \times \mathcal{D}'
+\end{tikzcd}
 
-Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's [[axiom of small cardinality selection]] (which he uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
+First we need to show that the [[pushout-product]] $F \widehat{\times} G$ is a cofibration if both $F$ and $G$ are. By the definition of cofibrations, this means to show that on objects $(F \widehat{\times} G)_0$ is an injective map if both $F_0$ and $G_0$ are injective maps.
+
+Now, observe that the [[underlying]]-object functor
+$$
+  (-)_0
+    \,\colon\,
+  Cat \to Set
+$$
+[[preserved limit|preserves]] both [[limits]] and [[colimits]] and hence in particular preserves [[pushout products]]. Therefore the first statement we are after is that pushout-products of injections of sets are themselves injections, and that is the case, by [this example](pushout-product#InjectionsOfSets).
+
+Second, if $F$ is in addition a weak equivalence, we need to show that then also $F \widehat{\times} G$ is a weak equivalence. 
+
+But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-on-objects equivalence of categories, hence an [[acyclic cofibration]] in the canonical model structure. By the model category properties, it follows that also the pushout $q_r$ (in the above diagram) is an acyclic cofibration, hence in particular a weak equivalence; and by [[2-out-of-3]] applied to the bottom right triangle in the above diagram, it follows that with $F \times Id$ and $q_r$ also $F \widehat{\times} G$ is a weak equivalence.
+\end{proof}
+
+
+### Relation with bisimplicial sets
+
+Recall that Rezk's classifying diagram for a (small) category $C$ is the [[bisimplicial set]] $N (C)$ defined by $N (C)_{n, m} = Fun ([n] \times \mathbf{I}[m], C)$, where $[n]$ is the standard $n$-[[simplex]] considered as a category and $\mathbf{I}$ is the [[localization|groupoid completion]] functor (i.e. $D \mapsto D [D^{-1}]$). There is then an [[adjunction]]
+$$\tau_1 \dashv N : Cat \to ssSet$$
+and it can be shown that the canonical model structure on Cat is the model structure obtained by [[transferred model structure|transferring]] the [[model structure on simplicial presheaves|projective model structure]] on $ssSet$. 
+
 
 ## Related concepts
 
