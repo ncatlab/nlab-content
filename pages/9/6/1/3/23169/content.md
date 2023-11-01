@@ -18,9 +18,9 @@
 
 A [[functor]] between [[strict categories]] is called **injective-on-objects** if its object-[[function]] is [[injective function|injective]]. 
 
-Injective-on-objects functors are exactly 
+Injective-on-objects functors are exactly:
 
-* the [[isocofibrations]] in $Cat$ 
+* the [[isocofibrations]] in [[Cat]],
 
 * the [[cofibrations]] in the [[canonical model structure on categories]] (also in the [[canonical model structure on groupoids]]).
 
