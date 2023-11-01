@@ -15,10 +15,6 @@
 
 
 
-
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -27,11 +23,19 @@
 
 In general, **canonical model structures** are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed), which are intended to capture the correct "categorical" theory of these categories.
 
-The archetypical examples are the _[[canonical model structure on categories]]_ and the _[[canonical model structure on groupoids]]_. Categorifying these, one has [[canonical model structure on 2-categories|canonical model structures on 2-categories]].
+The archetypical examples are 
 
-Canonical model structures are sometimes called "folk" model structures, but the appropriateness of this term is very [questionable](https://nforum.ncatlab.org/discussion/649), especially in the cases $n \gt 1$.  Other alternatives are 'endogenous', 'standard', 'natural', and 'categorical'.
+* the _[[canonical model structure on categories]]_ 
 
-While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]], and thus in particular an [[(∞,1)-category]].  It is this (∞,1)-category which is intended to be [[presentable (infinity,1)-category|presented]] by a canonical model structure.  In particular, the [[weak equivalences]] in a canonical model structure should be the [[equivalence of categories|category-theoretic equivalences]].  
+* the _[[canonical model structure on groupoids]]_. 
+
+In [[categorification]] of these, one has 
+
+* [[canonical model structures on 2-categories]].
+
+Canonical model structures are sometimes called "folk" model structures, but the appropriateness of this term is [questionable](https://nforum.ncatlab.org/discussion/649), especially in the cases $n \gt 1$.  Other alternatives are 'endogenous', 'standard', 'natural', and 'categorical'.
+
+While ultimately the collection of all [[n-category|$n$-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]], and thus in particular an [[(∞,1)-category]].  It is this (∞,1)-category which is intended to be [[presentable (infinity,1)-category|presented]] by a canonical model structure.  In particular, the [[weak equivalences]] in a canonical model structure should be the [[equivalence of categories|category-theoretic equivalences]].  
 
 This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a [[model structure on simplicial sets|weak homotopy equivalence]] of [[nerve|nerves]].  This amounts to regarding each category, or rather its [[nerve]], as a placeholder for its _groupoidification_ (Kan fibrant replacement) and then considering the standard notion of equivalence.
 
@@ -140,9 +144,13 @@ For $n = \omega$ and all morphisms invertible, there is the [[model structure on
 * [[Dimitri Ara]], [[Francois Metayer]], _The Brown-Golasinski model structure on ∞-groupoids revisited_ (pdf) Homology, Homotopy Appl. 13 (2011), no. 1, 121&#8211;142.
 
 
+[[!redirects canonical model structures]]
 
 [[!redirects folk model structure]]
-[[!redirects canonical model structures]]
 [[!redirects folk model structures]]
 
 [[!redirects natural model structure]]
+[[!redirects natural model structures]]
+
+
+
