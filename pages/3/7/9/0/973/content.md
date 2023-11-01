@@ -283,19 +283,16 @@ Putting all of this together, we see that we exactly have a unital magma.
 ### Relation to accessible and locally representable categories
  {#RelationToLocallyRepresentableCategories}
 
-+-- {: .num_prop }
-###### Proposition 
 
+\begin{proposition}
+\label{LimitSketchableCategoriesAreAccessible}
 The categories of models of sketches are equivalently the [[accessible categories]].
+\end{proposition}
 
-=--
-
-+-- {: .num_prop }
-###### Proposition 
-
+\begin{proposition}
+\label{LimitSketchableCategoriesAreLocallyPresentable}
 The categories of models of limit-sketches are the [[locally presentable categories]].
-
-=--
+\end{proposition}
 
 +-- {: .num_prop }
 ###### Remark
