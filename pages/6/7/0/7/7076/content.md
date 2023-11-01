@@ -64,10 +64,31 @@ that satisfies
 \end{definition}
 
 ## Examples
+ {#Examples}
 
-* the standard [[Quillen model structure on topological spaces]] on [[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]] is cartesian closed
+Cartesian monoidal model categories include:
 
-* the [[classical model structure on simplicial sets]] is cartesian closed. 
+* the standard [[Quillen model structure on topological spaces]] on [[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]]
+
+  (see [there](classical+model+structure+on+topological+spaces#TopologicalEnrichment))
+
+* the [[fine model structure on topological G-spaces]] 
+
+  (see [there](fine+model+structure+on+topological+G-spaces#MonoidalModelCategoryStructure))
+
+* the [[classical model structure on simplicial sets]]
+
+* the [[canonical model structure on categories]] (and [[canonical model structure on groupoids|that on groupoids]])
+
+  (see [there](canonical+model+structure+on+Cat#CartesianMonoidalModelStructure))
+
+* the [[model structure for complete Segal spaces]]
+
+  (see [there](model+structure+for+complete+Segal+spaces#CartesianMonoidalModelStructure))
+
+* the model structure for [[Theta-spaces]]
+
+  (see [there](Theta-space#CartesianMonoidalAndEnrichedStructure))
 
 ## Related concepts
 
