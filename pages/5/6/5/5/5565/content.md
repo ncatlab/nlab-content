@@ -25,7 +25,7 @@ This is one flavor of the various [[canonical model structures]] on classes of [
 
 \begin{definition}
 \label{TheDefinition}
-Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say that a morphism in $Grpd$ --- a [[functor]] $f \colon C \longrightarrow D$ --- is: 
+Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoids]] with [[functors]] between them. Say that a morphism in $Grpd$ --- a [[functor]] $f \colon C \longrightarrow D$ --- is: 
 
 * a _[[weak equivalence]]_ iff it is an [[equivalence of categories]] hence a [[weak homotopy equivalence]] of groupoids,
 
@@ -38,9 +38,11 @@ Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and
 \begin{proposition}
 \label{ExistenceAndBasicProperties}
 
-Equipped with the classes from Def. \ref{TheDefinition} [[Grpd]] is a [[model category]] $Grpd_{nat}$, which is
+Equipped with the classes from Def. \ref{TheDefinition} [[Grpd]] is a [[model category]] $Grpd_{can}$, which is
 
-* [[cofibrantly generated model category|cofibrantly generated]],
+* [[combinatorial model category|combinatorial]] 
+
+  (in particular [[cofibrantly generated model category|cofibrantly generated]]),
 
 * [[proper model category|proper]],
 
@@ -52,7 +54,9 @@ Equipped with the classes from Def. \ref{TheDefinition} [[Grpd]] is a [[model ca
 
 \end{proposition}
 
-The claim that the classes in Def. \ref{TheDefinition} indeed give a model structure is due to [Anderson 1978](#Anderson78), repeated by [Bousfield 1989](#Bousfield89), both without proof. The first to publish a proof seems to be [Strickland 2000](#Strickland00), who also observes and proves [[right proper model category|right properness]] (left properness is immediate because all objects are [[cofibrant object|cofibrant]]). In the context of the [[model structure for (2,1)-sheaves]] the structure  is considered, [Hollander 2001, theorem 2.1](#Hollander01) who states also the [[cofibrantly generated model category|cofibrant generation]] and [[simplicial model category|simplicial enrichment]], without proof. The [[cartesian monoidal model category|cartesian model structure]] follows as in [Sharma 2023, Thm. 2.24](#Sharma23) (there stated for the groupoid-localization of the [[canonical model structure on Cat]], but the argument immediately applies here).
+The claim that the classes in Def. \ref{TheDefinition} indeed give a model structure is due to [Anderson 1978](#Anderson78), repeated by [Bousfield 1989](#Bousfield89), both without proof. The first to publish a proof seems to be [Strickland 2000](#Strickland00), who also observes and proves [[right proper model category|right properness]] (left properness is immediate because all objects are [[cofibrant object|cofibrant]]). In the context of the [[model structure for (2,1)-sheaves]] the structure  is considered, [Hollander 2001, theorem 2.1](#Hollander01) who states also the [[cofibrantly generated model category|cofibrant generation]] and [[simplicial model category|simplicial enrichment]], without proof. 
+Since [[Grpd]] is a [[locally presentable category]] (for instance by [this Prop](sketch#LimitSketchableCategoriesAreLocallyPresentable), observing that groupoids are the models of a [[limit sketch]], namely given by diagrams as shown at *[[internal category]]*) this implies that $Grpd_{can}$ is [[combinatorial model category|combinatorial]].
+The [[cartesian monoidal model category|cartesian model structure]] follows as in [Sharma 2023, Thm. 2.24](#Sharma23) (there stated for the groupoid-localization of the [[canonical model structure on Cat]], but the argument immediately applies here).
 
 ## Properties
 
