@@ -20,6 +20,10 @@ Particularly on [[distributive laws]]:
 
 * [[Jon Beck]], *Distributive Laws*, in: *[[Seminar on Triples and Categorical Homology Theory]]*, ETH 1966/67, Lecture Notes in Mathemativs, Springer (1969), Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
+and on [[monadic cohomology]] via [[canonical resolutions]]:
+
+* [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
 
 category:people
 
