@@ -70,7 +70,14 @@ On the [[pure spinor]] [[Berkovits superstring]]:
 
 \linebreak
 
-On the usage of [[pure spinor]] [[superfield]]s in maximal [[supergravity]]:
+On [[moduli stabilization]] in [[string theory]]:
+
+* [[Liam McAllister]], [[Fernando Quevedo]], *Moduli Stabilization in String Theory*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2310.20559](https://arxiv.org/abs/2310.20559)&rbrack;
+
+
+\linebreak
+
+On the usage of [[pure spinor]] [[superfields]] in maximal [[supergravity]]:
 
 * [[Martin Cederwall]], *Pure spinors in classical and quantum supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.06141](https://arxiv.org/abs/2210.06141)&rbrack;
 
