@@ -16,40 +16,43 @@
 
 ## Idea
 
-The [[canonical model structure]] on the 1-[[category]] of [[groupoids]] and [[functors]] is a presentation of the [[(2,1)-category]] of [[groupoids]], [[functor]]s and [[natural isomorphisms]].
+The [[canonical model structure]] on the 1-[[category]] [[Grpd]] of [[groupoids]] (with [[functors]] between them) is a presentation of the [[(2,1)-category]] of [[groupoids]], [[functors]] and [[natural isomorphisms]].
 
-This is one flavor of the various [[natural model structure]]s on categories and higher categories.
+This is one flavor of the various [[canonical model structures]] on classes of [[categories]] and [[higher categories]].
 
 ## Definition
 
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
+\label{TheDefinition}
+Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say that a morphism in $Grpd$ --- a [[functor]] $f \colon C \longrightarrow D$ --- is: 
 
-Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say that a morphism in $Grpd$ --- a [[functor]] $f \colon C \longrightarrow D$ --- is 
+* a _[[weak equivalence]]_ iff it is an [[equivalence of categories]] hence a [[weak homotopy equivalence]] of groupoids,
 
-* a _[[weak equivalence]]_ if it is an [[equivalence of categories]];
+* a _[[fibration]]_ iff it is an [[isofibration]],
 
-* a _[[fibration]]_ if it is an [[isofibration]];
+* a _[[cofibration]]_ iff it is an [[isocofibration]], hence  [[injective-on-objects functor|injective on objects]].
 
-* a _[[cofibration]]_ if it is [[injective-on-objects functor|injective on objects]].
+\end{definition}
 
-=--
+\begin{proposition}
+\label{ExistenceAndBasicProperties}
 
-+-- {: .num_prop}
-###### Proposition
+Equipped with the classes from Def. \ref{TheDefinition} [[Grpd]] is a [[model category]] $Grpd_{nat}$, which is
 
-Equipped with this structure $Grpd_{nat}$ is a [[model category]] which is
+* [[cofibrantly generated model category|cofibrantly generated]],
 
-* [[cofibrantly generated model category|cofibrantly generated]];
+* [[proper model category|proper]],
 
-* [[left proper model category|left proper]]
+* [[simplicial model category|simplicial]] 
 
-* a [[simplicial model category]] with respect to the natural [[sSet]]-[[enriched category]] structure induced by the canonical enrichment over itself, under the [[nerve]].
+  (induced under the [[simplicial nerve]] by the canonical enrichment over itself),
 
-=--
+* [[cartesian monoidal model category|cartesian monoidal]].
 
-The claim that this is indeed a model structure is due to [Anderson 1978](#Anderson78), repeated by [Bousfield 1989](#Bousfield89). The first to publish a proof seems to be [Strickland 2000](#Strickland00). In the context of the [[model structure for (2,1)-sheaves]] it appears as [Hollander 2001, theorem 2.1](#Hollander01).
+\end{proposition}
+
+The claim that the classes in Def. \ref{TheDefinition} indeed give a model structure is due to [Anderson 1978](#Anderson78), repeated by [Bousfield 1989](#Bousfield89), both without proof. The first to publish a proof seems to be [Strickland 2000](#Strickland00), who also observes and proves [[right proper model category|right properness]] (left properness is immediate because all objects are [[cofibrant object|cofibrant]]). In the context of the [[model structure for (2,1)-sheaves]] the structure  is considered, [Hollander 2001, theorem 2.1](#Hollander01) who states also the [[cofibrantly generated model category|cofibrant generation]] and [[simplicial model category|simplicial enrichment]], without proof. The [[cartesian monoidal model category|cartesian model structure]] follows as in [Sharma 2023, Thm. 2.24](#Sharma23) (there stated for the groupoid-localization of the [[canonical model structure on Cat]], but the argument immediately applies here).
 
 ## Properties
 
@@ -61,7 +64,7 @@ The model structure $Grpd_{nat}$ is the restriction of the
 
 =--
 
-See [[natural model structure]] for more.
+See [[canonical model structure]] for more.
 
 +-- {: .num_defn}
 ###### Definition
@@ -69,21 +72,30 @@ See [[natural model structure]] for more.
 Let
 
 $$
-  (\tau \dashv N) : Grpd \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
-   sSet
+  (\tau \dashv N) 
+  \,\colon\, 
+  Grpd 
+    \underoverset
+      { \underset{N}{\longrightarrow} }
+      { \overset{\tau}{\longleftarrow} }
+      { \bot }
+  sSet
 $$
 
-be the pair of [[adjoint functor]]s, where $N$ is the [[nerve]] of [[groupoid]]s with values in [[sSet]].
-
+be the pair of [[adjoint functors]], where $N$ is the [[simpliciAL nerve]] with values in the category [[sSet]] of [[simplicial sets]].
+ 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-With the natural model structure on $Grpd$ and the standard [[model structure on simplicial sets]] this is a [[Quillen adjunction]]
+With the canonical model structure on $Grpd$ and the standard [[model structure on simplicial sets]] this is a [[Quillen adjunction]]
 
 $$
-  (\tau \dashv N) : Grpd_{nat} \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
+  (\tau \dashv N) 
+  \,\colon\, 
+  Grpd_{nat} 
+   \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
    sSet_{Quillen}
   \,.
 $$
@@ -127,12 +139,12 @@ The actual proof is spelled out in:
 
 The model structure on functors with values in $Grpd_{nat}$ (a [[model structure for (2,1)-sheaves]]):
 
-* {#Hollander01} [[Sharon Hollander]], *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
+* {#Hollander01} [[Sharon Hollander]], §.1 in: *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
 
 
 That the model structure on groupoids is a [[cartesian monoidal model category]] follows with 
 
-* [[Amit Sharma]], Thm. 2.24 in: *Picard groupoids and $\Gamma$-categories*, [[Cahiers]] **LXIV** 3 (2023) &lbrack;[arXiv:2002.05811](https://arxiv.org/abs/2002.05811), [pdf](http://cahierstgdc.com/wp-content/uploads/2023/07/SHARMA_LXIV-3.pdf)&rbrack;
+* {#Sharma23} [[Amit Sharma]], Thm. 2.24 in: *Picard groupoids and $\Gamma$-categories*, [[Cahiers]] **LXIV** 3 (2023) &lbrack;[arXiv:2002.05811](https://arxiv.org/abs/2002.05811), [pdf](http://cahierstgdc.com/wp-content/uploads/2023/07/SHARMA_LXIV-3.pdf)&rbrack;
 
 (The theorem there is stated there for the groupoidal localization of the model structure on $Cat$, instead, but it immediately applies to the model structure on groupoids, too.)
 
