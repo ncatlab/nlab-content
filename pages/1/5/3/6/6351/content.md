@@ -36,9 +36,13 @@ On [[F-theory on K3]]:
 
 * {#DouglasParkSchnell14} [[Michael Douglas]], Daniel S. Park, Christian Schnell, _The Cremmer-Scherk Mmechanism in F-theory compactifications on K3 manifolds_, JHEP05 (2014) 135 ([arXiv:1403.1595](https://arxiv.org/abs/1403.1595))
 
-On large language models:
+On [[machine learning|large language models]]:
 
 * Michael R. Douglas, _Large language models_, [arXiv:2307.05782](https://arxiv.org/abs/2307.05782)
+
+On [[KK-compactification]] in [[string theory]]:
+
+* [[Michael R. Douglas]], [[Liam McAllister]], *Compactification of Superstring Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2310.20118](https://arxiv.org/abs/2310.20118)&rbrack;
 
 category: people
 
