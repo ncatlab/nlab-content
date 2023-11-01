@@ -258,6 +258,8 @@ See also:
 
 * {#CLV14} [[Xie Chen]], Yuan-Ming Lu, Ashvin Vishwanath, *Symmetry-protected topological phases from decorated domain walls*, Nature Communications **5** 3507  (2014) $[$[doi:10.1038/ncomms4507](https://doi.org/10.1038/ncomms4507)$]$
 
+* [[Juven Wang]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, Phys. Rev. Lett. **114** (2015) 031601 &lbrack;[arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [doi:10.1103/PhysRevLett.114.031601](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)&rbrack;
+
 
 * {#YangLiu18} Jian Yang, [[Zheng-Xin Liu]], *Irreducible Projective Representations and Their Physical Applications*, J. Phys. A: Math. Theor. **51** 025207 (2018) $[$[doi:10.1088/1751-8121/aa971a](https://doi.org/10.1088/1751-8121/aa971a), [arXiv:1605.05805](https://arxiv.org/abs/1605.05805)$]$
 
