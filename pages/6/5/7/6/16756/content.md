@@ -44,6 +44,10 @@ On a [[perturbation series]] for the [[M2-brane]] [[Green-Schwarz sigma-model]] 
 
 * [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
 
+On the [[Nicolai map]] for the [[CP^N sigma-model|$\mathbb{C}P^n$ sigma-model]]:
+
+* [[Lorenzo Casarin]], [[Olaf Lechtenfeld]], [[Maximilian Rupprecht]], *Nicolai maps with four-fermion interactions* &lbrack;[arXiv:2310.19946](https://arxiv.org/abs/2310.19946)&rbrack;
+
 
 
 category: people
