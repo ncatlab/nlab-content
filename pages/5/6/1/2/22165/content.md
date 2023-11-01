@@ -31,8 +31,19 @@ The notion of [[singular cohomology]] is due to
 * [[Samuel Eilenberg]], _Singular homology theory_, Annals of Mathematics 45:3 (1944) ([doi:10.2307/1969185](https://doi.org/10.2307/1969185))
 
 
+The notion of [[monadic cohomology]] via [[canonical resolutions]]:
+
+* [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 \[<a href="http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html">tac:18</a>, [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)\]
+
+* [[Michael Barr]], *Cartan-Eilenberg cohomology and triples*, J. Pure Applied Algebra **112** 3 (1996) 219–238 \[<a href="https://doi.org/10.1016/0022-4049(95)00138-7">doi:10.1016/0022-4049(95)00138-7</a>, [pdf](https://www.math.mcgill.ca/barr/papers/coho.pdf), [[Barr-CECohomology.pdf:file]]\]
+
+* [[Michael Barr]], *Algebraic cohomology: the early days*, in *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 1–26 \[<a href="https://doi.org/10.1090/fic/043">doi:10.1090/fic/043</a>, [pdf](https://www.math.mcgill.ca/barr/papers/algcohom.pdf), [[Barr-AlgebraicCohomology.pdf:file]]\]
+
+
 The general abstract perspective on [[cohomology]] (subsuming [[sheaf cohomology]], [[hypercohomology]], [[non-abelian cohomology]] and indications of [[Whitehead-generalized cohomology]]) was essentially established in:
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ (1973)
+
+
 
 
