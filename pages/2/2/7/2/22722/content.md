@@ -18,7 +18,8 @@ We say that $\mathcal{E}$ satisfies the **axiom of stack completions (ASC)** if 
 
 * {#BH} Bunge and Hermida, "Pseudomonadicity and 2-stack completions"
 
-* {#JT} Joyal and Tierney, "Strong stacks and classifying spaces"
+* {#JT} [[André Joyal]], [[Myles Tierney]], *Strong stacks and classifying spaces*, Lecture Notes in Mathematics **1488**, Springer (1991) &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
+
 
 [[!redirects axiom of stack completion]]
 [[!redirects ASC]]
