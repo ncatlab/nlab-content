@@ -16,7 +16,15 @@ On [[cosmic inflation]] in [[string theory]]:
 
 On realistic values of the [[cosmological constant]] in [[string theory]]:
 
-* [[Liam McAllister]], _Small Cosmological Constants in String Theory_ &lbrack;[indico:4940826](https://indico.cern.ch/event/1085701/contributions/4940826), [slides](https://indico.cern.ch/event/1085701/contributions/4940826/attachments/2481781/4260542/Liam%20McAllister%20Monday-Research-McAllister.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=1e5171ec-597a-4c34-bfb7-58d243b39ece)&rbrack
+* [[Liam McAllister]], _Small Cosmological Constants in String Theory_ &lbrack;[indico:4940826](https://indico.cern.ch/event/1085701/contributions/4940826), [slides](https://indico.cern.ch/event/1085701/contributions/4940826/attachments/2481781/4260542/Liam%20McAllister%20Monday-Research-McAllister.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=1e5171ec-597a-4c34-bfb7-58d243b39ece)&rbrack;
+
+On [[moduli stabilization]] in [[string theory]]:
+
+* [[Liam McAllister]], [[Fernando Quevedo]], *Moduli Stabilization in String Theory*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2310.20559](https://arxiv.org/abs/2310.20559)&rbrack;
+
+On [[KK-compactification]] in [[string theory]]:
+
+* [[Michael R. Douglas]], [[Liam McAllister]], *Compactification of Superstring Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2310.20118](https://arxiv.org/abs/2310.20118)&rbrack;
 
 
 category: people
