@@ -76,14 +76,22 @@ The trace of the identity $1_a:a \to a$ is called the **[[dimension]]** or [[Eul
 
 ## Examples
 
-* $C = Vect$ with its standard monoidal structure ([[tensor product]] of vector spaces): in this case tr(f) is the usual trace of a linear map;
+* $C = Vect_k$ with its standard monoidal structure ([[tensor product]] of vector spaces): in this case tr(f) is the usual trace of a linear map. Indeed, suppose $f$ is an [[endomorphism]] on a finite dimensional $k$-vector space $V$. Then, the trace $tr(f):k\to k$ is given by the following composition.
+\[k\xrightarrow{\eta} V\otimes V^\ast\xrightarrow{f\otimes id}V\otimes V^\ast\xrightarrow{\varepsilon} k\]
+Here $\varepsilon$ is the standard pairing. The map $\eta$ is obtained from the [[dual linear map]] of $\varepsilon$ by applying the following isomorphisms, see ([Dold & Puppe 1978](#DoldPuppe1978)).
+\[k\cong k^\ast,\qquad (V\otimes V^\ast)^\ast\cong(V^\ast)^\ast\otimes V^\ast\cong V\otimes V^\ast\]
+One can then compute that
+\[\eta(\lambda)=\sum_{i=1}^n\lambda (e_i\otimes e_i^\ast),\]
+where $\{e_1,\ldots,e_n\}$ is a basis of $V$ and $\{e_1^\ast,\ldots,e_n^\ast\}$ is the [dual basis](dual+vector+space#dual_bases). Now, if $f$ is given in this basis by a matrix $(a_ij)$, then
+\[(f\otimes id)(\eta(\lambda))=\lambda\sum\begin{pmatrix}a_{1i}\\\vdots\\a_{ni}\end{pmatrix}\otimes e_i^\ast.\]
+Finally, $(tr(f))(\lambda)$ is obtained by applying the pairing on this tensor: $(tr(f))(\lambda)=\lambda\sum a_{ii}$.
 
 * $C = SuperVect = (Vect_{\mathbb{Z}_2}, \otimes, b)$, the category of $\mathbb{Z}_2$-graded vector spaces with the _non_trivial symmetric braiding which is $-1$ on two odd graded vector spaces: in this case the above is the **[[supertrace]]** on supervectorspaces, $str(V) = tr(V_{even}) - tr(V_odd)$.
 
 
-* $C = Span(Top^{op})$: here the trace is the [[co-span co-trace]] which can be seen as describing the gluing of in/out boundaries of [[cobordism]]s 
+* $C = Span(Top^{op})$: here the trace is the [[co-span co-trace]] which can be seen as describing the gluing of in/out boundaries of [[cobordism|cobordisms]].
  
-* $C = Span(Grpd)$: this reproduces the notion of trace of a linear map within the interpretation of spans of groupoids as linear maps in the context of [[groupoidification]] and [[geometric function theory]], made explicit at [[span trace]]
+* $C = Span(Grpd)$: this reproduces the notion of trace of a linear map within the interpretation of spans of groupoids as linear maps in the context of [[groupoidification]] and [[geometric function theory]], made explicit at [[span trace]].
 
 * In the [[symmetric monoidal (infinity,1)-category of spectra]], the trace on the identity on a [[suspension spectrum]] of a [[manifold]] $X$ is the [[Euler characteristic]] of $X$ (see there).
 
@@ -167,7 +175,7 @@ where we inserted the normalization factor $\frac{1}{2}$.
 
 The categorical notion of trace in a monoidal category is due to
 
-* [[Albrecht Dold]],  and [[Dieter Puppe]], _Duality, trace, and transfer_ In Proceedings of the Inter-
+* {#DoldPuppe1978} [[Albrecht Dold]],  and [[Dieter Puppe]], _Duality, trace, and transfer_ In Proceedings of the Inter-
 national Conference on Geometric Topology (Warsaw, 1978), pages 81{102, Warsaw, 1980.
 PWN.
 
