@@ -3,13 +3,29 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-(...)
+The **split-quaternions** are an [[algebra]] over the [[real numbers]]. Every tessarine $q$ may be represented as
+$$
+q = a_0 + a_1 i + a_2 j + a_3k
+$$
+where the basis elements satisfy the following products:
+
+| $\times$ | i | j | k |
+|--|--|--|--|
+| i | -1 | k | -j |
+| j | -k | +1 | -i |
+| k | j | i | +1 |
+
+and conjugation $t^* = a_0 - a_1 i - a_2 j - a_3k$.
+
+These are closely related to the [[quaternions]], as the generators satisfy similarly-looking relations. They are obtained from the [[split-complex numbers]] through the [generalization of the Cayley-Dickson construction](https://ncatlab.org/nlab/show/Cayley-Dickson+construction#cayleydicksonalbert_construction).
 
 ## Related concepts
 
 * [[quaternion]]
+
+* [[tessarines]]
 
 * [[split octonion]]
 
