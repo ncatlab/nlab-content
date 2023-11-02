@@ -19,9 +19,18 @@
 
 ## Idea
 
-For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expectation values]] (VEVs) of the theory is locally a [[Cartesian product]] between the space of [[moduli]] of the [[vector multiplet]] (the [[gauge field]] sector) and those of the [[hypermultiplet]] (the scalar matter field sector). The former is called the _Coulomb branch_, and the latter the [[Higgs branch]]. These are [[duality in physics|dual]] to each other under a version of [[mirror symmetry]] . 
+For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expectation values]] (VEVs) of the theory is meant to locally be a [[Cartesian product]] of spaces of
 
-This is the topic of [[Seiberg-Witten theory]].
+1. [[moduli]] of the [[vector multiplet]] (the [[gauge field]] sector) 
+
+   this is called the *Coulomb branch*
+
+1. moduli of the [[hypermultiplet]] (the scalar matter field sector)
+
+   this is called the *[[Higgs branch]]*.
+
+These are thought to be [[duality in physics|dual]] to each other under a version of [[mirror symmetry]]. This is largely the topic of [[Seiberg-Witten theory]]. 
+
 
 Definitions of the Coulomb and Higgs branches have been extended to [[N=4 D=3 super Yang-Mills theory]].
 
