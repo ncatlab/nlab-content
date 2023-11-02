@@ -217,9 +217,9 @@ One of the important conclusions of the small object argument is that it is func
 
 Additionally, in an [[enriched category|enriched]] situation, ideally one would like the factorizations to be an _enriched_ functor.  The version of the small object argument given above does not produce an enriched functor, since it takes coproducts over maps in an ordinary category.  It can be modified to produce an enriched functor by replacing these coproducts by [[copower]]s, but the resulting factorizations are only rarely homotopically well-behaved (in a model category, for instance).  One important special case when they are well-behaved is when all objects of the enriching category are cofibrant, as is the case for [[simplicial set]]s and for the [[folk model structure]] on [[Cat]].
 
-##A variant##
+## Algebraic variant
 
-A modified version of Quillen's small object argument due to Richard Garner produces not just [[functorial factorization]] but those of an [[algebraic weak factorization system]]. Unlike Quillen's construction, his converges. Details are contained in [Garner](#Garner); see [[algebraic small object argument]].
+A modified version of Quillen's small object argument due to [Garner 2009](#Garner09) produces not just [[functorial factorization]] but those of an [[algebraic weak factorization system]], see at *[[algebraic small object argument]]*. Unlike Quillen's construction, this converges.
 
 ## Related concepts
 
@@ -251,7 +251,7 @@ See also the appendix of [[Higher Topos Theory|HTT]].
 
 For more conceptual background see
 
-* [[Richard Garner]], _Understanding the small object argument_, Applied Categorical Structures, 17 (3):247&#8211;285, 2009 ([pdf](http://arxiv.org/pdf/0712.0724v2.pdf))
+* {#Garner09} [[Richard Garner]], *Understanding the small object argument*, Applied Categorical Structures **17**  3 247-285 (2009) &lbrack;[arXiv:0712.0724](https://arxiv.org/abs/0712.0724), [doi:10.1007/s10485-008-9137-4](https://doi.org/10.1007/s10485-008-9137-4)&rbrack;
 
 Review in:
 
