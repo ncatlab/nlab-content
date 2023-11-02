@@ -76,13 +76,13 @@ The trace of the identity $1_a:a \to a$ is called the **[[dimension]]** or [[Eul
 
 ## Examples
 
-* $C = Vect_k$ with its standard monoidal structure ([[tensor product]] of vector spaces): in this case tr(f) is the usual trace of a linear map. Indeed, suppose $f$ is an [[endomorphism]] on a finite dimensional $k$-vector space $V$. Then, the trace $tr(f):k\to k$ is given by the following composition.
+* [[Vect|$C = Vect_k$]] with its standard monoidal structure ([[tensor product of vector spaces]]): in this case $tr(f)$ is the usual trace of a linear map. Indeed, suppose $f$ is an [[endomorphism]] on a [[finite dimensional vector space|finite dimensional $k$-vector space]] $V$. Then, the trace $tr(f) \colon k\to k$ is given by the following composition.
 \[k\xrightarrow{\eta} V\otimes V^\ast\xrightarrow{f\otimes id}V\otimes V^\ast\xrightarrow{\varepsilon} k\]
-Here $\varepsilon$ is the standard pairing. The map $\eta$ is obtained from the [[dual linear map]] of $\varepsilon$ by applying the following isomorphisms, see ([Dold & Puppe 1978](#DoldPuppe1978)).
+Here $\varepsilon$ is the standard [[evaluation]]-pairing. The map $\eta$ is obtained from the [[dual linear map]] of $\varepsilon$ by applying the following isomorphisms, see ([Dold & Puppe 1978](#DoldPuppe1978)).
 \[k\cong k^\ast,\qquad (V\otimes V^\ast)^\ast\cong(V^\ast)^\ast\otimes V^\ast\cong V\otimes V^\ast\]
 One can then compute that
 \[\eta(\lambda)=\sum_{i=1}^n\lambda (e_i\otimes e_i^\ast),\]
-where $\{e_1,\ldots,e_n\}$ is a basis of $V$ and $\{e_1^\ast,\ldots,e_n^\ast\}$ is the [dual basis](dual+vector+space#dual_bases). Now, if $f$ is given in this basis by a matrix $(a_ij)$, then
+where $\{e_1,\ldots,e_n\}$ is a [[linear basis]] of $V$ and $\{e_1^\ast,\ldots,e_n^\ast\}$ is the [dual basis](dual+vector+space#dual_bases). Now, if $f$ is given in this basis by a matrix $(a_ij)$, then
 \[(f\otimes id)(\eta(\lambda))=\lambda\sum\begin{pmatrix}a_{1i}\\\vdots\\a_{ni}\end{pmatrix}\otimes e_i^\ast.\]
 Finally, $(tr(f))(\lambda)$ is obtained by applying the pairing on this tensor: $(tr(f))(\lambda)=\lambda\sum a_{ii}$.
 
