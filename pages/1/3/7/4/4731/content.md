@@ -235,3 +235,7 @@ An appearance in 4-dimensional [[Yang-Mills theory]] and [[4d TQFT]] is reported
 
 
 [[!redirects connection on a principal 2-bundle]]
+
+[[!redirects principal 2-bundle with connection]]
+[[!redirects principal 2-bundles with connection]]
+
