@@ -145,7 +145,7 @@ For $X$ [[smooth manifold]], a $G$-[[principal bundle]] $P \to X$ is given by a 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[section]]s $\sigma$ of the corresponding $\rho$-[[associated bundle]] $P \times_\rho V$ are in natural [[bijection]] with the lifts to a $V//G$-cocycle
+The [[section | sections]] $\sigma$ of the corresponding $\rho$-[[associated bundle]] $P \times_\rho V$ are in natural [[bijection]] with the lifts to a $V//G$-cocycle
 
 $$
   \array{
@@ -163,7 +163,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We may model the coycle $X \to \mathbf{B}G$ in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,loc}$ by an [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ for $C(U)$ the [[Cech groupoid]] of a [[good open cover]] $\{U_i \to X\}$. This is a collection of [[smooth function]]s $(g_{i j} : U_i \cap U_j \to G)$ such that
+We may model the coycle $X \to \mathbf{B}G$ in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,loc}$ by an [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ for $C(U)$ the [[Cech groupoid]] of a [[good open cover]] $\{U_i \to X\}$. This is a collection of [[smooth function | smooth functions]] $(g_{i j} : U_i \cap U_j \to G)$ such that
 
 $$
   \left(
@@ -229,7 +229,7 @@ This 1-form curvature is literally the measure for the _non-flatness of the sect
 We unwind this definition and find the traditional formulation of covariant derivatives as traditionally stated in the literature.
 
 
-On a patch $U_i \hookrightarrow X$ the connection $\nabla$ is given by a morphism of [[dg-algebra]]s 
+On a patch $U_i \hookrightarrow X$ the connection $\nabla$ is given by a morphism of [[dg-algebra | dg-algebras]] 
 
 $$
   \Omega^\bullet(U_i) \leftarrow W(\mathfrak{g}) : A_i
@@ -282,7 +282,7 @@ $$
   \nabla_{(-)} \sigma_i := F^1_{\nabla sigma_i}
 $$
 
-If we keep $\nabla$ fixed and let $\sigma_i$ vary, then this may be thought of as a 1-form with values in [[endomorphism]]s of the space of sections
+If we keep $\nabla$ fixed and let $\sigma_i$ vary, then this may be thought of as a 1-form with values in [[endomorphism | endomorphisms]] of the space of sections
 
 $$
   \nabla_{(-)} : \Gamma(P \times_\rho V) \to \Gamma(P \times_\rho V)
