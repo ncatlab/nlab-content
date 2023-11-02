@@ -331,7 +331,9 @@ and it can be shown that the canonical model structure on Cat is the model struc
 
 * {#Schommer-Pries12} [[Chris Schommer-Pries]], *[The canonical model structure on Cat](https://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/)*, Secret Blogging Seminar (2012)
 
+Discussion of the [[canonical model structure]] on categories of [[internal categories]]:
 
+* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
 
 [[!redirects canonical model structure on Cat]]
 [[!redirects canonical model structure on categories]]
