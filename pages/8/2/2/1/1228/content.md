@@ -294,17 +294,17 @@ In ([Loregian '21](#Lor21), , Proposition 2.2.1), the following general version 
 \begin{proposition}
 For every functor $K: \mathcal{C}^{\mathrm{op}} \to \mathbf{Set}$ and $H: \mathcal{C} \to \mathbf{Set}$, we have the following natural isomorphisms of functors:
 $$
-K \cong \int^C KC \times \mathcal{C}(-, C),
+K \cong \int^C K C \times \mathcal{C}(-, C),
 $$
 $$
-H \cong \int^C HC \times \mathcal{C}(C,-),
+H \cong \int^C H C \times \mathcal{C}(C,-),
 $$
 as well as
 $$
-K \cong \int_C \mathbf{Set}(\mathcal{C}(C, -), KC),
+K \cong \int_C \mathbf{Set}(\mathcal{C}(C, -), K C),
 $$
 $$
-H \cong \int_C \mathbf{Set}(\mathcal{C}(-, C), HC).
+H \cong \int_C \mathbf{Set}(\mathcal{C}(-, C), H C).
 $$
 \end{proposition}
 
