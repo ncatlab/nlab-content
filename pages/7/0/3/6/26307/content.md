@@ -43,14 +43,22 @@ nontrivial [[involution]] $I\in \text{End}(V)$ , i.e., $I^2=\text{Id}$ and $I\ne
 \end{definition}
 
 \begin{definition}
-\label{AlmostParaComplexStructure}
-An **almost para-complex structure** on a [[smooth manifold]] $M$ is an endomorphism field $I\in \Gamma(\text{End}TM)$ such that for all $p\in M$, $I_p$ is a para-complex structure on $T_p M$.
-
+\label{AlmostParaComplexMfld}
+An **almost para-complex manifold** is a [[smooth manifold]] $M$ with an endomorphism field $I\in \Gamma(\text{End}TM)$ such that for all $p\in M$, $I_p$ is a para-complex structure on $T_p M$. A splitting
+$$
+TM = L_{+} \oplus L_{-}
+$$
+on eigenspaces associated with eigenvalues $\pm$ of $J$ is an **almost para-complex structure** on $M$.
 \end{definition}
+
+## Related concepts
+* [[para-Hermitian manifold]]
 
 ## References
 
 General:
 
 * [[Vicente Cortés]], Christoph Mayer, [[Thomas Mohaupt]], and Frank Saueressig. *Special geometry of Euclidean supersymmetry 1. Vector multiplets.* Journal of High Energy Physics 2004, no. 03 (2004): 028. \[[doi:10.1088/1126-6708/2004/03/028](https://doi.org/10.1088/1126-6708/2004/03/028)\]
+
+
 
