@@ -52,47 +52,42 @@ By including $\mathbb{C}^*$ equivariance as well, this gives a non-commutative d
 
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
 
-* {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
+* {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, duality and chiral symmetry breaking in $N=2$ supersymmetric QCD_, Nucl.Phys. __B431__ (1994) 484--550 ([doi](https://doi.org/10.1016/0550-3213%2894%2990214-3) [arXiv:hep-th/9408099](https://arxiv.org/abs/hep-th/9408099))
 
 The definition is summarized (specifically for [[super QCD]]) in [Assel-Cremoni 17, Section 2.1](#AsselCremoni17).
 
 
-
-
 Quick exposition of the basic idea includes
 
-* {#Albertsson03} Cecilia Albertsson, around p. 31 of _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
+* {#Albertsson03} Cecilia Albertsson, around p. 31 of _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](https://arxiv.org/abs/hep-th/0305188))
 
 Mathematical discussion in the case of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Hiraku Nakajima]], _Introduction to a provisional mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories_ ([arXiv:1706.05154](http://arxiv.org/abs/1706.05154))
 
-* [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, I_ ([arXiv:1503.03676](http://arxiv.org/abs/1503.03676))
+* [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, I_ ([arXiv:1503.03676](https://arxiv.org/abs/1503.03676))
 
-* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_, Adv. Theor. Math. Phys. 22 (2018) 1071-1147 ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_, Adv. Theor. Math. Phys. __22__ (2018) 1071-1147 ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
 
-* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], *Coulomb branches of 3d $\mathcal{N}=4$ quiver gauge theories and slices in the affine Grassmannian* (with appendices by Alexander Braverman, Michael Finkelberg, Joel Kamnitzer, Ryosuke Kodera, Hiraku Nakajima, Ben Webster, and Alex Weekes), Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 1 ([arXiv:1604.03625](https://arxiv.org/abs/1604.03625))
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], *Coulomb branches of 3d $\mathcal{N}=4$ quiver gauge theories and slices in the affine Grassmannian* (with appendices by Alexander Braverman, Michael Finkelberg, Joel Kamnitzer, Ryosuke Kodera, Hiraku Nakajima, Ben Webster, and Alex Weekes), Advances in Theoretical and Mathematical Physics __23__:1 (2019) ([arXiv:1604.03625](https://arxiv.org/abs/1604.03625))
 
   > (relation to the [[moduli space of Yang-Mills monopoles]])
 
 
-* [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([ arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
+* [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
 
 See also:
 
 * [[Constantin Teleman]], _The role of Coulomb branches in 2D gauge theory_, ([arXiv:1801.10124](https://arxiv.org/abs/1801.10124))
 
-* Justin Hilburn, Joel Kamnitzer, Alex Weekes, _BFN Springer Theory_ ([arXiv:2004.14998](https://arxiv.org/abs/2004.14998))
+* Justin Hilburn, Joel Kamnitzer, Alex Weekes, _BFN Springer Theory_, Commun. Math. Phys. __402__ (2023) 765--832 (2023) ([doi](https://doi.org/10.1007/s00220-023-04735-4) [arXiv:2004.14998](https://arxiv.org/abs/2004.14998))
 
 * Zijun Zhou, *Virtual Coulomb branch and vertex function* ([arXiv:2107.06135](https://arxiv.org/abs/2107.06135))
 
 
-
-
-
 On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
 
-* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror symmetry in three-dimensional gauge theories, quivers and D-branes_, Nucl. Phys. __B493__:101--147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
 
@@ -101,11 +96,11 @@ On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 
 
 Discussion of Coulomb branch [[singularities]]:
 
-* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb branch of 3d $\mathcal{N}=4$ theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
 
   (relation to [[Nahm's equations]])
 
-* {#AsselCremoni17} [[Benjamin Assel]], [[Stefano Cremonesi]], _The Infrared Physics of Bad Theories_, SciPost Phys. 3, 024 (2017) ([arXiv1707.03403](https://arxiv.org/abs/1707.03403))
+* {#AsselCremoni17} [[Benjamin Assel]], [[Stefano Cremonesi]], _The infrared physics of bad theories_, SciPost Phys. 3, 024 (2017) ([arXiv:1707.03403](https://arxiv.org/abs/1707.03403))
 
 
 [[!redirects Coulomb branches]]
