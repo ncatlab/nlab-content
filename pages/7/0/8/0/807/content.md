@@ -621,4 +621,8 @@ Complex cardinalities:
 
 * [[C. T. C. Wall]], _Arithmetic invariants of subdivision of complexes_, Canad. J. Math. 18(1966), 92-96, [doi](http://dx.doi.org/10.4153/CJM-1966-012-9), [pdf](http://cms.math.ca/cjm/v18/cjm1966v18.0092-0096.pdf)
 
+$\mathbf{A}^1$-Euler characteristic
+
+* Arcila-Maya, Niny; Bethea, Candace; Opie, Morgan; Wickelgren, Kirsten; Zakharevich, Inna, _Compactly supported $\mathbb{A}^1$-Euler characteristic and the Hochschild complex_, Topology and its Applications __316__  (2022) 108108 [doi](https://doi.org/10.1016/j.topol.2022.108108)
+
 [[!redirects Euler characteristics]]
