@@ -434,7 +434,12 @@ A discussion of [[dependent type theory]] as the [[internal language]] of locall
 
 * [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
 
-Related literature includes
+exposition:
+
+* Xu Huang, *Locally Cartesian Closed Categories* &lbrack;[arXiv:2202.04543](https://arxiv.org/abs/2202.04543)&rbrack;
+
+
+See also:
 
 * [[Marta Bunge]],  and [[Susan Niefield]],   _Exponentiability and single universes_ J. Pure Appl. Algebra 148 (2000) 217--250.
 
