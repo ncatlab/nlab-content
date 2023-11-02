@@ -68,7 +68,7 @@ This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a
 
 {#DerivedCategory} (Notice that the [[homotopy category of a model category|homotopy category]] of the [[model structure on unbounded chain complexes|model structure on $R$-chain complexes]] is the "[[derived category]]" of [[Mod|$R Mod$]].)
 
-This equivalence on the level of [[homotopy categories]] is due to ([Robinson 87](#Robinson87)). The refinement to a [[Quillen equivalence]] is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Higher Algebra|Lurie HA, theorem 7.1.2.13]]).
+This equivalence on the level of [[homotopy categories]] is due to ([Robinson 87](#Robinson87)). The refinement to a [[Quillen equivalence]] is due to [Shipley 2007, Thm. 1.1] and (#Shipley02)[Schwede & Shipley 2003, theorem 5.1.6](#SchwedeShipley03). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as [[Higher Algebra|Lurie HA, Thm. 7.1.2.13]].
 
 For $R = \mathbb{Q}$ the [[rational numbers]], then theorem \ref{StableDoldKan} may be thought of as a stable analog of classical [[rational homotopy theory]], see at _[[rational stable homotopy theory]]_ for more on this.
 
