@@ -274,9 +274,10 @@ Points of the sheaf topos over the category of [[manifold]]s are discussed in
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
  {#Dugger}
 
+
 Toposes without points are discused in the homonymous paper
 
-* {#Barr74}[[Michael Barr]], _Toposes  without points_ , JPAA **5** (1974) pp.265-280.
+* {#Barr74} [[Michael Barr]], *Toposes without points*, J. Pure Appl. Algebra **5** (1974) 265-280 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/top.no.pt.pdf), [[Barr-ToposesWithoutPoints.pdf:file]]&rbrack;
 
 [[!redirects points of a topos]]
 
