@@ -94,7 +94,7 @@ forms a [[local ring]] object $R$; when interpreted in the [[internal logic]] of
 
 ### Virtual vector bundles
 
-In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) cohomology]] theory -- cocycles are represented by $\mathbb{Z}_2$-graded vector bundles (pairs of vector bundles, essentially) modulo a certain equivalence relation. In that context it is sometimes useful to consider a certain variant of infinite-dimensional $\mathbb{Z}_2$-graded vector bundles called [[vectorial bundle]]s.
+In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) cohomology]] theory -- cocycles are represented by $\mathbb{Z}_2$-graded vector bundles (pairs of vector bundles, essentially) modulo a certain equivalence relation. In that context it is sometimes useful to consider a certain variant of infinite-dimensional $\mathbb{Z}_2$-graded vector bundles called [[vectorial bundle | vectorial bundles]].
 
 
 Much else to be discussed...
