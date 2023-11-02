@@ -8,10 +8,9 @@ Tomas Everaert works on homological and homotopical algebra in semi-abelian cate
 ## Selected publications
 
 
-Discussion of the [[canonical model structure]] on categories of [[internal categories]]:
+On the [[canonical model structure]] for [[internal categories]] in [[finitely complete categories]]:
 
-* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
-
+* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories **15** 3 (CT2004) 66-94 &lbrack;[tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)&rbrack;
 
 
 category:people
