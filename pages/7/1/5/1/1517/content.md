@@ -129,10 +129,13 @@ More information may be found at [[coalgebra of the real interval]].
 
 ## References
 
+* [[Michael Barr]], *Terminal coalgebras for endofunctors on sets*,  Theoretical Comp. Sci. **114** (1993) 299–315 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/trmclg.pdf), [[Barr-TerminalCoalgebras.pdf:file]]&rbrack;
+
 * {#Pattinson03} [[Dirk Pattinson]], *An Introduction to the Theory of Coalgebras* (2003) &lbrack;[pdf](https://nasslli.sitehost.iu.edu/2003/datas/DirkPattinson.pdf), [[Pattinson-Coalgebras.pdf:file]]&rbrack;
 
-* [[Jiri Adamek]], *Introduction to coalgebras*,
-Theory and Applications of Categories **14** 8 (2005) 157-199 &lbrack;[tac:14-08](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/14/8/14-08.pdf)&rbrack;
+* [[Jiri Adamek]], *Introduction to coalgebras*, Theory and Applications of Categories **14** 8 (2005) 157-199 &lbrack;[tac:14-08](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/14/8/14-08.pdf)&rbrack;
+
+
 
 There are connections between the theory of coalgebras and [[modal logic]]  for which see
 
