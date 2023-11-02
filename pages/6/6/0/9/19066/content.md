@@ -216,9 +216,9 @@ Namely, unwinding the definitions, such a morphism is a [[dependent pair]] consi
 
 1. a morphism $\widetilde{\phi} \,\colon\, f_! 0 \longrightarrow  \mathscr{V}$ in $\underset{s \in S}{\prod} \, \mathcal{C}$
 
-But both of these exist uniquely, by the fact that their respective [[domains]] are [[initial objects]], using here that $f_!$, [[left adjoints preserve colimit|being a left adjoint]], [[preserved colimit|preserves]] [[colimits]] and hence [[initial objects]]
+But both of these exist uniquely, by the fact that their respective [[domains]] are [[initial objects]], using here that $f_!$, [[left adjoints preserve colimits|being a left adjoint]], [[preserved colimit|preserves]] [[colimits]] and hence [[initial objects]]
 
-This shows that also $0_{\varnothing}$ is the initial object in $\int_S \,\prod_{s \in S}\, \nathcal{C}$. (Of course this also follows by the general formula for [colimits in a Grothendieck construction](Grothendieck+construction#CoLimitsInAGrothendieckConstruction) specialized to the [[empty diagram|empty]] [[colimit]].) And it shows (since all morphisms in the [[trivial model structure]] on $Set$ are cofibrations while the cofibrations in a [[product model category]] are the [[tuples]] of cofibrations) that $\mathcal{V}_S$ is cofibant precisely if $\mathcal{V}_s \,\in\, \mathcal{C}$ is so for all $s \in S$.
+This shows that also $0_{\varnothing}$ is the initial object in $\int_S \,\prod_{s \in S}\, \nathcal{C}$. (Of course this also follows by the general formula for [colimits in a Grothendieck construction](Grothendieck+construction#CoLimitsInAGrothendieckConstruction) specialized to the [[empty diagram|empty]] [[colimit]].) And it shows (since all morphisms in the [[trivial model structure]] on $Set$ are cofibrations while the cofibrations in a [product model category](model+category#ProductModelStructure) are the [[tuples]] of cofibrations) that $\mathcal{V}_S$ is cofibant precisely if $\mathcal{V}_s \,\in\, \mathcal{C}$ is so for all $s \in S$.
 \end{remark}
 
 \begin{example}
