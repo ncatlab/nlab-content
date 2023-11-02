@@ -206,18 +206,18 @@ Given a [[model category]],
 
 =--
 
-A proof is spelled out in ([Hirschhorn, prop. 13.1.2](#Hirschhorn)), there attributed to ([Reedy](#Reedy)).
+A proof is spelled out in [Hirschhorn, prop. 13.1.2](#Hirschhorn), there attributed to [Reedy](#Reedy).
 
 This gives a large class of examples of left/right proper model categories:
 
-+-- {: .num_cor #AllObjectsFibrantImpliesRightProper}
-###### Corollary
+\begin{corollary}
+\label{AllObjectsFibrantImpliesRightProper}
 
-A model category in which all objects are cofibrant is left proper.
+* A model category in which all objects are cofibrant is left proper.
 
-A model category in which all objects are fibrant is right proper.
+* A model category in which all objects are fibrant is right proper.
 
-=--
+\end{corollary}
 
 See in the list of [Examples](#Examples) below for concrete examples.
 
