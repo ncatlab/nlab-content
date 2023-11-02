@@ -33,6 +33,10 @@ On [[quantum computation]]:
 
 * [[Peter Shor]], *Quantum Computation*, Lecture notes (2022) &lbrack;[web](https://math.mit.edu/~shor/435-LN/)&rbrack;
 
+On [[topological quantum computation]] with [[anyons]]:
+
+* Yuanjie Ren, [[Peter Shor]], *Topological quantum computation assisted by phase transitions* \[<a href="https://arxiv.org/abs/2311.00103">arXiv:2311.00103</a>\]
+
 
 
 
