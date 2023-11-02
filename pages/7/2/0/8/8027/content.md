@@ -34,7 +34,7 @@ The _AGT correspondence_ ([AGT 09](#AGT09)) is a relation between
 
 1. the [[conformal blocks]] of [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  
 
-Here the idea is that $C_{g,n}$  is the [[super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
+Here the idea is that $C_{g,n}$  is the [[super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)). This method generalizes a bit beyond super Yang-Mills, to [[class S]].
 
 In particular, the [[N=2 D=4 super Yang-Mills theory]] is a [[quiver gauge theory]] and the correspondence matches the shape of its [[quiver]]-diagram to the [[genus of a surface|genus]] and punctures of the [[Riemann surface]]:
 
@@ -57,12 +57,13 @@ More generally, this construction yields something like a decomposition of the [
 
 * [[Nekrasov function]]
 
-
 * [[McKay correspondence]]
 
 * [[3d-3d correspondence]]
 
 * [[knots-quivers correspondence]]
+
+* [[class S]]
 
 
 Wrapping the [[M5-brane]] on a [[3-manifold]] instead yields: [[3d-3d correspondence]].
@@ -75,15 +76,15 @@ A [[2d SCFT]] argued to describe the  [[KK-compactification]] of the [[M5-brane]
 
 The origin of the AGT correspondence is:
 
-* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
+* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](https://arxiv.org/abs/0904.2715))
 
-* {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+* {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](https://arxiv.org/abs/0906.3219))
 
-* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_ ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
+* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation, Advances in Mathematics __234__ (2013) 239--403 ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987) [doi](https://doi.org/10.1016/j.aim.2012.09.027))
 
 The [[2d TQFT]] obtained from this by forming the 4d index is discussed in 
 
-* {#GPRR10} Abhijit Gadde, Elli Pomoni, [[Leonardo Rastelli]], Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](http://arxiv.org/abs/0910.2225))
+* {#GPRR10} Abhijit Gadde, Elli Pomoni, [[Leonardo Rastelli]], Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](https://arxiv.org/abs/0910.2225))
 
 Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]]
 
@@ -117,7 +118,7 @@ More detailed review is in
 
 * {#Szabo15} [[Richard Szabo]], _$N=2$ gauge theories, instanton moduli spaces and geometric representation theory_, Journal of Geometry and Physics Volume 109, November 2016, Pages 83-121 ([arXiv:1507.00685](https://arxiv.org/abs/1507.00685))
 
-* Bruno Le Floch, _A slow review of the AGT correspondence_ ([arXiv:2006.14025](https://arxiv.org/abs/2006.14025))
+* Bruno Le Floch, _A slow review of the AGT correspondence_, J. Phys. A: Math. Theor. __55__ (2022) 353002 ([doi](https://doi.org/10.1088/1751-8121/ac5945)[arXiv:2006.14025](https://arxiv.org/abs/2006.14025))
 
 
 See also
