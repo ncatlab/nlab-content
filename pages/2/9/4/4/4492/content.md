@@ -55,7 +55,7 @@ satisfied by these curvature 2-forms.
 
 We may reformulate the above identities as follows.
 
-For $\mathfrak{g}$ a [[Lie algebra]] we have naturally associated two [[dg-algebra]]s: the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ and the [[Weil algebra]] $W(\mathfrak{g})$.
+For $\mathfrak{g}$ a [[Lie algebra]] we have naturally associated two [[dg-algebra | dg-algebras]]: the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ and the [[Weil algebra]] $W(\mathfrak{g})$.
 
 The dg-algebra morphisms 
 
@@ -63,7 +63,7 @@ $$
   \Omega^\bullet(U) \leftarrow W(\mathfrak{g}) : (A,F_A)
 $$
 
-are precisely in bijection with [[Lie-algebra valued 1-form]]s as follows: the [[Weil algebra]] is of the form
+are precisely in bijection with [[Lie-algebra valued 1-form | Lie-algebra valued 1-forms]] as follows: the [[Weil algebra]] is of the form
 
 $$
   W(\mathfrak{g}) = \wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1]), d_{W(\mathfrak{g})}  
@@ -137,7 +137,7 @@ $$
   \,.
 $$
 
-Since $A$ is a [[homomorphism]] of [[dg-algebra]]s, this satisfies
+Since $A$ is a [[homomorphism]] of [[dg-algebra | dg-algebras]], this satisfies
 
 $$
   d_{dR} F_A  + A(d_{W(\mathfrak{g})}(-)) = 0
