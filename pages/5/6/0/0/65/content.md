@@ -91,35 +91,37 @@ We had some blog discussion about this at
 
 * [[2-trivial model structure]]
 
+
 ## References
  {#References}
 
-The canonical model structure for 1-categories was known to experts for some time before being written down formally (this is the origin of the adjective "folk").
+The [[canonical model structure on categories]] was known to experts for some time before being written down formally (this is the origin of the adjective "folk", as in "[[folklore]]").
 
-The canonical model structure for 1-groupoids is briefly described in section 5 of
+The [[canonical model structure on groupoids]] is claimed (but not proven)
 
-* {#Anderson78} D.W. Anderson, _Fibrations and Geometric Relations_, Bulletin of the AMS, Vol. 84: 765-788, 1978.
+* {#Anderson78} [[Donald W. Anderson]], p. 783 (12 of 37) in: *Fibrations and geometric realization*,  Bull. Amer. Math. Soc. **84** 5 (1978) 765-788 &lbrack;[euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139)&rbrack;
 
-It was apparently first published (for [[internal category|categories internal]] to a [[Grothendieck topos]]) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
+A published proof of this and the [[canonical model structure on categories]], in the further generality of [[internal category|categories internal]] to a [[Grothendieck topos]] (hence of [[2-sheaves]]) is due to
 
-A more elementary writeup of the proof is in
+* {#JoyalTierney91} [[André Joyal]], [[Myles Tierney]], Thm. 2 (p. 221) *Strong stacks and classifying spaces*, in: *Category Theory* Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
 
+and more elementary proofs for the plain case (internal to [[Set]]) are given in
 
-* [[Charles Rezk]], *A model category for categories*, 1996 ([dvi](http://www.math.uiuc.edu/~rezk/cat-ho.dvi), [[Rezk_ModelCategoryForCategories.pdf:file]])
+* [[Charles Rezk]], *A model category for categories* (1996) &lbrack;[dvi](http://www.math.uiuc.edu/~rezk/cat-ho.dvi), [[Rezk_ModelCategoryForCategories.pdf:file]]&rbrack;
 
-A general [[internalization|internal]] version relative to a Grothendieck [[coverage]] can be found in
+* [[André Joyal]], _[[joyalscatlab:Model structures on Cat]]_ (2010)
+
+and (for the [[canonical model structure on groupoids|case of groupoids]]) in
+
+* {#Strickland00} [[Neil Strickland]], §6.1 of: _$K(n)$-local duality for finite groups and groupoids_ , Topology **39** 4 (2000) &lbrack;[arXiv:math/0011109](https://arxiv.org/abs/math/0011109), <a href="https://doi.org/10.1016/S0040-9383(99)00031-2">doi:10.1016/S0040-9383(99)00031-2</a>&rbrack;
+
+Further generalization to [[internal category|categories internal]] to [[finitely complete categories]]:
 
 * [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
 
-    
 though it seems that the assumptions in this article apply to ambient categories that are [[semiabelian categories]], but do not apply to ambient categories like [[Top]].
 
-
 A brief summary, together with a generalization when one assumes only weaker versions of the [[axiom of choice]], can be found at _[[folk model structure on Cat]]_.
-
-See also  
-
-* [[Andre Joyal]], _[[joyalscatlab:Model structures on Cat]]_
 
 The [[canonical model structure on 2-categories|canonical model structures for 2-categories and bicategories]] are due to 
 
