@@ -130,6 +130,28 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 Hence, in particular, $Cat_{can}$ is a [[category of fibrant objects]] and a [[cofibration category]].
 \end{remark}
 
+\begin{remark}\label{TheAcyclicFibrations}
+**(acyclic (co)fibrations)**
+\linebreak
+In the canonical model structure (of Prop. \ref{ExistenceOfTheCanonicalModelStructure}):
+
+
+* the [[acyclic cofibrations]] are precisely those functors which are
+
+  1. [[essentially surjective functor|essentially surjective]]
+
+  1. [[full subcategory]]-inclusions;
+
+* the [[acyclic fibrations]] are precisely those functors which are 
+
+  1. [[surjective on objects functor|surjective on objects]],
+
+  1. [[fully faithful functor|fully faithful]].
+
+  Namely, being [[equivalences of categories]] makes them be [[essentially surjective functor|essentially surjective]] and [[fully faithful functor|fully faithful]] ([this Prop.](equivalence+of+categories#ViaSplitEssentiallySurjectiveAndFullyFaithful)), but being also [[isofibrations]] then clearly requires them to actually be [[surjective on objects functor|surjective on objects]], which by [[fully faithful functor|fully faithfulness]] is then already sufficient for isofibrancy.  
+
+\end{remark}
+
 \begin{proposition}\label{Properness}
 **(properness)**
 \linebreak
@@ -156,7 +178,7 @@ $$
       \,,
       \\
       \big\{
-        0 \rightrightarrows 0
+        0 \rightrightarrows 1
       \big\}
       &\longrightarrow& \{ 0 \to 1\}
     \end{array}
@@ -177,6 +199,26 @@ $$
 $$
 \end{proposition}
 ([Rezk 1996, Prop. 4.1](#Rezk96))
+\begin{proof}
+  The functors in $I$ are evidently cofibrations. Hence by [this Prop](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP) we need to show that:
+
+1. [[right lifting property|$RLP(I)$]] is the class of [[acyclic fibrations]].
+
+   One sees immediately that:
+
+   1. right lifting against $\varnothing \to \{0\}$ characterizes [[surjective on objects functors]],
+
+   1. right lifting against $\{0\} \sqcup \{1\} \longrightarrow \{ 0 \to 1 \}$ characterizes [[full functors]],
+
+   1. right lifting against $\big\{0 \rightrightarrows 1 \big\}\longrightarrow \{ 0 \to 1\}$ characterizes [[faithful functors]].
+
+   Together this characterizes the acyclic fibrations, by Rem. \ref{TheAcyclicFibrations}.
+
+1. [[right lifting property|$RLP(J)$]] is the class of [[fibrations]].
+
+   But right lifting against $\{0\} \longrightarrow \{0 \xleftrightarrow{\sim} 1\}$ is immediately the condition of path lifting which defines [[isofibrations]].
+
+\end{proof}
 
 \begin{proposition}\label{CartesianMonoidalModelStructure}
 **(cartesian monoidal model structure)**
@@ -263,9 +305,10 @@ But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-on-objects eq
 
 ### Uniqueness of the model structure 
 
-Remarkably:
+Remarkably:[^fine]
+
 \begin{proposition}\label{Uniqueness}
-The model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is the unique model structure on $Cat$[^fine] whose [[weak equivalences]] are the usual[[equivalences of categories]]. 
+The model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is the unique model structure on $Cat$ whose [[weak equivalences]] are the usual [[equivalences of categories]]. 
 \end{proposition}
 
 This result justifies the term "canonical". 
