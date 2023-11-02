@@ -21,8 +21,7 @@
 ## The canonical model structure on $Cat$
 
 The [[canonical model structure]] on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[canonical model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors. See the
-_[[joyalscatlab:Model structures on Cat|Catlab]]_ for the theory 
-of this structure. 
+_[[joyalscatlab:Model structures on Cat|Catlab]]_ for the theory of this structure. 
 
 Assuming the [[axiom of choice]], the canonical model is the _unique_ model structure on $Cat$ such that the weak equivalences are categorical equivalences (thus justifying the word 'canonical').  It is different from the [[Thomason model structure]], where weak equivalences are functors that give a weak equivalence of simplicial sets when we take the [[nerve]].
 
@@ -72,13 +71,17 @@ This completes the proof.
 \end{proof}
 
 \begin{remark}
-The two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[algebraic weak factorization system]]s produced from Richard Garner's modified small object argument).
+The two factorizations constructed above are in fact [[functorial factorizations]]. 
+ 
+While this model structure is [[cofibrantly generated model category|cofibrantly generated]] (Prop. \ref{CofibrantGeneration}), the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[algebraic weak factorization systems]] produced by the [[algebraic small object argument]].
 \end{remark}
+
+
 
 
 ### Without choice
 
-In the absence of the [[axiom of choice]], one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of [[generalized morphism]]: a span $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
+In the absence of the [[axiom of choice]], one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of generalized morphism: a [[span]] $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
 
 If there is to be such a model structure, however, then since generalized morphisms between fibrant-and-cofibrant objects are all represented by ordinary ones, there must exist "cofibrant categories" and "fibrant categories" such that every anafunctor between fibrant-and-cofibrant categories is equivalent to an honest functor, and every category can be replaced by a fibrant and cofibrant one.  It seems unlikely that this would be true without *any* choice-like axioms, but notably weaker axioms than full AC do suffice.
 
@@ -127,18 +130,141 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 Hence, in particular, $Cat_{can}$ is a [[category of fibrant objects]] and a [[cofibration category]].
 \end{remark}
 
-\begin{corollary}
+\begin{proposition}\label{Properness}
+**(properness)**
+\linebreak
  The canonical model structure (Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is a [[proper model category]].
-\end{corollary}
+\end{proposition}
 \begin{proof}
   In view of Rem. \ref{CategoryOfBifibrantObjects} this follows by [this Prop.](proper+model+category#AllObjectsFibrantImpliesRightProper).
 \end{proof}
+
+\begin{proposition}\label{CofibrantGeneration}
+**(cofibrant generation)**
+\linebreak
+  The canonical model structure $Cat_{can}$ (Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is [[cofibrantly generated model category|cofibrantly generated]].
+The sets $I$ of generating cofibrations and $J$ of generating acyclcic cofibrations may be taken to consist of the following evident functors:
+$$  
+  I
+  \;\coloneqq\;
+  \left\{
+    \begin{array}{ccc}
+      \varnothing &\longrightarrow& \{ 0 \}
+      \,,
+      \\
+      \{0\} \sqcup \{1\} &\longrightarrow& \{ 0 \to 1 \}
+      \,,
+      \\
+      \big\{
+        0 \rightrightarrows 0
+      \big\}
+      &\longrightarrow& \{ 0 \to 1\}
+    \end{array}
+  \right\}
+  \,,
+$$
+$$
+ J
+ \;\coloneqq\;
+ \left\{
+   \array{
+     \{ 0 \} 
+      &\longrightarrow& 
+   \{ 0 \xleftrightarrow{\sim} 1\}
+   }
+ \right\} 
+  \,.
+$$
+\end{proposition}
+([Rezk 1996, Prop. 4.1](#Rezk96))
+
+\begin{proposition}\label{CartesianMonoidalModelStructure}
+**(cartesian monoidal model structure)**
+\linebreak
+  The canonical model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is a [[cartesian monoidal model category]].
+\end{proposition}
+([Rezk 1996, Thm. 5.1](#Rezk96), [Joyal 2010, Thm. 1.3](#Joyal10))
+\begin{proof}
+Since forming [[product categories]] with a fixed category $\mathcal{C}$ evidently preserves [[equivalence of categories|equivalences of categories]] and hence the canonical weak equivalences, the [unit axiom](monoidal+model+category#UnitAxiom) follows immediately. It remains to check the [pushout-product axiom](monoidal+model+category#PushoutProductAxiom).
+
+
+So consider a diagram in $Cat$ of this form:
+\begin{tikzcd}
+  & 
+  \mathcal{C} \times \mathcal{D}
+  \ar[
+    dl,
+    "{ F \times \mathrm{Id} }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ \mathrm{Id} \times G }"
+  ]
+  \ar[
+    dd,
+    phantom,
+    "{ \scalebox{.7}{ (po) } }"
+  ]
+  \\
+  \mathcal{C}' \times \mathcal{D}
+  \ar[
+    ddr,
+    "{ \mathrm{Id} \times G }"{swap}
+  ]
+  \ar[
+    dr,
+    "{ q_l }"{swap}
+  ]
+  &&
+  \mathcal{C} \times \mathcal{D}'
+  \ar[
+    ddl,
+    "{ F \times \mathrm{Id} }"
+  ]
+  \ar[
+    dl,
+    "{ q_r }"
+  ]
+  \\
+  &
+  \mathcal{C}' \!\times\! \mathcal{D}
+  \underset{ 
+    \mathclap{
+      \mathcal{C} \times \mathcal{D}
+    }
+  }{\coprod}
+  \mathcal{C} \!\times\! \mathcal{D}'
+  \ar[
+    d, 
+    dashed, 
+    "{ F \widehat \times G }"{description}
+  ]
+  \\
+  &
+  \mathcal{C}' \times \mathcal{D}'
+\end{tikzcd}
+
+First we need to show that the [[pushout-product]] $F \widehat{\times} G$ is a cofibration if both $F$ and $G$ are. By the definition of cofibrations, this means to show that on objects $(F \widehat{\times} G)_0$ is an injective map if both $F_0$ and $G_0$ are injective maps.
+
+Now, observe that the [[underlying]]-object functor
+$$
+  (-)_0
+    \,\colon\,
+  Cat \to Set
+$$
+[[preserved limit|preserves]] both [[limits]] and [[colimits]] and hence in particular preserves [[pushout products]]. Therefore the first statement we are after is that pushout-products of injections of sets are themselves injections, and that is the case, by [this example](pushout-product#InjectionsOfSets).
+
+Second, if $F$ is in addition a weak equivalence, we need to show that then also $F \widehat{\times} G$ is a weak equivalence. 
+
+But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-on-objects equivalence of categories, hence an [[acyclic cofibration]] in the canonical model structure. By the model category properties, it follows that also the [[pushout]] $q_r$ (in the above diagram) is an acyclic cofibration, hence in particular a weak equivalence; and by [[2-out-of-3]] applied to the bottom right triangle in the above diagram it follows that with $F \times Id$ and $q_r$ also $F \widehat{\times} G$ is a weak equivalence.
+\end{proof}
+
 
 
 ### Uniqueness of the model structure 
 
 Remarkably:
-\begin{proposition}
+\begin{proposition}\label{Uniqueness}
 The model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is the unique model structure on $Cat$[^fine] whose [[weak equivalences]] are the usual[[equivalences of categories]]. 
 \end{proposition}
 
@@ -146,7 +272,7 @@ This result justifies the term "canonical".
 
 The following **proof** is adapted (with minor changes) from [Schommer-Pries 2012](#Schommer-Pries12). See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
 
-[^fine]: Along similar lines, one can [prove](https://www.matem.unam.mx/~omar/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on [[Set|$Set$]]. 
+[^fine]: Along similar lines, one can [prove](https://www.matem.unam.mx/~omar/notes/modelcatsets.html) (assuming [[axiom of choice|AC]]) that there are nine -- count 'em, nine -- Quillen model structures on [[Set|$Set$]]. 
 
 Let $\mathbf{M}$ denote any model structure on $Cat$ whose weak equivalences are categorical equivalences. We will prove that $\mathbf{M}$-fibrations are exactly canonical fibrations and that $\mathbf{M}$-cofibrations are exactly canonical cofibrations. 
 
@@ -250,87 +376,6 @@ _\mathllap{acyc.\; cof.} \downarrow & & \downarrow _\mathrlap{fib.} \\
 and the existence of a lift $1 \to \hat{C}$ filling in this diagram means that $\phi$ is an identity. In particular, every automorphism of $\hat{C}$ is an identity; since $C \simeq \hat{C}$, the same is true of $C$. 
 =-- 
 
-### Cartesian monoidal model structure
- {#CartesianMonoidalModelStructure}
-
-\begin{proposition}
-  The canonical model structure $Cat_{can}$ (from Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is a [[cartesian monoidal model category]].
-\end{proposition}
-([Joyal 2010, Thm. 1.3](#Joyal10))
-\begin{proof}
-Since forming [[product categories]] with a fixed category $\mathcal{C}$ evidently preserves [[equivalence of categories|equivalences of categories]] and hence the canonical weak equivalences, the [unit axiom](monoidal+model+category#UnitAxiom) follows immediately. It remains to check the [pushout-product axiom](monoidal+model+category#PushoutProductAxiom).
-
-
-So consider a diagram in $Cat$ of this form:
-\begin{tikzcd}
-  & 
-  \mathcal{C} \times \mathcal{D}
-  \ar[
-    dl,
-    "{ F \times \mathrm{Id} }"{swap}
-  ]
-  \ar[
-    dr,
-    "{ \mathrm{Id} \times G }"
-  ]
-  \ar[
-    dd,
-    phantom,
-    "{ \scalebox{.7}{ (po) } }"
-  ]
-  \\
-  \mathcal{C}' \times \mathcal{D}
-  \ar[
-    ddr,
-    "{ \mathrm{Id} \times G }"{swap}
-  ]
-  \ar[
-    dr,
-    "{ q_l }"{swap}
-  ]
-  &&
-  \mathcal{C} \times \mathcal{D}'
-  \ar[
-    ddl,
-    "{ F \times \mathrm{Id} }"
-  ]
-  \ar[
-    dl,
-    "{ q_r }"
-  ]
-  \\
-  &
-  \mathcal{C}' \!\times\! \mathcal{D}
-  \underset{ 
-    \mathclap{
-      \mathcal{C} \times \mathcal{D}
-    }
-  }{\coprod}
-  \mathcal{C} \!\times\! \mathcal{D}'
-  \ar[
-    d, 
-    dashed, 
-    "{ F \widehat \times G }"{description}
-  ]
-  \\
-  &
-  \mathcal{C}' \times \mathcal{D}'
-\end{tikzcd}
-
-First we need to show that the [[pushout-product]] $F \widehat{\times} G$ is a cofibration if both $F$ and $G$ are. By the definition of cofibrations, this means to show that on objects $(F \widehat{\times} G)_0$ is an injective map if both $F_0$ and $G_0$ are injective maps.
-
-Now, observe that the [[underlying]]-object functor
-$$
-  (-)_0
-    \,\colon\,
-  Cat \to Set
-$$
-[[preserved limit|preserves]] both [[limits]] and [[colimits]] and hence in particular preserves [[pushout products]]. Therefore the first statement we are after is that pushout-products of injections of sets are themselves injections, and that is the case, by [this example](pushout-product#InjectionsOfSets).
-
-Second, if $F$ is in addition a weak equivalence, we need to show that then also $F \widehat{\times} G$ is a weak equivalence. 
-
-But with $F$ certainly also $F \times \mathrm{Id}$ is an injective-on-objects equivalence of categories, hence an [[acyclic cofibration]] in the canonical model structure. By the model category properties, it follows that also the [[pushout]] $q_r$ (in the above diagram) is an acyclic cofibration, hence in particular a weak equivalence; and by [[2-out-of-3]] applied to the bottom right triangle in the above diagram it follows that with $F \times Id$ and $q_r$ also $F \widehat{\times} G$ is a weak equivalence.
-\end{proof}
 
 
 ### Relation with bisimplicial sets
@@ -357,6 +402,8 @@ Original discussion in the generality of [[internal category|categories internal
 * {#JoyalTierney91} [[André Joyal]], [[Myles Tierney]], Thm. 4 (p. 232) of: *Strong stacks and classifying spaces*, in: *Category Theory* Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
 
 More on the ordinary case (categories internal to [[Sets]]):
+
+* {#Rezk96} [[Charles Rezk]], *A model category for categories* (1996) &lbrack;[[Rezk_ModelCategoryForCategories.pdf:file]]&rbrack;
 
 * {#Joyal10} [[André Joyal]], *[[joyalscatlab:Model structures on Cat]]* (2010)
 
