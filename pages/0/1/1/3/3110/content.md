@@ -323,17 +323,21 @@ and it can be shown that the canonical model structure on Cat is the model struc
 
 ## References
 
+Original discussion in the generality of [[internal category|categories internal to]] [[topoi]] (hence of [[2-sheaves]]):
+
 * {#JoyalTierney91} [[André Joyal]], [[Myles Tierney]], Thm. 4 (p. 232) of: *Strong stacks and classifying spaces*, in: *Category Theory* Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
 
-  > (in the generality of [[internal category|categories internal to]] [[topoi]], hence of [[2-sheaves]])
+More on the ordinary case (categories internal to [[Sets]]):
 
 * {#Joyal10} [[André Joyal]], *[[joyalscatlab:Model structures on Cat]]* (2010)
 
+and proof of the uniqueness of the model structure:
+
 * {#Schommer-Pries12} [[Chris Schommer-Pries]], *[The canonical model structure on Cat](https://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/)*, Secret Blogging Seminar (2012)
 
-Discussion of the [[canonical model structure]] on categories of [[internal categories]]:
+Discussion for [[internal categories]] more generally in [[finitely complete categories]]:
 
-* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
+* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories **15** 3 (CT2004) 66-94 &lbrack;[tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)&rbrack;
 
 [[!redirects canonical model structure on Cat]]
 [[!redirects canonical model structure on categories]]
