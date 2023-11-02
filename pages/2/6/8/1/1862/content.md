@@ -31,7 +31,7 @@ This way vectorial bundles lend themselves to the description of [[topological K
 
 For $X$ a [[topological space]], the [[category]] $VectrBund(X)$ of **vectorial bundles** on $X$ has
 
-* as [[objects]] $(E \stackrel{h}{\to} E)$ [[finite number|finite]] [[rank of a vector bundle|rank]] Hermitean $\mathbb{Z}_2$-graded [[vector bundle]]s $E\to X$ equipped with a self-adjoint [[endomorphism]] $h$ of odd degree. In [[matrix calculus]]
+* as [[objects]] $(E \stackrel{h}{\to} E)$ [[finite number|finite]] [[rank of a vector bundle|rank]] Hermitean $\mathbb{Z}_2$-graded [[vector bundle | vector bundles]] $E\to X$ equipped with a self-adjoint [[endomorphism]] $h$ of odd degree. In [[matrix calculus]]
 
   $$
     E = \left( 
