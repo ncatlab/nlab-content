@@ -26,7 +26,7 @@ On the [[AGT correspondence]]:
 
 * {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
-* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_ ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
+* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation_, Advances in Mathematics __234__ (2013) 239--403 ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
 
 On the [[M5-brane elliptic genus]]:
 
