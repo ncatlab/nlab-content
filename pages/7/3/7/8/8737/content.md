@@ -43,8 +43,19 @@ For $F_A = 0$ the nonabelian Stokes theorem may be regarded as proving that the 
 
 ## References
 
-For instance theorem 3.4 in 
+* Robert L. Karp, Freydoon Mansouri, Jung S. Rno, *Product Integral Formalism and Non-Abelian Stokes Theorem*, J. Math. Phys. **40** (1999) 6033-6043 &lbrack;[arXiv:hep-th/9910173](https://arxiv.org/abs/hep-th/9910173), [doi:10.1063/1.533068](https://doi.org/10.1063/1.533068)&rbrack;
 
-* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors vs. Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
+* R. L. Karp, F. Mansouri, J. S. Rno, *Product Integral Representations of Wilson Lines and Wilson Loops, and Non-Abelian Stokes Theorem*, Turk. J. Phys. **24** (2000) 365-384 &lbrack;[arXiv:hep-th/9903221](https://arxiv.org/abs/hep-th/9903221), [journal page](https://search.trdizin.gov.tr/tr/yayin/detay/67090)&rbrack;
+
+* Boguslaw Broda, *Non-Abelian Stokes theorem in action*, in *Modern Nonlinear Optics* Part 2, Wiley (2001) 429-468 &lbrack;[arXiv:math-ph/0012035](https://arxiv.org/abs/math-ph/0012035), [ISBN:978-0-471-46612-3](https://www.wiley.com/en-ae/Modern+Nonlinear+Optics,+Volume+119,+Part+2,+2nd+Edition-p-9780471466123)&rbrack;
+
+In the context of [[higher parallel transport]] in [[principal 2-bundles with connection]]:
+
+* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], Theorem 3.4 in: *Smooth Functors vs. Differential Forms*, Homology, Homotopy Appl. **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [euclid:hha/1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack;
+
+See also:
+
+* Seramika Ariwahjoedi, Freddy Permana Zen, *Alternative Derivation of the Non-Abelian Stokes Theorem in Two Dimensions*, Symmetry **2023** 15 11 (2000) &lbrack;[doi:10.3390/sym15112000]( https://doi.org/10.3390/sym15112000)&rbrack;
+
 
 
