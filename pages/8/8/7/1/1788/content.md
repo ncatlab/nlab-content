@@ -1,4 +1,8 @@
 
+$\rightrightarrows$
+
+$\xleftrightarrow{\sim}$
+
 \begin{proposition}
   The canonical model structure $Cat_{can}$ is [[cartesian monoidal model category]].
 \end{proposition}
