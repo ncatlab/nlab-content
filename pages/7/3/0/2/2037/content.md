@@ -401,6 +401,27 @@ The diagram on the right shows a basis of [[imaginary number|imaginary]] [[octon
 Next, the CD-double of the [[octonions]] is the [[sedenions]] $\mathbb{S}$, etc. , followed by further algebras which are not [[division algebras]].  
 All of these algebras are [[power-associative algebra|power-associative]], [[flexible algebra|flexible]], and unital, and have all [[inverse elements]]; the subalgebra with $\overline{x} = x$ is always just $\mathbb{R}$.
 
+## Cayley-Dickson-Albert construction
+
+The Cayley-Dickson construction described above was slightly generalized in ([Section 5 of Albert (1942)](#Alb42CDA)), where the multiplication is further changed by a parameter $\gamma$ in the ground field. This process constructs an algebra $A^{\gamma}$ starting from a unital algebra $A$ of order $n$ over a field $F$ endowed with an [[involution]] $J:A\to A$ over $F$ such that for all $x\in A$:
+
+* $x+ J(x) \in F$,
+* $xJ(x)=J(x)x\in F$.
+
+To construct $A^{\gamma}$, one chooses a parameter $\gamma\in F$, and on the vector space $A\oplus A$ one defines a product
+
+$$
+(g_1 ,g_2 )\cdot (h_1, h_2 ) = (g_1 h_1 + \gamma J(h_2) g_2 , h_2 g_1 +g_2 J(h_1 ))
+$$
+
+and an involution $K$ on $A^{\gamma}$ as
+
+$$
+K((g_1, g_2 ))= (J(g_1) , -g_2)
+$$
+
+In particular, for $F=\mathbb{R}$ this process allows to get the [*split-*](https://ncatlab.org/nlab/show/composition%20algebra#split_composition_algebras) variants of the real division algebras.
+
 
 ## Related concepts 
 
@@ -445,7 +466,9 @@ More:
 * Daniel K. Biss, [[Daniel Christensen]], [[Daniel Dugger]], [[Daniel Isaksen]], _Eigentheory of Cayley-Dickson algebras_, 
 Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/abs/0905.2987))
 
+On the generalization of the Cayley-Dickson construction:
 
+* [[Abraham Adrian Albert]], *Quadratic forms permitting composition,* Ann. of Math. (2) **43** (1942), 161–177. ([doi](https://doi.org/10.2307/1968887))
 
 
 
