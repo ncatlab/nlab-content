@@ -93,6 +93,11 @@ Simulation of [[Ising anyons]] in a lattice of ordinary [[superconductor|superco
 
 [[!include braid group representations -- references]]
 
+See also:
+
+* Yuanjie Ren, [[Peter Shor]], *Topological quantum computation assisted by phase transitions* \[<a href="https://arxiv.org/abs/2311.00103">arXiv:2311.00103</a>\]
+
+
 
 \linebreak
 
