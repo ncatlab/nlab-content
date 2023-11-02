@@ -84,6 +84,8 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 * [[quaternion group]], [[quaternionic unitary group]]
 
+* [[tessarines]]
+
 ## References
 
 Review
