@@ -34,7 +34,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. (submitted for publication)
 
-* _Homotopy equivalence of topological categories_ (2009/2022) arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). (submitted for publication)
+* _Homotopy types of topological stacks of categories_ (2009/2022) arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). (submitted for publication)
 
 
 
