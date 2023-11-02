@@ -293,6 +293,7 @@ The categories of models of sketches are equivalently the [[accessible categorie
 \label{LimitSketchableCategoriesAreLocallyPresentable}
 The categories of models of limit-sketches are the [[locally presentable categories]].
 \end{proposition}
+([Adámek & Rosický 1994, Cor. 1.52](#AdámekRosický49))
 
 +-- {: .num_prop }
 ###### Remark
@@ -300,7 +301,7 @@ The categories of models of limit-sketches are the [[locally presentable categor
 From the discussion there we have that
 
 * an [[accessible category]] is equivalently:
-  * a full subcategory of a presheaf category that's closed under $\kappa$-filtered colimits for some $\kappa$
+  * a [[full subcategory]] of a [[presheaf category]] that's closed under $\kappa$-filtered colimits for some $\kappa$
   * the category of models of a sketch
 
 * a [[locally presentable category]] is equivalently:
@@ -419,7 +420,7 @@ and with emphasis on the relation to [[locally presentable category|locally pres
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]], Chapter 3 onwards in: _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
 
-* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], Def. 1.49 onwards in: _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* {#AdámekRosický49} [[Jiří Adámek]], [[Jiří Rosický]], Def. 1.49 onwards in: _[[Locally presentable and accessible categories]]_, Cambridge University Press (1994)
 
 
 
