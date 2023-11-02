@@ -37,9 +37,11 @@ For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small cat
 \label{ClassesOfMorphisms}
 Declare a functor to be:
 
-* a [[weak equivalence]] if it is an [[equivalence of categories]], or equivalently if it is [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
+* a [[weak equivalence]] if it is an [[equivalence of categories]], 
 
-* a [[cofibration]] if it is [[injective-on-objects functor|injective on objects]], i.e. an [[isocofibration]].
+  (equivalently: [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]]),
+
+* a [[cofibration]] if it is [[injective-on-objects functor|injective on objects]], i.e. an [[isocofibration]],
 
 * a [[fibration]] if it is an [[isofibration]].
 
@@ -105,6 +107,33 @@ The existence of this model structure implies, in particular, that under COSHEP 
 Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's [[axiom of small cardinality selection]] (which he uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
 
 ## Properties
+
+### Basic properties
+ {#BasicProperties}
+
+\begin{remark}\label{CategoryOfBifibrantObjects}
+**(category of bifibrant objects)**
+\linebreak
+  It is obvious that all objects in the canonical model structure (Prop. \ref{ExistenceOfTheCanonicalModelStructure}) are [[bifibrant object|bifibrant]], i.e.:
+
+* both [[cofibrant object|cofibrant]] 
+
+  since a functor $\varnothing \to \mathcal{C}$ from the [[empty category]] is evidently an [[injective function]] $\varnothing \to Obj(\mathcal{C})$ on objects,
+
+* and [[fibrant objects|fibrant]], 
+
+  since a functor $\mathcal{C} \to \ast$ to the [[terminal category]] is evidently an [[isofibration]] (since the only morphism in the terminal category is an [[identity morphism]]).
+
+Hence, in particular, $Cat_{can}$ is a [[category of fibrant objects]] and a [[cofibration category]].
+\end{remark}
+
+\begin{corollary}
+ The canonical model structure (Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is a [[proper model category]].
+\end{corollary}
+\begin{proof}
+  In view of Rem. \ref{CategoryOfBifibrantObjects} this follows by [this Prop.](proper+model+category#AllObjectsFibrantImpliesRightProper).
+\end{proof}
+
 
 ### Uniqueness of the model structure 
 
