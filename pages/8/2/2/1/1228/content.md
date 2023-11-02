@@ -24,7 +24,7 @@
 
 ## Idea
 
-What is sometimes called the _co-Yoneda lemma_ is a basic fact about [[presheaves]] (a basic fact of [[topos theory]]): it says that every [[presheaf]] is a [[colimit]] of [[representable functor|representables]] and more precisely that it is the "colimit over itself of all the representables contained in it".
+What is sometimes called the _co-Yoneda lemma_ or _density formula_ is a basic fact about [[presheaves]] (a basic fact of [[topos theory]]): it says that every [[presheaf]] is a [[colimit]] of [[representable functor|representables]] and more precisely that it is the "colimit over itself of all the representables contained in it".
 
 One might think of this as related by [[duality]] to the [[Yoneda lemma]], hence the name.
 
@@ -287,12 +287,32 @@ of morphisms on elements of the presheaf by pullback.
 
 =--
 
+## Ninja Yoneda Lemma
+In [this MO answer](https://mathoverflow.net/questions/20445/coend-computation/20451#20451), [[Tom Leinster]] referred to the co-Yoneda lemma as *ninja Yoneda lemma*, a name that caught on in [[applied category theory|ACT]] circles.
+In ([Loregian '21](#Lor21), , Proposition 2.2.1), the following general version of the co-Yoneda lemma is given as *ninja Yoneda lemma*:
+
+\begin{proposition}
+For every functor $K: \mathcal{C}^{\mathrm{op}} \to \mathbf{Set}$ and $H: \mathcal{C} \to \mathbf{Set}$, we have the following natural isomorphisms of functors:
+$$
+K \cong \int^C KC \times \mathcal{C}(-, C),
+$$
+$$
+H \cong \int^C HC \times \mathcal{C}(C,-),
+$$
+as well as
+$$
+K \cong \int_C \mathbf{Set}(\mathcal{C}(C, -), KC),
+$$
+$$
+H \cong \int_C \mathbf{Set}(\mathcal{C}(-, C), HC).
+$$
+\end{proposition}
+
 
 ## MacLane's co-Yoneda lemma
  {#MacLanesCoYonedaLemma}
 
-In a brief uncommented exercise on [MacLane, p. 62](#MacLane)  
-the following statement, which is attributed to Kan, is called the **co-Yoneda lemma**.
+In a brief uncommented exercise on [MacLane, p. 62](#MacLane) the following statement, which is attributed to Kan, is called the **co-Yoneda lemma**.
 
 
 For $D$ a [[category]], [[Set]] the [[category]] of [[set]]s, $K : D \to Set$ a [[functor]], let $(* \darr K)$ be the [[comma category]] of elements $x \in K d$, let $\Pi: (* \darr K) \to D$ be the projection $(x \in K d) \mapsto d$ and let for each $a \in D$  the functor $\Delta_a: (* \darr K) \to D$ be the diagonal functor sending everything to the constant value $a$. 
@@ -376,10 +396,16 @@ The [co-Yoneda lemma in the sense of MacLane](#MacLanesCoYonedaLemma) appears as
  
 where it is attributed to [[Daniel Kan]].
 
+Loregian popularized the co-Yoneda lemma as *ninja Yoneda lemma* in his book on [[coend|coend calculus]]:
+
+* {#Lor21} [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
+
 
 [[!redirects Coyoneda lemma]]
 [[!redirects coYoneda lemma]]
 [[!redirects co-yoneda lemma]]
 [[!redirects coyoneda lemma]]
+[[!redirects density formula]]
+[[!redirects ninja Yoneda lemma]]
 
 [[!redirects enriched co-Yoneda lemma]]
