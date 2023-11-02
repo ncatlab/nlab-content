@@ -1198,7 +1198,7 @@ We discuss (Prop. \ref{ExistenceOfMonoidalModelStructure} below) induced [[monoi
 
 \begin{proposition}
 \label{ExistenceOfMonoidalModelStructure}
-  For $\mathcal{G} \in Grp(sSet)$ and $\mathbf{C}$ a [[combinatorial simplicial model category]] with compatible  [[closed monoidal category|closed]] [[monoidal enriched category]]-[[structure]], i.e. with an [[sSet]]-[[enriched functor]]  $(-)\otimes(-)$, the the objectwise [[tensor product]] 
+  For $\mathcal{G} \in Grp(sSet)$ and $\mathbf{C}$ a [[combinatorial simplicial model category]] with compatible  [[closed monoidal category|closed]] [[monoidal enriched category]]-[[structure]], i.e. with an [[sSet]]-[[enriched functor]]  $(-)\otimes(-)$, the objectwise [[tensor product]] 
 $$
   \mathcal{G}Act(\mathbf{C})
   \times
@@ -1309,9 +1309,9 @@ $$
 $$
 But now using
 
-1. that the underlying map of the previous [[acyclic fibration]] is still an acyclic fibration in $\mathbf{C}$, by definition of the projective/Borel model strcuture,
+1. that the underlying map of the previous [[acyclic fibration]] is still an acyclic fibration in $\mathbf{C}$, by definition of the projective/Borel model structure,
 
-1. that the underlying maps of the previous [[cofibrations]] are still cofibrations in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat)
+1. that the underlying maps of the previous [[cofibrations]] are still cofibrations in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat),
 
 1. the [[pullback-power axiom]] satisfied in the [[monoidal model category]] $\mathbf{C}$
 
