@@ -11,7 +11,7 @@ One proposed application is to resolve paradoxes of Sorites type. For example, t
 
 To be properly considered "a logic", fuzzy logic should be developed into a full-fledged deductive system (with rules of inference and so on), but historically this has been a source of difficulty. See the [SEP](#SEP) for a description of what has been achieved on this front. 
 
-It may also be questioned whether it makes sense to have degrees of certainty be totally ordered, as $[0, 1]$ is. Goguen for example allows consideration of frames or locales $L$ more general than $[0, 1]$, and presumably the same consideration would extend to quantale structures more general than those supported on $[0, 1]$. For some analysis of Goguen's framework, see [Barr(1986)](#Barr). 
+It may also be questioned whether it makes sense to have degrees of certainty be totally ordered, as $[0, 1]$ is. Goguen for example allows consideration of frames or locales $L$ more general than $[0, 1]$, and presumably the same consideration would extend to quantale structures more general than those supported on $[0, 1]$. For some analysis of Goguen's framework, see [Barr 1986](#Barr86). 
 
 ## Examples
 
@@ -42,6 +42,14 @@ Many examples of fuzzy logics are t-norm fuzzy logics, including [[basic fuzzy l
 
 * Wikipedia, [Fuzzy logic](https://en.wikipedia.org/wiki/Fuzzy_logic) 
 
-* {#Barr} [[Michael Barr]], Fuzzy set theory and topos theory, Canad. Math. Bull. Vol. 29 (4), 1986. [(pdf)](https://www.math.mcgill.ca/barr/papers/fuzzy.pdf)
+
+In relation to [[topos theory]]:
+
+* {#Barr86} [[Michael Barr]], *Fuzzy set theory and topos theory*, Canad. Math. Bull. **29** 4 (1986) 501-508 &lbrack;[doi:10.4153/CMB-1986-079-9](https://doi.org/10.4153/CMB-1986-079-9), [pdf](https://www.math.mcgill.ca/barr/papers/fuzzy.pdf), [[Barr-FuzzySetToposTheory.pdf:file]]&rbrack;
+
+In relation to [[linear logic]]:
+
+* [[Michael Barr]], *Fuzzy models of linear logic*, Math. Structures Comp. Sci. **6** 3 (1996) 301–312 &lbrack;[doi:10.1017/S096012950000102X](https://doi.org/10.1017/S096012950000102X), [pdf](https://www.math.mcgill.ca/barr/papers/fzymod.pdf), [[Barr-FuzzyLinearLogic.pdf:file]]&rbrack;
+
 
 [[!redirects fuzzy logic]]
