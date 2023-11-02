@@ -19,11 +19,23 @@
 
 #Idea#
 
-(...)
+The analogue of [[Hermitian manifold]] for [[para-complex structure]].
+
+## Definition
+
+\begin{definition}
+An *almost para-Hermitian manifold* $(M,J,\eta)$ is an [[para-complex structure|almost para-complex manifold]] $(M,J)$ endowed with a [[pseudo-Riemannian metric]] $\eta$ of signature $(d,d)$, for $\text{dim}(M)=2d$, such that
+$$
+\eta(J(X),J(Y))=-\eta(X,Y)
+$$
+
+\end{definition}
+
 
 ## Related concepts
 
 * [[Hermitian manifold]]
+* [[para-complex structure]]
 
 ## References
 
