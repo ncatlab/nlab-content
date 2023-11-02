@@ -11,6 +11,6 @@ On [[2d CFT]]:
 
 On [[non-perturbative effects]] and [[Stokes phenomena]] in [[topological string]] [[string scattering amplitude|amplitudes]]:
 
-* Murad Alim, Arpan Saha, [[Jörg Teschner]], Iván Tulli, *Mathematical structures of non-perturbative topological string theory: from GW to DT invariants* ([arXiv:2109.06878](https://arxiv.org/abs/2109.06878))
+* Murad Alim, Arpan Saha, [[Jörg Teschner]], Iván Tulli, *Mathematical structures of non-perturbative topological string theory: from GW to DT invariants*,  Communications in Mathematical Physics  __399__ (2023) 1039--1101 ([arXiv:2109.06878](https://arxiv.org/abs/2109.06878) [doi](https://doi.org/10.1007/s00220-022-04571-y))
 
 category: people
