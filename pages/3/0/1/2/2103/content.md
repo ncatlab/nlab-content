@@ -6,7 +6,6 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
 
-
 ## Selected writings
 
 See also:
@@ -18,9 +17,23 @@ On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theo
 
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
+On [[cohomology]] of [[algebra|algebraic]]-[[structures]] (such as [[Lie algebra cohomology]]) via [[monads]] ("triples", cf. *[[monadic cohomology]]* and *[[canonical resolution]]*):
+
+* [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
+* [[Michael Barr]], *Cartan-Eilenberg cohomology and triples*, J. Pure Applied Algebra **112** 3 (1996) 219–238 &lbrack;<a href="https://doi.org/10.1016/0022-4049(95)00138-7">doi:10.1016/0022-4049(95)00138-7</a>, [pdf](https://www.math.mcgill.ca/barr/papers/coho.pdf), [[Barr-CECohomology.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Algebraic cohomology: the early days*, in *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 1–26 &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [pdf](https://www.math.mcgill.ca/barr/papers/algcohom.pdf), [[Barr-AlgebraicCohomology.pdf:file]]&rbrack; 
+
+
 Introducing [[Barr-exact categories]] and [[regular categories]]:
 
 * {#BarrGrilletvonOsdool} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. **236**, Springer (1971) &lbrack;[doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)&rbrack;
+
+On [[topoi]] without [[point of a topos|topos points]]:
+
+* [[Michael Barr]], *Toposes without points*, J. Pure Appl. Algebra **5** (1974) 265-280 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/top.no.pt.pdf), [[Barr-ToposesWithoutPoints.pdf:file]]&rbrack;
+
 
 Introducing [[star-autonomous categories]]:
 
@@ -34,19 +47,27 @@ On [[star-autonomous categories]] and the [[Chu construction]] as [[categorical 
 
 * [[Michael Barr]], *$\ast$-Autonomous categories and linear logic*, Math. Structures Comp. Sci. **1** 2 (1991) 159–178 &lbrack;[doi:10.1017/S0960129500001274](https://doi.org/10.1017/S0960129500001274), [pdf](https://www.math.mcgill.ca/barr/papers/scatll.pdf), [[Barr-AutomomousCatAndLinLogic.pdf:file]]&rbrack;
 
+
+On [[coalgebras for an endofunctor]]:
+
+* [[Michael Barr]], *Terminal coalgebras for endofunctors on sets*,  Theoretical Comp. Sci. **114** (1993) 299–315 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/trmclg.pdf), [[Barr-TerminalCoalgebras.pdf:file]]&rbrack;
+
+
+On [[fuzzy logic]]
+
+in relation to [[topos theory]]:
+
+* [[Michael Barr]], *Fuzzy set theory and topos theory*, Canad. Math. Bull. **29** 4 (1986) 501-508 &lbrack;[doi:10.4153/CMB-1986-079-9](https://doi.org/10.4153/CMB-1986-079-9), [pdf](https://www.math.mcgill.ca/barr/papers/fuzzy.pdf), [[Barr-FuzzySetToposTheory.pdf:file]]&rbrack;
+
+and in relation to [[linear logic]]:
+
+* [[Michael Barr]], *Fuzzy models of linear logic*, Math. Structures Comp. Sci. **6** 3 (1996) 301–312 &lbrack;[doi:10.1017/S096012950000102X](https://doi.org/10.1017/S096012950000102X), [pdf](https://www.math.mcgill.ca/barr/papers/fzymod.pdf), [[Barr-FuzzyLinearLogic.pdf:file]]&rbrack;
+
 On [[category theory]] in [[computer science]], 
 via [[star-autonomous categories]] and [[Chu spaces]]:
 
 * [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
-
-On [[cohomology]] of [[algebra|algebraic]]-[[structures]] (such as [[Lie algebra cohomology]]) via [[monads]] ("triples", cf. *[[modadic cohomology]]* and *[[canonical resolution]]*):
-
-* [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
-
-* [[Michael Barr]], *Cartan-Eilenberg cohomology and triples*, J. Pure Applied Algebra **112** 3 (1996) 219–238 &lbrack;<a href="https://doi.org/10.1016/0022-4049(95)00138-7">doi:10.1016/0022-4049(95)00138-7</a>, [pdf](https://www.math.mcgill.ca/barr/papers/coho.pdf), [[Barr-CECohomology.pdf:file]]&rbrack;
-
-* [[Michael Barr]], *Algebraic cohomology: the early days*, in *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 1–26 &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [pdf](https://www.math.mcgill.ca/barr/papers/algcohom.pdf), [[Barr-AlgebraicCohomology.pdf:file]]&rbrack; 
 
 On [[acyclic objects]] in [[categories of chain complexes]]:
 
