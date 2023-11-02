@@ -1,6 +1,6 @@
 ## Overview
 
-Class $\mathcal{S}$ (for "six") originally denoted a specific class of $N=2$ 4d supersymmetric gauge field theories introduced in [Gaiotto,Moore,Neitzke 2009](#GMN2009). By compactifications, one relates theories of these class with certain superconformal field theories (or, in other formalism, chiral algebras) which are now also said to be of class $S$.
+Class $\mathcal{S}$ (for "six") originally denoted a specific class of $N=2$ 4d supersymmetric gauge field theories introduced in [Gaiotto,Moore,Neitzke 2009](#GMN2009). By compactifications, one relates theories of these class with certain superconformal field theories (or, in other formalism, chiral algebras) which are now also said to be of class $S$ (see at [[AGT correspondence]]).
 
 ## References
 
@@ -23,7 +23,7 @@ $n$Lab also cites [Zafrir2016](orientifold+plane#Zafrir2016).
 
 ### Relations to [[AGT correspondence]]
 
-* Bruno Le Floch, _A slow review of the AGT correspondence_, J. Phys. A: Math. Theor. __55__ (2022) 353002 DOI 10.1088/1751-8121/ac5945
+* Bruno Le Floch, _A slow review of the AGT correspondence_, J. Phys. A: Math. Theor. __55__ (2022) 353002 [doi](https://doi.org/10.1088/1751-8121/ac5945) [arXiv:2006.14025](https://arxiv.org/abs/2006.14025)
 
 category: physics
 
