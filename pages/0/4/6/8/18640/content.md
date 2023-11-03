@@ -13,8 +13,6 @@
 =--
 =--
 
-
-# Thunk-force category
 * table of contents
 {:toc}
 
