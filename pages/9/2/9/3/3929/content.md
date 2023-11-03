@@ -82,11 +82,11 @@ On the [[Australian Category Theory Seminar]]:
 
 On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
 
- * [[G. M. Kelly]], [[I. J. Le Creurer]], _On the monadicity over graphs of categories with limits_, Cahiers de Topologie et Géométrie Différentielle Catégoriques **38** 3 (1997) 179-191 &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1997__38_3_179_0/)&rbrack;
+ * [[G. M. Kelly]], [[I. J. Le Creurer]], _On the monadicity over graphs of categories with limits_, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **38** 3 (1997) 179-191 &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1997__38_3_179_0/)&rbrack;
 
  * [[G. M. Kelly]], [[Stephen Lack]], _On the monadicity of categories with chosen colimits_, Theory and Applications of Categories **7** 7 (2000) 148-170 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/7/n7/7-07abs.html)&rbrack;
 
- * [[Jiri Adamek]], [[G. M. Kelly]], _$M$-Completeness is seldom monadic over graphs_, Theory and Applications of Categories **7** 8 (2000) 171-205 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/7/n8/7-08abs.html)&rbrack;
+ * [[Jiří Adámek]], [[G. M. Kelly]], _$M$-Completeness is seldom monadic over graphs_, Theory and Applications of Categories **7** 8 (2000) 171-205 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/7/n8/7-08abs.html)&rbrack;
 
 ## Further publications
 
