@@ -19,7 +19,7 @@
 
 ## Idea 
 
-An _(alomst) Hermitian manifold_ is a [[smooth manifold]] compatibly equipped with 
+An _(almost) Hermitian manifold_ is a [[smooth manifold]] compatibly equipped with 
 
 * ([[almost complex structure|almost]]) [[complex structure]]
 
