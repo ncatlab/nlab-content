@@ -11,7 +11,7 @@ On [[categorical semantics]] of [[constructive logic]] and [[intuitionistic type
 
 On [[monadic descent]] and the [[Beck-Chevalley condition]]:
 
-* {#Pavlović91} [[Duško Pavlović]], *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://dusko.org/wp-content/uploads/2020/03/1990-Como-BCDE.pdf)&rbrack;
+* {#Pavlović91} [[Duško Pavlović]], *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://dusko.org/wp-content/uploads/2020/03/1990-Como-BCDE.pdf), [[Pavlovic-CategoricalInterpolation.pdf:file]]&rbrack;
 
 and its role in [[categorical logic]]/[[proof theory]]:
 
