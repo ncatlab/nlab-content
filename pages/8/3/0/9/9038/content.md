@@ -19,8 +19,11 @@ $$
 =--
 
 ## Examples
+
 The moduli spaces of [[3d Calabi-Yau object
 |Calabi-Yau threefold]] and $c=9$ $(2,2)$ [[SCFT]]'s both admit special geometries.
+
+The base of any algebraically completely [[integrable system]] has canonically defined special geometry ([Freed 1999](#Freed99)).
 
 ## Related concepts
 
@@ -32,6 +35,7 @@ The moduli spaces of [[3d Calabi-Yau object
 
 * {#Strominger90} [[Andrew Strominger]], _Special geometry_,  Comm. Math. Phys. Volume 133, Number 1 (1990), 163-180. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104201320))
 
+* {#Freed99} [[Daniel Freed]], _Special Kähler manifolds_, Comm. Math. Phys. __203__ (1999) 31--52 [doi](https://doi.org/10.1007/s002200050604)
 
 [[!redirects special geometries]]
 
