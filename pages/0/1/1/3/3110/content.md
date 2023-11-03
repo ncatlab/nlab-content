@@ -165,7 +165,7 @@ In the canonical model structure (of Prop. \ref{ExistenceOfTheCanonicalModelStru
 **(cofibrant generation)**
 \linebreak
   The canonical model structure $Cat_{can}$ (Prop. \ref{ExistenceOfTheCanonicalModelStructure}) is [[cofibrantly generated model category|cofibrantly generated]].
-The sets $I$ of generating cofibrations and $J$ of generating acyclcic cofibrations may be taken to consist of the following evident functors:
+The sets $I$ of generating cofibrations and $J$ of generating acyclic cofibrations may be taken to consist of the following evident functors:
 $$  
   I
   \;\coloneqq\;
