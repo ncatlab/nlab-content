@@ -23,6 +23,10 @@
 
 The notion of a **weak distributive law** between two [[monads]] is a generalisation of that of a [[distributive law]], in which forming the [[composition|composite]] monad requires [[split idempotent|splitting]] an [[idempotent]] on the [[underlying]] [[composition|composite]] [[endofunctor]].
 
+## Related concepts
+
+* [[weak wreath product]]
+
 ## References
 
 See also [[weak bimonad]].
@@ -42,7 +46,7 @@ For the weak _mixed_ distributive law (monad and comonad) version see
 * [[Daniela Petrisan]], Ralph Sarkis. _Semialgebras and weak distributive laws_, Proceedings 37th Conference on 
 Mathematical Foundations of Programming Semantics, EPTCS 351 (2021) 218--241. ([doi:10.4204/EPTCS.351.14](https://doi.org/10.4204/EPTCS.351.14))
 
-An application of weak distributive laws to explain Street's [[weak wreath product]]s (comparable to the treatment of [[wreath]]s in bicategories) and also related bilinear factorization structures
+An application of weak distributive laws to explain [[weak wreath product]]s (comparable to the treatment of [[wreath]]s in bicategories) and also related bilinear factorization structures
 
 * [[Gabriella Böhm]], _On the iteration of weak wreath products_, Theory and Appl. of Categories __26__:2 (2012) 30--59 [arXiv:1110.0652](https://arxiv.org/abs/1110.0652)
 * [[Gabriella Böhm]], [[José Gómez-Torrecillas]], _Bilinear factorization of algebras_, Bull. Belg. Math. Soc. Simon Stevin 20(2): 221-.244 (may 2013) [doi](https://doi.org/10.36045/bbms/1369316541) 
