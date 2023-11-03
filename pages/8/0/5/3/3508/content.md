@@ -86,7 +86,9 @@ An arithmetic analogue is studied in
 
 * Kazuo Okamoto, _Polynomial Hamiltonians associated with Painlevé equations, I_, Proc. Jap. Acad. Ser. A, Math. Sci. __56__:6 [doi](https://10.3792/pjaa.56.264); _II, Differential equations satisfied by polynomial Hamiltonians_, Proc. Jap. Acad. Ser. A, Math. Sci. __56__:8 [doi](https://doi.org/10.3792/pjaa.56.367) [euclid](https://projecteuclid.org/euclid.pja/1195516717)
 
-* H. Sakai, _Rational surfaces associated with affine root systems and geometry of the Painlevé equations_, Commun. Math. Phys. __220__ (2001) 165–229
+* H. Sakai, _Rational surfaces associated with affine root systems and geometry of the Painlevé equations_, Commun. Math. Phys. __220__ (2001) 165--229
+
+*  M. A. Bershtein, A. I. Shchechkin, _Bilinear equations on Painlevé $\tau$ functions from CFT_, Commun. Math. Phys. __339__, 1021--1061 (2015) [doi](https://doi.org/10.1007/s00220-015-2427-4)
 
 Multidimensional generalizations of Painlev&#233; VI are introduced in 
 
