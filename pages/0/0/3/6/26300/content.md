@@ -34,6 +34,10 @@ following
 
 The example of [[condensed local contractibility]]:
 
+* [[Qi Zhu]], *Fractured Structure on Condensed Anima*, MSc thesis (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_fe1c2f8e90094d0fa065fb8129687963.pdf), [[QiZhu-FracturedCondensed.pdf:file]]&rbrack;
+
+exposition:
+
 * [[Qi Zhu]], *Fractured structure on condensed spaces*, talk notes (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_8d2a90176ed14969a877e77ec1b787da.pdf), [[QiZhuFracturedCondensed.pdf:file]]&rbrack;
 
 * [[Nima Rasekh]], *What is a topological structure?*, talk notes (April 2023) &lbrack;[pdf](https://guests.mpim-bonn.mpg.de/rasekh/Condensed.pdf), [[Rasekh-TopologicalStructure.pdf:file]]&rbrack;
