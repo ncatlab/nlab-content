@@ -120,6 +120,8 @@ As a form of [[equivariant elliptic cohomology]] ([[twisted ad-equivariant Tate 
 
 * {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. **15** 1 (2013)  313-342 &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680)&rbrack;
 
+* {#Rezk14} [[Charles Rezk]], *Quasi-Elliptic Cohomology* (2014) &lbrack;[[Rezk-QuasiEllipticCohomology.pdf:file]]&rbrack;
+
 
 * [[Zhen Huan]], _Quasi-elliptic cohomology_ (2017) &lbrack;[hdl:2142/97268](http://hdl.handle.net/2142/97268)&rbrack;
 
@@ -134,6 +136,10 @@ with a streamlined account in
 * [[Zhen Huan]], *Quasi-theories* &lbrack;[arXiv:1809.06651](https://arxiv.org/abs/1809.06651)&rbrack;
 
 * [[Zhen Huan]], *Quasi-theories and their equivariant orthogonal spectra* &lbrack;[arXiv:1809.07622](https://arxiv.org/abs/1809.07622)&rbrack;
+
+and some general abstract clarification on [[Huan's inertia orbifold]] in:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. (2023) &lbrack;[arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
 
 Review:
 
