@@ -65,6 +65,8 @@ $$
 
 * [[Albert algebra]]
 
+* [[split-complex numbers]]
+
 * [[split quaternions]]
 
 ## References
