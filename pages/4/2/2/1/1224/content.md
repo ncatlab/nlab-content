@@ -144,10 +144,12 @@ Final functors and [discrete fibrations](http://ncatlab.org/nlab/show/discrete+f
 
 The characterization of final functors is a special case of the characterization of [[exact squares]].
 
-### Finality for weighted colimits and coends
+### Final enriched functors 
  {#FinalityForWeightedLimits}
 
-Discussion of finality for [[weighted colimits]] and [[coends]] (initiality for [[weighted limits]] and [[ends]]):
+Finality for [[enriched functors]] with respect to [[weighted colimits]] is discussed in [Kelly 1982 §4.5](#Kelly82).
+
+See also discussion of finality specifically for [[coends]] (initiality for [[weighted limits]] and [[ends]]) by:
 
 * [[Tim Campion]]: *Cofinality for Coends* (2020) &lbrack;[MO:q/353876](https://mathoverflow.net/q/353876/381), [MO:a/354097](https://mathoverflow.net/a/354097/381)&rbrack;
 
@@ -320,6 +322,10 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 * [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
 
   > (this says "confinal functor" for the version under which colimits are invariant)
+
+In [[enriched category theory]]:
+
+* {#Kelly82} [[Max Kelly]], §4.5 in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 
 [[!redirects cofinal functor]]
