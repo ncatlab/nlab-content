@@ -18,14 +18,15 @@ A [[functor]] $F \colon C \to D$ is **final**, if restricting [[diagrams]] along
 
 Dually, a functor is **initial** if pulling back diagrams along it does not change the [[limits]] of these diagrams.
 
-Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.  The terminology comes instead from the fact that an object $d\in D$ is initial (resp. terminal) just when the corresponding functor $d:1\to D$ is initial (resp. final).
+Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.  The terminology comes instead from the fact that an object $d\in D$ is initial (resp. terminal) just when the corresponding functor $d \colon 1\to D$ is initial (resp. final).
 
 
 \begin{remark}\label{WarningOnTerminology}
 **(warning on terminology)**
 \linebreak
-In older references (and also some others like [[Higher Topos Theory|HTT]]), final functors are sometimes called *cofinal*, the terminology having been imported from [[order theory]] (cf. *[[cofinality]]*).  However, this is confusing in [[category theory]] because usually the prefix "co-" denotes [[formal dual|dualization]].  In at least one place ([Borceux](#fb)) this non-dualization was treated as a dualization and the word "final" used for the *dual* concept, but in general it seems that the consensus is to use "final" for what used to be called "cofinal", and "initial" for the dual concept (since "co-final" would be ambiguous).  For example, Johnstone in [[Sketches of an Elephant]] before Proposition B2.5.12 says:
-: Traditionally, final functors were called 'cofinal functors'; but this use of 'co' is potentially misleading as it has nothing to do with dualization — it is derived from the Latin 'cum' rather than 'contra' — and so it is now generally omitted.
+In older references (and also some others like *[[Higher Topos Theory|HTT]]*), final functors are sometimes called *cofinal*, the terminology having been imported from [[order theory]] (cf. *[[cofinality]]*).  However, this is confusing in [[category theory]] because usually the prefix "co-" denotes [[formal dual|dualization]].  In at least one place ([Borceux](#fb)) this non-dualization was treated as a dualization and the word "final" used for the *dual* concept, but in general it seems that the consensus is to use "final" for what used to be called "cofinal", and "initial" for the dual concept (since "co-final" would be ambiguous).  For example, [[Peter Johnstone|Johnstone]] in *[[Sketches of an Elephant]]* says (before Proposition B2.5.12 ):
+
+> Traditionally, final functors were called 'cofinal functors'; but this use of 'co' is potentially misleading as it has nothing to do with dualization — it is derived from the Latin 'cum' rather than 'contra' — and so it is now generally omitted.
 
 See also the warning at *[[final (infinity,1)-functor|final $(\infty,1)$-functor]]* ([here](final+infinity1-functor#CofinalTerminologyWarning)).
 \end{remark}
@@ -139,11 +140,24 @@ Final functors and [discrete fibrations](http://ncatlab.org/nlab/show/discrete+f
 
 ## Generalizations
 
+### Exact squares
+
+The characterization of final functors is a special case of the characterization of [[exact squares]].
+
+### Finality for weighted colimits and coends
+ {#FinalityForWeightedLimits}
+
+Discussion of finality for [[weighted colimits]] and [[coends]] (initiality for [[weighted limits]] and [[ends]]):
+
+* [[Tim Campion]]: *Cofinality for Coends* (2020) &lbrack;[MO:q/353876](https://mathoverflow.net/q/353876/381), [MO:a/354097](https://mathoverflow.net/a/354097/381)&rbrack;
+
+### Final $\infty$-functors
+
 The generalization of the notion of final functor from [[category theory]] to [[(∞,1)-category|(∞,1)]]-[[higher category theory]] is described at
 
 * [[final (∞,1)-functor]].
 
-The characterization of final functors is also a special case of the characterization of [[exact squares]].
+
 
 
 ## Examples
