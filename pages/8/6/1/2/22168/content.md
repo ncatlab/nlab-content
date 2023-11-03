@@ -124,7 +124,12 @@ Related remarks and discussion:
 
 * {#Scholzec} [[Peter Scholze]], _Answer to 'Condensed / pyknotic approach to orbifolds?'_, Feb 2021 ([MO:a/384898](https://mathoverflow.net/a/384898/381))
 
-More concrete discussion, phrased in terms of [[fractured (infinity,1)-topos|fractured $(\infty,1)$-toposes]], is emerging here:
+
+More concrete discussion, phrased in terms of [[fractured (infinity,1)-topos|fractured $(\infty,1)$-toposes]]:
+
+* [[Qi Zhu]], *Fractured Structure on Condensed Anima*, MSc thesis, Bonn (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_fe1c2f8e90094d0fa065fb8129687963.pdf), [[QiZhu-FracturedCondensed.pdf:file]]&rbrack;
+
+exposition:
 
 * [[Qi Zhu]], *Fractured structure on condensed spaces*, talk notes (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_8d2a90176ed14969a877e77ec1b787da.pdf), [[QiZhuFracturedCondensed.pdf:file]]&rbrack;
 
