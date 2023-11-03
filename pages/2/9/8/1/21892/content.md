@@ -5,7 +5,7 @@
 
 ## Definition
 
-The **split-quaternions** are an [[algebra]] over the [[real numbers]]. Every tessarine $q$ may be represented as
+The **split-quaternions** are an [[algebra]] over the [[real numbers]]. Every split quaternion $q$ may be represented as
 $$
 q = a_0 + a_1 i + a_2 j + a_3k
 $$
@@ -26,6 +26,8 @@ These are closely related to the [[quaternions]], as the generators satisfy simi
 * [[quaternion]]
 
 * [[tessarines]]
+
+* [[split-complex numbers]]
 
 * [[split octonion]]
 
