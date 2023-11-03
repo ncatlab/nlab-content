@@ -237,8 +237,13 @@ See also:
 
 The relation to [[linear logic]] was first described in 
 
-*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- {#Seely89}
+* {#Seely89} [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+ 
+further discussed in
+
+* [[Michael Barr]], *$\ast$-Autonomous categories and linear logic*, Math. Structures Comp. Sci. **1** 2 (1991) 159–178 &lbrack;[doi:10.1017/S0960129500001274](https://doi.org/10.1017/S0960129500001274), [pdf](https://www.math.mcgill.ca/barr/papers/scatll.pdf), [[Barr-AutomomousCatAndLinLogic.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Accessible categories and models of linear logic*, J. Pure Appl. Algebra **69** (1990) 219–232 &lbrack;<a href="https://doi.org/10.1016/0022-4049(91)90020-3">doi:10.1016/0022-4049(91)90020-3</a>[pdf](https://www.math.mcgill.ca/barr/papers/accll.pdf), [[Barr-AccCatLinearLogic.pdf:file]]&rbrack;
 
 and a detailed review (also of a fair bit of plain monoidal category theory) is in 
  
