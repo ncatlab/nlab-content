@@ -30,6 +30,9 @@ On [[N=1 D=4 super Yang-Mills theory]] via [[D3 branes]] at resolved [[orbifold 
 
 * [[Pietro G. Fré]], *Lectures on resolutions à la Kronheimer of orbifold singularities, McKay quivers for Gauge Theories on D3 branes, and the issue of Ricci flat metrics on the resolved three-folds* &lbrack;[arXiv:2308.14022](https://arxiv.org/abs/2308.14022)&rbrack;
 
+On [[special geometry]]
+
+* [[Pietro Fré]], _Lectures on special Kähler geometry and electric-magnetic duality rotations_, Nucl. Phys. B Proc. Suppl. __45__:2-3, pp. 59--114 (1996) ([hep-th/9512043](https://arxiv.org/abs/hep-th/9512043) <a href"https://doi.org/10.1016/0920-5632(95)00629-X">doi</a>)
 
 
 ## Related entries
