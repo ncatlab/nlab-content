@@ -42,4 +42,8 @@ $F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exis
 
 * {#DFH75} [[Aristide Deleanu]], [[Armin Frei]], [[Peter Hilton]], _Idempotent triples and completion_, Mathematische Zeitschrift **143** (1975) 91-104 &lbrack;[doi:10.1007/BF01173053](https://doi.org/10.1007/BF01173053)&rbrack;
 
+Called **quasi-surjective on objects functors** in:
+
+* [[Gabriella Böhm]], [[Steve Lack]], [[Ross Street]], _Idempotent splittings, colimit completion, and weak aspects of the theory of monads_, Journal of Pure and Applied Algebra __216__:2 (2012) 385--403 [doi](https://doi.org/10.1016/j.jpaa.2011.07.003)
+
 [[!redirects dominant functors]]
