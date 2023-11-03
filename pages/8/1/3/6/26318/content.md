@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -40,7 +41,11 @@ The tessarines are also referred to as **bicomplex numbers** since they may be o
 ## Related concepts
 
 * [[quaternions]]
+
 * [[split-quaternion]]
+
+* [[split-complex numbers]]
+
 
 ## References
 * Elena Luna-Elizarrarás, Michael Shapiro, Daniele Struppa (2013) *Bicomplex Holomorphic Functions: the algebra, geometry and analysis of bicomplex numbers*. Birkhauser ISBN 978-3-319-24868-4
