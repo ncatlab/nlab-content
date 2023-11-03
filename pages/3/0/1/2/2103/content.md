@@ -1,9 +1,10 @@
 
 Michael Barr is the Peter Redpath Emeritus Professor of Pure Mathematics at McGill University. Although his earlier work was in [[homological algebra]], his principal research area for a number of years has been [[category theory]]. 
 
-He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving [[monads]], especially monadicity criteria and [[monadic cohomology]].
+He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal *Homology, Homotopy and Applications*, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student [[Jon Beck]], involving [[monads]], especially [[monadicity theorem|monadicity]] criteria and [[monadic cohomology]].
 
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
+
 
 
 ## Selected writings
@@ -12,6 +13,9 @@ See also:
 
 * personal list of publications: [web page](https://www.math.mcgill.ca/barr/)
 
+On [[Hochschild cohomology]] of [[commutative algebras]]:
+
+* [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
 
 On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
 
@@ -30,6 +34,14 @@ Introducing [[Barr-exact categories]] and [[regular categories]]:
 
 * {#BarrGrilletvonOsdool} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. **236**, Springer (1971) &lbrack;[doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)&rbrack;
 
+* [[Michael Barr]], _Exact categories_, in: *Exact categories and categories of sheaves*, Springer Lec. Notes in Math. __236__ (1971) 1-120 &lbrack;[doi:10.1007/BFb0058580](http://dx.doi.org/10.1007/BFb0058580), [pdf](https://www.math.mcgill.ca/barr/papers/exact.pdf), [[Barr-ExactCategories.pdf:file]]&rbrack;  
+
+
+On [[right exact functors]]:
+
+* [[Michael Barr]], *Right exact functors*, J. Pure Appl. Algebra **4** (1974) 1–8 &lbrack;<a href="https://doi.org/10.1016/0022-4049(74)90025-5">doi:10.1016/0022-4049(74)90025-5</a>, [pdf](https://www.math.mcgill.ca/barr/papers/right.exact.pdf), [[Barr-ExactFunctors.pdf:file]]&rbrack;
+
+
 On [[topoi]] without [[point of a topos|topos points]]:
 
 * [[Michael Barr]], *Toposes without points*, J. Pure Appl. Algebra **5** (1974) 265-280 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/top.no.pt.pdf), [[Barr-ToposesWithoutPoints.pdf:file]]&rbrack;
@@ -46,6 +58,10 @@ On [[toposes]], [[monads]] ("triples") and [[algebraic theories]]:
 On [[star-autonomous categories]] and the [[Chu construction]] as [[categorical semantics]] for [[linear logic]]:
 
 * [[Michael Barr]], *$\ast$-Autonomous categories and linear logic*, Math. Structures Comp. Sci. **1** 2 (1991) 159–178 &lbrack;[doi:10.1017/S0960129500001274](https://doi.org/10.1017/S0960129500001274), [pdf](https://www.math.mcgill.ca/barr/papers/scatll.pdf), [[Barr-AutomomousCatAndLinLogic.pdf:file]]&rbrack;
+
+and via [[accessible categories]]:
+
+* [[Michael Barr]], *Accessible categories and models of linear logic*, J. Pure Appl. Algebra **69** (1990) 219–232 &lbrack;<a href="https://doi.org/10.1016/0022-4049(91)90020-3">doi:10.1016/0022-4049(91)90020-3</a>[pdf](https://www.math.mcgill.ca/barr/papers/accll.pdf), [[Barr-AccCatLinearLogic.pdf:file]]&rbrack;
 
 
 On [[coalgebras for an endofunctor]]:
