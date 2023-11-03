@@ -73,7 +73,7 @@ $$
 
 ## References
 
-* {#dWLvP85} [[Bernard de Wit]], P.G. Lauwers, A. Van Proeyen. *Lagrangians of N = 2 supergravity-matter systems*, Nuclear Physics B **255** (1985) 569--608 [doi](https://doi.org/10.1142/9789814542340_0040)
+* {#dWLvP85} [[Bernard de Wit]], P.G. Lauwers, [[Antoine Van Proeyen]]. *Lagrangians of N = 2 supergravity-matter systems*, Nuclear Physics B **255** (1985) 569--608 [doi](https://doi.org/10.1142/9789814542340_0040)
 
 * {#Strominger90} [[Andrew Strominger]], _Special geometry_,  Comm. Math. Phys. __133__:1 (1990), 163--180 &lbrack;[euclid:cmp/1104201320](http://projecteuclid.org/euclid.cmp/1104201320)&rbrack;
 
@@ -81,7 +81,7 @@ $$
 
 * {#CMhes20} Gabriel Lopes Cardoso, [[Thomas Mohaupt]]. *Special geometry, Hessian structures and applications*. Physics Reports __855__ (2020) 1--141. ([doi](https://doi.org/10.1016/j.physrep.2020.02.002))
 
-* B. Craps, F. Roose, W. Troost, A. Van Proeyen,_What is special Kähler geometry?_, Nuclear Physics B __503__:3 (1997) 565--613 (<a href="https://doi.org/10.1016/S0550-3213(97)00408-2">doi</a> arXiv:[hep-th/9703082](https://arxiv.org/abs/hep-th/9703082))
+* B. Craps, F. Roose, W. Troost, [[Antoine Van Proeyen]], *What is special Kähler geometry?* , Nuclear Physics B __503__:3 (1997) 565--613 (<a href="https://doi.org/10.1016/S0550-3213(97)00408-2">doi</a> arXiv:[hep-th/9703082](https://arxiv.org/abs/hep-th/9703082))
 
 > We show equivalences of some definitions and give examples which show that earlier definitions are not equivalent, and are not sufficient to restrict the Kähler metric to one that occurs in N = 2 supersymmetry.
 
