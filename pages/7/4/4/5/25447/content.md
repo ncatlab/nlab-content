@@ -2,6 +2,8 @@ Nathanael Arkor is a postdoc researching [[category theory]] and [[type theory]]
 
 * [personal page](https://arkor.co/)
 
+* [institute page](https://www.muni.cz/en/people/247504-nathanael-amariah-arkor)
+
 ## Selected writings
 
 On [[simple type theory]]:
