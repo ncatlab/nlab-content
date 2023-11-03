@@ -21,6 +21,12 @@ Introducing [[model toposes]]/[[(∞,1)-toposes]]:
 
 * {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
 
+Introducing [[quasi-elliptic cohomology]]:
+
+* {#Rezk14} [[Charles Rezk]], *Quasi-Elliptic Cohomology* (2014) &lbrack;[[Rezk-QuasiEllipticCohomology.pdf:file]]&rbrack;
+
+  > (not publicly available until upload here, in 2023)
+
 
 Review of [[higher topos theory]]:
 
