@@ -24,17 +24,25 @@ The algebra obtained from the [generalization of the Cayley-Dickson construction
 
 A split-complex number $z$ may be represented as
 $$
-z= x+ jy
+z= x+ j y
 $$
 where $j^2=1$ (in contrast with the [[imaginary unit]] $i^2=-1$ in the complex numbers). Conjugation is similarly given by
 $$
-z^* = x- jy
+z^* = x- j y
 $$
 
-A consequence is that the product $zz^*$ is not non-negative anymore, since
+A consequence is that the product $z z^*$ is not non-negative anymore, since
 $$
-zz^* = x^2 - j^2 y^2 = x^2 - y^2
+z z^* = x^2 - j^2 y^2 = x^2 - y^2
 $$
+
+## Related concepts
+
+* [[tessarines]]
+
+* [[split quaternions]]
+
+* [[split octonions]]
 
 ## References
 
