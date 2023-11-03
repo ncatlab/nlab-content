@@ -70,12 +70,19 @@ A counter-example is in [Schnürer 11, Remark 3.2](#Schnurer11)
 
 * [[Francis Borceux]], Section 6.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-
 In [[triangulated categories]]:
 
 * {#BokstedtNeeman93} [[Marcel Bökstedt]], [[Amnon Neeman]], _Homotopy limits in triangulated categories_, Compositio Mathematica, tome 86, no 2 (1993) p. 209-234 ([numdam](http://www.numdam.org/item?id=CM_1993__86_2_209_0))
 
 * {#Schnurer11} Olaf M. Schnürer, _Homotopy categories and idempotent completeness, weight structures and weight complex functors_ ([arXiv:1107.1227](https://arxiv.org/abs/1107.1227))
+
+On split idempotents in [[Kleisli categories]]:
+
+* [[Robert Rosebrugh]] and [[Richard Wood]], _Split structures_, [[TAC]] 13.12 (2004): 172-183. ([TAC](https://www.tac.mta.ca/tac/volumes/13/12/13-12abs.html))
+
+* {#Menni09}[[Matías Menni]], _Algebraic categories whose projectives are explicitly free_ , TAC **22** no.20 (2009) pp.509-541. ([abstract](http://www.tac.mta.ca/tac/volumes/22/20/22-20abs.html))
+
+* [[Dusko Pavlovic]] and Peter-Michael Seidel. _Quotients in monadic programming: Projective algebras are equivalent to coalgebras_, 2017 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS). IEEE, 2017.
 
 [[!redirects split idempotents]]
 [[!redirects splitting]]
