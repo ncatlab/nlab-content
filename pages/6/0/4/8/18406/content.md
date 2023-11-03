@@ -13,9 +13,6 @@
 =--
 =--
 
-
-# Functors of descent type
-
 * table of contents
 {: toc}
 
