@@ -7,19 +7,20 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| |
 |Functor theory|[[Peter Freyd]]|1960| | |
 |[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
-|The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| |
+|The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[Scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| |
 |Categories of Set Valued Functors|[[Marta Bunge]]|1966| | on [[categories of presheaves]] |
 |Fibred Categories and the Theory of Structures (Part I)|[[John Duskin]]|1966|[McMaster repository](https://macsphere.mcmaster.ca/handle/11375/17610)| |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
 |A triple miscellany: some aspects of the theory of algebras over a triple|[[Ernest Manes]]|1967|[proquest](https://www.proquest.com/openview/85791ad4b7917802ca6692378e453d60/)| |
 |Limit monads in categories|[[Anders Kock]]|1967|[proquest](https://www.proquest.com/openview/61883e900f1fd8585fe4dfc4c3f271dc)| on [[lax idempotent 2-monads]] |
 |Homotopy Classification of Filtered Complexes|[[Ross Street]]|1968|[Scan](http://science.mq.edu.au/~street/Thesis.pdf)| |
-|Absoluteness properties in category theory|[[Robert Paré]]|1969|[pdf](https://www.mathstat.dal.ca/~pare/PhDThesis.pdf)| on [[absolute colimits]] |
+|Absoluteness properties in category theory|[[Robert Paré]]|1969|[Scan](https://www.mathstat.dal.ca/~pare/PhDThesis.pdf)| on [[absolute colimits]] |
 |Construction of Biclosed Categories|[[Brian Day]]|1970|[Scan](http://web.science.mq.edu.au/~street/DayPhD.pdf)| |
 |A categorical approach to universal algebra|[[Bob Walters]]|1970|[ANU repository](https://openresearch-repository.anu.edu.au/handle/1885/133321)| on [[universal algebra]] |
 |Self-Dual Structure-Semantics and Algebraic Categories|Michel Thiébaud|1971| | |
 |Tensor and cotensor products of bifunctors|George D. Reynolds|1973| | |
 |Some Aspects of Internal Category Theory in an Elementary Topos|[[Peter Johnstone]]|1974| | |
+|Relative Bildzerlegungen und algebraische Kategorien|[[Walter Tholen]]|1974|[Scan](https://tholen.mathstats.yorku.ca/files/2021/01/PhD_Thesis.pdf)|English translation of the title is *Relative image decompositions and algebraic categories*|
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
 |Théorie formelle des bicatégories|[[Syméon Bozapalides]]|1976| <a href="/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
@@ -31,7 +32,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Operational Categories|Colin Barry Jay|1984| | |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
-|Predicates and Fibrations|[[Duško Pavlović]]|1990|[scan](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf)| |
+|Predicates and Fibrations|[[Duško Pavlović]]|1990|[Scan](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf)| |
 |Dialectica Categories|[[Valeria de Paiva]]|1991|[Computer Lab Technical Report](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.html)| |
 |Enriched categories, internal categories and change of base|[[Dominic Verity]]|1992|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)| |
 |Cauchy completion in enriched categories|Scott Russell Johnson|1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
