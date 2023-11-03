@@ -188,6 +188,8 @@ The properties of corollary \ref{ExactFunctorPreservesExactSequences} explain th
 
 * [[satellite]]
 
+* [[exact category]]
+
 
 ## References
 
@@ -205,7 +207,11 @@ General discussion
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], Section 3.3 in: _[[Categories and Sheaves]]_
 
-A detailed discussion of how the property of a functor being exact is related to the property of it preserving homology in generalized situations is in 
+See also:
+
+* [[Michael Barr]], *Right exact functors*, J. Pure Appl. Algebra **4** (1974) 1–8 &lbrack;<a href="https://doi.org/10.1016/0022-4049(74)90025-5">doi:10.1016/0022-4049(74)90025-5</a>, [pdf](https://www.math.mcgill.ca/barr/papers/right.exact.pdf), [[Barr-ExactFunctors.pdf:file]]&rbrack;
+
+A detailed discussion of how the property of a functor being exact is related to the property of it preserving homology in generalized situations:
 
 * [[Michael Barr]], _Preserving homology_ , Theory and Applications of Categories,  Vol. 16, 2006, No. 7, pp 132-143. ([TAC](http://www.tac.mta.ca/tac/volumes/16/7/16-07abs.html))
 
