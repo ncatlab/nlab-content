@@ -179,9 +179,16 @@ The notion is highlighted in:
 
 following
 
+
 * [[Zhen Huan]], Exp. 2.1.14 in: _Quasi-elliptic cohomology_, 2017 ([hdl:2142/97268](http://hdl.handle.net/2142/97268))
 
-following, in turn, a similar construction in:
+following, in turn
+
+* {#Rezk14} [[Charles Rezk]], *Quasi-Elliptic Cohomology* (2014) &lbrack;[[Rezk-QuasiEllipticCohomology.pdf:file]]&rbrack;
+
+  > (publicly unavailable until upload here, in 2023)
+
+which follows, finally, a similar construction in:
 
 * {#Ganter07} [[Nora Ganter]], Def. 2.3 in: *Stringy power operations in Tate K-theory* ([arXiv:math/0701565](https://arxiv.org/abs/math/0701565))
 
