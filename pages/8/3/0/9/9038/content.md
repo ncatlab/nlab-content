@@ -54,6 +54,8 @@ $$
 
 * [[supergravity]]
 
+* [[Hessian manifold]]
+
 ## References
 
 * {#dWLvP85} [[Bernard de Wit]], P.G. Lauwers, A. Van Proeyen. *Lagrangians of N = 2 supergravity-matter systems*. Nuclear Physics B **255**. (1985) 569-608. 
