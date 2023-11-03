@@ -2012,8 +2012,12 @@ See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0
  
 Hochschild cohomology of ordinary algebras was introduced in
 
-* [[Gerhard Hochschild]], _On the cohomology groups of an associative algebra_ 
-The Annals of Mathematics, 2nd ser., __46__, No. 1 (Jan., 1945), pp. 58-6 ([JSTOR](http://www.jstor.org/stable/1969145))
+* [[Gerhard Hochschild]], _On the cohomology groups of an associative algebra_, The Annals of Mathematics, 2nd ser., __46__ 1 (1945) 58-6 &lbrack;[jstor:1969145](http://www.jstor.org/stable/1969145)&rbrack;
+
+Early further discussion:
+
+* [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
+
 
 A textbook discussion is for instance in chapter 9 of
 
