@@ -63,7 +63,7 @@ such that the following two compatibility conditions are satisfied:
      I\otimes X \stackrel{\simeq}{\longrightarrow} X
    \] 
 
-  is a [[weak equivalence]].
+   is a [[weak equivalence]].
 
 
 \end{definition}
