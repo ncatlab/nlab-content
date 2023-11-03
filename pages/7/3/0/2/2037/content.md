@@ -403,10 +403,11 @@ All of these algebras are [[power-associative algebra|power-associative]], [[fle
 
 ## Cayley-Dickson-Albert construction
 
-The Cayley-Dickson construction described above was slightly generalized in ([Section 5 of Albert (1942)](#Alb42CDA)), where the multiplication is further changed by a parameter $\gamma$ in the ground field. This process constructs an algebra $A^{\gamma}$ starting from a unital algebra $A$ of order $n$ over a field $F$ endowed with an [[involution]] $J:A\to A$ over $F$ such that for all $x\in A$:
+The Cayley-Dickson construction described above was slightly generalized in [Section 5 of Albert (1942)](#Alb42CDA), where the multiplication is further modified by a parameter $\gamma$ in the [[ground field]]. This process constructs an algebra $A^{\gamma}$ starting from a unital algebra $A$ of order $n$ over a field $F$ endowed with an [[involution]] $J:A\to A$ over $F$ such that for all $x\in A$:
 
 * $x+ J(x) \in F$,
-* $xJ(x)=J(x)x\in F$.
+
+* $x J(x) = J(x) x \in F$.
 
 To construct $A^{\gamma}$, one chooses a parameter $\gamma\in F$, and on the vector space $A\oplus A$ one defines a product
 
@@ -420,7 +421,13 @@ $$
 K((g_1, g_2 ))= (J(g_1) , -g_2)
 $$
 
-In particular, for $F=\mathbb{R}$ this process allows to get the [*split-*](https://ncatlab.org/nlab/show/composition%20algebra#split_composition_algebras) variants of the real division algebras.
+In particular, for $F=\mathbb{R}$ this process allows to get the [*split-*](composition+algebra#split_composition_algebras) variants of the real division algebra, cf.:
+
+* [[split-complex numbers]]
+
+* [[split quaternions]]
+
+* [[split octonions]]
 
 
 ## Related concepts 
