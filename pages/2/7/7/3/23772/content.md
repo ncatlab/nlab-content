@@ -24,21 +24,21 @@ where $x^2$ is the canonical [[square function]] of the [[multiplication|multipl
 
 ### Between $R$-modules
 
-Given a [[commutative ring]] $R$ and $R$-[[module]]s $M$ and $N$, an __$R$-quadratic function__ on $M$ with values in $N$ is a map $q: M \to N$ such that the following properties hold:
+Given a [[commutative ring]] $R$ and $R$-[[module | modules]] $M$ and $N$, an __$R$-quadratic function__ on $M$ with values in $N$ is a map $q: M \to N$ such that the following properties hold:
 
 * (cube relation) For any $x,y,z \in M$,  
 $$q(x+y+z) - q(x+y) - q(x+z) - q(y+z) + q(x) + q(y) + q(z) = 0$$
-* (homogeneous of degree 2) For any $x \in M$ and any $r \in R$, 
+* ([[homogeneous function | homogeneous]] of degree 2) For any $x \in M$ and any $r \in R$, 
 $$q(r x) = r^2 q(x)$$
 
 ### Between abelian groups
 
-Given [[abelian groups]] $G$ and $H$, a __quadratic function__ on $G$ with values in $H$ is a map $q: G \to H$ such that the following properties hold:
+Given [[abelian groups]] $G$ and $H$, since we can regard $G$ and $H$ as $\mathbb{Z}$-[[module | modules]], the above definition specializes to this particular case. A __quadratic function__ on $G$ with values in $H$ is a map $q: G \to H$ such that the following properties hold:
 
 * (cube relation) For any $x,y,z \in G$,  
 $$q(x+y+z) - q(x+y) - q(x+z) - q(y+z) + q(x) + q(y) + q(z) = 0$$
-* (homogeneous of degree 2) For any $x \in G$ and any $r \in \mathbb{Z}$, 
-$$q(r x) = \sum_{i=0}^{r^2} q(x)$$
+* ([[homogeneous function | homogeneous]] of degree 2) For any $x \in G$ and any $r \in \mathbb{Z}$, 
+$$q(r x) = \sum_{i=1}^{r^2} q(x)$$ 
 
 ## See also 
 
