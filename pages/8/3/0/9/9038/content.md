@@ -1,4 +1,4 @@
-
+393
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -58,6 +58,8 @@ $$
 
 \end{definition}
 
+A more general notion is __special complex geometry__ defined in [ACD02](#AlekseevskyCortésDevchand02):  a complex manifold $(M,J)$ with a flat torsionfree connection $\nabla$ such that $\nabla J$ is symmetric.
+
 ## Examples
 
 * The [[moduli spaces]] of [[3d Calabi-Yau object
@@ -86,6 +88,11 @@ $$
 > We show equivalences of some definitions and give examples which show that earlier definitions are not equivalent, and are not sufficient to restrict the Kähler metric to one that occurs in N = 2 supersymmetry.
 
 * [[Pietro Fré]], _Lectures on special Kähler geometry and electric-magnetic duality rotations_, Nucl. Phys. B Proc. Suppl. __45__:2-3, pp. 59--114 (1996) ([hep-th/9512043](https://arxiv.org/abs/hep-th/9512043) <a href="https://doi.org/10.1016/0920-5632(95)00629-X">doi</a>)
+
+Freed's approach to special Kähler geometry is generalized to special complex geometry in
+
+* {#AlekseevskyCortésDevchand02} [[Dmitry Vladimirovich Alekseevsky|D. V. Alekseevsky]], V. Cortés, C. Devchand, _Special complex manifolds_, Journal of Geometry and Physics __42__:1-2 (2002) 85--105 <a href="https://doi.org/10.1016/S0393-0440(01)00078-X">doi</a>
+
 
 [[!redirects special geometries]]
 
