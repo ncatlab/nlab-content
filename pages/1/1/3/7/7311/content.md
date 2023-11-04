@@ -701,7 +701,7 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 Original discussion:
 
-* [[Zoran Škoda]], [[Urs Schreiber]], [§7.4.2](https://arxiv.org/pdf/1004.2472.pdf#page=31) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
+* [[Urs Schreiber]], [[Zoran Škoda]]: [§7.4.2](https://arxiv.org/pdf/1004.2472.pdf#page=31) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
 
 * [[Urs Schreiber]], Sec. 3.4.5 in: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](https://arxiv.org/abs/1310.7930))
 
