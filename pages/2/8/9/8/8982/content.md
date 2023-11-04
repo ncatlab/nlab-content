@@ -51,7 +51,7 @@ $$\frac{\Xi \vert \Gamma, x:\flat A \vdash C \; \mathrm{type} \quad \Xi \vert ()
 
 $$\frac{\Xi \vert \Gamma, x:\flat A \vdash C \; \mathrm{type} \quad \Xi \vert () \vdash M:\flat A \quad \Xi, u::A \vert \Gamma \vdash N : C[u^\flat/x]}{\Xi \vert \Gamma \vdash \beta_{\flat}(M, N):(\mathrm{let}\; u^\flat \coloneqq M \;\mathrm{in}\; N) =_{C[M^\flat/x]} N[M/u]}\flat-\mathrm{comp}\mathrm{weak}$$
 
-Weak flat modalities are primarily used in cohesive [[objective type theories]], while strict flat modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
+Weak flat modalities are primarily used in cohesive [[weak type theories]], while strict flat modalities are typically used in cohesive type theories which are not weak, such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
 
 #### Axioms for the flat modality
 
@@ -76,6 +76,25 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\sharp U, B:\sharp U \vdash \mathrm{fl
 ...
 
 ## Properties
+
+### In type theory
+
+In [[type theory]], there are commuting conversion rules for the flat modality, which are derivable from the inference rules for the flat modality. 
+
+\begin{theorem}
+The $\mathrm{let}$ in the elimination rules for the flat modality commutes with itself:
+
+$$\frac{
+\begin{array}{c}
+\Xi \vert () \vdash A \; \mathrm{type} \quad \Xi \vert () \vdash B \; \mathrm{type} \quad \Xi \vert \Gamma, y:\flat B \vdash C \; \mathrm{type} \\ 
+\Xi \vert \Gamma \vdash M:\flat A \quad \Xi, u::A \vert \Gamma \vdash N:\flat B \quad \Xi, v::B \vert \Gamma \vdash P:C[v^\flat/y]
+\end{array}
+}{\Xi \vert \Gamma \vdash (\mathrm{let}\; v^\flat \coloneqq :(\mathrm{let}\; u^\flat \coloneqq M \;\mathrm{in}\; N) \;\mathrm{in}\; P) =_{C[v^\flat/y]} (\mathrm{let}\; u^\flat \coloneqq M \;\mathrm{in}\; (\mathrm{let}\; v^\flat \coloneqq N \;\mathrm{in}\; P))}$$ 
+\end{theorem}
+
+\begin{proof}
+to be done...
+\end{proof}
 
 ### Relation to discrete and codiscrete objects
 
