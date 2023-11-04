@@ -235,6 +235,7 @@ References using terminology as above:
 
 * [[Francis Borceux]], Exps. 2.5.6 in: *[[Handbook of Categorical Algebra]]* Vol. 2 *Categories and Structures*,   Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
+* [[Marek A. Bednarczyk]], [[Andrzej M. Borzyszkowski]], [[Wieslaw Pawlowski]], *Generalized congruences -- epimorphisms in $\mathcal{C}at$*, Theory and Applications of Categories **5** 11 (1999) 266-280 &lbrack;[tac:5-11](http://www.tac.mta.ca/tac/volumes/1999/n11/5-11abs.html), [dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5)&rbrack;
 
 
 ...
