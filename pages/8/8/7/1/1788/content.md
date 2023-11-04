@@ -1,4 +1,6 @@
 
+$\v{A}$
+
 * [[Charles Rezk]], *Quasi-Elliptic Cohomology* (2014)
 &lbrack;[[Rezk-QuasiEllipticCohomology.pdf:file]]&rbrack;
 
