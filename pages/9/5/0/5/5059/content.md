@@ -844,6 +844,10 @@ Curiously, the light-cone gauge quantization of the GS-string also does wor howe
 
 ## Related entries
 
+* [[brane scan]]
+
+* [[brane bouquet]]
+
 * [[supersymmetry]]
 
 * [[sigma-model]], [[brane]]
