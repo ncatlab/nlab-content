@@ -8588,11 +8588,9 @@ Then
 
 * if $f$ is a weak equivalence then also $u^* f$ is a weak equivalence.
 
-
 =--
 
 ([Brown 73, section 4, lemma 1](#Brown73))
-
 
 +-- {: .num_proof}
 ###### Proof
@@ -8706,7 +8704,7 @@ $$
   \,.
 $$
 
-(Notice that if we had applied the factorization lemma of $\Delta_X$ in $\mathcal{C}_f$ instead of $(\Delta_X)/B$ in $(\mathcal{C}_{/B})$ then the corresponding triangle on the right here would not commute.)
+(Notice that if we had applied the factorization lemma just for $\Delta_X$ in $\mathcal{C}_f$ instead of for $(\Delta_X)/B$ in $(\mathcal{C}_{/B})$ then the corresponding triangle on the right would not be guaranteed commute.)
 
 Now we may reason as before: the base change of the top morphism here is exhibited by the following pasting composite of pullbacks:
 
@@ -8747,6 +8745,26 @@ The acyclic fibration $Path_B(f)$ is preserved by this pullback, as is the ident
 
 =--
 
+\begin{remark}
+\label{InCatOfFibrantObjectsProductPreservesEquivalences}
+Lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} implies in particular that in a category $\mathcal{C}_f$ of fibrant objects, the operation of [[fiber product]] 
+$$
+  A \times_B (-)
+  \;\colon\;
+  \mathcal{C}_f/B
+  \longrightarrow
+  \mathcal{C}_f/B
+$$
+with a fibration $A \to B$ preserves fibrations and weak equivalences between fibrations. For $B = \ast$ the [[terminal objects]] this means that the plain Cartesian product
+$$
+  A \times (-)
+  \;\colon\;
+  \mathcal{C}_f
+  \longrightarrow
+  \mathcal{C}_f
+$$
+preserves fibrations and weak equivalences (cf. [Brown 73, p. 431 ](#Brown73)).
+\end{remark}
 
 +-- {: .num_lemma #InCfPullbackAlongFibrationPreservesWeakEquivalences}
 ###### Lemma
@@ -9516,7 +9534,7 @@ $$
   \,.
 $$
 
-By prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that Cartesian product preserves weak equivalences) this functor sends weak equivalences to isomorphisms. Therefore the functor on homotopy categories now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
+By prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} and Rem. \ref{InCatOfFibrantObjectsProductPreservesEquivalences} this functor sends weak equivalences to isomorphisms. Therefore the functor on homotopy categories now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
 
 It is immediate to see that the operation of loop concatenation from remark \ref{ConcatenatedLoopSpaceObject} gives the objects $\Omega X \in Ho(\mathcal{C}^{\ast/})$ the structure of [[monoids]]. It is now sufficient to see that these are in fact groups:
 
