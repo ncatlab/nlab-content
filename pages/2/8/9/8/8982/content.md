@@ -91,6 +91,8 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\sharp U, B:\sharp U \vdash \mathrm{fl
 
 The terminology of the flat-modality in the above sense was introduced -- in the language of [[(infinity,1)-toposes|$(\infty,1)$-toposes]] and as part of the axioms on "[[cohesive (infinity,1)-toposes|cohesive $(\infty,1)$-toposes]]" -- in:
 
+* [[Zoran Škoda]], [[Urs Schreiber]], [§7.4.2](https://arxiv.org/pdf/1004.2472.pdf#page=31) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
+
 * [[Urs Schreiber]], *[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive $\infty$-topos]]* (2013)
 
 See also the references at _[[local topos]]_.
