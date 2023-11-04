@@ -37,6 +37,10 @@ On [[cohesive homotopy type theory]]:
 
 * [[Mike Shulman]], *Homotopy type theory: the logic of space*, New Spaces in Mathematics: Formal and Conceptual Reflections, ed. Gabriel Catren and Mathieu Anel, Cambridge University Press, 2021 ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
 
+On [[higher observational type theory]]:
+
+* [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval* ([arXiv:2307.06448](https://arxiv.org/abs/2307.06448))
+
 ## Talks
 
 On [[higher observational type theory]]:
