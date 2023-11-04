@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -79,13 +80,34 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ### Limits and colimits
 
-* [[pushouts]] in [[Cat]] of injective functors are considered in [Macdonald & Scull](#MacdonalScull).
+\begin{remark}\label{OrdinaryLimitsAndColimits}
+*(ordinary limits and colimits of categories)*
+\linebreak
+  The [[1-category]] [[Cat]] of [[small categories]] is [[bicomplete category|bicomplete]]:
+
+1. The [[limit]] of a [[diagram]] $\mathcal{C}_{(-)} \,\colon\, I \to Cat$ is computed componentwise: the sets of objects and of morphisms of the limiting category $\underset{\longleftarrow}{\lim} F$ are the limits in [[Set]] of $Obj(\mathcal{C}_{(-)}) \,\colon\, I \to Set$ and of $Mor(\mathcal{C}_{(-)}) \,\colon\, I \to Set$, respectively, equipped with the universally induced structure maps.
+
+1. The [[colimit]] of a [[diagram]] $\mathcal{C}_{(-)} \,\colon\, I \to Cat$ is on [[objects]] still the colimit of the underlying diagram of sets of objects, but on morphisms it is more complicated, since in the naive colimit of sets of morphisms some morphisms may become composable that were not composable before.
+
+   An exception is the case of [[coproducts]] of categories, which are just given componentwise by [[disjoint union]]. With this, it is (by [this Prop](colimit#ColimitsInTermsOfCoequalizers)) sufficient that [[coequalizers]] of functors exist. 
+
+   Explicit formulas for coequalizers of categories are given in [Bednarczyk, Borzyszkowski & Pawlowski 1999, §4](#BednarczykBorzyszkowskiPawlowski99). 
+
+   Moreover, formulas for [[pushouts]] in [[Cat]] of injective functors are discussed in [MacDonald & Scull 2009](#MacdonalScull09).
+
+\end{remark}
+
+
+See also discussion at [MO:q/272479](https://math.stackexchange.com/q/272479/58526).
+
 
 
 
 ## Related concepts
 
 * [[elementary theory of the category of categories]]
+
+* [[canonical model structure on Cat]]
 
 [[!include categories of categories - contents]]
 
@@ -118,11 +140,15 @@ See also most references at _[[category]]_ and at _[[category theory]]_, such as
 
 On [[colimits]] in the [[1-category]] of small categories:
 
-(certain) [[pushouts]]:
-
-* {#MacdonalScull} John Macdonald, [[Laura Scull]], _Amalgamations of categories_ &lbrack;[pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf)&rbrack;
+[[coequalizers]]:
 
 * {#BednarczykBorzyszkowskiPawlowski99} [[Marek A. Bednarczyk]], [[Andrzej M. Borzyszkowski]], [[Wieslaw Pawlowski]], Section 4 of: *Generalized congruences -- epimorphisms in $\mathcal{C}at$*, Theory and Applications of Categories **5** 11 (1999) 266-280 &lbrack;[tac:5-11](http://www.tac.mta.ca/tac/volumes/1999/n11/5-11abs.html), [dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5)&rbrack;
+
+
+certain [[pushouts]]:
+
+* {#MacdonalScull09} [[John MacDonald]], [[Laura Scull]], _Amalgamations of categories_, Canad. Math. Bull. **52** 2 (2009) 273–284 &lbrack;[pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf), journal:[pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A414F5D3FA9FB08ACBBB72143C70FE28)&rbrack;
+
 
 
 category: category
