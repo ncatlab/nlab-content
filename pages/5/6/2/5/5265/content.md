@@ -46,3 +46,10 @@ Also:
 
 
 [[!redirects acyclic objects]]
+
+[[!redirects acyclic model]]
+[[!redirects acyclic models]]
+
+
+
+
