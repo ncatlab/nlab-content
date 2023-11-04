@@ -222,7 +222,7 @@ See also:
 
 * {#Johnstone} [[Peter Johnstone]], Section A of: _[[Sketches of an Elephant]]_ 
 
-* {#Bed} Marek A. Bednarczyk, Andrzej M. Borzyszkowski, and Wieslaw Pawlowski, *Generalized congruences &#8211; epimorphisms in $\mathcal{C}a t$*, Theory and Applications of Categories [electronic only] 5 (1999), 266-280 ([dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5))
+* {#Bed} [[Marek A. Bednarczyk]], [[Andrzej M. Borzyszkowski]], [[Wieslaw Pawlowski]], *Generalized congruences &#8211; epimorphisms in $\mathcal{C}a t$*, Theory and Applications of Categories **5** 11 (1999) 266-280 &lbrack;[tac:5-11](http://www.tac.mta.ca/tac/volumes/1999/n11/5-11abs.html), [dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5)&rbrack;
 
 * {#Taylor99} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999 ([webpage](http://www.paultaylor.eu/~pt/prafm/index.html))
 
