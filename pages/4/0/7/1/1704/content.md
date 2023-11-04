@@ -746,7 +746,7 @@ The fully general abstract formalization in [[(∞,1)-topos theory]] as discusse
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:Twisted Differential String and Fivebrane Structures]]* (2009)
 
-* [[Zoran Škoda]], [[Urs Schreiber]], [§7.1](https://arxiv.org/pdf/1004.2472.pdf#page=20) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
+* [[Urs Schreiber]], [[Zoran Škoda]], [§7.1](https://arxiv.org/pdf/1004.2472.pdf#page=20) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
 
 with more comprehensive accounts in:
 
