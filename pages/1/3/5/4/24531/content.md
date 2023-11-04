@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _second-order algebraic theory_ is a generalization of the notion of [[Lawvere theory]] to describe algebraic structures with variable binding.
+A _second-order algebraic theory_ is a generalization of the notion of [[Lawvere theory]] to describe algebraic structures with [[bound variable|variable binding]].
 
 While single-sorted Lawvere theories are [[cartesian monoidal categories]] generated from a single object, single-sorted second-order algebraic theories are [[cartesian monoidal categories]] generated from a single [[exponentiable object]].
 
@@ -45,8 +45,21 @@ Just as Lawvere theories can be identified with [[cartesian multicategories]], t
 
 * [[Marcelo Fiore]] and Ola Mahmoud, _Second-order Algebraic Theories_, MFCS 2010, [arxiv](https://arxiv.org/abs/1308.5409)
 
-A formalization in [[Agda]] by Marcelo Fiore and Dmitrij Szamozvancev: [webpage](https://www.cl.cam.ac.uk/~ds709/agda-soas/) with an [accompanying talk](https://www.youtube.com/watch?v=nP2J9SJ9DVM).
+A formalization in [[Agda]]:
+
+* Marcelo Fiore and Dmitrij Szamozvancev: [webpage](https://www.cl.cam.ac.uk/~ds709/agda-soas/) with an [accompanying talk](https://www.youtube.com/watch?v=nP2J9SJ9DVM).
+
+
+Discussion via [[monads]]:
+
+* [[Nathanael Arkor]], *Monadic and Higher-Order Structure*, PhD thesis, Cambridge (2022) &lbrack;[doi:10.17863/CAM.86347](https://doi.org/10.17863/CAM.86347), [pdf](https://www.repository.cam.ac.uk/bitstreams/666be4fb-957b-4c2e-83fc-8124621f0c43/download), [[Arkor-MonadicAndHigherStructure.pdf:file]]&rbrack;
+
 
 [[!redirects second-order algebraic theory]]
 [[!redirects second order algebraic theories]]
 [[!redirects second-order algebraic theories]]
+
+[[!redirects higher-order algebraic theory]]
+[[!redirects higher-order algebraic theories]]
+
+
