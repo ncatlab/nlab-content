@@ -12,6 +12,8 @@ means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of cours
 
 ## Definitions {#definitions}
 
+### In topological spaces
+
 Let $X$ and $Y$ be [[topological spaces]], let $f$ be a [[partial function]] from $X$ to $Y$ (*not* assumed continuous or anything else), let $c$ be a [[limit point]] of the domain $D$ of $f$ in $X$, and let $L$ be a point in $Y$.
 
 There are actually two definitions of 'limit point' in the literature: an [[adherent point]] and an [[accumulation point]].  And there are two definitions of 'limit' in this context: the usual French-language one (following [[Bourbaki]]) and the usual English-language one.  These definitions correspond respectively.  In both cases, the first definition is simpler, while the second is more common.
