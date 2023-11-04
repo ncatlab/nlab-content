@@ -7,6 +7,7 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 
 
 
+
 ## Selected writings
 
 See also:
@@ -86,6 +87,15 @@ in relation to [[topos theory]]:
 and in relation to [[linear logic]]:
 
 * [[Michael Barr]], *Fuzzy models of linear logic*, Math. Structures Comp. Sci. **6** 3 (1996) 301–312 &lbrack;[doi:10.1017/S096012950000102X](https://doi.org/10.1017/S096012950000102X), [pdf](https://www.math.mcgill.ca/barr/papers/fzymod.pdf), [[Barr-FuzzyLinearLogic.pdf:file]]&rbrack;
+
+On the [[HSP theorem]]:
+
+* [[Michael Barr]], *HSP type theorems in the category of posets*, in: *Proc. 7th International Conf. Mathematical Foundation of Programming Language Semantics*, Lecture Notes in Computer Science **598** (1992) 221–234 &lbrack;[doi:10.1007/3-540-55511-0_11](https://doi.org/10.1007/3-540-55511-0_11), [[Barr-HSPinPosets.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Functorial semantics and HSP type theorems*, Algebra Universalis **31** (1994) 223–251 &lbrack;[doi:10.1007/BF01236519](https://doi.org/10.1007/BF01236519), [pdf](https://www.math.mcgill.ca/barr/papers/hsp.pdf), [[Barr-FuncSemanticsHSP.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *HSP subcategories of Eilenberg-Moore algebras*, Theory Appl. Categories **10** 18 (2002), 461–468 &lbrack;[tac:10-18](http://www.tac.mta.ca/tac/volumes/10/18/10-18abs.html)&rbrack;
+
 
 On [[category theory]] in [[computer science]], 
 via [[star-autonomous categories]] and [[Chu spaces]]:
