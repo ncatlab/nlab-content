@@ -344,23 +344,28 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 * [[group]]
 
-* [[groupoid]], [[monoidal groupoid]]
+  * [[groupoid]], [[monoidal groupoid]]
 
-* **2-group**, [[crossed module]], [[differential crossed module]]
+  * **2-group**, [[crossed module]], [[differential crossed module]]
 
-  * [[braided 2-group]], [[symmetric 2-group]]
+    * [[braided 2-group]], [[symmetric 2-group]]
 
-  * [[quantum 2-group]]
+    * [[quantum 2-group]]
 
-* [[3-group]], [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
+  * [[3-group]], [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
 
-* [[n-group]]
+  * [[n-group]]
 
-* [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
+  * [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
 
-* [[group stack]]
+  * [[group stack]]
 
-  [[smooth 2-group]]
+    [[smooth 2-group]]
+
+* [[higher gauge symmetry]]
+
+* [[generalized global symmetry]]
+
 
 [[!include homotopy n-types - table]]
 
@@ -450,6 +455,7 @@ of [[finite subgroups of SU(2)]] (to [[Platonic 2-groups]]):
 
 * {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) &lbrack;[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)&rbrack;
 
+In this vein, 2-groups are now discussed by a vocal group of physicists under the term "[[generalized global symmetry|generalized symmetries]]" or similar.
 
 [[!redirects 2-groups]]
 
