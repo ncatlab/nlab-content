@@ -42,6 +42,9 @@ On [[super Lie algebra]] extensions:
 
 * [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory 15 (2005) No. 1, 125--134 ([arXiv:math/0101190](http://arxiv.org/abs/math/0101190))
 
+On [[special geometry]]
+
+* D. V. Alekseevsky, V. Cortés, C. Devchand, _Special complex manifolds_,  Journal of Geometry and Physics __42__:1-2 (2002) 85--105 <a href="https://doi.org/10.1016/S0393-0440(01)00078-X">doi</a>
 
 ## Related $n$Lab entries
 
