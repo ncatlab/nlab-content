@@ -699,6 +699,10 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 ### General
 
+Original discussion:
+
+* [[Zoran Škoda]], [[Urs Schreiber]], [§7.4.2](https://arxiv.org/pdf/1004.2472.pdf#page=31) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
+
 * [[Urs Schreiber]], Sec. 3.4.5 in: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](https://arxiv.org/abs/1310.7930))
 
 * {#Shulman15} [[Mike Shulman]], Sec. 9.7 in: _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
