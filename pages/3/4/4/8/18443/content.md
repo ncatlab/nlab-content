@@ -93,6 +93,11 @@ See also
 
 * Wikipedia, _[L&#246;b's theorem](https://en.wikipedia.org/wiki/L%C3%B6b%27s_theorem)_
 
+Unified proof of [[Löb's theorem]] and [[Gödel's second incompleteness theorem]] via [[essentially algebraic theories]], [[modal logic]] and [[arithmetic universes]]:
+
+* [[Sridhar Ramesh]], *Introspective Theories and Geminal Categories*, PhD thesis, Berkeley (2023) &lbrack;[escholarship:3mn0c475](https://escholarship.org/uc/item/3mn0c475), [[Ramesh-IntrospectiveTheories.pdf:file]]&rbrack;
+
+
 
 [[!redirects Löb theorem]]
 
