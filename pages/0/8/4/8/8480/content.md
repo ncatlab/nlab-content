@@ -138,6 +138,8 @@ One may mimic the last part of the proof of the Knaster-Tarski theorem to show t
 ## Examples in set theory 
  {#ExamplesInSetTheory}
 
+* The [[identity function]] on a [[set]] $S$ is [[generalized the|the]] [[uniqueness quantifier|unique]] [[function]] on $S$ such that every element in $S$ is a [[fixed point]] of said function. 
+
 * In at least some of the "lower" levels of the hierarchy of countable ordinals, leading up to the Feferman-Sch&#252;tte ordinal, fixed points of continuous operators on the first uncountable ordinal play a central role. More information may be found at [[countable ordinal]].  
 
 * Critical points of elementary embeddings (non-fixed points) 
