@@ -125,7 +125,7 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 
 * and [[fibrant objects|fibrant]], 
 
-  since a functor $\mathcal{C} \to \ast$ to the [[terminal category]] is evidently an [[isofibration]] (since the only morphism in the terminal category is an [[identity morphism]]).
+  since a functor $\mathcal{C} \to \ast$ to the [[terminal category]] is evidently an [[isofibration]] since the only morphism in the terminal category to lift is an [[identity morphism]].
 
 Hence, in particular, $Cat_{can}$ is a [[category of fibrant objects]] and a [[cofibration category]].
 \end{remark}
@@ -135,18 +135,9 @@ Hence, in particular, $Cat_{can}$ is a [[category of fibrant objects]] and a [[c
 \linebreak
 In the canonical model structure (of Prop. \ref{ExistenceOfTheCanonicalModelStructure}):
 
+* the [[acyclic cofibrations]] are precisely the [[injective-on-objects functor|injective-on-objects]] [[equivalences of categories]]
 
-* the [[acyclic cofibrations]] are precisely those functors which are
-
-  1. [[essentially surjective functor|essentially surjective]]
-
-  1. [[full subcategory]]-inclusions;
-
-* the [[acyclic fibrations]] are precisely those functors which are 
-
-  1. [[surjective on objects functor|surjective on objects]],
-
-  1. [[fully faithful functor|fully faithful]].
+* the [[acyclic fibrations]] are precisely the [[surjective-on-objects functor|surjective on objects]] [[equivalences of categories]].
 
   Namely, being [[equivalences of categories]] makes them be [[essentially surjective functor|essentially surjective]] and [[fully faithful functor|fully faithful]] ([this Prop.](equivalence+of+categories#ViaSplitEssentiallySurjectiveAndFullyFaithful)), but being also [[isofibrations]] then clearly requires them to actually be [[surjective on objects functor|surjective on objects]], which by [[fully faithful functor|fully faithfulness]] is then already sufficient for isofibrancy.  
 
@@ -288,7 +279,7 @@ So consider a diagram in $Cat$ of this form:
 
 First we need to show that the [[pushout-product]] $F \widehat{\times} G$ is a cofibration if both $F$ and $G$ are. By the definition of cofibrations, this means to show that on objects $(F \widehat{\times} G)_0$ is an injective map if both $F_0$ and $G_0$ are injective maps.
 
-Now, observe that the [[underlying]]-object functor
+Now, observe (see [here](Cat#OrdinaryLimitsAndColimits)) that the [[underlying]]-object functor
 $$
   (-)_0
     \,\colon\,
