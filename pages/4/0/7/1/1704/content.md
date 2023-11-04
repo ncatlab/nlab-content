@@ -723,13 +723,13 @@ A principal $\infty$-bundle over a [[0-connected]] object / [[delooping]] object
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsors]]) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
 
-* [[Rick Jardine]], Luo, _Higher order principal bundles_ ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf)).
+* [[Rick Jardine]], Z. Luo, _Higher order principal bundles_, Mathematical Proceedings of the Cambridge Philosophical Society **140** 2 (2006) 221-243 &lbrack;[doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911)&rbrack;
 
-* [[Rick Jardine]], _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)).
+* [[Rick Jardine]], _Cocycle categories_, in *Algebraic Topology* Abel Symposia **4**  (2009) &lbrack;[arXiv:math.AT/0605198](http://arxiv.org/abs/math.AT/0605198), [doi:10.1007/978-3-642-01200-6_8](https://doi.org/10.1007/978-3-642-01200-6_8)&rbrack;
 
 An earlier description in terms of simplicial objects is
 
-* P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33--105.
+* P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra **25** 1 (1982)  33-105 &lbrack;<a href="https://doi.org/10.1016/0022-4049(82)90094-9">doi:10.1016/0022-4049(82)90094-9</a>&rbrack;
 
 In that article not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it.
 
@@ -738,42 +738,45 @@ See the remarks at [[principal 2-bundle]].
 
 See also
 
-* {#Wendt10} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_, J. Homotopy Relat. Struct. 6 (2011), no. 1, 1-38 ([arXiv:1009.2930](http://arxiv.org/abs/1009.2930))
+* {#Wendt10} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_, J. Homotopy Relat. Struct. **6** 1 (2011) 1-38 &lbrack;[arXiv:1009.2930](http://arxiv.org/abs/1009.2930)&rbrack;
 
-on [[associated ∞-bundle]]s.
+on [[associated ∞-bundles]].
 
 The fully general abstract formalization in [[(∞,1)-topos theory]] as discussed here was first indicated in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:Twisted Differential String and Fivebrane Structures]]* (2009)
 
-A more comprehensive conceptual account is in 
+* [[Zoran Škoda]], [[Urs Schreiber]], [§7.1](https://arxiv.org/pdf/1004.2472.pdf#page=20) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+with more comprehensive accounts in:
 
 * {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- General theory]]_, J. Hom. Rel. Struc. **10** 4 (2015) 749-801 &lbrack;[arXiv:1207.0248](https://arxiv.org/abs/1207.0248), [doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6)&rbrack;
 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant Principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
 For some additional developments and applications to ∞-group extensions, see also
 
-* [[Severin Bunk]], _Principal ∞-bundles and smooth String group models_, Mathematische Annalen, online first, ([arXiv:2008.12263] (http://arxiv.org/abs/2008.12263))
+* [[Severin Bunk]], _Principal ∞-bundles and smooth String group models_, Mathematische Annalen **387** 689–743  &lbrack;[doi:10.1007/s00208-022-02462-0](https://doi.org/10.1007/s00208-022-02462-0), [arXiv:2008.12263] (http://arxiv.org/abs/2008.12263)&rbrack;
 
 A comparison of smooth principal ∞-bundles and diffeological principal bundles for diffeological groups is in
 
-* [[Emilio Minichiello]], _Diffeological Principal Bundles and Principal Infinity Bundles_, ([arXiv:2202.11023] (http://arxiv.org/abs/2202.11023))
+* [[Emilio Minichiello]], _Diffeological Principal Bundles and Principal Infinity Bundles_, &lbrack;[arXiv:2202.11023] (http://arxiv.org/abs/2202.11023)&rbrack;
 
 
 The [[classifying spaces]] for a large class of principal $\infty$-bundles are discussed in
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
- {#RobertsStevenson}
+* {#RobertsStevenson} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ &lbrack;[arXiv:1203.2460](http://arxiv.org/abs/1203.2460)&rbrack; 
 
-* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
- {#Stevenson}
+* {#Stevenson} [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ &lbrack;[arXiv:1203.2461](http://arxiv.org/abs/1203.2461)&rbrack;
+ 
 
 A fairly comprehensive account of the literature is also in the introduction of [NSS 12, "Presentations"](#NSS12).
 
 For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are equivalently $G$-[[infinity-actions]] is maybe due to 
 
-* E. Dror, [[William Dwyer]], and [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([JSTOR](http://www.jstor.org/stable/2043448))
+* [[Emmanuel Dror Farjoun]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. **80** 4 (1980) 670672 &lbrack;[jstor:2043448](http://www.jstor.org/stable/2043448)&rbrack;
 
 This is mentioned for instance as exercise 4.2in 
 
