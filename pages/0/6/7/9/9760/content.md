@@ -37,6 +37,8 @@ Furthermore, there exists a more general classification of possible supermembran
 
 [[branemoleculepc.png:pic]]
 
+It's generalization featuring [[L-infinity-algebra]] [[algebra extension|extensions]] is the [[brane bouquet]].
+
 ## References
 
 * {#BlencoweDuff88} [[Miles Blencowe]], [[Mike Duff]], _Supermembranes and the Signature of Space-time_, Nucl. Phys. B310 (1988) 387-404 ([spire:262142](inspirehep.net/record/262142), <a href="https://doi.org/10.1016/0550-3213(88)90155-1">10.1016/0550-3213(88)90155-1</a>, [pdf](http://inspirehep.net/record/262142/files/cer-000099708.pdf))
