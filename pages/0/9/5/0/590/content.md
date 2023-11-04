@@ -66,7 +66,13 @@ See also *[[limits and colimits by example]]*.
 
 ## Properties
 
-The properties of colimits are of course [[formal duality|dual]] to those of [[limits]]. It is still worthwhile to make some of them explicit.
+The properties of colimits are of course [[formal duality|dual]] to those of [[limits]]. It is still worthwhile to make some of them explicit:
+
+\begin{proposition}
+\label{ColimitsInTermsOfCoequalizers}
+  All colimits may be expressed via [[coequalizers]] of maps between [[coproducts]].
+\end{proposition}
+This was historically first observed by [Maranda 1962, Thm. 1](#Maranda62). See the [[formal dual|dual]] discussion ([here](limit#ConstructionFromProductsAndEqualizers)) of [[limits]] via [[products]] and [[equalizers]].
 
 \begin{proposition}
 **([[hom-functor preserves limits|contravariant Hom sends colimits to limits]])**
@@ -153,7 +159,7 @@ Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, coro
 
 The observation that colimits may be constructed from [[coequalizers]] and set-indexed [[coproducts]]:
 
-* [[Jean-Marie Maranda]], Thm. 1 in: *Some remarks on limits in categories*, Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
+* {#Maranda62} [[Jean-Marie Maranda]], Thm. 1 in: *Some remarks on limits in categories*, Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
 
 Beware that these early articles refer to colimits as _[[direct limits]]_.
 
