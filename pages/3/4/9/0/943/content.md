@@ -260,10 +260,11 @@ Discussion in the generality that subsumes [[compactly generated topological spa
 
 * {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], Section 3 of: _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
 
-
 * {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
+On the abstract construction principle of these examples:
 
+* [[Michael Barr]], *Building closed categories*, [[Cahiers|Cahiers Topologie Géométrie Différentielle]] **19** (1978) 115–129 &lbrack;[numdam:CTGDC_1978__19_2_115_0](http://www.numdam.org/item/?id=CTGDC_1978__19_2_115_0)&rbrack;
 
    
 See also:
