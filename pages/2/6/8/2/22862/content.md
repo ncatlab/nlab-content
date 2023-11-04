@@ -1499,7 +1499,7 @@ and specifically in the context of equivariant [[Tate K-theory]]:
 * {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
 
 
-Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for twists of [[KR-theory]]):
+Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for [[twisted cohomology|twists]] of [[KR-theory]]):
 
 * [[Behrang Noohi]], [[Matthew B. Young]], *Twisted loop transgression and higher Jandl gerbes over finite groupoids*, Algebr. Geom. Topol. **22** (2022) 1663-1712 &lbrack;[arXiv:1910.01422](https://arxiv.org/abs/1910.01422), [doi:10.2140/agt.2022.22.1663](https://doi.org/10.2140/agt.2022.22.1663)&rbrack;
 
@@ -1509,7 +1509,7 @@ The above discussion and proof that transgression is essentially the [[internal 
 
 following earlier observations in:
 
-* [[Zoran Škoda]], [[Urs Schreiber]], [§8.2](https://arxiv.org/pdf/1004.2472.pdf#page=37) & [§9.6.2](https://arxiv.org/pdf/1004.2472.pdf#page=47) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
+* [[Urs Schreiber]], [[Zoran Škoda]], [§8.2](https://arxiv.org/pdf/1004.2472.pdf#page=37) & [§9.6.2](https://arxiv.org/pdf/1004.2472.pdf#page=47) of: *Categorified symmetries* &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472)&rbrack;
 
 
 [[!redirects transgressions in group cohomology]]
