@@ -5,7 +5,7 @@
 
 ## Definition
 
-For $R$ some [[ring]] and $(N,(N_i))$ [[modules]] over this ring, a [[function]]
+For $R$ some [[ring]] and $N,N_1,\dots,N_n$ [[modules]] over this ring, a [[function]]
 
 $$
   f \;\colon\; N_1 \times \cdots \times N_n \longrightarrow N
