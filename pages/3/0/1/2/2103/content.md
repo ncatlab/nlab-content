@@ -17,6 +17,10 @@ On [[Hochschild cohomology]] of [[commutative algebras]]:
 
 * [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
 
+and in relation to [[monadic cohomology]]:
+
+* [[Michael Barr]], *Harrison homology, Hochschild homology and triples* J. Algebra **8** 3 (1968) 314–323 &lbrack;<a hrf="https://doi.org/10.1016/0021-8693(68)90062-8">doi:10.1016/0021-8693(68)90062-8</a>, [pdf](https://www.math.mcgill.ca/barr/papers/harr-hoch.pdf), [[Barr-HarrHochAndTriples.pdf:file]]&rbrack;
+
 On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
 
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
@@ -46,6 +50,10 @@ On [[topoi]] without [[point of a topos|topos points]]:
 
 * [[Michael Barr]], *Toposes without points*, J. Pure Appl. Algebra **5** (1974) 265-280 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/top.no.pt.pdf), [[Barr-ToposesWithoutPoints.pdf:file]]&rbrack;
 
+
+On the abstract construction principle behind [[cartesian closed category|cartesian closed]] [[convenient categories of topological spaces]] (such as [[compactly generated topological spaces]]):
+
+* [[Michael Barr]], *Building closed categories*, [[Cahiers|Cahiers Topologie Géométrie Différentielle]] **19** (1978) 115–129 &lbrack;[numdam:CTGDC_1978__19_2_115_0](http://www.numdam.org/item/?id=CTGDC_1978__19_2_115_0)&rbrack;
 
 Introducing [[star-autonomous categories]]:
 
