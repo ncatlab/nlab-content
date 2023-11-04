@@ -50,9 +50,19 @@ The [[first order logic|first-order]] analogue of HSP (theorem \ref{BirkhoffHSP}
 
 ## References
 
+* {#ChangKeisler66} Chang, Keisler _Continuous Model Theory_, Princeton University Press (1966) &lbrack;ISBN: 9780691079295&rbrack;
+
+* [[Michael Barr]], *HSP type theorems in the category of posets*, in: *Proc. 7th International Conf. Mathematical Foundation of Programming Language Semantics*, Lecture Notes in Computer Science **598** (1992) 221–234 &lbrack;[doi:10.1007/3-540-55511-0_11](https://doi.org/10.1007/3-540-55511-0_11), [[Barr-HSPinPosets.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Functorial semantics and HSP type theorems*, Algebra Universalis **31** (1994) 223–251 &lbrack;[doi:10.1007/BF01236519](https://doi.org/10.1007/BF01236519), [pdf](https://www.math.mcgill.ca/barr/papers/hsp.pdf), [[Barr-FuncSemanticsHSP.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *HSP subcategories of Eilenberg-Moore algebras*, Theory Appl. Categories **10** 18 (2002), 461–468 &lbrack;[tac:10-18](http://www.tac.mta.ca/tac/volumes/10/18/10-18abs.html)&rbrack;
+
+See also:
+    
+
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Variety_(universal_algebra)#Birkhoff.27s_theorem">Birkhoff's theorem</a>
 
-* {#ChangKeisler66} Chang, Keisler _Continuous Model Theory_, Princeton University Press, 1966. ISBN: 9780691079295
 
 [[!redirects Birkhoff HSP theorem]]
 
