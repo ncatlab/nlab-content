@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Incompleteness theorems
 * table of contents
 {: toc}
@@ -185,10 +186,14 @@ A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is
 
 * [[Russell O'Connor]], *Essential Incompleteness of Arithmetic Verified by Coq*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2005*, Lecture Notes in Computer Science **3603**, Springer (2005) 245-260 &lbrack;[web](http://r6.ca/Goedel/goedel1.html), [arXiv:cs/0505034](https://arxiv.org/abs/cs/0505034), [doi:10.1007/11541868_16](https://doi.org/10.1007/11541868_16)&rbrack;
 
-Formal proof of the second incompleteness theorem is discussed in
+Formal proof of the second incompleteness theorem:
 
-* Lawrence Paulson, _A Mechanised Proof of G&#246;del's Incompleteness Theorems
-using Nominal Isabelle_ ([pdf](https://www.cl.cam.ac.uk/~lp15/papers/Isabelle/Goedel-ar.pdf))
+* Lawrence Paulson, _A Mechanised Proof of G&#246;del's Incompleteness Theorems using Nominal Isabelle_ &lbrack;[pdf](https://www.cl.cam.ac.uk/~lp15/papers/Isabelle/Goedel-ar.pdf)&rbrack;
+
+
+Unified proof of [[Löb's theorem]] and [[Gödel's second incompleteness theorem]] via [[essentially algebraic theories]], [[modal logic]] and [[arithmetic universes]]:
+
+* [[Sridhar Ramesh]], *Introspective Theories and Geminal Categories*, PhD thesis, Berkeley (2023) &lbrack;[escholarship:3mn0c475](https://escholarship.org/uc/item/3mn0c475), [[Ramesh-IntrospectiveTheories.pdf:file]]&rbrack;
 
 The following contains a careful discussion of the incompleteness theorem in the context of categorical foundations using the [[free topos]]:
 
@@ -248,5 +253,11 @@ See also the discussion in [[list-arithmetic pretoposes]]
 [[!redirects Gödel's theorems]]
 [[!redirects Goedel's theorem]]
 [[!redirects Goedel's theorems]]
+
+[[!redirects Gödel's second incompleteness theorem]]
+[[!redirects Gödel's second incompleteness theorems]]
+[[!redirects Goedel's second incompleteness theorem]]
+[[!redirects Goedel's second incompleteness theorems]]
+
 
 
