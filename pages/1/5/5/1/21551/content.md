@@ -12,6 +12,12 @@ means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of cours
 
 ## Definitions {#definitions}
 
+### In metric spaces
+
+Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be a [[limit point]] of $X$, and let $L$ be an element in $Y$.  
+
+Then the **limit of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $0 \lt d_X(x, p)$ and $d_X(x, p) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+
 ### In topological spaces
 
 Let $X$ and $Y$ be [[topological spaces]], let $f$ be a [[partial function]] from $X$ to $Y$ (*not* assumed continuous or anything else), let $c$ be a [[limit point]] of the domain $D$ of $f$ in $X$, and let $L$ be a point in $Y$.
@@ -162,6 +168,10 @@ if $f$ is continuous at $\lim_c g$.
 ## See also ##
 
 * [[function limit space]]
+
+## References
+
+* Wikipedia, [Limit of a function](https://en.wikipedia.org/wiki/Limit_of_a_function)
 
 [[!redirects limit of a function]]
 [[!redirects limits of a function]]
