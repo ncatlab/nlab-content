@@ -74,12 +74,14 @@ A more indirect proof could proceed by identifying $Cat$ via the [[nerve]] const
 
 As a $2$-category, $Cat$ could even include (some) [[large category|large categories]] without running into Russell's paradox.  More precisely, if $U$ is a [[Grothendieck universe]] such that $\Set$ is the category of all $U$-small sets, then you can define $\Cat$ to be the 2-category of all $U'$-small categories, where $U'$ is some Grothendieck universe containing $U$.  That way, you have $\Set \in \Cat$ without contradiction.  (This can be continued to [[higher category theory|higher categories]].)
 
-By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|category]] are [[equivalence of categories|equivalent]].  In contexts without choice, it is usually better to use anafunctors all along; if necessary, use $Str Cat$ for the strict $2$-category.  Even without choice, a functor or anafunctor between categories is an [[equivalence]] in the anabicategory $Cat$ iff it is [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the weak inverse of such a functor may not be a functor, so it need not be an equivalence in $Str Cat$.  We can regard $Cat$ as obtained from $Str Cat$ using [[homotopy theory]] by "formally inverting" the essentially surjective and fully faithful functors as [[weak equivalence]]s.
+By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|category]] are [[equivalence of categories|equivalent]].  In contexts without choice, it is usually better to use anafunctors all along; if necessary, use $Str Cat$ for the strict $2$-category.  Even without choice, a functor or anafunctor between categories is an [[equivalence]] in the anabicategory $Cat$ iff it is [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the weak inverse of such a functor may not be a functor, so it need not be an equivalence in $Str Cat$.  We can regard $Cat$ as obtained from $Str Cat$ using [[homotopy theory]] by "formally inverting" the essentially surjective and fully faithful functors as [[weak equivalences]].
 
 
-### Colimits
+### Limits and colimits
 
-* [[pushout]]s in [[Cat]] of injective functors are considered in ([MacdonaldScull](#MacdonalScull)).
+* [[pushouts]] in [[Cat]] of injective functors are considered in [Macdonald & Scull](#MacdonalScull).
+
+
 
 ## Related concepts
 
@@ -114,9 +116,13 @@ See also most references at _[[category]]_ and at _[[category theory]]_, such as
   > (size issues ignored by considering only the category of [[small categories]])
 
 
-Discussion of (certain) [[pushouts]] in $Cat$:
+On [[colimits]] in the [[1-category]] of small categories:
 
-* {#MacdonalScull} John Macdonald, [[Laura Scull]], _Amalgamations of categories_ ([pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf))
+(certain) [[pushouts]]:
+
+* {#MacdonalScull} John Macdonald, [[Laura Scull]], _Amalgamations of categories_ &lbrack;[pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf)&rbrack;
+
+* {#BednarczykBorzyszkowskiPawlowski99} [[Marek A. Bednarczyk]], [[Andrzej M. Borzyszkowski]], [[Wieslaw Pawlowski]], Section 4 of: *Generalized congruences -- epimorphisms in $\mathcal{C}at$*, Theory and Applications of Categories **5** 11 (1999) 266-280 &lbrack;[tac:5-11](http://www.tac.mta.ca/tac/volumes/1999/n11/5-11abs.html), [dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5)&rbrack;
 
 
 category: category
