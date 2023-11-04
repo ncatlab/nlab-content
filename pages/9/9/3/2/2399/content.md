@@ -176,6 +176,11 @@ Further investigation of these stacky Chow motives then appears in
 
 * Utsav Choudhury, _Motives of Deligne-Mumford Stacks_ ([arXiv:1109.5288](http://arxiv.org/abs/1109.5288))
 
+On its relation to [[tropical geometry]]:
+
+* [[Grigory Mikhalkin]]. *Enumerative Tropical Algebraic Geometry in $\mathbb{R}^2$*. Journal of the American Mathematical Society, Vol. 18, No. 2 (Apr., 2005), pp. 313-377. ([doi](https://doi.org/10.1090/S0894-0347-05-00477-7))
+
+* Emil Albrychiewicz, Kai-Isaak Ellers, Andrés Franco Valiente, [[Petr Hořava]]. *Tropological Sigma Models*. (2023). ([arXiv:2311.00745](https://arxiv.org/abs/2311.00745))
 
 
 
