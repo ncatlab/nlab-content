@@ -21,6 +21,8 @@ $$ id_S = (x \mapsto x) = \lambda x.\; x ;$$
 or equivalently,
 $$ id_S(x) = x .$$
 
+Thus, the identity function is the function for which every element $x$ of $S$ is a [[fixed point]]. 
+
 The identity functions are the [[identity morphisms]] in the category [[Set]] of sets.
 
 More generally, in any [[concrete category]], the identity morphism of each object is given by the identity function on its [[underlying set]].
@@ -44,6 +46,8 @@ In ([[dependent type theory|dependent]]) [[type theory]], the identity function 
 In [[dependent type theory]], the type of identity functions on a type $A$ is the type
 
 $$\sum_{f:A \to A} \prod_{x:A} f(x) =_A x$$
+
+of functions with a witness that every element $x:A$ is a [[fixed point]] of the function.
 \end{definition}
 
 In general, an identity function is an element of this type. However, any element of the type of identity functions is unique up to identification:
@@ -109,7 +113,7 @@ $$\sum_{f:A \to A} \prod_{x:A} f(x) =_A x$$
 is a proposition and has element $(\lambda x:A.x, \beta_{A \to A}^{x:A.x})$, the type is contractible.
 \end{proof}
 
-Thus, it makes sense to refer to the canonical identity function $\lambda x:A.x$ as *[[generalized the|the]]* identity function on type $A$.   
+Thus, it makes sense to refer to the canonical identity function $\lambda x:A.x$ as *[[generalized the|the]]* identity function on type $A$. 
 
 Now, we show that the identity function is an [[equivalence of types]]:
 
@@ -233,6 +237,8 @@ Thus, for all $x \colon T$, the [[fiber type]] of the identity function $\lambda
 * [[identity type]]
 
 * [[transport]]
+
+* [[fixed point]]
 
 [[!redirects identity function]]
 [[!redirects identity functions]]
