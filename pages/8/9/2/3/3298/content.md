@@ -2018,21 +2018,22 @@ Early further discussion:
 
 * [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
 
+and in relation to [[monadic cohomology]]:
 
-A textbook discussion is for instance in chapter 9 of
+* [[Michael Barr]], *Harrison homology, Hochschild homology and triples* J. Algebra **8** 3 (1968) 314–323 &lbrack;<a hrf="https://doi.org/10.1016/0021-8693(68)90062-8">doi:10.1016/0021-8693(68)90062-8</a>, [pdf](https://www.math.mcgill.ca/barr/papers/harr-hoch.pdf), [[Barr-HarrHochAndTriples.pdf:file]]&rbrack;
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
-{#Weibel}
 
-or in chapter 4 of
+Textbook discussions:
+
+* {#Weibel} [[Charles Weibel]], chapter 9 of: _[[An Introduction to Homological Algebra]]_
  
-* [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
-{#Ginzburg}
+* {#Ginzburg} [[Victor Ginzburg]], chapter 4 of: _Lectures on noncommutative geometry_ &lbrack;[arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)&rbrack;
 
-The definition of the higher order Hochschild complex as (implicitly) the tensoring of an algebra with a simplicial set is due to 
 
-* [[Teimuraz Pirashvili]], _Hodge decomposition for higher order Hochschild homology_ Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure Volume 33, Issue 2, March 2000, Pages 151-179 ([ps](http://www.mathematik.uni-bielefeld.de/sfb343/preprints/pr98058.ps.gz))
-{#Pirashvili}
+The definition of the higher order Hochschild complex as (implicitly) the tensoring of an algebra with a simplicial set:
+
+* {#Pirashvili} [[Teimuraz Pirashvili]], _Hodge decomposition for higher order Hochschild homology_ Annales Scientifiques de l'&#201;cole Normale Sup&#233;rieure Volume 33, Issue 2, March 2000, Pages 151-179 ([ps](http://www.mathematik.uni-bielefeld.de/sfb343/preprints/pr98058.ps.gz))
+
 
 A survey of traditional higher order Hochschild (co)homology and further developments and results are described in
 
