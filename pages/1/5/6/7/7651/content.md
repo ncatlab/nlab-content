@@ -84,7 +84,7 @@ Basic kinds of integrals in (super)analysis: the [[Daniell integral]], the [[Rie
 
 Special examples of the above include the [[Batalin-Vilkovisky integral]], the [[Kontsevich integral]], the [[Selberg integral]],the [[elliptic Selberg integral]].
 
-Integration is involved in [[integral transform]]s, [[integral transforms on sheaves]], in various formulas for pairings, e.g. of chains and cochains .... 
+Integration is involved in [[integral transform | integral transforms]], [[integral transforms on sheaves]], in various formulas for pairings, e.g. of chains and cochains .... 
 Some statements involving integrals include the [[Stokes theorem]].
 
 
