@@ -26,7 +26,7 @@ that propagate on (or "in") the space(-time) $X$. For $p = 1$ and $X$ the coset 
 then this is known as the _[[WZW model]]_ describing a [[string]] that propagates on $X$.
 Hence generally we may speak of _[[higher WZW models]]_ here.
 
-<div style="float:right;margin:0 10px 10px 0;">
+<div style="float:right;margin:-50px 0px 0px 20px;">
 <img src="https://ncatlab.org/nlab/files/OldBraneScan.jpg" width="350">
 </div>
 
@@ -34,7 +34,7 @@ Accordingly,  each of the exceptional invariant cocycles on [[super Minkowski sp
 [[sigma model]]. These happen to be the _fundamental [[Green-Schwarz superstring]]_ and the _fundamental [[supermembrane]]_
 that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is a "non-committal" shorthand for "membrane theory", [(Ho&#345;ava-Witten 95, p. 2](#M-theory#NonCommittal)) -- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
 
-<div style="float:left;margin:0 10px 10px 0;">
+<div style="float:left;margin:0px 10px 0px 0px;">
 <img src="https://ncatlab.org/schreiber/files/TheSecondBraneExtensions.png" width="350">
 </div>
 
@@ -45,11 +45,10 @@ of [[super Minkowski spacetime]], sometimes called an "[[extended super Minkowsk
 It turns out that on the [[super Lie n-algebra]] extensions defined by the cocycles for the [[super-string]] and the [[super-membrane]]
 make further invariant higher cocycles appear. Interpreting these in turn as [[higher WZW models]] for [[super p-branes]]
 it turns out that they correspond to the [[D-branes]] and to the [[M5-brane]] that appear in [[string theory]]/[[M-theory]].
-This generalizes the old [[brane scan]] to a tree-like structure of higher invariant extensions that may be called the
-_[[schreiber:brane bouquet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
+This generalizes the old [[brane scan]] to a tree-like structure of higher invariant extensions that may be called the _[[brane bouquet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
 purely in terms of [[super Lie n-algebra]] theory ([FSS 13](#FSS13)).
 
-<div style="float:right;margin:0 10px 10px 0;">
+<div style="float:right;margin:0 0px 0px 10px;">
 <img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="550" />
 </div>
 
@@ -72,7 +71,7 @@ are but the [[perturbation theory]] of the fundamental [[super p-branes]] about 
 ([Claus-Kallosh-vanProeyen 97](#ClausKalloshProeyen97), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98)).
 
 
-<div style="float:left;margin:0 10px 10px 0;">
+<div style="float:left;margin:0 10px 0px 0px;">
 <img src="https://ncatlab.org/nlab/files/TheMTheoryAmoeba.jpg" alt="the brane bouquet" width="300" />
 </div>
 
@@ -80,7 +79,7 @@ Hence a fair bit of the folklore structure of [[string theory]]/[[M-theory]] is 
 the invariant higher extensions of
 [[super Minkowski spacetimes]] in [[super Lie n-algebra]] [[homotopy theory]]. But by the
 discussion at _[[geometry of physics -- supersymmetry]]_, the relevant [[super-Minkowski spacetimes]]
-themselves are themselves already classified as the consecutive ordinary invariant extensions of just the
+are themselves already classified as the consecutive ordinary invariant extensions of just the
 [[superpoint]] (we review this [below](#SuperMinowskiSpacetimes)).
 In conclusion then, a fair bit of the structure of [[string theory]]/[[M-theory]]
 is (re-)discovered by a systematic classification of the consecutive invariant higher extension
