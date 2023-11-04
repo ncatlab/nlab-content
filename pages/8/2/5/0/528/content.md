@@ -265,6 +265,11 @@ $$S(x)=xe_0+ye_1$$
 * [[Pontrjagin product]]
 
 
+
+[[!include structure on algebras and their module categories - table]]
+
+
+
 ## References
 
 * [[Kenneth Brown]], _Hopf algebras_, lectures, [pdf](http://www.maths.gla.ac.uk/~kab/Hopf%20lects%201-8.pdf)
@@ -328,7 +333,7 @@ For Hopf algebras in generative linguistics, see:
 
 The construction of a Frobenius algebra structure on finite-dimensional Hopf algebras due to
 
-* {#LS69}[[Richard Larson]], [[Moss Sweedler]]. *An Associative Orthogonal Bilinear Form for Hopf Algebras*. American Journal of Mathematics, Vol. 91, No. 1 (Jan., 1969), pp. 75-94 (20 pages). ([doi](https://doi.org/10.2307/2373270))
+* {#LS69} Richard Larson, [[Moss Sweedler]]. *An Associative Orthogonal Bilinear Form for Hopf Algebras*. American Journal of Mathematics, Vol. 91, No. 1 (Jan., 1969), pp. 75-94 (20 pages). ([doi](https://doi.org/10.2307/2373270))
 
 The proof that $H^*$ can be endowed with the structure of a symmetric special Frobenius object in $\text{Bimod}(H,H)$ is in
 
