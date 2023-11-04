@@ -52,7 +52,7 @@ $$\frac{\Xi \vert () \vdash a:A}{\Xi \vert \Gamma \vdash \beta_{\sharp A}(a):(a^
 
 $$\frac{\Xi \vert () \vdash a:\sharp A}{\Xi \vert \Gamma \vdash \eta_{\sharp A}(a):(a_\sharp)^\sharp =_{\sharp A} a}\sharp-\mathrm{uniq}{weak} \qquad \frac{\Xi \vert () \vdash a:\sharp A}{\Xi \vert \Gamma \vdash (a_\sharp)^\sharp \equiv a:\sharp A}\sharp-\mathrm{uniq}\mathrm{strict}$$
 
-Weak sharp modalities are primarily used in cohesive [[objective type theories]], while strict sharp modalities are typically used in cohesive type theories with [[judgmental equality]], such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
+Weak sharp modalities are primarily used in cohesive [[weak type theories]], while strict sharp modalities are typically used in cohesive type theories which are not weak, such as cohesive [[Martin-Löf type theory]] ([[cohesive homotopy type theory]] or cohesive [[higher observational type theory]]. 
 
 ## Properties
 
