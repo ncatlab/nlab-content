@@ -1,4 +1,4 @@
-> This entry is about the mathematical notion. For the commutative diagram editor, see [[quiver (editor)]].
+> This entry is about the mathematical notion. For the commutative diagram editor, see *[[quiver (editor)]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
