@@ -1,6 +1,8 @@
 ## Overview
 
-Class $\mathcal{S}$ (for "six") originally denoted a specific class of $N=2$ 4d supersymmetric gauge field theories introduced in [Gaiotto,Moore,Neitzke 2009](#GMN2009). By compactifications, one relates theories of these class with certain superconformal field theories (or, in other formalism, chiral algebras) which are now also said to be of class $S$ (see at [[AGT correspondence]]).
+Class $\mathcal{S}$ (for "six") originally denoted a specific class of $N=2$ 4d supersymmetric gauge field theories introduced in [Gaiotto,Moore,Neitzke 2009](#GMN2009). They originate from compactifications of [[M5-brane]]s on a punctured Riemann surface $C$ and they are labelled by a simply laced Lie group, a Riemann surface $C$, and a decoration of the punctures of $C$ by defect operators.
+
+By further compactifications, one relates theories of this class with certain superconformal field theories in  dimension $2$ (or, in other formalism, [[chiral algebra]]s) which are now also said to be of class $S$ (see at [[AGT correspondence]]).
 
 ## References
 
@@ -12,7 +14,7 @@ $n$Lab also cites [Zafrir2016](orientifold+plane#Zafrir2016).
 
 ### Mathematical works on VOAs/chiral algebras of class $\mathcal{S}$
 
-* Tomoyuki Arakawa, _Chiral algebras of class S and Moore-Tachikawa symplectic varieties_, [arXiv:1811.01577](https://arxiv.org/abs/1811.01577)
+* [[Tomoyuki Arakawa]], _Chiral algebras of class S and Moore-Tachikawa symplectic varieties_, [arXiv:1811.01577](https://arxiv.org/abs/1811.01577)
 
 > We give a functorial construction of the genus zero chiral algebras of class $\mathcal{S}$, that is, the vertex algebras corresponding to the theory of class $\mathcal{S}$ associated with genus zero pointed Riemann surfaces via the 4d/2d duality discovered by Beem, Lemos, Liendo, Peelaers, Rastelli and van Rees in physics. We show that there is a unique family of vertex algebras satisfying the required conditions and show that they are all simple and conformal. In fact, our construction works for any complex semisimple group G that is not necessarily simply laced. Furthermore, we show that the associated varieties of these vertex algebras are exactly the genus zero Moore-Tachikawa symplectic varieties that have been recently constructed by Braverman, Finkelberg and Nakajima using the geometry of the affine Grassmannian for the Langlands dual group. 
 
