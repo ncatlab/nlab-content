@@ -421,8 +421,7 @@ such that for some [[regular cardinal]] $\kappa$
 
 then also the [[Grothendieck construction]] $\int \mathbf{C}$ is locally presentable.
 \end{proposition}
-This follows, as explained in [MO:a/102083](https://mathoverflow.net/a/102083/381) from the analogous statement for [[accessible category|accessibility]] which appears as 
-[Makkai & Paré (1989), Prop. 5.3.1. (4)](accessible+category#MakkaiParé1989).
+This follows, as explained in [MO:a/102083](https://mathoverflow.net/a/102083/381), from the analogous statement for [[accessible category|accessibility]] which appears as [Makkai & Paré (1989), Prop. 5.3.1. (4)](accessible+category#MakkaiParé1989).
 
 
 ### Combinatorial model categories
