@@ -158,7 +158,7 @@ There is a variety of notions of morphism of quantale, just as there is a variet
 
 * A stronger notion is of _strong morphisms_ of quantales seen as monoidal categories. As noted above, all quantale morphisms considered here are already left adjoints in $Cat$, and if the adjunction lifts to $MonCat$ (the 2-category of monoidal categories, lax monoidal functors, and monoidal transformations), then the left adjoint is strong monoidal. This often occurs in practice. 
 
-* An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. (An example is to be developed for [[building]]s.) 
+* An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. 
 
 * There are corresponding notions of morphisms of $*$-quantales, where in each case morphisms strongly respect the $*$ operations. For instance, the notion of $*$-enriched category over a $*$-monoidal poset $M$ can be equivalently recast as a lax morphism between $*$-quantales, $2^d: 2^M \to 2^{X \times X}.$
 
