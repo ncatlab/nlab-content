@@ -13,7 +13,6 @@
 =--
 =--
 
-# Algebraic theories
 * table of contents
 {: toc}
 
