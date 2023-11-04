@@ -1,4 +1,4 @@
-Nathanael A. Arkor is a postdoc researching [[category theory]] and [[type theory]].
+Nathanael Arkor is a postdoc researching [[category theory]] and [[type theory]].
 
 * [personal page](https://arkor.co/)
 
@@ -13,7 +13,7 @@ On [[monads]] and [[higher-order algebraic theories]]:
 
 On [[simple type theory]]:
 
-* [[Nathanael Arkor]], *Monadic and Higher-Order Structure*, PhD thesis, Cambridge (2022) &lbrack;[doi:10.17863/CAM.86347](https://doi.org/10.17863/CAM.86347), [pdf](https://www.repository.cam.ac.uk/bitstreams/666be4fb-957b-4c2e-83fc-8124621f0c43/download), [[Arkor-MonadicAndHigherStructure.pdf:file]]&rbrack;
+* [[Nathanael Arkor]], [[Marcelo Fiore]], *Algebraic models of simple type theories: a polynomial approach*, Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science (2020) 88-101 &lbrack;[doi:10.1145/3373718.3394771](https://doi.org/10.1145/3373718.3394771), [arXiv:2006.16949](https://arxiv.org/abs/2006.16949)&rbrack;
 
 On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual equipments]]:
 
