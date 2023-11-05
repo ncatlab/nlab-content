@@ -17,8 +17,6 @@
 =--
 =--
 
-
-# Incompleteness theorems
 * table of contents
 {: toc}
 
