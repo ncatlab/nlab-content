@@ -21,9 +21,9 @@
 
 Given a [[topological space]] $X$, the **category of open subsets** $Op(X)$ of $X$ is the [[category]] whose
 
-* [[object]]s are the [[open subset]]s $U \hookrightarrow X$ of $X$;
+* [[object | objects]] are the [[open subset | open subsets]] $U \hookrightarrow X$ of $X$;
 
-* [[morphism]]s are the inclusions 
+* [[morphism | morphisms]] are the inclusions 
 $
   \array{
      V &&\hookrightarrow && U
