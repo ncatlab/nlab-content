@@ -12,7 +12,7 @@ means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of cours
 
 ## Definitions {#definitions}
 
-In all cases, there are two different definitions of limit of a function, depending on whether one uses the definition by [[Nicolas Bourbaki]] or the historical definition, first defined by [[Karl Weierstrass]] in the context of partial functions on the real numbers and later generalized to metric spaces and topological spaces. Bourbaki's definition is commonly used in the French language, while Weierstrass's definition is commonly used in the English language. Weierstrass's definition is also referred to as the *punctured limit* of a function ("limite épointée" in French), because it uses [[accumulation points]] and [[punctured neighborhoods]] instead of [[adherent points]] and [[neighborhoods]]. 
+Limits of functions could be defined for functions between various mathematical structures, such as subsets of the [[real numbers]], [[metric spaces]] and [[topological spaces]]. In all cases, there are two different definitions of limit of a function, depending on whether one uses the definition by [[Nicolas Bourbaki]] or the historical definition, first defined by [[Karl Weierstrass]] in the context of partial functions on the real numbers and later generalized to metric spaces and topological spaces. Bourbaki's definition is commonly used in the French language, while Weierstrass's definition is commonly used in the English language. Weierstrass's definition is also referred to as the *punctured limit* of a function ("limite épointée" in French), because it uses [[accumulation points]] and [[punctured neighborhoods]] instead of [[adherent points]] and [[neighborhoods]]. 
 
 ### In metric spaces
 
