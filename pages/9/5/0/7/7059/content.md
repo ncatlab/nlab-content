@@ -310,6 +310,10 @@ Exposition in:
 
 
 
+[[!redirects cohesive type theory]]
+[[!redirects cohesive type theories]]
+
+[[!redirects cohesive homotopy type theory]]
 [[!redirects cohesive homotopy type theories]]
 
 [[!redirects cohesive homotopy type]]
