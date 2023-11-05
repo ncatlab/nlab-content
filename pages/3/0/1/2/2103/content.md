@@ -6,21 +6,33 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
 
-
-
 ## Selected writings
 
 See also:
 
 * personal list of publications: [web page](https://www.math.mcgill.ca/barr/)
 
+
 On [[Hochschild cohomology]] of [[commutative algebras]]:
 
 * [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
 
+see also
+
+* [[Michael Barr]], *A cohomology theory for commutative algebra I*, Proc. Amer. Math. Soc. **16** (1965) 1379–1384 &lbrack;[doi:1965-016-06/S0002-9939-1965-0193119-3](https://www.ams.org/journals/proc/1965-016-06/S0002-9939-1965-0193119-3), [pdf](https://www.math.mcgill.ca/barr/papers/comcoh1.pdf), [[Barr-CohomologyCommutativeI.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *A cohomology theory for commutative algebra II*, Proc. Amer. Math. Soc. **16** (1965) 1385–1391 &lbrack;[jstor:2035937](https://www.jstor.org/stable/2035937), [pdf](https://www.math.mcgill.ca/barr/papers/comcoh2.pdf), [[Barr-CohomologyCommutativeII.pdf:file]]&rbrack;
+
 and in relation to [[monadic cohomology]]:
 
+* [[Michael Barr]], *Cohomology in tensored categories*, [[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]], Springer (1966) 344–354 &lbrack;[doi:10.1007/978-3-642-99902-4_17](https://doi.org/10.1007/978-3-642-99902-4_17), [pdf](https://www.math.mcgill.ca/barr/papers/ctc.pdf), [[Barr-CohomologyTensored.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Shukla cohomology and triples*, J. Algebra **5** 2 (1967) 222–231 &lbrack;<a href="https://doi.org/10.1016/0021-8693(67)90036-1">doi:10.1016/0021-8693(67)90036-1</a>, [pdf](https://www.math.mcgill.ca/barr/papers/shukla.pdf), [[Barr-ShuklaCohomology.pdf:file]]&rbrack;
+
 * [[Michael Barr]], *Harrison homology, Hochschild homology and triples* J. Algebra **8** 3 (1968) 314–323 &lbrack;<a hrf="https://doi.org/10.1016/0021-8693(68)90062-8">doi:10.1016/0021-8693(68)90062-8</a>, [pdf](https://www.math.mcgill.ca/barr/papers/harr-hoch.pdf), [[Barr-HarrHochAndTriples.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Cohomology and obstructions: commutative algebras*, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 357–374 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf), [pdf](https://www.math.mcgill.ca/barr/papers/obstruct.pdf)&rbrack;
+
 
 On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
 
