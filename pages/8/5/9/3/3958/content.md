@@ -122,7 +122,7 @@ This is discussed in [The geometry CartSp](#TheGeometryCartSp) below.
 
 #### The geometry $CartSp$ {#TheGeometryCartSp}
 
-Let [[CartSp]] be the [[category]] of [[Cartesian space]]s and [[smooth function]]s between them. This has finite [[product]]s and is in fact (the [[syntactic category]]) of a [[Lawvere theory]]: the theory of [[smooth algebras]].
+Let [[CartSp]] be the [[category]] of [[Cartesian space | Cartesian spaces]] and [[smooth function | smooth functions]] between them. This has finite [[product | products]] and is in fact (the [[syntactic category]]) of a [[Lawvere theory]]: the theory of [[smooth algebras]].
 
 Moreover, $CartSp$ is naturally equipped with the [[good open cover]] [[coverage]] that makes it a [[site]]. 
 
@@ -134,7 +134,7 @@ $$
   \mathcal{O} : \mathcal{G} \to \mathcal{X}
 $$
 
-is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [[sheaf]] of [[smooth algebra]]s on $X$. 
+is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [[sheaf]] of [[smooth algebra | smooth algebras]] on $X$. 
 
 If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(U)$ we say that it is a _local $\mathcal{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
 
@@ -148,13 +148,13 @@ $$
 
 It is important in the context of [[locally representable structured (infinity,1)-topos|locally representable locally ringed toposes]] that we regard $Sh(\mathcal{G})$ as equipped with this local $\mathcal{G}$-algebra. This is what remembers the [[site]] and gives a notion of local representability in the first place.
 
-The [[big topos]] $Sh(CartSp)$ is a [[cohesive topos]] of [[generalized smooth space]]s. Its [[concrete sheaves]] are precisely the [[diffeological space]]s. See there for more details. We now discuss how with $Sh(CartSp)$ regarded as a $CartSp$-structured topos, smooth manifolds are precisely its [[locally representable structured (infinity,1)-toposes|locally representable objects]].
+The [[big topos]] $Sh(CartSp)$ is a [[cohesive topos]] of [[generalized smooth space | generalized smooth spaces]]. Its [[concrete sheaves]] are precisely the [[diffeological space | diffeological spaces]]. See there for more details. We now discuss how with $Sh(CartSp)$ regarded as a $CartSp$-structured topos, smooth manifolds are precisely its [[locally representable structured (infinity,1)-toposes|locally representable objects]].
 
 #### Cartesian spaces as representable objects of $Sh(CartSp)$
 
 The representables themselves should evidently be locally representable and canonically have the structure of $CartSp$-structured toposes.
 
-Indeed, every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra]]s. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos]] 
+Indeed, every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra | smooth algebras]]. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos]] 
 
 $$
   (\mathcal{X}, \mathcal{O}_{\mathcal{X}})
@@ -210,13 +210,13 @@ $$
   \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_i U_i \to X
 $$
 
-is a [[coequalizer]] diagram in $Sh(CartSp)$ (that the [[Cech groupoid]] of the cover is equivalent to $X$.). Notice that the [[fiber product]] here is just the intersection in $X$ $U_i \times_X U_j \simeq U_i \cap U_j$. By the fact that the [[sheaf topos]] $Sh(CartSp)$ is by definition a [[reflective subcategory]] of the [[presheaf topos]] $PSh(CartSp)$ we have that [[colimit]]s in $Sh(CartSp)$ are computed as the [[sheafification]] of the corresponding colimit in $PSh(CartSp)$. The colimit in $PSh(CartSp)$ in turn is computed objectwise. Using this, we see that that we have a coequalizer diagram
+is a [[coequalizer]] diagram in $Sh(CartSp)$ (that the [[Cech groupoid]] of the cover is equivalent to $X$.). Notice that the [[fiber product]] here is just the intersection in $X$ $U_i \times_X U_j \simeq U_i \cap U_j$. By the fact that the [[sheaf topos]] $Sh(CartSp)$ is by definition a [[reflective subcategory]] of the [[presheaf topos]] $PSh(CartSp)$ we have that [[colimit | colimits]] in $Sh(CartSp)$ are computed as the [[sheafification]] of the corresponding colimit in $PSh(CartSp)$. The colimit in $PSh(CartSp)$ in turn is computed objectwise. Using this, we see that that we have a coequalizer diagram
 
 $$
   \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_i U_i \to S(\{U_i\})
 $$
 
-in $PSh(CartSp)$, where $S(\{U_i\})$ is the [[sieve]] corresponding to the cover: the [[subfunctor]] $S(\{U_i\}) \hookrightarrow X$ of the functor $X : CartSp^{op} \to Set $ which assigns to $V \in CartSp$ the set of [[smooth function]]s $V \to X$ that have the property that they factor through any one of the $U_i$.
+in $PSh(CartSp)$, where $S(\{U_i\})$ is the [[sieve]] corresponding to the cover: the [[subfunctor]] $S(\{U_i\}) \hookrightarrow X$ of the functor $X : CartSp^{op} \to Set $ which assigns to $V \in CartSp$ the set of [[smooth function | smooth functions]] $V \to X$ that have the property that they factor through any one of the $U_i$.
 
 Essentially by the definition of the [[coverage]] on $CartSp$, it follows that [[sheafification]] takes this subfunctor inclusion to an [[isomorphism]]. This shows that $X$ is indeed the tip of the coequalizer in $Sh(CartSp)$ as above, and hence that it is a locally representable sheaf.
 
@@ -246,7 +246,7 @@ the object $U_i \cap U_j$ is the diffeological space whose underlying topologica
 
 #### As locally representable $CartSp$-structured $(\infty,1)$-toposes
 
-We may switch from regarding smooth manifolds as objects in the [[big topos]] $X \in Sh(CartSp)$ to regrading them as [[topos]]es themselves, by passing to the [[over-topos]] $Sh(CartSp)/X$. This remembers the extra (smooth) structure on the [[topological space]] $X$ by being canonically a [[locally ringed topos]] with the [[structure sheaf]] of [[smooth function]]s on $X$: a [[CartSp]]-[[structured (∞,1)-toposes]]
+We may switch from regarding smooth manifolds as objects in the [[big topos]] $X \in Sh(CartSp)$ to regrading them as [[topos | toposes]] themselves, by passing to the [[over-topos]] $Sh(CartSp)/X$. This remembers the extra (smooth) structure on the [[topological space]] $X$ by being canonically a [[locally ringed topos]] with the [[structure sheaf]] of [[smooth function | smooth functions]] on $X$: a [[CartSp]]-[[structured (∞,1)-toposes]]
 
 
 For every choice of [[geometry (for structured (∞,1)-toposes)]]   there is a notion of $\mathcal{G}$-[[locally representable structured (∞,1)-topos]] ([StrSp](#StrSp)). 
@@ -254,7 +254,7 @@ For every choice of [[geometry (for structured (∞,1)-toposes)]]   there is a n
 +-- {: .num_prop}
 ###### Claim
 
-Smooth manifolds are equivalently the [[n-localic (infinity,1)-topos|0-localic]] [[CartSp]]-[[generalized scheme]]s of locally finite presentation.
+Smooth manifolds are equivalently the [[n-localic (infinity,1)-topos|0-localic]] [[CartSp]]-[[generalized scheme | generalized schemes]] of locally finite presentation.
 
 =--
 
