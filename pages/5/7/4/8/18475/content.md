@@ -149,6 +149,10 @@ On holographic description of [[phonon]] gases in non-merallic [[crystals]]:
 
 * Xiangqing Kong, Tao Wang, Liu Zhao, *High temperature AdS black holes are low temperature quantum phonon gases* &lbrack;[arXiv:2209.12230](https://arxiv.org/abs/2209.12230)&rbrack;
 
+On holographic description of quantum [[spin chains]]:
+
+* Naoto Yokoi, Yasuyuki Oikawa, Eiji Saitoh, *Holographic Dual of Quantum Spin Chain as Chern-Simons-Scalar Theory* &lbrack;[arXiv:2310.01890](https://arxiv.org/abs/2310.01890)&rbrack:
+
 
 
 ### Application to topological phases of matter
