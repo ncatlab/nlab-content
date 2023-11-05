@@ -40,7 +40,7 @@ Indeed, we can interpret this as a [[polynomial]] equation in $\mathbb{C}[a_{i j
 =-- 
 
 An alternative proof that avoids appeal to a continuity 
-argument may be given in terms of [[exterior algebra]]. Start by observing that the equation $\widetilde{A} A = 1$ holds over $R = \mathbb{Z}[a_{i j}]$ if it holds over a field $k$ in which $R$ embeds. If $V$ is an $n$-dimensional vector space over $k$ and $A\colon V \to V$ is $k$-linear, then the natural transformation 
+argument may be given in terms of [[exterior algebra]]. Start by observing that the equation $\widetilde{A} A = \det(A) \cdot 1_n$ holds over $R = \mathbb{Z}[a_{i j}]$ if it holds over a field $k$ in which $R$ embeds. If $V$ is an $n$-dimensional vector space over $k$ and $A\colon V \to V$ is $k$-linear, then the natural transformation 
 
 $$\wedge \colon V \otimes_k \Lambda^{n-1} V \to \Lambda^n V$$ 
 
