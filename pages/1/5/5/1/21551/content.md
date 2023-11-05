@@ -9,41 +9,42 @@ Although it has less emphasis in advanced mathematics, and although its definiti
 $$ \lim_{x \to c} f(x) = L $$
 means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of course, $x$ here is just a dummy variable, so this is really a [[ternary relation]] between $f$, $c$, and $L$.
 
+
 ## Definitions {#definitions}
+
+In all cases, there are two different definitions of limit of a function, depending on whether one uses the definition by [[Nicolas Bourbaki]] or the historical definition, first defined by [[Karl Weierstrass]] in the context of partial functions on the real numbers and later generalized to metric spaces and topological spaces. Bourbaki's definition is commonly used in the French language, while Weierstrass's definition is commonly used in the English language. Weierstrass's definition is also referred to as the *punctured limit* of a function ("limite épointée" in French), because it uses [[accumulation points]] and [[punctured neighborhoods]] instead of [[adherent points]] and [[neighborhoods]]. 
 
 ### In metric spaces
 
-There are two different definitions of limit of a function, depending on whether one follows the French language as defined by Bourbaki or the English language. 
+Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$. Then
 
-Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$. Then, in the sense of the French language,
-
-> the **limit (in the French language) of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+> the **limit of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
 
 Alternatively, let $c$ be an [[accumulation point]] of $X$. Then
 
-> the **limit (in the English language) of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+> the **(punctured) limit of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
 
-In [[dependent type theory]], "there exists" can be represented either by the [[existential quantifier]] or the [[dependent sum type]]. In the latter case, one has an element of the following type for limits in the French language
+In [[dependent type theory]], "there exists" can be represented either by the [[existential quantifier]] or the [[dependent sum type]]. In the latter case, one has an element of the following type for limits as defined by Bourbaki
 
 $$\prod_{\epsilon:\mathbb{R}_+} \sum_{\delta:\mathbb{R}_+} \prod_{x:X} (d_X(x, c) \lt \delta) \to (d_Y(f(x), L) \lt \epsilon)$$
 
-and similarly for limits in the English language
+and similarly for punctured limits
 
 $$\prod_{\epsilon:\mathbb{R}_+} \sum_{\delta:\mathbb{R}_+} \prod_{x:X} (0 \lt d_X(x, c)) \times (d_X(x, c) \lt \delta) \to (d_Y(f(x), L) \lt \epsilon)$$
 
 By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying, respectively 
 
-> the **limit (in the French language) of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+> the **limit (as defined by Bourbaki) of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
 
 $$\sum_{\omega:\mathbb{R}_+ \to \mathbb{R}_+}\prod_{\epsilon:\mathbb{R}_+} \prod_{x:X} (d_X(x, c) \lt \omega(\epsilon)) \to (d_Y(f(x), L) \lt \epsilon)$$
 
-> the **limit (in the English language) of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+> the **(punctured) limit of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
 
 $$\sum_{\omega:\mathbb{R}_+ \to \mathbb{R}_+}\prod_{\epsilon:\mathbb{R}_+} \prod_{x:X} (0 \lt d_X(x, c)) \times (d_X(x, c) \lt \omega(\epsilon)) \to (d_Y(f(x), L) \lt \epsilon)$$
 
 ### In uniform spaces
 
-The definition of a limit of a function in the French language can be generalized from [[metric spaces]] to [[uniform spaces]]:
+The definition of a limit of a function as defined by Bourbaki can be generalized from [[metric spaces]] to [[uniform spaces]]:
 
 Let $(X, \mathcal{U}(X), \approx)$ and $(Y, \mathcal{U}(Y), \approx)$ be [[uniform spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$.  Then, 
 
@@ -211,6 +212,8 @@ if $f$ is continuous at $\lim_c g$.
 * [[function limit space]]
 
 ## References
+
+* Claude Deschamps, François Moulin, André Warusfel et al., Mathématiques tout-en-un MPSI - 4e éd.: conforme au nouveau programme, Concours Ecoles d'ingénieurs, Dunod, 2015. ISBN:9782100730438
 
 * Wikipédia, <a href="https://fr.wikipedia.org/wiki/Limite_(mathématiques)">Limite (mathématiques)</a>
 
