@@ -544,6 +544,8 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 * [[Paul H. Frampton]], *Dual Resonance Models and Superstrings*, World Scientific (1986) &lbrack;[doi:10.1142/0249](https://doi.org/10.1142/0249)&rbrack;
 
+* [[Alexei Morozov]], *String theory: what is it?*, Sov. Phys. Usp. **35** (1992) 671-714 &lbrack;[doi:10.1070/PU1992v035n08ABEH002255](https://iopscience.iop.org/article/10.1070/PU1992v035n08ABEH002255)&rbrack;
+
 * {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996), in: Proceedings of *COSMION 96: 2nd International Conference on Cosmo Particle Physics* Dedicated to the 75th Anniversary of Andrei D. Sakharov, Moscow (1996) &lbrack;[arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067), [spire:969846](https://inspirehep.net/conferences/969846)&rbrack;
 
   > (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
