@@ -37,7 +37,7 @@ Given [[abelian groups]] $G$ and $H$, since we can regard $G$ and $H$ as $\mathb
 
 * (cube relation) For any $x,y,z \in G$,  
 $$q(x+y+z) - q(x+y) - q(x+z) - q(y+z) + q(x) + q(y) + q(z) = 0$$
-* ([[homogeneous function | homogeneous]] of degree 2) For any $x \in G$ and any $r \in \mathbb{Z}$, 
+* ([[homogeneous function|homogeneous]] of degree 2) For any $x \in G$ and any $r \in \mathbb{Z}$, 
 $$q(r x) = \sum_{i=1}^{r^2} q(x)$$ 
 
 ## See also 
