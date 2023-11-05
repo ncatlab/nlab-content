@@ -9,58 +9,51 @@ Although it has less emphasis in advanced mathematics, and although its definiti
 $$ \lim_{x \to c} f(x) = L $$
 means that $f(x)$ is close to $L$ if $x$ is sufficiently close to $c$.  Of course, $x$ here is just a dummy variable, so this is really a [[ternary relation]] between $f$, $c$, and $L$.
 
-
 ## Definitions {#definitions}
 
 ### In metric spaces
 
-There are two different definitions of limit of a function, depending on whether one follows the French language a la [[Nicolas Bourbaki]] or the English language a la [[Karl Weierstrass]]. 
+There are two different definitions of limit of a function, depending on whether one follows the French language as defined by Bourbaki or the English language. 
 
-#### Limits in the French language
+Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$. Then, in the sense of the French language,
 
-Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$.  Then, 
+> the **limit (in the French language) of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
 
-> the **limit of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+Alternatively, let $c$ be an [[accumulation point]] of $X$. Then
 
-In [[dependent type theory]], "there exists" could represented either by the [[existential quantifier]] or the [[dependent sum type]]. In the latter case, one has an element of the following type
+> the **limit (in the English language) of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+
+In [[dependent type theory]], "there exists" can be represented either by the [[existential quantifier]] or the [[dependent sum type]]. In the latter case, one has an element of the following type for limits in the French language
 
 $$\prod_{\epsilon:\mathbb{R}_+} \sum_{\delta:\mathbb{R}_+} \prod_{x:X} (d_X(x, c) \lt \delta) \to (d_Y(f(x), L) \lt \epsilon)$$
 
-By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying 
-
-> the **limit of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
-
-$$\sum_{\omega:\mathbb{R}_+ \to \mathbb{R}_+}\prod_{\epsilon:\mathbb{R}_+} \prod_{x:X} (d_X(x, c) \lt \omega(\epsilon)) \to (d_Y(f(x), L) \lt \epsilon)$$
-
-#### Limits in the English language
-
-Let $(X, d_X)$ and $(Y, d_Y)$ be [[metric spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[accumulation point]] of $X$, and let $L$ be an element in $Y$.  Then, 
-
-> the **limit of $f$ approaching $c$** is $L$ if for all positive real numbers $\epsilon$ there exists a positive real number $\delta$ such that for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \delta$ implies that $d_Y(f(x), L) \lt \epsilon$. 
-
-In [[dependent type theory]], "there exists" could represented either by the [[existential quantifier]] or the [[dependent sum type]]. In the latter case, one has an element of the following type
+and similarly for limits in the English language
 
 $$\prod_{\epsilon:\mathbb{R}_+} \sum_{\delta:\mathbb{R}_+} \prod_{x:X} (0 \lt d_X(x, c)) \times (d_X(x, c) \lt \delta) \to (d_Y(f(x), L) \lt \epsilon)$$
 
-By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying 
+By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying, respectively 
 
-> the **limit of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+> the **limit (in the French language) of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
+
+$$\sum_{\omega:\mathbb{R}_+ \to \mathbb{R}_+}\prod_{\epsilon:\mathbb{R}_+} \prod_{x:X} (d_X(x, c) \lt \omega(\epsilon)) \to (d_Y(f(x), L) \lt \epsilon)$$
+
+> the **limit (in the English language) of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathbb{R}_+ \to \mathbb{R}_+$ such that for all positive real numbers $\epsilon$ and for all elements $x \in X$, $0 \lt d_X(x, c)$ and $d_X(x, c) \lt \omega(\epsilon)$ implies that $d_Y(f(x), L) \lt \epsilon$. 
 
 $$\sum_{\omega:\mathbb{R}_+ \to \mathbb{R}_+}\prod_{\epsilon:\mathbb{R}_+} \prod_{x:X} (0 \lt d_X(x, c)) \times (d_X(x, c) \lt \omega(\epsilon)) \to (d_Y(f(x), L) \lt \epsilon)$$
 
 ### In uniform spaces
 
-The definition of a limit of a function in the French language could be generalized from [[metric spaces]] to [[uniform spaces]]:
+The definition of a limit of a function in the French language can be generalized from [[metric spaces]] to [[uniform spaces]]:
 
 Let $(X, \mathcal{U}(X), \approx)$ and $(Y, \mathcal{U}(Y), \approx)$ be [[uniform spaces]], and let $f$ be a [[function]] from $X$ to $Y$, let $c$ be an [[adherent point]] of $X$, and let $L$ be an element in $Y$.  Then, 
 
 > the **limit of $f$ approaching $c$** is $L$ if for all [[entourages]] $E \in \mathcal{U}(Y)$ there exists an entourage $D \in \mathcal{U}(X)$ such that for all elements $x \in X$, $x \approx_D c$ implies that $f(x) \approx_E L$. 
 
-In [[dependent type theory]], "there exists" could represented either by the [[existential quantifier]] or the [[dependent sum type]]. In the latter case, one has an element of the following type
+And similarly, in [[dependent type theory]], if one were using the [[dependent sum type]] to represent "there exists", one has an element of the following type
 
 $$\prod_{E:\mathcal{U}(Y)} \sum_{D:\mathcal{U}(X)} \prod_{x:X} (x \approx_D c) \to (f(x) \approx_E L)$$
 
-By the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], this is the same as saying 
+which, by the [[type theoretic axiom of choice]], which is simply the distributivity of [[dependent function types]] over [[dependent sum types]], is the same as saying 
 
 > the **limit of $f$ approaching $c$** is $L$ if there exists as structure a function $\omega:\mathcal{U}(Y) \to \mathcal{U}(X)$ such that for all entourages $E$ and for all elements $x \in X$, $x \approx_{\omega(E)} c$ implies that $f(x) \approx_E L$. 
 
@@ -167,7 +160,7 @@ For the general restricted case, write
 $$ \lim_{x \to c \atop x \in C} f(x) $$
 for the limit of $f$ approaching $c$ in $C$.  The dummy variable is quite useful here, since neither $f$ nor $C$ have to be given names but can be given by formulas instead.  (For example, $f(c^+)$ is $\lim_{x \to c \atop x \gt c} f(x)$.)
 
-In the non-Hausdorff case, we can use the same notation but interpret it as referring to a [[subset]] of $Y$ instead of an element of $Y$.  Then this subset always exists; it just might be [[empty subset|empty]].  Sometimes a capitalized $Lim$ is used to emphasize that this is now a set.  This set could also be taken to be all of $Y$ whenever $c$ is not a limit point of the appropriate kind, but this is likely to lead to confusion if not explicitly warned about.
+In the non-Hausdorff case, we can use the same notation but interpret it as referring to a [[subset]] of $Y$ instead of an element of $Y$.  Then this subset always exists; it just might be [[empty subset|empty]].  Sometimes a capitalized $Lim$ is used to emphasize that this is now a set.  This set can also be taken to be all of $Y$ whenever $c$ is not a limit point of the appropriate kind, but this is likely to lead to confusion if not explicitly warned about.
 
 Another notation, especially useful when $Y$ is non-Hausdorff, but common even in the Hausdorff case, is
 $$ f(x) \underset{x \to c}{\to} L $$
