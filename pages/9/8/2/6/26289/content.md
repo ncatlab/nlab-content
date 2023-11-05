@@ -37,7 +37,7 @@ We adopt Ko's terminology, which appears the most evocative.
 
 ## Definition
 
-Let $F : A \to B$ be a [[2-functor]] between [[2-categories]], and let $A'$ be a full and locally full sub-2-category of $A$ (alternatively: a class of morphisms of $A$ closed under identities and composition). A **marked-lax limit** of $(A', F)$ is an object $m_l lim (A', F)$ together with a family of isomorphisms
+Let $F : A \to B$ be a [[2-functor]] between [[2-categories]], and let $A'$ be a locally full sub-2-category of $A$ (alternatively: a class of morphisms of $A$ closed under identities and composition). A **marked-lax limit** of $(A', F)$ is an object $m_l lim (A', F)$ together with a family of isomorphisms
 $$B(b, m_l lim (A', F)) \cong [A, B]_{l, A'}(\Delta(b), F)$$
 natural in $b \in B$, where $[A, B]_{l, A'}(\Delta(b), F)$ is the 2-category of [[2-functors]] $A \to B$, marked-lax natural transformations ([[lax natural transformations]] $\alpha$ such that $\alpha_f = 1$ if $f \in A'$), and [[modifications]].
 
