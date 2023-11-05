@@ -83,6 +83,10 @@ On simulation of quantum spin chains on [[quantum computers]]:
 
 * M. Gluza, M. Kliesch, [[Jens Eisert]], [[Leandro Aolita]], *Fidelity witnesses for fermionic quantum simulations*, Phys. Rev. Lett. **120** 190501 (2018) &lbrack;[arXiv:1703.03152](https://arxiv.org/abs/1703.03152), [doi:10.1103/PhysRevLett.120.190501](https://doi.org/10.1103/PhysRevLett.120.190501)&rbrack;
 
+In [[holographic CMT]]:
+
+* Naoto Yokoi, Yasuyuki Oikawa, Eiji Saitoh, *Holographic Dual of Quantum Spin Chain as Chern-Simons-Scalar Theory* &lbrack;[arXiv:2310.01890](https://arxiv.org/abs/2310.01890)&rbrack:
+
 
 
 [[!redirects spin chains]]
