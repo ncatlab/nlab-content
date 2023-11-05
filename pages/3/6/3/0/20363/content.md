@@ -71,6 +71,11 @@ For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa
 
 The category of condensed sets $CondSet$ is then the (large) [[colimit]] of the category of $\kappa$-condensed sets along the [[filtered category|filtered]] [[poset]] of all uncountable [[strong limit cardinals]] $\kappa$, hence is the category of [[small sheaves]].
 
+Another possible way to deal with set theoretic issue is presented in [Analytic Stacks](#ClausenScholze23):
+
+The category of light profinite sets is the full subcategory of $ProfiniteSet$ consisting of countable limits of finite sets. 
+The category of light condensed sets $LightCondSet$ is the [[category of sheaves]] on the [[site]] of light profinite sets with finite jointly surjective families of maps as covers. 
+
 ## Equivalence of sites
 
 Several different [[sites]] can be used to define [[condensed sets]], and, more generally, condensed [[∞-groupoids]]:
@@ -138,6 +143,7 @@ structures, but in this case, the underlying set is not $T(*)$.
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
 * {#Scholze21} [[Peter Scholze]], Math Stack Exchange [answer](https://math.stackexchange.com/a/4199337/368788).
 * {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/abstract.cgi?talkid=1645).
+* {#ClausenScholze23}[[Dustin Clausen]], [[Peter Scholze]], _Analytic Stacks,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLx5f8IelFRgGmu6gmL-Kf_Rl_6Mm7juZO), [website](https://indico.math.cnrs.fr/event/10345/)
 
 The equivalence of various sites for condensed sets is established in
 
