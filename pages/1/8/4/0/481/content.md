@@ -38,6 +38,8 @@ Any [[topos]], and in fact any [[well-powered category|well-powered]] [[infinita
 
 Every [[locally cartesian closed category|locally cartesian closed]] [[coherent category]] is a [[Heyting category]], because the [[dependent product]] [[functors]] preserve [[monomorphisms]]. This implies that every [[Pi-pretopos]] is a [[Heyting pretopos]]. 
 
+In particular, the [[h-sets]] in [[Martin-Löf type theory]] with [[propositional truncations]] form a Heyting category. 
+
 ## Related concepts
 
 * [[De Morgan Heyting category]]
