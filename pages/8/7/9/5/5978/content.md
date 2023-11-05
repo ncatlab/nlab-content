@@ -55,9 +55,11 @@ On [[comonads]] (such as dual to the [[codensity monad]]):
 
 On [[monadic cohomology]] via [[canonical resolutions]]:
 
-* [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+* [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
+On [[Hochschild cohomology]] in relation to [[monadic cohomology]] of [[algebras]]:
 
+* [[Michael Barr]], *Cohomology and obstructions: commutative algebras*, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 357–374 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf), [pdf](https://www.math.mcgill.ca/barr/papers/obstruct.pdf)&rbrack;
 
 (...)
 
