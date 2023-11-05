@@ -70,7 +70,7 @@ or equivalently, such that
 +-- {: .num_remark}
 ###### Remark
 
-One can show that a small category $\mathcal{C}$ is a weak test category if and only if both the unit $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$ and the co-unit $\eta : Id_{\mathcal{C}Set/X}\to i^*_{\mathcal{C}}i_{\mathcal{C}}$ are weak equivalence; see Lemme 1.3.8 and Proposition 1.3.9 in ([Maltsiniotis](#Maltsin05)). In particular, one then has an equivalence of categories
+One can show that a small category $\mathcal{C}$ is a weak test category if and only if both the unit $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$ and the co-unit $\eta : Id_{\mathcal{C}Set}\to i^*_{\mathcal{C}}i_{\mathcal{C}}$ are weak equivalence; see Lemme 1.3.8 and Proposition 1.3.9 in ([Maltsiniotis](#Maltsin05)). In particular, one then has an equivalence of categories
 $$Ho(\mathcal{C}Set)\cong Ho(Cat)\, .$$
 
 An example of weak test category which is not a test category is the category $\Delta_+$ (so that a presheaf on $\Delta_+$ is a [[semi-simplicial set]]). This comes from a more general family of examples studied in ([Cisinski, Maltsiniotis](#CisMal11)).
