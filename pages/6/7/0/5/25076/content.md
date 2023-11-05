@@ -34,10 +34,14 @@ Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding
 
 > $[$[old personal page](https://phy.princeton.edu/people/alexander-polyakov)$]$: "My main interests this year $[$1993?$]$ were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances."
 
+Cf. also
+
+* [[Alexei Morozov]], p. 6 of: *String theory: what is it?*, Sov. Phys. Usp. **35** (1992) 671-714 \[<a href="https://iopscience.iop.org/article/10.1070/PU1992v035n08ABEH002255">doi:10.1070/PU1992v035n08ABEH002255</a>\]
+
 
 Early suggestion, due to the [[Liouville theory|Liouville field]] seen in the [[quantization]] of the [[bosonic string]] via the [[Polyakov action]], 
 
-* {#Polyakov81} [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 $[$<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)$]$
+* {#Polyakov81} [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 \[<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)\]
 
 that such [[flux tubes]] regarded as [[confinement|confining]] [[strings]] are to be thought of a probing higher dimensional spacetime, exhibiting a [[holographic principle]] in which actual spacetime appears as a [[intersecting brane model|brane]]:
 
