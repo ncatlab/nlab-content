@@ -300,3 +300,50 @@ $$
   }
   \,.
 $$
+
+Diagram test
+
+
+\begin{center}
+\begin{tikzcd}[column sep=small]
+	V && U \\
+	& X
+	\arrow[hook, from=1-1, to=1-3]
+	\arrow[from=1-1, to=2-2]
+	\arrow[from=1-3, to=2-2]
+\end{tikzcd}
+\end{center}
+
+## Definition
+
+Given a [[topological space]] $X$, the **category of open subsets** $Op(X)$ of $X$ is the [[category]] whose
+
+* [[object | objects]] are the [[open subset | open subsets]] $U \hookrightarrow X$ of $X$;
+
+* [[morphism | morphisms]] are the inclusions 
+
+## Properties
+
+* The category $Op(X)$ is a [[poset]], in fact a [[frame]] (dually a [[locale]]): it is the [[frame of opens]] of $X$.
+
+* The category $Op(X)$ is naturally equipped with the
+structure of a [[site]], where a collection $\{U_i \to U\}_i$ of morphisms is a cover precisely if their [[union]] in $X$ equals $U$:
+$$ \bigcup_i U_i = U .$$
+
+  The [[category of sheaves]] on $Op(X)$ equipped with this site structure is typically referred to as the _[[category of sheaves on a topological space|category of sheaves on the topological space]]_ and denoted
+
+  $$
+    Sh(X) \;\coloneq\; Sh(Op(X))
+    \,.
+  $$
+
+* The category $Op(X)$ is also a [[suplattice]].
+
+
+## Related concepts
+
+* [[spatial locale]]
+
+* [[spatial topos]]
+
+
