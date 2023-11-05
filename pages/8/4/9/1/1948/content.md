@@ -66,6 +66,7 @@ where $C$ carries the [[structure]] of
 
 Then the projective model structure $[D,C]_{proj}$ on the [[enriched functor category]] exists, and is again cofibrantly generated.
 \end{theorem}
+(For $\mathbf{S} = $ [[Sets]] this is [Hirschhorn 2002, Thm. 11.6.1](#Hirschhorn02).).
 \begin{proof}
 Assuming the existence of such copowers, for any $x\in ob(D)$ the "[[evaluation]] at $x$" functor $ev_x \colon [D,C]\longrightarrow C$ has a [[left adjoint]] $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
 \end{proof}
@@ -448,9 +449,9 @@ See also
 
 * [[Alex Heller]], _Homotopy in functor categories_, Transactions of the AMS, vol 272, Number 1, July 1982 ([JSTOR](http://www.jstor.org/stable/1998955))
 
-General review and discussion includes
+Textbook account of the projective model structure
 
-* [[Philip Hirschhorn]], section 11.6 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+* {#Hirschhorn02} [[Philip Hirschhorn]], §6.11 in: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs **99** (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/pshmain.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
 The injective model structure for unenriched diagrams of simplicial sets was first constructed by
 
