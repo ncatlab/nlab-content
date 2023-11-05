@@ -74,11 +74,11 @@ Note that both a left-closed (non-symmetric) monoidal category and a right-close
 
 ### The Eilenberg-Kelly definition
 
-The above definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from Eilenberg-Kelly's original definition, which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ (naturally, i.e. as a strict equality of functors $C^{op}\times C\to Set$) and that the resulting isomorphism
+The above definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from the original definition in [Eilenberg & Kelly 1965](#EK65), which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ (naturally, i.e. as a strict equality of functors $C^{op}\times C\to Set$) and that the resulting isomorphism
 $$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
 sends $1_X$ to $j_X$.  (This is then essentially a definition of $j_X$, so that it could be omitted from the definition.)
 
-The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of Eilenberg-Kelly.  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).  See [Manzyuk](#Manzyuk09) for the proof.
+The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of [Eilenberg & Kelly 1965](#EK65).  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).  See [Manzyuk](#Manzyuk09) for the proof.
 
 ### Omitting units: prounital closed categories
 
