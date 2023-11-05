@@ -22,9 +22,9 @@ In [[dependent type theories]] with more than one layer of type, dependent exten
 
 In [[type theory with shapes]], there are three different layers - there are the cube layer and the tope layer, which is [[logic over type theory]] where the cubes are the types and the topes are the propositions in the logic over type theory, and finally there is the type layer, which is a [[dependent type theory]]. 
 
-Shapes are formed in the usual set-builder notation in [[set theory]]: given a cube $I$ and a predicate tope $t:I \vdash \phi$, one could construct the shape $\{t:I \vert \phi\}$. A cofibration in two-level type theory is an inclusion of shapes, which means shapes $\{t:I \vert \phi\}$ and $\{t:I \vert \psi\}$ with a predicate $t:I \vert \phi \vdash \psi$. 
+Shapes are formed in the usual set-builder notation in [[set theory]]: given a cube $I$ and a predicate tope $t:I \vdash \phi$, one could construct the shape $\{t:I \vert \phi\}$. A cofibration in a type theory with shapes is an inclusion of shapes, which means shapes $\{t:I \vert \phi\}$ and $\{t:I \vert \psi\}$ with a predicate $t:I \vert \phi \vdash \psi$. 
 
-Formation rules for dependent extension types
+Formation rules for dependent extension types:
 $$\frac{
 \begin{array}{l}
 \{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
@@ -32,7 +32,7 @@ $$\frac{
 \end{array}
 }{\Xi \vert \Phi \vert \Gamma \vdash \langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \; \mathrm{type}}$$
 
-Introduction rules for dependent extension types
+Introduction rules for dependent extension types:
 $$\frac{
 \begin{array}{l}
 \{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
