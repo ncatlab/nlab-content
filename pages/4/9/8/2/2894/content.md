@@ -115,11 +115,11 @@ where $f$ is an arbitrary coalgebra map and $j: F \hookrightarrow X$ is a finite
 
 ## References 
 
-* Michael Barr, [Coalgebras over a commutative ring](http://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), J. Alg. 32 (1974), 600--610. 
- {#Barr}
+* {#Barr} [[Michael Barr]], *Coalgebras over a commutative ring*, Journal of Algebra **32** 3 (1974) 600-610 &lbrack;<a href="https://doi.org/10.1016/0021-8693(74)90161-6">doi:10.1016/0021-8693(74)90161-6</a>, [pdf](https://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), [[Barr-Coalgebras.pdf:file]]&rbrack;
 
-* Hans-Eberhard Porst, [On corings and comodules](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf), Archivum Mathematicum (2006), No. 4, 419-425. 
- {#Porst} 
+
+* {#Porst} [[Hans-Eberhard Porst]], *On corings and comodules*, Archivum Mathematicum **42** 4 (2006) 419-425 &lbrack;[dmlcz:108017](https://dml.cz/handle/10338.dmlcz/108017), [pdf](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf)&rbrack; 
+  
 
 * Ana L. Agore, _Limits of Coalgebras, Bialgebras and Hopf Algebras_, arxiv.org/pdf/1003.0318, 2010. ([pdf](http://arxiv.org/pdf/1003.0318.pdf)) 
  {#Agore} 
