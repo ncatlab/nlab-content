@@ -249,6 +249,8 @@ If both propositional truncations and the boolean domain have [[judgmental equal
 
 * [[square type]]
 
+* [[line type]]
+
 * [[cubical type theory]]
 
 ## References
