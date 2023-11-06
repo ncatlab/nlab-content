@@ -89,11 +89,11 @@ The [[disjoint union]] $\mathbb{Z} + \{\infty\}$ is the [[integers object]] in t
 \end{example}
 
 \begin{example}
-The [[localization of a commutative ring|localization]] of the polynomial ring $\mathbb{Z}[X]$ away from the indeterminant $X$, $\mathbb{Z}[X][1/X]$, could be thought of as the ring of "polynomial decimals", in the same way that the localization of $\mathbb{Z}$ away from the integer $10$, $\mathbb{Z}[1/10]$, is the ring of [[decimal numbers]]. The underlying abelian group of $\mathbb{Z}[X][1/X]$ is the integers object in the closed symmetric monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X][1/X]$ taking [[integers]] to constant "polynomial decimals" (with no indeterminant) and $s:\mathbb{Z}[X][1/X] \cong \mathbb{Z}[X][1/X]$ multiplying "polynomial decimals" by the indeterminant $X$. 
+The underlying abelian group of the [[ring of Laurent polynomials]] $\mathbb{Z}[X, X^{-1}]$ is the integers object in the closed symmetric monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X, X^{-1}]$ taking [[integers]] to constant [[Laurent polynomials]] and the [[abelian group]] [[isomorphism]] $s:\mathbb{Z}[X, X^{-1}] \cong \mathbb{Z}[X, X^{-1}]$ multiplying Laurent polynomials by the indeterminant $X$. 
 \end{example}
 
 \begin{example}
-More generally, given a [[commutative ring]] $R$, the underlying $R$-module of the [[localization of a commutative ring|localization]] of the polynomial ring $R[X]$ away from the indeterminant $X$ is the integers object in the closed symmetric monoidal category [[RMod]], with $z:R \to R[X][1/X]$ taking [[scalars]] to constant "polynomial decimals" and $s:R[X][1/X] \cong R[X][1/X]$ multiplying "polynomial decimals" by the indeterminant $X$. 
+More generally, given a [[commutative ring]] $R$, the underlying $R$-module of the [[ring of Laurent polynomials]] $R[X, X^{-1}]$ is the integers object in the closed symmetric monoidal category [[RMod]], with $z:R \to R[X, X^{-1}]$ taking [[scalars]] to constant [[Laurent polynomials]] and the [[linear isomorphism]] $s:R[X, X^{-1}] \cong R[X, X^{-1}]$ multiplying Laurent polynomials by the indeterminant $X$. 
 \end{example}
 
 ### In a sheaf topos
