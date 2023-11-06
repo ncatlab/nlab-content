@@ -197,17 +197,7 @@ Thus, the integers type is a non-coherent [[H-space]].
 \end{proof}
 
 \begin{theorem}
-The integers type is a non-coherent [[A3-space]], an associative non-coherent H-space. 
-\end{theorem}
-
-\begin{proof}
-...
-\end{proof}
-
-To do: figure out a way to prove that the integers type is [[0-truncated]] without using the [[natural numbers type]]. Then we define the natural numbers type $\mathbb{N}$ as the quotient of the integers type by its [[group of units]] $\mathbb{Z}/\mathbb{Z}^\times$. 
-
-\begin{theorem}
-The [[natural numbers type]] $\mathbb{N}$ is [[0-truncated]]. 
+The integers type is an associative non-coherent H-space. 
 \end{theorem}
 
 \begin{proof}
@@ -215,31 +205,19 @@ The [[natural numbers type]] $\mathbb{N}$ is [[0-truncated]].
 \end{proof}
 
 \begin{theorem}
-The natural numbers type $\mathbb{N}$ and the integers type $\mathbb{Z}$ are equivalent to each other. 
+The integers type is invertible with respect to the H-space structure of addition - such that given an integer $x:\mathbb{Z}$, left addition and right addition by $x$ is each an [[equivalence of types]]. 
 \end{theorem}
 
 \begin{proof}
 ...
 \end{proof}
 
-\begin{theorem}
-The integers type $\mathbb{Z}$ is a [[monoid]], a [[0-truncated]] non-coherent A3-space. 
-\end{theorem}
-
-\begin{proof}
-Since $\mathbb{N}$ is [[0-truncated]], and equivalences preserve truncatedness, by the equivalence $e:\mathbb{N} \simeq \mathbb{Z}$, $\mathbb{Z}$ is also 0-truncated. Since $\mathbb{Z}$ is a non-coherent A3-space, this implies that $\mathbb{Z}$ is a monoid. 
-\end{proof}
+\begin{corollary}
+The integers type is a non-coherent [[H-group]], a non-coherent [[H-space]] which is invertible and associative. 
+\end{corollary}
 
 \begin{theorem}
-The integers type is a [[group]], a monoid such that given an integer $x:\mathbb{Z}$, left addition and right addition by $x$ is each an [[equivalence of types]]. 
-\end{theorem}
-
-\begin{proof}
-...
-\end{proof}
-
-\begin{theorem}
-The integers type is an abelian group.
+The integers type is non-coherently abelian with respect to addition.
 \end{theorem}
 
 \begin{proof}
@@ -283,10 +261,40 @@ For all $x:\mathbb{Z}$ and $y:\mathbb{Z}$, we have an identification of type
 $$x - y =_\mathbb{Z} x + (- y)$$
 \end{theorem}
 
+### Set-truncation structure
+
+To do: figure out a way to prove that the integers type is [[0-truncated]] without using the [[natural numbers type]]. Then we define the natural numbers type $\mathbb{N}$ as the quotient of the integers type by its [[group of units]] $\mathbb{Z}/\mathbb{Z}^\times$. 
+
+\begin{theorem}
+The [[natural numbers type]] $\mathbb{N}$ is [[0-truncated]]. 
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
+
+\begin{theorem}
+The natural numbers type $\mathbb{N}$ and the integers type $\mathbb{Z}$ are equivalent to each other. 
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
+
+\begin{corollary}
+The integers type are an abelian group.
+\end{corollary}
+
+\begin{proof}
+Since $\mathbb{N}$ is [[0-truncated]], and equivalences preserve truncatedness, by the equivalence $e:\mathbb{N} \simeq \mathbb{Z}$, $\mathbb{Z}$ is also 0-truncated. Since $\mathbb{Z}$ is an non-coherently abelian [[H-group]], this implies that $\mathbb{Z}$ is a [[abelian group]]. 
+\end{proof}
+
 ### Multiplication on the integers
 
+To do: figure out a way to prove the various properties of multiplication without using the fact that the integers are a set (i.e. the integers are a non-coherently abelian H-ring).
+
 \begin{definition}
-Since the integers form an abelian group with respect to addition, right addition by an integer $k$, $\lambda z:\mathbb{Z}.z + k$, is an equivalence.
+Since the integers are a non-coherently abelian H-group with respect to addition, right addition by an integer $k$, $\lambda z:\mathbb{Z}.z + k$, is an equivalence.
 
 The binary operation **multiplication** is defined by double induction, where the type family $C$ is the constant type family $\mathbb{Z}$, $c_{0, 0}$ is $0$, $c_{0, s}$ and $c_{s, 0}$ are both the constant function $\lambda n:\mathbb{Z}.\mathrm{id}_\mathbb{Z}$ which takes integers to the [[identity equivalence]] on the integers, and $c_{s, s}$ is the function $\lambda m:\mathbb{Z}.\lambda n:\mathbb{Z}.\lambda z:\mathbb{Z}.z + s(m + n)$ which takes pairs of integers to the equivalence $\lambda z:\mathbb{Z}.z + s(m + n)$, and is defined pointwise as
 
@@ -342,7 +350,7 @@ Thus, by induction on the integers, we have
 
 $$\mathrm{rabsorp}_\mathbb{Z} \equiv \mathrm{ind}_\mathbb{Z}^{x:\mathbb{Z}.0 \cdot x =_\mathbb{Z} 0}(\beta_\mathbb{Z}^{\cdot, 0, 0}, \lambda x:\mathbb{Z}.\mathrm{transport}_{x:\mathbb{Z}.x =_\mathbb{Z} 0}(x \cdot 0, s(x) \cdot 0, \beta_\mathbb{Z}^{\cdot, s, 0}(x)^{-1})):\prod_{x:\mathbb{Z}} x \cdot 0 =_\mathbb{Z} 0$$
 
-Since the integers are an abelian group, they are a set and thus an absorption magma with respect to zero and multiplication. 
+Thus, the integers are an absorption magma with respect to zero and multiplication. 
 \end{proof}
 
 \begin{theorem}
@@ -470,8 +478,10 @@ Concatenating with $\beta_\mathbb{Z}^{\cdot, 0, 0}$ results in the required iden
 
 $$\beta_\mathbb{Z}^{\cdot, 0, s}(0) \bullet \beta_\mathbb{Z}^{\cdot, 0, 0}:0 \cdot s(0) =_{\mathbb{Z}} 0$$
 
-Similarly, we have the family of identifications
+Then we need to show that for all $x:\mathbb{Z}$ we have an equivalence 
+$$(x \cdot s(0) =_{\mathbb{Z}} x) \simeq (s(x) \cdot s(0) =_{\mathbb{Z}} s(x))$$
 
+We have the family of identifications
 $$x:\mathbb{Z} \vdash \beta_\mathbb{Z}^{\cdot, s, s}(x, 0):s(x) \cdot s(0) =_{\mathbb{Z}} x \cdot 0 + s(x + 0)$$
 
 Since multiplication is an absorption magma, we have identifications 
@@ -479,14 +489,110 @@ $$\mathrm{rabsorp}_\mathbb{Z}(x):x \cdot 0 =_\mathbb{Z} 0$$
 so [[function application to identifications|application of the function]] $\lambda z:\mathbb{Z}.z + s(x + 0)$ to the above identification results in the identification 
 $$\mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(x + 0)}(x \cdot 0, 0, \mathrm{rabsorp}_\mathbb{Z}(x)):x \cdot 0 + s(x + 0) =_{\mathbb{Z}} 0 + s(x + 0)$$
 The left unit law for addition results in 
-$$0 + s(x + 0) =_{\mathbb{Z}} s(x + 0)$$
+$$\mathrm{lunitadd}_\mathbb{Z}(s(x + 0)):0 + s(x + 0) =_{\mathbb{Z}} s(x + 0)$$
 and application of the successor equivalence to the right unit law results in
-$$s(x + 0) =_{\mathbb{Z}} s(x)$$
+$$\mathrm{ap}_s(x + 0, x, \mathrm{runitadd}_\mathbb{Z}(x)):s(x + 0) =_{\mathbb{Z}} s(x)$$
 
 Concatenating all the identifications leads to the identification 
 
-$$s(x) \cdot s(0) =_{\mathbb{Z}} s(x)$$
+$$\beta_\mathbb{Z}^{\cdot, s, s}(x, 0) \bullet \mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(x + 0)}(x \cdot 0, 0, \mathrm{rabsorp}_\mathbb{Z}(x)) \bullet \mathrm{lunitadd}_\mathbb{Z}(s(x + 0)) \bullet \mathrm{ap}_s(x + 0, x, \mathrm{runitadd}_\mathbb{Z}(x)):s(x) \cdot s(0) =_{\mathbb{Z}} s(x)$$
+
+Similarly, by substituting $s^{-1}(x)$ in for $x$ in the above expression, we have 
+
+$$\beta_\mathbb{Z}^{\cdot, s, s}(s^{-1}(x), 0) \bullet \mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(s^{-1}(x) + 0)}(s^{-1}(x) \cdot 0, 0, \mathrm{rabsorp}_\mathbb{Z}(s^{-1}(x))) \bullet \mathrm{lunitadd}_\mathbb{Z}(s(s^{-1}(x) + 0)) \bullet \mathrm{ap}_s(s^{-1}(x) + 0, s^{-1}(x), \mathrm{runitadd}_\mathbb{Z}(s^{-1}(x))):s(s^{-1}(x)) \cdot s(0) =_{\mathbb{Z}} s(s^{-1}(x))$$
+
+In addition, we have the right inverse [[homotopy]]
+$$\mathrm{rinv}_s:\prod_{x:\mathbb{Z}} s(s^{-1}(x)) =_\mathbb{Z} x$$
+so by [[transport]] across the identity $\mathrm{rinv}_s(x)$ for the type family $z \cdot s(0) =_\mathbb{Z} x$, we also have the equivalence
+$$\mathrm{transport}_{z:\mathbb{Z}.z \cdot s(0) =_\mathbb{Z} x}(s(s^{-1}(x)), x, \mathrm{rinv}_s(x)):(s(s^{-1}(x)) \cdot s(0) =_{\mathbb{Z}} x) \simeq (x \cdot s(0) =_{\mathbb{Z}} x)$$
+
+Thus, we have the identification 
+$$\begin{array}{c}
+\mathrm{transport}_{z:\mathbb{Z}.z \cdot s(0) =_\mathbb{Z} x}(s(s^{-1}(x)), x, \mathrm{rinv}_s(x))(\beta_\mathbb{Z}^{\cdot, s, s}(s^{-1}(x), 0) \bullet \mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(s^{-1}(x) + 0)}(s^{-1}(x) \cdot 0, 0, \mathrm{rabsorp}_\mathbb{Z}(s^{-1}(x))) \\ 
+\bullet \mathrm{lunitadd}_\mathbb{Z}(s(s^{-1}(x) + 0)) \bullet \mathrm{ap}_s(s^{-1}(x) + 0, s^{-1}(x), \mathrm{runitadd}_\mathbb{Z}(s^{-1}(x))) \bullet \mathrm{rinv}_s(x)):x \cdot s(0) =_{\mathbb{Z}} x
+\end{array}$$
+
+Since $\mathbb{Z}$ is a set, the [[identity types]] $x \cdot s(0) =_{\mathbb{Z}} x$ and $s(x) \cdot s(0) =_{\mathbb{Z}} s(x)$ are both propositions, and since they have identifications, both types are [[contractible types]]. All contractible types are equivalent to each other; thus there is an equivalence
+
+$$f(x):(x \cdot s(0) =_{\mathbb{Z}} x) \simeq (s(x) \cdot s(0) =_{\mathbb{Z}} s(x))$$
+
+Then, by induction on the integers, there is the homotopy
+
+$$\mathrm{runitmul}_\mathbb{Z}:\mathrm{ind}_{\mathbb{Z}}^{x \cdot s(0) =_{\mathbb{Z}} x}(\beta_\mathbb{Z}^{\cdot, 0, s}(0) \bullet \beta_\mathbb{Z}^{\cdot, 0, 0}, \lambda x:\mathbb{Z}.f(x)):\prod_{x:\mathbb{Z}} x \cdot s(0) =_{\mathbb{Z}} x$$
+
+Next, we derive the left unital laws, that $s(0) \cdot x =_\mathbb{Z} x$. By the computation rules for the integers type, we have
+
+$$\beta_\mathbb{Z}^{\cdot, s, 0}(0):s(0) \cdot 0 =_{\mathbb{Z}} 0 \cdot 0$$
+
+Concatenating with $\beta_\mathbb{Z}^{\cdot, 0, 0}$ results in the required identification
+
+$$\beta_\mathbb{Z}^{\cdot, s, 0}(0) \bullet \beta_\mathbb{Z}^{\cdot, 0, 0}:s(0) \cdot 0 =_{\mathbb{Z}} 0$$
+
+Then we need to show that for all $x:\mathbb{Z}$ we have an equivalence 
+$$(s(0) \cdot x =_{\mathbb{Z}} x) \simeq (s(0) \cdot s(x) =_{\mathbb{Z}} s(x))$$
+
+We have the family of identifications
+$$x:\mathbb{Z} \vdash \beta_\mathbb{Z}^{\cdot, s, s}(0, x):s(0) \cdot s(x) =_{\mathbb{Z}} 0 \cdot x + s(0 + x)$$
+
+Since multiplication is an absorption magma, we have identifications 
+$$\mathrm{labsorp}_\mathbb{Z}(x):0 \cdot x =_\mathbb{Z} 0$$ 
+so [[function application to identifications|application of the function]] $\lambda z:\mathbb{Z}.z + s(0 + x)$ to the above identification results in the identification 
+$$\mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(0 + x)}(0 \cdot x, 0, \mathrm{labsorp}_\mathbb{Z}(x)):0 \cdot x + s(0 + x) =_{\mathbb{Z}} 0 + s(0 + x)$$
+The left unit law for addition results in 
+$$\mathrm{lunitadd}_\mathbb{Z}(s(0 + x)):0 + s(0 + x) =_{\mathbb{Z}} s(0 + x)$$
+and application of the successor equivalence to the left unit law results in
+$$\mathrm{ap}_s(0 + x, x, \mathrm{runitadd}_\mathbb{Z}(x)):s(0 + x) =_{\mathbb{Z}} s(x)$$
+
+Concatenating all the identifications leads to the identification 
+
+$$\beta_\mathbb{Z}^{\cdot, s, s}(0, x) \bullet \mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(0 + x)}(0 \cdot x, 0, \mathrm{labsorp}_\mathbb{Z}(x)) \bullet \mathrm{lunitadd}_\mathbb{Z}(s(0 + x)) \bullet \mathrm{ap}_s(0 + x, x, \mathrm{lunitadd}_\mathbb{Z}(x)):s(0) \cdot s(x) =_{\mathbb{Z}} s(x)$$
+
+Similarly, by substituting $s^{-1}(x)$ in for $x$ in the above expression, we have 
+
+$$\beta_\mathbb{Z}^{\cdot, s, s}(0, s^{-1}(x)) \bullet \mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(0 + s^{-1}(x))}(0 \cdot s^{-1}(x), 0, \mathrm{labsorp}_\mathbb{Z}(s^{-1}(x))) \bullet \mathrm{lunitadd}_\mathbb{Z}(s(0 + s^{-1}(x))) \bullet \mathrm{ap}_s(0 + s^{-1}(x), s^{-1}(x), \mathrm{lunitadd}_\mathbb{Z}(s^{-1}(x))):s(0) \cdot s(s^{-1}(x)) =_{\mathbb{Z}} s(s^{-1}(x))$$
+
+In addition, we have the right inverse [[homotopy]]
+$$\mathrm{rinv}_s:\prod_{x:\mathbb{Z}} s(s^{-1}(x)) =_\mathbb{Z} x$$
+so by [[transport]] across the identity $\mathrm{rinv}_s(x)$ for the type family $s(0) \cdot z =_\mathbb{Z} x$, we also have the equivalence
+$$\mathrm{transport}_{z:\mathbb{Z}.s(0) \cdot z =_\mathbb{Z} x}(s(s^{-1}(x)), x, \mathrm{rinv}_s(x)):s(0) \cdot (s(s^{-1}(x)) =_{\mathbb{Z}} x) \simeq (s(0) \cdot x =_{\mathbb{Z}} x)$$
+
+Thus, we have the identification 
+$$\begin{array}{c}
+\mathrm{transport}_{z:\mathbb{Z}.s(0) \cdot z =_\mathbb{Z} x}(s(s^{-1}(x)), x, \mathrm{rinv}_s(x))
+(\beta_\mathbb{Z}^{\cdot, s, s}(0, s^{-1}(x)) \bullet \mathrm{ap}_{\lambda z:\mathbb{Z}.z + s(0 + s^{-1}(x))}(0 \cdot s^{-1}(x), 0, \mathrm{labsorp}_\mathbb{Z}(s^{-1}(x))) \\
+\bullet \mathrm{lunitadd}_\mathbb{Z}(s(0 + s^{-1}(x))) \bullet \mathrm{ap}_s(0 + s^{-1}(x), s^{-1}(x), \mathrm{lunitadd}_\mathbb{Z}(s^{-1}(x))) \bullet \mathrm{rinv}_s(x)):s(0) \cdot x =_{\mathbb{Z}} x
+\end{array}$$
+
+Since $\mathbb{Z}$ is a set, the [[identity types]] $s(0) \cdot x =_{\mathbb{Z}} x$ and $s(0) \cdot s(x) =_{\mathbb{Z}} s(x)$ are both propositions, and since they have identifications, both types are [[contractible types]]. All contractible types are equivalent to each other; thus there is an equivalence
+
+$$g(x):(s(0) \cdot x =_{\mathbb{Z}} x) \simeq (s(0) \cdot s(x) =_{\mathbb{Z}} s(x))$$
+
+Then, by induction on the integers, there is the homotopy
+
+$$\mathrm{lunitmul}_\mathbb{Z}:\mathrm{ind}_{\mathbb{Z}}^{s(0) \cdot x =_{\mathbb{Z}} x}(\beta_\mathbb{Z}^{\cdot, s, 0}(0) \bullet \beta_\mathbb{Z}^{\cdot, 0, 0}, \lambda x:\mathbb{Z}.g(x)):\prod_{x:\mathbb{Z}} s(0) \cdot x =_{\mathbb{Z}} x$$
+
+Thus, $\mathbb{Z}$ is a [[unital magma]] with respect to one $1 \equiv s(0):\mathbb{Z}$ and multiplication $x:\mathbb{Z}, y:\mathbb{Z} \vdash x \cdot y:\mathbb{Z}$. 
 \end{proof}
+
+\begin{theorem}
+Multiplication on the integers is associative.
+\end{theorem}
+
+\begin{proof}
+....
+\end{proof}
+
+\begin{theorem}
+Multiplication on the integers is commutative.
+\end{theorem}
+
+\begin{proof}
+....
+\end{proof}
+
+\begin{corollary}
+The integers are a [[commutative ring]].
+\end{corollary}
 
 ### Exponentiation on the integers
 
@@ -709,7 +815,13 @@ $$-i(n) \div -i(m) \coloneqq i(n \div m)$$
 for $n:\mathbb{N}$, $m:\mathbb{N}_{\neq 0}$. 
 =--
 
+## Categorical semantics
+
+The categorical semantics of the integers type is the [[integers object]]. 
+
 ## See also
+
+* [[integers object]]
 
 * [[natural numbers type]]
 
