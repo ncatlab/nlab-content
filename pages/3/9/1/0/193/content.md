@@ -1,5 +1,5 @@
 
-> This page is about adjunctions in general [[2-categories]]. Specifically for the common case of adjunctions in [[Cat]] see at *[[adjoint functors]]*.
+> This page is about adjunctions in general [[2-categories]]. Specifically for the common case of adjunctions in [[Cat]] see at *[[adjoint functors]]*. For the notion of "adjunction of a set to a field" in [[field theory]], see [[field extension]]. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
