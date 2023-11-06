@@ -58,6 +58,18 @@ On the [[locally cartesian closed category|local cartesian closure]] of the [[2-
 
 * [[Erik Palmgren]], *Groupoids and local cartesian closure* (2003) &lbrack;[[Palmgren-GroupoidsAndLCC.pdf:file]]&rbrack;
 
+Discussion of $Grpd$ as (with some tweaks) [[categorical semantics]] for [[homotopy type theory]] (the "groupoid model", precursor to the simplicial set model):
+
+* [[Martin Hofmann]], [[Thomas Streicher]], *The groupoid model refutes uniqueness of identity proofs*, Proceedings Ninth Annual IEEE Symposium on Logic in Computer Science (1994) &lbrack;[doi:10.1109/LICS.1994.316071](https://doi.org/10.1109/LICS.1994.316071)&rbrack;
+
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+* [[Martin Hofmann]], *The groupoid interpretation of type theory, a personal retrospective*, talk at *[[HoTT at DMV2015]]* (2015) &lbrack;[[HofmannDMV.pdf|slides:file]]&rbrack;
+
+* Ethan Lewis, Max Bohnet, *The groupoid model of type theory*, seminar notes (2017) &lbrack;[pdf](https://staff.fnwi.uva.nl/b.vandenberg3/Onderwijs/Homotopy_Type_Theory_2017/HoTT-bohnet-lewis-handout.pdf), [[LewisBohnet.GroupoidModelOfTT.pdf:file]]&rbrack;
+
+
+
 
 category: category
 
