@@ -5,7 +5,6 @@ He is on the editorial boards of Mathematical Structures in Computer Science and
 
 *  [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
-
 ## Selected writings
 
 See also:
@@ -46,12 +45,20 @@ On [[cohomology]] of [[algebra|algebraic]]-[[structures]] (such as [[Lie algebra
 
 * [[Michael Barr]], *Algebraic cohomology: the early days*, in *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 1–26 &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [pdf](https://www.math.mcgill.ca/barr/papers/algcohom.pdf), [[Barr-AlgebraicCohomology.pdf:file]]&rbrack; 
 
+On [[monadicity|comonadicity]] of free [[algebra over a monad|monadic algebra]]-functors:
+
+* [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381)&rbrack;
+
 
 Introducing [[Barr-exact categories]] and [[regular categories]]:
 
 * {#BarrGrilletvonOsdool} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. **236**, Springer (1971) &lbrack;[doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)&rbrack;
 
 * [[Michael Barr]], _Exact categories_, in: *Exact categories and categories of sheaves*, Springer Lec. Notes in Math. __236__ (1971) 1-120 &lbrack;[doi:10.1007/BFb0058580](http://dx.doi.org/10.1007/BFb0058580), [pdf](https://www.math.mcgill.ca/barr/papers/exact.pdf), [[Barr-ExactCategories.pdf:file]]&rbrack;  
+
+On [[coalgebras]] over a [[commutative ring]] (cf. [[CocommCoalg]]):
+
+* [[Michael Barr]], *Coalgebras over a commutative ring*, Journal of Algebra **32** 3 (1974) 600-610 &lbrack;<a href="https://doi.org/10.1016/0021-8693(74)90161-6">doi:10.1016/0021-8693(74)90161-6</a>, [pdf](https://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), [[Barr-Coalgebras.pdf:file]]&rbrack;
 
 
 On [[right exact functors]]:
