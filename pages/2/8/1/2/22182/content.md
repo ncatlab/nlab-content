@@ -79,6 +79,12 @@ The circle type could also be defined as the [[coequalizer type]] of any two [[e
 
 $$\mathbf{1} \rightrightarrows \mathbf{1} \to S^1$$
 
+Also, following [[synthetic homotopy theory]], the [[circle type]] $S^1$ is the [[coequalizer type]] of the pair of functions on the [[homotopical real numbers type]]
+
+$$
+R\underoverset{\quad s \quad}{\mathrm{id}_R}{\rightrightarrows}R \to S^1
+$$
+
 ### Using torsors 
 
 The circle can also be defined without HITs using only univalence, as the type of $\mathbb{Z}$-torsors.  One can then prove that this type satisfies the same induction principle (propositionally).  This is due to [[Dan Grayson]].
@@ -125,6 +131,8 @@ The type of [[H-spaces]] on the circle type is a [[contractible type]].
 * [[circle]], [[unit circle]], [[circle group]], [[circle object]]
 
 * [[interval type]]
+
+* [[homotopical real numbers type]]
 
 * [[minimal simplicial circle]]
 
