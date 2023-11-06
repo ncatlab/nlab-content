@@ -9,7 +9,14 @@ The observation that a natural language for [[quantum information theory]] and [
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) $[$[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)$]$
 
+* {#AbramskyCoecke05} [[Samson Abramsky]], [[Bob Coecke]], *Abstract Physical Traces*, Theory and Applications of Categories, **14** 6 (2005) 111-124. \[<a href="http://www.tac.mta.ca/tac/volumes/14/6/14-06abs.html">tac:14-06</a>[arXiv:0910.3144](https://arxiv.org/abs/0910.3144)\]
+
+
 * {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], *Categorical quantum mechanics*, in *[[Handbook of Quantum Logic and Quantum Structures]]*, Elsevier (2008) $[$[arXiv:0808.1023](http://arxiv.org/abs/0808.1023), [ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698/), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)$]$ 
+
+* {#Coecke07} [[Bob Coecke]], *De-linearizing Linearity: Projective Quantum Axiomatics from Strong Compact Closure*, Proceedings of the [3rd International Workshop on Quantum Programming Languages (2005)](https://www.mathstat.dal.ca/~selinger/qpl2005/), Electronic Notes in Theoretical Computer Science **170** (2007) 49-72 \[<a href="https://doi.org/10.1016/j.entcs.2006.12.011">doi:10.1016/j.entcs.2006.12.011</a><a href="https://arxiv.org/abs/quant-ph/0506134">arXiv:quant-ph/0506134</a>\]
+
+
 
 On the relation to [[quantum logic]]/[[linear logic]]:
 
