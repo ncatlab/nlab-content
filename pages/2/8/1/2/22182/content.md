@@ -79,10 +79,10 @@ The circle type could also be defined as the [[coequalizer type]] of any two [[e
 
 $$\mathbf{1} \rightrightarrows \mathbf{1} \to S^1$$
 
-Also, following [[synthetic homotopy theory]], the [[circle type]] $S^1$ is the [[coequalizer type]] of the pair of functions on the [[homotopical real numbers type]]
+Also, following [[synthetic homotopy theory]], the [[circle type]] $S^1$ is the [[coequalizer type]] of the pair of functions on the [[line type]]
 
 $$
-R\underoverset{\quad s \quad}{\mathrm{id}_R}{\rightrightarrows}R \to S^1
+A^1\underoverset{\quad s \quad}{\mathrm{id}_{A^1}}{\rightrightarrows}A^1 \to S^1
 $$
 
 ### Using torsors 
@@ -132,7 +132,7 @@ The type of [[H-spaces]] on the circle type is a [[contractible type]].
 
 * [[interval type]]
 
-* [[homotopical real numbers type]]
+* [[line type]]
 
 * [[minimal simplicial circle]]
 
