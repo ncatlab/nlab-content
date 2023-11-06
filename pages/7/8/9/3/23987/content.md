@@ -1269,6 +1269,16 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak 
 
+* [[Alberto Marchisio]] (NYUAD):
+
+  **Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead**
+
+  cf. [arXiv:2310.10315](https://arxiv.org/abs/2310.10315)
+
+  > [[quantum computation|Quantum Computing]] (QC) claims to improve the efficiency of solving complex problems, compared to classical computing. When QC is applied to [[machine learning|Machine Learning]] (ML) applications, it forms a [[quantum machine learning|Quantum Machine Learning]] (QML) system. After discussing the basic concepts of QC and its advantages over classical computing, this talk reviews the key aspects of QML in a comprehensive manner. We discuss different QML algorithms and their domain applicability, quantum datasets, hardware technologies, software tools, simulators, and applications. Valuable information and resources are provided to jumpstart into the current state-of-the-art techniques in the QML field.
+
+\linebreak
+
 ***
 
 \linebreak
@@ -2103,6 +2113,8 @@ co-PIS:
 * [[Tim Byrnes]]
 
 * [[Asif Equbal]]
+
+* [[Muhammad Shafique]]
 
 * for more see [here](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)
 
