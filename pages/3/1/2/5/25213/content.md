@@ -827,7 +827,7 @@ The categorical semantics of the integers type is the [[integers object]].
 
 * [[equivalence type]]
 
-* [[homotopical real numbers type]]
+* [[line type]]
 
 * [[free group type]]
 
