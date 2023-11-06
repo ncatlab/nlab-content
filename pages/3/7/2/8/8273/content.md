@@ -21,8 +21,12 @@ Introducing the [[Artin-Tate lemma]]:
 
 * {#ArtinTate51} [[Emil Artin]], [[John T. Tate]], *A note on finite ring extensions*, J. Math. Soc Japan, Volume **3** (1951) 74–77 $[$[doi:10.2969/jmsj/00310074](https://doi.org/10.2969/jmsj/00310074), [pdf](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-3/issue-1/A-Note-on-Finite-Ring-Extensions/10.2969/jmsj/00310074.pdf)$]$
 
+On [[linear algebra]], [[projective geometry]], [[symplectic groups]] and [[orthogonal groups]]:
 
-## Related $n$Lab entries
+* [[Emil Artin]], *[[Geometric Algebra]]*, Wiley 1957 (1988) &lbrack;[ISBN:978-1-118-16454-9](https://www.wiley.com/en-ae/Geometric+Algebra-p-9781118164549), <a href="https://en.wikipedia.org/wiki/Geometric_Algebra_(book)">Wikipedia entry</a>, [ark:/13960/t4nk37034](https://archive.org/details/geometricalgebra033556mbp/page/n5/mode/2upa)&rbrack;
+
+
+## Related entries
 
 * [[Artin stack]]
 
