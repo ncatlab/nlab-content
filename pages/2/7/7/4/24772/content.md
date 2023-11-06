@@ -1,5 +1,4 @@
 [[!redirects Elisabeth Bonnevier]]
-[[!redirects Elisabeth Bonnevier]]
 
 * [Github](https://github.com/elisabethstenholm/)
 
