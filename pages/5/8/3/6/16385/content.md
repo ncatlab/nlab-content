@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -627,6 +626,15 @@ Hermitian forms in the generality over [[noncommutative ring|noncommutative]] [[
 
 * [[John Milnor]], [[Dale Husemöller]], *Hermitian forms*, Appendix 2 of: *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
 
+{#ReferencesViaDaggerCompactStructure} Hermitian forms expressed through [[dagger-compact category]]-[[structure]] (notably for [[quantum information theory via dagger-compact categories]]):
+
+* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], Def. 7.5 in: *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) $[$[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)$]$
+
+* {#AbramskyCoecke05} [[Samson Abramsky]], [[Bob Coecke]], p. 6 in: *Abstract Physical Traces*, Theory and Applications of Categories, **14** 6 (2005) 111-124. \[<a href="http://www.tac.mta.ca/tac/volumes/14/6/14-06abs.html">tac:14-06</a>[arXiv:0910.3144](https://arxiv.org/abs/0910.3144)\]
+
+* [[Bob Coecke]], Def. 2.5 in: *De-linearizing Linearity: Projective Quantum Axiomatics from Strong Compact Closure*, Proceedings of the [3rd International Workshop on Quantum Programming Languages (2005)](https://www.mathstat.dal.ca/~selinger/qpl2005/), Electronic Notes in Theoretical Computer Science **170** (2007) 49-72 \[<a href="https://doi.org/10.1016/j.entcs.2006.12.011">doi:10.1016/j.entcs.2006.12.011</a><a href="https://arxiv.org/abs/quant-ph/0506134">arXiv:quant-ph/0506134</a>\]
+
+* [Duncan 2006](quantum+information+theory+via+dagger-compact+categories#Duncan06), [p. 31](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf#page=39)
 
 
 [[!redirects Hermitian forms]]
