@@ -18,7 +18,7 @@
 
 ## Idea 
 
-Given a [[functor]] $p\colon  X \to Y$ between categories one may ask for each [[morphism]] $f\colon  y_1 \to y_2$ if given a lift of its target
+Given a [[functor]] $p\colon  X \to Y$ between categories one may ask for each [[morphism]] $f\colon  y_1 \to y_2$ that, if given a lift of its target
 $$
   \array{
     X &&& && \hat y_2
@@ -29,7 +29,7 @@ $$
   }
 $$
 
-there is a _universal_ lift of $f$
+there be a _universal_ lift of $f$
 
 $$
   \array{
@@ -67,7 +67,7 @@ This has its analog in [[higher category theory|higher categories]].
 ###### Definition
 **(cartesian morphism)**
 
-Let $p : X \to Y$ be a [[functor]]. A [[morphism]] $f : x_1 \to x_2$ in the [[category]] $X$ is **strongly cartesian** with respect to $p$ (nowdays often just *cartesian*), or (strongly) **$p$-cartesian** if for every $x'\in X$, 
+Let $p : X \to Y$ be a [[functor]]. A [[morphism]] $f : x_1 \to x_2$ in the [[category]] $X$ is **strongly cartesian** with respect to $p$ (nowadays often just *cartesian*), or (strongly) **$p$-cartesian** if for every $x'\in X$, 
 for every $h:x'\to x_2$ and every
 $u:p(x')\to p(x_1)$ such that $p(h) = p(f) u$, there exists a unique $v:x'\to x_1$ such that $h = f v$ and $u = p(v)$:
 
