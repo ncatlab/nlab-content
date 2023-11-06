@@ -52,6 +52,12 @@ One may regard $Grpd$ also just as a 1-category by ignoring the natural isomorph
 
 * [[(∞,n)Cat]]
 
+## References
+
+On the [[locally cartesian closed category|local cartesian closure]] of the [[2-category]] of groupoids (and the failure of this property for the [[1-category]] version):
+
+* [[Erik Palmgren]], *Groupoids and local cartesian closure* (2003) &lbrack;[[Palmgren-GroupoidsAndLCC.pdf:file]]&rbrack;
+
 
 category: category
 
