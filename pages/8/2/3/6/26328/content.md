@@ -63,7 +63,7 @@ $$
 
 ### Relation to the real numbers
 
-In [[real-cohesive homotopy type theory]], the [[shape]] of the [[real numbers]] is equivalent to the line type $\esh(\mathbb{R}) \simeq R$.
+In [[real-cohesive homotopy type theory]], the [[shape]] of the [[real numbers]] is equivalent to the line type $\esh(\mathbb{R}) \simeq A^1$.
 
 ## Related concepts
 
