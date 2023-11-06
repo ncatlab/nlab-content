@@ -1,4 +1,4 @@
-Erik Palmgren (1963–2019) was a Swedish category theorist.
+Erik Palmgren (1963–2019) was a Swedish [[category theory|category theorist]].
 
 * [home page](https://staff.math.su.se/palmgren/) (broken) [archived](https://web.archive.org/web/20230325203454/https://staff.math.su.se/palmgren/).
 
@@ -13,6 +13,11 @@ On [[type universes]]:
 On the [[categorical semantics]] of well-founded [[inductive types]] ([[W-types|$\mathcal{W}$-types]]) as given by [[initial algebra over an endofunctor|initial algebras over]] [[polynomial functor|polynomial]] [[endofunctors]] on the [[type system]]:
 
 * {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
+
+On the [[locally cartesian closed category|local cartesian closure]] of the [[2-category]] of groupoids (and the failure of this property for the [[1-category]] version):
+
+* [[Erik Palmgren]], *Groupoids and local cartesian closure* (2003) &lbrack;[[Palmgren-GroupoidsAndLCC.pdf:file]]&rbrack;
+
 
 On [[set theory]] in [[constructive mathematics]] via [[Bishop sets]] and constructive [[ETCS]]:
 
