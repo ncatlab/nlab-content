@@ -12,9 +12,18 @@ On [[intensional type theory]]:
 
 * [[Thomas Streicher]], *Investigations into Intensional Type Theory*, Habilitation Thesis, Darmstadt (1993) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf), [[Streicher-IntensionalTT.pdf:file]]&rbrack;
 
-Introducing the [[homotopy type theory]]-interpretation of [[identity types]]. and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
+Introducing the [[homotopy type theory]]-interpretation of [[identity types]] (the "groupoid model") 
+
+* [[Martin Hofmann]], [[Thomas Streicher]], *The groupoid model refutes uniqueness of identity proofs*, Proceedings Ninth Annual IEEE Symposium on Logic in Computer Science (1994) &lbrack;[doi:10.1109/LICS.1994.316071](https://doi.org/10.1109/LICS.1994.316071)&rbrack;
+
+and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111  &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+  see also:
+
+  Ethan Lewis, Max Bohnet, *The groupoid model of type theory*, seminar notes (2017) &lbrack;[pdf](https://staff.fnwi.uva.nl/b.vandenberg3/Onderwijs/Homotopy_Type_Theory_2017/HoTT-bohnet-lewis-handout.pdf), [[LewisBohnet.GroupoidModelOfTT.pdf:file]]&rbrack;
+
 
 On [[category theory]] and [[categorical logic]]:
 
