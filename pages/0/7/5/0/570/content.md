@@ -18,7 +18,7 @@
 A [[monoidal category]]-[[structure]] on is **strict** if its [[associator]] and left/right [[unitors]] are [[identity natural transformations]].
 
 
-Explicitely, this means that:
+Explicitly, this means that:
 
 \begin{definition} A strict monoidal category is a category $\mathcal{C}$ equipped with an object $1 \in \mathcal{C}$ and a bifunctor $\otimes:\mathcal{C} \times \mathcal{C} \rightarrow \mathcal{C}$ such that for every objects $A,B,C$ and morphisms $f,g,h$, we have:
 
