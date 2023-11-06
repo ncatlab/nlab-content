@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
 =--
 =--
 
@@ -30,40 +34,28 @@ An **integers object** in a [[topos]] (or any [[cartesian closed category]]) $E$
   
   * a [[morphism]] $z:1 \to \mathbb{Z}$ from the [[terminal object]] $1$;
 
-  * a [[morphism]] $s : \mathbb{Z} \to \mathbb{Z}$ ([[successor]]),
+  * an [[isomorphism]] $s : \mathbb{Z} \cong \mathbb{Z}$ ([[successor]]),
 
-  * a [[morphism]] $n : \mathbb{Z} \to \mathbb{Z}$ ([[negation]])
-
-* such that the following diagram [[commutative diagram|commutes]]:
-\begin{center}
-  \begin{tikzcd}
-    & \mathbb{Z} \ar[d, "n"] 
-    & \mathbb{Z} \ar[l, "s"] \ar[d, "n"] \ar[rd, "id_\mathbb{Z}"] & \\
-    1 \ar[ru, "z"] \ar[r, "z"] & \mathbb{Z} \ar[r, "s"] 
-    & \mathbb{Z} \ar[r, "n"] & \mathbb{Z}
-  \end{tikzcd}
-\end{center}
-
-* and that for every other [[commutative diagram]] of form 
-\begin{center}
-  \begin{tikzcd}
-    & A \ar[d, "n_A"] & A \ar[l, "s_A"] \ar[d, "n_A"] \ar[rd, "id_A"] & \\
-    1 \ar[ru, "z_A"] \ar[r, "z_A"] & A \ar[r, "s_A"] & A \ar[r, "n_A"] & A
-  \end{tikzcd}
-\end{center} 
-
-* there is a unique morphism $u : \mathbb{Z} \to A$ such that the following diagram commutes
-\begin{center}
-  \begin{tikzcd}
-    1 \ar[r, "z"] \ar[rd, "z_A"] & \mathbb{Z} \ar[r, "s"] \ar[d, "u"] &
-    \mathbb{Z} \ar[r, "n"] \ar[d, "u"] & \mathbb{Z} \ar[d, "u"] \\
-    & A \ar[r, "s_A"] & A \ar[r, "n_A"] & A
-  \end{tikzcd}
-\end{center} 
+such that for all objects $A$ with morphism $z_A:1 \to A$ and isomorphism $s_A:A \cong A$, there is a unique morphism $u_A:\mathbb{Z} \to A$ such that $u_A \circ z = z_A$ and $u_A \circ s = s_A \circ u_A$. 
 
 By the [[universal property]], the integers object is unique up to [[isomorphism]]. 
 
-##Free construction in a topos
+### In a closed symmetric monoidal category
+
+One could generalize the above definition of an integers object to any [[closed monoidal category|closed]] [[symmetric monoidal category]]: [[pointed objects in a monoidal category|pointed objects in a symmetric monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, an integers object in a closed symmetric monoidal category $C$ with [[tensor unit]] $1$ is
+
+* an [[object]] $\mathbb{Z}$ in $C$ 
+
+* equipped with 
+  
+  * a [[morphism]] $z :1 \to \mathbb{Z}$ from the [[tensor unit]] $1$;
+
+  * an [[isomorphism]] $s : \mathbb{Z} \cong \mathbb{Z}$ (successor);
+
+such that for all objects $A$ with morphism $z_A:1 \to A$ and isomorphism $s_A:A \cong A$, there is a unique morphism $u_A:\mathbb{Z} \to A$ such that $u_A \circ z = z_A$ and $u_A \circ s = s_A \circ u_A$. 
+
+## Free construction in a topos
+
 The existence of an integers object in a topos $\mathcal{S}$ is equivalent to the existence of [[free group|free groups]] in $\mathcal{S}$:
 
 +-- {: .num_prop #free_groups_in_topos}
@@ -71,7 +63,7 @@ The existence of an integers object in a topos $\mathcal{S}$ is equivalent to th
 Let $\mathcal{S}$ be a topos and $\mathbf{Grp}(\mathcal{S})$ its category of internal [[group objects]]. Then $\mathcal{S}$ has an integers object precisely if the forgetful functor $U:\mathbf{Grp}(\mathcal{S})\to \mathcal{S}$ has a left adjoint.
 =--
 
-##Construction from natural numbers objects
+## Construction from natural numbers objects
 Suppose the topos $E$ has a [[natural numbers object]] $\mathbb{N}$. Then an integers object $\mathbb{Z}$ is a [[filtered colimit]] of objects 
 
 $$\mathbb{N} \stackrel{1 + (-)}{\to} \mathbb{N} \stackrel{1 + (-)}{\to} \mathbb{N} \stackrel{1 + (-)}{\to} \ldots$$ 
@@ -82,26 +74,50 @@ $$\mathbb{N} \times \mathbb{N} \cong \sum_{m \in \mathbb{N}} \mathbb{N} \to \mat
 
 imparts a monoid structure (in fact a group structure) on $\mathbb{Z}$ descended from the monoid structure on $\mathbb{N} \times \mathbb{N}$. 
 
-##Properties
+## Examples
 
-###Inverse
-The morphism $p : \mathbb{Z} \to \mathbb{Z}$  ([[predecessor]]), defined as $p = n \circ s \circ n$, is an [[inverse]] morphism of $s$, satisfying the [[commutative diagram]]: 
-\begin{center}
-  \begin{tikzcd}
-    \mathbb{Z} \ar[r, "s"] \ar[d, "p"] \ar[rd, "id_\mathbb{Z}"] &
-    \mathbb{Z} \ar[d, "p"]             \\
-    \mathbb{Z} \ar[r, "s"] & \mathbb{Z}
-  \end{tikzcd}
-\end{center}
+There are many examples of natural numbers objects. 
 
-It follows that $s$ and $p$ are both isomorphisms of $\mathbb{Z}$. 
+### In closed symmetric monoidal categories
 
-###Initial ring object
-In a category with finite products, the initial [[ring object]], an object $\mathbb{Z}$ with global elements $0:1\rightarrow\mathbb{Z}$ and $1:1\rightarrow\mathbb{Z}$, a morphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$, morphsims $+:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$ and $\times:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$, and suitable commutative diagrams expressing the ring axioms and [[initial object|initiality]], has the structure of an integers object given by $z = 0$, $s = x + 1$, and $n = -$. 
+\begin{example}
+The [[integers]] are the integers object in the [[closed monoidal category|closed]] [[symmetric monoidal category]] [[Set]]. 
+\end{example}
+
+\begin{example}
+The [[disjoint union]] $\mathbb{Z} + \{\infty\}$ is the [[integers object]] in the closed symmetric monoidal category of [[pointed sets]] $Set_*$, with $z:\mathbb{2} \to \mathbb{Z} + \{\infty\}$ taking the [[boolean]] [[true]] to $\infty$ and [[false]] to $0$ and $s:\mathbb{Z} + \{\infty\} \cong \mathbb{Z} + \{\infty\}$ taking integers to its successor and $\infty$ to $\infty$.
+\end{example}
+
+\begin{example}
+The [[localization of a commutative ring|localization]] of the polynomial ring $\mathbb{Z}[X]$ away from the indeterminant $X$, $\mathbb{Z}[X][1/X]$, could be thought of as the ring of "polynomial decimals", in the same way that the localization of $\mathbb{Z}$ away from the integer $10$, $\mathbb{Z}[1/10]$, is the ring of [[decimal numbers]]. The underlying abelian group of $\mathbb{Z}[X][1/X]$ is the integers object in the closed symmetric monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X][1/X]$ taking [[integers]] to constant "polynomial decimals" (with no indeterminant) and $s:\mathbb{Z}[X][1/X] \cong \mathbb{Z}[X][1/X]$ multiplying "polynomial decimals" by the indeterminant $X$. 
+\end{example}
+
+\begin{example}
+More generally, given a [[commutative ring]] $R$, the underlying $R$-module of the [[localization of a commutative ring|localization]] of the polynomial ring $R[X]$ away from the indeterminant $X$ is the integers object in the closed symmetric monoidal category [[RMod]], with $z:R \to R[X][1/X]$ taking [[scalars]] to constant "polynomial decimals" and $s:R[X][1/X] \cong R[X][1/X]$ multiplying "polynomial decimals" by the indeterminant $X$. 
+\end{example}
+
+### In a sheaf topos
+ {#ExamplesInASheafTopos}
+
+In any [[Grothendieck topos]] $E = Sh(C)$ the integers object is given by the [[constant sheaf]] on the [[set]] of ordinary integers, i.e. by the [[sheafification]] of the [[presheaf]] $C^{op} \to Set$ that is constant on the set $\mathbb{Z}$.
+
+Similar to the case for [[natural numbers objects]], there are interesting cases in which such sheaf toposes contain objects that look like they ought to be integers objects but do not satisfy the above axioms: for instance some of the models described at [[Models for Smooth Infinitesimal Analysis]] are sheaf toposes that contain besides the standard integers object a larger object of **[[smooth natural numbers|smooth integers]]** that has [[generalized element]]s which are "infinite integers" in the sense of [[nonstandard analysis]].
+
+## Properties
+
+### Inverse
+
+By definition of [[isomorphism]], there is an [[inverse]] [[isomorphism]] $p:\mathbb{Z} \cong \mathbb{Z}$, where $p \circ s = \mathrm{id}_\mathbb{Z}$ and $s \circ p = \mathrm{id}_\mathbb{Z}$. 
+
+### Initial ring object
+
+In a category with finite products, the initial [[ring object]], an object $\mathbb{Z}$ with global elements $0:1\rightarrow\mathbb{Z}$ and $1:1\rightarrow\mathbb{Z}$, a morphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$, morphsims $+:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$ and $\times:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}$, and suitable commutative diagrams expressing the ring axioms and [[initial object|initiality]], has the structure of an integers object given by $z = 0$ and $s = x + 1$. 
 
 ## Related concepts
 
 * [[integers]]
+
+* [[integers type]]
 
 * [[natural numbers object]]
 
