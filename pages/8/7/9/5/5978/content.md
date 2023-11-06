@@ -53,7 +53,7 @@ On [[comonads]] (such as dual to the [[codensity monad]]):
 
 * [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, in: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  (1969) 156-244   &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
 
-On [[monadic cohomology]] via [[canonical resolutions]]:
+On [[monadic cohomology]], or rather [[homology]] via [[comonad|comonadic]] [[canonical resolutions]]:
 
 * [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
