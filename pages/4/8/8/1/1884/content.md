@@ -97,7 +97,7 @@ Assumed background for the following is the content of
 * _[[pointed topological spaces]]_
 
 
-Throughout, let $k$ be a [[topological field]], usually the [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$.
+Throughout, let $k$ be a [[topological field]], usually the [[real numbers]] $\mathbb{R}$ or the [[complex numbers]] $\mathbb{C}$.
 
 In the following we take
 
@@ -113,7 +113,7 @@ Because then the following statement holds, which is crucial in some places:
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
-**(over [[compact Hausdorff space]] every [[topological vector bundle]] is [[direct sum of vector bundles|direct summand]] of a [[trivial vector bundle]])**
+**(over a [[compact Hausdorff space]] every [[topological vector bundle]] is a [[direct sum of vector bundles|direct summand]] of a [[trivial vector bundle]])**
 
 For every [[topological vector bundle]] $E \to X$ over the [[compact Hausdorff space]] $X$ there exists a [[topological vector bundle]] $\tilde E \to X$ such that the [[direct sum of vector bundles]]
 
@@ -1075,8 +1075,8 @@ There are various ways of generalizing this situation to non-compact spaces:
 
    The [[Grothendieck group]] construction on the [[monoid]] $(Vect(X)/_\sim, \oplus)$
    of [[isomorphism classes]] of [[topological vector bundles]] makes sense for every
-   [[topological space]] $X$. For non-compact $X$ this is usually just called that
-   "the Grothendieck group of vector bundles on $X$", sometimes denoted
+   [[topological space]] $X$. For non-compact $X$ this is usually just called the 
+   "Grothendieck group of vector bundles on $X$", sometimes denoted
 
    $$
      \mathbb{K}(X) \coloneqq GrothGroup( Vect(X)/_\sim, \oplus )
