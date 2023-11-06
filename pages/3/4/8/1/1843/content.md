@@ -154,10 +154,16 @@ In the context of [[cosmology]] with the Kalb-Ramond field as a [[dark matter]]-
 
 * Christian Capanelli, Leah Jenks, Edward W. Kolb, Evan McDonough, *Cosmological Implications of Kalb-Ramond-Like-Particles* &lbrack;[arXiv:2309.02485](https://arxiv.org/abs/2309.02485)&rbrack;
 
+See also:
+
+* [[Peter D. Jarvis]], [[Jean Thierry-Mieg]], *Antisymmetric tensor fields: actions, symmetries and first order Duffin-Kemmer-Petiau formulations* &lbrack;[arXiv:2311.01675](https://arxiv.org/abs/2311.01675)&rbrack;
+
+* [[Jean Thierry-Mieg]], [[Peter D. Jarvis]], *Conformal invariance of antisymmetric tensor field theories in any even dimension* &lbrack;[arXiv:2311.01701](https://arxiv.org/abs/2311.01701)&rbrack;
 
 
 
-  
+
+[[!redirects Kalb-Ramond fields]]  
 
 [[!redirects Kalb--Ramond field]]
 [[!redirects Kalb–Ramond field]]
@@ -166,3 +172,5 @@ In the context of [[cosmology]] with the Kalb-Ramond field as a [[dark matter]]-
 
 
 [[!redirects B2-field]]
+
+
