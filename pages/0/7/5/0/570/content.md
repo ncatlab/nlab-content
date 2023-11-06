@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[monoidal category]]-[[structure]] on is **strict** if its [[associator]] and left/right [[unitors]] are [[identity natural transformations]].
+A [[monoidal category]]-[[structure]] is **strict** if its [[associator]] and left/right [[unitors]] are [[identity natural transformations]].
 
 
 Explicitly, this means that:
