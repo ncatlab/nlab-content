@@ -20,14 +20,24 @@ On the [[categorical semantics]] of [[dependent type theory]] with [[function ty
 
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], *Revisiting the categorical interpretation of dependent type theory*, Theoretical Computer Science **546** 21 (2014) 99-119 &lbrack;[doi:10.1016/j.tcs.2014.03.003](https://doi.org/10.1016/j.tcs.2014.03.003), [[CurienGarnerHofmann.pdf:file]]&rbrack;
 
+
+Introducing the [[homotopy type theory]]-interpretation of [[identity types]] (the "groupoid interpretation") 
+
+* [[Martin Hofmann]], [[Thomas Streicher]], *The groupoid model refutes uniqueness of identity proofs*, Proceedings Ninth Annual IEEE Symposium on Logic in Computer Science (1994) &lbrack;[doi:10.1109/LICS.1994.316071](https://doi.org/10.1109/LICS.1994.316071)&rbrack;
+
+and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
+
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995, Oxf. Logic Guides. **36** Clarendon Press (1998) 83-111  &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+  see also:
+
+  Ethan Lewis, Max Bohnet, *The groupoid model of type theory*, seminar notes (2017) &lbrack;[pdf](https://staff.fnwi.uva.nl/b.vandenberg3/Onderwijs/Homotopy_Type_Theory_2017/HoTT-bohnet-lewis-handout.pdf), [[LewisBohnet.GroupoidModelOfTT.pdf:file]]&rbrack;
+
+* [[Martin Hofmann]], *The groupoid interpretation of type theory, a personal retrospective*, talk at *[[HoTT at DMV2015]]* (2015) &lbrack;[[HofmannDMV.pdf|slides:file]]&rbrack;
+
 On [[subtypes]] (with an early discussion of what came to be called *[[lenses (in computer science)]]*, motivated by [[object-oriented programming]]):
 
 * {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
-
-
-Introducing the [[homotopy type theory]]-interpretation of [[identity types]]. and introducing what came to be known the [[univalence axiom]] (under the name "universe extensionality"):
-
-* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995, Oxf. Logic Guides. **36** Clarendon Press (1998) 83-111  &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
 
 
 
