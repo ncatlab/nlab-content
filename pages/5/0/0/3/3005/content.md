@@ -343,6 +343,10 @@ The original reference for the (crude and precise) monadicity theorems is an unt
 
 * {#Beck68} [[Jon Beck]], untitled manuscript, 1968 ([[Beck_MonadicityTheorem.pdf:file]])
 
+see also:
+
+* [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381)&rbrack;
+
 Textbook accounts:
 
 * {#MacLane71} [[Saunders MacLane]], §VI.7 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
