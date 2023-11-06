@@ -111,6 +111,9 @@ In view of [[quantum computation]] (ie. quantum machine learning):
 
 * Stefano Mangini, Francesco Tacchino, Dario Gerace, Daniele Bajoni, Chiara Macchiavello, *Quantum computing models for artificial neural networks*, EPL (Europhysics Letters) 134(1), 10002 (2021) ([arXiv:2102.03879](https://arxiv.org/abs/2102.03879))
 
+review:
+
+* Kamila Zaman, [[Alberto Marchisio]], Muhammad Abdullah Hanif, [[Muhammad Shafique]], *A Survey on Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead* &lbrack;[arXiv:2310.10315](https://arxiv.org/abs/2310.10315)&rbrack;
 
 
 and with emphasis on [classically controlled](quantum+computation#ClassicalControlQuantumData) [[NISQ]]-computes:
