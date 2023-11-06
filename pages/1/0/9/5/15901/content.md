@@ -66,6 +66,10 @@ See also
 
 * Wikipedia, _[Constructive set theory](http://en.wikipedia.org/wiki/Constructive_set_theory)_
 
+On [[constructive set theory]] in [[homotopy type theory]]:
+
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696), talk video:[YT](https://www.youtube.com/watch?v=ALj5hOmwXps)&rbrack;
+
 [[!redirects CZF]]
 [[!redirects IZF]]
 [[!redirects CST]]
