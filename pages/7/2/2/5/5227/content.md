@@ -112,7 +112,7 @@ which can be composed with the adjunction which freely adds symmetries to a stri
 \end{tikzcd}
 \end{center}
 
-where $SSMC$ is the category of [[symmetric monoidal category|strict symmetric monoidal categories]]. This gives a categorical operational semantics for pre-nets which obeys the individual token philosophy and avoids the pitfall of the above computation. Pre-nets can be turned into Petri nets via [[abelianization]]. For a given Petri net $P$, it's abelianization forgets about the ordering on the input and output of each event. Therefore, to obtain a categorical semantics for a Petri net $P$ which obeys the individual token philosophy, a pre-net $Q$ can be chosen which abelianizes to $P$. Then, the categorical semantics for $P$ can defined as the free strict symmetric monoidal category $L(Q)$.
+where $SSMC$ is the category of [[symmetric monoidal category|strict symmetric monoidal categories]]. This gives a categorical operational semantics for pre-nets which obeys the individual token philosophy and avoids the pitfall of the above computation. Pre-nets can be turned into Petri nets via [[abelianization]]. For a given Petri net $P$, its abelianization forgets about the ordering on the input and output of each event. Therefore, to obtain a categorical semantics for a Petri net $P$ which obeys the individual token philosophy, a pre-net $Q$ can be chosen which abelianizes to $P$. Then, the categorical semantics for $P$ can defined as the free strict symmetric monoidal category $L(Q)$.
 
 ## References
 
