@@ -140,6 +140,8 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 ## Related concepts
 
+* [[CocommCoalg]]
+
 * [[co-monoid]]
 
 * [[cofree coalgebra]]
@@ -154,6 +156,8 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 * {#Sweedler69} [[Moss Sweedler]], _Hopf algebras_, 1969
 
+* [[Michael Barr]], *Coalgebras over a commutative ring*, Journal of Algebra **32** 3 (1974) 600-610 &lbrack;<a href="https://doi.org/10.1016/0021-8693(74)90161-6">doi:10.1016/0021-8693(74)90161-6</a>, [pdf](https://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), [[Barr-Coalgebras.pdf:file]]&rbrack;
+
 * {#Michaelis03}  [[Walter Michaelis]], _Coassociative coalgebras_, Handbook of Algebra Volume 3, Elsevier (2003). 
 
 * Luzius Grunenfelder, [[Robert Paré]], _Families parametrized by coalgebras_,  J. Alg. __107__:2 (1987) 316-375 <a href="https://doi.org/10.1016/0021-8693(87)90093-7">doi</a> [pdf](https://core.ac.uk/download/pdf/82530098.pdf)
@@ -164,6 +168,10 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
  
 
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
+
+On [[locally presentable category|local presentability]] of [[CocommCoalg|categoris of coalgebras]] and their [[comodules]]:
+
+* [[Hans-Eberhard Porst]], *On corings and comodules*, Archivum Mathematicum **42** 4 (2006) 419-425 &lbrack;[dmlcz:108017](https://dml.cz/handle/10338.dmlcz/108017), [pdf](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf)&rbrack; 
 
 
 
