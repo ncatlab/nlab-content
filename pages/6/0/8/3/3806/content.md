@@ -75,6 +75,9 @@ Origin of domain theory in [[denotational semantics]] for [[programming language
 
 * {#Scott76} [[Dana Scott]], *Data types as lattices*. SIAM Journal of Computing **5** 3 (1976) 522--587 &lbrack;[doi:10.1137/0205037](https://doi.org/10.1137/0205037), [pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf)&rbrack;
 
+Discussion [[internalization|internal]] to [[cartesian closed categories]]:
+
+* [[Michael Barr]], *Fixed points in cartesian closed categories*, Theoretical Comp. Sci. **70** (1990) 65–72 &lbrack;<a href="https://doi.org/10.1016/0304-3975(90)90152-8">doi:10.1016/0304-3975(90)90152-8</a>, [pdf](https://www.math.mcgill.ca/barr/papers/dom.pdf), [[Barr-FixedPointsInCCCs.pdf:file]]&rbrack;
 
 Introductions and lecture notes:
 
