@@ -14,6 +14,10 @@ On the history of [[topos theory]]:
 
 * {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=5AR55ZsHmKI))
 
+Exposition of [[sheaf toposes]]:
+
+* [[Michael Barr]], [[Colin McLarty]], [[Charles Wells]],  *Variable set theory*, prepared for *Scientific American* but unpublished (~1985) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/vst.pdf), [[BarrMcLartyWells-VariableSetTheory.pdf:file]]&rbrack;
+
 
 On [[category theory]] and [[elementary topos|elementary]] [[topos]] [[sheaf and topos theory|theory]]:
 
