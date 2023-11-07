@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _enriched Lawvere theory_ is a generalization of [[Lawvere theories]] to the setting of [[enriched categories]].
+The notion of **enriched Lawvere theory** or **enriched algebraic theory** is a generalization of [[Lawvere theories]] to the setting of [[enriched categories]].
 
 ## Definitions and elementary properties
 
@@ -67,6 +67,8 @@ algebras are also equivalent.
 
 ## References
 
+* [[Eduardo Dubuc]], _Enriched semantics-structure (meta) adjointness_, Rev. Un. Mat. Argentina 25 (1970): 5-26.
+
 * [[John Power]], _Enriched Lawvere theories_, [tac](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html)
 
 * [[Koki Nishizawa]], [[John Power]], _Lawvere theories enriched over a general base_. Journal of Pure and Applied Algebra **213**, Issue 3, March 2009, Pages 377--386. ([pdf](https://www.sciencedirect.com/science/article/pii/S0022404908001485)), 
@@ -81,4 +83,8 @@ doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
 
 * [[Richard Garner]], [[John Power]], _An enriched view on the extended finitary monad--Lawvere theory correspondence_, ([ arXiv:1707.08694](https://arxiv.org/abs/1707.08694))
 
+* {#Arkor22Thesis} [[Nathanael Arkor]], *Monadic and Higher-Order Structure*, PhD thesis, Cambridge (2022) &lbrack;[doi:10.17863/CAM.86347](https://doi.org/10.17863/CAM.86347), [pdf](https://www.repository.cam.ac.uk/bitstreams/666be4fb-957b-4c2e-83fc-8124621f0c43/download), [[Arkor-MonadicAndHigherStructure.pdf:file]]&rbrack;
+
+[[!redirects enriched Lawvere theories]]
 [[!redirects enriched algebraic theory]]
+[[!redirects enriched algebraic theories]]
