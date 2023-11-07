@@ -5,7 +5,7 @@
   "width": 640
 \end{imagefromfile}
 
-**quiver** ([q.uiver.app](https://q.uiver.app/)) is an open source web-based editor for [[commutative diagrams]] and [[pasting diagrams]]. It exports to LaTeX via [tikz-cd](https://github.com/astoff/tikz-cd).
+**quiver** ([q.uiver.app](https://q.uiver.app/)) is an open source web-based editor, created by [[varkor]], for [[commutative diagrams]] and [[pasting diagrams]]. It exports to LaTeX via [tikz-cd](https://github.com/astoff/tikz-cd).
 
 The name "quiver" is based on the term *[[quiver]]* used for [[directed graphs]] in [[representation theory]].
 
