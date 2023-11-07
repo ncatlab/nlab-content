@@ -37,6 +37,11 @@ where each $\phi_i$ and $\phi$ is atomic. A (universal) **Horn theory** is a [[t
 
 * [[pseudolattice ordered ring]]
 
+## References
+
+
+* [[Michael Barr]], *Models of Horn theories*, in: *Categories in Computer Science and Logic*, Contemporary Math. **92**, Amer. Math. Soc. (1989) 1–7 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/horn.pdf), [[Barr-ModelsOfHornTheories.pdf:file]]&rbrack;
+
 [[!redirects Horn theories]] 
 
 [[!redirects Horn clause]]
