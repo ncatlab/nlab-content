@@ -10,6 +10,11 @@ Charles Wells is Professor Emeritus of Mathematics at
 
 ## Selected writings:
 
+Exposition of [[sheaf toposes]]:
+
+* [[Michael Barr]], [[Colin McLarty]], [[Charles Wells]],  *Variable set theory*, prepared for *Scientific American* but unpublished (~1985) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/vst.pdf), [[BarrMcLartyWells-VariableSetTheory.pdf:file]]&rbrack;
+
+
 On [[topos theory]], [[monads]] ("triples") and [[algebraic theories]] via [[sketches]]:
 
 * [[Michael Barr]], and  [[Charles Wells]], *Toposes, Triples, and Theories*, Grundlehren der math. Wissenschaften 278 Springer 1983, republished in: Reprints in Theory and Applications of Categories, No. 12 (2005) pp. 1-287 ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
