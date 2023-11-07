@@ -154,19 +154,25 @@ and was further amplified in
 
 * {#BaezDolan98} [[John Baez]], [[James Dolan|James Dolan]], _Categorification_, in [[Ezra Getzler]], [[Mikhail Kapranov]] (eds.) _Higher Category Theory_, Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36 ([arXiv:math.QA/9802029](http://arxiv.org/abs/math.QA/9802029))
 
-
-
-A bit of $n$-Caf&#233; discussion on this subject can be found here: 
+Exposition:
 
 * [[John Baez]], _[What is categorification?](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)_
 
-Some discussion and lecture notes can be found in part II of
+Lecture notes:
 
-* [[Yuri Ximenes Martins]], _Categorical and Geometrical Methods in Physics_, Master’s thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf), [slides](https://math-phys.group/wp-content/uploads/2020/08/slides_yuri.pdf))
+* [[Alistair Savage]], *Introduction to categorification* &lbrack;[arXiv:1401.6037](https://arxiv.org/abs/1401.6037), slides:[pdf](https://alistairsavage.ca/talks/2014-savage-intro-to-categorification.pdf)&rbrack;
 
-and in Chapter 4 of
+* Dylan Madden, *Introductory Categorification* (2015) &lbrack;[pdf](https://warwick.ac.uk/fac/sci/maths/people/staff/madden/1102171m.pdf)&rbrack;
 
-* [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302), [hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
+  > (elementary introduction to [[category theory]] leading up to the example of the categorified [[Weyl algebra]])
+
+* [[Mikhail Khovanov]] (notes by [[You Qi]]), *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
+
+  > (focus on [[link homology]])
+
+* [[Yuri Ximenes Martins]], part II of _Categorical and Geometrical Methods in Physics_, Master’s thesis, UFMG, 2018. ([pdf](https://repositorio.ufmg.br/bitstream/1843/32053/1/dissertacao_yuri_FINAL.pdf), [slides](https://math-phys.group/wp-content/uploads/2020/08/slides_yuri.pdf))
+
+* [[Yuri Ximenes Martins]], Chapter 4 of _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302), [hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
 
 
 A general notion of categorification for structures defined by [[cartesian monads]], which specializes to produce weak [[n-categories]] in the sense of Leinster, can be found here:
