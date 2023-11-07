@@ -30,6 +30,10 @@ and particularly by just the "weaves" among all [[braids]]:
 
 * [[Steven H. Simon]], [[Nick E. Bonesteel]], [[Michael H. Freedman]], N. Petrovic, [[Layla Hormozi]], *Topological Quantum Computing with Only One Mobile Quasiparticle*, Phys. Rev. Lett. 96 (2006) 070503 ([arXiv:quant-ph/0509175](https://arxiv.org/abs/quant-ph/0509175), [doi:10.1103/PhysRevLett.96.070503](https://doi.org/10.1103/PhysRevLett.96.070503))
 
+On [[topological phases of matter]] via [[higher gauge theory|higher]] lattice gauge theory:
+
+* [[Joe Huxford]], [[Steven H. Simon]], *Excitations in the Higher Lattice Gauge Theory Model for Topological Phases I: Overview* &lbrack;[arXiv:2202.08294](https://arxiv.org/abs/2202.08294)&rbrack;
+
 
 category: people
 
