@@ -292,6 +292,9 @@ These two examples illustrate a general fact: the Grothendieck group of a [[mono
   
   section 2: _The Grothendieck group $K_0$_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.II.pdf))
 
+* [[Mikhail Khovanov]] (notes by [[You Qi]]), §4 in: *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
+
+
 See also
 
 * [The Grothendieck Construction](http://online.itp.ucsb.edu/online/ktheory/wu/) (UCSB ITP Seminar)
