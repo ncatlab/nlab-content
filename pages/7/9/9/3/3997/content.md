@@ -61,7 +61,7 @@ The definitions given above are all "up to isomorphism", i.e. they satisfy the [
 
 ## Remarks
 
-[Kissinger](http://permalink.gmane.org/gmane.science.mathematics.categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
+[Kissinger](https://raw.githubusercontent.com/punkdit/categories/26b751bbcbe6765fe447e805629ff6416f4c38b1/gmane/science/mathematics/categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
 
 
 ## Related pages
