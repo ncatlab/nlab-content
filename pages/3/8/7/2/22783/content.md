@@ -559,7 +559,8 @@ The simplicial set $W G$ is that whose
 
 This identifies
 
-$$
+\[
+  \label{SimplicialClassifyingSpaceAsNerve}
   W G 
   \;=\;
   N
@@ -568,7 +569,7 @@ $$
       \rightrightarrows
     G
   \big)
-$$
+\]
 
 with the [[nerve]] of the [[action groupoid]] of $G$ acting on itself by right multiplication ([[isomorphism|isomorphic]] to the [[pair groupoid]] on the underlying set of $G$):
 
@@ -576,14 +577,14 @@ with the [[nerve]] of the [[action groupoid]] of $G$ acting on itself by right m
   & g_2 g_1
   \ar[
     dr,
-    "{(g_2 g_1, g_0)}"{sloped, near start},
+    "{(g_2 g_1, g_0)}"{sloped},
     ""{name=s, below, pos=0.01}
   ]
   \\
   g_2
   \ar[
     ur,
-    "{(g_2, g_1)}"{sloped, near end}
+    "{(g_2, g_1)}"{sloped}
   ]
   \ar[
     rr,
