@@ -78,6 +78,9 @@ On half-twists as [above](#GraphicalLanguage)
 
 * [[Jacob Lurie]]: Ex. 2.4.28 in: *[[On the Classification of Topological Field Theories]]*, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465), [doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3), [euclid:cdm/1254748657](https://projecteuclid.org/euclid.cdm/1254748657)&rbrack;
 
+* [[Mikhail Khovanov]] (notes by [[You Qi]]), Thm. 4 on [p7 ](https://www.math.columbia.edu/~khovanov/cat2020/notes/2_TQFT.pdf#page=7) in §2 of: *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
+
+
 * {#Teleman16} [[Constantin Teleman]], Rem. 1.7 in: *Five lectures on topological field theory*, in *Geometry and Quantization of Moduli Spaces*, CRM Advanced Courses in Mathematics, Birkhäuser (2016) &lbrack;[doi:10.1007/978-3-319-33578-0_3](https://doi.org/10.1007/978-3-319-33578-0_3), [pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf), [[Teleman-LecturesOnTFT.pdf:file]]&rbrack;
 
 same non-topological [[functorial field theory]]
