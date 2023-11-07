@@ -47,6 +47,8 @@ on [[classical Lie groups]] in a [[Klein geometry]] context.
 
 ### Chapter II -- Affine and Projective Geometry
 
+* [[projective geometry]]
+
 * [[dilatation operator]]
 
 * [[Desargues' theorem]]
@@ -62,6 +64,10 @@ on [[classical Lie groups]] in a [[Klein geometry]] context.
 * [[general linear group]]
 
 ### Chapter V -- The Structure of Symplectic and Orthogonal Groups
+
+* [[symplectic group]]
+
+* [[orthogonal group]]
 
 * [[Clifford algebra]]
 
