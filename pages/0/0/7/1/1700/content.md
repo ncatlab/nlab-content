@@ -10,6 +10,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -441,6 +442,12 @@ The [[anabelian geometry|anabelian]] question is: _how much information about th
 
 
 ## References
+
+Original articles:
+
+* [[Michael Barr]], *Abstract Galois Theory*, J. Pure Appl. Algebra **19** (1980) 21–42 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/galois.pdf), [[Barr-AbstractGaloisI.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Abstract Galois Theory II*, J. Pure Appl. Algebra **25** 3 (1982) 227–247 \[<a href="https://doi.org/10.1016/0022-4049(82)90080-9">doi:10.1016/0022-4049(82)90080-9</a>, [pdf](https://www.math.mcgill.ca/barr/papers/galois2.pdf), [[Barr-AbstractGaloisII.pdf:file]]&rbrack;
 
 Introduction:
 
