@@ -44,7 +44,8 @@ The standard CW-complex structure of $S^n$ realizes it via two $k$-cells for all
 =--
 
 
-### Relation to classifying space
+### Relation to the $\mathbb{Z}/2$-classifying space
+ {#RelationToClassifyingSpace}
 
 The infinite real projective space $\mathbb{R}P^\infty \coloneqq \underset{\longrightarrow}{\lim}_n \mathbb{R}P^n$ is the [[classifying space]] for [[real line bundles]]. It has the [[homotopy type]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,1) = B \mathbb{Z}/2$.
 
