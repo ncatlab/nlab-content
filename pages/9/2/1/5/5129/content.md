@@ -338,7 +338,7 @@ $$(\Delta[p]\times \Delta[1])\times \{0\} \cup \partial(\Delta[p]\times \Delta[1
 
 together with part of the top of the 'canister'.  (In general the total order seems to correspond to some sort of filling scheme although this is not always as clear as here.)
 
-Our second case will be (3,2).  Again we will write $(i,j,k)$ instead of $i\lt j\ltk$ in order to save confusion over the various different orders being considered.  The shuffle poset, $\mathrm{Shuff}(3,2)$, has Hasse diagram given below:
+Our second case will be (3,2).  Again we will write $(i,j,k)$ instead of $i\lt j\lt k$ in order to save confusion over the various different orders being considered.  The shuffle poset, $\mathrm{Shuff}(3,2)$, has Hasse diagram given below:
 
 \begin{xymatrix@=1.5em}&&(2,3,4)\ar@{-}[d]&\\
 &&(1,3,4)\ar@{-}[dl]\ar@{-}[dr]&\\
