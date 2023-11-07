@@ -89,3 +89,9 @@ See also:
 
 * [[Marco Schlichting]], p. 8 of: *Higher $K$-Theory of Forms I. From Rings to Exact Categories*, Journal of the Institute of Mathematics of Jussieu **20** 4 (2021) 1205-1273 &lbrack;[doi:10.1017/S1474748019000410](https://doi.org/10.1017/S1474748019000410)&rbrack;
 
+[[!redirects hyperbolic functors]]
+
+[[!redirects hyperbolic form]]
+[[!redirects hyperbolic forms]]
+
+
