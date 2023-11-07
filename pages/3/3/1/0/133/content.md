@@ -78,6 +78,7 @@ A [[Grothendieck topos]] satisfies the external axiom of choice iff it is equiva
 The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction requires [[excluded middle]]).  This is a *very* short list; much longer lists can be found elsewhere, such as at [Wikipedia](http://en.wikipedia.org/wiki/Axiom_of_choice#Equivalents).  Some of the statements on this list, though, may be of interest to nLabbers but are not commonly mentioned as equivalents of choice.
 
 * That any [[cartesian product]] of any [[family]] of [[inhabited sets]] is [[inhabited]]. 
+* That given a [[function]] $f$ and an element $b$ in the [[codomain]] of $f$, the [[preimage]] $f^*(b)$ of $f$ at $b$ has a (local) [[choice operator]], a function $\epsilon:[f^*(b)] \to f^*(b)$ from the [[support of a set|support]] of $f^*(b)$ to $f^*(b)$ itself.
 * The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
 * [[Zorn's lemma]],
 * That ($L =$ [[monomorphism | monomorphisms]], $R =$ [[epimorphism | epimorphisms]]) is a [[weak factorization system on Set]].
@@ -163,7 +164,7 @@ There are also "internal" versions of these axioms.
 
 In [[dependent type theory]], there are two interpretations of [[predicate logic]] in the type theory; [[propositions as some types]] and [[propositions as types]]. 
 
-The [[propositions as some types]] interprets [[disjunction]] and [[existential quantification]] as the [[bracket type]] of the [[sum type]] and [[dependent sum type]] respectively, and leads to the statement of the axiom of choice in [[dependent type theory]], that "any [[dependent product]] of any [[family]] of [[inhabited]] [[h-sets]] is [[inhabited]]". This implies the [[principle of unique choice]], because every [[contractible type]] is an [[inhabited]] [[h-proposition]], [[h-propositions]] are [[h-sets]], dependent product types preserve the property of being an [[h-proposition]], and the [[principle of unique choice]] states that "any [[dependent product]] of any [[family]] of [[contractible types]] is [[inhabited]]". 
+The [[propositions as some types]] interprets [[disjunction]] and [[existential quantification]] as the [[bracket type]] of the [[sum type]] and [[dependent sum type]] respectively, and leads to the statement of the axiom of choice in [[dependent type theory]], that "any [[dependent product]] of any [[family]] of [[inhabited]] [[h-sets]] is [[inhabited]]". 
 
 The [[propositions as types]] interprets [[disjunction]] and [[existential quantification]] directly as the [[sum type]] and [[dependent sum type]] respectively, and the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts. (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.) The equivalent form of the axiom of choice involving cartesian products of inhabited types then becomes in type theory the statement that "any [[dependent product]] of any [[family]] of [[pointed types]] is [[pointed]]". and is just the [[identity function]] on the dependent product type. Since both statements is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.
 
