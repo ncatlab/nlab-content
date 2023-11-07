@@ -353,9 +353,10 @@ $$
 =--
 
 
-+-- {: .num_theorem #EMTheorem}
-###### Theorem (Eilenberg-MacLane)
-
+\begin{theorem}
+\label{EMTheorem}
+**(Eilenberg-MacLane)**
+\linebreak
 Given a [[simplicial abelian group]] $A$, then the inclusion 
 
 $$
@@ -364,8 +365,7 @@ $$
 
 of the normalized chain complex, def. \ref{NormalizedChainComplexOnGeneralGroup} into the full alternating face map complex, def. \ref{AlternatingFaceMapComplex},
 is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natural chain [[homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is [[null homotopy|null-homotopic]] (a [[contractible chain complex]]).
-
-=--
+\end{theorem}
 
 ([Goerss-Jardine, theorem III 2.4](#GoerssJardine))
 
@@ -518,9 +518,9 @@ $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 ## Examples
  {#Examples}
 
-+-- {: .num_example #ChainsOnThe1Simplex}
-###### Example
-
+\begin{example}\label{ChainsOnThe1Simplex}
+**(chain on the 1-simplex)**
+\linebreak
 Consider the 1-[[simplex]] $\Delta[1]$ regarded as a [[simplicial set]], and write $\mathbb{Z}[\Delta[1]]$ for the [[simplicial abelian group]] which in each degree is the [[free abelian group]] on the simplices in $\Delta[1]$.
 
 This simplicial abelian group starts out as
@@ -583,13 +583,134 @@ $$
 $$
 
 Notice that alternatively we could consider the topological 1-simplex $\Delta^1 = [0,1]$ and its [[singular simplicial complex]] $Sing(\Delta^1)$ in place of the smaller $\Delta[1]$, then the free simplicial abelian group $\mathbb{Z}(Sing(\Delta^1))$ of that. The corresponding alternating face map chain complex $C(\mathbb{Z}(Sing(\Delta^1)))$ is "huge" in that in each positive degree it has a free abelian group on uncountably many generators. Quotienting out the degenerate cells still leaves uncountably many generators in each positive degree (while every singular $n$-simplex in $[0,1]$ is "thin", only those whose parameterization is as induced by a degeneracy map are actually regarded as degenerate cells here). Hence even after normalization the singular simplicial chain complex is "huge". Nevertheless it is quasi-isomorphic to the tiny chain complex found above.
+\end{example}
 
-=--
+
+\begin{example}\label{NormalizedChainsOnEZTwo}
+**(normalized chain complex of $E\mathbb{Z}_2$)**
+\linebreak
+We write $\mathbb{Z}_2 \,\equiv\, \mathbb{Z}/2\mathbb{Z}$ for the [[cyclic group of order 2]], whose [[underlying]] [[set]] we denote by $\{0, 1\}$.
+
+Consider the [[simplicial group]] (see [here](simplicial+classifying+space#eq:SimplicialClassifyingSpaceAsNerve))
+$$
+  W \mathbb{Z}_2
+  \;=\;
+  N\big(
+    \mathbf{E} \mathbb{Z}_2
+  \big)
+  \;\equiv\;
+  N\big(
+    \mathbb{Z}_2 \times \mathbb{Z}_2
+    \underoverset
+      {pr_2}
+      {(\text{-})\cdot(-)}
+      {\rightrightarrows}
+    \mathbb{Z}_2
+  \big)
+  \,.
+$$
+Forming degree-wise [[linear spans]] gives a [[simplicial abelian group]] 
+$$
+  \mathbb{Z}\big[
+    W \mathbb{Z}_2
+  \big]
+  \;\;
+  \in
+  \;\;
+  Ab^{\Delta^{op}}
+  \,.
+$$
+with [[normalized chain complex]] denoted
+\[
+  \label{NormalizedChainsOnWZTwo}
+  N_\bullet
+  \big(
+    \mathbb{Z}
+    [
+      W \mathbb{Z}_2
+    ]
+  \big)
+  \;\;
+  \in
+  \;\;
+  Ch_{\geq 0}
+  \,.
+\]
+
+Now, since the only non-[[identity morphism|identity]] morphisms in $\mathbf{E}\mathbb{Z}_2$ are the two morphsism $0 \to 1$ and $1 \to 0,$ the non-degenerate [[n-simplex|$n$-simplices]] of (eq:NormalizedChainsOnWZTwo) are alternating sequences on $n+1$-elements in $\{0,1\}$. By the alternating property, these are fully determined by their first element (in particular), whence there are exactly two-non-degenerate $n$-simplices for all $n \in \mathbb{N}$. On these, the differential is given as follows, using  (eq:DifferentialOnChains) and Prop. \ref{NormalizedIntoModuloDegeneraciesIsIsomorpism}, according to which only the 0th and $n$th [[face maps]] contribute in degree $n$, the latter with sign $(-1)^n$:
+\[
+  \label{NormalizedChainsOnWZTwo}
+  N_\bullet
+  \mathbb{Z}
+  \big[
+    W \mathbb{Z}_2
+  \big]
+  \;\simeq\;
+  \Bigg[
+    \cdots
+    \to
+    \xrightarrow{
+      \left[
+      \array{
+        +1  & +1  
+        \\
+        +1  & +1
+      }
+      \right]
+    }
+    \mathbb{Z}_{0101} \oplus \mathbb{Z}_{1010}
+    \xrightarrow{
+      \left[
+      \array{
+        -1  & +1  
+        \\
+        +1  & -1
+      }
+      \right]
+    }
+    \mathbb{Z}_{010} \oplus \mathbb{Z}_{101}
+    \xrightarrow{
+      \left[
+      \array{
+        +1  & +1  
+        \\
+        +1  & +1
+      }
+      \right]
+    }
+    \mathbb{Z}_{01} \oplus \mathbb{Z}_{10}
+    \xrightarrow{
+      \left[
+      \array{
+        -1  &  +1 
+        \\
+        +1  &  -1
+      }
+      \right]
+    }
+    \mathbb{Z}_0 \oplus \mathbb{Z}_1
+  \Bigg]
+  \,.
+\]
+One may think of the two generators in degree $n+1$ as corresponding to two $n+1$-dimensional [[hemispheres]] with common [[boundary]] an [[equator]] similarly formed by two $n$-dimensional [[hemispheres]], and so on. Thereby this chain complex is seen to be  isomorphically that for the [[cellular homology]] of the standard [[CW-complex]]-[[structure]] on the [infinite-dimensional sphere](sphere#InfiniteDimensionalSphere) $S^\infty$ (cf. also at *[[real projective space]]* the section *[Relation to $\mathbb{Z}/2$-classifying space](real+projective+space#RelationToClassifyingSpace)*).
+
+Indeed, one sees immediately that (eq:NormalizedChainsOnWZTwo) has vanishing [[chain homology]] in all [[positive number|positive]] degrees and homology $\simeq \mathbb{Z}$ in degree 0, whence the canonical map to the normalized chain complex on the point is a [[quasi-isomorphism]]:
+
+$$
+  N_\bullet\,\mathbb{Z}[W \mathbb{Z}_2]
+  \xrightarrow[\;qiso\;]{}
+  N_\bullet\,\mathbb{Z}[\ast]
+  \,.
+$$
+
+This reflects the [[contractible homotopy type]] of both $E \mathbb{Z}_2$ (the total space of the [universal principal $\mathbb{Z}_2$-bundle](simplicial+principal+bundle#UniversalSimplicialBundle)) and of $S^\infty$.
+\end{example}
+
 
 
 ## References
 
-Original sources are
+Original sources:
 
 * [[John Moore]], _Homotopie des complexes mono&#239;daux, I._  S&#233;minaire Henri Cartan **7** 2 (1954-1955), Expos&#233; **18**  ([numdam:SHC_1954-1955__7_2_A8_0](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0))
 
