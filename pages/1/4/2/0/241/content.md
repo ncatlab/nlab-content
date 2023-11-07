@@ -250,6 +250,11 @@ later.  (Lots of people are not named on the day they are born.)
 
 ## References
 
+Basic exposition:
+
+* [[Michael Barr]], [[Colin McLarty]], [[Charles Wells]],  *Variable set theory*, prepared for *Scientific American* but unpublished (~1985) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/vst.pdf), [[BarrMcLartyWells-VariableSetTheory.pdf:file]]&rbrack;
+
+
 A quick introduction of the basic facts of sheaf-topos theory is chapter I, "Background in topos theory" in 
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
