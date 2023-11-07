@@ -1,8 +1,10 @@
-Nathanael Arkor is a postdoc researching [[category theory]] and [[type theory]].
+Nathanael Arkor is a postdoc researching [[category theory]] and [[type theory]]. Under the pseudonym *[varkor](https://github.com/varkor)* he is the author of the diagram editor *[[quiver (editor)|quiver]]*.
 
 * [personal page](https://arkor.co/)
 
 * [institute page](https://www.muni.cz/en/people/247504-nathanael-amariah-arkor)
+
+
 
 ## Selected writings
 
@@ -37,7 +39,6 @@ On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]
 
 * [[formal category theory]]
 
-* [[quiver (editor)]]
 
 
 category: people
