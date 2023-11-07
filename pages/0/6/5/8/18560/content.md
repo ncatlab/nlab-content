@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of _$(\infty, 1)$-profunctor_ is the [[categorification]] of that of[[profunctors]] from [[category theory]] to [[(∞,1)-category theory]].
+The concept of _$(\infty, 1)$-profunctor_ is the [[categorification]] of that of [[profunctors]] from [[category theory]] to [[(∞,1)-category theory]].
 
 ## Definition ##
 
