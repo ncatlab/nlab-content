@@ -22,6 +22,10 @@ A discussion of the [[swampland cobordism conjecture]]:
 
 * David Andriot, [[Nils Carqueville]], Niccolò Cribiori, _Looking for structure in the cobordism conjecture_ ([arXiv:2204.00021](https://arxiv.org/abs/2204.00021))
 
+On [[QFT with defects]]:
+
+* [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
+
 
 
 ## Related entries
