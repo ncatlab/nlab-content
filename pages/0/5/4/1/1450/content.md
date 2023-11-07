@@ -34,9 +34,9 @@ In _synthetic differential geometry_ one formulates [[differential geometry]] [[
 
 The main point of the axioms is to ensure that a well defined notion of [[infinitesimal spaces]] exists in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
 
-In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $E$). So a tangent vector in this context is literally an _infinitesimal path_ in $X$.
+In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object | exponential objects]] in the [[cartesian closed category]] $E$). So a tangent vector in this context is literally an _infinitesimal path_ in $X$.
 
-This way, in [[smooth topos]]es it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
+This way, in [[smooth topos | smooth toposes]] it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
 
 +-- {: .num_remark #SophusLieQuote}
 ###### Remark
@@ -70,7 +70,7 @@ The axioms of synthetic differential geometry demand that the [[topos]] $E$ of s
 
 in which in particular 
 
-* [[infinitesimal space]]s exist and
+* [[infinitesimal space | infinitesimal spaces]] exist and
 
 * satisfy the [[Kock-Lawvere axiom]].
 
@@ -92,7 +92,7 @@ Models of [[smooth toposes]] tend to be inspired by, but more general than, cons
 
 See at _[[synthetic differential geometry applied to algebraic geometry]]_ for more on this.
 
-The main difference between models for [[smooth toposes]]  and  [[algebraic geometry]] from this perspective is that models for [[smooth topos]] tend to employ test spaces that are _richer_ than plain formal duals to commutative [[ring]]s or algebras, as in [[algebraic geometry]]: typical models for synthetic differential geometry use test spaces given by formal duals of [[generalized smooth algebras]] that remember "smooth structure" in the usual sense of [[differential geometry]] (and different from, though not entirely unrelated to, the notion of [[smooth scheme]] in algebraic geometry). This is in particular true for the [well adapted models](#wellAdaptedModels).
+The main difference between models for [[smooth toposes]]  and  [[algebraic geometry]] from this perspective is that models for [[smooth topos]] tend to employ test spaces that are _richer_ than plain formal duals to commutative [[ring | rings]] or algebras, as in [[algebraic geometry]]: typical models for synthetic differential geometry use test spaces given by formal duals of [[generalized smooth algebras]] that remember "smooth structure" in the usual sense of [[differential geometry]] (and different from, though not entirely unrelated to, the notion of [[smooth scheme]] in algebraic geometry). This is in particular true for the [well adapted models](#wellAdaptedModels).
 
 However, with a a sufficiently general perspective on [[higher geometry]] one finds that algebraic geometry and  synthetic differential geometry are both special cases of a more general notion of theories of generalized spaces. For more on this see [[generalized scheme]].
 
@@ -100,7 +100,7 @@ However, with a a sufficiently general perspective on [[higher geometry]] one fi
 ### Well adapted models
  {#wellAdaptedModels}
 
-A [[topos]] $E$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to E$ from the category of ordinary [[smooth manifold]]s into $E$. 
+A [[topos]] $E$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to E$ from the category of ordinary [[smooth manifold | smooth manifolds]] into $E$. 
 
 A standard model for well adapted synthetic toposes is obtained in terms of sheaves on duals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook _[[Models for Smooth Infinitesimal Analysis]]_. 
 
@@ -148,7 +148,7 @@ $$
   \,,
 $$
 
-where we have freely identified morphisms with their [[adjunct]]s. See [[differential equation]] for details.
+where we have freely identified morphisms with their [[adjunct | adjuncts]]. See [[differential equation]] for details.
 
 
 ### Differential forms
@@ -231,13 +231,13 @@ The first model for the axioms presented there served to demonstrate that the th
 
 * [[Eduardo Dubuc]], _Sur les mod&egrave;les de la g&eacute;om&eacute;trie diff&eacute;rentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. **XX-3** (1979) pp.231-279. ([pdf](http://archive.numdam.org/article/CTGDC_1979__20_3_231_0.pdf))
 
-These models are constructed in terms of [[sheaf]] [[topos]]es on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C∞-ring]]s. See there for a detailed list of references.
+These models are constructed in terms of [[sheaf]] [[topos | toposes]] on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C^∞-rings]]. See there for a detailed list of references.
 
 Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([[LawvereToposesOfLawsOfMotions.pdf:file]])
 
-  (on the description of [[differential equation]]s in terms of synthetic differential geometry)
+  (on the description of [[differential equation | differential equations]] in terms of synthetic differential geometry)
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998). ([[LawvereSDGOutline.pdf:file]])
 
@@ -287,7 +287,7 @@ Somewhat complementary to that, the book
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ , Springer Heidelberg 1991.
 
-focuses on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra]]s ($C^\infty$-rings). 
+focuses on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra | generalized smooth algebras]] ($C^\infty$-rings). 
 
 Another textbook is
 
