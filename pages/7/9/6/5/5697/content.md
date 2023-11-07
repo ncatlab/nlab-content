@@ -8,6 +8,10 @@ Introducing [[Khovanov homology]]:
 
 * [[Mikhail Khovanov]], *A categorification of the Jones polynomial*, Duke Math. J. __101__ (2000) 359-426 &lbrack;[arXiv:math/9908171](https://arxiv.org/abs/math/9908171), [doi:10.1215/S0012-7094-00-10131-7](https://projecteuclid.org/journals/duke-mathematical-journal/volume-101/issue-3/A-categorification-of-the-Jones-polynomial/10.1215/S0012-7094-00-10131-7.full), MR1740682 (2002j:57025)&rbrack;
 
+lecture notes (and on [[categorification]] generally):
+
+* [[Mikhail Khovanov]] (notes by [[You Qi]]), *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
+
 Review:
 
 * [[Mikhail Khovanov]], Robert Lipshitz, _Categorical lifting of the Jones polynomial: a survey_, Bulletin (New Series) of the American Mathematical Society (2022) &lbrack;[doi:10.1090/bull/1772](https://doi.org/10.1090/bull/1772)&rbrack;
