@@ -16,5 +16,9 @@ On [[little string theory]] in [[heterotic string theory]] via [[F-theory]]-meth
 
 * [[Michele Del Zotto]], Muyang Liu, Paul-Konstantin Oehlmann, *6D Heterotic Little String Theories and F-theory Geometry: An Introduction* &lbrack;[arXiv:2303.13502](https://arxiv.org/abs/2303.13502)&rbrack;
 
+On [[QFT with defects]]:
+
+* [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
+
 
 category: people
