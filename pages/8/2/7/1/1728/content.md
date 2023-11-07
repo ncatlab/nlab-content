@@ -288,6 +288,8 @@ Review:
 
 * [[Andrew Neitzke]], *Some uses of defects in quantum field theory* (2016?) &lbrack;[html](https://gauss.math.yale.edu/~an592/talks/html/defects-aspen/talk.html)&rbrack;
 
+* [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
+
 Discussion of defects in [[prequantum field theory]], hence for [[coefficients]] in an [[(∞,n)-category of spans]] is in 
 
 * {#FiorenzaValentino} [[Domenico Fiorenza]], [[Alessandro Valentino]], *Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors*,  Commun. Math. Phys. **338** (2015) 1043–1074  &lbrack;[arXiv:1409.5723](https://arxiv.org/abs/1409.5723), [doi:10.1007/s00220-015-2371-3](https://doi.org/10.1007/s00220-015-2371-3)&rbrack;
