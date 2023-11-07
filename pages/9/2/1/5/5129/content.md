@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -165,6 +166,24 @@ the _unshuffle_ side of shuffles is used.
 
 ## Properties
  {#Properties}
+
+### Basic properties
+
+\begin{remark}\label{NumberOfShuffles}
+**(number of shuffles)**
+\linebreak
+  The number of $(p,q)$-shuffles is given by the [[binomial coefficient]] 
+$$
+  #
+  Sh(p,q)
+  \;\;=\;\;
+  \left(
+    {p + q} \atop p
+  \right)
+  \,.
+$$
+Because, due to the preservation of order in the two "decks", a shuffle $\sigma \in Sh(p,q)  \subset Aut\big(\{1, \cdots, p + q\}\big)$ is fully determined by which $p$ elements of $\{1, \cdots, p + q\}$ are in the  image of $\{1, \cdots p\}$, which is the number of choices of $p$ out of $p + q$ elements.
+\end{remark}
 
 ### The poset of $(p,q)$-shuffles 
 
