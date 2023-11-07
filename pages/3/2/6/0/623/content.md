@@ -152,10 +152,11 @@ For $A$ a [[simplicial abelian group]] its **alternating face map complex** $(C 
 
 * with [[differential]] given by the alternating sum of face maps (using the abelian group structure on $A$)
 
-  $$
+  \[
+    \label{DifferentialOnChains}
     \partial_n \coloneqq \sum_{i = 0}^n (-1)^i d_i  \;\colon\; (C A)_n \to (C A)_{n-1}
     \,.
-  $$
+  \]
 
   (see lemma \ref{AlternatingSumOfFacesInNilpotent}).
 
