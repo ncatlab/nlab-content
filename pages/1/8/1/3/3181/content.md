@@ -18,8 +18,12 @@ Lecture notes on [[modular tensor categories]] and [[rational CFT]]:
 
 * {#Runkel} [[Ingo Runkel]], *Algebra in Braided Tensor Categories and Conformal Field Theory* ([pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/alg.pdf), [[Runkel-AlgebraInBTCAndCFT.pdf:file]])
 
+On [[QFT with defects]]:
 
-## Related $n$Lab entries
+* [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
+
+
+## Related  entries
 
 * [[conformal field theory]]
 
