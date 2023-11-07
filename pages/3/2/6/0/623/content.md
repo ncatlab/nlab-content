@@ -637,7 +637,7 @@ with [[normalized chain complex]] denoted
   \,.
 \]
 
-Now, since the only non-[[identity morphism|identity]] morphisms in $\mathbf{E}\mathbb{Z}_2$ are the two morphsism $0 \to 1$ and $1 \to 0,$ the non-degenerate [[n-simplex|$n$-simplices]] of (eq:NormalizedChainsOnWZTwo) are alternating sequences on $n+1$-elements in $\{0,1\}$. By the alternating property, these are fully determined by their first element (in particular), whence there are exactly two-non-degenerate $n$-simplices for all $n \in \mathbb{N}$. On these, the differential is given as follows, using  (eq:DifferentialOnChains) and Prop. \ref{NormalizedIntoModuloDegeneraciesIsIsomorpism}, according to which only the 0th and $n$th [[face maps]] contribute in degree $n$, the latter with sign $(-1)^n$:
+Now, since the only non-[[identity morphism|identity]] morphisms in $\mathbf{E}\mathbb{Z}_2$ are the two morphsism $0 \to 1$ and $1 \to 0,$ the non-degenerate [[n-simplex|$n$-simplices]] of (eq:NormalizedChainsOnWZTwo) are alternating sequences on $n+1$-elements in $\{0,1\}$. By the alternating property, these are fully determined by their first element (in particular), whence there are exactly two non-degenerate $n$-simplices for all $n \in \mathbb{N}$. On these, the differential is given as follows, using  (eq:DifferentialOnChains) and Prop. \ref{NormalizedIntoModuloDegeneraciesIsIsomorpism}, according to which only the 0th and $n$th [[face maps]] contribute in degree $n$, the latter with sign $(-1)^n$:
 \[
   \label{NormalizedChainsOnWZTwo}
   N_\bullet
@@ -704,6 +704,180 @@ $$
 $$
 
 This reflects the [[contractible homotopy type]] of both $E \mathbb{Z}_2$ (the total space of the [universal principal $\mathbb{Z}_2$-bundle](simplicial+principal+bundle#UniversalSimplicialBundle)) and of $S^\infty$.
+\end{example}
+
+
+
+\begin{example}\label{NormalizedChainDGAlgebraOnEZTwo}
+**(normalized chain dg-algebra of $E\mathbb{Z}_2$)**
+
+On the normalized chain complex of Ex. \ref{NormalizedChainsOnEZTwo}, the 
+[[group]] [[structure]] on $W \mathbb{Z}_2$ induces a [[simplicial ring]]-[[structure]], the "simplicial [[group ring]]") 
+$$
+  \mathbb{Z}\big[
+    W \mathbb{Z}_2
+  \big]
+  \;\;
+  \in
+  \;\;
+  Ring^{\Delta^{op}}
+  \,.
+$$
+
+Since the [[normalized chain complex]]-functor $N_\bullet \,\colon\, Ab^{\Delta^{op}} \to Ch_{\geq 0}$ is (see [here](monoidal+Dold-Kan+correspondence#ChainsIsLaxMonoidal)) a [[lax monoidal functor]] via the [[Eilenberg-Zilber map]], this induces on $N_\bullet\big( \mathbb{Z}[W \mathbb{Z}_2] \big)$ the [[structure]] of a [[dg-algebra]].
+
+To write this out, denote the two generators in each degree by
+$$
+  (0), (1)
+  \;\in\;
+  \mathbb{Z}_{0\cdots} 
+  \oplus
+  \mathbb{Z}_{1\cdots} 
+  \;=\;
+  N_n\big( \mathbb{Z}[W \mathbb{Z}_2] \big)
+  \,.
+$$
+The non-degenerate cells of the tensor product simplicial group are similarly labeled (via [this Prop.](product+of+simplices#NonDegenerateSimplicesInProductOfSimplices)) by 
+
+1. a pair of first elements of $n+1$-sequences in $\{0,1\}$ 
+
+1. a $(p, q)$-[[shuffle]], 
+
+hence:
+$$
+  \big(
+    (g, g'), sh
+  \big)
+  \;\in\;
+  \mathbb{Z}
+  \big[
+    \{0,1\}^2 
+      \times 
+    \sqcup_{p+q = n}  
+    Sh(p,q)
+  \big]
+  \;\simeq\;
+  N_{n}
+  \Big(
+    \mathbb{Z}\big[
+      W \mathbb{Z}_2
+      \times
+      W \mathbb{Z}_2
+    \big]
+  \Big)
+  \;\simeq\;
+  N_{n}
+  \Big(
+    \mathbb{Z}\big[
+      W \mathbb{Z}_2
+    \big]
+    \otimes
+    \mathbb{Z}\big[
+      W \mathbb{Z}_2
+    \big]
+  \Big)
+  \,.
+$$
+One immediately finds that on these generators the induced product map is just the group operation, independent of the shuffle:
+$$
+  \array{
+    N_\bullet
+    \big(
+      \mathbb{Z}[W \mathbb{Z}_2]
+      \otimes
+      \mathbb{Z}[W \mathbb{Z}_2]
+    \big)
+    &
+    \xrightarrow{
+      N_\bullet
+      \big( 
+        \mathbb{Z}[(\text{-})\cdot(\text{-})] 
+      \big)
+    }
+    &
+    N_\bullet
+    \big(
+      \mathbb{Z}[W \mathbb{Z}_2]
+    \big)
+    \\
+    \big(
+      g, g', sh
+    \big)
+    &\mapsto&
+    (g \cdot g')
+    \mathrlap{\,.}
+  }
+$$
+Composed with the [[Eilenberg-Zilber map]] this gives
+$$
+  \array{
+    \big(
+      N_\bullet
+      \,
+      \mathbb{Z}[W \mathbb{Z}_2]
+    \big)
+    \otimes
+    \big(
+      N_\bullet
+      \,
+      \mathbb{Z}[W \mathbb{Z}_2]
+    \big)
+    &\xrightarrow{\phantom{----}}&
+    N_\bullet
+    \big(
+      \mathbb{Z}[W \mathbb{Z}_2]
+      \otimes
+      \mathbb{Z}[W \mathbb{Z}_2]
+    \big)
+    &
+    \xrightarrow{
+      N_\bullet
+      \big( 
+        \mathbb{Z}[(\text{-})\cdot(\text{-})] 
+      \big)
+    }
+    &
+    N_\bullet
+    \big(
+      \mathbb{Z}[W \mathbb{Z}_2]
+    \big)
+    \\
+    (g)_p 
+      \otimes 
+    (g')_q
+    &\mapsto&
+    \displaystyle{
+      \underset{
+        \mathclap{ 
+          sh \in Sh(p,q) 
+        }
+      }{\sum}
+    }
+    \;
+    sgn(sh)
+    \,
+    \big(
+      g,g', sh
+    \big)
+    &\mapsto&
+    \Big(
+      \displaystyle{
+        \underset{
+          \mathclap{
+            sh \in Sh(p,q)
+           }
+        }{\sum}
+      }
+      \;
+     sgn(sh)
+   \Big)
+   \,
+   (g \cdot g')_{p + q}
+   \mathrlap{\,.}
+  }
+$$
+
+
 \end{example}
 
 
