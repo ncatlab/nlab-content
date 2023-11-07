@@ -67,6 +67,8 @@ Discussion in [[algebraic geometry]]:
 
 Brief expositions:
 
+* [[Michael Barr]], [[Colin McLarty]], [[Charles Wells]],  *Variable set theory*, prepared for *Scientific American* but unpublished (~1985) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/vst.pdf), [[BarrMcLartyWells-VariableSetTheory.pdf:file]]&rbrack;
+
 * [[Ieke Moerdijk]], *Background in topos theory*, chapter I in: _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics **1616**, Springer (1995) &lbrack;[doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441)&rbrack;
 
 * [[Luc Illusie]], *What is... a Topos?*, Notices of the AMS **51** 9 (2004) &lbrack;[pdf](https://www.ams.org/notices/200409/what-is-illusie.pdf), full volume:[pdf](https://www.ams.org/notices/200409/200409FullIssue.pdf)&rbrack;
