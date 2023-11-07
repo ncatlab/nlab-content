@@ -23,7 +23,7 @@ A premulticategory that has all tensor products and units, in a usual multicateg
 
 ## References
 
-* [[Sam Staton]] and [[Paul Blain Levy]], *Universal properties of impure programing languages*.  POPL '13: Proceedings of the 40th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages, 2013, [doi](https://doi.org/10.1145/2429069.2429091)
+* [[Sam Staton]] and [[Paul Blain Levy]], *Universal properties of impure programming languages*.  POPL '13: Proceedings of the 40th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages, 2013, [doi](https://doi.org/10.1145/2429069.2429091)
 
 [[!redirects premulticategories]]
 [[!redirects pre-multicategory]]
