@@ -78,7 +78,7 @@ The concept for [[cosimplicial spaces]] originates with:
 
 Introductory notes:
 
-* {#Eldred08} [[Rosona Eldred]], *Tot primer* (2008) &lbrack;[pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view), [[Eldred-Totalization.pdf:file]]&rbrack;
+* {#Eldred08} [[Rosona Eldred]], *Tot primer* (2008) &lbrack;[[Eldred-Totalization.pdf:file]]&rbrack;
 
 Quick review:
 
