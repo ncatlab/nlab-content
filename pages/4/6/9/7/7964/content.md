@@ -366,6 +366,11 @@ Proposals for further [[experiments]]:
 
 * Roberto Franceschini, [[Alessandro Strumia]], Andrea Wulzer, *The collider landscape: which collider for establishing the SM instability?*, Journal of High Energy Physics **2022** 229 (2022) &lbrack;[arXiv:2203.17197](https://arxiv.org/abs/2203.17197), <a href="https://doi.org/10.1007/JHEP08(2022)229">doi:10.1007/JHEP08(2022)229</a>&rbrack;
 
+See also:
+
+* Thomas Steingasser, David I. Kaiser, *Higgs Criticality beyond the Standard Model* &lbrack;[arXiv:2307.10361](https://arxiv.org/abs/2307.10361)&rbrack;
+
+
 
 
 ### Diphoton decay
