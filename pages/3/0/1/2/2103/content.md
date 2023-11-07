@@ -79,9 +79,34 @@ Introducing [[star-autonomous categories]]:
 
 * [[Michael Barr]], _$\ast$-Autonomous Categories_, Lecture Notes in Mathematics **752**, Springer (1979) &lbrack;[doi:10.1007/BFb0064579](https://doi.org/10.1007/BFb0064579)&rbrack;
 
+On [[Galois theory]]:
+
+* [[Michael Barr]], *Abstract Galois Theory*, J. Pure Appl. Algebra **19** (1980) 21–42 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/galois.pdf), [[Barr-AbstractGaloisI.pdf:file]]&rbrack;
+
+* [[Michael Barr]], *Abstract Galois Theory II*, J. Pure Appl. Algebra **25** 3 (1982) 227–247 \[<a href="https://doi.org/10.1016/0022-4049(82)90080-9">doi:10.1016/0022-4049(82)90080-9</a>, [pdf](https://www.math.mcgill.ca/barr/papers/galois2.pdf), [[Barr-AbstractGaloisII.pdf:file]]&rbrack;
+
+On [[atomic toposes]]:
+
+* [[Michael Barr]], [[Radu Diaconescu]], *Atomic Toposes*, J. Pure Appl. Algebra **17** (1980) 1-24 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90020-1">doi:10.1016/0022-4049(80)90020-1</a>, [pdf](http://www.math.mcgill.ca/barr/papers/atom.top.pdf), [[BarrDiaconescu-Atomictoposes.pdf:file]]&rbrack;
+
+
 On [[toposes]], [[monads]] ("triples") and [[algebraic theories]]:
 
 *  [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Grundlehren der math. Wissenschaften **278** Springer (1983), [[TAC reprints series|Reprints in Theory and Applications of Categories]] **12** (2005) 1-287 &lbrack;[ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt/), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf), [tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack; 
+
+Exposition of [[sheaf toposes]]:
+
+* [[Michael Barr]], [[Colin McLarty]], [[Charles Wells]],  *Variable set theory*, prepared for *Scientific American* but unpublished (~1985) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/vst.pdf), [[BarrMcLartyWells-VariableSetTheory.pdf:file]]&rbrack;
+
+
+On [[models]] of [[Horn theories]]:
+
+* [[Michael Barr]], *Models of Horn theories*, in: *Categories in Computer Science and Logic*, Contemporary Math. **92**, Amer. Math. Soc. (1989) 1–7 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/horn.pdf), [[Barr-ModelsOfHornTheories.pdf:file]]&rbrack;
+
+On [[domain theory]] [[internalization|internal to]] [[cartesian closed categories]]:
+
+* [[Michael Barr]], *Fixed points in cartesian closed categories*, Theoretical Comp. Sci. **70** (1990) 65–72 &lbrack;<a href="https://doi.org/10.1016/0304-3975(90)90152-8">doi:10.1016/0304-3975(90)90152-8</a>, [pdf](https://www.math.mcgill.ca/barr/papers/dom.pdf), [[Barr-FixedPointsInCCCs.pdf:file]]&rbrack;
+
 
 On [[star-autonomous categories]] and the [[Chu construction]] as [[categorical semantics]] for [[linear logic]]:
 
