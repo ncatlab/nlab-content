@@ -479,11 +479,20 @@ Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of ord
 ## References
 
 
-Original work includes
+The notion of Clifford algebra is due to
 
-* [[William Clifford]], _Applications of Grassmann's extensive algebra_. American Journal of Mathematics 1 (4): 350&#8211;358. (1878)doi:10.2307/2369379.
+* [[William Clifford]], *Applications of Grassmann's extensive algebra*, American Journal of Mathematics **1** 4 (1878) 350-358 &lbrack;[doi:10.2307/2369379](https://doi.org/10.2307/2369379), [jstor:2369379](https://www.jstor.org/stable/2369379)&rbrack;
 
-* {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  first edition 1966
+  > (referring to [[Hermann Grassmann]]'s *[[Ausdehnungslehre]]*)
+
+Further early discussion:
+
+* [[Emil Artin]], §V.4 in: *[[Geometric Algebra]]*, Wiley 1957 (1988) &lbrack;[ISBN:978-1-118-16454-9](https://www.wiley.com/en-ae/Geometric+Algebra-p-9781118164549), <a href="https://en.wikipedia.org/wiki/Geometric_Algebra_(book)">Wikipedia entry</a>, [ark:/13960/t4nk37034](https://archive.org/details/geometricalgebra033556mbp/page/n5/mode/2upa)&rbrack;
+
+
+* {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  (1966)
+
+
 
 Brief introductions:
 
