@@ -107,7 +107,8 @@ An example of a connected atomic topos without a [[point of a topos|point]] is g
 
 ## References
 
-* {#Barr-Diaconescu80}[[Michael Barr]], [[Radu Diaconescu]], _Atomic Toposes_ , JPAA **17** (1980) pp.1-24. ([pdf](http://www.math.mcgill.ca/barr/papers/atom.top.pdf))
+
+* {#Barr-Diaconescu80}[[Michael Barr]], [[Radu Diaconescu]], *Atomic Toposes*, J. Pure Appl. Algebra **17** (1980) 1-24 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90020-1">doi:10.1016/0022-4049(80)90020-1</a>, [pdf](http://www.math.mcgill.ca/barr/papers/atom.top.pdf), [[BarrDiaconescu-Atomictoposes.pdf:file]]&rbrack;
 
 * [[Olivia Caramello]], _Atomic toposes and countable categoricity_ , Appl. Cat. Struc. **20** no. 4 (2012) pp.379-391. ([arXiv:0811.3547](http://arxiv.org/abs/0811.3547))
 
