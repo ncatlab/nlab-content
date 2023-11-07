@@ -464,7 +464,7 @@ This elementary example \ref{BeckChevalleyForPreImageBetweenPowerSets} actually 
 \label{BCForPresheavesOnPullbacksOfOpfibrations}
 Given 
 
-1. $\phi \colon D \to C$ is an [[opfibration]] of [[small categories|small]] [[strict categories]] 
+1. $\phi \colon D \to C$ an [[opfibration]] of [[small categories|small]] [[strict categories]], 
 
 1. a [[pullback]] [[diagram]] in the _[[1-category]]_ [[Cat]] of [[small category|small]] [[strict categories]] and [[functors]] of the form
 
