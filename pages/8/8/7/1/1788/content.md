@@ -1,4 +1,105 @@
 
+\begin{example}
+We write $\mathbb{Z}_2 \,\equiv\, \mathbb{Z}/2\mathbb{Z}$ for the [[cyclic group of order 2]], whose [[underlying]] [[set]] we denote by $\{0, 1\}$.
+
+Consider the [[simplicial group]] (see [here](simplicial+classifying+space#eq:SimplicialClassifyingSpaceAsNerve))
+$$
+  W \mathbb{Z}_2
+  \;=\;
+  N\big(
+    \mathbf{E} \mathbb{Z}/2
+  \big)
+  \;\equiv\;
+  N\big(
+    \mathbb{Z}_2 \times \mathbb{Z}_2
+    \underoverset
+      {pr_2}
+      {(\text{-})\cdot(-)}
+      {\rightrightarrows}
+    \mathbb{Z}_2
+  \big)
+  \,.
+$$
+Forming degree-wise [[linear spans]] gives a [[simplicial abelian group]] ([[underlying]] a [[simplicial ring]]-[[structure]], the "simplicial [[group ring]]") 
+$$
+  \mathbb{Z}\big[
+    W \mathbb{Z}_2
+  \big]
+  \;\;
+  \in
+  \;\;
+  Ring^{\Delta^{op}}
+  \to
+  Ab^{\Delta^{op}}
+  \,.
+$$
+with [[normalized chain complex]] denoted
+\[
+  \label{NormalizedChainsOnWZTwo}
+  N_\bullet
+  \mathbb{Z}
+  \big[
+    W \mathbb{Z}_2
+  \big]
+  \;\;
+  \in
+  \;\;
+  dgAlg
+  \to
+  Ch_{\geq 0}
+  \,.
+\]
+
+(Since the [[normalized chain complex]]-functor $N_\bullet \,\colon\, Ab^{\Delta^{op}} \to Ch_{\geq 0}$ is -- see [here](monoidal+Dold-Kan+correspondence#ChainsIsLaxMonoidal) -- is a [[lax monoidal functor]] via the [[Eilenberg-Zilber map]], this comes with the [[structure]] of a [[dg-algebra]].)
+
+Now, since the only non-[[identity morphism|identity]] morphisms in $\mathbf{E}\mathbb{Z}_2$ are the two morphsism $0 \to 1$ and $1 \to 0,$ the non-degenerate [[n-simplex|$n$-simplices]] of (eq:NormalizedChainsOnWZTwo) are alternating sequences on $n+1$-elements in $\{0,1\}$. By the alternating property, these are fully determined by their first element (in particular), whence there are exactly two-non-degenerate $n$-simplices for all $n \in \mathbb{N}$. On these, the differential is given as follows (see [here](Moore+complex#eq:DifferentialOnChains)):
+\[
+  \label{NormalizedChainsOnWZTwo}
+  N_\bullet
+  \mathbb{Z}
+  \big[
+    W \mathbb{Z}_2
+  \big]
+  \;\simeq\;
+  \Bigg[
+    \cdots
+    \xrightarrow{\;}
+    \mathbb{Z}_{0101} \oplus \mathbb{Z}_{1010}
+    \xrightarrow{
+      \left[
+      \array{
+        +1  & +1  
+        \\
+        +1  & +1
+      }
+      \right]
+    }
+    \mathbb{Z}_{010} \oplus \mathbb{Z}_{101}
+    \xrightarrow{
+      \left[
+      \array{
+        +1  & +1  
+        \\
+        +1  & +1
+      }
+      \right]
+    }
+    \mathbb{Z}_{01} \oplus \mathbb{Z}_{10}
+    \xrightarrow{
+      \left[
+      \array{
+        -1  &  +1 
+        \\
+        +1  &  -1
+      }
+      \right]
+    }
+    \mathbb{Z}_0 \oplus \mathbb{Z}_1
+  \Bigg]
+\]
+
+
+\end{example}
 
 Let $X$ be a [[compact Hausdorff space]]. By a [[vector bundle]] (over $X$) we mean a [[topological vector bundle|topological]] [[complex vector bundle]].
 
