@@ -49,8 +49,7 @@ On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric
 
 Review:
 
-
-* [[Guy de Téramond]], _Superconformal and Supersymmetric Constraints to Hadron Masses in Light-Front Holographic QCD_, Trento 2017 ([[TeramondHadronSupersymmetry2017.pdf:file]])
+* [[Guy de Téramond]], _Holographic QCD in light-front quantization and superconformal algebra: An overview_, SCGP, Stonybrook 2020 [pdf](http://media.scgp.stonybrook.edu/presentations/2020/20200820_de%20Teramond.pdf) [video](https://scgp.stonybrook.edu/video_portal/video.php?id=4554)
 
 In view of [[tetraquarks]]:
 
