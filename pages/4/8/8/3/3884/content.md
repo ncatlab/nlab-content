@@ -48,21 +48,14 @@ For instance models such as the [[G2-MSSM]] consist entirely of pure [[11d super
 
 ...
 
-###Charge without Charge
+### Charge without Charge
 
 ...
 
-###Spin without Spin
+### Spin without Spin
 
 ...
 
-+-- {: .query}
-[[Eric]: Of the four "X without X"s above, the one that is not in Wheeler's "Classical Physics from Geometry" is "Spin without Spin". This is described in Section 3.4 of [Matter from Space](http://philsci-archive.pitt.edu/archive/00004950/01/MatterFromSpace.pdf). It would be great to expand on that here.
-=--
-
-+-- {: .query}
-[[Bruce Bartlett]]: Another example of this phenomenon seems to be the fact that Maxwell's equations in _matter_ are the same as Maxwell's equations in _curved space_ without matter! This is the basis of cloaking technology, see [article by Leonhardt and Philbin](http://arxiv.org/abs/cond-mat/0607418). You can read this equivalence both ways. Either you can conclude that _there is no such thing as curved space_: it's just a piece of dielectric material causing the light rays to bend which gives the illusion of curved space. Or you can conclude even more radically that _there is no such thing as matter_: what we think of as a block of wood is just a radically curved region of space (Maxwell's equations can't tell the difference). Or you can just think of it as a formal equivalence :-)
-=--
 
 
 
@@ -73,8 +66,28 @@ For instance models such as the [[G2-MSSM]] consist entirely of pure [[11d super
 
 ## References
 
-* [Geometrodynamics (Wikipedia)](http://en.wikipedia.org/wiki/Geometrodynamics)
+Early speculation of similar nature is due to 
+
+* [[William Clifford]], *[[On the Space-Theory of Matter]]*, Proceedings of the Cambridge Philosophical Society **2** (1864-1876 - Printed 1876) 157-158 reprinted in: *The Concepts of Space and Time* Boston Studies in the Philosophy of Science **22** Springer (1976) &lbrack;[doi:10.1007/978-94-010-1727-5_50](https://doi.org/10.1007/978-94-010-1727-5_50)&rbrack;
+
+(long before the formulation of [[Einstein gravity]]/[[general relativity]]).
+
+The term "geometrodynamics" is due to:
+
+* [[Charles W. Misner]], [[John A. Wheeler]], *Classical physics as geometry*, Annals of Physics **2** 6 (1957) 525-603 \[<a href="https://doi.org/10.1016/0003-4916(57)90049-0">doi:10.1016/0003-4916(57)90049-0</a>\]
+
+Review:
+
+* [[Domenico Giulini]], *Matter from Space*, in: *Beyond Einstein* Einstein Studies **14** Birkhäuser (2018) &lbrack;[doi:10.1007/978-1-4939-7708-6_12](https://doi.org/10.1007/978-1-4939-7708-6_12), [arXiv:0910.2574](https://arxiv.org/abs/0910.2574)&rbrack;
+
+
+See also:
+
+* Wikipedia, *[Geometrodynamics](http://en.wikipedia.org/wiki/Geometrodynamics)*
+
 * The Algebraic Rainich Conditions [pdf](http://www.ptep-online.com/index_files/2007/PP-10-08.PDF)
+
 * Return of the Wheeler wormhole [pdf](http://www.gravityresearchfoundation.org/pdf/awarded/1990/vissar.pdf)
-* Matter from Space [pdf](http://philsci-archive.pitt.edu/archive/00004950/01/MatterFromSpace.pdf)
-* [Spin 1/2 from gravity](http://prl.aps.org/abstract/PRL/v44/i17/p1100_1), John Friedman and Rafael Sorkin
+
+* [Spin 1/2 from gravity](http://prl.aps.org/abstract/PRL/v44/i17/p1100_1), 
+
