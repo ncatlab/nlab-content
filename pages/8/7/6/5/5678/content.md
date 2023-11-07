@@ -79,13 +79,15 @@ Original sources include
 * [[Carlo Collari]],  _The Functoriality of Khovanov Homology and the Monodromy of Knots_, 2013 ([pdf](https://core.ac.uk/download/pdf/19204099.pdf), [[CollariKhovanovHomology.pdf:file]])
 
 
+Review and lecture notes:
 
-Review:
+* {#Bar-Natan} [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370, [arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)
 
-* [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370, [arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)
-{#Bar-Natan}
 
-* Paul Turner, _Five Lectures on Khovanov Homology_, [math.GT/0606464](http://arxiv.org/abs/math/0606464)
+* [[Mikhail Khovanov]] (notes by [[You Qi]]), *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
+
+
+* Paul Turner, _Five Lectures on Khovanov Homology_, &lbrack;[math.GT/0606464](http://arxiv.org/abs/math/0606464)&rbrack;
 
 * [[Mikhail Khovanov]], Robert Lipshitz, _Categorical lifting of the Jones polynomial: a survey_, Bulletin (New Series) of the American Mathematical Society (2022) &lbrack;[doi:10.1090/bull/1772](https://doi.org/10.1090/bull/1772)&rbrack;
 
