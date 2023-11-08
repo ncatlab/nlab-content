@@ -58,22 +58,26 @@ $$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x)\right) 
 
 By [[weak function extensionality]], the disjunction of two types is a proposition. 
 
-This definition makes sense because the [[propositional truncation]] is defined using $\mathrm{Prop}$ by 
+\begin{theorem}
+The two definitions above are equivalent. 
+\end{theorem}
+
+\begin{proof}
+The [[propositional truncation]] of a type $A$ is equivalent to the following dependent product type
 
 $$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
 
 Substituting the dependent sum type $\sum_{x:A} B(x)$ for $A$, we have 
 
-$$\prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P$$
+$$\left[\sum_{x:A} B(x)\right] \simeq \prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P$$
 
 Given any type $C$, there is an equivalence 
 
 $$\left(\left(\sum_{x:A} B(x)\right) \to C\right) \simeq \left(\prod_{x:A} B(x) \to C\right)$$
-and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all type families $x:A \vdash B(x)$, and $x:A \vdash C(x)$, if there is a family of equivalences $e:\prod_{x:A} B(x) \simeq C(x)$, then there is an equivalence $\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} C(x)\right)$. All this taken together means that there is an equivalence 
+and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all type families $x:A \vdash B(x)$, and $x:A \vdash C(x)$, if there is a family of equivalences $e:\prod_{x:A} B(x) \simeq C(x)$, then there is an equivalence $\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} C(x)\right)$. All this taken together means that there are equivalences 
 
-$$\left(\prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to C\right)\right)$$
-and we can define the existential quantifier as 
-$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to C\right)$$
+$$\left[\sum_{x:A} B(x)\right] \simeq \left(\prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to C\right)\right)$$
+\end{proof}
 
 ## Properties
 
