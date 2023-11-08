@@ -270,7 +270,7 @@ See also broader discussion in:
 
 Another type-theoretic formulation of [[cohesive homotopy theory]], now obtained by changing the rewrite rules of type theory itself -- adding a [[syntax|syntactic]] notion of [[flat modality|flat]]-[[modal type|modal]] ("crisp") [[contexts]]:
 
-* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science **28** 6 (2018) 856-941 *lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science **28** 6 (2018) 856-941 &lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
 
 following a general pattern for [[modal type theory]] laid out in
 
