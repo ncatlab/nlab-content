@@ -97,6 +97,8 @@ Concretely, the [[quotient space]]/[[quotient orbifold]] of the space of [[wave 
 
 ## References
 
+### General
+
 The notion of _Klein geometry_ goes back to 
 
 * {#Klein1872} [[Felix Klein]], _[[Vergleichende Betrachtungen über neuere geometrische Forschungen]]_ (1872) Mathematische Annalen volume 43, pages 63–100 1893  ([doi:10.1007/BF01446615](https://doi.org/10.1007/BF01446615))
@@ -112,4 +114,15 @@ A review is for instance in
 
 * Vladimir Kisil, _Erlangen Programme at Large: An Overview_ ([arXiv:1106.1686](http://arxiv.org/abs/1106.1686))
 
+### Alternative terminology
+ {#ReferencesAlternativeTerminology}
+
+Beware that some authors say "Kleinian geometry" for [[pseudo-Riemannian geometry]] of signature $(--++)$:
+
+* [[John Barrett]], [[Gary W. Gibbons]], M. J. Perry, [[Christopher N. Pope]], P. J. Ruback, *Kleinian Geometry and the $N=2$ Superstring*, Int. J. Mod. Phys. **A9** (1994) 1457-1494  &lbrack;[doi:10.1142/S0217751X94000650](https://doi.org/10.1142/S0217751X94000650), [arXiv:hep-th/9302073](https://arxiv.org/abs/hep-th/9302073)&rbrack;
+
 [[!redirects Klein geometries]]
+
+[[!redirects Kleinian geometry]]
+[[!redirects Kleinian geometries]]
+
