@@ -46,7 +46,7 @@ More on [[Real  cobordism cohomology]]:
 
 For the use of [[category theory]] in [[integration]], see
 
-* [[Igor Kriz]], [[Ales Pultr]], *Categorical Geometry and Integration Without Points*, Applied Categorical Structures (2014) Vol. 22, p.79-97 ([arXiv:1101.3762](https://arxiv.org/abs/1101.3762), [doi:10.1007/s10485-012-9295-2](https://doi.org/10.1007/s10485-012-9295-2))
+* [[Igor Kriz]], [[Aleš Pultr]], *Categorical Geometry and Integration Without Points*, Applied Categorical Structures (2014) Vol. 22, p.79-97 ([arXiv:1101.3762](https://arxiv.org/abs/1101.3762), [doi:10.1007/s10485-012-9295-2](https://doi.org/10.1007/s10485-012-9295-2))
 
 
 
