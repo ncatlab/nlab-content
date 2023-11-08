@@ -72,15 +72,17 @@ General discussion:
 
 * {#SchwedeShipley00} [[Stefan Schwede]], [[Brooke Shipley]], *Algebras and modules in monoidal model categories*, Proc. London Math. Soc. **80** 2  (2000)  491-511  &lbrack;[arXiv:math/9801082](https://arxiv.org/abs/math/9801082), [doi:10.1112/S002461150001220X](https://doi.org/10.1112/S002461150001220X)&rbrack;
 
+Examples:
+
+* [[Jordan Williamson]], §2.1 in: *Algebraic models of change of groups functors in (co)free rational equivariant spectra*, J. Pure Appl. Algebra **226** 11 (2022) 107108 &lbrack;[doi:10.1016/j.jpaa.2022.107108](https://doi.org/10.1016/j.jpaa.2022.107108), [arXiv:2003.12412](https://arxiv.org/abs/2003.12412)&rbrack;
+
+
 {#TheSpecialCaseInFunctorCategory} The special case of the model structure on modules in a [[functor category]] with values in a closed symmetric [[monoidal model category]] is (re-)derived (see the discussion [here](https://nforum.ncatlab.org/discussion/14400/model-structure-on-modules-in-a-monoidal-model-category/?Focus=99231#Comment_99231)) in:
 
 * Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations*, Rev. Math. Phys. (2023) &lbrack;[arXiv:2201.06464](https://arxiv.org/abs/2201.06464), [doi:10.1142/S0129055X23500083](https://doi.org/10.1142/S0129055X23500083)&rbrack;
 
 (there for the purpose of desribing representations of [[nets of observables]] in [[homotopical algebraic quantum field theory]]). 
 
-Examples:
-
-* [[Jordan Williamson]], §2.1 in: *Algebraic models of change of groups functors in (co)free rational equivariant spectra*, J. Pure Appl. Algebra **226** 11 (2022) 107108 &lbrack;[doi:10.1016/j.jpaa.2022.107108](https://doi.org/10.1016/j.jpaa.2022.107108), [arXiv:2003.12412](https://arxiv.org/abs/2003.12412)&rbrack;
 
 
 [[!redirects model structures on modules in a monoidal model category]]
