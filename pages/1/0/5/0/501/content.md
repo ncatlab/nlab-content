@@ -60,6 +60,8 @@ Moreover:
 
 * A finitely indexed set with decidable equality must actually be finite.  For it is then the quotient of a decidable equivalence relation, hence a coequalizer of finite sets.  In particular, a set which is both finitely indexed and subfinite must be finite, i.e. the above "commutative square" of implications is also a "pullback".
 
+* In particular, a set with a [[split surjection]] from $[n]$ is finite, since it has both a surjection from and an injection into $[n]$.
+
 * Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.
 
 * However, if a finite set with $2$ elements (or any set, finite or not, with at least $2$ distinct elements) is [[choice object|choice]], or if every finitely-indexed set (or even any $2$-indexed set) is projective, then the logic must be classical (see [[excluded middle]] for a proof).
