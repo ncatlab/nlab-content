@@ -504,7 +504,7 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 
 Review includes
 
-* {#Libgober} Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf), [[Libgober_EulerCharacteristic.pdf:file]])
+* {#Libgober} Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ &lbrack;[pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf), [[Libgober_EulerCharacteristic.pdf:file]]&rbrack;
 
 
 Textbook account:
@@ -568,7 +568,8 @@ The generalization of the definition of Euler characteristic from posets to cate
 
 The compatibility of Euler characteristic of categories with [[homotopy colimits]] is discussed in 
 
-* [[Thomas Fiore]], Wolfgang L&#252;ck, Roman Sauer, _Euler Characteristics of Categories and Homotopy Colimits_ ([arXiv:1007.3868](http://arxiv.org/abs/1007.3868))
+* [[Thomas M. Fiore]], [[Wolfgang Lück]], [[Roman Sauer]], *Euler Characteristics of Categories and Homotopy Colimits* &lbrack;[arXiv:1007.3868](http://arxiv.org/abs/1007.3868)&rbrack;
+
 
 More on Euler characteristics of categories is in
 
