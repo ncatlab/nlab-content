@@ -89,3 +89,6 @@ Indeed, if the univalence axiom holds, then most naturally-occurring $\dagger$-c
 [[!redirects saturated dagger-categories]]
 [[!redirects dagger-precategory]]
 [[!redirects dagger-precategories]]
+
+[[!redirects dagger category in homotopy type theory]]
+[[!redirects dagger categories in homotopy type theory]]
