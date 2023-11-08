@@ -15,46 +15,147 @@
 
 ## Idea 
 
-A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **fibered category** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the [[fiber]]s $E_b = p^{-1}(b)$ depend (contravariantly) [[pseudofunctor|pseudofunctorially]] on $b\in B$. One calls $E$ the **total category** (not to be confused with [[total category]]) and $B$ the **base category**. One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A *Grothendieck fibration* (named after [[Alexander Grothendieck]], also called a *fibered category* or just a *fibration*) is a [[functor]] $p \colon E\to B$ such that the [[fibers]] $E_b = p^{-1}(b)$ depend (contravariantly) [[pseudofunctor|pseudofunctorially]] on $b\in B$. 
+
+One also says that $E$ is a *fibered category* over $B$.
+One calls $E$ the *total category* of the fibration (not to be confused with the independent notion of *[[total category]]*) and $B$ its *base category*.  
+
+[[formal duality|Dually]], in a (Grothendieck) *opfibration* the dependence is [[covariant functor|covariant]].
 
 There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-categories]] 
 
 $$
-  Fib(B) \stackrel{\simeq}{\leftrightarrow} [B^{op}, Cat] : 
-  \int
+  Fib(B) 
+   \overset
+    {\simeq}
+    {\leftrightarrow} 
+  [B^{op}, Cat] 
+  \;\colon\;
+  \textstyle{\int}
 $$
 
 between the 2-category of fibrations, cartesian functors, and vertical natural transformations over $B$, and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called $B$-[[indexed categories]].
 
-The construction $\int : [B^{op}, Cat] \to Fib(B) : F \mapsto \int F$ of a fibration from a pseudofunctor is sometimes called the _[[Grothendieck construction]]_, although fortunately (or unfortunately) Grothendieck performed many constructions.  Less ambiguous terms for $\int F$ are the [[category of elements]] and the [[oplax colimit]] of $F$.
+The "[[Grothendieck construction]]" $\int \colon [B^{op}, Cat] \to Fib(B) \colon F \mapsto \int F$ of a fibration from a pseudofunctor.  
 
 Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] are called **[[categories fibered in groupoids]]**.
 
 
+
 ## Definition 
+ {#Definition}
 
-Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$. In other words, for any $\psi$, any filling of the image of the following diagram under $p$ can be lifted uniquely up to a filling in $E$:
+\begin{definition}\label{CartesianMorphism}
+**([[cartesian morphism]])**
+\linebreak
+Given a [[functor]] $P \,\colon\, \mathcal{E} \longrightarrow \mathcal{B}$,
+a [[morphism]] $f \colon x \to y$ in its [[domain]] [[category]] $\mathcal{E}$ is called *[[cartesian morphism|cartesian]]* if for any morphism $g \colon z\to y$ in $\mathcal{E}$ and $w \colon P(z)\to P(x)$ in $\mathcal{B}$ such that $P(f)\circ w = P(g)$, there exists a *unique* $\widehat{w} \,\colon\, z\to x$ such that $g = f \circ \widehat{w}$ and $P(\widehat{w}) = w$:
 
-$$
-\array{
-  e''& \dashrightarrow & e'\\
-  & _{\mathllap{\psi}}\searrow & \downarrow^\mathrlap{\phi}\\
-  & & e
-}
-$$
+\begin{tikzcd}[
+  sep=20pt
+]
+  &
+  z
+  \ar[
+    drrr, 
+    bend left=20, 
+   "{ \forall \, g }"{description}
+  ]
+  \ar[
+    dr, 
+    dashed, 
+    "{ 
+       \exists! \, \widehat{w} 
+    }"{description}
+  ]
+  \\
+  \mathcal{E}
+  \ar[dd, "{ P }"]
+  &&
+  x 
+  \ar[
+     rr, 
+     "{ f }"{description},
+     "{ \mathrm{cartesian} }"{swap, yshift=-1pt}
+  ]  
+  && 
+  y
+  \\
+  & 
+  P(z)
+  \ar[drrr, bend left=20, "{ P(g) }"{description}]
+  \ar[
+    dr,
+    "{ \forall \, w }"{description}
+  ]
+  \\
+  \mathcal{B}
+  &&
+  P(x) 
+  \ar[rr, "{ P(f) }"{description}]
+  && 
+  P(y)
+\end{tikzcd}
+ 
 
-We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$, there is a cartesian arrow $\phi:e'\to e$ with $p(\phi)=f$.  Such an arrow is called a "cartesian lifting" of $f$ to $e$, and a choice of cartesian lifting for every $e$ and $f$ is called a [[cleavage]].  Thus, assuming the [[axiom of choice]], a functor is a fibration iff it admits some cleavage.
+\end{definition}
 
-As a side note, we say that $\phi$ is [[prefibered category|weakly cartesian]] if it has the property described above only when $g$ is an identity.  One can prove that $p$ is a fibration if and only if firstly, it has the above property with "cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  In a fibration, every weakly cartesian lifting $\phi$ of $f$ to $e$ is in fact cartesian (as one can show by combining the universal properties of $\phi$ and of a given cartesian lifting of $f$ to $e$), but this is not true in general.  Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.  If weakly cartesian liftings exist but weakly cartesian arrows are *not* necessarily closed under composition, one sometimes speaks of a [[prefibered category]].
+\begin{definition}\label{GrothendieckFibration}
+**(Grothendieck fibration)**
+\linebreak
+A [[functor]] $p \colon \mathcal{E} \to \mathcal{B}$ is a *fibration* if for all [[objects]] $y \in \mathcal{E}$ and [[morphisms]] $Pf \colon Px \to P(y)$, there is a cartesian morphism $f \colon x \to y$ (Def. \ref{CartesianMorphism}) such that $P(f) = Pf$.  
+\end{definition}
 
-### Morphisms and transformations
-A square
-$$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
-is a **cartesian square** or **morphism of fibrations** or **fibred functor** if the top arrow takes cartesian arrows to cartesian arrows.  Most frequently when considering morphisms of fibrations, the bottom arrow $B'\to B$ is an identity.
+Such $f$ is also called a "cartesian lifting" of $Pf$ to $y$, and a choice of cartesian lifting for every $y$ and $Pf$ is called a *[[cleavage]]*.  Thus, assuming the [[axiom of choice]], a functor is a fibration iff it admits some cleavage.
 
-A 2-cell between morphisms of fibrations is a pair of 2-cells, one lying over the other.  If the bottom arrow is an identity, this means that the top 2-cell is "vertical" (its components lie in fibers).
+\begin{remark}
+**(weakly cartesian morphisms)**
+\linebreak
+We say that a morphism $f$ is [[prefibered category|weakly cartesian]] if it has the property of a Cartesian morphism (Def. \ref{CartesianMorphism}) only when $w$ is an [[identity morphism]].  
 
-See [[fibred functor]] and [[fibred transformation]] for more details.
+One can prove that $P$ is a fibration (Def. \ref{GrothendieckFibration}) if and only if firstly, it has the above property with "Cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  
+
+In a fibration, every weakly cartesian lifting $f$ of $Pf$ to $y$ is in fact cartesian (as one can show by combining the [[universal properties]] of $f$ and of a given cartesian lifting to $e$), but this is not true in general.  
+
+Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.  If weakly cartesian liftings exist but weakly cartesian arrows are *not* necessarily closed under composition, one sometimes speaks of a [[prefibered category]].
+\end{remark}
+
+\begin{definition}\label{MorphismOfFibrations}
+**(morphism of fibrations -- [[fibered functor]])**
+\linebreak
+For $P$ and $P'$ fibrations (Def. \ref{GrothendieckFibration}), a [[commuting square]] of [[functors]] of the form
+\[
+  \label{DiagramForFiberedFunctor}
+  \array{
+    \mathcal{E}' 
+     & 
+    \longrightarrow 
+    & 
+    \mathcal{E}
+    \\ 
+    \mathllap{{}^{P'}}\big\downarrow 
+    && 
+    \big\downarrow 
+    \mathrlap{{}^{P}}
+    \\ 
+    \mathcal{B}' 
+      & \longrightarrow & 
+    \mathcal{B}
+  }
+\]
+is a *morphism of fibrations* (also called a *cartesian square* or *[[fibred functor]]*) if the top functor preserves Cartesian morphisms (Def. \ref{CartesianMorphism}).  
+\end{definition}
+
+\begin{definition}\label{TwoMorphismOfFibrations}
+**([[2-morphisms]] of fibrations -- [[fibered natural transformation]])**
+\linebreak
+A [[2-morphism]] (or *[[fibered natural transformation]]*) between morphisms of fibrations (Def. \ref{MorphismOfFibrations}) is a pair of [[natural transformations]], one lying over the other in (eq:DiagramForFiberedFunctor).
+\end{definition}
+
+\begin{remark} 
+If the functor on base categories is an [[identity functor|identity]], then a 2-morphism (Def. \ref{TwoMorphismOfFibrations}) is a [[natural transformations]] between total categories which is "vertical" in that its component morphisms lie in [[fibers]].
+\end{remark}
+
 
 ## Fibrations versus pseudofunctors
 
