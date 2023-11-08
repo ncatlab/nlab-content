@@ -308,9 +308,16 @@ For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-presheaves]].
 
 ## References
 
-A classical (advanced) reference is expos&#233; 1 of
+Original discussion:
 
-* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), *Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - [[SGA 4]]*, LNM 269 Springer  Heidelberg 1972.
+* [[Marta Bunge]], *Categories of Set-Valued Functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-SetValuedFunctors.pdf:file]]&rbrack;
+
+https://ncatlab.org/nlab/files/Bunge-SetValuedFunctors.pdf
+
+* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), *Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - [[SGA 4]]*, LNM 269 Springer (1972)
+
+
+
 
 Basic exposition:
 
