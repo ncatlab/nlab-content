@@ -28,9 +28,11 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content)| |
 |Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
 |Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| on [[exponentiable objects]] (there called "cartesian objects") |
+|Algebraic and locally algebraic functors|James J. Dukarm|1980|[Scan](https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/3281/b12244193a.pdf)| on locally equational categories |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
 |Operational Categories|Colin Barry Jay|1984| | |
+|Butler's theorems and adjoint squares|[[John Power]]|1984|[Scan](https://central.bac-lac.gc.ca/.item?id=TC-QMM-121093&op=pdf&app=Library&is_thesis=1&oclc_number=1032920922)| on the [[adjoint lifting theorem]] and [[adjoint triangle theorem]] |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
 |Predicates and Fibrations|[[Duško Pavlović]]|1990|[Scan](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf)| |
 |Dialectica Categories|[[Valeria de Paiva]]|1991|[Computer Lab Technical Report](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.html)| |
