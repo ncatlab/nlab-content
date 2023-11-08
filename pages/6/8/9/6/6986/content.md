@@ -182,6 +182,28 @@ As for binary [[sum types]], it is possible to present the empty type as a [[neg
 
 The two definitions are provably equivalent, but only using the [[contraction rule]] and the [[weakening rule]].  Thus, in [[linear logic]] they become distinct; the positive empty type is "zero" $\mathbf{0}$ and the negative one is "bottom" $\bot$.
 
+### Using a type of propositions 
+
+Suppose that the [[dependent type theory]] has a [[type of propositions]] $\mathrm{Prop}$, such as the one derived from a type universe $U$ - $\sum_{A:U} \mathrm{isProp}(A)$. Then the empty type is defined as the [[dependent function type]]
+
+$$\emptyset \equiv \prod_{P:\mathrm{Prop}} P$$
+
+whose elements are witnesses that all propositions are [[pointed types]] (and thus [[contractible types]]). 
+
+By [[weak function extensionality]], the empty type is a proposition, and if it has an element, then every proposition in $\mathrm{Prop}$ has an element and is contractible. 
+
+This definition makes sense because the empty type is equivalent to its [[propositional truncation]], and the [[propositional truncation]] is defined using $\mathrm{Prop}$ by 
+
+$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+
+Substituting the empty type for $A$, we have 
+
+$$\prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P$$
+
+By the recursion principle of the empty type, for every type $P$, the type $\emptyset \to P$ is contractible, and for every contractible type $I$, the type $I \to P$ is equivalent to $P$. Thus, we have equivalences of types
+
+$$\emptyset \simeq \left(\prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} P\right)$$
+
 ## Properties
 
 #### The empty type as a univalent universe
@@ -208,6 +230,9 @@ The empty type $\mathbb{0}$ represents the empty universe, the universe with no 
 
 * [[Egbert Rijke]], Def. 3.2.1 in: *Inductive types and the universe*, Lecture 3 in: *[Introduction to Homotopy Type Theory 2018](https://www.andrew.cmu.edu/user/erijke/hott/)* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/inductive.pdf)&rbrack;
 
+The definition of the empty type from the type of propositions and dependent product types can be found in:
+
+* Madeleine Birchfield, *Constructing coproduct types and boolean types from universes*, MathOverflow ([web](https://mathoverflow.net/questions/457904/constructing-coproduct-types-and-boolean-types-from-universes))
 
 In [[Agda]]: 
 
@@ -216,7 +241,6 @@ In [[Agda]]:
 See also: 
 
 * Wikipedia, *[Principle of explosion](https://en.wikipedia.org/wiki/Principle_of_explosion)*
-
 
 [[!redirects bottom type]]
 [[!redirects bottom types]]
