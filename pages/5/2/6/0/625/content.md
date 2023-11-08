@@ -106,7 +106,73 @@ It is immediately checked that $l$ is well-defined, is indeed a functor, and fit
 
 Isofibrations have a number of good properties.  For example, any [[strict 2-limit|strict pullback]] of an isofibration is also a [[2-limit|weak pullback]]. (This is also explained by the role of isofibrations as the fibrations in the [[canonical model structures]], see [below](#AsFibrationsInCanonicalModelStructures).)
 
-Any [[Grothendieck fibration]] or opfibration is an isofibration, but not conversely (unless $B$ is a [[groupoid]]).
+\begin{example}\label{GrothendieckFibrationsAreIsofibrations}
+Any [[Grothendieck fibration]] or opfibration is an isofibration (take the lifts to be the Cartesian lifts), but not in general conversely, unless $B$ is a [[groupoid]].
+\end{example}
+
+\begin{example}\label{GrothIsIsoFibBetweenGroupoids}
+  For [[groupoids]] $\mathcal{E}, \mathcal{B} \,\in\,$ [[Grpd]], a functor $P \,\colon\, \mathcal{E} \to \mathcal{B}$ the following are equivalent:
+
+1. $P$ is a [[Grothendieck fibration]],
+
+1. $P$ is an [[isofibration]].
+
+\end{example}
+\begin{proof}
+  The implication $IsoFib \Rightarrow GrothFib$ is Ex. \ref{GrothendieckFibrationsAreIsofibrations}. 
+
+Conversely, if $P$ is an isofibration, it is sufficient to show that any of the lifts $f$ it provides is a [[Cartesian morphism]]. But by assumption the lift is again an [[isomorphism]], and all isomorphisms are Cartesian.
+
+More explicitly (in the notation [there](Grothendieck+fibration#CartesianMorphism))
+\begin{tikzcd}[
+  sep=20pt
+]
+  &
+  z
+  \ar[
+    drrr, 
+    bend left=20, 
+   "{ \forall \, g }"{description}
+  ]
+  \ar[
+    dr, 
+    dashed, 
+    "{ 
+       \exists! \, \widehat{w} 
+    }"{description}
+  ]
+  \\
+  \mathcal{E}
+  \ar[dd, "{ P }"]
+  &&
+  x 
+  \ar[
+     rr, 
+     "{ f }"{description},
+     "{ \mathrm{cartesian} }"{swap, yshift=-1pt}
+  ]  
+  && 
+  y
+  \\
+  & 
+  P(z)
+  \ar[drrr, bend left=20, "{ P(g) }"{description}]
+  \ar[
+    dr,
+    "{ \forall \, w }"{description}
+  ]
+  \\
+  \mathcal{B}
+  &&
+  P(x) 
+  \ar[rr, "{ P(f) }"{description}]
+  && 
+  P(y)
+\end{tikzcd}
+the [[invertible morphism|invertibility]] of all morphisms implies that both $w$ and $w'$ are uniquely determined by $f$ and $g$, and then [[functor|functoriality]] of $P$ implies that indeed $P(\widehat{w}) = w$. 
+\end{proof}
+
+
 
 ### As fibrations in canonical model structures
  {#AsFibrationsInCanonicalModelStructures}
