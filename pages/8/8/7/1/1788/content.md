@@ -1,5 +1,87 @@
 
 
+\begin{example}
+  Let $\mathscr{V}$ be a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with *both*
+
+1. a non-degenerate [[sesquilinear form|sesquilinear]] ([[Hermitian form|Hermitian]]) [[inner product]]
+
+1. a non-degenerate symmetric [[bilinear form|bilinear]] [[inner product]] $(-\vert-)$
+
+such that 
+
+* the Hermitian-[[adjoint operator|adjoint]] $(-\vert-)^\dagger$ of the bilinear pairing is the [[coevaluation map]] that exhibits $\mathscr{V}$ as a [[self-dual object]],
+
+then this induces a [[real structure]] on $\mathscr{V}$. Moreover, for $\mathscr{W}$ another [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with a pair of such structure, then the linear maps
+$$
+  \mathscr{V}
+  \longrightarrow
+  \mathscr{W}
+$$
+which preserve both structures also preserve that real structure, hence come from $\mathbb{R}$-[[linear maps]] of underlying [[real vector spaces]].
+\end{example}
+\begin{proof}
+Observe first that 
+
+1. the non-degenerate sesquilinear form $\langle -\vert -\rangle$ is equivalently given by an [[antilinear map]]  
+$a \colon \mathscr{V} \to \mathscr{V}^\ast$ to the [[dual linear space]], via 
+
+   $$ 
+     \langle - \vert -\rangle = a(-)(-) 
+   $$
+
+1. the non-degenerate bilinear form $(- \vert -)$ is equivalently given by a complex [[linear map]] $l \,\colon\, \mathscr{V} \to \mathscr{V}^\ast$, via
+
+   $$
+     (- \vert -) \,=\, l(-)(-)
+   $$
+
+(where the second argument means [[evaluation]]).
+
+Hence the composite
+
+$$
+  l^{-1}\circ a
+  \,\colon\,
+  \mathscr{V} \to \mathscr{V}
+  \,,
+$$
+
+is an [[antilinear map|antilinear]] [[endomorphism]] of $\mathscr{V}$, and it will be sufficient to show that this is an [[involution]], for which in turn it is clearly sufficient that
+
+\[
+  a \circ l^{-1}
+  \,=\,
+  l \circ a^{-1}
+\]
+
+We conclude by showing that this condition is equivalent to the assumption that $(-\vert-)^\dagger$ is the coevaluation map.
+
+\begin{tikzcd}[
+  row sep=-1pt
+]
+  \mathcal{V}
+  \ar[r, equals]
+  &
+  \mathcal{V}
+  \\
+  \otimes
+  &
+  \otimes
+  \ar[r, "{ \mathrm{ev} }"]
+  & 
+  \mathbb{C}
+  \\
+  \mathcal{V}
+  \ar[
+    r,
+    "{ l }"{description}
+  ]
+  &
+  \mathcal{V}^\ast
+\end{tikzcd}
+
+\end{proof}
+
 
 [pdf](http://categorified.net/NYUADtalk.pdf)
 
