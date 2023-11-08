@@ -190,14 +190,12 @@ included the case of category-valued functors, hence of 2-sheaves, in:
 ### In terms of categories internal to sheaf toposes
  {#ReferencesInTermsOfInternalCategories}
 
-Category-valued stacks as [[internal categories]] in the underlying [[sheaf topos]] have been considered in
+Category-valued stacks as [[internal categories]] in the underlying [[sheaf topos]]:
 
-* [[Marta Bunge]], [[Robert Pare]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no.4 (1979) ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
- {#BungePare}
-
-* [[Marta Bunge]], _Stack completions and Morita equivalence for categories in a topos_, Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle xx-4, (1979)
-401-436, ([MR558106](http://www.ams.org/mathscinet-getitem?mr=558106), [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0))
- {#Bunge}
+* {#BungePare} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
+ 
+* {#Bunge} [[Marta Bunge]], *Stack completions and Morita equivalence for categories in a topos*, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4, (1979) 401-436 &lbrack;[numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0), [MR558106](http://www.ams.org/mathscinet-getitem?mr=558106)&rbrack;
+ 
 
 
 * {#JoyalTierney} [[André Joyal]], [[Myles Tierney]], section 3 of: *Strong stacks and classifying spaces*, in: *Category Theory* ([[Como]], 1990), Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
