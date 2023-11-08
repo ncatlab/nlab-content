@@ -164,6 +164,10 @@ Review:
 
 * {#Ydri18} [[Badis Ydri]], Section 3.9 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
+A light-cone QCD-[[Lagrangian density]] adapted to [[MHV amplitudes]]:
+
+* Hiren Kakkad, Piotr Kotko, Anna Stasto, *Quantum correction to a new Wilson line-based action for Gluodynamics* &lbrack;[arXiv:2311.04101](https://arxiv.org/abs/2311.04101)&rbrack;
+
 
 
 ### Application in string theory
