@@ -111,7 +111,7 @@ Any [[Grothendieck fibration]] or opfibration is an isofibration, but not conver
 ### As fibrations in canonical model structures
  {#AsFibrationsInCanonicalModelStructures}
 
-The isofibrations are the _fibrations_ in the [[canonical model structure on categories]] and the [[canonical model structure on groupoids]].  More generally, the fibrations in [[canonical model structures]] on various types of higher categories are usually some generalization of isofibrations.  For example, the fibrations in the Lack model structure on 2-Cat, sometimes known as [[Lack fibration|Lack fibrations]] have "equivalence lifting" and "local isomorphism lifting," and the fibrations in the Joyal model structure for [[quasi-category|quasicategories]] have "equivalence lifting" at all levels.
+The isofibrations are the _[[fibrations]]_ in the [[canonical model structure on categories]] and the [[canonical model structure on groupoids]].  More generally, the fibrations in [[canonical model structures]] on various types of higher categories are usually some generalization of isofibrations.  For example, the fibrations in the Lack model structure on 2-Cat, sometimes known as [[Lack fibration|Lack fibrations]] have "equivalence lifting" and "local isomorphism lifting," and the fibrations in the Joyal model structure for [[quasi-category|quasicategories]] have "equivalence lifting" at all levels.
 
 Generalizing in another direction, internalized isofibrations are the fibrations in the [[2-trivial model structure]] on any finitely complete and cocomplete [[strict 2-category]].
 
