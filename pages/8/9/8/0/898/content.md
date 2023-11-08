@@ -85,8 +85,7 @@ If $\mathcal{J}$ is the class consisting of the [[terminal category]] and the [[
 
 ## References
 
-* {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], and [[Jiří Rosický]], _A classification of accessible categories_, Journal of Pure and Applied Algebra 175:7-30, 2002, ([web page with PS fulltext](http://maths.mq.edu.au/~slack/papers/acc.html)).
-
+* {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], and [[Jiří Rosický]], _A classification of accessible categories_, Journal of Pure and Applied Algebra **175** 1-3 (2002) 7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
 
 [[!redirects filtered categories]]
 [[!redirects filtrant category]]
