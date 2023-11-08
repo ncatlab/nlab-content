@@ -1381,6 +1381,7 @@ A characterization of infinitesimal extensions and formal smoothness by adjoint 
 
 in the context of _[[Q-categories]]_ .
 
+
 ### On cohesive $(\infty,1)$-toposes proper
 
 On the material presented here:
@@ -1408,11 +1409,35 @@ Expositions and discussion of the formalization of cohesion in [[homotopy type t
 The corresponding [[Coq]]-code is in 
 
 * {#Shulman} [[Mike Shulman]], _[HoTT/Coq/Subcategories](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories)_
-  
 
-Exposition is at
+A first formalization is described in
+
+* {#SchreiberShulman2012} [[Urs Schreiber]], [[Mike Shulman]], *[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]*, EPTCS **158** (2014) 109-126 &lbrack;[arXiv:1408.0054](https://arxiv.org/abs/1408.0054), [doi:10.4204/EPTCS.158.8](https://doi.org/10.4204/EPTCS.158.8)&rbrack;
+  
+following
 
 * [[Mike Shulman]], _Internalizing the External, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
+
+Another formalization is given in
+
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science **28** 6 (2018) 856-941 &lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
+
+For more see at *[[cohesive homotopy type theory]]*.
+
+### Generalization to fractured $\infty$-toposes
+
+The notion of [[fractured (infinity,1)-topos|fractured $\infty$-topos]] is a kind of "local" generalization of cohesione, which applies for instance in [[condensed mathematics]] (cf. [[condensed local contractibility]]):
+
+* [[Qi Zhu]], *Fractured Structure on Condensed Anima*, MSc thesis, Bonn (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_fe1c2f8e90094d0fa065fb8129687963.pdf), [[QiZhu-FracturedCondensed.pdf:file]]&rbrack;
+
+with exposition in:
+
+* [[Qi Zhu]], *Fractured structure on condensed spaces*, talk notes (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_8d2a90176ed14969a877e77ec1b787da.pdf), [[QiZhuFracturedCondensed.pdf:file]]&rbrack;
+
+* [[Nima Rasekh]], *What is a topological structure?*, talk notes (April 2023) &lbrack;[pdf](https://guests.mpim-bonn.mpg.de/rasekh/Condensed.pdf), [[Rasekh-TopologicalStructure.pdf:file]]&rbrack;
+
+
+
 
 [[!redirects cohesive (∞,1)-topos]]
 
