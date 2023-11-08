@@ -41,12 +41,37 @@ Disjunction is [[de Morgan dual]] to [[logical conjunction|conjunction]].
 
 Like any join, disjunction is an associative operation, so we can take the disjunction of any finite positive whole number of truth values; the disjunction is true if and only if at least one of the various truth values is true.  Disjunction also has an [[identity element]], which is the [[falsity|false]] truth value.  Some logics allow a notion of infinitary disjunction.  Indexed disjunction is [[existential quantification]].
 
-In [[homotopy type theory]], the disjunction of two [[mere propositions]], $P$ and $Q$, is the [[bracket type]] of their [[sum type]], $\| P + Q \|$. Disjunction types in general could also be regarded as a particular sort of [[higher inductive type]]. In [[Coq]] syntax:
+## In dependent type theory
+
+In [[dependent type theory]], the disjunction of two [[mere propositions]], $P$ and $Q$, is the [[bracket type]] of their [[sum type]], $\| P + Q \|$. Disjunction types in general could also be regarded as a particular sort of [[higher inductive type]]. In [[Coq]] syntax:
 
     Inductive disjunction (P Q:Type) : Type :=
     | inl : P -> disjunction P Q
     | inr : Q -> disjunction P Q
     | contr0 : forall (p q : disjunction P Q) p == q
+
+If the [[dependent type theory]] has a [[type of propositions]] $\mathrm{Prop}$, such as the one derived from a type universe $U$ - $\sum_{A:U} \mathrm{isProp}(A)$, then the disjunction of two types $A$ and $B$ is defined as the [[dependent function type]]
+
+$$A \vee B \equiv \prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P$$
+
+By [[weak function extensionality]], the disjunction of two types is a proposition. 
+
+This definition makes sense because the [[propositional truncation]] is defined using $\mathrm{Prop}$ by 
+
+$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+
+Substituting the sum type $A + B$ for $A$, we have 
+
+$$\prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P$$
+
+Given any type $C$, there is an equivalence 
+
+$$((A + B) \to C) \simeq (A \to C) \times (B \to C)$$
+and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all type families $x:A \vdash B(x)$, and $x:A \vdash C(x)$, if there is a family of equivalences $e:\prod_{x:A} B(x) \simeq C(x)$, then there is an equivalence $\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} C(x)\right)$. All this taken together means that there is an equivalence 
+
+$$\left(\prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P\right)$$
+and we can define the disjunction as 
+$$A \vee B \equiv \left(\prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P\right)$$
 
 ## Classical vs constructive
 
@@ -102,6 +127,13 @@ $$ \begin {gathered}
 
 * Landon D. C. Elkind, Richard Zach, _The Genealogy of $\vee$_ ([arXiv:2012.06072](https://arxiv.org/abs/2012.06072))
 
+The definition of the disjunction of two types in dependent type theory as the propositional truncation of the sum type is found in:
+
+* {#UFP13} [[Univalent Foundations Project]], §3.7 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+And the disjunction of two types defined from the type of propositions and dependent product types can be found in:
+
+* Madeleine Birchfield, *Constructing coproduct types and boolean types from universes*, MathOverflow ([web](https://mathoverflow.net/questions/457904/constructing-coproduct-types-and-boolean-types-from-universes))
 
 [[!redirects disjunction]]
 [[!redirects disjunctions]]
