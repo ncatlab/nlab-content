@@ -381,9 +381,9 @@ The notion of [[derivator]] is largely a tool for handling homotopy Kan extensio
 
 Under suitable conditions (but typically) homotopy Kan extensions may be computed [pointwise](Kan+extension#Pointwise) by [[homotopy colimits]].
 
-Discussion of pointwise homotopy Kan extensions in [[cofibration categories]] is in ([Radulescu-Banu 06, theorem 9.6.5](#Radulescu-Banu06)). This is reviewed in the context of [[model categories]] in ([Cisinski 09, prop. 1.14](#Cisinski09)). In the more general context of [[relative categories]] discussion is in ([Gonzales 11, section 4](#Gonzales11)).
+Discussion of pointwise homotopy Kan extensions in [[cofibration categories]] is in [Radulescu & Banu 2006, theorem 9.6.5](#Radulescu-Banu06). This is reviewed in the context of [[model categories]] in [Cisinski 2009, prop. 1.14](#Cisinski09). In the more general context of [[relative categories]] discussion is in [Gonzales 2011, section 4](#Gonzales11).
 
-See also at [(∞,1)-Kan extension -- Properties -- Pointwise](/%28infinity%2C1%29-Kan+extension#Pointwise).
+See also at *[(∞,1)-Kan extension -- Properties -- Pointwise](/%28infinity%2C1%29-Kan+extension#Pointwise)*.
 
 
 
@@ -410,7 +410,7 @@ Pointwise [[homotopy Kan extensions]] are discussed in
 
 * {#Radulescu-Banu06} Andrei Radulescu-Banu, _Cofibrations in Homotopy Theory_ ([arXiv:0610009](http://arxiv.org/abs/math/0610009))
 
-* {#Cisinski09} [[Denis-Charles Cisinski]],  _Images directes cohomologiques dans les cat&#233;gories de mod&#232;les, Ann. Math.Blaise Pascal 10 (2003), 195&#8211;244.
+* {#Cisinski09} [[Denis-Charles Cisinski]], *Images directes cohomologiques dans les catégories de modèles*, Ann. Math. Blaise Pascal **10** (2003) 195-244 &lbrack;[numdam:AMBP_2003__10_2_195_0](http://www.numdam.org/item/AMBP_2003__10_2_195_0)&rbrack;
 
  * [[Denis-Charles Cisinski]], _Locally constant functors_, Math. Proc. Camb. Phil. Soc. (2009), 147, 593 ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/lcmodcat3.pdf))
 
