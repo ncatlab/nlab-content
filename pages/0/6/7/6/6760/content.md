@@ -38,3 +38,6 @@ On [[gravitational lensing]] via the [[Gauss-Bonnet theorem]]:
 * [[Yang monopole]]
 
 category: people
+
+[[!redirects Gary W. Gibbons]]
+
