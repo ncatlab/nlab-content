@@ -171,6 +171,13 @@ The completeness condition may also be thought of as _[[univalence]]_. See there
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+There is a Segal completion functor given in ([Rezk, 14.](#Rezk)).
+
+=--
+
 ### Complete Segal space objects
  {#CompleteSegalSpaceObjects}
 
