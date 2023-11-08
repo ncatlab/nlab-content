@@ -402,6 +402,8 @@ also [[compact closed categories]] ([[dagger compact categories]]), a fact that 
 ## References
  {#References}
 
+### General
+
 Motivated by the example of [[finite-dimensional Hilbert spaces]], the concept of $\dagger$-categories appears in the form of *strongly compact closed categories* in
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], around Prop. 7.3 *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04), IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
@@ -457,11 +459,19 @@ concerning abstract characterization:
 
 
 
-Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
+Certain specially nice $\dagger$-categories, such as [[C-star-category|$C^*$-categories]] and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
+
+### Higher dagger categories
+
+On dagger [[higher categories]]:
 
 Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] have been proposed by:  
 
 * [[Simon Henry]], *$(n,1)$-dagger categories* &lbrack;[MO:a/427322](https://mathoverflow.net/a/427322/381)&rbrack;
+
+See also: 
+
+* [[Theo Johnson-Freyd]], *Dagger Higher Categories*, workshop (2023) &lbrack;[web](http://categorified.net/dagger2023.html)&rbrack;
 
 
 [[!redirects dagger-category]]
@@ -476,3 +486,11 @@ Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] 
 [[!redirects category with involution]]
 [[!redirects categories with involution]]
 [[!redirects categories with involutions]]
+
+[[!redirects dagger higher category]]
+[[!redirects dagger higher categories]]
+
+[[!redirects higher dagger category]]
+[[!redirects higher dagger categories]]
+
+
