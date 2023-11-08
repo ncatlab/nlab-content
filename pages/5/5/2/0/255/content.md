@@ -734,7 +734,7 @@ following:
 
 * {#Godement58} [[Roger Godement]], Appendix of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
-  > (where the monad laws appear on p. 272 as part of the structure of the induced [[canonical resolution]]).
+  > (where the monad laws appear on p. 272 as part of the structure of the induced [[canonical resolution]], called there the "fundamental construction").
 
 In the early [[category theory]]-literature monads were called *triples*, referring to the fact that (just as for [[monoids]]) their data-[[structure]] is that of [[triples]] consisting of: (1.) the [[underlying]] [[category]], (2.) a [[binary operation]] and (3.) a [[unit of a monad|unit operation]]:
 
