@@ -29,6 +29,29 @@
 
 For $\mathcal{C}$ a [[monoidal model category]] and $A \in Mon(\mathcal{C})$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$, there is under mild conditions a natural [[model category]] structure on its [[category of modules|category of]] [[module over a monoid|modules over]] $A$. ([Schwede & Shipley 2000, Thm. 4.1 (3.1 in the preprint)](#SchwedeShipley00)).
 
+## Statement
+
+\begin{proposition}\label{SchwedeShipleyExistenceStatement}
+  Let $(\mathcal{C}, \otimes, \mathbb{1})$ be a [[cofibrantly generated model category|cofibrantly generated]] [[monoidal model category]] and let $R \,\in\, Mon(\mathcal{C}, \otimes, \mathbb{1})$ be a [[monoid object]] whose [[underlying]] object is [[cofibrant object|cofibrant]] in $\mathcal{C}$. Then:
+
+1. The category $R Mod(\mathcal{C}, \otimes, \mathbb{1})$ of [[internalization|internal]] $R$-[[module objects]] carries a [[cofibrantly generated model category|cofibrantly generated model structure]] whose [[weak equivalences]] and [[fibrations]] are those whose [[underlying]] maps are so in $\mathcal{C}$, hence which is [[transferred model structure|right transferred]] along the [[forgetful functor]] $U$:
+
+   $$
+     R Mod(\mathcal{C})
+     \underoverset
+       {\underset{ U }{\longrightarrow}} 
+       {\overset{F}{\longleftarrow}}
+       {\;\;\;\;\;\; \bot_{\mathrlap{Qu}} \;\;\;\;\;\;}
+     \mathcal{C}
+     \,.
+   $$
+
+1. If $R$ is in addition a [[commutative monoid object]] then the [[tensor product of modules]] makes $R Mod(\mathcal{C})$ itself into a [[monoidal model category]].
+
+\end{proposition}
+
+([Schwede & Shipley 2000, Thm. 3.1 with Rem. 3.2](#SchwedeShipley00))
+
 ## Related concepts
 
 * **[[model structure on monoids in a monoidal model category]]**
@@ -54,5 +77,10 @@ General discussion:
 * Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations*, Rev. Math. Phys. (2023) &lbrack;[arXiv:2201.06464](https://arxiv.org/abs/2201.06464), [doi:10.1142/S0129055X23500083](https://doi.org/10.1142/S0129055X23500083)&rbrack;
 
 (there for the purpose of desribing representations of [[nets of observables]] in [[homotopical algebraic quantum field theory]]). 
+
+Examples:
+
+* [[Jordan Williamson]], §2.1 in: *Algebraic models of change of groups functors in (co)free rational equivariant spectra*, J. Pure Appl. Algebra **226** 11 (2022) 107108 &lbrack;[doi:10.1016/j.jpaa.2022.107108](https://doi.org/10.1016/j.jpaa.2022.107108), [arXiv:2003.12412](https://arxiv.org/abs/2003.12412)&rbrack;
+
 
 [[!redirects model structures on modules in a monoidal model category]]
