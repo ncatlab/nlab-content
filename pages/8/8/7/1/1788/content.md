@@ -1,4 +1,51 @@
 
+
+\begin{tikzcd}[
+  sep=20pt
+]
+  &
+  z
+  \ar[
+    drrr, 
+    bend left=20, 
+   "{ \forall \, g }"{description}
+  ]
+  \ar[
+    dr, 
+    dashed, 
+    "{ 
+       \exists! \, \widehat{w} 
+    }"{description}
+  ]
+  \\
+  \mathcal{E}
+  \ar[dd, "{ P }"]
+  &&
+  x 
+  \ar[
+     rr, 
+     "{ f }"{description},
+     "{ \mathrm{cartesian} }"{swap, yshift=-1pt}
+  ]  
+  && 
+  y
+  \\
+  & 
+  P(z)
+  \ar[drrr, bend left=20, "{ P(g) }"{description}]
+  \ar[
+    dr,
+    "{ \forall \, w }"{description}
+  ]
+  \\
+  \mathcal{B}
+  &&
+  P(x) 
+  \ar[rr, "{ P(f) }"{description}]
+  && 
+  P(y)
+\end{tikzcd}
+
 On the normalized chain complex of Ex. \ref{NormalizedChainsOnEZTwo}, the 
 [[group]] [[structure]] on $W \mathbb{Z}_2$ induces a [[simplicial ring]]-[[structure]], the "simplicial [[group ring]]") 
 $$
