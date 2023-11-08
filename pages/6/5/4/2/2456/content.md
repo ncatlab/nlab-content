@@ -75,17 +75,17 @@ where
 
 $$\mathrm{fiber}_{A, B}(f, b) \equiv \sum_{x:A} f(x) =_B b$$
 
-If we remove the requirement that the domain is a set and the function is a surjection, we get the [[axiom of infinity-choice]]:
+If we remove the requirement that the domain is a set, we get the [[axiom of infinity-choice]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash q:\mathrm{isSet}(B) \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash b:B}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, B}(f, b)}:|\mathrm{fiber}_{A, B}(f, b)| \to \mathrm{fiber}_{A, B}(f, b)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash q:\mathrm{isSet}(B) \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash b:B}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, B}(f, b)}:|\mathrm{fiber}_{A, B}(f, b)| \to \mathrm{fiber}_{A, B}(f, b)}$$
 
 Similarly, the [[axiom of countable choice]] is the the choice operator rule limited to [[fiber types]] of [[surjections]] from [[sets]] to the [[natural numbers type]] at natural numbers. 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A) \quad \Gamma \vdash f:A \to \mathbb{N} \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, \mathbb{N}}(f, n)}:|\mathrm{fiber}_{A, \mathbb{N}}(f, n)| \to \mathrm{fiber}_{A, \mathbb{N}}(f, n)}$$
 
-If we remove the requirement that the domain is a set and the function is a surjection, we get the [[axiom of countable infinity-choice]]:
+If we remove the requirement that the domain is a set, we get the [[axiom of countable infinity-choice]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:A \to \mathbb{N} \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, \mathbb{N}}(f, n)}:|\mathrm{fiber}_{A, \mathbb{N}}(f, n)| \to \mathrm{fiber}_{A, \mathbb{N}}(f, n)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:A \to \mathbb{N} \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, \mathbb{N}}(f, n)}:|\mathrm{fiber}_{A, \mathbb{N}}(f, n)| \to \mathrm{fiber}_{A, \mathbb{N}}(f, n)}$$
 
 ## Foundational status
 
