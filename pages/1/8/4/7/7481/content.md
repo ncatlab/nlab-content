@@ -202,9 +202,13 @@ The global section functors of internal sheaf toposes in $\mathcal{S}$ are [[bou
 
 ## References
 
-Internal presheaves in a [[Grothendieck topos]] are discussed in Section V.7 of
+On internal presheaves in [[elementary toposes]]:
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Marta Bunge]], *Internal Presheaf Toposes*, [[Cahiers,Cahiers de topologie et géométrie différentielle catégoriques]] **18** 3 (1977) 291-330 &lbrack;[numdam:CTGDC_1977__18_3_291_0](http://www.numdam.org/item/?id=CTGDC_1977__18_3_291_0)&rbrack;
+
+On internal presheaves in a [[Grothendieck toposes]]:
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], Section V.7 of _[[Sheaves in Geometry and Logic]]_ (1992)
 
 and in section B2.3 of
 
