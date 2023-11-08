@@ -10,9 +10,10 @@ On the [[indexed adjoint functor theorem]]:
 
 * [[Robert Paré]], Dietmar Schumacher, *Abstract families and the adjoint functor theorems*, in _Indexed categories and their applications_, Lecture Notes in Math. **661** Springer (1978) &lbrack;[doi:10.1007/BFb0061361](https://doi.org/10.1007/BFb0061361)&rbrack;
 
-On [[weak equivalences of internal categories]]:
+On [[category]]-valued [[stacks]] ([[2-sheaves]]) as [[internal categories]] in a [[sheaf topos]] and the notion of [[weak equivalences of internal categories]]:
 
-* {#BungePare79} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 4 (1979), p. 373-399 ([numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
+* {#BungePare} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
+ 
 
 On [[accessible categories]] and [[categorical semantics|categorical]] [[model theory]] via [[sketches]]:
 
