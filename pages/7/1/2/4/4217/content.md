@@ -56,22 +56,26 @@ $$A \vee B \equiv \prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P$$
 
 By [[weak function extensionality]], the disjunction of two types is a proposition. 
 
-This definition makes sense because the [[propositional truncation]] is defined using $\mathrm{Prop}$ by 
+\begin{theorem}
+The two definitions above are equivalent. 
+\end{theorem}
 
-$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+\begin{proof}
+The [[propositional truncation]] of a type $A$ is equivalent to the following dependent function type
+
+$$\| A \| \simeq \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
 
 Substituting the sum type $A + B$ for $A$, we have 
 
-$$\prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P$$
+$$\| A + B \| \simeq \prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P$$
 
 Given any type $C$, there is an equivalence 
 
 $$((A + B) \to C) \simeq (A \to C) \times (B \to C)$$
-and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all type families $x:A \vdash B(x)$, and $x:A \vdash C(x)$, if there is a family of equivalences $e:\prod_{x:A} B(x) \simeq C(x)$, then there is an equivalence $\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} C(x)\right)$. All this taken together means that there is an equivalence 
+and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all type families $x:A \vdash B(x)$, and $x:A \vdash C(x)$, if there is a family of equivalences $e:\prod_{x:A} B(x) \simeq C(x)$, then there is an equivalence $\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} C(x)\right)$. All this taken together means that there are equivalences 
 
-$$\left(\prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P\right)$$
-and we can define the disjunction as 
-$$A \vee B \equiv \left(\prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P\right)$$
+$$\| A + B \| \simeq \left(\prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P\right)$$
+\end{proof}
 
 ## Classical vs constructive
 
