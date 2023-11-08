@@ -14,9 +14,11 @@ On [[model structures on DblCat]]:
 
 * {#FPThomason} [[Thomas Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*_Algebraic & Geometric Topology_ **10** (2010) 1933–2008 &lbrack;[doi:10.2140/agt.2010.10.1933](http://doi.org/10.2140/agt.2010.10.1933)&rbrack;
 
-See also:
+On [[Euler characteristics]] of [[categories]] and [[homotopy colimits]]:
 
-* Thomas M. Fiore, Wolfgang L&#252;ck, and Roman Sauer. Euler Characteristics of Categories and Homotopy Colimits. 43 pages. [arXiv:1007.3868](http://arxiv.org/abs/1007.3868)
+* [[Thomas M. Fiore]], [[Wolfgang Lück]], [[Roman Sauer]], *Euler Characteristics of Categories and Homotopy Colimits* &lbrack;[arXiv:1007.3868](http://arxiv.org/abs/1007.3868)&rbrack;
+
+See also:
 
 * Thomas M. Fiore, Nicola Gambino, and Joachim Kock. Monads in Double Categories. 
 To appear in the _Journal of Pure and Applied Algebra_. 31 pages.
