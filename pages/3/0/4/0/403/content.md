@@ -436,8 +436,22 @@ The observation that (internal) categories are [[monads]] in the [[bicategory of
 
 * {#Bénabou67} [[Jean Bénabou]], §5.4.3 in: *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
+On [[category]]-valued [[stacks]] ([[2-sheaves]]) as [[internal categories]] in a [[sheaf topos]], and on [[weak equivalences of internal categories]]:
 
-Review:
+* [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
+ 
+* [[Marta Bunge]], *Stack completions and Morita equivalence for categories in a topos*, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4, (1979) 401-436 &lbrack;[numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0), [MR558106](http://www.ams.org/mathscinet-getitem?mr=558106)&rbrack;
+
+Establishing the [[canonical model structure on Cat|canonical model structure]] for internal categories in a [[Grothendieck topos]]:
+
+* [[André Joyal]], [[Myles Tierney]], *Strong stacks and classifying spaces*, in: *Category Theory* ([[Como]], 1990), Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
+
+and in the further generality of [[finitely complete categories]]:
+
+* [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  **15** 3  (CT2004) 66-94 &lbrack;[tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)&rbrack;
+
+
+Review of the basics of internal categories:
 
 * [[Magnus Forrester-Barker]], *Group Objects and Internal Categories* &lbrack;[arXiv:math/0212065](https://arxiv.org/abs/math/0212065)&rbrack;
 
