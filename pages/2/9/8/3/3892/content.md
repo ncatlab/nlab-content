@@ -94,6 +94,8 @@ Concretely, the [[quotient space]]/[[quotient orbifold]] of the space of [[wave 
 
 * [[spherical space form]]
 
+* [[(d,d) Klein space]]
+
 
 ## References
 
