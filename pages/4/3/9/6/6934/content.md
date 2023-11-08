@@ -116,6 +116,10 @@ Documentation:
 
 * [agda.readthedocs.io](https://agda.readthedocs.io/en/v2.6.3)
 
+Online Agda interface:
+
+* [[Ingo Blechschmidt]]: [agdapad.quasicoherent.io](https://agdapad.quasicoherent.io)
+
 Plain Agda originates with:
 
 * [[Ulf Norell]], _Towards a practical programming language based on dependent type theory_, PhD thesis (2007) &lbrack;[pdf](https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf), [[Norell-PracticalDTT.pdf:file]]&rbrack;
@@ -192,11 +196,11 @@ General:
 
 * [[Peter Selinger]], *Lectures on Agda* (2021) &lbrack;[web](https://www.mathstat.dal.ca/~selinger/agda-lectures/)&rbrack;
 
+* [[Ingo Blechschmidt]], *Agda -- a beautiful proof assistant*, course at *Teoria dei Tipi*, Padova (Apr 2023) &lbrack;[webpage](https://agdapad.quasicoherent.io/~Padova)&rbrack;
 
 With emphasis on implementing [[homotopy type theory]] and [[univalent foundations of mathematics]]:
 
 * {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ &lbrack;[github](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial)&rbrack;
-
 
 * [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
