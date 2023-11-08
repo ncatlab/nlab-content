@@ -429,6 +429,8 @@ and it can be shown that the canonical model structure on Cat is the model struc
 
 * [[canonical model structure on Operad]]
 
+* [[weak equivalence of internal categories]]
+
 ## References
 
 Original discussion in the generality of [[internal category|categories internal to]] [[topoi]] (hence of [[2-sheaves]]):
