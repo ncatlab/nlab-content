@@ -52,6 +52,29 @@ In [[type theory]] under the identification of [[propositions as types]], the ex
     | exist : forall (x:T), P x -> existquant T P
     | contr0 : forall (p q : existquant T P) p == q
 
+If the [[dependent type theory]] has a [[type of propositions]] $\mathrm{Prop}$, such as the one derived from a type universe $U$ - $\sum_{A:U} \mathrm{isProp}(A)$, then the existential quantification of the family of types $B(x)$ indexed by $x:A$ is defined as the [[dependent function type]]
+
+$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x)\right) \to P$$
+
+By [[weak function extensionality]], the disjunction of two types is a proposition. 
+
+This definition makes sense because the [[propositional truncation]] is defined using $\mathrm{Prop}$ by 
+
+$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+
+Substituting the dependent sum type $\sum_{x:A} B(x)$ for $A$, we have 
+
+$$\prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P$$
+
+Given any type $C$, there is an equivalence 
+
+$$\left(\left(\sum_{x:A} B(x)\right) \to C\right) \simeq \left(\prod_{x:A} B(x) \to C\right)$$
+and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all type families $x:A \vdash B(x)$, and $x:A \vdash C(x)$, if there is a family of equivalences $e:\prod_{x:A} B(x) \simeq C(x)$, then there is an equivalence $\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} C(x)\right)$. All this taken together means that there is an equivalence 
+
+$$\left(\prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to C\right)\right)$$
+and we can define the existential quantifier as 
+$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to C\right)$$
+
 ## Properties
 
 ### Categorical semantics
@@ -173,13 +196,18 @@ The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple
 
 * [[William Lawvere]] _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf))
 
-
 and further developed to the notion of [[hyperdoctrines]] in
 
 * [[William Lawvere]], _Equality in hyperdoctrines and
 comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
+The definition of the existential quantifier in dependent type theory as the propositional truncation of the dependent sum type is found in:
 
+* {#UFP13} [[Univalent Foundations Project]], §3.7 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+And the existential quantifier defined from the type of propositions and dependent product types can be found in:
+
+* Madeleine Birchfield, *Constructing coproduct types and boolean types from universes*, MathOverflow ([web](https://mathoverflow.net/questions/457904/constructing-coproduct-types-and-boolean-types-from-universes))
 
 [[!redirects existential quantifier]]
 [[!redirects existential quantifiers]]
