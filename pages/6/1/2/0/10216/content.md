@@ -20,6 +20,10 @@ On [[equivariant principal bundles]] and their [[classifying spaces]]:
 
 * [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
+On [[Euler characteristics]] of [[categories]] and [[homotopy colimits]]:
+
+* [[Thomas M. Fiore]], [[Wolfgang Lück]], [[Roman Sauer]], *Euler Characteristics of Categories and Homotopy Colimits* &lbrack;[arXiv:1007.3868](http://arxiv.org/abs/1007.3868)&rbrack;
+
 On [[proper equivariant homotopy theory]]:
 
 * {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_ ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
@@ -44,7 +48,7 @@ On [[equivariant stable cohomotopy]] and the [[Burnside ring]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[global equivariant stable homotopy theory]]
 
