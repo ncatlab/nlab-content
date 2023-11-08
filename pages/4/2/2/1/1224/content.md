@@ -55,7 +55,7 @@ The following conditions are equivalent.
 
 1. $F$ is final.
 
-1. {#AnItem} For all functors $G : D \to Set$ the natural [[function]] between [[colimit]]s
+1. {#AnItem} For all functors $G : D \to Set$ the natural [[function]] between [[colimits]]
 
    $$
      \lim_\to G \circ F \to \lim_{\to} G
@@ -174,6 +174,10 @@ If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks tha
 
 \end{example}
 
+\begin{example}\label{FinalFunctorBetweenGroupoids}
+  A functor between [[groupoids]] is final iff it is [[essentially surjective functor|essentially surjective]] and [[full functor|full]].
+\end{example}
+(eg. [Cigoli 2018, Prop. 1.1](#Cigoli18))
 
 +-- {: .num_example }
 ###### Example
@@ -308,7 +312,6 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 ## References
 
 
-
 * [[Masaki Kashiwara]], [[Pierre Schapira]], Section 2.5 of: _[[Categories and Sheaves]]_
 
 * [[Saunders Mac Lane]], Section IX.3 of: _[[Categories for the Working Mathematician]]_
@@ -326,6 +329,12 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 In [[enriched category theory]]:
 
 * {#Kelly82} [[Max Kelly]], §4.5 in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
+In [[internal category]] theory
+
+for [[internal functors]] between [[internal groupoids]] in [[exact categories]]:
+
+* {#Cigoli18} [[Alan S. Cigoli]], *A characterization of final functors between internal groupoids in exact categories*, Theory and Applications of Categories **33** 11 (2018) 265-275.  &lbrack;[arXiv:1711.10747](https://arxiv.org/abs/1711.10747), [tac:33-11](http://www.tac.mta.ca/tac/volumes/33/11/33-11abs.html)&rbrack;
 
 
 [[!redirects cofinal functor]]
