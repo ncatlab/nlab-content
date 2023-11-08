@@ -1,6 +1,6 @@
-**Marta Bunge** (1938-2022) was a Argentinian-Canadian mathematician. Her research included [[fibered categories]], [[stacks]] and [[groupoids]], [[topos theory]], geometric [[Galois theory]] of [[covering spaces]], [[synthetic differential topology]], amongst others.
+**Marta Bunge** (1938-2022) was a Argentinian-Canadian mathematician. Her research included [[fibered categories]], [[stacks]] (with values in [[categories]], hence [[2-sheaves]]) and [[groupoids]], [[topos theory]], geometric [[Galois theory]] of [[covering spaces]], [[synthetic differential topology]], amongst others.
 
-* [homepage](https://www.math.mcgill.ca/bunge)
+* [personal page](https://www.math.mcgill.ca/bunge)
 
 * [institute obituary](https://www.mcgill.ca/mathstat/people-0/memoriam/marta-c-bunge)
 
@@ -9,19 +9,27 @@
 
 ## Selected writings
 
-* _Categories of Set-Valued Functors_, thesis, University of Pennsylvania, 1966
+On [[categories of presheaves]]:
+
+* [[Marta Bunge]], *Categories of Set-Valued Functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-SetValuedFunctors.pdf:file]]&rbrack;
+
+On [[internal presheaves]] in [[elementary toposes]]:
+
+* [[Marta Bunge]], *Internal Presheaf Toposes*, [[Cahiers|Cahiers de topologie et géométrie différentielle catégoriques]] **18** 3 (1977) 291-330 &lbrack;[numdam:CTGDC_1977__18_3_291_0](http://www.numdam.org/item/?id=CTGDC_1977__18_3_291_0)&rbrack;
+
+
+On [[category]]-valued [[stacks]] ([[2-sheaves]]) as [[internal categories]] in a [[sheaf topos]], and on [[weak equivalences of internal categories]]:
+
+* {#BungePare} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
+ 
+* {#Bunge} [[Marta Bunge]], *Stack completions and Morita equivalence for categories in a topos*, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4, (1979) 401-436 &lbrack;[numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0), [MR558106](http://www.ams.org/mathscinet-getitem?mr=558106)&rbrack;
+
+
+
+See also:
+
 
 * _Relative functor categories and categories of algebras_, J. of Algebra __11__,1 (1969) 64--101, [MR236238](https://mathscinet.ams.org/mathscinet-getitem?mr=236238) <a href="https://doi.org/10.1016/0021-8693(69)90102-1">doi</a>
-
-* _Internal presheaves toposes_, Cahiers de Top. et G&#233;om. Diff. Cat&#233;g. __18__, no. 3 (1977), p. 291-330 [numdam](http://www.numdam.org/item?id=CTGDC_1977__18_3_291_0) [MR460417](https://mathscinet.ams.org/mathscinet-getitem?mr=460417)
-
-* _Stack completions and Morita equivalence for categories in a topos_, Cahiers de Top. et G&#233;om. Diff. Cat&#233;g. __20__, no. 4 (1979) 401--436 [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0) [MR558106](https://mathscinet.ams.org/mathscinet-getitem?mr=558106)
-
-* Marta Bunge, _Stacks and equivalence of indexed categories_ Cahiers de Top. et G&#233;om. Diff. Cat&#233;g. __20__, no. 4 (1979), p. 373-399 [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0) [MR558105](https://mathscinet.ams.org/mathscinet-getitem?mr=558105)
-
-* {#BungePare79} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 4 (1979), p. 373-399 ([numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
-
-  > (on [[weak equivalences of internal categories]])
 
 
 * [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __27__, no. 3 (1986), p. 3-22, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)
