@@ -78,7 +78,7 @@ A [[Grothendieck topos]] satisfies the external axiom of choice iff it is equiva
 The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction requires [[excluded middle]]).  This is a *very* short list; much longer lists can be found elsewhere, such as at [Wikipedia](http://en.wikipedia.org/wiki/Axiom_of_choice#Equivalents).  Some of the statements on this list, though, may be of interest to nLabbers but are not commonly mentioned as equivalents of choice.
 
 * That any [[cartesian product]] of any [[family]] of [[inhabited sets]] is [[inhabited]]. 
-* That given a [[function]] $f$ and an element $b$ in the [[codomain]] of $f$, the [[preimage]] $f^*(b)$ of $f$ at $b$ has a (local) [[choice operator]], a function $\epsilon:[f^*(b)] \to f^*(b)$ from the [[support of a set|support]] of $f^*(b)$ to $f^*(b)$ itself.
+* That given a [[surjection]] $f$ and an element $b$ in the [[codomain]] of $f$, the [[preimage]] $f^*(b)$ of $f$ at $b$ has a (local) [[choice operator]], a function $\epsilon:[f^*(b)] \to f^*(b)$ from the [[support of a set|support]] of $f^*(b)$ to $f^*(b)$ itself.
 * The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
 * [[Zorn's lemma]],
 * That ($L =$ [[monomorphism | monomorphisms]], $R =$ [[epimorphism | epimorphisms]]) is a [[weak factorization system on Set]].
