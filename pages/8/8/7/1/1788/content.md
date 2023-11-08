@@ -1,4 +1,54 @@
 
+$$
+  \array{
+    \phi^{-1}(c)
+    &\longrightarrow&
+    \phi/c
+  }
+$$
+
+
+\begin{tikzcd}[sep=20pt]
+  & 
+  \phi^{-1}(c)
+  \ar[rrrr, hook]
+  & && &
+  \phi/c
+  \\
+  x
+  \ar[
+    rr,
+    "{ f }"
+  ] 
+  && 
+  y
+  &&
+  x
+  \ar[
+    rr,
+    "{ f }"
+  ] 
+  && 
+  y
+  \\[-15pt]
+  \phi(x) 
+    \ar[rr, equals] 
+    \ar[dr, equals]
+    && 
+  \phi(y)
+  \ar[dl, equals]
+  &&
+  \phi(x) 
+    \ar[rr, "{ \phi(f) }"] 
+    \ar[dr, "{ p_x }"{swap}]
+    && 
+  \phi(y)
+  \ar[dl, "{ p_y }"]
+  \\
+  & c
+  & &&
+  & c
+\end{tikzcd}
 
 \begin{tikzcd}[
   sep=20pt
