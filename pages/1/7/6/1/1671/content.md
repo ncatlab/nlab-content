@@ -31,11 +31,13 @@ More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a 
 
 ### In dependent type theory
 
-In [[dependent type theory]], **countable choice** says that the [[dependent product type|dependent product]] of a family of inhabited types indexed by the [[natural numbers]] is itself inhabited:
+In [[dependent type theory]], **countable choice** says that the [[dependent product type|dependent product]] of a family of inhabited sets indexed by the [[natural numbers]] is itself inhabited:
 
-$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma, a:\prod_{n:\mathbb{N}} \left[A(n)\right] \vdash \mathrm{countablechoice}(a):\left[\prod_{n:\mathbb{N}} A(n)\right]}$$
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^A:\left(\prod_{n:\mathbb{N}} \mathrm{isSet}(A(n))\right) \to \left(\prod_{n:\mathbb{N}} [A(n)]\right) \to \left[\prod_{n:\mathbb{N}} A(n)\right]}$$
 
-Countable choice could be defined in any dependent type theory with [[dependent sequence types]]. 
+Alternatively, the axiom of countable choice states that given a family of sets $A(n)$ indexed by natural numbers $n$ and a family of propositions $P(n, x)$ indexed by natural numbers $n$ and element $x:A(n)$, if for all natural numbers $n$ there merely exists an element $x:A(n)$ such that $P(n, x)$, then there merely exists a dependent function $g:\prod_{n:\mathbb{N}} A(n)$ such that for all natural numbers $n$, $P(n, g(n))$:
+
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type} \quad \Gamma, n:\mathbb{N}, x:A(n) \vdash P(n, x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^{A, P}:\left(\prod_{n:\mathbb{N}} \mathrm{isSet}(A(n)) \times \prod_{x:A(n)} \mathrm{isProp}(P(n, x))\right) \to \left(\prod_{n:\mathbb{N}} \exists x:A(n).P(n, x)\right) \to \exists g:\prod_{n:\mathbb{N}} A(n).\prod_{n:\mathbb{N}} P(n, g(n))}$$
 
 ## Consequences
 
@@ -73,6 +75,25 @@ One easy example is the category $Sh([0,1])$, the sheaves on the unit interval, 
 
 Discussion [here](https://mathoverflow.net/questions/79807/example-of-a-topos-that-violates-countable-choice). 
 
+### In higher category theory
+
+To formulate a version of the axiom of countable choice in a higher category, one has to make an appropriate choice of the meaning of "epimorphism". In most cases, it is best to choose [[effective epimorphisms|effective epimorphism in an (infinity,1)-category]] or a related notion such as [[eso morphisms]].
+
+There are multiple version of the axiom of countable choice, depending on what [[truncated object|truncation]] requirements, if any, are applied to the domain. 
+
+* An $(\infty,1)$-category satisfies the **axiom of countable $n$-choice**, or $CC_n$, if every $n$-[[truncated morphism]] into the [[natural numbers object]] has a section. We write $CC_\infty$ for the **axiom of countable infinity-choice**: the statement that *every* morphism with codomain the [[natural numbers object]] has a section.
+
+These are stronger axioms as $n$ increases. 
+
+There are also "internal" versions of these axioms.
+
+* In [[homotopy type theory]] (the internal logic of an $(\infty,1)$-topos), the internal version of $CC_n$ is "every surjection onto the natural numbers type with $n$-type fibers has a section", or equivalently
+  $$\prod_{(Y:\mathbb{N}\to n Type)} \Big( \prod_{(x:\mathbb{N})} \Vert Y(x)\Vert \to \Big\Vert \prod_{(x:\mathbb{N})} Y(x) \Big\Vert \Big) $$
+
+* More generally, we can replace the $(-1)$-truncation by the $k$-truncation to obtain a family of axioms $CC_{k,n}$.
+
+* We can also replace the $(-1)$-truncation by the assertion of $k$-connectedness, obtaining the **axiom of countable $k$-connected choice**.
+
 ## References
 
 *  {#BRS}Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. [PDF](http://math.fau.edu/richman/docs/wcc.pdf) [AMS PDF](http://www.ams.org/proc/2000-128-09/S0002-9939-00-05327-2/)
@@ -90,6 +111,14 @@ category: foundational axiom
 [[!redirects countable choice]]
 [[!redirects countable axiom of choice]]
 [[!redirects axiom of countable choice]]
+
+[[!redirects countable n-choice]]
+[[!redirects countable axiom of n-choice]]
+[[!redirects axiom of countable n-choice]]
+
+[[!redirects countable infinity-choice]]
+[[!redirects countable axiom of infinity-choice]]
+[[!redirects axiom of countable infinity-choice]]
 
 [[!redirects AC00]]
 
