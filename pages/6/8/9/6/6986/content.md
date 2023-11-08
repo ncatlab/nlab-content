@@ -192,21 +192,31 @@ whose elements are witnesses that all propositions are [[pointed types]] (and th
 
 By [[weak function extensionality]], the empty type is a proposition, and if it has an element, then every proposition in $\mathrm{Prop}$ has an element and is contractible. 
 
-This definition makes sense because the empty type is equivalent to its [[propositional truncation]], and the [[propositional truncation]] is defined using $\mathrm{Prop}$ by 
+## Properties
 
-$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+### Equivalence of the definitions of the empty type
+
+\begin{theorem}
+The inductive definition of the empty type and the definition of the empty type in terms of dependent product types and the type of propositions are equivalent to each other. 
+\end{theorem}
+
+\begin{proof}
+Since the empty type is a proposition, it is equivalent to its own [[propositional truncation]] $\emptyset \simeq [\emptyset]$. 
+
+Meanwhile, the [[propositional truncation]] of a type $A$ is equivalent to the dependent product type
+
+$$[A] \simeq \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
 
 Substituting the empty type for $A$, we have 
 
-$$\prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P$$
+$$[\emptyset] \simeq \prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P$$
 
 By the recursion principle of the empty type, for every type $P$, the type $\emptyset \to P$ is contractible, and for every contractible type $I$, the type $I \to P$ is equivalent to $P$. Thus, we have equivalences of types
 
-$$\emptyset \simeq \left(\prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} P\right)$$
+$$\emptyset \simeq [\emptyset] \simeq \left(\prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} P\right)$$
+\end{proof}
 
-## Properties
-
-#### The empty type as a univalent universe
+### The empty type as a univalent universe
 
 The empty type can be represented as a univalent universe. We [[inductive definition|inductively define]] the type family $x:\mathbb{0} \vdash \mathrm{El}_\mathbb{0}(x) \; \mathrm{type}$ by defining 
 $$\mathrm{El}_\mathbb{0}(*) \coloneqq \mathbb{0}$$
