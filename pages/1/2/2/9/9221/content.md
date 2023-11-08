@@ -40,6 +40,13 @@ On the relation between [[functorial quantum field theory]] (axiomatizing the [[
 
 * {#Johnson-Freyd21} [[Theo Johnson-Freyd]], *Heisenberg-picture quantum field theory*, in *Representation Theory, Mathematical Physics, and Integrable Systems*, Progress in Mathematics **340** (2021) &lbrack;[arXiv:1508.05908](https://arxiv.org/abs/1508.05908), [doi:10.1007/978-3-030-78148-4_13](https://doi.org/10.1007/978-3-030-78148-4_13)&rbrack;
 
+On [[higher dagger categories]]:
+
+* [[Theo Johnson-Freyd]], *Dagger Higher Categories*, workshop (2023) &lbrack;[web](http://categorified.net/dagger2023.html)&rbrack;
+
+* [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023)
+
+
 
 
 category: people
