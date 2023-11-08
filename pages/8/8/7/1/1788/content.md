@@ -1,4 +1,11 @@
 
+
+
+[pdf](http://categorified.net/NYUADtalk.pdf)
+
+
+
+
 $$
   \array{
     \phi^{-1}(c)
