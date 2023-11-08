@@ -44,6 +44,8 @@ We then define an internal functor to be a **$J$-equivalence** if it is fully fa
 
 ## Related concepts
 
+* [[canonical model structure on Cat]]
+
 * [[anafunctor]]
 
 * [[equivalence of categories]], [[weak equivalence]]
@@ -52,7 +54,7 @@ We then define an internal functor to be a **$J$-equivalence** if it is fully fa
 
 ## References
 
-* {#BungePare79} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 4 (1979), p. 373-399 ([numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
+* {#BungePare79} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques]], 20 no. 4 (1979), p. 373-399 ([numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
 
 * [[Tomas Everaert]], [[R.W.Kieboom]] and [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories 15 (2005), no. 3, 66-94. ([journal](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html))
 
