@@ -489,8 +489,6 @@ Given
 
 1. $\mathcal{C}$ any [[category]] with all [[small colimits]]
 
-
-
 then the induced diagram of [[functor categories]]
 
 $$
@@ -523,7 +521,58 @@ For this statement in the more general context of [[quasicategories]] see [Joyal
 \begin{proof}
 The proof relies on two observations:
 
-1. Since $\phi$ is [[opfibration|opfibered]], for every object $c \in C$ the embedding of the [[fiber]] $\phi^{-1}(c)$ into the [[comma category]] $\phi/c$ is a [[final functor]]. Therefore the [pointwise formula](Kan+extension#PointwiseByConicalLimits) for the [[left Kan extension]] $\phi_!$ is equivalently given by taking the [[colimit]] over the [[fiber]], instead of over the [[comma category]]:
+{#FirstObservationInProofForSystesmOfFunctorCategories} (1.) Since $\phi$ is [[opfibration|opfibered]], for every object $c \in C$ the inclusion functor 
+
+\begin{tikzcd}[sep=20pt]
+  & 
+  \phi^{-1}(c)
+  \ar[
+    rrrr, 
+    "{ iota }"
+  ]
+  & && &
+  \phi/c
+  \\
+  x
+  \ar[
+    rr,
+    "{ f }"
+  ] 
+  && 
+  y
+  &&
+  x
+  \ar[
+    rr,
+    "{ f }"
+  ] 
+  && 
+  y
+  \\[-15pt]
+  \phi(x) 
+    \ar[rr, equals] 
+    \ar[dr, equals]
+    && 
+  \phi(y)
+  \ar[dl, equals]
+  &&
+  \phi(x) 
+    \ar[rr, "{ \phi(f) }"] 
+    \ar[dr, "{ p_x }"{swap}]
+    && 
+  \phi(y)
+  \ar[dl, "{ p_y }"]
+  \\
+  & c
+  & &&
+  & c
+\end{tikzcd}
+
+(of the (strict) [[fiber]] $\phi^{-1}(c)$ into the [[comma category]] $\phi/c$) is a [[final functor]]. 
+
+(This has a simple argument in the case that the categories $D$, $C$ are in fact [[groupoids]]: In this case, $\phi$ being an opfibration equivalently means that it is an [[isofibration]], by [this Exp.](isofibration#GrothIsIsoFibBetweenGroupoids), which evidently implies that the above inclusion $\iota$ is [[essentially surjective functor|essentially surjective]]. But since $\iota$ is also manifestly a [[full functor]], it follows that it is final, by [this Prop.](final+functor#FinalFunctorBetweenGroupoids).)
+
+Therefore the [pointwise formula](Kan+extension#PointwiseByConicalLimits) for the [[left Kan extension]] $\phi_!$ is equivalently given by taking the [[colimit]] over the [[fiber]], instead of over the [[comma category]]:
 
   \[
     \label{PointwiseLeftKanExtensionInOpfiberedCase}
@@ -537,7 +586,7 @@ The proof relies on two observations:
     \,.
   \]
 
-1. Since (eq:StrictPullbackOfOpfibration) is a (strict) pullback of (strict) categories (i.e. an ordinary pullback of [[sets]] of [[objects]] and of [[sets]] of [[morphisms]]), the operations of taking [[images]] and [[preimages]] $(-)^{-1}$ ([[fibers]]) of the [[object]]-[[functions]] of the given functors satisfy the [[poset|posetal]] Beck-Chevalley condition from Exp. \ref{BeckChevalleyForPreImageBetweenPowerSets}:
+(2.) Since (eq:StrictPullbackOfOpfibration) is a (strict) pullback of (strict) categories (i.e. an ordinary pullback of [[sets]] of [[objects]] and of [[sets]] of [[morphisms]]), the operations of taking [[images]] and [[preimages]] $(-)^{-1}$ ([[fibers]]) of the [[object]]-[[functions]] of the given functors satisfy the [[poset|posetal]] Beck-Chevalley condition from Exp. \ref{BeckChevalleyForPreImageBetweenPowerSets}:
 
    \[
      \label{PreimagesInAPullbackDiagram}
