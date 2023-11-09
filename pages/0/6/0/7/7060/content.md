@@ -120,23 +120,129 @@ $$\prod_{P:\Omega} \prod_{Q:\Omega} \mathrm{isEquiv}(\mathrm{trans}^T(P, Q))$$
 
 These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and thus that $\Omega$ is an [[h-set]] 
 
-## Properties
+## Predicate logic
+
+In this section, we assume that [[function extensionality]] or [[weak function extensionality]] is true for all dependent function types. 
 
 ### The empty type and falsehood
 
-Assuming [[weak function extensionality]], for Russell types of all propositions, the type $\prod_{P:\mathrm{Prop}} P$ is the [[empty type]], which by weak function extensionality is a proposition, so is already in the type of all propositions $\left(\prod_{P:\mathrm{Prop}} P\right):\mathrm{Prop}$. Similarly, for Tarski types of all propositions, the type $\prod_{P:\mathrm{Prop}} \mathrm{El}(P)$ is the [[empty type]], which by weak function extensionality is a proposition, and so one has the element $\left(\prod_{P:\mathrm{Prop}} \mathrm{El}(P)\right)_\mathrm{Prop}:\mathrm{Prop}$. 
+For Russell types of all propositions, the type $\prod_{P:\mathrm{Prop}} P$ is the [[empty type]] $\emptyset$, which by weak function extensionality is a proposition, so is already in the type of all propositions $\left(\prod_{P:\mathrm{Prop}} P\right):\mathrm{Prop}$. Similarly, for Tarski types of all propositions, the type $\prod_{P:\mathrm{Prop}} \mathrm{El}(P)$ is the [[empty type]], which by weak function extensionality is a proposition, and so one has the element $\left(\prod_{P:\mathrm{Prop}} \mathrm{El}(P)\right)_\mathrm{Prop}:\mathrm{Prop}$. 
 
-In either case, the definition implies that if the empty type has an element, then every proposition has an element and is thus contractible. 
+In either case, the definition implies that if the empty type has an element, then every proposition has an element and is thus contractible. This implies that the empty type represents falsehood $\bot$ in the type of all propositions. 
 
 ### Propositional truncations
 
-Assuming [[weak function extensionality]], given the type of all propositions $\mathrm{Prop}$ and given a type $A$, the [[propositional truncation]] of a type $A$, which turns $A$ into an element of $\mathrm{Prop}$, is given for Russell types of all propositions by the type 
+Given the type of all propositions $\mathrm{Prop}$ and given a type $A$, the [[propositional truncation]] of a type $A$, which turns $A$ into an element of $\mathrm{Prop}$, is given for Russell types of all propositions by the type 
 
-$$\prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to P$$
 
 and for Tarski types of all propositions by the type 
 
-$$\prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to \mathrm{El}(P)$$
+$$[A] \equiv \prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to \mathrm{El}(P)$$
+
+By weak function extensionality, both of these types are propositions. 
+
+### Universal quantification
+
+Given any type $A$ and family of propositions $P(x)$ indexed by $x:A$, by [[weak function extensionality]], the [[dependent function type]] $\prod_{x:A} P(x)$ is also a [[proposition]]. This means that the propositional truncation of $\prod_{x:A} P(x)$ is equivalent to $\prod_{x:A} P(x)$, and the dependent function type is used as the [[universal quantifier]].
+
+More generally, given any type $A$ and family of propositions $B(x)$ indexed by $x:A$, the universal quantifier is given by [[propositional truncation]] of the [[dependent product type]]:
+
+$$\forall x:A.B(x) \equiv \left[\prod_{x:A} B(x)\right]$$
+
+### Implication and negation
+
+Given any type $A$ and proposition $P$, by [[weak function extensionality]], the [[function type]] $A \to P$ is also a [[proposition]]. This means that the propositional truncation of $A \to P$ is equivalent to $A \to P$, and the function type is used as [[implication]]. If $P$ is the empty type or falsehood defined above, then the function type represents the [[negation]] of $A$, $\neg A \equiv A \to \emptyset$. 
+
+More generally, given any type $A$ and $B$, implication is given by [[propositional truncation]] of the [[function type]]:
+
+$$A \implies B \equiv \left[A \to B\right]$$
+
+### Contractible types and truth
+
+Given any proposition $P$, by [[weak function extensionality]], the [[function type]] $P \to P$ is also a [[proposition]]. Since the function type $P \to P$ has an element, given by [[generalized the|the]] [[identity function]] $\mathrm{id}_P \equiv \lambda x:P.x$, $P \to P$ is a [[contractible type]] for any $P:\mathrm{Prop}$, which means that it represents the concept of [[truth]] $\top$. As shown above, $\emptyset \equiv \prod_{P:\mathrm{Prop}} P$ or $\emptyset \equiv \prod_{P:\mathrm{Prop}} \mathrm{El}(P)$ is the empty proposition, so it suffices to define $\top \equiv \emptyset \to \emptyset$. 
+
+### Biconditionals 
+
+Given any proposition $P$ and $Q$, by [[weak function extensionality]], the [[equivalence type]] $P \simeq Q$ is also a [[proposition]]. This means that the propositional truncation of $P \simeq Q$ is equivalent to $P \simeq Q$, and the equivalence type is used as the biconditional. 
+
+More generally, given any type $A$ and $B$, the biconditional is given by [[propositional truncation]] of the [[equivalence type]]:
+
+$$A \iff B \equiv \left[A \simeq B\right]$$
+
+### Existential quantification
+
+Given any type $A$ and family of types $B(x)$ indexed by $x:A$, the [[existential quantifier]] is given by the type 
+
+$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to P\right) \to P$$
+
+for Russell types of propositions and
+$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to \mathrm{El}(P)\right) \to \mathrm{El}(P)$$
+for Tarski types of propositions. 
+
+If the type theory also has [[dependent sum types]], the existential quantifier is equivalently given by the propositional truncation of the [[dependent sum type]]
+
+$$\exists x:A.B(x) \equiv \left[\sum_{x:A} B(x)\right]$$
+
+since by [[currying]] there is an equivalence 
+
+$$\left(\left(\sum_{x:A} B(x)\right) \to P\right) \simeq \left(\prod_{x:A} B(x) \to P\right)$$
+
+### Conjunction
+
+Given types $A$ and $B$, the [[conjunction]] of $A$ and $B$ is given by the type 
+
+$$A \wedge B \equiv \prod_{P:\mathrm{Prop}} \left(A \to (B \to P)\right) \to P$$
+
+for Russell types of propositions and
+$$A \wedge B \equiv \prod_{P:\mathrm{Prop}} \left(A \to (B \to \mathrm{El}(P))\right) \to \mathrm{El}(P)$$
+for Tarski types of propositions. 
+
+If the type theory also has [[product types]], the existential quantifier is equivalently given by the propositional truncation of the [[product type]]
+
+$$A \wedge B \equiv \left[A \times B\right]$$
+
+since by [[currying]] there is an equivalence 
+
+$$\left((A \times B) \to P\right) \simeq \left(A \to (B \to P)\right)$$
+
+### Disjunctions
+
+Given types $A$ and $B$, the [[disjunction]] of $A$ and $B$ is given by the type 
+
+$$A \vee B \equiv \prod_{P:\mathrm{Prop}} (A \to P) \to (B \to P) \to P$$
+
+for Russell types of propositions and
+$$A \vee B \equiv \prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to (B \to \mathrm{El}(P)) \to \mathrm{El}(P)$$
+for Tarski types of propositions. 
+
+If the type theory also has [[product types]], the existential quantifier is equivalently given by the type
+
+$$A \vee B \equiv \prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P$$
+
+for Russell types of propositions and
+$$A \vee B \equiv \prod_{P:\mathrm{Prop}} ((A \to \mathrm{El}(P)) \times (B \to \mathrm{El}(P))) \to \mathrm{El}(P)$$
+for Tarski types of propositions, 
+
+and if the type theory also has [[coproduct types]], the existential quantifier is equivalently given by the propositional truncation of the [[coproduct type]]
+
+$$A \vee B \equiv \left[A + B\right]$$
+
+since by [[currying]] there is an equivalence 
+
+$$\left((A \to P) \times (B \to P)\right) \simeq \left((A + B) \to P\right)$$
+
+### Decidable propositions and booleans
+
+A [[decidable proposition]] is a proposition $P$ with a witness $p:P \vee \neg P$ that the disjunction of $P$ and its negation holds. 
+
+The [[type of booleans]] is the type of all decidable propositions in $\mathrm{Prop}$, 
+$$\mathrm{Bool} \equiv \sum_{P:\mathrm{Prop}} P \vee \neg P$$
+for Russell types of propositions, and 
+$$\mathrm{Bool} \equiv \sum_{P:\mathrm{Prop}} \mathrm{El}(P) \vee \neg \mathrm{El}(P)$$
+for Tarski types of propositions. 
+
+The [[law of excluded middle]] states that every proposition is decidable $\mathrm{lem}:\prod_{P:\mathrm{Prop}} P \vee \neg P$, or equivalently that there is an equivalence $\mathrm{lem}':\mathrm{Bool} \simeq \mathrm{Prop}$ between the type of propositions and the type of booleans. 
 
 ## Related concepts
 
@@ -161,6 +267,8 @@ $$\prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to \mathrm{El}(P)$$
 * [[type of entire relations]]
 
 ## References
+
+* {#UFP13} [[Univalent Foundations Project]], §3.7 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 Detailed discussion of the type of propositions in [[Coq]] is in
 
