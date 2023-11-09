@@ -53,7 +53,7 @@ Beyond this _automatic_ consistency condition, guaranteed by [[category theory]]
   is the [[topos]] of spaces modeled on objects in $C$. More details on how to think of sheaves as generalized spaces is at [[motivation for sheaves, cohomology and higher stacks]].
 
 
-* Given any generalized spaces, functions out of it are expected to respect [[product]]s of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in copresheaves that preserve at least [[product]]
+* Given any generalized spaces, functions out of it are expected to respect [[product | products]] of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in copresheaves that preserve at least [[product]]
 
   $CoSh(C) \hookrightarrow CoPSh(C)$.
 
@@ -129,7 +129,7 @@ Lawvere refers to this [[adjoint pair]] as **[[Isbell conjugation]]**.
 
 In conclusion, the grand [[duality]] between spaces and quantities is a consequence of the [[formal duality]] which reverses the arrows in the category $S$ of test spaces.
 
-This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top]] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
+This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top]] of [[topological space | topological spaces]] and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
 
 
 ## Isbell duality: global functions and spectrum {#Isbell}
@@ -156,7 +156,7 @@ the **[[Isbell adjunction]]**. Here
 
 * $Spec := [C,V]^{op}(j(-),-)$ sends a copresheaf $A$ to the presheaf $U \mapsto [C,V](A, j^{op}(U))$.
 
-If we assume that $C$ is [[copower|tensored]] over $V$, then that this is an adjunction may be seen in [[end]]/[[coend]]-calculus to express the [[hom-object]]s in the [[enriched functor category]] as follows. We compute
+If we assume that $C$ is [[copower|tensored]] over $V$, then that this is an adjunction may be seen in [[end]]/[[coend]]-calculus to express the [[hom-object | hom-objects]] in the [[enriched functor category]] as follows. We compute
 
 $$
   \begin{aligned}
@@ -207,9 +207,9 @@ Consider the category of test spaces $C = $ [[CartSp]].
 
 Then 
 
-* spaces modeled on $C$ are [[generalized smooth space]]s such as [[diffeological space]]s;
+* spaces modeled on $C$ are [[generalized smooth space | generalized smooth spaces]] such as [[diffeological space | diffeological spaces]];
 
-* quantities modeled on $C$ are [[smooth algebra]]s ($C^\infty$-rings).
+* quantities modeled on $C$ are [[smooth algebra | smooth algebras]] ($C^\infty$-rings).
 
 The adjunction $(\mathcal{O} \dashv Spec)$ sends a smooth space to its smooth algebra of functions and a smooth algebra of functions to its "spectrum".
 
@@ -224,7 +224,7 @@ There are various specializations of interest on this
 
   * [[∞-quantity]] modeled on $C$ is a cosimplicial copresheaf on $C$, i.e. a functor $X : C \to CoSSet$ .
 
-With the advent of [[Higher Topos Theory]] abstract concepts of _space and quantity_ have been realized fully in the context of [[(∞,1)-topos]]es in terms of [[structured (∞,1)-topos]]es and [[generalized scheme]]s. For a summary see the tables at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace).
+With the advent of [[Higher Topos Theory]] abstract concepts of _space and quantity_ have been realized fully in the context of [[(∞,1)-topos | (∞,1)-toposes]] in terms of [[structured (∞,1)-topos | structured (∞,1)-toposes]] and [[generalized scheme | generalized schemes]]. For a summary see the tables at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace).
 
 
 ## Related entries
