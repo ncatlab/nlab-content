@@ -462,6 +462,7 @@ concerning abstract characterization:
 Certain specially nice $\dagger$-categories, such as [[C-star-category|$C^*$-categories]] and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
 
 ### Higher dagger categories
+ {#ReferencesHigherDagger}
 
 On dagger [[higher categories]]:
 
@@ -469,12 +470,11 @@ Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] 
 
 * [[Simon Henry]], *$(n,1)$-dagger categories* &lbrack;[MO:a/427322](https://mathoverflow.net/a/427322/381)&rbrack;
 
-See also: 
+Generalization to dagger [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 
 * [[Theo Johnson-Freyd]], *Dagger Higher Categories*, workshop (2023) &lbrack;[web](http://categorified.net/dagger2023.html)&rbrack;
 
-* [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf)&rbrack;
-
+* [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]]&rbrack;
 
 
 [[!redirects dagger-category]]
