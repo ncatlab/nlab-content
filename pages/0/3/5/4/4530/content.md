@@ -59,7 +59,7 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
 ## References
 
-* {#Huybrechts04} [[Daniel Huybrechts]] _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
+* {#Huybrechts04} [[Daniel Huybrechts]],  _Complex geometry: An introduction_, Universitext, Springer (2004) &lbrack;[pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf), [doi:10.1007/b137952](https://doi.org/10.1007/b137952)&rbrack;
 
 * [[Claire Voisin]], _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. 76, 77, 2002/3
 
