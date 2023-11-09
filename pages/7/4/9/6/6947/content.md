@@ -54,7 +54,7 @@ In [[type theory]] under the identification of [[propositions as types]], the ex
 
 If the [[dependent type theory]] has a [[type of propositions]] $\mathrm{Prop}$, such as the one derived from a type universe $U$ - $\sum_{A:U} \mathrm{isProp}(A)$, then the existential quantification of the family of types $B(x)$ indexed by $x:A$ is defined as the [[dependent function type]]
 
-$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x)\right) \to P$$
+$$\exists x:A.B(x) \equiv \prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to P\right) \to P$$
 
 By [[weak function extensionality]], the disjunction of two types is a proposition. 
 
