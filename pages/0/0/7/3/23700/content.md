@@ -34,4 +34,15 @@ There is another definition which violates the [[principle of equivalence]], sin
 ## See also ##
 
 * [[dagger category]]
+
 * [[monoidal dagger category]]
+
+* [[unitary functorial field theory]]
+
+
+[[!redirects dagger functors]]
+
+[[!redirects dagger-functor]]
+[[!redirects dagger-functors]]
+
+
