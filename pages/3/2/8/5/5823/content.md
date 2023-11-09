@@ -15,7 +15,7 @@ Introducing the [[Reshetikhin-Turaev construction]]:
 
 On [[knot theory]] and [[3-manifolds]]:
 
-* [[Vladimir Turaev]], _Quantum invariants of knots and 3-manifolds_, de Gruyter Studies in Mathematics **18** Walter de Gruyter & Co., Berlin, 1994 ([doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221))
+* [[Vladimir Turaev]], *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18** Walter de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221)&rbrack;
 
 
 On  [[HQFT|homotopy quantum field theory]]:
@@ -35,13 +35,15 @@ On [[braid groups]]:
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Reshetikhin-Turaev construction]]
 
 * [[Reshetikhin-Turaev invariant]]
 
 * [[Turaev-Viro model]]
+
+* [[unitary functorial field theory]]
 
 
 [[!redirects Turaev]]
