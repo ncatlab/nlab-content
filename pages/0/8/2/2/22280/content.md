@@ -8,7 +8,7 @@
 =--
 =--
 
-# Two-valued object
+# Boolean domain object
 * table of contents
 {: toc}
 
@@ -16,13 +16,13 @@
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[sets]].
 
-An two-valued object internal to a topos is an object that behaves in that topos like the set $\mathbf{2}$ with exactly two elements does in Set.
+A boolean domain object internal to a topos is an object that behaves in that topos like the [[boolean domain]] $\mathrm{Bool}$ does in Set.
 
 ## Definition
 
 ### In a topos or cartesian closed category
 
-An **two-valued object** in a [[topos]] (or any [[cartesian closed category]]) $E$ with [[terminal object]] $1$ is 
+A **boolean domain object** in a [[topos]] (or any [[cartesian closed category]]) $E$ with [[terminal object]] $1$ is 
 
 * an [[object]] $\mathbf{2}$ in $E$ 
 
@@ -43,19 +43,19 @@ An **two-valued object** in a [[topos]] (or any [[cartesian closed category]]) $
   \end{tikzcd}
 \end{center}
 
-By the [[universal property]], the two-valued object is unique up to [[isomorphism]].
+By the [[universal property]], the boolean domain object is unique up to [[isomorphism]].
 
 ## Properties
 
 ### As an initial object
 
-The two-valued object $\mathbf{2}$ is an [[initial object]] in the category of [[bi-pointed object]]s.
+The boolean domain object $\mathbf{2}$ is an [[initial object]] in the category of [[bi-pointed object]]s.
 
 ### Coproducts
 
-The two-valued object $\mathbf{2}$ is the [[disjoint coproduct]] of the terminal object $1$ with itself. 
+The boolean domain object $\mathbf{2}$ is the [[disjoint coproduct]] of the terminal object $1$ with itself. 
 
-... (One should be able to define binary [[coproduct]]s using the [[dependent sum]] functor and the two-valued object, as dependent sums exist in topoi and cartesian closed categories.)
+... (One should be able to define binary [[coproduct]]s using the [[dependent sum]] functor and the boolean domain object, as dependent sums exist in topoi and cartesian closed categories.)
 
 ### Products
 
@@ -63,11 +63,11 @@ The two-valued object $\mathbf{2}$ is the [[disjoint coproduct]] of the terminal
 
 ### Subobject classifier
 
-A topos with a [[subobject classifier]] that is also a two-valued object is a [[two-valued topos]]. The [[internal logic]] of such a topos is [[two-valued logic]]. 
+A topos with a [[subobject classifier]] that is also a boolean domain object is a [[two-valued topos]]. The [[internal logic]] of such a topos is [[two-valued logic]]. 
 
 ### Type theory
 
-Two-valued objects are the [[categorical semantics]] of the [[two-valued type]] in type theory. The [[inductive type|inductive property]] of the two-valued type, case analysis or if/else expressions, corresponds to the [[initial object|initiality]] of the two-valued object in the subcategory of triples $(A, t:1\rightarrow A, f:1\rightarrow A)$ representing [[bi-pointed object]]s, similar to how the principle of [[induction]] over [[natural numbers]] corresponds to the initiality of the [[natural numbers object]] in the subcategory of triples $(A, q:1\rightarrow A, f:A\rightarrow A)$ representing infinite sequences. 
+Boolean domain objects are the [[categorical semantics]] of the [[boolean domain]] in type theory. The [[inductive type|inductive property]] of the boolean domain type, case analysis or if/else expressions, corresponds to the [[initial object|initiality]] of the boolean domain object in the subcategory of triples $(A, t:1\rightarrow A, f:1\rightarrow A)$ representing [[bi-pointed object]]s, similar to how the principle of [[induction]] over [[natural numbers]] corresponds to the initiality of the [[natural numbers object]] in the subcategory of triples $(A, q:1\rightarrow A, f:A\rightarrow A)$ representing infinite sequences. 
 
 ## See also
 
@@ -77,4 +77,8 @@ Two-valued objects are the [[categorical semantics]] of the [[two-valued type]] 
 
 * [[subobject classifier]]
 
-* [[two-valued type]], [[two-valued topos]], [[two-valued logic]]
+* [[boolean domain]]
+
+* [[two-valued topos]], [[two-valued logic]]
+
+[[!redirects two-valued object]]
