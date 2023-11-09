@@ -2430,6 +2430,8 @@ $$
 
   * **FQFT**
 
+    * [[unitary functorial field theory]]
+
     * [[TQFT]], 
  
       * [[extended topological quantum field theory]], 
@@ -2438,7 +2440,7 @@ $$
 
       * [[2d TQFT]], [[3d TQFT]] [[4d TQFT]], 
 
-      *  [[HQFT]]
+      * [[HQFT]]
 
   * [[AQFT]]
 
@@ -2622,9 +2624,9 @@ where he argued that and how the path integral should assign $n$-categorical obj
 
 Freed's ideas on how an extended or multi-tiered QFT arises from a path integral coming from a given background field were further formalized in the context of "finite" QFTs in
 
-* Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](https://arxiv.org/abs/math.QA/0503266))
+* [[Simon Willerton]], _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](https://arxiv.org/abs/math.QA/0503266))
 
-* Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_, PhD thesis, Sheffield (2008) ([arXiv] (https://arxiv.org/abs/0901.3975))
+* [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantum field theory_, PhD thesis, Sheffield (2008) ([arXiv] (https://arxiv.org/abs/0901.3975))
 
 There are indications that a complete picture of this involves [[groupoidification]] 
 
