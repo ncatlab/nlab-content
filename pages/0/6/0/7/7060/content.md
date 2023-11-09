@@ -152,7 +152,7 @@ $$\forall x:A.B(x) \equiv \left[\prod_{x:A} B(x)\right]$$
 
 ### Implication and negation
 
-Given any type $A$ and proposition $P$, by [[weak function extensionality]], the [[function type]] $A \to P$ is also a [[proposition]]. This means that the propositional truncation of $A \to P$ is equivalent to $A \to P$, and the function type is used as [[implication]]. If $P$ is the empty type or falsehood defined above, then the function type represents the [[negation]] of $A$, $\neg A \equiv A \to \emptyset$. 
+Given any proposition $Q$ and $P$, by [[weak function extensionality]], the [[function type]] $Q \to P$ is also a [[proposition]]. This means that the propositional truncation of $A \to P$ is equivalent to $Q \to P$, and the function type is used as [[implication]]. If $P$ is the empty type or falsehood defined above, then the function type represents the [[negation]] of $Q$, $\neg Q \equiv Q \to \emptyset$. 
 
 More generally, given any type $A$ and $B$, implication is given by [[propositional truncation]] of the [[function type]]:
 
@@ -243,6 +243,10 @@ $$\mathrm{Bool} \equiv \sum_{P:\mathrm{Prop}} \mathrm{El}(P) \vee \neg \mathrm{E
 for Tarski types of propositions. 
 
 The [[law of excluded middle]] states that every proposition is decidable $\mathrm{lem}:\prod_{P:\mathrm{Prop}} P \vee \neg P$, or equivalently that there is an equivalence $\mathrm{lem}':\mathrm{Bool} \simeq \mathrm{Prop}$ between the type of propositions and the type of booleans. 
+
+## Categorical semantics
+
+The [[categorical semantics]] of the type of all propositions is the [[subobject classifier]]. 
 
 ## Related concepts
 
