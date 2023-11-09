@@ -93,111 +93,54 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
-#### The empty proposition and falsehood
-
-To ensure that the type of all propositions isn't a [[contractible type]], one could include the following axiom, which states that there exists a proposition satisfying [[ex falso quodlibet]]:
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{axempty}:\sum_{\bot:\Omega} \prod_{C:\bot \to \Omega} \mathrm{isContr}\left(\prod_{x:\bot} C(x)\right)}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{axempty}:\sum_{\bot:\Omega} \prod_{C:\mathrm{El}(\bot) \to \Omega} \mathrm{isContr}\left(\prod_{x:\mathrm{El}(\bot)} \mathrm{El}(C(x))\right)}\mathrm{Tarski}$$
-
-### The type of all decidable propositions
-
-Something similar holds for the **type of all decidable propositions** $\Omega_\mathrm{decidable}$ in a [[dependent type theory]], which could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[decidable proposition]] in the type theory is literally an element of the type of all decidable propositions, while in the latter, elements of $\Omega_\mathrm{decidable}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[decidable proposition]] in the type theory is only [[essentially small type|essentially $\Omega_\mathrm{decidable}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\Omega_\mathrm{decidable}$ for [[strict Tarski universes]]. 
-
-#### As a Russell universe
-
-As a [[Russell universe]], the type of all decidable propositions is given by the following rules:
-
-Formation rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega_\mathrm{decidable} \; \mathrm{type}}$$
-
-Type reflection:
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash A \; \mathrm{type}}$$
-
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(A)}$$
-
-Excluded middle for each type reflection
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{isProp}(A) \to (A \vee \neg A)}$$
-
-Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash A:\Omega_\mathrm{decidable}}$$
-
-Univalence:
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable} \quad \Gamma \vdash B:\Omega_\mathrm{decidable}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{Id}_{\Omega_\mathrm{decidable}}(A, B) \simeq (A \simeq B)}$$
-
-#### As a Tarski universe
-
-As a [[Tarski universe]], the type of all decidable propositions is given by the following rules:
-
-Formation rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega_\mathrm{decidable} \; \mathrm{type}}$$
-
-Type reflection:
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash El(A) \; \mathrm{type}}$$
-
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
-
-Excluded middle for each type reflection
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{isProp}(El(A)) \to (El(A) \vee \neg El(A))}$$
-
-Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to A \vee \neg A}{\Gamma \vdash A_\Omega:\Omega_\mathrm{decidable}}$$
-
-[[essentially small type|Essential smallness]] of propositions (for weak types of all decidable propositions) or [[judgmental equality]] (for strict types of all decidable propositions):
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}\mathrm{weak} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash El(A_\Omega) \equiv A \; \mathrm{type}}\mathrm{strict}$$
-
-Univalence:
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable} \quad \Gamma \vdash B:\Omega_\mathrm{decidable}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
-
-### The type of booleans
-
-The **type of booleans** or **booleans type** is given by the following rules:
-
-Formation rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{bool} \; \mathrm{type}}$$
-
-Type reflection:
-$$\frac{\Gamma \vdash A:\mathrm{bool}}{\Gamma \vdash El(A) \; \mathrm{type}}$$
-
-Introduction rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{false}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta_\mathbb{0}:El(\mathrm{false}) \simeq \mathbb{0}}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{true}:\mathrm{bool}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta_\mathbb{1}:El(\mathrm{true}) \simeq \mathbb{1}}$$
-
-Univalence:
-$$\frac{\Gamma \vdash A:\mathrm{bool} \quad \Gamma \vdash B:\mathrm{bool}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
-
-Unlike a generic [[two-valued type]] defined as the [[sum type]] of two copies of the [[unit type]] or directly defined in terms of natural deduction rules, having a type of booleans is inconsistent with every type being an [[h-proposition]]. If $\mathrm{bool}$ were an h-proposition, that means that the identity type $\mathrm{false} = \mathrm{true}$ is pointed, and by [[transport]] across $\mathrm{El}$, there is an equivalence between the empty type and the unit type, which is a contradiction. 
-
 ### Other types of propositions
 
-We work in an [[intensional type theory]] with [[propositional truncations]] $\left[T\right]$ for types $T$. A **type of propositions** is a [[type]] $\Omega$ with a [[type family]] $T$ such that 
+Other types of propositions include 
 
-* for every proposition $P:\Omega$, the type $T(P)$ is an [[h-proposition]]:
+* the [[boolean domain]], which is the type of *decidable propositions*.
+
+* any [[dominance]], which is the type of *open propositions*, or the type of *semi-decidable propositions*. 
+
+* For a [[Russell universe]] $U$, the type $\sum_{A:U} \mathrm{isProp}(A)$ is the type of *$U$-small propositions*. Similarly, for a [[Tarski universe]] $(U, T)$, the type $\sum_{A:U} \mathrm{isProp}(T(A))$ is the type of *$U$-small propositions*
+
+* [[sProp]], which is the *type of strict propositions*
+
+* any [[contractible type]], which is (equivalent to) the *type of pointed propositions* or the *type of contractible types*. 
+
+In general, these types of propositions can also be distinguished between their Russell and Tarski variants, where elements of the type of propositions are actual types, or indices for the type family $\mathrm{El}$. 
+
+Most generally, a **type of propositions** is a [[type]] $\Omega$ with a [[type family]] $T$ such that 
+
+* for every elements $P:\Omega$, the type $T(P)$ is an [[h-proposition]]:
 $$\prod_{P:\Omega} \prod_{a:T(P)} \prod_{b:T(P)} a =_{T(P)} b$$
 * the [[transport]] function
 $$\mathrm{trans}^T(P, Q):P =_\Omega Q \to (T(P) \simeq T(Q))$$
-is an equivalence of types for all propositions $P:\Omega$ and $Q:\Omega$
+is an equivalence of types for all elements $P:\Omega$ and $Q:\Omega$
 $$\prod_{P:\Omega} \prod_{Q:\Omega} \mathrm{isEquiv}(\mathrm{trans}^T(P, Q))$$
-* $(\Omega, T)$ is weakly closed under truth: there is an element $\top_\Omega:\Omega$ and an equivalence $\mathrm{canonical}_\top: T(\top_\Omega) \simeq \mathbb{1}$
-* $(\Omega, T)$ is weakly closed under conjunction: there is a function $(-)\wedge(-):\Omega \times \Omega \to \Omega$ and an equivalence $\mathrm{canonical}_\wedge(P, Q): T(P \wedge Q) \simeq \left[T(P) \times T(Q)\right]$
-* $(\Omega, T)$ is weakly closed under implication: there is a function $(-)\implies(-):\Omega \times \Omega \to \Omega$ and an equivalence $\mathrm{canonical}_\implies(P, Q): T(P \implies Q) \simeq \left[T(P) \to T(Q)\right]$
-* $(\Omega, T)$ is weakly closed under falsehood: there is an element $\bot_\Omega:\Omega$ and an equivalence $\mathrm{canonical}_\bot: T(\bot_\Omega) \simeq \mathbb{0}$
-* $(\Omega, T)$ is weakly closed under disjunction: there is a function $(-)\vee(-):\Omega \times \Omega \to \Omega$ and an equivalence $\mathrm{canonical}_\vee(P, Q): T(P \vee Q) \simeq \left[T(P) + T(Q)\right]$
 
-These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and that $\Omega$ is an [[h-set]] and a [[Heyting algebra]]. 
+These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and thus that $\Omega$ is an [[h-set]] 
 
-## Examples
+## Properties
 
-The type of all internal propositions 
-$$\sum_{A:U} \mathrm{isProp}(T(A))$$
-in a [[Tarski universe]] $(U, T)$ is a type of propositions. If the Tarski universe has all propositions, then 
-$$\sum_{A:U} \mathrm{isProp}(T(A))$$
-is the type of all propositions. 
+### The empty type and falsehood
+
+Assuming [[weak function extensionality]], for Russell types of all propositions, the type $\prod_{P:\mathrm{Prop}} P$ is the [[empty type]], which by weak function extensionality is a proposition, so is already in the type of all propositions $\left(\prod_{P:\mathrm{Prop}} P\right):\mathrm{Prop}$. Similarly, for Tarski types of all propositions, the type $\prod_{P:\mathrm{Prop}} \mathrm{El}(P)$ is the [[empty type]], which by weak function extensionality is a proposition, and so one has the element $\left(\prod_{P:\mathrm{Prop}} \mathrm{El}(P)\right)_\mathrm{Prop}:\mathrm{Prop}$. 
+
+In either case, the definition implies that if the empty type has an element, then every proposition has an element and is thus contractible. 
+
+### Propositional truncations
+
+Assuming [[weak function extensionality]], given the type of all propositions $\mathrm{Prop}$ and given a type $A$, the [[propositional truncation]] of a type $A$, which turns $A$ into an element of $\mathrm{Prop}$, is given for Russell types of all propositions by the type 
+
+$$\prod_{P:\mathrm{Prop}} (A \to P) \to P$$
+
+and for Tarski types of all propositions by the type 
+
+$$\prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to \mathrm{El}(P)$$
 
 ## Related concepts
+
+* [[boolean domain]]
 
 * [[subtype]], [[subobject]]
 
@@ -258,33 +201,4 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects strict Tarski type of all propositions]]
 [[!redirects strict Tarski types of all propositions]]
 
-[[!redirects type of decidable propositions]]
-[[!redirects types of decidable propositions]]
-
-[[!redirects Russell type of decidable propositions]]
-[[!redirects Russell types of decidable propositions]]
-[[!redirects Tarski type of decidable propositions]]
-[[!redirects Tarski types of decidable propositions]]
-[[!redirects weak Tarski type of decidable propositions]]
-[[!redirects weak Tarski types of decidable propositions]]
-[[!redirects strict Tarski type of decidable propositions]]
-[[!redirects strict Tarski types of decidable propositions]]
-
-[[!redirects type of all decidable propositions]]
-[[!redirects types of all decidable propositions]]
-
-[[!redirects Russell type of all decidable propositions]]
-[[!redirects Russell types of all decidable propositions]]
-[[!redirects Tarski type of all decidable propositions]]
-[[!redirects Tarski types of all decidable propositions]]
-[[!redirects weak Tarski type of all decidable propositions]]
-[[!redirects weak Tarski types of all decidable propositions]]
-[[!redirects strict Tarski type of all decidable propositions]]
-[[!redirects strict Tarski types of all decidable propositions]]
-
 [[!redirects Prop]]
-
-[[!redirects booleans type]]
-[[!redirects type of booleans]]
-
-[[!redirects decidable subset classifier]]
