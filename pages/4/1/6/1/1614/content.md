@@ -123,9 +123,9 @@ See also:
 
 ### Global (1-functorial) TQFT
 
-The [[FQFT]]-[[axioms]] for global (i.e. 1-functorial) TQFTs are due to
+The [[FQFT]]-[[axioms]] for global (i.e. [[functorial field theory|1-functorial]]) TQFTs are due to:
 
-* {#Atiyah89} [[Michael Atiyah]], _Topological quantum field theories_, Publications Math&#233;matiques de l'IH&#201;S 68 (68): 175&#8211;186,  (1989) ([numdam:PMIHES_1988__68__175_0](http://www.numdam.org/item?id=PMIHES_1988__68__175_0))
+* {#Atiyah89} [[Michael Atiyah]], *Topological quantum field theories*, Publications Mathématiques de l’IHÉS **86** (1989) 175-186 &lbrack;[numdam:PMIHES_1988__68__175_0](http://www.numdam.org/item?id=PMIHES_1988__68__175_0)&rbrack;
 
 Exposition of the conceptual ingredients:
 
