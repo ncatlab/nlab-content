@@ -1,6 +1,6 @@
 
-\begin{remark}
-**(Hermitian forms via real bilinear forms and complex structure)**
+\begin{remark}\label{HermitianFormsViaHermitianMetrics}
+**(Hermitian forms via Hermitian metrics)**
 \linebreak
 The decomposition of a Hermitian form into its [[real part]] and [[imaginary part]] is traditionally written with the symbols
 $$
@@ -48,7 +48,7 @@ $$
 $$
 where in the last line we introduced the [[complex structure]] $J$ on the [[underlying]] real vector space which promotes it back to the original complex vector space.
 
-Notice that the complex structure $J$ is an [[orthogonal map]] with respect to the inner product $g$, in that
+Notice that the complex structure $J$ is an [[orthogonal map]] with respect to the inner product $g$, equivalently $g$ is a [[Hermitian metric]] with respect to $J$, in that
 
 $$
   \begin{array}{l}
@@ -79,7 +79,7 @@ $$
   \end{array}
 $$ 
 
-Conversely, for a real vector space equipped with a symmetric [[bilinear form]] $g$ and a [[complex structure]] $J$ which is orthogonal in that $g\big(J(-), J(-)\big) \,=\, g(-,-,)$, the formula
+Conversely, for a real vector space equipped with a [[complex structure]] $J$ and a [[Hermitian metric]] $g$, in that $g\big(J(-), J(-)\big) \,=\, g(-,-,)$, the formula
 $$
   \langle-\vert-\rangle
   \;=\;
@@ -150,7 +150,95 @@ $$
 $$
 \end{remark}
 
+\begin{proposition}
+Let $\mathscr{V}$ be a [[real vector space]] equipped with a [[complex structure]] 
+$$
+  J \,\colon\, \mathscr{V} \to \mathscr{V}
+$$
+and a [[Hermitian metric]] 
+$$
+  g 
+    \,\colon\, 
+  \mathscr{V} \otimes \mathscr{V}
+  \longrightarrow 
+  \mathbb{R}
+  \,.
+$$
+Then the corresponding Hermitian form (via Rem. \ref{HermitianFormsViaHermitianMetrics}) is the [[underlying]] map of the image of this structure under the equivalence of real vector space with Real vector bundles over the point:
+$$
+  \array{
+    \mathbb{R}Vect
+    &\overset{\; \sim \;}{\longrightarrow}&
+    RealVectBund_{\ast}
+    \\
+    (g,J) 
+      &\mapsto& 
+    \big(
+      \langle-\vert-\rangle
+      ,
+      \mathrm{I}
+    \big)
+  }
+$$ 
+\end{proposition}
+\begin{proof}
+  If we write $\mathscr{V}_J$ for the complex vector space determined by $\mathscr{V}$ and $J$, then the equivalence sends
+$$
+  (\mathscr{V}, J)
+  \;\mapsto\;
+  \mathscr{V}_J \oplus \mathscr{V}_{-J}
+  \,,
+$$
+where the right hand side is a Real vector space via the antilinear involution which on underlying real spaces is the swapping of the two summands. On this, the complex structure is
+$$
+  I 
+  \;=\;
+  diag(\mathrm{i}, -\mathrm{i})
+  \,.
+$$
+Therefore the Hermiticity of $g$ on the left becomes on the right the condition that the $\mathbb{Z}/2 \curvearrowright \mathbb{C}$-bilinear pairing
+$$
+  \big(
+    \mathscr{V}_J \oplus \mathscr{V}_{-J}
+  \big)
+  \otimes
+  \big(
+    \mathscr{V}_J \oplus \mathscr{V}_{-J}
+  \big)
+  \longrightarrow
+  \mathbb{C}
+$$
+is non-trivial only on the mixed terms
+$$
+  \mathscr{V}_J \otimes \mathscr{V}_{-J}
+  \;\;\oplus\;\;
+  \mathscr{V}_{-J} \otimes \mathscr{V}_{J}
+  \longrightarrow
+  \mathbb{C}
+  \,,
+$$
+where $\mathbb{Z}/2$-equivariance says that this is determined already by its value on one of the two summands, where it must be a Hermitian form.
 
+This implies now that on the $\mathbb{Z}/2$-fixed locus
+$$
+  \mathscr{V}
+  \otimes
+  \mathscr{V}
+  \;\simeq\;
+  \Big(
+  \big(
+    \mathscr{V}_J \oplus \mathscr{V}_{-J}
+  \big)
+  \otimes
+  \big(
+    \mathscr{V}_J \oplus \mathscr{V}_{-J}
+  \big)
+  \Big)^{\mathbb{Z}/2}
+$$
+it coincides with $g(-,-)$. 
+
+From this, the claim follows by Rem. \ref{HermitianFormsViaHermitianMetrics}.
+\end{proof}
 
 ***
 
