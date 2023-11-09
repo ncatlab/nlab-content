@@ -299,3 +299,5 @@ Other useful references include
 
 [[!redirects double negation monad]]
 [[!redirects double negation monads]]
+
+[[!redirects boolean truncation]]
