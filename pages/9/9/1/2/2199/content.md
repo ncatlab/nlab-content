@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -209,6 +223,8 @@ $$A + B \coloneqq \sum_{x:\mathbb{2}} \mathrm{typerec}_{\mathrm{Bool}}^{A, B}(x)
 ## Related concepts
 
 * [[decidable equality]]
+
+* [[type of propositions]]
 
 ## References
 
