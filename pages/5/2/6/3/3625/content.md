@@ -71,6 +71,8 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 
 * [[unitary fusion category]]
 
+* [[unitary functorial field theory]]
+
 ## References
 
 See also:
