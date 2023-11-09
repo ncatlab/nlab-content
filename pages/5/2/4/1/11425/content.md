@@ -111,6 +111,23 @@ such that:
 A [[homomorphism]] of such Real vector bundles is a homomorphism of the underlying complex vector bundles which respects all the involutions. 
 \end{definition}
 
+\begin{remark}
+  The complex numbers $\mathbb{C}$ equipped with their [[involution]] by [[complex conjugation]] under their usual multiplication operation form a [[monoid object]] [[internalization|internal]] to the category of $\mathbb{R}$-vector spaces equipped with $\mathbb{R}$-linear involution, the "[Real numbers](Hermitian+form#RealComplexNumbers)"
+\[
+  \label{RealComplexNumbers}
+  \mathbb{Z}_2 \curvearrowright \mathbb{C}
+  \;\;\;
+  \in
+  \;\;
+  Mon\big(
+    Func(\mathbf{B}\mathbb{Z}_2, Mod_{\mathbb{R}})
+  \big)
+  \,.
+\]
+The Real vector bundles of Def. \ref{AtiyahRealVectorBundle} are equivalently the vector bundles [[internalization|internal]] to the [[topos]] [[G-set|$\mathbb{Z}_2 Set$]] with the "[[ground ring|ground monoid]]" taken to be the Real numbers (eq:RealComplexNumbers).
+\end{remark}
+
+
 \begin{example}\label{RealVectorBundlesAsRealVectorBundles}
 **(real vector bundles as Real vector bundles)**
 \linebreak
@@ -126,27 +143,65 @@ $$
   V_x \otimes_{\mathbb{R}} \mathbb{C}
 $$  
 
-of a [[real vector space|$\mathbb{R}$-vector space]] and this decomposition is preserved by homomorphisms of Real vector bundles over such $X$.
+of a [[real vector space|$\mathbb{R}$-vector space]] and this decomposition is preserved by homomorphisms of Real vector bundles over such $X$, which are thus given by complexifications of morphisms of real vector bundles.
 
-Therefore Real vector bundles over a [[Real space]] $X$ whose [[involution]] is trivial are [[equivalence of categories|equivalent]] to plain real vector bundles over $X$ as [above](#PlainNotion).
-\end{example}
+Therefore the [[full subcategory]] of Real vector bundles over a [[Real space]] $X$ whose [[involution]] is trivial is [[equivalence of categories|equivalent]] to that of plain real vector bundles over $X$ as [above](#PlainNotion).
 (cf. [Atiyah 1966, p. 369](#Atiyah66))
 
-
-\begin{remark}
-  The complex numbers $\mathbb{C}$ equipped with their [[involution]] by [[complex conjugation]] under their usual multiplication operation form a [[monoid object]] [[internalization|internal]] to the category of $\mathbb{R}$-vector spaces equipped with $\mathbb{R}$-linear involution, the "[Real numbers](Hermitian+form#RealComplexNumbers)"
+In fact, more is true: the [[full subcategory]] of Real vector bundles on all objects whose base carries the trivial $\mathbb{Z}/2$-action is equivalent to the category [[VectBund]] of real vector bundles over varying base spaces
 \[
-  \label{RealComplexNumbers}
-  \mathbb{Z}_2 \curvearrowright \mathbb{C}
-  \;\;\;
-  \in
-  \;\;
-  Mon\big(
-    Func(\mathbf{B}\mathbb{Z}_2, Mod_{\mathbb{R}})
-  \big)
-  \,.
+  \label{RealVectorBundlesOverVaryingBaseSpaces}
+  \array{
+    \underset{X \in Top}{\textstyle{\int}}
+    \mathbb{R}Vect_X
+    &\xrightarrow{\; \sim \;}&
+    \underset{
+      (X,id) \in \mathbb{Z}/2 Top
+    }{\textstyle{\int}}
+    RealVect_X
+    \,.
+  }
 \]
-The Real vector bundles of Def. \ref{AtiyahRealVectorBundle} are equivalently the vector bundles [[internalization|internal]] to the [[topos]] [[G-set|$\mathbb{Z}_2 Set$]] with the "[[ground ring|ground monoid]]" taken to be the Real numbers (eq:RealComplexNumbers).
+\end{example}
+
+
+
+\begin{remark}\label{ComplexVectorBundlesAsRealBundles}
+  Similarly to (eq:RealVectorBundlesOverVaryingBaseSpaces), there is a [[subcategory]]-inclusion of [[complex vector bundles]] over varying base spaces into Real vector bundles over varying bases spaces with [[free action]]
+\[
+  \label{RealVectorBundlesOverVaryingBaseSpaces}
+  \array{
+    \underset{X \in Top}{\textstyle{\int}}
+    \mathbb{C}Vect_X
+    &\xrightarrow{\; \sim \;}&
+    \underset{
+      (\mathbb{Z}/2 \times X) \in \mathbb{Z}/2 Top
+    }{\textstyle{\int}}
+    RealVect_{\mathbb{Z}/2 \times X}
+    \\
+    E
+    &&
+    E & \overline{E}
+    \\
+    \big\downarrow
+    &\mapsto&
+    \big\downarrow
+    &
+    \big\downarrow
+    \\
+    X
+    &&
+    \{0\} \times X
+    &
+    \{1\} \times X
+    \,
+  }
+\]
+where $\overline{E}$ denotes the vector bundle with fiber-wise anti-linear structure. However, as is this is not a [[full functor]]: On the right, if a bundle morphism is nontrivial on the base labels $0 \leftrightarrow 1$, the over the remaining base space it corresponds to a fiberwise [[anti-linear map]].
+
+To make the above into an [[equivalence of categories]] one can equip the Real vector bundles moreover with involutions which square to -1 -- ie. [[complex structures]] [[internalization|internal]] to Real vector bundles! -- and require the maps to respect these further involutions. Then the functor which takes a "Real vector bundle with complex structure" over a free $\mathbb{Z}/2$-space to the $+\mathrm{i}$-[[eigenvalue]] bundle (of the internal complex structure), constitutes an equivalence with complex vector bundles.
+
+In this sense the term "Real vector bundle" is quite appropriate.
 \end{remark}
 
 
