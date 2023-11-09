@@ -27,7 +27,7 @@ $$
 
 is called "unitary" if it is a [[dagger functor]]. 
 
-(This is the "hermitian axtiom" of [Atiyah 1989](#Atiyah89).)
+(This is the "hermitian axiom" of [Atiyah 1989](#Atiyah89).)
 
 ## References
 
