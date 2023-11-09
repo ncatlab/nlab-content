@@ -1,17 +1,32 @@
 
 
+$$
+  f \,\colon\, \mathscr{V} \to \mathscr{W}
+  \,.
+$$
+
+$$
+  f^\dagger {\vert w \rangle}
+  \;\coloneqq\;
+  a^{-1}\big( {\langle w \vert} f\big)
+  \;=\;
+  a^{-1} \circ f^\ast \circ a {\vert w \rangle}
+$$
+
 \begin{example}
   Let $\mathscr{V}$ be a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with *both*
 
-1. a non-degenerate [[sesquilinear form|sesquilinear]] ([[Hermitian form|Hermitian]]) [[inner product]]
+1. a non-degenerate [[sesquilinear form|sesquilinear]] ([[Hermitian form|Hermitian]]) [[inner product]] ${\langle - \vert - \rangle}$,
 
-1. a non-degenerate symmetric [[bilinear form|bilinear]] [[inner product]] $(-\vert-)$
+1. a non-degenerate symmetric [[bilinear form|bilinear]] [[inner product]] ${(-\vert-)}$
 
 such that 
 
-* the Hermitian-[[adjoint operator|adjoint]] $(-\vert-)^\dagger$ of the bilinear pairing is the [[coevaluation map]] that exhibits $\mathscr{V}$ as a [[self-dual object]],
+* the Hermitian-[[adjoint operator|adjoint]] ${(-\vert-)}^\dagger$ of the bilinear pairing is the [[coevaluation map]] that exhibits $\mathscr{V}$ as a [[self-dual object]],
 
-then this induces a [[real structure]] on $\mathscr{V}$. Moreover, for $\mathscr{W}$ another [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with a pair of such structure, then the linear maps
+then this induces a [[real structure]] on $\mathscr{V}$. 
+
+Moreover, for $\mathscr{W}$ another [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with a compatible pair of such structures, then the linear maps
 $$
   \mathscr{V}
   \longrightarrow
@@ -20,50 +35,138 @@ $$
 which preserve both structures also preserve that real structure, hence come from $\mathbb{R}$-[[linear maps]] of underlying [[real vector spaces]].
 \end{example}
 \begin{proof}
-Observe first that 
+To start with, we note some generalities:
 
-1. the non-degenerate sesquilinear form $\langle -\vert -\rangle$ is equivalently given by an [[antilinear map]]  
+1. the non-degenerate sesquilinear form ${\langle -\vert -\rangle}$ is equivalently given by an [[antilinear map]]  
 $a \colon \mathscr{V} \to \mathscr{V}^\ast$ to the [[dual linear space]], via 
 
    $$ 
-     \langle - \vert -\rangle = a(-)(-) 
+     {\langle - \vert -\rangle} 
+       \,=\, 
+     a(-)(-) 
    $$
 
-1. the non-degenerate bilinear form $(- \vert -)$ is equivalently given by a complex [[linear map]] $l \,\colon\, \mathscr{V} \to \mathscr{V}^\ast$, via
+1. the non-degenerate bilinear form ${(- \vert -)}$ is equivalently given by a complex [[linear map]] $l \,\colon\, \mathscr{V} \to \mathscr{V}^\ast$, via
 
    $$
-     (- \vert -) \,=\, l(-)(-)
+     {(- \vert -)} 
+       \,=\, 
+     l(-)(-)
    $$
 
 (where the second argument means [[evaluation]]).
 
-Hence the composite
+In [[bra-ket notation]] this is suggestively written as:
 
 $$
-  l^{-1}\circ a
-  \,\colon\,
+  {( v \vert} \;\;\coloneqq\;\; l {\vert v )} 
+  \,\;\;\;\;\;
+  {\langle w \vert} \;\;\coloneqq\;\; a {\vert w \rangle} 
+  \,.
+$$
+
+In particular, if $\big\{ {\vert w \rangle} \big\}_{w \in W}$ is any [[orthonormal basis]] of $\mathscr{V}$ with respect to $\langle - \vert - \rangle$, then the [[coevaluation map]] which exhibits $\mathscr{V}^\ast \,\coloneqq\, Map_{\mathbb{C}}(\mathscr{V}, \mathbb{C})$ as the [[linear dual space]] to $\mathscr{V}$ may be written as
+
+\begin{tikzcd}[row sep=-1pt]
+  & 
+  \mathcal{V}^\ast
+  \\
+  \mathbb{C}
+  \ar[r, "{ \mathrm{coev} }"]
+  &
+  \otimes
+  \\
+  & \mathcal{V}
+  \\[3pt]
+  1 
+   \ar[r, phantom, "{\mapsto}"]
+  &
+  \underset{w \in W}{\sum}
+  \vert w \rangle \langle w \vert
+\end{tikzcd}
+and hence equivalently as
+\begin{tikzcd}[row sep=-1pt]
+  & 
+  \mathcal{V}
+  \ar[r, "{ a }"]
+  &
+  \mathcal{V}^\ast
+  \\
+  \mathbb{C}
+  \ar[r, "{ \mathrm{coev} }"]
+  &
+  \otimes
+  \\
+  & 
+  \mathcal{V}^\ast
+  \ar[r, "{ a^{-1} }"]
+  &
+  \mathcal{V}
+  \mathrlap{\,,}
+\end{tikzcd}  
+which we use at the very end below.
+
+
+Now regarding the concrete proof:
+
+The composite
+
+$$
+  \tau
+  \;\coloneqq\;
+  a^{-1} \circ l
+  \;\colon\;
   \mathscr{V} \to \mathscr{V}
   \,,
 $$
 
-is an [[antilinear map|antilinear]] [[endomorphism]] of $\mathscr{V}$, and it will be sufficient to show that this is an [[involution]], for which in turn it is clearly sufficient that
+is an [[antilinear map|antilinear]] [[endomorphism]] of $\mathscr{V}$, hence it will be sufficient to show that it is an [[involution]] (and hence the sought-after real structure). For that, in turn, it is clearly sufficient that
 
 \[
-  a \circ l^{-1}
+  \label{InterchangeOfBiAndSesquilinearForms}
+  a^{-1} \circ l
   \,=\,
-  l \circ a^{-1}
+  l^{-1} \circ a
+  \,.
 \]
 
-We conclude by showing that this condition is equivalent to the assumption that $(-\vert-)^\dagger$ is the coevaluation map.
+because then
+
+$$
+  \tau \circ \tau
+  \;=\;
+  \big(
+    a^{-1} \circ l
+  \big)
+  \circ
+  \big(
+    a^{-1} \circ l
+  \big)
+  \;=\;
+    a^{-1} \circ l
+  \circ
+    l^{-1} \circ a
+  \;=\;
+  id_{\mathscr{V}}
+  \,.
+$$
+
+We now show that this condition (eq:InterchangeOfBiAndSesquilinearForms) is equivalent to the assumption that $(-\vert-)^\dagger$ is the coevaluation map.
+
+Namely, with 
 
 \begin{tikzcd}[
   row sep=-1pt
 ]
+  &[-5pt]
   \mathcal{V}
   \ar[r, equals]
   &
   \mathcal{V}
   \\
+  (-\vert-)
+  \;:\;
+  &
   \otimes
   &
   \otimes
@@ -71,6 +174,7 @@ We conclude by showing that this condition is equivalent to the assumption that 
   & 
   \mathbb{C}
   \\
+  &
   \mathcal{V}
   \ar[
     r,
@@ -80,6 +184,150 @@ We conclude by showing that this condition is equivalent to the assumption that 
   \mathcal{V}^\ast
 \end{tikzcd}
 
+we have
+
+\begin{tikzcd}[
+  row sep=-1pt
+]
+  && \mathcal{V}^\ast
+  \ar[rrr, "{ a^{-1} }"]
+  &&& 
+  \mathcal{V}
+  \\
+  & 
+  \mathbb{C}
+  \ar[
+    r, 
+    "{ \mathrm{coev} }"
+  ]
+  & 
+  \otimes
+  \\
+  &
+  &
+  \mathcal{V}
+  \ar[r, equals]
+  &
+  \mathcal{V}
+  \\
+  (-\vert-)^\dagger
+  \;:\;
+  &
+  \otimes
+  &
+  \otimes
+  &
+  \otimes
+  \ar[r, "{ \mathrm{ev} }"]
+  & 
+  \mathbb{C}
+  \\
+  &
+  &
+  \mathcal{V}
+  \ar[
+    r,
+    "{ l }"{description}
+  ]
+  &
+  \mathcal{V}^\ast
+  \\
+  &
+  \mathbb{C}
+  \ar[
+    r,
+    "{ \mathrm{coev} }"
+  ]
+  &
+  \otimes
+  \\
+  &&
+  \mathcal{V}^\ast
+  \ar[rrr, "{ a^{-1} }"]
+  &&& 
+  \mathcal{V}
+  \mathrlap{\,,}
+\end{tikzcd}
+
+which by the [[zig-zag identity]] for $ev$ & $coev$ equals
+
+\begin{tikzcd}[
+  row sep=-1pt
+]
+  & 
+  &
+  \mathcal{V}
+  \ar[r, "{ l }"]
+  &
+  \mathcal{V}^\ast
+  \ar[r, "{ a^{-1} }"]
+  &
+  \mathcal{V}
+  \\
+  (-\vert-)^\dagger
+  \;:
+  &
+  \mathbb{C}
+  \ar[r, "{ \mathrm{coev} }"]
+  &
+  \otimes
+  &&
+  \otimes
+  \\
+  &&
+  \mathcal{V}^\ast
+  \ar[rr, "{ a^{-1} }"]
+  &&
+  \mathcal{V}
+  \mathrlap{\,.}
+\end{tikzcd}
+
+On the other hand, the coevaluation which exhibits $(-\vert-)$ as a [[self-dual object|self-duality]] is clearly
+
+\begin{tikzcd}[row sep=-1pt]
+  & \mathcal{V}^\ast 
+  \ar[r, "{ l^{-1} }"]
+  & 
+  \mathcal{V}
+  \\
+  \mathbb{C} 
+  \ar[r, "{ \mathrm{coev} }"]
+  &
+  \otimes
+  \\
+  &
+  \mathcal{V} 
+  \ar[r, equals]
+  & 
+  \mathcal{V}
+\end{tikzcd}
+
+which by the above discussion equals
+
+\begin{tikzcd}[row sep=-1pt]
+  & 
+  \mathcal{V}
+  \ar[r, "{ a }"]
+  &
+  \mathcal{V}^\ast 
+  \ar[r, "{ l^{-1} }"]
+  & 
+  \mathcal{V}
+  \\
+  \mathbb{C} 
+  \ar[r, "{ \mathrm{coev} }"]
+  &
+  \otimes
+  \\
+  & 
+  \mathcal{V}^\ast
+  \ar[rr, "{ a^{-1} }"]
+  &
+  & 
+  \mathcal{V}
+\end{tikzcd}
+
+This being equal to $(-\vert-)^\dagger$ above is clearly equivalent to (eq:InterchangeOfBiAndSesquilinearForms).
 \end{proof}
 
 
