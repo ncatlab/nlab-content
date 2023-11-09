@@ -123,7 +123,9 @@ $.
 
 * [[pointed object]]
 
-* [[two-valued object]]
+* [[boolean domain object]]
+
+* [[bi-pointed type]]
 
 [[!redirects bi-pointed object]]
 [[!redirects bi-pointed objects]]
