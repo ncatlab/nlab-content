@@ -1,615 +1,155 @@
 
+\begin{remark}
+**(Hermitian forms via real bilinear forms and complex structure)**
+\linebreak
+The decomposition of a Hermitian form into its [[real part]] and [[imaginary part]] is traditionally written with the symbols
 $$
-  \array{
-    \underset{X \in Top}{\textstyle{\int}}
-    \mathbb{R}Vect_X
-    &\longrightarrow&
-    \underset{
-      (X,id) \in \mathbb{Z}/2 Top
-    }{\textstyle{\int}}
-    RealVect_X
-  }
-$$
-
-
-$$
-  f \,\colon\, \mathscr{V} \to \mathscr{W}
-  \,.
-$$
-
-$$
-  f^\dagger {\vert w \rangle}
-  \;\coloneqq\;
-  a^{-1}\big( {\langle w \vert} f\big)
+  \langle-\vert-\rangle
   \;=\;
-  a^{-1} \circ f^\ast \circ a {\vert w \rangle}
+  g(-,-)
+  +
+  \mathrm{i} \omega(-,-)
 $$
-
-\begin{example}
-  Let $\mathscr{V}$ be a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with *both*
-
-1. a non-degenerate [[sesquilinear form|sesquilinear]] ([[Hermitian form|Hermitian]]) [[inner product]] ${\langle - \vert - \rangle}$,
-
-1. a non-degenerate symmetric [[bilinear form|bilinear]] [[inner product]] ${(-\vert-)}$
-
-such that 
-
-* the Hermitian-[[adjoint operator|adjoint]] ${(-\vert-)}^\dagger$ of the bilinear pairing is the [[coevaluation map]] that exhibits $\mathscr{V}$ as a [[self-dual object]],
-
-then this induces a [[real structure]] on $\mathscr{V}$. 
-
-Moreover, for $\mathscr{W}$ another [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] equipped with a compatible pair of such structures, then the linear maps
+or similar, where
 $$
-  \mathscr{V}
-  \longrightarrow
-  \mathscr{W}
-$$
-which preserve both structures also preserve that real structure, hence come from $\mathbb{R}$-[[linear maps]] of underlying [[real vector spaces]].
-\end{example}
-\begin{proof}
-To start with, we note some generalities:
-
-1. the non-degenerate sesquilinear form ${\langle -\vert -\rangle}$ is equivalently given by an [[antilinear map]]  
-$a \colon \mathscr{V} \to \mathscr{V}^\ast$ to the [[dual linear space]], via 
-
-   $$ 
-     {\langle - \vert -\rangle} 
-       \,=\, 
-     a(-)(-) 
-   $$
-
-1. the non-degenerate bilinear form ${(- \vert -)}$ is equivalently given by a complex [[linear map]] $l \,\colon\, \mathscr{V} \to \mathscr{V}^\ast$, via
-
-   $$
-     {(- \vert -)} 
-       \,=\, 
-     l(-)(-)
-   $$
-
-(where the second argument means [[evaluation]]).
-
-In [[bra-ket notation]] this is suggestively written as:
-
-$$
-  {( v \vert} \;\;\coloneqq\;\; l {\vert v )} 
-  \,\;\;\;\;\;
-  {\langle w \vert} \;\;\coloneqq\;\; a {\vert w \rangle} 
-  \,.
-$$
-
-In particular, if $\big\{ {\vert w \rangle} \big\}_{w \in W}$ is any [[orthonormal basis]] of $\mathscr{V}$ with respect to $\langle - \vert - \rangle$, then the [[coevaluation map]] which exhibits $\mathscr{V}^\ast \,\coloneqq\, Map_{\mathbb{C}}(\mathscr{V}, \mathbb{C})$ as the [[linear dual space]] to $\mathscr{V}$ may be written as
-
-\begin{tikzcd}[row sep=-1pt]
-  & 
-  \mathcal{V}^\ast
-  \\
-  \mathbb{C}
-  \ar[r, "{ \mathrm{coev} }"]
-  &
-  \otimes
-  \\
-  & \mathcal{V}
-  \\[3pt]
-  1 
-   \ar[r, phantom, "{\mapsto}"]
-  &
-  \underset{w \in W}{\sum}
-  \vert w \rangle \langle w \vert
-\end{tikzcd}
-and hence equivalently as
-\begin{tikzcd}[row sep=-1pt]
-  & 
-  \mathcal{V}
-  \ar[r, "{ a }"]
-  &
-  \mathcal{V}^\ast
-  \\
-  \mathbb{C}
-  \ar[r, "{ \mathrm{coev} }"]
-  &
-  \otimes
-  \\
-  & 
-  \mathcal{V}^\ast
-  \ar[r, "{ a^{-1} }"]
-  &
-  \mathcal{V}
-  \mathrlap{\,,}
-\end{tikzcd}  
-which we use at the very end below.
-
-
-Now regarding the concrete proof:
-
-The composite
-
-$$
-  \tau
+  g(-,-)
   \;\coloneqq\;
-  a^{-1} \circ l
-  \;\colon\;
-  \mathscr{V} \to \mathscr{V}
+  \Re \langle-\vert-\rangle
   \,,
 $$
-
-is an [[antilinear map|antilinear]] [[endomorphism]] of $\mathscr{V}$, hence it will be sufficient to show that it is an [[involution]] (and hence the sought-after real structure). For that, in turn, it is clearly sufficient that
-
-\[
-  \label{InterchangeOfBiAndSesquilinearForms}
-  a^{-1} \circ l
-  \,=\,
-  l^{-1} \circ a
-  \,.
-\]
-
-because then
-
 $$
-  \tau \circ \tau
-  \;=\;
-  \big(
-    a^{-1} \circ l
-  \big)
-  \circ
-  \big(
-    a^{-1} \circ l
-  \big)
-  \;=\;
-    a^{-1} \circ l
-  \circ
-    l^{-1} \circ a
-  \;=\;
-  id_{\mathscr{V}}
+  \omega(-,-)
+  \;\coloneqq\;
+  \Im \langle-\vert-\rangle
   \,.
 $$
+are real [[bilinear forms]] on the [[underlying]] [[real vector space]].
 
-We now show that this condition (eq:InterchangeOfBiAndSesquilinearForms) is equivalent to the assumption that $(-\vert-)^\dagger$ is the coevaluation map.
+In fact, the real part fully determines the imaginary part and hence the Hermitian form:
+$$
+  \begin{array}{l}
+    \omega(-,-)
+    & =
+    \Im \langle-\vert-\rangle
+    \\
+    & = 
+    \Re \big(-\mathrm{i} \langle-\vert-\rangle\big)
+    \\
+    & =
+    \Re \langle \mathrm{i} - \vert - \rangle
+    \\
+    & =
+    \Re \langle J(-) \vert - \rangle
+    \\
+    & =
+    g\big(J(-), -\big)
+    \,,
+  \end{array}
+$$
+where in the last line we introduced the [[complex structure]] $J$ on the [[underlying]] real vector space which promotes it back to the original complex vector space.
 
-Namely, with 
-
-\begin{tikzcd}[
-  row sep=-1pt
-]
-  &[-5pt]
-  \mathcal{V}
-  \ar[r, equals]
-  &
-  \mathcal{V}
-  \\
-  (-\vert-)
-  \;:\;
-  &
-  \otimes
-  &
-  \otimes
-  \ar[r, "{ \mathrm{ev} }"]
-  & 
-  \mathbb{C}
-  \\
-  &
-  \mathcal{V}
-  \ar[
-    r,
-    "{ l }"{description}
-  ]
-  &
-  \mathcal{V}^\ast
-\end{tikzcd}
-
-we have
-
-\begin{tikzcd}[
-  row sep=-1pt
-]
-  && \mathcal{V}^\ast
-  \ar[rrr, "{ a^{-1} }"]
-  &&& 
-  \mathcal{V}
-  \\
-  & 
-  \mathbb{C}
-  \ar[
-    r, 
-    "{ \mathrm{coev} }"
-  ]
-  & 
-  \otimes
-  \\
-  &
-  &
-  \mathcal{V}
-  \ar[r, equals]
-  &
-  \mathcal{V}
-  \\
-  (-\vert-)^\dagger
-  \;:\;
-  &
-  \otimes
-  &
-  \otimes
-  &
-  \otimes
-  \ar[r, "{ \mathrm{ev} }"]
-  & 
-  \mathbb{C}
-  \\
-  &
-  &
-  \mathcal{V}
-  \ar[
-    r,
-    "{ l }"{description}
-  ]
-  &
-  \mathcal{V}^\ast
-  \\
-  &
-  \mathbb{C}
-  \ar[
-    r,
-    "{ \mathrm{coev} }"
-  ]
-  &
-  \otimes
-  \\
-  &&
-  \mathcal{V}^\ast
-  \ar[rrr, "{ a^{-1} }"]
-  &&& 
-  \mathcal{V}
-  \mathrlap{\,,}
-\end{tikzcd}
-
-which by the [[zig-zag identity]] for $ev$ & $coev$ equals
-
-\begin{tikzcd}[
-  row sep=-1pt
-]
-  & 
-  &
-  \mathcal{V}
-  \ar[r, "{ l }"]
-  &
-  \mathcal{V}^\ast
-  \ar[r, "{ a^{-1} }"]
-  &
-  \mathcal{V}
-  \\
-  (-\vert-)^\dagger
-  \;:
-  &
-  \mathbb{C}
-  \ar[r, "{ \mathrm{coev} }"]
-  &
-  \otimes
-  &&
-  \otimes
-  \\
-  &&
-  \mathcal{V}^\ast
-  \ar[rr, "{ a^{-1} }"]
-  &&
-  \mathcal{V}
-  \mathrlap{\,.}
-\end{tikzcd}
-
-On the other hand, the coevaluation which exhibits $(-\vert-)$ as a [[self-dual object|self-duality]] is clearly
-
-\begin{tikzcd}[row sep=-1pt]
-  & \mathcal{V}^\ast 
-  \ar[r, "{ l^{-1} }"]
-  & 
-  \mathcal{V}
-  \\
-  \mathbb{C} 
-  \ar[r, "{ \mathrm{coev} }"]
-  &
-  \otimes
-  \\
-  &
-  \mathcal{V} 
-  \ar[r, equals]
-  & 
-  \mathcal{V}
-\end{tikzcd}
-
-which by the above discussion equals
-
-\begin{tikzcd}[row sep=-1pt]
-  & 
-  \mathcal{V}
-  \ar[r, "{ a }"]
-  &
-  \mathcal{V}^\ast 
-  \ar[r, "{ l^{-1} }"]
-  & 
-  \mathcal{V}
-  \\
-  \mathbb{C} 
-  \ar[r, "{ \mathrm{coev} }"]
-  &
-  \otimes
-  \\
-  & 
-  \mathcal{V}^\ast
-  \ar[rr, "{ a^{-1} }"]
-  &
-  & 
-  \mathcal{V}
-\end{tikzcd}
-
-This being equal to $(-\vert-)^\dagger$ above is clearly equivalent to (eq:InterchangeOfBiAndSesquilinearForms).
-\end{proof}
-
-
-[pdf](http://categorified.net/NYUADtalk.pdf)
-
-
-
+Notice that the complex structure $J$ is an [[orthogonal map]] with respect to the inner product $g$, in that
 
 $$
-  \array{
-    \phi^{-1}(c)
-    &\longrightarrow&
-    \phi/c
-  }
-$$
-
-
-\begin{tikzcd}[sep=20pt]
-  & 
-  \phi^{-1}(c)
-  \ar[rrrr, hook]
-  & && &
-  \phi/c
-  \\
-  x
-  \ar[
-    rr,
-    "{ f }"
-  ] 
-  && 
-  y
-  &&
-  x
-  \ar[
-    rr,
-    "{ f }"
-  ] 
-  && 
-  y
-  \\[-15pt]
-  \phi(x) 
-    \ar[rr, equals] 
-    \ar[dr, equals]
-    && 
-  \phi(y)
-  \ar[dl, equals]
-  &&
-  \phi(x) 
-    \ar[rr, "{ \phi(f) }"] 
-    \ar[dr, "{ p_x }"{swap}]
-    && 
-  \phi(y)
-  \ar[dl, "{ p_y }"]
-  \\
-  & c
-  & &&
-  & c
-\end{tikzcd}
-
-\begin{tikzcd}[
-  sep=20pt
-]
-  &
-  z
-  \ar[
-    drrr, 
-    bend left=20, 
-   "{ \forall \, g }"{description}
-  ]
-  \ar[
-    dr, 
-    dashed, 
-    "{ 
-       \exists! \, \widehat{w} 
-    }"{description}
-  ]
-  \\
-  \mathcal{E}
-  \ar[dd, "{ P }"]
-  &&
-  x 
-  \ar[
-     rr, 
-     "{ f }"{description},
-     "{ \mathrm{cartesian} }"{swap, yshift=-1pt}
-  ]  
-  && 
-  y
-  \\
-  & 
-  P(z)
-  \ar[drrr, bend left=20, "{ P(g) }"{description}]
-  \ar[
-    dr,
-    "{ \forall \, w }"{description}
-  ]
-  \\
-  \mathcal{B}
-  &&
-  P(x) 
-  \ar[rr, "{ P(f) }"{description}]
-  && 
-  P(y)
-\end{tikzcd}
-
-On the normalized chain complex of Ex. \ref{NormalizedChainsOnEZTwo}, the 
-[[group]] [[structure]] on $W \mathbb{Z}_2$ induces a [[simplicial ring]]-[[structure]], the "simplicial [[group ring]]") 
-$$
-  \mathbb{Z}\big[
-    W \mathbb{Z}_2
-  \big]
-  \;\;
-  \in
-  \;\;
-  Ring^{\Delta^{op}}
-  \,.
-$$
-
-Since the [[normalized chain complex]]-functor $N_\bullet \,\colon\, Ab^{\Delta^{op}} \to Ch_{\geq 0}$ is (see [here](monoidal+Dold-Kan+correspondence#ChainsIsLaxMonoidal)) a [[lax monoidal functor]] via the [[Eilenberg-Zilber map]], this induces on $N_\bullet\big( \mathbb{Z}[W \mathbb{Z}_2] \big)$ the [[structure]] of a [[dg-algebra]].
-
-To write this out, denote the two generators in each degree by
-$$
-  (0), (1)
-  \;\in\;
-  \mathbb{Z}_{0\cdots} 
-  \oplus
-  \mathbb{Z}_{1\cdots} 
-  \;=\;
-  N_n\big( \mathbb{Z}[W \mathbb{Z}_2] \big)
-  \,.
-$$
-The non-degenerate cells of the tensor product simplicial group are similarly labeled (via [this Prop.](product+of+simplices#NonDegenerateSimplicesInProductOfSimplices)) by 
-
-1. a pair of first elements of $n+1$-sequences in $\{0,1\}$ 
-
-1. an $(p, q)$-[[shuffle]], 
-
-hence:
-$$
-  \big(
-    (g, g'), sh
-  \big)
-  \;\in\;
-  \mathbb{Z}
-  \big[
-    \{0,1\}^2 
-      \times 
-    \sqcup_{p+q = n}  
-    Sh(p,q)
-  \big]
-  \;\simeq\;
-  N_{n}
-  \Big(
-    \mathbb{Z}\big[
-      W \mathbb{Z}_2
-      \times
-      W \mathbb{Z}_2
-    \big]
-  \Big)
-  \;\simeq\;
-  N_{n}
-  \Big(
-    \mathbb{Z}\big[
-      W \mathbb{Z}_2
-    \big]
-    \otimes
-    \mathbb{Z}\big[
-      W \mathbb{Z}_2
-    \big]
-  \Big)
-  \,.
-$$
-One immediately finds that on these generators the induced product map is just the group operation, independent of the shuffle:
-$$
-  \array{
-    N_\bullet
+  \begin{array}{l}
+    g\big(J(-), J(-)\big)
+    \\
+    \;=\;
+    \Re 
+    \big\langle 
+      \mathrm{i}(-) 
+    \big\vert 
+      \mathrm{i}(-) 
+    \big\rangle
+    \\
+    \;=\;
+    \Re 
     \big(
-      \mathbb{Z}[W \mathbb{Z}_2]
-      \otimes
-      \mathbb{Z}[W \mathbb{Z}_2]
-    \big)
-    &
-    \xrightarrow{
-      N_\bullet
-      \big( 
-        \mathbb{Z}[(\text{-})\cdot(\text{-})] 
-      \big)
-    }
-    &
-    N_\bullet
-    \big(
-      \mathbb{Z}[W \mathbb{Z}_2]
+      -\mathrm{i} \cdot \mathrm{i}
+      \langle - \vert - \rangle
     \big)
     \\
-    \big(
-      g, g', sh
-    \big)
-    &\mapsto&
-    (g \cdot g')
-    \mathrlap{\,.}
-  }
-$$
-Composed with the [[Eilenberg-Zilber map]] this gives
-$$
-  \array{
-    \big(
-      N_\bullet
-      \,
-      \mathbb{Z}[W \mathbb{Z}_2]
-    \big)
-    \otimes
-    \big(
-      N_\bullet
-      \,
-      \mathbb{Z}[W \mathbb{Z}_2]
-    \big)
-    &\xrightarrow{\phantom{----}}&
-    N_\bullet
-    \big(
-      \mathbb{Z}[W \mathbb{Z}_2]
-      \otimes
-      \mathbb{Z}[W \mathbb{Z}_2]
-    \big)
-    &
-    \xrightarrow{
-      N_\bullet
-      \big( 
-        \mathbb{Z}[(\text{-})\cdot(\text{-})] 
-      \big)
-    }
-    &
-    N_\bullet
-    \big(
-      \mathbb{Z}[W \mathbb{Z}_2]
-    \big)
+    \;=\;
+    \Re 
+      \langle - \vert - \rangle
     \\
-    (g)_p 
-      \otimes 
-    (g')_q
-    &\mapsto&
-    \displaystyle{
-      \underset{
-        \mathclap{ 
-          sh \in Sh(p,q) 
-        }
-      }{\sum}
-    }
-    \;
-    sgn(sh)
-    \,
-    \big(
-      g,g', sh
-    \big)
-    &\mapsto&
+    \;=\;
+    g(-,-)
+    \,.
+  \end{array}
+$$ 
+
+Conversely, for a real vector space equipped with a symmetric [[bilinear form]] $g$ and a [[complex structure]] $J$ which is orthogonal in that $g\big(J(-), J(-)\big) \,=\, g(-,-,)$, the formula
+$$
+  \langle-\vert-\rangle
+  \;=\;
+  g(-,-)
+  +
+  \mathrm{i} 
+  g\big(J(-), -\big)
+$$
+defines a Hermitian form on the corresponding complex vector space:
+
+The linearity in the second argument is clear. The [[anti-linear map|antilinearity]] in the first argument follows by:
+$$
+  \begin{array}{l}
+    g(\mathrm{i}-,-)
+    +
+    \mathrm{i} 
+    g\big(J(\mathrm{i}-), -\big)
+    \\
+    \;=\;
+    g\big(J(-),-\big)
+    +
+    \mathrm{i} 
+    g\big(J\circ J (-), - \big)
+    \\
+    \;=\;
+    g\big(J(-),-\big)
+    -
+    \mathrm{i} 
+    g\big(-, - \big)
+    \\
+    \;=\;
+    -\mathrm{i}
     \Big(
-      \displaystyle{
-        \underset{
-          \mathclap{
-            sh \in Sh(p,q)
-           }
-        }{\sum}
-      }
-      \;
-     sgn(sh)
-   \Big)
-   \,
-   (g \cdot g')_{p + q}
-   \mathrlap{\,.}
-  }
+      g(-,-)
+      +
+      \mathrm{i} g\big( J(-), - \big)
+    \Big)
+    \,.
+  \end{array}
 $$
+and Hermiticity follows by:
+$$
+  \begin{array}{l}
+    g(w,v) 
+      + 
+    \mathrm{i}
+    g\big( J(w), v \big)
+    \\
+    \;=\;
+    g(w,v) 
+      + 
+    \mathrm{i}
+    g\big( J \circ J(w), J(v) \big)
+    \\
+    \;=\;
+    g(w,v) 
+      - 
+    \mathrm{i}
+    g\big( w, J(v) \big)
+    \\
+    \;=\;
+    g(v,w) 
+      - 
+    \mathrm{i}
+    g\big( J(v),  w\big)
+    \,.
+  \end{array}
+$$
+\end{remark}
+
 
 
 ***
