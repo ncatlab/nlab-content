@@ -84,4 +84,10 @@ Generalization for [[AQFT on curved spacetime]] is in
 
 Discussion relating the spin-statistics theorem to [[extended topological field theory]], [[categorification]] (via [[2-rings]]) and [[Deligne's theorem on tensor categories]] is in 
 
-* {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology ([arXiv:1507.06297](https://arxiv.org/abs/1507.06297))
+* {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology &lbrack;[arXiv:1507.06297](https://arxiv.org/abs/1507.06297)&rbrack;
+
+and via [[hermitian functorial field theory]]:
+
+* [[Luuk Stehouwer]], [[Jan Steinebrunner]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
+
+
