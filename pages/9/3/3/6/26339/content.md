@@ -44,7 +44,10 @@ Further discussion:
 
 * Honglin Zhu, *The Hermitian axiom on two-dimensional topological quantum field theories*, J. Math. Phys. **64**  (2023) 022301 &lbrack;[arXiv:2206.07193](https://arxiv.org/abs/2206.07193), [doi:10.1063/5.0121440](https://doi.org/10.1063/5.0121440)&rbrack;
 
+
 On generalization to [[extended functorial field theory]] via [[higher dagger categories]]:
+
+* [[Luuk Stehouwer]], [[Jan Steinebrunner]], _Reflection Structures and Spin Statistics in Low Dimensions_, [arXiv](https://arxiv.org/abs/2301.06664).
 
 * [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]]&rbrack;
 
