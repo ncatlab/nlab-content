@@ -19,9 +19,11 @@
 
   * [[On the Classification of Topological Field Theories|classification of TQFTs]]
 
-* [[FQFT]]
+* [[functorial field theory]]
 
-  * [[extended topological quantum field theory|extended TQFT]]
+  * [[unitary functorial field theory]]
+
+  * [[extended functorial field theory]]
 
   * [[conformal field theory|CFT]]
 
@@ -29,7 +31,7 @@
 
   * [[TQFT]]
 
-    * [[Reshetikhin?Turaev model]] / [[Chern-Simons theory]]
+    * [[Reshetikhin-Turaev model]] / [[Chern-Simons theory]]
 
     * [[HQFT]]
 
@@ -55,4 +57,3 @@
 
   * [[quantization via the A-model]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/functorial+quantum+field+theory+-+contents)</div>
