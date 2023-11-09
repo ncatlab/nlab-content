@@ -1,4 +1,16 @@
 
+$$
+  \array{
+    \underset{X \in Top}{\textstyle{\int}}
+    \mathbb{R}Vect_X
+    &\longrightarrow&
+    \underset{
+      (X,id) \in \mathbb{Z}/2 Top
+    }{\textstyle{\int}}
+    RealVect_X
+  }
+$$
+
 
 $$
   f \,\colon\, \mathscr{V} \to \mathscr{W}
