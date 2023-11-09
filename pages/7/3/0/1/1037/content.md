@@ -27,7 +27,7 @@ This entry collects links related to the book
 
   ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
-which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack]]s) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos]]es -- in particular;
+which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack | ∞-stacks]]) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos | (∞,1)-toposes]] -- in particular;
 
 following an earlier sketch in
 
@@ -82,11 +82,11 @@ If you need to see applications see for instance
 
 Recall the following familiar 1-categorical statement:
 
-* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] is the same as  doing [[set theory]]. The point of [[Categories and Sheaves|categories and sheaves]] is to pass to _parameterized_ [[0-category|0-categories]], namely [[presheaf]] categories: these [[topos|topoi]] behave much like the category [[Set]] but their objects are generalized [[space and quantity|spaces]] that may carry more structure, for instance they may be [[generalized smooth space]]s if one considers (pre)[[sheaf|sheaves]] on [[Diff]].
+* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] is the same as  doing [[set theory]]. The point of [[Categories and Sheaves|categories and sheaves]] is to pass to _parameterized_ [[0-category|0-categories]], namely [[presheaf]] categories: these [[topos|topoi]] behave much like the category [[Set]] but their objects are generalized [[space and quantity|spaces]] that may carry more structure, for instance they may be [[generalized smooth space | generalized smooth spaces]] if one considers (pre)[[sheaf|sheaves]] on [[Diff]].
 
 One can think of Lurie's book as a comprehensive study of the generalization of the above statement  from $1$ to $(\infty,1)$  (recall the notion of [[(n,r)-category]]):
 
-* Working in the $(\infty,1)$-[[category]] [[∞Grpd]] of [[infinity-groupoid|(∞,0)-categories]] is the same as  doing [[topology]]. The point of  [[∞-stacks]] is to pass to _parameterized_ [[infinity-groupoid|(∞,0)-categories]], namely [[(∞,1)-presheaf]] categories: these [[(infinity,1)-topos|(∞,1)-topoi]] behave much like the $(\infty,1)$category [[∞Grpd]] but their objects are generalized [[space and quantity|spaces]] with higher [[homotopy|homotopies]] that may carry more structure, for instance they may be $\infty$-[[differentiable stack]]s if one considers [[∞-stacks]] on [[Diff]].
+* Working in the $(\infty,1)$-[[category]] [[∞Grpd]] of [[infinity-groupoid|(∞,0)-categories]] is the same as  doing [[topology]]. The point of  [[∞-stacks]] is to pass to _parameterized_ [[infinity-groupoid|(∞,0)-categories]], namely [[(∞,1)-presheaf]] categories: these [[(infinity,1)-topos|(∞,1)-topoi]] behave much like the $(\infty,1)$category [[∞Grpd]] but their objects are generalized [[space and quantity|spaces]] with higher [[homotopy|homotopies]] that may carry more structure, for instance they may be $\infty$-[[differentiable stack | differentiable stack]] if one considers [[∞-stacks]] on [[Diff]].
 
 ## First part, sections 1-4
 
