@@ -102,6 +102,7 @@ $$
   \;\;\;\;
   \simeq
   \;\;\;\;
+  \;\;\;\;
   \array{
     \ast &\stackrel{X \coloneqq \Phi(\ast)}{\to}& \ast
     \\
