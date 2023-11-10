@@ -20,7 +20,7 @@
 
 ## Definition
 
-An _$E_\infty$-space_ is an [[commutative ∞-monoid]] in [[Top]].
+An _$E_\infty$-space_ is a [[commutative ∞-monoid]] in [[Top]].
 
 ## Properties
 
