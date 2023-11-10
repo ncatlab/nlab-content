@@ -18,15 +18,16 @@
 
 ## Definition
 
-A functor is **multirepresentable** if it is a coproduct of [[representable functors]].
+A [[functor]] is **multirepresentable** if it is a [[coproduct]] of [[representable functors]].
 
 ## Properties
 
-A functor is multirepresentable if and only if each connected component of its [[category of elements]] has an [[initial object]].
+A functor is multirepresentable if and only if each [[connected component]] of its [[category of elements]] has an [[initial object]].
 
 ## Related pages
 
 * [[representable functor]]
+
 * [[multiadjoint]]
 
 ## References
