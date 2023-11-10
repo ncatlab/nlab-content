@@ -74,6 +74,8 @@ On [[derived differential geometry]] and [[higher Lie theory]] cast in ([[differ
 
 On [[non-perturbative quantum field theory|non-perturbative]] [[BV-BRST formalism]] with an eye towards [[M-theory]]:
 
+* _Classical non-perturbative BV-theory via derived differential geometry and the puzzle of quantisation_, seminar talk at Quantum Maths Seminar series at the University of Nottingham, Nottingham, 8th November 2023
+
 * [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
 
 * _Classical BV-BFV theory as derived $n$-plectic geometry_, seminar talk at [Monthly Global Diffeology Seminar series](https://diffeology.net/index.php/seminar), 2nd December 2022
