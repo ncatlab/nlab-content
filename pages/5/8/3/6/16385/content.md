@@ -268,7 +268,7 @@ $$
 =--
 
 
-### As Real complex modules
+### As Real modules
  {#AsRealComplexModules}
 
 While a non-degenerate [[inner product]] $(-\vert-)$ on a [[finite-dimensional vector space|finite-dimensional]] [[real vector space]] $V$ is equivalently a [[linear isomorphism]] to its [[dual vector space]]
@@ -410,7 +410,107 @@ By direct unwinding of the definitions, one finds that the module property enfor
 Moreover, to see that the [[tensor products]] agree one can argue that the relevant [[coequalizers]] (see [here](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfModulesOverCommutativeMonoidObject)) in $Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}}$ are [[colimits]] in a [[category of presheaves]] which [[limits of presheaves are computed objectwise|are computed objectwise]] --- hence here over the single object of $\mathbf{B}\mathbb{Z}_2$, where they agree with the usual [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[complex vector spaces]]. 
 \end{proof}
 
-The following construction is essentially what is known as the *[[hyperbolic functor]]* with $\mathbb{Z}/2$-equivariance, establishing an equivalence between [[KR-theory]] and [[topological Hermitian K-theory]] (see the references [there](#ReferencesTopologicalHermitianKTheory)):
+The following construction is closely related to what is known as the *[[hyperbolic functor]]* with $\mathbb{Z}/2$-equivariance, establishing an equivalence between [[KR-theory]] and [[topological Hermitian K-theory]] (see the references [there](#ReferencesTopologicalHermitianKTheory)):
+
+
+\linebreak
+
+Recall the [[equivalence of categories]] between [[real vector spaces]] and [Real vector bundles](real+vector+bundle#InKRTheory) over the point, given by [[complexification]] equipped with the [[involution]] by [[complex conjugation]]:
+
+
+\linebreak
+
+\linebreak
+
+\[\label{RModulesAsRealBundlesViaComplexification}\]
+\begin{imagefromfile}
+    "file_name": "RModulesAsRealBundles-231110.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -75,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\begin{proposition}\label{HermitianFormsAreRealInnerProducts}
+**(Hermitian forms are Real inner products)**
+\linebreak
+  Under the equivalence (eq:RModulesAsRealBundlesViaComplexification), a [[real vector space|real]] [[inner product space]] $\mathscr{V} \,\in\, Mod_{\mathbb{R}}$, $g \,\colon\, \mathscr{V} \otimes_{{}_{\mathbb{R}}} \mathscr{V} \to \mathbb{R}$  equipped with an [[isometry|isometric]] [[complex structure]] $J \,\colon\, \mathscr{V} \to \mathscr{V}$, $g\big(J(-), J(-)\big) = g(-,-)$ is sent to corresponding [[Hermitian form]] $\langle -\vert-\rangle \,\equiv\, g(-,-) + \mathrm{i}g\big(J(-),-\big)$, as follows:
+
+\linebreak
+
+\linebreak
+
+\[\label{RealInnerProductsAsHermitianForms}\]
+\begin{imagefromfile}
+    "file_name": "RealInnerProductsAsHermitianForms-231110b.jpg",
+    "width": 530,
+    "unit": "px",
+    "margin": {
+        "top": -75,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\end{proposition}
+Here $\mathscr{V}_{\pm J}$ denotes the complex vector space whose underlying real vector space is $\mathscr{V}$ and with complex structure $\pm J$.
+\begin{proof}
+On the right we used this $\mathbb{C}$-linear isomorphism from the plain complexification in (eq:RModulesAsRealBundlesViaComplexification):
+
+\begin{imagefromfile}
+    "file_name": "ComplexificationOfComplexStructure-231110.jpg",
+    "width": 510,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+which serves to bring out the [[eigenspaces]] of $J \otimes_{{}_\mathbb{R}} \mathbb{C}$:
+
+\linebreak
+
+\linebreak
+
+\[\label{ComplexifiedComplexStructure}\]
+\begin{imagefromfile}
+    "file_name": "ComplexifiedComplexStructure-231110.jpg",
+    "width": 320,
+    "unit": "px",
+    "margin": {
+        "top": -75,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+With this, the isometry condition $g \circ (J \otimes J) = g$  --- which means that $g$ factors through the $(+1)$-eigenspace of $J \!\otimes_{{}_\mathbb{R}}\! J$ --- implies by functoriality of the equivalence (eq:RModulesAsRealBundlesViaComplexification) that the pairing on the right of (eq:RealInnerProductsAsHermitianForms) factors through the $(+1)$-eigenspace of $\mathrm{I} \otimes \mathrm{I}$ (eq:ComplexifiedComplexStructure), which already makes it a Hermitian form on $\mathscr{V}_{+J}$, as shown on the right of (eq:RealInnerProductsAsHermitianForms).
+Explicit computation shows that this is indeed the one given by the traditional formula:
+
+\begin{imagefromfile}
+    "file_name": "RealInnerProductProducesTradFormula-231110.jpg",
+    "width": 880,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\end{proof}
+
+
 
 \begin{example}\label{HermtianSpacesAsRealComplexModules}
 **(Complex Hermitian spaces as Euclidean Real complex modules)**
