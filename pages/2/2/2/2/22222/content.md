@@ -163,6 +163,9 @@ The forgetful functor from the category of commutative [[local rings]] and local
 The notion of a multiadjoint functor is used to define the [[Diers spectrum]].
 See there for more details.
 
+## Related pages
+
+* [[multirepresentable functor]]
 
 ## References
 
