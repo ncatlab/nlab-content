@@ -94,13 +94,13 @@ A fairly comprehensive survey and discussion of supersymmetric quantum mechanics
 
 * {#FGR96} [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory and (non-commutative) differential geometry_, Commun.Math.Phys. 193 (1998) 527-594 ([arXiv:hep-th/9612205](http://arxiv.org/abs/hep-th/9612205))
 
-and with more emphasis on the relation to the [[superstring]] ([[2-spectral triples]]) in section 7 of:
+and with more emphasis on the relation to the [[superstring]] ([[2-spectral triples]]):
 
-* {#FGR97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
+* {#FGR97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], section 7 of: _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
 
 Another survey is
 
-* Fred Cooper, Avinash Khare, Uday Sukhatme, _Supersymmetry and Quantum Mechanics_ Physics Reports Volume 251 (1995), 267-385. ([arXiv:hep-th/9405029](http://arxiv.org/abs/hep-th/9405029))
+* Fred Cooper, Avinash Khare, Uday Sukhatme, _Supersymmetry and Quantum Mechanics_, Physics Reports **251** (1995) 267-385 &lbrack;[arXiv:hep-th/9405029](http://arxiv.org/abs/hep-th/9405029)&rbrack;
 
 
 On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] ([[integration over supermanifolds]], [[picture changing operators]]):
