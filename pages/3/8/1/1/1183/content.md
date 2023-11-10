@@ -283,7 +283,9 @@ Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on sta
 
 * {#Witten08} [[Edward Witten]], section 6 of _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_, in Oscar Garcia-Prada, Jean Pierre Bourguignon, and Simon Salamon, _The many faces of geoemtry: A tribute to Nigel Hitchin_, Oxford Scholarship Online ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
 
+See also:
 
+* Rafał R. Suszek. *Towards higher super-$\sigma$-model categories*. (2023). ([arXiv:2311.01768](https://arxiv.org/abs/2311.01768)).
 
 [[!redirects sigma-models]]
 [[!redirects sigma model]]
