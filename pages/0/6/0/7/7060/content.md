@@ -130,6 +130,12 @@ For Russell types of all propositions, the type $\prod_{P:\mathrm{Prop}} P$ is t
 
 In either case, the definition implies that if the empty type has an element, then every proposition has an element and is thus contractible. This implies that the empty type represents falsehood $\bot$ in the type of all propositions. 
 
+### The type of pointed propositions and truth
+
+The type of pointed propositions $\mathrm{Prop}_*$ is given by the type $\sum_{P:\mathrm{Prop}} P$ for Russell types of propositions and $\sum_{P:\mathrm{Prop}} \mathrm{El}(P)$ for Tarski types of propositions, and because pointed propositions are contractible types, pointed propositions are equivalent to each other, and thus by the extensionality principle of $\mathrm{Prop}$, they are equal to each other; thus, the type of pointed propositions is a proposition. 
+
+Because $\mathrm{Prop}_*$ is itself a proposition, $\mathrm{Prop}_*$ is an element of itself, and thus a pointed proposition and a contractible type. This implies that the type of pointed propositions represents [[truth]] $\top$ in the type of all propositions. 
+
 ### Propositional truncations
 
 Given the type of all propositions $\mathrm{Prop}$ and given a type $A$, the [[propositional truncation]] of a type $A$, which turns $A$ into an element of $\mathrm{Prop}$, is given for Russell types of all propositions by the type 
@@ -157,10 +163,6 @@ Given any proposition $Q$ and $P$, by [[weak function extensionality]], the [[fu
 More generally, given any type $A$ and $B$, implication is given by [[propositional truncation]] of the [[function type]]:
 
 $$A \implies B \equiv \left[A \to B\right]$$
-
-### Contractible types and truth
-
-Given any proposition $P$, by [[weak function extensionality]], the [[function type]] $P \to P$ is also a [[proposition]]. Since the function type $P \to P$ has an element, given by [[generalized the|the]] [[identity function]] $\mathrm{id}_P \equiv \lambda x:P.x$, $P \to P$ is a [[contractible type]] for any $P:\mathrm{Prop}$, which means that it represents the concept of [[truth]] $\top$. As shown above, $\emptyset \equiv \prod_{P:\mathrm{Prop}} P$ or $\emptyset \equiv \prod_{P:\mathrm{Prop}} \mathrm{El}(P)$ is the empty proposition, so it suffices to define $\top \equiv \emptyset \to \emptyset$. 
 
 ### Biconditionals 
 
