@@ -6,6 +6,9 @@
 
 On [[(∞,1)-category theory]] and [[homotopical algebra]]:
 
+* [[Denis-Charles Cisinski]], *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
+
+
 * [[Denis-Charles Cisinski]], _Les préfaisceaux comme modèles des types d'homotopie_, Astérisque 308, 2006 ([doi:10.24033/ast.715](https://smf.emath.fr/publications/les-prefaisceaux-comme-modeles-des-types-dhomotopie), [NUMDAM](http://www.numdam.org/item/AST_2006__308__R1_0/))
 
 * [[Denis-Charles Cisinski]], _[[Higher categories and homotopical algebra]]_, Cambridge University Press, 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf))
