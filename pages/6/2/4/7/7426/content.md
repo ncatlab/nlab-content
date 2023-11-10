@@ -1,5 +1,4 @@
 
-# Atomic Boolean algebras
 * table of contents
 {: toc}
 
