@@ -1,19 +1,34 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # The locale of real numbers
 * table of contents
 {: toc}
 
 ## Summary
 
-This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the Heine--Borel theorem).
+This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the [[Heine-Borel theorem]]).
 
-The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the Zigzag Lemma \ref{zigzaglemma} is mine as far as I know (but it\'s not very deep, just bookkeeping).
+The exposition here is pretty much [[Toby Bartels]]'s own work, although of course the basic ideas are well known to many.  In particular, the Zigzag Lemma \ref{zigzaglemma} is Bartels's as far as he knows (but it\'s not very deep, just bookkeeping).
 
 
 ## Idea
 {#idea}
 
-To describe the locale of the real numbers, we need first of all to describe what an open in the real line is.  The key insight is that an open set is determined by the open intervals of [[rational numbers]] that it contains.  This is analogous to the key insight of [[Richard Dedekind]]\'s definition of [[real number]]: that a point in the real line is determined by which open intervals of rational numbers that it belongs to.  (Once you\'re talking about rational numbers, things are manageable.)
+To describe the locale of the real numbers, we need first of all to describe what an [[open subset]] in the real line is.  The key insight is that an open subset is determined by the [[open intervals]] of [[rational numbers]] that it contains.  This is analogous to the key insight of [Dedekind's definition](real+number#Dedekind) of [[real number]]: that a point in the real line is determined by which open intervals of [[rational numbers]] that it belongs to.  (Once one is talking about rational numbers, things are manageable.)
 
 
 ## Opens
@@ -21,21 +36,27 @@ To describe the locale of the real numbers, we need first of all to describe wha
 An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational numbers]] that satisfies the four properties listed below.  Intuitively, we have $a \sim b$ iff the open [[interval]] $(a,b)$ is contained in the corresponding [[open subspace|open set]].
 
 1. If $a \geq b$, then $a \sim b$.
+
 2. If $a \geq b \sim c \geq d$, then $a \sim d$.
+
 3. If $a \sim b \gt c \sim d$, then $a \sim d$.
+
 4. If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-In practice, rather than using relation-like symbols for opens, we mimic the set-theoretic notation and terminology from point-set topology. 
+In practice, rather than using relation-like symbols for opens, we mimic the set-theoretic notation and terminology from [[point-set topology]]. 
 So if $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean that $a$ is related to $b$ through $G$ and say that $G$ __contains__ the interval from $a$ to $b$ and that this interval is __contained in__ $G$.
 
 In this notation, and writing $(a, b) \subseteq (c, d)$ for $c \leq a$ and $b \leq d$, and $(a, b) \Subset (c, d)$ for $c \lt a$ and $b \lt d$, these requirements say:
 
 1. If $a \geq b$, then $(a, b) \subseteq G$.
+
 2. If $(a, d) \subseteq (b, c)$ and $(b, c) \subseteq G$, then $(a, d) \subseteq G$.
+
 3. If $c \lt b$ and $(a, b), (c, d) \subseteq G$, then $(a, d) \subseteq G$.
+
 4. If $(b, c) \subseteq G$ for all $(b, c) \Subset (a, d)$, then $(a, d) \subseteq G$.
 
-Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$. Property (2) is motivated because inclusion is transitive. Property (3) is motivated because if $c \lt b$, then $(a, d) = (a, b) \cup (c, d)$. Property (4) is motivated because $\bigcup_{(b, c) \Subset (a, d)} (b, c) = (a, d)$.
+Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$. Property (2) is motivated because inclusion is [[transitive relation|transitive]]. Property (3) is motivated because if $c \lt b$, then $(a, d) = (a, b) \cup (c, d)$. Property (4) is motivated because $\bigcup_{(b, c) \Subset (a, d)} (b, c) = (a, d)$.
 
 The really interesting property is property (3). It in fact generalises as follows:
 
@@ -270,9 +291,9 @@ Significantly, since the [[field]] operations on the discrete locale of [[ration
 
 * [[Simon Henry]], *Localic Metric spaces and the localic Gelfand duality*, ([arXiv:1411.0898](https://arxiv.org/abs/1411.0898))
 
-The locale of real numbers as the [[classifying locale]] of the [[geometric theory]] of [[two-sided Dedekind cuts]] is described in section 2.2 of:
+The locale of real numbers as the [[classifying locale]] of the [[geometric theory]] of [[two-sided Dedekind cuts]]:
 
-* [[Ingo Blechschmidt]], *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
+* [[Ingo Blechschmidt]], section 2.2 of: *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
 
 An (impredicative) construction of the locale of real numbers can be found in section 5.3 of:
 
@@ -280,7 +301,7 @@ An (impredicative) construction of the locale of real numbers can be found in se
 
 On lifting functions from the [[Dedekind real numbers]] to the locale of real numbers, see:
 
-* Madeleine Birchfield, [[Simon Henry]], *The field structure on the locale of real numbers*, ([MathOverflow](https://mathoverflow.net/questions/434706/the-field-structure-on-the-locale-of-real-numbers))
+* [[Madeleine Birchfield]], [[Simon Henry]], *The field structure on the locale of real numbers* (2022) &lbrack;[MO:q/434706](https://mathoverflow.net/q/434706/381)&rbrack;
 
 * [[Valery Isaev]], [[Simon Henry]], *Localic maps given by series* ([MathOverflow](https://mathoverflow.net/q/426682/))
 
