@@ -20,15 +20,15 @@
 
 ## Summary
 
-This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the [[Heine-Borel theorem]]).
+This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the [[Heine–Borel theorem]]).
 
-The exposition here is pretty much [[Toby Bartels]]'s own work, although of course the basic ideas are well known to many.  In particular, the Zigzag Lemma \ref{zigzaglemma} is Bartels's as far as he knows (but it\'s not very deep, just bookkeeping).
+The exposition here is pretty much [[Toby Bartels]]\'s own work, although of course the basic ideas are well known to many.  In particular, the Zigzag Lemma \ref{zigzaglemma} is Bartels\'s as far as they know (but it\'s not very deep, just bookkeeping).  The version of [[Cousin's theorem|Cousin's Theorem]] that appears here may also be original.
 
 
 ## Idea
 {#idea}
 
-To describe the locale of the real numbers, we need first of all to describe what an [[open subset]] in the real line is.  The key insight is that an open subset is determined by the [[open intervals]] of [[rational numbers]] that it contains.  This is analogous to the key insight of [Dedekind's definition](real+number#Dedekind) of [[real number]]: that a point in the real line is determined by which open intervals of [[rational numbers]] that it belongs to.  (Once one is talking about rational numbers, things are manageable.)
+To describe the locale of the real numbers, we need first of all to describe what an _open_ (in the axiomatic sense, equivalent to an [[open sublocale]]) in the real line is.  The key insight is that an open subspace is determined by the [[open intervals]] of [[rational numbers]] that it contains.  This is analogous to the key insight of [[Richard Dedekind]]\'s [definition of real number](real+number#Dedekind): that a point in the real line is determined by which open intervals of [[rational numbers]] that it belongs to.  (Once one is talking about rational numbers, things are manageable.)
 
 
 ## Opens
@@ -43,8 +43,7 @@ An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational
 
 4. If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-In practice, rather than using relation-like symbols for opens, we mimic the set-theoretic notation and terminology from [[point-set topology]]. 
-So if $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean that $a$ is related to $b$ through $G$ and say that $G$ __contains__ the interval from $a$ to $b$ and that this interval is __contained in__ $G$.
+In practice, rather than using relation-like symbols for opens, we mimic the set-theoretic notation and terminology from [[point-set topology]].  So if $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean that $a$ is related to $b$ through $G$ and say that $G$ __contains__ the interval from $a$ to $b$ and that this interval is __contained in__ $G$.
 
 In this notation, and writing $(a, b) \subseteq (c, d)$ for $c \leq a$ and $b \leq d$, and $(a, b) \Subset (c, d)$ for $c \lt a$ and $b \lt d$, these requirements say:
 
@@ -141,7 +140,7 @@ Finally, suppose that $a \geq a_2$.  In this case, consider the largest value of
 In any case, we have a zigzag of length at most $k+$ from $a$ to $b$ with zigs from $\mathcal{U}$, and the induction is complete.
 =--
 
-At the moment, this lemma is used only in the proof of the infinite distributivity law, and we don\'t even need its full strength; but more of it will be useful later.
+This lemma is used in the proofs of the infinite distributivity law and some results related to measure.
 
 
 ## The frame of opens
@@ -156,7 +155,7 @@ Given two opens $G$ and $H$, their [[join]] in the poset of opens, denoted $G \c
 
 More generally, given any collection $\mathcal{U}$ (or family $(G_k)_k$) of opens, their [[join]] in the poset of opens, denoted $\bigcup \mathcal{U}$ (or $\bigcup_k G_k$), is defined as follows:  $(a,b) \subseteq \mathcal{U}$ if and only if, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag from $a_1$ to $b_n$ with zigs from $\mathcal{U}$.  (Notice that $a \geq b$ counts even when $\mathcal{U}$ is empty, using zigzags of length $0$.)  The same argument applies as before.  Note that each individual zigzag has finitely many zigs, and therefore involves finitely many of the opens $G_k$, even when taking the join of an infinite collection.
 
-Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is, if $a \sim b$ directly through $G$ and $a_1 \sim b_n$ through a zigzag of $H$s for $(a_1,b_n) \Subset (a,b)$, then we need that $a_1 \sim b_n$ through a zigzag in which each zig is related both through $G$ and through some $H$.  To prove this, start with the zigzag of $H$s, and apply the zigzag lemma to get an orderly zigzag of $H$s, so that each zig is bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
+Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is, if $a \sim b$ directly through $G$ and $a_1 \sim b_n$ through a zigzag of $H$s for $(a_1,b_n) \Subset (a,b)$, then we need that $a_1 \sim b_n$ through a zigzag in which each zig is related both through $G$ and through some $H$.  To prove this, start with the zigzag of $H$s, and apply the Zigzag Lemma \ref{zigzaglemma} to get an orderly zigzag of $H$s, so that each zig is bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
 
 This frame of opens, interpreted as a [[locale]], is __the locale of real numbers__.  As usual, we denote this locale with the same symbol as the top element of its frame, in this case $\mathbb{R}$.  (Of course, the true etymology of the symbols runs in the other order.)
 
@@ -230,7 +229,7 @@ Given any open cover $\mathcal{C}$ of the unit interval, there is a partition $0
 +-- {: .proof}
 ###### Proof
 
-As in the previous proof, construct a zigzag $\zeta$ from $-1$ to $2$ with zigs from $\mathcal{C}$.  Using the Zigzag Lemma, replace this with an orderly zigzag.  Let $a_0$ be $0$, let $a_1$ be the smallest left endpoint of a zig from $\zeta$ satisfying $0 \lt a_1 \lt 1$, let $a_2$ be smallest left endpoint satisfying $a_1 \lt a_2 \lt 1$, and so on until none are left, and then finish with $a_n \coloneqq 1$.
+As in the previous proof, construct a zigzag $\zeta$ from $-1$ to $2$ with zigs from $\mathcal{C}$.  Using the Zigzag Lemma \ref{zigzaglemma}, replace this with an orderly zigzag.  Let $a_0$ be $0$, let $a_1$ be the smallest left endpoint of a zig from $\zeta$ satisfying $0 \lt a_1 \lt 1$, let $a_2$ be smallest left endpoint satisfying $a_1 \lt a_2 \lt 1$, and so on until none are left, and then finish with $a_n \coloneqq 1$.
 =--
 
 A corollary of this theorem, when the open cover is given by a function $\delta\colon [0,1] \to (0,\infty)$ (so that $\mathcal{C} \coloneqq \big\{\big(x - \delta(x), x + \delta(x)\big) \;|\; x \in [0,1]\big\}$), is used (classically) to prove the uniqueness (indeed, non-vacuity) of the [[Henstock–Kurzweil integral]], which could be used to define [[Lebesgue measure]] (see below).
@@ -252,7 +251,7 @@ In other words, any cover of $I$ by intervals must have a total length (defined 
 +-- {: .proof}
 ###### Proof
 
-Let $(c,d) \Subset (a,b)$ with $d - c \geq L$ (say with $c \coloneqq (a + b - L)/2$ and $d \coloneqq (a + b + L)/2$).  Then there is a zigzag from $c$ to $d$ with zigs from $\mathcal{J}$; by the Zigzag Lemma, we may take this zigzag to be orderly, say of length $n$.  Each zig is from one of the intervals in $\mathcal{J}$, say $K_1, \ldots, K_n$.  If these intervals are all distinct (which we can decide, since the endpoints are rational), then we\'re done, since
+Let $(c,d) \Subset (a,b)$ with $d - c \geq L$ (say with $c \coloneqq (a + b - L)/2$ and $d \coloneqq (a + b + L)/2$).  Then there is a zigzag from $c$ to $d$ with zigs from $\mathcal{J}$; by the Zigzag Lemma \ref{zigzaglemma}, we may take this zigzag to be orderly, say of length $n$.  Each zig is from one of the intervals in $\mathcal{J}$, say $K_1, \ldots, K_n$.  If these intervals are all distinct (which we can decide, since the endpoints are rational), then we\'re done, since
 $$ \sum_{i=1}^n \len K_i \geq \sum_{i=1}^n (b_i - a_i) = \sum_{i=1}^{n-1} (b_i - a_i) + (b_n - a_n) \geq \sum_{i=1}^{n-1} (a_{i+} - a_i) + (b_n - a_n) = b_n - a_1 = d - c \geq L ,$$
 or $ 0 \geq L $ if $n = 0$.  If they\'re not distinct, then we instead use the smallest $a_i$ and largest $b_i$ that appears in a given interval, and the argument still works (possibly even with some overlap now).
 =--
@@ -279,7 +278,7 @@ The first approach uses existing functions already defined on the [[rational num
 
 The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$, if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto \widetilde{f}(x)$ on the locale of real numbers. 
 
-This allows us to first define real-valued functions normally on the set of [[Dedekind real numbers]], and then lift them up to a real-valued function on the locale of real numbers, thus allowing us to define functions such as the [[exponential function]], the [[sine]], and the [[cosine]] which can't be directly defined using functions on the rational numbers. 
+This allows us to first define real-valued functions normally on the set of [[Dedekind real numbers]], and then lift them up to a real-valued function on the locale of real numbers, thus allowing us to define functions such as the [[exponential function]], the [[sine]], and the [[cosine]] which can\'t be directly defined using functions on the rational numbers. 
 
 
 ### Arithmetic
