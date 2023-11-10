@@ -89,6 +89,11 @@ Discussion via [[AdS-CFT in condensed matter physics]]:
 
 * Jeong-Won Seo, Taewon Yuk, Young-Kwon Han, Sang-Jin Sin, *ABC-stacked multilayer graphene in holography* &lbrack;[arXiv:2208.14642](https://arxiv.org/abs/2208.14642)&rbrack;
 
+On fractional charges in graphene:
+
+* Chang-Yu Hou, Claudio Chamon, Christopher Mudry, *Electron fractionalization in two-dimensional graphenelike structures*, Phys. Rev. Lett. **98** (2007) 186809 &lbrack;[arXiv:cond-mat/0609740](https://arxiv.org/abs/cond-mat/0609740), [doi:10.1103/PhysRevLett.98.186809]( 	
+https://doi.org/10.1103/PhysRevLett.98.186809)&rbrack;
+
 
 ### Berry connection
 
