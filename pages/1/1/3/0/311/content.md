@@ -214,6 +214,8 @@ These general considerations are quite commonplace in algebraic topology, where 
 
 * [[Artin representability theorem]], [[Artin-Lurie representability theorem]]
 
+* [[multirepresentable functor]]
+
 ## References
 
 Early accounts:
