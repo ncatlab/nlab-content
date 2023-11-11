@@ -15,6 +15,8 @@ More generally, let us consider some category of spaces, i.e. [[sheaves]] of set
 
 ## References
 
+* Stacks project [29.2 Closed immersions](https://stacks.math.columbia.edu/tag/01QN) (tag/01QN)
+
 Discussion in the context of [[higher geometry]]/[[higher algebra]] is in 
 
 * [[Jacob Lurie]], _[[Closed Immersions]]_
