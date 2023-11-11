@@ -73,7 +73,15 @@ The epimorphisms in the category [[Set]] of [[sets]] are precisely the [[surject
 
 Thus the concept of epimorphism may be thought of as a category-theoretic generalization of the concept of surjection.  
 
-But beware that in categories of sets with [[extra structure]], epimorphisms need not be surjective (in contrast to [[monomorphisms]], which are usually [[injective]]).  
+But beware that in categories of sets with [[extra structure]], epimorphisms need not be surjective (in contrast to [[monomorphisms]], which are usually [[injective]]). 
+ 
++-- {: .num_example #EpimorphismsOfSheaves}
+###### Example
+**(epimorphisms of sheaves)**
+
+A morphism in the category of sheaves of sets over a topological space $X$ is epimorphism iff the induced map on the level of each stalk is surjective. See also math.stackexchange [here](https://math.stackexchange.com/questions/205658/an-easy-way-to-prove-that-epimorphism-of-sheaves-implies-surjectivity-on-stalk).
+
+=--
 
 +-- {: .num_example #EpimorphismsOfRings}
 ###### Example
