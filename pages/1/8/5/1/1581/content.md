@@ -16,7 +16,7 @@
 
 ## Idea
 
-The **basis theorem** for [[vector space]]s states that every [[vector space]] $V$ admits a [[basis of a vector space|basis]], or in other words is a [[free module]] over its [[ground field]] of scalars. It is a famous classical consequence of the [[axiom of choice]] (and is equivalent to it by [Blass (1984)](#Blass84).
+The **basis theorem** for [[vector space | vector spaces]] states that every [[vector space]] $V$ admits a [[basis of a vector space|basis]], or in other words is a [[free module]] over its [[ground field]] of scalars. It is a famous classical consequence of the [[axiom of choice]] (and is equivalent to it by [Blass (1984)](#Blass84).
 
 
 ## Statement and proofs
