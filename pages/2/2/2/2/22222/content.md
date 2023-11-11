@@ -55,17 +55,18 @@ By naturality, $\alpha(i, \phi) = R\phi \circ \eta_{x, i}$. Then invertibility o
 
 \linebreak
 
-{#FamOp} For the following theorem, let $Fam(D)$ be the [[opposite category]] of [[indexed sets]] of objects of $D$ (of its [[free coproduct completion]])
+{#FamOp} For the following theorem, let $Fam(D)$ be the category
 
-* whose objects are pairs $(I, h)$ such that $I$ is a set and $h \colon I \to Obj(D)$,
+* whose objects are [[indexed sets]] of objects of $D$, hence pairs $(I, h)$ where $I$ is a [[set]] and $h \colon I \to Obj(D)$,
 
 * whose morphisms $(f, \phi) \colon (I, h) \to (I', h')$ consist of a function $f \colon I' \to I$ (note the contravariance) and $\phi: (i \in I') \to Hom_D\Big(h\big(f(i)\big), h'(i)\Big)$.
 
-This is an example of a [[Grothendieck construction]] (see [here](free+coproduct+completion#AsAGrothendieckConstruction))
 
 Define $J : D \to Fam(D) : d \mapsto (\{*\}, * \mapsto d)$.
 
 Hence $Fam(D)$ is the free [[cartesian monoidal category]] over $D$, with $J$ the unit of the free cartesian monoidal category monad.
+
+(This is dual to the [[free coproduct completion]], an example of a [[Grothendieck construction]], see [here](free+coproduct+completion#AsAGrothendieckConstruction).)
 
 \begin{theorem}
 A multi-adjoint to $R \col D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is the [[relative adjoint functor | $J$-right adjoint to $K$]], meaning that
