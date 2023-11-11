@@ -1,5 +1,6 @@
 
-* [personal page](https://www.cs.umd.edu/~rrand/)
+* [personal page](http://rand.cs.uchicago.edu/)
+
 
 ## Selected writings
 
