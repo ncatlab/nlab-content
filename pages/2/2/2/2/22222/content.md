@@ -53,20 +53,22 @@ Now let $\alpha$ be given. Then we define $\eta_{x, i} = \alpha(i, id) : x \to R
 By naturality, $\alpha(i, \phi) = R\phi \circ \eta_{x, i}$. Then invertibility of $\alpha$ proves the condition in the definition.
 \end{proof}
 
-\begin{theorem}
-Let $Fam(D)$ be the category
+\linebreak
 
-* whose objects are pairs $(I, h)$ such that $I$ is a set and $h : I \to Obj(D)$,
+{#FamOp} For the following theorem, let $Fam(D)$ be the [[opposite category]] of [[indexed sets]] of objects of $D$ (of its [[free coproduct completion]])
 
-* whose morphisms $(f, \phi) : (I, h) \to (I', h')$ consist of a function $f : I' \to I$ (note the contravariance) and $\phi: (i \in I') \to Hom_D(h(f(i)), h'(i))$.
+* whose objects are pairs $(I, h)$ such that $I$ is a set and $h \colon I \to Obj(D)$,
 
-This is an example of a [[Grothendieck construction]].
+* whose morphisms $(f, \phi) \colon (I, h) \to (I', h')$ consist of a function $f \colon I' \to I$ (note the contravariance) and $\phi: (i \in I') \to Hom_D\Big(h\big(f(i)\big), h'(i)\Big)$.
+
+This is an example of a [[Grothendieck construction]] (see [here](free+coproduct+completion#AsAGrothendieckConstruction))
 
 Define $J : D \to Fam(D) : d \mapsto (\{*\}, * \mapsto d)$.
 
-$Fam(D)$ is also the free cartesian category over $D$, with $J$ the unit of the free cartesian category monad.
+Hence $Fam(D)$ is the free [[cartesian monoidal category]] over $D$, with $J$ the unit of the free cartesian monoidal category monad.
 
-Then a multi-adjoint to $R : D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is the [[relative adjoint functor | $J$-right adjoint to $K$]], meaning that
+\begin{theorem}
+A multi-adjoint to $R \col D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is the [[relative adjoint functor | $J$-right adjoint to $K$]], meaning that
 \[
         \alpha : Hom_{Fam(D)}(K c, J d) \cong Hom_{C}(c, R d),
 \]
