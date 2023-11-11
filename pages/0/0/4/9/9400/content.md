@@ -74,25 +74,48 @@ See ([SH](#SH)).
 
 ## Examples
 
-* A category with pullbacks is [[lextensive category|lextensive]] just when [[coproducts]] are van Kampen.
+\begin{example}
 
-* A category with pullbacks is [[adhesive category|adhesive]] just when [[pushouts]] of [[monomorphisms]] are van Kampen.
+* A category with [[pullbacks]] is [[lextensive category|lextensive]] just when [[coproducts]] are van Kampen.
 
-* A category with pullbacks is [[exhaustive category|exhaustive]] just when transfinite unions of monomorphisms are van Kampen.
+* A category with [[pullbacks]] is [[adhesive category|adhesive]] just when [[pushouts]] of [[monomorphisms]] are van Kampen.
 
-* In $Set$, the [[pushout]] square
-  $$\array{ 2 & \to & 1 \\ \downarrow && \downarrow \\ 1 & \to & 1 }$$
-  is not van Kampen, neither is the [[coequalizer]] diagram $\mathbf 1 \rightrightarrows \mathbf 1 \to \mathbf 1$.
+* A category with pullbacks is [[exhaustive category|exhaustive]] just when transfinite [[unions]] of monomorphisms are van Kampen.
 
-* On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#as_a_coequalizer|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a coequalizer diagram because the [[line type]] is [[contractible]].
+\end{example}
 
-  $$\array{
-  \mathbb{Z} & \underoverset{\mathrm{id}}{s}{\rightrightarrows} & \mathbb{Z} & \to & \mathbf{1} \\
-  \downarrow && \downarrow && \downarrow \\
+\begin{example}
+In [[Set|$Set$]], the [[pushout]] square
+$$
+  \array{ 
+    2 & \to & 1 
+    \\ 
+    \big\downarrow && \big\downarrow 
+    \\ 
+    1 & \to & 1 
+  }
+$$
+is not van Kampen, neither is the [[coequalizer]] diagram $\mathbf 1 \rightrightarrows \mathbf 1 \to \mathbf 1$.
+
+On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#as_a_coequalizer|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a [[homotopy coequalizer]] diagram because the [[line type]] is [[contractible]].
+
+$$
+\array{
+  \mathbb{Z} 
+    & 
+  \underoverset{\mathrm{id}}{s}{\rightrightarrows} 
+    & 
+  \mathbb{Z} & \to & \mathbf{1} 
+  \\
+  \downarrow && \downarrow && \downarrow 
+  \\
   \mathbf{1} & \rightrightarrows & \mathbf{1} & \to & S^1
-}$$
+  \mathrlap{\,.}
+}
+$$
 
-  Then, descent implies that the square on the right is a pullback, which says exactly that the [[path space]] between any two points of the circle is isomorphic to $\mathbb{Z}$.
+Then, descent implies that the square on the right is a pullback, which says exactly that the [[path space]] between any two points of the circle is [[homotopy equivalence|homotopy equivalent]] to the [[integers]] $\mathbb{Z}$.
+\end{example}
 
 ## In higher categories 
  {#InHigherCategories}
