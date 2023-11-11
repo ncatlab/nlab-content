@@ -58,7 +58,7 @@ Let $Fam(D)$ be the category
 
 * whose objects are pairs $(I, h)$ such that $I$ is a set and $h : I \to Obj(D)$,
 
-* whose morphisms $(f, \phi) : (I, h) \to (I', h')$ consist of a function $f : I' \to I$ (note the contravariance) and $\phi: (i \in I) \to Hom_D(h(i), h'(f(i)))$.
+* whose morphisms $(f, \phi) : (I, h) \to (I', h')$ consist of a function $f : I' \to I$ (note the contravariance) and $\phi: (i \in I') \to Hom_D(h(f(i)), h'(i))$.
 
 This is an example of a [[Grothendieck construction]].
 
