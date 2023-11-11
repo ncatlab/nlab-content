@@ -460,10 +460,10 @@ Recall the [[equivalence of categories]] between [[real vector spaces]] and [Rea
 \end{proposition}
 Here $\mathscr{V}_{\pm J}$ denotes the complex vector space whose underlying real vector space is $\mathscr{V}$ and with complex structure $\pm J$.
 \begin{proof}
-On the right we used this $\mathbb{C}$-linear isomorphism from the plain complexification in (eq:RModulesAsRealBundlesViaComplexification):
+On the right we used the following $\mathbb{Z}_2 \curvearrowright \mathbb{C}$-module [[isomorphism]] from the plain complexification in (eq:RModulesAsRealBundlesViaComplexification):
 
 \begin{imagefromfile}
-    "file_name": "ComplexificationOfComplexStructure-231110.jpg",
+    "file_name": "ComplexificationOfComplexStructure-231111.jpg",
     "width": 510,
     "unit": "px",
     "margin": {
