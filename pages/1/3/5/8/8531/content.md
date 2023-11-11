@@ -28,14 +28,14 @@ defines a left action of $R$ on $M$. This construction extends to a  [[functor]]
 $$
   f^\ast \colon SMod \longrightarrow RMod
 $$
-This functor has both a left and right adjoint.  Its right adjoint is called *coextension of scalars* and denoted
+This functor has both a [[left adjoint]] and a [[right adjoint]].  The left adjoint $f_!$ is called *[[extension of scalars]]*,  which its right adjoint is called *coextension of scalars* and denoted
 $$
   f_* \colon
   RMod
    \longrightarrow 
   SMod
 $$
-Concretely, for any left $R$-module $M$, $f_*(M)$ is the homset $RMod(S,M)$ made into a left $S$-module by
+Concretely, for any left $R$-module $M$, $f_*(M)$ is the [[hom set]] $RMod(S,M)$ made into a left $S$-module by
 $$
     (s g)(s') \coloneqq g(s s')
 $$ 
@@ -102,7 +102,7 @@ $$
 
 ### Relation to extension of scalars
 
-In some cases coextension of scalars is naturally isomorphic to [[extension of scalars]], which is the *left* adjoint to restriction of scalars.  For example if $H$ is a [[subgroup]] of finite index of a group $G$, for any field $k$ there is an inclusion of [[group algebras]]
+In some cases coextension of scalars is naturally isomorphic to [[extension of scalars]], which is the *left* adjoint to restriction of scalars.  For example if $H$ is a [[subgroup]] of [[finite number|finite]] [[index of a subgroup|index]] of a group $G$, for any field $k$ there is an inclusion of [[group algebras]]
 $$   
  i \colon k[H] \to k[G]
 $$
