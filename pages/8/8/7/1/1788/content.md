@@ -247,10 +247,3 @@ $$
 $$
 \end{remark}
 
-The coequaliser $\mathbf 1 \rightrightarrows \mathbf 1 \to \mathbf 1$.
-
-$$\array{ \mathbb{Z} & \underoverset{s}{\mathrm{id}}{\rightrightarrows} & \mathbb{Z} & \to & \mathbf{1} \\
-  \downarrow && \downarrow && \downarrow \\
-  \mathbf{1} & \rightrightarrows & \mathbf{1} & \to & S^1
-}$$
-
