@@ -20,7 +20,7 @@
 
 ## Idea
 
-The determinant is the (essentially unique) universal alternating multilinear map.
+The determinant is the (essentially unique) universal alternating [[multilinear map]].
 
 ## Definition
 
