@@ -17,7 +17,7 @@
 
 ## Idea
 
-An admissible rule in a [[deductive system]], such as a [[logic]] or [[type theory]], is an [[inference rule]] for which there is some algorithm for constructing a derivation of the conclusion from derivations of the premises.  It is *not* one of the "specified" or [[primitive rules]] of the deductive system, but its admissibility means that it could be added as a primitive rule without changing the set of derivable [[judgments]].
+An [[inference rule]] in a [[deductive system]], such as a [[logic]] or [[type theory]], is *admissible* if there is some algorithm for constructing a derivation of the conclusion from derivations of the premises.  It is *not* one of the "specified" or [[primitive rules]] of the deductive system, but its admissibility means that it could be added as a primitive rule without changing the set of derivable [[judgments]].
 
 Compare to a *[[derivable rule]]*, which is an admissible rule that is given by a "parametric" proof, or more formally by simply applying a finite number of primitive rules.  In contrast, the admissibility algorithm for an admissible rule is allowed to inspect and arbitrarily deconstruct the given derivations of the premises.
 
