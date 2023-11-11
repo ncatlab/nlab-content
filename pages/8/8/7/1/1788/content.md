@@ -1,4 +1,19 @@
 
+[[LHoTTasQuantumMicroscope.jpg:file]]
+
+
+\begin{imagefromfile}
+    "file_name": "LHoTTasQuantumMicroscope.jpg",
+    "float": "right",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 Consider the [[equivalence of categories]] between [[real vector spaces]] and [Real vector bundles](real+vector+bundle#InKRTheory) over the point, given by [[complexification]] equipped with the [[involution]] by [[complex conjugation]]:
 
