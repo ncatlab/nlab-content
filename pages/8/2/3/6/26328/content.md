@@ -43,6 +43,8 @@ where $\mathbb{Z}$ is the [[integers type]].
 
 ## Properties
 
+The line type is [[contractible]]; see section 8.1.5 of [UFP13](#UFP13).
+
 ### Relation to the integers
 
 The line type is equivalent to the [[propositional truncation]] of the [[integers type]]. 
@@ -77,7 +79,7 @@ In [[real-cohesive homotopy type theory]], the [[shape]] of the [[real numbers]]
 
 ## References
 
-The line type is defined as "homotopical reals" in section 8.1 of
+The line type is defined as "homotopical reals" in section 8.1.5 of
 
 * {#UFP13} *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
