@@ -87,9 +87,16 @@ A morphism in the category of sheaves of sets over a topological space $X$ is ep
 ###### Example
 **(epimorphisms of rings)**
 
-In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, then every surjective ring homomorphisms is an epimorphism, 
+In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, a morphism $f: R\to S$ is epi iff the canonical inclusion of the right module $S_R$ into its extension of scalars along $f$, $S_R\to S_R\otimes_R S$ is
+a bijection (hence isomorphism), or equivalently, the multiplication map $S\otimes S\to S$ factors to an isomorphism $S\otimes_R S\to S$ of $R$-bimodules. 
 
-For more see for instance at [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_.
+It follows that the multiplication induces natural isomorphism of endofunctors with components $M\mapsto M\otimes_R S\otimes_R S\cong M\otimes_R S$. While the extension of scalars followed by restriction of scalars is a monad (by adjunction), this implies that it is an idempotent monad, hence the extension of scalars is a localization functor. 
+
+In both categories, every surjective ring homomorphisms is an epimorphism, however there are many epimorphisms which are not surjective maps. For example, every flat localization of rings (e.g. [[Ore localization]]) is the same as a flat epimorphism; (nontrivial) localizations are not surjective.
+
+Any faithfully flat epimorphism of rings is an isomorphism.
+
+An epimorphism of commutative rings is surjective iff it is a finite morphism. For epimorphisms of commutative rings see [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_ and MathOverflow [what-do-epimorphisms-of-commutative-rings-look-like](https://mathoverflow.net/questions/109/what-do-epimorphisms-of-commutative-rings-look-like).
 
 
 =--
