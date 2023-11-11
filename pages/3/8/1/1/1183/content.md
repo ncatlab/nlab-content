@@ -230,7 +230,7 @@ A standard reference on 2-dimensional [[string]] $\sigma$-models is
 
 General exposition of $n$-dimensional $\sigma$-models, including the fact that these are [[renormalization|non-renormalizable]] for $n\geq 3$:
 
-* [[Christopher Hull]], *Lectures on Non-Linear Sigma-Models and Strings*, in *Super field theories*, NATO Science Series **160**, Springer (1987) 77-168 &lbrack;[doi:10.1007/978-1-4613-0913-0_4](https://doi.org/10.1007/978-1-4613-0913-0_4)&rbrack;
+* [[Christopher Hull]], *Lectures on Non-Linear Sigma-Models and Strings*, in *Super field theories*, eds. H. C. Lee, V. Elias, G. Kunstatter, R. B. Mann, K. S. Viswanathan, NATO Science Series **160**, Springer (1987) 77--168 &lbrack;[doi:10.1007/978-1-4613-0913-0_4](https://doi.org/10.1007/978-1-4613-0913-0_4)&rbrack;
 
 Further (and original) discussion of [[string]] sigma-models and their [[Ricci flow]] [[renormalization group flow]]  is for instance in 
 
