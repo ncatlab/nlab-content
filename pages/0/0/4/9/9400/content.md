@@ -82,7 +82,17 @@ See ([SH](#SH)).
 
 * In $Set$, the [[pushout]] square
   $$\array{ 2 & \to & 1 \\ \downarrow && \downarrow \\ 1 & \to & 1 }$$
-  is not van Kampen.
+  is not van Kampen, neither is the [[coequalizer]] diagram $\mathbf 1 \rightrightarrows \mathbf 1 \to \mathbf 1$.
+
+* On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#as_a_coequalizer|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a coequalizer diagram because the [[line type]] is [[contractible]].
+
+  $$\array{
+  \mathbb{Z} & \underoverset{\mathrm{id}}{s}{\rightrightarrows} & \mathbb{Z} & \to & \mathbf{1} \\
+  \downarrow && \downarrow && \downarrow \\
+  \mathbf{1} & \rightrightarrows & \mathbf{1} & \to & S^1
+}$$
+
+  Then, descent implies that the square on the right is a pullback, which says exactly that the [[path space]] between any two points of the circle is isomorphic to $\mathbb{Z}$.
 
 ## In higher categories 
  {#InHigherCategories}
