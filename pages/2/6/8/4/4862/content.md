@@ -77,7 +77,7 @@ In [[homotopy type theory]], this can be formalized as a [[higher inductive type
 
 The topological circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]]. 
 
-The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). This can be deduced from the result that the loop space $\Omega S^1$ of the circle is the group ${\mathbb{Z}}$ of integers and that $S^1$ is path-connected. A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).
+The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). This can be deduced from the result that the loop space $\Omega S^1$ of the circle is the group ${\mathbb{Z}}$ of integers and that $S^1$ is path-connected. Proofs of this in [[homotopy type theory]] are in the [references](#references).
 
 The result that $S^1\simeq K({\mathbb{Z}},1)$ holds in a general [[Grothendieck (∞,1)-topos]]. In fact, more generally, for $X$ a pointed object of a [[Grothendieck (∞,1)-topos]] ${\mathcal{H}}$, there is a natural equivalence between the [[suspension object]] $\Sigma X$ and the classifying space $ B{\mathbb{Z}}\wedge X$. In particular, when $X$ is specifically the 0-truncated two-point space $S^0$, we get $S^1\simeq K({\mathbb{Z}},1)$.
 
@@ -128,7 +128,7 @@ The proof is formalized therein using the [[Agda]] [[proof assistant]].  See als
 
 * The [[HoTT Book]], section 8.1
 
-* The HoTT Coq library: [theories/hit/Circle.v](https://github.com/HoTT/HoTT/blob/master/theories/hit/Circle.v)
+* The HoTT Coq library: [theories/Spaces/Circle.v](https://github.com/HoTT/Coq-HoTT/blob/V8.18/theories/Spaces/Circle.v), [theories/Homotopy/Pi1S1.v](https://github.com/HoTT/Coq-HoTT/blob/V8.18/theories/Homotopy/Pi1S1.v)
 
 * The HoTT Agda library: [homotopy/LoopSpaceCircle.agda](https://github.com/HoTT/HoTT-Agda/blob/2.0/homotopy/LoopSpaceCircle.agda)
 
