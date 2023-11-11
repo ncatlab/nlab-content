@@ -398,6 +398,6 @@ One says that $[\alpha]$ is the [[Lagrangian]] of the theory.
 
 ## References
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_  ([arXiv](http://arxiv.org/abs/0905.0731))
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_, A celebration of the mathematical legacy of Raoul Bott, 367--403, Amer. Math. Soc. 2010 ([arXiv:0905.0731](https://arxiv.org/abs/0905.0731))
  {#FHLT}
 
