@@ -44,6 +44,8 @@ Consider the [[equivalence of categories]] between [[real vector spaces]] and [R
 \begin{proof}
 On the right we used this $\mathbb{C}$-linear isomorphism from the plain complexification in (eq:RModulesAsRealBundlesViaComplexification):
 
+[[ComplexificationOfComplexStructure-231111.jpg:file]]
+
 \begin{imagefromfile}
     "file_name": "ComplexificationOfComplexStructure-231110.jpg",
     "width": 510,
