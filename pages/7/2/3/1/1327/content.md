@@ -83,7 +83,7 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 =--
 
 
-* One can rotate and explore Stasheff polyhedra in [this interactive associahedron app](https://ltrujello.github.io/Monoidal_Coherence_and_Binary_Words/associahedra_in_3D/).
+* One can rotate and explore Stasheff polyhedra in [this interactive associahedron app](https://ltrujello.github.io/associahedron/).
 
 
 * Illustrations of some polytopes, including $K_5$, can also be found [here](http://irma.math.unistra.fr/~chapoton/galerie.html).
