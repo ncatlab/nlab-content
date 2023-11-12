@@ -42,7 +42,7 @@ The _[[Gelfand-Naimark theorem]]_ says that every [[C*-algebra]] is [[isomorphis
 
 ## Examples
 
-Important classes of bounded operators are the [[compact operators]], [[trace-class operator]]s and [[Hilbert-Schmidt operator]]s.
+Important classes of bounded operators are the [[compact operators]], [[trace-class operator | trace-class operators]] and [[Hilbert-Schmidt operator | Hilbert-Schmidt operators]].
 
 
 ## Related concepts
