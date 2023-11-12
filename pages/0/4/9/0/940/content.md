@@ -14,9 +14,9 @@ Whereas a coalgebra structure is defined on a $k$-module (if $k$ is a field, it 
 
 ## Definition
 
-An __$A$-coring__ is a [[comonoid]] in the [[monoidal category]] of [[bimodule]]s over a fixed (typically noncommutative) unital [[ring]] $A$. 
+An __$A$-coring__ is a [[comonoid]] in the [[monoidal category]] of [[bimodule | bimodules]] over a fixed (typically noncommutative) unital [[ring]] $A$. 
 
-This generalizes the notion of $A$-[[coalgebra]]s which are defined only if $A$ is commutative and where the bimodules in question are [[central bimodule|central]]. 
+This generalizes the notion of $A$-[[coalgebra | coalgebras]] which are defined only if $A$ is commutative and where the bimodules in question are [[central bimodule|central]]. 
 
 ## Base ring extension
 
@@ -102,7 +102,7 @@ Analogously, one considers right $C$-comodules as right $A$-comodules with right
 
 ### Canonical (Sweedler) coring
 
-The classical example of a coring is the canonical or [[Sweedler coring]] corresponding to an extension $R\hookrightarrow S$ of unital rings. The category of [[descent]] data for this ring extension is equivalent to the category of [[comodule]]s over the canonical coring. 
+The classical example of a coring is the canonical or [[Sweedler coring]] corresponding to an extension $R\hookrightarrow S$ of unital rings. The category of [[descent]] data for this ring extension is equivalent to the category of [[comodule | comodules]] over the canonical coring. 
 
 Corings are in general useful for the treatment of [[descent in noncommutative algebraic geometry]].
 
@@ -120,7 +120,7 @@ and $\epsilon:M^*\otimes_S M, f\otimes m\mapsto f(m)\in R$.
 
 ### Matrix coring
 
-Another major class of examples are the so-called [[matrix coring]]s.
+Another major class of examples are the so-called [[matrix coring | matrix corings]].
 
 
 ## References
