@@ -14,7 +14,7 @@ See also:
 
 On [[Hochschild cohomology]] of [[commutative algebras]]:
 
-* [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
+* [[Michael Barr]], *Cohomology of commutative algebra I*, Ph.D. Thesis, University of Pennsylvania (1962), Retyped with a few corrections and notes (2003) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/thes.pdf), [[Barr-CohomologyThesis.pdf:file]]&rbrack;
 
 see also
 
