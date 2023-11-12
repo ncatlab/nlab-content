@@ -79,7 +79,6 @@ $$
   \,.
 $$
 
-
 ## Examples
 
 * In the case of [[topological spaces]], the mapping cocylinder is the subspace $Cocyl(f)\subset Y^I\times X$ whose elements are pairs $(s,x)$ such that $s(0)=f(x)$.
