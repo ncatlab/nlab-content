@@ -41,7 +41,7 @@ For the opinionated espousal of finitism (and much else), one can hardly do bett
 
 ## References
 
-* [[Edward Nelson]], _Warning Signs of a Possible Collapse of Contemporary Mathematics_ ([pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf))
+* [[Edward Nelson]], _Warning Signs of a Possible Collapse of Contemporary Mathematics_ (~2011) &lbrack;[pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf), [[Nelson-WarningSigns.pdf:file]]&rbrack;
 
 * Manuel Bremer, *Inconsistent Mathematics*, ([slides](https://www.mbph.de/Logic/Para/InconsistentMathematics.pdf))
 
