@@ -23,9 +23,15 @@ He did not give a name to the theory, so it has been called "[[Nelson arithmetic
 
 ### (In)Consistency of Peano Arithmetic
 
-At one point Nelson claimed to have a [[formal proof]] of [[inconsistency]] of [[Peano arithmetic]] (PA). While the proof turned out to be wrong, as acknowledged by Nelson, given that the supicion that PA might be inconsistent after all is shared by others (e.g. [[Vladimir Voevodsky]]) it is still interesting to see Nelson's proof strategy via [[Chaitin's incompleteness theorem]]:
+At one point Nelson claimed to have a [[formal proof]] of [[inconsistency]] of [[Peano arithmetic]] (PA). While the proof turned out to be wrong, as acknowledged by Nelson, given that the suspicion that PA might be inconsistent after all is shared by others (e.g. [[Vladimir Voevodsky]]) it is still interesting to see Nelson's proof strategy via [[Chaitin's incompleteness theorem]]:
 
 * Edward Nelson, _Outline_ (of an attempt to prove inconsistency of PA) ([pdf](http://www.thebigquestions.com/nelson.PDF))
+
+* Edward Nelson, _Elements_, 2015 ([arXiv:1510.00369 \[math.LO\]](https://arxiv.org/abs/1510.00369))
+
+## See also
+
++ inconsistent aka [[paraconsistent arithmetic]]
 
 
 category: people
