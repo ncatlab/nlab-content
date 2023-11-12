@@ -61,11 +61,11 @@ Note that this construction is distinct from [[monadic decomposition]], which in
 
 ## References
 
-* [[Michael Barr]]. _Coalgebras in a category of algebras_. Category Theory, Homology Theory and their Applications I: Proceedings of the Conference held at the Seattle Research Center of the Battelle Memorial Institute, June 24–July 19, 1968 Volume One. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
+* [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381), [pdf](https://www.math.mcgill.ca/barr/papers/coalgs.pdf), [[Barr-CoalgInAlg.pdf:file]]&rbrack;
 
 * {#Taylor} Paul Taylor's email to the [[categories mailing list]] "monadic completion of adjunctions" ([link](https://github.com/punkdit/categories/blob/26b751bbcbe6765fe447e805629ff6416f4c38b1/www.mta.ca/~cat-dist/catlist/1999/monadic-compl))
 
-* [[Stefano Kasangian]], [[Stephen Lack]], and [[Enrico Vitale]]. _Coalgebras, braidings, and distributive laws_, Theory and Applications of Categories 13.8 (2004): 129-146. ([html](https://www.emis.de/journals/TAC/volumes/13/8/13-08abs.html))
+* Stefano Kasangian, [[Stephen Lack]], and [[Enrico Vitale]]. _Coalgebras, braidings, and distributive laws_, Theory and Applications of Categories 13.8 (2004): 129-146. ([html](https://www.emis.de/journals/TAC/volumes/13/8/13-08abs.html))
 
 * [[Bart Jacobs]]. _Coalgebras and approximation_. Logical Foundations of Computer Science: Third International Symposium, LFCS'94 St. Petersburg, Russia, July 11–14, 1994 Proceedings. Berlin, Heidelberg: Springer Berlin Heidelberg, 2005.
 
