@@ -37,7 +37,7 @@ A **frame** $\mathcal{O}$ is
 
 * that has 
 
-  * all [[small limit|small]] [[coproduct]]s, called [[join|joins]] $\bigvee$
+  * all [[small limit|small]] [[coproduct | coproducts]], called [[join|joins]] $\bigvee$
 
   * all [[finite limits]], called [[meet|meets]] $\wedge$
 
@@ -53,7 +53,7 @@ A **frame** $\mathcal{O}$ is
 
 A _frame homomorphism_ is a homomorphism of posets that preserves finite meets and arbitrary joins. Frames and frame homomorphisms form the category [[Frm]].
 
-The formal duals of frames, hence the objects in the [[opposite category]] [[Locale]] $:=$ [[Frm]]${}^{op}$ are called [[locale]]s.
+The formal duals of frames, hence the objects in the [[opposite category]] [[Locale]] $:=$ [[Frm]]${}^{op}$ are called [[locale | locales]].
 
 =--
 
@@ -75,7 +75,7 @@ Furthermore, as the distributive law certainly holds when the joins in question 
 
 ## Properties
 
-A useful way to understand frames and [[locales]] is as the simplest nontrivial special cases of [[(n,1)-topos]]es. So we start in
+A useful way to understand frames and [[locales]] is as the simplest nontrivial special cases of [[(n,1)-topos | (n,1)-toposes]]. So we start in
 
 * [As (0,1)-toposes](#As0Topos)
 
@@ -88,11 +88,11 @@ of frames, which should make more sense this way.
 ### As a $(0,1)$-topos
  {#As0Topos}
 
-The notion of _frame_ -- or rather its formal dual, the notion of _[[locale]]_ -- is the special case of the notion of [[(n,1)-topos]]es for $n = 0$: [[(0,1)-topos]]es.
+The notion of _frame_ -- or rather its formal dual, the notion of _[[locale]]_ -- is the special case of the notion of [[(n,1)-topos | (n,1)-toposes]] for $n = 0$: [[(0,1)-topos | (0,1)-toposes]].
 
-The axioms on a frame are nothing but [[Giraud's axioms]] on [[sheaf topos]]es, restricted to [[(0,1)-categories]]:
+The axioms on a frame are nothing but [[Giraud's axioms]] on [[sheaf topos | sheaf toposes]], restricted to [[(0,1)-categories]]:
 
-given the existence of finite limits and arbitrary colimits, the _infinite distributive law_ expresses that a frame has [[universal colimits]]: they are stable under [[pullback]]. (For notice that in a poset [[pullback]]s and [[product]]s coincide.)
+given the existence of finite limits and arbitrary colimits, the _infinite distributive law_ expresses that a frame has [[universal colimits]]: they are stable under [[pullback]]. (For notice that in a poset [[pullback | pullbacks]] and [[product | products]] coincide.)
 
 Then a morphism of frames is precisely (the [[inverse image]] of) a [[geometric morphism]]: a morphism preserving finite limits and arbitrary colimits. 
 
@@ -134,7 +134,7 @@ This exists by the [[adjoint functor theorem]], using that there is only a finit
 
 Therefore one may think of a of a frame as a [[cartesian closed category|cartesian closed]] [[suplattice]], or a cartesian [[quantale]].  
 
-But notice that the frame [[homomorphism]]s are not required to preserve the Heyting implication.
+But notice that the frame [[homomorphism | homomorphisms]] are not required to preserve the Heyting implication.
 
 =--
 
@@ -153,7 +153,7 @@ For more on this see [[locale]].
 
 ## Formal duals: locales
 
-The [[opposite category]] to the category [[Frm]] is the category [[Loc]] of [[locale]]s (possibly slightly generalized [[topological space]]s)
+The [[opposite category]] to the category [[Frm]] is the category [[Loc]] of [[locale | locales]] (possibly slightly generalized [[topological space | topological spaces]])
 
 $$
   Loc := Frm^{op}
