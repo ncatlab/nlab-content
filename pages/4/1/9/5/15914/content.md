@@ -22,7 +22,7 @@ Note that $L$ is not an upper bound on complexity; on the contrary, there are on
 
 ## References
 
-* [[Gregory Chaitin]], _Algorithmic Information Theory_, 2003. (first edition 1987) ([pdf](http://www.umcs.maine.edu/~chaitin/cup.pdf))
+* [[Gregory Chaitin]], _Algorithmic Information Theory_, 2003. (first edition 1987) ([Internet Archive](https://archive.org/details/algorithmicinfor00chai))
 
 * [[Gregory Chaitin]], _The Limits of Mathematics_, 1994 ([arXiv:chao-dyn/9407003](http://arxiv.org/abs/chao-dyn/9407003))
 
