@@ -244,7 +244,7 @@ Quasi-toposes of [[concrete sheaves]] are considered in
 
 A review is in
 
-* [[John Baez]], [[Alex Hoffnung]], _Convenient categories of smooth spaces_, to appear, Trans. AMS, ([arXiv](http://arxiv.org/abs/0807.1704))
+* [[John Baez]], [[Alex Hoffnung]], _Convenient categories of smooth spaces_, Trans. Amer. Math. Soc., Vol. 363 No. 11 (2011), 5789-5825, ([arXiv](http://arxiv.org/abs/0807.1704))
 
 More generally, quasi-[[sheaf toposes]] are discussed in
 
