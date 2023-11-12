@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-A _ring_ (also: _number ring_) is a basic structure in [[algebra]]: a [[set]] equipped with two [[binary operation]]s called _addition_ and _multiplication_, such that the operation of addition forms an [[abelian group]] and the operation of multiplication a [[monoid]] structure which [[distributivity law|distributes]] over addition.
+A _ring_ (also: _number ring_) is a basic structure in [[algebra]]: a [[set]] equipped with two [[binary operation | binary operations]] called _addition_ and _multiplication_, such that the operation of addition forms an [[abelian group]] and the operation of multiplication a [[monoid]] structure which [[distributivity law|distributes]] over addition.
 
 All the familiar number systems such as the [[integer numbers]], [[rational numbers]], [[real numbers]], [[complex]] numbers are rings under the standard operations of addition and multiplication. Except for the first in this list they are indeed [[fields]], which are rings in which also the multiplication operation has an inverse for every element except 0 (the additive neutral element).
 
@@ -122,7 +122,7 @@ In cartesian categories one can also define the structure of an (abelian) group 
 
 If $M$ is a [[monoidal category]], then we can speak of [[monoid objects]] in $M$.  However, we usually want $M$ to be somewhat like $Ab$ to think of monoid objects in $M$ as internal rings.  For example, if $M$ is the category of abelian [[group objects]] in a cartesian monoidal category $C$, then we recreate the notion of ring object in $C$ from above.  Or, if $M$ is any [[Ab-enriched category]], then it behaves enough like $Ab$ that we may consider its monoid objects as internal rings.  There are yet other examples, however: a [[ring spectrum]] is a monoid object in [[spectra]], even though these are not $Ab$-enriched.
 
-Other examples are [[simplicial ring]]s (as monoids in [[simplicial abelian group]]s) and [[dg-ring]]s, as well as the $A$-rings below.
+Other examples are [[simplicial ring | simplicial rings]] (as monoids in [[simplicial abelian group | simplicial abelian groups]]) and [[dg-ring | dg-rings]], as well as the $A$-rings below.
 
 
 ### [[ring over a ring|Rings over a ring]] ($A$-rings)
@@ -146,7 +146,7 @@ $s = \eta(-\otimes 1_A):A\to R$ and $t=\eta(1_A\otimes -):A^{op}\to R$ which hav
 
 By replacing in the sentence "a ring is a [[monoid]] in [[Ab]]" the [[abelian category]] [[Ab]] with a [[higher category theory|higher category]] of _symmetric monoidal_ higher groupoids, one obtains higher notion of rings, such as a [[ring groupoid]], or in the commutative case, a [[symmetric ring groupoid]]. 
 
-Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]]s and, even more generally, that of [[spectrum|spectra]]. A [[monoid in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]] is an [[A-infinity-ring]] or [[associative ring spectrum]]. The commutative case is a [[commutative monoid in an (∞,1)-category]]: an [[E-infinity ring]] or [[commutative ring spectrum]].
+Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid | ∞-groupoids]] and, even more generally, that of [[spectrum|spectra]]. A [[monoid in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]] is an [[A-infinity-ring]] or [[associative ring spectrum]]. The commutative case is a [[commutative monoid in an (∞,1)-category]]: an [[E-infinity ring]] or [[commutative ring spectrum]].
 
 
 ## Examples
