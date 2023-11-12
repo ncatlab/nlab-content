@@ -660,6 +660,7 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[encode-decode method]]
 
+* [[diagonal function]]
 
 ## References
  {#References}
