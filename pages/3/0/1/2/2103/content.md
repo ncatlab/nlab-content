@@ -45,9 +45,10 @@ On [[cohomology]] of [[algebra|algebraic]]-[[structures]] (such as [[Lie algebra
 
 * [[Michael Barr]], *Algebraic cohomology: the early days*, in *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 1–26 &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [pdf](https://www.math.mcgill.ca/barr/papers/algcohom.pdf), [[Barr-AlgebraicCohomology.pdf:file]]&rbrack; 
 
+
 On [[monadicity|comonadicity]] of free [[algebra over a monad|monadic algebra]]-functors:
 
-* [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381)&rbrack;
+* [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381), [pdf](https://www.math.mcgill.ca/barr/papers/coalgs.pdf), [[Barr-CoalgInAlg.pdf:file]]&rbrack;
 
 
 Introducing [[Barr-exact categories]] and [[regular categories]]:
