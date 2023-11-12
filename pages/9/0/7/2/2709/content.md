@@ -1,6 +1,6 @@
-* [website](http://www.mathematik.uni-regensburg.de/cisinski/)
+* [website](https://cisinski.app.uni-regensburg.de/)
 
-* [[Denis-Charles Cisinski]], _Catégories supérieures et théorie des topos_, Séminaire Bourbaki, 2015-03-21, [pdf](http://www.mathematik.uni-regensburg.de/cisinski/1097.pdf).
+* [[Denis-Charles Cisinski]], _Catégories supérieures et théorie des topos_, Séminaire Bourbaki, 2015-03-21, [pdf](https://cisinski.app.uni-regensburg.de/1097.pdf).
 
 ## Selected writings
 
