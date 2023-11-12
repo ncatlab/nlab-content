@@ -390,6 +390,49 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 =--
  
+### Idempotent strong monads are commutative
+
+
+\begin{theorem} 
+Let $(\mathcal{C}, \otimes, I)$ be a monoidal category and let $(T, \mu, \eta)$ be an idempotent monad on $\mathcal{C}$ equipped with compatible left and right [[strong monad|strengths]] $t_{A, B} : TA \otimes B \to T(A \otimes B)$ and $t'_{A, B} : A \otimes TB \to T(A \otimes B)$. Then $T$ is a [[commutative monad]].
+\end{theorem}
+
+\begin{proof} 
+The commutativity equation is obtained using the strength axioms, the monad axioms, and the fact that $\eta_T = T \eta$ for an idempotent monad:
+\begin{tikzcd}[column sep=2em]
+	{TA\otimes TB} && {TA \otimes TB} & {T(TA \otimes B)} & {T^2(A\otimes B)} && {T(A\otimes B)} \\
+	& {T^2A\otimes TB} & {T(TA \otimes TB)} & {T^2(TA \otimes B)} & {T^3(A\otimes B)} & {T^2(A \otimes B)} \\
+	{TA \otimes TB} & {T(A \otimes TB)} && {T^2(A\otimes B)} & {T^2(A \otimes B)} & {T^2(A \otimes B)} & {T(A \otimes B)}
+	\arrow[Rightarrow, no head, from=1-1, to=3-1]
+	\arrow[Rightarrow, no head, from=1-1, to=1-3]
+	\arrow["t"', from=3-1, to=3-2]
+	\arrow["\mu"', from=3-6, to=3-7]
+	\arrow["{t'}", from=1-3, to=1-4]
+	\arrow["{Tt}", from=1-4, to=1-5]
+	\arrow["\mu", from=1-5, to=1-7]
+	\arrow[Rightarrow, no head, from=1-7, to=3-7]
+	\arrow["{T\eta \otimes TB}"{description}, from=3-1, to=2-2]
+	\arrow["{\eta_T \otimes TB}"', from=1-3, to=2-2]
+	\arrow["t"', from=2-2, to=2-3]
+	\arrow["\eta"{description}, from=1-3, to=2-3]
+	\arrow["{Tt'}", from=2-3, to=2-4]
+	\arrow["{T\mu}", from=2-5, to=2-6]
+	\arrow["\mu"', from=2-6, to=3-7]
+	\arrow["{T^2t}", from=2-4, to=2-5]
+	\arrow["\mu"{description}, from=2-5, to=3-6]
+	\arrow["\eta"', from=1-7, to=2-6]
+	\arrow["{T(\eta \otimes TB)}"{description}, from=3-2, to=2-3]
+	\arrow["{Tt'}"', from=3-2, to=3-4]
+	\arrow["{T^2(\eta \otimes B)}", from=3-4, to=2-4]
+	\arrow["{T^2(\eta)}"{description}, from=3-4, to=2-5]
+	\arrow[Rightarrow, no head, from=3-4, to=3-5]
+	\arrow["{T(\eta_T)}"{description}, from=3-5, to=2-5]
+	\arrow[Rightarrow, no head, from=3-5, to=3-6]
+\end{tikzcd}
+\end{proof}
+
+Alternatively we can deduce this from the fact that that [[thunk-force category|thunkable]] morphisms are [[premonoidal category|central]], since a monad is idempotent iff every Kleisli map is thunkable, and a monad is commutative iff every Kleisli map is central. (This fact is proved by Paul Levy [there](https://www.cs.bham.ac.uk/~pbl/papers/thunkcentral.pdf).) 
+
 ## Related concepts
 
 * [[idempotent monoid in a monoidal category]]
