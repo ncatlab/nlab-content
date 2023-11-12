@@ -262,3 +262,37 @@ $$
 $$
 \end{remark}
 
+
+
+
+\[\begin{tikzcd}
+	&& {T_AT_B} & {T_{T_AB}} && {T^2_{AB}} && {T_{AB}} \\
+	{T_A T_B} && {T^2_AT_B} & {T_{T_AT_B}} & {T^2_{T_AB}} & {T^3_{AB}} & {T^2_{AB}} \\
+	{T_AT_B} &&&&&&& {T_{AB}} \\
+	&& {T_{AT_B}} && {T^2_{AB}} & {T^2_{AB}} && {T^2_{AB}}
+	\arrow[Rightarrow, no head, from=2-1, to=3-1]
+	\arrow[Rightarrow, no head, from=2-1, to=1-3]
+	\arrow["t"', from=3-1, to=4-3]
+	\arrow["\mu"', from=4-8, to=3-8]
+	\arrow["{t'}", from=1-3, to=1-4]
+	\arrow["{T_{t}}", from=1-4, to=1-6]
+	\arrow["\mu", from=1-6, to=1-8]
+	\arrow[Rightarrow, no head, from=1-8, to=3-8]
+	\arrow["{T_\eta T_B}", from=3-1, to=2-3]
+	\arrow["{\eta_T T_B}"', from=1-3, to=2-3]
+	\arrow["t"', from=2-3, to=2-4]
+	\arrow["\eta"{description}, from=1-3, to=2-4]
+	\arrow["{T_{t'}}"', from=2-4, to=2-5]
+	\arrow["{T_\mu}"', from=2-6, to=2-7]
+	\arrow["\mu"', from=2-7, to=3-8]
+	\arrow["{T^2t}"', from=2-5, to=2-6]
+	\arrow["\mu", from=2-6, to=4-8]
+	\arrow["\eta"', from=1-8, to=2-7]
+	\arrow["{T_{\eta T_B}}", from=4-3, to=2-4]
+	\arrow["{T_{t'}}", from=4-3, to=4-5]
+	\arrow["{T^2_{\eta B}}", from=4-5, to=2-5]
+	\arrow["{T^2_{\eta}}"{description}, from=4-5, to=2-6]
+	\arrow[Rightarrow, no head, from=4-5, to=4-6]
+	\arrow["{T_{\eta}}"{description}, from=4-6, to=2-6]
+	\arrow[Rightarrow, no head, from=4-6, to=4-8]
+\end{tikzcd}\]
