@@ -90,4 +90,5 @@ Proposals for [[categorical semantics]] of "dynamic lifting", mostly following a
 
 * [[Dongho Lee]], *Formal Methods for Quantum Programming Languages*, Paris Saclay (Dec 2022) &lbrack;[hal:tel-03895847](https://hal.science/LMF/tel-03895847)&rbrack;
 
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Quantum Monadology|The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
