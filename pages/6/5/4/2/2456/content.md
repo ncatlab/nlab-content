@@ -15,17 +15,17 @@ In other words, if $P$ holds of anything at all, then it holds of the particular
 
 In dependent type theory with [[propositional truncations]], the naive translation of the global choice operator results in the following rule:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:[A] \vdash \varepsilon_A(x):A}$$
 
 The above rule could be simplified to the following rule using [[function types]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:[A] \to A}$$
 
-The type-theoretic global choice operator implies global [[axiom K]] or global [[UIP]], because given type $A$ and elements $x:A$ and $y:A$, one has a function $\varepsilon_{x =_A y}:\vert x =_A y \vert \to x =_A y$. Since $\vert x =_A y \vert$ is an [[equivalence relation]], the fact that there is a function from $\vert x =_A y \vert$ to $x =_A y$ implies that $A$ is a [[set]]. Thus, having choice operators for all types is inconsistent with the existence of a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
+This rule is an [[axiom of set truncation]], because given type $A$ and elements $x:A$ and $y:A$, one has a function $\varepsilon_{x =_A y}:[x =_A y] \to x =_A y$. Since $[x =_A y]$ is an [[equivalence relation]], the fact that there is a function from $[x =_A y]$ to $x =_A y$ implies that $A$ is a [[set]]. 
 
 One could try to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):\vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isSet}(A), x:\vert A \vert \vdash \varepsilon_A(p, x):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:[A] \vdash \varepsilon_A(x):[A]_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isSet}(A), x:[A] \vdash \varepsilon_A(p, x):A}$$
 
 However, this inference rule implies the untruncated [[axiom of choice]]:
 
@@ -35,7 +35,7 @@ which is inconsistent with a univalent Tarski universe with [[h-proposition|non-
 
 There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
 
-$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma, A:U, x:\vert T(A) \vert \vdash \varepsilon_U(A, x):T(A)}$$
+$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma, A:U, x:[T(A)] \vdash \varepsilon_U(A, x):T(A)}$$
 
 $U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
 
@@ -43,7 +43,7 @@ $U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. 
 
 The existence of a choice operator implies [[excluded middle]] and the [[double negation law]], and in particular, means that in [[dependent type theory]] the [[propositional truncation]] of a type is given by the [[double negation]] [[modality]]:
 
-$$\vert A \vert \coloneqq \neg \neg A$$
+$$[A] \coloneqq \neg \neg A$$
 
 This means that the rules for choice operators can be rewritten using double negation rather than propositional truncations:
 
@@ -57,7 +57,7 @@ It then becomes clear that the [[law of double negation]] is simply the choice o
 
 One could equivalently define the set-theoretic choice operator using double negations, by one of these inference rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\neg \neg A \to \vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \times \neg \neg A \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\neg \neg A \to [A]_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \times \neg \neg A \to A}$$
 
 By [[currying]] the conclusion of the second rule, one gets 
 
