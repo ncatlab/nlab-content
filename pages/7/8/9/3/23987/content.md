@@ -791,6 +791,13 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 **Homotopy Type Theory and Computing -- Classical and Quantum**
 
+> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (HoTT) as a means of computing, such as possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/simulation, of which first glimpses have recently been conceived.
+
+> Some talks will focus on recent progress on the general issue of running HoTT programs which use the [[univalence axiom]], such as via "[[cubical type theory|cubical TT]]" or more recent "[[higher observational type theory|higher observational TT]]" methods. We hope to bring this theoretical progress into contact with efforts to understand how to use (L)HoTT for actual (quantum) computing, simulation and verification.
+
+
+> Other talks will focus on design patterns for practical (quantum) programming and [[software verification|certification]] languages, notably via [[modal types]] ([[modal homotopy type theory|modal HoTT]]) and [[monadic effects]]. 
+
 \begin{imagefromfile}
     "file_name": "LHoTTasQuantumMicroscope.jpg",
     "float": "right",
@@ -799,19 +806,16 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
     "margin": {
         "top": -40,
         "bottom": 20,
-        "right": 0, 
-        "left": 20
+        "right": 90, 
+        "left": 90
     }
 \end{imagefromfile}
 
-> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (HoTT) as a means of computing, such as possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/simulation, of which first glimpses have recently been conceived.
-
-> Some talks will focus on recent progress on the general issue of running HoTT programs which use the [[univalence axiom]], such as via "[[cubical type theory|cubical TT]]" or more recent "[[higher observational type theory|higher observational TT]]" methods. We hope to bring this theoretical progress into contact with efforts to understand how to use (L)HoTT for actual (quantum) computing, simulation and verification.
-
-> Other talks will focus on design patterns for practical (quantum) programming and certification languages, notably via [[modal types]] and [[monadic effects]]. 
-
 > A point of contact between HoTT and Quantum is the recently developed "[[linear homotopy type theory|Linear HoTT]]", which equips classical HoTT with additional "[[linear type theory|linear]]" types that may be thought of as quantum data types of a [[certified programming|certifiable]] [[quantum programming language]] expressing [classical control](quantum+computation#ClassicalControlQuantumData) of quantum data, [[dynamic lifting]] of [[quantum measurement]] results, and [[topological quantum computation|topological quantum gates]].
 
+\linebreak
+
+\linebreak
 
 Confirmed external speakers:
 
