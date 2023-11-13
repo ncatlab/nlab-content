@@ -20,8 +20,7 @@ Volume 11, 2001 ([pdf](http://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
 and 
 
-* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
-[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], [[Lisa Jeffrey]], [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
 
 with its section
 
