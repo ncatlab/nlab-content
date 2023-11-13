@@ -86,7 +86,7 @@ It may be interesting to notice here that:
 
 * [[core|Core]] is *[[right adjoint]]* to the [[fully faithful 2-functor|embedding]] $Grpd \hookrightarrow Cat$, hence is a [[coreflective subcategory|co-reflection]],
 
-* [[0-truncation|$\tau_0$]] is *[[left adjoint]]* to the [[fully faithful functor|embedding]] $Set \hookrightarrow Grp$, hence is a [[reflective subcategory|reflection]].
+* [[0-truncation|$\tau_0$]] is *[[left adjoint]]* to the [[fully faithful functor|embedding]] $Set \hookrightarrow Grpd$, hence is a [[reflective subcategory|reflection]].
 
 
 ### For higher categories
