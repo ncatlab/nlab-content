@@ -123,6 +123,8 @@ A morphism $A \to B$ of [[E-infinity rings|$E_\infty$-rings]] is an epimorphism 
 * {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf), [[Hoyois_PlusConstruction.pdf:file]])
 
 
+* [[Oren Ben-Bassat]], D. Mukherjee, _Analytification, localization and homotopy epimorphisms_, Bulletin des Sciences Mathématiques __176__ (2022) 103129 [arXiv:2111.04184](https://arxiv.org/pdf/2111.04184) [doi](https://doi.org/10.1016/j.bulsci.2022.103129)
+
 [[!redirects epimorphisms in an (infinity,1)-category]]
 
 [[!redirects epimorphism in an (∞,1)-category]]
