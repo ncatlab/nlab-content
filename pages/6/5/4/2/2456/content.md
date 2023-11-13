@@ -17,15 +17,15 @@ In dependent type theory with [[propositional truncations]], the naive translati
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):A}$$
 
-The type-theoretic global choice operator implies global [[axiom K]] or global [[UIP]], and thus is inconsistent with the existence of a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
+The above rule could be simplified to the following rule using [[function types]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to A}$$
+
+The type-theoretic global choice operator implies global [[axiom K]] or global [[UIP]], because given type $A$ and elements $x:A$ and $y:A$, one has a function $\varepsilon_{x =_A y}:\vert x =_A y \vert \to x =_A y$. Since $\vert x =_A y \vert$ is an [[equivalence relation]], the fact that there is a function from $\vert x =_A y \vert$ to $x =_A y$ implies that $A$ is a [[set]]. Thus, having choice operators for all types is inconsistent with the existence of a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
 
 One could try to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):\vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isSet}(A), x:\vert A \vert \vdash \varepsilon_A(p, x):A}$$
-
-The above rules could be simplified to the following rules using [[function types]] and [[product types]]:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to \vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \times \vert A \vert \to A}$$
 
 However, this inference rule implies the untruncated [[axiom of choice]]:
 
