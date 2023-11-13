@@ -61,3 +61,6 @@ A general axiomatic framework for large cardinal axioms is proposed in
 
 [[!redirects large cardinal axiom]]
 [[!redirects large cardinal axioms]]
+
+[[!redirects large set axiom]]
+[[!redirects large set axioms]]
