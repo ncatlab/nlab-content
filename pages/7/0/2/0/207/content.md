@@ -55,7 +55,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \ma
 
 Then we have the elimination rules for propositional equality:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop} \quad \Gamma, x:A, x =_A x \; \mathrm{true} \vdash P(x, x) \; \mathrm{true}}{\Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop} \quad \Gamma, x:A \vdash P(x, x) \; \mathrm{true}}{\Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{true}}$$
 
 Propositional equality satisfies the [[principle of substitution]] and the [[identity of indiscernibles]]:
 
