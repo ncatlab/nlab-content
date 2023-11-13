@@ -80,7 +80,7 @@ Equivalently:
 The **reduced singular homology** of $X$, denoted $\tilde H_\bullet(X)$, is the [[chain homology]] of the [[augmentation|augmented]] chain complex
 
 $$
-  \cdots \to C_2(X) \stackrel{\partial_1}{\to} C_1(X) \stackrel{\partial_0}{\to} C_0(X) \stackrel{\epsilon}{\to}
+  \cdots \to C_2(X) \stackrel{\partial_2}{\to} C_1(X) \stackrel{\partial_1}{\to} C_0(X) \stackrel{\epsilon}{\to}
   \mathbb{Z} \to 0
   \,.
 $$
