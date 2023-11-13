@@ -53,6 +53,10 @@ In any two-layer type theory with a layer of [[types]] and a layer of [[proposit
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \mathrm{prop}} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash x =_A x \; \mathrm{true}}$$
 
+Then we have the elimination rules for propositional equality:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop} \quad \Gamma, x:A, x =_A x \; \mathrm{true} \vdash P(x, x) \; \mathrm{true}}{\Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{true}}$$
+
 Propositional equality satisfies the [[principle of substitution]] and the [[identity of indiscernibles]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash P(x) \; \mathrm{prop}}{\Gamma, x:A, y:A \vdash (x =_A y) \implies (P(x) \iff P(y)) \; \mathrm{true}}$$
