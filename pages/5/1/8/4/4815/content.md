@@ -152,9 +152,11 @@ Careful discussion in [[perturbative quantum gravity]]:
 
 ### Tests
 
-A test to constrain the value of the cosmological constant is developed in:
+Tests to constrain the value of the cosmological constant are developed in:
 
-* David Benisty, Anne-Christine Davis, N. Wyn Evans, *Constraining Dark Energy from Local Group dynamics* ([arXiv:2306.14963](https://arxiv.org/abs/2306.14963))
+* David Benisty, Anne-Christine Davis, N. Wyn Evans, *Constraining Dark Energy from Local Group dynamics*, The Astrophysical Journal Letters, Volume 953, Number 1, August 8, 2023. ([doi:10.3847/2041-8213/ace90b](https://doi.org/10.3847/2041-8213/ace90b), [arXiv:2306.14963](https://arxiv.org/abs/2306.14963))
+
+* David Benisty, Jenny Wagner, Denitsa Staicova, *Dark Energy as a Critical Period in Binary Motion: Bounds from Multi-scale Binaries* ([arXiv:2310.11488](https://arxiv.org/abs/2310.11488))
 
 ### Observation
 
