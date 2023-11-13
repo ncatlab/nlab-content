@@ -16,7 +16,7 @@
 
 This entry collects linked keywords for the book
 
-* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]], eds.  
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], [[Lisa Jeffrey]], [[David Kazhdan]], [[John Morgan]], [[David R. Morrison]] and [[Edward Witten]], eds.  
 
   _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
