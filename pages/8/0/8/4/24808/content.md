@@ -22,7 +22,7 @@ Russell universes or universes à la Russell are types whose terms are types. In
 
 ### Without a separate type judgment
 
-Russell universes are formally defined in a three-layer type theory. The first and second layers consists of an untyped [[predicate logic]] consisting of proposition judgments and index judgments, the [[natural deduction]] rules for [[predicate logic]], and inference rules to define a [[linear order]] without an [[upper bound]], or more commonly, the inference rules for [[Peano arithmetic]]. The third layer only contains term judgments, and is the dependent type theory where the Russell universes live in. 
+Russell universes are formally defined in a three-layer type theory. The first and second layers consists of an untyped [[predicate logic]] consisting of proposition judgments and index judgments, the [[natural deduction]] rules for [[predicate logic]], and inference rules to define a [[linear order]] without an [[upper bound]], or more commonly, the inference rules for [[first-order theory|first-order]] [[Peano arithmetic]]. The third layer only contains term judgments, and is the dependent type theory where the Russell universes live in. 
 
 We begin with the formal rules of the first and second layers. The first and second layer consists of three judgments: proposition judgments $A \; \mathrm{prop}$, where we judge $A$ to be a proposition, true proposition judgments $A \; \mathrm{true}$, where we judge $A$ to be a true proposition, index judgments, where we judge $a$ to be a universe index, $a \; \mathrm{index}$, and metacontext judgments, where we judge $\Xi$ to be a metacontext, $\Xi \; \mathrm{metactx}$. Metacontexts are lists of index judgments $a \; \mathrm{index}$, $b \; \mathrm{index}$, $c \; \mathrm{index}$, et cetera, and true proposition judgments $A \; \mathrm{true}$, $B \; \mathrm{true}$, $C \; \mathrm{true}$, et cetera, and are formalized by the rules for the empty metacontext and extending the metacontext by an index judgment or true proposition judgment:
 
@@ -75,9 +75,9 @@ $$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.\forall z.(x 
 
 $$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.((x \lt y) \implies \bot) \wedge ((y \lt x) \implies \bot) \implies (x = y) \; \mathrm{true}}$$
 
-$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\exists y.x \lt y \; \mathrm{true}}$$
+$$\frac{\Xi \vdash x \mathrm{index}}{\Gamma \vdash s(x) \; \mathrm{index}} \qquad \frac{\Xi \vdash x \mathrm{index}}{\Gamma \vdash x \lt s(x) \; \mathrm{true}}$$
 
-Most commonly, the linear order is that of the [[natural numbers]], in which one replaces the axioms of a linear order without upper bound with the axioms for [[Peano arithmetic]]. 
+Most commonly, the linear order is that of the [[natural numbers]], in which one replaces the axioms of a linear order without upper bound with the [[axioms]] and [[signature (in logic)|signatures]] for [[first-order theory|first-order]] [[Peano arithmetic]]. 
 
 Now, we introduce the third layer, which consists of a type theory with only one judgment, the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a **Russell universe** or **universe à la Russell**, whose terms are the types themselves. Russell universes are formalized with the following rules:
 
