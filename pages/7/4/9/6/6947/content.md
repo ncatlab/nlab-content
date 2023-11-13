@@ -43,6 +43,13 @@ Often one makes the appearance of the free variable in $P$ explicit by thinking 
 
 *  $\exists\, x\colon T, P(x) \vdash_{\Gamma} Q$ if and only if $P(x) \vdash_{\Gamma, x\colon T} Q$.
 
+In [[natural deduction]] the [[inference rules]] for the existential quantifier are given as 
+
+$$\frac{\Gamma, x:A \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash \exists x:A.P(x) \; \mathrm{prop}}$$ 
+
+$$\frac{\Gamma, x:A \vdash P(x) \; \mathrm{prop} \quad \Gamma \vdash x:A \quad \Gamma \vdash P(x) \; \mathrm{true}}{\Gamma \vdash \exists x:A.P(x) \; \mathrm{true}}$$ 
+
+$$\frac{\Gamma, x:A \vdash P(x) \; \mathrm{prop} \quad \Gamma, \exists x:A.P(x) \; \mathrm{true} \vdash Q \; \mathrm{prop} \quad \Gamma, x:A, P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Gamma, \exists x:A.P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
 
 ### In type theory
 
