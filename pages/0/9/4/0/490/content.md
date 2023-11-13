@@ -16,7 +16,6 @@
 
 In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axiom that the [[Set|Category of Sets]] Has [[projective object|Enough Projectives]]; in short: **CoSHEP** (pronounced /ko:-shep/).  This is more commonly known as the **presentation axiom**: PAx.   It is a weak form of the [[axiom of choice]].
 
-
 ## Statement
  {#Statement}
 
@@ -58,6 +57,7 @@ Borrowing from the philosophy of [[constructive mathematics|constructivism]], we
 
 The [[duality|dual]] axiom,  that $Set$ has [enough injectives](injective+object#EnoughInjectives) (that is, every set admits an injection into an injective set) is [[true]] in every [[topos]]: every [[power object]] is an [[injective object]], and every object $X$ embeds in its power object $P X$ via the [[singleton subset|singleton]] map $\{\cdot\}:X\hookrightarrow P X$.
 =--
+
 
 
 ## Justification
@@ -201,6 +201,15 @@ CoSHEP as a choice principle added to [[ZF]] implies a [[proper class]] of [[reg
 Since CoSHEP implies [[WISC]], and WISC has this implication (a result of [[Benno van den Berg|van den Berg]]).
 =--
 
+## In higher category theory
+
+In [[higher category theory]], there are different versions of CoSHEP: 
+
+* For every [[0-groupoid]] $A$, there exists 0-groupoid $P$ and [[effective epimorphism]] $P \to A$, such that for all 0-groupoids $X$ there exists effective epimorphism $X \to P$ with [[section]]. 
+
+* For every [[infinity-groupoid]] $A$, there exists 0-groupoid $P$ and [[effective epimorphism]] $P \to A$, such that for all 0-groupoids $X$ there exists effective epimorphism $X \to P$ with [[section]]. 
+
+The difference between these versions of CoSHEP is that [[sets cover]]. 
 
 ## Related concepts
 
