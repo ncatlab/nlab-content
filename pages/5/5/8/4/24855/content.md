@@ -28,7 +28,7 @@ Historically in the [[dependent type theory]] community, the term *propositional
 
 ## Definition
 
-### Inference rules
+### Typed first-order logic
 
 In any two-layer type theory with a layer of [[types]] and a layer of [[propositions]], or equivalently a [[first order logic]] over [[type theory]] or a [[first-order theory]], every type $A$ has a binary [[relation]] according to which two elements $x$ and $y$ of $A$ are related if and only if they are equal; in this case we write $x =_A y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is called **[[propositional equality]]**. The formation and introduction rules for propositional equality is as follows
 
@@ -37,6 +37,16 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \ma
 Then we have the elimination rules for propositional equality:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A, x =_A y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x:A.P(x, x)\right) \implies \left(\forall x:A.\forall y:A.x =_A y \implies P(x, y)\right) \; \mathrm{true}}$$
+
+### Untyped first-order logic
+
+Something similar occurs in untyped [[first-order logic]], where the [[domain of discourse]] has a binary [[relation]] according to which two elements $x$ and $y$ are related if and only if they are equal; in this case we write $x = y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is similarly called **[[propositional equality]]**. The formation and introduction rules for propositional equality is as follows
+
+$$\frac{\Gamma \vdash x \quad \Gamma \vdash y}{\Gamma \vdash x = y \; \mathrm{prop}} \quad \frac{\Gamma \vdash x}{\Gamma \vdash x = x \; \mathrm{true}}$$
+
+Then we have the elimination rules for propositional equality:
+
+$$\frac{\Gamma, x, y, x = y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x.P(x, x)\right) \implies \left(\forall x.\forall y.x = y \implies P(x, y)\right) \; \mathrm{true}}$$
 
 ## Properties
 
