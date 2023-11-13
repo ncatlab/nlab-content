@@ -22,47 +22,66 @@ Russell universes or universes à la Russell are types whose terms are types. In
 
 ### Without a separate type judgment
 
-Russell universes are formally defined in a [[two-level type theory]]. The first level consists of a basic dependent type theory consisting of a type judgment, [[identity types]], and a [[natural numbers type]]. The second level only contains term judgments, and is the dependent type theory where the Russell universes live in. To distinguish between the two layers, we shall call the types in the first layer "metatypes", as the first layer behaves as a metatheory or external theory. 
+Russell universes are formally defined in a three-layer type theory. The first and second layers consists of an untyped [[predicate logic]] consisting of proposition judgments and index judgments, the [[natural deduction]] rules for [[predicate logic]], and inference rules to define a [[linear order]] without an [[upper bound]], or more commonly, the inference rules for [[Peano arithmetic]]. The third layer only contains term judgments, and is the dependent type theory where the Russell universes live in. 
 
-We begin with the formal rules of the first layer. The first layer consists of three judgments: metatype judgments $A \; \mathrm{metatype}$, where we judge $A$ to be a metatype, metatyping judgments, where we judge $a$ to be an element of $A$, $a \in A$, and metacontext judgments, where we judge $\Xi$ to be a metacontext, $\Xi \; \mathrm{metactx}$. Metacontexts are lists of metatyping judgments $a \in A$, $b \in B$, $c \in C$, et cetera, and are formalized by the rules for the empty metacontext and extending the metacontext by a metatyping judgment
+We begin with the formal rules of the first and second layers. The first and second layer consists of three judgments: proposition judgments $A \; \mathrm{prop}$, where we judge $A$ to be a proposition, true proposition judgments $A \; \mathrm{true}$, where we judge $A$ to be a true proposition, index judgments, where we judge $a$ to be a universe index, $a \; \mathrm{index}$, and metacontext judgments, where we judge $\Xi$ to be a metacontext, $\Xi \; \mathrm{metactx}$. Metacontexts are lists of index judgments $a \; \mathrm{index}$, $b \; \mathrm{index}$, $c \; \mathrm{index}$, et cetera, and true proposition judgments $A \; \mathrm{true}$, $B \; \mathrm{true}$, $C \; \mathrm{true}$, et cetera, and are formalized by the rules for the empty metacontext and extending the metacontext by an index judgment or true proposition judgment:
 
-$$\frac{}{() \; \mathrm{metactx}} \qquad \frac{\Xi \; \mathrm{metactx} \quad \Xi \vdash A \; \mathrm{metatype}}{(\Xi, a \in A) \; \mathrm{metactx}}$$
+$$\frac{}{() \; \mathrm{metactx}} \qquad \frac{\Xi \; \mathrm{metactx} \quad \Xi \vdash A \; \mathrm{prop}}{(\Xi, A \; \mathrm{true}) \; \mathrm{metactx}} \qquad \frac{\Xi \; \mathrm{metactx}}{(\Xi, i \; \mathrm{index}) \; \mathrm{metactx}}$$
 
-The three standard structural rules, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]], are also included in the theory. Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
+Next, we have the inference rules for [[predicate logic]]:
 
-* The variable rule:
+* Rules for implication:
+$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi \vdash P \to Q \; \mathrm{prop}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi, P \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Xi \vdash P \to Q \; \mathrm{true}} \qquad \frac{\Xi \vdash P \to Q \; \mathrm{true}}{\Xi, P \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
 
-$$\frac{\Xi, a \in A, \Omega \; \mathrm{metactx}}{\vdash \Xi, a \in A, \Omega \vdash a \in A}$$
+* Rules for universal quantifiers:
+$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop}}{\Xi \vdash \forall x.P(x) \; \mathrm{prop}} \qquad \frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{true}}{\Xi \vdash \forall x.P(x) \; \mathrm{true}} \qquad \frac{\Xi \vdash \forall x.P(x) \; \mathrm{true}}{\Xi, x \vdash P(x) \; \mathrm{true}}$$
 
-* The weakening rule:
+* Rules for conjunction:
+$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi \vdash P \vee Q \; \mathrm{prop}} \quad \frac{\Xi \vdash P \; \mathrm{true} \quad \Xi \vdash Q \; \mathrm{true}}{\Xi \vdash P \vee Q \; \mathrm{true}}$$
 
-$$\frac{\Xi, \Omega \vdash \mathcal{J} \quad \Xi \vdash A \; \mathrm{metatype}}{\Xi, a \in A, \Omega \vdash \mathcal{J}}$$
+$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop} \quad \Xi, P \wedge Q \; \mathrm{true}}{\Xi \vdash P \; \mathrm{true}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop} \quad \Xi, P \wedge Q \; \mathrm{true}}{\Xi \vdash Q \; \mathrm{true}}$$ 
 
-* The substitution rule:
+* Rules for existential quantifiers:
+$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop}}{\Xi \vdash \exists x.P(x) \; \mathrm{prop}}$$ 
 
-$$\frac{\Xi \vdash a \in A \quad \Xi, b \in A, \Omega \vdash \mathcal{J}}{\Xi, \Omega[a/b] \vdash \mathcal{J}[a/b]}$$
+$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop} \quad \Xi \vdash x \; \mathrm{index} \quad \Xi \vdash P(x) \; \mathrm{true}}{\Xi \vdash \exists x.P(x) \; \mathrm{true}}$$ 
 
-In addition, there are identity metatypes: the [[natural deduction]] rules for identity metatypes are as follows
+$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop} \quad \Xi, \exists x.P(x) \; \mathrm{true} \vdash Q \; \mathrm{prop} \quad \Xi, x \; \mathrm{index}, P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Xi, \exists x.P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
 
-$$\frac{\Xi \vdash A \; \mathrm{metatype}}{\Xi, a \in A, b \in A \vdash a =_A b \; \mathrm{metatype}} \qquad \frac{\Xi \vdash A \; \mathrm{metatype}}{\Xi, a \in A \vdash \mathrm{refl}_A(a)  \in  a =_A a}$$
+* Rules for disjunction:
+$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi \vdash P \vee Q \; \mathrm{prop}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi, P \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi, Q \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}}$$ 
 
-$$\frac{\Xi, x \in A, y \in A, p \in x =_A y \vdash C \; \mathrm{metatype} \quad \Xi, z \in A \vdash t \in C[z/x, z/y, \mathrm{refl}_A(z)/p] \quad \Xi \vdash a \in A \quad \Xi \vdash b \in A \quad \Xi \vdash q \in a =_A b}{\Xi \vdash J(x.y.p.C, z.t, x, y, p) \in C[a/x, b/y, q/p]}$$
+$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop} \quad \Xi, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{prop} \quad \Xi, P \; \mathrm{true} \vdash R \; \mathrm{true} \quad \Xi, Q \; \mathrm{true} \vdash R \; \mathrm{true}}{\Xi, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{true}}$$ 
 
-$$\frac{\Xi, x \in A, y \in A, p \in x =_A y \vdash C \; \mathrm{metatype} \quad \Xi, z \in A \vdash t:C[z/x, z/y, \mathrm{refl}_A(z)/p] \quad \Xi \vdash a:A}{\Xi \vdash \beta_{=_A}(a) \in J(x.y.p.C, z.t, a, a, \mathrm{refl}_A(a)) =_{C[a/x, a/y, \mathrm{refl}_A(a)/p]} t[a/z]}$$
+* Rules for true:
+$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \top \; \mathrm{prop}} \qquad \frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \top \; \mathrm{true}}$$ 
 
-Finally, we have the natural numbers metatype, given by the following [[natural deduction]] rules:
+* Rules for false:
+$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \bot \; \mathrm{prop}} \qquad \frac{\Xi \vdash P \; \mathrm{prop}}{\Xi, \bot \; \mathrm{true} \vdash P \; \mathrm{true}}$$ 
 
-$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \mathcal{N} \; \mathrm{metatype}} \qquad \frac{\Xi \; \mathrm{metactx}}{\Xi \vdash 0_{\mathcal{N}} \in \mathcal{N}} \qquad \frac{\Xi \vdash n \in \mathcal{N}}{\Xi \vdash s_\mathcal{N}(n) \in \mathcal{N}}$$
+Next, we have the [[inference rules]] for [[propositional equality]]:
 
-$$\frac{\Xi, x \in \mathcal{N} \vdash C \; \mathrm{metatype} \quad \Xi \vdash c_{0_\mathcal{N}} \in C[0_\mathcal{N}/x] \quad \Xi, x \in \mathcal{N}, c \in C \vdash c_{s_\mathcal{N}} \in C[s_\mathcal{N}(x)/x] \quad \Xi \vdash n \in \mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathcal{N}^C(n, c_{0_\mathcal{N}}, c_{s_\mathcal{N}}) \in C[n/x]}$$
+$$\frac{\Xi \; \mathrm{metactx}}{\Gamma, x \; \mathrm{index}, y \; \mathrm{index} \vdash x = y \; \mathrm{prop}} \quad \frac{\Xi \; \mathrm{metactx}}{\Gamma, x \; \mathrm{index} \vdash x = x \; \mathrm{true}}$$
 
-$$\frac{\Xi, x \in \mathcal{N} \vdash C \; \mathrm{metatype} \quad \Xi \vdash c_{0_\mathcal{N}} \in C[0_\mathcal{N}/x] \quad \Xi, x \in \mathcal{N}, c \in C \vdash c_{s_\mathcal{N}} \in C[s_\mathcal{N}(x)/x]}{\Xi \vdash \beta_\mathcal{N}^{0_\mathcal{N}} \in \mathrm{ind}_\mathcal{N}^C(0_\mathcal{N}, c_{0_\mathcal{N}}, c_{s_\mathcal{N}}) =_{C[0_\mathcal{N}/x]} c_{0_\mathcal{N}}}$$
+$$\frac{\Xi, x \; \mathrm{index}, y \; \mathrm{index}, x = y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x.P(x, x)\right) \implies \left(\forall x.\forall y.x = y \implies P(x, y)\right) \; \mathrm{true}}$$
 
-$$\frac{\Xi, x \in \mathcal{N} \vdash C \; \mathrm{metatype} \quad \Xi \vdash c_{0_\mathcal{N}} \in C[0_\mathcal{N}/x] \quad \Xi, x \in \mathcal{N}, c \in C \vdash c_{s_\mathcal{N}} \in C[s_\mathcal{N}(x)/x]}{\Gamma \vdash \beta_\mathcal{N}^{s_\mathcal{N}(n)} \in \mathrm{ind}_\mathcal{N}^C(s_\mathcal{N}(n), c_{0_\mathcal{N}}, c_{s_\mathcal{N}}) =_{C[s_\mathcal{N}(n)/x]} c_{s_\mathcal{N}}(n, \mathrm{ind}_\mathcal{N}^C(n, c_{0_\mathcal{N}}, c_{s_\mathcal{N}}))}$$
+Finally, we have the [[inference rules]] for a [[linear order]] which has no [[upper bound]]:
 
-Now, we introduce the second layer, which consists of a type theory with only one judgment, the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a **Russell universe** or **universe à la Russell**, whose terms are the types themselves. Russell universes are formalized with the following rules:
+$$\frac{\Xi \vdash x \; \mathrm{index} \quad \Xi \vdash y \; \mathrm{index}}{\Gamma \vdash x \lt y \; \mathrm{prop}} \quad \frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.(x \lt x) \implies \bot \; \mathrm{true}}$$
 
-$$\frac{\Xi \vdash i \in \mathcal{N}}{\Xi \vdash U_i:U_{s_\mathcal{N}(i)}} \quad \frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vdash A:U_i}{\Xi \vdash \mathrm{Lift}_i(A):U_{s_\mathcal{N}(i)}}$$
+$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.x \lt y \implies ((y \lt x) \implies \bot) \; \mathrm{true}}$$
+
+$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.\forall z.(x \lt z) \implies ((x \lt y) \vee (y \lt z)) \; \mathrm{true}}$$
+
+$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.((x \lt y) \implies \bot) \wedge ((y \lt x) \implies \bot) \implies (x = y) \; \mathrm{true}}$$
+
+$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\exists y.x \lt y \; \mathrm{true}}$$
+
+Most commonly, the linear order is that of the [[natural numbers]], in which one replaces the axioms of a linear order without upper bound with the axioms for [[Peano arithmetic]]. 
+
+Now, we introduce the third layer, which consists of a type theory with only one judgment, the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a **Russell universe** or **universe à la Russell**, whose terms are the types themselves. Russell universes are formalized with the following rules:
+
+$$\frac{\Xi \vdash i \; \mathrm{index} \quad \Xi \vdash j \; \mathrm{index} \quad \Xi \vdash i \lt j \; \mathrm{true}}{\Xi \vdash U_i:U_j} \quad \frac{\Xi \vdash i \; \mathrm{index} \quad \Xi \vdash j \; \mathrm{index} \quad \Xi \vdash i \lt j \; \mathrm{true} \quad \Xi \vdash A:U_i}{\Xi \vdash \mathrm{Lift}_{i, j}(A):U_j}$$
 
 Contexts are defined as a metacontext with a list of typing judgments, with the metacontext always preceding the list of typing judgments:
 
@@ -70,7 +89,7 @@ $$\frac{\Xi \; \mathrm{metactx}}{\Xi \vert () \; \mathrm{ctx}} \qquad \frac{\Xi 
 
 The general rules for Russell universes then follows:
 
-$$\frac{\Xi \vert \Gamma \vdash i \in \mathcal{N}}{\Xi \vert \Gamma \vdash U_i:U_{s_\mathcal{N}(i)}} \quad \frac{\Xi \vert \Gamma \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i}{\Xi \vert \Gamma \vdash \mathrm{Lift}_i(A):U_{s_\mathcal{N}(i)}}$$
+$$\frac{\Xi \vert \Gamma \vdash i \; \mathrm{index} \quad \Xi \vert \Gamma \vdash j \; \mathrm{index} \quad \Xi \vert \Gamma \vdash i \lt j \; \mathrm{true}}{\Xi \vert \Gamma \vdash U_i:U_j} \quad \frac{\Xi \vert \Gamma \vdash i \; \mathrm{index} \quad \Xi \vert \Gamma \vdash j \; \mathrm{index} \quad \Xi \vert \Gamma \vdash i \lt j \; \mathrm{true} \quad \Xi \vert \Gamma \vdash A:U_i}{\Xi \vert \Gamma \vdash \mathrm{Lift}_{i, j}(A):U_j}$$
 
 ### With a separate type judgment
 
