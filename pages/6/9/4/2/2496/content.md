@@ -36,14 +36,15 @@ Higher-order logic in general could be thought of as a [[first order theory]] wi
     * [[HOL]], [[Isabelle]]
     * Girard's System Fω (also called λω) and Coquand-Huet's [[calculus of constructions]] are the higher-order subsystems of [[pure type system#lambda_cube|Barendregt's lambda-cube]]
 
-* [[higher-order set theory]]
-
 * [[higher-order abstract syntax]]
 
 * [[dependent type theory]]
 
 * [[tripos]]
 
+## References
+
+* [[Colin Rothgang]], [[Florian Rabe]], [[Christoph Benzmüller]], *Theorem Proving in Dependently-Typed Higher-Order Logic -- Extended Preprint*, The 29th International Conference on Automated Deduction (CADE-29), July 1-5, 2023. ([arXiv:2305.15382](https://arxiv.org/abs/2305.15382))
 
 [[!redirects Higher-order logic]]
 [[!redirects higher order logic]]
