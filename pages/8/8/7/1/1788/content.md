@@ -1,3 +1,5 @@
+$\underline{ }$
+
 Is there an escape from \[brackets\]?
 
 [[LHoTTasQuantumMicroscope.jpg:file]]
