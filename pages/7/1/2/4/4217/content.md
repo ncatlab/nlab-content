@@ -30,6 +30,11 @@ That is, $p \vee q$ is true if and only if at least one of $p$ and $q$ is true. 
 
 More generally, if $p$ and $q$ are any two [[relations]] on the same domain, then we define their disjunction pointwise, thinking of a relation as a [[function]] to truth values.  If instead we think of a relation as a [[subset]] of its domain, then disjunction becomes [[union]].
 
+In [[natural deduction]] the [[inference rules]] for disjunction are given as 
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma \vdash P \vee Q \; \mathrm{prop}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma, P \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma, Q \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}}$$ 
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop} \quad \Gamma, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{prop} \quad \Gamma, P \; \mathrm{true} \vdash R \; \mathrm{true} \quad \Gamma, Q \; \mathrm{true} \vdash R \; \mathrm{true}}{\Gamma, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{true}}$$ 
 
 ## Remarks
 
