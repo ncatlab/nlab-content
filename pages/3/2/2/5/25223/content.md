@@ -127,6 +127,16 @@ In [[cubical type theory]], [[boundary separation]] is given by the following ru
 
 $$\frac{\Gamma \vdash A \;  \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash r:I \quad \Gamma, (r =_I 0) \vee (r =_I 1) \; \mathrm{true} \vdash a \equiv b:A}{\Gamma \vdash a \equiv b:A}$$
 
+### Axiom of existence
+
+In [[dependent type theory]], the [[type-theoretic axiom of existence]] states that every type has a [[choice operator]], a function from its [[bracket type]] to the type itself, and is given by the following rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \epsilon_A:[A] \to A}$$
+
+Indeed, it suffices for the [[identity types]] to have [[choice operators]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash \epsilon_{\mathrm{Id}_A}(x, y):[\mathrm{Id}_A(x, y)] \to \mathrm{Id}_A(x, y)}$$
+
 ### Equality reflection
 
 In [[dependent type theory]], [[equality reflection]] is given by the following rule:
