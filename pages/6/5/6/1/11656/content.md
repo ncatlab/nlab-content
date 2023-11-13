@@ -44,6 +44,10 @@ Also:
 
 * Lectures on [[K3]]-singularities in [[string theory]] ([here](https://sites.duke.edu/scshgap/dave-morrison-lectures/#09sep18))
 
+One of the editors and organizers of
+
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], [[Lisa Jeffrey]], [[David Kazhdan]], [[John Morgan]], [[David R. Morrison]], [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
+
 
 ## Related $n$Lab entries
 
@@ -86,5 +90,8 @@ Also:
   [[8-manifold]], [[exotic 7-sphere]]
 
 category: people
+
+[[!redirects D. R. Morrison]]
+[[!redirects David R. Morrison]]
 
 
