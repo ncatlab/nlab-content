@@ -59,6 +59,12 @@ Just as we may identify the internal and external hom in [[Set]], so we may iden
 
 Although [[Heyting algebras]] were first developed as a way to discuss [[intuitionistic logic]], they appear in other contexts; but their characterstic feature is that they have an operation analogous to the conditional operation in logic, usually called __Heyting implication__ and denoted $\rightarrow$ or $\Rightarrow$.  If you use $\to$ and replace $\vdash$ above with the Heyting algebra\'s partial order $\leq$, then everything above applies.
 
+### In natural deduction
+
+In [[natural deduction]] the [[inference rules]] for implication are given as 
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma \vdash P \to Q \; \mathrm{prop}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma, P \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Gamma \vdash P \to Q \; \mathrm{true}} \qquad \frac{\Gamma \vdash P \to Q \; \mathrm{true}}{\Gamma, P \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
+
 ### In type theory
 
 In [[type theory]] 
