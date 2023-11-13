@@ -103,6 +103,10 @@ In terms of [[semantics]] (as for example topos-theoretic semantics; see [below]
 
 As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
+In [[natural deduction]] the [[inference rules]] for the universal quantifier are given as 
+
+$$\frac{\Gamma, x:A \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash \forall x:A.P(x) \; \mathrm{prop}} \qquad \frac{\Gamma, x:A \vdash P(x) \; \mathrm{true}}{\Gamma \vdash \forall x:A.P(x) \; \mathrm{true}} \qquad \frac{\Gamma \vdash \forall x:A.P(x) \; \mathrm{true}}{\Gamma, x:A \vdash P(x) \; \mathrm{true}}$$
+
 ## Internal universal quantifier in set theory
 
 In [[set theory]], recall that a [[predicate]] on a [[set]] $A$ in the [[internal logic of set theory]] is represented by the [[preimage]] $i^*(a)$ of an [[injection]] $i:B \hookrightarrow A$. Because $i$ is an [[injection]], each preimage $i^*(a)$ is a [[subsingleton]] for all $a \in A$, which represents the internal [[propositions]] of the [[set theory]]. The **internal universal quantifier** is represented by the [[Cartesian product]] of the family of sets $(i^*(a))_{a \in A}$:
