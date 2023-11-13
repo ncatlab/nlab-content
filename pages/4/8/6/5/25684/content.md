@@ -36,5 +36,7 @@ $$\frac{\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
 
+* Tesla Zhang, *Three non-cubical applications of extension types* ([arXiv:2311.05658](https://arxiv.org/abs/2311.05658))
+
 [[!redirects extension type]]
 [[!redirects extension types]]
