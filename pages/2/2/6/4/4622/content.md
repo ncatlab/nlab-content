@@ -33,6 +33,9 @@ In [[constructive logic]], $false$ is the [[bottom element]] in the [[poset]] of
 
 Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value is false if it is not [[true]].
 
+In [[natural deduction]] the [[inference rules]] for falsehood are given as 
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \bot \; \mathrm{prop}} \quad \frac{\Gamma \vdash P \; \mathrm{prop}}{\Gamma, \bot \; \mathrm{true} \vdash P \; \mathrm{true}}$$ 
 
 ### In linear logic
 
