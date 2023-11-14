@@ -3,7 +3,7 @@
 
 ## Idea ##
 
-Category of descent data is a particular presentation of a 2-categorical limit in Cat which tries to solve the descent problem. It can be defined in several setups. In a formulation of descent via fibered categories and Grothendieck topologies, as well as in the (co)monadic descent. In the first case, the descent category appears as a presentation of the [[descent object]], while in the (co)monadic descent the descent category is given by the Eilenberg-Moore category of the (co)monad. In a particular setup, the two approaches give the same result, see [[Bénabou-Roubaud theorem]].
+Category of descent data is a particular presentation of a [[2-limit|2-categorical limit]] in [[Cat]], i.e. the [[descent object]], intended to solve the [[descent]] problem. It can be defined in several setups: in a formulation of descent via [[fibered categories]] and [[Grothendieck topologies]], as well as in the (co)[[monadic descent]]. In the first case, the descent category appears as a presentation of the [[descent object]], while in the (co)monadic descent the descent category is given by the [[Eilenberg-Moore category]] of the ([[comonad|co]])[[monad]]. In a particular setup, the two approaches give the same result, see [[Bénabou-Roubaud theorem]].
 
 ## Descent along a cover ##
 
