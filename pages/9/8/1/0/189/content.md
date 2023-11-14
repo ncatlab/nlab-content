@@ -15,8 +15,6 @@
 =--
 
 
-
-
 # Contents
 * table of contents
 {: toc}
@@ -26,23 +24,16 @@
 
 A _quiver_ ([Gabriel 72](#Gabriel72)) is a collection of [[edges]] which may stretch between (ordered) [[pairs]] of "points", called _[[vertices]]_.  Hence a quiver is a kind of [[graph]].
 
-The term "quiver" (German: _K&ouml;cher_) for a _[[directed graph]]_ is due to [Gabriel 72](#Gabriel72), where it says on the first page:
+The term "quiver" (German: _K&ouml;cher_) --- for what in [[graph theory]] is (and was) known as *[[directed graphs]]* ([[directed graph|directed]] [[pseudograph|pseudo]]-[[multigraphs]], to be precise) --- is due to [Gabriel 1972](#Gabriel72), where it says on the first page:
 
 > For such a 4-tuple $\big[$ $E \underoverset{\underset{t}{\longrightarrow}}{\overset{s}{\longrightarrow}}{} V$ $\big]$ we propose the term _quiver_, and not _graph_, since there are already too many notions attached to the latter word.
 
-While some people call quivers "directed graphs", this is risky, because in [[graph theory]] the term "[[directed graph]]" is often taken to denote a quiver where there is at most one edge from one vertex to another, and no edges from a vertex to itself.  A safer term for quiver might thus be "directed multigraph with self-loops", but this is rather lengthy.
+{#ConceptWithAnAttitude} Hence the notion "quiver" is a _[[concept with an attitude]]_, indicating that one is interested in certain special constructions with these graphs, distinct from what [[graph theory]] typically cares about: Namely one is interested in their _[[quiver representations]]_. In this way, "quiver" is really a term in [[representation theory]]; see also [Derksen & Weyman 2005, ftn 1](#DerksenWeyman05):
 
-The concept of "quiver" is sometimes taken to be a _[[concept with an attitude]]_, indicating that one is interested in certain special constructions, notably _[[quiver representations]]_.   A key result on these is _[[Gabriel's theorem]]_, from the same article [Gabriel 72](#Gabriel72) that introduced the terminology _quiver_.
+> The underlying motivations of quiver theory are quite different from those in the traditional graph theory. To emphasize this distinction, it is common in our context to use the word "quivers" instead of "graphs".
 
-From yet another perspective, quivers are also like [[small categories]] with [[identity morphisms]] and [[composition]] forgotten. Conversely, a [[small category]] may be regarded as a quiver equipped with [[extra structure]]. Formally this is witnessed by a [[forgetful functor]] 
+A key result in [[quiver representation]]-theory is _[[Gabriel's theorem]]_, also form [Gabriel 1972](#Gabriel72).
 
-$$U\colon Cat \to Quiv$$
-
-where [[Quiv]] is the category of quivers and [[Cat]] is the category of ([[small category|small]] [[strict category|strict]]) categories.  Moreover, this forgetful functor has a [[left adjoint]] 
-
-$$F\colon Quiv \to Cat $$
-
-sending each quiver to the [[free category]] on that quiver.
 
 ## Definitions
 
@@ -183,7 +174,7 @@ The concept of quiver in the context of [[quiver representation]] (and their cla
 
 Some general-purpose references include
 
-* Harm Derksen, Jerzy Weyman, [Quiver representations](http://www.ams.org/notices/200502/fea-weyman.pdf) _AMS Notices_, 2005.
+* {#DerksenWeyman05} Harm Derksen, Jerzy Weyman, *Quiver representations*, Notices of the AMS  (Feb 2005) &lbrack;[pdf](http://www.ams.org/notices/200502/fea-weyman.pdf), full:[pdf](http://www.ams.org/notices/200502/200502FullIssue.pdf)&rbrack;
 
 * William Crawley-Boevey, _Lectures on quiver representations_ ([pdf](https://www.math.uni-bielefeld.de/~wcrawley/quivlecs.pdf)).
  
