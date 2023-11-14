@@ -75,6 +75,10 @@ On using restriction categories to model [[essentially algebraic theories]]:
 
 * [[Ivan Di Liberti]], [[Fosco Loregian]], [[Chad Nester]], [[Paweł Sobociński]]. _Functorial semantics for partial theories_, Proceedings of the ACM on Programming Languages 5.POPL (2021): 1-28.
 
+On *range restriction categories*:
+
+* Xiuzhan Guo, *Ranges, restrictions, partial maps, and fibrations* (2004), Master's thesis ([pdf](https://www.collectionscanada.gc.ca/obj/s4/f2/dsk4/etd/MQ93373.PDF?is_thesis=1&oclc_number=60669889)).
+
 [[!redirects restriction categories]]
 
 [[!redirects cartesian restriction category]]
