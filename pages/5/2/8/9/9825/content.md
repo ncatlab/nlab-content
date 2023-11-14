@@ -124,6 +124,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[quantum sensing]]
 
+* [[quantum noise]]
+
 * [[no-cloning theorem]]
 
 * [[quantum reader monad]]
