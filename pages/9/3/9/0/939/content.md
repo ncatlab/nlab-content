@@ -68,12 +68,18 @@ Authors sticking to this original but arguably reverse terminological convention
 
 
 ## Big picture
+ {#BigPicture}
 
-[[monad|Monads]] in any [[2-category]] $C$ make themselves a 2-category $\mathrm{Mnd}$ in which [[1-morphisms]] are either lax or colax [[homomorphisms]] of monads.
-By [[formal duality]] the analogue is true for [[comonads]]. 
+[[monad|Monads]] in any [[2-category]] $C$ make themselves a 2-category $\mathrm{Mnd}$ in which [[1-morphisms]] are either lax or colax [[homomorphisms]] of monads (cf. *[[monad transformations]]*). By [[formal duality]] the analogue is true for [[comonads]]. 
 
-Monads [[internalization|internal]] to the 2-category of monads are called _distributive laws_. In particular, distributive laws themselves make a 2-category. There are other variants like distributive laws between a monad and an [[endofunctor]], "mixed" distributive laws between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structure]]s), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. Having a distributive law $l$ from one monad to another enables to define the composite monad $\mathbf T\circ_l\mathbf P$. This correspondence extends to a 2-functor $\mathrm{comp}:\mathrm{Mnd}(\mathrm{Mnd}(C))\to\mathrm{Mnd}(C)$. An analogue of this 2-functor in the mixed setup is a homomorphism of bicategories from the bicategory of entwinings to a bicategory of [[corings]].
+Distributivity laws may be understood as 
+monads [[internalization|internal]] to this 2-category of monads.
 
+In particular, distributive laws themselves make a 2-category. 
+
+There are other variants like distributive laws between a monad and an [[endofunctor]], "mixed" distributive laws between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structures]]), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. 
+
+Having a distributive law $l$ from one monad to another enables to define the composite monad $\mathbf T\circ_l\mathbf P$. This correspondence extends to a 2-functor $\mathrm{comp} \,\colon\, \mathrm{Mnd}(\mathrm{Mnd}(C))\to\mathrm{Mnd}(C)$. An analogue of this 2-functor in the mixed setup is a [[2-functor]] from the bicategory of entwinings to a bicategory of [[corings]].
 
 
 ## Explicit definition
