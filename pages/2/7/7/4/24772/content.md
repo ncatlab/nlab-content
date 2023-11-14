@@ -1,5 +1,5 @@
 
-Elisabeth Stenholm (née Bonnevier)
+Elisabeth Stenholm
 
 * [personal page](https://elisabeth.bonnevier.one/)
 
