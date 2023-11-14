@@ -22,9 +22,9 @@ For $G$ an [[abelian group]], then the _Moore spectrum_ $S G$ (often $M G$) of $
 
 1. $\pi_0(S G) = G$;
 
-1. $H_{\gt 0}(S G,\mathbb{Z}) = \pi_{\gt 0}(S G \wedge H \mathbb{Z}) = 0$.
+1. $H_{\gt 0}(S G,\mathbb{Z}) = 0$.
 
-Here $H \mathbb{Z}$ is the [[Eilenberg-MacLane spectrum]] of the [[integers]].
+Here $H \mathbb{Z}$ is the [[Eilenberg-MacLane spectrum]] of the [[integers]] and $H_\ast(S G,\mathbb{Z})= \pi_{\ast}(S G \wedge H \mathbb{Z})$.
 
 ## Properties
 
