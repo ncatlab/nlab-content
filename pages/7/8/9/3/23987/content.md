@@ -4,7 +4,7 @@
 </a>
 </div>
 
-The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/L.cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, withIin the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/L.cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
 [CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[algebraic topology]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ([[persistent cohomotopy|persistent]]) *[[Cohomotopy]]* ([[schreiber:M/F-Theory as Mf-Theory|aka]] *[[framed manifold|framed]] [[cobordism cohomology|Cobordism]]*, [aka](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement) *[[field with one element|absolute $\mathbb{F}_1$]]-[[algebraic K-theory]]*) and [[generalized cohomology|generalized]] [[twisted cohomology|Twisted]] [[equivariant cohomology|Equivariant]] [[differential cohomology|Differential]] ([[schreiber:Twisted Equivariant Differential non-abelian generalized cohomology|TED]]) [[cohomology]], developed [[Hypothesis H|in string theory]]. 
 
@@ -644,7 +644,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 ### May 2023
  {#ConferencesMay2023}
 
-* {#QuantumConference2023} 22 - 26 May 2023 
+{#QuantumConference2023} 22 - 26 May 2023 
 
   **Quantum Information and Quantum Matter**
 
