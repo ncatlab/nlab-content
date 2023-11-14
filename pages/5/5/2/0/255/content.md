@@ -48,7 +48,7 @@ The terminology "monad" was introduced in [Bénabou 1967, Def. 5.4.1](#Bénabou6
     }
 \end{imagefromfile}
 
-it says in a footnote:
+{#BenabouFootnote} it says in a footnote:
 
 \begin{imagefromfile}
     "file_name": "Benabou-FootnoteOnMonadTerminology.jpg",
@@ -65,9 +65,17 @@ it says in a footnote:
 
 Beyond this footnote, the only contemporary account that seems to exist of the terminological genesis, [Barr 2009](#Barr09), recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology of "standard construction" and "triple":
 
-> In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Benabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me. So Jean proposed it to the general audience and there was general agreement. It suggested "monoid" of course and it is a monoid in a functor category.
+> In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Bénabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me. So Jean proposed it to the general audience and there was general agreement. It suggested "monoid" of course and it is a monoid in a functor category.
 
-But Bénabou's footnote above gives a second motivation for "monad":
+{#MonadTerminologyFurtherDiscussion} Further discussion on the issue in 2023 has recollections by [[Jirí Adámek]] of recollections by [[Bill Lawvere]] to the extent that:
+
+> it was in the common room of the old castle at Oberwolfach when Sammy &lbrack;[[Samuel Eilenberg]]&rbrack; came out from behind the piano and announced the change.
+
+But [[Michael Barr]] clarifies that:
+
+> I am more than willing to believe that it was Bénabou sitting next to me who proposed monad. It is entirely possible that Sammy came down and pronounced it "official". And it was certainly in the old castle.
+
+Interestingly Bénabou's footnote [above](#BenabouFootnote) gives a second motivation for "monad":
 
 \begin{imagefromfile}
     "file_name": "Benabou-MonadDefinition.jpg",
