@@ -43,6 +43,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
 |Internal categories and quantum groups|[[Marcelo Aguiar]]|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
+|Monadicity, Purity, and Descent Equivalence|Xiuzhan Guo|2000|[pdf](https://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp02/NQ59136.pdf)| on [[monadicity]], [[descent]], and [[locally presentable categories]] |
 |Higher-Dimensional Category Theory: Opetopic Foundations|[[Eugenia Cheng]]|2002|[pdf](https://eugeniacheng.com/wp-content/uploads/2017/02/cheng-thesis.pdf)| |
 |Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| on [[polycategories]] via Kleisli bicategories and [[mixed distributive laws]] |
 | An algebraic theory of tricategories | [[Nick Gurski]] | 2007 | [[Gurski-AlgebraicTricategories.pdf:file]] | |
