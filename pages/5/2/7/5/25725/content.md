@@ -45,6 +45,8 @@ Examples:
 
 - [[bifibrant objects]]
 
+- [[bifibration]]
+
 An unambiguous alternative is to simply be explicit about both structures being assumed.
 
 
