@@ -17,7 +17,7 @@
 
 ## Idea
 
-The theorem ([B&#233;nabou-Roubaud 70](#BenabouRoubaud70)) identifies the [[Eilenberg-Moore category]] of algebras over the [[monad]] induced from a [[base change]] [[adjoint triple]] for some [[bifibration]] satisfying the [[Beck-Chevalley condition]] with the category of [[descent]] data along this morphism. This is the basis for the monadic reformulation of [[descent]] theory: [[monadic descent]].
+The theorem ([B&#233;nabou-Roubaud 70](#BenabouRoubaud70)) identifies the [[Eilenberg-Moore category]] of algebras over the [[monad]] induced from a [[base change]] [[adjoint triple]] for some [[bifibration]] satisfying the [[Beck-Chevalley condition]] with the [[category of descent data]] along this morphism. This is the basis for the monadic reformulation of [[descent]] theory: [[monadic descent]].
 
 
 ## Context
