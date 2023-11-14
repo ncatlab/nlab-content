@@ -152,8 +152,7 @@ Simplicial sheaves were endowed with a structure of a [[category of fibrant obje
 
 The model structure on simplicial presheaves is due to [[Jardine]]:
 
-* [[J. F. Jardine]], _Simplical presheaves_.  Journal of Pure and Applied Algebra 47:1 (1987), 35-87.  [doi][1]
-  [1]: http://dx.doi.org/10.1016/0022-4049(87)90100-9
+* [[John F. Jardine]], _Simplical presheaves_, Journal of Pure and Applied Algebra **47** 1 (1987) 35-87 &lbrack;<a href="http://dx.doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>&rbrack;
 
 A modern expository account is in
 
