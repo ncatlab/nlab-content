@@ -59,7 +59,7 @@ The category $Set$ has many marvelous properties, which make it a common choice 
 
 * It is {:yes} [[locally small]]{:}.
 
-* It is [[complete category|complete]] and [[cocomplete category|cocomplete]], and therefore $\infty$-[[extensive category|extensive]] (as is any cocomplete topos).{:data complete="yes" co-complete="yes"}
+* It is [[complete category|complete]] and [[cocomplete category|cocomplete]] (in fact, [[locally finitely presentable]]), and therefore $\infty$-[[extensive category|extensive]] (as is any cocomplete topos).{:data complete="yes" co-complete="yes"}
 
 At least assuming [[classical logic]], these properties suffice to characterize $Set$ uniquely up to equivalence among all categories; see [[cocomplete well-pointed topos]].  Note, however, that the definitions of "locally small" and "(co)complete" presuppose a notion of _small_ and therefore a knowledge of what a _set_ (as opposed to a [[proper class]]) is.
 
