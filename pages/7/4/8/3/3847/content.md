@@ -122,7 +122,8 @@ Toen's derived Hall algebras
 
 * [[Tobias Dyckerhoff]], _Higher categorical aspects of Hall Algebras_, In: Herbera D., Pitsch W., Zarzuela S. (eds) Building Bridges Between Algebra and Topology. Advanced Courses in Mathematics - CRM Barcelona. Birkhäuser 2015 [arXiv:1505.06940](https://arxiv.org/abs/1505.06940) [doi](https://doi.org/10.1007/978-3-319-70157-8_1)
 
-* [[Mauro Porta]], Francesco Salla, _Two-dimensional categorified Hall algebras_, J. Eur. Math. Soc. __25__:3 (2023) 1113-1205 [doi](https://doi.org/10.4171/jems/1303)
+* [[Mauro Porta]], Francesco Salla, _Two-dimensional categorified Hall algebras_, J. Eur. Math. Soc. __25__:3 (2023) 1113--1205 [doi](https://doi.org/10.4171/jems/1303) (review in [[zoranskoda:Zbl076835085]])
+
 * J. Xiao, F. Xu, _Hall algebras associated to triangulated categories_, Duke Math. J. 143 (2) (2008) 357--373
 
 A realization of (Drinfeld-Jimbo) [[quantum group]]s via a "Bridgeland" version of Hall algebra,
