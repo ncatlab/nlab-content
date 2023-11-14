@@ -215,10 +215,6 @@ Passing to the geometric realization, we get that $|\bar\psi| |\psi'|$ is homoto
 
 
 [[!redirects Dowker's theorem]]
-[[!redirects Dowker's theorem]]
-[[!redirects Dowker's theorem]]
-[[!redirects Dowker's Theorem]]
-[[!redirects Dowker's theorem]]
 [[!redirects Dowker's Theorem]]
 [[!redirects Dowker\'s theorem]]
 [[!redirects Dowker\'s Theorem]]
