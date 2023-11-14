@@ -23,9 +23,9 @@
 
 ## Idea
 
-Monadic descent is a way to encode [[descent]] of [[fibered category|fibered categories]] (equivalently, by the [[Grothendieck construction]], of [[pseudofunctor]]s) that have the special property that they are [[bifibration|bifibrations]]. This allows the use of algebraic tools, notably [[monad|monads]] and related structures from [[universal algebra]]:
+Monadic descent is a way to encode [[descent]] of [[fibered category|fibered categories]] (equivalently, by the [[Grothendieck construction]], of [[pseudofunctor]]s) that have the special property that they are [[bifibration|bifibrations]]. This allows the use of algebraic tools, notably [[monad|monads]] and related structures from [[universal algebra]].
 
-a [[bifibration]] $E \to B$ comes naturally equipped not only with a notion of pullback, but also of pushforward. Combined these provide pull-push-[[monad|monads]] that may be used to encode the [[descent]] property of the fibration.
+A [[bifibration]] $E \to B$ comes naturally equipped not only with a notion of pullback, but also of pushforward. Combined these provide pull-push-[[monad|monads]] that may be used to encode the [[descent]] property of the fibration.
 
 A morphism $f : b_1 \to b_2$ in the base $B$ induces an [[adjunction]] $F\dashv U$ where 
 
