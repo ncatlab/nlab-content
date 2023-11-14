@@ -24,18 +24,17 @@
 ## Idea
  {#Idea}
 
-A _quiver_ ([Gabriel 72](#Gabriel72)) is a collection of [[edges]] which may stretch between (ordered) [[pairs]] of "points", called _[[vertices]]_.
-Hence a quiver is a kind of [[graph]], often called a [[directed graph]] (or [[digraph]]) by [[category theory|category theorists]]. 
+A _quiver_ ([Gabriel 72](#Gabriel72)) is a collection of [[edges]] which may stretch between (ordered) [[pairs]] of "points", called _[[vertices]]_.  Hence a quiver is a kind of [[graph]].
 
 The term "quiver" (German: _K&ouml;cher_) for a _[[directed graph]]_ is due to [Gabriel 72](#Gabriel72), where it says on the first page:
 
 > For such a 4-tuple $\big[$ $E \underoverset{\underset{t}{\longrightarrow}}{\overset{s}{\longrightarrow}}{} V$ $\big]$ we propose the term _quiver_, and not _graph_, since there are already too many notions attached to the latter word.
 
-While therefore, as concepts in themselves, _quiver_ and _directed graph_ are just the same, using the term _quiver_ serves to indicate certain constructions that one is interested in (a _[[concept with an attitude]]_), notably the corresponding _[[quiver representations]]_ which much of the theory revolves around. The key result here is _[[Gabriel's theorem]]_ from the same article [Gabriel 72](#Gabriel72) that introduced the terminology _quiver_.
+While some people call quivers "directed graphs", this is risky, because in [[graph theory]] the term "[[directed graph]]" is often taken to denote a quiver where there is at most one edge from one vertex to another, and no edges from a vertex to itself.  A safer term for quiver might thus be "directed multigraph with self-loops", but this is rather lengthy.
 
-On the other hand, beware that in [[graph theory]], the term "[[directed graph]]" is often taken to mean that there is at most one edge from one vertex to another. To emphasize that a quiver allows more edges between vertices one may speak of _directed [[pseudographs]]_. See at _[[directed graph]]_ for more.
+The concept of "quiver" is sometimes taken to be a _[[concept with an attitude]]_, indicating that one is interested in certain special constructions, notably _[[quiver representations]]_.   A key result on these is _[[Gabriel's theorem]]_, from the same article [Gabriel 72](#Gabriel72) that introduced the terminology _quiver_.
 
-From yet another perspective, quivers/directed pseudographs are also like [[small categories]] with [[identity morphisms]] and [[composition]] forgotten. Conversely, a [[small category]] may be regarded as a quiver/directed pseudograph equipped with [[extra structure]]. Formally this is witnessed by a [[forgetful functor]] 
+From yet another perspective, quivers are also like [[small categories]] with [[identity morphisms]] and [[composition]] forgotten. Conversely, a [[small category]] may be regarded as a quiver equipped with [[extra structure]]. Formally this is witnessed by a [[forgetful functor]] 
 
 $$U\colon Cat \to Quiv$$
 
