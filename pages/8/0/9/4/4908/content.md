@@ -1,6 +1,7 @@
 
 Ji&#345;&#237; Ad&#225;mek is a pure [[category theory|category theorist]]. One of his major contributions, jointly with [[Jiří Rosický]], is the development of the theory of [[Locally Presentable and Accessible Categories]]. He is a student of [[Věra Trnková]].
 
+
 * [website](https://math.feld.cvut.cz/adamek/)
 
 * [website](https://www.tcs.cs.tu-bs.de/group/adamek/home.html)
@@ -51,6 +52,8 @@ category: people
 [[!redirects Jiří Adámek]]
 [[!redirects Jiri Adamek]]
 [[!redirects Jiřı́ Adámek]]
+[[!redirects Jirí Adámek]]
+
 [[!redirects Adamek]]
 [[!redirects Adámek]]
  
