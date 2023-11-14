@@ -103,7 +103,7 @@ $$
   \Big\}
   \,.
 $$
-In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks. In fact, as discussed there,  "monad" (both in ancient and still in modern Greek) just means "unit" in the sense of the unit natural number $1$ and [Bénabou 1967, Def. 5.4.1](#Bénabou67) literally identifies monads with the (lax) units $1 \to \underline{S}$ in the ambient 2-category.
+In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks. In fact, as discussed there,  "monad" (both in ancient and still in modern Greek) just means "unit" in the sense of the unit [[natural number]] $1$, and [Bénabou 1967, Def. 5.4.1](#Bénabou67) literally identifies monads with the (lax) units $1 \to \underline{S}$ in the ambient 2-category.
 
 In generalization of this situation, one may consider lax functors out of [[codiscrete groupoids]] $CoDisc(1^{\sqcup_n})$ on $n$ objects, which [Bénabou 1967, Def. 5.5](#Bénabou67) calls *polyads*:
 $$
