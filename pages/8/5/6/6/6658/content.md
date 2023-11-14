@@ -16,7 +16,7 @@
 
 ## Idea
 
-Given a [[fibered category]], a morphism along which the induced [[comparison functor]] between the category of the [[descent data]] and the [[codomain fibration]] is [[fully faithful functor|fully faithful]] (resp. an [[equivalence of categories]]) is said to be a *descent morphism* (resp. *effective descent morphism*). 
+Given a [[fibered category]], a morphism along which the induced [[comparison functor]] between the [[category of descent data]] and the [[codomain fibration]] is [[fully faithful functor|fully faithful]] (resp. an [[equivalence of categories]]) is said to be a *descent morphism* (resp. *effective descent morphism*). 
 
 
 ## The case of codomain fibration 
@@ -24,7 +24,7 @@ Given a [[fibered category]], a morphism along which the induced [[comparison fu
 ### Definition
  {#Definition}
 
-Let $C$ be a [[category]] with [[pullbacks]] and [[coequalizers]].  For any [[morphism]] $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ (the "[[descent object]]") of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
+Let $C$ be a [[category]] with [[pullbacks]] and [[coequalizers]].  For any [[morphism]] $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The [[category of descent data]] for $p$ is the category $C^{ker(p)}$ (the "[[descent object]]") of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
 
 The evident internal functor $ker(p) \to B$ (viewing $B$ as a [[discrete category|discrete]] internal category) induces a *comparison functor* $C^B \to C^{ker(p)}$.  We say that $p$ is:
 
