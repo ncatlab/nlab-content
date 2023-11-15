@@ -238,6 +238,9 @@ Both examples are related by the [[Serre-Swan theorem]]. In fact both these fact
 
 * [[idempotent complete (infinity,1)-category]]
 
+For Karoubi envelopes of Kleisli categories, see the references on:
+
+* [[split idempotent]]
 
 
 ## References 
