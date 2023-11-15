@@ -24,7 +24,7 @@ Every convex set is [[star-shaped]] about each of its points, and hence [[contra
 
 ## Related notions
 
-* One generalization of convexity to [[Riemannian manifold]]s and [[metric space]]s is [[geodesic convexity]].
+* One generalization of convexity to [[Riemannian manifold | Riemannian manifolds]] and [[metric space | metric spaces]] is [[geodesic convexity]].
 
 * An abstract generalization of the notion of a convex set is that of a [[convex space]]. There is a nice characterization of those convex spaces which are isomorphic to convex subsets of real affine space.
 
