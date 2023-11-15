@@ -25,7 +25,7 @@ One might also consider the non-unital version, whose algebras are objects equip
 
 ### As a $Vect$-operad
 
-The _associative operad_, denoted $Ass$ or $Assoc$, is often taken to be the [[Vect]]-[[operad]] whose [[algebra over an operad|algebras]] are precisely [[associative unital algebras]].
+The _associative operad_, denoted $Assoc$ or $Ass$, is often taken to be the [[Vect]]-[[operad]] whose [[algebra over an operad|algebras]] are precisely [[associative unital algebras]].
 
 ### As a $Set$-operad
 
