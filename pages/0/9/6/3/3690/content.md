@@ -43,6 +43,11 @@ On [[general topology]], [[uniform structures]], [[topological groups]] and the 
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
 
+On [[topological vector spaces]]:
+
+* [[Nicolas Bourbaki]], *Topological Vector Spaces*, Chapters 1–5, Masson (1981), Springer (2003) &lbrack;[doi:10.1007/978-3-642-61715-7](https://doi.org/10.1007/978-3-642-61715-7)&rbrack;
+
+
 (...)
 
 
