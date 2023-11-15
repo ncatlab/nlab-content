@@ -424,9 +424,9 @@ and with emphasis on the relation to [[locally presentable category|locally pres
 
 
 
-That not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable is due to
+Proof that not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable:
 
-* Christian Lair, _Cat&#233;gories modelables et cat&#233;gories esquissables_, [Diagrammes (1981)](http://www.numdam.org/article/DIA_1981__6__A5_0.pdf).
+* [[Christian Lair]], *Catégories modelables et catégories esquissables*, Diagrammes **6** 5 (1981) &lbrack;[numdam:DIA_1981__6__A5_0](http://www.numdam.org/item/?id=DIA_1981__6__A5_0), [pdf](http://www.numdam.org/article/DIA_1981__6__A5_0.pdf)&rbrack;
 
 The tensor product of sketches is investigated here:
 
