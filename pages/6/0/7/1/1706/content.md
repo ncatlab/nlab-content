@@ -862,6 +862,7 @@ Review:
 
 
 
+[[!redirects cobordism hypotheses]]
 
 
 [[!redirects cobordism theorem]]
