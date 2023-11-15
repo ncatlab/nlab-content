@@ -27,6 +27,13 @@ on [[toposes]], [[monads]] ("triples"), and [[universal algebra]], [[categorical
 
 \linebreak
 
+See also the following, which was a review of the first edition of the book. Some, but not all, of the issues were addressed in the second edition:
+
+* {#Lair86} [[Christian Lair]], _À propos de «Toposes, triples and theories» de messieurs M. Barr et C. Wells_, Diagrammes **15** 4 (1986) L1-L20 &lbrack;[numdam:DIA_1986__15__A4_0](http://www.numdam.org/item/DIA_1986__15__A4_0)&rbrack;
+
+
+\linebreak
+
 ## Contents
 
 ## Preface  
@@ -182,6 +189,3 @@ on [[toposes]], [[monads]] ("triples"), and [[universal algebra]], [[categorical
 ###Index
 
 
-See also the following, which was a review of the first edition of the book. Some, but not all, of the issues were addressed in the second edition:
-
-* [[Christian Lair]], _À propos de «Toposes, triples and theories» de messieurs M. Barr et C. Wells_, Diagrammes 15 (1986): L1-L20 ([Nudam](http://www.numdam.org/item/DIA_1986__15__A4_0/))
