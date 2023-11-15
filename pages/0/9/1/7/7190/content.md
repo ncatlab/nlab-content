@@ -387,6 +387,10 @@ and for the special case of [[spectral Deligne-Mumford stacks]] in section 1.4 o
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
 
+More on proper geometric morphisms between [[(infinity,1)-toposes|$(\infty,1)$-toposes]]:
+
+* [[Louis Martini]], [[Sebastian Wolf]], _Proper morphisms of ∞-topoi_ &lbrack;[arXiv:2311.08051](https://arxiv.org/abs/2311.08051)&rbrack;.
+
 
 
 
