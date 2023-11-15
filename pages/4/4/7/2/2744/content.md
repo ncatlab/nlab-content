@@ -849,6 +849,10 @@ The relation of multisymplectic formalism to [[covariant phase space]] and [[var
 
 * [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100, 25 pages ([arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022))
 
+On multisymplectic [[boundary field theory]]:
+
+* [[José Zapata]], _Multisymplectic effective General Boundary Field Theory_ (2013) &lbrack;[pdf](http://relativity.phys.lsu.edu/ilqgs/zapata090313.pdf), [[Zapata-MultisymplecticBoundary.pdf:file]]&rbrack;
+
 
 
 ### On quantization of multisymplectic geometry {#RefsonQuantization}
