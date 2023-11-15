@@ -21,15 +21,22 @@ The concept of [[type]] of [[data]] in [[computer science]].
 
 ## Examples
 
-* [[Bool]], [[bit]], [[qbit]]
+* [[Bool]], [[bit]]
 
 * [[String (computer science)]]
+
+In [[quantum computation]]:
+
+* [[qbit]], [[qdit]]
+
 
 ## Related concepts
 
 * [[data]]
 
 * [[database]], [[database theory]]
+
+* [[monadic effect]]
 
 * [[function type]]
 
