@@ -84,6 +84,9 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 ## References
 
+* [[Nicolas Bourbaki]], *Topological Vector Spaces*, Chapters 1–5, Masson (1981), Springer (2003) &lbrack;[doi:10.1007/978-3-642-61715-7](https://doi.org/10.1007/978-3-642-61715-7)&rbrack;
+
+
 * {#Treves67} [[François Trèves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
 
 The following review gives lots of important examples
