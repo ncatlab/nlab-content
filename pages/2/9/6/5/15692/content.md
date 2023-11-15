@@ -3063,7 +3063,7 @@ $$
 
 Analytical aspects of special generalized functions associated to quadratic forms are given in 
 
-* {#GelfandShilov66} [[I. M. Gel'fand]], G.E. Shilov _Generalized Functions_, Vol. 1 chapter III, 2.10
+* {#GelfandShilov66} [[Israel M. Gelfand]], [[Georgy E. Shilov]], §III.2.10 in: *Generalized Functions* Vol. 1 (1958), Acad. Press  (1966-1968), AMS (2016) &lbrack;[ISBN:978-1-4704-2885-3](https://bookstore.ams.org/view?ProductCode=CHELGELFSET)&rbrack;
 
 Textbook accounts for quantum fields on [[Minkowski spacetime]] includes
 
