@@ -37,6 +37,9 @@ Introducing the [[GNS construction]]:
 
   Robert Doran (ed.), *$C^\ast$-Algebras: 1943–1993*, Contemporary Mathematics **167**, AMS 1994 ([doi:10.1090/conm/167](http://dx.doi.org/10.1090/conm/167))
 
+One of the first comprehensive series of texts on [[generalized functions]] also known as a [[distribution]]:
+
+* [[Israel Gelfand]], Georgiy Shilov, _Generalized Functions_, 1-6, AMS Chelsea (1963) translated from the original Russian (1958)
 
 
 category: people
