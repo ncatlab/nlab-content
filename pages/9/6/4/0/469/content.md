@@ -287,9 +287,7 @@ Original articles studying monoidal biclosed categories are
  
 * {#Lambek69} [[Joachim Lambek]], _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
 
-The category [[Cat]] is shown to have exactly two [[closed monoidal category|closed monoidal]] structures, each [[symmetric monoidal|symmetric]], in the paper:
 
-* François Foltz, Christian Lair, and [[G. M. Kelly]], _Algebraic categories with few monoidal biclosed structures or none_, Journal of Pure and Applied Algebra **17** 2 (1980), 171-177.  ([pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>)
 
 For more historical development see at _[linear type theory -- History of linear categorical semantics](linear+type+theory#HistoryCategoricalSemantics)_.
 
