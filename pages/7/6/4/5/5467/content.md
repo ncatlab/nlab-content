@@ -30,17 +30,17 @@ The elements of the constructible universe are called __[[constructible sets]]__
 
 $L$ is a [[transitive set|transitive]] [[big class]] containing all the ordinals.
 
-The sets in this class can be effectively enumerated by von Neumann ordinals. 
+There is a standard definition of a well-ordering of $L$, <${}_L$, therefore the sets in this class can be effectively enumerated by von Neumann ordinals, via the ranking function of <${}_L$.
 
 
 ## As inner model
-In fact, $L$ is a model of the set theory (consider ZF), namely the smallest transitive class containing all the ordinals. Indeed, we can well-order all sets and the axiom of choice holds for $L$ as a model. And even the generalized continuum hypothesis holds for $L$ as a model. 
-Note that properties of sets in the set theory might not hold as seen from within the inner model.
+In fact, $L$ is a model of the set theory (consider ZF), namely the smallest transitive class containing all the ordinals. Indeed, we can well-order all sets by a well-ordering <${}_L$ and therefore the axiom of choice holds in $L$. The generalized continuum hypothesis also holds in $L$.
+Note that properties that hold in $V$ need not hold in $L$.
 
 
 ## Relation to the von Neumann universe
 
-By $L=V$, set theories refer to the collapsing of the von Neumann universe $V$ to the "thinner" $L$. The question of whether $L\neq V$ can not be decided in ZF. If $L\neq V$ then we still do not know how, without an axiom of choice, to produce specific sets that are not constructible.
+$L=V$ is an axiom which states that every set is in $L$. This collapses the von Neumann universe $V$ to the "thinner" inner model $L$. The question of whether $L\neq V$ can not be decided in ZF. If $L\neq V$ then we still do not know how, without an axiom of choice, to produce specific sets that are not constructible.
 
 Given the independence, one may add $L=V$ as an axiom. However, note that formally stating that axiom is more technical (involving ordinals, etc.) than the standard set theory axioms. Moreover, by its restrictiveness, that axiom also rules out many other popular studied axioms (e.g. it is inconsistent with the existence of "large" [[large cardinals]] such as [[measurable cardinals]] and above).
 
