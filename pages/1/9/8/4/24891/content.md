@@ -1,5 +1,5 @@
 
-* [instiute page](https://homepages.uni-regensburg.de/~wos07573/paper.html)
+* [institute page](https://homepages.uni-regensburg.de/~wos07573/paper.html)
 
 ## Selected writings
 
@@ -17,6 +17,10 @@ internal [[presentable (∞,1)-categories]]:
 and [[(infinity,1)-toposes|$\infty$-toposes]] internal to [[(infinity,1)-toposes|$\infty$-toposes]]:
 
 * [[Louis Martini]], [[Sebastian Wolf]], *Internal higher topos theory* &lbrack;[arXiv:2303.06437](https://arxiv.org/abs/2303.06437)&rbrack;
+
+A treatment of [[proper morphisms]] in $(\infty, 1)$-toposes is in:
+
+* [[Louis Martini]], [[Sebastian Wolf]], _Proper morphisms of ∞-topoi_ &lbrack;[arXiv:2311.08051](https://arxiv.org/abs/2311.08051)&rbrack;.
 
 
 category: people
