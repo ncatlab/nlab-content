@@ -126,6 +126,11 @@ For [[topological phases of matter]] via [[higher gauge theory|higher]] lattice 
 
 * [[Joe Huxford]], [[Steven H. Simon]], *Excitations in the Higher Lattice Gauge Theory Model for Topological Phases I: Overview* &lbrack;[arXiv:2202.08294](https://arxiv.org/abs/2202.08294)&rbrack;
 
+Further on [[higher gauge theory|higher]] lattice gauge theory:
+
+* [[Juan Orendain]], [[José A. Zapata]], *Higher homotopy and lattice gauge fields* &lbrack;[arXiv:2311.02363](https://arxiv.org/abs/2311.02363)&rbrack;
+
+
 ### Computer simulations
  {#ReferencesMontoCarloSimulations}
 
