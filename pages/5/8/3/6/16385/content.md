@@ -62,7 +62,7 @@ A [[complex vector space]] $(V,J)$ equipped with a (positive definite) Hermitian
 ###### Proposition
 **(basic properties of [[Hermitian forms]])**
 
-Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianForm}). Then 
+Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianForm}). Then (cf. [Bourbaki 1981/2003, p. 91](#Bourbaki81)):
 
 1. the [[real part]] of the [[Hermitian form]] 
 
@@ -697,6 +697,11 @@ Discussion of Hermitian forms over the [[complex numbers]], as understood today,
   p. 21 in: *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
 
   pp. 38 in: *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+Textbook account:
+
+* {#Bourbaki81} [[Nicolas Bourbaki]], §V.1.1 in: *Topological Vector Spaces*, Chapters 1–5, Masson (1981), Springer (2003) &lbrack;[doi:10.1007/978-3-642-61715-7](https://doi.org/10.1007/978-3-642-61715-7)&rbrack;
+
 
 Textbook accounts in the context of [[operator algebras]]:
 
