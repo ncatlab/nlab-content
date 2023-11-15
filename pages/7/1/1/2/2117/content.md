@@ -97,6 +97,8 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 
 ## Related concepts
 
+* [[constructible universe]]
+
 * [[universe enlargement]]
 
 * [[universe polymorphism]]
