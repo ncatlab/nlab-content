@@ -24,11 +24,13 @@ As a [[unit]] of [[information]], a __bit__ is the amount of information needed 
 
 ## Related concepts
 
+* [[data type]]
+
 * [[truth value]]
 
 * [[logic gate]]
 
-* [[qbit]]
+* [[qbit]], [[qdit]]
 
 * [[computation]]
 
