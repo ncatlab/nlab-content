@@ -22,6 +22,8 @@ One can generalize to constructible elements in more general [[Boolean lattices]
 
 ## Related concepts
 
+* [[constructible universe]]
+
 * [[recursive subset]], [[definable set]]
 
 * [[constructible sheaf]]
