@@ -43,6 +43,8 @@ Other QPLs are more algorithmic (such as *[[Q Sharp]]*).
 
 * [[quantum logic gate]], [[quantum circuit]]
 
+* [[quantum computing]], [[quantum simulation]]
+
 * [[linear logic]], [[linear type theory]], [[dependent linear type theory]]
 
 
