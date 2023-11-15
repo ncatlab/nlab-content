@@ -103,6 +103,10 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 ## Related entries
 
+* [[quantum simulation]]
+
+* [[quantum sensing]]
+
 * [[quantum parallelism]], [[parallel computing]]
 
 * [[Bloch region]], [[quantum operation]]
