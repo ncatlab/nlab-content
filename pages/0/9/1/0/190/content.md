@@ -149,6 +149,10 @@ certain [[pushouts]]:
 
 * {#MacdonalScull09} [[John MacDonald]], [[Laura Scull]], _Amalgamations of categories_, Canad. Math. Bull. **52** 2 (2009) 273–284 &lbrack;[pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf), journal:[pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A414F5D3FA9FB08ACBBB72143C70FE28)&rbrack;
 
+Proof that the [[funny tensor product]] of [[categories]] is the only other [[symmetric closed monoidal category|symmetric closed monoidal structure]] on [[Cat]] besides the [[cartesian monoidal category|cartesian monoidal structure]]:
+
+* {#FoltzLairKelly80} [[François Foltz]], [[Christian Lair]], [[G. M. Kelly]], *Algebraic categories with few monoidal biclosed structures or none*, Journal of Pure and Applied Algebra **17** 2 (1980) 171-177 &lbrack;[pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>&rbrack;
+
 
 
 category: category
