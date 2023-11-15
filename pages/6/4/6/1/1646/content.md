@@ -381,6 +381,10 @@ Early history:
 
 * {#MacLane88} [[Saunders Mac Lane]]: *Hilbert space*, §5 in: *Concepts and Categories*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
 
+Textbook account:
+
+* [[Nicolas Bourbaki]], §V in: *Topological Vector Spaces*, Chapters 1–5, Masson (1981), Springer (2003) &lbrack;[doi:10.1007/978-3-642-61715-7](https://doi.org/10.1007/978-3-642-61715-7)&rbrack;
+
 
 Review:
 
