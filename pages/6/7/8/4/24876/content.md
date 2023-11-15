@@ -48,6 +48,8 @@ References which make this point explicit include [Kolganov, Mironov & Morozov (
 
 ## Related concepts
 
+* [[data type]]
+
 * [[qbit]]
 
 * [[quantum gate]], [[quantum circuit]]
