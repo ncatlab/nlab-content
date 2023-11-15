@@ -176,8 +176,7 @@ In this case,
 
 <img src="/nlab/files/ContravariantGrothendieckConstrSchema-230401.jpg" width="300">
 
-
-
+Note that this is not the same as the first (covariant) Grothendieck construction applied to $C^{op} \to Cat$, since, in that case, the morphisms between the objects of $C$ go in the opposite direction to one another.
 
 ## Properties
 
@@ -1331,6 +1330,8 @@ The [[Grothendieck construction]] on this functor may be called the *[[tangent c
 ## Related concepts
 
 * [[category of elements]]
+
+* [[two-sided fibration]]
 
 * [[indexed Grothendieck construction]]
 
