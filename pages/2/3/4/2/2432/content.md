@@ -85,7 +85,7 @@ $$
   \infty-\mathrm{proper} \Rightarrow ... \Rightarrow 1-proper \Rightarrow 0-proper
 $$
 
-This is where the inconsitency arises: in $\infty$-topos theory it is customary to call “proper morphism” the strongest notion while in 1-topos theory it is customary to use it for the weaker notion.
+This is where the inconsistency arises: in $\infty$-topos theory it is customary to call “proper morphism” the strongest notion while in 1-topos theory it is customary to use it for the weaker notion.
 Hence, a proper map of spaces $f\,:\, X \to Y$ will induce a proper map of 1-toposes but not a proper map of $\infty$-toposes (without extra assumptions).
 
 \end{remark} 
@@ -110,6 +110,11 @@ Hence, a proper map of spaces $f\,:\, X \to Y$ will induce a proper map of 1-top
 
 * wikipedia [proper morphism](http://en.wikipedia.org/wiki/Proper_morphism)
 * Daniel Halpern-Leistner, Anatoly Preygel, _Mapping stacks and categorical notions of properness_, [arxiv/1402.3204](http://arxiv.org/abs/1402.3204)
+
+A treatment of proper morphisms in $(\infty, 1)$-toposes is in:
+
+* [[Louis Martini]], [[Sebastian Wolf]], _Proper morphisms of ∞-topoi_ &lbrack;[arXiv:2311.08051](https://arxiv.org/abs/2311.08051)&rbrack;.
+
 
 [[!redirects proper morphism]]
 [[!redirects proper morphisms]]
