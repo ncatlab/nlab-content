@@ -1965,7 +1965,7 @@ Stone-von Neumann**
 
 * {#JohnsonFreydNov2023} 08 Nov 2023
 
-  [[Theo Johnson-Freyd]]:
+  [[Theo Johnson-Freyd]] (Dalhousie University):
 
   **Higher Dagger Categories**
 
@@ -1974,6 +1974,18 @@ Stone-von Neumann**
   cf. [categorified.net/dagger2023.html](http://categorified.net/dagger2023.html)
 
   > [[Hilbert spaces]] form more than a category: their morphisms maps can be composed, but also every morphism $f : X \to Y$ has a distinguished "[[adjoint operator|adjoint]]" $f^\dagger : Y \to X$, making it into a "[[dagger category]]". This extra data is important for axiomatizing [[functional analysis]], [[quantum mechanics]], [[quantum information theory]]... However, the assignment $f \mapsto f^\dagger$ is unsatisfying from a [[higher category theory|higher category theorist]]'s perspective because it is "evil", i.e. it violates the [[principle of equivalence]]: a category [[equivalence of categories|equivalent]] to a [[dagger category]] may not admit a dagger structure. This in particular interferes with generalizing the notion of dagger category to the (non-strict) [[higher categories]] necessary for axiomatizing [[extended field theory|fully-local quantum field theory]]. In this talk I will propose a manifestly non-evil definition of "dagger $(\infty,n)$-category". The same machinery also produce a non-evil definitions of "pivotal $(\infty,n)$-category" and helps to clarify the relationship between [[reflection positivity]] and [[spin-statistics theorem|spin-statistics]]. This is based on joint work with [[Bruce Bartlett|B. Bartlett]], G. Ferrar, B. Hungar, C. Krulewski, [[Lukas Müller|L. Müller]], N. Nivedita, [[David Penneys|D. Penneys]], [[David Reutter|D. Reutter]], [[Claudia Scheimbauer|C. Scheimbauer]], [[Luuk Stehouwer|L. Stehouwer]], and C. Vuppulury.
+
+\linebreak
+
+* 15 Nov 2023
+
+  [[Christoph Dorn]] (Oxford University):
+
+  **Manifold Diagrams -- A Brief Report**
+
+  cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
+
+  > [[manifold diagram|Manifold diagrams]] are the [[higher category|higher]] [[categorifications]] of [[string diagrams]]. They lie at the intersection of several interesting topics, such as: 1. The [[tangle hypothesis|tangle]] and [[cobordism hypotheses]], 2. The constructive description of free higher categorical structures, 3. The combinatorialization of differential structures and singularities. Nonetheless, the precise role of manifold diagrams in these topics remains largely mysterious. In this talk, we will focus on describing the basic interplay between ([[stratified space|stratified]]) geometry, [[combinatorics]], and (directed) cell complexes, exposed by the mathematical framework of manifold diagrams. This will include, in particular, two equivalent definitions of manifold diagrams, one geometric and one combinatorial, as well as a discussion of how these relate to the above topics
 
 
 \linebreak
