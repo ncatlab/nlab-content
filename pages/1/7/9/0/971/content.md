@@ -152,7 +152,7 @@ For a [[category]] $\mathcal{M}$ the following are equivalent:
 
 =--
 
-Moreover, one has the following result due to Christian Lair:
+Moreover, one has the following result due to [[Christian Lair]]:
 
 +-- {: .num_prop }
 ###### Proposition
