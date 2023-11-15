@@ -20,6 +20,8 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 
 ## Related concepts
 
+* [[quantum simulation]]
+
 * [[quantum biology]]
 
 * [[quantum cryptography]]
