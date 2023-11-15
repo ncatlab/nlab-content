@@ -8,6 +8,7 @@
 =--
 =--
 
+*This page is about double categories. For the use of 'tight' and 'loose' in the context of [[F-categories]], see there.*
 
 #Contents#
 * table of contents
