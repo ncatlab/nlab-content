@@ -78,6 +78,8 @@ In [[triangulated categories]]:
 
 On split idempotents in [[Kleisli categories]]:
 
+* [[Rene Guitart]] and J. Riguet. _Enveloppe Karoubienne de catégories de Kleisli_, Cahiers de topologie et géometrie différentielle catégoriques 33.3 (1992): 261-266. ([Numdam](http://www.numdam.org/item/CTGDC_1992__33_3_261_0/))
+
 * [[Robert Rosebrugh]] and [[Richard Wood]], _Split structures_, [[TAC]] 13.12 (2004): 172-183. ([TAC](https://www.tac.mta.ca/tac/volumes/13/12/13-12abs.html))
 
 * {#Menni09}[[Matías Menni]], _Algebraic categories whose projectives are explicitly free_ , TAC **22** no.20 (2009) pp.509-541. ([abstract](http://www.tac.mta.ca/tac/volumes/22/20/22-20abs.html))
