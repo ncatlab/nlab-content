@@ -2108,7 +2108,7 @@ $$
 ###### Proof
 
 The statement follows immediately from the result
-([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell)
+([Gel'fand-Shilov 66, III 2.10 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell)
 
 We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
 
@@ -2530,7 +2530,7 @@ $$
 ###### Proof
 
 The statement follows immediately from the result
-([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell).
+([Gel'fand-Shilov 66, III 2.10 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell).
 
 We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
 
@@ -3063,7 +3063,7 @@ $$
 
 Analytical aspects of special generalized functions associated to quadratic forms are given in 
 
-* {#GelfandShilov66} [[Israel M. Gelfand]], [[Georgy E. Shilov]], §III.2.10 in: *Generalized Functions* Vol. 1 (1958), Acad. Press  (1966-1968), AMS (2016) &lbrack;[ISBN:978-1-4704-2885-3](https://bookstore.ams.org/view?ProductCode=CHELGELFSET)&rbrack;
+* {#GelfandShilov66} [[Israel M. Gelfand]], [[Georgiy E. Shilov]], §III.2.10 in: *Generalized Functions* Vol. 1 (1958), Acad. Press  (1966-1968), AMS (2016) &lbrack;[ISBN:978-1-4704-2885-3](https://bookstore.ams.org/view?ProductCode=CHELGELFSET)&rbrack;
 
 Textbook accounts for quantum fields on [[Minkowski spacetime]] includes
 
