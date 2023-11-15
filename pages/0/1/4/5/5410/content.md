@@ -13,8 +13,6 @@
 =--
 =--
 
-# Two-sided fibrations
-
 * table of contents
 {:toc}
 
