@@ -793,26 +793,12 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 **Homotopy Type Theory and Computing -- Classical and Quantum**
 
-> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (`HoTT`) as a means of computing, such as possibly in its application to ([[topological quantum computing|topological]]) [[quantum computing]]/simulation, of which first glimpses have recently been conceived.
+> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (`HoTT`) as a substrate for computing and [[software verification|verification]] in software development, in [[synthetic homotopy theory]], and possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/simulation.
 
-\begin{imagefromfile}
-    "file_name": "LHoTTasQuantumMicroscope.jpg",
-    "float": "right",
-    "width": 350,
-    "unit": "px",
-    "margin": {
-        "top": -40,
-        "bottom": 20,
-        "right": 90, 
-        "left": 90
-    }
-\end{imagefromfile}
+> Some talks will focus on recent progress on the general issue of running HoTT programs which use the [[univalence axiom]]: such as via "[[cubical type theory|cubical TT]]" or the more recent "[[higher observational type theory|higher observational TT]]". Other talks will focus on design patterns for practical (quantum) programming and [[software verification|certification languages]], notably via [[modal types]] and [[monadic effects]] (in [[modal homotopy type theory|modal extensions of HoTT]]). 
 
-> A point of contact between HoTT and Quantum is the recently developed "[[linear homotopy type theory|Linear HoTT]]" (`LHoTT`), akin to the Proto-[[Quipper]]-language, which equips classical HoTT with additional "[[linear type theory|linear]]" types that may be thought of as quantum data types of a [[certified programming|certifiable]] [[quantum programming language]] expressing [classical control](quantum+computation#ClassicalControlQuantumData) of quantum data, [[dynamic lifting]] of [[quantum measurement]] results, and [[topological quantum computation|topological quantum gates]].
+> In this vein, our local speakers will present a point of contact between modal HoTT and Quantum: the recently developed "[[linear homotopy type theory|Linear HoTT]]" (`LHoTT`) that equips classical HoTT with additional "[[linear type theory|linear]]" types which may be thought of as quantum data types. The `LHoTT` approach to quantum programming interprets a significant fragment of the Proto-[[Quipper]]-language, now with dependent types enabling verification. We hope to bring all this theoretical progress into contact with efforts to understand how to use (`L`)`HoTT` for actual (quantum) computing, simulation and verification.
 
-> Some talks will focus on recent progress on the general issue of running HoTT programs which use the [[univalence axiom]], such as via "[[cubical type theory|cubical TT]]" or more recent "[[higher observational type theory|higher observational TT]]" methods. We hope to bring this theoretical progress into contact with efforts to understand how to use (`L`)`HoTT` for actual (quantum) computing, simulation and verification.
-
-> Other talks will focus on design patterns for practical (quantum) programming and [[software verification|certification]] languages, notably via [[modal types]] ([[modal homotopy type theory|modal HoTT]]) and [[monadic effects]]. 
 
 **Speakers:**
 
@@ -1977,7 +1963,7 @@ Stone-von Neumann**
 
 \linebreak
 
-* 15 Nov 2023
+* {#DornNov2023} 15 Nov 2023
 
   [[Christoph Dorn]] (Oxford University):
 
@@ -1985,7 +1971,7 @@ Stone-von Neumann**
 
   cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
 
-  > [[manifold diagram|Manifold diagrams]] are the [[higher category|higher]] [[categorifications]] of [[string diagrams]]. They lie at the intersection of several interesting topics, such as: 1. The [[tangle hypothesis|tangle]] and [[cobordism hypotheses]], 2. The constructive description of free higher categorical structures, 3. The combinatorialization of differential structures and singularities. Nonetheless, the precise role of manifold diagrams in these topics remains largely mysterious. In this talk, we will focus on describing the basic interplay between ([[stratified space|stratified]]) geometry, [[combinatorics]], and (directed) cell complexes, exposed by the mathematical framework of manifold diagrams. This will include, in particular, two equivalent definitions of manifold diagrams, one geometric and one combinatorial, as well as a discussion of how these relate to the above topics
+  > [[manifold diagram|Manifold diagrams]] are the [[higher category|higher]] [[categorifications]] of [[string diagrams]]. They lie at the intersection of several interesting topics, such as: 1. The [[tangle hypothesis|tangle]] and [[cobordism hypotheses]], 2. The constructive description of [[computads|free higher categorical structures]], 3. The combinatorialization of differential structures and [singularities](cobordism+hypothesis#ForCobordismsWithSingularities). Nonetheless, the precise role of manifold diagrams in these topics remains largely mysterious. In this talk, we will focus on describing the basic interplay between ([[stratified space|stratified]]) geometry, [[combinatorics]], and (directed) cell complexes, exposed by the mathematical framework of manifold diagrams. This will include, in particular, two equivalent definitions of manifold diagrams, one geometric and one combinatorial, as well as a discussion of how these relate to the above topics
 
 
 \linebreak
