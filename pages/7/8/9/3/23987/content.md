@@ -670,7 +670,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Coherence of confined matter in lattice gauge theories at the mesoscopic scales**
 
-  > [[atomtronics|Atomtronics]] is the emerging quantum technology of matter-wave circuits which coherently guide propagating ultra-cold atoms. The field benefits from the remarkable progress in micro optics, allowing to control the coherent matter with enhanced flexibility on the micron spatial scale. This way, both fundamental studies in quantum science and technological applications can be carried out. I will sketch recent progress in matter-wave circuitry and [[atomtronics]]-based quantum technology. In particular,  I will focus on a specific  scheme simulating [[lattice gauge theories]] and analyze [[confinement|confined]] matter at the mesoscopic spatial scale.
+  > [[atomtronics|Atomtronics]] is the emerging quantum technology of matter-wave circuits which coherently guide propagating ultra-cold atoms. The field benefits from the remarkable progress in micro optics, allowing to control the coherent matter with enhanced flexibility on the micron spatial scale. This way, both fundamental studies in quantum science and technological applications can be carried out. I will sketch recent progress in matter-wave circuitry and [[atomtronics]]-based quantum technology. In particular,  I will focus on a specific  scheme [[quantum simulation|simulating]] [[lattice gauge theories]] and analyze [[confinement|confined]] matter at the mesoscopic spatial scale.
 
 \linebreak
 
@@ -793,11 +793,13 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 **Homotopy Type Theory and Computing -- Classical and Quantum**
 
-> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (`HoTT`) as a substrate for computing and [[software verification|verification]] in software development, in [[synthetic homotopy theory]], and possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/simulation.
+> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (`HoTT`) as a substrate for [[computing]] and [[software verification|verification]] in software development, in [[synthetic homotopy theory]], and possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/[[quantum simulation|simulation]].
 
-> Some talks will focus on recent progress on the general issue of running HoTT programs which use the [[univalence axiom]]: such as via "[[cubical type theory|cubical TT]]" or the more recent "[[higher observational type theory|higher observational TT]]". Other talks will focus on design patterns for practical (quantum) programming and [[software verification|certification languages]], notably via [[modal types]] and [[monadic effects]] (in [[modal homotopy type theory|modal extensions of HoTT]]). 
+> Some talks will focus on recent progress on the general issue of running HoTT programs that use the [[univalence axiom]]: such as via "[[cubical type theory|cubical TT]]" or the more recent "[[higher observational type theory|higher observational TT]]". Other talks will focus on design patterns for practical ([[quantum programming language|quantum]]) [[programming language|programming]] and [[software verification|certification languages]], notably via [[modal types]] and [[monadic effects]] (in [[modal homotopy type theory|modal extensions of HoTT]]). 
 
-> In this vein, our local speakers will present a point of contact between modal HoTT and Quantum: the recently developed "[[linear homotopy type theory|Linear HoTT]]" (`LHoTT`) that equips classical HoTT with additional "[[linear type theory|linear]]" types which may be thought of as quantum data types. The `LHoTT` approach to quantum programming interprets a significant fragment of the Proto-[[Quipper]]-language, now with dependent types enabling verification. We hope to bring all this theoretical progress into contact with efforts to understand how to use (`L`)`HoTT` for actual (quantum) computing, simulation and verification.
+> In this vein, our local speakers will present a point of contact between modal HoTT and Quantum: the recently developed "[[linear homotopy type theory|Linear HoTT]]" (`LHoTT`) that equips classical HoTT with [[dependent linear type theory|dependent]] "[[linear type theory|linear]]" types which may be thought of as quantum [[data types]]. The `LHoTT` approach to quantum programming interprets a significant [[fragment]] of the [[Proto-Quipper]]-language, now with [[identity types]] enabling full [[software verification|verification]]. 
+
+> We hope to bring all this theoretical progress into contact with efforts to understand how to use (`L`)`HoTT` for actual ([[quantum computing|quantum]]) [[computing]], [[quantum simulation|simulation]] and [[software verification|verification]].
 
 
 **Speakers:**
@@ -807,6 +809,8 @@ External:
 * [[Thorsten Altenkirch]]
 
 * [[Ulrik Buchholtz]]
+
+* [[Dongho Lee]]
 
 * [[Anders Mörtberg]]
 
@@ -945,7 +949,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   video: [rec](https://zoom.us/rec/play/FZOBvACSJsDzpqZ0WIf4WItlhF08IxP-vrgrRlfqsWqHFm8LFiiy5JD_7kTu5d1-WldA0oxXXCgjlbAg.S-7IQQf-XfhxNIbG?continueMode=true&iet=wHgMaPo0jUhLbgeLcRNNRn4t5tDEUui0GTZy7IskgfM.AG.2korr3jfgIJd-6R5zSQmb3fYA-lyqwuLti8O9KDQ0vDH8BJ2-bMcnQ1yboWDw8reV-2SKgLjwd0sVdHZWJR43y1ixw0PN4rGqDzSb3jdnroRh3nsq2fYp2s4b7Iavne-LwST3jI59_Y.gBff8xUXVV4VPqWf5kNIpg.gASLSIaf0KVBzA1A&_x_zm_rtaid=MnFZqJMnRzKokesOCUS66w.1667975314563.2bcd3ca7ce0a0ad02b775305bfa3c96f&_x_zm_rhtaid=473)
 
-  > Combining physics, mathematics and computer science, [[topological quantum computation|topological quantum information]] [&lbrack;1&rbrack;](#PachosRefNov22) is a rapidly expanding field of research focused on the exploration of quantum evolutions that are resilient to errors. In this talk I will present a variety of different topics starting from introducing [[anyon|anyonic models]], [[topological phases of matter]], [[Majorana fermions]], characterising [[knot invariants]], their quantum simulation with anyons and finally the possible realisation of anyons in the laboratory. 
+  > Combining physics, mathematics and computer science, [[topological quantum computation|topological quantum information]] [&lbrack;1&rbrack;](#PachosRefNov22) is a rapidly expanding field of research focused on the exploration of quantum evolutions that are resilient to errors. In this talk I will present a variety of different topics starting from introducing [[anyon|anyonic models]], [[topological phases of matter]], [[Majorana fermions]], characterising [[knot invariants]], their [[quantum simulation]] with [[anyons]] and finally the possible realisation of anyons in the laboratory. 
 
   > $\,$
 
@@ -1053,7 +1057,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Quantum energy teleportation is a theoretical concept in [[quantum physics]] that describes the transfer of [[energy]] from one location to another without the need for a physical medium to carry it. This is made possible by means of universal properties of [[quantum entanglement]] and measurement of quantum states. The role of QET in physics and information engineering is largely unexplored, as the theory has not received much attention for long time since it was proposed about 15 years ago. To validate it on a real quantum processor, my research has tested the energy teleportation protocol in its most visible form for the first time on IBM's superconducting quantum computer. In my colloquium talk, I will explain the historical background of quantum energy teleportation, quantum circuits and quantum operations. Moreover I will present a concrete setup for a long-distance and large-scale quantum energy teleportation with real [[quantum networks]].
 
-  > In addition, I will present the results of quantum simulations with relativistic field theory as a study based on the high-energy physics perspective and the [[symmetry protected topological phase|symmetry-protected topological (SPT) phase of matter]] of quantum energy teleportation. The models will describe include the two dimensional QED (the massive Thirring model), the AKLT model, the [[Haldane model]], and the Kitaev model. Those results show that the phase diagrams of the field theory and SPT phase are closely related to energy teleportation.
+  > In addition, I will present the results of [[quantum simulations]] with relativistic field theory as a study based on the high-energy physics perspective and the [[symmetry protected topological phase|symmetry-protected topological (SPT) phase of matter]] of quantum energy teleportation. The models will describe include the two dimensional QED (the massive Thirring model), the AKLT model, the [[Haldane model]], and the Kitaev model. Those results show that the phase diagrams of the field theory and SPT phase are closely related to energy teleportation.
 
   > In summary my talk will provide a novel suggestion that quantum energy teleportation paves a new pathway to a link between quantum communication on real [[quantum network]], phase diagram of quantum many-body system, and quantum computation.
 
