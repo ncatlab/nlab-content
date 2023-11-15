@@ -65,7 +65,7 @@ EGA was never completed. The listed volumes I-IV are just a part of the original
 
 The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C3%A9trie_Alg%C3%A9brique_du_Bois_Marie) lists all of the seminars.
 
-[[Pierre Deligne]] edited a supplementary volume  _SGA $4\frac{1}{2}$_ comprisings parts of [[SGA5]], his own articles proving new results and some substantially rewritten and expanded material exposed in less satisfactory form in SGA5 (these results were used for his proof of the [[Weil conjecture]]s which appeared before SGA5).
+[[Pierre Deligne]] edited a supplementary volume  _SGA $4\frac{1}{2}$_ comprisings parts of [[SGA5]], his own articles proving new results and some substantially rewritten and expanded material exposed in less satisfactory form in SGA5 (these results were used for his proof of the [[Weil conjecture | Weil conjectures]] which appeared before SGA5).
 
 An ongoing project aims to retype the SGA volumes in TeX.
 So far the following volumes have been retyped:
