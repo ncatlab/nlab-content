@@ -62,7 +62,7 @@ A [[complex vector space]] $(V,J)$ equipped with a (positive definite) Hermitian
 ###### Proposition
 **(basic properties of [[Hermitian forms]])**
 
-Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianForm}). Then (cf. [Bourbaki 1981/2003, p. 91](#Bourbaki81)):
+Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianForm}). Then:
 
 1. the [[real part]] of the [[Hermitian form]] 
 
@@ -128,6 +128,7 @@ These are called the _[[Hermitian metrics]]_.
 
 =--
 
+(eg. [Huybrechts 2004, Lem. 1.2.15](#Huybrechts04))
 
 +-- {: .proof}
 ###### Proof
@@ -702,6 +703,7 @@ Textbook account:
 
 * {#Bourbaki81} [[Nicolas Bourbaki]], §V.1.1 in: *Topological Vector Spaces*, Chapters 1–5, Masson (1981), Springer (2003) &lbrack;[doi:10.1007/978-3-642-61715-7](https://doi.org/10.1007/978-3-642-61715-7)&rbrack;
 
+* {#Huybrechts04} [[Daniel Huybrechts]],  §1.2 in: _Complex geometry: An introduction_, Universitext, Springer (2004) &lbrack;[doi:10.1007/b137952](https://doi.org/10.1007/b137952), [pdf](http://www.im.ufrj.br/~andrew/ensino/VC20-1/Huybrechts-Complex_Geometry.pdf)&rbrack;
 
 Textbook accounts in the context of [[operator algebras]]:
 
