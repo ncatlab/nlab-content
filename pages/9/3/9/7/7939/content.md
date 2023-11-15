@@ -41,6 +41,8 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## Related concepts
 
+* [[data type]]
+
 * [[spin resonance qbit]]
 
 * [[one clean qbit]]
