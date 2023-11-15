@@ -3061,6 +3061,10 @@ $$
 
 ## References
 
+Analytical aspects of special generalized functions associated to quadratic forms are given in 
+
+* {#GelfandShilov66} [[I. M. Gel'fand]], G.E. Shilov _Generalized Functions_, Vol. 1 chapter III, 2.10
+
 Textbook accounts for quantum fields on [[Minkowski spacetime]] includes
 
 * {#Scharf95} [[Günter Scharf]],  section 2.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
