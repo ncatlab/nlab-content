@@ -117,7 +117,7 @@ Discussion of some [[dependent linear type theory]] and [[categorical semantics]
 ### Dynamic lifting
 {#ReferencesDynamicLifting} 
 
-The issue of "[[dynamic lifting]]" (of "bits" resulting from [[quantum measurement]] back into the "[[context]]"):
+The issue of "[[dynamic lifting]]" (of "[[bits]]" resulting from [[quantum measurement]] back into the "[[context]]"):
 
 * brief mentioning on [GLRSV13, p. 5](#GLRSV13)
 
