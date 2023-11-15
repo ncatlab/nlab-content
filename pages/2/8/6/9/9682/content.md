@@ -49,8 +49,7 @@ For more see the references at _[[defect field theory]]_.
 
 Comments in the context of [[multisymplectic geometry]] are in 
 
-* [[José Zapata]], _Multisymplectic effective
-General Boundary Field Theory_, ([pdf](http://relativity.phys.lsu.edu/ilqgs/zapata090313.pdf))
+* [[José Zapata]], _Multisymplectic effective General Boundary Field Theory_ (2013) &lbrack;[pdf](http://relativity.phys.lsu.edu/ilqgs/zapata090313.pdf), [[Zapata-MultisymplecticBoundary.pdf:file]]&rbrack;
 
 Axiomatization and examples of boundary field theories in [[local prequantum field theory]] is in
 
