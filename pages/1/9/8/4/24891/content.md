@@ -18,9 +18,10 @@ and [[(infinity,1)-toposes|$\infty$-toposes]] internal to [[(infinity,1)-toposes
 
 * [[Louis Martini]], [[Sebastian Wolf]], *Internal higher topos theory* &lbrack;[arXiv:2303.06437](https://arxiv.org/abs/2303.06437)&rbrack;
 
-A treatment of [[proper morphisms]] in $(\infty, 1)$-toposes is in:
+On [[proper geometric morphisms]] between [[(infinity,1)-toposes|$(\infty,1)$-toposes]]:
 
 * [[Louis Martini]], [[Sebastian Wolf]], _Proper morphisms of ∞-topoi_ &lbrack;[arXiv:2311.08051](https://arxiv.org/abs/2311.08051)&rbrack;.
+
 
 
 category: people
