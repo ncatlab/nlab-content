@@ -61,7 +61,7 @@ Proper maps of locales can also be characterized as those that are universally c
 
 ### Between toposes
 
-Proper maps of locales can be generalized to [[geometric morphisms]] of [[Grothendieck toposes]]; see [[proper geometric morphism]].
+Proper maps of locales can be generalized to [[geometric morphisms]] of [[Grothendieck toposes]]; see *[[proper geometric morphism]]*.
 
 The topos-theoretic condition refers only to directed unions of subterminal objects, suggesting a stronger condition that it preserve all [[filtered colimits]].  This is a strictly stronger condition even for locales (i.e. [[localic toposes]]), called being *tidy*.  In fact properness and tidiness are the first two rungs on an infinite ladder of higher properness for [[higher toposes]].
 
@@ -92,6 +92,8 @@ Hence, a proper map of spaces $f\,:\, X \to Y$ will induce a proper map of 1-top
 
 ## Related concepts
 
+* [[proper geometric morphism]]
+
 * [[proper map]], [[open map]], [[closed map]]
 
 * [[open morphism]], [[closed morphism]]
@@ -106,14 +108,12 @@ Hence, a proper map of spaces $f\,:\, X \to Y$ will induce a proper map of 1-top
 
 * [[Georges Maltsiniotis]], _Structures d'asph&#233;ricit&#233;, foncteurs lisses, et fibrations_, Ann. Math. Blaise Pascal __12__, pp. 1-39 (2005) ([ps](http://people.math.jussieu.fr/~maltsin/ps/asphbl.ps)).
  {#Maltsiniotis}
+
 (TO ADD: The definition of a proper dg algebra, proper dg category, proper A-inf cat ???)
 
-* wikipedia [proper morphism](http://en.wikipedia.org/wiki/Proper_morphism)
+* Wikipedia, *[Proper morphism](http://en.wikipedia.org/wiki/Proper_morphism)*
+
 * Daniel Halpern-Leistner, Anatoly Preygel, _Mapping stacks and categorical notions of properness_, [arxiv/1402.3204](http://arxiv.org/abs/1402.3204)
-
-A treatment of proper morphisms in $(\infty, 1)$-toposes is in:
-
-* [[Louis Martini]], [[Sebastian Wolf]], _Proper morphisms of ∞-topoi_ &lbrack;[arXiv:2311.08051](https://arxiv.org/abs/2311.08051)&rbrack;.
 
 
 [[!redirects proper morphism]]
