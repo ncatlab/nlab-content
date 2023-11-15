@@ -16,7 +16,7 @@
 
 ## Idea
 
-Generalization of the [[Grothendieck construction]] from [[categories]] to [[2-categories]].
+Generalization of the [[Grothendieck construction]] from [[categories]] to [[2-categories]] and [[bicategories]].
 
 ## Related concepts
 
@@ -24,7 +24,17 @@ Generalization of the [[Grothendieck construction]] from [[categories]] to [[2-c
 
 ## References
 
+Street defines a bicategory of elements construction for pseudodistributors/pseudoprofunctors in (1.10) of:
+
+* [[Ross Street]], _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
+
+More exhaustive references:
+
 * [[Igor Baković]], *Grothendieck construction for bicategories* &lbrack;[pdf](https://www2.irb.hr/korisnici/ibakovic/sgc.pdf)&rbrack;
+
+* [[Igor Baković]], *Fibrations of bicategories* &lbrack;[pdf](https://www2.irb.hr/korisnici/ibakovic/groth2fib.pdf)&rbrack;
+
+* [[Mitchell Buckley]]. _Fibred 2-categories and bicategories_, Journal of pure and applied algebra 218.6 (2014): 1034-1074 ([doi](https://doi.org/10.1016/j.jpaa.2013.11.002))
 
 See also:
 
