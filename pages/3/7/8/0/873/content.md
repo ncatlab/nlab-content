@@ -14,7 +14,7 @@ A subset of a given [[set]] $A$ is a set $B$ that may be viewed as contained wit
 
 In [[material set theory]], a __subset__ of a [[set]] $A$ is a set $B$ with the *property* that
 $$ x \in B \;\Rightarrow\; x \in A $$
-for any object $x$ whatsoever.  One writes $B \subseteq A$ or $B \subset A$ (depending on the author) if $B$ has this property.  Set theory\'s [[axiom of extensionality]] says that $A = B$ if (and only if) $A \subseteq B$ and $B \subseteq A$ (although this is only strong enough for [[well-founded set]]s).
+for any object $x$ whatsoever.  One writes $B \subseteq A$ or $B \subset A$ (depending on the author) if $B$ has this property.  Set theory\'s [[axiom of extensionality]] says that $A = B$ if (and only if) $A \subseteq B$ and $B \subseteq A$ (although this is only strong enough for [[well-founded set | well-founded sets]]).
 
 ### In structural set theory
 
