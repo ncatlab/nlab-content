@@ -26,7 +26,7 @@ By *quantum sensing* (or *quantum metrology*) one means the theory technology of
 
 * [[quantum measurement]]
 
-* [[quantum computing]]
+* [[quantum computing]], [[quantum simulation]]
 
 * [[quantum communication]]
 
