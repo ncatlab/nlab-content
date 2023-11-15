@@ -153,11 +153,22 @@ For foundations of higher gauge theory formalized in [[homotopy type theory]] se
 
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
 
-For higher gauge theory in [[condensed matter physics]] see
+On higher gauge theory in [[condensed matter physics]]:
 
-* Chenchang Zhu, Tian Lan, Xiao-Gang Wen, _Topological non-linear σ-model, higher gauge theory, and a realization of all 3+1D topological orders for boson systems_, ([arXiv:1808.09394](https://arxiv.org/abs/1808.09394))
+* [[Chenchang Zhu]], Tian Lan, [[Xiao-Gang Wen]], _Topological non-linear σ-model, higher gauge theory, and a realization of all 3+1D topological orders for boson systems_ &lbrack;[arXiv:1808.09394](https://arxiv.org/abs/1808.09394)&rbrack;
 
 * J.P. Ang, Abhishodh Prakash, _Higher categorical groups and the classification of topological defects and textures_, ([ arXiv:1810.12965](https://arxiv.org/abs/1810.12965))
+
+Specifically on [[topological phases of matter]] via higher  [[lattice gauge theory]]:
+
+* [[Joe Huxford]], *The higher lattice gauge theory model for topological phases of matter*, PhD thesis, Oxford (2022) &lbrack;[uuid:e789bf29-179b-4b79-9168-605bf8c035ba](https://ora.ox.ac.uk/objects/uuid:e789bf29-179b-4b79-9168-605bf8c035ba), [pdf](https://ora.ox.ac.uk/objects/uuid:e789bf29-179b-4b79-9168-605bf8c035ba/files/ddj52w5202)&rbrack;
+
+* [[Joe Huxford]], [[Steven H. Simon]], *Excitations in the Higher Lattice Gauge Theory Model for Topological Phases I: Overview* &lbrack;[arXiv:2202.08294](https://arxiv.org/abs/2202.08294)&rbrack;
+
+Further on higher [[lattice gauge theory]]:
+
+* [[Juan Orendain]], [[José A. Zapata]], *Higher homotopy and lattice gauge fields* &lbrack;[arXiv:2311.02363](https://arxiv.org/abs/2311.02363)&rbrack;
+
 
 
 
