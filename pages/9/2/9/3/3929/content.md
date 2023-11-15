@@ -42,6 +42,10 @@ The [[coherence theorem]] for [[compact closed categories]] (cf. *[[coherence th
 
 * {#KellyLaplaza80} [[Max Kelly]], [[M. L. Laplaza]], *Coherence for compact closed categories*, Journal of Pure and Applied Algebra, **19** 193-213 (1980) &lbrack;<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf)&rbrack;
 
+Proof that the [[funny tensor product]] of [[categories]] is the only other [[symmetric closed monoidal category|symmetric closed monoidal structure]] on [[Cat]] besides the [[cartesian monoidal category|cartesian monoidal structure]]:
+
+* {#FoltzLairKelly80} [[François Foltz]], [[Christian Lair]], [[G. M. Kelly]], *Algebraic categories with few monoidal biclosed structures or none*, Journal of Pure and Applied Algebra **17** 2 (1980) 171-177 &lbrack;[pdf](https://core.ac.uk/download/pdf/82322397.pdf), <a href="https://doi.org/10.1016/0022-4049(80)90082-1">doi:10.1016/0022-4049(80)90082-1</a>&rbrack;
+
 
 On [[enriched category theory]]:
 
@@ -124,8 +128,9 @@ On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
 1. (with F. Borceux) A notion of limit for enriched categories, Bulletin Austral. Math. Soc. 12 (1975) 49–72.
 1. Quelques observations sur les demonstrations par récurrence transfinie en algébre catégorique, Cahiers de topologie et géométrie différentielle 16 (1975) 259–263.
 1. (with A. Pultr) On algebraic recognition of direct-product decompositions, J. Pure Appl. Algebra 12 (1978) 207–224.
+
 1. Saunders Mac Lane and category theory, in Saunders Mac Lane, Selected Papers (Springer-Verlag, New York, Heidelberg, Berlin, 1979) 527–543.
-1. (with F. Foltz and C. Lair) Algebraic categories with few monoidal biclosed structures or none, J. Pure Appl. Algebra 17 (1980) 171–177.
+
 1. Examples of non-monadic structures on categories, J. Pure Appl. Algebra 18 (1980) 59–66.
 1. (with M. L. Laplaza) Coherence for compact closed categories, J. Pure Appl. Algebra 19 (1980) 193–213.
 1. A unified treatment of transfinite construction for free algebras, free monoids, colimits, associated sheaves, and so on, Bulletin Austral. Math. Soc. 22 (1980) 1–83.
