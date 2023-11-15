@@ -3025,6 +3025,10 @@ Textbook discussion for [[free fields]] in [[Minkowski spacetime]] is in
 
 (there denoted "$-i D_m(x-y)$" and called the "Jordan-Pauli function").
 
+Analytical aspects of special generalized functions associated to quadratic forms are given in 
+
+* {#GelfandShilov66} [[I. M. Gel'fand]], G.E. Shilov _Generalized Functions_, Vol. 1 chapter III, 2.10
+
 
 An overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence of the [[Feynman propagator]], [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
 
