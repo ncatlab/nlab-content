@@ -359,9 +359,9 @@ A general abstract discussion in [[stable (∞,1)-category]] theory is in
 
 * {#Rezk06} [[Charles Rezk]], section II of _The units of a ring spectrum and a logarithmic cohomology operation_, J. Amer. Math. Soc. 19 (2006), 969-1014 ([arXiv:math/0407022](http://arxiv.org/abs/math/0407022))
 
-* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ &lbrack;[arXiv:0810.4535](http://arxiv.org/abs/0810.4535)&rbrack;
  
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra, orientations, and Thom spectra via rigid infinite loop space theory_, Journal of Topology, Volume7, Issue 4, December 2014 ([arXiv:1403.4320](https://arxiv.org/abs/1403.4320), [arXiv:10.1112/jtopol/jtu009](https://doi.org/10.1112/jtopol/jtu009))
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra, orientations, and Thom spectra via rigid infinite loop space theory_, Journal of Topology **7** 4 (2014) &lbrack;[arXiv:1403.4320](https://arxiv.org/abs/1403.4320), [doi:10.1112/jtopol/jtu009](https://doi.org/10.1112/jtopol/jtu009)&rbrack;
 
 * {#LurieI} [[Jacob Lurie]], construction 3.9.4 of _Elliptic Cohomology I: Spectral Abelian Varieties_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
