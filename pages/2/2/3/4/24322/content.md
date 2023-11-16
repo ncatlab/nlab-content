@@ -16,6 +16,10 @@ Discussion of [[exponential law for spaces|exponential objects]] in [[slice cate
 
 * {#BoothBrown78b} [[Peter I. Booth]], [[Ronnie Brown]], *On the application of fibred mapping spaces to exponential laws for bundles, ex-spaces and other categories of maps*, General Topology and its Applications **8** 2 (1978) 165-179 $[$<a href="https://doi.org/10.1016/0016-660X(78)90048-X">doi:10.1016/0016-660X(78)90048-X</a>$]$
 
+On [[adjoint strings]] of [[functors]]:
+
+* {#Booth72} [[Peter I. Booth]], *Sequences of adjoint functors*, Archiv der Mathematik **23** (1972)  489-493 &lbrack;[doi:10.1007/BF01304920](https://doi.org/10.1007/BF01304920)&rbrack;
+
 
 category: people
 
