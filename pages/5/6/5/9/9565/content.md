@@ -110,7 +110,8 @@ based on
 
 Discussion specifically for [[circle group]] [[actions]] is in 
 
-*  [[Ana Cannas da Silva]], [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_ ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
+*  [[Ana Cannas da Silva]], [[Yael Karshon]], [[Susan Tolman]], *Quantization of Presymplectic Manifolds and Circle Actions*, Transactions of the AMS **352** 2 (2000) 525-552  &lbrack;[arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008), [jstor:118052](https://www.jstor.org/stable/118052)&rbrack;
+
 
 [[!redirects geometric quantization conjecture]]
 [[!redirects quantization commutes with reduction]]
