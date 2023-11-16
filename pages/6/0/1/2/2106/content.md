@@ -52,9 +52,16 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 
 ## References
 
-Introductions:
+Textbook accounts:
 
-* Rolf Berndt, _An introduction to symplectic geometry_ ([pdf](http://www.ams.org/bookstore/pspdf/gsm-26-prev.pdf))
+* [[Rolf Berndt]], _An introduction to symplectic geometry_, Graduate Studies in Mathematics **26** (2001) &lbrack;[ams:gsm-26](https://bookstore.ams.org/gsm-26), [pdf](http://www.ams.org/bookstore/pspdf/gsm-26-prev.pdf)&rbrack;
+
+* [[Ana Cannas da Silva]], *Lectures on Symplectic Geometry*, Lecture Notes in Mathematics **1764**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-45330-7](https://doi.org/10.1007/978-3-540-45330-7), [pdf](https://www.math.tecnico.ulisboa.pt/~acannas/Books/lsg.pdf)&rbrack;
+
+Lecture notes:
+
+* Konstantin Athanassopoulos, *Notes on Symplectic Geometry*, lecture notes (2015) &lbrack;[pdf](http://users.math.uoc.gr/~athanako/symplectic.pdf), [[Athanassopoulos-Symplectic.pdf:file]]&rbrack;
+
 
 Discussion from the point of view of [[homological algebra]] of [[abelian sheaves]] is in
 
