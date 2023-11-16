@@ -55,7 +55,7 @@ $$
     -,\, R(-)
   \bigr\rangle_1  
 $$ 
-is what gives the notion of adjoint functors its name.
+is what gives the notion of adjoint functors its name (cf. further discussion at *[adjoint operator -- history](adjoint+operator#History)*).
 
 
 > "the universality of the concept of adjointness, which was first isolated and named in the conceptual sphere of category theory" &lbrack;[Lawvere (1969)](#Lawvere69)&rbrack; 
