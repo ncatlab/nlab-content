@@ -81,6 +81,10 @@ Further discussion in the context of [[Hermitian K-theory]]:
 
 * [[Anthony Bak]], §3 in: *Grothendieck Groups of Modules and Forms Over Commutative Orders*, American Journal of Mathematics, **99** 1 (1977) 107-120 &lbrack;[jstor:2374010](https://www.jstor.org/stable/2374010), [doi:10.2307/2374010](https://doi.org/10.2307/2374010)&rbrack;
 
+
+* {#Karoubi10} [[Max Karoubi]], §1.10 in: *Le théorème de périodicité en K-théorie hermitienne*, in *Quanta of Maths*, Clay Mathematics Proceesings **11**, AMS and Clay Math Institute Publications (2010) 257-282 &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707), [pdf](https://www.claymath.org/library/proceedings/cmip011c.pdf)&rbrack;
+
+
 See also:
 
 * [[Richard Elman]], [[Nikita Karpenko]], [[Alexander Merkurjev]], p. 4 of: *Algebraic and Geometric Theory of Quadratic Forms*, Colloquium Publication **56**, AMS (2008) &lbrack;[ams:coll-56](https://bookstore.ams.org/coll-56), [pdf](https://www.math.ucla.edu/~rse/old_book/Kniga.pdf)&rbrack;
