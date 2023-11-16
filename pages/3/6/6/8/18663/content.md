@@ -17,7 +17,7 @@
 ## Definition
 
 In [[category theory]],
-an **adjoint string of length $n$**, **adjoint chain of length $n$**, or an **adjoint $n$-tuple**, is a sequence of $(n-1)$ [[adjunctions]] between $n$ [[functors]] (or more generally [[morphisms]] in a [[2-category]]):
+an **adjoint string of length $n$**, **adjoint chain of length $n$**, **adjoint sequence of length $n$**, or an **adjoint $n$-tuple**, is a sequence of $(n-1)$ [[adjunctions]] between $n$ [[functors]] (or more generally [[morphisms]] in a [[2-category]]):
 
 $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
@@ -63,6 +63,13 @@ of period 2.
 
 ## References
 
+A study of adjoint strings, in particular showing that cyclic chains of any length, and adjoint chains of any length exist, may be found in:
+
+* Peter I. Booth, _Sequences of adjoint functors_, Archiv der Mathematik 23 (1972): 489-493 ([doi](https://doi.org/10.1007/BF01304920))
+
+See also:
+
+* Rudolf-E. Hoffmann, _Sequences of adjoints for Ens-valued functors_, manuscripta mathematica 32 (1980) ([EuDML](https://eudml.org/doc/154724))
 
 Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] extends to the [[left adjoint|left]] to an [[adjoint quintuple]] of [[adjoint functors]]:
 
@@ -81,6 +88,8 @@ See also:
 [[!redirects adjoint strings]]
 [[!redirects adjoint chain]]
 [[!redirects adjoint chains]]
+[[!redirects adjoint sequence]]
+[[!redirects adjoint sequences]]
 [[!redirects adjoint n-tuple]]
 [[!redirects adjoint n-tuples]]
 [[!redirects distributive adjoint string]]
