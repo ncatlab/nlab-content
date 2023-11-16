@@ -15,7 +15,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -81,6 +80,13 @@ The factorization systems were probably first introduced in
 * [[Ross Street]], _Notes on factorization systems_, ([pdf](http://www.maths.mq.edu.au/~street/factoriz.pdf))
 [[!redirects factorization systems]]
 
+On the relationship between [[cones]] and factorisation systems:
+
+* [[Rudolf-E. Hoffmann]], _Factorization of cones_, Mathematische Nachrichten **87** 1 (1979) 221-238. &lbrack;[doi:10.1002/mana.19790870120](https://doi.org/10.1002/mana.19790870120)&rbrack;
+
+* [[Rudolf-E. Hoffmann]], _Factorization of cones II, with applications to weak Hausdorff spaces_, in: *Categorical Aspects of Topology and Analysis: Proceedings of an International Conference Held at Carleton University, Ottawa, August 11–15, 1981*, Springer (2006) &lbrack;[doi:10.1007/BFb0092878](https://doi.org/10.1007/BFb0092878)&rbrack;
+
+
 A list of elementary examples of factorization systems 
 (associated with the notions of: compact, discrete, connected, and totally disconnected spaces, dense image, induced topology, and separation axioms; finite groups being nilpotent, solvable, torsion-free, p-groups, and prime-to-p groups; injective and projective modules; injective, surjective, and split homomorphisms)
 
@@ -89,5 +95,9 @@ A list of elementary examples of factorization systems
 * M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf)
 
 [[!redirects factorization systems]]
+
 [[!redirects factorisation system]]
 [[!redirects factorisation systems]]
+
+
+
