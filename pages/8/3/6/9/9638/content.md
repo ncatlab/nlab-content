@@ -163,7 +163,7 @@ The idea of quantum computation was first expressed in:
 
   > "because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical"
 
-And first ideas of a [[quantum Turing machine]]:
+First ideas of a [[quantum Turing machine]]:
 
 * David Z. Albert, *On quantum-mechanical automata*, Physics Letters A **98** 5–6 (1983) 249-252 &lbrack;<a href="https://doi.org/10.1016/0375-9601(83)90863-0">doi:10.1016/0375-9601(83)90863-0</a>&rbrack;
 
@@ -178,7 +178,7 @@ The notion of ([[controlled quantum gate|controlled]]) [[quantum logic gates]] a
 
 The terminology *[[q-bit]]* goes back to:
 
-* [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
+* [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 &lbrack;[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)&rbrack;
 
 
 The potential practical relevance of quantum computation was highlighted early on via toy examples
@@ -303,6 +303,9 @@ Further introduction and survey:
 * Oswaldo Zapata, *A Short Introduction to Quantum Computing for Physicists* &lbrack;[arXiv:2306.09388](https://arxiv.org/abs/2306.09388)&rbrack;
 
 * [[Peter Shor]], *Quantum Computation*, Lecture notes (2022) &lbrack;[web](https://math.mit.edu/~shor/435-LN/)&rbrack;
+
+* Anton Frisk et al., *Lecture notes on quantum computing* &lbrack;[arXiv:2311.08445](https://arxiv.org/abs/2311.08445)&rbrack;
+
 
 On "continuous variable" analog quantum computation:
 
