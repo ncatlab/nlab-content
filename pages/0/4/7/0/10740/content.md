@@ -78,13 +78,14 @@ A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[A
 * [[Arf-Kervaire invariant problem]]
 
 
+
 ## References
 
 The original proof that the only maps of Hopf invariant one are the [[Hopf constructions]] on the four [[normed division algebras]] is due to
 
-* {#Adams60} [[Frank Adams]], _On the non-existence of elements of Hopf invariant one_, Ann. Math., Vol. 72, No. 1,  72 (1): 20&#8211;104, (1960) ([jstor:1970147](http://www.jstor.org/stable/1970147))
+* {#Adams60} [[John F. Adams]], *On the non-existence of elements of Hopf invariant one*, Ann. Math. **72** 1 (1960) 20-104 &lbrack;[jstor:1970147](http://www.jstor.org/stable/1970147)&rbrack;
 
-* {#Adams66} [[John Adams]], Section 8 of: _On the groups $J(X)$ IV_, Topology 5: 21,(1966)   ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf), <a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>)
+* {#Adams66} [[John F. Adams]], Section 8 of: *On the groups $J(X)$ IV*, Topology **5** 21 (1966) &lbrack;[pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf), <a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>&rbrack;
 
 and made use of the [[classical Adams spectral sequence]]. 
 
@@ -102,7 +103,7 @@ Comments on the impact of this proof on the development of [[stable homotopy the
 
 Another proof that instead uses [[topological K-theory]], [[Adams operations]] and the [[Atiyah-Hirzebruch spectral sequence]] was given in 
 
-* {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf), [doi:10.1093/qmath/17.1.31](https://doi.org/10.1093/qmath/17.1.31))
+* {#AdamsAtiyah66} [[John F. Adams]], [[Michael Atiyah]], *K-theory and the Hopf invariant*, Quart. J. Math. Oxford **17** 1 (1966) 31-38 &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf), [doi:10.1093/qmath/17.1.31](https://doi.org/10.1093/qmath/17.1.31)&rbrack;
 
 see also [Adams 66, Sections 7, 8](#Adams66).
 
@@ -114,7 +115,7 @@ Review of the [[Hopf invariant one problem]] via [[Adams operations]] in [[topol
 
 * {#Hatcher} [[Allen Hatcher]], section 2.3 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrieto02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], section 10.6 of; _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
 * [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 9 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
