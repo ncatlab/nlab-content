@@ -25,7 +25,7 @@ Depending on the specific assumptions, the theorem has several variants. The fol
 ###### Theorem
 Suppose that $U:B\to C$ is a [[functor]] which has a [[left adjoint]] $F:C\to B$ with the property that the diagram
 $$ F U F U \;\underoverset{\epsilon F U}{F U \epsilon}{\rightrightarrows}\; F U \xrightarrow{\epsilon} 1_B $$
-is a pointwise [[coequalizer]] (i.e. $U$ is of [[descent type]]).  Suppose that $A$ is a category with coequalizers of reflexive pairs; then a functor $R:A\to B$ has a left adjoint if and only if the composite $U R$ does.
+is a pointwise [[coequalizer]] (i.e. $U$ is of [[descent type]]).  Suppose that $A$ is a category with [[reflexive coequalizer|coequalizers of reflexive pairs]]; then a functor $R:A\to B$ has a left adjoint if and only if the composite $U R$ does.
 =--
 +-- {: .proof}
 ###### Proof
@@ -64,24 +64,24 @@ It is also possible to derive the [[monadicity theorem]] from the adjoint triang
 
 ## References ##
 
-* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 3.7, pp.131ff) 
+* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_, Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 3.7, pp.131ff) 
 
-* {#dubuc68}[[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968.
+* {#dubuc68}[[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968. &lbrack;[doi:10.1007/BFb0077118](https://doi.org/10.1007/BFb0077118)&rbrack;
 
-* I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_ , Bull. Austral. Math. Soc. **36** (1987) pp.133-136.
+* I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_, Bull. Austral. Math. Soc. **36** 1 (1987) pp.133-136. &lbrack;[doi:10.1017/S000497270002637X](https://doi.org/10.1017/S000497270002637X)&rbrack;
 
-* [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0))
+* [[John Power]], _A unified approach to the lifting of adjoints_, Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0))
 
-* [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_ , TAC **23** no.3 (2010) pp.42-75. ([abstract](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
+* [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_, TAC **23** no.3 (2010) pp.42-75. ([abstract](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
 {#StreetVerity}
 
-* [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_ , Math. Ann. **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
+* [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_, Math. Ann. **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
 
 Generalizations of the adjoint triangle theorem to [[2-categories]] are considered in
 
-* [[Fernando Lucatelli Nunes]], *On biadjoint triangles*, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+* [[Fernando Lucatelli Nunes]], _On biadjoint triangles_, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
 
-* [[Fernando Lucatelli Nunes]], *On lifting of biadjoints and lax algebras*, [arXiv](https://arxiv.org/abs/1607.03087)
+* [[Fernando Lucatelli Nunes]], _On lifting of biadjoints and lax algebras_, General Algebraic Structures with Applications **9** 1 (2018) 29-58. &lbrack;[doi:10.29252/CGASA.9.1.29](https://doi.org/10.29252/CGASA.9.1.29), [arXiv:1607.03087](https://arxiv.org/abs/1607.03087)&rbrack;
 
 [[!redirects adjoint triangle]]
 [[!redirects adjoint triangles]]
