@@ -1,22 +1,4 @@
 
-\begin{tikzcd}
-{\mathrm{d}_{\varnothing}}x \ar[rr] \ar[dr] \ar[dd] & & {\mathrm{d}_{\{1\}}}x \ar[dr] \ar[dd] \\
-& {\mathrm{d}_{\{2\}}}x \ar[rr] \ar[dd] & & {\mathrm{d}_{\{1,2\}}}x \ar[dd] \\
-{\mathrm{d}_{\{3\}}}x \ar[rr] \ar[dr] & & {\mathrm{d}_{\{1,3\}}}x \ar[dr] \\
-& {\mathrm{d}_{\{2,3\}}}x \ar[rr] & & {\mathrm{d}_{\{1,2,3\}}}x
-\end{tikzcd}
-
-[[coflareformswithsets.png:pic]]
-
-\begin{tikzcd}
-x \ar[rr] \ar[dr] \ar[dd] & & {\mathrm{d}_{1}}x \ar[dr] \ar[dd] \\
-& {\mathrm{d}_{2}}x \ar[rr] \ar[dd] & & {\mathrm{d}_{1}\mathrm{d}_{1}}x \ar[dd] \\
-{\mathrm{d}_{3}}x \ar[rr] \ar[dr] & & {\mathrm{d}_{2}\mathrm{d}_{1}}x \ar[dr] \\
-& {\mathrm{d}_{2}\mathrm{d}_{2}}x \ar[rr] & & {\mathrm{d}_{1}\mathrm{d}_{1}\mathrm{d}_{1}}x
-\end{tikzcd}
-
-[[coflareformswithoperators.png:pic]]
-
 #Contents#
 * table of contents
 {:toc}
