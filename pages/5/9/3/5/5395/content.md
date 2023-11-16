@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* the following line creates the automatic table of contents
+* table of contents
 {: toc}
 
 
@@ -258,27 +258,32 @@ implies that $\mathcal{A}$ is $\mathcal{J}$-cocomplete. In particular,
 if $\mathcal{A}$ has coequalizers of reflexive pairs and $\mathcal{C}$
 is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 
+
 ## Related pages
 
 * The adjoint lifting theorem is a corollary of the [[adjoint triangle theorem]].
 
+* [[adjoint functor theorem]]
+
 ## References ##
 
-* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 3.7, pp.131ff) 
+
+* [[Michael Barr]], [[Charles Wells]], section 3.7, pp.131 in: *[[Toposes, Triples, and Theories]]*, Springer (1985), Reprints in Theories and Applications of Categories **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack; 
+
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] II_ , Cambridge UP 1994. (section 4.5, pp.221ff) 
 {#Borceux}
 
-* {#Johnstone} [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc. **7** (1975) pp.294-297.
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]] I_ , Oxford UP 2002. (section A1.1, p.5)
-
-The dual theorem for comonads is also in 
-
-* William F. Keigher, _Adjunctions and comonads in differential algebra_,
-Pacific J. Math. 59, n. 1 (1975) 99-112 [euclid](http://projecteuclid.org/euclid.pjm/1102905501)
+* {#Johnstone} [[Peter Johnstone]], *Adjoint lifting theorems for categories of algebras*, Bull. London Math. Soc. **7** (1975) 294-297 &lbrack;[doi:10.1112/blms/7.3.294](https://doi.org/10.1112/blms/7.3.294)&rbrack;
 
 
-* [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0)) 
+* [[Peter Johnstone]], section A1.1, p.5 in: *[[Sketches of an Elephant]] I*, Oxford UP 2002
+
+On the dual theorem for [[comonads]]:
+
+* William F. Keigher, _Adjunctions and comonads in differential algebra_, Pacific J. Math. **59,** 1 (1975) 99-112 &lbrack;[euclid:pjm/1102905501](http://projecteuclid.org/euclid.pjm/1102905501)&rbrack;
 
 
+* [[John Power]], _A unified approach to the lifting of adjoints_, [[Cahiers]] **XXIX**  1 (1988)  67-77 &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0)&rbrack;
+
+[[!redirects adjoint lifting theorems]]
