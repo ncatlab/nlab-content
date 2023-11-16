@@ -163,7 +163,7 @@ Good review on the relation to [[thermal quantum field theory]] and [[black hole
 
 New formalization in terms of complex metrics:
 
-* [[Maxim Kontsevich]], [[Graeme Segal]], *Wick rotation and the positivity of energy in quantum field theory* ([arXiv:2105.10161](https://arxiv.org/abs/2105.10161))
+* [[Maxim Kontsevich]], [[Graeme Segal]], *Wick rotation and the positivity of energy in quantum field theory*, The Quarterly Journal of Mathematics **72** 1-2  (2021) 673–699 &lbrack;[arXiv:2105.10161](https://arxiv.org/abs/2105.10161), [doi:10.1093/qmath/haab027](https://doi.org/10.1093/qmath/haab027)&rbrack;
 
 review talks:
 
