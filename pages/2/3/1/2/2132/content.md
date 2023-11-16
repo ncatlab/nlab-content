@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -696,7 +697,8 @@ Lecture notes include
 
 * {#Moroianu07} [[Andrei Moroianu]], _Lectures on K&#228;hler Geometry_, Cambridge University Press 2007 ([arXiv:math/0402223](https://arxiv.org/abs/math/0402223) [doi:10.1017/CBO9780511618666](https://doi.org/10.1017/CBO9780511618666), [pdf](https://moroianu.perso.math.cnrs.fr/tex/kg.pdf))
 
-* {#Boalch09} Philip Boalch, _Noncompact complex symplectic and hyperkähler manifolds_, 2009 ([pdf](https://www.math.u-psud.fr/~boalch/cours09/hk.pdf))
+* {#Boalch09} Philip Boalch, *Noncompact complex symplectic and hyperkähler manifolds* (2009) &lbrack;[pdf](https://webusers.imj-prg.fr/~philip.boalch/cours09/hk.pdf), [[Boalch-NoncompactSymplectic.pdf:file]]&rbrack;
+
 
 Discussion in terms of [[integrability of G-structure|first-order integrable]] [[G-structure]] include
 
@@ -729,16 +731,29 @@ Discussion of [[Kähler orbifolds]]:
 
 [[!redirects Kähler manifolds]]
 
+[[!redirects Kaehler manifold]]
+[[!redirects Kaehler manifolds]]
+
 [[!redirects Kahler manifold]]
+[[!redirects Kahler manifolds]]
+
 [[!redirects Kahler 2-form]]
+[[!redirects Kahler 2-formw]]
+
+[[!redirects Kaehler 2-form]]
+[[!redirects Kaehler 2-forms]]
+
 [[!redirects almost Kahler manifold]]
 [[!redirects Kähler 2-form]]
+
 [[!redirects almost Kähler manifold]]
 
 [[!redirects Kähler form]]
 [[!redirects Kähler forms]]
 
 [[!redirects Kähler geometry]]
+[[!redirects Kaehler geometry]]
+[[!redirects Kahler geometry]]
 
 [[!redirects Kähler orbifold]]
 [[!redirects Kähler orbifolds]]
