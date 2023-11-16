@@ -378,6 +378,8 @@ $$
 
 * [[adjoint triangle theorem]]
 
+* [[adjoint lifting theorem]]
+
 ## References
 
 The classical adjoint functor theorems originate in the exercise section of ch.3 (pp.84ff) in
