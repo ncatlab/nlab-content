@@ -88,4 +88,6 @@ A list of elementary examples of factorization systems
 
 * M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf)
 
+[[!redirects factorization systems]]
 [[!redirects factorisation system]]
+[[!redirects factorisation systems]]
