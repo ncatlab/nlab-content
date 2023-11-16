@@ -16,13 +16,16 @@ Introducing [[Hermitian K-theory]]:
 
 * [[Max Karoubi]], [[Orlando Villamayor]], *K-théorie algébrique et K-théorie topologique II*, Math. Scand. **32** (1973) 57-86 &lbrack;[jstor:24490565](https://www.jstor.org/stable/24490565)&rbrack;
 
-* {#Karoubi10} [[Max Karoubi]], §1 in: *Le théorème de périodicité en K-théorie hermitienne*, Quanta of Maths **1**, AMS and Clay Math Institute Publications (2010) &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707)&rbrack;
+* {#Karoubi10} [[Max Karoubi]], *Le théorème de périodicité en K-théorie hermitienne*, in *Quanta of Maths*, Clay Mathematics Proceesings **11**, AMS and Clay Math Institute Publications (2010) 257-282 &lbrack;[arXiv:0810.4707](https://arxiv.org/abs/0810.4707), [pdf](https://www.claymath.org/library/proceedings/cmip011c.pdf)&rbrack;
 
 * [[Max Karoubi]], [[Mariusz Wodzicki]], *Algebraic and Hermitian K-theory of $\mathcal{K}$-rings*, The Quarterly Journal of Mathematics **64** 3 (2013) 903–940 &lbrack;[arXiv:1310.4123](https://arxiv.org/abs/1310.4123), [doi:10.1093/qmath/hat030](https://doi.org/10.1093/qmath/hat030)&rbrack;
 
 and [[topological Hermitian K-theory]]:
 
 * [[Max Karoubi]], *Périodicité de la K-théorie hermitienne*, in: [[Hyman Bass]] (ed.), *Algebraic K-Theory III -- Hermitian K-Theory and Geometric Applications*, Lecture Notes in Mathematics **343** (1973) 301-411 &lbrack;[doi:10.1007/BFb0061366](https://doi.org/10.1007/BFb0061366)&rbrack;
+
+
+
 
 
 On [[topological K-theory]]:
