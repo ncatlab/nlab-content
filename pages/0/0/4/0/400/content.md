@@ -54,6 +54,10 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 * The corresponding 3-ary version for *weak* factorization systems is closely related to the notion of [[model category]] (one of the main applications of weak factorization systems).
 
+## Cylinder factorization systems
+
+See [[cylinder factorisation system]].
+
 
 ## Related concepts
 
