@@ -810,6 +810,8 @@ External:
 
 * [[Ulrik Buchholtz]]
 
+* [[Ugo Dal Lago]]
+
 * [[Dongho Lee]]
 
 * [[Anders Mörtberg]]
