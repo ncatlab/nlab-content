@@ -150,7 +150,7 @@ Often it is useful to talk about spaces whose homotopy groups are all trivial ab
 
 For $n = -1, 0, 1, 2, \ldots, \infty$:
 
-* a space is **$n$-[[truncated space|truncated]]** if all homotopy groups _above_ degree $n$ are trivial.
+* a space is **$n$-[[homotopy n-type|truncated]]** if all homotopy groups _above_ degree $n$ are trivial.
 
 * a space is **$n$-[[n-connected space|connected]]** (or **$n$-simply connected**) if it is [[inhabited space|inhabited]] and all homotopy groups _at or below_ degree $n$ are trivial.
 
@@ -158,16 +158,16 @@ Vacuously, every space is $\infty$-truncated, and precisely the inhabited spaces
 
 To extend one step further in [[negative thinking]], every space (even the empty space) is $(-2)$-connected, and precisely a weakly contractible space (but not the empty space) is $(-2)$-truncated.
 
-* A [[pointed space]] is a **degree-$n$ [[Eilenberg?MacLane space]]** if it is both $n$-truncated as well as $(n-1)$-connected, i.e. if its only nontrivial homotopy group is in degree $n$.
+* A [[pointed space]] is a **degree-$n$ [[Eilenberg-Mac Lane space]]** if it is both $n$-truncated as well as $(n-1)$-connected, i.e. if its only nontrivial homotopy group is in degree $n$.
 
-A weakly contractible space is an Eilenberg&#8211;MacLane space in every degree, and these are the only Eilenberg&#8211;MacLane spaces in degree $\infty$ or $-1$.  In degree $0$, they are the pointed [[discrete space]]s (and those weakly homotopy equivalent to such).  In degree $1$, they are (up to weak homotopy equivalence) precisely the [[classifying spaces]] of [[groups]].  And so on.
+A weakly contractible space is an Eilenberg&#8211;MacLane space in every degree, and these are the only Eilenberg&#8211;MacLane spaces in degree $\infty$ or $-1$.  In degree $0$, they are the pointed [[discrete space | discrete spaces]] (and those weakly homotopy equivalent to such).  In degree $1$, they are (up to weak homotopy equivalence) precisely the [[classifying spaces]] of [[groups]].  And so on.
 
 
 ## Examples
 
 ### In low dimensions
 
-The $0$th homotopy 'group' $\pi_0(X,a)$ can be identified with the set of all [[path component]]s of $X$, with the component containing $a$ as the basepoint.  Similarly, the [[fundamental infinity-groupoid|fundamental 0-groupoid]] $\Pi_0(X)$ is the set of all path components without a chosen basepoint.  Note that $\Pi_0(X)$ is traditionally written $\pi_0(X)$, even without a basepoint.
+The $0$th homotopy 'group' $\pi_0(X,a)$ can be identified with the set of all [[path component | path components]] of $X$, with the component containing $a$ as the basepoint.  Similarly, the [[fundamental infinity-groupoid|fundamental 0-groupoid]] $\Pi_0(X)$ is the set of all path components without a chosen basepoint.  Note that $\Pi_0(X)$ is traditionally written $\pi_0(X)$, even without a basepoint.
 
 The $1$st homotopy group $\pi_1(X,a)$ is precisely the [[fundamental group]] of $X$ at $a$.  This is the original example from which all others derived.  It was once written simply $\pi(X,a)$ with the $\pi$ standing for Poincar&#233;, who invented it.
 
@@ -178,7 +178,7 @@ At least, that\'s where I *think* that it comes from ...  ---Toby
 
 ### Of the circle
 
-The first homotopy group of the [[circle]] $S^1$ is the group of [[integer]]s.
+The first homotopy group of the [[circle]] $S^1$ is the group of [[integer | integers]].
 
 $$
   \pi_1(S^1) \simeq \mathbb{Z}
@@ -195,7 +195,7 @@ See [[homotopy groups of spheres]].
 
 ## History 
 
-In the early years of the 20th century it was known that the nonabelian fundamental group $\pi_1(X,a)$ of a space $X$ with base point $a$ was useful in geometry and complex analysis. It was also known that the abelian [[homology group]]s $H_n(X)$ existed for all $n \geq 0$ and that if $X$ is connected then $H_1(X)$ is isomorphic to the abelianisation of any $\pi_1(X,a)$. 
+In the early years of the 20th century it was known that the nonabelian fundamental group $\pi_1(X,a)$ of a space $X$ with base point $a$ was useful in geometry and complex analysis. It was also known that the abelian [[homology group | homology groups]] $H_n(X)$ existed for all $n \geq 0$ and that if $X$ is connected then $H_1(X)$ is isomorphic to the abelianisation of any $\pi_1(X,a)$. 
 
 Consequently it was hoped to generalise the fundamental group to higher dimensions, producing nonabelian groups whose abelianisations would be the homology groups.
 
