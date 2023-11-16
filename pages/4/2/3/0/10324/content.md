@@ -43,7 +43,7 @@ See for instance ([Silva 06, theorem 6.5](#Silva06))
 
 ## References 
 
-* {#Silva06} [[Ana Cannas da Silva]], _Lectures on Symplectic Geometry_, Springer Lecture Notes in Math. 1764. Revised online version, 2006. ([pdf](http://www.math.ist.utl.pt/~acannas/Books/lsg.pdf)) 
+* {#Silva06} [[Ana Cannas da Silva]], §6.2 in: *Lectures on Symplectic Geometry*, Lecture Notes in Mathematics **1764**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-45330-7](https://doi.org/10.1007/978-3-540-45330-7), [pdf](https://www.math.tecnico.ulisboa.pt/~acannas/Books/lsg.pdf)&rbrack;
 
 
 [[!redirects tubular neighbourhood theorem]]
