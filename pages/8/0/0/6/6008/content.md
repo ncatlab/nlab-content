@@ -92,10 +92,11 @@ This appears as ([Godin, prop. 31](#Godin)).
 
 ## References
 
-Basics on tubular neighbourhoods are for instance in section 3 of
+* {#DaSilva} [[Ana Cannas da Silva]], §3 of: _Prerequisites from differential geometry_ &lbrack;[pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf)&rbrack;
 
-* {#DaSilva} Ana Cannas da Silva, _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
  
+* [[Ana Cannas da Silva]], §6.2 in: *Lectures on Symplectic Geometry*, Lecture Notes in Mathematics **1764**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-45330-7](https://doi.org/10.1007/978-3-540-45330-7), [pdf](https://www.math.tecnico.ulisboa.pt/~acannas/Books/lsg.pdf)&rbrack;
+
 
 The homotopical uniqueness of tubular neighbourhoods is discussed in
 
