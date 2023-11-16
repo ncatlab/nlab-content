@@ -688,9 +688,13 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 K&#228;hler manifolds were first introduced and studied by P. A. Shirokov (cf. [a historical article](http://dx.doi.org/10.1070/RM1995v050n02ABEH002098)) and later independently by K&#228;hler. 
 
-Textbook accounts include
+Textbook accounts:
 
 * {#Voisin02} [[Claire Voisin]], section 3 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
+* [[Ana Cannas da Silva]], §16 in: *Lectures on Symplectic Geometry*, Lecture Notes in Mathematics **1764**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-45330-7](https://doi.org/10.1007/978-3-540-45330-7)&rbrack;
+
+
 
 
 Lecture notes include
