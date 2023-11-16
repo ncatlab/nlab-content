@@ -65,11 +65,11 @@ of period 2.
 
 A study of adjoint strings, in particular showing that cyclic chains of any length, and adjoint chains of any length exist, may be found in:
 
-* Peter I. Booth, _Sequences of adjoint functors_, Archiv der Mathematik 23 (1972): 489-493 ([doi](https://doi.org/10.1007/BF01304920))
+* {#Booth72} [[Peter I. Booth]], *Sequences of adjoint functors*, Archiv der Mathematik **23** (1972)  489-493 &lbrack;[doi:10.1007/BF01304920](https://doi.org/10.1007/BF01304920)&rbrack;
 
 See also:
 
-* Rudolf-E. Hoffmann, _Sequences of adjoints for Ens-valued functors_, manuscripta mathematica 32 (1980) ([EuDML](https://eudml.org/doc/154724))
+* {#Hoffmann80} [[Rudolf-E. Hoffmann]], _Sequences of adjoints for Ens-valued functors_, manuscripta mathematica **32** (1980) &lbrack;[EuDML;154724](https://eudml.org/doc/154724)&rbrack;
 
 Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] extends to the [[left adjoint|left]] to an [[adjoint quintuple]] of [[adjoint functors]]:
 
