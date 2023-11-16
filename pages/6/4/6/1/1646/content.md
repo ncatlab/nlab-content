@@ -379,7 +379,7 @@ but see:
 
 Early history:
 
-* {#MacLane88} [[Saunders Mac Lane]]: *Hilbert space*, §5 in: *Concepts and Categories*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
+* {#MacLane88} [[Saunders Mac Lane]]: *Hilbert space*, §5 in: *Concepts and Categories in Perspective*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
 
 Textbook account:
 
