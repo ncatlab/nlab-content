@@ -192,13 +192,13 @@ The Peiffer rule can thus be seen as a 'twisted commutativity law' for $G_2$.
 
 ### Morphisms {#Morphisms} 
 
-For $G$ and $H$ two [[strict 2-group]]s coming from crossed modules $[G]$ and $[H]$, a morphism of strict 2-groups $f : G \to H$, and hence a morphism of crossed modules $[f] : [G] \to [H]$ is a [[2-functor]]
+For $G$ and $H$ two [[strict 2-group | strict 2-groups]] coming from crossed modules $[G]$ and $[H]$, a morphism of strict 2-groups $f : G \to H$, and hence a morphism of crossed modules $[f] : [G] \to [H]$ is a [[2-functor]]
 
 $$
   \mathbf{B}f : \mathbf{B}G \to \mathbf{B}H
 $$
 
-between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing this in terms of a diagram of the ordinary groups appearing in $[G]$ and $[H]$ yields a diagram called a [[butterfly]]. See there for more details.
+between the corresponding [[delooping|delooped]] [[2-groupoid | 2-groupoids]]. Expressing this in terms of a diagram of the ordinary groups appearing in $[G]$ and $[H]$ yields a diagram called a [[butterfly]]. See there for more details.
 
 
 
@@ -211,13 +211,13 @@ between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing thi
    \,.
   $$ 
 
-  Under the equivalence of crossed modules with [[strict 2-group]]s this corresponds to the [[automorphism 2-group]] 
+  Under the equivalence of crossed modules with [[strict 2-group | strict 2-groups]] this corresponds to the [[automorphism 2-group]] 
  
   $$
     Aut_{Grpd}(\mathbf{B}H)
   $$ 
 
-  of [[automorphism]]s in the category [[Grpd]] of [[groupoid]]s on the one-object [[delooping]] [[groupoid]] $\mathbf{B}H$ of $H$.
+  of [[automorphism | automorphisms]] in the category [[Grpd]] of [[groupoid | groupoids]] on the one-object [[delooping]] [[groupoid]] $\mathbf{B}H$ of $H$.
 
 *  Almost the canonical example of a crossed module is given by a group $G$ and a [[normal subgroup]] $N$ of $G$.  We take $G_2 = N$, and $G_1 = G$ with the action $\alpha$ being the [[conjugation action]], whilst $\delta$ is the given inclusion, $N \hookrightarrow G$. 
 
@@ -225,7 +225,7 @@ between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing thi
 
 * Another standard example of a crossed module is $M \to ^0 P$ where $P$ is a group and $M$ is a $P$-module. Thus the category of modules over groups embeds in the category of crossed modules. 
 
-* If $\mu: M \to P$ is a crossed module with cokernel $G$, and $M$ is abelian, then the operation of $P$ on $M$ factors through $G$. In fact such crossed modules in which both $M$ and $P$ are abelian should not be sneezed at! A good example is $\mu: C_2 \times C_2 \to C_4$ where $C_n$ denotes the cyclic group of order $n$, $\mu$ is injective on each factor, and $C_4$ acts on the product by the twist.  This crossed module has a [[classifying space]] $X$ with fundamental and second homotopy groups $C_2$ and non trivial $k$-invariant in $H^3(C_2, C_2)$, so $X$ is not a product of [[Eilenberg-MacLane space]]s.  However the crossed module is an algebraic model and so one one can do algebraic constructions with it. It  gives in some ways a better feel for the space than the $k$-invariant. The [[higher homotopy van Kampen theorem]] implies that   the above $X$ gives the 2-type of the [[mapping cone]] of the map of [[classifying space]]s $BC_2 \to BC_4$. 
+* If $\mu: M \to P$ is a crossed module with cokernel $G$, and $M$ is abelian, then the operation of $P$ on $M$ factors through $G$. In fact such crossed modules in which both $M$ and $P$ are abelian should not be sneezed at! A good example is $\mu: C_2 \times C_2 \to C_4$ where $C_n$ denotes the cyclic group of order $n$, $\mu$ is injective on each factor, and $C_4$ acts on the product by the twist.  This crossed module has a [[classifying space]] $X$ with fundamental and second homotopy groups $C_2$ and non trivial $k$-invariant in $H^3(C_2, C_2)$, so $X$ is not a product of [[Eilenberg-MacLane space | Eilenberg-MacLane spaces]].  However the crossed module is an algebraic model and so one one can do algebraic constructions with it. It  gives in some ways a better feel for the space than the $k$-invariant. The [[higher homotopy van Kampen theorem]] implies that   the above $X$ gives the 2-type of the [[mapping cone]] of the map of [[classifying space | classifying spaces]] $BC_2 \to BC_4$. 
 
 
 * Suppose $F\stackrel{i}{\to}E\stackrel{p}{\to}B$ is a [[fibration sequence]]
@@ -234,11 +234,11 @@ between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing thi
   is the basepoint of $B$.  The fibre $F$ is pointed at $f_0$, say, and $f_0$
   is taken as the basepoint of $E$ as well.
 
-    There is an induced map on [[homotopy group]]s
+    There is an induced map on [[homotopy group | homotopy groups]]
 
     $$\pi_1(F) \stackrel{\pi_1(i)}{\longrightarrow} \pi_1(E)$$ 
 
-    and if $a$ is a loop in $E$ based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path corresponding to $a b a^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see this, note that $p(a b a^{-1})$ is [[null homotopic loop|null homotopic]].  Pick a [[homotopy]] in $B$ between it and the constant map, then lift that homotopy back up to $E$ to one starting at $a b a^{-1}$.  This homotopy is the required one and its other end gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
+    and if $a$ is a loop in $E$ based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path corresponding to $a b a^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see this, note that $p(a b a^{-1})$ is [[null homotopic loop|null homotopic]].  Pick a [[homotopy]] in $B$ between it and the constant map, then lift that homotopy back up to $E$ to one starting at $a b a^{-1}$.  This homotopy is the required one and its other end gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group | simplicial groups]] is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
 
 * A particular case of this last example can be obtained from the inclusion of a subspace $A\to X$ into a pointed space $(X,x_0)$, (where we assume $x_0\in A$).  We can replace this inclusion by  a homotopic fibration, $\overline{A}\to X$ in 'the standard way', and then find that the fundamental group of its fibre is $\pi_2(X,A,x_0)$. 
 
