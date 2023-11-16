@@ -33,7 +33,7 @@ Examples include the notion of *[[locally cartesian closed categories]]*, i.e. t
 
 ### Hom-wise
 
-A [[2-category]] $K$ (or more generally an [[enriched category]]) may be called "locally $P$ (for some property $P$) if each [[hom-category]] (or more generally [[hom-object]]) $K[X, Y]$ is $P$. Examples include [[locally discrete 2-categories]], and locally graded and locally indexed categories. Corresponding, we have terminology like [[local colimits]].
+A [[2-category]] $K$ (or more generally an [[enriched category]]) may be called "locally $P$" (for some property $P$) if each [[hom-category]] (or more generally [[hom-object]]) $K[X, Y]$ is $P$. Examples include [[locally-small categories]], [[locally discrete 2-categories]], and locally graded and locally indexed categories. Corresponding, we have terminology like [[local colimits]].
 
 ### Stalk-wise
 
