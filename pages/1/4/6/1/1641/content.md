@@ -166,6 +166,8 @@ The theory of topological functors can be developed along the lines of Grothendi
 * [[Eduardo J. Dubuc]], Luis Espa&#241;ol, *Topological functors as familiarly fibrations* 
 [arXiv](https://arxiv.org/abs/math/0611701) (2006)
 
+* J. Martin Harvey, _Topological functors from factorization_, Categorical Topology: Proceedings of the International Conference, Berlin, August 27th to September 2nd, 1978. Springer Berlin Heidelberg, 1979.
+
 [[!redirects topological concrete category]]
 [[!redirects topological concrete categories]]
 
