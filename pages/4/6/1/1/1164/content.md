@@ -34,7 +34,7 @@ Given a [[topological group]] $G$ the __orbit category__ $\operatorname{Orb}_G$ 
 
 * [[objects]] are the [[homogeneous spaces]]  ([[coset spaces]], $G$-[[orbit types]]) $G/H$, where $H$ is a [[closed subgroup]] of $G$, 
 
-* [[morphisms]] are the $G$-[[equivariant function|equivariant]] [[continuous functions]].  
+* [[morphisms]]$;$are the $G$-[[equivariant function|equivariant]] [[continuous functions]].  
 
 =--
 
@@ -105,9 +105,9 @@ For $G \,\in\, Grp(Set)$ a [[discrete group]] and $G \curvearrowright X \,\in\, 
 
 is the [[small category]] whose
 
-- [[objects]] are [[pairs]] consisting of a [[subgroup]] $H \subset G$ and a  $G$-[[equivariant function]] $\; x_X \,\colon\, G/H \to X$, hence, equivalently, a point in the [[fixed locus]] $X^H$;
+* [[objects]] are [[pairs]] consisting of a [[subgroup]] $H \subset G$ and a  $G$-[[equivariant function]] $\; x_X \,\colon\, G/H \to X$, hence, equivalently, a point in the [[fixed locus]] $X^H$;
 
-- [[morphisms]] $x_H \xrightarrow{ (\phi,[\gamma]) } x'_{H'}$  are [[pairs]] consisting of a $G$-[[equivariant function]] $G/H \xrightarrow{ \phi } G/H'$ and a relative $G$-homotopy class $[\gamma]$ of a continuous path $\gamma \,\colon\,  G/H \times [0,1] \xrightarrow{\;} X$ from $\gamma(0) = x_H$ to $\gamma_1 = \phi^\ast x'_X'$.
+* [[morphisms]]$\;\;x_H \xrightarrow{ (\phi,[\gamma]) } x'_{H'}$  are [[pairs]] consisting of a $G$-[[equivariant function]] $G/H \xrightarrow{ \phi } G/H'$ and a relative $G$-homotopy class $[\gamma]$ of a continuous path $\gamma \,\colon\,  G/H \times [0,1] \xrightarrow{\;} X$ from $\gamma(0) = x_H$ to $\gamma_1 = \phi^\ast x'_X'$.
 
 \end{definition}
 
