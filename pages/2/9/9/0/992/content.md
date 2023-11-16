@@ -430,17 +430,17 @@ One way to read this is that [[formal duals]] of presentable [[stable infinity-c
 
 The abstract [[(∞,1)-category theory|(∞,1)-category theoretical]] notion was introduced and studied in
 
-* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
- {#StabCat}
+* {#StabCat} [[Jacob Lurie]], _[[Stable Infinity-Categories]]_ &lbrack;[arXiv:math/0608228](https://arxiv.org/abs/math/0608228)
+ 
 
-This appears in a more comprehensive context of [[higher algebra]] as section 1 of 
+This appears in a more comprehensive context of [[higher algebra]]
 
-* {#HigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#HigherAlgebra} [[Jacob Lurie]], as section 1 of: _[[Higher Algebra]]_
 
 A brief introduction is in
 
-* [[Yonatan Harpaz]], _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
-  {#Harpaz2013}
+* {#Harpaz2013} [[Yonatan Harpaz]], _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
+ 
 
 Discussion of how $k$-linear [[dg-categories]]/[[A-infinity categories]] present $k$-linear stable $(\infty,1)$-categories is in 
 
@@ -454,8 +454,8 @@ A diagram of the interrelation of all models for stable $(\infty,1)$-categories 
 
 For discussion of the [[stable model category]] models of stable $\infty$-categories see
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([Hopf pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf)) and ([arXiv:math/0108143](http://arxiv.org/abs/math/0108143))
- {#SchwedeShipley}
+* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([Hopf pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf)) and ([arXiv:math/0108143](http://arxiv.org/abs/math/0108143))
+ 
 
 The enrichment over spectra is made precise in
 
