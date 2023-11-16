@@ -44,6 +44,19 @@ Introducing the [[simplicial classifying space]] construction $\overline{W}G$:
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
 
+On [[homotopy 2-types]] (N.B.  their 3-type is the modern 2-type)
+
+* {#WhiteheadMacLane50} (with [[J. H. C. Whitehead]]) _On the 3-type of a complex_, Proc. Nat. Acad. Sci.  U.S.A., **36** (1950) 41-48 
+
+On [[categorical algebra]]:
+
+* [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
+On [[classical mechanics]]:
+
+* {#MacLane68} _Geometrical Mechanics_, Lectures 1968 ([web](https://harrydole.com/wp/2017/09/10/saunders-mac-lane-geometrical-mechanics/)
+
 On [[Grothendieck universes]] in the [[mathematical foundations]] of [[category theory]]:
 
 * [[Saunders MacLane]], *One universe as a foundation for category theory*,  In: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) 192-200 &lbrack;[doi:10.1007/BFb0059147](https://doi.org/10.1007/BFb0059147)&rbrack;
@@ -55,11 +68,11 @@ On [[geometric realization of simplicial topological spaces]] for constructing [
 
 On [[Euclidean geometry]]:
 
-* {#MacLane} [[Saunders Mac Lane]], _Metric postulates for plane geometry_, American Mathematical Monthly, Vol. 66 No. 7 (1959), 543&ndash;555. ([doi:10.2307/2309851](https://doi.org/10.2307/2309851), [web](https://www.jstor.org/stable/2309851))
+* {#MacLane} [[Saunders Mac Lane]], _Metric postulates for plane geometry_, American Mathematical Monthly, **66** 7 (1959) 543-555. ([doi:10.2307/2309851](https://doi.org/10.2307/2309851), [web](https://www.jstor.org/stable/2309851))
 
 On [[category theory]]:
 
-* *[[Categories Work|Categories for the Working Mathematician]]*
+* [[Saunders MacLane]], *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 On [[homological algebra]]:
  
@@ -69,23 +82,19 @@ On [[philosophy of mathematics]]:
 
 * _Mathematics form and function_, Springer 1986
 
+On some history of mathematics:
+
+* {#MacLane88} [[Saunders Mac Lane]]: *Concepts and Categories in Perspective*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
+
 On [[sheaf and topos theory]]:
 
-* (with [[Ieke Moerdijk]]) _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
 
-On [[homotopy 3-types]]:
-
-* {#WhiteheadMacLane50} (with [[J. H. C. Whitehead]]) _On the 3-type of a complex_, Proc. Nat. Acad. Sci.  U.S.A., 36, (1950), 41 &#8211; 48 (N.B.  Their 3-type is the modern 2-type.)
-
-On [[categorical algebra]]:
-
-* [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 
-On [[classical mechanics]]:
 
-* {#MacLane68} _Geometrical Mechanics_, Lectures 1968 ([web](https://harrydole.com/wp/2017/09/10/saunders-mac-lane-geometrical-mechanics/))
+)
 
 See also:
 
