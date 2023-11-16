@@ -1975,12 +1975,15 @@ Stone-von Neumann**
 
   **Manifold Diagrams -- A Brief Report**
 
+  slides: [[Dorn-ManifoldDiagramsReport.pdf:file]]
+
   cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
 
   > [[manifold diagram|Manifold diagrams]] are the [[higher category|higher]] [[categorifications]] of [[string diagrams]]. They lie at the intersection of several interesting topics, such as: 1. The [[tangle hypothesis|tangle]] and [[cobordism hypotheses]], 2. The constructive description of [[computads|free higher categorical structures]], 3. The combinatorialization of differential structures and [singularities](cobordism+hypothesis#ForCobordismsWithSingularities). Nonetheless, the precise role of manifold diagrams in these topics remains largely mysterious. In this talk, we will focus on describing the basic interplay between ([[stratified space|stratified]]) geometry, [[combinatorics]], and (directed) cell complexes, exposed by the mathematical framework of manifold diagrams. This will include, in particular, two equivalent definitions of manifold diagrams, one geometric and one combinatorial, as well as a discussion of how these relate to the above topics
 
 
 \linebreak
+
 
 
 ## External presentations
