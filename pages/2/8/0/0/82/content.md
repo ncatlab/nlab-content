@@ -114,7 +114,7 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 * [[Colin McLarty]], *[[Elementary Categories, Elementary Toposes]]*, Oxford University Press 1992 ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732?cc=ae&lang=en&))
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, 1992
+* [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP 1994 ([ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB))
 
