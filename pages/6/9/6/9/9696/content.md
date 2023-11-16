@@ -65,6 +65,11 @@ On [[noisy intermediate-scale quantum computing]]:
 
 * [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
 
+On [[quantum simulation]] of ([[lattice QFT|lattice]]) [[quantum field theory]]:
+
+* [[John Preskill]], *Simulating quantum field theory with a quantum computer*, 36th Annual International Symposium on Lattice Field Theory, PoS **334** (2019) &lbrack;[doi:10.22323/1.334.0024](https://doi.org/10.22323/1.334.0024), 
+[arXiv:1811.10085](https://arxiv.org/abs/1811.10085)&rbrack;
+
 On the state of [[quantum information]] and [[quantum computation]]:
 
 * [[John Preskill]], *The Physics of Quantum Information*, talk at
