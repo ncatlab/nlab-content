@@ -37,6 +37,8 @@ By "quantum simulation" one broadly means the simulation *of* [[quantum systems]
 
 ### Quantum simulation by quantum systems
 
+General discussion:
+
 * Tomi H Johnson, Stephen R Clark, Dieter Jaksch, *What is a quantum simulator?*, EPJ Quantum Technol. **1** 10 (2014) &lbrack;[doi:10.1140/epjqt10](https://doi.org/10.1140/epjqt10)&rbrack;
 
 * I. M. Georgescu, S. Ashhab, Franco Nori, *Quantum Simulation*, Rev. Mod. Phys. **86** 154 (2014) &lbrack;[arXiv:1308.6253](https://arxiv.org/abs/1308.6253), [doi:10.1103/RevModPhys.86.153](https://doi.org/10.1103/RevModPhys.86.153)&rbrack;
@@ -44,6 +46,18 @@ By "quantum simulation" one broadly means the simulation *of* [[quantum systems]
 See also:
 
 * Wikipedia, *[Quantum simulator](https://en.wikipedia.org/wiki/Quantum_simulator)*
+
+On quantum simulation of ([[lattice QFT|lattice]]) [[quantum field theory]]:
+
+* [[John Preskill]], *Simulating quantum field theory with a quantum computer*, 36th Annual International Symposium on Lattice Field Theory, PoS **334** (2019) &lbrack;[doi:10.22323/1.334.0024](https://doi.org/10.22323/1.334.0024), 
+[arXiv:1811.10085](https://arxiv.org/abs/1811.10085)&rbrack;
+
+
+
+specifically of  [[scattering amplitudes]] of [[bound states]]:
+
+* Matteo Turco, Gonçalo M. Quinta, João Seixas, Yasser Omar, *Towards Quantum Simulation of Bound States Scattering* &lbrack;[arXiv:2305.07692](https://arxiv.org/abs/2305.07692)&rbrack;
+
 
 
 ### Quantum simulation by classical systems
