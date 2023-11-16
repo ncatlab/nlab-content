@@ -81,17 +81,17 @@ It is also possible to derive the [[monadicity theorem]] from the adjoint triang
  
 * {#dubuc68} [[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968. &lbrack;[doi:10.1007/BFb0077118](https://doi.org/10.1007/BFb0077118)&rbrack;
 
-* I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_, Bull. Austral. Math. Soc. **36** 1 (1987) pp.133-136. &lbrack;[doi:10.1017/S000497270002637X](https://doi.org/10.1017/S000497270002637X)&rbrack;
+* I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_, Bulletin of the Australian Mathematical Society **36** 1 (1987) pp.133-136. &lbrack;[doi:10.1017/S000497270002637X](https://doi.org/10.1017/S000497270002637X)&rbrack;
 
-* [[John Power]], _A unified approach to the lifting of adjoints_, Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0))
+* [[John Power]], _A unified approach to the lifting of adjoints_, Cahiers de Topologie et Géométrie Différentielle Catégoriques **29** 1 (1988) 67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0))
 
-* {#StreetVerity} [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_, TAC **23** no.3 (2010) pp.42-75. ([abstract](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
+* {#StreetVerity} [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_, Theory and Applications of Categories **23** 3 (2010) 42-75. ([TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
 
-* [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_, Math. Ann. **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
+* [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_, Mathematische Annalen **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
 
 Generalizations of the adjoint triangle theorem to [[2-categories]] are considered in
 
-* [[Fernando Lucatelli Nunes]], _On biadjoint triangles_, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+* [[Fernando Lucatelli Nunes]], _On biadjoint triangles_, Theory and Applications of Categories **31** 9 (2016) 217-256. [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
 
 * [[Fernando Lucatelli Nunes]], _On lifting of biadjoints and lax algebras_, General Algebraic Structures with Applications **9** 1 (2018) 29-58. &lbrack;[doi:10.29252/CGASA.9.1.29](https://doi.org/10.29252/CGASA.9.1.29), [arXiv:1607.03087](https://arxiv.org/abs/1607.03087)&rbrack;
 
