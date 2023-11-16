@@ -529,10 +529,22 @@ $$
 
 ## References
 
-Lecture notes include
+Textbook account:
 
-* {#Boalch09} Philip Boalch, p. 26-27 of _Noncompact complex symplectic and hyperkähler manifolds_, 2009 ([pdf](https://www.math.u-psud.fr/~boalch/cours09/hk.pdf))
+* [[Rolf Berndt]], p. 25 in: _An introduction to symplectic geometry_, Graduate Studies in Mathematics **26** (2001) &lbrack;[ams:gsm-26](https://bookstore.ams.org/gsm-26), [pdf](http://www.ams.org/bookstore/pspdf/gsm-26-prev.pdf)&rbrack;
 
+
+Lecture notes:
+
+* {#Boalch09} Philip Boalch, *Noncompact complex symplectic and hyperkähler manifolds* (2009) &lbrack;[pdf](https://webusers.imj-prg.fr/~philip.boalch/cours09/hk.pdf), [[Boalch-NoncompactSymplectic.pdf:file]]&rbrack;
+
+* Konstantin Athanassopoulos, [p. 25](http://users.math.uoc.gr/~athanako/symplectic.pdf#page=27) of: *Notes on Symplectic Geometry*, lecture notes (2015) &lbrack;[pdf](http://users.math.uoc.gr/~athanako/symplectic.pdf)&rbrack;
+
+In relation to [[Hodge theory]]:
+
+* Wilmer Smilde, §3.2.2 in: *The Hodge Decomposition Theorem: An Alternative Approach* (2018) &lbrack;[pdf](https://studenttheses.uu.nl/bitstream/handle/20.500.12932/29899/Bachelor%20Thesis%20-%20The%20Hodge%20Decomposition%20Theorem%20(Wilmer%20Smilde).pdf?sequence=2)&rbrack;
+
+For more see the references at *[[Kähler manifold]]*.
 
 [[!redirects Kähler vector spaces]]
 
