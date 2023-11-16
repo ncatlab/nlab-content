@@ -1150,6 +1150,10 @@ Discussion in the context of the [[(infinity,1)-Grothendieck construction]] is i
 
 * {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
 
+A discussion of homotopy limits via [[weighted limits]] may be found in:
+
+* [[Dominique Bourn]], and [[Jean-Marc Cordier]]. _A general formulation of homotopy limits_, Journal of Pure and Applied Algebra 29.2 (1983): 129-141.
+
 
 ### In homotopy type theory
 
