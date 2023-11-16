@@ -632,9 +632,14 @@ Also, albeit without explicit mentioning of [[monad|monadic]] structures:
 
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], around Lem.  5.61 in *Categories for Quantum Theory*, Oxford University Press 2019 $[$[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)$]$
 
+See also:
+
+* [[Stefano Gogioso]], *Finite-dimensional Quantum Observables are the Special Symmetric Dagger-Frobenius Algebras of CP Maps*, EPTCS **394** (2023) 432-441 &lbrack;[arXiv:2110.07074](https://arxiv.org/abs/2110.07074)&rbrack;
+
+
 The above discussion follows:
 
-* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+* {#CQTS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Quantum Monadology|The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
 
 [[!redirects quantum reader monads]]
