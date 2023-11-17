@@ -30,20 +30,27 @@ An [[object]] $P$ of a [[category]] $C$ is **projective** (with respect to [[epi
 
 =--
 
-This means that $P$ is projective if for any [[morphism]] $f:P \to B$ and any [[epimorphism]] $q:A \to B$, $f$ factors through $q$ by some morphism $P\to A$.
+This means that $P$ is projective if for any
+
+1. [[morphism]] $f \colon P \to B$ 
+
+1. [[epimorphism]] $q \colon A \twoheadrightarrow B$, 
+
+$f$ factors through $q$, making a [[commuting diagram]] of this form:
 
 $$
   \array{
     && A
     \\
-    &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{q}} 
+    &\mathllap{^\exists}\nearrow& 
+    \downarrow{^\mathrlap{q}} 
     \\
     P &\stackrel{f}{\to}& B
   }
   \,.
 $$
 
-Yet another way to say  this is that
+Yet another way to say  this is that:
 
 
 +-- {: .num_defn #ByCovHomPreservingEpis}
