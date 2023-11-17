@@ -68,7 +68,7 @@ A map which is the coequalizer of a parallel pair of morphisms is called a _[[re
 \end{remark}
 
 \begin{remark}
-The last condition in Def. \ref{RegularCategory} may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
+The last condition in Def. \ref{RegularCategory} may equivalently be stated in the form "coequalizers of kernel pairs are [[pullback-stable colimit|stable under pullback]]". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
 
   $$e \;\rightrightarrows\; d \to c$$ 
 
