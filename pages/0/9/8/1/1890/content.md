@@ -206,7 +206,7 @@ Then there is a correspondence between
   * left unital: $I \odot A \cong A$ (naturally),
   * right unital: $X \odot [I] \cong JX$ (naturally),
   * mixed associative: $(X \otimes Y) \odot [Z] \cong X \odot (Y \odot [Z])$ (naturally),
-  * subject to coherence laws.
+  * subject to [[coherence laws]] (see at *[[action of a monoidal category]]*)
 
 +-- {: .query}
 Right unitality entails that $X \odot [Y] \cong X \otimes Y \odot [I] \cong [X \otimes Y]$ so basically $\odot$ is fixed on objects. Is it better to fix this on the nose? Does this violate the [[principle of equivalence]]?
