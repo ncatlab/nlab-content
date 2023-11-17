@@ -554,6 +554,12 @@ Therefore $p$ exhibits $\mathbb{R}^1$ as a universal covering space of $S^1$, by
 
 See also the references at _[[covering space]]_.
 
+
+A detailed treatment is available in
+
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer, 2016.  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
+
+
 Original discussion of universal covering spaces in terms of equivalence classes of based paths:
 
 * [[William S. Massey]], Chapter 5, Section 10 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
