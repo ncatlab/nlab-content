@@ -32,9 +32,9 @@ An [[object]] $P$ of a [[category]] $C$ is **projective** (with respect to [[epi
 
 This means that $P$ is projective if for any
 
-1. [[morphism]] $f \colon P \to B$ 
+1. [[morphism]]$\;f \colon P \to B$ 
 
-1. [[epimorphism]] $q \colon A \twoheadrightarrow B$, 
+1. [[epimorphism]]$\;q \colon A \twoheadrightarrow B$, 
 
 $f$ factors through $q$, making a [[commuting diagram]] of this form:
 
