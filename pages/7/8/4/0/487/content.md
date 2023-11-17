@@ -17,7 +17,7 @@
 ## Definition 
 
 \begin{definition}\label{BalancedCategory}
-A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] morphism is an [[isomorphism]].  
+A category is **balanced** if every [[morphism]] which is both a [[monomorphism]] and an [[epimorphism]] is already an [[isomorphism]].  
 \end{definition}
 
 
@@ -28,7 +28,9 @@ A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] 
 * In an "unbalanced" category it is frequently the case that the monomorphisms, the epimorphisms, or both, are not the "right" notion to consider and should be replaced by their [[extremal epimorphism|extremal]], [[strong epimorphism|strong]], or [[regular epimorphism|regular]] counterparts.
 
 
+
 ## Examples and non-examples 
+ {#Examples}
 
 \begin{example}\label{SetIsBalanced}
   The category [[Set]] is balanced (Def. \ref{BalancedCategory}).
@@ -38,18 +40,43 @@ More generally:
 Any [[topos]] and in fact any [[pretopos]] is balanced.  
 \end{example}
 \begin{remark}
- A [[quasitopos]], however, need *not* be balanced.
+ Beware the [[counterexample]]:
+ A [[quasitopos]], need *not* be balanced.
 \end{remark}
 
-* Some algebraic categories, such as [[Grp|the category of groups]] (see [here](regular+monomorphism#Examples) and [here](https://ncatlab.org/nlab/show/Grp#eq)), are balanced.
+\begin{example}\label{AbelianCategoriesAreBalanced}
+Any [[abelian category]] is balanced. 
 
-* Any [[abelian category]] is balanced. An [[additive category]] need not be; for example in the category of [[torsion subgroup]]-free abelian groups, each nonzero homomorphism $\mathbb{Z} \to \mathbb{Z}$ is both monic and epic. 
+In particular categories [[Mod]] of [[modules]] and [[Vect]] of [[vector spaces]] are balanced.
+\end{example}
+\begin{remark}
+  An [[additive category]] need not be balanced:  A [[counterexample]] is the category of [[torsion subgroup]]-free abelian groups, each nonzero homomorphism $\mathbb{Z} \to \mathbb{Z}$ is both monic and epic. 
+\end{remark}
 
-* The [[category of rings]] is not balanced; $\mathbb{Z}\hookrightarrow \mathbb{Q}$ is monic and epic but not an isomorphism. On similar grounds, the [[category of commutative monoids]] is not balanced, as the inclusion $\mathbb{N} \hookrightarrow \mathbb{Z}$ is both monic and epic. 
+\begin{example}
+Thw [[Grp|the category of groups]] is balanced (see [here](regular+monomorphism#Examples) and [here](Grp#eq)).
+\end{example}
 
-* Topological categories are rarely balanced; in [[Top]], for example, the monic epimorphisms are the continuous bijections.  However, the category of [[compact Hausdorff space]]s is balanced.
+\begin{remark}
+Not all categories of [[algebra|algebraic]] [[structures]] are balanced. 
 
-* In a [[partial order|poset]] or a [[quiver]], or more generally any _[[thin category]]_, _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
+As a [[counterexample]],
+the [[category of rings]] is not balanced: $\mathbb{Z}\hookrightarrow \mathbb{Q}$ is monic and epic but not an isomorphism. 
+
+On similar grounds, the [[category of commutative monoids]] is not balanced, as the inclusion $\mathbb{N} \hookrightarrow \mathbb{Z}$ is both monic and epic. 
+\end{remark}
+
+\begin{remark}
+Topological categories are rarely balanced. In [[Top]], for example, the monic epimorphisms are the continuous bijections.  
+\end{remark}
+However:
+\begin{example}
+The category of [[compact Hausdorff spaces]] is balanced.
+\end{example}
+
+\begin{remark}
+In a [[partial order|poset]] or a [[quiver]], or more generally in any _[[thin category]]_, _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
+\end{remark}
 
 
 [[!redirects balanced categories]]
