@@ -96,6 +96,10 @@ See [[simplicial fundamental groupoid]].
 
 ## References
 
+A detailed treatment is available in
+
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer, 2016.  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
+
 Monograph:
 
 * [[Philip J. Higgins]], §6 of: *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
