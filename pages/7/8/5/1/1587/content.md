@@ -1153,7 +1153,14 @@ This indeed is then the usual construction of the universal covering space in te
 
 ## References
 
-Textbook accounts;
+
+
+A detailed treatment is available in
+
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer, 2016.  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
+
+
+Textbook accounts:
 
 
 * [[William S. Massey]], Chapter 5 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
