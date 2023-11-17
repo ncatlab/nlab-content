@@ -3,7 +3,7 @@
 
 \section{Overview}
 
-The physical existence of the [[Home Page|nLab]] is funded by donations (see [below](#Donate)) which are received via a mechanism handled by the [Topos Institute](https://topos.institute/), with the kind administrative help of [[Brendan Fong]].
+The physical existence of the [[HomePage|nLab]] is funded by donations (see [below](#Donate)) which are received via a mechanism handled by the [Topos Institute](https://topos.institute/), with the kind administrative help of [[Brendan Fong]].
 
 The nLab's [[nlabmeta:technical board]] decides about how to use these funds for paying server rent and sysadmin services (see [further below](#Expenditures)).
 
@@ -34,7 +34,8 @@ Thanks for your support!
 
 
 
-\section{Available funds}
+## Available funds
+ {#AvailableFunds}
 
 As of 05 May 2022 the funds available to the nLab due to donations are 
 
@@ -43,7 +44,7 @@ As of 05 May 2022 the funds available to the nLab due to donations are
 
 
 
-\section{Expenditures}
+## Expenditures
  {#Expenditures}
 
 Since then we have spent:
