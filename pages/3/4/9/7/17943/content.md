@@ -253,6 +253,12 @@ This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcc
 
 On the classical theory:
 
+
+A detailed treatment is available in
+
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer, 2016.  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
+
+
 Textbook account:
 
 * {#tomDieck2008} [[Tammo tom Dieck]], Thm. 3.3.2 in: _Algebraic topology_, European Mathematical Society, Zürich (2008) &lbrack;[doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf)&rbrack;
