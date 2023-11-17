@@ -727,6 +727,10 @@ Understanding [[higher parallel transport]] of [[circle n-bundles with connectio
 
 * [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
 
+See also:
+
+* {#LeeOberhauser23} Darrick Lee, Harald Oberhauser, *Random Surfaces and Higher Algebra* &lbrack;[arXiv:2311.08366](https://arxiv.org/abs/2311.08366)&rbrack;
+
 
 
 
