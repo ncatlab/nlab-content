@@ -122,7 +122,241 @@ The category (eq:DualVectorGSpaces) is denoted $Vec_G^\ast$ in ([Triantafillou 8
 
 ## Properties
 
+### Projective objects
+ {#ProjectiveObjects}
+
+> Beware that this section uses different notational conventions than the rest of the entry. None of the rest of the entry is necessary for reading this section here.
+
+Notation:
+
+* $G$ a [[finite group]],
+
+* $N(H)/H$ the "[Weyl group](Weyl+group#InEquivariantHomotopyTheory)" of a [[subgroup]] $H \subset G$,
+
+* $Orb_G$ the [[orbit category]] of $G$, equivalently thought of as the [[full subcategory]] of [[G-sets]] $G/H$ of [[cosets]] for [[subgroups]] $H \subset G$,
+
+* $\mathbb{Q}$ the [[ground field]] of [[rational numbers]],
+
+* $Mod_{\mathbb{Q}}^{Orb_G^{op}}$ the [[presheaf category]] on $Orb_G$ with [[coefficients]] in [[rational vector spaces]],
+
+* $\mathbb{Q}[K]$ the [[group algebra]] over the [[rational numbers]], of a [[finite group]] $K$.
+
+\linebreak
+
+\begin{definition}
+\label{TheProjectiveGenerators}
+([T82, Def. 3.1](#Triantafillou82))
+\linebreak
+
+  For 
+
+  * $H \subset G$,
+
+  * $V_H \,\in\, Mod_{ \mathbb{Q}[N(H)/H] }$
+
+define
+
+$$
+  \begin{array}{l}
+    \underline{V}_H 
+    \;\in\;
+    Mod_{\mathbb{Q}}^{Orb_G^{op}}
+    \\
+    \underline{V}_H 
+    \;\equiv\;
+    \mathbb{Q}\big[
+      Orb_G(-,G/H)
+    \big]
+    \underset{
+      \mathbb{Q}[N(H)/H]
+    }{\otimes}
+    V_H
+    \mathrlap{\,.}
+  \end{array}
+$$
+\end{definition}
+
+
+\begin{proposition}
+  \label{ProjectiveGeneratorsAreIndeedProjective}
+  ([T82, Prop. 3.2](#Triantafillou82))
+  \linebreak
+  The objects $\underline{V}_H$ from Def. \ref{TheProjectiveGenerators} are [[projective object|projective]] in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$.
+\end{proposition}
+
+
+\begin{proposition}\label{CharacterizationOfProjectives}
+([T82, Prop. 3.4](#Triantafillou82))
+\linebreak
+ Every [[projective object]] $P \,\in\, Mod_{\mathbb{Q}}^{Orb_G^{op}}$ is a [[direct sum]] of projective generators as in Prop. \ref{TheProjectiveGenerators}.
+\end{proposition}
+
+\begin{proof}
+We make a bunch of choices:
+
+First, in each [[conjugacy class]] $[H]$ of [[subgroups]] $G$ choose one representative $H \subset G$.
+
+For that $H \hookrightarrow G$, consider the joint [[span]] of the [[images]] of 
+
+$$
+  P(G/H \twoheadrightarrow G/H')
+  \;\colon\;
+  P(G/H') \to P(G/H)
+$$
+
+for all intermediate [[subgroup]]-inclusions $H \hookrightarrow H' \hookrightarrow G$:
+
+$$
+  0
+  \to
+  \underset{ H' \supset H }{
+    \textstyle{\sum}
+  } 
+  im\big(
+    P(G/H \twoheadrightarrow G/H')
+  \big)
+  \hookrightarrow
+  P(G/H)
+  \twoheadrightarrow
+  P(G/H)
+    \big/
+  \underset{ H' \supset H }{
+    \textstyle{\sum}
+  } 
+  im\big(
+    P(G/H \twoheadrightarrow G/H')
+  \big)
+  \to 
+  0
+  \,.
+$$
+
+On the right we have exhibited the [[quotient vector space]] of the inclusion of the joint images on the left (hence the joint [[cokernel]]) making a [[short exact sequence]] of [[rational vector spaces]].
+
+Since [every short exact sequence of vector spaces splits](split+exact+sequence#OfVectorSpaces), we may next *choose* a [[split exact sequence|splitting]]:
+
+\[
+  \label{TheSplitting}
+  \sigma_H 
+    \;\;\colon\;\;
+  P(G/H)
+    \big/
+  \underset{ H' \supset H }{
+    \textstyle{\sum}
+  } 
+  im\big(
+    P(G/H \twoheadrightarrow G/H')
+  \big)
+    \xhookrightarrow{\phantom{---}}
+  P(G/H)
+  \,,
+\]
+
+whose [[image]] we denote by
+
+\[
+  \label{VHInProjectiveCover}
+  V_H
+  \;\;\;\coloneqq\;\;\;
+  \sigma
+  \Big(
+    P(G/H)
+      \big/
+    \underset{ H' \supset H }{
+      \textstyle{\sum}
+    } 
+    im\big(
+      P(G/H \twoheadrightarrow G/H')
+    \big)
+  \Big)
+  \xhookrightarrow{\phantom{---}}
+  P(G/H)
+  \,.
+\]
+
+(In fact, we need this splitting $N(H)/H$-equivariantly: Since we are in [[characteristic zero]] this follows by the fact that every $N(H)/H$-[[linear representation|representation]] splits as a [[direct sum]] of [[irreducible representations]], and by the first part of [[Schur's lemma]], which says that there are no non-zero maps between distinct such direct summands.)
+
+Via these (images of) chosen splittings (eq:VHInProjectiveCover), we may define a morphism in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$ as follows, out of the direct sum of their underlined versions from \ref{TheProjectiveGenerators}:
+
+\[  
+  \label{ComparisonMorphismForProjectiveDecomposition}
+  \array{
+    p 
+    &\colon&
+    \underset{
+      [H] 
+    }{\oplus}
+    \underline{V}_H
+    &\longrightarrow&
+    P
+    \\
+    p_{G/K}
+    &\colon&
+    \underset{
+      [H]
+    }{\oplus}
+    \mathbb{Q}
+    \big[
+      Orb_G(G/K, G/H)
+      \underset{
+        \mathbb{Q}[N(H)/H]
+      }{\otimes}
+      V_H
+    \big]
+    &\longrightarrow&
+    P(G/K)
+    \\
+    &&
+    \big(
+      G/K \xrightarrow{ f } G/H
+    \big)
+    \,\otimes\,
+    v_H
+    &\mapsto&
+    P(f)(v_H)
+    \,,
+  }
+\]
+
+which is manifestly functorial in $G/K$ (via functoriality of $P$) and hence well-defined.
+
+Since all the direct summands on the left are projective by Prop. \ref{ProjectiveGeneratorsAreIndeedProjective}, it is now sufficient to prove that (eq:ComparisonMorphismForProjectiveDecomposition) is an [[isomorphism]]. Since isomorphisms in [[functor categories]] are detected objectwise and  since [[rational vector spaces]] form a [[balanced category]] (see [there](balanced+category#AbelianCategoriesAreBalanced)) for this it is sufficient to show that for all $K \subset G$ the morphism $p_{G/K}$ (eq:ComparisonMorphismForProjectiveDecomposition) is both an [[epimorphism]] and a [[monomorphism]].
+
+First to see that that $p_{G/K}$ is an epimorphism: To start with, it is clearly surjective onto the summand $V_K$. Hence it is next sufficient to show that given $v_K \in P(G/K)$ which is in the image under $P(G/K \twoheadrightarrow G/H)$ of some $\widehat{v}_H \in P(G/H)$ then it is also in the image of $p_{G/K}$. As before, this is clear for those $\widehat{v}_H \in V_H$. Hence next, as before, it is sufficient to show this for those $\widehat{v}_H$ which are in the image under some $P(G/H \twoheadrightarrow G/H')$ of some $v_{H'} \in P(G/H')$... And so on. Since $G$ is a [[finite group]], this recursive argument eventually terminates with $V_G = P(G/G)$.
+
+Finally, to see that $p_{G/K}$ (eq:ComparisonMorphismForProjectiveDecomposition) is a monomorphism. It is here (only) that we use the assumption that $P$ is [[projective object|projective]]. With the previous point, this implies a [[lift]] $p'$ in the following diagram in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$:
+
+\begin{tikzcd}[sep=25pt]
+  & 
+  \underset{[H]}{\oplus} \underline{V}_H
+  \ar[
+    d,
+    ->>,
+    "{ p }"
+  ]
+  \\
+  P
+  \ar[r, equals]
+  \ar[ur, dashed, "{ p' }"]
+  &
+  P
+\end{tikzcd}
+
+Hence if $v,w \,\in\, P(G/K)$ such that $p'_{G/K}(v) = p'_{G/K}(w)$ then $p_{G/K} \circ  p'_{G/K}(v) = p_{G/k} \circ p'_{G/K}(w)$ hence $v = w$, whence each $p'_{G/K}$ is injective.
+\end{proof}
+
+\begin{corollary}([T82, Prop. 3.6](#Triantafillou82))
+ Every object $N \,\in\, Mod_{\mathbb{Q}}^{Orb_G}$ admits a [[projective cover]] in the sense of a [[projective object]] $\underset{[H]}{\osum} \underline{V}_H$ and an [[epimorphism]] $p \,\colon\,\underset{[H]}{\osum} \underline{V}_H \twoheadrightarrow N$. 
+\end{corollary}
+\begin{proof}
+  The construction and verification is verbatim as in Prop. \ref{CharacterizationOfProjectives}, omitting only the proof of injectivity in the last step.
+\end{proof}
+
+\linebreak
+
 ### Injective objects
+
+> The following is [[formally dual|formal dual]] to the [above](#ProjectiveObjects) discussion of projectivity. But beware that, for the time being the notational conventions are differ, as these discussions come from two different edits.
 
 +-- {: .num_example #RestrictionOfVectorGSpacesToWeyGroupRepresentations} 
 ###### Example
@@ -155,7 +389,7 @@ Let $H \subset G$ any [[subgroup]]. Notice that its [[Weyl group]] is the [[auto
   N_G(H)/H
 \]
 
-This gives an [[full subcategory]]-inclusion
+This gives a [[full subcategory]]-inclusion
 
 $$
   \mathbf{B}
@@ -769,7 +1003,7 @@ $$
 ## References
 
 
-* {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
+* {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. **274** (1982) 509-532  &lbrack;[jstor:1999119](http://www.jstor.org/stable/1999119)&rbrack;
 
 
 * {#Golasinski97a} [[Marek Golasiński]], _Componentwise injective models of functors to DGAs_, Colloquium Mathematicum, Vol. 73, No. 1 (1997)  ([dml:21048](https://eudml.org/doc/210480), [[GolasinskiInjectiveModels.pdf:file]])
