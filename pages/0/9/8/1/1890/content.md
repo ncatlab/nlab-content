@@ -205,7 +205,7 @@ Then there is a correspondence between
 * functorial operations $\odot : C \times Kl(M) \to Kl(M)$ that are
   * left unital: $I \odot A \cong A$ (naturally),
   * right unital: $X \odot [I] \cong JX$ (naturally),
-  * mixed associative: $(X \otimes Y) \odot [Z] \cong X \otimes (Y \odot [Z])$ (naturally),
+  * mixed associative: $(X \otimes Y) \odot [Z] \cong X \odot (Y \odot [Z])$ (naturally),
   * subject to coherence laws.
 
 +-- {: .query}
