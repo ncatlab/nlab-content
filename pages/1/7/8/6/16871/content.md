@@ -86,7 +86,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. Then if $\hat v$ is the p
 * _[Higher prequantum geometry II: The principle of extremal action -- comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/)_
 
 
-* {#Olver95} [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
+* {#Olver95} [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press (1995) &lbrack;[doi:10.1007/978-1-4684-0274-2](https://doi.org/10.1007/978-1-4684-0274-2)&rbrack;
 
 
 [[!redirects shells]]
