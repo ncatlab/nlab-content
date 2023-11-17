@@ -1,43 +1,223 @@
 
-#Contents#
-* table of contents
-{:toc}
+Notation:
 
-## Idea
+* $G$ a [[finite group]],
 
-By "quantum simulation" one broadly means the simulation *of* [[quantum systems]]. The term is used in two rather different ways:
+* $N(H)/H$ the "[Weyl group](Weyl+group#InEquivariantHomotopyTheory)" of a [[subgroup]] $H \subset G$,
 
-1. Without further qualification, "quantum simulation" typically refers to the simulation of (complicated) quantum systems appearing in nature, such as (large) [[molecules]], *by* other (more controllable) quantum systems, notably by [[quantum computers]] (cf. *[[quantum chemistry]]*).
+* $Orb_G$ the [[orbit category]] of $G$, equivalently thought of as the [[full subcategory]] of [[G-sets]] $G/H$ of [[cosets]] for [[subgroups]] $H \subset G$,
 
-1. *Classical* quantum simulation refers to the simulation of [[quantum computers]] themselves by classical computers, such as for testing [[quantum circuit]]-designs and more generally for testing [[quantum programming language|quantum programs]] and [[quantum computing]]-architectures.
+* $\mathbb{Q}$ the [[ground field]] of [[rational numbers]],
+
+* $Mod_{\mathbb{Q}}^{Orb_G^{op}}$ the [[presheaf category]] on $Orb_G$ with [[coefficients]] in [[rational vector spaces]],
+
+* $\mathbb{Q}[K]$ the [[group algebra]] over the [[rational numbers]], of a [[finite group]] $K$.
+
+\begin{definition}
+\label{TheProjectiveGenerators}
+([T82, Def. 3.1](#Triantafillou82))
+\linebreak
+
+  For 
+
+  * $H \subset G$,
+
+  * $V_H \,\in\, Mod_{ \mathbb{Q}[N(H)/H] }$
+
+define
+
+$$
+  \begin{array}{l}
+    \underline{V}_H 
+    \;\in\;
+    Mod_{\mathbb{Q}}^{Orb_G^{op}}
+    \\
+    \underline{V}_H 
+    \;\equiv\;
+    \mathbb{Q}\big[
+      Orb_G(-,G/H)
+    \big]
+    \underset{
+      \mathbb{Q}[N(H)/H]
+    }{\otimes}
+    V_H
+  \end{array}
+$$
+\end{definition}
+
+
+\begin{proposition}
+  \label{ProjectiveGeneratorsAreIndeedProjective}
+  ([T82, Prop. 3.2](#Triantafillou82))
+  \linebreak
+  The objects $\underline{V}_H$ from Def. \ref{TheProjectiveGenerators} are [[projective object|projective]] in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$.
+\end{proposition}
+
+
+\begin{proposition}
+([T82, Prop. 3.4](#Triantafillou82))
+\linebreak
+ Every [[projective object]] $P \,\in\, Mod_{\mathbb{Q}}^{Orb_G^{op}}$ is a [[direct sum]] of projective generators as in Prop. \ref{TheProjectiveGenerators}.
+\end{proposition}
+
+\begin{proof}
+We make a bunch of choices:
+
+First, in each [[conjugacy class]] $[H]$ of [[subgroups]] $G$ choose one representative $H \subset G$.
+
+For that $H \hookrightarrow G$, consider the joint [[span]] of the [[images]] of 
+
+$$
+  P(G/H \twoheadrightarrow G/H')
+  \;\colon\;
+  P(G/H') \to P(G/H)
+$$
+
+for all intermediate [[subgroup]]-inclusions $H \hookrightarrow H' \hookrightarrow G$:
+
+$$
+  0
+  \to
+  \underset{ H' \supset H }{
+    \textstyle{\sum}
+  } 
+  im\big(
+    P(G/H \twoheadrightarrow G/H')
+  \big)
+  \hookrightarrow
+  P(G/H)
+  \twoheadrightarrow
+  P(G/H)
+    \big/
+  \underset{ H' \supset H }{
+    \textstyle{\sum}
+  } 
+  im\big(
+    P(G/H \twoheadrightarrow G/H')
+  \big)
+  \to 
+  0
+  \,.
+$$
+
+On the right we have exhibited the [[quotient vector space]] of the inclusion of the joint images on the left (hence the joint [[cokernel]]) making a [[short exact sequence]] of [[rational vector spaces]].
+
+Since [every short exact sequence of vector spaces splits](split+exact+sequence#OfVectorSpaces), we may next *choose* a [[split exact sequence|splitting]]:
+
+\[
+  \label{TheSplitting}
+  \sigma_H 
+    \;\;\colon\;\;
+  P(G/H)
+    \big/
+  \underset{ H' \supset H }{
+    \textstyle{\sum}
+  } 
+  im\big(
+    P(G/H \twoheadrightarrow G/H')
+  \big)
+    \xhookrightarrow{\phantom{---}}
+  P(G/H)
+  \,,
+\]
+
+whose [[image]] we denote by
+
+$$
+  V_H
+  \;\;\;\coloneqq\;\;\;
+  \sigma
+  \Big(
+    P(G/H)
+      \big/
+    \underset{ H' \supset H }{
+      \textstyle{\sum}
+    } 
+    im\big(
+      P(G/H \twoheadrightarrow G/H')
+    \big)
+  \Big)
+  \xhookrightarrow{\phantom{---}}
+  P(G/H)
+  \,.
+$$
+
+Via these (images of) chosen splittings, we may define a morphism in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$ as follows, out of the direct sum of their underlined versions from \ref{TheProjectiveGenerators}:
+
+\[  
+  \label{ComparisonMorphismForProjectiveDecomposition}
+  \array{
+    p 
+    &\colon&
+    \underset{
+      [H] 
+    }{\oplus}
+    \underline{V}_H
+    &\longrightarrow&
+    P
+    \\
+    p_{G/K}
+    &\colon&
+    \underset{
+      [H]
+    }{\oplus}
+    \mathbb{Q}
+    \big[
+      Orb_G(G/K, G/H)
+      \underset{
+        \mathbb{Q}[N(H)/H]
+      }{\otimes}
+      V_H
+    \big]
+    &\longrightarrow&
+    P(G/K)
+    \\
+    &&
+    \big(
+      G/K \xrightarrow{ f } G/H
+    \big)
+    \,\otimes\,
+    v_H
+    &\mapsto&
+    P(f)(v_H)
+    \,,
+  }
+\]
+
+which is manifestly functorial in $G/K$ (via functoriality of $P$) and hence well-defined.
+
+Since all the direct summands on the left are projective by Prop. \ref{ProjectiveGeneratorsAreIndeedProjective}, it is now sufficient to prove that (eq:ComparisonMorphismForProjectiveDecomposition) is an [[isomorphism]]. Since isomorphisms in [[functor categories]] are detected objectwise and  since [[rational vector spaces]] form a [[balanced category]] (see [there](balanced+category#AbelianCategoriesAreBalanced)) for this it is sufficient to show that for all $K \subset G$ the morphism $p_{G/K}$ (eq:ComparisonMorphismForProjectiveDecomposition) is both an [[epimorphism]] and a [[monomorphism]].
+
+First to see that that $p_{G/K}$ is an epimorphism: To start with, it is clearly surjective onto the summand $V_K$. Hence it is next sufficient to show that given $v_K \in P(G/K)$ which is in the image under $P(G/K \twoheadrightarrow G/H)$ of some $\widehat{v}_H \in P(G/H)$ then it is also in the image of $p_{G/K}$. As before, this is clear for those $\widehat{v}_H \in V_H$. Hence next, as before, it is sufficient to show this for those $\widehat{v}_H$ which are in the image under some $P(G/H \twoheadrightarrow G/H')$ of some $v_{H'} \in P(G/H')$... And so on. Since $G$ is a [[finite group]], this recursive argument eventually terminates with $V_G = P(G/G)$.
+
+Finally, to see that $p_{G/K}$ (eq:ComparisonMorphismForProjectiveDecomposition) is a monomorphism. It is here (only) that we use the assumption that $P$ is [[projective object|projective]]. With the previous point, this implies a [[lift]] $p'$ in the following diagram in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$:
+
+\begin{tikzcd}[sep=25pt]
+  & 
+  \underset{[H]}{\oplus} \underline{V}_H
+  \ar[
+    d,
+    ->>
+  ]
+  \\
+  P
+  \ar[, equals]
+  \ar[ur, dashed, "{ p' }"]
+  &
+  P
+\end{tikzcd}
+
+Hence if $v,w \,\in\, P(G/K)$ such that $p'_{G/K}(v) = p'_{G/K}(w)$ then $p_{G/K} \circ  p'_{G/K}(v) = p_{G/k} \circ p'_{G/K}(w)$ hence $v = w$, whence each $p'_{G/K}$ is injective.
+\end{proof}
 
 ## References
 
-
-### Quantum simulation by quantum systems
-
-* Tomi H Johnson, Stephen R Clark, Dieter Jaksch, *What is a quantum simulator?*, EPJ Quantum Technol. **1** 10 (2014) &lbrack;[doi:10.1140/epjqt10](https://doi.org/10.1140/epjqt10)&rbrack;
-
-* I. M. Georgescu, S. Ashhab, Franco Nori, *Quantum Simulation*, Rev. Mod. Phys. **86** 154 (2014) &lbrack;[arXiv:1308.6253](https://arxiv.org/abs/1308.6253), [doi:10.1103/RevModPhys.86.153](https://doi.org/10.1103/RevModPhys.86.153)&rbrack;
-
-See also:
-
-* Wikipedia, *[Quantum simulator](https://en.wikipedia.org/wiki/Quantum_simulator)*
+* {#Triantafillou82} [[Georgia Triantafillou]], *Equivariant minimal models*, Trans. Amer. Math. Soc. **274** (1982) 509-532 &lbrack;[jstor:1999119](http://www.jstor.org/stable/1999119)&rbrack;
 
 
-### Quantum simulation by classical systems
-
-* Yongshan Ding, Frederic T. Chong, *Classical Simulation of Quantum Computation*, in: *Quantum Computer Systems*, Synthesis Lectures on Computer Architecture. Springer (2020) &lbrack;[doi:10.1007/978-3-031-01765-0_9](https://doi.org/10.1007/978-3-031-01765-0_9)&rbrack;
-
-* Ya-Qian Zhao, Ren-Gang Li, Jin-Zhe Jiang, Chen Li, Hong-Zhen Li, En-Dong Wang, Wei-Feng Gong, Xin Zhang, Zhi-Qiang Wei, *Simulation of Quantum Computing on Classical Supercomputers*, Phys. Rev. A **104** 032603 (2021) &lbrack;[arXiv:2010.14962](https://arxiv.org/abs/2010.14962), [doi:10.1103/PhysRevA.104.032603](https://doi.org/10.1103/PhysRevA.104.032603)&rbrack;
-
-* Xiaosi Xu, Simon Benjamin, Jinzhao Sun, Xiao Yuan, Pan Zhang, *A Herculean task: Classical simulation of quantum computers* &lbrack;[arXiv:2302.08880](https://arxiv.org/abs/2302.08880)&rbrack;
 
 
-See also:
-
-* IONQ: *[The Value of Classical Quantum Simulators](https://ionq.com/resources/the-value-of-classical-quantum-simulators)*
-
+***
 
 $\underline{ }$
 
