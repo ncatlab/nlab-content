@@ -120,7 +120,7 @@ $$
 
 =--
 
-(e.g. [Gomi-Terashima 00, remark 3.1](#GomiTerashima00))
+(e.g. [Gomi & Terashima 2000, remark 3.1](#GomiTerashima00))
 
 
 ### Abstract formulation in cohesive homotopy-type theory
