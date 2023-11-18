@@ -16,6 +16,10 @@ On a [[calculus of fractions]] generalized from categories to [[quasi-categories
 
 * [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], *Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
 
+exposition:
+
+* [[Chris Kapulkin]], *Calculus of Fractions for Quasicategories (Part I)*, [talk at](CQTS#KapulkinOct2023) [[CQTS]] (18 Oct 2023) &lbrack;video:[YT](https://youtu.be/96ViSKAuApc)&rbrack;
+
 
 On the [[model structure on compactly generated topological spaces]] and [[model structure on Delta-generated topological spaces|on Delta-generated topological spaces]], and on a [[model category]] of [[locales]] which makes the [[reflective subcategory|reflection]] of [[sober topological spaces]] a [[Quillen adjunction]] to the sober-restriction of the [[classical model structure on topological spaces]]:
 
