@@ -1244,13 +1244,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Sep 2023
 
-* 25 Sep 2023
+* {#SchreiberSep2023} 25 Sep 2023
 
   [[Urs Schreiber]] (NYUAD, CQTS)
 
   **Quantum Channels as QuantumState Monad Transformations (Part I)**
 
-  notes: [here](https://ncatlab.org/schreiber/show/Quantum+Certification+via+Linear+Homotopy+Types#draft)
+  video: [YT](https://youtu.be/EyteOdbSZ5M)
+
+  cf.: [[schreiber:The Quantum Monadology|arXiv:2310.15735]]
 
   > The talk recalls some of the theory of "[[quantum channels]]" and then explains how this is captured by "[[monad (in computer science)|monadic computation]]" with the [[linear logic|linear version]] of the "[[state monad|State monad]]" -- the "[[quantum state monad|QuantumState Frobenius monad]]".
 
@@ -1278,6 +1280,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Topological Quantum Teleportation Without Braiding**
 
+  video: [YT](https://youtu.be/mLKqNMg4ewE)
+
   cf. [arXiv:2303.17700](https://arxiv.org/abs/2303.17700)
 
   > We present the [[quantum teleportation]] and [[superdense coding]] protocols in the context of [[topological quantum computation|topological]] [[qudits]], as realised by [[anyons]]. The simplicity of our proposed realisation hinges on the [[monoidal category|monoidal structure]] of [[Tambara-Yamagami categories]], which readily allows for the generation of maximally [[quantum entanglement|entangled]] qudits. In particular, we remove the necessity for the [[braiding]] of anyons, an operation which typically underpins any computation. Both protocols find a natural interpretation in the [[string diagram|graphical calculus]] for these categories.
@@ -1298,9 +1302,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * {#PengFuOct2023} 23 Oct 2023
 
-  [[Frank (Peng) Fu]]:
+  [[Frank (Peng) Fu]] (Univ. Soth Carolina):
 
   **Proto-Quipper with Dynamic Lifting**
+
+  video: [YT](https://youtu.be/bBL7rlqbDWM)
 
   > [[Quipper]] is a [[functional programming language]] for [[quantum computing]]. Proto-Quipper is a family of languages aiming to provide a [[formal methods|formal foundation]] for Quipper. By virtue of being a [[quantum circuit|circuit]] description language, Proto-Quipper has two separate runtimes: circuit generation time and circuit execution time. Values that are known at circuit generation time are called parameters, and values that are known at circuit execution time are called states. [[dynamic lifting|Dynamic lifting]] is an operation that enables a state, such as the result of a [[quantum measurement|measurement]], to be lifted to a parameter, where it can influence the generation of the next portion of the circuit. As a result, dynamic lifting enables Proto-Quipper programs to [interleave classical and quantum computation](quantum+computation#ClassicalControlQuantumData). In his talk, Dr. Frank will describe how to extend Proto-Quipper-M with dynamic lifting. He will explain the syntax of a language named Proto-Quipper-Dyn. Its type system uses a system of [[modalities]] to keep track of the use of dynamic lifting. Then, he will discuss the [[categorical semantics]] for dynamic lifting. Finally, if time permits, Dr. Frank will give some examples of Proto-Quipper-Dyn programs.
 
@@ -1500,7 +1506,7 @@ Stone-von Neumann**
 
   **Braided Homotopy Lie Algebras and Noncommutative Field Theories**
 
-  on: [arXiv:2112.00541](https://arxiv.org/abs/2112.00541)
+  cf.: [arXiv:2112.00541](https://arxiv.org/abs/2112.00541)
 
 \linebreak
 
@@ -1865,11 +1871,13 @@ Stone-von Neumann**
 
 \linebreak
 
-* 20 Sep 2023
+* {#PennigSep2023} 20 Sep 2023
 
-  [[Ulrich Pennig]]
+  [[Ulrich Pennig]] (Cardiff University):
 
   **Equivariant Higher Twisted K-Theory of $SU(n)$ via Exponential Functors**
+
+  video: [YT](https://youtu.be/JXO-owcJgTE)
 
   cf. [arXiv:2307.00423](https://arxiv.org/abs/2307.00423)
 
@@ -1903,15 +1911,19 @@ Stone-von Neumann**
 
   notes: [[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]
 
+  video: [YT](https://youtu.be/7Bw9CJct8QY)
+
   > By recalling the textbook description of a ([[variational calculus|variational]]) [[classical field theory]] and its [[critical locus]] of [[on-shell]] [[field (physics)|fields]], I will list desiderata for a [[category]] in which this can rigorously take place. This category will consist of [[generalized smooth spaces]], completely determined by "how they may be smoothly probed by finite dimensional manifolds". By expanding on this intuition, I will describe how one naturally arrives at the definition of a [[smooth set]] as a "[[sheaf]] over the [[site]] [[CartSp|of]] [[Cartesian spaces]]''. I will then explain how the [[sheaf topos]] of [[smooth sets]] satisfies the desiderata of (variational) classical field theory. Time permitting, I will indicate how the setting naturally generalizes to include the description of [[fermionic fields]], and ([[gauge field|gauge]]) fields with [[internal symmetries]].
 
 \linebreak
 
 * {#OkayOct2023} 11 Oct 2023
 
-  [[Cihan Okay]] (NYUAD)
+  [[Cihan Okay]] (Bikent University):
 
   **Simplicial Distributions and Contextuality**
+
+  video: [YT](https://youtu.be/pgKYGUWl1kU)
 
   cf. [arXiv:2204.06648](quantum+contextuality#OkayKharoofIpek22)
 
@@ -1925,6 +1937,8 @@ Stone-von Neumann**
 
   **Calculus of Fractions for Quasicategories** (Part I)
 
+  video: [YT](https://youtu.be/96ViSKAuApc)
+
   cf.: [arXiv:2306.02218](https://arxiv.org/abs/2306.02218)
   
   > In their 1967 book "[[Calculus of Fractions and Homotopy Theory]]", [[Pierre Gabriel|P. Gabriel]] and [[Michel Zisman|M. Zisman]] introduced *[[calculus of fractions]]* as a tool for understanding the [[localization of a category]] at a class of [[weak equivalences]]. While powerful, the condition of calculus of fractions is quite restrictive and it is rarely satisfied in various [[homotopy theory|homotopical]] settings, like [[model categories]] or [[Kenneth Brown|Brown]]'s [[categories of fibrant objects]], where one instead has homotopy calculus of fractions. This talk is based on a recent preprint [arXiv:2306.02218](https://arxiv.org/abs/2306.02218), which aims to reconcile the two. We define [[calculus of fractions]] for [[quasicategories]] and give a workable model for [[marked simplicial set|marked]] quasicategories satisfying our condition. Although we have already found several applications of this result, we would be very interested in getting feedback from the audience and exploring new applications from diverse areas.
@@ -1936,6 +1950,8 @@ Stone-von Neumann**
   [[Daniel Carranza]] (Western University, Canada):
 
   **Calculus of Fractions for Quasicategories (Part II)**
+
+  video: [YT](https://youtu.be/Z41YDb99cZk)
 
   cf.: [arXiv:2306.02218](https://arxiv.org/abs/2306.02218)
 
@@ -1963,6 +1979,8 @@ Stone-von Neumann**
 
   slides:[pdf](http://categorified.net/NYUADtalk.pdf)
 
+  video:[YT](https://youtu.be/zvtziTpl2T0)
+
   cf. [categorified.net/dagger2023.html](http://categorified.net/dagger2023.html)
 
   > [[Hilbert spaces]] form more than a category: their morphisms maps can be composed, but also every morphism $f : X \to Y$ has a distinguished "[[adjoint operator|adjoint]]" $f^\dagger : Y \to X$, making it into a "[[dagger category]]". This extra data is important for axiomatizing [[functional analysis]], [[quantum mechanics]], [[quantum information theory]]... However, the assignment $f \mapsto f^\dagger$ is unsatisfying from a [[higher category theory|higher category theorist]]'s perspective because it is "evil", i.e. it violates the [[principle of equivalence]]: a category [[equivalence of categories|equivalent]] to a [[dagger category]] may not admit a dagger structure. This in particular interferes with generalizing the notion of dagger category to the (non-strict) [[higher categories]] necessary for axiomatizing [[extended field theory|fully-local quantum field theory]]. In this talk I will propose a manifestly non-evil definition of "dagger $(\infty,n)$-category". The same machinery also produce a non-evil definitions of "pivotal $(\infty,n)$-category" and helps to clarify the relationship between [[reflection positivity]] and [[spin-statistics theorem|spin-statistics]]. This is based on joint work with [[Bruce Bartlett|B. Bartlett]], G. Ferrar, B. Hungar, C. Krulewski, [[Lukas Müller|L. Müller]], N. Nivedita, [[David Penneys|D. Penneys]], [[David Reutter|D. Reutter]], [[Claudia Scheimbauer|C. Scheimbauer]], [[Luuk Stehouwer|L. Stehouwer]], and C. Vuppulury.
@@ -1976,6 +1994,8 @@ Stone-von Neumann**
   **Manifold Diagrams -- A Brief Report**
 
   slides: [[Dorn-ManifoldDiagramsReport.pdf:file]]
+
+  video: [YT](https://youtu.be/7KK89MuxmX8)
 
   cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
 
