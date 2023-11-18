@@ -64,6 +64,8 @@ The dual concept is that of _[[n-epimorphism]]_.
 
 * [[subtype]]
 
+[[!redirects n-monic]]
+
 [[!redirects n-monomorphisms]]
 
 [[!redirects 0-monomorphism]]
