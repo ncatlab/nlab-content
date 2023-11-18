@@ -39,7 +39,6 @@ More generally:
 \begin{example}
 Any [[topos]] and in fact any [[pretopos]] is balanced.  
 \end{example}
-(eg. [Johnsone 1977, Coe. 1.22](#Johnsone77))
 \begin{remark}
  Beware the [[counterexample]]:
  A [[quasitopos]], need *not* be balanced.
@@ -79,9 +78,11 @@ The category of [[compact Hausdorff spaces]] is balanced.
 In a [[partial order|poset]] or a [[quiver]], or more generally in any _[[thin category]]_, _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
 \end{remark}
 
-## References
+## In $(\infty,1)$-ategory theory
 
-* {#Johnsone77} [[Peter Johnstone]], Cor. 1.22 in: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press (1977), Dover (2014)
+In [[(infinity,1)-category theory]], the concepts of [[monomorphism]], [[epimorphism]], and [[isomorphism]] generalize to the notions of [[n-monomorphism]], [[n-epimorphism]], and [[equivalence in an (infinity,1)-category]]. Thus one could also generalize the notion of balanced category: a *balanced (infinity,1)-category* is an [[(infinity,1)-category]] in which every [[n-monic]] [[n-epic]] morphism is an [[equivalence in an (infinity,1)-category]] for all [[natural numbers]] $n$. 
+
+## References
 
 * [[Roy L. Crole]], p. 115 of: *Categories for types*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139172707](https://doi.org/10.1017/CBO9781139172707)&rbrack;
 
