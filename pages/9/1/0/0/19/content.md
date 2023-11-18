@@ -383,6 +383,10 @@ This and much more history is recalled in
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
+* [[Roy L. Crole]], *Categories for types*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139172707](https://doi.org/10.1017/CBO9781139172707)&rbrack;
+
+  > ([[categorical semantics]] of [[type theory]])
+
 * {#BarrWells95} [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
   > (aimed at [[computer science]], see *[[computational trilogy]]*)
