@@ -40,6 +40,7 @@ $$
       {pr_2}
       {pr_1}
       {\rightrightarrows}
+  X
 $$
 
 whose object of objects is
