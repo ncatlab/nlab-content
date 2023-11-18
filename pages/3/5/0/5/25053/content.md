@@ -14,7 +14,7 @@ On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\inft
 
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus|variational]] [[classical field theory]]:
 
-* [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]&rbrack;
+* [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]], video:[YT](https://youtu.be/7Bw9CJct8QY)&rbrack;
 
 
 
