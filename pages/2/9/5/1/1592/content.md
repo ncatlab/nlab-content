@@ -557,7 +557,7 @@ See also the references at _[[covering space]]_.
 
 A detailed treatment is available in
 
-* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer, 2016.  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
 
 
 Original discussion of universal covering spaces in terms of equivalence classes of based paths:
