@@ -138,7 +138,7 @@ Brief introductions:
 * *[An Invitation to Geometric Higher Categories](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html)*, $n$-Category Café post
 
 
-* [[Christoph Dorn]], *Manifold Diagrams -- A Brief Report*, [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#DornNov2023) [[CQTS]] (15 Nov 2023) &lbrack;[[Dorn-ManifoldDiagramsReport.pdf:file]]&rbrack;
+* [[Christoph Dorn]], *Manifold Diagrams -- A Brief Report*, [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#DornNov2023) [[CQTS]] (15 Nov 2023) &lbrack;[[Dorn-ManifoldDiagramsReport.pdf:file]], [YT](https://youtu.be/7KK89MuxmX8)&rbrack;
 
 
 
