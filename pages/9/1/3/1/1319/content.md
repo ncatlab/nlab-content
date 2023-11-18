@@ -150,6 +150,11 @@ Generalization from categories to [[quasi-categories]] ("$(\infty,1)$-calculus o
 
 * [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], *Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
 
+Exposition:
+
+* [[Chris Kapulkin]], *Calculus of Fractions for Quasicategories (Part I)*, [talk at](CQTS#KapulkinOct2023) [[CQTS]] (18 Oct 2023) &lbrack;video:[YT](https://youtu.be/96ViSKAuApc)&rbrack;
+
+* [[Daniel Carranza]], *Calculus of Fractions for Quasicategories (Part II)*, [talk at](CQTS#CarranzaOct2023) [[CQTS]] (25 Oct 2023) &lbrack;video:[YT](https://youtu.be/Z41YDb99cZk)&rbrack;
 
 
 [[!redirects left calculus of fractions]]
