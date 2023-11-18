@@ -477,7 +477,13 @@ Review:
 
   > (towards [[fully dualizable objects]]) 
 
+* {#HeunenVicary19} §3.1 in: [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 &lbrack;[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)&rbrack;
 
+  based on:
+
+  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]&rbrack;
+
+  > (in the context of [[quantum information theory via dagger-compact categories]])
 
 See also:
 
