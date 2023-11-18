@@ -415,8 +415,9 @@ On the relation between covariant phase space methods and [[multisymplectic geom
 
 * {#BridgesHydonLawson} Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson, _Multisymplectic structures and the variational bicomplex_ &lbrack;[doi](http://dx.doi.org/10.1017/S0305004109990259)&rbrack;
  
+* {#ForgerRomero04} [[Michael Forger]], [[Sandro Romero]], *Covariant Poisson brackets in geometric field theory*, Commun. Math. Phys. **256** (2005) 375-410 &lbrack;[arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008), [doi:10.1007/s00220-005-1287-8](https://doi.org/10.1007/s00220-005-1287-8)&rbrack;
+ 
 
-* Forger, M. and Romero, S. V. _Covariant poisson brackets in geometric field theory._ Communications in Mathematical Physics  256, 375-410. ([doi](http://dx.doi.org/10.1007/s00220-005-1287-8))
 
 ### Original articles on covariant phase space technology
 
