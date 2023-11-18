@@ -137,6 +137,7 @@ The issue of "[[dynamic lifting]]" (of "[[bits]]" resulting from [[quantum measu
 
 * [[Dongho Lee]], *Formal Methods for Quantum Programming Languages*, Paris Saclay (Dec 2022) &lbrack;[hal:tel-03895847](https://hal.science/LMF/tel-03895847)&rbrack;
 
+* [[Frank (Peng) Fu]], *Proto-Quipper with Dynamic Lifting*, [talk at](CQTS#PengFuOct2023) [[CQTS]] (23 Oct 2023) &lbrack;video:[YT](https://youtu.be/bBL7rlqbDWM)&rbrack;
 
 
 [[!redirects QPL]]
