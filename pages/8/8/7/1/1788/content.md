@@ -1,4 +1,20 @@
 
+
+\begin{imagefromfile}
+    "file_name": "RunningHoTTLogo.jpg",
+    "float": "right",
+    "width": 200,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Rebhan 14](#Rebhan14)"
+\end{imagefromfile}
+
+
 Notation:
 
 * $G$ a [[finite group]],
