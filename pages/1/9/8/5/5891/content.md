@@ -260,7 +260,7 @@ Lecture notes on this include for instance.
 
 * [[Martin Hofmann]], _Syntax and semantics of dependent types_, Semantics and Logics of Computation (P. Dybjer and A. M. Pitts, eds.), Publications of the Newton Institute, Cambridge University Press, Cambridge, (1997) pp. 79-130. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985), )
 
-* Roy Crole, _Categories for types_
+* [[Roy L. Crole]], *Categories for types*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139172707](https://doi.org/10.1017/CBO9781139172707)&rbrack;
 
 See also section B.3 of 
 
