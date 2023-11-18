@@ -144,11 +144,13 @@ For more on the $n$Lab, see:
 
 ## more web logs
 
-For logs of further activity see 
+For logs of further activity see:
 
-* [my page at Twitter](https://twitter.com/SchreiberUrs)
+* [my feed at Twitter](https://twitter.com/UrsSchreiber) (new)
 
-* [my channel on YouTupe](https://www.youtube.com/@UrsSchreiber)
+* [my old feed at Twitter](https://twitter.com/SchreiberUrs) (lost my password...)
+
+* [my channel on YouTube](https://www.youtube.com/@UrsSchreiber)
 
 while [[nLab|$n$Lab]]-edits are announced
 
