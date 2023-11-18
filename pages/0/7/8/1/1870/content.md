@@ -475,6 +475,10 @@ Via [[C-star algebras|$C^\ast$-algebras]]:
 
 * [[David E. Evans]], [[Ulrich Pennig]], *Spectral Sequence Computation of Higher Twisted K-Groups of $SU(n)$* &lbrack;[arXiv:2307.00423](https://arxiv.org/abs/2307.00423)&rbrack;
 
+see also:
+
+* [[Ulrich Pennig]], *Equivariant Higher Twisted K-Theory of $SU(n)$ via Exponential Functors*, [talk at](CQTS#PennigSep2023) [[CQTS]] (20 Sep 2023) &lbrack;video:[YT](https://youtu.be/JXO-owcJgTE)&rbrack;
+
 Discussion of the [[twisted Chern character]] for higher twisted K-theory:
 
 * Lachlan Macdonald, [[Varghese Mathai]], Hemanth Saratchandran, *On the Chern character in Higher Twisted K-theory and spherical T-duality*, Commun. Math. Phys. 385, 331-368 (2021) ([arXiv:2007.02507](https://arxiv.org/abs/2007.02507))
