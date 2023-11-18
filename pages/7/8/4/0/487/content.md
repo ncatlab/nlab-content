@@ -76,7 +76,8 @@ The category of [[compact Hausdorff spaces]] is balanced.
 \end{example}
 
 \begin{remark}
-In a [[partial order|poset]] or a [[quiver]], or more generally in any _[[thin category]]_, _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
+In a [[free category]] on a [[directed graph]], and also in any
+[[partial order|poset]] and  generally in any _[[thin category]]_, _every_ morphism is both monic and epic while only the [[identity morphisms]] are invertible; thus such categories are "as far as possible from being balanced."
 \end{remark}
 
 ## References
