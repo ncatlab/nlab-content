@@ -1748,6 +1748,8 @@ Further early discussion:
 
 * [[Philip Higgins]], *Presentations of Groupoids, with Applications to Groups*, Proc. Camb. Phil. Soc., **60** (1964) 7-20 &lbrack;[doi;10.1017/S0305004100037397](https://doi.org/10.1017/S0305004100037397)&rbrack;
 
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  &lbrack;[doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8&rbrack;
+
 * [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
      
 
