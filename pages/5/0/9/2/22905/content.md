@@ -15,9 +15,9 @@ This gives us an intuitive way to compose parameterised maps:
 
 <img src="/nlab/files/para_comp2.gif" width="500"/>
 
-The Para construction is of special relevance in categorical cybernetics, since controlled processes such as machine learning models, economic agents, Bayesian reasoners, are straightforwardly modelles as parametric processes of some kind.
+The Para construction is of special relevance in categorical cybernetics, since controlled processes such as machine learning models, economic agents, Bayesian reasoners, are straightforwardly modelled as parametric processes of some kind.
 
-Indeed, $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)) in a specialised form, then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)), all for the purposes of categorical machine learning.
+Indeed, $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)) then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)) for the purposes of categorical machine learning.
 
 ([Capucci et al. 2020](#Capucci2020)) generalizes further by moving from monoidal categories to [[actegories]], in order to capture examples from other areas of categorical cybernetics.
 
@@ -99,7 +99,7 @@ Again, it is folklore that this bicategory is symmetric monoidal when $\odot$ is
 
 Also, this construction is 2-functorial from $\mathcal{M}\mathbf{Act}$ to $\mathbf{Bicat}$.
 
-### Copara and bipara
+### Dual construction: copara and bipara
 Given a *left* $\mathcal{M}$-actegory, one can produce a bicategory of *coparametric morphisms* $f: A \to P \odot B$ by dualizing the above construction in the obvious way.
 This is known as $\mathbf{Copara}(\odot)$.
 
@@ -107,9 +107,9 @@ Likewise, given an $\mathcal{M}$-[[biactegory]] there is a bicategory $\mathbf{B
 
 ### Generalizations
 
-As described in ([Myers 2022](#Myers22)), the Para construction is naturally generalized in four different ways:
+As described in ([Myers 2022](#Myers22)), the Para construction naturally generalizes in four different ways:
 
-1. Move from bicategories to [[double categories]] (in the weak sense): $\mathbf{Para}(\mathcal{C})$ is fruitfully considered as a double category whose [[tight category]] is still $\mathcal{C}$, whose [[loose maps]] are parametric morphisms, and whose squares are reparametrizations that commute suitably:
+1. Move from bicategories to [[double categories]] (in the weak sense): $\mathbf{Para}(\mathcal{C})$ is fruitfully considered as a double category whose [[tight map|tight category]] is still $\mathcal{C}$, whose [[loose map|loose maps]] are parametric morphisms, and whose squares are reparametrizations that commute suitably:
 \[
 \begin{tikzcd}
 	A & B \\
@@ -132,8 +132,8 @@ As described in ([Myers 2022](#Myers22)), the Para construction is naturally gen
 \]
 
 
-2. Allow for *colax actions*, i.e. those for which the unitor $\eta_X : X \odot I \to X$ and multiplicator $\mu_X : X \odot (P \otimes Q) \to (X \odot P) \odot Q$ are not necessarily invertible. This includes [[comonads]], since they are colax actions of the terminal monoidal category.
-3. Allow for "dependent parameters", i.e. for situation in which the parameter $P$ of a parametric morphism $f: A \odot P \to B$ actually depends on $A$, thus allowing for $f$ of the form $f: (a:A) \times P(a) \to B$ (notation is suggestive). This allows to capture $\mathbf{Span}(\mathcal{C})$ as a Para construction (where the left leg encodes the parameter dependency and the right leg is the parametric morphism itself).
+2. Allow for *colax actions* (see Remark~\ref{rmk:colax}) This includes [[comonads]] (and [[graded monad|graded comonads]] more generally), since they are colax actions of the terminal monoidal category; and applying Para to a comonad yields a double categorical version of the [[coKleisli category]] of the comonad.
+3. Allow for "dependent parameters", i.e. for situation in which the parameter $P$ of a parametric morphism $f: A \odot P \to B$ actually depends on $A$, thus allowing for $f$ of the form $f: (a:A) \times P(a) \to B$ (notation is suggestive). This makes double categories such as [[span|$\mathbf{Span}(\mathcal{C})$]] instances of the Para construction (where the left leg encodes the parameter dependency and the right leg is the parametric morphism itself).
 4. Have the construction take place in [[complete category|complete]] 2-categories, as opposed to $\mathbf{Cat}$. This allows to describe Para for structured categories and to apply it to different 2-categorical structures (e.g. indexed categories).
 
 ## In categorical cybernetics
@@ -174,13 +174,15 @@ and generalized further to [[actegories]] for the purposes of categorical cybern
 
 * {#Capucci2020} Matteo Capucci, [[Bruno Gavranović]], [[Jules Hedges]], Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
 
-
-* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
-
-----
-
-A vast generalization and systematization of the Para construction is being developed by [[David Jaz Myers]] and [[Matteo Capucci]]:
+The generalization of the Para construction being developed by [[David Jaz Myers]] and [[Matteo Capucci]] is expounded in the following talks:
 
 * {#Myers22} [[David Jaz Myers]], _The Para construction as a distributive law_, talk at the Virtual Double Categories Workshop, 2022 ([slides](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/david-jaz-myers.pdf), [video](https://www.youtube.com/watch?v=zB_ifewP8Yk))
 
 * {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_, ([slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://www.youtube.com/watch?v=jYxnUy1vH7Q&pp=ygUmY2FwdWNjaSBjb25zdHJ1Y3RpbmcgdHJpcGxlIGNhdGVnb3JpZXM%3D))
+
+----
+
+* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
+
+[[!redirect copara construction]]
+[[!redirect bipara construction]]
