@@ -474,7 +474,7 @@ Generalization to dagger [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 
 * [[Theo Johnson-Freyd]], *Dagger Higher Categories*, workshop (2023) &lbrack;[web](http://categorified.net/dagger2023.html)&rbrack;
 
-* [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]]&rbrack;
+* [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]], video:[YT](https://youtu.be/zvtziTpl2T0)&rbrack;
 
 
 [[!redirects dagger-category]]
