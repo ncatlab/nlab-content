@@ -290,6 +290,10 @@ Textbook accounts:
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
+* [[Roy L. Crole]], *Categories for types*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139172707](https://doi.org/10.1017/CBO9781139172707)&rbrack;
+
+  > ([[categorical semantics]] of [[type theory]])
+
 
 
 
