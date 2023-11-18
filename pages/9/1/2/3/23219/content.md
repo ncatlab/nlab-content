@@ -50,6 +50,10 @@ and via ([[singular cohomology]] of) [[simplicial sets]]:
 
 * {#OkayKharoofIpek22} [[Cihan Okay]], Aziz Kharoof, Selman Ipek, *Simplicial quantum contextuality*, Quantum **7** (2023) 1009 &lbrack;[arXiv:2204.06648](https://arxiv.org/abs/2204.06648), [doi:10.22331/q-2023-05-22-1009](https://doi.org/10.22331/q-2023-05-22-1009)&rbrack;
 
+exposition:
+
+* [[Cihan Okay]], *Simplicial Distributions and Contextuality*, [talk at](CQTS#OkayOct2023) [[CQTS]] (11 Oct 2023) &lbrack;video:[YT](https://youtu.be/pgKYGUWl1kU)&rbrack;
+
 
 
 Probabilistic aspects:
