@@ -842,10 +842,10 @@ A [[higher differential geometry]]-generalization of [[contact geometry]] in lin
 
 ### Relation to covariant phase space formalism
 
-The relation of multisymplectic formalism to [[covariant phase space]] and [[variational bicomplex]] methods is discussed in 
+On the relation of multisymplectic formalism to [[covariant phase space]] and [[variational bicomplex]] methods:
 
-* [[Michael Forger]], [[Sandro Romero]], _Covariant Poisson brackets in geometric field theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
- {#ForgerRomero04}
+* {#ForgerRomero04} [[Michael Forger]], [[Sandro Romero]], *Covariant Poisson brackets in geometric field theory*, Commun. Math. Phys. **256** (2005) 375-410 &lbrack;[arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008), [doi:10.1007/s00220-005-1287-8](https://doi.org/10.1007/s00220-005-1287-8)&rbrack;
+ 
 
 * [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100, 25 pages ([arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022))
 
