@@ -103,7 +103,7 @@ Conversely, if module category is such that the functor $(-)\oslash d:C\to D$ ha
 
 A recent survey of many basic definitions and operations on actegories is
 
-* Matteo Capucci, Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
+* [[Matteo Capucci]], Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
 
 A generalisation from [[monoidal categories]] to [[bicategories]] is studied in, where actions are called **representations**:
 
