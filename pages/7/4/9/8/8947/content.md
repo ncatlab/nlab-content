@@ -57,6 +57,8 @@ Disucssion in [[homotopy type theory]] is in
 * [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
+[[!redirects n-epic]]
+
 [[!redirects n-epimorphisms]]
 
 [[!redirects 1-epimorphism]]
