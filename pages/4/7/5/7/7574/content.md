@@ -11,6 +11,8 @@ On [[higher twisted K-theory]] via [[C-star algebras|$C^\ast$-algebras]]:
 
 * [[David E. Evans]], [[Ulrich Pennig]], *Spectral Sequence Computation of Higher Twisted K-Groups of $SU(n)$* &lbrack;[arXiv:2307.00423](https://arxiv.org/abs/2307.00423)&rbrack;
 
+* [[Ulrich Pennig]], *Equivariant Higher Twisted K-Theory of $SU(n)$ via Exponential Functors*, [talk at](CQTS#PennigSep2023) [[CQTS]] (20 Sep 2023) &lbrack;video:[YT](https://youtu.be/JXO-owcJgTE)&rbrack;
+
 
 
 category: people
