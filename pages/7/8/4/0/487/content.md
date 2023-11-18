@@ -9,6 +9,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,12 +21,11 @@
 A category is **balanced** if every [[morphism]] which is both a [[monomorphism]] and an [[epimorphism]] is already an [[isomorphism]].  
 \end{definition}
 
+\begin{remark}
+The possibility of monic epics that are not isomorphisms does not survive any strengthening of "monic" or "epic."  Any monic [[extremal epimorphism]] is necessarily an isomorphism, and therefore so is any monic [[strong epimorphism]] or [[regular epimorphism]] (and dually).  It follows that if all epics, or all monos, are extremal, then the category is automatically balanced.
 
-## Remarks 
-
-* The possibility of monic epics that are not isomorphisms does not survive any strengthening of "monic" or "epic."  Any monic [[extremal epimorphism]] is necessarily an isomorphism, and therefore so is any monic [[strong epimorphism]] or [[regular epimorphism]] (and dually).  It follows that if all epics, or all monos, are extremal, then the category is automatically balanced.
-
-* In an "unbalanced" category it is frequently the case that the monomorphisms, the epimorphisms, or both, are not the "right" notion to consider and should be replaced by their [[extremal epimorphism|extremal]], [[strong epimorphism|strong]], or [[regular epimorphism|regular]] counterparts.
+In an "unbalanced" category it is frequently the case that the monomorphisms, the epimorphisms, or both, are not the "right" notion to consider and should be replaced by their [[extremal epimorphism|extremal]], [[strong epimorphism|strong]], or [[regular epimorphism|regular]] counterparts.
+\end{remark}
 
 
 
@@ -39,6 +39,7 @@ More generally:
 \begin{example}
 Any [[topos]] and in fact any [[pretopos]] is balanced.  
 \end{example}
+(eg. [Johnstone 1977, Cor. 1.22](#Johnstone77))
 \begin{remark}
  Beware the [[counterexample]]:
  A [[quasitopos]], need *not* be balanced.
@@ -78,11 +79,9 @@ The category of [[compact Hausdorff spaces]] is balanced.
 In a [[partial order|poset]] or a [[quiver]], or more generally in any _[[thin category]]_, _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
 \end{remark}
 
-## In $(\infty,1)$-ategory theory
-
-In [[(infinity,1)-category theory]], the concepts of [[monomorphism]], [[epimorphism]], and [[isomorphism]] generalize to the notions of [[n-monomorphism]], [[n-epimorphism]], and [[equivalence in an (infinity,1)-category]]. Thus one could also generalize the notion of balanced category: a *balanced (infinity,1)-category* is an [[(infinity,1)-category]] in which every [[n-monic]] [[n-epic]] morphism is an [[equivalence in an (infinity,1)-category]] for all [[natural numbers]] $n$. 
-
 ## References
+
+* {#Johnstone77} [[Peter Johnstone]], Cor. 1.22 in: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press (1977), Dover (2014)
 
 * [[Roy L. Crole]], p. 115 of: *Categories for types*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139172707](https://doi.org/10.1017/CBO9781139172707)&rbrack;
 
