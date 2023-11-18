@@ -21,7 +21,7 @@ On [[manifold diagrams]] and [[manifold-diagrammatic n-categories]]:
 
 Exposition:
 
-* [[Christoph Dorn]], *Manifold Diagrams -- A Brief Report*, [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#DornNov2023) [[CQTS]] (15 Nov 2023) &lbrack;[[Dorn-ManifoldDiagramsReport.pdf:file]]&rbrack;
+* [[Christoph Dorn]], *Manifold Diagrams -- A Brief Report*, [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#DornNov2023) [[CQTS]] (15 Nov 2023) &lbrack;slides:[[Dorn-ManifoldDiagramsReport.pdf:file]], video:[YT](https://youtu.be/7KK89MuxmX8)&rbrack;
 
 
 
