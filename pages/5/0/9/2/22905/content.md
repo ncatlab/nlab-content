@@ -1,6 +1,8 @@
-# Contents
+
+#Contents#
 * this block creates the table of contents, leave as is
 {: toc}
+
 
 ## Idea
 The **Para construction** is a variety of strictly related functorial constructions that produce a category of parametric morphisms.
@@ -28,33 +30,46 @@ A vast generalization and systematization of the Para construction is being deve
 ### For monoidal categories
 
 \begin{definition}
-Let $(\mathcal{C}, I, \otimes)$ be a [[monoidal category]]. Then $\mathbf{Para}(\mathcal{C})$ is a [[bicategory]] with the following data:
+For $(\mathcal{C}, I, \otimes)$ a [[monoidal category]], $\mathbf{Para}(\mathcal{C})$ is the [[bicategory]] given by the following data:
 
-* Its 0-cells are the objects of $\mathcal{C}$.
-* A 1-cell $A \to B$ is a choice of a parameter object $P : \mathcal{C}$ and a morphism
-$$
-f : A \otimes P \to B
-$$
-in $\mathcal{C}$.
-* A 2-cell $(P, f) \Rightarrow (Q, g)$ is a morphism $r : P \to Q$ in $\mathcal{C}$ such that the following commutes:
-\[
+* Its [[objects]] are the objects of $\mathcal{C}$.
+
+* A [[1-morphism]] $A \to B$ is a choice of a parameter object $P \colon \mathcal{C}$ and a morphism in $\mathcal{C}$ of the form
+
+  $$
+    f \colon A \otimes P \to B
+    \,.
+  $$
+
+* A [[2-morphism]] $(P, f) \Rightarrow (Q, g)$ is a morphism $r \colon P \to Q$ in $\mathcal{C}$ such that the following [[commuting diagram|diagram commutes]]:
+
 \begin{tikzcd}
-	{P \otimes A} \\
-	{Q \otimes A} & B
-	\arrow["{r \otimes A}", from=1-1, to=2-1]
-	\arrow["f", from=1-1, to=2-2]
-	\arrow["g"', from=2-1, to=2-2]
+  {P \otimes A} 
+  \\
+  {Q \otimes A} & B
+  \arrow["{r \otimes A}", from=1-1, to=2-1]
+  \arrow["f", from=1-1, to=2-2]
+  \arrow["g"', from=2-1, to=2-2]
 \end{tikzcd}
-\]
-* Identity morphisms are given by the right unitors:
-$$
-(I, \rho) : X \otimes I \xrightarrow{\rho_X} X
-$$
-* The compositw of a map $f : A \otimes P \to B$ and $g : B \otimes Q \to C$ is given by the animation above, but in symbols, it is the $P \otimes Q$-parameterised map defined as
-$$
-A \otimes P \otimes Q \xrightarrow{f \otimes Q} B \otimes Q \xrightarrow{g} C
-$$
-* The data of associators and unitors for the bicategory, as well as their coherence diagrams, are defined using those of $\mathcal{C}$.
+
+* Identity morphisms are given by the right [[unitors]]:
+
+  $$
+    (I, \rho) \colon X \otimes I 
+      \xrightarrow{\rho_X} 
+    X
+    \,.
+  $$
+
+* The composite of a map $f \colon A \otimes P \to B$ and $g \colon B \otimes Q \to C$ is given by the animation above. In symbols, this is the $P \otimes Q$-parameterised map defined as
+
+  $$
+    A \otimes P \otimes Q 
+      \xrightarrow{f \otimes Q} 
+    B \otimes Q \xrightarrow{g} C
+  $$
+
+* The data of [[associators]] and [[unitors]] for the bicategory, as well as their coherence diagrams, are defined using those of $\mathcal{C}$.
 
 \end{definition}
 
@@ -110,34 +125,79 @@ Likewise, given an $\mathcal{M}$-[[biactegory]] there is a bicategory $\mathbf{B
 
 As described in ([Myers 2022](#Myers22)), the Para construction naturally generalizes in four different ways:
 
-1. Move from bicategories to [[double categories]] (in the weak sense): $\mathbf{Para}(\mathcal{C})$ is fruitfully considered as a double category whose [[tight map|tight category]] is still $\mathcal{C}$, whose [[loose map|loose maps]] are parametric morphisms, and whose squares are reparametrizations that commute suitably:
+{#AsADoubleCategory} **(1.)** Move from bicategories to [[double categories]] (in the weak sense): $\mathbf{Para}(\mathcal{C})$ is usefully thought of as a [[double category]] whose [[tight map|tight category]] is still $\mathcal{C}$, whose [[loose map|loose maps]] are parametric morphisms, and whose squares are reparametrizations that commute suitably:
 
-\begin{tikzcd}
-	A & B \\
-	{A'} & {B'}
-	\arrow[""{name=0, anchor=center, inner sep=0}, "{(P,f)}", from=1-1, to=1-2]
-	\arrow["h"', from=1-1, to=2-1]
-	\arrow[""{name=1, anchor=center, inner sep=0}, "{(P',f')}"', from=2-1, to=2-2]
-	\arrow["k", from=1-2, to=2-2]
-	\arrow["r", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
+\begin{tikzcd}[sep=20pt]
+  A
+  \ar[
+    rr,
+    "{ (P,f) }",
+    "{\ }"{name=s, pos=.9, swap}
+  ]
+  \ar[  
+    dd, "{ h }"{swap}
+  ]
+  &&
+  B
+  \ar[
+    dd, "{ k }"
+  ]
+  &&
+  A \odot P
+  \ar[
+    rr,
+    "{ f }"
+  ]
+  \ar[
+    dd,
+    "{ h \odot r }"{swap}
+  ]
+  &&
+  B
+  \ar[  
+    dd,
+    "{ k }"
+  ]
+  \\
+  &&&
+  :=
+  \\
+  A' 
+  \ar[
+    rr,
+    "{ (P', f') }"{swap},
+    "{\ }"{name=t, pos=.1}
+  ]
+  &&
+  B'
+  \ar[
+    from=s,
+    to=t,
+    Rightarrow,
+    shorten=10pt,
+    "{ r }"
+  ]
+  &&
+  A' \odot B'
+  \ar[
+    rr,
+    "{ f' }"{swap}
+  ]
+  &&
+  B'
 \end{tikzcd}
-$\coloneqq$
-\begin{tikzcd}
-	{A \odot P} & B \\
-	{A' \odot P'} & {B'}
-	\arrow["f", from=1-1, to=1-2]
-	\arrow["{h \odot r}"', from=1-1, to=2-1]
-	\arrow["{f'}"', from=2-1, to=2-2]
-	\arrow["k", from=1-2, to=2-2]
-\end{tikzcd}
 
 
+**(2.)** Allow for *colax actions*. This includes [[comonads]] (and [[graded monad|graded comonads]] more generally), since they are colax actions of the terminal monoidal category; and applying Para to a comonad yields a double categorical version of the [[coKleisli category]] of the comonad.
 
-2. Allow for *colax actions* (see Remark~\ref{rmk:colax}) This includes [[comonads]] (and [[graded monad|graded comonads]] more generally), since they are colax actions of the terminal monoidal category; and applying Para to a comonad yields a double categorical version of the [[coKleisli category]] of the comonad.
-3. Allow for "dependent parameters", i.e. for situation in which the parameter $P$ of a parametric morphism $f: A \odot P \to B$ actually depends on $A$, thus allowing for $f$ of the form $f: (a:A) \times P(a) \to B$ (notation is suggestive). This makes double categories such as [[span|$\mathbf{Span}(\mathcal{C})$]] instances of the Para construction (where the left leg encodes the parameter dependency and the right leg is the parametric morphism itself).
-4. Have the construction take place in [[complete category|complete]] 2-categories, as opposed to $\mathbf{Cat}$. This allows to describe Para for structured categories and to apply it to different 2-categorical structures (e.g. indexed categories).
+**(3.)** Allow for "dependent parameters", i.e. for situation in which the parameter $P$ of a parametric morphism $f: A \odot P \to B$ actually depends on $A$, thus allowing for $f$ of the form $f: (a:A) \times P(a) \to B$ (notation is suggestive). This makes double categories such as [[span|$\mathbf{Span}(\mathcal{C})$]] instances of the Para construction (where the left leg encodes the parameter dependency and the right leg is the parametric morphism itself).
+
+
+**(4.)** Have the construction take place in [[complete category|complete]] 2-categories, as opposed to $\mathbf{Cat}$. This allows to describe Para for structured categories and to apply it to different 2-categorical structures (e.g. indexed categories).
+
 
 ## In categorical cybernetics
+
 Para has been developed to model effectively the compositional structure of controlled processes, such as those involving agents. The examples better developed are in [[deep learning]] and [[game theory]], see ([Capucci et al. 2020](#Capucci2020)).
 
 The idea that agents are parametric functions is quite old. In fact, agents take in an input $A$ and produce an output $B$. However, they have additional inputs/outputs not available to the "outside world", i.e. not part of their composition interface.
