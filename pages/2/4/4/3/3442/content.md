@@ -62,7 +62,7 @@ A perspective on differential equations from the [[nPOV]] of [[synthetic differe
 
 * [[William Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
-  (on the description of [[differential equation]]s in terms of synthetic differential geometry)
+  (on the description of [[differential equation|differential equations]] in terms of synthetic differential geometry)
 
 See also the appendix of
 
