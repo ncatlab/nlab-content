@@ -26,7 +26,7 @@ Traditionally, mass and energy are measured in different units related by the [[
 
 The __[[kinetic energy]]__ of a system is the difference between its total energy and its mass (or rest energy).  Thus the kinetic energy is the energy due to the motion of the system (or better, due to the relative motion of the system and the observer).
 
-When a system is thought of as the combination of several [[subsystem]]s, then its mass also may be broken into several pieces:
+When a system is thought of as the combination of several [[subsystem|subsystems]], then its mass also may be broken into several pieces:
 
 *  for each subsystem, its mass,
 *  for each subsystem, its kinetic energy due to relative motion of the subsystem,
@@ -59,7 +59,7 @@ In nonrelativistic physics, where kinetic energy is always negligible, the $U_{i
 $$ m \approx \sum_i m_i ,$$
 the statement of nonrelativistic __conservation of mass__.
 
-Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\mathbf{p}|} \leq E$.  For [[tachyon]]s, where this is violated, the mass becomes an [[imaginary number]].  For this reason, it may make more sense to work with $m^2$ (which is always real) than with $m$ itself.  We also implicitly assume that $E \gt 0$; for [[exotic particle]]s in which $E \lt 0$, it is convenient also to take $m \lt 0$.  (In this case, of course, it is *not* sufficient to work only with $m^2$.)
+Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\mathbf{p}|} \leq E$.  For [[tachyon|tachyons]], where this is violated, the mass becomes an [[imaginary number]].  For this reason, it may make more sense to work with $m^2$ (which is always real) than with $m$ itself.  We also implicitly assume that $E \gt 0$; for [[exotic particle|exotic particles]] in which $E \lt 0$, it is convenient also to take $m \lt 0$.  (In this case, of course, it is *not* sufficient to work only with $m^2$.)
 
 ## Related entries
 
