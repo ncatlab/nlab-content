@@ -184,5 +184,5 @@ The generalization of the Para construction being developed by [[David Jaz Myers
 
 * {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
 
-[[!redirect copara construction]]
-[[!redirect bipara construction]]
+[[!redirects copara construction]]
+[[!redirects bipara construction]]
