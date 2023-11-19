@@ -41,6 +41,8 @@ Equivalently, a topological space is sequential iff it is a [[quotient space]] (
 * The category of sequential spaces is [[cartesian closed category|cartesian closed]]. See also [[convenient category of topological spaces]]. 
 
 
+* The category of sequential spaces embeds fully faithfully into the category of light [[condensed sets]].
+
 ## In constructive mathematics
 
 Everything above assumes [[excluded middle]] (and probably at least [[countable choice]]).  Without that, it\'s hard to prove the existence of any nontrivial sequential spaces.
