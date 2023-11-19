@@ -797,15 +797,15 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 
 \begin{imagefromfile}
-    "file_name": "RunningHoTTLogo.jpg",
+    "file_name": "RunningHoTTAtNYUAD.jpg",
     "float": "right",
-    "width": 80,
+    "width": 90,
     "unit": "px",
     "margin": {
         "top": -35,
         "bottom": 20,
         "right": 70, 
-        "left": 50
+        "left": 40
     }
 \end{imagefromfile}
 
