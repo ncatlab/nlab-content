@@ -21,7 +21,7 @@ Classical linear algebra is done over a [[real-closed field]] or an [[algebraica
 
 Fancier linear algebra is done over incomplete fields and fields with positive characteristic (and constructively over nondiscrete fields). Sometimes a generalization to categories of finitely generated projectives over a ring is considered. In infinite dimensions one rarely studies purely algebraic version, which is considered as a linear algebra, but more often one equips them with topological structure, what enters the subject of [[functional analysis]]. 
 
-If one is interested in tensor products as well, then one gets a generalization called [[multilinear algebra]]: tensor algebra, tensors, exterior and symmetric algebras are some of the main characters in that theory. Study of [[determinant]]s is important in the usual linear algebra but it is also closely related to the study of exterior algebras. 
+If one is interested in tensor products as well, then one gets a generalization called [[multilinear algebra]]: tensor algebra, tensors, exterior and symmetric algebras are some of the main characters in that theory. Study of [[determinant|determinants]] is important in the usual linear algebra but it is also closely related to the study of exterior algebras. 
 
 
 ## Related entries
