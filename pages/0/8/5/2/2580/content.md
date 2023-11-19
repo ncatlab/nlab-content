@@ -366,7 +366,7 @@ A proof is given in these [notes](http://www-math.mit.edu/~helgason/hormander.pd
 
 ### In synthetic differential geometry 
 
-There is another point of view on distributions: that they _can_ be modeled by actual functions provided that one admits infinite and infinitesimal quantities of the type used in Robinson [[nonstandard analysis]]. One particular approach is to formulate axiomatically the theory of distributions so that it can be interpreted in [[smooth toposes]] that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
+There is another point of view on distributions: that they _can_ be modeled by actual functions provided that one admits infinite and infinitesimal quantities of the type used in Robinson [[nonstandard analysis]]. One particular approach is to formulate axiomatically the theory of distributions so that it can be interpreted in [[smooth toposes]] that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object|infinitesimal objects]] and infinitely large integers.
 
 This is discussed in ([Moerdijk-Reyes 91](#MoerdijkReyes91)).
 
