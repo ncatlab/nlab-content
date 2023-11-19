@@ -74,11 +74,24 @@ Other references:
 
 [[!redirects horizontal morphism]]
 [[!redirects horizontal morphisms]]
+
 [[!redirects vertical morphism]]
 [[!redirects vertical morphisms]]
-[[!redirects loose morphism]]
+
+
 [[!redirects tight morphism]]
-[[!redirects loose morphisms]]
 [[!redirects tight morphisms]]
+
+[[!redirects loose morphism]]
+[[!redirects loose morphisms]]
+
+[[!redirects loose map]]
+[[!redirects loose maps]]
+
+[[!redirects tight map]]
+[[!redirects tight maps]]
+
 [[!redirects tight]]
 [[!redirects loose]]
+
+
