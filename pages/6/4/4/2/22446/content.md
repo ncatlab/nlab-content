@@ -16,7 +16,7 @@
 
 ## Idea
 
-While the [[eigenvalues]] of a [[diagonal matrix]] are, of course, [[equality|equal]] to its diagonal entries, *Gershgorin's circle theorem* ([Gershgorin 31](#Gershgorin31), Prop. \ref{GershgorinTheorem} below) provides upper bounds (the *Gershgorin radii, Def. \ref{GershgorinDiscs} below) for general [[square matrices]] over the [[complex numbers]] on how far, in the [[complex plane]], the eigenvalues can be from the values of the diagonal entries. 
+While the [[eigenvalues]] of a [[diagonal matrix]] are, of course, [[equality|equal]] to its diagonal entries, *Gershgorin's circle theorem* ([Gershgorin 31](#Gershgorin31), Prop. \ref{GershgorinTheorem} below) provides upper bounds (the *Gershgorin radii*, Def. \ref{GershgorinDiscs} below) for general [[square matrices]] over the [[complex numbers]] on how far, in the [[complex plane]], the eigenvalues can be from the values of the diagonal entries. 
 
 
 
