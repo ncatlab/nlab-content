@@ -126,7 +126,7 @@ constitutes what is called a _[[ringed topos]]_ -- a special case of the notion 
 
 We shall call this ringed topos the **Bohr topos** of $A$. 
 
-This terminology is meant to indicate that one may think of this construction as formalizing faithfully and usefully a heuristic that has been emphasized by [[Nils Bohr]] -- one of the founding fathers of [[quantum mechanics]] -- and is known as the _doctrine of classical concepts_ ([Scheibe 1973](#Scheibe73)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. 
+This terminology is meant to indicate that one may think of this construction as formalizing faithfully and usefully a heuristic that has been emphasized by [[Niels Bohr]] -- one of the founding fathers of [[quantum mechanics]] -- and is known as the _doctrine of classical concepts_ ([Scheibe 1973](#Scheibe73)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. 
 
 Namely in terms of the Bohr topos we have the following equivalent reformulations of the foundational facts about quantum physics discussed above, now internally in $Bohr(A)$.
 
@@ -1016,7 +1016,7 @@ Alternatively one can explore the situation for [[contravariant functors]] on th
 
 The assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" is in
 
-* {#Bohr49} [[Nils Bohr]],  *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.) *Albert Einstein, Philosopher-Scientist* (Evanston: Library of Living Philosophers) (1949) 201-241 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack;
+* {#Bohr49} [[Niels Bohr]],  *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.) *Albert Einstein, Philosopher-Scientist* (Evanston: Library of Living Philosophers) (1949) 201-241 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack;
 
   > "however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms."
 
