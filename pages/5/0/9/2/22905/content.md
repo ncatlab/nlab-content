@@ -74,7 +74,7 @@ f : A \odot P \to B
 $$
 in $\mathcal{C}$.
 * A 2-cell $(P, f) \Rightarrow (Q, g)$ is a morphism $r : P \to Q$ in $\mathcal{M}$ such that the following commutes:
-\[
+
 \begin{tikzcd}
 	{P \odot A} \\
 	{Q \odot A} & B
@@ -82,7 +82,8 @@ in $\mathcal{C}$.
 	\arrow["f", from=1-1, to=2-2]
 	\arrow["g"', from=2-1, to=2-2]
 \end{tikzcd}
-\]
+
+
 * Identity morphisms are given by the unitors:
 $$
 (I, \eta) : X \odot I \xrightarrow{\eta_X} X
@@ -110,7 +111,7 @@ Likewise, given an $\mathcal{M}$-[[biactegory]] there is a bicategory $\mathbf{B
 As described in ([Myers 2022](#Myers22)), the Para construction naturally generalizes in four different ways:
 
 1. Move from bicategories to [[double categories]] (in the weak sense): $\mathbf{Para}(\mathcal{C})$ is fruitfully considered as a double category whose [[tight map|tight category]] is still $\mathcal{C}$, whose [[loose map|loose maps]] are parametric morphisms, and whose squares are reparametrizations that commute suitably:
-\[
+
 \begin{tikzcd}
 	A & B \\
 	{A'} & {B'}
@@ -120,7 +121,7 @@ As described in ([Myers 2022](#Myers22)), the Para construction naturally genera
 	\arrow["k", from=1-2, to=2-2]
 	\arrow["r", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
 \end{tikzcd}
-:=
+$\coloneqq$
 \begin{tikzcd}
 	{A \odot P} & B \\
 	{A' \odot P'} & {B'}
@@ -129,7 +130,7 @@ As described in ([Myers 2022](#Myers22)), the Para construction naturally genera
 	\arrow["{f'}"', from=2-1, to=2-2]
 	\arrow["k", from=1-2, to=2-2]
 \end{tikzcd}
-\]
+
 
 
 2. Allow for *colax actions* (see Remark~\ref{rmk:colax}) This includes [[comonads]] (and [[graded monad|graded comonads]] more generally), since they are colax actions of the terminal monoidal category; and applying Para to a comonad yields a double categorical version of the [[coKleisli category]] of the comonad.
