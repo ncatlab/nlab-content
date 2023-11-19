@@ -1,18 +1,69 @@
 
 
-\begin{imagefromfile}
-    "file_name": "RunningHoTTLogo.jpg",
-    "float": "right",
-    "width": 200,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    },
-    "caption": "From [Rebhan 14](#Rebhan14)"
-\end{imagefromfile}
+\begin{tikzcd}[sep=20pt]
+  A
+  \ar[
+    rr,
+    "{ (P,f) }",
+    "{\ }"{name=s, pos=.9, swap}
+  ]
+  \ar[  
+    dd, "{ h }"{swap}
+  ]
+  &&
+  B
+  \ar[
+    dd, "{ l }"
+  ]
+  &&
+  A \odot P
+  \ar[
+    rr,
+    "{ f }"
+  ]
+  \ar[
+    dd,
+    "{ h \odot r }"{swap}
+  ]
+  &&
+  B
+  \ar[  
+    dd,
+    "{ k }"
+  ]
+  \\
+  &&&
+  :=
+  \\
+  A' 
+  \ar[
+    rr,
+    "{ (P', f') }"{swap},
+    "{\ }"{name=t, pos=.1}
+  ]
+  &&
+  B'
+  \ar[
+    from=s,
+    to=t,
+    Rightarrow,
+    shorten=10pt,
+    "{ r }"
+  ]
+  &&
+  A' \odot B'
+  \ar[
+    rr,
+    "{ f' }"
+  ]
+  &&
+  B'
+\end{tikzcd}
+
+
+
+***
+
 
 
 Notation:
