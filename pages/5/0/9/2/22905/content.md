@@ -41,7 +41,7 @@ in $\mathcal{C}$.
 \begin{tikzcd}
 	{P \otimes A} \\
 	{Q \otimes A} & B
-	\arrow["{r \otimes A}"', from=1-1, to=2-1]
+	\arrow["{r \otimes A}", from=1-1, to=2-1]
 	\arrow["f", from=1-1, to=2-2]
 	\arrow["g"', from=2-1, to=2-2]
 \end{tikzcd}
@@ -50,7 +50,7 @@ in $\mathcal{C}$.
 $$
 (I, \rho) : X \otimes I \xrightarrow{\rho_X} X
 $$
-* The composition of a map $f : A \otimes P \to B$ and $g : B \otimes Q \to C$ is given by the animation above, but in symbols, it is the $P \otimes Q$-parameterised map defined as
+* The compositw of a map $f : A \otimes P \to B$ and $g : B \otimes Q \to C$ is given by the animation above, but in symbols, it is the $P \otimes Q$-parameterised map defined as
 $$
 A \otimes P \otimes Q \xrightarrow{f \otimes Q} B \otimes Q \xrightarrow{g} C
 $$
@@ -179,8 +179,6 @@ The generalization of the Para construction being developed by [[David Jaz Myers
 * {#Myers22} [[David Jaz Myers]], _The Para construction as a distributive law_, talk at the Virtual Double Categories Workshop, 2022 ([slides](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/david-jaz-myers.pdf), [video](https://www.youtube.com/watch?v=zB_ifewP8Yk))
 
 * {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_, ([slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://www.youtube.com/watch?v=jYxnUy1vH7Q&pp=ygUmY2FwdWNjaSBjb25zdHJ1Y3RpbmcgdHJpcGxlIGNhdGVnb3JpZXM%3D))
-
-----
 
 * {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
 
