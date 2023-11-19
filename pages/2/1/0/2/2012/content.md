@@ -26,7 +26,7 @@ Much of the knowledge about the algebras of differential operators on curves has
 
 ## Quantum integrability
 
-Often classically integrable systems after quantization may be also exactly solved, or show some other form of integrability, but there are no general rules when this is possible. Quantum integrability usually means that we can find a complete system of commuting operators whose common eigenstates will form a basis of the [[Hilbert space]] of the model. Many examples are found making manipulations with algebras of operators; as a consequence generalizations of existing models often involve combinatorial data with algebaric meaning; say for example generalized Calogero models related to the root systems. Quantum R-matrices and [[quantum group]]s
+Often classically integrable systems after quantization may be also exactly solved, or show some other form of integrability, but there are no general rules when this is possible. Quantum integrability usually means that we can find a complete system of commuting operators whose common eigenstates will form a basis of the [[Hilbert space]] of the model. Many examples are found making manipulations with algebras of operators; as a consequence generalizations of existing models often involve combinatorial data with algebaric meaning; say for example generalized Calogero models related to the root systems. Quantum R-matrices and [[quantum group|quantum groups]]
 were invented with a view toward quantum integrable systems systematizing analogues of a classical quantum integrability trick called the Bethe Ansatz.  
 
 ## Related entries
@@ -35,7 +35,7 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 * [[integrable PDE]] 
 
-*[[soliton]] 
+* [[soliton]] 
 
 * [[spin chain]], [[Toda lattice]], [[Bethe ansatz]]
 
