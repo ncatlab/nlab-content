@@ -11,6 +11,8 @@ On [[quantum sensing]] via [[spin resonance]] on the [[nitrogen-vacancy center i
 
 * Nick R. Neuling, Robin D. Allert, [[Dominik B. Bucher]], *Prospects of Single-Cell NMR Spectroscopy with Quantum Sensors*, Current Opinion in Biotechnology **83** (2023) 102975 &lbrack;[arXiv:2306.07593](https://arxiv.org/abs/2306.07593), [doi:10.1016/j.copbio.2023.102975](https://doi.org/10.1016/j.copbio.2023.102975)&rbrack;
 
+* [[Dominik Bucher]], *Quantum Sensing with Spin Defects in Diamond*, [talk at](CQTS#BucherOct2023) [[CQTS]] (Oct 2023) &lbrack;video:[YT](https://youtu.be/ArN3Ed78sSc)&rbrack;
+
 
 category: people
 
