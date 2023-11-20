@@ -56,6 +56,8 @@ Survey:
 
 * [[Mouzhe Xie]], *Diamond-based quantum sensor for molecular analytics*, [talk at](Center+for+Quantum+and+Topological+Systems#XieApr2023) [[CQTS]] (Apr 2023) &lbrack;slides: [[Xie-CQTS-Apr2023.pdf:file]]&rbrack;
 
+* [[Dominik Bucher]], *Quantum Sensing with Spin Defects in Diamond*, [talk at](CQTS#BucherOct2023) [[CQTS]] (Oct 2023) &lbrack;video:[YT](https://youtu.be/ArN3Ed78sSc)&rbrack;
+
 
 [[!redirects quantum sensor]]
 [[!redirects quantum sensors]]
