@@ -17,13 +17,9 @@ This gives us an intuitive way to compose parameterised maps:
 
 <img src="/nlab/files/para_comp2.gif" width="500"/>
 
-The Para construction is of special relevance in categorical cybernetics, since controlled processes such as machine learning models, economic agents, Bayesian reasoners, are straightforwardly modelled as parametric processes of some kind.
+The Para construction is of special relevance in categorical cybernetics, since controlled processes such as machine learning models, economic agents and Bayesian reasoners are straightforwardly modeled as parametric processes of some kind.
 
-Indeed, $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)) then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)) for the purposes of categorical machine learning.
-
-([Capucci et al. 2020](#Capucci2020)) generalizes further by moving from monoidal categories to [[actegories]], in order to capture examples from other areas of categorical cybernetics.
-
-A vast generalization and systematization of the Para construction is being developed by [[David Jaz Myers]] and [[Matteo Capucci]], see ([Myers 2022](#Myers22)) and ([Capucci 2023](#Capucci23)).
+Indeed, $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)), and then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)) for applications to machine learning.  ([Capucci et al. 2020](#Capucci2020)) generalized the construction from monoidal categories to [[actegories]], in order to capture examples from other areas of categorical cybernetics.  A still further generalization and systematization of the Para construction is being developed by [[David Jaz Myers]] and [[Matteo Capucci]], see ([Myers 2022](#Myers22)) and ([Capucci 2023](#Capucci23)).
 
 ## Definition
 
