@@ -797,7 +797,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 
 \begin{imagefromfile}
-    "file_name": "RunningHoTTAtNYUAD.jpg",
+    "file_name": "RunningHoTTatNYUADb.jpg",
     "float": "right",
     "width": 90,
     "unit": "px",
@@ -1168,7 +1168,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > [[quantum sensing|Quantum sensing]] technologies enable some of the most precise [[measurements]] that human beings have ever achieved. In recent years, optically addressable [[nitrogen-vacancy center|nitrogen-vacancy (NV)]] color center hosted by [[diamond]] [[crystal]] has been used as a novel [[quantum sensor]], which has exquisitely sensitive response to local [[magnetic field]] fluctuations. It is therefore capable to perform micro-/nano-scale [[nuclear magnetic resonance|NMR experiments]], manifesting enormous potential to study [[biology|biological systems]] on extremely small sample volume -- even down to single-molecule regime.
 
-  > In this seminar, I will discuss some of the comprehensive efforts to develop [[NV center|NV]]-based [[quantum sensing]] platforms for a wide range of applications in [[chemistry]] and [[biology]]. I will start with a general introduction to [[quantum sensing]] followed by conventional [[NMR]] [[spectroscopy]] as a powerful tool to study biomolecules, as well as their connections to the [[NV center|NV]]-based nanoscale [[NMR]]. I will then introduce a biocompatible surface functionalization architecture for interfacing a diamond quantum sensor with individual intact biomolecules under physiological conditions. A sensing modality based on diamond membrane integrated with flow channel will also be discussed, which is a promising platform for a variety of experiments a molecular, cellular, and even living-organism levels. Finally, I will conclude by providing an outlook on how NV-based quantum sensing platforms, combined with other advanced spectroscopy and microscopy methods, can be utilized to address important biophysical and bioanalytical questions with unprecedented sensitivity and spatial resolution, which will enhance our understanding of molecular interactions and cellular processes and ultimately improve human health.
+  > In this seminar, I will discuss some of the comprehensive efforts to develop [[NV center|NV]]-based [[quantum sensing]] platforms for a wide range of applications in [[chemistry]] and [[biology]]. I will start with a general introduction to [[quantum sensing]] followed by conventional [[NMR]] [[spectroscopy]] as a powerful tool to study biomolecules, as well as their connections to the [[NV center|NV]]-based nanoscale [[NMR]]. I will then introduce a biocompatible surface functionalization architecture for interfacing a diamond quantum sensor with individual intact biomolecules under physiological conditions. A sensing modality based on diamond membrane integrated with flow channel will also be discussed, which is a promising platform for a variety of experiments a molecular, cellular, and even living-organism levels. Finally, I will conclude by providing an outlook on how [[nitrogen-vacancy center in diamond|NV-based]] [[quantum sensing]] platforms, combined with other advanced spectroscopy and microscopy methods, can be utilized to address important biophysical and bioanalytical questions with unprecedented sensitivity and spatial resolution, which will enhance our understanding of molecular interactions and cellular processes and ultimately improve human health.
 
 \linebreak
 
@@ -1326,15 +1326,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 30 Oct 2023
+* {#BucherOct2023} 30 Oct 2023
 
   [[Dominik Bucher]] (Technical University, Munich):
 
   **Quantum Sensing with Spin Defects in Diamond**
 
+  video: [YT](https://youtu.be/ArN3Ed78sSc)
+
   cf.: [arXiv:2306.07593](https://arxiv.org/abs/2306.07593)
 
-  > The [[nitrogen-vacancy center in diamond|nitrogen-vacancy (NV) point defect in diamond]] has emerged as a new class of [[quantum sensors]]. The technique is based on optically detected [[spin resonance|magnetic resonance]] of the NV [[electron|electronic]] [[spins]], which can be used to detect [[magnetic fields]] on unprecedented length scales. In my talk, I will briefly introduce the basics of NV-based quantum sensing, its hardware and review recent highlights in the field. In the second part, I will discuss recent developments in my research group, including quantum sensing in microfluidics for lab-on-a-chip applications and an outlook for single-cell NMR metabolomics.
+  > The [[nitrogen-vacancy center in diamond|nitrogen-vacancy (NV) point defect in diamond]] has emerged as a new class of [[quantum sensors]]. The technique is based on optically detected [[spin resonance|magnetic resonance]] of the NV [[electron|electronic]] [[spins]], which can be used to detect [[magnetic fields]] on unprecedented length scales. In my talk, I will briefly introduce the basics of NV-based [[quantum sensing]], its hardware and review recent highlights in the field. In the second part, I will discuss recent developments in my research group, including quantum sensing in microfluidics for lab-on-a-chip applications and an outlook for single-cell NMR metabolomics.
 
 
 \linebreak 
