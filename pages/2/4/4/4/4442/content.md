@@ -165,6 +165,9 @@ Numerical checks using [[lattice gauge theory]] are reviewed in [Joseph 15](#Jos
 
 Exact duality checks pertaining to the full stringy regime for [[AdS3-CFT2|$AdS_3/CFT_2$]]: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b), [Eberhardt-Gaberdiel-Gopakumar 19](#EberhardtGaberdielGopakumar19). For more see the references [there](AdS3-CFT2+and+CS-WZW+correspondence#ReferencesAdS3CFT2).
 
+See also
+
+* Umut Gursoy, Guim Planella Planas, *Worldsheet from worldline* &lbrack;[arXiv:2311.10142](https://arxiv.org/abs/2311.10142)&rbrack;
 
 
 ## Examples
