@@ -119,7 +119,7 @@ On the cartesian cubical model and type theory:
 
 * {#ABCFHL} Carlo Angiuli, Guillaume Brunerie, Thierry Coquand, Kuen-Bang Hou (Favonia), Robert Harper, and Daniel R. Licata, _Cartesian cubical type theory_, <https://www.cs.cmu.edu/~rwh/papers/uniform/uniform.pdf>
 
-* Carlo Angiuli, _Computational Semantics of CartesianCubical Type Theory_, Ph.D. Thesis, <https://www.cs.cmu.edu/~cangiuli/thesis/thesis.pdf>
+* Carlo Angiuli, _Computational Semantics of Cartesian Cubical Type Theory_, Ph.D. Thesis, <https://www.cs.cmu.edu/~cangiuli/thesis/thesis.pdf>
 
 On comparing the models:
 
