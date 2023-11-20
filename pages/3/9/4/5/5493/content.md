@@ -32,7 +32,7 @@ The paper [Brown (2010)](#Brown) shows how a sesquicategory arises from a whiske
 * [this discussion](http://www.mta.ca/~cat-dist/catlist/1999/2-cats-without) on the categories list.
 {#catlist}
 
-* {#Stell} [[John Stell]], _Modelling Term Rewriting Systems by Sesqui-Categories_, Proc. Categories, Algebres, Esquisses et Neo-Esquisses (1994).
+* {#Stell} [[John Stell]], _Modelling Term Rewriting Systems by Sesqui-Categories_, Proc. Catégories, Algèbres, Esquisses et Néo-Esquisses (1994). &lbrack;<a href='/nlab/files/Stell.pdf' title='Modelling Term Rewriting Systems by Sesqui-Categories'>pdf</a>&rbrack;
 
 * {#Street} [[Ross Street]], _Categorical Structures_, Handbook of Algebra, Vol. 1, 1996, pp. 531-577. &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>, [[Street-CategoricalStructures.pdf:file]]&rbrack;
 
