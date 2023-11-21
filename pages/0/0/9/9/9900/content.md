@@ -37,6 +37,11 @@ On the argument that after embedding into consistent [[quantum gravity]], all [[
 
 * [[Daniel Harlow]], [[Hirosi Ooguri]], _Constraints on symmetry from holography_, Phys. Rev. Lett. 122, 191601 (2019) ([arXiv:1810.05337](https://arxiv.org/abs/1810.05337))
 
+On the [[covariant phase space]] for [[boundary field theory]]:
+
+* [[Daniel Harlow]], [[Jie-qiang Wu]], *Covariant phase space with boundaries*,  J. High Energ. Phys. **2020** 146 (2020). &lbrack;[arXiv:1906.08616](https://arxiv.org/abs/1906.08616), <a href="https://doi.org/10.1007/JHEP10(2020)146">doi:10.1007/JHEP10(2020)146</a>&rbrack;
+
+
 On [[quantum error correcting codes]] and [[black hole entropy]]:
 
 * [[Chris Akers]], [[Netta Engelhardt]], [[Daniel Harlow]], [[Geoff Penington]], [[Shreya Vardhan]], *The black hole interior from non-isometric codes and complexity* &lbrack;[arXiv:2207.06536](https://arxiv.org/abs/2207.06536)&rbrack;
