@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[Taylor polynomial]]s of a [[differentiable function]] approximate it by [[polynomial]] functions; the various versions of Taylor's Theorem describe how good this approximation is.  The limiting case of this is the [[Taylor series]].
+The [[Taylor polynomial|Taylor polynomials]] of a [[differentiable function]] approximate it by [[polynomial]] functions; the various versions of Taylor's Theorem describe how good this approximation is.  The limiting case of this is the [[Taylor series]].
 
 
 ## Preliminary definitions
@@ -19,7 +19,7 @@ If  $f$ is [[differentiable function|differentiable]] $k$ times at $c$, then the
 =--
 
 It is straightforward (by differentiating a polynomial [[ansatz]]) to find an explicit formula (in the variable $x$):
-$$ T^k_{f@c}(x) = \sum_{n = 0}^k \frac{f^{(n)}(c) (x-c)^n}{n!} .$$
+$$ T^k_{f,c}(x) = \sum_{n = 0}^k \frac{f^{(n)}(c) (x-c)^n}{n!} .$$
 We have written this as if $f$ is a function of one variable; but interpret $n$ as a [[multi-index]] whose length $\ell$ satisfies $0 \leq \ell \leq k$, with $f^{(n)}$ the mixed [[partial derivative]] given by that multi-index, $n!$ the [[factorial]] of $\ell$, and $(x-c)^n$ a product of $\ell$ factors of the form $x_i - c_i$ (where $i$ is an index appearing in the multi-index $n$).  Then this works in any cartesian space.  (Note that we include all possible orderings of a multi-index as separate terms; this leads to repeated terms that, when combined, will cancel some of the factors in the factorial.)
 
 In the case of a function of several variables, we can also manage the maximum degrees in the various variables separately, although nobody seems to bother with this.
@@ -34,7 +34,7 @@ Here is the simplest statement, which requires only continuity of $f$ (which we 
 ###### Theorem
 
 If $f$ is [[continuous function|continuous]] at $c$, then
-$$ \lim_{x \to c} \frac{{f(x) - T^k_{f@c}(x)}}{{\|x - c\|}^k} = 0 .$$
+$$ \lim_{x \to c} \frac{{f(x) - T^k_{f,c}(x)}}{{\|x - c\|}^k} = 0 .$$
 =--
 (The norm ${\|\cdot\|}$ can be left out in one variable, or placed in the numerator to handle all components of a vector-valued function at once.)
 
@@ -43,7 +43,7 @@ If $f^{(k)}$ has some continuity, then we get a version of Taylor\'s Theorem wit
 ###### Theorem
 
 If $f^{(k)}$ is [[absolutely continuous function|absolutely continuous]] on $[\min(x,c),\max(x,c)]$, then
-$$ f(x) = T^k_{f@c}(x) + \int_{t=a}^x \frac{f^{(k+1)}(t) (x-t)^{k+1} \,\mathrm{d}t}{(k + 1)!} .$$
+$$ f(x) = T^k_{f,c}(x) + \int_{t=a}^x \frac{f^{(k+1)}(t) (x-t)^{k+1} \,\mathrm{d}t}{(k + 1)!} .$$
 =--
 (Note that $f^{(k+1)}$ is [[almost function|defined almost everywhere]] and [[integrable function|Lebesgue integrable]], because $f^{(k)}$ is absolutely continuous.)
 
@@ -52,7 +52,7 @@ This result is not directly very useful is one is using Taylor polynomials to ap
 ###### Theorem
 
 If $f^{(k)}$ is [[absolutely continuous function|absolutely continuous]] on $[\min(x,c),\max(x,c)]$, then
-$$ {|f(x) - T^k_{f@c}(x)}| \leq \frac{M {|x-c|}^{k+1}}{(k + 1)!} ,$$
+$$ {|f(x) - T^k_{f,c}(x)}| \leq \frac{M {|x-c|}^{k+1}}{(k + 1)!} ,$$
 where $M$ is any [[essentially bounded function|essential upper bound]] of $f^{(k+1)}$ on $[\min(x,c),\max(x,c)]$.
 =--
 In many cases, finding a good upper bound of $f^{(k+1)}$ can be reduced to solving $f^{(k+2)}(t) = 0$.
@@ -62,7 +62,7 @@ There are also versions that generalize the [[mean value theorem]]:
 ###### Theorem
 
 If $f^{(k)}$ is differentiable on $[\min(x,c),\max(x,c)]$, then, for some $t \in [\min(x,c),\max(x,c)]$,
-$$ f(x) = T^k_{f@c}(x) + \frac{f^{(k+1)}(t) (x-c)^{k+1}}{(k + 1)!} .$$
+$$ f(x) = T^k_{f,c}(x) + \frac{f^{(k+1)}(t) (x-c)^{k+1}}{(k + 1)!} .$$
 =--
 
 All of these can be generalized in a fairly straightforward way to functions of several variables.
