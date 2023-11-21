@@ -1,5 +1,5 @@
 
-This page compiles pointers to material contained in the (upcoming) second edition of the
+This page compiles pointers to material contained in the (upcoming)
 
 \linebreak
 
@@ -14,6 +14,7 @@ This page compiles pointers to material contained in the (upcoming) second editi
 
 on [[mathematical physics]].
 
+\linebreak
 
 ## Contents
 
@@ -52,7 +53,12 @@ On [[defect QFT]]:
 * [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
 
 
+On [[higher topos theory]] in physics:
+
+* [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]* &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
+
 
 (...)
 
 category: reference
+
