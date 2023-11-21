@@ -799,7 +799,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 \begin{imagefromfile}
     "file_name": "RunningHoTTatNYUADb.jpg",
     "float": "right",
-    "width": 90,
+    "width": 100,
     "unit": "px",
     "margin": {
         "top": -35,
@@ -823,6 +823,8 @@ External:
 * [[Thorsten Altenkirch]]
 
 * [[Ulrik Buchholtz]]
+
+* [[Eric Finster]]
 
 * [[András Kovács]]
 
