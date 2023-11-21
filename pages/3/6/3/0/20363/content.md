@@ -71,10 +71,10 @@ For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa
 
 The category of condensed sets $CondSet$ is then the (large) [[colimit]] of the category of $\kappa$-condensed sets along the [[filtered category|filtered]] [[poset]] of all uncountable [[strong limit cardinals]] $\kappa$, hence is the category of [[small sheaves]].
 
-Another possible way to deal with set theoretic issue is presented in [Analytic Stacks](#ClausenScholze23):
+Another possible way to deal with set theoretic issue is presented in [Analytic Stacks](#ClausenScholze23).
 
-The category of light profinite sets is the full subcategory of $ProfiniteSet$ consisting of countable limits of finite sets. 
-The category of light condensed sets $LightCondSet$ is the [[category of sheaves]] on the [[site]] of light profinite sets with finite jointly surjective families of maps as covers. 
+The category of **light profinite sets** is the full subcategory of $ProfiniteSet$ consisting of countable sequential limits of finite sets. 
+The category of **light condensed sets** $LightCondSet$ is the [[category of sheaves]] on the [[site]] of light profinite sets with finite jointly surjective families of maps as covers. 
 
 ## Equivalence of sites
 
@@ -89,6 +89,8 @@ Several different [[sites]] can be used to define [[condensed sets]], and, more 
 In all three cases, morphisms are given by continuous maps and covering families are given by finite families of jointly surjective continuous maps.
 
 The equivalence of sites is established in [Yamazaki](#Yamazaki). See also [Proposition 2.3, 2.7](#ScholzeLCM).
+
+The category of _light_ profinite sets is also equivalent to the opposite of the category of countable [[Boolean algebras]] ([Clausen-Scholze 2023](#ClausenScholze23), Lecture 2).
 
 ## Properties
 
@@ -118,6 +120,8 @@ and [[topological spaces]].
 
 The left adjoint exists also for topological groups and other algebraic
 structures, but in this case, the underlying set is not $T(*)$.
+
+For the category of _light_ condensed sets, there is a functor that reflects back onto the category of [[sequential topological spaces]]
 
 
 
