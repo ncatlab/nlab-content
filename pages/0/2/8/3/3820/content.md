@@ -614,6 +614,9 @@ also discussed (with focus on application to [[gravity]]) in:
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
+See also:
+
+* [[Daniel Harlow]], [[Jie-qiang Wu]], *Covariant phase space with boundaries*,  J. High Energ. Phys. **2020** 146 (2020). &lbrack;[arXiv:1906.08616](https://arxiv.org/abs/1906.08616), <a href="https://doi.org/10.1007/JHEP10(2020)146">doi:10.1007/JHEP10(2020)146</a>&rbrack;
 
 
 ### Reduced phase space
