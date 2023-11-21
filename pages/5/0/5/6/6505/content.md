@@ -242,7 +242,7 @@ The concept is originally due to [[Jean-Marie Souriau]].
 
 ### General
 
-* [[Victor Guillemin]], [[Yael Karshon]], [[Viktor Ginzburg]], _Moment Maps, Cobordisms, and Hamiltonian Group Actions_, Mathematical Surveys and Monographs, volume 98
+* [[Victor Guillemin]], [[Yael Karshon]], [[Viktor Ginzburg]], _Moment maps, cobordisms, and Hamiltonian group actions_, Mathematical Surveys and Monographs, volume 98 (2002) 350 pp
 
 Lecture notes and surveys include
 
@@ -265,11 +265,11 @@ Further developments are in
 * M. Spera, _On a generalized uncertainty principle, [[coherent state]]s and the moment map_, J. of Geometry and Physics __12__ (1993) 165-182, [MR94m:58097](http://www.ams.org/mathscinet-getitem?mr=1237511), <a href="http://dx.doi.org/10.1016/0393-0440(93)90032-A">doi</a>
 
 
-* [[Ctirad Klimčik]], [[Pavol Ševera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
+* [[Ctirad Klimčik]], [[Pavol Ševera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](https://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](https://arxiv.org/abs/hep-th/9512124)
 
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, ([pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf))
 
-* Friedrich Knop, _Automorphisms of multiplicity free Hamiltonian manifolds_, [arxiv/1002.4256](http://arxiv.org/abs/1002.4256)
+* Friedrich Knop, _Automorphisms of multiplicity free Hamiltonian manifolds_, [arxiv/1002.4256](https://arxiv.org/abs/1002.4256)
 
 * [[W. Crawley-Boevey]], _Geometry of the moment map for representations of quivers_, Compositio Math. __126__ (2001), no. 3, 257-293 [doi](https:/doi.org/10.1023/A:1017558904030) [MR1834739](https://mathscinet.ams.org/mathscinet-getitem?mr=1834739)
 
@@ -279,7 +279,7 @@ See also
 
 Momentum maps in [[higher geometry]], [[schreiber:Higher geometric prequantum theory]], are discussed in 
 
-* [[Yael Fregier]], [[Chris Rogers]], [[Marco Zambon]], _Homotopy moment maps_ ([arXiv:1304.2051](http://arxiv.org/abs/1304.2051))
+* Martin Callies, [[Yaël Frégier]], [[Chris Rogers]], [[Marco Zambon]], _Homotopy moment maps_, Advances in Mathematics __303__ (2016) 954--1043 ([arXiv:1304.2051](https://arxiv.org/abs/1304.2051))
 
 ### Relation to symplectic reduction
 
@@ -340,7 +340,7 @@ Review includes
 
 * F. Barbaresco (2021) Archetypal Model of Entropy by Poisson Cohomology as Invariant Casimir Function in Coadjoint Representation and Geometric Fourier Heat Equation. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
 
-* F. Barbaresco, _Koszul lecture related to geometric and analytic mechanics, Souriau’s Lie group thermodynamics and information geometry_, Info. Geo. 4, 245–262 (2021)
+* F. Barbaresco, _Koszul lecture related to geometric and analytic mechanics, Souriau’s Lie group thermodynamics and information geometry_, Info. Geo. 4, 245--262 (2021)
 
 * F. Barbaresco, (2021) Jean-Marie Souriau’s Symplectic Model of Statistical Physics: Seminal Papers on Lie Groups Thermodynamics - Quod Erat Demonstrandum. In: Barbaresco F., Nielsen F. (eds) Geometric Structures of Statistical Physics, Information Geometry, and Learning. SPIGL 2020. Springer Proceedings in Mathematics & Statistics, vol 361. Springer
 
