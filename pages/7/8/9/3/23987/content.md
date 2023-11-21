@@ -816,13 +816,15 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 > The conference is to bring this theoretical progress into contact with efforts to use (`L`)`HoTT` and related languages like [[Proto-Quipper]] for actual ([[quantum computing|quantum]]) [[computing]], [[quantum simulation|simulation]] and [[software verification|verification]].
 
 
-**Speakers:**
+{#RunningHoTTSpeakers} **Speakers:**
 
 External:
 
 * [[Thorsten Altenkirch]]
 
 * [[Ulrik Buchholtz]]
+
+* [[András Kovács]]
 
 * [[Ugo Dal Lago]]
 
