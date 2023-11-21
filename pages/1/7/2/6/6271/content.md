@@ -29,7 +29,7 @@ The canonical map from the ring of germs of $C^\infty$ function at $0 \in \mathb
 There are many extensions and variants. 
 
 
-For $\mathbb{R}^{n+m}$ a [[Cartesian space]] of [[dimension]] $n+m \in \mathbb{N}$, write $C^\infty(\mathbb{R}^{n+m})$ for the $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth function]]s with values in $\mathbb{R}$.
+For $\mathbb{R}^{n+m}$ a [[Cartesian space]] of [[dimension]] $n+m \in \mathbb{N}$, write $C^\infty(\mathbb{R}^{n+m})$ for the $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth function|smooth functions]] with values in $\mathbb{R}$.
 
 Write $m^\infty_{\mathbb{R}^n \times \{0\}} \subset C^\infty(\mathbb{R}^{n+m})$ for the ideal of functions all whose [[partial derivatives]] along $\mathbb{R}^m$ vanish.
 
