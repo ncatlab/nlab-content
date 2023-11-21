@@ -31,7 +31,7 @@ This happens to also be the [[groupoid cardinality]] of the [[groupoid]] $core(F
 
 ## Euler numbers
 
-The **Euler numbers** (also called _secant numbers_) $E_n$, $n\geq 0$ are a sequence of [[integer]]s defined via the generating function
+The **Euler numbers** (also called _secant numbers_) $E_n$, $n\geq 0$ are a sequence of [[integer|integers]] defined via the generating function
 
 $$
 \frac{1}{ch t}= \frac{2}{e^t+e^{-t}} = \sum_{n\geq 0} E_n \frac{t^n}{n!}
