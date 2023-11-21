@@ -833,7 +833,7 @@ Higher order [[moment maps]] are considered in
 
 * Thomas Bruun Madsen, Andrew Swann, _Closed forms and multi-moment maps_ ([arXiv:1110.6541](http://arxiv.org/abs/1110.6541))
 
-* Martin Callies, Yael Fregier, Christopher L. Rogers, Marco Zambon, _Homotopy moment maps_([arXiv:1304.2051](https://arxiv.org/abs/1304.2051))
+* Martin Callies, [[Yaël Frégier]], [[Chris Rogers]], [[Marco Zambon]], _Homotopy moment maps_, Advances in Mathematics __303__ (2016) 954--1043 ([arXiv:1304.2051](https://arxiv.org/abs/1304.2051))
 
 A [[higher differential geometry]]-generalization of [[contact geometry]] in line with multisymplectic geometry/[[n-plectic geometry]] is discussed in 
 
