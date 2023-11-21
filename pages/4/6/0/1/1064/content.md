@@ -17,7 +17,6 @@
 =--
 =--
 
-# Additive and abelian categories
 * table of contents
 {: toc}
 
