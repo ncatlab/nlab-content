@@ -67,6 +67,10 @@ $$ f(x) = T^k_{f,c}(x) + \frac{f^{(k+1)}(t) (x-c)^{k+1}}{(k + 1)!} .$$
 
 All of these can be generalized in a fairly straightforward way to functions of several variables.
 
+## Related concepts
+
+* [[Hadamard lemma]]
+
 
 [[!redirects Taylor's theorem]]
 [[!redirects Taylor's theorems]]
