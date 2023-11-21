@@ -22,7 +22,7 @@ A [[functor]] is **multirepresentable** if it is a [[coproduct]] of [[representa
 
 ## Properties
 
-A functor is multirepresentable if and only if each [[connected component]] of its [[category of elements]] has an [[initial object]].
+A functor is multirepresentable if and only if each [[connected component]] of its [[category of elements]] has an [[initial object]]: this is Proposition 2.1.2 of [Diers 1977](#Diers77).
 
 ## Related pages
 
@@ -32,7 +32,7 @@ A functor is multirepresentable if and only if each [[connected component]] of i
 
 ## References
 
-* [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
+* {#Diers77} [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
 
 [[!redirects multirepresentable functors]]
 [[!redirects multirepresentable]]
