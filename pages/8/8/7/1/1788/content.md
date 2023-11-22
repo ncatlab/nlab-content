@@ -1,3 +1,7 @@
+
+[[RunningHoTT2024Logo.jpg:file]]
+
+
 $$ T^k_{fc}(x) = \sum_{n = 0}^k \frac{f^{(n)}(c) (x-c)^n}{n!} .$$
 
 \begin{tikzcd}[sep=20pt]
