@@ -21,7 +21,7 @@
 
 ## Motivation
 
-While the idea of a [[homotopy type]]  is very suitable for the study of (locally) good [[topological space]]s, the [[weak homotopy type]] fails to give useful information for 'bad' spaces, of which classical examples include  the [[Warsaw Circle]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [[p-adic solenoid]] and so on. Even if our initial and principal interest is more often than not in good spaces, bad spaces arise naturally in their study. For example, in the study of dynamical systems on manifolds, an important issue is the study of  the attractors of such systems, which are typically fractal sets, and thus not 'locally nice' at all! The intuitive idea of shape theory is to define invariants of quite general topological spaces by approximating them with 'good' spaces, either by  embedding them into good spaces, and looking at open or polyhedral neighborhoods of them, or by considering abstract inverse systems of good spaces. The two approaches are closely related.
+While the idea of a [[homotopy type]]  is very suitable for the study of (locally) good [[topological space|topological spaces]], the [[weak homotopy type]] fails to give useful information for 'bad' spaces, of which classical examples include  the [[Warsaw Circle]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [[p-adic solenoid]] and so on. Even if our initial and principal interest is more often than not in good spaces, bad spaces arise naturally in their study. For example, in the study of dynamical systems on manifolds, an important issue is the study of  the attractors of such systems, which are typically fractal sets, and thus not 'locally nice' at all! The intuitive idea of shape theory is to define invariants of quite general topological spaces by approximating them with 'good' spaces, either by  embedding them into good spaces, and looking at open or polyhedral neighborhoods of them, or by considering abstract inverse systems of good spaces. The two approaches are closely related.
 
 ## Idea
 
@@ -31,7 +31,7 @@ Therefore one "expands" the space into a successive system of spaces which are g
 
 ## History
 
-Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borsuk.html) in the 1960s, although Christie, a student of Lefshetz, had done some initial development work on the same basic idea much earlier. One of the modern versions of shape theory is developed in terms of inverse systems of absolute neighbourhood retracts (ANRs) (which are [[pro-object]]s in the homotopy category of polyhedra).  These were introduced in this setting by [[Sibe Mardesic|S. Mardešić]], and [[Jack Segal|J. Segal]] (1971) and independently, in a slightly different form, by [[Tim Porter]] (thesis, 1971), using the more combinatorial framework of [[pro-objects]] in the category of simplicial sets. This latter approach also indicated the possible link with the &#233;tale homotopy theory of Artin and Mazur, (Springer Lecture Notes 100).
+Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borsuk.html) in the 1960s, although Christie, a student of Lefshetz, had done some initial development work on the same basic idea much earlier. One of the modern versions of shape theory is developed in terms of inverse systems of absolute neighbourhood retracts (ANRs) (which are [[pro-object|pro-objects]] in the homotopy category of polyhedra).  These were introduced in this setting by [[Sibe Mardesic|S. Mardešić]], and [[Jack Segal|J. Segal]] (1971) and independently, in a slightly different form, by [[Tim Porter]] (thesis, 1971), using the more combinatorial framework of [[pro-objects]] in the category of simplicial sets. This latter approach also indicated the possible link with the &#233;tale homotopy theory of Artin and Mazur, (Springer Lecture Notes 100).
 
 Shape theory is a '[[Cech methods|&#268;ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory, based on the singular complex construction, has to singular homology. In fact, as mentioned above, the origins of both shape theory and strong shape theory go back than further Borsuk's initial papers  to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  [Trans. Amer. Math. Soc., 56 (1944) 275--308](www.ams.org/journals/tran/1944-056-00/home.html)). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
 Although many of the initial ideas were developed by Christie, the paper went unnoticed until Borsuk developed his slightly different approach in the late 1960s.
@@ -79,7 +79,7 @@ You then use your invariants for objects in $D$ to define (and study) the more g
 
 The **shape category** $Shape(C,D)$ is associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$.
 
-Here _dense subcategory_ is used in the second sense of that term: for every object $X$ in $C$ there is its $D$-expansion, which is the object $\bar{X}$ in the category $pro D$ of [[pro-object]]s in $D$ that is universal ([[initial object|initial]]) with the property that it is equipped with a morphism $X\to\bar{X}$ in $pro D$. 
+Here _dense subcategory_ is used in the second sense of that term: for every object $X$ in $C$ there is its $D$-expansion, which is the object $\bar{X}$ in the category $pro D$ of [[pro-object|pro-objects]] in $D$ that is universal ([[initial object|initial]]) with the property that it is equipped with a morphism $X\to\bar{X}$ in $pro D$. 
 
 The shape category $Shape(C,D)$ has 
 
@@ -88,7 +88,7 @@ The shape category $Shape(C,D)$ has
 * its morphisms are equivalence classes of maps between 
   the $D$-expansions.
 
-A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[simplicial complex|polyhedra]] into that of all compact [[metric space]]s. 
+A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[simplicial complex|polyhedra]] into that of all compact [[metric space|metric spaces]]. 
 
 This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
 
@@ -97,17 +97,17 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 #### Pro-spaces in a shape context
 
-The classical application of shape theoretic idea is to the study of [[topological space]]s that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
+The classical application of shape theoretic idea is to the study of [[topological space|topological spaces]] that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
 
-* $C =$ [[HoTop]]${}_{he}$ the [[homotopy category]] of the category [[Top]] of all [[topological space]]s localised at the **[[homotopy equivalence]]s**;
+* $C =$ [[HoTop]]${}_{he}$ the [[homotopy category]] of the category [[Top]] of all [[topological space|topological spaces]] localised at the **[[homotopy equivalence|homotopy equivalences]]**;
 
-* $D = Ho(CW Cplx)$ the full [[subcategory]] given by [[CW-complex]]es.
+* $D = Ho(CW Cplx)$ the full [[subcategory]] given by [[CW-complex|CW-complexes]].
 
 More on this is in the section [Shape theory for topological spaces](ForTopSpaces) below and in [[Cech homotopy]].
 
 #### Profinite groups
 
-Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion of a group|profinite completion]]s.  This sort of behaviour is quite general as this form of abstract shape theory is related to equational completions; see
+Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion of a group|profinite completions]].  This sort of behaviour is quite general as this form of abstract shape theory is related to equational completions; see
 
 * Gildenhuys and Kennison, _Equational completions, model induced triples and pro-objects_, J. Pure Applied Algebra, 4 (1971) 317-346.
 
@@ -126,7 +126,7 @@ A different terminology and slightly different emphasis is often used within the
 
 ### Dynamical Systems
 
-In a [[dynamical system]], the [[attractor]]s are rarely polyhedra and their homotopy properties correspond more nearly to shape theoretic ones than to standard homotopy theoretic ones.  This seems first to have been studied by [[Hastings]] in 1988, (see references) and more recently has been explored in papers by [[José Sanjurjo]] and his coworkers, see below.  Adapting this idea [[Luis Javier Hernandez|Hernandez]], [[Teresa Rivas]] and [[José García Calcines]] have been using ideas developed for [[proper homotopy theory]] and shape involving [[pro-spaces]],  to describe limiting properties of dynamical systems.
+In a [[dynamical system]], the [[attractor|attractors]] are rarely polyhedra and their homotopy properties correspond more nearly to shape theoretic ones than to standard homotopy theoretic ones.  This seems first to have been studied by [[Hastings]] in 1988, (see references) and more recently has been explored in papers by [[José Sanjurjo]] and his coworkers, see below.  Adapting this idea [[Luis Javier Hernandez|Hernandez]], [[Teresa Rivas]] and [[José García Calcines]] have been using ideas developed for [[proper homotopy theory]] and shape involving [[pro-spaces]],  to describe limiting properties of dynamical systems.
 
 
 ## Related concepts
