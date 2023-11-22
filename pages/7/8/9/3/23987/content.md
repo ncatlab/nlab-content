@@ -793,13 +793,10 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 **Homotopy Type Theory and Computing -- Classical and Quantum**
 
-> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (`HoTT`) as a substrate for [[computing]] and [[software verification|verification]] in software development, in [[synthetic homotopy theory]], and possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/[[quantum simulation|simulation]].
-
-
 \begin{imagefromfile}
-    "file_name": "RunningHoTTatNYUADb.jpg",
+    "file_name": "RunningHoTT2024Logo.jpg",
     "float": "right",
-    "width": 100,
+    "width": 110,
     "unit": "px",
     "margin": {
         "top": -35,
@@ -808,6 +805,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
         "left": 40
     }
 \end{imagefromfile}
+
+> The aim of this conference is to discuss [[homotopy type theory|Homotopy Type Theory Theory]] (`HoTT`) as a substrate for [[computing]] and [[software verification|verification]] in software development, in [[synthetic homotopy theory]], and possibly in application to ([[topological quantum computing|topological]]) [[quantum computing]]/[[quantum simulation|simulation]].
 
 > Some talks will focus on recent progress on the general issue of running `HoTT` programs, in view of the [[univalence axiom]]: such as via "[[cubical type theory|cubical TT]]" or the more recent "[[higher observational type theory|higher observational TT]]". Other talks will focus on design patterns for practical ([[quantum programming language|quantum]]) [[programming language|programming]] and [[software verification|certification languages]], notably via [[modal types]] and [[monadic effects]] (in [[modal homotopy type theory|modal extensions of HoTT]]). 
 
@@ -818,43 +817,43 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 {#RunningHoTTSpeakers} **Speakers:**
 
-External:
+* external:
 
-* [[Thorsten Altenkirch]]
+  * [[Thorsten Altenkirch]]
 
-* [[Ulrik Buchholtz]]
+  * [[Ulrik Buchholtz]]
 
-* [[Eric Finster]]
+  * [[Eric Finster]]
 
-* [[András Kovács]]
+  * [[András Kovács]]
 
-* [[Ugo Dal Lago]]
+  * [[Ugo Dal Lago]]
 
-* [[Thomas Lamiaux]]
+  * [[Thomas Lamiaux]]
 
-* [[Dongho Lee]]
+  * [[Dongho Lee]]
 
-* [[Anders Mörtberg]]
+  * [[Anders Mörtberg]]
 
-* [[Jennifer Paykin]] (tbc)
+  * [[Jennifer Paykin]] (tbc)
 
-* Loïc Pujet (tbc)
+  * [[Loïc Pujet]] (tbc)
 
-* [[Robert Rand]] (tbc)
+  * [[Robert Rand]] (tbc)
 
-* [[Mike Shulman]]
+  * [[Mike Shulman]]
 
-* [[Jon Sterling]] (tbc)
+  * [[Jon Sterling]] (tbc)
 
-* ... (more to come) ...
+  * ... (more to come) ...
 
-Local:
+* local:
 
-* [[David Jaz Myers]]
+  * [[David Jaz Myers]]
 
-* [[Mitchell Riley]]
+  * [[Mitchell Riley]]
 
-* [[Urs Schreiber]]
+  * [[Urs Schreiber]]
 
 
 \linebreak
