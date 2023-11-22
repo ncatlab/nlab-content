@@ -830,13 +830,19 @@ External:
 
 * [[Ugo Dal Lago]]
 
+* [[Thomas Lamiaux]]
+
 * [[Dongho Lee]]
 
 * [[Anders Mörtberg]]
 
 * [[Jennifer Paykin]] (tbc)
 
+* Loïc Pujet (tbc)
+
 * [[Robert Rand]] (tbc)
+
+* [[Mike Shulman]]
 
 * [[Jon Sterling]] (tbc)
 
