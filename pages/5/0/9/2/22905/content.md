@@ -17,9 +17,11 @@ This gives us an intuitive way to compose parameterised maps:
 
 <img src="/nlab/files/para_comp2.gif" width="500"/>
 
-The Para construction is of special relevance in categorical cybernetics, since controlled processes such as machine learning models, economic agents and Bayesian reasoners are straightforwardly modeled as parametric processes of some kind.
+The Para construction is of relevance in categorical cybernetics, since controlled processes such as machine learning models, economic agents and Bayesian reasoners are straightforwardly modeled as parametric processes of some kind.
 
-Indeed, $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)), and then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)) for applications to machine learning.  ([Capucci et al. 2020](#Capucci2020)) generalized the construction from monoidal categories to [[actegories]], in order to capture examples from other areas of categorical cybernetics.  A still further generalization and systematization of the Para construction is being developed by [[David Jaz Myers]] and [[Matteo Capucci]], see ([Myers 2022](#Myers22)) and ([Capucci 2023](#Capucci23)).
+Indeed, the notation $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)), and then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)) for applications to machine learning.  ([Capucci et al. 2020](#Capucci2020)) generalized the construction from monoidal categories to [[actegories]], in order to capture examples from other areas of categorical cybernetics.  A still further generalization and systematization of the Para construction is being developed by [[David Jaz Myers]] and [[Matteo Capucci]], see ([Myers 2022](#Myers22)) and ([Capucci 2023](#Capucci23)).
+
+The actual construction is older than this, appearing in ([Hermida & Tennent](#HermidaTennent2012)), with precursors in ([Pavlovic 1997](#Pavlovic1997)). 
 
 ## Definition
 
@@ -207,8 +209,13 @@ Thus agents are naturally modelled as parametric morphisms.
 
 * When the base category is set to be the category of [[optics (in computer science)|optics]], then $\mathbf{Para(\mathbf{Optic(\mathcal{C})})}$ recovers the category of [[neural networks]] defined in ([Capucci et al. 2020](#Capucci2020)).
 
-* The "monoidal indeterminates" construction of [Hermida and Tennent]({#HermidaTennent2012}) is a Para construction for actegories. Hermida and Tennent consider a symmetric monoidal functor $j:\mathbf{\Sigma}\to \mathcal{C}$ (hence: a symmetric monoidal action of $\mathbf{\Sigma}$ on $\mathcal{C}$) and provide a symmetric monoidal bicategory $\mathcal{C}(\mathbf{x}:j)$ and ordinary monoidal category $\mathcal{C}[\mathbf{x}:j]$. 
+* The "monoidal indeterminates" construction of [Hermida and Tennent](#HermidaTennent2012) is a Para construction for actegories. Hermida and Tennent consider a symmetric monoidal functor $j:\mathbf{\Sigma}\to \mathcal{C}$ (hence: a symmetric monoidal action of $\mathbf{\Sigma}$ on $\mathcal{C}$) and provide a symmetric monoidal bicategory $\mathcal{C}(\mathbf{x}:j)$ and ordinary monoidal category $\mathcal{C}[\mathbf{x}:j]$. 
 The morphisms $X\to Y$ in $\mathcal{C}(\mathbf{x}:j)$ are pairs $(w,f)$ where $w$ is in $\mathbf{\Sigma}$ and $f:X\otimes j(w)\to Y$ in $\mathcal{C}$.
+
+* If we quotient $\mathbf{Para}(\mathcal{C})$ to get a 1-category by equating connecting components of 1-cells, this is a [[semicartesian monoidal category|semicocartesian]] monoidal category. In fact it is the semicocartesian [[reflection]] of $\mathcal{C}$. (See ([Hermida and Tennent](#HermidaTennent2012), Corollary 2.13).) Similarly, quotienting $\mathbf{CoPara}(\mathcal{C})$
+gives the semicartesian reflection of $\mathcal{C}$. 
+
+* In particular, if we start from the category $\mathbf{FdIsometry}$ of [[finite-dimensional vector space|finite dimensional]] [[Hilbert spaces]] and [[isometry|isometries]], the 1-cells of $\mathbf{CoPara}(\mathbf{FdIsometry})$ are [[Stinespring factorization theorem|Stinespring dilations]] of [[quantum channels]], and the quotiented 1-category is equivalent to the category of [[quantum channels]] (see ([Huot and Staton 2018](#HuotStaton2018))).
 
 ## Related concepts 
 
@@ -217,7 +224,7 @@ The morphisms $X\to Y$ in $\mathcal{C}(\mathbf{x}:j)$ are pairs $(w,f)$ where $w
 
 ## References
 
-The Para construction first appears in:
+The terminology "Para construction" first appears in:
 
 * {#FongSpivakTuyeras2019} [[Brendan Fong]], [[David Spivak]], Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) 2019, pp. 1-13, 2019. ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455), [LICS'19](https://ieeexplore.ieee.org/abstract/document/8785665))
 
@@ -237,7 +244,16 @@ The generalization of the Para construction being developed by [[David Jaz Myers
 
 * {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_, ([slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://www.youtube.com/watch?v=jYxnUy1vH7Q&pp=ygUmY2FwdWNjaSBjb25zdHJ1Y3RpbmcgdHJpcGxlIGNhdGVnb3JpZXM%3D))
 
+The construction itself appears earlier, in:
+
 * {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
+
+* {#Pavlovic1997} [[Duško Pavlović]], Categorical logic of names and abstraction in action calculi. Math. Structures Comput. Sci. 7 (6) (1997) 619–637. [pdf](https://www.kestrel.edu/people/pavlovic/papers/clna-MSCS97.pdf).
+
+The view of quantum channels via CoPara is in
+
+* {#HuotStaton2018} Mathieu Huot, Sam Staton, _Universal properties in quantum theory_ (QPL 2018) ([pdf](https://www.mathstat.dal.ca/qpl2018/papers/QPL_2018_paper_68.pdf)).
+
 
 [[!redirects copara construction]]
 [[!redirects bipara construction]]
