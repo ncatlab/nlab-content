@@ -70,7 +70,7 @@ If $C$ is also [[enriched category|enriched]] in [[finite-dimensional vector spa
 \end{proposition} 
 
 \begin{proof} 
-Suppose $X$ and $Y$ are simple objects in an abelian categor $C$.    If $f \colon X \to Y$ is any morphism then the kernel of $f$ must be either $0$ or $X$, while its kernel must be $0$ or $Y$.  If the kernel and cokernel are both $0$, $f$ is an isomorphism; otherwise $f = 0$.  It follows that every element of the endomorphism ring $End(X)$ of a simple object $X$ is zero or invertible, so $End(X)$ is a division ring. 
+Suppose $X$ and $Y$ are simple objects in an abelian category $C$. If $f \colon X \to Y$ is any morphism then the kernel of $f$ must be either $0$ or $X$, while its cokernel must be $0$ or $Y$. If the kernel and cokernel are both $0$, $f$ is an isomorphism; otherwise $f = 0$. It follows that every element of the endomorphism ring $End(X)$ of a simple object $X$ is zero or invertible, so $End(X)$ is a division ring. 
 
 Next suppose $C$ is enriched over finite-dimensional vector spaces over an algebraically closed field $k$.   In this case $End(X)$ is a finite-dimensional division algebra over $k$, but any such algebra is isomorphic to $k$.   Post-composing with an isomorphism $f: X \to Y$ gives a vector space isomorphism $End(X) \to hom(X,Y)$, so if such an isomorphism $f$ exists then $hom(X,Y)$ is one-dimensional.  If no such isomorphism exists all the morphisms from $X$ to $Y$ are zero.
 \end{proof}
