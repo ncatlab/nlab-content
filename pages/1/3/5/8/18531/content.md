@@ -65,7 +65,7 @@ where $det(D f)$ denotes the [[Jacobian determinant]] (the [[determinant]] of th
 
 ([H&#246;rmander 90, theorem 6.1.2](#Hoermander90), [Melrose 03, sections 4.17, 4.19 and 4.21](#Melrose03))
 
-If $f$ is not a submerision, then pullback is still defined on those distributions whose [[wave front set]] does not intersect the [[conormal bundle]] of $f$:
+If $f$ is not a submersion, then pullback is still defined on those distributions whose [[wave front set]] does not intersect the [[conormal bundle]] of $f$:
 
 +-- {: .num_defn #PullbackOfDistributionsWhoseWaveFrontDoesNotIntersectNormalBundle}
 ###### Proposition
