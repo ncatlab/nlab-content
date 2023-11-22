@@ -48,7 +48,7 @@ the third the notion of
 ### Kapranov&#8211;Voevodsky $2$-vector spaces
  {#KV2VectorSpace}
 
-These were introduced in [Kapranov & Voevodsky 2091](#KapranovVoevodsky91).
+These were introduced in [Kapranov & Voevodsky 1991](#KapranovVoevodsky91).
 
 
 The idea here is that just as a vector space can be regarded as a [[module]] over the [[ground field]] $k$, a $2$-vector space $W$ should be a [[category]] which is a [[monoidal category module]] with some nice properties (such as being an abelian category) over a suitable [[monoidal category]] $V$ which plays the role of the categorified ground field. There is then an obvious [[bicategory]] of such module categories.
