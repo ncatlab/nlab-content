@@ -20,13 +20,13 @@
 
 ## Scope
 
-__Differential geometry__ is a mathematical discipline studying geometry of spaces using differential and integral calculus. Classical differential geometry studied submanifolds (curves, surfaces...) in Euclidean spaces. The traditional objects of differential geometry are finite and infinite-dimensional [[differentiable manifold]]s modelled locally on [[topological vector space]]s. Techniques of differential calculus can be further stretched to [[generalized smooth space]]s. One often distinguished analysis on manifolds from differential geometry: analysis on manifolds focuses on functions from a manifold to the ground field and their properties, together with applications like PDEs on manifolds. Differential geometry on the other hand studies objects embedded into the manifold like submanifolds, their relations and additional structures on manifolds like bundles, connections etc. while the topological aspects are studied in a younger branch (from 1950s on) which is called [[differential topology]].
+__Differential geometry__ is a mathematical discipline studying geometry of spaces using differential and integral calculus. Classical differential geometry studied submanifolds (curves, surfaces...) in Euclidean spaces. The traditional objects of differential geometry are finite and infinite-dimensional [[differentiable manifold|differentiable manifolds]] modelled locally on [[topological vector space|topological vector spaces]]. Techniques of differential calculus can be further stretched to [[generalized smooth space|generalized smooth spaces]]. One often distinguished analysis on manifolds from differential geometry: analysis on manifolds focuses on functions from a manifold to the ground field and their properties, together with applications like PDEs on manifolds. Differential geometry on the other hand studies objects embedded into the manifold like submanifolds, their relations and additional structures on manifolds like bundles, connections etc. while the topological aspects are studied in a younger branch (from 1950s on) which is called [[differential topology]].
 
 ## Generalized smooth spaces from $n$POV
 
 See also [[generalized smooth space]].
 
-Finite-dimensional _differential geometry is the [[geometry]] modeled on [[Cartesian space]]s and [[smooth functions]] between them.
+Finite-dimensional differential geometry is the [[geometry]] modeled on [[Cartesian space|Cartesian spaces]] and [[smooth functions]] between them.
 
 Formally, it is the [[higher geometry|geometry]] modeled on 
 the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[CartSp]].
