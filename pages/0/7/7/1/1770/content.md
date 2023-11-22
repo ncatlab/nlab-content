@@ -52,7 +52,7 @@ $$
   CartSp := \{ (\mathbb{R}^n \to \mathbb{R}^m) \in Diff  | n,m \in \mathbb{N}\}
 $$
 
-be the full [[subcategory|subcategories]] $Ball$ and [[CartSp]] of $Diff$ on open balls and on cartesian spaces, respectively. Then the corresponding [[sheaf]] [[topos]]es are still those of smooth spaces:
+be the full [[subcategory|subcategories]] $Ball$ and [[CartSp]] of $Diff$ on open balls and on cartesian spaces, respectively. Then the corresponding [[sheaf]] [[topos|toposes]] are still those of smooth spaces:
 
 $$
   \begin{aligned}
@@ -378,7 +378,7 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 The [[site]] [[CartSp]]${}_{smooth}$ may be replaced by the site [[CartSp]]${}_{th}$ (see there) whose objects are products of smooth Cartesian spaces with [[infinitesimally thickened points]]. The corresponding [[sheaf topos]] $Sh(CartSp_{th})$ is called the _[[Cahiers topos]]_. It contains smooth spaces with possibly infinitesimal extension and is a model for [[synthetic differential geometry]] (a "[[smooth topos]]"), which $Sh(CartSp)$ is not.
 
 The two toposes are related by an [[adjoint quadruple]] of functors that witness the fact that the objects of $Sh(CartSp_{th})$ are possiby infinitesimal extensions of objects in $Sh(CartSp)$. 
-For more discussion of this see [[synthetic differential ∞-groupoid]]
+For more discussion of this see [[synthetic differential ∞-groupoid]].
 
 ### Higher smooth geometry
 
