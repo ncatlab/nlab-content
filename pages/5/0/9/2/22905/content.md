@@ -224,6 +224,12 @@ gives the semicartesian reflection of $\mathcal{C}$.
 
 ## References
 
+The Para construction first appears (though not under that name) in:
+
+* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
+
+* {#Pavlovic1997} [[Duško Pavlović]], Categorical logic of names and abstraction in action calculi. Math. Structures Comput. Sci. 7 (6) (1997) 619–637. [pdf](https://www.kestrel.edu/people/pavlovic/papers/clna-MSCS97.pdf).
+
 The terminology "Para construction" first appears in:
 
 * {#FongSpivakTuyeras2019} [[Brendan Fong]], [[David Spivak]], Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) 2019, pp. 1-13, 2019. ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455), [LICS'19](https://ieeexplore.ieee.org/abstract/document/8785665))
@@ -243,12 +249,6 @@ The generalization of the Para construction being developed by [[David Jaz Myers
 * {#Myers22} [[David Jaz Myers]], _The Para construction as a distributive law_, talk at the Virtual Double Categories Workshop, 2022 ([slides](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/david-jaz-myers.pdf), [video](https://www.youtube.com/watch?v=zB_ifewP8Yk))
 
 * {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_, ([slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://www.youtube.com/watch?v=jYxnUy1vH7Q&pp=ygUmY2FwdWNjaSBjb25zdHJ1Y3RpbmcgdHJpcGxlIGNhdGVnb3JpZXM%3D))
-
-The construction itself appears earlier, in:
-
-* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
-
-* {#Pavlovic1997} [[Duško Pavlović]], Categorical logic of names and abstraction in action calculi. Math. Structures Comput. Sci. 7 (6) (1997) 619–637. [pdf](https://www.kestrel.edu/people/pavlovic/papers/clna-MSCS97.pdf).
 
 The view of quantum channels via CoPara is in
 
