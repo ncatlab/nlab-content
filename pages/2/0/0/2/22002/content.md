@@ -49,7 +49,7 @@ mathematicians not concerned about foundations.
 
 ## Cubical synthetic homotopy theory
 
-In ([Mörtberg-Pujet](#Mortberg-Pujet)) the authors make the case for the use of [[cubical type theory]] over [[HoTT]] in synthetic homotopy theory since [[univalence]] and [[HITs]] are natively supported there, rather than axiomatically added as in HoTT. The path algebra in HoTT is made complicated by the fact that many equalities do not hold definitionally, even in the proof of simple results such as that the torus is equivalent to the product of two circles. The proof of this result is trivial in cubical type theory.
+[Mörtberg & Pujet (2020)](#MörtbergPujet2020) make the case for the use of [[cubical type theory|cubical]] versions of [[HoTT]] in synthetic homotopy theory since [[univalence]] and [[HITs]] are natively supported there, rather than axiomatically added as in HoTT. The path algebra in HoTT is made complicated by the fact that many equalities do not hold definitionally, even in the proof of simple results such as that the torus is equivalent to the product of two circles. The proof of this result is trivial in cubical type theory.
 
 ## Related concepts
 
@@ -88,4 +88,5 @@ count as synthetic homotopy theory.
 
 The use of [[cubical type theory]] for synthetic homotopy theory is discussed in:
 
-* {#Mortberg-Pujet} [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
+* {#MörtbergPujet2020} [[Anders Mörtberg]], [[Loïc Pujet]], *Cubical synthetic homotopy theory*,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (Jan 2020) 158–171 &lbrack;[doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), [pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf)&rbrack;
+
