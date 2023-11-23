@@ -780,7 +780,7 @@ $$
   K_G(\ast) \simeq K(\ast//G) \simeq R(G)
 $$ 
 
-This is the [[representation ring]] of $G$ and hence yields not just a [[Hilbert space]], but a Hilbert space equipped with a $G$-[[action]]. This is the action by [[quantum operators]], quantizing the $G$-actions. Generalized orientation theory give the necessary condition for this quantization to exist: $X$ needs to be oriented not just in [[K-theory]] ([[spin^c structure]]) but in $G$-[[equivariant K-theory]] (equivariant [[spin^c structure]]).
+This is the [[representation ring]] of $G$ and hence yields not just a [[Hilbert space]], but a Hilbert space equipped with a $G$-[[action]]. This is the action by [[quantum operators]], quantizing the $G$-actions. Generalized orientation theory gives the necessary condition for this quantization to exist: $X$ needs to be oriented not just in [[K-theory]] ([[spin^c structure]]) but in $G$-[[equivariant K-theory]] (equivariant [[spin^c structure]]).
 
 So the geometric quantization of observables is essentially what mathematically is known as [[Dirac induction]].
 
