@@ -177,7 +177,7 @@ These are called *typal congruence rules* because they are the analogue of the j
 
 \begin{theorem}
 Assuming dependent function extensionality, given types $A$ and $A'$ and type families $x:A \vdash B(x)$ and $x:A \vdash B'(x)$ and equivalences $e_A:A \simeq A'$ and dependent function of equivalences $e_B:\prod_{x:A} B(x) \simeq B'(e(x))$, there is an equivalence 
-$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A'} B'(x)\right)$$
 \end{theorem}
 
 Since [[dependent function types]] are negative types, we first present the typal congruence rule for the elimination rule of dependent function types
