@@ -85,6 +85,14 @@ reviewed and further developed in:
 
 * [[Kathryn Hess]], [[Paul-Eugène Parent]], [[Jonathan Scott]], [[Andrew Tonks]], *A canonical enriched Adams-Hilton model for simplicial sets*, Advances in Mathematics **207** 2 (2006) 847-875 &lbrack;[doi:10.1016/j.aim.2006.01.013](https://doi.org/10.1016/j.aim.2006.01.013), [arXiv:math/0408216](https://arxiv.org/abs/math/0408216)&rbrack;
 
+More on the Pontrjagin rings of the [[classical Lie groups]]:
+
+* [[Ichiro Yokota]], *On the homology of classical Lie groups*, J. Inst. Polytech. Osaka City Univ. Ser. A **8** 2 (1957) 93-120 &lbrack;[euclid:ojm/1353054814](https://projecteuclid.org/journals/osaka-journal-of-mathematics/volume-8/issue-2/On-the-homology-of-classical-Lie-groups/ojm/1353054814.full)&rbrack;
+
+reviewed in:
+
+* [[Inna Zakharevich]], pp. 35 of: *Stable homotopy*, Section 11 of: *[K-theory and characteristic classes](https://pi.math.cornell.edu/~zakh/6530/)*, lecture notes (2017) &lbrack;[pdf](https://pi.math.cornell.edu/~zakh/6530/sec11.pdf), [[Zakharevich-StableHomotopy.pdf:file]]&rbrack;
+
 
 Further early discussion:
 
