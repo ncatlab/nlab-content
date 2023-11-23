@@ -12,6 +12,9 @@ On [[perturbative quantum gravity]] as an [[effective quantum field theory]]:
 
 * [[John F. Donoghue]], *Quantum General Relativity and Effective Field Theory*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09902](https://arxiv.org/abs/2211.09902)&rbrack;
 
+* [[John F. Donoghue]], *General Relativity as a Perturbative Quantum Field Theory*, lecture series at *[Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)*, ISQG (2023) &lbrack;[web](https://blogs.umass.edu/grqft/)&rbrack;
+
+
 On [[asymptotic safety]] (or not):
 
 * {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_,  Frontiers in Physics 8, 56 (2020)
