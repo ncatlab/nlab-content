@@ -563,9 +563,9 @@ A 2-group model which has a smoothening of the _topological_ [[string group]] in
 
 * [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_,  International Mathematics Research Notices, Volume: 2013 , Issue: 16 , 2013   ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288), [doi:10.1093/imrn/rns154](https://doi.org/10.1093/imrn/rns154))
 
-A construction explicitly in terms of the "basic" [[bundle gerbe]] on $G$ is discussed in 
+A construction explicitly in terms of the "[[basic bundle gerbe|basic]]" [[bundle gerbe]] on $G$: 
 
-* [[Konrad Waldorf]], _A Construction of String 2-Group Models using a Transgression-Regression Technique_ ([arXiv:1201.5052](http://arxiv.org/abs/1201.5052))
+* [[Konrad Waldorf]], *A Construction of String 2-Group Models using a Transgression-Regression Technique*, Contemp. Math. **584** (2012) 99-115 &lbrack;[arXiv:1201.5052](http://arxiv.org/abs/1201.5052), [doi:10.1090/conm/584/11588](https://doi.org/10.1090/conm/584/11588)&rbrack;
 
 Via fermionic nets/[[2-Clifford algebra]]:
 
