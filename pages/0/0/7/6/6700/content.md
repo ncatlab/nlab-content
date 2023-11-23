@@ -60,7 +60,7 @@ such that
 
 1. $E$ is [[strong monoidal functor|strong monoidal]]: $E(X \coprod Y) \simeq E(X)\otimes E(Y)$;
 
-1. $E$ respects seqing: if $X_\phi$ is obtained from $X$ by cutting along a circle and giving the same label $\phi \in \Phi$ to both resulting boundaries, then the [[natural transformation]]
+1. $E$ respects sewing: if $X_\phi$ is obtained from $X$ by cutting along a circle and giving the same label $\phi \in \Phi$ to both resulting boundaries, then the [[natural transformation]]
 
    $$
      \underset{\phi \in \Phi}{\oplus} E(X_\phi) \longrightarrow E(X)
