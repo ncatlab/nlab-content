@@ -37,8 +37,13 @@ On [[string topology]]:
 
 
 
+On [[string topology]] (and [[Pontrjagin rings]] of [[based loop spaces]]) of [[complex projective spaces]] and [[n-spheres]]:
 
-## related $n$Lab entries
+* [[Ralph L. Cohen]], [[John D. S. Jones]], Jun Yan, *The loop homology algebra of spheres and projective spaces*, in *Categorical Decomposition Techniques in Algebraic Topology*, Progress in Mathematics **215**, Birkhäuser (2003) &lbrack;[arXiv:math/0210353](https://arxiv.org/abs/math/0210353), [doi:10.1007/978-3-0348-7863-0_5](https://doi.org/10.1007/978-3-0348-7863-0_5)&rbrack;
+
+
+
+## Related entries
 
 * [[Jones' theorem]]
 
