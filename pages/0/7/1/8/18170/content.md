@@ -35,7 +35,7 @@ The *category of sets with dyadic rational numbers* is the category $SwDRN$ whos
 
 ### Algebraic closure
 
-The [[algebraic closure]] $\overline{\mathbb{Z}[1/2]}$ of the dyadic rational numbers is called the [[field]] of _[[algebraic numbers]]_, and is thus isomorphic to \overline{\mathbb{Q}}, the algebraic closure of the [[rational numbers]]. 
+The [[algebraic closure]] $\overline{\mathbb{Z}[1/2]}$ of the dyadic rational numbers is called the [[field]] of _[[algebraic numbers]]_, and is thus isomorphic to $\overline{\mathbb{Q}}$, the algebraic closure of the [[rational numbers]]. 
 
 ### Topologies
 
