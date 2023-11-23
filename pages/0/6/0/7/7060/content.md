@@ -48,9 +48,59 @@ In [[dependent type theory]] such a $P \,\colon\, A \to Prop$ is equivalently an
 
 ## Definition
 
+There are many different ways of defining the [[isProp]] [[modality]] in dependent type theory. Some of them include
+
+$$\mathrm{isProp}(A) \coloneqq \prod_{x:A} \prod_{y:A} x =_A y$$
+$$\mathrm{isProp}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isContr}(x =_A y)$$
+$$\mathrm{isProp}(A) \coloneqq A \to \mathrm{isContr}(A)$$
+
+We shall be agnostic about the different definitions of $\mathrm{isProp}(A)$, and just directly use $\mathrm{isProp}(A)$. 
+
+In addition, given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is possible to form the equivalence $\mathrm{congform}_\mathrm{isProp}(e):\mathrm{isProp}(A) \simeq \mathrm{isProp}(B)$ through [[function application to identifications|application of equivalences to identifications]] and the typal congruence rules of [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
+
 ### The type of all propositions
 
 The **type of all propositions** $\Omega$ in a [[dependent type theory]] could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[mere proposition]] in the type theory is literally an element of the type of all propositions, while in the latter, elements of $\Omega$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[mere proposition]] in the type theory is only [[essentially small type|essentially $\Omega$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\Omega$ for [[strict Tarski universes]]. 
+
+#### As a Tarski universe
+
+As a [[Tarski universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the type of all propositions:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
+
+Introduction rules for the type of all propositions:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toProp}_A:\mathrm{isProp}(A) \to \Omega}$$
+
+Elimination rules for the type of all propositions:
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(\mathrm{El}(A))}$$
+
+Computation rules for the type of all propositions:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toProp}_A(p)) \equiv A \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{proptrunc}(\mathrm{toProp}_A(p)) \equiv p:\mathrm{isProp}(A)}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \beta_\Omega^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toProp}_A(p)) \simeq A \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \beta_\Omega^{\mathrm{proptrunc},A}(p):\mathrm{congform}_\mathrm{isProp}(\beta_\Omega^{\mathrm{El}, A}(p))(\mathrm{proptrunc}(\mathrm{toProp}_A(p))) =_{\mathrm{isProp}(A)} p}$$
+
+where the equivalence
+$$\mathrm{congform}_\mathrm{isProp}(\beta_\Omega^{\mathrm{El}, A}(p)):\mathrm{isProp}(\mathrm{El}(\mathrm{toProp}_A(p))) \simeq \mathrm{isProp}(A)$$
+is mentioned in the introduction paragraph of this section. 
+
+Uniqueness rules for the type of all propositions:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash A \equiv \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A)):\Omega}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \eta_{\Omega}(A):A =_{\Omega} \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A))}$$
+
+Extensionality principle of the type of all propositions:
+$$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{ext}_\Omega(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
 #### As a Russell universe
 
@@ -70,28 +120,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_
 
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{Id}_\Omega(A, B) \simeq (A \simeq B)}$$
-
-#### As a Tarski universe
-
-As a [[Tarski universe]], the type of all propositions is given by the following rules:
-
-Formation rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
-
-Type reflection:
-$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash El(A) \; \mathrm{type}}$$
-
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
-
-Introduction rule:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash A_\Omega:\Omega}$$
-
-[[essentially small type|Essential smallness]] of propositions (for weak types of all propositions) or [[judgmental equality]] (for strict types of all propositions):
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}\mathrm{weak} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash El(A_\Omega) \equiv A \; \mathrm{type}}\mathrm{strict}$$
-
-Univalence:
-$$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
 ### Other types of propositions
 
