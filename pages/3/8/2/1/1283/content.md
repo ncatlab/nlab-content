@@ -477,7 +477,7 @@ With emphasis on [[surface holonomy]]:
 
 * [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Bundle Gerbes and Surface Holonomy_ ([arXiv:0901.2085](https://arxiv.org/abs/0901.2085))
 
-Bundle gerbes over [[Lie groups]]:
+Bundle gerbes over [[Lie groups]] (cf. the [[basic bundle gerbe]]):
 
 * {#Brylinski00} [[Jean-Luc Brylinski]], *Gerbes on complex reductive Lie groups* ([arXiv:math/0002158](https://arxiv.org/abs/math/0002158))
 
