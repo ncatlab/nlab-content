@@ -1,13 +1,16 @@
 **Raoul Bott** (1923--2005) was one of the great 20th century topologists and geometers. Among his famous works, one should mention the [[Bott periodicity theorem]] (of importance in [[K-theory]]), studies in [[Morse theory]] (including the study of Bott--Morse functions), the Borel--Weil--Bott theorem in geometric representation theory, the study of fixed point (localization) formulas (the Atiyah--Bott fixed point theorem) and the Atiyah-Bott-Patodi slick proof of the index theorem via the heat kernel expansion. 
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Raoul_Bott)
 
-* [wikipedia](http://en.wikipedia.org/wiki/Raoul_Bott)
+* [[Loring Tu]]: *[The life and works of Raoul Bott](https://legacy-www.math.harvard.edu/history/bott/bottbio/index.html)* (2002)
 
-* [[Loring Tu]] about Raoul Bott in history web at Harvard: <http://www.math.harvard.edu/history/bott/bottbio/bottbio.html>
+* [[Michael Atiyah]]: *[Raoul Harry Bott: 24 September 1923 – 20 December 2005](https://celebratio.org/Bott_R/article/296/)*, Celebratio Mathematica (2007)
+
+
 
 ## Selected writings
 
-Introducing the concept and terminology of the [[Pontrjagin product]] on the [[ordinary homology|homology]] of [[based loop spaces]]:
+Introducing the concept and terminology of the [[Pontrjagin product]] on the [[ordinary homology]] of [[based loop spaces]]:
 
 * [[Raoul Bott]], [[Hans Samelson]], *On the Pontryagin product in spaces of paths*, Commentarii Mathematici Helvetici **27** (1953) 320–337 &lbrack;[doi:10.1007/BF02564566](https://doi.org/10.1007/BF02564566)&rbrack;
 
@@ -15,6 +18,9 @@ and application to the case of [[Lie groups]]:
 
 * [[Raoul Bott]], *The space of loops on a Lie group*, Michigan Math. J. **5** 1 (1958) 35-61 &lbrack;[doi:10.1307/mmj/1028998010](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-5/issue-1/The-space-of-loops-on-a-Lie-group/10.1307/mmj/1028998010.full)&rbrack;
 
+Introducing [[Bott periodicity]]:
+
+* [[Raoul Bott]], *The Stable Homotopy of the Classical Groups*, Proceedings of the National Academy of Sciences of the United States of America **43** 10 (1957) 933-935 &lbrack;[jstor:89403](https://www.jstor.org/stable/89403)&rbrack;
 
 
 Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[MSpin^c|MSpin<sup><i>c</i></sup>]]$\to$[[KU]]:
