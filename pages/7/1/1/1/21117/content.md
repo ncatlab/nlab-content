@@ -305,6 +305,8 @@ See at *[[Majorana dimer code]]*.
 
 * [[bit flip code]]
 
+* [[Æ codes]]
+
 * [[stabilizer code]]
 
   * [[HaPPY code]]
