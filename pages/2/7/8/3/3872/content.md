@@ -140,6 +140,10 @@ On [[twisted K-theory]] and [[twisted equivariant K-theory]]:
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
 
+On [[Raoul Bott]]:
+
+* [[Michael Atiyah]], *[Raoul Harry Bott: 24 September 1923 – 20 December 2005](https://celebratio.org/Bott_R/article/296/)*, Celebratio Mathematica (2007)
+
 
 On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 
