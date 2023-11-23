@@ -99,9 +99,17 @@ Accordingly the basic properties of complex [[spinor representations]] are the s
 
 ## References
 
+The original statement as periodicity of [[stable homotopy groups]] of [[classical Lie groups]]:
+
+* [[Raoul Bott]], *The Stable Homotopy of the Classical Groups*, Proceedings of the National Academy of Sciences of the United States of America **43** 10 (1957) 933-935 &lbrack;[jstor:89403](https://www.jstor.org/stable/89403)&rbrack;
+
+* [[Eldon Dyer]], [[Richard Lashof]], *A topological Proof of the Bott Periodicity Theorems*, Annali di Matematica Pura ed Applicata **54** (1961) 231–254 &lbrack;[doi:10.1007/BF02415354](https://doi.org/10.1007/BF02415354)&rbrack;
+
 Proof of Bott periodicity for [[topological K-theory]], including [[equivariant K-theory]]:
 
-* [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
+
+* [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, **19** 1 (1968) 113–140 &lbrack;[doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113)&rbrack;
+
 
 Review:
 
