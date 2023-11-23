@@ -841,9 +841,11 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   * [[Robert Rand]] (tbc)
 
-  * [[Mike Shulman]]
+  * [[Mike Shulman]] (remotely)
 
   * [[Jon Sterling]] (tbc)
+
+  * [[David Wärn]]
 
   * ... (more to come) ...
 
