@@ -823,11 +823,11 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   * [[Ulrik Buchholtz]]
 
+  * [[Ugo Dal Lago]]
+
   * [[Eric Finster]]
 
   * [[András Kovács]]
-
-  * [[Ugo Dal Lago]]
 
   * [[Thomas Lamiaux]]
 
@@ -840,8 +840,6 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   * [[Loïc Pujet]] (tbc)
 
   * [[Robert Rand]] (tbc)
-
-  * [[Mike Shulman]] (remotely)
 
   * [[Jon Sterling]] (tbc)
 
