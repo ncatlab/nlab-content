@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[basic bundle gerbe]] over a [[compact Lie group|compact]] [[simple Lie group]]:
+
+* [[Eckhard Meinrenken]], _The basic gerbe over a compact simple Lie group_, Enseign. Math. (2) 49 (2003), no. 3-4, 307-333 &lbrack;[arXiv:math/0209194](https://arxiv.org/abs/math/0209194), [e-periodica](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::562)&rbrack;
+
+
 On [[Lie groups]] and [[Lie algebras]]:
 
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
