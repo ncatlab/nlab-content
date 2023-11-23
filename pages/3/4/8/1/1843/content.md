@@ -96,6 +96,8 @@ The restriction of the Kalb-Ramond field in the 10-dimensional [[spacetime]] to 
 
 * [[h1-meson]], [[b1-meson]]
 
+* [[WZW model]], [[basic bundle gerbe]]
+
 [[!include table of branes]]
 
 ## References {#References}
