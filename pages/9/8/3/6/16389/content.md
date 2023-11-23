@@ -147,6 +147,12 @@ In relation to instant-time quantization:
 * Philip D. Mannheim, Peter Lowdon, [[Stanley Brodsky]], 
 *Comparing light-front quantization with instant-time quantization*, Physics Reports **891** (2021) 1-65 &lbrack;[arXiv:2005.00109](https://arxiv.org/abs/2005.00109), [doi:10.1016/j.physrep.2020.09.001](https://doi.org/10.1016/j.physrep.2020.09.001)&rbrack;
 
+### Application to electromagnatism
+
+Application to [[electromagnetism]]:
+
+* Sucheta Majumdar, *Residual gauge symmetry in light-cone electromagnetism*,  J. High Energ. Phys. **2023** 215 (2023) &lbrack;[arXiv:2212.10637](https://arxiv.org/abs/2212.10637), <a href="https://doi.org/10.1007/JHEP02(2023)215">doi:10.1007/JHEP02(2023)215</a>&rbrack;
+
 
 ### Application to QCD
 
