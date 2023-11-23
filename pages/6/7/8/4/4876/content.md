@@ -325,6 +325,8 @@ on [[quantization]] of the WZW model, see at
 
 * [[geometry of physics -- WZW terms]]
 
+* [[basic bundle gerbe]]
+
 * [[current algebra]], [[affine Lie algebra]]
 
 * [[Knizhnik-Zamolodchikov equation]]
@@ -442,10 +444,10 @@ See also
 ### Relation to gerbes and Chern-Simons theory
  {#ReferencesRelationToGerbesAndCS}
 
-Discussion of [[circle n-bundle with connection|circle 2-bundles with connection]] (expressed in terms of [[bundle gerbes]]) and discussion of the WZW-background [[B-field]] ([[WZW term]]) in this language is in 
+Discussion of [[circle n-bundle with connection|circle 2-bundles with connection]] (expressed in terms of [[bundle gerbes]]) and discussion of the WZW-background [[B-field]] ([[WZW term]]) in this language (cf. *[[basic bundle gerbe]]*)
 
-* {#GW} [[Krzysztof Gawedzki]], Nuno Reis, _WZW branes and gerbes_, Rev.Math.Phys. 14 (2002) 1281-1334 ([arXiv:hep-th/0205233](http://arxiv.org/abs/hep-th/0205233))
- 
+* {#GW} [[Krzysztof Gawędzki]], [[Nuno Reis]], *WZW branes and gerbes*, Rev. Math. Phys. **14** (2002) 1281-1334 &lbrack;[arXiv:hep-th/0205233](https://arxiv.org/abs/hep-th/0205233), [doi:10.1142/S0129055X02001557](https://doi.org/10.1142/S0129055X02001557)&rbrack;
+
 
 * {#SchweigertWaldorf07} [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
 
