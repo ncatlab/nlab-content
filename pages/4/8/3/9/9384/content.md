@@ -429,11 +429,13 @@ $$
 
 * [[higher structures]]
 
+* [[basic bundle gerbe]]
+
 ## References
 
-See also the references at _[[n-plectic geometry]]_ and at _[[higher geometric quantization]]_
+> See also the references at _[[n-plectic geometry]]_ and at _[[higher geometric quantization]]_.
 
-* {#FRS13a} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory|Higher $U(1)$-gerbe connections in geometric prequantization]]_, Rev. Math. Phys., Vol. 28, Issue 06, 1650012 (2016) ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+* {#FRS13a} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory|Higher $U(1)$-gerbe connections in geometric prequantization]]_, Rev. Math. Phys. **28** 06 1650012 (2016) &lbrack;[arXiv:1304.0236](http://arxiv.org/abs/1304.0236), [doi:10.1142/S0129055X16500124](https://doi.org/10.1142/S0129055X16500124)&rbrack;
 
 * {#FRS13b} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_, Homology, Homotopy and Applications, Volume 16 (2014) Number 2, p. 107 &#8211; 142 ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
 
