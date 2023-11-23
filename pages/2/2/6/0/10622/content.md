@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+
+On [[Bott periodicity]]:
+
+* [[Eldon Dyer]], [[Richard Lashof]], *A topological Proof of the Bott Periodicity Theorems*, Annali di Matematica Pura ed Applicata **54** (1961) 231–254 &lbrack;[doi:10.1007/BF02415354](https://doi.org/10.1007/BF02415354)&rbrack;
+
+
 On [[Poincare duality]], [[cobordism theory]] and formulating the modern form of the [[Pontryagin-Thom isomorphism]]:
 
 * {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277 ([doi:10.1090/S0002-9947-1963-0156357-4](https://doi.org/10.1090/S0002-9947-1963-0156357-4))
