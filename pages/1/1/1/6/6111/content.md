@@ -11,11 +11,13 @@ On [[Borel equivariant cohomology]]:
 
 
 
-
 On [[differential forms]] in [[algebraic topology]]:
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp. ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/botttu.pdf))
 
+On [[Raoul Bott]]:
+
+* [[Loring Tu]]: *[The life and works of Raoul Bott](https://legacy-www.math.harvard.edu/history/bott/bottbio/index.html)* (2002)
 
 
 On [[differential geometry]] with focus on [[Chern-Weil theory]]:
