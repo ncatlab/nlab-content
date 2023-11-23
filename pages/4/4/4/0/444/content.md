@@ -157,7 +157,7 @@ being
 The degeneracy maps
 
 $$
-  s_k \colon N(\mathcal{C}_\bullet)n \to N(\mathcal{C}_\bullet)_{n+1}
+  s_k \colon N(\mathcal{C}_\bullet)_{n} \to N(\mathcal{C}_\bullet)_{n+1}
   \,.
 $$
 
