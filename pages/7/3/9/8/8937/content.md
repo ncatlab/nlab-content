@@ -45,6 +45,10 @@ See at _[[motivic quantization]]_ for more on this.
 
 * [[prequantum n-state]]
 
+* [[higher prequantum geometry]]
+
+* [[basic bundle gerbe]]
+
 [[!include extended prequantum field theory - table]]
 
 
