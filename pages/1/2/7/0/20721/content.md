@@ -109,11 +109,16 @@ Further early discussion:
 
 
 
+
 In the context of [[string topology]]:
 
 * [[Moira Chas]], [[Dennis Sullivan]], §3 in: *String Topology* &lbrack;[arXiv:math/9911159](https://arxiv.org/abs/math/9911159)&rbrack;
 
+* [[Ralph L. Cohen]], [[John D. S. Jones]], Jun Yan, pp. 15 of: *The loop homology algebra of spheres and projective spaces*, in *Categorical Decomposition Techniques in Algebraic Topology*, Progress in Mathematics **215**, Birkhäuser (2003) &lbrack;[arXiv:math/0210353](https://arxiv.org/abs/math/0210353), [doi:10.1007/978-3-0348-7863-0_5](https://doi.org/10.1007/978-3-0348-7863-0_5)&rbrack;
+
+
 * Gwénaël Massuyeau, [[Vladimir Turaev]], *Brackets in the Pontryagin algebras of manifolds*, Mém. Soc. Math. France **154** (2017) &lbrack;[arXiv:1308.5131](https://arxiv.org/abs/1308.5131)&rbrack;
+
 
 
 Textbook accounts:
