@@ -113,6 +113,8 @@ Early review:
 
 * Wei-Min Zhang, *Light-Front Dynamics and Light-Front QCD*, Chin. J. Phys. **32** (1994) 717-808 &lbrack;[arXiv:hep-ph/9412244](https://arxiv.org/abs/hep-ph/9412244)&rbrack;
 
+* [[Matthias Burkardt]], *Light Front Quantization*, Adv. Nucl. Phys. **23** (1996) 1-74 &lbrack;[arXiv:hep-ph/9505259](https://arxiv.org/abs/hep-ph/9505259), [doi:10.1007/0-306-47067-5_1](https://doi.org/10.1007/0-306-47067-5_1)&rbrack;
+
 Further review:
 
 * Guillaume Beuf, Meijian Li, Tolga Altinoluk, Fabio Dominguez, *Course on Light-Cone Techniques applied to QCD*  (2022) &lbrack;[indico:1203236](https://indico.cern.ch/event/1203236)&rbrack;
@@ -122,7 +124,10 @@ Further review:
 * J. Vary et al. *Basis Light-Front Quantization: Recent Progress and Future Prospects*, Few-Body Syst **57** (2016) 695–702 &lbrack;[doi:10.1007/s00601-016-1117-x](https://doi.org/10.1007/s00601-016-1117-x)&rbrack;
  
 * Wikipedia, *[Light front quantization](https://en.wikipedia.org/wiki/Light_front_quantization)*
- 
+
+See also:
+
+* A. Harindranath, *[Light Front Dynamics](https://www.saha.ac.in/theory/a.harindranath/light/light.html)* (web resources) 
 
 The notion of lightlike circle compactification ("discretized light-cone quantization"):
 
@@ -146,6 +151,12 @@ In relation to instant-time quantization:
 
 * Philip D. Mannheim, Peter Lowdon, [[Stanley Brodsky]], 
 *Comparing light-front quantization with instant-time quantization*, Physics Reports **891** (2021) 1-65 &lbrack;[arXiv:2005.00109](https://arxiv.org/abs/2005.00109), [doi:10.1016/j.physrep.2020.09.001](https://doi.org/10.1016/j.physrep.2020.09.001)&rbrack;
+
+Discussion of ([[reduced phase space|reduced]]) [[phase spaces]] in light-cone coordinates:
+
+* Prem P. Srivastava, *Constraints and Hamiltonian in light-front quantized field theory*, Nuovo Cim. A **107** (1994) 549-558 &lbrack;[arXiv:hep-th/9308046](https://arxiv.org/abs/hep-th/9308046), [doi:10.1007/BF02768789](https://doi.org/10.1007/BF02768789)&rbrack;
+
+* Kianoosh Kargar, Ahmad Shirzad, Majid Monemzadeh, *Dynamical structure of fields in light cone coordinates*, Phys. Rev. D **99** (2019) 045019 &lbrack;[arXiv:1608.03255](https://arxiv.org/abs/1608.03255), [doi:10.1103/PhysRevD.99.045019](https://doi.org/10.1103/PhysRevD.99.045019)&rbrack;
 
 ### Application to electromagnatism
 
@@ -205,6 +216,8 @@ In the context of the [[BFSS matrix model]]:
 [[!redirects light-cone gauge]]
 [[!redirects light cone gauge]]
 [[!redirects lightcone gauge]]
+
+[[!redirects light front quantization]]
 
 [[!redirects discrete light cone quantization]]
 [[!redirects discrete light-cone quantization]]
