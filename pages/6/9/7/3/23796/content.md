@@ -27,6 +27,11 @@
 
 ## References
 
+Textbook accounts:
+
+* [[John W. Negele]], [[Henri Orland]], Chapter 6 in: *Quantum Many-Particle Systems*, Westview Press (1988, 1998) &lbrack;[doi:10.1201/9780429497926](https://doi.org/10.1201/9780429497926)&rbrack;
+
+
 Reviews:
 
 * Alexander Umantsev, *Landau Theory of Phase Transitions*, in: *Field Theoretic Method in Phase Transformations*, Lecture Notes in Physics **840** (2012) 7–35 $[$[doi:10.1007/978-1-4614-1487-2_2](https://doi.org/10.1007/978-1-4614-1487-2_2)$]$ 
