@@ -28,7 +28,7 @@ Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] i
 * [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_ ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041)) 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[bundle gerbe]]
 
