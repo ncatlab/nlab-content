@@ -128,54 +128,83 @@ where $A \vee B$ is the [[disjunction]] of two types $A$ and $B$ and $\neg A \eq
 
 One can also define directly the boolean domain as the *type of all decidable propositions*, provided one already has [[disjunctions]] defined in the type theory. Similarly to the [[type of all propositions]], the boolean domain can be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[decidable proposition]] in the type theory is literally an element of the boolean domain, while in the latter, elements of $\mathrm{Bool}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[decidable proposition]] in the type theory is only [[essentially small type|essentially $\mathrm{Bool}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\mathrm{Bool}$ for [[strict Tarski universes]]. 
 
-##### As a Russell universe
-
-As a [[Russell universe]], the boolean domain is given by the following rules:
-
-Formation rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Bool} \; \mathrm{type}}$$
-
-Type reflection:
-$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash A \; \mathrm{type}}$$
-
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(A)}$$
-
-Excluded middle for each type reflection
-$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{isProp}(A) \to (A \vee \neg A)}$$
-
-Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash A:\mathrm{Bool}}$$
-
-Univalence:
-$$\frac{\Gamma \vdash A:\mathrm{Bool} \quad \Gamma \vdash B:\mathrm{Bool}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{Id}_{\mathrm{Bool}}(A, B) \simeq (A \simeq B)}$$
-
 ##### As a Tarski universe
 
-As a [[Tarski universe]], the type of all decidable propositions is given by the following rules:
+As a [[Tarski universe]], the boolean domain is given by the following [[natural deduction]] [[inference rules]]:
 
-Formation rules:
+Formation rules for the boolean domain:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Bool} \; \mathrm{type}}$$
 
-Type reflection:
-$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash El(A) \; \mathrm{type}}$$
+Introduction rules for the boolean domain:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toBool}_A:\mathrm{isProp}(A) \to (A \vee \neg A) \to \mathrm{Bool}}$$
 
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
+Elimination rules for the boolean domain:
+$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(\mathrm{El}(A))} \qquad \frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{El}(A) \vee \neg \mathrm{El}(A)}$$
 
-Excluded middle for each type reflection
-$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{isProp}(El(A)) \to (El(A) \vee \neg El(A))}$$
+Computation rules for strict boolean domains:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \mathrm{El}(\mathrm{toBool}_A(p)(q)) \equiv A \; \mathrm{type}}$$
 
-Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to A \vee \neg A}{\Gamma \vdash A_\mathrm{Bool}:\mathrm{Bool}}$$
+* Judgmental computation rules:
 
-[[essentially small type|Essential smallness]] of propositions (for weak types of all decidable propositions) or [[judgmental equality]] (for strict types of all decidable propositions):
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \mathrm{proptrunc}(\mathrm{toBool}_A(p)(q)) \equiv p:\mathrm{isProp}(A)}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash \delta_A:El(A_\mathrm{Bool}) \simeq A}\mathrm{weak}$$
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash El(A_\mathrm{Bool}) \equiv A \; \mathrm{type}}\mathrm{strict}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \mathrm{lem}(\mathrm{toBool}_A(p)(q)) \equiv q:A \vee \neg A}$$
 
-Univalence:
-$$\frac{\Gamma \vdash A:\mathrm{Bool} \quad \Gamma \vdash B:\mathrm{Bool}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+* Typal computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \beta_{\mathrm{Bool}}^{\mathrm{proptrunc}, A}:\mathrm{proptrunc}(\mathrm{toBool}_A(p)(q)) =_{\mathrm{isProp}(A)} p}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \beta_{\mathrm{Bool}}^{\mathrm{lem}, A}:\mathrm{lem}(\mathrm{toBool}_A(p)(q)) =_{A \vee \neg A} q}$$
+
+Uniqueness rules for the boolean domain:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash A \equiv \mathrm{toBool}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A))(\mathrm{lem}(A)):\mathrm{Bool}}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \eta_{\mathrm{Bool}}(A):A =_{\mathrm{Bool}} \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A))(\mathrm{lem}(A))}$$
+
+Extensionality principle for the boolean domain:
+$$\frac{\Gamma \vdash A:\mathrm{Bool} \quad \Gamma \vdash B:\mathrm{Bool}} {\Gamma \vdash \mathrm{ext}_\mathrm{Bool}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
+##### As a Russell universe
+
+As a [[Russell universe]], the boolean domain is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the boolean domain:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Bool} \; \mathrm{type}}$$
+
+Introduction rules for the boolean domain:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toBool}_A:\mathrm{isProp}(A) \to (A \vee \neg A) \to \mathrm{Bool}}$$
+
+Elimination rules for the boolean domain:
+$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(A)} \qquad \frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \mathrm{lem}(A):A \vee \neg A}$$
+
+Computation rules for the boolean domain:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \mathrm{toBool}_A(p)(q) \equiv A \; \mathrm{type}}$$
+
+* Judgmental computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \mathrm{proptrunc}(\mathrm{toBool}_A(p)(q)) \equiv p:\mathrm{isProp}(A)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \mathrm{lem}(\mathrm{toBool}_A(p)(q)) \equiv q:A \vee \neg A}$$
+
+* Typal computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \beta_{\mathrm{Bool}}^{\mathrm{proptrunc}, A}:\mathrm{proptrunc}(\mathrm{toBool}_A(p)(q)) =_{\mathrm{isProp}(A)} p}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A) \quad \Gamma \vdash q:A \vee \neg A}{\Gamma \vdash \beta_{\mathrm{Bool}}^{\mathrm{lem}, A}:\mathrm{lem}(\mathrm{toBool}_A(p)(q)) =_{A \vee \neg A} q}$$
+
+Uniqueness rules for the boolean domain:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash A \equiv \mathrm{toBool}_{A}(\mathrm{proptrunc}(A))(\mathrm{lem}(A)):\mathrm{Bool}}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Bool}}{\Gamma \vdash \eta_{\mathrm{Bool}}(A):A =_{\mathrm{Bool}} \mathrm{toBool}_{A}(\mathrm{proptrunc}(A))(\mathrm{lem}(A))}$$
+
+Extensionality principle for the boolean domain:
+$$\frac{\Gamma \vdash A:\mathrm{Bool} \quad \Gamma \vdash B:\mathrm{Bool}} {\Gamma \vdash \mathrm{ext}_\mathrm{Bool}(A, B):\mathrm{isEquiv}(\mathrm{idToEquiv}(A, B))}$$
 
 #### Other rules
 
