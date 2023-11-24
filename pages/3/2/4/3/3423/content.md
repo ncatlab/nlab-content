@@ -30,7 +30,7 @@ $Loc$ is naturally a [[(1,2)-category]]; its [[2-morphisms]] are the pointwise o
 
 The [[2-category]] [[Locale]] has
 
-* as [[object]]s $X$ [[frame]]s $Op(X)$;
+* as [[object|objects]] $X$ [[frame|frames]] $Op(X)$;
 
 * as [[morphisms]] $f : X \to Y$ frame homomorphisms $f^* : Op(Y) \to Op(X)$;
 
@@ -43,7 +43,7 @@ The [[2-category]] [[Locale]] has
 
 ## Properties
 
-For any [[base topos]] $S$ the [[2-category]] $Loc(S)$ of [[internal locales]] in $S$ is [[equivalence of categories|equivalent]] to the [[subcategory]] of the [[over topos|slice]] of [[Topos]] over $S$ on the [[localic geometric morphism]]s. See there for more details.
+For any [[base topos]] $S$ the [[2-category]] $Loc(S)$ of [[internal locales]] in $S$ is [[equivalence of categories|equivalent]] to the [[subcategory]] of the [[over topos|slice]] of [[Topos]] over $S$ on the [[localic geometric morphism|localic geometric morphisms]]. See there for more details.
 
 See [[locale]] for more properties.
 
