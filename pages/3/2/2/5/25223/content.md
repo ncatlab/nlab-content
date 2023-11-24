@@ -153,6 +153,24 @@ In [[dependent type theory]], the [[axiom of S1-localization|axiom of $S^1$-loca
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \mathrm{circlocal}_{A}:\mathrm{isEquiv}(\mathrm{const}_{A, S^1})}$$
 
+### Axiom of finiteness
+
+In [[dependent type theory]] with [[dependent product types]], [[dependent sum types]], [[identity types]], [[function extensionality]], and a [[type of all propositions]], the [[axiom of finiteness]] is given by the following rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{finWitn}_A:\mathrm{isFinite}(A)}$$
+
+where
+
+$$
+\mathrm{isFinite}(A) \equiv 
+\begin{array}{c}
+\prod_{S:(A \to \mathrm{Prop}) \to \mathrm{Prop}} (((\lambda x:A.\bot) \in S) \times \prod_{P:A \to \mathrm{Prop}} \prod_{Q:A \to \mathrm{Prop}} (P \in S) \\
+\times (\exists!x:A.x \in Q) \times (P \cap Q =_{A \to \mathrm{Prop}} \lambda x:A.\bot) \to (P \cup Q \in S)) \to ((\lambda x:A.\top) \in S)
+\end{array}
+$$
+
+The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]]. 
+
 ## See also
 
 * [[h-set]]
