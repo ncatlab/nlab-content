@@ -143,6 +143,8 @@ See also
 
 * [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. **68** (1998) 11-16 &lbrack;[arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034)&rbrack;
 
+* [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan. *Unification of Decoupling Limits in String and M-theory*. (2023). ([arXiv:2311.10564](https://arxiv.org/abs/2311.10564))
+
 Discussion as a solution to the open problem of defining [[M-theory]] is in 
 
 * {#Moore14} [[Gregory Moore]], section 12, p. 43-44 in: _[[Physical Mathematics and the Future]]_, talk at *[Strings 2014](http://physics.princeton.edu/strings2014/)*  &lbrack;[talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]]&rbrack;
