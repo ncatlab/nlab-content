@@ -154,6 +154,11 @@ For all $x:A$ and $B:\mathcal{P}(A)$, since $x \in_A B$ is propositions, by the 
 \end{proof}
 
 \begin{definition}
+Given a type $A$, a **singleton subtype** on $A$ is a material subtype $S:\mathcal{P}(A)$ such that [[uniqueness quantifier|there exists a unique]] $x:A$ such that $x \in S$: 
+$$\mathrm{isSingleton}(S) \coloneqq \exists!x:A.x \in S$$
+\end{definition}
+
+\begin{definition}
 Given a type $T$, there is a binary function $(-) \times (-):\mathcal{P}(T) \times \mathcal{P}(T) \to \mathcal{P}(T \times T)$ called the **[[cartesian product]] of subtypes**, defined by 
 $$(A \times B)(a, b) \coloneqq (a \in_T A) \wedge (b \in_T B)$$
 for all elements $a:T$, $b:T$ and subtypes $A:\mathcal{P}(T)$ and $B:\mathcal{P}(T)$. 
