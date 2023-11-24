@@ -10,6 +10,10 @@ Introducing [[discretized light-cone quantization]]:
 
 * {#PauliBrodsky85b} [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Discretized light-cone quantization: Solution to a field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 2001 &lbrack;[doi:10.1103/PhysRevD.32.2001](https://doi.org/10.1103/PhysRevD.32.2001)&rbrack;
 
+Applying [[discretized light-cone quantization]] to [[quantum electrodynamics]]:
+
+* {#TangBrodskyPauli91} [[Andrew C. Tang]], [[Stanley J. Brodsky]], [[Hans-Christian Pauli]], *Discretized light-cone quantization: Formalism for quantum electrodynamics*, Phys. Rev. D **44** (1991) 1842 &lbrack;[doi:10.1103/PhysRevD.44.1842](https://doi.org/10.1103/PhysRevD.44.1842)&rbrack;
+
 
 Applying [[light-front quantization]] to [[QCD]]:
 
