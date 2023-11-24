@@ -15,11 +15,11 @@
 
 ## Idea
 
-Supergeometry is the ([[higher geometry|higher]]) [[geometry]] over the [[base topos]] on [[superpoint]]s modeled on the canonical [[line object]] $\mathbb{R}$ in there.
+Supergeometry is the ([[higher geometry|higher]]) [[geometry]] over the [[base topos]] on [[superpoint|superpoints]] modeled on the canonical [[line object]] $\mathbb{R}$ in there.
 
-As ordinary [[differential geometry]] studies spaces -- [[smooth manifold]]s -- that locally look like [[vector space]]s, supergeometry studies spaces -- [[supermanifold]]s -- that locally look like [[super vector space]]s.
+As ordinary [[differential geometry]] studies spaces -- [[smooth manifold|smooth manifolds]] -- that locally look like [[vector space|vector spaces]], supergeometry studies spaces -- [[supermanifold|supermanifolds]] -- that locally look like [[super vector space|super vector spaces]].
 
-As ordinary [[algebraic geometry]] studies spaces -- [[scheme]]s -- that locally look like [[affine space]]s, supergeometry studies [[superscheme]]s.
+As ordinary [[algebraic geometry]] studies spaces -- [[scheme|schemes]] -- that locally look like [[affine space|affine spaces]], supergeometry studies [[superscheme|superschemes]].
 
 From the point of view of [[noncommutative geometry]], the supergeometry is a very mild special case of noncommutativity in geometry: some coordinates commute, some anticommute.
 
