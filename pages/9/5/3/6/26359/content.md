@@ -83,6 +83,46 @@ $$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \eta_{\mathrm{FinType}}(
 [[univalence axiom|Extensionality principle]] of the type of all finite types:
 $$\frac{\Gamma \vdash A:\mathrm{FinType} \quad \Gamma \vdash B:\mathrm{FinType}} {\Gamma \vdash \mathrm{ext}_\mathrm{FinType}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
+#### As a weak Tarski universe
+
+As a [[weak Tarski universe]], the type of all finite types is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the type of all finite types:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{FinType} \; \mathrm{type}}$$
+
+Introduction rules for the type of all finite types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:\mathrm{isFinite}(A) \to \mathrm{FinType}}$$
+
+Elimination rules for the type of all finite types:
+$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \mathrm{finWitn}(A):\mathrm{isFinite}(\mathrm{El}(A))}$$
+
+Computation rules for the type of all finite types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toElem}_A(p)) \simeq A \; \mathrm{type}}$$
+
+* Judgmental computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{finWitn}(\mathrm{toProp}_A(p))) \equiv p:\mathrm{isFinite}(A)}$$
+
+* Typal computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{finWitn},A}(p):\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{proptrunc}(\mathrm{toElem}_A(p))) =_{\mathrm{isFinite}(A)} p}$$
+
+where the equivalence
+$$\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p)):\mathrm{isFinite}(\mathrm{El}(\mathrm{toElem}_A(p))) \simeq \mathrm{isFinite}(A)$$
+can always be constructed in a type theory with [[dependent product types]], [[dependent sum types]], [[identity types]], and a [[type of all propositions]], as given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is possible to form the equivalence $\mathrm{congform}_\mathrm{isFinite}(e):\mathrm{isFinite}(A) \simeq \mathrm{isFinite}(B)$ through [[function application to identifications|application of equivalences to identifications]] and the typal congruence rules of [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
+
+Uniqueness rules for the type of all finite types:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash A \equiv \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{finWitn}(A)):\mathrm{FinType}}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \eta_{\mathrm{FinType}}(A):A =_{\mathrm{FinType}} \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{finWitn}(A))}$$
+
+[[univalence axiom|Extensionality principle]] of the type of all finite types:
+$$\frac{\Gamma \vdash A:\mathrm{FinType} \quad \Gamma \vdash B:\mathrm{FinType}} {\Gamma \vdash \mathrm{ext}_\mathrm{FinType}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
 #### As a Russell universe
 
 As a [[Russell universe]], the type of all finite types is given by the following [[natural deduction]] [[inference rules]]:
