@@ -272,29 +272,33 @@ The original texts:
 
 * [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [pdf](https://faculty.washington.edu/seattle/physics541/2012-path-integrals/paper.pdf)&rbrack;
 
-* [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965) &lbrack;[pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack;
+* [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965)
 
 * [[Daniel F. Styer]], *The Errors of Feynman and Hibbs* &lbrack;[pdf](https://www2.oberlin.edu/physics/dstyer/FeynmanHibbs/ErrorsOfFeynmanHibbsX.pdf)&rbrack;
 
-* [[Daniel F. Styer]], [[Richard Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html)&rbrack; 
-
-Lecture notes:
-
-* R. Rosenfelder, _Path Integrals in Quantum Physics_ ([arXiv:1209.1315](http://arxiv.org/abs/1209.1315))
+* [[Daniel F. Styer]], [[Richard Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack; 
 
 Textbook accounts:
 
-* G. Johnson, M. Lapidus, _The Feynman integral and Feynman's operational calculus_, Oxford University Press, Oxford, 2000.
+* [[John W. Negele]], [[Henri Orland]], *Functional Integral Formulation*, §2.2 in: *Quantum Many-Particle Systems*, Westview Press (1988, 1998) &lbrack;[doi:10.1201/9780429497926](https://doi.org/10.1201/9780429497926)&rbrack;
 
-* [[Barry Simon]], _Functional integration and quantum physics_ AMS Chelsea Publ., Providence, 2005
+* {#Kleinert90} [[Hagen Kleinert]], *Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets*, World Scientific (1990, 1994, 2003, 2006, 2009) &lbrack;[doi:10.1142/7305](https://doi.org/10.1142/7305), [pdf](https://hagenkleinert.de/documents/pi/HagenKleinert_PathIntegrals.pdf)&rbrack;
+
+* {#Polchinski98} [[Joseph Polchinski]], *A short course on path integrals*,  Appendix A in: _[[String theory]]_ part I: *An Introduction to the Bosonic String*, Cambridge University Press (1998) &lbrack;[doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski1.pdf)&rbrack;
+
+
+* G. Johnson, M. Lapidus, _The Feynman integral and Feynman's operational calculus_, Oxford University Press (2000)
+
+* [[Barry Simon]], _Functional integration and quantum physics_ AMS Chelsea Publ. (2005)
 
 
 * [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
 
+* Daisuke Fujiwara, _Rigorous Time Slicing Approach to Feynman Path Integrals_ (2017) Springer &lbrack;[doi:/10.1007/978-4-431-56553-6](https://dx.doi.org/10.1007/978-4-431-56553-6)&rbrack;
 
-* [[Joseph Polchinski]], Appendix A in: _[[String theory]]_, part I, 
+Further lecture notes:
 
-* Daisuke Fujiwara, _Rigorous Time Slicing Approach to Feynman Path Integrals_ 2017, Springer ([doi:/10.1007/978-4-431-56553-6](https://dx.doi.org/10.1007/978-4-431-56553-6))
+* R. Rosenfelder, _Path Integrals in Quantum Physics_ &lbrack;[arXiv:1209.1315](http://arxiv.org/abs/1209.1315)&rbrack;
 
 
 Discussion in [[constructive quantum field theory]]:
