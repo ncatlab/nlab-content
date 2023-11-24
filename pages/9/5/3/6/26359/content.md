@@ -23,9 +23,9 @@ In [[dependent type theory]], the *type of finite types* is the [[type universe]
 
 In [[dependent type theory]], given a type $A$, there are many different ways of defining the [[mere proposition]] $\mathrm{isFinite}(A)$ which indicates that $A$ is a [[finite type]]. 
 
-* Given a [[natural numbers type]] $\mathbb{N}$, a type $A$ is finite if [[existential quantifier|there merely exists]] a natural number $n:\mathbb{N}$ such that $A$ is equivalent to the standard finite type $\sum_{k:\mathbb{N}} k \lt n$:
+* Given a [[natural numbers type]] $\mathbb{N}$, a type $A$ is finite if [[existential quantifier|there merely exists]] a natural number $n:\mathbb{N}$ such that $A$ is equivalent to the standard finite type $\mathrm{Fin}(n)$ (see at [[family of finite types]]):
 
-$$\mathrm{isFinite}(A) \equiv \exists n:\mathbb{N}.A \simeq \sum_{k:\mathbb{N}} k \lt n$$
+$$\mathrm{isFinite}(A) \equiv \exists n:\mathbb{N}.A \simeq \mathrm{Fin}(n)$$
 
 * Given a [[type of propositions]] $\mathrm{Prop}$, a type $A$ is finite if for all [[subtypes]] $S:(A \to \mathrm{Prop}) \to \mathrm{Prop}$ of the [[power set]] of $A$, if the [[empty subset|empty subtype]] $\lambda x:A.\bot$ is in $S$, and for all subtypes $P:A \to \mathrm{Prop}$ and $Q:A \to \mathrm{Prop}$ of $A$ such that $P$ being in $S$, $Q$ being a singleton subtype, and $P$ and $Q$ being [[disjoint subset|disjoint]] together imply that the [[union]] $P \cup Q$ is in $S$, then the [[improper subset|improper subtype]] $\lambda x:A.\top$ is in $S$.
 
@@ -129,11 +129,21 @@ $$\sum_{A:U} \mathrm{isFinite}(T(A))$$
 
 ## Properties
 
+### Closure under type formers
+
+The type of finite types is closed under the [[empty type]], the [[unit type]], [[function types]],  [[dependent product types]], [[product types]], [[dependent sum types]], and [[sum types]]. 
+
 ### Relation to the natural numbers type
 
 The [[natural numbers type]] is equivalent to the [[set truncation]] of the type of finite types:
 
 $$\mathbb{N} \simeq [\mathrm{FinType}]_0$$ 
+
+This is the type theoretic analogue of the [[decategorification]] of the [[permutation category]] resulting in the set of [[natural numbers]]. 
+
+## Categorical semantics
+
+The categorical semantics of the type of finite types is the finite object classifier, the [[object classifier]] which classifies [[finite objects]] of a [[category]]. 
 
 ## Related concepts
 
@@ -141,6 +151,17 @@ $$\mathbb{N} \simeq [\mathrm{FinType}]_0$$
 
 * [[type universe]]
 
+* [[natural numbers type]]
+
+* [[axiom of infinity]]
+
+## References
+
+For the fact that binary sum types, finite dependent sum types, and binary product types of finite types are finite types, see section 16.3 of: 
+
+* [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+For the fact that function types between finite types are finite types, see Exercise 16.1 of the above reference. These imply that the type of finite types are closed under binary sum types, finite dependent sum types, binary product types, and function types. 
 
 [[!redirects type of finite types]]
 [[!redirects types of finite types]]
