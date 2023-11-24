@@ -9,12 +9,12 @@ Introducing [[path integral quantization]]:
 * [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [pdf](https://faculty.washington.edu/seattle/physics541/2012-path-integrals/paper.pdf)&rbrack;
 
 
-* [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965) &lbrack;[pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack;
+* [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965) 
 
-* [[Daniel F. Styer]], [[Richard Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html)&rbrack; 
+* [[Daniel F. Styer]], [[Richard Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack; 
 
 
-Early discussion of [[quantum computation]]
+Early discussion of [[quantum computation]]:
 
 * {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys **21** (1982) 467–488 &lbrack;[doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179)&rbrack;
 
