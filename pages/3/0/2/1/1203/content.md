@@ -30,7 +30,7 @@ In the form of an NNO, the axiom of infinity generalises to the existence of [[i
 
 One could also posit the existence of the set of [[extended natural numbers]] instead of the set of natural numbers, as the set of extended natural numbers have [[countable|countably infinite]] cardinality and is the categorical [[duality|dual]] of the natural numbers in Set, a [[terminal coalgebra]] for the endofunctor $F(X) = 1 + X$ in Set. This generalises to the existence of [[coinductive types]] or [[M-types]], which can be added as additional axioms. 
 
-One could also posit the existence of a [[universe]] $\mathcal{U}$ that satisfies the axiom of finiteness (see below). 
+One could also posit the existence of a [[universe]] $\mathcal{U}$ that satisfies the axiom of finiteness (see below), or a [[type of finite types]].
 
 ## Alternatives
 
@@ -46,9 +46,27 @@ In [[material set theory]], this is equivalent given the [[axiom of foundation]]
 
 In higher categorical terms, the above axiom of finiteness could be stated as follows: [[Set]] is an initial algebra of the 2-endofunctor $F(X) \cong X \coprod 1$ in the [[(2,1)-category]] [[Grpd]]. 
 
-In [[dependent type theory]], given a [[Tarski universe]] $(U, T)$ that is closed under the [[empty type]], the [[unit type]], and [[sum types]], the axiom of finiteness states that 
+In [[dependent type theory]], given a [[Tarski universe]] $(U, T)$ that is closed under the [[empty type]], the [[unit type]], and [[sum types]], the axiom of finiteness for the universe states that 
 
 * For all type families $A:U \vdash C(A)$ such that $T(A) \simeq T(B)$ implies that $C(A) \simeq C(B)$, elements $c_0:C(\mathbb{0})$ and dependent functions $c_s:\prod_{A:U} C(A) \to C(A + \mathbb{1})$, there exists a unique dependent function $c:\prod_{A:U} C(A)$ such that $c(\mathbb{0}) =_{C(\mathbb{0})} c_0$ and for all $A:U$, $c(A + 1) =_{C(A + 1)} c_s(c(A))$. 
+
+In [[dependent type theory]] with [[dependent product types]], [[dependent sum types]], [[identity types]], [[function extensionality]], and a [[type of all propositions]], the *axiom of finiteness* for the entire type theory is an [[axiom schema]] which states that given a type $A$, one could derive a witness that the type is a [[finite type]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{finWitn}_A:\mathrm{isFinite}(A)}$$
+
+where
+
+$$
+\mathrm{isFinite}(A) \equiv 
+\begin{array}{c}
+\prod_{S:(A \to \mathrm{Prop}) \to \mathrm{Prop}} (((\lambda x:A.\bot) \in S) \times \prod_{P:A \to \mathrm{Prop}} \prod_{Q:A \to \mathrm{Prop}} (P \in S) \\
+\times (\exists!x:A.x \in Q) \times (P \cap Q =_{A \to \mathrm{Prop}} \lambda x:A.\bot) \to (P \cup Q \in S)) \to ((\lambda x:A.\top) \in S)
+\end{array}
+$$
+
+The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]]. 
+
+In particular, the axiom of finiteness for the entire type theory implies the [[principle of excluded middle]] for the [[type of all propositions]], since the only finite propositions are the [[decidable propositions]]. Furthermore, the axiom of finiteness implies that the type theory is a [[set-level type theory]] because every finite type is an [[h-set]]. 
 
 ## Related concepts
 
