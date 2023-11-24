@@ -250,6 +250,13 @@ The [[natural numbers type]] $(\mathbb{N},\, 0,\, succ)$ (Def. \ref{InferenceRul
 \end{example}
 &lbrack;[Martin-Löf (1984)](#Martin-Löf84), [pp. 45](/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=51), [Dybjer (1997, p. 330, 333)](W-type#Dybjer97)&rbrack;
 
+### Relation to the type of finite types
+
+The natural numbers type is equivalent to the [[set truncation]] of the [[type of finite types]]:
+
+$$\mathbb{N} \simeq [\mathrm{FinType}]_0$$ 
+
+This is the type theoretic analogue of the [[decategorification]] of the [[permutation category]] resulting in the set of [[natural numbers]]. 
 
 ### Categorical semantics
  {#CategoricalSemantics}
@@ -755,6 +762,8 @@ The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N}
 * [[decimal numeral representation of the natural numbers]]
 
 * [[dependent sequence type]]
+
+* [[type of finite types]]
 
 ## References
 
