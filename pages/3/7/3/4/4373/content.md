@@ -1,5 +1,5 @@
 
-> This page consider the very general concept of embeddings. For the special cases traditionally considered see at _[[embedding of topological spaces]]_ or _[[embedding of smooth manifolds]]_.
+> This page consider the very general concept of embeddings. For the special cases traditionally considered see at _[[embedding of topological spaces]]_, _[[embedding of smooth manifolds]]_, and _[[embedding of types]]_. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -58,16 +58,6 @@ where the morphism on the right is a [[monomorphism]].
 
 The morphism $f$ being an [[effective monomorphism]] means that $\tilde f$ is an [[isomorphism]], hence that $f$ is an "isomomorphism onto its image".
 
-## In dependent type theory
-
-Assume that the [[dependent type theory]] has [[identity types]], [[dependent identity types]], and [[uniqueness quantifiers]]. Then a family of elements $x:A \vdash f(x):B$ is an **embedding** if there is a family of elements
-$$x:A, y:A, q:f(x) =_B f(y) \vdash \eta(x, y, q):\exists! p:x =_A y.ap_f(x, y, p) =_{f(x) =_B f(y)} q$$
-which states that for all identities $q:f(x) =_B f(y)$ there is a unique identity $p:x =_A y$ up to identity such that $ap_f(x, y, p) =_{f(x) =_B f(y)} q$. 
-
-Equivalently, if the [[dependent type theory]] also has [[existential quantifiers]], then $x:A \vdash f(x):B$ is an embedding if there is a family of elements 
-$$y:B, z:\exists x:A.f(x) =_B y \vdash p(y, z):\exists! x:A.f(x) =_B y$$ 
-which states that for all $y:B$, if there exists an element $x:A$ such that $f(x) =_B y$, then that element is unique up to identity. 
-
 ## Examples
 
 ### In $Top$
@@ -81,6 +71,7 @@ A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precise
 ## Related concepts
 
 * [[embedding type]]
+* [[embedding in type theory]]
 * [[decidable embedding]]
 
 [[!redirects embedding]]
