@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -51,11 +52,12 @@ A [[synthetic geometry|synthetic]] set of axioms for Lorentzian geometry was dev
 
 * James Cockle, _Synthetic Spacetime_, ([web](https://web.archive.org/web/20090926011519/http://ca.geocities.com/cocklebio/synsptm.html))
 
-Introductions and surveys include
+Introductions and surveys:
+
+* {#Bär04} [[Christian Bär]], *Lorentzian Geometry*, lecture notes (2004) &lbrack;[pdf](https://www.math.uni-potsdam.de/fileadmin/user_upload/Prof-Geometrie/Dokumente/Lehre/Veranstaltungen/WS0405-SS08/LorentzianGeometryEnglish13Jan2020.pdf), [[Baer-LorentzianGeometry.pdf:file]]&rbrack;
+
 
 * Javayoles, S&#225;nchez, _An introduction to Lorentzian Geometry and its application_, 2010 ([pdf](http://webs.um.es/majava/charlas/CursodeLorentz.pdf))
-
-* [[Christian Bär]], N. Ginaux, [[Frank Pfäffle]], _I. Lorentzian geometry_ ([pdf](http://www.mathematik.hu-berlin.de/~baum/vortrag1.pdf))
 
 * Graciela Birman, Katsumi Nomizu, _Trigonometry in Lorentzian geometry_, The American Mathematical Monthly Vol. 91, No. 9 (Nov., 1984), pp. 543-549 ([JSTOR](http://www.jstor.org/stable/2323737))
 
