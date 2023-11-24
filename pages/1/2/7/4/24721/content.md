@@ -213,6 +213,18 @@ Equivalently, given types $A$ and $B$, there is a function
 
 $$\mathrm{axrepl}_U^{A, B}:\left(\sum_{C:U} T(C) \simeq A\right) \times \left(\sum_{R:B \times B \to U} \prod_{a:B} \prod_{b:B} T(R(a, b)) \simeq (a =_B b)\right) \to \left(\sum_{I:(A \to B) \to U} \prod_{f:A \to B} T(I(f)) \simeq \mathrm{im}(f)\right)$$
 
+### Choice
+
+A [[univalent Tarski universe]] satisfies the __[[axiom of choice]]__ if for every $U$-small type $A:U$ and every $U$-small type family $B:T(A) \to U$, and for every every $U$-small type family $C:\prod_{x:T(A)} T(B(x)) \to U$, if $T(A)$ is a set and each $T(B(x))$ is a set for all $x:T(A)$, and each $T(C(x, y))$ is a proposition for all $x:T(A)$ and $y:T(B(x))$, then if for all $x:A$ there merely exists a $y:T(B(x))$ such that $T(C(x, y))$, then there merely exists a dependent function $g:\prod_{x:T(A)} T(B(x))$ such that for all $x:T(A)$, $T(C(x, g(x)))$. 
+
+$$\mathrm{choice}_U:
+\begin{array}{c}
+\prod_{A:U} \prod_{B:T(A) \to U} \prod_{C:\prod_{x:T(A)} T(B(x)) \to U} \\
+\left(\mathrm{isSet}(T(A)) \times \prod_{x:T(A)} \left(\mathrm{isSet}(T(B(x))) \times \prod_{y:T(B(x))} \mathrm{isProp}(T(C(x, y)))\right)\right) \\
+\to \forall x:T(A).\exists y:T(B(x)).T(C(x, y)) \to \exists g:\prod_{x:T(A)} T(B(x)).\forall x:T(A).T(C(x, g(x)))
+\end{array}
+$$
+
 ### Choice operators and existence
 
 A [[choice operator]] on a type is a function from its [[propositional truncation]] to the type itself, and represents the concept that if there exists an element of the set (i.e. the propositional truncation has an element), then the set itself has an element chosen by the choice operator. A Tarski universe satisfies the **[[type-theoretic axiom of existence]]** if every $U$-small type in the Tarski universe has a choice operator, represented by the following dependent function 
