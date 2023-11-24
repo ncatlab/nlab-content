@@ -76,6 +76,8 @@ $$
    } $$
    commutes.
 
+A pseudofunctor is **strict** if the structural isomorphisms for identities of 1-cells and composites are identity 2-cells.
+
 ### Composition of Pseudofunctors
 
 The composite of two pseudofunctors $P:\mathfrak{C}\to\mathfrak{D}$, $Q:\mathfrak{B}\to\mathfrak{C}$ is defined as follows:
@@ -197,15 +199,13 @@ See also:
 {#Pow}
 
 
-
-
-
-
 [[!redirects pseudofunctors]]
 [[!redirects pseudo functor]]
 [[!redirects pseudo functors]]
 [[!redirects pseudo-functor]]
 [[!redirects pseudo-functors]]
+[[!redirects strict pseudofunctor]]
+[[!redirects strict pseudofunctors]]
 
 [[!redirects weak 2-functor]]
 [[!redirects weak 2-functors]]
