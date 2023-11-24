@@ -183,6 +183,8 @@ Generalizing in another direction, internalized isofibrations are the fibrations
 
 ## Related concepts
 
+* [[amnestic isofibration]]
+
 * [[isocofibration]]
 
 ## References
