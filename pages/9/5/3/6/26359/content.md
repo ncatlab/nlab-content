@@ -102,11 +102,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}
 
 * Judgmental computation rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{finWitn}(\mathrm{toProp}_A(p))) \equiv p:\mathrm{isFinite}(A)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{finWitn}(\mathrm{toElem}_A(p))) \equiv p:\mathrm{isFinite}(A)}$$
 
 * Typal computation rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{finWitn},A}(p):\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{proptrunc}(\mathrm{toElem}_A(p))) =_{\mathrm{isFinite}(A)} p}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{finWitn},A}(p):\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{finWitn}(\mathrm{toElem}_A(p))) =_{\mathrm{isFinite}(A)} p}$$
 
 where the equivalence
 $$\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p)):\mathrm{isFinite}(\mathrm{El}(\mathrm{toElem}_A(p))) \simeq \mathrm{isFinite}(A)$$
