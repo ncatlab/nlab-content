@@ -251,6 +251,12 @@ See also
 [[!redirects universe of types]]
 [[!redirects universes of types]]
 
+[[!redirects type of small types]]
+[[!redirects types of small types]]
+
+[[!redirects universe of small types]]
+[[!redirects universes of small types]]
+
 [[!redirects universe in type theory]]
 [[!redirects universes in type theory]]
 
