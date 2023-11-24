@@ -70,7 +70,7 @@ Since, [[Fourier transform|dually]], this means that the corresponding lightcone
   \,.
 \]
 
-hence one speaks of *discretized light-cone quantization*  or _DLCQ_, for short. This goes back to [Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a); [Tang, Brodsky & Pauli 1991 (2.6)](#TangBrodskyPauli91); for review see [Burkardt 1996, §5.1](#Burkardt96).
+hence one speaks of *discretized light-cone quantization*  or _DLCQ_, for short. This goes back to [Maskawa & Yamakawi 1976](#MaskawaYamakawi76); [Casher 1976](#Casher76); [Thorn 1978](#Thorn78); [Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a); [Tang, Brodsky & Pauli 1991 (2.6)](#TangBrodskyPauli91); for review see [Burkardt 1996, §5.1](#Burkardt96).
 
 Often it turns out that [[negative number|negative]] values of $N$ in (eq:LightConeMomentumQuantization) can be neglected or integrated out, so that 
 
@@ -162,6 +162,15 @@ See also:
 * A. Harindranath, *[Light Front Dynamics](https://www.saha.ac.in/theory/a.harindranath/light/light.html)* (web resources) 
 
 The notion of lightlike circle compactification ("discretized light-cone quantization"):
+
+
+
+* {#MaskawaYamakawi76} [[Toshihide Maskawa]], [[Koichi Yamakawi]], *The Problem of $P^+ = 0$ Mode in the Null-Plane Field Theory and Dirac's Method of Quantization*, Progress of Theoretical Physics **56** 1 (1976) 270–283 &lbrack;[doi:10.1143/PTP.56.270](https://doi.org/10.1143/PTP.56.270)&rbrack;
+
+* {#Casher76} [[Aharon Casher]], *Gauge fields on the null plane*, Phys. Rev. D **14** (1976) 452 &lbrack;[doi:10.1103/PhysRevD.14.452](https://doi.org/10.1103/PhysRevD.14.452)&rbrack;
+
+* {#Thorn78} [[Charles B. Thorn]], *Derivation of dual models from field theory. II*, Phys. Rev. D **17** (1978) 1073 &lbrack;[doi:10.1103/PhysRevD.17.1073](https://doi.org/10.1103/PhysRevD.17.1073)&rbrack;
+
 
 * {#PauliBrodsky85a} [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Solving field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 1993 &lbrack;[doi:10.1103/PhysRevD.32.1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.32.1993)&rbrack;
 
