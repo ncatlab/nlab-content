@@ -287,26 +287,7 @@ of morphisms on elements of the presheaf by pullback.
 
 =--
 
-## Ninja Yoneda Lemma
-In [this MO answer](https://mathoverflow.net/questions/20445/coend-computation/20451#20451), [[Tom Leinster]] referred to the co-Yoneda lemma as *ninja Yoneda lemma*, a name that caught on in [[applied category theory|ACT]] circles.
-In ([Loregian '21](#Lor21), , Proposition 2.2.1), the following general version of the co-Yoneda lemma is given as *ninja Yoneda lemma*:
 
-\begin{proposition}
-For every functor $K: \mathcal{C}^{\mathrm{op}} \to \mathbf{Set}$ and $H: \mathcal{C} \to \mathbf{Set}$, we have the following natural isomorphisms of functors:
-$$
-K \cong \int^C K C \times \mathcal{C}(-, C),
-$$
-$$
-H \cong \int^C H C \times \mathcal{C}(C,-),
-$$
-as well as
-$$
-K \cong \int_C \mathbf{Set}(\mathcal{C}(C, -), K C),
-$$
-$$
-H \cong \int_C \mathbf{Set}(\mathcal{C}(-, C), H C).
-$$
-\end{proposition}
 
 
 ## MacLane's co-Yoneda lemma
@@ -396,9 +377,11 @@ The [co-Yoneda lemma in the sense of MacLane](#MacLanesCoYonedaLemma) appears as
  
 where it is attributed to [[Daniel Kan]].
 
-Loregian popularized the co-Yoneda lemma as *ninja Yoneda lemma* in his book on [[coend|coend calculus]]:
+See also:
 
-* {#Lor21} [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
+* [[Tom Leinster]], [MO:a/20451](https://mathoverflow.net/a/20451/381)
+
+* {#Lor21} [[Fosco Loregian]], Prop. 2.2.1 in: _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
 
 
 [[!redirects Coyoneda lemma]]
