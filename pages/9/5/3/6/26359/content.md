@@ -43,6 +43,8 @@ The definitions of the various different types of finite types are agnostic rega
 
 ### The type of all finite types
 
+Unlike the case for the [[type of all types]] $\mathrm{Type}$, the type of all finite types $\mathrm{FinType}$ doesn't run into [[Girard's paradox]], because neither $\mathrm{FinType}$ nor its set truncation is itself a finite type, and so isn't an element of itself. 
+
 The **type of all finite types** $\mathrm{FinType}$ in a [[dependent type theory]] could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[finite type]] in the type theory is literally an element of the type of finite types, while in the latter, elements of $\mathrm{FinType}$ are only indices of a type family $\mathrm{El}$; every [[finite type]] in the type theory is only [[essentially small type|essentially $\mathrm{FinType}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\mathrm{FinType}$ for [[strict Tarski universes]]. 
 
 #### As a strict Tarski universe
