@@ -38,3 +38,4 @@ category: people
 
 
 [[!redirects Michael K. Murray]]
+[[!redirects Michael K Murray]]
