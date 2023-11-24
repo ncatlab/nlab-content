@@ -92,7 +92,7 @@ The localization $L_F(X)$ of a type $X$ at a family of types $F:\prod_{i:I} S(i)
 
 * [[shape modality]], [[axiom of cohesion]]
 
-* [[bracket type]], [[n-truncation modality]]
+* [[bracket type]], [[set truncation]], [[n-truncation modality]]
 
 ## References
 
