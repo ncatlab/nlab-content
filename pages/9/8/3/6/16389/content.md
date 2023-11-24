@@ -27,10 +27,59 @@ In [[Hamiltonian]] formulation of [[relativistic quantum field theory]] on [[Min
 
 > (Fig. 1 from [Brodsky, Pauli & Pinsky (1998)](#BrodskyPauliPinsky98))
 
+The "instant form" on the left [[foliation|foliates]] [[spacetime]] by [[spacelike]] [[hypersurfaces]] (cf. [[Cauchy surface]]). This is the form considered for [[Hamiltonian mechanics]] in most of the literature (certainly in the case of [[quantum mechanics]], cf. &lbrack;[Dirac (1949) §3](#Dirac49)&rbrack;).
 
-The choice of [[wavefronts]] leads to *light-cone gauge quantization*.
+
+In contrast, *light-cone quantization* corresponds to the choice of [[foliation]] by [[lightlike]] [[wavefronts]] &lbrack;[Dirac (1949) §5](#Dirac49)&rbrack;.
+
+[Dirac (1949) §8](#Dirac49):
+
+> The instant form has the advantage of being the one people are most familiar with, but I do not believe it is intrinsically any better for this reason. &lbrack;...&rbrack;
+
+> The front form has the advantage that it requires only three Hamiltonians, instead of the four of the other forms. This makes it mathematically the most interesting form, and makes any problem of finding Hamiltonians substantially easier. 
+
+> The front form has the further advantage that there is no square root in the Hamiltonians, which means that one can avoid negative energies for particles by suitably choosing the values of the dynamical variables in the front, without having to make a special convention about the sign
+of a square root. 
 
 (...)
+
+### Discretized light-cone quantization
+ {#DiscreteLightConeQuantization}
+
+For [[nonperturbative quantum field theory|non-perturbative]] computations it turns out at least convenient (if not necessary) to in addition assume/impose periodic [[boundary conditions]] along the lightlike front, hence, in flat lightcone coordinates $x^{\pm}$, so that all fields $\phi$ satisfy
+
+$$
+  \phi\big(
+    x^- + L,\, x^+
+  \big)
+  \;\;
+  \phi\big(
+    x^-,\, x^+
+  \big)
+$$
+
+for some $L \in \mathbb{R}_{\gt 0}$ giving the circumference of a lightlike [[circle]] (which some authors take to be literally [[lightlike]], while others, like [Seiberg 1997](#Seiberg97), consider to be the [[limit of a sequence|limit]] of [[boosts]] of a [[spacelike]] [[circle]] [[fiber]]),
+
+Since, [[Fourier transform|dually]], this means that the corresponding lightcone momentum $p^+$ becomes quantized in units of the inverse [[radius]] $R$ of this circle
+
+\[
+  \label{LightConeMomentumQuantization}
+  p^+ \;\propto\; N/R
+  \phantom{AAA}
+  N \in \mathbb{Z}
+  \,.
+\]
+
+hence one speaks of *discretized light-cone quantization*  or _DLCQ_, for short. This goes back to [Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a); [Tang, Brodsky & Pauli 1991 (2.6)](#TangBrodskyPauli91); for review see [Burkardt 1996, §5.1](#Burkardt96).
+
+Often it turns out that [[negative number|negative]] values of $N$ in (eq:LightConeMomentumQuantization) can be neglected or integrated out, so that 
+
+$$
+  N \in \mathbb{N}
+$$
+
+becomes a [[natural number]]-parameter akin to that considered in the [['t Hooft double line construction]] of [[gauge theories]], and then the [[large N limit]] of the discrete light cone quantization becomes of interest.
+
 
 ### For sigma-models
 
@@ -44,27 +93,8 @@ $$
   X^+ = p^+ \tau
 $$
 
-for some proportionality constant $p^+$, the *light cone momentum*.  This is how light cone gauge appears in much of the physics literature.
+for some proportionality constant $p^+$, the *light cone momentum*.  This is how light cone gauge appears in much of the [[string theory]] literature.
 
-If in addition, one assumes that the coordinate function $X^+$ on spacetime is periodic, hence that it actually runs along a [[circle]] [[fiber]] (which some authors take to be literally [[lightlike]], while others (cf. [Seiberg (1997)](#Seiberg97)) consider the [[limit of a sequence|limit]] of [[boosts]] of a [[spacelike]] [[circle]] [[fiber]]), then the lightcone momentum $p^+$ becomes quantized in units of the inverse [[radius]] $R$ of this circle
-
-\[
-  \label{LightConeMomentumQuantization}
-  p^+ \;=\; N/R
-  \phantom{AAA}
-  N \in \mathbb{Z}
-  \,.
-\]
-
-The [[quantization]] of a [[sigma model]] in this situation is hence called the *discretized light-cone quantization* &lbrack;[Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a)&rbrack; or _DLCQ_, for short.
-
-Often it turns out that [[negative number|negative]] values of $N$ in (eq:LightConeMomentumQuantization) can be neglected or integrated out, so that 
-
-$$
-  N \in \mathbb{N}
-$$
-
-becomes a [[natural number]]-parameter akin to that considered in the [['t Hooft double line construction]] of [[gauge theories]], and then the [[large N limit]] of the discrete light cone quantization becomes of interest.
 
 
 ## Applications
@@ -113,7 +143,7 @@ Early review:
 
 * Wei-Min Zhang, *Light-Front Dynamics and Light-Front QCD*, Chin. J. Phys. **32** (1994) 717-808 &lbrack;[arXiv:hep-ph/9412244](https://arxiv.org/abs/hep-ph/9412244)&rbrack;
 
-* [[Matthias Burkardt]], *Light Front Quantization*, Adv. Nucl. Phys. **23** (1996) 1-74 &lbrack;[arXiv:hep-ph/9505259](https://arxiv.org/abs/hep-ph/9505259), [doi:10.1007/0-306-47067-5_1](https://doi.org/10.1007/0-306-47067-5_1)&rbrack;
+* {#Burkardt96} [[Matthias Burkardt]], *Light Front Quantization*, Adv. Nucl. Phys. **23** (1996) 1-74 &lbrack;[arXiv:hep-ph/9505259](https://arxiv.org/abs/hep-ph/9505259), [doi:10.1007/0-306-47067-5_1](https://doi.org/10.1007/0-306-47067-5_1)&rbrack;
 
 Further review:
 
@@ -124,6 +154,8 @@ Further review:
 * J. Vary et al. *Basis Light-Front Quantization: Recent Progress and Future Prospects*, Few-Body Syst **57** (2016) 695–702 &lbrack;[doi:10.1007/s00601-016-1117-x](https://doi.org/10.1007/s00601-016-1117-x)&rbrack;
  
 * Wikipedia, *[Light front quantization](https://en.wikipedia.org/wiki/Light_front_quantization)*
+
+* Wikipedia, [Light-front computational methods](https://en.wikipedia.org/wiki/Light-front_computational_methods)
 
 See also:
 
@@ -158,14 +190,21 @@ Discussion of ([[reduced phase space|reduced]]) [[phase spaces]] in light-cone c
 
 * Kianoosh Kargar, Ahmad Shirzad, Majid Monemzadeh, *Dynamical structure of fields in light cone coordinates*, Phys. Rev. D **99** (2019) 045019 &lbrack;[arXiv:1608.03255](https://arxiv.org/abs/1608.03255), [doi:10.1103/PhysRevD.99.045019](https://doi.org/10.1103/PhysRevD.99.045019)&rbrack;
 
-### Application to electromagnatism
+### Application to quantum electrodynamics
 
-Application to [[electromagnetism]]:
+Application to [[quantum electrodynamics]]:
+
+* [[Andrew C. Tang]], *Discretized light cone quantization: Application to quantum electrodynamics*, PhD thesis, Stanford (1990) &lbrack;[spire:296776](https://inspirehep.net/literature/296776), [pdf](https://inspirehep.net/files/5ef318e56c87e7561d36559f54895bd1), [[Tang-DLCQ.pdf:file]]&rbrack;
+
+
+* {#TangBrodskyPauli91} [[Andrew C. Tang]], [[Stanley J. Brodsky]], [[Hans-Christian Pauli]], *Discretized light-cone quantization: Formalism for quantum electrodynamics*, Phys. Rev. D **44** (1991) 1842 &lbrack;[doi:10.1103/PhysRevD.44.1842](https://doi.org/10.1103/PhysRevD.44.1842)&rbrack;
+
+and to pure [[electromagnetism]]:
 
 * Sucheta Majumdar, *Residual gauge symmetry in light-cone electromagnetism*,  J. High Energ. Phys. **2023** 215 (2023) &lbrack;[arXiv:2212.10637](https://arxiv.org/abs/2212.10637), <a href="https://doi.org/10.1007/JHEP02(2023)215">doi:10.1007/JHEP02(2023)215</a>&rbrack;
 
 
-### Application to QCD
+### Application to quantum chromodynamics
 
 Application to [[QCD]]:
 
@@ -195,10 +234,13 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 5.2.1 of: _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
 
 
-In the context of the [[BFSS matrix model]]:
+In the context of the [[BFSS matrix model]] as a discrete light-cone formulation of [[M-theory]]:
 
 
 * {#Seiberg97} [[Nathan Seiberg]], *Why is the Matrix Model Correct?*, Phys. Rev. Lett. **79** (1997) 3577-3580 &lbrack;[arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009), [doi:10.1103/PhysRevLett.79.3577](https://doi.org/10.1103/PhysRevLett.79.3577)&rbrack;
+
+* [[Adel Bilal]], *DLCQ of M-Theory as the Light-Like Limit*, Phys. Lett. B **435** (1998) 312-318 &lbrack;[arXiv:hep-th/9805070](https://arxiv.org/abs/hep-th/9805070), <a href="https://doi.org/10.1016/S0370-2693(98)00811-9">doi:10.1016/S0370-2693(98)00811-9</a>&rbrack;
+
 
 
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
@@ -218,6 +260,8 @@ In the context of the [[BFSS matrix model]]:
 [[!redirects lightcone gauge]]
 
 [[!redirects light front quantization]]
+
+[[!redirects discrete light front quantization]]
 
 [[!redirects discrete light cone quantization]]
 [[!redirects discrete light-cone quantization]]
