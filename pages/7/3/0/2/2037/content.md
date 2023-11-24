@@ -431,13 +431,15 @@ In particular, for $F=\mathbb{R}$ this process allows to get the [*split-*](comp
 
 ## Higher algebra
 
-[Albuquerque & Majid (1999)](#AM99quasi) describe the Cayley-Dickson process from a different point of view. The quaternions, octonions, sedenions, and $2^n$-gons are realized as $\mathbb{Z}_2^n$ [[group algebra|group algebras]] over the reals *twisted* by a group $n$-cocycle $\omega\in Z^n(\mathbb{Z}_2^n,\mathbb{R}^{\times})$.
+[Albuquerque & Majid (1999)](#AM99quasi) describe the Cayley-Dickson process from a different point of view. The quaternions, and octonions are realized as $\mathbb{Z}_2^n$ [[group algebra|group algebras]] over the reals *twisted* by a group $n$-cocycle $\omega\in Z^n(\mathbb{Z}_2^n,\mathbb{R}^{\times})$, for $n=2,3$, respectively.
 
-For instance, the quaternions are described as the group algebra $\mathbb{R}[\mathbb{Z}_2\times\mathbb{Z}_2]$ where the group multiplication is twisted by a cocycle $\omega(g,h)$. The 2-cocycle condition of such a function implies that the quaternions are associative. On the other hand, the octonions are realized as a group algebra $\mathbb{R}[\mathbb{Z}_2\times\mathbb{Z}_2]$ where the function $\omega(g,h)$ twisting the multiplication is no longer a 2-cocycle. One of the effects of this is that the octonions are no longer associative or, rather, that they satisfy a nontrivial associativity condition, in the sense of a [[quasi-Hopf algebra]]. This nontrivial associativity condition is witnessed by a group $3$-cocycle in $Z^3(\mathbb{Z}_2\times \mathbb{Z}_2\times \mathbb{Z}_2, \mathbb{R}^{\times})$.
+In more detail, the quaternions are described as the group algebra $\mathbb{R}[\mathbb{Z}_2\times\mathbb{Z}_2]$ where the group multiplication is twisted by a cocycle $\omega(g,h)$. The 2-cocycle condition of such a function implies that the quaternions are associative. On the other hand, the octonions are realized as a group algebra $\mathbb{R}[\mathbb{Z}_2\times\mathbb{Z}_2]$ where the function $\omega(g,h)$ twisting the multiplication is no longer a 2-cocycle. One of the effects of this is that the octonions are no longer associative or, rather, that they satisfy a nontrivial associativity condition, in the sense of a [[quasi-Hopf algebra]]. This nontrivial associativity condition is witnessed by a group $3$-cocycle in $Z^3(\mathbb{Z}_2\times \mathbb{Z}_2\times \mathbb{Z}_2, \mathbb{R}^{\times})$.
 
 This point of view also clarifies the common claim that algebras in the Cayley-Dickson process lose "nice" properties after more iterations. Rather, a more precise claim is that these nice properties are weakened. In the case of the octonions, these are better regarded as associative *up to* a nontrivial cocycle.
 
-This highlights that a more suitable point of view to study the algebras arising in the Cayley-Dickson process is [[higher algebra]]. As noted in e.g. ([p.8 of Baez (2001)](#Baez01oct)), the octonions are indeed associative, when viewed as a [[monoid object]] [[internalization|internal]] to the [[tensor category]] which is the [[fusion category]] of $\mathbb{Z}_2^3$-graded real vector spaces with nontrivial [[associator]] defined by the twisting $3$-cocycle. Similarly, the sedenions, which can be realized as a twist of the group algebra $\mathbb{R}[\mathbb{Z}_2^4]$ by a 4-cocycle $Z^4(\mathbb{Z}_2^4,\mathbb{R}^{\times})$, has fewer nice properties *as a 1-algebra*. Yet as a higher algebra it keeps its nice properties: it corresponds to the [[fusion 2-category]] of $\mathbb{Z}_2^4$-graded [[2-vector space|2-vector spaces]] twisted by a group 4-cocycle.
+This highlights that a more suitable point of view to study the algebras arising in the Cayley-Dickson process is [[higher algebra]]. As noted in e.g. ([p.8 of Baez (2002)](#Baez02)), the octonions are indeed associative, when viewed as a [[monoid object]] [[internalization|internal]] to the [[tensor category]] which is the [[fusion category]] of $\mathbb{Z}_2^3$-graded real vector spaces with nontrivial [[associator]] defined by the twisting $3$-cocycle.
+
+This seems to suggest a pattern regarding the rest of the $2^n$-gons, as of now unproven(?). For instance, the sedenions could be realized as a twist of the group algebra $\mathbb{R}[\mathbb{Z}_2^4]$ by a 4-cocycle $Z^4(\mathbb{Z}_2^4,\mathbb{R}^{\times})$, and as such would have fewer nice properties *as a 1-algebra*. Yet as a higher algebra it would retain its nice properties: it would correspond to the [[fusion 2-category]] of $\mathbb{Z}_2^4$-graded [[2-vector space|2-vector spaces]] twisted by a group 4-cocycle.
 
 
 ## Related concepts 
@@ -491,10 +493,6 @@ On the Cayley-Dickson construction in terms of [[quasi-Hopf algebra|quasi-Hopf a
 
 * {#AM99quasi} Helena Albuquerque, [[Shahn Majid]]. *Quasialgebra Structure of the Octonions*. Journal of Algebra
 Volume 220, Issue 1, 1 October 1999, Pages 188-224. ([doi](https://doi.org/10.1006/jabr.1998.7850))
-
-On the octonions:
-
-* {#Baez01oct} [[John Baez]]. *The octonions*. (2001). ([arXiv:math/0105155](https://arxiv.org/abs/math/0105155))
 
 
 
