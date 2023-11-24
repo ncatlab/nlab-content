@@ -117,31 +117,56 @@ Regularity and closure under identity types implies that the universe is closed 
 
 ### Singletons
 
-A Tarski universe $(U, T)$ satisfies the **axiom of singletons** if it is closed under the type of all $U$-small [[contractible types]]: namely, the dependent sum type $\sum_{A:U} \mathrm{isContr}(T(A))$ is [[essentially small type|essentially $U$-small]]:
+A [[univalent Tarski universe]] satisfies the **axiom of singletons** if it is closed under the (weak) [[unit type]]: if the unit type $\mathbb{1}$ is essentially $U$-small. The axiom of singletons comes from the [[formation rule]], the [[introduction rules]], and the [[dependent universal property of the natural numbers]], which are represented by the following elements:
+
+* formation rules: $\mathbb{1}:U$
+
+* introduction rules: $0:T(\mathbb{1})$
+
+* dependent universal property:
+$$\mathrm{up}_\mathbb{1}^U:\prod_{C:\mathbb{1} \to U} \prod_{c_0:T(C(0))} \exists!c:\prod_{x:\mathbb{1}} T(C(x)).(c(0) =_{T(C(0))} c_0)$$
+where $\exists!x:A.B(x)$ is the [[uniqueness quantifier]] for the [[type family]] $x:A \vdash B(x)$. 
+
+By using [[dependent sum types]], these can be combined into a single element of the following type:
+
+$$\mathrm{axinf}_U:\sum_{\mathbb{1}:U} \sum_{0:T(\mathbb{1})} \prod_{C:\mathbb{1} \to U} \prod_{c_0:T(C(0))} \exists!c:\prod_{x:\mathbb{N}} T(C(x)).(c(0) =_{T(C(0))} c_0)$$
+
+Alternatively, since the notion of [[truth]] could be defined using the type of $U$-small [[contractible types]] $\sum_{A:U} \mathrm{isContr}(T(A))$, the axiom of singletons could be represented as a resizing axiom, similar to propositional resizing. 
+
+A [[univalent Tarski universe]] $(U, T)$ satisfies the **axiom of singletons** if it is closed under the type of all $U$-small [[contractible types]]: namely, the dependent sum type $\sum_{A:U} \mathrm{isContr}(T(A))$ is [[essentially small type|essentially $U$-small]]:
 
 $$\mathrm{axSingl}_U:\sum_{\mathbb{1}:U} T(\mathbb{1}) \simeq \sum_{A:U} \mathrm{isContr}(T(A))$$
 
 ### Empty type
 
-A [[univalent Tarski universe]] satisfies the **[[axiom of empty set|axiom of empty type]]** if it is closed under the (weak) [[empty type]]: if the empty type $\mathbb{0}$ is essentially $U$-small. The axiom of empty type comes from the [[formation rule]] and the dependent universal property of the empty type, which are represented by the following elements:
+A [[univalent Tarski universe]] satisfies the **[[axiom of empty set|axiom of empty type]]** if it is closed under the (weak) [[empty type]]: if the empty type $\emptyset$ is essentially $U$-small. The axiom of empty type comes from the [[formation rule]] and the dependent universal property of the empty type, which are represented by the following elements:
 
-* formation rules: $\mathbb{0}:U$
+* formation rules: $\emptyset:U$
 
 * dependent universal property:
-$$\mathrm{up}_\mathbb{0}^U:\prod_{C:T(\mathbb{0}) \to U} \mathrm{isContr}\left(\prod_{x:T(\mathbb{0})} T(C(x))\right)$$
+$$\mathrm{up}_\emptyset^U:\prod_{C:T(\emptyset) \to U} \mathrm{isContr}\left(\prod_{x:T(\emptyset)} T(C(x))\right)$$
 
 By using [[dependent sum types]], these can be combined into a single element of the following type:
 
-$$\mathrm{axempty}_U:\sum_{\mathbb{0}:U} \prod_{C:T(\mathbb{0}) \to U} \mathrm{isContr}\left(\prod_{x:T(\mathbb{0})} T(C(x))\right)$$
+$$\mathrm{axempty}_U:\sum_{\emptyset:U} \prod_{C:T(\emptyset) \to U} \mathrm{isContr}\left(\prod_{x:T(\emptyset)} T(C(x))\right)$$
+
+Alternatively, since [[falsehood]] or the empty proposition could be defined using the type of $U$-small propositions $\sum_{A:U} \mathrm{isProp}(T(A))$, the axiom of empty set could be represented as a resizing axiom, similar to propositional resizing. 
+
+A [[univalent Tarski universe]] $(U, T)$ satisfies the **[[axiom of empty set|axiom of empty type]]** if it is closed under the empty proposition or falsehood: namely, the [[dependent product type]] $\prod_{A:\mathrm{Prop}}_U T(A)$ is [[essentially small type|essentially $U$-small]]:
+$$\mathrm{axempty}_U:\sum_{\emptyset:U} T(\emptyset) \simeq \prod_{A:\mathrm{Prop}_U} T(A)$$
+where 
+$$\mathrm{Prop}_U \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 Product regularity and the axiom of empty type imply the axiom of singletons, because the dependent universal property of the empty set states that for every type family $C:T(\mathbb{0}) \to U$ the dependent function type $\prod_{x:T(\mathbb{0})} T(C(x))$ is a singleton, and product regularity implies that $\prod_{x:T(\mathbb{0})} T(C(x))$ is essentially $U$-small. 
 
 ### Propositional resizing
 
-A Tarski universe $(U, T)$ satisfies **[[propositional resizing]]** if it is closed under the [[type of propositions|type of all $U$-small propositions]]: namely, the dependent sum type $\sum_{A:U} \mathrm{isProp}(T(A))$ is [[essentially small type|essentially $U$-small]]:
+A [[univalent Tarski universe]] $(U, T)$ satisfies **[[propositional resizing]]** if it is closed under the [[type of propositions|type of all $U$-small propositions]]: namely, the dependent sum type $\sum_{A:U} \mathrm{isProp}(T(A))$ is [[essentially small type|essentially $U$-small]]:
 $$\mathrm{propresize}_U:\sum_{\Omega:U} T(\Omega) \simeq \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 This is a version internal to the universe $U$ of having a [[type of all propositions]] in the type theory itself. While propositional resizing implies that the universe is [[impredicative]], it does not imply that the type theory as a whole is impredicative; the latter requires an actual [[type of all propositions]] in the type theory. 
+
+Product regularity and propositional resizing imply the axiom of empty set, because propositional resizing implies that $\mathrm{Prop}_U$ is essentially $U$-small, and then product regularity implies that $\prod_{A:\mathrm{Prop}_U} T(A)$ is essentially $U$-small. 
 
 ### Infinity
 
@@ -159,6 +184,27 @@ By using [[dependent sum types]], these can be combined into a single element of
 
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:\mathbb{N} \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:\mathbb{N}} T(C(x)) \to T(C(s(x)))} \exists!c:\prod_{x:\mathbb{N}} T(C(x)).(c(0) =_{T(C(0))} c_0) \times \prod_{x:\mathbb{N}} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
 
+Alternatively, since the [[type of finite types|type of all $U$-small finite types]] and [[set truncations]] could be defined using the type of $U$-small propositions $\sum_{A:U} \mathrm{isProp}(T(A))$, the axiom of infinity could be represented as a resizing axiom, similar to propositional resizing. 
+
+A [[univalent Tarski universe]] $(U, T)$ satisfies the **[[axiom of infinity]]** if it is closed under the [[set truncation]] of the [[type of finite types|type of all $U$-small finite types]]: namely, the type $\left[\sum_{A:U} \mathrm{isFinite}(T(A))\right]_0$ is [[essentially small type|essentially $U$-small]]:
+$$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} T(\mathbb{N}) \simeq \left[\sum_{A:U} \mathrm{isFinite}(T(A))\right]_0$$
+
+where 
+
+$$
+\mathrm{isFinite}(A) \equiv 
+\begin{array}{c}
+\prod_{S:(A \to \mathrm{Prop}_U) \to \mathrm{Prop}_U} (((\lambda x:A.\bot) \in S) \times \prod_{P:A \to \mathrm{Prop}_U} \prod_{Q:A \to \mathrm{Prop}_U} (P \in S) \\
+\times (\exists!x:A.x \in Q) \times (P \cap Q =_{A \to \mathrm{Prop}_U} \lambda x:A.\bot) \to (P \cup Q \in S)) \to ((\lambda x:A.\top) \in S)
+\end{array}
+$$
+
+and 
+
+$$\mathrm{Prop}_U \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
+
+The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]].
+
 ### Replacement
 
 A [[univalent Tarski universe]] satisfies the __[[axiom of replacement]]__ if for every [[essentially small type|essentially $U$-small]] type $A$, every [[locally small type|locally $U$-small]] type $B$, and every function $f:A \to B$, the [[image]] of $f$, $\mathrm{im}(f)$, is essentially $U$-small. 
@@ -172,9 +218,6 @@ $$\mathrm{axrepl}_U^{A, B}:\left(\sum_{C:U} T(C) \simeq A\right) \times \left(\s
 A [[choice operator]] on a type is a function from its [[propositional truncation]] to the type itself, and represents the concept that if there exists an element of the set (i.e. the propositional truncation has an element), then the set itself has an element chosen by the choice operator. A Tarski universe satisfies the **[[type-theoretic axiom of existence]]** if every $U$-small type in the Tarski universe has a choice operator, represented by the following dependent function 
 $$\varepsilon_U:\prod_{A:U} \vert T(A) \vert \to T(A)$$
 $U$ satisfying the type-theoretic axiom of existence implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
-
-There is also a **[[set-theoretic axiom of existence]]**, which only requires the sets in the universe to have choice operators. This coincides with the [[axiom of existence]] in [[set theory]] and allows for non-set types in the Tarski universe like the [[circle type]] as well. This is represented by the following dependent function
-$$\varepsilon_U:\prod_{A:U} \mathrm{isSet}(T(A)) \times \vert T(A) \vert \to T(A)$$
 
 ### Closure of Tarski universes under other type formers
 
