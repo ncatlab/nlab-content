@@ -77,7 +77,11 @@ If a category $D$ is [[enriched category|enriched]] in $C$ with [[copowers]], th
 
 Conversely, if module category is such that the functor $(-)\oslash d:C\to D$ has a [[right adjoint]] for all objects $d$ of $D$, then the right adjoints $D(d,-):D\to C$ provide an enrichment of $D$ in $C$ for which the action is a copower. See [KJ01](#KJ01).
 
+More generally, supposing $C$ is small, the following data are equivalent: (1) a $C$-module category $D$; (2) an enrichment of $D$ in the category $\hat C$ of [[presheaves]] on $C$ (i.e. a [[locally graded category]]), with copowers by [[representables]]. Here we regard $\hat C$ as a monoidal category with the [[Day convolution]]. 
 
+Starting from a $C$-module category $D$, consider the enrichment given by $D(d,d')=hom(-\oslash d,d'):C^{op}\to Set$. If these presheaves are representable, this is what it means to be enriched in $C$ for which the action is a copower. If they are not representable, it is still an enrichment, and the copowers by representables are the action. 
+
+For this reason, many concepts from enriched category theory make sense for module categories too. 
 
 
 ## Related Concepts
