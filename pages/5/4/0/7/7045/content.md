@@ -124,6 +124,10 @@ Universes defined internally via [[induction-recursion]] are stricty Tarski. Wea
 
 Both [[Coq]] and [[Agda]] support [[universe polymorphism]] to deal with the issue of universe enlargement. Moreover, Coq supports [[typical ambiguity]].
 
+### Extensionality principle of type universes
+
+The extensionality principle of type universes is given by the [[univalence axiom]], which for [[Tarski universes]] $(U, T)$ states that [[transport]] across the universal type family $T$ is an equivalence of types for all small types $A:U$ and $B:U$; and for [[Russell universes]] $U$ states that the recursively defined function $\mathrm{idToEquiv}$, which takes identifications between small types $A:U$ and $B:U$ to equivalences between $A$ and $B$, is an equivalence of types for all small types $A:U$ and $B:U$. 
+
 ### Cumulativity
 
 A tower of universes is **cumulative** if $A:\mathcal{U}_i$ implies $A:\mathcal{U}_{i+1}$ (rather than, say, $Lift(A):\mathcal{U}_{i+1}$).
@@ -146,6 +150,147 @@ and more generally presenting [[(∞,1)-toposes]] of [[(∞,1)-presheaves]] over
 Discussion for general [[(∞,1)-toposes]] (of [[(∞,1)-sheaves]]) that should have implementation [weakly Tarski](#TarskiStyle) ([Gallozzi 14, p. 49-50](#Gallozzi14)) is in ([Gepner-Kock 12](#GepnerKock12)).
 
 For more on this see the respective sections at _[[relation between type theory and category theory]]_.
+
+## Other types of types
+
+There is other notions of type of types. Suppose we have a Russell universe $U$ or a Tarski universe $(U, T)$ and a function $P:U \to \mathrm{Prop}_U$. Then the type of $U$-small types which satisfy $P$ is given by the [[dependent sum type]] $\sum_{A:U} P(A)$ for Russell universes and $\sum_{A:U} T(P(A))$ for Tarski universes. 
+
+Since universes are internal models of type theory, in a dependent type theory with a separate [[type]] [[judgment]], one could generalize the above notion of "type of $U$-small types which satisfy $P$" to the notion of "type of all types which satisfy $P$". Types $A$, previously elements of the universe $A:U$, are now judged to be types $A \; \mathrm{type}$. The function $P:U \to \mathrm{Prop}_U$ which takes types to propositons is now an operator on types, which is defined using [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash P(A) \; \mathrm{type}} \quad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{proptrunc}_{P(A)}:\mathrm{isProp}(P(A)) \; \mathrm{type}}$$
+
+Examples of such $P$ definable from the existing type formers in [[dependent type theory]] include 
+
+* $\mathrm{isProp}$, which results in the [[type of all propositions]], 
+* $\mathrm{isFinite}$, which results in the [[type of all finite types]], 
+* given a type $T$, $[(-) \simeq T]$, which results in the type of all types merely [[equivalence of types|equivalent]] to $T$. 
+* given a type $T$, $[(-) \hookrightarrow T]$, which results in the [[subobject preorder|subtype preorder]] of $T$, the type of all types which merely [[embedding of types|embed into]] $T$. 
+
+The resulting **type of types which satisfy $P$** is denoted by $\mathrm{Type}_P$. 
+
+Care must be taken for which $P$ one could use to define the type of all types which satisfy $P$. For example, given [[unit type]] $\mathbb{1}$, for $P(A) \equiv A \to \mathbb{1}$ and $P(A) \equiv \mathrm{isSet}(A)$, the resulting $\mathrm{Type}_P$ always contains itself or its [[set truncation]] in addition to the [[empty type]], resulting in [[Girard's paradox]]; thus, one cannot form such types of types in the type theory. Similarly, for 
+$$P(A) \equiv \prod_{x:A} \prod_{y:A} (x =_A y) \vee \neg (x =_A y)$$ 
+the resulting $\mathrm{Type}_P$ contains its set truncation in addition to the empty type if the [[principle of excluded middle]] holds for all propositions, resulting in [[Girard's paradox]]; thus, one could only form $\mathrm{Type}_P$ for 
+$$P(A) \equiv \prod_{x:A} \prod_{y:A} (x =_A y) \vee \neg (x =_A y)$$ 
+if one doesn't have excluded middle in the type theory. 
+
+Now, supposing that the [[dependent type theory]] has the above rules for $P(A)$, $\mathrm{Type}_P$ could be presented either as a [[Russell universe]] or a [[Tarski universe]] in a [[dependent type theory]]. The difference between the two is that in the former, every type which satisfies $P$ in the type theory is literally an element of the type of types which satisfy $P$, while in the latter, elements of $\mathrm{Type}_P$ are only indices of a type family $\mathrm{El}$; every [[finite type]] in the type theory is only [[essentially small type|essentially $\mathrm{Type}_P$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $P(A)$ for $A:\mathrm{Type}_P$ for [[strict Tarski universes]]. 
+
+For weak Tarski type of types with satisfy $P$, one also needs the typal congruence rules for forming $P(A)$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{congform}_P(e):P(A) \simeq P(B) \; \mathrm{type}}$$
+
+#### As a strict Tarski universe
+
+As a [[strict Tarski universe]], the type of all types which satisfy $P$ is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the type of all types which satisfy $P$:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
+
+Introduction rules for the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
+
+Elimination rules for the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(\mathrm{El}(A))}$$
+
+Computation rules for the type of all types which satisfy $P$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toElem}_A(p)) \equiv A \; \mathrm{type}}$$
+
+* Judgmental computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{witn}_P(\mathrm{toElem}_A(p)) \equiv p:P(A)}$$
+
+* Typal computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{Witn}_P,A}(p):\mathrm{witn}_P(\mathrm{toElem}_A(p)) =_{P(A)} p}$$
+
+Uniqueness rules for the type of all types which satisfy $P$:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A)) \equiv A:\mathrm{Type}_P}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \eta_{\mathrm{Type}_P}(A):\mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A)) =_{\mathrm{Type}_P} A}$$
+
+[[univalence axiom|Extensionality principle]] of the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {\Gamma \vdash \mathrm{ext}_{\mathrm{Type}_P}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
+#### As a weak Tarski universe
+
+As a [[weak Tarski universe]], the type of all types which satisfy $P$ is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the type of all finite types:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
+
+Introduction rules for the type of all finite types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
+
+Elimination rules for the type of all finite types:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(\mathrm{El}(A))}$$
+
+Computation rules for the type of all finite types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toElem}_A(p)) \simeq A \; \mathrm{type}}$$
+
+* Judgmental computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{congform}_P(\beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p))(\mathrm{witn}_P(\mathrm{toElem}_A(p))) \equiv p:P(A)}$$
+
+* Typal computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{witn}_P,A}(p):\mathrm{congform}_P(\beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p))(\mathrm{witn}_P(\mathrm{toElem}_A(p))) =_{P(A)} p}$$
+
+where the equivalence
+$$\mathrm{congform}_P(\beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p)):P(\mathrm{El}(\mathrm{toElem}_A(p))) \simeq P(A)$$
+is provided from the typal computation rules for $P(A)$. 
+
+Uniqueness rules for the type of all types which satisfy $P$:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash A \equiv \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A)):\mathrm{Type}_P}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \eta_{\mathrm{Type}_P}(A):A =_{\mathrm{Type}_P} \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A))}$$
+
+[[univalence axiom|Extensionality principle]] of the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {\Gamma \vdash \mathrm{ext}_{\mathrm{Type}_P}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
+#### As a Russell universe
+
+As a [[Russell universe]], the type of all types which satisfy $P$ is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the type of all types which satisfy $P$:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
+
+Introduction rules for the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
+
+Elimination rules for the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(A)}$$
+
+Computation rules for the type of all types which satisfy $P$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{toElem}_A(p) \equiv A \; \mathrm{type}}$$
+
+* Judgmental computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{witn}_P(\mathrm{toElem}_A(p)) \equiv p:P(A)}$$
+
+* Typal computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{finWitn},A}(p):\mathrm{witn}_P(\mathrm{toElem}_A(p)) =_{P(A)} p}$$
+
+Uniqueness rules for the type of all types which satisfy $P$:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{toElem}_{A}(\mathrm{witn}_P(A)) \equiv A:\mathrm{Type}_P}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \eta_{\mathrm{Type}_P}(A):\mathrm{toElem}_{A}(\mathrm{witn}_P(A)) =_{\mathrm{Type}_P} A}$$
+
+[[univalence axiom|Extensionality principle]] of the type of all types which satisfy $P$:
+$$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {\Gamma \vdash \mathrm{ext}_{\mathrm{Type}_P}(A, B):\mathrm{isEquiv}(\mathrm{idToEquiv}(A, B))}$$
 
 ## Related concepts
 
