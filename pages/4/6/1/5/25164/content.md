@@ -76,7 +76,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 ## See also
 
-* [[embedding]]
+* [[embedding of types]]
 
 * [[injection set]]
 
