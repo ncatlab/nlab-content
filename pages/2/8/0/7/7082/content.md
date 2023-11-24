@@ -13,9 +13,7 @@
 =--
 =--
 
-# Equivalences in type theory
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -526,6 +524,8 @@ $$
 
 * [[equivalence type]]
 
+* [[embedding in type theory]]
+
 ## References
  {#References}
 
@@ -666,6 +666,8 @@ Origin of the notion of type isomorphy in and application to [[programming langu
 [[!redirects homotopy isomorphism]]
 [[!redirects h-isomorphism]]
 
-
 [[!redirects type equivalence]]
 [[!redirects type equivalences]]
+
+[[!redirects equivalence in type theory]]
+[[!redirects equivalences in type theory]]
