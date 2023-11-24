@@ -91,7 +91,14 @@ For more on the history see
 
 and ([Scharf 95, section 0.0](#Scharf95)).
 
-Discussion of [[vacuum stability]] in [[QED]] includes
+On [[quantum electrodynamics]] via [[discretized light-cone quantization]]:
+
+* [[Andrew C. Tang]], *Discretized light cone quantization: Application to quantum electrodynamics*, PhD thesis, Stanford (1990) &lbrack;[spire:296776](https://inspirehep.net/literature/296776), [pdf](https://inspirehep.net/files/5ef318e56c87e7561d36559f54895bd1), [[Tang-DLCQ.pdf:file]]&rbrack;
+
+* {#TangBrodskyPauli91} [[Andrew C. Tang]], [[Stanley J. Brodsky]], [[Hans-Christian Pauli]], *Discretized light-cone quantization: Formalism for quantum electrodynamics*, Phys. Rev. D **44** (1991) 1842 &lbrack;[doi:10.1103/PhysRevD.44.1842](https://doi.org/10.1103/PhysRevD.44.1842)&rbrack;
+
+
+Discussion of [[vacuum stability]] in [[QED]]:
 
 * {#Scharf96} [[Günter Scharf]], _Vacuum stability in quantum field theory_, Nuovo Cim. A109 (1996) 1605-1607 ([spire:432208](http://inspirehep.net/record/432208/))
 
