@@ -143,6 +143,12 @@ $$\mathbb{N} \simeq [\mathrm{FinType}]_0$$
 
 This is the type theoretic analogue of the [[decategorification]] of the [[permutation category]] resulting in the set of [[natural numbers]]. 
 
+This also means that the [[axiom of infinity]] for a [[type universe]] $U$ could be defined as a resizing axiom similar to [[propositional resizing]], since [[set truncations]] could be defined from $\mathrm{Prop}_U$ the [[type of propositions]] in $U$:
+
+$$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \mathbb{N} \simeq \left[\sum_{A:U} \mathrm{isFinite}(A)\right]_0$$
+
+$$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} T(\mathbb{N}) \simeq \left[\sum_{A:U} \mathrm{isFinite}(T(A))\right]_0$$
+
 ## Categorical semantics
 
 The categorical semantics of the type of finite types is the finite object classifier, the [[object classifier]] which classifies [[finite objects]] of a [[category]]. 
