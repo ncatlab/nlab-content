@@ -32,6 +32,12 @@ The original articles:
 
 * [[Krzysztof Gawędzki]], [[Nuno Reis]], _Basic gerbe over non-simply connected compact groups_, Journal of Geometry and Physics **50** 1-4 (2004) 28–55 &lbrack;[arXiv:0307010](https://arxiv.org/abs/math/0307010), [doi:10.1016/j.geomphys.2003.11.004](http://dx.doi.org/10.1016/j.geomphys.2003.11.004)&rbrack;
 
+A specific construction in the special case of various unitary groups is given in:
+
+* [[Michael K Murray]], [[Danny Stevenson]], _The basic bundle gerbe on unitary groups_, Journal of Geometry and Physics **58** Issue 11 (2008) pp 1571-1590, doi:[10.1016/j.geomphys.2008.07.006](https://doi.org/10.1016/j.geomphys.2008.07.006), [arXiv:0804.3464](https://arxiv.org/abs/0804.3464).
+
+
+
 Review:
 
 * [[Christoph Schweigert]], [[Konrad Waldorf]], *Gerbes and Lie Groups*, in: *Developments and Trends in Infinite-Dimensional Lie Theory*, Progress in Mathematics **288** (2011) &lbrack;[arXiv:0710.5467](https://arxiv.org/abs/0710.5467), [doi:10.1007/978-0-8176-4741-4_10](https://doi.org/10.1007/978-0-8176-4741-4_10)&rbrack;
