@@ -262,14 +262,21 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 
 
+
 ## References 
  {#References}
 
 ### General
 
-The original textbook:
+The original texts:
 
-* [[Richard Feynman]], A. R. Hibbs, , _Quantum Mechanics and Path Integrals_ , New York: McGraw-Hill, (1965)
+* [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [pdf](https://faculty.washington.edu/seattle/physics541/2012-path-integrals/paper.pdf)&rbrack;
+
+* [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965) &lbrack;[pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack;
+
+* [[Daniel F. Styer]], *The Errors of Feynman and Hibbs* &lbrack;[pdf](https://www2.oberlin.edu/physics/dstyer/FeynmanHibbs/ErrorsOfFeynmanHibbsX.pdf)&rbrack;
+
+* [[Daniel F. Styer]], [[Richard Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html)&rbrack; 
 
 Lecture notes:
 
