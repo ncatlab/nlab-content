@@ -108,15 +108,21 @@ The original articles on the BFSS matrix model:
 
   > (argument for [[small N limit|small N]]-validity)
 
+and with more details on the [[discrete light front quantization]] involved:
+
 * {#Sen97} [[Ashoke Sen]], *D0 Branes on $T^n$ and Matrix Theory*, Adv. Theor. Math. Phys. **2** (1998) 51-59 &lbrack;[arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220)&rbrack;
 
 * {#Seiberg97} [[Nathan Seiberg]], *Why is the Matrix Model Correct?*, Phys. Rev. Lett. **79** (1997) 3577-3580 &lbrack;[arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009), [doi:10.1103/PhysRevLett.79.3577](https://doi.org/10.1103/PhysRevLett.79.3577)&rbrack;
+
+* [[Adel Bilal]], *DLCQ of M-Theory as the Light-Like Limit*, Phys. Lett. B **435** (1998) 312-318 &lbrack;[arXiv:hep-th/9805070](https://arxiv.org/abs/hep-th/9805070), <a href="https://doi.org/10.1016/S0370-2693(98)00811-9">doi:10.1016/S0370-2693(98)00811-9</a>&rbrack;
 
 In view of [[flat space holography]]:
 
 * [[Leonard Susskind]], *Holography in the flat space limit*, AIP Conf.Proc. 493 (1999) 1, 98-112,  ([spire](https://inspirehep.net/literature/482388), [arXiv:hep-th/9901079](https://arxiv.org/abs/hep-th/9901079), [doi:10.1063/1.1301570](https://doi.org/10.1063/1.1301570))
 
 Review:
+
+* [[Adel Bilal]], *M(atrix) Theory : a Pedagogical Introduction*, Fortsch. Phys. **47** (1999) 5-28 &lbrack;[arXiv:hep-th/9710136](https://arxiv.org/abs/hep-th/9710136), <a href="https://doi.org/10.1002/(SICI)1521-3978(199901)47:1/3%3C5::AID-PROP5%3E3.0.CO;2-B">doi:10.1002/(SICI)1521-3978(199901)47</a>&rbrack;
 
 * [[Tom Banks]], _Matrix Theory_, Nucl. Phys. Proc. Suppl. 67 (1998) 180-224 &lbrack;[arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231), <a href="https://doi.org/10.1016/S0920-5632(98)00130-3">doi:10.1016/S0920-5632(98)00130-3</a>&rbrack;
 
