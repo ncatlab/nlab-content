@@ -54,15 +54,13 @@ $$\mathrm{isProp}(A) \coloneqq A \to \mathrm{isContr}(A)$$
 
 We shall be agnostic about the different definitions of $\mathrm{isProp}(A)$, and just directly use $\mathrm{isProp}(A)$. 
 
-In addition, given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is possible to form the equivalence $\mathrm{congform}_\mathrm{isProp}(e):\mathrm{isProp}(A) \simeq \mathrm{isProp}(B)$ through [[function application to identifications|application of equivalences to identifications]] and the typal congruence rules of [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
-
 ### The type of all propositions
 
 The **type of all propositions** $\mathrm{Prop}$ in a [[dependent type theory]] could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[mere proposition]] in the type theory is literally an element of the type of all propositions, while in the latter, elements of $\mathrm{Prop}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[mere proposition]] in the type theory is only [[essentially small type|essentially $\mathrm{Prop}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\mathrm{Prop}$ for [[strict Tarski universes]]. 
 
-#### As a Tarski universe
+#### As a strict Tarski universe
 
-As a [[Tarski universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
+As a [[strict Tarski universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
 
 Formation rules for the type of all propositions:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Prop} \; \mathrm{type}}$$
@@ -73,7 +71,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toProp}_A:\mathr
 Elimination rules for the type of all propositions:
 $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(\mathrm{El}(A))}$$
 
-Computation rules for strict types of all propositions:
+Computation rules for the type of all propositions:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toProp}_A(p)) \equiv A \; \mathrm{type}}$$
 
@@ -85,7 +83,31 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \beta_\mathrm{Prop}^{\mathrm{proptrunc},A}(p):\mathrm{proptrunc}(\mathrm{toProp}_A(p)) =_{\mathrm{isProp}(A)} p}$$
 
-Computation rules for weak types of all propositions:
+Uniqueness rules for the type of all propositions:
+
+* Judgmental computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash A \equiv \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A)):\mathrm{Prop}}$$
+
+* Typal computation rules:
+$$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \eta_{\mathrm{Prop}}(A):A =_{\mathrm{Prop}} \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A))}$$
+
+Extensionality principle of the type of all propositions:
+$$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+
+#### As a weak Tarski universe
+
+As a [[weak Tarski universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
+
+Formation rules for the type of all propositions:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Prop} \; \mathrm{type}}$$
+
+Introduction rules for the type of all propositions:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toProp}_A:\mathrm{isProp}(A) \to \mathrm{Prop}}$$
+
+Elimination rules for the type of all propositions:
+$$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(\mathrm{El}(A))}$$
+
+Computation rules for the type of all propositions:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \beta_\mathrm{Prop}^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toProp}_A(p)) \simeq A \; \mathrm{type}}$$
 
@@ -99,7 +121,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A
 
 where the equivalence
 $$\mathrm{congform}_\mathrm{isProp}(\beta_\mathrm{Prop}^{\mathrm{El}, A}(p)):\mathrm{isProp}(\mathrm{El}(\mathrm{toProp}_A(p))) \simeq \mathrm{isProp}(A)$$
-is mentioned in the introduction paragraph of this section. 
+can always be constructed in a type theory with [[dependent product types]], [[dependent sum types]], and [[identity types]], as given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is possible to form the equivalence $\mathrm{congform}_\mathrm{isProp}(e):\mathrm{isProp}(A) \simeq \mathrm{isProp}(B)$ through [[function application to identifications|application of equivalences to identifications]] and the typal congruence rules of [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
 
 Uniqueness rules for the type of all propositions:
 
