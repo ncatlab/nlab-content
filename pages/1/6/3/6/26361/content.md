@@ -1,20 +1,57 @@
 
-## Disambiguation
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
 
-Truncation could refer to a number of related things in mathematics
 
-* In [[type theory]], the operations of 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[homotopy theory]] and [[homotopy type theory]], by *truncation* one means the [[reflective subcategory|reflection]] onto [[truncated objects]].
+
+## Related entries
+
+* For discussion in  [[homotopy type theory]] (mostly) see:
+
+  * [[h-level]]
+
+  * [[mere proposition]]
 
   * [[propositional truncation]] or (-1)-truncation
+
   * [[set truncation]] or 0-truncation
+
   * [[n-truncation modality]]
 
-* In [[higher category theory]], the concepts of 
+* For discussion in [[higher category theory]], see:
 
   * [[truncated object]]
+
+  * [[homotopy n-type]]
+
+  * [[Postnikov tower]]
+
+  * [[truncation of a chain complex]]
+
   * [[n-truncated object of an (infinity,1)-category]]
 
-category: disambiguation
+  * [[(n+1,1)-category of n-truncated objects]]
+
+  * [[(n-connected, n-truncated) factorization system]]
+
 
 [[!redirects truncated]]
 [[!redirects truncation]]
