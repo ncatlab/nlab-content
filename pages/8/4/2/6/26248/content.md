@@ -145,17 +145,39 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Introduction rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y)}{\Gamma \vdash \mathrm{toElem}_{A, B, R}:\left(\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)\right) \to \mathrm{EntRel}(A, B)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y)}{\Gamma \vdash \mathrm{toElem}_{A, B, R}:\mathrm{isEntire}(x:A.y:B.R(x, y)) \to \mathrm{EntRel}(A, B)}$$
 
 Elimination rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:\mathrm{EntRel}(A, B), x:A, y:B \vdash \mathrm{El}(R, x, y) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma, x:A, y:B \vdash \mathrm{El}(R, x, y) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:\mathrm{EntRel}(A, B) \vdash \mathrm{entrelwitn}(R):\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(\mathrm{El}(R, x, y))\right) \times \exists y:B.\mathrm{El}(R, x, y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelwitn}(R):\mathrm{isEntire}(x:A.y:B.\mathrm{El}(R, x, y))}$$
 
 Computation rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \delta_R(x, y):\mathrm{El}(\mathrm{toElem}_{A, B, R}(p), x, y) \simeq R(x, y)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma, x:A, y:B \vdash \beta_{\mathrm{EntRel}(A, B)}^{\mathrm{El}, R}(p, x, y):\mathrm{El}(\mathrm{toElem}_{A, B, R}(p), x, y) \simeq R(x, y)}$$
+
+* Judgmental computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma \vdash (\mathrm{congform}_{\mathrm{isEntire}}(\beta_{\mathrm{EntRel}(A, B)}^{\mathrm{El}, R}(p)))(\mathrm{entrelwitn}(\mathrm{toElem}_{A, B, R}(p))) \equiv p:\mathrm{isEntire}(x:A.y:B.R(x, y))}$$
+
+* Typal computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma \vdash \beta_{\mathrm{EntRel}(A, B)}^{\mathrm{entrelwitn}, R}:(\mathrm{congform}_{\mathrm{isEntire}}(\beta_{\mathrm{EntRel}(A, B)}^{\mathrm{El}, R}(p)))(\mathrm{entrelwitn}(\mathrm{toElem}_{A, B, R}(p))) =_{\mathrm{isEntire}(x:A.y:B.R(x, y))} p}$$
+
+where the equivalence
+$$\mathrm{congform}_{\mathrm{isEntire}}(\beta_{\mathrm{EntRel}(A, B)}^{\mathrm{El}, R}(p)):\mathrm{isEntire}(x:A.y:B.\mathrm{El}(R, x, y)) \simeq \mathrm{isEntire}(x:A.y:B.R(x, y))$$
+is provided from the typal computation rules for $\mathrm{isEntire}(x:A.y:B.R(x, y))$. 
+
+Uniqueness rules:
+
+* Judgmental uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{toElem}_{A, B, \mathrm{El}(R)}(\mathrm{entrelwitn}(R)) \equiv R:\mathrm{EntRel}(A, B)}$$
+
+* Typal uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \eta_{\mathrm{EntRel}(A, B)}(R):\mathrm{toElem}_{A, B, \mathrm{El}(R)}(\mathrm{entrelwitn}(R)) =_{\mathrm{EntRel}(A, B)} R}$$
 
 Extensionality rule:
 
