@@ -31,13 +31,19 @@ Recall that an [[entire relation]] between types $A$ and $B$ in type theory is a
 
 * there exists an $y:A$ such that $R(x, y)$. 
 
-If there exists a [[type of propositions]] $\Omega$, then the type of entire relations is given by the type 
+$$\mathrm{isEntire}(x:A.y:B.R(x, y)) \equiv \prod_{x:A} \left(\prod_{u:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)$$
 
-$$\sum_{R:A \times B \to \Omega} \prod_{x:A} \exists y:B.R(x, y)$$
+If there exists a [[type of propositions]] $\mathrm{Prop}$, then the type of entire relations is given by the type 
+
+$$\sum_{R:A \times B \to \mathrm{Prop}} \mathrm{isEntire}(R)$$
+
+where 
+
+$$\mathrm{isEntire}(R) \equiv \prod_{x:A} \exists y:B.R(x, y)$$
 
 for Russell types of propositions and 
 
-$$\sum_{R:A \times B \to \Omega} \prod_{x:A} \exists y:B.\mathrm{El}(R(x, y))$$
+$$\mathrm{isEntire}(R) \equiv \prod_{x:A} \exists y:B.\mathrm{El}(R(x, y))$$
 
 for Tarski types of propositions. Otherwise, we could use [[inference rules]] to directly define the type of all entire relations between types $A$ and $B$: 
 
@@ -49,47 +55,107 @@ Formation rules:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{EntRel}(A, B) \; \mathrm{type}}$$
 
-Type reflection:
+Introduction rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y)}{\Gamma \vdash \mathrm{toElem}_{A, B, R}:\mathrm{isEntire}(x:A.y:B.R(x, y)) \to \mathrm{EntRel}(A, B)}$$
+
+Elimination rules:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma, x:A, y:B \vdash R(x, y) \; \mathrm{type}}$$
 
-Witness that each type reflection is an entire relation:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelwitn}(R):\mathrm{isEntire}(x:A.y:B.R(x, y))}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelwitn}(R):\prod_{x:A} \left(\prod_{u:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)}$$
+Computation rules:
 
-Introduction rule:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma, x:A, y:B \vdash (\mathrm{toElem}_{A, B, R}(p))(x, y) \equiv R(x, y) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{u:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)}{\Gamma \vdash R:\mathrm{EntRel}(A, B)}$$
+* Judgmental computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma \vdash \mathrm{entrelwitn}(\mathrm{toElem}_{A, B, R}(p)) \equiv p:\mathrm{isEntire}(x:A.y:B.R(x, y))}$$
+
+* Typal computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma \vdash \beta_{\mathrm{EntRel}(A, B)}^{\mathrm{entrelwitn}, R}:\mathrm{entrelwitn}(\mathrm{toElem}_{A, B, R}(p)) =_{\mathrm{isEntire}(x:A.y:B.R(x, y))} p}$$
+
+Uniqueness rules:
+
+* Judgmental uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{toElem}_{A, B, R}(\mathrm{entrelwitn}(R)) \equiv R:\mathrm{EntRel}(A, B)}$$
+
+* Typal uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \eta_{\mathrm{EntRel}(A, B)}(R):\mathrm{toElem}_{A, B, R}(\mathrm{entrelwitn}(R)) =_{\mathrm{EntRel}(A, B)} R}$$
 
 Extensionality rule:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B) \quad \Gamma \vdash S:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelext}_{A, B}(R, S):(R =_{\mathrm{EntRel}(A, B)} S) \simeq \prod_{x:A} \prod_{y:B} R(x, y) \simeq S(x, y)}$$
 
-### A la Tarski
+### Strictly a la Tarski
 
-A la Tarski, the type of all entire relations is given by the following rules:
+Strictly a la Tarski, the type of all entire relations is given by the following rules:
 
 Formation rules:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{EntRel}(A, B) \; \mathrm{type}}$$
 
-Type reflection:
+Introduction rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y)}{\Gamma \vdash \mathrm{toElem}_{A, B, R}:\mathrm{isEntire}(x:A.y:B.R(x, y)) \to \mathrm{EntRel}(A, B)}$$
+
+Elimination rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma, x:A, y:B \vdash \mathrm{El}(R, x, y) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelwitn}(R):\mathrm{isEntire}(x:A.y:B.\mathrm{El}(R, x, y))}$$
+
+Computation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma, x:A, y:B \vdash \mathrm{El}(\mathrm{toElem}_{A, B, R}(p), x, y) \equiv R(x, y) \; \mathrm{type}}$$
+
+* Judgmental computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma \vdash \mathrm{entrelwitn}(\mathrm{toElem}_{A, B, R}(p)) \equiv p:\mathrm{isEntire}(x:A.y:B.R(x, y))}$$
+
+* Typal computation rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\mathrm{isEntire}(x:A.y:B.R(x, y))}{\Gamma \vdash \beta_{\mathrm{EntRel}(A, B)}^{\mathrm{entrelwitn}, R}:\mathrm{entrelwitn}(\mathrm{toElem}_{A, B, R}(p)) =_{\mathrm{isEntire}(x:A.y:B.R(x, y))} p}$$
+
+Uniqueness rules:
+
+* Judgmental uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{toElem}_{A, B, \mathrm{El}(R)}(\mathrm{entrelwitn}(R)) \equiv R:\mathrm{EntRel}(A, B)}$$
+
+* Typal uniqueness rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B)}{\Gamma \vdash \eta_{\mathrm{EntRel}(A, B)}(R):\mathrm{toElem}_{A, B, \mathrm{El}(R)}(\mathrm{entrelwitn}(R)) =_{\mathrm{EntRel}(A, B)} R}$$
+
+Extensionality rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:\mathrm{EntRel}(A, B) \quad \Gamma \vdash S:\mathrm{EntRel}(A, B)}{\Gamma \vdash \mathrm{entrelext}_{A, B}(R, S):(R =_{\mathrm{EntRel}(A, B)} S) \simeq \prod_{x:A} \prod_{y:B} \mathrm{El}(R, x, y) \simeq \mathrm{El}(S, x, y)}$$
+
+### Weakly a la Tarski
+
+Weakly a la Tarski, the type of all entire relations is given by the following rules:
+
+Formation rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{EntRel}(A, B) \; \mathrm{type}}$$
+
+Introduction rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y)}{\Gamma \vdash \mathrm{toElem}_{A, B, R}:\left(\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)\right) \to \mathrm{EntRel}(A, B)}$$
+
+Elimination rules:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:\mathrm{EntRel}(A, B), x:A, y:B \vdash \mathrm{El}(R, x, y) \; \mathrm{type}}$$
 
-Witness that each type reflection is an entire relation:
-
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, R:\mathrm{EntRel}(A, B) \vdash \mathrm{entrelwitn}(R):\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(\mathrm{El}(R, x, y))\right) \times \exists y:B.\mathrm{El}(R, x, y)}$$
 
-Introduction rule:
+Computation rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma \vdash R_E:\mathrm{EntRel}(A, B)}$$
-
-[[essentially small type|Essential smallness]] of entire relations (for weak type of entire relations) or [[judgmental equality]] (for strict type of entire relations):
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \delta_R(x, y):\mathrm{El}(R_E, x, y) \simeq R(x, y)}\mathrm{weak}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash \mathrm{entrelwitn}_R:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \mathrm{El}(R_E, x, y) \equiv R(x, y) \; \mathrm{type}}\mathrm{strict}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:B \vdash R(x, y) \quad \Gamma \vdash p:\prod_{x:A} \left(\prod_{y:B} \mathrm{isProp}(R(x, y))\right) \times \exists y:B.R(x, y)}{\Gamma, x:A, y:B \vdash \delta_R(x, y):\mathrm{El}(\mathrm{toElem}_{A, B, R}(p), x, y) \simeq R(x, y)}$$
 
 Extensionality rule:
 
