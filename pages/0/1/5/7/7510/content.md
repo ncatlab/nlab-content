@@ -173,7 +173,86 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent a
 
 ### Typal congruence rules
 
-These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]:
+These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]. 
+
+#### Strict dependent product types
+
+Since [[dependent product types]] are negative types, we first present the typal congruence rule for the elimination rule of dependent product types
+
+\begin{theorem}
+Given a type $A$ and a type family $x:A \vdash B(x)$, dependent functions $f:\prod_{x:A} B(x)$ and $g:\prod_{x:A} B(x)$ and an identification $p:f =_{\prod_{x:A} B(x)} g$ there are families of identifications $x:A \vdash \mathrm{compelim}(f, g, p)(x):f(x) =_{B(x)} g(x)$. 
+\end{theorem}
+
+\begin{proof}
+We simply define the dependent function $\mathrm{compelim}$ to be happly, which is inductively defined on [[identity types]]. 
+\end{proof}
+
+The next is the typal congruence rule for the introduction rule of dependent function types. However, unlike the case for the other two rules, one needs dependent function extensionality. 
+
+\begin{theorem}
+Assuming dependent [[function extensionality]], given type $A$ and family of types $x:A \vdash B(x)$, families of elements $x:A \vdash b(x):B(x)$ and $x:A \vdash b'(x):B(x)$, and families of [[identifications]] $x:A \vdash p(x):b(x) =_{B(x)} b'(x)$, there is a identification 
+$$\mathrm{congintro}_{x:A.p(x)}:\lambda (x:A).b(x) =_{\prod_{x:A} B(x)} \lambda (x:A).b'(x)$$
+\end{theorem}
+
+\begin{proof}
+By the computation rule of strict function types, there are families of judgmental equalities 
+
+$$x:A \vdash ((\lambda x:A.b(x))(x) \equiv b(x):B(x)$$
+$$x:A \vdash ((\lambda x:A.b'(x))(x) \equiv b'(x):B(x)$$
+
+Thus, by the [[structural rules]] of [[judgmental equality]], there are families of identifications 
+
+$$x:A \vdash p(x):(\lambda x:A.b(x))(x) =_{B(x)} (\lambda x:A.b'(x))(x)$$
+
+and by $\lambda$-abstraction, one gets the dependent function
+
+$$\lambda (x:A).p(x):\prod_{x:A} (\lambda x:A.b(x))(x) =_{B(x)} (\lambda x:A.b'(x))(x)$$
+
+By dependent [[function extensionality]], there is an [[equivalence of types]]
+
+$$\mathrm{funext}:(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x)) \simeq \prod_{x:A} (\lambda x:A.b(x))(x) =_{B(x)} (\lambda x:A.b'(x))(x)$$
+
+which yields an identification 
+
+$$\mathrm{funext}^{-1}(\lambda (x:A).p(x)):(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x))$$
+
+We define 
+
+$$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{funext}^{-1}(\lambda (x:A).p(x)):(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x))$$
+\end{proof}
+
+Finally, we present the typal congruence rule for the formation rule of function types, which relies upon the previous two results. 
+
+\begin{theorem}
+Given types $A$ and $A'$ and type families $x:A \vdash B(x)$, $x:A' \vdash B'(x)$ and equivalence $e_A:A \simeq A'$ and dependent function $e_B:\prod_{x:A} B(x) \simeq B'(e_A(x))$, there is an equivalence 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A'} B'(x)\right)$$
+\end{theorem}
+
+\begin{proof}
+We define the function 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \to \left(\prod_{x:A'} B'(x)\right)$$ 
+by 
+$$\mathrm{congform}(e_A, e_B) \coloneqq \lambda (f:\prod_{x:A} B(x)).\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(x)(f(e_A^{-1}(x))))$$
+
+and the inverse function by
+
+$$\mathrm{congform}(e_A, e_B)^{-1} \coloneqq \lambda (f:\prod_{x:A'} B'(x)).\lambda x:A.e_B(x)^{-1}(f(e_A(x)))$$
+
+where the equivalence $e_A:A \simeq A'$ has families of identifications
+$$x':A \vdash \mathrm{sec}_{e_A}(x):e_A(e_A^{-1}(x)) =_{A'} x$$
+$$x:A \vdash \mathrm{ret}_{e_A}:e_A^{-1}(e_A(x)) =_A x$$
+witnessing that $e_A^{-1}$ is a [[section]] and [[retraction]] of $e_A$ respectively.  
+
+Now it suffices to construct homotopies 
+
+$$\prod_{f:\prod_{x:A} B(x)} \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f$$
+
+$$\prod_{g:\prod_{x:A'} B'(x)} \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{\prod_{x:A'} B'(x)} g$$
+
+from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse and contractible fibers and is thus an [[equivalence of types]]. 
+\end{proof}
+
+#### Weak dependent product types
 
 \begin{theorem}
 Assuming dependent function extensionality, given types $A$ and $A'$ and type families $x:A \vdash B(x)$ and $x:A \vdash B'(x)$ and equivalences $e_A:A \simeq A'$ and dependent function of equivalences $e_B:\prod_{x:A} B(x) \simeq B'(e(x))$, there is an equivalence 
