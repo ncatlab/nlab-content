@@ -40,10 +40,12 @@ $$
 from the $k$th [[homotopy group]] of $(X,x)$ to the $k$th [[singular homology]] group defined by sending
 
 $$
-  \Phi : (f : S^k \to X)_{\sim} \mapsto f_*[S_k]
+  \Phi 
+  \;\colon\;
+  (f \colon S^k \to X)_{\sim} \mapsto f_*[S_k]
 $$
 
-a representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of the [[fundamental class]] $[S_k] \in H_k(S^k) \simeq \mathbb{Z}$.
+any representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of the [[fundamental class]] $[S_k] \in H_k(S^k) \simeq \mathbb{Z}$.
 
 
 =--
@@ -51,13 +53,13 @@ a representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of
 +-- {: .num_remark}
 ###### Remark
 
-The Hurewicz homomorphism is a [[natural transformation]] between
+The Hurewicz homomorphism is a [[natural transformation]]
 
 $$
-  \Phi : \pi_k(-) \to H_k(-)
+  \Phi \;\colon\; \pi_k(-) \to H_k(-)
 $$
 
-between [[functors]] $Top^{*/} \to $ [[Ab]].
+between [[functors]] [[pointed topological spaces|$Top^{\ast/}$]] $\to$ [[Ab]].
 
 =--
 
