@@ -25,7 +25,7 @@
 
 The _exceptional Lie groups_ are the [[exceptional structures]] among the [[simple Lie groups]].
 
-The classification of [[simple Lie group]]s consists of four infinite series -- the [[classical Lie group]]s, and five exceptional Lie groups, called
+The classification of [[simple Lie groups]] consists of four infinite series -- the [[classical Lie groups]], and five exceptional Lie groups, called
 
 * [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]].
 
@@ -49,7 +49,7 @@ On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series con
 
 ### Lie groups
 
-* Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](http://arxiv.org/abs/0902.0431))
+* [[Ichiro Yokota]], _Exceptional Lie groups_ &lbrack;[arXiv:0902.0431](http://arxiv.org/abs/0902.0431)&rbrack;
 
 ### Lie algebras
 
