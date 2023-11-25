@@ -122,6 +122,9 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 [[!redirects rational sphere]]
 [[!redirects rational spheres]]
 
+[[!redirects Sullivan model of spheres]]
+[[!redirects Sullivan models of spheres]]
+
 [[!redirects Sullivan model of n-spheres]]
 [[!redirects Sullivan models of n-spheres]]
 
