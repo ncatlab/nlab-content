@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -31,7 +32,7 @@ Beware that later authors often abbreviate the term from *quantum cohomology rin
 \begin{example}
 \label{QuantumCohomologyOfComplexProjectiveSpace}
 **(quantum cohomology ring of complex projective space)**
-\newline
+\linebreak
 The (small) quantum cohomology ring of [[complex projective space]] $\mathbb{C}P^N$ should be
 $$
   QH^\bullet\big(
@@ -113,7 +114,7 @@ Introduction and review:
 
 * Josh Guffin, _Quantum sheaf cohomology, a pr&#233;cis_, Matemática Contemporânea **41** (2012) 17-26 &lbrack;[arxiv:1101.1305](https://arxiv.org/abs/1101.1305)&rbrack;
 
-* Tom Coates, *An Introduction to Quantum Cohomology* &lbrack;[pdf](https://homepages.abdn.ac.uk/kedra/pages/lms/tom.pdf)&rbrack;
+* Tom Coates, *An Introduction to Quantum Cohomology* &lbrack;[pdf](https://homepages.abdn.ac.uk/kedra/pages/lms/tom.pdf), [[Coates-QuantumCohomology.pdf:file]]&rbrack;
 
 * [[Alexander Givental]], *A tutorial on Quantum Cohomology* &lbrack;[pdf](https://math.berkeley.edu/~giventh/papers/lqc.pdf), [[Givental-QuantumCohomologyTutorial.pdf:file]]&rbrack;
 
