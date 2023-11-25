@@ -51,7 +51,7 @@ Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spac
 * [[William Browder]], _Homology Rings of Groups_, American Journal of Mathematics, Vol. 90, No. 1 (Jan., 1968) ([jstor:2373440](https://www.jstor.org/stable/2373440))
 
 
-* {#Halperin92} [[Stephen Halperin]], _Universal enveloping algebras and loop space homology_, Journal of Pure and Applied Algebra Volume 83, Issue 3, 11 December 1992, Pages 237-282 (<a href="https://doi.org/10.1016/0022-4049(92)90046-I">doi:10.1016/0022-4049(92)90046-I</a>)
+* {#Halperin92} [[Stephen Halperin]], *Universal enveloping algebras and loop space homology*, Journal of Pure and Applied Algebra **83** 3 (1992) 237-282 \[<a href="https://doi.org/10.1016/0022-4049(92)90046-I">doi:10.1016/0022-4049(92)90046-I</a>\]
 
 * Jonathan A. Scott, _Algebraic Structure in the Loop Space Homology Bockstein Spectral Sequence_,  Transactions of the American Mathematical Society Vol. 354, No. 8 (Aug., 2002), pp. 3075-3084 ([jstor:3073034](https://www.jstor.org/stable/3073034))
 
