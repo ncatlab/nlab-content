@@ -10,7 +10,7 @@
 * [[progroup]]
 * [[homogeneous space]]
 
-### Classical groups
+**Classical groups**
 
 * [[general linear group]]
 
@@ -24,7 +24,7 @@
 
 * [[symplectic group]]  
 
-### Finite groups
+**Finite groups**
 
 * [[finite group]]
 
@@ -36,12 +36,14 @@
 
   * [[Monster group]], [[Mathieu group]]
 
-### Group schemes
+**Group schemes**
 
 * [[algebraic group]]
+
 * [[abelian variety]]
 
-### Topological groups
+
+**Topological groups**
 
 * [[topological group]]
 
@@ -51,7 +53,8 @@
 
 * [[string group]]
 
-### Lie groups
+
+**Lie groups**
 
 * [[Lie group]]
 
@@ -59,14 +62,15 @@
 
 * [[Kac-Moody group]]
 
-### Super-Lie groups
+
+**Super-Lie groups**
 
 * [[super Lie group]]
 
 * [[super Euclidean group]]
 
 
-### Higher groups
+**Higher groups**
 
 * [[2-group]]
   
@@ -86,7 +90,8 @@
 
 * [[circle n-group]], [[string 2-group]], [[fivebrane Lie 6-group]]
 
-### Cohomology and Extensions
+
+**Cohomology and Extensions**
 
 * [[group cohomology]]
 
@@ -94,8 +99,8 @@
 
 * [[∞-group extension]], [[Ext-group]]
 
-### Related concepts {#_related_concepts}
+
+**Related concepts**
 
 * [[quantum group]] 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/group+theory+-+contents)</div>
