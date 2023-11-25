@@ -259,11 +259,10 @@ and generalization to more general polynomial Poisson algebras is discussed in
 
 The [[strict deformation quantization]] of Lie-Poisson structures was considered in 
 
-* {#Rieffel90} [[Marc Rieffel]], _Lie group convolution algebras as deformation quantization of linear Poisson structures_, American Journal of Mathematics
-Vol. 112, No. 4 (Aug., 1990), pp. 657-685 ([jstor]( http://www.jstor.org/stable/2374874))
+* {#Rieffel90} [[Marc Rieffel]], _Lie group convolution algebras as deformation quantization of linear Poisson structures_, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[jstor:2374874]( http://www.jstor.org/stable/2374874)&rbrack;
  
 
-The [[symplectic Lie groupoid]] [[Lie integration|Lie integrating]] Lie-Poisson structures is discussed as example 4.3 in
+The [[symplectic Lie groupoid]] [[Lie integration|Lie integrating]] Lie-Poisson structures is discussed as example 4.3 in:
 
 * {#BursztynCrainic} [[Henrique Bursztyn]], [[Marius Crainic]], _Dirac structures, momentum maps and quasi-Poisson manifolds_ ([pdf](http://www.preprint.impa.br/FullText/Bursztyn__Fri_Dec_23_11_24_19_BRDT_2005.html/alanfestimpa.pdf))
 
