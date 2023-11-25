@@ -49,23 +49,27 @@ It may be noteworthy that the established construction of [[perturbative quantum
 
 ## References
 
-General introduction includes
+> (See also references at *[[soliton]]*.)
+
+General introduction:
 
 * Alexander P. Bakulev, [[Dmitry Shirkov]], *Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory*, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23 (2010) Belgrade, Serbia  27--54 &lbrack;[arXiv:1102.2380](https://arxiv.org/abs/1102.2380), ISBN:978-86-82441-30-4&rbrack; 
 
-Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]] is in
+Monographs:
 
+* {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific (1992) &lbrack;[doi:10.1142/1245](https://doi.org/10.1142/1245)&rbrack;
+
+* [[Yitzhak Frishman]], [[Jacob Sonnenschein]], *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack;
+
+* [[Franco Strocchi]], *An Introduction to Non-Perturbative Foundations of Quantum Field Theory*, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+  > ([[AQFT]] perspective)
+
+
+Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]] is in
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
-
-A textbook account in the school of [[AQFT]] is in 
-
-* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
-
-See also
-
-* {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific 1992 ([doi:10.1142/1245](https://doi.org/10.1142/1245))
 
 
 Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
