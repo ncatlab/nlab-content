@@ -638,7 +638,7 @@ By definition,
 $$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B^{-1}((\lambda x:A'.e_B(f(e_A^{-1}(x))))(e_A(x)))$$
 
 By the computation rules of strict function types, there is a family of judgmental equalities
-$$x:A (\lambda x:A'.e_B(f(e_A^{-1}(x))))(e_A(x)) \equiv e_B(f(e_A^{-1}(e_A(x))))$$
+$$x:A \vdash (\lambda x:A'.e_B(f(e_A^{-1}(x))))(e_A(x)) \equiv e_B(f(e_A^{-1}(e_A(x))))$$
 and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for function types, a judgmental equality
 $$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B^{-1}(e_B(f(e_A^{-1}(e_A(x)))))$$
 
