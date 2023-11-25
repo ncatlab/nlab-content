@@ -176,7 +176,7 @@ As described in ([Myers 2022](#Myers22)), the Para construction naturally genera
     "{ r }"
   ]
   &&
-  A' \odot B'
+  A' \odot P'
   \ar[
     rr,
     "{ f' }"{swap}
