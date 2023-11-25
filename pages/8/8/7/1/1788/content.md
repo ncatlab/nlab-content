@@ -1,4 +1,6 @@
 
+To make observables on $\mathfrak{l}A$-valued forms on $X$ need to tensor $H_\bullet(\Omega A)$ with $\Omega_{dR} X$ and take the degree-0 part.
+
 For the following examples we use these notational conventions:
 
 * $\mathbb{K}$ denotes a [[field]] of [[characteristic zero]],
