@@ -370,11 +370,12 @@ where the wedge product on the right is normalized as in (eq:WedgeProductNormali
 
 =--
 
-([Andrews-Arkowitz 78, Thm. 6.1](#AndrewsArkowitz78), following [Deligne-Griffiths-Morgan-Sullivan 75](#DeligneGriffithsMorganSullivan75))
+([Andrews & Arkowitz 1978, Thm. 6.1](#AndrewsArkowitz78), following [Deligne, Griffiths, Morgan & Sullivan 1975](#DeligneGriffithsMorganSullivan75))
+
 
 ###Relation to Goodwillie Calculus:
 
-See e.g. [Scherer-Chorny 11, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson products]].
+See e.g. [Scherer & Chorny 2011, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson products]].
 
 ## Examples
 
@@ -501,4 +502,11 @@ The Whitehead product of $\mathbb{C}P^1 \vee \mathbb{C}P^1 \to \mathbb{C}P^\inft
 
 [[!redirects Whitehead bracket]]
 [[!redirects Whitehead brackets]]
+
+[[!redirects Whitehead Lie algebra]]
+[[!redirects Whitehead Lie algebras]]
+
+[[!redirects Whitehead super Lie algebra]]
+[[!redirects Whitehead super Lie algebras]]
+
 
