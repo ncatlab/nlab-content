@@ -840,6 +840,7 @@ Discussion of cofibrations in $dgAlg_{proj}$ is in ([Keller](#Keller)).
 ### Properties
 
 #### Properness
+ {#Properness}
 
 Let $cdgAg_k$ be the projective model structure on commutative unbounded dg-algebras from above.
 
