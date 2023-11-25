@@ -225,6 +225,9 @@ Application to [[quantum electrodynamics]]:
 
 and to pure [[electromagnetism]]:
 
+* Martina M. Brisudova, *Electromagnetic duality and light-front coordinates*, Phys. Rev. D **59** (1999) 087702 &lbrack;[arXiv:hep-th/9806196](https://arxiv.org/abs/hep-th/9806196), [doi:10.1103/PhysRevD.59.087702](https://doi.org/10.1103/PhysRevD.59.087702)&rbrack;
+
+
 * Sucheta Majumdar, *Residual gauge symmetry in light-cone electromagnetism*,  J. High Energ. Phys. **2023** 215 (2023) &lbrack;[arXiv:2212.10637](https://arxiv.org/abs/2212.10637), <a href="https://doi.org/10.1007/JHEP02(2023)215">doi:10.1007/JHEP02(2023)215</a>&rbrack;
 
 
@@ -236,13 +239,14 @@ Application to [[QCD]]:
 
 * {#PauliBrodsky85b} [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Discretized light-cone quantization: Solution to a field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 2001 &lbrack;[doi:10.1103/PhysRevD.32.2001](https://doi.org/10.1103/PhysRevD.32.2001)&rbrack;
 
-
 * {#BrodskyPauliPinsky98} [[Stanley Brodsky]], [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
 
 
-Review:
 
-* {#Ydri18} [[Badis Ydri]], Section 3.9 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+Review in the broader context of [[non-perturbative quantum field theory]]:
+
+* [[Yitzhak Frishman]], [[Jacob Sonnenschein]], §12 in: *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack;
+
 
 A light-cone QCD-[[Lagrangian density]] adapted to [[MHV amplitudes]]:
 
@@ -273,6 +277,9 @@ In the context of the [[BFSS matrix model]] as a discrete light-cone formulation
 
 * [[Adel Bilal]], *DLCQ of M-Theory as the Light-Like Limit*, Phys. Lett. B **435** (1998) 312-318 &lbrack;[arXiv:hep-th/9805070](https://arxiv.org/abs/hep-th/9805070), <a href="https://doi.org/10.1016/S0370-2693(98)00811-9">doi:10.1016/S0370-2693(98)00811-9</a>&rbrack;
 
+Review:
+
+* {#Ydri18} [[Badis Ydri]], Section 3.9 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ &lbrack;[arXiv:1708.00734](https://arxiv.org/abs/1708.00734)&rbrack;, published as: _Matrix Models of String Theory_, IOP (2018) &lbrack;[ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9)&rbrack;
 
 
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
