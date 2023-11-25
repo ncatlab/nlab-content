@@ -232,7 +232,7 @@ $$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{
 We define the function 
 $$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \to \left(\prod_{x:A'} B'(x)\right)$$ 
 by 
-$$\mathrm{congform}(e_A, e_B) \coloneqq \lambda (f:\prod_{x:A} B(x)).\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(x)(f(e_A^{-1}(x))))$$
+$$\mathrm{congform}(e_A, e_B) \coloneqq \lambda (f:\prod_{x:A} B(x)).\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))(f(e_A^{-1}(x))))$$
 
 and the inverse function by
 
@@ -250,6 +250,14 @@ $$\prod_{f:\prod_{x:A} B(x)} \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(
 $$\prod_{g:\prod_{x:A'} B'(x)} \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{\prod_{x:A'} B'(x)} g$$
 
 from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse and contractible fibers and is thus an [[equivalence of types]]. 
+
+By definition, 
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}((\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_{B'}(e_A^{-1}(x))(f(e_A^{-1}(x)))))(e_A(x)))$$
+
+By the computation rules of strict function types, there is a family of judgmental equalities
+$$x:A \vdash (\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))(f(e_A^{-1}(x)))))(e_A(x)) \equiv \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(x))(f(e_A^{-1}(e_A(x)))))$$
+and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for function types, a judgmental equality
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))))$$
 \end{proof}
 
 #### Weak dependent product types
