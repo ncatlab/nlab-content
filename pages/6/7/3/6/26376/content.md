@@ -7,7 +7,8 @@
 
 On [[non-perturbative quantum field theory]] (from [[2d CFT]] to [[QCD]]):
 
-* [[Yitzhak Frishman]], [[Jacob Sonnenschein]], *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack;
+* [[Yitzhak Frishman]], [[Jacob Sonnenschein]], *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack; open access (2023) &lbrack;[doi:10.1017/9781009401654](https://doi.org/10.1017/9781009401654)&rbrack;
+
 
 
 category: people
