@@ -12,10 +12,15 @@ On [[mathematical physics]]:
 
 On the [[mass gap problem]]:
 
-* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series 33(2), 201-212 ([arXiv:0911.1013](https://arxiv.org/abs/0911.1013), [pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf))
+* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series **33** 2 (2002) 201-212 &lbrack;[arXiv:0911.1013](https://arxiv.org/abs/0911.1013)&rbrack;
+
+On [[solitons]]:
+
+* [[Ludwig D. Faddeev]], [[Leon Takhtajan]], *Hamiltonian methods in the theory of solitons*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-69969-9](https://doi.org/10.1007/978-3-540-69969-9)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[Fadeev-Popov ghost]]
 
@@ -23,5 +28,10 @@ On the [[mass gap problem]]:
 
 category: people
 [[!redirects Ludwig Fadeev]]
+[[!redirects Ludwig D. Fadeev]]
+[[!redirects Ludwig D. Faddeev]]
 [[!redirects L. D. Fadeev]]
 [[!redirects Ludwig Faddeev]]
+
+
+
