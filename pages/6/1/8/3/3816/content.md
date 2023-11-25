@@ -40,13 +40,19 @@ proteins.
 
 ## Refereneces
 
-* M. Jimbo, T. Miwa, E. Date, _Solitons: differential equations, symmetries and infinite dimensional algebras_,  Camb. tracts is math. __135__ (transl. from Japanese by [[Miles Reid|M. Reid]])
+> (See also the general references at *[[non-perturbative quantum field theory]]*.)
+
+* D J Wallace, *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory*,  Phys. Bull. **34** 29 (1983) &lbrack;[doi:10.1088/0031-9112/34/1/043](https://iopscience.iop.org/article/10.1088/0031-9112/34/1/043)&rbrack;
+
+* [[Michio Jimbo]], [[Tetsuji Miwa]], [[Etsuro Date]], (transl. from Japanese by [[Miles Reid|M. Reid]]), *Solitons: differential equations, symmetries and infinite dimensional algebras*,  Cambridge Tracts in Mathematics **135** (2012) &lbrack;[ISBN:9781107404199](https://www.cambridge.org/us/universitypress/subjects/mathematics/geometry-and-topology/solitons-differential-equations-symmetries-and-infinite-dimensional-algebras)&rbrack;
 
 * A. Newell, _Solitons in mathematics and physics_
 
-* [[Ludwig Fadeev|Ludwig D. Faddeev]], Leon Takhtajan, _Hamiltonian methods in the theory of solitons_, Springer, (transl. from Russian &#1043;&#1072;&#1084;&#1080;&#1083;&#1100;&#1090;&#1086;&#1085;&#1086;&#1074; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1089;&#1086;&#1083;&#1080;&#1090;&#1086;&#1085;&#1086;&#1074;. &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;. 1986.)
+* [[Ludwig D. Faddeev]], [[Leon Takhtajan]], *Hamiltonian methods in the theory of solitons*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-69969-9](https://doi.org/10.1007/978-3-540-69969-9)&rbrack;
 
-* [[Ludwig Fadeev|L. D. Faddeev]], V. E. Korepin, _Quantum theory of solitons_, 1987
+  (transl. from Russian &#1043;&#1072;&#1084;&#1080;&#1083;&#1100;&#1090;&#1086;&#1085;&#1086;&#1074; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1089;&#1086;&#1083;&#1080;&#1090;&#1086;&#1085;&#1086;&#1074;. &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;. 1986.)
+
+* [[Ludwig D. Faddeev]], V. E. Korepin, _Quantum theory of solitons_ (1987)
 
 * [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), 
 
