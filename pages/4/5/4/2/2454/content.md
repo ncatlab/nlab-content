@@ -9,6 +9,8 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,8 +18,29 @@
 ## Definition
 
 ### For Lie algebras
+ {#ForLieAlgebras}
 
-Given a [[Lie algebra]] $L$ internal to some [[symmetric monoidal category|symmetric monoidal]] $k$-linear category $C = (C,\otimes, \mathbf{1},\tau)$, an __enveloping monoid__ (or __enveloping algebra__) of $L$ in $C$ is any morphism $f: L\to Lie(A)$ of Lie algebras in $C$ where $A$ is a monoid (= algebra) in $C$, and $Lie(A)$ is the underlying object of $A$ equipped with the Lie bracket $[,]_{Lie(A)}=\mu-\mu\circ\tau_{A,A}$. In further we will just write $A$ for $Lie(A)$. A morphism of enveloping algebras $\phi : (f:L\to A)\to (f':L\to A')$ is a morphism $g: A\to A'$ of monoids completing a commutative triangle of morphisms in $C$, i.e. $g\circ f = f'$. With an obvious composition of morphisms, the enveloping algebras of $L$ form a category. A __universal enveloping algebra__ of $L$ in $C$ is any universal [[initial object]] $i_L:L\to U(L)$ in the category of enveloping algebras of $L$; it is of course unique up to an isomorphism if it exists. If it exists for all Lie algebras in $C$, then the rule $L\mapsto U(L)$ can be extended to a functor $U$ which is the left adjoint to the functor $Lie:A\mapsto Lie(A)$ defined above and the morphism $i_L:L\to U(L)$ is the unit of the adjunction. 
+Given a [[Lie algebra object]] $L$ [[internalization|interna]] to some [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $C = (C,\otimes, \mathbf{1},\tau)$, an __enveloping monoid__ (or __enveloping algebra__) of $L$ in $C$ is any morphism $f \colon L\to Lie(A)$ of Lie algebras in $C$ where $A$ is a monoid (= algebra) in $C$, and $Lie(A)$ is the underlying object of $A$ equipped with the [[Lie bracket]] $[,]_{Lie(A)}=\mu-\mu\circ\tau_{A,A}$. 
+
+A morphism of enveloping algebras 
+$$
+  \phi 
+    \;\colon\; 
+  \big(A, f \colon L\to Lie(A)\big) 
+  \longrightarrow 
+  \big(A, f' \colon L\to A'\big)
+$$ 
+is a morphism $g \colon A\to A'$ of [[monoid objects]] completing a commutative triangle of morphisms in $C$, i.e. $g\circ f = f'$. With an obvious composition of morphisms, the enveloping algebras of $L$ form a [[category]]. 
+
+A __universal enveloping algebra__ of $L$ in $C$ is any universal [[initial object]] $i_L \colon L\to U(L)$ in the category of enveloping algebras of $L$, which implies that it is unique up to an isomorphism if it exists. 
+
+If it exists for all Lie algebras in $C$, then the rule $L\mapsto U(L)$ can be extended to a [[functor]] $U$ which is the [[left adjoint]] to the [[forgetful functor]] $Lie \colon A\mapsto Lie(A)$ defined above and the morphism $i_L:L\to U(L)$ is the [[unit of an adjunction|unit of the adjunction]]. 
+
+\begin{remark}\label{ForSuperLieAlgebras}
+**(for [[super Lie algebras]] as eg. in [[algebraic topology]])**
+\linebreak
+  The [[internalization|internal]] generality of the above definitions is used notably in [[algebraic topology]] where the relevant Lie algebras arise from [[Whitehead brackets]] which are [[super Lie algebras]] (see [there](super+Lie+algebra#AsLieAlgebrasInternalToSuperVectorSpaces)), i.e. [[Lie algebra objects]] [[internalization|internal]] to [[super vector spaces]] (cf. eg. [Milnor & Moore 1965, §5](#MilnorMoore65); [May & Ponto 2012, Def. 22.1.3](#MayPonto12)).
+\end{remark}
 
 ### For $L_\infty$-algebras
 
@@ -33,8 +56,11 @@ In most standard cases, one can also form the smallest 2-sided ideal (i.e. $A$-s
 ## Properties
 
 ### Isomorphism problem
+ {#IsomorphismProblem}
 
-The _isomorphism problem_ for enveloping algebras is about the fact that the universal enveloping monoids of two Lie algebras of $C$ are isomorphic as associative [[monoids]] in $C$, but this does not imply that the Lie algebras are isomorphic. This is even not true in general for the Lie $k$-algebras (in classical sense), even if $k$ is a [[field]] of characteristics zero. It is known however in that case that the dimension of the finite-dimensional Lie $k$-algebra $L$ can be read off from its universal enveloping $k$-algebra as its Gel'fand-Kirillov dimension $GK(U(L))$. 
+Notice that the enveloping algebras of two Lie algebras may be [[isomorphism|isomorphic]] as [[associative algebras]] even if the two Lie algebras they arise from are not isomorphic to each other. 
+
+This happens even in [[characteristic zero]], in which case, however, at least the [[dimension]] of the Lie algebra is encoded in its universal enveloping algebra, in the guise of the *Gelfand-Kirillov dimension* $GK\big(U(L)\big)$. 
 
 ### Poisson algebra structure on $U(\mathfrak{g})$
 
@@ -49,7 +75,7 @@ If the category is simply the vector spaces over a field $k$, then for $l\in L$,
 ### PBW theorem
 
 The [[Poincaré–Birkhoff–Witt theorem]] states that the 
-[[associated graded]] algebra of an enveloping algebra $U(g)$ in [[characteristics zero]] is canonically isomorphic to a [[symmetric algebra]] $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
+[[associated graded]] algebra of an enveloping algebra $U(g)$ in [[characteristic zero]] is canonically isomorphic to a [[symmetric algebra]] $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
 
 ### Relation to formal deformation quantization
 
@@ -74,14 +100,20 @@ finite-dimensional Lie group $G$ over real or complex numbers is canonically iso
 ## References
 
 
-* [[N. Bourbaki]], _Lie groups and Lie algebras_
+* [[Nicolas Bourbaki]], _Lie groups and Lie algebras_
 
 * [[Jacques Dixmier]]; 1974; _[[Algèbres enveloppantes]]_, Cahiers Scientifique. English translation: 1996; _Enveloping Algebras_, Graduate Studies in Mathematics 11, American Mathematical Society.
 
-* {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
+Discussion in the generality of [[super Lie algebras]] such as notably of the [[Whitehead Lie algebras]] arising in [[algebraic topology]]:
+
+* {#MilnorMoore65} [[John Milnor]], [[John Moore]], §5 in _On the structure of Hopf algebras_, Annals of Math. __81__ (1965) 211-264 &lbrack;[doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf)&rbrack;
+
+* {#MayPonto12} [[Peter May]], [[Kate Ponto]], Def. 22.1.3 in: *More concise algebraic topology -- Localization, Completion, and Model Categories*, University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
 
-* wikipedia: [universal enveloping algebra](http://en.wikipedia.org/wiki/Universal_enveloping_algebra), [PBW theorem](http://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem)
+See also:
+
+* Wikipedia: *[Universal enveloping algebra](http://en.wikipedia.org/wiki/Universal_enveloping_algebra)*, *[PBW theorem](http://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem)*
 
 * F. A. Berezin, _Some remarks about the associated envelope of a Lie algebra_, Func. Analysis and Its Appl. 1967, 1:2, 91&#8211;102; Rus. original in Fun. Anal. Pril. 1:2 (1967) 1&#8211;14 [Rus. pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=2813&volume=1&year=1967&issue=2&fpage=1&what=fullt&option_lang=eng) [MR219671](http://www.ams.org/mathscinet-getitem?mr=219671)
 
