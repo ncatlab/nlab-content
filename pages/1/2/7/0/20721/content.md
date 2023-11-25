@@ -26,7 +26,7 @@ Under the [[Hurewicz homomorphism]], the [[commutator]] of the Pontrjagin produc
 
 This is due to [Samelson (1953)](#Samelson53) and for higher Whitehead brackets due to [Arkowitz (1971)](#Arkowitz71). 
 
-In fact, in [[characteristic zero]] the [[Pontrjagin ring]] is the [[universal enveloping algebra]] of the Whitehead bracket Lie algebra &lbrack;[Milnor & Moore (1965) Appendix](#MilnorMoore65)&rbrack;.
+In fact, in [[characteristic zero]] the [[Pontrjagin ring]] is the [[universal enveloping algebra]] (see [there](universal+enveloping+algebra#ForSuperLieAlgebras)) of the [[Whitehead bracket super Lie algebra]] &lbrack;[Milnor & Moore (1965) Appendix](#MilnorMoore65)&rbrack;.
 
 For review see [Whitehead (1978) Thm. X.7.10](#Whitehead78).
 
