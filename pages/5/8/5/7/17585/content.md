@@ -97,18 +97,20 @@ $$
   \,.
 $$
 
-Thus the inclusion on the right is manifestly a [[relative Sullivan algebra]], its [[homotopy cofiber]] is represented by the ordinary cofiber, which is readily read off:
+Since the inclusion on the right is manifestly a [[relative Sullivan algebra]], hence a [[cofibration]] in the projective [[model structure on dgc-algebras]], and since the latter is [[left proper model category|left proper]] (see [there](model+structure+on+dg-algebras#Properness)), the [[homotopy cofiber]] is represented by the ordinary [[cofiber]], which is readily read off:
 
-+-- {: .num_prop #SullivanModelForBasedLoopSpace}
-###### Proposition
+\begin{prop}\label{SullivanModelForBasedLoopSpace}
 **([[Sullivan model]] for [[based loop space]])**
-
+\linebreak
 For $X$ a [[connected topological space|connected]] and [[simply connected topological space]] with [[Sullivan model]] $(\wedge\bullet V, d_X)$, the Sullivan model 
 $(\wedge^\bullet( s V ), d_{\Omega X})$ 
 of its [[based loop space]] $\Omega X$
-is the dgc-algebra obtained from $(\wedge^\bullet V, d_X)$ by shifting down all generators in degree by 1, and by keeping only the co-unary componend of the [[differential]].
+is the dgc-algebra obtained from $(\wedge^\bullet V, d_X)$ by shifting down all generators in degree by 1, and by keeping only the co-unary component of the [[differential]].
+\end{prop}
 
-=--
+\begin{remark}\label{PontrjaginProductOnHomologyOfBasedLoopSpace}
+  While Prop. \ref{SullivanModelForBasedLoopSpace} says that the rational [[Whitehead brackets]] of a loop space all vanish (as generally for any [[H-space]]), the [[ordinary homology]] of a loop space inherits another product, namely the [[Pontrjagin product]] and this makes (see [there](Pontrjagin+ring#RelationToWhiteheadProduct)) the homology form the [[universal enveloping algebra]] of the binary [[Whitehead bracket]] [[super Lie algebra]] of the original space.
+\end{remark}
 
 ## Properties
 
