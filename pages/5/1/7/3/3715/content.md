@@ -488,19 +488,23 @@ always provides a deformation quantization of order $3$ in $\hbar$.
 In the following cases the map $\tau$ in prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
 is injective to arbitrary order, hence in these cases the universal enveloping algebra provides a genuine [[formal deformation quantization]]:
 
-1. the case that the Poisson bracket is [[linear Poisson structure|linear]] in that restricts as
+1. The case that the Poisson bracket is [[linear Poisson structure|linear]] in that it restricts as
 
    $$
-     \{-,-\} \;\colon\; V \otimes V \longrightarrow V \hookrightarrow Sym(V)
+     \{-,-\} 
+       \;\colon\; 
+     V \otimes V 
+       \longrightarrow 
+     V 
+       \hookrightarrow 
+     Sym(V)
      \,.
    $$
 
-   This is the case of the [[Lie-Poisson structure]] from example \ref{PolynomialLiePoissonStructure}
-   and the universal enveloping algebra that provides it deformation quantization is the
-   standard one (example \ref{UniversalEnvelopingAlgebraOfLieAlgebra}).
+   This is the case of the [[Lie-Poisson structure]] from example \ref{PolynomialLiePoissonStructure} and the universal enveloping algebra that provides its deformation quantization is the standard one (example \ref{UniversalEnvelopingAlgebraOfLieAlgebra}).
 
 
-1. more generally, the case that the Poisson bracket restricted to linear elements has linear and
+1. More generally, the case that the Poisson bracket restricted to linear elements has linear and
    constant contribution in that it restricts as
 
    $$
@@ -508,8 +512,7 @@ is injective to arbitrary order, hence in these cases the universal enveloping a
      \,.
    $$
 
-   This includes notably the Poisson structures induced by [[symplectic vector spaces]],
-   in which case the restriction
+   This includes notably the Poisson structures induced by [[symplectic vector spaces]], in which case the restriction
 
    $$
      \{-,-\} \;\colon\; (\mathbb{R} \oplus V) \otimes (\mathbb{R} \oplus V) \longrightarrow (\mathbb{R} \oplus V)
