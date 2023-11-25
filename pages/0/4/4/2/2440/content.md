@@ -21,13 +21,14 @@
 
 A _super Lie algebra_ is the analog of a [[Lie algebra]] in [[superalgebra]]/[[supergeometry]]. 
 
-See also [[supersymmetry]].
+See also at *[[supersymmetry]]*.
 
 ## Definition
 
 There are various equivalent ways to state the definition of super Lie algebras. Here are a few (for more discussion see at _[[geometry of physics -- superalgebra]]_):
 
 ### As Lie algebras internal to super vector spaces
+ {#AsLieAlgebrasInternalToSuperVectorSpaces}
 
 +-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
 ###### Definition
