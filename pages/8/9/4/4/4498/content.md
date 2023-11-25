@@ -107,16 +107,14 @@ It is simplicial principal bundles of this form that one is mainly interested in
 
 Recall from [[generalized universal bundle]] that a universal $G$-principal simplicial bundle should be a principal bundle $\mathbf{E}G \to \mathbf{B}G$ such that every other $G$-principal simplicial bundle $P \to X$ arises up to equivalence as the [[pullback]] of $\mathbf{E}G$ along a morphism $X \to \mathbf{B}G$.
 
-A standard model for the [[delooping]] [[Kan complex]] $\mathbf{B}G$ for $G$ a simplicial group goes by the name 
-
-$$
+A standard model for the [[delooping]] [[Kan complex]] $\mathbf{B}G$ for $G$ a simplicial group goes by the simplicial set, $
   \overline{W} G
   \,.
-$$ 
+$ 
 
 This is described at <a href="http://ncatlab.org/nlab/show/simplicial%20group#Delooping">simplicial group - delooping</a>. The following establishes a model for the universal simplicial bundle over this model of $\mathbf{B}G$.
 
-### Definition
+
 
 +-- {: .num_defn}
 ###### Definition
