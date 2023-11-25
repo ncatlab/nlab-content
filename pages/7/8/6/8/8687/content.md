@@ -1,4 +1,7 @@
 
+> (This article is about primitive elements in [[coalgebra]] theory, not about primitive elements for finite [[field extensions]].)   
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,7 +16,6 @@
 * table of contents
 {:toc}
 
-(This article is about primitive elements in coalgebra theory, not about primitive elements for finite [[field extensions]].)   
 
 ## Definition
 
