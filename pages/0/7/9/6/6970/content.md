@@ -650,8 +650,8 @@ This means that by applying the canonical inductively defined function $\mathrm{
 $$\mathrm{idtohomotopy}(\lambda x:A.e_B^{-1}(e_B(x)), \lambda x:A.x, f(e_A^{-1}(e_A(x))):e_B^{-1}(e_B(f(e_A^{-1}(e_A(x))))) =_{B} f(e_A^{-1}(e_A(x)))$$
 
 Similarly, the equivalence $e_A:A \simeq A'$ has a family of identifications 
-$$x:A \vdash \mathrm{ret}_{e_A}(x):e_A^{-1}(e_A(x)) =_{A} x$$
-witnessing that $e_B^{-1}$ is a [[retraction]] of $e_B$. 
+$$x:B \vdash \mathrm{ret}_{e_A}(x):e_A^{-1}(e_A(x)) =_{A} x$$
+witnessing that $e_A^{-1}$ is a [[retraction]] of $e_A$. 
 
 This means by applying $f$ to the above family of identifications, one gets the family of identifications
 $$x:A \vdash \mathrm{ap}(f, e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)):f(e_A^{-1}(e_A(x))) =_{B} f(x)$$
