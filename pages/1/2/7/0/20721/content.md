@@ -26,9 +26,7 @@ Under the [[Hurewicz homomorphism]], the [[commutator]] of the Pontrjagin produc
 
 This is due to [Samelson (1953)](#Samelson53) and for higher Whitehead brackets due to [Arkowitz (1971)](#Arkowitz71). 
 
-In fact, in [[characteristic zero]] the [[Pontrjagin ring]] is the [[universal enveloping algebra]] (see [there](universal+enveloping+algebra#ForSuperLieAlgebras)) of the [[Whitehead bracket super Lie algebra]] &lbrack;[Milnor & Moore (1965) Appendix](#MilnorMoore65)&rbrack;.
-
-For review see [Whitehead (1978) Thm. X.7.10](#Whitehead78).
+In fact, in [[characteristic zero]] the [[Pontrjagin ring]] structure on $\Omega X$ is identified by the [[Hurewicz homomorphism]] with the [[universal enveloping algebra]] (see [there](universal+enveloping+algebra#ForSuperLieAlgebras)) of the [[Whitehead bracket super Lie algebra]] of $X$ &lbrack;[Milnor & Moore (1965) Appendix](#MilnorMoore65); [Whitehead (1978) Thm. X.7.10](#Whitehead78); [Félix, Halperin & Thomas 2000, Thm. 16.13](#FélixHalperinThomas00)&rbrack;. Moreover, in this case the [[underlying]] [[ordinary cohomology]] ([[universal coefficient theorem|hence]] the [[ordinary homology]]) [[vector space]] may be read of from any [[Sullivan model]] of $X$ (by the proposition [here](Sullivan+model+of+loop+space#SullivanModelForBasedLoopSpace))
 
 
 
@@ -72,6 +70,8 @@ Proof that the [[commutator]] of the Pontrjagin product is the [[Whitehead produ
 and in [[characteristic zero]]:
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], Appendix (pp. 262) of: _On the structure of Hopf algebras_, Annals of Math. __81__ (1965) 211-264 &lbrack;[doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf)&rbrack;
+
+* {#FélixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Thm. 16.13 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)&rbrack;
 
 and for higher Whitehead brackets:
 
