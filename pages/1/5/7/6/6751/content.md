@@ -37,7 +37,7 @@ Many important classes of unitary representations are obtained by that method.
 
 Notably in the case of [[compact Lie groups]], co-adjoint orbits are [[flag manifolds]] and the _[[Borel-Weil theorem]]_ says that under certain further conditions the expected unitary representations are obtained.
 
-The case of non-compact Lie groups is much less well understood, see for instance ([Graham-Vogan](#GrahamVogan), [Vogan 99](#Vogan99)).
+The case of non-compact Lie groups is much less well understood, see for instance [Graham & Vogan](#GrahamVogan), [Vogan 99](#Vogan99).
 
 ## Definitions and constructions
  {#DefinitionsAndConstructions}
@@ -133,7 +133,7 @@ The element in $\mathfrak{g}^*$ farthest from regularity is $\lambda = 0$ for wh
 
 ### The symplectic form
 
-We describe a canonical [[symplectic form]] on the [[coadjoint orbit]]/[[coset]] $\mathcal{O}_\lambda \simeq G/G_\lambda$.
+We describe a canonical [[symplectic form]] on the [[coadjoint orbit]]/[[coset space]] $\mathcal{O}_\lambda \simeq G/G_\lambda$.
 
 Write $\theta \in \Omega^1(G, \mathfrak{g})$ for the [[Maurer-Cartan form]] on $G$.
 
@@ -225,23 +225,27 @@ The group $G$ canonically [[action|acts]] on the [[coset space]] $G/G_{\lambda}$
 
 [Above](#DefinitionsAndConstructions)  we discussed how an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ is encoded by the [[prequantization]] of a  [[coadjoint orbit]] $(\mathcal{O}_\lambda, \nu_\lambda)$. Here we discuss how to express [[Wilson loops]]/[[holonomy]] of $G$-[[principal connections]] in this representation as the [[path integral]] of a topological particle charged under this background field, whose [[action functional]] is that of a [[1-dimensional Chern-Simons theory]]. 
 
-This was hinted at in [Witten 89, p. 22, 23](#Witten89), details are in ([Beasley, section 4](#Beasley)).
+This was hinted at in [Witten 89, p. 22, 23](#Witten89), details are in [Beasley, section 4](#Beasley).
 
 Let $A|_{S^1} \in \Omega^1(S^1, \mathfrak{g})$ be a [[Lie algebra valued 1-form]] on the circle, equivalently a $G$-[[principal connection]] on the circle. 
 
 For 
 
 $$
-  \rho \colon G \to Aut(V)
+  R \;\colon\; G \to Aut(V)
 $$
 
-a [[representation]] of $G$, write
+a [[linear representation]] of $G$, write
 
 $$
-  W_{S^1}^R(A) \coloneqq  hol^R_{S^1}(A) \coloneqq Tr_R( tra_{S^1}(A) )
+  W_{S^1}^R(A) 
+  \;\coloneqq\;  
+  hol^R_{S^1}(A) 
+  \;\coloneqq\; 
+  Tr_R\big( tra_{S^1}(A) \big)
 $$
 
-for the [[holonomy]] of $A$ around the circle in this representation, which is the [[trace]] of its [[parallel transport]] around the circle (for any basepoint). If one thinks of $A$ as a [[background gauge field]] then this is alse called a [[Wilson loop]].
+for the [[holonomy]] of $A$ around the circle in this representation, which is the [[trace]] of its [[parallel transport]] around the circle (for any basepoint). If one thinks of $A$ as a [[background gauge field]] then this is alse called a *[[Wilson loop]]*.
 
 +-- {: .num_defn #ActionFunctionalForTopologicalChargedParticle}
 ###### Definition
@@ -249,22 +253,31 @@ for the [[holonomy]] of $A$ around the circle in this representation, which is t
 Let the [[action functional]]
 
 $$
-  \exp(i CS_\lambda(-)^A) 
+  \exp\big(
+    \mathrm{i} 
+    CS_\lambda(-)^A
+  \big) 
   \;\colon\;  
-  [S^1, G/T] \to U(1)
+  [S^1, G/T] \longrightarrow U(1)
 $$
 
-be given by sending $g T \colon S^1 \to G/T$ represented by $g \colon S^1 \to G$ to
+be given by sending $g T \,\colon\, S^1 \to G/T$ represented by $g \,\colon\, S^1 \to G$ to
 
 $$
-  \exp(i \int_{S^1} \langle \lambda, A^g\rangle )
+  \exp\Big(
+    \mathrm{i} 
+    \textstyle{\int}_{S^1} 
+    \langle \lambda, A^g\rangle 
+   \Big)
+   \;\in\;
+   U(1)
   \,,
 $$
 
 where 
 
 $$
-  A^g \coloneqq Ad_g(A) + g^* \theta
+  A^g \,\coloneqq\, Ad_g(A) + g^* \theta
 $$
 
 is the [[gauge transformation]] of $A$ under $g$. 
@@ -276,23 +289,27 @@ is the [[gauge transformation]] of $A$ under $g$.
 
 The [[Wilson loop]] of $A$ over $S^1$ in the unitary irreducible representation $R$ is proportional to the [[path integral]] of the 1-dimensional [[sigma-model]] with 
 
-1. [[target space]] the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ for $\langle \lambda, - \rangle$ the [[weight (in representation theory)|weight]] corresponding to $R$ under the [[Borel-Weil-Bott theorem]]
+1. [[target space]] the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ for $\langle \lambda, - \rangle$ the [[weight (in representation theory)|weight]] corresponding to $R$ under the [[Borel-Weil-Bott theorem]],
 
 1. [[action functional]] the functional of def. \ref{ActionFunctionalForTopologicalChargedParticle}:
 
-$$
-  W_{S^1}^R(A)
-  \propto
-  \underset{g T \in [S^1, \mathcal{O}_\lambda]}{\int}
-  \exp(i \int_{S^1}  \langle \lambda, A^g\rangle)
-  \;
-  D(g T)
-  \,.
-$$
+   $$
+     W_{S^1}^R(A)
+     \;\propto\;
+     \underset{g T \in [S^1, \mathcal{O}_\lambda]}{\int}
+     \exp\Big(
+       \mathrm{i} 
+       \textstyle{\int}_{S^1}  
+       \langle \lambda, A^g\rangle
+     \Big)
+     \;
+     D(g T)
+     \,.
+   $$
 
 =--
 
-See for instance ([Beasley, (4.55)](#Beasley)). 
+See for instance [Beasley (4.55)](#Beasley). 
 
 +-- {: .num_remark }
 ###### Remark
