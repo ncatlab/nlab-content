@@ -21,7 +21,8 @@
 
 ## Idea
 
-The _Borel-Weil-Bott theorem_ characterizes [[representations]] of suitable [[Lie groups]] $G$ as space of holomorphic [[sections]] of [[complex line bundles]] over [[flag varieties]] $G/B$, for $B$ a [[Borel subgroup]].
+The _Borel-Weil-Bott theorem_ characterizes [[representations]] of suitable [[Lie groups]] $G$ as spaces of [[holomorphic function|holomorphic]] [[sections]] of [[complex line bundles]] over [[flag varieties]] $G/B$, for $B$ a [[Borel subgroup]].
+
 With suitable qualifiers added this is Kirillov's _[[orbit method]]_, and the construction may be interpreted as sending a [[symplectic manifold]] equipped with $G$-[[Hamiltonian action]] to its [[geometric quantization]]. As discussed there, this is equivalently given by [[fiber integration]] in [[K-theory]] and accordingly the Borel-Weil-Bott theorem is naturally regarded in the context of [[generalized Schubert calculus]] (e.g. [Kumar 12](Kumar12)).
 
 
