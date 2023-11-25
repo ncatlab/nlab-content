@@ -1,11 +1,73 @@
 
+For the following examples we use these notational conventions:
+
+* $\mathbb{K}$ denotes a [[field]] of [[characteristic zero]],
+
+* a subscript on a generator denotes its degree,
+
+* $\mathbb{K}\langle\cdots \rangle$ denotes the [[graded vector space|graded]] $\mathbb{K}$-[[vector space]] [[linear span|spanned]] by the [[linear basis]] of generators listed inside the angular brackets;
+
+* $\mathbb{K}[\cdots]$ denotes the [[underlying]] [[vector space]] of the free [[graded-commutative algebra]] on the set of generators listed inside the square brackets;
+
+* $T(-)$ denotes the graded [[tensor algebra]] on a given [[graded vector space]],
+
+* the [[semifree dgc-algebra]] on a given set $\{\cdots\}$ of generators subject to differential relations we denote, with slight abuse of notation, by
+
+  $$
+    \mathbb{K}[\cdots]\big/
+    \left(
+      \begin{array}{c}
+        \mathrm{d}(-) = \ldots
+        \\
+        \vdots
+      \end{array}
+    \right)
+  $$
+
 \begin{example}
+**(rational Pontrjagin ring of loop space of 2-sphere)**
+\linebreak
+The [[Sullivan model of spheres|Sullivan model of]] the [[2-sphere]] is
+$$
+  CE(\mathfrak{l} S^2)
+  \;\simeq\;
+  \mathbb{Q}\big[
+    \omega_2, \omega_3
+  \big]\big/
+  \left(
+  \begin{array}{l}
+    \mathrm{d} \omega_2 \,=\, 0
+    \\
+    \mathrm{d} \omega_3 
+      \,=\, 
+    \tfrac{1}{2} \omega_2 \wedge \omega_2
+  \end{array}
+  \right)
+  \,.
+$$
+From this it follows (since [[the co-binary Sullivan differential is the dual Whitehead product]])
+that the binary [[Whitehead brackets]] of $S^2$ are:
+$$
+  \begin{array}{l}
+    [v_1, v_1] = v_2
+    \\
+    [v_2, v_2] = 0
+    \\
+    [v_1, v_2] = 0
+  \end{array}
+$$
+
+The rational Pontrjagin ring of $\Omega S^2$ is the [[universal enveloping algebra]] of this [[super Lie algebra]], hence:
 $$
   H_\bullet\big(
     \Omega S^2
+    ;\,
+    \mathbb{K}
   \big)
   \;\simeq\;
-  F[ v_1, v_2 ]
+  T\big(
+    \mathbb{K}\langle v_1, v_2\rangle
+  \big)
   \big/
   \left(
     \begin{array}{l}
@@ -16,39 +78,16 @@ $$
   \right)
   \mathrlap{\,.}
 $$ 
+Hence the underlying vector space of the Pontrjagin ring of $\Omega S^2$ is 
+$\mathbb{K}[v_1, v_2]$ but the product of the $v_1$ is quantized to $v_1 \cdot v_1 = \tfrac{1}{2}v_2$.
 
-$$
-  H_\bullet\big(
-    \Omega \mathbb{C}P^{n \geq 3}
-  \big)
-  \;\simeq\;
-  F[ v_1, v_{2n} ]
-  \big/
-  \left(
-    \begin{array}{l}
-      2 v_1^2
-      \\
-      v_1 v_{2n} - v_{2n} v_1
-    \end{array}
-  \right)
-  \mathrlap{\,.}
-$$ 
-
-
-$$
-  H_\bullet\big(
-    \Omega S^3
-  \big)
-  \;\simeq\;
-  F[v_2]
-$$
-
+Similarly, the rational Pontrjagin algebra of the loop space of the [[4-sphere]] is 
 $$
   H_\bullet\big(
     \Omega S^4
   \big)
   \;\simeq\;
-  F[v_3, v_6]
+  T\big( \mathbb{K}\langle v_3, v_6\rangle \big)
   \big/
   \left(
     \begin{array}{l}
@@ -58,8 +97,30 @@ $$
     \end{array}
   \right)
 $$
+whose [[underlying]] $\mathbb{K}$-[[vector space]] is $\mathbb{K}[v_3, v_6]$ but with the product of the $v_3$ quantized to $v_3 \cdot v_3 = \tfrac{1}{2}v_6$.
 
+On the other hand, the [[Sullivan model of complex projective space|Sullivan model of]] [[complex projective space]] $\mathbb{C}P^n$ for $n \geq 2$ has vanishing co-binary part, so that
+$$
+  H_\bullet\big(
+    \Omega \mathbb{C}P^{n \geq 2}
+  \big)
+  \;\simeq\;
+  T\big( \mathbb{K}\langle v_2, v_{2n}\rangle \big)
+  \big/
+  \left(
+    \begin{array}{l}
+      2 v_1^2
+      \\
+      v_1 v_{2n} - v_{2n} v_1
+    \end{array}
+  \right)
+  \;\simeq\;
+  \mathbb{K}[v_1, v_{2n}]
+$$ 
+is just a plain graded-commutative algebra.
 \end{example}
+
+
 
 
 ***
