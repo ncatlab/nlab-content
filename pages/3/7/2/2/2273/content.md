@@ -41,11 +41,16 @@ Sometimes coadjoint orbits are studied in the infinite-dimensional case (for exa
 The dual $g^*$ of a (say finite-dimensional real) [[Lie algebra]] has a structure of a [[Poisson manifold]] with the Poisson structure due to A. Kirillov and Souriau, called the _[[Lie-Poisson structure]]_, namely for any $a\in g^*$, 
 
 $$
-\{ f, g\}(a) := \langle [d f_a, d g_a],a\rangle
+  \{ f, g\}(a) 
+  \;\coloneqq\; 
+  \langle [d f_a, d g_a],a\rangle
 $$
 
-
 The coadjoint orbits are the [[symplectic leaves]] of that structure; hence each orbit is a [[symplectic manifold]].
+
+## Examples
+
+* [Wilson loops and 1d Chern-Simons σ-models with target the coadjoint orbit](orbit+method#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit)
 
 ## Related concepts
 
