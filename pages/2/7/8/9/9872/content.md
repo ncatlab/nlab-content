@@ -13,6 +13,11 @@ The [[Fulton-MacPherson compactification]] of [[configuration spaces of points]]
 
 * {#FultonMacPherson94} [[William Fulton]], [[Robert MacPherson]], _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994 ([jstor:2946631](https://www.jstor.org/stable/2946631))
 
+On [[algebraic topology]]:
+
+* [[William Fulton]], *Algebraic Topology -- A First Course*, Graduate Texts in Mathematics **153**, Springer (1995) \[<a href="https://doi.org/10.1007/978-1-4612-4180-5">doi:10.1007/978-1-4612-4180-5</a>\] 
+
+
 On [[Young tableaux]] in [[representation theory]] and geometry:
 
 * [[William Fulton]], _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
