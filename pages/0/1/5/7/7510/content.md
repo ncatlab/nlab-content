@@ -240,16 +240,18 @@ $$\mathrm{congform}(e_A, e_B)^{-1} \coloneqq \lambda (f:\prod_{x:A'} B'(x)).\lam
 
 where the equivalence $e_A:A \simeq A'$ has families of identifications
 $$x':A \vdash \mathrm{sec}_{e_A}(x):e_A(e_A^{-1}(x)) =_{A'} x$$
-$$x:A \vdash \mathrm{ret}_{e_A}:e_A^{-1}(e_A(x)) =_A x$$
+$$x:A \vdash \mathrm{ret}_{e_A}(x):e_A^{-1}(e_A(x)) =_A x$$
 witnessing that $e_A^{-1}$ is a [[section]] and [[retraction]] of $e_A$ respectively.  
 
-Now it suffices to construct homotopies 
+Now it suffices to construct families of identifications 
 
-$$\prod_{f:\prod_{x:A} B(x)} \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f$$
+$$f:\prod_{x:A} B(x) \vdash \mathrm{ret}_{\mathrm{congform}(e_A, e_B)}(f):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f$$
 
-$$\prod_{g:\prod_{x:A'} B'(x)} \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{\prod_{x:A'} B'(x)} g$$
+$$g:\prod_{x:A' B'(x)} \vdash \mathrm{sec}_{\mathrm{congform}(e_A, e_B)}(g):\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{\prod_{x:A'} B'(x)} g$$
 
 from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse and contractible fibers and is thus an [[equivalence of types]]. 
+
+----
 
 By definition, 
 $$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}((\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_{B'}(e_A^{-1}(x))(f(e_A^{-1}(x)))))(e_A(x)))$$
@@ -258,6 +260,162 @@ By the computation rules of strict function types, there is a family of judgment
 $$x:A \vdash (\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))(f(e_A^{-1}(x)))))(e_A(x)) \equiv \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(x))(f(e_A^{-1}(e_A(x)))))$$
 and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for function types, a judgmental equality
 $$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))))$$
+
+In addition, the equivalence $e_A:A \simeq A'$ has the coherence condition 
+$$\mathrm{coh}_{e_A}(x):\mathrm{sec}_{e_A}(e_A(x)) =_{e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x)} \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))$$
+
+So we have the family of elements
+
+$$x:A \vdash \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))):B'(e_A(x))$$
+
+and by applying the function
+
+$$\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))$$
+across $\mathrm{coh}_{e_A}(x)$ one gets the family of identifications
+
+$$x:A \vdash \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x)$$ 
+
+in type
+
+$$\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))) =_{B'(e_A(x)} \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))$$
+
+From the family of elements 
+
+$$x:A \vdash \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))):B(e_A(x))$$ 
+
+one could define the family of dependent functions
+
+$$x:A \vdash \lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y))):\prod_{y:A} (y =_A x) \to B(e_A(x))$$ 
+This means by applying the above dependent function 
+to $e_A^{-1}(e_A(x))$ and $\mathrm{ret}_{e_A}(x)$, one gets the family of identifications
+
+$$x:A \vdash \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))$$ 
+
+in type
+
+$$\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))) =_{B(e_A(x))} \mathrm{transport}_{x:A'.B'(x)}(e_A(x), e_A(x), \mathrm{ap}_{e_A}(x, x, \mathrm{refl}_A(x)), e_B(x)(f(x)))$$
+
+By the judgmental computation rules of identity types, we have $\mathrm{ap}_{e_A}(x, x, \mathrm{refl}_A(x)) \equiv \mathrm{refl}_{A'}(e_A(x))$, which means that we have 
+
+$$\mathrm{transport}_{x:A'.B'(x)}(e_A(x), e_A(x), \mathrm{ap}_{e_A}(x, x, \mathrm{refl}_A(x)), e_B(x)(f(x))) \equiv \mathrm{transport}_{x:A'.B'(x)}(e_A(x), e_A(x), \mathrm{refl}_{A'}(e_A(x)), e_B(x)(f(x)))$$
+
+and we have 
+
+$$\mathrm{transport}_{x:A'.B'(x)}(e_A(x), e_A(x), \mathrm{refl}_{A'}(e_A(x)), e_B(x)(f(x))) \equiv e_B(x)(f(x))$$
+
+Thus by concatenation we have identification
+
+$$
+\begin{array}{c}
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))
+\end{array}
+$$
+
+in type
+
+$$\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))) =_{B'(e_A(x))} e_B(x)(f(x))$$
+
+and by application of $e_B(x)^{-1}$ to the above identification, we have
+
+$$
+\begin{array}{c}
+\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)))
+\end{array}
+$$
+
+in type
+
+$$e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))) =_{B(x)} e_B(x)^{-1}(e_B(x)(f(x)))$$
+
+Similarly, The family of equivalences 
+$$x:A \vdash e_B(x):B(x) \simeq B'(e_A(x))$$ 
+has a family of identifications 
+$$x:A, y:B(x) \vdash \mathrm{ret}_{e_B}(x, y):e_B(x)^{-1}(e_B(x)(y)) =_{B(x)} y$$
+witnessing that $e_B(x)^{-1}$ is a [[retraction]] of $e_B(x)$ for each $x:A$. 
+
+By substituting $f(x)$ in for $y$ we get the family of identifications
+
+$$x:A \vdash \mathrm{ret}_{e_B}(x, f(x)):e_B(x)^{-1}(e_B(x)(f(x))) =_{B(x)} f(x)$$
+
+and thus the family of identifications 
+
+$$
+\begin{array}{c}
+\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{ret}_{e_B}(x, f(x))
+\end{array}
+$$
+
+in type
+
+$$e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))) =_{B(x)} f(x)$$
+
+and the dependent function
+
+$$
+\begin{array}{c}
+\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{ret}_{e_B}(x, f(x))
+\end{array}
+$$
+
+in type
+
+$$\prod_{x:A} e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))) =_{B(x)} f(x)$$
+
+By dependent function extensionality, we get the identification
+
+$$
+\begin{array}{c}
+\mathrm{ext}_{\prod_{x:A} B(x)}(\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{ret}_{e_B}(x, f(x)))
+\end{array}
+$$
+
+in type 
+
+$$\lambda x:A.e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))) =_{\prod_{x:A} B(x)} f$$
+
+and since we defined 
+
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))))$$
+
+we have 
+
+$$
+\begin{array}{c}
+\mathrm{ext}_{\prod_{x:A} B(x)}(\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{ret}_{e_B}(x, f(x))):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f
+\end{array}
+$$ 
+
+We can define the witness that $\mathrm{congform}(e_A, e_B)^{-1}$ is a [[retraction]] of $\mathrm{congform}(e_A, e_B)$ as
+
+$$
+\begin{array}{c}
+\mathrm{ret}_{\mathrm{congform}(e_A, e_B)}(f) \coloneqq \\
+\mathrm{ext}_{\prod_{x:A} B(x)}(\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
+\mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
+\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{ret}_{e_B}(x, f(x))):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f
+\end{array}
+$$ 
+
+
+----
+
+to be continued...
 \end{proof}
 
 #### Weak dependent product types
