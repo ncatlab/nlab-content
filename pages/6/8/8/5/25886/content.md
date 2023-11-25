@@ -81,6 +81,14 @@ On the [[Nicolai map]] for the $\mathbb{C}P^n$ sigma-model:
 * {#NakayamaFunckeJansenKaoKühn22} Katsumasa Nakayama, Lena Funcke, Karl Jansen, Ying-Jer Kao, Stefan Kühn, *Phase structure of the $CP(1)$ model in the presence of a topological $\theta$-term*, Phys. Rev. D **105** 054507 (2022) &lbrack;[arXiv:2107.14220](https://arxiv.org/abs/2107.14220), [doi:10.1103/PhysRevD.105.054507](https://doi.org/10.1103/PhysRevD.105.054507)&rbrack;
 
 
+### Flag manifold sigma-models
+
+More generally, on sigma models with [[flag manifold]] [[target spaces]] and relation to [[Gross-Neveu models]]:
+
+* [[Dmitri Bykov]], *Quantum flag manifold σ-models and Hermitian Ricci flow*, Commun. Math. Phys. **401** 1-32 (2023) &lbrack;[arXiv:2006.14124](https://arxiv.org/abs/2006.14124), [doi:10.1007/s00220-022-04532-5](https://doi.org/10.1007/s00220-022-04532-5)&rbrack;
+
+* [[Ian Affleck]], [[Dmitri Bykov]], [[Kyle Wamer]], *Flag manifold sigma models: spin chains and integrable theories*,  Phys. Rept. **953** (2022) 1-93 &lbrack;[arXiv:2101.11638](https://arxiv.org/abs/2101.11638), [doi:10.1016/j.physrep.2021.09.004](https://doi.org/10.1016/j.physrep.2021.09.004)&rbrack;
+
 
 
 [[!include quantum cohomology as Pontrjagin rings -- references]]
@@ -92,4 +100,7 @@ On the [[Nicolai map]] for the $\mathbb{C}P^n$ sigma-model:
 
 [[!redirects CP^1 sigma-model]]
 [[!redirects CP^1 sigma-models]]
+
+[[!redirects flag manifold sigma-model]]
+[[!redirects flag manifold sigma-models]]
 
