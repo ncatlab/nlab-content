@@ -76,18 +76,19 @@ Textbooks:
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
-* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer (1982) $[$[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)\]
 
   > (with focus on [[differential forms]], [[differential topology]])
 
-* [[James Munkres]], *Elements of Algebraic Topology*, Addison-Wesley (1984) $[$[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)$]$
+* [[James Munkres]], *Elements of Algebraic Topology*, Addison-Wesley (1984) $[$[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)\]
 
-* [[Joseph J. Rotman]], *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)$]$ 
+* [[Joseph J. Rotman]], *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)\] 
 
 * {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
-
 * {#Dold95} [[Albrecht Dold]], *Lectures on Algebraic Topology*, Springer 1995 ([doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf))
+
+* [[William Fulton]], *Algebraic Topology -- A First Course*, Graduate Texts in Mathematics **153**, Springer (1995) \[<a href="https://doi.org/10.1007/978-1-4612-4180-5">doi:10.1007/978-1-4612-4180-5</a>\] 
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
