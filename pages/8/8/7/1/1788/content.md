@@ -1,6 +1,68 @@
 
-[[RunningHoTT2024Logo.jpg:file]]
+\begin{example}
+$$
+  H_\bullet\big(
+    \Omega S^2
+  \big)
+  \;\simeq\;
+  F[ v_1, v_2 ]
+  \big/
+  \left(
+    \begin{array}{l}
+      2 v_1^2 - v_2
+      \\
+      v_1 v_2 - v_2 v_1 
+    \end{array}
+  \right)
+  \mathrlap{\,.}
+$$ 
 
+$$
+  H_\bullet\big(
+    \Omega \mathbb{C}P^{n \geq 3}
+  \big)
+  \;\simeq\;
+  F[ v_1, v_{2n} ]
+  \big/
+  \left(
+    \begin{array}{l}
+      2 v_1^2
+      \\
+      v_1 v_{2n} - v_{2n} v_1
+    \end{array}
+  \right)
+  \mathrlap{\,.}
+$$ 
+
+
+$$
+  H_\bullet\big(
+    \Omega S^3
+  \big)
+  \;\simeq\;
+  F[v_2]
+$$
+
+$$
+  H_\bullet\big(
+    \Omega S^4
+  \big)
+  \;\simeq\;
+  F[v_3, v_6]
+  \big/
+  \left(
+    \begin{array}{l}
+      2 v_3^2 - v_6
+      \\
+      v_3 v_6 - v_6 v_3 
+    \end{array}
+  \right)
+$$
+
+\end{example}
+
+
+***
 
 $$ T^k_{fc}(x) = \sum_{n = 0}^k \frac{f^{(n)}(c) (x-c)^n}{n!} .$$
 
