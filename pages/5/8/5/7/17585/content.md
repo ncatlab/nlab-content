@@ -109,7 +109,7 @@ is the dgc-algebra obtained from $(\wedge^\bullet V, d_X)$ by shifting down all 
 \end{prop}
 
 \begin{remark}\label{PontrjaginProductOnHomologyOfBasedLoopSpace}
-  While Prop. \ref{SullivanModelForBasedLoopSpace} says that the rational [[Whitehead brackets]] of a loop space all vanish (as generally for any [[H-space]]), the [[ordinary homology]] of a loop space inherits another product, namely the [[Pontrjagin product]] and this makes (see [there](Pontrjagin+ring#RelationToWhiteheadProduct)) the homology form the [[universal enveloping algebra]] of the binary [[Whitehead bracket]] [[super Lie algebra]] of the original space.
+  While Prop. \ref{SullivanModelForBasedLoopSpace} says that the rational [[Whitehead brackets]] of a loop space all vanish (as generally for any [[H-space]]), the [[ordinary homology]] of a loop space inherits another product, namely the [[Pontrjagin product]], and this makes (see [there](Pontrjagin+ring#RelationToWhiteheadProduct)) the homology form the [[universal enveloping algebra]] of the binary [[Whitehead bracket]] [[super Lie algebra]] of the original space.
 \end{remark}
 
 ## Properties
