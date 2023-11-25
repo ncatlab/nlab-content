@@ -14,11 +14,15 @@ This page collects material related to:
 
 
 
-* [[Peter May]]
+* [[Peter May]]:
 
-  _A Concise Course in Algebraic Topology_
-  
-  University of Chicago Press 1999
+  \linebreak
+
+  **A Concise Course in Algebraic Topology**
+ 
+  \linebreak
+   
+  University of Chicago Press (1999)
   
   [ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html)
 
@@ -28,15 +32,19 @@ a textbook on [[algebraic topology]] and [[homotopy theory]].
 
 See also:
 
-* [[Peter May]], [[Kate Ponto]],
+* [[Peter May]], [[Kate Ponto]]:
 
-  _More concise algebraic topology -- Localization, Completion, and Model Categories_
+  \linebreak
+
+  **More concise algebraic topology -- Localization, Completion, and Model Categories**
+
+  \linebreak
 
   University of Chicago Press (2012)
 
   [ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html)
 
-  ([pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+  [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)
 
 {#Problem} Beware that the latter has an issue in [Lem. 17.1.7](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf#page=371) (following an analogous problematic statement in [Cole 2006, Prop. 5.3](Strøm+model+structure#Cole06)) where it comes to establishing a [[Strøm model structure]]. This was noticed by [[Richard Williamson]], see [Barthel & Riehl, p. 2 and Rem 5.12 and Sec. 6.1](Strøm+model+structure#BarthelRiehl13) for details. 
 
