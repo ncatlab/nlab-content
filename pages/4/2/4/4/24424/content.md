@@ -1,8 +1,8 @@
 I'm a French [[math]] PhD student at the University of Ottawa. My supervisors are [[Rick Blute]] and [[Phil Scott]].
 
- I'm interested by the [[logic|logical]] approach to [[differentiation]] through [[differential linear logic]] and [[differential categories]]. I like trying to combine ideas from this field with the notion of [[graded modality]] to talk about ubiquitous functors in mathematics such as [[symmetric powers|symmetric]], [[exterior powers|exterior]], [[divided powers]] or [[homology |homology functors]]. 
+ I'm interested in the [[logic|logical]] approach to [[differentiation]] through [[differential linear logic]] and [[differential categories]]. I like trying to combine ideas from this field with the notion of [[graded modality]] to talk about ubiquitous functors in mathematics such as [[symmetric powers|symmetric]], [[exterior powers|exterior]], [[divided powers]] or [[homology |homology functors]]. 
 
-More broadly, I'm driven by the idea of making some algebraic concepts from [[mathematics]] into [[category theory]] and [[proof theory]] and make everything live together in the neatest way. 
+More broadly, I'm driven by the idea of turning some algebraic concepts from [[mathematics]] into [[category theory]] and [[proof theory]] and make everything live together in the neatest way. 
 
 I like the philosophy of [[Ludwig Wittgenstein]] and think that it is a useful inspiration for research in mathematics and computer science. 
 
