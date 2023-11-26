@@ -195,7 +195,7 @@ $$\mathrm{congintro}_{x:A.p(x)}:\lambda (x:A).b(x) =_{\prod_{x:A} B(x)} \lambda 
 \end{theorem}
 
 \begin{proof}
-By the computation rule of strict function types, there are families of judgmental equalities 
+By the computation rule of strict dependent function types, there are families of judgmental equalities 
 
 $$x:A \vdash ((\lambda x:A.b(x))(x) \equiv b(x):B(x)$$
 $$x:A \vdash ((\lambda x:A.b'(x))(x) \equiv b'(x):B(x)$$
@@ -256,9 +256,9 @@ from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse 
 By definition, 
 $$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}((\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_{B'}(e_A^{-1}(x))(f(e_A^{-1}(x)))))(e_A(x)))$$
 
-By the computation rules of strict function types, there is a family of judgmental equalities
+By the computation rules of strict dependent function types, there is a family of judgmental equalities
 $$x:A \vdash (\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))(f(e_A^{-1}(x)))))(e_A(x)) \equiv \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(x))(f(e_A^{-1}(e_A(x)))))$$
-and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for function types, a judgmental equality
+and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for dependent function types, a judgmental equality
 $$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))))$$
 
 In addition, the equivalence $e_A:A \simeq A'$ has the coherence condition 
@@ -418,9 +418,9 @@ $$
 Similarly, by definition, 
 $$\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(f)) \equiv \lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))(( \lambda x:A.e_B(x)^{-1}(f(e_A(x))) )(e_A^{-1}(x))))$$
 
-By the computation rules of strict function types, there is a family of judgmental equalities
+By the computation rules of strict dependent function types, there is a family of judgmental equalities
 $$x:A \vdash (\lambda x:A.e_B(x)^{-1}(f(e_A(x))))(e_A^{-1}(x)) \equiv e_B(e_A^{-1}(x))^{-1}(f(e_A(e_A^{-1}(x))))$$
-and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for function types, a judgmental equality
+and thus by the structural rules of [[judgmental equalities]] and the judgmental congruence rules for dependent function types, a judgmental equality
 $$\lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))((\lambda x:A.e_B(x)^{-1}(f(e_A(x))) )(e_A^{-1}(x)))) \equiv \lambda x:A'.\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(x)), x, \mathrm{sec}_{e_A}(x), e_B(e_A^{-1}(x))(e_B(e_A^{-1}(x))^{-1}(f(e_A(e_A^{-1}(x))))))$$
 
 From the family of elements 
