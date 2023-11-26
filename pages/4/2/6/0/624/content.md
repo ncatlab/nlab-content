@@ -282,7 +282,7 @@ $$
   \,.
 $$
 
-If the ambient category is indeed [[closed monoidal category|closed monoida]] with [[internal hom]] denoted $[-,-]$, this means that $(\text{-}) \otimes A^\ast \,\simeq\, [A,\text{-}]$ (by [essential uniqueness of adjoints](adjoint+functor#UniquenessOfAdjoints)) and hence in particular that:
+If the ambient category is indeed [[closed monoidal category|closed monoidal]] with [[internal hom]] denoted $[-,-]$ and unit denoted by $\mathbb{1}$, this means that $(\text{-}) \otimes A^\ast \,\simeq\, [A,\text{-}]$ (by [essential uniqueness of adjoints](adjoint+functor#UniquenessOfAdjoints)) and hence in particular that:
 $$
   A^\ast 
     \;\simeq\; 
