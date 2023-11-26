@@ -120,7 +120,7 @@ $$
 
 \end{definition}
 
-Again, it is folklore that this bicategory is symmetric monoidal when $\odot$ is a *symmetric monoidal action*, meaning $\mathcal{C}$ is monoidal, $\mathcal{M}$ is symmetric and $\odot$ is a symmetric monoidal functor.
+Again, it is folklore that this bicategory is symmetric monoidal when $\odot$ is a *[[monoidal actegory|symmetric monoidal action]]*, meaning $\mathcal{C}$ is monoidal, $\mathcal{M}$ is symmetric and $\odot$ is a symmetric monoidal functor.
 
 Also, this construction is 2-functorial from $\mathcal{M}\mathbf{Act}$ to $\mathbf{Bicat}$.
 
