@@ -1,4 +1,4 @@
-The ideal completion of a [[category]] $C$ generalises the notion of [[ideal]] completion of a [[partially ordered set]]. It is formed by taking the category of [[ideals]] of $C$. It is the completion of $C$ under [[filtered colimit]]s of [[monomorphisms]].
+The ideal completion of a [[category]] $C$ generalises the notion of [[ideal]] completion of a [[partially ordered set]]. It is formed by taking the category of [[ideals]] of $C$. It is the completion of $C$ under [[filtered colimit]]s of [[monomorphisms]], thus producing an [[M-complete category]].
 
 See page 24 of [An Outline of Algebraic Set Theory](http://www.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf).
 
@@ -12,3 +12,7 @@ This is part of [[algebraic set theory]].
 
 * Steve Awodey, Henrik Forssell and Michael A. Warren,
 _Algebraic models of sets and classes in categories of ideals_ [PDF](http://www.phil.cmu.edu/projects/ast/Papers/afw_06.pdf)
+
+## Related pages
+
+* [[M-complete category]]
