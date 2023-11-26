@@ -81,6 +81,14 @@ The [[Poincaré–Birkhoff–Witt theorem]] states that the
 
 See at _[[formal deformation quantization]]_ the section _[Relation to universal enveloping algebras](formal+deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
 
+
+### Relation to the group algebra
+ {#RelationToTheGroupAlgebra}
+
+> The universal enveloping algebra of a Lie algebra is the analogue of the usual [[group algebra]] of a group. It has the analogous function of exhibiting the [[category]] of [[Lie algebra modules]] as a category of [[modules]] for an [[associative algebra]]. This becomes more than an analogy when the universal enveloping algebra is viewed with its full [[Hopf algebra]] structure. By dualization, one obtains a commutative Hopf algebra which, in the case where the Lie algebra is that of an irreducible [[algebraic group]] over a [[field]] of [[characteristic 0]], contains the algebra of polynomial functions of that group as a sub Hopf algebra in a natural fashion. 
+
+(quoted from [Hochschild 1981, p. 221](#Hochschild81), see [ibid. Thm. 3.1 on p. 230](#Hochschild81); [Tjin 1992, Thm. 1](#Tjin92))
+
 ## Examples
 
 ### Universal enveloping of a tangent Lie algebra
@@ -99,10 +107,17 @@ finite-dimensional Lie group $G$ over real or complex numbers is canonically iso
 
 ## References
 
+* [[Jacques Dixmier]]; _[[Algèbres enveloppantes]]_, Cahiers Scientifique (1974), Engl transl: _Enveloping Algebras_, Graduate Studies in Mathematics **11** American Mathematical Society (1996)
 
-* [[Nicolas Bourbaki]], _Lie groups and Lie algebras_
 
-* [[Jacques Dixmier]]; 1974; _[[Algèbres enveloppantes]]_, Cahiers Scientifique. English translation: 1996; _Enveloping Algebras_, Graduate Studies in Mathematics 11, American Mathematical Society.
+* [[Nicolas Bourbaki]], §I.2 in: _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
+
+* {#Hochschild81} [[Gerhard P. Hochschild]], *The Universal Enveloping Algebra*, Chapter XVI in: *Basic Theory of Algebraic Groups and Lie Algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
+
+Further discussion in the context of [[quantum groups]]:
+
+* {#Tjin92} [[Tjark Tjin]], *An introduction to quantized Lie groups and algebras*, Int. J. Mod. Phys. A **7** (1992) 6175-6213 &lbrack;[arXiv:hep-th/9111043](https://arxiv.org/abs/hep-th/9111043), [doi:10.1142/S0217751X92002805](https://doi.org/10.1142/S0217751X92002805)&rbrack;
+    
 
 Discussion in the generality of [[super Lie algebras]] such as notably of the [[Whitehead Lie algebras]] arising in [[algebraic topology]]:
 
@@ -120,3 +135,4 @@ See also:
 * MathOverflow question [What is the universal enveloping algebra](http://mathoverflow.net/questions/25020/what-is-the-universal-enveloping-algebra) which is looking for a rather general construction in a class of symmetric monoidal [[pseudoabelian category|pseudoabelian categories]].
 
 [[!redirects universal enveloping algebras]]
+
