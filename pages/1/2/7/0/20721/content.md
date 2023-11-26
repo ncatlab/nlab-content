@@ -152,7 +152,26 @@ $$
   \;\simeq\;
   \mathbb{K}[v_1, v_{2n}]
 $$ 
-is just a plain graded-commutative algebra.
+is just a plain graded-commutative algebra. 
+
+For $n = \infty$ (ie. for the [[classifying space]] $\mathbb{C}P^\infty \simeq B U(1)$) this becomes
+$$
+  H_\bullet\big(
+    \Omega \mathbb{C}P^{\infty}
+    ;\,
+    \mathbb{K}
+  \big)
+  \;\simeq\;
+  T\big( \mathbb{K}\langle v_2\rangle \big)
+  \big/
+  \big(
+      2 v_1^2
+  \big)
+  \;\simeq\;
+  \mathbb{K}[v_1]
+  \mathrlap{\,,}
+$$ 
+reflecting the fact that $\Omega \, \mathbb{C}P^\infty \,\simeq\, \Omega B U(1)\,\simeq\, S^1$.
 \end{example}
 
 
