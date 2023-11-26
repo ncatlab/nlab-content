@@ -23,7 +23,7 @@ I'm working on:
 
 ## Papers
 
-*  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_,  FMCS2023, [link](https://entics.episciences.org/paper/view/id/12290)
+*  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_,  MFPS2023, [link](https://entics.episciences.org/paper/view/id/12290)
  * [[J-B Vienney|Jean-Baptiste Vienney]], _String diagrams for symmetric powers I: In symmetric monoidal $\mathbb{Q}_{\ge 0}$-linear categories_, preprint, [ArXiv](https://arxiv.org/abs/2308.02094)
 
 category: people
