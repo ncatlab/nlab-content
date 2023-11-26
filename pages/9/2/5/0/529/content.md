@@ -149,7 +149,11 @@ Discussion of group algebras in the generality of [[locally compact topological 
 
 e.g. [Dixmier (1977) §13.2](#Dixmier77)
 
+
+
 ## Properties
+
+### General
 
 +-- {: .num_prop }
 ###### Proposition
@@ -255,7 +259,7 @@ $$
   \underset{[V]}{\sum} \big( dim(V)\big)^2
   \,.
 $$ 
-That is the case by [this property](regular+representation#RegularRepDecomposedIntoIrreps) of the [[regular representation]].
+This is indeed the case, by [this property](regular+representation#RegularRepDecomposedIntoIrreps) of the [[regular representation]].
 \end{proof}
 
 
@@ -268,6 +272,17 @@ Let $G$ be a [[finite group]], let $R = k$ be a field.
 Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is not divisible by the [[characteristic]] of k.
 
 =--
+
+
+### Relation to universal enveloping algebras
+ {#RelationToUniversalEnvelopingAlgebra}
+
+Concerning group algebras of [[algebraic groups]]:
+
+> The [[universal enveloping algebra]] of a [[Lie algebra]] is the analogue of the usual [[group algebra]] of a group. It has the analogous function of exhibiting the [[category]] of [[Lie algebra modules]] as a category of [[modules]] for an [[associative algebra]]. This becomes more than an analogy when the universal enveloping algebra is viewed with its full [[Hopf algebra]] structure. By dualization, one obtains a commutative Hopf algebra which, in the case where the Lie algebra is that of an irreducible [[algebraic group]] over a [[field]] of [[characteristic 0]], contains the algebra of polynomial functions of that group as a sub Hopf algebra in a natural fashion. 
+
+(quoted from [Hochschild 1981, p. 221](universal+enveloping+algebra#Hochschild81), see Thm. 3.1 on p. 230 there)
+
 
 
 ## Related concepts
