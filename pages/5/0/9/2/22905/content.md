@@ -21,7 +21,8 @@ The Para construction is of relevance in categorical cybernetics, since controll
 
 Indeed, the notation $\mathbf{Para}(\mathcal{C})$ was originally introduced in ([Fong, Spivak and Tuyeras 2019](#FongSpivakTuyeras2019)), and then successively refined in ([Gavranovic 2019](#Gavranovic19)) and ([Cruttwell et al. 2021](#Cruttwell2021)) for applications to machine learning.  ([Capucci et al. 2020](#Capucci2020)) generalized the construction from monoidal categories to [[actegories]], in order to capture examples from other areas of categorical cybernetics.  A still further generalization and systematization of the Para construction is being developed by [[David Jaz Myers]] and [[Matteo Capucci]], see ([Myers 2022](#Myers22)) and ([Capucci 2023](#Capucci23)).
 
-The actual construction is older than this, appearing in ([Hermida & Tennent](#HermidaTennent2012)), with precursors in ([Pavlovic 1997](#Pavlovic1997)). 
+Nonetheless, the 1-categorical version of Para already appears e.g. in ([Hermida & Tennent 2012](#HermidaTennent2012)), with precursors in ([Pavlovic 1997](#Pavlovic1997)).
+Also [[Igor Bakovic|Bakovic]] introduces Copara (with a different name) in Theorem 13.2 of ([his thesis)[#Bakovic2008]), in the very general context of actions of bicategories.
 
 ## Definition
 
@@ -42,10 +43,10 @@ For $(\mathcal{C}, I, \otimes)$ a [[monoidal category]], $\mathbf{Para}(\mathcal
 * A [[2-morphism]] $(P, f) \Rightarrow (Q, g)$ is a morphism $r \colon P \to Q$ in $\mathcal{C}$ such that the following [[commuting diagram|diagram commutes]]:
 
 \begin{tikzcd}
-  {P \otimes A} 
+  {A \otimes P} 
   \\
-  {Q \otimes A} & B
-  \arrow["{r \otimes A}", from=1-1, to=2-1]
+  {A \otimes Q} & B
+  \arrow["{A \otimes r}", from=1-1, to=2-1]
   \arrow["f", from=1-1, to=2-2]
   \arrow["g"', from=2-1, to=2-2]
 \end{tikzcd}
@@ -89,9 +90,9 @@ in $\mathcal{C}$.
 * A 2-cell $(P, f) \Rightarrow (Q, g)$ is a morphism $r : P \to Q$ in $\mathcal{M}$ such that the following commutes:
 
 \begin{tikzcd}
-	{P \odot A} \\
-	{Q \odot A} & B
-	\arrow["{r \odot A}"', from=1-1, to=2-1]
+	{A \odot P} \\
+	{A \odot Q} & B
+	\arrow["{A \odot r}"', from=1-1, to=2-1]
 	\arrow["f", from=1-1, to=2-2]
 	\arrow["g"', from=2-1, to=2-2]
 \end{tikzcd}
@@ -226,9 +227,11 @@ gives the semicartesian reflection of $\mathcal{C}$.
 
 The Para construction first appears (though not under that name) in:
 
-* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
+* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. _Monoidal indeterminates and categories of possible worlds_. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [doi:j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
 
-* {#Pavlovic1997} [[Duško Pavlović]], Categorical logic of names and abstraction in action calculi. Math. Structures Comput. Sci. 7 (6) (1997) 619–637. [pdf](https://www.kestrel.edu/people/pavlovic/papers/clna-MSCS97.pdf).
+* {#Pavlovic1997} [[Duško Pavlović]], _Categorical logic of names and abstraction in action calculi_. Math. Structures Comput. Sci. 7 (6) (1997) 619–637. [pdf](https://www.kestrel.edu/people/pavlovic/papers/clna-MSCS97.pdf)
+
+* {#Bakovic2008} [[Igor Bakovic]], _Bigroupoid 2-torsors_. Dissertation, LMU München: Faculty of Mathematics, Computer Science and Statistics, ([pdf](https://edoc.ub.uni-muenchen.de/9209/1/Bakovic_Igor.pdf))
 
 The terminology "Para construction" first appears in:
 
