@@ -548,13 +548,15 @@ $$
 
 Moreover, if $A$ carries the structure of a [[ring]] $R = (A, \cdot)$, then under the [[cup product]] the [[cohomology ring]] of $\mathbb{C}P^n$ is the the [[graded ring]]
 
-$$
+\[
+  \label{CohomologyRing}
   H^\bullet(\mathbb{C}P^n, R)
    \simeq
   R[c_1] / (c_1^{n+1})
-$$
+  \mathrlap{\,,}
+\]
 
-which is the [[quotient]] of the [[polynomial ring]] on a single generator $c_1$ in degree 2, by the relation that identifies [[cup products]] of more than $n$-copies of the generator $c_1$ with zero.
+which is the [[quotient]] of the [[polynomial ring]] on a single generator $c_1$ in degree 2, by the relation that identifies [[cup products]] of more than $n$-copies of the generator $c_1$ with zero (see also the disfferential relation at *[[Sullivan model of complex projective space]]*).
 
 Finally, the [[cohomology ring]] of the infinite-dimensional complex projective space is the [[formal power series ring]] in one generator:
 
