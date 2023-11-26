@@ -218,6 +218,9 @@ The [[exceptional Lie groups]] incude
 
   > (in the broader context of [[topological groups]])
 
+* [[Nicolas Bourbaki]], _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
+
+
 * {#Adams82} [[Frank Adams]], *Lectures on Lie groups*, University of Chicago Press, 1982 ([ISBN:9780226005300](https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614673.html), [gbooks](https://www.google.com/books/edition/Lectures_on_Lie_Groups/TC7d3ZcqjfsC?hl=en))
 
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
