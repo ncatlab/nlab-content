@@ -77,7 +77,7 @@ $$
   \,.
 $$
 From this it follows (since [[the co-binary Sullivan differential is the dual Whitehead product]])
-that the binary [[Whitehead brackets]] of $S^2$ are:
+that the binary [[Whitehead brackets|Whitehead]] [[super Lie brackets]] of $S^2$ are:
 $$
   \begin{array}{l}
     [v_1, v_1] = v_2
@@ -110,7 +110,7 @@ $$
   \mathrlap{\,.}
 $$ 
 Therefore the [[underlying]] [[graded vector space|graded]] $\mathbb{K}$-[[vector space]] of the Pontrjagin ring of $\Omega S^2$ is 
-$\mathbb{K}[v_1, v_2]$ but the product of the $v_1$ is quantized to $v_1 \cdot v_1 = \tfrac{1}{2}v_2$.
+$\mathbb{K}[v_1, v_2]$ but the product of the $v_1$ is deformed from $v_1 \cdot v_1 = 0$ to $v_1 \cdot v_1 = \tfrac{1}{2}v_2$.
 
 Similarly, the rational Pontrjagin algebra of the loop space of the [[4-sphere]] is 
 $$
@@ -130,7 +130,7 @@ $$
     \end{array}
   \right)
 $$
-whose [[underlying]] $\mathbb{K}$-[[vector space]] is $\mathbb{K}[v_3, v_6]$ but with the product of the $v_3$ quantized to $v_3 \cdot v_3 = \tfrac{1}{2}v_6$.
+whose [[underlying]] $\mathbb{K}$-[[vector space]] is $\mathbb{K}[v_3, v_6]$ but with the product of the $v_3$ deformed from $v_3 \cdot v_3 = 0$ to $v_3 \cdot v_3 = \tfrac{1}{2}v_6$.
 
 On the other hand, the differential of the [[Sullivan model of complex projective space|Sullivan model of]] [[complex projective space]] $\mathbb{C}P^n$ for $n \geq 2$ has vanishing co-binary part, so that
 $$
