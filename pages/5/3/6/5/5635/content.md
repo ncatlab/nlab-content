@@ -161,7 +161,7 @@ Specifically the case of [[complex projective space|$\mathbb{C}P^N$]] ([[CP^N si
 
 And specifically the case of [[Riemann sphere|$\mathbb{C}P^1$]]:
 
-* {#DorfmeisterGuestRossman10} Josef F. Dorfmeister, [[Martin A. Guest]], Wayne Rossman, *The $tt*$ Structure of the Quantum Cohomology of $\mathbb{C}P^1$ from the Viewpoint of Differential Geometry*, Asian Journal of Mathematics **14** 3 (2010) 417-438 &lbrack;[doi:10.4310/AJM.2010.v14.n3.a7](https://dx.doi.org/10.4310/AJM.2010.v14.n3.a7)&rbrack;
+* {#DorfmeisterGuestRossman10} Josef F. Dorfmeister, [[Martin A. Guest]], Wayne Rossman, *The $t t^\ast$ Structure of the Quantum Cohomology of $\mathbb{C}P^1$ from the Viewpoint of Differential Geometry*, Asian Journal of Mathematics **14** 3 (2010) 417-438 &lbrack;[doi:10.4310/AJM.2010.v14.n3.a7](https://dx.doi.org/10.4310/AJM.2010.v14.n3.a7)&rbrack;
 
 
 ### Quantum K-cohomology rings
