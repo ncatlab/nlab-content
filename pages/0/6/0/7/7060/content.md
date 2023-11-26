@@ -121,7 +121,15 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A
 
 where the equivalence
 $$\mathrm{congform}_\mathrm{isProp}(\beta_\mathrm{Prop}^{\mathrm{El}, A}(p)):\mathrm{isProp}(\mathrm{El}(\mathrm{toProp}_A(p))) \simeq \mathrm{isProp}(A)$$
-can always be constructed in a type theory with [[dependent product types]], [[dependent sum types]], and [[identity types]], as given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is possible to form the equivalence $\mathrm{congform}_\mathrm{isProp}(e):\mathrm{isProp}(A) \simeq \mathrm{isProp}(B)$ through [[function application to identifications|application of equivalences to identifications]] and the typal congruence rules of [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
+can always be constructed in a type theory with [[dependent product types]], [[dependent sum types]], and [[identity types]], and [[function extensionality]], as given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is always possible to form the equivalence 
+$$\mathrm{congform}_\mathrm{isProp}(e):\mathrm{isProp}(A) \simeq \mathrm{isProp}(B)$$ 
+
+For example, for $\mathrm{isProp}$ defined as the dependent product type $\prod_{x:A} \prod_{y:A} x =_A y$, we have that the [[function application to identifications|application]] of the equivalence $e:A \simeq B$ to identifications is itself an equivalence: 
+$$\mathrm{ap}_e(x, y):(x =_A y) \simeq (e(x) =_B e(y))$$
+Then by the [[typal congruence rules]] of [[dependent function types]], there is an equivalence
+$$\mathrm{congform}_\mathrm{isProp}(e) \equiv \mathrm{congform}_{\prod}(e, \lambda x:A.\mathrm{congform}_{\prod}(e, \lambda y:A.\mathrm{ap}_e(x, y))):\left(\prod_{x:A} \prod_{y:A} x =_A y\right) \simeq \left(\prod_{x:B} \prod_{y:B} x =_B y\right)$$
+And for any other definition of $\mathrm{isProp}$, we have an equivalence $\delta_{\mathrm{isProp}(A)}:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} x =_A y$ for type $A$, and so there is an equivalence
+$$\mathrm{congform}_\mathrm{isProp}(e) \equiv \delta_{\mathrm{isProp}(B)}^{-1} \circ \mathrm{congform}_{\prod}(e, \lambda x:A.\mathrm{congform}_{\prod}(e, \lambda y:A.\mathrm{ap}_e(x, y))) \circ \delta_{\mathrm{isProp}(A)}:\mathrm{isProp}(A) \simeq \mathrm{isProp}(B)$$
 
 Uniqueness rules for the type of all propositions:
 
