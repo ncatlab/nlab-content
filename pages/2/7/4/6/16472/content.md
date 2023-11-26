@@ -8,7 +8,8 @@
 
 On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary differential cohomology]]:
 
-* {#BBSS15} Christian Becker, [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. 349, 361 (2017) ([arXiv:1511.00316](https://arxiv.org/abs/1511.00316))
+* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
+
 
 On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
 
