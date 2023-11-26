@@ -67,11 +67,11 @@ $$
   \big)
 $$
 
-is due to [Chern 50, (11)](#Chern50), [Bott 73, p. 239 (5 of 15)](#Bott73).
+is due to [Chern 1950 (11)](#Chern50); [Bott 1973, p. 239 (5 of 15)](#Bott73).
 
 (Here $k$ is the [[ground field]] of [[characteristic zero]]).
 
-That the [[rational cohomology]] algebra of $B G$, with trivial differential, is the [[minimal Sullivan model]] for $B G$ is discussed for instance in ([Félix-Oprea-Tanré 08](#FelixOpreaTanre08)).
+That the [[rational cohomology]] algebra of $B G$, with trivial differential, is the [[minimal Sullivan model]] for $B G$ is discussed for instance in [Félix, Oprea & Tanré 20 08](#FelixOpreaTanre08).
 
 =--
 
