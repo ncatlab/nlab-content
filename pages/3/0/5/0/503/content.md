@@ -431,6 +431,8 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 * When $\mathcal{V} =$ **[[SupLat]]** is the category of [[suplattices]], a $\mathcal{V}$-category is a locally posetal, [[locally cocomplete bicategory]], i.e. a [[quantaloid]]. The Cauchy completion is some sort of completion under _arbitrary_ sums: it is large even if the original quantaloid is small, and its existence depends on the precise definition we choose of Cauchy completion.  See [Johnson](#J1989) for more details.
 
+* When $\mathcal{V} =$ **[[Cat]]** is the category of [[small categories]], a $\mathcal{V}$-category is a [[2-category]]. Cauchy complete 2-categories are those for which the underlying category is Cauchy complete (see this [MathOverflow answer](https://mathoverflow.net/a/397943)).
+
 * In the $\infty$-categorical context, we can consider enrichment in the $\infty$-category of [[spectra]]. The Cauchy completion of an $\infty$-category enriched in spectra is its completion under _all finite colimits_.
 
 * Generalizing to bicategorical enrichment, we can construct from a [[site]] $(\mathcal{C}, J)$ a certain bicategory $\mathcal{W}$ such that the Cauchy complete, symmetric, skeletal $\mathcal{W}$-categories are just the sheaves on $(\mathcal{C}, J)$. Variations on this theme can yield $\mathcal{C}$-indexed categories, stacks, prestacks, or presheaves as Cauchy completions or sub-Cauchy completions for categories enriched in certain bicategories.
