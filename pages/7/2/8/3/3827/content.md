@@ -124,11 +124,10 @@ In a (possibly virtual) compact double category, we can define internal notions 
 [[!redirects autonomous virtual double categories]]
 [[!redirects virtually autonomous double categories]]
 [[!redirects virtually autonomous virtual double categories]]
-[[!redirects compact closed double category]]
-[[!redirects compact closed double categories]]
 [[!redirects autonomous equipment]]
 [[!redirects autonomous proarrow equipment]]
 [[!redirects autonomous virtual equipment]]
 [[!redirects virtually autonomous equipment]]
 [[!redirects virtually autonomous proarrow equipment]]
 [[!redirects virtually autonomous virtual equipment]]
+
