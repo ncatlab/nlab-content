@@ -1,5 +1,5 @@
 
-$\Sigma$ a [[surface]]
+$\Sigma$ a [[connected topological space|connected]] [[closed manifold|closed]] [[surface]]
 
 
 $$
@@ -19,7 +19,6 @@ $$
 $$
 
 $$
-  \Omega
   Maps\big(
     \Sigma, 
     \,
@@ -28,24 +27,68 @@ $$
     B U(1)
   \big)
   \;\simeq\;
-  \mathbb{Z} \times \mathbb{Z}
-  \times
-  \big(
-    H^1(\Sigma; \mathbb{Z})
-    \times
-    B H^1(\Sigma; \mathbb{Z})
-    \sqcup
-    H^1(\Sigma; \mathbb{Z})
-    \times
-    B H^1(\Sigma; \mathbb{Z})
+  Maps\big(
+    \Sigma, 
+    \,
+    B U(1)
   \big)
+  \times
+  Maps\big(
+    \Sigma, 
+    \,
+    B U(1)
+  \big)
+  \;\simeq\;
+  H^2(\Sigma;\mathbb{Z})
+  \times
+  H^2(\Sigma;\mathbb{Z})
+  \times
+  \underset{
+    B\big(
+      H^1(\Sigma; \mathbb{Z}) \times H^1(\Sigma; \mathbb{Z})
+    \big)
+  }{
+    \underbrace{
+      B H^1(\Sigma; \mathbb{Z})
+      \times
+      B H^1(\Sigma; \mathbb{Z})
+    }
+  }
+$$
+
+$$
+  \Omega_{
+    \Phi^\Sigma_E,
+    \Phi^\Sigma_B
+  }
+  Maps\big(
+    \Sigma, 
+    \,
+    B U(1)
+    \times
+    B U(1)
+  \big)
+  \;\simeq\;
+  \Omega
+  \Big(
+    B 
+    \big(
+      H^1(\Sigma; \mathbb{Z})
+      \times
+      H^1(\Sigma; \mathbb{Z})
+    \big)
+  \Big)
+  \simeq
+  H^1(\Sigma; \mathbb{Z})
+  \times
+  H^1(\Sigma; \mathbb{Z})
 $$
 
 $$
   H_\bullet
   \Big(
-  \Omega
-  Maps\big(
+  \Omega_{\Phi^\Sigma_E, \Phi^\Sigma_B}
+   Maps\big(
     \Sigma, 
     \,
     B U(1)
@@ -54,16 +97,14 @@ $$
   \big)
   \Big)
   \;\simeq\;
-  \underset{
-    \mathbb{Z} \times \mathbb{Z}
+  \mathbb{C}[
+    H^1(\Sigma; \mathbb{Z})
     \times
     H^1(\Sigma; \mathbb{Z})
-  }{\osum}
-  \otimes
-  H_\bullet\big(
-    B H^1(\Sigma; \mathbb{Z})
-  \big)
+  ]
 $$
+
+(group algebra)
 
 
 ***
