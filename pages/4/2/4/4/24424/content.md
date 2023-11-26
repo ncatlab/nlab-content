@@ -1,4 +1,4 @@
-I'm a French [[math]]/[[computer science]] student based in Ottawa. I'm doing a PhD (I'm in first year), my supervisors are [[Rick Blute]] and [[Phil Scott]].
+I'm a French [[math]] PhD student ar the University of Ottawa. My supervisors are [[Rick Blute]] and [[Phil Scott]].
 
  I'm interested by the [[logic|logical]] approach to [[differentiation]] through [[differential linear logic]] and [[differential categories]]. I like trying to combine ideas from this field with the notion of [[graded modality]] to talk about ubiquitous functors in mathematics such as [[symmetric powers|symmetric]], [[exterior powers|exterior]], [[divided powers]] or [[homology |homology functors]]. 
 
@@ -8,23 +8,23 @@ I like the philosophy of [[Ludwig Wittgenstein]] and think that it is a useful i
 
 ## Projects
 
-I wrote a paper on this:
+I wrote papers on:
 
-- Graded differential linear logic and graded differential categories which index the [[exponential modality]] of differential linear logic or differential categories by a [[rig]]. The project includes graded kinds of [[Seely isomorphism]]. (with [[Jean-Simon Lemay]])
-
-I’m writing a paper on:
-
+- Graded differential linear logic and graded differential categories which index the [[exponential modality]] of differential linear logic or differential categories by a [[rig]]. The project includes graded kinds of [[Seely isomorphism]] (with [[Jean-Simon Lemay]]).
 - A [[string diagrams|string-diagrammatic]] calculus for [[symmetric powers]] based on an algebraic characterization of symmetric powers in symmetric monoidal $\mathbb{Q}^{+}$-linear categories.
 
-I want to write papers on:
+I'm working on:
 
-- Categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]].
-- Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
+- Several little projects related to graded differential categories and symmetric powers in additive symmetric monoidal categories.
+- Higher-order tangent categories which are a categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]].
+- Hasse-Schimdt differential categories which replace usual differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]] in the notion of differential category.
+- I want to make a personal little nLab-like website where I could develop my research in a nice environment but without having to put it on the nLab. I could make transfers to the nLab when some research becomes mature enough.
 
 
 ## Papers
 
-*  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_, 2023, Preprint, [arXiv](https://arxiv.org/abs/2303.10586) 
+*  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_,  FMCS2023, [link](https://entics.episciences.org/paper/view/id/12290)
+ * [[J-B Vienney|Jean-Baptiste Vienney]], _String diagrams for symmetric powers I: In symmetric monoidal $\mathbb{Q}_{\ge 0}$-linear categories_, preprint, [ArXiv](https://arxiv.org/abs/2308.02094)
 
 category: people
 
