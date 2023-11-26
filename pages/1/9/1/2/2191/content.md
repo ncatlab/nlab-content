@@ -117,4 +117,5 @@ A generalisation from [[monoidal categories]] to [[bicategories]] is studied in,
 
 [[!redirects actegory]]
 [[!redirects actegories]]
-[[!redirects actions of a monoidal category]]
+
+
