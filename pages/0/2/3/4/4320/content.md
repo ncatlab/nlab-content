@@ -255,6 +255,11 @@ Further on symmetric powers in [[homotopical algebra|homotopical]]/[[higher alge
 
 * {#GorchinskiyGuletskii16} [[Sergey Gorchinskiy]], [[Vladimir Guletskii]], *Symmetric powers in abstract homotopy categories*, Adv. Math., **292** (2016) 707-754 &lbrack;[arXiv:0907.0730](https://arxiv.org/abs/0907.0730), [doi:10.1016/j.aim.2016.01.011](https://doi.org/10.1016/j.aim.2016.01.011)&rbrack;
 
+Discussion via [[string diagrams]]:
+
+* {#Vienney23} [[Jean-Baptiste Vienney]], *String diagrams for symmetric powers I: In symmetric monoidal $\mathbb{Q}_{\geq 0}$-linear categories* &lbrack;[arXiv:2308.02094](https://arxiv.org/abs/2308.02094)&rbrack;
+
+
 
 [[!redirects symmetric algebras]]
 [[!redirects symmetric power]]
