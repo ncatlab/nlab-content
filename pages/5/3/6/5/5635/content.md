@@ -103,6 +103,11 @@ See also:
 
 * [[Ron Donagi]], [[Josh Guffin]], [[Sheldon Katz]], [[Eric Sharpe]], *A Mathematical Theory of Quantum Sheaf Cohomology*, Asian J. Math. **18** (2014) 387-418 &lbrack;[arXiv:1110.3751](https://arxiv.org/abs/1110.3751), [doi:10.4310/AJM.2014.v18.n3.a1](https://doi.org/10.4310/AJM.2014.v18.n3.a1)&rbrack;
 
+More on the history:
+
+* [[Maxim Kontsevich]], *On the History of quantum cohomology and homological mirror symmetry* (2021) &lbrack;video:[YT](https://youtu.be/Ml2x5NnEQ1I)&rbrack;
+
+
 Introduction and review:
 
 * [[Martin A. Guest]], *Introduction to Quantum Cohomology*, Vietnam Journal of Mathematics **33** SI (2005) 29–59 &lbrack;[pdf](http://www.math.ac.vn/publications/vjm/VJM_33/Pdf_files_DB_2005/Bai3_Guest.pdf)&rbrack;
