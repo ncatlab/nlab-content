@@ -247,7 +247,7 @@ Now it suffices to construct families of identifications
 
 $$f:\prod_{x:A} B(x) \vdash \mathrm{ret}_{\mathrm{congform}(e_A, e_B)}(f):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f$$
 
-$$g:\prod_{x:A' B'(x)} \vdash \mathrm{sec}_{\mathrm{congform}(e_A, e_B)}(g):\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{\prod_{x:A'} B'(x)} g$$
+$$g:\prod_{x:A'} B'(x) \vdash \mathrm{sec}_{\mathrm{congform}(e_A, e_B)}(g):\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) =_{\prod_{x:A'} B'(x)} g$$
 
 from where it implies that $\mathrm{congform}(e_A, e_B)$ has a coherent inverse and contractible fibers and is thus an [[equivalence of types]]. 
 
@@ -285,11 +285,12 @@ $$x:A \vdash \mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mat
 
 one could define the family of dependent functions
 
-$$x:A \vdash \lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y))):\prod_{y:A} (y =_A x) \to B(e_A(x))$$ 
-This means by applying the above dependent function 
-to $e_A^{-1}(e_A(x))$ and $\mathrm{ret}_{e_A}(x)$, one gets the family of identifications
+$$x:A \vdash \lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y))):\left(\sum_{y:A} y =_A x\right) \to B(e_A(x))$$ 
 
-$$x:A \vdash \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))$$ 
+This means by applying the above dependent function 
+to $(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x))$, $(x, \mathrm{refl}_A(x))$ and $(\mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x))$, one gets the family of identifications
+
+$$x:A \vdash \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x))$$ 
 
 in type
 
@@ -308,7 +309,7 @@ Thus by concatenation we have identification
 $$
 \begin{array}{c}
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x))
 \end{array}
 $$
 
@@ -322,7 +323,7 @@ $$
 \begin{array}{c}
 \mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)))
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x))
 \end{array}
 $$
 
@@ -346,7 +347,7 @@ $$
 \begin{array}{c}
 \mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x)) \\
 \bullet \mathrm{ret}_{e_B}(x, f(x))
 \end{array}
 $$
@@ -361,7 +362,7 @@ $$
 \begin{array}{c}
 \lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x)) \\
 \bullet \mathrm{ret}_{e_B}(x, f(x))
 \end{array}
 $$
@@ -376,7 +377,7 @@ $$
 \begin{array}{c}
 \mathrm{ext}_{\prod_{x:A} B(x)}(\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x)) \\
 \bullet \mathrm{ret}_{e_B}(x, f(x)))
 \end{array}
 $$
@@ -395,7 +396,7 @@ $$
 \begin{array}{c}
 \mathrm{ext}_{\prod_{x:A} B(x)}(\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x)) \\
 \bullet \mathrm{ret}_{e_B}(x, f(x))):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f
 \end{array}
 $$ 
@@ -407,7 +408,7 @@ $$
 \mathrm{ret}_{\mathrm{congform}(e_A, e_B)}(f) \coloneqq \\
 \mathrm{ext}_{\prod_{x:A} B(x)}(\lambda x:A.\mathrm{ap}_{e_B(x)^{-1}}(\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), \mathrm{sec}_{e_A}(e_A(x)), e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))), e_B(x)(f(x)), \\
 \mathrm{ap}_{\lambda p:e_A(e_A^{-1}(e_A(x))) =_{A'} e_A(x).\mathrm{transport}_{x:A'.B'(x)}(e_A(e_A^{-1}(e_A(x))), e_A(x), p, e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))))}(\mathrm{sec}_{e_A}(e_A(x)), \mathrm{ap}_{e_A}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x)), \mathrm{coh}_{e_A}(x) \\
-\bullet \mathrm{ap}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x))) \\
+\bullet \mathrm{apbinary}_{\lambda y:A.\lambda p:y =_A x.\mathrm{transport}_{x:A'.B'(x)}(e_A(y), e_A(x), \mathrm{ap}_{e_A}(y, x, p), e_B(y)(f(y)))}(e_A^{-1}(e_A(x)), \mathrm{ret}_{e_A}(x), x, \mathrm{refl}_A(x), \mathrm{ret}_{e_A}(x), \mathrm{apd}_{y:A.y =_A x}(e_A^{-1}(e_A(x)), x, \mathrm{ret}_{e_A}(x), \mathrm{ret}_{e_A}(x), \mathrm{refl}_A(x)) \\
 \bullet \mathrm{ret}_{e_B}(x, f(x))):\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) =_{\prod_{x:A} B(x)} f
 \end{array}
 $$ 
