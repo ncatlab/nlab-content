@@ -341,7 +341,7 @@ A precise formulation of the phenomenon in terms of [[ordinary differential coho
 
 * [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], *Heisenberg Groups and Noncommutative Fluxes*,  Annals Phys. **322** (2007) 236-285 &lbrack;[arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
 
-* {#BBSS15} Christian Becker, [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. 349, 361 (2017) ([arXiv:1511.00316](https://arxiv.org/abs/1511.00316))
+* {#BBSS15} [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
 
 The idea of describing self-dual higher gauge theory by [[holography]] with abelian [[higher dimensional Chern-Simons theory]] in one dimension higher originates in 
 
