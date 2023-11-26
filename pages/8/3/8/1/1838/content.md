@@ -125,6 +125,15 @@ and is further developed in (e.g. regarding [[Hadamard states]]) in
 
 * [[Claudio Dappiaggi]], B. Lang, _Quantization of Maxwell&#8217;s equations on curved backgrounds and general local covariance_, Lett. Math. Phys. 101(3), 265&#8211;287 (2012)
 
+Discussion of global topological effects due to [[flux quantization]]:
+
+* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271**  (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
+
+* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], *Heisenberg Groups and Noncommutative Fluxes*,  Annals Phys. **322** (2007) 236-285 &lbrack;[arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
+
+* [[Alexei Kitaev]], [[Gregory W. Moore]], [[Kevin Walker]], *Noncommuting Flux Sectors in a Tabletop Experiment* &lbrack;[arXiv:0706.3410](https://arxiv.org/abs/0706.3410)&rbrack;
+
+
 [[!redirects electrodynamics]]
 
 [[!redirects Maxwell theory]]
