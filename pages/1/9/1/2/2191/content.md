@@ -90,6 +90,8 @@ For this reason, many concepts from enriched category theory make sense for modu
 
 * [[2-module]], [[n-module]]
 
+* [[monoidal actegory]]
+
 
 ## References
 
