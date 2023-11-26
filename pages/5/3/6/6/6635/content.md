@@ -13,7 +13,6 @@
 =--
 =--
 
-# $M$-complete and $E$-cocomplete categories
 * table of contents
 {:toc}
 
@@ -133,6 +132,8 @@ This is useful in the construction of [[reflective factorization systems]].
 * [[bicomplete category]]
 
 * [[locally bounded category]]
+
+* [[ideal completion]]
 
 
 ## References
