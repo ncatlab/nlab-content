@@ -8,8 +8,6 @@
 =--
 =--
 
-# Transfinite constructions of free algebras, etc.
-
 * table of contents
 {: toc}
 
