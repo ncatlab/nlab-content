@@ -627,15 +627,6 @@ In a given ambient context, the following are equivalent:
 For instance ([BorceuxDejean, prop. 5](#BorceuxDejean)).
 
 
-## Discussion 
-
-_David_: Concerning the result that on Set the terminal F-coalgebra is the Cauchy completion of the initial F-algebra, for certain F, I wonder if we have to factor completions through the metric space completion, as Barr does in <a href="ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/trmclg.pdf">Terminal coalgebras for endofunctors on sets</a>. Perhaps Adamek's work on <a href="http://citeseer.ist.psu.edu/cache/papers/cs/21985/http:zSzzSzwww.iti.cs.tu-bs.dezSzTI-INFOzSzadamekzSzPaper2000-4.pdf/final-coalgebras-are-ideal.pdf">Final Algebras are Ideal Completions of Initial Algebras</a> is more natural.
-
-Does this all tie in with the [[ideal completion]] as <a href="http://golem.ph.utexas.edu/category/2009/08/chasing_around_the_triangle.html">discussed</a> by Awodey where you sum types/sets in a topos into a universal object?
-
-How many kinds of completion are there for an enriched category? I see some may coincide in certain cases. 
-
-If two categories can be Morita equivalent, should this be reflected in the page [[Morita equivalence]]?
 
 ## Related concepts
 
@@ -655,10 +646,10 @@ If two categories can be Morita equivalent, should this be reflected in the page
 
 The notion of Cauchy complete categories was introduced in
 
-* [[Bill Lawvere]], _Metric spaces, generalized logic and closed categories_ Rend. Sem. Mat. Fis. Milano, 43:135&#8211;166 (1973)
+* {#Lawvere} [[Bill Lawvere]], _Metric spaces, generalized logic and closed categories_ Rend. Sem. Mat. Fis. Milano, 43:135&#8211;166 (1973)
 
   Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
- {#Lawvere}
+ 
 
 Surveys are in 
 
