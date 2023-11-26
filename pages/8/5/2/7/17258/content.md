@@ -205,6 +205,8 @@ $$
 
 * The categories of the form $W/G$ occurring on p.420 and p.424 denote the [[category of elements]] $\int _{W} G$ of the [[presheaf]] $G:W^{op}\to Set$. The background here is that a [[slice topos]] $Set^{\mathcal{C}^{op}}/X$ is equivalent to $Set^{(\int _{\mathcal{C}}X)^{op}} $ (see at [[category of presheaves]] for more details). Whence labeling with $L$ can equivalently be achieved by taking presheaves over $\int _W L$ !
 
+* The construction of Grothendieck that permits internalising a relative age functor mentioned on p.416 is given by the [[category of elements#ColimitPreserving2|right adjoint to the category of elements]] construction (cf. [[Pursuing stacks]], §28).
+
 ## Related entries
 
 * [[Claude Lévi-Strauss]]
@@ -250,6 +252,8 @@ Current textbooks include
 
 * Linda Stone, _Kinship and Gender: An Introduction_ , Westview 2013.
 
+* Murray J. Leaf, Dwight Read, _An Introduction to the Science of Kinship_, Lexington Lanham 2021.
+
 Classical anthropological texts are 
 
 * {#Fox83}Robin Fox, _Kinship and Marriage_ , 2nd ed. Cambridge UP 1983.
@@ -290,6 +294,10 @@ A visit to the library is richly rewarded by the clear and comprehensive exposit
 
 * {#Liu86}Pin-Hsiung Liu, _Foundations of Kinship Mathematics_ , Academica Sinica Nankang 1986.
 
+with companion volume by his collaborator
+
+* S. H. Gould, _A New System for the Formal Analysis of Kinship_, University of America Press Lanham (2000).
+
 The category-theoretic point of view is sketched in
 
 * {#Law99}[[William Lawvere|F. William Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in Jackendoff, Bloom, Wynn (eds.), _Language, Logic, and Concepts_ , MIT Press Cambridge 1999.
@@ -303,6 +311,8 @@ The following pursues an abstract general approach to kinship:
 The general role of group theory in culture is dicussed in
 
 * P. Lucich, _Beyond Formalism: Group Theory in the Symmetries of Culture_ , J. Math. Sociology **16** (1991) pp.221-264.
+
+* P. Lucich, _Genealogical Symmetries: Rational Foundations of Australian Kinship_, Light Stone Publications Armidale (1987).
 
 A group-theoretic approach to Dravidian kinship and universal classification is proposed in
 
