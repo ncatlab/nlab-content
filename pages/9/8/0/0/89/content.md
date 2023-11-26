@@ -115,7 +115,7 @@ By the 'reverse category' of a monoidal category $\mathcal{C}$ we mean the monoi
 * [[projective module]]
 * [[Picard group]]
 * [[bicategory]]
-* [[Cauchy completion]]
+* [[Cauchy completion]], [[Karoubi envelope]]
 
 
 ## References and Literature
