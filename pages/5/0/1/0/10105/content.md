@@ -21,7 +21,7 @@
 
 ## Idea
 
-A compact closed 2-category (also called an *autonomous* symmetric monoidal 2-category) is the (weak) [[2-category]]-analog of the notion of _[[compact closed category]]_.  That is, it is a [[symmetric monoidal 2-category]] in which all objects have duals.
+A compact closed 2-category (also called an *autonomous* symmetric monoidal 2-category) is the (weak) [[2-category]]-analog of the notion of _[[compact closed category]]_.  That is, it is a [[symmetric monoidal 2-category]] in which all objects have [[dual object|duals]].
 
 ## Examples
 
