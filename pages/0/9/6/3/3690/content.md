@@ -43,6 +43,9 @@ On [[general topology]], [[uniform structures]], [[topological groups]] and the 
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
 
+On [[Lie groups]] and [[Lie algebras]]:
+
+* [[Nicolas Bourbaki]], _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
 
 On [[topological vector spaces]]:
 
