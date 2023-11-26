@@ -88,12 +88,15 @@ The original statement of the homological mirror symmetry conjecture is in
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, Proc. ICM Z&#252;rich 1994, [alg-geom/9411018](http://arxiv.org/abs/alg-geom/9411018)
 
-See also
+
+
+See also:
 
 * [[Paul Aspinwall]], [[Brian Greene]], [[David Morrison]], _Calabi-Yau moduli space, mirror manifolds and spacetime topology change in string theory_, Nucl.Phys. B416 (1994) 414-480 ([arXiv:hep-th/9309097](https://arxiv.org/abs/hep-th/9309097))
+
 * [[Philip Candelas]], Xenia C. de la Ossa, Paul S. Green, Linda Parkes, _A pair of Calabi-Yau manifolds as an exactly soluble superconformal theory_, Nuclear Phys. B 359 (1):21--74, 1991
 
-Review contains 
+Review:
 
 * {#HoriVafa00} [[Kentaro Hori]], [[Cumrun Vafa]], _Mirror Symmetry_ ([arXiv:hep-th/0002222](https://arxiv.org/abs/hep-th/0002222))
 
@@ -103,7 +106,11 @@ Review contains
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 10.1.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
-Discussion amplifying the role of [[category theory]], and [[higher geometry]] is in 
+History:
+
+* [[Maxim Kontsevich]], *On the History of quantum cohomology and homological mirror symmetry* (2021) &lbrack;video:[YT](https://youtu.be/Ml2x5NnEQ1I)&rbrack;
+
+Discussion amplifying the role of [[category theory]], and [[higher geometry]]:
 
 * {#Sharpe19} [[Eric Sharpe]], _Categorical equivalence and the renormalization group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
