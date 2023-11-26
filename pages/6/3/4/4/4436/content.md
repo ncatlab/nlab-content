@@ -18,6 +18,8 @@ On the [[2-Grothendieck construction]]:
 
 * [[Yoneda lemma for bicategories]]
 
+* [[para construction]]
+
 category: people
 
 
