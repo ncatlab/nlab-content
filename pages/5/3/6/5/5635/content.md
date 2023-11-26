@@ -33,7 +33,7 @@ Beware that later authors often abbreviate the term from *quantum cohomology rin
 \label{QuantumCohomologyOfComplexProjectiveSpace}
 **(quantum cohomology ring of complex projective space)**
 \linebreak
-The (small) quantum cohomology ring of [[complex projective space]] $\mathbb{C}P^N$ should be
+The (small) quantum cohomology ring of [[complex projective space]] $\mathbb{C}P^{N-1}$, $N \geq 2$, should be
 $$
   QH^\bullet\big(
     \mathbb{C}P^{N-1}
@@ -46,8 +46,21 @@ $$
   \big]/(a_2^N - b_{2N})
   \,.
 $$
+and as such a "[[deformation]]" of the ordinary [[cohomology ring]], which is (see [there](complex+projective+space#eq:CohomologyRing)):
+$$
+  H^\bullet\big(
+    \mathbb{C}P^{N-1}
+    ;\,
+    \mathbb{C}
+  \big)
+  \;\simeq\;
+  \mathbb{C}\big[
+    a_2
+  \big]/(a_2^N)
+  \,.
+$$
 \end{example}
-([Witten (1990) (3.30)](#Witten90), [Cecotti & Vafa (1992) p. 3](#CecottiVafa92), [Cecotti & Vafa (1993) p. 89](#CecottiVafa93), [Bourdeau & Douglas (1994) 3.4](#BourdeauDouglas94), see also [Dorfmeister, Guest & Rossman (2010) p .1](#DorfmeisterGuestRossman10))
+([Witten 1990 (3.30)](#Witten90); [Cecotti & Vafa 1992, p. 3](#CecottiVafa92); [Cecotti & Vafa 1993 p. 89](#CecottiVafa93); [Bourdeau & Douglas 1994 3.4](#BourdeauDouglas94); see also [Dorfmeister, Guest & Rossman 2010, p .1](#DorfmeisterGuestRossman10))
 
 
 
