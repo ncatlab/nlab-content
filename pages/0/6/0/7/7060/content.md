@@ -367,9 +367,18 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 [[!redirects type of propositions]]
 [[!redirects types of propositions]]
+[[!redirects weak type of propositions]]
+[[!redirects weak types of propositions]]
+[[!redirects strict type of propositions]]
+[[!redirects strict types of propositions]]
 
 [[!redirects Russell type of propositions]]
 [[!redirects Russell types of propositions]]
+[[!redirects weak Russell type of propositions]]
+[[!redirects weak Russell types of propositions]]
+[[!redirects strict Russell type of propositions]]
+[[!redirects strict Russell types of propositions]]
+
 [[!redirects Tarski type of propositions]]
 [[!redirects Tarski types of propositions]]
 [[!redirects weak Tarski type of propositions]]
@@ -379,8 +388,18 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 [[!redirects universe of propositions]]
 [[!redirects universes of propositions]]
+[[!redirects weak universe of propositions]]
+[[!redirects weak universes of propositions]]
+[[!redirects strict universe of propositions]]
+[[!redirects strict universes of propositions]]
+
 [[!redirects Russell universe of propositions]]
 [[!redirects Russell universes of propositions]]
+[[!redirects weak Russell universe of propositions]]
+[[!redirects weak Russell universes of propositions]]
+[[!redirects strict Russell universe of propositions]]
+[[!redirects strict Russell universes of propositions]]
+
 [[!redirects Tarski universe of propositions]]
 [[!redirects Tarski universes of propositions]]
 [[!redirects weak Tarski universe of propositions]]
@@ -390,9 +409,18 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 [[!redirects type of all propositions]]
 [[!redirects types of all propositions]]
+[[!redirects weak type of all propositions]]
+[[!redirects weak types of all propositions]]
+[[!redirects strict type of all propositions]]
+[[!redirects strict types of all propositions]]
 
 [[!redirects Russell type of all propositions]]
 [[!redirects Russell types of all propositions]]
+[[!redirects weak Russell type of all propositions]]
+[[!redirects weak Russell types of all propositions]]
+[[!redirects strict Russell type of all propositions]]
+[[!redirects strict Russell types of all propositions]]
+
 [[!redirects Tarski type of all propositions]]
 [[!redirects Tarski types of all propositions]]
 [[!redirects weak Tarski type of all propositions]]
