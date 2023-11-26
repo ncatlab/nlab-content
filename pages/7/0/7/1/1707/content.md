@@ -924,9 +924,9 @@ See also:
 
 Textbook accounts:
 
-* [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
+* [[Kenneth Brown]],  *Cohomology of Groups*, Graduate Texts in Mathematics, **87**, Springer 1982 &lbrack;[doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6)&rbrack;
 
-specifically with an eye towards cohomology of [[finite groups]]
+specifically with an eye towards cohomology of [[finite groups]]:
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
