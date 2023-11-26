@@ -544,6 +544,117 @@ By a common abuse of notation we denote the equivalence by the same name as the 
 $$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A'} B'(x)\right)$$
 \end{proof}
 
+There is also a similar result for typal congruence rule for the formation rule of function types which relies on  [[strict equivalences]].
+
+\begin{theorem}
+Given types $A$ and $A'$ and type families $x:A \vdash B(x)$, $x:A' \vdash B'(x)$ and [[strict equivalence]] $e_A:A \simeq A'$ and dependent function $e_B:\prod_{x:A} B(x) \simeq B'(e_A(x))$, there is a strict equivalence 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A'} B'(x)\right)$$
+\end{theorem}
+
+\begin{proof}
+Since for [[strict equivalences]] $e_A:A \simeq A'$, we have judgmental equalities $e_A(e_A^{-1}(x)) \equiv x:A'$ and $e_A^{-1}(e_A(x)) \equiv x:A$, so we do not need to transport across [[identifications]]. Instead, we define the function 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \to \left(\prod_{x:A'} B'(x)\right)$$ 
+by 
+$$\mathrm{congform}(e_A, e_B) \coloneqq \lambda (f:\prod_{x:A} B(x)).\lambda x:A'.e_B(e_A^{-1}(x))(f(e_A^{-1}(x)))$$
+
+and the inverse function by
+
+$$\mathrm{congform}(e_A, e_B)^{-1} \coloneqq \lambda (f:\prod_{x:A'} B'(x)).\lambda x:A.e_B(x)^{-1}(f(e_A(x)))$$ 
+
+Now it suffices to construct judgmental equalities 
+
+$$f:\prod_{x:A} B(x) \vdash \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv f:\prod_{x:A} B(x)$$
+
+$$g:\prod_{x:A'} B'(x) \vdash \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) \equiv g:\prod_{x:A'} B'(x)$$
+
+from where it implies that $\mathrm{congform}(e_A, e_B)$ is thus a [[strict equivalence]]. 
+
+By definition, we have 
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv \lambda x:A.e_B(x)^{-1}((\lambda x:A'.e_B(e_A^{-1}(x))(f(e_A^{-1}(x))) )(e_A(x)))$$
+
+and by the computation rules of strict dependent product types, we have 
+
+$$(\lambda x:A'.e_B(e_A^{-1}(x))(f(e_A^{-1}(x))) )(e_A(x)) \equiv e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x))))$$
+
+and because $e_A$ is a strict equivalence, we have 
+
+$$e_B(e_A^{-1}(e_A(x)))(f(e_A^{-1}(e_A(x)))) \equiv e_B(x)(f(x))$$
+
+By the congrunence rules for substitution of judgmental equality, we have 
+
+$$\lambda x:A.e_B(x)^{-1}((\lambda x:A'.e_B(e_A^{-1}(x))(f(e_A^{-1}(x))) )(e_A(x))) \equiv \lambda x:A.e_B(x)^{-1}(e_B(x)(f(x)))$$
+
+Since for all $x:A$ each $e_B(x)$ is also a strict equiality, we have 
+
+$$e_B(x)^{-1}(e_B(x)(f(x))) \equiv f(x)$$
+
+by the congruence rules for subsitution of judgmental equality, we have
+
+$$\lambda x:A.e_B(x)^{-1}(e_B(x)(f(x))) \equiv \lambda x:A.f(x)$$
+
+and by the uniqueness rule of dependent function types we have 
+
+$$\lambda x:A.f(x) \equiv f$$
+
+thus by the transitive rule for judgmental equality we have
+
+$$\mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv f$$
+
+for all $f:\prod_{x:A} B(x)$
+
+Similarly, by definition, we have 
+$$\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(f)) \equiv \lambda x:A'.e_B(e_A^{-1}(x))(( \lambda x:A.e_B(x)^{-1}(f(e_A(x))) )(e_A^{-1}(x)))$$
+
+and by the computation rules for strict dependent product types, we have 
+
+$$( \lambda x:A.e_B(x)^{-1}(f(e_A(x))) )(e_A^{-1}(x)) \equiv e_B(e_A^{-1}(x))^{-1}(f(e_A(e_A^{-1}(x))))$$
+
+and because $e_A$ is a strict equivalence, we have 
+
+$$e_B(e_A^{-1}(x))^{-1}(f(e_A(e_A^{-1}(x)))) \equiv e_B(e_A^{-1}(x))^{-1}(f(x))$$
+
+By the congrunence rules for substitution of judgmental equality, we have 
+
+$$\lambda x:A'.e_B(e_A^{-1}(x))(( \lambda x:A.e_B(x)^{-1}(f(e_A(x))) )(e_A^{-1}(x))) \equiv \lambda x:A'.e_B(e_A^{-1}(x))(e_B(e_A^{-1}(x))^{-1}(f(x)))$$
+
+Since for all $x:A$ each $e_B(x)$ is also a strict equiality, we have 
+
+$$e_B(e_A^{-1}(x))(e_B(e_A^{-1}(x))^{-1}(f(x))) \equiv f(x)$$
+
+by the congruence rules for subsitution of judgmental equality, we have
+
+$$\lambda x:A'.e_B(e_A^{-1}(x))(e_B(e_A^{-1}(x))^{-1}(f(x))) \equiv \lambda x:A'.f(x)$$
+
+and by the uniqueness rule of dependent function types we have 
+
+$$\lambda x:A.f(x) \equiv f$$
+
+thus by the transitive rule for judgmental equality we have
+
+$$\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(f)) \equiv f$$
+
+for all $f:\prod_{x:A'} B'(x)$. 
+
+Since we have functions
+
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \to \left(\prod_{x:A'} B'(x)\right)$$ 
+
+$$\mathrm{congform}(e_A, e_B)^{-1}:\left(\prod_{x:A'} B'(x)\right) \to \left(\prod_{x:A} B(x)\right)$$
+
+and families of judgmental equalities
+
+$$f:\prod_{x:A} B(x) \vdash \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv f:\prod_{x:A} B(x)$$
+
+$$g:\prod_{x:A'} B'(x) \vdash \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) \equiv g:\prod_{x:A'} B'(x)$$
+
+we could form the strict equivalence 
+
+$$\mathrm{toEquiv}(\mathrm{congform}(e_A, e_B), \mathrm{congform}(e_A, e_B)^{-1}):\left(\prod_{x:A'} B'(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
+
+By a common abuse of notation we denote the strict equivalence by the same name as the underlying function $\mathrm{congform}(e_A, e_B)$; thus we have 
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A'} B'(x)\right)$$
+\end{proof}
+
 #### Weak dependent product types
 
 \begin{theorem}
