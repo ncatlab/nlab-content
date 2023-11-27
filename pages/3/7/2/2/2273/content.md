@@ -62,6 +62,9 @@ The coadjoint orbits are the [[symplectic leaves]] of that structure; hence each
 
 ## References
 
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78} [[François Bayen]], [[Moshé Flato]], [[Christian Fronsdal]], [[André Lichnerowicz]], [[Daniel Sternheimer]], pp. 66 in: _Deformation theory and quantization. I. Deformations of symplectic structures._, Annals of Physics **111** 1 (1978) 61-110 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90224-5">doi:10.1016/0003-4916(78)90224-5</a>&rbrack;
+
+
 * Bradley N. Currey, _The Structure of the Space of Coadjoint Orbits of an Exponential Solvable Lie Group_, ransactions of the American Mathematical Society
 Vol. 332, No. 1 (Jul., 1992), pp. 241-269, ([JSTOR](http://www.jstor.org/stable/2154031))
 
