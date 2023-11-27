@@ -223,7 +223,7 @@ The identification with reduced phase spaces of the open Poisson sigma-model is 
 
 Further developments:
 
-* {#Weinstein91} [[Alan Weinstein]], *Noncommutative geometry and geometric quantization*, in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Progr. Math **99** Birkh&#228;user (1991) 446-461
+* {#Weinstein91} [[Alan Weinstein]], *Noncommutative geometry and geometric quantization*, in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Progr. Math **99** Birkh&#228;user (1991) 446-461.  [doi](https://doi.org/10.1007/978-1-4757-2140-9_23).
 
 * [[Ping Xu]], _Morita equivalence and symplectic realizations of Poisson manifolds_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 25 no. 3 (1992) ([NUMDAM](http://www.numdam.org/item?id=ASENS_1992_4_25_3_307_0))
 
