@@ -52,6 +52,11 @@ On the local formulation (allowing decomposition and re-gluing of [[spacetime]])
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
+and relation to [[BF-theory]]:
+
+* [[Alberto S. Cattaneo]], [[Leon Menger]], [[Michele Schiavina]], *Gravity with torsion as deformed BF theory* &lbrack;[arXiv:2310.01877](https://arxiv.org/abs/2310.01877)&rbrack;
+
+
 On the [[relativistic particle]], and related systems, in [[BV-BRST formalism]]:
 
 * [[Alberto Cattaneo]], [[Michele Schiavina]], _On time_, Lett. Math. Phys. **107** (2017) 375-408 &lbrack;[doi:10.1007/s11005-016-0907-x](https://doi.org/10.1007/s11005-016-0907-x), [arXiv:1607.02412](http://arxiv.org/abs/1607.02412)&rbrack;
