@@ -336,10 +336,8 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 #### Deformation by universal enveloping algebras
  {#RelationToUniversalEnvelopingAlgebras}
 
-It is a classical fact that
-the [[universal enveloping algebra]] of a [[Lie algebra]] provides
-a deformation quantization of the corresponding [[Lie-Poisson structure]]
-(example \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below).
+It is a classical fact &lbrack;[Gutt 1983, §4](#Gutt83), cf. [Gutt 2011, §2.2](#Gutt11)&rbrack; that
+the [[universal enveloping algebra]] of a [[Lie algebra]] provides a deformation quantization of the corresponding [[Lie-Poisson structure]] (example \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below).
 Remarkably, this statement generalizes to more general [[polynomial Poisson algebras]] (def. \ref{PolynomialPoissonAlgebra} below)
 for a suitable generalized concept of universal enveloping algebra (def. \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below):
 it is _always_ true up to third order in $\hbar$, and sometimes to higher order ([Penkava-Vanhaecke 00, theorem 3.2](#PenkavaVanhaecke00), prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3} below).
@@ -486,7 +484,7 @@ always provides a deformation quantization of order $3$ in $\hbar$.
 **([[formal deformation quantization]] of [[Lie-Poisson structures]] by universal enveloping algebras)**
 
 In the following cases the map $\tau$ in prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
-is injective to arbitrary order, hence in these cases the universal enveloping algebra provides a genuine [[formal deformation quantization]]:
+is injective to arbitrary order, hence in these cases the [[universal enveloping algebra]] provides a genuine [[formal deformation quantization]]:
 
 1. The case that the Poisson bracket is [[linear Poisson structure|linear]] in that it restricts as
 
@@ -524,8 +522,8 @@ is injective to arbitrary order, hence in these cases the universal enveloping a
 
 =--
 
-This is ([Penkava-Vanhaecke 00, p. 26](#PenkavaVanhaecke00))
-The first statement in itself is a classical fact (reviewed e.g. in [Gutt 11](#Gutt11)).
+This is [Penkava & Vanhaecke 2000, p. 26](#PenkavaVanhaecke00).
+The first statement in itself is a classical fact (reviewed e.g. in [Gutt 2011](#Gutt11)).
 
 
 
@@ -589,11 +587,17 @@ Review:
 
 * [[Daniel Sternheimer]], _Deformation Quantization: Twenty Years After_, AIP Conf. Proc. **453** (1998) 107-145 &lbrack;[arXiv:math/9809056](https://arxiv.org/abs/math/9809056)&rbrack;
 
+See also:
+
+* {#Gutt83} [[Simone Gutt]], *An explicit $\ast$-product on the cotangent bundle of a Lie group*, Letters in Mathematical Physics **7** (1983) 249–258 &lbrack;[doi:10.1007/BF00400441](https://doi.org/10.1007/BF00400441)&rbrack;
+
+* {#Gutt11} [[Simone Gutt]], _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs **17** (2011) 171-220 &lbrack;[gtm:17](https://msp.org/gtm/2011/17/p003.xhtml), [pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf), [arXiv:math/0003107](https://arxiv.org/abs/math/0003107)&rbrack;
+
+
 Monographs:
 
-* {#Waldmann07} [[Stefan Waldmann]], _Poisson-Geometrie und Deformationsquantisierung_, Springer (2007) &lbrack;[doi:10.1007/978-3-540-72518-3](https://doi.org/10.1007/978-3-540-72518-3)&rbrack;
+* {#Waldmann07} [[Stefan Waldmann]], *Poisson-Geometrie und Deformationsquantisierung*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-72518-3](https://doi.org/10.1007/978-3-540-72518-3)&rbrack;
 
-* {#Gutt11} [[Simone Gutt]], _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs **17** (2011) 171-220 &lbrack;[gtm:17](https://msp.org/gtm/2011/17/p003.xhtml), [pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf)&rbrack;
 
 
 The [[Fedosov deformation quantization]] prescription for deformation quantization of [[symplectic manifolds]] and varieties and also of [[Poisson manifolds]] that have a [[regular foliation]] by [[symplectic leaves]] is discussed in
@@ -641,15 +645,15 @@ The classification of the space of such formal deformation quantization is discu
 
 Deformation quantization of [[polynomial Poisson algebras]] via [[universal enveloping algebra]] (generalizing that of [[Lie-Poisson structures]]) is discussed in
 
-* {#PenkavaVanhaecke00} [[Michael Penkava]], [[Pol Vanhaecke]], _Deformation Quantization of Polynomial Poisson Algebras_, Journal of Algebra
-227, 365&#241;393 (2000) ([arXiv:math/9804022](https://arxiv.org/abs/math/9804022))
+* {#PenkavaVanhaecke00} [[Michael Penkava]], [[Pol Vanhaecke]], *Deformation Quantization of Polynomial Poisson Algebras*, Journal of Algebra **227** 1 (2000) 365-393  &lbrack;[arXiv:math/9804022](https://arxiv.org/abs/math/9804022), [doi:10.1006/jabr.1999.8239](https://doi.org/10.1006/jabr.1999.8239)&rbrack;
+
+
 
 
 Deformation quantization of algebraic varieties is in
 
-*  [[Amnon Yekutieli]], Deformation Quantization in Algebraic Geometry,
-Advances in Mathematics 198 (2005), 383-432.
-Erratum: Advances in Mathematics  217 (2008), 2897-2906.
+* [[Amnon Yekutieli]], Deformation Quantization in Algebraic Geometry, Advances in Mathematics **198** (2005) 383-432.
+Erratum: Advances in Mathematics  **217** (2008) 2897-2906.
 
 See also
 
@@ -698,7 +702,8 @@ The formulation of deformation quantization as lifts from [[P-n operads]] over [
 
 See also
 
-* [wikipedia](http://en.wikipedia.org/wiki/Weyl_quantization#Deformation_quantization)
+* [Wikipedia](http://en.wikipedia.org/wiki/Weyl_quantization#Deformation_quantization)
+
 * F. Bayen, M. Flato, C. Fronsdal, A. Lichnerowicz, D. Sternheimer, _Quantum mechanics as a deformation of classical mechanics_, Lett. Math. Phys. 1 (1975/77), [MR674337](http://www.ams.org/mathscinet-getitem?mr=674337), [doi](http://dx.doi.org/10.1007/BF00399745);  _Deformation theory and quantization. I. Deformations of symplectic structures_, Ann. Physics 111 (1978), no. 1, 61&#8211;110, [MR496157](http://www.ams.org/mathscinet-getitem?mr=496157); _Deformation theory and quantization. II. Physical applications_, Ann. Physics 111 (1978), no. 1, 111&#8211;151, [MR496158](http://www.ams.org/mathscinet-getitem?mr=496158)
 * M. Flato, A. Lichnerowicz, D. Sternheimer, _Deformations of Poisson brackets, Dirac brackets and applications_, J. Math. Phys. __17__ (1976), no. 9, 1754&#8211;1762, [MR420723](http://www.ams.org/mathscinet-getitem?mr=420723), [doi](http://dx.doi.org/10.1063/1.523104)
 * D. Arnal, J.-C. Cortet, _$\ast$-products in the method
