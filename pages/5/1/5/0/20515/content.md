@@ -15,6 +15,10 @@ On the [[phase space]] of [[first-order formulation of gravity|first-order]] [[g
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
+and relation to [[BF-theory]]:
+
+* [[Alberto S. Cattaneo]], [[Leon Menger]], [[Michele Schiavina]], *Gravity with torsion as deformed BF theory* &lbrack;[arXiv:2310.01877](https://arxiv.org/abs/2310.01877)&rbrack;
+
 
 Discussion of the [[Nambu-Goto action]] and [[Polyakov action]] on [[worldsheets]] with [[manifold with boundary|boundary]] (i.e. in the generality of [[open strings]]) and cast in [[BV-BRST formalism]]:
 
