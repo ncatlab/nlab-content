@@ -1,4 +1,3 @@
-[[!redirects actegory]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
