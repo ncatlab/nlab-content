@@ -292,7 +292,7 @@ Declare the [[wedge product]] pairing to be given by
 
 where $\alpha$, $\beta$ are assumed to be of homogeneous degree $n_\alpha, n_\beta \in \mathbb{N}$, respectively.
 
-(Notice that the usual normalization factor of $1/2$ is _not_ included on the right. This normalization follows [Andrews-Arkowitz 78, above Thm. 6.1](#AndrewsArkowitz78).)
+(Notice that the usual normalization factor of $1/2$ is _not_ included on the right. This normalization follows [Andrews & Arkowitz 1978, above Thm. 6.1](#AndrewsArkowitz78).)
 
 Finally, write
 
@@ -333,9 +333,9 @@ $$
       &\overset{ [-]_2\circ d_X }{\longrightarrow}& 
     V^\ast \wedge V^\ast
     \\
-    \big\downarrow^{ \mathrlap{=} }
+    \big\downarrow\mathrlap{^=}
     &&
-    \big\downarrow^{ \mathrlap{\Phi} }
+    \big\downarrow\mathrlap{^\Phi}
     \\
     Hom_{Ab}
     \big(
@@ -372,10 +372,16 @@ where the wedge product on the right is normalized as in (eq:WedgeProductNormali
 
 ([Andrews & Arkowitz 1978, Thm. 6.1](#AndrewsArkowitz78), following [Deligne, Griffiths, Morgan & Sullivan 1975](#DeligneGriffithsMorganSullivan75))
 
+\begin{remark}
+\label{AbsenceOfJacobiatorInWhiteheadBracket}
+Prop. \ref{CoBinarySullivanDifferentialIsWhiteheadProduct} says in particular that the binary bracket of the [[L-infinity-algebra|$L_\infty$-algebra]] dual to a [[Sullivan model]] is always an actual [[super Lie bracket]] hence satisfies the super-[[Jacobi identity]], even if there happens to also be a nontrivial trinary bracket which would serve as a "[[Jacobiator]]". 
 
-###Relation to Goodwillie Calculus:
+This is due to the [[minimal model|minimality]] of Sullivan models, which implies that the co-unary part of their [[differential]] vanishes, and hence that that the unary bracket of the corresponding $L_\infty$-algebra vanishes. Since the failure of the Jacobi identity on binary brackets in an $L_\infty$-algebra is measured not by the trinary bracket itself but by its composition with the unary bracket, this vanishes in the above case.
+\end{remark}
 
-See e.g. [Scherer & Chorny 2011, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson products]].
+### Relation to Goodwillie Calculus:
+
+On the relation to [[Goodwillie calculus]] see e.g. [Scherer & Chorny 2011, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson products]].
 
 ## Examples
 
@@ -485,7 +491,7 @@ Discussion of Whitehead products in [[rational homotopy theory]] ([[the co-binar
 
 * {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
-* {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+* {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], *Sullivan's Minimal Models and Higher Order Whitehead Products*, Canadian Journal of Mathematics, **30** 5 (1978) 961-982 &lbrack;[doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6)&rbrack;
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J. C. Thomas, Prop. 13.16 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000)
 
