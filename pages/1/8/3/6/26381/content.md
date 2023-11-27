@@ -26,14 +26,14 @@ Roughly, it is an [[actegory]] whose _actee_ is monoidal and such that the actio
 ## Definition
 Since pseudoactions are actions of [[pseudomonoids]], and since a pseudomonoid in $\mathbf{MonCat}$ is a [[braided monoidal category]], monoidal actegories are always actions of braided monoidal categories.
 
-The following comes from Definition 5.1.1 in ([Capucci and Gravranovic 2022](#CG22)):
+The following comes from Definition 5.1.1 in ([Capucci and Gavranović 2022](#CG22)):
 
 \begin{definition}
 Let $(\mathcal{M}, j, \otimes)$ be a braided monoidal category.
 A left *monoidal $\mathcal{M}$-actegory* is a monoidal category $(\mathcal{C}, i,\boxtimes)$ together with a strong monoidal functor, called **action**, $\odot:\mathcal{M} \times \mathcal{C} \to \mathcal{C}$, and monoidal natural transformations $\eta_x : j \odot x \to x$, $\mu_{m,n,x} : (m \otimes n) \odot x \to m \odot (n \odot x)$ satisfying the coherence laws of unitor and multiplicator of an [[actegory]].
 \end{definition}
 
-All the coherence laws of a monoidal actegory are spelled out in Appendix A of ([Capucci and Gravranovic 2022](#CG22)).
+All the coherence laws of a monoidal actegory are spelled out in Appendix A of ([Capucci and Gavranović 2022](#CG22)).
 
 The fact $\odot$ is strong monoidal means it comes equipped with a structural morphism called **mixed interchanger**:
 \[
@@ -44,7 +44,7 @@ It would also come with $\upsilon : i \to j \odot i$, but the monoidality of $\e
 ### Braiding
 Consider pseudoactions in $\mathbf{BrMonCat}$ and $\mathbf{SymMonCat}$. Now carriers of the action are braided functors, and the actee are braided monoidal categories.
 
-The following appear as 5.4.1 and 5.4.3 in ([Capucci and Gravranovic 2022](#CG22)):
+The following appear as 5.4.1 and 5.4.3 in ([Capucci and Gavranović 2022](#CG22)):
 
 \begin{definition}
 Let $(\mathcal{M}, j, \otimes, \sigma)$ be a symmetric monoidal category.
@@ -72,7 +72,7 @@ When the action is monoidal, braided or symmetric monoidal, the classifier is di
 * Braided monoidal actions are classified by $\Sigma(\mathcal{C})$, i.e. the [[symmetric center]] of $\mathcal{C}$, which is the full subcategory of $\mathcal{C}$ spanned by those objects $x:\mathcal{C}$ such that $\beta_{x,-}\beta_{-,x} = 1$.
 * Symmetric monoidal actions are classified by $\mathcal{C}$ itself. In fact a symmetric monoidal action $\odot$ of $\mathcal{M}$ on $\mathcal{C}$ gives a symmetric monoidal functor $- \odot i : \mathcal{M} \to \mathcal{C}$, and viceversa $F(-) \boxtimes -$ is a symmetric monoidal action whenever $\mathcal{M} \to \mathcal{C}$ is a [[braided monoidal functor]] between [[symmetric monoidal categories]].
 
-This is all proven in Section 5.5 of [Capucci & Gravranovic 2022](#CG22).
+This is all proven in Section 5.5 of [Capucci & Gavranović 2022](#CG22).
 
 ## See also
 * [[actegories]], [[pseudoaction]]
@@ -81,7 +81,7 @@ This is all proven in Section 5.5 of [Capucci & Gravranovic 2022](#CG22).
 
 ## References
 
-* {#CG22} [[Matteo Capucci]], Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
+* {#CG22} [[Matteo Capucci]], [[Bruno Gavranović]], _Actegories for the working amthematician_ &lbrack;[arXiv:2203.16351](https://arxiv.org/abs/2203.16351)&rbrack;
 
 [[!redirects monoidal actions of a monoidal category]]
 [[!redirects monoidal actions of monoidal categories]]
