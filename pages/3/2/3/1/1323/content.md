@@ -29,6 +29,8 @@ A [[category]] $C$  with [[finite products]] $(-)\times(-)$ and [[finite coprodu
 $$ X\times Y + X\times Z \longrightarrow X\times (Y+Z)$$
 is an [[isomorphism]].  The canonical morphism is the unique morphism such that $X\times Y \to X\times (Y+Z)$ is $X\times i$, where $i\colon Y\to Y +Z$ is the coproduct injection, and dually for $X\times Z \to X\times (Y+Z)$.
 
+Equivalently, a category $C$ with finite products and coproducts is distributive if for any $X \in C$, the functor $X \times -$ [[preserved limit|preserves finite coproducts]].
+
 =--
 
 +-- {: .num_remark}
@@ -91,16 +93,18 @@ Given an arrow $f: A \to 0$, we have that $\pi_A: A \times 0 \to A$ is a retract
 ## Examples
  {#Examples}
 
-
-For example:
+Every [[bicartesian closed category]] is distributive since in that case the cartesian product $X \times -$ is a [[left adjoint]] and then the distributivity requirement is an instance of the [[adjoints preserve (co-)limits|preservation of colimits by left adjoints]].
+For example,
 
 * the category [[Set]] of [[sets]], 
 
-* any [[topos]], 
+* any [[topos]].
+
+But closedness is far from necessary, for example
 
 * the category [[Top]] of [[topological spaces]] with respect to forming [[product topological spaces]] and [[disjoint union topological spaces]];
 
-are distributive categories (hence [[distributive monoidal categories]], hence [[rig categories]]).
+is a distributive category.
 
 These categories have in common that they are [[extensive category|extensive]]. An example[^Freyd] of a distributive category that is not extensive is given by
 
