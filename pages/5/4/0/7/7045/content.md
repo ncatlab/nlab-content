@@ -220,16 +220,16 @@ $$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {
 
 As a [[weak Tarski universe]], the type of all types which satisfy $P$ is given by the following [[natural deduction]] [[inference rules]]:
 
-Formation rules for the type of all finite types:
+Formation rules for the type of all types which satisfy $P$:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
 
-Introduction rules for the type of all finite types:
+Introduction rules for the type of all types which satisfy $P$:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
 
-Elimination rules for the type of all finite types:
+Elimination rules for the type of all types which satisfy $P$:
 $$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(\mathrm{El}(A))}$$
 
-Computation rules for the type of all finite types:
+Computation rules for the type of all types which satisfy $P$:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toElem}_A(p)) \simeq A \; \mathrm{type}}$$
 
