@@ -74,6 +74,8 @@ Derivation from [[open string field theory]] is discussed in
 
 * [[Taejin Lee]], _Covariant Open String Field Theory on Multiple D$p$-Branes_ ([arXiv:1703.06402](https://arxiv.org/abs/1703.06402))
 
+* [[Harold C. Steinacker]], [[Tung Tran]], *Soft limit of higher-spin interactions in the IKKT model* &lbrack;[arXiv:2311.14163](https://arxiv.org/abs/2311.14163)&rbrack;
+
 
 Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
 
@@ -89,7 +91,7 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Yuhma Asano]], [[Harold Steinacker]], *Spherically symmetric solutions of higher-spin gravity in the IKKT matrix model*, Nuclear Physics B **980** (2022) 115843 &lbrack;[arXiv:2112.08204](https://arxiv.org/abs/2112.08204), [doi:10.1016/j.nuclphysb.2022.115843](https://doi.org/10.1016/j.nuclphysb.2022.115843)&rbrack;
 
-* [[Harold Steinacker]], Tung Tran, *Spinorial higher-spin gauge theory from IKKT in Euclidean and Minkowski signatures* &lbrack;[arXiv:2305.19351](https://arxiv.org/abs/2305.19351)&rbrack; 
+* [[Harold Steinacker]], [[Tung Tran]], *Spinorial higher-spin gauge theory from IKKT in Euclidean and Minkowski signatures* &lbrack;[arXiv:2305.19351](https://arxiv.org/abs/2305.19351)&rbrack; 
 
 
 Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
