@@ -2036,9 +2036,11 @@ Stone-von Neumann**
 
   **Poisson Structures from Corners of Field Theories**
 
+  slides: [[Cattaneo-PoissonStrucFromCorners.pdf:file]]
+
   cf. [arXiv:2310.01877](first-order+formulation+of+gravity#CattaneoMengerSchiavina23)
 
-  > The [[BV formalism]] and its shifted versions in [[field theory]] have a nice compatibility with [[boundary field theory|boundary]] structures. Namely, one such structure in the [[bulk]] induces a shifted (possibly degenerated) version on its boundary, which can be interpreted as a [[Poisson structure]] ([[Poisson n-algebra|up to homotopy]]). I will present the results for some field theories, in particular, 4D [[BF theory]] and [[Einstein gravity|4D gravity]].
+  > The [[BV formalism]] and its [[shifted symplectic structure|shifted]] versions in [[field theory]] have a nice compatibility with [[boundary field theory|boundary]] structures. Namely, one such structure in the [[bulk]] induces a shifted (possibly degenerated) version on its boundary, which can be interpreted as a [[Poisson structure]] ([[Poisson n-algebra|up to homotopy]]). I will present the results for some field theories, in particular, 4D [[BF theory]] and [[Einstein gravity|4D gravity]].
 
 
 \linebreak
@@ -2279,6 +2281,7 @@ Researchers:
 
 
 ***
+
 
 \linebreak
 
