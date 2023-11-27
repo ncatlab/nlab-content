@@ -6,11 +6,11 @@ Alain Connes (born on April 1, 1947) is a French mathematician, Fields medalist 
 
 ## Research
 
-Most recently Connes is studying number theory including connections to the "thermodynamic aspect" via the [[KMS state]]s, to the absolute geometry via the [[field with one element]] and a related approach to the [[Riemann hypothesis]]. 
+Most recently Connes is studying number theory including connections to the "thermodynamic aspect" via the [[KMS state|KMS states]], to the absolute geometry via the [[field with one element]] and a related approach to the [[Riemann hypothesis]]. 
 
-Alain Connes uses intuition from [[mathematical physics]] like the notion of KMS state and has introduced  the noncommutative extensions of [[standard model of particle physics]] predicting a value for the mass of [[Higgs particle]]. He proposed elements of a  unification of [[gravity]] and [[gauge theories]] via [[spectral action]] functionals on spaces of [[spectral triple]]s. 
+Alain Connes uses intuition from [[mathematical physics]] like the notion of KMS state and has introduced  the noncommutative extensions of [[standard model of particle physics]] predicting a value for the mass of [[Higgs particle]]. He proposed elements of a  unification of [[gravity]] and [[gauge theories]] via [[spectral action]] functionals on spaces of [[spectral triple|spectral triples]]. 
 
-Connes is most well known for introducing a dominant direction to  [[noncommutative geometry]] where his contributions include, most remarkably, the introduction of [[cyclic homology]] and its connections to the [[K-theory]] of spaces and of [[operator algebra]]s, study of fundamental examples of noncomutative spaces like 
+Connes is most well known for introducing a dominant direction to  [[noncommutative geometry]] where his contributions include, most remarkably, the introduction of [[cyclic homology]] and its connections to the [[K-theory]] of spaces and of [[operator algebra|operator algebras]], study of fundamental examples of noncomutative spaces like 
 the space of leaves of a foliation, noncommutative tori, groupoid operator algebras, spaces of Penrose tilings, introducing noncommutative motives into operator algebras (with [[Matilde Marcolli]]), Baum-Connes hypothesis, the [[local index formula]], combinatorial approach to Feynman diagrams (Connes-Kreimer Hopf algebra of renormalization) and analytic aspects connecting them to the Birkhoff decomposition, introducing Hopf-cyclic homology etc. 
 
 As an inspirative and energetic lecturer Connes also directly contibuted to the popularization of noncommutative geometry and its connections to physics. 
