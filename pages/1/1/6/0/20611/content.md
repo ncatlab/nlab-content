@@ -30,7 +30,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self|all|open|categories|
-|[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
+|[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[John Bourke|Bourke]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|categories|
 |[Advances in Mathematics](https://www.journals.elsevier.com/advances-in-mathematics/)|Elsevier|[[Andrew Blumberg|Blumberg]]; [[Henning Krause|Krause]]; [[Ross Street|Street]]|subscription|general|
 |[Journal of Algebra](https://www.journals.elsevier.com/journal-of-algebra)|Elsevier|[[Volodymyr Mazorchuk|Mazorchuk]]|subscription|algebra|
