@@ -1986,7 +1986,7 @@ Stone-von Neumann**
 
 \linebreak
 
-* {#WangNov23} 11 Nov 2023
+* {#WangNov23} 01 Nov 2023
   
   [[Juven Wang]] (Harvard University):
 
@@ -2027,6 +2027,18 @@ Stone-von Neumann**
   cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
 
   > [[manifold diagram|Manifold diagrams]] are the [[higher category|higher]] [[categorifications]] of [[string diagrams]]. They lie at the intersection of several interesting topics, such as: 1. The [[tangle hypothesis|tangle]] and [[cobordism hypotheses]], 2. The constructive description of [[computads|free higher categorical structures]], 3. The combinatorialization of differential structures and [singularities](cobordism+hypothesis#ForCobordismsWithSingularities). Nonetheless, the precise role of manifold diagrams in these topics remains largely mysterious. In this talk, we will focus on describing the basic interplay between ([[stratified space|stratified]]) geometry, [[combinatorics]], and (directed) cell complexes, exposed by the mathematical framework of manifold diagrams. This will include, in particular, two equivalent definitions of manifold diagrams, one geometric and one combinatorial, as well as a discussion of how these relate to the above topics
+
+\linebreak
+
+* {#CattaneoNov2023} 22 Nov 2023
+
+  [[Alberto Cattaneo]] (Zurich University, Switzerland):
+
+  **Poisson Structures from Corners of Field Theories**
+
+  cf. [arXiv:2310.01877](first-order+formulation+of+gravity#CattaneoMengerSchiavina23)
+
+  > The [[BV formalism]] and its shifted versions in [[field theory]] have a nice compatibility with [[boundary field theory|boundary]] structures. Namely, one such structure in the [[bulk]] induces a shifted (possibly degenerated) version on its boundary, which can be interpreted as a [[Poisson structure]] ([[Poisson n-algebra|up to homotopy]]). I will present the results for some field theories, in particular, 4D [[BF theory]] and [[Einstein gravity|4D gravity]].
 
 
 \linebreak
