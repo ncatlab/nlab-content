@@ -18,13 +18,25 @@
 
 ## Definition ##
 
-In [[homotopy type theory]], given a [[Russell universe]] $\mathcal{U}$, a [[type]] $A$ is **essentially $\mathcal{U}$-small** if there purely is a [[term]] $B:\mathcal{U}$ and an equivalence $p:A \cong B$. 
+In [[dependent type theory]], given a [[Russell universe]] $U$, a [[type]] $A$ is **purely essentially $U$-small** if the universe has an element $B:U$ and an equivalence $p:A \simeq B$. 
 
-Given a [[Tarski universe]] $(U, T)$, a [[type]] $A$ is **essentially $U$-small** if there is a [[term]] $B:U$ and an equivalence $p:A \cong T(B)$. 
+A [[type]] $A$ is **merely essentially $U$-small** if [[existential quantifier|there merely exists]] an element $B:U$ such that $A \simeq B$: 
+$$\mathrm{isEssentiallySmall}_U(A) \coloneqq \exists B:U.A \simeq B$$
+
+Similarly, given a [[Tarski universe]] $(U, T)$, a [[type]] $A$ is **purely essentially $U$-small** if the universe has an element $B:U$ and an equivalence $p:A \simeq T(B)$.
+
+A [[type]] $A$ is **merely essentially $U$-small** if [[existential quantifier|there merely exists]] an element $B:U$ such that $A \simeq T(B)$: 
+$$\mathrm{isEssentiallySmall}_U(A) \coloneqq \exists B:U.A \simeq T(B)$$
 
 ## Examples
 
 For a single universe $U$, [[propositional resizing]] states that the type of all [[h-propositions]] in a universe is essentially $U$-small. 
+
+## Making all essentially small types small
+
+Given a [[Russell universe]] $U$, one could make all essentially $U$-small types actually small types by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{witnSmall}_A:\exists B:U.A \simeq B}{\Gamma \vdash A:U}$$
 
 ## See also ##
 
@@ -36,3 +48,12 @@ For a single universe $U$, [[propositional resizing]] states that the type of al
 ## References ##
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Section 2.19 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+
+[[!redirects essentially small type]]
+[[!redirects essentially small types]]
+
+[[!redirects purely essentially small type]]
+[[!redirects purely essentially small types]]
+
+[[!redirects merely essentially small type]]
+[[!redirects merely essentially small types]]
