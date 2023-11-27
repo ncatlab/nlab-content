@@ -237,6 +237,7 @@ Under addition a Lie-Poisson manifold becomes a _[[Poisson Lie group]]_, see the
 
 * a _[[moment map]]_ is often expresses as a Poisson homomorphism into a Lie-Poisson structure.
 
+
 ## References
 
 The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by [[Felix Berezin]] and by [[Alexander Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
@@ -246,6 +247,10 @@ General accounts include
 *  Izu Vaisman, section 3.1 of _Lectures on the Geometry of Poisson Manifolds_, Birkh&#228;user 1994
 
 * [[Camille Laurent-Gengoux]], _Linear Poisson Structures and Lie Algebras_, chapter 7 pp 179-203 of Camille Laurent-Gengoux, Anne Pichereau, Pol Vanhaecke (eds.) _Poisson Structures_, Grundlehren der mathematischen Wissenschaften book series (GL, volume 347) ([web](https://link.springer.com/chapter/10.1007/978-3-642-31090-4_7))
+
+Monograph:
+
+* {#Waldmann07} [[Stefan Waldmann]], pp. 220 in: *Poisson-Geometrie und Deformationsquantisierung*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-72518-3](https://doi.org/10.1007/978-3-540-72518-3)&rbrack;
 
 
 Review of the [[formal deformation quantization]] of Lie-Poisson structures via transfer of the product on the [[universal enveloping algebra]] of the given Lie algebra is  for instance in 
