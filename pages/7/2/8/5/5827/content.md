@@ -15,11 +15,15 @@
 
 ## Definitions
 
-A __bilinear form__ is simply a [[linear map]] $\langle -,-\rangle\colon V \otimes V \to k$ out of a [[tensor product]] of $k$-[[module]]s into the [[ring]] $k$ (typically taken to be a [[field]]).
+A __bilinear form__ is simply a [[linear map]] $\langle -,-\rangle\colon V \otimes V \to k$ out of a [[tensor product]] of $k$-[[module|modules]] into the [[ring]] $k$ (typically taken to be a [[field]]).
 
-It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all $x,y \in V$. For variants on this, such as the property of being _conjugate-symmetric_, see [[inner product space]]. 
+It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all $x,y \in V$. For variants on this, such as the property of being _conjugate-symmetric_, see [[inner product space]].
 
-It is called _nondegenerate_ if the [[mate]] $V \to V^\ast = \hom(V, k)$ is injective (a [[monomorphism]]). 
+It is called __antisymmetric__ or __skew-symmetric__ if $\langle x,y\rangle = -\langle y,x\rangle$ for all $x,y \in V$.
+
+It is called __alternating__ if $\langle x,x\rangle = 0$ for all $x \in V$.
+
+It is called __nondegenerate__ if the [[mate]] $V \to V^\ast = \hom(V, k)$ is injective (a [[monomorphism]]). 
 
 Let $k = \mathbb{R}$ be the [[real numbers]]. A symmetric bilinear form is called
 
@@ -126,4 +130,11 @@ Lecture notes:
 [[!redirects symmetric bilinear form]]
 [[!redirects symmetric bilinear forms]]
 
+[[!redirects antisymmetric bilinear form]]
+[[!redirects antisymmetric bilinear forms]]
 
+[[!redirects skew-symmetric bilinear form]]
+[[!redirects skew-symmetric bilinear forms]]
+
+[[!redirects alternating bilinear form]]
+[[!redirects alternating bilinear forms]]
