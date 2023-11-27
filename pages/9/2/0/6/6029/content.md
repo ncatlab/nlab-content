@@ -22,7 +22,7 @@
 
 The [[field (physics)|field]] of [[quantum field theory]] started out as a description of the [[fundamental particles]] that are observed in [[experiment]], such as [[electrons]] and [[photons]].
 
-However, even so, abstractly the formalization of the concept of _particle_ within [[QFT]]s is somewhat subtle.
+However, even so, abstractly the formalization of the concept of _particle_ within [[QFT|QFTs]] is somewhat subtle.
 
 If the quantum field theory is on [[Minkowski space]] and comes with a [[Hilbert space|Hilbert]] [[space of states]] on which thus the  [[Poincare group]] of translations, rotations and boosts in Minkowski space acts, the massive _particle_ excitations of the theory can be found in the discrete spectrum of the time translation operator as the [[irreducible representation|irreducible]] [[unitary representations of the Poincare group]].
 For QFTs on [[curved spacetime|curved]] [[spacetimes]] the situation is more subtle.
@@ -50,7 +50,7 @@ If we think of a $d$-dimensional manifold as the shape of a some quantum object 
 
  If instead $d = 1$ then the brane is a 1-brane, for instance a [[string]] of [[D1-brane]], if $d = 2$ then the brane is a 2-brane also called a [[membrane]], and so on.
 
-Given this, one may try to see if this data describes a brane propagating _in_ some [[spacetime]] (the "[[target space]]" of the brane). It is the topic of [[spectral geometry]] (in the sense of [[Alain Connes]]'s) to try to reconstruct from this data the would-be target spacetime that the brane is propagating in. For instance for $d = 0$ the data of a QFT in this sense here is a [[spectral triple]] and [[noncommutative geometry]] provides a general way to make sense of the target space of the particle. If $d =1$ the QFT data here is that of a [[2-spectral triple]], and so on.
+Given this, one may try to see if this data describes a brane propagating _in_ some [[spacetime]] (the "[[target space]]" of the brane). It is the topic of [[spectral geometry]] (in the sense of [[Alain Connes]]) to try to reconstruct from this data the would-be target spacetime that the brane is propagating in. For instance for $d = 0$ the data of a QFT in this sense here is a [[spectral triple]] and [[noncommutative geometry]] provides a general way to make sense of the target space of the particle. If $d =1$ the QFT data here is that of a [[2-spectral triple]], and so on.
 
 ### Second quantized perspective 
  {#SecondQuantizedSpacetimePerspective}
