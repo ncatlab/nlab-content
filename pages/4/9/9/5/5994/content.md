@@ -208,7 +208,7 @@ $$
 whose [[Berezinian integral]] is the [[Pfaffian]]
 
 $$
-  \int [d \psi] \exp(\langle \psi , D^\mu_\phi \phi \rangle )
+  \int [d \psi] \exp(\langle \psi , D^\mu_\phi \psi \rangle )
   =
   pfaff(D^\mu_\phi) \in det \mathcal{H}^{\mu \pi}_\phi
   \,.
