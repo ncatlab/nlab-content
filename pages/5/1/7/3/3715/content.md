@@ -336,7 +336,7 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 #### Deformation by universal enveloping algebras
  {#RelationToUniversalEnvelopingAlgebras}
 
-It is a classical fact &lbrack;[Gutt 1983, §4](#Gutt83), cf. [Gutt 2011, §2.2](#Gutt11)&rbrack; that
+It is a classical fact &lbrack;[Gutt 1983, §4 (4.2)](#Gutt83), cf. [Gutt 2011, §2.2](#Gutt11)&rbrack; that
 the [[universal enveloping algebra]] of a [[Lie algebra]] provides a deformation quantization of the corresponding [[Lie-Poisson structure]] (example \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below).
 Remarkably, this statement generalizes to more general [[polynomial Poisson algebras]] (def. \ref{PolynomialPoissonAlgebra} below)
 for a suitable generalized concept of universal enveloping algebra (def. \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below):
