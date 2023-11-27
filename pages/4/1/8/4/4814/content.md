@@ -96,11 +96,14 @@ in
 
 * Jo&#227;o Martins, Aleksandar Mikovi&#263;, _Lie crossed modules and gauge-invariant actions for 2-BF theories_, Adv. Theor. Math. Phys. __15__:4 (2011), 913-1199 [euclid](http://projecteuclid.org/euclid.atmp/1339438351)
 
-BF gravity
+Relation to [[Einstein gravity]] (in [[first-order formulation of gravity|first-order formulation]]):
 
-* Mariano Celada, Diego Gonz&#225;lez, Merced Montesinos, _BF gravity_, [arxiv/1610.02020](https://arxiv.org/abs/1610.02020)
+* Mariano Celada, Diego Gonz&#225;lez, Merced Montesinos, _BF gravity_ &lbrack;[arxiv/1610.02020](https://arxiv.org/abs/1610.02020)&rbrack;
 
-For the use of a version of BF-theory in [[arithmetic]] to deal with the non-[[orientation|orientability]] of [[arithmetic schemes]] see
+* [[Alberto S. Cattaneo]], [[Leon Menger]], [[Michele Schiavina]], *Gravity with torsion as deformed BF theory* &lbrack;[arXiv:2310.01877](https://arxiv.org/abs/2310.01877)&rbrack;
+
+
+On a version of BF-theory in [[arithmetic]] related to non-[[orientation|orientability]] of [[arithmetic schemes]]:
 
 * [[Magnus Carlson]], [[Minhyong Kim]], _A note on abelian arithmetic BF-theory_, ([arXiv:1911.02236](https://arxiv.org/abs/1911.02236))
 
