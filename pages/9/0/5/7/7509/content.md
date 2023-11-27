@@ -189,11 +189,27 @@ These are called *typal congruence rules* because they are the analogue of the j
 
 \begin{theorem}
 Given types $A$ and $A'$ and type families $x:A \vdash B(x)$ and $x:A \vdash B'(x)$ and equivalences $e_A:A \simeq A'$ and dependent function of equivalences $e_B:\prod_{x:A} B(x) \simeq B'(e_A(x))$, there is an equivalence 
-$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
+$$\mathrm{congform}_\Sigma(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A} B(x)\right)$$
 \end{theorem}
 
 \begin{proof}
 This is theorem 11.1.6 of [Rijke 2022](#Rijke22), and a proof of this is given in that reference.
+\end{proof}
+
+The typal congruence rules for dependent sum types are very important for proving various other theorems in dependent type theory. For example, 
+
+\begin{theorem}
+Given a [[univalent]] [[Tarski universe]] $(U, T)$ and a $U$-small type $A:U$, the dependent sum type $\sum_{B:U} T(B) \simeq T(A)$ is contractible. 
+\end{theorem}
+
+\begin{proof}
+By univalence, for all $A:U$ and $B:U$, transport across the universal type family $T$ is an equivalence of types
+$$\mathrm{ua}(A, B):\mathrm{isEquiv}(\mathrm{transport}_{x:U.T(x)}(A, B))$$
+and thus we have the equivalence 
+$$\mathrm{pair}(\mathrm{transport}_{x:U.T(x)}(A, B), \mathrm{ua}(A, B)):(A =_U B) \simeq (T(B) \simeq T(A))$$
+and thus by the typal congruence rule of dependent sum types, we have
+$$\mathrm{congform}_\Sigma(\mathrm{id}_U, \lambda B:U.\mathrm{pair}(\mathrm{transport}_{x:U.T(x)}(A, B), \mathrm{ua}(A, B))):\left(\sum_{B:U} (A =_U B)\right) \simeq \left(\sum_{B:U} (T(B) \simeq T(A))\right)$$
+Since the type $\sum_{B:U} (A =_U B)$ is contractible for all $A:U$, the above equivalence implies that $\sum_{B:U} (T(B) \simeq T(A))$ is also contractible. 
 \end{proof}
 
 ### Quantification in dependent type theory
