@@ -62,22 +62,23 @@ $$
   \sum_{g \in G} (r_g + \tilde r_g) g
 $$
 
-and the multiplication is given by
+and the multiplication is given by the [[convolution product]]
 
 $$
   \begin{aligned}
     r \tilde r 
     & =
     \sum_{g \in G} 
-      \sum_{\tilde g \in G} (r_g \tilde r_{\tilde g}) g \cdot \tilde g
+      \sum_{\tilde g \in G} 
+      (r_g \tilde r_{\tilde g}) g \cdot \tilde g
     \\
     & =
     \sum_{q \in G} 
     \left(
       \sum_{k \in G}  (r_{q\cdot k^{-1}} r_k) 
     \right) q
+    \,.
   \end{aligned}
-  \,.
 $$
 
 =--
