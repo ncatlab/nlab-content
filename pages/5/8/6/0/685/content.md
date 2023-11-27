@@ -185,7 +185,9 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
 * [[representable 2-category]]
 
-## References 
+## References
+
+* {#Street74} [[Ross Street]], *Elementary cosmoi I* (§6) in *Category Seminar*, Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063103](https://doi.org/10.1007/BFb0063103)&rbrack;
 
 * {#StreetLimitsIndexed} [[Ross Street]], _Limits indexed by category-valued 2-functors_ Journal of Pure and Applied Algebra **8**, Issue 2 (1976) pp 149-181. doi:[10.1016/0022-4049(76)90013-X](https://doi.org/10.1016/0022-4049(76%2990013-X)
   
