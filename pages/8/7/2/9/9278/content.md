@@ -242,20 +242,27 @@ Under addition a Lie-Poisson manifold becomes a _[[Poisson Lie group]]_, see the
 
 The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by [[Felix Berezin]] and by [[Alexander Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
 
-General accounts include
+General accounts:
 
-*  Izu Vaisman, section 3.1 of _Lectures on the Geometry of Poisson Manifolds_, Birkh&#228;user 1994
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78} [[François Bayen]], [[Moshé Flato]], [[Christian Fronsdal]], [[André Lichnerowicz]], [[Daniel Sternheimer]], §2 in: _Deformation theory and quantization. I. Deformations of symplectic structures._, Annals of Physics **111** 1 (1978) 61-110 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90224-5">doi:10.1016/0003-4916(78)90224-5</a>&rbrack;
 
-* [[Camille Laurent-Gengoux]], _Linear Poisson Structures and Lie Algebras_, chapter 7 pp 179-203 of Camille Laurent-Gengoux, Anne Pichereau, Pol Vanhaecke (eds.) _Poisson Structures_, Grundlehren der mathematischen Wissenschaften book series (GL, volume 347) ([web](https://link.springer.com/chapter/10.1007/978-3-642-31090-4_7))
+*  Izu Vaisman, section 3.1 of _Lectures on the Geometry of Poisson Manifolds_, Birkh&#228;user (1994)
+
+* [[Camille Laurent-Gengoux]], _Linear Poisson Structures and Lie Algebras_, chapter 7 of: Camille Laurent-Gengoux, Anne Pichereau, [[Pol Vanhaecke]] (eds.), _Poisson Structures_, Grundlehren der mathematischen Wissenschaften **347** 179-203 &lbrack;[doi:10.1007/978-3-642-31090-4_7](https://doi.org/10.1007/978-3-642-31090-4_7)&rbrack;
+
 
 Monograph:
 
 * {#Waldmann07} [[Stefan Waldmann]], pp. 220 in: *Poisson-Geometrie und Deformationsquantisierung*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-72518-3](https://doi.org/10.1007/978-3-540-72518-3)&rbrack;
 
 
-Review of the [[formal deformation quantization]] of Lie-Poisson structures via transfer of the product on the [[universal enveloping algebra]] of the given Lie algebra is  for instance in 
+On the [[formal deformation quantization]] of Lie-Poisson structures via transfer of the product on the [[universal enveloping algebra]] of the given Lie algebra: 
 
-* {#Gutt11} [[Simone Gutt]], section 2.2. of _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs 17 (2011) 171-220 &lbrack;[pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf)&rbrack;
+* {#Gutt83} [[Simone Gutt]], *An explicit $\ast$-product on the cotangent bundle of a Lie group*, Letters in Mathematical Physics **7** (1983) 249–258 &lbrack;[doi:10.1007/BF00400441](https://doi.org/10.1007/BF00400441)&rbrack;
+
+reviewed in:
+
+* {#Gutt11} [[Simone Gutt]], §2.2 of: _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs **17** (2011) 171-220 &lbrack;[gtm:17](https://msp.org/gtm/2011/17/p003.xhtml), [pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf), [arXiv:math/0003107](https://arxiv.org/abs/math/0003107)&rbrack;
 
 and generalization to more general polynomial Poisson algebras is discussed in
 
