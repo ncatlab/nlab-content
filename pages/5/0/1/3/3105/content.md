@@ -374,9 +374,9 @@ where the wedge product on the right is normalized as in (eq:WedgeProductNormali
 
 \begin{remark}
 \label{AbsenceOfJacobiatorInWhiteheadBracket}
-Prop. \ref{CoBinarySullivanDifferentialIsWhiteheadProduct} says in particular that the binary bracket of the [[L-infinity-algebra|$L_\infty$-algebra]] dual to a [[Sullivan model]] is always an actual [[super Lie bracket]] hence satisfies the super-[[Jacobi identity]], even if there happens to also be a nontrivial trinary bracket which would serve as a "[[Jacobiator]]". 
+Prop. \ref{CoBinarySullivanDifferentialIsWhiteheadProduct} says in particular that the binary bracket of the [[L-infinity-algebra|$L_\infty$-algebra]] dual to a [[Sullivan model]] is always an actual [[super Lie bracket]] in that it satisfies its super-[[Jacobi identity]], even if there happens to also be a nontrivial trinary bracket which would serve as a "[[Jacobiator]]". 
 
-This is due to the [[minimal model|minimality]] of Sullivan models, which implies that the co-unary part of their [[differential]] vanishes, and hence that that the unary bracket of the corresponding $L_\infty$-algebra vanishes. Since the failure of the Jacobi identity on binary brackets in an $L_\infty$-algebra is measured not by the trinary bracket itself but by its composition with the unary bracket, this vanishes in the above case.
+This is due to the [[minimal model|minimality]] of Sullivan models, which implies that the co-unary part of their [[differential]] vanishes, and hence that that the unary bracket of the corresponding $L_\infty$-algebra vanishes: Since the failure of the Jacobi identity on binary brackets in an $L_\infty$-algebra is measured not by the trinary bracket itself but by its composition with the unary bracket, this vanishes in the above case.
 \end{remark}
 
 ### Relation to Goodwillie Calculus:
