@@ -365,11 +365,7 @@ The corresponding [[formal group law]] is **Euler's formal group law**
   f(x,y) 
     \;=\; 
   \frac{
-    x
-    \sqrt{1- 2 \delta y^2 + \epsilon y^4}
-    + 
-    y 
-    \sqrt{1- 2 \delta x^2 + \epsilon x^4}
+x{\sqrt{1- 2 \delta y^2 + \epsilon y^4}} + y{\sqrt{1- 2 \delta x^2 + \epsilon x^4}}
   }
   {1- \epsilon x^2 y^2}
 \]
