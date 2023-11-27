@@ -130,7 +130,7 @@ See at _[[deformation quantization]]_ the section _[Relation to universal envelo
 
 ### Symplectic groupoid
 
-The [[symplectic groupoid]] [[Lie integration|integrating]] the Lie-Poisson structure on $\mathfrak{g}^*$ is the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]]. For more see at _[[symplectic groupoid]]_ in the section _[Examples -- Of Lie-Poisson stucture](symplectic+groupoid#OfLiePoissonStructure)_.
+The [[symplectic groupoid]] [[Lie integration|integrating]] the Lie-Poisson structure on $\mathfrak{g}^*$ is the [[action groupoid]] $\mathfrak{g}^* \sslash G$ of the [[coadjoint action]]. For more see at _[[symplectic groupoid]]_ in the section _[Examples -- Of Lie-Poisson stucture](symplectic+groupoid#OfLiePoissonStructure)_.
 
 ### Symplectic leaves
 
