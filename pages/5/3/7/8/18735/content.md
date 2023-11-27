@@ -10,6 +10,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _convolution product_ is the binary operation on [[ring]]-valued (or more generally [[magma]]-valued) [[functions]] $f$ on a [[group]] $G$ or more generally on the set of [[morphisms]] $\mathcal{G}$ of a [[groupoid]], which is given by [[sum|summing]] or more generally [[integration|integrating]] products of values on complementary elements of the schematic form
 
@@ -31,9 +36,17 @@ $$
 $$
 
 This generalizes to a [[convolution product of distributions]].
+
 These convolution products play a central role in [[Fourier analysis]].
 
 A [[categorification]] of the concept of convolution is the concept of _[[Day convolution]]_.
+
+## Related concepts
+
+* [[group algebra]]
+
+* [[groupoid algebra]], [[category algebra]]
+
 
 [[!redirects convolution products]]
 
