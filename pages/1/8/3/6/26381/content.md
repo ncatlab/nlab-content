@@ -1,18 +1,4 @@
-[[!redirects monoidal actegory]]
-[[!redirects monoidal actegory]]
-[[!redirects braided actegory]]
-[[!redirects symmetric actegory]]
 
-[[!redirects braided monoidal actegory]]
-[[!redirects symmetric monoidal actegory]]
-
-[[!redirects monoidal action]]
-[[!redirects braided monoidal action]]
-[[!redirects symmetric monoidal action]]
-
-[[!redirects monoidal actegories]]
-[[!redirects braided monoidal actegories]]
-[[!redirects symmetric monoidal actegories]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -86,7 +72,7 @@ When the action is monoidal, braided or symmetric monoidal, the classifier is di
 * Braided monoidal actions are classified by $\Sigma(\mathcal{C})$, i.e. the [[symmetric center]] of $\mathcal{C}$, which is the full subcategory of $\mathcal{C}$ spanned by those objects $x:\mathcal{C}$ such that $\beta_{x,-}\beta_{-,x} = 1$.
 * Symmetric monoidal actions are classified by $\mathcal{C}$ itself. In fact a symmetric monoidal action $\odot$ of $\mathcal{M}$ on $\mathcal{C}$ gives a symmetric monoidal functor $- \odot i : \mathcal{M} \to \mathcal{C}$, and viceversa $F(-) \boxtimes -$ is a symmetric monoidal action whenever $\mathcal{M} \to \mathcal{C}$ is a [[braided monoidal functor]] between [[symmetric monoidal categories]].
 
-This is all proven in Section 5.5 of ([Capucci and Gravranovic 2022](#CG22)).
+This is all proven in Section 5.5 of [Capucci & Gravranovic 2022](#CG22).
 
 ## See also
 * [[actegories]], [[pseudoaction]]
@@ -96,3 +82,21 @@ This is all proven in Section 5.5 of ([Capucci and Gravranovic 2022](#CG22)).
 ## References
 
 * {#CG22} [[Matteo Capucci]], Bruno Gavranović, _Actegories for the working amthematician_, [arXiv:2203.16351](https://arxiv.org/abs/2203.16351)
+
+[[!redirects monoidal actions of a monoidal category]]
+[[!redirects monoidal actions of monoidal categories]]
+
+[[!redirects monoidal actegory]]
+[[!redirects braided actegory]]
+[[!redirects symmetric actegory]]
+
+[[!redirects braided monoidal actegory]]
+[[!redirects symmetric monoidal actegory]]
+
+[[!redirects monoidal action]]
+[[!redirects braided monoidal action]]
+[[!redirects symmetric monoidal action]]
+
+[[!redirects monoidal actegories]]
+[[!redirects braided monoidal actegories]]
+[[!redirects symmetric monoidal actegories]]
