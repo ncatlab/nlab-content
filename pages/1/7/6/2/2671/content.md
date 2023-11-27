@@ -151,6 +151,11 @@ This way the theory of gravity based on the standard [[Einstein-Hilbert action]]
 
 * [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
 
+Relation of the [[first-order formulation of gravity]] to [[BF-theory]]:
+
+* [[Alberto S. Cattaneo]], [[Leon Menger]], [[Michele Schiavina]], *Gravity with torsion as deformed BF theory* &lbrack;[arXiv:2310.01877](https://arxiv.org/abs/2310.01877)&rbrack;
+
+
 See also the references at _[[general relativity]]_.
 
 
