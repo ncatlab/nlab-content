@@ -23,14 +23,14 @@
 
 A [[Poisson manifold]] may be thought of as a [[Poisson Lie algebroid]], a [[Lie algebroid]] with extra structure: called an [[n-symplectic manifold]] for $n = 1$.
 
-By [[Lie integration]] this Lie algebroid should integrate to a [[Lie groupoid]] with extra structure. Symplectic groupoids are supposed to be these objects that integrate [[n-symplectic manifold]] aka [[Poisson manifold]]s in this sense.
+By [[Lie integration]] this Lie algebroid should integrate to a [[Lie groupoid]] with extra structure. Symplectic groupoids are supposed to be those objects that integrate [[n-symplectic manifold]] aka [[Poisson manifold]]s in this sense.
 
 The [[category algebra|groupoid algebra]] of these symplectic groupoids are [[C-star algebra]]s that may be regarded as the [[quantization]] of the original [[Poisson manifold]]. This is described in the references below.
 
 ## Definition
  {#Definition}
 
-The original definition of ([Weinstein](#Weinstein)) is this:
+The original definition of [Weinstein 1987](#Weinstein87) is this:
 
 +-- {: .num_defn #WeinsteinsDefintion}
 ###### Definition
@@ -159,11 +159,12 @@ corresponding [[Poisson sigma-model]]. ([Cattaneo-Felder 01](#CattaneoFelder01))
 ###### Example
 
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and consider the [[dual vector space]] $\mathfrak{g}^*$ equipped with its
-[[Lie-Poisson structure]]. Then the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]] carries a multiplicative symplectic form $\omega$ induced by the identification of the manifold of [[morphisms]] with the [[cotangent bundle]] of the group, $G \times \mathfrak{g}^* \simeq T^* G$, induced by right translation from the [[Poincare form]] on the [[cotangent bundle]]. This makes $(\mathfrak{g}^* //G, \omega)$ a symplectic groupoid which [[Lie integration|Lie integrates]] the [[Lie-Poisson structure]] on $\mathfrak{g}^*$. 
+[[Lie-Poisson structure]]. Then the [[action groupoid]] $\mathfrak{g}^* \sslash G$ of the [[coadjoint action]] carries a multiplicative symplectic form $\omega$ induced by the identification of the manifold of [[morphisms]] with the [[cotangent bundle]] of the group, $G \times \mathfrak{g}^* \simeq T^* G$, induced by right translation from the [[Poincare form]] on the [[cotangent bundle]]. This makes $(\mathfrak{g}^* //G, \omega)$ a symplectic groupoid which [[Lie integration|Lie integrates]] the [[Lie-Poisson structure]] on $\mathfrak{g}^*$. 
 
 =--
 
-This appears for instance as ([Weinstein 91, example 3.2](#Weinstein91), [Bursztyn-Crainic 05, example 4.3](#BursztynCrainic)).
+This seems to be due to [Weinstein 1991, ex. 3.2](#Weinstein91), see [Bursztyn & Crainic 2005, ex. 4.3](#BursztynCrainic), [Nuiten 2013, p. 111](#Nuiten13).
+
 
 ## Related concepts
 
@@ -180,12 +181,11 @@ This appears for instance as ([Weinstein 91, example 3.2](#Weinstein91), [Burszt
 
 The notion of symplectic groupoids was apparently proposed independently by Karas&#235;v, [[Alan Weinstein|Weinstein]], and Zakrzewski, all motiviated from the problem of [[quantization]].
 
-* [[Alan Weinstein]], _Symplectic groupoids and Poisson manifolds_, Bull. Amer. Math. Soc. (N.S.) 16 (1987), 101&#8211;104.
- {#Weinstein}
+* {#Weinstein87} [[Alan Weinstein]], _Symplectic groupoids and Poisson manifolds_, Bull. Amer. Math. Soc. (N.S.) **16** (1987) 101-104 &lbrack;[euclid:bams/1183553676](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-16/issue-1/Symplectic-groupoids-and-Poisson-manifolds/bams/1183553676.full)&rbrack;
 
-* [[Alan Weinstein]], _Symplectic groupoids, geometric quantization, and irrational rotation algebras_ in
-_Symplectic geometry, groupoids, and integrable systems_ (Berkeley, CA, 1989), 281&#8211;290,
-Springer, New York, (1991) MR1104934.
+
+* [[Alan Weinstein]], _Symplectic groupoids, geometric quantization, and irrational rotation algebras_, in
+_Symplectic geometry, groupoids, and integrable systems_ (Berkeley, CA, 1989), Springer (1991) 281-290 &lbrack;MR1104934&rbrack;
 
 * [[Alan Weinstein]], _Tangential deformation quantization and polarized symplectic groupoids_, in _Deformation theory and symplectic geometry_ (Ascona, 1996), 301&#8211;314, Kluwer (1997) [MR1480730](http://www.ams.org/mathscinet-getitem?mr=1480730)
 
@@ -197,39 +197,41 @@ See also the references at _[[geometric quantization of symplectic groupoids]]_ 
 
 Lecture notes include
 
-* S&#233;bastien Racani&#232;re, _Lie algebroids, Lie groupoids and Poisson geometry_ ([pdf](http://empg.maths.ed.ac.uk/Activities/GCY/Racaniere.pdf))
- {#Racaniere}
+* {#Racaniere} S&#233;bastien Racani&#232;re, _Lie algebroids, Lie groupoids and Poisson geometry_ ([pdf](http://empg.maths.ed.ac.uk/Activities/GCY/Racaniere.pdf))
+ 
 
 The notion of pre-quasi-symplectic groupoids is introduced and the intepretation of symplectic groupoids in [[higher geometry]] is made fairly explicit in 
 
-* [[Ping Xu]], _Momentum Maps and Morita Equivalence_, J. Diff. Geom ([arXiv:math/0307319](http://arxiv.org/abs/math/0307319))
- {#Xu}
+* {#Xu} [[Ping Xu]], _Momentum Maps and Morita Equivalence_, J. Diff. Geom ([arXiv:math/0307319](http://arxiv.org/abs/math/0307319))
+ 
 
-* [[Camille Laurent-Gengoux]], [[Ping Xu]], _Quantization of pre-quasi-symplectic groupoids and their Hamiltonian spaces_ in _The Breadth of Symplectic and Poisson Geometry_ Progress in Mathematics, 2005, Volume 232, 423-454 ([arXiv:math/0311154](http://arxiv.org/abs/math/0311154)) 
- {#LGX}
+* {#LGX} [[Camille Laurent-Gengoux]], [[Ping Xu]], _Quantization of pre-quasi-symplectic groupoids and their Hamiltonian spaces_ in _The Breadth of Symplectic and Poisson Geometry_, Progress in Mathematics **232** (2005)  423-454 &lbrack;[arXiv:math/0311154](http://arxiv.org/abs/math/0311154), [doi:10.1007/0-8176-4419-9_14](https://doi.org/10.1007/0-8176-4419-9_14)&rbrack; 
+ 
+
 
 These "pre-quasi-symplectic groupoids" had been called "twisted presymplectic groupoids" in 
 
-* [[Henrique Bursztyn]], [[Marius Crainic]], [[Alan Weinstein]], [[Chenchang Zhu]], _Integration of twisted Dirac brackets_ ([arXiv:math/0303180](http://arxiv.org/abs/math/0303180))
- {#BCWZ}
+* {#BCWZ} [[Henrique Bursztyn]], [[Marius Crainic]], [[Alan Weinstein]], [[Chenchang Zhu]], _Integration of twisted Dirac brackets_ ([arXiv:math/0303180](http://arxiv.org/abs/math/0303180))
+ 
+
 
 The identification with reduced phase spaces of the open Poisson sigma-model is in 
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#228;user,
+* {#CattaneoFelder01} [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#228;user,
 2001), 61&#8211;93. ([arXiv:math/0003023](http://arxiv.org/abs/math/0003023))
- {#CattaneoFelder01}
+ 
 
+Further developments:
 
-Further developments include
-
-* {#Weinstein91} [[Alan Weinstein]], _Noncommutative geometry and geometric quantization_ in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Birkh&#228;user 1991
+* {#Weinstein91} [[Alan Weinstein]], *Noncommutative geometry and geometric quantization*, in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Progr. Math **99** Birkh&#228;user (1991) 446-461
 
 * [[Ping Xu]], _Morita equivalence and symplectic realizations of Poisson manifolds_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 25 no. 3 (1992) ([NUMDAM](http://www.numdam.org/item?id=ASENS_1992_4_25_3_307_0))
 
-* {#BursztynCrainic} [[Henrique Bursztyn]], [[Marius Crainic]], _Dirac structures, momentum maps and quasi-Poisson manifolds_ ([pdf](http://www.preprint.impa.br/FullText/Bursztyn__Fri_Dec_23_11_24_19_BRDT_2005.html/alanfestimpa.pdf))
+* {#BursztynCrainic} [[Henrique Bursztyn]], [[Marius Crainic]], *Dirac structures, momentum maps and quasi-Poisson manifolds*, in: *The Breadth of Symplectic and Poisson Geometry*, Progress in Mathematics **232**,  Birkhäuser (2005) 1-40 &lbrack;[doi:10.1007/0-8176-4419-9_1](https://doi.org/10.1007/0-8176-4419-9_1)&rbrack;
  
-
 * F. Bonechi, N. Ciccoli, N. Staffolani, M. Tarlini, _The quantization of the symplectic groupoid of the standard Podles sphere_ ([arXiv:1004.3163](http://arxiv.org/abs/1004.3163))
+
+* {#Nuiten13} [[Joost Nuiten]], pp. 108 in: *[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]*, MSc thesis, Utrecht (August 2013) &lbrack;[pdf](/schreiber/files/thesisNuiten.pdf), [dspace:1874/282756](https://dspace.library.uu.nl/handle/1874/282756), [talk slides](/schreiber/files/thesisNuitenTalk.pdf)&rbrack;
 
 The [[formal groupoid]] version of symplectic groupoids is discussed in
 
