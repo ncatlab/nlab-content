@@ -71,7 +71,7 @@ A modular form $f$ of weight $k$ over $\mathbb{C}$ is a function on lattices $\L
 
 1. $f(\mathbb{Z}+\tau\mathbb{Z})$ is holomorphic as a function of $\tau$
 
-2. $f(\mu \Lambda)=\mu^{-k}$ for all $\mu\in\mathbb{C}^{\times}$
+2. $f(\mu \Lambda)=\mu^{-k} f(\Lambda)$ for all $\mu\in\mathbb{C}^{\times}$
 
 3. $f(\mathbb{Z}+\tau\mathbb{Z})$ is bounded as $\tau\to i\infty$.
 
