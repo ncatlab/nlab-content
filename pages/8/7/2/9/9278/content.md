@@ -126,7 +126,7 @@ $$
 
 ### Deformation quantization by universal enveloping algebra
 
-See at _[[deformation quantization]]_ the section _[Relation to universal enveloping algebras](deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
+See at _[[formal deformation quantization]]_ the section _[Relation to universal enveloping algebras](formal+deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
 
 ### Symplectic groupoid
 
@@ -250,7 +250,7 @@ General accounts include
 
 Review of the [[formal deformation quantization]] of Lie-Poisson structures via transfer of the product on the [[universal enveloping algebra]] of the given Lie algebra is  for instance in 
 
-* {#Gutt11} Simone Gutt, section 2.2. of _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs 17 (2011) 171-220 ([pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf))
+* {#Gutt11} [[Simone Gutt]], section 2.2. of _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs 17 (2011) 171-220 &lbrack;[pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf)&rbrack;
 
 and generalization to more general polynomial Poisson algebras is discussed in
 
