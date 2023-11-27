@@ -107,8 +107,7 @@ finite-dimensional Lie group $G$ over real or complex numbers is canonically iso
 
 ## References
 
-* [[Jacques Dixmier]]; _[[Algèbres enveloppantes]]_, Cahiers Scientifique (1974), Engl transl: _Enveloping Algebras_, Graduate Studies in Mathematics **11** American Mathematical Society (1996)
-
+* [[Jacques Dixmier]]; _[[Algèbres Enveloppantes]]_, Cahiers Scientifique (1974), Engl transl: _Enveloping Algebras_, Graduate Studies in Mathematics **11** American Mathematical Society (1996) &lbrack;[ams:gsm-11](https://bookstore.ams.org/gsm-11)&rbrack;
 
 * [[Nicolas Bourbaki]], §I.2 in: _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
 
