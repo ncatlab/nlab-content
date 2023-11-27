@@ -80,6 +80,11 @@ Reviewed in:
   > (following [Kijowski & Tulczyjew (2005)](phase+space#KijowskiTulczyjew05))
 
 
+Relation to [[BF-theory]]:
+
+* {#CattaneoMengerSchiavina23} [[Alberto S. Cattaneo]], [[Leon Menger]], [[Michele Schiavina]], *Gravity with torsion as deformed BF theory* &lbrack;[arXiv:2310.01877](https://arxiv.org/abs/2310.01877)&rbrack;
+
+
 See also:
 
 * J. Fernando Barbero G., Juan Margalef-Bentabol, Valle Varo, Eduardo J.S. Villaseñor, *Covariant phase space for gravity with boundaries: metric vs tetrad formulations* ([arXiv:2103.06362](https://arxiv.org/abs/2103.06362))
