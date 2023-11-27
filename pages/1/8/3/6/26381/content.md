@@ -1,3 +1,5 @@
+[[!redirects monoidal actegory]]
+[[!redirects monoidal actegory]]
 [[!redirects braided actegory]]
 [[!redirects symmetric actegory]]
 
