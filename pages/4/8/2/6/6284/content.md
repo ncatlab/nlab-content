@@ -1,7 +1,14 @@
 
+John C. Moore
+
 * [wikipedia entry](http://en.wikipedia.org/wiki/John_Coleman_Moore)
 
 ## Selected writings
+
+On [[twisting functions]] and ([[semisimplicial set|semi]]-)[[simplicial fiber bundles]]:
+
+* [[Michael G. Barratt]], [[Victor K.A.M. Gugenheim]], [[John C. Moore]], _On semisimplicial fibre-bundles_, Amer. J. Math. __81__ (1959) 639-657 &lbrack;[doi:10.2307/2372920](https://doi.org/10.2307/2372920), [jstor:2372920](https://www.jstor.org/stable/2372920), MR0111028&rbrack;
+
 
 On [[Hopf algebras]]:
 
