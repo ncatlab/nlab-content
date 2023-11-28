@@ -57,7 +57,7 @@ Thus the only difference from the usual Cartesian product of simplicial sets is 
 
 * By the adjunction between $W$-bar and the [[Dwyer-Kan loop groupoid]] functor, a twisting function also corresponds to a morphism of simplicial groupoids $G(X_\bullet)\to G_\bullet$.
 
-*  A twisting function is an analogue of a [[twisting cochain]] in the context of [[simplicial set]]s although historically the development went the other way, it seems as the basic theory of twisting cochains was introduced by Ed Brown in his paper 
+*  A twisting function is an analogue of a [[twisting cochain]] in the context of [[simplicial set]]s although historically the development was more or less in tandem as  the basic theory of twisting cochains was introduced by E. H.  Brown in his paper in 1959, whilst twisting functions were discussed in the Cartan seminar late in 1956.
 
 ## Literature
 
