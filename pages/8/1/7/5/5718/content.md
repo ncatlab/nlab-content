@@ -362,6 +362,10 @@ In the context of [[supermanifolds]], discussion is in
 
 * [[Gennadi Sardanashvily]], _Graded infinite order jet manifolds_, _Int. J. Geom. Methods Mod. Phys. v.4 (2007) 1335-1362_ ([arXiv:0708.2434](https://arxiv.org/abs/0708.2434))
 
+On jet bundles of $\mathbb{Z}$-[[graded manifold|graded manifolds]] and their [[vector bundle|vector bundles]]:
+
+* [[Jan Vysoky]]. *Graded Jet Geometry*. (2023). ([arXiv:2311.15754](https://arxiv.org/abs/2311.15754))
+
 [[!redirects jet bundles]]
 
 [[!redirects jet]]
