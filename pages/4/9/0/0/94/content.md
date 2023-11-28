@@ -235,7 +235,7 @@ is equivalently a [[dg-Lie algebra]].
 +-- {: .num_example }
 ###### Example
 
-When $l_3$ is possibly non-vanishing, then on elements $x_i$ on which $\partial = l_1$ vanishes then the generalized Jacobi identity for $n = 3$ gives
+When $l_3$ is possibly non-vanishing, then on elements $x_i$ on which $\partial = l_1$ vanishes, the generalized Jacobi identity for $n = 3$ gives
 
 $$
   [[v_1,v_2],v_3] 
