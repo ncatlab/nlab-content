@@ -1,4 +1,6 @@
 
+Edgar H. Brown
+
 (1926 - 2021)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Edgar_H._Brown)
