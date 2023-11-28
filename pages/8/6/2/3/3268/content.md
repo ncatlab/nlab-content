@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[topological spaces]] relevant in [[algebraic topology]]:
+
+* [[Neil Strickland]], *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 On [[Hopf rings]] of [[ordinary homology]] of [[topological K-theory]]:
 
 * [[Neil Strickland]], _Bott periodicity and Hopf rings_, 1992 ([pdf](https://neil-strickland.staff.shef.ac.uk/research/thesis.pdf), [[StricklandHopfRings.pdf:file]])
