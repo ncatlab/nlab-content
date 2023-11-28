@@ -2004,9 +2004,9 @@ Stone-von Neumann**
 
   **Higher Dagger Categories**
 
-  slides:[pdf](http://categorified.net/NYUADtalk.pdf)
+  slides: [pdf](http://categorified.net/NYUADtalk.pdf)
 
-  video:[YT](https://youtu.be/zvtziTpl2T0)
+  video: [YT](https://youtu.be/zvtziTpl2T0)
 
   cf. [categorified.net/dagger2023.html](http://categorified.net/dagger2023.html)
 
@@ -2037,6 +2037,8 @@ Stone-von Neumann**
   **Poisson Structures from Corners of Field Theories**
 
   slides: [[Cattaneo-PoissonStrucFromCorners.pdf:file]]
+
+  video: [YT](https://youtu.be/_bGH09FmAxk)
 
   cf. [arXiv:2310.01877](first-order+formulation+of+gravity#CattaneoMengerSchiavina23)
 
