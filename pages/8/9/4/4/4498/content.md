@@ -254,3 +254,10 @@ Discussion of principal simplicial bundles in more general [[categories of simpl
 
 [[!redirects universal simplicial principal bundle]]
 [[!redirects universal simplicial principal bundles]]
+
+[[!redirects simplicial fiber bundle]]
+[[!redirects simplicial fiber bundles]]
+
+[[!redirects simplicial fibre bundle]]
+[[!redirects simplicial fibre bundles]]
+
