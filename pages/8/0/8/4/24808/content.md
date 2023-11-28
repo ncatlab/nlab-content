@@ -22,76 +22,47 @@ Russell universes or universes à la Russell are types whose terms are types. In
 
 ### Without a separate type judgment
 
-Russell universes are formally defined in a three-layer type theory. The first and second layers consists of an untyped [[predicate logic]] consisting of proposition judgments and index judgments, the [[natural deduction]] rules for [[predicate logic]], and inference rules to define a [[linear order]] without an [[upper bound]], or more commonly, the inference rules for [[first-order theory|first-order]] [[Peano arithmetic]]. The third layer only contains term judgments, and is the dependent type theory where the Russell universes live in. 
+One formal definition of a type theory with Russell universes is as follows:
 
-We begin with the formal rules of the first and second layers. The first and second layer consists of three judgments: proposition judgments $A \; \mathrm{prop}$, where we judge $A$ to be a proposition, true proposition judgments $A \; \mathrm{true}$, where we judge $A$ to be a true proposition, index judgments, where we judge $a$ to be a universe index, $a \; \mathrm{index}$, and metacontext judgments, where we judge $\Xi$ to be a metacontext, $\Xi \; \mathrm{metactx}$. Metacontexts are lists of index judgments $a \; \mathrm{index}$, $b \; \mathrm{index}$, $c \; \mathrm{index}$, et cetera, and true proposition judgments $A \; \mathrm{true}$, $B \; \mathrm{true}$, $C \; \mathrm{true}$, et cetera, and are formalized by the rules for the empty metacontext and extending the metacontext by an index judgment or true proposition judgment:
+The type theory has [[judgments]] 
 
-$$\frac{}{() \; \mathrm{metactx}} \qquad \frac{\Xi \; \mathrm{metactx} \quad \Xi \vdash A \; \mathrm{prop}}{(\Xi, A \; \mathrm{true}) \; \mathrm{metactx}} \qquad \frac{\Xi \; \mathrm{metactx}}{(\Xi, i \; \mathrm{index}) \; \mathrm{metactx}}$$
+* $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-Next, we have the inference rules for [[predicate logic]]:
+* $i \; \mathrm{index}$, that $i$ is a universe index, 
 
-* Rules for implication:
-$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi \vdash P \to Q \; \mathrm{prop}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi, P \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Xi \vdash P \to Q \; \mathrm{true}} \qquad \frac{\Xi \vdash P \to Q \; \mathrm{true}}{\Xi, P \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
+* $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
 
-* Rules for universal quantifiers:
-$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop}}{\Xi \vdash \forall x.P(x) \; \mathrm{prop}} \qquad \frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{true}}{\Xi \vdash \forall x.P(x) \; \mathrm{true}} \qquad \frac{\Xi \vdash \forall x.P(x) \; \mathrm{true}}{\Xi, x \vdash P(x) \; \mathrm{true}}$$
+* $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
 
-* Rules for conjunction:
-$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi \vdash P \vee Q \; \mathrm{prop}} \quad \frac{\Xi \vdash P \; \mathrm{true} \quad \Xi \vdash Q \; \mathrm{true}}{\Xi \vdash P \vee Q \; \mathrm{true}}$$
+and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are [[linearly ordered]] with strict order $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
 
-$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop} \quad \Xi, P \wedge Q \; \mathrm{true}}{\Xi \vdash P \; \mathrm{true}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop} \quad \Xi, P \wedge Q \; \mathrm{true}}{\Xi \vdash Q \; \mathrm{true}}$$ 
+Now, we introduce the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a **Russell universe** or **universe à la Russell**, whose terms are the types themselves. Russell universes are formalized with the following rules:
 
-* Rules for existential quantifiers:
-$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop}}{\Xi \vdash \exists x.P(x) \; \mathrm{prop}}$$ 
+$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash \mathrm{Lift}_{i, j}(A):U_{s(i)}}\mathrm{lifting}$$
 
-$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop} \quad \Xi \vdash x \; \mathrm{index} \quad \Xi \vdash P(x) \; \mathrm{true}}{\Xi \vdash \exists x.P(x) \; \mathrm{true}}$$ 
+In addition, we have rules for contexts which state that one could add typing judgments to the list of contexts:
 
-$$\frac{\Xi, x \; \mathrm{index} \vdash P(x) \; \mathrm{prop} \quad \Xi, \exists x.P(x) \; \mathrm{true} \vdash Q \; \mathrm{prop} \quad \Xi, x \; \mathrm{index}, P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Xi, \exists x.P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
-* Rules for disjunction:
-$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi \vdash P \vee Q \; \mathrm{prop}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi, P \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}} \qquad \frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop}}{\Xi, Q \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}}$$ 
+### With a type judgment for each universe
 
-$$\frac{\Xi \vdash P \; \mathrm{prop} \quad \Xi \vdash Q \; \mathrm{prop} \quad \Xi, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{prop} \quad \Xi, P \; \mathrm{true} \vdash R \; \mathrm{true} \quad \Xi, Q \; \mathrm{true} \vdash R \; \mathrm{true}}{\Xi, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{true}}$$ 
+One could also define Russell universes [[à la Coquand]], in that the type theory has a type judgment for each universe $U$. Using the dependent type theory with no separate type judgment, instead of having only one term judgment $a:A$, for index $i$ and type $A:U_i$, we instead have an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every index $i$, indicating that $A$ is a type with level $i$, in addition to the [[term]] judgments $a:A$. Then, one has the following rules for Russell universes à la Coquand: 
 
-* Rules for true:
-$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \top \; \mathrm{prop}} \qquad \frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \top \; \mathrm{true}}$$ 
+$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i \; \mathrm{type}_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A \; \mathrm{type}_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Lift}(A) \; \mathrm{type}_{s(i)}}\mathrm{lifting}$$
 
-* Rules for false:
-$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \bot \; \mathrm{prop}} \qquad \frac{\Xi \vdash P \; \mathrm{prop}}{\Xi, \bot \; \mathrm{true} \vdash P \; \mathrm{true}}$$ 
+$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A:U_i} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A \; \mathrm{type}_i}$$
 
-Next, we have the [[inference rules]] for [[propositional equality]]:
+In addition, we have rules for contexts which state that one could add typing judgments to the list of contexts:
 
-$$\frac{\Xi \; \mathrm{metactx}}{\Gamma, x \; \mathrm{index}, y \; \mathrm{index} \vdash x = y \; \mathrm{prop}} \quad \frac{\Xi \; \mathrm{metactx}}{\Gamma, x \; \mathrm{index} \vdash x = x \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
-$$\frac{\Xi, x \; \mathrm{index}, y \; \mathrm{index}, x = y \; \mathrm{true} \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x.P(x, x)\right) \implies \left(\forall x.\forall y.x = y \implies P(x, y)\right) \; \mathrm{true}}$$
+One could derive from these rules the above rules for Russell universes and context extension
 
-Finally, we have the [[inference rules]] for a [[linear order]] which has no [[upper bound]]:
+$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash \mathrm{Lift}(A):U_{s(i)}}\mathrm{lifting}$$
 
-$$\frac{\Xi \vdash x \; \mathrm{index} \quad \Xi \vdash y \; \mathrm{index}}{\Gamma \vdash x \lt y \; \mathrm{prop}} \quad \frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.(x \lt x) \implies \bot \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
-$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.x \lt y \implies ((y \lt x) \implies \bot) \; \mathrm{true}}$$
-
-$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.\forall z.(x \lt z) \implies ((x \lt y) \vee (y \lt z)) \; \mathrm{true}}$$
-
-$$\frac{\Xi \; \mathrm{metactx}}{\Gamma \vdash \forall x.\forall y.((x \lt y) \implies \bot) \wedge ((y \lt x) \implies \bot) \implies (x = y) \; \mathrm{true}}$$
-
-$$\frac{\Xi \vdash x \mathrm{index}}{\Gamma \vdash s(x) \; \mathrm{index}} \qquad \frac{\Xi \vdash x \mathrm{index}}{\Gamma \vdash x \lt s(x) \; \mathrm{true}}$$
-
-Most commonly, the linear order is that of the [[natural numbers]], in which one replaces the axioms of a linear order without upper bound with the [[axioms]] and [[signature (in logic)|signatures]] for [[first-order theory|first-order]] [[Peano arithmetic]]. 
-
-Now, we introduce the third layer, which consists of a type theory with only one judgment, the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a **Russell universe** or **universe à la Russell**, whose terms are the types themselves. Russell universes are formalized with the following rules:
-
-$$\frac{\Xi \vdash i \; \mathrm{index} \quad \Xi \vdash j \; \mathrm{index} \quad \Xi \vdash i \lt j \; \mathrm{true}}{\Xi \vdash U_i:U_j} \quad \frac{\Xi \vdash i \; \mathrm{index} \quad \Xi \vdash j \; \mathrm{index} \quad \Xi \vdash i \lt j \; \mathrm{true} \quad \Xi \vdash A:U_i}{\Xi \vdash \mathrm{Lift}_{i, j}(A):U_j}$$
-
-Contexts are defined as a metacontext with a list of typing judgments, with the metacontext always preceding the list of typing judgments:
-
-$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vert () \; \mathrm{ctx}} \qquad \frac{\Xi \vert \Gamma \vdash A:U_i}{\Xi \vert (\Gamma, a:A) \; \mathrm{ctx}}$$
-
-The general rules for Russell universes then follows:
-
-$$\frac{\Xi \vert \Gamma \vdash i \; \mathrm{index} \quad \Xi \vert \Gamma \vdash j \; \mathrm{index} \quad \Xi \vert \Gamma \vdash i \lt j \; \mathrm{true}}{\Xi \vert \Gamma \vdash U_i:U_j} \quad \frac{\Xi \vert \Gamma \vdash i \; \mathrm{index} \quad \Xi \vert \Gamma \vdash j \; \mathrm{index} \quad \Xi \vert \Gamma \vdash i \lt j \; \mathrm{true} \quad \Xi \vert \Gamma \vdash A:U_i}{\Xi \vert \Gamma \vdash \mathrm{Lift}_{i, j}(A):U_j}$$
-
-### With a separate type judgment
+### With a single separate type judgment
 
 If the type theory has a separate type judgment $A \; \mathrm{type}$, the rules for Russell universes become simpler, as one doesn't have to assume infinitely many Russell universes and a second level to house the natural numbers type used to index the universes. Instead, we merely have
 
