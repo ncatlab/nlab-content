@@ -57,5 +57,12 @@ Axiomatization and examples of boundary field theories in [[local prequantum fie
 
 * {#FiorenzaValentino14} [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors_ ([arXiv:1409.5723](http://arxiv.org/abs/1409.5723))
 
+Discussion of the [[BV-formalism|BV-]][[phase space]] and [[Poisson n-algebras|Poisson $\infty$-algebras]] of  [[BF theory]] and [[Einstein gravity]] on [[manifold with corners|corners]]:
+
+* [[Alberto Cattaneo]], *Poisson Structures from Corners of Field Theories*, [talk at](CQTS#CattaneoNov2023) [[CQTS]] (22 Nov 2023) &lbrack;slides: [[Cattaneo-PoissonStrucFromCorners.pdf:file]], video: [YT](https://youtu.be/_bGH09FmAxk)&rbrack;
+
+
+
+
 
 [[!redirects boundary field theories]]
