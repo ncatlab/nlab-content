@@ -52,6 +52,8 @@ natural in $b \in B$, where $[A, B]_{l, A'}(\Delta(b), F)$ is the 2-category of 
 
 * {#StreetLimitsIndexed} [[Ross Street]], _Limits indexed by category-valued 2-functors_ Journal of Pure and Applied Algebra **8**, Issue 2 (1976) pp 149-181. doi:[10.1016/0022-4049(76)90013-X](https://doi.org/10.1016/0022-4049(76%2990013-X)
 
+* M.E. Descotte, [[Eduardo J. Dubuc]], M. Szyld, _Sigma limits in 2-categories and flat pseudofunctors_, (v1: On the notion of flat 2-functors) [arXiv:1610.09429](https://arxiv.org/abs/1610.09429) Adv. Math. __333__ (2018) 266--313
+
 * Martin Szyld. _Lifting PIE limits with strict projections_ (2018), ([arXiv:1809.04712](https://arxiv.org/abs/1809.04712))
 
 * [[Luca Mesiti]], *The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits* (2023), &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
