@@ -26,6 +26,6 @@ Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] 
 
 * [[Yasunori Lee]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], *Matching higher symmetries across Intriligator-Seiberg duality* ([arXiv:2108.05369](https://arxiv.org/abs/2108.05369))
 
-* Monica Jinwoo Kang, Sungkyung Kang, *Central extensions of higher groups: Green-Schwartz mechanism and 2-connections* \[<a href="https://arxiv.org/abs/2311.14666">arXiv:2311.14666</a>\]
+* Monica Jinwoo Kang, Sungkyung Kang, *Central extensions of higher groups: Green-Schwarz mechanism and 2-connections* \[<a href="https://arxiv.org/abs/2311.14666">arXiv:2311.14666</a>\]
 
 
