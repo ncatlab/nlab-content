@@ -4,9 +4,9 @@ The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-
 
 * {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992 ([doi:10.1007/BFb0101184](https://doi.org/10.1007/BFb0101184)).
 
-* {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
+* {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. **32** (1993) 1087-1103 \[<a href="https://doi.org/10.1007/BF00671791">doi:10.1007/BF00671791</a>, [arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099)\]
 
-* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
+* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra **23** 6  (1995) \[<a href="https://doi.org/10.1080/00927879508825335">doi:10.1080/00927879508825335</a>, [arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095)\]
 
 * {#Kontsevich97} [[Maxim Kontsevich]], Section 4.3 of: *Deformation quantization of Poisson manifolds, I*,  Lett. Math. Phys. **66** (2003) 157-216 ([arXiv:q-alg/9709040](https://arxiv.org/abs/q-alg/9709040), [doi:10.1023/B:MATH.0000027508.00421.bf](https://doi.org/10.1023/B:MATH.0000027508.00421.bf))
 
