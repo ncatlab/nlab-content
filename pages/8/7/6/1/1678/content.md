@@ -209,6 +209,8 @@ See the references at [[2-category]]. For instance (note slightly outdated termi
 * Gray, _[[Gray-adjointness-for-2-categories|Adjointness For
 2-Categories]]_
 
+In the following **oplax natural transformations** are defined, but called, simply, "transformations":
+
 * [[Tom Leinster]], _Basic bicategories_,
 [arXiv:math/9810017](http://arxiv.org/abs/math/9810017).
 
