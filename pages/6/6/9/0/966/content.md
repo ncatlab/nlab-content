@@ -142,6 +142,8 @@ k & \to & x \\
 gives a subobject $k$ of $\prod_s k_s$ that maps to $x$, and into which $0$ embeds. Thus there exists a map $0 \to x$, and we conclude $0$ is initial. 
 =--
 
+### In locally presentable categories
+
 In practice an important special case is that of functors between
 [[locally presentable categories]]. For these there is the following version of an adjoint functor theorem.
 
