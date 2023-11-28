@@ -396,6 +396,8 @@ On [[monoidal categories]]:
 
 * [[Ross Street]], _Complete objects relative to a theory_, June 1976 ([pdf](http://maths.mq.edu.au/~street/Sketch.pdf))
 
+* [[Ross Street]], _Gray's tensor product of 2-categories_, February 1982, ([pdf](http://maths.mq.edu.au/~street/GrayTensor.pdf))
+
 category: people
 
 [[!redirects R. Street]]
