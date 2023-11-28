@@ -59,6 +59,10 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
 
+Discussion of [[de Rham cohomology]] of surfaces:
+
+* [[William Fulton]], §18 of: *Algebraic Topology -- A First Course*, Graduate Texts in Mathematics **153**, Springer (1995) \[<a href="https://doi.org/10.1007/978-1-4612-4180-5">doi:10.1007/978-1-4612-4180-5</a>\] 
+
 
 [[!redirects surface]]
 [[!redirects surfaces]]
