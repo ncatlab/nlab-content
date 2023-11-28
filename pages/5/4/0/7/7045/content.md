@@ -51,29 +51,11 @@ Type universes are important in [[dependent type theory]] for numerous reasons:
 
 1. In [[set theory]], one could usually quantify over sets using the [[universal quantifier]] and the [[existential quantifier]]. However, in [[dependent type theory]], one could only quantify over elements of types. Without type universes, types are not elements of type universes, but rather [[judgment|judged]] separately as a type, and thus it is impossible to quantify over types. Quantification over types is necessary for proving [[universal properties]] of various [[mathematical structures]], such as that the [[integers]] are the [[initial object|initial]] [[commutative ring]]. 
 
-1. Having type universes in the type theory avoids having to use long annotations everywhere. For example, without type universes, the [[heterogeneous identity type]] for the type family $x:A \vdash B(x)$, elements $a:A$, $b:A$, $p:\mathrm{Id}_A(a, b)$, $y:B(a)$, and $z:B(b)$ is represented by $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$, where the subscript $x:A.B(x)$ is a long annotation used to represent the type family $x:A \vdash B(x)$. With type universes, the type family $x:A \vdash B(x):U$ is represented by the function $B:A \to U$, and the same heterogeneous identity type is then represented by $\mathrm{hId}_{B}(a, b, p, y, z)$, which is more concise when written out, and in addition, the subscript $B$ is now represents that the type depends upon the universe, rather than merely being an annotation, and could be written as the dependent type $\mathrm{hId}(B, a, b, p, y, z)$. 
-
-1. In [[dependent type theory]] with [[judgmental equality]] and a hierarchy of [[Russell universes]], the [[congruence rules]] for [[substitution]] implies the [[congruence rules]] for every type in the type theory. However, without [[type universes]], one has to add to the theory a separate judgment for types, as well as [[judgmental equality]] of types, and the associated [[structural rules]] for strict judgmental equality of types. The [[congruence rules]] for [[substitution]] no longer implies the [[congruence rules]] for every type former in the type theory, because not all types are terms of universes. Thus, the [[congruence rules]] for every type in the type theory have to be added separately. 
-
-1. In [[objective type theory]], there is no separate [[judgmental equality]] in the theory. While this results in a simpler formal theory, since one doesn't need all the structural and congruence rules for judgmental equality, there is the question of how one forms [[definitions]] of types in the theory without judgmental equality. With type universes, one could define a symbol $B$ as a type $A:U$ using the [[propositional equality]] $B =_U A$. However, without type universes, types are not elements of type universes, but rather [[judgment|judged]] separately as a type, and thus one cannot compare them for equality. Instead, one would have to use [[equivalences of types]]. However, equivalences are significantly more complex to define, since the symbol $B \simeq A$ usually representing the [[equivalence type]] hasn't been formally defined in the theory yet, and any definition of [[equivalence type]] or [[isEquiv]] for functions is itself a very complex expression when only using [[dependent function types]], [[function types]], [[dependent pair types]], [[pair types]], and [[identity types]] in the expression. 
-
-1. In the [[split context]] formalization of [[spatial type theory]] and [[cohesive type theory]] with an additional judgment for crisp terms of types, with a hierarchy of [[Russell universes]], one could define crisp types by simply postulating the type to crisply be an element of a type universe. However, without [[type universes]], one has to add to the theory a separate judgment for crisp types, and all the requisite [[inference rules]], [[structural rules]], and [[congruence rules]] for crisp type judgments. 
+1. Having a [[hierarchy of universes]] where every type is an element of the hierarchy, instead of a single separate type judgment has its own benefits. These includes the lack of annotations in defining types, since all types are elements of universes $A:U_i$ and all family of types are elements of function types $B:A \to U_i$; the lack of additional rules for judgmental equality in type theories with judgmental equality, since they are all admissible; the ease of definitions of types in [[objective type theory]] which does not have [[judgmental equality]]; and the lack of separate type judgments for modes in [[split context]] [[modal type theory]]. However, this comes at the cost of having to formalize the theory of universe levels of the hierarchy of universes before formalizing the type theory. 
 
 In [[homotopy type theory]] the type universe $\mathcal{U}$ is often assumed to satisfy the [[univalence]] [[axiom]]. This is a reflection of the fact that in its [[categorical semantics]] as an [[object classifier]] is part of an [[internal (∞,1)-category]] in the ambient [[(∞,1)-topos]]: the one that as an [[indexed category]] is the small [[codomain fibration]].
 
-[[Per Martin-Lof]]'s original type theory contained a Russell universe which contained *all* types, which therefore in particular contained itself, i.e. one had $Type : Type$. But it was pointed out by [[Jean-Yves Girard]] that this was inconsistent; see [[Girard's paradox]]. Thus, modern type theories generally contain a hierarchy of types universes, with 
-
-$$n:\mathbb{N} \vdash \mathcal{U}(n) : \mathcal{U}(n + 1)$$
-
-for Russell universes, and 
-
-$$n:\mathbb{N} \vdash \mathcal{U}(n)\; type$$
-$$n:\mathbb{N} \vdash \mathcal{U}^{'}(n) : \mathcal{U}(n + 1)$$
-$$n:\mathbb{N} \vdash El_{n+1}(\mathcal{U}^{'}(n)) \equiv Type(n)$$
-$$n:\mathbb{N} \vdash El_{n,n+1}:\mathcal{U}(n) \to \mathcal{U}(n + 1)$$
-$$n:\mathbb{N} \vdash p:is1Monic(El_{n,n+1})$$
-
-for Tarski universes. 
+[[Per Martin-Lof]]'s original type theory contained a Russell universe which contained *all* types, which therefore in particular contained itself, i.e. one had $Type : Type$. But it was pointed out by [[Jean-Yves Girard]] that this was inconsistent; see [[Girard's paradox]]. Thus, modern type theories generally contain a [[hierarchy of universes]]. 
 
 ## Formalizations 
 
