@@ -27,8 +27,6 @@ In [[constructive mathematics]], a [[set]] $X$ has __stable equality__ if any tw
 
 * Every [[set]] $S$ with a [[tight apartness relation]] $\#$ has stable equality, because even in [[constructive mathematics]], given elements $x \in S$ and $y \in S$, $\neg \neg \neg (x \# y) \iff \neg (x \# y)$, and because $\neg (x \# y) \iff x = y$, $\neg \neg (x = y) \iff x = y$, and thus $S$ is stable. 
 
-* Since every [[Heyting field]] has a tight apartness relation and thus stable equality, every [[nilpotent element]] is equal to zero. 
-
 * In particular, the [[Dedekind real numbers]] have stable equality, and any Heyting [[subfield]] of the [[Dedekind real numbers]] has stable equality. 
 
 ## See also ##
