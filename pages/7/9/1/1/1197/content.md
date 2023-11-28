@@ -23,10 +23,6 @@ In a fibre [[bundle]] or more generally in a fibration, the fibre 'twists' as on
 
 In the  setting of simplicial [[homotopy theory]], one can attempt to construct analogues of fibre bundles by starting with a base [[simplicial set]] $X_\bullet$ and a fibre $F_\bullet$ and trying to 'deform' the simplicial product $X_\bullet \times F_\bullet$ to get some non-trivial fibred object. In the Cartan seminars of the period 1956--57 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=SHC_1956-1957__9__A1_0)), (about pages 1--10), a neat solution was described: by leaving all but one of the face maps of the product alone, and deforming the last. The result is a "twisted [[cartesian product]]" (see below). The deformation required a simplicial [[automorphism]] of the fibre of course, and the resulting twisting function went from the base $X_\bullet$ to the automorphisms of $F_\bullet$, completely mirroring the topological example. The simplicial identities force the twisting function to obey certain equations.
 
-\begin{remark}\label{RelationToTwistingCochains}
-Twisting functions are the analogue of [[twisting cochains]] in the context of [[simplicial sets]]; but twisting cochains were introduced by [Brown 1959](#Brown59), whilst twisting functions were discussed already in [Cartan 1956](#Cartan56).
-\end{remark}
-
 
 ##Definition 
 
@@ -61,6 +57,9 @@ Thus the only difference from the usual Cartesian product of simplicial sets is 
 
 * By the adjunction between $W$-bar and the [[Dwyer-Kan loop groupoid]] functor, a twisting function also corresponds to a morphism of simplicial groupoids $G(X_\bullet)\to G_\bullet$.
 
+\begin{remark}\label{RelationToTwistingCochains}
+Twisting functions are the analogue of [[twisting cochains]] in the context of [[simplicial sets]]; but twisting cochains were introduced by [Brown 1959](#Brown59), whilst twisting functions were discussed already in [Cartan 1956](#Cartan56).
+\end{remark}
 
 ## Literature
 
@@ -70,15 +69,15 @@ Thus the only difference from the usual Cartesian product of simplicial sets is 
 
 * [[Michael G. Barratt]], [[Victor K.A.M. Gugenheim]], [[John C. Moore]], _On semisimplicial fibre-bundles_, Amer. J. Math. __81__ (1959) 639-657 &lbrack;[doi:10.2307/2372920](https://doi.org/10.2307/2372920), [jstor:2372920](https://www.jstor.org/stable/2372920), MR0111028&rbrack;
 
-Review::
 
-* [[Peter May]], §IV in: _Simplicial objects in algebraic topology_, University of Chicago Press (1967) &lbrack;[ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]]&rbrack;
-
-
-More on the link between [[Kan fibrations]] and [[simplicial fibre bundles]], and thus TCPs:
+The link between Kan fibrations and simplicial fibre bundles, and thus TCPs is neatly summarised in:
 
 *  [[Edward Curtis]], _Simplicial Homotopy Theory_, Advances in Math. __6__ (1971) 107-209 &lbrack;[MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <a href="http://dx.doi.org/10.1016/0001-8708(71)90015-6">doi</a>&rbrack;
 
+
+Review:
+
+* [[Peter May]], §IV in: _Simplicial objects in algebraic topology_, University of Chicago Press (1967) &lbrack;[ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]]&rbrack;
 
 
 
