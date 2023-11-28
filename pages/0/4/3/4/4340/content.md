@@ -22,6 +22,10 @@ The truth is commonly denoted $true$, $T$, $\top$, or $1$.  These may be pronoun
 
 ## Definitions
 
+In [[natural deduction]] the [[inference rules]] for true is given by
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \top \; \mathrm{prop}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Xi \vdash \top \; \mathrm{true}}$$ 
+
 ### In classical logic
 
 In [[classical logic]], there are two [[truth values]]: true and [[false]].  Classical logic is perfectly symmetric between truth and falsehood; see [[de Morgan duality]].
@@ -32,7 +36,6 @@ In [[classical logic]], there are two [[truth values]]: true and [[false]].  Cla
 In [[constructive logic]], $true$ is the [[top element]] in the [[poset]] of [[truth values]].  
 
 Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value which is not true is [[false]].
-
 
 ### In linear logic
 
