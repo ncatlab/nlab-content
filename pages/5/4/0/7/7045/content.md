@@ -409,6 +409,4 @@ See also
 [[!redirects universe type]]
 [[!redirects universe types]]
 
-[[!redirects hierarchy of types]]
-
 [[!redirects Type]]
