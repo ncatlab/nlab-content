@@ -24,7 +24,7 @@
 ## Idea
 
 In [[intensional type theory]] and [[homotopy type theory]], there are typically two ways to construct a "type of small types". One way is by [[Russell universes]], where an [[element]] $A:U$ of a [[type universe]] $U$ is literally a [[type]] $A \; \mathrm{type}$. The alternative is by Tarski universes, where elements $A:U$ are not literally types, but rather the universe type $U$ comes with the additional structure of a [[type family]] $T$, such that the [[dependent type]] $T(A)$ represents the actual type. 
-Usually universes are defined in [[intensional type theory]] and [[homotopy type theory]] using [[derivations]] and [[rules]], such as the type reflection rule 
+Usually universes are defined in [[intensional type theory]] and [[homotopy type theory]] using [[derivations]] and [[inference rules]], such as the type reflection rule 
 $$\frac{\Gamma \vdash A:U}{\Gamma \vdash T(A) \; \mathrm{type}}$$
 for Tarski universes. Furthermore, universes are usually defined as being closed under all type formers inside the type theory, regardless of the type theory. 
 
