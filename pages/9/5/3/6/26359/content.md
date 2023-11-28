@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[dependent type theory]], the *type of finite types* is the [[type universe]] $\mathrm{FinType}$ which contains the [[finite types]] of the type theory, in the sense of [[finite set]] in set theory. The type of finite types is important in the field of [[combinatorics]]. 
+In [[dependent type theory]], the *type of finite types* is the [[type universe]] $\mathrm{FinType}$ which contains the [[finite types]] of the type theory, in the sense of [[finite set]] in set theory. The type of finite types is important in the field of [[combinatorics]], as well as for defining mathematical structures like [[finite-dimensional vector spaces]]. 
 
 ## Definition
 
