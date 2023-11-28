@@ -316,6 +316,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {
 
 * [[univalent type theory]]
 
+* [[hierarchy of universes]]
 
 ## References
 
