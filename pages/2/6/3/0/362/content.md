@@ -47,7 +47,9 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * see also [[generalized Gray tensor product]]
 
-## References 
+## References
+
+Theorem 1,4.14 of:
 
 * John W. Gray, _Formal category theory: adjointness for 2-categories_, Lecture Notes in Mathematics, Vol. 391. Springer-Verlag, Berlin-New York, 1974. xii+282 pp doi:[10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280) (see also [[Adjointness for 2-Categories]])
 
