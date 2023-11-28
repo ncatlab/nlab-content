@@ -129,6 +129,8 @@ But none of this are problems in [[Book HoTT]] as the formers for every type hav
 
 * [[Tarski universe]]
 
+* [[Coquand universe]]
+
 * [[two-level type theory]]
 
 ## References
