@@ -1090,9 +1090,9 @@ The formulation of supergravity of [[supermanifolds]] and the relevance of the [
 
 The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
-* {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in _Istanbul 1982, Proceedings, Group Theoretical Methods In Physics_, Istanbul Grp.Th.Meth.1982 228-247l  and CERN Geneva - TH. 3499 ([spire:182644](http://inspirehep.net/record/182644))
+* {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in: *Group Theoretical Methods in Physics*, Lecture Notes in Physics **180**, Springer (1983) 228–247 &lbrack;[doi:10.1007/3-540-12291-5_29](https://doi.org/10.1007/3-540-12291-5_29), [spire:182644](http://inspirehep.net/record/182644)&rbrack;
 
-The original articles that introduced specifically the D'Auria-Fr&#233;-formalism are
+The original articles that introduced specifically the D'Auria-Fr&#233;-formalism:
 
 * {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
 
