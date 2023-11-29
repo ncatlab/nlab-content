@@ -171,6 +171,14 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent a
 
 ## Properties
 
+### Typal computation and uniqueness rules
+
+The typal computation rule for function types is provable from the other four typal type formers of function types. Given type $A$, type family $x:A \vdash B(x)$ and dependent function $f:\prod_{x:A} B(x)$, we have, by the elimination rule and the introduction rule, a dependent function $\lambda x:A.f(x):\prod_{x:A} B(x)$, which by the uniqueness rules of dependent product types are equal to each other 
+$$\eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda x:A.f(x)$$ 
+By the inductively defined function $\mathrm{idtohomotopy}$ which takes [[identifications]] between dependent functions to [[homotopies]] between dependent functions, we have that 
+$$\mathrm{idtohomotopy}(f, \lambda x:A.f(x))(\eta_{\prod_{x:A} B(x)}(f)):\prod_{x:A} f(x) =_{B(x)} (\lambda x:A.f(x))(x)$$
+which is the typal computation rule for dependent function types. 
+
 ### Typal congruence rules
 
 These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]. 
