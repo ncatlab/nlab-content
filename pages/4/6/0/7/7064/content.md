@@ -1,4 +1,4 @@
-
+.
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -112,7 +112,7 @@ The [[finite abelian group]] $\pi_7(\mathbb{S}) \simeq \mathbb{Z}_{240}$ decompo
 
 ### 0th stem
 
-See at _[[Hopf degree theorem]]_
+See at _[[Hopf degree theorem]]_.
 
 ### 1st stem
 
