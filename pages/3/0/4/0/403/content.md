@@ -436,6 +436,9 @@ The observation that (internal) categories are [[monads]] in the [[bicategory of
 
 * {#Bénabou67} [[Jean Bénabou]], §5.4.3 in: *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
+* [[Jean Celeyrette]], *Catégories internes et fibrations* & *Cohomologie de Gel'fand-Fuks*, PhD thesis, Paris (1975) &lbrack;[pdf](/nlab/files/celeyrette-thesis-1975.pdf)&rbrack;
+
+
 On [[category]]-valued [[stacks]] ([[2-sheaves]]) as [[internal categories]] in a [[sheaf topos]], and on [[weak equivalences of internal categories]]:
 
 * [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
