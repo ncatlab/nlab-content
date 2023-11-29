@@ -154,7 +154,7 @@ Various classical fixed-point theorems for monotone functions on posets can be "
 +-- {: .num_theorem} 
 ###### Theorem 
 
-Let $C$ be a [[category]] with an [[initial object] $0$ and [[colimits]] of $\kappa$-[[directed diagrams]] for some [[regular cardinal]] $\kappa$, and suppose $F \colon C \to C$ [[preserved colimit|preserves]] $\kappa$-[[directed colimits]]. Then $F$ has an [[initial algebra]] (which by Lambek's theorem is a fixed point of $F$). 
+Let $C$ be a [[category]] with an [[initial object]] $0$ and [[colimits]] of $\kappa$-[[directed diagrams]] for some [[regular cardinal]] $\kappa$, and suppose $F \colon C \to C$ [[preserved colimit|preserves]] $\kappa$-[[directed colimits]]. Then $F$ has an [[initial algebra]] (which by [[Lambek's theorem]] is a fixed point of $F$). 
 
 =-- 
 
@@ -257,6 +257,4 @@ A relation to [[framed manifold|framed]] [[cobordism classes]] and fixed points:
 
 [[!redirects Knaster-Tarski theorem]]
 [[!redirects Knaster-Tarski's fixed point theorem]]
-
-
 
