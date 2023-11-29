@@ -24,7 +24,7 @@ From the [[nPOV]], we may want to think of the statement in this way:
 +-- {: .num_prop #2cat}
 ###### Proposition
 
-Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[identity]] [[morphism]] of $X$ and $End(Id_x)$ for the set of [[endomorphism|endo]]-[[2-morphism]]s on $X$. Then:
+Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[identity]] [[morphism]] of $X$ and $End(Id_x)$ for the set of [[endomorphism|endo]]-[[2-morphism|2-morphisms]] on $X$. Then:
 
 * [[horizontal composition]] and [[vertical composition]] define the same [[monoid object]] structure on $End(Id_x)$;
 
