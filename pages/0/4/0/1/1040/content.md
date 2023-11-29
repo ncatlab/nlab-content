@@ -46,7 +46,7 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $\mathc
 
 3. The [[maps]] $T\eta, \eta T \,\colon\, T \to T T$ are [[equality|equal]]. 
 
-4. For every $T$-[[algebra over a monad|algebra]] (aka: $T$-module) $(M,u)$, the corresponding $T$-[[action]] $u\colon T M \to M$ is an [[isomorphism]].
+4. For every $T$-[[algebra over a monad|algebra]] (aka: $T$-module) $(M,u)$, the corresponding $T$-[[action]] $u\colon T M \to M$ is an [[isomorphism]] (i.e. every algebra is a [[fixed point]]).
 
 5. The [[forgetful functor]] $\mathcal{C}^T \to \mathcal{C}$ (where $C^T$ is the [[Eilenberg-Moore category]] of $T$-algebras) is a [[full and faithful functor]].
 
@@ -141,7 +141,7 @@ a map $f\colon (M,u)\to (M',u')$; i.e. $u'\circ T f = f\circ u$. But we know tha
 * $6\Rightarrow 1$ 
 
   If $F\dashv U$ is an adjunction with $U$ fully faithful, 
-then the counit $\epsilon$ is iso. Since $D(FU X,Y)\simeq C(UX,UY)\simeq D(X,Y)$ where the last equivalence holds since $U$ is full and faithful; hence by essential unicity of the representing object there is an iso $FUX\stackrel{\sim}{\to} X$ ; let $X=Y$ then the adjoint of this identity is the counit of the adjunction; since the hom objects correspond bijectively, the counit is an isomorphism. Hence the multiplication of the induced monad $\mu = U\epsilon F$ is also an iso.
+then the counit $\epsilon$ is iso. Since $D(FU X,Y)\simeq C(UX,UY)\simeq D(X,Y)$ where the last equivalence holds since $U$ is full and faithful; hence by essential unicity of the representing object there is an isomorphism $FUX\stackrel{\sim}{\to} X$ ; let $X=Y$ then the adjoint of this identity is the counit of the adjunction; since the hom objects correspond bijectively, the counit is an isomorphism. Hence the multiplication of the induced monad $\mu = U\epsilon F$ is also an iso.
 
 =--
 
