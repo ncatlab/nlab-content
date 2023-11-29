@@ -195,6 +195,14 @@ $$
 
 See also at _[[function monad]]_.
 
+### Typal congruence rules and uniqueness rules
+
+The typal computation rule for function types is provable from the other four typal type formers of function types. Given types $A$ and $B$ and function $f:A \to B$, we have, by the elimination rule and the introduction rule, a function $\lambda x:A.f(x):A \to B$, which by the uniqueness rules of dependent product types are equal to each other 
+$$\eta_{A \to B}(f):f =_{A \to B} \lambda x:A.f(x)$$ 
+By the inductively defined function $\mathrm{idtohomotopy}$ which takes [[identifications]] between functions to [[homotopies]] between functions]], we have that 
+$$\mathrm{idtohomotopy}(f, \lambda x:A.f(x))(\eta_{A \to B}(f)):\prod_{x:A} f(x) =_{A \to B} (\lambda x:A.f(x))(x)$$
+which is the typal computation rule for function types. 
+
 ### Function types as hom-objects
  {#AsHomObjects}
 
