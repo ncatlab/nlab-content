@@ -1,5 +1,154 @@
-_antisymmetric_
-__antisymmetric__
+
+\begin{tikzcd}[
+  row sep=0pt,
+  column sep=10pt
+]
+  &
+  \bigoplus_{[H]}
+  \underline{V}_H
+  \ar[
+    rrrr,
+    "{ p }"
+  ]
+  &[-30pt]
+  &&
+  &[-20pt]
+  P
+  \\
+  G/K
+  &
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathbb{Q}
+  \big[
+    \mathrm{Orb}_G\big(
+      G/K
+      ,\,
+      G/H
+    \big)
+    \underset{
+      \mathclap{
+        \raisebox{-2pt}{
+          \scalebox{.6}{$
+            \mathbb{Q}[N(H)/H]
+          $}
+        }
+      }
+    }{\otimes}
+    V_H
+  \big]
+  \ar[
+    rrrr,
+    "{ p_{G/K} }"
+  ]
+  \ar[
+    dddd,
+    "{  
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathbb{Q}
+  [
+    \mathrm{Orb}_G(
+      \phi
+      ,\,
+      G/H
+    )
+    \underset{
+      \mathclap{
+        \raisebox{-2pt}{
+          \scalebox{.6}{$
+            \mathbb{Q}[N(H)/H]
+          $}
+        }
+      }
+    }{\otimes}
+    V_H
+  ]
+    }"{description}
+  ]
+  &&&&
+  P(G/K)
+  \ar[
+    dddd,
+    "{ P(\phi) }"
+  ]
+  \\
+  &
+  &
+  \big(
+    G/K \xrightarrow{f} G/H
+  \big)
+  \otimes
+  v_H
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  \ar[
+    dd,
+    phantom,
+    "{ \longmapsto }"{rotate=-90}
+  ]
+  &&
+  P(f)(v_H)
+  \ar[
+    dd,
+    phantom,
+    "{ \longmapsto }"{rotate=-90}
+  ]
+  \\
+  \phantom{A}
+  \\
+  &
+  &
+  \big(
+    G/K' \xrightarrow{ \phi }
+    G/K \xrightarrow{f} G/H
+  \big)
+  \otimes
+  v_H
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  &&
+  P(\phi)\big(P(f)(v_H)\big)
+  \\
+  G/K'
+  \ar[
+    uuuu,
+    "{ \phi }"
+  ]
+  &
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathbb{Q}
+  \big[
+    \mathrm{Orb}_G\big(
+      G/K'
+      ,\,
+      G/H
+    \big)
+    \underset{
+      \mathclap{
+        \raisebox{-2pt}{
+          \scalebox{.6}{$
+            \mathbb{Q}[N(H)/H]
+          $}
+        }
+      }
+    }{\otimes}
+    V_H
+  \big]
+  \ar[
+    rrrr,
+    "{ p_{G/K'} }"{swap}
+  ]
+  &&&&
+  P(G/K')
+\end{tikzcd}
 
 
 $\Sigma$ a [[connected topological space|connected]] [[closed manifold|closed]] [[surface]]
