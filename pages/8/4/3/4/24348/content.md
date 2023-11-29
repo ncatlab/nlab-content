@@ -1,3 +1,4 @@
+
 This page is intended to record doctoral theses whose focus is primarily [[category theory|category theoretic]], particularly those from earlier years that are harder to find online.
 
 Note: the list is ordered first by year, then alphabetically by last name.
