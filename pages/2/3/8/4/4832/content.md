@@ -52,6 +52,11 @@ On the local formulation (allowing decomposition and re-gluing of [[spacetime]])
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
+and for flux observables:
+
+* [[Alberto S. Cattaneo]], Alejandro Perez, *A note on the Poisson bracket of 2d smeared fluxes in loop quantum gravity*, Class. Quant. Grav. **34** (2017) 107001 &lbrack;[arXiv:1611.08394](https://arxiv.org/abs/1611.08394), [doi:10.1088/1361-6382/aa69b4](https://doi.org/10.1088/1361-6382/aa69b4)&rbrack;
+
+
 and relation to [[BF-theory]]:
 
 * [[Alberto S. Cattaneo]], [[Leon Menger]], [[Michele Schiavina]], *Gravity with torsion as deformed BF theory* &lbrack;[arXiv:2310.01877](https://arxiv.org/abs/2310.01877)&rbrack;
