@@ -1,155 +1,256 @@
 
+### Projective objects
+ {#ProjectiveObjects}
+
+> Beware that this section uses different notational conventions than the rest of the entry. None of the rest of the entry is necessary for reading this section here.
+
+Notation:
+
+* $G$ a [[finite group]],
+
+* $N(H)/H$ the "[Weyl group](Weyl+group#InEquivariantHomotopyTheory)" of a [[subgroup]] $H \subset G$,
+
+* $Orb_G$ the [[orbit category]] of $G$, equivalently thought of as the [[full subcategory]] of [[G-sets]] $G/H$ of [[cosets]] for [[subgroups]] $H \subset G$,
+
+* $\mathbb{Q}$ the [[ground field]] of [[rational numbers]],
+
+* $Mod_{\mathbb{Q}}^{Orb_G}$ the [[copresheaf]] [[functor category]] on $Orb_G$ with [[coefficients]] in [[rational vector spaces]],
+
+* $\mathbb{Q}[K]$ the [[group algebra]] over the [[rational numbers]], of a [[finite group]] $K$.
+
+\linebreak
+
+\begin{definition}
+\label{TheInjectiveGenerators}
+(dual to [T82, Def. 3.1](#Triantafillou82))
+\linebreak
+
+  For 
+
+  * $H \subset G$,
+
+  * $V^H \,\in\, Mod_{ \mathbb{Q}[N(H)/H] }$
+
+define
+
+$$
+  \begin{array}{l}
+    \underline{V}^H 
+    \;\in\;
+    Mod_{\mathbb{Q}}^{Orb_G}
+    \\
+    \underline{V}^H 
+    \;\equiv\;
+    Mod_{\mathbb{Q}[N(H)/H]}
+    \Big(
+    \mathbb{Q}\big[
+      Orb_G(-,G/H)
+    \big]
+    ,\,
+    V^H
+    \Big)
+    \mathrlap{\,.}
+  \end{array}
+$$
+\end{definition}
+
+
+\begin{proposition}\label{CharacterizationOfInjectives}
+(dual to [T82, Prop. 3.4](#Triantafillou82))
+\linebreak
+ Every [[injective object]] $I \,\in\, Mod_{\mathbb{Q}}^{Orb_G}$ is a [[direct sum]] of injective generators as in Prop. \ref{TheInjectiveGenerators}.
+\end{proposition}
+
+\begin{proof}
+We make a bunch of choices:
+
+First, in each [[conjugacy class]] $[H]$ of [[subgroups]] $G$ choose one representative $H \subset G$.
+
+For that $H \hookrightarrow G$, consider the [[intersection]] of the [[kernels]] of 
+
+$$
+  I(G/H \twoheadrightarrow G/H')
+  \;\colon\;
+  I(G/H) \to I(G/H')
+$$
+
+for all intermediate [[subgroup]]-inclusions $H \hookrightarrow H' \hookrightarrow G$, and a $N(H)/H$-equivariant splitting
+
+\[
+  \label{TheSplittingForInjectiveEnvelopes}
+  \tau_H 
+    \;\;\colon\;\;
+  I(G/H)
+  \twoheadrightarrow
+  \underset{ H' \supset H }{
+    \textstyle{\bigcap}
+  } 
+  ker\big(
+    I(G/H \twoheadrightarrow G/H')
+  \big)
+  \,\equiv\,
+  V^H
+  \,.
+\]
+
+With this, we may define a morphism in $Mod_{\mathbb{Q}}^{Orb_G}$ as follows, 
+
+\[  
+  \label{ComparisonMorphismForInjectiveDecomposition}
+  \array{
+    i 
+    &\colon&
+    I
+    &\longrightarrow&
+    \underset{
+      [H] 
+    }{\oplus}
+    \underline{V}^H
+    \\
+    i_{G/K}
+    &\colon&
+    I(G/K)
+    &\longrightarrow&
+    \underset{
+      [H]
+    }{\oplus}
+    Mod_{\mathbb{Q}[N(H)/H]}
+    \Big(
+      \mathbb{Q}
+      \big[ 
+        Orb_G(G/K, G/H)
+        ,\,
+        V^H
+      \big]
+    \Big)
+    \\
+    &&
+    i_K
+    &\mapsto&
+    \underset{[H]}{\oplus}
+    \Big(
+      \big(
+        G/K \xrightarrow{f} G/H
+      \big)
+      \mapsto
+      \tau_{H} \circ I(f)(i_K)
+    \Big)
+    \,,
+  }
+\]
+
+where it is the [[functor|functoriality]] of $I$ which implies both that the maps on the right are $N(H)/H$-equivariant and that this transformation is [[natural transformation|natural]] in $G/K$:
+
 \begin{tikzcd}[
   row sep=0pt,
   column sep=10pt
 ]
   &
-  \bigoplus_{[H]}
-  \underline{V}_H
-  \ar[
-    rrrr,
-    "{ p }"
-  ]
-  &[-30pt]
-  &&
-  &[-20pt]
-  P
+  I 
+  \ar[rrrr, "{ i }"]
+    &[-10pt]
+    &&
+    &[-50pt] 
+  \bigoplus_{[H]} 
+  \underline{V}^H
   \\
   G/K
-  &
-  \underset{[H]}{\bigoplus}
-  \,
-  \mathbb{Q}
-  \big[
-    \mathrm{Orb}_G\big(
-      G/K
-      ,\,
-      G/H
-    \big)
-    \underset{
-      \mathclap{
-        \raisebox{-2pt}{
-          \scalebox{.6}{$
-            \mathbb{Q}[N(H)/H]
-          $}
-        }
-      }
-    }{\otimes}
-    V_H
-  \big]
   \ar[
-    rrrr,
-    "{ p_{G/K} }"
-  ]
-  \ar[
-    dddd,
-    "{  
-  \underset{[H]}{\bigoplus}
-  \,
-  \mathbb{Q}
-  [
-    \mathrm{Orb}_G(
-      \phi
-      ,\,
-      G/H
-    )
-    \underset{
-      \mathclap{
-        \raisebox{-2pt}{
-          \scalebox{.6}{$
-            \mathbb{Q}[N(H)/H]
-          $}
-        }
-      }
-    }{\otimes}
-    V_H
-  ]
-    }"{description}
-  ]
-  &&&&
-  P(G/K)
-  \ar[
-    dddd,
-    "{ P(\phi) }"
-  ]
-  \\
-  &
-  &
-  \big(
-    G/K \xrightarrow{f} G/H
-  \big)
-  \otimes
-  v_H
-  \ar[
-    rr,
-    phantom,
-    "{ \longmapsto }"
-  ]
-  \ar[
-    dd,
-    phantom,
-    "{ \longmapsto }"{rotate=-90}
-  ]
-  &&
-  P(f)(v_H)
-  \ar[
-    dd,
-    phantom,
-    "{ \longmapsto }"{rotate=-90}
-  ]
-  \\
-  \phantom{A}
-  \\
-  &
-  &
-  \big(
-    G/K' \xrightarrow{ \phi }
-    G/K \xrightarrow{f} G/H
-  \big)
-  \otimes
-  v_H
-  \ar[
-    rr,
-    phantom,
-    "{ \longmapsto }"
-  ]
-  &&
-  P(\phi)\big(P(f)(v_H)\big)
-  \\
-  G/K'
-  \ar[
-    uuuu,
+    dddd, 
     "{ \phi }"
   ]
   &
-  \underset{[H]}{\bigoplus}
-  \,
-  \mathbb{Q}
-  \big[
-    \mathrm{Orb}_G\big(
-      G/K'
-      ,\,
-      G/H
-    \big)
-    \underset{
-      \mathclap{
-        \raisebox{-2pt}{
-          \scalebox{.6}{$
-            \mathbb{Q}[N(H)/H]
-          $}
-        }
-      }
-    }{\otimes}
-    V_H
-  \big]
+  I(G/K)
   \ar[
     rrrr,
-    "{ p_{G/K'} }"{swap}
+    "{ i_{G/K} }"
+  ]
+  \ar[
+    dddd,
+    "{ I(\phi) }"
   ]
   &&&&
-  P(G/K')
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathrm{Mod}_{N(H)/H}
+  \Big(
+    \mathrm{Orb}_G
+      \big(G/K ,\, G/H \big)
+    ,\,
+    V^H
+  \Big)
+  \ar[
+    dddd,
+    "{  
+  \mathrm{Mod}_{N(H)/H}
+  \Big(
+    \mathrm{Orb}_G
+      \big(\phi ,\, G/H \big)
+    ,\,
+    V^H
+  \Big)
+    }"{description}
+  ]
+  \\
+  & & 
+  i_K 
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  \ar[dd, phantom, "{ \longmapsto }"{rotate=-90}]
+    &&
+  \oplus_{[H]}
+  \Big(  
+    \big( G/K \xrightarrow{f} G/H \big)
+    \mapsto
+    \tau_H \circ I(f)(i_K)
+  \Big)
+  \ar[dd, phantom, "{ \longmapsto }"{rotate=-90}]
+  \\
+  \phantom{A}
+  \\
+  &&
+  I(\phi)(i_K)
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+    &&
+  \oplus_{[H]}
+  \Big(  
+    \big( G/K' \xrightarrow{f'} G/H \big)
+    \mapsto
+    \tau_H \circ I(f')\circ I(\phi) (i_K)
+  \Big)
+  \\
+  G/K'
+  &
+  I(G/K')
+  \ar[
+    rrrr,
+    "{ i_{G/K'} }"{swap}
+  ]
+  &&&&
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathrm{Mod}_{N(H)/H}
+  \Big(
+    \mathrm{Orb}_G
+      \big(G/K' ,\, G/H \big)
+    ,\,
+    V^H
+  \Big)
 \end{tikzcd}
 
+
+
+\end{proof}
+
+
+***
 
 $\Sigma$ a [[connected topological space|connected]] [[closed manifold|closed]] [[surface]]
 
