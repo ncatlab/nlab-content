@@ -203,7 +203,9 @@ Full separation follows from the [[axiom of replacement]] and the principle of [
 
 * {#Carboni97} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures **5** (1997) 1-58 &lbrack;[doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444)&rbrack;
  
+On the relation between comprehension schemes and [[factorisation systems]]:
 
+* [[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
 
 Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]:
 
