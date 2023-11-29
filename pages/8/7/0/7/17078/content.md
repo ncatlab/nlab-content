@@ -4,7 +4,7 @@ I'm a visiting assistant professor at UC Riverside. Before that, I was a graduat
 
 My research interest is [[higher category theory]], and more specifically functor calculi, and more specifically functor calculi in the mold of [[Michael Weiss]]' [[orthogonal calculus]].
 
-If you'd like to contact me for any reason, I can be reached at kaya (dot) arro (at) ucr (dot) edu.
+I can be reached at kaya (dot) arro (at) ucr (dot) edu.
 
 
 
@@ -12,7 +12,7 @@ If you'd like to contact me for any reason, I can be reached at kaya (dot) arro 
 ## Selected  writings
  {#SelectedWritings}
 
-On [[FI-representations]] and their [[representation stability]] in the generality of [[infinity-representations|$\infty$-representations]] in [[stable infinity-categories|stable $\infty$-categories]] and their analysis via [[Goodwillie calculus]]:
+On [[FI-representations]] and their [[representation stability]] in the generality of [[infinity-representations|$\infty$-representations]] in [[stable infinity-categories|stable $\infty$-categories]] and their analysis via a functor calculus analogous to [[orthogonal calculus]]:
 
 * [[Kaya Arro]], *FI-Calculus and Representation Stability* (2023) &lbrack;[arXiv:2306.13597](https://arxiv.org/abs/2306.13597)&rbrack;
 
