@@ -92,7 +92,7 @@ where $S(q)$ is the [[action]] functional.
 \begin{remark}\label{OperatorOrderAndTimeOrder}
 **(operator product order and time-order)**
 \linebreak
-  Under the path integral, the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} x \cdot$) corresponds to *temporal ordering* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
+  Under the path integral, the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} x \cdot$) corresponds to *temporal ordering* of their [[observable]] values ([Feynman 1942 p. 35](#Feynman48), [1948 p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
 
 Conversely the product of [[observable]] values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](#Polchinski98); [Rischke 2021 (5.63)](#Rischke21)).
 \end{remark}
