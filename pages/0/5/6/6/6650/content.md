@@ -61,7 +61,7 @@ The notion appears for instance in
 
 * [[Max Kelly]], _A note on relations relative to a factorization system_, Lecture Notes in Mathematics, 1991, Volume 1488 (1991)
 
-* Stefan Milius, _Relations in categories_, PhD thesis ([pdf](http://www.iti.cs.tu-bs.de/~milius/thesis/thesis_a4.pdf))
+* Stefan Milius, _Relations in categories_, PhD thesis ([pdf](https://www8.cs.fau.de/ext/milius/thesis/thesis_a4.pdf))
 
 On the relation between stable factorization systems and the [[Beck-Chevalley condition]] of the associated fibrations:
 
@@ -76,6 +76,10 @@ Discussion of the example [[(epi, mono) factorization system]] in [[toposes]] (f
 Discussion of reflective stable factorization systems in the context of [[(∞,1)-category theory]] (and with an eye towards [[cohesive homotopy type theory]]):
 
 * {#Shulman} [[Mike Shulman]], _Axiomatic cohesion in HoTT_ (2011) ([web](http://homotopytypetheory.org/2011/11/02/axiomatic-cohesion-in-hott/))
+
+Stable factorisation systems are called **complete factorisation systems** in the following, where they are related to [[comprehension schemes]]:
+
+* [[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
  
 
 [[!redirects stable factorization systems]]
