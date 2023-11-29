@@ -52,7 +52,9 @@ $$\theta: \hom_C(-, c) \stackrel{\sim}{\to} F$$
 
 By the [[Yoneda lemma]], any such transformation $\theta$ (isomorphism or not) is uniquely determined by an element $\xi \in F(c)$. As above, the object $c$ is called a **representing object** (or often, **universal object**) for $F$, and the element $\xi$ is called a **[[universal element]]** for $F$. Again, it follows from the [[Yoneda lemma]] that the pair $(c, \xi)$ is determined uniquely up to unique isomorphism. 
 
-Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it. 
+Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it.
+
+Abstractly, a presheaf $F$ is representable if and only if it admits a [[relative adjunction|left adjoint relative to]] the functor $1 \colon \mathbf 1 \to Set$ from the [[terminal category]], picking out the [[terminal object]] in [[Set]]. The representing object is given by evaluating the left relative adjoint at the unique object of $\mathbf 1$.
 
 ### In enriched category theory 
 
@@ -215,6 +217,8 @@ These general considerations are quite commonplace in algebraic topology, where 
 * [[Artin representability theorem]], [[Artin-Lurie representability theorem]]
 
 * [[multirepresentable functor]]
+
+* [[relative adjunction]]
 
 ## References
 
