@@ -18,8 +18,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -176,6 +174,33 @@ $$
 $$
 \end{definition}
 
+\begin{remark}\label{UnderlineVHatStageH}
+  Since the [[Weyl group]] of $H$ is (see [there](Weyl+group#eq:AsAutomorphismGroupInOrbitCategory)) the [[endomorphism monoid]] of $G/H$ in the $G$-[[orbit category]] 
+  $$
+    N(H)/H
+    \;\simeq\;
+    {Orb_G}(G/H,G/H)
+    \;\;
+  $$
+  we have with Def. \ref{TheProjectiveGenerators} canonical isomorphism:
+\[
+  \begin{array}{ccl}
+    \underline{V}_H(G/H)
+    &\equiv&
+    \mathbb{Q}\big[
+      Orb_G(G/H,G/H)
+    \big]
+    \underset{
+      \mathbb{Q}[N(H)/H]
+    }{\otimes}
+    V_H    
+    \\
+    &\simeq&
+    V_H
+    \mathrlap{\,.}
+  \end{array}
+\]
+\end{remark}
 
 \begin{proposition}
   \label{ProjectiveGeneratorsAreIndeedProjective}
@@ -183,6 +208,177 @@ $$
   \linebreak
   The objects $\underline{V}_H$ from Def. \ref{TheProjectiveGenerators} are [[projective object|projective]] in $Mod_{\mathbb{Q}}^{Orb_G^{op}}$.
 \end{proposition}
+\begin{proof}
+  We need to show that dashed [[lifts]] in the following [[diagrams]] exist, where $p$ is an [[epimorphism]]:
+\begin{tikzcd}[sep=20pt]
+  && M
+  \ar[
+    dd,
+    ->>,
+    "{ p }"
+  ]
+  \\
+  \\
+  \underline{V}_H
+  \ar[
+     rr, 
+     "{ f }"
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \widehat{f} }"
+  ]
+  &&
+  N
+\end{tikzcd}
+Since plain [[rational vector spaces]] are [[free modules]] (by the [[basis theorem]]), hence [[projective modules]], hence [[projective objects]] in [[Vect]], each $Orb_G$-component of this diagram separately has such a lift,  in particular we may choose a lift $\widehat{f_{G/H}}$ at stage $G/H$:
+
+\begin{tikzcd}[sep=20pt]
+  && 
+  M(G/H)
+  \ar[
+    dd,
+    ->>,
+    "{ p_{G/H} }"
+  ]
+  \\
+  \\
+  V_H
+  \ar[
+     rr, 
+     "{ f_{G/H} }"{swap}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \widehat{f_{G/H}} }"
+  ]
+  &&
+  N(G/H)
+  \mathrlap{\,,}
+\end{tikzcd}
+
+where we have identified $V_H$ in the bottom left via Rem. \ref{UnderlineVHatStageH}. 
+
+With this local lift in hand, we obtain a global lift by setting:
+
+\begin{tikzcd}[row sep=0pt]
+  &
+  \underline{V}_H
+  \ar[rr, "{ \widehat{f} }"]
+  &&
+  M
+  \\
+  G/K
+  &
+  \mathbb{Q}\big[
+    \mathrm{Orb}_G(G/K,G/H)
+  \big]
+  \underset{
+    \mathclap{
+      \raisebox{-2pt}{
+        \scalebox{.6}{$
+          \mathbb{Q}[N(H)/H]
+        $}
+      }
+    }
+  }{\otimes}
+  V_H      
+  \ar[
+    rr,
+    "{ \widehat{f}_{G/K} }"
+  ]
+  &&
+  M(G/H)
+  \\
+  &
+  \big(
+    G/K \xrightarrow{\phi} G/H
+  \big)
+  \otimes
+  v_H
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  &&
+  M(\phi)\big(
+    \widehat{f_{G/H}}(v_H)
+  \big)
+  \mathrlap{\,.}
+\end{tikzcd}
+
+This is clearly a [[natural transformation]] (by the [[contravariant functor|contravariant functoriality]]) of $M$), and it is a lift by [[natural transformation|naturality]] of $p$ and $f$:
+
+$$
+  \begin{array}{l}
+    p_{G/K} 
+    \circ
+    \widehat{f}_{G/K}
+    \big( 
+      (G/K \xrightarrow{\phi} G/H)
+      \otimes
+      v_H
+    \big)
+    \\
+    \;\equiv\;
+    p_{G/K} 
+      \circ 
+    M(\phi)
+      \circ
+    \widehat{f_{G/H}}
+    \big( 
+      (G/H \xrightarrow{id} G/H)
+      \otimes
+      v_H
+    \big)
+    \\
+    \;=\;
+    N(\phi) 
+      \circ 
+    p_{G/H}
+      \circ 
+    \widehat{f_{G/H}}
+    \big( 
+      (G/H \xrightarrow{id} G/H)
+      \otimes
+      v_H
+    \big)
+   \\
+   \;=\;
+    N(\phi)
+      \circ 
+    f_{G/H}
+    \big( 
+      (G/H \xrightarrow{id} G/H)
+      \otimes
+      v_H
+    \big)
+    \\
+    \;=\;
+    f_{G/K}
+      \circ 
+    \underline{V}_H(\phi)
+    \big( 
+      (G/H \xrightarrow{id} G/H)
+      \otimes
+      v_H
+    \big)
+    \\
+    \;=\;
+    f_{G/K}
+    \big( 
+      (G/K \xrightarrow{\phi} G/H)
+      \otimes
+      v_H
+    \big)
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+\end{proof}
 
 
 \begin{proposition}\label{CharacterizationOfProjectives}
@@ -318,7 +514,160 @@ Via these (images of) chosen splittings (eq:VHInProjectiveCover), we may define 
   }
 \]
 
-which is manifestly functorial in $G/K$ (via functoriality of $P$) and hence well-defined.
+which is manifestly [[natural transformation|natural]] in $G/K$ (via [[contravariant functor|contravariant functoriality]] of $P$) and hence well-defined:
+
+
+\begin{tikzcd}[
+  row sep=0pt,
+  column sep=10pt
+]
+  &
+  \bigoplus_{[H]}
+  \underline{V}_H
+  \ar[
+    rrrr,
+    "{ p }"
+  ]
+  &[-30pt]
+  &&
+  &[-20pt]
+  P
+  \\
+  G/K
+  &
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathbb{Q}
+  \big[
+    \mathrm{Orb}_G\big(
+      G/K
+      ,\,
+      G/H
+    \big)
+    \underset{
+      \mathclap{
+        \raisebox{-2pt}{
+          \scalebox{.6}{$
+            \mathbb{Q}[N(H)/H]
+          $}
+        }
+      }
+    }{\otimes}
+    V_H
+  \big]
+  \ar[
+    rrrr,
+    "{ p_{G/K} }"
+  ]
+  \ar[
+    dddd,
+    "{  
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathbb{Q}
+  [
+    \mathrm{Orb}_G(
+      \phi
+      ,\,
+      G/H
+    )
+    \underset{
+      \mathclap{
+        \raisebox{-2pt}{
+          \scalebox{.6}{$
+            \mathbb{Q}[N(H)/H]
+          $}
+        }
+      }
+    }{\otimes}
+    V_H
+  ]
+    }"{description}
+  ]
+  &&&&
+  P(G/K)
+  \ar[
+    dddd,
+    "{ P(\phi) }"
+  ]
+  \\[-10pt]
+  &
+  &
+  \big(
+    G/K \xrightarrow{f} G/H
+  \big)
+  \otimes
+  v_H
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  \ar[
+    dd,
+    phantom,
+    "{ \longmapsto }"{rotate=-90}
+  ]
+  &&
+  P(f)(v_H)
+  \ar[
+    dd,
+    phantom,
+    "{ \longmapsto }"{rotate=-90}
+  ]
+  \\
+  \phantom{A}
+  \\
+  &
+  &
+  \big(
+    G/K' \xrightarrow{ \phi }
+    G/K \xrightarrow{f} G/H
+  \big)
+  \otimes
+  v_H
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  &&
+  P(\phi)\big(P(f)(v_H)\big)
+  \\
+  G/K'
+  \ar[
+    uuuu,
+    "{ \phi }"
+  ]
+  &
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathbb{Q}
+  \big[
+    \mathrm{Orb}_G\big(
+      G/K'
+      ,\,
+      G/H
+    \big)
+    \underset{
+      \mathclap{
+        \raisebox{-2pt}{
+          \scalebox{.6}{$
+            \mathbb{Q}[N(H)/H]
+          $}
+        }
+      }
+    }{\otimes}
+    V_H
+  \big]
+  \ar[
+    rrrr,
+    "{ p_{G/K'} }"{swap}
+  ]
+  &&&&
+  P(G/K')
+\end{tikzcd}
+
 
 Since all the direct summands on the left are projective by Prop. \ref{ProjectiveGeneratorsAreIndeedProjective}, it is now sufficient to prove that (eq:ComparisonMorphismForProjectiveDecomposition) is an [[isomorphism]]. Since isomorphisms in [[functor categories]] are detected objectwise and  since [[rational vector spaces]] form a [[balanced category]] (see [there](balanced+category#AbelianCategoriesAreBalanced)) for this it is sufficient to show that for all $K \subset G$ the morphism $p_{G/K}$ (eq:ComparisonMorphismForProjectiveDecomposition) is both an [[epimorphism]] and a [[monomorphism]].
 
@@ -346,17 +695,17 @@ Hence if $v,w \,\in\, P(G/K)$ such that $p'_{G/K}(v) = p'_{G/K}(w)$ then $p_{G/K
 \end{proof}
 
 \begin{corollary}([T82, Prop. 3.6](#Triantafillou82))
- Every object $N \,\in\, Mod_{\mathbb{Q}}^{Orb_G}$ admits a [[projective cover]] in the sense of a [[projective object]] $\underset{[H]}{\osum} \underline{V}_H$ and an [[epimorphism]] $p \,\colon\,\underset{[H]}{\osum} \underline{V}_H \twoheadrightarrow N$. 
+ Every object $N \,\in\, Mod_{\mathbb{Q}}^{Orb_G}$ admits a [[projective cover]] in the sense of a [[projective object]] $\underset{[H]}{\oplus} \underline{V}_H$ and an [[epimorphism]] $p \,\colon\,\underset{[H]}{\oplus} \underline{V}_H \twoheadrightarrow N$. 
 \end{corollary}
 \begin{proof}
-  The construction and verification is verbatim as in Prop. \ref{CharacterizationOfProjectives}, omitting only the proof of injectivity in the last step.
+  The construction and verification is verbatim as in the proof of Prop. \ref{CharacterizationOfProjectives}, omitting only the proof of injectivity in the last step.
 \end{proof}
 
 \linebreak
 
 ### Injective objects
 
-> The following is [[formally dual|formal dual]] to the [above](#ProjectiveObjects) discussion of projectivity. But beware that, for the time being the notational conventions are differ, as these discussions come from two different edits.
+> The following is [[formally dual|formal dual]] to the [above](#ProjectiveObjects) discussion of projectivity. But beware that, for the time being the notational conventions differ, as these discussions come from two different edits.
 
 +-- {: .num_example #RestrictionOfVectorGSpacesToWeyGroupRepresentations} 
 ###### Example
