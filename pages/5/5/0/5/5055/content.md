@@ -11,6 +11,11 @@ and with early emphasis of the [[Born-Pauli rule]]:
 
 *  [[Paul A. M. Dirac]], *The physical interpretation of the quantum dynamics*, Proceedings of the Royal Society of London **113** 765 (1927) &lbrack;[doi:10.1098/rspa.1927.0012](https://doi.org/10.1098/rspa.1927.0012)&rbrack;
 
+Precursor discussion to the [[path integral]]-formulation of [[quantum mechanics]]:
+
+* [[Paul A. M. Dirac]], *The Lagrangian in Quantum Mechanics*, Physikalische Zeitschrift der Sowjetunion, Band **3**, Heft 1 (1933) 64–72 &lbrack;[pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf)&rbrack;, reprinted in [Brown 2005](path+integral#Brown05) &lbrack;[doi:10.1142/9789812567635_0003](https://doi.org/10.1142/9789812567635_0003)&rbrack;
+
+
 
 Introducing [[bra-ket]]-notation to [[quantum mechanics]]:
 
