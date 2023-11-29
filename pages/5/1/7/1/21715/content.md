@@ -703,9 +703,264 @@ Hence if $v,w \,\in\, P(G/K)$ such that $p'_{G/K}(v) = p'_{G/K}(w)$ then $p_{G/K
 
 \linebreak
 
-### Injective objects
+### Injective objects (1)
+ {#InectiveObjects}
 
-> The following is [[formally dual|formal dual]] to the [above](#ProjectiveObjects) discussion of projectivity. But beware that, for the time being the notational conventions differ, as these discussions come from two different edits.
+We spell out aspects of the discussion of injective objects in the copresheaf category dual to the [above](#ProjectiveObjects) discussion of projective objects in the presheaf category but left implicit in [Triantafillou 1982, p. 517](#Triantafillou82).
+
+Notation:
+
+* $G$ a [[finite group]],
+
+* $N(H)/H$ the "[Weyl group](Weyl+group#InEquivariantHomotopyTheory)" of a [[subgroup]] $H \subset G$,
+
+* $Orb_G$ the [[orbit category]] of $G$, equivalently thought of as the [[full subcategory]] of [[G-sets]] $G/H$ of [[cosets]] for [[subgroups]] $H \subset G$,
+
+* $\mathbb{Q}$ the [[ground field]] of [[rational numbers]],
+
+* $Mod_{\mathbb{Q}}^{Orb_G}$ the [[copresheaf]] [[functor category]] on $Orb_G$ with [[coefficients]] in [[rational vector spaces]],
+
+* $\mathbb{Q}[K]$ the [[group algebra]] over the [[rational numbers]], of a [[finite group]] $K$.
+
+\linebreak
+
+\begin{definition}
+\label{TheInjectiveGenerators}
+(dual to [T82, Def. 3.1](#Triantafillou82))
+\linebreak
+
+  For 
+
+  * $H \subset G$,
+
+  * $V^H \,\in\, Mod_{ \mathbb{Q}[N(H)/H] }$
+
+define
+
+$$
+  \begin{array}{l}
+    \underline{V}^H 
+    \;\in\;
+    Mod_{\mathbb{Q}}^{Orb_G}
+    \\
+    \underline{V}^H 
+    \;\equiv\;
+    Mod_{\mathbb{Q}[N(H)/H]}
+    \Big(
+    \mathbb{Q}\big[
+      Orb_G(-,G/H)
+    \big]
+    ,\,
+    V^H
+    \Big)
+    \mathrlap{\,.}
+  \end{array}
+$$
+\end{definition}
+
+
+\begin{proposition}\label{CharacterizationOfInjectives}
+(dual to [T82, Prop. 3.4](#Triantafillou82))
+\linebreak
+ Every [[injective object]] $I \,\in\, Mod_{\mathbb{Q}}^{Orb_G}$ is a [[direct sum]] of injective generators as in Prop. \ref{TheInjectiveGenerators}.
+\end{proposition}
+
+\begin{proof}
+We make a bunch of choices:
+
+First, in each [[conjugacy class]] $[H]$ of [[subgroups]] $G$ choose one representative $H \subset G$.
+
+For that $H \hookrightarrow G$, consider the [[intersection]] of the [[kernels]] of 
+
+$$
+  I(G/H \twoheadrightarrow G/H')
+  \;\colon\;
+  I(G/H) \to I(G/H')
+$$
+
+for all intermediate [[subgroup]]-inclusions $H \hookrightarrow H' \hookrightarrow G$, 
+
+and an $N(H)/H$-equivariant splitting
+
+\[
+  \label{TheSplittingForInjectiveEnvelopes}
+  \tau_H 
+    \;\;\colon\;\;
+  I(G/H)
+  \twoheadrightarrow
+  \underset{ H' \supset H }{
+    \textstyle{\bigcap}
+  } 
+  ker\big(
+    I(G/H \twoheadrightarrow G/H')
+  \big)
+  \,\equiv\,
+  V^H
+  \,.
+\]
+
+With this, we may define a morphism in $Mod_{\mathbb{Q}}^{Orb_G}$ as follows, 
+
+\[  
+  \label{ComparisonMorphismForInjectiveDecomposition}
+  \array{
+    i 
+    &\colon&
+    I
+    &\longrightarrow&
+    \underset{
+      [H] 
+    }{\oplus}
+    \underline{V}^H
+    \\
+    i_{G/K}
+    &\colon&
+    I(G/K)
+    &\longrightarrow&
+    \underset{
+      [H]
+    }{\oplus}
+    Mod_{\mathbb{Q}[N(H)/H]}
+    \Big(
+      \mathbb{Q}
+      \big[ 
+        Orb_G(G/K, G/H)
+        ,\,
+        V^H
+      \big]
+    \Big)
+    \\
+    &&
+    i_K
+    &\mapsto&
+    \underset{[H]}{\oplus}
+    \Big(
+      \big(
+        G/K \xrightarrow{f} G/H
+      \big)
+      \mapsto
+      \tau_{H} \circ I(f)(i_K)
+    \Big)
+    \,,
+  }
+\]
+
+where it is the [[functor|functoriality]] of $I$ which implies both that the maps on the right are $N(H)/H$-equivariant and that this transformation is [[natural transformation|natural]] in $G/K$:
+
+\begin{tikzcd}[
+  row sep=0pt,
+  column sep=10pt
+]
+  &
+  I 
+  \ar[rrrr, "{ i }"]
+    &[-10pt]
+    &&
+    &[-50pt] 
+  \bigoplus_{[H]} 
+  \underline{V}^H
+  \\
+  G/K
+  \ar[
+    dddd, 
+    "{ \phi }"
+  ]
+  &
+  I(G/K)
+  \ar[
+    rrrr,
+    "{ i_{G/K} }"
+  ]
+  \ar[
+    dddd,
+    "{ I(\phi) }"
+  ]
+  &&&&
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathrm{Mod}_{N(H)/H}
+  \Big(
+    \mathrm{Orb}_G
+      \big(G/K ,\, G/H \big)
+    ,\,
+    V^H
+  \Big)
+  \ar[
+    dddd,
+    "{  
+  \mathrm{Mod}_{N(H)/H}
+  \Big(
+    \mathrm{Orb}_G
+      \big(\phi ,\, G/H \big)
+    ,\,
+    V^H
+  \Big)
+    }"{description}
+  ]
+  \\
+  & & 
+  i_K 
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+  \ar[dd, phantom, "{ \longmapsto }"{rotate=-90}]
+    &&
+  \oplus_{[H]}
+  \Big(  
+    \big( G/K \xrightarrow{f} G/H \big)
+    \mapsto
+    \tau_H \circ I(f)(i_K)
+  \Big)
+  \ar[dd, phantom, "{ \longmapsto }"{rotate=-90}]
+  \\
+  \phantom{A}
+  \\
+  &&
+  I(\phi)(i_K)
+  \ar[
+    rr,
+    phantom,
+    "{ \longmapsto }"
+  ]
+    &&
+  \oplus_{[H]}
+  \Big(  
+    \big( G/K' \xrightarrow{f'} G/H \big)
+    \mapsto
+    \tau_H \circ I(f')\circ I(\phi) (i_K)
+  \Big)
+  \\
+  G/K'
+  &
+  I(G/K')
+  \ar[
+    rrrr,
+    "{ i_{G/K'} }"{swap}
+  ]
+  &&&&
+  \underset{[H]}{\bigoplus}
+  \,
+  \mathrm{Mod}_{N(H)/H}
+  \Big(
+    \mathrm{Orb}_G
+      \big(G/K' ,\, G/H \big)
+    ,\,
+    V^H
+  \Big)
+\end{tikzcd}
+
+Now to check that this map $i$ is in fact an isomorphism if $I$ is injective (...)
+\end{proof}
+
+
+(...)
+
+
+### Injective objects (2)
+
+> The following is another survey of aspects of the injective objects from [Triantafillou 1982](#Triantafillou82). This is from a different edit using different notational conventions than the previous subsection. Eventually both subsections should be harmonized and merged.
 
 +-- {: .num_example #RestrictionOfVectorGSpacesToWeyGroupRepresentations} 
 ###### Example
