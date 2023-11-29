@@ -228,3 +228,10 @@ Original references on initial algebras include
 [[!redirects initial algebra over an endofunctor]]
 [[!redirects initial algebras over an endofunctor]]
 [[!redirects initial algebras over endofunctors]]
+
+[[!redirects Lambek’s theorem]]
+[[!redirects Lambek's theorem]]
+[[!redirects Adámek’s theorem]]
+[[!redirects Adámek's theorem]]
+[[!redirects Adámek's fixed point theorem]]
+[[!redirects Adámek's fixed-point theorem]]
