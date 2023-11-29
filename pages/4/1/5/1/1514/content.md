@@ -272,15 +272,26 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 ### General
 
-The original texts:
 
-* {#Feynman48} [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf)&rbrack;
+The original articles:
 
-* [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965)
+* {#Dirac33} [[Paul A. M. Dirac]], *The Lagrangian in Quantum Mechanics*, Physikalische Zeitschrift der Sowjetunion, Band **3**, Heft 1 (1933) 64–72 &lbrack;[pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf)&rbrack;, reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0003](https://doi.org/10.1142/9789812567635_0003)&rbrack;
+
+* {#Feynman42} [[Richard P. Feynman]], *The Principles of Least Action in Quantum Mechanics*, PhD thesis (1942), reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0001](https://doi.org/10.1142/9789812567635_0001)&rbrack;
+
+* {#Feynman48} [[Richard P. Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf)&rbrack;
+
+reprinted in:
+
+* {#Brown05} [[Laurie M. Brown]], *Feynman's Thesis — A New Approach to Quantum Theory*, World Scientific (2005) &lbrack;[doi:10.1142/5852](https://doi.org/10.1142/5852)&rbrack;
+
+and then the original monograph:
+
+* [[Richard P. Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965)
 
 * [[Daniel F. Styer]], *The Errors of Feynman and Hibbs* &lbrack;[pdf](https://www2.oberlin.edu/physics/dstyer/FeynmanHibbs/ErrorsOfFeynmanHibbsX.pdf)&rbrack;
 
-* [[Daniel F. Styer]], [[Richard Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack; 
+* [[Daniel F. Styer]], [[Richard P. Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack; 
 
 Textbook accounts:
 
