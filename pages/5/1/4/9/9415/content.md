@@ -52,9 +52,10 @@ of the [[normalizer]] of a given [[subgroup]] $H \hookrightarrow G$ by that subg
 
 The relevance of the Weyl group in this sense is that it is the maximal group which canonically [[action|acts]] on $H$-[[fixed points]] of a [[topological G-space]]. (See at _[Change of equivariance group and fixed loci](topological+G-space#ChangeOfGroupsAndFixedLoci)_ for details and, at, e.g., _[[tom Dieck splitting]]_ for applications.)
 
-This may be seen from the fact that the Weyl group of $H \subset G$ is the [[automorphism group]] of the [[coset space]] $G/H$ in the [[orbit category]] of $G$:
+This may be seen from the fact that the Weyl group of $H \subset G$ is the [[automorphism group]] of the [[coset space]] $G/H$ in the [[orbit category]] of $G$ (and in fact the [[endomorphism monoid]] of $G/H$, since the orbit category is an [[EI-category]], see [there](EI-category#OrbitCategory)):
 
-$$
+\[
+  \label{AsAutomorphismGroupInOrbitCategory}
   End_{G Orbits}
   \big(
     G/H
@@ -70,7 +71,7 @@ $$
   \;\;
   W_G(H)
   \,.
-$$
+\]
 
 Notice that $W_G G = 1$ and $W_G 1 = G$.
 
