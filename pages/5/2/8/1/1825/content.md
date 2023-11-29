@@ -88,7 +88,7 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 * The $n$-sphere is the [[boundary]] of the $(n+1)$-[[ball]].
 
-* These spheres, or rather their underlying [[topological spaces]] or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
+* These spheres, or rather their underlying [[topological spaces]] or [[simplicial set|simplicial sets]], are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
 
 * [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]). 
 
