@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -36,19 +35,24 @@ This means that $P$ is projective if for any
 
 1. [[epimorphism]]$\;q \colon A \twoheadrightarrow B$, 
 
-$f$ factors through $q$, making a [[commuting diagram]] of this form:
+{#DefiningLiftingDiagram} $f$ factors through $q$, making a [[commuting diagram]] of this form:
 
-$$
-  \array{
-    && A
-    \\
-    &\mathllap{^\exists}\nearrow& 
-    \downarrow{^\mathrlap{q}} 
-    \\
-    P &\stackrel{f}{\to}& B
-  }
-  \,.
-$$
+\begin{tikzcd}[sep=20pt]
+  && 
+  A
+  \ar[dd, ->>, "{ q }"]
+  \\
+  \\
+  P
+  \ar[rr, "f"]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists \, \widehat{f} }"
+  ]
+  &&
+  B
+\end{tikzcd}
 
 Yet another way to say  this is that:
 
