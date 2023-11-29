@@ -94,13 +94,13 @@ The following is a quick reference for the state of the art on formalizing and c
 
 The following is a list of results for which at least one [[proof]] has been formalized in HoTT.
 
-### Calculuation of $\pi_4(S^3)$ {#pi4s3}
+### Calculation of $\pi_4(S^3)$ {#pi4s3}
 
 * [Brunerie 2016](#Brunerie16) has proved that there exists an $n$ such that $\pi_4(S^3)$ is $\mathbb{Z}_n$.  Given a computational interpretation, we could run this proof and check that $n$ is 2. Added June 2016: Brunerie now has a proof that $n=2$, using cohomology calculations and a Gysin sequence argument.
 
 See also at *[[first stable homotopy group of spheres]]*.
 
-### Calculuation of $\pi_3(S^2)$ {#pi3s2}
+### Calculation of $\pi_3(S^2)$ {#pi3s2}
 
 * [[Peter LeFanu Lumsdaine]] has constructed the Hopf fibration as a dependent type. Lots of people around know the construction, but I don't know anywhere it's written up. Here's some [Agda code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Hopf.agda) with it in it.
 
@@ -120,7 +120,7 @@ Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \le 2n - 2$
 
 * [[Peter LeFanu Lumsdaine]]'s encode/decode-style proof, [formalized](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Freudenthal.agda) by [[Dan Licata]], using a clever lemma about maps out of two n-connected types.
 
-### Calculuation of $\pi_n(S^n)$ {#pinsn}
+### Calculation of $\pi_n(S^n)$ {#pinsn}
 
 * [[Dan Licata]] and [[Guillaume Brunerie]]'s [encode/decode-style proof using iterated loop spaces](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiNSN.agda) (for single-loop presentation).
 * [[Guillaume Brunerie]]'s proof (for suspension definition).
@@ -128,19 +128,19 @@ Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \le 2n - 2$
 
 See also at **[[Hopf degree theorem]]**.
 
-### Calculuation of $\pi_k(S^n)$ for $k \lt n$ {#piksn}
+### Calculation of $\pi_k(S^n)$ for $k \lt n$ {#piksn}
 
 * [Brunerie 2016](#Brunerie16) (see the [[HoTT book]]).
 * [[Dan Licata]]'s encode/decode-style proof [for pi_1(S^2) only](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Pi1S2.agda).
 * [[Dan Licata]]'s encode/decode-style proof [for all k < n](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiKSNLess.agda) (for single-loop presentation).
 * [[Dan Licata]]'s [proof from Freudenthal suspension theorem](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiSnSusp.agda) (for suspension definition).
 
-### Calculuation of $\pi_2(S^2)$ {#pi2s2}
+### Calculation of $\pi_2(S^2)$ {#pi2s2}
 
 * [Brunerie 2016](#Brunerie16), using the total space the Hopf fibration.
 * [[Dan Licata]]'s encode/decode-style [proof](https://github.com/dlicata335/hott-agda/tree/master/homotopy/pi2s2).
 
-### Calculuation of $\pi_1(S^1)$ {#pi1s1}
+### Calculation of $\pi_1(S^1)$ {#pi1s1}
 
 * [[Mike Shulman]]'s proof by contractibility of total space of universal cover ([HoTT blog](http://uf-ias-2012.wikispaces.com/ofpost)).
 * [[Dan Licata]]'s encode/decode-style proof ([HoTT blog](http://homotopytypetheory.org/2012/06/07/a-simpler-proof-that-%CF%80%E2%82%81s%C2%B9-is-z/)). A [paper](http://arxiv.org/abs/1301.3443) mostly about the encode/decode-style proof, but also describing the relationship between the two.
