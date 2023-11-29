@@ -47,3 +47,6 @@ For $\mathcal{D} = Set$, the [[opposite category|opposite]] of the category of c
 [[!redirects category of copresheaves]]
 [[!redirects categories of copresheaves]]
 
+[[!redirects copresheaf category]]
+[[!redirects copresheaf categories]]
+
