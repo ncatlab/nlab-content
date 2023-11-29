@@ -70,7 +70,7 @@ Since, [[Fourier transform|dually]], this means that the corresponding lightcone
   \,.
 \]
 
-hence one speaks of *discretized light-cone quantization*  or _DLCQ_, for short. This goes back to [Maskawa & Yamakawi 1976](#MaskawaYamakawi76); [Casher 1976](#Casher76); [Thorn 1977](#Thorn77), [1978](#Thorn78); [Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a); [Tang, Brodsky & Pauli 1991 (2.6)](#TangBrodskyPauli91); see also [McCartor & Robertson 1994, §3](#McCartorRobertson94); for review see [Burkardt 1996, §5.1](#Burkardt96).
+hence one speaks of *discretized light-cone quantization*  or _DLCQ_, for short. This goes back to [Maskawa & Yamakawi 1976](#MaskawaYamakawi76); [Casher 1976](#Casher76); [Thorn 1977](#Thorn77), [1978](#Thorn78); [Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a); [Tang, Brodsky & Pauli 1991 (2.6)](#TangBrodskyPauli91); see also [McCartor & Robertson 1994, §3](#McCartorRobertson94); for review see [Burkardt 1996, §5.1](#Burkardt96); [Heinzl 2001, §3.4](#Heinzl01).
 
 Often it turns out that [[negative number|negative]] values of $N$ in (eq:LightConeMomentumQuantization) can be neglected or integrated out, so that 
 
@@ -186,7 +186,7 @@ and on the issue of excluding $p^+ = 0$:
 
 Lecture notes:
 
-* [[Thomas Heinzl]], *Light-Cone Quantization: Foundations and Applications*, in *Methods of Quantization*, Lecture Notes in Physics **572**, Springer (2001) &lbrack;[arXiv:hep-th/0008096](https://arxiv.org/abs/hep-th/0008096), [doi:10.1007/3-540-45114-5_2](https://doi.org/10.1007/3-540-45114-5_2)&rbrack;
+* {#Heinzl01} [[Thomas Heinzl]], *Light-Cone Quantization: Foundations and Applications*, in *Methods of Quantization*, Lecture Notes in Physics **572**, Springer (2001) &lbrack;[arXiv:hep-th/0008096](https://arxiv.org/abs/hep-th/0008096), [doi:10.1007/3-540-45114-5_2](https://doi.org/10.1007/3-540-45114-5_2)&rbrack;
 
 More on the case of [[gauge fields]]:
 
