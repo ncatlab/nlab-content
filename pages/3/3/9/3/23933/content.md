@@ -23,15 +23,25 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *(Older-Version) Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups* ([arXiv:2010.05748](https://arxiv.org/abs/2010.05748))
 
+On [[Proof of the geometric case of Mochizuki's Corollary 3.12]]:
+* [[Kirti Joshi]], *Appendix to Construction of Arithmetic Teichmüller spaces II($\frac{1}{2}$): Deformations of Number Fields* ([arXiv:2305.10398](https://arxiv.org/abs/2305.10398))
+
 On [[anabelian geometry]]:
 
 * [[Kirti Joshi]], *Mochizuki's anabelian variation of ring structures and formal groups* ([arxiv:1906.06840](https://arxiv.org/abs/1906.06840))
 
 * [[Kirti Joshi]], *On Mochizuki's idea of Anabelomorphy and its applications* ([arxiv:2003.01890](https://arxiv.org/abs/2003.01890))
 
+On [[The Hitchin-Mochizuki morphism and Frobenius destablized vector bundles]]:
+
+* [[Kirti Joshi and Christian Pauly]], *Hitchin–Mochizuki morphism, opers and Frobenius-destabilized vector bundles over curves* ([Advances in Mathematics
+Volume 274, 9 April 2015, Pages 39-75] (https://doi.org/10.1016/j.aim.2015.01.004))
+
+* [[Kirti Joshi]], *The Degree of the Dormant Operatic Locus* ([International Mathematics Research Notices, Volume 2017, Issue 9, May 2017, Pages 2599–2613] (https://doi.org/10.1093/imrn/rnw066))
+
 ## Related entries
 
-* [[inter-universal Teichmüller theory]]
+* [[Inter-Universal Teichmüller Theory]]
 
 category: people
 
