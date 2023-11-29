@@ -32,7 +32,7 @@ As opposed to the [[homotopy groups]] of a [[topological space]], the [[homotopy
 
 Those spectra for which the [[homotopy groups of spectra]] in negative degree happen to vanish are called _[[connective spectra]]_. They are equivalent to [[infinite loop spaces]], i.e. grouplike [[E-∞ spaces]].
 
-Connective spectra in the image of the [[nerve]] operation of the classical [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
+Connective spectra in the image of the [[nerve]] operation of the classical [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex|chain complexes]] of abelian groups. 
 
 $$
  \array{
