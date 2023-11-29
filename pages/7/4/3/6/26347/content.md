@@ -70,6 +70,9 @@ specifically of  [[scattering amplitudes]] of [[bound states]]:
 
 * Xiaosi Xu, Simon Benjamin, Jinzhao Sun, Xiao Yuan, Pan Zhang, *A Herculean task: Classical simulation of quantum computers* &lbrack;[arXiv:2302.08880](https://arxiv.org/abs/2302.08880)&rbrack;
 
+* Kieran Young, Marcus Scese, Ali Ebnenasir, *Simulating Quantum Computations on Classical Machines: A Survey* &lbrack;[arXiv:2311.16505](https://arxiv.org/abs/2311.16505)&rbrack;
+
+
 
 See also:
 
