@@ -54,4 +54,6 @@ See also:
 * Wikipedia, *[Kleene fixed point theorem](https://en.wikipedia.org/wiki/Kleene_fixed-point_theorem)*
 
 [[!redirects Kleene fixed point theorem]]
+[[!redirects Kleene's fixed-point theorem]]
+[[!redirects Kleene fixed-point theorem]]
 
