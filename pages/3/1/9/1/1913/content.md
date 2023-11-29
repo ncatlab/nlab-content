@@ -15,7 +15,7 @@
 
 ## Idea
 
-A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a [[section]] of the [[exterior algebra]] $\Lambda^* T^* X$ of a [[cotangent bundle]], which makes sense in many contexts (e.g. [[manifolds]], [[algebraic varieties]], [[analytic space]]s, ...). 
+A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a [[section]] of the [[exterior algebra]] $\Lambda^* T^* X$ of a [[cotangent bundle]], which makes sense in many contexts (e.g. [[manifolds]], [[algebraic varieties]], [[analytic space|analytic spaces]], ...). 
 
 What we\'re actually describing here are the *exterior* differential forms; for more general concepts, see [[absolute differential form]] and [[cogerm differential form]].
 
@@ -108,7 +108,7 @@ _Toby_:  Between Eric\'s comment here and Urs\'s at [[latest changes]], I\'m hap
 
 [[Urs Schreiber]]: here is my reply, that I originally posted at [[latest changes]]. I'll try to eventually work this into the main text of the entry
 
-The orientation of the diffential form corresponds to the inherent orientation of [[k-morphism]]s: as we identify the differential form with a smooth functor on the [[path n-groupoid]], that [[path n-groupoid]] necessarily has _oriented_ $k$-volumes as its [[k-morphism]]s, simply because these $k$-morphisms need to come with information about their (higher categorical) source and target.
+The orientation of the diffential form corresponds to the inherent orientation of [[k-morphism|k-morphisms]]: as we identify the differential form with a smooth functor on the [[path n-groupoid]], that [[path n-groupoid]] necessarily has _oriented_ $k$-volumes as its [[k-morphism|k-morphisms]], simply because these $k$-morphisms need to come with information about their (higher categorical) source and target.
 
 To get pseudo-differential forms that may be integrated also over non-oriented and possibly non-orientable manifolds one needs to consider parallel transport functors not with coefficients in just $\mathbf{B}^n \mathbb{R}$ coming from the [[crossed complex]] 
      
@@ -178,7 +178,7 @@ While differential forms are usually restricted to the linear case, there are al
 
 Given manifolds $X$ and $Y$ and a [[continuously differentiable map]] $f\colon X \to Y$, any differential form $\eta$ on $Y$ defines a __pullback__ form $f^*(\eta)$ on $X$.  See at _[[pullback of differential forms]]_.
 
-Thus, the operation that maps $X$ to $\Omega^*(X)$ extends to a [[contravariant functor]] $\Omega^*$.  Perhaps confusingly, forms are traditionally known in physics as 'covariant' concepts, because of how the components transform under a change of coordinates.  (Ultimately, this confusion goes back to that between active and passive [[coordinate transformation]]s.)
+Thus, the operation that maps $X$ to $\Omega^*(X)$ extends to a [[contravariant functor]] $\Omega^*$.  Perhaps confusingly, forms are traditionally known in physics as 'covariant' concepts, because of how the components transform under a change of coordinates.  (Ultimately, this confusion goes back to that between active and passive [[coordinate transformation|coordinate transformations]].)
 
 Note that twisted and (more general) vector-valued forms cannot be pulled back so easily.  One needs some extra structure on $f$ to do so; see the discussion of integration of $p$-pseudoforms at [[integration of differential forms]] for an example.
 
