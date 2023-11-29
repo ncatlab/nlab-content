@@ -4,10 +4,17 @@
 
 ## Selected writings
 
-Introducing [[path integral quantization]]:
+Introducing the [[path integral]]-formulation of [[quantum mechanics]]:
+
+* {#Feynman42} [[Richard P. Feynman]], *The Principles of Least Action in Quantum Mechanics*, PhD thesis (1942), reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0001](https://doi.org/10.1142/9789812567635_0001)&rbrack;
 
 * [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [pdf](https://faculty.washington.edu/seattle/physics541/2012-path-integrals/paper.pdf)&rbrack;
 
+reprinted with historical commentary in:
+
+* {#Brown05} [[Laurie M. Brown]], *Feynman's Thesis — A New Approach to Quantum Theory*, World Scientific (2005) &lbrack;[doi:10.1142/5852](https://doi.org/10.1142/5852)&rbrack;
+
+and the first monograph on the subject:
 
 * [[Richard Feynman]], [[Albert R. Hibbs]], _Quantum Mechanics and Path Integrals_, New York: McGraw-Hill (1965) 
 
@@ -109,3 +116,6 @@ cf. [[Carl Sagan]] [on scepticism](Carl+Sagan#OnScepticism)
 category: people
 
 [[!redirects Feynman]]
+
+[[!redirects Richard P. Feynman]]
+[[!redirects R. P. Feynman]]
