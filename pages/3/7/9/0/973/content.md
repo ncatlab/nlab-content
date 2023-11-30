@@ -400,7 +400,7 @@ On the other hand $M$-models in $S$-Mod are pairs of monoids one of which has on
 
 Original articles:
 
-* [[Charles Ehresmann]]. _Esquisses et types de structures algébriques_, Bul. Inst. Polit. Iasi 14.1–2 (1968): 1-14.
+* {#Ehresmann68} [[Charles Ehresmann]], _Esquisses et types de structures algébriques_, Bul. Inst. Polit. Iasi **14** 1–2 (1968) 1-14 &lbrack;[[Ehresmann-EsquisseEtTypes.pdf:file]]&rbrack;
 
 * {#BastianiEhresmann72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome **13** no 2 (1972)  104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
