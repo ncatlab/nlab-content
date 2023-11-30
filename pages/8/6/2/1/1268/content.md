@@ -127,7 +127,7 @@ Lecture notes:
 * {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 
-* S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
+* S. C. Coutinho, *A primer of algebraic D-modules*, London Math. Soc. Stud. Texts **33**, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511623653](https://doi.org/10.1017/CBO9780511623653)&rbrack;
 
 * {#Bernstein} [[Joseph Bernstein]], _Algebraic theory of D-modules_ ([[BernsteinDModule.pdf:file]], [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi))
 
