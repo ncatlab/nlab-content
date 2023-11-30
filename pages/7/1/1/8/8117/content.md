@@ -156,14 +156,13 @@ defined symplectic relations as [[isotropic submanifolds]] of products and showe
 
 observed that the linear canonical relations (i.e., lagrangian subspaces of products of [[symplectic vector spaces]]) could be considered as the morphisms of a category, and they constructed a
 partial [[quantization]] of this category (in which lagrangian subspaces are enhanced by halfdensities.) 
-The quantization of the linear symplectic category was part of a larger project of quantizing canonical relations (enhanced with extra structure, such as half-densities) in a functorial way,
-and this program was set out more formally 
+The quantization of the linear symplectic category was part of a larger project of quantizing canonical relations (enhanced with extra structure, such as half-densities) in a functorial way, and this program was set out more formally 
 
-* [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. 6 (1971), 329&#8211;346.
+* [[Alan Weinstein]], _Symplectic Manifolds and Their Lagrangian Submanifolds_, Advances in Math. **6** (1971) 329346 \[<a href="https://doi.org/10.1016/0001-8708(71)90020-X">doi:10.1016/0001-8708(71)90020-X</a>\]
 
-* [[Alan Weinstein]], _Symplectic geometry_, Bulletin Amer. Math. Soc. (new series) 5 (1981), 1&#8211;13.
+* [[Alan Weinstein]], _Symplectic geometry_, Bulletin Amer. Math. Soc. **5** (1981) 1-13 &lbrack;[doi:10.1090/S0273-0979-1981-14911-9](http://dx.doi.org/10.1090/S0273-0979-1981-14911-9)&rbrack;
 
-See also 
+See also:
 
 * W.M.Tulczyjew, S.Zakrzewski, _The category of Fresnel kernels_, J. Geom. Phys. 1:3, 1984, 79--120 <a href="https://doi.org/10.1016/0393-0440(84)90021-4">doi</a>
 
