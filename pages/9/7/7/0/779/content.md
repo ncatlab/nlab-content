@@ -1,6 +1,6 @@
 Charles Ehresmann was a pioneer in investigating [[groupoids]] and then [[category|categories]] for their applications in [[geometry|geometric]] problems. It is notable that he was a student of [[Elie Cartan]], famous for his work in Analysis. As a consequence, Ehresmann was fascinated by local-to-global problems, which are among the key problems in mathematics and science. This is one reason for his approach to [[category theory]] being different from that in the USA, where category theory was founded.
 
-He had a succession of influential students, and among the concepts which he initiated are:  [[fibre bundles]], [[foliations]], [[germs]], [[gerbes]], [[double categories]], [[topological groupoids]], [[Lie groupoids]], [[holonomy]], [[structured categories]], ...
+He had a succession of influential students, and among the concepts which he initiated are:  [[fibre bundles]], [[foliations]], [[germs]], [[gerbes]], [[double categories]], [[sketches]], [[topological groupoids]], [[Lie groupoids]], [[holonomy]], [[structured categories]].
 
 The journal he founded and edited, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], has been continued by his widow, [[Andree Ehresmann]].
 
