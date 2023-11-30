@@ -40,6 +40,8 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 * [[Dirac charge quantization]]
 
+* [[uncertainty of fluxes]]
+
 * [[Einstein-Maxwell theory]]
 
 * [[Born-Infeld theory]]
