@@ -134,8 +134,9 @@ Specifically:
 
 * [[Peter Hilton]], _Nilpotency in group theory and topology_, Publicacions de la Secció de Matemàtiques Vol. 26, No. 3 (1982), pp. 47-78 ([jstor:43741908](https://www.jstor.org/stable/43741908))
 
-* [[Peter May]], [[Kate Ponto]], _More Concise Algebraic Topology_, University of Chicago Press (2012) ([pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+* [[Peter May]], [[Kate Ponto]], §3.1 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
+See also:
 
 * eom [nilpotent group](http://eom.springer.de/n/n066720.htm)
 
