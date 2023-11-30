@@ -30,7 +30,7 @@ A [[topological space]] $X$ is called *regular* (or $R_2$) if for
 $C \,\subset\, X$ any [[closed subset]] 
 and
 $x \in X$ any point not contained in it, $x \,\notin\,C$,
-then there exist [[neighbourhoods]] $U_x ,\, U_C \,\subset X\,$ of $x$ and of $X$, respectively, 
+then there exist [[neighbourhoods]] $U_x ,\, U_C \,\subset X\,$ of $x$ and of $C$, respectively, 
 which are [[disjoint subsets|disjoint]]: $U_x \cap U_C \,=\, \varnothing$.
 \end{definition}
 
