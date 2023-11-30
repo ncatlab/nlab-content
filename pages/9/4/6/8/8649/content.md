@@ -66,9 +66,10 @@ See at _[[D-brane charge quantization in K-theory]]_
 
 See at _[supergravity C-field -- shifted flux quantization condition](supergravity+C-field#ShiftedCFieldFluxQuantizationCondition)_
 
+
 ## Related concepts
 
-* [[flux]], [[flux tube]]
+* [[flux]], [[flux tube]], [[flux compactification]], [[uncertainty of fluxes]]
 
 * [[fiber bundles in physics]]
 
