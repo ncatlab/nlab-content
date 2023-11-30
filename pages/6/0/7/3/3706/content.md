@@ -198,6 +198,11 @@ The concept of lagrangian submanifold has been defined/named in
 
 * [[Victor Maslov]], _Perturbation Theory and Asymptotic Methods_ (MSU Publ., Moscow, 1965; English translation: Mir, Moscow, 1965).
 
+See also:
+
+* [[Alan Weinstein]], _Symplectic Manifolds and Their Lagrangian Submanifolds_, Advances in Math. **6** (1971) 329346 \[<a href="https://doi.org/10.1016/0001-8708(71)90020-X">doi:10.1016/0001-8708(71)90020-X</a>\]
+
+
 An introduction with an eye towards [[geometric quantization]] is for instance in
  
 * Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
