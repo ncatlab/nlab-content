@@ -229,6 +229,12 @@ See also
 
 * DispersiveWiki, _[Yang-Mills equations](http://wiki.math.toronto.edu/DispersiveWiki/index.php/Yang-Mills_equations)_
 
+### Quantization
+
+* John L. Friedman, Nicholas J. Papastamatiou, *On the canonical quantization of Yang-Mills theories*, Nuclear Physics B **219** 1 (1983) 125-142 \[<a href="https://doi.org/10.1016/0550-3213(83)90431-5">doi:10.1016/0550-3213(83)90431-5</a>\]
+
+* A. Bassetto, I. Lazzizzera, R. Soldati, *Yang-Mills theories in space-like axial and planar gauges*, Nuclear Physics B **236** 2 (1984) 319-335 \[<a href="https://doi.org/10.1016/0550-3213(84)90538-8">doi:10.1016/0550-3213(84)90538-8</a>&rbrack;
+
 [[!redirects Yang-Mills theories]]
 
 [[!redirects Yang--Mills theory]]
