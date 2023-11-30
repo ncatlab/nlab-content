@@ -95,10 +95,20 @@ Discussion via [[L-infinity algebras|$L_\infty$-algebras]]:
 
 
 
+[[!redirects first-order formulations of gravity]]
+
+[[!redirects first order formulation of gravity]]
+[[!redirects first order formulations of gravity]]
 
 
 [[!redirects Palatini action]]
-[[!redirects Palatini formulation]]
-[[!redirects Palatini formalism]]
+[[!redirects Palatini actions]]
 
-[[!redirects first order formulation of gravity]]
+[[!redirects Palatini formulation]]
+[[!redirects Palatini formulations]]
+
+[[!redirects Palatini formalism]]
+[[!redirects Palatini formalisms]]
+
+
+
