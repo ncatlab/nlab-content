@@ -65,37 +65,125 @@ $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[mu
 
 #### Rules for weak equivalence types
 
-In the same way that [[isEquiv]] could be defined in a way such that given the function $f:A \to B$ and a witness $p:\mathrm{isEquiv}(f)$, $(B, f, p)$ satisfies the universal property of a [[wrapped copy]] of $A$, one could define weak equivalence types such that given an equivalence $e:A \simeq B$, $(B, e)$ satsifes the universal property of a [[wrapped copy]] of $A$:
-
 Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
 Introduction rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash G:\prod_{y:B} \mathrm{Id}_B(f(g(y)), y) \quad \Gamma \vdash H:\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)}{\Gamma \vdash \mathrm{toequiv}(f, g, G, H):A \simeq B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \mathrm{eval}_{A, B}(e, x):B}$$
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}{c}
+}{\Gamma \vdash \mathrm{toEquiv}(f, g, G, H, K):A \simeq B}$$
 
 Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma, e:A \simeq B, y:B \vdash \mathrm{ind}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}, e, y):C(y)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{func}(e):A \to B}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{finv}(e):B \to A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{sec}(e):\prod_{x:A} \mathrm{finv}(e)(\mathrm{func}(e)(x)) =_A x}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{ret}(e):\prod_{y:B} \mathrm{func}(e)(\mathrm{finv}(e)(y) =_{B} y}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{coh}(e):\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))}$$
 
 Computation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma, e:A \simeq B, x:A \vdash \beta_{A \simeq B}^{C}(c_{\mathrm{eval}_{A, B}}, e, x):\mathrm{ind}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}, e, \mathrm{eval}_{A, B}(e, x)) =_{C(\mathrm{eval}_{A, B}(e, x))} c_{\mathrm{eval}_{A, B}}(e, x)}$$
+
+* Judgmental computation rules
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \mathrm{func}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv f:A \to B}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \mathrm{finv}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv g:B \to A}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv G:\prod_{y:B} f(g(y)) =_{B} y}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv H:\prod_{x:A} g(f(x)) =_{A} x}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \mathrm{coh}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))}$$
+
+* Typal computation rules
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{func}(f, g, G, H, K):\mathrm{func}(\mathrm{toEquiv}(f, g, G, H, K)) =_{A \to B} f}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{finv}(f, g, G, H, K):\mathrm{finv}(\mathrm{toEquiv}(f, g, G, H, K)) =_{B \to A} g}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{sec}(f, g, G, H, K):\mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{y:B} f(g(y)) =_{B} y} G}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{ret}(f, g, G, H, K):\mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} g(f(x)) =_{A} x} H}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
+\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
+\end{array}
+}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{coh}(f, g, G, H, K):\mathrm{coh}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))} K}$$
 
 Uniqueness rules for equivalence types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash R:A \simeq B \\
-      \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:A \simeq B \to \prod_{y:B} C(y) \quad \Gamma \vdash b:B
-    \end{array}
-  }{\Gamma, e:A \simeq B, y:B \vdash \eta_{A \simeq B}(c, e, y):c(y) =_{C(y)} \mathrm{ind}_{A \simeq B}^C(c, e, y)}$$
 
-If we have [[uniqueness quantifiers]], we could combine the elimination, computation, and uniqueness rules for equivalence types into recursion and induction rules for equivalence types:
+* Judgmental uniqueness rules
 
-Recursion rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:A \simeq B \to (A \to C)}{\Gamma \vdash \mathrm{up}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}):\exists!c:(A \simeq B) \to (B \to C).\prod_{e:A \simeq B} \prod_{x:A} c(e, \mathrm{eval}_{A, B}(e, x)) =_{C} c_{\mathrm{eval}_{A, B}}(e, x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{toEquiv}(\mathrm{func}(e), \mathrm{finv}(e), \mathrm{sec}(e), \mathrm{ret}(e), \mathrm{coh}(e)) \equiv e:A \simeq B}$$
 
-Induction rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, y:B \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{eval}_{A, B}}:\prod_{e:A \simeq B} \prod_{x:A} C(\mathrm{eval}_{A, B}(e, x))}{\Gamma \vdash \mathrm{dup}_{A \simeq B}^C(c_{\mathrm{eval}_{A, B}}):\exists!c:(A \simeq B) \to \prod_{y:B} C(y).\prod_{e:A \simeq B} \prod_{x:A} c(e, \mathrm{eval}_{A, B}(e, x)) =_{C(\mathrm{eval}_{A, B}(e, x))} c_{\mathrm{eval}_{A, B}}(e, x)}$$
+* Typal uniqueness rules
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \eta_{A \simeq B}(e):\mathrm{toEquiv}(\mathrm{func}(e), \mathrm{finv}(e), \mathrm{sec}(e), \mathrm{ret}(e), \mathrm{coh}(e)) =_{A \simeq B} e}$$
 
 #### Coinductive definition
 
