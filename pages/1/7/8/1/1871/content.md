@@ -140,6 +140,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[asymptotic freedom]]
 
+* [[uncertainty of fluxes]]
+
 ## References
 
 ### General
