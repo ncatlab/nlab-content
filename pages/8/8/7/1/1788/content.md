@@ -4,6 +4,45 @@ $$
     \big\{
       \Phi_E^\alpha
       ,\,
+      \Phi_B^{\beta}
+    \big\}
+    \\
+    \;\equiv\;
+    \Big\{
+      \underset{x \in Int(S)}{\textstyle{\int}}
+      \big(
+        \mathrm{d} \alpha_i(x)
+        +
+          \epsilon_{i j k} 
+          A^j(x) \wedge \alpha^k(x) 
+      \big)
+      \wedge E^i(x)
+      ,\;
+      \underset{x' \in Int(S)}{\textstyle{\int}}
+      \big(
+        \mathrm{d} \beta_l(x)
+        +
+          \epsilon_{l m n} 
+          A^m(x') \wedge \beta^n(x') 
+      \big)
+      \wedge
+      \big(
+        \mathrm{d} A^l(x')
+        +
+          \epsilon^l{}_{r s} 
+          A^r(x') \wedge A^s(x') 
+      \big)      
+    \Big\}
+    \\
+    \;=\;
+  \end{array}
+$$
+
+$$
+  \begin{array}{l}
+    \big\{
+      \Phi_E^\alpha
+      ,\,
       \Phi_E^{\beta}
     \big\}
     \\
