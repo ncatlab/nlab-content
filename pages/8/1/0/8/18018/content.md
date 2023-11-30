@@ -1,4 +1,15 @@
-[[!redirects ad-nilpotent Lie algebra]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -36,6 +47,8 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 ## References
 
+* [[Victor Kac]] (notes by Marc Doss), *Nilpotent and Solvable Lie algebras* (2010) &lbrack;[pdf](https://math.mit.edu/classes/18.745/Notes/Lecture_4_Notes.pdf), [[KacDoss-NilpotentLieAlebras.pdf:file]]&rbrack;
+
 * _Nilpotent Lie algebras_ ([pdf](http://relaunch.hcm.uni-bonn.de/fileadmin/perrin/chap5.pdf))
 
 * Wikipedia, _[Nilpotent Lie algebra](https://en.wikipedia.org/wiki/Nilpotent_Lie_algebra)_
@@ -44,3 +57,6 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 [[!redirects ad-nilpotent Lie algebras]]
 [[!redirects nilpotent Lie algebra]]
 [[!redirects nilpotent Lie algebras]]
+
+[[!redirects ad-nilpotent Lie algebra]]
+
