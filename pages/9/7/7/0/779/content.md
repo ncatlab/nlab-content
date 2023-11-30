@@ -20,7 +20,7 @@ The journal he founded and edited, [[Cahiers de Topologie et Géométrie Différ
 
 Collected works:
 
-* C. Ehresmann, [&#338;uvres compl&#232;tes et comment&#233;es](http://ehres.pagesperso-orange.fr/C.E.WORKS_fichiers/C.E_Works.htm). 
+* *[&#338;uvres compl&#232;tes et comment&#233;es](https://mes-ehres.fr/ChEh/oeuvres.htm)*
 
   I-1,2. Topologie  alg&#233;brique et g&#233;om&#233;trie diff&#233;rentielle, With commentary by [[Willem van Est]],
  [[Michel Zisman]], Georges Reeb, Paulette Libermann, [[René Thom]], [[Jean Pradines]], Robert Hermann, [[Anders Kock]], [[André Haefliger]], [[Jean Bénabou]], Ren&#233; Guitart, and [[Andrée Charles Ehresmann]], Edited by Andr&#233;e Charles Ehresmann,  Cahiers Topologie G&#233;om&#233;trie Diff&#233;rentielle, 24, (1983) suppll. 1.
@@ -44,6 +44,11 @@ Introducing the notion of [[topological groupoids]] and [[Lie groupoids]]:
 Introducing the notion of [[internal categories]] (or at least something in this direction):
 
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
+
+Introducing [[sketches]]:
+
+* {#Ehresmann68} [[Charles Ehresmann]], _Esquisses et types de structures algébriques_, Bul. Inst. Polit. Iasi **14** 1–2 (1968) 1-14 &lbrack;[[Ehresmann-EsquisseEtTypes.pdf:file]]&rbrack;
+
 
 On [[internalization]] of [[mathematical structures]] via [[sketches]]:
 
