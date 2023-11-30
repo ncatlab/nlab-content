@@ -23,9 +23,9 @@ A concept of _Weyl n-algebra_ is to be a refinement to [[higher algebra]] of the
 
 ## Definitions
 
-Since a traditional [[Weyl algebra]] is a [[universal enveloping algebra]] of a [[Heisenberg Lie algebra]] of a [[symplectic vector space]], and since there is a sensible notion of [[Heisenberg Lie n-algebra]], one may go and defne a _Weyl n-algebra_ to be a [[universal enveloping E-n algebra]] of a [[Heisenberg Lie n-algebra]].
+Since ordinary [[Weyl algebras]] are [[universal enveloping algebras]] of [[Heisenberg Lie algebras]] of [[symplectic vector spaces]] (see [here](universal+enveloping+algebra#WeylAlgebraAndHeisenbergAlgebra)), and since there is a sensible notion of [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebra]] for all $n \in \mathbb{N}$, it makes sense to defines _Weyl $n$-algebras_ to be the [[universal enveloping E-n algebra|universal enveloping $E_n$-algebras]] of [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebras]].
 
-Another definition is considered in ([Markarian 15](#Markarian15)).
+Another definition is considered by [Markarian 2015](#Markarian15).
 
 ## References
 
