@@ -91,11 +91,19 @@ See at _[[formal deformation quantization]]_ the section _[Relation to universal
 
 ## Examples
 
-### Universal enveloping of a tangent Lie algebra
+\begin{example}\label{WeylAlgebraAndHeisenbergAlgebra}
+Consider the standard [[symplectic form]] on the [[Cartesian space]] $\mathbb{R}^{2n}$, making a [[symplectic vector space]]. This gives rise to the corresponding [[Heisenberg Lie algebra]].
 
-The universal enveloping algebra of the [[tangent Lie algebra]] of a 
-finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left invariant 
-[[differential operators]] on $G$.
+Depending on conventions, the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] either already is the [[Weyl algebra]] on $2n$ generators or else it becomes so after after forming the [[quotient algebra]] in which the central generator is identified with the [[unit element]] of the [[ground field]] -- whereas in the former case (considered eg. in [Kravchenko 2000, Def. 2.1](#Kravchenko00); [Bekaert 2005, p. 9](#Bekaert05)) the central generator plays the role of the formal [[Planck constant]] $\hbar$ with the Weyl algebra regarded as a [[formal deformation quantization]] of the [[symplectic manifold]] $\mathbb{R}^{2m}$.
+
+Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebra]] it makes sense to call its [[universal enveloping E-n algebra|universal enveloping $E_n$-algebra]] a _[[Weyl n-algebra|Weyl $n$-algebra]]_.
+\end{example}
+
+\begin{example}
+**(Universal enveloping of a tangent Lie algebra)**
+\linebreak
+The universal enveloping algebra of the [[tangent Lie algebra]] of a  finite-dimensional [[Lie group]] $G$ over the real or complex numbers is canonically isomorphic to the algebra of the left invariant  [[differential operators]] on $G$.
+\end{example}
 
 ## Related concepts
 
