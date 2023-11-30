@@ -71,3 +71,7 @@ This approach can be generalized to the [[transfinite construction of free algeb
 * [[Jiří Adámek]], Věra Trnková, *Automata and algebras in categories* **37** Springer (1990) &lbrack;[ISBN:9780792300106](https://link.springer.com/book/9780792300106)&rbrack;
 
 [[!redirects Adamek's fixed point theorem]]
+
+[[!redirects Adamek's theorem]]
+
+[[!redirects Adámek's theorem]]
