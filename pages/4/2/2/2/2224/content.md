@@ -34,13 +34,25 @@ In [[quantum physics]], one often studies Weyl algebras over the [[complex numbe
 ### Relation to Heisenberg Lie algebra
  {#RelationToHeisenbergLieAlgebra}
 
-The Weyl algebra on $2n$ generators is the quotient of the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] on $2n$ generators, obtained by identifying the [[center|central]] elements of the Heisenberg Lie algebra with multiples of the identity element.
+Consider the standard [[symplectic form]] on the [[Cartesian space]] $\mathbb{R}^{2n}$, making a [[symplectic vector space]]. This gives rise to the corresponding [[Heisenberg Lie algebra]].
 
-Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie n-algebra]] it makes sense to call its [[universal enveloping E-n algebra]] a _[[Weyl n-algebra]]_.
+Depending on conventions, the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] either already is the [[Weyl algebra]] on $2n$ generators or else it becomes so after after forming the [[quotient algebra]] in which the central generator is identified with the [[unit element]] of the [[ground field]] -- whereas in the former case (considered eg. in [Kravchenko 2000, Def. 2.1](#Kravchenko00); [Bekaert 2005, p. 9](#Bekaert05)) the central generator plays the role of the formal [[Planck constant]] $\hbar$ with the Weyl algebra regarded as a [[formal deformation quantization]] of the [[symplectic manifold]] $\mathbb{R}^{2m}$.
+
+Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebra]] it makes sense to call its [[universal enveloping E-n algebra|universal enveloping $E_n$-algebra]] a _[[Weyl n-algebra|Weyl $n$-algebra]]_.
+
+
 
 ## References
 
-* S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts __33__, Cambridge University Press 1995. xii+207 pp.
+* S. C. Coutinho, Introduction to: *A primer of algebraic D-modules*, London Math. Soc. Stud. Texts **33**, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511623653](https://doi.org/10.1017/CBO9780511623653)&rbrack;
+
+* [[Alan Weinstein]], p. 392 of: *Deformation quantization*, Séminaire Bourbaki volume 1993/94, exposés 775-789, Astérisque, no. 227 (1995), Talk no. 789 &lbrack;[numdam:SB_1993-1994__36__389_0](http://www.numdam.org/item/?id=SB_1993-1994__36__389_0)&rbrack;
+
+* {#Kravchenko00} Olga Kravchenko, *Deformation Quantization of Symplectic Fibrations*, Compositio Mathematica **123** (2000) 131–165 &lbrack;[arXiv:math/9802070](https://arxiv.org/abs/math/9802070), [doi:10.1023/A:1002452002677](https://doi.org/10.1023/A:1002452002677)&rbrack;
+
+* {#Bekaert05} [[Xavier Bekaert]], *Universal enveloping algebras and some applications in physics* (2005) &lbrack;[cds:904799](https://cds.cern.ch/record/904799), [pdf](https://cds.cern.ch/record/904799/files/cer-002575006.pdf)&rbrack;
+
+
 
 * [[eom]]: J.-E. Bj&#246;rk, [Weyl algebra](http://eom.springer.de/w/w097670.htm)
 
