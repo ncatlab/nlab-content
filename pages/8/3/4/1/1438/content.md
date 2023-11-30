@@ -231,7 +231,3 @@ Original references on initial algebras include
 
 [[!redirects Lambek’s theorem]]
 [[!redirects Lambek's theorem]]
-[[!redirects Adámek’s theorem]]
-[[!redirects Adámek's theorem]]
-[[!redirects Adámek's fixed point theorem]]
-[[!redirects Adámek's fixed-point theorem]]
