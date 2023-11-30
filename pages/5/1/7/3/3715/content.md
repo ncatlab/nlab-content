@@ -585,6 +585,8 @@ The concept of formal deformation quantization originates with:
 
 Review:
 
+* [[Alan Weinstein]], *Deformation quantization*, Séminaire Bourbaki volume 1993/94, exposés 775-789, Astérisque, no. 227 (1995), Talk no. 789 &lbrack;[numdam:SB_1993-1994__36__389_0](http://www.numdam.org/item/?id=SB_1993-1994__36__389_0)&rbrack;
+
 * [[Daniel Sternheimer]], _Deformation Quantization: Twenty Years After_, AIP Conf. Proc. **453** (1998) 107-145 &lbrack;[arXiv:math/9809056](https://arxiv.org/abs/math/9809056)&rbrack;
 
 See also:
