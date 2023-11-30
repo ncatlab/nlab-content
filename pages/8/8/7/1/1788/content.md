@@ -35,6 +35,11 @@ $$
     \Big\}
     \\
     \;=\;
+    \epsilon_{i j k}
+    (d_A \alpha)^i \beta^j (F_A)^k
+    -
+    \epsilon_{i j k}
+    (F_A)^k \alpha^i (d_A \beta)^j
   \end{array}
 $$
 
