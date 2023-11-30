@@ -183,11 +183,10 @@ The notion of symplectic groupoids was apparently proposed independently by Kara
 
 * {#Weinstein87} [[Alan Weinstein]], _Symplectic groupoids and Poisson manifolds_, Bull. Amer. Math. Soc. (N.S.) **16** (1987) 101-104 &lbrack;[euclid:bams/1183553676](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-16/issue-1/Symplectic-groupoids-and-Poisson-manifolds/bams/1183553676.full)&rbrack;
 
+* [[Alan Weinstein]], _Symplectic groupoids, geometric quantization, and irrational rotation algebras_, in:
+_Symplectic geometry, groupoids, and integrable systems_ (Berkeley, CA, 1989), Springer (1991) 281-290 &lbrack;[doi:10.1007/978-1-4613-9719-9_19](https://doi.org/10.1007/978-1-4613-9719-9_19), MR1104934&rbrack;
 
-* [[Alan Weinstein]], _Symplectic groupoids, geometric quantization, and irrational rotation algebras_, in
-_Symplectic geometry, groupoids, and integrable systems_ (Berkeley, CA, 1989), Springer (1991) 281-290 &lbrack;MR1104934&rbrack;
-
-* [[Alan Weinstein]], _Tangential deformation quantization and polarized symplectic groupoids_, in _Deformation theory and symplectic geometry_ (Ascona, 1996), 301&#8211;314, Kluwer (1997) [MR1480730](http://www.ams.org/mathscinet-getitem?mr=1480730)
+* [[Alan Weinstein]], _Tangential deformation quantization and polarized symplectic groupoids_, in: _Deformation theory and symplectic geometry_ (Ascona, 1996), 301-314, Kluwer (1997) &lbrack;[ISBN:9780792345251](https://link.springer.com/book/9780792345251), [MR1480730](http://www.ams.org/mathscinet-getitem?mr=1480730)&rbrack;
 
 * M. V. Karas\"ev, _The Maslov quantization conditions in higher cohomology and analogs of notions developed in Lie theory for canonical fibre bundles of symplectic manifolds II_, Selecta Mathematica Sovietica 8, pp. 235&#8211;257, 1989.
 
