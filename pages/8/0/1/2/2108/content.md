@@ -1176,9 +1176,9 @@ Introductions and lecture notes include
 * [[Eugene Lerman]], _Geometric quantization; a crash course_ ([arXiv:1206.2334](http://arxiv.org/abs/1206.2334))
  {#Lerman}
 
-Lecture notes with an emphasis on [[semiclassical states]] are in
+Lecture notes with an emphasis on [[semiclassical states]]:
 
-* {#BatesWeinstein}Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, AMS 1997 ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, AMS (1997) &lbrack;[pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)&rbrack;
  
 
 A careful discussion of the polarization-step from prequantization to quantization is in 
