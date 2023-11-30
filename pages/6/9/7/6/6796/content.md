@@ -81,6 +81,8 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
 
   * [[flux compactification]]
 
+  * [[uncertainty of fluxes]]
+
 
 ## References
 
