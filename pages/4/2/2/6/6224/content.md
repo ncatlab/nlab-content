@@ -142,6 +142,9 @@ See also:
 
 * Wikipedia [nilpotent group](http://en.wikipedia.org/wiki/Nilpotent_group)
 
+On nilpotent [[Lie groups]]:
+
+* [[Manuel Amann]], *On quasi-isometric nilpotent Lie groups* &lbrack;[arXiv:1710.04542](https://arxiv.org/abs/1710.04542)&rbrack;
 
 
 [[!redirects nilpotent group]]
