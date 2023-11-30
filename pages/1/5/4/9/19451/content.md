@@ -90,7 +90,7 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 Skew monoidal closed structures on the category of [[Gray categories]] are considered in:
 
-* [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, (2022). &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358)&rbrack;
+* [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, Advances in Mathematics volume 434 (2023). &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358), [doi.org/10.1016/j.aim.2023.109327](https://doi.org/10.1016/j.aim.2023.109327)&rbrack;
 
 [[!redirects lax monoidal category]]
 [[!redirects unbiased lax monoidal category]]
