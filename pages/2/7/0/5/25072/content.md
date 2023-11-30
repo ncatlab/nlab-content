@@ -44,7 +44,7 @@ Generally, in [[gauge theory]] by a *flux tube* one means a cylindrical/string-s
 
 ## Related concepts
 
-* [[flux]], [[flux quantization]], [[flux compactification]]
+* [[flux]], [[flux quantization]], [[flux compactification]], [[uncertainty of fluxes]]
 
 * the [[AdS-QCD correspondence]] postulates that [[QCD]]-flux tubes, once properly [[quantization|quanitized]], behave like  [[open strings]] propagating in a higher-dimensional [[spacetime]], whose endpoints (the [[quarks]]) are constrained to a 3+1-dimensional [[intersecting brane model|brane intersection]]
 
