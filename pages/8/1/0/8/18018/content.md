@@ -53,6 +53,11 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 * Wikipedia, _[Nilpotent Lie algebra](https://en.wikipedia.org/wiki/Nilpotent_Lie_algebra)_
 
+On the [[Sullivan models]] which are [[Chevalley-Eilenberg algebra]] of nilpotent Lie algebras:
+
+* [[Manuel Amann]], pp. 4 of: *On quasi-isometric nilpotent Lie groups* &lbrack;[arXiv:1710.04542](https://arxiv.org/abs/1710.04542)&rbrack;
+
+
 [[!redirects ad-nilpotent Lie algebra]]
 [[!redirects ad-nilpotent Lie algebras]]
 [[!redirects nilpotent Lie algebra]]
