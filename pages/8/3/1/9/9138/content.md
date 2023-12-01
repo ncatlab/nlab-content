@@ -114,7 +114,7 @@ Conversely, let $(E, 0, \vee)$ be a generalized effect algebra with greatest ele
 ###### Remark
 If we consider $(-)\ominus y:up(y)\to down(y^\perp)$ and $(-)\vee y:down(y^\perp)\to up$ as functors between [[posets]] we have [[adjunctions]]
 
-$$((-\wedge y)\dashv (-\ominus y)\dashv (-\wedge y)$$
+$$((-\wedge y)\dashv (-\ominus y)\dashv (-\vee y)$$
 
 Hence these functors are a [[Frobenius functor|frobenius pair]].
 
