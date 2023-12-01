@@ -34,3 +34,5 @@ See also [[structured cospans]] and [[decorated cospans]]
 * Pierre-Evariste Dagand, [[Conor McBride]], _A Categorical Treatment of Ornaments_, [(acm)](https://dl.acm.org/doi/abs/10.5555/2591370.2591396), 2013
 * Max New, Dan Licata, _Call-by-name Gradual Type Theory_, [(arXiv)](https://arxiv.org/abs/1802.00061), 2018
 * Max New, Dan Licata, _A Formal Logic for Formal Category Theory_, [(arXiv)](https://arxiv.org/abs/2210.08663), 2022
+* Clovis Eberhart, Tom Hirschowitz, 
+_Fibred Pseudo Double Categories for Game Semantics_, [TAC 34(19)](http://www.tac.mta.ca/tac/volumes/34/19/34-19abs.html), 2019. Beware, “fibred” is use there to mean that the codomain functor is a fibration. 
