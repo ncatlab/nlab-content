@@ -25,7 +25,7 @@ A **semifunctor** $F$ from a [[semicategory]] $C$ to a semicategory $D$ is a map
 
 * $F$ preserves [[composition]]: $F(g\circ f) = F(g)\circ F(f)$ whenever the left-hand side is well-defined.
 
-If $C$ is a [[category]], then $F$ need *not* preserve its [[identity morphisms]], but th composition axiom does require that it send them to [[idempotents]] in $D$.
+If $C$ is a [[category]], then $F$ need *not* preserve its [[identity morphisms]], but the composition axiom does require that it send them to [[idempotents]] in $D$.
 
 ## Relation to Profunctors
 
