@@ -325,3 +325,5 @@ Review:
 [[!redirects lightcone longitudal]]
 [[!redirects lightcone transversal]]
 
+[[!redirects light-front formalism]]
+
