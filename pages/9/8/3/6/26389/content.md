@@ -162,11 +162,11 @@ For any $X \in \Omega^n_{dR} \otimes \mathfrak{g}$ this means for instance, with
 
 \[
   \label{AAX}
-  \big[A, [A, X]\big]^i
+  \big[A, [A, X]\big]
   \;=\;
-  \big[ [A,A], X \big]^i
+  \big[ [A,A], X \big]
   -
-  \big[A, [A, X]\big]^i
+  \big[A, [A, X]\big]
   \;\;\;\;
   \text{and hence}
   \;\;\;\;
@@ -189,7 +189,7 @@ Given $A$ as above (eq:GaugePotential), the *[[covariant derivative]]* is the su
   \,.
 \]
 
-A key point is that applying the [[covariant derivative]] (eq:CovariantDerivative) twice is equal to operation as $[F_A, -]$ with the [[curvature 2-form]]
+A key point is that applying the [[covariant derivative]] (eq:CovariantDerivative) twice is equal to applying the Lie bracket $[F_A, -]$ with the [[curvature 2-form]]
 
 \[
   F_A 
@@ -244,7 +244,7 @@ because
 
 where in the third step we used (eq:AAX).
 
-Similarly, from applying the covariant derivative three times follows the [[Bianchi identity]] $\mathrm{d}_A F_A = 0$:
+Similarly, from applying the covariant derivative three times follows the [[Bianchi identity]], $\mathrm{d}_A F_A = 0$:
 
 \[
   \label{BianchiIdentity}
@@ -268,12 +268,13 @@ Similarly, from applying the covariant derivative three times follows the [[Bian
    \Rightarrow
    \;\;\;\;\;\;\;\;\;
    \mathrm{d}_A F_A \,=\, 0
+   \,.
 \]
 
 
 \linebreak
 
-Our assumption that $\mathfrak{g}$ is a [[semisimple Lie algebra]] implies that it carries a   [[invariant polynomial]] ([[Killing form]]), namely a [[bilinear map]]
+Our assumption that $\mathfrak{g}$ is a [[semisimple Lie algebra]] implies that it carries an  [[invariant polynomial]] (a [[Killing form]], in the [[compact Lie group|compact]] case), namely a [[bilinear map]]
 
 $$
   \langle -,-\rangle
@@ -417,12 +418,13 @@ $\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]] and with linear basis taken to be
 ### The Poisson bracket of canonical variables
  {#ThePoissonBracketOfCanonicalVariables}
 
-We consider now a [[smooth manifold|smooth 3-manifold]] $X$, thought of as a chosen [[Cauchy surface]] in a 3+1-dimensional [[Minkowski spacetime]].
+We consider now such [[Lie algebra-valued differential forms]] on a given [[smooth manifold|smooth 3-manifold]] $X$, thought of as a chosen [[Cauchy surface]] in a 3+1-dimensional [[Minkowski spacetime]].
 
 On the space of $\mathfrak{g}$-valued 1-forms $A$ \eqref{GaugePotential} and 2-forms $E$, which on any [[coordinate chart]] $\mathbb{R}^3 \hookrightarrow X$ we may expand as 
 
 $$
-  A \,=\,
+  A 
+  \,=\,
   A_a^i \, \mathrm{d}x^a \otimes t_u
   \,,
   \;\;\;\;
@@ -483,9 +485,9 @@ $$
 
 however, these expression are not actually observable, since they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables. 
 
-Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "inside" $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and exting the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$).
+Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending into the "interior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$).
 
-The actual flux-observables then are
+The actual flux-observables are then:
 
 \[
   \label{TheFluxObservables}
