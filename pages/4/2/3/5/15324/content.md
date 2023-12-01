@@ -21,6 +21,11 @@ On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for [[D-bran
 
 * [[Constantin Bachas]], P. Bain, [[Michael Green]], _Curvature terms in D-brane actions and their M-theory origin_, JHEP 9905:011, 1999 ([arXiv:hep-th/9903210](https://arxiv.org/abs/hep-th/9903210))
 
+On [[D-branes]]:
+
+* [[Constantin Bachas]], *D-branes* &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456)&rbrack;
+
+
 
 
 category: people
