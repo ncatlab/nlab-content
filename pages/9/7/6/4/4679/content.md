@@ -55,3 +55,7 @@ the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebr
 
 [[!redirects Lorentz Lie algebra]]
 [[!redirects Lorentz Lie algebras]]
+
+[[!redirects so(n)]]
+
+
