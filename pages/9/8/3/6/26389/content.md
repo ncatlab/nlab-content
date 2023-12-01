@@ -25,7 +25,7 @@ In ([[higher gauge theory|higher]]) [[gauge theory]], the total (generalized) el
 
 A subtlety here is that the usual [[phase space]]-methods for [[Lagrangian field theories]] directly provide these brackets only for the [[differential forms]] which are the [[flux densities]]. These however, provide only a [[rational homotopy theory|rational]] image of the fluxes, which in general may furthermore have [[torsion subgroup|torsion]]-[[cohomology group|cohomology]]-components.
 
-In plain [[electromagnetism]], the [[canonical momentum]] of the [[gauge potential]] $A$ is proportional (by constants to be ignored in the following) to the electric flux density $\star F$ (where $F$ is the [[Faraday tensor]] [[flux density]] and $\star$ is the [[Hodge star operator]] on the given [[spacetime]] [[pseudo-Riemannian manifold]]), which however means that the the Poisson bracket of the magnetic flux density $F \equiv \mathrm{d}_{dR} A$ with the electric flux density is a total derivative (cf. eg. [Blaschke & Gieres 2021 (5.5)](Yang-Mills+theory#BlaschkeGieres21)), so that the bracket of the integrated fluxes $\Phi_E$ and $\Phi_B$ through given [[orientable manifold|orientable]] [[closed manifold|closed]] surfaces $S_E$ and $S_B$, respectively, actually vanishes (cf. [FMS07b (3.6)](#FreedMooreSegal07b)):
+In plain [[electromagnetism]], the [[canonical momentum]] of the [[gauge potential]] $A$ is proportional (by constants to be ignored in the following) to the electric flux density $\star F$ (where $F$ is the [[Faraday tensor]] [[flux density]] and $\star$ is the [[Hodge star operator]] on the given [[spacetime]] [[pseudo-Riemannian manifold]]), which however means that the the Poisson bracket of the magnetic flux density $F \equiv \mathrm{d}_{dR} A$ with the electric flux density is a total derivative (cf. eg. [Blaschke & Gieres 2021 (5.5)](Yang-Mills+theory#BlaschkeGieres21)), so that the bracket of the integrated fluxes $\Phi_E$ and $\Phi_B$ through given [[orientable manifold|orientable]] [[closed manifold|closed]] surfaces $S_E$ and $S_B$, respectively, actually vanishes (cf. [FMS07b (3.6)](#FreedMooreSegal07b) and Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below):
 
 $$
   \big\{
@@ -63,14 +63,15 @@ $$
 ## Details
  {#Details}
 
-> under construction
+> (This is fresh material. May still contain glitches.)
 
-For 3+1 dimensional [[Yang-Mills theory]] with a [[semisimple Lie algebra|semisimple]] gauge Lie algebra $\mathfrak{g}$ (such as [[su(n)|$\mathfrak{su}(n)$]] or [[so(n)|$\mathfrak{so}(n)$]]) we discuss ([below](#ThePoissonBracketOfIntegratedFluxes)) the [[Poisson bracket]] of integrals (against [[Lie algebra]]-valued functions) of [[flux densities]] ([[curvature 2-forms]]) over [[oriented manifold|oriented]] [[closed manifold|closed]] [[surfaces]], following [Cattaneo & Perez 2017](#CattaneoPerez17). 
+For 3+1 dimensional [[Yang-Mills theory]] with a [[semisimple Lie algebra|semisimple]] gauge Lie algebra $\mathfrak{g}$ -- such as [[su(n)|$\mathfrak{su}(n)$]] or [[so(n)|$\mathfrak{so}(n)$]] -- we discuss ([below](#ThePoissonBracketOfIntegratedFluxes)) the [[Poisson bracket]] of integrals (against [[Lie algebra]]-valued functions) of [[flux densities]] ([[curvature 2-forms]]) over [[oriented manifold|oriented]] [[closed manifold|closed]] [[surfaces]], following [Cattaneo & Perez 2017](#CattaneoPerez17). 
 
-The bracket of electric fluxes among themselves is equation (7) [Cattaneo & Perez 2017](#CattaneoPerez17), and to warm-up we spell out the relevant computation in detail. Then we similarly compute the bracket between electric and magnetic fluxes, showing that it vanishes identically.
+The bracket of electric fluxes among themselves is equation (7) in [CP17](#CattaneoPerez17), and to warm-up we spell out the relevant computation in detail (Prop. \ref{PoissonBracketBetweenElectricFluxes} below). Then we similarly compute the bracket between electric and magnetic fluxes, which takes a tad more work, showing that it vanishes identically (Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below).
 
 The computations are standard and straightforward, but since, as usual, the results depend crucially on delicate signs, we go into full detail.
 
+\linebreak
 
 ### Lie theoretic preliminaries
 
@@ -199,7 +200,8 @@ A key point is that applying the [[covariant derivative]] (eq:CovariantDerivativ
 
 because
 
-$$
+\[
+  \label{CurvatureFromCovariantDerivativeSquared}
   \begin{array}{l}
     \mathrm{d}_A \mathrm{d}_A X
     \\
@@ -238,7 +240,7 @@ $$
      \big]
      \,,
   \end{array}
-$$
+\]
 
 where in the third step we used (eq:AAX).
 
@@ -399,13 +401,17 @@ the trilinear pairing is also skew-symmetric (namely is a [[Lie algebra cocycle]
 
 \linebreak
 
-In the **example** where $\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]] and with linear basis taken to be the [[Pauli matrices]] we have
+\begin{example}
+In the case 
+$\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]] and with linear basis taken to be the [[Pauli matrices]] we have:
 
 * $f_{i j k} = \epsilon_{i j k}$ the [[Levi-Civita symbol]],
 
 * $k_{i j} = \delta_{i j}$ the [[Kronecker delta]].
 
+\end{example}
 
+\linebreak
 
 
 ### The Poisson bracket of canonical variables
@@ -443,7 +449,7 @@ we declare the [[distribution|distributional]] [[Poisson bracket]]:
   \end{array}
 \]
 
-This is the [[Poisson bracket]] for [[Yang-Mills theory]], with the [[gauge potential]] $A$ serving as the [[canonical coordinate]] and the [[electric field]] $E$ its [[canonical momentum]].
+This is the [[Poisson bracket]] for [[Yang-Mills theory]] (see the references [there](Yang-Mills+theory#ReferencesPhaseSpaceAndCanonicalQuantization)), with the [[gauge potential]] $A$ serving as the [[canonical coordinate]] and the [[electric field]] $E$ its [[canonical momentum]].
 
 \linebreak
 
@@ -454,7 +460,7 @@ $$
   \,.
 $$ 
 
-Naively, these are the surface integrals
+Na&iuml;vely, these are the surface integrals
 
 $$
   \begin{array}{c}
@@ -466,18 +472,18 @@ $$
   \Phi_B^\alpha
   \;\overset{?}{\equiv}\;
   \int_S \langle \alpha, F_A \rangle
-  \end{array}
   \,,
-  \;\;\;\;\;\;
+  \end{array}
+  \;\;\;\;\;\;\;\;
   \text{for}
   \;\;
   \alpha \in \Omega^0(S) \otimes \mathfrak{g}
-  \,,
+  \,;
 $$
 
 however, these expression are not actually observable, since they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables. 
 
-Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "inside" $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extend the coefficient functions with [[compact support]] to this neighbourhood (i.e. such that they vanish some finite distance from $S$).
+Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "inside" $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and exting the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$).
 
 The actual flux-observables then are
 
@@ -516,19 +522,19 @@ The actual flux-observables then are
 
 \linebreak
 
-In the computation, [below](#ThePoissonBracketOfIntegratedFluxes), of the Poisson brackets of these flux observables we repeatedly need the following identities, which also serve as good **examples** for how to compute with the Poisson brackets (eq:ThePoissonBracketOnCanonicalCoordinates).
+In the computation [below](#ThePoissonBracketOfIntegratedFluxes), of the Poisson brackets of these flux observables, we repeatedly need the following identities, which also serve as good examples for how to compute with the Poisson brackets (eq:ThePoissonBracketOnCanonicalCoordinates):
 
+\begin{example}
 A key consequence of the corrected flux observables (eq:TheFluxObservables), is a non-trivial Poisson bracket between electric field observables and plain smearing functions:
-
 \[
   \label{PoissonBracketBetweenElectricFieldAndSmearingFunction}
   \begin{array}{l}
     \Big\{
-      \textstyle{\int}_{\widehat{S}}
+      \textstyle{\int}
       \big(\mathrm{d}_A \alpha_i\big)
       E^i
       ,\,
-      \textstyle{\int}_{\widehat{S}}
+      \textstyle{\int}
       \big(
         \mathrm{d}_A \beta
       \big)
@@ -536,11 +542,11 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \\
     \;\equiv\;
     \Big\{
-      \textstyle{\int}_{\widehat{S}}
+      \textstyle{\int}
       \big(\mathrm{d}_A \alpha_i\big)
       E^i
       ,\,
-      \textstyle{\int}_{\widehat{S}}
+      \textstyle{\int}
       \big(
         \mathrm{d}\beta
         + [A, \beta]
@@ -548,10 +554,10 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \Big\}
     \\
     \;=\;
-    \textstyle{\int}_{\widehat{S}}
+    \textstyle{\int}
     \big(\mathrm{d}_A \alpha_i\big)
     \Big[
-      \textstyle{\int}_{\widehat{S}}
+      \textstyle{\int}
       \big\{
         E^i
         ,\,
@@ -562,7 +568,7 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \Big]
     \\
     \;=\;
-    \textstyle{\int}_{\widehat{S}}
+    \textstyle{\int}
     \big(\mathrm{d}_A \alpha_i\big)
     \big[
       t^i
@@ -571,7 +577,7 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \big]
     \\
     \;=\;
-    \textstyle{\int}_{\widehat{S}}
+    \textstyle{\int}
     \Big[
       \big(\mathrm{d}_A \alpha\big)
       ,\,
@@ -580,62 +586,118 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \,.
   \end{array}
 \]
+\end{example}
+This is the relation needed for the computation of the bracket among electric fluxes in (eq:PoissonBracketElectricElectricFluxes) below.
 
-The other key point is that the Poisson bracket of an electric with a magnetic flux density results in the *derivative* of the electric smearing function:
-
+\begin{example}
+\label{BracketOfElectricFluxWithMagneticFluxDensity}
+The Poisson bracket of an electric flux observable with a magnetic flux density results in the *covariant derivative* of the electric smearing function:
+\[
+  \label{TheBracketOfElectricFluxWithMagneticFluxDensity}
+  \begin{array}{l}
+    \Big\{
+      \textstyle{\int}
+      \big(\mathrm{d}_A \alpha_i\big) \wedge E^i
+      ,\,
+      F_A(x')
+    \Big\}
+    \;=\;
+    d_A \big(\mathrm{d}_A \alpha\big)(x')
+  \end{array}
+\]
+\end{example}
+This is the main relation needed in the computation of the bracket between electric and magnetic fluxes, in (eq:PoissonBracketElectricMagneticFluxes) below.
+\begin{proof}
+For the first summand in $F_A \,\equiv\, \mathrm{d}A + \tfrac{1}{2}[A, A]$ we have simply:
 $$
   \begin{array}{l}
     \Big\{
-      \underset{x}{\textstyle{\int}}
-      \big(\mathrm{d}_A \alpha_i(x)\big) \wedge E^i(x)
+      \textstyle{\int}
+      \big(\mathrm{d}_A \alpha_i \big) \wedge E^i
       ,\,
       \mathrm{d} A(x')
     \Big\}
     \\
     \;=\;
-    \underset{x}{\textstyle{\int}}
-    \big( \mathrm{d}_A \alpha(x) \big)
-    \wedge
-    \mathrm{d}_{x'} \delta(x,x')
+    \mathrm{d}
+      \Big\{
+      \textstyle{\int}
+      \big(\mathrm{d}_A \alpha_i \big) \wedge E^i
+      ,\,
+       A(x')
+    \Big\}
     \\
     \;=\;
-    -
-    \underset{x}{\textstyle{\int}}
-    \big( \mathrm{d}_A \alpha(x) \big)
-    \wedge
-    \mathrm{d}_{x} \delta(x,x')
-    \\
-    \;=\;
-    -
-    \underset{x}{\textstyle{\int}}
-    \Big(
-      \mathrm{d}
-      \big( \mathrm{d}_A \alpha(x) \big)
-    \Big)
-    \delta(x,x')
-    \\
-    \;=\;
-    -
-    \mathrm{d} \big( \mathrm{d}_A \alpha(x') \big)
+    \mathrm{d}
+    \big(\mathrm{d}_A \alpha(x') \big)    
+    \,.
   \end{array}
 $$
-
-(Carefully notice the signs: The first minus sign appears from the antisymmetry of the derivative of a [[delta-distribution]] and then this sign survives the [[integration by parts]] because the coefficient $\mathrm{d}_A \alpha(x)$ is a differential form of add degree.)
-
-Moreover
+For the second summand, considering any $\omega \in \Omega^1_{dR} \otimes \mathfrak{g}$, we have:
 
 $$
   \begin{array}{l}
     \Big\{
-      \omega^i
-      \wedge
-      E_i
-      ,\,
-     \tfrac{1}{2}[A, A]
+      \textstyle{\int}
+       \omega_i E^i
+       ,\,
+       \tfrac{1}{2} [A, A]
     \Big\}
     \\
     \;=\;
-    \omega^i_a
+    \tfrac{1}{2} 
+    \Big[
+      \big\{
+        \textstyle{\int}
+        \omega_i E^i
+        ,\,
+        A
+      \big\}
+      ,\,
+      A
+    \Big]
+    +
+    \tfrac{1}{2} 
+    \Big[
+      A
+      ,\,
+      \big\{
+        \textstyle{\int}
+        \omega_i E^i
+        ,\,
+        A
+      \big\}
+    \Big]   
+    \\
+    \;=\;
+    \big[
+      A
+      ,\,
+      \omega
+    \big]
+    \,.
+  \end{array}
+$$
+
+Together this yields the claim.
+
+It may be instructive to state the last computation with more components made explicit:
+
+> (combinatorial prefactors currently not shown properly, but they don't affect the sign, of course)
+
+$$
+  \begin{array}{l}
+    \Big\{
+      \textstyle{\int}
+      \omega^i
+      E_i
+      ,\,
+      \tfrac{1}{2}[A, A]
+    \Big\}
+    \\
+    \;=\;
+    \textstyle{\int}
+    \omega_{i a}
     \epsilon^{a b c}
     \tfrac{1}{2} 
     \big\{
@@ -650,6 +712,7 @@ $$
     \mathrm{d} x^{c'}
     \\
     \;=\;
+    \textstyle{\int}
     \tfrac{1}{2}
     \omega^i_a
     \epsilon^{a b c}
@@ -681,39 +744,58 @@ $$
     \mathrm{d} x^{c'}
     \\
     \;=\;
-  \end{array}
-$$
-
-$$
-  \begin{array}{l}
-    \Big\{
-      \underset{x}{\textstyle{\int}}
-      \big(\mathrm{d}_A \alpha_i(x)\big) \wedge E^i(x)
-      ,\,
-      F_A(x')
-    \Big\}
+    A^j_{b'} 
+    \omega^k_{c'}
+    [t_j, t_k]
+    \mathrm{d} x^{b'} 
+      \wedge 
+    \mathrm{d} x^{c'}
     \\
     \;=\;
-    -
-    d_A \big(\mathrm{d}_A \alpha\big)(x')
+    [A, \omega]
+    \,.
   \end{array}
 $$
+\end{proof}
+
+
+\linebreak
 
 
 ### The Poisson bracket of integrated fluxes
  {#ThePoissonBracketOfIntegratedFluxes}
 
-Poisson bracket of electric with electric fluxes
-
+\begin{proposition}
+\label{PoissonBracketBetweenElectricFluxes}
+**([CP17 (7)](#CattaneoPerez17))**
+\linebreak
+ The Poisson bracket (eq:ThePoissonBracketOnCanonicalCoordinates) of electric flux observables (eq:TheFluxObservables) among each other is the Lie bracket on their smearing functions:
 $$
+  \Big\{
+    \Phi_E^{\alpha}
+    ,\,
+    \Phi_E^{\beta}
+  \Big\}
+  \;=\;
+  \Phi_E^{ [\alpha,\beta] }
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+Using (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction), we compute as follows:
+\[
+  \label{PoissonBracketElectricElectricFluxes}
   \begin{array}{l}
   \Big\{
+    \textstyle{\int}
     \big( \mathrm{d}_A \alpha_i \big) E^i
     ,\,
+    \textstyle{\int}
     \big( \mathrm{d}_A \beta_j \big) E^j
   \Big\}
   \\
   \;=\;
+  \textstyle{\int}
   \Big[
     \big(\mathrm{d}_A \alpha\big)
     ,\,
@@ -721,6 +803,7 @@ $$
   \Big]_i
   E^i
   -
+  \textstyle{\int}
   \Big[
     \big(\mathrm{d}_A \beta\big)
     ,\,
@@ -729,6 +812,7 @@ $$
   E^i
   \\
   \;=\;
+  \textstyle{\int}
   \Big[
     \big(\mathrm{d}_A \alpha\big)
     ,\,
@@ -736,6 +820,7 @@ $$
   \Big]_i
   E^i
   +
+  \textstyle{\int}
   \Big[
     \alpha
     ,\,
@@ -744,17 +829,34 @@ $$
   E^i
   \\
   \;=\;
+  \textstyle{\int}
   \big(
     \mathrm{d}_A
     [\alpha,\beta]_i
   \big)
   E^i
   \end{array}
-$$
+\]
+\end{proof}
 
-Poisson bracket of electric with magnetic flux:
-
+\begin{proposition}
+\label{PoissonBracketBetweenElectricAndMagneticFluxes}
+ The Poisson bracket (eq:ThePoissonBracketOnCanonicalCoordinates) of any electric flux observable with any magnetic flux observable (eq:TheFluxObservables) vanishes:
 $$
+  \Big\{
+    \Phi_E^\alpha
+    ,\,
+    \Phi_B^\beta
+  \Big\}
+  \;=\;
+  0
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+We compute as follows:
+\[
+  \label{PoissonBracketElectricMagneticFluxes}
   \begin{array}{l}
   \Big\{
     \textstyle{\int}
@@ -813,25 +915,25 @@ $$
   \\
   \;=\;
   \textstyle{\int}
-  \Big\langle  
+  \big\langle  
     \mathrm{d}_A \alpha
     ,\,
     \beta
     ,\,
     F_A
-  \Big\rangle
+  \big\rangle
   +
   \textstyle{\int}
-  \Big\langle  
+  \big\langle  
     \alpha
     ,\,
     \mathrm{d}_A  \beta
     ,\,
     F_A
-  \Big\rangle
+  \big\rangle
   +
   \textstyle{\int}
-  \Big\langle  
+  \big\langle  
     \alpha
     ,\,
     \beta
@@ -841,35 +943,35 @@ $$
         \mathrm{d}_A F_A
       }
     }
-  \Big\rangle
+  \big\rangle
   \\
   \;=\;
   \textstyle{\int}
-  \Big\langle  
+  \big\langle  
     \mathrm{d} \alpha
     ,\,
     \beta
     ,\,
     F_A
-  \Big\rangle
+  \big\rangle
   +
   \textstyle{\int}
-  \Big\langle  
+  \big\langle  
     \alpha
     ,\,
     \mathrm{d}\beta
     ,\,
     F_A
-  \Big\rangle
+  \big\rangle
   +
   \textstyle{\int}
-  \Big\langle  
+  \big\langle  
     \alpha
     ,\,
     \beta
     ,\,
     \mathrm{d} F_A
-  \Big\rangle
+  \big\rangle
   \\
   \;=\;
   \textstyle{\int}
@@ -885,7 +987,22 @@ $$
   \;=\;
   0
   \end{array}
-$$
+\]
+Here we used, in order of appearance:
+
+1. (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction) and (eq:TheBracketOfElectricFluxWithMagneticFluxDensity);
+
+1. (eq:CyclicInvarianceOfTrilinearPairing) and (eq:CurvatureFromCovariantDerivativeSquared)
+
+1. (eq:CyclicInvarianceOfTrilinearPairing) and (eq:BianchiIdentity)
+
+1. (eq:AdInvarianceOfTrilinearPairing)
+
+1. [[Stokes theorem|Stokes]].
+
+\end{proof}
+
+\linebreak
 
 
 ## Related concepts
