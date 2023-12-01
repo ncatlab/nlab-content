@@ -44,7 +44,7 @@ $$
 
 where $\rho\otimes_{\sigma}\tilde{T}$ is schematically understood as placing $\sigma$ on a spacetime $X^n\times [0,1]$ with $\rho$ on one end and $\tilde{T}$ on the other, such that collapsing the slab gives $T$ on $X^n$.
 
-Some remarks about this proposal are in order. First, the kind of symmetries that are usually dealt with here are of finite character (related to a [[homotopy type with finite homotopy groups]] as explained in Appendix A). This allows to avoid discussions regarding smoothness of categories. Work aiming towards addressing this issue is in ([Gripaios, Randal-Williams, and Tooby-Smith (2023)](#GRT23)). Second, some statements (which are not necessarily minor points) are still only schematic. This includes the isomorphism $\theta$ mentioned. This is partly due to the following assertion: *"Recall that the cobordism hypothesis enables a calculus of such functors (FTFT's) in terms of duality data inside the codomain category C. Turning to nontopological theories, a similar calculus is not in place and is a subject of wide interest.*" ([FMT22](#FMT22), p. 10). In particular, the work of [Grady and Pavlov (2021)](#GradyPavlov21) on the *geometric* [[cobordism hypothesis]] has clear relevance to these two remarks.
+Some remarks about this proposal are in order. First, the kind of symmetries that are usually dealt with here are of finite character (related to a [[homotopy type with finite homotopy groups]] as explained in Appendix A). This allows to avoid discussions regarding smoothness of categories. However, as highlighted in ([Kang & Kang (2023)](#KK23)), overlooking this fact has led to some inaccurate conclusions obtained from applying techniques that in reality are valid only in the discrete setting but not in the smooth setting. Work aiming towards addressing this issue is in ([Gripaios, Randal-Williams, and Tooby-Smith (2023)](#GRT23)). Second, some statements (which are not necessarily minor points) are still only schematic. This includes the isomorphism $\theta$ mentioned. This is partly due to the following assertion: *"Recall that the cobordism hypothesis enables a calculus of such functors (FTFT's) in terms of duality data inside the codomain category C. Turning to nontopological theories, a similar calculus is not in place and is a subject of wide interest.*" ([FMT22](#FMT22), p. 10). In particular, the work of [Grady and Pavlov (2021)](#GradyPavlov21) on the *geometric* [[cobordism hypothesis]] has clear relevance to these two remarks.
 
 
 
@@ -97,6 +97,10 @@ See also:
 Work in the direction of *smooth* generalized symmetries:
 
 * {#GRT23} Ben Gripaios, Oscar Randal-Williams, Joseph Tooby-Smith. *Smooth generalized symmetries of quantum field theories*. (2023). [arXiv:2310.16090](https://arxiv.org/abs/2310.16090#).
+
+Notes on a more proper treatment of *smooth* 2-groups in the present context is in:
+
+* {#KK23} Monica Jinwoo Kang, Sungkyung Kang, *Central extensions of higher groups: Green-Schwartz mechanism and 2-connections* ([arXiv:2311.14666](https://arxiv.org/abs/2311.14666))
 
 Further activity:
 
