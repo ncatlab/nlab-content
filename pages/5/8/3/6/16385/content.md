@@ -241,6 +241,160 @@ $$
 
 =--
 
+Saying the same again in other words:
+
+\begin{remark}\label{HermitianFormsViaHermitianMetrics}
+**(Hermitian forms via Hermitian metrics)**
+\linebreak
+The decomposition of a Hermitian form into its [[real part]] and [[imaginary part]] is traditionally written with the symbols
+$$
+  \langle-\vert-\rangle
+  \;=\;
+  g(-,-)
+  +
+  \mathrm{i} \omega(-,-)
+$$
+or similar, where
+$$
+  g(-,-)
+  \;\coloneqq\;
+  \Re \langle-\vert-\rangle
+  \,,
+$$
+$$
+  \omega(-,-)
+  \;\coloneqq\;
+  \Im \langle-\vert-\rangle
+  \,.
+$$
+are real [[bilinear forms]] on the [[underlying]] [[real vector space]].
+
+In fact, the real part fully determines the imaginary part and hence the Hermitian form:
+$$
+  \begin{array}{l}
+    \omega(-,-)
+    & =
+    \Im \langle-\vert-\rangle
+    \\
+    & = 
+    \Re \big(-\mathrm{i} \langle-\vert-\rangle\big)
+    \\
+    & =
+    \Re \langle \mathrm{i} - \vert - \rangle
+    \\
+    & =
+    \Re \langle J(-) \vert - \rangle
+    \\
+    & =
+    g\big(J(-), -\big)
+    \,,
+  \end{array}
+$$
+where in the last line we introduced the [[complex structure]] $J$ on the [[underlying]] real vector space which promotes it back to the original complex vector space.
+
+Notice that the complex structure $J$ is an [[orthogonal map]] with respect to the inner product $g$, equivalently $g$ is a [[Hermitian metric]] with respect to $J$, in that
+
+$$
+  \begin{array}{l}
+    g\big(J(-), J(-)\big)
+    \\
+    \;=\;
+    \Re 
+    \big\langle 
+      \mathrm{i}(-) 
+    \big\vert 
+      \mathrm{i}(-) 
+    \big\rangle
+    \\
+    \;=\;
+    \Re 
+    \big(
+      -\mathrm{i} \cdot \mathrm{i}
+      \langle - \vert - \rangle
+    \big)
+    \\
+    \;=\;
+    \Re 
+      \langle - \vert - \rangle
+    \\
+    \;=\;
+    g(-,-)
+    \,.
+  \end{array}
+$$ 
+
+Conversely, for a real vector space equipped with a [[complex structure]] $J$ and a [[Hermitian metric]] $g$, in that $g\big(J(-), J(-)\big) \,=\, g(-,-,)$, the formula
+$$
+  \langle-\vert-\rangle
+  \;=\;
+  g(-,-)
+  +
+  \mathrm{i} 
+  g\big(J(-), -\big)
+$$
+defines a Hermitian form on the corresponding complex vector space:
+
+The linearity in the second argument is clear. The [[anti-linear map|antilinearity]] in the first argument follows by:
+$$
+  \begin{array}{l}
+    g(\mathrm{i}-,-)
+    +
+    \mathrm{i} 
+    g\big(J(\mathrm{i}-), -\big)
+    \\
+    \;=\;
+    g\big(J(-),-\big)
+    +
+    \mathrm{i} 
+    g\big(J\circ J (-), - \big)
+    \\
+    \;=\;
+    g\big(J(-),-\big)
+    -
+    \mathrm{i} 
+    g\big(-, - \big)
+    \\
+    \;=\;
+    -\mathrm{i}
+    \Big(
+      g(-,-)
+      +
+      \mathrm{i} g\big( J(-), - \big)
+    \Big)
+    \,.
+  \end{array}
+$$
+and Hermiticity follows by:
+$$
+  \begin{array}{l}
+    g(w,v) 
+      + 
+    \mathrm{i}
+    g\big( J(w), v \big)
+    \\
+    \;=\;
+    g(w,v) 
+      + 
+    \mathrm{i}
+    g\big( J \circ J(w), J(v) \big)
+    \\
+    \;=\;
+    g(w,v) 
+      - 
+    \mathrm{i}
+    g\big( w, J(v) \big)
+    \\
+    \;=\;
+    g(v,w) 
+      - 
+    \mathrm{i}
+    g\big( J(v),  w\big)
+    \,.
+  \end{array}
+$$
+\end{remark}
+
+
 ### Relation to Kähler spaces
 
 +-- {: .num_prop #RelationBetweenKaehlerVectorSpacesAndHermitianSpaces}
