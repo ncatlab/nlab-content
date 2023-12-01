@@ -112,7 +112,9 @@ The following discussion is all about [[Lie algebra-valued differential form|$\m
 
 \[
   \label{GaugePotential}
-  A \;\equiv\; A^i t_i 
+  A 
+    \;\equiv\; 
+  A^i \otimes t_i 
   \;\in\;
   \Omega^1_{dR} \otimes \mathfrak{g}
   \,,
@@ -120,15 +122,17 @@ The following discussion is all about [[Lie algebra-valued differential form|$\m
 
 which are going to represent the [[gauge potential]].
 
-In writing (Lie- or Poisson-)brackets of such form, we always mean to (1.) take the [[wedge product]] of the bare [[differential forms]] *in the given order* and (2.) apply the bracket to the [[coefficients]], eg.:
+In writing (Lie- or Poisson-)brackets of such [[Lie algebra-valued differential form|$\mathfrak{g}$-valued differential forms]], we mean to (1.) take the [[wedge product]] of the bare [[differential forms]] *in the given order* and (2.) apply the bracket to the [[coefficients]], eg.:
 
 \[
   \label{BracketOfGaugePotentialWithItself}
   [ A , A ]
   \;\equiv\;
-  A^j \wedge A^k [t_i, t_j]
+  A^j \wedge A^k \otimes [t_i, t_j]
   \;=\;
-  f^i{}_{j k} A^j \wedge A^k t_i
+  f^i{}_{j k} 
+  \, 
+  A^j \wedge A^k \otimes t_i
   \,.
 \]
 
@@ -155,35 +159,45 @@ The [[Jacobi identity]] of $\mathfrak{g}$ says that $[t_i,-]$ is a [[derivation]
 
 For any $X \in \Omega^n_{dR} \otimes \mathfrak{g}$ this means for instance, with (eq:BracketOfGaugePotentialWithItself), that
 
-$$
-  \begin{array}{l}
+\[
+  \label{AAX}
   \big[A, [A, X]\big]^i
-  \\
   \;=\;
   \big[ [A,A], X \big]^i
   -
   \big[A, [A, X]\big]^i
-  \end{array}
-  \;\;\;\;\;\;\;\;
-  \Leftrightarrow
-  \;\;\;\;\;\;\;\;
+  \;\;\;\;
+  \text{and hence}
+  \;\;\;\;
   \big[A, [A, X]\big]
   \;=\;
   \tfrac{1}{2}
   \big[ [A,A], X \big]
-$$
+  \,.
+\]
 
-[[covariant derivative]]:
+Given $A$ as above (eq:GaugePotential), the *[[covariant derivative]]* is the sum of the [[de Rham differential]] with the operation $[A,-]$:
 
-$$
-  (\mathrm{d}_{A} X)^i
+\[
+  \label{CovariantDerivative}
+  \mathrm{d}_{A} X
   \;\equiv\;
-  \mathrm{d} X^i + [A, X]^i
+  \mathrm{d} X + [A, X]
   \;=\;
-  \mathrm{d} X^i + f^i_{j k} A^j X^k
-$$
+  \mathrm{d} X^\bullet + f^\bullet{}_{j k} A^j \wedge X^k
+  \,.
+\]
 
-[[curvature]]:
+A key point is that applying the [[covariant derivative]] (eq:CovariantDerivative) twice is equal to operation as $[F_A, -]$ with the [[curvature 2-form]]
+
+\[
+  F_A 
+  \;\equiv\;
+  \mathrm{d}A + \tfrac{1}{2}[A, A]
+  \,,
+\]
+
+because
 
 $$
   \begin{array}{l}
@@ -222,12 +236,16 @@ $$
        ,\,
        X
      \big]
+     \,,
   \end{array}
 $$
 
-[[Bianchi identity]]:
+where in the third step we used (eq:AAX).
 
-$$
+Similarly, from applying the covariant derivative three times follows the [[Bianchi identity]] $\mathrm{d}_A F_A = 0$:
+
+\[
+  \label{BianchiIdentity}
   \begin{array}{l}
     \mathrm{d}_A \mathrm{d}_A \mathrm{d}_A X
     \\
@@ -244,13 +262,16 @@ $$
     +
     \mathrm{d}_A \mathrm{d}_A \mathrm{d}_A X
    \end{array}
-   \;\;\;\;\;\;\;
+   \;\;\;\;\;\;\;\;\;
    \Rightarrow
-   \;\;\;\;\;\;\;
+   \;\;\;\;\;\;\;\;\;
    \mathrm{d}_A F_A \,=\, 0
-$$
+\]
 
-[[invariant polynomial]]:
+
+\linebreak
+
+Our assumption that $\mathfrak{g}$ is a [[semisimple Lie algebra]] implies that it carries a   [[invariant polynomial]] ([[Killing form]]), namely a [[bilinear map]]
 
 $$
   \langle -,-\rangle
@@ -258,17 +279,26 @@ $$
   \mathfrak{g} \otimes \mathfrak{g}
   \to
   \mathbb{R}
-$$
-
-$$
+  \,,
+  \;\;\;\;\;\;
   k_{i j}
   \;\equiv\;
   \langle t_i, t_j\rangle
 $$
 
-invariance
+which is symmetric
 
-$$
+\[
+  \label{SymmetryOfInvariantPolynomial}
+  \langle t_i, t_j\rangle
+  \;=\;
+  \langle t_j, t_i\rangle
+\]
+
+and [[adjoint action|ad-]][[invariant]], in that
+
+\[
+  \label{AdInvarianceOfInvariantPolynomial}
   \big\langle
     [t, -]
     ,\,
@@ -282,19 +312,33 @@ $$
   \big\rangle
   \;=\;
   0
-$$
+  \,.
+\]
 
 The induced trilinear pairing
 
-$$
+\[
+  \label{TrilinearPairing}
   \langle -,-,- \rangle
   \;\coloneqq\;
   \big\langle -,[-,-] \big\rangle
-$$
+  \;\colon\;
+  \mathfrak{g} \otimes \mathfrak{g} \otimes \mathfrak{g}
+  \to
+  \mathbb{R}
+  \,,
+  \;\;\;\;\;\;\;
+  f_{i j k}
+  \;\equiv\;
+  \langle t_i, t_j, t_k\rangle
+  \;=\;
+  k_{i i'} f^{i'}{}_{j k}
+\]
 
-is also $\mathfrak{g}$-invariant, in that
+is also ad-invariant:
 
-$$
+\[
+  \label{AdInvarianceOfTrilinearPairing}
   \begin{array}{l}
     \big\langle
       [t,-], -,-
@@ -314,7 +358,7 @@ $$
     \big\rangle
     +
     \Big\langle
-      -, \big[[t,-], -\big]
+      -, \big[ {[t,-]}, -\big]
     \Big\rangle
     +
     \Big\langle
@@ -334,42 +378,157 @@ $$
     0
     \,,
   \end{array}
-$$
+\]
 
-where we used first the Jacobi identity and then the invariant of the bilinear pairing.
+(where we used first the Jacobi identity (eq:JacobiIdentity) and then the invariance (eq:AdInvarianceOfInvariantPolynomial) of the bilinear pairing).
 
 Moreover, for a [[semisimple Lie algebra]]
-the trilinear pairing is also skew-symmetric and hence in particular invariant under cyclic permutation of its arguments.
+the trilinear pairing is also skew-symmetric (namely is a [[Lie algebra cocycle]]) and hence in particular invariant under [[cyclic permutation]] of its arguments:
 
-$$
+\[
+  \label{CyclicInvarianceOfTrilinearPairing}
   \big\langle
-    t_i, t_j k
+    t_i , t_j , t_k
   \big\rangle
   \;=\;
   \big\langle
-    t_k, t_i j
+    t_k , t_i , t_j
   \big\rangle
-$$
+  \,.
+\]
+
+\linebreak
+
+In the **example** where $\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]] and with linear basis taken to be the [[Pauli matrices]] we have
+
+* $f_{i j k} = \epsilon_{i j k}$ the [[Levi-Civita symbol]],
+
+* $k_{i j} = \delta_{i j}$ the [[Kronecker delta]].
+
 
 
 
 ### The Poisson bracket of canonical variables
+ {#ThePoissonBracketOfCanonicalVariables}
 
-[[Poisson bracket]]:
+We consider now a [[smooth manifold|smooth 3-manifold]] $X$, thought of as a chosen [[Cauchy surface]] in a 3+1-dimensional [[Minkowski spacetime]].
+
+On the space of $\mathfrak{g}$-valued 1-forms $A$ \eqref{GaugePotential} and 2-forms $E$, which on any [[coordinate chart]] $\mathbb{R}^3 \hookrightarrow X$ we may expand as 
 
 $$
-  \big\{ E^i, A^j \big\}
+  A \,=\,
+  A_a^i \, \mathrm{d}x^a \otimes t_u
+  \,,
+  \;\;\;\;
+  E \,=\,
+  E_{a b}^i \, 
+  \mathrm{d} x^a \wedge \mathrm{d} x^b \otimes t_u
+  \,,
+$$
+
+we declare the [[distribution|distributional]] [[Poisson bracket]]:
+
+\[
+  \label{ThePoissonBracketOnCanonicalCoordinates}
+  \begin{array}{l}
+    \big\{ E^i_{a b}(x), E^j_{c d}(x') \big\}
+    \;=\; 0
+    \\
+    \big\{ A^j_a(x), A^j_b(x') \big\}
+    \;=\; 0
+    \\
+    \big\{ E^i_{a b}(x), A^j_c(x') \big\}
+    \;\equiv\;
+    k^{ i j } \epsilon_{a b c} \delta(x,x')
+  \end{array}
+\]
+
+This is the [[Poisson bracket]] for [[Yang-Mills theory]], with the [[gauge potential]] $A$ serving as the [[canonical coordinate]] and the [[electric field]] $E$ its [[canonical momentum]].
+
+\linebreak
+
+We are interested in the observables expressing electromagnetic flux through [[closed manifold|closed]] [[oriented manifold|oriented]] [[surface]] [[submanifolds]]
+
+$$
+  S \hookrightarrow X
+  \,.
+$$ 
+
+Naively, these are the surface integrals
+
+$$
+  \begin{array}{c}
+  \Phi_E^\alpha
+  \;\overset{?}{\equiv}\;
+  \int_S \langle \alpha,  E \rangle 
+  \,,
+  \\
+  \Phi_B^\alpha
+  \;\overset{?}{\equiv}\;
+  \int_S \langle \alpha, F_A \rangle
+  \end{array}
+  \,,
+  \;\;\;\;\;\;
+  \text{for}
+  \;\;
+  \alpha \in \Omega^0(S) \otimes \mathfrak{g}
+  \,,
+$$
+
+however, these expression are not actually observable, since they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables. 
+
+Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "inside" $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extend the coefficient functions with [[compact support]] to this neighbourhood (i.e. such that they vanish some finite distance from $S$).
+
+The actual flux-observables then are
+
+\[
+  \label{TheFluxObservables}
+  \begin{array}{l}
+  \Phi_E^\alpha
   \;\equiv\;
-  k^{ i j }
-$$
+  \int_{\widehat S} 
+  \big\langle
+    \mathrm{d}_A \alpha
+    ,\,
+    E
+  \big\rangle
+  \,,
+  \\
+  \Phi_B^\alpha
+  \;\equiv\;
+  \int_{\widehat S}
+  \big\langle
+    \mathrm{d}_A \alpha
+    ,\,
+    F_A
+  \big\rangle
+  \,,
+  \end{array}
+  \;\;\;\;
+  \text{for}
+  \;\;
+  \alpha 
+    \;\in\; 
+  \Omega^0\big(\widehat S \big)_{cpt}
+    \otimes \mathfrak{g}
+  \,.
+\]
 
+\linebreak
 
-$$
+In the computation, [below](#ThePoissonBracketOfIntegratedFluxes), of the Poisson brackets of these flux observables we repeatedly need the following identities, which also serve as good **examples** for how to compute with the Poisson brackets (eq:ThePoissonBracketOnCanonicalCoordinates).
+
+A key consequence of the corrected flux observables (eq:TheFluxObservables), is a non-trivial Poisson bracket between electric field observables and plain smearing functions:
+
+\[
+  \label{PoissonBracketBetweenElectricFieldAndSmearingFunction}
   \begin{array}{l}
     \Big\{
+      \textstyle{\int}_{\widehat{S}}
       \big(\mathrm{d}_A \alpha_i\big)
       E^i
       ,\,
+      \textstyle{\int}_{\widehat{S}}
       \big(
         \mathrm{d}_A \beta
       \big)
@@ -377,9 +536,11 @@ $$
     \\
     \;\equiv\;
     \Big\{
+      \textstyle{\int}_{\widehat{S}}
       \big(\mathrm{d}_A \alpha_i\big)
       E^i
       ,\,
+      \textstyle{\int}_{\widehat{S}}
       \big(
         \mathrm{d}\beta
         + [A, \beta]
@@ -387,8 +548,10 @@ $$
     \Big\}
     \\
     \;=\;
+    \textstyle{\int}_{\widehat{S}}
     \big(\mathrm{d}_A \alpha_i\big)
     \Big[
+      \textstyle{\int}_{\widehat{S}}
       \big\{
         E^i
         ,\,
@@ -399,6 +562,7 @@ $$
     \Big]
     \\
     \;=\;
+    \textstyle{\int}_{\widehat{S}}
     \big(\mathrm{d}_A \alpha_i\big)
     \big[
       t^i
@@ -407,15 +571,17 @@ $$
     \big]
     \\
     \;=\;
+    \textstyle{\int}_{\widehat{S}}
     \Big[
       \big(\mathrm{d}_A \alpha\big)
       ,\,
       \beta
     \Big]
+    \,.
   \end{array}
-$$
+\]
 
-notably:
+The other key point is that the Poisson bracket of an electric with a magnetic flux density results in the *derivative* of the electric smearing function:
 
 $$
   \begin{array}{l}
@@ -454,7 +620,69 @@ $$
   \end{array}
 $$
 
-and hence
+(Carefully notice the signs: The first minus sign appears from the antisymmetry of the derivative of a [[delta-distribution]] and then this sign survives the [[integration by parts]] because the coefficient $\mathrm{d}_A \alpha(x)$ is a differential form of add degree.)
+
+Moreover
+
+$$
+  \begin{array}{l}
+    \Big\{
+      \omega^i
+      \wedge
+      E_i
+      ,\,
+     \tfrac{1}{2}[A, A]
+    \Big\}
+    \\
+    \;=\;
+    \omega^i_a
+    \epsilon^{a b c}
+    \tfrac{1}{2} 
+    \big\{
+      E^i_{b c}
+      ,\,
+      A^j_{b'} 
+      A^k_{c'} 
+    \big\}
+    [t_j, t_k]
+    \mathrm{d} x^{b'} 
+      \wedge 
+    \mathrm{d} x^{c'}
+    \\
+    \;=\;
+    \tfrac{1}{2}
+    \omega^i_a
+    \epsilon^{a b c}
+    \big(
+      k^{i j} 
+      \epsilon_{b c b'}
+      A^k_{c'} 
+      +
+      A^j_{b'} 
+      k^{i k} \epsilon_{b c c'}
+    \big)
+    [t_j, t_k]
+    \mathrm{d} x^{b'} 
+      \wedge 
+    \mathrm{d} x^{c'}
+    \\
+    \;=\;
+    \tfrac{1}{2}
+    \big(
+      A^k_{c'} 
+      \omega^j_{b'}
+      +
+      A^j_{b'} 
+      \omega^k_{c'}
+    \big)
+    [t_j, t_k]
+    \mathrm{d} x^{b'} 
+      \wedge 
+    \mathrm{d} x^{c'}
+    \\
+    \;=\;
+  \end{array}
+$$
 
 $$
   \begin{array}{l}
