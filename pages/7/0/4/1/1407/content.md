@@ -402,6 +402,8 @@ Lecture notes:
 
 * Satoshi Nawata, Runkai Tao, Daisuke Yokoyama, *Fudan lectures on string theory* &lbrack;[arXiv:2208.05179](https://arxiv.org/abs/2208.05179)&rbrack;
 
+* C. Maccaferri, F. Marino, B. Valsesia, *Introduction to String Theory* &lbrack;[arXiv:2311.18111](https://arxiv.org/abs/2311.18111)&rbrack;
+
 
 A large body of references is organized at the
 
