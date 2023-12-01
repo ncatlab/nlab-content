@@ -381,6 +381,9 @@ Further examples are discussed in
 
 * {#Garner2018} [[Richard Garner]], *An embedding theorem for tangent categories*, Advances in Mathematics, 2018, [doi](https://www.sciencedirect.com/science/article/pii/S0001870817303122), [arxiv](https://arxiv.org/abs/1704.08386)
 
+On enrichment in more general structures:
+
+* [[Christian Lair]], _Systèmes tensoriels et systèmes enrichis_, Diagrammes 43 (2000): 3-48.
 
 
 [[!redirects enriched categories]]
