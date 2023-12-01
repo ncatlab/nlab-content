@@ -241,11 +241,14 @@ Every [[invariant polynomial]] $\langle - \rangle \in W(\mathfrak{g})$ on a Lie 
 For instance for $\mathfrak{g}$ a [[semisimple Lie algebra]], there  is the [[Killing form]] $\langle - ,- \rangle$. The corresponding 3-cocycle is
 
 $$
-  \mu = \langle -, [-,-] \rangle : CE(\mathfrak{g})
+  \mu \;\coloneqq\; 
+  \big\langle -, [-,-] \big\rangle 
+  \;\in\; 
+  CE(\mathfrak{g})
   \,,
 $$
 
-that is: the function that sends three Lie algebra elements $x, y, z$ to the number  $\mu(x,y,z) = \langle x, [y,z]\rangle$.
+that is: the function that sends a [[tripe]] of Lie algebra elements $x, y, z$ to the number  $\mu(x,y,z) = \big\langle x, [y,z]\big\rangle$.
 
 On the [[super Poincare Lie algebra]] in dimension (10,1) there is a 4-cocycle
 
