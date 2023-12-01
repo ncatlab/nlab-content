@@ -159,9 +159,12 @@ An analogous discussion for [[derived categories]] of coherent sheaves is in
 
 See also:
 
-* [[Duiliu-Emanuel Diaconescu]], Mauro Porta, Francesco Sala, _McKay correspondence, cohomological Hall algebras and categorification_ ([arXiv:2004.13685](https://arxiv.org/abs/2004.13685))
+* [[Duiliu-Emanuel Diaconescu]], Mauro Porta, Francesco Sala, _McKay correspondence, cohomological Hall algebras and categorification_, Represent. Theory **27** (2023) 933-972 &lbrack;[arXiv:2004.13685](https://arxiv.org/abs/2004.13685), [doi:10.1090/ert/649](https://doi.org/10.1090/ert/649)&rbrack;
+
 * J. Denef, F. Loeser, _Motivic integration, quotient singularities and the McKay correspondence_, Compositio Math. 131 (2002) 267--290
-* V. Batyrev, D. Dais, _Strong McKay correspondence, string-theoretic Hodge numbers and mirror symmetry_, Topology __35__ (1996) 901--929 alg-geom/9410001
+
+* V. Batyrev, D. Dais, _Strong McKay correspondence, string-
+theoretic Hodge numbers and mirror symmetry_, Topology __35__ (1996) 901--929 alg-geom/9410001
 
 
 Introductions and surveys include
