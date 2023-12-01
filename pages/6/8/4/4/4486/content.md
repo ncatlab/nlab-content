@@ -411,6 +411,8 @@ from the [[real line]] to itself, with $f(0) \coloneqq 0$.  Away from $0$, $f_k$
 *  If $k = 2 n$ is even, then $f_k$ is differentiable $n$ times but not continuously differentiable $n$ times;
 *  If $k = 2 n + 1$ is odd, then $f_k$ is continuously differentiable $n$ times but not differentiable $n + 1$ times.
 
+(For a fractional value of $k$, $f_k$ has the same behaviour as $f_{\lceil{k}\rceil}$.)
+
 Similarly, in two dimensions we can consider functions such as
 $$ f(x,y) = (x^2+y^2)\sin(\frac{1}{\sqrt{x^2+y^2}}).$$
 together with $f(0,0) = 0$.  This is smooth away from $0$, and once differentiable at $0$, even in the strong sense that it is well-approximated by a linear function near $0$.  However, its derivative is not continuous at $0$.  In particular, this shows that the converse of the theorem "if the partial derivatives exist and are continuous at a point, then the function is differentiable there" fails, even in higher dimensions.
