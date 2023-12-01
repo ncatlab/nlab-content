@@ -180,32 +180,29 @@ The use of Lagrangian correspondences for encoding [[symplectomorphisms]] was fu
 
 and on p. 5 and then section 3
 
-* [[Alan Weinstein]], _Lectures on Symplectic Manifolds_, volume 29 of CBMS Regional Conf. Series in Math. Amer. Math. Soc., 1983. third 
-printing.
-  {#Weinstein83}
+*  {#Weinstein83} [[Alan Weinstein]], _Lectures on Symplectic Manifolds_, volume 29 of CBMS Regional Conf. Series in Math. Amer. Math. Soc., 1983. third  printing.
 
-The category of symplectic manifolds and Lagrangian correspondences is defined in
+Review of the way Lagrangian correspondences encode [[symplectomorphisms]] induced by Hamiltonian time evolution in the context of [[field theory]] and generalization to the broader context of [[BV-BRST formalism]]:
 
-* [[Katrin Wehrheim]], [[Chris T. Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [doi](https://doi.org/10.4171/qt/4), [arXiv](https://arxiv.org/abs/0708.2851).
+* {#CattaneoMnevReshetikhin12} [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
+ 
 
-The [[(∞,1)-category]] of symplectic manifolds and Lagrangian correspondences is defined in
+More on the construction of [[symplectic category|symplectic categories]] with Lagrangian correspondences as morphisms:
 
-* [[Damien Calaque]], _Three lectures on derived symplectic geometry and topological field theories_, Indagationes Mathematicae 25:5 (2014) 926–947. [doi](https://doi.org/10.1016/j.indag.2014.07.005).
+* [[Katrin Wehrheim]], [[Chris T. Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, Quantum Topology **1** 2 (2010) 129-170 &lbrack;[doi:10.4171/qt/4](https://doi.org/10.4171/qt/4), [arXiv:0708.2851](https://arxiv.org/abs/0708.2851)&rbrack;
 
-* [[Rune Haugseng]], _Iterated spans and classical topological field theories_, Mathematische Zeitschrift 289:3 (2018), 1427–1488.  [arXiv](https://arxiv.org/abs/1409.0837), [doi](https://doi.org/10.1007/s00209-017-2005-x).
+and on its [[(∞,1)-category]]-theoretic version: 
+
+* [[Damien Calaque]], _Three lectures on derived symplectic geometry and topological field theories_, Indagationes Mathematicae **25** 5 (2014) 926–947 &lbrack;[doi:10.1016/j.indag.2014.07.005](https://doi.org/10.1016/j.indag.2014.07.005)&rbrack;
+
+* [[Rune Haugseng]], _Iterated spans and classical topological field theories_, Mathematische Zeitschrift **289** 3 (2018) 1427–1488 &lbrack;[arXiv](https://arxiv.org/abs/1409.0837), [doi:10.1007/s00209-017-2005-x](https://doi.org/10.1007/s00209-017-2005-x)&rbrack;
+
+See also:
+
+* [[Katrin Wehrheim]], [[Chris Woodward]], _Floer Cohomology and Geometric Composition of Lagrangian Correspondences_ &lbrack;[arXiv:0905.1368](http://arxiv.org/abs/0905.1368)&rbrack;
 
 
-
-
-Further developments include for instance
-
-* [[Katrin Wehrheim]], [[Chris Woodward]], _Floer Cohomology and Geometric Composition of Lagrangian Correspondences_ ([arXiv:0905.1368](http://arxiv.org/abs/0905.1368))
-
-
-A review of the way Lagrangian correspondences encode symplectomorphisms induced by Hamiltonian time evolution in the context of [[field theory]] and generalization to the broader context of [[BV-BRST formalism]] is in
-
-* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
- {#CattaneoMnevReshetikhin12}
+ 
 
  
 [[!redirects Lagrangian correspondences]]
