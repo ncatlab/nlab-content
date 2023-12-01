@@ -7,7 +7,7 @@ __Kumar S. Gupta__ is a theoretical physicist from Kolkatta, India. His main int
 
 On [[renormalization]] in [[quantum mechanics]]:
 
-* [[Kumar S. Gupta]], S. G. Rajeev, _Renormalization in quantum mechanics_, Phys. Rev. D **48** (1993) 5940 &lbrack;[doi:10.1103/PhysRevD.48.5940](https://doi.org/10.1103/PhysRevD.48.5940)&rbrack;
+* [[Kumar S. Gupta]], [[Sarada G. Rajeev]], _Renormalization in quantum mechanics_, Phys. Rev. D **48** (1993) 5940 &lbrack;[doi:10.1103/PhysRevD.48.5940](https://doi.org/10.1103/PhysRevD.48.5940)&rbrack;
 
 On [[quasinormal modes]] of [[Schwarzschild black holes]]
 
