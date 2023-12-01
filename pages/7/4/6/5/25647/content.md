@@ -6,6 +6,7 @@ Do not include recent references that are likely still to appear. If the author 
 
 |Title|Author|Cited in|Likely appeared as|URL/Comments|
 |-----|------|--------|----------------------|------------|
+|*Produits tensoriels d'esquisses*|[[Christian Lair]]|*Categories of sketched structures*, [[Andrée Bastiani]] and [[Charles Ehresmann]] (1972)| -- | On the tensor product of [[sketches]]|
 |*Relative functorial semantics, II: Beck's Theorem*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
 |*Extracts from the Archives of Categorical Folklore, I: Pro-categories*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
 |*Essentially algebraic structures in the enriched context, II*|[[Max Kelly]]|*A Presentation of Topoi as Algebraic relative to Categories of Graphs*, [[Eduardo Dubuc]] and [[Max Kelly]] (1983)| -- | A sequel to *Structures defined by finite limits in the enriched context, I* by [[Max Kelly]] (1982)|
