@@ -184,6 +184,18 @@ and on p. 5 and then section 3
 printing.
   {#Weinstein83}
 
+The category of symplectic manifolds and Lagrangian correspondences is defined in
+
+* [[Katrin Wehrheim]], [[Chris T. Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [doi](https://doi.org/10.4171/qt/4), [arXiv](https://arxiv.org/abs/0708.2851).
+
+The [[(∞,1)-category]] of symplectic manifolds and Lagrangian correspondences is defined in
+
+* [[Damien Calaque]], _Three lectures on derived symplectic geometry and topological field theories_, Indagationes Mathematicae 25:5 (2014) 926–947. [doi](https://doi.org/10.1016/j.indag.2014.07.005).
+
+* [[Rune Haugseng]], _Iterated spans and classical topological field theories_, Mathematische Zeitschrift 289:3 (2018), 1427–1488.  [arXiv](https://arxiv.org/abs/1409.0837), [doi](https://doi.org/10.1007/s00209-017-2005-x).
+
+
+
 
 Further developments include for instance
 
