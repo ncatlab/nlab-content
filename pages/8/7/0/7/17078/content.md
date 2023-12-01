@@ -1,4 +1,3 @@
-[[!redirects Kyle Ferendo]]
 [[!redirects Kaya Ferendo]]
 I'm a visiting assistant professor at UC Riverside. Before that, I was a graduate student at Brown University under [[Tom Goodwillie]]. Before that, I was an undergraduate at Amherst College, where I studied under [[Michael Ching]]. [Here](https://kayaarro.site) is my webpage.
 
