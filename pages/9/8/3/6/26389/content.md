@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,7 +28,8 @@ A subtlety here is that the usual [[phase space]]-methods for [[Lagrangian field
 
 In plain [[electromagnetism]], the [[canonical momentum]] of the [[gauge potential]] $A$ is proportional (by constants to be ignored in the following) to the electric flux density $\star F$ (where $F$ is the [[Faraday tensor]] [[flux density]] and $\star$ is the [[Hodge star operator]] on the given [[spacetime]] [[pseudo-Riemannian manifold]]), which however means that the the Poisson bracket of the magnetic flux density $F \equiv \mathrm{d}_{dR} A$ with the electric flux density is a total derivative (cf. eg. [Blaschke & Gieres 2021 (5.5)](Yang-Mills+theory#BlaschkeGieres21)), so that the bracket of the integrated fluxes $\Phi_E$ and $\Phi_B$ through given [[orientable manifold|orientable]] [[closed manifold|closed]] surfaces $S_E$ and $S_B$, respectively, actually vanishes (cf. [FMS07b (3.6)](#FreedMooreSegal07b) and Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below):
 
-$$
+\[
+  \label{CommutingAbelianFluxes}
   \big\{
     \Phi_E
     ,\,
@@ -42,11 +44,11 @@ $$
   \;=\;
   0
   \,.
-$$
+\]
 
 The thrust of [FMS 07a](#FreedMooreSegal07a), [07b](#FreedMooreSegal07b) is the claim that this bracket becomes non-vanishing if torsion-components of the fluxes (through their enhancement to [[ordinary differential cohomology]]) are retained, but it seems that this is ultimately by definition ([FMS07a, Def. 1.29](#FreedMooreSegal07a); [FMS07b (3.28)](#FreedMooreSegal07b)) more than by derivation from first principles.
 
-On the other hand, for [[non-abelian group|non-abelian]] [[gauge group]], a careful analysis of the (somewhat subtle) Poisson brackets reveals ([Cattaneo & Perez 2017](#CattaneoPerez17)) that the electric fluxes -- understood as flux densities integrated against [[Lie algebra]] valued functions $\alpha$ -- have a non-trivial bracket among *themselves*:
+On the other hand, for [[non-abelian group|non-abelian]] [[gauge group]], a careful analysis of the (somewhat subtle) Poisson brackets reveals ([Cattaneo & Perez 2017](#CattaneoPerez17)) that the electric fluxes -- understood as flux densities integrated against [[Lie algebra]] valued functions $\alpha$ -- have a non-trivial bracket among *themselves* (Prop. \ref{PoissonBracketBetweenElectricFluxes}):
 
 $$
  \big\{
@@ -60,6 +62,7 @@ $$
 
 (where $[-,-]$ is the pointwise [[Lie bracket]]). This result has found a lot of attention (only) in the context of [[first-order formulations of gravity]].
 
+
 ## Details
  {#Details}
 
@@ -67,7 +70,7 @@ $$
 
 For 3+1 dimensional [[Yang-Mills theory]] with a [[semisimple Lie algebra|semisimple]] gauge Lie algebra $\mathfrak{g}$ -- such as [[su(n)|$\mathfrak{su}(n)$]] or [[so(n)|$\mathfrak{so}(n)$]] -- we discuss ([below](#ThePoissonBracketOfIntegratedFluxes)) the [[Poisson bracket]] of integrals (against [[Lie algebra]]-valued functions) of [[flux densities]] ([[curvature 2-forms]]) over [[oriented manifold|oriented]] [[closed manifold|closed]] [[surfaces]], following [Cattaneo & Perez 2017](#CattaneoPerez17). 
 
-The bracket of electric fluxes among themselves is equation (7) in [CP17](#CattaneoPerez17), and to warm-up we spell out the relevant computation in detail (Prop. \ref{PoissonBracketBetweenElectricFluxes} below). Then we similarly compute the bracket between electric and magnetic fluxes, which takes a tad more work, showing that it vanishes identically (Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below).
+The bracket of electric fluxes among themselves is equation (7) in [CP17](#CattaneoPerez17), and to warm-up we spell out the relevant computation in detail (Prop. \ref{PoissonBracketBetweenElectricFluxes} below). Then we similarly compute the bracket between electric and magnetic fluxes, which takes a tad more work (Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below).
 
 The computations are standard and straightforward, but since, as usual, the results depend crucially on delicate signs, we go into full detail.
 
@@ -471,7 +474,7 @@ $$
   \int_S \langle \alpha,  E \rangle 
   \,,
   \\
-  \Phi_B^\alpha
+  \Phi_B^\beta
   \;\overset{?}{\equiv}\;
   \int_S \langle \alpha, F_A \rangle
   \,,
@@ -479,16 +482,20 @@ $$
   \;\;\;\;\;\;\;\;
   \text{for}
   \;\;
-  \alpha \in \Omega^0(S) \otimes \mathfrak{g}
+  \alpha, \beta 
+    \;\in\; 
+  \Omega^0(S) \otimes \mathfrak{g}
   \,;
 $$
 
 however, these expression are not actually observable, since they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables. 
 
-Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending into the "interior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$).
+Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending into the "interior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$):
 
-The actual flux-observables are then:
-
+\begin{proposition}
+**([CP17 (6)](#CattaneoPerez17))**
+Among well-defined flux-observables are 
+those of this form:
 \[
   \label{TheFluxObservables}
   \begin{array}{l}
@@ -502,7 +509,7 @@ The actual flux-observables are then:
   \big\rangle
   \,,
   \\
-  \Phi_B^\alpha
+  \Phi_B^\beta
   \;\equiv\;
   \int_{\widehat S}
   \big\langle
@@ -515,12 +522,13 @@ The actual flux-observables are then:
   \;\;\;\;
   \text{for}
   \;\;
-  \alpha 
+  \alpha, \beta
     \;\in\; 
   \Omega^0\big(\widehat S \big)_{cpt}
     \otimes \mathfrak{g}
   \,.
 \]
+\end{proposition}
 
 \linebreak
 
@@ -843,7 +851,7 @@ Using (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction), we compute as 
 
 \begin{proposition}
 \label{PoissonBracketBetweenElectricAndMagneticFluxes}
- The Poisson bracket (eq:ThePoissonBracketOnCanonicalCoordinates) of any electric flux observable with any magnetic flux observable (eq:TheFluxObservables) vanishes:
+ The Poisson bracket (eq:ThePoissonBracketOnCanonicalCoordinates) of an electric flux observable with a magnetic flux observable (eq:TheFluxObservables) is the magnetic flux observable smeared by the Lie bracket of the given smearing functions:
 $$
   \Big\{
     \Phi_E^\alpha
@@ -851,7 +859,7 @@ $$
     \Phi_B^\beta
   \Big\}
   \;=\;
-  0
+  \Phi_B^{[\alpha, \beta]}
   \,.
 $$
 \end{proposition}
@@ -933,61 +941,15 @@ We compute as follows:
     ,\,
     F_A
   \big\rangle
-  +
-  \textstyle{\int}
-  \big\langle  
-    \alpha
-    ,\,
-    \beta
-    ,\,
-    \underset{= 0}{
-      \underbrace{
-        \mathrm{d}_A F_A
-      }
-    }
-  \big\rangle
   \\
   \;=\;
   \textstyle{\int}
-  \big\langle  
-    \mathrm{d} \alpha
-    ,\,
-    \beta
-    ,\,
-    F_A
-  \big\rangle
-  +
-  \textstyle{\int}
-  \big\langle  
-    \alpha
-    ,\,
-    \mathrm{d}\beta
-    ,\,
-    F_A
-  \big\rangle
-  +
-  \textstyle{\int}
-  \big\langle  
-    \alpha
-    ,\,
-    \beta
-    ,\,
-    \mathrm{d} F_A
-  \big\rangle
-  \\
-  \;=\;
-  \textstyle{\int}
-  \mathrm{d}
   \big\langle
-    \alpha
-    ,\,
-    \beta
+    \mathrm{d}_A [\alpha, \beta]
     ,\,
     F_A
   \big\rangle
-  \\
-  \;=\;
-  0
+  \,.
   \end{array}
 \]
 Here we used, in order of appearance:
@@ -995,12 +957,6 @@ Here we used, in order of appearance:
 1. (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction) and (eq:TheBracketOfElectricFluxWithMagneticFluxDensity);
 
 1. (eq:CyclicInvarianceOfTrilinearPairing) and (eq:CurvatureFromCovariantDerivativeSquared)
-
-1. (eq:CyclicInvarianceOfTrilinearPairing) and (eq:BianchiIdentity)
-
-1. (eq:AdInvarianceOfTrilinearPairing)
-
-1. [[Stokes theorem|Stokes]].
 
 \end{proof}
 
