@@ -37,3 +37,6 @@ Textbook accounts:
 * Walter Pfeifer, _The Lie algebras $\mathfrak{su}(N)$_, Birkhäuser Verlag 2003 ([doi:10.1007/978-3-0348-8097-8](https://doi.org/10.1007/978-3-0348-8097-8))
 
 [[!redirects special unitary Lie algebras]]
+
+[[!redirects su(n)]]
+
