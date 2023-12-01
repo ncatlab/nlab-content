@@ -66,7 +66,6 @@ $$
 ## Details
  {#Details}
 
-> (This is fresh material. May still contain glitches.)
 
 For 3+1 dimensional [[Yang-Mills theory]] with a [[semisimple Lie algebra|semisimple]] gauge Lie algebra $\mathfrak{g}$ -- such as [[su(n)|$\mathfrak{su}(n)$]] or [[so(n)|$\mathfrak{so}(n)$]] -- we discuss ([below](#ThePoissonBracketOfIntegratedFluxes)) the [[Poisson bracket]] of integrals (against [[Lie algebra]]-valued functions) of [[flux densities]] ([[curvature 2-forms]]) over [[oriented manifold|oriented]] [[closed manifold|closed]] [[surfaces]], following [Cattaneo & Perez 2017](#CattaneoPerez17). 
 
