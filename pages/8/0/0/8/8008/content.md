@@ -124,11 +124,22 @@ see also
  
 
 
-For the special case of [[Poisson manifolds]] that are total spaces of [[Lie algebroids]], discussion is in
+On the special case of [[Poisson manifolds]] that are total spaces of [[Lie algebroids]]:
 
 * [[Klaas Landsman]], B. Ramazan, _Quantization of Poisson algebras associated to Lie algebroids_ ([arXiv:math-ph/0001005](http://arxiv.org/abs/math-ph/0001005))
 
 * [[Klaas Landsman]], _Strict deformation quantization of a particle in external gravitational and Yang-Mills fields_, Journal of Geometry and Physics __12__:2, p. 93-132 ([web](http://adsabs.harvard.edu/abs/1993JGP....12...93L))
+
+On [[continuous field of C-star algebras|continuous fields]] of [[Weyl algebras]] as [[continuous deformation quantizations]] of [[symplectic vector spaces]]:
+
+* [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Field-theoretic Weyl Quantization as a Strict and Continuous Deformation Quantization*, Annales Henri Poincaré **5** (2004) 327–346 &lbrack;[doi:10.1007/s00023-004-0171-y](https://doi.org/10.1007/s00023-004-0171-y)&rbrack;
+
+On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenberg groups]] as [[strict deformation quantizations]] of [[presymplectic manifold|pre-]][[symplectic vector spaces|symplectic]] [[topological vector spaces]] by [[continuous field of C-star algebras|continuous fields of]] [[Weyl algebras]]:
+
+* [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
+
+* [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
+
 
 [[!redirects C-star algebraic deformation quantizations]]
 
@@ -142,3 +153,6 @@ For the special case of [[Poisson manifolds]] that are total spaces of [[Lie alg
 
 [[!redirects strict algebraic deformation quantization]]
 [[!redirects strict algebraic deformation quantizations]]
+
+[[!redirects continuous deformation quantization]]
+[[!redirects continuous deformation quantizations]]
