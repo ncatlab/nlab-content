@@ -18,9 +18,9 @@
 
 ## Idea
 
-What are called _Weyl relations_ is the incarnation of [[canonical commutation relations]] under passing to [[exponentials]]. 
+What are called _Weyl relations_ is the incarnation of [[canonical commutation relations]] under passing to [[exponentials]], constituting the *[[Weyl algebra]]*. 
 
-For example if $a,a^\ast$ are two elements of an [[associative algebra]] with [[commutator]]
+For example if $a, a^\ast$ are two elements of an [[associative algebra]] with [[commutator]]
 
 $$
   [a,a^\ast] = \hbar
@@ -37,7 +37,7 @@ $$
   e^{\hbar z z^\ast} 
 $$
 
-for $z,z^\ast \in \mathbb{C}$
+for $z,z^\ast \in \mathbb{C}$.
 
 ## In the Wick algebra of free quantum fields
 
@@ -304,9 +304,19 @@ where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq
 
 (e.g. [Dütsch 18, exercise 2.3](#Duetsch18))
 
+## Related concepts
+
+* [[Weyl algebra]]
+
+* [[canonical commutation relations]]
+
+* [[Heisenberg algebra]]
+
 ## References
 
-* {#Duetsch18} [[Michael Dütsch]], exercise 2.3 in _[[From classical field theory to perturbative quantum field theory]]_, 2018
+> For more references see at *[[Weyl algebra]]*.
+
+* {#Duetsch18} [[Michael Dütsch]], exercise 2.3 in: _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 
