@@ -407,7 +407,9 @@ Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
 
 * [[Carl Eckart]], *Operator Calculus and the Solution of the Equations of Quantum Dynamics*, Phys. Rev. **28** 4  (1926) 711-726 &lbrack;[doi:10.1103/PhysRev.28.711](https://doi.org/10.1103/PhysRev.28.711)&rbrack;
 
-Introducing the tool of [[group theory]] to quantum physics:
+Introducing the tool of [[group theory]] to quantum physics (cf. *[[Gruppenpest]]*):
+
+* [[Hermann Weyl]], *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig, (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics* Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
 
 * {#Wigner31} [[Eugene P. Wigner]]: *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
 
