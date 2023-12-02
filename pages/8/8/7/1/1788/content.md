@@ -1,4 +1,67 @@
 
+[[central extension]]
+
+$$
+  1 
+    \to 
+  \mathbb{R}/\mathbb{Z}
+    \hookrightarrow 
+  \widehat{G} 
+    \twoheadrightarrow 
+  G
+    \to
+  1
+$$
+
+$$
+  (g, r) \cdot (g',r')
+  \;\equiv\;
+  \big(
+    g \cdot g', c + c' + \omega(r,r')
+  \big)
+$$
+
+in complex group algebra $\mathbb{C}(G)$:
+
+$$
+  U(g,0) \cdot U(\mathrm{e},r)= U(g,r)
+$$
+
+$$
+  U(g, 0) \cdot U(g', 0)
+  \;=\;
+  U\big(g g', \omega(g,g')\big)
+  \;=\;
+  U(g g', 0) U\big(\mathrm{e}, \omega(g,g')\big) 
+$$
+
+quotient by the [[augmentation ideal]] of the group algebra of the central group
+
+$$
+  \begin{array}{ccc}
+    \mathbb{C}\big(\mathbb{R}/\mathbb{Z}\big)
+    &\longrightarrow&
+    \mathbb{C}
+    \\
+    U\big(
+     \mathrm{e}, 
+     r  
+    \big)
+    &\mapsto&
+    exp(2 \pi \mathrm{i} r )
+  \end{array}
+$$
+
+In this quotient we have
+$$
+  U(\mathrm{e}, r)
+  \;=\;
+  exp(2 \pi \mathrm{i} r ) U(\mathrm{e}, 0)
+  \;=\;
+  exp(2 \pi \mathrm{i} r )
+$$
+
+
 charge quantization of the electric field such that there is *no* constraint on the electric field density are of the form $B^2 \mathbb{Q} \times A$ for $A$ any rationally trivial space, such as $A = B K$ for $K$ any finite group. In forming the product with the magnetic charge quantization via $B^2 \mathbb{Z}$, there is then also the freedom to have a semidirect product from an action of $K$ on $U(1)$: $B\big(U(1) \rtimes K\big)$. In this case the magnetic fluxes commute among each other while the electric fluxes need not commute among each other and may have non-trivial action on the magentic fluxes -- just as expected from phase space analysis.
 
 group algebra quantization:
