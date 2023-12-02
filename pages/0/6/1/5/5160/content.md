@@ -28,6 +28,10 @@ On [[general relativity]]
 
 On [[group theory]] and [[representation theory]] in application to [[quantum mechanics]] (cf. "[[Gruppenpest]]"):
 
+* [[Hermann Weyl]], *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+
+  > (and introducing what came to be called the *[[Weyl algebra]]*)
+
 * [[Hermann Weyl]], *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig, (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics* Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
 
 
