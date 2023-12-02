@@ -91,6 +91,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 ## Related concepts
 
+* [[Gauss law]]
+
 * [[D=5 Yang-Mills theory]]
 
 * [[massive Yang-Mills theory]]
@@ -232,9 +234,9 @@ See also
 ### Phase space and canonical quantization
  {#ReferencesPhaseSpaceAndCanonicalQuantization}
 
-On the [[phase space]], [[Poisson brackets]] (and partly on their [[quantization]]) of Yang-Mills theory
+On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-Mills theory:
 
-* {#FriedmanPapastamatiou83} John L. Friedman, Nicholas J. Papastamatiou, *On the canonical quantization of Yang-Mills theories*, Nuclear Physics B **219** 1 (1983) 125-142 \[<a href="https://doi.org/10.1016/0550-3213(83)90431-5">doi:10.1016/0550-3213(83)90431-5</a>\]
+* {#FriedmanPapastamatiou83} [[John L. Friedman]], Nicholas J. Papastamatiou, *On the canonical quantization of Yang-Mills theories*, Nuclear Physics B **219** 1 (1983) 125-142 \[<a href="https://doi.org/10.1016/0550-3213(83)90431-5">doi:10.1016/0550-3213(83)90431-5</a>\]
 
 * A. Bassetto, I. Lazzizzera, R. Soldati, *Yang-Mills theories in space-like axial and planar gauges*, Nuclear Physics B **236** 2 (1984) 319-335 \[<a href="https://doi.org/10.1016/0550-3213(84)90538-8">doi:10.1016/0550-3213(84)90538-8</a>&rbrack;
 
