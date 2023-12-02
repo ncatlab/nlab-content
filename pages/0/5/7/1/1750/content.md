@@ -130,6 +130,8 @@ This is a standard result, at least in the case $K=Cat$, and is apparently due t
 
 ## References
 
+* [[Ross Street]], _Fibrations and Yoneda's lemma in a 2-category_, Lecture Notes in Mathematics, Vol. 420, 1974, pp. 104–133. &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
+
 * [[Syméon Bozapalides]]. _Fibrations et faisceaux dans une 2-catégorie_, Archivum Mathematicum 12.4 (1976) 199-208. &lbrack;[10338.dmlcz/106944](https://dml.cz/handle/10338.dmlcz/106944), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/106944/ArchMath_012-1976-4_4.pdf)&rbrack;
 
 * [[Ross Street]], _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
