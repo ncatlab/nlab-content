@@ -401,3 +401,9 @@ For a framework to compare different notions of algebraic theory see
 
 [[!redirects finitary algebraic theory]]
 [[!redirects finitary algebraic theories]]
+
+[[!redirects equational theory]]
+[[!redirects equational theories]]
+
+
+
