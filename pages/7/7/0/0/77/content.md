@@ -186,6 +186,8 @@ See
 
 * **Lie algebra**
 
+  * [[abelian Lie algebra|abelian]], [[semisimple Lie algebra|semisimple]], [[reductive Lie algebra|reductive]]
+
   * [[metric Lie algebra]]
 
   * [[universal enveloping algebra]], [[Cartan subalgebra]]
