@@ -37,3 +37,7 @@ In [[C* algebraic deformation quantization]] continuous fields of $C^\ast$-algeb
 * [[Marius Dadarlat]], _Continuous fields of $C^\ast$-algebras over finite dimensional spaces_ ([arXiv:math/0611405](http://arxiv.org/abs/math/0611405))
 
 [[!redirects continuous fields of C*-algebras]]
+
+[[!redirects continuous field of C-star algebras]]
+[[!redirects continuous fields of C-star algebras]]
+
