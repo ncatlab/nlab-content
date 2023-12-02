@@ -389,6 +389,10 @@ See also
 
 * L. Feh&#233;r, L. O'Raifeartaigh, P. Ruelle, I. Tsutsui, A. Wipf, _On Hamiltonian reductions of the Wess-Zumino-Novikov-Witten theories_, Phys. Rep. __222__ (1992), no. 1, 64 pp. [MR93i:81225](http://www.ams.org/mathscinet-getitem?mr=1192998), <a href="http://dx.doi.org/10.1016/0370-1573(92)90026-V">doi</a>
 
+* [[Matthias Blau]], [[George Thompson]], *Equivariant Kähler Geometry and Localization in the $G/G$ Model*, Nucl. Phys. B **439** (1995) 367-394 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00058-Z">doi:10.1016/0550-3213(95)00058-Z</a>, [arXiv:hep-th/9407042](https://arxiv.org/abs/hep-th/9407042)&rbrack;
+
+  > ([[supersymmetry|supersymmetric]] and using [[group algebra]])
+
 * [[Krzysztof Gawedzki]], Rafal Suszek, [[Konrad Waldorf]], _Global gauge anomalies in two-dimensional bosonic sigma models_ ([arXiv:1003.4154](http://arxiv.org/abs/1003.4154))
 
 * Paul de Fromont, [[Krzysztof Gawędzki]], Cl&#233;ment Tauber, _Global gauge anomalies in coset models of conformal field theory_ ([arXiv:1301.2517](http://arxiv.org/abs/1301.2517))
