@@ -72,6 +72,8 @@ $$
 which are composed horizontally in the obvious way.
 =--
 
+(Assuming the existence and preservations of coproducts are unnecessary simply to get a double category, without monoidal structure.)
+
 A **structured cospan** is then a ($1$-)morphism in such a category, that is, a cospan in $\mathbf X$ with the additional data of the functor $L$ and the two preimages of the feet.
 
 ## Examples
