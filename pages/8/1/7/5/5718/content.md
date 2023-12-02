@@ -204,7 +204,7 @@ for the [[stable (∞,1)-category]] of D-modules.
 
 =--
 
-The **Jet algebra** functor is the [[left adjoint]] to the [[forgetful functor]] from [[associative algebra|commutative algebra]]s over $\mathcal{D}(X)$ to those over the [[structure sheaf]] $\mathcal{O}(X)$
+The **Jet algebra** functor is the [[left adjoint]] to the [[forgetful functor]] from [[associative algebra|commutative algebras]] over $\mathcal{D}(X)$ to those over the [[structure sheaf]] $\mathcal{O}(X)$
 
 $$
   (Jet \dashv F)
@@ -218,7 +218,7 @@ $$
 
 ## Application 
 
-Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. Their [[variational calculus]] is governed by [[Euler-Lagrange equation]]s.
+Typical [[Lagrangian|Lagrangians]] in [[quantum field theory]] are defined on jet bundles. Their [[variational calculus]] is governed by [[Euler-Lagrange equation|Euler-Lagrange equations]].
 
 ## Related concepts
 
@@ -324,7 +324,7 @@ In the context of algebraic geometry, the abstract characterization of jet bundl
 * {#Lurie} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 
-The explicit description in terms of formal duals of [[commutative monoids]] in [[D-module]]s is in
+The explicit description in terms of formal duals of [[commutative monoids]] in [[D-module|D-modules]] is in
 
 * {#BeilinsonDrinfeld} [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
  
