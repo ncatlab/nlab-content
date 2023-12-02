@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -66,10 +65,12 @@ $$
 ## Details
  {#Details}
 
+Consider a [[metric Lie algebra]] $\mathfrak{g}$ -- such as [[line Lie algebra|$\mathfrak{u}(1)$]] or  [[su(n)|$\mathfrak{su}(n)$]], [[so(n)|$\mathfrak{so}(n)$]] via their [[Killing forms]], or any [[direct sum]] of these. 
 
-For 3+1 dimensional [[Yang-Mills theory]] with a [[semisimple Lie algebra|semisimple]] gauge Lie algebra $\mathfrak{g}$ -- such as [[su(n)|$\mathfrak{su}(n)$]] or [[so(n)|$\mathfrak{so}(n)$]] -- we discuss ([below](#ThePoissonBracketOfIntegratedFluxes)) the [[Poisson bracket]] of integrals (against [[Lie algebra]]-valued functions) of [[flux densities]] ([[curvature 2-forms]]) over [[oriented manifold|oriented]] [[closed manifold|closed]] [[surfaces]], following [Cattaneo & Perez 2017](#CattaneoPerez17). 
+For 3+1 dimensional [[Yang-Mills theory]] with [[gauge group|gauge]] Lie algebra $\mathfrak{g}$, we discuss ([below](#ThePoissonBracketOfIntegratedFluxes)) the [[Poisson bracket]] of integrals (against [[Lie algebra]]-valued functions) of [[flux densities]] ([[curvature 2-forms]]) over [[oriented manifold|oriented]] [[closed manifold|closed]] [[surfaces]], following [Cattaneo & Perez 2017](#CattaneoPerez17) (where this is discussed for the special case $\mathfrak{g} =$ [[su(2)|$\mathfrak{su}(2)$]], cf. Ex. \ref{TheLieAlgebrasu2}). 
 
-The bracket of electric fluxes among themselves is equation (7) in [CP17](#CattaneoPerez17), and to warm-up we spell out the relevant computation in detail (Prop. \ref{PoissonBracketBetweenElectricFluxes} below). Then we similarly compute the bracket between electric and magnetic fluxes, which takes a tad more work (Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below).
+The Poisson bracket of electric fluxes among themselves is equation (7) in [CP17](#CattaneoPerez17), and to warm-up we spell out the relevant computation in detail (Prop. \ref{PoissonBracketBetweenElectricFluxes} below, which also provides a rigorous proof of the abelian case (eq:CommutingAbelianFluxes)). 
+Then we similarly compute the bracket between electric and magnetic fluxes (Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below, which seems not to discussed elsewhere in the literature).
 
 The computations are standard and straightforward, but since, as usual, the results depend crucially on delicate signs, we go into full detail.
 
@@ -111,7 +112,9 @@ $$
   \,.
 $$
 
-The following discussion is all about [[Lie algebra-valued differential form|$\mathfrak{g}$-valued differential forms]], notably 1-forms
+The following discussion is all about [[Lie algebra-valued differential form|$\mathfrak{g}$-valued differential forms]], being elements of the [[tensor product]] $\Omega^\bullet_{dR} \otimes \mathfrak{g}$ of the [[de Rham algebra]] on a given [[smooth manifold]] with the given [[Lie algebra]].
+
+The primary example are $\mathfrak{g}$-valued 1-forms
 
 \[
   \label{GaugePotential}
@@ -123,9 +126,44 @@ The following discussion is all about [[Lie algebra-valued differential form|$\m
   \,,
 \]
 
-which are going to represent the [[gauge potential]].
+which are going to represent the (local) [[gauge potential]] of $\mathfrak{g}$-[[Yang-Mills theory]].
 
-In writing (Lie- or Poisson-)brackets of such [[Lie algebra-valued differential form|$\mathfrak{g}$-valued differential forms]], we mean to (1.) take the [[wedge product]] of the bare [[differential forms]] *in the given order* and (2.) apply the bracket to the [[coefficients]], eg.:
+In writing (Lie- or Poisson-)brackets of such [[Lie algebra-valued differential form|$\mathfrak{g}$-valued differential forms]], we mean to (1.) take the [[wedge product]] of the bare [[differential forms]] *in the given order* and (2.) apply the bracket to the [[coefficients]], 
+
+\[
+  \label{LieBracketOnLieAlgebraValuedDifferentialForms}
+  \omega, \gamma \in \Omega^\bullet_{dR} \otimes \mathfrak{g}
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  [ \omega , \gamma ]
+  \,\coloneqq\,
+  \omega^i \wedge \gamma^j 
+  \otimes
+  [t_i, t_j]
+  \,.
+\]
+
+This bracket makes [[Lie algebra-valued differential forms|$\mathfrak{g}$-valued forms]] into a [[super Lie algebra]]:
+
+\[
+  \label{GradedSkewSymemtryOfLieBracketOnLieAlgValuedForms}
+  \begin{array}{l}
+    \omega \,\in\, \Omega_{dR}^p \otimes \mathfrak{g}
+    \\
+    \omega' \,\in\, \Omega_{dR}^{p'} \otimes \mathfrak{g}
+  \end{array}
+  \;\;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;\;
+  \big[ \omega , \omega' \big]
+  \;=\;
+  -(-1)^{p p'}
+  \big[ \omega' , \omega \big]
+  \,.
+\]
+
+For example, the Lie bracket of the [[gauge potential]] 1-form  (eq:GaugePotential) with itself is:
 
 \[
   \label{BracketOfGaugePotentialWithItself}
@@ -179,7 +217,7 @@ For any $X \in \Omega^n_{dR} \otimes \mathfrak{g}$ this means for instance, with
   \,.
 \]
 
-Given $A$ as above (eq:GaugePotential), the *[[covariant derivative]]* is the sum of the [[de Rham differential]] with the operation $[A,-]$:
+Given a [[gauge potential]] $A$ as above (eq:GaugePotential), the *[[covariant derivative]]* is the sum of the [[de Rham differential]] with the operation $[A,-]$ (eq:LieBracketOnLieAlgebraValuedDifferentialForms):
 
 \[
   \label{CovariantDerivative}
@@ -191,7 +229,36 @@ Given $A$ as above (eq:GaugePotential), the *[[covariant derivative]]* is the su
   \,.
 \]
 
-A key point is that applying the [[covariant derivative]] (eq:CovariantDerivative) twice is equal to applying the Lie bracket $[F_A, -]$ with the [[curvature 2-form]]
+Since the [[de Rham differential]] $\mathrm{d}$ is a degree=1 [[graded derivation]] on the [[de Rham algebra]] $\Omega^\bullet_{dR}$, the [[Jacobi identity]] (eq:JacobiIdentity) implies that the [[covariant derivative]] (eq:CovariantDerivative) is a degree=1 [[graded derivation]] on the [[Lie bracket]] (eq:LieBracketOnLieAlgebraValuedDifferentialForms) of [[Lie algebra-valued differential forms]]:
+
+\[
+  \label{CovariantDerivativeIsDerivationOfLieBracket}
+  \begin{array}{l}
+    \omega \,\in\, \Omega^p_{dR} \otimes \mathfrak{g}
+    \\
+    \gamma \,\in\, \Omega^\bullet_{dR} \otimes \mathfrak{g}
+  \end{array}
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  \mathrm{d}_A [ \omega, \gamma ]
+  \;=\;
+  \big[
+    \mathrm{d}_A \omega
+    ,\,
+    \gamma
+  \big]
+  +
+  (-1)^{p}
+  \big[
+    \omega 
+    ,\,
+    \mathrm{d}_A \gamma
+  \big]
+  \,.
+\]
+
+Another key point is that applying the [[covariant derivative]] (eq:CovariantDerivative) twice is equal to applying the Lie bracket $[F_A, -]$ with the [[curvature 2-form]]
 
 \[
   F_A 
@@ -200,7 +267,7 @@ A key point is that applying the [[covariant derivative]] (eq:CovariantDerivativ
   \,,
 \]
 
-because
+representing the [[magnetic charge|magnetic]] [[flux density]] carried by the [[gauge field]] $A$, because:
 
 \[
   \label{CurvatureFromCovariantDerivativeSquared}
@@ -276,7 +343,7 @@ Similarly, from applying the covariant derivative three times follows the [[Bian
 
 \linebreak
 
-Our assumption that $\mathfrak{g}$ is a [[semisimple Lie algebra]] implies that it carries an  [[invariant polynomial]] (a [[Killing form]], in the [[compact Lie group|compact]] case), namely a [[bilinear map]]
+Our assumption that $\mathfrak{g}$ is a [[metric Lie algebra]] means that it is equipped with an binary [[invariant polynomial]], namely a [[bilinear map]]
 
 $$
   \langle -,-\rangle
@@ -315,6 +382,28 @@ and [[adjoint action|ad-]][[invariant]], in that
     ,\,
     [t,-]
   \big\rangle
+  \;=\;
+  0
+  \,.
+\]
+
+For example:
+
+\[
+  \label{AdInvarianceOfPairingOnLieAlgValuedForms}
+  X, Y 
+   \,\in\,
+  \Omega^0 \otimes \mathfrak{g}
+  \;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;
+  \langle
+    [A, X] ,\, Y 
+  \rangle
+  +
+  \langle
+    X ,\, [A , Y ]
+  \rangle
   \;=\;
   0
   \,.
@@ -385,39 +474,70 @@ is also ad-invariant:
   \end{array}
 \]
 
-(where we used first the Jacobi identity (eq:JacobiIdentity) and then the invariance (eq:AdInvarianceOfInvariantPolynomial) of the bilinear pairing).
+(where we used first the Jacobi identity (eq:JacobiIdentity) and then the invariance (eq:AdInvarianceOfInvariantPolynomial) of the bilinear pairing) 
 
-Moreover, for a [[semisimple Lie algebra]]
-the trilinear pairing is also skew-symmetric (namely is a [[Lie algebra cocycle]]) and hence in particular invariant under [[cyclic permutation]] of its arguments:
+and is invariant under [[cyclic permutation]] of its arguments:
 
 \[
   \label{CyclicInvarianceOfTrilinearPairing}
-  \big\langle
-    t_i , t_j , t_k
-  \big\rangle
-  \;=\;
-  \big\langle
-    t_k , t_i , t_j
-  \big\rangle
-  \,.
+  \begin{array}{l}
+    \langle 
+      t_i, t_j , t_k 
+    \rangle  
+    \\
+    \;\equiv\;
+    \phantom{-\;}
+    \big\langle 
+      t_i, [t_j , t_k] 
+    \big\rangle  
+    \\
+    \;=\;
+    -
+    \big\langle 
+       [t_j ,  t_i ],  t_k
+    \big\rangle  
+    \\
+    \;=\;
+    \phantom{-\;}
+    \big\langle 
+       [t_i,  t_j ],  t_k
+    \big\rangle  
+    \\
+    \;=\;
+    \phantom{-\;}
+    \big\langle 
+      t_k, [t_i,  t_j ]
+    \big\rangle  
+    \\
+    \;\equiv\;
+    \phantom{-\;}
+    \langle 
+      t_k, t_i, t_j
+    \rangle  
+    \,,
+  \end{array}
 \]
+
+(where we used ad-invariance (eq:AdInvarianceOfInvariantPolynomial), and symmetry (eq:SymmetryOfInvariantPolynomial) of the pairing and skew-symmetry of the Lie bracket).
 
 \linebreak
 
 \begin{example}
+\label{TheLieAlgebrasu2}
 In the case 
-$\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]] and with linear basis taken to be the [[Pauli matrices]] we have:
+$\mathfrak{g} = $ [[su(2)|$\mathfrak{su}(2)$]] equipped with its [[Killing form]] and with linear basis taken to be the [[Pauli matrices]], we have:
 
 * $f_{i j k} = \epsilon_{i j k}$ the [[Levi-Civita symbol]],
 
 * $k_{i j} = \delta_{i j}$ the [[Kronecker delta]].
 
+This is the case considered in [Cattaneo & Perez 2017](#CattaneoPerez17).
 \end{example}
 
 \linebreak
 
 
-### The Poisson bracket of canonical variables
+### The phase space of Yang-Mills theory
  {#ThePoissonBracketOfCanonicalVariables}
 
 We consider now such [[Lie algebra-valued differential forms]] on a given [[smooth manifold|smooth 3-manifold]] $X$, thought of as a chosen [[Cauchy surface]] in a 3+1-dimensional [[Minkowski spacetime]].
@@ -453,20 +573,35 @@ we declare the [[distribution|distributional]] [[Poisson bracket]]:
   \end{array}
 \]
 
-This is the [[Poisson bracket]] for [[Yang-Mills theory]] (see the references [there](Yang-Mills+theory#ReferencesPhaseSpaceAndCanonicalQuantization)), with the [[gauge potential]] $A$ serving as the [[canonical coordinate]] and the [[electric field]] $E$ its [[canonical momentum]].
+together with the [[first class constraint]] that the [[covariant derivative]] (eq:CovariantDerivative) of $E$ vanishes:
+
+\[
+  \label{GaussLawConstraint}
+  \mathrm{d}_A E \;\approx\; 0
+  \,.
+\]
+
+This is the [[phase space]] of [[Yang-Mills theory]] (see the references [there](Yang-Mills+theory#ReferencesPhaseSpaceAndCanonicalQuantization)), with:
+
+* the [[canonical coordinate]] being the [[gauge potential]] $A$,
+
+* its [[canonical momentum]] being the [[electric field]] [[flux density]] $E$,
+
+* the [[constrained mechanics|constraint]] (eq:GaussLawConstraint) expressing the [[Gauss law]].
 
 \linebreak
 
-We are interested in the observables expressing electromagnetic flux through [[closed manifold|closed]] [[oriented manifold|oriented]] [[surface]] [[submanifolds]]
+On this phase space, we are concerned with [[observables]] expressing electromagnetic flux through [[closed manifold|closed]] [[oriented manifold|oriented]] [[surface]] [[submanifolds]]
 
 $$
   S \hookrightarrow X
   \,.
 $$ 
 
-Na&iuml;vely, these are the surface integrals
+Taken at face value, these observables are the surface [[integration of differential forms|integrals]] of the [[flux densities]] over $S$:
 
-$$
+\[
+  \label{NaiveFluxObservables}
   \begin{array}{c}
   \Phi_E^\alpha
   \;\overset{?}{\equiv}\;
@@ -484,17 +619,19 @@ $$
   \alpha, \beta 
     \;\in\; 
   \Omega^0(S) \otimes \mathfrak{g}
-  \,;
-$$
+  \,.
+\]
 
-however, these expression are not actually observable, since they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables. 
+However, these expression need to be corrected to become actual observables, since as give they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables in Prop. \ref{TheProperFluxObservables} below. 
 
-Namely, using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending into the "interior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$):
+Using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending into the "interior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$):
 
 \begin{proposition}
+\label{TheProperFluxObservables}
 **([CP17 (6)](#CattaneoPerez17))**
-Among well-defined flux-observables are 
-those of this form:
+Well-defined flux-observables equivalent to 
+the na&iuml;ve observables (eq:NaiveFluxObservables)
+are of this form:
 \[
   \label{TheFluxObservables}
   \begin{array}{l}
@@ -528,6 +665,85 @@ those of this form:
   \,.
 \]
 \end{proposition}
+\begin{proof}
+  To check that these are indeed equivalent to the na&iuml;ve observables, in that the difference is proportional to the left hand side of the [[Gauss law]] (eq:GaussLawConstraint), so that they coincide on the locus where the Gauss law holds:
+$$
+  \begin{array}{l}
+  \int_{\widehat{S}} 
+    \big\langle
+      \mathrm{d}_A \alpha
+      ,\,
+      E
+    \big\rangle
+    \\
+    \;\approx\;
+    \int_{\widehat{S}} 
+    \Big(
+    \big\langle
+      \mathrm{d}_A \alpha
+      ,\,
+      E
+    \big\rangle
+    +
+    \underset{
+      \approx 0
+    }{
+    \underbrace{
+    \big\langle
+      \alpha
+      ,\,
+      \mathrm{d}_A E
+    \big\rangle
+    }
+    }
+    \Big)
+    \\
+    \;=\;
+    \int_{\widehat{S}} 
+    \Big(
+    \big\langle
+      \mathrm{d} \alpha
+      ,\,
+      E
+    \big\rangle
+    \,+\,
+    \big\langle
+      \alpha
+      ,\,
+      \mathrm{d} E
+    \big\rangle
+    \Big)
+    \\
+    \;=\;
+    \int_{\widehat{S}} 
+    \mathrm{d}
+    \big\langle
+      \alpha
+      ,\,
+      E
+    \big\rangle
+    \\
+    \;=\;
+    \int_{S} 
+    \big\langle
+      \alpha
+      ,\,
+      E
+    \big\rangle    
+    \mathrlap{\,,}
+  \end{array}
+$$
+where we used:
+
+1. the Gauss law
+
+1. (eq:AdInvarianceOfPairingOnLieAlgValuedForms)
+
+1. derivation property of $\mathrm{d}$
+
+1. [[Stokes theorem|Stokes]]
+
+\end{proof}
 
 \linebreak
 
@@ -543,10 +759,7 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
       \big(\mathrm{d}_A \alpha_i\big)
       E^i
       ,\,
-      \textstyle{\int}
-      \big(
-        \mathrm{d}_A \beta
-      \big)
+      \mathrm{d}_A \beta
     \Big\}
     \\
     \;\equiv\;
@@ -555,18 +768,14 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
       \big(\mathrm{d}_A \alpha_i\big)
       E^i
       ,\,
-      \textstyle{\int}
-      \big(
-        \mathrm{d}\beta
-        + [A, \beta]
-      \big)
+      \mathrm{d}\beta
+      + [A, \beta]
     \Big\}
     \\
     \;=\;
     \textstyle{\int}
     \big(\mathrm{d}_A \alpha_i\big)
     \Big[
-      \textstyle{\int}
       \big\{
         E^i
         ,\,
@@ -577,7 +786,6 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \Big]
     \\
     \;=\;
-    \textstyle{\int}
     \big(\mathrm{d}_A \alpha_i\big)
     \big[
       t^i
@@ -586,7 +794,6 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
     \big]
     \\
     \;=\;
-    \textstyle{\int}
     \Big[
       \big(\mathrm{d}_A \alpha\big)
       ,\,
@@ -596,7 +803,7 @@ A key consequence of the corrected flux observables (eq:TheFluxObservables), is 
   \end{array}
 \]
 \end{example}
-This is the relation needed for the computation of the bracket among electric fluxes in (eq:PoissonBracketElectricElectricFluxes) below.
+This is the relation needed for the computation of the bracket among electric fluxes in Prop. \ref{PoissonBracketBetweenElectricFluxes} below.
 
 \begin{example}
 \label{BracketOfElectricFluxWithMagneticFluxDensity}
@@ -615,7 +822,7 @@ The Poisson bracket of an electric flux observable with a magnetic flux density 
   \end{array}
 \]
 \end{example}
-This is the main relation needed in the computation of the bracket between electric and magnetic fluxes, in (eq:PoissonBracketElectricMagneticFluxes) below.
+This is the main relation needed in the computation of the bracket between electric and magnetic fluxes, in Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below.
 \begin{proof}
 For the first summand in $F_A \,\equiv\, \mathrm{d}A + \tfrac{1}{2}[A, A]$ we have simply:
 $$
@@ -774,6 +981,8 @@ $$
 ### The Poisson bracket of integrated fluxes
  {#ThePoissonBracketOfIntegratedFluxes}
 
+We may now compute the [[Poisson bracket]] (eq:ThePoissonBracketOnCanonicalCoordinates) of the electromagnetic [[flux]] [[observables]] from Prop. \ref{TheProperFluxObservables}.
+
 \begin{proposition}
 \label{PoissonBracketBetweenElectricFluxes}
 **([CP17 (7)](#CattaneoPerez17))**
@@ -791,7 +1000,7 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-Using (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction), we compute as follows:
+We compute as follows:
 \[
   \label{PoissonBracketElectricElectricFluxes}
   \begin{array}{l}
@@ -844,8 +1053,17 @@ Using (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction), we compute as 
     [\alpha,\beta]_i
   \big)
   E^i
+  \mathrlap{\,,}
   \end{array}
 \]
+where we used, in order of appearance:
+
+1. (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction)
+
+1. (eq:GradedSkewSymemtryOfLieBracketOnLieAlgValuedForms)
+
+1. (eq:CovariantDerivativeIsDerivationOfLieBracket).
+
 \end{proof}
 
 \begin{proposition}
@@ -956,6 +1174,10 @@ Here we used, in order of appearance:
 1. (eq:PoissonBracketBetweenElectricFieldAndSmearingFunction) and (eq:TheBracketOfElectricFluxWithMagneticFluxDensity);
 
 1. (eq:CyclicInvarianceOfTrilinearPairing) and (eq:CurvatureFromCovariantDerivativeSquared)
+
+1. (eq:CyclicInvarianceOfTrilinearPairing)
+
+1. (eq:CovariantDerivativeIsDerivationOfLieBracket).
 
 \end{proof}
 
