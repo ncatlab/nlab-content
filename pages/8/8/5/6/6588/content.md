@@ -276,6 +276,11 @@ algebra.
 
 ## References
 
+Monograph:
+
+* [[Ernst Binz]], Sonja Pods, *The geometry of Heisenberg groups --- With Applications in Signal Theory, Optics, Quantization, and Field Quantization*, Mathematical Surveys and Monographs **151**, American Mathematical Society (2008) &lbrack;[ams:surv-151](https://bookstore.ams.org/surv-151)&rbrack; 
+
+
 Lecture notes:
 
 * (section 4 in) Gordon, _Infinite-dimensional Lie algebras_, Lecture notes, Edinburgh (2008) ([pdf](http://www.maths.ed.ac.uk/~igordon/LA1.pdf))
