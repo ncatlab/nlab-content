@@ -82,7 +82,11 @@ Under passing to [[exponentials]] the canomical commutation relations are also c
 
 ## Related concepts
 
-* [[Weyl relation]]
+* [[Weyl relation]], [[Weyl algebra]]
+
+* [[Heisenberg algebra]]
+
+* [[Stone-von Neumann theorem]]
 
 * [[Wick algebra]]
 
