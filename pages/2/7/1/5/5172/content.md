@@ -8,7 +8,8 @@ as well as [[classes]] and von Neumann [[ordinals]].
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_von_Neumann)
 
-## Selected works
+
+## Selected writings
 
 On [[set theory]]:
 
@@ -25,6 +26,12 @@ On [[Hermitian operators]] and introducing the formal definition of [[Hilbert sp
 On the mathematical foundations of [[quantum mechanics]] based on [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
 
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
+
+Proving the [[Stone-von Neumann theorem]]:
+
+* [[John von Neumann]], *Die Eindeutigkeit der Schrödingerschen Operatoren*, Mathematische Annalen **104**  (1931) 570–578 &lbrack;[doi:10.1007/BF01457956](https://doi.org/10.1007/BF01457956)&rbrack;
+ 
+* [[John von Neumann]], _Über Einen Satz Von Herrn M. H. Stone_, Annals of Mathematics, Second Series **33** 3 (1932) 567-573 &lbrack;[doi:10.2307/1968535](https://doi.org/10.2307/1968535), [jstor:1968535](https://www.jstor.org/stable/1968535)&rbrack;
 
 
 * [[John von Neumann]]:
