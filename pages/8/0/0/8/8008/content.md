@@ -18,6 +18,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -86,17 +87,17 @@ Textbook account:
 
 ### Strict deformation quantization proper
 
-The notion of strict $C^\ast$-algebraic deformation quantization was introduced in 
+The notion of strict $C^\ast$-algebraic deformation quantization was introduced in:
 
-* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary mathematics vol. 167 (1994) ([pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf))
+* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary mathematics vol. 167 (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
 
-A brief review with a list of open questions is in 
+A brief review with a list of open questions:
 
-* [[Marc Rieffel]], _Questions on quantization_, Contemp.Math. 228 (1998) 315-326 ([arXiv:quant-ph/9712009](http://arxiv.org/abs/quant-ph/9712009))
+* [[Marc Rieffel]], _Questions on quantization_, Contemp.Math. 228 (1998) 315-326 &lbrack;[arXiv:quant-ph/9712009](http://arxiv.org/abs/quant-ph/9712009)&rbrack;
 
-More details are in
+More details:
 
-* {#Rieffel90} [[Marc Rieffel]], _Deformation quantization and operator algebras_, in: Operator theory: operator algebras and applications, Part 1 (Durham, NH, 1988), 411&#8211;423, Proc. Sympos. Pure Math. __51__, Part 1, Amer. Math. Soc. 1990, [MR91h:46120](http://www.ams.org/mathscinet-getitem?mr=1077400);  ([pdf](http://math.berkeley.edu/~rieffel/papers/deformation.pdf))
+* {#Rieffel90} [[Marc Rieffel]], _Deformation quantization and operator algebras_, in: Operator theory: operator algebras and applications, Part 1 (Durham, NH, 1988), 411-423, Proc. Sympos. Pure Math. __51__, Part 1, Amer. Math. Soc. (1990) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/deformation.pdf), [[Rieffel-DefQuantization.pdf:file]] [MR91h:46120](http://www.ams.org/mathscinet-getitem?mr=1077400)&rbrack;
   
 * [[Marc Rieffel]], _Deformation quantization for actions of $\mathbb{R}^d$_, Mem. Amer. Math. Soc. __106__ (1993), no. 506, x+93 pp. [MR94d:46072](http://www.ams.org/mathscinet-getitem?mr=1184061)
 
