@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+#### Quantum systems
 +--{: .hide}
-[[!include physicscontents]]
+[[!include quantum systems -- contents]]
 =--
 #### Group Theory
 +-- {: .hide}
@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -36,25 +37,39 @@ Today almost the first thing that one wants to know about any [[theory (physics)
 
 ## References
 
-A transcript of an interview with Wigner where he mentions Schr&#246;dinger's remark on the _Gruppenpest_ is here:
+Historical texts:
 
-* {#Wigner81} Interview with Eugene Wigner
-by Lillian Hoddeson, Gordon Baym and Frederick Seitz at the New Yorker Hotel January 24, 1981 ([Niels Bohr Library and Archives](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4965))
+* [[Hermann Weyl]], *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+
+* [[Hermann Weyl]], *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig, (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics* Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
+
+* [[Eugene P. Wigner]]: *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
+
+* [[Eugene P. Wigner]]: *Group theory: And its application to the quantum mechanics of atomic spectra*, 5, Academic
+Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/group-theory/wigner/978-0-12-750550-3)&rbrack;
+
+Transcript of an interview with Wigner where he mentions Schr&#246;dinger's remark on the _Gruppenpest_:
+
+* {#Wigner81} Interview with [[Eugene Wigner]], by Lillian Hoddeson, Gordon Baym and Frederick Seitz at the New Yorker Hotel January 24 (198) &lbrack;[Niels Bohr Library and Archives](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4965)&rbrack;
+
+History and review:
+
+* [[Brian G. Wybourne]], *The "The Gruppen Pest" yesterday, today, and tomorrow*, International Journal of Quantum Chemistry Symp. **7** (1973) 35-43 &lbrack;[doi:10.1002/qua.560070706](https://doi.org/10.1002/qua.560070706)&rbrack;
+
+* Erhard Scholz, _Introducing groups into quantum theory (1926-1930)_, Historia Mathematica **33** 4 (2006) 440-490 &lbrack;[arXiv:math/0409571](https://arxiv.org/abs/math/0409571), [doi:10.1016/j.hm.2005.11.007](https://doi.org/10.1016/j.hm.2005.11.007)&rbrack;
+
+* Erhard Scholz, _Weyl entering the 'new' quantum mechanics discourse_, in: C. Joas, C. Lehner, J. Renn (eds.), *HQ-1: Conference on the History of Quantum Physics*, MPI History of Science Berlin **350** II (2008) 253--271. (Berlin July 2--6, 2007) &lbrack;[[Scholz-WeylEntering.pdf:file]]&rbrack;
+
+
+* Arianna Borrelli, Bretislav Friedrich, _Eugene Wigner and the bliss of the "Gruppenpest"_ (2011) &lbrack;[[Borrelli-Friedrich_BlissOfGruppenpest.pdf:file]]&rbrack; 
+
+* Christophe Eckes, _Weyl and the mathematisation of Quantum Mechanics individual and collective perspectives_ (2020) &lbrack;[[Eckes-WeylMath.pdf:file]]&rbrack;
+
+
+See also:
+
  
-
-A historical anlysis of Wigner's work on group theory with a remark on the _Gruppenpest_ comment is in 
-
-* Arianna Borrelli and Bretislav Friedrich, _Eugene Wigner and the bliss of the "Gruppenpest"_ ([pdf](http://web.science.uu.nl/hq2/abstracts/Borrelli.pdf))
-
-For scholarship on Weyl's work on group theory and quantum mechanics, see
-
-* Erhard Scholz, 2008, _Weyl entering the 'new' quantum mechanics discourse._  In C. Joas, C. Lehner, J. Renn (eds.).   HQ-1: Conference on the History of Quantum Physics (Berlin July 2--6, 2007), [Preprint](http://www2.math.uni-wuppertal.de/~scholz/preprints/HQ_1_ES.pdf) MPI History of Science Berlin,  350 vol. II, 253--271.
-
-* Erhard Scholz, 2006. _Introducting groups into quantum theory (1926&#8211;1930)_, Historia Mathematica 33:440&#8211;490, [arxiv.org/math.HO/0409571](http://arxiv.org/math.HO/0409571).
-
-* Christophe Eckes, _Weyl and the mathematisation of Quantum Mechanics individual and collective perspectives_, ([slides](http://math.univ-lyon1.fr/~eckes/Novembertagung%20vf.pdf)).
-
-* {#JS75} [[John Slater]], *Solid-State and Molecular Theory: A Scientific Biography*, Wiley (1975) &lbrack;[archive](https://archive.org/details/solidstatemolecu00slat/)&rbrack;
+* {#JS75} [[John Slater]], *Solid-State and Molecular Theory: A Scientific Biography*, Wiley (1975) &lbrack;[ark:/13960/t07x0h23t](https://archive.org/details/solidstatemolecu00slat/)&rbrack;
 
   > (in the context of [[solid state physics]] and [[molecule|molecular]] theory)
 
