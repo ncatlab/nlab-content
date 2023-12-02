@@ -1,5 +1,15 @@
-[[!redirects first class constraints]]
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Examples
+
+* [[Gauss law]]
 
 ## Related concepts
 
@@ -11,5 +21,4 @@
 
 * Wikipedia, _[First class constraints](http://en.wikipedia.org/wiki/First_class_constraint)_
 
-[[!redirects constraint]]
-[[!redirects constraints]]
+[[!redirects first class constraints]]
