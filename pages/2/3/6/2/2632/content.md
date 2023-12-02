@@ -409,6 +409,8 @@ Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
 
 Introducing the tool of [[group theory]] to quantum physics (cf. *[[Gruppenpest]]*):
 
+* [[Hermann Weyl]], *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+
 * [[Hermann Weyl]], *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig, (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics* Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
 
 * {#Wigner31} [[Eugene P. Wigner]]: *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
