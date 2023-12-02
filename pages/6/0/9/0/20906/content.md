@@ -28,6 +28,8 @@ such that $g$
 
 1. is non-degenerate as a [[bilinear form]], in that its [[tensor product of vector spaces|tensor product]]-[[adjunct]] $\mathfrak{g} \to \mathfrak{g}^\ast$ is a [[linear isomorphism]].
 
+(But $g$ may be [[indefinite bilinear form|indefinite]].)
+
 The following table shows the data in a metric Lie representation equivalently
 
 1. in [[category theory]]-notation;
