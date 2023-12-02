@@ -448,4 +448,9 @@ A history of the general adjoint functor theorem is discussed in:
 
 * [[Hans-E. Porst]], _The history of the General Adjoint Functor Theorem_ &lbrack;[arxiv:2310.19528](https://arxiv.org/abs/2310.19528)&rbrack;
 
+A stronger version for finitary functors between locally finitely presentable categories whose domain is ranked, requiring only the preservation of countable limits for the existence of a left adjoint, is discussed in
+
+* [[Jiří Adámek]], Lurdes Sousa, _A Finitary Adjoint Functor Theorem_, [arXiv](https://arxiv.org/abs/2311.14965).
+
+
 [[!redirects adjoint functor theorems]]
