@@ -116,6 +116,10 @@ and in the discussion of [[Chern-Simons theory]] ("Schwarz-type TQFT") in
 
 * [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
 
+Review:
+
+* Danny Birmingham, [[Matthias Blau]], Mark Rakowski, [[George Thompson]], *Topological field theory*, Physics Reports **209** 4–5 (1991) 129-340 \[<a href="https://doi.org/10.1016/0370-1573(91)90117-5">doi:10.1016/0370-1573(91)90117-5</a>\]
+
 See also:
 
 * [[Markus Banagl]], *Positive topological quantum field theories*, Quantum Topology **6** 4 (2015) 609-706 &lbrack;[arxiv/1303.4276](http://arxiv.org/abs/1303.4276), [doi:10.4171/qt/71](https://doi.org/10.4171/qt/71)&rbrack;
