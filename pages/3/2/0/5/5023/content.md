@@ -214,6 +214,13 @@ Discussion of the [[representation theory]] of the infinite-dimensional Heisenbe
 
 * G&#252;nther H&#246;rmann, _Representations of the infinite dimensional Heisenberg group_, PhD thesis, Vienna 1993 ([pdf](http://www.mat.univie.ac.at/~michor/hoermann_diss.pdf))
 
+On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenberg groups]] as [[strict deformation quantizations]] of [[presymplectic manifold|pre-]][[symplectic vector spaces|symplectic]] [[topological vector spaces]] by [[continuous field of C-star algebras|continuous fields of]] [[Weyl algebras]]:
+
+* [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
+
+* [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
+
+
 ### For Chern-Simons theory
 
 The Heisenberg group for the [[phase space]] $U(1)$-[[Chern-Simons theory]] on an arbitrary [[Riemann surface]] (and its relation to [[skein relations]] and [[theta functions]]) is discussed in
