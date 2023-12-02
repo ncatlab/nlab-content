@@ -624,7 +624,11 @@ Taken at face value, these observables are the surface [[integration of differen
 
 However, these expression need to be corrected to become actual observables, since as give they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables in Prop. \ref{TheProperFluxObservables} below. 
 
-Using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending into the "interior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$):
+Using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "exterior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), 
+
+> ([CP17](#CattaneoPerez17) speak of extending to the "interior" and seem to imagine that $S$ is actually the boundary of a compact sub-manifold -- which however is generally not what one wants to assume in discussion of fluxes: Typical choices of $S$ coincide with actual ([[asymptotic boundary|asymptotic]]) boundaries of the ambient spacetime, such as around the singular locus of a [[magnetic monopole]] that has been removed from spacetime. Our choice of extending to a neighbourhood of $S$ towards the exterior, instead of the interior, works just as well and allows $S$ to actually sit on a boundary of spacetime.)
+
+and extending the coefficient functions to this neighbourhood with [[compact support]]  (i.e. such that they vanish some finite distance from $S$):
 
 \begin{proposition}
 \label{TheProperFluxObservables}
