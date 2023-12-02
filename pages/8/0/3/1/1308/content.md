@@ -103,6 +103,7 @@ For example, we might consider the algebraic theory of [[convex space|convex spa
 $$c_{0.25}(a,b)=c_{0.5}(c_{0.5}(a,b),b)=(a*b)*b=a*(b*b)=a*b=c_{0.5}(a,b).$$ 
 
 This is relevant in computer science because probability is modelled by the free convex spaces monad, and non-determinism is modelled by the free semilattice monad. These monads are both [[commutative monad|commutative monads]], but there can be no commutative monad that contains both these monads non-degenerately. 
+In particular, the [[convex powerset of distributions monad]] is not commutative.
 
 ## Related concepts
 
