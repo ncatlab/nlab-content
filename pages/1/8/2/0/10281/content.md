@@ -42,8 +42,13 @@ This entry collects links related to the textbook
 
 on [[string theory]], first [[bosonic string theory]], then [[superstring theory]] and with an outlook on [[M-theory]].
 
+See also:
+
+* [[Matthew Headrick]], *A solution manual for Polchinski's "String Theory"* &lbrack;[arXiv:0812.4408](https://arxiv.org/abs/0812.4408)&rbrack;
+
 
 \linebreak
+
 
 #Contents#
 * table of contents
