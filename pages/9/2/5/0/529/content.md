@@ -270,9 +270,18 @@ This is indeed the case, by [this property](regular+representation#RegularRepDec
 
 Let $G$ be a [[finite group]], let $R = k$ be a field.
 
-Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is not divisible by the [[characteristic]] of k.
+Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is not divisible by the [[characteristic]] of $k$.
 
 =--
+
+### Of central extensions & Twisted group algebras
+ {#OfCentralExtensionsAndTwistedGroupAlgebras}
+
+A [[quotient algebra]] of the group algebra of a [[central extension]] $\widehat{G}$ of a group $G$ corresponding to a [[group cocycle|group 2-cocyle]] $\alpha \,\colon\, G \times G \to k$ is the *$\alpha$-twisted* group algebra of $G$. ([Nachbin 1993, Ch 2, Thm. 4.1](#Nachbin93)).
+
+With due care, this situation generalizes from [[discrete groups]] to suitable (eg. [[locally compact topological groups|locally compact]]) [[topological groups]] ([Edwards & Lewis 1969a](#EdwardsLewis69a), [1969b](#EdwardsLewis69b)).
+
+For example ([Binz, Honegger & Rieckers 2007](#BinzHoneggerRieckers07)), it is in this way that the group algebra of the ([[underlying]] [[discrete group|discrete]]) of a [[Heisenberg group]] (which is a [[central extension]] of an [[abelian group]]) is related to the corresponding [[Weyl group]] (whose [[Weyl relations]] are those of a twisted additive group algebra).
 
 
 ### Relation to universal enveloping algebras
@@ -304,6 +313,11 @@ Concerning group algebras of [[algebraic groups]]:
 
 ### General
 
+Original discussion:
+
+* [[Hermann Weyl]], §III.3 in: *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics*, Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
+
+
 Textbook accounts:
 
 for [[locally compact topological groups]]:
@@ -320,6 +334,17 @@ Lecture notes:
 * [[Kiyoshi Igusa]], _Algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
 
 * Andrei Yafaev, _Group algebras_ ([pdf](http://www.ucl.ac.uk/~ucahaya/GroupAlgebras.pdf))
+
+On twisted group algebras and their relation to plain group algebras of [[group extensions]]:
+
+
+* C. M. Edwards, *$C^\ast$-algebras of central group extensions I*, Annales de l'institut Henri Poincaré. Section A, Physique Théorique **10** 3 (1969) 229-246 &lbrack;[numdam:AIHPA_1969__10_3_229_0](http://www.numdam.org/item/?id=AIHPA_1969__10_3_229_0)&rbrack;
+
+* {#EdwardsLewis69a} C. M. Edwards, [[John T. Lewis]], *Twisted group algebras I*, Communications in Mathematical Physics **13** (1969) 119–130 &lbrack;[doi:10.1007/BF01649871](https://doi.org/10.1007/BF01649871), [euclid:cmp/1103841535](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-13/issue-2/Twisted-group-algebras-I/cmp/1103841535.full)&rbrack;
+
+* {#EdwardsLewis69b} C. M. Edwards, [[John T. Lewis]], *Twisted group algebras II*, Communications in Mathematical Physics **13** (1969) 131–141 &lbrack;[doi:10.1007/BF01649872](https://doi.org/10.1007/BF01649872)&rbrack;
+
+* {#Nachbin93} Leopoldo Nachbin (ed.), *Twisted Group Algebras*, Chapter 2 in: *Group Representations Volume 2*, North-Holland Mathematics Studies **177** (1993) 65-103 &lbrack;<a href="https://doi.org/10.1016/S0304-0208(09)70147-1">doi:10.1016/S0304-0208(09)70147-1</a>&rbrack;
 
 The [[universal localization]] of group rings (see also at _[[Snaith's theorem]]_) is discussed in
 
@@ -339,7 +364,7 @@ On the [[supersymmetry|supersymmetric]] [[WZW model]] using group algebra:
 
 On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenberg groups]] as [[strict deformation quantizations]] of [[presymplectic manifold|pre-]][[symplectic vector spaces|symplectic]] [[topological vector spaces]] by [[continuous field of C-star algebras|continuous fields of]] [[Weyl algebras]]:
 
-* [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
+* {#BinzHoneggerRieckers07} [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
 
 * [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
 
@@ -349,6 +374,8 @@ On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenbe
 [[!redirects group ring]]
 [[!redirects group rings]]
 
+[[!redirects twisted group algebra]]
+[[!redirects twisted group algebras]]
 
 
 [[!redirects group convolution algebra]]
