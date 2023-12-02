@@ -74,7 +74,14 @@ $$ x +_r (y \oplus z) = (x +_r y) \oplus (x +_r z) $$
 
 for all $r\in (0,1)$. 
 
-(It may be tempting to think that this is a [[distributive law]] of monads, but it is not, because two sets of distributions are equated if they have the same convex hull.)
+(It may be tempting to think that this is a [[distributive law]] of monads, but it is not, because two sets of distributions are equated if they have the same convex hull. For instance, $x\oplus y = x \oplus y \oplus (x+_0.5 y)$, for:
+
+$$ x \oplus y = 
+(x \oplus y) +_0.5 (x \oplus y)
+= 
+(x +_0.5 x)\oplus (x +_0.5 y) \oplus (y +_0.5 x) \oplus (y +_0.5 y)
+=
+x \oplus y \oplus (x +_0.5 y) \ .)$$
 
 ## References
 
