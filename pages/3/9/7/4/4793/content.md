@@ -88,17 +88,21 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 ## References
 
-Review
+Monographs:
+
+* {#KlimovZhuravlev} D. M. Klimov, V. Ph. Zhuravlev, *Group-Theoretic Methods in Mechanics and Applied Mathematics*, Routledge (2004, 2020) &lbrack;[ISBN:9780367446987](https://www.routledge.com/Group-Theoretic-Methods-in-Mechanics-and-Applied-Mathematics/Klimov-Zhuravlev/p/book/9780367446987)&rbrack;
+
+
+* [[Ernst Binz]], Sonja Pods, Ch 1 in: *The geometry of Heisenberg groups --- With Applications in Signal Theory, Optics, Quantization, and Field Quantization*, Mathematical Surveys and Monographs **151**, American Mathematical Society (2008) &lbrack;[ams:surv-151](https://bookstore.ams.org/surv-151)&rbrack; 
+
+* [[Tevian Dray]], [[Corinne Manogue]], Section 3.1 of: _The Geometry of Octonions_, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456)&rbrack;
+
+
+See also:
 
 * T. Y. Lam, _Hamilton's Quaternions_ ([ps](http://math.berkeley.edu/~lam/quat.ps))
 
 
-* [[Tevian Dray]], [[Corinne Manogue]], Section 3.1 of: _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
-
-
-See also
-
-* {#KlimovZhuravlev} D.M. Klimov, V. Ph. Zhuravlev, _Group-Theoretic Methods in Mechanics and Applied Mathematics_
 
 [[!redirects quaternion]]
 [[!redirects quaternions]]
