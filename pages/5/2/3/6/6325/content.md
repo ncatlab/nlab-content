@@ -40,11 +40,18 @@ $$
 
 where on the right we have the [[derivative]] along the canonical [[coordinate function]] on $\mathbb{R}$.
 
-This is often called the _Schrödinger representation_ (after [[Erwin Schrödinger]], e.g. [Redei](#Redei)), to be distinguished from "[[Schrödinger picture]]" which is a related but different concept.
+This is often called the _Schrödinger representation_, after [[Erwin Schrödinger]], cf. eg. [Redei](#Redei) (to be distinguished from "[[Schrödinger picture]]" which is a related but different concept).
+
 
 ## Related concepts
 
+* [[Weyl relation]], [[Weyl algebra]]
+
+* [[canonical commutation relation]]
+
 * For the Schrödinger representation obtained via [[geometric quantization]] see [there](geometric+quantization#ExamplesSchroedingerRepresentation).
+
+
 
 ## References
 
