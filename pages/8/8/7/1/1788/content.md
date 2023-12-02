@@ -1,4 +1,5 @@
 
+charge quantization of the electric field such that there is *no* constraint on the electric field density are of the form $B^2 \mathbb{Q} \times A$ for $A$ any rationally trivial space, such as $A = B K$ for $K$ any finite group. In forming the product with the magnetic charge quantization via $B^2 \mathbb{Z}$, there is then also the freedom to have a semidirect product from an action of $K$ on $U(1)$: $B\big(U(1) \rtimes K\big)$. In this case the magnetic fluxes commute among each other while the electric fluxes need not commute among each other and may have non-trivial action on the magentic fluxes -- just as expected from phase space analysis.
 
 group algebra quantization:
 
