@@ -3,6 +3,8 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Mikhail_Shifman)
 
+* Interview of Mikhail Shifman by David Zierler on July 7, 2021, Niels Bohr Library & Archives, American Institute of Physics, College Park, MD USA &lbrack;[aip:oral-histories/47523](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/47523)&rbrack;
+
 
 ## Selected writings
 
