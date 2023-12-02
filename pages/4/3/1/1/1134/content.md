@@ -23,7 +23,7 @@
 
 ## Idea
 
-A [[supermanifold]] is a [[space]] locally modeled on [[Cartesian space]]s and [[superpoints]].
+A [[supermanifold]] is a [[space]] locally modeled on [[Cartesian space|Cartesian spaces]] and [[superpoints]].
 
 There are different approaches to the definition and theory of supermanifolds in the literature. The definition 
 
@@ -170,7 +170,7 @@ We discuss a description of supermanifolds that goes back to
 ## As manifolds over the base topos on superpoints
  {#OverSuperpoints}
 
-Let $SuperPoint$ be the [[category]] of [[superpoint]]s. And $Sh(SuperPoint) = PSh(SuperPoint)$ its [[presheaf topos]].
+Let $SuperPoint$ be the [[category]] of [[superpoint|superpoints]]. And $Sh(SuperPoint) = PSh(SuperPoint)$ its [[presheaf topos]].
 
 We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]]. 
 
@@ -207,16 +207,16 @@ A **superdomain** is an open subfunctor (...) of a [[locally convex vector space
 
 This appears as ([Sachse, def. 4.6](#Sachse)). 
 
-We now want to describe supermanifolds as [[manifold]]s in $SuperSet$ modeled on superdomains.
+We now want to describe supermanifolds as [[manifold|manifolds]] in $SuperSet$ modeled on superdomains.
 
-Write [[SmoothMfd]] for the [[category]] of ordinary [[smooth manifold]]s.
+Write [[SmoothMfd]] for the [[category]] of ordinary [[smooth manifold|smooth manifolds]].
 
 +-- {: .num_defn #SupermanifoldOverSuperpoint}
 ###### Definition
 
 A _supermanifold_ is a functor $X : SuperPoint^{op} \to SmoothMfd$ equipped with an equivalence class of [supersmooth atlases](#).
 
-A [[morphism]] of supermanifolds is a [[natural transformation]] $f : X \to X'$, such that for each pair of [[chart]]s $u : U \to X$ and $u' : U' \to X'$ the [[pullback]]
+A [[morphism]] of supermanifolds is a [[natural transformation]] $f : X \to X'$, such that for each pair of [[chart|charts]] $u : U \to X$ and $u' : U' \to X'$ the [[pullback]]
 
 $$
   \array{
@@ -292,7 +292,7 @@ Discussion from the point of view of [[functorial geometry]]:
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
-A more general variant of this in the spirit of [[locally algebra-ed topos]]es is in
+A more general variant of this in the spirit of [[locally algebra-ed topos|locally algebra-ed toposes]] is in
 
 * Alexander Alldridge, _A convenient category of supermanifolds_ ([arXiv:1109.3161](http://arxiv.org/abs/1109.3161))
 
@@ -365,7 +365,7 @@ See also:
 
 * [[Alberto S. Cattaneo]], Florian Schaetz, _Introduction to supergeometry_, [arxiv/1011.3401](http://arxiv.org/abs/1011.3401)
 
-There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
+There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra|supersymmetries]] rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
 
 See also [pdf](http://www.math.uni-hamburg.de/home/sachse/handoutbatchelor.pdf)
 
