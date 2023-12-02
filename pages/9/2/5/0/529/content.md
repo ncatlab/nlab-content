@@ -331,7 +331,7 @@ On the case of profinite groups:
 
 * A. Brumer, _Pseudocompact algebras, profinite groups and class formations_,  J. Algebra __4__ (1966) 442-470, [MR202790](http://www.ams.org/mathscinet-getitem?mr=202790), <a href="http://dx.doi.org/10.1016/0021-8693(66)90034-2">doi</a> [pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/33410/0000811.pdf?sequence=1)
 
-## In physics
+### In physics
 
 On the [[supersymmetry|supersymmetric]] [[WZW model]] using group algebra:
 
