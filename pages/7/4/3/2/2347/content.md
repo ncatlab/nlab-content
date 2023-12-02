@@ -15,13 +15,13 @@
 
 ## Idea
 
-Classical mechanics is that part of [[classical physics]] dealing with the deterministic physics of point [[particle]]s and rigid bodies; often the systems with the infinitely many degrees of freedom are also included (like infinite arrays of particles and their continuous limits like classical mechanics of strings, membranes, elastic media and of classical fields). For the continuous systems, the equations of motion can often be explained by the partial differential equations, describing classical [[physical field]]s of quantities (typically smooth possibly vector valued functions on manifolds), including background fields like metric; the latter (sub)area is the [[classical field theory]], but it is often studied separately from the classical mechanics of the finite systems of particles; especially if non-classical features or interpretations are involved (e.g. supersymmetry, or unusual case of non-variational  equations of motion etc.). In Hamiltonian reduction, due to conservation laws, many systems with infinitely many degrees of freedom, reduce to the finite ones. 
+Classical mechanics is that part of [[classical physics]] dealing with the deterministic physics of point [[particle|particles]] and rigid bodies; often the systems with the infinitely many degrees of freedom are also included (like infinite arrays of particles and their continuous limits like classical mechanics of strings, membranes, elastic media and of classical fields). For the continuous systems, the equations of motion can often be explained by the partial differential equations, describing classical [[physical field|physical fields]] of quantities (typically smooth possibly vector valued functions on manifolds), including background fields like metric; the latter (sub)area is the [[classical field theory]], but it is often studied separately from the classical mechanics of the finite systems of particles; especially if non-classical features or interpretations are involved (e.g. supersymmetry, or unusual case of non-variational  equations of motion etc.). In Hamiltonian reduction, due to conservation laws, many systems with infinitely many degrees of freedom, reduce to the finite ones. 
 
 Nondissipative systems with finitely many degrees of freedom may be described geometrically using [[symplectic manifolds]], or more generally [[Poisson manifolds]]; the later may also sometimes appear as reductions of the systems with infinitely many degrees of freedom. 
 
-Classical mechanics of a system of point particles and rigid bodies is usually divided into statics, kinematics and dynamics. __Statics__ studies the balance of forces in a system which does not move, or in a stationary flow. __Kinematics__ studies the relation between position, velocity and acceleration of bodies in a mechanical system, without reference to the causes of motion. __Dynamics__ studies motion with reference to the causes of motion and interaction between bodies and its manifestation via (quantified) [[force]]s, energy and mass assigned to bodies in motion and interaction.
+Classical mechanics of a system of point particles and rigid bodies is usually divided into statics, kinematics and dynamics. __Statics__ studies the balance of forces in a system which does not move, or in a stationary flow. __Kinematics__ studies the relation between position, velocity and acceleration of bodies in a mechanical system, without reference to the causes of motion. __Dynamics__ studies motion with reference to the causes of motion and interaction between bodies and its manifestation via (quantified) [[force|forces]], energy and mass assigned to bodies in motion and interaction.
 
-For a theoretical classical mechanics one often starts with a concrete system of bodies with pulleys, strings, spins, external and internal forces, and dissipative sinks and sources (e.g. friction forces), which are then analysed to get the configuration or phase space of the system, the equations of motion and possibly to determine some special [[observable]]s of interest. Once abstracted that way, the rest of the study is a rather special case of the theory of [[dynamical system]]s, which itself studies general (either deterministic or stochastic) spatially-parametrized systems in a (discrete or continuous) time evolution. 
+For a theoretical classical mechanics one often starts with a concrete system of bodies with pulleys, strings, spins, external and internal forces, and dissipative sinks and sources (e.g. friction forces), which are then analysed to get the configuration or phase space of the system, the equations of motion and possibly to determine some special [[observable|observables]] of interest. Once abstracted that way, the rest of the study is a rather special case of the theory of [[dynamical system|dynamical systems]], which itself studies general (either deterministic or stochastic) spatially-parametrized systems in a (discrete or continuous) time evolution. 
 
 A terminological and scope discussion is archived [here](https://nforum.ncatlab.org/comments.php?DiscussionID=2807&Focus=23543#Comment_23543).
 
@@ -50,7 +50,7 @@ We set up some basic notions of classical mechanics.
 +-- {: .num_defn}
 ###### Definition
 
-A _real [[Poisson algebra]]_ is a unital (commutative) [[associative algebra]] $(A, \dot)$ over the [[real number]]s that is equipped with with an additional bilinear operation
+A _real [[Poisson algebra]]_ is a unital (commutative) [[associative algebra]] $(A, \dot)$ over the [[real number|real numbers]] that is equipped with with an additional bilinear operation
 
 $$
   [-,-] : A \otimes_{\mathbb{R}} A \to A 
@@ -93,7 +93,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-Poisson superalgebras describe systems with [[fermion]]s. Systems without fermions may be described by plain Poisson algebras.
+Poisson superalgebras describe systems with [[fermion|fermions]]. Systems without fermions may be described by plain Poisson algebras.
 
 =--
 
@@ -101,15 +101,15 @@ Poisson superalgebras describe systems with [[fermion]]s. Systems without fermio
 ###### Remark
 
 This definition captures most notions of "mechanical systems". Exceptions contain 
-[[open system]]s for which there is no conservation laws (examples: externally-driven 
-and [[dissipative system]]s). In real worlds, physicists believe that such systems may be realized only as parts of larger systems (eventually, the universe) which are conservative; hence either describable by a Poisson algebra or it entails energy types which can not be described using classical mechanics. 
+[[open system|open systems]] for which there is no conservation laws (examples: externally-driven 
+and [[dissipative system|dissipative systems]]). In real worlds, physicists believe that such systems may be realized only as parts of larger systems (eventually, the universe) which are conservative; hence either describable by a Poisson algebra or it entails energy types which can not be described using classical mechanics. 
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-For $(A, \cdot, \{-,-\})$ a Poisson algebra, $A$ together with its [[module]] $\Omega^1(A)$ of [[Kähler differential]]s naturally form a [[Lie-Rinehart pair]], with bracket given by
+For $(A, \cdot, \{-,-\})$ a Poisson algebra, $A$ together with its [[module]] $\Omega^1(A)$ of [[Kähler differential|Kähler differentials]] naturally form a [[Lie-Rinehart pair]], with bracket given by
 
 $$
   [d a, d b ] \coloneqq d \{a,b\}
@@ -163,7 +163,7 @@ Let $M$ be a [[Poisson manifold]], possibly infinite-dimensional with $A = C^\in
 +-- {: .num_remark}
 ###### Remark
 
-For any observable $a \in A$ we say that a **1-parameter flow induced by the observable** is, if it exists, an [[action]] of the [[real number]]s on the observables
+For any observable $a \in A$ we say that a **1-parameter flow induced by the observable** is, if it exists, an [[action]] of the [[real number|real numbers]] on the observables
 
 $$
   F_a : \mathbb{R} \times A \to A
@@ -187,7 +187,7 @@ In non-relativistic classical mechanics every system comes up with a choice of o
 +-- {: .num_defn}
 ###### Definition
 
-Write $StarAlg_{\mathbb{C}}$ for the category of [[star-algebra]]s over the [[complex number]]s. 
+Write $StarAlg_{\mathbb{C}}$ for the category of [[star-algebra|star-algebras]] over the [[complex number|complex numbers]]. 
 
 The [[opposite category]]
 
