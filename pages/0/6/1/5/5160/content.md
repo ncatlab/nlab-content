@@ -50,7 +50,10 @@ On [[philosophy of mathematics]]:
 
 
 
+
 ## Related entries
+
+* [[group algebra]]
 
 * [[Gruppenpest]]
 
