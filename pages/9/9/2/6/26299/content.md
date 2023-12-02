@@ -19,9 +19,22 @@
 * table of contents
 {:toc}
 
+## Idea
+
+(...)
+
+## Related cocepts
+
+* [[first class constraint]]
+
+* [[Gauss law]]
 
 ## References
 
 General:
 
-* Chapter One in: [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_.
+* [[Marc Henneaux]], [[Claudio Teitelboim]], Chapter 1 in: _[[Quantization of Gauge Systems]]_.
+
+[[!redirects constraint]]
+[[!redirects constraints]]
+
