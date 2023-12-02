@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Stone--von Neumann theorem_ (due to [[Marshall Stone]] and [[John von Neumann]]) says that there is -- up to [[isomorphism]] -- a unique [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on finitely many generators (equivalently: of the [[Weyl relations]] of the [[canonical commutation relations]]).
+The _Stone--von Neumann theorem_ (due to [[Marshall Stone]] and [[John von Neumann]]) says that there is -- up to [[isomorphism]] -- a unique [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on finitely many generators (equivalently: of the [[Weyl algebra]], [[Weyl relations]], [[canonical commutation relations]]).
 
 The analogous statement does _not_ hold for infinitely many generators (as they appear in [[quantum field theory]]); this is _[[Haag's theorem]]_.
 
@@ -48,17 +48,21 @@ This is often called the _Schrödinger representation_ (after [[Erwin Schröding
 
 ## References
 
-The original articles are
+The original articles:
 
-* [[John von Neumann]], _Die Eindeutigkeit der Schr&#246;dingerschen Operatoren_ ,  Mathematische Annalen (Springer Berlin / Heidelberg) 104: 570&#8211;578, 
+* [[John von Neumann]], *Die Eindeutigkeit der Schrödingerschen Operatoren*, Mathematische Annalen **104**  (1931) 570–578 &lbrack;[doi:10.1007/BF01457956](https://doi.org/10.1007/BF01457956)&rbrack;
+ 
+* [[John von Neumann]], _Über Einen Satz Von Herrn M. H. Stone_, Annals of Mathematics, Second Series **33** 3 (1932) 567-573 &lbrack;[doi:10.2307/1968535](https://doi.org/10.2307/1968535), [jstor:1968535](https://www.jstor.org/stable/1968535)&rbrack;
 
-* [[John von Neumann]], _&#220;ber Einen Satz Von Herrn M. H. Stone_ (in German), Annals of Mathematics, Second Series 33 (3): 567&#8211;573, ISSN 0003-486X
-
-* [[Marc Rieffel]], _On the uniqueness of the Heisenberg commutation relations_ ([pdf](http://www.univie.ac.at/nuhag-php/bibtex/open_files/ri72_rieffuhcr.pdf))
-
-Review includes
+Review:
 
 * {#Redei} [[Miklós Rédei]], _Von Neumann's proof of Uniqueness of Schrödinger representation of Heisenberg's commutation relation_ ([[RedeiCCRRepUniqueness.pdf:file]])
+
+
+Further discussion:
+
+* [[Marc Rieffel]], _On the uniqueness of the Heisenberg commutation relations_, Duke Math. J. **39**  4 (1972) 745-752 &lbrack;[doi:10.1215/S0012-7094-72-03982-8](https://projecteuclid.org/journals/duke-mathematical-journal/volume-39/issue-4/On-the-uniqueness-of-the-Heisenberg-commutation-relations/10.1215/S0012-7094-72-03982-8.short)&rbrack;
+
 
 See also 
 
