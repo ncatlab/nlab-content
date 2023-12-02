@@ -40,9 +40,28 @@ Depending on conventions, the [[universal enveloping algebra]] of the [[Heisenbe
 
 Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebra]] it makes sense to call its [[universal enveloping E-n algebra|universal enveloping $E_n$-algebra]] a _[[Weyl n-algebra|Weyl $n$-algebra]]_.
 
+## Related concepts
 
+* [[Weyl relations]]
+
+* [[canonical commutation relations]]
+
+* [[Heisenberg algebra]]
 
 ## References
+
+Named after:
+
+* [[Hermann Weyl]], pp. 22 in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+
+and early adopted by:
+
+* [[John von Neumann]], *Die Eindeutigkeit der Schrödingerschen Operatoren*, Mathematische Annalen **104**  (1931) 570–578 &lbrack;[doi:10.1007/BF01457956](https://doi.org/10.1007/BF01457956)&rbrack;
+
+  > (proving the [[Stone-von Neumann theorem]])
+ 
+
+Further discussion:
 
 * S. C. Coutinho, Introduction to: *A primer of algebraic D-modules*, London Math. Soc. Stud. Texts **33**, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511623653](https://doi.org/10.1017/CBO9780511623653)&rbrack;
 
@@ -52,7 +71,20 @@ Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebra]] it 
 
 * {#Bekaert05} [[Xavier Bekaert]], *Universal enveloping algebras and some applications in physics* (2005) &lbrack;[cds:904799](https://cds.cern.ch/record/904799), [pdf](https://cds.cern.ch/record/904799/files/cer-002575006.pdf)&rbrack;
 
+* [[Markus Pflaum]], *From Weyl quantization to modern algebraic index theory*, in *Groups and Analysis -- The Legacy of Hermann Weyl*, Cambridge University Press (2008) 84-99 &lbrack;[doi:10.1017/CBO9780511721410.005](https://doi.org/10.1017/CBO9780511721410.005)&rbrack;
 
+On [[continuous field of C-star algebras|continuous fields]] of [[Weyl algebras]] as [[continuous deformation quantizations]] of [[symplectic vector spaces|symplectic]] [[topological vector spaces]]:
+
+* [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Field-theoretic Weyl Quantization as a Strict and Continuous Deformation Quantization*, Annales Henri Poincaré **5** (2004) 327–346 &lbrack;[doi:10.1007/s00023-004-0171-y](https://doi.org/10.1007/s00023-004-0171-y)&rbrack;
+
+On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenberg groups]] as [[strict deformation quantizations]] of [[presymplectic manifold|pre-]][[symplectic vector spaces|symplectic]] [[topological vector spaces]] by [[continuous field of C-star algebras|continuous fields of]] [[Weyl algebras]]:
+
+* [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
+
+* [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
+
+
+See also:
 
 * [[eom]]: J.-E. Bj&#246;rk, [Weyl algebra](http://eom.springer.de/w/w097670.htm)
 
