@@ -29,7 +29,7 @@ The finitary version of the monad is defined as follows. First recall that for a
 
 $$\Delta(n)=\{(r_1,\dots,r_n)\in[0,1]^n | \textstyle \sum_{i=1}^n r_i=1\}$$ 
 
-is the [[topological simplex|topological $n$-simplex]]. A subset $S\subseteq \Delta(n)$ is _[[convex set|convex]]_ if it is closed under [[convex combinations]], i.e. if $\vec r\in S$ and $\vec s\in S$ then $(a\vec r+(1-a) \vec s)\in S$ for any $a\in[0,1]$. 
+is the [[topological simplex|topological $(n-1)$-simplex]]. A subset $S\subseteq \Delta(n)$ is _[[convex set|convex]]_ if it is closed under [[convex combinations]], i.e. if $\vec r\in S$ and $\vec s\in S$ then $(a\vec r+(1-a) \vec s)\in S$ for any $a\in[0,1]$. 
 
 Any finite set of points $\{\vec r_1\dots \vec r_k\}\subseteq \Delta(n)$ _generate_ a convex set (the [[convex hull]]):
 
@@ -83,10 +83,27 @@ $$ x \oplus y =
 =
 x \oplus y \oplus (x +_0.5 y) \ .)$$
 
+The theory is not [[commutative algebraic theory|commutative]], and so the monad is not a [[commutative monad]]. 
+Indeed 
+
+$$  (x +_0.5 z) \oplus (y +_0.5 x) \neq 
+(x \oplus y) +_0.5 (z \oplus x)$$
+
+since the right hand side is equal to 
+$(x +_0.5 z) \oplus (y+_0.5 z) \oplus (y+_0.5 x)$,
+and we can compare the convex hulls of the two points of the left-hand side $[(0.5,0,0.5),(0.5,0.5,0)]$  and the three points of the right-hand side [(0.5,0,0.5),(0,0.5,0.5),(0.5,0.5,0)], which are different subsets of the 2-simplex (triangle). 
+
 ## References
 
-Convex powersets of distributions have been considered by various authors over the last few decades. A recent survey is:
+Convex powersets of distributions have been considered by various authors over the last few decades. 
+
+A recent extension to metric spaces, including a literature survey is:
 
 * Matteo Mio, Valeria Vignudelli, *Monads and Quantitative Equational Theories for Nondeterminism and Probability*,in:  *CONCUR 2020*, LIPIcs **171** (2020) 28:1-28:18, &lbrack;[doi:10.4230/LIPIcs.CONCUR.2020.28](https://doi.org/10.4230/LIPIcs.CONCUR.2020.28), [hal:03028173](https://hal.science/hal-03028173), [arXiv:2005.07509](https://arxiv.org/abs/2005.07509)&rbrack;
+
+The theory is shown to be a "distributive tensor" of probability and non-determinism, and the geometric nature is spelt out in Chapter 6 of:
+
+* Kwok-Ho Cheung, *Distributive Interaction of Algebraic
+Effects*, PhD thesis, Oxford 2017 &lbrack;[university archive](https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818)&rbrack;.
 
 [[!redirects convex powerset of distributions monads]]
