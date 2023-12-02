@@ -12,8 +12,6 @@
 
 ## Selected writings
 
-
-
 On [[intuitionistic mathematics]] following [[L.E.J. Brouwer]]:
 
 * [[Hermann Weyl]], *Über die neue Grundlagenkrise der Mathematik*, Zürich 1920 ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0010?tify={%22pages%22:[45],%22panX%22:0.525,%22panY%22:0.381,%22view%22:%22info%22,%22zoom%22:0.659}), [purl:PPN266833020_0010](http://resolver.sub.uni-goettingen.de/purl?PPN266833020_0010))
@@ -27,6 +25,11 @@ Both of these are available in English translations as part of:
 On [[general relativity]]
 
 * _Raum, Zeit, Materie: Vorlesungen &#252;ber die Allgemeine Relativit&#228;tstheorie_, Springer Berlin Heidelberg 1923 
+
+On [[group theory]] and [[representation theory]] in application to [[quantum mechanics]] (cf. "[[Gruppenpest]]"):
+
+* [[Hermann Weyl]], *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig, (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics* Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
+
 
 On [[symmetry]] and the [[Erlangen program]]:
 
@@ -43,7 +46,9 @@ On [[philosophy of mathematics]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
+
+* [[Gruppenpest]]
 
 * [[gauge theory]]
 
