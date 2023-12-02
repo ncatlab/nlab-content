@@ -30,7 +30,7 @@ Likewise, a **compact virtual double category** is a [[virtual double category]]
 
 By contrast, in a **virtually compact virtual double category**, the monoidal and compact structure has also been "virtualized": rather than coming equipped with a horizontally functorial tensor product, in such a virtual double category there are also horizontal arrows with multi-sources that are finite lists of objects with variance, such as $(A,B^{op},C)$.  We can also have a **virtually compact double category** which is an honest double category, but whose monoidal and compact structure is only virtual.
 
-Finally, if a compact double category or virtual category is a [[proarrow equipment]] or a [[virtual equipment]], we of course call it a **compact (virtual) proarrow equipment**.
+Finally, if a compact double category or virtual double category is a [[proarrow equipment]] or a [[virtual equipment]], we of course call it a **compact (virtual) proarrow equipment**.
 
 ## Definition
 
