@@ -6,7 +6,7 @@
 
 ## Idea
 
-While [[Yang-Mills theory]] with a fundamental [[mass]]-term (as opposed to a [[spontaneous symmetry breaking|dynamical]] mass via a [[Higgs mechanism]]) cannot be both [[renormalizability|renormalizable]] and unitary ([Delbourgo-Twisk-Thompson 88](#DelbourgoTwiskThompson88)), it does appear in certain [[effective field theories]], notably in [[quantum hadrodynamics]].
+While [[Yang-Mills theory]] with a fundamental [[mass]]-term (as opposed to a [[spontaneous symmetry breaking|dynamical]] mass via a [[Higgs mechanism]]) cannot be both [[renormalizability|renormalizable]] and unitary ([Delbourgo, Twisk & Thompson 1988](#DelbourgoTwiskThompson88)), it does appear in certain [[effective field theories]], notably in [[quantum hadrodynamics]].
 
 ## Related conceps
 
@@ -18,7 +18,7 @@ While [[Yang-Mills theory]] with a fundamental [[mass]]-term (as opposed to a [[
 
 ### General
 
-* {#DelbourgoTwiskThompson88} Robert Delbourgo, S. Twisk, George Thompson, _Massive Yang-Mills theory: Renormalizability versus unitarity_, Int. J. Mod. Phys. A 3 (1988) 435 ([doi:10.1142/S0217751X88000163](https://doi.org/10.1142/S0217751X88000163))
+* {#DelbourgoTwiskThompson88} Robert Delbourgo, S. Twisk, [[George Thompson]], _Massive Yang-Mills theory: Renormalizability versus unitarity_, Int. J. Mod. Phys. A **3** 2 (1988) 435-449 &lbrack;[doi:10.1142/S0217751X88000163](https://doi.org/10.1142/S0217751X88000163)&rbrack;
 
 * U. Ellwanger, N. Wschebor, _Massive Yang-Mills Theory in Abelian Gauges_, Int. J. Mod. Phys. A18 (2003) 1595-1612 ([arXiv:hep-th/0205057](https://arxiv.org/abs/hep-th/0205057))
 
