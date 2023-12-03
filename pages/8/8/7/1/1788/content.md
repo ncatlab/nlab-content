@@ -1,4 +1,16 @@
 
+**Quantum Observables of Quantized Fluxes**
+
+While it has become widely appreciated that defining a (higher) gauge theory requires, in addition to ordinary phase space data, also a "flux quantization" law in generalized differential cohomology, there has been little to no discussion of the rules, if any, for lifting Poisson-brackets of (flux-)observables and their quantization from ordinary phase spaces to the resulting higher moduli stacks of gauge fields.
+
+We highlight that the natural perspective to address this question is that known in the traditional literature as "pre-metric electromagnetism" supplemented by "constitutive laws", which in the supergravity/string theory literature corresponds to the "duality symmetric" or "democratic" formulation, where the Bianchi identies on flux densities and their formal Hodge-duals (pre-metric fluxes) are separated from the constraint of actual Hodge-duality (coupling fluxes to the background metric).
+
+The upshot is that differential-cohomological flux quantization really needs to be applied to the pre-metric (duality-symmetric) fluxes. We observe that this involves further choices which seem to have never been made explicit before, but which in special cases have been made implicitly in the literature, notably in the hypothesis that D-brane fluxes are quantized in topological K-theory.
+
+Finally, given a choice of pre-metric flux quantization law, possibly in generalized non-abelian cohomology, we observe that it is the homology Pontrjagin algebra of the loop space of the resulting moduli space of transverse fluxes which looks much like the expected algebra of quantum observables on these quantized fluxes. 
+
+This suggests a general scheme for constructing non-perturbative quantum observables on flux-quantized higher gauge fields, which we indicate in closing.
+
 
 charge quantization of the electric field such that there is *no* constraint on the electric field density are of the form $B^2 \mathbb{Q} \times A$ for $A$ any rationally trivial space, such as $A = B K$ for $K$ any finite group. In forming the product with the magnetic charge quantization via $B^2 \mathbb{Z}$, there is then also the freedom to have a semidirect product from an action of $K$ on $U(1)$: $B\big(U(1) \rtimes K\big)$. In this case the magnetic fluxes commute among each other while the electric fluxes need not commute among each other and may have non-trivial action on the magentic fluxes -- just as expected from phase space analysis.
 
