@@ -106,30 +106,27 @@ The theory in the finitely generated case is shown to be a "distributive tensor"
 * Kwok-Ho Cheung, *Distributive Interaction of Algebraic
 Effects*, PhD thesis, Oxford 2017 &lbrack;[university archive](https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818)&rbrack;.
 
+
 The theory is further spelt out, amongst other things, in:
 
-* Filippo Bonchi, Ana Sokolova, Valeria Vignudelli. *The Theory of Traces for Systems with Nondeterminism, Probability, and Termination*. Logical Methods in Computer Science, June 17, 2022, Volume 18, Issue 2. &lbrack;[doi:10.46298/lmcs-18&lpar;2:21&rpar;2022](https://doi.org/10.46298/lmcs-18(2:21)2022)&rbrack;
+* Filippo Bonchi, Ana Sokolova, Valeria Vignudelli: *The Theory of Traces for Systems with Nondeterminism, Probability, and Termination*, Logical Methods in Computer Science **18** 2 (2022) \[<a href="https://doi.org/10.46298/lmcs-18(2:21)2022">doi:10.46298/lmcs-18(2:21)2022</a>\]
 
 The case with unbounded, infinite joins is earlier considered here:
  
-* Bart Jacobs, *Coalgebraic trace semantics for combined possibilitistic and probabilistic systems*, Proceedings of CMCS 2008, ENTCS Vol 3 Issue 5, &lbrack;[doi:10.1016/j.entcs.2008.05.023](https://doi.org/10.1016/j.entcs.2008.05.023)&rbrack;
+* [[Bart Jacobs]], *Coalgebraic trace semantics for combined possibilitistic and probabilistic systems*, Proceedings of CMCS 2008, ENTCS **203** 5 (2008) 131-152 &lbrack;[doi:10.1016/j.entcs.2008.05.023](https://doi.org/10.1016/j.entcs.2008.05.023)&rbrack;
 
 In the domain theoretic setting, convex powersets of distributions are explored and axiomatized amongst other approaches by 
 
-* Daniela Varacca. *Probability, Nondeterminism and Concurrency: Two Denotational Models for
-Probabilistic Computation*. PhD thesis, Univ. Aarhus, 2003. &lbrack;[university archive](https://www.brics.dk/DS/03/14/)&rbrack;
+* Daniela Varacca: *Probability, Nondeterminism and Concurrency: Two Denotational Models for
+Probabilistic Computation*. PhD thesis, Univ. Aarhus (2003) &lbrack;[brics:DS/03/14](https://www.brics.dk/DS/03/14)&rbrack;
 
 and analyzed as "convex powercones" by 
 
-* Michael W Mislove. *Nondeterminism and probabilistic choice: Obeying the laws.* In Proc. CONCUR
-2000, pages 350–364. LNCS 1877, 2000. &lbrack;[doi:10.1007/3-540-44618-4\_26](https://doi.org/10.1007/3-540-44618-4_26)&rbrack;.
+* Michael W Mislove: *Nondeterminism and probabilistic choice: Obeying the laws*, in: Proc. CONCUR
+2000, Lecture Notes in Computer Science **1877**, Springer (2000) 350–364 &lbrack;[doi:10.1007/3-540-44618-4\_26](https://doi.org/10.1007/3-540-44618-4_26)&rbrack;.
 
-* Regina Tix, Klaus Keimel, and Gordon D. Plotkin. *Semantic domains for combining probability and non-
-determinism.* Electronic Notes in Theoretical Computer Science, 222:3–99, 2009. &lbrack;[doi:10.1016/j.
-entcs.2009.01.002](https://doi.org/10.1016/j.
-entcs.2009.01.002)&rbrack;. 
+* [[Regina Tix]], [[Klaus Keimel]], [[Gordon D. Plotkin]]: *Semantic domains for combining probability and non-determinism*, Electronic Notes in Theoretical Computer Science, **222** (2009) 3–99 &lbrack;[doi:10.1016/j.entcs.2009.01.002](https://doi.org/10.1016/j.entcs.2009.01.002)&rbrack;
 
-* Jean Goubault-Larrecq. *Prevision domains and convex powercones.* In Proc. FOSSACS 2008, pages 318–333.
-LNCS 4962, 2008. &lbrack;[doi:10.1007/978-3-540-78499-9\_23](https://doi.org/10.1007/978-3-540-78499-9_23)&rbrack;
+* Jean Goubault-Larrecq: *Prevision domains and convex powercones*, in: Proc. FOSSACS 2008, Lecture Notes in Computer Science **4962**, Springer (2008) 318–333 &lbrack;[doi:10.1007/978-3-540-78499-9\_23](https://doi.org/10.1007/978-3-540-78499-9_23)&rbrack;
 
 [[!redirects convex powerset of distributions monads]]
