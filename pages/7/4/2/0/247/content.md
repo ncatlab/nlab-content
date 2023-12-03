@@ -41,6 +41,10 @@ On [[higher observational type theory]]:
 
 * [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval* ([arXiv:2307.06448](https://arxiv.org/abs/2307.06448))
 
+On [[displayed type theory]]:
+
+* [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* ([arXiv:2311.18781](https://arxiv.org/abs/2311.18781)) 
+
 ## Talks
 
 On [[higher observational type theory]]:
