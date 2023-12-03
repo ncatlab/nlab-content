@@ -37,7 +37,7 @@ See also at _[[doctrine]]_.
 
 * [[Noson Yanofsky]], _The syntax of coherence_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, 2000. [Cahiers pdf](http://www.numdam.org/article/CTGDC_2000__41_4_255_0.pdf), [arXiv](https://arxiv.org/abs/math/9910006)
 
-* [[John Gray]], _2-algebraic theories and triples_, in Colloques sur l’algebre des categories. Amiens 1973. Resumes des conferences. (2015), vol. 14, pp. 178–180.
+* [[John Gray]], _2-algebraic theories and triples_, in Colloques sur l’algebre des categories. Amiens 1973. Resumes des conferences vol. 14, pp. 178–180.
 
 * [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, Applied Categorical Structures, Volume 25, Issue 4, pp 603-624, (2017). [ACS](https://link.springer.com/article/10.1007/s10485-016-9467-6), [arXiv](https://arxiv.org/abs/1508.07789)
 
