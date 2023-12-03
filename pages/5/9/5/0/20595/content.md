@@ -59,14 +59,13 @@ It is also customary to ignore the $2$-structure and simply work with $\mathrm{C
 ### Categories of decorated cospans
 +-- {: .un_defn #DecoratedCospanCategory}
 ###### Definition
-([B. Fong 2015](#BrendanFong2015))
 Let $\mathbf C$ be a [[finitely cocomplete category|category with finite colimits]], and
 $$
-(F, \phi): (\mathbf C, +) \to (\mathbf D, \otimes)
+(F, \phi): (\mathbf C, +) \to (\mathbf {Set}, \times)
 $$
-be a [[lax monoidal functor]]. A **decorated cospan**, or more precisely an **$F$-decorated cospan**, is a pair $(x \overset{i}\to n \overset{o}\leftarrow y,\, 1 \overset{s}\to Fn)$. We shall call the element $1 \overset{s}\to Fn$ the **decoration** of the decorated cospan. A morphism of decorated cospans
+be a [[lax monoidal functor]]. A **decorated cospan**, or more precisely an **$F$-decorated cospan**, is a pair $(x \overset{i}\to n \overset{o}\leftarrow y,\, {s}\in Fn)$. We shall call the element $1 \overset{s}\to Fn$ the **decoration** of the decorated cospan. A morphism of decorated cospans
 $$
-f : (x \overset{i}\to n \overset{o}\leftarrow y,\, 1 \overset{s}\to Fn) \to (x \overset{i}\to n' \overset{o}\leftarrow y,\, 1 \overset{s'}\to Fn')
+f : (x \overset{i}\to n \overset{o}\leftarrow y,\, s\in Fn) \to (x \overset{i}\to n' \overset{o}\leftarrow y,\,  s'\in Fn')
 $$
 is a morphism of cospans such that the following commutes:
 $$
@@ -78,7 +77,10 @@ $$
  && Fn'
 }
 $$
+i.e. $Ff(s)=Ff(s')$. 
 =--
+
+The definition is due to [Fong 2015](#BrendanFong2015), except there is allowed an arbitrary codomain, $(F, \phi): (\mathbf C, +) \to (\mathbf {D}, \otimes)$, and then a global element $I\overset{s}\to Fn$. The notion is equivalent, by composing with the [[global elements]] functor $\mathbf{D}(I,-):\mathbf{D}\to \mathbf{Set}$, which is always lax monoidal. Nonetheless the $F$ in use will indeed typically arise from global elements of some familiar category $\mathbf{D}$. 
 
 +-- {: .un_def}
 ###### Definition
@@ -120,7 +122,7 @@ $$
 along with the decoration
 
 $$
-1 \overset{\lambda^{-1}}\longrightarrow 1 \otimes 1 \overset{s \otimes s'}\longrightarrow Fn \otimes Fm \overset{\phi_{n,m}}\longrightarrow F(n+m) \overset{F[j_n,j_m]}\longrightarrow F(n +_y m).
+1 \overset{(s,s')}\longrightarrow Fn \times Fm \overset{\phi_{n,m}}\longrightarrow F(n+m) \overset{F[j_n,j_m]}\longrightarrow F(n +_y m).
 $$
 
 where $1 \overset{s}\to Fn$ and $1 \overset{s'}\to Fm$ are decorations of the first and second cospan, respectively.
