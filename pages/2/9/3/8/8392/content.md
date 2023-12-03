@@ -17,6 +17,11 @@ On [[monads in computer science]], such as the (local) [[state monad]]:
 
 * {#PlotkinPower02} [[Gordon Plotkin]], [[John Power]], Section 3 of: *Notions of computation determine monads* In: M. Nielsen, U. Engberg, (eds.) FOSSACS 2002. LNCS, Lecture Notes in Computer Science **2303** 342-356 Springer, (2002) &lbrack;[doi:10.1007/3-540-45931-6_24p](https://doi.org/10.1007/3-540-45931-6_24)&rbrack;
 
+On [[category theory|category theoretic]] [[probability theory]] (cf. *[[convex powerset of distributions monad]]*):
+
+* [[Regina Tix]], [[Klaus Keimel]], [[Gordon D. Plotkin]]: *Semantic domains for combining probability and non-determinism*, Electronic Notes in Theoretical Computer Science, **222** (2009) 3–99 &lbrack;[doi:10.1016/j.entcs.2009.01.002](https://doi.org/10.1016/j.entcs.2009.01.002)&rbrack;
+
+
 On effect handling via [[module over a monad|modules]] over [[monads in computer science]]:
 
 * [[Gordon D. Plotkin ]], [[Matija Pretnar]], *Handling Algebraic Effects*, Logical Methods in Computer Science, **9** 4 (2013) lmcs:705 &lbrack;[arXiv:1312.1399](https://arxiv.org/abs/1312.1399), <a href=" https://doi.org/10.2168/LMCS-9(4:23)2013">doi:10.2168/LMCS-9(4:23)2013</a>&rbrack;
