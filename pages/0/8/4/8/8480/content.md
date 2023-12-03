@@ -149,7 +149,7 @@ One may mimic the last part of the proof of the Knaster-Tarski theorem to show t
 
 ### Initial algebras and final coalgebras 
 
-Various classical fixed-point theorems for monotone functions on posets can be "[[categorification|categorified]]" to give appropriate fixed-point theorems for [[endofunctors]] on categories. An example is that [[Kleene's fixed-point theorem]] generalizes to [[Adamek's fixed-point theorem]]: 
+Various classical fixed-point theorems for monotone functions on posets can be "[[categorification|categorified]]" to give appropriate fixed-point theorems for [[endofunctors]] on categories. An example is that [[Kleene's fixed-point theorem]] generalizes to [[Adámek's fixed point theorem]]: 
 
 +-- {: .num_theorem} 
 ###### Theorem 
