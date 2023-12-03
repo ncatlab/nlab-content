@@ -101,9 +101,35 @@ A recent extension to metric spaces, including a literature survey is:
 
 * Matteo Mio, Valeria Vignudelli, *Monads and Quantitative Equational Theories for Nondeterminism and Probability*,in:  *CONCUR 2020*, LIPIcs **171** (2020) 28:1-28:18, &lbrack;[doi:10.4230/LIPIcs.CONCUR.2020.28](https://doi.org/10.4230/LIPIcs.CONCUR.2020.28), [hal:03028173](https://hal.science/hal-03028173), [arXiv:2005.07509](https://arxiv.org/abs/2005.07509)&rbrack;
 
-The theory is shown to be a "distributive tensor" of probability and non-determinism, and the geometric nature is spelt out in Chapter 6 of:
+The theory in the finitely generated case is shown to be a "distributive tensor" of probability and non-determinism, and axioms and geometric nature is spelt out in Chapter 6 of:
 
 * Kwok-Ho Cheung, *Distributive Interaction of Algebraic
 Effects*, PhD thesis, Oxford 2017 &lbrack;[university archive](https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818)&rbrack;.
+
+The theory is further spelt out, amongst other things, in:
+
+* Filippo Bonchi, Ana Sokolova, Valeria Vignudelli. *The Theory of Traces for Systems with Nondeterminism, Probability, and Termination*. Logical Methods in Computer Science, June 17, 2022, Volume 18, Issue 2. &lbrack;[doi:10.46298/lmcs-18&lpar;2:21&rpar;2022](https://doi.org/10.46298/lmcs-18(2:21)2022)&rbrack;
+
+The case with unbounded, infinite joins is earlier considered here:
+ 
+* Bart Jacobs, *Coalgebraic trace semantics for combined possibilitistic and probabilistic systems*, Proceedings of CMCS 2008, ENTCS Vol 3 Issue 5, &lbrack;[doi:10.1016/j.entcs.2008.05.023](https://doi.org/10.1016/j.entcs.2008.05.023)&rbrack;
+
+In the domain theoretic setting, convex powersets of distributions are explored and axiomatized amongst other approaches by 
+
+* Daniela Varacca. *Probability, Nondeterminism and Concurrency: Two Denotational Models for
+Probabilistic Computation*. PhD thesis, Univ. Aarhus, 2003. &lbrack;[university archive](https://www.brics.dk/DS/03/14/)&rbrack;
+
+and analyzed as "convex powercones" by 
+
+* Michael W Mislove. *Nondeterminism and probabilistic choice: Obeying the laws.* In Proc. CONCUR
+2000, pages 350–364. LNCS 1877, 2000. &lbrack;[doi:10.1007/3-540-44618-4\_26](https://doi.org/10.1007/3-540-44618-4_26)&rbrack;.
+
+* Regina Tix, Klaus Keimel, and Gordon D. Plotkin. *Semantic domains for combining probability and non-
+determinism.* Electronic Notes in Theoretical Computer Science, 222:3–99, 2009. &lbrack;[doi:10.1016/j.
+entcs.2009.01.002](https://doi.org/10.1016/j.
+entcs.2009.01.002)&rbrack;. 
+
+* Jean Goubault-Larrecq. *Prevision domains and convex powercones.* In Proc. FOSSACS 2008, pages 318–333.
+LNCS 4962, 2008. &lbrack;[doi:10.1007/978-3-540-78499-9\_23](https://doi.org/10.1007/978-3-540-78499-9_23)&rbrack;
 
 [[!redirects convex powerset of distributions monads]]
