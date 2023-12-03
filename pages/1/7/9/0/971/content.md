@@ -25,23 +25,25 @@ An accessible [[category]] is a possibly [[large category]] which is however ess
 
 ## Definition 
 
+Let $\kappa$ be a [[regular cardinal]]. Recall an object $X: \mathcal{C}$ is $\kappa$-compact iff $\mathcal{C}(X,-)$ commutes with $\kappa$-filtered colimits.
+
 +-- {: .num_defn }
 ###### Definition 
 
-A [[locally small category]] $C$ is **$\kappa$-accessible** for a [[regular cardinal]] $\kappa$ if:
+A [[locally small category]] $\mathcal{C}$ is **$\kappa$-accessible** if:
 
 1.  the category has $\kappa$-[[directed colimits]] (or, equivalently, $\kappa$-filtered colimits), and
 
 1.  there is a [[set]] of $\kappa$-[[compact objects]] that generate the category under $\kappa$-directed colimits.
 
-Then $C$ is an **accessible category** if there exists a $\kappa$ such that it is $\kappa$-accessible.
+Then $\mathcal{C}$ is an **accessible category** if there exists a $\kappa$ such that it is $\kappa$-accessible.
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-Unlike for [[locally presentable categories]], it does not follow that if $C$ is $\kappa$-accessible and $\kappa\lt \lambda$ then $C$ is also $\lambda$-accessible.  It is true, however, that for any accessible category, there are arbitrarily large cardinals $\lambda$ such that $C$ is $\lambda$-accessible.
+Unlike for [[locally presentable categories]], it does not follow that if $\mathcal{C}$ is $\kappa$-accessible and $\kappa\lt \lambda$ then $\mathcal{C}$ is also $\lambda$-accessible.  It is true, however, that for any accessible category, there are arbitrarily large cardinals $\lambda$ such that $C$ is $\lambda$-accessible.
 
 =--
 
@@ -52,11 +54,11 @@ Equivalent characterizations include that $C$ is accessible iff:
 
 * it is the category of [[models]] (in [[Set]]) of some small [[sketch]].
 
-* it is of the form $Ind_\kappa(S)$ for $S$ small, i.e. the $\kappa$-[[ind-object|ind-completion]] of a small category, for some $\kappa$.
+* it is of the form $\mathrm{Ind}_\kappa(S)$ for $S$ small, i.e. the $\kappa$-[[ind-object|ind-completion]] of a small category, for some $\kappa$.
 
-* it is of the form $\kappa\,Flat(S)$ for $S$ small and some $\kappa$, i.e. the category of $\kappa$-[[flat functor|flat]] functors from some small category to $Set$.
+* it is of the form $\kappa\,\mathrm{Flat}(S)$ for $S$ small and some $\kappa$, i.e. the category of $\kappa$-[[flat functor|flat]] functors from some small category to $Set$.
 
-* it is the category of models (in $Set$) of a suitable type of logical theory.
+* it is the category of models (in $\mathbf{Set}$) of a suitable type of logical theory.
 
 =--
 
@@ -75,7 +77,7 @@ an **[[accessible functor]]**  if there exists a $\kappa$ such that $C$ and $D$ 
 
 ### Raising the index of accessibility
 
-If $C$ is $\lambda$-accessible and $\lambda\unlhd\mu$ (see [[sharply smaller cardinal]]), then $C$ is $\mu$-accessible.  Thus, any accessible category is $\mu$-accessible for arbitrarily large cardinals $\mu$.
+If $\mathcal{C}$ is $\lambda$-accessible and $\lambda\unlhd\mu$ (see [[sharply smaller cardinal]]), then $\mathcal{C}$ is $\mu$-accessible.  Thus, any accessible category is $\mu$-accessible for arbitrarily large cardinals $\mu$.
 
 ### Stability under various constructions
 
@@ -92,7 +94,7 @@ If $\mathcal{C}$ is an accessible category and $K$ is a [[small category]], then
 ###### Proposition 
 **(preservation of accessibility under inverse images)**
 
-Let $F : C \to D$ be a [[functor]] between [[locally presentable categories]] which preserves $\kappa$-[[filtered category|filtered]] [[colimits]], and let $D_0 \subset D$ be an accessible subcategory. Then the inverse image $f^{-1}(D_0) \subset C$ is a $\kappa$-accessible subcategory.
+Let $F : \mathcal{C} \to \mathcal{D}$ be a [[functor]] between [[locally presentable categories]] which preserves $\kappa$-[[filtered category|filtered]] [[colimits]], and let $\mathcal{D}_0 \subset \mathcal{D}$ be an accessible subcategory. Then the inverse image $f^{-1}(\mathcal{D}_0) \subset C$ is a $\kappa$-accessible subcategory.
 
 =--
 
@@ -100,21 +102,15 @@ Let $F : C \to D$ be a [[functor]] between [[locally presentable categories]] wh
 This appears as [[Higher Topos Theory|HTT, corollary A.2.6.5]].
 
 
-
 +-- {: .num_prop}
 ###### Proposition 
 **(accessibility of fibrations and weak equivalences in a combinatorial model category)**
 
-Let $C$ be a [[combinatorial model category]], $Arr(C)$ its [[arrow category]], $W \subset Arr(C)$ the [[full subcategory]] on the weak equivalences and $F \subset Arr(C)$ the full subcategory on the fibrations. Then $F$, $W$ and $F \cap W$ are accessible subcategories of $Arr(C)$.
+Let $\mathcal{C}$ be a [[combinatorial model category]], $Arr(\mathcal{C})$ its [[arrow category]], $W \subset Arr(\mathcal{C})$ the [[full subcategory]] on the weak equivalences and $F \subset Arr(\mathcal{C})$ the full subcategory on the fibrations. Then $F$, $W$ and $F \cap W$ are accessible subcategories of $Arr(\mathcal{C})$.
 
 =--
 
 This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
-
-
-
-
-
 
 
 ### Adjoint functor theorem
@@ -169,7 +165,7 @@ See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
 ### Well-poweredness and well-copoweredness
 
-* Every accessible category $C$ is [[well-powered category|well-powered]], since it has a small [[dense subcategory]] $A$, for which the [[restricted Yoneda embedding]] $C\to [A^{op},Set]$ is fully faithful and preserves monomorphisms, hence embeds the subobject posets of $C$ as sub-posets of those of $[A^{op},Set]$.
+* Every accessible category $\mathcal{C}$ is [[well-powered category|well-powered]], since it has a small [[dense subcategory]] $\mathcal{A}$, for which the [[restricted Yoneda embedding]] $\mathcal{C} \to [\mathcal{A}^{op},Set]$ is fully faithful and preserves monomorphisms, hence embeds the subobject posets of $\mathcal{C}$ as sub-posets of those of $[\mathcal{A}^{op},Set]$.
 
 * Every accessible category with [[pushouts]] is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdámekRosický1994).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-copowered then there exist arbitrarily large [[measurable cardinals]].
 
