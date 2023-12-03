@@ -1,4 +1,10 @@
 
+* [[Regina Tix]], [[Klaus Keimel]], [[Gordon D. Plotkin]]: *Semantic domains for combining probability and non-determinism*, Electronic Notes in Theoretical Computer Science, **222** (2009) 3–99 &lbrack;[doi:10.1016/j.entcs.2009.01.002](https://doi.org/10.1016/j.entcs.2009.01.002)&rbrack;
+
+
+
+[try](https://doi.org/10.46298/lmcs-18%282:21%292022)
+
 [[central extension]]
 
 $$
