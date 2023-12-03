@@ -63,30 +63,30 @@ Let $\mathbf C$ be a [[finitely cocomplete category|category with finite colimit
 $$
 (F, \phi): (\mathbf C, +) \to (\mathbf {Set}, \times)
 $$
-be a [[lax monoidal functor]]. A **decorated cospan**, or more precisely an **$F$-decorated cospan**, is a pair $(x \overset{i}\to n \overset{o}\leftarrow y,\, {s}\in Fn)$. We shall call the element $1 \overset{s}\to Fn$ the **decoration** of the decorated cospan. A morphism of decorated cospans
+be a [[lax monoidal functor]]. A **decorated cospan**, or more precisely an **$F$-decorated cospan**, is a pair $(x \overset{i}\to n \overset{o}\leftarrow y,\, {s}\in F n)$. We shall call the element $1 \overset{s}\to F n$ the **decoration** of the decorated cospan. A morphism of decorated cospans
 $$
-f : (x \overset{i}\to n \overset{o}\leftarrow y,\, s\in Fn) \to (x \overset{i}\to n' \overset{o}\leftarrow y,\,  s'\in Fn')
+f : (x \overset{i}\to n \overset{o}\leftarrow y,\, s\in F n) \to (x \overset{i}\to n' \overset{o}\leftarrow y,\,  s'\in F n')
 $$
 is a morphism of cospans such that the following commutes:
 $$
 \array{
- && Fn\\
+ && F n\\
  & \nearrow^s\\
- 1 & & \downarrow^{Ff}\\
+ 1 & & \downarrow^{F f}\\
  & \searrow^{s'}\\
- && Fn'
+ && F n'
 }
 $$
-i.e. $Ff(s)=Ff(s')$. 
+i.e. $F f(s)=F f(s')$. 
 =--
 
-The definition is due to [Fong 2015](#BrendanFong2015), except there is allowed an arbitrary codomain, $(F, \phi): (\mathbf C, +) \to (\mathbf {D}, \otimes)$, and then a global element $I\overset{s}\to Fn$. The notion is equivalent, by composing with the [[global elements]] functor $\mathbf{D}(I,-):\mathbf{D}\to \mathbf{Set}$, which is always lax monoidal. Nonetheless the $F$ in use will indeed typically arise from global elements of some familiar category $\mathbf{D}$. 
+The definition is due to [Fong 2015](#BrendanFong2015), except there is allowed an arbitrary codomain, $(F, \phi): (\mathbf C, +) \to (\mathbf {D}, \otimes)$, and then a global element $I\overset{s}\to F n$. The notion is equivalent, by composing with the [[global elements]] functor $\mathbf{D}(I,-):\mathbf{D}\to \mathbf{Set}$, which is always lax monoidal. Nonetheless the $F$ in use will indeed typically arise from global elements of some familiar category $\mathbf{D}$. 
 
 +-- {: .un_def}
 ###### Definition
 Given a cospan $x \to n \leftarrow y$ in $\mathbf C$, the **empty decoration on $n$** is the unique map
 $$
-1 \overset{\phi_1}\longrightarrow F\varnothing \overset{F!}\longrightarrow Fn
+1 \overset{\phi_1}\longrightarrow F\varnothing \overset{F!}\longrightarrow F n
 $$
 where $\varnothing$ is [[initial object|inital]] in $\mathbf C$ and $!$ denotes the universal morphism from such object.
 =--
@@ -122,10 +122,10 @@ $$
 along with the decoration
 
 $$
-1 \overset{(s,s')}\longrightarrow Fn \times Fm \overset{\phi_{n,m}}\longrightarrow F(n+m) \overset{F[j_n,j_m]}\longrightarrow F(n +_y m).
+1 \overset{(s,s')}\longrightarrow F n \times F m \overset{\phi_{n,m}}\longrightarrow F(n+m) \overset{F[j_n,j_m]}\longrightarrow F(n +_y m).
 $$
 
-where $1 \overset{s}\to Fn$ and $1 \overset{s'}\to Fm$ are decorations of the first and second cospan, respectively.
+where $1 \overset{s}\to F n$ and $1 \overset{s'}\to Fm$ are decorations of the first and second cospan, respectively.
 =--
 +-- {: .proof}
 ###### Proof
@@ -155,13 +155,13 @@ $$
 =--
 +-- {: .proof}
 ###### Proof
-We define the monoidal product of objects $x$ and $y$ of $F\mathrm{Cospan}$ to be their coproduct $x+y$ in $\mathbf C$, and defined the monoidal product of decorated cospans $(x \overset{i}\to n \overset{o}\leftarrow y, 1 \overset{s}\to Fn)$ and $(x \overset{i}\to n' \overset{o}\leftarrow y, 1 \overset{s'}\to Fn')$ to be
+We define the monoidal product of objects $x$ and $y$ of $F\mathrm{Cospan}$ to be their coproduct $x+y$ in $\mathbf C$, and defined the monoidal product of decorated cospans $(x \overset{i}\to n \overset{o}\leftarrow y, 1 \overset{s}\to F n)$ and $(x \overset{i}\to n' \overset{o}\leftarrow y, 1 \overset{s'}\to F n')$ to be
 $$
   \array{
      && n + n'
       \\
       & {}^{i_x + i_{x'}}\nearrow
-      && \nwarrow^{o_y + o_{y'}} &&,&& 1 \overset{\lambda^{-1}}\longrightarrow 1 \otimes 1 \overset{s \otimes s'}\longrightarrow Fn \otimes Fn' \overset{\phi_{n,n'}}\longrightarrow F(n+n')
+      && \nwarrow^{o_y + o_{y'}} &&,&& 1 \overset{\lambda^{-1}}\longrightarrow 1 \otimes 1 \overset{s \otimes s'}\longrightarrow F n \otimes F n' \overset{\phi_{n,n'}}\longrightarrow F(n+n')
      \\
      x+x'
      &&&&
