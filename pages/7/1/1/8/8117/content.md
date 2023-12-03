@@ -32,7 +32,7 @@ This suggests that instead of the [[category]] whose [[objects]] are [[symplecti
 
 However, take at face value, symplectic manifolds with [[Lagrangian correspondences]] between them do not quite form a [[category]], since the usual [[composition]] is only well-defined when the intersection of $L_1 \times L_2 \cap X_1 \times \Delta(X_2) \times X_3$ is [transverse](http://ncatlab.org/nlab/show/transversal+maps).
 
-Proposals for how to rectify this are in ([Wehrheim-Woodward](#WehrheimWoodward)) and in ([Kitchloo](#Kitchloo)) (by turning this into an [[(infinity,1)-category]]).
+Proposals for how to rectify this are in [Wehrheim & Woodward](#WehrheimWoodward) and in [Kitchloo](#Kitchloo) (by turning this into an [[(infinity,1)-category]]).
 
 ## Refinements
 
@@ -140,8 +140,7 @@ In his work on Fourier integral operators,
 
 following
 
-* [[Victor Maslov]], _Theory of Perturbations and Asymptotic Methods (in Russian)_, Moskov.
-Gos. Univ., Moscow, (1965).
+* [[Victor Maslov]], _Theory of Perturbations and Asymptotic Methods_, (in Russian) Moskov. Gos. Univ., Moscow (1965).
 
 observed that, under a transversality assumption, the set-theoretic composition of two [[Lagrangian submanifolds]] is again a Lagrangian submanifold, and that this composition is a "[[classical limit]]" of the composition of certain [[linear operators]].
 
@@ -175,26 +174,28 @@ from the introduction of which parts of the commented list of references above i
 * {#Canez11} Santiago Canez, _Double Groupoids, Orbifolds, and the Symplectic Category_ ([arXiv:1105.2592](http://arxiv.org/abs/1105.2592))
 
 
-Further refinements in [[higher category theory]] are discussed in
+Further refinements in [[higher category theory]]:
 
-* [[Katrin Wehrheim]], [[Chris Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
- {#WehrheimWoodward}
+* {#WehrheimWoodward} [[Katrin Wehrheim]], [[Chris T. Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, Quantum Topology **1** 2 (2010) 129-170 &lbrack;[doi:10.4171/qt/4](https://doi.org/10.4171/qt/4), [arXiv:0708.2851](https://arxiv.org/abs/0708.2851)&rbrack;
 
-* [[Nitu Kitchloo]], _The Stable Symplectic Category and Geometric Quantization_ ([arXiv:1204.5720](http://arxiv.org/abs/1204.5720v1))
- {#Kitchloo}
+* {#Kitchloo} [[Nitu Kitchloo]], _The Stable Symplectic Category and Geometric Quantization_ &lbrack;[arXiv:1204.5720](http://arxiv.org/abs/1204.5720)&rbrack;
+ 
+* [[Nitu Kitchloo]], [[Jack Morava]], _The Grothendieck--Teichm&#252;ller group and the stable symplectic category_, 2012 &lbrack;[arxiv:1212.6905](http://arxiv.org/abs/1212.6905)&rbrack;
 
-* [[Nitu Kitchloo]], [[Jack Morava]], _The Grothendieck--Teichm&#252;ller group and the stable symplectic category_, 2012.  ([arxiv:1212.6905](http://arxiv.org/abs/1212.6905))
+* [[Damien Calaque]], _Three lectures on derived symplectic geometry and topological field theories_, Indagationes Mathematicae **25** 5 (2014) 926–947 &lbrack;[doi:10.1016/j.indag.2014.07.005](https://doi.org/10.1016/j.indag.2014.07.005)&rbrack;
+
+* [[Rune Haugseng]], _Iterated spans and classical topological field theories_, Mathematische Zeitschrift **289** 3 (2018) 1427–1488 &lbrack;[arXiv](https://arxiv.org/abs/1409.0837), [doi:10.1007/s00209-017-2005-x](https://doi.org/10.1007/s00209-017-2005-x)&rbrack;
 
 A closed [[symmetric monoidal category]] version of the symplectic category and the observation that this hence is a [[categorical semantics]] for [[quantum logic]] qua [[linear logic]] is in
 
-* [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science __15__:06  (2005) 1151--1178
- {#Slavnov05}
+* {#Slavnov05} [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science __15__:06  (2005) 1151--1178
+ 
 * [[Sergey Slavnov]], _Geometrical semantics for linear logic (multiplicative fragment)_, Theoretical Computer Science 357, no. 1--3 (2006) 215--229 [doi](https://doi.org/10.1016/j.tcs.2006.03.020)
 
 Remarks about refinements to correspondences of smooth $\infty$-groupoids in the slice over prequantum moduli is in 
 
-* [[Urs Schreiber]], _[[schreiber:Synthetic Quantum Field Theory]]_, Talk at [CMS Summer Meeting 2013](http://cms.math.ca/Events/summer13/)
- {#SyntheticQFT}
+* {#SyntheticQFT} [[Urs Schreiber]], _[[schreiber:Synthetic Quantum Field Theory]]_, Talk at [CMS Summer Meeting 2013](http://cms.math.ca/Events/summer13/)
+ 
 
 String diagrams for the linear and affine Weinstein category using graphical linear algebra
 
