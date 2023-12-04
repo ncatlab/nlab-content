@@ -523,7 +523,7 @@ On the case of profinite groups:
 
 ### In physics
 
-On group algebras as [[deformation quantizations]] of [[Lie-Poisson structures]]:
+On group algebras as [[strict deformation quantization|strict]] [[deformation quantizations]] of [[Lie-Poisson manifolds]]:
 
 * [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
 
