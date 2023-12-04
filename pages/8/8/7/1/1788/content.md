@@ -1,4 +1,6 @@
 
+$\esh$
+
 **Quantum Observables of Quantized Fluxes**
 
 While it has become widely appreciated that defining a (higher) gauge theory requires, in addition to ordinary phase space data, also a "flux quantization" law in generalized differential cohomology, there has been little to no discussion of the rules, if any, for lifting Poisson-brackets of (flux-)observables and their quantization from ordinary phase spaces to the resulting higher moduli stacks of gauge fields.
