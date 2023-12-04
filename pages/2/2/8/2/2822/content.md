@@ -4,7 +4,7 @@
 ## Selected writings
 
 
-On potential [[experiments]] detecting [[flux quantization]] in [[quantum electrodynamics|quantum]] [[electromagnetism]]:
+On potential [[experiments]] detecting [[uncertainty of fluxes]] in [[quantum electrodynamics|quantum]] [[electromagnetism]]:
 
 * [[Alexei Kitaev]], [[Gregory W. Moore]], [[Kevin Walker]], *Noncommuting Flux Sectors in a Tabletop Experiment* &lbrack;[arXiv:0706.3410](https://arxiv.org/abs/0706.3410)&rbrack;
 
