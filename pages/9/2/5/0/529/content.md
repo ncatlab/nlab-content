@@ -483,13 +483,16 @@ Original discussion:
 * [[Hermann Weyl]], §III.3 in: *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics*, Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
 
 
-Textbook accounts:
+Monographs
 
-for [[locally compact topological groups]]:
+for the case of [[locally compact topological groups]]:
 
-* {#Dixmier77} [[Jacques Dixmier]], §13.2 in *$C^\ast$-algebras*, North Holland (1977)
+* {#Dixmier77} [[Jacques Dixmier]], §13.2 in: *$C^\ast$-algebras*, North Holland (1977)
 
-for [[finite groups]]
+* {#Landsman17} [[Klaas Landsman]], §C.18 in: *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
+
+
+for the case of [[finite groups]]:
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], Section 3.4 of: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
 
@@ -526,6 +529,20 @@ On the case of profinite groups:
 On group algebras as [[strict deformation quantization|strict]] [[deformation quantizations]] of [[Lie-Poisson manifolds]]:
 
 * [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
+
+Strengthening of the original result, including generalization to [[groupoid algebras]] of [[Lie groupoids]] [[Lie integration|integrating]] given [[Lie algebroids]]:
+
+* [[Nicolaas P. Landsman]], Ex. 2 in: *Lie Groupoid $C^\ast$-Algebras and Weyl Quantization*, Communications in Mathematical Physics **206** (1999) 367–381 &lbrack;[doi:10.1007/s002200050709](https://doi.org/10.1007/s002200050709)&rbrack;
+
+* [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.1 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
+
+
+See also:
+
+* [[Klaas Landsman]], *Strict deformation quantization of a particle in external gravitational and Yang-Mills fields*, Journal of Geometry and Physics __12__ 2 (1993) 93-132 &lbrack;<a href="https://doi.org/10.1016/0393-0440(93)90010-C">doi:10.1016/0393-0440(93)90010-C</a>&rbrack;
+
+* [[Nicolaas P. Landsman]], p. 27 in: *Classical and quantum representation theory* &lbrack;[arXiv:hep-th/9411172](https://arxiv.org/abs/hep-th/9411172)&rbrack;
+
 
 On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenberg groups]] as [[strict deformation quantizations]] of [[presymplectic manifold|pre-]][[symplectic vector spaces|symplectic]] [[topological vector spaces]] by [[continuous field of C-star algebras|continuous fields of]] [[Weyl algebras]]:
 
