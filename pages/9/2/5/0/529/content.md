@@ -530,7 +530,12 @@ On group algebras as [[strict deformation quantization|strict]] [[deformation qu
 
 * [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
 
+* {#Rieffel90} [[Marc Rieffel]], Ex. 7, Ex. 8 in: _Deformation quantization and operator algebras_, in: Operator theory: operator algebras and applications, Part 1 (Durham, NH, 1988), 411-423, Proc. Sympos. Pure Math. __51__, Part 1, Amer. Math. Soc. (1990) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/deformation.pdf), [[Rieffel-DefQuantization.pdf:file]] [MR91h:46120](http://www.ams.org/mathscinet-getitem?mr=1077400)&rbrack;
+
 Strengthening of the original result, including generalization to [[groupoid algebras]] of [[Lie groupoids]] [[Lie integration|integrating]] given [[Lie algebroids]]:
+
+* [[Nicolaas P. Landsman]], §3.4 in: *Classical and quantum representation theory* &lbrack;[arXiv:hep-th/9411172](https://arxiv.org/abs/hep-th/9411172)&rbrack;
+
 
 * [[Nicolaas P. Landsman]], Ex. 2 in: *Lie Groupoid $C^\ast$-Algebras and Weyl Quantization*, Communications in Mathematical Physics **206** (1999) 367–381 &lbrack;[doi:10.1007/s002200050709](https://doi.org/10.1007/s002200050709)&rbrack;
 
