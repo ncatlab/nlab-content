@@ -33,6 +33,8 @@ $F\colon C \to D$ is **essentially injective** or **essentially injective on obj
 
 * A [[conservative functor]] is essentially injective when it is [[full functor|full]]. More generally, any [[pseudomonic functor]] is essentially injective. More generally still, any [[fully faithful functor]] is essentially injective.
 
+* An [[isocofibration]] is a functor that is (strictly) injective on objects, and is hence essentially injective.
+
 ## Remark on terminology
 
 Some sources call this property "isomorphism [[reflected limit|reflecting]]" or "isomorphism [[created limit|creating]]". However, such terminology more accurately refers to [[conservative functors]].
