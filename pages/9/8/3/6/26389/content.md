@@ -581,7 +581,7 @@ together with the [[first class constraint]] that the [[covariant derivative]] (
   \,.
 \]
 
-This is the [[phase space]] of [[Yang-Mills theory]] (see the references [there](Yang-Mills+theory#ReferencesPhaseSpaceAndCanonicalQuantization)), with:
+This is the [[phase space]] of [[Yang-Mills theory]] &lbrack;eg. [Friedman & Papastamatiou 1983, §3](Yang-Mills+theory#FriedmanPapastamatiou83); [Bassetto, Lazzizzera & Soldati 1984, §2](Yang-Mills+theory#BassettoLazzizzeraSoldati84)&rbrack; with:
 
 * the [[canonical coordinate]] being the [[gauge potential]] $A$,
 
@@ -624,7 +624,7 @@ Taken at face value, the linear such observables are the surface [[integration o
 
 and more general flux observables ought to be taken to be the [[polynomials]] in these linear observables.
 
-However, these expressions (eq:NaiveFluxObservables) need to be corrected ("regularizes") in order to become actual observables, since as given they do not have associated smooth [[Hamiltonian vector fields]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables in Prop. \ref{TheProperFluxObservables} below. 
+However, these expressions (eq:NaiveFluxObservables) need to be corrected ("regularized") in order to become actual observables, since as given they do not have associated smooth [[Hamiltonian vector fields]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables in Prop. \ref{TheProperFluxObservables} below. 
 
 Using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "exterior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), 
 
