@@ -209,6 +209,8 @@ For more discussion putting these two examples in perspective see also at _[quan
 
 ## Related concepts
 
+* [[semidirect sum Lie algebra]]
+
 * [[central extension]], [[central charge]]
 
 * [[Lie algebra contraction]]
