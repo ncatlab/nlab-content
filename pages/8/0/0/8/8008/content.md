@@ -104,9 +104,22 @@ Specifically on [[Lie group|Lie]]-[[group algebras]] as strict deformation quant
 
 * [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
 
-Review with open questions:
+and generalization to [[groupoid algebras]] of [[Lie groupoids]] [[Lie integration|integrating]] given [[Lie algebroids]]:
+
+* [[Nicolaas P. Landsman]], Ex. 2 in: *Lie Groupoid $C^\ast$-Algebras and Weyl Quantization*, Communications in Mathematical Physics **206** (1999) 367–381 &lbrack;[doi:10.1007/s002200050709](https://doi.org/10.1007/s002200050709)&rbrack;
+
+* [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.1 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
+
+
+see also:
+
+* [[Klaas Landsman]], *Strict deformation quantization of a particle in external gravitational and Yang-Mills fields*, Journal of Geometry and Physics __12__ 2 (1993) 93-132 &lbrack;<a href="https://doi.org/10.1016/0393-0440(93)90010-C">doi:10.1016/0393-0440(93)90010-C</a>&rbrack;
+
+Review:
 
 * [[Marc Rieffel]], _Questions on quantization_, Contemp. Math. **228** (1998) 315-326 &lbrack;[arXiv:quant-ph/9712009](http://arxiv.org/abs/quant-ph/9712009)&rbrack;
+
+* [[Nicolaas P. Landsman]], *Classical and quantum representation theory* &lbrack;[arXiv:hep-th/9411172](https://arxiv.org/abs/hep-th/9411172)&rbrack;
 
 
 Comparative review of notions of strict deformation quantization:
@@ -133,11 +146,6 @@ see also
  
 
 
-On the special case of [[Poisson manifolds]] that are total spaces of [[Lie algebroids]]:
-
-* [[Klaas Landsman]], B. Ramazan, _Quantization of Poisson algebras associated to Lie algebroids_ ([arXiv:math-ph/0001005](http://arxiv.org/abs/math-ph/0001005))
-
-* [[Klaas Landsman]], _Strict deformation quantization of a particle in external gravitational and Yang-Mills fields_, Journal of Geometry and Physics __12__:2, p. 93-132 ([web](http://adsabs.harvard.edu/abs/1993JGP....12...93L))
 
 On [[continuous field of C-star algebras|continuous fields]] of [[Weyl algebras]] as [[continuous deformation quantizations]] of [[symplectic vector spaces]]:
 
