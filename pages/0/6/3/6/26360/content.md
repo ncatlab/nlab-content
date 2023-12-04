@@ -29,6 +29,17 @@ Suppose that [[dependent type theory]] has [[localization of a type|localization
 
 to be done; for the time being see section 6.9 of the [[HoTT Book]]. 
 
+### Inference rules for set truncations
+
+Formation rules for set truncations:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash [A]_0 \; \mathrm{type}}$$
+
+Introduction rules for set truncations:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{settrunc}_A:A \to [A]_0 \; \mathrm{type}}$$
+
+Dependent universal property of set truncations:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:[A]_0 \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{dup}_{[A]_0}^{B}:\left(\prod_{x:[A]_0} \mathrm{isSet}(B(x))\right) \to \mathrm{isEquiv}\left(\lambda f:\prod_{x:[A]_0} B(x).f \circ \mathrm{settrunc}_A\right)}$$
+
 ## Related concepts
 
 * [[propositional truncation]], [[quotient set]]
