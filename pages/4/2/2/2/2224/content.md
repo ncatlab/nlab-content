@@ -86,11 +86,18 @@ On [[continuous field of C-star algebras|continuous fields]] of [[Weyl algebras]
 
 * [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Field-theoretic Weyl Quantization as a Strict and Continuous Deformation Quantization*, Annales Henri Poincaré **5** (2004) 327–346 &lbrack;[doi:10.1007/s00023-004-0171-y](https://doi.org/10.1007/s00023-004-0171-y)&rbrack;
 
+On Weyl algebras as [[groupoid algebras]] being [[strict deformation quantizations]] of [[Poisson-Lie structures]] given by [[tangent Lie algebroids]]:
+
+* [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.3 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
+
+
+
 On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenberg groups]] as [[strict deformation quantizations]] of [[presymplectic manifold|pre-]][[symplectic vector spaces|symplectic]] [[topological vector spaces]] by [[continuous field of C-star algebras|continuous fields of]] [[Weyl algebras]]:
 
 * [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Infinite dimensional Heisenberg group algebra and field-theoretic strict deformation quantization*, International Journal of Pure and Applied Mathematics **38** 1 (2007) &lbrack;[ijpam:2007-38-1/6](https://ijpam.eu/contents/2007-38-1/6/index.html), [pdf](https://www.ijpam.eu/contents/2007-38-1/6/6.pdf)&rbrack;
 
 * [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
+
 
 
 See also:
