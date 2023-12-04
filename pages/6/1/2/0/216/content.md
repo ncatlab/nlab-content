@@ -648,29 +648,37 @@ Groupoid algebras of geometrically discrete groupoids twisted by [[principal 2-b
 
 The study of convolution [[C-star algebras]] of [[Lie groupoids]] goes back to
 
-* {#Renault80} [[Jean Renault]], _A groupoid approach to $C^\ast$ algebras_,
-Springer Lecture Notes in Mathematics, 793, Springer-Verlag, New York,
-1980.
+* {#Renault80} [[Jean Renault]], _A groupoid approach to $C^\ast$ algebras_, Springer Lecture Notes in Mathematics **793**, Springer (1980)
  
 
 Where the [[integration]] is performed against a fixed [[Haar measure]].
-Surveys are for instance in 
+
+Surveys:
 
 * [[Nigel Higson]], _Groupoids, $C^\ast$-algebras and Index theory_ ([pdf](http://folk.uio.no/rognes/higson/zurich.pdf))
 
 * PlanetMath, _[groupoid $C^\ast$-convolution algebras](http://planetmath.org/groupoidcconvolutionalgebras)_.
 
+
 The construction via [[sections]] of [[bundles]] of [[half-densities]] (avoiding a choice of Haar measure) is due to
 
 * {#Connes82} [[Alain Connes]], _A survey of foliations and operator algebras_, Proc. Sympos. Pure Math., AMS Providence, 32 (1982), 521&#8211;628
  
+Review:
 
-A review is on page 106 of 
+* {#Connes94} [[Alain Connes]], p. 106: _[[Noncommutative Geometry]]_, Academic Press, San Diego, CA, (1994)
+ 
+Groupoid algebras as [[strict deformation quantization]] of [[Lie-Poisson structures]] given by [[Lie algebroids]]:
 
-* {#Connes94} [[Alain Connes]], _[[Noncommutative Geometry]]_, Academic Press, San Diego, CA, (1994)
+* [[Nicolaas P. Landsman]], B. Ramazan, *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
+
+Specifically of [[symplectic groupoids]] in the context of [[geometric quantization of symplectic groupoids]]
+
+* {#EH} [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
  
 
-See also
+
+See also:
 
 * {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
 
@@ -696,18 +704,15 @@ Specifically the convolution $C^\ast$-algebras of [[bundle gerbes]] regarded as 
 
 * [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, J. Geom. Phys. 52 (2004) 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
 
-A discussion of convolution algebras of [[symplectic groupoids]] (in the context of [[geometric quantization of symplectic groupoids]]) is in 
-
-* [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
-  {#EH}
+  
 
 Functoriality of the construction of $C^\ast$-convolution algebras (its extension to groupoid-[[bibundles]]) is discussed in 
 
 * [[Paul Muhly]], [[Jean Renault]], D. Williams, _Equivalence and isomorphism for groupoid $C^\ast$-algebras_, J. Operator Theory 17 (1987), no. 1, 3&#8211;22.
  {#MuhleReaultWilliams87}
 
-* [[Janez Mrčun]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
- {#Mrcun99}
+* {#Mrcun99} [[Janez Mrčun]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
+ 
 
 * [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
  {#Landsman00}
