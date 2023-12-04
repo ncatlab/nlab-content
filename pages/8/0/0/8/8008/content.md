@@ -101,6 +101,11 @@ More details:
   
 * [[Marc Rieffel]], _Deformation quantization for actions of $\mathbb{R}^d$_, Mem. Amer. Math. Soc. __106__ (1993), no. 506, x+93 pp. [MR94d:46072](http://www.ams.org/mathscinet-getitem?mr=1184061)
 
+On [[Lie group|Lie]]-[[group algebras]] as strict deformation quantization of [[Lie-Poisson structures]]:
+
+* [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
+
+
 Comparative review of notions of strict deformation quantization:
 
 * {#Hawkins08a} [[Eli Hawkins]], Section 2 of: *An Obstruction to Quantization of the Sphere*, Communications in Mathematical Physics **283** (2008) 675–699  &lbrack;[arXiv:0706.2946](http://arxiv.org/abs/0706.2946), [doi:10.1007/s00220-008-0517-2](https://doi.org/10.1007/s00220-008-0517-2)&rbrack;
