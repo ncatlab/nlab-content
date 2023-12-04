@@ -156,6 +156,10 @@ becomes
 
 ## Related concepts
 
+* [[non-perturbative quantum field theory]]
+
+* [[strict deformation quantization]]
+
 * [[transseries]], [[resurgence theory]]
 
 * [[fiber bundles in physics]]
