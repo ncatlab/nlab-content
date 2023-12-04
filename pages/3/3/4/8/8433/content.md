@@ -49,7 +49,7 @@ On [[entanglement entropy]] as an indicator of [[topological phases of matter]]:
 
 * [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
 
-On potential [[experiments]] detecting [[flux quantization]] in [[quantum electrodynamics|quantum]] [[electromagnetism]]:
+On potential [[experiments]] detecting [[uncertainty of fluxes]] in [[quantum electrodynamics|quantum]] [[electromagnetism]]:
 
 * [[Alexei Kitaev]], [[Gregory W. Moore]], [[Kevin Walker]], *Noncommuting Flux Sectors in a Tabletop Experiment* &lbrack;[arXiv:0706.3410](https://arxiv.org/abs/0706.3410)&rbrack;
 
