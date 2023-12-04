@@ -133,18 +133,18 @@ A family of elements is an element $b:B$ in the context of the variable judgment
 
 Since types are elements of universe, a family of types is simply a family of elements of universes. 
 
-#### Identification types
+#### Identity types
 
-Formation rules for identification types:
+Formation rules for identity types:
 $$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma, a:A, b:A \vdash a =_A b:\mathrm{Type}_i}$$
 
-Introduction rules for identification types:
+Introduction rules for identity types:
 $$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
-Elimination rule for identification types:
+Elimination rule for identity types:
 $$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x), y:A, p:x =_A y, \Delta(x, t, y, p) \vdash \mathrm{ind}_{=_A}(x, t, y, p):C(x, y, p)}$$
 
-Computation rules for identification types:
+Computation rules for identity types:
 $$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x), \Delta(x, t, x, \mathrm{refl}_A(x)) \vdash \beta_{=_A}(x, t):\mathrm{ind}_{=_A}(x, t, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
 
 #### Definitions
@@ -225,7 +225,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma, x:A \vdash B(x):\mathrm{Ty
 
 #### isContr, uniqueness quantifiers, isEquiv, and equivalence types
 
-Now that we have [[identification types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
+Now that we have [[identity types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
 
 * the [[isContr]] [[modality]]:
 
@@ -245,7 +245,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma \vdash B:\mathrm{Type}_i}{\
 
 #### Univalence
 
-The [[univalence axiom]] states that the identification type between two types of a universe is equivalent to the equivalence type between said types:
+The [[univalence axiom]] states that the identity type between two types of a universe is equivalent to the equivalence type between said types:
 
 $$\frac{\Gamma \vdash A:\mathrm{Type}_i \quad \Gamma \vdash B:\mathrm{Type}_i}{\Gamma \vdash \mathrm{ua}_i(A, B):(A =_{\mathrm{Type}_i} B) \simeq (A \simeq B)}$$
 
@@ -346,18 +346,18 @@ A family of types is a type $B$ in the context of the element judgment $x:A$, $x
 
 A family of terms is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
 
-#### Identification types
+#### Identity types
 
-Formation rules for identification types:
+Formation rules for identity types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
 
-Introduction rules for identification types:
+Introduction rules for identity types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{refl}_A(x) : x =_A x}$$
 
-Elimination rule for identification types:
+Elimination rule for identity types:
 $$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x), y:A, p:x =_A y, \Delta(x, t, y, p) \vdash \mathrm{ind}_{=_A}(x, t, y, p):C(x, y, p)}$$
 
-Computation rules for identification types:
+Computation rules for identity types:
 $$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x) \vdash \beta_{=_A}(x, t):\mathrm{ind}_{=_A}(x, t, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
 
 #### Dependent function types
@@ -510,7 +510,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 #### isContr and uniqueness quantifiers
 
-Now that we have [[equivalence types]], [[identification types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
+Now that we have [[equivalence types]], [[identity types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
 
 * the [[isContr]] [[modality]]:
 
