@@ -17,11 +17,15 @@ On [[noncommutative tori]]:
 
 Introducing the notion of [[C-star algebraic deformation quantization]] ([[strict deformation quantization]]):
 
-* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary Mathematics **167** (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
+* [[Marc A. Rieffel]], *Deformation quantization of Heisenberg manifolds*, Communications in Mathematical Physics **122** (1989) 531–562 &lbrack;[doi:10.1007/BF01256492](https://doi.org/10.1007/BF01256492)&rbrack;
+
 
 * {#Rieffel90} [[Marc Rieffel]], _Deformation quantization and operator algebras_, in: Operator theory: operator algebras and applications, Part 1 (Durham, NH, 1988), 411-423, Proc. Sympos. Pure Math. __51__, Part 1, Amer. Math. Soc. (1990) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/deformation.pdf), [[Rieffel-DefQuantization.pdf:file]] [MR91h:46120](http://www.ams.org/mathscinet-getitem?mr=1077400)&rbrack;
   
 * [[Marc Rieffel]], _Deformation quantization for actions of $\mathbb{R}^d$_, Mem. Amer. Math. Soc. __106__ 506 (1993) &lbrack;[ams:memo-106-506](https://bookstore.ams.org/memo-106-506), [MR94d:46072](http://www.ams.org/mathscinet-getitem?mr=1184061)&rbrack;
+
+* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary Mathematics **167** (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
+
 
 Specifically on [[Lie group|Lie]]-[[group algebras]] as strict deformation quantization of [[Lie-Poisson structures]]:
 
