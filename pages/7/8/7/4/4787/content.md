@@ -1,6 +1,3 @@
-
-
-# Dimension
 * table of contents
 {: toc}
 
