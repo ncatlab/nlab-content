@@ -591,14 +591,15 @@ This is the [[phase space]] of [[Yang-Mills theory]] (see the references [there]
 
 \linebreak
 
-On this phase space, we are concerned with [[observables]] expressing electromagnetic flux through [[closed manifold|closed]] [[oriented manifold|oriented]] [[surface]] [[submanifolds]]
+On this phase space, we are concerned with [[observables]] expressing electromagnetic flux through [[closed manifold|closed]] [[oriented manifold|oriented]] [[surface]] [[submanifolds]] (not necessarily [[connected topological space|connected]])
 
-$$
-  S \hookrightarrow X
+\[
+  \label{TheEmbeddedSurfaces}
+  S \xhookrightarrow{\phantom{---}} X
   \,.
-$$ 
+\] 
 
-Taken at face value, these observables are the surface [[integration of differential forms|integrals]] of the [[flux densities]] over $S$:
+Taken at face value, the linear such observables are the surface [[integration of differential forms|integrals]] of the [[flux densities]] over $S$ against $\mathfrak{g}$-valued "smearing"-functions:
 
 \[
   \label{NaiveFluxObservables}
@@ -619,10 +620,11 @@ Taken at face value, these observables are the surface [[integration of differen
   \alpha, \beta 
     \;\in\; 
   \Omega^0(S) \otimes \mathfrak{g}
-  \,.
 \]
 
-However, these expression need to be corrected to become actual observables, since as give they do not have associated a smooth [[Hamiltonian vector field]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables in Prop. \ref{TheProperFluxObservables} below. 
+and more general flux observables ought to be taken to be the [[polynomials]] in these linear observables.
+
+However, these expressions (eq:NaiveFluxObservables) need to be corrected ("regularizes") in order to become actual observables, since as given they do not have associated smooth [[Hamiltonian vector fields]]. This is the point explained in [Cattaneo & Perez 2017](#CattaneoPerez17): Instead, one needs to consider 3-dimensional "smearing" of the canonical observables in Prop. \ref{TheProperFluxObservables} below. 
 
 Using the orientation of $S$ we consider any one-sided [[tubular neighbourhood]] $\hat S$ of $S$ inside $X$, extending to the "exterior" of $S$ (a non-compact [[submanifold]] [[manifold with boundary|with boundary]] $S$), 
 
@@ -633,7 +635,7 @@ and extending the coefficient functions to this neighbourhood with [[compact sup
 \begin{proposition}
 \label{TheProperFluxObservables}
 **([CP17 (6)](#CattaneoPerez17))**
-Well-defined flux-observables equivalent to 
+Well-defined linear flux-observables equivalent to 
 the na&iuml;ve observables (eq:NaiveFluxObservables)
 are of this form:
 \[
@@ -982,10 +984,45 @@ $$
 \linebreak
 
 
-### The Poisson bracket of integrated fluxes
+### The sub-phase space of integrated fluxes
  {#ThePoissonBracketOfIntegratedFluxes}
 
-We may now compute the [[Poisson bracket]] (eq:ThePoissonBracketOnCanonicalCoordinates) of the electromagnetic [[flux]] [[observables]] from Prop. \ref{TheProperFluxObservables}.
+
+\begin{theorem}
+\label{ReducedPhaseSpaceOfIntegratedFluxes}
+The [[reduced phase space|reduced]] sub-[[phase space]] of integral fluxes through a given surface $S \hookrightarrow X$ (eq:TheEmbeddedSurfaces) in $\mathfrak{g}$-[[Yang-Mills theory]] is [[isomorphism|isomorphic]] to the [[Fréchet manifold|Fréchet]] [[Lie-Poisson manifold]] 
+
+\[
+  \label{SimidirectProductLieAlgebraOfMaps}
+  C^\infty\bigg(
+    S
+    ,\,
+    \Big(
+      \underset{el}{
+        \underbrace{
+          \big(
+            \mathfrak{g}
+            ,\,
+            [-,-]
+          \big)
+        }
+      }
+      \ltimes_{ad}
+      \underset{mag}{
+        \underbrace{
+          \mathfrak{g}
+        }
+      }
+    \Big)^\ast
+  \bigg)
+\]
+
+given by the Lie algebra of [[smooth maps]] (with pointwise Lie bracket) from $S$ into the [[linear dual space|linear dual]] of the [[semidirect product Lie algebra]] of $\mathfrak{g}$ with its [[underlying]] [[abelian Lie algebra]] via the [[adjoint action]].
+\end{theorem}
+\begin{proof}
+  That the [[underlying]] [[Fréchet manifold]] is as claimed is just a restatement of the form of the linear flux observables in Prop. \ref{TheProperFluxObservables}. We need to check that the Poisson brackets (eq:ThePoissonBracketOnCanonicalCoordinates) of these linear observables is equivalently the Lie bracket of their smearing functions $\alpha_{el}$, $\alpha_{mag}$, regarded as elements of (eq:SimidirectProductLieAlgebraOfMaps).
+This is the content of Prop. \ref{PoissonBracketBetweenElectricFluxes} and Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below.
+\end{proof}
 
 \begin{proposition}
 \label{PoissonBracketBetweenElectricFluxes}
@@ -1184,6 +1221,9 @@ Here we used, in order of appearance:
 1. (eq:CovariantDerivativeIsDerivationOfLieBracket).
 
 \end{proof}
+
+
+
 
 \linebreak
 
