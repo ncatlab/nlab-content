@@ -50,7 +50,7 @@ On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge q
 * [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
 
-On potential [[experiments]] detecting [[flux quantization]] in [[quantum electrodynamics|quantum]] [[electromagnetism]]:
+On potential [[experiments]] detecting [[uncertainty of fluxes]] in [[quantum electrodynamics|quantum]] [[electromagnetism]]:
 
 * [[Alexei Kitaev]], [[Gregory W. Moore]], [[Kevin Walker]], *Noncommuting Flux Sectors in a Tabletop Experiment* &lbrack;[arXiv:0706.3410](https://arxiv.org/abs/0706.3410)&rbrack;
 
