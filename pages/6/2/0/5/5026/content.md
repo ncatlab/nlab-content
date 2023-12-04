@@ -1,7 +1,22 @@
 
 * [website](http://www.math.ru.nl/~landsman/)
 
+
 ## Selected writings
+
+On [[strict deformation quantization]] of the [[particle]] coupled to a [[Yang-Mills theory|Yang-Mills]] [[background field]]:
+
+* [[Klaas Landsman]], *Strict deformation quantization of a particle in external gravitational and Yang-Mills fields*, Journal of Geometry and Physics __12__ 2 (1993) 93-132 &lbrack;<a href="https://doi.org/10.1016/0393-0440(93)90010-C">doi:10.1016/0393-0440(93)90010-C</a>&rbrack;
+
+Survey of [[strict deformation quantization]]:
+
+* [[Nicolaas P. Landsman]], *Classical and quantum representation theory* &lbrack;[arXiv:hep-th/9411172](https://arxiv.org/abs/hep-th/9411172)&rbrack;
+
+
+On [[C-star algebra|$C^\ast$-]][[groupoid algebras]] (including [[group algebras]]) as [[strict deformation quantizations]] of [[Lie-Poisson structures]] in the generality of [[Lie algebroids]]:
+
+* [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.1 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
+
 
 On the [[Born rule]] in [[quantum mechanics]] (at the end with an eye towards [[Bohr toposes]]):
 
@@ -23,6 +38,8 @@ On the [[Penrose singularity theorem]] and the [[cosmic censorship hypothesis]]:
 ## Related entries
 
 * [[Bohr topos]]
+
+[[!redirects Nicolaas P. Landsman]]
 
 [[!redirects Klaas Landsman]]
 
