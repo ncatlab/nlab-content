@@ -61,11 +61,15 @@ with its [[Weyl algebra]] [[star product]]. (See [this MO discussion](http://mat
 
 ## Examples
 
+* [[non-perturbative quantum field theory]], [[non-perturbative effect]]
+
 * [[deformation quantization of the 2-sphere]]
 
 ## Related concepts
 
 * [[geometric quantization of symplectic groupoids]]
+
+* [[non-perturbative quantum field theory]]
 
 [[!include infinitesimal and local - table]]
 
@@ -89,11 +93,16 @@ Textbook account:
 
 The notion of strict $C^\ast$-algebraic deformation quantization was introduced in:
 
-* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary Mathematics **167** (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
+* [[Marc A. Rieffel]], *Deformation quantization of Heisenberg manifolds*, Communications in Mathematical Physics **122** (1989) 531–562 &lbrack;[doi:10.1007/BF01256492](https://doi.org/10.1007/BF01256492)&rbrack;
+
+  > (motivated by [[noncommutative tori]])
 
 * {#Rieffel90} [[Marc Rieffel]], _Deformation quantization and operator algebras_, in: Operator theory: operator algebras and applications, Part 1 (Durham, NH, 1988), 411-423, Proc. Sympos. Pure Math. __51__, Part 1, Amer. Math. Soc. (1990) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/deformation.pdf), [[Rieffel-DefQuantization.pdf:file]] [MR91h:46120](http://www.ams.org/mathscinet-getitem?mr=1077400)&rbrack;
   
 * [[Marc Rieffel]], _Deformation quantization for actions of $\mathbb{R}^d$_, Mem. Amer. Math. Soc. __106__ 506 (1993) &lbrack;[ams:memo-106-506](https://bookstore.ams.org/memo-106-506), [MR94d:46072](http://www.ams.org/mathscinet-getitem?mr=1184061)&rbrack;
+
+* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary Mathematics **167** (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
+
 
 See also:
 
@@ -108,7 +117,7 @@ and generalization to [[groupoid algebras]] of [[Lie groupoids]] [[Lie integrati
 
 * [[Nicolaas P. Landsman]], Ex. 2 in: *Lie Groupoid $C^\ast$-Algebras and Weyl Quantization*, Communications in Mathematical Physics **206** (1999) 367–381 &lbrack;[doi:10.1007/s002200050709](https://doi.org/10.1007/s002200050709)&rbrack;
 
-* [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.1 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
+* [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.1 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) 159-192 &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
 
 
 see also:
