@@ -492,6 +492,8 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 
 ## Related concepts
 
+* [[magnitude of an enriched category]]
+
 * [[Euler class]]
 
 * [[orbifold Euler characteristic]]
