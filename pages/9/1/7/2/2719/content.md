@@ -8,9 +8,15 @@ On [[Lagrangian submanifolds]] in [[symplectic geometry]]:
 
 * [[Alan Weinstein]], _Symplectic Manifolds and Their Lagrangian Submanifolds_, Advances in Math. **6** (1971) 329346 \[<a href="https://doi.org/10.1016/0001-8708(71)90020-X">doi:10.1016/0001-8708(71)90020-X</a>\]
 
+
 On [[symplectic geometry]]:
 
 * [[Alan Weinstein]], _Symplectic geometry_, Bulletin Amer. Math. Soc. **5** (1981) 1-13 &lbrack;[doi:10.1090/S0273-0979-1981-14911-9](http://dx.doi.org/10.1090/S0273-0979-1981-14911-9)&rbrack;
+
+On [[Poisson manifolds]]:
+
+* [[Alan Weinstein]], *The local structure of Poisson manifolds*,  J. Differential Geom. **18** 3 (1983) 523-557 &lbrack;[doi:10.4310/jdg/1214437787](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-3/The-local-structure-of-Poisson-manifolds/10.4310/jdg/1214437787.full)&rbrack;
+
 
 
 On [[geometric quantization]] via [[symplectic groupoids]]:
