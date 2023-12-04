@@ -246,6 +246,9 @@ General accounts:
 
 * {#BayenFlatoFronsdalLichnerowiczSternheimer78} [[François Bayen]], [[Moshé Flato]], [[Christian Fronsdal]], [[André Lichnerowicz]], [[Daniel Sternheimer]], §2 in: _Deformation theory and quantization. I. Deformations of symplectic structures._, Annals of Physics **111** 1 (1978) 61-110 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90224-5">doi:10.1016/0003-4916(78)90224-5</a>&rbrack;
 
+* [[Alan Weinstein]], §3 in: *The local structure of Poisson manifolds*,  J. Differential Geom. **18** 3 (1983) 523-557 &lbrack;[doi:10.4310/jdg/1214437787](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-3/The-local-structure-of-Poisson-manifolds/10.4310/jdg/1214437787.full)&rbrack;
+
+
 *  Izu Vaisman, section 3.1 of _Lectures on the Geometry of Poisson Manifolds_, Birkh&#228;user (1994)
 
 * [[Camille Laurent-Gengoux]], _Linear Poisson Structures and Lie Algebras_, chapter 7 of: Camille Laurent-Gengoux, Anne Pichereau, [[Pol Vanhaecke]] (eds.), _Poisson Structures_, Grundlehren der mathematischen Wissenschaften **347** 179-203 &lbrack;[doi:10.1007/978-3-642-31090-4_7](https://doi.org/10.1007/978-3-642-31090-4_7)&rbrack;
@@ -269,10 +272,9 @@ and generalization to more general polynomial Poisson algebras is discussed in
 * Michael Penkava, Pol Vanhaecke, _Deformation Quantization of Polynomial Poisson Algebras_, Journal of Algebra
 227, 365&#241;393 (2000) ([arXiv:math/9804022](https://arxiv.org/abs/math/9804022))
 
-The [[strict deformation quantization]] of Lie-Poisson structures was considered in 
+On [[strict deformation quantization]] of [[Lie-Poisson structures]] via [[Lie group|Lie]]-[[group algebras]]:
 
-* {#Rieffel90} [[Marc Rieffel]], _Lie group convolution algebras as deformation quantization of linear Poisson structures_, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[jstor:2374874]( http://www.jstor.org/stable/2374874)&rbrack;
- 
+* [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
 
 The [[symplectic Lie groupoid]] [[Lie integration|Lie integrating]] Lie-Poisson structures is discussed as example 4.3 in:
 
@@ -282,6 +284,7 @@ The [[symplectic Lie groupoid]] [[Lie integration|Lie integrating]] Lie-Poisson 
 See also
 
 * [[Victor Ginzburg]], [[Alan Weinstein]], _Lie-Poisson structure on some Poisson Lie groups_, Journal of the AMS, volume 5, number 2 (1992) ([pdf](http://www.ams.org/journals/jams/1992-05-02/S0894-0347-1992-1126117-8/S0894-0347-1992-1126117-8.pdf))
+
 
 
 [[!redirects Lie-Poisson structures]]
