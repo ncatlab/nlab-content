@@ -993,7 +993,7 @@ $$
 The [[reduced phase space|reduced]] sub-[[phase space]] of integral fluxes through a given surface $S \hookrightarrow X$ (eq:TheEmbeddedSurfaces) in $\mathfrak{g}$-[[Yang-Mills theory]] is [[isomorphism|isomorphic]] to the [[Fréchet manifold|Fréchet]] [[Lie-Poisson manifold]] 
 
 \[
-  \label{SimidirectProductLieAlgebraOfMaps}
+  \label{SemidirectProductLieAlgebraOfMaps}
   C^\infty\bigg(
     S
     ,\,
@@ -1020,7 +1020,7 @@ The [[reduced phase space|reduced]] sub-[[phase space]] of integral fluxes throu
 given by the Lie algebra of [[smooth maps]] (with pointwise Lie bracket) from $S$ into the [[linear dual space|linear dual]] of the [[semidirect product Lie algebra]] of $\mathfrak{g}$ with its [[underlying]] [[abelian Lie algebra]] via the [[adjoint action]].
 \end{theorem}
 \begin{proof}
-  That the [[underlying]] [[Fréchet manifold]] is as claimed is just a restatement of the form of the linear flux observables in Prop. \ref{TheProperFluxObservables}. We need to check that the Poisson brackets (eq:ThePoissonBracketOnCanonicalCoordinates) of these linear observables is equivalently the Lie bracket of their smearing functions $\alpha_{el}$, $\alpha_{mag}$, regarded as elements of (eq:SimidirectProductLieAlgebraOfMaps).
+  That the [[underlying]] [[Fréchet manifold]] is as claimed is just a restatement of the form of the linear flux observables in Prop. \ref{TheProperFluxObservables}. We need to check that the Poisson brackets (eq:ThePoissonBracketOnCanonicalCoordinates) of these linear observables is equivalently the Lie bracket of their smearing functions $\alpha_{el}$, $\alpha_{mag}$, regarded as elements of (eq:SemidirectProductLieAlgebraOfMaps).
 This is the content of Prop. \ref{PoissonBracketBetweenElectricFluxes} and Prop. \ref{PoissonBracketBetweenElectricAndMagneticFluxes} below.
 \end{proof}
 
@@ -1222,6 +1222,57 @@ Here we used, in order of appearance:
 
 \end{proof}
 
+
+
+### The algebra of quantum observables on fluxes
+ {#AlgebraOfQuantumObservablesOnFluxes}
+
+By Thm. \ref{ReducedPhaseSpaceOfIntegratedFluxes}, the [[quantum observables]] on fluxes in Yang-Mills theory should constitute a [[quantization]] of the [[Lie-Poisson structure|Lie-Poisson]] [[phase space]] (eq:SemidirectProductLieAlgebraOfMaps).
+
+The [[strict deformation quantization|strict]] ([[non-perturbative field theory|non-perturbative]]) [[deformation quantization|deformation]] [[quantization]] of [[phase spaces]] which are [[Lie-Poisson manifolds]] of a [[Lie algebra]] is well-known &lbrack;[Rieffel 1990](C-star+algebraic+deformation+quantization#Rieffel90); [Landsman 1999, Ex. 2](C-star+algebraic+deformation+quantization#Landsman99); [Landsman & Ramazan 2001, Ex. 11.1](C-star+algebraic+deformation+quantization#LandsmanRamazan01) &rbrack;: The [[C-star algebra|$C^\ast$-algebra]] of [[algebra of quantum observables|quantum observables]] is a [[group algebra]] of a corresponding [[Lie group]] (i.e. with the [[convolution]] product), with due care about [[analysis|analytic]] issue.
+
+Hence consider $G$ a [[Lie group]] (not necessarily [[connected topological space|connected]]) with [[Lie algebra]] $\big(\mathfrak{g}, [-,-]\big)$ which serves as the actual [[gauge group]] of our [[Yang-Mills theory]].
+
+Given a [[linear representation]] of $G$ on $\mathfrak{g}$ which on the [[connected component]] $G_{\mathrm{e}} \subset G$ of the [[neutral element]] restricts to the [[adjoint action]] and which preserves a [[lattice (discrete subgroup)|lattice]] $\Lambda \subset \mathfrak{g}$ (possibly empty, generally not maximal-dimensional), we may take the [[Lie integration]] of the [[underlying]] [[abelian Lie algebra]] of $\mathfrak{g}$ to be the [[torus]] $\mathfrak{g}/\Lambda$ equipped with a [[group action]] by $G$.
+
+With these choices, the [[semidirect product group]]
+
+$$
+  G \,\ltimes_{ad}\, (\mathfrak{g}/\Lambda)
+$$
+
+exists and has as [[Lie algebra]] the [[semidirect product Lie algebra]] defining the [[Lie-Poisson structure]] (eq:SemidirectProductLieAlgebraOfMaps). 
+
+Therefore a [[non-perturbative quantum field theory|non-perturvative]] [[algebra of quantum observables]] is given by the [[C-star algebra|$C^\ast$-]][[group algebra]], suitably defined, of the group of maps $C^\infty\big(S, G \,\ltimes_{ad}\, (\mathfrak{g}/\Lambda)\big)$.
+
+To isolate the topological sector of fluxes, consider the [[connected components]] of this group given by the [[homotopy classes]] of maps
+
+$$
+  \pi_0
+  \Big(
+    C^\infty\big(
+      S
+      ,\, 
+      G \,\ltimes_{ad}\, (\mathfrak{g}/\Lambda)
+    \big)
+  \Big)
+  \;\simeq\;
+  \pi_0
+  \bigg(
+    Map\Big(
+      \esh S
+      ,\, 
+      \esh
+      \big(
+        G \,\ltimes_{ad}\, (\mathfrak{g}/\Lambda)
+      \big)
+    \Big)
+  \bigg)
+$$
+
+This is now a [[discrete group]]. Its [[group algebra]] serves as an algebra of observables on the topological sectors of fluxes.
+
+(...)
 
 
 
