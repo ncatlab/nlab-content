@@ -533,6 +533,10 @@ The notion is due to:
 
 * [[André Lichnerowicz]], *Les variétés de Poisson et leurs algèbres de Lie associées*, Journal of Differential Geometry **12** 2 (1977) 253–300 &lbrack;[doi:10.4310/jdg/1214433987](http://dx.doi.org/10.4310/jdg/1214433987)&rbrack;
 
+Further early discussion:
+
+* [[Alan Weinstein]],  *The local structure of Poisson manifolds*,  J. Differential Geom. **18** 3 (1983) 523-557 &lbrack;[doi:10.4310/jdg/1214437787](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-3/The-local-structure-of-Poisson-manifolds/10.4310/jdg/1214437787.full)&rbrack;
+
 Monograph on [[Poisson geometry]]:
 
 * [[Marius Crainic]], [[Rui Loja Fernandes]], *Lectures on Poisson Geometry*, Graduate Studies in Mathematics **217**, Amer. Math. Soc. (2021) &lbrack;[ISBN:978-1-4704-6430-1](https://bookstore.ams.org/view?ProductCode=GSM/217)&rbrack;
