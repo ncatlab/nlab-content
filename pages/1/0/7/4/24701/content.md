@@ -142,10 +142,10 @@ Introduction rules for identification types:
 $$\frac{\Gamma \vdash A:\mathrm{Type}_i}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
 Elimination rule for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i \quad \Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash t(x):C(x, x, \mathrm{refl}_A(x))}{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash \mathrm{ind}_{=_A}^{x:A.t(x)}(x, y, p):C(x, y, p)}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x), y:A, p:x =_A y, \Delta(x, t, y, p) \vdash \mathrm{ind}_{=_A}(x, t, y, p):C(x, y, p)}$$
 
 Computation rules for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i \quad \Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash t(x):C(x, x, \mathrm{refl}_A(x))}{\Gamma, x:A, \Delta(x, x, \mathrm{refl}_A(x)) \vdash \beta_{=_A}^{x:A.t(x)}(x):\mathrm{ind}_{=_A}^{x:A.t(x)}(x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t(x)}$$
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{Type}_i}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x), \Delta(x, t, x, \mathrm{refl}_A(x)) \vdash \beta_{=_A}(x, t):\mathrm{ind}_{=_A}(x, t, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
 
 #### Definitions
 
@@ -351,7 +351,14 @@ A family of terms is a term $b:B$ in the context of the variable judgment $x:A$,
 Formation rules for identification types:
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \mathrm{type}}$$
 
-For the time being, we only provide the formation rule for identification types, leaving the introduction rule and the induction and recursion rules for later, after we have defined [[dependent function types]] and [[uniqueness quantifiers]]. 
+Introduction rules for identification types:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{refl}_A(x) : x =_A x}$$
+
+Elimination rule for identification types:
+$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x), y:A, p:x =_A y, \Delta(x, t, y, p) \vdash \mathrm{ind}_{=_A}(x, t, y, p):C(x, y, p)}$$
+
+Computation rules for identification types:
+$$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x) \vdash \beta_{=_A}(x, t):\mathrm{ind}_{=_A}(x, t, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
 
 #### Dependent function types
 
@@ -516,20 +523,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 #### Positive types
 
 Now that we have the [[uniqueness quantifier]] we can combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[induction]] rule. 
-
-##### Identification types, continued
-
-Formation rules for identification types:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \mathrm{type}}$$
-
-Introduction rules for identification types:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{refl}_A:\prod_{x:A} x =_A x}$$
-
-Recursion rule for identification types:
-$$\frac{\Gamma, x:A, y:A \vdash C(x, y) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{refl}_A}:\prod_{x:A} C(x, x)}{\Gamma \vdash \mathrm{up}_{=_A}^C(c_{\mathrm{refl}_A}):\exists!c:\prod_{x:A} \prod_{y:A} (x =_A y) \to C(x, y).c(x, x, \mathrm{refl}_A(x)) =_{C(x, x)} c_{\mathrm{refl}_A}(x)}$$
-
-Induction rule for identification types:
-$$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{refl}_A}:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))}{\Gamma \vdash \mathrm{dup}_{=_A}^C(c_{\mathrm{refl}_A}):\exists!c:\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} C(x, y, p).c(x, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} c_{\mathrm{refl}_A}(x)}$$
 
 ##### Empty type
 
