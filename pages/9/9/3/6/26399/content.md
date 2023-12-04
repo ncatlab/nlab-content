@@ -90,8 +90,8 @@ $$  (x +_0.5 z) \oplus (y +_0.5 x) \neq
 (x \oplus y) +_0.5 (z \oplus x)$$
 
 since the right hand side is equal to 
-$(x +_0.5 z) \oplus (y+_0.5 z) \oplus (y+_0.5 x)$,
-and we can compare the convex hulls of the two points of the left-hand side $[(0.5,0,0.5),(0.5,0.5,0)]$  and the three points of the right-hand side [(0.5,0,0.5),(0,0.5,0.5),(0.5,0.5,0)], which are different subsets of the 2-simplex (triangle). 
+$(x +_0.5 z) \oplus (y+_0.5 z) \oplus x \oplus (y+_0.5 x)$,
+and we can compare the convex hulls of the two points of the left-hand side $[(0.5,0,0.5),(0.5,0.5,0)]$  and the four points of the right-hand side [(0.5,0,0.5),(0,0.5,0.5),(1,0,0),(0.5,0.5,0)], which are different convex subsets of the 2-simplex (triangle). 
 
 ## References
 
