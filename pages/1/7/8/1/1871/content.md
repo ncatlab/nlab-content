@@ -236,9 +236,15 @@ See also
 
 On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-Mills theory:
 
+* Taichiro Kugo, Izumi Ojima, *Manifestly Covariant Canonical Formulation of the Yang-Mills Field Theories. I:  General Formalism*, Progress of Theoretical Physics **60** 6 (1978) 1869–1889 &lbrack;[doi:10.1143/PTP.60.1869](https://doi.org/10.1143/PTP.60.1869)&rbrack;
+
 * {#FriedmanPapastamatiou83} [[John L. Friedman]], Nicholas J. Papastamatiou, *On the canonical quantization of Yang-Mills theories*, Nuclear Physics B **219** 1 (1983) 125-142 \[<a href="https://doi.org/10.1016/0550-3213(83)90431-5">doi:10.1016/0550-3213(83)90431-5</a>\]
 
-* A. Bassetto, I. Lazzizzera, R. Soldati, *Yang-Mills theories in space-like axial and planar gauges*, Nuclear Physics B **236** 2 (1984) 319-335 \[<a href="https://doi.org/10.1016/0550-3213(84)90538-8">doi:10.1016/0550-3213(84)90538-8</a>&rbrack;
+* {#BassettoLazzizzeraSoldati84} A. Bassetto, I. Lazzizzera, R. Soldati, *Yang-Mills theories in space-like axial and planar gauges*, Nuclear Physics B **236** 2 (1984) 319-335 \[<a href="https://doi.org/10.1016/0550-3213(84)90538-8">doi:10.1016/0550-3213(84)90538-8</a>&rbrack;
+
+* D. M. Gitman, S. L. Lyakhovich & I. V. Tyutin , *Canonical quantization of the Yang-Mills Lagrangian with higher derivatives*, Soviet Physics Journal **28** (1985) 554–556 &lbrack;[doi:10.1007/BF00896182](https://doi.org/10.1007/BF00896182)&rbrack;
+
+* Kurt Haller, *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 &lbrack;[doi:10.1103/PhysRevD.36.1839](https://doi.org/10.1103/PhysRevD.36.1839)&rbrack;
 
 * {#Haagensen93} P. E. Haagensen, *On The Exact Implementation Of Gauss' Law In Yang-Mills Theory* &lbrack;[arXiv:hep-ph/9307319](https://arxiv.org/abs/hep-ph/9307319)&rbrack;
 
@@ -246,6 +252,7 @@ On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-
 
   > (in [[light-front formalism]])
 
+* [[Jonathan Dimock]], *Canonical Quantization of Yang-Millson a circle*,  Reviews in Mathematical Physics **08** 01 (1996) 85-102 &lbrack;[doi:10.1142/S0129055X96000044](https://doi.org/10.1142/S0129055X96000044)&rbrack;
 
 * {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[arXiv:2004.14406](https://arxiv.org/abs/2004.14406), [doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366)&rbrack;
 
