@@ -89,21 +89,24 @@ Textbook account:
 
 The notion of strict $C^\ast$-algebraic deformation quantization was introduced in:
 
-* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary mathematics vol. 167 (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
-
-A brief review with a list of open questions:
-
-* [[Marc Rieffel]], _Questions on quantization_, Contemp.Math. 228 (1998) 315-326 &lbrack;[arXiv:quant-ph/9712009](http://arxiv.org/abs/quant-ph/9712009)&rbrack;
-
-More details:
+* [[Marc Rieffel]], _Quantization and $C^\ast$-algebras_, Contemporary Mathematics **167** (1994) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf), [[Rieffel-CStarQuantization.pdf:file]]&rbrack;
 
 * {#Rieffel90} [[Marc Rieffel]], _Deformation quantization and operator algebras_, in: Operator theory: operator algebras and applications, Part 1 (Durham, NH, 1988), 411-423, Proc. Sympos. Pure Math. __51__, Part 1, Amer. Math. Soc. (1990) &lbrack;[pdf](http://math.berkeley.edu/~rieffel/papers/deformation.pdf), [[Rieffel-DefQuantization.pdf:file]] [MR91h:46120](http://www.ams.org/mathscinet-getitem?mr=1077400)&rbrack;
   
-* [[Marc Rieffel]], _Deformation quantization for actions of $\mathbb{R}^d$_, Mem. Amer. Math. Soc. __106__ (1993), no. 506, x+93 pp. [MR94d:46072](http://www.ams.org/mathscinet-getitem?mr=1184061)
+* [[Marc Rieffel]], _Deformation quantization for actions of $\mathbb{R}^d$_, Mem. Amer. Math. Soc. __106__ 506 (1993) &lbrack;[ams:memo-106-506](https://bookstore.ams.org/memo-106-506), [MR94d:46072](http://www.ams.org/mathscinet-getitem?mr=1184061)&rbrack;
 
-On [[Lie group|Lie]]-[[group algebras]] as strict deformation quantization of [[Lie-Poisson structures]]:
+See also:
+
+* Andrzej Sitarz, *Rieffel's deformation quantization and isospectral deformations*, International Journal of Theoretical Physics **40** (2001) 1693 &lbrack;[arXiv:math/0102075](https://arxiv.org/abs/math/0102075), [doi:10.1023/A:1011956229254](https://doi.org/10.1023/A:1011956229254)&rbrack;
+
+
+Specifically on [[Lie group|Lie]]-[[group algebras]] as strict deformation quantization of [[Lie-Poisson structures]]:
 
 * [[Marc A. Rieffel]], *Lie Group Convolution Algebras as Deformation Quantizations of Linear Poisson Structures*, American Journal of Mathematics **112** 4 (1990) 657-685 &lbrack;[doi:10.2307/2374874](https://doi.org/10.2307/2374874), [jstor:2374874](https://www.jstor.org/stable/2374874)&rbrack;
+
+Review with open questions:
+
+* [[Marc Rieffel]], _Questions on quantization_, Contemp. Math. **228** (1998) 315-326 &lbrack;[arXiv:quant-ph/9712009](http://arxiv.org/abs/quant-ph/9712009)&rbrack;
 
 
 Comparative review of notions of strict deformation quantization:
