@@ -312,6 +312,8 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 * [[enriched type]]
 
+* [[magnitude of an enriched category]]
+
 
 ## References
 
