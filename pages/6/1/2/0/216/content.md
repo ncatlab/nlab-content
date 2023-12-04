@@ -672,10 +672,14 @@ Groupoid algebras as [[strict deformation quantization]] of [[Lie-Poisson struct
 
 * [[Nicolaas P. Landsman]], B. Ramazan, *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
 
+  > (specifically [[Weyl algebras]] induced from [[tangent Lie algebroids]] in Ex. 11.3)
+
+
 Specifically of [[symplectic groupoids]] in the context of [[geometric quantization of symplectic groupoids]]
 
 * {#EH} [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
  
+
 
 
 See also:
