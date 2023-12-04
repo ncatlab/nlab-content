@@ -284,5 +284,9 @@ See also
 * [[Victor Ginzburg]], [[Alan Weinstein]], _Lie-Poisson structure on some Poisson Lie groups_, Journal of the AMS, volume 5, number 2 (1992) ([pdf](http://www.ams.org/journals/jams/1992-05-02/S0894-0347-1992-1126117-8/S0894-0347-1992-1126117-8.pdf))
 
 
-
 [[!redirects Lie-Poisson structures]]
+
+[[!redirects Lie-Poisson manifold]]
+[[!redirects Lie-Poisson manifolds]]
+
+
