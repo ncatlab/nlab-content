@@ -50,7 +50,7 @@ In this fashion each torus canonically carries the structure of an [[abelian gro
 ### In algebraic geometry
  {#InAlgebraicGeometry}
 
-According to [[SGA]]3, for $X$ a base [[scheme]] then a 1-dimensional torus (in the sense of tori-as-groups) over it is a [[group scheme]] over $X$ which becomes [[isomorphism|isomorphic]] to the [[multiplicative group]] over $X$ after a [[faithfully flat morphism|faithfully flat]] [[group extension]].
+According to [[SGA|SGA3]], for $X$ a base [[scheme]] then a 1-dimensional torus (in the sense of tori-as-groups) over it is a [[group scheme]] over $X$ which becomes [[isomorphism|isomorphic]] to the [[multiplicative group]] over $X$ after a [[faithfully flat morphism|faithfully flat]] [[group extension]].
 
 In ([Lawson-Naumann 12, def. A.1](#LawsonNaumann12))  this is called "a form of" the multiplicative group over $X$. 
 
