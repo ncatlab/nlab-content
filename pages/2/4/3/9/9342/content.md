@@ -39,6 +39,8 @@ It may be noteworthy that the established construction of [[perturbative quantum
 
 * [[non-perturbative effect]]
 
+* [[strict deformation quantization]]
+
 * [[conformal bootstrap]]
 
 * [[instanton]]
