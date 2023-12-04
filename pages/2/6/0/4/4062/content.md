@@ -409,7 +409,7 @@ The explicit notion of mates may be officially due to
 
 * {#KellyStreet06} [[Max Kelly]], [[Ross Street]], §2.2 (esp. p. 87) of: *Review of the elements of 2-categories*, in: G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** (1974) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
 
-but is already reviewed in:
+and is reviewed in:
 
 * {#Leinster04} [[Tom Leinster]], Section 6.1, pp. 150 in: *Higher operads, higher categories*, London Math. Soc. Lec. Note Series **298**, Cambridge University Press (2004) &lbrack;[math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896)&rbrack;
 
