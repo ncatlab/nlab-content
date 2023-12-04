@@ -86,7 +86,7 @@ On [[continuous field of C-star algebras|continuous fields]] of [[Weyl algebras]
 
 * [[Ernst Binz]], [[Reinhard Honegger]], [[Alfred Rieckers]], *Field-theoretic Weyl Quantization as a Strict and Continuous Deformation Quantization*, Annales Henri Poincaré **5** (2004) 327–346 &lbrack;[doi:10.1007/s00023-004-0171-y](https://doi.org/10.1007/s00023-004-0171-y)&rbrack;
 
-On Weyl algebras as [[groupoid algebras]] being [[strict deformation quantizations]] of [[Poisson-Lie structures]] given by [[tangent Lie algebroids]]:
+On Weyl algebras as [[groupoid algebras]] being [[strict deformation quantizations]] of [[Lie-Poisson structures]] given by [[tangent Lie algebroids]]:
 
 * [[Nicolaas P. Landsman]], B. Ramazan, Ex. 11.3 in: *Quantization of Poisson algebras associated to Lie algebroids*, in: *Groupoids in Analysis, Geometry, and Physics*, Contemporary Mathematics **282** (2001) &lbrack;[arXiv:math-ph/0001005](https://arxiv.org/abs/math-ph/0001005), [ams:conm/282](http://www.ams.org/books/conm/282)&rbrack;
 
