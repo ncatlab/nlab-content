@@ -1304,6 +1304,10 @@ In [[SU(2)]]-[[gauge theory]] (highlighted for the case of the [[first-order for
 
 * {#CattaneoPerez17} [[Alberto S. Cattaneo]], Alejandro Perez, *A note on the Poisson bracket of 2d smeared fluxes*, Class. Quant. Grav. **34** (2017) 107001 &lbrack;[arXiv:1611.08394](https://arxiv.org/abs/1611.08394), [doi:10.1088/1361-6382/aa69b4](https://doi.org/10.1088/1361-6382/aa69b4)&rbrack;
 
+Proposal of [[experiments]] potentially measuring [[Heisenberg uncertainty relations]] of fluxes:
+
+* [[Alexei Kitaev]], [[Gregory W. Moore]], [[Kevin Walker]], *Noncommuting Flux Sectors in a Tabletop Experiment* &lbrack;[arXiv:0706.3410](https://arxiv.org/abs/0706.3410)&rbrack;
+
 
 See also:
 
