@@ -22,7 +22,6 @@ As ‘amnestic’ is basically a fancy synonym of ‘forgetful’, the idea is t
 
 For example, the notion of amnestic functors formalizes the sense in which the [[concrete category]] $Met_cont$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and [[continuous maps]]), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_cont \to Set$ does not.  
 
-
 There is a corresponding notion of _amnesticization_ of a functor (called the _amnestic modification_ in _[[The Joy of Cats]]_), which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_cont \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.  Although not needed in this case, we need the [[axiom of choice]] (AC) in general to prove that every functor has an amnesticization.  Without AC, we can use amnestic [[anafunctors]] to make everything work out, although much of the convenience is lost.
 
 Amnesticity is really a property of [[strict functors]] (or anafunctors) between [[strict category|strict]] [[groupoids]].  Groupoids, because the non-isic [[morphisms]] play no role in the definition; only the categories\' [[cores]] matter, and a functor is amnestic iff its core is amnestic.  Strict, because the definition requires us to state (in two places) that some isomorphic objects are equal; weakening the definition to follow the [[principle of equivalence]] leads to a trivial property that every functor satisfies.  (That is, up to [[equivalence of categories|equivalence]], every functor is amnestic, which is because every functor is equivalent to its amnesticization.)
@@ -40,6 +39,8 @@ Explicitly, $U$ is amnestic iff, for every [[isomorphism]] $f \colon a \to B$ in
 In other words, a functor is amnestic if its strict [[fibers]] are [[gaunt category|gaunt]].
 
 =--
+
+Observe that this is similar to a [[conservative functor]], which reflects isomorphisms rather than identities.
 
 If we follow the [[principle of equivalence]] and refuse to state [[equalities]] between objects, then we must modify the hypothesis to say that $U(a)$ and $U(b)$ are *[[isomorphic]]* in $C$ (say via $g\colon U(a) \to U b$) and $U(f)$ is the identity *relative to* this isomorphism (so $U(f) = \id_{U(b)} \circ g \circ \id_{U(a)}$; since we can simply let $g$ be $U(f)$, this is trivial (beyond the initial isomorphism $f\colon a \to b$).  Similarly, we must modify the conclusion to say that $a$ and $b$ are *isomorphic* (say via $h\colon a \to b$) and $f$ is the identity *relative to* this isomorphism (so $f = \id_b \circ h \circ \id_a$); since we can simply let $h$ be $f$, this is also trivial.  Thus up to [[equivalence of categories|equivalence]], this property is trivial; on the other hand, it is preserved by [[isomorphism of categories|isomorphism]].
 
