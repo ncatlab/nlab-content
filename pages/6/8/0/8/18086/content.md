@@ -101,7 +101,6 @@ Original articles:
 
 * George A. Elliott and Hanfeng Li, _Morita equivalence of smooth noncommutative tori_, Acta Math. Volume 199, Number 1 (2007), 1-27 ([euclid:acta/1485891908](https://projecteuclid.org/euclid.acta/1485891908))
 
-
 Review:
 
 * [[Alain Connes]], p. 55, p. 217, p. 356 of: _[[Noncommutative Geometry]]_, Academic Press, San Diego, CA, 1994 ([ISBN:9780080571751](https://www.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1), [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf))
@@ -109,6 +108,11 @@ Review:
 * Wikipedia, _[Noncommutative torus](https://en.wikipedia.org/wiki/Noncommutative_torus)_
 
 * [[John Baez]], _[Noncommutative tori](https://math.ucr.edu/home/baez/braids/node8.html)_
+
+Non-commutative tori understood as [[strict deformation quantizations]]:
+
+* [[Marc A. Rieffel]], *Deformation quantization of Heisenberg manifolds*, Communications in Mathematical Physics **122** (1989) 531–562 &lbrack;[doi:10.1007/BF01256492](https://doi.org/10.1007/BF01256492)&rbrack;
+
 
 [[!redirects noncommutative tori]]
 
