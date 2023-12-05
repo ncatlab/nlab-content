@@ -176,7 +176,7 @@ More recent developments include
 
 See also:
 
-* Nejc Čeplak, Roberto Emparan, Andrea Puhm, Marija Tomašević, *The correspondence between rotating black holes and fundamental strings* &lbrack;[arXiv:2307.03573](https://arxiv.org/abs/2307.03573)&rbrack;
+* Nejc Čeplak, Roberto Emparan, Andrea Puhm, Marija Tomašević, *The correspondence between rotating black holes and fundamental strings*, JHEP 11 (2023) 226 &lbrack;[arXiv:2307.03573](https://arxiv.org/abs/2307.03573), <a href="https://doi.org/10.1007/JHEP11(2023)226">doi:10.1007/JHEP11(2023)226</a>&rbrack;
 
 
 
