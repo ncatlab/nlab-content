@@ -26,44 +26,69 @@ This says that the type is inductively constructed from
 
 1. a [[term]] of circle type whose [[semantics|interpretation]] is as the [[base point]] of the circle, 
 
-1. a term of the [[identity type]] of paths between these two terms, which interprets as the 1-cell of the circle
+1. a term of the [[identification type]] between these two terms, whose interpretation is as the 1-cell of the circle
 
    $$
      base \stackrel{loop}{\to} base
      \,
    $$
 
-   Hence a non-constant path from the base point to itself.
+   Hence as a non-constant path from the base point to itself.
 
 ### In natural deduction
 
-Let $a =_A b$ denote the [[identity type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identity type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
+Let $a =_A b$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
 
 In the [[natural deduction]] formulation of [[dependent type theory]], the circle type is given by the following [[inference rules]]:
 
-Formation rules for the circle type:
+First the rule that defines the circle type itself in some context $\Gamma$.
+
+**[[type formation]]**
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash S^1 \; \mathrm{type}}$$
 
-Introduction rules for the circle type:
+Now the basic “introduction” rule, which says that the circle type consists of a base point $\mathrm{base}:S^1$ and a loop identification $\mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}$.
+
+**[[term introduction]]**:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{base}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}}$$
 
+Then there are the “elimination” rule and the “computation” or [[beta-reduction|β-reduction]] rule of the circle type, which together result in the induction principle of circle types. 
+
 Elimination rules for the circle type:
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma, x:S^1 \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(x):C(x)}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop}):\prod_{x:S^1} C(x)}$$
 
-Computation rules for the circle type:
+The elimination rule states that 
 
-* Judgmental computation rules
+1. For any term $x:S^1$, we have a type $C(x)$
+
+1. For any term $c_\mathrm{base}:C(\mathrm{base})$ and any heterogeneous identification $c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}$ that $c_\mathrm{base}$ is equal to itself across $\mathrm{loop}$
+
+we can construct a canonically defined dependent function $\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop}):\prod_{x:S^1} C(x)$. 
+
+Finally, we have the “computation” or [[beta-reduction|β-reduction]] rule. There are two possible computation rules, judgmental computation rules and propositional computation rules, which result in strict and weak circle types respectively. 
+
+The judgmental computation rules for the circle type says that 
+
+1. if we evaluate the dependent function $\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ at the base point of $S^1$, we get the term $c_\mathrm{base}$, and 
+1. if we apply the dependent function $\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ to the loop identification of $S^1$, we get the term $c_\mathrm{loop}$. 
+
+**Judgmental computation rules for the circle type**
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) \equiv c_\mathrm{base}:C(\mathrm{base})}$$
 
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}$$
 
-* Propositional computation rules
+The propositional computation rules for the circle type says that 
+
+1. we have an identification $\beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop})$ indicating that the evaluation of the dependent function $\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ at the base point of $S^1$ is equal to the term $c_\mathrm{base}$, and 
+1. we have a heterogeneous identification $\beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop})$ indicating that the application of the dependent function $\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ to the loop identification of $S^1$, is equal to the term $c_\mathrm{loop}$ across the identification $\beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop})$. 
+
+**Propositional computation rules for the circle type**
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}}$$
 
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}), c_\mathrm{base}, \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}))} c_\mathrm{loop}}$$
 
-Uniqueness rules for the circle type:
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:S^1} C(x) \quad \Gamma \vdash p:S^1 \quad \Gamma \vdash l:p =_{S^1} p}{\Gamma\vdash \eta_{S^1}(c, p, l):c(p) =_{C(p)} \mathrm{ind}_{S^1}(c(p), \mathrm{apd}(c, p, p, l)}$$
+Since the [[circle type]] is a [[positive type]], it is not necessary to include a [[uniqueness rule]] for circle types, since the propositional uniqueness rule can be proven from the the other inference rules for the circle type. 
+
+#### Universal property of the circle type
 
 The elimination rules and the propositional computation and uniqueness rules for the circle type state that the circle type satisfy the **dependent universal property of the circle type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the circle type could be simplified to the following rule:
 
@@ -104,7 +129,7 @@ Its [[induction principle]] says (e.g. [UFP13, p. 177](#UFP13)) that for
 
 * equipped with a point $base' \colon P(base)$ 
 
-* and a [[dependent identification|dependent path]] $loop' \,\colon\, base' =_{loop} base'$, 
+* and a [[dependent identification]] $loop' \,\colon\, base' =_{loop} base'$, 
 
 there is $f:\prod_{(x:S^1)} P(x)$ such that:
 
@@ -116,7 +141,7 @@ $$f(base)=x\qquad ap_f(loop)=l$$
 
 ### Extensionality principle of the circle type
 
-The extensionality principle of the circle type says that there is an equivalence of types between the identity type $\mathrm{base} =_{S^1} \mathrm{base}$ and the type of integers $\mathbb{Z}$:
+The extensionality principle of the circle type says that there is an equivalence of types between the identification type $\mathrm{base} =_{S^1} \mathrm{base}$ and the type of integers $\mathbb{Z}$:
 
 $$\mathrm{ext}_{S^1}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{Z}$$
 
