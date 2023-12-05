@@ -1,7 +1,7 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Albert_Einstein)
 
-## References
+## Writings and References
   {#References}
 
 ### The 1919 eclipse
@@ -40,6 +40,17 @@ Introducing the [[Einstein-Podolsky-Rosen paradox]] concerning [[quantum entangl
 
 * {#EPR} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) ([doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777))
 
+
+### Philosophy of science
+
+* [[Albert Einstein]], *Physik und Realit&auml;t*, Journal of The Franklin Institute **221** 3 (1936) &lbrack;[pdf](https://informationphilosopher.com/solutions/scientists/einstein/Physik_und_Realitat.pdf), [[Einstein-PhysikRealitate.pdf:file]]&rbrack;
+
+On the assumption of a [[spacetime]] [[continuum]] in view of [[quantum physics]] ([[quantum gravity]]):
+
+> Es ist allerdings darauf hingewiesen worden, dass bereits
+die Einf&uuml;hrung eines raum-zeitlichen Kontinuums angesichts der molekularen Struktur allen Geschehens im Kleinen m&ouml;glicherweise als naturwidrig anzusehen sei. Vielleicht weise der Erfolg von Heisenbergs Methode auf eine rein algebraische Methode der Naturbeschreibung, auf die Ausschaltung kontinuierlicher Funktionen aus der Physik hin. Dann aber muss auch auf die Verwendung des Raum-Zeit Kontinuums prinzipiell verzichtet werden. Es ist nicht undenkbar, dass der menschliche Scharfsinn einst Methoden finden wird, welche die Beschreitung dieses Weges m&ouml;glich machen. Einstweilen aber erscheint dieses Projekt &auml;hnlich wie der Versuch, in einem luftleeren Raum zu atmen.
+
+> To be sure, it has been pointed out that the introduction of a space-time continuum may be considered as contrary to nature in view of the molecular structure of everything which happens on a small scale. It is maintained that perhaps the success of the Heisenberg method points to a purely algebraical method of description of nature, that is to the elimination of continuous functions from physics. Then, however, we must also give up, by principle, the space-time continuum. It is not unimaginable that human ingenuity will some day find methods which will make it possible to proceed along such a path. At the present time, however, such a program looks like an attempt to breathe in empty space.
 
 ## Further selected writings
 
