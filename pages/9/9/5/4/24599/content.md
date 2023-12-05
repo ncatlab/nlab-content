@@ -32,6 +32,8 @@ In a set-level but intensional type theory, we distinguish [[definitional equali
 
 1. In the presence of [[dependent sum types]], we can add an axiom saying that if $(a,b_1)$ and $(a,b_2)$ are pairs in a dependent sum $\sum_{x\colon A} B(x)$ with the same first component, and the identity type $Id_{\sum_{x\colon A} B(x)}((a,b_1), (a,b_2))$ is inhabited, then so is $Id_{B(a)}(b_1,b_2)$.
 
+1. Given the [[circle type]] $S^1$, we can add any of the equivalent axioms which state respectively that $S^1$ is a [[set]] $\mathrm{isSet}(S^1)$; $S^1$ is a [[proposition]] $\mathrm{isProp}(S^1)$ or a [[contractible type]] $\mathrm{isContr}(S^1)$, which are the same condition as $S^1$ being a [[set]] because $S^1$ is provably a [[pointed connected groupoid]]; and there is an [[identification]] $K:\mathrm{refl}_{S^1}(\mathrm{base}) =_{S^1} \mathrm{loop}$. 
+
 1. We can allow definition of functions by a strong form of *pattern matching*, as in unmodified [[Agda]].  The relevant "extra strength" is to allow output *types* of a pattern match which are only well-defined *after* the pattern has been matched.
 
 1. In [[cubical type theory]] (with [[glue types]] removed, since univalence is incompatible with set-level-ness), we can add a [[boundary separation]] rule, leading to [[XTT]].
