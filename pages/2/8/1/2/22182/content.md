@@ -37,7 +37,7 @@ This says that the type is inductively constructed from
 
 ### In natural deduction
 
-Let $\mathrm{Id}_A(a, b)$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:\mathrm{Id}_A(a, b)$. Let $\mathrm{apd}_{x:A.B(x)}(f, a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:\mathrm{Id}_A(a, b)$
+Let $a =_A b$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
 
 In the [[natural deduction]] formulation of [[dependent type theory]], the circle type is given by the following [[inference rules]]:
 
@@ -45,33 +45,33 @@ Formation rules for the circle type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash S^1 \; \mathrm{type}}$$
 
 Introduction rules for the circle type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{l}:\mathrm{Id}_{S^1}(*,*)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{base}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}}$$
 
 Elimination rules for the circle type:
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma, x:S^1 \vdash \mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(x):C(x)}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma, x:S^1 \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(x):C(x)}$$
 
 Computation rules for the circle type:
 
 * Judgmental computation rules
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(*) \equiv c_*:C(*)}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) \equiv c_\mathrm{base}:C(\mathrm{base})}$$
 
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \mathrm{apd}_{x:S^1.C(x)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l}), *, *, \mathcal{l}) \equiv c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}$$
 
 * Propositional computation rules
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{*}(c_*, c_\mathcal{l}):\mathrm{Id}_{C(*)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(*), c_*)}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}}$$
 
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{\mathcal{l}}(c_*, c_\mathcal{l}):\mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l}), *, *, \mathcal{l}), c_\mathcal{l})}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}), c_\mathrm{base}, \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}))} c_\mathrm{loop}}$$
 
 Uniqueness rules for the circle type:
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:S^1} C(x) \quad \Gamma \vdash p:S^1 \quad \Gamma \vdash l:\mathrm{Id}_{S^1}(p, p)}{\Gamma\vdash \eta_{S^1}(c, p, l):\mathrm{Id}_{C(p)}(c,\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c(p), \mathrm{apd}_{x:S^1.C(x)}(c, p, p, l))}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:S^1} C(x) \quad \Gamma \vdash p:S^1 \quad \Gamma \vdash l:p =_{S^1} p}{\Gamma\vdash \eta_{S^1}(c, p, l):c(p) =_{C(p)} \mathrm{ind}_{S^1}(c(p), \mathrm{apd}(c, p, p, l)}$$
 
 The elimination rules and the propositional computation and uniqueness rules for the circle type state that the circle type satisfy the **dependent universal property of the circle type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the circle type could be simplified to the following rule:
 
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \mathrm{up}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l}):\exists!c:\prod_{x:S^1} C(x).\mathrm{Id}_{C(*)}(c(*), c_*) \times \mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(c, *, *, \mathcal{l}), c_\mathcal{l})}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{dup}_{S^1}^{x:S^1.C(x)}(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:S^1} C(x).\sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{apd}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
 
 Meanwhile we have the non-dependent universal property of the circle type:
 
-$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C \quad \Gamma \vdash c_\mathcal{l}:\mathrm{Id}_{C}(c_*, c_*)}{\Gamma \vdash \mathrm{up}_{S^1}^{C}(c_*, c_\mathcal{l}):\exists!c:S^1 \to C.\mathrm{Id}_{C}(c(*), c_*) \times \mathrm{Id}_{\mathrm{Id}_{C}(c_*, c_*)}(\mathrm{ap}_{S^1, C}(c, *, *, \mathcal{l}), c_\mathcal{l})}$$
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:\mathrm{Id}_{C}(c_\mathrm{base}, c_\mathrm{base})}{\Gamma \vdash \mathrm{up}_{S^1}^{C}(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:S^1 \to C.\sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{ap}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C.z =_{C} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
 
 ### As a suspension
 
@@ -116,11 +116,11 @@ $$f(base)=x\qquad ap_f(loop)=l$$
 
 ### Extensionality principle of the circle type
 
-The extensionality principle of the circle type says that there is an equivalence of types between the identification type $\mathrm{Id}_S^1(*,*)$ and the type of integers $\mathbb{Z}$:
+The extensionality principle of the circle type says that there is an equivalence of types between the identification type $\mathrm{base} =_{S^1} \mathrm{base}$ and the type of integers $\mathbb{Z}$:
 
-$$\mathrm{ext}_S^1:\mathrm{Id}_S^1(*,*) \simeq \mathbb{Z}$$
+$$\mathrm{ext}_{S^1}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{Z}$$
 
-Equivalently, that the [[loop space type]] $\Omega(S^1, *)$ is equivalent to the [[integers]]. 
+Equivalently, that the [[loop space type]] $\Omega(S^1, \mathrm{base})$ is equivalent to the [[integers]]. 
 
 Thus, the extensionality principle of the circle type implies that the integers and thus the natural numbers are [[contractible types]] if [[axiom K]] or [[uniqueness of identity proofs]] hold for the entire type theory. If the extensionality principle of the natural numbers also hold in the type theory, then every type is contractible. 
 
