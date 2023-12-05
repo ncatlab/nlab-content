@@ -37,7 +37,7 @@ This says that the type is inductively constructed from
 
 ### In natural deduction
 
-Let $a =_A b$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
+Let $a =_A b$ denote the [[identity type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identity type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
 
 In the [[natural deduction]] formulation of [[dependent type theory]], the circle type is given by the following [[inference rules]]:
 
@@ -116,7 +116,7 @@ $$f(base)=x\qquad ap_f(loop)=l$$
 
 ### Extensionality principle of the circle type
 
-The extensionality principle of the circle type says that there is an equivalence of types between the identification type $\mathrm{base} =_{S^1} \mathrm{base}$ and the type of integers $\mathbb{Z}$:
+The extensionality principle of the circle type says that there is an equivalence of types between the identity type $\mathrm{base} =_{S^1} \mathrm{base}$ and the type of integers $\mathbb{Z}$:
 
 $$\mathrm{ext}_{S^1}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{Z}$$
 
