@@ -69,3 +69,6 @@ With an eye towards application in [[mathematical physics]]:
 
 * [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 2 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
+* [[Jürgen Jost]], *Riemannian Geometry and Geometric Analysis*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-61860-9](https://doi.org/10.1007/978-3-319-61860-9)&rbrack;
+
+
