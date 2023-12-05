@@ -171,6 +171,16 @@ $$
 
 The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]]. 
 
+### Circle type axioms
+
+Any one of the following axioms on the [[circle type]] implies [[axiom K]] or [[uniqueness of identity proofs]] for all types in the dependent type theory, and thus is an axiom of set-truncation:
+
+* That $S^1$ is a [[set]], 
+$$\mathrm{trunc}_0^{S^1}:\mathrm{isSet}(S^1)$$
+* That $S^1$ is a [[proposition]] or a [[contractible type]], which are the same condition as $S^1$ being a [[set]] because $S^1$ is a [[pointed connected groupoid]]
+$$\mathrm{trunc}^{S^1}:\mathrm{isProp}(S^1) \qquad \mathrm{contr}_{S^1}:\mathrm{isContr}(S^1)$$
+* That there is an [[identification]] $K:\mathrm{refl}_{S^1}(\mathrm{base}) =_{S^1} \mathrm{loop}$
+
 ## See also
 
 * [[h-set]]
