@@ -258,16 +258,16 @@ Identity types which satisfy the judgmental J-rule could be called **strict iden
 ## Definition in Martin-Löf type theory
  {#Definition}
 
-The definition of identity types was originally given in explicit form by [[Per Martin-Löf|Martin-Löf]], in terms of introduction and elimination rules.  Later, it was realized that this was a special case of the general notion of [[inductive type]].  We will discuss both formulations.
+The definition of identity types was originally given in explicit form by [[Per Martin-Löf|Martin-Löf]], in terms of [[inference rules]].  Later, it was realized that this was a special case of the general notion of [[inductive type]].  We will discuss both formulations.
 
-* [with introduction and elimination rules](#ExplicitDefinition).
+* [with inference rules](#ExplicitDefinition).
 
 * [in terms of inductive types](#InTermsOfInductiveTypes) 
 
-### With introduction and elimination rules
+### With inference rules
  {#ExplicitDefinition}
 
-The [[natural deduction]] [[inference rules]] for forming identity types and terms are as follows.  
+The [[inference rules]] for forming identity types and terms are as follows.  
 
 First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
