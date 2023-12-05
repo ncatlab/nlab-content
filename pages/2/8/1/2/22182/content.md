@@ -51,12 +51,14 @@ Now the basic “introduction” rule, which says that the circle type consists 
 **[[term introduction]]**:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{base}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}}$$
 
+#### Induction principle of the circle type
+
 Then there are the “elimination” rule and the “computation” or [[beta-reduction|β-reduction]] rule of the circle type, which together result in the induction principle of circle types. 
 
 Elimination rules for the circle type:
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop}):\prod_{x:S^1} C(x)}$$
 
-The elimination rule states that 
+The elimination rule states that if:
 
 1. For any term $x:S^1$, we have a type $C(x)$
 
@@ -86,17 +88,54 @@ $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm
 
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}), c_\mathrm{base}, \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}))} c_\mathrm{loop}}$$
 
-Since the [[circle type]] is a [[positive type]], it is not necessary to include a [[uniqueness rule]] for circle types, since the propositional uniqueness rule can be proven from the the other inference rules for the circle type. 
+For weak circle types, we could package the elimination and propositional computation rules together using [[dependent sum types]] to get a single rule for the induction principle of the circle type:
 
-#### Universal property of the circle type
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_\mathrm{base}, c_\mathrm{loop}):\sum_{c:\prod_{x:S^1} C(x)} \sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{apd}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
 
-The elimination rules and the propositional computation and uniqueness rules for the circle type state that the circle type satisfy the **dependent universal property of the circle type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the circle type could be simplified to the following rule:
+Since the [[circle type]] is a [[positive type]], it is not necessary to include a [[uniqueness rule]] for the induction principle circle types, since the propositional uniqueness rule can be proven from the the other inference rules for the circle type. Nevertheless, one could include the uniqueness rule in the combined single induction rule by turning the dependent sum type into a [[uniqueness quantifier]], resulting in the **dependent universal property of the circle type**. 
 
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{dup}_{S^1}^{x:S^1.C(x)}(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:S^1} C(x).\sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{apd}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:S^1} C(x).\sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{apd}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
 
-Meanwhile we have the non-dependent universal property of the circle type:
+#### Recursion principle of the circle type
 
-$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:\mathrm{Id}_{C}(c_\mathrm{base}, c_\mathrm{base})}{\Gamma \vdash \mathrm{up}_{S^1}^{C}(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:S^1 \to C.\sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{ap}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C.z =_{C} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
+In general, given a type $C$, by the [[weakening rule]] of [[dependent type theory]], one could form the constant type family $C$ indexed by $x:S^1$; then one could get the recursion principle of the circle type from induction on $C$ regarded as a constant type family, allowing for definitions of (non-dependent) functions from the circle type $S^1$ to $C$. This results in the following non-dependent elimination and computation rules associated with the recursion principle:
+
+Non-dependent elimination rules for the circle type:
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}{\Gamma \vdash \mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop}):S^1 \to C}$$
+
+The non-dependent elimination rule states that if:
+
+1. We have a type $C$
+
+1. For any term $c_\mathrm{base}:C$ and any identification $c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}$ that $c_\mathrm{base}$ is equal to itself
+
+we can construct a canonically defined function $\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop}):S^1 \to C$. 
+
+Similarly to the case for the induction principle, there are two possible non-dependent computation rules for the recursion principle, judgmental computation rules and propositional computation rules, which result in strict and weak circle types respectively. 
+
+The non-dependent judgmental computation rules for the circle type says that 
+
+1. if we evaluate the function $\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ at the base point of $S^1$, we get the term $c_\mathrm{base}$, and 
+1. if we apply the function $\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ to the loop identification of $S^1$, we get the term $c_\mathrm{loop}$. 
+
+**non-dependent judgmental computation rules for the circle type**
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}{\Gamma \vdash \mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) \equiv c_\mathrm{base}:C}$$
+
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}{\Gamma \vdash \mathrm{ap}_{\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}$$
+
+The non-dependent propositional computation rules for the circle type says that 
+
+1. we have an identification $\beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop})$ indicating that the evaluation of the dependent function $\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ at the base point of $S^1$ is equal to the term $c_\mathrm{base}$, and 
+1. we have a heterogeneous identification $\beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop})$ indicating that the application of the dependent function $\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})$ to the loop identification of $S^1$, is equal to the term $c_\mathrm{loop}$ across the identification $\beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop})$. 
+
+**non-dependent propositional computation rules for the circle type**
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{rec}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}}$$
+
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{ap}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C(\mathrm{base}).z =_{C} z}^{(\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}), c_\mathrm{base}, \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}))} c_\mathrm{loop}}$$
+
+For weak circle types, we could similarly package the elimination and propositional computation rules together using [[dependent sum types]] to get a single rule for the recursion principle of the circle type:
+
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:\mathrm{Id}_{C}(c_\mathrm{base}, c_\mathrm{base})}{\Gamma \vdash \mathrm{rec}_{S^1}^{C}(c_\mathrm{base}, c_\mathrm{loop}):\sum_{c:S^1 \to C} \sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{ap}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C.z =_{C} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
 
 ### As a suspension
 
