@@ -61,6 +61,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
   * [[higher differential geometry applied to plain differential geometry]]
 
 * [[differential cohesive homotopy type theory]]
+
+* [[differential equations]], [[geometric analysis]]
   
 * [[prequantum geometry]], [[higher prequantum geometry]]
 
