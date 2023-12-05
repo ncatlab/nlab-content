@@ -34,5 +34,14 @@ A functor is multirepresentable if and only if each [[connected component]] of i
 
 * {#Diers77} [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
 
+Multirepresentable presheaves are called **familially representable** in:
+
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science **5** (1995) pp.441-459. ([pdf](http://journals.cambridge.org/article_S0960129500001183))
+{#CJ}
+
 [[!redirects multirepresentable functors]]
 [[!redirects multirepresentable]]
+[[!redirects multirepresentable presheaf]]
+[[!redirects multirepresentable presheaves]]
+[[!redirects familially representable functor]]
+[[!redirects familially representable functors]]
