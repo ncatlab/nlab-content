@@ -114,6 +114,10 @@ $$
 
 The following discussion is all about [[Lie algebra-valued differential form|$\mathfrak{g}$-valued differential forms]], being elements of the [[tensor product]] $\Omega^\bullet_{dR} \otimes \mathfrak{g}$ of the [[de Rham algebra]] on a given [[smooth manifold]] with the given [[Lie algebra]].
 
+> {#DiffFormsWithValuesInAdjointBundle} More precisely, we are dealing with differential forms with values in [[sections]] of a $\mathfrak{g}$-[[adjoint bundle]] $\mathfrak{g}_P$ [[associated bundle|associated]] to a [[principal bundle]] $P$ ([[underlying]] a [[principal connection]] modelling a [[background field|background]] Yang-Mills [[gauge potential]]). Since the [[adjoint bundle]] $\mathfrak{g}_P$ is a [[Lie algebra]]-[[fiber bundle]], we may think of $\Omega^\bullet_{dR}(-; \mathfrak{g})$ as $\Omega^\bullet(-;\mathfrak{g}_P)$ in all of the following, without otherwise changing the discussion.
+But since, in the end, we consider only [[adjoint action|$\mathrm{ad}$-]][[invariant]] combinations of such $\mathfrak{g}_P$-valued forms (namely the invariant flux densities $\langle \alpha, E\rangle$ and $\langle \beta, F_A\rangle$ from Prop. \ref{TheProperFluxObservables} below) the result of the following discussion is actually independent of the background field $P$, so that we may as well take it to be trivial --- as usual in most of the physics literature on the subject.
+
+
 The primary example are $\mathfrak{g}$-valued 1-forms
 
 \[
@@ -588,6 +592,7 @@ This is the [[phase space]] of [[Yang-Mills theory]] &lbrack;eg. [Friedman & Pap
 * its [[canonical momentum]] being the [[electric field]] [[flux density]] $E$,
 
 * the [[constrained mechanics|constraint]] (eq:GaussLawConstraint) expressing the [[Gauss law]].
+
 
 \linebreak
 
@@ -1298,7 +1303,6 @@ In [[electromagnetism]], with focus on torsion components that are argued to not
 * {#FreedMooreSegal07a} [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271**  (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
 
 * {#FreedMooreSegal07b} [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], *Heisenberg Groups and Noncommutative Fluxes*,  Annals Phys. **322** (2007) 236-285 &lbrack;[arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
-
 
 In [[SU(2)]]-[[gauge theory]] (highlighted for the case of the [[first-order formulation of gravity]] but applying verbatim also to [[Yang-Mills theory]], cf. [there](Yang-Mills+theory#ReferencesPhaseSpaceAndCanonicalQuantization)):
 
