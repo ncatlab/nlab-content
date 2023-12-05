@@ -147,6 +147,7 @@ See also:
 
 * [[Sergey M. Frolov]], *Quantum computing’s reproducibility crisis: Majorana fermions*, Nature **592** (2021) 350-352 &lbrack;[doi:10.1038/d41586-021-00954-8](https://doi.org/10.1038/d41586-021-00954-8)&rbrack;
 
+[[!include anyons in topological superconductors -- references]]
 
 
 [[!redirects Majorana zero modes]]
