@@ -67,7 +67,11 @@ $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{
 
 The elimination rules and the propositional computation and uniqueness rules for the circle type state that the circle type satisfy the **dependent universal property of the circle type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the circle type could be simplified to the following rule:
 
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \mathrm{up}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l}):\exists!c:\prod_{x:S^1} C(x).\mathrm{Id}_{C(*)}(c(*), c_*) \times \mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(c, c_*, c_*, c_\mathcal{l}), c_\mathcal{l})}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \mathrm{up}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l}):\exists!c:\prod_{x:S^1} C(x).\mathrm{Id}_{C(*)}(c(*), c_*) \times \mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(c, *, *, \mathcal{l}), c_\mathcal{l})}$$
+
+Meanwhile we have the non-dependent universal property of the circle type:
+
+$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_*:C \quad \Gamma \vdash c_\mathcal{l}:\mathrm{Id}_{C}(c_*, c_*)}{\Gamma \vdash \mathrm{up}_{S^1}^{C}(c_*, c_\mathcal{l}):\exists!c:S^1 \to C.\mathrm{Id}_{C}(c(*), c_*) \times \mathrm{Id}_{\mathrm{Id}_{C}(c_*, c_*)}(\mathrm{ap}_{S^1, C}(c, *, *, \mathcal{l}), c_\mathcal{l})}$$
 
 ### As a suspension
 
