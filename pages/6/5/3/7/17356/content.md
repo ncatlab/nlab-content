@@ -112,24 +112,6 @@ $$
 
 If the cubical set has this additional property, one calls it a [[connection on a cubical set|cubical set with connection]].
 
-+-- {: .query}
-[[David Corfield]]: Is this cubical set the same as Pratt is talking about on p. 13 [here](http://boole.stanford.edu/pub/es.pdf)?
-
-"...the duality of bipointed sets, sets with two distinguished elements, and Boolean algebras without top or bottom. Contemplation of this duality, which Bill Lawvere suggested to me in a phone conversation as a simple construction of the theory of cubical sets". 
-
-If so, given that the real interval is a final coalgebra on bipointed sets, is there some dual to it in cubical sets?
-
-Also shouldn't we have something on this page about Grandis's use of cubical sets in [directed algebraic topology](http://www.dima.unige.it/~grandis/DAT.Intro.pdf), e.g., p. 3 ? 
-
-[[Todd Trimble]]: The passage from Pratt's paper is a bit brief, but my impression is that they are discussing the Lawvere algebraic theory of two constants, which is a cartesian prop, and which contains more figures than the pro given by the monoidal category of [[cube]]s. In particular, there are diagonal maps in the cartesian prop which aren't present in the category of cubes in the sense here (and which aren't reflected as far as I can tell by cubical sets with connection). Perhaps we need some disambiguation then? 
-
-And please correct me if I'm wrong, but I believe the interval as final coalgebra is a coalgebra for the join-square endofunctor $x \mapsto x \vee x$ acting on the category of bipointed sets (where the two points are distinct). The condition that the two points are distinct is non-algebraic, so I can't see a clear connection which would point to something dual in cubical sets in Pratt's sense. But maybe there's more going on than meets my eyes. 
-
-[[David Corfield]]: Thanks Todd. I think you're right about Pratt's work, see example 5 [here](http://cs.nyu.edu/pipermail/fom/1998-March/001627.html). If his usage is at all prevalent, we should disambiguate. So, next question, which are Grandis's cubical sets? He seems to be able to do some remarkable things with them, e.g., the link to noncommutative spaces in section 3 of [this](http://www.dima.unige.it/~grandis/DAT.Intro.pdf). 
-
-[[Todd Trimble]]: I believe Grandis is talking about cubes as we are here. [His paper](http://www.emis.de/journals/TAC/volumes/11/8/11-08.pdf) with Luca Mauri gives a rather thorough introduction to various categories of cubes (including, e.g., cubes with connections). The cartesian version doesn't appear in that paper; I am guessing that most (all?) people who consider the category of cubes as Pratt does are in very close contact with Lawvere. The only items I found through google on this are one's with Pratt's name attached. But just to be on the safe side, I'll write a brief note of disambiguation. 
-=--
-
 ## Cubical sets in homotopy theory 
  {#InHomotopyTheory}
 
