@@ -79,6 +79,8 @@ Development for [[AQFT on curved spacetime|QFT on curved spacetimes]]:
 
 * [[Stefan Hollands]], [[Robert Wald]], _Axiomatic quantum field theory in curved spacetime_, Commun. Math. Phys. 293:85-125, 2010 ([arXiv:0803.2003](https://arxiv.org/abs/0803.2003))
 
+* [[Stefan Hollands]], [[Robert M. Wald]], *The Operator Product Expansion in Quantum Field Theory* &lbrack;[arXiv:2312.01096](https://arxiv.org/abs/2312.01096)&rbrack;
+
 
 Brief survey:
 
