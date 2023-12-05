@@ -15,6 +15,8 @@ and for [[AQFT on curved spacetime|QFT on curved spacetimes]]:
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001))
 
+* [[Stefan Hollands]], [[Robert M. Wald]], *The Operator Product Expansion in Quantum Field Theory* &lbrack;[arXiv:2312.01096](https://arxiv.org/abs/2312.01096)&rbrack;
+
 
 
 ## Related $n$Lab entries
