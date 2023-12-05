@@ -583,7 +583,7 @@ together with the [[first class constraint]] that the [[covariant derivative]] (
 
 This is the [[phase space]] of [[Yang-Mills theory]] &lbrack;eg. [Friedman & Papastamatiou 1983, §3](Yang-Mills+theory#FriedmanPapastamatiou83); [Bassetto, Lazzizzera & Soldati 1984, §2](Yang-Mills+theory#BassettoLazzizzeraSoldati84)&rbrack; with:
 
-* the [[canonical coordinate]] being the [[gauge potential]] $A$,
+* the [[canonical coordinate]] being the [[gauge potential]] $A$ in [[temporal gauge]],
 
 * its [[canonical momentum]] being the [[electric field]] [[flux density]] $E$,
 
