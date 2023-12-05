@@ -26,7 +26,7 @@ On [[localization]] in [[homotopy type theory]].
 
 Consider a [[function]] $f:S \to T$. We say that a [[type]] $X$ is **$f$-local** if the function
 
-$$\lambda g . g (f) : (S \to X) \to (T \to X)$$
+$$\lambda g . g (f) : (T \to X) \to (S \to X)$$
 
 is an [[equivalence of types]].
 
