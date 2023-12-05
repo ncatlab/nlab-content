@@ -1352,13 +1352,32 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak 
 
-* [[Alberto Marchisio]] (NYUAD):
+### Nov 2023
+
+* 06 Nov 2023
+
+  [[Alberto Marchisio]] (NYUAD):
 
   **Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead**
 
   cf. [arXiv:2310.10315](https://arxiv.org/abs/2310.10315)
 
   > [[quantum computation|Quantum Computing]] (QC) claims to improve the efficiency of solving complex problems, compared to classical computing. When QC is applied to [[machine learning|Machine Learning]] (ML) applications, it forms a [[quantum machine learning|Quantum Machine Learning]] (QML) system. After discussing the basic concepts of QC and its advantages over classical computing, this talk reviews the key aspects of QML in a comprehensive manner. We discuss different QML algorithms and their domain applicability, quantum datasets, hardware technologies, software tools, simulators, and applications. Valuable information and resources are provided to jumpstart into the current state-of-the-art techniques in the QML field.
+
+\linebreak
+
+### Dec 2023
+
+* {#ShabaniDec2023} 05 Dec 2023
+
+  [[Javad Shabani]] (Center of Quantum Information Physics, NYU):
+
+  **Towards Realization of Protected Qubits Using Topological Superconductivity**
+
+  cf.: [arXiv:2303.04784](superconductivity#ShabaniEtAl23), [arXiv:2101.09272](superconductivity#ShabaniEtAl22) 
+
+  > A central goal in [[quantum computing]] research is to [[topological quantum computation|protect]] and [[quantum error correction|control]] [[quantum information]] from [[noise]]. This talk will provide recent progress on the developing field of [topological superconductivity](superconductivity#AnyonsInTopologicalSuperconductorsReferences) where we can encode information in spatially separated [[Majorana zero modes]] (MZM). We show that [topological superconductivity](superconductivity#AnyonsInTopologicalSuperconductorsReferences) can be achieved in certain hybrid materials where the topological properties are not found in the constituent materials.  These special MZMs are formed at the location of [[topological defects]] (e.g. [[boundary field theory|boundaries]], [[domain walls]],..) and manifest [[anyon|non-Abelian braiding statistics]] that can be used in noise-free [[quantum gate|unitary gate]] operations. We show by engineering a reconfigurable domain wall on a [[Josephson junction]] we can create a scalable platform to study MZM properties and their applications in [[quantum information]] science.
+
 
 \linebreak
 
