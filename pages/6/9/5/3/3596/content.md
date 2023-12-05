@@ -27,7 +27,7 @@
 ## Idea
  {#Idea}
 
-In [[type theory]] -- where one understands every piece of data (every "[[term]]") as being of a given *[[type]]* which specifies its operational behaviour -- *identity types* (maybe better: *identification types*) $Id_X$ are the types of those terms which serve as "witnesses" or "certificates" (see at "[[propositions  as types]]") of identification of terms of type $X$. 
+In [[type theory]] -- where one understands every piece of data (every "[[term]]") as being of a given *[[type]]* which specifies its operational behaviour -- *identity types* (maybe better: *identification types*) $Id_X$ are the types of those terms which serve as "witnesses" or "certificates" (see at "[[propositions as types]]") of identification of terms of type $X$. 
 
 {#WhatExactlyThisMeansDepends} What exactly this means depends on the nature of the ambient [[type theory]] and the choices for the [[inference rules]] of the identity types (see at *[[extensional type theory|extensional]]* and *[[intensional type theory]]*). In some setups (see  [below](#IdeaStrictIdentityTypes)), having a term of identity type means much the same as having an [[equality]] in [[classical mathematics]], and for this (historical) reason identity types are often denoted simply by equality signs, for better or worse. 
 
@@ -276,7 +276,6 @@ First the rule that defines the identity type itself, as a [[dependent type]], i
 $$\frac{\Gamma \vdash A:Type}
 {\Gamma, x:A, y:A \vdash Id_A(x,y):Type}$$
 
-
 Now the basic "introduction" rule, which says that everything is equal to itself in a canonical way.
 
 **[[term introduction]]**
@@ -286,40 +285,96 @@ $$\frac{\Gamma \vdash A:Type}
 
 To a category theorist, it might be more natural to call this $1_X$.  The traditional notation $r(x)$ indicates that this is a canonical proof of the *[[reflexive relation|reflexivity]]* of equality.
 
-Then we have the "elimination" rule, which is easily the most subtle and powerful.
+Then there are the "elimination" rule and the "computation" or [[beta-reduction]] rule of identity types, which together result in the induction principle of identity types. There are two different ways to express the elimination and computation rule of identity types, depending on whether one fixes a particular term $x:A$ for the rules or whether one leaves $x:A$ as a [[free variable]] throughout the rules (Cf [UFP13](#UFP13)). The latter results in the usual induction principle of identity types, known as **path induction**, while the former results in **based path induction**, since the principle is based at a particular $x:A$. 
 
-**[[term elimination]]**
+The following rules may seem a little ad-hoc, but they are actually a particular case of the general notion of [[inductive type]].
 
-$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
-\Gamma, x:A, \Delta(x,x,r(x)) \vdash t : C(x,x,r(x))}
-{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash J(t;x,y,p) : C(x,y,p)}$$
+#### Path induction
 
-Ignore the presence of the additional context $\Delta$ for now; it is unnecessary if we also have [[dependent product type]]s.  The elimination rule then says that if:
+Then we have the “elimination” rule, which is easily the most subtle and powerful.
 
-1. for any $x,y:A$ and any reason $p:Id_A(x,y)$ why they are the same, we have a type $C(x,y,p)$, and
-1. if $x$ and $y$ are actually identical and $p:Id_A(x,x)$ is the reflexivity proof $r(x)$, then we have a specified term $t:C(x,x,r(x))$,
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \quad \Gamma, x:A, \Delta(x,x,r(x)) \vdash t(x):C(x,x,r(x))}
+{\Gamma, x:A, y:A, p:Id_A(x,y) \vdash J^{\underline{ }.t}(x,y,p) : C(x,y,p)}$$
 
-then we can construct a canonically defined term $J(t;x,y,p):C(x,y,p)$ for *any* $x$, $y$, and $p:Id_A(x,y)$, by "[[transport|transporting]]" the term $t$ along the proof of equality $p$.  In homotopical or categorical models, this can be viewed as a "path-lifting" property, i.e. that the [[display map]]s are some sort of [[fibration]].  This can be made precise with the [[identity type weak factorization system]].
+Ignore the presence of the additional context $\Delta$ for now; it is unnecessary if we also have [[dependent product types]]. The elimination rule then says that if:
 
-A particular case is when $C$ is a term representing a proposition according to the propositions-as-types philosophy.  In this case, the elimination rule says that in order to prove a statement is true about all $x,y,p$, it suffices to prove it in the special case for $x,x,r(x)$.
+1. for any $x,y:A$ and any reason $p:Id_A(x,y)$ why they are the same, we have a type $C(x,y,p)$
+1. for any $x:A$ we have a $t(x):C(x,x,r(x))$,
 
-Finally, we have the "computation" or [[β-reduction]] rule.  This says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. There are two possible computation rules, which result in strict and weak identity types respectively
+we can construct a canonically defined term $J^{\underline{ }.t}(x,y,p):C(x,y,p)$ for *any* $x$, $y$, and $p:Id_A(x,y)$, by "[[transport|transporting]]" the family of terms $t(x)$ dependent upon $x:A$ along the proof of equality $p$. In homotopical or categorical models, this can be viewed as a "path-lifting" property, i.e. that the [[display map]]s are some sort of [[fibration]], which can be made precise with the [[identity type weak factorization system]]. 
+
+A particular case is when $C$ is a term representing a proposition according to the propositions-as-types philosophy. In this case, the elimination rule says that in order to prove a statement is true about all $x,y,p$, it suffices to prove it in the special case for $x,x,r(x)$.
+
+Finally, we have the "computation" or [[beta-reduction]] rule. There are two possible computation rules, which result in strict and weak identity types respectively. The computation rule for strict identity types says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. 
 
 **[[computation rule]] for strict identity types**
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
-\Gamma, x:A, \Delta(x,x,r(x)) \vdash t : C(x,x,r(x))}
-{\Gamma, x:A, \Delta(x,x,r(x)) \vdash J(t;x,x,r(x)) = t}$$
+\Gamma, x:A, \Delta(x,x,r(x)) \vdash t(x):C(x,x,r(x))}
+{\Gamma, x:A, \Delta(x,x,r(x)) \vdash J^{\underline{ }.t}(x,x,r(x)) = t(x)}$$
 
 Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
+
+The computation rule for weak identity types says that there is a witness that the substitution along a [[reflexive relation|reflexivity]] proof is equal to the original $t(x)$. 
 
 **[[computation rule]] for weak identity types**
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
-\Gamma, x:A, \Delta(x,x,r(x)) \vdash t : C(x,x,r(x))}
-{\Gamma, x:A, \Delta(x,x,r(x)) \vdash q(x):Id_{C(x,x,r(x))}(J(t;x,x,r(x)) ,t)}$$
+\Gamma, x:A, \Delta(x,x,r(x)) \vdash t(x):C(x,x,r(x))}
+{\Gamma, x:A, \Delta(x,x,r(x)) \vdash \beta^{\underline{ }.t}(x):Id_{C(x,x,r(x))}(J^{\underline{ }.t}(x,x,r(x)),t(x))}$$
 
-These rules may seem a little ad-hoc, but they are actually a particular case of the general notion of [[inductive type]].
+If we have [[dependent product types]], we could directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(x,x,r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,x,y,p):C(x,y,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(x,x,r(x))$ rather than annotated with the family $t(x)$. 
+
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(x,x,r(x))}
+{\Gamma, x:A, y:A, p:Id_A(x,y) \vdash J(t,x,y,p) : C(x,y,p)}$$
+
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
+\Gamma \vdash t:\prod_{x:A} C(x,x,r(x))}
+{\Gamma, x:A, \Delta(x,x,r(x)) \vdash J(t,x,x,r(x)) = t(x)}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $J(\lambda x:A.t(x),x,y,p):C(x,y,p)$ and $J(\lambda x:A.t(x),x,x,r(x)) \equiv t(x):C(x,x,r(x))$. . 
+
+Similarly, the canonically defined term in the propositional computation rule is given by the identification $\beta(t,x):Id_{C(x,x,r(x))}(J(t,x,x,r(x)),t(x))$ and is dependent upon dependent function $t:\prod_{x:A} C(x,x,r(x))$ rather than annotated with the family $t(x)$.
+
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
+\Gamma \vdash t:\prod_{x:A} C(x,x,r(x))}
+{\Gamma, x:A, \Delta(x,x,r(x)) \vdash \beta(t,x):Id_{C(x,x,r(x))}(J(t,x,x,r(x)),t(x))}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(x,x,r(x))}(J(\lambda x:A.t(x),x,x,r(x)),t(x))$. . 
+
+#### Based path induction
+
+There is another way to express the elimination and computation rules of identity types:
+
+**[[term elimination]]**
+
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y) \vdash C(x,y,p):Type \quad \Gamma \vdash x:A \quad \Gamma \vdash t:C(x,x,r(x))}
+{\Gamma, y:A, p:Id_A(x,y) \vdash J(x,t,y,p) : C(x,y,p)}$$
+
+The elimination rule then says that if:
+
+1. for any $x,y:A$ and identification $p:Id_A(x,y)$ why $y$ is the same as $x$, we have a type $C(x,y,p)$, and 
+1. for any $x:A$ and $t:C(x,x,r(x))$ 
+
+we can construct a canonically defined term $J(x,t,y,p):C(x,y,p)$ for *any* $y:A$, and $p:Id_A(x,y)$, by "[[transport|transporting]]" the term $t$ along the proof of equality $p$. In homotopical or categorical models, this can be viewed as a "path-lifting" property, i.e. that the [[display map]]s are some sort of [[fibration]], which can be made precise with the [[identity type weak factorization system]]. 
+
+According to [[propositions as types]], the elimination rule says that for all $x$, in order to prove a statement is true about all $y,p$, it suffices to prove it in the special case for $x,r(x)$.
+
+Finally, we have the "computation" or [[beta-reduction]] rule. There are two possible computation rules, which result in strict and weak identity types respectively. The computation rule for strict identity types says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. 
+
+**[[computation rule]] for strict identity types**
+
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y) \vdash C(x,y,p):Type \quad \Gamma \vdash x:A \quad \Gamma \vdash t:C(x,x,r(x))}
+{\Gamma \vdash J(x,t,x,r(x)) = t}$$
+
+Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
+
+The computation rule for weak identity types says that there is a witness that the substitution along a [[reflexive relation|reflexivity]] proof is equal to the original term $t$. 
+
+**[[computation rule]] for weak identity types**
+
+$$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(y,p) \vdash C(x,y,p):Type \quad \Gamma \vdash x:A \quad \Gamma \vdash t:C(x,x,r(x))}
+{\Gamma \vdash \beta(x,t):Id_{C(x,x,r(x))}(J(x,t,x,r(x)) ,t)}$$
 
 ### In terms of inductive types
  {#InTermsOfInductiveTypes}
@@ -340,11 +395,10 @@ An essentially equivalent way to give the definition, due to Paulin-Mohring, is
 
 The difference here is that now $x$ is a *parameter* of the inductive definition rather than an *index*.  In other words, the first definition says "for each type $A$, we have a type $Id_A$ dependent on $A\times A$, inductively defined by a constructor $idpath$ which takes an element $x\colon A$ as input and yields output in $Id_A(x,x)$" while the second definition says "for each type $A$ and each element $x\colon A$, we have a type $Id_A(x)$ dependent on $A$, inductively defined by a constructor $idpath$ which takes *no* input and yields output in $Id_A(x)(x)$."  The two formulations can be proven equivalent, but sometimes one is more convenient than the other.
 
-
 ### $\eta$-conversion and the reflection rule
  {#EtaConversion}
 
-Almost all types in type theory can be given both [[β-reduction]] and [[η-reduction]] rules.  $\beta$-reduction specifies what happens when we apply an eliminator to a term obtained by a constructor; $\eta$-reduction specifies the reverse.  Above we have formulated only the $\beta$-reduction rule for identity types; the $\eta$-conversion rule would be the following:
+Almost all types in type theory can be given both [[beta-reduction]] and [[eta-reduction]] rules.  $\beta$-reduction specifies what happens when we apply an eliminator to a term obtained by a constructor; $\eta$-reduction specifies the reverse.  Above we have formulated only the $\beta$-reduction rule for identity types; the $\eta$-conversion rule would be the following:
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,x,r(x)) \vdash t : C(x,y,p)}
@@ -689,6 +743,11 @@ with early survey in §1.0.1 of:
 
 * {#Warren08} [[Michael Warren]], *Homotopy theoretic aspects of constructive type theory*, PhD thesis (2008) &lbrack;[pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf), [[Warren-HomotopyTypeTheory.pdf:file]]&rbrack;
 
+For the two different ways of expressing the elimination and computation rules of identity types, see
+
+* {#UFP13} [[Univalent Foundations Project]], §1.12 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* {#Rijke22} [[Egbert Rijke]], §5.1 *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 See also (?):
 
@@ -841,6 +900,16 @@ See also
 [[!redirects propositional J-rule]]
 [[!redirects typal J-rule]]
 
+[[!redirects based J rule]]
+[[!redirects judgmental based J rule]]
+[[!redirects propositional based J rule]]
+[[!redirects typal based J rule]]
+
+[[!redirects J-rule]]
+[[!redirects judgmental based J-rule]]
+[[!redirects propositional based J-rule]]
+[[!redirects typal based J-rule]]
+
 [[!redirects identity induction]]
 [[!redirects path induction]]
 [[!redirects identification induction]]
@@ -856,10 +925,33 @@ See also
 [[!redirects identification computation]]
 [[!redirects equality computation]]
 
+[[!redirects based identity induction]]
+[[!redirects based path induction]]
+[[!redirects based identification induction]]
+[[!redirects based equality induction]]
+
+[[!redirects based identity elimination]]
+[[!redirects based path elimination]]
+[[!redirects based identification elimination]]
+[[!redirects based equality elimination]]
+
+[[!redirects based identity computation]]
+[[!redirects based path computation]]
+[[!redirects based identification computation]]
+[[!redirects based equality computation]]
+
 [[!redirects Id-induction]]
 [[!redirects id-induction]]
+
+[[!redirects based Id-induction]]
+[[!redirects based id-induction]]
 
 [[!redirects dependent universal property of identity types]]
 [[!redirects dependent universal property of identification types]]
 [[!redirects dependent universal property of path types]]
 [[!redirects dependent universal property of equality types]]
+
+[[!redirects universal property of identity types]]
+[[!redirects universal property of identification types]]
+[[!redirects universal property of path types]]
+[[!redirects universal property of equality types]]
