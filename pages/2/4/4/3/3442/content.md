@@ -173,6 +173,8 @@ In this diagram now
 
 * [[generalized solution of a PDE]]
 
+* [[geometric analysis]]
+
 * [[Green's function]]
 
 * [[Sturm–Liouville theory]]
