@@ -509,6 +509,10 @@ A [[2-comonad]] characterizing Grothendieck fibrations:
 
 * [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
 
+On the connection between Grothendieck fibrations and [[factorisation systems]] (see also [[stable factorisation system]]):
+
+* J. Hughes and [[Bart Jacobs]], _Factorization systems and fibrations: Toward a fibred Birkhoff variety
+theorem_, Electr. Notes in Theor. Comp. Sci., 69 (2002)
 
 
 See also:
