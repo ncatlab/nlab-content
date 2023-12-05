@@ -358,6 +358,15 @@ The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/
 
 ## Examples
 
+### General
+
+\begin{example}
+\label{OnePointExtensionOfCompactSpace}
+  If $X$ is already itself [[compact topological space|compact]], then its one-point extension in the sense of Def. \ref{OnePointExtension} is the [[disjoint union]] of $X$ with a [[singleton]] $\{ \infty \}$.
+
+Namely, in this case the open neighbourhood $(X \setminus X) \cup \{\infty\}$ of $\infty$ consists of just $\infty$ itself, which is hence an [[open point]]. But it is also a [[closed point]], being the [[complement]] of $X$. 
+\end{example}
+
 ### Compactification of discrete spaces
 
 
