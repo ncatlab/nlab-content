@@ -62,6 +62,8 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 ## Related concepts
 
+* [[geometric analysis]]
+
 * [[epsilontic analysis]]
 
 * [[infinitesimal analysis]]
