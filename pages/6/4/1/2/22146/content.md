@@ -19,13 +19,20 @@ Review:
 
 * Yusuke Masaki, Takeshi Mizushima, Muneto Nitta, *Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors* &lbrack;[arXiv:2301.11614](https://arxiv.org/abs/2301.11614)&rbrack;
 
+Further developments:
 
-Further development:
+* [[Meng Cheng]], Victor Galitski, [[Sankar Das Sarma]], _Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors_, Phys. Rev. B 84, 104529 (2011) ([arXiv:1106.2549](https://arxiv.org/abs/1106.2549))
 
-* Meng Cheng, Victor Galitski, [[Sankar Das Sarma]], _Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors_, Phys. Rev. B 84, 104529 (2011) ([arXiv:1106.2549](https://arxiv.org/abs/1106.2549))
+* {#ShabaniEtAl15} [[Javad Shabani]] et al., *Two-dimensional epitaxial superconductor-semiconductor heterostructures: A platform for topological superconducting networks*, Phys. Rev. B **93** 155402 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.93.155402">doi:10.1103/PhysRevB.93.155402</a>, [arXiv:1511.01127](https://arxiv.org/abs/1511.01127)\]
+
+* {#ShabaniEtAl17} [[Javad Shabani]] et al., *Zero-Energy Modes from Coalescing Andreev States in a Two-Dimensional Semiconductor-Superconductor Hybrid Platform*, Phys. Rev. Lett. **119** (2017) 176805 \[<a href="https://doi.org/10.1103/PhysRevLett.119.176805">doi:10.1103/PhysRevLett.119.176805</a>, [arXiv:1703.03699](https://arxiv.org/abs/1703.03699)\]
+
+* {#ShabaniEtAl22} [[Javad Shabani]] et al., *Fusion of Majorana Bound States with Mini-Gate Control in Two-Dimensional Systems*,  	Nature Communications **13** (2022) 1738-1747 \[<a href="https://doi.org/10.1038/s41467-022-29463-6">doi:10.1038/s41467-022-29463-6</a>, [arXiv:2101.09272](https://arxiv.org/abs/2101.09272)\]
+
+* {#ShabaniEtAl23} [[Javad Shabani]] et al., *Quasiparticle dynamics in epitaxial Al-InAs planar Josephson junctions*, PRX Quantum **4** 030339 (2023) \[<a href="https://doi.org/10.1103/PRXQuantum.4.030339">doi:10.1103/PRXQuantum.4.030339</a>, [arXiv:2303.04784](https://arxiv.org/abs/2303.04784)\]
 
 
-via Majorana zero modes restricted to edges of [[topological insulators]]:
+via [[Majorana zero modes]] restricted to edges of [[topological insulators]]:
 
 * Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, Xiao-Liang Qi, and Shou-Cheng Zhang, _Topological quantum computation based on chiral Majorana fermions_, PNAS October 23, 2018 115 (43) 10938-10942; first published October 8, 2018 ([doi:10.1073/pnas.1810003115](https://doi.org/10.1073/pnas.1810003115))
 
