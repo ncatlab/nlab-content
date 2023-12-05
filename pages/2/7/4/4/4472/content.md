@@ -20,7 +20,7 @@ On [[differential geometry]] (including [[G-structures]]):
 
 On [[Poisson geometry]]:
 
-* [[Marius Crainic]], [[Rui Loja Fernandes]], Ioan Mărcuţ , *Lectures on Poisson Geometry*, Graduate Studies in Mathematics **217**, Amer. Math. Soc. (2021) &lbrack;[ISBN:978-1-4704-6430-1](https://bookstore.ams.org/view?ProductCode=GSM/217)&rbrack;
+* [[Marius Crainic]], [[Rui Loja Fernandes]], Ioan Mărcuţ, *Lectures on Poisson Geometry*, Graduate Studies in Mathematics **217**, Amer. Math. Soc. (2021) &lbrack;[ISBN:978-1-4704-6430-1](https://bookstore.ams.org/view?ProductCode=GSM/217)&rbrack;
 
 
 category: people
