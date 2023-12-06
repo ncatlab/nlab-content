@@ -18,8 +18,6 @@ I'm working on:
 - Several little projects related to graded differential categories and symmetric powers in additive symmetric monoidal categories.
 - Higher-order tangent categories which are a categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]].
 - Hasse-Schimdt differential categories which replace usual differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]] in the notion of differential category.
-- I want to make a personal little nLab-like website where I could develop my research in a nice environment but without having to put it on the nLab. I could make transfers to the nLab when some research becomes mature enough.
-
 
 ## Papers
 
