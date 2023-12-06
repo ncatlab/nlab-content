@@ -98,6 +98,7 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * Jay Armas, [[Vasilis Niarchos]], [[Niels A. Obers]], Section 2 of: _Thermal transitions of metastable M-branes_, J. High Energ. Phys. (2019) 2019: 128 &lbrack;[arXiv:1904.13283](https://arxiv.org/abs/1904.13283)&rbrack;
 
+* [[Iosif Bena]], [[Anthony Houppe]], [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *Maze Topiary in Supergravity* &lbrack;[arXiv:2312.02286](https://arxiv.org/abs/2312.02286)&rbrack;
 
 ### As polarized M2 branes
 
