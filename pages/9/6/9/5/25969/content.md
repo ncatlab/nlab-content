@@ -13,6 +13,10 @@ On [[type II supergravity]]-solutions corresponding to [[D1-D5-P bound states]] 
 
 * [[Bogdan Ganchev]], [[Stefano Giusto]], [[Anthony Houppe]], [[Rodolfo Russo]], [[Nicholas P. Warner]], *Microstrata* &lbrack;[arXiv:2307.13021](https://arxiv.org/abs/2307.13021)&rbrack;
 
+On [[M2-M5-brane bound states]]:
+
+* [[Iosif Bena]], [[Anthony Houppe]], [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *Maze Topiary in Supergravity* &lbrack;[arXiv:2312.02286](https://arxiv.org/abs/2312.02286)&rbrack;
+
 
 category: people
 
