@@ -159,6 +159,11 @@ Relation to [[cutting and pasting of manifolds|cut-and-paste-ivariants]]:
 
 * [[Carmen Rovi]], Matthew Schoenbauer, *Relating Cut and Paste Invariants and TQFTs*, The Quarterly Journal of Mathematics **73** 2 (2022) 579–607 &lbrack;[arXiv:1803.02939](https://arxiv.org/abs/1803.02939), [doi:10.1093/qmath/haab044](https://doi.org/10.1093/qmath/haab044)&rbrack;
 
+See also:
+
+* {#Torzewska22} [[Fiona Torzewska]], *Topological quantum field theories and homotopy cobordisms* &lbrack;[arXiv:2208.14504](https://arxiv.org/abs/2208.14504)&rbrack;
+
+
 
 ### Local ($n$-functorial) TQFT
 
