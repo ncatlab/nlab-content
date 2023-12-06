@@ -177,7 +177,7 @@ Any one of the following axioms on the [[circle type]] implies [[axiom K]] or [[
 
 * That $S^1$ is a [[set]], 
 $$\mathrm{trunc}_0^{S^1}:\mathrm{isSet}(S^1)$$
-* That $S^1$ is a [[proposition]] or a [[contractible type]], which are the same condition as $S^1$ being a [[set]] because $S^1$ is a [[pointed connected groupoid]]
+* That $S^1$ is a [[proposition]] or a [[contractible type]], which are the same condition as $S^1$ being a [[set]] because $S^1$ is a [[pointed connected type]]
 $$\mathrm{trunc}^{S^1}:\mathrm{isProp}(S^1) \qquad \mathrm{contr}_{S^1}:\mathrm{isContr}(S^1)$$
 * That there is an [[identification]] $K:\mathrm{refl}_{S^1}(\mathrm{base}) =_{S^1} \mathrm{loop}$
 
