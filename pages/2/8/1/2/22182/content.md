@@ -71,7 +71,13 @@ $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm
 **Computation rules for the strict circle type**
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) \equiv c_\mathrm{base}:C(\mathrm{base})}$$
 
+* Judgmental path constructors
+
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}$$
+
+* Propositional path constructors
+
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{loop}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{apd}_{\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}} c_\mathrm{loop}}$$
 
 **Computation rules for the weak circle type**
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{x:S^1.C(x)}^{(\mathrm{base}, \mathrm{base}, \mathrm{loop})} c_\mathrm{base}}{\Gamma \vdash \beta_{S^1}^{\mathrm{base}}(c_\mathrm{base}, c_\mathrm{loop}):\mathrm{ind}_{S^1}(c_\mathrm{base}, c_\mathrm{loop})(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}}$$
