@@ -47,12 +47,11 @@ Accordingly, the role that the [[braid group]] plays in [[3d TQFTs]] such as [[C
 
 ## References
 
-Original articles:
+Original articles on motion groups:
 
 * {#Dahm62} D. Dahm, *A generalization of braid theory*, PhD thesis, Princeton University, 1962.
 
 * {#Goldsmith81} Deborah L. Goldsmith, *The theory of motion groups*, Michigan Math. J. 28(1): 3-17 (1981) ([doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full))
-
 
 * [[Xiao-Song Lin]], *The motion group of the unlink and its representations*, in: 
 
@@ -61,6 +60,11 @@ Original articles:
   [[Kevin Lin]], [[Zhenghan Wang]], [[Weiping Zhang]] (eds.) *Topology and Physics: Proceedings of the Nankai International Conference in Memory of Xiao-Song Lin*, Tianjin, China, 27-31 July 2007. World Scientific, 2008 ([doi:10.1142/6907](https://doi.org/10.1142/6907))
 
 See also:
+
+* {#TorzewskaMartinsMartin23} [[Fiona Torzewska]], [[João Faria Martins]], [[Paul Purdon Martin]], *Motion groupoids and mapping class groupoids*, Comm. Math. Phys. **402** (2023) 1621-1705 &lbrack;[arXiv:2103.10377](https://arxiv.org/abs/2103.10377), [doi:10.1007/s00220-023-04755-0](https://doi.org/10.1007/s00220-023-04755-0)&rbrack;
+
+
+Specifically on the loop braid group
 
 * Wikipedia, *[Loop braid group](https://en.wikipedia.org/wiki/Loop_braid_group)*
 
@@ -106,4 +110,10 @@ Relation to [[integrable systems]]:
 
 [[!redirects loop braid groups]]
 
+
+[[!redirects motion group]]
+[[!redirects motion groups]]
+
+[[!redirects motion groupoid]]
+[[!redirects motion groupoids]]
 
