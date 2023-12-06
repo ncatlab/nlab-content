@@ -242,7 +242,7 @@ On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-
 
 * {#BassettoLazzizzeraSoldati84} A. Bassetto, I. Lazzizzera, R. Soldati, *Yang-Mills theories in space-like axial and planar gauges*, Nuclear Physics B **236** 2 (1984) 319-335 \[<a href="https://doi.org/10.1016/0550-3213(84)90538-8">doi:10.1016/0550-3213(84)90538-8</a>&rbrack;
 
-* D. M. Gitman, S. L. Lyakhovich & I. V. Tyutin , *Canonical quantization of the Yang-Mills Lagrangian with higher derivatives*, Soviet Physics Journal **28** (1985) 554–556 &lbrack;[doi:10.1007/BF00896182](https://doi.org/10.1007/BF00896182)&rbrack;
+* D. M. Gitman, S. L. Lyakhovich & I. V. Tyutin, *Canonical quantization of the Yang-Mills Lagrangian with higher derivatives*, Soviet Physics Journal **28** (1985) 554–556 &lbrack;[doi:10.1007/BF00896182](https://doi.org/10.1007/BF00896182)&rbrack;
 
 * Kurt Haller, *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 &lbrack;[doi:10.1103/PhysRevD.36.1839](https://doi.org/10.1103/PhysRevD.36.1839)&rbrack;
 
