@@ -62,13 +62,16 @@ and the non-supersymmetric generalization via [[AdS3-CFT2 duality]] ("[[microstr
 * [[Bogdan Ganchev]], [[Stefano Giusto]], [[Anthony Houppe]], [[Rodolfo Russo]], *$AdS_3$ holography for non-BPS geometries*, European Physical Journal C **82** 217 (2022)
  &lbrack;[https://arxiv.org/abs/2112.03287](https://arxiv.org/abs/2112.03287), [doi:10.1140/epjc/s10052-022-10133-2](https://doi.org/10.1140/epjc/s10052-022-10133-2)&rbrack;
 
-
-
-
-
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
 
 * [[Iosif Bena]], [[Krzysztof Pilch]], [[Nicholas Warner]], _Brane-Jet Instabilities_,  J. High Energ. Phys. 2020, 91 (2020) ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
+
+
+On [[M2-M5-brane bound states]]:
+
+* [[Iosif Bena]], [[Anthony Houppe]], [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *Maze Topiary in Supergravity* &lbrack;[arXiv:2312.02286](https://arxiv.org/abs/2312.02286)&rbrack;
+
+
 
 [[!redirects Nicholas P. Warner]]
 
