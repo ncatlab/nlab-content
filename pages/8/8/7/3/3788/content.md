@@ -41,7 +41,7 @@ $$\array{& X & \overset{f}\rightarrow & Z & \\
 }$$
 in $\mathcal{C}$, a square
 $$\array{& FX & \overset{hF(f)}\rightarrow & FZ & \\
-          hF(g) & \downarrow & \square F\alpha &\downarrow & vF(g')\\
+          vF(g) & \downarrow & \square F\alpha &\downarrow & vF(g')\\
           &FY & \underset{hF(f')}\rightarrow& FW & \\
 }$$
 in $\mathcal{D}$,
