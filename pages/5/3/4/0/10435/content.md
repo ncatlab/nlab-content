@@ -10,15 +10,14 @@
 =--
 
 
+
 # End compactification
 * table of contents
 {: toc}
 
 ## Idea
 
-Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the _end compactification_ adjoins one point for each [[connected component]] of infinity. 
-
-The theory of ends was invented by [[Hans Freudenthal]] in his dissertation, who gave a number of interesting applications (see below). 
+Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the _end compactification_ &lbrack;[Freudenthal 1931](#Freudenthal31)&rbrack; adjoins one point for each [[connected component]] of infinity. 
 
 
 ## Definition
@@ -58,7 +57,7 @@ The end compactification of the [[real line]] is the [[extended real number]] li
 
 Ends are important in [[proper homotopy theory]]. 
 
-According to [Peschke](#Peschke), Freudenthal was led to his theory of ends by the following observation. For a space $X$, consider a path-connected family $F \subseteq Homeo(X)$ containing the identity $1_X$. Let $K \subseteq X$ be compact, and let $U$ be a connected component of $X \setminus K$. Then for all $f \in F$, it may be shown $f(U) \setminus U$ is contained in a compact subset of $X$. The upshot is that $f$ extends to a homeomorphism on the end compactification that is *pointwise fixed* on the ends. If in addition for each pair $(x, y) \in X^2$ there is $f \in F$ with $f(x) = y$, then there is a severe constraint on the ends; in particular Freudenthal showed the following. 
+According to [Peschke 1990](#Peschke90), [Freudenthal 1931](#Freudenthal31) was led to his theory of ends by the following observation. For a space $X$, consider a path-connected family $F \subseteq Homeo(X)$ containing the identity $1_X$. Let $K \subseteq X$ be compact, and let $U$ be a connected component of $X \setminus K$. Then for all $f \in F$, it may be shown $f(U) \setminus U$ is contained in a compact subset of $X$. The upshot is that $f$ extends to a homeomorphism on the end compactification that is *pointwise fixed* on the ends. If in addition for each pair $(x, y) \in X^2$ there is $f \in F$ with $f(x) = y$, then there is a severe constraint on the ends; in particular Freudenthal showed the following. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -82,18 +81,30 @@ For example, it follows that the space obtained by removing two points from $\ma
 
 ## References
 
-*  [Wikipedia](https://en.wikipedia.org/wiki/End_%28topology%29)
+The original text:
 
-* G. Peschke, _The Theory of Ends_, Nieuw Archief voor Wiskunde, 8 (1990), 1&#8211;12. ([pdf](https://www.ualberta.ca/~gepe/pdf/Peschke_TheoryOfEnds.pdf)) 
- {#Peschke} 
+* {#Freudenthal31} [[Hans Freudenthal]], _Über die Enden topologischer Räume und Gruppen_, Mathematische Zeitschrift **33** (1931) 692-713 &lbrack;[doi:10.1007/BF01174375](https://doi.org/10.1007/BF01174375), [pdf](http://dspace.library.uu.nl/bitstream/handle/1874/7437/1930-freudenthal-dissertatie.pdf?sequence=1)&rbrack;
 
-*  H. Freudenthal, _&#220;ber die Enden topologischer R&#228;ume und Gruppen_, Math. Z. 33 (1931), 692&#8211;713. ([web](http://dspace.library.uu.nl/bitstream/handle/1874/7437/1930-freudenthal-dissertatie.pdf?sequence=1)) 
+Further discussion:
+
+* [[Hans Freudenthal]], *Neuaufbau der Endentheorie*, Annals of Mathematics Second Series **43** 2 (1942) 261-279 &lbrack;[doi:10.2307/1968869](https://doi.org/10.2307/1968869), [jstor:1968869](https://www.jstor.org/stable/1968869)&rbrack;
+
+* [[Hans Freudenthal]], *Über die Enden diskreter Räume und Gruppen*, Commentarii Mathematici Helvetici **17** (1944) 1–38 &lbrack;[doi:10.1007/BF02566233](https://doi.org/10.1007/BF02566233)&rbrack;
+
+* {#Peschke90}  [[Georg Peschke]], _The Theory of Ends_, Nieuw Archief voor Wiskunde, 8 (1990), 1-12 &lbrack;[pdf](https://www.ualberta.ca/~gepe/pdf/Peschke_TheoryOfEnds.pdf), [[Peschke-Ends.pdf:file]]&rbrack; 
+
+See also:
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/End_(topology)">End (topology)</a>*
+ 
+
 
 [[!redirects end compactification]]
 [[!redirects end compactifications]]
 
 [[!redirects topological end]]
 [[!redirects topological ends]]
+
 [[!redirects end of a topological space]]
 [[!redirects ends of a topological space]]
 [[!redirects ends of topological spaces]]
