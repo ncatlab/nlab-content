@@ -81,8 +81,7 @@ with $\eta(i) = (-1)^{\sum_{k=1}^i |s a_k|}$.
 
 1. The construction uses the _suspension_ operator on the graded vector spaces.  This mirrors the reduced suspension at the cell complex level.
 
-* The construction uses a tensor algebra construction.  This from one point of view handles the formal concatenation aspect,  
-but has also a rich structure of a coalgebraic structure with reduced diagonal, given by 
+* The construction uses a tensor algebra construction.  This from one point of view handles the formal concatenation aspect, but has also a rich structure of a coalgebraic structure with reduced diagonal, given by 
 
   $$\bar{\Delta}(v_1\otimes \ldots \otimes v_n) = \sum_{p=1}^{n-1} (v_1\otimes \ldots \otimes v_p)\otimes(v_{p+1}\otimes \ldots \otimes v_n),$$
 
