@@ -12,6 +12,15 @@ The term "natural homomorphism" is introduced on [p. 196](http://www.numdam.org/
 
 ## Selected writings
 
+Introducing the notion of [[topological ends]] end of [[end compactification]]:
+
+* {#Freudenthal31} [[Hans Freudenthal]], _Über die Enden topologischer Räume und Gruppen_, Mathematische Zeitschrift **33** (1931) 692-713 &lbrack;[doi:10.1007/BF01174375](https://doi.org/10.1007/BF01174375), [pdf](http://dspace.library.uu.nl/bitstream/handle/1874/7437/1930-freudenthal-dissertatie.pdf?sequence=1)&rbrack;
+
+* [[Hans Freudenthal]], *Neuaufbau der Endentheorie*, Annals of Mathematics Second Series **43** 2 (1942) 261-279 &lbrack;[doi:10.2307/1968869](https://doi.org/10.2307/1968869), [jstor:1968869](https://www.jstor.org/stable/1968869)&rbrack;
+
+* [[Hans Freudenthal]], *Über die Enden diskreter Räume und Gruppen*, Commentarii Mathematici Helvetici **17** (1944) 1–38 &lbrack;[doi:10.1007/BF02566233](https://doi.org/10.1007/BF02566233)&rbrack;
+
+
 On [[intuitionistic logic]]:
 
 * [[Hans Freudenthal]], *Zur intuitionistischen Deutung logischer Formeln*, Comp. Math. **4** (1937) 112-116 &lbrack;[numdam:CM_1937__4__112_0](http://www.numdam.org/item/?id=CM_1937__4__112_0)&rbrack;
