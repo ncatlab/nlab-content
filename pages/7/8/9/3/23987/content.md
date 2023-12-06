@@ -2007,6 +2007,8 @@ Stone-von Neumann**
 
 \linebreak
 
+### Nov 2023
+
 * {#WangNov23} 01 Nov 2023
   
   [[Juven Wang]] (Harvard University):
@@ -2064,6 +2066,21 @@ Stone-von Neumann**
   cf. [arXiv:2310.01877](first-order+formulation+of+gravity#CattaneoMengerSchiavina23)
 
   > The [[BV formalism]] and its [[shifted symplectic structure|shifted]] versions in [[field theory]] have a nice compatibility with [[boundary field theory|boundary]] structures. Namely, one such structure in the [[bulk]] induces a shifted (possibly degenerated) version on its boundary, which can be interpreted as a [[Poisson structure]] ([[Poisson n-algebra|up to homotopy]]). I will present the results for some field theories, in particular, 4D [[BF theory]] and [[Einstein gravity|4D gravity]].
+
+\linebreak
+
+### Dec 2023
+
+* 06 Dec 2023
+  
+  [[Fiona Torzewska]] (University of Leeds, UK):
+
+  **Topological Quantum Field Theories and Homotopy Cobordisms**
+
+  cf: [arXiv:2208.14504](TQFT#Torzewska22)
+
+  > I will begin by explaining the construction of a [[category]] $CofCos$, whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[cofibrant object|cofibrant]] [[cospans]]. Here the [[identity morphism|identity]] [[cospan]] is chosen to be of the form $X\to X\times [0,1]\rightarrow X$, in contrast with the usual identity in the [[bicategory]] $Cosp(V)$ of cospans over a category $V$. The category $CofCos$ has a [[subcategory]] $HomCob$ in which all spaces are homotopically 1-finitely generated. There exist [[functors]] into $HomCob$ from a number of categorical constructions which are potentially of use for modelling [[particle]] [[trajectories]] in [[topological phases of matter]]: embedded cobordism categories and [motion groupoids](motion+groupoid#TorzewskaMartinsMartin23) for example. Thus, functors from $HomCob$ into [[Vect]] give [[linear representation|representations]] of the aforementioned categories. I will also construct a family of [[functors]] $Z_G\colon HomCob\to Vect$, one for each [[finite group]] $G$, and show that [[topological quantum field theories]] previously constructed [[Yetter model|by Yetter]], and an untwisted version of [[Dijkgraaf-Witten theory|Dijkgraaf-Witten]], generalise to functors from $HomCob$. I will construct this functor in such a way that it is clear the [[images]] are [[finite dimensional vector spaces]], and the functor is explicitly calculable. I will also give example calculations throughout. 
+
 
 
 \linebreak
