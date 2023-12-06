@@ -95,8 +95,8 @@ $$\underset{x:A,y:A}{\mathcal{G}} \sum_{z:B} (s(z) =_A x) \times (t(z) =_A y)$$
 
 ## Examples
 
-* The [[copy]] of a type $T$ is the coequalizer of two copies of the unique function $\mathrm{rec}_\emptyset^T$ from the [[empty type]] to $T$. 
-$$\mathrm{Copy}(T) \coloneqq \mathrm{coeq}_{\emptyset, T}(\mathrm{rec}_\emptyset^T, \mathrm{rec}_\emptyset^T)$$
+* The [[sum type]] of a type $T$ with itself is the coequalizer of two copies of the unique function $\mathrm{rec}_\emptyset^T$ from the [[empty type]] to $T$. 
+$$T + T \coloneqq \mathrm{coeq}_{\emptyset, T}(\mathrm{rec}_\emptyset^T, \mathrm{rec}_\emptyset^T)$$
 * The [[circle type]] is the coequalizer of any two [[endofunctions]] $f:C \to C$ and $g:C \to C$ on a [[contractible type]] $C$. 
 $$S^1 \coloneqq \mathrm{coeq}_{C, C}(f, g) \quad \mathrm{given} \quad p:\mathrm{isContr}(C)$$
 * The [[interval type]] is the coequalizer of the [[constant functions]] with value $\mathrm{false}$ and $\mathrm{true}$ from any [[contractible type]] $C$ to the [[boolean domain]].
