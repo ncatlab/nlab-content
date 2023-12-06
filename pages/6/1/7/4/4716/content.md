@@ -148,6 +148,11 @@ See also:
 
 * Wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
 
+In relation to [[motion groupoids]]:
+
+* [[Fiona Torzewska]], [[João Faria Martins]], [[Paul Purdon Martin]], *Motion groupoids and mapping class groupoids*, Comm. Math. Phys. **402** (2023) 1621-1705 &lbrack;[arXiv:2103.10377](https://arxiv.org/abs/2103.10377), [doi:10.1007/s00220-023-04755-0](https://doi.org/10.1007/s00220-023-04755-0)&rbrack;
+
+
 ### Braid groups
 
 Understanding of [[braid groups]] as mapping class group of punctured [[surfaces]] with [[boundary]]:
