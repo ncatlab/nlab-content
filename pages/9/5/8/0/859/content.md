@@ -178,9 +178,7 @@ Relevant textbooks include
 
 * [[R. Brown]], _Topology and groupoids_, Booksurge 2006.
 
-* [[P. J. Higgins]] and J. Taylor,  _The Fundamental Groupoid and
-  Homotopy Crossed Complex of an Orbit Space_, in K.H. Kamps et al., ed.,
-   Category Theory: Proceedings Gummersbach 1981, Springer LNM
+* [[P. J. Higgins]] and J. Taylor,  _The Fundamental Groupoid and Homotopy Crossed Complex of an Orbit Space_, in K.H. Kamps et al., ed., Category Theory: Proceedings Gummersbach 1981, Springer LNM
   962  (1982) 115--122.
 
 
