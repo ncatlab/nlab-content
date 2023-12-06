@@ -143,6 +143,21 @@ This says that the type is inductively constructed from
 ## Properties 
  {#Properties}
 
+\begin{theorem}
+Suppose that the strict circle type has an identification $K:\mathrm{refl}_{S^1}(\mathrm{base}) = \mathrm{loop}$. Then every type is a [[set]]. 
+\end{theorem}
+
+\begin{proof}
+For all types $A$, terms $x:A$, and self-identifications $p:x =_A x$, by the recursion principle of the strict circle type, we have the function $\mathrm{rec}_{S^1}(x, p):S^1 \to A$ such that 
+$\mathrm{rec}_{S^1}(x, p)(\mathrm{base}) \equiv x$ and $\mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, p)}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv p$. We also have by definition of $\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}$ that 
+$$\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base}, \mathrm{refl}_{S^1}(\mathrm{base})) \equiv \mathrm{refl}_{A}(\mathrm{rec}_{S^1}(x, p)(\mathrm{base})) \equiv \mathrm{refl}_A(x)$$ 
+By applying $\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base})$ to $K$, we have identification 
+$$\mathrm{ap}_{\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base})}(\mathrm{refl}_{S^1}(\mathrm{base}), \mathrm{loop}, K):\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base}, \mathrm{refl}_{S^1}(\mathrm{base})) = \mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base}, \mathrm{loop})$$
+which reduces down to 
+$$\mathrm{ap}_{\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base})}(\mathrm{refl}_{S^1}(\mathrm{base}), \mathrm{loop}, K):\mathrm{refl}_{A}(x) = p$$
+which is precisely [[axiom K]] for type $A$. Thus every type $A$ is a set.
+\end{proof}
+
 ### Types equivalent to the circle type
 
 The circle type is equivalent to the following types
