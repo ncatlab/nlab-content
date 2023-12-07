@@ -92,6 +92,23 @@ Under passing to [[exponentials]] the canomical commutation relations are also c
 
 * [[singleton representation]]
 
+## References
+
+Original discussion:
+
+* {#Weyl27} [[Hermann Weyl]], (36) in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+
+
+More on the history of the notion:
+
+* [[Severino C. Coutinho]], Introduction to: *A primer of algebraic D-modules*, London Math. Soc. Stud. Texts **33**, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511623653](https://doi.org/10.1017/CBO9780511623653)&rbrack;
+
+* [[Severino C. Coutinho]], *The Many Avatars of a Simple Algebra*, The American Mathematical Monthly **104** 7 (1997) 593-604 &lbrack;[doi:10.2307/2975052](https://doi.org/10.2307/2975052), [jstor:2975052](https://www.jstor.org/stable/2975052)&rbrack;
+
+Monograph on [[commutators]] in [[operator algebra]]:
+
+* [[Calvin R. Putnam]], *Commutation Properties of Hilbert Space Operators and Related Topics*, Ergebnisse der Mathematik und ihrer Grenzgebiete **36**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85938-0](https://doi.org/10.1007/978-3-642-85938-0)&rbrack;
+
 [[!redirects canonical commutation relations]]
 
 [[!redirects canonical anti-commutation relation]]
