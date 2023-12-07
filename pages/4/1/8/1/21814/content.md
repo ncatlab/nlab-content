@@ -88,6 +88,9 @@ Discussion of defect [[(p,q)5-branes]]:
 
 * [[Tetsuji Kimura]], _Defect $(p,q)$ Five-branes_, Nucl. Phys. B **893** (2015) 1-20 &lbrack;[arXiv:1410.8403](https://arxiv.org/abs/1410.8403), [doi:10.1016/j.nuclphysb.2015.01.023](https://doi.org/10.1016/j.nuclphysb.2015.01.023)&rbrack;
 
+* [[Tetsuji Kimura]], Shin Sasaki, Kenta Shiozawa, *On Geometries and Monodromies for Branes of Codimension Two* &lbrack;[arXiv:2312.03358](https://arxiv.org/abs/2312.03358)&rbrack;
+
+
 Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence defect branes in [[little string theory]]:
 
 * Hironori Mori, Yuji Sugimoto, _Surface Operators from M-strings_, Phys. Rev. D 95, 026001 (2017) ([arXiv:1608.02849](https://arxiv.org/abs/1608.02849))
@@ -97,7 +100,6 @@ Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence d
 * Nathan Haouzi, Christian Schmid, _Little String Origin of Surface Defects_,  J. High Energ. Phys. 2017, 82 (2017) ([arXiv:1608.07279](https://arxiv.org/abs/1608.07279), <a href="https://doi.org/10.1007/JHEP05(2017)082">doi:10.1007/JHEP05(2017)082</a>)
 
 and in [[D=5 supergravity]]:
-
 
 * Minkyu Park, [[Masaki Shigemori]], _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
 
@@ -117,7 +119,7 @@ and in the [[3d toric code]]-[[4d TQFT]]:
 
 Incorporation of defect branes into the [[K-theory classification of D-brane charge]] by understanding the [[hypergeometric construction of KZ solutions]] as happening in [[twisted equivariant differential K-theory]]:
 
-* {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]*, Reviews in Mathematical Physics **35** 06 (2023) 2350009 &lbrack;[arXiv:2203.11838](https://arxiv.org/abs/2203.11838), [doi:10.1142/S0129055X23500095](https://doi.org/10.1142/S0129055X23500095)&rbrack;
 
 
 [[!redirects defect branes]]
