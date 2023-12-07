@@ -91,9 +91,14 @@ $$
 and under this identification its [[quotient]] map is expressed in terms of the [[exponential function]] $\exp \colon z \mapsto  \sum_{k = 0}^\infty \frac{z^k}{k!} \in \mathbb{C}$ as
 
 $$
-  \exp(2 \pi \tfrac{i}{h}(-))
-  =
-  \exp(\tfrac{i}{\hbar} (-)) \;\colon\; \mathbb{R} \longrightarrow U(1)
+  \exp\big(
+    2 \pi \tfrac{\mathrm{i}}{h}(-)
+  \big)
+  \;=\;
+  \exp\big(
+    \tfrac{\mathrm{i}}{\hbar} (-)
+  \big) 
+  \;\colon\; \mathbb{R} \longrightarrow U(1)
   \,,
 $$
 
@@ -101,7 +106,7 @@ where
 
 \[
   \label{ReducedPlanckViaPrequantization}
-  \hbar \coloneqq h/2\pi
+  \hbar \,\coloneqq\, h/2\pi
 \]
 
 is the "reduced Planck constant", or *Dirac constant* &lbrack;[Dirac 1933](#Dirac33) [p. 208](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf#page=235)&rbrack;.
