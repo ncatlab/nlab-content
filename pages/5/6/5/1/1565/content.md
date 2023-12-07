@@ -30,10 +30,10 @@ Rigs are commonly also called _semirings_, but the term 'semiring' is overloaded
 A _rig_ is a [[set]] $R$ with binary operations of addition and multiplication, such that
 
 * $R$ is a [[monoid]] under multiplication;
-* $R$ is an [[commutative monoid]] 
+* $R$ is a [[commutative monoid]] under addition;
 * multiplication distributes over addition, i.e. the distributivity laws hold:
   $$x\cdot (y+z) = (x\cdot y) + (x\cdot z)$$
-  $$(y+z)\cdot x = (y\cdot x) + (z\cdot x)$$
+  $$(y+z)\cdot x = (y\cdot x) + (z\cdot x)$$,
   and also the absorption/annihilation laws, which are their nullary version:
   $$0\cdot x = 0 = x\cdot 0$$
 
