@@ -493,6 +493,11 @@ More recent textbook accounts:
 
 * [[Teiko Heinosaari]], [[Mário Ziman]], *The Mathematical Language of Quantum Theory -- From Uncertainty to Entanglement*, Cambridge University Press  (2011) &lbrack;[doi:10.1017/CBO9781139031103]( https://doi.org/10.1017/CBO9781139031103)&rbrack;
 
+* [[Thomas L. Curtright]], [[David B. Fairlie]], [[Cosmas K. Zachos]], *A Concise Treatise on Quantum Mechanics in Phase Space*, World Scientific (2014) &lbrack;[doi:10.1142/8870](https://doi.org/10.1142/8870)&rbrack;
+
+  > (in [[Weyl quantization]])
+
+
 * [[Paul Busch]], [[Pekka J. Lahti]], Juha-Pekka Pellonpää, Kari Ylinen, *Quantum Measurement*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-43389-9](https://doi.org/10.1007/978-3-319-43389-9)&rbrack;
 
   > (perspective of [[quantum probability]] via [[POVMs]])
