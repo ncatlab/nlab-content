@@ -28,13 +28,13 @@ An _ordinary gauge theory_ is a [[quantum field theory]] whose field configurati
 
 This includes notably the [[field (physics)|fields]] that carry the three fundamental forces of the [[standard model of particle physics]]:
 
-* Ordinary [[electromagnetism]] in the absence of magnetic charges is a gauge theory of $U(1)$-[[principal bundle]]s with [[connection on a bundle|connection]]. 
+* Ordinary [[electromagnetism]] in the absence of magnetic charges is a gauge theory of $U(1)$-[[principal bundle|principal bundles]] with [[connection on a bundle|connection]]. 
 
-* Fields in [[Yang-Mills theory]] (such as appearing in the [[standard model of particle physics]] and in [[GUT]]s) are [[vector bundle]]s [[connection on a bundle|with connection]].
+* Fields in [[Yang-Mills theory]] (such as appearing in the [[standard model of particle physics]] and in [[GUT|GUTs]]) are [[vector bundle|vector bundles]] [[connection on a bundle|with connection]].
 
 Other examples include formal physical models.
 
-* [[Dijkgraaf-Witten theory]] is a gauge theory whose field configurations are $G$-[[principal bundle]]s for $G$ a finite group (these come with a unique [[connection on a bundle|connection]], so that in this simple case the connection is no extra datum).
+* [[Dijkgraaf-Witten theory]] is a gauge theory whose field configurations are $G$-[[principal bundle|principal bundles]] for $G$ a finite group (these come with a unique [[connection on a bundle|connection]], so that in this simple case the connection is no extra datum).
 
 The group $G$ in these examples is called the [[gauge group]] of the theory.
 
@@ -82,13 +82,13 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * cocycle in lowest degree [[schreiber:Differential Nonabelian Cohomology|nonabelian differential cohomology]]  
 
-    * originally realized in terms of differential [[Čech cohomology|Čech cocycle]]s
+    * originally realized in terms of differential [[Čech cohomology|Čech cocycles]]
       $$
         \hat F \in \mathbf{H}(X, \bar \mathbf{B} G)
       $$
       with coefficients in the [[groupoid of Lie-algebra valued forms]],
        
-      then traditionally in terms of [[vector bundle]]s [[connection on a bundle|with connection]]
+      then traditionally in terms of [[vector bundle|vector bundles]] [[connection on a bundle|with connection]]
 
   * [[field strength]] depending on the [[group]] $G$ we have
   
@@ -98,7 +98,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
     * $G = SU(3)$ - strong nuclear force field
 
-  * [[parallel transport]]: [[Wilson line]]s
+  * [[parallel transport]]: [[Wilson line|Wilson lines]]
 
 * [[electromagnetic field]]
 
