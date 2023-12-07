@@ -23,6 +23,16 @@ Let $A$ be a [[partial combinatory algebra]].  If $E$ is a [[partial equivalence
 
 * $PER(A)$ is a full subcategory of the category of [[assemblies]] over $A$, which is in turn a full subcategory of the [[realizability topos]] over $A$.
 
+## In first-order logic
+
+Given a theory in first-order logic with equality (categorically, this can be taken as a [[first-order hyperdoctrine]]), its category of partial equivalence relations represents all the [[subquotient]]s the theory can "see" of its given sorts and all the functions the theory can "see" between them.
+
+Specifically, the objects of this category are pairs $(X, R)$ where $X$ is a sort in the first-order theory and $R$ is a binary predicate which the theory proves to be a [[partial equivalence relation]] on $X$. A morphism between objects $(X, R)$ and $(Y, S)$ can be taken to be a binary predicate $F \in P(X \times Y)$ such that the theory proves $F$ is essentially the graph of a function between the specified subquotients (In detail: ...). Composition is given in the obvious way (In detail: ...).
+
+In the case where the original hyperdoctrine was in fact a [[tripos]], the resulting category of PERs will be a [[topos]] (while the converse isn't quite true, the condition of being a tripos is just slightly stronger than necessary for this to happen).
+
 [[!redirects categories of PERs]]
+[[!redirects category of partial equivalence relations]]
+[[!redirects categories of partial equivalence relations]]
 [[!redirects modest set]]
 [[!redirects modest sets]]
