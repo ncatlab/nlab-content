@@ -77,7 +77,7 @@ $$
   \mathcal{S}
 $$
 
-be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup.
+be an  [[adjoint quadruple]] of [[adjoint functor|adjoint functors]] such that $p^*$ and $p^!$ are [[full and faithful functor|full and faithful functors]]. We record some general properties of such a setup.
 
 We write 
 
