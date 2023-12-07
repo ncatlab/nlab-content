@@ -22,5 +22,9 @@ On [[Poisson geometry]]:
 
 * [[Marius Crainic]], [[Rui Loja Fernandes]], Ioan Mărcuţ, *Lectures on Poisson Geometry*, Graduate Studies in Mathematics **217**, Amer. Math. Soc. (2021) &lbrack;[ISBN:978-1-4704-6430-1](https://bookstore.ams.org/view?ProductCode=GSM/217)&rbrack;
 
+On [[characteristic class]]es for [[Lie algebroid]]s
+
+* [[Marius Crainic]], [[Rui Loja Fernandes]], _Secondary characteristic classes of Lie algebroids_, In: Carow-Watamura, U., Maeda, Y., Watamura, S. (eds) Quantum Field Theory and Noncommutative Geometry. Lecture Notes in Physics __662__, Springer [doi](https://doi.org/10.1007/113427869)
+
 
 category: people
