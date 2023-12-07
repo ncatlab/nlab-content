@@ -121,7 +121,7 @@ The constructive version is also due to Freyd:
 
 Freyd published 8 years later:
 
-* [[Peter Freyd]], _Real Algebraic Analysis_, TAC **20** no.10 (2008) pp. 215--306. ([web](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+* [[Peter Freyd]], _Algebraic Real Analysis_, TAC **20** no.10 (2008) pp. 215--306. ([web](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
 There is also a complete development in the [[Elephant]]:
 
