@@ -118,7 +118,7 @@ $$
   Nat(h_c, X) \simeq X(c)
 $$
 
-to emphasize that the morphisms of presheaves are [[natural transformation]]s of the corresponding functors.
+to emphasize that the morphisms of presheaves are [[natural transformation|natural transformations]] of the corresponding functors.
 
 
 
@@ -257,7 +257,7 @@ For emphasis, here is the interpretation of these three corollaries in words:
 
 * **corollary II** says that probes by objects of $C$ are sufficient to distinguish objects of $C$: two objects of $C$ are the same if they have the same probes by other objects of $C$.
 
-* **corollary III** characterizes [[representable functor]]s by a [[universal property]] and is hence the bridge between the notion of [[representable functor]] and [[universal construction]]s.
+* **corollary III** characterizes [[representable functor|representable functors]] by a [[universal property]] and is hence the bridge between the notion of [[representable functor]] and [[universal construction|universal constructions]].
 
 
 ## Generalizations
@@ -266,7 +266,7 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * There is an analog of the Yoneda lemma in [[enriched category theory]]. See [[enriched Yoneda lemma]].
 
-* In the context of [[module]]s (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
+* In the context of [[module|modules]] (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
 
 * There is a [[Yoneda lemma for bicategories]].
 
@@ -298,9 +298,9 @@ For some of the details see at _[[regular semicategory]]_ and the references the
 
 ## Applications
 
-* The Yoneda lemma is the or a central ingredient in various [[reconstruction theorem]]s, such as those of [[Tannaka duality]]. See there for a detailed account.
+* The Yoneda lemma is the or a central ingredient in various [[reconstruction theorem|reconstruction theorems]], such as those of [[Tannaka duality]]. See there for a detailed account.
 
-* In its incarnations as [[Yoneda reduction]] the Yoneda lemma governs the algebra of [[end]]s and [[coend]]s and hence that of [[bimodule]]s and [[profunctor]]s.
+* In its incarnations as [[Yoneda reduction]] the Yoneda lemma governs the algebra of [[end|ends]] and [[coend|coends]] and hence that of [[bimodule|bimodules]] and [[profunctor|profunctors]].
 
 * The Yoneda lemma is effectively the reason that [[Isbell conjugation]] exists. This is a fundamental duality that relates [[geometry]] and [[algebra]] in large part of mathematics.
 
