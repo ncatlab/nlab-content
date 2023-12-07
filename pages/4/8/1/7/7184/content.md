@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Harmonic analysis
++-- {: .hide}
+[[!include harmonic analysis - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,11 +33,15 @@ in symmetric or Weyl ordering. This means that all possible orderings between $x
 
 * [[Lars Hörmander]], _The Weyl calculus of pseudodifferential operators_, Comm. Pure Appl. Math. __32__ (1979), no. 3, 360&#8211;444. [MR80j:47060](http://www.ams.org/mathscinet-getitem?mr=517939), [doi](http://dx.doi.org/10.1002/cpa.3160320304)
 
-* Robert F. V. Anderson, _The Weyl functional calculus_, J. Functional Analysis __4__:240&#8211;267, 1969, [MR635128](http://www.ams.org/mathscinet-getitem?mr=635128); _On the Weyl functional calculus_, J. Functional Analysis __6__:110&#8211;115, 1970, [MR262857](http://www.ams.org/mathscinet-getitem?mr=262857)
-* E. M. Stein, _Harmonic analysis: real variable methods, orthogonality,
-and oscillatory integrals_, Princeton University Press 1993
-M. W. Wong, _Weyl transforms, the heat kernel and Green function of
-a degenerate elliptic operator_, Annals Global Anal. Geom. 28 (2005) 271&#8211;283
+* Robert F. V. Anderson, _The Weyl functional calculus_, J. Functional Analysis __4__:240-267, 1969, [MR635128](http://www.ams.org/mathscinet-getitem?mr=635128); 
+
+* _On the Weyl functional calculus_, J. Functional Analysis __6__:110&#8211;115, 1970, [MR262857](http://www.ams.org/mathscinet-getitem?mr=262857)
+
+* E. M. Stein, _Harmonic analysis: real variable methods, orthogonality, and oscillatory integrals_, Princeton University Press 1993
+
+* M. W. Wong, _Weyl transforms, the heat kernel and Green function of a degenerate elliptic operator_, Annals Global Anal. Geom. 28 (2005) 271&#8211;283
+
+* [[Thomas L. Curtright]], [[David B. Fairlie]], [[Cosmas K. Zachos]], *A Concise Treatise on Quantum Mechanics in Phase Space*, World Scientific (2014) &lbrack;[doi:10.1142/8870](https://doi.org/10.1142/8870)&rbrack;
 
 Discussion of [[quantization of Chern-Simons theory]] in terms of Weyl quantization is in
 
@@ -46,3 +64,4 @@ Discussion of the generalization to [[BV-quantization]] is in
 
 [[!redirects Weyl quantization]]
 [[!redirects Weyl quantizations]]
+
