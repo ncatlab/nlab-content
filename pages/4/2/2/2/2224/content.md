@@ -63,9 +63,9 @@ The term "Weyl algebra" for algebras freely generated subject to [[canonical com
 
 * [[Jacques Dixmier]], *Sur les algèbres de Weyl*, Bulletin de la Société Mathématique de France, **96** (1968) 209-242 &lbrack;[numdam:BSMF_1968__96__209_0](http://www.numdam.org/item/?id=BSMF_1968__96__209_0)&rbrack;
 
-(there attributed to a suggestion by [[Irving Segal]]) and presumeably referring to the original discussion in
+(there attributed to a suggestion by [[Irving Segal]]) and referring to the original discussion in
 
-* {#Weyl27} [[Hermann Weyl]], pp. 22 in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+* {#Weyl27} [[Hermann Weyl]], (36) in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
 
 However, beware that the invention of [Weyl 1927](#Weyl27) was not the [[canonical commutation relations]] but their exponential reformulation via the [[Weyl relations]], whose relevance was then picked up by 
 
