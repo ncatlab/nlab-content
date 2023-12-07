@@ -51,11 +51,12 @@ Detailed analysis is in
 
 * [[Tamiaki Yoneya]], _Lectures on Higher-Gauge Symmetries from Nambu Brackets and Covariantized M(atrix) Theory_,  lectures delivered in the workshop "[Higher Structure in String Theory and M-theory](http://www.tfc.tohoku.ac.jp/event/4123.html)", TFC Thematic Program, Fundamental Problems on Quantum Physics, Tohoku University (March 7-11, 2016), ([arXiv:1612.08513](https://arxiv.org/abs/1612.08513))
 
-Reviews include 
+Review:
+
+* [[Thomas L. Curtright]], [[Cosmas K. Zachos]], _Classical and Quantum Nambu Mechanics_, Phys. Rev. D **68** 085001 (2003) &lbrack;[arXiv:hep-th/0212267](http://arxiv.org/abs/hep-th/0212267), [doi:10.1103/PhysRevD.68.085001](https://doi.org/10.1103/PhysRevD.68.085001)&rbrack;
 
 * Wikipedia, _[Nambu mechanics](http://en.wikipedia.org/wiki/Nambu_mechanics)_
 
-* Thomas Curtright, Cosmas Zachos, _Classical and Quantum Nambu Mechanics_, Phys. Rev. D68:085001 (2003) ([arXiv:hep-th/0212267](http://arxiv.org/abs/hep-th/0212267))
 
 
 ### Interpretation in higher symplectic geometry
