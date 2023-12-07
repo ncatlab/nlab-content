@@ -59,20 +59,29 @@ Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie $n$-algebra]] it 
 
 ## References
 
-Named after:
+The term "Weyl algebra" for algebras freely generated subject to [[canonical commutation relations]] is due to 
+
+* [[Jacques Dixmier]], *Sur les algèbres de Weyl*, Bulletin de la Société Mathématique de France, **96** (1968) 209-242 &lbrack;[numdam:BSMF_1968__96__209_0](http://www.numdam.org/item/?id=BSMF_1968__96__209_0)&rbrack;
+
+(there attributed to a suggestion by [[Irving Segal]]) and presumeably referring to the original discussion in
 
 * {#Weyl27} [[Hermann Weyl]], pp. 22 in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
 
-and early adopted by:
+However, beware that the invention of [Weyl 1927](#Weyl27) was not the [[canonical commutation relations]] but their exponential reformulation via the [[Weyl relations]], whose relevance was then picked up by 
 
 * {#vonNeumann31} [[John von Neumann]], *Die Eindeutigkeit der Schrödingerschen Operatoren*, Mathematische Annalen **104**  (1931) 570–578 &lbrack;[doi:10.1007/BF01457956](https://doi.org/10.1007/BF01457956)&rbrack;
 
   > (proving the [[Stone-von Neumann theorem]])
- 
 
-Further discussion:
+More on the history:
 
-* S. C. Coutinho, Introduction to: *A primer of algebraic D-modules*, London Math. Soc. Stud. Texts **33**, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511623653](https://doi.org/10.1017/CBO9780511623653)&rbrack;
+* [[Severino C. Coutinho]], Introduction to: *A primer of algebraic D-modules*, London Math. Soc. Stud. Texts **33**, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511623653](https://doi.org/10.1017/CBO9780511623653)&rbrack;
+
+* [[Severino C. Coutinho]], *The Many Avatars of a Simple Algebra*, The American Mathematical Monthly **104** 7 (1997) 593-604 &lbrack;[doi:10.2307/2975052](https://doi.org/10.2307/2975052), [jstor:2975052](https://www.jstor.org/stable/2975052)&rbrack;
+
+
+Further discussion (of either notion):
+
 
 * [[Alan Weinstein]], p. 392 of: *Deformation quantization*, Séminaire Bourbaki volume 1993/94, exposés 775-789, Astérisque, no. 227 (1995), Talk no. 789 &lbrack;[numdam:SB_1993-1994__36__389_0](http://www.numdam.org/item/?id=SB_1993-1994__36__389_0)&rbrack;
 
@@ -81,6 +90,9 @@ Further discussion:
 * {#Bekaert05} [[Xavier Bekaert]], *Universal enveloping algebras and some applications in physics* (2005) &lbrack;[cds:904799](https://cds.cern.ch/record/904799), [pdf](https://cds.cern.ch/record/904799/files/cer-002575006.pdf)&rbrack;
 
 * [[Markus Pflaum]], *From Weyl quantization to modern algebraic index theory*, in *Groups and Analysis -- The Legacy of Hermann Weyl*, Cambridge University Press (2008) 84-99 &lbrack;[doi:10.1017/CBO9780511721410.005](https://doi.org/10.1017/CBO9780511721410.005)&rbrack;
+
+* Jason Gaddis, *The Weyl algebra and its friends: a survey* &lbrack;[arXiv:2305.01609](https://arxiv.org/abs/2305.01609)&rbrack;
+
 
 On [[continuous field of C-star algebras|continuous fields]] of [[Weyl algebras]] as [[continuous deformation quantizations]] of [[symplectic vector spaces|symplectic]] [[topological vector spaces]]:
 
