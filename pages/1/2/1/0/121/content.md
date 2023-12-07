@@ -54,7 +54,7 @@ A natural isomorphism from a functor to itself is also called a _natural [[autom
 
 ### Defining the concept of equivalence of categories
  
-A fundamental use of the concept of isomorphic functors is the usual definition of [[equivalent categories]] which involves functors isomorphic to [[identity functor]]s.
+A fundamental use of the concept of isomorphic functors is the usual definition of [[equivalent categories]] which involves functors isomorphic to [[identity functor|identity functors]].
 
 ### Re-defining isomorphism of objects in terms of isomorphism of functors
 
