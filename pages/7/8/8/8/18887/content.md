@@ -316,6 +316,16 @@ where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq
 
 > For more references see at *[[Weyl algebra]]*.
 
+The notion goes back to
+
+* {#Weyl27} [[Hermann Weyl]], (46) in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
+
+* {#vonNeumann31} [[John von Neumann]], p. 571 of: *Die Eindeutigkeit der Schrödingerschen Operatoren*, Mathematische Annalen **104**  (1931) 570–578 &lbrack;[doi:10.1007/BF01457956](https://doi.org/10.1007/BF01457956)&rbrack;
+
+  > (proving the [[Stone-von Neumann theorem]])
+
+See also:
+
 * {#Duetsch18} [[Michael Dütsch]], exercise 2.3 in: _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
