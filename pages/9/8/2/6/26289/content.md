@@ -58,6 +58,10 @@ natural in $b \in B$, where $[A, B]_{l, A'}(\Delta(b), F)$ is the 2-category of 
 
 * [[Luca Mesiti]], *The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits* (2023), &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
 
+On **marked bilimits**:
+
+* [[Ivan Di Liberti]], Axel Osmond, *Bi-accessible and bipresentable 2-categories.* &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046)&rbrack;
+
 A proof of the equivalence between weighted 2-limits and marked 2-limits is given in the following, as well as a generalisation of these ideas to weighted limits for [[F-categories]]:
 
 * Joanna Ko. _Dotted Limits_ (2023), ([arXiv:2306.01625](https://arxiv.org/abs/2306.01625))
