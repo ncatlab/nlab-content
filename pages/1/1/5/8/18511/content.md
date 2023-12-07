@@ -56,6 +56,10 @@ The method is due to
 
 * {#Fedosov94} [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_ Journal of Differential Geometry, 40(2):213&#8211;238, 1994 ([Euclid](https://projecteuclid.org/euclid.jdg/1214455536))
 
+with a monograph account in
+
+* [[Boris Fedosov]], *Deformation Quantization and Index Theory*, John Wiley & Sons (1995) &lbrack;ISBN:9783055017162&rbrack;
+
 Its generalization to [[almost Kähler structures]] is due to
 
 * {#KarabegovSchlichenmaier01} V. Karabegov, M. Schlichenmaier,  _Almost-K&#228;hler deformation quantization_, Letters in Mathematical Physics, 57(2):135&#8211;148, 2001 ([proceedings pdf](http://www.atlantis-press.com/php/download_paper.php?id=540))
@@ -64,7 +68,7 @@ The observation that the construction of [[perturbative quantum field theory]] v
 
 * {#Collini16} [[Giovanni Collini]], _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
 
-Discussion showing that this generalization to field theory is not given by Kontsevich deformation quantization is in  
+Discussion showing that this generalization to field theory is not given by Kontsevich deformation quantization:
 
 * {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], section 5.3.2 of _The Star Product in Interacting Quantum Field Theory_ ([arXiv:1612.09157](https://arxiv.org/abs/1612.09157))
 
