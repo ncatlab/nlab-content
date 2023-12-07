@@ -114,6 +114,9 @@ $\,$
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
+On the [[ordinary cohomology]] of topological tori:
+
+* [[Qiaochu Yuan]], *[The cohomology of the $n$-torus](https://qchu.wordpress.com/2013/10/12/the-cohomology-of-the-n-torus/)* (2013) 
 
 The [[moduli stack]] of 1-dimensional tori in [[algebraic geometry]] is discussed (as the cusp point inside the [[moduli stack of elliptic curves]]) in
 
