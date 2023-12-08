@@ -396,7 +396,7 @@ $$
       0 & -\partial^X
     }
   \right)
-  : 
+  \;\;\colon\;\;
   (X_{n+1} \oplus X_{n+1}) \oplus X_{n}
   \to
   (X_{n} \oplus X_{n}) \oplus X_{n-1}
