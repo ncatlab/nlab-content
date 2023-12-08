@@ -844,12 +844,6 @@ See also
 [[!redirects identity types]]
 [[!redirects equality type]]
 [[!redirects equality types]]
-[[!redirects path type]]
-[[!redirects path types]]
-[[!redirects path space type]]
-[[!redirects path space types]]
-[[!redirects stable path object]]
-[[!redirects stable path objects]]
 
 [[!redirects weak identification type]]
 [[!redirects weak identification types]]
@@ -868,16 +862,6 @@ See also
 [[!redirects weak equality types]]
 [[!redirects strict equality type]]
 [[!redirects strict equality types]]
-
-[[!redirects weak path type]]
-[[!redirects weak path types]]
-[[!redirects strict path type]]
-[[!redirects strict path types]]
-
-[[!redirects weak path space type]]
-[[!redirects weak path space types]]
-[[!redirects strict path space type]]
-[[!redirects strict path space types]]
 
 [[!redirects intensional identification type]]
 [[!redirects intensional identification types]]
