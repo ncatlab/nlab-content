@@ -244,7 +244,7 @@ is an *$r$-deformation* of the given $f$ if its values are pointwise within a ra
   \vert g-f\vert_\infty
   \;\coloneqq\;
   \underset{x \in X}{max}
-  \vert g(x) - r(x)\vert
+  \vert g(x) - f(x)\vert
   \;\lt\;
   r
   \,.
