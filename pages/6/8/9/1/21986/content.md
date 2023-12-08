@@ -85,7 +85,7 @@ The [[integers]] are the integers object in the [[closed monoidal category|close
 \end{example}
 
 \begin{example}
-The [[disjoint union]] $\mathbb{Z} + \{\infty\}$ is the [[integers object]] in the closed symmetric monoidal category of [[pointed sets]] $Set_*$, with $z:\mathbb{2} \to \mathbb{Z} + \{\infty\}$ taking the [[boolean]] [[true]] to $\infty$ and [[false]] to $0$ and $s:\mathbb{Z} + \{\infty\} \cong \mathbb{Z} + \{\infty\}$ taking integers to its successor and $\infty$ to $\infty$.
+In [[classical mathematics]], the [[Alexandroff compactification]] of the [[integers]], $\mathbb{Z}^* = \mathbb{Z} + \{\infty\}$, is the [[integers object]] in the closed symmetric monoidal category of [[pointed sets]] $Set_*$, with $z:\mathbb{2} \to \mathbb{Z}^*$ taking the [[boolean]] [[true]] to $\infty$ and [[false]] to $0$ and $s:\mathbb{Z}^* \cong \mathbb{Z}^*$ taking integers to its successor and $\infty$ to $\infty$. In [[constructive mathematics]], the Alexandroff compactification of the integers and the [[disjoint union]] $\mathbb{Z} + \{\infty\}$ are no longer the same; it is $\mathbb{Z} + \{\infty\}$ which remains the integers object in $Set_*$. 
 \end{example}
 
 \begin{example}
