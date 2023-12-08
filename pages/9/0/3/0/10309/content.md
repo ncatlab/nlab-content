@@ -80,7 +80,7 @@ which sends $\frac{1}{N}$ to $Mat_N(\mathbb{C})$ is a [[strict deformation quant
  
 following
 
-* {#BordemannMeinrenkenSchlichenmaier93} Martin Bordemann, [[Eckhard Meinrenken]], Martin Schlichenmaier, _Toeplitz Quantization of K&#228;hler Manifolds and $gl(N)$ $N\to\infty$_,  	Commun.Math.Phys. 165 (1994) 281-296 ([arXiv:hep-th/9309134](http://arxiv.org/abs/hep-th/9309134))
+* {#BordemannMeinrenkenSchlichenmaier93} [[Martin Bordemann]], [[Eckhard Meinrenken]], [[Martin Schlichenmaier]], _Toeplitz Quantization of Kähler Manifolds and $gl(N)$ $N\to\infty$_,  	Commun. Math. Phys. **165** (1994) 281-296 &lbrack;[arXiv:hep-th/9309134](http://arxiv.org/abs/hep-th/9309134), [doi:10.1007/BF02099772](https://doi.org/10.1007/BF02099772)&rbrack;
  
 
 [[!redirects strict deformation quantization of the 2-sphere]]
