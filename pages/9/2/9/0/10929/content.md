@@ -6,7 +6,7 @@ Transvection is a name for a number of concepts of involutive transformations in
 
 ### For vector spaces
 
-__Definition.__ For a left vector space $V$ over a [[skewfield]] $F$, a __transvection__ is a left $F$-linear map $t:V\to V$ such that the map $v\mapsto t(v)-v$ has 1-dimensional image (called the center of $t$) and this image is a subset of the fixed space of $V$ (the set of fixed points of $t$, i.e. the kernel if $v\mapsto t(v)-v$).
+__Definition.__ For a left vector space $V$ over a [[skewfield]] $F$, a __transvection__ is a left $F$-linear map $t:V\to V$ such that the map $v\mapsto t(v)-v$ has 1-dimensional image (called the center of $t$) and this image is a subset of the fixed space of $V$ (the set of fixed points of $t$, i.e. the kernel of $v\mapsto t(v)-v$).
 
 For finite dimensional vector spaces over a (commutative) field, $t\in GL(V)$ is a transvection if it is either the identity or $dim(Im(t-Id))=1$ and $det(t) = 1$. For any $s\in GL(V)$ the image $Im(s-Id)$ is also called the residual space of $s$ and $res(s) = dim(Im(s-Id))$ the residue of $s$. Residue is $0$ iff $s=Id$; residue of a product is smaller or equal the sum of residues. The fixed space and the residue space of $s$ are both fixed by $s$ and their dimensions add to the dimension of $V$; both spaces for $s^{-1}$ are equal to those of $s$. 
 
@@ -37,7 +37,7 @@ The reflections define the Coxeter quandle what motivates the definition of tran
 The operations $R_a R_b^{-1}$ (where $R_a: x\mapsto x\triangleright a$) for $a,b$ in a quandle $X$ form the transvection group
 $Transv(X)$ which is a normal subgroup of the inner automorphism group of a quandle. For Coxeter quandle, their quotient is a cyclic group (result of D. Joyce, JPAA 1982).
 
-There are also quandles whcih are secretly entirely defined in terms of transvections; these are the transvection quandles, also called
+There are also quandles which are secretly entirely defined in terms of transvections; these are the transvection quandles, also called
 symplectic quandles; the operation is defined in terms of an alternative form on the underlying $R$-module:
 
 * Esteban Adam Navas, Sam Nelson, _On symplectic quandles_, Osaka J. Math. __45__:4 (2008) 973--985 [MR2493966](https://mathscinet.ams.org/mathscinet-getitem?mr=2493966) [euclid](https://projecteuclid.org/euclid.ojm/1227708829)
