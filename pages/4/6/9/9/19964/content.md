@@ -339,6 +339,9 @@ Further development:
 
 * Fabrizio Canfora, Scarlett C. Rebolledo-Caceres, *Skyrmions at Finite Density* &lbrack;[arXiv:2306.10226](https://arxiv.org/abs/2306.10226)&rbrack;
 
+* Alberto García Martín-Caro, [[Chris Halcrow]],
+*The charge density and neutron skin thickness of Skyrmions* &lbrack;[https://arxiv.org/abs/2312.04335](https://arxiv.org/abs/2312.04335)&rbrack;
+
 
 
 Large computer search for Skyrmion solutions:
