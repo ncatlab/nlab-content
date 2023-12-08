@@ -24,7 +24,7 @@ A [[category]] $C$ is **locally regular** if
 
 * The category $LH$ of [[topological spaces]] (or [[locales]]) and [[local homeomorphisms]] is locally regular, but not regular.  Its slice categories are precisely the [[sheaf toposes]] of spaces (or locales).
 
-* The [[syntactic category]] of an [[extensional type theory]] with [[dependent product types]], [[dependent sum types]], [[identity types]], and [[propositional truncations]] is a [[locally cartesian closed category|locally cartesian closed]] [[locally regular category]]. If the type theory also has a [[unit type]] its syntactic category becomes a [[regular category]]. 
+* The [[syntactic category]] of an [[extensional type theory]] with [[dependent sum types]], [[identity types]], and [[propositional truncations]] is a [[locally regular category]]. If the dependent type theory also has [[dependent product types]], the syntactic category becomes [[locally cartesian closed category|locally cartesian closed]]. If the type theory also has a [[unit type]] its syntactic category becomes a [[regular category]]. 
 
 ## Properties
 
