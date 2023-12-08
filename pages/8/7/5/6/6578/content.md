@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[geometric quantization]] of [[compact topological space|compact]] [[Kähler manifolds]]:
+
+* {#BordemannMeinrenkenSchlichenmaier93} [[Martin Bordemann]], [[Eckhard Meinrenken]], [[Martin Schlichenmaier]], _Toeplitz Quantization of Kähler Manifolds and $gl(N)$ $N\to\infty$_,  	Commun. Math. Phys. **165** (1994) 281-296 &lbrack;[arXiv:hep-th/9309134](http://arxiv.org/abs/hep-th/9309134), [doi:10.1007/BF02099772](https://doi.org/10.1007/BF02099772)&rbrack;
+
 On the [[basic bundle gerbe]] over a [[compact Lie group|compact]] [[simple Lie group]]:
 
 * [[Eckhard Meinrenken]], _The basic gerbe over a compact simple Lie group_, Enseign. Math. (2) 49 (2003), no. 3-4, 307-333 &lbrack;[arXiv:math/0209194](https://arxiv.org/abs/math/0209194), [e-periodica](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::562)&rbrack;
@@ -46,9 +50,11 @@ On [[moment maps]]:
 
 * [[Eckhard Meinrenken]], _Lectures on group-valued moment maps and Verlinde formulas_, 35 pages, January 2012, [pdf](http://www.math.toronto.edu/mein/research/NotreLectures.pdf)
 
-On [[quantization]] such as [[deformation quantization of the 2-sphere]]:
+## Related entries
 
-* {#BordemannMeinrenkenSchlichenmaier93} Martin Bordemann, [[Eckhard Meinrenken]], Martin Schlichenmaier, _Toeplitz Quantization of K&#228;hler Manifolds and $gl(N)$ $N\to\infty$_,  	Commun.Math.Phys. 165 (1994) 281-296 ([arXiv:hep-th/9309134](http://arxiv.org/abs/hep-th/9309134))
+* [[deformation quantization of the 2-sphere]]
+
+
 
 
 category: people
