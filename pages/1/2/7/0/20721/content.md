@@ -204,7 +204,7 @@ The concept and the terminology "Pontryagin-multiplication" is due to
 
 who name it in honor of the analogous product operation on the homology of [[compact Lie groups]] due to:
 
-* [[Lev Pontrjagin]], *Homologies in compact Lie groups*, Rec. Math. [Mat. Sbornik] N.S. **6**(**48**) 3 (1939) 389–422 &lbrack;[mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng)&rbrack;
+* [[Lev Pontrjagin]], *Homologies in compact Lie groups*, Rec. Math. [Mat. Sbornik] N. S. **6** (**48**) 3 (1939) 389–422 &lbrack;[mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng)&rbrack;
 
 see also:
 
