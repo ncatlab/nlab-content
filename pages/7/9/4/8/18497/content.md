@@ -40,7 +40,7 @@ Relation to [[Borcherds algebras]]:
 
 {#SatiVoronov} Relation to [[Hypothesis H]] via [[automorphisms]] of [[iterated loop space|iterated]] [[cyclic loop spaces]] of the [[4-sphere]]:
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. (2023) &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [doi:10.1007/s00220-023-04643-7](https://doi.org/10.1007/s00220-023-04643-7)&rbrack;
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. **400** (2023) 1915-1960 &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [doi:10.1007/s00220-023-04643-7](https://doi.org/10.1007/s00220-023-04643-7)&rbrack;
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
 
