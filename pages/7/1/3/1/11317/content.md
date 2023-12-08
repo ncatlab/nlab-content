@@ -62,6 +62,11 @@ In view of [[constructive mathematics]]:
 * {#Sbierski} Jan Sbierski, _On the Existence of a Maximal Cauchy Development for the Einstein Equations - a Dezornification_ [PDF](http://arxiv.org/abs/1309.7591)
 
 
+Doubting aspects of the theorem:
+
+* [[Roy Kerr]], *Do Black Holes have Singularities?* &lbrack;[arXiv:2312.00841](https://arxiv.org/abs/2312.00841)&rbrack;
+
+
 
 
 
