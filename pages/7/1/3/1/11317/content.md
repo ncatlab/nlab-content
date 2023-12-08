@@ -47,7 +47,7 @@ Review:
 
 See also:
 
-* Wikipedia, _[Penrose-Hawking singularity theorem](http://en.wikipedia.org/wiki/Penrose&#8211;Hawking_singularity_theorems)_
+* Wikipedia, _[Penrose-Hawking singularity theorems](https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems)_
 
 For further developments see
 
