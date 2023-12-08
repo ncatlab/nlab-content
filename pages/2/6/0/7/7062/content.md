@@ -138,25 +138,49 @@ Uniqueness rules for the interval type:
 
 * An interval type is a [[cubical type]] $\Box^1$. 
 
-### Relation to identity types
+### Path types and identity types
 
-Every [[identity]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated [[term in context]] $x:\mathbb{I} \vdash f(x):A$, inductively defined by 
+In general, functions from $\mathbb{I}$ to a type $A$ can be thought of as the [[paths]] in $A$ in [[Martin-Löf type theory]], and the [[function type]] $\mathbb{I} \to A$ can be thought of as the **[[path types]]** of $A$, similar to how in [[topology]] paths in a (topological) space $A$ are (continuous) functions from the unit interval, and how in [[cubical type theory]] the [[cubical paths]] are a kind of function type out of the pre-defined interval pre-type. 
 
-* $\beta_f^0:f(0) =_A a$
-* $\beta_f^1:f(1) =_A b$
-* $\beta_f^p:\mathrm{ap}_f(p) =_{f(0) =_A f(1)} \beta_f^0 \bullet q \bullet (\beta_f^1)^{-1}$
+The recursion principle of the interval type allows for paths to be defined from a given [[identification]], and [[function application to identifications]] allows for identifications to be defined from a given path:
+
+\begin{theorem}
+Every [[identification]] $q:a =_A b$ between two terms $a:A$ and $b:A$ of a type $A$ has an associated path $\mathrm{rec}_{\mathbb{I}}(a, b, p):\mathbb{I} \to A$, recursively defined by 
+
+* $\beta_\mathbb{I}^0(a, b, q):\mathrm{rec}_{\mathbb{I}}(a, b, q)(0) =_A a$
+* $\beta_\mathbb{I}^1(a, b, q):\mathrm{rec}_{\mathbb{I}}(a, b, q)(1) =_A b$
+* $\beta_\mathbb{I}^p(a, b, q):\mathrm{ap}_{\mathrm{rec}_{\mathbb{I}}(a, b, q)}(p) =_{f(0) =_A f(1)} \beta_\mathbb{I}^0(a, b, q) \bullet q \bullet \beta_\mathbb{I}^p(a, b, q)^{-1}$
 
 where 
-$$\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$$ 
+$$\mathrm{ap}_{\mathrm{rec}_{\mathbb{I}}(a, b, q)}:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$$ 
 is the [[function application to identities]], 
 $$(-)\bullet(-):(a =_A b) \times (b =_A c) \to (a =_A c)$$ 
 is concatenation of identities (i.e. [[transitivity]]), and 
 $$(-)^{-1}:(a =_A b) \to (b =_A a)$$ 
 is the inverse of identities (i.e. [[symmetry]]).
+\end{theorem}
 
-Conversely, given a function $f:\mathbb{I} \to A$ and terms $a:A$ and $b:A$ with identities $\delta_a:f(0) =_A a$ and $\delta_b:f(1) =_A b$, there is an identity 
+\begin{theorem}
+Given a path $q:\mathbb{I} \to A$ and terms $a:A$ and $b:A$ with identities $\delta_a:q(0) =_A a$ and $\delta_b:q(1) =_A b$, there is an identity 
 
-$$\delta_a^{-1} \bullet \mathrm{ap}_{f}(p) \bullet \delta_b:a =_{A} b$$
+$$\delta_a^{-1} \bullet \mathrm{ap}_{q}(p) \bullet \delta_b:a =_{A} b$$
+\end{theorem}
+
+The path version of [[reflexivity]] of an element $x:A$ is represented by the [[constant function]] $\lambda i:\mathbb{I}.x:\mathbb{I} \to A$. By definition of [[function application to identifications]], one has 
+
+$$\mathrm{ap}_{\lambda i:\mathbb{I}.x}(i, j, q) \equiv \mathrm{refl}_A(x)$$
+
+for all $i, j:\mathbb{I}$ and $q:i =_\mathbb{I} j$. 
+
+This allows us to posit a version of [[path induction]] using functions from the interval type, which states that:
+
+\begin{theorem}
+Given a type $A$, a type family $C(z)$ indexed by $z:\mathbb{I} \to A$, and a family of elements $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$, one could construct a dependent function $f(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that $f(t, \lambda i:\mathbb{I}.x) \equiv t:C(\lambda i:\mathbb{I}.x)$. 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I} \to A \vdash C(z) \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)}{\Gamma \vdash \mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I} \to A \vdash C(z) \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)}{\Gamma, x:A \vdash \mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t:C(\lambda i:\mathbb{I}.x)}$$
+\end{theorem}
 
 ### Relation to dependent identity types
 
