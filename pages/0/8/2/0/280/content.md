@@ -278,6 +278,12 @@ Historical origins:
 
   _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full), LaTeX version retyped by Nitin C. Rughoonauth: [arXiv:0807.3161](https://arxiv.org/abs/0807.3161))
 
+Introduction of group actions into ([[quantum physics|quantum]]) [[physics]] (cf. *[[Gruppenpest]]*):
+
+* [[Hermann Weyl]], §III.1 in: *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics*, Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
+
+
+
 Textbook accounts:
 
 * {#Bredon72} [[Glen Bredon]], *[[Introduction to compact transformation groups]]*, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
