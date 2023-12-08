@@ -99,6 +99,9 @@ Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence d
 
 * Nathan Haouzi, Christian Schmid, _Little String Origin of Surface Defects_,  J. High Energ. Phys. 2017, 82 (2017) ([arXiv:1608.07279](https://arxiv.org/abs/1608.07279), <a href="https://doi.org/10.1007/JHEP05(2017)082">doi:10.1007/JHEP05(2017)082</a>)
 
+* Pietro Capuozzo, John Estes, Brandon Robinson, Benjamin Suzzoni, *Holographic Weyl Anomalies for 4d Defects in 6d SCFTs* &lbrack;[arXiv:2310.17447](https://arxiv.org/abs/2310.17447)&rbrack;
+
+
 and in [[D=5 supergravity]]:
 
 * Minkyu Park, [[Masaki Shigemori]], _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
