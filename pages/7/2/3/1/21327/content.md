@@ -13,7 +13,9 @@ Introducing [[Kerr-Schild spacetimes]]:
 
 * [[Roy Kerr]], [[Alfred Schild]], _Some algebraically degenerate solutions of Einstein’s gravitational field equations_, Proc. Symp. Appl. Math 17, 199, 1965
 
+Doubting the [[Penrose singularity theorem]]:
 
+* [[Roy Kerr]], *Do Black Holes have Singularities?* &lbrack;[arXiv:2312.00841](https://arxiv.org/abs/2312.00841), [[Kerr-DoBHsHaveSingularities-Nov2023.pdf:file]]&rbrack;
 
 
 category: people
