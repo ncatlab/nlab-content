@@ -31,7 +31,7 @@ Registration: 2016 Jan. 3
 
 ####Invited Participants####
 
-Anton Alexseev (University of Geneva)
+[[Anton Alekseev]] (University of Geneva)
 
 Chengming Bai (Chern Institute, Nankai University)
 
@@ -65,11 +65,11 @@ Wei Hong (Wuhan University)
 
 Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
 
-Yvette Kosmann-Schwarzbach (Ecole polytechnique, Palaiseau)
+[[Yvette Kosmann-Schwarzbach]] (Ecole polytechnique, Palaiseau)
 
 Honglei Lang (Peking University)
 
-Camille Laurent-Gengoux (The University of Poitiers)
+[[Camille Laurent-Gengoux]] (The University of Poitiers)
 
 Hui Li (Suzhou University)
 
@@ -85,7 +85,7 @@ Zhangju Liu (Peking University)
 
 Jianghua Lu  (The University of Hong Kong)
 
-Kirill C.H. Mackenzie (University of Sheffield)
+[[Kirill Mackenzie]] (University of Sheffield)
 
 Kentaro Mikami (Akita University)
 
@@ -97,13 +97,13 @@ Yu Qiao (Shaanxi Normal University)
 
 Hajime Sato (Nagoya University)
 
-Martin Schlichenmaier (University of Luxembourg)
+[[Martin Schlichenmaier]] (University of Luxembourg)
 
 Yunhe Sheng (Jilin University)
 
 Song Gao (Peking University)
 
-Mathieu Stienon (Penn State University)
+[[Mathieu Stienon]] (Penn State University)
 
 Bingjun Su (Jilin University)
 
@@ -111,7 +111,7 @@ Shanzhong Sun (Capital Normal University)
 
 Xiang Tang (Washington University in St. Louis)
 
-Fridrich Valach (University of Geneva)
+[[Fridrich Valach]] (University of Geneva)
 
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
@@ -129,7 +129,7 @@ Zhiwei Wu (Ningbo University)
 
 Yirui Xiong (Sichuan University)
 
-Ping Xu (Penn State University)
+[[Ping Xu]] (Penn State University)
 
 Xiaomeng Xu (University of Geneva)
 
@@ -143,7 +143,7 @@ Yanbin Yin (Henan University)
 
 Tao Zhang (Henan Normal University)
 
-Weiping Zhang (Nankai University)
+[[Weiping Zhang]] (Nankai University)
 
 Suo Zhao (Sichuan University)
 
@@ -151,7 +151,7 @@ Jieheng Zeng (Sichuan University)
 
 Deshou Zhong (China Youth University of Political Studies)
 
-Chenchang Zhu  (Gottingen University)
+[[Chenchang Zhu]]  (Gottingen University)
 
 Nguyen Tien Zung (Institut de Mathematiques de Toulouse)
 
