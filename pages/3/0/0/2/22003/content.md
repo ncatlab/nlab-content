@@ -16,6 +16,9 @@ On [[Skyrmions]]:
 
   *Database of Skyrmion Vibrations* &lbrack;[www1.maths.leeds.ac.uk/pure/geometry/SkyrmionVibrations/](http://www1.maths.leeds.ac.uk/pure/geometry/SkyrmionVibrations/)&rbrack;
 
+* Alberto García Martín-Caro, [[Chris Halcrow]],
+*The charge density and neutron skin thickness of Skyrmions* &lbrack;[https://arxiv.org/abs/2312.04335](https://arxiv.org/abs/2312.04335)&rbrack;
+
 On [[Skyrmions]] via [[Yang-Mills instantons]]:
 
 * [[Chris Halcrow]], [[Thomas Winyard]], _A consistent two-skyrmion configuration space from instantons_ ([arXiv:2103.15669](https://arxiv.org/abs/2103.15669))
