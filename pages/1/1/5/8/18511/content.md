@@ -62,12 +62,12 @@ with a monograph account in
 
 Its generalization to [[almost Kähler structures]] is due to
 
-* {#KarabegovSchlichenmaier01} A. Karabegov, M. Schlichenmaier,  _Almost-Kähler deformation quantization_, Letters in Mathematical Physics, 57(2):135–148, 2001.  [doi](https://doi.org/10.1023/A:1017993513935), [arXiv](https://arxiv.org/abs/math/0102169).
+* {#KarabegovSchlichenmaier01} [[Alexander Karabegov]], [[Martin Schlichenmaier]],  _Almost-Kähler deformation quantization_, Letters in Mathematical Physics, **57** 2 (2001) 135–148  &lbrack;[doi:10.1023/A:1017993513935](https://doi.org/10.1023/A:1017993513935), [arXiv:0102169](https://arxiv.org/abs/math/0102169)&rbrack;
 
 with a survey in
 
-* Martin Schlichenmaier, _Deformation quantization for almost-Kähler_ manifolds_, J. of Nonlinear Math. Phys.
-Volume 11, Supplement (2004), 49–54. ([proceedings pdf](http://www.atlantis-press.com/php/download_paper.php?id=540))
+* [[Martin Schlichenmaier]], _Deformation quantization for almost-Kähler manifolds_, J. of Nonlinear Math. Phys.
+**11**, Supplement (2004) 49–54 &lbrack;[doi:10.2991/jnmp.2004.11.s1.6](https://doi.org/10.2991/jnmp.2004.11.s1.6), [pdf](http://www.atlantis-press.com/php/download_paper.php?id=540)&rbrack;
 
 The observation that the construction of [[perturbative quantum field theory]] via [[causal perturbation theory]] is equivalent to Fedosov quantization is due to 
 
