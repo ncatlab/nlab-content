@@ -88,6 +88,10 @@ On cubical path types in [[XTT]]:
 
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
+[[!redirects cubical path]]
+[[!redirects cubical paths]]
+
+[[!redirects cubical path type]]
 [[!redirects cubical path types]]
 
 [[!redirects cubical identity type]]
