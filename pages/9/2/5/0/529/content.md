@@ -480,7 +480,7 @@ Concerning group algebras of [[algebraic groups]]:
 
 Original discussion:
 
-* [[Hermann Weyl]], §III.3 in: *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics*, Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
+* [[Hermann Weyl]], §III.13 in: *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics*, Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
 
 
 Monographs
