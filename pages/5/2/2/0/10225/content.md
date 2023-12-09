@@ -1,4 +1,3 @@
-[[!redirects steady function]]
 
 # Weakly constant function
 * table of contents
@@ -97,6 +96,7 @@ We know that $A$ is an h-set just when all $x=_A y$ have split support.
  
 * [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
 
+[[!redirects weakly constant function]]
 [[!redirects weakly constant functions]]
 
 [[!redirects steady function]]
