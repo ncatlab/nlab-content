@@ -194,6 +194,16 @@ Thus, the extensionality principle of the circle type implies that the integers 
 
 One can prove the extensionality principle of the circle type, given a [[univalent universe]] where the circle is small relative to the universe. The [[HoTT book]] provides a number of such proofs. 
 
+There is another statement of the extensionality principle of the circle type. By the recursion principle of the natural numbers, there is a function 
+
+$$\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop}):\mathbb{N} \to \Omega(S^1, \mathrm{base})$$
+
+which takes zero to reflexivity of $\mathrm{base}$ and the successor function to concatenation of a self-identification by $\mathrm{loop}$. The extensionality principle of the circle type states that the above function is an [[embedding of types]], 
+$$\mathrm{ext}_{S^1}:\mathrm{isEmbed}\left(\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})\right)$$
+or equivalently that application of the above function is an equivalence for all natural numbers $m:\mathbb{N}$, $n:\mathbb{N}$
+
+$$\mathrm{ext}_{S^1}:\prod_{m:\mathbb{N}} \prod_{n:\mathbb{N}} \mathrm{isEquiv}\left(\mathrm{ap}_{\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})}(m, n)\right)$$
+
 ### H-space structures on the circle type
 
 The type of [[H-spaces]] on the circle type is a [[contractible type]]. 
