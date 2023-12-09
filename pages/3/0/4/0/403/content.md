@@ -371,14 +371,9 @@ If the ambient category is a [[topos]], then with the right kind of notion of in
 
 For the precise statement see at _[2-topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)_
 
-## Internal versus enriched categories
- {#InternalAndEnrichedCategories}
+## Internalization versus enrichment
 
-It is useful to contrast the notion of [[internal category]] with that of [[enriched category]], each of which may be considered as a generalization according to whether categories are [defined](category#definitions) (i) by a single collection of all morphisms or (ii) by a family of collections indexed by pairs of objects. In some cases, one of these generalizations is a special case of the other, but in general they are incomparable.
-
-As described there, [[internalization]] is a quite general phenomenon, of which [[internal categories]] are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[virtual double category]]. It then turns out that a category enriched over the bicategory (or virtual double category) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
-
-See also at [enriched category](enriched+category#internalization_versus_enrichment).
+See [[internalization versus enrichment]].
 
 
 ## Related concepts
