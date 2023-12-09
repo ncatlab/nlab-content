@@ -227,17 +227,9 @@ This and further properties of such "[[change of enriching category|change of ba
 
 If $V$ is a [[symmetric monoidal category]], then there is a tensor product of **V-enriched categories** (see *[[enriched product category]]*) which makes the category **[[VCat|$V Cat$]]** of V-enriched categories itself a symmetric monoidal category. In fact V-Cat is even a [[symmetric monoidal 2-category]]. See [Kelly (1982), p. 12](#Kelly82).
 
-##Internalization versus Enrichment
+## Enrichment versus internalization
 
-The idea of enriched categories is not unrelated to that of [[internal category|internal categories]], but is different.  One difference is that in a $K$-enriched category, the objects still form a _set_ (or a proper class) while the arrows are replaced by objects of $K$, while in a category internal to $K$, both the set of objects _and_ the set of arrows are replaced by objects of $K$.
-
-Another difference is that for $K$-enriched categories, $K$ can be any monoidal category, while for $K$-internal categories, it must have pullbacks, which can be thought of as a generalization of [[cartesian monoidal category|cartesian monoidal structure]].  In particular, a $K$-internal category with one object (that is, whose object-of-objects is a [[terminal object]]) is a [[monoid]] in $K$ with respect to the cartesian product, whereas a one-object $K$-enriched category is a monoid in $K$ with respect to whatever monoidal structure we use to define enriched categories.
-
-Nevertheless, internalization and enrichment are related in several ways.  On the one hand, internal categories and enriched categories are both instances of [[monad|monads]] in bicategories (the bicategory of spans and the bicategory of matrices, respectively) and so are both forms of [[generalized multicategory]].  On the other hand, when $K$ is an $\infty$-[[extensive category]], such as [[Set]] or [[simplicial set|simplicial sets]] (or more generally any [[Grothendieck topos]]), (small) $K$-enriched categories can be identified with $K$-internal categories whose object-of-objects is discrete (that is, a coproduct of copies of the terminal object).
-
-Internalization and enrichment may also be understood as the result of interpreting the theory of categories seen respectively as an [[essentially algebraic theory]] and as a [generalized algebraic theory](generalized+algebraic+theory#relationship_to_enriched_categories). 
-
-See also at [internal category](internal+category#InternalAndEnrichedCategories).
+See [[enrichment versus internalisation]].
 
 ## Examples
  {#Examples}
