@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of _$n$-fold category_ is what is obtained by iterating the process of forming [[internal categories]] $n$-times, starting with sets: an $0$-fold category is just an object of the ambient category (say a [[set]]) and then inductively an $n+1$-fold category is a [[internal category]] in the category of $n$-fold categories.
+The notion of **$n$-fold category** or **multiple category** is what is obtained by iterating the process of forming [[internal categories]] $n$-times, starting with sets: an $0$-fold category is just an object of the ambient category (say a [[set]]) and then inductively an $n+1$-fold category is a [[internal category]] in the category of $n$-fold categories.
 
 If the ambient category is instead an [[(∞,1)-category]] such as [[∞Grpd]], then an $n$-fold category is an "[[n-fold Segal space]]".  If a "completeness" condition is added (analogous to "globularity" of an n-fold category), one obtaines an [[n-fold complete Segal space]], which is a model for $(\infty,n)$-categories.
 
@@ -99,6 +99,16 @@ $n$-fold categories in general were introduced in Définition 15 of
 * {#Ehresmann63} [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Elsevier, 1963 ([EUDML:81794](https://eudml.org/doc/urn:eudml:doc:81794))
 
 as _*n*-uple categories_.
+
+See also:
+
+* {#BastianiEhresmann74} [[Andrée Bastiani]], [[Charles Ehresmann]], pages 272-273 of  _Multiple functors. I. Limits relative to double categories_, Cah. Top. G&#233;om. Diff&#233;r. Cat&#233;g. 15 (1974) 215&#8211;292
+
+* [[Andrée Bastiani]], [[Charles Ehresmann]], _Multiple functors. II. The monoidal closed category of multiple categories_, Cahiers de topologie et géométrie différentielle 19.3 (1978): 295-333.
+
+* [[Andrée Bastiani]], [[Charles Ehresmann]], _Multiple functors. III. The cartesian closed category $Cat_n$_, Cahiers de topologie et géométrie différentielle 19.4 (1978): 387-443.
+
+* {#BastianiEhresmann79} [[Andrée Bastiani]] and [[Charles Ehresmann]]. _Multiple functors IV. Monoidal closed structures on $Cat_n$_, Cahiers de topologie et géométrie différentielle, Volume 20 (1979) no. 1, pp. 59-104. ([link](http://www.numdam.org/item/CTGDC_1979__20_1_59_0/))
 
 A thorough theory of multiple categories appears in:
 
