@@ -63,6 +63,8 @@ If only the first universal property holds, we say that the vertical morphism ha
 
 * A double category has all small [[double limits]] if and only if it has small double products, double equalisers, and tabulators.
 
+* A tabulator in a [[2-category]], viewed as a [[double category]], is a [[power]] by the [[interval category]].
+
 ## References
 
 The definition of a (co)tabulator was first introduced in Section 5.3 of: 
