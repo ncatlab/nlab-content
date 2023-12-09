@@ -116,6 +116,12 @@ $$f \equiv \mathrm{rec}_{[A]}^B(f, p) \circ \mathrm{isinhab}$$
 
 Weakly constant functions can also be regarded directly as functions $[A] \to B$, similar to how paths in $A$ can be regarded as functions $\mathbb{I} \to A$ from the the [[interval type]] rather than the application of said function along the path generator of the interval type. 
 
+### Functions from the interval type
+
+Given a type $A$, there exists a function $A \to A \to \mathbb{I} \to [A]$ defined by
+
+$$\lambda x:A.\lambda y:A.\mathrm{rec}_{\mathbb{I}}([x], [y], \mathrm{supp}(x, y)):A \to A \to \mathbb{I} \to [A]$$
+
 ## Semantics
 
 One presentation of the [[internal logic|internal]] [[type theory]] of 
