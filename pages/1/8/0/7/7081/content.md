@@ -49,7 +49,11 @@ The following are three provably [[equivalence in homotopy type theory|equivalen
 
 =--
 
-The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]". The third states that being a proposition is the same as being a $\mathrm{bool}$-[[localization of a type|local type]]: the function 
+The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids. 
+
+The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]", and when [[isContr]] is expanded out to $\sum_{x:A} \prod_{y:A} x =_A y$, the resulting type $A \to \sum_{x:A} \prod_{y:A} x =_A y$ is just the type of the [[graph of a dependent function|graphs of dependent functions]] of $\prod_{x:A} \prod_{y:A} x =_A y$. 
+
+The third states that being a proposition is the same as being a $\mathrm{bool}$-[[localization of a type|local type]]: the function 
 $$\mathrm{const}_{\mathrm{bool}, A} \equiv \lambda x:A.\lambda b:\mathrm{bool}.x:A \to (\mathrm{bool} \to A)$$ 
 which takes elements $x:A$ to [[constant functions]] from the [[boolean domain]] with value $x$ is an [[equivalence of types]]. 
 
