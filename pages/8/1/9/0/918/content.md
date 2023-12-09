@@ -66,7 +66,7 @@ By definition of a terminal object, for every object $A$ there exists a unique m
 
 +-- {: .num_prop}
 ###### Proposition
-In a category of [[pointed object]]s $\mathcal{C}$, every morphism $f:A\rightarrow B$ is a surjection for every object $A$. 
+In a category of [[pointed object|pointed objects]] $\mathcal{C}$, every morphism $f:A\rightarrow B$ is a surjection for every object $A$. 
 =--
 
 +-- {: .proof}
