@@ -30,6 +30,14 @@ For now, see [Grandis and Paré (1999)](#GP).
 
 * A 2-category admits all [[weighted 2-limits]] if and only if it admits all double limits. Double limits thus provide a "[[conical colimits|conical]]" approach to 2-limits that is an alternative to [[marked 2-limits]].
 
+* A 2-category admits all [[flexible limits]] if and only if it admits all **persistent** double limits.
+
+## Variants
+
+* A **pseudo double limit** is analogous to a [[pseudo limit]] in 2-category theory.
+
+* A **persistent double limit** is a limit that is equivalent to a pseudo double limit. $\mathbb{I}$-indexed double limits are persistent if and only if each connected component of the underlying 2-category of $\mathbb{I}$ has a [[weak initial object]].
+
 ## Related concepts
 
 * [[2-limit]]
@@ -47,7 +55,11 @@ For now, see [Grandis and Paré (1999)](#GP).
 
 * [[Marco Grandis]] and [[Robert Paré]], _Adjoint for double categories_, [[Cahiers]] de Topologie et Géométrie Différentielle Catégoriques, Vol. 45, No. 3, 2004, pp. 193-240. &lbrack;[cahiers](http://archive.numdam.org/item/CTGDC_2004__45_3_193_0/)&rbrack;
 
+A notion of **pseudo double limit** is introduced in:
+
 * [[Marco Grandis]] and [[Robert Paré]], _Persistent double limits_, [[Cahiers]] de topologie et géométrie différentielle catégoriques, Vol. 60, No. 3, 2019, pp. 255-297. &lbrack;[cahiers](http://cahierstgdc.com/index.php/volume-lx/)&rbrack;
+
+The connection between persistent double limits and flexible limits is proven in:
 
 * [[Marco Grandis]] and [[Robert Paré]], _Persistent double limits and flexible weighted limits_, 2019, [pdf](https://www.mathstat.dal.ca/~pare/DblPrs2.pdf)
 
