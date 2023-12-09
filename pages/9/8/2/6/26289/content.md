@@ -30,10 +30,8 @@ While the notion of marked 2-limit goes back a long way, for one reason or anoth
 * Marked 2-limits were introduced by [[John Gray]] in [[Adjointness for 2-Categories]] as **cartesian quasi-limits**.
 * [[Ross Street]] proved the equivalence between marked 2-limits and weighted 2-limits.
 * Szyld studied such 2-limits, calling them **$\sigma$-s-limits**.
+* The terminology **marked** appears in [Gagna–Harpaz–Lanari](#GHL22).
 * A particular class of marked 2-limits, called **lax normal conical 2-limits**, (which suffices to capture all 2-limits) was studied by Mesiti.
-* Ko proposed the terminology **marked limit** (of a [[2-functor]]).
-
-We adopt Ko's terminology, which appears the most evocative.
 
 ## Definition
 
@@ -59,6 +57,8 @@ natural in $b \in B$, where $[A, B]_{l, A'}(\Delta(b), F)$ is the 2-category of 
 * [[Luca Mesiti]], *The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits* (2023), &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
 
 On **marked bilimits**:
+
+* {#GHL22} Andrea Gagna, Yonatan Harpaz, and Edoardo Lanari, _Bilimits are bifinal objects_, Journal of Pure and Applied Algebra 226.12 (2022): 107137.
 
 * [[Ivan Di Liberti]], Axel Osmond, *Bi-accessible and bipresentable 2-categories.* &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046)&rbrack;
 
