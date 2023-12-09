@@ -317,6 +317,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * [[decategorification]], [[core]]
 
+* [[cone type]], [[bracket type]], [[set truncation]]
+
 [[!include homotopy n-types - table]]
 
 
