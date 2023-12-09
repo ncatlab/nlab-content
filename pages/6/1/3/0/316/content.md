@@ -148,6 +148,8 @@ For $F : D \to C$ a [[diagram]] of [[(∞,1)-categories]], i.e. an [[(∞,1)-fun
 
 ## See also
 
+* [[cone type]]
+
 These are shaped like the homotopy-theoretic cone, so maybe there is a deeper relationship:
 
 * [[positive cone]] (in an [[ordered group]], such as an [[operator algebra]]),
