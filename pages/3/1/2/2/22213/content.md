@@ -18,7 +18,7 @@
 
 ## Idea
 
-A *tabulator* is a kind of [[limit]] in a [[double category]], generalizing the notion of the *[[graph of a profunctor]]* (also called the _cocollage_). Dually, the notion of a *cotabulator* generalizes that of the *[[cograph of a profunctor]]* (also called the _collage_).
+A *tabulator* is a kind of [[double limit]], i.e. a [[limit]] in a [[double category]], generalizing the notion of the *[[graph of a profunctor]]* (also called the _cocollage_). Dually, the notion of a *cotabulator* generalizes that of the *[[cograph of a profunctor]]* (also called the _collage_).
 
 ## Definition
 
@@ -61,7 +61,7 @@ If only the first universal property holds, we say that the vertical morphism ha
 
 * A double category $\mathbb{D} = (D_{0}, D_{1})$ has all $1$-tabulators (resp. $1$-cotabulators) if and only if the [[identity morphisms|identity]]-assigning map $id \colon D_{0} \rightarrow D_{1}$ has a [[right adjoint]] (resp. [[left adjoint]]). 
 
-* A double category has all small [[double limits]] if and only if it has small double products, double equalisers, and tabulators. 
+* A double category has all small [[double limits]] if and only if it has small double products, double equalisers, and tabulators.
 
 ## References
 
