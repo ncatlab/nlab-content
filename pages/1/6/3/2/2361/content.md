@@ -17,6 +17,10 @@ An __inverse limit__ is the same thing as a [[limit]].  (Similarly, a [[direct l
 
 Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]); see __[[codirected limit]]__ (or __[[cofiltered limit]]__) for discussion of this case if you think that it may be what you want, or see __[[limit]]__ for the more general notion. Especially common is the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]], in which case the inverse system may be called an __inverse sequence__. 
 
+## Related concepts
+
+* [[projective limit]], another terminology for limit
+
 
 [[!redirects inverse limit]]
 [[!redirects inverse limits]]
