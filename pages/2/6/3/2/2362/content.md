@@ -21,6 +21,9 @@ More specifically, the term *direct limit* is often understood by default to ref
 
 Especially common here is the directed set $(\mathbb{N},\leq)$ of [[natural numbers]], in which case the direct system may be called a _direct sequence_.
 
+## Related concepts
+
+* [[inductive limit]], another terminology for colimit
 
 [[!redirects direct limit]]
 [[!redirects direct limits]]
