@@ -30,6 +30,8 @@ The dual concept is that of a _[[projective limit]]_.
 
 * [[ind-object]], [[pro-object]]
 
+* [[direct limit]], another terminology for colimit
+
 [[!redirects inductive limit]]
 [[!redirects inductive limits]]
 
