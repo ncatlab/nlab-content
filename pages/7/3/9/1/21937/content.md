@@ -18,6 +18,12 @@
 
 The [[quotient group]] $\mathbb{Q}/\mathbb{Z}$ of the additive [[abelian group]] of [[rational numbers]] by its [[subgroup]] of [[integers]].
 
+It is also the [[coequalizer]] of the [[identity function]] of the rational numbers and the function $x \mapsto x + 1$ on the rational numbers:
+
+$$
+\mathbb{Q}\underoverset{\quad x \mapsto x + 1 \quad}{\mathrm{id}_{\mathbb{Q}}}{\rightrightarrows}\mathbb{Q} \to \mathbb{Q}/\mathbb{Z}
+$$
+
 ## Properties
 
 ### Relation to cyclic groups
