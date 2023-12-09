@@ -52,7 +52,9 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:[A]_0 \vdash B(x) \; \m
 
 ## Related concepts
 
-* [[propositional truncation]], [[quotient set]]
+* [[quotient set]]
+
+* [[cone type]], [[bracket type]], [[set truncation]]
 
 * [[localization of a type]], [[circle type]]
 
