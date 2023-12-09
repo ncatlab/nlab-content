@@ -165,3 +165,5 @@ Accordingly, the notion of _cograph of a function_ is a special case of the noti
 [[!redirects cograph of a function]]
 [[!redirects cograph]]
 [[!redirects Cograph]]
+
+[[!redirects graph of a function]]
