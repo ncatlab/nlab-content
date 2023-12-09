@@ -43,6 +43,7 @@ natural in $b \in B$, where $[A, B]_{l, A'}(\Delta(b), F)$ is the 2-category of 
 
 * [[2-limit]]
 * [[F-category]]
+* [[marked simplicial set]]
 
 ## References
 
