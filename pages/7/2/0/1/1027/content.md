@@ -15,7 +15,7 @@
 
 A __wide pullback__ in a [[category]] $\mathcal{C}$ is a [[product]] (of arbitrary [[cardinality]]) in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  In terms of $\mathcal{C}$, this can be expressed as a [[limit]] over a category obtained from a [[discrete category]] by adjoining a [[terminal object]].
 
-Yet more explicitly, the wide pullback of a family of coterminal morphisms $f_i\colon A_i \to C$ is an object $P$ equipped with projection $p_i\colon P\to A_i$ such that $f_i p_i$ is independent of $i$, and which is universal with this property.
+Yet more explicitly, the wide pullback of a family of morphisms $f_i\colon A_i \to C$ (a **wide cospan**) is an object $P$ equipped with projection $p_i\colon P\to A_i$ such that $f_i p_i$ is independent of $i$, and which is universal with this property.
 
 Binary wide pullbacks are the same as ordinary [[pullbacks]], a.k.a. fiber products.
 
@@ -55,6 +55,12 @@ From products and equalizers, we can get arbitrary limits.
 
 
 ## References
+
+The terminology *wide pullback* appears in:
+
+* [[Paul Taylor]], _Quantitative domains, groupoids and linear logic_, Category Theory and Computer Science: Manchester, UK, September 5–8, 1989 Proceedings. Springer Berlin Heidelberg, 1989.
+
+Wide pullbacks are considered under the term *fibred product* in:
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
