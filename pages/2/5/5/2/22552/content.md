@@ -70,9 +70,21 @@ A [[transitive relation]] is a magmoid [[enriched category|enriched]] in [[truth
 
 ## References
 
-Magmoids are defined in section 2.1 of
+The terminology seems to have been introduced in:
 
-* {#Torzewska22} [[Fiona Torzewska]], *Topological quantum field theories and homotopy cobordisms* &lbrack;[arXiv:2208.14504](https://arxiv.org/abs/2208.14504)&rbrack;
+* A. Arnold, M. Dauchet, *Théorie des magmoïdes (I)*, RAIRO -- Informatique Théorique **12** 3 (1978) 235-257 &lbrack;[numdam:ITA_1978__12_3_235_0](http://www.numdam.org/item/?id=ITA_1978__12_3_235_0), [eudml:92079](https://eudml.org/doc/92079)&rbrack;
+
+* A. Arnold, M. Dauchet, *Théorie des magmoïdes (II)*, RAIRO -- Informatique Théorique **13** 2 (1979) 135-154 &lbrack;[numdam:ITA_1979__13_2_135_0](http://www.numdam.org/item/ITA_1979__13_2_135_0)&rbrack;
+
+Further discussion:
+
+* Miklos Bartha, p. 101 in: *An algebraic model of synchronous systems*, Information and Computation
+**97** 1 (1992) 97-131
+
+* Dan Jonsson, Def. 2.2 in: *On Group-Like Magmoids* &lbrack;[arXiv:1902.06109](https://arxiv.org/abs/1902.06109)&rbrack;
+
+
+* {#Torzewska22} [[Fiona Torzewska]], §2.1 of: *Topological quantum field theories and homotopy cobordisms* &lbrack;[arXiv:2208.14504](https://arxiv.org/abs/2208.14504)&rbrack;
 
 [[!redirects magmoids]]
 
