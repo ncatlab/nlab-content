@@ -218,7 +218,7 @@ In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any mono
 
 ## Related concepts 
 
-* [[isomorphism]] classes of monomorphism define [[subobject]]s.
+* [[isomorphism]] classes of monomorphism define [[subobject|subobjects]].
 
 * [[monomorphism in an (∞,1)-category]], [[n-monomorphism]]
 
