@@ -29,6 +29,8 @@ The dual concept is _[[inductive limit]]_.
 
 * [[pro-object]], [[ind-object]]
 
+* [[inverse limit]], another terminology for limit
+
 * [[derived limit functor]]
 
 [[!redirects projective limit]]
