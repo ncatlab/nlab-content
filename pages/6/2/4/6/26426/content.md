@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Definition
@@ -13,4 +23,6 @@ A **rational dagger category** is a [[dagger category]] with a [[zero object]] a
 
 ## References
 
-* [[Matthew Di Meglio]], *Rational dagger categories* ([arXiv:2312.02883](https://arxiv.org/abs/2312.02883))
+* [[Matthew Di Meglio]], *Rational dagger categories* &lbrack;[arXiv:2312.02883](https://arxiv.org/abs/2312.02883)&rbrack;
+
+[[!redirects rational dagger categories]]
