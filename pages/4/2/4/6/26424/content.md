@@ -37,6 +37,8 @@ For now, see [Grandis and Paré (1999)](#GP).
 
 ## References
 
+* {#BastianiEhresmann74} A. Bastiani, [[Charles Ehresmann]], pages 272-273 of  _Multiple functors. I. Limits relative to double categories_, Cah. Top. G&#233;om. Diff&#233;r. Cat&#233;g. 15 (1974) 215&#8211;292
+
 * [[Robert Paré]], _Double limits_, Talk given at [[Category Theory conference|Category Theory 1989]], ([pdf](https://www.mscs.dal.ca/~pare/July1989.pdf))
 
 * [[Dominic Verity]], _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
