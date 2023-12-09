@@ -274,7 +274,7 @@ the string Lie 2-algebra is integrated to the [[string 2-group]] using the gener
 
 In
 
-* {#BCSS} [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  ([arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123)) 
+* {#BCSS} [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  &lbrack;[arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123), [hha:1201127333](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/From-loop-groups-to-2-groups/hha/1201127333.full)&rbrack; 
   
 
 the equivalent strict model given by a differential crossed module is found, which is then integrated termwise as ordinary Lie algebras to a [[crossed module]] of Frechet-Lie groups, hence to a Lie [[strict 2-group]] model of the String Lie 2-group.
