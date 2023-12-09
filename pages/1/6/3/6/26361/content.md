@@ -28,7 +28,9 @@ In [[homotopy theory]] and [[homotopy type theory]], by *truncation* one means t
 
   * [[h-level]]
 
-  * [[mere proposition]]
+  * [[contractible type]], [[mere proposition]], [[h-set]], [[h-groupoid]]
+
+  * [[cone type]] or (-2)-truncation
 
   * [[propositional truncation]] or (-1)-truncation
 
