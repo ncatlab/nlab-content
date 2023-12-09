@@ -21,6 +21,31 @@ Using [[excluded middle]], we can say that, if $T$ is inhabited, then any consta
 
 See also [[constant morphism]].
 
+### In dependent type theory
+
+In [[dependent type theory]], a constant function from type $A$ to $B$ at an element $b:B$ is a function $f:A \to B$ such that $f(x) =_B b$ for all $x:A$. Equivalently, it is an element of the dependent sum type
+
+$$\sum_{b:B} \sum_{f:A \to B} \prod_{x:A} f(x) =_B b$$
+
+For all $b:B$, there is always a constant function given by $\lambda x:A.b:A \to B$ with $\beta_{A, B}^{x:A.b}:\prod_{x:A} (\lambda x:A.b)(x) =_B b$ from the typal [[computation rules]] for [[function types]], or 
+
+$$(b, \lambda x:A.b, \beta_{A, B}^{x:A.b}):\sum_{b:B} \sum_{f:A \to B} \prod_{x:A} f(x) =_B b$$
+
+When function types have judgmental computation rules than one has $\beta_{A, B}^{x:A.b} \equiv \lambda x:A.\mathrm{refl}_B(b)$. 
+
+Alternatively, a constant function $f:A \to B$ is a function which factors through the base generator $\mathrm{base}:A \to \mathrm{Cone}(A)$ of the [[cone type]] of $A$; there exists a function $b:\mathrm{Cone}(A) \to B$ such that for all $x:A$, $b(\mathrm{base}(x)) \equiv f(x)$. Since the [[cone type]] of $A$ is always a [[contractible type]], it is a [[terminal object]] in types. 
+
+Given a constant function $f:A \to B$ with $p:\prod_{x:A} f(x) =_B b$, by the recursion principle of the cone type, one has 
+
+$$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p):\mathrm{Cone}(A) \to B$$
+
+such that 
+
+$$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)(\mathrm{vertex}) \equiv b:B$$
+
+$$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)(\mathrm{base}(x)) \equiv f(x):B$$
+
+$$\mathrm{ap}_{\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)}(\mathrm{edge}(x)) \equiv p:f(x) =_B b$$
 
 ## Related concepts
 
@@ -40,6 +65,7 @@ See also [[constant morphism]].
 
 * [[deterministic random variable]], [[almost surely]]
 
+* [[cone type]]
 
 [[!redirects constant function]]
 [[!redirects constant functions]]
