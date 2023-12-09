@@ -173,6 +173,8 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
 * [[marked 2-limit]]
 
+* [[double limit]]
+
 * [[(∞,1)-limit]]
 
   * [[homotopy limit]]
@@ -217,7 +219,8 @@ Chapters 3,4,5 in
 [[!redirects 2-categorical colimits]]
 [[!redirects 2-categorial colimit]]
 [[!redirects 2-categorial colimits]]
-
+[[!redirects weighted 2-limit]]
+[[!redirects weighted 2-limits]]
 
 [[!redirects bicolimit]]
 [[!redirects bicolimits]]
