@@ -846,3 +846,5 @@ On the [[categorical semantics]] of [[dependent product types]] as *[[relative a
 [[!redirects Π-types a la Tarski]]
 [[!redirects Π type a la Tarski]]
 [[!redirects Π types a la Tarski]]
+
+[[!redirects graph of a dependent function]]
