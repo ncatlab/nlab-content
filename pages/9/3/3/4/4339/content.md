@@ -18,6 +18,8 @@ The general pattern is a progression of definitions (of 'simple') from more to l
 2.  Classical definition: there are no nontrivial foos.  (Example: in a field, every element other than $0$ is invertible.)
 3.  Modern definition: there are no nontrivial foos, but there is the trivial foo.  (Example: in a field, every element other than $0$ is invertible, and $0$ is non-invertible.)
 
+This should be distinguished from barring the trivial object entirely.  Historically, many people wanted to say that the [[empty set]] is not a [[set]], and some people still say that the [[trivial ring]] is not a [[ring]] or that the [[improper filter]] is not a [[filter]].  This allows one to state later definitions (as of [[field]] or [[ultrafilter]]) without having to exclude the trivial object, but this does the exclusion too early.
+
 
 ## Examples
 
@@ -34,8 +36,6 @@ Examples include:
 *  A [[bottom element]] is not an [[atom]].
 
 But of course one may still find definitions used that disagree (see discussion at [[connected space]] and [[empty space]], for example).
-
-This should be distinguished from barring the trivial object entirely.  Historically, many people wanted to say that the [[empty set]] is not a [[set]], and some people still say that the [[trivial ring]] is not a [[ring]] or that the [[improper filter]] is not a [[filter]].  This allows one to state later definitions (as of [[field]] or [[ultrafilter]]) without having to exclude the trivial object, but this does the exclusion too early.
 
 Perhaps the basic example is that
 
