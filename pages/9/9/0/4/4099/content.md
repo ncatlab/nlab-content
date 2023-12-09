@@ -36,10 +36,6 @@ An object $A$ is called a **[[discrete object]]** if for any $X$, the category $
 
 However, the two definitions do coincide for [[fibration in a 2-category|fibrations]], opfibrations, and [[two-sided fibration]]s.  That is, if $f\colon A\to B$ is a fibration or an opfibration in $B$, then it is faithful and conservative if and only if it is a discrete object of $K/B$, and similarly if $A\leftarrow E \to B$ is a two-sided fibration, then $E\to A\times B$ is faithful and conservative if and only if it is a discrete object of $K/(A\times B)$.  Since this is usually the case of most interest (giving rise to [[discrete fibrations]] and, dually, [[codiscrete cofibrations]]), the difference between the two definitions is usually unimportant.
 
-+-- {: .query}
-[[Mike Shulman]]: I believe that in cases when the two are different, it is the one given above (faithful and conservative) that is often the better one; hence my proposal in writing this page to change terminology slightly.  Disagreements are welcome.
-=--
-
 ## Examples
 
 ### Discrete categories
