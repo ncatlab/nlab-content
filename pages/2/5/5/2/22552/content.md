@@ -68,6 +68,12 @@ A [[transitive relation]] is a magmoid [[enriched category|enriched]] in [[truth
 * [[magmoidal category]]
 * [[H-magmoid]]
 
+## References
+
+Magmoids are defined in section 2.1 of
+
+* {#Torzewska22} [[Fiona Torzewska]], *Topological quantum field theories and homotopy cobordisms* &lbrack;[arXiv:2208.14504](https://arxiv.org/abs/2208.14504)&rbrack;
+
 [[!redirects magmoids]]
 
 [[!redirects enriched magmoid]]
