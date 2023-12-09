@@ -37,6 +37,8 @@ In [[Coq]] pseudocode, the cone is given by
 
 It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit type $1$ under $A$. Similarly, it is the [[cofiber]] of the [[identity function]] of $A$. This definition makes it clear that the cone type is always a [[contractible type]]. As a result, cone types could be though of as a way of constructing free contractible types for any type $A$. 
 
+The cone type of $A$ can also be defined as the [[localization of a type|localization of $A$]] at the [[empty type]], $\mathrm{Cone}(A) \coloneqq L_\emptyset(A)$, and thus it is the [[(-2)-truncation]] of $A$. 
+
 ### Inference rules
 
 Formation rules for cone types:
@@ -149,6 +151,10 @@ Since the [[cone type]] is a [[contractible type]], it is equivalent to the [[un
 * [[cone]]
 
 * [[constant function]]
+
+* [[empty type]], [[localization of a type]]
+
+* [[cone type]], [[bracket type]], [[set truncation]]
 
 [[!redirects cone type]]
 [[!redirects cone types]]
