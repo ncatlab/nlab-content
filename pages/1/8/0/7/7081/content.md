@@ -41,14 +41,17 @@ In [[propositions as types]] language, this can be pronounced as "every two elem
 +-- {: .num_prop}
 ###### Proposition
 
-The following are two provably [[equivalence in homotopy type theory|equivalent]] definitions of $isProp(A)$, in terms of the dependent type $isContr(-)$ that checks for [[contractible types]]:
+The following are three provably [[equivalence in homotopy type theory|equivalent]] definitions of $isProp(A)$, in terms of the dependent type $isContr(-)$ that checks for [[contractible types]]:
 
 * $isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isContr(x=y) $
 * $ isProp(A) \coloneqq (A \to isContr(A)) $
+* $isProp(A) \coloneqq \mathrm{isEquiv}(\mathrm{const}_{\mathrm{bool}, A})$
 
 =--
 
-The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]".
+The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]". The third states that being a proposition is the same as being a $\mathrm{bool}$-[[localization of a type|local type]]: the function 
+$$\mathrm{const}_{\mathrm{bool}, A} \equiv \lambda x:A.\lambda b:\mathrm{bool}.x:A \to (\mathrm{bool} \to A)$$ 
+which takes elements $x:A$ to [[constant functions]] from the [[boolean domain]] with value $x$ is an [[equivalence of types]]. 
 
 ### Rules for isProp
 
