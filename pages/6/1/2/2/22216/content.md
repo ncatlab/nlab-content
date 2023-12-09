@@ -37,8 +37,7 @@ In [[Coq]] pseudocode, the cone is given by
 
 It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit type $1$ under $A$. Similarly, it is the [[cofiber]] of the [[identity function]] of $A$. This definition makes it clear that the cone type is always a [[contractible type]]. As a result, cone types could be though of as a way of constructing free contractible types for any type $A$. 
 
-### Induction rules
-
+### Inference rules
 
 Formation rules for cone types:
 
@@ -61,6 +60,28 @@ $$\frac{\begin{array}{l}
 \end{array}}{\Gamma \vdash \mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g}):\prod_{y:\mathrm{cone}(A)} C(y)}$$
 
 Computation rules for cone types:
+
+* Judgmental computation rules
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x)
+\end{array}}{\Gamma \vdash \mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g})(*) \equiv c_*:C(*)}$$
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x)
+\end{array}}{\Gamma, x:A \vdash \mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g})(i(x)) \equiv c_i(x):C(i(x))}$$
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} 
+\end{array}}{\Gamma, x:A \vdash \mathrm{apd}_{y:\mathrm{cone}(A).C(y)}(\mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g}), *, i(x), \mathcal{g}(x)) \equiv c_\mathcal{g}(x):c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x)}$$
+
+* Propositional computation rules
 
 $$\frac{\begin{array}{l}
 \Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
@@ -87,6 +108,34 @@ $$\frac{\begin{array}{l}
 \Gamma \vdash l:\prod_{x:A} p =_{\mathrm{cone}(A)} i(x)
 \end{array}}{\Gamma \vdash \eta_{\mathrm{cone}(A)}(c, p, l):\mathrm{ind}_{\mathrm{cone}(A)}(c(p), \lambda x:A.c(i(x)), \lambda x:A.\mathrm{apd}_{y:\mathrm{cone}(A).C(y)}(c, p, i(x), l(x)))(p) =_{C(p)} c(p)}$$
 
+## Properties
+
+### Constant functions
+
+In [[dependent type theory]], a [[constant function]] from type $A$ to $B$ at an element $b:B$ is a function $f:A \to B$ with a dependent function $p:\prod_{x:A} f(x) =_B b$. 
+
+Given a constant function at $b:B$, $f:A \to B$, with $p:\prod_{x:A} f(x) =_B b$, by the recursion principle of the cone type, one has 
+
+$$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p):\mathrm{Cone}(A) \to B$$
+
+such that 
+
+$$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)(\mathrm{vertex}) \equiv b:B$$
+
+$$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)(\mathrm{base}(x)) \equiv f(x):B$$
+
+$$\mathrm{ap}_{\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)}(\mathrm{edge}(x)) \equiv p:f(x) =_B b$$
+
+In particular, by the judgmental [[congruence rule]] for the introduction rule of [[function types]], the standard constant function $\lambda x:A.b:A \to B$ for $b:B$ with $\beta_{A, B}^{x:A.b}:\prod_{x:A} (\lambda x:A.b)(x) =_B b$ from the typal [[computation rules]] for [[function types]] factors through $\mathrm{Cone}(A)$ by 
+
+$$\lambda x:A.b \equiv \mathrm{rec}_{\mathrm{Cone}(A)}^B(b, \lambda x:A.b, \beta_{A, B}^{x:A.b}) \circ \mathrm{base}$$
+
+where for [[strict function types]] we have $\beta_{A, B}^{x:A.b} \equiv \lambda x:A.\mathrm{refl}_B(b)$.
+
+Constant functions can also be regarded directly as functions $\mathrm{Cone}(A) \to B$, similar to how paths in $A$ can be regarded as functions $\mathbb{I} \to A$ from the the [[interval type]] rather than the application of said function along the path generator of the interval type. 
+
+Since the [[cone type]] is a [[contractible type]], it is equivalent to the [[unit type]], with equivalences $e:\mathrm{Cone}(A) \simeq \mathbb{1}$, and every constant function $(b, f, p)$ factors the unit type through $e \circ \mathrm{base}:A \to \mathbb{1}$ and $\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p) \circ e^{-1}:\mathbb{1} \to B$. 
+
 ## Examples
 
 * The [[unit type]] $1$ is the cone type of an empty type $0$. 
@@ -98,3 +147,13 @@ $$\frac{\begin{array}{l}
 ## See also
 
 * [[cone]]
+
+* [[constant function]]
+
+[[!redirects cone type]]
+[[!redirects cone types]]
+
+[[!redirects weak cone type]]
+[[!redirects weak cone types]]
+[[!redirects strict cone type]]
+[[!redirects strict cone types]]
