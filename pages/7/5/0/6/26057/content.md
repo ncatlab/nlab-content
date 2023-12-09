@@ -14,4 +14,8 @@ On [[lenses in computer science]]:
 
 * [[Matthew Di Meglio]], _Universal Properties of Lens Proxy Pullbacks_, EPTCS **380** (2023) 400-416 &lbrack;[doi:10.4204/EPTCS.380.23](https://doi.org/10.4204/EPTCS.380.23)&rbrack;
 
+On [[rational dagger categories]]:
+
+* [[Matthew Di Meglio]], *Rational dagger categories* &lbrack;[arXiv:2312.02883](https://arxiv.org/abs/2312.02883)&rbrack;
+
 category: people
