@@ -130,10 +130,10 @@ This is also called the _[[Schwartz space]]_.
 ###### Example
 **([[compactly supported function|compactly supported]] [[smooth function]] are [[functions with rapidly decreasing partial derivatives]])**
 
-Every [[compactly supported function|compactly supported]] [[smooth function]] ([[bump function]]) $b \in C^\infty_{cp}(\mathbb{R}^n)$ rapidly decreasing partial derivatives (def. \ref{SchwartzSpace}):
+Every [[compactly supported function|compactly supported]] [[smooth function]] ([[bump function]]) $b \in C^\infty_{cp}(\mathbb{R}^n)$ has rapidly decreasing partial derivatives (def. \ref{SchwartzSpace}):
 
 $$
-  C^\infty(\mathbb{R}^n)
+  C^\infty_{cp}(\mathbb{R}^n)
    \hookrightarrow
   \mathcal{S}(\mathbb{R}^n)
   \,.
@@ -221,7 +221,7 @@ times the standard [[volume form]] $d^n x$:
 $$
   \label{IntegralExpressionForFourierTransform}
   \hat f(k)
-    \;\colon\;
+    \;\coloneqq\;
   \int_{x \in \mathbb{R}^n}
     e^{- i \, k \cdot x} f(x) \, d^n x 
   \,.
