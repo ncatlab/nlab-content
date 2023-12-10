@@ -39,6 +39,10 @@ $$
 
 The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]].
 
+* Alternatively, if we don't have either a [[natural numbers type]], a [[type of all propositions]], or a [[type universe]] we first define the type of finite subtypes $B(A)$ of a type $A$, which can be defined directly using [[boolean-valued functions]] $A \to \mathrm{bool}$ since finite subtypes are decidable. This is [[generalized the|the]] [[initial object|initial]] subtype $B(A)$ of $A \to \mathrm{bool}$ with an [[embedding]] $i_{B(A)}:B(A) \hookrightarrow (A \to \mathrm{bool})$ such that the always false boolean-valued function $\lambda x:A.\mathrm{false}$ is in the [[image]] of $i_{B(A)}$, and for all boolean-valued functions $P:A \to \mathrm{bool}$ and $Q:A \to \mathrm{bool}$, if $P$ is in the image of $i_{B(A)}$, there exists a unique value $x:A$ such that $Q(x) = \mathrm{true}$, and for all $x:A$, $P(x) \wedge Q(x) = \mathrm{false}$, then the boolean-valued function $\lambda x:A.P(x) \vee Q(x)$ is in the image of $i_{B(A)}$, and can be defined as a [[higher inductive type]] or a [[type universe]]. Then, $A$ is finite if the always true boolean-valued function $\lambda x:A.\mathrm{true}$ is in the image of $i_{B(A)}$:
+
+$$\mathrm{isFinite}(A) \coloneqq \exists P:B(A).i_{B(A)}(P) =_{A \to \mathrm{Bool}} \lambda x:A.\mathrm{true}$$
+
 The definitions of the various different types of finite types are agnostic regarding the definition of $\mathrm{isFinite}$, as they uses $\mathrm{isFinite}$ directly rather than a particular definition. 
 
 ### The type of all finite types
@@ -188,6 +192,20 @@ This also means that the [[axiom of infinity]] for a [[type universe]] $U$ could
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \mathbb{N} \simeq \left[\sum_{A:U} \mathrm{isFinite}(A)\right]_0$$
 
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} T(\mathbb{N}) \simeq \left[\sum_{A:U} \mathrm{isFinite}(T(A))\right]_0$$
+
+The arithmetic operations and order relations on the [[natural numbers type]] can be defined by induction on [[set truncation]]:
+
+For all finite types $A:\mathrm{FinType}$ and $B:\mathrm{FinType}$ and finite families $C:A \to \mathrm{FinType}$, we have
+
+$$0 =_\mathbb{N} [\emptyset]_0 \quad 1 =_\mathbb{N} [\mathbb{1}]_0$$
+$$[A]_0 + [B]_0 =_\mathbb{N} [A + B]_0$$
+$$\sum_{x = 1}^{[A]_0} [C]_0(x) =_\mathbb{N} \left[\sum_{x:A} C(x)\right]_0$$
+$$[A]_0 \cdot [B]_0 =_\mathbb{N} [A \times B]_0$$
+$$\prod_{x = 1}^{[A]_0} [C]_0(x) =_\mathbb{N} \left[\prod_{x:A} C(x)\right]_0$$
+$$[B]_0^{[A]_0} =_\mathbb{N} [A \to B]_0$$
+
+$$[A]_0 =_\mathbb{N} [B]_0 \coloneqq [A \simeq B]_{(-1)} \; \mathrm{or} \; [A =_\mathrm{FinType} B]_{(-1)}$$
+$$[A]_0 \leq [B]_0 \coloneqq [A \hookrightarrow B]_{(-1)}$$ 
 
 ## Categorical semantics
 
