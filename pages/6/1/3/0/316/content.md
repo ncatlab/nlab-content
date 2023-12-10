@@ -118,6 +118,7 @@ $$
 The cone of $C$ may equivalently be thought of, or defined, as the result of adjoining a new [[initial object]] to $C$.
 
 ### Cones over a diagram
+ {#ConesOverADiagram}
 
 A cone *in* a category $C$ is given by a category $J$ together with a [[functor]] $cone(J) \to C$.  By the [[universal property]] of the cocomma category, to give such a functor is to give an object $c$ of $C$, a functor $F \colon J \to C$, and a [[natural transformation]]
 $$T: \Delta(c) \to F$$ 
@@ -125,20 +126,73 @@ where $\Delta(c):J\to C$ denotes the [[constant functor]] at the object $c$.  Su
 
 In other words, a cone consists of morphisms (called the **components** of the cone) 
 
-$$T_j: c \to F(j),$$
+$$
+  T_j
+  \;\colon\; 
+  c \longrightarrow F(j)
+  \,,
+$$
 
 one for each object $j$ of $J$, which are compatible with all the morphisms $F(f): F(j) \to F(k)$ of the diagram, in the sense that each diagram 
-$$\array{
-{}&{}&c&{}&{} \\
-{}& \mathllap{\scriptsize{T_j}}\swarrow &{}& \searrow\mathrlap{\scriptsize{T_k}} &{}  \\
-F(j) &{}&\stackrel{F(f)}{\longrightarrow} &{}& F(k) \\
+$$
+  \array{
+    {}&{}&c&{}&{} 
+    \\
+    {}& 
+    \mathllap{\scriptsize{T_j}}\swarrow 
+      &{}& 
+    \searrow\mathrlap{\scriptsize{T_k}} &{}  
+    \\
+    F(j) 
+      &{}&
+    \stackrel{F(f)}{\longrightarrow} &{}& F(k) 
+   \\
 }
 $$
 commutes.
 
-It's called a cone because one pictures $c$ as sitting at the vertex, and the diagram itself as forming the base of the cone. 
+It's called a *cone* because one pictures $c$ as sitting at the vertex, and the diagram itself as forming the base of the cone. 
 
-A [[cocone]] in $C$ is precisely a cone in the [[opposite category]] $C^{op}$.
+A *[[morphism]]* if such cones is a [[natural transformation]] $\alpha\colon \Delta(c)\to\Delta(c')$ such that the diagram
+$$
+  \array{
+    \Delta(c) 
+     &{}&\overset{\alpha}{\longrightarrow} &{}& 
+    \Delta(c') 
+    \\
+     {}& 
+      \mathllap{\scriptsize{T}}\searrow 
+     &{}& 
+      \swarrow\mathrlap{\scriptsize{T'}} &{}  
+    \\
+    {}&{}&F&{}&{}
+}
+$$
+
+[[commuting diagram|commutes]]. Note that naturality of any such $\alpha$ implies that for all $i,j\in J$, $\alpha_i=\alpha_j$, so that $\alpha=\Delta(\phi)$ for some $\phi \colon c \to c'$ in $C$.  The single component $\phi$ itself is often referred to as the cone morphism.
+
+An equivalent definition of a cone morphism $\phi : T \to T'$ says that all component diagrams
+$$
+  \array{
+    c &{}&
+   \overset{\phi}{\longrightarrow} 
+   &{}& c' 
+   \\
+   {}& 
+   \mathllap{\scriptsize{T_j}}\searrow 
+   &{}& 
+   \swarrow\mathrlap{\scriptsize{T'_j}} &{}  
+   \\
+   {}&{}&F(j)&{}&{}
+}
+$$
+
+commute.
+
+Cones and their morhisms over a given [[diagram]] $J$ clearly form a [[category]]. The [[terminal object]] in this category, if it exists, is the *[[limit]]* of the diagram (see [there](limit#InTermsOfUniversalCones)).
+
+
+A *[[cocone]]* in $C$ is precisely a cone in the [[opposite category]] $C^{op}$.
 
 
 ### Over a diagram in an $(\infty,1)$-category
@@ -161,3 +215,10 @@ These are shaped like the homotopy-theoretic cone, so maybe there is a deeper re
 [[!redirects cones]]
 [[!redirects cocone]]
 [[!redirects cocones]]
+
+[[!redirects cone morphism]]
+[[!redirects cone morphisms]]
+[[!redirects morphism of cones]]
+[[!redirects morphisms of cones]]
+
+
