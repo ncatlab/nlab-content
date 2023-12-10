@@ -264,7 +264,7 @@ $$\mathbb{N} \coloneqq [\mathrm{FinType}]_0$$
 
 One has $[-]_0:\mathrm{FinType} \to [\mathrm{FinType}]_0$ by the introduction rules of set truncation.
 
-The arithmetic operations and order relations on the natural numbers type by induction on [[set truncation]]:
+The arithmetic operations and order relations on the natural numbers type can be defined by induction on [[set truncation]]:
 
 For all finite types $A:\mathrm{FinType}$ and $B:\mathrm{FinType}$ and finite families $C:A \to \mathrm{FinType}$, we have
 
