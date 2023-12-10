@@ -266,6 +266,8 @@ For more see [[counterexamples in algebra]].
 
   * [[cogroup]]
 
+  * [[multivalued group]]
+
   * is a commutative pregroup as mentioned in [[pregroup grammar]]
 
 * [[ring]], [[ring object]]
