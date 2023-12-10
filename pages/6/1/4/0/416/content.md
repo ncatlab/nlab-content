@@ -73,7 +73,7 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
 ## Properties
 
-* Powers are a special sort of [[weighted limit]]s.  Conversely, all weighted limits can be constructed from powers together with [[conical limit]]s.  The dual colimit notion of a power is a [[copower]].
+* Powers are a special sort of [[weighted limit]]: in particular, where the domain is the unit $V$-category. Conversely, all weighted limits can be constructed from powers together with [[conical limit]]s.  The dual colimit notion of a power is a [[copower]].
 
 
 ## Examples
