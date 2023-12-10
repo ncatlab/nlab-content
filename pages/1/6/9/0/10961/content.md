@@ -118,6 +118,7 @@ and continues:
 
 
 ## References
+ {#References}
 
 ### Historical arguments
 
