@@ -258,6 +258,26 @@ $$\mathbb{N} \simeq [\mathrm{FinType}]_0$$
 
 This is the type theoretic analogue of the [[decategorification]] of the [[permutation category]] resulting in the set of [[natural numbers]]. 
 
+This gives us an alternate definition of the natural numbers as the type of finite types
+
+$$\mathbb{N} \coloneqq [\mathrm{FinType}]_0$$ 
+
+One has $[-]_0:\mathrm{FinType} \to [\mathrm{FinType}]_0$ by the introduction rules of set truncation.
+
+The arithmetic operations and order relations on the natural numbers type by induction on [[set truncation]]:
+
+For all finite types $A:\mathrm{FinType}$ and $B:\mathrm{FinType}$ and finite families $C:A \to \mathrm{FinType}$, we have
+
+$$0 =_\mathbb{N} [\emptyset]_0 \quad 1 =_\mathbb{N} [\mathbb{1}]_0$$
+$$[A]_0 + [B]_0 =_\mathbb{N} [A + B]_0$$
+$$\sum_{x = 1}^{[A]_0} [C]_0(x) =_\mathbb{N} \left[\sum_{x:A} C(x)\right]_0$$
+$$[A]_0 \cdot [B]_0 =_\mathbb{N} [A \times B]_0$$
+$$\prod_{x = 1}^{[A]_0} [C]_0(x) =_\mathbb{N} \left[\prod_{x:A} C(x)\right]_0$$
+$$[B]_0^{[A]_0} =_\mathbb{N} [A \to B]_0$$
+
+$$[A]_0 =_\mathbb{N} [B]_0 \coloneqq [A \simeq B]_{(-1)} \; \mathrm{or} \; [A =_\mathrm{FinType} B]_{(-1)}$$
+$$[A]_0 \leq [B]_0 \coloneqq [A \hookrightarrow B]_{(-1)}$$ 
+
 ### Categorical semantics
  {#CategoricalSemantics}
 
