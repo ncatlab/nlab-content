@@ -191,6 +191,44 @@ $$i_{R \times S}(a) \coloneqq (i_R(\pi_1(a)), i_S(\pi_2(a)))$$
 for all $a:R \times S$, where $\pi_1$ and $\pi_2$ are the first and second product projection functions defined in the [[inference rules]] of the negative [[product type]] $R \times S$. 
 \end{definition}
 
+## Decidable subtypes
+
+Given a Russell type of propositions, a [[subtype]] $P:A \to \mathrm{Prop}$ is a **decidable subtype** if for all $x:A$, $P(x)$ satisfies the [[law of excluded middle]]
+
+$$\mathrm{isDecidable}(P) \equiv \prod_{x:A} P(x) \vee \neg P(x)$$
+
+Similarly, given a Tarski type of propositions, a [[subtype]] $P:A \to \mathrm{Prop}$ is a **decidable subtype** if for all $x:A$, $P(x)$ satisfies the [[law of excluded middle]]
+
+$$\mathrm{isDecidable}(P) \equiv \prod_{x:A} \mathrm{El}(P(x) \vee \neg P(x))$$
+
+For all types $A$, there exists an equivalence between the type of decidable subtypes of $A$ and the type of [[boolean-valued functions]] of $A$
+
+$$\mathrm{toDecidSub}:\left(A \to \mathrm{Bool}\right) \simeq \left(\sum_{P:A \to \mathrm{Prop}} \mathrm{isDecidable}(P)\right)$$ 
+
+The membership relation of decidable subsets is defined by whether the boolean-valued function evaluations is true
+
+$$x \in P \coloneqq \mathrm{toDecidSub}^{-1}(P)(x) =_\mathrm{true}$$
+
+Decidable subtypes are closed under the empty subtype, the improper subtype, and unions with a disjoint singleton subtype:
+
+The empty subtype and improper subtype are given by 
+
+$$\emptyset_A \coloneqq \mathrm{toDecidSub}(\lambda x:A.\mathrm{false}) \qquad \im_A \coloneqq \mathrm{toDecidSub}(\lambda x:A.\mathrm{true})$$
+
+Singleton subtypes correspond to boolean-valued functions for which [[uniqueness quantifier|there exists a unique]] $x:A$ such that $f(x)$ is true, and is given by 
+
+$$\sum_{f:A \to \mathrm{bool}} \exists!x:A.f(x) =_\mathrm{bool} \mathrm{true}$$
+
+Unions of decidable subtypes correspond to lambda abstraction of the disjunction of boolean-valued function evaluations 
+
+$$P \cup Q \coloneqq \mathrm{toDecidSub}(\lambda x:A.\mathrm{toDecidSub}^{-1}(P)(x) \vee \mathrm{toDecidSub}^{-1}(Q)(x))$$
+
+and intersections of decidable subtypes correspond to lambda abstraction of the conjunction of boolean-valued function evaluations 
+
+$$P \cap Q \coloneqq \mathrm{toDecidSub}(\lambda x:A.\mathrm{toDecidSub}^{-1}(P)(x) \wedge \mathrm{toDecidSub}^{-1}(Q)(x))$$
+
+Two decidable subtypes are disjoint if their intersection is the empty subtype. 
+
 ## See also ##
 
 * [[subobject]]
@@ -247,3 +285,6 @@ In [[Lean]]:
 [[!redirects supertypes]]
 
 [[!redirects type of subtypes]]
+
+[[!redirects decidable subtype]]
+[[!redirects decidable subtypes]]
