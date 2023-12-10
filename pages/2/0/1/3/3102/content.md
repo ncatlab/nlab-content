@@ -17,7 +17,7 @@
 ## Definition
 
 
-Given an [[object]] $Y$ of a [[category]] $C$, a __sink__ to $Y$ in $C$ is a [[family]] of [[morphisms]] of $C$ whose [[targets]] (codomains) are all $Y$, or equivalently, a family of objects in the [[over category]] $C / Y$:
+Given an [[object]] $Y$ of a [[category]] $C$, a __sink__ or __wide cospan__ to $Y$ in $C$ is a [[family]] of [[morphisms]] of $C$ whose [[targets]] (codomains) are all $Y$, or equivalently, a family of objects in the [[over category]] $C / Y$:
 
 $$ \array {
    X_1 \\
@@ -39,7 +39,7 @@ $$ \array {
    & & X_3
 } $$
 
-Confusingly, this dual concept is called a __source__ from $Y$ in $C$, even though the term 'source' has another meaning, one which we just used in the definition!  One can of course say 'domain' instead of 'source' for this other meaning, but that leads to [[domain|other confusions]].  Or one can say 'cosink' for a source in the sense dual to a sink, since a source from $Y$ in $C$ is the same as a sink to $Y$ in the [[opposite category]] $C^{\mathrm{op}}$.
+Confusingly, this dual concept is called a __source__ from $Y$ in $C$, even though the term 'source' has another meaning, one which we just used in the definition!  One can of course say 'domain' instead of 'source' for this other meaning, but that leads to [[domain|other confusions]].  Or one can say 'cosink' or __wide span__ for a source in the sense dual to a sink or wide cospan, since a source from $Y$ in $C$ is the same as a sink to $Y$ in the [[opposite category]] $C^{\mathrm{op}}$.
 
 ### Structured sinks
 
@@ -59,6 +59,16 @@ If $U\colon C\to D$ is a functor, then a **$U$-structured sink** is a collection
 
 * [[factorization structure for sinks]]
 
+* [[wide pullback]], [[wide pushout]]
+
+[[!redirects sink]]
 [[!redirects cosink]]
+
 [[!redirects sinks]]
 [[!redirects cosinks]]
+
+[[!redirects wide span]]
+[[!redirects wide cospan]]
+
+[[!redirects wide spans]]
+[[!redirects wide cospans]]
