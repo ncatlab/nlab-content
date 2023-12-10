@@ -269,8 +269,7 @@ More review:
 * [[Fei Han]], _Chern-Weil theory and some results on classic genera_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/han.pdf))
 
 
-
-Some standard monographs are
+More monographs:
 
 * [[Johan Louis Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, Aarhus, 2003, 115 pp. [pdf](http://www.johno.dk/mathematics/fiberbundlestryk.pdf)
 
@@ -280,18 +279,18 @@ Some standard monographs are
 
 * [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
-* [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
-
-
+* [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer (2017) &lbrack;[ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824)&rbrack;
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
 
-Lecture notes with an eye on [[Morse theory]] in terms of [[supersymmetric quantum mechanics]] are in
+Lecture notes with an eye on [[Morse theory]] in terms of [[supersymmetric quantum mechanics]]:
 
-* Weiping Zhang, _Lectures on Chern-Weil theory and Witten deformations_ , 	Nankai Tracts in Mathematics - Vol. 4  ([web](http://www.worldscibooks.com/mathematics/4756.html))
+* [[Weiping Zhang]], _Lectures on Chern-Weil theory and Witten deformations_ , Nankai Tracts in Mathematics - Vol. 4  ([web](http://www.worldscibooks.com/mathematics/4756.html))
 
+Chern-Weil theory in the context of [[noncommutative geometry]]
 
-Chern-Weil theory in the context of noncommutative geometry is discussed in
+* {#AlekseevMeinrenken} [[Anton Alekseev]], [[Eckhard Meinrenken]], _The non-commutative Weil algebra_, Invent. Math. **139** 1 (2000) 135-172 &lbrack;[doi:10.1007/s002229900025](http://dx.doi.org/10.1007/s002229900025)&rbrack;
+ 
+[[!redirects Chern-Weil theorem]]
+[[!redirects Chern-Weil theorems]]
 
-* A. Alekseev, E. Meinrenken, _The non-commutative Weil algebra_, Invent. Math. __139__, n. 1, 135-172, 2000, [doi](http://dx.doi.org/10.1007/s002229900025)
- {#AlekseevMeinrenken}
