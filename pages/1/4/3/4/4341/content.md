@@ -5,29 +5,36 @@
 
 ## Idea 
 
-Around the nLab and elsewhere, one occasionally sees an expression "the walking _____" where the blank is some mathematical concept. This is a colloquial way of referring to an archetypal model of the concept or type, and usually refers to a free or initial context in which such a type can be interpreted. The term is believed to have been introduced by [[James Dolan]] (see the reference below). Sometimes, "the free-living _____" or "the free-standing _____" is used instead; this terminology is probably much older.
+Around the nLab and elsewhere, one occasionally sees an expression "the walking _____" where the blank is some mathematical concept. This is a colloquial way of referring to an archetypal model of the concept or type, and usually refers to a *[[free construction|free]]* or *[[initial object|initial]]* form of such a kind of structure. 
+
+Pronunciation is just as in 'John is a walking almanac' or 'Eugene Levy is a walking pair of eyebrows'. The term is [believed](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) to have been introduced by [[James Dolan]]. 
+
+Sometimes, "the free-living _____" or "the free-standing _____" is used instead; this terminology is probably much older.
 
 ## Definition
 
 The idea is probably easier to apprehend through examples rather than through a formal definition, but for the record: 
 
-If X is a type of structure that can be defined in a [[category]], [[higher category]], or category with some sort of [[stuff, structure, property|structure]], then the **walking X** is an informal term for the *free category (resp. higher category, category with suitable structure) containing an X*.
+If $X$ is a type of [[mathematical structure]] that can be defined in a [[category]], [[higher category]], or category with some [[extra structure]], then the *walking X* refers to the *[[free construction|free]] category (resp. higher category, category with suitable structure) containing an $X$.
 
 More precisely, if $StructCat$ denotes some (higher) category of categories with an appropriate type of structure, then the **walking X** is an object $[X] \in StructCat$ together with a [[natural transformation|natural]] [[equivalence]]
-$$ StructCat([X],C) \simeq \{Xs \; in \; C\}$$
-between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, and the set/category/space of all Xs in $C$. 
+$$ 
+  StructCat([X],C) 
+  \;\simeq\; 
+  \big\{Xs \; in \; C\}
+$$
+between the [[hom-set]]/[[hom-category|category]]/[[hom-space|space]] from $[X]$ to $C$, for any $C\in StructCat$, and the set/category/space of all Xs in $C$. 
 
 +-- {: .num_remark} 
 ###### Remark 
-In other words, the structured category $[X]$ equipped with its canonical type $X$ is initial among such structured categories that come equipped with such types $X$. A fancier expression is that $[X]$ 'coclassifies' such types: this is analogous to how a [[classifying space]] $B G$ for a [[topological group]] $G$ classifies $G$-[[bundles]], in that every $G$-bundle $p: E \to X$ over a suitable space $X$ has a classifying map $\chi_p: X \to B G$ (unique up to homotopy) such that pulling back the canonical $G$-bundle type $\pi: E G \to B G$ along $\chi_p$ reproduces the type $p$. Only here we say 'coclassifies' (as for example in this [comment](http://nforum.mathforge.org/discussion/1529/walking-structures/#Item_5)), since here we instead "push forward" the canonical type $X$ of $[X]$ along a structured-category morphism $[X] \to C$ to obtain a given type of $C$. 
+In other words, the structured category $[X]$ equipped with its canonical type $X$ is [[initial object|initial]] among such structured categories that come equipped with such types $X$. A fancier expression is that $[X]$ 'coclassifies' such types: this is analogous to how a [[classifying space]] $B G$ for a [[topological group]] $G$ classifies $G$-[[bundles]], in that every $G$-bundle $p: E \to X$ over a suitable space $X$ has a classifying map $\chi_p: X \to B G$ (unique up to homotopy) such that pulling back the canonical $G$-bundle type $\pi: E G \to B G$ along $\chi_p$ reproduces the type $p$. Only here we say 'coclassifies' (as for example in this [comment](http://nforum.mathforge.org/discussion/1529/walking-structures/#Item_5)), since here we instead "push forward" the canonical type $X$ of $[X]$ along a structured-category morphism $[X] \to C$ to obtain a given type of $C$. 
 =-- 
 
-Pronunciation is just as in 'John is a walking almanac' or 'Eugene Levy is a walking pair of eyebrows'.
 
 
 ## Examples
 
-* The [[interval category]] is the *walking arrow*.
+* The [[interval category]] is the *walking morphism*.
 
 * The [[interval groupoid]] is the [[walking isomorphism]]. 
 
