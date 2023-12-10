@@ -37,11 +37,17 @@ $$
 \end{array}
 $$
 
+* Alternatively, if we don't have either a [[natural numbers type]] or a [[type of all propositions]], given the [[boolean domain]] $\mathrm{Bool}$, a type $A$ is finite if for all [[decidable subtypes]] $S:(A \to \mathrm{Bool}) \to \mathrm{Bool}$ of the set of decidable subtypes of $A$, if the [[empty subset|empty decidable subtype]] $\lambda x:A.\bot$ is in $S$, and for all decidable subtypes $P:A \to \mathrm{Bool}$ and $Q:A \to \mathrm{Bool}$ of $A$ such that $P$ being in $S$, $Q$ being a singleton decidable subtype, and $P$ and $Q$ being [[disjoint subset|disjoint]] together imply that the [[union]] $P \cup Q$ is in $S$, then the [[improper subset|improper decidable subtype]] $\lambda x:A.\top$ is in $S$.
+
+$$
+\mathrm{isFinite}(A) \equiv 
+\begin{array}{c}
+\prod_{S:(A \to \mathrm{Bool}) \to \mathrm{Bool}} (((\lambda x:A.\bot) \in S) \times \prod_{P:A \to \mathrm{Bool}} \prod_{Q:A \to \mathrm{Bool}} (P \in S) \\
+\times (\exists!x:A.x \in Q) \times (P \cap Q =_{A \to \mathrm{Bool}} \lambda x:A.\bot) \to (P \cup Q \in S)) \to ((\lambda x:A.\top) \in S)
+\end{array}
+$$
+
 The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]].
-
-* Alternatively, if we don't have either a [[natural numbers type]], a [[type of all propositions]], or a [[type universe]] we first define the type of finite subtypes $B(A)$ of a type $A$, which can be defined directly using [[boolean-valued functions]] $A \to \mathrm{bool}$ since finite subtypes are decidable. This is [[generalized the|the]] [[initial object|initial]] subtype $B(A)$ of $A \to \mathrm{bool}$ with an [[embedding]] $i_{B(A)}:B(A) \hookrightarrow (A \to \mathrm{bool})$ such that the always false boolean-valued function $\lambda x:A.\mathrm{false}$ is in the [[image]] of $i_{B(A)}$, and for all boolean-valued functions $P:A \to \mathrm{bool}$ and $Q:A \to \mathrm{bool}$, if $P$ is in the image of $i_{B(A)}$, there exists a unique value $x:A$ such that $Q(x) = \mathrm{true}$, and for all $x:A$, $P(x) \wedge Q(x) = \mathrm{false}$, then the boolean-valued function $\lambda x:A.P(x) \vee Q(x)$ is in the image of $i_{B(A)}$, and can be defined as a [[higher inductive type]] or a [[type universe]]. Then, $A$ is finite if the always true boolean-valued function $\lambda x:A.\mathrm{true}$ is in the image of $i_{B(A)}$:
-
-$$\mathrm{isFinite}(A) \coloneqq \exists P:B(A).i_{B(A)}(P) =_{A \to \mathrm{Bool}} \lambda x:A.\mathrm{true}$$
 
 The definitions of the various different types of finite types are agnostic regarding the definition of $\mathrm{isFinite}$, as they uses $\mathrm{isFinite}$ directly rather than a particular definition. 
 
