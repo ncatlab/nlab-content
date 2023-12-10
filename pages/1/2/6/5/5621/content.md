@@ -37,9 +37,13 @@ hence if $F$ is a **2-fully-faithful 2-functor**.
 
 ## Properties
 
-If $C$ and $D$ are ordinary [[categories]] regarded as 2-categories, a full sub 2-category $F : C \hookrightarrow D$ is equivalently a [[full subcategory]] of $D$.
+$C$ and $D$ can be considered as (1-)categories by forgetting their 2-morphisms, and $F$ can be considered as a (1-)functor via [[decategorification]]. As a result, every full sub-2-category is also a full subcategory.
 
 If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full sub-(∞,1)-category]].
+
+## References
+
+* Math Overflow, "When is a full sub-2-category not a full subcategory?", [web](https://math.stackexchange.com/q/4821592/425071)
 
 
 ## Related concepts
