@@ -33,83 +33,99 @@ $$
   F \colon K \to Set
 $$
 
-a [[Set]]-valued [[functor]] on $K$, the [[limit]] of $F$ is canonically identified simply with the [[set]] of [[cones]] with tip the [[singleton]] set $pt = \{\bullet\}$:
+a [[Set]]-valued [[functor]] on $K$, the [[limit]] of $F$ is canonically identified simply with the [[set]] of [cones](cone#ConesOverADiagram) with tip the [[singleton]] set $pt = \{\bullet\}$:
 
 $$
-  lim F = [K,Set](\Delta pt, F)
+  lim F \;=\; [K,Set](\Delta pt, F)
   \,.
 $$
 
 This means, more generally, that for 
 
 $$
-  F \colon K \to C
+  F \,\colon\, K \to C
 $$
 
 a functor with values in an arbitrary [[category]] $C$, the [[object]]-wise limit of the functor $F$ under the [[Yoneda embedding]]
 
 $$
-  C(-,F(-)) : K \stackrel{F}{\to} C \stackrel{Y}{\to} Set^{C^{op}}
+  C\big(-,F(-)\big) 
+  \,\colon\, 
+  K 
+    \overset{F}{\longrightarrow} 
+  C 
+    \overset{Y}{\longrightarrow} 
+  Set^{C^{op}}
 $$
 
-which appears in the discussion in [this example](representable+functor#ExampleLimits) at [[representable functor]] can be expressed by the right side of
+can be expressed by the right hand side of:
 
-$$
-  lim C(-,F(-)) 
-  = 
-  [K,Set](\Delta pt, C(-,F(-)))
+\[
+  \label{ConicalLimitInWeightedLimitForm}
+  \underset{
+    \underset{k \in K}{\longleftarrow}
+  }{lim} 
+  C\big(-,F(k)\big) 
+  \;=\; 
+  [K,Set]\Big(
+    \Delta pt
+    ,\, 
+    C\big(-,F(-)\big)
+  \Big)
   \,.
-$$
+\]
 
-(Recall that this is the limit over the diagram $C(-,F(-)) \colon K \to Set^{C^{op}}$ which, if [[representable functor|representable]] defines the desired limit of $F$.)
+(This is the limit over the diagram $C\big(-,F(-)\big) \,\colon\, K \to Set^{C^{op}}$ which, if [[representable functor|representable]], defines the desired limit of $F$, see [this example](representable+functor#ExampleLimits) at *[[representable functor]]*).
 
-The **idea** of weighted limits is to 
+The **idea** of weighted limits is to: 
 
-1. allow in the formula above the particular functor $\Delta pt$ to be replaced by any other functor $W \colon K \to Set$;
+1. allow in the formula (eq:ConicalLimitInWeightedLimitForm) the particular functor $\Delta pt$ to be replaced by any other functor $W \,\colon\, K \to Set$;
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts (see below).
 
-The idea is that the weight $W \colon K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limits]] discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
+The idea is that the weight $W \colon K \to V$ encodes the way in which one generalizes the concept of a [cones](cone#ConesOverADiagram) over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limits]] discussed below, with $V$ being [[SimpSet]], the weight is such that it ensures that not only [[1-morphisms]] are emanating from the tip, but that any triangle formed by these is filled by a [[2-morphism|2-cell]], every tetrahedron by a [[3-morphism|3-cell]], etc.
 
 ## Definition ##
 
-Let $V$ be a [[closed category|closed]] [[symmetric monoidal category]]. All categories in the following are $V$-[[enriched category|enriched categories]], all functors are $V$-functors.
+Let $V$ be a [[closed category|closed]] [[symmetric monoidal category]]. All categories in the following are $V$-[[enriched category|enriched categories]], all functors are $V$-[[enriched functors]].
 
 A **weighted limit** over a functor
 
 $$
-  F : K \to C
+  F \,\colon\, K \to C
 $$
 
 with respect to a _weight_ or _indexing type_ functor
 
 $$
-  W : K \to V
+  W \,\colon\, K \to V
 $$
 
 is, if it exists, the object $lim^W F \in C$ which [[representable functor|represents]] the functor (in $c \in C$) 
 
 $$
-  [K,V](W, C(c,F(-))) : C^{op} \to V
+  [K,V]\Big(W, C\big(c,F(-)\big)\Big) 
+  \;\colon\; 
+  C^{op} \to V
   \,,
 $$
 
 i.e. such that for all objects $c \in C$  there is an isomorphism
 
 $$
-  C(c, lim^W F)
+  C\big(c, lim^W F\big)
   \simeq
-  [K,V](W(-), C(c,F(-)))
+  [K,V]\Big(W(-), C\big(c,F(-)\big)\Big)
 $$
 
 [[natural isomorphism|natural]] in $c$.
 
-(Here $[K,V]$ is the $V$-[[enriched functor category]], as usual.)
+(Here $[K,V]$ denotes the $V$-[[enriched functor category]], as usual.)
 
 
 In particular, if $C = V$ itself, then we get the direct formula
 $$
-  lim^W F \simeq [K,V](W,F)
+  lim^W F \;\simeq\; [K,V](W,F)
   \,.
 $$
 
