@@ -366,6 +366,11 @@ The original article:
 
 * {#Adams62} [[John Adams]], Section 5 of: _Vector fields on spheres_, Bull. Amer. Math. Soc. Volume 68, Number 1 (1962), 39-41 ([euclid:bams/1183524456](https://projecteuclid.org/euclid.bams/1183524456), [pdf](https://www.math.ens.fr/~benoist/refs/Adams.pdf))
 
+See also:
+
+* [[Victor M. Buchstaber]], [[Sergei P. Novikov]], _Formal groups, power systems and Adams operators_, Math. USSR-Sb.13 (1971) 80-116 &lbrack;[doi:10.1070/SM1971v013n01ABEH001030](https://doi.org/10.1070/SM1971v013n01ABEH001030)&rbrack;
+
+
 Review:
 
 * {#Karoubi78} [[Max Karoubi]], Section IV.7 in in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
