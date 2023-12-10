@@ -14,6 +14,11 @@ On the [[Adams-Novikov spectral sequence]]:
 
 * {#Novikov67} [[Sergei Novikov]], _The methods of algebraic topology from the viewpoint of cobordism theories_, Izv. Akad. Nauk. SSSR. Ser. Mat. 31 (1967), 855&#8211;951 (Russian). ([[Novikov67.pdf:file]])
 
+On [[formal groups]] and [[Adams operations]]:
+
+* [[Victor M. Buchstaber]], [[Sergei P. Novikov]], _Formal groups, power systems and Adams operators_, Math. USSR-Sb.13 (1971) 80-116 &lbrack;[doi:10.1070/SM1971v013n01ABEH001030](https://iopscience.iop.org/article/10.1070/SM1971v013n01ABEH001030)&rbrack;
+
+
 On [[differential topology]] and [[differential geometry]]:
 
 * B. A. Dubrovin, [[Sergei Novikov]], A. T. Fomenko, _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
@@ -42,7 +47,11 @@ basic [[differential topology]]:
 
 * [[Brouwer fixed point theorem]]
 
+* [[multivalued group]]
+
+[[!redirects Sergei P. Novikov]]
 [[!redirects S. P. Novikov]]
+
 
 category: people
 
