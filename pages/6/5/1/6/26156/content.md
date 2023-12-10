@@ -452,7 +452,7 @@ This concludes the construction of an environmental representation where the env
 \end{proof}
 
 \begin{remark}
-  The above theorem is often phrased as "... and the environment can be assumed to be in a pure stated". But in fact the proof crucially uses the assumption that the environment is in a pure state. It is not clear that there is a proof that works more generally.
+  The above theorem is often phrased as "... and the environment can be assumed to be in a pure state". But in fact the proof crucially uses the assumption that the environment is in a pure state. It is not clear that there is a proof that works more generally.
 
 In fact, if the environment is taken to be in the maximally mixed state, then the resulting quantum channels are called *noisy operations* or *[[unistochastic quantum channel|unistochastic quantum channels]]* and are not expected to exhaust all quantum channels.
 \end{remark}
