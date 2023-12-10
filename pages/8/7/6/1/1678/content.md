@@ -209,12 +209,16 @@ See the references at [[2-category]]. For instance (note slightly outdated termi
 * Gray, _[[Gray-adjointness-for-2-categories|Adjointness For
 2-Categories]]_
 
+The definition is spelled out explicitly in the following, where they are called *lax transformations*:
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 In the following **oplax natural transformations** are defined, but called, simply, "transformations":
 
 * [[Tom Leinster]], _Basic bicategories_,
 [arXiv:math/9810017](http://arxiv.org/abs/math/9810017).
 
-* [[Ross Street]], _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
+* [[Ross Street]], _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0)
 
 [[!redirects lax natural transformations]]
 [[!redirects lax transformation]]
