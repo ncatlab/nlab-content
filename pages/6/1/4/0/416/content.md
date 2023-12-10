@@ -28,20 +28,25 @@
 In a [[closed monoidal category|closed]] [[symmetric monoidal category]] $V$ the [[internal hom]] $[-,-] : V^{op} \times V \to V$ satisfies the [[natural isomorphism]]
 
 $$
-  [v_1,[v_2,v_3]] \simeq [v_2,[v_1,v_3]]
+  \big[v_1,[v_2,v_3]\big] 
+  \;\simeq\; 
+  \big[v_2,[v_1,v_3]\big]
 $$
 
-for all [[object]]s $v_i \in V$ ([prop.](closed+monoidal+category#TensorHomIsoInternalizes)). If we regard $V$ as a $V$-[[enriched category]] we write $V(v_1,v_2) \mathrel{:=} [v_1,v_2]$ and this reads
+for all [[objects]] $v_i \in V$ ([prop.](closed+monoidal+category#TensorHomIsoInternalizes)). If we regard $V$ as a $V$-[[enriched category]] we write $V(v_1,v_2) \mathrel{:=} [v_1,v_2]$ and this reads
 
 $$
-  V(v_1,V(v_2,v_3)) \simeq V(v_2,V(v_1,v_3))
+  V\big(v_1,V(v_2,v_3)\big) 
+  \;\simeq\; V\big(v_2,V(v_1,v_3)\big)
   \,.
 $$
 
-If we now pass more generally to any $V$-[[enriched category]] $C$ then we still have the enriched [[hom object]] functor $C(-,-) : C^{op} \times C \to V$. One says that $C$ is _powered_ over $V$ if it is in addition equipped also with a mixed operation $\pitchfork : V^{op} \times C \to C$ such that $\pitchfork(v,c)$ behaves as if it were a hom of the object $v \in V$ into the object $c \in C$ in that it satisfies the natural isomorphism
+If we now pass more generally to any $V$-[[enriched category]] $C$ then we still have the enriched [[hom object]] functor $C(-,-) : C^{op} \times C \to V$. One says that $C$ is _powered_ over $V$ if it is in addition equipped also with a mixed operation $\pitchfork : V^{op} \times C \to C$ such that $\pitchfork(v,c)$ behaves as if it were a hom of the object $v \in V$ into the object $c \in C$ in that it comes with natural isomorphisms of the form
 
 $$
-  C(c_1,\pitchfork(v,c_2)) \simeq V(v,C(c_1,c_2))
+  C\big(c_1, \pitchfork(v,c_2)\big) 
+  \;\simeq\; 
+  V\big(v, C(c_1,c_2)\big)
   \,.
 $$
 
