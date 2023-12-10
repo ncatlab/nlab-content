@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -136,9 +135,28 @@ Keeping that in mind, we do list some special cases and special classes of examp
 ### Limits 
   {#ExampleLimits}
 
-If $F:J\to C$ is a [[diagram]] in $C$, we can construct a diagram $\hom_C(-,F):J\to Set^{C^{op}}$ in the [[functor category]] $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$ (the [[Yoneda embedding]]).  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending an object $x$ to the set which is the limit of the diagram $\hom_C(x,F):J\to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a natural isomorphism
+If $F:J\to C$ is a [[diagram]] in $C$, we obtain a diagram $\hom_C\big(-,F(-)\big) \,\colon\, J\to Set^{C^{op}}$ in the [[functor category]] ([[presheaf category]]) $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$ (the [[Yoneda embedding]]).  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending an object $c \in C$ to the set which is the limit of the diagram $\hom_C\big(c,F(-)\big) \,\colon\, J \to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a [[natural isomorphism]]
 
-$$\lim \hom_C(-,F)\cong\hom_C(-,\lim F).$$
+$$
+  \underset{
+    \underset{
+      j \in J
+    }{\longleftarrow}
+  }{\lim} 
+    \; \hom_C\big(-,F(j)\big)
+  \;\cong\;
+  \hom_C\big(
+    -   
+    ,\,
+    \underset{
+      \underset{
+        j \in J
+      }{\longleftarrow}
+    }{\lim} F(j)
+  \big)
+$$
+
+(see at *[[hom-functor preserves limits]]*).
 
 #### Products 
 
