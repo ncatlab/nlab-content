@@ -469,13 +469,13 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 * Shigkaki T&#244;g&#244;, _Note of formal Lie groups_ , American Journal of Mathematics, Vol. 81, No. 3, Jul., 1959 ([JSTOR](http://www.jstor.org/stable/2372919))
 
-* A. Fr&#246;hlich, _Formal group_,  Lecture Notes in Mathematics
-Volume 74, Springer (1968)
+* A. Fr&#246;hlich, _Formal group_,  Lecture Notes in Mathematics Volume 74, Springer (1968)
 
-
-* {#Grothendieck} [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
+* [[Victor M. Buchstaber]], [[Sergei P. Novikov]], _Formal groups, power systems and Adams operators_, Math. USSR-Sb.13 (1971) 80-116 &lbrack;[doi:10.1070/SM1971v013n01ABEH001030](https://iopscience.iop.org/article/10.1070/SM1971v013n01ABEH001030)&rbrack;
 
 * {#Adams74} [[Frank Adams]], Part II.1 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Grothendieck} [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
 
  
 * {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
