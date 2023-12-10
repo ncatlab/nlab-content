@@ -1277,7 +1277,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Channels as QuantumState Monad Transformations (Part I)**
 
-  video: [YT](https://youtu.be/EyteOdbSZ5M)
+  video: [YT](https://youtu.be/EyteOdbSZ5M), [Zm](https://nyu.zoom.us/rec/share/cvJN1WxKAy90-TU2xGGgI_qpr29cXwYnViJK2f7sicBsvZoOfAxYS1oHAURPgtbn.r4soFI_hw6c9Wtok)
 
   cf.: [[schreiber:The Quantum Monadology|arXiv:2310.15735]]
 
@@ -1295,6 +1295,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Realizing Higher-Order Topology**
 
+  video: [Zm](https://nyu.zoom.us/rec/share/3xppnhEPhej_KTmHq6yWSfGYerz2-78WGz5zXNX4k4NFZtTqWYINWoOns-WZD7nj.61sdBVS2SJMWZYqK)
+
   cf. [doi:10.1126/sciadv.aat0346](topological+insulator#SchindlerEtAl18)
 
   > Higher-order topology generalizes the bulk-boundary correspondence of [[topological phases of matter]], by allowing topological modes to be localized at [[manifold with corners|corners]] and hinges instead of edges and surfaces. I will introduce the theory behind this concept, both for noninteracting as well as interacting systems and consecutively discuss two realizations in rather distinct setups. First, as-grown crystals of bismuth, grey arsenic, as well as bismuth bromide are demonstrated to display the essential physics of higher-order topological insulators. Second, it is shown that lattices of so-called Shiba bound states induced by magnetic adatoms in conventional superconductors can be brought into a higher-order superconducting phase. I will report on experimental progress for both system types based on spanning probe as well as transport measurements.
@@ -1307,7 +1309,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Topological Quantum Teleportation Without Braiding**
 
-  video: [YT](https://youtu.be/mLKqNMg4ewE)
+  video: [YT](https://youtu.be/mLKqNMg4ewE), [Zm](https://nyu.zoom.us/rec/share/UKBI5BRiD_Wcg3BjGVpss7_znY7TQ534INlxkwcTAYW0CIxym20o-8a13whOp7XQ.ij2PUcaSzXpz_iC1)
 
   cf. [arXiv:2303.17700](https://arxiv.org/abs/2303.17700)
 
@@ -1321,6 +1323,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Delegation with an Off-the-Shelf Device**
 
+  video: [Zm](https://nyu.zoom.us/rec/share/nzdpfDFPA3928TopuGLljUfHRmbG1UjUOd4Qa1tNqqxDb0btReLKqtfmQQJRF-QR.YZ9wx9uXUevKunh0)
+
   cf. [arXiv:2304.03448](https://arxiv.org/abs/2304.03448)
 
   > Given that reliable cloud [[quantum computers]] are becoming closer to reality, the concept of delegation of [[quantum computations]] and its [[software verification|verifiability]] is of central interest. Many models have been proposed, each with specific strengths and weaknesses. Here, we put forth a new model where the client trusts only its classical processing, makes no computational assumptions, and interacts with a quantum server in a single round. In addition, during a set-up phase, the client specifies the size $n$ of the computation and receives an untrusted, off-the-shelf (OTS) quantum device that is used to report the outcome of a single constant-sized measurement from a predetermined logarithmic-sized input. In the OTS model, we thus picture that a single quantum server does the bulk of the computations, while the OTS device is used as an untrusted and generic verification device, all in a single round.  In this talk, we will show how the delegation of quantum computations can be achieved in the OTS model, and furthermore how to make this protocol zero-knowledge. The emphasis will be on the concepts that contribute to this result; these concepts are drawn from a long line of research related to blind and delegated quantum computation, as well as quantum zero-knowledge proofs. Based on joint work with Arthur Mehta and Yuming Zhao.
@@ -1333,7 +1337,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Proto-Quipper with Dynamic Lifting**
 
-  video: [YT](https://youtu.be/bBL7rlqbDWM)
+  video: [YT](https://youtu.be/bBL7rlqbDWM), [Zm](https://nyu.zoom.us/rec/share/IPDDFaZYw-ZJ-g0NAtJ4fixrd-2hjzZeynyiX5WoTdFe_2jHG88J1pUwF8evjsAI.oe71A2fEQ0QJhqpk)
 
   > [[Quipper]] is a [[functional programming language]] for [[quantum computing]]. Proto-Quipper is a family of languages aiming to provide a [[formal methods|formal foundation]] for Quipper. By virtue of being a [[quantum circuit|circuit]] description language, Proto-Quipper has two separate runtimes: circuit generation time and circuit execution time. Values that are known at circuit generation time are called parameters, and values that are known at circuit execution time are called states. [[dynamic lifting|Dynamic lifting]] is an operation that enables a state, such as the result of a [[quantum measurement|measurement]], to be lifted to a parameter, where it can influence the generation of the next portion of the circuit. As a result, dynamic lifting enables Proto-Quipper programs to [interleave classical and quantum computation](quantum+computation#ClassicalControlQuantumData). In his talk, Dr. Frank will describe how to extend Proto-Quipper-M with dynamic lifting. He will explain the syntax of a language named Proto-Quipper-Dyn. Its type system uses a system of [[modalities]] to keep track of the use of dynamic lifting. Then, he will discuss the [[categorical semantics]] for dynamic lifting. Finally, if time permits, Dr. Frank will give some examples of Proto-Quipper-Dyn programs.
 
@@ -1345,7 +1349,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Sensing with Spin Defects in Diamond**
 
-  video: [YT](https://youtu.be/ArN3Ed78sSc)
+  video: [YT](https://youtu.be/ArN3Ed78sSc), [Zm](https://nyu.zoom.us/rec/share/AT47vaexNQQopnwCZCyZBgSiE47CVNOeEv1K7A8oNLlGAQjo0IAp9zGrswTnn6_f.LvjuOOUeWW_qJw6Y)
 
   cf.: [arXiv:2306.07593](https://arxiv.org/abs/2306.07593)
 
@@ -1362,6 +1366,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead**
 
+  video: [Zm](https://nyu.zoom.us/rec/share/WDTV_oHZyZRL8UesI4kan6t0jlhS-FRLx7LM-fKkXfWNTiFC4ZtvAGGJBOFPrERG.pLj3nIsc9Z_nqlKk)
+
   cf. [arXiv:2310.10315](https://arxiv.org/abs/2310.10315)
 
   > [[quantum computation|Quantum Computing]] (QC) claims to improve the efficiency of solving complex problems, compared to classical computing. When QC is applied to [[machine learning|Machine Learning]] (ML) applications, it forms a [[quantum machine learning|Quantum Machine Learning]] (QML) system. After discussing the basic concepts of QC and its advantages over classical computing, this talk reviews the key aspects of QML in a comprehensive manner. We discuss different QML algorithms and their domain applicability, quantum datasets, hardware technologies, software tools, simulators, and applications. Valuable information and resources are provided to jumpstart into the current state-of-the-art techniques in the QML field.
@@ -1375,6 +1381,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   [[Javad Shabani]] (Center of Quantum Information Physics, NYU):
 
   **Towards Realization of Protected Qubits Using Topological Superconductivity**
+
+  video: [Zm](https://nyu.zoom.us/rec/share/qGQmot9lKWVPD6N5J-Ajhx3aqJuig7VaU9qe53q4qM-pFNgb9qCVaY_9u4ivLkA2.eimyjBKMzZlZ37fT?startTime=1701781356000)
 
   cf.: [arXiv:2303.04784](superconductivity#ShabaniEtAl23), [arXiv:2101.09272](superconductivity#ShabaniEtAl22) 
 
@@ -1914,6 +1922,8 @@ Stone-von Neumann**
 
   cf. [arXiv:2305.06196](https://arxiv.org/abs/2305.06196), [arXiv:2108.13542](https://arxiv.org/abs/2108.13542)
 
+  > video: [Zm](https://nyu.zoom.us/rec/play/-h0SvD8ppAUvJ0zLbko2tUaGWyEK6O3OSNTtUfCBC2L74t4KyphBnpxTz8Wms1jNfKjXj3LlJB8vs-n8.-r0ZCtHR_F__Xa6w?canPlayFromShare=true)
+
   > In this talk, I will explain my works with [[Yuji Tachikawa|Y. Tachikawa]] to study [[quantum anomaly|anomalies]] in [[heterotic string theory]] via [[homotopy theory]], especially the theory of [[topological modular forms|Topological Modular Forms]] ([[TMF]]). TMF is an [[E-infinity ring|E-infinity]] [[ring spectrum]] which is [[What is an elliptic object?|conjectured by Stolz-Teichner]] to classify [[(2,1)-dimensional Euclidean field theory|two-dimensional supersymmetric quantum field theories]] in physics. In the previous work &lbrack;[arXiv:2108.13542](https://arxiv.org/abs/2108.13542)&rbrack;, we proved the vanishing of anomalies in heterotic string theory mathematically using TMF. Additionally, we have a recent update on the previous work &lbrack;[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)&rbrack;. Due to the vanishing result, we can consider a secondary transformation of spectra, which coincides with the [[Anderson duality|Anderson self-duality]] morphism of TMF. This allows us to detect subtle torsion phenomena in TMF by [[differential geometry|differential-geometric]] methods.
 
 
@@ -1925,7 +1935,7 @@ Stone-von Neumann**
 
   **Equivariant Higher Twisted K-Theory of $SU(n)$ via Exponential Functors**
 
-  video: [YT](https://youtu.be/JXO-owcJgTE)
+  video: [YT](https://youtu.be/JXO-owcJgTE), [Zm](https://nyu.zoom.us/rec/share/lQBkCKp9_n42Fr37HrY_NFMRrjTP3yt2OWdgM7Cs6au3OEwMJoYAinfuGXv6QAYC.a5_q3vxr2KDylHX5)
 
   cf. [arXiv:2307.00423](https://arxiv.org/abs/2307.00423)
 
@@ -1940,6 +1950,8 @@ Stone-von Neumann**
   **Quantum Channels as QuantumState Monad Transformations (Part II)**
 
   notes: [here](https://ncatlab.org/schreiber/show/Quantum+Certification+via+Linear+Homotopy+Types#draft)
+
+  video: [Zm](https://nyu.zoom.us/rec/share/5SJv_CnPhlOwZ6owgjJC7ZUk410y6qLLJoIyrE7WL1O2zZdB8zA1fuvOIUKTbUD5.PoR6XLJamw_FAdoL)
 
   > The talk recalls some of the theory of "[[quantum channels]]" and then explains how this is captured by "[[monad (in computer science)|monadic computation]]" with the [[linear logic|linear version]] of the "[[state monad|State monad]]" -- the "[[quantum state monad|QuantumState Frobenius monad]]".
 
@@ -1959,7 +1971,7 @@ Stone-von Neumann**
 
   notes: [[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]
 
-  video: [YT](https://youtu.be/7Bw9CJct8QY)
+  video: [YT](https://youtu.be/7Bw9CJct8QY), [Zm](https://nyu.zoom.us/rec/share/nqJEvc4n9dXoyRiou4s-t0Fp5W4bGKma6GDfzZtk1Es9llYJocNMFbxHzV9iSd55.-c3wp3VzQ5WlbdH3)
 
   > By recalling the textbook description of a ([[variational calculus|variational]]) [[classical field theory]] and its [[critical locus]] of [[on-shell]] [[field (physics)|fields]], I will list desiderata for a [[category]] in which this can rigorously take place. This category will consist of [[generalized smooth spaces]], completely determined by "how they may be smoothly probed by finite dimensional manifolds". By expanding on this intuition, I will describe how one naturally arrives at the definition of a [[smooth set]] as a "[[sheaf]] over the [[site]] [[CartSp|of]] [[Cartesian spaces]]''. I will then explain how the [[sheaf topos]] of [[smooth sets]] satisfies the desiderata of (variational) classical field theory. Time permitting, I will indicate how the setting naturally generalizes to include the description of [[fermionic fields]], and ([[gauge field|gauge]]) fields with [[internal symmetries]].
 
@@ -1971,7 +1983,7 @@ Stone-von Neumann**
 
   **Simplicial Distributions and Contextuality**
 
-  video: [YT](https://youtu.be/pgKYGUWl1kU)
+  video: [YT](https://youtu.be/pgKYGUWl1kU), [Zm](https://nyu.zoom.us/rec/share/eCYVcE8H1awJQBiz_KO8tFKiSzg6z7fuNOezzMRtwMmDhBfvYggd6gsQzpMCHdhz.P2-aYYVnZnxYJbR-)
 
   cf. [arXiv:2204.06648](quantum+contextuality#OkayKharoofIpek22)
 
@@ -1985,7 +1997,7 @@ Stone-von Neumann**
 
   **Calculus of Fractions for Quasicategories** (Part I)
 
-  video: [YT](https://youtu.be/96ViSKAuApc)
+  video: [YT](https://youtu.be/96ViSKAuApc), [Zm](https://nyu.zoom.us/rec/share/POx38qJ4lpNVexajPFMmHLE2sWFGb7IZhLBcbHpqAcDEWUg1SEjDG8hMOGD2dKPM.QAZR-7Rv4FXcD7v8)
 
   cf.: [arXiv:2306.02218](https://arxiv.org/abs/2306.02218)
   
@@ -1999,7 +2011,7 @@ Stone-von Neumann**
 
   **Calculus of Fractions for Quasicategories (Part II)**
 
-  video: [YT](https://youtu.be/Z41YDb99cZk)
+  video: [YT](https://youtu.be/Z41YDb99cZk), [Zm](https://nyu.zoom.us/rec/share/sBTbtlBMEU3QdKN5SYEytwXlt5zo10a2N7-KK9ekfx2h0WVtYlH2e53mYRpH1TkU.CTXtj25re0wLSjoV)
 
   cf.: [arXiv:2306.02218](https://arxiv.org/abs/2306.02218)
 
@@ -2017,6 +2029,8 @@ Stone-von Neumann**
 
   cf.: [arXiv:2012.15860](topological+phase+of+matter#Wang21), [arXiv:arXiv:2302.14862](generalized+global+symmetry#PutrovWang23)
 
+  video: [Zm](https://nyu.zoom.us/rec/share/y18MXMK329GQKDyQI-lrCHDk_nH7RPXxwSZjDH5Xt2fCnlpzvJln6zFwcvcFMxyB.oLZSTWyVv4pNKk3h)
+
   > In the [[standard model of particle physics|Standard Model]], the total "[[sterile neutrino|sterile right-handed]]" [[neutrino]] number $n_{vR}$ is not equal to the family number $N_f$. The anomaly index $(-N_f + n_{vR})$ had been advocated to play an important role in the previous work on *Cobordism and Deformation Class of the Standard Model* &lbrack;[arxiv:2112.14765](https://arxiv.org/abs/2112.14765), [arxiv:2204.08393](https://arxiv.org/abs/2204.08393)&rbrack; and *Ultra Unification* &lbrack;[arXiv:2012.15860](https://arxiv.org/abs/2012.15860)&rbrack;, in order to predict new highly [[quantum entanglement|entangled]] sectors beyond the Standard Model. Ultra Unification would combine the Standard Model and [[GUT|Grand Unification]], particularly for the models with 15 [[Weyl spinor|Weyl fermions]] per family, without the necessity of [[sterile neutrino|right-handed sterile neutrinos]], by adding new gapped [[topological phase of matter|topological phase]] sectors (in 4d or 5d) or new gapless interacting [[conformal field theory|conformal]] sectors (in 4d) consistent with the [[nonperturbative effect|nonperturbative]] global [[anomaly cancellation]] and cobordism constraints (especially from the mixed gauge-gravitational anomaly, such as a $\mathbb{Z}_{16}$ class anomaly, associated with the baryon minus [[lepton]] number B−L and the [[electroweak field|electroweak]] [[hypercharge]] $Y$). Moreover, for the Standard Mode alone, the invertible B−L symmetry [[conserved charge|current]] conservation can be violated quantum mechanically by gravitational backgrounds such as gravitational instantons, hypothetically pertinent for [[leptogenesis]] in the very early [[observable universe|universe]]. In specific, we show that a [[generalized global symmetry|noninvertible categorical]] counterpart of the B−L symmetry still survives in gravitational backgrounds. In general, we construct noninvertible symmetry charge operators as topological [[defect field theory|defects]] derived from invertible anomalous symmetries that suffer from mixed [[gravitational anomalies]]. Examples include the perturbative local and nonperturbative global anomalies classified by $\mathbb{Z}$ and $\mathbb{Z}_{16}$ respectively. For this construction, we utilize the [[anomaly inflow]] concept, the 4d [[Pontryagin class]] and the gravitational [[Chern-Simons form|Chern-Simons 3-form]], the 3d [[Reshetikhin-Turaev construction|Witten-Reshetikhin-Turaev-type]] [[topological quantum field theory]] with a framing anomaly corresponding to a 2d [[rational conformal field theory]] with an appropriate chiral [[central charge]], and the 4d $\mathbb{Z}_4$^{TF}-[[time-reversal symmetry|time-reversal symmetric]] [[topological superconductor]] with 3d boundary topological order &lbrack;[arxiv:2302.14862](https://arxiv.org/abs/2302.14862)&rbrack;.
   
 \linebreak
@@ -2029,7 +2043,7 @@ Stone-von Neumann**
 
   slides: [pdf](http://categorified.net/NYUADtalk.pdf)
 
-  video: [YT](https://youtu.be/zvtziTpl2T0)
+  video: [YT](https://youtu.be/zvtziTpl2T0), [Zm](https://nyu.zoom.us/rec/share/Q7Ty3uC2Zeiu39sVmZvYh25NavFZn36vWGpjYTzAwRYRS_d4ZWSKQeY3neFMgVxB.c6yUMNTsLexdXnTA)
 
   cf. [categorified.net/dagger2023.html](http://categorified.net/dagger2023.html)
 
@@ -2045,7 +2059,7 @@ Stone-von Neumann**
 
   slides: [[Dorn-ManifoldDiagramsReport.pdf:file]]
 
-  video: [YT](https://youtu.be/7KK89MuxmX8)
+  video: [YT](https://youtu.be/7KK89MuxmX8), [Zm](https://nyu.zoom.us/rec/share/pqfp60d108XRrenD5M1hOnwHiknUmargmTIHwZZUU_Ou4zLhV92a2LZFW0tdYUFQ.y2DKUvtBPKLbGWlL)
 
   cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
 
@@ -2061,7 +2075,7 @@ Stone-von Neumann**
 
   slides: [[Cattaneo-PoissonStrucFromCorners.pdf:file]]
 
-  video: [YT](https://youtu.be/_bGH09FmAxk)
+  video: [YT](https://youtu.be/_bGH09FmAxk), [Zm](https://nyu.zoom.us/rec/share/cvJN1WxKAy90-TU2xGGgI_qpr29cXwYnViJK2f7sicBsvZoOfAxYS1oHAURPgtbn.r4soFI_hw6c9Wtok)
 
   cf. [arXiv:2310.01877](first-order+formulation+of+gravity#CattaneoMengerSchiavina23)
 
@@ -2071,13 +2085,14 @@ Stone-von Neumann**
 
 ### Dec 2023
 
-* 06 Dec 2023
+* {#TorzewskaDec2023} 06 Dec 2023
   
   [[Fiona Torzewska]] (University of Leeds, UK):
 
   **Topological Quantum Field Theories and Homotopy Cobordisms**
 
   cf: [arXiv:2208.14504](TQFT#Torzewska22)
+
 
   > I will begin by explaining the construction of a [[category]] $CofCos$, whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[cofibrant object|cofibrant]] [[cospans]]. Here the [[identity morphism|identity]] [[cospan]] is chosen to be of the form $X\to X\times [0,1]\rightarrow X$, in contrast with the usual identity in the [[bicategory]] $Cosp(V)$ of cospans over a category $V$. The category $CofCos$ has a [[subcategory]] $HomCob$ in which all spaces are homotopically 1-finitely generated. There exist [[functors]] into $HomCob$ from a number of categorical constructions which are potentially of use for modelling [[particle]] [[trajectories]] in [[topological phases of matter]]: embedded cobordism categories and [motion groupoids](motion+groupoid#TorzewskaMartinsMartin23) for example. Thus, functors from $HomCob$ into [[Vect]] give [[linear representation|representations]] of the aforementioned categories. I will also construct a family of [[functors]] $Z_G\colon HomCob\to Vect$, one for each [[finite group]] $G$, and show that [[topological quantum field theories]] previously constructed [[Yetter model|by Yetter]], and an untwisted version of [[Dijkgraaf-Witten theory|Dijkgraaf-Witten]], generalise to functors from $HomCob$. I will construct this functor in such a way that it is clear the [[images]] are [[finite dimensional vector spaces]], and the functor is explicitly calculable. I will also give example calculations throughout. 
 
