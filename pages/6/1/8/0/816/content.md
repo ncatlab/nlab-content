@@ -133,6 +133,22 @@ $$
   \end{aligned}
 $$
 
+### Weighted limits for $V = Set$
+
+Let us spell out what a weighted limit looks like in ordinary category theory, to give intuition for the difference between weighted limits and ordinary limits.
+
+Given a weight $W : K \to Set$ and a diagram $F : K \to C$, a weighted limit comprises an object $L$ together with a projection $\pi_{k, w} : L \to F(k)$ for each $k \in K$ and $w \in W(k)$ such that the following diagram commutes for $k, k \in K$, $w \in W(k)$ and $\kappa : k \to k'$:
+\begin{tikzcd}
+	L & {F(k)} \\
+	& {F(k')}
+	\arrow["{F(\kappa)}", from=1-2, to=2-2]
+	\arrow["{\pi_{k, w}}", from=1-1, to=1-2]
+	\arrow["{\pi_{k', W(k)(w)}}"', from=1-1, to=2-2]
+\end{tikzcd}
+This is required to be universal in the sense that given every such diagram as above with domain $C$, there is a unique morphism $C \to L$ making the diagrams commute.
+
+It is clear that when $W$ is the constant functor sending everything to a singleton set, this recovers the usual notion of limit for $F$.
+
 ## Motivation from enriched category theory
 
 Let $V$ be a [[monoidal category]]. 
