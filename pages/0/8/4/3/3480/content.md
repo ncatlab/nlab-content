@@ -554,8 +554,12 @@ A very neat Tannaka theorem for stacks is proved in
 The classical articles are 
 
 * [[Tadao Tannaka]], _&#220;ber den Dualit&#228;tssatz der nichtkommutativen topologischen Gruppen_, Tohoku Math. J. 45 (1938), n. 1, 1&#8211;12 (project euclid has only Tohoku new series!), see [[Tannaka-Krein theorem]].
+
 * N. Tatsuuma, _A duality theorem for locally compact groups_, J. Math., Kyoto Univ.
 6 (1967), 187&#8211;293.
+
+* Nobuhiko Tatsuuma, _Duality theorem for locally compact groups and some related topics_, Algèbres d'opérateurs et leurs applications en physique mathématique (Proc. Colloq., Marseille, 1977), 387–408.  Colloq. Internat. CNRS, 274, Éditions du Centre National de la Recherche Scientifique (CNRS), Paris, 1979.  ISBN: 2-222-02441-2.
+
 * M.G. Krein, _A principle of duality for bicompact groups and quadratic block algebras_, Doklady AN SSSR __69__ (1949), 725&#8211;728. 
 * Eiichi Abe, _Dualit&#233; de Tannaka des groupes alg&#233;briques_, Tohoku Mathematical Journal. Volume 12, Number 2  (1960), 327-332. 
 
