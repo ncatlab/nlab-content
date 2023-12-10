@@ -32,15 +32,15 @@ Chern-Weil theory studies the refinement of [[characteristic class]]es of [[prin
 
 The central operation that models this refinement is the construction of the [[Chern-Weil homomorphism]] from $G$-[[principal bundle]]s to [[de Rham cohomology]] by choosing a [[connection on a bundle|connection]] $\nabla$ and evaluating its [[curvature]] form $F_\nabla$ in the [[invariant polynomial]]s $\langle -\rangle$ of the [[Lie algebra]] $\mathfrak{g}$ to produce the [[curvature characteristic form]] $\langle F_\nabla \rangle$. Its de Rham cohomology class refines a corresponding [[characteristic class]] in [[integral cohomology]]. 
 
-Concretely, the [[nLab:Chern-Weil homomorphism]] is presented by the following construction:
+Concretely, the [[Chern-Weil homomorphism]] is presented by the following construction:
 
 For 
 
-* $B G \in$ [[nLab:Top]] the [[nLab:classifying space]] of (the [[nLab:topological group]] underlying) a [[nLab:compact space|compact]] [[nLab:Lie group]] $G$ 
+* $B G \in$ [[Top]] the [[classifying space]] of (the [[topological group]] underlying) a [[compact space|compact]] [[Lie group]] $G$ 
 
-* and $[c] \in H^n(B G, \mathbb{Z})$ a class in its [[nLab:integral cohomology]] -- which we may call a _[[nLab:characteristic class]]_ for $G$-[[nLab:principal bundles]]
+* and $[c] \in H^n(B G, \mathbb{Z})$ a class in its [[integral cohomology]] -- which we may call a _[[characteristic class]]_ for $G$-[[principal bundles]]
 
-we get for each [[nLab:smooth manifold]] $X$  an assignment
+we get for each [[smooth manifold]] $X$  an assignment
 
 $$
   [c] : G Bund(X)_\sim \to H^n(X,\mathbb{Z})
@@ -50,23 +50,26 @@ on integral cohomology classes of base space to equivalence classes of $G$-[[pri
 
 Let $[c]_\mathbb{R} \in H^n(B G, \mathbb{R})$ be the image of $[c]$ in [[real cohomology]], induced by the evident inclusion of [[coefficients]] $\mathbb{Z} \hookrightarrow \mathbb{R}$.
 
-The **first main statement** of Chern-Weil theory is that there is an [[nLab:invariant polynomial]] 
+The **first main statement** of Chern-Weil theory is that there is an [[invariant polynomial]] 
 
 $$
   \langle- \rangle :=  \phi^{-1} [c]_{\mathbb{R}}
 $$ 
 
-on the [[nLab:Lie algebra]] $\mathfrak{g}$ of $G$ associated to $[c]_{\mathbb{R}}$, given by an [[nLab:isomorphism]] (of real [[nLab:graded vector space]])s
+on the [[Lie algebra]] $\mathfrak{g}$ of $G$ associated to $[c]_{\mathbb{R}}$, given by an [[isomorphism]] (of real [[graded vector space]])s
 
 $$
-  \phi : inv(\mathfrak{g}) \stackrel{\simeq}{\to}
+  \phi 
+  \;\colon\;
+   inv(\mathfrak{g}) 
+   \overset{\simeq}{\longrightarrow}
    H^\bullet(B G, \mathbb{R})
   \,.
 $$
 
-The **second main statement** is that this invariant polynomial serves to provide a _differential_ ([[nLab:Lie integration]]) construction of $[c]_{\mathbb{R}}$:
+The **second main statement** is that this invariant polynomial serves to provide a _differential_ ([[Lie integration]]) construction of $[c]_{\mathbb{R}}$:
 
-for any choice of [[connection on a bundle|connection]] $\nabla$ on a $G$-principal bundle $P \to X$ we have the [[nLab:curvature]] 2-form $F_\nabla \in \Omega^2(P, \mathfrak{g})$ and fed into the invariant polynomial this yields an $n$-form
+for any choice of [[connection on a bundle|connection]] $\nabla$ on a $G$-principal bundle $P \to X$ we have the [[curvature]] 2-form $F_\nabla \in \Omega^2(P, \mathfrak{g})$ and fed into the invariant polynomial this yields an $n$-form
 
 $$
  \langle F_\nabla \wedge \cdots \wedge F_\nabla \rangle
@@ -75,9 +78,9 @@ $$
   \,.
 $$
 
-The statement is that under the [[nLab:de Rham theorem]]-isomorphism $H^\bullet_{dR}(X) \simeq H^\bullet(X, \mathbb{R})$ this presents the class $[c]_{\mathbb{R}}$. 
+The statement is that under the [[de Rham theorem]]-isomorphism $H^\bullet_{dR}(X) \simeq H^\bullet(X, \mathbb{R})$ this presents the class $[c]_{\mathbb{R}}$. 
 
-The **third main statement**, says that this construction may be refined by combining [[nLab:integral cohomology]] and [[nLab:de Rham cohomology]] to [[nLab:ordinary differential cohomology]]: the $n$-form $\langle F_\nabla \wedge \cdots F_\nabla\rangle$ may be realized itself as the [[nLab:curvature]] $n$-form of a [[circle n-bundle with connection]] $\hat \mathbf{c}$. 
+The **third main statement**, says that this construction may be refined by combining [[integral cohomology]] and [[de Rham cohomology]] to [[ordinary differential cohomology]]: the $n$-form $\langle F_\nabla \wedge \cdots F_\nabla\rangle$ may be realized itself as the [[curvature]] $n$-form of a [[circle n-bundle with connection]] $\hat \mathbf{c}$. 
 
 $$
   [\hat \mathbf{c}] : 
@@ -120,30 +123,33 @@ $$
   \,.
 $$
 
-A central **implication** of the last step is that with the refinement from [[nLab:curvature]]s in [[nLab:de Rham cohomology]] to [[nLab:circle n-bundles with connection]] in [[nLab:differential cohomology]] is that these come with a notion of [[nLab:higher parallel transport]] and higher [[nLab:holonomy]]:
+A central **implication** of the last step is that with the refinement from [[curvatures]] in [[de Rham cohomology]] to [[circle n-bundles with connection]] in [[differential cohomology]] is that these come with a notion of [[higher parallel transport]] and higher [[holonomy]]:
 
-* the local connection form of $\hat \mathbf{c}$ is the [[nLab:Chern-Simons form]] $cs(\nabla)$ of a [[nLab:Chern-Simons element]] $cs$ of the [[nLab:invariant polynomial]] $\langle- \rangle$ evaluated on the given $G$-[[nLab:connection on a bundle|connection]];
+* the local connection form of $\hat \mathbf{c}$ is the [[Chern-Simons form]] $cs(\nabla)$ of a [[Chern-Simons element]] $cs$ of the [[invariant polynomial]] $\langle- \rangle$ evaluated on the given $G$-[[connection on a bundle|connection]];
 
-* the corresponding [[nLab:higher parallel transport]] as an assignment
+* the corresponding [[higher parallel transport]] as an assignment
 
   $$
     (\Sigma \stackrel{\phi}{\to} X) 
     \mapsto 
-    \exp(\int_\Sigma \nabla_{\hat \mathbf{c}})
+    \exp\Big(
+      \textstyle{\int_\Sigma} 
+      \nabla_{\hat \mathbf{c}}
+    \Big)
     \in U(1)
   $$
 
-  of $(n-1)$-[[nLab:dimension]]al manifolds in $X$ to the [[nLab:circle group]] is the [[nLab:action functional]] of the corresponding [[nLab:Chern-Simons theory]].
+  of $(n-1)$-[[dimensional]] manifolds in $X$ to the [[circle group]] is the [[action functional]] of the corresponding [[Chern-Simons theory]].
 
 Specifically 
 
-* for $\langle  -,-\rangle$ the [[nLab:Killing form]] invariant polynomial on a [[nLab:semisimple Lie algebra]], one calls $\hat \mathbf{c}$ the [[Chern-Simons circle 3-bundle]]; whose higher [[holonomy]] is the [[nLab:action functional]] of ordinary [[nLab:Chern-Simons theory]];
+* for $\langle  -,-\rangle$ the [[Killing form]] invariant polynomial on a [[semisimple Lie algebra]], one calls $\hat \mathbf{c}$ the [[Chern-Simons circle 3-bundle]]; whose higher [[holonomy]] is the [[action functional]] of ordinary [[Chern-Simons theory]];
 
 * for $\langle -,-,-,-\rangle$ the next higher invariant polynomial on a semisimple Lie algebra, $\hat \mathbf{c}$ is a [[Chern-Simons circle 7-bundle]], and so on.
 
-So the refined Chern-Weil homomorphism provides a large family of [[nLab:gauge theory|gauge]] [[nLab:quantum field theories]] of Chern-Simons type in odd [[nLab:dimension]]s whose field configurations are always [[nLab:connection on a bundle|connections]] on [[nLab:principal bundle]]s and whose [[nLab:Lagrangian]]s are [[nLab:Chern-Simons element]]s on a [[nLab:Lie algebra]].
+So the refined Chern-Weil homomorphism provides a large family of [[gauge theory|gauge]] [[quantum field theories]] of Chern-Simons type in odd [[dimension]]s whose field configurations are always [[connection on a bundle|connections]] on [[principal bundle]]s and whose [[Lagrangians]] are [Chern-Simons element]]s on a [[Lie algebra]].
 
-But the notion of [[nLab:invariant polynomial]]s and [[nLab:Chern-Simons element]]s naturally exists much more generally for [[nLab:L-∞ algebra]]s, and even more generally for [[nLab:L-∞ algebroid]]s. We claim here that in this fully general case there is still a natural analog of the Chern-Weil homomorphism -- which we call the _[[nLab:∞-Chern-Weil homomorphism]]_ . Accordingly this gives rise to a wide class of [[nLab:action functional]]s for [[nLab:gauge theory|gauge]] [[nLab:quantum field theories]], which may be called _[[schreiber:∞-Chern-Simons theories]]_.
+But the notion of [[invariant polynomial]]s and [[Chern-Simons element]]s naturally exists much more generally for [[L-∞ algebras]], and even more generally for [[L-∞ algebroid]]s. We claim here that in this fully general case there is still a natural analog of the Chern-Weil homomorphism -- which we call the _[[∞-Chern-Weil homomorphism]]_ . Accordingly this gives rise to a wide class of [[action functional]]s for [[gauge theory|gauge]] [[quantum field theories]], which may be called _[[schreiber:∞-Chern-Simons theories]]_.
 
 
 ## Generalizations
