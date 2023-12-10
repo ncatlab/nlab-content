@@ -13,6 +13,11 @@ Introducing the [[Chern-Dold character]] (specifically for [[complex cobordism c
 
   English translation: Mathematics of the USSR-Sbornik, Volume 12, Number 4, AMS 1970 ([doi:10.1070/SM1970v012n04ABEH000939](https://iopscience.iop.org/article/10.1070/SM1970v012n04ABEH000939))
 
+On [[formal groups]] and [[Adams operations]]:
+
+* [[Victor M. Buchstaber]], [[Sergei P. Novikov]], _Formal groups, power systems and Adams operators_, Math. USSR-Sb.13 (1971) 80-116 &lbrack;[doi:10.1070/SM1971v013n01ABEH001030](https://doi.org/10.1070/SM1971v013n01ABEH001030)&rbrack;
+
+
 * [[Victor Buchstaber]], A. P. Veselov, _Chern-Dold character in complex cobordisms and abelian varieties_ ([arXiv:2007.05782](https://arxiv.org/abs/2007.05782))
 
 On [[cobordism cohomology theory]]:
@@ -26,7 +31,7 @@ Advances in the Mathematical Sciences, 2014 ([ISBN:978-1-4704-1871-7](https://bo
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[cobordism theory]]
 
@@ -34,8 +39,12 @@ Advances in the Mathematical Sciences, 2014 ([ISBN:978-1-4704-1871-7](https://bo
 
 * [[Chern-Dold character]]
 
+* [[multivalued group]]
+
+[[!redirects Victor M. Buchstaber]]
 
 [[!redirects Victor Buhštaber]]
+[[!redirects Victor M. Buhštaber]]
 
 
 category: people
