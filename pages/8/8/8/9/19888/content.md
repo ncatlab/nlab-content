@@ -20,7 +20,7 @@ On [[configuration spaces of points]]:
 
 On [[graph-indexed configuration spaces of points]]:
 
-* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]]&rbrack;
+* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]], [YT](https://youtu.be/eNdPBkjA-eQ)&rbrack;
 
 
 ## Related entries
