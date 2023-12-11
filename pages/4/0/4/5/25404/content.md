@@ -196,6 +196,10 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _Les théories convexes de Horn_, Jorge Herrera Miranda (1978), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k9813799h/f127))
 - _La Théorie de Galois dans les Catégories monoïdales_, Thomas S. Ligon (1979), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k98138170/f17))
 
+## Related pages
+
+* [[Esquisses mathématiques]]
+
 [[!redirects CRAS]]
 
 category: reference
