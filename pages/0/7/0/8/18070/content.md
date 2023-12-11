@@ -1787,7 +1787,7 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 
 On configuration spaces of points any two of which are required to be non-coincident only if connected by an [[edge]] in a labelin [[graph]]:
 
-* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]]&rbrack;
+* [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]], video:[YT](https://youtu.be/eNdPBkjA-eQ)&rbrack;
 
 
 ### Configurations in general position
