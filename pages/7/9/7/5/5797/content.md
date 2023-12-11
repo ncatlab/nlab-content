@@ -328,6 +328,7 @@ The [[BRST complex]] of the [[superstring]] might form a super $L_\infty$-algebr
 * [[model structure on differential graded-commutative superalgebras]]
 
 ## References
+ {#References}
 
 In their [[formal duality|formal dual]] incarnations as super-graded commutative [[dg-algebras]] (super [[Chevalley-Eilenberg algebras|Chevalley-Eilenberg algebras]]), super $L_\infty$-algebras of [[finite type]] had secretly been introduced in 
 
@@ -343,9 +344,30 @@ The concept was picked up in the [[D'Auria-Fré formulation of supergravity]]
 
 and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (where in [[rational homotopy theory]] one says "[[semifree dga]]", since these dg-algebras are crucially not required to be free as _differential_ algebras).
 
-The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in
+The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in:
 
-* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](https://arxiv.org/abs/1308.5264))
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]*, International Journal of Geometric Methods in Modern Physics **12** 02 (2015) &lbrack;[arXiv:1308.5264](https://arxiv.org/abs/1308.5264), [doi:10.1142/S0219887815500188](http://www.worldscientific.com/doi/abs/10.1142/S0219887815500188)&rbrack;
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, Adv. Theor. Math. Phys. **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], (21) in: _[[schreiber:The rational higher structure of M-theory]]_, in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
+
+also:
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], §3.2 in: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. **371** (2019) 425-524 &lbrack;[arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3)&rbrack;
+
+* [[Urs Schreiber]], p. 33, pp. 48 in: *[[schreiber:Higher Prequantum Geometry]]*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) &lbrack;[arXiv:1601.05956](https://arxiv.org/abs/1601.05956), [doi:10.1017/9781108854399.008](https://doi.org/10.1017/9781108854399.008)&rbrack;
+
+Lecture notes:
+
+* [[Urs Schreiber]], *[Super L ∞-cohomology and FDAs](geometry+of+physics+--+fundamental+super+p-branes#SuperLInfinityCohomologyAndFDAs)*, Section 2 in: *[[geometry of physics -- fundamental super p-branes]]*, originating in [[schreiber:Super Lie n-algebra of Super p-branes|talk notes (2016/17)]]
+
+* [[Urs Schreiber]], *[[schreiber:Introduction to Higher Supergeometry]]*, lecture at _[[nLab:Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/) (2019)
+
+Further discussion:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], §16 in: *Poincaré Duality for Supermanifolds, Higher Cartan Geometry and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
+
 
 
 [[!redirects super L-∞ algebra]]
