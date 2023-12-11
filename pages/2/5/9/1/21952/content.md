@@ -17,6 +17,12 @@ On [[differential forms on supermanifolds]]:
 * [[Simone Noja]], *On the Geometry of Forms on Supermanifolds* ([arXiv:2111.12841](https://arxiv.org/abs/2111.12841))
 
 
+On [[D=3 supergravity]] via [[super Cartan geometry]] for [[super L-infinity algebras]]:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], §16 in: *Poincaré Duality for Supermanifolds, Higher Cartan Geometry and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
+
+
+
 
 
 category: people
