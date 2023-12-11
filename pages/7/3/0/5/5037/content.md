@@ -55,8 +55,6 @@ If we have **any** model $\mathfrak{M} = (T,R,V)$ with a valuation, $V$, then we
 
 but, of course, this is still a long way from having a logic that looks as if it captures 'time-like' behaviour. We could have models with 'circular time', and 'branching time'.  Both of these correspond to various situations in computational applications so should be kept in mind, both to be able to identify their occurrence and to build them in or to avoid them in the logics.
 
-## (4)
-
 One condition it would be natural to impose is transitivity of $R_F$, since if $F\phi$ is true at some future time, then clearly, $\phi$ itself must also be true at some future time, i.e., later on still!  This leads one to ask that 
 
 $$(4) \quad\quad    F F\phi \to F\phi$$
