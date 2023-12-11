@@ -38,7 +38,7 @@ Then:
 An **enriched natural transformation** between these enriched functors
 
 $$
-  \eta \colon F \longrightarrow G'
+  \eta \colon F \longrightarrow G
 $$ 
 
 is a [[family]] of [[morphisms]] of $V$ 
