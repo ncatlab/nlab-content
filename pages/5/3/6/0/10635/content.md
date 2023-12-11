@@ -91,6 +91,7 @@ Suppose $x$ is in $[0, 1]$. By assumption, there is $F$ such that $F' = f$. By t
 
 * Wikipedia, _[Fundamental theorem of calculus](http://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus)_
 
+* [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms*, ([arXiv:2312.05228](https://arxiv.org/abs/2312.05228))
 
 [[!redirects fundamental theorem of calculus]]
 [[!redirects fundamental theorems of calculus]]
