@@ -36,6 +36,8 @@ is the **[[free construction|free]] [[cocomplete category|cocompletion]]** of $C
 
 The [[universal property]] of the [[Yoneda embedding]] is expressed in terms of the [[Yoneda extension]] of any [[functor]] $F : C \to D$ to a category $D$ with colimits.
 
+There is also an alternative construction of the free cocomplete category, given by the [[free strict cocompletion]].
+
 
 ## Technical details 
 
@@ -220,6 +222,8 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 
 * free cocompletions
+
+  * [[free strict cocompletion]]
  
   * [[free coproduct completion]]
  
@@ -243,7 +247,7 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 * {#PT} [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
 
-On strict free cocompletions:
+On [[strict free cocompletions]]:
 
 * Erwan Beurier, Dominique Pastor, and René Guitart. _Presentations of clusters and strict free-cocompletions_. [[Theory and Applications of Categories]] 36.17 (2021): 492-513. ([link](http://www.tac.mta.ca/tac/volumes/36/17/36-17abs.html))
 
