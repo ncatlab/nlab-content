@@ -85,3 +85,4 @@ Assuming that the ambient logic is [[coherent logic]], restricted separation aut
 * [[constructive mathematics]]
 * [[predicative mathematics]]
 * [[classical mathematics]]
+* [[geometric mathematics]]
