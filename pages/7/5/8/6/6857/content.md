@@ -25,7 +25,15 @@ Unlike [[hypergeometric functions]] which are solutions of linear second order O
 
 * G. E. Andrews, R. Askey, R. Roy, _Special functions_, Enc. of Math. and its Appl. 71 (1999)
 * &#1053;. &#1071;. &#1042;&#1080;&#1083;&#1077;&#1085;&#1082;&#1080;&#1085;, _&#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1090;&#1077;&#1086;&#1088;&#1080;&#1103; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1075;&#1088;&#1091;&#1087;&#1087;_
-* [[Richard Askey]], James Wilson, _A set of hypergeometric orthogonal polynomials_, SIAM J. Math. Anal. __13__ (1982), no. 4, 651&#8211;655, [doi](http://dx.doi.org/10.1137/0513043); _A recurrence relation generalizing those of Ap&#233;ry_, J. Austral. Math. Soc. Ser. A 36 (1984), no. 2, 267&#8211;278; _Some basic hypergeometric orthogonal polynomials that generalize Jacobi polynomials_, Mem. Amer. Math. Soc. __54__ (1985), no. 319, iv+55 pp. 
+
+* Richard Askey, James Wilson, _A set of hypergeometric orthogonal polynomials_, SIAM J. Math. Anal. __13__ (1982), no. 4, 651&#8211;655, [doi](http://dx.doi.org/10.1137/0513043); _A recurrence relation generalizing those of Ap&#233;ry_, J. Austral. Math. Soc. Ser. A 36 (1984), no. 2, 267&#8211;278; 
+
+* _Some basic hypergeometric orthogonal polynomials that generalize Jacobi polynomials_, Mem. Amer. Math. Soc. __54__ (1985), no. 319, iv+55 pp. 
+
+Lecture notes motivated by [[partial differential equations]] appearing in [[mathematical physics]]:
+
+* [[Cliff P. Burgess]], §10 in: *Primer on Partial Differential Equations for Physicists*, lecture notes (1990) &lbrack;[pdf](https://physics.mcmaster.ca/~cburgess/Notes/mathphys.pdf), [[Burgess-PDEs.pdf:file]]&rbrack;
+
 
 [[!redirects special functions]]
 
