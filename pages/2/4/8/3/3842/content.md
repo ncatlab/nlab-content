@@ -264,7 +264,7 @@ Let $T: Set^{C^{op}} \to Set^{D^{op}}$ be a functor that preserves [[wide pullba
 
 +-- {: .proof} 
 ###### Proof 
-The functor $T$ is [[parametric right adjoint|familially representable]]: there is a functor $D^{op} \to Fam(Set^{C^{op}})$ into the small [[free cartesian category|coproduct cocompletion]] of $Set^{C^{op}}$, taking $d \in Ob(D)$ to a formal coproduct $\sum_{x \in T(1)(d)} W_{(d, x)}$ of presheaves $W_{(d, x)}: C^{op} \to Set$, such that $T(F)$ is given by the formula 
+The functor $T$ is [[parametric right adjoint|familially representable]]: there is a functor $D^{op} \to Fam(Set^{C^{op}})$ into the small [[free coproduct completion|coproduct cocompletion]] of $Set^{C^{op}}$, taking $d \in Ob(D)$ to a formal coproduct $\sum_{x \in T(1)(d)} W_{(d, x)}$ of presheaves $W_{(d, x)}: C^{op} \to Set$, such that $T(F)$ is given by the formula 
 
 $$T(F)(d) = \sum_{x \in T(1)(d)} Set^{C^{op}}(W_{(d, x)}, F).$$ 
 
