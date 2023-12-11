@@ -761,6 +761,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Model Structures for Double Categories**
 
+  video: [YT](https://youtu.be/8j1WvFesnQM)
+
   cf. [arXiv:2004.14233](https://arxiv.org/abs/2004.14233), [arXiv:2007.00588](https://arxiv.org/abs/2007.00588)
 
   on [[model structures on DblCat]]
@@ -768,6 +770,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 * {#CloughOct2023} [[Adrian Clough]]: 
 
   **The Homotopy Theory of Differentiable Sheaves**
+
+  video: [YT](https://youtu.be/5NrKo-fPk2A)
 
   cf. [arXiv:2309.01757](https://arxiv.org/abs/2309.01757)
 
@@ -786,11 +790,12 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]**
 
+  video: [YT](https://youtu.be/wNhoAiITJQs)
+
   cf.: [arXiv:2311.11026](https://arxiv.org/abs/2311.11026)
 
   on [[higher topos theory|higher]] [[topos theory]] in [[mathematical physics]]
 
-  video: [YT](https://youtu.be/wNhoAiITJQs)
 
 \linebreak
 
