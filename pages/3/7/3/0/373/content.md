@@ -369,3 +369,4 @@ Discussion of weak 2-categories in the style of [[A-infinity categories]] is (us
 [[!redirects weak 2-categories]]
 [[!redirects hypercategory]]
 [[!redirects hypercategories]]
+[[!redirects 2-categorical]]
