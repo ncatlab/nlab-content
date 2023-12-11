@@ -77,6 +77,11 @@ There are now modern generalizations to many variables due Aomoto and another va
 
 * (dedicated chapter 2 of) Katsunori Iwasaki, Hironobu Kimura, Shun Shimomura, Masaaki Yoshida, _From Gauss to Painlevé, A modern theory of special functions_, 184 pp.
 
+Lecture notes motivated by [[partial differential equations]] appearing in [[mathematical physics]]:
+
+* [[Cliff P. Burgess]], §10 in: *Primer on Partial Differential Equations for Physicists*, lecture notes (1990) &lbrack;[pdf](https://physics.mcmaster.ca/~cburgess/Notes/mathphys.pdf), [[Burgess-PDEs.pdf:file]]&rbrack;
+
+
 In relation to the [[Knizhnik-Zamolodchikov equation]] and [[quantum groups]]:
 
 * [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
