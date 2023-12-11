@@ -4,5 +4,10 @@ Most of them are still available and can be obtained by sending an e-mail to [[A
 
 A list of titles is on the page linked below:
 
-* [Link](http://ehres.pagesperso-orange.fr/Cahiers/EsquissesM.htm)
+* [link](https://mes-ehres.fr/CTGD/Ctgdc.htm)
 
+## Related pages
+
+* [[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]
+
+category: reference
