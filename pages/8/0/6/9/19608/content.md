@@ -40,3 +40,7 @@ $$
 ## References
 
 * {#Spitters} [[Bas Spitters]] et al., _Modal Dependent Type Theory and Dependent Right Adjoints_, ([slides](http://www.cs.au.dk/~spitters/floc.pdf))
+
+Axiom K is discussed in Example 6.1.7 of:
+
+* [[Daniel Gratzer]], *Syntax and semantics of modal type theory* ([pdf](https://jozefg.github.io/papers/phd-thesis.pdf))
