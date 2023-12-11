@@ -5,14 +5,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Foundational axiom
-+-- {: .hide}
-[[!include foundational axiom - contents]]
-=--
 =--
 =--
 
-*Disambiguation: For axiom K as a principle of [[modal logic]], see [[axiom K (modal logic)]]*
+> This entry is about the axiom K in [[type theory]]. For axiom K of [[modal logic]], see *[[axiom K (modal logic)]].
 
 # Contents
 * table of contents
@@ -20,139 +16,39 @@
 
 ## Idea 
 
-In [[dependent type theory]], _axiom K_ refers to a couple of different axioms and rules applicable to individual [[types]] to turn them into [[h-sets]], [[type families]] to turn them into [[families of sets]] (and in particular, [[universes]] to turn them into internal types of sets), as well as the type theory as a whole to turn it into an actual [[set-level type theory]], where all types are [[h-sets]]. Under certain conditions, axiom K for universes is incompatible with the [[univalence axiom]], and axiom K for the whole type theory is incompatible with the existence of a [[univalent universe]]. 
+In [[type theory]], the _axiom K_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]] --- or more precisely, what is called [[extensional type theory|here]] "propositionally extensional type theory". In the language of [[homotopy type theory]], this means that all types are [[h-sets]], accordingly axiom K is incompatible with the [[univalence axiom]].
 
-Heuristically, the axiom asserts that for each element $a:A$, every [[identification]] of the [[identity type]] $\mathrm{Id}_A(a, a)$ is [[typal equality|typally equal]] to the canonical [[reflexive relation|reflexivity]] identification $refl_A(a):\mathrm{Id}_A(a, a)$. This is equivalent to saying that for every element $a:A$, [[reflexivity]] $\mathrm{refl}_A(a)$ is the [[center of contraction]] of the [[loop space type]] of $a$. 
+Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $Id_A(x,x)$ (of [[equivalences]] of a [[term]] $x \colon A$) is [[propositional equality|propositionally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_x \colon Id_A(x,x)$. 
+
+See also at _[extensional type theory -- Propositional extensionality](extensional+type+theory#PropositionalExtensionality)_.
+
 
 ## Statement
 
-There are multiple notions of axiom K: for individual types, for type families and Tarski universes, and for the type theory itself. 
-
-### For individual types
-
-The following definition is adapted from theorem 7.2.1 of the [[HoTT book]]. Given a type $A$, axiom K is the axiom that for all elements $a:A$ and identifications $p:\mathrm{Id}_A(a, a)$, there is an identification $K(a, p):\mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))$. This is the same as stating that there is a dependent function
-$$K_A: \prod_{a:A} \prod_{p:\mathrm{Id}_A(a, a)} \mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))$$
-
-Axiom K implies that $A$ is an [[h-set]], and can be used in the definition of an [[h-set]]. 
-
-### For type families and universes
-
-Axiom K for type families $(A, B)$ says that given a type $A$ with a type family $B(a)$ indexed by elements $a:A$, the typal axiom K holds for the dependent type $B(a)$ of every element of the index type $a:A$. This is the same as stating that there is a dependent function
-
-$$K_{A, B}: \prod_{a:A} \prod_{b:B(a)} \prod_{p\mathrm{Id}_{B(a)}(b, b)} \mathrm{Id}_{\mathrm{Id}_{B(a)}(b, b)}(p,  \mathrm{refl}_{B(a)}(b))$$
-
-This definition of axiom K could be used in the definition of [[family of sets]]. Since this definition applies to type families, this should probably be called the **familial axiom K** to distinguish it from the axiom K above. 
-
-Since every Tarski universe consists of a type $U$ of encodings and a type family $T$ representing the actual small types indexed by the type $U$, with addition structure representing the closure of $U$ under all type formers, the familial axiom K definition works for Tarski universes as well, and this could equivalently be called the **Tarski universe axiom K**. 
-
-### As a rule in the type theory
-
-In the same manner that [[uniqueness of identity proofs]] could be expressed as a rule instead of an [[axiom]], Axiom K could also be rewritten as a rule instead of an axiom, by making the hypotheses of the axioms into premises of the rule. This makes axiom K applicable not only to universes, but to the entire type theory. In addition, one could use, in addition to [[typal equality]], either [[judgmental equality]] or [[propositional equality]], resulting in **judgmental axiom K** and **propositional axiom K**, with the original axiom K called **typal axiom K**
-
-In this manner, axiom K then becomes the rules:
-
-* Judgmental axiom K
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash a:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, a)}{\Gamma\vdash p \equiv refl_A(a):\mathrm{Id}_A(a, a)}$$
-
-* Propositional axiom K
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash a:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, a)}{\Gamma\vdash p =_{\mathrm{Id}_A(a, a)} refl_A(a) \; \mathrm{true}}$$
-
-* Typal axiom K
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma\vdash a:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, a)}{\Gamma\vdash K_A(a, p):\mathrm{Id}_{\mathrm{Id}_A(a, a)}(p, refl_A(a))}$$
-
-Axiom K is a [[axiom of set truncation]], and turns the type theory into a [[set-level type theory]]. Judgmental axiom K holds in [[XTT]], where it follows from the judgmental UIP rule, which in turn follows from [[boundary separation]]. 
-
-This should probably be called the **K rule** rather than axiom K, since it is no longer an axiom. 
-
-### Axiom K for heterogeneous identity types
-
-There is also a notion of axiom K for [[heterogeneous identity types]], which is given by the following rule:
-
-* Judgmental axiom K for heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
-     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, f(a), f(b))
-    \end{array}
-}{\Gamma \vdash q \equiv \mathrm{ap}_{B}(f, a, b, p):\mathrm{hId}_{B}(a, b, p, f(a), f(b))}$$
-
-* Propositional axiom K for heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
-     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, f(a), f(b))
-    \end{array}
-}{\Gamma \vdash q =_{\mathrm{hId}_{B}(a, b, p, f(a), f(b))} \mathrm{ap}_{B}(f, a, b, p) \; \mathrm{true}}$$
-
-* Typal axiom K for heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
-     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, f(a), f(b))
-    \end{array}
-}{\Gamma \vdash K_{B}(f, a, b, p, q):\mathrm{Id}_{\mathrm{hId}_{B}(a, b, p, f(a), f(b))}(q, \mathrm{ap}_{B}(f, a, b, p))}$$
-
-and likewise for [[dependent heterogeneous identity types]]:
-
-* Judgmental axiom K for dependent heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
-     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))
-    \end{array}
-}{\Gamma \vdash q \equiv \mathrm{apd}_{x:A.B(x)}(f, a, b, p):\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))}$$
-
-* Propositional axiom K for dependent heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
-     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))
-    \end{array}
-}{\Gamma \vdash q =_{\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))} \mathrm{apd}_{x:A.B(x)}(f, a, b, p) \; \mathrm{true}}$$
-
-* Typal axiom K for dependent heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \\
-     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))
-    \end{array}
-}{\Gamma \vdash K_{x:A.B(x)}(f, a, b, p, q):\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), f(b))}(q, \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}$$
+$$
+  K 
+  \colon 
+  \underset{A \colon Type}{\prod} 
+  \underset{x \colon A}{\prod}
+  \underset{P \colon Id_A(x,x) \to Type}{\prod} 
+  \left(
+     P(refl_A x)
+     \to  
+    \underset{h \colon Id_A(x,x)}{\prod} P(h)
+  \right)
+$$
 
 ## Properties
 
-### Axiom K and univalence
-
-In this section we assume that the universe is a Tarski universe. The K rule is inconsistent with having a [[univalent type with a type family]] $(A, B)$ with at least one term $a:A$ where the dependent type $B(a)$ is provably not a proposition
-$$\left(\prod_{p:B(a)}  \prod_{q:B(a)} \mathrm{Id}_{B(a)}(p, q)\right) \to \emptyset$$
-because by univalence, $A$ is then provably not a set, which contradicts the K rule. 
-In particular, having a [[univalent universe]] $(U, T)$ in the type theory is inconsistent with the K rule. 
-
-The familial axiom K applied to Tarski universes implies that for all $A:U$ the type $T(A)$ is a set. This means the type reflection of the internal equivalences $T(A \simeq_U B)$ is an [[h-set]], and the [[univalence axiom]] then implies that $U$ is an [[h-groupoid]]. If $U$ has [[h-sets]] which can be proven not to be an [[h-proposition]], such as the [[booleans type]], then $U$ is provably not an [[h-set]]. 
-
-However, unlike the case for the K rule, the familial axiom K and the univalence axiom for universes are inconsistent with each other only if the Tarski universe $U$ has objects which can be proven not to be an [[h-set]], such as internal univalent Tarski universes $V:U$ where the type $T(V)$ has terms $A:T(V)$ such that $T_V(A)$ is an [[h-set]] which is not an [[h-proposition]], such as the [[booleans type]]. As a result, $T(V)$ can be proven to not be a set, causing axiom K for $U$ to be inconsistent with the existence of $V:U$ and univalence. 
-
-### Computational behavior
-
-Unlike its logical equivalent [[axiom UIP]], axiom K can be endowed with computational behavior: $K(A,x,P,d,refl_A x)$ computes to $d$.  This gives a way to specify a computational set-level type theory.
+Unlike its logical equivalent [[axiom UIP]], axiom K can be endowed with computational behavior: $K(A,x,P,d,refl_A x)$ computes to $d$.  This gives a way to specify a computational propositionally extensional type theory.
 
 This sort of computational axiom K can also be implemented with, and is sufficient to imply, a general scheme of function definition by pattern-matching.  This is implemented in the proof assistant [[Agda]].  (The flag `--without-K` alters Agda's pattern-matching scheme to a weaker version appropriate for [[intensional type theory]], including [[homotopy type theory]].)
 
+
 ## Related concepts
 
-* [[uniqueness of identity proofs]]
+* [[axiom UIP]]
 
-* [[axiom of circle type localization]]
-
-* [[boundary separation]]
 
 ## References
 
@@ -175,22 +71,3 @@ around theorem 7.2.1
 [[!redirects Streicher's axiom K]]
 [[!redirects Streicher\'s axiom K]]
 [[!redirects Axiom K (type theory)]]
-
-[[!redirects judgmental axiom K]]
-[[!redirects propositional axiom K]]
-[[!redirects typal axiom K]]
-
-[[!redirects K rule]]
-
-[[!redirects judgmental K rule]]
-[[!redirects propositional K rule]]
-[[!redirects typal K rule]]
-
-[[!redirects judgmental K]]
-[[!redirects propositional K]]
-[[!redirects typal K]]
-
-[[!redirects definitional K]]
-[[!redirects definitional K rule]]
-
-[[!redirects K principle]]
