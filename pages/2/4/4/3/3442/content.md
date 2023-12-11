@@ -207,9 +207,16 @@ General accounts:
 
 * [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
 
-On the partial differential equations appearing in [[physics]]:
+
+On the partial differential equations appearing in [[mathematical physics|mathematical]] [[physics]]:
+
+* [[Cliff P. Burgess]], *Primer on Partial Differential Equations for Physicists*, lecture notes (1990) &lbrack;[pdf](https://physics.mcmaster.ca/~cburgess/Notes/mathphys.pdf), [[Burgess-PDEs.pdf:file]]&rbrack;
 
 * [[Robert Geroch]], _Partial Differential Equations of Physics_, in: _[General Relativity: Proceedings](https://inspirehep.net/literature/328567)_ Edited by G.S. Hall and J.R. Pulham. Edinburgh, IOP Publishing, 1996. p. 19 ([arXiv:gr-qc/9602055](http://arxiv.org/abs/gr-qc/9602055))
+
+
+*  Bijan Kumar Bagchi, *Partial Differential Equations for Mathematical Physicists*, Routledge (2020) &lbrack;[ISBN:9780367227029](https://www.routledge.com/Partial-Differential-Equations-for-Mathematical-Physicists/Bagchi/p/book/9780367227029)&rbrack;
+
 
 
 ### Via jet bundles and D-modules
