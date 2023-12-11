@@ -60,7 +60,7 @@ $$
   \,.
 $$
 \end{example}
-([Witten 1990 (3.30)](#Witten90); [Cecotti & Vafa 1992, p. 3](#CecottiVafa92); [Cecotti & Vafa 1993 p. 89](#CecottiVafa93); [Bourdeau & Douglas 1994 3.4](#BourdeauDouglas94); see also [Dorfmeister, Guest & Rossman 2010, p .1](#DorfmeisterGuestRossman10))
+([Witten 1990, p. 275](#Witten90); [Cecotti & Vafa 1992, p. 3](#CecottiVafa92); [Cecotti & Vafa 1993 p. 89](#CecottiVafa93); [Bourdeau & Douglas 1994 3.4](#BourdeauDouglas94); see also [Dorfmeister, Guest & Rossman 2010, p .1](#DorfmeisterGuestRossman10))
 
 
 
@@ -80,7 +80,7 @@ The notion of quantum cohomology originates as a model for certain [[topological
 
 * {#Vafa92} [[Cumrun Vafa]], §4 in: *Topological mirrors and quantum rings*, in [[Shing-Tung Yau]] (ed.) *Essays on mirror manifolds*, International Press (1992), republished in *Mirror Symmetry I*, AMS/IP Studies in Advanced Mathematics **9** (1998) &lbrack;[arXiv:hep-th/9111017](https://arxiv.org/abs/hep-th/9111017), [doi:10.1090/amsip/009](https://doi.org/10.1090/amsip/009)&rbrack;
 
-* {#Witten90} [[Edward Witten]],  §3 in: *Two-dimensional gravity and intersection theory on moduli space*,  Surveys in Differential Geometry **1** (1990) &lbrack;[doi:10.4310/SDG.1990.v1.n1.a5](https://dx.doi.org/10.4310/SDG.1990.v1.n1.a5), [inspire:307956](https://inspirehep.net/literature/307956), [SemanticScholar](https://www.semanticscholar.org/paper/Two-dimensional-gravity-and-intersection-theory-on-Witten/e5935bb91e79d8247468b19c310a201b8e41e808)&rbrack;
+* {#Witten90} [[Edward Witten]],  §3 in: *Two-dimensional gravity and intersection theory on moduli space*,  Surveys in Differential Geometry **1** (1990) 243-310 &lbrack;[doi:10.4310/SDG.1990.v1.n1.a5](https://dx.doi.org/10.4310/SDG.1990.v1.n1.a5), [inspire:307956](https://inspirehep.net/literature/307956), [SemanticScholar](https://www.semanticscholar.org/paper/Two-dimensional-gravity-and-intersection-theory-on-Witten/e5935bb91e79d8247468b19c310a201b8e41e808)&rbrack;
 
 motivated by
 
