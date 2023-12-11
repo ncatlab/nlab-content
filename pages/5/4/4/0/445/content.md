@@ -209,7 +209,7 @@ There are several properties we might want a 'higher image' to have. For example
 
 ### In $(\infty,1)$-category theory {#InfImage}
 
-A **(regular) $(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit]]s and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Čech nerve|Cech co-nerve]] of $f$:
+A **(regular) $(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit|(∞,1)-limits]] and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Čech nerve|Cech co-nerve]] of $f$:
 
 $$
   im f := \lim_{\leftarrow}
@@ -233,7 +233,7 @@ For more see _[[n-image]]_.
 
 #### Examples {#InfImageExamples}
 
-Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of [[(∞,1)-functor]]s between [[∞-groupoid]]s and hence a notion of image of [[functor]]s between [[groupoid]]s, [[2-functor]]s between [[2-groupoid]]s, etc.
+Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of [[(∞,1)-functor|(∞,1)-functors]] between [[∞-groupoid|∞-groupoids]] and hence a notion of image of [[functor|functors]] between [[groupoid|groupoids]], [[2-functor|2-functors]] between [[2-groupoid|2-groupoids]], etc.
 
 ## Related concepts
 
