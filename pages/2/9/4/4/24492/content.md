@@ -18,5 +18,9 @@ On [[smooth ∞-groupoids]] (called "[[differentiable stacks]]") and the [[smoot
 
 * *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
 
+* [[Adrian Clough]], *The Homotopy Theory of Differentiable Sheaves*, [talk at](CQTS#CloughOct2023) *[Workshop on Homotopy Theory and Applications](CQTS#WorkshopOnHomotopyTheory2023)*, [[CQTS]] (Oct 2023) &lbrack;video:[YT](https://youtu.be/5NrKo-fPk2A)&rbrack;
+
+
+
 category: people
 
