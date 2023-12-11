@@ -70,6 +70,11 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
   video: [YT](https://www.youtube.com/watch?v=pu5bpJ263X0)
 
+* **[[schreiber:Higher Topos Theory in Physics]]**
+
+  [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#SchreiberOct2023): [Workshop on Homotopy Theory and Applications](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#oct_2023)
+
+  video: [YT](https://youtu.be/wNhoAiITJQs)
 
 ## publications
 
