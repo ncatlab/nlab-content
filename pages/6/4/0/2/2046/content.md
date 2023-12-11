@@ -24,14 +24,14 @@
 +-- {: .num_defn}
 ###### Definition
 
-An [[object]] $X$ in a [[category]] $C$ with a [[zero object]] $0$ is __simple__ if there are precisely two [[quotient objects]] of $X$, namely $0$ and $X$.  
+An [[object]] $X$ in a [[category]] $C$ with a [[terminal object]] $1$ is __simple__ if there are precisely two [[quotient objects]] of $X$, namely $1$ and $X$.  
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-If $C$ is [[abelian category|abelian]], we may use [[subobjects]] in place of quotient objects in the definition, and this is more common; the result is the same.
+If $C$ is [[abelian category|abelian]], then the terminal object is a [[zero object]] and we may use [[subobjects]] in place of quotient objects in the definition, and this is more common; the result is the same.
 
 =--
 
@@ -39,14 +39,14 @@ If $C$ is [[abelian category|abelian]], we may use [[subobjects]] in place of qu
 +-- {: .num_remark}
 ###### Remark
 
-The [[zero object ]] itself is *not* simple, as it has only *one* quotient object.  It is [[too simple to be simple]].
+The [[terminal object ]] itself is *not* simple, as it has only *one* quotient object.  It is [[too simple to be simple]].
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In [[constructive mathematics]], we want to phrase the definition as: a quotient object of $X$ is $X$ if and only if it is not $0$.
+In [[constructive mathematics]], we want to phrase the definition as: a quotient object of $X$ is $X$ if and only if it is not $1$.
 
 =--
 
@@ -90,9 +90,9 @@ If an abelian category is enriched over finite-dimensional vector spaces over a 
 
 *  For $G$ a [[group]] and $Rep(G)$ its [[category of representations]], the simple objects are the [[irreducible representations]].
 
-*  A [[simple ring]] is *not* a simple object in [[Ring]] (which doesn\'t have a [[zero object]] anyway); instead it is a ring $R$ that is simple in its category of [[bimodules]].
+*  A [[simple ring]] is a simple object in [[Ring]]. Equivalently, it is a ring $R$ that is simple in its category of [[bimodules]].
 
-*  A [[simple Lie algebra]] is a simple object in [[LieAlg]] that *also* is not [[abelian Lie algebra|abelian]].  As an abelian Lie algebra is simply a [[vector space]], the only simple object of $Lie Alg$ that is not accepted as a simple Lie algebra is the $1$-dimensional Lie algebra.
+*  A [[simple Lie algebra]] is a simple object in [[LieAlg]] that (by conventional fiat) is not [[abelian Lie algebra|abelian]].  As an abelian Lie algebra is simply a [[vector space]], the only simple object of $Lie Alg$ that is not accepted as a simple Lie algebra is the $1$-dimensional Lie algebra.
 
 
 ## Related entries
