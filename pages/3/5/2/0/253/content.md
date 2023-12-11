@@ -202,5 +202,6 @@ Formalization in [[homotopy type theory]] (see also at [[internal category in ho
 
 [[!redirects bicategory]]
 [[!redirects bicategories]]
+[[!redirects bicategorical]]
 
 [[!redirects coherence theorem for bicategories]]
