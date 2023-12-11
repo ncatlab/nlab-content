@@ -67,6 +67,8 @@ See also:
 
 * Wikipedia, *[Nitrogen-vacancy center](https://en.wikipedia.org/wiki/Nitrogen-vacancy_center)*
 
+* {#BSERTRH23} Santiago Bussandri, Daphna Shimon, [[Asif Equbal]], Yuhang Ren, Susumu Takahashi, [[Chandrasekhar Ramanathan]], Songi Han,  *P1 center electron spin clusters are prevalent in type Ib diamond* &lbrack;[arXiv:2311.05396](https://arxiv.org/abs/2311.05396)&rbrack;
+
 [[!redirects nitrogen-vacancy center]]
 
 [[!redirects NV center]]
