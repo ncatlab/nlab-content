@@ -1388,6 +1388,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > A central goal in [[quantum computing]] research is to [[topological quantum computation|protect]] and [[quantum error correction|control]] [[quantum information]] from [[noise]]. This talk will provide recent progress on the developing field of [topological superconductivity](superconductivity#AnyonsInTopologicalSuperconductorsReferences) where we can encode information in spatially separated [[Majorana zero modes]] (MZM). We show that [topological superconductivity](superconductivity#AnyonsInTopologicalSuperconductorsReferences) can be achieved in certain hybrid materials where the topological properties are not found in the constituent materials.  These special MZMs are formed at the location of [[topological defects]] (e.g. [[boundary field theory|boundaries]], [[domain walls]],..) and manifest [[anyon|non-Abelian braiding statistics]] that can be used in noise-free [[quantum gate|unitary gate]] operations. We show by engineering a reconfigurable domain wall on a [[Josephson junction]] we can create a scalable platform to study MZM properties and their applications in [[quantum information]] science.
 
+\linebreak
+
+* 11 Dec 2023
+
+  [[Chandrasekhar Ramanathan]] (Dartmouth College, New Hampshire):
+
+  **Quieting Noisy Neighbors: Extending the Coherence Times of Central Electronic Spins in Solids**
+
+  cf.: [arXiv:arXiv:2311.05396](nitrogen-vacancy+center+in+diamond#BSERTRH23)
+
+  > Isolated [[electron|electronic]] [[spins]] such as donors in silicon and defects like the [[nitrogen-vacancy center in diamond|nitrogen-vacancy (NV) center in diamond]] are promising platforms for some [[quantum system|quantum]] technologies. The [[decoherence]] of these spins is often dominated by interactions with other electronic or nuclear spin species present in their vicinity. For example, silicon-29 nuclear spins can limit the coherence times of donors in silicon, and substitutional nitrogen or P1 centers often limit the coherence times of NV centers in diamond. In this talk I will describe two recent sets of experiments from our group where we are able to extend the coherence times of the central spin by engineering these spin-bath interactions. First, I show how the coherence times of phosphorus donors in silicon are influenced by low-power above-bandgap optical excitation.  Next, I describe the use of dynamical decoupling techniques to suppress NV-P1 interactions in diamond.  In addition to extending coherence times, these decoupling techniques can be used to measure time-dependent magnetic fields, a form of AC-sensing or noise spectroscopy.
 
 \linebreak
 
