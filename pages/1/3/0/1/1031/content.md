@@ -66,7 +66,7 @@ for every object $C$ and every morphism $h : C \to A$ such that $f\circ h = 0$ i
 ###### Definition
 
 
-In a [[category]] with [[zero morphism]]s (meaning: [[enriched category|enriched]] over the [[category of pointed sets]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  
+In a [[category]] with [[zero morphism|zero morphisms]] (meaning: [[enriched category|enriched]] over the [[category of pointed sets]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  
 
 =--
 
@@ -116,7 +116,7 @@ Kashiwara-Schapira, following the terminology of EGA, uses kernel as a synonym o
 +-- {: .num_prop}
 ###### Property
 
-Let $C$ be a category with [[pullback]]s and [[zero object]].
+Let $C$ be a category with [[pullback|pullbacks]] and [[zero object]].
 
 In $C$, the kernel of a kernel is 0.
 
@@ -145,14 +145,14 @@ is a pullback. Since $0 \to c$ is a [[monomorphism]] and the pullback of a monom
 +-- {: .num_remark}
 ###### Remark
 
-This statement crucially fails to be true in [[higher category theory]]. There, the kernel of a kernel is the based [[loop space object]] of $d$. For this reason where one has [[short exact sequence]]s in 1-category theory, there are instead long [[fiber sequence]]s in higher category theory.
+This statement crucially fails to be true in [[higher category theory]]. There, the kernel of a kernel is the based [[loop space object]] of $d$. For this reason where one has [[short exact sequence|short exact sequences]] in 1-category theory, there are instead long [[fiber sequence|fiber sequences]] in higher category theory.
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-In a category $C$ with [[pullback]]s and [[pushout]]s and [[zero object]], kernel and [[cokernel]] form a pair of [[adjoint functor]]s on the [[arrow category|arrow categories]]
+In a category $C$ with [[pullback|pullbacks]] and [[pushout|pushouts]] and a [[zero object]], kernel and [[cokernel]] form a pair of [[adjoint functor|adjoint functors]] on the [[arrow category|arrow categories]]
 
 $$
   (coker \dashv ker) : Arr(C) \stackrel{\overset{coker}{\leftarrow}}{\underset{ker}{\to}} Arr(C)
@@ -165,7 +165,7 @@ $$
 ###### Proof
 
 
-We check the hom-isomorphism of a pair of [[adjoint functor]]s. An element in the [[hom-set]] $Arr_C(g,ker f)$ is a [[diagram]]
+We check the hom-isomorphism of a pair of [[adjoint functor|adjoint functors]]. An element in the [[hom-set]] $Arr_C(g,ker f)$ is a [[diagram]]
 
 $$
   \array{
