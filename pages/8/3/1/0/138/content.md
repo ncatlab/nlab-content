@@ -410,7 +410,7 @@ On the Verdier hypercovering theorem see
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_
 
-* [[John Frederick Jardine]], _The Verdier hypercovering theorem_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/Verdier4.pdf))
+* [[John Frederick Jardine]], _The Verdier hypercovering theorem_ ([doi](https://www.cambridge.org/core/journals/canadian-mathematical-bulletin/article/verdier-hypercovering-theorem/13FA7ACF61C486C2FD5C06FFF6483562))
 
 * [[Zhen Lin Low]], _Cocycles in categories of fibrant objects_, ([pdf](http://arxiv.org/abs/1502.03925v3))
 
