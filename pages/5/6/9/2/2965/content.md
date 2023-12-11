@@ -78,3 +78,7 @@ On when [[finitely continuous]] [[presheaves]] are small:
 [[!redirects small presheaves]]
 [[!redirects small functor]]
 [[!redirects small functors]]
+[[!redirects small presheaf category]]
+[[!redirects small presheaf categories]]
+[[!redirects category of small presheaves]]
+[[!redirects categories of small presheaves]]
