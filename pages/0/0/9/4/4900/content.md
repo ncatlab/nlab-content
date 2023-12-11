@@ -11,3 +11,5 @@ See also [[Cahiers topos]] which owes its name to this journal.
 * [[list of journals publishing category theory]]
 
 [[!redirects Cahiers de Topologie et Géométrie Différentielle Catégoriques]]
+
+[[!redirects Cahiers de topologie et géométrie différentielle]]
