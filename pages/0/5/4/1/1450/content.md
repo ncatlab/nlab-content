@@ -185,7 +185,7 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 
   * [[synthetic topology]]
 
-  * [[syntehtic algebraic geometry]]
+  * [[synthetic algebraic geometry]]
 
   * [[synthetic differential topology]]
 
