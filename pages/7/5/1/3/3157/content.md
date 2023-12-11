@@ -15,5 +15,10 @@
 * [[John Huerta]], _Bundle gerbes on supermanifolds_ ([arXiv:2012.15813](https://arxiv.org/abs/2012.15813))
 
 
+On [[D=3 supergravity]] via [[super Cartan geometry]] for [[super L-infinity algebras]]:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], §16 in: *Poincaré Duality for Supermanifolds, Higher Cartan Geometry and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
+
+
 
 category: people
