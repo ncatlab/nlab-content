@@ -21,6 +21,10 @@ On [[nuclear magnetic resonance]] and related spin technologies for the use of [
 
 * [[Asif Equbal]], *Molecular spin qubits for future quantum technology*, talk at [[CQTS]] (Nov 2022) &lbrack;slides: [[Equbal-CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/YTjIGL-Bevb1H44UuL-ZimXdxph5cffddWpP3H4ZsuRT2xu3OrnTbC0NZLsKedUGwS68DJ8onVFPAETb.rreoi7Wt6uXFyaYN?continueMode=true&_x_zm_rtaid=e0VPIMlfT9KlVd_wiaOq6A.1669794985784.11f8cd37091ebf6bdd2a878668e26cd6&_x_zm_rhtaid=404)&rbrack;
 
+On [[nuclear magnetic resonance]] on the [[nitrogen-vacancy center in diamond]] and related systems in [[quantum sensing]]:
+
+* Santiago Bussandri, Daphna Shimon, [[Asif Equbal]], Yuhang Ren, Susumu Takahashi, [[Chandrasekhar Ramanathan]], Songi Han,  *P1 center electron spin clusters are prevalent in type Ib diamond* &lbrack;[arXiv:2311.05396](https://arxiv.org/abs/2311.05396)&rbrack;
+
 
 ## Related entries
 
