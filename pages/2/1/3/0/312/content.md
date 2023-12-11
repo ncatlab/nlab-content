@@ -41,7 +41,7 @@ A subobject of $c$ may equivalently be defined as an element of the [[posetal re
 
 ### In terms of over categories
 
-Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomorphism]]s. Then $C_c$ is the [[poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
+Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomorphism|monomorphisms]]. Then $C_c$ is the [[poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$. However this "set" can be in fact a proper class in general, see [[well-powered category]].
 
 
 ### Generalizations
@@ -67,13 +67,13 @@ Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomo
 ### Limits and colimits of subobjects
  {#LimitsAndColimits}
 
-Assume that the ambient category has all [[limit]]s and [[colimit]]s considered in the following.
+Assume that the ambient category has all [[limit|limits]] and [[colimit|colimits]] considered in the following.
 
 +-- {: .num_defn}
 ###### Definition
 
 For $X \in C$ an [[object]], $Sub(X)$ the [[poset]] of subobjects and  
-$U_1, U_2 \hookrightarrow X$ two [[subobject]]s, 
+$U_1, U_2 \hookrightarrow X$ two [[subobject|subobjects]], 
 
 *  their [[product]] in $Sub(X)$ is denoted $U_1 \cap U_2$ or $U_1 \wedge U_2$ and called the **[[intersection]]** or **[[meet]]** of the two subobjects;
 
@@ -128,7 +128,7 @@ For the first point: Since [[monomorphism]] are (as discussed there) stable unde
 
 For the second point: by the same kind of argument, it is sufficient to show that the canonical morphism $U_1 \coprod_{U_1 \cap U_2} U_2 \to X$ exhibits the coproduct as a subobject. 
 
-Since [[monomorphism]]s (as discussed there) are characterized by the fact that the [[pullback]] along themselves is their domain, it is sufficient to show that 
+Since [[monomorphism|monomorphisms]] (as discussed there) are characterized by the fact that the [[pullback]] along themselves is their domain, it is sufficient to show that 
 
 $$
   \array{
