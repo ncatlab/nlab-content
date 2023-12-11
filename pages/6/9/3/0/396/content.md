@@ -76,3 +76,4 @@ $$
 
 [[!redirects full and faithful]]
 [[!redirects fully faithful]]
+[[!redirects fully faithfully]]
