@@ -746,8 +746,10 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   slides: [[Kallel-GraphConfiguration.pdf:file]]
 
+  video: [YT](https://youtu.be/eNdPBkjA-eQ)
 
-* [[David Jaz Myers]]: 
+
+* {#MyersOct2023} [[David Jaz Myers]]: 
 
   **Homotopy Manifolds and Tangent Bundles in HoTT**
 
@@ -755,7 +757,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   on [[homotopy types]] of [[smooth manifolds]] in [[homotopy type theory]]
 
-* [[Lyne Moser]]: 
+* {#MoserOct2023} [[Lyne Moser]]: 
 
   **Model Structures for Double Categories**
 
@@ -763,7 +765,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   on [[model structures on DblCat]]
 
-* [[Adrian Clough]]: 
+* {#CloughOct2023} [[Adrian Clough]]: 
 
   **The Homotopy Theory of Differentiable Sheaves**
 
@@ -772,7 +774,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   on the [[homotopy theory]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]
   
 
-* [[Zhen Huan]]: 
+* {#HuanOct2023} [[Zhen Huan]]: 
 
   **2-Representations and 2-Vector Bundles**
 
@@ -780,9 +782,15 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   on [[2-representations]] and [[2-vector bundles]]
 
-* [[Urs Schreiber]]: 
+* {#SchreiberOct2023} [[Urs Schreiber]]: 
 
   **[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]**
+
+  cf.: [arXiv:2311.11026](https://arxiv.org/abs/2311.11026)
+
+  on [[higher topos theory|higher]] [[topos theory]] in [[mathematical physics]]
+
+  video: [YT](https://youtu.be/wNhoAiITJQs)
 
 \linebreak
 
@@ -2101,6 +2109,8 @@ Stone-von Neumann**
   [[Fiona Torzewska]] (University of Leeds, UK):
 
   **Topological Quantum Field Theories and Homotopy Cobordisms**
+
+  video: [YT](https://youtu.be/7rtJ61EPL-M)
 
   cf: [arXiv:2208.14504](TQFT#Torzewska22)
 
