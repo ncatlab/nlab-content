@@ -33,7 +33,7 @@ On rigorous [[mathematics]] and [[formal proof]]:
 
 * [[TQFT]]
 
-* [[TQFT]]
+
 
 category: people
 
