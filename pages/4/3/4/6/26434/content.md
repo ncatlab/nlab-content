@@ -41,6 +41,17 @@ $$
 
 This notion subsumes monads in the sense that every set of monads and monad morphisms can be encoded using polymonads while obeying the polymonad laws. Moreover, it encompasses the [[monad (in computer science)|monad-like programming patterns]].
 
+(Note that, from a category theoretic perspective, it is more natural to change the order of the arguments to match the form of [[Kleisli extension]], so that the operations are of the form
+$$
+  (\forall\alpha)
+  (\forall\beta)
+  \big(
+    (\alpha\to m_2\beta)\to (m_1\alpha\to m_3\beta)
+  \big)
+  \,.
+$$
+.)
+
 ## Definition
 
 A polymonad is the data of a collection $\mathcal{M}$ of unary type constructors cointaining an element $\mathrm{Id}$, and a bind set $\Sigma_{\mathcal{M}}$ containing an element $b_{\mathrm{Id},\mathrm{Id},\mathrm{Id}}$ (reverse apply).
