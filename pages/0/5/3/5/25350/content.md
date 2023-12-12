@@ -58,6 +58,12 @@ Further discussion in:
 
 * Hoshang Heydari, *Geometric formulation of quantum mechanics* &lbrack;[arXiv:1503.00238](https://arxiv.org/abs/1503.00238)&rbrack;
 
+Discussion of dynamics of [[mixed states]] ([[density matrices]]), now via [[Poisson geometry]]:
+
+* Pritish Sinha, Ankit Yadav, *Poisson Geometric Formulation of Quantum Mechanics* &lbrack;[arXiv:2312.05615](https://arxiv.org/abs/2312.05615)&rbrack;
+
+
+
 [[!redirects symplectic formulation of quantum mechanics]]
 
 
