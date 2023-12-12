@@ -1,6 +1,6 @@
 # Contents
 
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -16,6 +16,7 @@ It subsumes monads in the sense that every set of monads and monad morphisms can
 A polymonad is the data of a collection $\mathcal{M}$ of unary type constructors cointaining an element $\mathrm{Id}$, and a bind set $\Sigma_{\mathcal{M}}$ containing an element $b_{\mathrm{Id},\mathrm{Id},\mathrm{Id}}$ (reverse apply).
 
 It must obey the following polymonad laws:
+
 * functorial law;
 * left identity;
 * right identity;
