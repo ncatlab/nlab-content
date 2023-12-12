@@ -12,6 +12,8 @@ On [[topological quantum field theory]]:
 
 * {#Torzewska22} [[Fiona Torzewska]], *Topological quantum field theories and homotopy cobordisms* &lbrack;[arXiv:2208.14504](https://arxiv.org/abs/2208.14504)&rbrack;
 
+* [[Fiona Torzewska]], *Topological Quantum Field Theories and Homotopy Cobordisms*, [talk at](CQTS##TorzewskaDec2023) [[CQTS]] (Dec 2023) &lbrack;video:[YT](https://youtu.be/7rtJ61EPL-M)&rbrack;
+
 
 category: people
 
