@@ -5,7 +5,7 @@
 
 On the [[ordinary homology]] of [[configuration spaces of points]] in a [[surface]] as a [[group representation]] of the [[mapping class group]]:
 
-* {#Palmer12} [[Martin Palmer]], *Configuration spaces and homological stability*, Oxford University Research Archive (2012) $[$[pdf](https://mdp.ac/thesis/thesis.pdf), [web](https://mdp.ac/thesis/index.html)$]$
+* {#Palmer12} [[Martin Palmer]], *Configuration spaces and homological stability*, Oxford University Research Archive (2012) &lbrack;[pdf](https://mdp.ac/thesis/thesis.pdf), [web](https://mdp.ac/thesis/index.html), [[Palmer-ConfigurationSpaces.pdf:file]]&rbrack;
 
 * [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]], *Heisenberg homology on surface configurations* &lbrack;[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)&rbrack;
 
