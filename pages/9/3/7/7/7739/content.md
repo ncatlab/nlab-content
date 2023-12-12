@@ -1,6 +1,7 @@
 
-* [webpage](http://www.math.vt.edu/people/quinn/)
+* [personal page](http://www.math.vt.edu/people/quinn/)
 
+* <a href="https://en.wikipedia.org/wiki/Frank_Quinn_(mathematician)">Wikipedia entry</a>
 
 
 ## Selected writings
@@ -29,7 +30,7 @@ On rigorous [[mathematics]] and [[formal proof]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[TQFT]]
 
