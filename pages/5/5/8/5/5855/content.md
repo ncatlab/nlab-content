@@ -59,9 +59,10 @@ The [[restriction of scalars]] functor, def. \ref{RestrictionOfScalars}, is the 
 
 $$
   ( f_! \dashv f^* )
-  : 
+  \;\colon\;
   S Mod 
-   \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\to}}
+   \stackrel{\overset{f_!}{\longleftarrow}}
+   {\underset{f^*}{\longrightarrow}}
   R Mod
   \,.
 $$
