@@ -41,7 +41,7 @@ Given a [[dense linear order]] $(A, \lt_A)$, the [[open interval]] in $A$ betwee
 
 $$\mathrm{OpenInt}(a,b) = \{c \in A \vert a \lt c \lt b\}$$
 
-Given a [[countable dense linear order]] $(B, \lt_B)$ such that $B \subseteq A$, a **$B$-indexed locator** for an [[element]] $c \in A$ is an element of the indexed [[cartesian product]]
+Given a [[countable dense linear order]] $(B, \lt_B)$ such that $B \subseteq A$ and for all elements $a \in A$ and $b \in A$ where $a \lt b$, there exists $c \in B$ such that $a \lt c \lt b$, a **$B$-indexed locator** for an [[element]] $c \in A$ is an element of the indexed [[cartesian product]]
 
 $$l \in \prod_{a \in B} \prod_{b \in B} (\mathrm{OpenInt}(a,c) \uplus \mathrm{OpenInt}(c,b))^{\mathrm{OpenInt}(a,b)}$$
 
