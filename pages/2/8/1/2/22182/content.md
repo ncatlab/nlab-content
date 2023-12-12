@@ -204,6 +204,10 @@ or equivalently that application of the above function is an equivalence for all
 
 $$\mathrm{ext}_{S^1}:\prod_{m:\mathbb{N}} \prod_{n:\mathbb{N}} \mathrm{isEquiv}\left(\mathrm{ap}_{\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})}(m, n)\right)$$
 
+### Kuratowski-finiteness
+
+The circle type is [[Kuratowski-finite]]. (Cf [Frumin et al. 18](#FGGW))
+
 ### H-space structures on the circle type
 
 The type of [[H-spaces]] on the circle type is a [[contractible type]]. 
@@ -269,6 +273,10 @@ Alternative construction of the circle type as a coequalizer:
 For the fact that the type of H-space structures on a circle type is contractible:
 
 * [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
+
+For the fact that the circle type is Kuratowski-finite:
+
+* {#FGGW} [[Dan Frumin]], [[Herman Geuvers]], [[Léon Gondelman]], [[Niels van der Weide]], _Finite Sets in Homotopy Type Theory_, in *CPP 2018: Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2018) 201–214 &lbrack;[doi:10.1145/3167085](https://doi.org/10.1145/3167085), [pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf)&rbrack;
 
 [[!redirects circle type]]
 [[!redirects circle types]]
