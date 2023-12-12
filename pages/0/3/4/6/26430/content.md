@@ -33,3 +33,5 @@
 * {#Vickers22} [[Steve Vickers]], *Generalized point-free spaces, pointwise*, ([arXiv:2206.01113](https://arxiv.org/abs/2206.01113))
 
 * [[Steve Vickers]], *Is geometric logic constructive?* ([slides](https://www.cs.bham.ac.uk/~sjv/GeologConsSlides.pdf))
+
+* [[Ming Ng]], *Adelic Geometry via Topos Theory*, PhD thesis ([pdf](https://puzzledoyster.github.io/publications/FINALSUBMISSION.pdf))
