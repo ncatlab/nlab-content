@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -53,13 +54,15 @@ Original articles on motion groups:
 
 * {#Goldsmith81} Deborah L. Goldsmith, *The theory of motion groups*, Michigan Math. J. 28(1): 3-17 (1981) ([doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full))
 
+Further discussion:
+
 * [[Xiao-Song Lin]], *The motion group of the unlink and its representations*, in: 
 
   *Xiao-Song Lin's Unpublished Papers* ([doi:10.1142/9789812819116_others01](https://doi.org/10.1142/9789812819116_others01)), Part B of:
 
   [[Kevin Lin]], [[Zhenghan Wang]], [[Weiping Zhang]] (eds.) *Topology and Physics: Proceedings of the Nankai International Conference in Memory of Xiao-Song Lin*, Tianjin, China, 27-31 July 2007. World Scientific, 2008 ([doi:10.1142/6907](https://doi.org/10.1142/6907))
 
-See also:
+* Celeste Damiani, *A journey through loop braid groups*, Expositiones Mathematicae **35** 3 (2017) 252-285 &lbrack;[doi:10.1016/j.exmath.2016.12.003](https://doi.org/10.1016/j.exmath.2016.12.003)&rbrack;
 
 * {#TorzewskaMartinsMartin23} [[Fiona Torzewska]], [[João Faria Martins]], [[Paul Purdon Martin]], *Motion groupoids and mapping class groupoids*, Comm. Math. Phys. **402** (2023) 1621-1705 &lbrack;[arXiv:2103.10377](https://arxiv.org/abs/2103.10377), [doi:10.1007/s00220-023-04755-0](https://doi.org/10.1007/s00220-023-04755-0)&rbrack;
 
