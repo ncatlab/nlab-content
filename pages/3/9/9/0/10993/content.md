@@ -467,6 +467,8 @@ $$
 
 * [[extension system]], [[Kleisli triple]], [[monad in computer science]]
 
+* [[polymonad]]
+
 ## References
 
 The concept was introduced, in the context of [[monads in computer science]], in: 
