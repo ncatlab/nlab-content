@@ -1,11 +1,11 @@
 
 ## Disambiguation
 
-An *Archimedean field* could refer to either 
+The term *Archimedean field* may refer to either:
 
-* an [[Archimedean ordered field]]
+* [[Archimedean ordered fields]]
 
-* an [[Archimedean valued field]]
+* [[Archimedean valued fields]]
 
 category: disambiguation
 
