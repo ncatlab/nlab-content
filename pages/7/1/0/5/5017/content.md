@@ -159,7 +159,7 @@ Discussion in a broader context of [[étale stacks]] and [[étale ∞-stacks]]:
 Discussion of [[jet groupoids]] includes
 
 * {#Lorenz09} Arne Lorenz, _Jet Groupoids, Natural Bundles
-and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf)) 2009
+and the Vessiot Equivalence Method_, Thesis ([pdf](https://web.archive.org/web/20120619105223/http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf), [pdf](https://publications.rwth-aachen.de/record/50704)) 2009
 
 The [[geometric realization]]/[[shape modality]] for Haefliger-type groupoids is discussed in
 
