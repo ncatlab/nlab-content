@@ -13,6 +13,8 @@ There are a few different types which can be called *path types* or *path space 
 
 The [[categorical semantics]] of path types in any of the above forms is the [[path space object]]. 
 
+See also [[heterogeneous path type]]. 
+
 category: disambiguation
 
 [[!redirects path type]]
