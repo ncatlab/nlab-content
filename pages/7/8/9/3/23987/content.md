@@ -753,30 +753,34 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Homotopy Manifolds and Tangent Bundles in HoTT**
 
+  on [[homotopy types]] of [[smooth manifolds]] in [[homotopy type theory]]
+
+  video: [YT](https://youtu.be/LSMz8gQNfyk)
+
   cf. upcoming preprint
 
-  on [[homotopy types]] of [[smooth manifolds]] in [[homotopy type theory]]
 
 * {#MoserOct2023} [[Lyne Moser]]: 
 
   **Model Structures for Double Categories**
 
+  on [[model structures on DblCat]]
+
   video: [YT](https://youtu.be/8j1WvFesnQM)
 
   cf. [arXiv:2004.14233](https://arxiv.org/abs/2004.14233), [arXiv:2007.00588](https://arxiv.org/abs/2007.00588)
 
-  on [[model structures on DblCat]]
 
 * {#CloughOct2023} [[Adrian Clough]]: 
 
   **The Homotopy Theory of Differentiable Sheaves**
 
+  on the [[homotopy theory]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]
+
   video: [YT](https://youtu.be/5NrKo-fPk2A)
 
   cf. [arXiv:2309.01757](https://arxiv.org/abs/2309.01757)
 
-  on the [[homotopy theory]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]
-  
 
 * {#HuanOct2023} [[Zhen Huan]]: 
 
@@ -786,15 +790,17 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   on [[2-representations]] and [[2-vector bundles]]
 
+
 * {#SchreiberOct2023} [[Urs Schreiber]]: 
 
   **[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]**
+
+  on [[higher topos theory|higher]] [[topos theory]] in [[mathematical physics]]
 
   video: [YT](https://youtu.be/wNhoAiITJQs)
 
   cf.: [arXiv:2311.11026](https://arxiv.org/abs/2311.11026)
 
-  on [[higher topos theory|higher]] [[topos theory]] in [[mathematical physics]]
 
 
 \linebreak
