@@ -810,7 +810,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 19-21 April 2024
 
-**Homotopy Type Theory and Computing -- Classical and Quantum**
+{#RunningHoTT2024} **Homotopy Type Theory and Computing -- Classical and Quantum**
 
 \begin{imagefromfile}
     "file_name": "RunningHoTT2024Logo.jpg",
