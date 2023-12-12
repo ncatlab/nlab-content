@@ -1680,13 +1680,12 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * {#FelixTanre03} [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
 
-* {#Palmer12} [[Martin Palmer]], *Configuration spaces and homological stability*, Oxford University Research Archive (2012) $[$[pdf](https://mdp.ac/thesis/thesis.pdf), [web](https://mdp.ac/thesis/index.html)$]$
+* {#Palmer12} [[Martin Palmer]], *Configuration spaces and homological stability*, Oxford University Research Archive (2012) &lbrack;[pdf](https://mdp.ac/thesis/thesis.pdf), [web](https://mdp.ac/thesis/index.html), [[Palmer-ConfigurationSpaces.pdf:file]]&rbrack;
 
 
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization homology_, Algebr. Geom. Topol. 17 (2017) 3137-3187 ([arXiv:1405.6696](https://arxiv.org/abs/1405.6696))
 
 * Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
-
 
 * Christoph Schiessl, _Betti numbers of unordered configuration spaces of the torus_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
 
