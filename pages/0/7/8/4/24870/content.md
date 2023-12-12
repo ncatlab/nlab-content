@@ -26,6 +26,12 @@ see also:
 
 * {#BentonBiermanPaiva98} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
 
+Introducing [[polymonads]]:
+
+* Nataliya Guts, [[Michael Hicks]], Nikhil Swamy, Daan Leijen, [[Gavin Bierman]], _Polymonads_, Extended version of POPL'13 submission &lbrack;[pdf](https://www.cs.umd.edu/~mwh/papers/polymonadsTR.pdf), [[GHSLB-Polymonads.pdf:file]]&rbrack;
+
+* [[Michael Hicks]], [[Gavin Bierman]], Nataliya Guts, Daan Leijen, Nikhil Swamy, *Polymonadic Programming*, EPTCS **153** 79-99 (2014) &lbrack;[arXiv:1406.2060](https://arxiv.org/abs/1406.2060), [doi:10.4204/EPTCS.153.7](https://doi.org/10.4204/EPTCS.153.7)&rbrack;
+
 
 category: people
 
