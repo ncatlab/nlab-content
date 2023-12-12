@@ -38,6 +38,11 @@ If for an epimorphism $f$, the composition $g \circ f$ is a strict epimorphism t
 
 * [[Alexander Grothendieck]], Definition 2.2, p. 304 in:  *Technique de descente et théorèmes d'existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats* ([[FGA]]), Séminaire Bourbaki, no. 5 (1960) &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/SB_1958-1960__5__299_0)&rbrack;
 
+See also Definition 2.1 in 
+
+* [[Eduardo J. Dubuc]], _From Yoneda to Topoi morphisms_, [arXiv](https://arxiv.org/abs/2312.04716).
+
+
 Textbook accounts:
 
 * [[Ion Bucur]], [[Aristide Deleanu]], _Introduction to the theory of categories and functors_, Wiley, 1968.  
