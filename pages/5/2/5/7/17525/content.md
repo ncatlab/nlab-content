@@ -16,10 +16,13 @@
 
 ## Idea
 
-The **core** of a [[commutative ring]] $R$ consists of those [[elements]] for which [[homomorphisms]] out of that ring have no choice as to how to act: that is, those $r \in R$ such that for any [[pair]] of [[homomorphisms]] $f,g \colon R \to S$ we must have $f(r) = g(r)$.   By the [[universal property]] of the [[coproduct]] these are precisely the elements on which the coinjections $i_1, i_2 \colon R \to R + R$ are equal.  Since the coproduct of commutative rings is their [[tensor product]] (see [here](category+of+monoids#PushoutOfCommutativeMonoids)), these are precisely the elements such that
+The **core** of a [[commutative ring]] $R$ consists of those [[elements]] for which [[homomorphisms]] out of that ring have no choice as to how to act: that is, those $r \in R$ such that for any [[pair]] of [[homomorphisms]] $f,g \colon R \to S$ we must have $f(r) = g(r)$.   By the [[universal property]] of the [[coproduct]] these are precisely the elements on which the [[coprojections]] $i_1, i_2 \colon R \to R \sqcup R$ are equal.  Since the [[coproduct]] of commutative rings is their [[tensor product]] (see [here](category+of+monoids#PushoutOfCommutativeMonoids)), these are precisely the elements such that
 
 $$    
-  r \otimes 1 \;=\; 1 \otimes r \;\; \in \; R \otimes_{\mathbb{Z}} R
+  r \otimes 1 
+    \;=\; 
+  1 \otimes r 
+  \;\; \in \; R \otimes_{\mathbb{Z}} R
   \,. 
 $$
 
@@ -158,7 +161,7 @@ $$
 
 exhibits $R \otimes R$ as the ring of functions on $Spec(R) \times Spec(R)$. 
 
-Hence the terminal morphism $Spec(R) \to Spec(\mathbb{Z})$ induces the corresponding [[Cech groupoid]] [[internal groupoid|internal]] to $CRing^{op}$
+Hence the terminal morphism $Spec(R) \to Spec(\mathbb{Z})$ induces the corresponding [[Čech groupoid]] [[internal groupoid|internal]] to $CRing^{op}$
 
 $$
   \array{
@@ -175,7 +178,7 @@ $$
   \,.
 $$
 
-This exhibits $R \otimes R$ (the ring of functions on the scheme of morphisms of the Cech groupoid) as a [[commutative Hopf algebroid]] over $R$. 
+This exhibits $R \otimes R$ (the ring of functions on the scheme of morphisms of the [[Čech groupoid]]) as a [[commutative Hopf algebroid]] over $R$. 
 
 Moreover, the arithmetic scheme of [[isomorphism classes]] of this groupoid is the [[coequalizer]] of the [[source]] and [[target]] morphisms
 
@@ -191,9 +194,9 @@ $$
   \,,
 $$
 
-also called the _[[coimage]]_ of $Spec(R) \to Spec(\mathbb{Z})$. Since [[limits]] in the [[opposite category]] $CRing^{op}$ are equivaletly colimits in $CRing$, this means that the ring of functions on the scheme of isomorphism classes of the Cech groupoid is precisely the core $c R$ or $R$ according to def. \ref{CoreOfARing}.
+also called the _[[coimage]]_ of $Spec(R) \to Spec(\mathbb{Z})$. Since [[limits]] in the [[opposite category]] $CRing^{op}$ are equivaletly colimits in $CRing$, this means that the ring of functions on the scheme of [[isomorphism classes]] of the [[Čech groupoid]] is precisely the core $c R$ or $R$ according to def. \ref{CoreOfARing}.
 
-This is morally the reason why for $E$ a [[homotopy commutative ring spectrum]] then the core $c \pi_0(E)$ of its underlying ordinary ring in degree 0 controls what the $E$-[[Adams spectral sequence]] converges to ([Bousfield 79, theorems 6.5, 6.6](#Bousfield79), see [here](Adams+spectral+sequence#ConvergenceStatements)), because the $E$-Adams spectral sequence computes [[E-nilpotent completion]] which is essentially the analog in [[higher algebra]] of the above story: namely the coimage ([(infinity,1)-image](infinity-image#ViaColimitOfCechNerve)) of $Spec(E) \to $ [[Spec(S)]] (see [here](Adams+spectral+sequence#DefinitionInHigherAlgebra)). 
+This is morally the reason why for $E$ a [[homotopy commutative ring spectrum]] the core $c \pi_0(E)$ of its underlying ordinary ring in degree 0 controls what the $E$-[[Adams spectral sequence]] converges to ([Bousfield 79, theorems 6.5, 6.6](#Bousfield79), see [here](Adams+spectral+sequence#ConvergenceStatements)), because the $E$-Adams spectral sequence computes [[E-nilpotent completion]] which is essentially the analog in [[higher algebra]] of the above story: namely the coimage ([(infinity,1)-image](infinity-image#ViaColimitOfCechNerve)) of $Spec(E) \to $ [[Spec(S)]] (see [here](Adams+spectral+sequence#DefinitionInHigherAlgebra)). 
 
 \end{remark}
 
