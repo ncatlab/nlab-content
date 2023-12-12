@@ -26,9 +26,9 @@ What is called the "geometrization of quantum mechanics" by [Kibble (1979)](#Kib
 
 1. the [[curves]] in $P \mathscr{H}$ which correspond to solutions of the [[Schrödinger equation]] are [[Hamiltonian flows]] with respect to this symplectic structure.
 
-This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight that [[quantization]] is a [[deformation]] of this symplectic structure (whence: [[deformation quantization]]).
+This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight [[quantization]] as a [[deformation]] of this symplectic structure (whence: "[[deformation quantization]]").
 
-Now, the standard perspective is certainly not wrong, but various authors have inevitably suggested that the "geometrical formulation"  (more accurate would be: "symplectic formulation"!) of quantum mechanics may point to some deeper truth, and if only to show some kind of conceptual unity where one is used to amplifying the dichotomy.
+Now, the standard perspective is certainly not wrong, but various authors have inevitably suggested that the "geometrical formulation"  (more descriptive would be: "symplectic formulation") of quantum mechanics may point to some deeper truth, and if only to show some kind of conceptual unity where one is used to amplifying the dichotomy.
 
 
 ## References
@@ -46,7 +46,7 @@ The idea was picked up in:
 
 * {#AshtekarSchilling99} Abhay Ashtekar, Troy A. Schilling, *Geometrical Formulation of Quantum Mechanics*, in: *On Einstein’s Path* Springer (1999) &lbrack;[arXiv:gr-qc/9706069](https://arxiv.org/abs/gr-qc/9706069), [doi:10.1007/978-1-4612-1422-9_3](https://doi.org/10.1007/978-1-4612-1422-9_3)&rbrack;
 
-Further discussion in:
+Further discussion:
 
 * {#BrodyHughston01} [[Dorje C. Brody]], [[Lane P. Hughston]], *Geometric Quantum Mechanics*, J. Geom. Phys. **38** (2001) 19-53 &lbrack;[arXiv:quant-ph/9906086](https://arxiv.org/abs/quant-ph/9906086), <a href="https://doi.org/10.1016/S0393-0440(00)00052-8">doi:10.1016/S0393-0440(00)00052-8</a>&rbrack;
 
