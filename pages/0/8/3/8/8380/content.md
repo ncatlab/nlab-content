@@ -889,6 +889,10 @@ In this vein:
 
 * [[extension system]]
 
+  * [[relative monad]]
+
+  * [[polynomand]]
+
 * [[relation between type theory and category theory]], [[categorical semantics]], [[categorical logic]]
 
 * Examples of (co)monads in ([[homotopy type theory|homotopy]]) [[type theory]] involve in particular _[[modal operators]]_ as they  appear in 
