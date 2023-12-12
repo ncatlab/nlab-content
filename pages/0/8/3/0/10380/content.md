@@ -20,6 +20,8 @@ On [[point-free topology]]:
 
 * [[Steven Vickers]], *Generalized point-free spaces, pointwise* &lbrack;[arXiv:2206.01113](https://arxiv.org/abs/2206.01113)&rbrack;
 
+* [[Ming Ng]], [[Steven Vickers]], *A Point-Free Look at Ostrowski's Theorem and Absolute Values* ([arXiv:2308.14758](https://arxiv.org/abs/2308.14758))
+
 * [[Ming Ng]], [[Steve Vickers]], *Point-free Construction of Real Exponentiation*, Logical Methods in Computer Science, Volume 18, Issue 3 (August 2, 2022), ([doi:10.46298/lmcs-18(3:15)2022](https://doi.org/10.46298/lmcs-18%283%3A15%292022), [arXiv:2104.00162](https://arxiv.org/abs/2104.00162))
 
 * [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms*, ([arXiv:2312.05228](https://arxiv.org/abs/2312.05228))
