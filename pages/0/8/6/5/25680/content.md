@@ -34,6 +34,7 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 * [[directed univalence]]
 * [[Segal type]], [[Rezk type]]
 * [[covariant type family]]
+* [[dependent hom type]]
 
 ## References
 
