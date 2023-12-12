@@ -27,7 +27,7 @@ Shapes are formed in the usual set-builder notation in [[set theory]]: given a c
 Formation rules for dependent extension types:
 $$\frac{
 \begin{array}{l}
-\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
 \Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A
 \end{array}
 }{\Xi \vert \Phi \vert \Gamma \vdash \langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \; \mathrm{type}}$$
@@ -35,7 +35,7 @@ $$\frac{
 Introduction rules for dependent extension types:
 $$\frac{
 \begin{array}{l}
-\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
 \Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A \\
 \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b:A \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b \equiv a \\
 \end{array}
@@ -45,14 +45,14 @@ Elimination rules for dependent extension types
 
 $$\frac{
 \begin{array}{l}
-\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
 \Xi \vert \Phi \vert \Gamma \vdash f:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \psi(s)
 \end{array}
 }{\Xi \vert \Phi \vert \Gamma \vdash f(s):A}$$
 
 $$\frac{
 \begin{array}{l}
-\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
 \Xi \vert \Phi \vert \Gamma \vdash f:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \phi(s)
 \end{array}
 }{\Xi \vert \Phi \vert \Gamma \vdash f(s) \equiv a(s)}$$
@@ -61,7 +61,7 @@ Computation rules for dependent extension types
 
 $$\frac{
 \begin{array}{l}
-\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
 \Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A \\
 \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b:A \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b \equiv a \\
 \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \phi(s)
@@ -72,7 +72,7 @@ Uniqueness rules for dependent extension types
 
 $$\frac{
 \begin{array}{l}
-\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
 \Xi \vert \Phi \vert \Gamma \vdash f:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \phi(s)
 \end{array}
 }{\Xi \vert \Phi \vert \Gamma \vdash f \equiv \lambda t^{I \vert \psi}.f(t)}$$
