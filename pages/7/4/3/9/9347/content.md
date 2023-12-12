@@ -1,9 +1,13 @@
 
 This entry provides links for the book
 
-* [[Andreas Kriegl]], [[Peter Michor]]
+* [[Andreas Kriegl]], [[Peter Michor]]:
 
-  _The Convenient Setting of Global Analysis_
+  \linebreak
+  
+  **The Convenient Setting of Global Analysis**
+
+  \linebreak
 
   Mathematical Surveys and Monographs
 
@@ -11,7 +15,11 @@ This entry provides links for the book
 
   AMS (1997)
 
-  ([pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf))
+  ISBN:978-0-8218-0780-4
+
+  [ams:surv-53](https://bookstore.ams.org/surv-53)
+
+  [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)
 
 on [[differential geometry]] in terms of [[Frölicher spaces]] and [[diffeological spaces]], in particular also on [[infinite-dimensional manifolds]].
 
