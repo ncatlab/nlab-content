@@ -45,11 +45,15 @@ Any [[complete field|complete]] [[archimedean valued field]] is, as an [[associa
 
 ## References
 
+For Ostrowski's theorem in [[point-free topology]], see
+
+* [[Ming Ng]], [[Steven Vickers]], *A Point-Free Look at Ostrowski's Theorem and Absolute Values* ([arXiv:2308.14758](https://arxiv.org/abs/2308.14758))
+
 In the course notes
 
 * [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
-Ostrowki's theorem is discussed around p. 23.
+Ostrowski's theorem is discussed around p. 23.
 
 
 [[!redirects Ostrowski theorem]]
