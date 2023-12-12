@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -310,10 +309,8 @@ Combined with the [[stabilization]] of the [[scanning map]] [[homotopy equivalen
 
 \[
   \label{StableSplittingOfMappingSpacesOutOfSphere}
-  Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
-  =
-  Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y))
-  =
+  \Sigma^\infty
+  \,
   \Omega^d \Sigma^d (Y/\partial Y)
   \underoverset{\Sigma^\infty scan}{\simeq}{\longrightarrow}
   \Sigma^\infty Conf(\mathbb{R}^d, Y)
@@ -328,14 +325,20 @@ between the latter direct sum and the [[suspension spectrum]] of the [[mapping s
 
 ([Snaith 74, theorem 1.1](#Snaith74), [Bödigheimer 87, Example 2](#Boedigheimer87))
 
-In fact by [Bödigheimer 87, Example 5](#Boedigheimer87) this equivalence still holds with $Y$ treated on the same footing as $\mathbb{R}^d$, hence with $Conf_n(\mathbb{R}^d, Y)$ on the right replaced by $Conf_n(\mathbb{R}^d \times Y)$ in the well-adjusted notation of Def. \ref{ConfigurationSpacesOfnPoints}:
+In fact, by [Bödigheimer 87, Example 5](#Boedigheimer87) this equivalence still holds with $Y$ treated on the same footing as $\mathbb{R}^d$, hence with $Conf_n(\mathbb{R}^d, Y)$ on the right replaced by $Conf_n(\mathbb{R}^d \times Y)$ in the well-adjusted notation of Def. \ref{ConfigurationSpacesOfnPoints}:
 
 $$
-  Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
+  \Sigma^\infty
+  \,
+  Maps_{cp}\big(\mathbb{R}^d, \Sigma^d (Y / \partial Y)\big)
   =
-  Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y))
+  \Sigma^\infty
+  \,
+  Maps^{\ast/}\big( S^d, \Sigma^d (Y / \partial Y)\big)
   \overset{\simeq}{\longrightarrow}
-  \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d \times Y)
+  \underset{n \in \mathbb{N}}{\oplus} 
+  \Sigma^\infty Conf_n(\mathbb{R}^d \times Y)
+  \,.
 $$
 
 ### In terms of Goodwillie-Taylor towers
@@ -538,7 +541,7 @@ An alternative proof is due to
 
 Review and generalization is due to 
 
-* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
+* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic Topology, Springer (1987) 174-187 &lbrack;[pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]]&rbrack;
 
 Interpretation in terms of the [[Goodwillie-Taylor tower]] of mapping spaces is due to
 
