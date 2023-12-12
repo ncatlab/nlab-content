@@ -218,11 +218,12 @@ Some nice historical notes are in
 
 * Wilfried Schmid, _Poincare and Lie groups_, Bull. Amer. Math. Soc. 6:2, 1982 [pdf](http://www.ams.org/journals/bull/1982-06-02/S0273-0979-1982-14972-2/S0273-0979-1982-14972-2.pdf)
 
-For the real exponential function in [[point-free topology]], see:
+Discussion in [[point-free topology]]:
 
-* [[Ming Ng]], [[Steve Vickers]], *Point-free Construction of Real Exponentiation*, Logical Methods in Computer Science, Volume 18, Issue 3 (August 2, 2022), ([doi:10.46298/lmcs-18(3:15)2022](https://doi.org/10.46298/lmcs-18%283%3A15%292022), [arXiv:2104.00162](https://arxiv.org/abs/2104.00162))
+* Ming Ng, [[Steve Vickers]], *Point-free Construction of Real Exponentiation*, Logical Methods in Computer Science **18** 3 (2022) &lbrack;[doi:10.46298/lmcs-18(3:15)2022](https://doi.org/10.46298/lmcs-18%283%3A15%292022), [arXiv:2104.00162](https://arxiv.org/abs/2104.00162)&rbrack;
 
-* [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms*, ([arXiv:2312.05228](https://arxiv.org/abs/2312.05228))
+* [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms* &lbrack;[arXiv:2312.05228](https://arxiv.org/abs/2312.05228)&rbrack;
+
 
 [[!redirects exponential map]]
 [[!redirects exponential maps]]
