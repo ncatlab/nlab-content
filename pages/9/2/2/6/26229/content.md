@@ -7,7 +7,7 @@ This page compiles pointers to material contained in the (upcoming)
 
   \linebreak
 
-  Elsevier (2024)
+  Elsevier (expected Oct 2024)
 
   (cf. 1st ed. leaflet: [pdf](https://www.math.ucdavis.edu/~temple/!!!PubsForWeb/cv70.pdf))
 
