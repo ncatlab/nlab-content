@@ -93,20 +93,8 @@ The definition of the Archimedean property for an ordered field is given in sect
 
 * Auke B. Booij, *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
-[[!redirects archimedean field]]
-[[!redirects archimedean fields]]
-[[!redirects non-archimedean field]]
-[[!redirects non-archimedean fields]]
-[[!redirects nonarchimedean field]]
-[[!redirects nonarchimedean fields]]
-
 [[!redirects archimedean ordered field]]
 [[!redirects archimedean ordered fields]]
-
-[[!redirects Archimedean field]]
-[[!redirects Archimedean fields]]
-[[!redirects non-Archimedean field]]
-[[!redirects non-Archimedean fields]]
 
 [[!redirects Archimedean ordered field]]
 [[!redirects Archimedean ordered fields]]
