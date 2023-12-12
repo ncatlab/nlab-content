@@ -9,7 +9,7 @@ The notion of _quantaloid_ is the [[horizontal categorification]] of that of [[q
 
 ## Definition
 
-A **quantaloid** is a category [[enriched category|enriched in]] the [[closed monoidal category|closed]] [[symmetric monoidal category]] of [[suplattice]]s. Equivalently, it may be defined as a [[locally posetal 2-category]] in which each hom-poset is cocomplete, and which admits right adjoints to composing with an arrow on either side (making it a (bi)closed 2-category). 
+A **quantaloid** is a category [[enriched category|enriched in]] the [[closed monoidal category|closed]] [[symmetric monoidal category]] of [[suplattices]]. Equivalently, it may be defined as a [[locally posetal 2-category]] in which each [[hom object|hom-]]poset is cocomplete, and which admits right adjoints to composing with an arrow on either side (making it a (bi)closed 2-category). 
 
 Taking the view that a quantaloid $Q$ is a closed 2-category, one can study categories enriched in $Q$. This can become particularly interesting if $Q$ is a **$*$-quantaloid**, i.e., comes equipped with an involution $*: Q \to Q$ which is the identity on 0-cells, reverses the direction of 1-cells, and preserves the direction of 2-cells. In that case one can study $*$-enriched categories over $Q$, i.e., $Q$-categories 
 
