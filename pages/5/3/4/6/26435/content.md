@@ -1,4 +1,20 @@
-${^d\bigwedge}$ can be intuitively understood as the space where the canonical vertex differential coalgebra exists over some division algebra.
 
-this, of course is the generalization of quadratic operad.
-the way d acts on 5 can be numeric or '5' can be a variable holding a polynomial... this, is one view as to what the true canonical [[quadratic operad]] is. 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Related pages
+
+* [[operad]]
+
+* [[Koszul duality]]
+
+## References
+
+* Wenxi Yao, *Koszul Duality for Quadratic Operads* &lbrack;[pdf](http://math.uchicago.edu/~may/REU2020/REUPapers/Yao,Claudia.pdf)&rbrack;
+
+[[!redirects quadratic operads]]
