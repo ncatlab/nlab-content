@@ -167,17 +167,21 @@ yields the claim.
 
 ## References
 
-For the logarithm in [[point-free topology]], see:
-
-* [[Ming Ng]], [[Steve Vickers]], *Point-free Construction of Real Exponentiation*, Logical Methods in Computer Science, Volume 18, Issue 3 (August 2, 2022), ([doi:10.46298/lmcs-18(3:15)2022](https://doi.org/10.46298/lmcs-18%283%3A15%292022), [arXiv:2104.00162](https://arxiv.org/abs/2104.00162))
-
-* [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms*, ([arXiv:2312.05228](https://arxiv.org/abs/2312.05228))
-
 Historical textbooks:
 
-* [[Nicholas Mercator]], *Logarithmotechnia: Sive Methodus constuendi Logrithmos*, London 1667  ([GoogleBooks](https://books.google.de/books?hl=en&lr=&id=HFl1JqyXpSoC&oi=fnd&pg=PP6&dq=Logarithmotechnia.&ots=2xDsxWNWwO&sig=PfSwMZjoMnW7EAtH79uxX3ATsqc&redir_esc=y#v=onepage&q=Logarithmotechnia.&f=false))
+* [[Nicholas Mercator]], *Logarithmotechnia: Sive Methodus constuendi Logrithmos*, London (1667) &lbrack;[GoogleBooks](https://books.google.de/books?hl=en&lr=&id=HFl1JqyXpSoC&oi=fnd&pg=PP6&dq=Logarithmotechnia.&ots=2xDsxWNWwO&sig=PfSwMZjoMnW7EAtH79uxX3ATsqc&redir_esc=y#v=onepage&q=Logarithmotechnia.&f=false)&rbrack;
 
-(...)
+See also:
+
+* Wikipedia, *[Logarithm](https://en.wikipedia.org/wiki/Logarithm)*
+
+Discussion in [[point-free topology]]:
+
+* Ming Ng, [[Steve Vickers]], *Point-free Construction of Real Exponentiation*, Logical Methods in Computer Science, **18** 3 (2022) &lbrack;[doi:10.46298/lmcs-18(3:15)2022](https://doi.org/10.46298/lmcs-18%283%3A15%292022), [arXiv:2104.00162](https://arxiv.org/abs/2104.00162)&rbrack;
+
+* [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms* &lbrack;[arXiv:2312.05228](https://arxiv.org/abs/2312.05228)&rbrack;
+
+
 
 
 [[!redirects logarithm]]
