@@ -181,6 +181,14 @@ $$\mathrm{trunc}_0^{S^1}:\mathrm{isSet}(S^1)$$
 $$\mathrm{trunc}^{S^1}:\mathrm{isProp}(S^1) \qquad \mathrm{contr}_{S^1}:\mathrm{isContr}(S^1)$$
 * That there is an [[identification]] $K:\mathrm{refl}_{S^1}(\mathrm{base}) =_{S^1} \mathrm{loop}$
 
+### Kuratowski-finite implies finite
+
+In [[dependent type theory]], in general there are [[Kuratowski-finite]] types which are not [[h-sets]], such as the [[circle type]]. However, every [[finite type]] is an [[h-set]], and hence why they are usually called [[finite sets]]. 
+
+A naive translation into dependent type theory of the traditional set-theoretic theorem in classical mathematics that "Kuratowski-finite implies finite" results in the statement that every Kuratowski-finite type is finite. This implies that the circle type is a finite type, which implies that the circle type is an h-set, which implies that every type is an h-set. Thus, that every Kuratowski-finite type is finite is an axiom of set truncaiton. 
+
+The statement "Kuratowski-finite implies finite" in classical mathematics is really a statement about h-sets, similar to how the [[axiom of choice]] is really a statement about h-sets. This is because it is still true in [[constructive mathematics]] that every Kuratowski-finite type with [[decidable equality]] is a [[finite type]], and in dependent type theory, every type with decidable equality is an [[h-set]]. 
+
 ## See also
 
 * [[h-set]]
