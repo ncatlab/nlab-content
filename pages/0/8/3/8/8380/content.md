@@ -891,7 +891,7 @@ In this vein:
 
   * [[relative monad]]
 
-  * [[polynomand]]
+  * [[polymonad]]
 
 * [[relation between type theory and category theory]], [[categorical semantics]], [[categorical logic]]
 
