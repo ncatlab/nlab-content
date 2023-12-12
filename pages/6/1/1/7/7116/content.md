@@ -148,13 +148,12 @@ The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete
 
 ## References
 
-Section 1.5, 1.6 of
 
-* {#BoschGuntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+* {#BoschGuntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], §1.5, §1.6 _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
 
-For absolute values in [[point-free topology]], see
+Discussion in [[point-free topology]]:
 
-* [[Ming Ng]], [[Steven Vickers]], *A Point-Free Look at Ostrowski's Theorem and Absolute Values* ([arXiv:2308.14758](https://arxiv.org/abs/2308.14758))
+* [[Ming Ng]], [[Steven Vickers]], *A Point-Free Look at Ostrowski's Theorem and Absolute Values* &lbrack;[arXiv:2308.14758](https://arxiv.org/abs/2308.14758)&rbrack;
 
 [[!redirects absolute value]]
 [[!redirects absolute values]]
