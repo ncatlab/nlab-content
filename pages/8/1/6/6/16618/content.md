@@ -69,7 +69,10 @@ When $C$ is a [[cartesian closed category]], to make $T$ a [[strong monad]] we s
 ## Related concepts
 
 * [[monad in computer science]]
+
 * [[relative monad]]
+
+* [[polymonad]]
 
 ## References
 
