@@ -21,7 +21,11 @@
 
 ## Definition
 
-A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid object]] in the closed symmetric monoidal category of suplattices where the morphisms are the set maps that preserve arbitrary joins. In most recent works, quantale is defined more generally, as a [[semigroup]] in the monoidal category of suplattices. In more detail, a quantale is a poset having all [[joins]] and an associative, [[tensor product]] $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]); this tensor product is unital if we understand quantale in a narrower sense as a monoid. 
+A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid object]] in the [[closed symmetric monoidal category]] of suplattices where the [[morphisms]] are the [[maps]] of [[sets]] that [[preserved colimit|preserve]] arbitrary [[joins]]. 
+
+In most recent works, quantales are defined more generally as [[semigroup|semi]]-[[group objects]] [[internalization|in]] the [[monoidal category]] of suplattices. 
+
+In more detail, a quantale is a [[poset]] having all [[joins]] and an associative, [[tensor product]] $\otimes$ which [[distributive category|distributes]] over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]); this tensor product is unital if we understand quantales in a narrower sense as monoids. 
 
 The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$.  Unitality is 
 skipped by some authors; in that case we can talk about subclass of unital quantales. 
