@@ -36,7 +36,7 @@ Given [[fibred category|fibrations]] $p$ and $p'$ and [[fibred functors]] $F,G:p
 	\arrow[shorten <=2pt, shorten >=2pt, Rightarrow, from=1, to=2]
 	\arrow[shorten <=2pt, shorten >=2pt, Rightarrow, from=0, to=3]
 \end{tikzcd}
-This means $\alpha_0:F_0 \Rightarrow G_0$, $\alpha_1:F_1 \Rightarrow G_1$ and $p'(\alpha_1) = \alpha_0$.
+This means $\alpha_0:F_0 \Rightarrow G_0$, $\alpha_1:F_1 \Rightarrow G_1$ and $p'(\alpha_1) = \alpha_0 p$.
 
 When looking at fibrations over a fixed base $\mathcal{B}$, then $F_0=G_0=1_{\mathcal{B}}$, and also $\alpha_0$ is the identity natural transformation.
 In that case, $\alpha$ reduces to a natural transformation between the functor $F_1$ and $G_1$ whose components are vertical, i.e. stay in the fibers.
