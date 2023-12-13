@@ -188,11 +188,17 @@ $$x \wedge \bigvee_i y_i = x \leq \bigvee_i x \wedge y_i$$
 But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would imply $y_i \lt x$ for all $i$, whence $\bigvee_i y_i \leq x$, contradiction. 
 =-- 
 
-## See also
+## Related concepts
 
 * [[Heyting algebra]]
 * [[Grothendieck topos]]
 * [[coframe]]
+
+## References
+
+Frames in [[univalent foundations]]:
+
+* Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 [[!redirects frames]]
 [[!redirects morphism of frames]]
