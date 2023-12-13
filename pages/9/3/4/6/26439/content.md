@@ -17,7 +17,7 @@
 
 The *$\pi$-calculus* is a [[computational]] model for concurrent processes that communicate messages through named channels. It subsumes [[λ-calculus]].
 
-In the monadic $\pi$-calculus, outputs and inputs only send and receive single names, while the polyadic $\pi$-calculus allows outputs of tuples of names and corresponding inputs.
+In the monadic (here meaning [[unary]]) $\pi$-calculus, outputs and inputs only send and receive single names, while the polyadic (here meaning [[n-ary]]) $\pi$-calculus allows outputs of tuples of names and corresponding inputs.
 
 ## Syntax
 
