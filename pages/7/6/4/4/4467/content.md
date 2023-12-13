@@ -29,6 +29,8 @@ The basic definitions can be motivated by an attempt to study locales entirely t
 
 ## Definitions
 
+### Traditional definition
+
 A __formal topology__ or __formal space__ is a [[set]] $S$ together with
 
 *  an [[element]] $\top$ of $S$,
@@ -57,6 +59,19 @@ Some immediate points to notice:
 *  We can prove that $(S,\cap,\top)$ is a bounded [[semilattice]]; if (as the notation suggests) we interpret this as a [[meet]]-semilattice, then $a \leq b$ if and only if $a \lhd \{b\}$.  Conversely, we could require that $(S,\cap,\top)$ be a semilattice originally, then let (1) say that $a \leq b$ whenever $a \lhd \{b\}$.
 *  We can prove that $\Diamond a$ holds iff every cover of $a$ is inhabited and that $\Diamond a$ fails iff $a \lhd \empty$.  Accordingly, this predicate is uniquely definable (in two equivalent ways, one impredicative and one nonconstructive) in a classical treatment; only in a treatment that is both predicative and constructive do we need to include it in the axioms.  See [[positivity predicate]].
 
+### Definition in terms of interaction systems
+
+In [Tosun 20]{#Tosun20} the author defines a formal topology as an interaction system which satisfies monotonicity and simulaiton. More specifically, an interaction system is a [[set]] $A$ with a [[family of sets]] $(B_x)_{x \in A}$, a family of sets
+$$(C_y)_{y \in \bigcup_{x \in A} B_x}$$
+where $\bigcup_{x \in A} B_x$ is the union of the family of sets $(B_x)_{x \in A}$, and a family of functions 
+
+$$d:\prod_{y \in \bigcup_{x \in A} B_x} A^{C_y}$$
+
+where $B^A$ is the [[function set]] from $A$ to $B$ and the indexed [[cartesian product]] is defined in [[set theory]] as
+
+$$\prod_{a \in A} B_a = \{f \in \left(\bigcup_{a\in A} B_a\right)^A \vert \forall a, f(a) \in B_a \}$$
+
+for [[family of sets]] $(B_a)_{a \in A}$.
 
 ## Examples
 
@@ -119,7 +134,7 @@ $$\prod_{a:S} \prod_{A:S \to \Omega} (\Diamond a \to a \lhd A) \to (a \lhd A)$$
 
 * {#Palmgren05} [[Erik Palmgren]], _From Intuitionistic to Point-Free Topology: On the Foundation of Homotopy Theory_, Logicism, Intuitionism, and Formalism Volume 341 of the series Synthese Library pp 237-253, 2005 ([pdf](http://www2.math.uu.se/~palmgren/homotopy_rev2.pdf))
 
-* Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
+* {#Tosun20} Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 [[!redirects formal topology]]
 [[!redirects formal topologies]]
