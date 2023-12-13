@@ -381,6 +381,8 @@ Survey:
 * Florian Domingo, Michel Rausch de Traubenberg
 *Supergravity: Application in Particle Physics*, Handbook of Quantum Gravity (2023) &lbrack;[arXiv:2209.12541](https://arxiv.org/abs/2209.12541)&rbrack;
 
+* [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754)&rbrack;
+
 
 Lecture notes:
 
