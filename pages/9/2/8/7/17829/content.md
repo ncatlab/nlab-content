@@ -1,6 +1,6 @@
 
 
-* [memorial page](http://homepages.spa.umn.edu/~duplij/volkov/)
+* [Memorial Page](https://ivv5hpp.uni-muenster.de/u/douplii/volkov/)
 
 * [obituary](http://www.kipt.kharkov.ua/conferences/itp/DV2000/dvbiogr.html)
 
