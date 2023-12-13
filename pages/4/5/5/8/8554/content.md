@@ -63,9 +63,13 @@ Moreover, this model structure is combinatorial.
 
 ## Related concepts
 
+* [[model structure on internal categories]]
+
 * [[model structure on operads]]
 
 ## References
+
+* [[Julia E. Bergner]], _A model category structure on the category of simplicial categories_, Transactions of the American Mathematical Society 359:5 (2006), 2043-2058.  [arXiv](https://arxiv.org/abs/math/0406507), [doi](http://dx.doi.org/10.1090/s0002-9947-06-03987-0).
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] section A.3.2
 
