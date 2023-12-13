@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _exact 2-catory_ is the anlog in [[2-category theory]] of the notion of _[[exact category]]_ in [[category theory]].
+The notion of _exact 2-catory_ is the analog in [[2-category theory]] of the notion of _[[exact category]]_ in [[category theory]].
 
 ## Definition
 
