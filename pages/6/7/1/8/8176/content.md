@@ -630,7 +630,7 @@ In [[equivariant cohomology]], for [[Bredon cohomology]]:
 
 and for genuine equivariant cohomology, i.e. for [[RO(G)-grading|RO(G)]]-graded [cohomology with coefficients in a Mackey functor](Mackey+functor#Cohomology):
 
-* {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
+* {#Kronholm10} [[William C. Kronholm]], *The $RO(G)$-graded Serre spectral sequence*, Homology Homotopy Appl. **12** 1 (2010) 75-92. &lbrack;[arXiv:0908.3827](https://arxiv.org/abs/0908.3827), [doi:10.4310/HHA.2010.v12.n1.a7](https://doi.org/10.4310/HHA.2010.v12.n1.a7),  [euclid:hha/1296223823](https://projecteuclid.org/euclid.hha/1296223823)&rbrack;
 
 See also
 
@@ -642,3 +642,4 @@ See also
 
 [[!redirects Leray-Serre spectral sequence]]
 [[!redirects Leray-Serre spectral sequences]]
+
