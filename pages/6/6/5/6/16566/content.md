@@ -44,27 +44,31 @@ Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretopos
 
 * {#Cockett97} [[Robin Cockett]], _Finite objects in a locos_, JPAA **116** (1997) pp.169-183.
 
-* {#vanDijkOldenziel20} Joost van Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
+* {#vanDijkOldenziel20} Joost van Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_, arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
 
-* {#Joyal05} [[André Joyal]], _The G&#246;del incompleteness theorem, a categorical approach_ , (abstract) Amiens 2005, Cah. Top. G&#233;om. Diff. Cat. **46** no.3 (2005) p.202. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_3_163_0))
+* {#Joyal05} [[André Joyal]], _The G&#246;del incompleteness theorem, a categorical approach_, (abstract) Amiens 2005, Cah. Top. G&#233;om. Diff. Cat. **46** no.3 (2005) p.202. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_3_163_0))
 
-* {#Maietti05a} [[Maria Maietti]], _Reflection Into Models of Finite Decidable FP-sketches in an Arithmetic Universe_ , ENTCS **122** (2005) pp.105-126.
+* {#Maietti05a} [[Maria Maietti]], _Reflection Into Models of Finite Decidable FP-sketches in an Arithmetic Universe_, Electronic Notes in Theoretical Computer Science
+**122** (2005) 105-126 &lbrack;[doi:10.1016/j.entcs.2004.06.054](https://doi.org/10.1016/j.entcs.2004.06.054)&rbrack;
 
-* {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science **15**  no.6 (2005) pp.1089-1149. ([draft](https://www.mittag-leffler.se/preprints/files/IML-0001-44.pdf))
+* {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science **15**  6 (2005) 1089-1149 &lbrack;[doi:10.1017/S0960129505004962](https://doi.org/10.1017/S0960129505004962), [pdf](https://www.math.unipd.it/~maietti/papers/tumscs.pdf)&rbrack;
 
-* {#Maietti10} [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_ , TAC **24** no.3 (2010) pp.39-83. ([abstract](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
+* {#Maietti10} [[Maria E. Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_, TAC **24** 3 (2010) 39-83 &lbrack;[tac:24-03](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/24/3/24-03.pdf)&rbrack;
 
-* {#MaettiVickers12} [[Maria Maietti|M. E. Maietti]], [[Steve Vickers|S. Vickers]], _An induction principle for consequence in arithmetic universes_ , JPAA **216** (2012) pp.2049-2067. ([draft](http://www.math.unipd.it/~maietti/papers/aumv12.pdf))
+* {#MaettiVickers12} [[Maria E. Maietti]], [[Steve Vickers]], _An induction principle for consequence in arithmetic universes_, JPAA **216** (2012) pp.2049-2067. &lbrack;[doi:10.1016/j.jpaa.2012.02.040](https://doi.org/10.1016/j.jpaa.2012.02.040), [pdf](http://www.math.unipd.it/~maietti/papers/aumv12.pdf)&rbrack;
 
-* [[Paul Taylor]], _Inside Every Model of Abstract Stone Duality Lies an Arithmetic Universe_ , ENTCS **122** (2005) pp.247&#8211;296. 
+* [[Paul Taylor]], _Inside Every Model of Abstract Stone Duality Lies an Arithmetic Universe_, Electronic Notes in Theoretical Computer Science **122** (2005) 247-296 &lbrack;[doi:10.1016/j.entcs.2004.06.059](https://doi.org/10.1016/j.entcs.2004.06.059)&rbrack;
 
-* {#Vickers16} [[Steve Vickers]], _Sketches for arithmetic universes_ , arXiv:1608.0159 (2016). ([link](http://arxiv.org/abs/1608.01559))
+* {#Vickers16} [[Steve Vickers]], _Sketches for arithmetic universes_, arXiv:1608.0159 (2016) &lbrack[arXiv:1608.01559](http://arxiv.org/abs/1608.01559)&rbrack;
 
-* {#Vickers17} [[Steve Vickers]], _Arithmetic universes and classifying toposes_ , arXiv:1701.04611 (2017). ([link](https://arxiv.org/abs/1701.04611))
+* {#Vickers17} [[Steve Vickers]], _Arithmetic universes and classifying toposes_ &lbrack;[arXiv:1701.04611](https://arxiv.org/abs/1701.04611)&rbrack;
 
 [[!redirects arithmetic pretoposes]]
+[[!redirects arithmetic pretopoi]]
+
 [[!redirects list-arithmetic pretopos]]
 [[!redirects list-arithmetic pretoposes]]
+[[!redirects list-arithmetic pretopoi]]
 
 [[!redirects arithmetic universe]]
 [[!redirects arithmetic universes]]
