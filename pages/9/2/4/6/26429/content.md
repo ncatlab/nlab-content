@@ -25,7 +25,7 @@
 
 ## Idea
 
-The [[small presheaf]]-construction exhibits the [[free cocompletion]] of a [[locally small category]] up to [[equivalence of categories]]. In other words, it exhibits a [[universal property]] that is [[bicategorical]] in nature. However, it is also possible to give a description of the free *strict* cocompletion, i.e. one satisfying a [[strict 2-category|strict 2-categorical]] universal property.
+The [[small presheaf]]-construction exhibits the [[free cocompletion]] of a [[locally small category]] (only) up to [[equivalence of categories]]. In other words, it exhibits a [[universal property]] that is [[bicategorical]] in nature. However, it is also possible to give a description of the free *strict* cocompletion, i.e. one satisfying a [[strict 2-category|strict 2-categorical]] universal property, which characterises the free cocompletion up to an [[isomorphism of categories]].
 
 Abstractly, this follows by the results of [Kelly and Lack (2000)](#KellyLack2000). However, there is also an explicit description, due to [Ehresmann (1981)](#Ehresmann1981), and expanded upon by [Beurier, Pastor & Guitart (2021)](#BPG2021). The idea is to give a much more "naïve" description of the free cocompletion of a category $\mathscr{C}$ whose objects are not presheaves, but simply [[diagrams]] into $\mathscr{C}$. While the objects are, in some sense, simpler than presheaves, the morphisms are considerably more complicated: their dual is called called **atlases** by [Ehresmann (1981)](#Ehresmann1981), and they are called **clusters** by [Ehresmann and Vanbremeersch (1987)](#EV1987). The free strict cocompletion is consequently called the **category of clusters** $Clu(\mathscr{C})$ by [Beurier, Pastor, and Guitart (2021)](#BPG2021).
 
