@@ -34,9 +34,9 @@ Then there is a (pseudo) [[2-functor]]
   \label{SelfIndexingFunctor}
   S 
   \,\colon\,
-  C^{op} \to Cat 
+  \mathcal{C}^{op} \to Cat 
 \]
-defined by $S(x) \,\coloneqq\, C/x$ (the [[slice category]]), called the *[[self-indexing]]* of $C$.  Its [[Grothendieck construction]] is the [[codomain fibration]].
+defined by $S(x) \,\coloneqq\, \mathcal{C}/x$ (the [[slice category]]), called the *[[self-indexing]]* of $\mathcal{C}$.  Its [[Grothendieck construction]] is the [[codomain fibration]].
 
 \begin{definition}\label{VanKampenColimit}
 A [[colimit]] in $\mathcal{C}$ is **van Kampen** if it is [[preserved limit|preserved]] by the functor $S$ (eq:SelfIndexingFunctor), i.e. it is taken to a (weak) [[2-limit]] in $Cat$.
@@ -66,13 +66,13 @@ If $\mathcal{C}$ has all [[colimits]] of $\mathcal{D}$-shaped diagrams, then the
 \begin{proof}
 First note that the [[2-limit]] of $S\circ G$ is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the [[slice category]] of the [[functor category]]
 $$
-  \big([D,C] \Downarrow G\big)
+  \big([\mathcal{D},\mathcal{C}] \Downarrow G\big)
   \hookrightarrow
   [\mathcal{D},\mathcal{C}]/G
 $$
 consisting of the [[equifibered natural transformation|equifibered transformations]].  Moreover, under this equivalence, the comparison map $S(x) \to \lim (S\circ G)$ is identified with the pullback functor
 $$ 
-  C/x \longrightarrow ([D,C] \Downarrow G)
+  \mathcal{C}/x \longrightarrow ([\mathcal{D},\mathcal{C}] \Downarrow G)
   \,.
 $$
 Now, this functor has a [[left adjoint]] given by taking [[colimits]]. [Therefore](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) it is an [[equivalence of categories|equivalence]] if and only if the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of the adjunction are isomorphisms.
