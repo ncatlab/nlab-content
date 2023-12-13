@@ -64,6 +64,9 @@ This split coequalizer figures prominently in Beck's [[monadicity theorem]], whe
 
 See also at _[Eilenberg-Moore category -- As a colimit completion of the Kleisli category](Eilenberg-Moore+category#AsColimitCompletionOfKleisliCategory)_.
 
+## Related concepts
+
+See also [[split equalizer]].
 
 ## References
 
