@@ -148,6 +148,11 @@ and of [[tmf]] in
 
 * [[Robert Bruner]], [[John Rognes]], *Topological Hochschild homology of topological modular forms*, talk at *Nordic Topology Meeting* NTNU (2008) &lbrack;[[Bruner-Rognes_THHtmf.pdf:file]]&rbrack;
 
+On the topological Hochschild homology of the [[Lubin-Tate theory|Lubin-Tate ring spectrum]] via [[factorization homology]]:
+
+* [[Geoffroy Horel]], *Higher Hochschild homology of the Lubin-Tate ring spectrum*, Algebr. Geom. Topol. **15** (2015) 3215-3252 &lbrack;[arXiv:1311.2805](https://arxiv.org/abs/1311.2805), [doi:10.2140/agt.2015.15.3215](https://doi.org/10.2140/agt.2015.15.3215)&rbrack;
+
+
 
 [[!redirects topological Hochschild homology]]
 
