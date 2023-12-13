@@ -88,6 +88,16 @@ Note that this is not the same as "X and co-X" (except in the [[delooping]]): a 
 
 Some compatibility may be required between the left and right X-structures.
 
+### Two compatible X structures
+
+A less common usage is the prefix "bi-" to mean two structures of the same kind that interact in some way.
+
+Examples:
+
+- **bimonoidal category** (i.e. [[rig category]])
+
+However, these examples tend to have alternative, more descriptive terminology.
+
 ## Related pages
 
 - [[locally]]
