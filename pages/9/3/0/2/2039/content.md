@@ -179,8 +179,22 @@ Further remarks on this and on the [[twisted cohomology]]-version is in
 
 * Samik Basua, Debasis Sen, _Representing Bredon cohomology with local coefficients_, Journal of Pure and Applied Algebra Volume 219, Issue 9, September 2015, Pages 3992-4015 ([doi:10.1016/j.jpaa.2015.02.001](https://doi.org/10.1016/j.jpaa.2015.02.001))
 
-See also at _[[orbifold cohomology]]_.
+On cases where [[prime field|$\mathbb{Z}/p$]]-[[equivariant cohomology|equivariant]] [[Bredon cohomology]] groups  are [[free modules]] over the Bredon cohomology of the point:
+
+* [[Kevin K. Ferland]], [[L. Gaunce Lewis, Jr.]], *The $RO(G)$-Graded Equivariant Ordinary Homology of $G$-Cell Complexes with Even-Dimensional Cells for $G=\mathbb{Z}/p$*, Memoirs of the AMS **167** (2004) &lbrack;[ams:memo-167-794](https://bookstore.ams.org/memo-167-794), 978-ISBN:1-4704-0392-8&rbrack;
+
+Specifically on [[Kronholm's freeness theorem]] for $\mathbb{Z}/2$-equivariant Bredon cohomology:
+
+* [[William C. Kronholm]], *A Freeness Theorem for $RO(\mathbb{Z}/2)$-graded Cohomology*, Topology and its Applications **157** 5 (2010) 902-915 &lbrack;[arXiv:0908.3825](https://arxiv.org/abs/0908.3825), [doi:10.1016/j.topol.2009.12.006](https://doi.org/10.1016/j.topol.2009.12.006)&rbrack;
+
+* [[Eric Hogle]], [[Clover May]], *The freeness theorem for equivariant cohomology of $Rep(C_2)$-complexes*, Topology and its Applications **285** 1 (2020) 107413 &lbrack;[arXiv:2005.07300](https://arxiv.org/abs/2005.07300), [doi:10.1016/j.topol.2020.107413](https://doi.org/10.1016/j.topol.2020.107413)&rbrack;
+
+* {#DuggerHazelMay24} [[Daniel Dugger]], [[Christy Hazel]], [[Clover May]], *Equivariant $\mathbb{Z}/\ell$-modules for the cyclic group $C_2$*, Journal of Pure and Applied Algebra **228** 3 (2024) 107473 &lbrack;[arXiv:2203.05287](https://arxiv.org/abs/2203.05287), [doi:10.1016/j.jpaa.2023.107473](https://doi.org/10.1016/j.jpaa.2023.107473)&rbrack;
+
+
 
 [[!redirects Bredon-Illman cohomology]]
 
 [[!redirects Bredon equivariant cohomology]]
+
+[[!redirects Kronholm's freeness theorem]]
