@@ -74,6 +74,10 @@ between the $k$-[[associative algebra|algebra]]-[[homomorphisms]] from $R$ into 
 
 * {#LurieLecture} [[Jacob Lurie]], Lecture 21 of: _[[Chromatic Homotopy Theory]]_, Lecture notes 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
  
+On the [[topological Hochschild homology]] of the Lubin-Tate ring spectrum via [[factorization homology]]:
+
+* [[Geoffroy Horel]], *Higher Hochschild homology of the Lubin-Tate ring spectrum*, Algebr. Geom. Topol. **15** (2015) 3215-3252 &lbrack;[arXiv:1311.2805](https://arxiv.org/abs/1311.2805), [doi:10.2140/agt.2015.15.3215](https://doi.org/10.2140/agt.2015.15.3215)&rbrack;
+
 
 [[!redirects Lubin-Tate spectrum]]
 
