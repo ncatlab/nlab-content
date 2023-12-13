@@ -41,6 +41,8 @@ Traditionally the [[types]] in geometric homotopy type theory, hence the _geomet
 
 ## Related concepts
 
+* [[geometric mathematics]]
+
 * [[linear type theory]]
 
 * [[modal homotopy type theory]]
