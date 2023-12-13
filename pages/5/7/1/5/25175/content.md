@@ -23,7 +23,7 @@
 
 Coherent mathematics is mathematics done using only [[coherent logic]]. 
 
-Examples of coherent mathematics include mathematics done in an [[arithmetic pretopos]], which can be defined using only [[coherent logic]], as well as mathematics done in any [[dependent type theory]] which does not have [[function types]] nor [[dependent function types]]. 
+Examples of coherent mathematics include mathematics done in an [[arithmetic pretopos]], which can be defined using only [[coherent logic]], as well as mathematics done in any [[dependent type theory]] which does not have [[function types]] nor [[dependent function types]], such as the internal type theory of an [[arithmetic pretopos]] as a fragment of [[geometric type theory]]. 
 
 Since coherent logic does not have a [[negation]] operator, it is manifestly [[constructive]], since one cannot even express the law of [[excluded middle]] or [[double negation]]. Similarly, coherent mathematics is manifestly [[strongly predicative]], since having [[function sets]] in the theory implies having [[implication]] and $\Delta_0$-[[universal quantifiers]], as every cartesian closed coherent category is a [[Heyting category]]. 
 
