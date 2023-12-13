@@ -5,7 +5,7 @@ Paul Taylor works on the [[foundations]] of mathematics and [[computer science]]
 
 ## Selected writings
 
-Introducing (among other things) the notion of *categories with [[diplay maps]]* (later also "[[clans]]") for [[categorical semantics of dependent type theory]]:
+Introducing (among other things) the notion of *categories with [[display maps]]* (later also "[[clans]]") for [[categorical semantics of dependent type theory]]:
 
 * [[Paul Taylor]], §4.3.2 in: *Recursive Domains, Indexed Category Theory and Polymorphism*, Cambridge (1983-7) &lbrack;[pdf](https://ncatlab.org/nlab/files/Taylor-IndexedCategoryTheory.pdf)&rbrack;
 
@@ -22,8 +22,12 @@ On [[abstract Stone duality]]:
 
 *  15 papers: [web](http://www.paultaylor.eu/ASD/)
 
-On the [[Dedekind real numbers]] via [[abstract Stone duality]]:
+On [[arithmetic pretoposes]]:
 
+* [[Paul Taylor]], _Inside Every Model of Abstract Stone Duality Lies an Arithmetic Universe_, Electronic Notes in Theoretical Computer Science **122** (2005) 247-296 &lbrack;[doi:10.1016/j.entcs.2004.06.059](https://doi.org/10.1016/j.entcs.2004.06.059)&rbrack;
+
+
+On the [[Dedekind real numbers]] via [[abstract Stone duality]]:
 
 *  [[Paul Taylor]], *[Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)* (2007-2009?)
 
