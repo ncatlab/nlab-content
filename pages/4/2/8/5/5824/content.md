@@ -121,7 +121,7 @@ where
 
 1. the left square is a [[pullback]];
 
-1. the bottom left morphism is an [[regular epimorphism]].
+1. the bottom left morphism is a [[regular epimorphism]].
 
 Then the right square is a pullback iff the total rectangle is.
 \end{proposition}
