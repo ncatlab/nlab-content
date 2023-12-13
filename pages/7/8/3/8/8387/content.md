@@ -138,6 +138,9 @@ Related discussion for [[quantum computation]], with [[quantum circuits]] regard
 
 * [[Mark R. Dowling]], [[Michael A. Nielsen]], *The geometry of quantum computation*, Quantum Information & Computation **8** 10 (2008) 861–899 &lbrack;[doi:10.5555/2016985.2016986](https://dl.acm.org/doi/abs/10.5555/2016985.2016986), [arXiv:quant-ph/0701004](https://arxiv.org/abs/quant-ph/0701004)&rbrack;
 
+* [[David Jaz Myers]], [[Hisham Sati]] [[Urs Schreiber]], §3 in: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]* &lbrack;[arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
+
+
 
 [[!redirects computations]]
 
@@ -152,5 +155,5 @@ Related discussion for [[quantum computation]], with [[quantum circuits]] regard
 [[!redirects classical computer]]
 [[!redirects classical computers]]
 
-
+[[!redirects computational]]
 
