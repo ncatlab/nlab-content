@@ -47,9 +47,9 @@ A [[colimit]] in $\mathcal{C}$ is **van Kampen** if it is [[preserved limit|pres
 
 We need the following notation:
 
-* For $\mathcal{C}$ any [[category]], write $\mathcal{C}^{\triangledown}$ for the result of adjoining to it a [[terminal object]]. This comes with a canonical [[full subcategory]] inclusion $\mathcal{C} \hookrightarrow \mathcal{C}^{\triangledown}$
+* For $\mathcal{D}$ any [[category]], write $\mathcal{D}^{\triangledown}$ for the result of adjoining to it a [[terminal object]]. This comes with a canonical [[full subcategory]] inclusion $\mathcal{D} \hookrightarrow \mathcal{D}^{\triangledown}$
 
-* For $\mathcal{D}$ a [[small category]], and $G \,\colon\, \mathcal{D}\to \mathcal{C}$ a [[diagram]] with [[colimit]] $\underset{\longrightarrow}{\lim} G \,\in\, \mathcal{C}$, write $G^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \longrightarrow \mathcal{C}$ the extension of $G$ to $\mathcal{D}^{\triangledown}$ by assigning $\underset{\longrightarrow}{\lim} G$ to the adjoined terminal object.
+* For $\mathcal{D}$ a [[small category]], and $G \,\colon\, \mathcal{D} \to \mathcal{C}$ a $\mathcal{D}$-shaped [[diagram]] with [[colimit]] $\underset{\longrightarrow}{\lim} G \,\in\, \mathcal{C}$, write $G^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \longrightarrow \mathcal{C}$ the extension of $G$ to $\mathcal{D}^{\triangledown}$ by assigning $\underset{\longrightarrow}{\lim} G$ to the adjoined terminal object.
 
 \begin{theorem}\label{UniversalityAndDescent}
 **(equifibrancy characterization of van Kampen colimits)**
