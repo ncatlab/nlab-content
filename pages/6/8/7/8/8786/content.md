@@ -9,7 +9,7 @@
 
 ## Calculi
 
-### Pi Calculus
+### [[π-calculus]]
 
 The processes can either be the nil process $0$, parallel execution $P \mid Q$, sending on channel $c$ and then continuing $\overline{c}\langle x \rangle.P$, receiving on channel $c$ and then continuing $c(x).P$, replicating a process $!P$ or introduction of a new name $(\nu x)P$.
 
