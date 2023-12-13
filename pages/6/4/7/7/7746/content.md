@@ -178,7 +178,9 @@ Application to higher [[Hochschild cohomology]] is discussed in
 
 * [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Higher Hochschild cohomology, Brane topology and centralizers of $E_n$-algebra maps_, ([arXiv:1205.7056](http://arxiv.org/abs/1205.7056))
 
-* [[Geoffroy Horel]], _Higher Hochschild homology of the Lubin-Tate ring spectrum_, [pdf](http://geoffroy.horel.org/HHC%20of%20the%20LT%20ring%20spectrum.pdf).
+* [[Geoffroy Horel]], *Higher Hochschild homology of the Lubin-Tate ring spectrum*, Algebr. Geom. Topol. **15** (2015) 3215-3252 &lbrack;[arXiv:1311.2805](https://arxiv.org/abs/1311.2805), [doi:10.2140/agt.2015.15.3215](https://doi.org/10.2140/agt.2015.15.3215)&rbrack;
+
+
 
 Application to stratified spaces with tangential structures is discussed in
 
