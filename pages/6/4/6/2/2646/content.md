@@ -4,14 +4,6 @@ He got his PhD in 1999 at MIT, advised by [[Michael J. Hopkins]].
 * [website](https://pages.uoregon.edu/ddugger/)
 
 
-## Related $n$Lab entries
-
-* [[model structure on simplicial presheaves]]
-
-* [[descent for simplicial presheaves]]
-
-* [[combinatorial model category]]
-
 
 ## Selected writings
 
@@ -54,8 +46,20 @@ Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/ab
 
 On [[model categories of spectra]]:
 
-
 * [[Daniel Dugger]], *Stable categories and spectra via model categories* ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf)), in:  [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press
+
+On [[Kronholm's freeness theorem]] in [[cyclic group of order 2|$\mathbb{Z}/2$]]-[[equivariant cohomology|equivariant]] [[Bredon cohomology]]
+
+* [[Daniel Dugger]], [[Christy Hazel]], [[Clover May]], *Equivariant $\mathbb{Z}/\ell$-modules for the cyclic group $C_2$*, Journal of Pure and Applied Algebra **228** 3 (2024) 107473 &lbrack;[arXiv:2203.05287](https://arxiv.org/abs/2203.05287), [doi:10.1016/j.jpaa.2023.107473](https://doi.org/10.1016/j.jpaa.2023.107473)&rbrack;
+
+## Related entries
+
+* [[model structure on simplicial presheaves]]
+
+* [[descent for simplicial presheaves]]
+
+* [[combinatorial model category]]
+
 
 
 [[!redirects Dan Dugger]]
