@@ -49,14 +49,14 @@ We need the following notation:
 
 * For $\mathcal{C}$ any [[category]], write $\mathcal{C}^{\triangledown}$ for the result of adjoining to it a [[terminal object]]. This comes with a canonical [[full subcategory]] inclusion $\mathcal{C} \hookrightarrow \mathcal{C}^{\triangledown}$
 
-* For $\mathcal{D}$ a [[small category]], and $G \,\colon\, \mathcal{D}\to \mathcal{C}$ a [[diagram]] with [[colimit]] $\underset{\longrightarrow}{\lim} G \,\in\, \mathcal{C}$, write $G^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \longrightarrow \mathcal{C}^{\triangledown}$ the extension of $G$ to $\mathcal{D}^{\triangledown}$ by assigning $\underset{\longrightarrow}{\lim} G$ to the adjoined terminal object.
+* For $\mathcal{D}$ a [[small category]], and $G \,\colon\, \mathcal{D}\to \mathcal{C}$ a [[diagram]] with [[colimit]] $\underset{\longrightarrow}{\lim} G \,\in\, \mathcal{C}$, write $G^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \longrightarrow \mathcal{C}$ the extension of $G$ to $\mathcal{D}^{\triangledown}$ by assigning $\underset{\longrightarrow}{\lim} G$ to the adjoined terminal object.
 
 \begin{theorem}\label{UniversalityAndDescent}
 **(equifibrancy characterization of van Kampen colimits)**
 \linebreak
 If $\mathcal{C}$ has all [[colimits]] of $\mathcal{D}$-shaped diagrams, then the colimit $\underset{\longrightarrow}{\lim}G$ of $G \colon \mathcal{D}\to \mathcal{C}$ is van Kampen (Def. \ref{VanKampenColimit}) if and only if the following condition holds: 
 
-* For any diagram $F^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \to \mathcal{C}^{\triangledown}$ and [[natural transformation]] $\alpha^{\triangledown} \,\colon\, F^{\triangledown} \Rightarrow G^{\triangledown}$ whose [[restriction]] $\alpha \colon F \Rightarrow G$ along $\mathcal{D} \hookrightarrow \mathcal{D}^{\triangledown}$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
+* For any diagram $F^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \to \mathcal{C}$ and [[natural transformation]] $\alpha^{\triangledown} \,\colon\, F^{\triangledown} \Rightarrow G^{\triangledown}$ whose [[restriction]] $\alpha \colon F \Rightarrow G$ along $\mathcal{D} \hookrightarrow \mathcal{D}^{\triangledown}$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
 
   1. $\alpha^{\triangledown}$ is [[equifibered natural transformation|equifibered]].
 
