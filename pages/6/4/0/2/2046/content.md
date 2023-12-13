@@ -84,6 +84,8 @@ If an abelian category is enriched over finite-dimensional vector spaces over a 
 
 ## Examples
 
+* In a [[top]] bounded  [[partial order]] its simple objects are its [[atom|coatoms]].
+
 *  In the category [[Vect]] of [[vector spaces]] over some field $k$, the simple objects are precisely the [[line]]s: the $1$-dimensional vector spaces, i.e. $k$ itself, up to [[isomorphism]].
 
 *  A [[simple group]] is a simple object in [[Grp]].  (Here it is important to use quotient objects instead of subobjects.)
