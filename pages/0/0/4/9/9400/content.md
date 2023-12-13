@@ -80,8 +80,28 @@ See ([SH](#SH)).
 
 * A category with [[pullbacks]] is [[adhesive category|adhesive]] just when [[pushouts]] of [[monomorphisms]] are van Kampen.
 
-* A category with pullbacks is [[exhaustive category|exhaustive]] just when transfinite [[unions]] of monomorphisms are van Kampen.
+* A category with [[pullbacks]] is [[exhaustive category|exhaustive]] just when transfinite [[unions]] of monomorphisms are van Kampen.
 
+\end{example}
+
+\begin{example}
+A [[regular category]] with van Kampen [[quotients]] of [[congruences]] is [[exact category|exact]]. To see this, let $p_1, p_2 : R \rightrightarrows A$ be a congruence whose transitivity is witnessed by $t : R \times_A R \to R$. Then, in the following diagram
+
+$$
+\array{
+  R \times_A R 
+    & 
+  \underoverset{\pi_2}{t}{\rightrightarrows} 
+    & 
+  R & \stackrel{p_2}{\to} & A
+  \\
+  {{}^\mathllap{\pi_1}}\big\downarrow && \big\downarrow{{}^\mathrlap{p_1}} && \big\downarrow 
+  \\
+  R & \underoverset{p_2}{p_1}{\rightrightarrows} & A & \to & A/R
+}
+$$
+
+the left squares are pullbacks and the top square is a [[split coequalizer]] with the splitting maps given by reflexivity, hence the right square is a pullback, which is to say that $R$ is the kernel pair of $A \to A/R$.
 \end{example}
 
 \begin{example}
@@ -97,7 +117,7 @@ $$
 $$
 is not van Kampen, neither is the [[coequalizer]] diagram $\mathbf 1 \rightrightarrows \mathbf 1 \to \mathbf 1$.
 
-On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#as_a_coequalizer|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a [[homotopy coequalizer]] diagram because the [[line type]] is [[contractible]].
+On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#as_a_coequalizer|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a [[homotopy coequalizer]] diagram because the [[line type]] is [[contractible]]. Furthermore, there is a higher coherence relating the two homotopies obtained by composing the top cofork with the back and right squares and by composing the front and right squares with the bottom cofork, ensuring that this diagram is [[homotopy coherent]].
 
 $$
 \array{
@@ -107,7 +127,7 @@ $$
     & 
   \mathbb{Z} & \to & \mathbf{1} 
   \\
-  \downarrow && \downarrow && \downarrow 
+  \big\downarrow && \big\downarrow && \big\downarrow 
   \\
   \mathbf{1} & \rightrightarrows & \mathbf{1} & \to & S^1
   \mathrlap{\,.}
