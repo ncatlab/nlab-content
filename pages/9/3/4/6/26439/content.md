@@ -1,8 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
 \tableofcontents
 
 ## Idea
 
-The $\pi$-calculus is a [[computational]] model for concurrent processes that communicate messages through named channels. It subsumes [[λ-calculus]].
+The *$\pi$-calculus* is a [[computational]] model for concurrent processes that communicate messages through named channels. It subsumes [[λ-calculus]].
 
 In the monadic $\pi$-calculus, outputs and inputs only send and receive single names, while the polyadic $\pi$-calculus allows outputs of tuples of names and corresponding inputs.
 
