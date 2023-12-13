@@ -1,5 +1,5 @@
 
-* [webpage](http://homepages.spa.umn.edu/~duplij)
+* [webpage](https://ivv5hpp.uni-muenster.de/u/douplii)
 
 ## Selected writings
 
