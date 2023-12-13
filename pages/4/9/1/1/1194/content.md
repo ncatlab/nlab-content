@@ -736,3 +736,6 @@ Further online resources include
 [[!redirects type system]]
 [[!redirects type systems]]
 
+[[!redirects typing system]]
+[[!redirects typing systems]]
+
