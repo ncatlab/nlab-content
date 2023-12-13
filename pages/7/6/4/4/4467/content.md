@@ -119,6 +119,7 @@ $$\prod_{a:S} \prod_{A:S \to \Omega} (\Diamond a \to a \lhd A) \to (a \lhd A)$$
 
 * {#Palmgren05} [[Erik Palmgren]], _From Intuitionistic to Point-Free Topology: On the Foundation of Homotopy Theory_, Logicism, Intuitionism, and Formalism Volume 341 of the series Synthese Library pp 237-253, 2005 ([pdf](http://www2.math.uu.se/~palmgren/homotopy_rev2.pdf))
 
+* Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 [[!redirects formal topology]]
 [[!redirects formal topologies]]
