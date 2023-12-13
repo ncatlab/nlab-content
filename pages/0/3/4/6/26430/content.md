@@ -21,12 +21,13 @@
 
 ## Idea
 
-*Geometric mathematics* is [[mathematics]] done in [[geometric logic]] or inside of a [[Grothendieck topos]]. One has [[finite limits]] and all [[colimits]], but one does not in general have [[function sets]] or [[power sets]]. The requirement that one works inside of a [[Grothendieck topos]] instead of a [[geometric category]] (cf. [Vickers 22](#Vickers22)) is because [[geometric categories]] are in general not [[balanced categories]] and so the [[principle of unique choice]] is not satisfied inside of the category. 
+*Geometric mathematics* is [[mathematics]] done in [[geometric logic]] or [[geometric type theory]] or inside of a [[Grothendieck topos]]. One has [[finite limits]] and all [[colimits]], but one does not in general have [[function sets]] or [[power sets]]. The requirement that one works inside of a [[Grothendieck topos]] instead of a [[geometric category]] (cf. [Vickers 22](#Vickers22)) is because [[geometric categories]] are in general not [[balanced categories]] and so the [[principle of unique choice]] is not satisfied inside of the category. 
 
 ## Related concepts
 
 * [[constructive mathematics]]
 * [[classical mathematics]]
+* [[geometric type theory]]
 
 ## References
 
