@@ -47,6 +47,8 @@ The [[codomain fibration]] of an exact category is a [[stack]] ([[2-sheaf]]) for
 
 * Any [[topos]] is an exact category.
 
+* Any [[regular category]] with [[van Kampen colimit|van Kampen]] [[quotients]] of [[congruences]] is exact. See at [[van Kampen colimit]] for a proof.
+
 * Any category which is [[monad|monadic]] over a power of [[Set]] is exact. A proof may be found [here](/nlab/show/colimits+in+categories+of+algebras#exact). 
 
 * Any [[abelian category]] is exact. In fact an abelian category is precisely an exact [[additive category]]. 
