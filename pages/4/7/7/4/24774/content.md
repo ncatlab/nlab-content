@@ -77,6 +77,14 @@ On [[moduli stabilization]] in [[string theory]]:
 
 \linebreak
 
+On [[supergravity]]:
+
+* [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754)&rbrack;
+
+
+
+\linebreak
+
 On the usage of [[pure spinor]] [[superfields]] in maximal [[supergravity]]:
 
 * [[Martin Cederwall]], *Pure spinors in classical and quantum supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.06141](https://arxiv.org/abs/2210.06141)&rbrack;
