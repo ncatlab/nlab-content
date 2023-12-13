@@ -206,9 +206,7 @@ or:
 
 ### As a homotopy fiber
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}\label{InGeometricHomotopyTheory}
 In [[geometric homotopy theory]] (in an [[(∞,1)-topos]]), for $H \longrightarrow G$ any homomorphisms of [[∞-group]] objects, then the natural projection $G \longrightarrow G/H$, generally realizes $G$ as an $H$-[[principal ∞-bundle]] over $G/H$. This is exhibited by a [[homotopy pullback]] of the form
 
 $$
@@ -224,7 +222,7 @@ $$
 
 where $\mathbf{B}H$ is the [[delooping|delooping groupoid]] of $H$. This also equivalently exhibits the [[∞-action]] of $H$ on $G$ (see there for more).
 
-By the [[pasting law]] for [[homotopy pullbacks]] then we get the [[homotopy pullback]]
+By the reverse [[pasting law]] for [[homotopy pullbacks]] ([here](pasting+law+for+pullbacks#ReversePastingLawForInfinityGroupoids), using that $\ast \to \mathbf{B}H$ is an [effective epimorphism](effective+epimorphism+in+an+infinity1-category) by definition of [[delooping]]) then we get the [[homotopy pullback]]
 
 $$
   \array{
@@ -238,7 +236,9 @@ $$
 
 which exhibits the coset as the [[homotopy fiber]] of $\mathbf{B}H \to \mathbf{B}G$.
 
-=--
+See also [SS21, Ex. 3.2.35](#SatiSchreiber21).
+\end{remark}
+
 
 ## Examples
 
@@ -400,6 +400,10 @@ $$
 On coset spaces with the same [[rational cohomology]] as a [[product space|product]] of [[n-spheres]]:
 
 * [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_,  Memoirs of the American Mathematical Society number 752 ([arXiv:math/0109133] (http://arxiv.org/abs/math/0109133), [doi:10.1090/memo/0752](http://dx.doi.org/10.1090/memo/0752), [GoogleBooks](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false))
+
+Discussion in [[(infinity,1)-topos theory|$\infty$-topos theory]]:
+
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Ex. 3.2.35 ([p. 104](https://arxiv.org/pdf/2112.13654.pdf#page=104)) of: *[[schreiber:Equivariant principal infinity-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 
 [[!redirects coset]]
