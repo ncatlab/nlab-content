@@ -36,9 +36,9 @@ Two ways [[monoidal category|monoidal structures]] can join this story is on the
 
 ## References
 
-* [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, Theory and Applications of Categories, Vol. 20, No. 18, 2008, pp. 650–738. [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
+* [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, Theory and Applications of Categories, Vol. 20, No. 18, 2008, pp. 650–738. [TAC:20-18](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
 
-* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 $[$[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [tac:35-31](www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)$]$
+* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 $[$[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [TAC:35-31](http://www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)$]$
 
 
 [[!redirects monoidal Grothendieck construction]]
