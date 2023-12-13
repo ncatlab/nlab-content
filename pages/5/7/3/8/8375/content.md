@@ -84,8 +84,12 @@ In [[constructive mathematics]], however, not every arity class besides $\{1\}$ 
 [[!redirects unary]]
 [[!redirects subunary]]
 [[!redirects finitary]]
-[[!redirects ∞-ary]]
+
+[[!redirects n-ary]]
+
 [[!redirects κ-ary]]
 [[!redirects kappa-ary]]
+
+[[!redirects ∞-ary]]
 [[!redirects infinitary]]
 [[!redirects infinity-ary]]
