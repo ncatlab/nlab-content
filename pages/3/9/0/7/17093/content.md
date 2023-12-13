@@ -30,10 +30,13 @@ On the [[Picard group]] of [[equivariant stable homotopy theory]] and the notion
 
 * {#FauskLewisMay01} [[Halvard Fausk]], [[L. Gaunce Lewis]], [[Peter May]],  _The Picard group of equivariant stable  homotopy theory_, Advances in Mathematics Volume 163, Issue 1, 15 October 2001, Pages 17&#8211;33  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/FLMJan01.pdf))
 
+On cases where [[prime field|$\mathbb{Z}/p$]]-[[equivariant cohomology|equivariant]] [[Bredon cohomology]] groups  are [[free modules]] over the Bredon cohomology of the point:
+
+* [[Kevin K. Ferland]], [[L. Gaunce Lewis, Jr.]], *The $RO(G)$-Graded Equivariant Ordinary Homology of $G$-Cell Complexes with Even-Dimensional Cells for $G=\mathbb{Z}/p$*, Memoirs of the AMS **167** (2004) &lbrack;[ams:memo-167-794](https://bookstore.ams.org/memo-167-794), 978-ISBN:1-4704-0392-8&rbrack;
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[compactly generated topological space]]
 
