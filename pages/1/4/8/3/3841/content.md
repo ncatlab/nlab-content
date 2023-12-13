@@ -16,7 +16,7 @@
 
 ## Idea
 
-A regular cardinal is is a [[cardinal number]] that is 'closed under [[union]]'.  The [[category]] of [[sets]] bounded by a regular cardinal has several nice properties, making it a [[universe]] that is handy for some purposes but falls short of being a [[Grothendieck universe]].  Unlike Grothendieck universes (which are based on [[inaccessible cardinals]] rather than regular cardinals), it is easy to prove that (even [[uncountable set|uncountable]]) regular cardinals exist.
+A regular cardinal is a [[cardinal number]] that is 'closed under [[union]]'.  The [[category]] of [[sets]] bounded by a regular cardinal has several nice properties, making it a [[universe]] that is handy for some purposes but falls short of being a [[Grothendieck universe]].  Unlike Grothendieck universes (which are based on [[inaccessible cardinals]] rather than regular cardinals), it is easy to prove that (even [[uncountable set|uncountable]]) regular cardinals exist.
 
 
 ## Definitions
@@ -79,7 +79,7 @@ At least if "regular cardinal" has its classical meaning of a particular ordinal
 \begin{theorem} Assuming the [[axiom of choice]], the [[successor]] of any infinite cardinal, such as $\aleph_0$, is a regular cardinal. 
 \end{theorem} 
 
-In the case of $\aleph_0$, this means that a countable union of countable sets is countable.  Note that this implies that there exist arbitarily large regular cardinals: for any cardinal $\lambda$ there is a greater regular cardinal, namely $\lambda^+$. 
+In the case of $\aleph_0$, this means that a countable union of countable sets is countable.  Note that this implies that there exist arbitrarily large regular cardinals: for any cardinal $\lambda$ there is a greater regular cardinal, namely $\lambda^+$. 
 
 \begin{proof} 
 Under the axiom of choice, the successor of a cardinal number is the [[Hartogs number]] (see there): if $\lambda$ is the cardinality of $X$, then $\lambda^+$ is the order type of the well-ordered set $\aleph(X)$. If $(\lambda_\alpha) = (0 = \lambda_0 \lt \lambda_1 \lt \ldots)$ is a set of ordinals with least upper bound $\lambda^+$, and supposing, working toward a contradiction, that this set has cardinality $\leq \lambda$, then the corresponding initial segments $X_\alpha$ of $\aleph(X)$ provide a partition 
