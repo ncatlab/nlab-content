@@ -26,6 +26,15 @@ On [[point-free topology]]:
 
 * [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms*, ([arXiv:2312.05228](https://arxiv.org/abs/2312.05228))
 
+On [[arithmetic pretoposes]]:
+
+
+* {#MaettiVickers12} [[Maria E. Maietti]], [[Steve Vickers]], _An induction principle for consequence in arithmetic universes_, JPAA **216** (2012) pp.2049-2067. &lbrack;[doi:10.1016/j.jpaa.2012.02.040](https://doi.org/10.1016/j.jpaa.2012.02.040), [pdf](http://www.math.unipd.it/~maietti/papers/aumv12.pdf)&rbrack;
+
+* {#Vickers16} [[Steve Vickers]], _Sketches for arithmetic universes_, arXiv:1608.0159 (2016) &lbrack[arXiv:1608.01559](http://arxiv.org/abs/1608.01559)&rbrack;
+
+* {#Vickers17} [[Steve Vickers]], _Arithmetic universes and classifying toposes_ &lbrack;[arXiv:1701.04611](https://arxiv.org/abs/1701.04611)&rbrack;
+
 
 On [[geometric logic]] [[internal logic|internal to]] [[Grothendieck toposes]]:
 
