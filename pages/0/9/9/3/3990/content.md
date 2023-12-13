@@ -30,9 +30,12 @@ such that $e s = 1_C$, $s e = g t$, and $f t = 1_B$.  This is equivalent to sayi
 
 ## Related concepts
 
-### Coequalizers and absolute coequalizers
+### As coequalizers and absolute coequalizers
+ {#AsCoequalizers}
 
-The name "split coequalizer" is appropriate, because in any split coequalizer diagram, the morphism $e$ is necessarily a [[coequalizer]] of $f$ and $g$.  For given any $h\colon B\to D$ such that $h f = h g$, the composite $h s$ provides a factorization of $h$ through $e$, since $h s e = h g t = h f t = h$, and such a factorization is unique since $e$ is (split) [[epimorphism|epic]].  In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].
+The name "split coequalizer" is appropriate, because in any split coequalizer diagram, the morphism $e$ is necessarily a [[coequalizer]] of $f$ and $g$.  For given any $h\colon B\to D$ such that $h f = h g$, the composite $h s$ provides a factorization of $h$ through $e$, since $h s e = h g t = h f t = h$, and such a factorization is unique since $e$ is (split) [[epimorphism|epic]].  
+
+In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].
 
 ### Contractible pairs
 
