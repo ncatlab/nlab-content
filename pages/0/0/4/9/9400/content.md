@@ -24,42 +24,65 @@
 
 ## Idea
 
-A [[colimit]] in a [[category]] or [[higher category]] is *van Kampen* if it is both [[universal colimit|universal]] (i.e. [[pullback-stability|stable]] under [[pullback]]) and satisfies [[descent]].  Many [[exactness properties]] can be phrased in terms of certain colimits being van Kampen.
+A [[colimit]] in a [[category]] or [[higher category]] is called *van Kampen* &lbrack;[Sobocinski & Heindel 2011](#SobocinskiHeindel11)&rbrack; if it is both [[universal colimit|universal]] (i.e. [[pullback-stability|stable]] under [[pullback]]) and satisfies [[descent]].  Many [[exactness properties]] can be phrased in terms of certain colimits being van Kampen.
 
 ## Definition
 
-Let $C$ be a [[category]] with [[pullbacks]].
+Let $\mathcal{C}$ be a [[category]] with [[pullbacks]].
 Then there is a (pseudo) [[2-functor]]
-$$ S : C^{op} \to Cat $$
-defined by $S(x) \coloneqq C/x$ (the [[slice category]]), called the [[self-indexing]] of $C$.  Its [[Grothendieck construction]] is the [[codomain fibration]].
+\[
+  \label{SelfIndexingFunctor}
+  S 
+  \,\colon\,
+  C^{op} \to Cat 
+\]
+defined by $S(x) \,\coloneqq\, C/x$ (the [[slice category]]), called the *[[self-indexing]]* of $C$.  Its [[Grothendieck construction]] is the [[codomain fibration]].
 
-+-- {: .num_defn}
-###### Definition
-A [[colimit]] in $C$ is **van Kampen** if it is [[preserved limit|preserved]] by the functor $S$, i.e. it is taken to a (weak) [[2-limit]] in $Cat$.
-=--
+\begin{definition}\label{VanKampenColimit}
+A [[colimit]] in $\mathcal{C}$ is **van Kampen** if it is [[preserved limit|preserved]] by the functor $S$ (eq:SelfIndexingFunctor), i.e. it is taken to a (weak) [[2-limit]] in $Cat$.
+\end{definition}
 
 
 ### Universality and descent
 
-Let $G:D\to C$ be a diagram with colimit $x$.  Let $D'$ denote the category $D$ with a new [[terminal object]] adjoined, and $G':D'\to C$ the extension of $G$ by the colimiting cocone with vertex $x$.
+We need the following notation:
 
-+-- {: .num_theorem #UniversalityAndDescent}
-###### Theorem
-Suppose $C$ has all colimits of $D$-shaped diagrams.  Then the colimit $x$ of $G:D\to C$ is van Kampen if and only if the following condition holds: for any diagram $F':D'\to C$ and natural transformation $\alpha':F'\Rightarrow G'$ whose restriction $\alpha:F\Rightarrow G$ to $D\subset D'$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
+* For $\mathcal{C}$ any [[category]], write $\mathcal{C}^{\triangledown}$ for the result of adjoining to it a [[terminal object]]. This comes with a canonical [[full subcategory]] inclusion $\mathcal{C} \hookrightarrow \mathcal{C}^{\triangledown}$
 
-1. $\alpha'$ is equifibered.
-1. $F'$ is a colimiting cocone.
-=--
-+-- {: .proof}
-###### Proof
-First note that the 2-limit of $S\circ G$ is equivalent to the full subcategory of $[D,C]/G$ consisting of the equifibered transformations.  We denote this category by $([D,C] \Downarrow G)$.  Moreover, under this equivalence, the comparison map $S(x) \to \lim (S\circ G)$ is identified with the pullback functor
-$$ C/x \to ([D,C] \Downarrow G). $$
-Now this functor has a left adjoint given by taking colimits.  Thus, it is an equivalence if and only if the unit and counit of the adjunction are isomorphisms.
+* For $\mathcal{D}$ a [[small category]], and $G \,\colon\, \mathcal{D}\to \mathcal{C}$ a [[diagram]] with [[colimit]] $\underset{\longrightarrow}{\lim} G \,\in\, \mathcal{C}$, write $G^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \longrightarrow \mathcal{C}^{\triangledown}$ the extension of $G$ to $\mathcal{D}^{\triangledown}$ by assigning $\underset{\longrightarrow}{\lim} G$ to the adjoined terminal object.
 
-The unit is the map from an equifibered transformation over $G$ into the pullback of its colimit.  The latter underlies an equifibered $\alpha'$ by construction, so the unit is an isomorphism just when (2)$\Rightarrow$(1).  Similarly, the counit is the map into an object over $x$ from the colimit of its pullback.  Thus, it is an isomorphism just when (1)$\Rightarrow$(2).
-=--
+\begin{theorem}\label{UniversalityAndDescent}
+**(equifibrancy characterization of van Kampen colimits)**
+\linebreak
+If $\mathcal{C}$ has all [[colimits]] of $\mathcal{D}$-shaped diagrams, then the colimit $\underset{\longrightarrow}{\lim}G$ of $G \colon \mathcal{D}\to \mathcal{C}$ is van Kampen (Def. \ref{VanKampenColimit}) if and only if the following condition holds: 
 
-The condition (1)$\Rightarrow$(2) is precisely the statement that the colimit of $G$ is [[universal colimit|universal]], i.e. preserved by pullback.  The condition (2)$\Rightarrow$(1) is a form of [[descent]].
+* For any diagram $F^{\triangledown} \,\colon\, \mathcal{D}^{\triangledown} \to \mathcal{C}^{\triangledown}$ and [[natural transformation]] $\alpha^{\triangledown} \,\colon\, F^{\triangledown} \Rightarrow G^{\triangledown}$ whose [[restriction]] $\alpha \colon F \Rightarrow G$ along $\mathcal{D} \hookrightarrow \mathcal{D}^{\triangledown}$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
+
+  1. $\alpha^{\triangledown}$ is [[equifibered natural transformation|equifibered]].
+
+  1. $F^{\triangledown}$ is a [[colimit|colimiting]] [[cocone]].
+
+\end{theorem}
+\begin{proof}
+First note that the [[2-limit]] of $S\circ G$ is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the [[slice category]] of the [[functor category]]
+$$
+  \big([D,C] \Downarrow G\big)
+  \hookrightarrow
+  [\mathcal{D},\mathcal{C}]/G
+$$
+consisting of the [[equifibered natural transformation|equifibered transformations]].  Moreover, under this equivalence, the comparison map $S(x) \to \lim (S\circ G)$ is identified with the pullback functor
+$$ 
+  C/x \longrightarrow ([D,C] \Downarrow G)
+  \,.
+$$
+Now, this functor has a [[left adjoint]] given by taking [[colimits]]. [Therefore](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) it is an [[equivalence of categories|equivalence]] if and only if the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of the adjunction are isomorphisms.
+
+The unit is the map from an equifibered transformation over $G$ into the pullback of its colimit.  The latter underlies an equifibered $\alpha'$ by construction, so the unit is an isomorphism just when $\text{(2)}\Rightarrow \text{(1)}$.  Similarly, the counit is the map into an object over $x$ from the colimit of its pullback.  Thus, it is an isomorphism just when $\text{(1)}\Rightarrow\text{(2)}$.
+\end{proof}
+
+\begin{remark}
+The condition $\text{(1)}\Rightarrow\text{(2)}$ is precisely the statement that the colimit of $G$ is [[universal colimit|universal]], i.e. preserved by pullback.  The condition $\text{(2)}\Rightarrow\text{(1)}$ is a form of [[descent]].
+\end{remark}
 
 ### Colimits in Span
 
@@ -67,10 +90,7 @@ The condition (1)$\Rightarrow$(2) is precisely the statement that the colimit of
 ###### Theorem
 A colimit in $C$ is van Kampen if and only if it is preserved by the inclusion $C\to Span(C)$ into the [[bicategory]] of [[spans]] in $C$.
 =--
-+-- {: .proof}
-###### Proof
-See ([SH](#SH)).
-=--
+([Sobocinski & Heindel 2011](#SobocinskiHeindel11)).
 
 ## Examples
 
@@ -84,8 +104,13 @@ See ([SH](#SH)).
 
 \end{example}
 
-\begin{example}
-A [[regular category]] with van Kampen [[quotients]] of [[congruences]] is [[exact category|exact]]. To see this, let $p_1, p_2 : R \rightrightarrows A$ be a congruence whose transitivity is witnessed by $t : R \times_A R \to R$. Then, in the following diagram
+\begin{example}\label{RegularCatWithVanKampColimitsIsExact}
+A [[regular category]] with van Kampen [[quotients]] of [[congruences]] is [[exact category|exact]]. 
+\end{example}
+\begin{proof}
+Let $p_1, p_2 : R \rightrightarrows A$ be a congruence. We need to show that $R$ is the [[kernel pair]] of the [[quotient map]] $A \to A/R$.
+
+Let the transitivity of the congruence be witnessed by $t \,\colon\, R \times_A R \to R$. Then, in the following [[diagram]]
 
 $$
 \array{
@@ -101,8 +126,8 @@ $$
 }
 $$
 
-the left squares are pullbacks and the top square is a [[split coequalizer]] with the splitting maps given by reflexivity, hence the right square is a pullback, which is to say that $R$ is the kernel pair of $A \to A/R$.
-\end{example}
+the left squares are [[pullbacks]] and the top diagram is a [[split coequalizer]] (with the splitting maps given by reflexivity), [hence](split+coequalizer#AsCoequalizers) a [[coequalizer]]. Now since the bottom coequalizer is assumed to be van Kampen, Thm. \ref{UniversalityAndDescent} implies that also the right square is a pullback. But this is the desired statement that $R$ is the [[kernel pair]] of $A \to A/R$.
+\end{proof}
 
 \begin{example}
 In [[Set|$Set$]], the [[pushout]] square
@@ -161,7 +186,7 @@ In this case, being van Kampen is also equivalent to being preserved by the comp
 
 ## References
 
-* {#SH} [[Pawel Sobocinski]], [[Tobias Heindel]], *Being Van Kampen is a universal property*, Logical Methods in Computer Science, **7** 1 (2011) &lbrack;[arXiv:1101.4594](https://arxiv.org/abs/1101.4594), <a href="https://doi.org/10.2168/LMCS-7(1:14)2011">doi:10.2168/LMCS-7(1:14)2011</a>&rbrack;
+* {#SobocinskiHeindel11} [[Pawel Sobocinski]], [[Tobias Heindel]], *Being Van Kampen is a universal property*, Logical Methods in Computer Science, **7** 1 (2011) &lbrack;[arXiv:1101.4594](https://arxiv.org/abs/1101.4594), <a href="https://doi.org/10.2168/LMCS-7(1:14)2011">doi:10.2168/LMCS-7(1:14)2011</a>&rbrack;
 
 
 [[!redirects van Kampen colimits]]
