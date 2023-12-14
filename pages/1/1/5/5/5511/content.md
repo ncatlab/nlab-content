@@ -26,7 +26,7 @@ See also at _[[1-epimorphism]]_. However, beware of the [[red herring principle]
 +-- {: .num_defn}
 ###### Definition
 
-A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimorphism** if it has a [[Cech nerve]], of which it is the [[(∞,1)-colimit]]; in other words the [[augmented simplicial set|augmented simplicial]] [[diagram]]
+A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimorphism** (alias __quotient morphism__) if it has a [[Cech nerve]], of which it is the [[(∞,1)-colimit]]; in other words the [[augmented simplicial set|augmented simplicial]] [[diagram]]
 
 $$
   \cdots
@@ -193,5 +193,6 @@ If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotop
 [[!redirects effective epimorphism in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (infinity,1)-category]]
-
 [[!redirects effective epimorphism in an infinity1-category]]
+[[!redirects (∞,1)-quotient morphism]]
+[[!redirects (∞,1)-quotient morphisms]]
