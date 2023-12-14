@@ -274,9 +274,11 @@ For more see the references at *[[electromagnetism]]*.
 
 Maxwell's equations originate in:
 
-* {#Maxwell} [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
+* {#Maxwell} [[James Clerk Maxwell]], *A Dynamical Theory of the Electromagnetic Field*, Philosophical Transactions of the Royal Society of London **155** (1865) 459-512 &lbrack;[doi:10.1098/rstl.1865.0008](https://doi.org/10.1098/rstl.1865.0008), [jstor:108892](https://www.jstor.org/stable/108892), [Wikipedia entry](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field)&rbrack;
 
-Some history and reflection is in 
+* [[James Clerk Maxwell]], *A Treatise on Electricity and Magnetism*, Clarendon Press Series, Macmillan & Co. (1873),  Cambridge University Press (2010) &lbrack;[ark:/13960/t9s17v886](https://archive.org/details/electricandmagne01maxwrich), [doi:10.1017/CBO9780511709333](https://doi.org/10.1017/CBO9780511709333), [pdf](https://www.aproged.pt/biblioteca/MaxwellI.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Treatise_on_Electricity_and_Magnetism)&rbrack;
+
+Some history and reflection:
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
@@ -299,7 +301,7 @@ Formulation of Maxwell's equations via "[[geometric algebra]]":
 
 * {#DoranLasenby03} [[Chris Doran]], [[Anthony Lasenby]], _Geometric algebra for physicists_, Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
 
-* {#Arthur11} [[John W. Arthur]], *Understanding Geometric Algebra for Electromagnetic Theory*, John Wiley & Sons Inc. (2011). (ISBN:978-0470941638, [doi:10.1002/9781118078549](https://doi.org/10.1002/9781118078549))
+* {#Arthur11} John W. Arthur, *Understanding Geometric Algebra for Electromagnetic Theory*, John Wiley & Sons Inc. (2011). (ISBN:978-0470941638, [doi:10.1002/9781118078549](https://doi.org/10.1002/9781118078549))
 
 
 [[!redirects Maxwell equation]]
