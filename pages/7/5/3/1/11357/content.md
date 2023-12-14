@@ -46,7 +46,7 @@ The influential idea goes back to
 
 Mathematical formalization and classification is discussed in 
 
-* {#Costello11} [[Kevin Costello]], from section 15 on in _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+* {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
  
 * {#ElliottSafronov18} [[Chris Elliott]], [[Pavel Safronov]], _Topological twists of supersymmetric observables_ ([arXiv:1805.10806](https://arxiv.org/abs/1805.10806))
 
