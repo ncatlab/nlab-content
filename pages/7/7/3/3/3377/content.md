@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -118,15 +119,19 @@ The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the 
 
 * [[David Baraglia]], _Cyclic Higgs bundles and the affine Toda equations_, [arxiv:1011.6421](https://arxiv.org/abs/1011.6421)
 
-* math.stackexchange:[difference-between-higgs-bundle-and-vector-bundle-with-connection](https://math.stackexchange.com/questions/2498255/difference-between-higgs-bundle-and-vector-bundle-with-connection)
+* [[Kevin Costello]], around lemma 6.4.1 in: *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
 
-Around lemma 6.4.1 in 
+Review:
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimension 2 and 4_ ([pdf](http://www.math.northwestern.edu/~costello/sullivan.pdf))
+* [[Jan Swoboda]], *Moduli Spaces of Higgs Bundles -- Old and New*, Dtsch. Math. Ver. **123** (2021) 65–130 &lbrack;[doi:10.1365/s13291-021-00229-1](https://doi.org/10.1365/s13291-021-00229-1)&rbrack;
 
-See also 
+See also:
 
 * Donu Arapura, _[MO comment on Higgs bundles](http://mathoverflow.net/questions/101326/what-is-the-current-state-of-the-mathematics-of-higgs-fields/101347#101347)_
+
+* math.stackexchange:[difference-between-higgs-bundle-and-vector-bundle-with-connection](https://math.stackexchange.com/questions/2498255/difference-between-higgs-bundle-and-vector-bundle-with-connection)
+
+
 
 Discussion of the topology of the moduli space of Higgs bundles is in
 
