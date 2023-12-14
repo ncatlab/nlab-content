@@ -54,12 +54,23 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
 
 <center>
 <div style="margin:-40px 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/FaradayDiary-FluxLines-Par11911.jpg" width="580">
+<img src="/nlab/files/FaradayDiary-FluxLines-Par11911.jpg" width="580">
 </div>
 </center>
 
 > from *Faraday's diary of experimental investigation*, vol VI, entry from 11th Dec. 1851; reproduced in [Martin (2009)](#Martin09) (p. 311 [here](http://faradaysdiary.com/ws3/faraday.pdf#page=311))
 
+\linebreak
+
+{#Faraday1852PlateIX} Faraday published this one year later:
+
+<center>
+<div style="margin:-40px 10px 10px 0;">
+<img src="/nlab/files/Faraday-ExpResearches29-PlateIX.jpg" width="900">
+</div>
+</center>
+
+> [Faraday 1852, Plate IX, p. 158](#Faraday1852)
 
 ## Examples
 
@@ -86,7 +97,11 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
 
 ## References
 
-History:
+Origin and history:
+
+* {#Faraday1852} [[Michael Faraday]], *Delienation of Lines of Magnetic Force by iron filings*, §37 in: *Experimental Researches in Electricity.--Twenty-Ninth Series*, Philosophical Transactions of the Royal Society of London **142** (1852) 137-159 &lbrack;[doi:10.1098/rstl.1852.0012](https://doi.org/10.1098/rstl.1852.0012), [jstor:108540](https://www.jstor.org/stable/108540)&rbrack;
+
+  > (the notion of "lines of force" is introduced on pp. 154)
 
 * {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
 
@@ -110,6 +125,8 @@ Online exposition
 [[!redirects magnetic flux]]
 [[!redirects electric flux]]
 
+[[!redirects flux line]]
+[[!redirects flux lines]]
 
 
 
