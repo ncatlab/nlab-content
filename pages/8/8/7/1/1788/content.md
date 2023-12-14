@@ -8,3 +8,7 @@ CoInductive conat : Set :=
 
 CoFixpoint omega: conat := cosucc omega.
 ```
+
+\[
+x = y \quad\text{Some text $X$ with math in it}
+\]
