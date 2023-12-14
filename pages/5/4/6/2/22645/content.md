@@ -31,6 +31,10 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,
 =--
 
 
+\begin{definition}
+An [[(∞,1)-category]] $C$ is __regular__ if it admits finite [[(∞,1)-limits]], every morphism in $C$ has an [[image]], i.e., can be written as a composition of an [[(∞,1)-quotient morphism]] and an (∞,1)-monomorphism, and the collection of [[(∞,1)-quotient morphisms]] is closed under base changes.
+\end{definition}
+
 ## Related concepts
 
 * [[regular category]]
@@ -38,6 +42,10 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,
 * [[exact (infinity,1)-category]], [[coherent (infinity,1)-category]], [[(infinity,1)-pretopos]]
 
 * [[infinity-allegory]]
+
+## References
+
+* [[Jacob Lurie]], [[Kerodon]], [Tag 04TM](https://kerodon.net/tag/04TM).
 
 [[!redirects regular (infinity,1)-categories]]
 
