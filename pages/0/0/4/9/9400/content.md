@@ -142,7 +142,7 @@ $$
 $$
 is not van Kampen, neither is the [[coequalizer]] diagram $\mathbf 1 \rightrightarrows \mathbf 1 \to \mathbf 1$.
 
-On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#as_a_coequalizer|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a [[homotopy coequalizer]] diagram because the [[line type]] is [[contractible]]. Furthermore, there is a higher coherence relating the two homotopies obtained by composing the top cofork with the back and right squares and by composing the front and right squares with the bottom cofork, ensuring that this diagram is [[homotopy coherent]].
+On the other hand, in an [[(∞,1)-topos]] (say [[∞Grpd]]), the descent property of the [[circle]] seen [[circle type#types_equivalent_to_the_circle_type|as a coequalizer]] gives a concise proof that the [[loop space]] of the circle is equivalent to the [[integers]]: in the diagram below, the two squares on the left are pullbacks because both $\mathrm{id}$ and $s$ are isomorphisms, and the top row is a [[homotopy coequalizer]] diagram because the [[line type]] is [[contractible]]. Furthermore, there is a higher coherence relating the two homotopies obtained by composing the top cofork with the back and right squares and by composing the front and right squares with the bottom cofork, ensuring that this diagram is [[homotopy coherent]].
 
 $$
 \array{
