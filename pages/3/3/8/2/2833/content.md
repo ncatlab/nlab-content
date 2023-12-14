@@ -5,10 +5,14 @@
 
 On [[perturbative quantum field theory]]:
 
-
 * Kevin Costello, _[[Renormalization and Effective Field Theory]]_
 
 * Kevin Costello, [[Owen Gwilliam]], _[[Factorization algebras in perturbative quantum field theory]]_
+
+On [[supersymmetry|supersymmetric]] [[field theories]] via [[factorization algebras]]:
+
+* {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
+
 
 On [[AdS3/CFT2 duality]]:
 
