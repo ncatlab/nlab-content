@@ -215,8 +215,9 @@ A fairly comprehensive account of factorization algebras as a formalization of [
 
 and the beginnings of
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_, [arXiv:1111.4234](http://arxiv.org/abs/1111.4234)
-* K. Costello, C. Scheimbauer, _Lectures on mathematical aspects of (twisted) supersymmetric gauge theories_, pp. 57-88 in: Mathematical aspects of QFTs, D. Calaque, T. Strobl editors, Springer 2015
+* {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
+
+* [[Kevin Costello]], [[Claudia Scheimbauer]], _Lectures on mathematical aspects of (twisted) supersymmetric gauge theories_, pp. 57-88 in: Mathematical aspects of QFTs, D. Calaque, T. Strobl editors, Springer 2015
 
 Lecture notes:
 
