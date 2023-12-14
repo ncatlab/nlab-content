@@ -20,6 +20,12 @@ While enriched categories and internal categories are defined with respect to di
 
 We may also internalise a category in a [[internal category in a monoidal category|monoidal category]]. One might expect that the same relationship holds in this generalised setting, though it does not appear this has been worked out in the literature.
 
+## Related concepts
+
+* [[enriched category]] and [[internal category]]
+
+* [[model structure on enriched categories]] and [[model structure on internal categories]]
+
 ## References
 
 The equivalence between categories enriched in $K$ and categories internal to $K$ with a discrete object of objects is due to the appendix of:
