@@ -158,8 +158,8 @@ and is discussed also for instance in section 5.1 of
 
 A brief review of these matters is in ([Moore 12, section 7](#Moore12)). A formalization of the [[topological twist]] in  [[perturbation theory]] formalized by [[factorization algebras]] with values in [[BV complexes]] is in section 16 of
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
- {#Costello11}
+* {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
+
 
 For more on this see at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 
