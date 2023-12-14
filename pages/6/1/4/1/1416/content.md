@@ -156,7 +156,7 @@ Finally, we can give the most general definition, due to [Karazeris](#Karazeris)
 +-- {: .num_defn #CoveringFlat}
 ###### Definition
 Let $E$ be any [[site]].  A functor $F\colon C\to E$ is **flat** if for any finite diagram $D\colon I\to C$ and any [[cone]] $T$ over $F\circ D$ in $E$ with vertex $u$, the [[sieve]]
-$$ \{ h\colon v\to u | T h \;\text{ factors through the }\; F\text{-image of some cone over }\; D \} $$
+$$ \{ h\colon v\to u | T h \,\text{ factors through the }\, F\text{-image of some cone over }\, D \} $$
 is a covering sieve of $u$ in $E$.
 =--
 
