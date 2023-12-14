@@ -2109,6 +2109,7 @@ Stone-von Neumann**
 
 \linebreak
 
+
 ### Dec 2023
 
 * {#TorzewskaDec2023} 06 Dec 2023
@@ -2116,6 +2117,8 @@ Stone-von Neumann**
   [[Fiona Torzewska]] (University of Leeds, UK):
 
   **Topological Quantum Field Theories and Homotopy Cobordisms**
+
+  slides: [[Torzewska-TQFTandHomCob.pdf:file]]
 
   video: [YT](https://youtu.be/7rtJ61EPL-M)
 
