@@ -337,7 +337,7 @@ The discussion in the [[first order formulation of gravity]] is given in
 
 A formalization of Kaluza-Klein compactification in [[perturbation theory]] formalized by [[factorization algebras]] with values in [[BV-complexes]] is in section 19 of
 
-* {#Costello11} [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+* {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
  
 
 A textbook account of the geometry behind the [[Lorentz force]] in the Kaluza-Klein mechanism (the idea that geodesics on the gauge bundle project to curved trajectories on the base manifold) can be found in the introduction of chapter 1 and in chapters 9 and 10 of:
