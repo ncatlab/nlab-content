@@ -12,3 +12,7 @@ CoFixpoint omega: conat := cosucc omega.
 \[
 x = y \quad\text{Some text $X$ with math in it}
 \]
+
+\[
+x = y \quad\hbox{Some text $X$ with math in it}
+\]
