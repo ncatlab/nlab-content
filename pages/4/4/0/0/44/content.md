@@ -94,7 +94,7 @@ The same mechanism is amplified further in the discussion of [[derived different
 
 An interpretation of an $\mathbb{G}_m \ltimes \Pi \mathbb{G}_{ad}$-[[action]] on a [[supermanifold]] of local [[quantum observables]] of a [[supersymmetry|supersymmetric]] [[field theory]] as the formalization of the concept of [[topologically twisted super Yang-Mills theory]] is in section 15 of 
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+* {#Costello11} [[Kevin Costello]], *Notes on supersymmetric and holomorphic field theories in dimension 2 and 4*, talk at *[Geometric and Algebraic Structures in Mathematics](https://www.math.stonybrook.edu/dennisfest/)*, Stony Brook (2011) &lbrack;[arXiv:1111.4234](https://arxiv.org/abs/1111.4234)&rbrack;
 
 For more on this see at _[topologically twisted super Yang-Mills theory -- Formalization](topologically+twisted+D%3D4+super+Yang-Mills+theory#Formalization)_.
 
