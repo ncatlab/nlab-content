@@ -2,7 +2,7 @@ __Jean-Louis Loday__ (deceased June 2012) was a French mathematician who was, at
 
 * [SMF notice of decease](http://smf.emath.fr/content/d%C3%A9c%C3%A8s-de-jean-louis-loday)
 
-* [webpage](http://www-irma.u-strasbg.fr/~loday)
+* [old webpage](https://web.archive.org/web/20110823075214/http://www-irma.u-strasbg.fr/~loday/)
 
 
 ## Selected writings
