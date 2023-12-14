@@ -1,10 +1,12 @@
+
 # Logarithms
 * table of contents
 {: toc}
 
+
 ## Idea
 
-Classically, a logarithm is a [[partial function|partially-defined]] [[smooth map|smooth]] [[homomorphism]] from a multiplicative [[group]] of [[number]]s to an additive group of numbers.  As such, it is a [[local section]] of an [[exponential map]].  As exponential maps can be generalised to [[Lie groups]], so can logarithms.
+Classically, a logarithm is a [[partial function|partially-defined]] [[smooth map|smooth]] [[homomorphism]] from a multiplicative [[group]] of [[numbers]] to an additive group of numbers.  As such, it is a [[local section]] of an [[exponential map]].  As exponential maps can be generalised to [[Lie groups]], so can logarithms.
 
 
 ## Definitions
@@ -31,7 +33,7 @@ However, $\mathbb{C}$ and $\mathbb{C}^*$ are *not* [[isomorphic]]. Indeed, the m
 
 $$\mathbb{R}^* \times S^1 \to \mathbb{C}^*$$ 
 
-exhibits $\mathbb{C}^*$ as a [[biproduct]] of $\mathbb{R}^*$ and the [[circle group]] $S^1$, so that homomorphisms $\mathbb{C}^* \to \mathbb{C}$ are given by pairs of homomorphisms $f \colon \mathbb{R}^* \to \mathbb{C}$, $g \colon S^1 \to \mathbb{C}$. But every homomorphisms $g \colon S^1 \to \mathbb{C}$ is trivial: the restriction of $g$ to the [[torsion subgroup]] of $S^1$ is trivial since $\mathbb{C}$ is torsionfree, and since the torsion subgroup is dense in $S^1$, any Lie group homomorphism $S^1 \to \mathbb{C}$ must also be trivial. Therefore, every homomorphism $h \colon \mathbb{C}^* \to \mathbb{C}$ factors through the projection $\mathbb{C}^* \to \mathbb{R}^*$. It quickly follows that no such $h$ can be injective, nor can such $h$ be surjective. 
+exhibits $\mathbb{C}^*$ as a [[biproduct]] (in [[Ab]]) of $\mathbb{R}^*$ and the [[circle group]] $S^1$, so that homomorphisms $\mathbb{C}^* \to \mathbb{C}$ are given by pairs of homomorphisms $f \colon \mathbb{R}^* \to \mathbb{C}$, $g \colon S^1 \to \mathbb{C}$. But every homomorphisms $g \colon S^1 \to \mathbb{C}$ is trivial: the restriction of $g$ to the [[torsion subgroup]] of $S^1$ is trivial since $\mathbb{C}$ is torsionfree, and since the torsion subgroup is dense in $S^1$, any Lie group homomorphism $S^1 \to \mathbb{C}$ must also be trivial. Therefore, every homomorphism $h \colon \mathbb{C}^* \to \mathbb{C}$ factors through the projection $\mathbb{C}^* \to \mathbb{R}^*$. It quickly follows that no such $h$ can be injective, nor can such $h$ be surjective. 
 
 Taking advantage of biproduct representations $\mathbb{C} \cong \mathbb{R} \oplus \mathbb{R}$ and $\mathbb{C}^* \cong \mathbb{R}^* \oplus S^1$, we can classify homomorphisms from $\mathbb{C}$ to $\mathbb{C}^*$. Each is given by a 4-tuple of real numbers $(a, b, c, d)$: 
 
@@ -56,7 +58,7 @@ $$ \array {
 
 ### Logarithms and Lie groups
 
-In the classical examples, the multiplicative groups $\mathbb{R}^+$ and $\mathbb{C}^*$ both [[Lie groups]].  The additive groups $\mathbb{R}$ and $\mathbb{C}$ are also Lie groups, but they are more than this: they are [[Lie algebras]].  (The additive group of a Lie algebra is always a Lie group.  Actually, since these are [[abelian Lie algebras]], their Lie-algebra structure is easy to miss, but of course they are [[vector spaces]].)  And what\'s more, each additive group is *the* Lie algebra of the corresponding Lie group.
+In the classical examples, the multiplicative groups $\mathbb{R}^+$ and $\mathbb{C}^*$ are both [[Lie groups]].  The additive groups $\mathbb{R}$ and $\mathbb{C}$ are also Lie groups, but they are more than this: they are [[Lie algebras]].  (The additive group of a Lie algebra is always a Lie group.  Actually, since these are [[abelian Lie algebras]], their Lie-algebra structure is easy to miss, but of course they are [[vector spaces]].)  And what\'s more, each additive group is *the* Lie algebra of the corresponding Lie group.
 
 This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie algebra]].  Then we have an [[exponential map]] $\exp\colon \mathfrak{g} \to G$, which is [[surjection|surjective]] under certain conditions (most famously when $G$ is [[connected space|connected]] and [[compact space|compact]], but also in the classical cases, even though $G$ is not compact).  More generally, given any [[automorphism]] $\phi$ of $\mathfrak{g}$, we have a map $x \mapsto \exp(\phi(x))$, which is a [[homomorphism]] of Lie groups.  Any [[local section]] of this map may be called a __logarithm base $\phi$__ on $G$ (denoted $\log_{[\phi]}$ with the bracket as in the previous section); any local section of $\exp$ itself may be called a __natural logarithm__ on $G$.
 
@@ -185,11 +187,9 @@ Discussion in [[point-free topology]]:
 
 
 [[!redirects logarithm]]
-
 [[!redirects logarithms]]
 
 [[!redirects logarithmic]]
 
 [[!redirects natural logarithm]]
-
 [[!redirects natural logarithms]]
