@@ -1174,6 +1174,10 @@ Relation to [[pure spinor]]-formalism:
 
 * [[Pietro Antonio Grassi]], *Remarks on the Integral Form of $D=11$ Supergravity* &lbrack;[arXiv:2304.01743](https://arxiv.org/abs/2304.01743)&rbrack;
 
+See also:
+
+* S. Salgado, *Non-linear realizations and invariant action principles in higher gauge theory* &lbrack;[arXiv:2312.08285](https://arxiv.org/abs/2312.08285)&rbrack;
+
 
 
 [[!redirects geometric supergravity]]
