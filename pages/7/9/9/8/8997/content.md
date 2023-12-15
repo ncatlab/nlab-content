@@ -48,7 +48,9 @@ In ([[homotopy type theory|homotopy]]) [[type theory]], by
 
 * Matthieu Sozeau and Nicolas Tabareau, *Universe polymorphism in Coq*, In: Klein G., Gamboa R. (eds) Interactive Theorem Proving. ITP 2014. Lecture Notes in Computer Science, vol 8558. Springer, Cham. [doi](https://doi.org/10.1007/978-3-319-08970-6_32)
 
-* András Kovács, *Generalized Universe Hierarchies and First-Class Universe Levels*, 2021, [arxiv:2103.00223](https://arxiv.org/abs/2103.00223).
+* [[András Kovács]], *Generalized Universe Hierarchies and First-Class Universe Levels*, 2021, [arxiv:2103.00223](https://arxiv.org/abs/2103.00223).
+
+* [[Favonia]], [[Carlo Angiuli]], [[Reed Mullanix]], *An Order-Theoretic Analysis of Universe Polymorphism*, Proceedings of the ACM on Programming Languages **7** 57 (2023) 1659–1685 &lbrack;[doi:10.1145/3571250](https://doi.org/10.1145/3571250)&rbrack;
 
 [[!redirects universe polymorphisms]]
 
