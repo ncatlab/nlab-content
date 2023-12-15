@@ -37,7 +37,7 @@ Globally the notion of canonical momenta may not exist at all. The notion that d
 
 ### On a symplectic vector space
 
-Discussion of how there is a flat connection on the bundle of [[spaces of quantum states]] over the space of choices of [[polarizations]] of a [[symplectic vector space]] and how this reproduces the traditional relation between canonical coordinates and canonical momenta by [[Fourier transformation]] is in ([Kirwin-Wu 04](#KirwinWu04)).
+Discussion of how there is a flat connection on the bundle of [[spaces of quantum states]] over the space of choices of [[polarizations]] of a [[symplectic vector space]] and how this reproduces the traditional relation between canonical coordinates and canonical momenta by [[Fourier transform]] is in ([Kirwin-Wu 04](#KirwinWu04)).
 
 ## Related concepts
 
