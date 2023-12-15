@@ -1,4 +1,58 @@
 
+$$
+  C
+  \;=\;
+  \tfrac{1}{6} C_{\kappa \mu \nu} 
+  \mathrm{d}x^{\kappa} 
+  \wedge
+  \mathrm{d}x^{\mu} 
+  \wedge
+  \mathrm{d}x^{\nu} 
+  =
+  \tfrac{1}{2}
+  C_{0 \mu \nu}
+  \mathrm{d}x^{\mu} 
+  \wedge
+  \mathrm{d}x^{\nu} 
+  + \cdot
+  =
+  C_{0 X}
+$$
+
+
+$$
+  \begin{array}{l}
+    L
+    \;\equiv\;
+    \tfrac{1}{2}
+    \mathrm{d}C
+    \wedge
+    \star
+    \mathrm{d}C
+    +
+    \tfrac{1}{6}
+    C \wedge \mathrm{d}C \wedge \mathrm{d}C
+    \\
+    \;=\;
+    \tfrac{1}{2}
+    \Big(
+      - 
+      \partial_0 C_X
+      \wedge \mathrm{d}t 
+      +
+      \mathrm{d}_X C_{0 X} \wedge \mathrm{d}t
+    \Big)
+    \wedge \star \mathrm{d}C
+    +
+    \tfrac{1}{6}
+    C \wedge \mathrm{d}C \wedge \mathrm{d}C
+  \end{array}
+$$
+
+
+
+
+
 
 Consider $\mathfrak{g}$-[[Yang-Mills theory]] on a [[globally hyperbolic spacetime]] $\mathbb{R}^{0,1} \times X$ for $X$ a [[Riemannian manifold|Riemmannian]] [[2-manifold]]. Then for $A = A_0 + A_X \in \Omega_{dR}^1(\mathbb{R}^{0,1} \times X; \mathfrak{g}_P)$ we have
 
