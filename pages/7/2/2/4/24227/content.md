@@ -12,4 +12,9 @@ On [[XTT]]:
 
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
+On [[universe polymorphism]] in [[dependent type theory]] via [[monads]]:
+
+* [[Favonia]], [[Carlo Angiuli]], [[Reed Mullanix]], *An Order-Theoretic Analysis of Universe Polymorphism*, Proceedings of the ACM on Programming Languages **7** 57 (2023) 1659–1685 &lbrack;[doi:10.1145/3571250](https://doi.org/10.1145/3571250)&rbrack;
+
+
 category: people
