@@ -19,6 +19,8 @@ The *$\pi$-calculus* is a [[computational]] model for concurrent processes that 
 
 In the monadic (here meaning: *[[unary]]*) $\pi$-calculus, outputs and inputs only send and receive single names, while the polyadic (here meaning: *[[n-ary|$n$-ary]]*) $\pi$-calculus allows outputs of tuples of names and corresponding inputs.
 
+This calculus permits non-[[confluent]] reductions by design, as opposed to other process calculi such as the Interactive Lambda Calculus (ILC).
+
 ## Syntax
 
 A process is either:
@@ -42,8 +44,7 @@ Sometimes an [[nondeterministic computation|indeterministic]] choice operator $+
 
 Several attempts have been made to give the $\pi$-calculus [[typing systems]]. It is crucial for $\mathrm{HO}\pi$, a [[higher-order  logic|higher-order]] $\pi$-calculus in which messages can be processes themselves.
 
-Typed $\pi$-calculus corresponds to a [[distributed logic]]: using a
-property proven at some place supposes therefore a call to that property under a name. Theorems can be used many times, but lemmas are limited to one use.
+Typed $\pi$-calculus corresponds to a [[distributed logic]]: using a property proven at some place supposes therefore a call to that property under a name. Theorems can be used many times, but lemmas are limited to one use.
 
 Typing | Intuitive signification
 -------|------------------------
@@ -57,5 +58,6 @@ $\overline{a}\langle M,N\rangle:r$ | Use Lemma 1, knowing that $p$ and $q$, to p
 * Jeannette M. Wing, _FAQ on $\pi$-Calculus_, (2022) ([pdf](https://www.cs.cmu.edu/~wing/publications/Wing02a.pdf)).
 * Noël Bernard, _Investigating the Logical Aspects of the Pi-calculus_, 
 Schedae Informaticae, **12** (2003) 57-66 ([hal-00386109](https://hal.science/hal-00386109)).
+* Kevin Liao, Matthew A. Hammer and Andrew Miller, _ILC: A Calculus for Composable, Computational Cryptography_, Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, (2019) 640-654 ([doi:10.1145/3314221.3314607](https://dl.acm.org/doi/10.1145/3314221.3314607), [pdf](https://eprint.iacr.org/2019/402.pdf)).
 
 [[!redirects π-calculus]]
