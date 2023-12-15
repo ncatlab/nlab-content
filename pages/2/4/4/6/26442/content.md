@@ -12,7 +12,7 @@
 
 ## References
 
-[[internal category|Categories internal to]] [[toposes]]:
+[[internal category|Categories internal to]]&nbsp; [[toposes]]:
 
 * {#JoyalTierney91} [[André Joyal]], [[Myles Tierney]], Thm. 4 (p. 232) of: *Strong stacks and classifying spaces*, in: *Category Theory* Lecture Notes in Mathematics **1488**, Springer (1991) 213-236 &lbrack;[doi:10.1007/BFb0084222](https://doi.org/10.1007/BFb0084222)&rbrack;
 
