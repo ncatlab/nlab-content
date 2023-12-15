@@ -185,6 +185,8 @@ Introductions:
 
 * [[Richard Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
 
+* [[David Tong]], *Lectures on Quantum Field Theory*, Cambridge (2006-7) &lbrack;[pdf](https://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf), [web](https://www.damtp.cam.ac.uk/user/tong/qft.html)&rbrack;
+
 A standard textbook written from the perspective of [[effective field theory]]:
 
 * {#Weinberg95} [[Steven Weinberg]] _The Quantum Theory of Fields_, Cambridge University Press (1995)
