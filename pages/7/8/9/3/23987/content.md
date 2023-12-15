@@ -840,6 +840,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   * [[Thorsten Altenkirch]]
 
+  * [[Carlo Angiuli]]
+
   * [[Ulrik Buchholtz]]
 
   * [[Ugo Dal Lago]]
@@ -857,6 +859,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   * [[Dongho Lee]]
 
   * [[Anders Mörtberg]]
+
+  * [[Reed Mullanix]]
 
   * [[Jennifer Paykin]] (tbc)
 
