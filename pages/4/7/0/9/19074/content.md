@@ -6,7 +6,7 @@ Richard Wood is a mathematician specializing in category theory and lattice theo
 
 Introducing the notion of [[locally graded categories]] (under the name *large $V$-categories*):
 
-* [[Richard Wood]], *Indical methods for relative categories*, PhD thesis (1976) &lbrack;[hdl:10222/55465](http://hdl.handle.net/10222/55465)&rbrack;
+* [[Richard Wood]], *Indicial methods for relative categories*, PhD thesis (1976) &lbrack;[hdl:10222/55465](http://hdl.handle.net/10222/55465)&rbrack;
 
 * [[Richard Wood]],  *$V$-indexed categories*, in *Indexed Categories and Their Applications*, Lecture Notes in Mathematics **661** (1978) 126-140 &lbrack;[doi:10.1007/BFb0061362](https://link.springer.com/chapter/10.1007/BFb0061362)&rbrack;
 
