@@ -9,8 +9,6 @@
 =--
 =--
 
-# Locally internal categories
-
 * table of contents
 {: toc}
 
