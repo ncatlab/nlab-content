@@ -26,7 +26,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Catégories internes et fibrations ; Cohomologie de Gel'fand-Fuks|[[Jean Celeyrette]]|1975|[[celeyrette-thesis-1975.pdf:file]]|[[internal categories]], [[fibrations]], [[Gelfand-Fuks cohomology]]|
 |Théorie formelle des bicatégories|[[Syméon Bozapalides]]|1976| <a href="/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
-|Indical methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
+|Indicial methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
 |Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content)| |
 |Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
 |Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| on [[exponentiable objects]] (there called "cartesian objects") |
