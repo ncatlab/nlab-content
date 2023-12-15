@@ -78,7 +78,7 @@ For instance if $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]] the
 
 If $\mathfrak{g} = \mathfrak{u}(1) = \mathbb{R}$ is the abelian 1-dimensional Lie algebra, then a morphism $T X \to \mathfrak{g}$ is just a closed [[differential form|differential 1-form]] on $X$.
 
-More on $\infty$-Lie algebroid-valued differential forms is (eventually) at [[schreiber:∞-Lie algebroid valued differential forms]].
+More on $\infty$-Lie algebroid-valued differential forms is (eventually) at [[∞-Lie algebroid valued differential forms]].
 
 
 ## Related concepts
