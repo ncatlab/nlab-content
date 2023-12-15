@@ -254,7 +254,7 @@ On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-
 
 * [[Jonathan Dimock]], *Canonical Quantization of Yang-Millson a circle*,  Reviews in Mathematical Physics **08** 01 (1996) 85-102 &lbrack;[doi:10.1142/S0129055X96000044](https://doi.org/10.1142/S0129055X96000044)&rbrack;
 
-* {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[arXiv:2004.14406](https://arxiv.org/abs/2004.14406), [doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366)&rbrack;
+* {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366), [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)&rbrack;
 
 * {#Riello21} Aldo Riello, *Symplectic reduction of Yang-Mills theory with boundaries: from superselection sectors to edge modes, and back*, SciPost Phys. **10** 125 (2021) &lbrack;[doi:10.21468/SciPostPhys.10.6.125](https://scipost.org/SciPostPhys.10.6.125)&rbrack;
 
