@@ -38,6 +38,11 @@ On [[solitons]]:
 
 * {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
 
+On [[quantum field theory]]:
+
+* [[David Tong]], *Lectures on Quantum Field Theory*, Cambridge (2006-7) &lbrack;[pdf](https://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf), [web](https://www.damtp.cam.ac.uk/user/tong/qft.html)&rbrack;
+
+
 
 On [[fractional M2-branes]]
 
