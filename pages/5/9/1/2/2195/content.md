@@ -784,3 +784,8 @@ category: analysis
 
 [[!redirects Fourier expansion]]
 [[!redirects Fourier expansions]]
+
+[[!redirects Fourier transformation]]
+[[!redirects Fourier transformations]]
+
+
