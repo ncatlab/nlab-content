@@ -24,6 +24,14 @@
 
 The notion of _coinductive types_ is [[duality|dual]] to that of _[[inductive types]]_.
 
+## Examples
+
+Examples of coinductive types include:
+
+* streams (infinite sequences);
+* [[trees]] with infinite branches;
+* [[conatural numbers]].
+
 ## Properties
 
 ### Categorical semantics
@@ -49,6 +57,7 @@ However, it is possible instead to dualize the alternative characterization of i
 * [[codependent type theory]]
 
 [[!redirects coinductive types]]
+[[!redirects codata]]
 
 ## References
 
