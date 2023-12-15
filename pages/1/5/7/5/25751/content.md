@@ -26,6 +26,16 @@ The notion of **locally graded category** is a joint generalisation of [[enriche
 
 Let $(V, \otimes, I)$ be a [[monoidal category]]. For small $V$, a **locally $V$-graded category** is a [[enriched category|category enriched]] over the [[presheaf category]] $([V^{op}, Set], \widehat\otimes, y_V)$, regarded with its monoidal structure given by [[Day convolution]].
 
+Explicitly, a locally $V$-graded category $C$ comprises:
+
+- a class $|C|$ of objects
+- for all $v \in V$ and $c, c' \in |C|$, a set $C_v(c, c')$ of $v$-graded morphisms
+- for every $v$-graded morphism $f : c \to c'$ and $p : v' \to v$, a $v'$-graded morphism $p^* f : c \to c'$
+- a $I$-graded identity morphism $1_c$ for each object $c \in |C|$
+- a $v \otimes v'$-graded composite morphism $gf : c \to c''$ for each $v$-graded morphism $f : c \to c'$ and $v'$-graded morphism $g : c' \to c''$
+
+satisfying evident laws.
+
 ## Locally indexed categories
 
 The presheaf category $[V^{op}, Set]$ is also [[cartesian monoidal category|cartesian monoidal]]. A category enriched in $([V^{op}, Set], \times, 1)$ is called **locally $V$-indexed** by [Levy (2019)](#Levy19).
