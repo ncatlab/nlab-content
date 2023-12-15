@@ -1405,11 +1405,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 11 Dec 2023
+* {#RamanathanDec2023} 11 Dec 2023
 
   [[Chandrasekhar Ramanathan]] (Dartmouth College, New Hampshire):
 
   **Quieting Noisy Neighbors: Extending the Coherence Times of Central Electronic Spins in Solids**
+
+  video: [YT](https://youtu.be/FfgT3AAuEt8)
 
   cf.: [arXiv:arXiv:2311.05396](nitrogen-vacancy+center+in+diamond#BSERTRH23)
 
