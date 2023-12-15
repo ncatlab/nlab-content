@@ -7,7 +7,7 @@
 
 ## Idea
 
-Differential linear logic is an extension of [[linear logic]]. New inference rules are added which allow to differentiate proofs. Proofs must be understood as morphisms and the new inference rules are here to differentiate them. It was realised than in some denotational models of linear logic, the morphisms of the [[Kleisli category|co-Kleisli category]] are differentiable, and it was then reflected in the syntax by these new inference rules. Thus, one really needs to take the point of view of [[computational trinitarianism]] in order to understand the transition from linear logic to differential linear logic. It is more difficult to understand naively the proofs of differential linear logic than the ones of linear logic.
+Differential linear logic is an extension of [[linear logic]]. New inference rules are added which allow to differentiate proofs. Proofs must be understood as morphisms and the new inference rules are here to differentiate them. It was realised than in some denotational models of linear logic, the morphisms of the [[co-Kleisli category]] are differentiable, and it was then reflected in the syntax by these new inference rules. Thus, one really needs to take the point of view of [[computational trinitarianism]] in order to understand the transition from linear logic to differential linear logic. It is more difficult to understand naively the proofs of differential linear logic than the ones of linear logic.
 
 Differential linear logic can be presented in different guises whether we include the additives or not, and whether we include the promotion or not. We start by presenting the version without additives and with promotion. We will refer to this logic as DiLL.
 
