@@ -113,6 +113,12 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 [[!include electromagnetism in terms of differential forms -- references]]
 
 
+### Phase space and Poisson brackets:
+
+* {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366), [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)&rbrack;
+
+
+
 ### Quantum electromagnetism
 
 Discussion of electromagnetism in the generality of [[quantum field theory on curved spacetimes]] originates with 
