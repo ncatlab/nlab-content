@@ -27,8 +27,12 @@ On [[cellular cohomology]] formulated in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, Logical Methods in Computer Science, Volume 16, Issue 2 (June 1, 2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
 
+On [[universe polymorphism]] in [[dependent type theory]] via [[monads]]:
 
-## Related $n$Lab entries
+* [[Favonia]], [[Carlo Angiuli]], [[Reed Mullanix]], *An Order-Theoretic Analysis of Universe Polymorphism*, Proceedings of the ACM on Programming Languages **7** 57 (2023) 1659–1685 &lbrack;[doi:10.1145/3571250](https://doi.org/10.1145/3571250)&rbrack;
+
+
+## Related entries
 
 * [[homotopy type theory]]
 
