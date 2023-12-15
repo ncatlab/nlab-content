@@ -19,6 +19,66 @@ $$
   C_{0 X}
 $$
 
+$$
+  \mathrm{d}C
+  \;\equiv\;
+  F_X
+  -
+  \star E_X
+  \,\;\;\;\;
+  \left\{
+  \begin{array}{l}
+    F_X \,\in\, \Omega^4_{dR}(X)
+    \\
+    E_X \,\in\, \Omega^7_{dR}(X)
+  \end{array}
+  \right.
+$$
+
+$$
+  \star \star \,=\, -1
+$$
+
+hence
+
+$$
+  \star \mathrm{d}C
+  \;=\;
+  E_X
+  +
+  \star F_X
+$$
+
+
+$$
+  \begin{array}{l}
+    \mathrm{d} 
+    \star \mathrm{d} C
+    +
+    \tfrac{1}{2}
+    \mathrm{d} C
+    \wedge
+    \mathrm{d} C
+    \\
+    \;=\;
+    \big(
+    \mathrm{d}_X E_X
+    +
+    \tfrac{1}{2}
+    F_X \wedge F_X
+    \big)
+    +
+    \big(
+      \mathrm{d}_t E_X
+      -
+      \mathrm{d}_X
+      \star F_X
+      -
+      F_X \wedge \star E_X
+    \big)
+  \end{array}
+$$
+
 
 $$
   \begin{array}{l}
@@ -41,15 +101,39 @@ $$
       \wedge \mathrm{d}t 
       +
       \mathrm{d}_X C_{0 X} \wedge \mathrm{d}t
+      +
+      \mathrm{d}_X C_X
     \Big)
-    \wedge \star \mathrm{d}C
+    \wedge 
+    \star
+    \mathrm{d}C
     +
     \tfrac{1}{6}
     C \wedge \mathrm{d}C \wedge \mathrm{d}C
   \end{array}
 $$
 
+$$
+  \pi_0
+  \,=\,
+  0
+$$
 
+$$
+  \pi^X 
+  \,=\, 
+  - \star \star E 
+  \;=\;
+  E
+$$
+
+$$
+  H
+  \;=\;
+  (\partial_0 C_X) \wedge \pi^X
+  +
+  \partial_0 C_{0 X} \wedge \pi^0
+$$
 
 
 
