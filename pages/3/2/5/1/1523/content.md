@@ -43,6 +43,17 @@ pred(x) = \begin{cases}
 (x_1,x_2,\ldots) & if\; x_0 = 0 .\end{cases}
 $$
 
+## Formalization in proof assistants
+
+With the [[Coq]] [[proof assistant]]:
+
+```coq
+CoInductive conat : Set :=
+| cozero : conat
+| cosucc : conat -> conat.
+
+CoFixpoint omega : conat := cosucc omega.
+```
 
 ## Topology
 
@@ -87,3 +98,9 @@ The claim that every extended natural number is either finite or infinite is equ
 [[!redirects extended natural number]]
 [[!redirects extended natural numbers]]
 [[!redirects extended natural number system]]
+
+[[!redirects conatural number]]
+[[!redirects conatural numbers]]
+[[!redirects conat]]
+[[!redirects conumber]]
+[[!redirects conumbers]]
