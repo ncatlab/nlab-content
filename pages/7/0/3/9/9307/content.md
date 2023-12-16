@@ -124,5 +124,11 @@ exposition
 
 * [[Luigi Alfonsi]]: *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, [talk at](M-Theory+and+Mathematics#Alfonsi2023) *[[M-Theory and Mathematics]]* (Jan 2023) &lbrack;slides: [[Alfonsi-MTheoryAndMath2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=O7pQkyqCiA4)&rbrack;
 
+Review:
+
+* [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]* &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
+
+* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
 
 
