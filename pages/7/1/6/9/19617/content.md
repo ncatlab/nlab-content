@@ -68,6 +68,9 @@ On [[derived differential geometry]] and [[higher Lie theory]] cast in ([[differ
 
 * [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
 
+On [[higher geometry]] ([[higher differential geometry]]) in physics:
+
+* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
 
 
 ## Invited talks
