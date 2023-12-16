@@ -30,7 +30,7 @@
 
 
 
-See most references on [[electromagnetism]], e.g. the article
+See most references on [[electromagnetism]], e.g. these articles
 
 * {#Russkoff70} G. Russakoff, *A Derivation of the Macroscopic Maxwell Equations*, American Journal of Physics **38** (1970) 1188–1195 &lbrack;[doi:10.1119/1.1976000](https://doi.org/10.1119/1.1976000)&rbrack;
 
