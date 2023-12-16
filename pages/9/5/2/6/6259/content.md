@@ -199,8 +199,7 @@ By the above discussion (...) the [[partition function]] of self-dual higher gau
 
 For $k = 0$ the self-dual theory abelian is that of a [[scalar field]] $\phi$ on a real-2-dimensional surface $\Sigma$ such that $\mathbf{d}\phi$ is self-dual. For any [[complex structure]] on $\Sigma$, making it a [[complex torus]], this makes $\phi$ a "chiral" boson, in the sense of a chiral half of the $U(1)$-[[WZW model]].
 
-A quick review as a warm-up for the higher dimensional case is in 
-([Witten 96, section 2](#Witten96)). A detailed discussion is in ([GBMNV](#GBMNV)) and see the references at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
+Original discussion is due to [Srivastava 1989](#Srivastava89), [GGR 1992](#GGR92). A quick review as a warm-up for the higher dimensional case is in  [Witten 96, section 2](#Witten96). More discussion is in [GBMNV](#GBMNV) [Miao & Müller-Kirsten 2000](#MiaoMüller-Kirsten00), see also the references at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
 
 ### Chiral 2-form in 6d (on the M5-brane)
@@ -326,9 +325,16 @@ Original reference on self-dual/chiral fields include
 
 * [[Mans Henningson]], _The quantum Hilbert space of a chiral two-form in $d = 5 + 1$ dimensions_ ([arxiv:hep-th/0111150](http://arxiv.org/abs/hep-th/0111150))
 
-The chiral boson in 2d is discussed in detail in 
+The chiral boson in 2d:
 
-* {#GBMNV} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. 
+* {#Srivastava89} Prem P. Srivastava, *Quantization of self-dual field revisited*, Phys. Rev. Lett. **63** (1989) 2791 &lbrack;[doi:10.1103/PhysRevLett.63.2791](https://doi.org/10.1103/PhysRevLett.63.2791)&rbrack;
+
+* {#GGR92} H. O. Girotti, M. Gomes, and V. O. Rivelles, *Chiral bosons through linear constraints*, Phys. Rev. D **45** (1992) R3329(R) &lbrack;[doi:10.1103/PhysRevD.45.R3329](https://doi.org/10.1103/PhysRevD.45.R3329)&rbrack;
+
+* {#GBMNV} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Greg Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503 &lbrack;[doi:10.1007/BF01218489](https://doi.org/10.1007/BF01218489), [pdf](https://core.ac.uk/download/pdf/76393468.pdf)&rbrack; 
+
+* {#MiaoMüller-Kirsten00} Yan-Gang Miao and H. J. W. Müller-Kirsten, *Self-duality of various chiral boson actions*, Phys. Rev. D **62** (2000) 045014 &lbrack;[doi:10.1103/PhysRevD.62.045014](https://doi.org/10.1103/PhysRevD.62.045014)&rbrack;
+
 
 A quick exposition of the basic idea is in
 
