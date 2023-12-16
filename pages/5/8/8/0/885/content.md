@@ -278,6 +278,8 @@ This is relevant to [[constructive algebra]], as this shows that formulating cha
 
 * [[decimal numeral representation of the natural numbers]]
 
+* [[conatural number]]
+
 * [[carrying]]
 
 * [[currying]]
