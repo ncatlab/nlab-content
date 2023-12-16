@@ -33,6 +33,10 @@ On [[accessible categories]] via [[doctrines of limits]]:
 
 * {#AdámekBorceuxLackRosicky2002} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, Journal of Pure and Applied Algebra **175** 1–3 (2002)  7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
 
+On [[coalgebras over endofunctors]]:
+
+* [[Jiří Adámek]], _Introduction to Coalgebra_, Theory and Applications of Categories **14** 8 (2005) 157-199 &lbrack;[tac:14-8](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/14/8/14-08.pdf)&rbrack;
+
 On [[algebraic theories]]:
 
 * [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], *Algebraic theories*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511760754](https://doi.org/10.1017/CBO9780511760754), [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf)&rbrack;
