@@ -142,7 +142,7 @@ is the chain complex concentrated in degree 0 on the tensor unit $R$ of $R Mod$.
 +-- {: .num_prop }
 ###### Proposition
 
-In fact $(Ch_\bullet, \otimes)$ is a [[closed monoidal category]], 
+In fact $(Ch_\bullet(R Mod), \otimes)$ is a [[closed monoidal category]], 
 the [[internal hom]] is the standard [[nLab:internal hom of chain complexes]].
 
 =--
