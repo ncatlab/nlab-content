@@ -58,6 +58,11 @@ On [[higher topos theory]] in physics:
 * [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]* &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
 
 
+On [[higher geometry]] in physics:
+
+* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
+
 (...)
 
 category: reference
