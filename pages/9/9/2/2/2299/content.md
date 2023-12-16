@@ -173,19 +173,23 @@ The gros topos approach is described, in the case of [[homotopical algebraic geo
 
 A general exposition of the petit topos approach is proposed in
 
-* [[Jacob Lurie]], _[[Structured Spaces]]_ .
-{#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Structured Spaces]]_ .
+
 
 In 
 
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
-
-{#Lawvere}
-
+* {#Lawvere} [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
 
 an axiomatization of generalized geometry is proposed in terms of 1-[[category theory]]. The evident generalization of this to [[(∞,1)-category theory]] provides an axiomatization for higher geometry. This is discussed at
 
 * [[cohesive (∞,1)-topos]].
+
+Review:
+
+* [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]* &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
+
+* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
 
 [[!redirects higher geometries]]
