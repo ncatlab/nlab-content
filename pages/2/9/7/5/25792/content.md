@@ -298,6 +298,9 @@ Further discussion:
 
 * {#HehlItinObukhov16} [[Friedrich W. Hehl]], [[Yakov Itin]], [[Yuri N. Obukhov]], *On Kottler's path: origin and evolution of the premetric program in gravity and in electrodynamics*, International Journal of Modern Physics D **25** 11 (2016) 1640016  &lbrack;[arXiv:1607.06159](https://arxiv.org/abs/1607.06159), [doi:10.1142/S0218271816400162](https://doi.org/10.1142/S0218271816400162)&rbrack;
 
+* {#BBSS15} [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], Rem. 2.3 in: _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
+
+
 * [[Yakov Itin]], *Premetric representation of mechanics, electromagnetism and gravity*, International Journal of Geometric Methods in Modern Physics **15** supp01 (2018) &lbrack;[doi:10.1142/S0219887818400029](https://doi.org/10.1142/S0219887818400029)&rbrack;
 
 * [[Yuri N. Obukhov]], *Premetric approach in gravity and electrodynamics*, in: *The Fifteenth Marcel Grossmann Meeting* (2022) 654-659 &lbrack;[doi:10.1142/9789811258251_0087](https://doi.org/10.1142/9789811258251_0087), [arXiv:1904.00180](https://arxiv.org/abs/1904.00180)&rbrack;
