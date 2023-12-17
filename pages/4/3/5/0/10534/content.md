@@ -22,7 +22,7 @@ There is another context where people say a function is convex if it is a [[Lips
 
 ## Definition 
 
-Let $D$ be a [[convex space]]. A [[function]] $f \colon D \to \mathbb{R}$ is **convex** if the [[set]] $\{(x, y) \in D \times \mathbb{R}: y \geq f(x)\}$ is a convex subspace of $D \times \mathbb{R}$. Equivalently, $f$ is **convex** if for all $x, y \in D$, 
+Let $D$ be a [[convex space]]. A [[function]] $f \colon D \to \mathbb{R}$ is **convex** if the [[set]] $\{(x, z) \in D \times \mathbb{R}: z \geq f(x)\}$ is a convex subspace of $D \times \mathbb{R}$. Equivalently, $f$ is **convex** if for all $x, y \in D$, 
 
 $$f(t x + (1-t) y) \leq t f(x) + (1-t) f(y)$$ 
 
