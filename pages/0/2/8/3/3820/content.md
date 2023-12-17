@@ -386,11 +386,11 @@ A a popular introduction to the notion of phase space with some comments on the 
 
 Textbook account with an eye towards [[BRST-BV formalism]]: 
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], 17.1 in: _[[Quantization of Gauge Systems]]_ , Princeton University Press 1992.   Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems),[jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
+* [[Marc Henneaux]], [[Claudio Teitelboim]], 17.1 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
 
 An article reviewing much of the content of the following references:
 
-* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A 29 (2014) ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](http://www.worldscientific.com/doi/abs/10.1142/S0217751X14300099))
+* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A **29** (2014) &lbrack;[arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](https://doi.org/10.1142/S0217751X14300099)&rbrack;
 
 
 Further review:
@@ -508,14 +508,13 @@ corresponding pre-symplectic form on the space of solutions of
 linearized gravitational wave equations. This symplectic form on the reduced space of solutions is shown to coincide with the ADM symplectic structure and with the Komar symplectic structure at null
 infinity. The motivation explicit pre-symplectic current formula appears from the desire to interpolate between the above two formalisms.
 
-* [[Edward Witten]], §5 in: *Interacting field theory of open superstrings*, Nuclear Physics B **276** 2 (1986) 291-324  (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90298-1">doi:10.1016/0550-3213(86)90298-1</a>, [inspire:228073](https://inspirehep.net/literature/228073)&rbrack;
+* [[Edward Witten]], §5 in: *Interacting field theory of open superstrings*, Nuclear Physics B **276** 2 (1986) 291-324 &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90298-1">doi:10.1016/0550-3213(86)90298-1</a>, [inspire:228073](https://inspirehep.net/literature/228073)&rbrack;
 
   (S)
 
   Influence: Appears to be self-motivated. Witten needed a covariant way to define Poisson brackets from the action of open string field theory. Acknowledges parallel, independent work of [Zuckerman](#Zuckerman).
 
-  Result: Witten writes down the pre-symplectic form-current "by inspection" for a scalar field and for a Chern-Simons theory, then he explicitly shows that the current is conserved on the space of solutions, and that its integral over a Cauchy surface is
-variationally closed.
+  Result: Witten writes down the pre-symplectic form-current "by inspection" for a scalar field and for a Chern-Simons theory, then he explicitly shows that the current is conserved on the space of solutions, and that its integral over a Cauchy surface is variationally closed.
 
 
 * Ashtekar, Bombelli, Koul, YS Kim, WW Zachary (eds.), The Physics of Phase Space: Nonlinear Dynamics and Chaos, Geometric Quantization, and Wigner Function
