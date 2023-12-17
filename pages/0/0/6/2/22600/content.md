@@ -1,5 +1,7 @@
 
-* [personal page](http://www.mathematik.uni-regensburg.de/loeh/)
+* [personal page](https://loeh.app.uni-regensburg.de/)
+
+* [wikipedia entry](https://de.wikipedia.org/wiki/Clara_L%C3%B6h)
 
 ## Selected writings
 
