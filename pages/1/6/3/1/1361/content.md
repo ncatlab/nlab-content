@@ -29,7 +29,7 @@ Let $V$ be a [[monoidal model category]].
 
 A **$V$-enriched model category** is
 
-* an V-[[enriched category]] $C$
+* a $V$-[[enriched category]] $C$
 
   * which is [[powered and copowered category|powered and copowered]] over $V$;
 
