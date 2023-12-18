@@ -1,6 +1,6 @@
 ## Idea
 
-[[Frank Pfenning]] describes type refinement as a long-term research program with the following goals:
+In [(Greenberg 2015)](#Greenberg15), [[Frank Pfenning]] describes type refinement as a long-term research program with the following goals:
 
 * capture more precise properties of programs,
 * retain the good theoretical and practical properties of the simpler disciplines,
@@ -22,8 +22,8 @@ Predicate subtyping is found in languages like [[Liquid Haskell]] and [[F*]].
 
 ## References
 
-* Michael Greenberg, _A refinement type by any other name_, 2015, ([blog post](http://www.weaselhat.com/2015/03/16/a-refinement-type-by-any-other-name/))
-* [[Jana Dunfield]], _Combining Two Forms of Type Refinements_, 2002, ([report](https://research.cs.queensu.ca/home/jana/papers/combining/Dunfield02_combining.pdf))
+* {#Greenberg15} Michael Greenberg, _A refinement type by any other name_, 2015, ([blog post](http://www.weaselhat.com/2015/03/16/a-refinement-type-by-any-other-name/)).
+* [[Jana Dunfield]], _Combining Two Forms of Type Refinements_, 2002, ([report](https://research.cs.queensu.ca/home/jana/papers/combining/Dunfield02_combining.pdf)).
 * [[Robert Atkey]], [[Patricia Johann]], [[Neil Ghani]], _When is a Type Refinement an Inductive Type?_, ([pdf](https://bentnib.org/inductive-refinement.pdf)).
 
 On datasort refinements:
@@ -43,9 +43,9 @@ On index refinements in particular:
 
 On refinement systems as functors:
 
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf) , [HAL](https://hal.inria.fr/hal-01096910))
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _An Isbell Duality Theorem for Type Refinement Systems_, ([pdf](https://www.irif.fr/~mellies/papers/an-isbell-duality-theorem-for-type-refinement-systems.pdf))
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263).
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf) , [HAL](https://hal.inria.fr/hal-01096910)).
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _An Isbell Duality Theorem for Type Refinement Systems_, ([pdf](https://www.irif.fr/~mellies/papers/an-isbell-duality-theorem-for-type-refinement-systems.pdf)).
 
 [[!redirects datasort refinement]]
 [[!redirects datasort refinements]]
