@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
 # Short maps
 * table of contents
 {: toc}
@@ -36,7 +47,7 @@ may not exist as a finite number. However, if all the ordinary metric spaces $X_
 
 ### Use for denotational semantics
 
-$\mathsf{Met}$ is used to give a [[denotational semantics]] to Fuzz, a [[functional language]] with a [[linear type]] system.
+$\mathsf{Met}$ is used to give a [[denotational semantics]] to Fuzz, a [[functional programming language|functional language]] with a [[linear type]] system.
 
 ## Justification
 
