@@ -408,3 +408,7 @@ Another proposal for a Lagrangian for self-dual higher gauge fields, at the cost
 [[!redirects higher self-dual gauge field]]
 
 [[!redirects self-dual field theory]]
+
+[[!redirects chiral boson]]
+[[!redirects chiral bosons]]
+
