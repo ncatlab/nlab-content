@@ -8,16 +8,16 @@ On the expression of [[classical field theory|classical]] [[electromagnetism]], 
 
   > (already in [[pregeometric electromagnetism|pregeometric form]])
 
-* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], §3.4 and §4.3 in: *[[Gravitation]]*, W. H. Freeman, San Francisco (1973) $[$ISBN:9780716703440$]$
-
-
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], §3.4 and §4.3 in: *[[Gravitation]]*, W. H. Freeman, San Francisco (1973) \[ISBN:9780716703440\]
 
 * [[Theodore Frankel]], *Maxwell's equations*, The American Mathematical Monthly **81** 4 (1974) $[$[pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D)$]$
 
 * {#Thirring78} [[Walter Thirring]], vol 2 §1.3 in: *A Course in Mathematical Physics* -- 1 *Classical Dynamical Systems* and 2 *Classical Field Theory*, Springer (1978, 1992) $[$[doi:10.1007/978-1-4684-0517-0](https://doi.org/10.1007/978-1-4684-0517-0)$]$
 
+* [[Dominic G. B. Edelen]], §9.2 in: *Applied exterior calculus*, Wiley (1985) \[<a href="https://books.google.de/books?id=GUkViODKZ2oC&lpg=PP1&ots=ucNgef4HKM&dq=Edelen%20%22Applied%20exterior%20calculus%22%20Wiley&lr&pg=PP1#v=onepage&q=Edelen%20%22Applied%20exterior%20calculus%22%20Wiley&f=false">GoogleBooks</a>\]
 
-* {#Frankel97} [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) $[$[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)$]$
+
+* {#Frankel97} [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) \[<a href="https://doi.org/10.1017/CBO9781139061377">doi:10.1017/CBO9781139061377</a>\]
 
 * [[Gregory L. Naber]], §2.2 in: *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** (2011) $[$[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)$]$
 
