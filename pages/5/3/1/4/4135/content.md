@@ -217,12 +217,18 @@ Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\l
 
 \[
   \label{HodgeSquareOnRiemannian}
-  \star(\star\omega) = (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega
+  \star(\star\omega) 
+  \;=\; 
+  (-1)^{k(n+1)} \omega 
+  \;=\; 
+  (-1)^{k(n-k)} \omega
 \]
 
 \[
   \label{HodgeStarPreservesHodgeInnerProduct}
-  \langle\star\omega , \star\lambda\rangle = \langle\omega | \lambda\rangle
+  \langle\star\omega , \star\lambda\rangle 
+  \;=\; 
+  \langle \omega | \lambda \rangle
 \]
 
 \[
@@ -232,6 +238,8 @@ Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\l
 \]
 
 where $dvol$ denotes the [[volume form]].
+
+(e.g. [Frankel 1997 (14.9), (14.5)](#Frankel97))
 
 ## Examples
 
@@ -267,15 +275,20 @@ $$
 
 ## References
 
-Some useful basic formulas are listed in 
+Lecture notes:
 
 * _Hodge theory on Riemannian manifolds_ , lecture notes ([pdf](http://math.uh.edu/~minru/Riemann08/hodgetheory.pdf))
+
+Textbook account:
+
+* {#Frankel97} [[Theodore Frankel]], §14.1a in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) \[<a href="https://doi.org/10.1017/CBO9781139061377">doi:10.1017/CBO9781139061377</a>\]
+
 
 A unified perspective in terms of [[Berezin integration]]:
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _The Hodge Operator Revisited_ ([arXiv:1511.05105](https://arxiv.org/abs/1511.05105))
 
-Discussion in [[complex geometry]] includes
+Discussion in [[complex geometry]]:
 
 * {#BiquerdHoering08} O. Biquard, A. H&#246;ring, _K&#228;hler geometry and Hodge theory_, 2008 ([pdf](http://math.unice.fr/~hoering/hodge/hodge.pdf))
 
