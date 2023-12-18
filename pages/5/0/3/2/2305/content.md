@@ -237,6 +237,7 @@ Discussion in [[differential geometry]]:
 
 * [[Georges de Rham]], Chapter II of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
+* [[Dominic G. B. Edelen]], *Applied exterior calculus*, Wiley (1985) \[<a href="https://books.google.de/books?id=GUkViODKZ2oC&lpg=PP1&ots=ucNgef4HKM&dq=Edelen%20%22Applied%20exterior%20calculus%22%20Wiley&lr&pg=PP1#v=onepage&q=Edelen%20%22Applied%20exterior%20calculus%22%20Wiley&f=false">GoogleBooks</a>\]
 
 With an eye towards application in [[mathematical physics]]:
 
