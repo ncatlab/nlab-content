@@ -46,6 +46,8 @@ If $\mathcal{P} = (P_o, \models_P, P_a)$ is a dyadic Chu space, then $\mathcal{P
 
 * [[topological system]] (as in the book of [[Steve Vickers]] 'Topology via Logic').
 
+* [[Stone gamut]]
+
 
 ## References
 
