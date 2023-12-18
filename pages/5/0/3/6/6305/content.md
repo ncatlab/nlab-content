@@ -45,9 +45,15 @@ If [[spacetime]] can be equipped with a [[foliation]] of Cauchy surfaces, then w
 
 ## References
 
-The existence of a smooth splitting of globally hyperbolic spacetimes into Cauchy surfaces is in 
+The existence of a splitting of globally hyperbolic spacetimes into Cauchy surfaces is 
 
-* Antonio N. Bernal, Miguel S&#225;nchez, _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_ ([arXiv:gr-qc/0306108v2](http://arxiv.org/abs/gr-qc/0306108v2))
+in the topological category due to 
+
+* [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
+
+and in the smooth category (needed in practice) due to 
+
+* Antonio N. Bernal, Miguel Sánchez, _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_, Commun. Math. Phys. 243 (2003) 461-470 &lbrack;[arXiv:gr-qc/0306108v2](http://arxiv.org/abs/gr-qc/0306108), [doi:10.1007/s00220-003-0982-6](https://doi.org/10.1007/s00220-003-0982-6)&rbrack;
 
 
 [[!redirects Cauchy surface]]
