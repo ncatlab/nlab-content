@@ -125,7 +125,12 @@ For details and proof see at _[[BV-operator]]_ [this prop.](BV-operator#DysonSch
 
 ## References
 
-The equation is originally due to 
+Precursor discussion for [[quantum mechanics]] (QFT in $1+0$-dimensions) goes back to 
+
+* {#Feynman48} [[Richard P. Feynman]], equation (46) in: *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf)&rbrack;
+
+
+The Dyson-Schwinger equation is named after:
 
 * {#Dyson49} [[Freeman Dyson]], _The S Matrix in Quantum Electrodynamics_, Phys. Rev. 75: 1736 (1949) ([doi:10.1103/PhysRev.75.1736](https://doi.org/10.1103/PhysRev.75.1736))
 
@@ -156,6 +161,10 @@ Discussion of [[round chord diagrams]] organizing Dyson-Schwinger equations:
 * Nicolas Marie, [[Karen Yeats]], *A chord diagram expansion coming from some Dyson-Schwinger equations*, Communications in Number Theory and Physics, 7(2):251291, 2013 ([arXiv:1210.5457](https://arxiv.org/abs/1210.5457))
 
 * Markus Hihn, [[Karen Yeats]], *Generalized chord diagram expansions of Dyson-Schwinger equations*, Ann. Inst. Henri Poincar Comb. Phys. Interact. 6 no 4:573-605 ([arXiv:1602.02550](https://arxiv.org/abs/1602.02550))
+
+* Paul-Hermann Balduf, Amelia Cantwell, [[Kurusch Ebrahimi-Fard]], Lukas Nabergall, Nicholas Olson-Harris, [[Karen Yeats]], *Tubings, chord diagrams, and Dyson-Schwinger equations* \[<a href="https://arxiv.org/abs/2302.02019">arXiv:2302.02019</a>\] 
+
+
 
 Review in:
 
