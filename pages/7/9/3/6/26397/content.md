@@ -36,3 +36,6 @@ See also:
 
 [[!redirects Gauss's law]]
 
+[[!redirects Gauß law]]
+
+
