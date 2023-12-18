@@ -31,7 +31,7 @@ $$
 
 This is the direct generalization of $U(1)$-[[3d Chern-Simons theory]] of the abelian [[7d Chern-Simons theory]], and all three are related by [[holography]] to the [[self-dual higher gauge field]] in dimension 2,6, and 10, respectively.
 
-However, for applications in [[string theory]] more refined versions of these theories matter. for instance in 7d  the full [[6d (2,0)-superconformal QFT]] contains not just a single abelian [[higher self-dual gauge field]] and accordingly the corresponding [[7d Chern-Simons theory]] is richer, namely is, by [AdS7/CFT6](#AdS-CFT#AdS7CFT6), the [[KK-compactification]] of [[11-dimensional supergravity]] on $S^4$. Similarly, in 10-dimensions the [[RR-field]] of [[type II superstring theory]] is a [[higher self-dual gauge field]] whose quantization law is of the form that makes it qualify ([Moore-Witten 99](#MooreWitten99)) as the holographic boundary theory of an 11d Chern-Simons theory. However, as a configuration of the [[RR-field]] is a [[cocycle]] in [[twisted differential K-theory]], so there should be an 11d Chern-Simons theory given ([Belov-Moore 06](#BelovMoore06)) by the [[fiber integration in differential cohomology]] of the [[cup product in differential cohomology]] in K-theory.
+However, for applications in [[string theory]] more refined versions of these theories matter. For instance in 7d  the full [[6d (2,0)-superconformal QFT]] contains not just a single abelian [[higher self-dual gauge field]] and accordingly the corresponding [[7d Chern-Simons theory]] is richer, namely is, by [AdS7/CFT6](#AdS-CFT#AdS7CFT6), the [[KK-compactification]] of [[11-dimensional supergravity]] on $S^4$. Similarly, in 10-dimensions the [[RR-field]] of [[type II superstring theory]] is a [[higher self-dual gauge field]] whose quantization law is of the form that makes it qualify ([Moore-Witten 99](#MooreWitten99)) as the holographic boundary theory of an 11d Chern-Simons theory. However, as a configuration of the [[RR-field]] is a [[cocycle]] in [[twisted differential K-theory]], so there should be an 11d Chern-Simons theory given ([Belov-Moore 06](#BelovMoore06)) by the [[fiber integration in differential cohomology]] of the [[cup product in differential cohomology]] in K-theory.
 
 ## Related concepts
 
@@ -62,7 +62,7 @@ However, for applications in [[string theory]] more refined versions of these th
 
 The [[self-dual higher gauge field]] nature (see there for more) in terms of a [[quadratic form]] on [[differential K-theory]] is discussed originally around
 
-* {#MooreWitten99} [[Gregory Moore]], [[Edward Witten]], _Self-Duality, Ramond-Ramond Fields, and K-Theory_, JHEP 0005:032,2000 ([arXiv:hep-th/9912279](http://arxiv.org/abs/hep-th/9912279))
+* {#MooreWitten99} [[Gregory Moore]], [[Edward Witten]], _Self-Duality, Ramond-Ramond Fields, and K-Theory_, JHEP 0005:032 (2000) &lbrack;[arXiv:hep-th/9912279](http://arxiv.org/abs/hep-th/9912279), [doi:10.1088/1126-6708/2000/05/032](https://doi.org/10.1088/1126-6708/2000/05/032)&rbrack;
 
 and ([Freed 00](#Freed00)) for [[type I superstring theory]], and for [[type II superstring theory]] in 
 
