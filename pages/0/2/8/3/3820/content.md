@@ -613,9 +613,13 @@ also discussed (with focus on application to [[gravity]]) in:
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
-See also:
+For the case of [[manifolds with boundary]]:
 
 * [[Daniel Harlow]], [[Jie-qiang Wu]], *Covariant phase space with boundaries*,  J. High Energ. Phys. **2020** 146 (2020). &lbrack;[arXiv:1906.08616](https://arxiv.org/abs/1906.08616), <a href="https://doi.org/10.1007/JHEP10(2020)146">doi:10.1007/JHEP10(2020)146</a>&rbrack;
+
+* Juan Margalef-Bentabol, Eduardo J. S. Villaseñor, *Geometric formulation of the covariant phase space methods with boundaries*, Phys. Rev. D **103** (2021) 025011 &lbrack;[doi:10.1103/PhysRevD.103.025011](https://doi.org/10.1103/PhysRevD.103.025011)&rbrack;
+
+* Valle Varo, *The Covariant Phase Space of Gravity with Boundaries* &lbrack;[arXiv:2301.12418](https://arxiv.org/abs/2301.12418)&rbrack;
 
 
 ### Reduced phase space
