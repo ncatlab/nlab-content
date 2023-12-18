@@ -40,9 +40,24 @@ Sometimes an [[nondeterministic computation|indeterministic]] choice operator $+
 * a client that calls to the $\mathrm{incr}$ server: $C=(\nu a)\bigl(\overline{\mathrm{incr}}\langle a,4\rangle\mid a(y)\bigr)$;
 * the final process by composing the server and the client: $S\mid C$.
 
-## Typed $\pi$-calculus as a logic
+## Reduction-based operational semantics
+
+The central reduction rule of the $\pi$-calculus is the following:
+$$\overline{n}\langle a\rangle.P\mid n(b).Q\longrightarrow P\mid Q_{a\mapsto b}\,.$$
+
+## Typed $\pi$-calculus
 
 Several attempts have been made to give the $\pi$-calculus [[typing systems]]. It is crucial for $\mathrm{HO}\pi$, a [[higher-order  logic|higher-order]] $\pi$-calculus in which messages can be processes themselves.
+
+### Simpled types
+
+Simple types are defined by the following grammar:
+$$T\longrightarrow\sharp\widetilde{T}$$
+where $\widetilde{T}$ ranges over (possibly empty) tuples of simple types.
+
+[[typing context|Typing contexts]] are lists of hypotheses of the form $n:T$ where $n$ is a channel name and $T$ is a simple type.
+
+### As a logic
 
 Typed $\pi$-calculus corresponds to a [[distributed logic]]: using a property proven at some place supposes therefore a call to that property under a name. Theorems can be used many times, but lemmas are limited to one use.
 
@@ -59,5 +74,7 @@ $\overline{a}\langle M,N\rangle:r$ | Use Lemma 1, knowing that $p$ and $q$, to p
 * Noël Bernard, _Investigating the Logical Aspects of the Pi-calculus_, 
 Schedae Informaticae, **12** (2003) 57-66 ([hal-00386109](https://hal.science/hal-00386109)).
 * Kevin Liao, Matthew A. Hammer and Andrew Miller, _ILC: A Calculus for Composable, Computational Cryptography_, Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, (2019) 640-654 ([doi:10.1145/3314221.3314607](https://dl.acm.org/doi/10.1145/3314221.3314607), [pdf](https://eprint.iacr.org/2019/402.pdf)).
+* Daniel Hirschkoff, _A brief survey of the theory of the $\pi$-calculus_, (2003) ([pdf](https://hal-lara.archives-ouvertes.fr/hal-02101985/file/RR2003-13.pdf)).
+
 
 [[!redirects π-calculus]]
