@@ -225,6 +225,8 @@ Discussion of [[round chord diagrams]] organizing [[Dyson-Schwinger equations]]:
 
 * Markus Hihn, [[Karen Yeats]], *Generalized chord diagram expansions of Dyson-Schwinger equations*, Ann. Inst. Henri Poincar Comb. Phys. Interact. 6 no 4:573-605 ([arXiv:1602.02550](https://arxiv.org/abs/1602.02550))
 
+* Paul-Hermann Balduf, Amelia Cantwell, [[Kurusch Ebrahimi-Fard]], Lukas Nabergall, Nicholas Olson-Harris, [[Karen Yeats]], *Tubings, chord diagrams, and Dyson-Schwinger equations* \[<a href="https://arxiv.org/abs/2302.02019">arXiv:2302.02019</a>\] 
+
 Review in:
 
 * Ali Assem Mahmoud, Section 3 of: *On the Enumerative Structures in Quantum Field Theory* ([arXiv:2008.11661](https://arxiv.org/abs/2008.11661))
