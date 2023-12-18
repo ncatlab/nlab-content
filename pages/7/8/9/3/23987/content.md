@@ -737,6 +737,21 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 <img src="/nlab/files/CQTS-HomotopyWorkshop-2023.jpg" width="520">
 </center>
 
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "CQTSWorkshopLogo-Oct2023.jpg",
+    "float": "right",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -35,
+        "bottom": 20,
+        "right": 70, 
+        "left": 40
+    }
+\end{imagefromfile}
+
 
 * {#KallelOct2023} [[Sadok Kallel]]: 
 
