@@ -5,28 +5,38 @@
 
 ## Idea
 
-A _short map_ is a well-behaved sort of [[morphism]] of [[metric spaces]] (or a generalisation of metric spaces, such as the extended quasi-pseudo-versions, or [[gauge spaces]] or [[prometric spaces]]).  Short maps go by many names in the literature, often ad hoc, such as _distance-nonincreasing maps_ and _weak contractions_, but 'short map' seems to be increasing in popularity.
+A _short map_ is a well-behaved sort of [[morphism]] of [[metric spaces]] (or a generalisation of metric spaces, such as the extended quasi-pseudo-versions, or [[gauge spaces]] or [[prometric spaces]]).
 
+\begin{remark}
+Short maps go by many names in the literature, such as _non-expansive functions_, _distance-nonincreasing maps_ and _weak contractions_.
+\end{remark}
 
 ## Definition
 
-A [[function]] $f\colon X \to Y$ is __short__ if $e(f(a),f(b)) \leq d(a,b)$ for every $a,b \in X$.  Here $d$ and $e$ are (respectively) the [[metrics]] (or generalisations of metrics) on $X$ and $Y$.  If $X$ and $Y$ are (or may be) [[gauge spaces]] and so have several (pseudo)metrics on them, then we require that, for every gauging distance $d$ on $X$, there exists a gauging distance $e$ on $Y$ such that the above inequality holds for all $a$ and $b$.
+\begin{definition}
+A [[function]] $f\colon X \to Y$ is __short__ if $d_Y\bigl(f(a),f(b)\bigr) \leq d_X(a,b)$ for every $a,b \in X$ where $d_X$ and $d_Y$ are respectively the [[metrics]] (or generalisations of metrics) on $X$ and $Y$.
+\end{definition}
+
+If $X$ and $Y$ are (or may be) [[gauge spaces]] and so have several (pseudo)metrics on them, then we require that, for every gauging distance $d$ on $X$, there exists a gauging distance $e$ on $Y$ such that the above inequality holds for all $a$ and $b$.
 
 
 ## The category of metric spaces
 
-We define $Met$ to be the [[category]] whose [[objects]] are [[Lawvere metric spaces]] and whose [[morphisms]] are short maps.
+We define $\mathsf{Met}$ to be the [[category]] whose [[objects]] are [[Lawvere metric spaces]] and whose [[morphisms]] are short maps.
 
-$Met$ is [[complete category|complete]] and admits a [[faithful functor]] from [[Ban]] (the category of [[Banach spaces]] and short [[linear operators]]).
+$\mathsf{Met}$ is [[complete category|complete]] and admits a [[faithful functor]] from [[Ban]] (the category of [[Banach spaces]] and short [[linear operators]]).
 
-$Met$ may be made into an $\mathcal{M}$-[[M-category|category]] by taking short maps as the tight morphisms and some more generous notion of maps (such as [[continuous maps]]) as the loose morphisms. 
+$\mathsf{Met}$ may be made into an $\mathcal{M}$-[[M-category|category]] by taking short maps as the tight morphisms and some more generous notion of maps (such as [[continuous maps]]) as the loose morphisms. 
 
-If instead we use ordinary metric spaces, which includes the axioms of finiteness $d(x, y) \lt \infty$, symmetry $d(x, y) = d(y, x)$, and separability ($d(x, y) = 0$ implies $x = y$), then the category $Met_{ord}$ (with short maps as morphisms) is not so [[dichotomy between nice objects and nice categories|nice]] as $Met$. For example, $Met_{ord}$ fails to have arbitrary products $\prod_{i \in I} X_i$, on account of the finiteness axiom where the putative distance 
+If instead we use ordinary metric spaces, which includes the axioms of finiteness $d(x, y) \lt \infty$, symmetry $d(x, y) = d(y, x)$, and separability ($d(x, y) = 0$ implies $x = y$), then the category $\mathsf{Met}_{ord}$ (with short maps as morphisms) is not so [[dichotomy between nice objects and nice categories|nice]] as $\mathsf{Met}$. For example, $\mathsf{Met}_{ord}$ fails to have arbitrary products $\prod_{i \in I} X_i$, on account of the finiteness axiom where the putative distance 
 
-$$d((x_i), (y_i)) = \sup_i d(x_i, y_i)$$ 
+$$d\bigl((x_i), (y_i)\bigr) = \sup_i d(x_i, y_i)$$ 
 
 may not exist as a finite number. However, if all the ordinary metric spaces $X_i$ are uniformly bounded in diameter, then this formula does give the product. Note well though that the topology induced by this product will not be the same as the product topology (cf. the discussion below). 
 
+### Use for denotational semantics
+
+$\mathsf{Met}$ is used to give a [[denotational semantics]] to Fuzz, a [[functional language]] with a [[linear type]] system.
 
 ## Justification
 
@@ -36,11 +46,11 @@ One answer is to look at [[Lawvere]]\'s characterisation of metric spaces as cer
 
 Another answer is to consider what the category-theoretic [[isomorphisms]] between metric spaces are; by the definition of metric spaces as [[structured sets]], these are the [[global isometries]].  So for a good notion of morphism, we need to recover global isometries as isomorphisms.  Using continuous or uniformly continuous maps, we recover [[homeomorphisms]] or uniform homeomorphisms as isomorphisms, which are too general; this really gives us the category of [[metrisable topological spaces]] or of [[metrisable]] [[uniform spaces]] rather than the category of metric spaces.  Using contractions, we do not even get a category; the [[identity function]] is not a contraction.  We could still use global isometries themselves as morphisms, but since this defines a [[groupoid]], we should look for a more general notion of morphism that still gives global isometries as isomorphism.  And short maps do that.
 
-Short maps give the [[Met|category of metric spaces]] some nice properties.  In particular, $Met$ is [[complete category|complete]], which does not hold using either global isometries or distance-preserving maps as morphisms.  This interacts with the properties of the category of [[Banach spaces]]; as a Banach space may be defined as a set with compatible vector-space and metric-space structures, so a Banach space morphism is a function that is both linear and short: the [[short linear maps]].
+Short maps give the [[Met|category of metric spaces]] some nice properties.  In particular, $\mathsf{Met}$ is [[complete category|complete]], which does not hold using either global isometries or distance-preserving maps as morphisms.  This interacts with the properties of the category of [[Banach spaces]]; as a Banach space may be defined as a set with compatible vector-space and metric-space structures, so a Banach space morphism is a function that is both linear and short: the [[short linear maps]].
 
-## Injective objects in $Met_{ord}$
+## Injective objects in $\mathsf{Met}_{ord}$
 
-In $Met_{ord}$ every object $X$ admits an [[injective hull]] $\varepsilon(X)$. The space $\varepsilon(X)$ is [[compact topological space|compact]] if $X$ is [[compact topological space|compact]]. Furthermore every [[compact topological space|compact metric space]] has an __injective boundary__ that is the smallest subspace $A$ of $X$ such that $\varepsilon(A) = X$.
+In $\mathsf{Met}_{ord}$ every object $X$ admits an [[injective hull]] $\varepsilon(X)$. The space $\varepsilon(X)$ is [[compact topological space|compact]] if $X$ is [[compact topological space|compact]]. Furthermore every [[compact topological space|compact metric space]] has an __injective boundary__ that is the smallest subspace $A$ of $X$ such that $\varepsilon(A) = X$.
 
 ## Related pages
 
@@ -49,7 +59,9 @@ In $Met_{ord}$ every object $X$ admits an [[injective hull]] $\varepsilon(X)$. T
 
 ## References
 
-Injective objects $Met_{ord}$ have been studied in
+* Arthur Azevedo de Amorim, Marco Gaboardi, Justin Hsu, Shin-ya Katsumata and Ikram Cherigui, _A Semantic Account of Metric Preservation_ (2017) ([arXiv:1702.00374](https://arxiv.org/abs/1702.00374)).
+
+Injective objects $\mathsf{Met}_{ord}$ have been studied in
 
 * Aronszajn, Nachman, and Prom Panitchpakdi. "Extension of uniformly continuous transformations and hyperconvex metric spaces." _Pacific Journal of Mathematics_ 6.3 (1956): 405-439.
 
@@ -60,7 +72,7 @@ Injective objects $Met_{ord}$ have been studied in
 
 An overview of results is included in
 
-* Culbertson, Jared, Dan P. Guralnik, and Peter F. Stiller. "Injective metrizability and the duality theory of cubings." Expositiones Mathematicae 37.4 (2019): 410-453. [arXiv: 1502.00126](https://arxiv.org/abs/1502.00126).
+* Culbertson, Jared, Dan P. Guralnik, and Peter F. Stiller. _Injective metrizability and the duality theory of cubings_, Expositiones Mathematicae, ***37*** 4 (2019) 410-453 ([arXiv: 1502.00126](https://arxiv.org/abs/1502.00126)).
 
 
 
@@ -76,6 +88,10 @@ An overview of results is included in
 [[!redirects weak contractions]]
 [[!redirects contractive map]]
 [[!redirects contractive maps]]
+[[!redirects non-expansive map]]
+[[!redirects non-expansive maps]]
+[[!redirects non-expansive function]]
+[[!redirects non-expansive functions]]
 
 [[!redirects category of metric spaces]]
 [[!redirects the category of metric spaces]]
