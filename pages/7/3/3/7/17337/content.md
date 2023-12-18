@@ -1,15 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In [(Greenberg 2015)](#Greenberg15), [[Frank Pfenning]] describes type refinement as a long-term research program with the following goals:
+In [Greenberg 2015](#Greenberg15), [[Frank Pfenning]] describes *type refinement* as a long-term research program with the following goals:
 
-* capture more precise properties of programs,
+* capture more precise properties of [[programs]],
+
 * retain the good theoretical and practical properties of the simpler disciplines,
+
 * retain usability, modularity, elegance, etc.
 
 Works in this program include:
 
 * *datasort refinements* (types are named *refinement types*) of Freeman, Davies, and Pfenning, which refine the set of available constructors for a type;
-* *predicate subtyping* (types are named *refined types* or *predicate subtypes*), where predicates are taken from a tractable domain (see for example *index refinements* of Xi and Pfenning);
+
+* *predicate subtyping* (types are named *refined types* or 
+
+*predicate subtypes*), where predicates are taken from a tractable domain (see for example *index refinements* of Xi and Pfenning);
 
 but don't include general [[subset types]], as type checking becomes undecidable.
 
