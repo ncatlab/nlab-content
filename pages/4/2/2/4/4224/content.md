@@ -151,6 +151,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * [[Isbell duality]]
 
+* [[Stone gamut]]
+
 ## References
 
 
