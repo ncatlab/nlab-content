@@ -589,6 +589,13 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 
 
+* [[N. D. Hari Dass]], *The Birth of String Theory* &lbrack;[doi:10.1007/978-3-031-35358-1_17](https://doi.org/10.1007/978-3-031-35358-1_17)&rbrack;, Ch. 17 in: *Strings to Strings -- Yang-Mills Flux Tubes, QCD Strings and Effective String Theories*, Lecture Notes in Physics **1018**, Springer (2024) \[<a href="https://doi.org/10.1007/978-3-031-35358-1">doi:10.1007/978-3-031-35358-1</a>\]
+
+
+  
+
+
+
 [[!redirects string theories]]
 
 [[!redirects superstring theory]]
