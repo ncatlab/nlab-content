@@ -21,6 +21,14 @@ Introducing [[bra-ket]]-notation to [[quantum mechanics]]:
 
 * {#Dirac39} [[Paul A. M. Dirac]], *A new notation for quantum mechanics*, Mathematical Proceedings of the Cambridge Philosophical Society **35** 3 (1939) 416-418 &lbrack;[doi:10.1017/S0305004100021162](https://doi.org/10.1017/S0305004100021162), [pdf](https://www.ifsc.usp.br/~lattice/wp-content/uploads/2014/02/Dirac_notation.pdf)&rbrack;
 
+Introducing the modern theory of [[constrained mechanics|constrained]] [[Hamiltonian mechanics]]:
+
+* [[Paul A. M. Dirac]], *Generalized Hamiltonian Dynamics*, Canadian Journal of Mathematics **2** (1950) 129-148 &lbrack;[doi:10.4153/CJM-1950-012-1](https://doi.org/10.4153/CJM-1950-012-1)&rbrack;
+
+  reprinted in:
+
+  Alexander S. Blum, Dean Rickles (eds.), Ch.34 in: *Quantum Gravity in the First Half of the Twentieth Century: A Sourcebook*, Edition Open Sources **10** (2018) 484-503 &lbrack;[doi:10.34663/9783945561317-00](https://edition-open-sources.org/sources/10/), [pdf](https://edition-open-sources.org/media/sources/10/36/sources10chap34.pdf)&rbrack;
+
 
 On a [[relativistic membrane]] [[model (in theoretical physics)|model]] for the [[electron]]:
 
