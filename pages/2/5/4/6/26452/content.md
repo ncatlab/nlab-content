@@ -17,7 +17,7 @@ Base category | Endofunctor                     | Initial Algebra        | Final
 [[Set]] | $X \mapsto B + A \times X^n$           | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled leaves | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves| |
 [[Set]] | $X \mapsto O + [I, X]$           | $O \times [I, \emptyset ]$ | Potentially infinite [[Moore machine]] | |
 [[Set]] | $X \mapsto [I, O \times X]$           | ? | Potentially infinite [[Mealy machine]] | |
-[[Set]] | $X \mapsto X + X$           | $\emptyset$ | $\mathbb{N}^2$ | |
+[[Set]] | $X \mapsto X + X$           | $\emptyset$ | $2^\mathbb{N}$ | |
 [[Set]] | $X \mapsto X \times X$           | $\emptyset$ | Infinite binary trees | |
 [[Set]] | $X \mapsto \mathcal{P}(X)$            | / | / | |
 
