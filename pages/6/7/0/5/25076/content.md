@@ -90,4 +90,14 @@ Historical reminiscences:
 
   > "At this point I was certain that I have found the right language for the [[gauge/string duality]]. I attended various conferences, telling people that it is possible to describe gauge theories by solving Einstein-like equations (coming from the conformal symmetry on the world sheet) in five dimensions. The impact of my talks was close to zero. That was not unusual and didn’t bother me much. What really caused me to delay the publication ([Polyakov 1998](#Polyakov98)) for a couple of years was my inability to derive the asymptotic freedom from my equations. At this point I should have noticed the paper of [Klebanov 1997](https://arxiv.org/abs/hep-th/9702076) in which he related [[D3 branes]] described by the supersymmetric Yang Mills theory to the same object described by supergravity. Unfortunately I wrongly thought that the paper is related to matrix theory and I was skeptical about this subject. As a result I have missed this paper which would provide me with a nice special case of my program. This special case was presented little later in full generality by Juan Maldacena ([Maldacena 1997](AdS-CFT+correspondence#Maldacena97a)) and his work opened the flood gates."
 
+A detailed monograph:
+
+* [[N. D. Hari Dass]], *Strings to Strings -- Yang-Mills Flux Tubes, QCD Strings and Effective String Theories*, Lecture Notes in Physics **1018**, Springer (2024) \[<a href="https://doi.org/10.1007/978-3-031-35358-1">doi:10.1007/978-3-031-35358-1</a>\]
+
+  Ch. 23: 
+
+   *Effective String Theories (EST) of Yang-Mills Flux Tubes* \[<a hraf="https://doi.org/10.1007/978-3-031-35358-1_22">doi:10.1007/978-3-031-35358-1_22</a>, <a href="https://arxiv.org/abs/2312.10629">arXiv:2312.10629</a>\]
+
+
+
 
