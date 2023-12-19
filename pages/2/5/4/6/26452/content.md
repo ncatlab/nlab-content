@@ -1,4 +1,4 @@
-This page contains a dictionary of some notable endofunctors, and their initial algebras/terminal coalgebras.
+This page contains a dictionary of some notable [[endofunctors]], and their [[initial algebras of an endofunctor|initial algebras]]/[[terminal coalgebra of an endofunctor|terminal coalgebras]].
 
 
 Nonexistent (co)algebras are labelled with '/', and unknown ones with '?'.
