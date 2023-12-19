@@ -39,6 +39,16 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
+## M-Theory and Mathematics 2024
+
+* on January 15 - 17,  2024
+
+  at: [[CQTS]] @ New York University, Abu Dhabi
+
+  (... more soon ...)
+
+\linebreak
+
 ## M-Theory and Mathematics 2023
  {#2023}
 
