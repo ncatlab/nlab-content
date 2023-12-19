@@ -1,9 +1,11 @@
 
+> Not to be confused with [[Dana Scott]].
+
 Philip Scott was a Canadian based researcher with research interests in mathematical [[logic]], [[category theory]], [[foundations]] of mathematics and computing, and in theoretical [[computer science]]. He died on 18 December 2023.
 
 * [homepage](http://www.site.uottawa.ca/~phil/)
 
-Not to be confused with [[Dana Scott]].
+
 
 ## Selected writings
 
