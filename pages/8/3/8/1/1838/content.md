@@ -117,9 +117,15 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 
 * {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366), [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)&rbrack;
 
+* [Corichi 1998, §III](#Corichi98)
 
 
 ### Quantum electromagnetism
+
+Discussion of [[Fock space]] quantization based on careful analysis of the [[covariant phase space]]:
+
+* {#Corichi98} [[Alejandro Corichi]], *Introduction to the Fock Quantization of the Maxwell Field*, Rev. Mex. Fis. **44**  4  (1998) 402-412 &lbrack;[arXiv:physics/9804018](https://arxiv.org/abs/physics/9804018)&rbrack;
+
 
 Discussion of electromagnetism in the generality of [[quantum field theory on curved spacetimes]] originates with 
 
