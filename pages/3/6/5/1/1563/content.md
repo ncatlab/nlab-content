@@ -240,11 +240,11 @@ Lecture notes University of Chicago 1975.
 
   (on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].)
 
-* {#TakingCategoriesSeriously} _Taking categories seriously_, Revista Colombiana de Matematicas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
+* {#TakingCategoriesSeriously} _Taking categories seriously_, Revista Colombiana de Matemáticas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
 
   (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 
-* *Categories of spaces may not be generalized spaces, as exemplified by directed graphs*, Revista Colombiana de Matematicas **XX** (1986) 179-186, reprinted as: Reprints in Theory and Applications of Categories, **9** (2005) 1-7 &lbrack;[tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html)&rbrack;
+* *Categories of spaces may not be generalized spaces, as exemplified by directed graphs*, Revista Colombiana de Matemáticas **XX** (1986) 179-186, reprinted as: Reprints in Theory and Applications of Categories, **9** (2005) 1-7 &lbrack;[tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html)&rbrack;
 
   (on the notion of [[gros topos|gros toposes]], details of his claims are worked out at [[sufficiently cohesive topos]])
 
