@@ -10,7 +10,7 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto X$                    | $\emptyset$            | $1$                           | |
 [[Set]] | $X \mapsto A\times X$            | $\emptyset$            | Stream $A$                    | [[stream]]      |
 [[Set]] | $X \mapsto 1 + X$                | $\mathbb{N}$           | Conatural numbers $\mathbb{N}^\infty$ | [[extended natural number]] |
-[[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie conatural numbers "terminated" (when they aren't $\infty$) with $A$ | |
+[[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie conatural numbers "terminated" (when they aren't $\infty$) with $A$ | [[partial map classifier]] |
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | |
 [[Set]] | $X \mapsto 1 + A \times X$       | List $A$               | Potentially infinite List $A$ | [[list]]   |
 [[Set]] | $X \mapsto 1 + A \times X^2$     | Finite binary tree with $A$-labelled nodes  | Potentially infinite binary tree with $A$-labelled nodes | |
