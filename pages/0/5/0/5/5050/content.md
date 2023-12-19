@@ -96,7 +96,7 @@ On [[cobordism theory]] of [[manifolds with corners]]:
 * {#Genauer12} Josh Genauer, _Cobordism categories of manifolds with corners_, Transactions of the American Mathematical Society Vol. 364, No. 1 (2012), pp. 519-550 ([arXiv:0810.0581](https://arxiv.org/abs/0810.0581), [jstor:41407770](https://www.jstor.org/stable/41407770), [doi:10.1090/S0002-9947-2011-05474-7](https://doi.org/10.1090/S0002-9947-2011-05474-7))
 
 
-
+[[!redirects manifold with boundaries]]
 [[!redirects manifolds with boundary]]
 [[!redirects manifolds with boundaries]]
 
