@@ -122,6 +122,8 @@ More information may be found at [[coalgebra of the real interval]].
 
 ## Related concepts
 
+* [[list of notable initial algebras and terminal coalgebras]]
+
 * [[well-founded coalgebra]]
 
 * [[algebra over a monad]], [[algebra over an endofunctor]], [[algebra over a profunctor]]
