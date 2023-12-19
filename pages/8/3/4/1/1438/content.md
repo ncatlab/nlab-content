@@ -180,6 +180,8 @@ Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to 
 
 ## Related entries
 
+* [[list of notable initial algebras and terminal coalgebras]]
+
 * [[inductive type]]
 
 * [[inductive-recursive type]],  [[algebraically compact category]]
