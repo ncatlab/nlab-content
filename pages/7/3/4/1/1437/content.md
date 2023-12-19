@@ -206,6 +206,9 @@ There is a [[category theory|category theoretic]] treatments of the self-similar
 
 Terminal coalgebras are the [[categorical semantics]] of [[coinductive types]], for instance [[M-types]].
 
+* [[list of notable initial algebras and terminal coalgebras]]
+
+
 ## References 
 
 * {#Freyd} [[Peter Freyd]], _Real coalgebra_ Mailing to the categories list, Dec. 22, 1f999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
