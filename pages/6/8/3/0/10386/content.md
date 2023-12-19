@@ -96,7 +96,14 @@ and other examples discussed at _[[local prequantum field theory]]_.
 
 ## References
 
-See the references at _[[quantization commutes with reduction]]_.
+Textbook account:
+
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], §2.2.3 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
+
+
+
+See also the references at _[[quantization commutes with reduction]]_.
 
 [[!redirects reduced phase spaces]]
 
