@@ -204,3 +204,6 @@ As Kock shows, this description of trees is well-adapted to the usual sorts of c
 
 [[!redirects rooted tree]]
 [[!redirects rooted trees]]
+
+[[!redirects binary tree]]
+[[!redirects binary trees]]
