@@ -16,7 +16,9 @@
 
 ## Idea
 
-In [Greenberg 2015](#Greenberg15), [[Frank Pfenning]] describes *type refinement* as a long-term research program with the following goals:
+[[type|Types]] enable the restriction of the [[domain]] and [[codomain]] of [[computer programs]], but they may not always be precise enough. Refining the [[type system]] of a language involves introducing [[subtypes]] while retaining the [[syntax]] of its [[terms]]. For instance, predicate subtyping can be used to limit `head` to non-empty [[lists]] (`list{ l : len(l) > 0}`) and `div` to non-zero arguments (`int{ n : n <> 0 }`).
+
+More precisely, in [Greenberg 2015](#Greenberg15), [[Frank Pfenning]] describes *type refinement* as a long-term research program with the following goals:
 
 * capture more precise properties of [[programs]],
 
@@ -28,9 +30,7 @@ Works in this program include:
 
 * *datasort refinements* (types are named *refinement types*) of Freeman, Davies, and Pfenning, which refine the set of available constructors for a type;
 
-* *predicate subtyping* (types are named *refined types* or 
-
-*predicate subtypes*), where predicates are taken from a tractable domain (see for example *index refinements* of Xi and Pfenning);
+* *predicate subtyping* (types are named *refined types* or *predicate subtypes*), where predicates are taken from a tractable domain (see for example *index refinements* of Xi and Pfenning);
 
 but don't include general [[subset types]], as type checking becomes undecidable.
 
@@ -62,7 +62,7 @@ On index refinements in particular:
 
 * Hongwei Xi, Frank Pfenning, _Dependent types in practical programming_, in A. Aiken, editor, Conference Record of the 26th Symposium on Principles of Programming Languages (POPL'99),pages 214&#8211;227. ACM Press, January 1999.
 
-On refinement systems as functors:
+On refinement systems as [[functors]]:
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263).
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf) , [HAL](https://hal.inria.fr/hal-01096910)).
