@@ -23,7 +23,7 @@
 ## Idea
  {#Idea}
 
-In [[algebra]], by a *monoid* one means a collection ([[set]]) of elements equipped with a [[binary operation]] (a "multiplication operation") which is [[associativity|associtive]] and has a [[unit element]].
+In [[algebra]], by a *monoid* one means a collection ([[set]]) of elements equipped with a [[binary operation]] (a "multiplication operation") which is [[associativity|associative]] and has a [[unit element]].
 
 Hence monoid structure on a set is a fairly rudimentary form of algebraic [[structure]] which [[underlying|underlies]] many familiar [[structures]] considered [[algebra]], such as that of *[[groups]]* (which are monoids with all [[inverse elements]]) and *[[rings]]* (which are [[abelian groups]] compatibly equipped with a *second* monoid structure). 
 
