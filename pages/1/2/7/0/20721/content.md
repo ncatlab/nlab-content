@@ -228,6 +228,10 @@ and for higher Whitehead brackets:
 
 * {#Arkowitz71} [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
 
+and full lifting of the theorem [Milnor & Moore, 1965 (Appendix)](#MilnorMoore65), equipping the rational Pontrjagin algebra with [[A-infinity algebra|$A_\infty$-algebra]] structure and identifying it with the universal envelope of the [[Whitehead L-infinity algebra]]:
+
+* [[José M. Moreno-Fernández]], Thm. 4.1 in: *The Milnor-Moore theorem for $L_\infty$-algebras in rational homotopy theory*, Mathematische Zeitschrift **300** (2022) 2147–2165  &lbrack;[arXiv:1904.12530](https://arxiv.org/abs/1904.12530), [doi:10.1007/s00209-021-02838-z](https://doi.org/10.1007/s00209-021-02838-z)&rbrack;
+
 Refinement to algebra structure on the [[singular chain complex]] (Adams-Hilton model):
 
 * [[John F. Adams]], [[Peter J. Hilton]], *On the chain algebra of a loop space*, Commentarii Mathematici Helvetici **30** (1956) 305–330 &lbrack;[doi:10.1007/BF02564350](https://doi.org/10.1007/BF02564350)&rbrack;
