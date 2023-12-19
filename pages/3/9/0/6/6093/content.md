@@ -30,7 +30,7 @@ For $C$ a [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinit
 
 * a [[dualizable object]] $X$;
 
-* a morphism $\eta \,\colon\, dim(X) \equiv ev_X \circ coev_X \longrightarrpw Id_x$ in $\Omega_x C$ which is [[equivariance|equivariant]] with respect to [the canonical](cobordism%20hypothesis#TheCanonicalOnAction) [[∞-action]] of the [[circle group]] $SO(2)$ on $dim(X)$ and which is the [[unit of an adjunction|counit]] for an [[adjunction]] between the [[evaluation map]] $ev_X$ and [[coevaluation map]] $coev_X$.
+* a morphism $\eta\colon\operatorname{dim}(X) \equiv ev_X \circ coev_X \longrightarrow Id_x$ in $\Omega_x C$ which is [[equivariance|equivariant]] with respect to [the canonical](cobordism%20hypothesis#TheCanonicalOnAction) [[∞-action]] of the [[circle group]] $SO(2)$ on $dim(X)$ and which is the [[unit of an adjunction|counit]] for an [[adjunction]] between the [[evaluation map]] $ev_X$ and [[coevaluation map]] $coev_X$.
 
 =--
 
