@@ -1697,6 +1697,11 @@ The rough definition of the graph complex, and its relation to [[Chern-Simons th
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett. Math. Phys. 48 35-72, 1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
+### Surveys
+
+* Marko Berghoff, _Graph complexes from the geometric viewpoint_, [arXiv](https://arxiv.org/abs/2312.11237).
+
+
 ### As a rational model for configuration spaces
 
 A clean account and proof of the graph complex as a model for the [[rational homotopy type]] of the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] (exhibiting the [[formal smooth manifold|formality]] of the [[little n-disk operads]]) is in
