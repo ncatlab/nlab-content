@@ -70,7 +70,7 @@ $\overline{a}\langle M,N\rangle:r$ | Use Lemma 1, knowing that $p$ and $q$, to p
 
 * [[Robin Milner]], Joachim Parrow and David Walker, _A Calculus of Mobile Processes_, Information and Computation, **100** (1992) 1-40.
 * Peter Sewell, _Applied $\pi$ – A Brief Tutorial_, (2000) ([pdf](https://www.cl.cam.ac.uk/~pes20/apppi.pdf)).
-* Jeannette M. Wing, _FAQ on $\pi$-Calculus_, (2022) ([pdf](https://www.cs.cmu.edu/~wing/publications/Wing02a.pdf)).
+* Jeannette M. Wing, _FAQ on $\pi$-Calculus_, (2002) ([pdf](https://www.cs.cmu.edu/~wing/publications/Wing02a.pdf)).
 * Noël Bernard, _Investigating the Logical Aspects of the Pi-calculus_, 
 Schedae Informaticae, **12** (2003) 57-66 ([hal-00386109](https://hal.science/hal-00386109)).
 * Kevin Liao, Matthew A. Hammer and Andrew Miller, _ILC: A Calculus for Composable, Computational Cryptography_, Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation, (2019) 640-654 ([doi:10.1145/3314221.3314607](https://dl.acm.org/doi/10.1145/3314221.3314607), [pdf](https://eprint.iacr.org/2019/402.pdf)).
