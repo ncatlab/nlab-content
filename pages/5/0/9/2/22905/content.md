@@ -132,7 +132,7 @@ Likewise, given an $\mathcal{M}$-[[biactegory]] there is a bicategory $\mathbf{B
 
 ### Generalizations
 
-As described in ([Myers 2022](#Myers22)), the Para construction naturally generalizes in four different ways:
+The Para construction naturally generalizes in five different ways (with the first four described in ([Myers 2022](#Myers22))):
 
 {#AsADoubleCategory} **(1.)** Move from bicategories to [[double categories]] (in the weak sense): $\mathbf{Para}(\mathcal{C})$ is usefully thought of as a [[double category]] whose [[tight map|tight category]] is still $\mathcal{C}$, whose [[loose map|loose maps]] are parametric morphisms, and whose squares are reparametrizations that commute suitably:
 
@@ -203,6 +203,8 @@ As described in ([Myers 2022](#Myers22)), the Para construction naturally genera
 
 
 **(4.)** Have the construction take place in [[complete category|complete]] 2-categories, as opposed to $\mathbf{Cat}$. This allows to describe Para for structured categories and to apply it to different 2-categorical structures (e.g. indexed categories).
+
+**(5.)** Internal vs. external parameterisation: given a $\mathcal{M}$-actegory $(\mathcal{C}, \odot)$, the Para construction describes parameterisation which is _internal_ to the category $\mathcal{C}$. For instance, given an action on the category [[Vect]], a morphism $f : A \odot P \to B$ is a linear map. But often we are interested in morphisms linear only in one variable, for instance, a function $f : \mathbf{Set}(P, \mathbf{Vect}(A, B))$. In such cases we're interested in _external_ parameterisation, one which is captured by $\mathcal{C}$ being an object of $\mathcal{M}Cat$, instead of $\mathcal{M}Act$. A unified perspective on these two approaches is that of a [[locally graded category]].
 
 
 ## In categorical cybernetics
