@@ -1,4 +1,5 @@
 
+> See also at *[[algebra of observables]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -13,7 +14,6 @@
 =--
 =--
 =--
-
 
 
 #Contents#
@@ -149,7 +149,11 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 ### In algebraic quantum theory
 
-Comprehensive discussion is in 
+In traditional [[AQFT]]:
+
+* [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
+
+Lecture notes in [[perturbative quantum field theory]]:
 
 * [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory]]_ -- _[Observables](geometry+of+physics+--+perturbative+quantum+field+theory#Observables)_
 
