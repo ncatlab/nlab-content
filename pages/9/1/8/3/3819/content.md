@@ -1,4 +1,6 @@
 
+> See also at *[[quantum observable]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -53,7 +55,9 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 ## References
 
-Exposition in the [[AQFT|algebraic]] formulation of [[quantum mechanics]]:
+In the [[AQFT|algebraic]] formulation of [[quantum mechanics]]:
+
+* [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
 
 * {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
 
