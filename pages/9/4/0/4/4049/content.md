@@ -197,7 +197,7 @@ Given
 
 where
 
-1. $\eta$ is an enriched natural transformations (Def. \ref{EnrichedNaturalTransformation}) 
+1. $\eta$ is an enriched natural transformation (Def. \ref{EnrichedNaturalTransformation}) 
 
 1. $H$ is an [[enriched functor]]
 
@@ -243,7 +243,7 @@ $$
 
 ### Relation to strong natural transformations
 
-For [[closed monoidal categories]] $V$ there is a close relation between $V$-senriched natural transformations and $V$-[[strong natural transformations]].
+For [[closed monoidal categories]] $V$ there is a close relation between $V$-enriched natural transformations and $V$-[[strong natural transformations]].
 
 For the moment see at *[enriched monad -- relation to strong monads](enriched+monad#RelationToStrongMonads)* for more.
 
