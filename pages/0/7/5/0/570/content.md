@@ -31,6 +31,12 @@ Explicitly, this means that:
 
 \end{definition}
 
+## Examples
+
+\begin{example}
+  The [[skeleton|skeletal]] version of the [[symmetric groupoid]] is the [[free construction|free]] strict [[symmetric monoidal category]] on a single object.
+\end{example}
+
 ## Related concepts
 
 * [[coherence theorem for monoidal categories]]
