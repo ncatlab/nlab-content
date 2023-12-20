@@ -298,13 +298,17 @@ Survey of arguments for the hypothesis of grand unification includes
 * {#Witten02a} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
  
 
-Introduction to GUTs aimed more at mathematicians include
+Introductions to GUTs aimed more at mathematicians:
 
 * {#Witten86} [[Edward Witten]], section 1 and 2 of _Physics and geometry_, Proceedings of the international congress of mathematicians, 1986 ([pdf](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0267.0306.ocr.pdf)) 
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The algebra of grand unified theories_, Bull. Am. Math. Soc. 47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
 * {#Britto17} Vivian Anthony Britto, _A Mathematical Construction of an $E_6$ Grand Unified Theory_, Munich 2017 ([pdf](https://www.theorie.physik.uni-muenchen.de/TMP/theses/thesisbritto.pdf), [[BrittoGUT.pdf:file]])
+
+On [[division algebra|division-algebraic]] relations in GUT-[[broken symmetry|symmetry breaking]]:
+
+* [[Nichol Furey]], *An Algebraic Roadmap of Particle Theories, Part I: General construction* &lbrack;[arXiv:2312.12377](https://arxiv.org/abs/2312.12377)&rbrack;
 
 
 
