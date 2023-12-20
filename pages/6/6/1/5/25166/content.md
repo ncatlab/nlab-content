@@ -85,14 +85,18 @@ $$x:A, b:B(x) \vdash G(x):f(x, \mathrm{ftid}(x, r)) =_{B(x)} r$$
 Suppose the equivalence type used in the second definition is a [[weak equivalence type]]. It is possible to show that definitions 1 and 2 are the same. 
 
 Definition 1 implies definition 2, because both $\sum_{x:A} (a =_A x)$ and $\sum_{x:A} B(x)$ are [[contractible types]], there is a [[weak equivalences of types]] 
-$$f'(x):\left(\sum_{x:A} (a =_A x)\right) \simeq \left(\sum_{x:A} B(x)\right)$$
+$$f(a):\left(\sum_{x:A} (a =_A x)\right) \simeq \left(\sum_{x:A} B(x)\right)$$
 
-Given any two families $x:A vdash B(x)$ and $x:A \vdash C(x)$, there is an weak equivalence of types
-$$\mathrm{tot}:\left(\left(\sum_{x:A} B(x)\right) \simeq \left(\sum_{x:A} C(x)\right)\right) \simeq \left(\prod_{x:A} B(x) \simeq C(x)\right)$$
+Thus, there is a family of functions
+$$g(a):\left(\sum_{x:A} (a =_A x)\right) \to B(x)$$
+indexed by $a:A$, defined by 
+$$g(a) \coloneqq \lambda z:\sum_{x:A} (a =_A x).\pi_2(f(a)(z))$$
+and by currying this is the same as the function
+$$g'(a):\prod_{x:A} (a =_A x) \to B(x)$$
+defined by
+$$g'(a) \coloneqq \lambda x:A.\lambda p:a =_A x.\pi_2(f(a)(x, p))$$
 
-Thus, there is a family of weak equivalences of types
-$$x:A \vdash \mathrm{tot}(f'(x)):\prod_{x:A} (a =_A x) \simeq B(x)$$
-and we define $\mathrm{ftid}'(x) \coloneqq \mathrm{tot}(f(x))(y)$. 
+Then by theorem 11.1.3 of [Rijke22](#Rijke22), since $f(a)$ is an equivalence of types, then each $g'(a)(x)$ is an equivalence of types for all $x:A$. Thus we define $\mathrm{ftid}(x)$ to be $g'(a)(x)$. 
 
 Definition 2 implies definition 1, as we begin with a family of weak equivalences 
 $$x:A \vdash \mathrm{ftid}(x):(a =_A x) \simeq B(x)$$
