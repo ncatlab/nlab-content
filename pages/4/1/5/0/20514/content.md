@@ -69,6 +69,14 @@ On the local value of the Hubble constant:
 
 * [[Adam G. Riess]],  Louise Breuval, *The Local Value of $H_0$* ([arXiv:2308.10954](https://arxiv.org/abs/2308.10954))
 
+On the status of various alternatives to the [[standard model of cosmology]] to resolve the Hubble tension:
+
+* Ali Rida Khalife, Maryam Bahrami Zanjani, Silvia Galli, Sven Günther, Julien Lesgourgues, Karim Benabed, *Review of Hubble tension solutions with new SH0ES and SPT-3G data* ([arXiv:2312.09814](https://arxiv.org/abs/2312.09814))
+
+That the Hubble tension might result from systematics in the [[cosmic microwave background]]:
+
+* Stacy McGaugh, *Early Galaxy Formation and the Hubble Tension* ([arXiv:2312.03127](https://arxiv.org/abs/2312.03127))
+
 [[!redirects Hubble constant]]
 
 [[!redirects Hubble tension]]
