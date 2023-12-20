@@ -1,14 +1,66 @@
-The **permutation groupoid**, sometimes denoted $\mathbb{P}$, is a [[skeleton]] of the [[groupoid]] of [[finite sets]] and [[bijections]].  Namely:
 
-$$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
-where objects are [[natural numbers]], all morphisms are [[automorphisms]], and the [[automorphism group]] of the object $n$ is the [[symmetric group]] $S_n$. 
+#Contents#
+* table of contents
+{:toc}
 
-In other words, $\mathbb{P}$ is [[equivalence of categories|equivalent]] to the [[core]] of [[FinSet]].   
+## Definition
 
-$\mathbb{P}$ can be made into a strict [[symmetric monoidal category]] with addition as its tensor product, and it is then the free strict symmetric monoidal category on one object (namely $1$).  
+The ([[skeleton]] of the) [[core]] [[groupoid]] of [[FinSet]], hence the [[category]] of [[finite sets]] and [[bijections]] ([[permutations]]) between them, is sometimes called the _permutation category_  or the _permutation groupoid_ (e.g. [BMT 2021](#BMT21)). 
 
-There are many notations for $\mathbb{P}$ besides '$\mathbb{P}$', such as $S$ and $\Sigma$.  In _[[The Joy of Cats]]_, $\mathbb{P}$ is denoted $Bij$.
+It deserves to be called the *symmetric groupoid*, because its [[connected components]] are the [[delooping groupoids]] of all the [[symmetric groups]] $Sym(n)$:
+
+$$
+  Core(FinSet)
+  \;\simeq\;
+  \textstyle{
+    \underset{n \in \mathbb{N}}
+    {\coprod}
+  }
+  \,
+  \mathbf{B} Sym(n)
+  \,.
+$$
+
+In its [[skeleton|skeletal]] incarnation on their right , this carries the [[structure]] of a [[strict monoidal category|strict]] [[symmetric monoidal category]] with [[addition]] of [[natural numbers]] as its [[tensor product]]. As such it is the [[free construction|free]] strict symmetric monoidal category on one object (namely on $1 \in \mathbb{N}$).  
+
+The [[presheaves]] on the permutation groupoid are also known as *[[combinatorial species]]*.
+
+## Related concept
+
+* [[FinSet]]
+
+* [[symmetric group]]
+
+* [[combinatorial species]]
+
+* [[braid category]]
+
+## References
+
+* Wikipedia, *[Permutation category](https://en.wikipedia.org/wiki/Permutation_category)*
+
+* {#BMT21} [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], *Schur functors and categorified plethysm* &lbrack;[arxiv:2106.00190](https://arxiv.org/abs/2106.00190)&rbrack;
+
+[[!redirects permutation groupoids]]
+
+[[!redirects permutation category]]
+[[!redirects permutation categories]]
+
+[[!redirects symmetric groupoid]]
+[[!redirects symmetric groupoids]]
+
+
+
 
 
 [[!redirects Bij]]
