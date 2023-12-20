@@ -68,7 +68,7 @@ These relations are known as _[[Tannaka duality]]_ [for monoids/algebras](Tannak
 
 ## Non-symmetric variants
 
-It is interesting how to generalize this notion in various nonsymmetric situations, for example involving [[braided monoidal category|braidings]], or more generally in [[duoidal categories]], or in relative situations over noncommutative rings (e.g. Takeuchi bialgebroids). In the completely noncommutative situation of the monoidal category of endofunctors, one can look at various compatibilities between [[monad]]s and comonads or monads and tensor products, for example involving distributive laws.
+It is interesting how to generalize this notion in various nonsymmetric situations, for example involving [[braided monoidal category|braidings]], or more generally in [[duoidal categories]], or in relative situations over noncommutative rings (e.g. Takeuchi bialgebroids). In the completely noncommutative situation of the monoidal category of endofunctors, one can look at various compatibilities between [[monad]]s and comonads or monads and tensor products, for example involving [[mixed distributive laws]].
 
 ## Related concepts
 
