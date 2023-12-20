@@ -13,7 +13,7 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie conatural numbers "terminated" (when they aren't $\infty$) with $A$ | [[partial map classifier]] |
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | |
 [[Set]] | $X \mapsto 1 + A \times X$       | List $A$               | Potentially infinite List $A$ | [[list]]   |
-[[Set]] | $X \mapsto 1 + A \times X^2$     | Finite binary tree with $A$-labelled nodes  | Potentially infinite binary tree with $A$-labelled nodes | |
+[[Set]] | $X \mapsto 1 + A \times X^2$     | Finite binary tree with $A$-labelled nodes  | Potentially infinite binary tree with $A$-labelled nodes | [[tree]] |
 [[Set]] | $X \mapsto B + A \times X^n$     | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled leaves | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves| |
 [[Set]] | $X \mapsto O \times [I, X]$      | $O \times [I, \emptyset]$ | Potentially infinite [[Moore machine]] | |
 [[Set]] | $X \mapsto [I, O \times X]$      | $[I, \emptyset]$       | Potentially infinite [[Mealy machine]]             | |
