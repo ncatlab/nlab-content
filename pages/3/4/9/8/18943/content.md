@@ -11,6 +11,6 @@ In [[quantum field theory]], _Haag-Ruelle scattering theory_ refers to formaliza
 
 * [[Rudolf Haag]]
 
-* [[Nikolay Bogoliubov]], A. A. Logunov, A. I. OksakI. T. Todorov. G. G. Gould, _Haag-Ruelle Scattering Theory_, In: Bogolubov N.N., Logunov A.A., Oksak A.I., Todorov I.T. (eds) _General Principles of Quantum Field Theory_. Mathematical Physics and Applied Mathematics, vol 10. Springer, Dordrecht
+* [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, *Haag-Ruelle Scattering Theory* &lbrack;[doi:10.1007/978-94-009-0491-0_12](https://doi.org/10.1007/978-94-009-0491-0_12)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
 
 [[!redirects Hag-Ruelle theory]]
