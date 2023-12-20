@@ -189,7 +189,7 @@ Formal proof of the second incompleteness theorem:
 * Lawrence Paulson, _A Mechanised Proof of G&#246;del's Incompleteness Theorems using Nominal Isabelle_ &lbrack;[pdf](https://www.cl.cam.ac.uk/~lp15/papers/Isabelle/Goedel-ar.pdf)&rbrack;
 
 
-Unified proof of [[Löb's theorem]] and [[Gödel's second incompleteness theorem]] via [[essentially algebraic theories]], [[modal logic]] and [[arithmetic universes]]:
+Unified account of [[Löb's theorem]]/[[Gödel's second incompleteness theorem]], [[Kripke semantics]] for [[provability logic]], and [[guarded recursion]], via [[essentially algebraic theories]] which "self-internalize"::
 
 * [[Sridhar Ramesh]], *Introspective Theories and Geminal Categories*, PhD thesis, Berkeley (2023) &lbrack;[escholarship:3mn0c475](https://escholarship.org/uc/item/3mn0c475), [[Ramesh-IntrospectiveTheories.pdf:file]]&rbrack;
 
