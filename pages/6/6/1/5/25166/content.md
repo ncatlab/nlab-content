@@ -1,5 +1,7 @@
 
 
+> This entry currently contains mistakes, see the discussion page [here](https://nforum.ncatlab.org/discussion/15838/fundamental-theorem-of-identity-types/?Focus=114709#Comment_114709).
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
