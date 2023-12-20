@@ -112,6 +112,8 @@ The 2-category of cartesian monoidal categories is comonadic (in the bicategoric
 
 * [[monoid]], [[commutative monoid]], [[category of monoids]]
 
+* [[gs-monoidal category]]
+
 
 
 [[!redirects cocommutative]]
