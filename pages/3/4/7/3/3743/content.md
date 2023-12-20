@@ -42,28 +42,32 @@ We therefore will need to discuss [[confluence]], [[normal form]], [[termination
 
 ### General
 
-See also:
-
-* wikipedia: [Rewriting](http://en.wikipedia.org/wiki/Rewriting)
-
-A classical foundational paper is 
-
 * Axel Thue,  Probleme &#252;ber Ver&#228;nderungen von Zeichenreihen nach gegebenen Regeln., Kristiania Vidensk. Selsk, Skr. (1914), no. 10, 493&#8211;524.
-
-A key lemma, often called *[[Newman's lemma]]*, is given in the beautiful paper:
 
 * [[Max H. A. Newman]], *On theories with a combinatorial definition of "equivalence"*, Annals of Mathematics **43** 2 (1942) 223-243 &lbrack;[doi:10.2307/1968867](https://doi.org/10.2307/1968867)&rbrack;
 
-For good references on word rewriting see
+  > (proves [[Newman's lemma]])
 
 *  Ronald V. Book, Friedrich Otto, _String-rewriting systems_, Texts and Monographs in Computer Science, 
 Springer-Verlag, 1993. 
 
- and on term rewriting
 
-* Franz Baader, Tobias Nipkow, _Term rewriting and all that_, Cambridge University Press, 1998. 
+* [[Fabio Gadducci]], _On the algebraic approach to concurrent term rewriting_, PhD thesis (1996) &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1277313dd2c4fce640780b7472221156579e392f), [[Gadducci-AlgebraicRewriting.pdf:file]]&rbrack;
+
+* Franz Baader, Tobias Nipkow, _Term rewriting and all that_, Cambridge University Press (1998) &lbrack;[webpage](https://www21.in.tum.de/~nipkow/TRaAT/)&rbrack;
+
+
+* [[Andrea Corradini]], [[Fabio Gadducci]], _An algebraic presentation of term graphs, via gs-monoidal categories_, Applied Categorical Structures **7** (1999) 299-331 &lbrack;[doi:10.1023/A:1008647417502](https://doi.org/10.1023/A:1008647417502)&rbrack;
+
+  > (introducing [[gs-monoidal categories]] for term rewriting)
 
 *   _Terese_, Term rewriting systems, Cambridge Tracts in Theoretical Computer Science, vol. 55, Cambridge University Press, 2003. 
+
+See also:
+
+* Wikipedia, *[Rewriting](http://en.wikipedia.org/wiki/Rewriting)*
+
+
 
 On [[rewriting]] in [[group presentations]]:
 
