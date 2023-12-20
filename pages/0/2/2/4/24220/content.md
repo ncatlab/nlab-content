@@ -87,7 +87,7 @@ A **homomorphism of coherent associative H-spaces** between two coherent associa
 
 ## Examples
 
-* The [[integers]] are an associative H-space under addition, as are the [[natural numbers type|natural numbers]]. More generally, as noted above, any [[h-set]] monoid is an associative H-space
+* The [[integers]] are an associative H-space under addition, as are the [[natural numbers type|natural numbers]]. More generally, as noted above, any [[h-set]] monoid is an associative H-space, and is coherent. 
 
 * Every [[loop space]] type $\Omega_x(X) \equiv (x=_X x)$ is naturally an associative H-space, with [[path]] concatenation as the operation.  In this case, the operation is in fact coherent, and indeed every loop space is a $\infty$-group (although this is difficult to express in type theory).
 
