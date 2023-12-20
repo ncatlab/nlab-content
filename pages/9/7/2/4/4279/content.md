@@ -473,6 +473,9 @@ Textbook account:
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], §2.3 in: *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
 
+* [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, p. 234 in: *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
+
+
 Discussion under the name "positive linear functionals":
 
 * {#Steward76} [[James D. Steward]], *Positive definite functions and generalizations, an historical survey*, The Rocky Mountain Journal of Mathematics **6** 3 (1976) 409-434 &lbrack;[jstor:44236118](https://www.jstor.org/stable/44236118)&rbrack;
