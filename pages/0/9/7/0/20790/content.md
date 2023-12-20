@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -77,6 +76,15 @@ in terms of [[worldline formalism]]:
 * Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_, 
  Nuclear Physics B, Volume 852, Issue 1, 1 November 2011, Pages 61-70 ([arxiv:1102.5318](https://arxiv.org/abs/1102.5318))
 
+### As a string theory
+
+On [[D=2 Yang-Mills theory]] as the [[effective field theory]] of a [[string theory]]:
+
+* [[Ofer Aharony]], Suman Kundu, Tal Sheaffer, *A String Theory for Two Dimensional Yang-Mills Theory I* &lbrack;[arXiv:2312.12266](https://arxiv.org/abs/2312.12266)&rbrack;
+
+
+
+
 
 [[!redirects 2d QCD]]
 
@@ -86,4 +94,6 @@ in terms of [[worldline formalism]]:
 
 [[!redirects 't Hooft model]]
 [[!redirects 't Hooft models]]
+
+[[!redirects D=2 Yang-Mills theory]]
 
