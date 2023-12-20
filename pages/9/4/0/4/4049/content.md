@@ -25,7 +25,7 @@ $V$-Enriched natural transformations constitute the [[2-morphisms]] in the [[2-c
 
 For $V$ a [[cosmos for enrichment]], let 
 
-* $\mathbf{C}$, $\mathbf{D}$ be a [[pair]] of [[enriched categories]]
+* $\mathbf{C}$, $\mathbf{D}$ be a [[pair]] of $V$-[[enriched categories]]
 
   (we denote their [[hom-objects]] by $C(-, -)$ etc., instead of $\hom_C(-, -)$ or similar),
 
