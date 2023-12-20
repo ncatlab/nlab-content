@@ -14,8 +14,6 @@
 =--
 
 
-# Weak distributive laws
-
 * table of contents
 {:toc}
 
