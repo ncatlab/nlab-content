@@ -21,3 +21,4 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto X \times X$           | $\emptyset$            | 1 (the unique infinite unlabelled binary tree)     | |
 [[Set]] | $X \mapsto \mathcal{P}(X)$       | /                      | /                             | |
 [[Set]] | $X \mapsto \mathcal{P}_{\text{fin}}(X)$ | Finite rooted forests | Potentially infinite finitely-branching rooted forests | |
+Bipointed Sets | $X \mapsto X \vee X$ | ? | The closed interval $[0,1] \subseteq \mathbb{R}$ | [[coalgebra of the real interval]] | |
