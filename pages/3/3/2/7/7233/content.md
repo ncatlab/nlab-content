@@ -521,12 +521,17 @@ Discussion of [[G2-orbifolds]] includes
 
 ### Moduli
 
-Discussion of the [[moduli space]] of $G_2$-structures includes
+Discussion of the [[moduli space]] of $G_2$-structures:
 
 
 * {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
 
-* [[Spiro Karigiannis]], [[Naichung Conan Leung]], _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
+* [[Spiro Karigiannis]], [[Naichung Conan Leung]], _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) &lbrack;[arXiv:0709.2987](http://arxiv.org/abs/0709.2987), [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)&rbrack;
+
+Relating to moduli of [[flat connections]] on [[tori]]:
+
+* [[Bobby S. Acharya]], Daniel A. Baldwin, *Ricci Flat Metrics, Flat Connections and $G_2$-Manifolds* &lbrack;[arXiv:2312.12311](https://arxiv.org/abs/2312.12311)&rbrack;
+
 
 
 ### Variants and generalizations
