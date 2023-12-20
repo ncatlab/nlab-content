@@ -29,9 +29,13 @@ The RR-potenzial $C_0$ combines with the [[dilaton]] to the [[axio-dilaton]].
 
 ## References
 
-* G.W. Gibbons, M.B. Green and M.J. Perry, Phys. Lett. B370 (1996) 231; 
+* [[Gary Gibbons]], [[Michael Green]] and [[Malcolm Perry]], Phys. Lett. B370 (1996) 231; 
 
-* S.S. Gubser, A. Hashimoto, I.R. Klebanov and J.M. Maldacena, Nucl. Phys. B472 (1996) 231.
+* [[Steven Gubser]], A. Hashimoto, [[Igor Klebanov]], [[Juan Maldacena]], Nucl. Phys. B472 (1996) 231.
+
+* [[Ashoke Sen]], *String Theory in Rolling Tachyon Vacuum* &lbrack;[arXiv:2312.11634](https://arxiv.org/abs/2312.11634)&rbrack;
+
+
 
 [[!redirects D(-1)-branes]]
 
