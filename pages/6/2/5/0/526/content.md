@@ -96,6 +96,8 @@ In the case of [[topological spaces]] or other models of  classical [[homotopy t
 
 * [[co-unitality]]
 
+* [[gs-monoidal category]]
+
 [[!include reader-writer (co)monads -- table]]
 
 
