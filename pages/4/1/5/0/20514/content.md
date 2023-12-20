@@ -75,7 +75,7 @@ On the status of various alternatives to the [[standard model of cosmology]] to 
 
 That the Hubble tension might result from systematics in the [[cosmic microwave background]]:
 
-* Stacy McGaugh, *Early Galaxy Formation and the Hubble Tension* ([arXiv:2312.03127](https://arxiv.org/abs/2312.03127))
+* [[Stacy McGaugh]], *Early Galaxy Formation and the Hubble Tension* &lbrack;[arXiv:2312.03127](https://arxiv.org/abs/2312.03127)&rbrack;
 
 [[!redirects Hubble constant]]
 
