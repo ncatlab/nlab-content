@@ -37,6 +37,8 @@ The notion of "supply" does not satisfy the [[principle of equivalence]]: if $C\
 
 * A [[Markov category]] is a [[semicartesian monoidal category|semicartesian]] symmetric monoidal category that supplies commutative comonoids.
 
+* A [[gs-monoidal category]] is a symmetric monoidal category that supplies commutative comonoids.
+
 ## References
 
 * [[Brendan Fong]], [[David Spivak]], _Supplying bells and whistles in symmetric monoidal categories_, &lbrack;[arxiv:1908.02633](https://arxiv.org/abs/1908.02633)&rbrack;
