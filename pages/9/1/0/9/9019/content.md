@@ -1,6 +1,7 @@
 
 * [webpage](http://users.ictp.it/~bacharya/)
 
+
 ## Selected writings
 
 On [[M-theory on G2-manifolds]]:
@@ -54,12 +55,18 @@ On the [[metric cone over complex projective 3-space]] and the [[twistor fibrati
 
 * [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
+Relating [[moduli spaces]] of [[G2-manifolds|$G_2$-manifolds]] to those of [[flat connections]] on [[tori]]:
+
+* [[Bobby S. Acharya]], Daniel A. Baldwin, *Ricci Flat Metrics, Flat Connections and $G_2$-Manifolds* &lbrack;[arXiv:2312.12311](https://arxiv.org/abs/2312.12311)&rbrack;
+
 
 ## Related entries
 
 * [[G2-MSSM]]
 
 * [[M-theory on G2-manifolds]]
+
+[[!redirects Bobby S. Acharya]]
 
 
 
