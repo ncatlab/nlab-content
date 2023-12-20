@@ -198,7 +198,7 @@ $$
   F \;\colon\; \mathcal{C} \longrightarrow Top_{cg}
 $$
 
-to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically [[enriched presheaf|enriched]] [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
+to the archetypical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically [[enriched presheaf|enriched]] [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
 
 Hence the category of topologically enriched functors
 
@@ -206,7 +206,7 @@ $$
   [\mathcal{C}, Top_{cg}] 
 $$
 
-according to def. \ref{TopologicallyEnrichedFunctor} may be thought of as the ([[copresheaf|co-]])[[presheaf category]] over $\mathcal{C}$ in the realm of topological enriched categories.
+according to def. \ref{TopologicallyEnrichedFunctor} may be thought of as the ([[copresheaf|co-]])[[presheaf category]] over $\mathcal{C}$ in the realm of topologically enriched categories.
 
 A functor $F \in [\mathcal{C}, Top_{cg}]$ is equivalently 
 
@@ -222,7 +222,7 @@ A functor $F \in [\mathcal{C}, Top_{cg}]$ is equivalently
 
 such that composition is respected, in the evident sense.
 
-For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c) or \mathcal{C}(c,-)$ which sends objects to 
+For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c)$ or $\mathcal{C}(c,-)$ which sends objects to 
 
 $$
   y(c)(d) = \mathcal{C}(c,d) \in Top_{cg}
@@ -240,7 +240,7 @@ There is a full blown $Top_{cg}$-[[enriched Yoneda lemma]]. The following record
 
 Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, write $[\mathcal{C}, Top_{cg}]$ for its category of topologically enriched (co-)presheaves, and for $c\in Obj(\mathcal{C})$ write $y(c) = \mathcal{C}(c,-) \in [\mathcal{C}, Top_k]$ for the topologically enriched functor that it represents, all according to example \ref{TopologicallyEnrichedFunctorsToTopk}. Recall also the $Top_{cg}$-tensored functors $F \cdot X$ from that example.
 
-For $c\in Obj(\mathcal{C})$, $X \in Top$ and $F \in [\mathcal{C}, Top_{cg}]$, there is a [[natural bijection]] between 
+For $c\in Obj(\mathcal{C})$, $X \in Top_{cg}$ and $F \in [\mathcal{C}, Top_{cg}]$, there is a [[natural bijection]] between 
 
 1. morphisms $y(c) \cdot X \longrightarrow F$ in $[\mathcal{C}, Top_{cg}]$;
 
