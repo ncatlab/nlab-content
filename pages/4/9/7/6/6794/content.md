@@ -31,6 +31,10 @@ On [[multi trace operators]] in [[AdS/CFT]]:
 
 * [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Non-local string theories on $AdS_3$ times $S^3$ and stable non-supersymmetric backgrounds_, Phys. Rev. D65:106007, 2002 ([arXiv:hep-th/0112178](https://arxiv.org/abs/hep-th/0112178))
 
+On [[D=2 Yang-Mills theory]] as the [[effective field theory]] of a [[string theory]]:
+
+* [[Ofer Aharony]], Suman Kundu, Tal Sheaffer, *A String Theory for Two Dimensional Yang-Mills Theory I* &lbrack;[arXiv:2312.12266](https://arxiv.org/abs/2312.12266)&rbrack;
+
 
 ## Related entries
 
