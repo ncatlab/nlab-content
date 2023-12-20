@@ -337,7 +337,7 @@ The symmetric group on the natural numbers $\mathrm{Sym}(\mathbb{N})$ is an [[un
 
 Assuming the [[axiom of choice]], given an [[infinite set]] $A$, there is a [[bijection]] $\mathrm{Sym}(A) \cong \mathcal{P}(A)$ between the symmetric group of $A$ and the [[power set]] of $A$. 
 
-## Related entries
+## Related concepts
 
 * [[permutation]], [[permutation representation]], [[permutation matrix]]
 
@@ -351,11 +351,11 @@ Assuming the [[axiom of choice]], given an [[infinite set]] $A$, there is a [[bi
 
 * [[alternating group]]
 
+* [[symmetric groupoid]]
+
 * [[signature of a permutation]]
 
 * [[Young subgroup]]
-
-* [[permutation category]]
 
 * [[permutation D-brane]]
 
