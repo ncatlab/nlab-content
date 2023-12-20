@@ -1,11 +1,11 @@
 
 ## Idea
 
-In [[logic]], **game semantics** is used to provide a semantic interpretation of logical constructions in terms of strategies for opposing players to win a game which corresponds to some proposition.
+In [[logic]], **game semantics** is used to provide a semantic interpretation of logical constructions in terms of strategies for opposing players (a *prover* and an *opponent*) to win a game which corresponds to some proposition.
 
 For a brief history, see this [comment](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_3.html#c005578) by [[Samson Abramsky]].
 
-##Related pages
+## Related pages
 
 * [linear logic](linear+logic#game_semantics)
 
