@@ -74,6 +74,8 @@ whence $0 \leq d(x, y) \leq 0$ and therefore $x = y$.
 
 By a suitable choice of space $X$ and endomorphism $f$, this theorem can be used to establish existence and uniqueness of solutions of differential equations (this should be expanded upon). 
 
+In the case where $X$ is compact, we may weaken the condition $d(f(x), f(y)) \leq r d(x, y)$ for some uniform $r \lt 1$, to merely $d(f(x), f(y)) \lt d(x, y)$ whenever $x \neq y$. To see this, use compactness to show that $d(x, f(x))$ attains a minimum value at some $x_0$. Then $f(x_0) = x_0$, else $d(f(x_0), f(f(x_0))) \lt d(x_0, f(x_0))$. Hence there exists at least one fixed point, and only one since if $x_0, y_0$ are different fixed points, then $d(x_0, y_0) = d(f(x_0), f(y_0)) \lt d(x_0, y_0)$. 
+
 * [[Banach fixed point theorem]]
 
 * [[Brouwer's fixed point theorem]]
