@@ -817,6 +817,8 @@ higher versions
 
 * [[symmetric closed monoidal category]]
 
+* [[gs-monoidal category]]
+
 * [[MonCat]]
 
 * [[enriched monoidal category]]
