@@ -171,9 +171,13 @@ Regarding $\kappa$ as an ordinal $\{\alpha \lt \kappa\}$ (hence a poset, hence a
 
 * $G(\alpha + 1 \lt \beta + 1) = F(G(\alpha \lt \beta))$; 
 
-* For $\alpha$ a limit ordinal, $G(\alpha \lt \beta + 1)$ is the unique map $colim_{\gamma \lt \alpha} G(\gamma) \to G(\beta +1$ corresponding to the cocone from the diagram $G| \colon \alpha \to C$ to $G(\beta+1)$. 
+* For $\alpha$ a limit ordinal, $G(\alpha \lt \beta + 1)$ is the unique map $colim_{\gamma \lt \alpha} G(\gamma) \to G(\beta +1)$ corresponding to the cocone from the diagram $G| \colon \alpha \to C$ to $G(\beta+1)$. 
 
-By assumption, $colim G$ exists in $C$, and this colimit is preserved by $F$. (To be continued.) 
+By assumption, $colim G$ exists in $C$, and this colimit is preserved by $F$. Thus we have an isomorphism $F(colim G) \cong colim G$, affording an $F$-algebra structure on $colim G$. If $(x, \theta: F(x) \to x)$ is any algebra, then we define a cocone from $G$ to $x$ whose component at successor stages $\alpha + 1$ is defined recursively as an evident composite 
+
+$$G(\alpha + 1) = F(G(\alpha)) \to F(x) \stackrel{\theta}{\to} x,$$ 
+
+and whose component at limit stages $\alpha$ is the unique map $G(\alpha) \to x$ out of the colimit that is compatible with previous components $G(\beta) \to x$, for $\beta \lt \alpha$. It is readily seen that the map $colim G \to x$, uniquely determined from the cocone $G \to x$, is the only possible algebra map. 
 =-- 
 
 A typical application is where $C$ is a $\kappa$-accessible category and $F \colon C \to C$ is a $\kappa$-accessible functor. A concise statement is that accessible endofunctors on accessible categories with an initial object possess categorical fixed points (in fact, the fixed points form another accessible category with an initial object). 
