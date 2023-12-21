@@ -1,5 +1,7 @@
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss)
+* [Wikipedia entry (en)](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss)
+
+* [Wikipedia entry (de)](https://de.wikipedia.org/wiki/Carl_Friedrich_Gau%C3%9F)
 
 * [Encyclopedia.com entry](https://www.encyclopedia.com/people/science-and-technology/mathematics-biographies/carl-friedrich-gauss)
 
@@ -9,6 +11,11 @@ On [[number theory]] and [[quadratic forms]]:
 
 * [[Carl Gauss]],  _[[Disquisitiones Arithmeticae]]_,  1801 ([pdf scan](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?action=pdf&metsFile=PPN235993352&divID=LOG_0001&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN235993352%7C&targetFileName=PPN235993352_LOG_0001.pdf&))
 
+The article after which the *[[Gauss law]]* in [[electromagnetism]] is named:
+
+* {#Gauss1877} [[Carl F. Gauß]], *Theoria attractionis corporum sphaeroidicorum ellipticorum homogeneorum, methodo nova tractata*, Commentationes Societatis Regiae Scientiarum G&ouml;ttingensis Recentiores. Comm. Class. Math. **2** (1813) 1–24 &lbrack;[PPN35283028X_0002_2NS](http://resolver.sub.uni-goettingen.de/purl?PPN35283028X_0002_2NS)&rbrack;
+
+  reprinted in: *Carl Friedrich Gauss -- Werke* **5**, Springer (1877) 2-22 &lbrack;[doi:10.1007/978-3-642-49319-5_1](https://doi.org/10.1007/978-3-642-49319-5_1)&rbrack;
 
 
 On the [[fundamental theorem of algebra]]:
@@ -45,6 +52,9 @@ category: people
 [[!redirects Carl Friedrich Gauß]]
 [[!redirects Karl Friedrich Gauss]]
 [[!redirects Karl Friedrich Gauß]]
+
+[[!redirects Carl F. Gauß]]
+
 [[!redirects Johann Carl Friedrich Gauss]]
 [[!redirects Johann Carl Friedrich Gauß]]
 [[!redirects Johann Karl Friedrich Gauss]]
