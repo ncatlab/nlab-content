@@ -111,7 +111,9 @@ The category $Top$ of [[topological spaces]] does not have any small full subcat
 The category $Set^{op}$ has a small full subcategory which is dense if and only if there is not a proper class of [[measurable cardinals]], a result due to Isbell.
 \end{example}
 
-
+\begin{example}
+Let $V$ be a [[Bénabou cosmos]]. Then the inclusion of the 2-category of small $V$-categories into the 2-category of large $V$-categories is dense as a 2-functor (Lemma 2.16 of [Przybyłek (2014)](#Przybyłek2014)).
+\end{example}
 
 ## Related entries
 
@@ -162,6 +164,8 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 * [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_ , J. of Algebra **8** (1968) pp.77-95.
 
 * [[Giacomo Tendas]], *Dense functors and density presentations*, unpublished notes ([pdf](https://gtendas.github.io/pdfs/day.pdf))
+
+* {#Przybyłek2014} [[Michał Przybyłek]], _Analysis and construction of logical systems: a category-theoretic approach_ (2014), PhD thesis ([pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf)).
 
 [[!redirects adequate subcategory]]
 [[!redirects left adequate subcategory]]
