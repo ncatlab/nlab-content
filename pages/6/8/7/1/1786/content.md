@@ -88,6 +88,10 @@ Further discussion of this is also at _[loop space -- Homotopy associative struc
 
 The operations on an [[H-space]] $X$ equip its [[homology]] with the [[mathematical structure|structure]] of  [[ring]]. At least for [[ordinary homology]] this is known as the _[[Pontrjagin ring]]_ $H_*(X)$ of $X$.
 
+### Rational homotopy
+
+If $X$ is finite CW complex and a H-space, then it has the [[rational homotopy equivalence|rational homotopy type]] of a finite product of odd-dimensional spheres (see Cor. 9.1.2. of [May & Ponto (2011)](#MP11concise)). This in particular includes all [[Lie group|Lie groups]] (see e.g. ([Lin (1995)](#Lin95))). 
+
 ## H-Spaces in homotopy type theory
 
 In [[homotopy type theory]], an *H-Space* consists of
@@ -233,6 +237,11 @@ See also
 * [[John Adams]], _Finite $H$-Spaces and Lie groups_, Journal of Pure and Applied Algebra 19 (1980) 1-8 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamse8.pdf))
 
 * {#Adams61} [[John Adams]], _The sphere, considered as an $H$-space mod $p$_, Quart. J. Math. Oxford. Ser. (2) vol 12 52-60 ([pdf](http://qjmath.oxfordjournals.org/content/12/1/52.citation))
+
+* {#MP11concise} [[Peter May]], [[Kate Ponto]]. *More Concise Algebraic Topology*. University of Chicago Press (2011). ([doi](https://www.doi.org/10.7208/chicago/9780226511795.001.0001))
+
+* {#Lin95} James P. Lin. "H-spaces with Finiteness Conditions". In: *Handbook of Algebraic Topology*
+(1995), pp. 1095, 1097-1141. ([doi](https://doi.org/10.1016/B978-044481779-2/50023-7))
 
 [[!redirects H-spaces]]
 
