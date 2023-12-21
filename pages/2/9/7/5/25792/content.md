@@ -390,6 +390,10 @@ References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]
 [[!redirects duality-symmetric gauge theory]]
 [[!redirects duality-symmetric gauge theories]]
 
+[[!redirects duality-symmetric higher gauge theory]]
+[[!redirects duality-symmetric higher gauge theories]]
+
+
 [[!redirects duality-symmetric electromagnetism]]
 
 [[!redirects duality-symmetric RR-field]]
