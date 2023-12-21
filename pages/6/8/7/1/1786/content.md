@@ -89,8 +89,13 @@ Further discussion of this is also at _[loop space -- Homotopy associative struc
 The operations on an [[H-space]] $X$ equip its [[homology]] with the [[mathematical structure|structure]] of  [[ring]]. At least for [[ordinary homology]] this is known as the _[[Pontrjagin ring]]_ $H_*(X)$ of $X$.
 
 ### Rational homotopy
+ {#RationalHomotopy}
 
-If $X$ is finite CW complex and a H-space, then it has the [[rational homotopy equivalence|rational homotopy type]] of a finite product of odd-dimensional spheres (see Cor. 9.1.2. of [May & Ponto (2011)](#MP11concise)). This in particular includes all [[Lie group|Lie groups]] (see e.g. ([Lin (1995)](#Lin95))). 
+Every [[connected topological space|connected]] H-space of rational [[finite type]] (i.e., whose [[rational cohomology]] in each degree is a [[finite-dimensional vector space|finite-dimensional]] [[rational vector space]]) is [[rational homotopy equivalence|rationally homotopy equivalent]] to a [[product space|product]] of [[Eilenberg-MacLane spaces]] (e.g. [May & Ponto 2011, Thm. 9.1.1](#MP11concise)). This means equivalently that its minimal [[Sullivan model]] has vanishing [[differential]], see for instance the example of [[Sullivan models of based loop spaces]].
+
+If such an H-space in addition admits the structure of a [[finite CW-complex]] then it has the [[rational homotopy equivalence|rational homotopy type]] of a finite [[product topological space|product]] of [[odd number|odd]]-[[dimension of a manifold|dimensional]] [[rational n-sphere|rational spheres]] (Cor. 9.1.2. of [May & Ponto 2011](#MP11concise)). 
+
+For example, since [[smooth manifolds]] have CW-complex structure (see [there](CW+complex#SmoothManifoldsAdmitCWComplexStructure)) this  is the case for all [[Lie groups]] (e.g. [Lin 1995](#Lin95)). 
 
 ## H-Spaces in homotopy type theory
 
@@ -238,7 +243,7 @@ See also
 
 * {#Adams61} [[John Adams]], _The sphere, considered as an $H$-space mod $p$_, Quart. J. Math. Oxford. Ser. (2) vol 12 52-60 ([pdf](http://qjmath.oxfordjournals.org/content/12/1/52.citation))
 
-* {#MP11concise} [[Peter May]], [[Kate Ponto]]. *More Concise Algebraic Topology*. University of Chicago Press (2011). ([doi](https://www.doi.org/10.7208/chicago/9780226511795.001.0001))
+* {#MP11concise} [[Peter May]], [[Kate Ponto]]. *[[More Concise Algebraic Topology]]*, University of Chicago Press (2011). &lbrack;[doi:10.7208/chicago/9780226511795.001.0001](https://www.doi.org/10.7208/chicago/9780226511795.001.0001), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack
 
 * {#Lin95} James P. Lin. "H-spaces with Finiteness Conditions". In: *Handbook of Algebraic Topology*
 (1995), pp. 1095, 1097-1141. ([doi](https://doi.org/10.1016/B978-044481779-2/50023-7))
