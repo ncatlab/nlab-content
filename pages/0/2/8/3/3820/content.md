@@ -646,7 +646,12 @@ Discussion via [[BV-formalism]] includes
 
 * {#CattaneoMnevReshetikhin12} [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
 
-[[!redirects covariant phase space]]
 
 [[!redirects phase spaces]]
+
+[[!redirects covariant phase space]]
 [[!redirects covariant phase spaces]]
+
+[[!redirects canonical phase space]]
+[[!redirects canonical phase spaces]]
+
