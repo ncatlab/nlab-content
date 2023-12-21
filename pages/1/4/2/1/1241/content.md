@@ -310,6 +310,9 @@ On [[division algebra|division-algebraic]] relations in GUT-[[broken symmetry|sy
 
 * [[Nichol Furey]], *An Algebraic Roadmap of Particle Theories, Part I: General construction* &lbrack;[arXiv:2312.12377](https://arxiv.org/abs/2312.12377)&rbrack;
 
+* [[Nichol Furey]], *An Algebraic Roadmap of Particle Theories, Part II: Theoretical checkpoints* &lbrack;[arXiv:2312.12799](https://arxiv.org/abs/2312.12799)&rbrack;
+
+
 
 
 ### Proton (non-)decay
