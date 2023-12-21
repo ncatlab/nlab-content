@@ -467,6 +467,8 @@ $$
 
 * [[extension system]], [[Kleisli triple]], [[monad in computer science]]
 
+* [[relative pseudomonad]]
+
 * [[polymonad]]
 
 ## References
