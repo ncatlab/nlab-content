@@ -148,6 +148,8 @@ This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
 
 ## Related concepts
 
+* [[Gauss law]]
+
 * [[∞-Lie algebroid valued differential forms]]
 
 * [[connection on an ∞-bundle]]
