@@ -62,6 +62,10 @@ On [[higher geometry]] in physics:
 
 * [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
 
+On [[3d quantum gravity]]:
+
+* [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
+
 
 (...)
 
