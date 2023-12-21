@@ -228,7 +228,10 @@ Computation of [[graviton]] [[scattering amplitudes]] with the BFSS matrix model
 
 * [[Robert Helling]], [[Jan Plefka]], Marco Serone, Andrew Waldron, *Three-graviton scattering in M-theory*, Nuclear Physics B **559** 1–2 (1999) 184-204 &lbrack;[arXiv:hep-th/9905183](https://arxiv.org/abs/hep-th/9905183), <a href="https://doi.org/10.1016/S0550-3213(99)00451-4">doi:10.1016/S0550-3213(99)00451-4</a>&rbrack;
 
-* Robert Echols, _M-theory, supergravity and the matrix model: Graviton scattering and non-renormalization theorems_, PhD thesis, 1999 [pdf](https://web.calpoly.edu/~rechols/phys403/mythesis.pdf)
+* Robert Echols, _M-theory, supergravity and the matrix model: Graviton scattering and non-renormalization theorems_, PhD thesis, 1999 &lbrack;[pdf](https://web.calpoly.edu/~rechols/phys403/mythesis.pdf)&rbrack;
+
+* Aidan Herderschee, [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
+
 
 In relation to the [[soft graviton theorem]]:
 
