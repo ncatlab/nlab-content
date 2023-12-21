@@ -32,6 +32,16 @@ For $(X,g)$ a [[Lorentzian manifold]], a **Cauchy surface** is an [[embedding|em
 
 A Lorentzian manifold that does admit a Cauchy surface is called _[[globally hyperbolic]]_. 
 
+## Properties
+
+\begin{proposition}\label{FolitationOfGloballyHyperbolicSpacetimes}
+  For $X^D$ a [[smooth manifold|smooth]] [[globally hyperbolic spacetime]], it admits a smooth [[foliation]] [[diffeomorphism]] by smooth spacelike Cauchy surfaces $X^d$, exhibited by a [[diffeomorphism]]
+$$
+  X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d
+  \,.
+$$
+\end{proposition}
+([Bernal & Sánchez 2003, Thm. 1.1](#BernalSánchez03), following [Geroch 1970](#Geroch70))
 
 ## Applications
 
@@ -49,11 +59,11 @@ The existence of a splitting of globally hyperbolic spacetimes into Cauchy surfa
 
 in the topological category due to 
 
-* [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
+* {#Geroch70} [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
 
 and in the smooth category (needed in practice) due to 
 
-* Antonio N. Bernal, Miguel Sánchez, _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_, Commun. Math. Phys. 243 (2003) 461-470 &lbrack;[arXiv:gr-qc/0306108v2](http://arxiv.org/abs/gr-qc/0306108), [doi:10.1007/s00220-003-0982-6](https://doi.org/10.1007/s00220-003-0982-6)&rbrack;
+* {#BernalSánchez03} Antonio N. Bernal, Miguel Sánchez, _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_, Commun. Math. Phys. 243 (2003) 461-470 &lbrack;[arXiv:gr-qc/0306108](http://arxiv.org/abs/gr-qc/0306108), [doi:10.1007/s00220-003-0982-6](https://doi.org/10.1007/s00220-003-0982-6)&rbrack;
 
 
 [[!redirects Cauchy surface]]
