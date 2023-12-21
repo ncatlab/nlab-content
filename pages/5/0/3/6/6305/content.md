@@ -35,13 +35,14 @@ A Lorentzian manifold that does admit a Cauchy surface is called _[[globally hyp
 ## Properties
 
 \begin{proposition}\label{FolitationOfGloballyHyperbolicSpacetimes}
-  For $X^D$ a [[smooth manifold|smooth]] [[globally hyperbolic spacetime]], it admits a smooth [[foliation]] [[diffeomorphism]] by smooth spacelike Cauchy surfaces $X^d$, exhibited by a [[diffeomorphism]]
+  For $X^D$ a [[smooth manifold|smooth]] [[globally hyperbolic spacetime]], it admits a smooth [[foliation]]  by smooth spacelike Cauchy surfaces $X^d$, exhibited by a [[diffeomorphism]]
 $$
   X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d
-  \,.
+  \,,
 $$
+which is [[isometry|isometric]] with respect to a possibly non-product [[pseudo-Riemannian metric]] on the right
 \end{proposition}
-([Bernal & Sánchez 2003, Thm. 1.1](#BernalSánchez03), following [Geroch 1970](#Geroch70))
+([Bernal & Sánchez 2005, Thm. 1.1](#BernalSánchez03), following [Geroch 1970](#Geroch70), reviewed in [Sánchez 2022 (3)](#Sánchez22)).
 
 ## Applications
 
@@ -63,7 +64,13 @@ in the topological category due to
 
 and in the smooth category (needed in practice) due to 
 
-* {#BernalSánchez03} Antonio N. Bernal, Miguel Sánchez, _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_, Commun. Math. Phys. 243 (2003) 461-470 &lbrack;[arXiv:gr-qc/0306108](http://arxiv.org/abs/gr-qc/0306108), [doi:10.1007/s00220-003-0982-6](https://doi.org/10.1007/s00220-003-0982-6)&rbrack;
+* {#BernalSánchez03} Antonio N. Bernal, [[Miguel Sánchez]], _On smooth Cauchy hypersurfaces and Geroch's splitting theorem_, Commun. Math. Phys. 243 (2003) 461-470 &lbrack;[arXiv:gr-qc/0306108](http://arxiv.org/abs/gr-qc/0306108), [doi:10.1007/s00220-003-0982-6](https://doi.org/10.1007/s00220-003-0982-6)&rbrack;
+
+* {#BernalSánchez05} [[Antonio N. Bernal]], [[Miguel Sánchez]], *Smoothness of time functions and the metric splitting of globally hyperbolic spacetimes*, Commun. Math. Phys. **257** (2005) 43-50 &lbrack;[arXiv:gr-qc/0401112](https://arxiv.org/abs/gr-qc/0401112), [doi:10.1007/s00220-005-1346-1](https://doi.org/10.1007/s00220-005-1346-1)&rbrack;
+
+
+* {#Sánchez22} [[Miguel Sánchez]], *Globally hyperbolic spacetimes: slicings, boundaries and counterexamples*, Gen Relativ Gravit **54** 124 (2022) &lbrack;[arXiv:2110.13672](https://arxiv.org/abs/2110.13672), [doi:10.1007/s10714-022-03002-6](https://doi.org/10.1007/s10714-022-03002-6)&rbrack;
+
 
 
 [[!redirects Cauchy surface]]
