@@ -50,6 +50,9 @@ Reviewed in:
 
 * [[Matthias Ludewig]], *The spinor bundle on loop space and its fusion product*, talk at [[CQTS]] (Apr 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#LudewigApr2023), video: [YT](https://www.youtube.com/watch?v=iiRm47HavRU)&rbrack;
 
+* [[Konrad Waldorf]], *String structures and loop spaces*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12998](https://arxiv.org/abs/2312.12998)&rbrack;
+
+
 
 [[!redirects stringor bundles]]
 
