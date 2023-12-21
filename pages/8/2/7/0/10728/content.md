@@ -20,7 +20,7 @@
 
 ## Definition
 
-A _finite CW-complex_ is a [[CW-complex]] which admits a presentation in which there are a [[finite number]] of attaching maps.
+A _finite CW-complex_ is a [[CW-complex]] with a [[finite number]] of [[attaching maps]].
 
 The [[homotopy type]] of a finite CW-complex is called a _[[finite homotopy type]]_.
 
