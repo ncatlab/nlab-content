@@ -1,5 +1,5 @@
 
-Discussion of [[Lagrangian densities]] for [[type II supergravity]] making the "democratic"/ "[[pregeometric RR-fields|pregeometric]]" [[RR-fields]] and their [[self-dual higher gauge theory|self-duality]] manifest:
+Discussion of ([[Lagrangian densities]] for) [[D=10 type II supergravity]] with "[[duality-symmetric higher gauge theory|duality-symmetric]]"/"democratic"/"[[pregeometric RR-fields|pregeometric]]" for of the [[RR-fields]]:
 
 * {#Dall'AgataLechnerTonin98} [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) $[$[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)$]$
 
@@ -37,4 +37,8 @@ Expressing the [[self-dual higher gauge theory|self-duality]] of [[pregeometric 
 Some review:
 
 * {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, ESI 2385 (2012)  $[$[arXiv:1209.2530](http://arxiv.org/abs/1209.2530), [pdf](https://www.mat.univie.ac.at/~esiprpr/esi2385.pdf)$]$
+
+Discussion in the context of [[flux quantization]] (here: [[D-brane charge quantization in K-theory]]):
+
+* [SS23, §3.3](duality-symmetric+higher+gauge+theory#SS23)
 
