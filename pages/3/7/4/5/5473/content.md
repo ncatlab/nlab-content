@@ -33,7 +33,7 @@ The situation with regard to colimits is more complicated. It is not generally t
 
 ## Reflexive coequalizers and cocompleteness
 
-A simple but basic fact is the following. Suppose $J$ is a [[small category]], and suppose that the functors $T$ and $T \circ T$ preserves colimits over $J$, that is, suppose that for every $F: J \to C$ the canonical map 
+A simple but basic fact is the following. Suppose $J$ is a [[small category]], and suppose that the functors $T$ and $T \circ T$ preserve colimits over $J$, that is, suppose that for every $F: J \to C$ the canonical map 
 
 $$colim_J T \circ F \to T(colim_J F)$$ 
 
