@@ -164,6 +164,9 @@ Comprehensive discussion in [[higher differential geometry]]:
 
 [[!redirects type II supergravities]]
 
+[[!redirects D=10 type II supergravity]]
+[[!redirects D=10 type II supergravities]]
+
 [[!redirects type IIA supergravity]]
 [[!redirects type IIB supergravity]]
 
