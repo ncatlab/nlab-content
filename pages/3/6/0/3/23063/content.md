@@ -195,3 +195,7 @@ Papers developing general theorems in (extramural) formal category theory:
 * Renato Betti, [[Aurelio Carboni]], [[Ross Street]], and Robert Walters, _Variation through enrichment_
 
 * [[Richard Garner]] and [[Mike Shulman]], *Enriched categories as a free cocompletion*, [arXiv](http://arxiv.org/abs/1301.3191)
+
+Another approach, related to Yoneda structures:
+
+* [[Michał Przybyłek]], _Analysis and construction of logical systems: a category-theoretic approach_ (2014), PhD thesis ([pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf)).
