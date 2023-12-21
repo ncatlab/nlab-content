@@ -59,6 +59,12 @@ On the [[Nicolai map]] for the $\mathbb{C}P^n$ sigma-model:
 
 * [[Lorenzo Casarin]], [[Olaf Lechtenfeld]], [[Maximilian Rupprecht]], *Nicolai maps with four-fermion interactions* &lbrack;[arXiv:2310.19946](https://arxiv.org/abs/2310.19946)&rbrack;
 
+See also:
+
+* G. Sumbatian, E. Ievlev, A. Yung, *Large-N Solution and Effective Action of "Twisted-Mass" Deformed $\mathbb{C}P(N-1)$ Model* &lbrack;[arXiv:2312.12569](https://arxiv.org/abs/2312.12569)&rbrack;
+
+
+
 ### The $\mathbb{C}P^1$-model
 
 * [[Edward Witten]], *On the structure of the topological phase of two-dimensional gravity*, Nuclear Physics B
