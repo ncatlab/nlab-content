@@ -34,6 +34,8 @@ The equivalence between categories enriched in $K$ and categories internal to $K
 
 This relationship has also been studied in:
 
+* [[Michał R. Przybyłek]], *Kategorie wewnętrzne a kategorie wzbogacone* (2008), master's thesis ([pdf](https://www.mimuw.edu.pl/~mrp/mgr_mrp.pdf))
+
 * [[Thomas Cottrell]], [[Soichiro Fujii]], and [[John Power]], _Enriched and internal categories: an extensive relationship (2017).
 * [[Bojana Femić]] and [[Enrico Ghiorzi]], _Internalization and enrichment via spans and matrices in a tricategory_, _Journal of Algebraic Combinatorics_ (2023): 1-54.
 
