@@ -18,7 +18,10 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 * [[Steven Carlip]], _[My Research -- (2+1)-Dimensional quantum gravity](http://www.physics.ucdavis.edu/Text/Carlip.html#2+1)_
 
 
-## Related $n$Lab entries
+* [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
+
+
+## Related entries
 
 * [[3d quantum gravity]]
 
