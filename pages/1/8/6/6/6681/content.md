@@ -89,6 +89,10 @@ Exposition of the [[BFSS matrix model]] in view of the [[holographic principle]]
 
 * [[Juan Maldacena]], *A simple quantum system that describes a black hole* &lbrack;[arXiv:2303.11534](https://arxiv.org/abs/2303.11534)&rbrack;
 
+On [[graviton]] [[scattering amplitudes]] in [[D=11 supergravity]] computed via the [[BFSS matrix model]]:
+
+* Aidan Herderschee, [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
+
 
 ## Related entries
 
