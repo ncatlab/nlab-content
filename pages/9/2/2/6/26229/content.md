@@ -66,6 +66,10 @@ On [[3d quantum gravity]]:
 
 * [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
 
+On [[string structures]] seen as a kind of [[spin structures]] after [[transgression]] to [[loop space]] (cf. [[stringor bundle]]*):
+
+* [[Konrad Waldorf]], *String structures and loop spaces*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12998](https://arxiv.org/abs/2312.12998)&rbrack;
+
 
 (...)
 
