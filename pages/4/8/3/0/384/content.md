@@ -545,21 +545,36 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
  {#Examples}
 
 
-* Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
+\begin{example}
+Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
+\end{example}
 
-* The [[geometric realization]] of any [[simplicial set]] is a CW-complex ([Milnor 57](#Milnor57)). 
+\begin{example}
+The [[geometric realization]] of any [[simplicial set]] is a CW-complex ([Milnor 57](#Milnor57)). 
 
-  * In particular, in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
+In particular, in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoids]] and [[nice topological spaces]] maps each [[∞-groupoid]] to a CW-complex.
+\end{example}
 
-* The [[n-spheres]] have a standard CW-complex structure, with exactly 2-cells in each dimension, obtained [[induction|inductively]] by [[space attachment|attaching]] two $n$-dimensional [[hemispheres]] to the $(n-1)$-sphere regarded as the [[equator]] in the $n$-sphere.
+\begin{example}
+The [[n-spheres]] have a standard CW-complex structure, with exactly 2-cells in each dimension, obtained [[induction|inductively]] by [[space attachment|attaching]] two $n$-dimensional [[hemispheres]] to the $(n-1)$-sphere regarded as the [[equator]] in the $n$-sphere.
+\end{example}
 
-* The [[infinite-dimensional sphere]] may be realized as the CW-complex which is the [[colimit]] over the resulting [[relative cell complex]]-inclusions $S^n \hookrightarrow S^{n + 1} \hookrightarrow S^{n + 2} \hookrightarrow \cdots$.
+The [[infinite-dimensional sphere]] may be realized as the CW-complex which is the [[colimit]] over the resulting [[relative cell complex]]-inclusions $S^n \hookrightarrow S^{n + 1} \hookrightarrow S^{n + 2} \hookrightarrow \cdots$.
+\end{example}
 
-* Every [[projective space]] over the [[real numbers]], [[complex numbers]] or [[quaternions]] has the structure of a [[CW-complex]] with a single cell i in each dimension $k$, $2k$ or $4k$, respectively. See at _[[cell structure of K-projective space]]_.
+\begin{example}
+Every [[projective space]] over the [[real numbers]], [[complex numbers]] or [[quaternions]] has the structure of a [[CW-complex]] with a single cell i in each dimension $k$, $2k$ or $4k$, respectively. See at _[[cell structure of K-projective space]]_.
+\end{example}
 
-* Every [[compact topological space|compact]] [[smooth manifold]] admits a smooth [[triangulation]] and hence a CW-complex structure. In the generality of manifolds with group actions see at  _[G-CW complex -- G-manifolds](G-CW+complex#GManifolds)_.
+\begin{example}
+\label{SmoothManifoldsAdmitCWComplexStructure}
+**(smooth manifolds)**
+Every [[compact topological space|compact]] [[smooth manifold]] admits a smooth [[triangulation]] (by the [[triangulation theorem]]) and hence a CW-complex structure. 
 
-* Every noncompact [[smooth manifold]] of [[dimension]] $n$ is [[homotopy equivalence|homotopy equivalent]] to an $(n-1)$-dimensional CW-complex. ([Napier-Ramachandran](#NapierRamachandran)).
+In the generality of manifolds with group actions see at  _[G-CW complex -- G-manifolds](G-CW+complex#GManifolds)_.
+
+Every noncompact [[smooth manifold]] of [[dimension]] $n$ is [[homotopy equivalence|homotopy equivalent]] to an $(n-1)$-dimensional CW-complex. ([Napier & Ramachandran](#NapierRamachandran)).
+\end{example}
 
 
 ## Related concepts
