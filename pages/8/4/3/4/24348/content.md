@@ -57,6 +57,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
 |Algebraic Model Structures|[[Emily Riehl]]|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
 |Grothendieck categories of enriched functors|Hassan Al Hwaeer| 2014 |[core](https://core.ac.uk/outputs/161880844)| |
+| Analysis and construction of logical systems: a category-theoretic approach | Michał R. Przybyłek | 2014 | [pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf) | |
 |Generalization of Algebraic Operations via Enrichment|[[Christina Vasilakopoulou]]|2014|[arXiv](https://arxiv.org/abs/1411.3038)| |
 |Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|[[Mitchell Buckley]]|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
 |Synthetic Lie theory|Matthew Burke|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068205)| |
