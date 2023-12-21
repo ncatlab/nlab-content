@@ -30,7 +30,7 @@ the strength of magnetic field; $Q$ is the charge and $j_{el}$ the density of th
 
 ### Integral formulation in vacuum
 
-__Gauss' law for electric fields__
+__[[Gauss' law]] for electric fields__
 $$
 \textstyle{\int}_{\partial V} E\cdot d A =  \frac{Q}{\epsilon_0}
 $$
@@ -76,7 +76,7 @@ In [[pre-metric electromagnetism|pregeometric form]], Maxwell's equations are [[
 
 and state:
 
-* **(magnetic Gauss law)** 
+* **([[magnetic Gauss law]])** 
 
   $div B = 0$
 
@@ -86,7 +86,7 @@ and state:
 
   $\frac{d}{d t} B + rot E = 0$
 
-* **(electric Gauss law)**: 
+* **([[electric Gauss law]])**: 
 
   $div D = \rho$ 
 
@@ -191,9 +191,9 @@ $$
 
 then in terms of these components the Maxwell equations  read as follows:
 
-$d F = 0$ gives the magnetic Gauss law and Faraday's law
+$d F = 0$ gives the [[magnetic Gauss law]] and Faraday's law
 
-$d \star F = j_{el}$ gives Gauss's law and Amp&#232;re-Maxwell law
+$d \star F = j_{el}$ gives [[Gauss's law]] and Amp&#232;re-Maxwell law
 
 ## In terms of the Faraday bivector $F$
 
