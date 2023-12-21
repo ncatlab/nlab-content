@@ -131,9 +131,15 @@ $$
 much like the [[Hodge star operator]] (whence here we use similar notation for both, which is non-standard).
 
 
-## Premetric higher electromagnetism
+## Duality-symmetric higher gauge theory
 
-While not usually discussed under this terminology in the literature, we may recognize [[higher gauge field|higher]] versions of "premetric" electromagnetism occuring in the ([[string theory]]-)literature:
+While not traditionally discussed under this terminology in the literature, we may recognize ([SS23](#SS23)) [[higher gauge field|higher]] versions of "premetric" electromagnetism occuring in the [[supergravity]]- and [[string theory]]-literature as *duality-symmetric* or "democratic" formulations.
+
+<center>
+<img src="/nlab/files/SelfDualHigherFluxEOMs-231221.jpg" width="750">
+</center>
+
+For more on the general picture see at *[[Gauss law]] -- [In higher gauge theory](Gauss+law#InHigherGaugeTheory)*.
 
 
 ### RR-fields in gravitational backgrounds
@@ -322,6 +328,13 @@ References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]
  {#PremetricCFieldReferences}
 
 [[!include self-duality for pregeometric C-field -- references]]
+
+
+### General
+
+
+* {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
+
 
 
 
