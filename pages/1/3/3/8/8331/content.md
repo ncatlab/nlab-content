@@ -110,11 +110,15 @@ The total chain complex is, under the [[Dold-Kan correspondence]], equivalent to
 
 ## References
 
-For instance secton 1.2 of 
+For instance: 
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* [[Charles Weibel]], section 1.2 of: _[[An Introduction to Homological Algebra]]_
 
 
 [[!redirects total complexes]]
 [[!redirects total chain complex]]
 [[!redirects total chain complexes]]
+
+[[!redirects total differential]]
+[[!redirects total differentials]]
+
