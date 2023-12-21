@@ -387,6 +387,16 @@ References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]
 [[!redirects pregeometric C-fields]]
 
 
+[[!redirects duality-symmetric gauge theory]]
+[[!redirects duality-symmetric gauge theories]]
+
+[[!redirects duality-symmetric electromagnetism]]
+
+[[!redirects duality-symmetric RR-field]]
+[[!redirects duality-symmetric RR-fields]]
+
+[[!redirects duality-symmetric C-field]]
+[[!redirects duality-symmetric C-fields]]
 
 
 
