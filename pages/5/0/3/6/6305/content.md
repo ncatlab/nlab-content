@@ -34,7 +34,7 @@ A Lorentzian manifold that does admit a Cauchy surface is called _[[globally hyp
 
 ## Properties
 
-\begin{proposition}\label{FolitationOfGloballyHyperbolicSpacetimes}
+\begin{proposition}\label{FoliationOfGloballyHyperbolicSpacetimes}
   For $X^D$ a [[smooth manifold|smooth]] [[globally hyperbolic spacetime]], it admits a smooth [[foliation]]  by smooth spacelike Cauchy surfaces $X^d$, exhibited by a [[diffeomorphism]]
 $$
   X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d
