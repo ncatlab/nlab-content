@@ -63,6 +63,10 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 * Mauricio Leston, et al., *3d Quantum Gravity Partition Function at 3 Loops: a brute force computation* &lbrack;[arXiv:2307.03830](https://arxiv.org/abs/2307.03830)&rbrack;
 
+Survey:
+
+* [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in:  *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
+
 
 [[!include 3d gravity and Chern-Simons theory -- references]]
 
