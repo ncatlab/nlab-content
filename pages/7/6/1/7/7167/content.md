@@ -26,6 +26,8 @@ A _monad with arities_ is a [[monad]] that admits a generalized [[nerve]] constr
 
 This generalized nerve construction also generalizes the construction of the [[syntactic category]] of a [[Lawvere theory]].
 
+Monads with arities are subsumed by [[relative monads]].
+
 ##Definition##
 
 Let $\mathcal{C}$ be a [[category]], and $i_A : \mathcal{A} \subset \mathcal{C}$ a [[subcategory]]. As explained at [[dense functor]], for any [[object]] $X$ of $\mathcal{C}$, there is a canonical [[cocone]] over the [[forgetful functor]] $(\mathcal{A} \downarrow X) \to \mathcal{C}$, which we call the **canonical $\mathcal{A}$-cocone at $X$**. The subcategory $\mathcal{A} \subset \mathcal{C}$ is called _dense_ if this cocone is [[colimit|colimiting]] for every object $X$ of $C$.
@@ -71,6 +73,8 @@ See [BMW](#BMW) for more.
 
 * A monad with arities is equivalently an internal [[monad]] in the [[2-category]] of [[categories with arities]].
 
+* A monad with arities $i_A$ is equivalent to an $i_A$-[[relative monad]].
+
 ##References##
 
 See the discussion at 
@@ -86,6 +90,10 @@ These ideas are clarified and expanded on in
 * [[Paul-André Melliès]]. _Segal condition meets computational effects._ (2010, 25th Annual IEEE Symposium on Logic in Computer Science).
 
 * {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
+
+On the connection between [[relative monads]] and monads with arities:
+
+* {#ACU14} [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
  
 
 [[!redirects monads with arities]]
