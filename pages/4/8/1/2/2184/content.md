@@ -209,6 +209,8 @@ $$E \coloneqq \{(x, y) \in V \times V \vert x \# y\}$$
 
 * [[planar graph]], [[connected graph]]
 
+* [[acyclic graph]]
+
 * [[empty graph]]
 
 * [[ribbon graph]]
