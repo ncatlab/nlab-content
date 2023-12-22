@@ -89,13 +89,15 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 The model is due to
 
-* {#Starobisnky80} [[Aleksei Starobinsky]], _A new type of isotropic cosmological models without singularity_, Phys. Lett. B 91, 99 (1980); (<a href="https://doi.org/10.1016/0370-2693(80)90670-X">doi:10.1016/0370-2693(80)90670-X</a>)
+* {#Starobisnky80} [[Aleksei Starobinsky]], *A new type of isotropic cosmological models without singularity*, Phys. Lett. B **91**  (1980) 99-102 \[<a href="https://doi.org/10.1016/0370-2693(80)90670-X">doi:10.1016/0370-2693(80)90670-X</a>\]
 
-and the analysis of its predictions is due to
+and the analysis of its predictions is due to:
 
-* [[Viatcheslav Mukhanov]] and G. V. Chibisov, JETP Lett. 33, 532 (1981) [Pisma Zh. Eksp. Teor. Fiz. 33, 549 (1981)]; 
+* [[Viatcheslav Mukhanov]] and G. V. Chibisov, JETP Lett. **33** (1981) 532 and: Pisma Zh. Eksp. Teor. Fiz. **33**  (1981) 549 &lbrack;[spire:170051](https://inspirehep.net/literature/170051)&rbrack;
 
-* [[Aleksei Starobinsky]], Sov. Astron. Lett. 9, 302 (1983).
+* [[Aleksei Starobinsky]], *Isotropization of arbitrary cosmological expansion given an effective cosmological constant*, JETP Lett. **37** (1983) 66-69 &lbrack;[spire:187801](https://inspirehep.net/literature/187801)&rbrack;
+
+* [[Aleksei Starobinsky]], *The Perturbation Spectrum Evolving from a Nonsingular Initially De-Sitter Cosmology and the Microwave Background Anisotropy*, Sov. Astron. Lett. **9** (1983) 302 &lbrack;[spire:199078](https://inspirehep.net/literature/199078)&rbrack;
 
 The experimental data supporting the model is due to 
 
