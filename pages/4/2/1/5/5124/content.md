@@ -53,7 +53,7 @@ When $C$ is a 1-category, the slice, strict-slice, lax- and colax-slice, and fib
 
 * {#JohnsonYau} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055))
 
-On [[2-colimits]] in slide 2-categories:
+On [[2-colimits]] in slice 2-categories:
 
 * [[Luca Mesiti]], *Colimits in 2-dimensional slices* &lbrack;[arXiv:2305.01494](https://arxiv.org/abs/2305.01494)&rbrack;
 
