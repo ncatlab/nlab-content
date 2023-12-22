@@ -109,7 +109,7 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This implies CC and DC, and is moreover sufficient for the existence of [[projective resolution | projective resolutions]] and cofibrant replacements, as well as the usual theorems in algebra that (for example) [[Mod]] has enough projectives.  For example, see the [[canonical model structure on Cat]].
 
-* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution | injective resolutions]], and together with COSHEP and EM it implies full AC.
+* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some [[choice object|choice set]] $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution | injective resolutions]], and together with COSHEP and EM it implies full AC.
 
 * The [[axiom of multiple choice]] is a different way of saying that choice is violated in only a small way, which is more "local" than SVC.  It apparently follows from SVC, at least in [[ZF]].
 
