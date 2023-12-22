@@ -33,7 +33,7 @@ If $V$ has in addition binary [[coproducts]] then a bi-pointed object in $V$ is 
 
 ## Examples
 
-* The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[axiom of choice|choice sets]] are bi-pointed objects. 
+* The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[choice object|choice sets]] are bi-pointed objects. 
 
 * In general, any non-degenerate subobject classifier in a topos or pretopos is a bi-pointed object.
 
