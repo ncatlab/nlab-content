@@ -92,6 +92,10 @@ Skew monoidal closed structures on the category of [[Gray categories]] are consi
 
 * [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, Advances in Mathematics volume 434 (2023). &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358), [doi.org/10.1016/j.aim.2023.109327](https://doi.org/10.1016/j.aim.2023.109327)&rbrack;
 
+Lax monoidal categories are called **multitensors** in:
+
+* [[Michael Batanin]] and [[Mark Weber]], _Algebras of higher operads as enriched categories_, Applied Categorical Structures 19 (2011): 93-135.
+
 [[!redirects lax monoidal category]]
 [[!redirects unbiased lax monoidal category]]
 [[!redirects biased lax monoidal category]]
@@ -145,3 +149,6 @@ Skew monoidal closed structures on the category of [[Gray categories]] are consi
 [[!redirects oplax monoids]]
 [[!redirects colax monoid]]
 [[!redirects colax monoids]]
+
+[[!redirects multitensor]]
+[[!redirects multitensors]]
