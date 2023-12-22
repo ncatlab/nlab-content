@@ -114,6 +114,10 @@ Regarding monoidal categories as promonoidal is useful in order to express extra
 
 * Day, Panchadcharam and Street, *On centres and lax centres for promonoidal categories*.
 
+The relationship between [[multicategories]], [[promonoidal categories]], [[lax monoidal categories]], and [[monoidal categories]] is exposited in:
+
+* [[Brian Day]] and [[Ross Street]], _Lax monoids, pseudo-operads, and convolution_, Contemporary Mathematics 318 (2003): 75-96.
+
 [[!redirects promonoidal categories]]
 [[!redirects pro-monoidal category]]
 [[!redirects pro-monoidal categories]]
