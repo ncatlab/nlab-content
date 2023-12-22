@@ -29,11 +29,11 @@ Recall that an [[undirected graph]] $G$ consists of a set $V$ of _vertices_ and 
 
 $$x_0, \ldots, x_{n-1}, x_n, x_{n-1}, \ldots, x_0$$ 
 
-where steps are retraced; an acyclic graph is also called a _forest_. A **tree** is a connected forest. 
+where steps are retraced; an [[acyclic graph]] is also called a _[[forest]]_. A **tree** is a connected forest. 
 
 Each forest is a [[disjoint union|disjoint sum]] (a [[coproduct]] in the category of graphs) of trees. Removal of a vertex of a tree (and any edges incident to it) results in a forest. 
 
-Not all authors include nonemptiness as part of the notion of connectedness. See [[connected space]] for commentary on this. Forests on the other hand may be empty. 
+Not all authors include nonemptiness as part of the notion of connectedness. See *[[connected space]]* for commentary on this. Forests on the other hand may be empty. 
 
 
 ### As spaces 
