@@ -11,9 +11,13 @@ On breakdown of the [[locality]] due to ill-behaved [[perturbative quantum field
 
 Argument that the [[black hole information paradox]] is not resolved by "islands" unless for massive gravity:
 
-* [[Hao Geng]], [[Andreas Karch]], Carlos Perez-Pardavila, [[Suvrat Raju]], [[Lisa Randall]], Marcos Riojas, Sanjit Shashi, *Inconsistency of islands in theories with long-range gravity*, J. High Energ. Phys. **2022** 182 (2022) &lbrack;<a href="https://doi.org/10.1007/JHEP01(2022)182">doi:10.1007/JHEP01(2022)182</a>&rbrack;
+* [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]], [[Sanjit Shashi]], *Inconsistency of islands in theories with long-range gravity*, J. High Energ. Phys. **2022** 182 (2022) &lbrack;<a href="https://doi.org/10.1007/JHEP01(2022)182">doi:10.1007/JHEP01(2022)182</a>&rbrack;
 
 * [[Suvrat Raju]], *Failure of the split property in gravity and the information paradox*,  Classical and Quantum Gravity, **39** 064002 &lbrack;[doi:10.1088/1361-6382/ac482b](https://iopscience.iop.org/article/10.1088/1361-6382/ac482b), [arXiv:2110.05470](https://arxiv.org/abs/2110.05470)&rbrack;
+
+and on what to do about it:
+
+* [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]], [[Sanjit Shashi]], *Information Transfer with a Gravitating Bath*, SciPost Phys. **10** 103 (2021)  \[<a href="https://arxiv.org/abs/2012.04671">arXiv:2012.04671</a>, [doi:10.21468/SciPostPhys.10.5.103](https://scipost.org/10.21468/SciPostPhys.10.5.103)\]
 
 
 
