@@ -113,7 +113,13 @@ See also:
 
 ### Original articles
 
-* Demosthenes Kazanas, _Dynamics of the universe and spontaneous symmetry breaking_, Astrophysical Journal, Part 2 - Letters to the Editor, vol. 241, Oct. 15, 1980, p. L59-L63 ([web](http://adsabs.harvard.edu/doi/10.1086/183361))
+* Demosthenes Kazanas, _Dynamics of the universe and spontaneous symmetry breaking_, Astrophysical Journal, Part 2 - Letters to the Editor, **241** (Oct. 15, 1980) L59-L63 &lbrack;[doi:10.1086/183361](https://ui.adsabs.harvard.edu/link_gateway/1980ApJ...241L..59K/doi:10.1086/183361)&rbrack;
+
+
+* {#Starobisnky80} [[Aleksei Starobinsky]], *A new type of isotropic cosmological models without singularity*, Phys. Lett. B **91**  (1980) 99-102 \[<a href="https://doi.org/10.1016/0370-2693(80)90670-X">doi:10.1016/0370-2693(80)90670-X</a>\]
+
+  > (cf. [[Starobinsky model of cosmic inflation]])
+
 
 * {#Guth} [[Alan Guth]], Phys. Rev. D 23, 347 (1981).
  
