@@ -20,13 +20,17 @@ A morphism of quadratic algebras is just a morphism as graded algebras. Alternat
 
 1. For many examples of [[quantum group|quantum groups]], for example quantum $GL_2$, the underlying algebra is quadratic. See the reference by Manin for further examples. 
 
+1. The coproduct $A + B$ (in the category of graded algebras) of two quadratic algebras is quadratic, with generators $(A + B)_1 = A_1 \oplus B_1$ and relations $R_A \oplus R_B \subseteq (A_1 \oplus B_1) \otimes (A_1 \oplus B_1)$. The tensor product $A \otimes B$ is also quadratic, with $(A \otimes B)_1 = A_1 \oplus B_1$ and taking the span of the coproduct relations $R_A \oplus R_B$ together with the commutation relations $a \otimes b - b \otimes a$ for $a \in A_1, b \in B_1$. 
+
+There is also a filtered notion of quadratic algebra, where the homogeneity requirement $R \subseteq V \otimes V$ is relaxed to allow inhomogeneous degree 2 terms, i.e., $R \subseteq k \oplus V \oplus V^{\otimes 2}$ in the tensor algebra, and this allows one to include more examples like universal enveloping algebras of finite-dimensional Lie algebras, and also Clifford algebras. But below we discuss only the graded case. 
+
 ## Quadratic dual and Manin's monoidal products 
 
 If $(V, i: R \hookrightarrow V \otimes V)$ defines a quadratic algebra, its **quadratic dual** is defined by the pair $(V^*, R^\perp)$, where $R^\perp$ is the kernel of the composite 
 
 $$V^* \otimes V^* \cong (V \otimes V)^* \stackrel{i^*}{\to} R^*$$ 
 
-In the literature where it commonly appears, the dual of a quadratic algebra $A$ is usually denoted $A^!$. There is a canonical isomorphism $A \cong A^{!!}$. It was first observed by Yuri Manin that this is the duality operator for a [[star-autonomous category|$*$-autonomous]] structure on the category of quadratic algebras: 
+In the literature where it commonly appears, the dual of a quadratic algebra $A$ is usually denoted $A^!$. There is a canonical isomorphism $A \cong A^{!!}$. It was first observed by Yuri Manin that this is the duality operator for a $*$-[[star-autonomous category|autonomous]] structure on the category of quadratic algebras: 
 
 * The monoidal product of $(V, R_A)$ and $(W, R_B)$ is defined by $(V \otimes W, \sigma(R_A \otimes R_B))$ where $\sigma$ refers to the canonical interchange isomorphism 
 $$V \otimes V \otimes W \otimes W \cong V \otimes W \otimes V \otimes W$$ 
@@ -53,18 +57,30 @@ There is a natural isomorphism $QAlg(A \bullet B, C) \cong QAlg(A, B^! \circ C)$
 ######Proof 
 A preliminary comment is that the aforementioned Galois correspondence is induced by the equivalence 
 
-$$\frac{X \subseteq Y^\perp}{\langle X, Y \rangle = 0}$$ 
+$$\frac{X \subseteq Y^\perp}{\langle X, Y \rangle_V = 0}$$ 
 
-where $X \subseteq V^*$, $Y \subseteq V$ are subspaces and $\langle -, - \rangle: V^* \otimes V \to k$ is the usual pairing to the ground field $k$. 
+where $X \subseteq V^*$, $Y \subseteq V$ are subspaces and $\langle -, - \rangle_V: V^* \otimes V \to k$ is the usual pairing to the ground field $k$. 
 
 Let $(U, R_A)$, $(V, R_B)$, $(W, R_C)$ define the quadratic algebras, and suppose that $f: U \otimes V \to W$ and $g: U \to V^* \otimes W$ correspond to one another under the adjunction 
 
-$$Vect_k(U \otimes V, W) \cong Vect_k(U, V^* \otimes W)$$ 
+$$Vect_k(U \otimes V, W) \cong Vect_k(U, V^* \otimes W).$$ 
 
-Now $f$ induces a (unique) graded algebra map $A \bullet B \to C$ iff $(f \otimes f)\sigma(R_A \otimes R_B) \subseteq R_C$, which is true iff $\langle (f \otimes f)\sigma(R_A \otimes R_B), R_{C}^\perp \rangle = 0$ iff $\langle (g \otimes g)\sigma(R_A), R_B \otimes R_{C}^\perp \rangle = 0$ iff $(g \otimes g)\sigma(R_A) \subseteq (R_B \otimes R_{C}^\perp)^\perp$. This is true iff $g$ induces a (unique) graded algebra map $A \to B^! \circ C$. 
+It then suffices to observe that the following statements are equivalent (below, each instance of $\sigma$ denotes an appropriate middle-four interchange): 
+
+* $f$ induces a (unique) graded algebra map $A \bullet B \to C$; 
+
+* $(f \otimes f)\sigma(R_A \otimes R_B) \subseteq R_C$; 
+
+* $\langle (f \otimes f)\sigma(R_A \otimes R_B), R_{C}^\perp \rangle_{W^\ast \otimes W^\ast} = 0$;
+
+* $\langle \sigma(g \otimes g)(R_A), R_B \otimes R_{C}^\perp \rangle_{V \otimes V \otimes W^\ast \otimes W^\ast} = 0$; 
+
+* $\sigma (g \otimes g)(R_A) \subseteq (R_B \otimes R_{C}^\perp)^\perp$; 
+
+* $g$ induces a (unique) graded algebra map $A \to B^! \circ C$. 
 =-- 
 
-This result may be effectively summarized by saying that the category of quadratic algebras carries a [[star-autonomous category]] structure, i.e., a [[closed monoidal category|closed symmetric monoidal category]] structure equipped with a dualizing object $D$, i.e., an object for which the double dual embedding $\delta_A: A \to [[A, D], D]$ is a natural isomorphism. The monoidal unit is the polynomial algebra $k[x]$, and the dualizing object $D$ is $k[x]^! = k[\varepsilon]/(\varepsilon^2)$, the [[Grassmann algebra|algebra of Grassmann numbers]]. We then have $A^! \cong [A, D]$ for any quadratic algebra $D$. 
+This result may be effectively summarized by saying that the category of quadratic algebras carries a [[star-autonomous category]] structure, i.e., a [[closed monoidal category|closed symmetric monoidal category]] structure equipped with a dualizing object $D$, i.e., an object for which the double dual embedding $\delta_A: A \to [[A, D], D]$ is a natural isomorphism. The monoidal unit is $k[x]^! = k[\varepsilon]/(\varepsilon^2)$, the [[Grassmann algebra|algebra of Grassmann numbers]], and the dualizing object $D$ is the polynomial algebra $k[x]$. We then have $A^! \cong [A, D]$ for any quadratic algebra $D$. 
 
 ## References ## 
 
