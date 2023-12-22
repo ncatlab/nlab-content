@@ -204,6 +204,16 @@ For [[branes]]:
 
 ## References
 
+Historical and expository accounts of the "[[principle of extremal action]]" or "action principle", for short:
+
+* Agamenon R. E. Oliveira, *History of Two Fundamental Principles of Physics: Least Action and Conservation of Energy*, Advances in Historical Studies **3** 2 (2014) &lbrack;[doi:10.4236/ahs.2014.32008](http://dx.doi.org/10.4236/ahs.2014.32008)&rbrack;
+
+* Walter Dittrich, *The Development of the Action Principle -- A Didactic History from Euler-Lagrange to Schwinger*, SpringerBriefs in Physics, Springer (2021) &lbrack;[doi:10.1007/978-3-030-69105-9](https://doi.org/10.1007/978-3-030-69105-9)&rbrack;
+
+* [[Douglas Cline]], *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
+
+
+
 
 Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
 
