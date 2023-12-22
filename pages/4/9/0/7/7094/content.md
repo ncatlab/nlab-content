@@ -9,9 +9,14 @@ In [[topology]], given a [[covering space]] $E \to X$, then  the elements of the
 
 In [[differential geometry]], a  [[foliation]] consists of [[submanifolds]]. Each of them is called a _leaf_ of the foliation.
 
+In [[combinatorics]], the ends of [[trees]] are called "leaves".
+
 ## Related concepts
 
 * [[Bohr-Sommerfeld leaf]]
 * [[symplectic leaf]]
 
 [[!redirects leaves]]
+
+
+categgory: disambiguation
