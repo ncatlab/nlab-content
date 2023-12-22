@@ -25,7 +25,14 @@ On [[D-branes]] under the [[flop transition]]:
 * [[Calin Lazaroiu]], _On the non-commutative geometry of topological D-branes_, JHEP 0511 (2005) 032, [arXiv:hep-th/0507222](https://arxiv.org/abs/hep-th/0507222)
 
 
-## Related $n$Lab entries
+On [[duality-symmetric abelian Yang-Mills theory]] ("[[premetric electromagnetism]]") in the generality allowing "[[U-duality]]-twists" among several abelian gauge fields, motivated by application to [[D=4 supergravity]]:
+
+* [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], *The duality covariant geometry and DSZ quantization of abelian gauge theory*, Advances in Theoretical and Mathematical Physics **26** (2022) 2213–2312 &lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236), [doi:10.4310/ATMP.2022.v26.n7.a5](https://dx.doi.org/10.4310/ATMP.2022.v26.n7.a5)&rbrack;
+
+* [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], *The geometry and DSZ quantization of four-dimensional supergravity*, Letters in Mathematical Physics  **113** 4 (2023) &lbrack;[arXiv:2101.07778](https://arxiv.org/abs/2101.07778), [doi:10.1007/s11005-022-01626-y](https://doi.org/10.1007/s11005-022-01626-y)&rbrack;
+
+
+## Related entries
 
 * [[flop transition]]
 
