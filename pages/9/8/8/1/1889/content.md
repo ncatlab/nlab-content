@@ -44,7 +44,7 @@ If we add [[icons]] as 2-cells, this becomes a [[2-category]].
 
 ## Examples
 
-* Any [[lax monoidal functor]] gives an example. In fact [[monoidal categories]] can be presented as bicategories with one object (see [[delooping]]), and thus a lax functor $\mathbg{B}M \to \mathbf{B} N$ corresponds to a lax monoidal functor $M \to N$.
+* Any [[lax monoidal functor]] gives an example. In fact [[monoidal categories]] can be presented as bicategories with one object (see [[delooping]]), and thus a lax functor $\mathbf{B}M \to \mathbf{B} N$ corresponds to a lax monoidal functor $M \to N$.
 
 * For $D$ a [[bicategory]], lax functors $F : {*} \to D$ from the [[point]] category to $D$ are equivalent to [[monad]]s in $D$.
 
