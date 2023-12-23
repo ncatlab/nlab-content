@@ -30,3 +30,4 @@ Any [[category]] | The [[constant functor]] $X \mapsto A$ given object $A$ | $A$
 Any [[category]] | The [[identity functor]] $X \mapsto X$ | [[initial object]] | [[terminal object]] | |
 Any [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric]] [[distributive monoidal category]] | $X \mapsto I \sqcup X$ given [[tensor unit]] $I$ and [[coproduct]] $\sqcup$ | [[natural numbers object]] | ? | |
 Any [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric]] [[distributive monoidal category]] | $X \mapsto I \sqcup (A \otimes X)$ given [[tensor unit]] $I$, [[tensor product]] $\otimes$, [[coproduct]] $\sqcup$, and object $A$ | [[tensor algebra]] over $A$ | [[cofree coalgebra]] over $A$ |  |
+[[Infinity-Grpd|$\infty$-Grpd]] | $X \mapsto \Sigma X$ | [[sphere spectrum]] $\mathbb{S}$ | ? |  |
