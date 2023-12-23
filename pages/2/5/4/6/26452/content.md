@@ -8,11 +8,10 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 :-----: | :------------:                   | :-------------:         |:----------------:            |  :--------: |
 [[Set]] | [[constant functor|Const]] $A$                        | $A$                    | $A$                           | |
 [[Set]] | $X \mapsto X$                    | $\varnothing$            | $1$                           | |
-[[Set]] | $X \mapsto A\times X$            | $\emptyset$            | [[stream|Stream]] $A$                    | [[stream]]      |
 [[Set]] | $X \mapsto 1 + X$                | $\mathbb{N}$           | [[conatural number|Conatural numbers]] $\mathbb{N}^\infty$ | [[extended natural number]] |
 [[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie [[conatural numbers]] "terminated" (when they aren't $\infty$) with $A$ | [[partial map classifier]] |
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | |
-[[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | Potentially infinite [[list|List]] $A$ | [[list]]   |
+[[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | [[stream|Stream]] $A$; i.e. potentially infinite [[list|List]] $A$ | [[list]], [[stream]]   |
 [[Set]] | $X \mapsto 1 + A \times X^2$     | Finite [[binary tree]] with $A$-labelled nodes  | Potentially infinite [[binary tree]] with $A$-labelled [[nodes]] | [[tree]] |
 [[Set]] | $X \mapsto B + A \times X^n$     | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled [[leaves]] | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves| |
 [[Set]] | $X \mapsto O \times [I, X]$      | $O \times [I, \emptyset]$ | Potentially infinite [[Moore machine]] | |
