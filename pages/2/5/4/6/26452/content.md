@@ -25,5 +25,5 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Archimedean ordered fields]] | $X \mapsto \mathcal{D}(X)$ where $\mathcal{D}(X)$ is the Archimedean ordered field of two-sided [[Dedekind cuts]] of $X$ | The [[real numbers]] $\mathbb{R}$ | The [[real numbers]] $\mathbb{R}$ | | |
 [[Archimedean ordered fields]] | $X \mapsto \mathcal{C}(X)$ where $\mathcal{C}(X)$ is the quotient of [[Cauchy sequences]] in the Archimedean ordered field $X$ | The [[HoTT book real numbers]] $\mathbb{R}_H$ | The [[Dedekind real numbers]] $\mathbb{R}$ | These are the same objects in the presence of [[excluded middle]] or [[countable choice]].| |
 Any [[category]] | The [[constant functor]] $X \mapsto A$ given object $A$ | $A$ | $A$ | |
-Any [[category]] | [[identity functor]] $X \mapsto X$ | [[initial object]] | [[terminal object]] | |
+Any [[category]] | The [[identity functor]] $X \mapsto X$ | [[initial object]] | [[terminal object]] | |
 Any [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric]] [[distributive monoidal category]] | $X \mapsto I \coprod X$ given [[tensor unit]] $I$ and [[coproduct]] $\coprod$ | [[natural numbers object]] | ? | |
