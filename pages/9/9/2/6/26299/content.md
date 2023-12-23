@@ -43,7 +43,7 @@ The original discussion of [[Hamiltonian mechanics]] with constraints:
 
 Textbook account:
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], Chapter 1 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992)
+* [[Marc Henneaux]], [[Claudio Teitelboim]], Chapter One in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
 
 [[!redirects constraint]]
 [[!redirects constraints]]
