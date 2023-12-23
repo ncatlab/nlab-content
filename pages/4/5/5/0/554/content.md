@@ -29,7 +29,7 @@ $$
 
 Similarly, a [[pointed object]] in a category with [[initial object]] $\varnothing$ and terminal object $pt$ may be regarded as a co-span from $\varnothing$ to $pt$. 
 
-If $V$ has in addition binary [[coproducts]] then a bi-pointed object in $V$ is the same as a [[co-span]] from $\varnothing$ to to the [[coproduct]] $pt \sqcup pt$.
+If $V$ has in addition binary [[coproducts]] then a bi-pointed object in $V$ is the same as a [[co-span]] from $\varnothing$  to the [[coproduct]] $pt \sqcup pt$.
 
 ## Examples
 
