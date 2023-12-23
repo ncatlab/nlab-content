@@ -62,6 +62,14 @@ See at _[[A first idea of quantum field theory]]_ [this def.](A+first+idea+of+qu
 
 Named after [[Leonhard Euler]] and [[Joseph-Louis de Lagrange]].
 
+Textbook account in the context of [[gauge theory]]:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], §1.1.1 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
+
+
+
+See also:
+
 * Wikipedia, _[Euler-Lagrange equation](http://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation)_.
 
 * [[Robert Bryant]], [[Phillip Griffiths]], Daniel Grossman, _Exterior differential systems and Euler-Lagrange partial differential equations_, Chicago Lectures in Mathematics 2003, 205+xiv pp. [math.DG/0207039](http://arxiv.org/abs/math/0207039) [bookpage](http://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3637779.html)
