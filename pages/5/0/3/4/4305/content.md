@@ -52,7 +52,7 @@ Given a [[vector space]] $V$, the $n$-fold [[tensor product]] of this space with
 
 ## Related concepts
 
-* [[free monoid]]
+* [[free monoid]], [[list monad]]
 
 * [[cofree coalgebra]]
 
