@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -273,7 +271,7 @@ An exposition (in the case of vector spaces) is in
 
 and, in the further generality of the [[tensor product of modules]], in 
 
-* Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
+* Keith Conrad, _Tensor products_ ([pdf](https://kconrad.math.uconn.edu/blurbs/linmultialg/tensorprod.pdf))
  {#Conrad}
 
 [[!redirects tensor product of abelian groups]]
