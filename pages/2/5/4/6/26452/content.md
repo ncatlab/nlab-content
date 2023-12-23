@@ -21,6 +21,7 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto [I, O \times X]$      | $[I, \emptyset]$       | Potentially infinite [[Mealy machine]]             | |
 [[Set]] | $X \mapsto \mathcal{P}(X)$       | /                      | /                             | |
 [[Set]] | $X \mapsto \mathcal{P}_{\text{fin}}(X)$ | Finite [[rooted forests]] | Potentially infinite finitely-branching [[rooted forests]] | |
+[[Set]] | [[polynomial endofunctor]] | [[W-type]] | [[M-type]] | |
 [[bi-pointed object|Bipointed]] [[set|Sets]] | $X \mapsto X \vee X$ | [[dyadic rational numbers]] in the [[interval]] $[0,1]$ | The [[closed interval]] $[0,1] \subseteq \mathbb{R}$ | [[coalgebra of the real interval]] | |
 [[linearly ordered sets]] | $X \mapsto \omega \cdot X$, where $\omega \cdot X$ is the cartesian product of the natural numbers with the underlying set of $X$, equipped with the [[lexicographic order]]. | $\emptyset$ | The non-negative [[real numbers]] $\mathbb{R}_{\geq 0}$ | [[real number]] | |
 [[Archimedean ordered fields]] | $X \mapsto \mathcal{D}(X)$ where $\mathcal{D}(X)$ is the Archimedean ordered field of two-sided [[Dedekind cuts]] of $X$ | The [[real numbers]] $\mathbb{R}$ | The [[real numbers]] $\mathbb{R}$ | | |
