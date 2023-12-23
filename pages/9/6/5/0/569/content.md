@@ -44,6 +44,8 @@ A [[monoid]] in this endofunctor category is called a [[monad]] on $C$.
 
 * [[algebra over an endofunctor]]
 
+* [[coalgebra over an endofunctor]]
+
 * [[pointed endofunctor]]
 
 
