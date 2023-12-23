@@ -135,6 +135,7 @@ For now, see [[probability monad]].
 * [[statistics]]
 * [[zero-one law]]
 * [[doctrine]]
+* [[supply in a monoidal category]]
 
 
 ## References
