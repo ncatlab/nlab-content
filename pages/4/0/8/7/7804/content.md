@@ -53,7 +53,10 @@ Discussion of how there is a flat connection on the bundle of [[spaces of quantu
 
 ## References
 
-* William Kirwin, Siye Wu, _Geometric Quantization, Parallel Transport and the Fourier Transform_,  	Comm. Math. Phys. 266 (2006), no. 3, pages 577 -- 594 ([arXiv:math/0409555](http://arxiv.org/abs/math/0409555))
- {#KirwinWu04}
+* [[Marc Henneaux]], [[Claudio Teitelboim]], §1.1.1 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
+
+
+* {#KirwinWu04} William Kirwin, Siye Wu, _Geometric Quantization, Parallel Transport and the Fourier Transform_,  	Comm. Math. Phys. 266 (2006), no. 3, pages 577 -- 594 ([arXiv:math/0409555](http://arxiv.org/abs/math/0409555))
+ 
 
 [[!redirects canonical momenta]]
