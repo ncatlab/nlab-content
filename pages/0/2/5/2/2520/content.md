@@ -212,6 +212,9 @@ Historical and expository accounts of the "[[principle of extremal action]]" or 
 
 * [[Douglas Cline]], *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
 
+Textbook account in the context of [[gauge theories]]:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], §1.1.1 in: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
 
 
 
