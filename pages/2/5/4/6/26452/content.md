@@ -10,14 +10,15 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto X$                    | $\varnothing$            | $1$                           | |
 [[Set]] | $X \mapsto 1 + X$                | $\mathbb{N}$           | [[conatural number|Conatural numbers]] $\mathbb{N}^\infty$ | [[extended natural number]] |
 [[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie [[conatural numbers]] "terminated" (when they aren't $\infty$) with $A$ | [[partial map classifier]] |
+[[Set]] | $X \mapsto X + X$ or $X \mapsto 2 \times X$                | $\emptyset$            | $2^\mathbb{N}$                | |
+[[Set]] | $X \mapsto A \times X$                | $\emptyset$            | $A^\mathbb{N}$                | [[sequence]] |
+[[Set]] | $X \mapsto X \times X$ or $X \mapsto [2, X]$          | $\emptyset \simeq [2, \emptyset]$            | 1 (the unique infinite unlabelled binary tree)     | |
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | |
 [[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | [[stream|Stream]] $A$; i.e. potentially infinite [[list|List]] $A$ | [[list]], [[stream]]   |
 [[Set]] | $X \mapsto 1 + A \times X^2$     | Finite [[binary tree]] with $A$-labelled nodes  | Potentially infinite [[binary tree]] with $A$-labelled [[nodes]] | [[tree]] |
 [[Set]] | $X \mapsto B + A \times X^n$     | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled [[leaves]] | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves| |
 [[Set]] | $X \mapsto O \times [I, X]$      | $O \times [I, \emptyset]$ | Potentially infinite [[Moore machine]] | |
 [[Set]] | $X \mapsto [I, O \times X]$      | $[I, \emptyset]$       | Potentially infinite [[Mealy machine]]             | |
-[[Set]] | $X \mapsto X + X$                | $\emptyset$            | $2^\mathbb{N}$                | |
-[[Set]] | $X \mapsto X \times X$           | $\emptyset$            | 1 (the unique infinite unlabelled binary tree)     | |
 [[Set]] | $X \mapsto \mathcal{P}(X)$       | /                      | /                             | |
 [[Set]] | $X \mapsto \mathcal{P}_{\text{fin}}(X)$ | Finite [[rooted forests]] | Potentially infinite finitely-branching [[rooted forests]] | |
 [[bi-pointed object|Bipointed]] [[set|Sets]] | $X \mapsto X \vee X$ | [[dyadic rational numbers]] in the [[interval]] $[0,1]$ | The [[closed interval]] $[0,1] \subseteq \mathbb{R}$ | [[coalgebra of the real interval]] | |
