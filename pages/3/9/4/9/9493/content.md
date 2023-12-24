@@ -15,7 +15,7 @@
 
 ## Definition
 
-Typically, a __positive number__ is a [[real number]] $p$ such that, using the usual [[linear order]] on the [[real line]],
+Typically, a __positive number__ is a [[real number]] $p$ such that, using the usual [[strict total order]] on the [[real line]],
 \[ p \gt 0 \label{strict}\]
 For emphasis, such a number may be called __strictly positive__ or __[[positive definiteness|positive definite]]__.
 
