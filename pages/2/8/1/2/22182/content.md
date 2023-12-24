@@ -213,7 +213,7 @@ $$g:S^1 \to C$$
 
 * a homotopy witnessing that $g$ is a [[section]] of $f$:
 
-$$\mathrm{sec}_g:\prod_{x:\mathbb{I}} f(g(x)) =_{S^1} x$$
+$$\mathrm{sec}_g:\prod_{x:S^1} f(g(x)) =_{S^1} x$$
 
 such that 
 
