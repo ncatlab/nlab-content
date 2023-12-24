@@ -17,7 +17,7 @@
 
 ## Idea
 
-A notion of [[ordered ring]] for [[strict orders]] which are not necessarily [[strict linear orders]]. 
+A notion of [[ordered ring]] for [[strict orders]] which are not necessarily [[connected relation|connected]]. 
 
 ## Definition
 
