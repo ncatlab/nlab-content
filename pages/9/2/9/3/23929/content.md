@@ -59,7 +59,7 @@ The inflection point is to real cubic functions what the extremum was to real qu
 
 ### In constructive mathematics ###
 
-In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ has two local extrema, a saddle point, or zero local extrema. Similarly, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the inflection point occurs to the left, the right, or on the $y$-intercept line. 
+In [[classical mathematics]], the [[law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ has two local extrema, a saddle point, or zero local extrema. Similarly, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the inflection point occurs to the left, the right, or on the $y$-intercept line. 
 
 ## Depressed cubic functions ##
 
