@@ -51,7 +51,7 @@ If $a = 0$, the real quadratic function is [[degenerate]]; it becomes a real [[a
 
 ### In constructive mathematics ###
 
-In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ is concave up, concave down, or degenerate. Similarly, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the extremum is a minimum, is a maximum, or does not exist due to the degeneracy of $f$. 
+In [[classical mathematics]], the [[law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ is concave up, concave down, or degenerate. Similarly, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the extremum is a minimum, is a maximum, or does not exist due to the degeneracy of $f$. 
 
 ## Exact zeroes ##
 
@@ -135,7 +135,7 @@ There is only one zero, which occurs at the [[extremum]] of the real quadratic f
 
 ### In constructive mathematics ###
 
-In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. Furthermore, one cannot prove that a real quadratic function with positive determinant has exactly two zeroes. 
+In [[classical mathematics]], the [[law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. Furthermore, one cannot prove that a real quadratic function with positive determinant has exactly two zeroes. 
 
 ## Newton's method ##
 
