@@ -216,7 +216,7 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 
 ### Generalized induction principle
 
-There is also a generalized induction principle (cf. the talk in [LumsdaineShulman17](#LumsdaineShulman17)), which uses a type $C$ and a function $f:C \to \mathbb{N}$ instead of a type family $x:\mathbb{N} \vdash P(x)$, and one uses [[fiber types]] $\sum_{z:C} f(z) =_\mathbb{N} n$ to express the generalized induction principle.
+There is also a generalized induction principle (cf. the talk slides in [LumsdaineShulman17](#LumsdaineShulman17)), which uses a type $C$ and a function $f:C \to \mathbb{N}$ instead of a type family $x:\mathbb{N} \vdash P(x)$, and one uses the [[fiber]] $\sum_{z:C} f(z) =_\mathbb{N} n$ to express the generalized induction principle.
 
 Then the induction principle states that given a type $C$ and a function $f:C \to \mathbb{N}$ along with 
 
