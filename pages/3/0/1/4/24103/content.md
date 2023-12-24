@@ -67,11 +67,11 @@ In [[constructive mathematics]], there exist real polynomial functions for which
 
 ### Pointwise continuity ###
 
-Given a [[real polynomial function]] $f:\mathbb{R} \to \mathbb{R}$, $f$ is a [[pointwise continuous function]] with respect to its [[metric topology]] defined through the absolute value function, subtraction, and its strict linear order. 
+Given a [[real polynomial function]] $f:\mathbb{R} \to \mathbb{R}$, $f$ is a [[pointwise continuous function]] with respect to its [[metric topology]] defined through the absolute value function, subtraction, and its strict total order. 
 
 ### Pointwise differentiability ###
 
-Given a [[real polynomial function]] $f:\mathbb{R} \to \mathbb{R}$, $f$ is a [[pointwise differentiable function]] with respect to its [[metric topology]] defined through the absolute value function, subtraction, and its strict linear order. 
+Given a [[real polynomial function]] $f:\mathbb{R} \to \mathbb{R}$, $f$ is a [[pointwise differentiable function]] with respect to its [[metric topology]] defined through the absolute value function, subtraction, and its strict total order. 
 
 ### Smoothness ###
 
