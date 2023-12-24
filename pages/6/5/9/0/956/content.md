@@ -17,7 +17,7 @@
 
 A (binary) [[relation]] $\sim$ on a [[set]] $A$ is __connected__ (or sometimes __linear__) if any two [[elements]] that are related in neither order are [[equality|equal]]:
 $$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
-This is a basic property of [[linear orders]].
+This is a basic property of [[strict total orders]].
 
 Every [[tight relation]] is a connected relation. Every connected [[symmetric relation]] is a tight relation. 
 
@@ -44,7 +44,7 @@ $$\mathrm{conn}(a, b):\mathrm{isEquiv}(\mathrm{idtosymnotrel}(a, b))$$
 
 ## See also
 
-* [[linear order]]
+* [[strict total order]]
 * [[tight relation]]
 
 [[!redirects connected relation]]
