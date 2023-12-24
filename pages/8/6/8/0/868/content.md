@@ -66,6 +66,8 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 
 * [[order topology]]
 
+* [[total preorder]]
+
 [[!redirects total order]]
 [[!redirects total orders]]
 [[!redirects toset]]
