@@ -182,6 +182,79 @@ $$
 
 * Given a [[univalent universe]] $U$, the type of $U$-small $\mathbb{Z}$-torsors. One can then prove that this type satisfies the same induction principle (propositionally). This is due to [[Dan Grayson]].
 
+### Induction principle without heterogeneous identifications
+
+There is a version of the induction principle which uses a type $C$ and a function $f:C \to S^1$ instead of a type family $P(x)$ indexed by $x:S^1$. It has the benefit of not requiring that one has first defined [[heterogeneous identification types]], whether as an [[inductive family]] of types or by using [[transport]]. However, it requires that [[function types]] be defined in the type theory first, so it is not suitable for strongly predicative type theories like [[geometric type theory]]. 
+
+The induction principle of the circle type says that given a type $C$ and a function $f:C \to S^1$, as well as 
+
+* an element $c_\mathrm{base}:C$
+
+* identifications $c_\mathrm{loop}:c_\mathrm{base} =_C c_\mathrm{base}$ and $p_\mathrm{base}:f(c_\mathrm{base}) =_{S^1} \mathrm{base}$ such that $\mathrm{ap}_f(c_\mathrm{loop})$, $p_\mathrm{base}$, $p_\mathrm{base}$, and $\mathrm{loop}$ form a square
+
+
+$$
+\begin{array}{c}
+    & f(c_\mathrm{base}) & \overset{\mathrm{ap}_{f}(c_\mathrm{loop})}= & f(c_\mathrm{base}) &  \\
+    p_\mathrm{base} & \Vert &  & \Vert & p_\mathrm{base}\\
+    & \mathrm{base} & \underset{\mathrm{loop}}= & \mathrm{base} & \\
+\end{array}
+$$
+
+* an identification saying that the square commutes
+
+$$p_\mathrm{loop}:\mathrm{ap}_f(c_\mathrm{loop}) \bullet p_\mathrm{base} =_{f(c_\mathrm{base}) =_{S^1} \mathrm{loop}} p_\mathrm{base} \bullet \mathrm{loop}$$
+
+one can construct 
+
+* a function 
+
+$$g:S^1 \to C$$
+
+* a homotopy witnessing that $g$ is a [[section]] of $f$:
+
+$$\mathrm{sec}_g:\prod_{x:\mathbb{I}} f(g(x)) =_{S^1} x$$
+
+such that 
+
+$$g(\mathrm{base}) \equiv c_\mathrm{base} \quad \mathrm{sec}_g(\mathrm{base}) \equiv p_\mathrm{base} \quad \mathrm{ap}_{g}(\mathrm{loop}) \equiv c_\mathrm{loop}$$
+
+$$\mathrm{ind}_{=}\left(\lambda x:S^1.\mathrm{refl}_{f(g(x)) =_{S^1} x}(\mathrm{sec}_g(x)), \mathrm{base}, \mathrm{base}, \mathrm{loop}\right) \equiv p_\mathrm{loop}$$
+
+The last condition needs some explanation. Since $g$ is a section of $f$, the composite $f \circ g$ is [[generalized the|the]] [[identity function]] on the [[circle type]], up to [[identification]]. Now, given any identity function on the circle type $i:S^1 \to S^1$ with homotopy
+
+$$j:\prod_{x:S^1} i(x) =_{S^1} x$$
+
+we have the following square for all $x:S^1$, $y:S^1$, and $q:x =_{S^1} y$:
+
+$$
+\begin{array}{c}
+    & i(x) & \overset{\mathrm{ap}_{i}(q)}= & i(y) &  \\
+    j(x) & \Vert &  & \Vert & j(y)\\
+    & x & \underset{q}= & y & \\
+\end{array}
+$$
+
+This [[commutative square|square commutes]] via the [[J rule]]: it suffices to construct an element of 
+
+$$\mathrm{ap}_{i}(\mathrm{refl}_{S^1}(x)) \bullet j(x) =_{i(x) =_{S^1} x} j(x) \bullet \mathrm{refl}_{S^1}(x)$$
+
+But $\mathrm{ap}_{i}(\mathrm{refl}_{S^1}(x)) \bullet j(x)$ reduces down to $j(x)$ via 
+$$\mathrm{ap}_{i}(\mathrm{refl}_{S^1}(x)) \bullet j(x) \equiv \mathrm{refl}_{S^1}(i(x)) \bullet j(x) \equiv j(x)$$ 
+and similarly $j(x) \bullet \mathrm{refl}_{S^1}(x)$ reduces down to $j(x)$, so just take reflexivity of $j(x)$. 
+
+So the naturality square is inductively defined by 
+
+$$\mathrm{ind}_{=}\left(\lambda x:S^1.\mathrm{refl}_{i(x) =_{S^1} x}(j(x)), x, y, q\right):\mathrm{ap}_{i}(q) \bullet j(y) =_{i(x) =_{S^1} y} j(x) \bullet q$$
+
+When $i = f \circ g$, $j \coloneqq \mathrm{sec}_g$, $x \coloneqq \mathrm{base}$, $y \coloneqq \mathrm{base}$, and $q \coloneqq \mathrm{loop}$, this results in the identification 
+
+$$\mathrm{ind}_{=}\left(\lambda x:S^1.\mathrm{refl}_{f(g(x)) =_{S^1} x}(\mathrm{sec}_g(x)), \mathrm{base}, \mathrm{base}, \mathrm{loop}\right)$$
+
+which is of the same type as $p_\mathrm{loop}$ due to the [[judgmental equalities]] in the other computation rules. 
+
+One gets back the usual induction principle of the interval type when $C \equiv \sum_{x:S^1} P(x)$ and $f \equiv \pi_1$ the first projection function of the dependent sum type, and one gets back the recursion principle of the interval type when $C \equiv S^1 \times P$ and $f \equiv \pi_1$ the first projection function of the product type.
+
 ### Extensionality principle of the circle type
 
 The extensionality principle of the circle type says that there is an equivalence of types between the identification type $\mathrm{base} =_{S^1} \mathrm{base}$ and the type of integers $\mathbb{Z}$:
