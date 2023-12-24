@@ -214,6 +214,138 @@ The elimination, computation, and uniqueness rules for the natural numbers type 
 
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).\mathrm{Id}_{C(0)}(c(0), c_0) \times \prod_{x:\mathbb{N}} \mathrm{Id}_{C(s(x))}(c(s(x)), c_s(c(x)))}$$
 
+### Generalized induction principle
+
+There is also a generalized induction principle (cf. the talk in [LumsdaineShulman17](#LumsdaineShulman17)), which uses a type $C$ and a function $f:C \to \mathbb{N}$ instead of a type family $x:\mathbb{N} \vdash P(x)$, and one uses [[fiber types]] $\sum_{z:C} f(z) =_\mathbb{N} n$ to express the generalized induction principle.
+
+Then the induction principle states that given a type $C$ and a function $f:C \to \mathbb{N}$ along with 
+
+* dependent pair
+
+$$c_0:\sum_{z:C} f(z) =_\mathbb{N} 0$$
+
+* dependent function
+
+$$c_s:\prod_{n:\mathbb{N}} \left(\sum_{z:C} f(z) =_\mathbb{N} n\right) \to \left(\sum_{z:C} f(z) =_\mathbb{N} s(n)\right)$$
+
+* and natural number $n:\mathbb{N}$
+
+one could construct the dependent pair
+
+$$\mathrm{ind}_\mathbb{N}^C(f, c_0, c_s, n):\sum_{z:C} f(z) =_\mathbb{N} n$$
+
+such that 
+
+$$\mathrm{ind}_\mathbb{N}^C(f, c_0, c_s, 0) \equiv c_0$$
+
+and for all $n:\mathbb{N}$
+
+$$\mathrm{ind}_\mathbb{N}^C(f, c_0, c_s, s(n)) \equiv c_s(n, \mathrm{ind}(f, c_0, c_s, n))$$
+
+However, by the rules of dependent pair types, one could instead postulate separate elements and identifications instead of an element of a [[fiber type]] throughout the generalized principle. 
+
+Instead of the dependent pair $c_0:\sum_{z:C} f(z) =_\mathbb{N} 0$ we have the element $c_0:C$ and identificaiton $p_0:f(c_0) =_\mathbb{N} 0$, where the original element is given by $(c_0, p_0)$. In addition, given the dependent type 
+
+$$c_s:\prod_{n:\mathbb{N}} \left(\sum_{z:C} f(z) =_\mathbb{N} n\right) \to \left(\sum_{z:C} f(z) =_\mathbb{N} s(n)\right)$$
+
+by currying this is equivalent to
+
+$$c_s:\prod_{n:\mathbb{N}} \prod_{z:C} \left(f(z) =_\mathbb{N} n\right) \to \left(\sum_{z:C} f(z) =_\mathbb{N} s(n)\right)$$
+
+and by the [[type theoretic axiom of choice]] this is equivalent to
+
+$$c_s:\prod_{n:\mathbb{N}} \prod_{y:C} \sum_{g:(f(y) =_\mathbb{N} n) \to C} \prod_{p:f(y) =_\mathbb{N} n} f(g(p)) =_\mathbb{N} s(n)$$
+
+By the rules of dependent pair types, the family of dependent pair types could be split up into 
+
+$$c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C$$
+
+$$p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n)$$
+
+where the original dependent funciton is given by 
+
+$$\lambda n:\mathbb{N}.\lambda y:C.(c_s(n, y), p_s(n, y))$$
+
+Then the induction principle of the natural numbers states that given a type $C$ and a function $f:C \to \mathbb{N}$, along with 
+
+* an element $c_0:C$
+
+* an identification $p_0:f(c_0) =_\mathbb{N} 0$
+
+* dependent functions
+
+$$c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C$$
+
+$$p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n)$$
+
+we have a function 
+
+$$\mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s):\mathbb{N} \to C$$
+
+and a homotopy
+
+$$\mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s):\prod_{n:\mathbb{N}} f(\mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n)) =_\mathbb{N} n$$
+
+indicating that $\mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s)$ is a [[section]] of $f$, such that
+
+$$\mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, 0) \equiv c_0$$
+
+$$\mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, 0) \equiv p_0$$
+
+and for all $n:\mathbb{N}$, 
+
+$$\mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, s(n)) \equiv c_s(n, \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n), \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, n))$$
+
+$$\mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, s(n)) \equiv p_s(n, \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n), \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, n))$$
+
+As inference rules these are given by the following:
+
+**elimination rules**:
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to \mathbb{N} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash p_0:f(c_0) =_\mathbb{N} 0 \\
+\Gamma \vdash c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C \quad \Gamma \vdash p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n)
+\end{array}
+}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s):\mathbb{N} \to C}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to \mathbb{N} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash p_0:f(c_0) =_\mathbb{N} 0 \\
+\Gamma \vdash c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C \quad \Gamma \vdash p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n)
+\end{array}
+}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s):\prod_{n:\mathbb{N}} f(\mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n)) =_\mathbb{N} n}$$
+
+**computation rules**:
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to \mathbb{N} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash p_0:f(c_0) =_\mathbb{N} 0 \\
+\Gamma \vdash c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C \quad \Gamma \vdash p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n)
+\end{array}
+}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, 0) \equiv c_0}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to \mathbb{N} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash p_0:f(c_0) =_\mathbb{N} 0 \\
+\Gamma \vdash c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C \quad \Gamma \vdash p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n)
+\end{array}
+}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, 0) \equiv p_0}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to \mathbb{N} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash p_0:f(c_0) =_\mathbb{N} 0 \\
+\Gamma \vdash c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C \quad \Gamma \vdash p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n) \quad \Gamma \vdash n:\mathbb{N}
+\end{array}
+}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, s(n)) \equiv c_s(n, \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n), \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, n))}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to \mathbb{N} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash p_0:f(c_0) =_\mathbb{N} 0 \\
+\Gamma \vdash c_s:\prod_{n:\mathbb{N}} \prod_{y:C} (f(y) =_\mathbb{N} n) \to C \quad \Gamma \vdash p_s:\prod_{n:\mathbb{N}} \prod_{y:C} \prod_{p:f(y) =_\mathbb{N} n} f(c_s(n, y, p)) =_\mathbb{N} s(n) \quad \Gamma \vdash n:\mathbb{N}
+\end{array}
+}{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, s(n)) \equiv p_s(n, \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n), \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, n))}$$
+
+One gets back the usual induction principle of the natural numbers type when $C \equiv \sum_{n:\mathbb{N}} P(n)$, and one gets back the recursion principle of the natural numbers type when $C \equiv \mathbb{N} \times X$. 
+
 ### Extensionality principle of the natural numbers
 
 First we [[inductive definition|inductively define]] a [[binary function]] into the [[boolean domain]] called [[observational equality]] of the natural numbers: 
