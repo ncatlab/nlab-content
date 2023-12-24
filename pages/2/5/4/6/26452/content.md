@@ -11,7 +11,7 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto 1 + X$                | $\mathbb{N}$           | [[conatural number|Conatural numbers]] $\mathbb{N}^\infty$ | [[extended natural number]] |
 [[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie [[conatural numbers]] "terminated" (when they aren't $\infty$) with $A$ | [[partial map classifier]] |
 [[Set]] | $X \mapsto X + X$ or $X \mapsto 2 \times X$                | $\emptyset$            | $2^\mathbb{N}$                | |
-[[Set]] | $X \mapsto A \times X$                | $\emptyset$            | $A^\mathbb{N}$                | [[sequence]] |
+[[Set]] | $X \mapsto A \times X$                | $\emptyset$            | $A^\mathbb{N}$                | [[sequence]], [[writer monad]] |
 [[Set]] | $X \mapsto X \times X$ or $X \mapsto [2, X]$          | $\emptyset \simeq [2, \emptyset]$            | 1 (the unique infinite unlabelled binary tree)     | |
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | |
 [[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | [[stream|Stream]] $A$; i.e. potentially infinite [[list|List]] $A$ | [[list]], [[stream]]   |
