@@ -17,11 +17,11 @@
 
 ## Idea
 
-A notion of [[ordered ring]] for [[linear orders]]. 
+A notion of [[ordered ring]] for [[strict total orders]]. 
 
 ## Definition
 
-A linearly ordered ring is an [[ring]] $R$ with a [[linear order]] $\lt$ such that 
+A strict totally ordered ring is an [[ring]] $R$ with a [[strict total order]] $\lt$ such that 
 
 * $0 \lt 1$
 
@@ -31,22 +31,33 @@ A linearly ordered ring is an [[ring]] $R$ with a [[linear order]] $\lt$ such th
 
 ## Properties
 
-Every linearly ordered ring is a [[partially ordered ring]] given by the [[negation]] of the linear order. In the presence of [[excluded middle]], every linearly ordered ring is a [[totally ordered ring]]. 
+Every strict totally ordered ring is a [[partially ordered ring]] given by the [[negation]] of the strict total order. In the presence of [[excluded middle]], every strict totally ordered ring is a [[totally ordered ring]]. 
 
-Linearly ordered rings may have [[zero divisors]]. The linearly ordered rings which do not have zero divisors are [[ordered integral domains]]. 
+Strict totally ordered rings may have [[zero divisors]]. The strict linearly ordered rings which do not have zero divisors are [[ordered integral domains]]. 
 
 ## Examples
 
-* the integers are a linearly ordered ring
+* the integers are a strict totally ordered ring
 
-* the [[Dedekind real numbers]] are a linearly ordered ring which in constructive mathematics cannot be proved to be a [[totally ordered ring]]. 
+* the [[Dedekind real numbers]] are a totally ordered ring which in constructive mathematics cannot be proved to be a [[totally ordered ring]]. 
 
 ## See also
 
+* [[strictly ordered ring]]
 * [[partially ordered ring]]
 * [[totally ordered ring]]
 * [[ordered integral domain]]
 * [[ordered field]]
+
+[[!redirects strict totally ordered ring]]
+[[!redirects strict totally ordered rings]]
+[[!redirects strictly totally ordered ring]]
+[[!redirects strictly totally ordered rings]]
+
+[[!redirects strict linearly ordered ring]]
+[[!redirects strict linearly ordered rings]]
+[[!redirects strictly linearly ordered ring]]
+[[!redirects strictly linearly ordered rings]]
 
 [[!redirects linearly ordered ring]]
 [[!redirects linearly ordered rings]]
