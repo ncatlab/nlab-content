@@ -94,7 +94,7 @@ In other words, $\leq$ is $\supseteq$ on upper sets, and $\lt$ is $\supsetneq$.
 
 We now have multiple meanings for $x \lt y$ or $x \leq y$ if one or both of these is already a rational number or a real number, but it is a theorem that the meanings are all consistent.  We also have $-\infty \leq x \leq \infty$ for every extended number $x$, and $-\infty \lt x \lt \infty$ for every bounded number $x$.  Finally, $x \leq y$ if $x \lt y$ or $x = y$; the converse holds classically.
 
-Each version of $\leq$ is a [[partial order]] and each version of $\lt$ is a [[quasiorder]].  By [[excluded middle]], $\leq$ is a [[total order]] and $\lt$ is the corresponding [[linear order]], but neither of these results holds constructively.  In particular, the [[comparison]] law for $\lt$ is invalid, which is why one-sided reals are not as well behaved as ordinary (located) [[real numbers]].
+Each version of $\leq$ is a [[partial order]] and each version of $\lt$ is a [[quasiorder]].  By [[excluded middle]], $\leq$ is a [[total order]] and $\lt$ is the corresponding [[strict total order]], but neither of these results holds constructively.  In particular, the [[comparison]] law for $\lt$ is invalid, which is why one-sided reals are not as well behaved as ordinary (located) [[real numbers]].
 
 
 ## Suprema and infima
