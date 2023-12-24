@@ -19,14 +19,6 @@ Given a [[monoidal category]] $M$, let $Coalg(M)$ denote the category of coalgeb
 
 ## Examples
 
-### In Set
-
-Classically, the cofree coalgebra of a set $A$ is the set $A_* = A^* + A^{\mathbb{N}}$, where $\mathbb{N} = 1^*$ is the set of [[natural numbers]], in [[Set]]; that is, the cofree coalgebra of a set is the [[disjoint union]] of the set of (finite) [[lists]] and the set of (infinite) [[sequences]]. In other categories, as well as in $Set$ in [[constructive mathematics]], this need not hold.  Intuitively, we cannot necessarily decide whether a given element of the cofree coalgebra is a finite list or an infinite sequence until we reach the end, and we may never reach the end. (Of course, if we *know* that we will never reach the end, then we know that it is infinite, but we do not know this just because we haven't reached the end so far.) In categories very different from $Set$, $A^*$ will not even be a [[subobject]] of $A_*$ (although there will always be a [[morphism]] from $A^*$ to $A_*$, indeed a unique such $F$-morphism, where $F = X \mapsto 1 \sqcup A \otimes X$, since these are initial and final objects of the category of $F$-algebras).
-
-An [[extended natural number]] is an element of $1_*$ (much as a [[natural number]] is an element of $1^*$).  Classically, such an element is either a [[natural number]] or [[infinity]] (the unique element of $1^{\mathbb{N}}$).
-
-### In Vect
-
 For example, a cofree coalgebra over a [[vector space]] $V$ consists of a coalgebra $C(V)$ and a [[linear map]] $\varepsilon \colon C(V) \to V$ which is [[universal construction|universal]] in the sense that given a coalgebra $C$ and linear map $f \colon C \to V$, there exists a unique coalgebra map $g \colon C \to C(V)$ such that $f = \varepsilon \circ g$. 
 
 ## Constructions 
