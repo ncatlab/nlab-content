@@ -138,6 +138,79 @@ Uniqueness rules for the interval type:
 
 * An interval type is a [[cubical type]] $\Box^1$. 
 
+### Induction principle without heterogeneous identifications
+
+There is a version of the induction principle which uses a type $C$ and a function $f:C \to \mathbb{I}$ instead of a type family $P(x)$ indexed by $x:\mathbb{I}$. It has the benefit of not requiring that one has first defined [[heterogeneous identification types]], whether as an [[inductive family]] of types or by using [[transport]]. However, it requires that [[function types]] be defined in the type theory first, so it is not suitable for strongly predicative type theories like [[geometric type theory]]. 
+
+The induction principle of the interval type says that given a type $C$ and a function $f:C \to \mathbb{I}$, as well as 
+
+* elements $c_0:C$ and $c_1:C$
+
+* identifications $c_p:c_0 =_C c_1$, $q_0:f(c_0) =_\mathbb{I} 0$ and $q_1:f(c_q) =_\mathbb{I} 1$ such that $\mathrm{ap}_f(c_p)$, $q_0$, $q_1$, and $p$ form a square
+
+
+$$
+\begin{array}{c}
+    & f(c_0) & \overset{\mathrm{ap}_{f}(c_p)}= & f(c_1) &  \\
+    q_0 & \Vert &  & \Vert & q_1\\
+    & 0 & \underset{p}= & 1 & \\
+\end{array}
+$$
+
+* an identification saying that the square commutes
+
+$$q_p:\mathrm{ap}_f(c_p) \bullet q_1 =_{f(c_0) =_\mathbb{I} f(c_1)} q_0 \bullet p$$
+
+one can construct 
+
+* a function 
+
+$$g:\mathbb{I} \to C$$
+
+* a homotopy witnessing that $g$ is a [[section]] of $f$:
+
+$$\mathrm{sec}_g:\prod_{x:\mathbb{I}} f(g(x)) =_\mathbb{I} x$$
+
+such that 
+
+$$g(0) \equiv c_0 \quad \mathrm{sec}_g(0) \equiv q_0 \quad g(1) \equiv c_1 \quad \mathrm{sec}_g(1) \equiv q_1 \quad \mathrm{ap}_{g}(p) \equiv c_p$$
+
+$$\mathrm{ind}_{=}\left(\lambda x:\mathbb{I}.\mathrm{refl}_{f(g(x)) =_\mathbb{I} x}(\mathrm{sec}_g(x)), 0, 1, p\right) \equiv q_p$$
+
+The last condition needs some explanation. Since $g$ is a section of $f$, the composite $f \circ g$ is [[generalized the|the]] [[identity function]] on the [[interval type]], up to [[identification]]. Now, given any identity function on the interval type $i:\mathbb{I} \to \mathbb{I}$ with homotopy
+
+$$j:\prod_{x:\mathbb{I}} i(x) =_\mathbb{I} x$$
+
+we have the following square for all $x:\mathbb{I}$, $y:\mathbb{I}$, and $q:x =_\mathbb{I} y$:
+
+$$
+\begin{array}{c}
+    & i(x) & \overset{\mathrm{ap}_{i}(q)}= & i(y) &  \\
+    j(x) & \Vert &  & \Vert & j(y)\\
+    & x & \underset{q}= & y & \\
+\end{array}
+$$
+
+This [[commutative square|square commutes]] via the [[J rule]]: it suffices to construct an element of 
+
+$$\mathrm{ap}_{i}(\mathrm{refl}_\mathbb{I}(x)) \bullet j(x) =_{i(x) =_\mathbb{I} x} j(x) \bullet \mathrm{refl}_\mathbb{I}(x)$$
+
+But $\mathrm{ap}_{i}(\mathrm{refl}_\mathbb{I}(x)) \bullet j(x)$ reduces down to $j(x)$ via 
+$$\mathrm{ap}_{i}(\mathrm{refl}_\mathbb{I}(x)) \bullet j(x) \equiv \mathrm{refl}_\mathbb{I}(i(x)) \bullet j(x) \equiv j(x)$$ 
+and similarly $j(x) \bullet \mathrm{refl}_\mathbb{I}(x)$ reduces down to $j(x)$, so just take reflexivity of $j(x)$. 
+
+So the naturality square is inductively defined by 
+
+$$\mathrm{ind}_{=}\left(\lambda x:\mathbb{I}.\mathrm{refl}_{i(x) =_\mathbb{I} x}(j(x)), x, y, q\right):\mathrm{ap}_{i}(q) \bullet j(y) =_{i(x) =_\mathbb{I} y} j(x) \bullet q$$
+
+When $i = f \circ g$, $j \coloneqq \mathrm{sec}_g$, $x \coloneqq 0$, $y \coloneqq 1$, and $q \coloneqq p$, this results in the identification 
+
+$$\mathrm{ind}_{=}\left(\lambda x:\mathbb{I}.\mathrm{refl}_{f(g(x)) =_\mathbb{I} x}(\mathrm{sec}_g(x)), 0, 1, p\right)$$
+
+which is of the same type as $q_p$ due to the [[judgmental equalities]] in the other computation rules. 
+
+One gets back the usual induction principle of the interval type when $C \equiv \sum_{x:\mathbb{I}} P(x)$ and $f \equiv \pi_1$ the first projection function of the dependent sum type, and one gets back the recursion principle of the interval type when $C \equiv \mathbb{I} \times P$ and $f \equiv \pi_1$ the first projection function of the product type.
+
 ### Path types and identity types
 
 In general, functions from $\mathbb{I}$ to a type $A$ can be thought of as the [[paths]] in $A$ in [[Martin-Löf type theory]], and the [[function type]] $\mathbb{I} \to A$ can be thought of as the **[[path types]]** of $A$, similar to how in [[topology]] paths in a (topological) space $A$ are (continuous) functions from the unit interval, and how in [[cubical type theory]] the [[cubical paths]] are a kind of function type out of the pre-defined interval pre-type. 
