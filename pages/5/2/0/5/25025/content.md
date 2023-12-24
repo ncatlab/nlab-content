@@ -28,7 +28,7 @@ A **number line rig** $S$ is
 
 * A [[commutative rig]] $(S, 0, 1, +, \cdot)$. It follows that there is a [[rig homomorphism]] $h:\mathbb{N} \to S$, since the natural numbers are the [[initial object|initial]] [[commutative rig]]
  
-* with a [[linear order]] $(S, \lt)$ such that
+* with a [[strict total order]] $(S, \lt)$ such that
   * $0 \lt 1$
   * $0 \lt a$ and $0 \lt b$ imply that $0 \lt a + b$
   * $0 \lt a$ and $0 \lt b$ imply that $0 \lt a \cdot b$
