@@ -184,7 +184,7 @@ $$
 
 ### Induction principle without heterogeneous identifications
 
-There is a version of the induction principle which uses a type $C$ and a function $f:C \to S^1$ instead of a type family $P(x)$ indexed by $x:S^1$. It has the benefit of not requiring that one has first defined [[heterogeneous identification types]], whether as an [[inductive family]] of types or by using [[transport]]. However, it requires that [[function types]] be defined in the type theory first, so it is not suitable for strongly predicative type theories like [[geometric type theory]]. 
+There is a version of the induction principle which uses a type $C$ and a function $f:C \to S^1$ instead of a type family $P(x)$ indexed by $x:S^1$. It has the benefit of not requiring that one has first defined [[heterogeneous identification types]], whether as an [[inductive family]] of types or by using [[transport]]. 
 
 The induction principle of the circle type says that given a type $C$ and a function $f:C \to S^1$, as well as 
 
@@ -247,7 +247,7 @@ So the naturality square is inductively defined by
 
 $$\mathrm{ind}_{=}\left(\lambda x:S^1.\mathrm{refl}_{i(x) =_{S^1} x}(j(x)), x, y, q\right):\mathrm{ap}_{i}(q) \bullet j(y) =_{i(x) =_{S^1} y} j(x) \bullet q$$
 
-When $i = f \circ g$, $j \coloneqq \mathrm{sec}_g$, $x \coloneqq \mathrm{base}$, $y \coloneqq \mathrm{base}$, and $q \coloneqq \mathrm{loop}$, this results in the identification 
+When $i \coloneqq f \circ g$, $j \coloneqq \mathrm{sec}_g$, $x \coloneqq \mathrm{base}$, $y \coloneqq \mathrm{base}$, and $q \coloneqq \mathrm{loop}$, this results in the identification 
 
 $$\mathrm{ind}_{=}\left(\lambda x:S^1.\mathrm{refl}_{f(g(x)) =_{S^1} x}(\mathrm{sec}_g(x)), \mathrm{base}, \mathrm{base}, \mathrm{loop}\right)$$
 
