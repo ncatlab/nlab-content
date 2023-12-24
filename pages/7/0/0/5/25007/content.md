@@ -17,7 +17,7 @@
 
 ## Idea
 
-A notion of [[ordered ring]] for [[strict orders]] which are not necessarily [[linear orders]]. 
+A notion of [[ordered ring]] for [[strict orders]] which are not necessarily [[strict linear orders]]. 
 
 ## Definition
 
@@ -35,7 +35,7 @@ Every strictly ordered ring is a [[preordered ring]] given by the [[negation]] o
 
 ## Examples
 
-* Every [[linearly ordered ring]] is a strictly ordered ring. 
+* Every [[strict linearly ordered ring]] is a strictly ordered ring. 
 
 * Every [[ordered local ring]] is a strictly ordered ring where every element greater than zero or less than zero is invertible.
 
