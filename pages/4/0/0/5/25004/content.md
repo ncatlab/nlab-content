@@ -14,7 +14,7 @@
 
 ## Idea
 
-A strict order is a [[strict total order]] which is not a [[linear relation]]. Strict orders are used in models of the real numbers which have [[infinitesimals]], such as in the smooth real numbers in [[synthetic differential geometry]], and thus where not every real number not greater than or less than zero is equal to zero. 
+A strict order is a [[strict total order]] which is not a [[connected relation]]. Strict orders are used in models of the real numbers which have [[infinitesimals]], such as in the smooth real numbers in [[synthetic differential geometry]], and thus where not every real number not greater than or less than zero is equal to zero. 
 
 ## Definition
 
