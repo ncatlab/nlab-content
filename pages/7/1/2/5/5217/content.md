@@ -110,7 +110,7 @@ In the other direction, every real field $F$ may be embedded in a [[real closed 
 ## See also
 
 * [[interval arithmetic]]
-* [[linearly ordered ring]]
+* [[strict linearly ordered ring]]
 * [[ordered local ring]]
 * [[ordered Artinian local ring]]
 * [[ordered reduced local ring]]
