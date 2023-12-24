@@ -344,7 +344,7 @@ $$\frac{
 \end{array}
 }{\Gamma \vdash \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, s(n)) \equiv p_s(n, \mathrm{ind}_\mathbb{N}^{C}(f, c_0, p_0, c_s, p_s, n), \mathrm{ind}_\mathbb{N}^{C, \mathrm{sec}}(f, c_0, p_0, c_s, p_s, n))}$$
 
-One gets back the usual induction principle of the natural numbers type when $C \equiv \sum_{n:\mathbb{N}} P(n)$, and one gets back the recursion principle of the natural numbers type when $C \equiv \mathbb{N} \times X$. 
+One gets back the usual induction principle of the natural numbers type when $C \equiv \sum_{n:\mathbb{N}} P(n)$ and $f \equiv \pi_1$ the first projection function of the dependent sum type, and one gets back the recursion principle of the natural numbers type when $C \equiv \mathbb{N} \times X$ and $f \equiv \pi_1$ the first projection function of the product type. 
 
 ### Extensionality principle of the natural numbers
 
