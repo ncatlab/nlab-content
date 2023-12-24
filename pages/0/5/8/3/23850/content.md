@@ -15,7 +15,7 @@
 
 ## Definition ##
 
-A **protoring** is a [[commutative monoid]] $(M, 0, +)$ with a strict [[linear order]] $\lt$ such that 
+A **protoring** is a [[commutative monoid]] $(M, 0, +)$ with a [[strict total order]] $\lt$ such that 
 
 * $a \lt b$ if and only if $a + c \lt b + c$. 
 
