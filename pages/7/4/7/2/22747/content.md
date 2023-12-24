@@ -4,13 +4,13 @@
 
 ## Idea
 
-An ordered integral domain is an [[integral domain]] equipped with a compatible [[linear order]].
+An ordered integral domain is an [[integral domain]] equipped with a compatible [[strict total order]].
 
-Note that while the adjective 'ordered' usually refers to a [[total order]], it is traditionally used more strictly when placed before 'integral domain'.
+Note that while the adjective 'ordered' usually refers to a [[total order]], which by default is non-strict, it is traditionally used more strictly when placed before 'integral domain'.
 
 ## Definition
 
-An __ordered integral domain__ is an [[integral domain]] $R$ equipped with a [[linear order]] $\lt$ such that:
+An __ordered integral domain__ is an [[integral domain]] $R$ equipped with a [[strict total order]] $\lt$ such that:
 
 *  $1 \gt 0$,
 *  If $a, b \gt 0$, then so are $a + b$ and $a b$.
@@ -29,7 +29,7 @@ Every [[localization of a commutative ring|localization]] of the integral domain
 
 ## Related concepts
 
-* [[linearly ordered ring]]
+* [[strict linearly ordered ring]]
 
 * [[ordered field]]
 
