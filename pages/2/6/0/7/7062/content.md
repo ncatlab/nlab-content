@@ -140,7 +140,7 @@ Uniqueness rules for the interval type:
 
 ### Induction principle without heterogeneous identifications
 
-There is a version of the induction principle which uses a type $C$ and a function $f:C \to \mathbb{I}$ instead of a type family $P(x)$ indexed by $x:\mathbb{I}$. It has the benefit of not requiring that one has first defined [[heterogeneous identification types]], whether as an [[inductive family]] of types or by using [[transport]]. However, it requires that [[function types]] be defined in the type theory first, so it is not suitable for strongly predicative type theories like [[geometric type theory]]. 
+There is a version of the induction principle which uses a type $C$ and a function $f:C \to \mathbb{I}$ instead of a type family $P(x)$ indexed by $x:\mathbb{I}$. It has the benefit of not requiring that one has first defined [[heterogeneous identification types]], whether as an [[inductive family]] of types or by using [[transport]]. 
 
 The induction principle of the interval type says that given a type $C$ and a function $f:C \to \mathbb{I}$, as well as 
 
@@ -203,7 +203,7 @@ So the naturality square is inductively defined by
 
 $$\mathrm{ind}_{=}\left(\lambda x:\mathbb{I}.\mathrm{refl}_{i(x) =_\mathbb{I} x}(j(x)), x, y, q\right):\mathrm{ap}_{i}(q) \bullet j(y) =_{i(x) =_\mathbb{I} y} j(x) \bullet q$$
 
-When $i = f \circ g$, $j \coloneqq \mathrm{sec}_g$, $x \coloneqq 0$, $y \coloneqq 1$, and $q \coloneqq p$, this results in the identification 
+When $i \coloneqq f \circ g$, $j \coloneqq \mathrm{sec}_g$, $x \coloneqq 0$, $y \coloneqq 1$, and $q \coloneqq p$, this results in the identification 
 
 $$\mathrm{ind}_{=}\left(\lambda x:\mathbb{I}.\mathrm{refl}_{f(g(x)) =_\mathbb{I} x}(\mathrm{sec}_g(x)), 0, 1, p\right)$$
 
