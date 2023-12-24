@@ -14,7 +14,7 @@
 
 ## Idea
 
-A strict order is a [[linear order]] which is not a [[linear relation]]. Strict orders are used in models of the real numbers which have [[infinitesimals]], such as in the smooth real numbers in [[synthetic differential geometry]], and thus where not every real number not greater than or less than zero is equal to zero. 
+A strict order is a [[strict total order]] which is not a [[linear relation]]. Strict orders are used in models of the real numbers which have [[infinitesimals]], such as in the smooth real numbers in [[synthetic differential geometry]], and thus where not every real number not greater than or less than zero is equal to zero. 
 
 ## Definition
 
@@ -30,11 +30,11 @@ A strict order is a binary relation $\lt$ on a set $S$ which is irreflexive, asy
 
 ## Properties
 
-The negation of a strict order is a [[preorder]] $a \leq b \coloneqq \neg(b \lt a)$, and thus has an [[equivalence relation]] defined as $a \approx b \coloneqq a \leq b \wedge b \leq a$. Every strict order which is also a [[linear relation]] is a [[linear order]], whose negation is a [[partial order]]. Thus, in any foundations with [[quotient sets]], every strict order can be made into a linear order by taking the quotient with respect to the equivalence relation $S/\approx$. 
+The negation of a strict order is a [[preorder]] $a \leq b \coloneqq \neg(b \lt a)$, and thus has an [[equivalence relation]] defined as $a \approx b \coloneqq a \leq b \wedge b \leq a$. Every strict order which is also a [[linear relation]] is a [[strict total order]], whose negation is a [[partial order]]. Thus, in any foundations with [[quotient sets]], every strict order can be made into a strict total order by taking the quotient with respect to the equivalence relation $S/\approx$. 
 
 ## See also
 
-* [[linear order]]
+* [[strict total order]]
 
 * [[strictly ordered ring]]
 
