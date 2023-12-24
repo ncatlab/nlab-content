@@ -53,7 +53,7 @@ The underlying additive group of any [[ordered field]] is an ordered group.
 
 In particular, the underlying additive group of the field $\mathbb{R}$ of [[real numbers]] is an ordered group.
 
-Although the field $\mathbb{C}$ of [[complex numbers]] is not an ordered field (since it is not *[[linear order|linearly]]* ordered), its underlying additive group is still an ordered group (where $a \leq b$ means that $b - a$ is a nonnegative real number).
+Although the field $\mathbb{C}$ of [[complex numbers]] is not an ordered field (since it is not *[[strict total  order|strictly totally]]* ordered), its underlying additive group is still an ordered group (where $a \leq b$ means that $b - a$ is a nonnegative real number).
 
 Given a [[topological vector space]] $V$, we often consider its [[dual vector space]] $V^*$, consisting of the [[continuous map|continuous]] [[linear maps]] from $V$ to its [[base field]], which is usually either $\mathbb{R}$ or $\mathbb{C}$.  This inherits a partial order from the [[target]] field, and then the underlying additive group is an ordered group; in fact, we have an [[ordered algebra]].  (This is the main sort of example that I know of, but that probably just reflects my own limited knowledge.)
 
