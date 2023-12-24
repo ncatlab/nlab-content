@@ -361,6 +361,9 @@ Discussion in [[homotopy type theory]]:
 
 * [[Egbert Rijke]], Exc. 4.2 (pp. 35) in: *[[Introduction to Homotopy Type Theory]]* (2023) &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
 
+...
+
+* {#LumsdaineShulman16} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Abstracting away from cell complexes*, &lbrack;talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf)&rbrack;
 
 [[!redirects boolean domain]]
 [[!redirects Boolean domain]]
