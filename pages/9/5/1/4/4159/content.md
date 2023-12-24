@@ -5,27 +5,21 @@
 
 ## Idea
 
-In [[computer science]], a __stream__ is a finite or infinite sequence, distinguished from a [[list]] (usually assumed finite) or a [[sequence]] (usually assumed infinite).
-
+In [[computer science]], a __stream__ is the same thing as an [[infinite]] [[sequence]] in [[mathematics]]. 
 
 ## Definition
 
-Let $A$ be a [[set]] (or [[object]] of any [[category]] $C$ where the following makes sense).  Consider the [[functor]] $F$ from [[Set]] (or $C$) to itself that maps $X$ to $X \times A + 1$, where $1$ is the [[singleton]] set (or [[terminal object]] of $C$) and $+$ is the operation of [[disjoint union]] (or [[coproduct]] in $C$).  It is well known that the [[initial algebra]] $A^*$ of $F$ is the set (or object) of [[lists]] on $A$, which is the [[free monoid]] (or free monoid object in $C$) on $A$.  Less well known is the [[final coalgebra]] $A_*$ of $F$; it is the set (or object) of __streams__ on $A$.
-
-
-## Properties
-
-Classically, $A_* = A^* + A^{\mathbb{N}}$, where $\mathbb{N} = 1^*$ is the set of [[natural numbers]], in [[Set]]; that is, the set of streams is the [[disjoint union]] of the set of (finite) [[lists]] and the set of (infinite) [[sequences]].  In other categories, as well as in $Set$ in [[constructive mathematics]], this need not hold.  Intuitively, we cannot necessarily decide whether a given stream is a finite list or an infinite sequence until we reach the end, and we may never reach the end.  (Of course, if we *know* that we will never reach the end, then we know that it is infinite, but we do not know this just because we haven't reached the end so far.)  In categories very different from $Set$, $A^*$ will not even be a [[subobject]] of $A_*$ (although there will always be a [[morphism]] from $A^*$ to $A_*$, indeed a unique such $F$-morphism, since these are initial and final objects of the category of $F$-algebras).
-
-
-## Examples
-
-An [[extended natural number]] is an element of $1_*$ (much as a [[natural number]] is an element of $1^*$).  Classically, such an element is either a [[natural number]] or [[infinity]] (the unique element of $1^{\mathbb{N}}$).
+Let $A$ be a [[set]] (or [[object]] of any [[category]] $C$ where the following makes sense).  Consider the [[writer monad]] $F$ from [[Set]] (or $C$) to itself that maps $X$ to $A \times X$. The [[final coalgebra]] of $F$ is the set (or object) of __streams__ on $A$.
 
 ## Related concepts
 
 * [[writer monad]]
 
+* [[cofree coalgebra]], the final coalgebra of the endofunctor $X \mapsto 1 + A \times X$
+
+## References
+
+...
 
 [[!redirects stream]]
 [[!redirects streams]]
