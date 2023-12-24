@@ -376,6 +376,42 @@ The computation rule for weak identity types says that there is a witness that t
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(y,p) \vdash C(x,y,p):Type \quad \Gamma \vdash x:A \quad \Gamma \vdash t:C(x,x,r(x))}
 {\Gamma \vdash \beta(x,t):Id_{C(x,x,r(x))}(J(x,t,x,r(x)) ,t)}$$
 
+### Induction using functions instead of type families
+
+There is a version of the induction principle which uses a type $C$ and a function $f:C \to \sum_{x:A} \sum_{y:A} x =_A y$ into the type of all identity types in $A$, instead of a type family $C(x, y, p)$ indexed by $x:A$, $y:A$, and $p:x =_A y$. 
+
+Let 
+$$\Delta_A \coloneqq \lambda x:A.(x, x, \mathrm{refl}_A(x)):A \to \sum_{x:A} \sum_{y:A} x =_A y$$ 
+be the [[diagonal function]] of $A$. 
+
+The induction principle for the identity type says that given any type $C$ and function 
+$$f:C \to \sum_{x:A} \sum_{y:A} x =_A y$$ 
+into the type of all identity types in $A$, and given a function $c:A \to C$ and a homotopy 
+$$p:\prod_{x:A} f(c(x)) =_{\sum_{x:A} \sum_{y:A} x =_A y} \Delta_A(x)$$
+which states that the composite of $f$ and $c$ is the diagonal, one can construct 
+
+* a function
+
+$$g:\left(\sum_{x:A} \sum_{y:A} x =_A y\right) \to C$$
+
+* a homotopy witnessing that $g$ is a [[section]] of $f$:
+
+$$\mathrm{sec}_g:\prod_{z:\sum_{x:A} \sum_{y:A} x =_A y} f(g(z)) =_{\sum_{x:A} \sum_{y:A} x =_A y} z$$
+
+such that for all $x:A$, $g(\Delta_A(x)) \equiv c(x)$ and $\mathrm{sec}_g(\Delta_A(x)) \equiv p(x)$.
+
+By [[currying]] this is the same as saying that one could construct 
+
+* a family of functions
+
+$$g:\prod_{x:A} \prod_{y:A} (x =_A y) \to C$$
+
+* a family of functions:
+
+$$\mathrm{sec}_g:\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} f(g(x, y, p)) =_{\sum_{x:A} \sum_{y:A} x =_A y} (x, y, p)$$
+
+such that for all $x:A$, $g(x, x, \mathrm{refl}_A(x)) \equiv c(x)$ and $\mathrm{sec}_g(x, x, \mathrm{refl}_A(x)) \equiv p(x)$.
+
 ### In terms of inductive types
  {#InTermsOfInductiveTypes}
 
