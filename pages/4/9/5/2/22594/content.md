@@ -17,7 +17,7 @@
 
 ## Definition
 
-An _archimedean group_ is a [[linear order|linearly]] [[ordered group]] which satisfies the [[Archimedean property]], in which every positive element is bounded above by a [[natural number]]. 
+An _archimedean group_ is a [[strict total order|strictly]] [[ordered group]] which satisfies the [[Archimedean property]], in which every positive element is bounded above by a [[natural number]]. 
 
 So an archimedean group has no infinite elements (and thus no non-zero [[infinitesimal object|infinitesimal]] elements).
 
