@@ -40,7 +40,7 @@ Tarski's axioms for the real numbers are as follows:
 
 * Axiom 2 says that $\lt$ is an [[asymmetric relation]] and thus an [[irreflexive relation]]. 
 
-* The fragment of Axiom 4 that only refers to [[singleton]] [[subsets]] says that $\lt$ is a [[comparison]], making $\lt$ into a [[linear order]]. (the full axiom 4 is the [[Dedekind completion|Dedekind completeness]] condition). 
+* The fragment of Axiom 4 that only refers to [[singleton]] [[subsets]] says that $\lt$ is a [[comparison]], making $\lt$ into a [[strict linear order]]. (the full axiom 4 is the [[Dedekind completion|Dedekind completeness]] condition). 
 
 * Axiom 3 says that $\lt$ is a [[dense linear order]].
 
