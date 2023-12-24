@@ -12,6 +12,8 @@ In the same way as lattices, one could either assume that prelattices have top a
 
 * [[preorder]]
 
+* [[total preorder]]
+
 * [[Heyting prealgebra]]
 
 [[!redirects prelattice]]
