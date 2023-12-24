@@ -27,6 +27,10 @@ And here's the esh $&#643;$ (see [here](http://nforum.ncatlab.org/discussion/459
 
 ## Selected writings
 
+On [[higher inductive types]]:
+
+* {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Semantics of higher inductive types*, Math. Proc. Camb. Phil. Soc. **169** (2020) 159-208 &lbrack;[arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf), [doi:10.1017/S030500411900015X](https://doi.org/10.1017/S030500411900015X)&rbrack;
+
 On [[modal type theory]]:
 
 * [[Mike Shulman]], _Semantics of multimodal adjoint type theory_ ([arXiv:2303.02572](https://arxiv.org/abs/2303.02572)) 
