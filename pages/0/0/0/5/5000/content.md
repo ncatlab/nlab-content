@@ -25,7 +25,9 @@ We should limit to books which we can really recommend, either by their special 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
 * Ravi Vakil's Stanford [course notes](http://math.stanford.edu/~vakil/0708-216)
 * William Fulton, _Intersection theory_, Springer 1984
-* Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic geometry I. Schemes with examples and exercises_, Advanced Lectures in Mathematics. Vieweg + Teubner, Wiesbaden, 2010. viii+615 pp. [Springerlink book](http://www.springerlink.com/content/kt5u74/#section=748613&page=1)
+* Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic Geometry I: Schemes_ With Examples and Exercises, 2nd Edition,
+Springer Studium Mathematik - Master, 
+Springer Nature, 2020.
 
 ## Grothendieck school sources
 
@@ -94,7 +96,10 @@ With the collaboration of C. H. Clemens and A. Corti. Translated from the 1998 J
 * ...list basic literature on [[motive]]s 
 * [[Marc Levine]], _Mixed motives_, Math. Surveys and Monographs __57__, Amer. Math. Soc.  1998, free [pdf](http://www.ams.org/online_bks/surv57/surv57.pdf)
 * F. Hirzebruch, _Topological methods in algebraic geometry_
-
+* Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic Geometry II: Cohomology of Schemes_
+With Examples and Exercises,
+Springer Studium Mathematik - Master,
+Springer Nature, 2023.
 
 ## Modern extensions of scheme theory
 
@@ -124,7 +129,6 @@ While many of these fine books are still pleasure for some readers, they do not 
 
 category: reference
 
-[[!redirects books in algebraic geometry]]
 [[!redirects book in algebraic geometry]]
 [[!redirects books on algebraic geometry]]
 [[!redirects book on algebraic geometry]]
