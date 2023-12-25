@@ -33,7 +33,7 @@ The type theory has [[judgments]]
 
 * $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
 
-and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are [[linearly ordered]] with strict order $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
+and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
 
 This allows us to add an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every index $i$, indicating that $A$ is a type with level $i$, as well as [[term]] judgments $a:A$. Then, one has the following [[inference rules]] for Coquand universes: 
 
