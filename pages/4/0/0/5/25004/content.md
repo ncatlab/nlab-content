@@ -1,52 +1,45 @@
 
-
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-### Context
-#### $(0,1)$-Category theory
-+-- {: .hide}
-[[!include (0,1)-category theory - contents]]
-=--
-=--
-=--
-
-\tableofcontents
-
 ## Idea
 
-A strict order is a [[strict total order]] which is not a [[connected relation]]. Strict orders are used in models of the real numbers which have [[infinitesimals]], such as in the smooth real numbers in [[synthetic differential geometry]], and thus where not every real number not greater than or less than zero is equal to zero. 
+In [[order theory]], there are usually two different versions of an order relation, a [[reflexive relation|reflexive]] version which is usually referred to as a **reflexive order**, **weak order**, or **non-strict order** and an [[irreflexive relation|irreflexive]] version which is usually referred to as an **irreflexive order**, **strong order**, or **strict order**. Examples include:
 
-## Definition
+* [[preorder]], [[strict preorder]]
 
-A strict order is a binary relation $\lt$ on a set $S$ which is irreflexive, asymmetric, transitive, and a comparison:
+* [[partial order]], [[strict partial order]]
 
-1. for all $a \in S$, $\neg(a \lt a)$ 
+* [[total order]], [[strict total order]]
 
-2. for all $a \in S$ and $b \in S$, if $a \lt b$, then $\neg(b \lt a)$
+* [[weak order]], [[strict weak order]]
 
-3. for all $a \in S$, $b \in S$, and $c \in S$, if $a \lt b$ and $b \lt c$, then $a \lt c$
+* [[linear order]], [[strict linear order]]
 
-4. for all $a \in S$, $b \in S$, and $c \in S$, if $a \lt c$, then $a \lt b$ or $b \lt c$
+## References
 
-## Properties
+* Wikipedia, [Preorder](https://en.wikipedia.org/wiki/Preorder)
 
-The negation of a strict order is a [[preorder]] $a \leq b \coloneqq \neg(b \lt a)$, and thus has an [[equivalence relation]] defined as $a \approx b \coloneqq a \leq b \wedge b \leq a$. Every strict order which is also a [[linear relation]] is a [[strict total order]], whose negation is a [[partial order]]. Thus, in any foundations with [[quotient sets]], every strict order can be made into a strict total order by taking the quotient with respect to the equivalence relation $S/\approx$. 
+* Wikipedia, [Partial order](https://en.wikipedia.org/wiki/Partial_order)
 
-## See also
+* Wikipedia, [Total order](https://en.wikipedia.org/wiki/Total_order)
 
-* [[strict total order]]
+* Wikipedia, [Weak order](https://en.wikipedia.org/wiki/Weak_order)
 
-* [[strictly ordered ring]]
+category: disambiguation
 
-* [[ordered local ring]]
+[[!redirects reflexive order]]
+[[!redirects reflexive orders]]
+[[!redirects reflexive ordering]]
+[[!redirects reflexive orderings]]
+[[!redirects reflexively ordered]]
+[[!redirects reflexively ordered set]]
+[[!redirects reflexively ordered sets]]
 
-* [[ordered Kock field]]
-
-## References
-
-Strict orders are used in defining the smooth real numbers in:
-
-* [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
+[[!redirects irreflexive order]]
+[[!redirects irreflexive orders]]
+[[!redirects irreflexive ordering]]
+[[!redirects irreflexive orderings]]
+[[!redirects irreflexively ordered]]
+[[!redirects irreflexively ordered set]]
+[[!redirects irreflexively ordered sets]]
 
 [[!redirects strict order]]
 [[!redirects strict orders]]
@@ -55,3 +48,19 @@ Strict orders are used in defining the smooth real numbers in:
 [[!redirects strictly ordered]]
 [[!redirects strictly ordered set]]
 [[!redirects strictly ordered sets]]
+
+[[!redirects non-strict order]]
+[[!redirects non-strict orders]]
+[[!redirects non-strict ordering]]
+[[!redirects non-strict orderings]]
+[[!redirects non-strictly ordered]]
+[[!redirects non-strictly ordered set]]
+[[!redirects non-strictly ordered sets]]
+
+[[!redirects strong order]]
+[[!redirects strong orders]]
+[[!redirects strong ordering]]
+[[!redirects strong orderings]]
+[[!redirects strongly ordered]]
+[[!redirects strongly ordered set]]
+[[!redirects strongly ordered sets]]
