@@ -38,9 +38,9 @@ Using [[excluded middle]], these are equivalent to asymmetry and connectedness a
 
 Actually, these axioms are overkill; to begin with, irreflexivity is simply a special case of asymmetry and so can be dropped.  Additionally, one can either drop transitivity or drop asymmetry (which then requires keeping irreflexivity); they will still follow from the other axioms.  Dropping transitivity shows manifestly the duality (see below) between strict total orders and total orders (even in constructive mathematics), and dropping asymmetry shows that a strict total order is a special kind of [[connected irreflexive comparison]]. Keeping transitivity and irreflexivity (thus allowing one to drop asymmetry) shows manifestly that a strict total order is a special kind of [[quasiorder]].
 
-In classical mathematics, there are even more options.  Now comparison can be dropped, as it follows from transitivity and connectedness.  Also, one often combines irreflexivity, asymmetry, and connectedness into a single axiom using [[exclusive disjunction]]:
+In classical mathematics, there are even more options.  Now comparison can be dropped, as it follows from transitivity and connectedness.  Also, one often combines irreflexivity, asymmetry, and connectedness into a single axiom:
 
-* [[trichotomy]]: $x \lt y$ xor $y \lt x$ xor $x = y$.
+* [[trichotomy]]: exactly one of $x \lt y$, $y \lt x$, $x = y$ is true.
 
 Thus the most common definition uses only trichotomy and transitivity.
 
