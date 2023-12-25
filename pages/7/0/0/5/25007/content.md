@@ -17,11 +17,11 @@
 
 ## Idea
 
-A notion of [[ordered ring]] for [[strict orders]] which are not necessarily [[connected relation|connected]]. 
+A notion of [[ordered ring]] for [[strict weak orders]]. 
 
 ## Definition
 
-A strictly ordered ring is an [[ring]] $R$ with a [[strict order]] $\lt$ such that 
+A strictly weakly ordered ring is an [[ring]] $R$ with a [[strict weak order]] $\lt$ such that 
 
 * $0 \lt 1$
 
@@ -31,15 +31,15 @@ A strictly ordered ring is an [[ring]] $R$ with a [[strict order]] $\lt$ such th
 
 ## Properties
 
-Every strictly ordered ring is a [[preordered ring]] given by the [[negation]] of the strict order. In the presence of [[excluded middle]], every strictly ordered ring is a [[total order|totally preordered]] ring. 
+Every strictly weakly ordered ring is a [[preordered ring]] given by the [[negation]] of the strict weak order. In the presence of [[excluded middle]], every strictly weakly ordered ring is a [[total order|totally preordered]] ring. 
 
 ## Examples
 
-* Every [[pseudo-ordered ring]] is a strictly ordered ring. 
+* Every [[pseudo-ordered ring]] is a strictly weakly ordered ring. 
 
-* Every [[ordered local ring]] is a strictly ordered ring where every element greater than zero or less than zero is invertible.
+* Every [[ordered local ring]] is a strictly weakly ordered ring where every element greater than zero or less than zero is invertible.
 
-* Every [[ordered Kock field]] is a example of a strictly ordered ring which in the presence of [[excluded middle]] is a [[linearly ordered ring]]. 
+* Every [[ordered Kock field]] is a example of a strictly weakly ordered ring which in the presence of [[excluded middle]] is a [[linearly ordered ring]]. 
 
 ## See also
 
@@ -47,5 +47,5 @@ Every strictly ordered ring is a [[preordered ring]] given by the [[negation]] o
 
 * [[ordered Kock field]]
 
-[[!redirects strictly ordered ring]]
-[[!redirects strictly ordered rings]]
+[[!redirects strictly weakly ordered ring]]
+[[!redirects strictly weakly ordered rings]]
