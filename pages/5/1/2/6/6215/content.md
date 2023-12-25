@@ -5,6 +5,9 @@
 
 On [[n-plectic geometry|$n$-plectic]] formulation of [[Einstein-Maxwell theory]]:
 
+* [[Petr Hořava]], *Covariant Hamilton-Jacobi Equation for Pure Gravity*, Institute of Physics, Czechoslovak Academy of Sciences, PRA-HEP-90/4 (1990) &lbrack;[arXiv:2312.14412](https://arxiv.org/abs/2312.14412)&rbrack;
+
+
 * [[Petr Hořava]], _On a covariant Hamilton-Jacobi framework for the Einstein-Maxwell theory_ Classical and Quantum Gravity **8** 11 (1991) 2069 &lbrack;[doi:10.1088/0264-9381/8/11/016](https://iopscience.iop.org/article/10.1088/0264-9381/8/11/016)&rbrack;
 
 
