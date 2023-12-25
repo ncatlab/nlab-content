@@ -35,7 +35,7 @@ Every strictly ordered ring is a [[preordered ring]] given by the [[negation]] o
 
 ## Examples
 
-* Every [[strict linearly ordered ring]] is a strictly ordered ring. 
+* Every [[pseudo-ordered ring]] is a strictly ordered ring. 
 
 * Every [[ordered local ring]] is a strictly ordered ring where every element greater than zero or less than zero is invertible.
 
