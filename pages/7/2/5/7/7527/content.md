@@ -1,7 +1,7 @@
 
 > Not to be confused with [[Dana Scott]].
 
-Philip Scott (1947? - 2023) was Professor of Mathematics at University of Ottawa, with research interests in [[formal logic]], [[category theory]], [[foundations]] of mathematics and computing, and in theoretical [[computer science]]. His monograph [Lambek & Scott 1986](#LambekScott86) laid the foundation of modern [[categorical logic]].
+Philip Scott (1947 - 2023) was Professor of Mathematics at University of Ottawa, with research interests in [[formal logic]], [[category theory]], [[foundations]] of mathematics and computing, and in theoretical [[computer science]]. His monograph [Lambek & Scott 1986](#LambekScott86) laid the foundation of modern [[categorical logic]].
 
 * [homepage](http://www.site.uottawa.ca/~phil/)
 
