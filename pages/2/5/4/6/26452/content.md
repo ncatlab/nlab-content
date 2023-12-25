@@ -28,6 +28,6 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Archimedean ordered fields]] | $X \mapsto \mathcal{C}(X)$ where $\mathcal{C}(X)$ is the quotient of [[Cauchy sequences]] in the Archimedean ordered field $X$ | The [[HoTT book real numbers]] $\mathbb{R}_H$ | The [[Dedekind real numbers]] $\mathbb{R}$ | These are the same objects in the presence of [[excluded middle]] or [[countable choice]].| |
 Any [[category]] | The [[constant functor]] $X \mapsto A$ given object $A$ | $A$ | $A$ | |
 Any [[category]] | The [[identity functor]] $X \mapsto X$ | [[initial object]] | [[terminal object]] | |
-Any [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric]] [[distributive monoidal category]] | $X \mapsto I \sqcup X$ given [[tensor unit]] $I$ and [[coproduct]] $\sqcup$ | [[natural numbers object]] | ? | |
-Any [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric]] [[distributive monoidal category]] | $X \mapsto I \sqcup (A \otimes X)$ given [[tensor unit]] $I$, [[tensor product]] $\otimes$, [[coproduct]] $\sqcup$, and object $A$ | [[tensor algebra]] over $A$ | [[cofree coalgebra]] over $A$ |  |
+Any [[extensive category]] | $X \mapsto 1 + X$ given [[terminal object]] $1$ and [[coproduct]] $+$ | [[natural numbers object]] | ? | |
+Any [[closed monoidal category|closed]] [[abelian category]] | $X \mapsto I \sqcup (A \otimes X)$ given [[tensor unit]] $I$, [[tensor product]] $\otimes$, [[coproduct]] $\sqcup$, and object $A$ | [[tensor algebra]] of $A$ | [[cofree coalgebra]] over $A$ |  |
 [[Infinity-Grpd|$\infty$-Grpd]] | $X \mapsto \Sigma X$ | [[sphere spectrum]] $\mathbb{S}$ | ? |  |
