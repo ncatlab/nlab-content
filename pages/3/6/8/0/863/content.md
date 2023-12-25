@@ -13,13 +13,15 @@
 
 ## Idea
 
-A *pseudo-order* (also called *strict total order* or *strict linear order*) is the irreflexive version of a [[total order]].  A **pseudo-ordered set** is a [[set]] equipped with a pseudo-order.
+A *pseudo-order* or *strict total order* or *strict linear order* is the irreflexive version of a [[total order]]. This is sometimes called *linear order*, but [[linear order]] is also used to refer to the non-strict [[total order]]. 
 
-In [[classical mathematics]], the distinction between pseudo-orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of pseudo-orders on $S$, and one distinguishes them by the notation $\lt$ (for the pseudo-order) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
+A **pseudo-ordered set** or **strictly totally ordered set** is a [[set]] equipped with a pseudo-order.
+
+In [[classical mathematics]], the distinction between strict total orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of strict total orders on $S$, and one distinguishes them by the notation $\lt$ (for the strict total orders) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
 
 ## Definitions
 
-A **pseudo-order** on a set $S$ is a (binary) [[relation]] $\lt$ with the following properties:
+A **pseudo-order** or **strict total order** on a set $S$ is a (binary) [[relation]] $\lt$ with the following properties:
 
 * [[irreflexive relation|irreflexivity]]: $x \nless x$;
 * [[asymmetric relation|asymmetry]]: if $x \lt y$, then $y \nless x$;
