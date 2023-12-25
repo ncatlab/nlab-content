@@ -176,7 +176,7 @@ In particular this means that:
 \begin{proposition}\label{model}
 **(Reedy model structure)**
 \linebreak
-The classes of morphisms in Def. \ref{ReedyModelStructure} consistute a [[model category]]-[[structure]] on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$, called the *Reedy model structure*.
+The classes of morphisms in Def. \ref{ReedyModelStructure} constitute a [[model category]]-[[structure]] on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$, called the *Reedy model structure*.
 \end{proposition}
 (e.g. [Hovey (1999), Thm. 5.2.5](#Hovey99); [Hirschhorn (2002), Thm 15.3.4](#Hirschhorn02))
 
