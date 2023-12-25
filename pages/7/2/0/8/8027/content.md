@@ -159,6 +159,12 @@ Proof of the AGT conjecture in special cases:
 
 * Qing-Jie Yuan, Shao-Ping Hu, Zi-Hao Huang, Kilar Zhang, *A proof of An AGT conjecture at $\beta = 1$* &lbrack;[arXiv:2305.11839](https://arxiv.org/abs/2305.11839)&rbrack;
 
+See also:
+
+* Leszek Hadasz, Błażej Ruba, *Decomposition of $\widehat{sl}_{2,k} \otimes \widehat{sl}_{2,1}$
+highest weight representations for generic level $k$ and equivalence between two dimensional CFT models* &lbrack;[arXiv:2312.14695](https://arxiv.org/abs/2312.14695)&rbrack;
+
+
 
  
 
