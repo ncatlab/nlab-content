@@ -111,7 +111,7 @@ For more about apartness algebra, see [[antisubalgebra]].
 
 * [[denial inequality]]
 
-* [[linear order]]
+* [[strict total order]]
 
 ## References
 
