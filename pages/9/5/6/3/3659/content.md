@@ -29,7 +29,7 @@ In this sense the Osterwalder--Schrader theorem states and proves conditions tha
 ## Axioms of euclidean field theory
 
 The axioms of euclidean field theory are the euclidean analogue of the [[Wightman axioms]] on Minkowski spacetime.
-The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $\mathcal{D}(\mathbb{R}^d)$. In the original paper of Osterwalder and Schrader the axioms are given in terms of the Schwinger functions. Here the axioms given in a form more directly related to the measure on field space and its characteristic function, rather than the Schwinger functions themselves. This form was first presented by Fr&#246;hlich.
+The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $\mathcal{D}(\mathbb{R}^d)$. In the original paper of Osterwalder and Schrader the axioms are given in terms of the Schwinger functions. Here the axioms are given in a form more directly related to the measure on field space and its characteristic function, rather than the Schwinger functions themselves. This form was first presented by Fr&#246;hlich.
 We define the generating functional on $\mathcal{D}(\mathbb{R}^d)$
 $$
 S(f) := \integral e^{i \phi(f)} d\mu
