@@ -68,6 +68,8 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 
 * [[total preorder]]
 
+* [[linear order]]
+
 ## References
 
 Total orders are defined in the section of chapter 3 titled "Chains":
@@ -82,16 +84,6 @@ Total orders are defined in the section of chapter 3 titled "Chains":
 [[!redirects totally ordered sets]]
 [[!redirects total ordering]]
 [[!redirects totally ordered]]
-
-[[!redirects linear order]]
-[[!redirects linear orders]]
-[[!redirects linear ordering]]
-[[!redirects linear orderings]]
-[[!redirects linearly ordered]]
-[[!redirects linearly ordered set]]
-[[!redirects linearly ordered sets]]
-[[!redirects loset]]
-[[!redirects losets]]
 
 [[!redirects chain order]]
 [[!redirects chain orders]]
