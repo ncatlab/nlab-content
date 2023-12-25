@@ -82,7 +82,7 @@ Keep in mind, however, that the only use of [[excluded middle]] in the classical
 ## See also
 
 * [[total order]]
-* [[strict order]]
+* [[strict weak order]]
 * [[strict preorder]]
 * [[trichotomous relation]]
 
