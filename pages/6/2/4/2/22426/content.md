@@ -100,7 +100,11 @@ The Mallows kernel (eq:MallowsKernel) is [[positive definite bilinear form|posit
 
 * [[Cayley distance]]
 
-* [[Mallows kernel]], [[Cayley distance kernel]]
+* [[Mallows kernel]], 
+ 
+  [[Cayley distance kernel]]
+
+  [[Markov kernel]]
 
 * [[kernel method]]
 
