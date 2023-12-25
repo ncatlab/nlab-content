@@ -70,6 +70,10 @@ On [[string structures]] seen as a kind of [[spin structures]] after [[transgres
 
 * [[Konrad Waldorf]], *String structures and loop spaces*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12998](https://arxiv.org/abs/2312.12998)&rbrack;
 
+On [[Donaldson-Witten theory]]:
+
+* [[Jan Manschot]], *Four-Manifold Invariants and Donaldson-Witten Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14709](https://arxiv.org/abs/2312.14709)&rbrack;
+
 
 (...)
 
