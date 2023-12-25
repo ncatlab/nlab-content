@@ -17,7 +17,7 @@ If the relation $\leq$ is only a [[preorder]], then the ring $R$ is said to be a
 
 * [[totally ordered ring]]
 
-* [[strictly ordered rings]]
+* [[pseudo-ordered rings]]
 
 * [[ordered field]]
 
