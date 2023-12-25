@@ -79,7 +79,7 @@ See [[Cauchy real number]] and [[generalized Cauchy real number]] for more.
 There is an algebraic (more or less) characterisation of the real line as the 'initial sequentially modulated Cauchy complete archimedean field'.  This can be interpreted as follows:
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
-*  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
+*  An __ordered field__ means a *[[strict total order|strictly totally]]* ordered field.
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
 *  An archimedean field is __[[sequentially modulated Cauchy complete]]__ if all [[Cauchy sequences]] in the field with a $\mathbb{N}$-[[modulus of convergence]] [[converge]].
 *  A sequentially modulated Cauchy complete archimedean field is __initial__ if it is an [[initial object]] in the category of sequentially modulated Cauchy complete archimedean fields.
