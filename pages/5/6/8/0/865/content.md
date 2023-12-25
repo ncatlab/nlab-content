@@ -24,10 +24,10 @@ An **order** on a set $S$ is (usually) a binary [[relation]] that is, at the ver
 Actually, there are several different notions of order that are each useful in their own ways:
 
 * [[direction]]
-* [[linear order]]
+* [[strict total order]]
 * [[partial order]]
 * [[preorder]]
-* [[quasiorder]]
+* [[strict preorder]]
 * [[total order]]
 * [[well-order]]
 
