@@ -57,7 +57,7 @@ $$
 is an element in $^*\mathbb{R}$ and this gives an [[injection]] $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$. 
 
 
-$^*\mathbb{R}$ is equipped with a linear ordering given by
+$^*\mathbb{R}$ is equipped with a strict total ordering given by
 
 $$
 f_F\lt g_F \;\Leftrightarrow\; \{i\in\mathbb{N}|f(i)\lt g(i)\}\in F,
