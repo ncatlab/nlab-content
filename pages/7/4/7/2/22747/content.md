@@ -29,7 +29,7 @@ Every [[localization of a commutative ring|localization]] of the integral domain
 
 ## Related concepts
 
-* [[strict linearly ordered ring]]
+* [[pseudo-ordered ring]]
 
 * [[ordered field]]
 
