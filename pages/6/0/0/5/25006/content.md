@@ -43,7 +43,7 @@ Pseudo-ordered rings may have [[zero divisors]]. The pseudo-ordered rings which 
 
 ## See also
 
-* [[strictly ordered ring]]
+* [[strictly weakly ordered ring]]
 * [[partially ordered ring]]
 * [[totally ordered ring]]
 * [[ordered integral domain]]
