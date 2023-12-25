@@ -2876,7 +2876,7 @@ For discussion of these numbers $\left\vert sYT_n(N) \right\vert$ see [there](se
 
 ## Related concepts
 
-* [[Mallows kernel]], [[Kendall kernel]]
+* [[Mallows kernel]], [[Kendall kernel]], [[Markov kernel]]
 
 * [[kernel method]]
 
