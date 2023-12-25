@@ -21,3 +21,5 @@ Of course, this containment is in fact an equality.
 An asymmetric relation is necessarily [[irreflexive relation|irreflexive]].
 
 [[!redirects asymmetric]]
+[[!redirects asymmetric relation]]
+[[!redirects asymmetric relations]]
