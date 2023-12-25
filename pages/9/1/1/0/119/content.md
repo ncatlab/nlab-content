@@ -27,7 +27,7 @@
 
 ## Idea 
 
-A preorder (also sometimes called a _[[quasi-order]]_, especially if one works with $\lt$ instead of $\leq$) is like a [[partial order]], but without the "antisymmetry" requirement that $x \leq y$ and $y \leq x$ implies $x = y$.
+A *preorder* or a *quasi-order* is like a [[partial order]], but without the "antisymmetry" requirement that $x \leq y$ and $y \leq x$ implies $x = y$.
 
 By interpreting the relation $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]).  This category is sometimes called the _preorder category_ associated to a preorder; see below for details.
 
@@ -35,7 +35,7 @@ By interpreting the relation $\leq$ as the existence of a unique [[morphism]], p
 
 ### As a set with a relation ###
 
-A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.  (This should not be confused with a [[pro-set]], i.e. a [[pro-object]] in [[Set]].)
+A **preorder** or **quasiorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder. (This should not be confused with a [[pro-set]], i.e. a [[pro-object]] in [[Set]].)
 
 ### As a graph ###
 
@@ -186,8 +186,6 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 [[Cauchy completion]] for preorders is discussed in 
 
 * {#Rosolini} G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://rivista.math.unipr.it/fulltext/1999-2s/06.pdf))
- 
-
 
 [[!redirects preorder]]
 [[!redirects preorders]]
@@ -205,3 +203,19 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 [[!redirects preorder category]]
 [[!redirects preorder categories]]
+
+[[!redirects quasiorder]]
+[[!redirects quasiorders]]
+[[!redirects quasi-order]]
+[[!redirects quasi-orders]]
+[[!redirects quasiordering]]
+[[!redirects quasiorderings]]
+[[!redirects quasi-ordering]]
+[[!redirects quasi-orderings]]
+
+[[!redirects quasiordered set]]
+[[!redirects quasiordered sets]]
+[[!redirects quasi-ordered set]]
+[[!redirects quasi-ordered sets]]
+[[!redirects quoset]]
+[[!redirects quosets]]
