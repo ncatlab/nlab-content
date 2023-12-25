@@ -1,7 +1,7 @@
 
 ## Idea
 
-In [[order theory]], there are usually two different versions of an order relation, a [[reflexive relation|reflexive]] version which is usually referred to as a **reflexive order**, **weak order**, or **non-strict order** and an [[irreflexive relation|irreflexive]] version which is usually referred to as an **irreflexive order**, **strong order**, or **strict order**. Examples include:
+In [[order theory]], there are usually two different versions of an order relation, a [[reflexive relation|reflexive]] version which is usually referred to as a **reflexive order** or **non-strict order** and an [[irreflexive relation|irreflexive]] version which is usually referred to as an **irreflexive order**, **strong order**, or **strict order**. Examples include:
 
 * [[preorder]], [[strict preorder]]
 
