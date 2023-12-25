@@ -29,7 +29,7 @@ To prove this, it\'s enough to see that the properties of a strict total preorde
 
 In [[classical mathematics]], the distinction between total preorders and strict total preorders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total preorders on a given set $S$ and the set of strict total preorders on $S$, and one distinguishes them by their notation. 
 
-In [[constructive mathematics]], however, they are irreducibly different. To be specific, if one starts with a total preorder $\leq$ and defines $\lt$ as above, then comparison does not follow; and if one starts with a strict total preorder $\lt$ and defines $\leq$ as above, then totality does not follow. Nevertheless, at least $\leq$ will be a [[preorder]], and least $\lt$ will be a [[quasiorder]]. 
+In [[constructive mathematics]], however, they are irreducibly different. To be specific, if one starts with a total preorder $\leq$ and defines $\lt$ as above, then comparison does not follow; and if one starts with a strict total preorder $\lt$ and defines $\leq$ as above, then totality does not follow. Nevertheless, at least $\leq$ will be a [[preorder]], and least $\lt$ will be a [[strict preorder]]. 
 
 ## Examples
 
@@ -48,6 +48,10 @@ More generally, any [[ordered local ring]] with strict order $\lt$ has a total p
 * [[total relation]]
 
 * [[total order]]
+
+## References
+
+* Wikipedia, *[Total preorder](https://en.wikipedia.org/wiki/Total_preorder)*
 
 [[!redirects total preorder]]
 [[!redirects total preorders]]
