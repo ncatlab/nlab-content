@@ -35,7 +35,7 @@ Also beware that in [[category theory]] the term 'finite object' is also used in
  {#Definitions}
 
 Consider an ambient [[topos]] $\mathcal{T}$. 
-Assume that $\mathcal{T}$ is equipped with a [[natural numbers object]] $N$. Write $N_{\lt} \hookrightarrow N\times N$ for its strict order relation.  
+Assume that $\mathcal{T}$ is equipped with a [[natural numbers object]] $N$. Write $N_{\lt} \hookrightarrow N\times N$ for its [[strict total order]] relation.  
 
 
 ### External version   
