@@ -17,11 +17,11 @@
 
 ## Idea
 
-A notion of [[ordered ring]] for [[strict total orders]]. 
+A notion of [[ordered ring]] for [[pseudo-orders]]/[[strict total orders]]. 
 
 ## Definition
 
-A strict totally ordered ring is an [[ring]] $R$ with a [[strict total order]] $\lt$ such that 
+A **pseudo-ordered ring** or a **strictly totally ordered ring** is an [[ring]] $R$ with a [[pseudo-order]]/[[strict total order]] $\lt$ such that 
 
 * $0 \lt 1$
 
@@ -31,13 +31,13 @@ A strict totally ordered ring is an [[ring]] $R$ with a [[strict total order]] $
 
 ## Properties
 
-Every strict totally ordered ring is a [[partially ordered ring]] given by the [[negation]] of the strict total order. In the presence of [[excluded middle]], every strict totally ordered ring is a [[totally ordered ring]]. 
+Every pseudo-ordered ring is a [[partially ordered ring]] given by the [[negation]] of the strict total order. In the presence of [[excluded middle]], every pseudo-ordered ring is a [[totally ordered ring]]. 
 
-Strict totally ordered rings may have [[zero divisors]]. The strict linearly ordered rings which do not have zero divisors are [[ordered integral domains]]. 
+Pseudo-ordered rings may have [[zero divisors]]. The pseudo-ordered rings which do not have zero divisors are [[ordered integral domains]]. 
 
 ## Examples
 
-* the integers are a strict totally ordered ring
+* the integers are a pseudo-ordered ring
 
 * the [[Dedekind real numbers]] are a totally ordered ring which in constructive mathematics cannot be proved to be a [[totally ordered ring]]. 
 
@@ -48,6 +48,9 @@ Strict totally ordered rings may have [[zero divisors]]. The strict linearly ord
 * [[totally ordered ring]]
 * [[ordered integral domain]]
 * [[ordered field]]
+
+[[!redirects pseudo-ordered ring]]
+[[!redirects pseudo-ordered rings]]
 
 [[!redirects strict totally ordered ring]]
 [[!redirects strict totally ordered rings]]
