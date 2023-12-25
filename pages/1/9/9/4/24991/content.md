@@ -2,7 +2,7 @@
 
 ## Idea
 
-In the same way that a [[local ring]] is a [[Heyting field]] whose [[apartness relation]] is not [[tight apartness relation|tight]], an ordered local ring is an [[ordered field]] whose [[strict order]] is not necessarily [[linear relation|linear]]. 
+In the same way that a [[local ring]] is a [[Heyting field]] whose [[apartness relation]] is not [[tight apartness relation|tight]], an ordered local ring is an [[ordered field]] whose [[strict order]] is not necessarily [[connected relation|connected]]. 
 
 ## Definition
 
