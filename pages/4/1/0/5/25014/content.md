@@ -17,7 +17,7 @@
 
 ## Idea
 
-The *common* meaning of "an inequality" in [[mathematics]] is the statement that a given [[pair]] of expressions, $x, y$, with values in some [[linear order|linearly ordered]] [[set]] of [[numbers]] (such as [[natural number|natural]], [[rational numbers|rational]] or [[real numbers]]) are in ordered [[relation]] to each other, such as 
+The *common* meaning of "an inequality" in [[mathematics]] is the statement that a given [[pair]] of expressions, $x, y$, with values in some [[strictly totally ordered]] [[set]] of [[numbers]] (such as [[natural number|natural]], [[rational numbers|rational]] or [[real numbers]]) are in ordered [[relation]] to each other, such as 
 
 $$
   x \lt y
@@ -39,7 +39,7 @@ $$
 
 whence the terminology. But, of course, there are other ways in which a pair of expressions can be "in-equal"; see at *[Inequality relations](#InequalityRelations)* below.
 
-On the other hand, in practice one also calls the relation
+On the other hand, in practice one also calls the non-strict [[total order]]
 
 $$
   x \leq y
@@ -67,7 +67,6 @@ an "inequality". Many famous inequalities are of this form (starting with the [[
 * [[Grothendieck's inequality]]
 
 * [[Bell's inequality]]
-
 
 ## Inequality relations
  {#InequalityRelations}
