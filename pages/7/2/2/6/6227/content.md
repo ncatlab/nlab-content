@@ -123,7 +123,7 @@ A survey of entropy in [[operator algebra]]s is in
 
 A characterization of [[machine learning]] as a process minimizing [[relative entropy]] is proposed in
 
-* {AckleyHintonSejnowski} David H. Ackley, Geoffrey E. Hilton, Terrence J. Sejnowski. _A learning algorithm for Boltzmann machines_, Cognitive Science, **9** (1985), 147–169. ([web](https://www.sciencedirect.com/science/article/abs/pii/S0364021385800124)) 
+* {#AckleyHintonSejnowski} David H. Ackley, Geoffrey E. Hilton, Terrence J. Sejnowski. _A learning algorithm for Boltzmann machines_, Cognitive Science, **9** (1985), 147–169. ([web](https://www.sciencedirect.com/science/article/abs/pii/S0364021385800124)) 
 
 [[!redirects relative entropy]]
 [[!redirects relative entropies]]
