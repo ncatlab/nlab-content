@@ -57,9 +57,9 @@ $$x + y = 1 \vdash (\exists z.x \cdot z = 1) \vee (\exists z.y \cdot z = 1)$$
 
 * The theory of a [[strict total order]] is not coherent if we use the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas. We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. In [[classical mathematics]], there is another solution, to use the "[[trichotomy]]" axiom $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$ instead, in order to get an axiomatisation of "coherent" strict total orders. However, in [[constructive mathematics]], strict total orders are in general not trichotomous, so this solution cannot be used. 
 
-* The theory of a [[strict order]] is coherent, since it doesn't have the connectedness axiom that [[strict total orders]] do. The irreflexivity axiom is expressed as $(x\lt x)\vdash \bot$, and the asymmetry axiom is expressed as $(x \lt y) \wedge (y \lt x) \vdash \bot$. 
+* The theory of a [[strict weak order]] is coherent, since it doesn't have the connectedness axiom that [[strict total orders]] do. The irreflexivity axiom is expressed as $(x\lt x)\vdash \bot$, and the asymmetry axiom is expressed as $(x \lt y) \wedge (y \lt x) \vdash \bot$. 
 
-* Since the theory of a [[local ring]] and a [[strict order]] is coherent, this means that the theory of an [[ordered local ring]] is also coherent, where we have 
+* Since the theory of a [[local ring]] and a [[strict weak order]] is coherent, this means that the theory of an [[ordered local ring]] is also coherent, where we have 
 $$(x \lt y) \vee (y \lt x) \vdash \exists z.y \cdot z = 1 + x \cdot z$$ 
 and 
 $$\exists z.x \cdot z = 1 \vdash (0 \lt x) \vee (x \lt 0)$$
