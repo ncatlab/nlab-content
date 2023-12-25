@@ -19,3 +19,5 @@ $$R \cap R^{op} \subseteq \empty$$
 Of course, this containment is in fact an equality.
 
 An asymmetric relation is necessarily [[irreflexive relation|irreflexive]].
+
+[[!redirects asymmetric]]
