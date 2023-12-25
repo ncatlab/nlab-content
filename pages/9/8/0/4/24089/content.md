@@ -18,15 +18,31 @@
 * table of contents
 {: toc}
 
-## Definition ##
+## Definition 
 
-A [[graph|directed loop graph]] is **dense** if for every [[pair]] of [[vertices]] $a:V$ and $b:V$ with an [[edge]] $a \to b$, there exists a vertex $c:V$ with edges $a \to c$ and $c \to b$. 
+A [[binary endorelation]] $R$ on a set $A$ is **dense** if for all $x \in A$ and $y \in A$ such that $R(x, y)$ there exists an element $z \in A$ such that $R(x, z)$ and $R(z, y)$. Equivalently, a binary relation $R$ on $A$ is dense if $R$ is a [[subset]] of the composite $R \circ R$ in [[Rel]], $R \subseteq R \circ R$. 
 
-A [[binary endorelation]] is **dense** if it is the edge relation of a dense directed loop graph. 
+In the [[graph theory|graph theoretic]] representation of relations as (directed loop) [[graphs]], a graph is **dense** if for every [[pair]] of [[vertices]] $a:V$ and $b:V$ with an [[edge]] $a \to b$, there exists a vertex $c:V$ with edges $a \to c$ and $c \to b$. 
 
-## See also ##
+## Examples
+
+* Every [[reflexive relation]] is a dense relation
+
+* Every (left or right) [[Euclidean relation]] is a dense relation
+
+* An [[idempotent relation]] is a dense transitive relation
+
+## Generalizations
+
+The notion of dense relation in [[Rel]] can in theory be generalized to the notion of a *dense* [[morphism]] of an arbitrary [[2-poset]]: Given a 2-poset $C$ and an object $A \in \mathrm{Ob}(C)$, a morphism $R \in \mathrm{Hom}(A, A)$ is dense if $R \leq R \circ R$. 
+
+## Related concepts
 
 * [[DLO]]
+
+* [[dense]]
+
+* [[transitive relation]]
 
 ## References
 
@@ -34,12 +50,12 @@ See also:
 
 * Wikipedia, *[Dense order -- Generalizations](https://en.wikipedia.org/wiki/Dense_order#Generalizations)*
 
-[[!redirects dense directed loop graph]]
-[[!redirects dense directed loop graphs]]
-
 [[!redirects dense relation]]
 [[!redirects dense relations]]
 [[!redirects dense binary relation]]
 [[!redirects dense binary relations]]
 [[!redirects dense binary endorelation]]
 [[!redirects dense binary endorelations]]
+
+[[!redirects dense directed loop graph]]
+[[!redirects dense directed loop graphs]]
