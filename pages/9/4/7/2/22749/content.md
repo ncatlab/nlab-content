@@ -4,7 +4,7 @@
 
 ## Idea
 
-Just as [[preorders]] generalise [[equivalence relations]] and [[total orders]], _irreflexive comparisons_ should generalise [[apartness relations]] and [[linear orders]]
+Just as [[preorders]] generalise [[equivalence relations]] and [[total orders]], _irreflexive comparisons_ should generalise [[apartness relations]] and [[strict total orders]]
 
 ## Definitions
 
@@ -19,7 +19,7 @@ If the set is an [[inequality space]], then an irreflexive comparison is __stron
 
 If an irreflexive comparison satisfies symmetry (if $x \lt y$ then $y \lt x$ then it is an [[apartness relation]]. 
 
-If a connected irreflexive relation is also symmetric (if $x \lt y$, then $y \lt x$), then it is a [[tight apartness relation]], and if it is transitive (if $x \lt y$ and $y \lt z$, then $x \lt z$), then it is a [[linear order]]. 
+If a connected irreflexive relation is also symmetric (if $x \lt y$, then $y \lt x$), then it is a [[tight apartness relation]], and if it is transitive (if $x \lt y$ and $y \lt z$, then $x \lt z$), then it is a [[strict total order]]. 
 
 Thus, irreflexive comparisons are dual to [[preorders]] while connected irreflexive comparisons are dual to [[partial orders]]. 
 
@@ -33,7 +33,7 @@ A [[set]] $S$ equipped with an irreflexive comparison is a [[category]] (with $S
 
 * [[tight apartness relation]]
 
-* [[linear order]]
+* [[strict total order]]
 
 * [[preorder]]
 
