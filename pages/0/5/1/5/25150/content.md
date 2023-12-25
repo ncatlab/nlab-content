@@ -3,9 +3,9 @@
 
 ## Idea
 
-The Archimedean property states that every positive element in a [[strictly ordered]] [[cancellative monoid|cancellative]] [[commutative monoid]] is bounded above by a [[natural number]].
+The Archimedean property states that every positive element in a [[strictly weakly ordered]] [[cancellative monoid|cancellative]] [[commutative monoid]] is bounded above by a [[natural number]].
 
-So an object satisfying the Archimedean property has no infinite elements. If the strict order is additionally a [[connected relation]] and thus a [[linear order]], every [[infinitesimal]] element is equal to zero.
+So an object satisfying the Archimedean property has no infinite elements. If the [[strict weak order]] is additionally a [[connected relation]] and thus a [[pseudo-order]], every [[infinitesimal]] element is equal to zero.
 
 ## Definition
 
