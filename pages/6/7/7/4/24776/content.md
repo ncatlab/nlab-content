@@ -18,6 +18,9 @@ On [[division algebra|division-algebraic]] relations in [[GUT]]-[[broken symmetr
 
 * [[Nichol Furey]], *An Algebraic Roadmap of Particle Theories, Part II: Theoretical checkpoints* &lbrack;[arXiv:2312.12799](https://arxiv.org/abs/2312.12799)&rbrack;
 
+* [[Nichol Furey]], *An Algebraic Roadmap of Particle Theories, Part III: Intersections* &lbrack;[arXiv:2312.14207](https://arxiv.org/abs/2312.14207)&rbrack;
+
+
 
 
 category: people
