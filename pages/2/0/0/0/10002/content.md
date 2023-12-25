@@ -41,4 +41,11 @@ The relation to the [[topologically twisted N=2 D=4 super Yang-Mills theory]] is
 
 * [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386 ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
 
+Review:
+
+* [[Jan Manschot]], *Four-Manifold Invariants and Donaldson-Witten Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14709](https://arxiv.org/abs/2312.14709)&rbrack;
+
+[[!redirects Donaldson-Witten theory]]
+
+
 
