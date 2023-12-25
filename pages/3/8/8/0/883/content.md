@@ -33,7 +33,9 @@ A comparison is a [[cartesian monoidal category|cartesian monoidal]] [[semicateg
 [[!redirects cotransitive]]
 [[!redirects cotransitive relation]]
 [[!redirects cotransitive relations]]
+[[!redirects cotransitivity]]
 
 [[!redirects weakly linear]]
 [[!redirects weakly linear relation]]
 [[!redirects weakly linear relations]]
+[[!redirects weak linearity]]
