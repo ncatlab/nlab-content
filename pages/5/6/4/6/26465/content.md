@@ -5,9 +5,7 @@
 
 A **trichotomous relation** on a set $S$ is a [[relation]] $R(x, y)$ which satisfies **trichotomy**: 
 
-*  for all $x \in S$ and $y \in S$, $R(x, y)$ xor $R(y, x)$ xor $x = y$
-
-where [[xor]] is [[exclusive disjunction]]. 
+* for all $x \in S$ and $y \in S$, exactly one of $R(x, y)$, $R(y, x)$, $x = y$ is true. 
 
 ## Examples
 
