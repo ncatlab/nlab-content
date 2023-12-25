@@ -63,9 +63,13 @@ Consider binary classification where we look to form a classifier which accurate
 
 * [[reproducing kernel Hilbert space]]
 
-* [[Mallows kernel]], [[Kendall kernel]]
+* [[Mallows kernel]], 
+
+  [[Kendall kernel]]
 
   [[Cayley distance kernel]]
+
+  [[Markov kernel]]
 
 * [[thermodynamics]]
 
