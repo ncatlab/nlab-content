@@ -54,7 +54,7 @@ Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is 
 - The category $\mathsf{Stoch}$ of [[measurable spaces]] and [[Markov kernels]]
 - For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$ preserving the monoidal unit, the [[Kleisli category]] $Kl(T)$ is a Markov category.
 
-See also the [[Markov category#detailed_list|detailed list below]].
+See also the [detailed list below](#DetailedList).
 
 ## Deterministic morphisms
 
@@ -89,6 +89,7 @@ For now, see [[probability monad]].
 
 
 ## Detailed list
+ {#DetailedList}
 
 (...to be expanded...)
 
@@ -130,11 +131,18 @@ For now, see [[probability monad]].
 
 ## See also
 
+* [[Markov kernel]]
+
 * [[probability monad]]
+
 * [[probability theory]]
+
 * [[statistics]]
+
 * [[zero-one law]]
+
 * [[doctrine]]
+
 * [[supply in a monoidal category]]
 
 
