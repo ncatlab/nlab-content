@@ -18,11 +18,11 @@
 
 ## Idea
 
-A _total order_ or _linear order_ on a set is a way of ordering its elements to say that some elements precede others, with the understanding that any two elements can be compared one way or the other.
+A *total order* or *linear order* or *chain order* on a set is a way of ordering its elements to say that some elements precede others, with the understanding that any two elements can be compared one way or the other.
 
 ## Definitions
 
-Given a [[set]] $S$, a __total order__ or __linear order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
+Given a [[set]] $S$, a **total order** or **linear order** or **chain order** on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
 
 * [[reflexive relation|reflexivity]]: for any element $x$ of $S$, $x \leq x$;
 * [[transitive relation|transitivity]]: whenever $x \leq y \leq z$, then $x \leq z$;
@@ -68,6 +68,12 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 
 * [[total preorder]]
 
+## References
+
+Total orders are defined in the section of chapter 3 titled "Chains":
+
+* [[Eric Schechter]], *[[Handbook of Analysis and its Foundations]]*, Academic Press (1996), (ISBN 0-12-622760-8, [doi:10.1016/B978-0-12-622760-4.X5000-6](https://doi.org/10.1016/B978-0-12-622760-4.X5000-6))
+
 [[!redirects total order]]
 [[!redirects total orders]]
 [[!redirects toset]]
@@ -86,6 +92,11 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 [[!redirects linearly ordered sets]]
 [[!redirects loset]]
 [[!redirects losets]]
+
+[[!redirects chain order]]
+[[!redirects chain orders]]
+[[!redirects chain ordering]]
+[[!redirects chain orderings]]
 
 [[!redirects ordering]]
 [[!redirects orderings]]
