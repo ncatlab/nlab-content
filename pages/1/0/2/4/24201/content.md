@@ -94,6 +94,8 @@ The localization $L_F(X)$ of a type $X$ at a family of types $F:\prod_{i:I} S(i)
 
 * [[bracket type]], [[set truncation]], [[n-truncation modality]]
 
+* [[localization at an object]]
+
 ## References
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
