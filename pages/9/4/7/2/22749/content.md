@@ -109,7 +109,7 @@ This follows from the previous two theorems.
 
 * [[partial order]]
 
-* [[quasiorder]]
+* [[strict preorder]]
 
 
 [[!redirects irreflexive comparisons]]
