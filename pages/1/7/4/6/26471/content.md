@@ -23,6 +23,8 @@ A [[strict total order]] which is not a [[connected relation]].
 
 A **strict weak order** is a [[strict preorder]] which is also a [[cotransitive relation]]. 
 
+These are sometimes called *[[strict partial orders]]* in the literature, but the term "strict partial order" is also used for other order relations in mathematics. 
+
 Strict weak orders are used in models of the real numbers which have [[infinitesimals]], such as in the smooth real numbers in [[synthetic differential geometry]], and thus where not every real number not greater than or less than zero is equal to zero. 
 
 ## Properties
@@ -104,6 +106,10 @@ For every preorder, $(x \leq y) \wedge (y \leq x)$ is an [[equivalence relation]
 ## References
 
 * Wikipedia, [Weak order](https://en.wikipedia.org/wiki/Weak_order)
+
+Strict weak orders are called [[strict partial orders]] in section 4.1 of:
+
+* [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
 Strict weak orders are used in defining the smooth real numbers in:
 
