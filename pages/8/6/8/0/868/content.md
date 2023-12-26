@@ -22,6 +22,8 @@ A *total order* or *linear order* or *chain order* on a set is a way of ordering
 
 ## Definitions
 
+### With a relation
+
 Given a [[set]] $S$, a **total order** or **linear order** or **chain order** on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
 
 * [[reflexive relation|reflexivity]]: for any element $x$ of $S$, $x \leq x$;
@@ -29,7 +31,11 @@ Given a [[set]] $S$, a **total order** or **linear order** or **chain order** on
 * [[antisymmetric relation|antisymmetry]]: whenever $x \leq y \leq x$, then $x = y$;
 * [[total relation|totality]]: for any $x$ and $y$ in $S$, $x \leq y$ or $y \leq x$.
 
-A __totally ordered set__ or __toset__ or __linearly ordered set__ or __loset__ is a set equipped with a total order/linear order.
+A **totally ordered set** or **toset** or **linearly ordered set** or **loset** is a set equipped with a total order/linear order.
+
+### With a semigroup operation
+
+A **totally ordered set** or **toset** or **linearly ordered set** or **loset** is a set $S$ equipped with a [[commutative semigroup|commutative]] and [[idempotent]] [[semigroup]] $\min:S \times S \to S$ such that for all $a \in S$ and $b \in S$, $\min(a, b) = a$ or $\min(a, b) = b$. 
 
 ## Relation to simplices
 
