@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -292,11 +291,6 @@ An original account of [[localization of commutative rings]] and of [[p-localiza
 
 
 
-
-[[!redirects localization]]
-[[!redirects localizations]]
-[[!redirects localisation]]
-[[!redirects localisations]]
 
 [[!redirects localization functor]]
 [[!redirects localization functors]]
