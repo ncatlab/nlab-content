@@ -15,6 +15,8 @@ Other sources, like [[Cisinski]]'s [[Higher Categories and Homotopical Algebra]]
 
 * [[reflective localization]]
 
+* [[localization of an (infinity,1)-category]]
+
 [[!redirects quasicategories of fractions]]
 [[!redirects quasi-categories of fractions]]
 [[!redirects quasi-category of fractions]]
