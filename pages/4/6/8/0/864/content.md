@@ -3,8 +3,6 @@
 
 ## Definitions
 
-### Strict preorders
-
 A **strict preorder** or **strict quasiorder** on a set $S$ is a (binary) [[relation]] $\lt$ on $S$ that is both [[irreflexive relation|irreflexive]] and [[transitive relation|transitive]].  That is:
 
 * $x \nless x$ always;
@@ -12,33 +10,19 @@ A **strict preorder** or **strict quasiorder** on a set $S$ is a (binary) [[rela
 
 A **strictly preordered set**, or **strict proset**, is a [[set]] equipped with a strict preorder.
 
-### Strict partial orders
-
-A **strict partial order** is a strict preorder which is also an [[asymmetric relation]]:
-
-* For all $x$ and $y$, $x \lt y$ and $y \lt x$ is false. 
-
-A **strictly partially ordered set**, or **strict poset**, is a [[set]] equipped with a strict partial order.
-
-### Relation between the two definitions
+## Properties
 
 \begin{theorem}
-Strict partial orders are strict preorders.
-\end{theorem}
-
-\begin{proof}
-By definition of strict partial order - one could simply forget the asymmetry of the order relation to get a strict preorder. 
-\end{proof}
-
-\begin{theorem}
-Strict preorders orders are strict partial orders.
+Strict preorders orders are asymmetric.
 \end{theorem}
 
 \begin{proof}
 Transitivity of $\lt$ says that for all $x \in S$ and $y \in S$, $x \lt y$ and $y \lt x$ implies $x \lt x$. However, irreflexivity says that for all $x$, $x \leq x$ is always false. This implies that for all $x$ and $y$, $x \lt y$ and $y \lt x$ is always false, which is precisely the condition of asymmetry. 
 \end{proof}
 
-## Properties
+As a result, sometimes the term *[[strict partial order]]* is used for strict preorders, since they are always asymmetric. However, the term "strict partial order" is also used for other order relations. 
+
+## In constructive mathematics
 
 Unlike with other notions of [[order]], a set equipped with a strict preorder cannot be [[constructive mathematics|constructively]] understood as a kind of [[enriched category]] (at least, not as far as I know ...).  Using [[excluded middle]], however, a strict preorder is the same as a [[partial order]]; interpret $x \leq y$ literally to mean that $x \lt y$ or $x = y$, while $x \lt y$ conversely means that $x \leq y$ but $x \ne y$.
 
