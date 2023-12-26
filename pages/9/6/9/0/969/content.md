@@ -16,7 +16,9 @@
 
 ## Idea
 
-In general, [[localization]] is a process of adding formal inverses to an algebraic structure. The _localization_ of a [[category]] $C$ at a collection $W$ of its [[morphism]]s is -- if it exists -- the result of universally making all morphisms in $W$ into [[isomorphism]]s.
+In general, [[localization]] is a process of adding formal inverses to an algebraic structure. The _localization_ of a [[category]] $C$ at a collection $W$ of its [[morphism]]s is -- if it exists -- the result of universally making all morphisms in $W$ into [[isomorphism]]s, and is more commonly known as the __category of fractions__ $C[W^{-1}]$ (Borceux I, Definition 5.2.1; Gabriel–Zisman, §1.1).
+
+The term “localization” is not entirely standard when referring to the category of fractions and has other meanings.  For example, Lurie uses it to refer to [[reflective localizations]] instead.
 
 ### Motivation
 
