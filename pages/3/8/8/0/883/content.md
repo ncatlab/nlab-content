@@ -32,15 +32,14 @@ A comparison is a [[cartesian monoidal category|cartesian monoidal]] [[semicateg
 
 ## References
 
-For weak linearity of relations as comparison, see section 11.2.1 of: 
+* Wikipedia, [Apartness relation](https://en.wikipedia.org/wiki/Apartness_relation)
+
+* Wikipedia, [Pseudo-order](https://en.wikipedia.org/wiki/Pseudo-order)
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
-For cotransitivity of relations as comparison, see section 3.1 of:
-
 * [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
-[[!redirects comparison]]
 [[!redirects comparisons]]
 [[!redirects comparison relation]]
 [[!redirects comparison relations]]
