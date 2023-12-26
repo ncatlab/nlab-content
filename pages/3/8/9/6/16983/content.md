@@ -61,10 +61,12 @@ These taboos are unprovable in [[strongly predicative mathematics]].
 
 These taboos are unprovable in [[homotopy type theory]], even if we assume constructive taboos such as LEM and AC.
 
-* [[uniqueness of identity proofs]]
-* [[axiom K]]
-* [[choice operator]]
-* [[axiom of choice]] for all types
+* any [[axiom of set truncation]]
+  * [[uniqueness of identity proofs]]
+  * [[axiom K]]
+  * [[choice operator]]
+  * [[axiom of choice]] for all types
+  * [[axiom of finiteness]]
 
 A taboo found in [[cubical type theory]]:
 
