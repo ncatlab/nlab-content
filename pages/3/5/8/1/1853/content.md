@@ -55,7 +55,7 @@ in $\mathbf{H}(X,A_3)$ obtained by combining the pairing with precomposition by 
 ### Via the Dold-Kan correspondence
  {#ViaTheDoldKanCorrespondence}
 
-When the coefficient object $A \in $ [[∞Grpd]] is "sufficiently abelian" in that under the [[Dold-Kan correspondence]] it is represented by a [[chain complex]] then using the [[lax monoidal functor|lax monoidalness]] of the Dold-Kan correspondence (see at _[[monoidal Dold-Kan correspondence]]_) one obtains a chain complex model for the cup product which makes the origin of the typical grading shift manifest.
+When the coefficient object $A \in $[[∞Grpd]] is "sufficiently abelian" in that under the [[Dold-Kan correspondence]] it is represented by a [[chain complex]] then using the [[lax monoidal functor|lax monoidalness]] of the Dold-Kan correspondence (see at _[[monoidal Dold-Kan correspondence]]_) one obtains a chain complex model for the cup product which makes the origin of the typical grading shift manifest.
 
 Write 
 
@@ -166,7 +166,7 @@ $$
 
 ### On Moore complexes of cosimplicial algebras 
 
-For $A = (A^\bullet)$ any [[cosimplicial algebra]], its dual [[Moore complex|Moor cochain complex]] $N^\bullet(A)$ naturally inherits the structure of a [[dg-algebra]] under the cup product.
+For $A = (A^\bullet)$ any [[cosimplicial algebra]], its dual [[Moore complex|Moore cochain complex]] $N^\bullet(A)$ naturally inherits the structure of a [[dg-algebra]] under the cup product.
 
 > The general formula is literally the same as that for the case where $A^\bullet$ is functions on the singular complex of a space, which is discussed below. For the moment, see below.
 
