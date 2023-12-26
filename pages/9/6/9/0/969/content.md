@@ -298,13 +298,6 @@ An original account of [[localization of commutative rings]] and of [[p-localiza
 [[!redirects localisation]]
 [[!redirects localisations]]
 
-[[!redirects localization of a category]]
-[[!redirects localizations of a category]]
-[[!redirects localizations of categories]]
-
-[[!redirects localization of categories]]
-[[!redirects localizations of categories]]
-
 [[!redirects localization functor]]
 [[!redirects localization functors]]
 [[!redirects localisation functor]]
