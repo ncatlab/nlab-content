@@ -26,6 +26,17 @@ inductively defined by
 $$a:A \vdash \mathrm{apd}_f(a, a, \mathrm{refl}_A(a)) \coloneqq \mathrm{hrefl}_A(a, f(a)):\mathrm{hId}_{B}(a, a, \mathrm{refl}_A(a), f(a), f(a))$$ 
 where $\mathrm{hId}_{B}(a, b, p, f(a), f(b))$ is a [[heterogeneous identity type]]. 
 
+### Using functions from the interval type
+
+If dependent identification types are defined in terms of function types from the interval type; i.e. 
+$$p:\mathbb{I} \to A, x:B(p(0)), y:B(p(1)) \vdash \mathrm{apd}_f(p):\mathrm{hId}_{B}(p, x, y)$$
+then dependent function application is defined slightly differently. 
+
+By the recursion rule of the [[interval type]], one could use a function $p:\mathbb{I} \to A$ instead of elements $a:A$, $b:A$, and identification $p:a =_A b$. Then given a type $A$ and a type family $x:A \vdash B(x)$ and a family of elements $x:A \vdash f(x):B(x)$, the **dependent function application to identifications** or **dependent action on identifications** for $f(x)$ is the family of elements
+$$p:\mathbb{I} \to A \vdash \mathrm{apd}_f(p):\mathrm{hId}_{B}(p, f(p(0)), f(p(1)))$$ 
+inductively defined using the induction principle of the path type $\mathbb{I} \to A$ by 
+$$a:A \vdash \mathrm{apd}_f(\lambda i:\mathbb{I}.a) \coloneqq \mathrm{hrefl}_A(a, f(a)):\mathrm{hId}_{B}(\lambda i:\mathbb{I}.a, f(a), f(a))$$ 
+
 ### Using transport
 
 In addition, there are two other families of elements which could be considered dependent function applications to identifications, which use [[transport]] and the inverse of transport rather than heterogeneous identity types:
