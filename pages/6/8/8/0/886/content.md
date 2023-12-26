@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _total relation_ is a [[binary relation]] on a set with the property that distinguishes the [[total orders]] among the [[partial orders]].
+A _total relation_ or _linear relation_ is a [[binary relation]] on a set with the property that distinguishes the [[total orders]]/[[linear orders]] among the [[partial orders]].
 
 
 ## Terminology
@@ -27,13 +27,13 @@ A total relation is necessarily [[reflexive relation|reflexive]].  For an [[irre
 
 ## Definitions
 
-A [[binary relation]] $R$ on a set $A$ is __total__ if any two elements are related in one order or the other:
+A [[binary relation]] $R$ on a set $A$ is **total** if any two elements are related in one order or the other:
 $$ \forall (x, y: A),\; x \sim_R y \;\vee\; y \sim_R x .$$
-In other words, $R$ is __total__ if its [[union]] with its [[reverse relation|reverse]] is the [[universal relation]]:
+In other words, $R$ is **total** if its [[union]] with its [[reverse relation|reverse]] is the [[universal relation]]:
 $$ A \times A \subseteq R \cup R^{op} .$$
 (Of course, this containment is in fact an equality.)  In this way, the concept can be generalized from [[Rel]] to any $2$-[[2-poset|poset]]-[[2-poset with duals|with-duals]]; part of the definition then becomes the requirement that the union $R \cup R^{op}$ exists.
 
-In [[constructive mathematics]], we can distinguish between a __strongly total__ relation, defined as above, and a __weakly total__ relation:
+In [[constructive mathematics]], we can distinguish between a **strongly total** relation, defined as above, and a **weakly total** or **linear** relation:
 $$ \forall (x, y: A),\; \neg(x \sim_R y) \;\Rightarrow\; y \sim_R x .$$
 (In theory, this should be conjoined with $\neg(y \sim_R x) \Rightarrow x \sim_R y$, but this follows because the original definition is symmetric in $x$ and $y$.)
 This can also be expressed in $Rel$ using the weak union $\parr$ instead of $\cup$ and generalized to other $2$-posets with the structure to support this operation.
@@ -43,12 +43,11 @@ which is based on using the [[double negation]] of union in $Rel$, but I\'m not 
 
 We can also let $R$ be a [[disjoint pair]] of relations, denoted $R^+$ and $R^-$ or (more suggestively) $\sim_R$ and $\nsim_R$, related according to the [[antithesis interpretation]] of [[linear logic]] within constructive mathematics, which requires that
 $$ \forall (x, y: A),\; x \nsim_R y \;\Rightarrow\; \neg(x \sim_R y) $$
-(but not the converse).  Then $R$ is __weakly total__ if additionally
+(but not the converse).  Then $R$ is **weakly total** or **linear** if additionally
 $$ \forall (x, y: A),\; (x \nsim_R y \;\Rightarrow\; y \sim_R x) .$$
-It\'s __strongly total__ if, in addition to all of the above,
+It\'s **strongly total** if, in addition to all of the above,
 $$ \forall (x, y: A),\; x \sim_R y \;\vee\; y \sim_R x .$$
 This can all be expressed in a $2$-poset of disjoint pairs of relations equipped with strong ($\uplus$) and weak ($\parr$) notions of union.
-
 
 ## Properties
 
@@ -60,6 +59,27 @@ Totality is antithetical to [[asymmetric relation|asymmetry]].  In [[classical l
 
 In particular, $R^-$ is asymmetric in its own right whenever a disjoint pair $(R^+,R^-)$ is weakly total.  Conversely, a disjoint pair $(R^+,R^-)$ is strongly total if (and only if) $R^+$ is strongly total in its own right and $R^-$ is asymmetric in its own right.
 
+## Related concepts
+
+* [[cotransitive relation]]/[[weakly linear relation]]
+
+* [[total order]]
+
+## References
+
+For linearity of relations as weak totality, see section 11.2.1 of: 
+
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects total relation]]
 [[!redirects total relations]]
+[[!redirects totality]]
+
+[[!redirects weakly total]]
+[[!redirects weakly total relation]]
+[[!redirects weakly total relations]]
+[[!redirects weak totality]]
+
+[[!redirects linear relation]]
+[[!redirects linear relations]]
+[[!redirects linearity]]
