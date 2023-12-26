@@ -245,7 +245,7 @@ $$\mathrm{ap}_{\lambda i:\mathbb{I}.x}(i, j, q) \equiv \mathrm{refl}_A(x)$$
 
 for all $i, j:\mathbb{I}$ and $q:i =_\mathbb{I} j$. 
 
-This allows us to posit a version of [[path induction]] using functions from the interval type, which states that:
+This allows us to posit versions of [[path induction]] using functions from the interval type, which states that:
 
 \begin{theorem}
 Given a type $A$, a type family $C(z)$ indexed by $z:\mathbb{I} \to A$, and a family of elements $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$, one could construct a dependent function $f(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that $f(t, \lambda i:\mathbb{I}.x) \equiv t:C(\lambda i:\mathbb{I}.x)$. 
@@ -253,6 +253,46 @@ Given a type $A$, a type family $C(z)$ indexed by $z:\mathbb{I} \to A$, and a fa
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I} \to A \vdash C(z) \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)}{\Gamma \vdash \mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)}$$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I} \to A \vdash C(z) \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)}{\Gamma, x:A \vdash \mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t:C(\lambda i:\mathbb{I}.x)}$$
+\end{theorem}
+
+The alternate induction principle of the path type, which uses functions into the path type rather than families indexed by the path type, is given by:
+
+\begin{theorem}
+Given any type $C$ and function $f:C \to (\mathbb{I} \to A)$ into the path type in $A$, and given a function $c:A \to C$ and a homotopy 
+$$p:\prod_{x:A} f(c(x)) =_{\mathbb{I} \to A} \lambda i:\mathbb{I}.x$$
+which states that the composite of $f$ and $c$ is the canonical function which takes elements of $A$ to constant paths into $A$, one can construct a function $g:\left(\mathbb{I} \to A\right) \to C$ and a homotopy witnessing that $g$ is a [[section]] of $f$:
+$$\mathrm{sec}_g:\prod_{z:\mathbb{I} \to A} f(g(z)) =_{\mathbb{I} \to A} z$$
+such that for all $x:A$, $g(\lambda i:\mathbb{I}.x) \equiv c(x)$ and $\mathrm{sec}_g(\lambda i:\mathbb{I}.x) \equiv p(x)$.
+
+**elimination rules** for path induction:
+$$\frac{
+\begin{array}{c}
+    \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to (\mathbb{I} \to A) \\ 
+    \Gamma \vdash c:A \to C \quad \Gamma \vdash p:\prod_{x:A} f(c(x)) =_{\mathbb{I} \to A} \lambda i:\mathbb{I}.x \\ 
+\end{array}
+}{\Gamma, z:\mathbb{I} \to A \vdash \mathrm{ind}_{\mathbb{I} \to A}^{C}(f, c, p, z):C}$$
+
+$$\frac{
+\begin{array}{c}
+    \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to (\mathbb{I} \to A) \\ 
+    \Gamma \vdash c:A \to C \quad \Gamma \vdash p:\prod_{x:A} f(c(x)) =_{\mathbb{I} \to A} \lambda i:\mathbb{I}.x \\ 
+\end{array}
+}{\Gamma, z:\mathbb{I} \to A \vdash \mathrm{indsec}_\mathrm{Unit}^{C}(f, c, p, z):f(\mathrm{ind}_\mathrm{Unit}^{C}(f, c, p, z)) =_{\mathbb{I} \to A} z}$$
+
+**computation rules** for path induction:
+$$\frac{
+\begin{array}{c}
+    \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to (\mathbb{I} \to A) \\ 
+    \Gamma \vdash c:A \to C \quad \Gamma \vdash p:\prod_{x:A} f(c(x)) =_{\mathbb{I} \to A} \lambda i:\mathbb{I}.x \\ 
+\end{array}
+}{\Gamma, x:A \vdash \mathrm{ind}_{\mathbb{I} \to A}^{C}(f, c, p, \lambda i:\mathbb{I}.x) \equiv c(x):C}$$
+
+$$\frac{
+\begin{array}{c}
+    \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash f:C \to (\mathbb{I} \to A) \\ 
+    \Gamma \vdash c:A \to C \quad \Gamma \vdash p:\prod_{x:A} f(c(x)) =_{\mathbb{I} \to A} \lambda i:\mathbb{I}.x \\
+\end{array}
+}{\Gamma, x:A \vdash \mathrm{indsec}_{\mathbb{I} \to A}^{C}(f, c, p, \lambda i:\mathbb{I}.x) \equiv p(x):f(\mathrm{ind}_{\mathbb{I} \to A}^{C}(f, c, p, z)) =_{\mathbb{I} \to A} z}$$
 \end{theorem}
 
 ### Relation to dependent identity types
