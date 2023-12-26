@@ -303,6 +303,10 @@ Discussion of [[coinduction]] via HITs:
 
 * Magnus Baunsgaard Kristensen, [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
 
+Discussion of impredicative encodings of higher inductive types:
+
+* [[Steve Awodey]], [[Jonas Frey]], and [[Sam Speight]]. “Impredicative Encodings of (Higher) Inductive Types”. In: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science. LICS ’18. Oxford, United Kingdom: ACM, 2018, pp. 76–85. (ISBN:978-1-4503-5583-4, [doi:10.1145/3209108.3209130](https://doi.org/10.1145/3209108.3209130))
+
 [[!redirects higher inductive types]]
 
 [[!redirects HIT]]
