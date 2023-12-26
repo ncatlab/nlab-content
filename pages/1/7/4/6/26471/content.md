@@ -97,6 +97,8 @@ For every preorder, $(x \leq y) \wedge (y \leq x)$ is an [[equivalence relation]
 
 * [[ordered Kock field]]
 
+* [[apartness relation]]
+
 * [[irreflexive comparison]]
 
 ## References
