@@ -116,6 +116,7 @@ where $W$ is the category whose objects are morphisms in $C$ and whose morphisms
 
 * [[homotopy 2-category]]
 
+* [[simplicial homotopy category]]
 
 ## References
 
