@@ -66,6 +66,3 @@ There are also certainly examples of strictly preordered sets that are also part
 [[!redirects strictly preordered]]
 [[!redirects strictly preordered set]]
 [[!redirects strictly preordered sets]]
-
-[[!redirects strict partial order]]
-[[!redirects strict partial orders]]
