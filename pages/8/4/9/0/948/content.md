@@ -199,9 +199,9 @@ Concepts that usually arise in constructive mathematics, often because they are 
 *  [[decidable equality]] (classically trivial)
 *  [[decidable subset]] (classically trivial)
 *  [[inhabited set]] (classically equivalent to a non-[[empty set]])
-*  [[linear order]] (classically complementary to a [[total order]])
+*  [[pseudo-order]] (classically complementary to a [[total order]])
 *  [[locale]] (classically similar to but not equivalent to a [[topological space]])
-*  [[quasiorder]] (classically complementary to a [[partial order]])
+*  [[connected irreflexive comparison]] (classically complementary to a [[partial order]])
 *  [[subsingleton]] (classically equivalent to the empty set or a [[singleton]])
 
 Some of these are also useful internally or even classically.
