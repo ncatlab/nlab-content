@@ -49,11 +49,13 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 * A good example of a coherent theory that is not [[algebraic theory|algebraic]] (in any of the usual senses, although it comes from algebra) is the theory of a [[local ring]], defined by axioms $0 = 1 \vdash \bot$ and
 $$x + y = 1 \vdash (\exists z.x \cdot z = 1) \vee (\exists z.y \cdot z = 1)$$
 
+* The theory of a [[totally ordered set]] is another example of a coherent theory that is not algebraic. One adds to the algebraic theory of a [[idempotent]] [[commutative semigroup]] the totality axiom $\vdash_{x,y} (x \sqcup y = x) \vee (x \sqcup y = y)$.
+
 * Similar examples are the theories of a [[discrete field]].
 
 * The theory of an [[apartness relation]] is coherent. The irreflexivity axiom is expressed as $(x \# x) \vdash \bot$, the symmetry axiom is expressed as $(x \# y) \vdash (y \# x)$, and the comparison axiom is expressed as $(x \# z) \vdash \exists y.(x \# y) \vee (y \# z)$. However, the "tightness" axiom $\neg(x\# y) \vdash (x=y)$ in [[tight apartness relations]] is not coherent since it uses negation. 
 
-* The theory of a [[total order]] is coherent, though also not algebraic.  The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
+* The theory of a [[total order]] is coherent, though also not algebraic. The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
 
 * The theory of a [[strict total order]] is not coherent if we use the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas. We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. In [[classical mathematics]], there is another solution, to use the "[[trichotomy]]" axiom $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$ instead, in order to get an axiomatisation of "coherent" strict total orders. However, in [[constructive mathematics]], strict total orders are in general not trichotomous, so this solution cannot be used. 
 
