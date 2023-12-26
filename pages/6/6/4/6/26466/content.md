@@ -5,7 +5,7 @@
 
 ### Total preorders
 
-A **total preorder** or **preference relation** or **(non-strict) weak order** is a [[preorder]] whose [[posetal reflection]] is a [[total order]], or equivalently it is a [[preorder]] which is also a [[total relation]]: 
+A **total preorder** or **linear preorder** or **preference relation** or **(non-strict) weak order** is a [[preorder]] whose [[posetal reflection]] is a [[total order]], or equivalently it is a [[preorder]] which is also a [[total relation]]: 
 
 * for all elements $x$ and $y$, $x \leq y$ or $y \leq x$
 
@@ -13,7 +13,7 @@ In [[category theory]], a total preorder is a [[thin category]] $C$ for which gi
 
 ### Cotransitive preorders
 
-A **cotransitive preorder** or **linear preorder** on a set $S$ is a preorder $\leq$ which satisfies [[cotransitivity]]/[[weak linearity]]: 
+A **cotransitive preorder** on a set $S$ is a preorder $\leq$ which satisfies [[cotransitivity]]/[[weak linearity]]: 
 
 * for all $x \in S$, $y \in S$, and $z \in S$, $x \leq z$ implies that $x \leq y$ or $y \leq z$. 
 
