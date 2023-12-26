@@ -74,6 +74,10 @@ On [[Donaldson-Witten theory]]:
 
 * [[Jan Manschot]], *Four-Manifold Invariants and Donaldson-Witten Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14709](https://arxiv.org/abs/2312.14709)&rbrack;
 
+On [[differential cohomology]]:
+
+* [[Arun Debray]], *Differential Cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14338](https://arxiv.org/abs/2312.14338)&rbrack;
+
 
 (...)
 
