@@ -90,6 +90,8 @@ The [[analytic functions]], such as the [[exponential function]], the [[sine fun
 
 * [[premetric space]]
 
+* [[Escardo-Simpson real numbers]]
+
 ## References ##
 
 * {#UFP13} [[Univalent Foundations Project]], Section 11.3 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
@@ -97,8 +99,6 @@ The [[analytic functions]], such as the [[exponential function]], the [[sine fun
 Survey and review:
 
 * [[Andrej Bauer]], *The real numbers in homotopy type theory*, talk at *[Computability and Complexity in Analysis](http://cca-net.de/cca2016/)*, Faro (2016) &lbrack;[pdf](https://math.andrej.com/wp-content/uploads/2016/06/hott-reals-cca2016.pdf), [[Bauer-RealsInHoTT.pdf:file]]&rbrack;
-
-
 
 * {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
