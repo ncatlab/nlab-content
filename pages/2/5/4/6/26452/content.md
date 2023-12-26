@@ -10,11 +10,11 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto X$                    | $\varnothing$            | $1$                           | |
 [[Set]] | $X \mapsto 1 + X$                | $\mathbb{N}$           | [[conatural number|Conatural numbers]] $\mathbb{N}^\infty$ | [[extended natural number]] |
 [[Set]] | $X \mapsto A + X$                | $A \times \mathbb{N}$  | $A \times \mathbb{N} + 1$, ie [[conatural numbers]] "terminated" (when they aren't $\infty$) with $A$ | [[partial map classifier]] |
-[[Set]] | $X \mapsto X + X$ or $X \mapsto 2 \times X$                | $\emptyset$            | $2^\mathbb{N}$ (i.e. [[stream|Stream]] $2$)               | |
-[[Set]] | $X \mapsto A \times X$                | $\emptyset$            | $A^\mathbb{N}$ (i.e. [[stream|Stream]] $A$)               | [[sequence]], [[writer monad]], [[stream]] |
+[[Set]] | $X \mapsto X + X$ or $X \mapsto 2 \times X$                | $\emptyset$            | $2^\mathbb{N}$ (i.e. one definition of [[stream|Stream]] $2$)               | |
+[[Set]] | $X \mapsto A \times X$                | $\emptyset$            | $A^\mathbb{N}$ (i.e. one definition of [[stream|Stream]] $A$)               | [[sequence]], [[writer monad]], [[stream]] |
 [[Set]] | $X \mapsto X \times X$ or $X \mapsto [2, X]$          | $\emptyset \simeq [2, \emptyset]$            | 1 (the unique infinite unlabelled binary tree)     | |
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | [[reader monad]] |
-[[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | [[cofree coalgebra]] of $A$; i.e. potentially infinite [[list|List]] $A$ | [[list]], [[cofree coalgebra]] |
+[[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | another definition of [[stream|Stream]] $A$; i.e. potentially infinite [[list|List]] $A$ | [[list]], [[stream]] |
 [[Set]] | $X \mapsto 1 + A \times X^2$     | Finite [[binary tree]] with $A$-labelled nodes  | Potentially infinite [[binary tree]] with $A$-labelled [[nodes]] | [[tree]] |
 [[Set]] | $X \mapsto B + A \times X^n$     | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled [[leaves]] | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves| |
 [[Set]] | $X \mapsto O \times [I, X]$      | $O \times [I, \emptyset]$ | Potentially infinite [[Moore machine]] | |
@@ -29,5 +29,5 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 Any [[category]] | The [[constant functor]] $X \mapsto A$ given object $A$ | $A$ | $A$ | |
 Any [[category]] | The [[identity functor]] $X \mapsto X$ | [[initial object]] | [[terminal object]] | |
 Any [[extensive category]] | $X \mapsto 1 + X$ given [[terminal object]] $1$ and [[coproduct]] $+$ | [[natural numbers object]] | ? | |
-Any [[closed monoidal category|closed]] [[abelian category]] | $X \mapsto I \sqcup (A \otimes X)$ given [[tensor unit]] $I$, [[tensor product]] $\otimes$, [[coproduct]] $\sqcup$, and object $A$ | [[tensor algebra]] of $A$ | [[cofree coalgebra]] over $A$ |  |
-[[Infinity-Grpd|$\infty$-Grpd]] | $X \mapsto \Sigma X$ | [[sphere spectrum]] $\mathbb{S}$ | ? |  |
+Any [[closed monoidal category|closed]] [[abelian category]] | $X \mapsto I \sqcup (A \otimes X)$ given [[tensor unit]] $I$, [[tensor product]] $\otimes$, [[coproduct]] $\sqcup$, and object $A$ | [[tensor algebra]] of $A$ | [[cofree coalgebra]] over $A$ | [[tensor algebra]], [[cofree coalgebra]] |
+[[Infinity-Grpd|$\infty$-Grpd]] | $X \mapsto \Sigma X$ | [[sphere spectrum]] $\mathbb{S}$ | ? | [[suspension]] |
