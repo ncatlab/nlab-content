@@ -1,4 +1,5 @@
-A **category of fractions** is a [[localization]] that is constructed using a [[calculus of fractions]].
+[[!redirects category of fractions]]
+See the article [[localization]].
 
 For a generalisation, see [[bicategory of fractions]].
 
