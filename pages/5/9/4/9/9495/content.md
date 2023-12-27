@@ -7,9 +7,9 @@
 
 ## Selected writings
 
-On [[derived categories]] and [[triangulated categories]]:
+On [[derived categories]] of [[abelian categories]] and on [[triangulated categories]]:
 
-* Jean-Louis Verdier, _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
+* [[Verdier, Jean-Louis]], _Des Catégories Dérivées des Catégories Abéliennes_, Astérisque **239** (1996) &lbrack;[doi:10.24033/ast.364](https://smf.emath.fr/publications/des-categories-derivees-des-categories-abeliennes), [numdam:AST_1996__239__R1_0](http://www.numdam.org/issues/AST_1996__239__R1_0), [pdf](http://www.numdam.org/item/AST_1996__239__R1_0.pdf)&rbrack;
 
 He also worked on [[Verdier duality]] of derived categories of [[abelian sheaves]]:
 
