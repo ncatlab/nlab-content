@@ -11,10 +11,11 @@ On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[
 
 * [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
 
-[[Dirac monopole]] understood as a section in
+On [[Dirac monopoles]]:
 
-* T.T. Wu, C. N. Yang, _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380
-* [[Tai Tsun Wu]], Chen Ning Yang, _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976)
+* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380
+
+* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976)
 
 
 ## Quotes
