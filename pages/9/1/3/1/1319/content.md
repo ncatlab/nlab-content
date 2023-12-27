@@ -136,6 +136,8 @@ in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$
 
 ## References ##
 
+> See also references at *[[category of fractions]]*.
+
 The above definition is due to 
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967). 
@@ -145,6 +147,9 @@ See also
 * [[Frank Adams]], part III, section 14 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Borceux94} [[Francis Borceux]], vol 1, chapter 5 of: _[[Handbook of Categorical Algebra]], Cambridge University Press (1994)
+
+* {#Fritz11} [[Tobias Fritz]], *Categories of Fractions Revisited*, Morfismos **15**  2 (2011) 19-38 &lbrack;[arXiv:0803.2587](https://arxiv.org/abs/0803.2587), [morfismos:vol15-n2-3](https://morfismos.math.cinvestav.mx/sites/default/files/Upload/vol15-n2-3.pdf)&rbrack;
+
 
 Generalization from categories to [[quasi-categories]] ("$(\infty,1)$-calculus of fractions", cf. at *[[localization of an (infinity,1)-category|localization of an $(\infty,1)$-category]]*):
 
