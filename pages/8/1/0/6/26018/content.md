@@ -43,6 +43,14 @@ with fiber functor $F$ from the Hopf category $End(F)$.
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
-* {#Green23} David Green. *Tannaka-Krein reconstruction for fusion 2-categories*. (2023). ([arXiv:2309.05591](https://arxiv.org/abs/2309.05591)).
+* {#Green23} David Green, *Tannaka-Krein reconstruction for fusion 2-categories* (2023) &lbrack;[arXiv:2309.05591](https://arxiv.org/abs/2309.05591)&rbrack;
+
+In the context of "[[generalized global symmetries]]":
+
+* Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen, *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
+
+
+
+
 
 [[!redirects fusion 2-categories]]
