@@ -50,6 +50,9 @@ Discussion in the [[BFSS matrix model]]:
 * Adam Tropper, Tianli Wang, *Lorentz Symmetry and IR Structure of The BFSS Matrix Model* &lbrack;[arXiv:2303.14200](https://arxiv.org/abs/2303.14200)&rbrack;
 
 
+* [[Aidan Herderschee]], [[Juan Maldacena]], *Soft Theorems in Matrix Theory* &lbrack;[arXiv:2312.15111](https://arxiv.org/abs/2312.15111)&rbrack;
+
+
 Analogous discussion for [[gluons]]:
 
 * Peng Cheng, Pujian Mao, *Soft gluon theorems in curved spacetime* &lbrack;[arXiv:2211.00031](https://arxiv.org/abs/2211.00031)&rbrack;
@@ -59,6 +62,7 @@ Analogous discussion for [[phonons]]:
 * Clifford Cheung, Maria Derda, Andreas Helset, Julio Parra-Martinez, *Soft Phonon Theorems* &lbrack;[arXiv:2301.11363](https://arxiv.org/abs/2301.11363)&rbrack;
 
 
+[[!redirects soft graviton theorems]]
 
 
 
