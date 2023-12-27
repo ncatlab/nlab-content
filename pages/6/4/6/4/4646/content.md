@@ -83,7 +83,7 @@ This may be equivalently but more succinctly be formulated as follows:
 
 We say _diffeological groupoid_ for an [[internal groupoid]] in the category of [[diffeological space]]s. 
 
-The smooth paths in a smooth manifold $X$ naturally form the diffeological groupoid called the [[path groupoid]] $P_1(X)$.  Objects are points in $X$, morphsims are [[thin homotopy]]-classes of smooth paths which are constant in a neighbourhood of their boundary, composition is concatenation of paths.
+The smooth paths in a smooth manifold $X$ naturally form the diffeological groupoid called the [[path groupoid]] $P_1(X)$.  Objects are points in $X$, morphisms are [[thin homotopy]]-classes of smooth paths which are constant in a neighbourhood of their boundary, composition is concatenation of paths.
 
 For $P \to X$ any $G$-bundle, there is also naturally the diffeological groupoid $At(P)$ -- the [[Atiyah Lie groupoid]]  of $P$. Objects are points in $X$, morphisms are homomorphisms of $G$-[[torsor]]s between the [[fiber]]s over these points.
 
