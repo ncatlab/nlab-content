@@ -76,6 +76,8 @@ Derivation from [[open string field theory]] is discussed in
 
 * [[Harold C. Steinacker]], [[Tung Tran]], *Soft limit of higher-spin interactions in the IKKT model* &lbrack;[arXiv:2311.14163](https://arxiv.org/abs/2311.14163)&rbrack;
 
+* [[Harold C. Steinacker]], [[Tung Tran]], *Spinorial description for Lorentzian $\mathfrak{hs}$-IKKT* &lbrack;[arXiv:2312.16110](https://arxiv.org/abs/2312.16110)&rbrack;
+
 
 Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
 
