@@ -23,6 +23,24 @@
 {:toc}
 
 ## Idea
+ {#Idea}
+
+
+
+\begin{imagefromfile}
+    "file_name": "WuYang-PhysicsBundlesDictionary.jpg",
+    "float": "right",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Wu & Yang 1975](#WuYang75)"
+\end{imagefromfile}
+
 
 All of [[physics]] has two aspects: a local or even [[infinitesimal object|infinitesimal]] aspect, and a global aspect. Much of traditional lore deals just with the local and infinitesimal aspects -- the _[[perturbative field theory|perturbative]]_ aspects -- and [[fiber bundles]] play little role there. But they are the all-important structure that govern the global -- the _[[non-perturbative field theory|non-perturbative]]_ -- aspects. [[bundles|Bundles]] are the _global_ structure of [[physical fields]] and they are irrelevant only for the crude local and perturbative description of reality.
 
@@ -139,6 +157,8 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
  
 ## Related concepts
 
+* [[Aharonov-Bohm effect]]
+
 * [[geometry of physics]]
 
 * [[twisted smooth cohomology in string theory]]
@@ -168,6 +188,7 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 
 (See also the references at _[[Dirac charge quantization]]_.)
 
+* {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
 
 * [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
 
