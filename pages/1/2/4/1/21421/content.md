@@ -35,7 +35,9 @@ In the [[Sakai-Sugimoto model]] of [[holographic QCD]] the [[D=5 Yang-Mills theo
 
 * {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
-* {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
+* {#Bartolini17} [[Lorenzo Bartolini]], [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D **97** 014024 (2018) \[<a href="https://doi.org/10.1103/PhysRevD.97.014024">doi:10.1103/PhysRevD.97.014024</a>, <a href="https://arxiv.org/abs/1711.03873">arXiv:1711.03873</a>\]
+
+* [[Lorenzo Bartolini]], [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], Tommaso Rainaldi, *Mass and Isospin Breaking Effects in the Skyrme Model and in Holographic QCD* \[<a href="https://arxiv.org/abs/2312.15404">arXiv:2312.15404</a>\]
 
 Extensive review of this [[holographic QCD|holographic]]/[[Kaluza-Klein theory|KK-theoretic]]-realization of [[quantum hadrodynamics]] from [[D=5 Yang-Mills theory]] is in:
 
@@ -73,7 +75,7 @@ Discussion, in this context, of [[D-term]] effects affecting [[hadron]] stabilit
 
 More on [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
 
-* Salvatore Baldino, Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_ ([arXiv:2102.00680](https://arxiv.org/abs/2102.00680))
+* Salvatore Baldino, [[Lorenzo Bartolini]], [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_,  Phys. Rev. D **103** 126015 (2021) \[<a href="https://doi.org/10.1103/PhysRevD.103.126015">doi:10.1103/PhysRevD.103.126015</a>, <a href="https://arxiv.org/abs/2102.00680">arXiv:2102.00680</a>\]
 
 More on [[mesons]] in [[holographic QCD]]:
 
@@ -106,5 +108,6 @@ following
 See also:
 
 * Y. H. Ahn, Sin Kyu Kang, Hyun Min Lee, *Towards a Model of Quarks and Leptons* ([arXiv:2112.13392](https://arxiv.org/abs/2112.13392))
+
 
 
