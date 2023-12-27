@@ -38,7 +38,7 @@
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Wu & Yang 1975](#WuYang75)"
+    "caption": "From [Wu and Yang 1975](#WuYang75)"
 \end{imagefromfile}
 
 
