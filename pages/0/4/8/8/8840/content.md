@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -103,11 +104,25 @@ This is possible because $\mathbb{R}^2 - \{0\}$ is not [[simply connected topolo
 
 ## References
 
+The effect was first predicted by
+
+* W. Ehrenberg, R. E. Siday, *The Refractive Index in Electron Optics and the Principles of Dynamics*,  Proceedings of the Physical Society. Section B, **62** 8 (1949) 1 &lbrack;[doi:10.1088/0370-1301/62/1/303](https://iopscience.iop.org/article/10.1088/0370-1301/62/1/303)&rbrack;
+
+It is named after:
+
+* [[Yakir Aharonov]], [[David Bohm]], *Significance of Electromagnetic Potentials in the Quantum Theory*, Phys. Rev. **115** (1959) 485 &lbrack;[doi:10.1103/PhysRev.115.485](https://doi.org/10.1103/PhysRev.115.485), [pdf](https://journals.aps.org/pr/pdf/10.1103/PhysRev.115.485)&rbrack;
+
+
+Early discussion with emphasis of the role of [[connection on a bundle|connections]] on [[fiber bundles in physics]] and generalization to non-abelian [[Yang-Mills theory]]:
+
+* [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
+
+
+See also:
+
 * L. Mangiarotti, [[Gennadi Sardanashvily]], section 6.6 of _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
 
 * [[Mikio Nakahara]], Section 10.5.3 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
-
-See also
 
 * Wikipedia, _[Aharonov-Bohm effect](https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect)_
