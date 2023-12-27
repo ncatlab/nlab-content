@@ -114,32 +114,41 @@ The bulk of the discussion of Bohmian mechanics in the literature revolves aroun
 
 ## References
 
-* Stanford Encyclopedia of Philosophy, _[Bohmian mechanics](http://plato.stanford.edu/entries/qm-bohm/)_
-  {#SEP}
+Named after:
+
+* [[David Bohm]], *A Suggested Interpretation of the Quantum Theory in Terms of "Hidden" Variables. I*, Phys. Rev. **85** (1952) 166 &lbrack;[doi:10.1103/PhysRev.85.166](https://doi.org/10.1103/PhysRev.85.166)&rbrack;
+
+* [[David Bohm]], *A Suggested Interpretation of the Quantum Theory in Terms of "Hidden" Variables. II*, Phys. Rev. **85** (1952) 180 &lbrack;[doi:10.1103/PhysRev.85.180](https://doi.org/10.1103/PhysRev.85.180)&rbrack;
+
+
+See also:
+
+* Wikipedia, *[De Broglie–Bohm theory](https://en.wikipedia.org/wiki/De_Broglie–Bohm_theory)*
+
+* {#SEP} Stanford Encyclopedia of Philosophy, _[Bohmian mechanics](http://plato.stanford.edu/entries/qm-bohm/)_
+  
 
 The formulation of the exotic diffusion process described by the phase part of the Schr&#246;dinger equation as a [[stochastic process]] is due to 
 
-* [[Edward Nelson]], _Derivation of the Schr&#246;dinger equation from Newtonian mechanics_, Phys. Rev. 150, 1079&#8211;1085, 1966
-  {#Nelson66}
+* {#Nelson66} [[Edward Nelson]], _Derivation of the Schr&#246;dinger equation from Newtonian mechanics_, Phys. Rev. 150, 1079&#8211;1085, 1966
+  
 
-* [[Edward Nelson]], _Quantum Fluctuations_, Princeton University Press,
-Princeton. 1985
+* [[Edward Nelson]], _Quantum Fluctuations_, Princeton University Press, Princeton. 1985
 
-For a review of this relating to Bohmian mechanics see
+A review of this relating to Bohmian mechanics:
 
 * Guido Bacciagaluppi, _A Conceptual Introduction to Nelson's
-Mechanics_ ([pdf](http://philsci-archive.pitt.edu/8853/1/Nelson-revised.pdf))
+Mechanics_ &lbrack;[pdf](http://philsci-archive.pitt.edu/8853/1/Nelson-revised.pdf)&rbrack;
 
 The surreal trajectory problem is pointed out in
 
-* B.-G. Englert, M. O. Scully, G. S&#252;ssmann, H. Walther, Surrealistic Bohm trajectories.
-Z. Naturforsch. 47a,1175 &#8211; 1186 (1992)
+* B.-G. Englert, M. O. Scully, G. S&#252;ssmann, H. Walther, *Surrealistic Bohm trajectories*, Z. Naturforsch. **47**a  (1992) 1175-1186
 
 The following two articles offer solution to the surreal trajectory problem:
 
-* D. H. Mahler et al. _Experimental nonlocal and surreal Bohmian trajectories_, Science Advances __2__:2, e1501466 (2016) [journal](http://advances.sciencemag.org/content/2/2/e1501466) [doi](http://dx.doi.org/10.1126/sciadv.1501466)
+* D. H. Mahler et al. _Experimental nonlocal and surreal Bohmian trajectories_, Science Advances __2__:2, e1501466 (2016) &lbrack;[doi:10.1126/sciadv.1501466](https://doi.org/10.1126/sciadv.1501466)&rbrack;
 
-* B. J. Hiley, R. Callaghan, O. Maroney, Quantum trajectories, real, surreal or an approximation to a deeper process? [quant-ph/0010020](http://arxiv.org/abs/quant-ph/0010020) 
+* B. J. Hiley, R. Callaghan, O. Maroney, Quantum trajectories, real, surreal or an approximation to a deeper process? &lbrack;[quant-ph/0010020](http://arxiv.org/abs/quant-ph/0010020)&rbrack;
 
 category: physics
 
