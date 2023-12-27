@@ -41,7 +41,7 @@ Analogue of [[noncommutative localization]] for noncommutative monoid objects in
 
 ## Group completion
 
-The [[group completion]] of a monoid $M$ is the localization of $M$ away from $M$. 
+The [[group completion]] of a commutative monoid $M$ is the localization of $M$ away from $M$. 
 
 ## Related concepts
 
