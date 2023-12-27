@@ -26,6 +26,8 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold C. Steinacker]], [[Tung Tran]], *Soft limit of higher-spin interactions in the IKKT model* &lbrack;[arXiv:2311.14163](https://arxiv.org/abs/2311.14163)&rbrack;
 
+* [[Harold C. Steinacker]], [[Tung Tran]], *Spinorial description for Lorentzian $\mathfrak{hs}$-IKKT* &lbrack;[arXiv:2312.16110](https://arxiv.org/abs/2312.16110)&rbrack;
+
 
 On [[cosmology]] within the [[IKKT matrix model]]:
 
