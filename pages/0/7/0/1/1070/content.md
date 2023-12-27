@@ -203,9 +203,7 @@ For instance ([Schapira, cor. 7.2.3](#Schapira)).
 
 The original reference:
 
-* [[Verdier, Jean-Louis]], _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
-
-Review:
+* [[Verdier, Jean-Louis]], _Des Catégories Dérivées des Catégories Abéliennes_, Astérisque **239** (1996) &lbrack;[doi:10.24033/ast.364](https://smf.emath.fr/publications/des-categories-derivees-des-categories-abeliennes), [numdam:AST_1996__239__R1_0](http://www.numdam.org/issues/AST_1996__239__R1_0), [pdf](http://www.numdam.org/item/AST_1996__239__R1_0.pdf)&rbrack;
 
 * {#GelfandManin96} [[Sergei Gelfand]], [[Yuri Manin]], Section III of: *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
 
@@ -223,11 +221,10 @@ and, similarly, in section 7 of
 A detailed treatment of derived categories (including of DG modules over DG 
 rings), with applications to noncommutative algebra, is in the book 
 
-* [[Amnon Yekutieli]], _Derived Categories_ [book](https://www.cambridge.org/il/academic/subjects/mathematics/algebra/derived-categories)
-[prepublication](https://arxiv.org/abs/1610.09640v4)
+* [[Amnon Yekutieli]], *Derived Categories*, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108292825]( https://doi.org/10.1017/9781108292825), [arXiv:1610.09640](https://arxiv.org/abs/1610.09640)&rbrack;
 
 
-A pedagogical introduction is 
+A pedagogical introduction:
 
 * R. P. Thomas, _Derived categories for the working mathematician_ ([arXiv:math.AG/0001045](http://arxiv.org/abs/math.AG/0001045))
 
