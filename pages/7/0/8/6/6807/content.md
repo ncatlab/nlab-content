@@ -230,7 +230,7 @@ Computation of [[graviton]] [[scattering amplitudes]] with the BFSS matrix model
 
 * Robert Echols, _M-theory, supergravity and the matrix model: Graviton scattering and non-renormalization theorems_, PhD thesis, 1999 &lbrack;[pdf](https://web.calpoly.edu/~rechols/phys403/mythesis.pdf)&rbrack;
 
-* Aidan Herderschee, [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
+* [[Aidan Herderschee]], [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
 
 
 In relation to the [[soft graviton theorem]]:
@@ -238,6 +238,8 @@ In relation to the [[soft graviton theorem]]:
 * Noah Miller, [[Andrew Strominger]], Adam Tropper, Tianli Wang, *Soft Gravitons in the BFSS Matrix Model* &lbrack;[arXiv:2208.14547](https://arxiv.org/abs/2208.14547)&rbrack;
 
 * Adam Tropper, Tianli Wang, *Lorentz Symmetry and IR Structure of The BFSS Matrix Model* &lbrack;[arXiv:2303.14200](https://arxiv.org/abs/2303.14200)&rbrack;
+
+* [[Aidan Herderschee]], [[Juan Maldacena]], *Soft Theorems in Matrix Theory* &lbrack;[arXiv:2312.15111](https://arxiv.org/abs/2312.15111)&rbrack;
 
 
 
