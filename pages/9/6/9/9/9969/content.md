@@ -3,6 +3,7 @@
 
 ## Selected writings
 
+
 Introducing [[Yang-Mills theory]] (eventually: [[quantum chromodynamics]]):
 
 * [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review 96 (1): 191&#8211; 195. (1954) ([web](http://prola.aps.org/abstract/PR/v96/i1/p191_1))
@@ -10,6 +11,11 @@ Introducing [[Yang-Mills theory]] (eventually: [[quantum chromodynamics]]):
 On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[quantum Yang-Baxter equation]]:
 
 * [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+
+On the [[Aharanov-Bohm effect]], generalized to non-abelian [[Yang-Mills theory]] and its description by [[connection on a bundle|connections]] on [[fiber bundles in physics]]:
+
+* {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
+
 
 On [[Dirac monopoles]]:
 
