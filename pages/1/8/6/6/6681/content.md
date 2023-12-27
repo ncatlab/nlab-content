@@ -91,7 +91,12 @@ Exposition of the [[BFSS matrix model]] in view of the [[holographic principle]]
 
 On [[graviton]] [[scattering amplitudes]] in [[D=11 supergravity]] computed via the [[BFSS matrix model]]:
 
-* Aidan Herderschee, [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
+* [[Aidan Herderschee]], [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
+
+and the [[soft graviton theorem]]:
+
+* [[Aidan Herderschee]], [[Juan Maldacena]], *Soft Theorems in Matrix Theory* &lbrack;[arXiv:2312.15111](https://arxiv.org/abs/2312.15111)&rbrack;
+
 
 
 ## Related entries
