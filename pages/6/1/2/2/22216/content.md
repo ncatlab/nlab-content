@@ -112,11 +112,11 @@ $$\frac{\begin{array}{l}
 
 ## Properties
 
-### Constant functions
+### Propositionally constant functions
 
-In [[dependent type theory]], a [[constant function]] from type $A$ to $B$ at an element $b:B$ is a function $f:A \to B$ with a dependent function $p:\prod_{x:A} f(x) =_B b$. 
+In [[dependent type theory]], a [[propositionally constant function]] from type $A$ to $B$ at an element $b:B$ is a function $f:A \to B$ with a dependent function $p:\prod_{x:A} f(x) =_B b$. 
 
-Given a constant function at $b:B$, $f:A \to B$, with $p:\prod_{x:A} f(x) =_B b$, by the recursion principle of the cone type, one has 
+Given a propositionally constant function at $b:B$, $f:A \to B$, with $p:\prod_{x:A} f(x) =_B b$, by the recursion principle of the cone type, one has 
 
 $$\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p):\mathrm{Cone}(A) \to B$$
 
@@ -134,7 +134,7 @@ $$\lambda x:A.b \equiv \mathrm{rec}_{\mathrm{Cone}(A)}^B(b, \lambda x:A.b, \beta
 
 where for [[strict function types]] we have $\beta_{A, B}^{x:A.b} \equiv \lambda x:A.\mathrm{refl}_B(b)$.
 
-Constant functions can also be regarded directly as functions $\mathrm{Cone}(A) \to B$, similar to how paths in $A$ can be regarded as functions $\mathbb{I} \to A$ from the the [[interval type]] rather than the application of said function along the path generator of the interval type. 
+Propositionally constant functions can also be regarded directly as functions $\mathrm{Cone}(A) \to B$, similar to how paths in $A$ can be regarded as functions $\mathbb{I} \to A$ from the the [[interval type]] rather than the application of said function along the path generator of the interval type. 
 
 Since the [[cone type]] is a [[contractible type]], it is equivalent to the [[unit type]], with equivalences $e:\mathrm{Cone}(A) \simeq \mathbb{1}$, and every constant function $(b, f, p)$ factors the unit type through $e \circ \mathrm{base}:A \to \mathbb{1}$ and $\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p) \circ e^{-1}:\mathbb{1} \to B$. 
 
