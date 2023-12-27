@@ -8,16 +8,19 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In general, [[localization]] is a process of adding formal inverses to an algebraic structure. The _localization_ of a [[category]] $C$ at a collection $W$ of its [[morphism]]s is -- if it exists -- the result of universally making all morphisms in $W$ into [[isomorphism]]s, and is more commonly known as the __category of fractions__ $C[W^{-1}]$ (Borceux I, Definition 5.2.1; Gabriel–Zisman, §1.1).
+In general, *[[localization]]* is a process of [[free construction|freely]] adjoining [[inverses]] to an algebraic structure. In [[category theory]], the _localization_ $\mathcal{C}[W^{-1}]$ of a [[category]] $\mathcal{C}$ at a [[class]] $W$ of its [[morphisms]] is -- if it exists -- the result of universally making all morphisms in $W$ into [[isomorphisms]]. 
 
-The term “localization” is not entirely standard when referring to the category of fractions and has other meanings.  For example, Lurie uses it to refer to [[reflective localizations]] instead.
+Some authors call any localization of a category a _category of fractions_  ([Gabriel & Zisman, §1.1](#GabrielZisman67); [Borceux 1994 I, Def. 5.2.1](#Borceux94)), while other authors reserve this name for the case that $W$ admits a "[[calculus of fractions]]" (e.g. [Fritz 2011](#Fritz11)). Conversely, some authors use "localization" to refer exclusively to the latter case (e.g. [Verdier 1996, Def. 2.2.5](#Verdier96);  [Stacks Project](#StacksProject)).
+
+Yet other authors take "localization" to mean specifically "[[reflective localizations]]", by default (e.g. [[Higher Topos Theory|Lurie 2009]]).
+
 
 ### Motivation
 
@@ -247,23 +250,44 @@ See also [[localization of a simplicial model category]].
 
 
 ## References
+ {#References}
 
-A classical reference:
+Authors who say "category of fractions" for the result of inverting any class of morphisms:
 
-* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], §I.1 in: _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_ **35**, Springer (1967)  &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
-An excellent account emphasizing the interplay of the different notions ([[reflective subcategory]], [[calculus of fractions]], [[closure operator]]):
-
-* [[Francis Borceux|F. Borceux]], ch V of: _[[Handbook of Categorical Algebra]] vol. 1_ , Cambridge UP (1994)
+* {#Borceux94} [[Francis Borceux]], §5.2 of: _[[Handbook of Categorical Algebra]] vol. 1_, Cambridge UP (1994)
 
   > (See also vols. 2 and 3 for examples of the theory in action in abelian categories, sheaf theory etc.)
 
-* [[M. Kashiwara]], [[P. Schapira]], section 7 of: _[[Categories and Sheaves]]_, Springer (2000) 
+Authors who say "localization" for the result of inverting any class of morphisms:
+
+* {#KashiwaraSchapira00} [[M. Kashiwara]], [[P. Schapira]], Section 7 of: _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack; [doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
+* Wikipedia, *[Localization of a category](https://en.wikipedia.org/wiki/Localization_of_a_category)*
+
+and reserve "category of fractions" for the case that $W$ admits a [[calculus of fractions]]:
+
+* {#Fritz11} [[Tobias Fritz]], *Categories of Fractions Revisited*, Morfismos **15**  2 (2011) 19-38 &lbrack;[arXiv:0803.2587](https://arxiv.org/abs/0803.2587), [morfismos:vol15-n2-3](https://morfismos.math.cinvestav.mx/sites/default/files/Upload/vol15-n2-3.pdf)&rbrack;
+
+See also:
+
+* {#Yekutieli19} [[Amnon Yekutieli]], Chapter 6 of: *Derived Categories*, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108292825]( https://doi.org/10.1017/9781108292825), [arXiv:1610.09640](https://arxiv.org/abs/1610.09640)&rbrack;
 
 
-The pioneering work on abelian categories, with a large part on the localization in abelian categories is
+Authors who say "localization" for inverting with respect to a [[calculus of fractions]]:
 
-* [[Pierre Gabriel]], [[Des catégories abéliennes]], Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448, [numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0)
+* {#Verdier96} [[Jean-Louis Verdier]], Def. 2.2.5 in: _Des Catégories Dérivées des Catégories Abéliennes_, Astérisque **239** (1996) &lbrack;[numdam:AST_1996__239__R1_0](http://www.numdam.org/issues/AST_1996__239__R1_0), [pdf](http://www.numdam.org/item/AST_1996__239__R1_0.pdf)&rbrack;
+
+* {#StacksProject} [[Stacks Project]], *4.27 Localization in categories* &lbrack;[tag:04VB](https://stacks.math.columbia.edu/tag/04VB)&rbrack;
+
+With focus on localization of [[abelian categories]] and of [[triangulated categories]]
+
+* [[Pierre Gabriel]], *[[Des catégories abéliennes]]*, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962) 323-448 &lbrack;[numdam:BSMF_1962__90__323_0](http://www.numdam.org/item?id=BSMF_1962__90__323_0)&rbrack;
+
+* [Verdier 1996](#Verdier96)
+
+
 
 Review of localization in [[homotopy theory]]:
 
@@ -289,10 +313,11 @@ An original account of [[localization of commutative rings]] and of [[p-localiza
 
 * {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
-
+[[!redirects categories of fractions]]
 
 
 [[!redirects localization functor]]
 [[!redirects localization functors]]
 [[!redirects localisation functor]]
 [[!redirects localisation functors]]
+
