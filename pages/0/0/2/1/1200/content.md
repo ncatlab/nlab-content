@@ -40,6 +40,12 @@ Taking this definition literally in material [[set theory]], each ordinal is the
 
 These pure sets are the __von Neumann ordinals__.  In the presence of the [[axiom of foundation]], $\in$ is automatically a [[well-founded relation]], so it suffices to require that $\in$ be a [[transitive relation]] on $X^+ = X \cup \{X\}$.
 
+In the appendix of [[John Kelley]]'s topology textbook, ordinals are defined as:
+
+* An __ordinal__ is a class $X$ such that every element of $X$ is a subset of $X$ and for all $A,B \in X$, either $A \in B$, $B \in A$ or $A=B$.  
+
+It is later proven that in the axiomatic setting of the appendix ([[Morse-Kelley set theory]]), ordinals are sets.
+
 From the perspective of structural [[set theory]], it breaks the [[principle of equivalence]] to care about distinctions between [[isomorphism|isomorphic]] [[objects]], and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
 
 * An __ordinal__ is a [[well-ordered set]].
@@ -82,6 +88,10 @@ For ordinal numbers in [[homotopy type theory]], see section 10.3 of:
 On the equivalence of set-theoretic and type-theoretic ordinals, see:
 
 * [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], and [[Chuangjie Xu]], *Ordinals.CumulativeHierarchy.html* ([web](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.CumulativeHierarchy.html))
+
+Basic set-theory including ordinals is developped in the appendix of:
+
+* [[John Kelley]], _General topology_, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
 
 [[!redirects ordinal]]
 [[!redirects ordinals]]
