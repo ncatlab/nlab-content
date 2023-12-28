@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,7 +30,7 @@ The historically original example is the [[Bousfield localization of spectra]] &
 
 The existence of Bousfield localizations for [[cellular model categories]] was established in [Hirschhorn (2002), Ch. 4](#Hirschhorn02) and for [[combinatorial model categories]] in [Barwick (2010), Thm. 4.7](#Barwick10) (based on [Smith's theorem](combinatorial+model+category#SmithTheorem)) with discussion for the special case of [[simplicial model categories]] also in [Lurie (2009), around A.3.7.3](#Lurie).
 
-## Left and right localization at a class of morphisms
+## Left localization at a class of morphisms
 
 \begin{definition}\label{LeftLocalization}
 The __[[localization of a model category|left localization]]__ of a [[model category]] $C$ with respect to a class of morphisms $S$ in $C$ is the [[initial object]] (if it exists) $C \to L_S C$ in the following category:
@@ -111,7 +110,7 @@ $$W \subset W_S.$$
 ([Hirschhorn 2002, Prop 3.1.5](#Hirschhorn02))
 
 
-## Left and right Bousfield localizations
+## Left Bousfield localizations
 {#Definition}
 
 +-- {: .num_defn }
@@ -1452,30 +1451,14 @@ On [[monoidal localization|monoidal]] Bousfield localization of [[monoidal model
 
 
 
-[[!redirects bousfield localization]]
-[[!redirects Bousfield localisation]]
-
-[[!redirects left Bousfield localization]]
-[[!redirects left Bousfield localizations]]
 
 [[!redirects left Bousfield localization of model categories]]
 [[!redirects left Bousfield localizations of model categories]]
 
 
-[[!redirects right Bousfield localization]]
-[[!redirects right Bousfield localizations]]
-[[!redirects left Bousfield localisation]]
-[[!redirects left Bousfield localisations]]
-[[!redirects right Bousfield localisation]]
-[[!redirects right Bousfield localisations]] 
 
+[[!redirects left localization of a simplicial model category]]
+[[!redirects left localization of simplicial model categories]]
 
-[[!redirects localization of a simplicial model category]]
-[[!redirects localization of simplicial model categories]]
-
-[[!redirects Bousfield localization of a simplicial model category]]
-[[!redirects Bousfield localization of simplicial model categories]]
-
-
-
-
+[[!redirects left Bousfield localization of a simplicial model category]]
+[[!redirects left Bousfield localization of simplicial model categories]]
