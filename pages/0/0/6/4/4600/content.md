@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -187,11 +188,19 @@ For the case $\mathbf{H} = $ [[Smooth∞Grpd]] this intrinsic definition reprodu
 
 ## References
 
-For original constructions see the references at 
+For more and more original references see:
 
 * _[[Deligne cohomology]]_
 
 * _[[Cheeger-Simons differential characters]]_
+
+* *[[differential cohomology]]*
+
+Lecture notes:
+
+* [[Byungdo Park]], *Differential cohomology and gerbes: An introduction to higher differential geometry*, lecture notes (2023) &lbrack;[pdf](https://byungdo.github.io/seminars/IMSRS.pdf), [[Park-DifferentialCohomology.pdf:file]]&rbrack;
+
+  > (emphasis on relation to [[bundle gerbes]] [[connection on a bundle gerbe|with connection]])
 
 
 For discussion in the broader context of generalized [[differential cohomology]] see
@@ -221,7 +230,7 @@ Discussion of [[equivariant ordinary differential cohomology]]
 
 * [[Corbett Redden]], _An alternate description of equivariant connections_, Differential Geometry and its Applications Volume 56, February 2018, Pages 81-94 ([doi:10.1016/j.difgeo.2017.11.003](https://doi.org/10.1016/j.difgeo.2017.11.003) [arXiv:1608.01297](https://arxiv.org/abs/1608.01297))
 
-* Byungdo Park, [[Corbett Redden]], _A classification of equivariant gerbe connections_, Communications in Contemporary MathematicsVol. 21, No. 02, 1850001 (2019) ([doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013))
+* [[Byungdo Park]], [[Corbett Redden]], _A classification of equivariant gerbe connections_, Communications in Contemporary Mathematics **21** 02 1850001 (2019) &lbrack;[doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013)&rbrack;
 
 * Cheng-Yong Du Xiaojuan Zhao, _Spark and Deligne-Beilinson cohomology on orbifolds_, Journal of Geometry and Physics Volume 104, June 2016, Pages 277-290 ([doi:10.1016/j.geomphys.2016.02.011](https://doi.org/10.1016/j.geomphys.2016.02.011))
 
