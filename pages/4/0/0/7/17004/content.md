@@ -79,11 +79,7 @@ $$
 
 =--
 
-This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06), [Guillot 06](#Guillot06), [Mahanta 17](#Mahanta17), [Dundas-Goodwillie-McCarthy 13, II 1.2](#DundasGoodwillieMcCarthy13), [Morava](#MoravaSomeBackground), [Connes-Consani 16](#ConnesConsani16)).
-
-
-
-The perspective that the [[K-theory]] $K \mathbb{F}_1$ over $\mathbb{F}_1$ should be [[stable Cohomotopy]] has been highlighted in ([Deitmar 06, p. 2](#Deitmar06), [Guillot 06](#Guillot06), [Mahanta 17](#Mahanta17), [Dundas-Goodwillie-McCarthy 13, II 1.2](#DundasGoodwillieMcCarthy13), [Morava](#MoravaSomeBackground), [Connes-Consani 16](#ConnesConsani16)). Generalized to [[equivariant stable homotopy theory]], the statement that [[equivariant K-theory]] $ K_G \mathbb{F}_1$ over $\mathbb{F}_1$ should be [[equivariant stable Cohomotopy]] is discussed in [Chu-Lorscheid-Santhanam 10, 5.3](#ChuLorscheidSanthanam10).
+This perspective is highlighted in: [Deitmar 06, p. 2](#Deitmar06); [Guillot 06](#Guillot06); [Mahanta 17](#Mahanta17); [Dundas, Goodwillie* McCarthy 13, II 1.2](#DundasGoodwillieMcCarthy13); [Morava](#MoravaSomeBackground), [Connes& Consani 16](#ConnesConsani16); [Chu, Lorscheid & Santhanam 10, Thm. 5.9](#ChuLorscheidSanthanam10). The latter reference generalizes also to [[equivariant stable Cohomotopy]] and [[equivariant K-theory]].
 
 [[!include Segal completion -- table]]
 
@@ -305,15 +301,16 @@ see also:
 
 The resulting interpretation of stable cohomotopy as [[algebraic K-theory]] over the [[field with one element]] is amplified in the following texts:
 
-* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], chapter II, section 1.2 of  _The local structure of algebraic K-theory_, Springer 2013 ([pdf](http://math.mit.edu/~nrozen/juvitop/dundas.pdf))
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], chapter II, section 1.2 of  _The local structure of algebraic K-theory_, Springer (2013) &lbrack;[doi:10.1007/978-1-4471-4393-2](https://doi.org/10.1007/978-1-4471-4393-2)&rbrack;
 
+ 
 * {#Deitmar06} [[Anton Deitmar]], _Remarks on zeta functions and K-theory over $\mathbb{F}_1$_ ([arXiv:math/0605429](https://arxiv.org/abs/math/0605429))
 
 * {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](https://arxiv.org/abs/math/0612327))
 
 * {#Mahanta17} [[Snigdhayan Mahanta]], _G-theory of $\mathbb{F}_1$-algebras I: the equivariant Nishida problem_, J. Homotopy Relat. Struct. 12 (4), 901-930, 2017 ([arXiv:1110.6001](https://arxiv.org/abs/1110.6001))
 
-* {#ChuLorscheidSanthanam10} Chenghao Chu, [[Oliver Lorscheid]], Rekha Santhanam, _Sheaves and K-theory for $\mathbb{F}_1$-schemes_, Advances in Mathematics, Volume 229, Issue 4, 1 March 2012, Pages 2239-2286 ([arxiv:1010.2896](https://arxiv.org/abs/1010.2896))
+* {#ChuLorscheidSanthanam10} Chenghao Chu, [[Oliver Lorscheid]], Rekha Santhanam, *Sheaves and K-theory for $\mathbb{F}_1$-schemes*, Advances in Mathematics, **229** 4, (2012) 2239-2286 &lbrack;[arxiv:1010.2896](https://arxiv.org/abs/1010.2896), [doi:10.1016/j.aim.2011.12.023](https://doi.org/10.1016/j.aim.2011.12.023)&rbrack;
 
 
 see also
@@ -322,7 +319,7 @@ see also
 
 * {#ConnesConsani16} [[Alain Connes]], [[Caterina Consani]], _Absolute algebra and Segal's Gamma sets_, Journal of Number Theory 162 (2016): 518-551 ([arXiv:1502.05585](https://arxiv.org/abs/1502.05585))
 
-* {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf))
+* {#Berman18} [[John D. Berman]], p. 92 of: _Categorified algebra and equivariant homotopy theory_, PhD thesis (2018)  &lbrack;[arXiv:1805.08745](https://arxiv.org/abs/1805.08745), [pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf)&rbrack;
 
 
 The [[Kahn-Priddy theorem]] is due to
