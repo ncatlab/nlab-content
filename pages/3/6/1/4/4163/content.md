@@ -100,6 +100,11 @@ with precursors in
 
 * {#BogoliubovShirkov59} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]], _Introduction to the Theory of Quantized Fields_, New York (1959)
 
+Traditional review includes:
+
+* [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
+
+
 A seminal compilation of the resulting rigorous understanding of [[renormalization]] is
 
 * {#VeloWightman76} G. Velo and [[Arthur Wightman]] (eds.) _Renormalization Theory_ Proceedings of the 1975 Erice summer school, NATO ASI Series C 23, D. Reidel, Dordrecht, 1976
