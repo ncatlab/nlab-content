@@ -325,7 +325,7 @@ Further review includes
 
 Review of the relation to [[Dennis trace]], [[topological cyclic homology]] and [[topological Hochschild homology]] is in
 
-* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013 ([pdf](http://math.mit.edu/~nrozen/juvitop/dundas.pdf))
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], *The local structure of algebraic K-theory*, Springer (2013) &lbrack;[doi:10.1007/978-1-4471-4393-2](https://doi.org/10.1007/978-1-4471-4393-2)&rbrack;
 
 
 ### Classical
