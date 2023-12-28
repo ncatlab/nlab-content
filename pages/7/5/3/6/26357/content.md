@@ -1,4 +1,3 @@
-[[!redirects Æ codes]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -37,7 +36,13 @@ It is formed by defining logical-qubit encoding codewords and theorem proving th
 
 ## References
 
-* Shubham Jain, Eric Hudson, Wesley Campbell, Victor Albert, *Æ codes* &lbrack;[arxiv:2311.12324](https://arxiv.org/abs/2311.12324)&rbrack;
+* Shubham Jain, Eric Hudson, Wesley Campbell, [[Victor V. Albert]], *Æ codes* &lbrack;[arxiv:2311.12324](https://arxiv.org/abs/2311.12324)&rbrack;
 
+[[!redirects Æ codes]]
 
+[[!redirects absorption-emission code]]
+[[!redirects absorption-emission codes]]
+
+[[!redirects Absorption-Emission code]]
+[[!redirects Absorption-Emission codes]]
 
