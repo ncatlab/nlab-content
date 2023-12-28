@@ -36,11 +36,23 @@ On [[fibered categories]]:
 
 * {#Bénabou1975} Jean Bénabou, _Fibrations petites et localement petites_, C. R. Acad. Sci. Paris **281** Série A (1975) 897-900 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171.image#)&rbrack;
 
-* {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
+* {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack
+
+On [[foliated categories]]:
+
+* [[Jean Bénabou]], _Cartesian functors and foliated categories_, talk at Oxford (1 May 2012) &lbrack;[YouTube](https://www.youtube.com/watch?v=Y1CeHmjNcuk)&rbrack;
+
+* [[Jean Bénabou]], _Foncteurs cartésiens et catégories feuilletées_, talk at *Journée Guitart*, Paris (9 November 2012) &lbrack;[YouTube](https://www.youtube.com/watch?v=p3vcZDyZ4Yo), [slides](https://docs.google.com/presentation/d/17E0epsZWcDTYlwAMZ4PFCLIf4dyigS-WUA0siUtU-wY/edit?hl=fr#slide=id.gce595186_059), [[Benabou-FoliatedCategories.pdf:file]]&rbrack;
+
+* [[Jean Bénabou]], _Du vieux et du neuf sur la construction de Grothendieck_, talk at Paris-Diderot (March 2019) &lbrack;[YouTube](https://youtu.be/NC0I18B45kE)&rbrack; 
+
+  > (the material on foliated categories -- called simply foliations --- starts at 1:01:00).
+
 
 See also:
 
 * J. Bénabou, _Théories relatives &#224; un corpus_, C. R. Acad. Sci. Paris **281** S&#233;rie A (1975) 831-834. &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f105.image#)&rbrack;
+
 
 
 ## Related entries
