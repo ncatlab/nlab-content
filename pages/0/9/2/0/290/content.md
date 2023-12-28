@@ -187,6 +187,9 @@ Introductions:
 
 * [[David Tong]], *Lectures on Quantum Field Theory*, Cambridge (2006-7) &lbrack;[pdf](https://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf), [web](https://www.damtp.cam.ac.uk/user/tong/qft.html)&rbrack;
 
+* [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
+
+
 A standard textbook written from the perspective of [[effective field theory]]:
 
 * {#Weinberg95} [[Steven Weinberg]] _The Quantum Theory of Fields_, Cambridge University Press (1995)
