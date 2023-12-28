@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[categorical algebra]] and ([[equivariant stable homotopy theory|stable]]) [[equivariant homotopy theory]]"
+On [[categorical algebra]] and ([[equivariant stable homotopy theory|stable]]) [[equivariant homotopy theory]]:
 
 * {#Berman18} [[John D. Berman]], p. 92 of: _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([arXiv:1805.08745](https://arxiv.org/abs/1805.08745))
 
