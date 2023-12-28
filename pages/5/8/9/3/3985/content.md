@@ -1006,7 +1006,8 @@ A [[Coq]]-formalization of left-exact reflective sub-$(\infty,1)$-categories in 
 * [[Mike Shulman]], _[HoTT/Coq/Subcategories/LexReflectiveSubcategory.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/LexReflectiveSubcategory.v)_
  {#Shulman}
 
-
+[[!redirects reflective localization of an (∞,1)-category]]
+[[!redirects reflective localisation of an (∞,1)-category]]
 
 [[!redirects reflective sub-(∞,1)-category]]
 [[!redirects reflective sub-(∞,1)-categories]]
