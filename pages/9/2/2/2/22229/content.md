@@ -11,6 +11,12 @@ On [[equivariant ordinary differential cohomology]]:
 
 * {#ParkRedden19} [[Byungdo Park]], [[Corbett Redden]], _A classification of equivariant gerbe connections_, Communications in Contemporary MathematicsVol. 21, No. 02, 1850001 (2019) ([doi:10.1142/S0219199718500013](https://doi.org/10.1142/S0219199718500013), [arXiv:1709.06003](https://arxiv.org/abs/1709.06003))
 
+On [[ordinary differential cohomology]] with emphasis on relation to [[bundle gerbes]] [[connection on a bundle gerbe|with connection]]:
+
+* [[Byungdo Park]], *Differential cohomology and gerbes: An introduction to higher differential geometry*, lecture notes (2023) &lbrack;[pdf](https://byungdo.github.io/seminars/IMSRS.pdf), [[Park-DifferentialCohomology.pdf:file]]&rbrack;
+
+
+
 
 
 category: people
