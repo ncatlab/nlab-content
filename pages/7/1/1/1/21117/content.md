@@ -427,6 +427,9 @@ See also:
 
 * Wikipedia, _[Quantum error correction](https://en.m.wikipedia.org/wiki/Quantum_error_correction)_
 
+* {#AlbertECZ} [[Victor V. Albert]] et al.,  *[errorcorrectionzoo.org](https://errorcorrectionzoo.org)*
+
+
 In the context of [[quantum secret sharing]]:
 
 * {#CleveGottesmanLo99} Richard Cleve, [[Daniel Gottesman]], Hoi-Kwong Lo, *How to share a quantum secret*, Phys. Rev. Lett. 83 (1999) 648-651 ([arXiv:quant-ph/9901025](https://arxiv.org/abs/quant-ph/9901025))
