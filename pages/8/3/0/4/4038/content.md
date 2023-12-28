@@ -15,9 +15,13 @@ Introducing [[Goodwillie calculus]]:
 * [[Thomas Goodwillie]], _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([euclid:gt/1513883319](https://projecteuclid.org/euclid.gt/1513883319) [doi:10.2140/gt.2003.7.645](http://dx.doi.org/10.2140/gt.2003.7.645), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
 
 
+On [[algebraic K-theory]]:
+
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], *The local structure of algebraic K-theory*, Springer (2013) &lbrack;[doi:10.1007/978-1-4471-4393-2](https://doi.org/10.1007/978-1-4471-4393-2)&rbrack;
 
 
-## Related $n$-Lab entries
+
+## Related entries
 
 * [[Goodwillie calculus]]
 
