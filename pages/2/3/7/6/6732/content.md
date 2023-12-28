@@ -25,7 +25,7 @@ This _large $N$ limit_ often has remarkable properties, often revealing an other
 
 Notably for [[Yang-Mills theory]] and in particular for [[QCD]], the large $N$-behaviour is exhibited by rewriting the [[Feynman amplitudes]] in [['t Hooft double line notation]]. If the [['t Hooft coupling]] $g^2 N$  is held fixed as $N\to \infty$, this turns out to organize the gauge theory's [[Feynman perturbation series]] by the [[Euler characteristic]]/[[genus of a surface|genus]] of emerging [[string theory|string]] [[worldsheet]] [[surfaces]], with genus 0 ([[planar graphs]]) dominating in the large $N$ limit, whence also called the _[[planar limit]]_.
 
-([[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04) and notably
+([[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 05](#GaiottiRastelli05), [Gopakumar 04](#Gopakumar04) and notably
 [Marino 04, Section III, p. 14](#Marino04)).
 
 At least for the case of [[super Yang-Mills theories]] the full statement of the relation of large-$N$ gauge theory to a [[perturbative string theory]] is the content of the _[[AdS/CFT correspondence]]_, which explains that the effective [[string]] [[worldsheets]] emerging from the [[gauge theory]] propagate in a higher-dimensional asymptotically [[anti-de Sitter spacetime]] (the [[near horizon geometry]] of a [[black brane]]) whose [[asymptotic boundary]] (the [[worldvolume]] of the [[black brane]] itself) is identified with the [[spacetime]] of the original [[gauge theory]].
@@ -159,6 +159,9 @@ Further discussion:
 * {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet derivation of a large $N$ duality_, Nucl. Phys. B641:3--34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
 
 * Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_,  J. High Energ. Phys. 2014, 133 (2014) <a href="https://doi.org/10.1007JHEP01(2014)133">doi</a> [arXiv:1309.7333](https://arxiv.org/abs/1309.7333)
+
+* Jan Albert, Johan Henriksson, [[Leonardo Rastelli]], Alessandro Vichi, *Bootstrapping mesons at large $N$: Regge trajectory from spin-two maximization* &lbrack;[arXiv:2312.15013](https://arxiv.org/abs/2312.15013)&rbrack;
+
 
 On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
 
