@@ -515,6 +515,9 @@ On the connection between Grothendieck fibrations and [[factorisation systems]] 
 * J. Hughes and [[Bart Jacobs]], _Factorization systems and fibrations: Toward a fibred Birkhoff variety
 theorem_, Electr. Notes in Theor. Comp. Sci., 69 (2002)
 
+* [[Jiří Rosický ]], [[Walter Tholen]], _Factorization, fibration and torsion_, [arxiv/0801.0063](http://arxiv.org/abs/0801.0063), Journal of homotopy and Related Structures
+
+* Miloslav Štěpán, _Factorization systems and double categories_, [arXiv:2305.06714](https://arxiv.org/abs/2305.06714).
 
 See also:
 
