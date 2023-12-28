@@ -442,6 +442,7 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 * [[Cartesian fibration]]
 
+* [[foliated category]]
 
 ## References 
  {#References}
