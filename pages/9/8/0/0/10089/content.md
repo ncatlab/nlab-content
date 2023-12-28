@@ -31,10 +31,13 @@ On the [[Witten index]] of [[D=4 N=1 super Yang-Mills theory]]:
 * [[Leonardo Rastelli]], Shlomo S. Razamat, _The supersymmetric index in four dimensions_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02965](https://arxiv.org/abs/1608.02965))
 
 
-
 On using the [[conformal bootstrap]] to re-prove the solution of the [[sphere packing problem]] in [[dimensions]] 8 and 24, and interpretation of the result, via [[AdS/CFT]] in terms of the [[weak gravity conjecture]]:
 
 * {#HMR19} [[Thomas Hartman]], [[Dalimil Mazáč]], [[Leonardo Rastelli]], _Sphere Packing and Quantum Gravity_ ([arXiv:1905.01319](https://arxiv.org/abs/1905.01319))
+
+On [[mesons]] in the [[large N limit]] of [[QCD]]:
+
+* Jan Albert, Johan Henriksson, [[Leonardo Rastelli]], Alessandro Vichi, *Bootstrapping mesons at large $N$: Regge trajectory from spin-two maximization* &lbrack;[arXiv:2312.15013](https://arxiv.org/abs/2312.15013)&rbrack;
 
 
 
