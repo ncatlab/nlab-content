@@ -12,9 +12,8 @@
 =--
 =--
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
-
 
 ## Idea 
 
@@ -105,10 +104,6 @@ y'' \arrow[rd, "u"]                                                             
                                                                                                   & y' \arrow[r, "f"]                                 & y                           
 \end{tikzcd}
 
-There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires above lifting property only for $u = id_{p(x_1)}$.  Morphisms satisfying this universal property have in recent years been called [[locally cartesian morphisms]], although historically they have been called simply cartesian, or rarely weak cartesian. In Grothendieck's [[fibered categories]] (see below), cartesian in the strong sense and cartesian in the weak sense are equivalent properties of morphisms.  
-
-Equivalently, a morphism $f:x\to x^\prime$ is called locally $p$-cartesian (relative to a functor $X\to Y$) if it is cartesian with respect to the projection functor $p_{pf}:X_{pf}\to \mathbf{2}$ where $X_{pf}$ is the (homotopy) pullback of $X$ along the functor $c_{pf}:\mathbf{2}\to Y$ classifying the arrow $pf:px\to px^\prime$ in $Y$.
-
 If we pass to the [[nerve]] $N(X)$ and $N(Y)$ of the categories, then in terms of diagrams in [[sSet]] this means that the morphism $f : x \to y$ is $p$-cartesian precisely if for all [[horn]] inclusions
 
 $$
@@ -143,8 +138,16 @@ $$
 
 exists. 
 
-
 =--
+
+\begin{remark}\label{WeakCartesianMorphisms}
+**(weak/local Cartesian morphisms)**
+\linebreak
+There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires the above lifting property only for $u = id_{p(x_1)}$.  Morphisms satisfying this universal property have in recent years been called *[[locally Cartesian morphisms]]*, although historically they have been called simply *Cartesian*, or sometimes *weak Cartesian*. For the case of Grothendieck [[fibered categories]] the notion of weak Cartesian morphisms already coincides with that of actual Cartesian morphisms.
+
+Equivalently, a morphism $f:x\to x^\prime$ is called *locally $p$-Cartesian* (relative to a functor $X\to Y$) if it is Cartesian with respect to the projection functor $p_{pf}:X_{pf}\to \mathbf{2}$ where $X_{pf}$ is the (homotopy) pullback of $X$ along the functor $c_{pf}:\mathbf{2}\to Y$ classifying the arrow $pf:px\to px^\prime$ in $Y$.
+\end{remark}
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -727,3 +730,16 @@ See also the references at [[Grothendieck fibration]].
 [[!redirects opcartesian arrows]]
 [[!redirects opCartesian arrow]]
 [[!redirects opCartesian arrows]]
+
+[[!redirects weak Cartesian morphism]]
+[[!redirects weak Cartesian morphisms]]
+[[!redirects weak cartesian morphism]]
+[[!redirects weak cartesian morphisms]]
+
+
+[[!redirects locally Cartesian morphism]]
+[[!redirects locally Cartesian morphisms]]
+[[!redirects locally cartesian morphism]]
+[[!redirects locally cartesian morphisms]]
+
+
