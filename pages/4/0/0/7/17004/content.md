@@ -299,7 +299,7 @@ see also:
 
 * {#Priddy73} [[Stewart Priddy]], _Transfer, symmetric groups, and stable homotopy theory_, in _Higher K-Theories_, Springer, Berlin, Heidelberg, 1973. 244-255 ([pdf](https://link.springer.com/content/pdf/10.1007/BFb0067060.pdf))
 
-* {#Glasman13} [[Saul Glasman]], _The multiplicative Barratt-Priddy-Quillen theorem and beyond_, talk notes (2013) &lbrack;[pdf](http://math.mit.edu/~sglasman/bpq-beamer.pdf), &rbrack;
+* {#Glasman13} [[Saul Glasman]], _The multiplicative Barratt-Priddy-Quillen theorem and beyond_, talk at *AMS Sectional Meeting* **1095** (2013) &lbrack;[webpage](https://www.ams.org/meetings/sectional/2199_program_ss7.html), [pdf](http://math.mit.edu/~sglasman/bpq-beamer.pdf)&rbrack;
 
 * [[Pedro Boavida de Brito]], [[Ieke Moerdijk]], Thm. 1.2 in: *Dendroidal spaces, $\Gamma$-spaces and the special Barratt-Priddy-Quillen theorem*, Journal für die reine und angewandte Mathematik **2020** 760 (2020) 229-265 &lbrack;[arXiv:1701.06459](https://arxiv.org/abs/1701.06459), [doi:10.1515/crelle-2018-0002](https://doi.org/10.1515/crelle-2018-0002)&rbrack;
 
