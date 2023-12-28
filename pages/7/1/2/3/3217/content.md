@@ -1,3 +1,4 @@
+> This entry is about the concept in differential geometry. For [[Bénabou]]'s generalisation of a [[Grothendieck fibration]], see *[[foliated category]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
