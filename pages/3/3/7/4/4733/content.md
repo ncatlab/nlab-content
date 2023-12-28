@@ -195,6 +195,11 @@ The generalization to unoriented surfaces (hence to type I strings) was given in
 
 (...)
 
+In relation to [[ordinary differential cohomology]]:
+
+* [[Byungdo Park]], *Differential cohomology and gerbes: An introduction to higher differential geometry*, lecture notes (2023) &lbrack;[pdf](https://byungdo.github.io/seminars/IMSRS.pdf), [[Park-DifferentialCohomology.pdf:file]]&rbrack;
+
+
 Discussion of [[transgression]] and [[higher holonomy]] in [[Deligne cohomology]] (for [[bundle gerbes with connection]]) over [[orbifolds]]:
 
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], *Holonomy for Gerbes over Orbifolds*, J. Geom.Phys. **56** (2006) 1534-1560 &lbrack;[arXiv:math/0307114](https://arxiv.org/abs/math/0307114), [doi:10.1016/j.geomphys.2005.08.006](https://doi.org/10.1016/j.geomphys.2005.08.006)&rbrack;
