@@ -233,6 +233,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 * [good covers by Stein manifolds](Stein+manifold#GoodCoversBySteinManifolds) - note that this is a different concept, with vanishing Dolbeault cohomology replacing contractibility.
 
+* [[quasicompact quasiseparated scheme]]: schemes that admit a finite cover by affine opens such that the intersection of any two elements is itself covered by finitely many affine opens.
 
 ## References
  {#References}
