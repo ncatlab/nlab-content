@@ -24,6 +24,8 @@ Recall that a [[functor]] $E \to B$ is called a *[[fibration]]* if its [[fibres]
 
 Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a [[span]] of functors whose joint fibres $E(a,b)$ vary functorially in both $a$ and $b$ ([[contravariant functor|contravariantly]] in one and [[covariant functor|covariantly]] in the other).
 
+This notion should not be confused with a [[bifibration]], which is a functor that is both a [[fibration]] and a [[cofibration]].
+
 ### Definition
 
 Let $K$ be a [[bicategory]] with finite [[2-limits]], and recall that [[fibration in a 2-category|fibrations]] in $K$ may be defined in any of several ways.  Each of these has an analogous version for two-sided fibrations.
@@ -365,7 +367,7 @@ Note that profunctors can also be characterized by their collages, these being t
 
 ### Relation to distributive laws
 
-Fibrations and opfibrations on a category $C$ (or more generally an object of a suitable 2-category) are the algebras for a pair of pseudomonads.  If $C$ has pullbacks, there is a [[pseudo-distributive law]] between these pseudomonads, whose joint algebras are the bifibrations satisfying the [[Beck-Chevalley condition]]; see [von Glehn (2015)](#vonGlehn).
+Fibrations and opfibrations on a category $C$ (or more generally an object of a suitable 2-category) are the algebras for a pair of pseudomonads.  If $C$ has pullbacks, there is a [[pseudo-distributive law]] between these pseudomonads, whose joint algebras are the two-sided fibrations satisfying the [[Beck-Chevalley condition]]; see [von Glehn (2015)](#vonGlehn).
 
 
 ## Related concepts
@@ -385,6 +387,10 @@ Fibrations and opfibrations on a category $C$ (or more generally an object of a 
 * [[Cartesian fibration]]
 
 ## References
+
+An early reference is the notion of "regular span" on page 535 of:
+
+* [[Nobuo Yoneda]], *On ext and exact sequences* (PhD thesis), Journal of the Faculty of Science, Section I. **8** University of Tokyo (1960) 507–576 &lbrack;[pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773)&rbrack;
 
 Original discussion:
 
