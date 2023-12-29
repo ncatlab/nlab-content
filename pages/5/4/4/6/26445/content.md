@@ -33,10 +33,13 @@ Pratt notes that their $\delta$ has the "odd property that the only discreteness
 
 ## Examples
 
-Category | $\delta$ | Quantities $\cong$ Spaces | $\delta$ | Category
+### Contravariant dualities
+
+Category | $\delta$ |[[space and quantity|Spaces $\cong$ Quantities]] | $\delta$ | Category
 ---|---|---|---|---
-[[Set]] | 1 | sets $\cong$ [[complete Boolean algebra|CABAs]]/[[overlap algebra|overlap algebras]] | -1 | [[CABA]]
+[[CABA]] | -1 | [[complete Boolean algebra|CABAs]]/[[overlap algebra|overlap algebras]] $\cong$ sets | 1 | [[Set]]
 [[SupLat]] | 0 | [[suplattice|suplattices]] $\cong$ inflattices | 0 | [[InfLat]]
+[[Vect|$Vect_{\mathbb{F}_2}$]] | 0 | [[vector space|vector spaces]] over $\mathbb{F}_2$ $\cong$ [[dual vector space|dual vector spaces]] over $\mathbb{F}_2$ | 0 | $Vect_{\mathbb{F}_2}$
 
 
 ## References
