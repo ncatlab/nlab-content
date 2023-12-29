@@ -57,8 +57,13 @@ Textbook accounts:
 
 For more see the references at _[[multisymplectic geometry]]_.
 
-A discussion of recursive solutions to classical field equations and their relation to the quantum [[perturbation theory]] is in
+Discussion of recursive solutions to classical field equations and their relation to the quantum [[perturbation theory]]:
 
 * [[Robert Helling]], _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
+
+On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
 
 [[!redirects classical field theories]]
