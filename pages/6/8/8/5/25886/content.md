@@ -95,6 +95,11 @@ More generally, on sigma models with [[flag manifold]] [[target spaces]] and rel
 
 * [[Ian Affleck]], [[Dmitri Bykov]], [[Kyle Wamer]], *Flag manifold sigma models: spin chains and integrable theories*,  Phys. Rept. **953** (2022) 1-93 &lbrack;[arXiv:2101.11638](https://arxiv.org/abs/2101.11638), [doi:10.1016/j.physrep.2021.09.004](https://doi.org/10.1016/j.physrep.2021.09.004)&rbrack;
 
+See also:
+
+* [[Dmitri Bykov]], Anton Pribytok, *Supersymmetric deformation of the $\mathbb{C}P^1$ model and its conformal limits* &lbrack;[arXiv:2312.16396](https://arxiv.org/abs/2312.16396)&rbrack;
+
+
 
 
 [[!include quantum cohomology as Pontrjagin rings -- references]]
