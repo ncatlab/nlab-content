@@ -307,6 +307,10 @@ A category of correspondences is a refinement of a category [[Rel]] of relations
 
 ## References ##
 
+The terminology "span" appears on page 533 of:
+
+* [[Nobuo Yoneda]], *On ext and exact sequences* (PhD thesis), Journal of the Faculty of Science, Section I. **8** University of Tokyo (1960) 507–576 &lbrack;[pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773)&rbrack;
+
 The $Span(C)$ construction was introduced by Jean B&#233;nabou (as an example of a bicategory) in
 
 * [[Jean Bénabou]], Introduction to Bicategories, _Lecture Notes in Mathematics 47_, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
