@@ -108,7 +108,9 @@ See also:
 
 * [[Emily Riehl]] and [[Fosco Loregian]], _Categorical notions of fibration_, Expositiones Mathematicae **38** 4 (2020) 496-514 &lbrack;[arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004)&rbrack;
 
+A joint generalisation of the notions of discrete fibrations and [[discrete opfibrations]] are studied in the following paper under the name *unique factorization liftings*:
 
+* [[Marta Bunge]], [[Susan Niefield]], _Exponentiability and single universes_, JPAA **148** (2000) 217--250
 
 
 [[!redirects discrete fibration]]
