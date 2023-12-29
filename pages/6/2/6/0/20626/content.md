@@ -22,5 +22,7 @@ Relation to [[flag manifold sigma-models]]:
 
 * [[Dmitri Bykov]], *Quantum flag manifold σ-models and Hermitian Ricci flow*, Commun. Math. Phys. **401** 1-32 (2023) &lbrack;[arXiv:2006.14124](https://arxiv.org/abs/2006.14124), [doi:10.1007/s00220-022-04532-5](https://doi.org/10.1007/s00220-022-04532-5)&rbrack;
 
+[[!redirects Gross-Neveu models]]
+
 
 
