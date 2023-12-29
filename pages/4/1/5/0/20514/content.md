@@ -13,9 +13,17 @@
 * table of contents
 {:toc}
 
+## Idea
+
+(...)
+
 ## Related concepts
 
+* [[FLRW model]]
+
 * [[dark energy]]
+
+* [[big bang]]
 
 * [[inhomogeneous cosmology]]
 
@@ -25,8 +33,26 @@
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
-* R. Brent Tully, *The Hubble Constant: A Historical Review* ([arXiv:2305.11950](https://arxiv.org/abs/2305.11950))
+Hubble's law in relation to observation was arguably first discussed by
+
+* [[Georges Lemaître]], *Un Univers homogène de masse constante et de rayon croissant rendant compte de la vitesse radiale des nébuleuses extra-galactiques*, Annales de la Société Scientifique de Bruxelles, A **47** (1927) 49-59 &lbrack;[adsabs:1927ASSB...47...49L](https://adsabs.harvard.edu/full/1927ASSB...47...49L)&rbrack;
+
+but gets its name from
+
+* [[Edwin Hubble]], *A relation between distance and radial velocity among extra-galactic nebulae*, PNAS **15** (1929) 168-173 &lbrack;[doi:10.1073/pnas.15.3.168](https://doi.org/10.1073/pnas.15.3.168)&rbrack;
+
+For more on the intricate history of the discovery of Hubble's law see:
+
+* Harry Nussbaumer, Lydia Bieri, *Discovering the Expanding Universe*, Cambridge University Press (2009) &lbrack;ISBN 978-0-521-51484-2&rbrack;
+
+* Harry Nussbaumer, Lydia Bieri, *Who discovered the expanding universe?* &lbrack;[arXiv:1107.2281](https://arxiv.org/abs/1107.2281), [InSpire:917993](https://inspirehep.net/literature/917993)&rbrack;
+
+
+Review:
+
+* R. Brent Tully, *The Hubble Constant: A Historical Review* &lbrack;[arXiv:2305.11950](https://arxiv.org/abs/2305.11950)&rbrack;
 
 See also
 
@@ -41,7 +67,9 @@ review:
 
 * L. Verde T. Treu, A.G. Riess, _Tensions between the Early and the Late Universe_ ([arXiv:1907.10625](https://arxiv.org/abs/1907.10625))
 
-Indication that the tension is not in the data but in systematic errors:
+In
+
+dication that the tension is not in the data but in systematic errors:
 
 * Freedman et al. _The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch_ ([arxiv:1907.05922](https://arxiv.org/abs/1907.05922))
 
