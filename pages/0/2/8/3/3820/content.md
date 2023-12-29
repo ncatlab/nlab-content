@@ -403,9 +403,13 @@ A discussion in the context of the [[variational bicomplex]] with further pointe
 
 * E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267-1286
 
-A discussion in the language of [[D-module]]s, following the book [[Chiral Algebras]] and leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
+A discussion in the language of [[D-modules]], following the book [[Chiral Algebras]] and leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
 
 * {#Paugam} [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
+
+Discussion in the context of [[smooth sets]]:
+
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §7.3 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
 
 On the relation between covariant phase space methods and [[multisymplectic geometry]]:
