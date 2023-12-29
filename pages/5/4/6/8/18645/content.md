@@ -1,4 +1,3 @@
-[[!redirects geometry of physics -- A first idea of quantum field theory]]
 
 
 <img src="https://ncatlab.org/schreiber/files/HamburgAnnouncement.jpg" width="850" >
@@ -94,9 +93,9 @@ Pointers to the literature are given in each chapter, alongside the text. The fo
 
 The discussion of [[spinors]] in chapter _[2. Spacetime](#Spacetime)_ follows [Baez-Huerta 09](spin+representation#BaezHuerta09).
 
-The [[functorial geometry]] of [[supergeometry|supergeometric]] [[spaces of field histories]] in _[3. Fields](#Fields)_ follows [Schreiber 13](higher+prequantum+geometry#Schreiber13). 
+The [[functorial geometry]] of [[supergeometry|supergeometric]] [[spaces of field histories]] in _[3. Fields](#Fields)_ follows [Schreiber 13](higher+prequantum+geometry#Schreiber13), further developed by [Giotopoulos & Sati 2023](smooth+set#GiotopoulosSati23). 
 
-For the [[jet bundle]]-formulation of [[variational calculus]] of [[Lagrangian field theory]] in _[4. Field variations](#FieldVariations)_, and _[5. Lagrangians](#Lagrangians)_ we follow [Anderson 89](variational+bicomplex#Anderson89) and [Olver 86](#Olver86); for _[6. Symmetries](#Symmetries)_ augmented by [Fiorenza-Rogers-Schreiber 13b](#higher+prequantum+geometry#FRS13b).
+For the [[jet bundle]]-formulation of [[variational calculus]] of [[Lagrangian field theory]] in _[4. Field variations](#FieldVariations)_, and _[5. Lagrangians](#Lagrangians)_ we follow [Anderson 89](variational+bicomplex#Anderson89) and [Olver 86](#Olver86), further developed by [Giotopoulos & Sati 2023](smooth+set#GiotopoulosSati23); for _[6. Symmetries](#Symmetries)_ augmented by [Fiorenza-Rogers-Schreiber 13b](#higher+prequantum+geometry#FRS13b).
 
 The identification of [[polynomial observables]] with [[distributions]] in _[7. Observables](#Observables)_ was observed by [Paugam 12](distributions+are+the+smooth+linear+functionals#Paugam12).
 
@@ -174,5 +173,6 @@ $\,$
 [[!include A first idea of quantum field theory -- Renormalization]]
 
 
+[[!redirects geometry of physics -- A first idea of quantum field theory]]
 [[!redirects A first idea of quantum field theory]]
 
