@@ -413,12 +413,11 @@ Lecture notes:
 
 * [[Urs Schreiber]]: _[[geometry of physics -- smooth sets]]_
 
-
-Discussion of smooth sets as a [[convenient category of spaces|convenient category]] for [[variational calculus|variational]] [[classical field theory]]:
+Discussion of smooth sets as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
 * [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]], video:[YT](https://youtu.be/7Bw9CJct8QY)&rbrack;
 
-  > (on *[[schreiber:Smooth Sets of Fields]]*)
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
 
 [[!redirects smooth space]]
