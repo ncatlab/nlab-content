@@ -439,6 +439,10 @@ A formalization of invariance of Lagrangians in [[parametricity|parametric]] [[d
 
 * [[Robert Atkey]], _From Parametricity to Conservation Laws, via Noether's Theorem_, talk at _[Principles of Programming Languages (POPL) 2014](http://popl.mpi-sws.org/2014/index.html)_  ([pdf article](http://bentnib.org/conservation-laws.pdf), [web slides](http://bentnib.org/posts/2014-01-29-popl-slides.html), [pdf slides](http://bentnib.org/docs/conservation-laws-20140124.pdf))
 
+Discussion in the convenient context of [[smooth sets]]:
+
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §6 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
 
 
 [[!redirects Noether's theorems]]
