@@ -48,6 +48,7 @@ This is because for any choice of $p$-dimensional submanifold $\Sigma_p \hookrig
 
 * _[Higher Prequantum Geometry IV: The Covariant Phase Space &#8211; Transgressively](https://www.physicsforums.com/insights/higher-prequantum-geometry-iv-covariant-phase-space-transgressively/)_
 
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §7 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
 
 
