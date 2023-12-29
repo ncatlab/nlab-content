@@ -1767,7 +1767,6 @@ Further discussion of the graph complex as a model for the [[de Rham cohomology]
 
 On [[loop spaces]] of [[configuration spaces of points]]:
 
-
 * [[Edward Fadell]], [[Sufian Husseini]], _The space of loops on configuration spaces and the Majer-Terracini index_, Topol. Methods Nonlinear Anal. Volume 11, Number 2 (1998), 249-271 ([euclid:tmna/1476842829](https://projecteuclid.org/euclid.tmna/1476842829))
 
 Specifically on [[ordinary homology]]/[[ordinary cohomology]] of [[based loop spaces]] of [[configuration spaces of points]] and the relation to [[weight systems]]/[[Vassiliev invariants]]:
@@ -1781,6 +1780,8 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 * {#Kohno02} [[Toshitake Kohno]], _Loop spaces of configuration spaces and finite type invariants_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arXiv:math/0211056](https://arxiv.org/abs/math/0211056))
 
 * [[Fred Cohen]], [[Samuel Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, ([jstor:2693715](https://www.jstor.org/stable/2693715), [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013))
+
+For more see also at *[[weight systems are cohomology of loop space of configuration space]]*.
 
 ### Graph configuration spaces
 
