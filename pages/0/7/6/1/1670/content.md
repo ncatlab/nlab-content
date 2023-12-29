@@ -106,6 +106,12 @@ The [[closed subsets]] in a [[topological space]] form a Moore collection; here 
 
 (However, these properties may fail in [[constructive mathematics]]; in fact, a topology cannot be constructively recovered from its closure operation.)
 
+The first pair of properties is equivalent to the following weaker ones given that $A \subseteq Cl(A)$:
+
+* $Cl(\empty) \subseteq \empty$ and $Cl(A \cup B) \subseteq Cl(A) \cup Cl(B)$.
+
+The closure operator of a topological space with underlying set $X$, and thus in classical mathematics, a topology on a set $X$, can thus be described as an [[monoidal monad | oplax monoidal monad]] on the [[join semilattice]] $\mathcal{P}X$ considered as a cocartesian monoidal category.  
+
 Notice that a preclosure in a [[pretopological space]], is not a closure in the above sense, even though some authors do call this 'closure'.
 
 
