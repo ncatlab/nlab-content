@@ -85,7 +85,7 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
 In many examples, the class $R_2 L_1$ is closed under composition, but this is not always the case.
 
-+--{: .un_prop #R2L1Comp}
++--{: .num_prop #R2L1Comp}
 ###### Proposition
 In a ternary factorization system, the class $R_2L_1$ is closed under composition if and only if $L_1R_2 \subseteq R_2L_1$.
 =--
@@ -96,7 +96,7 @@ This is Proposition 3.6 of [Pultr and Tholen](#PultrTholen).
 "Only if" is obvious, since $L_1R_2 \subseteq (R_2L_1)(R_2L_1)$ which is contained in $R_2L_1$ if it is closed under composition.  Conversely, if $L_1R_2 \subseteq R_2L_1$ then $(R_2L_1)(R_2L_1) = R_2 (L_1 R_2) L_1 \subseteq R_2 (R_2 L_1) L_1 \subseteq R_2 L_1$.
 =--
 
-+--{: .un_cor #R2L1NotComp}
++--{: .num_cor #R2L1NotComp}
 ###### Corollary
 In a ternary factorization system, if every morphism factors as an $R_2$-map followed by an $L_1$-map, then $R_2L_1$ is closed under composition if and only if it consists of all morphisms, and if and only if $L_2 \cap R_1$ consists of only the isomorphisms.
 =--
