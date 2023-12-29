@@ -30,6 +30,13 @@ For the moment see at _[[field theory]]_ for more details.
 
 * [[configuration space (physics)]]
 
+## References
+
+Discussion in the convenient context of [[smooth sets]]:
+
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §1 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
+
 [[!redirects space of trajectories]]
 [[!redirects spaces of trajectories]]
 
