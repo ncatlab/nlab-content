@@ -782,6 +782,11 @@ Discussion in the context of [[supergeometry]] is in
 
 * [[Gennadi Sardanashvily]], _Grassmann-graded Lagrangian theory of even and odd variables_ ([arXiv:1206.2508](https://arxiv.org/abs/1206.2508))
 
+Discussion in the convenient context of [[smooth sets]]:
+
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §5.1 & §7.1 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
+
 [[!redirects horizontal derivative]]
 [[!redirects horizontal derivatives]]
 
