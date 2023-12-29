@@ -74,7 +74,13 @@ See also:
 
 * [[Robert Bryant]], [[Phillip Griffiths]], Daniel Grossman, _Exterior differential systems and Euler-Lagrange partial differential equations_, Chicago Lectures in Mathematics 2003, 205+xiv pp. [math.DG/0207039](http://arxiv.org/abs/math/0207039) [bookpage](http://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3637779.html)
 
+Discussion in the convenient context of [[smooth sets]]:
+
 * _[Higher prequantum geometry II: The principle of extremal action -- comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/)_
+
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §5 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
+
 
 [[!redirects Euler-Lagrange equations]]
 
