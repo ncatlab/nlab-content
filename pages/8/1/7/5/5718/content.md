@@ -319,9 +319,9 @@ with further developments in
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
 
-In the context of algebraic geometry, the abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
+In the context of algebraic geometry, the abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed in
 
-* {#Lurie} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
+* {#Lurie} [[Jacob Lurie]], p. 6 of: *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 
 The explicit description in terms of formal duals of [[commutative monoids]] in [[D-module|D-modules]] is in
@@ -329,14 +329,14 @@ The explicit description in terms of formal duals of [[commutative monoids]] in 
 * {#BeilinsonDrinfeld} [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
  
 
-An exposition of this is in section 2.3 of 
+Exposition: 
 
-* {#Paugam} [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
+* {#Paugam} [[Frédéric Paugam]], Section 2.3 of: _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
  
 
-A discussion of jet bundles with an eye towards discussion of the [[variational bicomplex]] on them is in chapter 1, section A of
+A discussion of jet bundles with an eye towards discussion of the [[variational bicomplex]] on them :
 
-* {#Anderson} [[Ian Anderson]], _The variational bicomplex_ ([[AndersonVariationalBicomplex.pdf:file]])
+* {#Anderson} [[Ian Anderson]], chapter 1, section A of: _The variational bicomplex_ &lbrack;[[AndersonVariationalBicomplex.pdf:file]]&rbrack;
 
 The [[de Rham complex]] and [[variational bicomplex]] of jet bundles is discussed in
 
@@ -344,6 +344,11 @@ The [[de Rham complex]] and [[variational bicomplex]] of jet bundles is discusse
 Mathematical Physics 42, 4272-4282 (2001) ([arXiv:math/0006074](http://arxiv.org/abs/math/0006074))
 
 where both versions (smooth functions being globally or locally of finite order) are discussed and compared.
+
+Discussion of all this in the convenient context of [[smooth sets]]:
+
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], §4 in: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
 
 Discussion of jet-restriction of the [[Haefliger groupoid]] is in 
 
@@ -354,13 +359,14 @@ Discussion of jet bundles in [[supergeometry]] includes
 
 * Arthemy V. Kiselev, Andrey O. Krutov, appendix of _On the (non)removability of spectral parameters in $\mathbb{Z}_2$-graded zero-curvature representations and its applications_ ([arXiv:1301.7143](http://arxiv.org/abs/1301.7143))
 
+* [[Gennadi Sardanashvily]], _Graded infinite order jet manifolds_, _Int. J. Geom. Methods Mod. Phys. v.4 (2007) 1335-1362_ ([arXiv:0708.2434](https://arxiv.org/abs/0708.2434))
+
+
 See also
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
-In the context of [[supermanifolds]], discussion is in 
 
-* [[Gennadi Sardanashvily]], _Graded infinite order jet manifolds_, _Int. J. Geom. Methods Mod. Phys. v.4 (2007) 1335-1362_ ([arXiv:0708.2434](https://arxiv.org/abs/0708.2434))
 
 On jet bundles of $\mathbb{Z}$-[[graded manifold|graded manifolds]] and their [[vector bundle|vector bundles]]:
 
