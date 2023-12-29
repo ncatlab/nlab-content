@@ -80,6 +80,8 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 ## Related concepts
 
+* [[Hubble's law]]
+
 * [[big bang]]
 
 * [[comoving time]]
