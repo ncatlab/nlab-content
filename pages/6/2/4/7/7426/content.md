@@ -8,11 +8,13 @@ Given an element $a$ of a [[Boolean algebra]] (or other [[poset]]) $A$, recall t
 
 A Boolean algebra $A$ is __atomic__ if we have $b = \bigvee_I a_i$ for every $b \in A$, where $\{a_i\}_I$ is some set of atoms in $A$.
 
+Equivalently: if for every $b \in A$, we have $b = \bigvee \mathcal{A}(b)$ where $\mathcal{A}(b)$ is the set of all the atoms $a$ in $A$ such that $a \leq b$.
+
+Or: for every $b \in A$, we have $b \le \bigvee \mathcal{A}(b)$.
 
 ## Properties
 
 * A [[complete lattice|complete]] atomic Boolean algebra is necessarily a [[power set]]; see [[CABA]].
-
 
 [[!redirects atomic Boolean algebra]]
 [[!redirects atomic Boolean algebras]]
