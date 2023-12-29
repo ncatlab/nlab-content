@@ -206,7 +206,7 @@ Let $K$ be a [[2-category]].
 
    1. a [[1-morphism]] $x \colon a \to b$ in $K$ 
 
-   1. a [[2-morphisms]] $\lambda \colon s x \to x t$  in $K$
+   1. a [[2-morphism]] $\lambda \colon s x \to x t$  in $K$
  
    making the following [[commuting diagram|diagrams commute]]:
 
