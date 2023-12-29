@@ -4,7 +4,7 @@
 
 ## Idea
 
-The Stone gamut is a unifying representation of several common categories in terms of [[Chu space|Chu spaces]]. It is named after [[Stone duality]].
+The Stone gamut is a unifying representation of several common categories in terms of [[Chu space|Chu spaces]]. It is named after [[Stone duality]]. The study of Chu duality and the Stone gamut is known as **chupology**. (Pratt 2006)
 
 
 ## Definition 
@@ -36,9 +36,11 @@ Pratt notes that their $\delta$ has the "odd property that the only discreteness
 Category | $\delta$ | Quantities $\cong$ Spaces | $\delta$ | Category
 ---|---|---|---|---
 [[Set]] | 1 | sets $\cong$ [[complete Boolean algebra|CABAs]]/[[overlap algebra|overlap algebras]] | -1 | [[CABA]]
+[[SupLat]] | 0 | [[suplattice|suplattices]] $\cong$ inflattices | 0 | [[InfLat]]
 
 
 ## References
 
 * {#Pratt1995} [[Vaughan Pratt]], _The Stone gamut: a Coordinatization of Mathematics_, Proceedings of Tenth Annual IEEE Symposium on Logic in Computer Science (1995) &lbrack;[doi:10.1109/LICS.1995.523278](https://doi.org/10.1109/LICS.1995.523278), [pdf](http://boole.stanford.edu/pub/gamut.pdf)&rbrack;
 * {#Pratt1999} [[Vaughan Pratt]], _Chu Spaces_, School on Category Theory and Applications, University of Coimbra (1999) &lbrack;[notes (pdf)](http://boole.stanford.edu/pub/coimbra.pdf)&rbrack;
+* {#Pratt2006} [[Vaughan Pratt]], _dualities_, *Categories list* mailing list (2006) &lbrack;[list archive](http://www.mta.ca/~cat-dist/archive/2006/06-5)&rbrack;
