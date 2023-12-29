@@ -50,7 +50,7 @@ On [[AdS-CFT duality|AdS-CFT dual]] [[type II supergravity]]-solutions correspon
 
 * [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
 
-And the non-supersymmetric generalization to "microstrata", via [[Ad3-CFT2 duality]]:
+And the non-supersymmetric generalization to "microstrata", via [[AdS3-CFT2 duality]]:
 
 * [[Bogdan Ganchev]], [[Anthony Houppe]], [[Nicholas P. Warner]], *Q-Balls Meet Fuzzballs: Non-BPS Microstate Geometries*, J. High Energ. Phys. **2021** 28 (2021)
 &lbrack;[arXiv:2107.09677](https://arxiv.org/abs/2107.09677)&rbrack;
