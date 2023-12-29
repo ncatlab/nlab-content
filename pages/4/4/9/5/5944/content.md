@@ -18,6 +18,8 @@ Every [[separated morphism of schemes]] is quasi-separated; every monomorphism o
 
 * [[quasicompact morphism]]
 
+* [[quasicompact quasiseparated morphism]]
+
 * [[morphism of finite presentation]]
 
 ## References
@@ -26,7 +28,12 @@ Every [[separated morphism of schemes]] is quasi-separated; every monomorphism o
 * [[Daniel Murfet]], _Concentrated schemes_, [pdf](http://therisingsea.org/notes/ConcentratedSchemes.pdf), an expositional digest from EGA
 
 category: algebraic geometry
-[[!redirects quasiseparated morphism]]
+
+[[!redirects quasi-separated morphism]]
+[[!redirects quasi-separated morphisms]]
+[[!redirects quasiseparated morphisms]]
+[[!redirects quasiseparated]]
+[[!redirects quasi-separated]]
 [[!redirects quasiseparated scheme]]
 [[!redirects quasi-separated schemes]]
 [[!redirects quasi-separated scheme]]
