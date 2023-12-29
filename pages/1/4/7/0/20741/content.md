@@ -37,7 +37,33 @@ where $g$ is applied component-wise.
 Typically, $T_1$ is called the input layer, $T_L$ the output layer, and layers $T_2$ to $T_{L-1}$ are hidden layers. In particular, a real-valued 1-hidden layer neural network with computes:
 
 $$f(x) = b' + \sum_{i=1}^n a_i g(\langle W_i, x\rangle + b)$$
-where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ the $i^{th}$ row of the hidden weight matrix, and $b$ the hidden bias. Here, the hidden layer is $n$-dimensional.   
+where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ the $i^{th}$ row of the hidden weight matrix, and $b$ the hidden bias. Here, the hidden layer is $n$-dimensional. 
+
+## Large network theory
+For simplicity, consider a fully connected network with one layer. In terms of the notation above, consider $K\subset \mathbb{R}$ and $m=1$, also for simplicity. Denote the collection of weights ($W$'s and $b$'s) by $\theta$. Any fixed $\theta$ fixes some function $f_\theta\colon K\to \mathbb{R}$. Now instead of fixing one $\theta$, place some probability distribution over each of its components - for example, we may consider narrow probability Gaussians sitting over each weight. This in turn introduces a probability distribution over the function space ${\mathbb{R}}^{\mathbb{R}}$. For large layer width, by the **universal approximation theorem**, one can represent any $f\colon{\mathbb{R}}\to{\mathbb{R}}$ well (i.e. up to smaller and smaller numerical error), meaning such the resulting distribution may assign non-zero value to any such function. Indeed, as established in the mid 90's, considering a sequence of networks with a wider and wider hidden layer, and placing more and more sharp Gaussians over their weights, by the [[central limit theorem]] CLT, results in a probability distribution over ${\mathbb{R}}^{\mathbb{R}}$ that typically is a Gaussian process GP. These GP's are called **neural network Gaussian processes**, NNGP. (Roughly $P[f]=e^{-S[f]}$ with $S[f] = \int \rho_f$ where $\rho_f \propto f(x)f(y) dx dy$.)
+
+### Applications in physics
+Non-Gaussian non-zero cumulant effects emerge from either not taking the infinite width limit, or alternatively also from violating CLT's assumptions. The latter can practically be done by making the random sampling of certain parameters (certain $\theta$-components) depending on already sampled parameters.
+
+Correlation functions (w.r.t. input $x$ and outputs $y$) are empirically accessible. Lately, researches have defined networks that in this way in the limit represent quantum fields, **Neural Network Field Theories**.
+We may speak of neural network quantum field, e.g., when the correlation functions fulfills the [[Osterwalder-Schrader theorem | Osterwalder-Schrader axioms]].
+Here, non-Gaussian effects can be expanded as non-quadratic contributions, corresponding to field interactions. (But note that with the finite-width approach, the universal approximation property will generally also break.)
+From such non-trivial correlations, one may also attempt to reconstruct the corresponding field density (and thus the actions $S$.)
+J. Halverson et al. specify the necessary architecture & distributions over $\theta$ to sample from the quartic actions ($\phi^4$-theory.)
+Conversely, Feynman diagram tools have been used to study the expected properties of a random-initialized network.
+
+## Learning theory
+A neural network architecture specifies parameters and one then learns a prescription $f_\theta$ on how to get close to many given target positions $y_x$, given their index $x$. In the gradient descent approach, one incrementally alters the weights ($\theta_i \mapsto \theta_{i+1}$) so as to minimize a loss function $C$, which expresses how far the prescription is from $y_x$, for all the indices at once. This process thus corresponds to a trajectory of functions from network initialization till sufficient convergence ($f_{\theta_i} \mapsto f_{\theta_{i+1}}$).
+In practical neural network training, improved gradient methods are employed (e.g. stochastic and batching considerations).
+
+Improving the amount of computational shortcuts taken in implementing $\nabla_\theta$ is what *pytorch* and *tensorflow* is largely about. There is a neural tangent library on the google github.
+Notable, also from google, there are some recent improvements related to baking the statistics of the collection of data ($z$) into the learning process (self-attention, transformers). 
+
+### Neural tangent kernel theory
+As is common in stochastic control, one may look at the step sizes in a very fine limit, i.e. pass to calculus proper. The algorithm is then expressed as the vector equation $\theta'(t) = -\nabla_\theta\Phi$ with $\Phi = \sum_z C(f_{\theta(t)}(z), y_z)$, where $z$ ranges over the available learning data. The mathematical derivations end up having a similar flavor as when doing [[Hamiltonian mechanics]], the field amplitudes $\theta$ being governed at all places by a gradient of a potential that depends on the amplitude value through the costs of some property $f_\theta$. This implies a formally simple formula for the learning evolution of networks outputs $\partial_t f_\theta$ also, the main ingredient being function $\Theta_\theta(x,z)=\nabla_\theta f(x)\cdot \nabla_\theta f(z)$. (It's a similarity measure reminiscent of [[kernel method]]s. The quantity is small when the changes of $f_\theta$ (w.r.t. a change of $\theta$) are different on $x$ resp. $y$.)
+In the limit of infinite width (and small step size limit and everything in distribution), the (theoretical) network has so many degrees of freedom that (roughly speaking) learning becomes very effective.
+The learning theory in the limit goes under **neural tangent kernel theory** (NTK theory). Formal relations between different learning approaches (neural networks and kernel machines in particular) become simpler here. Depending on the loss function, the structure may remain Gaussian throughout the learning.
+For a shallow network of finite size, $\Theta_\theta$ may still give a quantitative idea on how that (finite) network will change upon tuning of its parameters. Some work was done to try to establish where NTF results start to significantly fail for practical networks. Note: Infinite networks (where weights barely need to be tuned to learn) also don't encode abstracted features.
 
 ## Relation to differential equations and dynamical systems
 
@@ -104,12 +130,15 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * G.S.H. Cruttwell, [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
+Neural networks field theory:
+
+* Mehmet Demirtas, James Halverson, Anindita Maiti, Matthew D. Schwartz, Keegan Stoner, *Neural Network Field Theories: Non-Gaussianity, Actions, and Locality*, (2023)  ([arXiv:2307.03223](https://arxiv.org/abs/2307.03223))
+
 Quantum neural networks (in [[quantum computation]] for [[quantum machine learning]]):
 
 * Iris Cong, Soonwon Choi & Mikhail D. Lukin, *Quantum convolutional neural networks*, Nature Physics volume 15, pages 1273–1278 (2019)  ([doi:10.1038/s41567-019-0648-8](https://doi.org/10.1038/s41567-019-0648-8))
 
 * {#MariBromleyIzaacSchuldKilloran20} Andrea Mari, Thomas R. Bromley, Josh Izaac, Maria Schuld, Nathan Killoran,  *Transfer learning in hybrid classical-quantum neural networks*, Quantum 4, 340 (2020) ([arXiv:1912.08278](https://arxiv.org/abs/1912.08278))
-
 
 * Stefano Mangini, Francesco Tacchino, Dario Gerace, Daniele Bajoni, Chiara Macchiavello, *Quantum computing models for artificial neural networks*, EPL (Europhysics Letters) 134(1), 10002 (2021) ([arXiv:2102.03879](https://arxiv.org/abs/2102.03879))
 
