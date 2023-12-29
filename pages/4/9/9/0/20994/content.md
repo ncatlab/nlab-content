@@ -56,5 +56,10 @@ Relation to [[D=3 N=2 super Yang-Mills theory]]:
 
 * [[Hans Jockers]], [[Peter Mayr]], *A 3d Gauge Theory/Quantum K-Theory Correspondence*, Advances in Theoretical and Mathematical Physics **24** 2 (2020) &lbrack;[arXiv:1808.02040](https://arxiv.org/abs/1808.02040), [doi:10.4310/ATMP.2020.v24.n2.a4](https://dx.doi.org/10.4310/ATMP.2020.v24.n2.a4)&rbrack;
 
+Construction in [[M-theory]]:
+
+* Marwan Najjar, Jiahua Tian, Yi-Nan Wang, *3d $\mathcal{N}=2$ theories from M-theory on CY4 and IIB brane box* &lbrack;[arXiv:2312.17082](https://arxiv.org/abs/2312.17082)&rbrack;
+
+
 
 [[!redirects D=3 N=2 SYM]]
