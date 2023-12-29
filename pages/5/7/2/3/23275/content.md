@@ -101,6 +101,8 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 =--
 
+Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $E$ is the class of [[initial functors]] and $M$ is the class of [[discrete opfibrations]].
+
 
 ## References
 
