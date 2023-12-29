@@ -2032,7 +2032,7 @@ Stone-von Neumann**
 
   **Classical field theory in the topos of smooth sets**
 
-  cf. *[[schreiber:Smooth Sets of Fields|Smooth Sets of Fields]]*
+  cf. *[[schreiber:Smooth Sets of Fields|Smooth Sets of Fields]]*, [arXiv:2312.16301](https://arxiv.org/abs/2312.16301)
 
   notes: [[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]]
 
