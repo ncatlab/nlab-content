@@ -88,7 +88,7 @@ Having a distributive law $l$ from one monad to another enables to define the co
 
 
 A __distributive law__ for a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ over an endofunctor
-$P$ is a [[2-morphisms]] $l : T P \Rightarrow P T$ such that
+$P$ is a [[2-morphism]] $l : T P \Rightarrow P T$ such that
 $l \circ (\eta^T)_P = P(\eta^T)$ and
 $l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$. In diagrams:
 \begin{tikzcd}
