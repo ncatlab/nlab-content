@@ -137,6 +137,10 @@ On [[U-duality]] (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
 
+On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
 
 
 category: people
