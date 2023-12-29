@@ -75,6 +75,7 @@ For exponentiability in the weak [[2-category]] $Cat$, in the sense of pullback 
 
 A functor can then be shown to be a weak Conduch&#233; functor if and only if it is exponentiable in the weak sense in $Cat$.
 
+A Conduch&#233; functor is **discrete** if each factorisation is unique (equivalently, if it reflects identities). Discrete Conduch&#233; functors generalise [[discrete fibrations]] and [[discrete opfibrations]].
 
 ## Conduch&#233; functors and 2-functors to Prof
 
@@ -207,3 +208,8 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 [[!redirects Conduché infinity-functors]]
 [[!redirects exponentiable infinity-functor]]
 [[!redirects exponentiable infinity-functors]]
+
+[[!redirects discrete Conduché functor]]
+[[!redirects discrete Conduché functors]]
+[[!redirects discrete exponentiable functor]]
+[[!redirects discrete exponentiable functors]]
