@@ -340,19 +340,22 @@ Geometric extremization problems (e.g. minimal surfaces), see also [[geometric m
 * H. Federer, _Geometric measure theory_, Springer 1969(especially appendices to Russian transl.) 
 * Frederick J., Jr. Almgren, Almgren's big regularity paper (book form of a 1970s preprint)
 
-Discussion in the context of BV formalism:
+Discussion in the context of [[BV formalism]]:
 
-* Arthemy V. Kiselev, _The geometry of variations in Batalin-Vilkovisky formalism_, 
-[http://arxiv.org/abs/1312.1262](http://arxiv.org/abs/1312.1262)
+* Arthemy V. Kiselev, _The geometry of variations in Batalin-Vilkovisky formalism_,  [http://arxiv.org/abs/1312.1262](http://arxiv.org/abs/1312.1262)
 
 Other references
 
 * J. C. P. Bus, _The Lagrange multiplier rule on manifolds and optimal control of nonlinear systems_, SIAM J. Control and Optimization __22__, 5, 1984, 740-757 [pdf](http://oai.cwi.nl/oai/asset/2552/2552A.pdf)
 
-#### Relation to covariant phase spaces
+In the [[covariant phase space]]-perspective:
 
 * L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
  {#Vitagliano}
+
+On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
 
 ### By functorial analysis and $\mathcal{D}$-geometry
