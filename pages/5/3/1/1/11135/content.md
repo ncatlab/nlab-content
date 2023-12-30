@@ -91,4 +91,8 @@ The characterization of algebras is Proposition 10 of
 
 * [[Martin Hyland]], [[Paul Blain Levy]], [[Gordon Plotkin]] and [[John Power]], _Combining algebraic effects with continuations_, Theoretical Computer Science, 2007. ([pdf](https://homepages.inf.ed.ac.uk/gdp/publications/comb_cont_journal.pdf))
 
+A characterisation of ([[enriched monad|enriched]]) monads isomorphic to continuation monads is given in:
+
+* Christopher Townsend, _When are enriched strong monads double exponential monads?_, Bulletin of the Belgian Mathematical Society-Simon Stevin 23.2 (2016): 311-319.
+
 [[!redirects continuation monads]]
