@@ -112,7 +112,7 @@ This operation is often called the **Hadamard product** of species.
 
 #### Dirichlet product
 
-The category $core(FinSet)$ also becomes a [[monoidal category]] under cartesian product of finite sets. This monoidal structure induces another [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.  This could be called the **Dirichlet product** of species, or sometimes simply the product, since the Dirichlet series of this product of species is the product of their Dirichlet series.  (See [Dirichlet series and the Hasse--Weil zeta function](https://ncatlab.org/johnbaez/show/Dirichlet+species+and+the+Hasse-Weil+zeta+function).)
+The category $core(FinSet)$ also becomes a [[monoidal category]] under cartesian product of finite sets. This monoidal structure induces another [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.  This monoidal structure on species seems to be what Maia and M&eacute;ndez call the **arithmetic product**, but here we call it the **Dirichlet product** of species, since the Dirichlet series of this product of species is the product of their Dirichlet series.  (See [Dirichlet series and the Hasse--Weil zeta function](https://ncatlab.org/johnbaez/show/Dirichlet+species+and+the+Hasse-Weil+zeta+function).)  
 
 #### Composition product  
 
@@ -415,16 +415,16 @@ The notion of species goes back to
 
 * {#Joyal81} [[André Joyal]], _Une th&#233;orie combinatoire des s&#233;ries formelles_ , Advances in Mathematics 42:1-82 (1981) <a href="http://dx.doi.org/10.1016/0001-8708(81)90052-9">doi</a>, [MR84d:05025](http://www.ams.org/mathscinet-getitem?mr=633783)
 
-An expositional discussion can be found at
+An expository discussion can be found at
 
 * [[Todd Trimble]], _Exponential Generating Function and Introduction to Species_ ([blog](http://topologicalmusings.wordpress.com/2009/03/28/number-of-idempotent-endofunctions/)) (scroll down a bit).
 
-See also wikipedia: [combinatorial species](http://en.wikipedia.org/wiki/Combinatorial_species) and 
+See also Wikipedia: [combinatorial species](http://en.wikipedia.org/wiki/Combinatorial_species) and 
 
 * Fran&#231;ois Bergeron, Gilbert Labelle, Pierre Leroux, _Th&#233;orie des esp&#232;ces et combinatoire des structures arborescentes_ , LaCIM, Montr&#233;al (1994). English version: [[Combinatorial species and tree-like structures]], Cambridge University Press (1998).
 
-* {#Bergeron08} F. Bergeron, G. Labelle, P. Leroux, _Introduction to the theory of
-species of structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_anglais_files/livre_combinatoire.pdf)
+* {#Bergeron08} F. Bergeron, G. Labelle, P. Leroux, _Introduction to the Theory of
+Species of Structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_anglais_files/livre_combinatoire.pdf)
 
 * Fran&#231;ois Bergeron, _Species and variations on the theme of species_, invited talk at [Category Theory and Computer Science '04](http://www.itu.dk/research/theory/ctcs2004/), Copenhagen (2004). Slides ([pdf](http://bergeron.math.uqam.ca/Especes_trans.pdf)).
 
@@ -433,6 +433,10 @@ species of structures_, 2008, [pdf](http://bergeron.math.uqam.ca/Site/bergeron_a
 * {#AguiarMahajan10} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], [[Stephen Chase]], [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf))
 
 * {#AguiarMahajan12} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _Hopf monoids in the category of species_ ([arXiv:1210.3120](http://arxiv.org/abs/1210.3120))
+
+The Dirichlet product of species seems to match what Maia and M&eacute;ndez call the **arithmetic product**:
+
+* Manuel Maia and Miguel Méndez, On the arithmetic product of combinatorial species, _Discrete Mathematics_ **308**, (2008), 5407--5427.   ([web](https://www.sciencedirect.com/science/article/pii/S0012365X07007960))
 
 An application in computer science: 
 
