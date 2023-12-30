@@ -124,7 +124,7 @@ It is now natural to conjecture that this is the only obstacle, though: strict t
 
 * In [[Top]], let $L_1=$ quotient maps, $R_1=$ injective continuous maps, $L_2=$ surjective continuous functions, and $R_2=$ subspace embeddings.  Here $L_2\cap R_1=$ bijective continuous maps, and the two intermediate objects in the ternary factorization of a continuous map are obtained by imposing the coarsest and the finest compatible topologies on its set-theoretic image.
 
-* More generally, if a category has both ([[epimorphism|epi]], [[strong monomorphism|strong mono]]) and ([[strong epimorphism|strong epi]], [[monomorphism|mono]]) factorizations, then since strong epis are epi, we have a ternary factorization.  Here $L_2\cap R_1$ is the class of monic epics, sometimes called [[bimorphisms]].  The maps in $R_2 L_1$ are sometimes called [[strict morphisms]].
+* More generally, if a category has both ([[epimorphism|epi]], [[strong monomorphism|strong mono]]) and ([[strong epimorphism|strong epi]], [[monomorphism|mono]]) factorizations, then since strong epis are epi, we have a ternary factorization.  Here $L_2\cap R_1$ is the class of monic epics. The maps in $R_2 L_1$ are sometimes called [[strict morphisms]].
 
   By Corollary \ref{R2L1NotComp}, if every morphism factors as a strong mono followed by a strong epi, the strict morphisms are only closed under composition if they are the isomorphisms.  For instance, this is true if the category has coproducts whose injections are strong mono, since we can then factor $A\to B$ as $A \to A+B \to B$ where the second factor is even [[split epi]].  This is the case in [[Top]], so that is a concrete example where $R_2L_1$ is not closed under composition.
 
