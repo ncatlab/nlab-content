@@ -21,16 +21,16 @@ $$
   tra_\nabla(\gamma) : P_{\gamma(0)} \to P_{\gamma(1)}
 $$
 
-between the [[fiber]]s of the bundle, such that this assignment depends well (e.g. smoothly) on the choice of path and is compatible with composition of paths.
+between the [[fiber|fibers]] of the bundle, such that this assignment depends well (e.g. smoothly) on the choice of path and is compatible with composition of paths.
 
 This assignment is called the _parallel transport_ of the connection.
 
 
 ### The idea of parallelism
 
-The term "parallel" comes from one of the many equivalent definitions of the notion of [[connection on a bundle]]: the original formulation of [[Ehresmann connection]]s.
+The term "parallel" comes from one of the many equivalent definitions of the notion of [[connection on a bundle]]: the original formulation of [[Ehresmann connection|Ehresmann connections]].
 
-In that formulation, the connection is encoded at each point $p \in P$ in the total space by a decomposition of the [[tangent space]] $T_p P$ as a [[direct sum]] $T_p P \simeq V_p \oplus H_p$ of [[vector space]]s, such that
+In that formulation, the connection is encoded at each point $p \in P$ in the total space by a decomposition of the [[tangent space]] $T_p P$ as a [[direct sum]] $T_p P \simeq V_p \oplus H_p$ of [[vector space|vector spaces]], such that
 
 * $V_p = \ker \pi_*|_p$ is the [[kernel]] of the projection map that sends vectors in the total space to vectors in base space (this part is fixed by the choice of $p : P \to X$);
 
@@ -81,11 +81,11 @@ enjoys the following properties:
 
 This may be equivalently but more succinctly be formulated as follows:
 
-We say _diffeological groupoid_ for an [[internal groupoid]] in the category of [[diffeological space]]s. 
+We say _diffeological groupoid_ for an [[internal groupoid]] in the category of [[diffeological space|diffeological spaces]]. 
 
 The smooth paths in a smooth manifold $X$ naturally form the diffeological groupoid called the [[path groupoid]] $P_1(X)$.  Objects are points in $X$, morphisms are [[thin homotopy]]-classes of smooth paths which are constant in a neighbourhood of their boundary, composition is concatenation of paths.
 
-For $P \to X$ any $G$-bundle, there is also naturally the diffeological groupoid $At(P)$ -- the [[Atiyah Lie groupoid]]  of $P$. Objects are points in $X$, morphisms are homomorphisms of $G$-[[torsor]]s between the [[fiber]]s over these points.
+For $P \to X$ any $G$-bundle, there is also naturally the diffeological groupoid $At(P)$ -- the [[Atiyah Lie groupoid]]  of $P$. Objects are points in $X$, morphisms are homomorphisms of $G$-[[torsor|torsors]] between the [[fiber|fibers]] over these points.
 
 Then the above properties of parallel transport are equivalent to saying that we have an [[internal functor]]
 
@@ -96,7 +96,7 @@ $$
 that is the identity on objects. Moreover, this functor _uniquely_ characterizes the [[connection on a bundle|connection]] on $P$ that it comes from. This means that we may identify connections on $P$ with their parallel transport functors. 
 
 
-But even the bundle $P$ itself is encoded in such functors. If instead of looking at the category of internal groupoids and internal functors, we look at the larger [[2-topos]] of _diffeological stacks_  -- [[stack]]s over [[CartSp]]. 
+But even the bundle $P$ itself is encoded in such functors. If instead of looking at the category of internal groupoids and internal functors, we look at the larger [[2-topos]] of _diffeological stacks_  -- [[stack|stacks]] over [[CartSp]]. 
 
 Then we can take simply the diffeological [[delooping]] groupoid $\mathbf{B}G$, which has a single object and $G$ as its [[hom-set]] and consider morphisms 
 
@@ -119,7 +119,7 @@ A parallel transport functor $tra : P_1(X) \to G$ factors through $\Pi_1(X)$ pre
 
 In [[physics]], a [[connection on a bundle]] over $X$ models a [[gauge field]] such as the [[electromagnetic field]] or more generally a [[Yang-Mills field]] or the field of [[gravity]] on a [[spacetime]] $X$.
 
-The [[force]]s exerted by such gauge fields on  charged particles propagating on $X$ (i.e. [[electron]]s, [[quark]]s and generally massive particles, respectively) are encoded precisely in the parallel transport assignment of the gauge field connection to their trajectories.
+The [[force|forces]] exerted by such gauge fields on  charged particles propagating on $X$ (i.e. [[electron|electrons]], [[quark|quarks]] and generally massive particles, respectively) are encoded precisely in the parallel transport assignment of the gauge field connection to their trajectories.
 
 More precisely, the exponentiated [[action functional]] for the electron propagating on $X$ in the presence of an electromagnetic field $\nabla$ is the functional on the space of paths in $X$ given by
 
@@ -202,7 +202,7 @@ $$
 is the value $f(1) \in G$ for the unique solution of the equation $d f  + \rho(f)_*(A) = 0$ with initial value $f(0) = e$ (the neutral element in $G$).
 =--
 
-The notation here is motivated from the special case where $G = \mathbb{R}$ is the group of [[real number]]s. In that case the [[Lie algebra]] $\mathfrak{g} \simeq \mathbb{R}$ is abelian, the differential equation above is simply
+The notation here is motivated from the special case where $G = \mathbb{R}$ is the group of [[real number|real numbers]]. In that case the [[Lie algebra]] $\mathfrak{g} \simeq \mathbb{R}$ is abelian, the differential equation above is simply
 
 $$
   d f = \gamma^*(A) \wedge f
