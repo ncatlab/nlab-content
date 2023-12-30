@@ -16,16 +16,16 @@
 
 ## Idea
 
-The notion of _relative entropy_ of [[state]]s is a generalization of the notion of [[entropy]] to a situation where the entropy of one [[state]] is measured "relative to" another state.
+The notion of _relative entropy_ of [[state|states]] is a generalization of the notion of [[entropy]] to a situation where the entropy of one [[state]] is measured "relative to" another state.
 
 
-is also called 
+It is also called 
 
-* _Kullback-Leibler divergence_
+* _Kullback-Leibler divergence_,
 
-* _information divergence_
+* _information divergence_, or
 
-* _information gain_ . 
+* _information gain_. 
 
 
 ## Definition
@@ -53,7 +53,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-For $X$ a [[measurable space]] and $P$ and $Q$ two [[probability measure]]s on $X$, such that $Q$ is absolutely continuous with respect to $P$, their relative entropy is the [[integral]]
+For $X$ a [[measurable space]] and $P$ and $Q$ two [[probability measure|probability measures]] on $X$, such that $Q$ is absolutely continuous with respect to $P$, their relative entropy is the [[integral]]
 
 $$
   S(Q|P) = \int_X log \frac{d Q}{d P} d P
@@ -68,7 +68,7 @@ where $d Q / d P$ is the [[Radon-Nikodym derivative]] of $Q$ with respect to $P$
 
 ### For states on quantum probability spaces (von Neumann algebras)
 
-Let $A$ be a [[von Neumann algebra]] and let $\phi$, $\psi : A \to \mathbb{C}$ be two [[state]]s on it (faithful, positive [[linear functional]]s).
+Let $A$ be a [[von Neumann algebra]] and let $\phi$, $\psi : A \to \mathbb{C}$ be two [[state|states]] on it (faithful, positive [[linear functional|linear functionals]]).
 
 +-- {: .num_defn}
 ###### Definition
@@ -97,7 +97,7 @@ This is due to ([Araki](#Araki)).
 
 ## Relation to machine learning
 
-The [[machine learning]] process has been characterized as a minimization of [[relative entropy]] ([Ackley, Hinton and Sejnowski 1985](#AckleyHintonSejnowski)).
+The [[machine learning]] process has been characterized as a minimization of relative entropy ([Ackley, Hinton and Sejnowski 1985](#AckleyHintonSejnowski)).
 
 ## Related concepts
 
@@ -112,16 +112,16 @@ Relative entropy of [[state on a star-algebra|states]] on  [[von Neumann algebra
 * {#Araki} [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_, Publications of the Research Institute for Mathematical Sciences, **11** 3 (1976), 809-833 ([pdf](https://ems.press/content/serial-article-files/2833), [doi:10.2977/prims/1195191148]( https://doi.org/10.2977/prims/1195191148))
  
 
-A characterization of [relative entropy](#OnFiniteDimensionalSpaces) on finite-[[dimension]]al [[C-star algebra]]s is given in 
+A characterization of [relative entropy](#OnFiniteDimensionalSpaces) on finite-[[dimension|dimensional]] [[C-star algebra|C-star algebras]] is given in 
 
 * {#Petz} D. Petz, _Characterization of the relative entropy of states of matrix algebras_,  Acta Mathematica Hungarica, **59** (1992), 3-4. ([doi:10.1007/bf00050907](https://doi.org/10.1007/bf00050907)) 
 
 
-A survey of entropy in [[operator algebra]]s is in 
+A survey of entropy in [[operator algebra|operator algebras]] is in 
 
 * Erling St&#248;rmer, _Entropy in operator algebras_ ([pdf](http://www.claymath.org/publications/currentvolumes/connes60/Stormer.pdf))
 
-A characterization of [[machine learning]] as a process minimizing [[relative entropy]] is proposed in
+A characterization of [[machine learning]] as a process minimizing relative entropy is proposed in
 
 * {#AckleyHintonSejnowski} David H. Ackley, Geoffrey E. Hilton, Terrence J. Sejnowski. _A learning algorithm for Boltzmann machines_, Cognitive Science, **9** (1985), 147–169. ([web](https://www.sciencedirect.com/science/article/abs/pii/S0364021385800124)) 
 
