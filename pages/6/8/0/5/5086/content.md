@@ -152,6 +152,8 @@ It is now natural to conjecture that this is the only obstacle, though: strict t
 
 ## References
 
+Ternary factorisation systems are introduced as *double factorisation systems* in:
+
 * {#PultrTholen} A. Pultr and W. Tholen, *Free Quillen Factorization Systems*.  Georgian Math. J.9 (2002), No. 4, 807-820
 
 * [Cafe discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html)
