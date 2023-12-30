@@ -41,7 +41,7 @@ More generally the homotopy Whitehead formula applies to general [[cocycles]] in
 
 * {#Haefliger78} [[André Haefliger]], p. 3 of _Whitehead products and differential forms_, In: P.A. Schweitzer (ed.), _Differential Topology, Foliations and Gelfand-Fuks Cohomology_, Lecture Notes in Mathematics, vol 652. Springer 1978 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
 
-* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Prop. 17.22 in _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Prop. 17.22 in _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics **82**, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
 
 * Lee Rudolph, _Whitehead's Integral Formula, Isolated Critical Points, and the Enhancement of the Milnor Number_, Pure and Applied Mathematics Quarterly Volume 6, Number 2, 2010 ([arXiv:0912.4974](https://arxiv.org/abs/0912.4974))
 
