@@ -559,7 +559,7 @@ since by interval recursion one has a path $\mathrm{rec}_\mathbb{I}^A(x, y, p):\
 $$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y \quad \mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}(0, 1, \mathcal{p}) \equiv p$$
 \end{proof}
 
-Alternatively, one can say that $\mathbb{I} \to A$ is a [[negative copy]] of $A$: 
+Alternatively, one can say that $\mathbb{I} \to A$ is a [[negative copy]] of $A$ with respect to constant functions - that every type $A$ is $\mathrm{I}$-[[localization of a type|local]]: 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{\mathrm{I}, A}^{-1}(p):A}$$
 
@@ -570,7 +570,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lam
 Then, one can prove path induction (positive copy induction rules):
 
 \begin{theorem}
-Suppose that the path type $\mathbb{I} \to A$ is a negative copy of $A$. 
+Suppose that the path type $\mathbb{I} \to A$ is a negative copy of $A$, or equivalently that $A$ is definitionally $\mathbb{I}$-local.
 
 Then path induction holds: given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I} \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$. 
 \end{theorem}
