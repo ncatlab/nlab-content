@@ -11,7 +11,7 @@ Similar to [[path types]], there are a few different types which can be called *
 $$S^1 \to_{*} A \equiv \sum_{f:S^1 \to A} f(\mathrm{base}) =_A x$$ 
 from the [[circle type]] $S^1$ to a type $A$ with element $x:A$ - this parallels the topological definition of [[loop spaces]] as continuous functions out of the [[unit circle]] to a [[pointed topological space]];
 
-The [[categorical semantics]] of free loop types in any of the above forms is the [[loop space object]]. 
+The [[categorical semantics]] of loop types in any of the above forms is the [[loop space object]]. 
 
 There are also other types which could be called the *free loop type* or *free loop space type*:
 
