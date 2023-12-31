@@ -23,6 +23,8 @@ The [[categorical semantics]] of path types in any of the above forms is the [[p
 
 * [[cubical path type]]
 
+* [[loop type]]
+
 category: disambiguation
 
 [[!redirects path type]]
