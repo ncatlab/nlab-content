@@ -17,8 +17,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -559,18 +557,22 @@ since by interval recursion one has a path $\mathrm{rec}_\mathbb{I}^A(x, y, p):\
 $$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y \quad \mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}(0, 1, \mathcal{p}) \equiv p$$
 \end{proof}
 
-Alternatively, one can say that $\mathbb{I} \to A$ is a [[negative copy]] of $A$ with respect to constant functions - that every type $A$ is $\mathrm{I}$-[[localization of a type|local]]: 
+Alternatively, one can say that $\mathbb{I} \to A$ is a [[negative copy]] of $A$ with respect to constant functions, or equivalently that every type $A$ is definitionally $\mathrm{I}$-[[localization of a type|local]], or that 
+$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
+is a definitional [[isomorphism]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{\mathrm{I}, A}^{-1}(p):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(p):A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{\mathrm{I}, A}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{\mathrm{I}, A}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
+
+This is called **definitional interval type localization**. 
 
 Then, one can prove path induction (positive copy induction rules):
 
 \begin{theorem}
-Suppose that the path type $\mathbb{I} \to A$ is a negative copy of $A$, or equivalently that $A$ is definitionally $\mathbb{I}$-local.
+Suppose that every type $A$ is definitionally $\mathbb{I}$-local.
 
 Then path induction holds: given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I} \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$. 
 \end{theorem}
@@ -578,18 +580,30 @@ Then path induction holds: given any type $A$, and any type family $C(p)$ indexe
 \begin{proof}
 $\mathrm{ind}_{\mathbb{I} \to A}(t)$ is defined to be
 
-$$\mathrm{ind}_{\mathbb{I} \to A}(t) \equiv \lambda p:\mathbb{I} \to A.t(\mathrm{const}_{\mathbb{I}, A}^{-1}(p))$$
+$$\mathrm{ind}_{\mathbb{I} \to A}(t) \equiv \lambda p:\mathbb{I} \to A.t(\mathrm{const}_{A, \mathrm{I}}^{-1}(p))$$
 
 and by the computation rules of path types as negative copies, one has that for all $x:A$, 
 
-$$\mathrm{const}_{\mathbb{I}, A}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
+$$\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
 
 and so by definition of $\mathrm{ind}_{\mathbb{I} \to A}(t)$ and the judgmental congruence rules for substitution, one has
 
-$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(\mathrm{const}_{\mathbb{I}, A}^{-1}(\lambda i:\mathbb{I}.x)) \equiv t(x)$$
+$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x)) \equiv t(x)$$
 \end{proof}
 
 Thus, everything about identity types in Martin-Löf type theory could be proven in this theory. 
+
+On the other hand, **propositional interval type localization**, which says that 
+$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
+is a weak equivalence of types, only implies the propositional J-rule. 
+
+One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
+
+| localization rule | type theoretic letter rule |
+|-------------------|----------------------------|
+| [[I-localization|$\mathbb{I}$-localization]] | [[J-rule]] |
+| [[S1-localization|$S^1$-localization]] | [[K-rule]] |
+
 
 ### Kan operations
 
@@ -1215,3 +1229,11 @@ See also
 [[!redirects universal property of identification types]]
 [[!redirects universal property of path types]]
 [[!redirects universal property of equality types]]
+
+[[!redirects interval type localization]]
+[[!redirects I localization]]
+[[!redirects I-localization]]
+
+[[!redirects axiom of interval type localization]]
+[[!redirects axiom of I localization]]
+[[!redirects axiom of I-localization]]
