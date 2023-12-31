@@ -1229,11 +1229,3 @@ See also
 [[!redirects universal property of identification types]]
 [[!redirects universal property of path types]]
 [[!redirects universal property of equality types]]
-
-[[!redirects interval type localization]]
-[[!redirects I localization]]
-[[!redirects I-localization]]
-
-[[!redirects axiom of interval type localization]]
-[[!redirects axiom of I localization]]
-[[!redirects axiom of I-localization]]
