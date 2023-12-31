@@ -181,6 +181,8 @@ Lecture notes:
 [[!redirects very good path space object]]
 [[!redirects very good path space objects]]
 
+[[!redirects stable path object]]
+[[!redirects stable path objects]]
 
 [[!redirects cocylinder object]]
 [[!redirects cocylinder objects]]
