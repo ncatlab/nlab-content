@@ -45,41 +45,9 @@ In the interpretation of [[propositions as types]] in [[type theory]], [[proposi
 
 ## Definitions
 
-### Using function application and Russell universes
+There are actually two notions of transport in dependent type theory. One notion of transport is transport across the identification $p:a =_A b$ for elements $a:A$ and $b:A$. The other notion of transport is transport across the path $p:\mathbb{I} \to A$. These two are interchangeable through the [[recursion principle]] and uniqueness principle of the [[interval type]]. 
 
-Suppose that the dependent type theory uses a sequence of [[Russell universes]] $U_i$ to define types, instead of a separate type [[judgment]]. Then, given elements $a:A$, $b:A$, and identification $p:a =_A b$, [[transport]] across the type family $B:A \to U_i$ can be defined as the evaluation of the inductively defined function 
-$$\mathrm{idtoequiv}(B(a), B(b)):(B(a) =_{U_i} B(b)) \to (B(a) \simeq B(b))$$
-at the function application of $B$ to the identification $p$, $\mathrm{ap}_{U_i}(B, a, b, p):B(a) =_{U_i} B(b)$:
-
-$$\mathrm{transport}(B, a, b, p) \equiv \mathrm{idtoequiv}(B(a), B(b))(\mathrm{ap}_{U_i}(B, a, b, p)):B(a) \simeq B(b)$$
-
-### Using the uniqueness quantifier
-
-Assuming that the type theory has [[uniqueness quantifiers]], a [[type]] $A$, a family of types $x:A \vdash B(x)$, [[elements]] $a:A$ and $b:A$, and an [[identity]] $p:a =_A b$, there is a family of elements between the types $B(a)$ and $B(b)$ called **transport**
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a) \vdash \mathrm{tr}_B(a, b, p, x):B(b)}$$
-and a witness 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(b) \vdash u(y):\exists!x:A.\mathrm{tr}_B(a, b, p, x) =_{B(b)} y}$$
-that for all $y:B(b)$ there exists a unique elemnt $x:B(a)$ up to identity such that $\mathrm{tr}_B(a, b, p)(x) =_{B(b)} y$. 
-
-If one is inductively defining transport, then one additionally has to add that
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma, x:B(a) \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a), x) =_{B(a)} x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma, x:B(a) \vdash \beta_B^{u}(x):u(\mathrm{tr}_B(a, a, \mathrm{refl}_A(a), x)) =_{\exists!y:B(a).(-) =_{B} y}^{\beta_B^{\mathrm{tr}}(a)} u(x)}$$
-
-which specifies how transport across reflexivity behaves. 
-
-Alternatively, one could specify that there is an equivalence between the [[dependent identity type]] $x =_B^p y$ and the identity type $\mathrm{tr}_B(a, b, p, x) =_{B(b)} y$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a), y:B(b), q:x =_B^p y \vdash \eta(x, y, q):\mathrm{tr}_B(a, b, p, x) =_{B(b)} y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:B(a), y:B(b), r:\mathrm{tr}_B(a, b, p, x) =_{B(b)} y \vdash \exists!q:x =_B^p y.\eta(x, y, q) =_{\mathrm{tr}_B(a, b, p, x) =_{B(b)} y} r}$$
-
-One then specifies how transport across reflexivity behaves by using the dependent function application to reflexivity. 
-
-### Using equivalence types
-
-There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
+Similarly, there are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
 * [[judgmentally strict equivalence types]]
 * [[propositionally strict equivalence types]]
@@ -90,43 +58,227 @@ There are multiple notions of [[equivalence types]] in [[dependent type theory]]
   * the type of [[one-to-one correspondences]]
 * type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
 
-Thus, given a notion of [[equivalence type]] $\simeq$, a [[type]] $A$, a family of types $x:A \vdash B(x)$, [[elements]] $a:A$ and $b:A$, and an [[identity]] $p:a =_A b$, there is an equivalence between the types $B(a)$ and $B(b)$ called **transport** 
-$$\mathrm{tr}_B(a, b, p):B(a) \simeq B(b)$$
-
 The transport equivalence is called **judgmentally strict transport** if the equivalence type is a [[judgmentally strict equivalence type]], and similarly it is called **propositionally strict transport** if the equivalence type is a [[propositionally strict equivalence type]]. It is called **weak transport** if the equivalence type is a [[weak equivalence type]]. 
 
-### As an introduction rule for the equivalence type
+### Transport across paths
 
-In some presentations of the [[equivalence type]], transport is formed by one of the [[introduction rules]] for the equivalence type: 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
+#### Inductive definition
 
-For the [[inductive definition]] of transport, there are also [[computation rules]] given by
+Given any notion of [[equivalence type]] $A \simeq B$ between types $A$ and $B$, let $\mathrm{id}_A^\simeq$ denote the [[identity equivalence]] on $A$. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv \mathrm{id}_{B(a)}:B(a) \simeq B(a)}$$
+Transport across paths is inductively defined using [[path induction]] for function types $\mathbb{I} \to A$ out of the interval type. Path induction states that 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) \equiv_{B(a) \simeq B(a)} \mathrm{id}_{B(a)} \; \mathrm{true}}$$
+\begin{theorem}
+Given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I} \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$ which says that for all elements $x:A$, there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$. 
+\end{theorem}
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash \beta_B^{\mathrm{tr}}(a):\mathrm{tr}_B(a, a, \mathrm{refl}_A(a)) =_{B(a) \simeq B(a)} \mathrm{id}_{B(a)}}$$
+Now, given a type family $B(x)$ indexed by $x:A$, there exists a dependent function called **transport** 
 
-depending on whether the the computation rules for [[identity types]] use [[judgmental equality]], [[propositional equality]], or the [[identity type]]. 
+$$\mathrm{tr}_{\underline{ }.B(-)}^{(-)}:\prod_{p:\mathbb{I} \to A} B(p(0)) \simeq B(p(1))$$
 
-Alternatively, one has the [[dependent function application to identities]] for the [[computation rules]] for transport:
+This is inductively defined by path induction, where for all $x:A$, 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv w(b):B(b)}$$ 
+$$\mathrm{tr}_{\underline{ }.B(-)}^{\lambda i:\mathbb{I}.x} \equiv \mathrm{id}_{B(x)}^{\simeq}:B(x) \simeq B(x)$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{tr}_B(a, b, p)(w(a)) \equiv_{B(b)} w(b) \; \mathrm{true}}$$ 
+#### Using function application and Russell universes
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apd}_B(a, b, p, w):\mathrm{tr}_B(a, b, p)(w(a)) =_{B(b)} w(b)}$$ 
+Suppose that the dependent type theory uses a sequence of [[Russell universes]] $U_i$ to define types, instead of a separate type [[judgment]]. Then, given a path $p:\mathbb{I} \to A$, [[transport]] across the type family $B:A \to U_i$ can be defined as the evaluation of the inductively defined function 
+$$\mathrm{idtoequiv}(B(p(0)), B(p(1))):(B(p(0)) =_{U_i} B(p(1))) \to (B(p(0)) \simeq B(p(1)))$$
+at the function application of $B$ to the path $p$, $\mathrm{ap}_{U_i}(B, p):B(p(0)) =_{U_i} B(p(1))$:
 
-depending on whether the [[equivalence type]] uses [[judgmental equality]], [[propositional equality]], or the [[identity type]] in its [[computation rules]]. 
+$$\mathrm{transport}(B, p) \equiv \mathrm{idtoequiv}(B(p(0)), B(p(1)))(\mathrm{ap}_{U_i}(B,p)):B(p(0)) \simeq B(p(1))$$
+
+### Transport across identifications
+
+#### Inductive definition
+
+Given any notion of [[equivalence type]] $A \simeq B$ between types $A$ and $B$, let $\mathrm{id}_A^\simeq$ denote the [[identity equivalence]] on $A$. 
+
+Transport across identification is inductively defined using the [[J-rule]]. The J-rule states that 
+
+\begin{theorem}
+Given a type $A$ and given a type family $C(x, y, p)$ indexed by $x:A$, $y:A$, and $p:x =_A y$, and a dependent function $t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))$, one can construct a dependent function
+
+$$\mathrm{ind}_{=, A}(t):\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} C(x, y, p)$$
+
+such that for all $x:A$, 
+
+$$J(t, x, x, \mathrm{refl}_A(x)) \equiv t(x)$$
+\end{theorem}
+
+Now, given a type family $B(x)$ indexed by $x:A$, there exists a dependent function called **transport** 
+
+$$\mathrm{tr}_{\underline{ }.B(-)}^{(-, -, -)}:\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} B(x) \simeq B(y)$$
+
+This is inductively defined by path induction, where for all $x:A$, 
+
+$$\mathrm{tr}_{\underline{ }.B(-)}^{(x, x, \mathrm{refl}_A(x))} \equiv \mathrm{id}_{B(x)}^{\simeq}:B(x) \simeq B(x)$$
+
+#### Using function application and Russell universes
+
+Suppose that the dependent type theory uses a sequence of [[Russell universes]] $U_i$ to define types, instead of a separate type [[judgment]]. Then, given elements $a:A$, $b:A$, and identification $p:a =_A b$, [[transport]] across the type family $B:A \to U_i$ can be defined as the evaluation of the inductively defined function 
+$$\mathrm{idtoequiv}(B(a), B(b)):(B(a) =_{U_i} B(b)) \to (B(a) \simeq B(b))$$
+at the function application of $B$ to the identification $p$, $\mathrm{ap}_{U_i}(B, a, b, p):B(a) =_{U_i} B(b)$:
+
+$$\mathrm{transport}(B, a, b, p) \equiv \mathrm{idtoequiv}(B(a), B(b))(\mathrm{ap}_{U_i}(B, a, b, p)):B(a) \simeq B(b)$$
 
 ## Properties
+
+### Transport across paths
+
+The type of families of transport functions on a [[type family]] $x:A \vdash B(x)$ is given by the type 
+
+$$\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+
+where $x =_{x:A.B(x)}^{p} y$ is a [[heterogeneous identity type]] defined using paths. 
+
+In general, a family of transport functions is an element of this type. However, any element of the type of families of transport functions is unique up to identification:
+
+\begin{theorem}
+The type of families of transport functions 
+
+$$\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+
+is a [[contractible type]].
+\end{theorem}
+
+\begin{proof}
+We first show that the type 
+
+$$\sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+
+is contractible for all $p:\mathbb{I} \to A$. By [[path induction]], it suffices to show that the type 
+
+$$\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{x:A.B(x)}^{\lambda i:\mathbb{I}.a} f(x)$$
+
+is contractible for all $a:A$. There is an equivalence of types
+
+$$(x =_{x:A.B(x)}^{\lambda i:\mathbb{I}.a} f(x)) \simeq (x =_{B(a)} f(x))$$
+
+and thus by the typal congruence rules for dependent function types and dependent pair types, there is an equivalence of types 
+
+$$\left(\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{x:A.B(x)}^{\lambda i:\mathbb{I}.a} f(x)\right) \simeq \left(\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{B(a)} f(x)\right)$$
+
+Now, 
+
+$$\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{B(a)} f(x)$$
+
+is just the [[type of identity functions]] on $B(a)$, and is thus always contractible, which implies that 
+
+$$\sum_{f:B(a) \to B(a)} \prod_{x:B(a)} x =_{x:A.B(x)}^{\lambda i:\mathbb{I}.a} f(x)$$
+
+is contractible for all $a:A$. By induction on identity types, the type 
+
+$$\sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+
+is contractible for all paths $p:\mathbb{I} \to A$. By [[weak function extensionality]], this implies that 
+
+$$\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+
+is contractible.
+\end{proof} 
+
+Thus, it makes sense to refer to the canonical family of transport functions 
+
+$$\mathrm{transport}_{x:A.B(x)}:\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$ 
+
+inductively defined by 
+
+$$\mathrm{transport}_{x:A.B(x)}(\lambda i:\mathbb{I}.a) \equiv \left(\lambda x:B(a).x, \lambda x:B(a).\mathrm{idTohId}(x, (\lambda x:B(a).x)(x), \beta_{B(a) \to B(a)}^{x:B(a).x}(x))\right)$$
+
+for all $a:A$ as *[[generalized the|the]]* transport function on the type family $x:A \vdash B(x)$.
+
+\begin{theorem}
+Given a family of transport functions 
+$$t:\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+for all $p:\mathbb{I} \to A$, the function $\pi_1(t(p^{-1}))$ is a [[quasi-inverse function]] of $\pi_1(t(p))$, where $p^{-1}$ is the inverse path of $p$. 
+$$p^{-1} \coloneqq \mathrm{rec}_\mathbb{I}^A(p(1), p(0), \mathrm{ap}_p(\mathcal{p}^{-1}))$$
+\end{theorem}
+
+\begin{proof}
+For all paths $p:\mathbb{I} \to A$ and for all $x:B(p(0))$, we have 
+$$\pi_2(t(p))(x):x =_{x:A.B(x)}^{p} \pi_1(t(p))(x)$$ 
+and for all $y:B(p(1))$ we have
+$$\pi_2(t(p^{-1}))(x):x =_{x:A.B(x)}^{p^{-1}} \pi_1(t(p^{-1}))(x)$$ 
+
+Thus, we have
+$$\pi_2(t(p))(\pi_1(t(p^{-1}))(y)):\pi_1(t(p^{-1}))(y) =_{x:A.B(x)}^{p} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$ 
+and 
+$$\pi_2(t(p^{-1}))(\pi_1(t(p))(x)):\pi_1(t(p)(x)) =_{x:A.B(x)}^{p^{-1}} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$ 
+
+By concatenating heterogeneous identifications, we get
+$$\pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p))(x)):x =_{x:A.B(x)}^{\mathrm{rec}_\mathbb{I}^A(p(0), p(0), \mathrm{fill}(p,  p^{-1}, \mathrm{refl}_{A}(p(1))} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$
+and
+$$\pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y)):y =_{x:A.B(x)}^{\mathrm{rec}_\mathbb{I}^A(p(1), p(1), \mathrm{fill}(p^{-1},  p, \mathrm{refl}_{A}(p(0))} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$
+
+where 
+
+$$p \bullet p^{-1} \coloneqq \mathrm{rec}_\mathbb{I}^A(p(0), p(0), \mathrm{ap}_p(\mathcal{p}) \bullet \mathrm{ap}_p(\mathcal{p}^{-1}))$$
+
+$$p^{-1} \bullet p \coloneqq \mathrm{rec}_\mathbb{I}^A(p(1), p(1), \mathrm{ap}_p(\mathcal{p}^{-1}) \bullet \mathrm{ap}_p(\mathcal{p}))$$
+
+Since $p \bullet p^{-1} \equiv \lamba i:\mathbb{I}.a$ and $p^{-1} \bullet p \equiv \lamba i:\mathbb{I}.b$, we thus have
+$$\pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p))(x)):x =_{x:A.B(x)}^{p \bullet p^{-1}} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$
+and
+$$\pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y)):y =_{x:A.B(x)}^{p^{-1} \bullet p} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$
+
+By converting heterogeneous identifications over constant paths, one gets
+$$\mathrm{hIdToId}(x, \pi_1(t(p^{-1}))(\pi_1(t(p))(x)), \pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p)(x))))):x =_{B(p(0))} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$
+and
+$$\mathrm{hIdToId}(y, \pi_1(t(p))(\pi_1(t(p^{-1}))(y)), \pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y))):y =_{B(b)} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$
+
+Thus, we have shown that $\pi_1(t(p^{-1}))$ is a quasi-inverse function of $\pi_1(t(p))$ for all paths $p:\mathbb{I} \to A$. 
+\end{proof}
+
+We define the dependent functions
+
+$$\mathrm{linv}(t, p) \equiv \lambda x:B(p(0)).\mathrm{hIdToId}(x, \pi_1(t(p^{-1}))(\pi_1(t(p))(x)), \pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p)(x)))))$$
+
+in type $\prod_{x:B(p(0))} x =_{B(p(0))} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$
+
+and 
+
+$$\mathrm{rinv}(t, p) \equiv \lambda y:B(p(1)).\mathrm{hIdToId}(y, \pi_1(t(p))(\pi_1(t(p^{-1}))(y)), \pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y)))$$
+
+in type $\prod_{y:B(p(1))} y =_{B(p(1))} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$
+
+for all $p:\mathbb{I} \to A$. 
+
+\begin{theorem}
+Given a family of transport functions 
+$$t:\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+for all $p:\mathbb{I} \to A$, the function $\pi_1(t(p))$ is bi-invertible. 
+\end{theorem}
+
+\begin{proof}
+We construct the element 
+
+$$((\pi_1(t(p^{-1})), \mathrm{linv}(t, p)), (\pi_1(t(p^{-1})), \mathrm{rinv}(t, p))$$
+
+in the type 
+
+$$\left(\sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{B(p(0))} f(\pi_1(t(p))(x))\right) \times \left(\sum_{g:B(p(1)) \to B(p(0))} \prod_{y:B(p(1))} y =_{B(p(1))} \pi_1(t(p))(g(y))\right)$$
+
+indicating that $\pi_1(t(p))$ is bi-invertible for all $p:\mathbb{I} \to A$. 
+\end{proof}
+
+By definition, it follows that:
+
+\begin{corollary}
+Given a family of transport functions 
+$$t:\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
+for all $p:\mathbb{I} \to A$, the function $\pi_1(t(p))$ is an [[equivalence of types]]. 
+\end{corollary}
+
+Hence, in [[dependent type theory]], transport functions are also called **transport equivalences**.
+
+### Transport across identifications
 
 The type of families of transport functions on a [[type family]] $x:A \vdash B(x)$ is given by the type 
 
 $$\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
 
-where $x =_{x:A.B(x)}^{(a, b, p)} y$ is a [[heterogeneous identity type]]. 
+where $x =_{x:A.B(x)}^{(a, b, p)} y$ is a [[heterogeneous identity type]] defined using identifications. 
 
 In general, a family of transport functions is an element of this type. However, any element of the type of families of transport functions is unique up to identification:
 
