@@ -38,6 +38,10 @@ $$
   \right)
 $$
 
+If one doesn't have [[type universes]] in the type theory, then axiom K has to be expressed as an [[inference rule]], and thus is called the **K-rule**:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma \vdash K_A:\prod_{x:A} P(x, \mathrm{refl}_A(x)) \to \prod_{h:\mathrm{Id}_A(x,x)} P(x, h)}$$
+
 ## Properties
 
 Unlike its logical equivalent [[axiom UIP]], axiom K can be endowed with computational behavior: $K(A,x,P,d,refl_A x)$ computes to $d$.  This gives a way to specify a computational propositionally extensional type theory.
@@ -68,6 +72,15 @@ around theorem 7.2.1
 
 [[!redirects Streicher axiom K]]
 [[!redirects Streicher's axiom K]]
-[[!redirects Streicher's axiom K]]
 [[!redirects Streicher\'s axiom K]]
 [[!redirects Axiom K (type theory)]]
+
+[[!redirects K rule]]
+[[!redirects Streicher's K rule]]
+[[!redirects Streicher\'s K rule]]
+[[!redirects K rule (type theory)]]
+
+[[!redirects K-rule]]
+[[!redirects Streicher's K-rule]]
+[[!redirects Streicher\'s K-rule]]
+[[!redirects K-rule (type theory)]]
