@@ -71,7 +71,7 @@ $$
   \,\colon\,
   \underset{\underset{C}{\longrightarrow}}{\lim} 
   \;
-  \underset{\underset{D}{\longrightarrow}}{\lim} 
+  \underset{\underset{D}{\longleftarrow}}{\lim} 
   \,
   F
   \longrightarrow 
