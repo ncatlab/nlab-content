@@ -22,6 +22,14 @@ Assuming that one has the function $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$ d
 
 $$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \mathrm{circlocal}_{A}:\mathrm{isEquiv}(\mathrm{const}_{A, S^1})}$$
 
+One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
+
+| localization rule | type theoretic letter rule |
+|-------------------|----------------------------|
+| [[I-localization|$\mathbb{I}$-localization]] | [[J-rule]] |
+| [[S1-localization|$S^1$-localization]] | [[K-rule]] |
+
+
 ## Consequences
  
 Since the [[boolean domain]] $\mathbb{2}$ is $S^1$-local, the axiom of $S^1$-localization implies that $S^1$ is [[compact connected]]:
@@ -57,6 +65,10 @@ This allows us to define discreteness for non-crisp types: a type $A$ is **discr
 [[!redirects axiom of circle type localization]]
 [[!redirects axiom of S1 localization]]
 [[!redirects axiom of S1-localization]]
+
+[[!redirects circle type localization]]
+[[!redirects S1 localization]]
+[[!redirects S1-localization]]
 
 [[!redirects axiom of circle type cohesion]]
 [[!redirects axiom of S1 cohesion]]
