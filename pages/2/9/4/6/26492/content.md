@@ -9,7 +9,7 @@ is an [[equivalence of types]].
 
 There is also a **definitional interval type localization** which says that the function
 $$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:mathbb{I}.x:A \to (\mathbb{I} \to A)$$
-is a definitional [[isomorphism]]. The usual notion of interval type localization can be called **propositional interval type localization**. 
+is a definitional or [[strict equivalence of types]]. The usual notion of interval type localization can be called **propositional interval type localization**. 
 
 One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
 
@@ -71,6 +71,8 @@ Then **$\mathrm{I}$-localization** is given by the following axiom:
 
 $$\prod_{A:\mathrm{type}} \sum_{g:(\mathbb{I} \to A) \to A} \left(\prod_{x:A} g(\lambda i:\mathbb{I}.x) =_A x\right) \times \left(\prod_{p:\mathbb{I} \to A} \lambda i:\mathbb{I}.g(p) =_{\mathbb{I} \to A} p\right)$$
 
+While this states that $\mathrm{const}_{A, \mathbb{I}}$ is only a [[quasi-invertible function]], it is well known that every quasi-invertible function can be made into a [[coherently invertible function]] by constructing a new [[section]] or [[retraction]] which satisfies a suitable family of [[naturality squares]]. 
+
 If the dependent type theory does not have [[type universes]], then the axiom of $\mathrm{I}$-localization needs to be expressed as an inference rule:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \sum_{g:(\mathbb{I} \to A) \to A} \left(\prod_{x:A} g(\lambda i:\mathbb{I}.x) =_A x\right) \times \left(\prod_{p:\mathbb{I} \to A} \lambda i:\mathbb{I}.g(p) =_{\mathbb{I} \to A} p\right)}$$
@@ -90,6 +92,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mat
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
+
+This makes $\mathrm{const}_{A, \mathbb{I}}$ into a strict equivalence of types, which is always a coherently invertible function.
 
 ### Interval type localization implies the J-rule
 
