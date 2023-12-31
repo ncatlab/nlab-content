@@ -42,6 +42,40 @@ If one doesn't have [[type universes]] in the type theory, then axiom K has to b
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma \vdash K_A:\prod_{x:A} P(x, \mathrm{refl}_A(x)) \to \prod_{h:\mathrm{Id}_A(x,x)} P(x, h)}$$
 
+### Using the circle type
+
+One could, instead of using elements $x:A$ and self identifications $p:\mathrm{Id}_A(x,x)$, use a function $p:S^1 \to A$ from the [[circle type]] $S^1$ to express axiom K:
+
+$$
+  K 
+  \colon 
+  \underset{A \colon Type}{\prod} 
+  \underset{x \colon A}{\prod}
+  \underset{P \colon (S^1 \to A) \to Type}{\prod} 
+  \left(
+     P(\lambda i:S^1.x)
+     \to  
+    \underset{p:S^1 \to A}{\prod} P(p)
+  \right)
+$$
+
+This states that the function type $S^1 \to A$ is a [[positive copy]] of $A$, and is equivalent to the other formulation of axiom K through the recursion principle of the [[circle type]]. 
+
+If one doesn't have [[type universes]] in the type theory, then axiom K has to be expressed as an [[inference rule]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, p:S^1 \to A \vdash P(p) \; \mathrm{type}}{\Gamma \vdash K_A:\prod_{x:A} P(\lambda i:S^1.x) \to \prod_{p:S^1 \to A} P(p)}$$
+
+The negative analogue of axiom K is the [[axiom of S1-localization|axiom of $S^1$-localization]], which states that 
+$$\mathrm{const}_{A, S^1} \equiv \lambda x:A.\lambda i:S^1.x:A \to (S^1 \to A)$$
+is an [[equivalence of types]]. 
+
+One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
+
+| localization rule | type theoretic letter rule |
+|-------------------|----------------------------|
+| [[I-localization|$\mathbb{I}$-localization]] | [[J-rule]] |
+| [[S1-localization|$S^1$-localization]] | [[K-rule]] |
+
 ## Properties
 
 Unlike its logical equivalent [[axiom UIP]], axiom K can be endowed with computational behavior: $K(A,x,P,d,refl_A x)$ computes to $d$.  This gives a way to specify a computational propositionally extensional type theory.
@@ -53,6 +87,7 @@ This sort of computational axiom K can also be implemented with, and is sufficie
 
 * [[axiom UIP]]
 
+* [[axiom of S1-localization|axiom of $S^1$-localization]]
 
 ## References
 
