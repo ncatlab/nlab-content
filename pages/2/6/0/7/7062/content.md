@@ -295,6 +295,40 @@ $$\frac{
 }{\Gamma, x:A \vdash \mathrm{indsec}_{\mathbb{I} \to A}^{C}(f, c, p, \lambda i:\mathbb{I}.x) \equiv p(x):f(\mathrm{ind}_{\mathbb{I} \to A}^{C}(f, c, p, z)) =_{\mathbb{I} \to A} z}$$
 \end{theorem}
 
+\begin{theorem}
+Suppose that path induction for function types out of the interval type is true. 
+
+Then the [[J-rule]] is true: given a type $A$ and given a type family $C(x, y, p)$ indexed by $x:A$, $y:A$, and $p:x =_A y$, and a dependent function $t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))$, one can construct a dependent function
+
+$$\mathrm{ind}_{=, A}(t):\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} C(x, y, p)$$
+
+such that for all $x:A$, 
+
+$$J(t, x, x, \mathrm{refl}_A(x)) \equiv t(x)$$
+\end{theorem}
+
+\begin{proof}
+By path induction on the type family $C(f(0), f(1), \mathrm{toId}_A(f))$ indexed by $f:\mathbb{I} \to A$, we can construct a dependent function
+
+$$\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{f:\mathbb{I} \to A} C(f(0), f(1), \mathrm{toId}_A(f))$$
+
+such that for all $x:A$,
+
+$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$$ 
+
+since by definition of constant function and reflexivity, one has
+
+$$(\lambda i:\mathbb{I}.x)(0) \equiv x \quad (\lambda i:\mathbb{I}.x)(1) \equiv x \quad \mathrm{ap}_{\lambda i:\mathbb{I}.x}(\mathcal{p}) \equiv \mathrm{refl}_A(x)$$
+
+We define 
+
+$$J(t, x, y, p) \equiv \mathrm{ind}_{\mathbb{I} \to A}(t, \mathrm{rec}_\mathbb{I}^A(x, y, p))$$
+
+since by interval recursion one has a path $\mathrm{rec}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A$ such that
+
+$$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y \quad \mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}(0, 1, \mathcal{p}) \equiv p$$
+\end{proof}
+
 ### Relation to dependent identity types
 
 Given a type $A$, a dependent type $x:A \vdash B(x)$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B(a_0)$ and $b_1:B(a_1)$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the family of elements $x:\mathbb{I} \vdash f(x):B(x)$ by
