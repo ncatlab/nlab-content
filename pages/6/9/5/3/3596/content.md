@@ -249,7 +249,7 @@ More specifically, there are also *strict* identity types, strictly without an h
 Since there are two notions of [[equality]] in type theory, there are similarly two notions of the J-rule in type theory. The **judgmental J-rule** states that $J(x, x, \mathrm{refl}(x))$ is judgmentally equal to $c(x)$ (i.e. $J(x, x, \mathrm{refl}(x)) = c(x)$). This is in  contrast to the **typal J-rule** above,  which states that there is a dependent term 
 $$q(x):Id_{C(x,x,\mathrm{refl}(x))}(J(x, x, \mathrm{refl}(x)), c(x))$$
 
-Identity types which satisfy the judgmental J-rule could be called **strict identity types**, while identity types which only satisfy the typal J-rule could be called **weak identity types**, in parallel with similar definitions for a (weak and strict) [Tarski universe](type+universe#TarskiStyle). Martin-Löf identity types come in both strict and weak flavours. However, most other identity types in the literature, such as cubical path types and higher observational identity types, are only weak identity types.
+Identity types which satisfy the judgmental J-rule can be called **strict identity types**, while identity types which only satisfy the typal J-rule can be called **weak identity types**, in parallel with similar definitions for a (weak and strict) [Tarski universe](type+universe#TarskiStyle). Martin-Löf identity types come in both strict and weak flavours. However, most other identity types in the literature, such as cubical path types and higher observational identity types, are only weak identity types.
 
 
 \linebreak
@@ -323,7 +323,7 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, \Delta(x,x,r(x)) \vdash t(x):C(x,x,r(x))}
 {\Gamma, x:A, \Delta(x,x,r(x)) \vdash \beta^{\underline{ }.t}(x):Id_{C(x,x,r(x))}(J^{\underline{ }.t}(x,x,r(x)),t(x))}$$
 
-If we have [[dependent product types]], we could directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(x,x,r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,x,y,p):C(x,y,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(x,x,r(x))$ rather than annotated with the family $t(x)$. 
+If we have [[dependent product types]], we can directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(x,x,r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,x,y,p):C(x,y,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(x,x,r(x))$ rather than annotated with the family $t(x)$. 
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(x,x,r(x))}
 {\Gamma, x:A, y:A, p:Id_A(x,y) \vdash J(t,x,y,p) : C(x,y,p)}$$
@@ -400,7 +400,7 @@ $$\mathrm{sec}_g:\prod_{z:\sum_{x:A} \sum_{y:A} x =_A y} f(g(z)) =_{\sum_{x:A} \
 
 such that for all $x:A$, $g(\Delta_A(x)) \equiv c(x)$ and $\mathrm{sec}_g(\Delta_A(x)) \equiv p(x)$.
 
-By [[currying]] this is the same as saying that one could construct 
+By [[currying]] this is the same as saying that one can construct 
 
 * a family of functions
 
@@ -464,11 +464,251 @@ This has none of the bad consequences of judgmental $\eta$-conversion, and in pa
 
 ### Dependent universal property
 
-The identity types in Martin-Löf type theory satisfy the typal $\beta$-conversion and typal $\eta$-conversion rules, regardless if the original $\beta$-conversion and $\eta$-conversion rules used [[typal equality]] or [[judgmental equality]]. The elimination rule in conjunction with the typal $\beta$-conversion and typal $\eta$-conversion rules state that identity types satisfy the **dependent universal property of identity types**. If the dependent type theory also has [[dependent sum types]] [[product types]], [[dependent product types]], and [[dependent function types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the natural numbers could be simplified to the following rule: 
+The identity types in Martin-Löf type theory satisfy the typal $\beta$-conversion and typal $\eta$-conversion rules, regardless if the original $\beta$-conversion and $\eta$-conversion rules used [[typal equality]] or [[judgmental equality]]. The elimination rule in conjunction with the typal $\beta$-conversion and typal $\eta$-conversion rules state that identity types satisfy the **dependent universal property of identity types**. If the dependent type theory also has [[dependent sum types]] [[product types]], [[dependent product types]], and [[dependent function types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the natural numbers can be simplified to the following rule: 
 
 $$
 \frac{\Gamma, x:A, y:A, p:\mathrm{Id}_A(x, y) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{Id}_A(c)) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{up}_{\mathrm{Id}_A}(t, a):\exists!J:\left(\prod_{c:A} C(c, c, \mathrm{id}_A(c))\right) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:\mathrm{Id}_A(x, y)} C(x, y, p)\right).\mathrm{Id}_{C(a, a, \mathrm{id}_A(a))}(J(t, a, a, \mathrm{id}_A(a)), t(a))}
 $$
+
+## Definition from an interval type
+
+Suppose that one has an [[interval type]] $\mathbb{I}$, with elements $0:\mathbb{I}$ and $1:\mathbb{I}$. 
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{I} \; \mathrm{type}}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}}$$
+
+Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. 
+
+### Inference rules
+
+* The formation rule of identity types state that given a type $A$ and elements $x:A$ and $y:A$, one can form the identity type $x =_A y$. Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \mathrm{type}}$$
+
+* The introduction rule of identity types state that given a type $A$ and a path $p:\mathbb{I} \to A$, one can construct an [[identification]] $\mathrm{toId}_A(f):f(0) =_A f(1)$. Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:\mathbb{I} \to A}{\Gamma \vdash \mathrm{toId}_A(f):f(0) =_A f(1)}$$
+
+Normally, this would be [[function application to identifications|function application]] to the canonical identification $\mathcal{p}:0 =_\mathbb{I} 1$, but here we haven't defined $\mathcal{p}$ yet since we haven't defined the identity type yet, and with this rule one can define said identification to be the identification of the identity function on the interval type
+$$\mathcal{p} \equiv \mathrm{toId}_\mathbb{I}(\mathrm{id}_\mathbb{I}):0 =_\mathbb{I} 1$$
+In addition, reflexivity of an element $x:A$ is given by sending the constant path of $x:A$ to its equality
+
+$$\mathrm{refl}_A(x) \equiv \mathrm{toId}_{A}(\lambda i:\mathbb{I}.x):x =_A x$$
+
+* The elimination rule of identity types state that given a type $A$, elements $x:A$ and $y:A$, and identification $p:x =_A y$, one can construct a path $\mathrm{topath}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A$. Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A \quad \Gamma \vdash p:x =_A y}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A}$$
+
+This is just another name for the recursor of the interval type $\mathrm{rec}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A$.
+
+* The three computation rules of identity types state that given a type $A$, elements $x:A$ and $y:A$, and identification $p:x =_A y$, 
+$$\mathrm{topath}_\mathbb{I}^A(x, y, p)(0) \equiv x \quad \mathrm{topath}_\mathbb{I}^A(x, y, p)(1) \equiv y \quad \mathrm{toId}_{A}(\mathrm{topath}_\mathbb{I}^A(x, y, p)) \equiv p$$
+Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A \quad \Gamma \vdash p:x =_A y}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(x, y, p)(0) \equiv x:A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A \quad \Gamma \vdash p:x =_A y}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(x, y, p)(1) \equiv y:A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A \quad \Gamma \vdash p:x =_A y}{\Gamma \vdash \mathrm{toId}_{A}(\mathrm{topath}_\mathbb{I}^A(x, y, p)) \equiv p:x =_A y}$$
+
+* The uniqueness rule of identity types state that given a type $A$ and a path $p:\mathbb{I} \to A$,
+$$\mathrm{topath}_\mathbb{I}^A(p(0), p(1), \mathrm{toId}_A(p)) \equiv p$$
+
+Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:\mathbb{I} \to A}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(f(0), f(1), \mathrm{toId}_A(f)) \equiv f:\mathbb{I} \to A}$$
+
+### Path induction
+
+The associated path induction rule then says that the function type $\mathbb{I} \to A$ is a [[positive copy]] of $A$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I} \to A \vdash C(z) \; \mathrm{type} \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)}{\Gamma \vdash \mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I} \to A \vdash C(z) \; \mathrm{type} \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)}{\Gamma, x:A \vdash \mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)}$$
+
+\begin{theorem}
+Suppose that path induction for function types out of the interval type is true. Then the J-rule is true: given a type $A$ and given a type family $C(x, y, p)$ indexed by $x:A$, $y:A$, and $p:x =_A y$, and a dependent function $t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))$, one can construct a dependent function
+
+$$\mathrm{ind}_{=, A}(t):\prod_{x:A} \prod_{y:A} \prod_{p:x =_A y} C(x, y, p)$$
+
+such that for all $x:A$, 
+
+$$J(t, x, x, \mathrm{refl}_A(x)) \equiv t(x)$$
+\end{theorem}
+
+\begin{proof}
+By path induction on the type family $C(f(0), f(1), \mathrm{toId}_A(f))$ indexed by $f:\mathbb{I} \to A$, we can construct a dependent function
+
+$$\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{f:\mathbb{I} \to A} C(f(0), f(1), \mathrm{toId}_A(f))$$
+
+such that for all $x:A$,
+
+$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$$ 
+
+since by definition of constant function and reflexivity, one has
+
+$$(\lambda i:\mathbb{I}.x)(0) \equiv x \quad (\lambda i:\mathbb{I}.x)(1) \equiv x \quad \mathrm{ap}_{\lambda i:\mathbb{I}.x}(\mathcal{p}) \equiv \mathrm{refl}_A(x)$$
+
+We define 
+
+$$J(t, x, y, p) \equiv \mathrm{ind}_{\mathbb{I} \to A}(t, \mathrm{rec}_\mathbb{I}^A(x, y, p))$$
+
+since by interval recursion one has a path $\mathrm{rec}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A$ such that
+
+$$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y \quad \mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}(0, 1, \mathcal{p}) \equiv p$$
+\end{proof}
+
+Alternatively, one can say that $\mathbb{I} \to A$ is a [[negative copy]] of $A$: 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{\mathrm{I}, A}^{-1}(p):A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{\mathrm{I}, A}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{\mathrm{I}, A}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
+
+Then, one can prove path induction (positive copy induction rules):
+
+\begin{theorem}
+Suppose that the path type $\mathbb{I} \to A$ is a negative copy of $A$. 
+
+Then path induction holds: given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I} \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$. 
+\end{theorem}
+
+\begin{proof}
+$\mathrm{ind}_{\mathbb{I} \to A}(t)$ is defined to be
+
+$$\mathrm{ind}_{\mathbb{I} \to A}(t) \equiv \lambda p:\mathbb{I} \to A.t(\mathrm{const}_{\mathbb{I}, A}^{-1}(p))$$
+
+and by the computation rules of path types as negative copies, one has that for all $x:A$, 
+
+$$\mathrm{const}_{\mathbb{I}, A}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
+
+and so by definition of $\mathrm{ind}_{\mathbb{I} \to A}(t)$ and the judgmental congruence rules for substitution, one has
+
+$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(\mathrm{const}_{\mathbb{I}, A}^{-1}(\lambda i:\mathbb{I}.x)) \equiv t(x)$$
+\end{proof}
+
+Thus, everything about identity types in Martin-Löf type theory could be proven in this theory. 
+
+### Kan operations
+
+Defining identity types in terms of an [[interval type]] gives the type theory a [[cubical type theory|cubical]] flavor, although here the interval $\mathbb{I}$ is an actual type, rather than a pretype in [[cubical type theory]]. In particular, one can use path induction to construct the Kan operations. The following proofs are adapted from [Bentzen2019](#Bentzen2019). 
+
+\begin{theorem}
+Given paths $f:\mathbb{I} \to A$ and $g:\mathbb{I} \to A$, one can construct a function 
+$$\mathrm{fill}_A(f, g):(f(0) =_A g(0)) \to (f(1) =_A g(1))$$ 
+\end{theorem}
+
+This is defined by double path induction by sending the constant path of $x$ in each parameter to its filler of identifications, which is just the identity function on $x =_A x$
+
+$$x:A \vdash \mathrm{fill}_A(\lambda i:\mathbb{I}.x, \lambda i:\mathbb{I}.x) \equiv \mathrm{id}_{x =_A x}:(x =_A x) \to (x =_A x)$$
+
+\begin{theorem}
+Given elements $x:A$, $y:A$ and identification $p:x =_A y$, one can construct the inverse identification $p^{-1}:(y =_A x)$. 
+\end{theorem}
+
+By interval recursion, there are paths $\mathrm{rec}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A$. By evaluating the fillers of the recursively defined path and the identity path on $x$ at reflexivity of $x$, one gets the needed identity:
+
+$$p^{-1} \equiv \mathrm{fill}_A(\mathrm{rec}_\mathbb{I}^A(x, y, p), \lambda i:\mathbb{I}.x, \mathrm{refl}_A(y)):(y =_A x)$$
+
+$$
+\begin{array}{ccccc}
+     & x & \overset{\mathrm{refl}_A(x)}= & x &  \\
+    p & \Vert &  & \Vert & \mathrm{refl}_A(x) \\
+     & y & \underset{p^{-1}}= & x & \\
+\end{array}
+$$
+
+\begin{theorem}
+Given elements $x:A$, $y:A$, $z:A$ and identifications $p:x =_A y$ and $q:y =_A z$, one can construct an identification $p \bullet q:(x =_A z)$ called the concatenation of $p$ and $q$.
+\end{theorem}
+
+By interval recursion, there is a path $\mathrm{rec}_\mathbb{I}^A(y, z, q):\mathbb{I} \to A$. By evaluating the fillers of the constant path of $x$ and the path of $q$ at $p$, one gets the needed identification:
+
+$$p \bullet q \equiv \mathrm{fill}_A(\lambda i:\mathbb{I}.x, \mathrm{rec}_\mathbb{I}^A(y, z, q), p):(x =_A z)$$
+
+$$
+\begin{array}{ccccc}
+     & x & \overset{p}= & y &  \\
+    \mathrm{refl}_A(x) & \Vert &  & \Vert & q \\
+     & x & \underset{p \bullet q}= & z & \\
+\end{array}
+$$
+
+### Other properties
+
+There are other things which can be defined similarly to cubical type theory. For example, [[function extensionality]] is provable: 
+
+\begin{theorem}
+Given dependent functions $f:\prod_{x:A} B(x)$ and $g:\prod_{x:A} B(x)$ and a [[homotopy]] $H:\prod_{x:A} f(x) =_{B(x)} g(x)$, we have an identification $\mathrm{funext}(f, g, H):f =_{\prod_{x:A} B(x)} g$
+\end{theorem}
+
+\begin{proof}
+This is defined by 
+
+$$\mathrm{funext}(f, g, H) \equiv \mathrm{toId}_{\prod_{x:A} B(x)}(\lambda i:\mathbb{I}.\lambda x:A.\mathrm{topath}_\mathbb{I}^{B(x)}(f(x), g(x), H(x))(i))$$
+\end{proof}
+
+Similarly, [[function application to identifications]] can be defined without the use of path induction:
+
+\begin{theorem}
+Given types $A$ and $B$, a a function $f:A \to B$, elements $x:A$ and $y:A$ and an identification $p:x =_A y$, one can construct the identification $\mathrm{ap}_f(x, y, p):f(x) =_B f(y)$. 
+\end{theorem}
+
+This is defined through the inference rules for identity types and function composition: 
+
+$$\mathrm{ap}_f(x, y, p) \equiv \mathrm{toId}_B(f \circ \mathrm{rec}_\mathbb{I}^A(x, y, p)):f(x) =_B f(y)$$
+
+This is sufficient to prove the recursion and uniqueness rules for the [[interval type]]:
+
+\begin{theorem}
+The recursion principle of the interval type:
+
+Given a type $A$, elements $x:A$ and $y:A$ and equality $p:x =_{A} y$, one can construct a function $\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p):\mathbb{I} \to A$ such that 
+
+$$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y \quad \mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}^{=}(0, 1, \mathrm{toId}_\mathbb{I}(\mathrm{id}_\mathbb{I})) \equiv p$$
+\end{theorem}
+
+\begin{proof}
+We define 
+
+$$\mathrm{rec}_{\mathbb{I}}^{A(-)}(x, y, p) \equiv \mathrm{topath}_{\mathbb{I}}^{A(-)}(x, y, p)$$
+
+That $\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x$ is given by the first computation rule of identity types and that $\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y$ is given by the second computation rules of identity types. Finally, by definition of function application to identification and the uniqueness rule of identity types, one has the following reduction:
+
+$$\mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}(0, 1, \mathrm{toId}_A(\mathrm{id}_\mathbb{I})) \equiv \mathrm{toId}_A(\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p) \circ \mathrm{rec}_\mathbb{I}^\mathbb{I}(0, 1, \mathrm{toId}_\mathbb{I}(\mathrm{id}_\mathbb{I}))) \equiv \mathrm{toId}_A(\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p) \circ \mathrm{id}_\mathbb{I})$$
+
+and by function composition and the third computation rule of identity types, one has the following reduction
+
+$$\mathrm{toId}_A(\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p) \circ \mathrm{id}_\mathbb{I}) \equiv \mathrm{toId}_A(\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)) \equiv p$$
+\end{proof}
+
+\begin{theorem}
+The uniqueness principle of the interval type:
+
+Given a type $A$, elements $x:A$ and $y:A$ and equality $p:x =_{A} y$, and given a function $f:\mathbb{I} \to A$ such that 
+
+$$f(0) \equiv x \quad f(1) \equiv y \quad \mathrm{ap}_{f}(0, 1, \mathrm{toId}_\mathbb{I}(\mathrm{id}_\mathbb{I})) \equiv p$$
+
+one has that $f \equiv \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)$. 
+\end{theorem}
+
+\begin{proof}
+By definition of the recursor of the interval type, 
+
+$$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p) \equiv \mathrm{topath}_{\mathbb{I}}^{A(-)}(x, y, p)$$
+
+and by the judgmental congruence rules for substitution, one has that 
+
+$$\mathrm{topath}_{\mathbb{I}}^{A(-)}(x, y, p) \equiv \mathrm{topath}_\mathbb{I}^A(f(0), f(1), \mathrm{toId}_A(f))$$
+
+and by the uniqueness rule for identity types, one has that 
+
+$$\mathrm{topath}_\mathbb{I}^A(f(0), f(1), \mathrm{toId}_A(f)) \equiv f$$
+\end{proof}
+
+The recursion and uniqueness principles of the interval type are in turn sufficient to prove the induction principle of the interval type.
 
 ## Definition in observational type theory
 
@@ -872,7 +1112,7 @@ See also
  
 * [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
 
-
+* {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, 2019 ([pdf](https://arxiv.org/pdf/1911.05844.pdf))
 
 [[!redirects identification type]]
 [[!redirects identification types]]
