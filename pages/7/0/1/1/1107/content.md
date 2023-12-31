@@ -6,13 +6,13 @@ The _IPC-property_ ("inductive limit product commutation property") is a technic
 
 A [[category]] $A$ is said to satisfy the **IPC-property** if
 
-* it admits small [[product]]s and [[filtered category|filtered]] [[colimit]]s;
+* it admits small [[product|products]] and [[filtered category|filtered]] [[colimit|colimits]];
 
 * for 
 
   * every family $\{I_s\}_{s \in S}$ of [[small category|small]] [[filtered category|filtered]] categories 
 
-  * and for any family $\{\alpha_s : I_s \to A\}$ of [[functor]]s
+  * and for any family $\{\alpha_s : I_s \to A\}$ of [[functor|functors]]
 
   * indexed by a [[Grothendieck universe|small set]] $S$ 
 
