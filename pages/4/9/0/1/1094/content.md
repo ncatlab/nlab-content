@@ -19,7 +19,7 @@ Given a [[site]] $C$, the _sheafification_ [[functor]] universally turns [[presh
 
 It is characterized as being the [[left adjoint|left]] [[adjoint functor]] $L : PSh(C) \to Sh(C)$ to the inclusion $Sh(C) \hookrightarrow PSh(C)$ of sheaves into all presheaves, exhibiting this as a [[reflective subcategory]].
 
-Therefore sheafification is a special case of a very general phenonemon of [[localization]]s of categories. See [[category of sheaves]] for more.
+Therefore sheafification is a special case of a very general phenonemon of [[localization|localizations]] of categories. See [[category of sheaves]] for more.
 
 ## Definition
 
@@ -57,7 +57,7 @@ $$
 
 This follows by general properties discussed at [[reflective subcategory]]. We spell out the argument using the theory of [[localization]] at a set of morphisms satisfying a [[calculus of fractions]].
 
-Recall from the discussion at [[sheaf]] that $Sh_J(C)$ is by definition the [[full subcategory]] of $PSh(C)$ on the [[local object]]s with respect to the morphisms 
+Recall from the discussion at [[sheaf]] that $Sh_J(C)$ is by definition the [[full subcategory]] of $PSh(C)$ on the [[local object|local objects]] with respect to the morphisms 
 
 $$
   W = 
@@ -74,14 +74,14 @@ of [[sieve]] inclusions for all [[covering]] families of the [[coverage]] $J$. (
 
 Now we invoke the following results:
 
-1. The <a href="http://ncatlab.org/nlab/show/reflective+sub-(infinity%2C1)-category#LocalizationProposition">localization proposition</a> says that every [[full subcategory]] of a [[locally presentable category]] on the $W$-[[local object]]s for a [[small set]] $W$ of morphisms is a [[reflective subcategory]], given by the [[localization]] at these morphisms;
+1. The <a href="http://ncatlab.org/nlab/show/reflective+sub-(infinity%2C1)-category#LocalizationProposition">localization proposition</a> says that every [[full subcategory]] of a [[locally presentable category]] on the $W$-[[local object|local objects]] for a [[small set]] $W$ of morphisms is a [[reflective subcategory]], given by the [[localization]] at these morphisms;
 
 1. By <a href="http://nlab.mathforge.org/nlab/show/reflective+subcategory#CharacterizationByLocalization">Gabriel-Zisman's theorem</a> every reflective subcategory is the [[localization]] at the collection of morphisms inverted by the left adjoint (which by the localization proposition is the saturation of the original set of morphisms).
 
 1. If $W$ satisfies the axioms of a [[calculus of fractions]] then, by the discussion there, this localization is equivalently given by the category $PSh(C)[W^{-1}]$ whose objects are those of $PSh(C)$ and whose morphisms are given by $PSh(C)[W^{-1}](X,A) \simeq {\lim_{\to}}_{\hat X  \stackrel{w \in W}{\to} X} PSh_C(\hat X,A)$.
 
 
-Notice that an object is a [[local object]] with respect to the above set of  morphisms $W$ precisely if it is local with respect to the set of all [[small set|small]] [[colimit]]s (in the [[arrow category]] $Arr(PSh(C))$ ) of such morphims (since the [[hom-functor]] $PSh_C(-,A)$ sends colimits in the first argument to [[limit]]s, and a limit of [[isomorphism]]s is an isomorphism).
+Notice that an object is a [[local object]] with respect to the above set of  morphisms $W$ precisely if it is local with respect to the set of all [[small set|small]] [[colimit|colimits]] (in the [[arrow category]] $Arr(PSh(C))$ ) of such morphims (since the [[hom-functor]] $PSh_C(-,A)$ sends colimits in the first argument to [[limit|limits]], and a limit of [[isomorphism|isomorphisms]] is an isomorphism).
 
 Let hence $\bar W$ be the completion of $A$ under forming small colimits in $Arr(PSh(C))$.
 
@@ -125,7 +125,7 @@ $$
   \,.
 $$
 
-For this now use the single condition on a [[coverage]]: that for $\{U_i \to U\}$ a covering family in the [[site]] $(C,J)$ we can find a covering family $\{K_j \to K\}$ such that every $K_j \to K$ factors through one of the $U_i \to U$. But this means that also the [[sieve]]s factor, and we have a commuting diagram
+For this now use the single condition on a [[coverage]]: that for $\{U_i \to U\}$ a covering family in the [[site]] $(C,J)$ we can find a covering family $\{K_j \to K\}$ such that every $K_j \to K$ factors through one of the $U_i \to U$. But this means that also the [[sieve|sieves]] factor, and we have a commuting diagram
 
 $$
   \array{
@@ -152,7 +152,7 @@ $$
   Y \to X \stackrel{\to}{\to} S(\{U_i\})
 $$
 
-are equal. But the [[sieve]] inclusions are [[monomorphism]]s, hence this condition is trivially satisyfied (choose $Y \to X$ to be the [[identity]] on $X$). Again by decomposing into colimits by the [[co-Yoneda lemma]] and using [[universal colimits]] and the pasting law for [[pullback]]s, the same follows for general morphisms in $\bar W$
+are equal. But the [[sieve]] inclusions are [[monomorphism|monomorphisms]], hence this condition is trivially satisfied (choose $Y \to X$ to be the [[identity]] on $X$). Again by decomposing into colimits by the [[co-Yoneda lemma]] and using [[universal colimits]] and the pasting law for [[pullback|pullbacks]], the same follows for general morphisms in $\bar W$
 
 $$
   \array{
@@ -172,7 +172,7 @@ $$
 by applying the above on each component $k$ of the colimit.
 
 This gives us the [[localization]] $L : PSh(C) \to Sh_J(C)$ as described at [[calculus of fractions]]. By the discussion there 
-we have that $Sh_J(C)$ is equivalently given by the category $PSh(C)[W^{-1}]$ with the same objects as $PSh(C)$ and [[hom-set]]s given by
+we have that $Sh_J(C)$ is equivalently given by the category $PSh(C)[W^{-1}]$ with the same objects as $PSh(C)$ and [[hom-set|hom-sets]] given by
 
 $$
   PSh(C)[W^{-1}](X,A) 
@@ -247,7 +247,7 @@ $$
 
 \begin{remark}
 
-By the definition of $\bar W$, the morphisms $\hat U \to j(U)$ in $\bar W$ are colimits of diagrams of [[covering]] [[sieve]]s
+By the definition of $\bar W$, the morphisms $\hat U \to j(U)$ in $\bar W$ are colimits of diagrams of [[covering]] [[sieve|sieves]]
 
 $$
   \hat U \simeq 
@@ -282,7 +282,7 @@ $$
    \coprod_{i,j} j(U_i) \times_{j(U)} j(U_j)
 $$
 
-and that the [[hom-functor]] $PSh_C(-,X)$ sends [[colimit]]s to [[limit]]s. More details on this computation are at [[sheaf]].
+and that the [[hom-functor]] $PSh_C(-,X)$ sends [[colimit|colimits]] to [[limit|limits]]. More details on this computation are at [[sheaf]].
 
 
 =--
@@ -297,7 +297,7 @@ $$
   X \to L X
 $$
 
-in $PSh(C)$, from any presheaf into its sheafification. By general properties of [[reflective subcategories]] these morphisms are mapped to [[isomorphism]]s by $L : PSh(C) \to Sh(C)$. Therefore these are [[local isomorphism]]s. 
+in $PSh(C)$, from any presheaf into its sheafification. By general properties of [[reflective subcategories]] these morphisms are mapped to [[isomorphism|isomorphisms]] by $L : PSh(C) \to Sh(C)$. Therefore these are [[local isomorphism|local isomorphisms]]. 
 
 So every presheaf is related by a [[local isomorphism]] to its sheafification.
 
@@ -313,16 +313,16 @@ For presheaves with values in categories other than
 
 ### With values in models for finite-limit theories ###
 
-Consider a type of structure $T$ defined in terms of an [[essentially algebraic theory]] finite limits (such as [[group]]s, [[algebra]]s, [[module]]s, etc.), then [[internal logic|internal]] $T$-[[algebra over an algebraic theory|models]] are preserved by both [[direct image]]s and [[inverse image]]s of [[geometric morphism]]s.  Therefore, the [[adjunction]] $(L \dashv i) : Sh_J(C) \to PSh(C)$  directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
+Consider a type of structure $T$ defined in terms of an [[essentially algebraic theory]] finite limits (such as [[group|groups]], [[algebra|algebras]], [[module|modules]], etc.), then [[internal logic|internal]] $T$-[[algebra over an algebraic theory|models]] are preserved by both [[direct image|direct images]] and [[inverse image|inverse images]] of [[geometric morphism|geometric morphisms]].  Therefore, the [[adjunction]] $(L \dashv i) : Sh_J(C) \to PSh(C)$  directly induces an adjunction between $T$-models in sheaves and presheaves.  And since finite limits of sheaves and presheaves are computed pointwise, $T$-models in the category of (pre)sheaves are the same as (pre)sheaves of $T$-models-in-$Set$.
 
 ### Using the IPC-property
 
 If a [[category]] $A$ satisfies the following assumptions, sheafification of presheaves in $[S^{op}, A]$ exists and is constructed analogously as for [[Set]]-valued sheaves.
 
 
-* $A$ admits small [[limit]]s;
-* $A$ admits small [[colimit]]s;
-* small [[filtered category|filtered colimit]]s in $A$ are exact;
+* $A$ admits small [[limit|limits]];
+* $A$ admits small [[colimit|colimits]];
+* small [[filtered category|filtered colimits]] in $A$ are exact;
 * $A$ satisfies the [[IPC-property]] .
 
 This is true for instance for
@@ -333,7 +333,7 @@ This is true for instance for
 
 * the category $k Alg$ of $k$-algebras;
 
-* the category $Mod(R)$ of [[module]]s,
+* the category $Mod(R)$ of [[module|modules]],
 
 (but all of these are also $T$-models for finite-limit theories $T$).
 
@@ -367,11 +367,11 @@ really unnecessary for the examples above?
 
 ## References
 
-The description of sheafification in terms of [[local isomorphism]]s is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
+The description of sheafification in terms of [[local isomorphism|local isomorphisms]] is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
 
 * Kashiwara--Schapira, _[[Categories and Sheaves]]_
 
-The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
+The description in terms of [[dense monomorphism|dense monomorphisms]] using [[Lawvere-Tierney topology]] is in section V.3 of
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
