@@ -94,6 +94,8 @@ This allows us to define discreteness for non-crisp types: a type $A$ is **discr
 
 * [[uniqueness of identity proofs]]
 
+* [[interval type localization]]
+
 * [[axiom of cohesion]]
 
 [[!redirects axiom of circle type localization]]
