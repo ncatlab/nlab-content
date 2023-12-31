@@ -130,15 +130,29 @@ Not really related
 [[!redirects inverse map]]
 [[!redirects inverse maps]]
 
+[[!redirects quasi-inverse]]
 [[!redirects quasi-inverse function]]
 [[!redirects quasi-inverse functions]]
 [[!redirects quasi-inverse map]]
 [[!redirects quasi-inverse maps]]
 
+[[!redirects quasi-invertible]]
+[[!redirects quasi-invertible function]]
+[[!redirects quasi-invertible functions]]
+[[!redirects quasi-invertible map]]
+[[!redirects quasi-invertible maps]]
+
+[[!redirects coherent inverse]]
 [[!redirects coherent inverse function]]
 [[!redirects coherent inverse functions]]
 [[!redirects coherent inverse map]]
 [[!redirects coherent inverse maps]]
+
+[[!redirects coherently invertible]]
+[[!redirects coherently invertible function]]
+[[!redirects coherently invertible functions]]
+[[!redirects coherently invertible map]]
+[[!redirects coherently invertible maps]]
 
 [[!redirects half adjoint equivalence]]
 [[!redirects half adjoint equivalences]]
