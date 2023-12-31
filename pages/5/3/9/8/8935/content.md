@@ -22,6 +22,7 @@ Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $I
 
 See also at _[extensional type theory -- Propositional extensionality](extensional+type+theory#PropositionalExtensionality)_.
 
+Axiom K can also be called **loop induction** or **self-identification induction** in parallel to [[path induction]]. 
 
 ## Statement
 
@@ -42,14 +43,12 @@ If one doesn't have [[type universes]] in the type theory, then axiom K has to b
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma \vdash K_A:\prod_{x:A} P(x, \mathrm{refl}_A(x)) \to \prod_{h:\mathrm{Id}_A(x,x)} P(x, h)}$$
 
-Axiom K can also be called **loop induction** or **self-identification induction** in parallel to [[path induction]]. 
-
 ### Using the circle type
 
 One can, instead of using elements $x:A$ and self identifications $p:\mathrm{Id}_A(x,x)$, use a function $p:S^1 \to A$ from the [[circle type]] $S^1$ to express axiom K:
 
 $$
-  K 
+  K^{\prime} 
   \colon 
   \underset{A \colon Type}{\prod} 
   \underset{x \colon A}{\prod}
@@ -65,7 +64,7 @@ This states that the function type $S^1 \to A$ is a [[positive copy]] of $A$, an
 
 If one doesn't have [[type universes]] in the type theory, then axiom K has to be expressed as an [[inference rule]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, p:S^1 \to A \vdash P(p) \; \mathrm{type}}{\Gamma \vdash K_A:\prod_{x:A} P(\lambda i:S^1.x) \to \prod_{p:S^1 \to A} P(p)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, p:S^1 \to A \vdash P(p) \; \mathrm{type}}{\Gamma \vdash K_A^{\prime}:\prod_{x:A} P(\lambda i:S^1.x) \to \prod_{p:S^1 \to A} P(p)}$$
 
 ## Properties
 
@@ -78,7 +77,7 @@ is an [[equivalence of types]] or a definitional [[isomorphism]].
 \begin{theorem}
 Suppose that every type $A$ is definitionally $S^1$-local.
 
-Then definitional [[axiom K (type theory)|axiom K]] holds: given any type $A$, and any type family $C(p)$ indexed by loops $p:S^1 \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:S^1.x)$ which says that for all elements $x:A$, there is an element of the type defined by substituting the constant loop of $x:A$ into $C$, $C(\lambda i:S^1.x)$, one can construct a dependent function $K_A(t):\prod_{z:S^1 \to A} C(z)$ such that for all $x:A$, $K_A(t, \lambda i:S^1.x) \equiv t(x):C(\lambda i:S^1.x)$. 
+Then $S^1 \to A$ is a [[positive copy]] of $A$: given any type $A$, and any type family $C(p)$ indexed by loops $p:S^1 \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:S^1.x)$ which says that for all elements $x:A$, there is an element of the type defined by substituting the constant loop of $x:A$ into $C$, $C(\lambda i:S^1.x)$, one can construct a dependent function $K_A(t):\prod_{z:S^1 \to A} C(z)$ such that for all $x:A$, $K_A(t, \lambda i:S^1.x) \equiv t(x):C(\lambda i:S^1.x)$. 
 \end{theorem}
 
 \begin{proof}
@@ -93,6 +92,41 @@ $$\mathrm{const}_{A, S^1}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
 and so by definition of $\mathrm{ind}_{S^1 \to A}(t)$ and the judgmental congruence rules for substitution, one has
 
 $$K_A(t, \lambda i:S^1.x) \equiv t(\mathrm{const}_{A, S^1}^{-1}(\lambda i:S^1.x)) \equiv t(x)$$
+\end{proof}
+
+\begin{theorem}
+Suppose that for all types $A$, $S^1 \to A$ is a [[positive copy]] of $A$ through the function 
+$$\mathrm{const}_{A, S^1} \equiv \lambda x:A.\lambda i:S^1.x:A \to (S^1 \to A)$$
+
+Then Streicher's axiom K is true: given a type $A$ and given a type family $C(x, P)$ indexed by $x:A$ and $p:x =_A X$, and a dependent function $t:\prod_{x:A} C(x, \mathrm{refl}_A(x))$, one can construct a dependent function
+
+$$K_A(t):\prod_{x:A} \prod_{p:x =_A X} C(x, p)$$
+
+such that for all $x:A$, 
+
+$$K_A(t, x, \mathrm{refl}_A(x)) \equiv t(x)$$
+\end{theorem}
+
+\begin{proof}
+By the induction principle of [[positive copies]] on the type family $C(f(\mathrm{base}), \mathrm{ap}_f(\mathrm{loop}))$ indexed by $f:S^1 \to A$, we can construct a dependent function
+
+$$K_A^{\prime}(t):\prod_{f:\mathbb{I} \to A} C(f(\mathrm{base}), \mathrm{ap}_f(\mathrm{loop}))$$
+
+such that for all $x:A$,
+
+$$K_A^{\prime}(t, \lambda i:S^1.x) \equiv t(x):C(x, \mathrm{refl}_A(x))$$ 
+
+since by definition of constant function and reflexivity, one has
+
+$$(\lambda i:\mathbb{I}.x)(\mathrm{base}) \equiv x \quad \mathrm{ap}_{\lambda i:\mathbb{I}.x}(\mathrm{loop}) \equiv \mathrm{refl}_A(x)$$
+
+We define 
+
+$$K_A(t, x, p) \equiv K_A^{\prime}(t, \mathrm{rec}_{S^1}^A(x, p))$$
+
+since by circle recursion one has a path $\mathrm{rec}_{S^1}^A(x, p):S^1 \to A$ such that
+
+$$\mathrm{rec}_{S^1}^{A}(x, p)(\mathrm{base}) \equiv x \quad \mathrm{ap}_{\mathrm{rec}_{S^1}^{A}(x, p)}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv p$$
 \end{proof}
 
 One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
