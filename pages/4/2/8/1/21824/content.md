@@ -1,4 +1,10 @@
 
+* [personal page](https://ymsc-strings.github.io/people/babak.html)
+
+* [InSpire page](https://inspirehep.net/authors/1057034)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=N1SYs84AAAAJ&hl=en)
+
 
 ## Selected writings
 
