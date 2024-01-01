@@ -61,6 +61,8 @@ If $U\colon C\to D$ is a functor, then a **$U$-structured sink** is a collection
 
 * [[wide pullback]], [[wide pushout]]
 
+* [[dependent product type]], [[dependent sum type]]
+
 [[!redirects sink]]
 [[!redirects cosink]]
 
