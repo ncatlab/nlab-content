@@ -402,5 +402,9 @@ Formalization of additive categories as [[univalent categories]] in [[univalent 
 
 * [[unimath]], *Additive categories* &lbrack;[UniMath.CategoryTheory.Additive](https://unimath.github.io/doc/UniMath/4dd5c17/UniMath.CategoryTheory.Additive.html)&rbrack;
 
+A characterisation of preadditive categories in terms of commutative monoids in cartesian multicategories is given in:
+
+* [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
+
 
 [[!redirects additive categories]]
