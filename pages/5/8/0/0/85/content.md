@@ -235,6 +235,9 @@ There is an [[equivalence of categories]] between the category of [[pro-monoidal
 
 This is claimed without proof in ([Day 70](#Day70)).
 
+### Via multicategories
+
+The monoidal structure on $[C, D]$ for $C$ promonoidal and $D$ [[monoidally cocomplete category|monoidally cocomplete]] may be seen as the multicategory structure arising from viewing $C$ and $D$ as [[multicategories]], since $C$ is [[exponentiable object|exponentiable]] in this case. See [[multicategory]] and Proposition 2.12 of [Pisani 2014](#Pisani14) for more details.
 
 ## Properties 
   {#Properties}
@@ -826,6 +829,10 @@ On [[(infinity,1)-colimits|$\infty$-colimits]] and [[Day convolution]] in the co
 Various generalisations are discussed in:
 
 * [[Brian Day]] and [[Ross Street]], _Lax monoids, pseudo-operads, and convolution_, Contemporary Mathematics 318 (2003): 75-96.
+
+The link with multicategories is observed in:
+
+* {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
 
 
 [[!redirects Day convolutions]]
