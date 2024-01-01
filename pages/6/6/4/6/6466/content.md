@@ -27,7 +27,7 @@ Let $\mathcal{E}$ be a [[Heyting category]].  (This means, in particular, that w
 +-- {: .num_defn}
 ###### Definition
 
-A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[linearly ordered]] [[Heyting field]].
+A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[strictly totally ordered]] [[Heyting field]].
 =--
 
 In detail:
@@ -43,7 +43,7 @@ written in the [[internal language]] of $\mathcal{E}$.  Then $R$ is a (Heyting) 
 *  [[comparison relation|comparison]]: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \# z \implies (x \# y \vee y \# z))$,
 *  [[tight relation|tightness]]: $\forall x\colon R.\, \forall y\colon R.\, (\neg(x \# y) \implies x = y)$.
 
-A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equipped with a binary relation $\lt$ such that the following axioms hold:
+A (strictly totally) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equipped with a binary relation $\lt$ such that the following axioms hold:
 
 *  strong [[irreflexive relation|irreflexivity]]: $\forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies x \# y)$,
 *  strong [[connected relation|connectedness]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
@@ -68,6 +68,13 @@ $$ U = \{ (a,b)\colon \Gamma \times R \;|\; x(a) \lt b \} .$$
 
 Finally, a _real numbers object_ in $\mathcal{E}$ is a Dedekind-complete ordered field object.
 
+### As a terminal object
+
+An [[Archimedean ordered field]] [[object]] can be defined in any Heyting category with an NNO. Then the real numbers object $\mathbf{R}$ is the terminal such Archimedean ordered field object. 
+
+If the [[Heyting category]] is a [[Heyting pretopos]] and the NNO is an [[exponentiable object]], then it is provable that $\mathbf{R}$ is Cauchy complete. From the definition of terminal object, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{C}(X)$ in the category of Archimedean ordered field objects which takes Archimedean ordered field objects $X$ to the Archimedean ordered field objects $\mathcal{C}(X)$ of [[congruences]] of internal Cauchy sequences in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{C}(X)$ in the category of Archimedean ordered field objects is a Cauchy complete Archimedean ordered field object. 
+
+Similarly, if [[power objects]] of Archimedean ordered field objects exist, then it is provable that $\mathbf{R}$ is Dedekind complete. From the definition of terminal object, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the category of Archimedean ordered field objects which takes Archimedean ordered field objects $X$ to the Archimedean ordered field objects $\mathcal{C}(X)$ of internal two-sided Dedekind cuts in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the category of Archimedean ordered field objects is a Dedekind complete Archimedean ordered field object. 
 
 ## Properties
 
@@ -176,7 +183,6 @@ Note that any [[Boolean topos]] with an NNO satisfies $WCC$, so in all we have t
 ### In a $\Pi$-pretopos with an NNO and subset collection
 
 Summary: modify the construction of a [[Cauchy real numbers]] object to use [[multi-valued function|multi-valued]] [[Cauchy sequences]].
-
 
 ## Examples
 
@@ -313,6 +319,10 @@ Discussion in [[topos theory]] is in
 Discussion in [[homotopy type theory]] is in
 
 * [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+
+[[!redirects RNO]]
+[[!redirects RNOs]]
 
 [[!redirects real numbers object]]
 [[!redirects real numbers objects]]
