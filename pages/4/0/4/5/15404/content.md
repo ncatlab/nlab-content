@@ -15,4 +15,8 @@ On [[manifold calculus]] via [[(infinity,1)-sheaves]] on the [[Weiss topology]]:
 
 * [[Weiss topology]]
 
+* [[configuration category]]
+
 category: people
+
+[[!redirects Michael S. Weiss]]
