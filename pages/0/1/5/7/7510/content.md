@@ -782,6 +782,19 @@ defined by $\mathrm{graph}(f)(x) \equiv (x, f(x))$ for all $x:A$. As a [[depende
 
 $$x:A, y:B(x) \vdash f(x) =_{B(x)} y$$
 
+
+## Categorical interpretation
+
+In [[categorical semantics]], the [[dependent product types]] are *[[relative adjoint functor|relative]]* [[right adjoints]] to [[context extension]] in [[comprehension categories]]. 
+
+There is also another interpretation in category theory of the dependent product type over $x:A \vdash B(x) \; \mathrm{type}$ as the [[terminal]] $A$-indexed [[wide span]] under $B(x)$, the object $\prod_{x:A} B(x)$ with a family of morphisms 
+
+$$\pi_A(x):\left(\prod_{x:A} B(x)\right) \to B(x)$$
+
+such that for any other object $C$ with a family of morphisms $f(x):C \to B(x)$, there exists a unique morphism $u_C:C \to \prod_{x:A} B(x)$ such that 
+
+$$\pi_A(x) \circ u_C = f(x)$$
+
 ## Related concepts
 
 * [[dependent product]]
