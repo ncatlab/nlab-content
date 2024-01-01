@@ -76,6 +76,8 @@ If the [[Heyting category]] is a [[Heyting pretopos]] and the NNO is an [[expone
 
 Similarly, if [[power objects]] of Archimedean ordered field objects exist, then it is provable that $\mathbf{R}$ is Dedekind complete. From the definition of terminal object, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the category of Archimedean ordered field objects which takes Archimedean ordered field objects $X$ to the Archimedean ordered field objects $\mathcal{C}(X)$ of internal two-sided Dedekind cuts in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the category of Archimedean ordered field objects is a Dedekind complete Archimedean ordered field object. 
 
+If a real numbers object $R$ as defined in the previous section also exists, then it is a [[subobject]] of this real numbers object $\mathbb{R}$ defined as the terminal Archimedean ordered field object, since $R$ is provably Archimedean ordered in any Heyting category with an NNO, and any morphism of [[ring objects]] between two field objects is a monomorphism in the underlying category, and by definition of terminal object, there is always a morphism of ring objects $R \to \mathbb{R}$. 
+
 ## Properties
 
 In the last requirement, of Dedekind completeness, we postulate (under certain conditions) the existence of a morphism $x\colon \Gamma \to R$ satisfying certain properties.
