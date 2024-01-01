@@ -129,16 +129,14 @@ See also ([Geer-Katsura 03](#GeerKatsura03)).
 
 ## References
 
-The original articles are
+The original articles:
 
-* [[Shing-Tung Yau]], ...
-
-(...)
+* [[Shing-Tung Yau]], *On the Ricci curvature of a compact Kähler manifold and the complex Monge-Ampére equation*, Communications on Pure and Applied Mathematics, 
+**31** 3 (1978) 339-411 &lbrack;[doi:10.1002/cpa.3160310304](https://doi.org/10.1002/cpa.3160310304)&rbrack;
 
 Surveys and review:
 
-* [[Shing-Tung Yau]], _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_
-Scholarpedia 4(8):6524 (2009) [doi](https://doi.org/10.4249/scholarpedia.6524) 	
+* [[Shing-Tung Yau]], _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_, Scholarpedia **4** 86524 (2009) &lbrack;[doi](https://doi.org/10.4249/scholarpedia.6524)&rbrack;	
 
 Motivated from the relation between [[supersymmetry and Calabi-Yau manifolds]]:
 
