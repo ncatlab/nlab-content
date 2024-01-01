@@ -297,6 +297,15 @@ Under [[categorical semantics]], product types satisfying both beta and eta conv
 
 Of course, the categorical notion of product matches the *negative* definition of a product most directly.  In linear logic, therefore, the categorical product interprets "with" $\&$, while an additional [[monoidal category|monoidal structure]] interprets "tensor" $\otimes$.  On the other hand, in a representable [[cartesian multicategory]], the product has a "from the left" universal property which matches the *positive* definition.
 
+There is also another interpretation in category theory of the product type $A$ and $B$, as the [[initial]] $A$-indexed family of [[parallel morphisms]] with [[source]] $B$, the object $A \times B$ with a family of morphisms 
+
+$$\mathrm{in}_A(x):B \to A \times B$$
+
+such that for any other object $C$ with a family of morphisms $f(x):B \to C$, there exists a unique morphism $u_C:A \times B \to C$ such that 
+
+$$u_C \circ \mathrm{in}_A(x) = f(x)$$
+
+This corresponds to the positive product types. 
 
 ## Related concepts
 
