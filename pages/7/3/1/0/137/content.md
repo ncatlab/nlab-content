@@ -290,7 +290,7 @@ There are a sequence of variations on the concept of epimorphism, which convenie
 * [[effective epimorphism]] = [[coequalizer]] of its [[kernel pair]]
 * [[regular epimorphism]] = [[coequalizer]] of some [[parallel pair]] of morphisms
 * [[strict epimorphism]] = joint coequalizer of all pairs which it coequalizes
-* [[strong epimorphism]] = an epimorphism [[orthogonality|right orthogonal]] to [[monomorphisms]]
+* [[strong epimorphism]] = an epimorphism [[orthogonality|left orthogonal]] to [[monomorphisms]]
 * [[extremal epimorphism]] = an epimorphism not factoring through any nontrivial monomorphism.
 * epimorphism.
 
