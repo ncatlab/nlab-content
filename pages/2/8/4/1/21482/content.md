@@ -1,4 +1,6 @@
 
+[Website](https://www.math.tecnico.ulisboa.pt/~pbrito/).
+
 * [MathematicsGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=199044)
 
 ## Selected writings
@@ -12,6 +14,9 @@ On identifying the [[shape modality]] on the [[cohesive (∞,1)-topos]] of [[smo
 
 * {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
+## Related concepts
+
+* [[configuration category]]
 
 
 category: people
