@@ -238,8 +238,17 @@ where $A \simeq B$ is the [[equivalence type]] between $A$ and $B$, $A \hookrigh
 
 ## Categorical interpretation
 
-Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon Type$ corresponds to a [[fibration]] or [[display map]] $B\to A$.  In this case, the dependent sum is just the [[object]] $B$.  This requires the dependent sum type to satisfy both $\beta$- and $\eta$-conversion.
+Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon Type$ corresponds to a [[fibration]] or [[display map]] $B\to A$. In this case, the dependent sum is just the [[object]] $B$. This requires the dependent sum type to satisfy both $\beta$- and $\eta$-conversion. 
 
+There is also another interpretation in category theory of the dependent sum type over $x:A \vdash B(x) \; \mathrm{type}$ as the [[initial]] $A$-indexed [[wide cospan]] over $B(x)$, the object $\sum_{x:A} B(x)$ with a family of morphisms 
+
+$$\mathrm{in}_A(x):B(x) \to \sum_{x:A} B(x)$$
+
+such that for any other object $C$ with a family of morphisms $f(x):B(x) \to C$, there exists a unique morphism $u_C:\sum_{x:A} B(x) \to C$ such that 
+
+$$u_C \circ \mathrm{in}_A(x) = f(x)$$
+
+This corresponds to the positive dependent sum types. 
 
 ## Related concepts
 
