@@ -1,8 +1,24 @@
 
+* [yauc.seu page](https://yauc.seu.edu.cn/27627/list.psp)
+
+* [physics.harvard page](https://www.physics.harvard.edu/people/facpages/yau)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18758)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Shing-Tung_Yau)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=Apxg6tgAAAAJ&hl=en)
+
+* [MacTutor biography page](https://mathshistory.st-andrews.ac.uk/Biographies/Yau/)
+
+* [Yau Mathematical Science Center](https://ymsc.tsinghua.edu.cn/en/)
+
 ## Selected writings
+
+Establishing what came to be called *[[Calabi-Yau manifolds]]*:
+
+* [[Shing-Tung Yau]], *On the Ricci curvature of a compact Kähler manifold and the complex Monge-Ampére equation*, Communications on Pure and Applied Mathematics, 
+**31** 3 (1978) 339-411 &lbrack;[doi:10.1002/cpa.3160310304](https://doi.org/10.1002/cpa.3160310304)&rbrack;
 
 On the [[mirror map]]:
 
