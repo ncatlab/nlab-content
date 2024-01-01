@@ -46,7 +46,7 @@ There are three natural kinds of functors between duoidal categories, which are 
 
 ### Virtual duoidal categories
 
-A **virtual duoidal category** is a pseudomonoid in the 2-category of [[multicategories]].  That is, it is a multicategory with a monoidal structure $(C,\star,J)$: the $\diamond$-monoidal structure is replaced by the multicategory structure.  Since every monoidal category can be regarded as a [[representable multicategory]], and multicategory functors correspond exactly to lax monoidal functors, duoidal categories can be identified with virtual duoidal categories in which the multicategory structure is representable.
+A **virtual duoidal category** is a pseudomonoid in the 2-category of [[multicategories]] (called **monoidal multicategories** in Appendix B of [López Franco & Vasilakopoulou](#FrancoVasilakopoulou)).  That is, it is a multicategory with a monoidal structure $(C,\star,J)$: the $\diamond$-monoidal structure is replaced by the multicategory structure.  Since every monoidal category can be regarded as a [[representable multicategory]], and multicategory functors correspond exactly to lax monoidal functors, duoidal categories can be identified with virtual duoidal categories in which the multicategory structure is representable.
 
 In particular, note that $J$ in a virtual duoidal category is a functor of multicategories $1\to C$, i.e. precisely a [[monoid]] in the multicategory $C$.  As part of this monoid structure it has a unit map $()\to J$; we say that the virtual duoidal category $C$ is **normal** if this map exhibits $J$ as a unit object for the multicategory structure.
 
@@ -185,6 +185,8 @@ A duoidal category is the same as an [[intercategory]] with one object and only 
 * [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_, [arXiv](http://arxiv.org/abs/1507.08710).  See also _Commutativity and tensor products of theories, monads, and operads_, talk at CT2013, [slides](https://www.dpmms.cam.ac.uk/~ill20/ct2013-talk.pdf)
 
 * Zoran Petri&#263; and [[Todd Trimble]] 2014, _Symmetric bimonoidal intermuting categories and $\omega \times \omega$ reduced bar constructions_, Applied Categorical Structures 22(3): 467-499, [arXiv:0906.2954](http://arxiv.org/abs/0906.2954)
+
+* {#FrancoVasilakopoulou} [[Ignacio López Franco]] and [[Christina Vasilakopoulou]], _Duoidal categories, measuring comonoids and enrichment_, [arXiv:2005.01340](https://arxiv.org/abs/2005.01340) (2020).
 
 
 [[!redirects duoidal category]]
