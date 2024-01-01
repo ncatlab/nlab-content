@@ -43,6 +43,23 @@ Exactly how to define or characterise real numbers is still important in [[const
 
 There are two basic approaches possible: to define what a __real number__ is as a mathematical object, or to define the __real line__ as a specific object in some previously known [[category]].
 
+### The terminal Archimedean ordered field
+
+There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal Archimedean ordered field'.  This can be interpreted as follows:
+
+*  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
+*  An __ordered field__ means a *[[strictly totally ordered]]* field.
+*  An __[[Archimedean ordered field]]__ is an ordered field satisfying the [[Archimedean property]].
+*  An Archimedean ordered field is __terminal__ if it is a [[terminal object]] in the category of Archimedean ordered fields.
+
+We speak of [[the]] such field because it is unique up to unique [[isomorphism]] by definition of [[terminal object]].
+
+In [[predicative mathematics]], one can define $\mathbf{R}$ by fiat via the [[universal property]] of the real numbers as the [[terminal object|terminal]] [[Archimedean ordered field]]. From this characterization, the real numbers are a [[terminal coalgebra]] of the [[identity functor|identity endofunctor]] $X \mapsto X$ on the [[category]] of [[Archimedean ordered fields]]. 
+
+If [[quotient sets]] exist and [[sequence algebras]] of Archimedean ordered fields exist, then it is provable that $\mathbf{R}$ is Cauchy complete. From the definition of terminal object, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{C}(X)$ in the category of Archimedean ordered fields which takes Archimedean ordered fields $X$ to the Archimedean ordered field $\mathcal{C}(X)$ of equivalence classes of Cauchy sequences in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{C}(X)$ in the category of Archimedean ordered fields is a Cauchy complete Archimedean ordered field. 
+
+Similarly, if [[power sets]] of Archimedean ordered fields exist, then it is provable that $\mathbf{R}$ is Dedekind complete. From the definition of terminal object, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the category of Archimedean ordered fields which takes Archimedean ordered fields $X$ to the Archimedean ordered field $\mathcal{C}(X)$ of two-sided Dedekind cuts in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the category of Archimedean ordered fields is a Dedekind complete Archimedean ordered field. 
+
 ### Dedekind cuts {#Dedekind}
 
 Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of a [[countable set|countable]] unbounded [[dense linear order]], such as $\mathbb{Q}$ (the set of [[rational numbers]]) or  $\mathbb{Z}[1/10]$ (the set of [[decimal fractions]]), such that:
@@ -150,19 +167,6 @@ However, we note that the proof is valid in weak [[foundations]], in particular 
 Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]]. 
 
 However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, the Cauchy real numbers would no longer be unique up to unique isomorphism, but rather there would be a set of Cauchy real numbers for each universe. 
-
-### The terminal archimedean field
-
-There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal archimedean field' in a [[universe]].  This can be interpreted as follows:
-
-*  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
-*  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
-*  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
-*  An archimedean field is __terminal in a universe__ if it is a [[terminal object]] in the category of archimedean fields of that universe.
-
-In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]] in a universe.
-
-However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, there is only a terminal archimedean field in a universe if there is a maximal universe term inside the universe into which all the other universe terms in that universe [[embedding|embed]] into. 
 
 ### As an archimedean Tarski group
 
