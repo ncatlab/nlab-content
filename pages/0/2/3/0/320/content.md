@@ -81,6 +81,10 @@ Ordinary (permutative/symmetric) operads, and their generalization to [[symmetri
 
 There is a [[faithful functor]] from [[monoidal categories]] to [[multicategories]], given by forming [[representable multicategories|represented multicategories]].  Conversely, to any multicategory $C$ there is an associated (strict) monoidal category $F(C)$, whose objects (respectively, arrows) are [[lists]] of objects (respectively, arrows) of $C$, and where the tensor product in $F(C)$ is given by concatenation.
 
+### Exponentiability
+
+A multicategory is [[exponentiable object|exponentiable]] if and only if it is [[promonoidal category|promonoidal]] (Proposition 2.8 of [Pisani 2014](#Pisani14)). In particular, [[representable multicategories]] and [[sequential multicategories]] are exponentiable. This gives an abstract construction of the [[Day convolution]] tensor product on $[C, D]$ for any [[promonoidal category]] $C$ and any [[monoidal category]] $D$: it is precisely the (representable) multicategory structure on the functor multicategory $D^C$.
+
 ## Examples and special cases
 
 * [[permutative categories]] with multi-linear functors between them form a multicategory [[PermCat]]
@@ -101,6 +105,10 @@ See also the examples at _[[operad]]_.
 
 * [[symmetric multicategory]]
 
+* [[cartesian multicategory]]
+
+* [[sequential multicategory]]
+
 * [[generalized multicategory]], [[operad]] 
 
 
@@ -109,6 +117,7 @@ See also the examples at _[[operad]]_.
 * [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
  {#Leinster}
 
+* {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
 
 [[!redirects multicategories]]
 
