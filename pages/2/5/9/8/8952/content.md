@@ -34,7 +34,9 @@ There are a few technical differences (e.g. proofs of propositions are [[definit
 
 Observational type theory was introduced in
 
-* [[Thorsten Altenkirch]] and [[Conor McBride]], _Towards observational type theory_ ([pdf](http://strictlypositive.org/ott.pdf))
+* [[Thorsten Altenkirch]] and [[Conor McBride]], _Towards observational type theory_, draft, February 2006 ([pdf](http://strictlypositive.org/ott.pdf), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/ott-conf.pdf))
+
+* [[Thorsten Altenkirch]], [[Conor McBride]], and [[Wouter Swierstra]], *Observational Equality, Now!*, PLPV '07: Proceedings of the 2007 workshop on Programming languages meets program verification, pg. 57--68, (ISBN:978-1-59593-677-6, [doi:10.1145/1292597.1292608](http://doi.org/10.1145/1292597.1292608), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/obseqnow.pdf))
 
 A blog post about an Agda implementation, including propositional extensionality (which is not mentioned in the above paper) is at
 
