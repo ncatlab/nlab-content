@@ -4,7 +4,7 @@ This page compiles pointers to material contained in the (upcoming) book collect
 
 \linebreak
 
-* C. Bambi, L. Modesto and [[Ilya L. Shapiro]]:
+* Cosimo Bambi, Leonardo Modesto and [[Ilya L. Shapiro]]:
 
   \linebreak
 
@@ -12,7 +12,9 @@ This page compiles pointers to material contained in the (upcoming) book collect
 
   \linebreak
 
-  Springer (expected in 2023)
+  Springer (2023)
+
+  [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)
 
 on aspects of [[quantum gravity]].
 
