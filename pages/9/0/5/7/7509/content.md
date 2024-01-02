@@ -183,13 +183,9 @@ One might expect that in "[[dependent linear type theory]]" the positive and neg
 
 ### Using universes and dependent product types
 
-Dependent sum types could be defined directly from universes, dependent product types, and function types - the last of which are definable from dependent product types. Given a [[Russell universe]] $U$, the dependent sum type of the type family $x:A \vdash B(x)$ is defined as the dependent product type
+Dependent sum types could be defined directly from universes, dependent product types, and function types - the last of which are definable from dependent product types. Given a [[type universe]] $U$, the dependent sum type of the type family $x:A \vdash B(x)$ is defined as the dependent product type
 
 $$\sum_{x:A} B(x) \coloneqq \prod_{P:U} \prod_{x:A} (B(x) \to P) \to P$$
-
-Similarly for Tarski universes $(U, T)$, the dependent sum type of the type family $x:A \vdash B(x)$ is defined as the dependent product type
-
-$$\sum_{x:A} B(x) \coloneqq \prod_{P:U} \prod_{x:A} (B(x) \to T(P)) \to T(P)$$
 
 This was the first definition of dependent sum types in dependent type theory, appearing in [[Per Martin-Löf]]'s [original 1971 paper](#ML71) on dependent type theory. 
 
