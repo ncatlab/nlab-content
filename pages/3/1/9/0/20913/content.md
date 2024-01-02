@@ -32,10 +32,10 @@
 
 ### General
 
-Review
+Review:
 
 
-* [[Ingmar Saberi]], _An introduction to spin systems for mathematicians_, ([arXiv:1801.07270](https://arxiv.org/abs/1801.07270))
+* [[Ingmar Saberi]], _An introduction to spin systems for mathematicians_ &lbrack;[arXiv:1801.07270](https://arxiv.org/abs/1801.07270)&rbrack;
 
 
 The original articles:
@@ -48,7 +48,13 @@ Further development:
 
   (relation to [[tensor networks]])
 
-(...)
+See also:
+
+* Taro Kimura, Rui-Dong Zhu, *Bethe/Gauge Correspondence for $SO$/$Sp$ Gauge Theories and Open Spin Chains*, JHEP **2021** 227 (2021) &lbrack;[arXiv:2012.14197](https://arxiv.org/abs/2012.14197), <a href="https://link.springer.com/article/10.1007/JHEP03(2021)227">doi:10.1007/JHEP03(2021)227</a>&rbrack;
+
+* Ziwei Wang, Rui-Dong Zhu, *Bethe/Gauge Correspondence for $A_N$ Spin Chains with Integrable Boundaries* &lbrack;[arXiv:2401.00764](https://arxiv.org/abs/2401.00764)&rbrack;
+
+
 
 ### For single trace operators in super Yang-Mills theory
 
