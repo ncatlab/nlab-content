@@ -1,12 +1,5 @@
 * [website](http://sma.epfl.ch/~hessbell/)
 
-#related $n$Lab entries#
-
-* [[rational homotopy theory]]
-
-* [[generalized universal bundle]]
-
-* [[homotopy coinvariants functor]]
 
 ## Selected writings
 
@@ -23,6 +16,10 @@ On [[rational homotopy theory]]:
 On the [[Adams-Hilton model]] for the [[Pontrjagin ring]]-structure on the [[singular chain complex]] of a [[based loop space]]:
 
 * [[Kathryn Hess]], [[Paul-Eugène Parent]], [[Jonathan Scott]], [[Andrew Tonks]], *A canonical enriched Adams-Hilton model for simplicial sets*, Advances in Mathematics **207** 2 (2006) 847-875 &lbrack;[doi:10.1016/j.aim.2006.01.013](https://doi.org/10.1016/j.aim.2006.01.013), [arXiv:math/0408216](https://arxiv.org/abs/math/0408216)&rbrack;
+
+On [[free loop spaces]] in [[algebraic topology]] and [[physics]] ([[quantum field theory]]):
+
+* [[Kathryn Hess]], *Free loop spaces in topology and physics*, talk at *Meeting of Edinburgh Math. Soc. Glasgow* (14 Nov 2008) &lbrack;[pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf), [[Hess-FreeLoopSpaces.pdf:file]]&rbrack; 
 
 
 
@@ -43,6 +40,13 @@ On [[simply connected homotopy type|simply connected]] [[homotopy types]] as the
 
 * {#HessKedziorek17} [[Kathryn Hess]], [[Magdalena Kedziorek]], Thm. 3.11 in: *The homotopy theory of coalgebras over simplicial comonads*, Homology, Homotopy and Applications **21** 1 (2019) &lbrack;[arXiv:1707.07104](https://arxiv.org/abs/1707.07104), [doi:10.4310/HHA.2019.v21.n1.a11](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a11)&rbrack;
 
+## Related entries
+
+* [[rational homotopy theory]]
+
+* [[generalized universal bundle]]
+
+* [[homotopy coinvariants functor]]
 
 
 category: people
