@@ -567,7 +567,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
 
-This is called **definitional interval type localization**. 
+This is called *definitional [[interval type localization]]*. 
 
 Then, one can prove path induction (positive copy induction rules):
 
