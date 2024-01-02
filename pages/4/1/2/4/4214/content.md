@@ -20,21 +20,33 @@
 
 ## Idea
 
-A **companion pair** in a [[double category]] is a way of saying that a horizontal [[morphism]] and a vertical morphism are "[[isomorphism|isomorphic]]", even though they do not live in the same [[1-category]]/[[2-category]].
+A **companion pair** in a [[double category]] is a way of saying that a [[horizontal  morphism]] and a [[vertical morphism]] are "[[isomorphism|isomorphic]]", even though they do not live in the same [[1-category]]/[[2-category]].
 
 A **connection pair** in a [[double category]] is a [[strict 2-functor|strictly 2-functorial]] choice of companion pairs for every vertical morphism.
 
 ## Definition
 
-Let $f\colon A\to B$ be a vertical arrow ([[morphism]]) and $f'\colon A\to B$ a horizontal arrow in a [[double category]].  These arrows are said to be a **companion pair** if they come equipped with [[2-morphism|2-cells]]
+Let $f\colon A\to B$ be a [[vertical morphism]] and $f'\colon A\to B$ a [[horizontal morphism]] in a [[double category]].  These are said to be a **companion pair** if they come equipped with [[2-morphisms]] of the form:
 $$
-\array{ A & \overset{f'}{\to} & B \\
-^f\downarrow & ^{\phi}\swArrow & \downarrow^{id} \\
-B & \underset{id}{\to} & B} 
-\qquad and\qquad
-\array{ A & \overset{id}{\to} & A \\
-^{id} \downarrow & ^{\psi}\swArrow & \downarrow^f \\
-A & \underset{f'}{\to} & B }
+  \array{ 
+    A & \overset{f'}{\longrightarrow} & B 
+    \\
+    \mathllap{^f}\big\downarrow & \mathllap{^\phi}\swArrow & \big\downarrow\mathrlap{^id} 
+    \\
+    B & \underset{id}{\longrightarrow} & B
+  } 
+  \qquad
+  \qquad 
+  \text{and}
+  \qquad
+  \qquad
+  \array{ 
+    A & \overset{id}{\longrightarrow} & A 
+   \\
+   \mathllap{^id}\big\downarrow & \mathllap{^\psi}\swArrow & \big\downarrow\mathrlap{^f} 
+   \\
+   A & \underset{f'}{\longrightarrow} & B 
+  }
 $$
 such that $\phi \circ_h \psi = id_{f'}$ and $\phi \circ_v \psi = id_{f}$, where $\circ_h$ and $\circ_v$ denote horizontal and vertical composition of 2-cells.
 
@@ -43,9 +55,13 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 ## Examples
 
-* In the double category $\mathbf{Sq}(K)$ of squares ([[quintets]]) in any [[2-category]] $K$, a companion pair is simply an invertible 2-cell between two parallel 1-morphisms of $K$.
+\begin{example}
+In the double category $\mathbf{Sq}(K)$ of squares ([[quintets]]) in any [[2-category]] $K$, a companion pair is simply an invertible 2-cell between two parallel 1-morphisms of $K$.
+\end{example}
 
-* In the [[double category of algebras | double category $T$-$\mathbf{Alg}$ of algebras, lax morphisms, and colax morphisms]] for a [[2-monad]] $T$, an arrow (of either sort) has a companion precisely when it is a *strong* (= pseudo) $T$-morphism.  This is important in the theory of [[doctrinal adjunction]].
+\begin{example}
+In the [[double category of algebras | double category $T$-$\mathbf{Alg}$ of algebras, lax morphisms, and colax morphisms]] for a [[2-monad]] $T$, an arrow (of either sort) has a companion precisely when it is a *strong* (= pseudo) $T$-morphism.  This is important in the theory of [[doctrinal adjunction]].
+\end{example}
 
 
 ## Properties
@@ -74,9 +90,9 @@ This latter reference explains the relationship between companions to connection
 
 * [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/item/CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
 
-* Ronald Brown and Ghafar H. Mosa, _Double categories, 2-categories, thin structures and connections_, Theory and Application of Categories 5.7 (1999): 163-1757.
+* [[Ronald Brown]] and Ghafar H. Mosa, _Double categories, 2-categories, thin structures and connections_, Theory and Application of Categories 5.7 (1999): 163-1757.
 
-* Thomas M. Fiore, _Pseudo Algebras and Pseudo Double Categories_, _Journal of Homotopy and Related Structures_, Volume 2, Number 2, pages 119-170, 2007. 51 pages.
+* [[Thomas M. Fiore]], _Pseudo Algebras and Pseudo Double Categories_, _Journal of Homotopy and Related Structures_, Volume 2, Number 2, pages 119-170, 2007. 51 pages.
 
 
 [[!redirects companion]]
