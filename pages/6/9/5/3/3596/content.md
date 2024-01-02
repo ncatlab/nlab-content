@@ -476,7 +476,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{I} \; \mathrm{type}}$$
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}}$$
 
-Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. 
+Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. Thus, these identity types can be called **negative identity types**, in contrast to the Martin-Löf identity types, which can be called **positive identity types**.
 
 ### Inference rules
 
@@ -1135,13 +1135,24 @@ See also
 [[!redirects equality type]]
 [[!redirects equality types]]
 
+[[!redirects positive identification type]]
+[[!redirects positive identification types]]
+[[!redirects positive identity type]]
+[[!redirects positive identity types]]
+[[!redirects positive equality type]]
+[[!redirects positive equality types]]
+
+[[!redirects negative identification type]]
+[[!redirects negative identification types]]
+[[!redirects negative identity type]]
+[[!redirects negative identity types]]
+[[!redirects negative equality type]]
+[[!redirects negative equality types]]
+
 [[!redirects weak identification type]]
 [[!redirects weak identification types]]
 [[!redirects strict identification type]]
 [[!redirects strict identification types]]
-
-[[!redirects type of identifications]]
-[[!redirects types of identifications]]
 
 [[!redirects weak identity type]]
 [[!redirects weak identity types]]
@@ -1152,6 +1163,13 @@ See also
 [[!redirects weak equality types]]
 [[!redirects strict equality type]]
 [[!redirects strict equality types]]
+
+[[!redirects type of identifications]]
+[[!redirects types of identifications]]
+[[!redirects type of identities]]
+[[!redirects types of identities]]
+[[!redirects type of equalities]]
+[[!redirects types of equalities]]
 
 [[!redirects intensional identification type]]
 [[!redirects intensional identification types]]
