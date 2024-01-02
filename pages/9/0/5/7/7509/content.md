@@ -181,6 +181,18 @@ Also just as for [[product types]], in order to recover the important *dependent
 
 One might expect that in "[[dependent linear type theory]]" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
 
+### Using universes and dependent product types
+
+Dependent sum types could be defined directly from universes, dependent product types, and function types - the last of which are definable from dependent product types. Given a [[Russell universe]] $U$, the dependent sum type of the type family $x:A \vdash B(x)$ is defined as the dependent product type
+
+$$\sum_{x:A} B(x) \coloneqq \prod_{P:U} \prod_{x:A} (B(x) \to P) \to P$$
+
+Similarly for Tarski universes $(U, T)$, the dependent sum type of the type family $x:A \vdash B(x)$ is defined as the dependent product type
+
+$$\sum_{x:A} B(x) \coloneqq \prod_{P:U} \prod_{x:A} (B(x) \to T(P)) \to T(P)$$
+
+This was the first definition of dependent sum types in dependent type theory, appearing in [[Per Martin-Löf]]'s [original 1971 paper](#ML71) on dependent type theory. 
+
 ## Properties
 
 ### Typal congruence rules
@@ -260,7 +272,6 @@ This corresponds to the positive dependent sum types.
 
 * [[dependent product type]]
 
-
 ## References
 
 A textbook account could be found in section 4.6 of:
@@ -270,6 +281,10 @@ A textbook account could be found in section 4.6 of:
 Discussion in a context of [[homotopy type theory]]:
 
 * {#UFP13} [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+For the definition of dependent sum types in terms of universes, dependent product types, and function types, see:
+
+* {#ML71} [[Per Martin-Löf]], *A Theory of Types*, unpublished note (1971) &lbrack;[pdf](https://raw.githubusercontent.com/michaelt/martin-lof/master/pdfs/martin-loef1971%20-%20A%20Theory%20of%20Types.pdf), [[MartinLoef1971-ATheoryOfTypes.pdf:file]]&rbrack;
 
 See also most references at *[[dependent type theory]]*.
 
