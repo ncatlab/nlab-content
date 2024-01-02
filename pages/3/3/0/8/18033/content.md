@@ -48,10 +48,12 @@ provide, via [[AdS/CFT]], a precise and detailed construction of [[large-N limit
 
 * Pedro Liendo, Zhengwen Liu, Junchen Rong, *The old conformal bootstrap revisited* ([arXiv:2108.07295](https://arxiv.org/abs/2108.07295))
 
-
-See also
+See also:
 
 * Wikipedia, _[Conformal bootstrap](https://en.wikipedia.org/wiki/Conformal_bootstrap)_
+
+* Zechuan Zheng, *Bootstrap Method in Theoretical Physics* &lbrack;[arXiv:2401.00350](https://arxiv.org/abs/2401.00350)&rbrack;
+
 
 For [[gauge theories]]:
 
