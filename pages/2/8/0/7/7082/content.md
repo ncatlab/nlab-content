@@ -206,9 +206,17 @@ $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 ### Historical note
  {#HistoricalNote}
 
-The first attempt at a definition of an equivalence of type was the definition of a quasi-invertible function by [Hofmann & Streicher (1998), §5.4](#HofmannStreicher98). In the absence of [[axiom K]] or [[uniqueness of identity proofs]], this definition suffers from a subltety in the construction of equivalence types, see [below](#TheIssueWithQuasiInverses). In the absence of [[function extensionality]], the definition of an equivalence as a homotopy isomorphism, first proposed by [[André Joyal]] in a 2011 Oberwolfach meeting, recorded in [Kapulkin & Lumsdaine (2012, 2021), Def. 3.1.1](#KapulkinLumsdaine21), similarly suffers from a subltety in the construction of equivalence types. 
+The first attempt at a definition of an equivalence of type was the definition of a quasi-invertible function by [Hofmann & Streicher (1998), §5.4](#HofmannStreicher98). In the absence of [[axiom K]] or [[uniqueness of identity proofs]], this definition suffers from a subltety in the construction of equivalence types, see [below](#TheIssueWithQuasiInverses). 
 
-It wasn't until [Voevodsky (2010), p. 8, 10](#Voevodsky10) that the correct definition of an equivalence as a function with contractible fibers was formulated, where the definition of equivalence types works even without function extensionality. The definition of an equivalence as a one-to-one correspondence was proposed in [Shulman 2022](#Shulman22), which is equivalent to Voevodsky's definition by the [[principle of unique choice]]. 
+Later on, the following definitions of equivalences were constructed: 
+
+* as a function with contractible fibers, first proposed by [Voevodsky (2010), p. 8, 10](#Voevodsky10)
+
+* as a homotopy isomorphism, first proposed by [[André Joyal]] in a 2011 Oberwolfach meeting, recorded in [Kapulkin & Lumsdaine (2012, 2021), Def. 3.1.1](#KapulkinLumsdaine21), 
+
+* as a one-to-one correspondence, first proposed in [Shulman 2022](#Shulman22)
+
+However, these definitions are only equivalent to one another in the presence of [[function extensionality]].
 
 ## Properties
  {#Properties}
