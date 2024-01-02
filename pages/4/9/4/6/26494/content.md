@@ -16,4 +16,4 @@
 
 * _Presentations of configuration categories_, [arXiv](https://arxiv.org/abs/2312.17632).
 
-
+* _The torus trick for configuration categories_, [arXiv](https://arxiv.org/abs/2401.00799).
