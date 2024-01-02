@@ -22,6 +22,7 @@
 
 A **companion pair** in a [[double category]] is a way of saying that a horizontal [[morphism]] and a vertical morphism are "[[isomorphism|isomorphic]]", even though they do not live in the same [[1-category]]/[[2-category]].
 
+A **connection pair** in a [[double category]] is a [[strict 2-functor|strictly 2-functorial]] choice of companion pairs for every vertical morphism.
 
 ## Definition
 
@@ -69,6 +70,14 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 * [[Michael Shulman]], *Framed bicategories and monoidal fibrations*, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
 
+This latter reference explains the relationship between companions to connection pairs and **foldings**:
+
+* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/item/CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
+
+* Ronald Brown and Ghafar H. Mosa, _Double categories, 2-categories, thin structures and connections_, Theory and Application of Categories 5.7 (1999): 163-1757.
+
+* Thomas M. Fiore, _Pseudo Algebras and Pseudo Double Categories_, _Journal of Homotopy and Related Structures_, Volume 2, Number 2, pages 119-170, 2007. 51 pages.
+
 
 [[!redirects companion]]
 [[!redirects companions]]
@@ -77,3 +86,5 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 [[!redirects companion pair in a double category]]
 [[!redirects companion pairs in a double category]]
 [[!redirects companion pairs in double categories]]
+[[!redirects connection pair]]
+[[!redirects connection pairs]]
