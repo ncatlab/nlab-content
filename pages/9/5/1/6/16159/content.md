@@ -80,6 +80,7 @@ $$
 
 * [[extensionality]]
 
+* [[set extensionality]]
 
 ## References
 
