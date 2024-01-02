@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -126,7 +127,7 @@ See at _[[Sullivan model of free loop space]]_.
 
 * [[David Chataur]], Alexandru Oancea, *Basics on free loop spaces*, Chapter I in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 &lbrack;[ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/)&rbrack;
 
-* [[Kathryn Hess]], _Free loop spaces in topology and physics_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf)), slides from Meeting of Edinburgh Math. Soc. Glasgow, 14 Nov 2008
+* [[Kathryn Hess]], *Free loop spaces in topology and physics*, talk at *Meeting of Edinburgh Math. Soc. Glasgow* (14 Nov 2008) &lbrack;[pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf), [[Hess-FreeLoopSpaces.pdf:file]]&rbrack; 
 
 In the context of [[Hochschild homology]] (and [[cyclic homology]]):
 
