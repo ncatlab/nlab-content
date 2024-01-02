@@ -320,6 +320,14 @@ Based on this, a large number of realizations of the exact field content of the 
 
 * {#TaylorTurner19} [[Washington Taylor]], Andrew P. Turner, _Generic construction of the Standard Model gauge group and matter representations in F-theory_ ([arXiv:1906.11092](https://arxiv.org/abs/1906.11092))
 
+Realization of [[E7|$E_7$]]-[[GUT]] models in F-theory:
+
+* Shing Yan Li, [[Washington Taylor]], *Towards natural and realistic $E_7$ GUTs in F-theory* &lbrack;[arXiv:2401.00040](https://arxiv.org/abs/2401.00040)&rbrack;
+
+Review:
+
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+
 #### M-theory models
  {#ReferencesMTheoryModels}
 
