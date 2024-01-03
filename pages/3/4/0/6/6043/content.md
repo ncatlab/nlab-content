@@ -167,6 +167,8 @@ One could define $R$-seminorms, non-archimedean $R$-norms, and $R$-normed vector
 
 * [[quotient norm]]
 
+* [[p-norm]]
+
 * [[F-norm]], [[G-norm]]
 
 * in [[representation theory]]: [[norm map]]
