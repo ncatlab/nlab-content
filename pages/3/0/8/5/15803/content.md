@@ -111,11 +111,11 @@ See also:
 * Valentin Benedetti, Horacio Casini, Javier M. Magan, *ABJ anomaly as a $U(1)$ symmetry and Noether's theorem* &lbrack;[arXiv:2309.03264](https://arxiv.org/abs/2309.03264)&rbrack;
 
 
-Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) from chiral symmetry breaking is offered in 
+Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) from [[chiral symmetry breaking]] :
 
 * [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
 
-* G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
+* G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys. **324** (2009) 2236-2254 &lbrack;[arXiv:0907.2522](https://arxiv.org/abs/0907.2522), [doi:10.1016/j.aop.2009.07.005](https://doi.org/10.1016/j.aop.2009.07.005)&rbrack;
 
 Textbook account:
 
