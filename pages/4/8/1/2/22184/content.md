@@ -43,7 +43,7 @@ The morphism $\chi_U$ is also called the **[[classifying morphism]]** of the dis
 
 ### In $Grpd$
 
-In the (2,1)-category [[Grpd]] of groupoids and functors between groupoids, the discrete object classifier $Set$ is the groupoids of sets, or, as $Set$ is a groupoid with a category structure, more commonly known as the [[category of sets]].
+In the (2,1)-category [[Grpd]] of groupoids and functors between groupoids, the discrete object classifier is the groupoids of sets and bijections (i.e. the [[groupoid core]] of $Set$).
  
 
 ## See also
