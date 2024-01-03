@@ -125,7 +125,7 @@ It may seem on first sight that foundational questions in mathematics are remote
  
 * {#Harrington} L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
 
-* Stefania Centrone, Deborah Kant, Deniz Sarikaya (editors), *Reflections on the Foundations of Mathematics*. Synthese Library, vol 407. Springer, Cham. 12 November 2019. (ISBN:978-3-030-15654-1, [doi:10.1007/978-3-030-15655-8](https://doi.org/10.1007/978-3-030-15655-8))
+* Stefania Centrone, [[Deborah Kant]], Deniz Sarikaya, *Reflections on the Foundations of Mathematics*. Synthese Library, vol 407. Springer, Cham. 12 November 2019. (ISBN:978-3-030-15654-1, [doi:10.1007/978-3-030-15655-8](https://doi.org/10.1007/978-3-030-15655-8))
 
 [[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
 
