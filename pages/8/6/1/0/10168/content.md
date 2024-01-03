@@ -25,9 +25,9 @@ On [[delooping]], [[H-spaces]] and [[Eilenberg-MacLane spaces]] in [[homotopy ty
 
 * [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
-  
+On higher structures in [[homotopy type theory]]: 
 
-
+* [[Ulrik Buchholtz]], *Higher Structures in Homotopy Type Theory*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019)  &lbrack;[doi:10.1007/978-3-030-15655-8_7](https://doi.org/10.1007/978-3-030-15655-8_7), [arXiv:1807.02177](https://arxiv.org/abs/1807.02177)&rbrack;
 
 
 category: people
