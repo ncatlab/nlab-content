@@ -32,7 +32,7 @@ In [[trigonometry]], the _tangent function_ "$tan$" is one of the basic [[trigon
     "caption": "From [Mathnet](#Mathnet)"
 \end{imagefromfile}
 
-The tangent function may be understood as computing the [[length]] of the segment (shown in blue) of a [[tangent]]  (whence the name) to a unit [[circle]]  inside the [[Euclidean plane]] between its point of tangency and its intersection with any radial line, as a [[function]] of the [[angle]] ${\color{red}\theta}$ between that radial line and the one [[orthogonal]] to the [[tangent]].
+The tangent function may be understood as computing the [[length]] of the segment (shown in blue) of a [[tangent]]  (whence the name) to a unit [[circle]]  inside the [[Euclidean plane]], between its point of tangency and its intersection with any radial line, as a [[function]] of the [[angle]] ${\color{red}\theta}$ between that radial line and the one [[orthogonal]] to the [[tangent]].
 
 Since, by definition of the [[sine function]] "$sin$" and the [[cosine function]] "$cos$", that radial line has [[distance]] $sin(\theta)$ from the perpendicular line where it crosses the unit circle at $cos(\theta)$ along that perpendicular line, the length of that tangential line segment [[equality|equals]] the [[ratio]] $sin(\theta)/cos(\theta)$, and this is how the tangent function is often defined.
 
