@@ -412,6 +412,10 @@ In other words, the universal property provides a unique $h$ such that $\epsilon
 So the existence of a right adjoint to $i$ means precisely that for each morphism $k \colon x \to p e$ a choice is given of a cartesian lift of $k$, which means in turn that $p$ is a cloven fibration.
 =--
 
+### In terms of pseudoalgebras
+
+Fibrations are pseudoalgebras for a [[lax-idempotent pseudomonad]] (see there for more details).
+
 ## Discussions
 
 The following discussion brings out some interesting points about the equivalence between fibrations and pseudofunctors.
