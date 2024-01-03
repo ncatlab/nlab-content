@@ -40,7 +40,7 @@ Unintentional type theory has not yet been implemented in computer proof assista
 
 ## References
 
-* [[Carlo Angiuli]], *The $(\infty,1)$-accidentopos model of unintentional type theory*.  [Sigbovik '13](http://sigbovik.org/2013/); April 1, 2013. [PDF](http://www.cs.cmu.edu/~cangiuli/sigbovik/unintentional.pdf)
+* [[Carlo Angiuli]], *The $(\infty,1)$-accidentopos model of unintentional type theory*.  [Sigbovik '13](http://sigbovik.org/2013/); April 1, 2013. [PDF](https://carloangiuli.com/papers/unintentional.pdf)
  {#Angiuli}
 
 
