@@ -40,7 +40,7 @@ Detailed argument for the theta vacuum from [[chiral symmetry breaking]] is offe
 
 * [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
 
-* G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
+* [[Giovanni Morchio]], [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
 
 Discussion in a context of [[algebraic quantum field theory|algebraic]] [[non-perturbative quantum field theory]]:
 
