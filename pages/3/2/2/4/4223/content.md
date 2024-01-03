@@ -55,79 +55,114 @@ The Poincaré lemma is a special case of the more general statement that the pul
 
 ### Over contractible domains
 
-+-- {: .num_theorem}
-###### Theorem
+\begin{proposition}
+\label{HomotopyToChainHomotopy}
+Let 
 
-Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifolds]] and $\Psi : [0,1] \times X \to Y$ a (smooth) [[homotopy]] between them.
+* $f_0, f_1 \,\colon\, X \to Y$ be a [[pair]] of [[smooth functions]] between [[smooth manifolds]] 
 
-Then there is a [[chain homotopy]] between the induced morphisms 
+* $\Psi \colon [0,1] \times X \to Y$ a [[smooth homotopy]] between them.
 
-$$
-  f_1^*, f_2^* : \Omega^\bullet(Y) \to \Omega^\bullet(X)
-$$
-
-on the [[de Rham complex]]es of $X$ and $Y$.
-
-In particular, the action on [[de Rham cohomology]] of $f_1^*$ and $f_2^*$ coincide,
+Then there is a [[chain homotopy]] between the induced operations of [[pullback of differential forms]]:
 
 $$
-  H_{dR}^\bullet(f_1^*) \simeq H_{dR}^\bullet(f_2^*)
-  \,.
+  f_0^*, f_1^* 
+  \;\colon\; 
+  \Omega^\bullet(Y) \to \Omega^\bullet(X)
 $$
 
-
-Moreover, an explicit formula for the [[chain homotopy]] $\psi : f_1 \Rightarrow f_2$ is given by the "[[homotopy operator]]"
+on the [[de Rham complexes]] of $X$ and $Y$, an explicit formula for which is given by the following "[[homotopy operator]]":
 
 $$
   \psi 
-   :
-  \omega \mapsto (x \mapsto \int_{[0,1]} \iota_{\partial_t} (\Psi^*\omega)(x) ) d t
+   \;\colon\;
+  \omega \mapsto 
+  \Big(
+    x   
+     \mapsto 
+    \textstyle{\int}_{[0,1]} 
+    \big(
+      \iota_{\partial_t} \Psi^*\omega)(x)
+    \big) 
+    d t
+  \Big) 
   \,. 
 $$
 
-=--
-
-Here $\iota_{\partial t}$ denotes contraction (see [[Cartan calculus]]) with the canonical [[vector field]] tangent to $[0,1]$, and the [[integration]] is that of functions with values in the [[vector space]] of differential forms.
-
-+-- {: .proof}
-###### Proof
-
-We compute
+In particular, $f_0^*$ and $f_1^*$ coincide on [[de Rham cohomology]]:
 
 $$
-  \begin{aligned}
-    d_{Y} \psi(\omega)
+  H_{dR}^\bullet(f_0^*) 
+    \,\simeq\, 
+  H_{dR}^\bullet(f_1^*)
+  \,.
+$$
+\end{proposition}
+
+Here $\iota_{\partial t}$ denotes [[tensor contraction|contraction]] (cf. *[[Cartan calculus]]*) with the canonical [[vector field]] tangent to $[0,1]$, and the [[integration]] is that of functions with values in the [[vector space]] of differential forms.
+
+\begin{proof}
+\label{ProofOfHomotopyToChainHomotopy}
+
+We compute as follows:
+
+$$
+  \begin{array}{l}
+    \mathrm{d}_{X} \psi(\omega)
     + 
-    \psi( d_X \omega )
-     & =
-    \int_{[0,1]} d_Y \iota_{\partial_t} \Psi^*(\omega) d t 
+    \psi( \mathrm{d}_Y \omega )
+    \\
+    \;=\;
+    \textstyle{\int}_{[0,1]} 
+      \mathrm{d}_{X} 
+      \iota_{\partial_t} \Psi^*(\omega) 
+    d t 
     + 
-    \int_{[0,1]} \iota_{\partial_t} \Psi^*(d_X \omega) d t
+    \textstyle{\int}_{[0,1]} 
+      \iota_{\partial_t} \Psi^*(\mathrm{d}_Y \omega) 
+    d t
     \\
-    & = \int_{[0,1]} (d_Y \iota_{\partial_t} + \iota_{\partial_t}d_Y) \Psi^* (\omega) d t
+    \;=\;
+    \textstyle{\int}_{[0,1]} 
+      \mathrm{d}_{X} 
+      \iota_{\partial_t} \Psi^*(\omega) 
+    d t 
+    + 
+    \textstyle{\int}_{[0,1]} 
+      \iota_{\partial_t} 
+      \big(\mathrm{d}_X + \mathrm{d}_{[0,1]}\big)
+      \Psi^*( \omega) 
+    d t
     \\
-    & = \int_{[0,1]} \mathcal{L}_{t} \Psi^* (\omega) d t
+    \;=\;
+    \textstyle{\int}_{[0,1]} 
+      \iota_{\partial_t} 
+      \mathrm{d}_{[0,1]}
+      \Psi^*(\omega) 
+    d t
     \\
-    & = \int_{[0,1]} \partial_t \Psi^* (\omega) d t
+    \;=\;
+    \textstyle{\int}_{[0,1]} 
+      \mathrm{d}_{[0,1]}
+      \Psi^*(\omega) 
     \\
-    & = \int_{[0,1]} d_{[0,1]} \Psi^* (\omega) 
+    \;=\;
+    \Psi_1^\ast(\omega)
+    -
+    \Psi_0^\ast(\omega)
     \\
-    & = \Psi_1^* \omega - \Psi_0^* \omega
-    \\
-    & = f_2^* \omega - f_1^* \omega
-  \end{aligned}
-  \,,
+    \;=\;
+    f_1^\ast \omega - f_0^\ast \omega
+    \,,
+  \end{array}
 $$
 
-where in the [[integral]] we used first that the [[exterior differential]] commutes with pullback of [[differential forms]], then [[Cartan's magic formula]] $d_Y \iota_{\partial_t} + \iota_{\partial_t}d_Y = \mathcal{L}_t$ for the [[Lie derivative]] along the [[cylinder]] on $X$ and finally the [[Stokes theorem]].
+where in the second step we used that [[exterior differential]] commutes with [[pullback of differential forms]] ([this Prop.](pullback+of+a+differential+form#CompatibilityWithDeRhamDifferential)), and in the last step the [[Stokes theorem]].
+\end{proof}
 
-=--
+The **Poincaré lemma** proper is the special case of this statement for the case that $f_2 = const_y$ is a function constant on a point $y \in Y$:
 
-The **Poincar&#233; lemma** proper is the special case of this statement for the case that $f_2 = const_y$ is a function constant on a point $y \in Y$:
-
-+-- {: .num_prop}
-###### Corollary
-
+\begin{corollary}
 If a [[smooth manifold]] $X$ admits a smooth contraction 
 
 $$
@@ -146,22 +181,23 @@ $$
 
 then the [[de Rham cohomology]] of $X$ is concentrated on the 
 ground field in degree 0. Moreover, for $\omega$ any closed 
-form on $X$ in positive degree an explicit formula for a form
+form on $X$ in positive degree, an explicit formula for a form
 $\lambda$ with $d \lambda = \omega$ is given by
 
 $$
   \lambda 
   \,=\, 
-  - \int_{[0,1]} \iota_{\partial_t}\Psi^*(\omega) d t
+  - \textstyle{\int}_{[0,1]} 
+  \iota_{\partial_t}\Psi^*(\omega) 
+  d t
   \,.
 $$
-
-=--
+\end{corollary}
 
 +-- {: .proof}
 ###### Proof
 
-In the general situation discussed above we now have $f_2^* = 0$ in positive degree.
+This is the special case of Prop. \ref{HomotopyToChainHomotopy} where $f_0^\ast = id$ and $f_1^* = 0$ in positive degree.
 
 =--
 
