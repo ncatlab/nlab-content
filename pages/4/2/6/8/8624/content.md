@@ -61,6 +61,6 @@ However, it is possible instead to dualize the alternative characterization of i
 
 ## References
 
-* {#ACS15} Benedikt Ahrens, Paolo Capriotti, Régis Spadotti, _Non-wellfounded trees in Homotopy Type Theory_, ([arXiv:1504.02949](https://arxiv.org/abs/1504.02949))
+* {#ACS15} [[Benedikt Ahrens]], [[Paolo Capriotti]], [[Régis Spadotti]], *Non-wellfounded trees in Homotopy Type Theory*, in 13th International Conference on Typed Lambda Calculi and Applications (TLCA 2015). Leibniz International Proceedings in Informatics (LIPIcs), Volume 38, pp. 17-30, Schloss Dagstuhl - Leibniz-Zentrum für Informatik (2015) ([doi:10.4230/LIPIcs.TLCA.2015.17](https://doi.org/10.4230/LIPIcs.TLCA.2015.17), [arXiv:1504.02949](https://arxiv.org/abs/1504.02949))
 
 * _coinductives_, [discussion](https://groups.google.com/forum/#!msg/homotopytypetheory/tYRTcI2Opyo/PIrI6t5me-oJ) on Homotopy Type Theory group.
