@@ -63,7 +63,7 @@ $$
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="200">
 </div>
 
-The graphics on the right (grabbed from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
+The graphics on the right (from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
 
 
 ### The $\mathcal{l}^p$-norm on sequence spaces
@@ -161,6 +161,7 @@ for $l^0$, and this is an $F$-norm.  (But I don\'t know what is the justificatio
 
 [[!redirects p-norm]]
 [[!redirects p-norms]]
+
 [[!redirects Lebesgue norm]]
 [[!redirects Lebesgue norms]]
 
@@ -175,3 +176,7 @@ for $l^0$, and this is an $F$-norm.  (But I don\'t know what is the justificatio
 
 [[!redirects supremum norm]]
 [[!redirects supremum norms]]
+
+[[!redirects sup-norm]]
+[[!redirects sup-norms]]
+
