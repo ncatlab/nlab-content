@@ -15,8 +15,7 @@
 
 ## Idea
 
-In the [[foundations]] of [[mathematics]], the [[axiom of infinity]] asserts that [[infinite set]]s exist. In [[set theory]] and [[set-level type theory]], infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom. Further axioms in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
-
+In the [[foundations]] of [[mathematics]], an [[axiom of infinity]] is any axiom that asserts that [[infinite set]]s exist. In [[set theory]] and [[set-level type theory]], infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom. Further axioms in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
 
 ## Statements
 
@@ -32,11 +31,13 @@ There is an alternate way to express the axiom of infinity in a Tarski universe,
 
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} T(\mathbb{N}) \simeq \left[\sum_{A:U} \mathrm{isFinite}(T(A))\right]_0$$
 
+## Generalizations 
+
 In the form of an NNO, the axiom of infinity generalises to the existence of [[inductive type]]s or [[W-type]]s.  These can be constructed from a NNO if [[power set]]s exist, but in [[predicative mathematics|predicative]] theories they can be added as additional axioms.
 
 One could also posit the existence of the set of [[extended natural numbers]] instead of the set of natural numbers, as the set of extended natural numbers have [[countable|countably infinite]] cardinality and is the categorical [[duality|dual]] of the natural numbers in Set, a [[terminal coalgebra]] for the endofunctor $F(X) = 1 + X$ in Set. This generalises to the existence of [[coinductive types]] or [[M-types]], which can be added as additional axioms. 
 
-One could also posit the existence of a [[universe]] $\mathcal{U}$ that satisfies the axiom of finiteness (see below), or a [[type of finite types]].
+One could also posit the existence of [[FinSet]], the collection of [[finite sets]]. In dependent type theory this is a [[type of finite types]], a [[universe]] $\mathcal{U}$ that satisfies the axiom of finiteness (see below).
 
 ## Alternatives
 
