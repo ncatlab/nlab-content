@@ -23,19 +23,25 @@ The classical examples considers for $X$ a [[smooth manifold]] the [[de Rham com
 
 (There are of course other differential geometric structures named after Cartan, see also at [[equivariant de Rham cohomology]] the section [The Cartan model](equivariant+de+Rham+cohomology#TheCartanModel).)
 
-Every [[vector field]] $v \in \Gamma(T X)$ of $X$ induces a [[derivation]] on this [[dg-algebra]] of degree $-1$ 
+Every [[vector field]] $v \in \Gamma(T X)$ of $X$ induces a [[derivation]] on this [[dg-algebra]] of degree $-1$
 $$
-  \iota_v : \Omega^\bullet(X) \to \Omega^{\bullet-1}(X)
+  \iota_v 
+    \,\colon\, 
+  \Omega^\bullet(X) \to \Omega^{\bullet-1}(X)
 $$
-given by evaluation of forms on $v$.
+given by [[tensor contraction|contraction]] of forms with $v$.
 
 As every degree -1-map, this induces a [[chain homotopy]] 
 $$
-  0 \stackrel{\iota_v}{\to} [d_{dR},\iota_v]: 
-  \Omega^\bullet(X) \to \Omega^\bullet(X).
+  0 
+    \stackrel{\iota_v}{\to} 
+  [d_{dR},\iota_v]
+  \,\colon\,
+  \Omega^\bullet(X) \to \Omega^\bullet(X)
+  \,.
 $$
 
-One finds that
+One finds that:
 
 * $[d_{dR},\iota_v] = \mathcal{L}_v$ is the [[Lie derivative]] on forms along $v$;
 
