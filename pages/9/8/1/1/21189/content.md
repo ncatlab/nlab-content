@@ -280,6 +280,9 @@ At higher order:
 
 * Nils Hermansson-Truedsson, _Chiral Perturbation Theory at NNNLO_ ([arXiv:2006.01430](https://arxiv.org/abs/2006.01430))
 
+In relation to the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum):
+
+* [[Giovanni Morchio]], [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys. **324** (2009) 2236-2254 &lbrack;[arXiv:0907.2522](https://arxiv.org/abs/0907.2522), [doi:10.1016/j.aop.2009.07.005](https://doi.org/10.1016/j.aop.2009.07.005)&rbrack;
 
 
 Specifically for [[kaon]] decay:
