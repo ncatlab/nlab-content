@@ -97,6 +97,8 @@ then the above extensionality principles (eq:ExtensionalityPrinciples) imply tha
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *A Higher Structure Identity Principle*, LICS '20 (2020) 53–66 &lbrack;[arXiv:2004.06572](https://arxiv.org/abs/2004.06572), [doi:10.1145/3373718.3394755](https://doi.org/10.1145/3373718.3394755)&rbrack;
 
+* [[Benedikt Ahrens]], [[Paige Randall North]], *Univalent foundations and the equivalence principle*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019)  &lbrack;[arXiv:2202.01892](https://arxiv.org/abs/2202.01892), [doi:10.1007/978-3-030-15655-8](https://doi.org/10.1007/978-3-030-15655-8)&rbrack;
+
 Discussion in the context of the [[philosophy]] of [[structuralism]]:
 
 * [[Dimitris Tsementzis]], §5.1 in: *Univalent foundations as structuralist foundations*, Synthese **194** 9 (2017) 3583–3617 &lbrack;[jstor:26748765](https://www.jstor.org/stable/26748765), [doi:10.1007/s11229-016-1109-x](https://doi.org/10.1007/s11229-016-1109-x), [pdf](https://core.ac.uk/download/pdf/157866891.pdf)&rbrack;
