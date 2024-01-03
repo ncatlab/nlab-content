@@ -1,7 +1,9 @@
-This page contains a dictionary of some notable [[endofunctors]], and their [[initial algebras of an endofunctor|initial algebras]]/[[terminal coalgebra of an endofunctor|terminal coalgebras]].
+
+\begin{example}
+A list of notable [[endofunctors]], and their [[initial algebras of an endofunctor|initial algebras]]/[[terminal coalgebra of an endofunctor|terminal coalgebras]].
 
 
-Nonexistent (co)algebras are labelled with '/', and unknown ones with '?'.
+> Nonexistent (co)algebras are labelled with '/', and unknown ones with '?'.
 
 
 Base category | Endofunctor                | Initial Algebra        | Final Coalgebra               | Note, reference |
@@ -32,3 +34,5 @@ Any [[category]] | The [[identity functor]] $X \mapsto X$ | [[initial object]] |
 Any [[extensive category]] | $X \mapsto 1 + X$ given [[terminal object]] $1$ and [[coproduct]] $+$ | [[natural numbers object]] | ? | |
 Any [[closed monoidal category|closed]] [[abelian category]] | $X \mapsto I \sqcup (A \otimes X)$ given [[tensor unit]] $I$, [[tensor product]] $\otimes$, [[coproduct]] $\sqcup$, and object $A$ | [[tensor algebra]] of $A$ | [[cofree coalgebra]] over $A$ | [[tensor algebra]], [[cofree coalgebra]] |
 [[Infinity-Grpd|$\infty$-Grpd]] | $X \mapsto \Sigma X$ | [[sphere spectrum]] $\mathbb{S}$ | ? | [[suspension]] |
+
+\end{example}
