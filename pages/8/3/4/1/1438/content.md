@@ -150,17 +150,19 @@ Then an initial algebra over $F$ is precisely a [[bi-pointed object]] $\mathbf{2
 ### More examples
 
 Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to Set$ which is a [[colimit]] of finitely [[representable functors]] $hom(n, -): X \mapsto X^n$, as in the following examples. 
- 
 
-* Let $A$ be a set, and let $F: Set \to Set$ be the functor $F(X) = 1 + A \times X$. Then the initial $F$-algebra is $A^*$, the [[free monoid]] on $A$. The $F$-algebra structure is 
+\begin{example} 
+Let $A$ be a set, and let $F: Set \to Set$ be the functor $F(X) = 1 + A \times X$. Then the initial $F$-algebra is $A^*$, the [[free monoid]] on $A$. The $F$-algebra structure is 
   $$(e, m| ): 1 + A \times A^* \to A^*$$ 
   where $e: 1 \to A^*$ is the identity and $m|: A \times A^* \to A^*$ is the restriction of the monoid multiplication along the evident inclusion $i \times 1: A \times A^* \to A^* \times A^*$. 
 
   This "fixed point" of $F$ can be thought of as the result of the (slightly nonsensical) calculation 
   $$1 + A \times X = X \Rightarrow X = \frac1{1 - A} = 1 + A + A^2 + \ldots = A^*$$ 
   which can be made rigorous by interpreting the initial equality as defining the solution $X$ by recursion, and applying the theorem above. 
+\end{example
 
-* Let $F: Set \to Set$ be the functor $F(X) = 1 + X^2$. Then the initial $F$-algebra is the set $T$ of isomorphism classes of finite (planar, rooted) binary [[trees]]. The $F$-algebra structure is 
+\begin{example}
+Let $F: Set \to Set$ be the functor $F(X) = 1 + X^2$. Then the initial $F$-algebra is the set $T$ of isomorphism classes of finite (planar, rooted) binary [[trees]]. The $F$-algebra structure is 
   $$(r, j): 1 + T^2 \to T$$ 
   where $r: 1 \to T$ names the tree consisting of just a root vertex, and $j: T^2 \to T$ creates a tree $t \vee t'$ from two trees $t$, $t'$ by joining their roots to a new root, so that the root of $t$ becomes the left child and the root of $t'$ the right child of the new root. 
 
@@ -169,13 +171,22 @@ Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to 
   would seem to imply that the structure $T$ behaves something like a structural "sixth root of unity", and indeed the structural isomorphism $T \cong F(T)$ allows one to exhibit an isomorphism 
   $$T = T^7$$ 
   constructively, as famously explored by Andreas Blass in the paper "[Seven trees in one](#BlassSeven)". 
+\end{example}
+
+\begin{example}
+Let $F: Set \to Set$ be the functor $F(X) = X^*$ (the free monoid from an earlier example). Then the initial $F$-algebra is the set of isomorphism classes of finite planar rooted [[trees]] (not necessarily binary as in the previous example). 
+\end{example}
+
+\begin{example}
+Let $C$ be the [[coslice category]] $\mathbb{Z} \downarrow Ab$, and let $F: C \to C$ be the functor which pushes out along the multiplication-by-$p$ map $p \cdot -: \mathbb{Z} \to \mathbb{Z}$. Then the initial $F$-algebra is the [[Pruefer group]] $\mathbb{Z}[p^{-1}]/\mathbb{Z}$. See the discussion at the n-Category Caf&#233;, starting [here](http://golem.ph.utexas.edu/category/2008/11/coalgebraically_thinking.html#c020660). 
+\end{example}
+
+\begin{example}
+Let $Ban$ be the category of complex [[Banach spaces]] and maps of [[norm]] bounded above by $1$, and let $F: \mathbb{C} \downarrow Ban \to \mathbb{C} \downarrow Ban$ be the squaring functor $X \mapsto X \times X$. Then the initial $F$-algebra is $L^1([0, 1])$ (with respect to the usual [[Lebesgue measure]]). This result is due to [[Tom Leinster]]; see this [MathOverflow discussion](http://mathoverflow.net/questions/23143/what-theorem-constructs-an-initial-object-for-this-category-formerly-integrabi/78262#78262). 
+\end{example}
 
 
-* Let $F: Set \to Set$ be the functor $F(X) = X^*$ (the free monoid from an earlier example). Then the initial $F$-algebra is the set of isomorphism classes of finite planar rooted [[trees]] (not necessarily binary as in the previous example). 
-
-* Let $C$ be the [[coslice category]] $\mathbb{Z} \downarrow Ab$, and let $F: C \to C$ be the functor which pushes out along the multiplication-by-$p$ map $p \cdot -: \mathbb{Z} \to \mathbb{Z}$. Then the initial $F$-algebra is the [[Pruefer group]] $\mathbb{Z}[p^{-1}]/\mathbb{Z}$. See the discussion at the n-Category Caf&#233;, starting [here](http://golem.ph.utexas.edu/category/2008/11/coalgebraically_thinking.html#c020660). 
-
-* Let $Ban$ be the category of complex [[Banach spaces]] and maps of [[norm]] bounded above by $1$, and let $F: \mathbb{C} \downarrow Ban \to \mathbb{C} \downarrow Ban$ be the squaring functor $X \mapsto X \times X$. Then the initial $F$-algebra is $L^1([0, 1])$ (with respect to the usual [[Lebesgue measure]]). This result is due to [[Tom Leinster]]; see this [MathOverflow discussion](http://mathoverflow.net/questions/23143/what-theorem-constructs-an-initial-object-for-this-category-formerly-integrabi/78262#78262). 
+[[!include list of notable initial algebras and terminal coalgebras]]
 
 
 ## Related entries
