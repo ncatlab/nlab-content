@@ -59,9 +59,17 @@ Let us assume an arbitrary notion of equivalence type $\simeq_0$. Every [[Russel
 
 $$\mathrm{idtofam}(A, B) \coloneqq \mathrm{idtoequiv}(A, B)$$
 
-Similarly, every [[Tarski universe]] $(U, T)$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq T(A) \simeq_0 T(B)$ and the  function $\mathrm{idtofam}(A, B)$ is defined as 
+Similarly, every [[Tarski universe]] $U$ with universal type family $T$ is a [[reflexive graph]] with the graph type family $R(A, B)$ defined as $R(A, B) \coloneqq T(A) \simeq_0 T(B)$ and the function $\mathrm{idtofam}(A, B)$ is defined as 
 
 $$\mathrm{idtofam}(A, B) \coloneqq \mathrm{transport}^T(A, B)$$
+
+And finally, every [[Tarski universe]] $U$ with type of terms $T$ and function $\mathrm{typeof}:T \to U$ is a reflexive graph with the graph type family $R(A, B)$ defined as 
+
+$$R(A, B) \coloneqq \left(\sum_{t:T} \mathrm{typeOf}(t) =_U A\right) \simeq \left(\sum_{t:T} \mathrm{typeOf}(t) =_U B\right)$$
+
+and the function $\mathrm{idtofam}(A, B)$ is defined as 
+
+$$\mathrm{idtofam}(A, B) \coloneqq \mathrm{transport}^{\sum_{t:T} \mathrm{typeOf}(t) =_U (-)}(A, B)$$
 
 Now, let us assume an arbitrary notion of equivalence type $\simeq$. A Russell or Tarski universe is **univalent** if it is [[univalent reflexive graph|univalent]] as a [[reflexive graph]], or equivalently, if one of the following equivalent conditions by the [[fundamental theorem of identity types]] hold:
 
