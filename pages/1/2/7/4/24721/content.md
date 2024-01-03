@@ -123,13 +123,20 @@ A [[univalent Tarski universe]] satisfies the **axiom of singletons** if it is c
 
 * introduction rules: $0:T(\mathbb{1})$
 
+and either an universal property or a dependent universal property
+
+* universal property:
+$$\mathrm{up}_\mathbb{1}^U:\prod_{C:U} \prod_{c_0:T(C)} \exists!c:T(\mathbb{1}) \to T(C).(c(0) =_{T(C)} c_0)$$
+
 * dependent universal property:
-$$\mathrm{up}_\mathbb{1}^U:\prod_{C:\mathbb{1} \to U} \prod_{c_0:T(C(0))} \exists!c:\prod_{x:\mathbb{1}} T(C(x)).(c(0) =_{T(C(0))} c_0)$$
+$$\mathrm{dup}_\mathbb{1}^U:\prod_{C:T(\mathbb{1}) \to U} \prod_{c_0:T(C(0))} \exists!c:\prod_{x:T(\mathbb{1})} T(C(x)).(c(0) =_{T(C(0))} c_0)$$
 where $\exists!x:A.B(x)$ is the [[uniqueness quantifier]] for the [[type family]] $x:A \vdash B(x)$. 
 
-By using [[dependent sum types]], these can be combined into a single element of the following type:
+By using [[dependent sum types]], these can be combined into a single element of the following types
 
-$$\mathrm{axinf}_U:\sum_{\mathbb{1}:U} \sum_{0:T(\mathbb{1})} \prod_{C:\mathbb{1} \to U} \prod_{c_0:T(C(0))} \exists!c:\prod_{x:\mathbb{N}} T(C(x)).(c(0) =_{T(C(0))} c_0)$$
+$$\mathrm{axsingl}_U:\sum_{\mathbb{1}:U} \sum_{0:T(\mathbb{1})} \prod_{C:U} \prod_{c_0:T(C)} \exists!c:T(\mathbb{1}) \to T(C).(c(0) =_{T(C)} c_0)$$
+
+$$\mathrm{axsingl}_U:\sum_{\mathbb{1}:U} \sum_{0:T(\mathbb{1})} \prod_{C:\mathbb{1} \to U} \prod_{c_0:T(C(0))} \exists!c:\prod_{x:T(\mathbb{1})} T(C(x)).(c(0) =_{T(C(0))} c_0)$$
 
 Alternatively, since the notion of [[truth]] could be defined using the type of $U$-small [[contractible types]] $\sum_{A:U} \mathrm{isContr}(T(A))$, the axiom of singletons could be represented as a resizing axiom, similar to propositional resizing. 
 
@@ -143,10 +150,16 @@ A [[univalent Tarski universe]] satisfies the **[[axiom of empty set|axiom of em
 
 * formation rules: $\emptyset:U$
 
+and either an universal property or a dependent universal property
+
+$$\mathrm{up}_\emptyset^U:\prod_{C:U} \mathrm{isContr}\left(T(\emptyset) \to T(C)\right)$$
+
 * dependent universal property:
 $$\mathrm{up}_\emptyset^U:\prod_{C:T(\emptyset) \to U} \mathrm{isContr}\left(\prod_{x:T(\emptyset)} T(C(x))\right)$$
 
-By using [[dependent sum types]], these can be combined into a single element of the following type:
+By using [[dependent sum types]], these can be combined into a single element of the following types
+
+$$\mathrm{axempty}_U:\sum_{\emptyset:U} \prod_{C:U} \mathrm{isContr}\left(T(\emptyset) \to T(C)\right)$$
 
 $$\mathrm{axempty}_U:\sum_{\emptyset:U} \prod_{C:T(\emptyset) \to U} \mathrm{isContr}\left(\prod_{x:T(\emptyset)} T(C(x))\right)$$
 
@@ -176,13 +189,22 @@ A [[univalent Tarski universe]] satisfies the **[[axiom of infinity]]** if it is
 
 * introduction rules: $0:T(\mathbb{N})$ and $s:T(\mathbb{N}) \to T(\mathbb{N})$
 
+and either an universal property or a dependent universal property
+
+* universal property:
+$$\mathrm{up}_\mathbb{N}^U::\prod_{C:U} \prod_{c_0:T(C)} \prod_{c_s:T(C) \to T(C)} \exists!c:T(\mathbb{N}) \to T(C).(f(0) =_{T(C)} c_0) \times \prod_{n:T(\mathbb{N})} c(s(n)) =_{T(C)} c_s(c(n))$$
+
 * dependent universal property:
-$$\mathrm{up}_\mathbb{N}^U:\prod_{C:\mathbb{N} \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:\mathbb{N}} T(C(x)) \to T(C(s(x)))} \exists!c:\prod_{x:\mathbb{N}} T(C(x)).(c(0) =_{T(C(0))} c_0) \times \prod_{x:\mathbb{N}} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
+$$\mathrm{dup}_\mathbb{N}^U:\prod_{C:\mathbb{N} \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:\mathbb{N}} T(C(x)) \to T(C(s(x)))} \exists!c:\prod_{x:\mathbb{N}} T(C(x)).(c(0) =_{T(C(0))} c_0) \times \prod_{x:\mathbb{N}} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
 where $\exists!x:A.B(x)$ is the [[uniqueness quantifier]] for the [[type family]] $x:A \vdash B(x)$. 
 
-By using [[dependent sum types]], these can be combined into a single element of the following type:
+By using [[dependent sum types]], these can be combined into a single element of the following types:
 
-$$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:\mathbb{N} \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:\mathbb{N}} T(C(x)) \to T(C(s(x)))} \exists!c:\prod_{x:\mathbb{N}} T(C(x)).(c(0) =_{T(C(0))} c_0) \times \prod_{x:\mathbb{N}} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
+$$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:U} \prod_{c_0:T(C)} \prod_{c_s:T(C) \to T(C)} \exists!c:T(\mathbb{N}) \to T(C).(f(0) =_{T(C)} c_0) \times \prod_{n:T(\mathbb{N})} c(s(n)) =_{T(C)} c_s(c(n))$$
+
+or
+
+$$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:T(\mathbb{N}) \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:T(\mathbb{N})} T(C(x)) \to T(C(s(x)))} \exists!c:\prod_{x:T(\mathbb{N})} T(C(x)).(c(0) =_{T(C(0))} c_0) \times \prod_{x:T(\mathbb{N})} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
 
 Alternatively, since the [[type of finite types|type of all $U$-small finite types]] and [[set truncations]] could be defined using the type of $U$-small propositions $\sum_{A:U} \mathrm{isProp}(T(A))$, the axiom of infinity could be represented as a resizing axiom, similar to propositional resizing. 
 
