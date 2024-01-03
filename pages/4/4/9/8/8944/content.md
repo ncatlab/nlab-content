@@ -1,4 +1,7 @@
-[website](http://strictlypositive.org)
+
+* [personal page](http://strictlypositive.org)
+
+* [institute page](https://www.strath.ac.uk/staff/mcbrideconordr/)
 
 ## Selected writings
 
