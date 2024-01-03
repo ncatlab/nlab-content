@@ -28,7 +28,8 @@ In a (2,1)-category $C$ with [[terminal object]] $*$, [[interval object]] $I$, a
 
 $$\array{U & \to & [I,Set] \\
   ^{B}\downarrow & \cong & \downarrow^{inhabited}\\
-  G & \underset{\chi_U}{\to} & Set}$$
+  G & \underset{\chi_U}{\to} & Set}
+$$
 
 +-- {: .num_remark}
 ###### Remark
@@ -43,7 +44,7 @@ The morphism $\chi_U$ is also called the **[[classifying morphism]]** of the dis
 
 ### In $Grpd$
 
-In the (2,1)-category [[Grpd]] of groupoids and functors between groupoids, the discrete object classifier is the groupoids of sets and bijections (i.e. the [[groupoid core]] of $Set$).
+In the (2,1)-category [[Grpd]] of groupoids and functors between groupoids, the discrete object classifier is the groupoids of sets and bijections (i.e. the [[groupoid core]] of [[Sets]]).
  
 
 ## See also
