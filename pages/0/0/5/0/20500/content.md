@@ -52,7 +52,7 @@ More generally the homotopy Whitehead formula applies to general [[cocycles]] in
 * [[Felix Wierstra]], *Hopf Invariants in Real and Rational Homotopy Theory* (2017) &lbrack;[diva:146246](http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-146246), [pdf](https://www.diva-portal.org/smash/get/diva2:1136442/FULLTEXT02.pdf)&rbrack;
 
 
-* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. 2020 ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], pp. 18 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. **384** (2021) 403-432 &lbrack;[arXiv:1906.07417](https://arxiv.org/abs/1906.07417), [doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0)&rbrack;
 
 
 [[!redirects Whitehead integral formulas]]
