@@ -127,6 +127,8 @@ Classical references are
 
 * [[Anders Kock]], _Monads for which structures are adjoint to units_, JPAA 104:41--59, 1995.
 
+* [[Ross Street]], _Fibrations and Yoneda's lemma in a 2-category_, Lecture Notes in Mathematics, Vol. 420, 1974, pp. 104–133. &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
+
 * [[Ross Street]], _Fibrations in Bicategories_ , Cah. Top. Géom. Diff. **XXI** no.2 (1980). ([numdam](http://www.numdam.org/item?id=CTGDC_1980__21_2_111_0))
 
 * Volker Zöberlein, _Doctrines on 2-categories_ , Math. Zeitschrift **148** (1976) pp.267-279. ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0148?tify={%22pages%22:[273],%22view%22:%22info%22}))
