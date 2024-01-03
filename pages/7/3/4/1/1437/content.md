@@ -200,6 +200,9 @@ aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite 
 
 There is a [[category theory|category theoretic]] treatments of the self-similarity found in [[fractals]] in terms of terminal coalgebras, see [Leinster 10](#Leinster10), [Bhattacharya-Moss-Ratnayake-Rose](#BhattacharyaMossRatnayakeRose).
 
+### Further examples
+
+[[!include list of notable initial algebras and terminal coalgebras]]
 
 
 ## Related concepts
