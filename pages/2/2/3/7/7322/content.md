@@ -7,9 +7,6 @@ Thorsten Altenkirch is a professor of [[computer science]] at the University of 
 
 * [wikipedia](https://en.wikipedia.org/wiki/Thorsten_Altenkirch)
 
-## Talks
-
-* _Towards higher dimensional type theory_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
 
 ## Selected writings
 
@@ -18,6 +15,12 @@ On [[inductive types]] and [[W-types]]:
 * [[Michael Abbott]], [[Thorsten Altenkirch]], [[Neil Ghani]]: *Representing Nested Inductive Types using W-types*, in: *Automata, Languages and Programming*, ICALP 2004, Lecture Notes in Computer Science, **3142**, Springer (2004) &lbrack;[doi:10.1007/978-3-540-27836-8_8](https://doi.org/10.1007/978-3-540-27836-8_8), [pdf](http://www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf)&rbrack;
 
   exposition: _Inductive Types for Free -- Representing nested inductive types using W-types_, talk at ICALP (2004) &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/talks/icalp-slides.pdf)&rbrack;
+
+Introducing [[observational type theory]]:
+
+* [[Thorsten Altenkirch]], [[Conor McBride]], _Towards observational type theory_, draft (2006) &lbrack;[pdf](http://strictlypositive.org/ott.pdf), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/ott-conf.pdf), [[AltenkirchMcBrided-TowardsOTT.pdf:file]]&rbrack;
+
+* {#AltenkirchMcBrideSwierstra07} [[Thorsten Altenkirch]], [[Conor McBride]], [[Wouter Swierstra]], *Observational Equality, Now!*, PLPV '07: Proceedings of the 2007 workshop on Programming languages meets program verification (2007) 57-68 &lbrack;ISBN:978-1-59593-677-6, [doi:10.1145/1292597.1292608](http://doi.org/10.1145/1292597.1292608), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/obseqnow.pdf)&rbrack;
 
 
 Introducing the [[quantum programming language]] [[QML]]:
