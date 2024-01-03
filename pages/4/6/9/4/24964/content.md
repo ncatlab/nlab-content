@@ -39,6 +39,12 @@ There is also mathematics based in [[linear logic]]/[[linear dependent type theo
 
 * Justin Clarke-Doane (2022). *Mathematics and Metaphilosophy (Elements in the Philosophy of Mathematics)*. Cambridge: Cambridge University Press. ([doi:10.1017/9781108993937](https://doi.org/10.1017/9781108993937), [philsci-archive:20728](https://philsci-archive.pitt.edu/20728/))
 
+* [[Mirna Džamonja]], *A New Foundational Crisis in Mathematics, Is It Really Happening?*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019) &lbrack;[doi:10.1007/978-3-030-15655-8_11](https://doi.org/10.1007/978-3-030-15655-8_11), [arXiv:1802.06221](https://arxiv.org/abs/1802.06221)&rbrack;
+
+* [[Michèle Friend]], *Varieties of Pluralism and Objectivity in Mathematics*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019)  &lbrack;[doi:10.1007/978-3-030-15655-8_15](https://doi.org/10.1007/978-3-030-15655-8_15)&rbrack;
+
+* [[Michèle Friend]], *Pluralism in Mathematics: A New Position in Philosophy of Mathematics*, Logic, Epistemology and the Unity of Science, Springer, 2014.  &lbrack;ISBN 978-94-007-7057-7, [doi:10.1007/978-94-007-7058-4](https://doi.org/10.1007/978-94-007-7058-4), [excerpt](https://content.e-bookshelf.de/media/reading/L-2680820-cee701bdbb.pdf)&rbrack;
+
 On pluralism in [[set theory]]:
 
 * Neil Barton (2017). *Independence and Ignorance: How agnotology informs set-theoretic pluralism.* ([philsci-archive:14636](https://philsci-archive.pitt.edu/14636/)
