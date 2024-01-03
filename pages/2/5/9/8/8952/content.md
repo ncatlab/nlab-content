@@ -32,19 +32,20 @@ There are a few technical differences (e.g. proofs of propositions are [[definit
 
 ## References
 
-Observational type theory was introduced in
 
-* [[Thorsten Altenkirch]] and [[Conor McBride]], _Towards observational type theory_, draft, February 2006 ([pdf](http://strictlypositive.org/ott.pdf), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/ott-conf.pdf))
+Observational type theory was introduced in:
 
-* [[Thorsten Altenkirch]], [[Conor McBride]], and [[Wouter Swierstra]], *Observational Equality, Now!*, PLPV '07: Proceedings of the 2007 workshop on Programming languages meets program verification, pg. 57--68, (ISBN:978-1-59593-677-6, [doi:10.1145/1292597.1292608](http://doi.org/10.1145/1292597.1292608), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/obseqnow.pdf))
+* [[Thorsten Altenkirch]], [[Conor McBride]], _Towards observational type theory_, draft (2006) &lbrack;[pdf](http://strictlypositive.org/ott.pdf), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/ott-conf.pdf), [[AltenkirchMcBrided-TowardsOTT.pdf:file]]&rbrack;
 
-A blog post about an Agda implementation, including propositional extensionality (which is not mentioned in the above paper) is at
+* {#AltenkirchMcBrideSwierstra07} [[Thorsten Altenkirch]], [[Conor McBride]], [[Wouter Swierstra]], *Observational Equality, Now!*, PLPV '07: Proceedings of the 2007 workshop on Programming languages meets program verification (2007) 57-68 &lbrack;ISBN:978-1-59593-677-6, [doi:10.1145/1292597.1292608](http://doi.org/10.1145/1292597.1292608), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/obseqnow.pdf)&rbrack;
+
+A blog post about an [[Agda]] implementation, including [[propositional extensionality]] (which is not mentioned in [ABS07](#AltenkirchMcBrideSwierstra07)):
 
 * [[Conor McBride]], [Hier Soir, an OTT Hierarchy](http://mazzo.li/epilogue/index.html%3Fp=1098.html)
 
 The above comparison between OTT and HoTT is taken from 
 
-* [[Dan Licata]], _[comment](http://homotopytypetheory.org/2012/11/12/abstract-types-with-isomorphic-types/#comment-2476)_
+* [[Dan Licata]], _[comment](http://homotopytypetheory.org/2012/11/12/abstract-types-with-isomorphic-types/#comment-2476)_ (2012)
 
 
 [[!redirects observational type theory]]
