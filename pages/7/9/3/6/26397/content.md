@@ -427,7 +427,17 @@ In [[higher gauge theory]]:
 
 * {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
+### In relation to locality
 
+The Gauss law in relation to non-[[local field theory|locality]] of charged states in [[quantum field theory]]:
+
+* [[Giovanni Morchio]], [[Franco Strocchi]], *Localization and symmetries*, J. Phys. A **40** (2007) 3173-3188 &lbrack;[arXiv:math-ph/0607015](https://arxiv.org/abs/math-ph/0607015), [doi:10.1088/1751-8113/40/12/S17](https://doi.org/10.1088/1751-8113/40/12/S17)&rbrack;
+
+* [[Detlev Buchholz]], Fabio Ciolli, [[Giuseppe Ruzzi]], Ezio Vasselli, *Gauss's law, the manifestations of gauge fields, and their impact on local observables* &lbrack;[arXiv:2212.11009](https://arxiv.org/abs/2212.11009)&rbrack;
+
+see also in relation to [[infraparticles]]:
+
+* {#Buchholz86} [[Detlev Buchholz]], _Gauss’ law and the infraparticle problem_, Phys.  Lett.  B **174** (1986) 331-334 \[<a href="https://doi.org/10.1016/0370-2693(86)91110-X">doi:10.1016/0370-2693(86)91110-X</a>\]
 
 
 [[!redirects Gauss's law]]
