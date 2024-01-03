@@ -9,7 +9,7 @@ There are two notions of *stream* in use, as an [[infinite]] [[sequence]] or as 
 
 Accounts which take streams to be...
 
-* infinite sequences: [Rutten05](#Rutten05)
+* infinite sequences: [Rutten05](#Rutten05), [ACS15](#ACS15)
 
 * potentially infinite list: [Jacobs16](#Jacobs16)
 
@@ -58,6 +58,8 @@ Let $A$ be a [[set]] (or [[object]] of any [[category]] $C$ where the following 
 ## References
 
 * {#Rutten05} [[Jan Rutten]], *A coinductive calculus of streams*, Mathematical Structures in Computer Science, Mathematical Structures in Computer Science, Volume 15, Issue 1, February 2005, pp. 93-147 ([doi:10.1017/S0960129504004517](https://doi.org/10.1017/S0960129504004517))
+
+* {#ACS15} [[Benedikt Ahrens]], [[Paolo Capriotti]], [[Régis Spadotti]], *Non-wellfounded trees in Homotopy Type Theory*, in 13th International Conference on Typed Lambda Calculi and Applications (TLCA 2015). Leibniz International Proceedings in Informatics (LIPIcs), Volume 38, pp. 17-30, Schloss Dagstuhl - Leibniz-Zentrum für Informatik (2015) ([doi:10.4230/LIPIcs.TLCA.2015.17](https://doi.org/10.4230/LIPIcs.TLCA.2015.17), [arXiv:1504.02949](https://arxiv.org/abs/1504.02949))
 
 * {#Jacobs16} [[Bart Jacobs]], *Introduction to Coalgebra Towards Mathematics of States and Observation*, Cambridge Tracts in Theoretical Computer Science. Cambridge: Cambridge University Press; 2016:i-iv. (ISBN:9781316823187, [doi:10.1017/CBO9781316823187](https://doi.org/10.1017/CBO9781316823187))
 
