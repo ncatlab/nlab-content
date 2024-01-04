@@ -1,4 +1,6 @@
 
+> This page is a non-maintained mirror of [ncatlab.org/schreiber/show/Hypothesis+H](https://ncatlab.org/schreiber/show/Hypothesis+H). See there for the up-to-date version.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
