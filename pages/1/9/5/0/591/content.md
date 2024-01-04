@@ -42,6 +42,13 @@ Many familiar categories of mathematical structures are cocomplete: to name just
 
 For a small category $C$, the presheaf category $[C^{op},Set]$ is cocomplete, and the [[Yoneda embedding]] exhibits it as the [[free cocompletion]] of $C$.
 
+## The 2-category of cocomplete categories
+
+### Properties
+
+- The 2-category of cocomplete categories is [[2-monadic]] over $Cat$, and [[complete]] and [[cocomplete]] as a 2-category. (See [this MathOverflow answer](https://mathoverflow.net/a/65999/152679) by [[Mike Shulman]].)
+- The [[copower]] $C \cdot A$ where $C$ is a category and $A$ is a cocomplete category, is given by $[C^{op}, A]$. The [[power]] $C \pitchfork A$ is given by $[C, A]$ (see [Pitts 1985](#Pitts)).
+
 ## Related concepts
 
 * [[complete category]]
@@ -50,6 +57,9 @@ For a small category $C$, the presheaf category $[C^{op},Set]$ is cocomplete, an
 
 * [[M-complete category]]
 
-[[!redirects |cocomplete category]]
+## References
+
+* {#Pitts} [[Andrew M. Pitts]], _On product and change of base for toposes_ , Cah. Top. Géom. Diff. Cat. **XXVI** no.1 (1985) pp.43-61.
+
 [[!redirects cocomplete categories]]
 [[!redirects cocomplete]]
