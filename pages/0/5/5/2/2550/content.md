@@ -416,11 +416,8 @@ See [[algebraic K-theory spectrum]].
 
 See [[algebraic cobordism]].
 
-### References
 
 
-* [[Aravind Asok]], [[Fabien Morel]], _Smooth varieties up to A1-homotopy and algebraic h-cobordisms_, Adv. Math. 227 (5) (2011),  pp. 1990-2058 ([arXiv](http://arxiv.org/abs/0810.0324))
-{#AsokMorel}
 
 
 ## Related concepts
@@ -441,7 +438,7 @@ See [[algebraic cobordism]].
 
 ### General
 
-The original references are
+The original references:
 
 * [[Vladimir Voevodsky]], $\mathbf{A}^1$-Homotopy Theory. Proceedings of the International Congress of Mathematicians, Vol. I (Berlin, 1998). Doc. Math. 1998, Extra Vol. I, 579&#8211;604 (electronic).  [web](http://www.math.uiuc.edu/documenta/xvol-icm/00/Voevodsky.MAN.html)
 
@@ -449,6 +446,8 @@ The original references are
 
 
 * {#Morel} [[Fabien Morel]], _$\mathbb{A}^1$-algebraic topology over a field_, LNM 2052, 2012, ([pdf](https://www.mathematik.uni-muenchen.de/~morel/Prepublications/A1TopologyLNM.pdf))
+
+* {#AsokMorel} [[Aravind Asok]], [[Fabien Morel]], _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_, Adv. Math. **227** (5) (2011) 1990-2058 &lbrack;[arXiv:0810.0324](http://arxiv.org/abs/0810.0324), [doi:10.1016/j.aim.2011.04.009](https://doi.org/10.1016/j.aim.2011.04.009)&rbrack;
 
 
 
@@ -497,21 +496,26 @@ The slice filtration was defined in
 
 * [[Vladimir Voevodsky]], _Open problems in the stable motivic homotopy theory_ K-theory, 0392 ([web](https://faculty.math.illinois.edu/K-theory/0392/) [pdf](https://faculty.math.illinois.edu/K-theory/0392/nowmovo.pdf))
 
-Important representability results are in
+Representability results:
 
-* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in $\mathbb{A} ^1$-homotopy theory I:  vector bundles_, [arXiv:1506.07093](http://arxiv.org/abs/1506.07093).
+* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], *Affine representability results in $\mathbb{A}^1$-homotopy theory I: Vector bundles*, Duke Math. J. **166** 10 (2017) 1923-1953 &lbrack;[arXiv:1506.07093](http://arxiv.org/abs/1506.07093), [doi:10.1215/00127094-0000014X](https://doi.org/10.1215/00127094-0000014X)&rbrack;
 
-and
+* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in $\mathbb{A} ^1$-homotopy theory II: principal  bundles and homogeneous spaces_, Geom. Topol. **22** (2018) 1181-1225 &lbrack;[arXiv:1507.08020](http://arxiv.org/abs/1507.08020), [doi:10.2140/gt.2018.22.1181](https://doi.org/10.2140/gt.2018.22.1181)&rbrack;
 
-* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in $\mathbb{A} ^1$-homotopy theory II: principal  bundles and homogeneous spaces_, [arXiv:1507.08020](http://arxiv.org/abs/1507.08020).
-
-Discussion related to [[étale homotopy]] is in 
+Discussion related to [[étale homotopy]]:
 
 * [[Daniel Isaksen]], _&#201;tale realization of the $\mathbb{A} ^1$-homotopy theory of schemes_, Advances in Mathematics 184 (2004) 
 
-Discussion about [[thick ideals]] is in
+Discussion about [[thick ideals]]:
 
 * [[Ruth Joachimi]], _Thick ideals in equivariant and motivic stable homotopy categories_, [arXiv:1503.08456](http://arxiv.org/abs/1503.08456).
+
+On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] of [[schemes]] (as  [[motivic homotopy theory|motivic homotopy classes]] of maps into [[motivic sphere|motivic]] [[Tate spheres]]):
+
+* [[Aravind Asok]], [[Jean Fasel]], [[Mrinal Kanti Das]], *Euler class groups and motivic stable cohomotopy*, Journal of the EMS **24** 8 (2022) 2775–2822 &lbrack;[arXiv:1601.05723](https://arxiv.org/abs/1601.05723), [doi:10.4171/jems/1156](https://doi.org/10.4171/jems/1156)&rbrack;
+
+* [[Samuel Lerbet]], *Motivic stable cohomotopy and unimodular rows*, Advances in Mathematics **436** 109415 (2024) &lbrack;[arXiv:2206.11688](https://arxiv.org/abs/2206.11688), [doi:10.1016/j.aim.2023.109415](https://doi.org/10.1016/j.aim.2023.109415)&rbrack;
+
 
 ### Motivic homotopy theory in other contexts
 
