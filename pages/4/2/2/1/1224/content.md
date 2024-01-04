@@ -203,7 +203,7 @@ $$
   }
 $$
 
-two objects, they are connected by a zig-zag going through the unit, by the [universal factorization property](#http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows) of adjunctions
+two objects, they are connected by a zig-zag going through the unit, by the [[adjoint functor#UniversalArrows|universal factorization property]] of adjunctions
 
 $$
   \array{
