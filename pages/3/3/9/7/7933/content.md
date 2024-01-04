@@ -335,8 +335,13 @@ Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-
 
 and the examples of higher Chern-Simons theories in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]] _[[schreiber:Higher geometric prequantum theory]]_
- {#FiorenzaSchreiber}
+* {#FiorenzaSchreiber} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]] _[[schreiber:Higher geometric prequantum theory]]_
+ 
+
+Review:
+
+* [[Luigi Alfonsi]], §3 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
 
 [[!redirects higher geometric prequantization]]
 
