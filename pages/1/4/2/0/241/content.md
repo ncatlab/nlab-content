@@ -164,6 +164,14 @@ Although the internal logic of a Grothendieck topos is [[constructive logic]], t
 * (allegedly) the local [[small cardinality selection axiom]] (SCSA).
 * Every [[complete small category]] is a preorder.
 
+### 2-monadicity over locally presentable categories
+
+The [[2-category]] of Grothendieck toposes and [[logical morphisms]] is [[2-monad|2-monadic]] over the 2-category of [[locally presentable categories]] and [[cocontinuous functors]]. This is proven in [Bunge and Carboni 1995](#BungeCarboni1995). See [[symmetric topos]] for more details.
+
+### Enrichment over accessible categories with directed colimits
+
+The [[2-category]] of Grothendieck toposes and [[geometric morphisms]] is [[enriched bicategory|enriched as a bicategory]] over the 2-category of [[accessible categories]] with [[directed colimits]] (note that accessible categories always have $\kappa$-filtered colimits for some cardinal $\kappa$, but not necessarily directed colimits unless they are $\omega$-accessible) and functors preserving [[directed colimits]]. This is proven in [Di Liberti 2022](#DiLiberti22).
+
 ## In weak foundations
 
 We have two definitions of a Grothendieck topos:
@@ -269,7 +277,6 @@ Textbook accounts include
 Grothendieck topoi appear around section III,4 there.
 A proof of Giraud's theorem is in appendix A.
 
-
 The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
@@ -281,6 +288,14 @@ Street's characterization of Grothendieck toposes is given in
 These are also called Giraud frames in 
 
 * {#Vickers22} [[Steven Vickers]], *Generalized point-free spaces, pointwise* &lbrack;[arXiv:2206.01113](https://arxiv.org/abs/2206.01113)&rbrack;
+
+On 2-monadicity of the opposite of the 2-category of Grothendieck toposes:
+
+* {BungeCarboni1995} [[Marta Bunge]], [[Aurelio Carboni]], _The Symmetric Topos_  ,  JPAA **105** (1995) pp.233-249.
+
+On enrichment of the 2-category of Grothendieck toposes:
+
+* {#DiLiberti2022} [[Ivan Di Liberti]], _General facts on the Scott Adjunction_, Applied Categorical Structures 30.3 (2022): 569-591.
 
 [[!redirects Grothendieck toposes]]
 [[!redirects Grothendieck topoi]]
