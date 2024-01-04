@@ -31,13 +31,35 @@ Explicitly, the small presheaf construction exhibits a left [[pseudoadjoint]] to
 
 Abstractly, this follows by the results of [Kelly and Lack (2000)](#KellyLack2000). However, there is also an explicit description, due to [Ehresmann (1981)](#Ehresmann1981), and expanded upon by [Beurier, Pastor & Guitart (2021)](#BPG2021). The idea is to give a much more "naïve" description of the free cocompletion of a category $\mathscr{C}$ whose objects are not presheaves, but simply [[diagrams]] into $\mathscr{C}$. While the objects are, in some sense, simpler than presheaves, the morphisms are considerably more complicated: their dual is called called **atlases** by [Ehresmann (1981)](#Ehresmann1981), and they are called **clusters** by [Ehresmann and Vanbremeersch (1987)](#EV1987). The free strict cocompletion is consequently called the **category of clusters** $Clu(\mathscr{C})$ by [Beurier, Pastor, and Guitart (2021)](#BPG2021).
 
-The morphisms can be seen to satisfy the **limit--colimit formula**: given $P \colon \mathscr{P} \to \mathscr{C}$ and $Q \colon \mathscr{Q} \to \mathscr{C}$, we have $Clu(\mathscr{C})(P, Q) \,\cong\, lim_{p \in \mathscr{P}} colim_{q \in \mathscr{Q}} \mathscr{C}\big(P(p), Q(q)\big)$.
+The morphisms can be seen to satisfy the **limit--colimit formula** ([Beurier–Pastor–Guitart](#BPG2021), Proposition 3.11): given $P \colon \mathscr{P} \to \mathscr{C}$ and $Q \colon \mathscr{Q} \to \mathscr{C}$, we have $Clu(\mathscr{C})(P, Q) \,\cong\, lim_{p \in \mathscr{P}} colim_{q \in \mathscr{Q}} \mathscr{C}\big(P(p), Q(q)\big)$.
 
 The category of clusters embeds [[fully faithfully]] into the [[small presheaf category]]. Its full image is called $LClu(\mathscr{C})$ by [Beurier, Pastor & Guitart (2021)](#BPG2021).
 
 That the category of clusters forms the free strict cocompletion was stated in [Ehresmann (1981)](#Ehresmann1981) and [Ehresmann and Vanbremeersch (1987)](#EV1987), but without detailed proofs. A detailed treatment is given by [Beurier, Pastor &Guitart (2021)](#BPG2021).
 
 [Ehresmann (1981)](#Ehresmann1981) also considers the restriction to the free strict cocompletion under a specified class $\mathscr{J}$ of [[diagram]] shapes: this is given by restricting the objects of the category of clusters.
+
+## Universal property
+
+See [Beurier–Pastor–Guitart](#BPG2021), Theorem 4.4.
+
+Consider a [[locally small category]] $\mathscr{C}$,
+its category of clusters $\mathscr{F}=Clu(\mathscr{C})$ (as desribed above),
+and the canonical inclusion $I\colon\mathscr{C}\to Clu(\mathscr{C})$ that sends an object of $\mathscr{C}$ to a diagram indexed by the terminal category.
+The triple $(\mathscr{C},\mathscr{F},I)$ has the following additional canonical structure: for every [[small diagram]] $P\colon\mathscr{P}\to\mathscr{C}$ we have a canonical colimit cocone $\lambda^P\colon I P\Rightarrow \lambda(I P)$ in $\mathscr{F}$.
+Here $\lambda(I P)$ is an object of $\mathscr{F}$ given by the diagram $P$ itself, interpreted as an object of $\mathscr{F}$.
+
+The free strict cocompletion $Clu(\mathscr{C})$ of a [[locally small category]] $\mathscr{C}$ satisfies the following universal property: given another such triple $(\mathscr{F}',I',\lambda')$, where $I'\colon \mathscr{C}\to\mathscr{F}'$ is a functor landing in a locally small cocomplete category $\mathscr{F}'$ and $\lambda'$ is a choice of a colimit cocone for every diagram of the form $I' P'$ ($P'\colon \mathscr{P}'\to \mathscr{C}$), there is a unique functor $J\colon\mathscr{F}\to\mathscr{F}'$ such that $J I = I'$ and $J$ sends cocones in $\lambda$ to the corresponding cocones in $\lambda'$.
+
+In particular, $\mathscr{F}$ is unique up to an isomorphism.
+
+## Properties
+
+The assignment $\mathscr{C}\mapsto Clu(\mathscr{C})$ yields a __strict__ 2-functor from locally small categories to locally small categories that implements the free cocompletion construction.
+
+This stands in contrast to the usual construction of [[small presheaves]], which only yields a pseudofunctor.
+
+By restricting the types of diagrams in the construction of $Clu(\mathscr{C})$, we get strict cocompletion functors for certain types of colimits, e.g., [[ind-completions]].
 
 ## References
 
