@@ -520,6 +520,9 @@ See also:
 ### Exposition and talk notes
  {#ExpositionAndTalkNotes}
 
+* [[Luigi Alfonsi]], §4 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
+
 * *[[schreiber:Some Quantum States of M-Branes under Hypothesis H]]*
 
   talk at [Centre for Research in String Theory](https://strings.ph.qmul.ac.uk/welcome-crst)
