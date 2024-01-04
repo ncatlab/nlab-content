@@ -211,7 +211,7 @@ Textbooks on mathematical logic:
 
 * [[John Bell]], _The development of categorical logic_ ([pdf](http://publish.uwo.ca/~jbell/catlogprime.pdf))
 
-* {#MarquisReyes09} [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) _The History of Categorical Logic 1963-1977 ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf), [[MarquisReyes_CategoricalLogic.pdf:file]])
+* {#MarquisReyes09} [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) *The History of Categorical Logic 1963-1977* ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf), [[MarquisReyes_CategoricalLogic.pdf:file]])
 
 
 * [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society 2011
