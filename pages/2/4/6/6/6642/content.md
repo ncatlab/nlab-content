@@ -15,8 +15,6 @@
 =--
 
 
-
-# Reflective factorization systems
 * table of contents
 {:toc}
 
