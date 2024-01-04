@@ -10,8 +10,6 @@
 =--
 =--
 
-
-# Gabriel--Ulmer duality
 * table of contents
 {: toc}
 
