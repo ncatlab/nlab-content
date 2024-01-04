@@ -1301,9 +1301,9 @@ Critical outlook in
 
 The above discussion follows and character tables for [[virtual representation|virtual]] [[permutation representations]] above are taken from
 
-* {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
+* {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory]]_, Journal of Geometry and Physics **161** (2021) 104034 &lbrack;[arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc), [doi:10.1016/j.geomphys.2020.104034](https://doi.org/10.1016/j.geomphys.2020.104034)&rbrack;
 
-* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+* {#SatiSchreiber19} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_, Journal of Geometry and Physics **156** (2020) 103775 &lbrack;[arXiv:1909.12277](https://arxiv.org/abs/1909.12277), [doi:10.1016/j.geomphys.2020.103775](https://doi.org/10.1016/j.geomphys.2020.103775)&rbrack;
 
 See also
 
