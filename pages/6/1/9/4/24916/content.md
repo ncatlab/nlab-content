@@ -96,7 +96,7 @@ Some old discussions about category theory and foundations are archived [here](h
 
 Without assuming  [[Grothendieck universes]]:
 
-* Vidhyanath K. Rao, _On Doing Category Theory within Set Theoretic Foundations_ in: Giandomenico Sico (ed.), _What is category theory?_, Polimetrica (2006) &lbrack;[semanticscholar](https://www.semanticscholar.org/paper/What-is-category-theory-Sica/7737401202b220f89ae9c11cf9af65995a4dcf50)&rbrack;
+* Vidhyanath K. Rao, _On Doing Category Theory within Set Theoretic Foundations_ in: Giandomenico Sico (ed.), _What is category theory?_, Polimetrica (2006) &lbrack;[semanticscholar](https://www.semanticscholar.org/paper/What-is-category-theory-Sica/7737401202b220f89ae9c11cf9af65995a4dcf50)&rbrack;, [[On Doing Category Theory within Set Theoretic Foundations.pdf:file]]
 
 Via [[Grothendieck universes]]:
 
