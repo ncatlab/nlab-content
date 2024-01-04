@@ -842,9 +842,17 @@ See also
 * [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
 
 
-Further discussion of Cohomotopy:
+Further discussion:
 
 * [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
+
+On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] of [[schemes]] (as  [[motivic homotopy theory|motivic homotopy classes]] of maps into [[motivic sphere|motivic]] [[Tate spheres]]):
+
+* [[Aravind Asok]], [[Jean Fasel]], [[Mrinal Kanti Das]], *Euler class groups and motivic stable cohomotopy*, Journal of the EMS **24** 8 (2022) 2775–2822 &lbrack;[arXiv:1601.05723](https://arxiv.org/abs/1601.05723), [doi:10.4171/jems/1156](https://doi.org/10.4171/jems/1156)&rbrack;
+
+* [[Samuel Lerbet]], *Motivic stable cohomotopy and unimodular rows*, Advances in Mathematics **436** 109415 (2024) &lbrack;[arXiv:2206.11688](https://arxiv.org/abs/2206.11688), [doi:10.1016/j.aim.2023.109415](https://doi.org/10.1016/j.aim.2023.109415)&rbrack;
+
+
 
 
 
