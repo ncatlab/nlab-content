@@ -331,6 +331,13 @@ This and much more history is recalled in
 
 * [[Ralf Krömer]], *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
 
+See also:
+
+* [[Jean-Pierre Marquis]], *What is Category Theory?*, in G. Sica (ed.) *What is Category Theory?*, Polimetrica (2006) 221-256 &lbrack;[[Marquis-CategoryTheory.pdf:file]], [semanticscholar](https://www.semanticscholar.org/paper/What-is-category-theory-Sica/7737401202b220f89ae9c11cf9af65995a4dcf50)&rbrack;
+
+* [[Jean-Pierre Marquis]], _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer (2009) &lbrack;[doi:10.1007/978-1-4020-9384-5](https://doi.org/10.1007/978-1-4020-9384-5)&rbrack;
+
+
 
 \subsection{Textbooks}
  {#TextBooks}
