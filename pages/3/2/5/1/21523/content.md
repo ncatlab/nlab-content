@@ -41,6 +41,8 @@ In formal constructions of categories of [[motive|motives]], one typically 'inve
 
 * [[motivic homotopy theory]]
 
+* [[motivic sphere]]
+
 * [[n-sphere]]
 
 * [[Tate twist]]
@@ -49,6 +51,13 @@ In formal constructions of categories of [[motive|motives]], one typically 'inve
 
 
 * {#VRO07} [[Vladimir Voevodsky]], [[Oliver Röndigs]], [[Paul Arne Østvær]], _Voevodsky’s Nordfjordeid Lectures: Motivic Homotopy Theory_, In:  [[Bjørn Ian Dundas]], [[Marc Levine]], [[Paul Arne Østvær]], [[Oliver Röndigs]], [[Vladimir Voevodsky]] (eds.), _Motivic Homotopy Theory_,  Springer 2007 ([doi:10.1007/978-3-540-45897-5_7](https://doi.org/10.1007/978-3-540-45897-5_7), [pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/Nordfjordeid_lectures_published.pdf))
+
+On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] of [[schemes]] (as  [[motivic homotopy theory|motivic homotopy classes]] of maps into [[motivic sphere|motivic]] [[Tate spheres]]):
+
+* [[Aravind Asok]], [[Jean Fasel]], [[Mrinal Kanti Das]], *Euler class groups and motivic stable cohomotopy*, Journal of the EMS **24** 8 (2022) 2775–2822 &lbrack;[arXiv:1601.05723](https://arxiv.org/abs/1601.05723), [doi:10.4171/jems/1156](https://doi.org/10.4171/jems/1156)&rbrack;
+
+* [[Samuel Lerbet]], *Motivic stable cohomotopy and unimodular rows*, Advances in Mathematics **436** 109415 (2024) &lbrack;[arXiv:2206.11688](https://arxiv.org/abs/2206.11688), [doi:10.1016/j.aim.2023.109415](https://doi.org/10.1016/j.aim.2023.109415)&rbrack;
+
 
 [[!redirects Tate spheres]]
 
