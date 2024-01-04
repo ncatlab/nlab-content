@@ -44,6 +44,14 @@ For more see at _[[geometry of physics]]_.
 
 * [[higher homotopy]]
 
+## References
+
+Survey of [[higher gauge theory]]:
+
+* [[Luigi Alfonsi]], §2 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
+
+
 [[!redirects higher gauge transformations]]
 [[!redirects gauge-of-gauge transformation]]
 [[!redirects gauge-of-gauge transformations]]
