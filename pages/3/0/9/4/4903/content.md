@@ -278,4 +278,9 @@ Some of the above material is taken from the seminar notes
 
 * [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_ (2010)
 
+Survey in the context of [[BV-formalism]]:
+
+* [[Luigi Alfonsi]], §5 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
+
 [[!redirects derived geometries]]
