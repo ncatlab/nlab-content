@@ -539,9 +539,9 @@ An alternative proof is due to
 
 * {#Cohen80} [[Ralph Cohen]], _Stable proof of stable splittings_, Math. Proc. Camb. Phil. Soc., 1980, 88, 149 ([doi:10.1017/S030500410005742X](https://doi.org/10.1017/S030500410005742X), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/247D9F951F8AB99000E4FF6CB2DB9EA2/S030500410005742Xa.pdf/div-class-title-stable-proofs-of-stable-splittings-div.pdf))
 
-Review and generalization is due to 
+Review and generalization:
 
-* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic Topology, Springer (1987) 174-187 &lbrack;[pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]]&rbrack;
+* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], *Stable splittings of mapping spaces*, in: *Algebraic topology*, Lecture Notes in Mathematics **1286**, Springer (1987) 174-187 &lbrack;[pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]], [doi:10.1007/BFb0078741](https://doi.org/10.1007/BFb0078741)&rbrack;
 
 Interpretation in terms of the [[Goodwillie-Taylor tower]] of mapping spaces is due to
 
