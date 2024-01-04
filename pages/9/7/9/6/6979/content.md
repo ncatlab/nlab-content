@@ -31,7 +31,39 @@ Then change of [[context]] corresponds to [[base change]] in $C$. See also _[[de
 
 Dependent type systems are heavily used for _[[certified programming|software certification]]_. 
 
-They also seem to support a [[foundations]] of mathematics in terms of [[homotopy type theory]].
+## In the foundations of mathematics
+
+Dependent type theories support various [[foundations of mathematics]] as a logical framework via the [[propositions as some types]] interpretation of dependent type theory, where propositions are the types where every two elements are equal 
+
+$$\mathrm{isProp}(A) \coloneqq \prod_{x:A} \prod_{y:A} x =_A y$$
+
+Suppose that a dependent type theory has a separate [[type]] [[judgment]] as well as [[dependent product types]], [[dependent sum types]], [[identity types]], [[weak function extensionality]], [[propositional truncations]], [[empty type]], [[unit type]], [[sum types]]. All the operations in [[predicate logic]] are derivable from said type formers: 
+
+* [[universal quantification]] is the dependent product type of families of propositions due to weak function extensionality
+
+* similarly, [[implication]] is the function type of two propositions due to weak function extensionality, and function types are just dependent product types of a constant family of types
+
+* [[logical conjunction]] is the product type of two propositions, and product types are just dependent sum types of a constant family of types
+
+* [[existential quantification]] is the propositional truncation of dependent sum types
+
+* [[logical disjunction]] is the propositional truncation of sum types
+
+* [[falsehood]] is the empty type
+
+* [[truth]] is the unit type
+
+* [[excluded middle]] and the [[law of double negation]] is stated as an [[inference rule]] about propositions
+
+Then 
+
+* One can add a model of [[ZFC]] to the dependent type theory and work entirely in the model of ZFC for [[material set theory]]
+
+* One can add a model of [[ETCS]] to the dependent type theory and work entirely in the model of ETCS for [[structural set theory]]
+
+* One can add a [[univalent]] [[type universe]] satisfying certain [[axioms]] and [[axiom schemata]], such as closure under identity types, closure under dependent sum types, closure under dependent product types, propositional resizing, replacement, infinity, and choice, to the dependent type theory and work entirely in the universe for [[univalent type theory]] or [[univalent foundations]]. Adding internal universe types as [[small]] [[object classifiers]] as well as all [[higher inductive types|higher inductive]] and [[coinductive types]] to the universe results in [[homotopy type theory]]. 
+
+* One can add a [[type of all propositions]] and a [[natural numbers type]] and work in the dependent type theory itself for [[higher-order logic]].
 
 ## Description
 
