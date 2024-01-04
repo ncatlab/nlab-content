@@ -105,6 +105,10 @@ the complex plane $\mathbb{C}$ with marked points which defines any rational [[G
 
 * [[Luigi Alfonsi]], [[Charles A. S. Young]], *Higher current algebras, homotopy Manin triples, and a rectilinear adelic complex*, Journal of Geometry and Physics **191** (2023) 104903 &lbrack;[doi:10.1016/j.geomphys.2023.104903](https://doi.org/10.1016/j.geomphys.2023.104903), [math.QA/2208.06009](https://arxiv.org/abs/2208.06009)&rbrack;
 
+Review:
+
+* [[Luigi Alfonsi]], §7 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
 
 [[!redirects higher Kac-Moody algebra]]
 [[!redirects higher Kac-Moody algebras]]
