@@ -1,4 +1,3 @@
-[[!redirects strict free cocompletion]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -70,8 +69,10 @@ Amiens 1981, supplément no. 1 au volume XXII (1981) des [[Cahiers de topologie 
 
 * {#KellyLack2000} [[G. M. Kelly]], [[Stephen Lack]], _On the monadicity of categories with chosen colimits_, Theory and Applications of Categories **7** 7 (2000) 148-170 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/7/n7/7-07abs.html)&rbrack;
 
-* {#BPG2021} Erwan Beurier, Dominique Pastor, and René Guitart. _Presentations of clusters and strict free-cocompletions_. [[Theory and Applications of Categories]] 36.17 (2021): 492-513. ([link](http://www.tac.mta.ca/tac/volumes/36/17/36-17abs.html))
+* {#BPG2021} Erwan Beurier, Dominique Pastor, [[René Guitart]] _Presentations of clusters and strict free-cocompletions_, [[Theory and Applications of Categories]] **36** 17 (2021) 492-513 &lbrack;[tac:36-17](http://www.tac.mta.ca/tac/volumes/36/17/36-17abs.html)&rbrack;
 
 [[!redirects free strict cocompletions]]
 [[!redirects strict free cocompletions]]
 [[!redirects category of clusters]]
+[[!redirects strict free cocompletion]]
+
