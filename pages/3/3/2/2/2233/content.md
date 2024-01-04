@@ -175,6 +175,10 @@ With an eye towards the full extension of [[Chern-Simons theory]]:
 
 * [[Daniel S. Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
 
+Review:
+
+* [[Luigi Alfonsi]], §6 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
 
 For TQFTs appearing in [[solid state physics]] in the context of [[topological order]] (see also at *[[K-theory classification of topological phases of matter]]*):
 
