@@ -189,7 +189,7 @@ Review:
 
 * [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics|Higher Topos Theory in Physics]]* &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
 
-* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+* [[Luigi Alfonsi]], §1 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
 
 
 [[!redirects higher geometries]]
