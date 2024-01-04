@@ -654,6 +654,10 @@ M. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Phys
 Formulation as [[homotopy AQFT]]:
 
 * {#BeniniBruinsmaSchenkel19} [[Marco Benini]], Simen Bruinsma, [[Alexander Schenkel]], _Linear Yang-Mills theory as a homotopy AQFT_ ([arXiv:1906.00999](https://arxiv.org/abs/1906.00999))
+
+Review in the context of [[higher geometry]]:
+
+* [[Luigi Alfonsi]], §5 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
  
 
 ### Lagrangian BV
