@@ -23,3 +23,11 @@ But it seems OK to me to call it an '$A$-monad'.  ---Toby
 
 This fits with the fact that $M$ is an extension of $A$ by unary operations, so one should be reminded of monoids, maybe? ---Gavin
 =--
+
+## References
+
+* [[Peter Freyd]], _Algebra valued functors in general and tensor products in particular_, Colloquium mathematicum. Vol. 14. No. 1. Polska Akademia Nauk. Instytut Matematyczny PAN, 1966.
+
+* [[Francis Borceux]] and [[Enrico M. Vitale]], _On the notion of bimodel for functorial semantics_, Applied Categorical Structures 2.3 (1994): 283-295.
+
+* [[Jiří Adámek]] and [[Francis Borceux]], _Morita equivalence of sketches_, Applied Categorical Structures 8 (2000): 503-517.
