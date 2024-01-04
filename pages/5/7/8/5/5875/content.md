@@ -61,7 +61,8 @@ Textbook accounts:
 
 * [[Norman Steenrod]], Thm. 17.4 in: _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
-* {#Switzer75} [[Robert Switzer]], around 2.59 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+* {#Switzer75} [[Robert Switzer]], around 2.59 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
+
 
 * {#Kochmann96} [[Stanley Kochmann]], Corollary 3.2.7 in: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
