@@ -1555,7 +1555,7 @@ Generalization of these constructions and results is due to
 
 * {#McDuff75} [[Dusa McDuff]], _Configuration spaces of positive and negative particles_, Topology Volume 14, Issue 1, March 1975, Pages 91-107 (<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>)
 
-* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
+* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], *Stable splittings of mapping spaces*, in: *Algebraic topology*, Lecture Notes in Mathematics **1286**, Springer (1987) 174-187 &lbrack;[pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]], [doi:10.1007/BFb0078741](https://doi.org/10.1007/BFb0078741)&rbrack;
 
 * {#ManthorpeTillmann} Richard Manthorpe, [[Ulrike Tillmann]], _Tubular configurations: equivariant scanning and splitting_, Journal of the London Mathematical Society, Volume 90, Issue 3 ([arxiv:1307.5669](https://arxiv.org/abs/1307.5669), [doi:10.1112/jlms/jdu050](https://doi.org/10.1112/jlms/jdu050))
 
