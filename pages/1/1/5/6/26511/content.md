@@ -1,6 +1,8 @@
 
 * [institute page](https://dornsife.usc.edu/aravind-asok/)
 
+* [ResearchGate page](https://www.researchgate.net/profile/Aravind-Asok)
+
 ## Selected writings
 
 On [[motivic homotopy theory]] 
