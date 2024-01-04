@@ -41,6 +41,8 @@ Almost all [[foundations of mathematics]] are expressed in some foundational [[d
 
 One versatile deductive system [[natural deduction]], which could be used to define certain foundation of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]]. 
 
+Dependent type theories could also act as a [[predicate logic]] in and of itself, using [[propositional truncations]] and the usual type formers. Then one could define inside the dependent type theory a model of [[ZFC]] or [[ETCS]] or a ([[univalent]]) [[Tarski universe]] satisfying suitable axioms and work entirely inside of that model. 
+
 Alternatives include [[sequent calculus]] for logic over untyped theories, such as [[unsorted set theory]], as well as [[lambda-calculus]] for [[type theories]]. 
 
 (Not sure where [[higher-order logic]] would fit)
