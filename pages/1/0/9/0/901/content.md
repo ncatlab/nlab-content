@@ -577,11 +577,15 @@ Some relevant results are contained in:
 [[!redirects ind object]]
 [[!redirects ind-completion]]
 [[!redirects ind-cocompletion]]
+[[!redirects ind-completions]]
+[[!redirects ind-cocompletions]]
 
 [[!redirects Ind-objects]]
 [[!redirects Ind object]]
 [[!redirects Ind-completion]]
 [[!redirects Ind-cocompletion]]
+[[!redirects Ind-completions]]
+[[!redirects Ind-cocompletions]]
 
 [[!redirects category of ind-objects]]
 [[!redirects categories of ind-objects]]
