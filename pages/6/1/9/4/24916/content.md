@@ -94,6 +94,10 @@ Some old discussions about category theory and foundations are archived [here](h
 ### Set theoretic foundations of category theory
  {#ReferencesSetTheoreticFoundationsOfCategoryTheory}
 
+Without assuming  [[Grothendieck universes]]:
+
+* Vidhyanath K. Rao, _On Doing Category Theory within Set Theoretic Foundations_ (2006). Published in _What is category theory?_ by Polimetrica, edited by Giandomenico Sico.
+
 Via [[Grothendieck universes]]:
 
 * [[Horst Schubert]], §3 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
