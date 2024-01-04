@@ -185,7 +185,7 @@ Motivic cohomology is used to construct examples of [[Euler systems]], which in 
 
 * [[motives in physics]]
 
-## Further references
+## References
 
 * [[Eric Friedlander]], _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ ([lecture 6 (pdf)](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf))
 
@@ -209,7 +209,14 @@ The application of motivic cohomology to constructing [[Euler systems]] is discu
 
 * {#LoefflerZerbes18} David Loeffler and Sarah Zerbes, _Euler Systems_, Arizona Winter School 2018 Notes ([pdf](https://swc-math.github.io/aws/2018/2018LoefflerZerbesNotes.pdf)) 
 
+On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] of [[schemes]] (as  [[motivic homotopy theory|motivic homotopy classes]] of maps into [[motivic sphere|motivic]] [[Tate spheres]]):
+
+* [[Aravind Asok]], [[Jean Fasel]], [[Mrinal Kanti Das]], *Euler class groups and motivic stable cohomotopy*, Journal of the EMS **24** 8 (2022) 2775–2822 &lbrack;[arXiv:1601.05723](https://arxiv.org/abs/1601.05723), [doi:10.4171/jems/1156](https://doi.org/10.4171/jems/1156)&rbrack;
+
+* [[Samuel Lerbet]], *Motivic stable cohomotopy and unimodular rows*, Advances in Mathematics **436** 109415 (2024) &lbrack;[arXiv:2206.11688](https://arxiv.org/abs/2206.11688), [doi:10.1016/j.aim.2023.109415](https://doi.org/10.1016/j.aim.2023.109415)&rbrack;
+
 category: algebraic geometry
+
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
 [[!redirects higher Chow group]]
