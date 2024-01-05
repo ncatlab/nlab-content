@@ -211,7 +211,26 @@ The [[KK-compactification]] specifically of the [[D=6 N=(1,0) SCFT]] to [[D=4 N=
 
 * Shlomo S. Razamat, Gabi Zafrir, _Compactification of 6d minimal SCFTs on Riemann surfaces_, Phys. Rev. D 98, 066006 (2018) ([arXiv:1806.09196](https://arxiv.org/abs/1806.09196))
 
-* Jin Chen, Babak Haghighat, Shuwei Liu, [[Marcus Sperling]], _4d N=1 from 6d D-type N=(1,0)_ ([arXiv:1907.00536](https://arxiv.org/abs/1907.00536))
+* [[Jin Chen]], [[Babak Haghighat]], [[Shuwei Liu]], [[Marcus Sperling]], _4d $\mathcal{N}=1$ from 6d D-type $\mathcal{N}=(1,0)$_,  J. High Energ. Phys. **2020** 152 (2020) &lbrack;[arXiv:1907.00536](https://arxiv.org/abs/1907.00536), <a href=" https://doi.org/10.1007/JHEP01(2020)152">doi:10.1007/JHEP01(2020)152</a>&rbrack;
+
+### Compactification to 2d CFT
+ {#CompactificationTo2dCFT}
+
+On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[4-manifolds]] to [[2d CFTs]]:
+
+* [[Abhijit Gadde]], [[Sergei Gukov]], [[Pavel Putrov]], *Fivebranes and 4-manifolds*, in: *Arbeitstagung Bonn 2013*, Progress in Mathematics **319**, Birkhäuser (2016) &lbrack;[arXiv:1306.4320](https://arxiv.org/abs/1306.4320), [doi:10.1007/978-3-319-43648-7_7](https://doi.org/10.1007/978-3-319-43648-7_7)&rbrack;
+
+* [[Mykola Dedushenko]], [[Sergei Gukov]], [[Pavel Putrov]], *Vertex algebras and 4-manifold invariants*, Chapter 11 in: *Geometry and Physics: Volume I*  (2018) 249–318 &lbrack;[arXiv:1705.01645](https://arxiv.org/abs/1705.01645), [doi:10.1093/oso/9780198802013.003.0011](https://doi.org/10.1093/oso/9780198802013.003.0011)&rbrack;
+
+* [[Boris Feigin]], [[Sergei Gukov]], $VOA[M_4]$, J. Math. Phys. **61** 012302 (2020) &lbrack;[arXiv:1806.02470](https://arxiv.org/abs/1806.02470), [doi:10.1063/1.5100059](https://doi.org/10.1063/1.5100059)&rbrack;
+
+In relation to [[M5-brane elliptic genus]]:
+
+* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) &lbrack;[arXiv:1811.07884](https://arxiv.org/abs/1811.07884), <a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [spire:1704312](https://inspirehep.net/literature/1704312)&rbrack;
+
+and in relation to [[QFT with defects|defects]]:
+
+* [[Jin Chen]], [[Wei Cui]], [[Babak Haghighat]], [[Yi-Nan Wang]], *SymTFTs and Duality Defects from 6d SCFTs on 4-manifolds*, JHEP **2023** 208 (2023) &lbrack;[arXiv:2305.09734](https://arxiv.org/abs/2305.09734), <a href="https://doi.org/10.1007/JHEP11(2023)208">doi:10.1007/JHEP11(2023)208</a>&rbrack;
 
 
 ### ADE classification
