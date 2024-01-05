@@ -33,7 +33,7 @@ Dependent type systems are heavily used for _[[certified programming|software ce
 
 ## In the foundations of mathematics
 
-Dependent type theories support various [[foundations of mathematics]] as a logical framework via the [[propositions as some types]] interpretation of dependent type theory, where propositions are the types where every two elements are equal 
+Dependent type theory itself support various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]], where propositions are the types where every two elements are equal 
 
 $$\mathrm{isProp}(A) \coloneqq \prod_{x:A} \prod_{y:A} x =_A y$$
 
@@ -57,11 +57,11 @@ Suppose that a dependent type theory has a separate [[type]] [[judgment]] as wel
 
 Then 
 
-* One can add a model of [[ZFC]] to the dependent type theory and work entirely in the model of ZFC for [[material set theory]]
+* One can add a [[von Neumann universe]] to the dependent type theory and work entirely in the von Neumann universe for [[material set theory]]
 
-* One can add a model of [[ETCS]] to the dependent type theory and work entirely in the model of ETCS for [[structural set theory]]
+* One can add a [[category of sets]] to the dependent type theory and work entirely in the category of sets for [[structural set theory]]
 
-* One can add a [[univalent]] [[type universe]] satisfying certain [[axioms]] and [[axiom schemata]], such as closure under identity types, closure under dependent sum types, closure under dependent product types, propositional resizing, replacement, infinity, and choice, to the dependent type theory and work entirely in the universe for [[univalent type theory]] or [[univalent foundations]]. Adding internal universe types as [[small]] [[object classifiers]] as well as all [[higher inductive types|higher inductive]] and [[coinductive types]] to the universe results in [[homotopy type theory]]. 
+* One can add a [[type universe]] satisfying certain [[axioms]] and [[axiom schemata]], such as [[universe extensionality]], closure under identity types, closure under dependent sum types, closure under dependent product types, [[propositional resizing]], [[axiom of replacement|replacement]], [[axiom of infinity|infinity]], and [[axiom of choice|choice]], to the dependent type theory and work entirely in the universe for [[univalent type theory]] or [[univalent foundations]]. Adding internal universe types as [[small]] [[object classifiers]] as well as all [[higher inductive types|higher inductive]] and [[coinductive types]] to the universe results in [[homotopy type theory]]. 
 
 * One can add a [[type of all propositions]] and a [[natural numbers type]] and work in the dependent type theory itself for [[higher-order logic]].
 
