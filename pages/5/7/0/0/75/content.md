@@ -39,13 +39,21 @@ For a philosophical treatment of foundations see [[foundations and philosophy]].
 
 Almost all [[foundations of mathematics]] are expressed in some foundational [[deductive system]]. 
 
-One versatile deductive system [[natural deduction]], which could be used to define certain foundation of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]]. 
+One versatile deductive system [[natural deduction]], which could be used to define certain foundation of mathematics using [[logic over type theory]], such as all [[set theories]], including [[categorical set theories]] like [[ETCS]], as well as the foundations of mathematics using only [[type theory]], including [[set-level type theories]] as well as [[higher foundations]] such as [[homotopy type theory]], as well as typed [[higher-order logic]].
 
-Dependent type theories could also act as a [[predicate logic]] in and of itself, using [[propositional truncations]] and the usual type formers. Then one could define inside the dependent type theory a model of [[ZFC]] or [[ETCS]] or a ([[univalent]]) [[Tarski universe]] satisfying suitable axioms and work entirely inside of that model. 
+Alternatives include [[sequent calculus]] for logic over untyped theories, such as [[unsorted set theory]] and untyped higher-order logic, as well as [[lambda-calculus]] for [[type theories]]. 
 
-Alternatives include [[sequent calculus]] for logic over untyped theories, such as [[unsorted set theory]], as well as [[lambda-calculus]] for [[type theories]]. 
+### Dependent type theory
 
-(Not sure where [[higher-order logic]] would fit)
+Dependent type theory itself supports various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]]. Suppose that a dependent type theory has a separate type judgment as well as [[dependent product types]], [[dependent sum types]], [[identity types]], [[weak function extensionality]], [[propositional truncations]], [[empty type]], [[unit type]], [[sum types]]. All the operations in [[predicate logic]] are derivable from said type formers. Then:
+
+* One can add a model of [[ZFC]] to the dependent type theory and work entirely in the model of ZFC for [[material set theory]]
+
+* One can add a model of [[ETCS]] to the dependent type theory and work entirely in the model of ETCS for [[structural set theory]]
+
+* One can add a [[type universe]] satisfying certain [[axioms]] and [[axiom schemata]], such as [[universe extensionality]], closure under identity types, closure under dependent sum types, closure under dependent product types, [[propositional resizing]], [[axiom of replacement|replacement]], [[axiom of infinity|infinity]], and [[axiom of choice|choice]], to the dependent type theory and work entirely in the universe for [[univalent type theory]] or [[univalent foundations]]. Adding internal universe types as [[small]] [[object classifiers]] as well as all [[higher inductive types|higher inductive]] and [[coinductive types]] to the universe results in [[homotopy type theory]]. 
+
+* One can add a [[type of all propositions]] and a [[natural numbers type]] and work in the dependent type theory itself for [[higher-order logic]].
 
 ## Basic notions
 
