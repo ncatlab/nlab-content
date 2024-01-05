@@ -47,9 +47,9 @@ Alternatives include [[sequent calculus]] for logic over untyped theories, such 
 
 Dependent type theory itself supports various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]]. Suppose that a dependent type theory has a separate type judgment as well as [[dependent product types]], [[dependent sum types]], [[identity types]], [[weak function extensionality]], [[propositional truncations]], [[empty type]], [[unit type]], [[sum types]]. All the operations in [[predicate logic]] are derivable from said type formers. Then:
 
-* One can add a model of [[ZFC]] to the dependent type theory and work entirely in the model of ZFC for [[material set theory]]
+* One can add a [[von Neumann universe]] to the dependent type theory and work entirely in the von Neumann universe for [[material set theory]]
 
-* One can add a model of [[ETCS]] to the dependent type theory and work entirely in the model of ETCS for [[structural set theory]]
+* One can add a [[category of sets]] to the dependent type theory and work entirely in the category of sets for [[structural set theory]]
 
 * One can add a [[type universe]] satisfying certain [[axioms]] and [[axiom schemata]], such as [[universe extensionality]], closure under identity types, closure under dependent sum types, closure under dependent product types, [[propositional resizing]], [[axiom of replacement|replacement]], [[axiom of infinity|infinity]], and [[axiom of choice|choice]], to the dependent type theory and work entirely in the universe for [[univalent type theory]] or [[univalent foundations]]. Adding internal universe types as [[small]] [[object classifiers]] as well as all [[higher inductive types|higher inductive]] and [[coinductive types]] to the universe results in [[homotopy type theory]]. 
 
