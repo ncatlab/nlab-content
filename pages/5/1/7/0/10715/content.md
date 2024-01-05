@@ -20,3 +20,5 @@ The _initial value problem_ or _Cauchy problem_ for [[partial differential equat
 [[!redirects initial values]]
 [[!redirects initial condition]]
 [[!redirects initial conditions]]
+
+[[!redirects initial value data]]
