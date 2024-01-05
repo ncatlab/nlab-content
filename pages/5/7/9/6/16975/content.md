@@ -47,8 +47,11 @@ and to analysis of [[phase transitions]]:
 
 On the [[weak gravity conjecture]]:
 
-* Lars Aalsma, [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], 
-_A New Spin on the Weak Gravity Conjecture_ ([arXiv:2011.05337](https://arxiv.org/abs/2011.05337))
+* Lars Aalsma, [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], _A New Spin on the Weak Gravity Conjecture_ ([arXiv:2011.05337](https://arxiv.org/abs/2011.05337))
+
+Survey of [[string phenomenology]]:
+
+* [[Fernando Marchesano]], [[Gary Shiu]], [[Timo Weigand]], *The Standard Model from String Theory: What Have We Learned?* &lbrack;[arXiv:2401.01939](https://arxiv.org/abs/2401.01939)&rbrack;
 
 
 
