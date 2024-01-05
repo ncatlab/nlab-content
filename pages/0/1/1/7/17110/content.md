@@ -77,6 +77,8 @@ Now
 
 ## References
 
+### General
+
 All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  [[4-sphere]]:
 
 * {#Piergallini95} [[Riccardo Piergallini]], _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
@@ -88,6 +90,26 @@ On [[cohomotopy]] of 4-manifolds:
 * [[Daniel Freed]], [[Karen Uhlenbeck]], Appendix B of: _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, GTM 18 (2012) 161-190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
+
+
+### Relation to 2d CFTs via 6d CFT
+
+On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[4-manifolds]] to [[2d CFTs]]:
+
+* [[Abhijit Gadde]], [[Sergei Gukov]], [[Pavel Putrov]], *Fivebranes and 4-manifolds*, in: *Arbeitstagung Bonn 2013*, Progress in Mathematics **319**, Birkhäuser (2016) &lbrack;[arXiv:1306.4320](https://arxiv.org/abs/1306.4320), [doi:10.1007/978-3-319-43648-7_7](https://doi.org/10.1007/978-3-319-43648-7_7)&rbrack;
+
+* [[Mykola Dedushenko]], [[Sergei Gukov]], [[Pavel Putrov]], *Vertex algebras and 4-manifold invariants*, Chapter 11 in: *Geometry and Physics: Volume I*  (2018) 249–318 &lbrack;[arXiv:1705.01645](https://arxiv.org/abs/1705.01645), [doi:10.1093/oso/9780198802013.003.0011](https://doi.org/10.1093/oso/9780198802013.003.0011)&rbrack;
+
+* [[Boris Feigin]], [[Sergei Gukov]], $VOA[M_4]$, J. Math. Phys. **61** 012302 (2020) &lbrack;[arXiv:1806.02470](https://arxiv.org/abs/1806.02470), [doi:10.1063/1.5100059](https://doi.org/10.1063/1.5100059)&rbrack;
+
+In relation to [[M5-brane elliptic genus]]:
+
+* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) &lbrack;[arXiv:1811.07884](https://arxiv.org/abs/1811.07884), <a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [spire:1704312](https://inspirehep.net/literature/1704312)&rbrack;
+
+and in relation to [[QFT with defects|defects]]:
+
+* [[Jin Chen]], [[Wei Cui]], [[Babak Haghighat]], [[Yi-Nan Wang]], *SymTFTs and Duality Defects from 6d SCFTs on 4-manifolds*, JHEP **2023** 208 (2023) &lbrack;[arXiv:2305.09734](https://arxiv.org/abs/2305.09734), <a href="https://doi.org/10.1007/JHEP11(2023)208">doi:10.1007/JHEP11(2023)208</a>&rbrack;
+
 
 
 
