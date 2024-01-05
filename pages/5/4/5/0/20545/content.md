@@ -144,7 +144,7 @@ The [[KK-compactification]] specifically of the [[D=6 N=(1,0) SCFT]] to [[D=4 N=
 
 * Shlomo S. Razamat, Gabi Zafrir, _Compactification of 6d minimal SCFTs on Riemann surfaces_, Phys. Rev. D 98, 066006 (2018) ([arXiv:1806.09196](https://arxiv.org/abs/1806.09196))
 
-* Jin Chen, Babak Haghighat, Shuwei Liu, [[Marcus Sperling]], _4d N=1 from 6d D-type N=(1,0)_ ([arXiv:1907.00536](https://arxiv.org/abs/1907.00536))
+* [[Jin Chen]], [[Babak Haghighat]], [[Shuwei Liu]], [[Marcus Sperling]], _4d $\mathcal{N}=1$ from 6d D-type $\mathcal{N}=(1,0)$_,  J. High Energ. Phys. **2020** 152 (2020) &lbrack;[arXiv:1907.00536](https://arxiv.org/abs/1907.00536), <a href=" https://doi.org/10.1007/JHEP01(2020)152">doi:10.1007/JHEP01(2020)152</a>&rbrack;
 
 
 
