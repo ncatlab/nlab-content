@@ -24,6 +24,12 @@ On [[fractional level WZW models]] (non-integrable admissible [[affine Lie algeb
 
   > (appearance of [[osp|$\mathfrak{osp}(1\vert2)$]]-contributions)
 
+On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[4-manifolds]] to [[2d CFTs]]:
+
+* [[Boris Feigin]], [[Sergei Gukov]], $VOA[M_4]$, J. Math. Phys. **61** 012302 (2020) &lbrack;[arXiv:1806.02470](https://arxiv.org/abs/1806.02470), [doi:10.1063/1.5100059](https://doi.org/10.1063/1.5100059)&rbrack;
+
+
+
 
 
 
