@@ -29,9 +29,12 @@ On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-b
 
 * [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
 
+Survey of [[string phenomenology]]:
+
+* [[Fernando Marchesano]], [[Gary Shiu]], [[Timo Weigand]], *The Standard Model from String Theory: What Have We Learned?* &lbrack;[arXiv:2401.01939](https://arxiv.org/abs/2401.01939)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[intersecting D-brane model]]
 
