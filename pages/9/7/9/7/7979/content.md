@@ -282,11 +282,15 @@ Some history and reflection:
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
-For Maxwell's equations in the generality of [[dielectric media]], see the references there, such as 
+For Maxwell's equations in the generality of [[dielectric media]], see the references there, such as:
 
 * G. Russakoff, *A Derivation of the Macroscopic Maxwell Equations*, American Journal of Physics **38** (1970) 1188–1195 &lbrack;[doi:10.1119/1.1976000](https://doi.org/10.1119/1.1976000)&rbrack;
 
 * {#deLangeRaab06} O. L. de Lange, R. E. Raab *Surprises in the multipole description of macroscopic electrodynamics*, American Journal of Physics **74** (2006) 301–312 &lbrack;[doi:10.1119/1.2151213](https://doi.org/10.1119/1.2151213)&rbrack;
+
+On the Maxwell [[Green's function]] ([[propagator]]) and numerical solutions:
+
+* Boris Lo, Victor Minden, Phillip Colella, *A real-space Green's function method for the numerical solution of Maxwell's equations*,  **11** 2 (2016) 143–170 &lbrack;[doi:10.2140/camcos.2016.11.143](https://doi.org/10.2140/camcos.2016.11.143), [pdf](https://msp.org/camcos/2016/11-2/camcos-v11-n2-p01-s.pdf)&rbrack;
 
 
 
