@@ -195,7 +195,7 @@ surveyed in
 
 ### General
 
-General discussion includes
+General discussion:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
@@ -217,6 +217,8 @@ General discussion includes
 See also:
 
 * Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* ([arxiv:2105.05775](https://arxiv.org/abs/2105.05775))
+
+* Soumya Adhikari, Bindusar Sahoo, $\mathcal{N}=2$ conformal supergravity in five dimensions* &lbrack;[arXiv:2312.01879](https://arxiv.org/abs/2312.01879)&rbrack;
 
 
 ### Via M-theory on Calabi-Yau 3-folds
