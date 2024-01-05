@@ -173,6 +173,8 @@ Technical surveys on particle physics string phenomenology include
 
 * [[Eran Palti]], _Review of Model Building in String Theory_, talk at [String Phenomenology 2014](http://stringpheno2014.ictp.it/program.html) ([pdf](http://stringpheno2014.ictp.it/lecturenotes/Palti.pdf))
 
+* [[Fernando Marchesano]], [[Gary Shiu]], [[Timo Weigand]], *The Standard Model from String Theory: What Have We Learned?* &lbrack;[arXiv:2401.01939](https://arxiv.org/abs/2401.01939)&rbrack;
+
 Technical surveys on cosmological string phenomenology include
 
 * S. F. King, J. P. Roberts, _Natural Dark Matter from Type I String Theory_ ([arXiv:hep-ph/0608135](http://arxiv.org/abs/hep-ph/0608135))
