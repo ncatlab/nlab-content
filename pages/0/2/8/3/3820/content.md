@@ -19,8 +19,39 @@
 
 
 ## Idea
+ {#Idea}
 
-The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the _[[space of trajectories]]_ of the system.  Often one considers a parameterization of this by boundary data or choice of a [[Cauchy surface]]. This parameterization is what traditionally is just called a "phase space". The "covariant" in "covariant phase space" is to indicated that it comes without any unnatural choices.
+The _covariant phase space_ of a system in [[physics]] (a [[field theory]], in general) is 
+
+* the [[space]] of all of those [[field (physics)|fields]] on [[spacetime]] which solve the [[equations of motion]], hence
+
+* the space of [[on-shell]] [[field histories]], hence 
+
+* the _[[space of trajectories]]_ of the system.  
+
+Often one considers a parameterization of this by [[initial value data]] of fields on a [[Cauchy surface]] inside [[spacetime]]. This parameterization is what traditionally is just called a "phase space", or *canonical phase space*, for emphasis. Its elements are typically described by 
+
+1. "[[canonical coordinates]]": the value of the [[field (physics)|fields]] themselves, on the Cauchy surface 
+
+1. "[[canonical coordinates]]": essentially the time derivatives of the [[field (physics)|fields]], on the Cauchy surface.
+
+The "covariant" in "covariant phase space" is to indicate that it is obtained without any (necessarily un-[[natural transformation|natural]], hence in physics jargon: non-covariant) choices of [[foliation]] of spacetime by [[Cauchy surfaces]]. But if a canonical phase space exists, then time evolution of initial value data is an [[isomorphism]] from the "canonical" to the "covariant" phase space.
+
+
+\begin{imagefromfile}
+    "file_name": "CanonicalAndCovariantPhaseSpace-240124.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 
 For a system described by [[Lagrangian]] mechanics, the covariant phase space comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _[[reduced phase space]]_ is a [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
 
