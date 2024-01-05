@@ -33,7 +33,7 @@ Often one considers a parameterization of this by [[initial value data]] of fiel
 
 1. "[[canonical coordinates]]": the value of the [[field (physics)|fields]] themselves, on the Cauchy surface 
 
-1. "[[canonical coordinates]]": essentially the time derivatives of the [[field (physics)|fields]], on the Cauchy surface.
+1. "[[canonical momenta]]": essentially the temporal [[derivatives]] of the [[field (physics)|fields]], on the Cauchy surface.
 
 The "covariant" in "covariant phase space" is to indicate that it is obtained without any (necessarily un-[[natural transformation|natural]], hence in physics jargon: non-covariant) choices of [[foliation]] of spacetime by [[Cauchy surfaces]]. But if a canonical phase space exists, then time evolution of initial value data is an [[isomorphism]] from the "canonical" to the "covariant" phase space.
 
