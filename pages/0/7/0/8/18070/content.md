@@ -1181,7 +1181,7 @@ $$
   \omega_{i j}
   \;\;
   \in
-  H^2
+  H^{D-1}
   \Big(
     \underset{
       {}^{\{1, \cdots, n\}}
@@ -1258,8 +1258,8 @@ Hence:
 
 =--
 
-This is due to [Cohen 76](#Cohen76), following  [Arnold 69](#Arnold69), [Cohen 73](#Cohen73). See also [Félix-Tanré 03, Section 2](#FelixTanre03)
-[Lambrechts-Tourtchine 09, Section 3](#LambrechtsTourtchine09).
+This is due to [Cohen 1976](#Cohen76), following  [Arnold 1969](#Arnold69) and [Cohen 1073](#Cohen73). See also [Félix & Tanré 2003, Section 2](#FelixTanre03);
+[Lambrechts & Tourtchine 2009, Section 3](#LambrechtsTourtchine09).
 
 See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohomology](Fulton-MacPherson+operad#deRhamCohomology)_.
 
