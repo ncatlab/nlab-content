@@ -17,9 +17,9 @@
 
 A _higher-order logic_ is any [[logic]] which features _higher-order predicates_, which are [[predicates]] of predicates or of operations.  If we think of a predicate as a [[function]] to [[truth values]], then a higher-order predicate is a function on a [[power set]] or a [[function set]].
 
-[[type theory|Typed]] higher-order logic may be called higher-order type theory.  Typed higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
+[[type theory|Typed]] higher-order logic may be called higher-order type theory. Typed higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
 
-Higher-order logic in general could be thought of as a [[first order theory]] with [[dependent types]]. There is a [[type]] $V$ called the [[domain of discourse]], and for each type $T$ and each term $t:T$, a [[power set|type of predicates on $T$]] $\mathcal{P}(T)$ whose terms $P(t):\mathcal{P}(T)(t)$ are propositions dependent on $t$. The system $(\mathcal{U}, V:\mathcal{U}, \mathcal{P}:\mathcal{U}\rightarrow\mathcal{U})$ consisting of the [[type universe]] $\mathcal{U}$, the domain of discourse $V$, and the power type functor $\mathcal{P}$ is a [[natural numbers object]]. 
+There are also examples of [[dependent type theory|dependently typed]] higher-order logics. One example of a dependently typed higher-order logic is a [[dependent type theory]] with a separate [[type]] [[judgment]], [[identity types]], [[dependent sum types]], [[dependent product types]], [[weak function extensionality]], a [[type of all propositions]], and a [[natural numbers type]]. This uses the [[propositions as some types]] interpretation of [[dependent type theory]].
 
 ## Related concepts
 
