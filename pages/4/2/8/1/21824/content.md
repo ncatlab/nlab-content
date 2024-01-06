@@ -1,7 +1,9 @@
 
 * [personal page](https://ymsc-strings.github.io/people/babak.html)
 
-* [YMSC page](https://ymsc.tsinghua.edu.cn/en/info/1032/1214.htm)
+* [YMSC institute page](https://ymsc.tsinghua.edu.cn/en/info/1032/1214.htm)
+
+* [YMSC research group page](https://ymsc-strings.github.io/people-faculty.html)
 
 * [BIMSA page](https://www.bimsa.cn/newsinfo/581931.html)
 
