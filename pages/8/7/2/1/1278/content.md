@@ -464,7 +464,7 @@ The suggestion that differential cohomology is naturally the intrinsic [[cohomol
 
 and the observation, working with [[sheaves of spectra]], that indeed every [[stable homotopy type]] in a [[cohesive (∞,1)-topos]] canonically sits inside a [[differential cohomology diagram]] is due to 
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_,  J. Homotopy Relat. Struct. 11, 1–66 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_,  J. Homotopy Relat. Struct. **11** (2016) 1-66 &lbrack;[arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5)&rbrack;
 
 Discussion in the generality of differential [[non-abelian cohomology]]:
 
