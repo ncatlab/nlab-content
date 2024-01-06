@@ -30,7 +30,7 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 * Hisham Sati, _[[Geometric and topological structures related to M-branes]]_, 
   
-  part I, Proc. Symp. Pure Math. 81 (2010), 181-236 ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), 
+  part I, in: *Superstrings, Geometry, Topology, and $C^{\ast}$-algebras*, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arXiv.org/abs/1001.5020), [ams:pspum/081](http://www.ams.org/books/pspum/081)&rbrack;, 
 
   part _II: Twisted $String$ and $String^c$ structures_, J. Australian Math. Soc. 90 (2011), 93-108 ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419)); 
 
