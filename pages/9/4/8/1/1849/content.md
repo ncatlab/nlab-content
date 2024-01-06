@@ -879,16 +879,13 @@ The [[shifted C-field flux quantization condition]] was originally proposed in
 
 Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] include the following:
 
-* {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https:
-//doi.org/10.1017/CBO9780511721489))
-
+* {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489)&rbrack;
 
 A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- and its cancellation -- is in
 
-* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics, Volume 263, Number 1, 89-132, ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7))
+* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics, Volume 263, Number 1, 89-132, &lbrack;[arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
  
-
-A summary and review of this is in 
+A summary and review of this:
 
 * [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_ ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
 
@@ -898,20 +895,25 @@ The discussion in [[twisted differential c-structures|twisted nonabelian differe
 
 * {#FiSaSc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_ Advances in Theoretical and Mathematical Physics, Volume 18, Number 2 (2014) p. 229?321   ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277), [doi:10.4310/ATMP.2014.v18.n2.a1](https://dx.doi.org/10.4310/ATMP.2014.v18.n2.a1))
 
-Discussion with [[Dirac charge quantization]] of the C-field in [[twisted Cohomotopy]]:
+Discussion with [[Dirac charge quantization]] of the C-field in [[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]):
 
-* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_, Communications in Mathematical Physics **377** (2020) 1961-2025 &lbrack;[arXiv:1904.10207](https://arxiv.org/abs/1904.10207), [doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2)&rbrack;
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. **384** (2021) 403–432  &lbrack;[arXiv:1906.07417](https://arxiv.org/abs/1906.07417), [doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0)&rbrack;
 
-and in [[equivariant Cohomotopy]]:
+surveyed in
 
-* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
- 
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §12 of: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+
+and in the generality of [[orbifold]] [[spacetimes]], in [[equivariant Cohomotopy]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_, J. Geometry and Physics, **156** (2020) 103775 &lbrack;[arXiv:1909.12277](https://arxiv.org/abs/1909.12277), [doi:10.1016/j.geomphys.2020.103775](https://doi.org/10.1016/j.geomphys.2020.103775)&rbrack;
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], pp. 99 of: _[[schreiber:Proper Orbifold Cohomology]]_ &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
 Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]):
 
-* [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], _Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities_, Nucl.Phys.B535:242-292,1998 ([arXiv:hep-th/9806106](http://arxiv.org/abs/hep-th/9806106))
+* [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], _Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities_, Nucl. Phys. B **535** (1998) 242-292 &lbrack;[arXiv:hep-th/9806106](http://arxiv.org/abs/hep-th/9806106)&rbrack;
 
 * [[Eric Bergshoeff]], [[Mees de Roo]], [[Olaf Hohm]], _Can dual gravity be reconciled with E11?_, 	Phys. Lett.  B **675** (2009) 371-376 &lbrack;[arXiv:0903.4384](http://arxiv.org/abs/0903.4384)&rbrack;
 
@@ -928,11 +930,31 @@ and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] 
 * [[Mauricio Romo]], _Aspects of ABJM orbifolds with discrete torsion_, J. High Energ. Phys. (2011) 2011 ([arXiv:1011.4733](https://arxiv.org/abs/1011.4733))
 
 
-
 ### Duality-symmetric formulation
 
 [[!include self-duality for pregeometric C-field -- references]]
 
+
+### C-Field gauge algebra
+ {#ReferencesCFieldGaugeAlgebra}
+
+The gauge [[dg-Lie algebra]] of the C-field ($[v_3, v_3] = v_6$):
+
+* [Cremmer, Julia, Lu & Pope 1998 (2.6)](#CremmerJuliaLuPope)
+
+* I.V. Lavrinenko, H. Lu, [[Christopher N. Pope]], [[Kellogg S. Stelle]], (3.4) in: *Superdualities, Brane Tensions and Massive IIA/IIB Duality*, Nucl. Phys. B **555** (1999) 201-227 &lbrack;[arXiv:hep-th/9903057](https://arxiv.org/abs/hep-th/9903057), <a href="https://doi.org/10.1016/S0550-3213(99)00307-7">doi:10.1016/S0550-3213(99)00307-7</a>&rbrack;
+
+* [[Jussi Kalkkinen]], [[Kellogg S. Stelle]], (75) of: *Large Gauge Transformations in M-theory*, J. Geom. Phys. **48** (2003) 100-132 &lbrack;[arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081), <a href="https://doi.org/10.1016/S0393-0440(03)00027-5">doi:10.1016/S0393-0440(03)00027-5</a>&rbrack;
+
+* [[Igor A. Bandos]], [[Alexei J. Nurmagambetov]], [[Dmitri P. Sorokin]], (86) in: *Various Faces of Type IIA Supergravity*, Nucl.Phys. B **676** (2004) 189-228 &lbrack;[arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153), [doi:10.1016/j.nuclphysb.2003.10.036](https://doi.org/10.1016/j.nuclphysb.2003.10.036)&rbrack;
+
+* [[Hisham Sati]], (4.9) in: *Geometric and topological structures related to M-branes*, in *Superstrings, Geometry, Topology, and $C^\ast$-algebras*, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arXiv.org/abs/1001.5020), [ams:pspum/081](http://www.ams.org/books/pspum/081)&rbrack;
+
+and identifying it with the rational [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (the [[rational homotopy theory|rational Quillen model]] ) of the [[4-sphere]] (cf. *[[schreiber:Hypothesis H]]*):
+
+* [[Hisham Sati]], [[Alexander Voronov]], (13) in: *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
+
+* [[Hisham Sati]], [[Urs Schreiber]], (22) in *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
 [[!redirects C3-field]]
 [[!redirects C-field]]
