@@ -230,6 +230,12 @@ From [SS 19c](#SS19c):
 ## References
  {#References}
 
+Introduction and survey:
+
+* {#IntroductionToHypothsisH} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Introduction to Hypothesis H]]*.
+
+More references:
+
 * [Motivation by results in rational Cohomotopy](#ReferencesInRational)
 
 * [Formulation in full Cohomotopy](#ReferencesFormulationInFullCohomotopyTheory)
