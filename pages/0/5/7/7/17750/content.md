@@ -29,7 +29,7 @@ $$
   0 = X_0 \hookrightarrow X_1 \hookrightarrow \cdots \hookrightarrow X_{n-1} \hookrightarrow X_n = X
 $$
 
-such that at each stage $i$ the [[quotient]] $X_i/X_{i-1}$ (i.e. the [[coimage]] of the [[monomorphism]] $X_{i-1} \hookrightarrow X_i$) is a [[simple object]] of $\mathcal{C}$.
+such that at each stage $i$ the [[quotient]] $X_i/X_{i-1}$ (i.e. the [[cokernel]] of the [[monomorphism]] $X_{i-1} \hookrightarrow X_i$) is a [[simple object]] of $\mathcal{C}$.
 
 If a Jordan-H&#246;lder sequence for $X$ exists at all, then $X$ is said to be of _finite length_. 
 
