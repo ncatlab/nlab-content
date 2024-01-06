@@ -198,6 +198,20 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent a
 
 ## Properties
 
+### Universal property of dependent product types
+
+The **universal property of dependent product types** states that for all types $A$ and type families $x:A \vdash B(x)$, there is a family of functions 
+
+$$\pi_A:\prod_{x:A} \left(\prod_{x:A} B(x)\right) \to B(x)$$
+
+such that for any other type $C$ and family of functions $f:\prod_{x:A} C \to B(x)$, there is a unique function $c:C \to \prod_{x:A} B(x)$ such that 
+
+$$\prod_{x:A} \prod_{y:C} \pi_A(x)(c(y)) =_{B(x)} f(x)(y)$$
+
+If there is a [[type universe]] $U$, then one could wrap this into a single [[axiom]]. 
+
+$$\mathrm{up}_{A, B}:\prod_{C:U} \prod_{f:\prod_{x:A} C \to B(x)} \exists!c:C \to \prod_{x:A} B(x).\prod_{x:A} \prod_{y:C} \pi_A(x)(c(y)) =_{B(x)} f(x)(y)$$
+
 ### Typal computation and uniqueness rules
 
 The typal computation rule for function types is provable from the other four typal type formers of function types. Given type $A$, type family $x:A \vdash B(x)$ and dependent function $f:\prod_{x:A} B(x)$, we have, by the elimination rule and the introduction rule, a dependent function $\lambda x:A.f(x):\prod_{x:A} B(x)$, which by the uniqueness rules of dependent product types are equal to each other 
@@ -888,3 +902,10 @@ On the [[categorical semantics]] of [[dependent product types]] as *[[relative a
 [[!redirects Π types a la Tarski]]
 
 [[!redirects graph of a dependent function]]
+
+[[!redirects universal property of dependent product types]]
+[[!redirects universal property of dependent function types]]
+[[!redirects universal property of Pi-types]]
+[[!redirects universal property of Pi types]]
+[[!redirects universal property of Π-types]]
+[[!redirects universal property of Π types]]
