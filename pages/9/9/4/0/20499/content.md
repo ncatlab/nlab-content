@@ -59,7 +59,7 @@ The resemblence of the first summand of the term to the [[Whitehead integral for
 
 which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this terminology includes
 
-* {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
+* {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. **48** (2003) 100-132 &lbrack;[arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081), <a href="https://doi.org/10.1016/S0393-0440(03)00027-5">doi:10.1016/S0393-0440(03)00027-5</a>&rbrack;
 
 * Shan Hu, [[Dimitri Nanopoulos]], _Hopf-Wess-Zumino term in the effective action of the 6d, $(2, 0)$ field theory revisted_, JHEP 1110:054 (2011) &lbrack;[arXiv:1110.0861](https://arxiv.org/abs/1110.0861), <a href="https://doi.org/10.1007/JHEP10(2011)054">doi:10.1007/JHEP10(2011)054</a>&rbrack;
 
