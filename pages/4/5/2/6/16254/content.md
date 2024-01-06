@@ -3,6 +3,8 @@ Kellogg Stelle is a professor of theoretical [[physics]] at Imperial College Lon
 
 * [webpage](http://www.imperial.ac.uk/people/k.stelle/)
 
+* [ResearchGate page](https://www.researchgate.net/profile/Kellogg-Stelle)
+
 ## Selected writings
 
 On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
@@ -30,8 +32,11 @@ On the work of [[Mike Duff]]:
 **478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[BPS charge]]
 
 category: people
+
+[[!redirects Kellogg S. Stelle]]
+
