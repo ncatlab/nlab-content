@@ -31,8 +31,8 @@ a
 \arrow[rr, "f_t"', bend right=80, "" {name=B, above} ]
 \arrow[r, "t"']
 &a 
-\arrow[Rightarrow, "\lambda",  to=B]
-\arrow[Rightarrow, "\alpha",  to=A]
+\arrow[Rightarrow, "\lambda", shorten >= 0.8ex, shorten <=0.4ex,  to=B]
+\arrow[Rightarrow, "\alpha", shorten >= 1ex, shorten <=0.4ex,  to=A]
 \arrow[rr, "r", bend left ]
 \arrow[r, "f_t"']
 &a_t
