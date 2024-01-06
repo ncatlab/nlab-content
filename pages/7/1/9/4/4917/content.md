@@ -24,6 +24,22 @@
 Given a [[monad]] $t \colon a \to a$ in a [[2-category]] $K$, the **Kleisli object** $a_t$ of $t$ is, if it exists, the [[universal property|universal]] right $t$-[[module over a monad|module]] or $t$-opalgebra.  Equivalently, $a_t$ [[representable functor|represents]] the functor $RMod(-,t)$ that takes an object $x$ of $K$ to the category of right $t$-modules $a \to x$.
 
 This means that there is a morphism $f_t \colon a \to a_t$ and a 2-cell $\lambda \colon f_t t \Rightarrow f_t$ that induce an [[isomorphism]] $K(a_t,x) \cong RMod(x,t)$: given a right $t$-module $r \colon a \to x, \alpha \colon r t \to r$, there is a unique morphism $a_t \to x$ whose composite with $f_t$ (respectively $\lambda$) is equal to $r$ (resp. $\alpha$).
+\begin{center}
+\begin{tikzcd}
+a 
+\arrow[rrr, "r", bend left=60, "" {name=A, xshift=-6.5ex, below} ]
+\arrow[rr, "f_t"', bend right=80, "" {name=B, above} ]
+\arrow[r, "t"']
+&a 
+\arrow[Rightarrow, "\lambda",  to=B]
+\arrow[Rightarrow, "\alpha",  to=A]
+\arrow[rr, "r", bend left ]
+\arrow[r, "f_t"']
+&a_t
+\arrow[r, dashed, "g"']
+& x
+\end{tikzcd}
+\end{center}
 
 ## Examples
 
