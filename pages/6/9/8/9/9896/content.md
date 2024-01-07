@@ -1,4 +1,12 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
 ## Related concepts
 
 * [[Bekenstein-Hawking entropy]]
