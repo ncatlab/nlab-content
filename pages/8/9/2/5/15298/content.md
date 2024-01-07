@@ -76,7 +76,7 @@ Discussion of [[twisted differential K-theory]] along these lines:
 
 A more component-based definition was given in
 
-* {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, Algebr. Geom. Topol. Volume 19, Number 4 (2019), 1631-1710. ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231), [euclid:euclid.agt/1566439272](https://projecteuclid.org/euclid.agt/1566439272))
+* {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, Algebr. Geom. Topol. Volume 19, Number 4 (2019), 1631-1710. ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231), [euclid:agt/1566439272](https://projecteuclid.org/euclid.agt/1566439272))
 
 A proof that the definition of [Bunke-Nikolaus 14](#BunkeNikolaus14) is a special case of that of [Schreiber 13, Sec. 4.2.1](#Schreiber13) is due to
 
