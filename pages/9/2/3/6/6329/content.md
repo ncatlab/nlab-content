@@ -26,7 +26,7 @@
 
 * In the __Schr&#246;dinger picture__, states are [[propagator|propagated]] through [[time]], while observables are held fixed; the axiomatic formalization of this is given by [[cobordism category]] [[representations]] in [[FQFT]].
 
-* The __[[Dirac (interaction) picture]]__ is a mixture of these two approaches: dynamics is split into a [[free system|free]] (or otherwise [[solvable system|solvable]]) part and an [[perturbation theory|interaction or perturbation]]; one of these is take to affect the states, the other the observables.
+* The __[[Dirac (interaction) picture]]__ is a mixture of these two approaches: dynamics is split into a [[free field theory|free]] (or otherwise [[solvable system|solvable]]) part and an [[perturbation theory|interaction or perturbation]]; one of these is take to affect the states, the other the observables.
 
 The pictures are named after those physicists ([[Werner Heisenberg]], [[Erwin Schrödinger]], and [[Paul Dirac]]) who first used or popularised these approaches to quantum physics.
 
@@ -35,7 +35,7 @@ The pictures are named after those physicists ([[Werner Heisenberg]], [[Erwin Sc
 
 ### With global time
 
-Let us assume a global notion of [[time]], say a [[background field|fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
+Let us assume a global notion of [[time]], say a [[background field|fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time] [[coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
 
 Because this is a picture of [[dynamics]], states or observables (as appropriate to the picture) will vary through time.  We therefore have a [[time evolution]] operator $U(t,t')$ between any two times $t,t'$; actually, we need consider only $U(t) \coloneqq U(t,0)$, since $U(t,t') = U(t) \circ U(t')^{-1}$.
 
