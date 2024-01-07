@@ -29,7 +29,7 @@ Furthermore, most structures traditionally involving [[predicates]] or [[relatio
 
 Dependent type theory support various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]]. 
 
-* One can add a [[von Neumann universe]] to the dependent type theory and work entirely in the von Neumann universe for [[material set theory]]
+* One can add a [[cumulative hierarchy]] to the dependent type theory and work entirely in the cumulative hierarchy for [[material set theory]]
 
 * One can add a [[category of sets]] to the dependent type theory and work entirely in the category of sets for [[structural set theory]]
 
