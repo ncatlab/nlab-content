@@ -97,6 +97,10 @@ See the [references below](#ReferencesDivergenceConvergence) for details. The ma
 
   * [[non-perturbative effect]]
 
+  * [[soliton]], [[instanton]]
+
+  * [[Borel resummation]], [[resurgence theory]]
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string%20theory%20FAQ#NonConvergenceOfPerturbationSeries)
 
 ## References
