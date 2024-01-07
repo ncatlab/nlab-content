@@ -73,6 +73,8 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 * [[fiber bundles in physics]]
 
+* [[non-perturbative quantum field theory]]
+
 * [[monopole]]
 
   * [[Dirac monopole]], [[Yang monopole]]
