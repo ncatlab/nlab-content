@@ -1,5 +1,6 @@
 
 ## Polyakov gauge/string duality
+ {#PolyakovGaugeStringDualitySection}
 
 Key ideas underlying what is now known as *[[AdS-CFT correspondence|holographic]] [[duality in string theory|duality in]] [[string theory]]* and specifically as *[[AdS-QCD correspondence|holographic QCD]]* (see also at *[[holographic light front QCD]]*) were preconceived by [[Alexander Polyakov]] (cf. historical reminiscences in [Polyakov (2008)](#Polyakov08)) under the name *[[gauge/string duality]]*, in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] ([[Wilson lines]]) between [[quarks]] as dynamical [[strings]].
 
