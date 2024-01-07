@@ -960,7 +960,7 @@ Assume then that a category $\mathcal{C}$ with suitable WFSs has been chosen, fo
     \,.
   $$
 
-  So the term elimination rule says that the interpretaton $A \to A^I$ of $a : A \vdash r(a) : Id_A (a,a)$ has the [[left lifting property]] against all fibrations, hence that $A \to A^I$ is to be interpreted as an acyclic cofibration.
+  So the term elimination rule says that the interpretation $A \to A^I$ of $a : A \vdash r(a) : Id_A (a,a)$ has the [[left lifting property]] against all fibrations, hence that $A \to A^I$ is to be interpreted as an acyclic cofibration.
 
  
 
