@@ -28,7 +28,7 @@ The type theory has [[judgments]]
 
 * $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-* $i \; \mathrm{index}$, that $i$ is a universe index, 
+* $i \; \mathrm{level}$, that $i$ is a universe level, 
 
 * $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
 
@@ -38,29 +38,29 @@ and consists of the formal [[signature (in logic)|signature]] and [[inference ru
 
 Now, we introduce the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a **Russell universe** or **universe à la Russell**, whose terms are the types themselves. Russell universes are formalized with the following rules:
 
-$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash \mathrm{Lift}_{i, j}(A):U_{s(i)}}\mathrm{lifting}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{\Gamma \vdash \mathrm{Lift}_{i, j}(A):U_{s(i)}}\mathrm{lifting}$$
 
 In addition, we have rules for contexts which state that one could add typing judgments to the list of contexts:
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
 ### With a type judgment for each universe
 
-One could also define Russell universes [[à la Coquand]], in that the type theory has a type judgment for each universe $U$. Using the dependent type theory with no separate type judgment, instead of having only one term judgment $a:A$, for index $i$ and type $A:U_i$, we instead have an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every index $i$, indicating that $A$ is a type with level $i$, in addition to the [[term]] judgments $a:A$. Then, one has the following rules for Russell universes à la Coquand: 
+One could also define Russell universes [[à la Coquand]], in that the type theory has a type judgment for each universe $U$. Using the dependent type theory with no separate type judgment, instead of having only one term judgment $a:A$, for level $i$ and type $A:U_i$, we instead have an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every level $i$, indicating that $A$ is a type with level $i$, in addition to the [[term]] judgments $a:A$. Then, one has the following rules for Russell universes à la Coquand: 
 
-$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i \; \mathrm{type}_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A \; \mathrm{type}_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Lift}(A) \; \mathrm{type}_{s(i)}}\mathrm{lifting}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash U_i \; \mathrm{type}_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A \; \mathrm{type}_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Lift}(A) \; \mathrm{type}_{s(i)}}\mathrm{lifting}$$
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A:U_i} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A \; \mathrm{type}_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A:U_i} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A \; \mathrm{type}_i}$$
 
 In addition, we have rules for contexts which state that one could add typing judgments to the list of contexts:
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
 One could derive from these rules the above rules for Russell universes and context extension
 
-$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{\Gamma \vdash \mathrm{Lift}(A):U_{s(i)}}\mathrm{lifting}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{\Gamma \vdash \mathrm{Lift}(A):U_{s(i)}}\mathrm{lifting}$$
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
 ### With a single separate type judgment
 
@@ -98,17 +98,17 @@ But none of this are problems in [[Book HoTT]] as the formers for every type hav
 
 ## Analogues in set theory
 
-There are analogues of cumulative Russell universes [[à la Coquand]] in [[set theory]]. Instead of having a single set theory, one has a whole collection of set theories which embed into each other, with indices indicating which level the set theory lies on. 
+There are analogues of cumulative Russell universes in [[set theory]]. 
 
-### With a separate set judgment for each set theory
+### With a single set judgment
 
-One formal definition of a set theory with cumulative Russell universes [[à la Coquand]] is as follows:
+One formal definition of a set theory with cumulative Russell universes is as follows:
 
 The set theory has [[judgments]] 
 
 * $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-* $\kappa \; \mathrm{index}$, that $\kappa$ is a level of set theory, 
+* $\kappa \; \mathrm{level}$, that $\kappa$ is a universe level, 
 
 * $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
 
@@ -116,11 +116,33 @@ The set theory has [[judgments]]
 
 and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $\kappa \lt \kappa^+$ is true for all indices $\kappa$. 
 
-This allows us to add an infinite number of [[set]] [[judgments]], one set judgment $A \; \mathrm{set}_\kappa$ for every index $\kappa$, indicating that $A$ is a set with level $\kappa$, as well as an infinite number of [[membership relations]] $x \in_\kappa A$, one for each set judgment $\mathrm{set}_\kappa$. Then, one has the following [[inference rules]] for cumulative Russell universes [[à la Coquand]]: 
+Now, we introduce a single [[set]] [[judgment]] $A \; \mathrm{set}$ which says that $A$ is a set, as well as the membership relation $a \in A$, which says that $a$ in the set $A$. We introduce a special kind of set called a **cumulative Russell universe** or **cumulative universe à la Russell**, which formalized with the following rules:
 
-$$\frac{\Gamma \vdash \kappa \; \mathrm{index}}{\Gamma \vdash V_\kappa \; \mathrm{set}_{\kappa^+}} \quad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash A \; \mathrm{set}_{\kappa^+}}$$
+$$\frac{\Gamma \vdash \kappa \; \mathrm{level}}{\Gamma \vdash V_\kappa \; \mathrm{set}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{level}}{\Gamma \vdash V_\kappa \in V_{\kappa^+} \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set} \quad \Gamma \vdash A \in V_\kappa \; \mathrm{true}}{\Gamma \vdash A \in V_{\kappa^+} \; \mathrm{true}}\mathrm{cumul}$$
 
-$$\frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash A \; \mathrm{set}_\kappa}$$
+### With a separate set judgment for each set theory
+
+There are also analogues of cumulative Russell universes [[à la Coquand]] in [[set theory]]. Instead of having a single set theory, one has a whole collection of set theories which embed into each other, with indices indicating which level the set theory lies on. 
+
+One formal definition of a set theory with cumulative Russell universes [[à la Coquand]] is as follows:
+
+The set theory has [[judgments]] 
+
+* $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
+
+* $\kappa \; \mathrm{level}$, that $\kappa$ is a level of set theory, 
+
+* $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
+
+* $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
+
+and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $\kappa \lt \kappa^+$ is true for all indices $\kappa$. 
+
+This allows us to add an infinite number of [[set]] [[judgments]], one set judgment $A \; \mathrm{set}_\kappa$ for every level $\kappa$, indicating that $A$ is a set with level $\kappa$, as well as an infinite number of [[membership relations]] $x \in_\kappa A$, one for each set judgment $\mathrm{set}_\kappa$. Then, one has the following [[inference rules]] for cumulative Russell universes [[à la Coquand]]: 
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{level}}{\Gamma \vdash V_\kappa \; \mathrm{set}_{\kappa^+}} \quad \frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash A \; \mathrm{set}_{\kappa^+}}$$
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash A \; \mathrm{set}_\kappa}$$
 
 This says that each $V_\kappa$ is a [[set]] which satisfies a [[reflection principle]]. 
 
