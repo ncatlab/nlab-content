@@ -31,7 +31,7 @@
 
 Where an ordinary [[category]] has a [[hom-set]], an [[(∞,1)-category]] has an [[∞-groupoid]] of morphisms between any two objects, a _hom-space_.
 
-There are several ways to _present_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]] or even a [[simplicial model category]]. In all of these presentations, given two objects $X, Y \in C$, there is a way to construct a [[simplicial sets]] $\mathbb{R}\mathbf{C}(X,Y)$ that presents the hom-[[∞-groupoid]] $\mathbf{C}(X,Y)$. This simplicial set -- or rather its [[homotopy type]] -- is called the 
+There are several ways to _present_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]] or even a [[simplicial model category]]. In all of these presentations, given two objects $X, Y \in C$, there is a way to construct a [[simplicial set]] $\mathbb{R}\mathbf{C}(X,Y)$ that presents the hom-[[∞-groupoid]] $\mathbf{C}(X,Y)$. This simplicial set -- or rather its [[homotopy type]] -- is called the 
 _derived hom space_ or  _homotopy function complex_ and denoted $\mathbf{R}Hom(X,Y)$ or similarly.
 
 ## Presentations
