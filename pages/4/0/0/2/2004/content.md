@@ -69,8 +69,26 @@ $$
 (which may be thought of as the [[universal property|universal]] $T$-module) with a [[left adjoint]] [[free functor]] $F^T$ such that the monad $U^T F^T$ arising from the adjunction is isomorphic to $T$.
 
 =--
+### Eilenberg--Moore object
 
-More generally, for $t \colon a \to a$ is a monad in any [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to a$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
+More generally, for $t \colon a \to a$ is a monad in any [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to a$ and a 2-cell $\beta \colon t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $h \colon x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
+
+\begin{center}
+\begin{tikzcd}
+x
+\arrow[rrr, "m", bend left=60, "" {name=A, xshift=6ex, below} ]
+\arrow[rr, "m", bend left ]
+\arrow[r, dashed, "h"']
+&a^t
+\arrow[rr, "u^t"', bend right=80, "" {name=B, above} ]
+\arrow[r, "u^t"']
+&a
+\arrow[Rightarrow, "\lambda", shorten >= 0.8ex, shorten <=0.4ex, to=A]
+\arrow[Rightarrow, "\beta"', shorten >= 0.4ex, shorten <=0.4ex,  to=B]
+\arrow[r, "t"']
+& a
+\end{tikzcd}
+\end{center}
 
 ### (Non)example
 
@@ -123,13 +141,21 @@ Observe that via the inclusion $C_T \hookrightarrow C^T$ every $T$-algebra [[rep
 
 The $T$-algebras in $C$ are equivalently those presheaves on the category of free $T$-algebras whose restriction along the free functor is [[representable functor|representable]] in $C$. In other words, the Eilenberg--Moore category $C^T$ is the (1-category theoretic) [[pullback]]
 
-$$
-  \array{
-    C^T & \to & [C_T^{op}, Set] \\
-    \downarrow & (pb) & \downarrow \mathrlap{[F_T^{op},Set]} \\
-    C & \underset{Y}{\to} & [C^{op}, Set]
-  }
-$$
+\begin{center}
+ \begin{tikzcd}
+ \mathcal C^T
+ \arrow[d, ""']
+ \arrow[r, ""]
+\arrow[dr, phantom,  , very near start, "\lrcorner"]
+ & {[\mathcal C_T^{op}, \mathbf{Set}]}
+ \arrow[d, "{[F_T^{op}, \mathbf{Set}]}"]
+ \\
+ \mathcal C
+ \arrow[r, "Y"']
+ &
+ {[\mathcal C^{op}, \mathbf{Set}]}
+  \end{tikzcd}
+\end{center}
 
 of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda embedding]] $Y$ of $C$. (The top arrow is given by a functor isomorphic to the nerve of the inclusion of the Kleisli category into the Eilenberg--Moore category.)
 
