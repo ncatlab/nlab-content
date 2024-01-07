@@ -37,6 +37,8 @@ Dependent type theory support various [[foundations of mathematics]] via the [[p
 
 * One can add a [[Russell type of all propositions]] and a [[natural numbers type]] and work in the dependent type theory itself for [[higher-order logic]].
 
+On the other hand, if one only has a [[Tarski type of all propositions]], then propositions and subsingletons are not the same thing, and one is following the philosophy that **propositions are codes for subsingletons**, similar to [[set theory]] with the [[axiom schema of separation]]. 
+
 ## Related concepts
 
 [[!include notions of type]]
