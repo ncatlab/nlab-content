@@ -27,7 +27,7 @@ The type theory has [[judgments]]
 
 * $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-* $i \; \mathrm{index}$, that $i$ is a universe index, 
+* $i \; \mathrm{level}$, that $i$ is a universe level, 
 
 * $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
 
@@ -35,21 +35,21 @@ The type theory has [[judgments]]
 
 and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
 
-This allows us to add an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every index $i$, indicating that $A$ is a type with level $i$, as well as [[term]] judgments $a:A$. Then, one has the following [[inference rules]] for Coquand universes: 
+This allows us to add an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every level $i$, indicating that $A$ is a type with level $i$, as well as [[term]] judgments $a:A$. Then, one has the following [[inference rules]] for Coquand universes: 
 
-$$\frac{\Gamma \vdash i \; \mathrm{index}}{\Gamma \vdash U_i \; \mathrm{type}_{s(i)}} \quad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Lift}_i(A) \; \mathrm{type}_{s(i)}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash U_i \; \mathrm{type}_{s(i)}} \quad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Lift}_i(A) \; \mathrm{type}_{s(i)}}$$
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Code}(A):U_i} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{El}(B) \; \mathrm{type}_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Code}(A):U_i} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{El}(B) \; \mathrm{type}_i}$$
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{El}_i(\mathrm{Code}_i(A)) \equiv A \; \mathrm{type}_i} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{Code}_i(\mathrm{El}(B)) \equiv B:U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{El}_i(\mathrm{Code}_i(A)) \equiv A \; \mathrm{type}_i} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{Code}_i(\mathrm{El}(B)) \equiv B:U_i}$$
 
 There are also weak versions of Coquand universes, where one uses [[identifications]] and [[equivalences of types]] instead of [[judgmental equality]]:
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \beta_{U_i}^A:\mathrm{El}_i(\mathrm{Code}_i(A)) \simeq A} \qquad \frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash B:U_i}{\Gamma \vdash \eta_{U_i}(B):\mathrm{Code}_i(\mathrm{El}(B)) =_{U_i} B}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \beta_{U_i}^A:\mathrm{El}_i(\mathrm{Code}_i(A)) \simeq A} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash B:U_i}{\Gamma \vdash \eta_{U_i}(B):\mathrm{Code}_i(\mathrm{El}(B)) =_{U_i} B}$$
 
 The [[univalence axiom]] for Coquand universes states that for all $A:U_i$ and $B:U_i$, [[type transport|transport]] across $\mathrm{Lift}_i(\mathrm{El}_i(-))$ is an [[equivalence of types]]
 
-$$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}(\mathrm{transport}_{x:U_i.\mathrm{Lift}_i(\mathrm{El}_i(x))}(A, B))}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}(\mathrm{transport}_{x:U_i.\mathrm{Lift}_i(\mathrm{El}_i(x))}(A, B))}$$
 
 ## Analogues in set theory
 
@@ -61,7 +61,7 @@ The set theory has [[judgments]]
 
 * $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-* $\kappa \; \mathrm{index}$, that $\kappa$ is a level of set theory, 
+* $\kappa \; \mathrm{level}$, that $\kappa$ is a level of set theory, 
 
 * $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
 
@@ -69,13 +69,13 @@ The set theory has [[judgments]]
 
 and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $\kappa \lt \kappa^+$ is true for all indices $\kappa$. 
 
-This allows us to add an infinite number of [[set]] [[judgments]], one set judgment $A \; \mathrm{set}_\kappa$ for every index $\kappa$, indicating that $A$ is a set with level $\kappa$, as well as an infinite number of [[membership relations]] $x \in_\kappa A$, one for each set judgment $\mathrm{set}_\kappa$. Then, one has the following [[inference rules]] for Coquand universes: 
+This allows us to add an infinite number of [[set]] [[judgments]], one set judgment $A \; \mathrm{set}_\kappa$ for every level $\kappa$, indicating that $A$ is a set with level $\kappa$, as well as an infinite number of [[membership relations]] $x \in_\kappa A$, one for each set judgment $\mathrm{set}_\kappa$. Then, one has the following [[inference rules]] for Coquand universes: 
 
-$$\frac{\Gamma \vdash \kappa \; \mathrm{index}}{\Gamma \vdash V_\kappa \; \mathrm{set}_{\kappa^+}} \quad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{Code}_{\kappa}(A) \; \mathrm{set}_{\kappa^+}}$$
+$$\frac{\Gamma \vdash \kappa \; \mathrm{level}}{\Gamma \vdash V_\kappa \; \mathrm{set}_{\kappa^+}} \quad \frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{Code}_{\kappa}(A) \; \mathrm{set}_{\kappa^+}}$$
 
-$$\frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{Code}_{\kappa}(A) \in_{\kappa^+} V_\kappa \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash \mathrm{El}_{\kappa}(A) \; \mathrm{set}_\kappa}$$
+$$\frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{Code}_{\kappa}(A) \in_{\kappa^+} V_\kappa \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash \mathrm{El}_{\kappa}(A) \; \mathrm{set}_\kappa}$$
 
-$$\frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{El}_{\kappa}(\mathrm{Code}_{\kappa}(A)) = A \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash \mathrm{Code}_{\kappa}(\mathrm{El}_{\kappa}(A)) = A \; \mathrm{true}}$$
+$$\frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{El}_{\kappa}(\mathrm{Code}_{\kappa}(A)) = A \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash \mathrm{Code}_{\kappa}(\mathrm{El}_{\kappa}(A)) = A \; \mathrm{true}}$$
 
 This says that each $V_\kappa$ is a [[set]] which satisfies a [[reflection principle]]. 
 
