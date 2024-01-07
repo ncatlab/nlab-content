@@ -66,7 +66,7 @@ This means that we can now simply insert links like [[(∞,1)-categories]] and b
 
 ##Caveat
 
-The `?` symbol included in the link is not obtained via the itex syntax `$\infty$`. To actually include non-ASCII symbols in links, you either need to be an expert at unicode *or* simply find the '?' symbol already displayed somewhere, copy it, and paste the symbol into the edit box. To see what I mean, you can edit this page to look at the source code for the link: [[(∞,1)-categories]].
+The `∞` symbol included in the link is not obtained via the itex syntax `$\infty$`. To actually include non-ASCII symbols in links, you either need to be an expert at unicode *or* simply find the '∞' symbol already displayed somewhere, copy it, and paste the symbol into the edit box. To see what I mean, you can edit this page to look at the source code for the link: [[(∞,1)-categories]].
 
 ##Undoing a Redirect
 
