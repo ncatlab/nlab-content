@@ -63,7 +63,13 @@ In lack of a general prescription for non-perturbative [[quantization]], authors
 Of course, special among all smooth functions are the [[analytic functions]], whose Taylor series does already capture the full function, at least in some [[open neighbourhood]].
 Accordingly, among QFTs that one can write to paper (but which are unlikely to describe anything in the real world) there are interacting examples (cite...) whose perturbative description already exhausts their full non-perturbative content, in that their [[Feynman perturbation series]] actually [[convergence|converges]], or at least has a [[positive number|positive]] [[radius of convergence]].
 
-**Axiomatization and construction.** Among *axiomatizations* of non-perturbative field theory is *[[algebraic quantum field theory]]* (AQFT) in terms of [[local nets of observables]] with values in [[C-star algebra|$C^\ast$-algebras]]. Among *construction* methods of AQFT has been "[[constructive field theory]]", which aims to make rigorous [[analysis|analytic]] sense of [[path integrals]] in simple cases. This has worked for [[scalar field theory]] such as [[phi^4 theory|$\phi^4$-theory]]  in spacetime dimension 2 and 3, but (so far) not in dimension 4.
+**Axiomatization and construction.** Among *axiomatizations* of non-perturbative field theory is 
+
+1. *[[algebraic quantum field theory]]* (AQFT) in terms of [[local nets of observables]] with values in [[C-star algebra|$C^\ast$-algebras]] (axiomatizing the [[Heisenberg picture]] of [[quantum physics]]),
+
+1. *[[functorial quantum field theory]]* in terms of [[cobordism category]] [[linear representation|representations]] (axiomatizing the [[Schrödinger picture]] of [[quantum physics]]).
+
+Among *construction* methods of AQFT has been "[[constructive field theory]]", which aims to make rigorous [[analysis|analytic]] sense of [[path integrals]] in simple cases. This has worked for [[scalar field theory]] such as [[phi^4 theory|$\phi^4$-theory]]  in spacetime dimension 2 and 3, but (so far) not in dimension 4.
 
 There are also some partial tools available from [[quantum mechanics]] such as [[strict deformation quantization]] ([Rieffel 1989](C-star+algebraic+deformation+quantization#Rieffel89)). Here it may be noteworthy that the established construction of [[perturbative quantum field theory]] has been understood to be an example of the systematic process of [[quantization]] called *[[formal deformation quantization]]*, specifically as an example of [[Fedosov deformation quantization]] ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)). Since the non-perturbative version of [[formal deformation quantization]] is _[[strict C*-algebraic deformation quantization]]_ the latter might be a useful perspective on the problem of non-perturbative QFT (cf. e.g. [SS23](#SS23QOQF)).
 
@@ -78,7 +84,7 @@ There are also some partial tools available from [[quantum mechanics]] such as [
 
 * for pure [[scalar field theory]] (most famously [[phi^n-theory|$\phi^4$-theory]], cf. [Serone 2018](#Serone18)) 
 
-  (Examples of non-perturbative [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] are claimed in [Buchholtz & Fredenhagen 2020](AQFT#BuchholtzFredenhagen20), at least in the guise of [[local nets of observables|local nets]] of [[quantum observables]], pending the construction (or existence) of compatible [[vacuum states]]). 
+  > (Examples of non-perturbative [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] are claimed in [Buchholtz & Fredenhagen 2020](AQFT#BuchholtzFredenhagen20), at least in the guise of [[local nets of observables|local nets]] of [[quantum observables]], pending the construction (or existence) of compatible [[vacuum states]]). 
 
 **Key application: Confinement/Mass-gap in QCD/Yang-Mills.** A [[non-perturbative effect]] of paramount importance in [[experiment|experimentally]] observed [[quantum physics]] (and invisible to [[perturbative QFT|perturbative]] [[QCD]]) is the [[confinement]] and the [[mass gap]] of [[quantum chromodynamics]] ([[Yang-Mills theory]] with [[simple Lie group|simple]] [[gauge group]]).
 
