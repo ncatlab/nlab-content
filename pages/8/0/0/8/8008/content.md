@@ -93,7 +93,7 @@ Textbook account:
 
 The notion of strict $C^\ast$-algebraic deformation quantization was introduced in:
 
-* [[Marc A. Rieffel]], *Deformation quantization of Heisenberg manifolds*, Communications in Mathematical Physics **122** (1989) 531–562 &lbrack;[doi:10.1007/BF01256492](https://doi.org/10.1007/BF01256492)&rbrack;
+* {#Rieffel89} [[Marc A. Rieffel]], *Deformation quantization of Heisenberg manifolds*, Communications in Mathematical Physics **122** (1989) 531–562 &lbrack;[doi:10.1007/BF01256492](https://doi.org/10.1007/BF01256492)&rbrack;
 
   > (motivated by [[noncommutative tori]])
 
