@@ -93,6 +93,8 @@ The potential for the [[inflaton field]] in [[chaotic cosmic inflation]] is a $\
 
 * [[perturbative quantum field theory]]
 
+* [[non-perturbative quantum field theory]]
+
 * [[Higgs field]]
 
 * [[inflaton field]]
@@ -131,9 +133,13 @@ See also
 
 [[!redirects phi^n theory]]
 [[!redirects phi^n theories]]
+[[!redirects phi^n-theory]]
+[[!redirects phi^n-theories]]
 
 [[!redirects Phi^n theory]]
 [[!redirects Phi^n theory]]
+[[!redirects Phi^n-theory]]
+[[!redirects Phi^n-theory]]
 
 [[!redirects phi^4 theory]]
 [[!redirects phi^4 theories]]
