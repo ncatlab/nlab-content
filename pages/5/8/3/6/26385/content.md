@@ -51,6 +51,34 @@ The [[univalence axiom]] for Coquand universes states that for all $A:U_i$ and $
 
 $$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}(\mathrm{transport}_{x:U_i.\mathrm{Lift}_i(\mathrm{El}_i(x))}(A, B))}$$
 
+## Analogues in set theory
+
+There are analogues of Coquand universes in [[set theory]]. Instead of having a single set theory, one has a whole collection of set theories which embed into each other, with indices indicating which level the set theory lies on. 
+
+One formal definition of a set theory with Coquand universes is as follows:
+
+The set theory has [[judgments]] 
+
+* $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
+
+* $\kappa \; \mathrm{index}$, that $\kappa$ is a level of set theory, 
+
+* $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
+
+* $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
+
+and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $\kappa \lt \kappa^+$ is true for all indices $\kappa$. 
+
+This allows us to add an infinite number of [[set]] [[judgments]], one set judgment $A \; \mathrm{set}_\kappa$ for every index $\kappa$, indicating that $A$ is a set with level $\kappa$, as well as an infinite number of [[membership relations]] $x \in_\kappa A$, one for each set judgment $\mathrm{set}_\kappa$. Then, one has the following [[inference rules]] for Coquand universes: 
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{index}}{\Gamma \vdash V_\kappa \; \mathrm{set}_{\kappa^+}} \quad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{Code}_{\kappa}(A) \; \mathrm{set}_{\kappa^+}}$$
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{Code}_{\kappa}(A) \in_{\kappa^+} V_\kappa \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash \mathrm{El}_{\kappa}(A) \; \mathrm{set}_\kappa}$$
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash \mathrm{El}_{\kappa}(\mathrm{Code}_{\kappa}(A)) = A \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash \mathrm{Code}_{\kappa}(\mathrm{El}_{\kappa}(A)) = A \; \mathrm{true}}$$
+
+This says that each $V_\kappa$ is a [[set]] which satisfies a [[reflection principle]]. 
+
 ## Related concepts
 
 * [[type universe]]
@@ -58,6 +86,8 @@ $$\frac{\Gamma \vdash i \; \mathrm{index} \quad \Gamma \vdash A:U_i \quad \Gamma
   * [[Russell universe]]
 
   * [[Tarski universe]]
+
+* [[reflection principle]]
 
 ## References
 
