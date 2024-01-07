@@ -334,7 +334,7 @@ See also:
 * Eugenia Colafranceschi, [[Xi Dong]], [[Donald Marolf]], Zhencheng Wang, *Algebras and Hilbert spaces from gravitational path integrals: Understanding Ryu-Takayanagi/HRT as entropy without invoking holography* &lbrack;[arXiv:2310.02189](https://arxiv.org/abs/2310.02189)&rbrack;
 
 
-
+* Filip Landgren, Arvind Shekar, *Islands and entanglement entropy in $d$-dimensional curved backgrounds* &lbrack;[arXiv:2401.01653](https://arxiv.org/abs/2401.01653)&rbrack;
 
 ### Via holographic tensor networks and quantum codes
 
