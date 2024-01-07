@@ -21,7 +21,7 @@
 
 ## Idea
 
-One paradigm of [[dependent type theory]] is **propositions as some types**, in which propositions are identified with particular types, but not all types are regarded as propositions. Generally, the propositions are the "types with at most one [[term]]", i.e. the [[h-propositions]] or [[subsingletons]], and can thus also be called **propositions as subsingletons**. This contrasts with the [[propositions as types]] paradigm, where all types are regarded as propositions. 
+One paradigm of [[dependent type theory]] is **propositions as some types**, in which propositions are identified with particular types, but not all types are regarded as propositions. Generally, the propositions are the "types with at most one [[term]]", i.e. the [[h-propositions]] or [[subsingletons]], and the paradigm can thus also be called **propositions as subsingletons**. This contrasts with the [[propositions as types]] paradigm, where all types are regarded as propositions. 
 
 Propositions as some types is the paradigm usually used in the [[internal logic]] of [[categories]] such as [[toposes]]. In this case, the type-theoretic operations on types either restrict to the propositions to give logical operations (for [[conjunction]], [[implication]], and the [[universal quantifier]]), or have to be "reflected" therein (for [[disjunction]] and the [[existential quantifier]]). The reflector operation is called a [[bracket type]]. The [[law of double negation]] in [[classical mathematics]] similarly has to be restricted to propositions, unlike the case in the [[propositions as types]] paradigm - where the law of double negation is represented by a [[global choice operator]]. 
 
@@ -37,7 +37,7 @@ Dependent type theory support various [[foundations of mathematics]] via the [[p
 
 * One can add a [[Russell type of all propositions]] and a [[natural numbers type]] and work in the dependent type theory itself for [[higher-order logic]].
 
-On the other hand, if one only has a [[Tarski type of all propositions]], then propositions and subsingletons are not the same thing, and one is following the philosophy that **propositions are codes for subsingletons**, similar to [[set theory]] with the [[axiom schema of separation]]. 
+On the other hand, if one only has a [[Tarski type of all propositions]] for [[higher-order logic]], then propositions and subsingletons are not the same thing, and one is following the philosophy of **propositions as codes for subsingletons**, similar to [[set theory]] with the [[axiom schema of separation]]. 
 
 ## Related concepts
 
