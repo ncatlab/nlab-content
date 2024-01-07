@@ -367,9 +367,37 @@ Usually, hierarchies of Tarski universes are indexed by the type of [[natural nu
 
 ## Examples
 
-The [[empty type]], [[unit type]], [[boolean domain]], and [[FinSet]] are all regular univalent Tarski universes. The [[types of propositions]] in a type theory are univalent Tarski universes: they model a dependent type theoretic model of [[propositional logic]] with [[function types]], [[product types]], [[disjunction]] [[higher inductive types]], [[empty type]], and [[unit type]]. 
+### Cumulative hierarchy
+
+Any [[cumulative hierarchy]] $V$ with a [[membership relation]] $\in$ is a Tarski universe with universal type family 
+
+$$x:V \vdash \mathrm{El}(x) \coloneqq \sum_{y:V} y \in x$$
+
+This is not a univalent universe if the von Neumann universe satisfies the set-theoretic [[axiom of extensionality]], which states that 
+
+$$\prod_{x:V} \prod_{y:V} (x =_V y) \simeq \prod_{z:V} (z \in x) \simeq (z \in y)$$
+
+However, the axiom of extensionality implies that $V$ is an [[h-sets]], since the membership relation is an [[h-proposition]], which in turn implies that each $\mathrm{El}(x)$ is an [[h-set]]. 
+
+Examples include [[ZFC]] and its large cardinal, choice-less, constructive, predicative, and non-foundational/anti-foundational variants, such as [[ZF]], [[Zermelo set theory]], [[CZF]], [[IZF]], [[Mac Lane set theory]], [[Kripke–Platek set theory]], [[Tarski-Grothendieck set theory]], [[New Foundations]], [[Mostowski set theory]], and so forth. 
+
+### Well-pointed categories
+
+Any [[well pointed category]] $\mathcal{E}$ with [[hom-set]] type family $\mathrm{hom}(x, y)$ is a Tarski universe with universal type family 
+
+$$x:V \vdash \mathrm{El}(x) \coloneqq \mathrm{hom}(1, y)$$
+
+where $1:\mathcal{E}$ is the [[terminal object]] and [[indecomposable object|indecomposable]] [[projective object|projective]] [[separator]] of the category $\mathcal{E}$. 
+
+Examples of this include [[ETCS]]. 
+
+### Concrete categories
 
 Every [[concrete category]] and every [[concrete dagger category]] is a Tarski universe, as given a concrete category or concrete dagger category $C$ by definition for each object $A:Ob(C)$ there is an [[h-set]] $El(A)$. This includes models of [[Mike Shulman]]'s [[SEAR]], which is a concrete [[power allegory]], as well as [[ETCS with elements]], which is a concrete [[elementary topos]]. 
+
+### Other examples
+
+The [[empty type]], [[unit type]], [[boolean domain]], and [[FinSet]] are all regular univalent Tarski universes. The [[types of propositions]] in a type theory are univalent Tarski universes: they model a dependent type theoretic model of [[propositional logic]] with [[function types]], [[product types]], [[disjunction]] [[higher inductive types]], [[empty type]], and [[unit type]]. 
 
 ## See also
 
