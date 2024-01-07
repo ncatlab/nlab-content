@@ -96,6 +96,34 @@ Instead, usually the inference rules for sequential colimits require that the ty
 
 But none of this are problems in [[Book HoTT]] as the formers for every type have the same universe level as the type to be put in the universe. 
 
+## Analogues in set theory
+
+There are analogues of cumulative Russell universes [[à la Coquand]] in [[set theory]]. Instead of having a single set theory, one has a whole collection of set theories which embed into each other, with indices indicating which level the set theory lies on. 
+
+### With a separate set judgment for each set theory
+
+One formal definition of a set theory with cumulative Russell universes [[à la Coquand]] is as follows:
+
+The set theory has [[judgments]] 
+
+* $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
+
+* $\kappa \; \mathrm{index}$, that $\kappa$ is a level of set theory, 
+
+* $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
+
+* $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
+
+and consists of the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $\kappa \lt \kappa^+$ is true for all indices $\kappa$. 
+
+This allows us to add an infinite number of [[set]] [[judgments]], one set judgment $A \; \mathrm{set}_\kappa$ for every index $\kappa$, indicating that $A$ is a set with level $\kappa$, as well as an infinite number of [[membership relations]] $x \in_\kappa A$, one for each set judgment $\mathrm{set}_\kappa$. Then, one has the following [[inference rules]] for cumulative Russell universes [[à la Coquand]]: 
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{index}}{\Gamma \vdash V_\kappa \; \mathrm{set}_{\kappa^+}} \quad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash A \; \mathrm{set}_{\kappa^+}}$$
+
+$$\frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_\kappa}{\Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}} \qquad \frac{\Gamma \vdash \kappa \; \mathrm{index} \quad \Gamma \vdash A \; \mathrm{set}_{\kappa^+} \quad \Gamma \vdash A \in_{\kappa^+} V_\kappa \; \mathrm{true}}{\Gamma \vdash A \; \mathrm{set}_\kappa}$$
+
+This says that each $V_\kappa$ is a [[set]] which satisfies a [[reflection principle]]. 
+
 ## See also
 
 * [[Tarski universe]]
@@ -103,6 +131,8 @@ But none of this are problems in [[Book HoTT]] as the formers for every type hav
 * [[Coquand universe]]
 
 * [[two-level type theory]]
+
+* [[reflection principle]]
 
 ## References
 
