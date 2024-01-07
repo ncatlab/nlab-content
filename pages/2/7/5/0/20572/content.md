@@ -10,9 +10,6 @@ On the interpretation of [[tensor networks]] encoding [[holographic entanglement
 
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
 
-Review:
-
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_ ([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
 
 On the [[black hole firewall problem]]:
 
@@ -24,7 +21,12 @@ On [[AdS/CFT]]-duality for [[AdS2-CFT1|$AdS_2/CFT_1$]] via [[Jackiw-Teitelboim g
 
 Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
 
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_, J. High Energ. Phys. **2020** 13 (2020) &lbrack;[arXiv:1911.12333](https://arxiv.org/abs/1911.12333)&rbrack;
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], [[Edgar Shaghoulian]], [[Amirhossein Tajdini]], _Replica Wormholes and the Entropy of Hawking Radiation_, J. High Energ. Phys. **2020** 13 (2020) &lbrack;[arXiv:1911.12333](https://arxiv.org/abs/1911.12333)&rbrack;
+
+Review:
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], [[Edgar Shaghoulian]], [[Amirhossein Tajdini]], _The entropy of Hawking radiation_, Rev. Mod. Phys. **93** 35002 (2021) &lbrack;[arXiv:2006.06872](https://arxiv.org/abs/2006.06872), [doi:10.1103/RevModPhys.93.035002](https://doi.org/10.1103/RevModPhys.93.035002)&rbrack;
+
 
 ## Activity
 
