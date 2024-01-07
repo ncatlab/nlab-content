@@ -18,12 +18,13 @@ The notion [[duality|dual]] to [[operad]].
 
 Cooperads are to operads as [[coalgebras]] are to [[algebras]].
 
+Note that a cooperad is not the same notion as a one-object **comulticategory**, which is a structure akin to a [[multicategory]], except in which multimorphisms have unary domain and multiary codomain.
+
 ## References
 
 This appears for instance in 
 
-
-* Ching, _Bar construction for topological operads_ ([pdf](http://dspace.mit.edu/bitstream/handle/1721.1/27881/61212201.pdf?sequence=1))
+* Ching, _Bar construction for topological operads_ ([arXiv:math/0501429](https://arxiv.org/abs/math/0501429))
 
 [[!redirects cooperads]]
 [[!redirects co-operad]]
