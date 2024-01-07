@@ -65,6 +65,8 @@ Some examples of type theories with a hierarchy of universes are as follows:
 
 * [[coercion]]
 
+* [[reflection principle]]
+
 ## References
 
 The hierarchy of universes is discussed in section 1.3 of:
