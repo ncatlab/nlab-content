@@ -101,6 +101,20 @@ Since each type former is independent of each other, one could also have mixed v
 
 Universes defined internally via [[induction-recursion]] are stricty Tarski. Weakly Tarski universes are easier to obtain in [[semantics]] (see [below](#CategoricalSemantics)): they are somewhat more annoying to use, but probably suffice for most purposes. In [[objective type theory]], there is no [[definitional equality]], so every Tarski universe is weakly Tarski. 
 
+### Other universes
+
+There are other universes which one could use. For example, any model of [[material set theory]] $V$ or [[structural set theory]] $\mathcal{E}$ would suffice. Material set theories become Tarski universes by the type family 
+
+$$x:V \vdash \mathrm{El}(x) \coloneqq \sum_{y:V} y \in x$$
+
+and structural set theories become Tarski universes by the type family 
+
+$$x:V \vdash \mathrm{El}(x) \coloneqq \mathrm{hom}(1, x)$$
+
+where $1:\mathcal{E}$ is the [[terminal object|terminal]] [[separator]]. 
+
+Thus, in a [[dependent type theory]] with a separate [[type]] [[judgment]], one could simply include inference rules for [[ZFC]] or [[ETCS]]. 
+
 ## Properties
 
 ### Universe enlargement
