@@ -2,6 +2,7 @@
 
 
 ### Entanglement island proposal for BH information paradox
+ {#EntanglementIslandProposalForBHInformationParadox}
 
 #### Claims
 
@@ -9,7 +10,11 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 * [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_,  J. High Energ. Phys. **2022** 205 (2022) \[<a href="https://doi.org/10.1007/JHEP05(2020)013">doi:10.1007/JHEP05(2020)013</a>, [arXiv:1911.11977](https://arxiv.org/abs/1911.11977)\]
 
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_, J. High Energ. Phys. **2020** 13 (2020)  \[<a href="https://doi.org/10.1007/JHEP05(2020)013">doi:10.1007/JHEP05(2020)013</a>, [arXiv:1911.12333](https://arxiv.org/abs/1911.12333)\]
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], [[Edgar Shaghoulian]], [[Amirhossein Tajdini]], _Replica Wormholes and the Entropy of Hawking Radiation_, J. High Energ. Phys. **2020** 13 (2020)  \[<a href="https://doi.org/10.1007/JHEP05(2020)013">doi:10.1007/JHEP05(2020)013</a>, [arXiv:1911.12333](https://arxiv.org/abs/1911.12333)\]
+
+Review aimed at readers with minimal background:
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], [[Edgar Shaghoulian]], [[Amirhossein Tajdini]], _The entropy of Hawking radiation_, Rev. Mod. Phys. **93** 35002 (2021) \[<a href="https://doi.org/10.1103/RevModPhys.93.035002">doi:10.1103/RevModPhys.93.035002</a>, [arXiv:2006.06872](https://arxiv.org/abs/2006.06872)\]
 
 See also:
 
@@ -19,7 +24,7 @@ See also:
 
 * Anna Karlsson, _Concerns about the replica wormhole derivation of the island conjecture_ ([arXiv:2101.05879](https://arxiv.org/abs/2101.05879))
 
-* Harvendra Singh, *Islands and Icebergs contribute nothing to the Page curve (System with a symmetrical bath)* &lbrack;[arXiv:2210.13970](https://arxiv.org/abs/2210.13970)&rbrack;
+* Harvendra Singh, *Islands and Icebergs contribute nothing to the Page curve (System with a symmetrical bath)* \[<a href="https://arxiv.org/abs/2210.13970">arXiv:2210.13970</a>\]
 
 Argument that the would-be proof of the island conjecture secretly works only for *massive* gravity:
 
@@ -54,4 +59,12 @@ See also:
 * Saskia Demulder, Alessandra Gnecchi, Ioannis Lavdas, [[Dieter Lüst]], *Islands and Light Gravitons in type IIB String Theory* \[<a href="https://arxiv.org/abs/2204.03669">arXiv:2204.03669</a>\]
 
 * [[Emil Martinec]]: "Thus far, picturesque evocations of quantum wormholes remain largely just that – picturesque evocations." ([2nd Nov 2022](https://www.math.columbia.edu/~woit/wordpress/?p=13113#comment-241963))
+
+Argument that discussion of the issue in the toy example of 2d [[JT gravity]] does not actually generalize to higher dimensions:
+
+* {#LandgrenShekar24} Filip Landgren, Arvind Shekar, *Islands and entanglement entropy in $d$-dimensional curved backgrounds* \[<a href="https://arxiv.org/abs/2401.01653">arXiv:2401.01653</a>\]
+
+
+
+
 
