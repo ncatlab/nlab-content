@@ -35,7 +35,11 @@ The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]
 
 * [[V_cb puzzle]]
 
+* [[quarks]], [[confinement]]
+
 * [[weakly interacting massive particle]]
+
+
 
 ## References
 
@@ -44,9 +48,6 @@ See also the references at:
 * [[QCD]]
 
 * [[electroweak field]], [[electroweak symmetry breaking]]
-
-
-
 
 
 See also:
