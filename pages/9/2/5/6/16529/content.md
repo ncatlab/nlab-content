@@ -39,7 +39,7 @@ In [[type theory]] this principle is embodied by a [[type of types]] ([Martin-L&
 
 * [[universe]]
 
-* [[type of types]]
+* [[Russell universe]], [[Coquand universe]]
 
 * [[cumulative hierarchy]]
 
