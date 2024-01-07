@@ -887,6 +887,8 @@ $$
 
 ## Related concepts
 
+* [[phi^n-theory|$\phi^n$-theory]]
+
 * [[pseudo-scalar field]]
 
 * [[wave equation]], [[Klein-Gordon equation]]
