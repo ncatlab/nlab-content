@@ -15,29 +15,83 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The construction of [[quantum field theory]] is often considered only in the [[infinitesimal neighbourhood]] of the [[classical field theory|classical]] [[free field theory]]; this is called _[[perturbative quantum field theory]]_. Since this very coarse (but remarkably successful) perturbative concept of quantum field theory has come to often be considered by default, one speaks of _non-perturbative quantum field theory_ in order to amplify that the full theory is meant to be considered, not just the perturbative approximation.
+The description of [[quantum field theory]] is traditionally mostly considered only in the [[infinitesimal neighbourhood]] of the underlying [[classical field theory|classical]] and [[free field theory]] As such these descriptions are referred to as _[[perturbative quantum field theory]]_ (pQFT) since they describe only small (in fact: infinitesimal) "[[perturbations]]" of a (hypothetical) free and classical field, instead of the fully interacting quantum fields.
 
-More concretely, if we think of generic ([[Lagrangian field theory|Lagrangian]]) [[quantum field theories]] as parameterized by [[Planck's constant]] and a given [[coupling constant]], then perturbative QFT concerns just the [[infinitesimal neighbourhood]] of the origin in this parameter space, while all the rest of the space is the region of non-perturbative QFT:
+Since this very coarse (but remarkably successful) perturbative concept of quantum field theory has come to often be considered by default, one speaks of _non-perturbative quantum field theory_ in order to amplify that the full theory is meant to be considered, not just the perturbative approximation.
 
-<center>
-<img src="https://ncatlab.org/nlab/files/NonPerturbativeParameterSpace-230613.jpg" width="360">
-</center>
+\begin{imagefromfile}
+    "file_name": "NonPerturbativeParameterSpace-230613.jpg",
+    "float": "right",
+    "width": 360,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [SS24, p. 3](#SS24IHH))"
+\end{imagefromfile}
 
-An important [[non-perturbative effect]] in experimentally observed [[quantum physics]] that is invisible to [[perturbative QFT]] is the [[confinement]] and the [[mass gap]] of [[quantum chromodynamics]] ([[Yang-Mills theory]] with [[simple Lie group|simple]] [[gauge group]]).
+{#BeyondInfinitesimalNeighbourhood} **Beyond the infinitesimal neighbourhood of perturbation theory.** More concretely, if we think of generic ([[Lagrangian field theory|Lagrangian]]) [[quantum field theories]] as parameterized by 
 
-Presently, non-perturbative quantum field theories have been constructed only in simple toy examples, such as for [[free field theories]] (no interaction) or in low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]]) or for [[topological quantum field theories]]. 
+1. [[Planck's constant]]$\;\hbar$, 
 
-Indeed the example of non-perturbative [[quantization of Yang-Mills theory]] (see there) in 4 dimensions, or even just enough of it to find the expected [[mass gap]] of the theory, is listed as one of the open "Millennium Problems" by the Clay Mathematics Institute.
+   expressing the "strength of [[quantum physics|quantum effects]]",
 
-One attempt to construct non-perturbative quantum field theories on [[Minkowski spacetime]] was to make rigorous sense of the [[path integral]] for the [[Wick rotation|Wick-rotated]] Euclidean theory by construction of suitable [[measures]]. This approach is known as "[[constructive quantum field theory]]". It worked for [[scalar field theory]] such as [[phi^4 theory]]  in spacetime dimension 2 and 3, but (so far) not in dimension 4.
+1. [[coupling constants]]$\;g$, 
 
-It may be noteworthy that the established construction of [[perturbative quantum field theory]] has been understood to be an example of the systematic process of [[quantization]] called [[formal deformation quantization]], specifically as an example of [[Fedosov deformation quantization]] ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)). Since the non-perturbative version of [[formal deformation quantization]] is _[[strict C*-algebraic deformation quantization]]_ the latter might be a useful perspective on the problem.
+   expressing the strength of [[interactions]] of [[field (physics)|fields]],
+
+then [[perturbative QFT]] is concerned (just) with computing the [[Feynman perturbation series]] for [[scattering amplitudes]] as (just) a [[formal power series]] in these [[variables]], and since this typically has a *vanishing* [[radius of convergence]] (see [there](perturbative+quantum+field+theory#ReferencesNonConvergenceOfThePerturbationSeries)) it concerns just the [[infinitesimal neighbourhood]] of the origin in this parameter space (the infinitesimal [[halo]] of a single point) -- all the rest of the parameter space is the region of non-perturbative quantum field theory.
+
+**As perturbation with non-perturbative effects.**
+Passage from the perturbative to the non-perturbative description of QFT involves taking account of *[[non-perturbative effects]]* invisible to perturbation theory. 
+
+These arise notably from the presence of [[soliton|solitonic]] field configurations ([[instanton|instantonic]], after [[Wick rotation]]): Such solitonic fields are invisible to perturbation theory because  they are not continuously [[connected topological space|connected]] to the [[vacuum]] field configuration, since they are constituted by topologically non-trivial structures, e.g. [[gauge potentials]] which are [[connection on a bundle|connections]] on a topologically non-trivial [[principal bundle]] on [[spacetime]] (such as [[Dirac monopoles]] or [[Yang-Mills instantons]], see at *[[fiber bundles in physics]]*). 
+
+In lack of a general prescription for non-perturbative [[quantization]], authors try to make educated guesses about the would-be non-perturbative effects from inspection of the behaviour of the formal [[Feynman perturbation series]]: popular methods here go by the name *[[Borel resummation]]* and *[[resurgence theory]]*.
+
+
+**Theory and reality.** Beware the usual habit in theoretical physics jargon of conflating the map with the territory (the field *theory* with the actual fields "in nature" that the theory means to describe): Real quantum fields in nature are always non-perturbative (the value of $\hbar$ and $g$ is not contained in the infinitesimal neightbourhood of the origin -- this is a purely theoretical/computational concept) so that their description by [[perturbative QFT]] is, by design, just an approximation of their complete nature. 
+
+
+**As non-alalyticity.** This is just as with [[smooth functions]] and their description by their [[Taylor series]] of their [[derivatives]] at a given origin: The Taylor series is a "perturbative description" of the full smooth function, which in contrast is the full non-perturbative object. Indeed the [[Feynman perturbation series]] in [[pQFT]] are imagined to be just such Taylor series of actual smooth functions (e.g. [[scattering amplitudes]]) in $\hbar$ and $g$ and the goal in non-perturbative QFT is to provide more information on "[[non-perturbative effects]]", hence on the actual functions (scattering amplitudes) at all or at least some positive values of $\hbar$ and/or $g$.
+
+Of course, special among all smooth functions are the [[analytic functions]], whose Taylor series does already capture the full function, at least in some [[open neighbourhood]].
+Accordingly, among QFTs that one can write to paper (but which are unlikely to describe anything in the real world) there are interacting examples (cite...) whose perturbative description already exhausts their full non-perturbative content, in that their [[Feynman perturbation series]] actually [[convergence|converges]], or at least has a [[positive number|positive]] [[radius of convergence]].
+
+**Axiomatization and construction.** Among *axiomatizations* of non-perturbative field theory is *[[algebraic quantum field theory]]* (AQFT) in terms of [[local nets of observables]] with values in [[C-star algebra|$C^\ast$-algebras]]. Among *construction* methods of AQFT has been "[[constructive field theory]]", which aims to make rigorous [[analysis|analytic]] sense of [[path integrals]] in simple cases. This has worked for [[scalar field theory]] such as [[phi^4 theory|$\phi^4$-theory]]  in spacetime dimension 2 and 3, but (so far) not in dimension 4.
+
+There are also some partial tools available from [[quantum mechanics]] such as [[strict deformation quantization]] ([Rieffel 1989](C-star+algebraic+deformation+quantization#Rieffel89)). Here it may be noteworthy that the established construction of [[perturbative quantum field theory]] has been understood to be an example of the systematic process of [[quantization]] called *[[formal deformation quantization]]*, specifically as an example of [[Fedosov deformation quantization]] ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)). Since the non-perturbative version of [[formal deformation quantization]] is _[[strict C*-algebraic deformation quantization]]_ the latter might be a useful perspective on the problem of non-perturbative QFT (cf. e.g. [SS23](#SS23QOQF)).
+
+
+{#ExamplesInIdeaSection} **Examples of nonperturbative QFT.** Presently, non-perturbative quantum field theories have been constructed only for simple toy examples, notably:
+
+* for [[free field theories]] (no interaction),
+
+* in low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]], see e.g. at *[[conformal net]]*),
+
+* for [[topological quantum field theories]] (see e.g. at *[[quantization of 3d Chern-Simons theory]]*),
+
+* for pure [[scalar field theory]] (most famously [[phi^n-theory|$\phi^4$-theory]], cf. [Serone 2018](#Serone18)) 
+
+  (Examples of non-perturbative [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] are claimed in [Buchholtz & Fredenhagen 2020](AQFT#BuchholtzFredenhagen20), at least in the guise of [[local nets of observables|local nets]] of [[quantum observables]], pending the construction (or existence) of compatible [[vacuum states]]). 
+
+**Key application.** A [[non-perturbative effect]] of paramount importance in [[experiment|experimentally]] observed [[quantum physics]] (and invisible to [[perturbative QFT]]) is the [[confinement]] and the [[mass gap]] of [[quantum chromodynamics]] ([[Yang-Mills theory]] with [[simple Lie group|simple]] [[gauge group]]).
+
+Indeed, the construction of non-perturbative [[quantization of Yang-Mills theory]] (see there) in 4 dimensions, or even just enough of it to find the expected [[mass gap]] of the theory, is listed as one of the open "Millennium Problems" by the Clay Mathematics Institute (see [there](mass+gap#ReferencesMassGapProblem)).
+
+
+
 
 ## Related concepts
 
-
 * [[non-perturbative effect]]
+
+* [[Borel resummation]], [[resurgence theory]]
 
 * [[strict deformation quantization]]
 
@@ -49,9 +103,10 @@ It may be noteworthy that the established construction of [[perturbative quantum
 
 * [[non-perturbative string theory]]
 
+
 ## References
 
-> (See also references at *[[soliton]]*.)
+> (See also references at *[[non-perturbative effect]]*, *[[soliton]]* and *[[instanton]]*, particularly at *[[Yang-Mills instanton]]*.)
 
 General introduction:
 
@@ -73,6 +128,11 @@ Outlook from the point of view of [[causal perturbation theory]]/[[locally covar
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
+The case of [[scalar field theory]] (such as [[phi^n-theory|$\phi^n$-theory]]):
+
+* {#Serone18} Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ (January 2018) &lbrack;[recording](https://www.youtube.com/watch?v=J4nxvY1rOhI)&
+
+* {#BuchholtzFredenhagen20} [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C^\ast$-algebraic approach to interacting quantum field theories_,  Commun. Math. Phys. **377** (2020) 947–969  &lbrack;[arXiv:1902.06062](https://arxiv.org/abs/1902.06062), [doi:10.1007/s00220-020-03700-9](https://doi.org/10.1007/s00220-020-03700-9)&rbrack;
 
 
 Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
@@ -83,7 +143,11 @@ On non-perturbative [[BV-BRST formalism]]:
 
 * [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
 
+On non-perturbative quantization of topological [[flux]] observables in pure [[higher gauge theory]]:
 
+* {#SS23QOQF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Quantum Observables of Quantized Fluxes]]* &lbrack;[arXiv:2312.13037](https://arxiv.org/abs/2312.13037)&rbrack;
+
+* {#SS24IHH} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Introduction to Hypothesis H]]*
 
 [[!redirects non-perturbative QFT]]
 
