@@ -334,8 +334,6 @@ See also:
 * Eugenia Colafranceschi, [[Xi Dong]], [[Donald Marolf]], Zhencheng Wang, *Algebras and Hilbert spaces from gravitational path integrals: Understanding Ryu-Takayanagi/HRT as entropy without invoking holography* &lbrack;[arXiv:2310.02189](https://arxiv.org/abs/2310.02189)&rbrack;
 
 
-* Filip Landgren, Arvind Shekar, *Islands and entanglement entropy in $d$-dimensional curved backgrounds* &lbrack;[arXiv:2401.01653](https://arxiv.org/abs/2401.01653)&rbrack;
-
 ### Via holographic tensor networks and quantum codes
 
 Relation to [[renormalization]] of [[entanglement]] and [[tensor networks]] is due to 
@@ -476,17 +474,8 @@ Application to [[AdS/QCD]]:
 * Zhibin Li, Kun Xu, Mei Huang, _The entanglement properties of holographic QCD model with a critical end point_ ([arXiv:2002.08650](https://arxiv.org/abs/2002.08650))
 
 
-### Black hole information paradox
 
-Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
-
-* [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_ ([arXiv:1911.11977](https://arxiv.org/abs/1911.11977))
-
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
-
-Nicely reviewed in (aimed at readers with minimal background in this problem):
-
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_					([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
+[[!include entanglement island proposal for black hole paradox -- references]]
 
 
 [[!include weight systems on chord diagrams in physics]]
