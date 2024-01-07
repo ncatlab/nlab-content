@@ -30,9 +30,8 @@ Part of the issue is that confinement is a [[non-perturbative effect]] (e.g [Esp
 
 ## Potential solutions
 
-
-
 ### Via Skyrmions and D4-brane models
+ {#ViaSkyrmions}
 
 A good qualitative and moderate quantitative explanation of confinement in [[quantum chromodynamics]] is found in [[intersecting D-brane models]], specifically in the [[Witten-Sakai-Sugimoto model]] which [[geometric engineering of QFT|geometrically engineers]] [[QCD]] on [[D4-D8 brane bound states]].
 
