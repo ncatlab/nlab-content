@@ -47,7 +47,7 @@ Alternatives include [[sequent calculus]] for logic over untyped theories, such 
 
 Dependent type theory itself supports various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]]. Suppose that a dependent type theory has a separate type judgment as well as [[dependent product types]], [[dependent sum types]], [[identity types]], [[weak function extensionality]], [[propositional truncations]], [[empty type]], [[unit type]], [[sum types]]. All the operations in [[predicate logic]] are derivable from said type formers. Then:
 
-* One can add a [[von Neumann universe]] to the dependent type theory and work entirely in the von Neumann universe for [[material set theory]]
+* One can add a [[cumulative hierarchy]] to the dependent type theory and work entirely in the cumulative hierarchy for [[material set theory]]
 
 * One can add a [[category of sets]] to the dependent type theory and work entirely in the category of sets for [[structural set theory]]
 
