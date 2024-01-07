@@ -244,7 +244,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.6.5]].
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the [[class]] of $n$-truncated morphisms in $\mathbf{H}$ forms the right class in a [[orthogonal factorization system in an (∞,1)-category]]. The left class is that of [[n-connected]] morphisms in $\mathbf{H}$.
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \lt \infty$ the [[class]] of $n$-truncated morphisms in $\mathbf{H}$ forms the right class in a [[orthogonal factorization system in an (∞,1)-category]]. The left class is that of [[n-connected]] morphisms in $\mathbf{H}$.
 
 =--
 
