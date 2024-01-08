@@ -84,14 +84,23 @@ A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant
 
 ### Quantum SW curve
 
+On a kind of [[quantization|quantized]] SW curve:
+
 In relation to [[class S-theories]] and "[[M3-brane]]"-[[defect branes]] inside [[M5-branes]]:
 
 * [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], *Elliptic Quantum Curves of Class $\mathcal{S}_k$*,  J. High Energ. Phys. **2021** 28 (2021) &lbrack;[arXiv:2008.05155](https://arxiv.org/abs/2008.05155), <a href="https://doi.org/10.1007/JHEP03(2021)028">doi:10.1007/JHEP03(2021)028</a>&rbrack;
 
-
 In relation to [[E-strings]] and [[D6-D8-brane bound states]]:
 
 * [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], [[Xin Wang]], *E-string Quantum Curve*, Nuclear Physics B **973** (2021) 115602 &lbrack;[arXiv:2103.16996](https://arxiv.org/abs/2103.16996), [doi:10.1016/j.nuclphysb.2021.115602](https://doi.org/10.1016/j.nuclphysb.2021.115602)&rbrack;
+
+On why the SW-curve should be quantized this way, as seen from [[topological string theory]]:
+
+* [[Mina Aganagic]], [[Robbert Dijkgraaf]], [[Albrecht Klemm]], [[Marcos Marino]], [[Cumrun Vafa]], pp. 7 of: *Topological Strings and Integrable Hierarchies*, Commun. Math. Phys. **261** (2006) 451-516 &lbrack;[arXiv:hep-th/0312085](https://arxiv.org/abs/hep-th/0312085), [doi:10.1007/s00220-005-1448-9](https://doi.org/10.1007/s00220-005-1448-9)&rbrack;
+
+* [[Mina Aganagic]], [[Miranda Cheng]], [[Robbert Dijkgraaf]], Daniel Krefl, [[Cumrun Vafa]], §2 in: *Quantum Geometry of Refined Topological Strings*, J. High Energ. Phys. **2012** 19 (2012) &lbrack;[arXiv:1105.0630](https://arxiv.org/abs/1105.0630), <a href="https://doi.org/10.1007/JHEP11(2012)019">doi:10.1007/JHEP11(2012)019</a>&rbrack;
+
+
 
 
 
