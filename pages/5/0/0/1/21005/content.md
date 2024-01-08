@@ -11,9 +11,13 @@ On [[KK-compactification]] of [[D=6 N=(1,0) SCFT]] on [[Riemann surfaces]] [[4d 
 
 * [[Jin Chen]], [[Babak Haghighat]], [[Shuwei Liu]], [[Marcus Sperling]], _4d $\mathcal{N}=1$ from 6d D-type $\mathcal{N}=(1,0)$_,  J. High Energ. Phys. **2020** 152 (2020) &lbrack;[arXiv:1907.00536](https://arxiv.org/abs/1907.00536), <a href=" https://doi.org/10.1007/JHEP01(2020)152">doi:10.1007/JHEP01(2020)152</a>&rbrack;
 
-
 On [[D=6 N=(1,0) SCFT]] and [[heterotic M-theory on ADE-orbifolds]]:
 
 * Santiago Cabrera, [[Amihay Hanany]], [[Marcus Sperling]], _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
+
+On [[quantum Seiberg-Witten curves]] of [[E-string]]-theories in relation to [[D6-D8-brane bound states]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], [[Xin Wang]], *E-string Quantum Curve*, Nuclear Physics B **973** (2021) 115602 &lbrack;[arXiv:2103.16996](https://arxiv.org/abs/2103.16996), [doi:10.1016/j.nuclphysb.2021.115602](https://doi.org/10.1016/j.nuclphysb.2021.115602)&rbrack;
+
 
 category: people
