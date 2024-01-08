@@ -73,7 +73,7 @@ In [[constructive mathematics]], one sees several definitions of 'compact', whic
 
 In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$ but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
 
-{#InDTT} In [[dependent type theory]], the open-cover definition of 'compact' holds as well, but one has to use the [[inductive covers]] [[higher inductive type]] instead of the usual pointwise definitions of covers ([UFP13, §11.5](#UFP13)). 
+{#InDTT} In [[dependent type theory]], the open-cover definition of 'compact' holds as well, but one has to use the [[higher inductive type|higher]] [[inductive family]] of [[inductive covers]] instead of the usual pointwise definitions of covers ([UFP13, §11.5](#UFP13)). 
 
 
 
