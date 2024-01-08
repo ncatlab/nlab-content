@@ -160,8 +160,6 @@ On the [[Hanany-Witten effect]] for NS5/D6/D8-branes:
 * {#BergshoeffLozanoOrtin98} [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], p. 60 of: *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
 
-
-
 ### In geometric engineering of monopoles
 
 For transversal [[D6-D8-brane bound states]] with an eye towards describing [[Yang-Mills monopoles]]:
@@ -176,6 +174,13 @@ with an emphasis on [[holographic QCD]]:
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
 
 For more see the references at _[[Dp-D(p+2)-brane bound states]]_.
+
+### Relation to Seiberg-Witten curves
+
+On [[quantum Seiberg-Witten curves]] of [[E-string]]-theories in relation to [[D6-D8-brane bound states]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], [[Xin Wang]], *E-string Quantum Curve*, Nuclear Physics B **973** (2021) 115602 &lbrack;[arXiv:2103.16996](https://arxiv.org/abs/2103.16996), [doi:10.1016/j.nuclphysb.2021.115602](https://doi.org/10.1016/j.nuclphysb.2021.115602)&rbrack;
+
 
 [[!redirects D6-D8-brane bound states]]
 
