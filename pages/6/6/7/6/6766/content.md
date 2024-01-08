@@ -12,7 +12,6 @@
 
 > under construction
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -68,7 +67,7 @@ The original articles:
 
 * [[Daniel Friedan]], [[Stephen Shenker]], *The analytic geometry of two-dimensional conformal field theory*, Nuclear Physics B281 (1987) ([pdf](http://www.physics.rutgers.edu/~friedan/papers/Nucl_Phys_B281_509_1987.pdf))
 
-Textbook account, specifically for the [[su(2)|$\mathfrak{su}()2$]]/[[sl(2)|$\mathfrak{sl}(2,\mathbb{Z})$]]-[[WZW model]]:
+Textbook account, specifically for the [[su(2)|$\mathfrak{su}(2)$]]/[[sl(2)|$\mathfrak{sl}(2,\mathbb{Z})$]]-[[WZW model]]:
 
 * [[Philippe Di Francesco]], Pierre Mathieu, David Sénéchal: §15.3.2, §15.4 in: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
 
@@ -84,7 +83,7 @@ and understood in terms of [[anyon statistics]]:
 * {#GuHaghighatLiu21} Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations*, J. High Energ. Phys. **2022** 15 (2022) &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195), <a href="https://doi.org/10.1007/JHEP09(2022)015">doi:10.1007/JHEP09(2022)015</a>&rbrack;
 
 
-The generalization to higher [[genus of a surface|genus]] surfaces: 
+The generalization to higher [[genus of a surface|genus]] [[surfaces]]: 
 
 * D. Bernard, _On the Wess-Zumino-Witten models on the torus_, Nucl. Phys. B 303 77-93 (1988)
 
@@ -124,6 +123,16 @@ In relation to [[hypergeometric functions]] and [[quantum groups]] (for more see
 * [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
 * V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
+
+On KZ-equations controlling [[codimension]]$=2$ [[defect QFT|defects]] in [[D=4 super Yang-Mills theory]]:
+
+* [[Nikita Nekrasov]], *BPS/CFT correspondence V: BPZ and KZ equations from $q q$-characters* &lbrack;[arXiv:1711.11582](https://arxiv.org/abs/1711.11582)&rbrack;
+
+* [[Nikita Nekrasov]], Alexander Tsymbaliuk, *Surface defects in gauge theory and KZ equation*, Letters in Mathematical Physics **112** 28 (2022) &lbrack;[arXiv:2103.12611](https://arxiv.org/abs/2103.12611), [doi:10.1007/s11005-022-01511-8](https://doi.org/10.1007/s11005-022-01511-8)&rbrack;
+
+* Saebyeok Jeong, Norton Lee, [[Nikita Nekrasov]], *Intersecting defects in gauge theory, quantum spin chains, and Knizhnik-Zamolodchikov equations*,  J. High Energ. Phys. **2021** 120 (2021) &lbrack;[arXiv:2103.17186](https://arxiv.org/abs/2103.17186), <a href="https://doi.org/10.1007/JHEP10(2021)120">doi:10.1007/JHEP10(2021)120</a>&rbrack;
+
+
 
 
 See also
