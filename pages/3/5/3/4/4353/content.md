@@ -1,5 +1,5 @@
 
-__John Duskin__ is a [[category theory|category theorist]] from the [[joyalscatlab:North American School of Category Theory]] in the [Buffalo group](http://ncatlab.org/joyalscatlab/published/North+American+School+of+Category+Theory#BuffaloGroup). He is often refered to as **Jack Duskin**.
+__John Duskin__ (?-2020) was a [[category theory|category theorist]] from the [[joyalscatlab:North American School of Category Theory]] in the [Buffalo group](http://ncatlab.org/joyalscatlab/published/North+American+School+of+Category+Theory#BuffaloGroup). He is often refered to as **Jack Duskin**.
 
 
 
