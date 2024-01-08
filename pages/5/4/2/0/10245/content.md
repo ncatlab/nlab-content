@@ -91,6 +91,11 @@ and via [[F-theory]] in
 
 * Robert de Mello Koch, Alastair Paulin-Campbell, Joao P. Rodrigues, _Monopole Dynamics in $\mathcal{N}=2$ super Yang-Mills Theory From a Threebrane Probe_, Nucl. Phys. B559 (1999) 143-164 ([arXiv:hep-th/9903207](https://arxiv.org/abs/hep-th/9903207))
 
+On [[quantum Seiberg-Witten curves]] in relation to [[class S-theories]] and M3-[[defect branes]] inside [[M5-branes]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], *Elliptic Quantum Curves of Class $\mathcal{S}_k$*,  J. High Energ. Phys. **2021** 28 (2021) &lbrack;[arXiv:2008.05155](https://arxiv.org/abs/2008.05155), <a href="https://doi.org/10.1007/JHEP03(2021)028">doi:10.1007/JHEP03(2021)028</a>&rbrack;
+
+
 As [[M5-brane|M5]]-[[probe branes]] in an [AdS7-CFT6](AdS-CFT+correspondence#AdS7CFT6) [[background field|background]] (i.e. in the [[near horizon limit]] of [[black brane|black]] [[M5-branes]]):
 
 * [[Varun Gupta]], *Holographic M5 branes in $AdS_7 \times S^4$*, J. High Energ. Phys. **2021** 32 (2021) &lbrack;[arXiv:2109.08551](https://arxiv.org/abs/2109.08551), <a href="https://doi.org/10.1007/JHEP12(2021)032">doi:10.1007/JHEP12(2021)032</a>&rbrack;
@@ -107,3 +112,6 @@ As [[M5-brane|M5]]-[[probe branes]] in an [AdS7-CFT6](AdS-CFT+correspondence#AdS
 
 [[!redirects M3-brane]]
 [[!redirects M3-branes]]
+
+[[!redirects M3]]
+
