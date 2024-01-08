@@ -27,7 +27,7 @@ More generally, a [[1-morphism]] $f \colon C\to D$ in any [[2-category]] $K$ is 
 ## Properties
 
 
-Every [[fully faithful functor]] is pseudomonic, and every pseudomonic functor is [[conservative functor|conservative]], as well as [[essentially injective]]. In fact, being full on isomorphisms is exactly what essential injectivity means.
+Every [[fully faithful functor]] is pseudomonic, and every pseudomonic functor is [[conservative functor|conservative]], as well as [[essentially injective]].
 
 A functor $F \colon C \to D$ is pseudomonic if and only if the [[commuting square]]
 
