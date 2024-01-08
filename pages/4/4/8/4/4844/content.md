@@ -36,6 +36,13 @@ On [[topological M-theory]]:
 * [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], *Topological M-theory as Unification of Form Theories of Gravity*, Adv. Theor. Math. Phys. **9** (2005) 603-665 &lbrack;[arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073), [doi:10.4310/ATMP.2005.v9.n4.a5](https://dx.doi.org/10.4310/ATMP.2005.v9.n4.a5)&rbrack;
 
 
+On [[topological string theory]] and [[integrable systems]]:
+
+* [[Mina Aganagic]], [[Robbert Dijkgraaf]], [[Albrecht Klemm]], [[Marcos Marino]], [[Cumrun Vafa]], *Topological Strings and Integrable Hierarchies*, Commun. Math. Phys. **261** (2006) 451-516 &lbrack;[arXiv:hep-th/0312085](https://arxiv.org/abs/hep-th/0312085), [doi:10.1007/s00220-005-1448-9](https://doi.org/10.1007/s00220-005-1448-9)&rbrack;
+
+* [[Mina Aganagic]], [[Miranda Cheng]], [[Robbert Dijkgraaf]], Daniel Krefl, [[Cumrun Vafa]], *Quantum Geometry of Refined Topological Strings*, J. High Energ. Phys. **2012** 19 (2012) &lbrack;[arXiv:1105.0630](https://arxiv.org/abs/1105.0630), <a href="https://doi.org/10.1007/JHEP11(2012)019">doi:10.1007/JHEP11(2012)019</a>&rbrack;
+
+
 On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
  
 * {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
@@ -45,7 +52,7 @@ On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Dijkgraaf-Witten theory]]
 
