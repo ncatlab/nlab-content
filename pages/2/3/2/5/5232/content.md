@@ -9,9 +9,11 @@ Antonio Mart&#237;nez Cegarra is a Spanish mathematician, who is in the [Departa
 
 ## Selected writings
 
-On [[n-groups]] and [[homotopy types]]:
+On [[cat-n-groups]] and [[homotopy types]]:
 
-* [[M. Bullejos]], A. M. Cegarra and [[J. Duskin]], On cat$^n$ -groups and homotopy types , J. Pure  Appl. Alg., 86, (1993), 135 &#8211; 154.
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]], [[John W. Duskin]], *On cat$^n$ -groups and homotopy types*, J. Pure 
+Appl. Alg. **86** (1993) 135-154 \[<a href="https://doi.org/10.1016/0022-4049(93)90099-F">doi:10.1016/0022-4049(93)90099-F</a>&rbrack;
+
 
 * [[Pilar Carrasco]] and [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235.
 
