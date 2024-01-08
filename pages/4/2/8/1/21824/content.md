@@ -28,7 +28,14 @@ On [[E-strings]]:
 
 * {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
 
-* {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+and emergence of [[SU(2)]]  [[flavor (particle physics)|flavor]]-[[chiral symmetry|symmetry]] on [[M5-branes]] in [[heterotic M-theory]] (in the [[D=6 N=(1,0) SCFT]] on [[small instantons]] in [[heterotic string theory]]):
+
+* {#GHKKLV15} [[Abhijit Gadde]], [[Babak Haghighat]], [[Joonho Kim]], [[Seok Kim]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP **1802** (2018) 143 &lbrack;[arXiv:1504.04614](https://arxiv.org/abs/1504.04614)&rbrack; 
+
+On [[quantum Seiberg-Witten curves]] of [[E-string]]-theories in relation to [[D6-D8-brane bound states]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], [[Xin Wang]], *E-string Quantum Curve*, Nuclear Physics B **973** (2021) 115602 &lbrack;[arXiv:2103.16996](https://arxiv.org/abs/2103.16996), [doi:10.1016/j.nuclphysb.2021.115602](https://doi.org/10.1016/j.nuclphysb.2021.115602)&rbrack;
+
 
 On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[Riemann surfaces]] [[4d superconformal gauge field theory]]:
 
