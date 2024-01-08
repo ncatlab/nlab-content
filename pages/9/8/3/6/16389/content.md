@@ -232,8 +232,9 @@ and to pure [[electromagnetism]]:
 
 
 ### Application to quantum chromodynamics
+ {#ReferencesApplicationToQCD}
 
-Application to [[QCD]]:
+Application of (discretized) light cone quantization to to [[QCD]]:
 
 * [[G. Peter Lepage]], [[Stanley J. Brodsky]], *Exclusive processes in perturbative quantum chromodynamics*, Phys. Rev. D **22** (1980) 2157 &lbrack;[doi:10.1103/PhysRevD.22.2157](https://doi.org/10.1103/PhysRevD.22.2157)&rbrack;
 
