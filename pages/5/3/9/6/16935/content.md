@@ -8,7 +8,13 @@ On [[Chern-Simons theory as topological string theory]]:
 
 * [[Marcos Marino]], _Chern-Simons Theory and Topological Strings_, Rev. Mod. Phys. 77:675-720, 2005 ([arXiv:hep-th/0406005](https://arxiv.org/abs/hep-th/0406005))
 
-## Related $n$Lab entries
+
+On [[topological string theory]] and [[integrable systems]]:
+
+* [[Mina Aganagic]], [[Robbert Dijkgraaf]], [[Albrecht Klemm]], [[Marcos Marino]], [[Cumrun Vafa]], *Topological Strings and Integrable Hierarchies*, Commun. Math. Phys. **261** (2006) 451-516 &lbrack;[arXiv:hep-th/0312085](https://arxiv.org/abs/hep-th/0312085), [doi:10.1007/s00220-005-1448-9](https://doi.org/10.1007/s00220-005-1448-9)&rbrack;
+
+
+## Related entries
 
 * [[non-perturbative effect]]
 
