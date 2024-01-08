@@ -44,7 +44,7 @@ Also the perspective of [[string theory]] as the dimensional reduction of a conj
 
 ### General
 
-Review includes
+Review:
 
 * {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological strings and their physical applications_, talk at [Simons Workshop in Mathematics and Physics 2004](http://insti.physics.sunysb.edu/conf/simonsworkII/) ([hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178))
 
@@ -52,10 +52,16 @@ Review includes
 
 * Marcel Vonk, _A mini-course on topological strings_ ([arXiv:hep-th/0504147](http://arxiv.org/abs/hep-th/0504147))
 
-
 * [[Andrew Neitzke]], _Nonperturbative topological strings_, 2005 ([pdf](http://people.maths.ox.ac.uk/lmason/Tws/Neitzke.pdf))
 
-The relation to [[topological M-theory]]/the [[topological membrane]] is discussed for instance in
+On the relation to [[integrable systems]]:
+
+* [[Mina Aganagic]], [[Robbert Dijkgraaf]], [[Albrecht Klemm]], [[Marcos Marino]], [[Cumrun Vafa]], *Topological Strings and Integrable Hierarchies*, Commun. Math. Phys. **261** (2006) 451-516 &lbrack;[arXiv:hep-th/0312085](https://arxiv.org/abs/hep-th/0312085), [doi:10.1007/s00220-005-1448-9](https://doi.org/10.1007/s00220-005-1448-9)&rbrack;
+
+* [[Mina Aganagic]], [[Miranda Cheng]], [[Robbert Dijkgraaf]], Daniel Krefl, [[Cumrun Vafa]], *Quantum Geometry of Refined Topological Strings*, J. High Energ. Phys. **2012** 19 (2012) &lbrack;[arXiv:1105.0630](https://arxiv.org/abs/1105.0630), <a href="https://doi.org/10.1007/JHEP11(2012)019">doi:10.1007/JHEP11(2012)019</a>&rbrack;
+
+
+On the relation to [[topological M-theory]]/the [[topological membrane]]:
 
 * [[Jan de Boer]], [[Paul de Medeiros]], Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
 
@@ -70,7 +76,7 @@ See also:
 
 * Lotte Hollands, _Topological Strings and Quantum Curves_ ([arXiv:0911.3413](https://arxiv.org/abs/0911.3413))
 
-* Mina Aganagi&#263;, [[Cumrun Vafa]], _Large N duality, mirror symmetry, and a Q-deformed A-polynomial for knots_, [arxiv/1204.4709](http://arxiv.org/abs/1204.4709)
+* Mina Aganagi&#263;, [[Cumrun Vafa]], _Large $N$ duality, mirror symmetry, and a Q-deformed A-polynomial for knots_, [arxiv/1204.4709](http://arxiv.org/abs/1204.4709)
 
 * Min-xin Huang, _Recent Developments in Topological String Theory_ ([arXiv:1812.03636](https://arxiv.org/abs/1812.03636))
 
