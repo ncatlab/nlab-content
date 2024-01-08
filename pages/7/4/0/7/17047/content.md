@@ -31,6 +31,12 @@ A simple example of an inductive family is the type of vectors Vect n indexed by
 By the identification of [[propositions as types]], inductive families correspond to inductively defined predicates. For example, the [[identity type]] on a type A can be defined inductively by the reflexivity rule stipulating that a is identical to a for any a : A, that is, identity is the least reflexive relation. The identity family of types in intuitionistic type theory results from the identification of this relation with a family of types.
 
 
+## Examples
+
+* The identity types of an indexed W-type are another indexed W-type.  This has been formalized by [Huginin](#Huginin).
+
+* The [[inductive covers]] in [[formal topology]] and [[real analysis]] are an example of a [[higher inductive type|higher]] inductive family.
+
 ## Semantics
 
 Standard inductive types, [[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. [Indexed containers](#AGHMM) are the same as dependent polynomial functors.
@@ -44,10 +50,6 @@ Standard inductive types, [[W-types]] can be interpreted in any topos with [[nat
 
 In [[homotopy type theory]] with [[universes]], one can reduce indexed W-types to W-types. This has been formalized [here](https://github.com/pcapriotti/agda-base/blob/master/src/container/w/core.agda), [here](https://github.com/SkySkimmer/HoTTClasses/blob/inductives/theories/theory/inductives.v) and [here](#Hugunin).
 [Sattler](#Sattler) outlines a generalization of the reduction to [[homotopy type theory]] without the need of universes.
-
-## Identity types
-
-The identity types of an indexed W-type are another indexed W-type.  This has been formalized by [Huginin](#Huginin).
 
 ## References {#References} 
 
