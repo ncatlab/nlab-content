@@ -82,14 +82,7 @@ See also [[crossed n-cube]] for an alternative description.
 
 * Even though $cat^n$-groups are examples of strict [[n-fold category|(n+1)-fold categories]], Loday has shown that the [[homotopy category]] of $cat^{n-1}$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
 
-+-- {.query}
-[[Tim Porter|Tim]] Is the first statement above correct? $Cat^n$-groups are examples of strict (n+1)-fold categories, not strict n=categories or am I missing something? (28-09-2010&lt;- corrected)
-
-[[Ronnie Brown|Ronnie]]  Agreed, and I have corrected that. This is important since an [[n-category]] internal to [[Grp]] is equivalent to a single vertex [[crossed complex]]  of length $n+1$. 
-
-It is not so clear how to construct a homotopical functor from $n$-cubes of _non pointed spaces_, and what should be the receiving category. 
-=--
-##Related concepts
+## Related concepts
 
 * [[crossed n-cube]]
 
@@ -107,9 +100,11 @@ This paper also uses the term n-cat-group, but later use favours the term cat$^n
 
 A proof using $cat^n$-groups and a neat detailed analysis of multisimplicial groups and related topics was given in
 
-* [[Manuel Bullejos|M. Bullejos]], [[Antonio Cegarra|A. M. Cegarra]], and [[John Duskin|J. Duskin]], _On $cat^n$ -groups and homotopy types_, J. Pure Appl. Alg., 86, (1993), 135--154.
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]], [[John W. Duskin]], *On cat$^n$ -groups and homotopy types*, J. Pure 
+Appl. Alg. **86** (1993) 135-154 \[<a href="https://doi.org/10.1016/0022-4049(93)90099-F">doi:10.1016/0022-4049(93)90099-F</a>&rbrack;
 
-Porter (1993) gave a simple proof in terms of [[crossed n-cube|crossed n-cubes]]  using as little high-powered simplicial techniques as possible in
+
+A simple proof in terms of [[crossed n-cube|crossed n-cubes]]  using as little high-powered simplicial techniques as possible:
 
 * [[Tim Porter|T. Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
 
