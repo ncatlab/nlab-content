@@ -91,16 +91,19 @@ Discussion of defect [[(p,q)5-branes]]:
 * [[Tetsuji Kimura]], Shin Sasaki, Kenta Shiozawa, *On Geometries and Monodromies for Branes of Codimension Two* &lbrack;[arXiv:2312.03358](https://arxiv.org/abs/2312.03358)&rbrack;
 
 
-Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence defect branes in [[little string theory]]:
+Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence defect branes in [[little string theory]] (cf. [[3-brane in 6d]]):
 
-* Hironori Mori, Yuji Sugimoto, _Surface Operators from M-strings_, Phys. Rev. D 95, 026001 (2017) ([arXiv:1608.02849](https://arxiv.org/abs/1608.02849))
+* [[Hironori Mori]], Yuji Sugimoto, _Surface Operators from M-strings_, Phys. Rev. D 95, 026001 (2017) ([arXiv:1608.02849](https://arxiv.org/abs/1608.02849))
 
-* Hironori Mori, _M-theory Perspectives on Codimension-2 Defects_ ([spire:1519095](https://inspirehep.net/literature/1519095), [pdf](http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/shuron/DoctoralThesis_Mori.pdf))
+* [[Hironori Mori]], _M-theory Perspectives on Codimension-2 Defects_ ([spire:1519095](https://inspirehep.net/literature/1519095), [pdf](http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/shuron/DoctoralThesis_Mori.pdf))
 
 * Nathan Haouzi, Christian Schmid, _Little String Origin of Surface Defects_,  J. High Energ. Phys. 2017, 82 (2017) ([arXiv:1608.07279](https://arxiv.org/abs/1608.07279), <a href="https://doi.org/10.1007/JHEP05(2017)082">doi:10.1007/JHEP05(2017)082</a>)
 
 * Pietro Capuozzo, John Estes, Brandon Robinson, Benjamin Suzzoni, *Holographic Weyl Anomalies for 4d Defects in 6d SCFTs* &lbrack;[arXiv:2310.17447](https://arxiv.org/abs/2310.17447)&rbrack;
 
+and in relation to [[quantum Seiberg-Witten curves]] of [[class S-theories]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], *Elliptic Quantum Curves of Class $\mathcal{S}_k$*,  J. High Energ. Phys. **2021** 28 (2021) &lbrack;[arXiv:2008.05155](https://arxiv.org/abs/2008.05155), <a href="https://doi.org/10.1007/JHEP03(2021)028">doi:10.1007/JHEP03(2021)028</a>&rbrack;
 
 and in [[D=5 supergravity]]:
 
