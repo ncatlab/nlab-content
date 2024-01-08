@@ -107,11 +107,15 @@ E-strings as M2-branes stretched between M5 and MO9:
 
 
 
-* {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+* {#GHKKLV15} [[Abhijit Gadde]], [[Babak Haghighat]], [[Joonho Kim]], [[Seok Kim]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
 On their [[Seiberg-Witten curve]]:
 
 * [[Tohru Eguchi]], Kazuhiro Sakai, _Seiberg-Witten Curve for the E-String Theory_, JHEP 0205:058, 2002 ([arXiv:hep-th/0203025](https://arxiv.org/abs/hep-th/0203025))
+
+and on their [[quantum Seiberg-Witten curve]] in relation to [[D6-D8-brane bound states]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], [[Xin Wang]], *E-string Quantum Curve*, Nuclear Physics B **973** (2021) 115602 &lbrack;[arXiv:2103.16996](https://arxiv.org/abs/2103.16996), [doi:10.1016/j.nuclphysb.2021.115602](https://doi.org/10.1016/j.nuclphysb.2021.115602)&rbrack;
 
 
 
