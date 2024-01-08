@@ -166,7 +166,11 @@ On [[E-strings]]:
 
 * {#KKLPV14} [[Joonho Kim]], [[Seok Kim]], Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
-* {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], [[Joonho Kim]], [[Seok Kim]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+and emergence of [[SU(2)]]  [[flavor (particle physics)|flavor]]-[[chiral symmetry|symmetry]] on [[M5-branes]] in [[heterotic M-theory]] (in the [[D=6 N=(1,0) SCFT]] on [[small instantons]] in [[heterotic string theory]]):
+
+* {#GHKKLV15} [[Abhijit Gadde]], [[Babak Haghighat]], [[Joonho Kim]], [[Seok Kim]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP **1802** (2018) 143 &lbrack;[arXiv:1504.04614](https://arxiv.org/abs/1504.04614)&rbrack; 
+
+
 
 On [[swampland conjectures]]:
 
