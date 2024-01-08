@@ -82,16 +82,25 @@ See also
 
 ### In string/M-theory
 
+On integrability in [[topological string theory]]:
+
+* [[Mina Aganagic]], [[Robbert Dijkgraaf]], [[Albrecht Klemm]], [[Marcos Marino]], [[Cumrun Vafa]], pp. 7 of: *Topological Strings and Integrable Hierarchies*, Commun. Math. Phys. **261** (2006) 451-516 &lbrack;[arXiv:hep-th/0312085](https://arxiv.org/abs/hep-th/0312085), [doi:10.1007/s00220-005-1448-9](https://doi.org/10.1007/s00220-005-1448-9)&rbrack;
+
+* [[Mina Aganagic]], [[Miranda Cheng]], [[Robbert Dijkgraaf]], Daniel Krefl, [[Cumrun Vafa]], §2 in: *Quantum Geometry of Refined Topological Strings*, J. High Energ. Phys. **2012** 19 (2012) &lbrack;[arXiv:1105.0630](https://arxiv.org/abs/1105.0630), <a href="https://doi.org/10.1007/JHEP11(2012)019">doi:10.1007/JHEP11(2012)019</a>&rbrack;
+
+
 On possible structures in [[M2-brane]] dynamics and [[M2-M5-brane bound states]] which could be [[M-theory]]-lifts of the familiar [[integrable system|integrability]] of the [[Green-Schwarz superstring]] on [[AdS spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]]:
 
 * [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory* &lbrack;[arXiv:2301.06486](https://arxiv.org/abs/2301.06486)&rbrack;
 
 
 [[!redirects integrable systems]]
-[[!redirects integrable model]]
-[[!redirects integrable systems]]
-
-[[!redirects integrability]]
 
 [[!redirects integrable model]]
 [[!redirects integrable models]]
+
+[[!redirects integrability]]
+
+[[!redirects integrable hierarchy]]
+[[!redirects integrable hierarchies]]
+
