@@ -42,13 +42,17 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 > For more and for general references see at _[[N=2 D=4 super Yang-Mills theory]]_.
 
-The original articles are
+The original articles:
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory_, Nucl.Phys. B426:19--52, 1994; Erratum-ibid. B430:485--486, 1994 ([arXiv:hep-th/9407087](https://arxiv.org/abs/hep-th/9407087))
+* [[Nathan Seiberg]], [[Edward Witten]], _Monopole condensation, and confinement in $N=2$ supersymmetric Yang-Mills theory_, Nucl. Phys. B **426** (1994) 19-52; 
+
+  Erratum-ibid. B **430** (1994) 485-486,  ([arXiv:hep-th/9407087](https://arxiv.org
+/abs/hep-th/9407087))
+
 * [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, duality and chiral symmetry breaking in $N=2$
-supersymmetric QCD, Nucl. Phys. B431 (1994) 484--550, [hep-th/9408099](https://arxiv.org/abs/hep-th/9408099)
+supersymmetric QCD, Nucl. Phys. B431 (1994) 484-550 &lbrack;[hep-th/9408099](https://arxiv.org/abs/hep-th/9408099)&rbrack;
 
-Reviews include
+Review:
 
 * J&#252;rgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
@@ -58,32 +62,45 @@ Reviews include
 
 * piljin yi, _Seiberg-Witten theory -- with a view toward MQCD_ ([pdf](http://newton.kias.re.kr/~piljin/public_html/thesis/SW-MQCD.pdf&#8206;))
 
-
 * Wikipedia, _[Seiberg-Witten invariants](https://en.wikipedia.org/wiki/Seiberg-Witten_invariant)_
 
 
-A useful discussion of the physical origins of the Seiberg-Witten equations for mathematicians is in 
+A useful discussion of the physical origins of the Seiberg-Witten equations for mathematicians:
 
-* Siye Wu, _The Geometry and Physics of the Seiberg-Witten Equations_, Progress in mathematics, volume 205 (2002)
+* Siye Wu, _The Geometry and Physics of the Seiberg-Witten Equations_, Progress in mathematics **205** (2002)
 
-Discussion of lifts of SW-invariants to [[M-theory]] includes
+Discussion of lifts of SW-invariants to [[M-theory]]:
 
-* [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl.Phys. B556 (1999) 177-196 ([arXiv:hep-th/9811025](http://arxiv.org/abs/hep-th/9811025))
+* [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl.Phys. B556 (1999) 177-196 &lbrack;[arXiv:hep-th/9811025](http://arxiv.org/abs/hep-th/9811025)&rbrack;
 
 
-A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant stable cohomotopy]] is discussed in
+A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant stable cohomotopy]]:
 
-* M. Furuta,  (2001), _Monopole Equation and the 11/8-Conjecture_ , Mathematical Research Letters 8: 279--291 ([doi](https://doi.org/10.4310/MRL.2001.v8.n3.a5))
+* M. Furuta,  (2001), _Monopole Equation and the 11/8-Conjecture_ , Mathematical Research Letters 8: 279--291 &lbrack;[doi](https://doi.org/10.4310/MRL.2001.v8.n3.a5)&rbrack;
 
-* Stefan Bauer, Mikio Furuta, _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ ([arXiv:math/0204340](https://arxiv.org/abs/math/0204340))
+* Stefan Bauer, Mikio Furuta, _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ &lbrack;[arXiv:math/0204340](https://arxiv.org/abs/math/0204340)&rbrack;
 
-* Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](https://arxiv.org/abs/math/0204267))
+* Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ &lbrack;[arXiv:math/0204267](https://arxiv.org/abs/math/0204267)&rbrack;
+
+### Quantum SW curve
+
+In relation to [[class S-theories]] and "[[M3-brane]]"-[[defect branes]] inside [[M5-branes]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], *Elliptic Quantum Curves of Class $\mathcal{S}_k$*,  J. High Energ. Phys. **2021** 28 (2021) &lbrack;[arXiv:2008.05155](https://arxiv.org/abs/2008.05155), <a href="https://doi.org/10.1007/JHEP03(2021)028">doi:10.1007/JHEP03(2021)028</a>&rbrack;
+
+
+In relation to [[E-strings]] and [[D6-D8-brane bound states]]:
+
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], [[Xin Wang]], *E-string Quantum Curve*, Nuclear Physics B **973** (2021) 115602 &lbrack;[arXiv:2103.16996](https://arxiv.org/abs/2103.16996), [doi:10.1016/j.nuclphysb.2021.115602](https://doi.org/10.1016/j.nuclphysb.2021.115602)&rbrack;
+
+
+
 
 ### Relation to Rozansky-Witten invariants
 
 On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invariants]] of [[3-manifolds]]:
 
-* [[Matthias Blau]], George Thompson, _On the Relationship between the Rozansky-Witten and the 3-Dimensional Seiberg-Witten Invariants_, Adv. Theor. Math. Phys. 5 (2002) 483--498 ([arXiv:hep-th/0006244](https://arxiv.org/abs/hep-th/0006244))
+* [[Matthias Blau]], George Thompson, _On the Relationship between the Rozansky-Witten and the 3-Dimensional Seiberg-Witten Invariants_, Adv. Theor. Math. Phys. **5** (2002) 483-498 &lbrack;[arXiv:hep-th/0006244](https://arxiv.org/abs/hep-th/0006244)&rbrack;
 
 
 [[!redirects Seiberg-Witten duality]]
@@ -95,4 +112,5 @@ On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invarian
 [[!redirects Seiberg-Witten curve]]
 [[!redirects Seiberg-Witten curves]]
 
-
+[[!redirects quantum Seiberg-Witten curve]]
+[[!redirects quantum Seiberg-Witten curves]]
