@@ -53,3 +53,7 @@ Discussion of the superconformal symmetry group, the [[orthosymplectic supergrou
 * Murat Gunaydin, Seiji Takemae, _Unitary Supermultiplets of $OSp(8^*|4)$ and the $AdS_7/CFT_6$ Duality_, Nucl.Phys.B578:405-448,2000; Erratum-ibid.B697:399-402,2004 ([arXiv:hep-th/9910110](http://arxiv.org/abs/hep-th/9910110))
 
 [[!redirects superconformal]]
+
+[[!redirects superconformal symmetry]]
+[[!redirects superconformal symmetries]]
+
