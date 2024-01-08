@@ -4,9 +4,11 @@ Manuel Bullejos is a Spanish mathematician based in the [Departamento de &#193;l
 
 ## Selected writings
 
-On [[n-groups]]:
+On [[cat-n-groups]]:
 
-* [[Manuel Bullejos]], [[Antonio M. Cegarra]] and [[Jack Duskin]], On cat$^n$ -groups and homotopy types , J. Pure  Appl. Alg., 86, (1993), 135--154.
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]], [[John W. Duskin]], *On cat$^n$ -groups and homotopy types*, J. Pure 
+Appl. Alg. **86** (1993) 135-154 \[<a href="https://doi.org/10.1016/0022-4049(93)90099-F">doi:10.1016/0022-4049(93)90099-F</a>&rbrack;
+
 
 On "classifying spaces" (ie: [[topological realization]] of [[simplicial nerves]]) of [[2-categories]]:
 
