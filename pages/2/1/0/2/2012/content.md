@@ -82,6 +82,15 @@ See also
 
 ### In string/M-theory
 
+On integrability in [[Seiberg-Witten theory]]:
+
+
+* [[Alexander Gorsky]], [[Igor Krichever]], [[Andrei Marshakov]], [[Andrei Mironov]], [[Andrey Morozov]], *Integrability and Seiberg-Witten Exact Solution*, Phys. Lett. B **355** (1995) 466-474 &lbrack;[arXiv:hep-th/9505035](https://arxiv.org/abs/hep-th/9505035), <a href="https://doi.org/10.1016/0370-2693(95)00723-X">doi:10.1016/0370-2693(95)00723-X</a>&rbrack;
+
+* [[Andrei Marshakov]], *Seiberg-Witten Curves and Integrable Systems* &lbrack;[arXiv:hep-th/9903252](https://arxiv.org/abs/hep-th/9903252)&rbrack;
+
+
+
 On integrability in [[topological string theory]]:
 
 * [[Mina Aganagic]], [[Robbert Dijkgraaf]], [[Albrecht Klemm]], [[Marcos Marino]], [[Cumrun Vafa]], pp. 7 of: *Topological Strings and Integrable Hierarchies*, Commun. Math. Phys. **261** (2006) 451-516 &lbrack;[arXiv:hep-th/0312085](https://arxiv.org/abs/hep-th/0312085), [doi:10.1007/s00220-005-1448-9](https://doi.org/10.1007/s00220-005-1448-9)&rbrack;
