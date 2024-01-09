@@ -54,13 +54,18 @@ supersymmetric QCD, Nucl. Phys. B431 (1994) 484-550 &lbrack;[hep-th/9408099](htt
 
 Review:
 
+* [[Taro Kimura]], *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
+
+
 * J&#252;rgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 * [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
+
 * [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
 
 * piljin yi, _Seiberg-Witten theory -- with a view toward MQCD_ ([pdf](http://newton.kias.re.kr/~piljin/public_html/thesis/SW-MQCD.pdf&#8206;))
+
 
 * Wikipedia, _[Seiberg-Witten invariants](https://en.wikipedia.org/wiki/Seiberg-Witten_invariant)_
 
