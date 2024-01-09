@@ -265,7 +265,7 @@ See also
 * Yves Andr&#233;, _Comparison theorems between algebraic and
 analytic De Rham cohomology_ ([pdf](http://www.emis.de/journals/JTNB/2004-2/pages335-355.pdf))
 
-* [[Mikhail Kapranov]], _DG-Modules and vanishing cycles_ ([[KapranovDGModuleVanishingCycle.pdf:file]])
+* [[Mikhail Kapranov]], _DG-Modules over the de Rham complex and the vanishing cycles functor_, Lecture Notes in Mathematics **1479**, Springer (1991) &lbrack;[doi:10.1007/BFb0086264](https://doi.org/10.1007/BFb0086264)&rbrack;
 
 [[!redirects deRham complex]]
 [[!redirects deRham algebra]]
