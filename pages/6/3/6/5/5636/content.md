@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc} 
@@ -35,6 +34,7 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
 * [[AGT correspondence]]
+
 
 ## References
 
@@ -69,6 +69,12 @@ A useful discussion of the physical origins of the Seiberg-Witten equations for 
 
 * Siye Wu, _The Geometry and Physics of the Seiberg-Witten Equations_, Progress in mathematics **205** (2002)
 
+
+In relation to [[integrable systems]]:
+
+* [[Alexander Gorsky]], [[Igor Krichever]], [[Andrei Marshakov]], [[Andrei Mironov]], [[Andrey Morozov]], *Integrability and Seiberg-Witten Exact Solution*, Phys. Lett. B **355** (1995) 466-474 &lbrack;[arXiv:hep-th/9505035](https://arxiv.org/abs/hep-th/9505035), <a href="https://doi.org/10.1016/0370-2693(95)00723-X">doi:10.1016/0370-2693(95)00723-X</a>&rbrack;
+
+
 Discussion of lifts of SW-invariants to [[M-theory]]:
 
 * [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl.Phys. B556 (1999) 177-196 &lbrack;[arXiv:hep-th/9811025](http://arxiv.org/abs/hep-th/9811025)&rbrack;
@@ -82,9 +88,18 @@ A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant
 
 * Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ &lbrack;[arXiv:math/0204267](https://arxiv.org/abs/math/0204267)&rbrack;
 
-### Quantum SW curve
+### Seiberg-Witten curve
 
-On a kind of [[quantization|quantized]] SW curve:
+On the *Seiberg-Witten curve*:
+
+Introduction 
+
+in relation to [[integrable systems]]:
+
+* [[Andrei Marshakov]], *Seiberg-Witten Curves and Integrable Systems* &lbrack;[arXiv:hep-th/9903252](https://arxiv.org/abs/hep-th/9903252)&rbrack;
+
+
+On the "quantum SW curve", a kind of [[quantization|quantized]] SW curve:
 
 In relation to [[class S-theories]] and "[[M3-brane]]"-[[defect branes]] inside [[M5-branes]]:
 
