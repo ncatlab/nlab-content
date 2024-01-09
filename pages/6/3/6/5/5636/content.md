@@ -116,6 +116,10 @@ review in:
 
 * Csaba Csaki, Joshua Erlich, John Terning, pp. 4 of; *Seiberg-Witten Description of the Deconstructed 6D $(0,2)$ Theory*, Phys. Rev. D **67** 025019 (2003) &lbrack;[arXiv:hep-th/0208095](https://arxiv.org/abs/hep-th/0208095), [doi:10.1103/PhysRevD.67.025019](https://doi.org/10.1103/PhysRevD.67.025019)&rbrack;
 
+
+* [[Francesco Benini]], [[Sergio Benvenuti]], [[Yuji Tachikawa]], p. 2 of: _Webs of five-branes and $\mathcal{N}=2$ superconformal field theories_, JHEP 0909:052 (2009) &lbrack;[arXiv:0906.0359](https://arxiv.org/abs/0906.0359)&rbrack;
+
+
 * Ling Bao, Elli Pomoni, Masato Taki, Futoshi Yagi, p. 5 of: *M5-branes, toric diagrams and gauge theory duality*, J. High Energ. Phys. **2012** 105 (2012) &lbrack;[arXiv:1112.5228](https://arxiv.org/abs/1112.5228), <a href="https://doi.org/10.1007/JHEP04(2012)105">doi:10.1007/JHEP04(2012)105</a>&rbrack;
 
 * [[Taro Kimura]], §4.5.2 in: *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
