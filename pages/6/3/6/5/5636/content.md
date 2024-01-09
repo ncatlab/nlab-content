@@ -104,7 +104,7 @@ in relation to [[integrable systems]]:
 * [[Andrei Marshakov]], *Seiberg-Witten Curves and Integrable Systems* &lbrack;[arXiv:hep-th/9903252](https://arxiv.org/abs/hep-th/9903252)&rbrack;
 
 
-#### As M5-brane worldvolume
+#### As brane worldvolume
 
 Observation that under [[geometric engineering of QFT|geometric engineering]] of [[D=4 N=2 SYM]] on [D4/NS5 intersections](NS5-brane#D4EndingOnNS5) and further [[duality between M-theory and type IIA string theory|lift]] to a single [[M5-brane]], the SW-curve is identified with the M5-[[worldvolume]] transverse to the SYM-spacetime:
 
@@ -112,6 +112,13 @@ Observation that under [[geometric engineering of QFT|geometric engineering]] of
 
 * {#Witten97} [[Edward Witten]], *Solutions Of Four-Dimensional Field Theories Via M Theory*, Nucl. Phys. B **500** (1997) 3-42 &lbrack;[arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166), <a href="https://doi.org/10.1016/S0550-3213(97)00416-1">doi:10.1016/S0550-3213(97)00416-1</a>&rbrack; 
  
+Further early discussion:
+
+* Karl Landsteiner, Esperanza Lopez, David A. Lowe, *$\mathcal{N}$=2 Supersymmetric Gauge Theories, Branes and Orientifolds*, Nucl. Phys. B **507** (1997) 197-226 &lbrack;[arXiv:hep-th/9705199](https://arxiv.org/abs/hep-th/9705199), <a href="https://doi.org/10.1016/S0550-3213(97)00559-2">doi:10.1016/S0550-3213(97)00559-2</a>&rbrack;
+
+* A. Brandhuber, [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], *M Theory And Seiberg-Witten Curves: Orthogonal and Symplectic Groups*, Nucl. Phys. B **504** (1997) 175-188 &lbrack;[arXiv:hep-th/9705232](https://arxiv.org/abs/hep-th/9705232), <a href="https://doi.org/10.1016/S0550-3213(97)00531-2">doi:10.1016/S0550-3213(97)00531-2</a>&rbrack;
+
+
 review in:
 
 * Csaba Csaki, Joshua Erlich, John Terning, pp. 4 of; *Seiberg-Witten Description of the Deconstructed 6D $(0,2)$ Theory*, Phys. Rev. D **67** 025019 (2003) &lbrack;[arXiv:hep-th/0208095](https://arxiv.org/abs/hep-th/0208095), [doi:10.1103/PhysRevD.67.025019](https://doi.org/10.1103/PhysRevD.67.025019)&rbrack;
