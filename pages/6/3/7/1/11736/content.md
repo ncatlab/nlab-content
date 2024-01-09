@@ -87,7 +87,7 @@ In
 an [[exceptional collection]] in the [[derived category]] of [[coherent sheaves]] on a suitable [[Calabi-Yau variety]] [[cone]] is used to induce a [[quiver]] and make the derived category be equivalent to that of its [[quiver representations]].
 
 
-Review and discussion of further details includes
+Review and discussion of further details:
 
 * {#He04} [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
 
@@ -96,6 +96,9 @@ Review and discussion of further details includes
 * {#BergmnProudfoot04} [[Aaron Bergman]], [[Nicholas Proudfoot]], _Moduli Spaces for D-branes at the Tip of a Cone_, JHEP0603:073, 2006 ([arXiv:hep-th/0510158](http://arxiv.org/abs/hep-th/0510158))
 
 * {#Katz04} [[Sheldon Katz]], _ADE Quiver representations and branes_ ([pdf](http://math.tecnico.ulisboa.pt/galg/WAGP04/Katz-lecture2.pdf)), lecture 2 of _ADE Geometry and dualities_  ([pdf](http://math.tecnico.ulisboa.pt/galg/WAGP04/Katz-lecture1.pdf))
+
+* [[Taro Kimura]], *Quiver Gauge Theory*, Chapter 2 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
+
 
 In [[heterotic string theory]] in relation to [[Donaldson-Thomas theory]]:
 
