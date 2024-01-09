@@ -3,6 +3,11 @@
  
 ## Selected writings
 
+On [[Seiberg-Witten curves]] understood as transversal factors of [[M5-brane]]-[[worldvolumes]]:
+
+* A. Brandhuber, [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], *M Theory And Seiberg-Witten Curves: Orthogonal and Symplectic Groups*, Nucl. Phys. B **504** (1997) 175-188 &lbrack;[arXiv:hep-th/9705232](https://arxiv.org/abs/hep-th/9705232), <a href="https://doi.org/10.1016/S0550-3213(97)00531-2">doi:10.1016/S0550-3213(97)00531-2</a>&rbrack;
+
+
 On [[supergravity]], [[D-branes]] and the [[large N limit]] of [[super Yang-Mills theories]]:
 
 * [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]], _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 (1998) ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
