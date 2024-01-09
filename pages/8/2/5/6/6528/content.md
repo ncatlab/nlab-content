@@ -298,6 +298,8 @@ Introductions and surveys:
 
 * Nick Dorey, Timothy J. Hollowood, Valentin V. Khoze, Michael P. Mattis, *The Calculus of Many Instantons*, Phys. Rept. **371** (2002) 231-459 &lbrack;[arXiv:hep-th/0206063](https://arxiv.org/abs/hep-th/0206063), <a href="https://doi.org/10.1016/S0370-1573(02)00301-0">doi:10.1016/S0370-1573(02)00301-0</a>&rbrack;
 
+* [[Taro Kimura]], *Instanton Counting and Localization*, Chapter 1 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
+
 
 A survey in view of the [[asymptotic series|asymptotic]] nature of the [[Feynman perturbation series]] is in
 
