@@ -376,7 +376,7 @@ For [[orbifolds]] in [[string theory]] see also the references at
 
 * _[[RR-field tadpole cancellation]]_
 
-Review of orbifolds in the context of string [[KK-compactifications]] and [[intersecting D-brane models]] includes
+Review of orbifolds in the context of string [[KK-compactifications]] and [[intersecting D-brane models]]:
 
 * {#BailibLove99} D. Bailin, A. Love, _Orbifold compactifications of string theory_, Phys. Rept. 315 (1999) 285-408 (<a href="https://doi.org/10.1016/S0370-1573(98)00126-4">doi:10.1016/S0370-1573(98)00126-4</a>, [spire:504382](https://inspirehep.net/literature/504382))
 
@@ -402,6 +402,10 @@ and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]:
 * {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ &lbrack;[arXiv:1512.05114](http://arxiv.org/abs/1512.05114)&rbrack;
 
 * [[Frank Reidegeld]], _$G_2$-orbifolds with ADE-singularities_ &lbrack;[pdf](https://core.ac.uk/download/pdf/159317626.pdf)&rbrack;
+
+and for [[heterotic string theory|heterotic]] [[string phenomenology]]:
+
+* [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2401.03125](https://arxiv.org/abs/2401.03125), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
