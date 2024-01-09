@@ -382,6 +382,13 @@ On [[string diagram]] techniques for [[spin network]] states in [[loop quantum g
 
 \linebreak
 
+On [[heterotic string theory|heterotic]] [[string phenomenology]]:
+
+* [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2401.03125](https://arxiv.org/abs/2401.03125), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+
+ 
+\linebreak
+
 
 
 
