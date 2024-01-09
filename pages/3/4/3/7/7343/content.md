@@ -138,9 +138,13 @@ $N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](Sei
 
 * {#Witten97} [[Edward Witten]], *Solutions Of Four-Dimensional Field Theories Via M Theory*, Nucl. Phys. B **500** (1997) 3-42 &lbrack;[arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166), <a href="https://doi.org/10.1016/S0550-3213(97)00416-1">doi:10.1016/S0550-3213(97)00416-1</a>&rbrack; 
  
-review in :
+review in:
+
+* Csaba Csaki, Joshua Erlich, John Terning, pp. 4 of; *Seiberg-Witten Description of the Deconstructed 6D $(0,2)$ Theory*, Phys. Rev. D **67** 025019 (2003) &lbrack;[arXiv:hep-th/0208095](https://arxiv.org/abs/hep-th/0208095), [doi:10.1103/PhysRevD.67.025019](https://doi.org/10.1103/PhysRevD.67.025019)&rbrack;
 
 * Ling Bao, Elli Pomoni, Masato Taki, Futoshi Yagi, p. 5 of: *M5-branes, toric diagrams and gauge theory duality*, J. High Energ. Phys. **2012** 105 (2012) &lbrack;[arXiv:1112.5228](https://arxiv.org/abs/1112.5228), <a href="https://doi.org/10.1007/JHEP04(2012)105">doi:10.1007/JHEP04(2012)105</a>&rbrack;
+
+* [[Taro Kimura]], §4.5.2 in: *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
 
 
 The further observation that therefore the sewing of [[Riemann surfaces]] on which one compactifies the M5-brane yields a gluing operation on N=2 SYM theories is due to
