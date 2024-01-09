@@ -52,13 +52,13 @@ $$
   \phi\big(
     x^- + L,\, x^+
   \big)
-  \;\;
+  \;=\;
   \phi\big(
     x^-,\, x^+
   \big)
 $$
 
-for some $L \in \mathbb{R}_{\gt 0}$ giving the circumference of a lightlike [[circle]] (which some authors take to be literally [[lightlike]], of the kind shown eg. in [Bär 2004, Exp. 2.21 (2)](Lorentizan+geometry#Bär04), while others, like [Seiberg 1997](#Seiberg97), consider to be the [[limit of a sequence|limit]] of [[boosts]] of a [[spacelike]] [[circle]] [[fiber]]),
+for some $L \in \mathbb{R}_{\gt 0}$ giving the circumference of a lightlike [[circle]] (which some authors take to be literally [[lightlike]], of the kind shown eg. in [Bär 2004, Exp. 2.21 (2)](Lorentizan+geometry#Bär04), while others, like [Seiberg 1997](#Seiberg97), consider to be the [[limit of a sequence|limit]] of [[boosts]] of a [[spacelike]] [[circle]] [[fiber]]).
 
 Since, [[Fourier transform|dually]], this means that the corresponding lightcone momentum $p^+$ becomes quantized in units of the inverse [[radius]] $R$ of this circle
 
@@ -67,7 +67,7 @@ Since, [[Fourier transform|dually]], this means that the corresponding lightcone
   p^+ \;\propto\; N/R
   \phantom{AAA}
   N \in \mathbb{Z}
-  \,.
+  \,,
 \]
 
 hence one speaks of *discretized light-cone quantization*  or _DLCQ_, for short. This goes back to [Maskawa & Yamakawi 1976](#MaskawaYamakawi76); [Casher 1976](#Casher76); [Thorn 1977](#Thorn77), [1978](#Thorn78); [Pauli & Brodsky (1985b)](#PauliBrodsky85b), [(1985a)](#PauliBrodsky85a); [Tang, Brodsky & Pauli 1991 (2.6)](#TangBrodskyPauli91); see also [McCartor & Robertson 1994, §3](#McCartorRobertson94); for review see [Burkardt 1996, §5.1](#Burkardt96); [Heinzl 2001, §3.4](#Heinzl01).
@@ -105,7 +105,7 @@ Light cone gauge quantization is the only method by which [[Green-Schwarz super 
 
 ### BFSS matrix model
 
-Specifically, applying light-cone gauge quantization to the [[Green-Schwarz sigma model]] for the  [[M2-brane]] on 11d [[Minkowski spacetime]], combined with a certain regularization of the remaining l9ight-cone [[Hamiltonian]] yields the [[BFSS matrix model]].
+Specifically, applying light-cone gauge quantization to the [[Green-Schwarz sigma model]] for the  [[M2-brane]] on 11d [[Minkowski spacetime]], combined with a certain regularization of the remaining light-cone [[Hamiltonian]] yields the [[BFSS matrix model]].
 
 ### BMN matrix model 
 
