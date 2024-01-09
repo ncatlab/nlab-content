@@ -20,7 +20,7 @@
 
 The origins of [[perturbative quantum field theory]] go back to informal ideas on [[quantum electrodynamics]] due to [[Julian Schwinger]], [[Shin'ichirō Tomonaga]], [[Richard Feynman]] and [[Freeman Dyson]], culminating in the informal idea of "[[renormalization]]" due to ([Dyson 49](#Dyson49)).
 
-While highly succesful, the conceptual nature of this original formulation, in particular of the process of "removal of [[UV-divergences]]", had remained mysterious (see [Scharf 95, section 0.0](#Scharf95) for survey): 
+While highly successful, the conceptual nature of this original formulation, in particular of the process of "removal of [[UV-divergences]]", had remained mysterious (see [Scharf 95, section 0.0](#Scharf95) for survey): 
 
 > $[$ the theory is $]$ an ugly and incomplete one ([Dirac 51](#Dirac51))
 
