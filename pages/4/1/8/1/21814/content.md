@@ -93,7 +93,7 @@ Discussion of defect [[(p,q)5-branes]]:
 
 Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence defect branes in [[little string theory]] (cf. [[3-brane in 6d]]):
 
-* [[Hironori Mori]], Yuji Sugimoto, _Surface Operators from M-strings_, Phys. Rev. D 95, 026001 (2017) ([arXiv:1608.02849](https://arxiv.org/abs/1608.02849))
+* [[Hironori Mori]], Yuji Sugimoto, around Fig. 9 in: _Surface Operators from M-strings_, Phys. Rev. D 95, 026001 (2017) &lbrack;[arXiv:1608.02849](https://arxiv.org/abs/1608.02849), [doi:10.1103/PhysRevD.95.026001](https://doi.org/10.1103/PhysRevD.95.026001)&rbrack;
 
 * [[Hironori Mori]], _M-theory Perspectives on Codimension-2 Defects_ ([spire:1519095](https://inspirehep.net/literature/1519095), [pdf](http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/shuron/DoctoralThesis_Mori.pdf))
 
@@ -103,7 +103,7 @@ Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence d
 
 and in relation to [[quantum Seiberg-Witten curves]] of [[class S-theories]]:
 
-* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], *Elliptic Quantum Curves of Class $\mathcal{S}_k$*,  J. High Energ. Phys. **2021** 28 (2021) &lbrack;[arXiv:2008.05155](https://arxiv.org/abs/2008.05155), <a href="https://doi.org/10.1007/JHEP03(2021)028">doi:10.1007/JHEP03(2021)028</a>&rbrack;
+* [[Jin Chen]], [[Babak Haghighat]], [[Hee-Cheol Kim]], [[Marcus Sperling]], around Fig. 1 & Fig. 2 in:  *Elliptic Quantum Curves of Class $\mathcal{S}_k$*,  J. High Energ. Phys. **2021** 28 (2021) &lbrack;[arXiv:2008.05155](https://arxiv.org/abs/2008.05155), <a href="https://doi.org/10.1007/JHEP03(2021)028">doi:10.1007/JHEP03(2021)028</a>&rbrack;
 
 and in [[D=5 supergravity]]:
 
