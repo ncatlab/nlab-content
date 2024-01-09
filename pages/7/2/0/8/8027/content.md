@@ -76,7 +76,7 @@ A [[2d SCFT]] argued to describe the  [[KK-compactification]] of the [[M5-brane]
 
 The origin of the AGT correspondence is:
 
-* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](https://arxiv.org/abs/0904.2715))
+* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP 08 (2012) 034 &lbrack;[arXiv:0904.2715](https://arxiv.org/abs/0904.2715)&rbrack;
 
 * {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](https://arxiv.org/abs/0906.3219))
 
