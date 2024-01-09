@@ -132,29 +132,33 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 ### Construction from 5-branes
  {#ReferencesConstructionFrom5Branes}
 
-$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]] on a [[Riemann surface]]: the Riemann surface is identified with the _Seiberg-Witten curve_ of complexified coupling constants. This observation goes back to
+$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]] on a [[Riemann surface]]: the Riemann surface is identified with one part of the _Seiberg-Witten curve_ of complexified coupling constants. This observation goes back to
 
-* A. Klemm, [[Wolfgang Lerche]], P. Mayr, [[Cumrun Vafa]], N. Warner, _Self-Dual Strings and N=2 Supersymmetric Field Theory_ ([arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034))
- {#KlemmLercheMayrVafaWarner96}
+* {#KlemmLercheMayrVafaWarner96} [[Albrecht Klemm]], [[Wolfgang Lerche]], [[Peter Mayr]], [[Cumrun Vafa]], [[Nicholas Warner]], _Self-Dual Strings and $\mathcal{N}=2$ Supersymmetric Field Theory_, Nucl. Phys. B **477** (1996) 746-766 &lbrack;[arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034), <a href="https://doi.org/10.1016/0550-3213(96)00353-7">doi:10.1016/0550-3213(96)00353-7</a>&rbrack; 
 
-* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_ ([arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166)) 
- {#Witten97}
+* {#Witten97} [[Edward Witten]], *Solutions Of Four-Dimensional Field Theories Via M Theory*, Nucl. Phys. B **500** (1997) 3-42 &lbrack;[arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166), <a href="https://doi.org/10.1016/S0550-3213(97)00416-1">doi:10.1016/S0550-3213(97)00416-1</a>&rbrack; 
+ 
+review in :
+
+* Ling Bao, Elli Pomoni, Masato Taki, Futoshi Yagi, p. 5 of: *M5-branes, toric diagrams and gauge theory duality*, J. High Energ. Phys. **2012** 105 (2012) &lbrack;[arXiv:1112.5228](https://arxiv.org/abs/1112.5228), <a href="https://doi.org/10.1007/JHEP04(2012)105">doi:10.1007/JHEP04(2012)105</a>&rbrack;
 
 
 The further observation that therefore the sewing of [[Riemann surfaces]] on which one compactifies the M5-brane yields a gluing operation on N=2 SYM theories is due to
 
-* [[Davide Gaiotto]], _N=2 dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
- {#Gaiotto09}
+* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP 08 (2012) 034 &lbrack;[arXiv:0904.2715](https://arxiv.org/abs/0904.2715)&rbrack;
 
-The [[topologically twisted D=4 super Yang-Mills theory|topological twisting]] of the compactification which is used around (2.27) there was previously introduced in section 3.1.2 of
 
-* [[Davide Gaiotto]], [[Gregory Moore]] and [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_, ([arXiv:0907.3987](http://arxiv.org/abs/0907.3987))
+cf. at *[[AGT correspondence]]*. 
+
+The [[topologically twisted D=4 super Yang-Mills theory|topological twisting]] of the compactification which is used around (2.27) there was previously introduced in section 3.1.2 of:
+
+* [[Davide Gaiotto]], [[Gregory Moore]] [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_, ([arXiv:0907.3987](http://arxiv.org/abs/0907.3987))
 
 and is discussed also for instance in section 5.1 of 
 
 * [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
 
-(This is possibly also the mechanism behind the [[AGT correspondence]], though the details obehind that statement seem to be unclear.)
+(This is possibly also the mechanism behind the [[AGT correspondence]], though the details behind that statement seem to be unclear.)
 
 A brief review of these matters is in ([Moore 12, section 7](#Moore12)). A formalization of the [[topological twist]] in  [[perturbation theory]] formalized by [[factorization algebras]] with values in [[BV complexes]] is in section 16 of
 
