@@ -132,7 +132,7 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 ### Construction from 5-branes
  {#ReferencesConstructionFrom5Branes}
 
-$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]] on a [[Riemann surface]]: the Riemann surface is identified with one part of the _Seiberg-Witten curve_ of complexified coupling constants. This observation goes back to
+$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]] on a [[Riemann surface]]: the Riemann surface is identified with the _[[Seiberg-Witten curve]]_ of complexified coupling constants. This observation goes back to
 
 * {#KlemmLercheMayrVafaWarner96} [[Albrecht Klemm]], [[Wolfgang Lerche]], [[Peter Mayr]], [[Cumrun Vafa]], [[Nicholas Warner]], _Self-Dual Strings and $\mathcal{N}=2$ Supersymmetric Field Theory_, Nucl. Phys. B **477** (1996) 746-766 &lbrack;[arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034), <a href="https://doi.org/10.1016/0550-3213(96)00353-7">doi:10.1016/0550-3213(96)00353-7</a>&rbrack; 
 
