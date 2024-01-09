@@ -123,7 +123,7 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 * [[Ofer Aharony]], [[Amihay Hanany]], [[Barak Kol]], _Webs of $(p,q)$ 5-branes, Five Dimensional Field Theories and Grid Diagrams_, JHEP 9801:002,1998 ([arXiv:hep-th/9710116](http://arxiv.org/abs/hep-th/9710116))
 
 
-* Francesco Benini, Sergio Benvenuti, Yuji Tachikawa, _Webs of five-branes and $N=2$ superconformal field theories_, JHEP 0909:052,2009 ([arXiv:0906.0359](https://arxiv.org/abs/0906.0359))
+* [[Francesco Benini]], [[Sergio Benvenuti]], [[Yuji Tachikawa]], _Webs of five-branes and $\mathcal{N}=2$ superconformal field theories_, JHEP 0909:052 (2009) &lbrack;[arXiv:0906.0359](https://arxiv.org/abs/0906.0359)&rbrack;
 
 * Sung-Soo Kim, Masato Taki, Futoshi Yagi, _Tao Probing the End of the World_, Prog. Theor. Exp. Phys. 2015, 083B02 ([arXiv:1504.03672](https://arxiv.org/abs/1504.03672))
 
