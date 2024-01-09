@@ -125,9 +125,28 @@ If $R$ is an RNO in an infinitary Heyting category or topos, then there is uniqu
 =--
 
 We usually speak of *[[the]]* RNO, if one exists.  This is because any two RNOs in a Heyting category with an NNO are [[isomorphic]], in an essentially unique way.  (I can't prove this without an NNO, although the previous theorem shows that we often have one.)
+
 +-- {: .num_thm}
 ###### Theorem
 If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$ with an NNO, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
+=--
++-- {: .proof}
+###### Proof
+...
+=--
+
++-- {: .num_thm}
+###### Theorem
+Any RNO $R$ in a Heyting category $\mathcal{E}$ with an NNO is the [[terminal]] [[Archimedean ordered field]] object in $\mathcal{E}$. 
+=--
++-- {: .proof}
+###### Proof
+...
+=--
+
++-- {: .num_thm}
+###### Theorem
+Any [[terminal]] [[Archimedean ordered field]] object $R$ in a Heyting category $\mathcal{E}$ with an NNO is an RNO in $\mathcal{E}$. 
 =--
 +-- {: .proof}
 ###### Proof
