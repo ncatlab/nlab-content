@@ -16,4 +16,12 @@ On [[brane webs]] and [[quiver gauge theory]]:
 
 * [[Taro Kimura]], Rui-Dong Zhu, Section 2 and 3  of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
 
+On [[Yang-Mills instantons]], [[Seiberg-Witten theory]] and [[quiver gauge theory]]:
+
+* [[Taro Kimura]], *Instanton Counting and Localization*, Chapter 1 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
+
+
+
+
+
 category: people
