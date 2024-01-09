@@ -43,7 +43,7 @@
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
-* [Shadows of simplicity](https://tcjpn.wordpress.com) - algebraic combinatorics, umbral calculus
+* [Shadows of Simplicity](https://tcjpn.wordpress.com) - analytic/algebraic/geometric/topological/enumerative combinatorics, fractional/operational calculus, umbral calculus
 
 * [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
 
@@ -69,7 +69,7 @@
 
 * [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations--last updated July 2011)
 
-### Older Blogs (last is entry over a year old)
+### Older Blogs (last entry is over a year old)
 
 * [Annoying Precision](http://qchu.wordpress.com) by Qiaochu Yuan (algebra, representation theory, combinatorics, abstract nonsense, arithmetics)
 
