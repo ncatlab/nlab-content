@@ -587,7 +587,9 @@ $$
 
 has a [[left adjoint|left]] and a [[right adjoint|right]] [[adjoint functor]].
 
-Restricted to [[groupoid]]-valued functors and [[fibrations in groupoids]], both of these exhibit the above equivalences as [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
+Restricted to [[groupoid]]-valued functors and [[fibrations in groupoids]], both of these exhibit the above equivalences as [[adjoint equivalence]]s. The intuition for this is that all of the categorical structure of a groupoid is contained in the automorphism groups, so one does not need to look at functors $[C^{op}, GpdProf]$ in order to get all of the objects of $Gpd/C$.
+
+Notice that much of the traditional literature discusses (just) the right adjoint. 
 
 #### The left adjoint
 
