@@ -429,6 +429,10 @@ Discussion of combined [[twisted K-theory|twisted]] [[equivariant K-theory|equiv
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
+Review:
+
+* [[Jonathan Rosenberg]], *Twisted cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03966](https://arxiv.org/abs/2401.03966)&rbrack;
+
 
 Discussion of twisted [[K-homology]]:
 
