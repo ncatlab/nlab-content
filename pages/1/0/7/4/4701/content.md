@@ -20,6 +20,9 @@ On [[D-brane charge]] in [[orientifolds]] formulated in [[KR-theory]]:
 
 * {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
 
+On [[twisted cohomology]]:
+
+* [[Jonathan Rosenberg]], *Twisted cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03966](https://arxiv.org/abs/2401.03966)&rbrack;
 
 
 
