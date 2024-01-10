@@ -121,6 +121,9 @@ Discussion focusing on 3-dimensional semi-metals:
 * Jiaheng Li, Zetao Zhang, Chong Wang, Huaqing Huang, Bing-Lin Gu, Wenhui Duan,  *Topological semimetals from the perspective of first-principles calculations*, 
 Journal of Applied Physics 128, 191101 (2020) ([doi:10.1063/5.0025396]( https://doi.org/10.1063/5.0025396))
 
+* Faruk Abdulla, Ganpathy Murthy, Ankur Das, *Stable nodal line semimetals in the chiral classes in three dimensions*  &lbrack;[arXiv:2401.02966](https://arxiv.org/abs/2401.02966)&rbrack;
+
+
 Discussion of the $\mathbb{Z}/2$-valued [[Berry phases]] around [[codimension]]=2 nodal loci in $P I$-symmetric (time-reversal +  inversion invariant)  semi-metals:
 
 * Dan-Wei Zhang, Y. X. Zhao, Rui-Bin Liu, Zheng-Yuan Xue, Shi-Liang Zhu, Z. D. Wang, *Quantum simulation of exotic PT-invariant topological nodal loop bands with ultracold atoms in an optical lattice*, Phys. Rev. A **93** (2016) 043617  ([arXiv:1601.00371](https://arxiv.org/abs/1601.00371), [doi:10.1103/PhysRevA.93.043617](https://doi.org/10.1103/PhysRevA.93.043617))
