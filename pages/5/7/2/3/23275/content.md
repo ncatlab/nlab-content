@@ -36,7 +36,7 @@ Let $F:C\to D$ be a functor.  Define $K:D\to Set$ as the left Kan extension of t
 
 Now we show that $E$ and $M$ are replete subcategories of $Cat$.  Clearly they include all isomorphisms.
 
-If functors $F:C\to D$ and $G: D\to E$ are final, then we show that $G\circ F$ is final.  For $e\in E$, there is a element $(d,\alpha:e\to Gd)$ of $e/G$, and thence an element $(c,\beta:d\to Fc)$ of $d/F$, so we obtain an element $(c, e \stackrel{\alpha}{\to} Gd \stackrel{G\beta}{\to} GFc)$ of $e/GF$.  Now we must show that any two elements $(c,\gamma:e\to GFc),(c',\gamma':e\to GFc')$ are connected.  Since $G$ is final, elements $(Fc,\gamma)$ and $(Fc',\gamma')$ of $e/G$ are connected.  It suffices to consider the case of a zig-zag of length one: a morphism $f:Fc\to Fc'$ such that 
+If functors $F:C\to D$ and $G: D\to E$ are final, then we show that $G\circ F$ is final.  For $e\in E$, there is an element $(d,\alpha:e\to Gd)$ of $e/G$, and thence an element $(c,\beta:d\to Fc)$ of $d/F$, so we obtain an element $(c, e \stackrel{\alpha}{\to} Gd \stackrel{G\beta}{\to} GFc)$ of $e/GF$.  Now we must show that any two elements $(c,\gamma:e\to GFc),(c',\gamma':e\to GFc')$ are connected.  Since $G$ is final, elements $(Fc,\gamma)$ and $(Fc',\gamma')$ of $e/G$ are connected.  It suffices to consider the case of a zig-zag of length one: a morphism $f:Fc\to Fc'$ such that 
 
 \begin{xymatrix}
   e 
@@ -106,7 +106,7 @@ Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $
 
 ## References
 
-* [[Ross Street]], [[R. F. C. Walters]], *The Comprehensive Factorization of Functor*, Bulletin of the American Mathematical Society 79(5): 936-941 ([bams:1183534973](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-79/issue-5/The-comprehensive-factorization-of-a-functor/bams/1183534973.full), [doi:10.1090/S0002-9904-1973-13268-9](https://doi.org/10.1090/S0002-9904-1973-13268-9))
+* [[Ross Street]], [[R. F. C. Walters]], *The Comprehensive Factorization of a Functor*, Bulletin of the American Mathematical Society 79(5): 936-941 ([bams:1183534973](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-79/issue-5/The-comprehensive-factorization-of-a-functor/bams/1183534973.full), [doi:10.1090/S0002-9904-1973-13268-9](https://doi.org/10.1090/S0002-9904-1973-13268-9))
 
 Note there is a mistake in the proof of the main theorem of the paper above, as noted on page 74 of:
 
