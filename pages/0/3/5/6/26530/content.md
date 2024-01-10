@@ -20,6 +20,7 @@ and in relation to [[integrable systems]]:
 
 
 #### As M5-brane worldvolume
+ {#ReferencesSWCurveAsM5Worldvolume}
 
 Observation that under [[geometric engineering of QFT|geometric engineering]] of [[D=4 N=2 SYM]] on [D4/NS5 intersections](NS5-brane#D4EndingOnNS5) and further [[duality between M-theory and type IIA string theory|lift]] to a single [[M5-brane]], the SW-curve is identified with the M5-[[worldvolume]] transverse to the SYM-spacetime:
 
