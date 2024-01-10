@@ -78,6 +78,14 @@ On [[differential cohomology]]:
 
 * [[Arun Debray]], *Differential Cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14338](https://arxiv.org/abs/2312.14338)&rbrack;
 
+On [[twisted cohomology]] (with focus on [[twisted ordinary cohomology]] and [[twisted K-theory]]):
+
+* [[Jonathan Rosenberg]], *Twisted cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03966](https://arxiv.org/abs/2401.03966)&rbrack;
+
+
+
+
+
 
 (...)
 
