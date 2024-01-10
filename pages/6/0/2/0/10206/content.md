@@ -49,6 +49,11 @@ Classification of twisted cohomology by [[fibrations]]/[[bundles]] of [[Eilenber
 
 * M. Bullejos, E. Faro, M. A. García-Muñoz, _Homotopy colimits and cohomology with local coefficients_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 44 no. 1 (2003), p. 63-80 &lbrack;[numdam:CTGDC_2003__44_1_63_0](http://www.numdam.org/item?id=CTGDC_2003__44_1_63_0)&rbrack;
 
+Review:
+
+* [[Jonathan Rosenberg]], *Twisted cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03966](https://arxiv.org/abs/2401.03966)&rbrack;
+
+
 Discussion as a special case of a more general notion of [[twisted cohomology|twisted]] [[non-abelian cohomology]] by [[(infinity,1)-categorical hom-spaces|$\infty$-categorical hom-spaces]] in [[slice (infinity,1)-toposes|slice $\infty$-toposes]]:
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Rem. 4.22 in: *[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal $\infty$-bundles -- _General Theory]]*, Journal of Homotopy and Related Structures, **10** 4 (2015) 749-801 &lbrack;[doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248)&rbrack;
