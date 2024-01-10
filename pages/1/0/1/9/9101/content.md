@@ -76,3 +76,6 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 [[!redirects 4d Chern-Simons theories]]
 [[!redirects 4-dimensional Chern-Simons theory]]
 [[!redirects 4-dimensional Chern-Simons theories]]
+
+[[!redirects D=4 Chern-Simons theory]]
+
