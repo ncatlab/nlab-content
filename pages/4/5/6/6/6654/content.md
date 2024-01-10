@@ -24,6 +24,11 @@ On the relation to $D=5$ [[holomorphic Chern-Simons theory]]:
 
 * [[Nathan Berkovits]], *$D=5$ Holomorphic Chern-Simons and the Pure Spinor Superstring* &lbrack;[arXiv:2211.06731](https://arxiv.org/abs/2211.06731)&rbrack;
 
+and to [[semi-topological 4d Chern-Simons theory]]:
+
+* [[Nathan Berkovits]], Rodrigo S. Pitombo, *4D Chern-Simons and the pure spinor $AdS_5 \times S^5$ superstring* &lbrack;[arXiv:2401.03976](https://arxiv.org/abs/2401.03976)&rbrack;
+
+
 ## Related entries
 
 * [[Berkovits superstring]]
