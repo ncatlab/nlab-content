@@ -66,6 +66,10 @@ I \otimes \phi(A)
 & \phi(A'') \otimes \mathbf{B}(FA, FA'')
 \end{tikzcd}
 
+## Properties
+
+- There is a [[bicategory]] of small $V$-enriched categories, Mealy morphisms, and Mealy cells. It is the [[Kleisli bicategory]] for the [[free cocompletion]] of a small $V$-category under [[copowers]]. This is analogous to the universal property of the bicategory [[Prof]] of [[profunctors]] as the Kleisli bicategory for the free cocompletion of a small category under [[small colimits]]. This is proven in [Paré 2012](#Pare12).
+
 ## References
 
 The notion of Mealy morphism between [[enriched categories]] was introduced in the paper: 
