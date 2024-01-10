@@ -59,6 +59,8 @@ Relation to the [[RNS string]]:
 
 * [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
 
+
+
 Relation to the [[Green-Schwarz superstring]]:
 
 * [[Max Guillen]], *Green-Schwarz and Pure Spinor Formulations of Chiral Strings* ([arXiv:2108.11724](https://arxiv.org/abs/2108.11724))
@@ -74,6 +76,10 @@ Discussion of [[string scattering amplitudes]]:
 Relation to $D=5$ [[holomorphic Chern-Simons theory]]:
 
 * [[Nathan Berkovits]], *$D=5$ Holomorphic Chern-Simons and the Pure Spinor Superstring* &lbrack;[arXiv:2211.06731](https://arxiv.org/abs/2211.06731)&rbrack;
+
+Relation to [[semi-topological 4d Chern-Simons theory]]:
+
+* [[Nathan Berkovits]], Rodrigo S. Pitombo, *4D Chern-Simons and the pure spinor $AdS_5 \times S^5$ superstring* &lbrack;[arXiv:2401.03976](https://arxiv.org/abs/2401.03976)&rbrack;
 
 
 
