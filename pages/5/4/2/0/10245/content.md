@@ -18,7 +18,7 @@
 
 There is supposed to be a $(p=3)$-[[brane]] in 6-dimensional [[supersymmetry|super]]-[[spacetime]] given by the [[Green-Schwarz action functional]] induced by the exceptional super Lie algebra $(3+2)$-cocycle on $\mathfrak{siso}(5,1)$ ([Hughes-Liu-Polchinski 86](#HughesLiuPolchinski86)).
 
-This is thought to be the [[intersecting brane|intersection]] locus of two [[M5-branes]] ([Papadopoulos & Townsend 1996](#PapadopoulosTownsend96), [Tseytlin 1996](#Tseytlin96), [Howe, Lambert & West 1998, p. 2](#HoweLambertWest98), [Kachru, Oz & Yin 1998](#KachruOzYin98)).
+This is thought to be the [[intersecting brane|intersection]] locus of two [[M5-branes]] ([Papadopoulos & Townsend 1996](#PapadopoulosTownsend96), [Tseytlin 1996](#Tseytlin96), [Howe, Lambert & West 1998, p. 2](#HoweLambertWest98), [Kachru, Oz & Yin 1998](#KachruOzYin98)), hence the [[duality between M-theory and type IIA string theory|M-theory lift]] of [D4/NS5-brane intersection](NS5-brane#D4EndingOnNS5).
 
 Since this brane has [[codimension]] 2, it is a *[[defect brane]]*.
 
