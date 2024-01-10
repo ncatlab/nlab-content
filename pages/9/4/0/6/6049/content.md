@@ -91,11 +91,26 @@ Combining the above two items, the corresponding [[worldvolume]] theories of the
 #### D4-branes ending on NS5-branes
  {#D4EndingOnNS5}
 
-see [Witten 97](#Witten97)
+See [Witten 1997](#Witten97).
 
-<img src="https://ncatlab.org/nlab/files/NS5-D4.jpg" width="440"/>
+\begin{imagefromfile}
+    "file_name": "NS5-D4.jpg",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [EGKRS 00](#EGKRS00)"
+\end{imagefromfile}
 
-> graphics grabbed from [EGKRS 00](#EGKRS00)
+
+The [[duality between M-theory and type IIA string theory|M-theory lift]] is a single [[M5-brane]] branching along a [[Seiberg-Witten curve]] (see [there](Seiberg-Witten+theory#ReferencesSWCurveAsM5Worldvolume)).
+In the singular limit this is the 
+[[intersecting brane|intersection]] locus of two [[M5-branes]] on an "[[M3-brane]]" (see there).
+
 
 #### D6-branes ending on NS5-branes
   {#D6BranesEndingOnNS5Branes}
