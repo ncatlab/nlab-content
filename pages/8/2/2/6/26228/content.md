@@ -40,3 +40,5 @@ Further references for T-duality:
 * [[Konrad Waldorf]], _Geometric T-duality: Buscher rules in general topology_, [arXiv:2207.11799](https://arxiv.org/abs/2207.11799).
 
 * [[Thomas Nikolaus]], [[Konrad Waldorf]], _Higher geometry for non-geometric T-duals_, [arXiv:1804.00677](https://arxiv.org/abs/1804.00677).
+
+[[!redirects adjusted connections]]
