@@ -33,8 +33,13 @@ On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]
 * [[Yannick Bertrand]], [[Stefan Hohenegger]], [[Olaf Hohm]], [[Henning Samtleben]], *Supersymmetric action for 6D $(4,0)$ supergravity*, JHEP (2022) &lbrack;[arXiv:2206.04100](https://arxiv.org/abs/2206.04100)&rbrack;
 
 
+On [[KK-reduction]] of [[D=10 supergravity]] and [[D=11 supergravity]] on [[squashed sphere|squashed]] [[7-spheres]] via [[exceptional field theory]]:
 
-## Related $n$Lab entries
+* Bastien Duboeuf, [[Emanuel Malek]], [[Henning Samtleben]]
+*Kaluza-Klein Spectrometry beyond Consistent Truncations: The Squashed $S^7$*,  J. High Energ. Phys. **2023** 62 (2023) &lbrack;[arXiv:2212.01135](https://arxiv.org/abs/2212.01135), <a href="https://doi.org/10.1007/JHEP04(2023)062">doi:10.1007/JHEP04(2023)062</a>&rbrack;
+
+
+## Related entries
 
 * [[supergravity]]
 
