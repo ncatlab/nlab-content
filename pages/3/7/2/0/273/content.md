@@ -224,6 +224,13 @@ For examples and discussion of this see
 
 * [[twisted form|twisted forms]] .
 
+## Related concepts
+
+* [[differential non-abelian cohomology]]
+
+* [[generalized cohomology]]
+
+* [[Chern-Weil theory]]
 
 ## References
  {#References}
