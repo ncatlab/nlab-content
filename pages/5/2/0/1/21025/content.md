@@ -47,6 +47,10 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   at: [[CQTS]] @ New York University, Abu Dhabi
 
+  [[MTheoryMath2024-Program.pdf:file]]
+
+  [[MTheoryMath2024-Abstracts.pdf:file]]
+
   (... more soon ...)
 
 \linebreak
