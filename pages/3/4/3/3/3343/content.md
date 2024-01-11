@@ -43,6 +43,13 @@ On [[schreiber:Higher Structures|higher structures]] in [[M-theory]]:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_,  Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
 
+
+On [[higher structures]] in [[string theory]] and [[M-theory]]:
+
+* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** (2019) 8-9 &lbrack;[arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
+
+
+
 On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
 
 * [[Martin Doubek]], [[Branislav Jurčo]], [[Ján Pulmann]], *Quantum L∞ Algebras and the Homological Perturbation Lemma*  Comm. Math. Phys. **367** (2019) 215–240 &lbrack;[arXiv:1712.02696](https://arxiv.org/abs/1712.02696), [doi:10.1007/s00220-019-03375-x](https://doi.org/10.1007/s00220-019-03375-x)&rbrack;
@@ -54,7 +61,11 @@ On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
 
 On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras|$L_\infty$-algebras]]:
 
-* [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, **69** 8--9 (2021) 2100075 $[$[arXiv:2102.11390](https://arxiv.org/abs/2102.11390), [doi:10.1002/prop.202100075](https://doi.org/10.1002/prop.202100075)$]$
+* [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, **69** 8--9 (2021) 2100075 &lbrack;[arXiv:2102.11390](https://arxiv.org/abs/2102.11390), [doi:10.1002/prop.202100075](https://doi.org/10.1002/prop.202100075)&rbrack;
+
+On [[higher gauge theory]]:
+
+* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
 
 category: people
