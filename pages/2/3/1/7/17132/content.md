@@ -25,10 +25,13 @@ On the work of [[Mike Duff]]:
 **478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
 
 
+On [[higher gauge theory]]:
+
+* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[super Yang-Mills theory]]
 
