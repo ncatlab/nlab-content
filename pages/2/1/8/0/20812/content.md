@@ -178,6 +178,7 @@ surveyed in:
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalizaed]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Introduction to Hypothesis H]]* ([here](/schreiber/show/Introduction+to+Hypothesis+H#OverviewStatementOfHypothesisH))
 
 
 Discussion of the [[Page charge]] in relation to the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape:
