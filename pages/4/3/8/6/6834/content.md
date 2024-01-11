@@ -120,6 +120,7 @@ The canonical example of this phenomenon is the [[RR-field]] in [[string theory]
 
 * [[adjusted Weil algebra]]
 
+
 ## References
 
 ### General
@@ -129,6 +130,8 @@ Introduction and exposition:
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _An invitation to higher gauge theory_, General Relativity and Gravitation 43 (2011), 2335-2392 ([arXiv:1003.4485](https://arxiv.org/abs/1003.4485))
 
 * [[Luigi Alfonsi]], §2 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+
+* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
 
 * PhysicsForums-Insights _[Why higher category theory in physics?](https://www.physicsforums.com/insights/higher-category-theory-physics/)_
