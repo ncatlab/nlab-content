@@ -18,7 +18,6 @@
 =--
 
 
-
 \linebreak
 
 
@@ -47,11 +46,226 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   at: [[CQTS]] @ New York University, Abu Dhabi
 
-  [[MTheoryMath2024-Program.pdf:file]]
+  program: [[MTheoryMath2024-Program.pdf:file]]
 
-  [[MTheoryMath2024-Abstracts.pdf:file]]
+  abstracts: [[MTheoryMath2024-Abstracts.pdf:file]]
 
-  (... more soon ...)
+{#Speakers2024} **Speakers:**
+
+* [[Luigi Alfonsi]]
+
+* [[Chris Blair]]
+
+* [[Mario Garcia-Fernandez]]
+
+* [[Grigorios Giotopoulos]]
+
+* [[Fei Han]]
+
+* [[Yang-Hui He]]
+
+* [[Olaf Hohm]]
+
+* [[Chris Hull]]
+
+* [[Neil Lambert]]
+
+* [[Emanuel Malek]]
+
+* [[Ruben Minasian]]
+
+* [[Christian Saemann]]
+
+* [[Hisham Sati]]
+
+* [[Urs Schreiber]]
+
+* [[Carlos Shahbazi]]
+
+* [[Eric Sharpe]]
+
+\linebreak
+
+\linebreak
+
+**Program:**
+
+* 15 Jan 2024
+
+  [[Neil Lambert]]:
+
+  **Non-Relativistic M2-Branes and AdS/CFT**
+
+  cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
+
+
+\linebreak
+
+* 15 Jan 2024
+
+  [[Carlos Shahbazi]]:
+
+  **The Differential Geometry and Topology of Four-
+Dimensional Universal Supergravity**
+
+  cf.: [arXiv:2101.07236](pre-metric+electromagnetism#LazaroiuShahbazi23)
+
+\linebreak
+
+* 15 Jan 2024
+
+  [[Mario Garcia-Fernandez]]:
+
+  **Gauge Theory for String Algebroids**
+
+  cf.: [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler)  
+
+\linebreak
+
+* 15 Jan 2024
+
+  [[Grigorios Giotopoulos]]:
+
+  **Towards Non-Perturbative Lagrangian Field Theory via
+the Topos of Smooth Sets**
+
+  cf.: [arXiv:2312.16301](smooth+set#GiotopoulosSati23)
+
+
+\linebreak
+
+* 15 Jan 2024
+
+  [[Luigi Alfonsi]]:
+
+  **Towards Non-Perturbative BV-Theory via Derived
+Geometry and the Puzzle of Quantisation**
+
+  cf.: [arXiv:arXiv:2307.15106](BV-BRST+formalism#AlfonsiYoung23)
+
+\linebreak
+
+
+* 15 Jan 2024
+
+  [[Eric Sharpe]]:
+
+  **Decomposition of 2D Pure Yang-Mills and the Gross-
+Taylor String Theory**
+
+  cf.: [arXiv:2307.08729](https://arxiv.org/abs/2307.08729)
+
+\linebreak
+
+* 16 Jan 2024
+
+  [[Ruben Minasian]]:
+
+  **Constraining and Un-constraining Supergravities**
+
+
+\linebreak
+
+* 16 Jan 2024
+
+  [[Emanuel Malek]]:
+
+  **Kaluza-Klein Spectrometry for String Theory
+Compactifications**
+
+  cf.: [arXiv:2212.01135](exceptional+field+theory#DuboeufMalekSamtleben23)
+  
+\linebreak
+
+* 16 Jan 2024
+
+  [[Fei Han]]:
+
+  **Cubic Forms, Anomaly Cancellation and Modularity**
+
+  cf.: [arXiv:2005.02344](https://arxiv.org/abs/2005.02344)
+
+\linebreak
+
+* 16 Jan 2024
+
+  [[Meng-Chwan Tan]]:
+
+  **Topological-Holomorphic $\mathcal{N}=4$ Gauge Theory: From Langlands Duality of Holomorphic Invariants to Mirror Symmetry of Quasi-Topological Strings**
+
+  cf.: [arXiv:2305.15965](https://arxiv.org/abs/2305.15965)
+
+\linebreak
+
+* 16 Jan 2024
+
+  [[Olaf Hohm]]:
+
+  **Double Copy, Double Field Theory & Homotopy
+Algebras**
+
+\linebreak
+
+* 16 Jan 2024
+
+  [[Christian Saemann]]:
+
+  **Atiyah Algebroids for Higher and Groupoid Gauge
+Theories**
+
+\linebreak
+
+* 17 Jan 2024
+
+  [[Chris Hull]]:
+
+  **Self-Dual $p$-Form Gauge Fields and the Topology of the
+Graviton**
+
+  cf.: [arXiv:2310.18441](https://arxiv.org/abs/2310.18441)
+
+\linebreak
+
+* 17 Jan 2024
+
+  [[Yang-Hui He]]:
+
+  **The AI Mathematician**
+
+\linebreak
+
+* 17 Jan 2024
+
+  [[Chris Blair]]:
+
+  **Geometry and Dualities of Decoupling Limits in String
+Theory and M-Theory**
+
+  cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
+
+\linebreak
+
+* 17 Jan 2024
+
+  [[Hisham Sati]]:
+
+  **M-Theory and Hypothesis H**
+
+\linebreak
+
+* 17 Jan 2024
+
+  [[Urs Schreiber]]:
+
+  **[[schreiber:Introduction to Hypothesis HIntroduction to Quantum Hypothesis H]]**
+
+  
+
+\linebreak
+
+
+
+
 
 \linebreak
 
