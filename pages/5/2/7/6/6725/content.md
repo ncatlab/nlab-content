@@ -232,7 +232,7 @@ Explicit discussion of [[worldvolume]] [[CFT]] of the [[M2-branes]] ending on th
 After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechanism, see the references [there](5-dimensional+supergravity#ReferencesHWCompactification).
 
 
-Disucussion of the [[duality between heterotic and type I string theory]] includes
+Discussion of the [[duality between heterotic and type I string theory]] includes
 
 * {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
 
@@ -252,6 +252,10 @@ Discussion of [[phenomenology]]/[[string phenomenology]] for the [[heterotic M-t
 and with emphasis on [[heterotic line bundle]]-models:
 
 * [[Sebastian Dumitru]], *The strongly coupled $E_8 \times E_8$ heterotic string: Geometry & Phenomenology* &lbrack;[arXiv:2206.12310](https://arxiv.org/abs/2206.12310)&rbrack;
+
+See also:
+
+* Cédric Deffayet, [[Burt Ovrut]], [[Paul Steinhardt]], *Stable Vacua with Realistic Phenomenology and Cosmology in Heterotic M-theory Satisfying Swampland Conjectures* &lbrack;[arXiv:2401.04828](https://arxiv.org/abs/2401.04828)&rbrack;
 
 
 
