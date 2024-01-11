@@ -4,6 +4,10 @@
 
 ## Selected writings:
 
+On [[heterotic M-theory]]:
+
+* {#LalakLukasOvrut97} Zygmunt Lalak, [[André Lukas]], [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
+
 On [[gaugino condensation]] in [[heterotic string theory]] and [[Horava-Witten theory]]:
 
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Gaugino condensation in M theory on $S^1/Z_2$_, Phys. Rev. D 57, 7529 (1998) ([arXiv:hep-th/9711197](https://arxiv.org/abs/hep-th/9711197), [doi:10.1103/PhysRevD.57.7529](https://doi.org/10.1103/PhysRevD.57.7529))
