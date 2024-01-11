@@ -994,29 +994,34 @@ from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-alge
 
 ## Related concepts
 
-[[Whitehead tower]] of the [[orthogonal group]]
 
-* [[orientation]]
+* [[nonabelian differential cohomology]]
 
-* [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
+* [[Whitehead tower]] of the [[orthogonal group]]
 
-  [[twisted spin^c structure]]
+  * [[orientation]]
 
-* [[string structure]],  **differential string structure**
+  * [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
 
-  * [[chiral Dolbeault complex]]
+    [[twisted spin^c structure]]
 
-* [[fivebrane structure]],
+  * [[string structure]],  **differential string structure**
 
-* [[twisted differential c-structure]]
+    * [[chiral Dolbeault complex]]
 
-  * **differential string structure**
+  * [[fivebrane structure]]
 
-  * [[supergravity C-field]]
+    * [[schreiber:Hypothesis H]]
 
-  * [[twisted differential fivebrane structure]]
+  * [[twisted differential c-structure]]
 
-  * [[differential T-duality]]
+    * **differential string structure**
+
+    * [[supergravity C-field]]
+
+    * [[twisted differential fivebrane structure]]
+
+    * [[differential T-duality]]
   
 ## References
 
