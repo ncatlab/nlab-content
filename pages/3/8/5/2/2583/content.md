@@ -505,6 +505,10 @@ This is due to ([Fiorenza-Rogers-Schreiber 13, section 2.6.1](#FiorenzaRogersSch
 
 ## Related concepts
 
+* [[string Lie 2-algebra]]
+
+* [[string Lie algebroid]]
+
 * [[Platonic 2-group]]
 
 [[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]] $\hookrightarrow$ [[general linear group]]
