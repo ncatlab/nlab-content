@@ -10,7 +10,6 @@
 =--
 
 
-# Regular and exact completions
 * table of contents
 {: toc}
 
