@@ -242,6 +242,8 @@ hence an embedding of the [[quantomorphism n-group]] into the $n$-[[group of bis
 
 [[!include higher Atiyah groupoid - table]]
 
+* [[string algebroid]]
+
 * [[symplectic Lie n-algebroid]]
 
   * [[symplectic manifold]]
