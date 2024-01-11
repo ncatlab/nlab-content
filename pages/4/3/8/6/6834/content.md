@@ -110,6 +110,8 @@ The canonical example of this phenomenon is the [[RR-field]] in [[string theory]
 
 ## Related entries
 
+* [[differential nonabelian cohomology]]
+
 * [[Wilson surface]]
 
 * [[local prequantum field theory]]
