@@ -19,10 +19,9 @@
 
 Differential cohomology is a refinement of plain [[cohomology]] such that a differential cocycle is to its underlying ordinary [[cocycle]] as a [[connection on an infinity-bundle|bundle with connection]] is to its underlying [[principal infinity-bundle|bundle]].
 
-The best known version of differential cohomology is a differential refinement of [[generalized (Eilenberg-Steenrod) cohomology]], hence of [[cohomology]] in [[stable homotopy theory]] (as opposed to more general [[nonabelian cohomology]]). For [[ordinary cohomology]] the refinement to [[ordinary differential cohomology]] is modeled for instance by [[complex line bundles]] with [[connection on a bundle]], [[bundle gerbes with connection]], etc, and generally by [[Deligne cohomology]]. Similarly, differential refinements of [[topological K-theory]] to [[differential K-theory]] may be presented by [[vector bundles]] [[connection on a bundle|with connection]] (e.g [Simons-Sullivan 08](#SimonsSullivan08)).
+The best known version of differential cohomology is a differential refinement of [[generalized (Eilenberg-Steenrod) cohomology]], hence of [[cohomology]] in [[stable homotopy theory]] (as opposed to more general [[nonabelian cohomology]], cf. *[[nonabelian differential cohomology]]*). For [[ordinary cohomology]] the refinement to [[ordinary differential cohomology]] is modeled for instance by [[complex line bundles]] with [[connection on a bundle]], [[bundle gerbes with connection]], etc, and generally by [[Deligne cohomology]]. Similarly, differential refinements of [[topological K-theory]] to [[differential K-theory]] may be presented by [[vector bundles]] [[connection on a bundle|with connection]] (e.g [Simons-Sullivan 08](#SimonsSullivan08)).
 
-A systematic characterization and construction of differential [[generalized (Eilenberg-Steenrod) cohomology]] in terms of 
-suitable [[homotopy fiber products]] of the [[mapping spectra]] [[Brown representability theorem|representing]] the underlying [[cohomology theory]] with [[differential form]] data was then given in ([Hopkins-Singer 02](#HopkinsSinger02)) (motivated by discussion of the [[quantization]] of the [[M5-brane]] via holographically dual [[7d Chern-Simons theory]] by [[Edward Witten]]). 
+A systematic characterization and construction of differential [[generalized (Eilenberg-Steenrod) cohomology]] in terms of  suitable [[homotopy fiber products]] of the [[mapping spectra]] [[Brown representability theorem|representing]] the underlying [[cohomology theory]] with [[differential form]] data was then given in ([Hopkins-Singer 02](#HopkinsSinger02)) (motivated by discussion of the [[quantization]] of the [[M5-brane]] via holographically dual [[7d Chern-Simons theory]] by [[Edward Witten]]). 
 
 In this stable case one characteristic property of differential cohomology that was first observed empirically in [[ordinary differential cohomology]] ([Simons-Sullivan 07](#SimonsSullivan07)) and [[differential K-theory]] ([Simons-Sullivan 08](#SimonsSullivan08)) is that it is a kind of cohomology theory which fits into a _[[differential cohomology diagram]]_ which is an interlocking system of two [[fiber sequences]] that expresses how the data of a geometric bundle with connection may be decomposed into the underlying bundle and the [[curvature]] of the connection and how connections on trivial bundles as well as bundles with [[flat infinity-connection|flat connections]] are examples of the general concept. (The [[homotopy fiber product]] used in ([Hopkins-Singer 02](#HopkinsSinger02)) provides one of the two commuting squares in this diagram.)
 
@@ -398,6 +397,8 @@ See [[differential cobordism cohomology theory]]
 
 
 ## Related concepts
+
+* [[nonabelian differential cohomology]]
 
 * [[tangent cohesion]], [[smooth spectrum]]
 
