@@ -102,6 +102,14 @@ Application to [[AdS4/CFT3]]:
 
 * Oscar Varela, _Super-Chern-Simons spectra from Exceptional Field Theory_ ([arXiv:2010.09743](https://arxiv.org/abs/2010.09743))
 
+See also:
+
+On application to [[KK-reduction]] of [[D=10 supergravity]] and [[D=11 supergravity]] on [[squashed sphere|squashed]] [[7-spheres]]:
+
+* {#DuboeufMalekSamtleben23} Bastien Duboeuf, [[Emanuel Malek]], [[Henning Samtleben]],
+*Kaluza-Klein Spectrometry beyond Consistent Truncations: The Squashed $S^7$*,  J. High Energ. Phys. **2023** 62 (2023) &lbrack;[arXiv:2212.01135](https://arxiv.org/abs/2212.01135), <a href="https://doi.org/10.1007/JHEP04(2023)062">doi:10.1007/JHEP04(2023)062</a>&rbrack;
+
+
 
 
 
