@@ -5,7 +5,7 @@
 
 On [[heterotic M-theory]]:
 
-* {#LalakLukasOvrut97} Zygmunt Lalak, Andr&eacute; Lukas, [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
+* {#LalakLukasOvrut97} Zygmunt Lalak, [[André Lukas]], [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
 
 * {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_, TASI 2001. 2004. 359-407  ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032), [doi:10.1142/9789812702821_0007](https://doi.org/10.1142/9789812702821_0007))
 
@@ -17,6 +17,8 @@ On [[string phenomenology]] in [[heterotic M-theory]]:
 * {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
 
 * {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
+
+* Cédric Deffayet, [[Burt Ovrut]], [[Paul Steinhardt]], *Stable Vacua with Realistic Phenomenology and Cosmology in Heterotic M-theory Satisfying Swampland Conjectures* &lbrack;[arXiv:2401.04828](https://arxiv.org/abs/2401.04828)&rbrack;
 
 and with emphasis on [[heterotic line bundles]] in the [[hidden sector]]:
 
