@@ -41,6 +41,7 @@ On the other hand, [Borsten, Kim & Saemann 2021](#BorstenKimSaemann21) argue tha
 
 * [[principal infinity-connection]]
 
+* [[nonabelian differential cohomology]]
 
 ## References
 
