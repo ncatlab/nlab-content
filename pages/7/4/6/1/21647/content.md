@@ -62,7 +62,7 @@ General exposition:
 
 Discussion in [[string theory]]/[[M-theory]]:
 
-* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. Volume 67, Issue 8-9 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001))
+* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** (2019) 8-9 &lbrack;[arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The rational higher structure of M-theory]]_ 
 in _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik, 2019 ([arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017))
