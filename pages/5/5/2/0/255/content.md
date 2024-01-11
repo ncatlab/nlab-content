@@ -314,7 +314,7 @@ such that it respects, in the evident way, the [[monad units]]
   \ar[
     d,
     "{
-      \mathrm{ret}^{\mathcal{E}}
+      \mathrm{ret}^{\mathcal{E}'}
     }"{}
   ]
   \\
@@ -353,7 +353,7 @@ and the joins:
     rr,
     "{
       \mathrm{trans}^{ \mathcal{E} \to \mathcal{E}' }_{
-        \mathcal{E}(\text{-})
+        \mathcal{E}' (\text{-})
       }
     }"
   ]
