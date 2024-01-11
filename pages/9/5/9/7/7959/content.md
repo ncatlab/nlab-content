@@ -374,6 +374,11 @@ and with emphasis on [[heterotic line bundle]]-models:
 
 * [[Sebastian Dumitru]], *The strongly coupled $E_8 \times E_8$ heterotic string: Geometry & Phenomenology* &lbrack;[arXiv:2206.12310](https://arxiv.org/abs/2206.12310)&rbrack;
 
+See also:
+
+* Cédric Deffayet, [[Burt Ovrut]], [[Paul Steinhardt]], *Stable Vacua with Realistic Phenomenology and Cosmology in Heterotic M-theory Satisfying Swampland Conjectures* &lbrack;[arXiv:2401.04828](https://arxiv.org/abs/2401.04828)&rbrack;
+
+
 
 #### Non-supersymmetric models
 
