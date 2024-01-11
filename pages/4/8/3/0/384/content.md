@@ -194,9 +194,9 @@ $$
       &(po)&
     \downarrow
     \\
-    \underset{i \in I}{\sqcup} D^n
+    \underset{i \in I}{\sqcup} D^{n_i}
       &\longrightarrow&
-    X \cup_{(\phi_i)_{i \in I}} \left(\underset{i \in I}{\sqcup} D^n\right)
+    X \cup_{(\phi_i)_{i \in I}} \left(\underset{i \in I}{\sqcup} D^{n_i}\right)
   }
   \,.
 $$
