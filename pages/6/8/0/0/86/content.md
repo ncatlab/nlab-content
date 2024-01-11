@@ -445,9 +445,12 @@ $$
 
 ### Non-perturbative
 
-On [[non-perturbative quantum field theory|non-perturbative]] enhancements of BV-BRST formalism
+On [[non-perturbative quantum field theory|non-perturbative]] enhancements of BV-BRST formalism cast in ([[differential cohesion|differential]]) [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] theory:
 
-* [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
+* [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
+
+* {#AlfonsiYoung23} [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
+
 
 ## Hamiltonian BFV -- Homotopical Poisson reduction
  {#HamiltonianBV}
