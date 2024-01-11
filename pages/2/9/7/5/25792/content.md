@@ -312,9 +312,9 @@ Further discussion:
 * [[Yuri N. Obukhov]], *Premetric approach in gravity and electrodynamics*, in: *The Fifteenth Marcel Grossmann Meeting* (2022) 654-659 &lbrack;[doi:10.1142/9789811258251_0087](https://doi.org/10.1142/9789811258251_0087), [arXiv:1904.00180](https://arxiv.org/abs/1904.00180)&rbrack;
 
 
-* [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around Def. 1.16 in: *The duality covariant geometry and DSZ quantization of abelian gauge theory*, Advances in Theoretical and Mathematical Physics **26** (2022) 2213–2312 &lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236), [doi:10.4310/ATMP.2022.v26.n7.a5](https://dx.doi.org/10.4310/ATMP.2022.v26.n7.a5)&rbrack;
+* {#LazaroiuShahbazi23} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around Def. 1.16 in: *The duality covariant geometry and DSZ quantization of abelian gauge theory*, Advances in Theoretical and Mathematical Physics **26** (2022) 2213–2312 &lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236), [doi:10.4310/ATMP.2022.v26.n7.a5](https://dx.doi.org/10.4310/ATMP.2022.v26.n7.a5)&rbrack;
 
-* [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around (3) in: *The geometry and DSZ quantization of four-dimensional supergravity*, Letters in Mathematical Physics  **113** 4 (2023) &lbrack;[arXiv:2101.07778](https://arxiv.org/abs/2101.07778), [doi:10.1007/s11005-022-01626-y](https://doi.org/10.1007/s11005-022-01626-y)&rbrack;
+* {#LazaroiuShahbazi23} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around (3) in: *The geometry and DSZ quantization of four-dimensional supergravity*, Letters in Mathematical Physics  **113** 4 (2023) &lbrack;[arXiv:2101.07778](https://arxiv.org/abs/2101.07778), [doi:10.1007/s11005-022-01626-y](https://doi.org/10.1007/s11005-022-01626-y)&rbrack;
 
 
 &lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236)&rbrack;
