@@ -251,13 +251,13 @@ For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[su
 
 * [[special orthogonal Lie algebra]]
 
-* **string Lie 2-algebra**
-
 * [[fivebrane Lie 6-algebra]]
 
 * [[type II supergravity Lie 2-algebra]]
 
 * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
+
+* [[string Lie algebroid]]
 
 ## References
 
