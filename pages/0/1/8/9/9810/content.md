@@ -61,6 +61,10 @@ Then
 
 * [[Jean-Louis Verdier]], _Fonctorialit&#233; de cat&#233;gories de faisceaux_, _Th&#233;orie des topos et cohomologie &#233;tale de sch&#233;mas_ (SGA 4), Tome 1, Lect. Notes in Math. 269, Springer-Verlag, 1972, pp. 265&#8211;298.
 
+See also Section 2 of
+
+* [[Anders Kock]], [[Ieke Moerdijk]], _Presentations of étendues_. Cahiers Topologie Géom. Différentielle Catég., 32(2):145–164, 1991.  [EuDML](https://eudml.org/doc/91476).
+
 * [[Alexander Beilinson]], _p-adic periods and derived de Rham cohomology_.  [arXiv:1102.1294](http://arxiv.org/abs/1102.1294)
   {#Beilinson2011}
 
