@@ -27,6 +27,8 @@ In a [[finitely complete category|finitely complete]] [[site]] $(S,J)$ the assig
 
 * [[coset space coprojections admitting local sections]]
 
+* [[logarithm]]
+
 ## Related concepts
 
 * [[global section]]
