@@ -30,7 +30,7 @@ On [[étale infinity-groupoids]]:
 
 On [[derived smooth manifolds]]:
 
-* [[David Carchedi]], Pelle Steffens, _On the universal property of derived manifolds_ &lbrack;[arXiv:1905.06195](https://arxiv.org/abs/1905.06195)&rbrack; 
+* [[David Carchedi]], [[Pelle Steffens]], _On the universal property of derived manifolds_ &lbrack;[arXiv:1905.06195](https://arxiv.org/abs/1905.06195)&rbrack; 
 
 * [[David Carchedi]], *Derived Manifolds as Differential Graded Manifolds* &lbrack;[arXiv:2303.11140](https://arxiv.org/abs/2303.11140)&rbrack;
 
