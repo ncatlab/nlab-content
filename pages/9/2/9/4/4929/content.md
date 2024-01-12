@@ -65,6 +65,10 @@ systems together with a [[partial function]] $\lambda : L_1 \to L_2$ such that $
 We 
 write $LTS$ for the category of labeled transition systems.
 
+\begin{remark}
+The term *labelled transition system* can also refer to the data of a domain, a set of labels and a transition relation, without any distinguished initial or final sets.
+\end{remark}
+
 ##TSs as relational structures##
 
 We can view a transition system as a [[relational structure]]. The set of states is the 'set of worlds' and for each event, $e \in E$ we define a relation $R_e \subseteq S\times S$ by $(s,s')\in R_e$ if and only if, $(s,e,s')\in Trans$.  We thus derive a relation for each event and, conversely, if we know the family $\{R_e \mid e\in E\}$, then we can rebuild $Trans$ in the obvious way.  
