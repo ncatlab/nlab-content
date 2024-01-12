@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[derived smooth manifolds]]:
+
+* [[David Spivak]], _Derived smooth manifolds_, Duke Math. J. **153** 1 (2010) 22-128 &lbrack;[arXiv:0810.5174](http://arxiv.org/abs/0810.5174), [doi:10.1215/00127094-2010-021](https://doi.org/10.1215/00127094-2010-021)&rbrack;
+
+
 On [[(∞,1)-categorical hom-spaces]] in terms of [[quasi-categories]]:
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_, Algebraic & Geometric Topology 11 (2011) 263–325 ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263))
