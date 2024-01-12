@@ -104,7 +104,7 @@ A purely [[category theory|category-theoretic]] proof is given in
 
 and in 
 
-* [[Jonathan Wise]], _The Snake Lemma_ (2011) ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
+* {#Wise} [[Jonathan Wise]], *A non-elementary proof of the snake lemma* (2011, 2023) &lbrack;[pdf](https://math.colorado.edu/%7Ejonathan.wise/papers/snake.pdf), [[Wise-SnakeLemma.pdf:file]], [MO:a/7531](https://mathoverflow.net/a/7531/381)&rbrack;
 
 See also
 
