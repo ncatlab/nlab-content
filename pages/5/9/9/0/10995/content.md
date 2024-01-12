@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[computer science]], the notion of *arrows* &lbrack;[Hughes 20000](#Hughes00)&rbrack; generalizes that of _[[monads in computer science]]_.
+In [[computer science]], the notion of *arrows* &lbrack;[Hughes 2000](#Hughes00)&rbrack; generalizes that of _[[monads in computer science]]_.
 
 More concretely, the notion of *arrow* abstracts that of the [[hom-functor|hom-]][[profunctor]] of the [[Kleisli category]] $\mathrm{Kl}(T)$ for a [[strong monad]] $T \colon \mathbf C \to \mathbf C$ as an endoprofunctor on $\mathbf C$.
 
