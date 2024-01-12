@@ -42,7 +42,7 @@ The Salamander lemma, prop. \ref{SalamanderLemma} below, is a statement about th
 
 As always in [[homological algebra]], when we consider _[[elements]]_ of [[objects]] in the ambient [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[embedding theorems](abelian+category#EmbeddingTheorems)_ has been used to embed it into such, by a [[faithful functor|faithful]] and [[exact functor]], so that these elements are actual elements of the [[sets]] underlying these [[modules]].
 
-In the following, many of the [[proofs]] are spelled out in terms of elements this way, and we will not always repeat this assumption. This should help to amplify how utterly elementary the salamander lemma is. But explicitly element-free/general abstract proofs can of course be given without much more effort, too, see ([Wise](#Wise)).
+In the following, many of the [[proofs]] are spelled out in terms of elements this way, and we will not always repeat this assumption. This should help to amplify how utterly elementary the salamander lemma is. But explicitly element-free/general abstract proofs can of course be given without much more effort, too, see [Wise](#Wise).
 
 =--
 
@@ -1202,14 +1202,16 @@ From the [[snake lemma]] one obtains in turn the
 
 The salamander lemma is due to 
 
-* [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958))
- {#Bergman}
+* {#Bergman} [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958)) 
 
 based on an earlier unpublished preprint which was circulated ([pdf](http://sbseminar.files.wordpress.com/2007/11/diagramchasingbergman.pdf)).
 
-An exposition of this is in 
+Exposition:
 
-* [[Anton Geraschenko]], _The Salamander lemma_ ([blog post](http://sbseminar.wordpress.com/2007/11/13/anton-geraschenko-the-salamander-lemma/))
+* [[Anton Geraschenko]], _The Salamander lemma_ (2007) &lbrack;[blog post](http://sbseminar.wordpress.com/2007/11/13/anton-geraschenko-the-salamander-lemma/)&rbrack;
+
+* {#Wise} [[Jonathan Wise]], §4 in: *A non-elementary proof of the snake lemma* (2011, 2023) &lbrack;[pdf](https://math.colorado.edu/%7Ejonathan.wise/papers/snake.pdf), [[Wise-SnakeLemma.pdf:file]], [MO:a/7531](https://mathoverflow.net/a/7531/381)&rbrack;
+
 
 
 [[!redirects Salamander lemma]]
