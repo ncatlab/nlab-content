@@ -22,7 +22,7 @@ This page is to collect some links related to the text
 
   2014
 
-  ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
+  ([pdf](https://rezk.web.illinois.edu/global-cohesion.pdf), [[Rezk14.pdf:file]])
 
 on the [[global equivariant homotopy theory]] as a [[cohesive (∞,1)-topos]]. 
 
