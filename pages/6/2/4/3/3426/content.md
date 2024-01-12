@@ -38,7 +38,14 @@ On [[Donaldson-Thomas invariants]]:
 
 * Dominic Joyce, Yinan Song, _A theory of generalized Donaldson-Thomas invariants_ ([arxiv/0810.5645](http://arxiv.org/abs/0810.5645
 
-## Related $n$Lab entries
+On [[derived smooth manifolds]] (derived [[orbifolds]]):
+
+Something similar (derived [[orbifolds]]):
+
+* [[Dominic Joyce]], _D-orbifolds, Kuranishi spaces, and polyfolds_ talk notes (Jan 2010) &lbrack;[pdf](http://people.maths.ox.ac.uk/joyce/dmtalk.pdf), [[Joyce-DOrbifolds.pdf:file]]&rbrack;
+
+
+## Related entries
 
 * [[special holonomy]]
 
