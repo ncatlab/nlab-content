@@ -106,6 +106,10 @@ On the [[M-wave]]:
 
 * {#Hull84} [[Chris Hull]], _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B 139 (1984) 39 ([spire](http://inspirehep.net/record/14499?ln=en))
 
+On [[type II string theory]] and [[M-theory]] on [[spacetime]] with different [[signature of a metric|signatures]]:
+
+* [[Chris Hull]]. *Duality and the signature of space-time*, Journal of High Energy Physics **1998** 11 (1999) 017 &lbrack;[arXiv:hep-th/9807127](https://arxiv.org/abs/hep-th/9807127), [doi:10.1088/1126-6708/1998/11/017](https://doi.org/10.1088/1126-6708/1998/11/017)&rbrack;
+
 On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]:
 
 * [[Chris Hull]], *Strongly Coupled Gravity and Duality*, Nucl.Phys. B **583** (2000) 237-259 &lbrack;[arXiv:hep-th/0004195](https://arxiv.org/abs/hep-th/0004195), <a href="https://doi.org/10.1016/S0550-3213(00)00323-0">doi:10.1016/S0550-3213(00)00323-0</a>&rbrack;
@@ -114,12 +118,13 @@ On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]
 
 * [[Chris Hull]], *Gravity, Duality and Conformal Symmetry* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
 
-On [[type II string theory]] and [[M-theory]] on [[spacetime]] with different [[signature of a metric|signatures]]:
 
-* [[Chris Hull]]. *Duality and the signature of space-time.* Journal of High Energy Physics 1998, no. 11 (1999): 017.
+On [[Lagrangian densities]] for [[self-dual higher gauge theory|self-dual form fields]]:
+
+* {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes* &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[string theory]]
 
