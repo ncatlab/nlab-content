@@ -360,7 +360,6 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 
 * {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv.Theor.Math.Phys.2:601-618, 1998 ([arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205))
 
-
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
 
 * {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
@@ -368,6 +367,10 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 * [[Daniel Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
 
 * [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_ ([arXiv:hep-th/0307152](http://arxiv.org/abs/hep-th/0307152))
+
+* {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Consistency of M-Theory on nonorientable manifolds*, The Quarterly Journal of Mathematics **72** 1-2 (2021) 603–671 &lbrack;[arXiv:1908.09916](https://arxiv.org/abs/1908.09916), [doi:10.1093/qmath/haab007]( https://doi.org/10.1093/qmath/haab007)&rbrack;
+
+* {#HanHuangLiuZhang20} [[Fei Han]], [[Ruizhi Huang]], [[Kefeng Liu]], [[Weiping Zhang]], *Cubic forms, anomaly cancellation and modularity*, Advances in Mathematics **394** (2022) 108023 &lbrack;[arXiv:2005.02344](https://arxiv.org/abs/2005.02344), [doi:10.1016/j.aim.2021.108023](https://doi.org/10.1016/j.aim.2021.108023)&rbrack;
 
 
 ### Description by exceptional generalized geometry
