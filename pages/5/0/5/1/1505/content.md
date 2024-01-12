@@ -25,6 +25,10 @@ On [[infinity-stacks]] and [[derived stacks]]:
 
 * [[Bertrand Toën]], _Higher and derived stacks: a global overview_, In: _Algebraic Geometry Seattle 2005_, Proceedings of Symposia in Pure Mathematics, Vol. 80.1, AMS 2009 ([arXiv:math/0604504](http://arxiv.org/abs/math/0604504), [doi:10.1090/pspum/080.1](https://doi.org/10.1090/pspum/080.1))
 
+On [[derived algebraic geometry]]:
+
+* {#ToenVezzosi04} [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, Memoirs of the AMS **193** (2008) &lbrack;[arXiv:math/0404373](http://arxiv.org/abs/math/0404373), [ams:memo-193-902](https://bookstore.ams.org/memo-193-902)&rbrack;
+
 
 See also
 
