@@ -42,13 +42,30 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 ## M-Theory and Mathematics 2024
  {#2024}
 
-* on January 15 - 17,  2024
+\begin{imagefromfile}
+    "file_name": "MTheoryAndMath2024-Poster.jpg",
+    "float": "right",
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
-  at: [[CQTS]] @ New York University, Abu Dhabi
 
-  program: [[MTheoryMath2024-Program.pdf:file]]
+on January 15 - 17,  2024
 
-  abstracts: [[MTheoryMath2024-Abstracts.pdf:file]]
+at [[CQTS]] @ New York University, Abu Dhabi
+
+* program: [[MTheoryAndMath2024-Program.pdf:file]]
+
+* abstracts: [[MTheoryAndMath2024-Abstracts.pdf:file]]
+
+* poster: [[MTheoryAndMath2024-Poster.pdf:file]]
+  
 
 {#Speakers2024} **Speakers:**
 
@@ -86,9 +103,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-\linebreak
-
-**Program:**
+**Talks:**
 
 * 15 Jan 2024
 
@@ -97,7 +112,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
   **Non-Relativistic M2-Branes and AdS/CFT**
 
   cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
-
 
 \linebreak
 
@@ -131,6 +145,7 @@ the Topos of Smooth Sets**
 
   cf.: [arXiv:2312.16301](smooth+set#GiotopoulosSati23)
 
+  > Any notion of [[non-perturbative field theory|non-pertubative]] ([[prequantum geometry|pre]])-[[quantization]] of [[classical field theories]], as in particular expected in [[M-theory|M-theoretic]] contexts, presupposes a [[convenient category of topological spaces|convenient category]] within which non-pertubative classical field theory may be rigorously formalised. In this talk, I will describe [[smooth sets]] as a category of [[generalized smooth spaces]], completely determined by "how they may be smoothly probed by finite dimensional manifolds". Formally, this is the "[[topos]] [[category of sheaves|of sheaves]] over the [[site]] of [[Cartesian spaces]]". I will then explain how the [[variational calculus|variational algorithm]] of ([[bosonic field|bosonic]]) [[classical field theory]] and the space of [[on-shell]] [[field (physics)|fields]] naturally take place in [[smooth sets]], along with many more field theoretic concepts. Time permitting, I will indicate how the setting naturally generalizes to include the description of [[synthetic differential geometry|infinitesimal]] (pertubative) structure, [[fermionic fields]], and ([[gauge field|gauge]]) fields with [[internal symmetries]].
 
 \linebreak
 
@@ -142,6 +157,8 @@ the Topos of Smooth Sets**
 Geometry and the Puzzle of Quantisation**
 
   cf.: [arXiv:arXiv:2307.15106](BV-BRST+formalism#AlfonsiYoung23)
+
+  > In this talk I will introduce and discuss a global geometric framework which allows one to encode a natural [[non-perturbative field theory|non-perturbative]] generalisation of classical [[BV-formalism|Batalin–Vilkovisky(BV-)theory]]. First, I will set the stage by briefly describing the current state of the art of [[perturbative quantum field theory|perturbative]] [[BV-theory]]. Then, I will introduce a concrete model of [derived differential geometry]], whose geometric objects are [[formal geometry|formal]] [[derived geometry|derived]] [[smooth stacks]] (i.e. [[stacks]] on formal [[derived smooth manifolds]]), and which is obtained by applying [Töen-Vezzosi's homotopical algebraic geometry](derived+algebraic+geometry#ToenVezzosi04) to the theory of [[derived manifolds]] of [Spivak](derived+smooth+manifold#Spivak08) and [Carchedi-Steffens](derived+smooth+manifold#CarchediSteffens19). I will explain how derived differential geometry is able to capture non-perturbative classical BV-theory by means of examples: [[scalar field theory]] and [[Yang-Mills theory]]. Finally, I will discuss some open questions, most importantly on [[quantisation]] and on applications to global aspects of [[M-theory]].
 
 \linebreak
 
@@ -185,6 +202,8 @@ Compactifications**
 
   cf.: [arXiv:2005.02344](https://arxiv.org/abs/2005.02344)
 
+  > [Freed and Hopkins developed](D=11+N=1+supergravity#FreedHopkins21) an algebraic theory of cubic forms, which is an analogy to the theory of [[quadratic forms]] in topology. They are motivated by the Witten-Freed-Hopkins anomaly cancellation formula in [[M-theory]], which equals a cubic form arising from an [[E8|$E_8$]] [[principal bundle|bundle]] over a 12 dimensional [[spin manifold]] to the [[index of a Dirac operator|indices]] of twisted [[Dirac operators]] on the manifold. In this talk, we will first review the Witten-Freed-Hopkins anomaly cancellation formula and the algebraic theory of cubic forms, and then show that the cubic forms as well as the anomaly cancellation formula can be naturally derived from [[modular forms]] that we construct inspired by the [[Witten genus]] and the basic representation of [[affine Lie algebra|affine]] [[E8|$\mathfrak{e}_8$]]. Following this approach, we obtain new cubic forms and anomaly cancellation formulas on non-spin manifolds and thus provide a unified way to obtain anomaly cancellation formulas of this type. This is based on our [joint work](D=D11+N=1+supergravity#HanHuangLiuZhang20) with Prof. [[Ruizhi Huang]], Prof. [[Kefeng Liu]] and Prof. [[Weiping Zhang]].
+
 \linebreak
 
 * 16 Jan 2024
@@ -222,7 +241,7 @@ Theories**
   **Self-Dual $p$-Form Gauge Fields and the Topology of the
 Graviton**
 
-  cf.: [arXiv:2310.18441](https://arxiv.org/abs/2310.18441)
+  cf.: [arXiv:2307.04748](self-dual+higher+gauge+theory#Hull23)
 
 \linebreak
 
@@ -243,6 +262,8 @@ Theory and M-Theory**
 
   cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
 
+  > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
+
 \linebreak
 
 * 17 Jan 2024
@@ -257,7 +278,7 @@ Theory and M-Theory**
 
   [[Urs Schreiber]]:
 
-  **[[schreiber:Introduction to Hypothesis HIntroduction to Quantum Hypothesis H]]**
+  **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
 
   
 
@@ -916,8 +937,6 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 * *[[Higher Structures in M-Theory 2018]]*
 
 \linebreak
-
-
 
 
 category: reference
