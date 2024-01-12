@@ -1,5 +1,3 @@
-# Algebraically injective objects
-
 * table of contents
 {: toc}
 
