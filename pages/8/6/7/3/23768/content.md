@@ -92,6 +92,8 @@ and more widely, often without attribution, for instance in:
 
 * {#Shulman22} [[Mike Shulman]], p. 5-6 in *Towards a Third-Generation HOTT* Part 2 (2022) &lbrack;slides [pdf](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU)&rbrack;
 
+* {#KS23} [[Astra Kolomatskaia]], [[Michael Shulman]], p. 16-18 in *Displayed Type Theory and Semi-Simplicial Types* &lbrack;[arXiv:2311.18781](https://arxiv.org/abs/2311.18781)&rbrack; 
+
 [[!redirects type telescopes]]
 
 [[!redirects telescope]]
