@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -127,7 +128,7 @@ The $(\infty,1)$-category of derived smooth manifolds has derived cup products f
 
 =--
 
-This is ([Spivak, theorm 1.8](#Spivak)).
+This is ([Spivak, theorem 1.8](#Spivak)).
 
 ## Related concepts
 
@@ -142,30 +143,32 @@ The definition of derived smooth manifolds is indicated at the very end of
 
 A detailed construction and discjussion in terms of the [[model category]] [[presentable (∞,1)-category|presentation]] by [[homotopy T-algebra]]s is in
 
-* [[David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
-{#Spivak}
+* {#Spivak08} {#Spivak} [[David Spivak]], _Derived smooth manifolds_, Duke Math. J. **153** 1 (2010) 22-128 &lbrack;[arXiv:0810.5174](http://arxiv.org/abs/0810.5174), [doi:10.1215/00127094-2010-021](https://doi.org/10.1215/00127094-2010-021)&rbrack;
 
-Something roughly related is discussed in
+Something similar (derived [[orbifolds]]):
 
-* [[Dominic Joyce]], _D-orbifolds, Kuranishi spaces, and polyfolds_ talk notes (Jan 2010) ([pdf](http://people.maths.ox.ac.uk/joyce/dmtalk.pdf))
+* [[Dominic Joyce]], _D-orbifolds, Kuranishi spaces, and polyfolds_ talk notes (Jan 2010) &lbrack;[pdf](http://people.maths.ox.ac.uk/joyce/dmtalk.pdf), [[Joyce-DOrbifolds.pdf:file]]&rbrack;
 
-There is also
+Seminar notes:
+
+* [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_ (2010)
+
+Further developments:
 
 * Dennis Borisov, Justin Noel, _Simplicial approach to derived differential manifolds_ ([arXiv:1112.0033](http://arxiv.org/abs/1112.0033))
 
-The $(\infty, 1)$-category of derived manifolds is classified up to [[equivalence]] by a universal property in
+* {#CarchediSteffens19} [[David Carchedi]], [[Pelle Steffens]], _On the universal property of derived manifolds_ &lbrack;[arXiv:1905.06195](https://arxiv.org/abs/1905.06195)&rbrack; 
 
-* [[David Carchedi]], Pelle Steffens, _On the universal property of derived manifolds_ &lbrack;[arXiv:1905.06195](https://arxiv.org/abs/1905.06195)&rbrack; 
-
-Seminar notes on differential [[derived geometry]] in general and derived smooth manifolds in particular are in 
-
-* [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
-
-Further developments:
+  > ([[universal property]] of the [[(infinity,1)-category]] of derived smooth manifolds)
 
 * [[David Carchedi]], *Derived Manifolds as Differential Graded Manifolds* &lbrack;[arXiv:2303.11140](https://arxiv.org/abs/2303.11140)&rbrack;
 
 * [[Gregory Taroyan]], *Equivalent models of derived stacks* &lbrack;[arXiv:2303.12699](https://arxiv.org/abs/2303.12699)&rbrack;
+
+
+* [[Pelle Steffens]], *Derived $C^\infty$-Geometry I: Foundations* &lbrack;[arXiv:2304.08671](https://arxiv.org/abs/2304.08671)&rbrack;
+
+
 
 
 [[!redirects derived smooth manifolds]]
