@@ -76,6 +76,10 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
   video: [YT](https://youtu.be/wNhoAiITJQs)
 
+  and talk at: [Wolfram Science Winter School 2024](https://education.wolfram.com/winter-school/)
+
+  video: [YT](https://youtu.be/GD20W6vxMI4)
+
 ## publications
 
 
