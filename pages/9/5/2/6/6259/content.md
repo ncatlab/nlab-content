@@ -380,6 +380,9 @@ Another proposal for a Lagrangian for self-dual higher gauge fields, at the cost
 
 * {#Sen20} [[Ashoke Sen]], *Self-dual forms: Action, Hamiltonian and Compactification*,  Journal of Physics A: Mathematical and Theoretical, **53** 8 (2020) &lbrack;[arXiv:1903.12196](https://arxiv.org/abs/1903.12196), [doi:10.1088/1751-8121/ab5423](https://doi.org/10.1088/1751-8121/ab5423)&rbrack;
 
+further discussion:
+
+* {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes* &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748)&rbrack;
 
 
 ### For RR-fields / differential K-theory
