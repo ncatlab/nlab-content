@@ -104,14 +104,15 @@ The main references are
 
 * [[Jacob Lurie]], [[Derived Algebraic Geometry]]
 
-* [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]]_
-{#LurieStructured}
+* {#LurieStructured} [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]]_
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, 2004, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
-NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer Acad. Publ., Dordrecht, 2004, [math.AG/0210407](http://arxiv.org/abs/math/0210407).
- {#TV-HAG-to-DAG}
+* {#ToenVezzosi04} [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, Memoirs of the AMS **193** (2008) &lbrack;[arXiv:math/0404373](http://arxiv.org/abs/math/0404373), [ams:memo-193-902](https://bookstore.ams.org/memo-193-902)&rbrack;
+
+
+* {#TV-HAG-to-DAG} [[Bertrand Toën]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
+NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer (2004) &lbrack;[math.AG/0210407](http://arxiv.org/abs/math/0210407)&rbrack;
+ 
 
 The following notes deal with the theory modelled on coconnective [[commutative dg-algebras]].
 
