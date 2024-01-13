@@ -45,5 +45,8 @@ Implementation as an [[embedded programming language]] in [[Haskell]]:
 
 * Richard Eisenberg, [[Benoît Valiron]], Steve Zdancewic, *Typechecking Linear Data: Quantum Computation in Haskell* &lbrack;[[EisenbergValironZdancewic-LinearData.pdf:file]]&rbrack;
 
+A [[categorical semantics]] on [[von Neumann algebras]]:
+
+* [[Kenta Cho]], [[Abraham Westerbaan]], *Von Neumann Algebras form a Model for the Quantum Lambda Calculus*, QPL 2016 &lbrack;[arXiv:1603.02133](https://arxiv.org/abs/1603.02133), [pdf](https://www.cs.ru.nl/K.Cho/papers/model-qlc.pdf), slides:[pdf](http://qpl2016.cis.strath.ac.uk/pdfs/2cho-final.pdf), [[Cho-vNQuantumCalculus.pdf:file]]&rbrack;
 
 
