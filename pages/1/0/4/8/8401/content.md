@@ -1,6 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Albert_Einstein)
 
+* Jeroen van Dongen, *Einstein's Unification*, Cambridge University Press (2013) &lbrack;[doi:10.1017/CBO9780511781377](https://doi.org/10.1017/CBO9780511781377)&rbrack;
+
 ## Writings and References
   {#References}
 
