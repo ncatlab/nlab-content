@@ -1,3 +1,4 @@
+> This entry is about the notion in [[philosophy]] and [[modal logic]]. For Trimble's approach to [[formal category theory]], see [this page](https://ncatlab.org/toddtrimble/published/Epistemologies).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
