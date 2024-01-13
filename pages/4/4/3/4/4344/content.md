@@ -78,11 +78,20 @@ For any (small) C\*-category $\mathcal{C}$ there exists a faithful \*-functor $\
 
 * [[star-category]], [[dagger-category]]
 
+* [[W-star category]]
+
 * [[unitary fusion category]]
 
 * [[spaceoid]]
 
 * [[KK-theory]]
+
+## References
+
+With emphasis on the special case of [[W-star category|$W^\ast$-categories]]:
+
+* {#GhezLinaRoberts85} P. Ghez, R. Lima, [[John E. Roberts]], Prop. 1.9 in: *$W^\ast$-categories*,  Pacific J. Math. **120** 1 (1985) 79-109 &lbrack;[euclid:pjm/1102703884](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-120/issue-1/Wast-categories/pjm/1102703884.full)&rbrack;
+
 
 
 [[!redirects C-star-category]]
