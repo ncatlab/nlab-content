@@ -436,7 +436,7 @@ $$
 
 =--
 
-This is ([Bergman, lemma 1.7](#Bergman)).
+This is [Bergman, lemma 1.7](#Bergman).
 
 +-- {: .proof}
 ###### Proof
@@ -497,7 +497,7 @@ is an isomorphism.
 
 =--
 
-This appears as ([Bergman, cor. 2.1](#Bergman)).
+This appears as [Bergman, cor. 2.1](#Bergman).
 
 It is straightforward to check this directly on elements:
 
@@ -639,7 +639,7 @@ In each of the situations in a double complex shown below, if the direction _per
 
 =--
 
-This appears as ([Bergman, cor. 2.2](#Bergman)).
+This appears as [Bergman, cor. 2.2](#Bergman).
 
 +-- {: .proof}
 ###### Proof
@@ -732,7 +732,7 @@ then also the first row is exact.
 
 =--
 
-The following proof is that given in ([Bergman, lemma 2.3](#Bergman)).
+The following proof is that given in [Bergman, lemma 2.3](#Bergman).
 
 +-- {: .proof}
 ###### Proof
@@ -927,7 +927,7 @@ $$
 
 =--
 
-This appears as ([Bergman, lemma 2.6](#Bergman)).
+This appears as [Bergman, lemma 2.6](#Bergman).
 
 +-- {: .proof}
 ###### Proof
@@ -1202,13 +1202,15 @@ From the [[snake lemma]] one obtains in turn the
 
 The salamander lemma is due to 
 
-* {#Bergman} [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958)) 
+* {#Bergman12} [[George Bergman]], _On diagram-chasing in double complexes_, Theory and Applications of Categories **26** (2012) 60-96 &lbrack;[arXiv:1108.0958](http://arxiv.org/abs/1108.0958), [tac:26-03](http://www.tac.mta.ca/tac/volumes/26/3/26-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/26/3/26-03.pdf)&rbrack;
 
-based on an earlier unpublished preprint which was circulated ([pdf](http://sbseminar.files.wordpress.com/2007/11/diagramchasingbergman.pdf)).
+based on an earlier unpublished preprint which was circulated  since 2007 ([pdf](http://sbseminar.files.wordpress.com/2007/11/diagramchasingbergman.pdf)).
 
 Exposition:
 
 * [[Anton Geraschenko]], _The Salamander lemma_ (2007) &lbrack;[blog post](http://sbseminar.wordpress.com/2007/11/13/anton-geraschenko-the-salamander-lemma/)&rbrack;
+
+An alternative proof (also of the [[snake lemma]]) "without elements", using only [[universal properties]]:
 
 * {#Wise} [[Jonathan Wise]], §4 in: *A non-elementary proof of the snake lemma* (2011, 2023) &lbrack;[pdf](https://math.colorado.edu/%7Ejonathan.wise/papers/snake.pdf), [[Wise-SnakeLemma.pdf:file]], [MO:a/7531](https://mathoverflow.net/a/7531/381)&rbrack;
 
