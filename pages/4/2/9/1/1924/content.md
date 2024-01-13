@@ -38,13 +38,11 @@ Another result ([Farah and Hirshberg 2016](#FarahHirshberg16)) of Farah and Hirs
 
 ## Related entries
 
-* [[BrownDouglasFillmore theory]]
+* [[Brown-Douglas-Fillmore theory]]
 
 ## References
 
-
-
-* {#PhillipsWeaver} N. Christopher Phillips, Nik Weaver, _The Calkin algebra has outer automorphisms_, Duke Math. J. Volume 139, Number 1 (2007), 185-202. [arXiv:math/0606594](https://arxiv.org/abs/math/0606594)
+* {#PhillipsWeaver} N. Christopher Phillips, [[Nik Weaver]], _The Calkin algebra has outer automorphisms_, Duke Math. J. **139** 1 (2007) 185-202 &lbrack;[arXiv:math/0606594](https://arxiv.org/abs/math/0606594), [doi:10.1215/S0012-7094-07-13915-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-139/issue-1/The-Calkin-algebra-has-outer-automorphisms/10.1215/S0012-7094-07-13915-2.short)&rbrack;
 
 * {#Farah11a} Ilijas Farah, _All automorphisms of the Calkin algebra are inner_, Annals of Mathematics 173 (2011), 619-661, doi: 10.4007/annals.2011.173.2.1 [arXiv:0705.3085](https://arxiv.org/abs/0705.3085)
 * {#Farah11b} Ilijas Farah, _All automorphisms of all Calkin algebras_, Math. Res. Lett. 18 (2011), no. 3, 489-503 [arXiv:1007.4034](https://arxiv.org/abs/1007.4034)
@@ -53,6 +51,6 @@ Another result ([Farah and Hirshberg 2016](#FarahHirshberg16)) of Farah and Hirs
 
 * {#Rinot13} Assaf Rinot, _Open coloring and the cardinal invariant $\mathfrak{b}$_, (2013) [blog post](http://blog.assafrinot.com/?p=3243)
 
-* {#Weaver07} Nik Weaver, _Set theory and $C^\ast$-algebras_, The Bulletin of Symbolic Logic Vol. 13, No. 1 (Mar., 2007), pp. 1-20, [arxiv:math/060198.LO](https://arxiv.org/abs/math/0604198)
+* {#Weaver07} [[Nik Weaver]], _Set theory and $C^\ast$-algebras_, The Bulletin of Symbolic Logic Vol. 13, No. 1 (Mar., 2007), pp. 1-20, [arxiv:math/060198.LO](https://arxiv.org/abs/math/0604198)
 
 category: operator algebras
