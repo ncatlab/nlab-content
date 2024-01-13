@@ -225,6 +225,8 @@ Probably the trickiest bit is the definition of [[composition]] of binary relati
 
 * [[logical relation]]
 
+* [[quantum relation]]
+
 
 [[!include flavors of modal logics and relations -- table]]
 
