@@ -301,9 +301,9 @@ Further review:
 * {#Selick} Paul Selick, *Homological Algebra Notes* ([pdf](www.math.toronto.edu/selick/mat1352/1350notes.pdf),[[Selick_HomologicalAlgebra.pdf:file]])
 
 
-Embedding of abelian categories into [[Ab]] is discussed in
+On [[diagram chasing]] and [[elements in an abelian category]]:
 
-* {#Bergman} [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
+* {#Bergman} [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) &lbrack;[pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf), [[Bergman-ElementChasing.pdf:file]]&rbrack;
  
 
 For more discussion of the _[[Freyd-Mitchell embedding theorem]]_ see there.
