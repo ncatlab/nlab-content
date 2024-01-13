@@ -324,6 +324,8 @@ To be done...
 
 * [[von Neumann algebra factor]]
 
+* [[quantum relation]]
+
 
 ## References
  {#References}
@@ -350,6 +352,20 @@ See also:
 * Abraham Westerbaan, _The Category of von Neumann Algebras_, [1804.02203](https://arxiv.org/abs/1804.02203) 2018
 
 * {#CK} [[Alexandru Chirvasitu]], Joanna Ko, _Monadic forgetful functors and (non-)presentability for C∗- and W*-algebras_, [arXiv:2203.12087](https://arxiv.org/abs/2203.12087).
+
+In [[quantum physics]]/[[quantum computing]]:
+
+as [[categorical semantics]] 
+
+for the [[quantum lambda-calculus]]:
+
+* [[Kenta Cho]], [[Abraham Westerbaan]], *Von Neumann Algebras form a Model for the Quantum Lambda Calculus*, QPL 2016 &lbrack;[arXiv:1603.02133](https://arxiv.org/abs/1603.02133), [pdf](https://www.cs.ru.nl/K.Cho/papers/model-qlc.pdf), slides:[pdf](http://qpl2016.cis.strath.ac.uk/pdfs/2cho-final.pdf), [[Cho-vNQuantumCalculus.pdf:file]]&rbrack;
+
+and for [[QPL]]:
+
+* [[Kenta Cho]], *Semantics for a Quantum Programming Language by Operator Algebras*, EPTCS **172** (2014) 165-190 &lbrack;[arXiv:1412.8545](https://arxiv.org/abs/1412.8545), [doi:10.4204/EPTCS.172.12](https://doi.org/10.4204/EPTCS.172.12)&rbrack;
+
+
 
 [[!redirects W*-algebra]]
 [[!redirects W*-algebras]]
