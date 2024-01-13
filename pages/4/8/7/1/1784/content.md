@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Cogroup objects#
 * table of contents
 {:toc}
@@ -81,24 +92,31 @@ Some terminological care should be taken in the case of [[comonoid]], which make
 
 1. This extends further: any category with a [[faithful functor]] to $\operatorname{Set}$ which preserves an [[initial object]] will have no non-trivial cogroup objects.  In particular, the category [[Top]] of *unbased* topological spaces has only the [[empty space]] as a cogroup object.
 
-1. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by Bergman and Hausknecht in _Co-groups and co-rings in categories of associative rings_, (MR1387111)
+1. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by [Bergman & Hausknecht 1996](#BergmanHausknecht96).
 
    In particular, a co-group in the category of (unital) commutative rings is a commutative [[Hopf ring]] and a cogroup in the category of (unital) commutative $k$-algebras is a commutative [[Hopf algebra|Hopf]] $k$-algebra; a fact highlighted in homotopy theory by [[Haynes Miller]] (in view of his generalization to [[commutative Hopf algebroid]]s as cogroupoids in commutative algebra) in the context of discussion of [[dual Steenrod algebras]], see ([Ravenel 86, appendix A](#Ravenel86)) for review.
 
 ## References
 
-Discussion of commutative [[Hopf algebras]] as cogroups is in 
+Discussion of commutative [[Hopf algebras]] as cogroups:
 
 * {#Ravenel86} [[Doug Ravenel]], appendix A1 of _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press 1986
 
-Cogroups in the category of (graded or not) associative algebras are very rare (unlike Hopf algebras) -- in fact the underlying algebras are free; this has been clear since
+Cogroups [[internalization|internal to]] the category of (graded or not) [[associative algebras]] are very rare (unlike Hopf algebras) -- in fact the underlying algebras are free; this has been clear since
 
 * Israel Berstein, On cogroups in the category of graded algebras. Trans. Amer. Math. Soc. 115 (1965), 257&#8211;269 [jstor](http://www.jstor.org/stable/1994268)
 
-This fact is later observed in bigger generality in
+Monograph:
 
-* [[Benoit Fresse]], _Cogroups in algebras over an operad are free algebras_, Commen. Math. Helv. __73__:4, 1998, 637&#8211;676
-[doi](http://dx.doi.org/10.1007/s000140050072)
+* {#BergmanHausknecht96} [[George M. Bergman]], Adam O. Hausknecht, _Cogroups and co-rings in categories of associative rings_, A.M.S. Math. Surveys and Monographs __45__ (1996) &lbrack;ISBN 0-8218-0495-2, [ams:surv-45](https://bookstore.ams.org/surv-45), [MR 97k:16001](http://www.ams.org/mathscinet-getitem?mr=97k:16001), [errata and updates](http://math.berkeley.edu/~gbergman/papers/updates/coalg.html)&rbrack;
+
+ > (also for [[corings]])
+
+This fact is later observed in greater generality
+
+* [[Benoit Fresse]], _Cogroups in algebras over an operad are free algebras_, Commen. Math. Helv. __73__:4, 1998, 637-676
+&lbrack;[doi](http://dx.doi.org/10.1007/s000140050072)
+
 
 
 [[!redirects cogroups]]
