@@ -21,7 +21,7 @@ A *linear category*, or *algebroid*, is a [[category]] whose [[hom-sets]] are al
 
 ## Definitions
 
-Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]], but we could also chose more generaly a [[rig|commutative rig]] for $K$.)
+Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]], but we could also choose more generally a [[rig|commutative rig]] for $K$.)
 
 A __$K$-linear category__, or __$K$-algebroid__, is a [[enriched category|category enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product of modules]].  (Note that one usually speaks of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a [[field]].)
 
@@ -51,3 +51,7 @@ Just as a $\mathbb{Z}$-algebra is the same thing as a [[ring]], so a $\mathbb{Z}
 [[!redirects algebroids]]
 [[!redirects linear category]]
 [[!redirects linear categories]]
+
+## References
+
+- Gabriel & Roiter, *Representations of Finite-Dimensional Algebras*, 1992.
