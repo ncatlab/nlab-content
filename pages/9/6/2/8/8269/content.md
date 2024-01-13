@@ -1,5 +1,11 @@
 
-* [webpage](http://math.stanford.edu/~jonathan/)
+* [personal page](https://math.colorado.edu/~jonathan.wise/)
+
+* [institute page](https://www.colorado.edu/math/jonathan-wise)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=TI-lQKQAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=128696)
 
 ## Selected writings
 
