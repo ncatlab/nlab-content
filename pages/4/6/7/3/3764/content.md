@@ -23,14 +23,14 @@
 
 ## Idea
 
-The _Gelfand-Naimark-Segal construction_ ("GNS construction") represents a [[state on a star-algebra]] over the [[complex numbers]] -- which *a priori* is defined purely algebraically as a non-degenerate positive linear function
+The _Gelfand-Naimark-Segal construction_ ("GNS construction") represents a [[state on a star-algebra]] over the [[complex numbers]] --- which *a priori* is defined purely algebraically as a non-degenerate positive linear function
 
 $$
   \rho \;\colon\; \mathcal{A} \longrightarrow \mathbb{C}
   \,,
 $$
 
--- by a [[vector]] $\psi \in \mathcal{H}$ in a [[complex numbers|complex]] [[Hilbert space]] $\mathcal{H}$ as the "[[expectation value]]"
+--- by a [[vector]] $\psi \in \mathcal{H}$ in a [[complex numbers|complex]] [[Hilbert space]] $\mathcal{H}$ as the "[[expectation value]]"
 
 $$
   \begin{aligned}
@@ -47,11 +47,11 @@ $$
   \pi \;\colon\; \mathcal{A} \longrightarrow End(\mathcal{H})
 $$
 
-of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}$; where $\langle -,-\rangle$ denotes the [[inner product]] on the [[Hilbert space]].
+of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}$; where $\langle -,-\rangle$ denotes the [[Hermitian form|Hermitian]] [[inner product]] on the [[Hilbert space]].
 
-Originally this was considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand-Naimark 43](#GelfandNaimark43), [Segal 47](#Segal47)), see for instance ([Schm&#252;dgen 90](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine-Moretti 15](#KhavkineMoretti15)) as well as to other coefficient rings, such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann-Waldmann 96](#BordemannWaldmann96)). 
+Originally and typically by default this is considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand & Naimark 1943](#GelfandNaimark43), [Segal 1947](#Segal47)), see for instance ([Schmüdgen 1090](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine& Moretti 2015](#KhavkineMoretti15)) as well as to other [[coefficient]] [[rings]], such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann & Waldmann 1996](#BordemannWaldmann96)). 
 
-The GNS-construction plays a central role in [[algebraic quantum field theory]] ([Haag 96](#Haag96), [Moretti 18](#Moretti18), [Khavkine-Moretti 15](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual state of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
+The GNS-construction plays a central role in [[algebraic quantum field theory]] (cf. [Haag 1996](#Haag96), [Moretti 2018](#Moretti18), [Khavkine & Moretti 2015](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual [[state]] of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
 
 ## Details
 
@@ -86,7 +86,7 @@ there exists
 
 1. a [[cyclic vector]] $\psi_\rho \in \mathcal{H}$ 
 
-such that $\rho$ is the state corresponding to $\psi_\rho$, in that
+such that $\rho$ is the [[pure state]] corresponding to $\psi_\rho$, in that
 
 $$
   \begin{aligned}
@@ -114,12 +114,13 @@ $$
   \,.
 $$
 
-Since $\rho$ is a "positive functional", hence taking non-negative values, this is, in general, [positive semi-definite](sesquilinear+form#Definity).
-It becomes [positive definite](sesquilinear+form#Definity) on the the [[quotient vector space]]
+Since $\rho$ is "[positive](state+on+a+star-algebra#PositivityCondition)", hence taking non-negative values, this $\langle \text{-}, \text{-}\ragle$, in general, [positive semi-definite](sesquilinear+form#Definity).
+
+Moreover, it becomes [positive definite](sesquilinear+form#Definity) on the the [[quotient vector space]]
 
 \[
   \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
-  \mathcal{H}
+  \mathscr{H}
   \;\coloneqq\;
   \mathcal{A}/N
 \]
@@ -138,7 +139,7 @@ by the subspace of 0-norm elements
   \,.
 \]
 
-In fact, $N$ is a left [[ideal]] in $\mathcal{A}$ so that the left multiplication [[action]] of $\mathcal{A}$ on itself descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace)
+In fact, $N$ is a left [[ideal]] in $\mathcal{A}$ so that the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
 
 $$
   \array{
@@ -163,10 +164,12 @@ Therefore, the cyclic vector in question can be taken to be that represented by 
 
 $$
   \psi_\rho \;\coloneqq\; [1]
+  \;\in\;
+  \mathscr{H}
   \,.
 $$
 
-Hence on this Hilbert space $\mathcal{H}$, the original  operator-algebraic state $\rho$ is now represented by the tautological [[density matrix]] 
+Hence on this Hilbert space $\mathscr{H}$, the original  operator-algebraic state $\rho$ is now represented by the tautological [[density matrix]] 
 
 $$
   \left\vert 
@@ -185,12 +188,12 @@ $$
 ### For $C^\ast$-categories
  {#ForCStarCategories}
 
-The GNS construction for $C^\ast$-algebras is a special case of a more general construction of Ghez, Lima and Roberts applied to [[C*-categories]] ([[horizontal categorification]] of $C^\ast$-algebras).
+The GNS construction for $C^\ast$-algebras is a special case of a more general construction of [Ghez, Lina & Roberts 1985, Prop. 1.9](#GhezLinaRoberts85) applied to [[C*-categories]] ([[horizontal categorification]] of $C^\ast$-algebras):
 
 +--{: .num_theorem}
 ###### Theorem
 
-Let $\mathcal{C}$ be a $C^\ast$-category. Fix an object $A \in \operatorname{Ob}\mathcal{C}$ and let $\sigma$ be a state on the $C^\ast$-algebra $\mathcal{C}(A,A)$. Then there exists a $*$-representation
+Let $\mathcal{C}$ be a [[C-star category|$C^\ast$-category]]. Fix an object $A \in \operatorname{Ob}\mathcal{C}$ and let $\sigma$ be a state on the $C^\ast$-algebra $\mathcal{C}(A,A)$. Then there exists a $*$-representation
 $$
 \rho_\sigma \colon \mathcal{C} \to \mathbf{Hilb}
 $$
@@ -251,12 +254,15 @@ See also
 
 * Wikipedia, _[Gelfand-Naimark-Segal construction](https://en.wikipedia.org/wiki/Gelfand%E2%80%93Naimark%E2%80%93Segal_construction)_
 
+In the generality of [[C-star category|$C^\ast$-categories]] (and with an eye towards [[W-star category|$W^\ast$-categories]]):
+
+* {#GhezLinaRoberts85} [[P. Ghez]], [[Ricardo Lima]], [[John E. Roberts]], Prop. 1.9 in: *$W^\ast$-categories*,  Pacific J. Math. **120** 1 (1985) 79-109 &lbrack;[euclid:pjm/1102703884](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-120/issue-1/Wast-categories/pjm/1102703884.full)&rbrack;
 
 For general unital [[star-algebras]]: 
 
 * {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], *Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction*, Chapter 5 in: [[Romeo Brunetti]] et al. (eds.) *Advances in Algebraic Quantum Field Theory* Springer (2015) &lbrack;[doi:10.1007/978-3-319-21353-8](https://doi.org/10.1007/978-3-319-21353-8)&rbrack;
 
-in relation with the classical moment problem and the notion of [[POVM]]
+and in relation with the classical moment problem and the notion of [[POVM]]:
 
 * {#DragoMoretti19} Nicolò Drago,  [[Valter Moretti]], *The notion of observable and the moment problem for $\ast$-algebras and their GNS representations*, Lett. Math. Phys. 2020 ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
 
