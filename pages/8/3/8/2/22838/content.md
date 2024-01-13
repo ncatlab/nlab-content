@@ -94,6 +94,9 @@ on a [[Hilbert space]].
 
 * [[Masamichi Takesaki]], _Theory of Operator Algebras I, II, III_, Springer, I: 1979. vii+415 pp. ISBN: 0-387-90391-7; II: 2003. xxii+518 pp. ISBN: 3-540-42914-X; III: 2003. xxii+548 pp. ISBN: 3-540-42913-1.
 
+* {#WeaverKuperberg11} [[Nik Weaver]], [[Greg Kuperberg]], *A von Neumann Algebra Approach to Quantum Metrics/Quantum Relations*, Memoirs of the AMS **215** 1010 (2011) &lbrack;[ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
+
+
 
 [[!redirects noncommutative measure theory]]
 [[!redirects non-commutative measure theory]]
