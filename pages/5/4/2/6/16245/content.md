@@ -20,7 +20,17 @@ A question that is traditionally of some debate in [[type theory]] is,
 
 > What does it mean for a [[term]] to have more than one [[type]]?
 
-One place where this question becomes relevant is in the interpretation of [[polymorphism]].  Another is for type systems with a non-trivial [[subtyping]] relation, in which case it becomes pertinent to consider the meaning of the _subsumption_ rule:
+This question is relevant in a number of situations: 
+
+* the interpretation of [[polymorphism]]
+
+* [[subtyping]]
+
+* [[judgmental equality]] of [[types]] 
+
+## Subtyping
+
+One place where the above question is relevant is for type systems with a non-trivial [[subtyping]] relation, in which case it becomes pertinent to consider the meaning of the _subsumption_ rule:
 
 $$\frac{e:A \qquad A \le B}{e:B}$$
 
@@ -63,10 +73,25 @@ $$
 
 and hence in particular that any two derivations $\alpha_1,\alpha_2$ of $A \le B$ result in the same coercion $[[\alpha_1]] = [[\alpha_2]] = (\phi_A;\psi_B) : [[A]] \to [[B]]$.
 
+## Judgmental equality of types
+
+Another place where the above question is relevant in any [[dependent type theory]] which uses a separate [[type]] [[judgment]] and [[judgmental equality]] of types: if two types are judgmentally equal, then every term of the first type is also a term of the second type. This is given from the element conversion rule of judgmental equality, 
+
+$$\frac{e:A \qquad A \equiv B}{e:B}$$
+
+which is provable from the structural rules of judgmental equality (cf. section 1.1 & exercise 1.1 of [Rijke22](#Rijke22)). 
+
+Judgmental equality of types is the symmetric version of subtyping, since subtyping forms a [[preorder]] on types while judgmental equality forms an [[equivalence relation]] on types, which is a [[symmetric preorder]]. Thus, the same interpretations of subtyping also apply to judgmental equality:
+
+One possibility (sometimes called the **inclusion interpretation** of judgmental equality) is based on the idea of interpreting types as _properties_ of terms (what is also sometimes called "types &#224; la Curry", or the [[intrinsic and extrinsic views of typing|extrinsic]] view of typing).  Under this interpretation, the element conversion rule can be read more or less literally, as asserting that if $e$ satisfies the property $A$, and $A$ is logically equivalent to $B$, then $e$ also satisfies the property $B$. One potential drawback of this interpretation, though, is that it seems to commit you to giving a meaning to "untyped" terms (although these terms may of course intrinsically have some more coarse-grained type structure, as in models of pure [[lambda calculus]] by [[reflexive object]]s).
+
+A different possibility (sometimes called the **coercion interpretation** of judgmental equality) is to read the subsumption rule as introducing an implicit _coercion_ from $A$ to $B$.  Under this interpretation, judgmental equality can be seen as simply providing a convenient shorthand notation, when having to write out these coercions explicitly would be too burdensome. This interpretation allows one to maintain an [[intrinsic and extrinsic views of typing|intrinsic]] ("&#224; la Church") view of typing, but on the other hand it introduces a subtle issue of _coherence_: if there is more than one way of deriving the judgmental equality $A \equiv B$, we would like to know that all of these result in equivalent coercions from $A$ to $B$, so that the meaning of a well-typed term is independent of its typing derivation.
+
 ## Related concepts
 
 * [[subtype]]
 
+* [[judgmental equality]]
 
 ## References
 
@@ -79,3 +104,5 @@ and hence in particular that any two derivations $\alpha_1,\alpha_2$ of $A \le B
 * {#Luo99} [[Zhaohui Luo]], Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
 
 * [[Zhaohui Luo]], Type-Theoretical Semantics with Coercive Subtyping, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/SALT20.pdf)
+
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
