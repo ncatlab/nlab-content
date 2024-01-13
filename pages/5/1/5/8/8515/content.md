@@ -52,30 +52,7 @@ $$\frac{\Gamma \vdash a \equiv a':A}{\Gamma \vdash \delta_{a, a'}:a =_A a'}$$
 
 ### Strict judgmental equality
 
-Strict judgmental equality of terms has congruence rules for substitution, the [[principle of substitution]]:
-
-* Principle of substitution for judgmentally equal terms:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B(x)}{\Gamma, \Delta(a) \vdash c(a) \equiv c(b): B(a)}$$
-
-In addition, if there is a separate [[type]] [[judgment]], then there is also a separate rule for the principle of substitution into type families. 
-
-If one has judgmental equality of types, then the principle of substitution into type families is given by 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash B(a) \equiv B(b) \; \mathrm{type}}$$
-
-This implies the reflection rule of weak judgmental equalities because one could derive the following rule:
-
-$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{refl}_A(a):a =_A b}$$
-
-Otherwise, the principle of substitution into type families is given by [[transport]] across judgmental equality as [[explicit conversion]]:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \simeq B(b) \; \mathrm{type}}$$
-
-where $A \simeq B$ is some notion of [[equivalence type]]. This also implies the reflection rule of weak judgmental equalities because one could derive the following rule
-
-$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{tr}_{a =_A (-)}^{a \equiv b}(\mathrm{refl}_A(a)):a =_A b}$$
-
-Finally, there are reflexivity, symmetry, and transitivity rules making strict judgmental equality for terms:
+Strict judgmental equality is an equivalence relation:
 
 * Reflexivity of judgmental equality
 
@@ -86,6 +63,49 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A}{\Gamm
 
 * Transitivity of judgmental equality
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A \quad b \equiv c:A }{\Gamma \vdash a \equiv c:A}$$
+
+In addition, strict judgmental equality of terms has congruence rules for substitution, the [[principle of substitution]]:
+
+* Principle of substitution for judgmentally equal terms:
+$$\frac{\Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B}{\Gamma, \Delta(a) \vdash c(a) \equiv c(b): B}$$
+
+If there is a separate [[type]] [[judgment]], then there is also a separate rule for the principle of substitution into type families. 
+
+If one has judgmental equality of types, then the principle of substitution into type families is given by 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash B(a) \equiv B(b) \; \mathrm{type}}$$
+
+This implies the reflection rule of weak judgmental equalities because one could derive the following rule:
+
+$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{refl}_A(a):a =_A b}$$
+
+Otherwise, the principle of substitution into type families is given by [[strict transport]] across judgmental equality as [[explicit conversion]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \simeq B(b)}$$
+
+where $A \simeq B$ is the [[type of strict equivalences]] defined using [[natural deduction]] [[inference rules]]. If one doesn't have a type of strict equivalences, one could define it by components
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}(y):B(b)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a: A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv a}(y) \equiv y:B(a)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{b \equiv a}(\mathrm{tr}_{B(-)}^{a \equiv b}(y)) \equiv y:B(a)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma \vdash b \equiv c : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{b \equiv c}(\mathrm{tr}_{B(-)}^{a \equiv b}(y)) \equiv \mathrm{tr}_{B(-)}^{a \equiv c}(y):B(c)}$$
+
+This shows that transport across judgmental equality forms a [[groupoid]]. 
+
+Either way, this also implies the reflection rule of weak judgmental equalities because one could derive the following rule
+
+$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{tr}_{a =_A (-)}^{a \equiv b}(\mathrm{refl}_A(a)):a =_A b}$$
+
+Similarly, for a term $c(x):B(x)$ dependent upon $x:A$, if one has judgmental equality of types, then the principle of substitution across $c(x)$ is given by the rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B(x)}{\Gamma, \Delta(b) \vdash c(a) \equiv c(b):B(b)}$$
+
+Otherwise, it is given by a judgmental version of [[function application to identifications]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B(x)}{\Gamma, \Delta(b) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}(c(a)) \equiv c(b):B(b)}$$
 
 ### In computation and uniqueness rules
 
@@ -153,15 +173,12 @@ In addition to the variable conversion rule, there are reflexivity, symmetry, an
 * Reflexivity of judgmental equality
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A \equiv A \; \mathrm{type}}$$
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \equiv \Gamma \; \mathrm{ctx}}$$
 
 * Symmetry of judgmental equality
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{type}}$$ 
-$$\frac{\Gamma \equiv \Delta \; \mathrm{ctx}}{\Delta \equiv \Gamma \; \mathrm{ctx}}$$
 
 * Transitivity of judgmental equality
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma \vdash B \equiv C \; \mathrm{type} }{\Gamma \vdash A \equiv C \; \mathrm{type}}$$
-$$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{ctx}}{\Gamma \equiv \Xi \; \mathrm{ctx}}$$
 
 ### Congruence rules for judgmental equality of types
 
@@ -282,6 +299,18 @@ $$\frac{\Gamma \vdash A \equiv A' \; \mathrm{type} \quad \Gamma, x:A \vdash B(x)
 In some [[dependent type theories]], there is also judgmental equality of [[contexts]], which is given by the following [[judgment]]:
 
 * $\Gamma \equiv \Gamma' \; \mathrm{ctx}$ - $\Gamma$ and $\Gamma'$ are judgmentally equal contexts.
+
+In addition to the variable conversion rule, there are reflexivity, symmetry, and transitivity rules making judgmental equality for contexts an [[equivalence relation]]:
+
+* Reflexivity of judgmental equality
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \equiv \Gamma \; \mathrm{ctx}}$$
+
+* Symmetry of judgmental equality
+$$\frac{\Gamma \equiv \Delta \; \mathrm{ctx}}{\Delta \equiv \Gamma \; \mathrm{ctx}}$$
+
+* Transitivity of judgmental equality
+$$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{ctx}}{\Gamma \equiv \Xi \; \mathrm{ctx}}$$
 
 ## See also
 
