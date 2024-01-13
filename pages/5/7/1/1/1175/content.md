@@ -324,6 +324,8 @@ To be done...
 
 * [[von Neumann algebra factor]]
 
+* [[W-star category]]
+
 * [[quantum relation]]
 
 
