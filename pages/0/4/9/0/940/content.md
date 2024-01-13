@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -143,7 +153,9 @@ Special topics:
 
 * Lars Kadison, _Depth two and Galois coring_, [math.RA/0408155](http://arxiv.org/abs/math.RA/0408155)
 
-* [[George M. Bergman]], Adam O. Hausknecht, _Cogroups and co-rings in categories of associative rings_, A.M.S. Math. Surveys and Monographs __45__, ix+388 pp., 1996; ISBN 0-8218-0495-2. [MR 97k:16001](http://www.ams.org/mathscinet-getitem?mr=97k:16001) [errata and updates](http://math.berkeley.edu/~gbergman/papers/updates/coalg.html).
+* {#BergmanHausknecht96} [[George M. Bergman]], Adam O. Hausknecht, _Cogroups and co-rings in categories of associative rings_, A.M.S. Math. Surveys and Monographs __45__ (1996) &lbrack;ISBN 0-8218-0495-2, [ams:surv-45](https://bookstore.ams.org/surv-45), [MR 97k:16001](http://www.ams.org/mathscinet-getitem?mr=97k:16001), [errata and updates](http://math.berkeley.edu/~gbergman/papers/updates/coalg.html)&rbrack;
+
+  > (discussion [[internalization|internal to]] the [[category]] of [[associative algebras]])
 
 * [[T. Brzeziński]], L. Kadison, [[R. Wisbauer]], _On coseparable and biseparable corings_,  Hopf algebras in noncommutative geometry and physics,  71--87, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005. 
 * T. Brzeziński, L. El Kaoutit, J. Gómez-Torrecillas, _The bicategories of corings_, J. Pure & Appl. Alg. __205__:3 (2006) 510-541 [doi:10.1016/j.jpaa.2005.07.013](https://doi.org/10.1016/j.jpaa.2005.07.013) [math.RA/0408042](https://arxiv.org/abs/math/0408042)
