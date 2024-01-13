@@ -21,7 +21,7 @@ In any [[type theory]], judgmental equality is the notion of [[equality]] which 
 
 In general, there are two different kinds of judgmental equalities
 
-* **strict judgmental equalities**, where judgmental equalities behave like the strict equality of a [[set]] and is preserved throughout the type theory as [[congruences]]
+* **strict judgmental equalities**, where judgmental equalities behave like the strict equality of a [[set]] and is preserved throughout the type theory as [[congruences]]. 
 
 * **weak judgmental equalities**, where judgmental equalities are judgmental representations for [[identifications]] between terms of a type or [[equivalences of types]]; i.e. where $a \equiv b:A$ is formally a shorthand for $p:a =_A b$ and similarly $A \equiv B$ is shorthand for $e:A \simeq B$
 
@@ -237,6 +237,8 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{type} \quad \Ga
 * [[equality]]
 
 * [[propositional equality]], [[typal equality]]
+
+* [[coercion]]
 
 ## References
 
