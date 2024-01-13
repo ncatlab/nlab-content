@@ -270,15 +270,18 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
 ## References 
 
-A general survey is in 
+* [[Nik Weaver]], *Mathematical Quantization*, Routledge (2011) &lbrack;[ISBN 9781584880011](https://www.routledge.com/Mathematical-Quantization/Weaver/p/book/9781584880011)&rbrack;
 
-* S. Twareque Ali, Miroslav Engli&#353;, _Quantization Methods: A Guide for Physicists and Analysts_,  	Rev. Math. Phys.17:391-490,2005 ([arXiv:math-ph/0405065](http://arxiv.org/abs/math-ph/0405065))
+* S. Twareque Ali, Miroslav Engli&#353;, _Quantization Methods: A Guide for Physicists and Analysts_, Rev. Math. Phys. **17** (2005) 391-490 &lbrack;[arXiv:math-ph/0405065](http://arxiv.org/abs/math-ph/0405065)&rbrack;
 
-A general geometrically inclined introduction can be found in 
+Specifically on [[geometric quantization]]:
 
-* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, AMS (1997) &lbrack;[pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)&rbrack;
+ 
 
-* [[Klaas Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Math. 1998. xx+529 pp. 
+
+
+See also references at *[[quantum mechanics]]*.
 
 A proposal for a full formalization of the notion of quantization for "finite" theories such as [[Dijkgraaf-Witten theory]] is in
 
