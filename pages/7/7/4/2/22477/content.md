@@ -1,9 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
-A __W\*-category__ is a [[horizontal categorification]] of a [[von Neumann algebra]].
+The concept of $W^\ast$-categories is the special case of that of [[C-star category|$C^\ast$-categories]] like [[von Neumann algebras]] (aka $W^\ast$-algebras) are a special case of [[C-star algebra|$C^\ast$-algebras]]. Hence a more systematic name for $W^\ast$-categories would be *$W^\ast$-algebroids* or *von Neumann algebroids*.
 
-W\*-categories are in the same relation to [[C*-categories]]
-as [[von Neumann algebras]] are to [[C*-algebras]].
 
 ## Definition
 
@@ -45,8 +63,19 @@ where it only has [[finite limits]] and [[finite colimits]].
 
 The same is true for [[Hilbert W*-modules]] over [[von Neumann algebras]], [[W*-representations]] of [[von Neumann algebras]].
 
+## Related concepts
+
+* [[von Neumann algebra]]
+
+* [[C-star category|$C^\ast$-category]]
+
 ## References
 
-* [[P. Ghez]], [[Ricardo Lima]], [[John E. Roberts]], _W\*-categories_, Pacific Journal of Mathematics 120:1 (1985), 79–109, [doi:10.2140/pjm.1985.120.79](https://doi.org/10.2140/pjm.1985.120.79).
+* [[P. Ghez]], [[Ricardo Lima]], [[John E. Roberts]], _W\*-categories_, Pacific Journal of Mathematics 120:1 (1985), 79–109 &lbrack;[doi:10.2140/pjm.1985.120.79](https://doi.org/10.2140/pjm.1985.120.79)&rbrack;
 
 [[!redirects W*-categories]]
+
+[[!redirects W-star category]]
+[[!redirects W-star+categories]]
+
+
