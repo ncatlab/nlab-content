@@ -182,3 +182,7 @@ On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenbe
 
 [[!redirects continuous deformation quantization]]
 [[!redirects continuous deformation quantizations]]
+
+[[!redirects Rieffel quantization]]
+[[!redirects Rieffel quantizations]]
+
