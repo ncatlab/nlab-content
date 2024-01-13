@@ -332,6 +332,8 @@ See at *[[Majorana dimer code]]*.
 
 * [[tensor network]]
 
+* [[quantum relation]]
+
 ## References
 
 ### General
