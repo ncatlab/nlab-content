@@ -19,31 +19,112 @@
 
 In any [[type theory]], judgmental equality is the notion of [[equality]] which is defined to be a [[judgment]]. Judgmental equality is most commonly used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for making [[inductive definitions]], but it is also used in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
 
-In general, there are two different kinds of judgmental equalities
+There are two different kinds of judgmental equalities
 
-* **strict judgmental equalities**, where judgmental equalities behave like the strict equality of a [[set]] and is preserved throughout the type theory as [[congruences]]. 
+* Judgmental equality of terms
 
-* **weak judgmental equalities**, where judgmental equalities are judgmental representations for [[identifications]] between terms of a type or [[equivalences of types]]; i.e. where $a \equiv b:A$ is formally a shorthand for $p:a =_A b$ and similarly $A \equiv B$ is shorthand for $e:A \simeq B$
+* Judgmental equality of types, in [[dependent type theories]] with a separate [[type]] [[judgment]]. 
 
-Strict judgmental equalities are used in most [[dependent type theories]]. Weak judgmental equalities can be used in [[weak type theories]], where a direct translation of the [[inference rules]] of the types in [[Martin-Löf type theory]] results in a weak version of Martin-Löf type theory. 
+Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. 
 
-Judgmental equality can be contrasted with [[propositional equality]], where equality is a [[proposition]], and [[typal equality]], where equality is a [[type]].
 
-## Judgments
+## Judgmental equality of terms
 
-In the model of [[dependent type theory]] which uses [[judgmental equality]] for [[definitional equality]], judgmental equality of types, terms, and contexts are given by the following [[judgments]]:
+Judgmental equality of terms is given by the following judgment:
 
-* $\Gamma \vdash A \equiv A' \; \mathrm{type}$ - $A$ and $A'$ are judgementally equal well-typed types in context $\Gamma$.
-* $\Gamma \vdash a \equiv a' : A$ - $a$ and $a'$ are judgementally equal well-typed terms of type $A$ in context $\Gamma$.
-* $\Gamma \equiv \Gamma' \; \mathrm{ctx}$ - $\Gamma$ and $\Gamma'$ are judgementally equal contexts.
+* $\Gamma \vdash a \equiv a' : A$ - $a$ and $a'$ are judgmentally equal well-typed terms of type $A$ in context $\Gamma$.
 
-## Inference rules for judgmental equality
+There are two different notions of judgmental equality of terms which could be distinguished:
+
+* Weak judgmental equality of terms is just a shorthand for the [[identity type]] as [[typal equality]]
+
+* Strict judgmental equality of terms is a strict version of equality, which behaves as the ([[equivalence relation]] interpretation of) [[propositional equality]] of [[sets]] rather than the ([[weak homotopy equivalence]] interpretation of) typal equality of types as [[infinity-groupoids]]. 
+
+Strict judgmental equalities of terms are used in most [[dependent type theories]]. Weak judgmental equalities of terms can be used in [[weak type theories]], where a direct translation of the [[inference rules]] of the types in [[Martin-Löf type theory]] results in a weak version of Martin-Löf type theory. 
+
+Judgmental equality of terms can be contrasted with [[propositional equality]] of terms, where equality is a [[proposition]], and [[typal equality]] of terms, where equality is a [[type]].
 
 ### Weak judgmental equality
 
 Weak judgmental equality of terms is simply given by a reflection rule into the [[identity type]]:
 
 $$\frac{\Gamma \vdash a \equiv a':A}{\Gamma \vdash \delta_{a, a'}:a =_A a'}$$
+
+### Strict judgmental equality
+
+Strict judgmental equality of terms has congruence rules for substitution, the [[principle of substitution]]:
+
+* Principle of substitution for judgmentally equal terms:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B(x)}{\Gamma, \Delta(a) \vdash c(a) \equiv c(b): B(a)}$$
+
+In addition, if there is a separate [[type]] [[judgment]], then there is also a separate rule for the principle of substitution into type families. 
+
+If one has judgmental equality of types, then the principle of substitution into type families is given by 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash B(a) \equiv B(b) \; \mathrm{type}}$$
+
+This implies the reflection rule of weak judgmental equalities because one could derive the following rule:
+
+$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{refl}_A(a):a =_A b}$$
+
+Otherwise, the principle of substitution into type families is given by [[transport]] across judgmental equality as [[explicit conversion]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \simeq B(b) \; \mathrm{type}}$$
+
+where $A \simeq B$ is some notion of [[equivalence type]]. This also implies the reflection rule of weak judgmental equalities because one could derive the following rule
+
+$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{tr}_{a =_A (-)}^{a \equiv b}(\mathrm{refl}_A(a)):a =_A b}$$
+
+Finally, there are reflexivity, symmetry, and transitivity rules making strict judgmental equality for terms:
+
+* Reflexivity of judgmental equality
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a \equiv a:A}$$
+
+* Symmetry of judgmental equality
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash b \equiv a:A}$$
+
+* Transitivity of judgmental equality
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A \quad b \equiv c:A }{\Gamma \vdash a \equiv c:A}$$
+
+### In computation and uniqueness rules
+
+Judgmental equality of terms can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
+
+* Computation rules for dependent product types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) \equiv b(a):B(a)}$$
+
+* Uniqueness rules for dependent product types:
+
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda(x).f(x):\prod_{x:A} B(x)}$$
+
+* Computation rules for negative dependent sum types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv b:B(\pi_1(a, b))}$$
+
+* Uniqueness rules for negative dependent sum types:
+
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):\sum_{x:A} B(x)}$$
+
+* Computation rules for identity types:
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{refl}_A(c))}{\Gamma, c:A \vdash J(t, c, c, \mathrm{refl}(c)) \equiv t:C(c, c, \mathrm{refl}_A(c))}$$
+
+## Judgmental equality of types
+
+In [[dependent type theory]] with a separate [[type]] [[judgment]], judgmental equality of types is given by the following judgment:
+
+* $\Gamma \vdash A \equiv A' \; \mathrm{type}$ - $A$ and $A'$ are judgmentally equal well-typed types in context $\Gamma$.
+
+There are two different notions of judgmental equality of types which could be distinguished:
+
+* Weak judgmental equality of types is just a shorthand for equivalence of types 
+
+* Strict judgmental equality of types could be thought of as making explicit the implicit [[coercion]] of [[equivalence of types|equivalent types]] as [[subtypes]], and is preserved throughout the type theory as [[congruences]].
+
+In either case, judgmental equality of types is primarily used for [[definitional equality]] of types. 
+
+### Weak judgmental equality
 
 Weak judgmental equality of types is given by one of the two sets of structural rules:
 
@@ -67,35 +148,22 @@ making both functions $\lambda x:A'.x$ and $\lambda x:A.x$ isomorphisms.
 
 ### Strict judgmental equality
 
-Strict judgmental equality of terms has congruence rules for substitution, the [[principle of substitution]]:
-
-* Principle of substitution for judgmentally equal terms:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash B(a) \equiv B(b) \; \mathrm{type}}$$
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B(x)}{\Gamma, \Delta(a) \vdash c(a) \equiv c(b): B(a)}$$
-
-This implies the reflection rule of weak judgmental equalities because one could derive the following rule:
-
-$$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{refl}_A(a):a =_A b}$$
-
-In addition to the variable conversion rule, there are reflexivity, symmetry, and transitivity rules making strict judgmental equality for both terms and types an [[equivalence relation]]:
+In addition to the variable conversion rule, there are reflexivity, symmetry, and transitivity rules making strict judgmental equality for types an [[equivalence relation]]:
 
 * Reflexivity of judgmental equality
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A \equiv A \; \mathrm{type}}$$
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A}{\Gamma \vdash a \equiv a:A}$$
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \equiv \Gamma \; \mathrm{ctx}}$$
 
 * Symmetry of judgmental equality
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma \vdash B \equiv A \; \mathrm{type}}$$ 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash b \equiv a:A}$$
 $$\frac{\Gamma \equiv \Delta \; \mathrm{ctx}}{\Delta \equiv \Gamma \; \mathrm{ctx}}$$
 
 * Transitivity of judgmental equality
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma \vdash B \equiv C \; \mathrm{type} }{\Gamma \vdash A \equiv C \; \mathrm{type}}$$
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A \quad b \equiv c:A }{\Gamma \vdash a \equiv c:A}$$
 $$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{ctx}}{\Gamma \equiv \Xi \; \mathrm{ctx}}$$
 
-### Congruence rules for judgmental equality
+### Congruence rules for judgmental equality of types
 
 In addition, strict judgmental equalities have [[congruence rules]] for every type in the type theory. 
 
@@ -209,28 +277,11 @@ $$\frac{\Gamma \vdash A \equiv A' \; \mathrm{type} \quad \Gamma, x:A \vdash B(x)
 
 $$\frac{\Gamma \vdash A \equiv A' \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \equiv B'(x) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash C(x, y) \equiv C'(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{choice}_{A, B, C} \equiv \mathrm{choice}_{A', B', C'}:\left(\mathrm{isSet}(A) \times \prod_{x:A} \mathrm{isSet}(B(x))\right) \to \forall x:A.\exists y:B(x).C(x, y) \to \exists g:\prod_{x:A} B(x).\forall x:A.C(x, g(x))}$$
 
-## In computation and uniqueness rules
+## Judgmental equality of contexts
 
-Judgmental equality of terms can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
+In some [[dependent type theories]], there is also judgmental equality of [[contexts]], which is given by the following [[judgment]]:
 
-* Computation rules for dependent product types:
-
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) \equiv b(a):B(a)}$$
-
-* Uniqueness rules for dependent product types:
-
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda(x).f(x):\prod_{x:A} B(x)}$$
-
-* Computation rules for negative dependent sum types:
-
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv b:B(\pi_1(a, b))}$$
-
-* Uniqueness rules for negative dependent sum types:
-
-$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):\sum_{x:A} B(x)}$$
-
-* Computation rules for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{refl}_A(c))}{\Gamma, c:A \vdash J(t, c, c, \mathrm{refl}(c)) \equiv t:C(c, c, \mathrm{refl}_A(c))}$$
+* $\Gamma \equiv \Gamma' \; \mathrm{ctx}$ - $\Gamma$ and $\Gamma'$ are judgmentally equal contexts.
 
 ## See also
 
