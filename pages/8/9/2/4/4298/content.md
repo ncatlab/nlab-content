@@ -21,7 +21,7 @@
 
 ## Idea
 
-A [[vector]], hence an [[element]] of some [[vector space]] $\mathcal{H}$ is called _cyclic_ with respect to the [[action]]/[[representation]] of some [[algebra]] $\mathcal{A}$ on $\mathcal{H}$ if every element of $\mathcal{H}$ may be obtained by acting on $v$ with some algebra element $A \in \mathcal{A}$, or rather if one may always find a [[sequence]] of elements $A_n$ whose action on $v$ [[convergence of a sequence|converges]] to the given element.
+A [[vector]] --- hence an [[element]] of some [[vector space]] $\mathcal{H}$ --- is called _cyclic_ with respect to the [[action]]/[[representation]] of some [[algebra]] $\mathcal{A}$ on $\mathcal{H}$ if every element of $\mathcal{H}$ may be obtained by acting on $v$ with some algebra element $A \in \mathcal{A}$, or rather if one may always find a [[sequence]] of elements $A_n$ whose action on $v$ [[convergence of a sequence|converges]] to the given element.
 
 ## Definition
 
