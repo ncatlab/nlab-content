@@ -28,7 +28,7 @@ To some extent, one can continue to define a [[(-1)-category]] to be a [[truth v
 
 +-- {: .num_remark} 
 ###### Remark 
-Interpreted literally, $0$-category or $(0, 0)$-category would be an $\infty$-category such that every $j$-cell for $j \gt 0$ is an equivalence, and any two such $j$-cells that are parallel are equivalent. The picture that apparently emerges from this description might suggest a [[symmetric proset]], a set equipped with an [[equivalence relation]]], or something even more complicated than that. One *could* thus say that a $0$-category is a symmetric proset, when considered just up to [[isomorphism of categories|isomorphism]]. But it is more appropriate in higher category theory to consider these things up to equivalence rather than up to isomorphism; when we do this, a $0$-category is equivalent to a set again. 
+Interpreted literally, $0$-category or $(0, 0)$-category would be an $\infty$-category such that every $j$-cell for $j \gt 0$ is an equivalence, and any two such $j$-cells that are parallel are equivalent. The picture that apparently emerges from this description might suggest a [[symmetric proset]], a set equipped with an [[equivalence relation]], or something even more complicated than that. One *could* thus say that a $0$-category is a symmetric proset, when considered just up to [[isomorphism of categories|isomorphism]]. But it is more appropriate in higher category theory to consider these things up to equivalence rather than up to isomorphism; when we do this, a $0$-category is equivalent to a set again. 
 =-- 
 
 
