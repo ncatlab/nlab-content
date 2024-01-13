@@ -29,7 +29,7 @@ One definition goes likes this ([MacLane, VIII.4](#MacLane) and also for instanc
 
 An __element__ of an [[object]] $W$ in a given [[abelian category]] $\mathcal{A}$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $\mathcal{A}$ and $h:X\to W$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $\mathcal{A}$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to W$. 
 
-However, beware that the passage to equivalence classes does not respect the abelian group structure and hence generalized elements in this sense cannot be added or subtracted. A more natural approach is discussed in ([Bergman](#Bergman)) where the actual generalized elements are remembered but a refinement of their domain is allowed, much as familiar from [[topos theory]]. 
+However, beware that the passage to equivalence classes does not respect the abelian group structure and hence generalized elements in this sense cannot be added or subtracted. A more natural approach is discussed in [Bergman 1974](#Bergman74) where the actual generalized elements are remembered but a refinement of their domain is allowed, much as familiar from [[topos theory]]. 
 
 ## References
 
@@ -44,9 +44,16 @@ Equivalence classes of generalized elements are considered for instance in
 
 Genuine generalized elements are considered in
 
-* [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
- {#Bergman}
+* {#Bergman74} [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) &lbrack;[pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf), [[Bergman-ElementChasing.pdf:file]]&rbrack;
+ 
 
+[[!redirects elements in an abelian category]]
+[[!redirects elements in abelian categories]]
 
 [[!redirects element of an abelian category]]
+[[!redirects elements of an abelian category]]
+
+
 [[!redirects element in abelian category]]
+
+
