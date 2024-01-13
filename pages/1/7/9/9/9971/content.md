@@ -65,6 +65,10 @@ and specifically the [[quantum lambda-calculus]] of:
 
 > So now people are working on quantum programming languages *again*.
 
+On [[categorical semantics]] on [[von Neumann algebras]]:
+
+* [[Kenta Cho]], *Semantics for a Quantum Programming Language by Operator Algebras*, EPTCS **172** (2014) 165-190 &lbrack;[arXiv:1412.8545](https://arxiv.org/abs/1412.8545), [doi:10.4204/EPTCS.172.12](https://doi.org/10.4204/EPTCS.172.12)&rbrack;
+
 
 ### Quipper as such
 
