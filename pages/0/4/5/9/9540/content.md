@@ -155,16 +155,17 @@ An $(A, \mathbb{C})$-Hilbert $C^\ast$-bimodule is equivalently just as [[represe
 
 ## References
 
-Reviews are for instance in
+For instance
 
-* Nik Weaver, _Hilbert bimodules with involution_ ([arXiv:math/9908119](http://arxiv.org/abs/math/9908119))
+* [[Sergio Doplicher]], Claudia Pinzari, Rita Zuccante, _The $C^\ast$-algebra of a Hilbert Bimodule_ &lbrack;[arXiv:funct-an/9707006](http://arxiv.org/abs/funct-an/9707006)&rbrack;
 
-* [[Sergio Doplicher]], Claudia Pinzari, Rita Zuccante, _The $C^\ast$-algebra of a Hilbert Bimodule_ ([arXiv:funct-an/9707006](http://arxiv.org/abs/funct-an/9707006))
+* [[Nik Weaver]], _Hilbert bimodules with involution_, Canad. Math. Bull. **44** 3 (2001) 355–369 &lbrack;[arXiv:math/9908119](http://arxiv.org/abs/math/9908119), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DC7055E821BEA9438350CCB325EA64CA/S0008439500014466a.pdf/hilbert-bimodules-with-involution.pdf)&rbrack;
+
 
 The tensor product of Hilbert bimodules and the induced [[2-category]] structure is discussed in 
 
-* Alcides Buss, [[Chenchang Zhu]], [[Ralf Meyer]], _A higher category approach to twisted actions on $C^\ast$-algebras_ ([arXiv:0908.0455](http://arxiv.org/abs/0908.0455))
- {#BussZhuMeyer}
+* {#BussZhuMeyer} Alcides Buss, [[Chenchang Zhu]], [[Ralf Meyer]], _A higher category approach to twisted actions on $C^\ast$-algebras_ ([arXiv:0908.0455](http://arxiv.org/abs/0908.0455))
+ 
 
 [[!redirects Hilbert bimodules]]
 
