@@ -13,6 +13,10 @@ On [[quantum probability]], [[quantum mechanics]] and [[quantum computing]]:
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
+On [[von Neumann algebras]], [[noncommutative measure theory]] and [[quantum relations]]:
+
+* {#WeaverKuperberg11} [[Nik Weaver]], [[Greg Kuperberg]], *A von Neumann Algebra Approach to Quantum Metrics/Quantum Relations*, Memoirs of the AMS **215** 1010 (2011) &lbrack;[ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
+
 
 ## Related entries
 
