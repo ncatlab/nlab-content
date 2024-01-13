@@ -1,5 +1,5 @@
 
-* [personal page](https://lattes.ime.usp.br/exalunosposmat/membro-9012433941779564.html)
+* [personal page](http://lattes.cnpq.br/9012433941779564)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=67_tDYsAAAAJ&hl=en)
 
