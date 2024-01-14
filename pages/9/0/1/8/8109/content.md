@@ -24,6 +24,12 @@
 
 ## Idea
 
+[Ravenel 1992, p. 24](#Ravenel92):
+
+> We use the word 'chromatic' here for the following reason. The $n$-th subquotients in the chromatic filtration consists of $v_n$-periodic elements. As illustrated in 2.4.2, these elements fall into periodic families. The chromatic filtration is thus like a spectrum in the astronomical sense in that it resolves the stable homotopy groups of a finite complex into periodic families of various periods. Comparing these to the colors of the rainbow led us to the word 'chromatic'.
+
+
+
 
 By the construction of [[complex oriented cohomology theories]] from [[formal groups]] (via the [[Landweber exact functor theorem]]), the [[height of a formal group|height filtration]] of formal groups induces a "chromatic" [[filtration]] on [[complex oriented cohomology theories]]. 
 _Chromatic homotopy theory_ is the study of [[stable homotopy theory]] and specifically of [[complex oriented cohomology theories]] by means of and along this [[chromatic filtration]].
@@ -145,6 +151,9 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 Original articles:
 
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
+
+* {#Ravenel92} [[Doug Ravenel]], _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies **128**, Princeton University Press (1992) &lbrack;[ISBN:9780691025728](https://press.princeton.edu/books/paperback/9780691025728/nilpotence-and-periodicity-in-stable-homotopy-theory-am-128-volume), [pdf](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb.pdf), [webpage](https://people.math.rochester.edu/faculty/doug/nilp.html)&rbrack;
+
 
 A quick idea:
 
