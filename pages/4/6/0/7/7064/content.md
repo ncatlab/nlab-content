@@ -443,6 +443,9 @@ Introductions and surveys include
  
 * [[Stanley Kochmann]], _Stable Homotopy Groups of Spheres -- A Computer-Assisted Approach_, Lecture Notes in Mathematics, 1990
 
+* [[Doug Ravenel]], _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies **128**, Princeton University Press (1992) &lbrack;[ISBN:9780691025728](https://press.princeton.edu/books/paperback/9780691025728/nilpotence-and-periodicity-in-stable-homotopy-theory-am-128-volume), [pdf](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb.pdf), [webpage](https://people.math.rochester.edu/faculty/doug/nilp.html)&rbrack;
+
+
 * {#Kochmann96} [[Stanley Kochmann]], section 5 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
