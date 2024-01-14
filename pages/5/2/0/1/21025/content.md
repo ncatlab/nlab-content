@@ -126,6 +126,8 @@ Dimensional Universal Supergravity**
 
   cf.: [arXiv:2101.07236](pre-metric+electromagnetism#LazaroiuShahbazi23)
 
+  > Using the [[sheaf cohomology|cohomology]] of the appropriate [[locally constant sheaf]] I will explain how to implement the [[Dirac charge quantization|Dirac-Schwinger-Zwanziger integrality condition]] on [[D=4 supergravity|four-dimensional]] [[classical field theory|classical]] ungauged [[supergravity]] and how to interpret it geometrically in order to obtain its duality-covariant, gauge-theoretic, differential-geometric global model. Using this construction, I will prove that four-dimensional bosonic ungauged supergravity is completely determined by a choice of polarized Siegel bundle defined over the total space of a vertically Riemannian submersion equipped with a complete [[Ehresmann connection]], showing that its gauge sector reduces to a polarized self-duality condition for connections on the underlying polarized Siegel bundle. Furthermore, I will explore the continuous and arithmetic [[U-duality]] groups of the theory, characterizing them through [[short exact sequences]] and realizing the latter through the [[automorphism group]] of the underlying Siegel bundle acting on its [[adjoint bundle]]. This elucidates the geometric origin of U-duality and justifies the miraculous existence of U-dualities by describing them as a gauge transformation of the appropriately defined [[principal bundle]].
+
 \linebreak
 
 * 15 Jan 2024
@@ -135,6 +137,8 @@ Dimensional Universal Supergravity**
   **Gauge Theory for String Algebroids**
 
   cf.: [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler)  
+
+  > In this talk I will explain a [[moment map]] construction for [[string algebroids]], a special type of [[Courant algebroids]] which arise as [[Atiyah algebroids]] of [[principal 2-bundle|higher principal bundles]]. The zero locus of our moment map is given by the solutions of the Calabi system, a coupled system of equations which provides a unifying framework for the classical Calabi problem and the Hull-Strominger system in [[heterotic string theory]]. Our main results are concerned with the geometry of the [[moduli space]] of solutions, and assume a technical condition which is fulfilled in examples. We prove that the moduli space carries a pseudo-Kähler metric with Kähler potential given by the dilaton functional, a topological formula for the metric, and an infinitesimal Donaldson-Uhlenbeck-Yau type theorem. Based on joint work with Rubio and Tipler in [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler) (to appear in JDG) and ongoing joint work with Álvarez-Cónsul and Tellez.
 
 \linebreak
 
@@ -174,6 +178,8 @@ Taylor String Theory**
 
   cf.: [arXiv:2307.08729](https://arxiv.org/abs/2307.08729)
 
+  > In this talk, we will attempt to reconcile two different results on [[D=2 Yang-Mills theory|two-dimensional pure Yang-Mills theory]]. Specifically, we will discuss how the fact that [[D=2 Yang-Mills theory|2d pure Yang-Mills]] is equivalent to a disjoint union of theories, is related to the Gross-Taylor description of 2d pure Yang-Mills as the [[target space|target-space]] field theory of a [[string theory]]. The Gross-Taylor picture can be understood by first rewriting the Yang-Mills partition function (in a [[large N limit|large $N$ limit]]) as a sum of [[correlation functions]] in [[Dijkgraaf-Witten theories]] for the [[symmetric group]] $S_n$, and then interpreting those Dijkgraaf-Witten correlation functions in terms of [[branched covers]], which leads to the string theory description. We first observe that the decomposition of the pure Yang-Mills aligns perfectly with the decomposition of $S_n$ Dijkgraaf-Witten theory, and then discuss decomposition and the branched covers interpretation. We encounter two puzzles, and to solve them, propose that the Gross-Taylor string theory has a [[higher form symmetry|higher-form symmetry]].
+
 \linebreak
 
 * 16 Jan 2024
@@ -181,6 +187,8 @@ Taylor String Theory**
   [[Ruben Minasian]]:
 
   **Constraining and Un-constraining Supergravities**
+
+  > I will review various aspects and somewhat surprising consequences of cancellation of (different types of) [[anomalies]] in [[supergravity]] theories in [[D=8 supergravity|eight]] and [[D=6 supergravity|six]] dimensions. I will also discuss appearance and importance of exotic (singular, non-spin, non-orientable) [[background field|backgrounds]].
 
 
 \linebreak
@@ -193,6 +201,8 @@ Taylor String Theory**
 Compactifications**
 
   cf.: [arXiv:2212.01135](exceptional+field+theory#DuboeufMalekSamtleben23)
+
+  > I will present a powerful new method that for the first time allows us to compute the [[Kaluza-Klein theory|Kaluza-Klein]] spectrum of a large class of string theory compactifications, including those arising in maximal [[gauged supergravities]] and beyond. This includes geometries with little to no remaining (super-)symmetries, completely inaccessible by previous methods. I will show how these insights can be used to [[holographic principle|holographically]] compute the anomalous dimensions of protected and unprotected operators in [[non-perturbative quantum field theory|strongly-coupled]] [[CFTs]], as well as to study global properties of their conformal manifolds. I will also show how the method can be used to determine the perturbative stability of non supersymmetric [[anti-de Sitter spacetime|AdS]] [[string theory vacuum|vacua]]. We will see the importance of higher Kaluza-Klein modes to the physics of string compactifications, e.g. in realising the compactness of moduli spaces, restoring [[supersymmetry]] that is lost in a consistent truncation, and in destabilising vacua that appear to stable in lower-dimensional supergravities.
   
 \linebreak
 
@@ -215,6 +225,8 @@ Compactifications**
   **Topological-Holomorphic $\mathcal{N}=4$ Gauge Theory: From Langlands Duality of Holomorphic Invariants to Mirror Symmetry of Quasi-Topological Strings**
 
   cf.: [arXiv:2305.15965](https://arxiv.org/abs/2305.15965)
+
+  > We perform a topological-holomorphic twist of $\mathcal{N}=4$ [[super Yang-Mills theory|supersymmetric gauge theory]] on a [[4-manifold|four-manifold]] of the form $M^4 = \mathbb{C}_1 \times \mathbb{C}_2$, and unravel the mathematical implications of its physics. In particular, we consider the cohomology of different linear combinations of the resulting scalar supercharges under [[S-duality]], whence we would be able to derive novel topological and holomorphic invariants of $M^4$ and their [[geometric Langlands duality|Langlands duals]]. As the twisted theory can be topological along $\mathbb{C}_1$ such that we can [[KK-reduction|dimensionally reduce]] it to 2d, via the effective [[sigma-model]] on $\mathbb{C}_2$, we can also relate these 4d invariants and their Langlands duals to the [[mirror symmetry]] of [[Higgs bundles]] and that of quasi-topological strings described by the sheaf of [[chiral differential operators]].
 
 \linebreak
 
