@@ -119,3 +119,8 @@ Further activity:
 [[!redirects non-invertible symmetry]]
 [[!redirects non-invertible symmetries]]
 
+[[!redirects higher form symmetry]]
+[[!redirects higher form symmetries]]
+[[!redirects higher-form symmetry]]
+[[!redirects higher-form symmetries]]
+
