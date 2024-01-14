@@ -25,6 +25,12 @@ On [[stable homotopy groups of spheres]] and [[chromatic homotopy theory]]:
 
 * {#MahowaldRavenel87} [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, in: [[Samuel Gitler]] (ed.): _The Lefschetz Centennial Conference: Proceedings on Algebraic Topology II_, Contemporary Mathematics volume 58, AMS 1987  ([ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]])
 
+On [[stable homotopy groups of spheres]] and [[chromatic homotopy theory]]:
+
+* [[Doug Ravenel]], _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies **128**, Princeton University Press (1992) &lbrack;[ISBN:9780691025728](https://press.princeton.edu/books/paperback/9780691025728/nilpotence-and-periodicity-in-stable-homotopy-theory-am-128-volume), [pdf](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb.pdf), [webpage](https://people.math.rochester.edu/faculty/doug/nilp.html)&rbrack;
+
+  > ("the orange book")
+
 
 On [[elliptic genera]]:
 
