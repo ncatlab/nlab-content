@@ -83,7 +83,19 @@ Otherwise, the principle of substitution into type families is given by [[strict
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \simeq B(b)}$$
 
-where $A \simeq B$ is the [[type of strict equivalences]] defined using [[natural deduction]] [[inference rules]]. This also implies the reflection rule of weak judgmental equalities because one could derive the following rule
+where $A \simeq B$ is the [[type of strict equivalences]] defined using [[natural deduction]] [[inference rules]]. If one doesn't have a type of strict equivalences, one could define it by components
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}(y):B(b)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a: A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv a}(y) \equiv y:B(a)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{b \equiv a}(\mathrm{tr}_{B(-)}^{a \equiv b}(y)) \equiv y:B(a)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma \vdash b \equiv c : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{b \equiv c}(\mathrm{tr}_{B(-)}^{a \equiv b}(y)) \equiv \mathrm{tr}_{B(-)}^{a \equiv c}(y):B(c)}$$
+
+This shows that transport across judgmental equality forms a [[groupoid]]. 
+
+Either way, this also implies the reflection rule of weak judgmental equalities because one could derive the following rule
 
 $$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{tr}_{a =_A (-)}^{a \equiv b}(\mathrm{refl}_A(a)):a =_A b}$$
 
@@ -109,13 +121,18 @@ $$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda(x).f(x)
 
 * Computation rules for negative dependent sum types:
 
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv b:B(\pi_1(a, b))}$$
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a)}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a)}{\Gamma \vdash \pi_2(a, b) \equiv b:B(a)}$$
+
+If one does not have judgmental equality of types, then one would have to use transport across judgmental equality for the second computation rule:
+
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a)}{\Gamma \vdash \mathrm{tr}_{B(-)}^{\pi_1(a, b) \equiv a}(\pi_2(a, b)) \equiv b:B(a)}$$
 
 * Uniqueness rules for negative dependent sum types:
 
 $$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):\sum_{x:A} B(x)}$$
 
 * Computation rules for identity types:
+
 $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{refl}_A(c))}{\Gamma, c:A \vdash J(t, c, c, \mathrm{refl}(c)) \equiv t:C(c, c, \mathrm{refl}_A(c))}$$
 
 ## Judgmental equality of types
