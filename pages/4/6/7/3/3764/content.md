@@ -68,7 +68,37 @@ Given
 
 1. a [[C*-algebra]] $\mathcal{A}$;
 
-1. a [[state on a star-algebra|state]] $\rho \;\colon\; \mathcal{A} \to \mathbb{C}$
+1. a [[state on a star-algebra|state]] $\rho \;\colon\; \mathcal{A} \to \mathbb{C}$ in the sense of 
+
+   1. a [[linear map]] on the [[underlying]] [[vector space]]
+
+      \[
+        \label{UnderlyingLinearMapOfStateExpectationValue}
+        \rho \,\colon\, \mathcal{A} \to \mathbb{C}
+        \,,
+      \]
+
+   1. which takes star-involution to [[complex conjugation]] 
+  
+      \[
+        \label{StateRespectsStar}
+        A \in \mathcal{A}
+        \;\;\;
+           \vdash
+        \;\;\;
+        \rho(A^\ast) = \overline{\rho(A)}
+      \]
+
+   1. and satisfies "[positivity](state+on+a+star-algebra#PositivityCondition) in the sense that
+
+      \[
+        \label{StateSatisfiesPositivity}
+        A \in \mathcal{A}
+        \;\;\;
+          \vdash
+        \;\;\;
+        \rho(A^\ast A) \in \mathbb{R}_{\geq 0} \subset \mathbb{C}
+      \]      
 
 there exists 
 
@@ -115,9 +145,7 @@ $$
   \,.
 $$
 
-Since $\rho$ is "[positive](state+on+a+star-algebra#PositivityCondition)", hence taking non-negative values, this $\langle \text{-}, \text{-}\rangle$, in general, [positive semi-definite](sesquilinear+form#Definity). 
-
-However, this $\rho$ on $\mathcal{A}$  is not in general positive definitite: There may be a non-trivial [[linear subspace]] of 0-norm elements:
+By the "[positivity](state+on+a+star-algebra#PositivityCondition)"-condition (eq:StateSatisfiesPositivity) on $\rho$, the pairing $\langle-,-\rangle$ is [positive semi-definite](sesquilinear+form#Definity), however it may not be definitite: There may be a non-trivial [[linear subspace]] of 0-norm elements:
 
 \[
   \label{TheNullIdeal}
@@ -131,35 +159,33 @@ However, this $\rho$ on $\mathcal{A}$  is not in general positive definitite: Th
   \,.
 \]
 
-But $\rho$ becomes [positive definite](sesquilinear+form#Definity) on the [[quotient vector space]]
+Observe that this $\mathcal{N}$ is not just a [[linear subspace]] but a left [[ideal]], as follows by the [[Cauchy-Schwarz inequality]] $\big\vert\rho\big( A^\ast B \big)\big\vert^2 \leq \rho\big(A^\ast A\big)\rho(B^\ast B)$:
 
 \[
-  \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
-  \mathscr{H}
-  \;\coloneqq\;
-  \mathcal{A}/\mathcal{N}
-  \,.
-\]
-
-Moreover, observe that $\mathcal{N}$ is not just a [[linear subspace]] but a left [[ideal]], as follows by the [[Cauchy-Schwarz inequality]] $\rho\big( A^\ast B \big) \leq \rho\big(A^\ast A\big)\rho(B^\ast B)$:
-
-$$
+  \label{NullSpaceIsLeftIdeal}
+  \left.
   \begin{array}{l}
     N \in \mathcal{N}
     \\
     A \in \mathcal{A}
   \end{array}
+  \right\}
   \;\;\Rightarrow\;\;
+  \left\{
   \begin{array}{l}
+    \big\vert
     \rho\big(
       (A N)^\ast
       A N
     \big)
+    \big\vert^2
     \\
     \;=\;
+    \big\vert
     \rho\big(
-      \underbrace{N^\ast A^\ast A} N
+      (N^\ast A^\ast A) N
     \big)
+    \big\vert^2
     \\
     \;\leq\;
     \rho\big(
@@ -177,9 +203,105 @@ $$
     }
     }
   \end{array}
+  \right.
+\]
+
+Similarly, the [[Cauchy-Schwarz inequality]] implies that any inner product with a null vector vanishes:
+
+\[
+  \label{InnerProductWithNullVectorIsNullVector}
+  \left.
+  \begin{array}{l}
+    N \in \mathcal{N}
+    \\
+    A \in \mathcal{A}
+  \end{array}  
+  \right\}
+  \;\;
+  \Rightarrow
+  \;\;
+  \rho\big(
+    A N
+  \big)
+  \;=\;
+  0
+  \;,.
+\]
+
+Therefore $\langle-,-\rangle$ first of all descends to the [[quotient vector space]] 
+
+\[
+  \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
+  \mathscr{H}
+  \;\coloneqq\;
+  \mathcal{A}/\mathcal{N}
+  \,,
+\]
+
+because
+
+$$
+  \begin{array}{l}
+    \big\langle
+      A_1
+      ,\,
+      A_2 + N_2
+    \big\rangle
+    \\
+    \;\equiv\;
+    \rho\big(
+      A_1^\ast
+      (A_2 + N_2)
+    \big)
+    \\
+    \;=\;
+    \rho\big(
+      A_1^\ast
+      A_2
+    \big)    
+    +
+    \rho\big(
+      A_1^\ast
+      N_2
+    \big)    
+    \\
+    \;=\;
+    \rho\big(
+      A_1^\ast
+      A_2
+    \big)    
+    \,,
+  \end{array}
 $$
 
-Therefore the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
+where in the last step we used (eq:InnerProductWithNullVectorIsNullVector), and from this: 
+
+$$
+  \begin{array}{l}
+    \big\langle
+      A_1 + N_1
+      ,\,
+      A_2
+    \big\rangle
+    \\
+    \;=\;
+    \overline{
+    \big\langle
+      A_2
+      ,\,
+      A_1 + N_1
+    \big\rangle
+    }
+    \;=\; 0
+    \,,
+  \end{array}
+$$
+
+where in the first step we used (eq:StateRespectsStar).
+
+Moreover, descended to the quotient, $\langle-,-\rangle$ becomes [positive definite](sesquilinear+form#Definity), by construction, so that it defines a [[Hermitian form|Hermitian]] -- by (eq:StateRespectsStar) -- [[inner product]] on $\mathscr{H}$.
+
+Finally, again by the left-ideal property (eq:NullSpaceIsLeftIdeal), the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
 
 $$
   \array{
@@ -200,7 +322,7 @@ $$
   }
 $$
 
-Finally, the cyclic vector in question is that represented by the [[unit element]] $1 \in \mathcal{A}$:
+and so the cyclic vector in question is that represented by the [[unit element]] $1 \in \mathcal{A}$:
 
 $$
   \psi_\rho 
@@ -209,21 +331,6 @@ $$
   \;\in\;
   \mathscr{H}
   \,.
-$$
-
-Notice that this construction constitutes a kind of [[operator-state correspondence]] modulo null operators:
-
-$$
-  \begin{array}{rcl}
-    \mathcal{A}
-    &\longleftrightarrow&
-    \mathscr{H}
-    \\
-    A &\mapsto& [A]
-    \mathrlap{=}
-    A \cdot \psi_\rho
-    \,.
-  \end{array}
 $$
 
 Hence on this Hilbert space $\mathscr{H}$, the original  operator-algebraic state $\rho$ is now represented by the tautological [[density matrix]] 
@@ -236,11 +343,29 @@ $$
     \psi_\rho 
   \right\rangle
   \;=\;
-  \left\vert [1] \right\rangle 
-  \left\langle [1] \right\rangle
+  \big\vert [1] \big\rangle 
+  \big\langle [1] \big\vert
   \,.
 $$
 \end{proof}
+
+Notice in summary that this GNS construction constitutes a kind of [[operator-state correspondence]] modulo null operators:
+
+$$
+  \begin{array}{rcl}
+    \mathcal{A}
+    &\xleftrightarrow{\phantom{---}}&
+    \mathscr{H}
+    \\
+    A &\mapsto& [A]
+    \mathrlap{
+      =
+      A \cdot \psi_\rho
+    }
+    \,.
+  \end{array}
+$$
+
 
 ### For $C^\ast$-categories
  {#ForCStarCategories}
