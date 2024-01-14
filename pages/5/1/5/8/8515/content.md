@@ -25,8 +25,7 @@ There are two different kinds of judgmental equalities
 
 * Judgmental equality of types, in [[dependent type theories]] with a separate [[type]] [[judgment]]. 
 
-Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. 
-
+Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. Similarly, in [[dependent type theory]], one could just work with [[strict equivalence of types]] or some notion of [[weak equivalence of types]] instead of judgmental equality of types. 
 
 ## Judgmental equality of terms
 
@@ -38,11 +37,11 @@ There are two different notions of judgmental equality of terms which could be d
 
 * Weak judgmental equality of terms is just a shorthand for the [[identity type]] as [[typal equality]]
 
-* Strict judgmental equality of terms is a strict version of equality, which behaves as the ([[equivalence relation]] interpretation of) [[propositional equality]] of [[sets]] rather than the ([[weak homotopy equivalence]] interpretation of) typal equality of types as [[infinity-groupoids]]. 
+* Strict judgmental equality is additional structure on types which gives every type the structure of a [[set]] in addition to the [[infinity-groupoid|$\infty$-groupoidal]] structure on a type from the [[identity type]]. 
 
 Strict judgmental equalities of terms are used in most [[dependent type theories]]. Weak judgmental equalities of terms can be used in [[weak type theories]], where a direct translation of the [[inference rules]] of the types in [[Martin-Löf type theory]] results in a weak version of Martin-Löf type theory. 
 
-Judgmental equality of terms can be contrasted with [[propositional equality]] of terms, where equality is a [[proposition]], and [[typal equality]] of terms, where equality is a [[type]].
+Judgmental equality of terms can be contrasted with [[propositional equality]] of terms, where equality is a [[proposition]] in the sense of [[first-order logic]], and [[typal equality]] of terms, where equality is a [[type]].
 
 ### Weak judgmental equality
 
@@ -339,11 +338,47 @@ $$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{
 [[!redirects judgemental equality]]
 [[!redirects judgemental equalities]]
 
+[[!redirects judgmental equality of terms]]
+[[!redirects judgmental equalities of terms]]
+
+[[!redirects judgemental equality of terms]]
+[[!redirects judgemental equalities of terms]]
+
+[[!redirects judgmental equality of elements]]
+[[!redirects judgmental equalities of elements]]
+
+[[!redirects judgemental equality of elements]]
+[[!redirects judgemental equalities of elements]]
+
+[[!redirects judgmental equality of types]]
+[[!redirects judgmental equalities of types]]
+
+[[!redirects judgemental equality of types]]
+[[!redirects judgemental equalities of types]]
+
 [[!redirects weak judgmental equality]]
 [[!redirects weak judgmental equalities]]
 
 [[!redirects weak judgemental equality]]
 [[!redirects weak judgemental equalities]]
+
+[[!redirects weak judgmental equality of terms]]
+[[!redirects weak judgmental equalities of terms]]
+
+[[!redirects weak judgemental equality of terms]]
+[[!redirects weak judgemental equalities of terms]]
+
+[[!redirects weak judgmental equality of elements]]
+[[!redirects weak judgmental equalities of elements]]
+
+[[!redirects weak judgemental equality of elements]]
+[[!redirects weak judgemental equalities of elements]]
+
+[[!redirects weak judgmental equality of types]]
+[[!redirects weak judgmental equalities of types]]
+
+[[!redirects weak judgemental equality of types]]
+[[!redirects weak judgemental equalities of types]]
 
 [[!redirects strict judgmental equality]]
 [[!redirects strict judgmental equalities]]
@@ -351,4 +386,25 @@ $$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{
 [[!redirects strict judgemental equality]]
 [[!redirects strict judgemental equalities]]
 
+[[!redirects strict judgmental equality of terms]]
+[[!redirects strict judgmental equalities of terms]]
+
+[[!redirects strict judgemental equality of terms]]
+[[!redirects strict judgemental equalities of terms]]
+
+[[!redirects strict judgmental equality of elements]]
+[[!redirects strict judgmental equalities of elements]]
+
+[[!redirects strict judgemental equality of elements]]
+[[!redirects strict judgemental equalities of elements]]
+
+[[!redirects strict judgmental equality of types]]
+[[!redirects strict judgmental equalities of types]]
+
+[[!redirects strict judgemental equality of types]]
+[[!redirects strict judgemental equalities of types]]
+
 [[!redirects judgmentally equal]]
+[[!redirects judgmentally equal terms]]
+[[!redirects judgmentally equal elements]]
+[[!redirects judgmentally equal types]]
