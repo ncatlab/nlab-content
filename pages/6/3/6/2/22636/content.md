@@ -43,5 +43,13 @@ On [[cohesive homotopy type theory]] with a pair of commuting cohesive structure
 
 * [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
 
+Proof that [[Conway's game of life]] is omniperiodic:
+
+Proof of omniperiodicity:
+
+* Nico Brown, Carson Cheng, Tanner Jacobi, Maia Karpovich, Matthias Merzenich, David Raucci, [[Mitchell Riley]], *Conway's Game of Life is Omniperiodic* &lbrack;[arXiv:2312.02799](https://arxiv.org/abs/2312.02799)&rbrack;
+
+* [The Physics arXiv Blog](https://www.discovermagazine.com/blog/physics-arxiv), *[Mathematicians Prove the "Omniperiodicity" of Conway's Game of Life](https://www.discovermagazine.com/the-sciences/mathematicians-prove-the-omniperiodicity-of-conways-game-of-life)* (Dec 2024)
+
 
 category: people
