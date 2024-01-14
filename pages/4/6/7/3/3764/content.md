@@ -51,7 +51,7 @@ of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}$; where $\langle -,-\
 
 Originally and typically by default this is considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand & Naimark 1943](#GelfandNaimark43), [Segal 1947](#Segal47)), see for instance ([Schmüdgen 1090](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine& Moretti 2015](#KhavkineMoretti15)) as well as to other [[coefficient]] [[rings]], such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann & Waldmann 1996](#BordemannWaldmann96)). 
 
-The GNS-construction plays a central role in [[algebraic quantum field theory]] (cf. [Haag 1996](#Haag96), [Moretti 2018](#Moretti18), [Khavkine & Moretti 2015](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual [[state]] of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
+The GNS-construction plays a central role in [[algebraic quantum field theory]] (cf. [Haag 1996](#Haag96), [Moretti 2017](#Moretti17), [Khavkine & Moretti 2015](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual [[state]] of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
 
 ## Details
 
@@ -102,7 +102,8 @@ for all $A \in \mathcal{A}$.
 
 =--
 
-Namely, consider on the underlying [[complex vector space]] of $\mathcal{A}$ the [[sesquilinear form]] (inner product)
+\begin{proof}
+Consider on the underlying [[complex vector space]] of $\mathcal{A}$ the [[sesquilinear form]] (inner product)
 
 $$
   \langle A,B \rangle_\rho
@@ -114,22 +115,13 @@ $$
   \,.
 $$
 
-Since $\rho$ is "[positive](state+on+a+star-algebra#PositivityCondition)", hence taking non-negative values, this $\langle \text{-}, \text{-}\ragle$, in general, [positive semi-definite](sesquilinear+form#Definity).
+Since $\rho$ is "[positive](state+on+a+star-algebra#PositivityCondition)", hence taking non-negative values, this $\langle \text{-}, \text{-}\rangle$, in general, [positive semi-definite](sesquilinear+form#Definity). 
 
-Moreover, it becomes [positive definite](sesquilinear+form#Definity) on the the [[quotient vector space]]
-
-\[
-  \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
-  \mathscr{H}
-  \;\coloneqq\;
-  \mathcal{A}/N
-\]
-
-by the subspace of 0-norm elements
+However, this $\rho$ on $\mathcal{A}$  is not in general positive definitite: There may be a non-trivial [[linear subspace]] of 0-norm elements:
 
 \[
   \label{TheNullIdeal}
-  N 
+  \mathcal{N} 
     \;\coloneqq\; 
   \big\{
     A \in \mathcal{A}
@@ -139,7 +131,55 @@ by the subspace of 0-norm elements
   \,.
 \]
 
-In fact, $N$ is a left [[ideal]] in $\mathcal{A}$ so that the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
+But $\rho$ becomes [positive definite](sesquilinear+form#Definity) on the [[quotient vector space]]
+
+\[
+  \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
+  \mathscr{H}
+  \;\coloneqq\;
+  \mathcal{A}/\mathcal{N}
+  \,.
+\]
+
+Moreover, observe that $\mathcal{N}$ is not just a [[linear subspace]] but a left [[ideal]], as follows by the [[Cauchy-Schwarz inequality]] $\rho\big( A^\ast B \big) \leq \rho\big(A^\ast A\big)\rho(B^\ast B)$:
+
+$$
+  \begin{array}{l}
+    N \in \mathcal{N}
+    \\
+    A \in \mathcal{A}
+  \end{array}
+  \;\;\Rightarrow\;\;
+  \begin{array}{l}
+    \rho\big(
+      (A N)^\ast
+      A N
+    \big)
+    \\
+    \;=\;
+    \rho\big(
+      \underbrace{N^\ast A^\ast A} N
+    \big)
+    \\
+    \;\leq\;
+    \rho\big(
+      (N^\ast A^\ast A)
+      (N^\ast A^\ast A)^\ast
+    \big)
+    \underset{
+      = 0
+    }{
+    \underbrace{
+    \rho\big(
+      N^\ast N
+    \big)
+    \,.
+    }
+    }
+  \end{array}
+$$
+
+Therefore the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
 
 $$
   \array{
@@ -160,13 +200,30 @@ $$
   }
 $$
 
-Therefore, the cyclic vector in question can be taken to be that represented by the [[unit element]] $1 \in \mathcal{A}$:
+Finally, the cyclic vector in question is that represented by the [[unit element]] $1 \in \mathcal{A}$:
 
 $$
-  \psi_\rho \;\coloneqq\; [1]
+  \psi_\rho 
+    \;\coloneqq\;
+  [1]
   \;\in\;
   \mathscr{H}
   \,.
+$$
+
+Notice that this construction constitutes a kind of [[operator-state correspondence]] modulo null operators:
+
+$$
+  \begin{array}{rcl}
+    \mathcal{A}
+    &\longleftrightarrow&
+    \mathscr{H}
+    \\
+    A &\mapsto& [A]
+    \mathrlap{=}
+    A \cdot \psi_\rho
+    \,.
+  \end{array}
 $$
 
 Hence on this Hilbert space $\mathscr{H}$, the original  operator-algebraic state $\rho$ is now represented by the tautological [[density matrix]] 
@@ -183,7 +240,7 @@ $$
   \left\langle [1] \right\rangle
   \,.
 $$
-
+\end{proof}
 
 ### For $C^\ast$-categories
  {#ForCStarCategories}
@@ -242,9 +299,9 @@ Textbook accounts:
 
 in the context of [[algebraic quantum field theory]]:
 
-* {#Haag96} [[Rudolf Haag]], _Local  Quantum  Physics:  Fields,  Particles,  Algebras_,   Texts  and  Monographs  in Physics. Springer (1996).
+* {#Haag96} [[Rudolf Haag]], *[[Local  Quantum  Physics -- Fields,  Particles,  Algebras]]*,  Texts  and  Monographs  in Physics. Springer (1996).
 
-* {#Moretti18} [[Valter Moretti]], _Spectral Theory and Quantum Mechanics :Mathematical Structure of Quantum Theories, Symmetries and introduction to the Algebraic Formulation_, 2nd ed.  Springer Verlag, Berlin (2018)
+* {#Moretti17} [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
 
 Review with an eye towards [[quantum probability]] and [[entropy]]:
 
