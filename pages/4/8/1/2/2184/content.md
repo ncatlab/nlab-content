@@ -201,15 +201,16 @@ $$E \coloneqq \{(x, y) \in V \times V \vert x \neq y\}$$
 * The set of edges of a graph could be defined with a [[tight apartness relation]]: 
 $$E \coloneqq \{(x, y) \in V \times V \vert x \# y\}$$
 
-## Related concepts
 
-* **graph**
+## Related concepts
 
 * [[omega-graph]]
 
 * [[planar graph]], [[connected graph]]
 
 * [[acyclic graph]]
+
+* [[signed graph]]
 
 * [[empty graph]]
 
