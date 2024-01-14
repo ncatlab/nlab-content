@@ -122,7 +122,7 @@ For $F = P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of 
 * {#EilenbergKelly65} [[Samuel Eilenberg]], [[Max Kelly]], *Closed categories*,  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965), Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_22](https://doi.org/10.1007/978-3-642-99902-4_22)&rbrack;
 
 
-* {#Crutwell14} [[Geoff Cruttwell]], chapter 4 of: _Normed spaces and the Change of Base for Enriched Categories_, 2014 ([pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf))
+* {#Crutwell14} [[Geoff Cruttwell]], chapter 4 of: _Normed spaces and the Change of Base for Enriched Categories_, 2014 ([pdf](https://www.reluctantm.com/gcruttw/publications/thesis4.pdf))
 
 
 * {#Riehl14} [[Emily Riehl]], lemma 3.4.3 inL _[[Categorical Homotopy Theory]]_, Cambridge University Press (2014)
