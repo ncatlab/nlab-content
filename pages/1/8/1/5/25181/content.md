@@ -188,57 +188,150 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 [[!redirects copy]]
 [[!redirects copies]]
 
+[[!redirects strict copy]]
+[[!redirects strict copies]]
+
+[[!redirects weak copy]]
+[[!redirects weak copies]]
+
 [[!redirects positive copy]]
 [[!redirects positive copies]]
 
+[[!redirects strict positive copy]]
+[[!redirects strict positive copies]]
+
+[[!redirects weak positive copy]]
+[[!redirects weak positive copies]]
+
 [[!redirects negative copy]]
 [[!redirects negative copies]]
+
+[[!redirects strict negative copy]]
+[[!redirects strict negative copies]]
+
+[[!redirects weak negative copy]]
+[[!redirects weak negative copies]]
 
 [[!redirects copying]]
 
 [[!redirects wrapped copy]]
 [[!redirects wrapped copies]]
 
+[[!redirects strict wrapped copy]]
+[[!redirects strict wrapped copies]]
+
+[[!redirects weak wrapped copy]]
+[[!redirects weak wrapped copies]]
+
 [[!redirects positive wrapped copy]]
 [[!redirects positive wrapped copies]]
+
+[[!redirects strict positive wrapped copy]]
+[[!redirects strict positive wrapped copies]]
+
+[[!redirects weak positive wrapped copy]]
+[[!redirects weak positive wrapped copies]]
 
 [[!redirects negative wrapped copy]]
 [[!redirects negative wrapped copies]]
 
+[[!redirects strict negative wrapped copy]]
+[[!redirects strict negative wrapped copies]]
+
+[[!redirects weak negative wrapped copy]]
+[[!redirects weak negative wrapped copies]]
+
 [[!redirects copy type]]
 [[!redirects copy types]]
+
+[[!redirects strict copy type]]
+[[!redirects strict copy types]]
+
+[[!redirects weak copy type]]
+[[!redirects weak copy types]]
 
 [[!redirects positive copy type]]
 [[!redirects positive copy types]]
 
+[[!redirects strict positive copy type]]
+[[!redirects strict positive copy types]]
+
+[[!redirects weak positive copy type]]
+[[!redirects weak positive copy types]]
+
 [[!redirects negative copy type]]
 [[!redirects negative copy types]]
+
+[[!redirects strict negative copy type]]
+[[!redirects strict negative copy types]]
+
+[[!redirects weak negative copy type]]
+[[!redirects weak negative copy types]]
 
 [[!redirects copying types]]
 
 [[!redirects wrapped copy type]]
 [[!redirects wrapped copy types]]
 
+[[!redirects strict wrapped copy type]]
+[[!redirects strict wrapped copy types]]
+
+[[!redirects weak wrapped copy type]]
+[[!redirects weak wrapped copy types]]
+
 [[!redirects positive wrapped copy type]]
 [[!redirects positive wrapped copy types]]
+
+[[!redirects strict positive wrapped copy type]]
+[[!redirects strict positive wrapped copy types]]
+
+[[!redirects weak positive wrapped copy type]]
+[[!redirects weak positive wrapped copy types]]
 
 [[!redirects negative wrapped copy type]]
 [[!redirects negative wrapped copy types]]
 
+[[!redirects strict negative wrapped copy type]]
+[[!redirects strict negative wrapped copy types]]
+
+[[!redirects weak negative wrapped copy type]]
+[[!redirects weak negative wrapped copy types]]
+
 [[!redirects unary sum]]
 [[!redirects unary sums]]
 
-[[!redirects unary sum type]]
-[[!redirects unary sum types]]
+[[!redirects strict unary sum]]
+[[!redirects strict unary sums]]
+
+[[!redirects weak unary sum]]
+[[!redirects weak unary sums]]
 
 [[!redirects unary sum type]]
 [[!redirects unary sum types]]
+
+[[!redirects strict unary sum type]]
+[[!redirects strict unary sum types]]
+
+[[!redirects weak unary sum type]]
+[[!redirects weak unary sum types]]
 
 [[!redirects unary product]]
 [[!redirects unary products]] 
 
+[[!redirects strict unary product]]
+[[!redirects strict unary products]] 
+
+[[!redirects weak unary product]]
+[[!redirects weak unary products]] 
+
 [[!redirects unary product type]]
 [[!redirects unary product types]] 
+
+[[!redirects strict unary product type]]
+[[!redirects strict unary product types]] 
+
+[[!redirects weak unary product type]]
+[[!redirects weak unary product types]] 
 
 [[!redirects universal property of a copy]]
 [[!redirects dependent universal property of a copy]]
