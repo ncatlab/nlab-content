@@ -83,19 +83,7 @@ Otherwise, the principle of substitution into type families is given by [[strict
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \simeq B(b)}$$
 
-where $A \simeq B$ is the [[type of strict equivalences]] defined using [[natural deduction]] [[inference rules]]. If one doesn't have a type of strict equivalences, one could define it by components
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}(y):B(b)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a: A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv a}(y) \equiv y:B(a)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{b \equiv a}(\mathrm{tr}_{B(-)}^{a \equiv b}(y)) \equiv y:B(a)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma \vdash b \equiv c : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{b \equiv c}(\mathrm{tr}_{B(-)}^{a \equiv b}(y)) \equiv \mathrm{tr}_{B(-)}^{a \equiv c}(y):B(c)}$$
-
-This shows that transport across judgmental equality forms a [[groupoid]]. 
-
-Either way, this also implies the reflection rule of weak judgmental equalities because one could derive the following rule
+where $A \simeq B$ is the [[type of strict equivalences]] defined using [[natural deduction]] [[inference rules]]. This also implies the reflection rule of weak judgmental equalities because one could derive the following rule
 
 $$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{tr}_{a =_A (-)}^{a \equiv b}(\mathrm{refl}_A(a)):a =_A b}$$
 
