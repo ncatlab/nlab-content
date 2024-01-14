@@ -87,6 +87,7 @@ Given
            \vdash
         \;\;\;
         \rho(A^\ast) = \overline{\rho(A)}
+        \,,
       \]
 
    1. and satisfies "[positivity](state+on+a+star-algebra#PositivityCondition) in the sense that
@@ -98,6 +99,7 @@ Given
           \vdash
         \;\;\;
         \rho(A^\ast A) \in \mathbb{R}_{\geq 0} \subset \mathbb{C}
+       \,,
       \]      
 
 there exists 
@@ -132,10 +134,11 @@ for all $A \in \mathcal{A}$.
 
 =--
 
-\begin{proof}
+\begin{proof}\label{ProofOfGNS}
 Consider on the underlying [[complex vector space]] of $\mathcal{A}$ the [[sesquilinear form]] (inner product)
 
-$$
+\[
+  \label{InnerProductBeforeDevidingOutNullVectors}
   \langle A,B \rangle_\rho
   \;\coloneqq\;
   \rho
@@ -143,9 +146,23 @@ $$
     A^\ast B
   \big)
   \,.
-$$
+\]
 
-By the "[positivity](state+on+a+star-algebra#PositivityCondition)"-condition (eq:StateSatisfiesPositivity) on $\rho$, the pairing $\langle-,-\rangle$ is [positive semi-definite](sesquilinear+form#Definity), however it may not be definitite: There may be a non-trivial [[linear subspace]] of 0-norm elements:
+By the "[positivity](state+on+a+star-algebra#PositivityCondition)"-condition (eq:StateSatisfiesPositivity) on $\rho$, the pairing $\langle-,-\rangle$ is [positive semi-definite](sesquilinear+form#Definity), and therefore it satisfies the [[Cauchy-Schwarz inequality]]:
+
+\[
+  \label{CauchySchwarzBeforeDividingOutNullVectors}
+  {\big\vert
+    \rho\big( A^\ast B \big) 
+  \big\vert}^2 
+    \;\leq\; 
+  \rho\big(A^\ast A\big)
+  \,
+  \rho(B^\ast B)
+  \,.
+\]
+
+However, (eq:InnerProductBeforeDevidingOutNullVectors) will in general not be definite, in that there may be a non-trivial [[linear subspace]] of 0-norm elements:
 
 \[
   \label{TheNullIdeal}
@@ -156,11 +173,13 @@ By the "[positivity](state+on+a+star-algebra#PositivityCondition)"-condition (eq
     \,\vert\,
     \rho(A^\ast A) = 0
   \big\}
-  \,.
+  \,,
 \]
 
-Observe that this $\mathcal{N}$ is not just a [[linear subspace]] but a left [[ideal]], as follows by the [[Cauchy-Schwarz inequality]] $\big\vert\rho\big( A^\ast B \big)\big\vert^2 \leq \rho\big(A^\ast A\big)\rho(B^\ast B)$:
+and hence we have to quotient out by this null-space in order to produce the desired Hilbert space.
 
+Observe that this null space (eq:TheNullIdeal) is not just a [[linear subspace]] but a left [[ideal]] for the algebra structure, as follows by the [[Cauchy-Schwarz inequality]] (eq:CauchySchwarzBeforeDividingOutNullVectors):
+ 
 \[
   \label{NullSpaceIsLeftIdeal}
   \left.
@@ -170,7 +189,9 @@ Observe that this $\mathcal{N}$ is not just a [[linear subspace]] but a left [[i
     A \in \mathcal{A}
   \end{array}
   \right\}
-  \;\;\Rightarrow\;\;
+  \;\;\;
+  \vdash
+  \;\;\;
   \left\{
   \begin{array}{l}
     \big\vert
@@ -192,6 +213,7 @@ Observe that this $\mathcal{N}$ is not just a [[linear subspace]] but a left [[i
       (N^\ast A^\ast A)
       (N^\ast A^\ast A)^\ast
     \big)
+    \,
     \underset{
       = 0
     }{
@@ -206,7 +228,7 @@ Observe that this $\mathcal{N}$ is not just a [[linear subspace]] but a left [[i
   \right.
 \]
 
-Similarly, the [[Cauchy-Schwarz inequality]] implies that any inner product with a null vector vanishes:
+Similarly, the [[Cauchy-Schwarz inequality]] (eq:CauchySchwarzBeforeDividingOutNullVectors) implies that any inner product with a null vector vanishes:
 
 \[
   \label{InnerProductWithNullVectorIsNullVector}
@@ -221,11 +243,11 @@ Similarly, the [[Cauchy-Schwarz inequality]] implies that any inner product with
   \Rightarrow
   \;\;
   \rho\big(
-    A N
+    A^\ast N
   \big)
   \;=\;
   0
-  \;,.
+  \,.
 \]
 
 Therefore $\langle-,-\rangle$ first of all descends to the [[quotient vector space]] 
@@ -292,14 +314,28 @@ $$
       A_1 + N_1
     \big\rangle
     }
-    \;=\; 0
+    \\
+    \;=\;
+    \overline{
+    \big\langle
+      A_2
+      ,\,
+      A_1
+    \big\rangle
+    }
+    \;=\;
+    \big\langle
+      A_1
+      ,\,
+      A_2
+    \big\rangle
     \,,
   \end{array}
 $$
 
-where in the first step we used (eq:StateRespectsStar).
+where in the first and last step we used (eq:StateRespectsStar).
 
-Moreover, descended to the quotient, $\langle-,-\rangle$ becomes [positive definite](sesquilinear+form#Definity), by construction, so that it defines a [[Hermitian form|Hermitian]] -- by (eq:StateRespectsStar) -- [[inner product]] on $\mathscr{H}$.
+Now descended to the quotient, the pairing $\langle-,-\rangle$ becomes [positive definite](sesquilinear+form#Definity) by construction, so that it defines a [[Hermitian form|Hermitian]] -- by (eq:StateRespectsStar) -- [[inner product]] on $\mathscr{H}$, making it the desired [[Hilbert space]].
 
 Finally, again by the left-ideal property (eq:NullSpaceIsLeftIdeal), the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
 
@@ -318,7 +354,7 @@ $$
     \mathcal{H}
     \\
     (A, [\psi]) &\mapsto& [A \cdot \psi]
-    \,.
+    \,,
   }
 $$
 
@@ -343,8 +379,8 @@ $$
     \psi_\rho 
   \right\rangle
   \;=\;
-  \big\vert [1] \big\rangle 
-  \big\langle [1] \big\vert
+  {\big\vert [1] \big\rangle} 
+  {\big\langle [1] \big\vert}
   \,.
 $$
 \end{proof}
@@ -353,16 +389,13 @@ Notice in summary that this GNS construction constitutes a kind of [[operator-st
 
 $$
   \begin{array}{rcl}
-    \mathcal{A}
+    \mathcal{A}/\mathcal{N}
     &\xleftrightarrow{\phantom{---}}&
     \mathscr{H}
     \\
-    A &\mapsto& [A]
-    \mathrlap{
-      =
-      A \cdot \psi_\rho
-    }
-    \,.
+    [A] 
+      &\mapsto&
+    A \cdot \psi_\rho    
   \end{array}
 $$
 
