@@ -346,8 +346,11 @@ For more on this see the discussion on the [n-Forum](http://nforum.mathforge.org
 
 * Section 3 of [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], Topological quantum field theories from compact Lie groups, [arXiv:0905.0731](https://arxiv.org/abs/0905.0731).
 
+[[!redirects Dijkgraaf-Witten theories]]
 
 [[!redirects Dijkgraaf--Witten theory]]
 [[!redirects Dijkgraaf–Witten theory]]
 [[!redirects Dijkgraaf-Witten model]]
 [[!redirects Dijkgraaf-Witten models]]
+
+
