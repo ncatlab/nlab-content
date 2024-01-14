@@ -159,7 +159,7 @@ $$
   \,.
 $$
 
-(It is (only) this [[partial order]] on the [[underlying]] [[complex vector space]] of $\mathcal{A}$ which determines which [[linear functions]] $\mathcal{A} \to \mathbb{C}$ count as *[[states on a C-star algebra|states]]*.) 
+(It is (only) this [[partial order]] on the [[underlying]] [[complex vector space]] of $\mathcal{A}$ that determines which [[linear functions]] $\mathcal{A} \to \mathbb{C}$ count as *[[states on a C-star algebra|states]]*.) 
 
 E.g. [Murphy (1990) §2.2](#Murphy90), [Blackadar (2006) §II.3.1](#Blackadar06)
 
@@ -327,15 +327,18 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
   * [[state on an operator algebra]]
 
 
+
 ## References
 
-Textbook accounts:
+Monographs:
 
 * {#Dixmier77} [[Jacques Dixmier]], *$C^\ast$-algebras*, North Holland (1977)
 
 * {#KadisonRingrose} [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_, chapter 4 in: Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
 * {#Murphy90} [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
+
+* [[Ian Putnam]], *Lecture notes on $C^\ast$-algebras* (2019) &lbrack;[pdf](https://www.math.uvic.ca/faculty/putnam/ln/C*-algebras.pdf), [[Putnam-CStarAlgebras.pdf:file]]&rbrack;
 
 * {#Blackadar06} [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
 
