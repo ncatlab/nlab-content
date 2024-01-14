@@ -53,6 +53,8 @@ There is a [[category]] $Aut$ whose [[object|objects]] are deterministic sequent
 
 * [[Moore machine]]
 
+* [[Conway's game of life]]
+
 
 ## Variants
 
@@ -109,5 +111,7 @@ category:computer science
 [[!redirects finite state automaton]]
 [[!redirects finite state automatons]]
 [[!redirects finite state automata]]
+
+[[!redirects cellular automaton]]
 
 
