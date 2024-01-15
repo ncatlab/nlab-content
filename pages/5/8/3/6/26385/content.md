@@ -87,6 +87,8 @@ This says that each $V_\kappa$ is a [[set]] which satisfies a [[reflection princ
 
   * [[Tarski universe]]
 
+* [[hierarchy of universes]]
+
 * [[reflection principle]]
 
 ## References
