@@ -22,21 +22,17 @@
 
 A *clan* in the sense of [Joyal 2017, Def. 1.1.1](#Joyal17) (previously: *category with [[display maps]]* &lbrack;[Taylor 1987, §4.3.2](#Taylor87)&rbrack;, or *display category* &lbrack;[Taylor 1999, §8.3](#Taylor99)&rbrack;, a non-strict notion of [[contextual categories]]) is a minimum notion of [[fibration category]] providing [[categorical semantics for dependent types]] modelling (just) [[context extension]] and [[dependent pair type]]-[[type formation|formation]] (but not necessarily, say, [[function types]] or [[identity types]]):
 
-a [[category]] with [[finite limits]] equipped with a sub-[[class]] $Fib \subset Mor$ of its [[morphisms]], to be called the *[[fibrations]]* and serving the role of [[display maps]], such that:
+## Definition
+
+A clan is a [[category]] with a [[terminal object]] equipped with a sub-[[class]] $Fib \subset Mor$ of its [[morphisms]], to be called the *[[fibrations]]* and serving the role of [[display maps]], such that:
 
 1. every [[isomorphism]] is in $Fib$,
 
-1. for every [[object]] $X$ the [[terminal object|terminal map]] $X \to \ast$ is in $Fib$ 
+1. for every [[object]] $X$ the [[terminal object|terminal map]] $X \to \ast$ is in $Fib$ (hence all objects are [[fibrant object|fibrant]], cf. *[[category of fibrant objects]]*),
 
-   (hence all objects are [[fibrant object|fibrant]], cf. *[[category of fibrant objects]]*),
+1. for $f \in Fib$ and $h$ any [[cospan|coincident]] morphism, the [[base change]] ([[pullback]])  $h^\ast f$ exits and is in $Fib$ (this interprets [[context extension]])
 
-1. for $f \in Fib$ and $h$ any [[cospan|coincident]] morphism, also the [[base change]] ([[pullback]])  $h^\ast f \,\in\, Fib$
-
-   (this interprets [[context extension]])
-
-1. for composable $f,g \in Fib$ also their [[composition]] $g \circ f \in Fib$ 
-
-   (this interprets [[dependent pair type]]-[[type formation]])
+1. for composable $f,g \in Fib$ also their [[composition]] $g \circ f \in Fib$ (this interprets [[dependent pair type]]-[[type formation]])
 
 
 
