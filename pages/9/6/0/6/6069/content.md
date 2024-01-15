@@ -19,7 +19,7 @@
 
 ## Definition
 
-A category $C$ is __homological__ if it is 
+A category $C$ is called __homological__ if it is 
 
 1. [[pointed category|pointed]]
 
