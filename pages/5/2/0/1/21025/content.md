@@ -117,7 +117,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
 \linebreak
 
-* 15 Jan 2024
+* {#Shahbazi2024} 15 Jan 2024
 
   [[Carlos Shahbazi]]:
 
