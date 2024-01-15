@@ -152,6 +152,8 @@ This says that each $V_\kappa$ is a [[set]] which satisfies a [[reflection princ
 
 * [[Coquand universe]]
 
+* [[hierarchy of universes]]
+
 * [[two-level type theory]]
 
 * [[reflection principle]]
