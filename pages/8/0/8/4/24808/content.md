@@ -44,6 +44,10 @@ In addition, we have rules for contexts which state that one could add typing ju
 
 $$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
+as well as rules saying that equality is preserved across universe levels:
+
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash j \; \mathrm{level} \quad \Gamma \vdash i = j \; \mathrm{true}}{\Gamma \vdash U_i \equiv U_j:U_{s(i)}}\mathrm{judgmental} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash j \; \mathrm{level} \quad \Gamma \vdash i = j \; \mathrm{true}}{\Gamma \vdash \mathrm{ap}_U^{i = j}:U_i =_{U_{s(i)}} U_j}\mathrm{typal}$$
+
 ### With a type judgment for each universe
 
 One could also define Russell universes [[à la Coquand]], in that the type theory has a type judgment for each universe $U$. Using the dependent type theory with no separate type judgment, instead of having only one term judgment $a:A$, for level $i$ and type $A:U_i$, we instead have an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every level $i$, indicating that $A$ is a type with level $i$, in addition to the [[term]] judgments $a:A$. Then, one has the following rules for Russell universes à la Coquand: 
