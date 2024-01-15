@@ -83,6 +83,109 @@ results in an equivalent theory to Peano arithmetic. See [Parameters in arithmet
 
 By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic|"nonstandard" models]] of any infinite cardinality of Peano arithmetic, all of them [[elementary embedding|elementarily embedding]] the standard model of arithmetic.
 
+### Formalization
+
+We present here a formalization of first-order Peano arithmetic in a [[deduction system]] using [[inference rules]]. Such a formalization is important because first-order Peano arithmetic is needed to formally define the universe levels of the [[universe hierarchy]] of [[Russell universes]] or [[Coquand universes]] in many [[dependent type theories]], such as the dependent type theory in the [[HoTT book]]. 
+
+First-order Peano arithmetic, as a [[first-order theory]] with [[sorts]], consists of the following [[judgments]]
+
+* $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
+
+* $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
+
+* $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
+
+* $A \; \mathrm{sort}$, that $A$ is a [[sort]],
+
+* $a \in A$, that $a$ is in sort $A$. 
+
+In addition, we have rules stating that one could form the empty context, and one could add true proposition judgments and element judgments to the list of contexts:
+
+$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash P \; \mathrm{prop}}{(\Gamma, P \; \mathrm{true}) \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{sort}}{(\Gamma, a \in A) \; \mathrm{ctx}}$$
+
+We also have rules saying that given a context with a true proposition or element judgment, said judgment holds:
+
+$$\frac{(\Gamma, P \; \mathrm{true}, \Delta) \; \mathrm{ctx}}{(\Gamma, P \; \mathrm{true}, \Delta) \vdash P \; \mathrm{true}} \qquad \frac{(\Gamma, x \in A, \Delta) \; \mathrm{ctx}}{(\Gamma, x \in A, \Delta) \vdash x \in A}$$
+
+In addition, we have the [[natural deduction]] [[inference rules]] for [[classical logic|classical]] [[propositional logic]]:
+
+* Inference rules for [[true]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \top \; \mathrm{prop}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \top \; \mathrm{true}}$$ 
+
+* Inference rules for [[false]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \bot \; \mathrm{prop}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop}}{\Gamma, \bot \; \mathrm{true} \vdash P \; \mathrm{true}}$$ 
+
+* Inference rules for [[logical conjunction]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma \vdash P \wedge Q \; \mathrm{prop}} \qquad \frac{\Gamma \vdash P \; \mathrm{true} \quad \Gamma \vdash Q \; \mathrm{true}}{\Gamma \vdash P \wedge Q \; \mathrm{true}} \qquad \frac{\Gamma \vdash P \wedge Q \; \mathrm{true}}{\Gamma \vdash P \; \mathrm{true}} \qquad \frac{\Gamma \vdash P \wedge Q \; \mathrm{true}}{\Gamma \vdash Q \; \mathrm{true}}$$
+
+* Inference rules for [[disjunction]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma \vdash P \vee Q \; \mathrm{prop}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma, P \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma, Q \; \mathrm{true} \vdash P \vee Q \; \mathrm{true}}$$ 
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop} \quad \Gamma, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{prop} \quad \Gamma, P \; \mathrm{true} \vdash R \; \mathrm{true} \quad \Gamma, Q \; \mathrm{true} \vdash R \; \mathrm{true}}{\Gamma, P \vee Q \; \mathrm{true} \vdash R \; \mathrm{true}}$$
+
+* Inference rules for [[implication]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma \vdash Q \; \mathrm{prop}}{\Gamma \vdash P \Rightarrow Q \; \mathrm{prop}} \qquad \frac{\Gamma \vdash P \; \mathrm{prop} \quad \Gamma, P \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Gamma \vdash P \Rightarrow Q \; \mathrm{true}} \qquad \frac{\Gamma \vdash P \Rightarrow Q \; \mathrm{true}}{\Gamma, P \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
+
+* Inference rules for [[excluded middle]]
+
+$$\frac{\Gamma \vdash P \; \mathrm{prop}}{\Gamma \vdash P \vee (P \Rightarrow \bot) \; \mathrm{true}}$$
+
+First-order Peano arithmetic consists of one sort $\mathcal{N}$:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{N} \; \mathrm{sort}}$$
+
+for which it is possible to quantify over elements of $\mathcal{N}$:
+
+* Inference rules for the [[universal quantifier]] on $\mathcal{N}$:
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash \forall x \in \mathcal{N}.P(x) \; \mathrm{prop}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{true}}{\Gamma \vdash \forall x \in \mathcal{N}.P(x) \; \mathrm{true}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash \forall x \in \mathcal{N}.P(x) \; \mathrm{true}}{\Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{true}}$$
+
+* Inference rules for the [[existential quantifier]] on $\mathcal{N}$:
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash \exists x \in \mathcal{N}.P(x) \; \mathrm{prop}}$$ 
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{prop} \quad \Gamma \vdash x \in \mathcal{N} \quad \Gamma \vdash P(x) \; \mathrm{true}}{\Gamma \vdash \exists x \in \mathcal{N}.P(x) \; \mathrm{true}}$$ 
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{prop} \quad \Gamma, \exists x \in \mathcal{N}.P(x) \; \mathrm{true} \vdash Q \; \mathrm{prop} \quad \Gamma, x \in \mathcal{N}, P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Gamma, \exists x \in \mathcal{N}.P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
+
+as well as compare elements of $\mathcal{N}$ for [[propositional equality]]:
+
+* Inference rules for propositional equality on $\mathcal{N}$:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x \in \mathcal{N}, y \in \mathcal{N} \vdash x = y \; \mathrm{prop}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.x = x \; \mathrm{true}}$$
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N}, y \in \mathcal{N} \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x \in \mathcal{N}.P(x, x)\right) \Rightarrow \left(\forall x \in \mathcal{N}.\forall y \in \mathcal{N}.x = y \Rightarrow P(x, y)\right) \; \mathrm{true}}$$
+
+Then we have the [[axioms]] and [[signature (in logic)|signatures]] for Peano arithmetic, which are given by the following inference rules:
+
+* Inference rules for successor:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x \in \mathcal{N} \vdash s(x) \in \mathcal{N}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.\neg (s(x) = 0) \; \mathrm{true}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.\forall y \in \mathcal{N}.(s(x) = s(y)) \Rightarrow (x = y) \; \mathrm{true}}$$
+
+* Inference rules for addition:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x \in \mathcal{N}, y \in \mathcal{N} \vdash x + y \in \mathcal{N}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.x + 0 = x \; \mathrm{true}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.\forall y \in \mathcal{N}.x + s(y) = s(x + y) \; \mathrm{true}}$$
+
+* Inference rules for multiplication:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x \in \mathcal{N}, y \in \mathcal{N} \vdash x \cdot y \in \mathcal{N}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.x \cdot 0 = 0 \; \mathrm{true}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \forall x \in \mathcal{N}.\forall y \in \mathcal{N}.x \cdot s(y) = x \cdot y + x \; \mathrm{true}}$$
+
+* Axiom schema of induction:
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma, x \in \mathcal{N} \vdash P(x) \; \mathrm{prop}}{\Gamma \vdash \left(P(0) \wedge \forall x \in \mathcal{N}.P(x) \Rightarrow P(s(x))\right)\Rightarrow \forall x \in \mathcal{N}.P(x) \; \mathrm{true}}$$
+
+This concludes the formalization of first-order Peano arithmetic. 
 
 ## Related concepts
 
