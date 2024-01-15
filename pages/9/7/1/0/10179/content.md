@@ -82,7 +82,10 @@ $$
   \,.
 $$
 
-Such monoidal toposes appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_. 
+Such monoidal toposes appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_.
+
+This example overlaps with the previous in the case where the topos is $Set$ and the small category $\mathcal{C}$ is the discrete category on a small set $X$. In that case, the monoidal category structure is just a monoid structure on $X$ and the two definitions of a monoidal structure agree up to isomorphism.
+
 \end{example}
 
 +-- {: .num_example #ClassifyingToposForTheoryOfObjects}
