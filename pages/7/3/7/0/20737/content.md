@@ -19,6 +19,8 @@
 
 * [[moduli space of connections]], [[moduli space of flat connections]]
 
+* [[Hitchin moduli space]]
+
 * [[moduli space of monopoles]]
 
 * [[moduli space of framed manifolds]]
@@ -28,3 +30,4 @@
 * [[moduli space of (higher) line bundles]]
 
 * [[quiver variety]]
+
