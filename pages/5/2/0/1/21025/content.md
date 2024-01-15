@@ -18,6 +18,7 @@
 =--
 
 
+
 \linebreak
 
 
@@ -169,12 +170,14 @@ Geometry and the Puzzle of Quantisation**
 \linebreak
 
 
-* 15 Jan 2024
+* {#Sharpe2024} 15 Jan 2024
 
   [[Eric Sharpe]]:
 
   **Decomposition of 2D Pure Yang-Mills and the Gross-
 Taylor String Theory**
+
+  slides: [[Sharpe-MTheoryMath2024.pdf:file]]
 
   cf.: [arXiv:2307.08729](https://arxiv.org/abs/2307.08729)
 
