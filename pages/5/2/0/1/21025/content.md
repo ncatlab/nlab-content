@@ -155,7 +155,7 @@ the Topos of Smooth Sets**
 
 \linebreak
 
-* 15 Jan 2024
+* {#Alfonsi2024} 15 Jan 2024
 
   [[Luigi Alfonsi]]:
 
