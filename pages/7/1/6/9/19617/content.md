@@ -4,7 +4,7 @@
 
 ## Position
 
-Postdoc researcher in Mathematical Physics at the [University of Hertfordshire](https://www.herts.ac.uk/).
+Lecturer at the [Department of Physics, Astronomy and Mathematics](https://www.herts.ac.uk/study/schools-of-study/physics-engineering-and-computer-science/physics-astronomy-and-mathematics) at the [University of Hertfordshire](https://www.herts.ac.uk/) and researcher in Mathematical Physics.
 
 
 ## Research
