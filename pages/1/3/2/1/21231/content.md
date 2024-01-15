@@ -261,7 +261,7 @@ $$
 
 For [[electron]]/[[positron]] pair-creation in [[electromagnetism]] this is due to [Nikishov 69](#Nikishov69), [Bunkin-Tugov 70](#BunkinTugov70), reviewed in [Dunne 04, (1.28)](#Dunne04). For [[quark]]/[[antiparticle|ani-]][[quark]] pair creation in [[quantum chromodynamics]] the analogous formula is due to [Suganuma-Tatsumin 91](#SuganumaTatsumin91), [Suganuma-Tatsumi 93](#SuganumaTatsumi93), reviewed in [Hidaka-Iritani-Suganuma 11, (2)](#HidakaIritaniSuganuma11).
 
-In the [[limit of a sequence]] $\mathcal{B} \to 0$, using that
+In the [[limit of a sequence|limit]] $\mathcal{B} \to 0$, using that
 
 $$
   \underset{
