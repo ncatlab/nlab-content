@@ -74,6 +74,13 @@ $$\forall_{y_1, \ldots, y_k} [\phi(0, \vec{y}) \wedge \forall_x (\phi(x; \vec{y}
 
 The third axiom is actually redundant, being an instance of the induction scheme (take $\phi(x) = [x = 0 \vee \exists_y x = s(y)]$). We include it because it is needed for weaker systems of arithmetic in which the induction schema is curtailed or dropped, notably [[Robinson arithmetic]]. 
 
+In addition, the additional parameters $\vec{y}$ are not needed in the induction scheme; adding the induction scheme for first-order formulae $\phi(x)$ where the only parameter is $x$:
+
+* (Induction scheme) For all formulas $\phi(x)$,
+$$[\phi(0) \wedge \forall_x (\phi(x) \Rightarrow \phi(s(x))] \Rightarrow \forall_z \phi(z).$$
+
+results in an equivalent theory to Peano arithmetic. See [Parameters in arithmetic induction axiom schemas](https://mathoverflow.net/questions/79174/parameters-in-arithmetic-induction-axiom-schemas). 
+
 By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic|"nonstandard" models]] of any infinite cardinality of Peano arithmetic, all of them [[elementary embedding|elementarily embedding]] the standard model of arithmetic.
 
 
