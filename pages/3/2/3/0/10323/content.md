@@ -30,7 +30,7 @@ A _continous field of $C^\ast$-algebras_ is a kind of topological [[bundle]] of 
 
 ### In strict deformation quantization
 
-In [[C* algebraic deformation quantization]] continuous fields of $C^\ast$-algebras over subspaces of the standard [[interval]] (tyically $\{1 , \frac{1}{2}, \frac{1}{3}, \cdots, 0\} \hookrightarrow [0,1]$) such that in the [[limit of a sequence|limit]] this becomes a [[Poisson algebra]] constitute [[deformation quantizations]] of this Poisson algebra.
+In [[C* algebraic deformation quantization]] continuous fields of $C^\ast$-algebras over subspaces of the standard [[interval]] (tyically $\{1 , \frac{1}{2}, \frac{1}{3}, \cdots, 0\} \hookrightarrow [0,1]$) which at $\hbar = 0$ are [[Poisson algebras]] constitute [[non-perturbative quantum field theory|non-perturbative]] [[deformation quantizations]] of this Poisson algebra (hence of the [[phase space]] of some [[physical system]] that it represents).
 
 ## References
 
@@ -49,13 +49,23 @@ See also:
 
 
 [[!redirects continuous fields of C*-algebras]]
-
 [[!redirects continuous field of C-star algebras]]
 [[!redirects continuous fields of C-star algebras]]
+
+[[!redirects field of C*-algebras]]
+[[!redirects fields of C*-algebras]]
+[[!redirects field of C-star algebras]]
+[[!redirects fields of C-star algebras]]
+
 
 [[!redirects continuous bundle of C*-algebras]]
 [[!redirects continuous bundles of C*-algebras]]
 [[!redirects continuous bundle of C-star algebras]]
 [[!redirects continuous bundles of C-star algebras]]
+
+[[!redirects bundle of C*-algebras]]
+[[!redirects bundles of C*-algebras]]
+[[!redirects bundle of C-star algebras]]
+[[!redirects bundles of C-star algebras]]
 
 
