@@ -105,7 +105,7 @@ This is discussed in ([Seaman 98](#Seaman98))
 
 ### General
 
-The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the principal topics in works of [[Nigel Hitchin]] and [[Carlos Simpson]] in late 1980-s and 1990-s (and later Ron Donagi, Tony Pantev, etc....).  
+The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the principal topics in works of [[Nigel Hitchin]] and [[Carlos Simpson]] in late 1980-s and 1990-s (and later Ron Donagi, Tony Pantev, etc....), hence also known as the *Hitchin moduli space*. 
 
 * [[Nigel Hitchin|N.J. Hitchin]], _Stable bundles and integrable systems_,  Duke Math. J. , 54  (1987)  pp. 91&#8211;114 [MR89a:32021](http://www.ams.org/mathscinet-getitem?mr=89a:32021) [doi](http://dx.doi.org/10.1215/S0012-7094-87-05408-1) [euclid](http://projecteuclid.org/euclid.dmj/1077305506); _The self-duality equations on a Riemann surface_, Proc. London Math. Soc. (3) 55 (1987), no. 1, 59&#8211;126, [MR887284](http://www.ams.org/mathscinet-getitem?mr=887284) [doi](http://dx.doi.org/10.1112/plms/s3-55.1.59); _Flat connections and geometric quantization_, Comm. Math. Phys. __131__, n 2 (1990), 347-380, [euclid](http://projecteuclid.org/euclid.cmp/1104200841)
 
@@ -167,3 +167,7 @@ Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]
 
 
 [[!redirects Higgs bundles]]
+
+[[!redirects Hitchin moduli space]]
+[[!redirects Hitchin moduli spaces]]
+
