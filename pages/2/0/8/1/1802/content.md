@@ -54,6 +54,10 @@ As is usual for type theories, we can conversely generate a [[syntactic category
 
 * [[internal logic of an (infinity,1)-topos]]
 
+## References
+  {#References}
+
+* {#MacLaneMoerdijk92} [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
 [[!redirects Mitchell-Benabou language]]
 [[!redirects Mitchell–Benabou language]]
