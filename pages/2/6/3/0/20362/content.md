@@ -24,7 +24,7 @@ in particular [[dyon|dyonic]]$\,$[[black brane|black]] [[M2-branes]], i.e. [[M5-
 
 ### Image in type II string theory
 
-Under suitable [[duality between M-theory and type IIA string theory]] the M2/M5-brane bound states become [[Dp-D(p+2)-brane bound states]] ([Basu-Harvey 05](#BasuHarvey05)).
+Under suitable [[duality between M-theory and type IIA string theory]] the M2/M5-brane bound states become [[Dp-D(p+2)-brane bound states]] ([Campos, Ferretti & Salomonson 2000](#CamposFerrettiSalomonson00); [Basu & Harvey 2005](#BasuHarvey05); for review and more see [Bagger, Lambert, Mukhi & Papageorgakis 2013, pp. 37](#BaggerLambertMukhiPapageorgakis13)).
 
 
 ### Relation to giant gravitons
@@ -136,6 +136,9 @@ The corresponding D2-NS5 bound state under [[duality between M-theory and type I
 ### Reduction to D$p$-D$(p+2)$-brane bound states
 
 The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (eventually motivating the [[BLG model]]/[[ABJM model]]):
+
+* {#CamposFerrettiSalomonson00} Vanicson L. Campos, Gabriele Ferretti, Per Salomonson, *The Non-Abelian Self Dual String on the Light Cone*, JHEP 0012 (2000) 011 &lbrack;[arXiv:hep-th/0011271](https://www.arxiv.org/abs/hep-th/0011271)&rbrack;
+
 
 * {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
