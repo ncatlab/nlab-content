@@ -18,11 +18,19 @@
 
 Russell universes or universes à la Russell are types whose terms are types. In [[type theories]] without a separate type [[judgment]] $A \; \mathrm{type}$, only typing judgments $a:A$, what would have been type judgments are represented by typing judgments that $A$ is a term of a Russell universe $U$, $A:U$. Russell universes without a separate type judgment are used in many places in type theory, including in the [[HoTT book]], in [[Coq]], and in [[Agda]]. 
 
-## Formal definition
+## Definition of a single Russell universe
+
+If the type theory has a separate type judgment $A \; \mathrm{type}$, then one could define a single Russell universe in the type theory. We merely have
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash U \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:U}{\Gamma \vdash A \; \mathrm{type}}$$
+
+## Formal definition of a hierarchy of Russell universes
+
+Dependent type theories typically come with a hierarchy of Russell universes, so that all types in the dependent type theory are elements of Russell universes. This is especially the case for dependent type theories without any separate type judgments at all, where types are necessarily defined as terms of Russell universes. 
 
 ### Without a separate type judgment
 
-One formal definition of a type theory with Russell universes is as follows:
+One formal definition of a type theory with a hierarchy of Russell universes is as follows:
 
 The type theory has [[judgments]] 
 
@@ -50,7 +58,7 @@ $$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash j \; \mathrm{level
 
 ### With a type judgment for each universe
 
-One could also define Russell universes [[à la Coquand]], in that the type theory has a type judgment for each universe $U$. Using the dependent type theory with no separate type judgment, instead of having only one term judgment $a:A$, for level $i$ and type $A:U_i$, we instead have an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every level $i$, indicating that $A$ is a type with level $i$, in addition to the [[term]] judgments $a:A$. Then, one has the following rules for Russell universes à la Coquand: 
+One could also define a hierarchy of Russell universes [[à la Coquand]], in that the type theory has a type judgment for each universe $U$. Using the dependent type theory with no separate type judgment, instead of having only one term judgment $a:A$, for level $i$ and type $A:U_i$, we instead have an infinite number of [[type]] [[judgments]], one type judgment $A \; \mathrm{type}_i$ for every level $i$, indicating that $A$ is a type with level $i$, in addition to the [[term]] judgments $a:A$. Then, one has the following rules for Russell universes à la Coquand: 
 
 $$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash U_i \; \mathrm{type}_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash A \; \mathrm{type}_{s(i)}}\mathrm{cumul} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{Lift}(A) \; \mathrm{type}_{s(i)}}\mathrm{lifting}$$
 
@@ -68,37 +76,97 @@ $$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{(\Gamma, a:
 
 ### With a single separate type judgment
 
-If the type theory has a separate type judgment $A \; \mathrm{type}$, the rules for Russell universes become simpler, as one doesn't have to assume infinitely many Russell universes and a second level to house the natural numbers type used to index the universes. Instead, we merely have
+It is also possible to define the hierarchy of Russell universes with a single separate type judgment, such that every single type is in a Russell universe. The advantage of doing so is that one doesn't need to define the theory of universe levels before defining the type theory; one could instead simply define the natural numbers inside of the type theory itself, along with the hierarchy of Russell universes:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash U \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:U}{\Gamma \vdash A \; \mathrm{type}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Level}(A):\mathbb{N}}$$
 
-Furthermore, the separate type judgment amounts to collapsing the two levels in the theory above into one level: Instead of defining the identity type and the type of natural numbers as external to the type theory, we instead define it as normal types internal to the type theory. Then the rules for the infinite tower of Russell universes are as follows:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash U(n) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A:U(\mathrm{Level}(A))}$$
 
-$$\frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash U(i):U(s(i))} \qquad \frac{\Gamma \vdash i:\mathbb{N} \quad \Gamma \vdash A:U(i)}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vdash i:\mathbb{N} \quad \Gamma \vdash A:U(i)}{\Gamma \vdash \mathrm{Lift}(i)(A):U(s(i))}$$
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma \vdash A \; \mathrm{type}} \quad \frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma \vdash \mathrm{Level}(A) \equiv n:\mathbb{N}}$$
 
-We could also add rules which state that every type is an element of a Russell universe:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Level}(\mathbb{N}) \equiv 0:\mathbb{N}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{level}_A:\mathbb{N}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash A:U(\mathrm{level}_A)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash s(n):\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \mathrm{Level}(U(n)) \equiv s(n):\mathbb{N}}$$
 
-Then the first rule for the infinite tower becomes one of
+In particular, every type $A$ has a universe level, which is a natural number, and the universe level of $\mathbb{N}$ is zero and the universe level of $U(n)$ given natural number $n$ is the successor $s(n)$. 
 
-$$\frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash \mathrm{level}_{U(i)} \equiv s(i):\mathbb{N}}\mathrm{strict} \quad \frac{\Gamma \vdash i:\mathbb{N}}{\Gamma \vdash \mathrm{defLevelU}(i):\mathrm{level}_{U(i)} =_\mathbb{N} s(i)}\mathrm{weak}$$
+Furthermore, every type $A$ of level $n$ lifts to another type $\mathrm{Lift}(A)$ of level $s(n)$, such that $\mathrm{Lift}(A)$ is a [[negative copy]] of $A$:
 
-This is how one would formally present a dependent type theory like the one in [[Book HoTT]] or the ones in [[Agda]], [[Coq]], [[Lean]], without resorting to external layers. 
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma \vdash \mathrm{Lift}(A):U(s(n))}$$
 
-However, these set of rules are incompatible with the statement that all [[dependent sum types]] exist, because the dependent sum type $\sum_{n:\mathbb{N}} U(n)$ contains as elements pairs of every type in the type theory and the universe level the type is in. However, by the inference rules above, $\sum_{n:\mathbb{N}} U(n)$ is in the universe $U(\mathrm{level}_{\sum_{n:\mathbb{N}} U(n)})$ which means that by right projecting $\sum_{n:\mathbb{N}} U(n)$, every type is in the universe $U(\mathrm{level}_{\sum_{n:\mathbb{N}} U(n)})$ resulting in [[Girard's paradox]] which is contradictory. 
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma, x:A \vdash \mathrm{LiftEl}(A)(x):\mathrm{Lift}(A)}$$
 
-Instead, usually the inference rules for [[dependent sum types]] require that the type family $x:A \vdash B(x)$ in the dependent sum type have the same universe level $n:\mathbb{N}$, $x:A \vdash B(x):U(n)$. Since none of the universes in the above diagram have the same universe level, the dependent sum type $\sum_{n:\mathbb{N}} U(n)$ cannot be constructed. The same is true of the formers of any type which could construct dependent sum types, such as [[wide pushouts]]. 
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma, y:\mathrm{Lift}(A) \vdash \mathrm{LiftEl}(A)^{-1}(y):A}$$
 
-Similarly, these set of rules are incompatible with the statement that all [[sequential colimits]] exist, because one could then find the sequential colimit of the diagram 
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma, x:A \vdash \mathrm{LiftEl}(A)^{-1}(\mathrm{LiftEl}(A)(x)) \equiv x:A}$$
 
-$$U(0) \overset{\mathrm{Lift}(0)}\to U(s(0)) \overset{\mathrm{Lift}(s(0))}\to U(s(s(0))) \overset{\mathrm{Lift}(s(s(0)))}\to \ldots$$
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n)}{\Gamma, y:\mathrm{Lift}(A) \vdash \mathrm{LiftEl}(A)(\mathrm{LiftEl}(A)^{-1}(y)) \equiv y:\mathrm{Lift}(A)}$$
 
-and one would get a type $U_\infty$, which by definition of sequential colimits contains every type in the universe hierarchy. However, $U_\infty$ is in the universe $U(\mathrm{level}_{U_\infty})$, which means that lifting $U_\infty$ from $U(\mathrm{level}_{U_\infty})$ to $U_\infty$ via the sequential colimit results in [[Girard's paradox]] which is contradictory. 
+Next are the rules for [[function types]], which are necessary to define [[type families]] as elements of a type for [[dependent product types]] and the induction principle of the [[natural numbers type]]. Here, [[function types]] are indexed by the universe level $n$, since the function type indexed by $n$ are only definable for $U(n)$-small types, aka types with level $n$. 
 
-Instead, usually the inference rules for sequential colimits require that the types in the above diagram have the same universe level $n:\mathbb{N}$. Since none of the universes in the above diagram have the same universe level, the sequential colimit $U_\infty$ cannot be constructed. The same is true of the formers of any type which could construct sequential colimits, such as [[pushout types]]. 
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:U(n)}{\Gamma \vdash A \to_{n} B:U(n)}$$
 
-But none of this are problems in [[Book HoTT]] as the formers for every type have the same universe level as the type to be put in the universe. 
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:U(n) \quad \Gamma, x:A \vdash b(x):B}{\Gamma \vdash \lambda x:A.b(x):A \to_{n} B}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:U(n) \quad \Gamma \vdash b:A \to_{n} B}{\Gamma, x:A \vdash b(x):B}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:U(n) \quad \Gamma, x:A \vdash b(x):B}{\Gamma, x:A \vdash (\lambda x:A.b(x))(x) \equiv b(x):B}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:U(n) \quad \Gamma \vdash b:A \to_{n} B}{\Gamma \vdash \lambda x:A.b(x) \equiv b:A \to_{n} B}$$
+
+Similarly, the rules for dependent function types are as follows:
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:\mathrm{Lift}(A) \to_{s(n)} U(n)}{\Gamma \vdash \Pi(n, A, B):U(n)}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:\mathrm{Lift}(A) \to_{s(n)} U(n) \quad \Gamma, x:A \vdash b(x):B(\mathrm{LiftEl}(A)(x))}{\Gamma \vdash \lambda x:A.b(x):\Pi(n, A, B)}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:\mathrm{Lift}(A) \to_{s(n)} U(n) \quad \Gamma \vdash b:\Pi(n, A, B)}{\Gamma, x:A \vdash b(x):B(\mathrm{LiftEl}(A)(x))}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:\mathrm{Lift}(A) \to_{s(n)} U(n) \quad \Gamma, x:A \vdash b(x):B(\mathrm{LiftEl}(A)(x))}{\Gamma, x:A \vdash (\lambda x:A.b(x))(x) \equiv b(x):B(\mathrm{LiftEl}(A)(x))}$$
+
+$$\frac{\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash A:U(n) \quad \Gamma \vdash B:\mathrm{Lift}(A) \to_{s(n)} U(n) \quad \Gamma \vdash b:\Pi(n, A, B)}{\Gamma \vdash \lambda x:A.b(x) \equiv b:\Pi(n, A, B)}$$
+
+Finally, we have for each universe level $n:\mathbb{N}$ a [[natural numbers type]] $\mathrm{Nat}(n)$ such that $\mathrm{Nat}(0) \equiv \mathbb{N}$ and $\mathrm{Nat}(s(n)) \equiv \mathrm{Lift}(\mathrm{Nat}(n))$. In addition, each $\mathrm{Nat}(n)$ has element $\mathrm{zero}(n):\mathrm{Nat}(n)$ and function $\mathrm{succ}(n):\mathrm{Nat}(n) \to_{n} \mathrm{Nat}(n)$, defined via lifting the elements of $\mathrm{Nat}(n)$ across universe levels. Finally, each $\mathrm{Nat}(n)$ satisfies the induction principle of the [[natural numbers type]] over the universe $U(n)$. 
+
+* Formation rules for natural numbers types:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \mathrm{Nat}(n):U(n)}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Nat}(0) \equiv \mathbb{N}:U(0)} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \mathrm{Nat}(s(n)) \equiv \mathrm{Lift}(\mathrm{Nat}(n)):U(s(n))}$$
+
+* Introduction rules for natural numbers types:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \mathrm{zero}(n):\mathrm{Nat}(n)} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \mathrm{succ}(n):\mathrm{Nat}(n) \to_{n} \mathrm{Nat}(n)}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{zero}(0) \equiv 0:\mathrm{Nat}(0)} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{succ}(0) \equiv s:\mathrm{Nat}(0) \to_{0} \mathrm{Nat}(0)}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \mathrm{zero}(s(n)) \equiv \mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{zero}(n)):\mathrm{Nat}(s(n))}$$ 
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N}, m:\mathrm{Nat}(s(n)) \vdash \mathrm{succ}(s(n)) \equiv \mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{succ}(n)):\mathrm{Nat}(s(n)) \to_{s(n)} \mathrm{Nat}(s(n))}$$
+
+* Elimination rules for natural numbers types:
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash C:\mathrm{Lift}(\mathrm{Nat}(n)) \to_{s(n)} U(n) \quad \Gamma \vdash c_0:C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{zero}(n))) \\
+\Gamma \vdash c_s:\Pi\left(n, \mathrm{Nat}(n), \lambda x:\mathrm{Nat}(n).C(\mathrm{LiftEl}(\mathrm{Nat}(n))(x)) \to_{n} C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{succ}(n, x)))\right) \\
+\end{array}}{\Gamma \vdash \mathrm{ind}_\mathrm{Nat}(n, C, c_0, c_s):\Pi\left(n, \mathrm{Nat}(n), \lambda x:\mathrm{Nat}(n).C(\mathrm{LiftEl}(\mathrm{Nat}(n))(x))\right)}$$
+
+* Computation rules for natural numbers types:
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash C:\mathrm{Lift}(\mathrm{Nat}(n)) \to_{s(n)} U(n) \quad \Gamma \vdash c_0:C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{zero}(n))) \\
+\Gamma \vdash c_s:\Pi\left(n, \mathrm{Nat}(n), \lambda x:\mathrm{Nat}(n).C(\mathrm{LiftEl}(\mathrm{Nat}(n))(x)) \to_{n} C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{succ}(n, x)))\right) \\
+\end{array}}{\Gamma \vdash \mathrm{ind}_\mathrm{Nat}(n, C, c_0, c_s, \mathrm{zero}(n)) \equiv c_0:C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{zero}(n)))}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash n:\mathbb{N} \quad \Gamma \vdash C:\mathrm{Lift}(\mathrm{Nat}(n)) \to_{s(n)} U(n) \quad \Gamma \vdash c_0:C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{zero}(n))) \\
+\Gamma \vdash c_s:\Pi\left(n, \mathrm{Nat}(n), \lambda x:\mathrm{Nat}(n).C(\mathrm{LiftEl}(\mathrm{Nat}(n))(x)) \to_{n} C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{succ}(n, x)))\right) \\
+\end{array}}{\Gamma, x:\mathrm{Nat}(n) \vdash \mathrm{ind}_\mathrm{Nat}(n, C, c_0, c_s, \mathrm{succ}(n, x)) \equiv c_s(\mathrm{ind}_\mathrm{Nat}(n, C, c_0, c_s, x)):C(\mathrm{LiftEl}(\mathrm{Nat}(n))(\mathrm{succ}(n, x)))}$$
+
+Something similar could be done for [[Coquand universes]]. 
 
 ## Analogues in set theory
 
