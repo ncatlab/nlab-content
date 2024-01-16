@@ -1096,7 +1096,7 @@ Theory and M-Theory**
 
   * [[Ulrik Buchholtz]]
 
-  * [[Ugo Dal Lago]]
+  * [[Ugo Dal Lago]] (now unavailable)
 
   * [[Eric Finster]]
 
