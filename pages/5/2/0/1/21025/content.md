@@ -233,21 +233,25 @@ Compactifications**
 
 \linebreak
 
-* 16 Jan 2024
+* {#Hohm2024} 16 Jan 2024
 
   [[Olaf Hohm]]:
 
   **Double Copy, Double Field Theory & Homotopy
 Algebras**
 
+  > The [[double copy]] denotes a technology to relate the [[scattering amplitudes]] of [[Yang-Mills theory]] to those of [[gravity]]. While enormously successful at the level of [[scattering amplitudes]], until recently there was no first-principle understanding of how to derive such relations. Such an understanding would be needed in order to describe, for instance, a double copy of classical solutions. I present an approach based on [[homotopy algebras]] such as [[L-infinity algebras|L-infinity algebras]] that allows one to provide such a first-principle derivation, at least to some finite order in [[perturbation theory]]. To this end I review how to formulate [[Yang-Mills theory]] as an [[L-infinity algebra]], how to "strip off" [[color charge|color]] to obtain a different kind of homotopy algebra and, finally, how to combine two copies of these exotic algebras to obtain the L-infinity algebra of gravity in the form of [[double field theory]].
+
 \linebreak
 
-* 16 Jan 2024
+* {#Saemann2024} 16 Jan 2024
 
   [[Christian Saemann]]:
 
   **Atiyah Algebroids for Higher and Groupoid Gauge
 Theories**
+
+  > We present an [[Atiyah Lie algebroid|Atiyah algebroid]] picture for [[higher gauge theory|higher]] and groupoid [[gauge theories]]. Common to both is the fact that straightforward definitions of [[curvatures]] are only suitable for partially [[flat bundle|flat]] cases. Instead, one has to adjust the underlying [[cocycle]] relations, leading to new curvatures and gauge transformations. The Atiyah algebroid picture I sketch provides a good idea about the origin of [[adjusted Weil algebra|adjustments]] and why they are required even in the relative conventional case of groupoid gauge theories.
 
 \linebreak
 
@@ -260,6 +264,8 @@ Graviton**
 
   cf.: [arXiv:2307.04748](self-dual+higher+gauge+theory#Hull23)
 
+  > [Sen's action](self-dual+higher+gauge+theory#Sen20) for a [[higher gauge field|$p$-form gauge field]] with [[self-dual higher gauge theory|self-dual]] [[field strength]] coupled to a [[spacetime]] [[Riemannian metric|metric]] involves an explicit [[Minkowski metric]] and the presence of this raises questions as to whether the action is [[coordinate]] independent and whether it can be used on a general spacetime [[manifold]]. A natural generalisation of [Sen's action](self-dual+higher+gauge+theory#Sen20) is presented in which the Minkowski metric is replaced by a second metric on spacetime. The theory is covariant and can be formulated on any spacetime. The theory describes a physical sector, consisting of the [[self-dual higher gauge theory|chiral $p$-form gauge field]] coupled to the dynamical metric $g$, plus a shadow sector consisting of a second chiral $p$-form and the second metric. The resulting theory is covariant and can be formulated on any spacetime. A spacetime with two metrics has some interesting geometry and some of this is explored here and used in the construction of the interactions. The action has two [[diffeomorphism]]-like symmetries, one acting only on the physical sector and one acting only on the shadow sector, with the spacetime diffeomorphism symmetry arising as the diagonal subgroup.
+
 \linebreak
 
 * 17 Jan 2024
@@ -267,6 +273,8 @@ Graviton**
   [[Yang-Hui He]]:
 
   **The AI Mathematician**
+
+  > We summarize how [[artificial intelligence|AI]] can approach mathematics in three ways: [[proof assistant|theorem-proving]], [[conjecture]] formulation, and [[natural language|language]] processing. Inspired by initial experiments in [[geometry]] and [[string theory]], we present a number of recent experiments on how various standard [[machine learning|machine-learning]] [[algorithms]] can help with pattern detection across disciplines ranging from [[algebraic geometry]] to [[representation theory]], to [[combinatorics]], and to [[number theory]].
 
 \linebreak
 
@@ -283,19 +291,23 @@ Theory and M-Theory**
 
 \linebreak
 
-* 17 Jan 2024
+* {#Sati2024} 17 Jan 2024
 
   [[Hisham Sati]]:
 
   **M-Theory and Hypothesis H**
 
+  > I will survey the ([[cohomotopy|co]])[[homotopy theory|homotopical]] perspective on the [[field (physics)|fields]] and [[branes]] in [[M-theory]], showcasing several recent developments. This talk highlights the [[classical field theory|classical]]/[[prequantum field theory|prequantum]] aspects, while the [talk by Urs Schreiber](#Schreiber2024) will highlight the [[quantum physics|quantum]] aspects.
+
 \linebreak
 
-* 17 Jan 2024
+* {#Schreiber2024} 17 Jan 2024
 
   [[Urs Schreiber]]:
 
   **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
+
+  > A famous [[hypothesis]] in [[string theory]] [[D-brane charge quantization in K-theory|says]] that the [[RR-fields]] in [[10d supergravity]] are subject to "[[flux quantization]]" in [[topological K-theory|topological K-cohomology]] theory. From a modernized point of view of [[rational homotopy theory]], analogous reasoning applies to the [[supergravity C-field|C-field]] in [[11d supergravity]] and suggests that its flux should be quantized in the "[[Cohomotopy|unstable CoHomotopy]]" [[cohomology theory]] of [Borsuk](cohomotopy#Borsuk36), [Pontrjagin](cohomotopy#Pontryagin38a) and [Spanier](#Spanier49). I'll survey this "[[schreiber:Hypothesis H]]" with focus on its implications for [[quantum observables]] on [[intersecting branes]]. This is joint work with [[Hisham Sati]]. Notes are available at: *[[schreiber:Hypothesis H|ncatlab.org/schreiber/show/Introduction+to+Hypothesis+H]]*.
 
   
 
