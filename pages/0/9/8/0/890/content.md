@@ -81,6 +81,20 @@ Alternatively, if the [[dependent type theory]] does not have a type of all prop
 * a family of dependent terms 
 $$a:T/\equiv, b:T/\equiv \vdash \tau(a, b): isProp(a =_{T/\equiv} b)$$
 
+In general, if one doesn't have impredicative quotient sets or quotient sets as a higher inductive type, than one could only construct quotient sets of equivalence relations with a choice of unique representatives, which for equivalence relation $R(x, y)$ indexed by $x:A$ and $y:A$ consists of a type family $C(x)$ indexed by $x:A$, and an element of type
+
+$$\prod_{x:A} \exists!y:A.C(x) \times R(x, y)$$
+
+Then the type $\sum_{x:A} C(x)$ is the quotient set of $A$ with respect to $R$. 
+
+Equivalently, one could use functions instead of type families, and say that a choice of unique representatives is a type $C$ with a function $f:C \to A$ and an element of type 
+
+$$\prod_{x:A} \exists!y:A.\left(\sum_{z:C} f(z) =_A x\right) \times R(x, y)$$
+
+Then 
+$$C \simeq \sum_{x:A} \sum_{z:C} f(z) =_A x$$ 
+is the quotient set of $A$ with respect to $R$. 
+
 ## Generalisations
 
 Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories. In particular, an [[exact category]] is a [[regular category]] in which every [[congruence]] on every object has an effective quotient object.
