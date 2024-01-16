@@ -86,6 +86,22 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{settrunc}_A:A \t
 Dependent universal property of set truncations:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:[A]_0 \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{dup}_{[A]_0}^{B}:\left(\prod_{x:[A]_0} \mathrm{isSet}(B(x))\right) \to \mathrm{isEquiv}\left(\lambda f:\prod_{x:[A]_0} B(x).f \circ \mathrm{settrunc}_A\right)}$$
 
+### With a choice of unique representatives
+
+A choice of unique representatives for [[propositional truncation]] consists of a type family $C(x)$ indexed by $x:A$, and an element of type
+
+$$\prod_{x:A} \exists!y:A.C(x) \times [x =_A y]$$
+
+Then the type $\sum_{x:A} C(x)$ is the set truncation of $A$. 
+
+Equivalently, one could use functions instead of type families, and say that a choice of unique representatives is a type $C$ with a function $f:C \to A$ and an element of type 
+
+$$\prod_{x:A} \exists!y:A.\left(\sum_{z:C} f(z) =_A x\right) \times [x =_A y]$$
+
+Then 
+$$C \simeq \sum_{x:A} \sum_{z:C} f(z) =_A x$$ 
+is the set truncation of $A$. 
+
 ## Related concepts
 
 * [[quotient set]]
