@@ -307,7 +307,7 @@ In any $\Pi$-pretopos with a NNO, one could define an object that roughly behave
 
 * [[smooth structure on a topos]]
 
-* [[universe of real numbers]]
+* [[real numbers type]]
 
 ## References
 
