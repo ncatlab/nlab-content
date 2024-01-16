@@ -174,5 +174,7 @@ To the [[conformal bootstrap]]:
 
 [[!redirects quantum machine learning]]
 
+[[!redirects artificial intelligence]]
+
 
 
