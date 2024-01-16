@@ -185,7 +185,7 @@ Taylor String Theory**
 
 \linebreak
 
-* 16 Jan 2024
+* {#Minasian2024} 16 Jan 2024
 
   [[Ruben Minasian]]:
 
