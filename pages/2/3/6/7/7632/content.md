@@ -45,7 +45,7 @@ Some particular substructural logics include:
 
 ## References
 
-* Kosta Dosen and Peter Schroder-Heister, *Substructural Logics*, Clarendon Press (1993) &lbrack;[ISBN:9780198537779](https://global.oup.com/academic/product/substructural-logics-9780198537779?cc=de&lang=en&)&rbrack;
+* [[Kosta Došen]], Peter Schroder-Heister, *Substructural Logics*, Clarendon Press (1993) &lbrack;[ISBN:9780198537779](https://global.oup.com/academic/product/substructural-logics-9780198537779?cc=de&lang=en&)&rbrack;
 
 
 
