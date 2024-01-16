@@ -137,7 +137,7 @@ If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$ with an NNO, t
 
 +-- {: .num_thm}
 ###### Theorem
-Any RNO $R$ in a Heyting category $\mathcal{E}$ with an NNO is the [[terminal]] [[Archimedean ordered field]] object in $\mathcal{E}$. 
+If $R$ is an RNOs in a Heyting category $\mathcal{E}$ with an NNO and $R'$ is an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of $R$, then there is a unique isomorphism from $R$ to $R'$ that preserves the structures on them ($0$, $-$, $+$, $1$, $\cdot$, $\lt$).
 =--
 +-- {: .proof}
 ###### Proof
@@ -146,13 +146,12 @@ Any RNO $R$ in a Heyting category $\mathcal{E}$ with an NNO is the [[terminal]] 
 
 +-- {: .num_thm}
 ###### Theorem
-Any [[terminal]] [[Archimedean ordered field]] object $R$ in a Heyting category $\mathcal{E}$ with an NNO is an RNO in $\mathcal{E}$. 
+Any RNO $R$ in a Heyting category $\mathcal{E}$ with an NNO is the [[terminal]] [[Archimedean ordered field]] object in $\mathcal{E}$. 
 =--
 +-- {: .proof}
 ###### Proof
 ...
 =--
-
 
 ## Constructions
 
