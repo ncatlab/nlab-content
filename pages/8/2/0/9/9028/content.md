@@ -101,11 +101,16 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ### General
 
-The concept goes back to 
+The concept goes back to:
 
 * E. Bonan, (1966), _Sur les vari&#233;t&#233;s riemanniennes &#224; groupe d'holonomie G2 ou Spin(7)_, C. R. Acad. Sci. Paris 262: 127&#8211;129.  
-        
- Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
+
+Characterization in terms of the [[Euler class|Euler 8-class]] and the [[I8]]-[[invariant polynomial]] of the [[tangent bundle]]:
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Thm. 10.7 in: _Spin geometry_, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38)&rbrack;
+
+       
+Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
 
 * Christine Taylor, _Compact Manifolds with Holonomy Spin(7)_ (1996) ([pdf](https://people.maths.ox.ac.uk/joyce/theses/TaylorMSc.pdf))
 
