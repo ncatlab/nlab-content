@@ -133,7 +133,7 @@ The issue of "[[dynamic lifting]]" (of "[[bits]]" resulting from [[quantum measu
 
 * [[Andrea Colledan]], [[Ugo Dal Lago]], *On Dynamic Lifting and Effect Typing in Circuit Description Languages* &lbrack;[arXiv:2202.07636](https://arxiv.org/abs/2202.07636)&rbrack;
 
-* [[Andrea Colledan]], [[Ugo Dal Lago]], *On Dynamic Liftin and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, Nantes (2022)  &lbrack;[pdf](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_13.pdf), [[ColledanLago-DynamicsLifting.pdf:file]]&rbrack;
+* [[Andrea Colledan]], [[Ugo Dal Lago]], *On Dynamic Lifting and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, Nantes (2022)  &lbrack;[pdf](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_13.pdf), [[ColledanLago-DynamicsLifting.pdf:file]]&rbrack;
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *A biset-enriched categorical model for Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13039](https://arxiv.org/abs/2204.13039)&rbrack;
 
