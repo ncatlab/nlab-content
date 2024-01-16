@@ -221,7 +221,7 @@ Compactifications**
 
 \linebreak
 
-* 16 Jan 2024
+* {#Tan2024} 16 Jan 2024
 
   [[Meng-Chwan Tan]]:
 
@@ -229,7 +229,7 @@ Compactifications**
 
   cf.: [arXiv:2305.15965](https://arxiv.org/abs/2305.15965)
 
-  > We perform a topological-holomorphic [[topological twist|twist]] of $\mathcal{N}=4$ [[super Yang-Mills theory|supersymmetric gauge theory]] on a [[4-manifold|four-manifold]] of the form $M^4 = \mathbb{C}_1 \times \mathbb{C}_2$, and unravel the mathematical implications of its physics. In particular, we consider the cohomology of different linear combinations of the resulting scalar supercharges under [[S-duality]], whence we would be able to derive novel topological and holomorphic invariants of $M^4$ and their [[geometric Langlands duality|Langlands duals]]. As the twisted theory can be topological along $\mathbb{C}_1$ such that we can [[KK-reduction|dimensionally reduce]] it to 2d, via the [[effective field theory|effective]] [[sigma-model]] on $\mathbb{C}_2$, we can also relate these 4d invariants and their Langlands duals to the [[mirror symmetry]] of [[Higgs bundles]] and that of quasi-topological strings described by the sheaf of [[chiral differential operators]].
+  > We perform a topological-holomorphic [[topological twist|twist]] of [[D=4 N=4 SYM|$\mathcal{N}=4$]] [[super Yang-Mills theory|supersymmetric gauge theory]] on a [[4-manifold|four-manifold]] of the form $M^4 = \Sigma_1 \times \Sigma_2$, and unravel the mathematical implications of its physics. In particular, we consider the cohomology of different linear combinations of the resulting scalar supercharges under [[S-duality]], whence we would be able to derive novel topological and holomorphic invariants of $M^4$ and their [[geometric Langlands duality|Langlands duals]]. As the twisted theory can be topological along $\Sigma_1$ such that we can [[KK-reduction|dimensionally reduce]] it to 2d, via the [[effective field theory|effective]] [[sigma-model]] on $\mathbb{C}_2$, we can also relate these 4d invariants and their Langlands duals to the [[mirror symmetry]] of [[Higgs bundles]] and that of quasi-topological strings described by the [[sheaf]] of [[chiral differential operators]].
 
 \linebreak
 
