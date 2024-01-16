@@ -65,7 +65,7 @@ $$
 
 A prespectrum object is
 
-* a **spectrum object** if $\beta_m$ is an equivalence for all for all $m \in \mathbb{Z}$ (a __spectrum below $n$__, if $\beta_m$ is an equivalence for all $m \leq n$);
+* a **spectrum object** if $\beta_m$ is an equivalence for all $m \in \mathbb{Z}$ (a __spectrum below $n$__, if $\beta_m$ is an equivalence for all $m \leq n$);
 
 * a **suspension spectrum** if $\alpha_m$ is an equivalence for all $m \in \mathbb{Z}$ (a __suspension spectrum above $n$__, if $\alpha_m$ is an equivalence for all $m \geq n$).
 
