@@ -28,12 +28,10 @@ Of course, a topos may carry more than one non-cartesian monoidal category struc
 
 ## Examples
 
-+-- {: .num_example}
-###### Example
-
+\begin{example}
+\label{ViaDayConvolution}
 For $(\mathcal{C}, \otimes)$ a small [[monoidal category]], the [[presheaf topos]] $[\mathcal{C}, Set]$ is naturally a monoidal topos with respect to the [[Day convolution]] tensor product.
-
-=--
+\end{example}
 
 \begin{example}\label{SliceToposOverAMonoidObject}
 **(slice topos over a monoid object)**
@@ -83,10 +81,11 @@ $$
 $$
 
 Such monoidal toposes appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_.
-
-This example overlaps with the previous in the case where the topos is $Set$ and the small category $\mathcal{C}$ is the discrete category on a small set $X$. In that case, the monoidal category structure is just a monoid structure on $X$ and the two definitions of a monoidal structure agree up to isomorphism.
-
 \end{example}
+
+\begin{remark}
+This Ex. \ref{SliceToposOverAMonoidObject} overlaps with the previous Ex. \ref{ViaDayConvolution} in the case where the given topos is [[Set|$Set$]] and the small category $\mathcal{C}$ is the [[discrete category]] on a [[small set]] $X$. In that case, the monoidal category structure is just a [[monoid]] [[structure]] on $X$ and the two definitions of a monoidal structure agree up to [[isomorphism]].
+\end{remark}
 
 +-- {: .num_example #ClassifyingToposForTheoryOfObjects}
 ###### Example
