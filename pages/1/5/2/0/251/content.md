@@ -337,6 +337,10 @@ On [[model structures on DblCat]]:
 
 An explicit description of what it means to be a one-object double category (i.e. filling in the gap in "a delooping of a ___ is a double category") is given in [this Math.StackExchange answer](https://math.stackexchange.com/a/3790232).
 
+A [[symmetric multicategory]] structure on the [[category]] of pseudo double categories is described in the appendix of:
+
+* {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
+
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
