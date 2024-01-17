@@ -19,6 +19,7 @@
 ##  Idea 
 
 The 2-category [[Cat|$Cat$]] of [[categories]] embeds [[fully faithfully]] into the 2-category $Multicat$ of [[multicategories]] in two ways:
+
 1. As the unary multicategories (i.e. in which every multimorphism has unary domain).
 2. Via the "discrete cocones" construction, in which we define the multimorphisms of the multicategory $C_\blacktriangleright$ induced by a category $C$ by
 \begin{equation}
