@@ -1,5 +1,5 @@
 
-* [Institute page](https://www.hcm.uni-bonn.de/people/profile/luuk-stehouwer)
+* [Personal webpage](https://sites.google.com/view/luuk-stehouwer)
 
 ## Selected writings
 
@@ -10,7 +10,7 @@ On the [[K-theory classification of topological phases of matter]] for the case 
 
 On [[hermitian functorial field theory]] and the [[spin-statistics theorem]]:
 
-* [[Luuk Stehouwer]], [[Jan Steinebrunner]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
+* [[Lukas Müller]], [[Luuk Stehouwer]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
 
 On [[dagger categories]]:
 
