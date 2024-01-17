@@ -205,10 +205,14 @@ Paul Taylor has built an elegant theory of locating certain initial algebras ins
 +-- {: .num_theorem} 
 ###### Theorem (Par&#233;, Rosebrugh, Wood) 
 Let $E$ be a topos, and let $F \colon E \to E$ be a left-exact idempotent _functor_. Then the category of $F$-coalgebras $X$ whose structure maps $\theta \colon X \to F(X)$ are isomorphisms is a topos. 
-=-- 
+=--
+
+Here "idempotent" involves a coassociativity condition.
+
+This theorem is a special case of a general theorem about categories of dialgebras for a [[diad]].
 
 +-- {: .query} 
-Todd: Here "idempotent" involves a coassociativity condition. To be related to structures over a modal operator, as at my web, or to diads a la Toby Kenney. 
+Todd: To be related to structures over a modal operator, as at my web, or to diads a la Toby Kenney. 
 =-- 
 
 
@@ -255,6 +259,10 @@ as well as in [[dependent type theory]] in
 A relation to [[framed manifold|framed]] [[cobordism classes]] and fixed points:
 
 * {#Prieto03} [[Carlos Prieto]], _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
+
+* [[Robert Paré]], [[R. Rosebrugh]] and [[R. J. Wood]], _Idempotents in bicategories_, Bulletin of the Australian Mathematical Society, Vol. 39, No. 3, 1989, pp. 421-434. &lbrack;[doi:10.1017/S0004972700003336](https://doi.org/10.1017/S0004972700003336)&rbrack;
+
+* Toby Kenney, _Diads and their Application to Topoi_, Applied Categorical Structures 17 (2009): 567-590.
 
 
 [[!redirects fixed points]]
