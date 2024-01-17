@@ -1021,7 +1021,6 @@ This then motivated [[Julius Wess]] and [[Bruno Zumino]] to study supersymmetric
 
 From this sprang the idea of [[super Yang-Mills theory]] in
 
-
 * {#FerraraZumino74} [[Sergio Ferrara]], [[Bruno Zumino]], _Supergauge invariant Yang-Mills theories_, Nuclear Physics B Volume 79, Issue 3, 25 September 1974, Pages 413-421 (<a href="https://doi.org/10.1016/0550-3213(74)90559-8">doi:10.1016/0550-3213(74)90559-8</a>)
 
 * {#SalamStrathdee74a} [[Abdus Salam]], [[John Strathdee]], _Super-symmetry and non-Abelian gauges_, Physics Letters B Volume 51, Issue 4, 19 August 1974, Pages 353-355 (<a href="https://doi.org/10.1016/0370-2693(74)90226-3">doi:10.1016/0370-2693(74)90226-3</a>)
@@ -1048,6 +1047,9 @@ Accounts of the early history of the concept of supersymmetry:
 * [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
 
 * [[Pierre Ramond]], _SuSy: The Early Years (1966-1976)_, Eur. Phys. J. C (2014) 74: 2698 ([arxiv:1401.5977](https://arxiv.org/abs/1401.5977))
+
+* [[Hermann Nicolai]], *Reflections on Supersymmetry* &lbrack;[arXiv:2311.06051](https://arxiv.org/abs/2311.06051)&rbrack;
+
 
 See also at _[supergravity -- History](supergravity#History)_.
 
