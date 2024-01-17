@@ -424,6 +424,12 @@ A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes a
 
 * {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=hhWT5V0oaSI))
 
+### General theory
+
+On the application of [[diads]] to constructing toposes:
+
+* Toby Kenney, _Diads and their Application to Topoi_, Applied Categorical Structures 17 (2009): 567-590.
+
 [[!redirects topos]]
 [[!redirects topoi]]
 [[!redirects toposes]]
