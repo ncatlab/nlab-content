@@ -207,6 +207,15 @@ see also
 
 * {#ConnesConsani16} [[Alain Connes]], [[Caterina Consani]], _Absolute algebra and Segal's Gamma sets_, Journal of Number Theory 162 (2016): 518-551 ([arXiv:1502.05585](https://arxiv.org/abs/1502.05585))
 
+### In quantum field theory
+
+Speculation on [[quantum field theory]] over $\mathbb{F}_1$ (via [[wonderful compactifications]] of [[configuration spaces of points]])
+
+* Dori Bejleri, [[Matilde Marcolli]], *Quantum field theory over $\mathbb{F}_1$*, Journal of Geometry and Physics
+**69** (2013) 40-59 &lbrack;[arXiv:1209.4837](https://arxiv.org/abs/1209.4837), [doi:10.1016/j.geomphys.2013.03.002](https://doi.org/10.1016/j.geomphys.2013.03.002)&rbrack;
+
+
+* Seyed Khaki, *Original $\mathbb{F}_1$ in emergent spacetime* &lbrack;[arXiv:2401.07822](https://arxiv.org/abs/2401.07822)&rbrack;
 
 
 
