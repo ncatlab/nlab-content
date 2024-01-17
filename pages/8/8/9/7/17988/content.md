@@ -154,6 +154,11 @@ Review on [[black holes]] in the context of asymptotic safety:
 
 * Alessia Platania, *Black Holes in Asymptotically Safe Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.04272](https://arxiv.org/abs/2302.04272)&rbrack;
 
+See also:
+
+* Edoardo D'Angelo, *Asymptotic Safety in Lorentzian quantum gravity* &lbrack;[arXiv:2310.20603](https://arxiv.org/abs/2310.20603)&rbrack;
+
+
 Relation to String Theory:
 
 * Senarath de Alwis, et al. _Asymptotic safety, string theory and the weak gravity conjecture_ ([arXiv:1907.07894](https://arxiv.org/abs/1907.07894))
