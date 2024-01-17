@@ -53,7 +53,7 @@ On generalization to [[extended functorial field theory]] via [[higher dagger ca
 
 See also:
 
-* [[Luuk Stehouwer]], [[Jan Steinebrunner]], around Def 4.1 in: _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
+* [[Lukas Müller]], [[Luuk Stehouwer]], around Def 4.1 in: _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
 
 
 [[!redirects unitary functorial field theories]]
