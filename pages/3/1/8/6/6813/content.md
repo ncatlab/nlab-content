@@ -145,4 +145,6 @@ Further developments include
 [[!redirects blackfold]]
 [[!redirects blackfolds]]
 
+[[!redirects singular brane]]
+[[!redirects singular branes]]
 
