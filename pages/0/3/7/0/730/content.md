@@ -21,7 +21,7 @@
 
 The [[category]] $SimpSet$, or $sSet$ for short, is the category whose [[objects]] are [[simplicial sets]] and whose [[morphisms]] are [[simplicial maps]].
 
-[[equivalence of categories|Equivalently]], this is the [[functor category]] from the [[opposite category]] $\Delta^{op}$ of the [[simplex category]] $\Delta$ to the [[category of sets]] [[Set]]:
+[[equivalence of categories|Equivalently]], this is the [[functor category]] from the [[opposite category]] $\Delta^{op}$ of the [[simplex category]] $\Delta$ to the [[category of sets]]:
 
 $$
   SimpSet \simeq [\Delta^{op}, Set]
@@ -119,7 +119,7 @@ Here are some examples:
 
 There are important [[model category]] structures on $sSet$.
 
-* The standard [[model structure on simplicial sets]] [[presentable (infinity,1)-category|presents]] the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoid]]s.
+* The standard [[model structure on simplicial sets]] [[presentable (infinity,1)-category|presents]] the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoid|∞-groupoids]].
 
 * The [[model structure for quasi-categories]] on $sSet$ presents the [[(∞,2)-category]] of [[(∞,1)-categories]] [[(∞,1)Cat]].
 
