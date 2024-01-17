@@ -61,7 +61,7 @@ exhibits $Locale$ as a [[full sub-2-category]] of [[Topos]]. See _[[localic refl
 
 For instance Section C1 of 
 
-*  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
+*  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.
  {#Johnstone}
 
 
