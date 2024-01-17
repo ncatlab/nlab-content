@@ -59,7 +59,7 @@ $$\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(A)$$
 and define locally $U$-small Dedekind cuts $C:(\mathbb{Q} + \mathbb{Q}) \to \mathrm{Prop}_U$ and the (locally $U$-small) real numbers $\mathbb{R}_U$ using $\mathrm{Prop}_U$. 
 
 So, what happens if the dependent type theory has neither a [[type of all propositions]] nor a [[type universe]], so that we are working in fully [[predicative mathematics]]? It is no longer possible to quantify over all subtypes of $\mathbb{Q} + \mathbb{Q}$, so one cannot define the type of real numbers impredicatively. Also, without impredicativity, a [[subtype]] of the sum type $\mathbb{Q} + \mathbb{Q}$ is a type $C$ with an [[embedding of types]] $e:C \hookrightarrow (\mathbb{Q} + \mathbb{Q})$. One can show from the definition of embedding that given an element $x:\mathbb{Q} + \mathbb{Q}$, the [[fiber type]] of $e$ at $x$ is a [[mere proposition]]
-$$\mathrm{isProp}\left(\sum_{z:C} f(z) =_{\mathbb{Q} + \mathbb{Q}} x\right)$$
+$$\mathrm{isProp}\left(\sum_{z:C} e(z) =_{\mathbb{Q} + \mathbb{Q}} x\right)$$
 so everywhere in the definition above where one would have used the type family $C(x)$ one can instead use the [[dependent sum type]] $\mathrm{fiber}(e, x) \coloneqq \sum_{z:C} e(z) =_{\mathbb{Q} + \mathbb{Q}} x$. 
 
 Then a Dedekind cut consists of a type $C$ with an embedding of types $e:C \hookrightarrow (\mathbb{Q} + \mathbb{Q})$, which satisfies the following axioms:
@@ -110,6 +110,57 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{R} \vdash \mathrm{inR}_{\mathr
 The inference rules for the real numbers type imply that the real numbers type are a [[Tarski universe]] with universal type family $\mathrm{CutDomain}(x)$ indexed by $x:\mathbb{R}$, where $\mathrm{CutDomain}(x)$ is the [[domain]] of the [[Dedekind cut]] 
 $$\mathrm{cut}(x):\mathrm{CutDomain}(x) \hookrightarrow (\mathbb{Q} + \mathbb{Q})$$ 
 associated with the real number $x:\mathbb{R}$. This makes the real numbers type similar to other [[type universes]] such as the [[type of all propositions]] or the [[type of finite types]]. 
+
+## Properties
+
+### Algebraic structure on real numbers
+
+One can add two Dedekind cuts together; this involves adding inference rules for adding the two domains of the Dedekind cuts as well as for adding the embeddings of the Dedekind cuts. The rules for adding the witnesses that the embeddings are Dedekind cuts are provable from the fact that the type $\mathrm{isCut}(A, e_A)$ is always a [[mere proposition]], and so if inhabited, then it is [[contractible]], so are not included. 
+
+The formation rules for addition of two Dedekind cuts are as follows:
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
+\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
+\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
+\end{array}}{\Gamma \vdash A +_{(e_A, c_A), (e_B, c_B)} B \; \mathrm{type}}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
+\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
+\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
+\end{array}}{\Gamma \vdash e_A + e_B:(A +_{(e_A, c_A), (e_B, c_B)} B) \hookrightarrow (\mathbb{Q} + \mathbb{Q})}$$
+
+In addition, we have rules defining the addition of two embeddings of Dedekind cuts:
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
+\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
+\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
+\end{array}}{\Gamma, q:\mathbb{Q} \vdash \mathrm{fib}(e_A + e_B, \mathrm{inl}(q)) \equiv \exists r, s:\mathbb{Q}.\mathrm{fib}(e_A, \mathrm{inl}(r)) \wedge \mathrm{fib}(e_B, \mathrm{inl}(s)) \wedge q = r + s \; \mathrm{type}}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
+\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
+\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
+\end{array}}{\Gamma, q:\mathbb{Q} \vdash \mathrm{fib}(e_A + e_B, \mathrm{inr}(q)) \equiv \exists r, s:\mathbb{Q}.\mathrm{fib}(e_A, \mathrm{inr}(r)) \wedge \mathrm{fib}(e_B, \mathrm{inr}(s)) \wedge q = r + s \; \mathrm{type}}$$
+
+as well as rules defining the addition of two domains of Dedekind cuts:
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
+\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
+\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
+\end{array}}{\Gamma \vdash A +_{(e_A, c_A), (e_B, c_B)} B \equiv \sum_{q:\mathbb{Q}} \mathrm{fib}(e_A + e_B, \mathrm{rec}_{\mathbb{Q} + \mathbb{Q}}(\mathrm{inl}(q), \mathrm{inr}(q))) \; \mathrm{type}}$$
+
+Then given two real numbers $x:\mathbb{R}$ and $y:\mathbb{R}$, addition on the real numbers is defined as 
+
+$$x + y \coloneqq \mathrm{inR}_{\mathrm{CutDomain}(x) +_{\mathrm{cut}(x), \mathrm{cut}(y)} \mathrm{CutDomain}(y)}(\mathrm{cut}(x) + \mathrm{cut}(y)):\mathbb{R}$$
 
 ## Related concepts
 
