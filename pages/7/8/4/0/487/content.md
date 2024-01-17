@@ -55,7 +55,7 @@ In particular categories [[Mod]] of [[modules]] and [[Vect]] of [[vector spaces]
 \end{remark}
 
 \begin{example}
-Thw [[Grp|the category of groups]] is balanced (see [here](regular+monomorphism#Examples) and [here](Grp#eq)).
+The [[Grp|the category of groups]] is balanced (see [here](regular+monomorphism#Examples) and [here](Grp#eq)).
 \end{example}
 
 \begin{remark}
