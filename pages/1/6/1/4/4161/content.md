@@ -88,6 +88,6 @@ Discussion relating the spin-statistics theorem to [[extended topological field 
 
 and via [[hermitian functorial field theory]]:
 
-* [[Luuk Stehouwer]], [[Jan Steinebrunner]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
+* [[Lukas Müller]], [[Luuk Stehouwer]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
 
 
