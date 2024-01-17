@@ -32,15 +32,15 @@ Very generally, following [Lawvere 86](#Lawvere86):
 
 * a generalized [[space]] modeled on the objects of $C$ is a [[presheaf]] on $C$, i.e. a [[functor]] of the form
 
-  $X \;\colon\; C^{op} \to $ [[Set]]:
+  $$X \;\colon\; C^{op} \to Set.$$
 
-  we think of each such presheaf as being a rule that assigns to each test space $U \in C$ the set $X(U)$ of allowed maps from $U$ _into_ the would-be space $X$ (this is really the perspective of [[functorial geometry]], originally due to [Grothendieck 65](functorial+geometry#Grothendieck65)); 
+  We think of each such presheaf as being a rule that assigns to each test space $U \in C$ the set $X(U)$ of allowed maps from $U$ _into_ the would-be space $X$ (this is really the perspective of [[functorial geometry]], originally due to [Grothendieck 65](functorial+geometry#Grothendieck65)); 
 
 * a generalized [[quantity]] modeled on $C$ is a [[copresheaf]] on $C$, i.e. a [[functor]] of the form 
 
-  $A \;\colon\; C \to Set$:
+  $$A \;\colon\; C \to Set.$$
 
-  we think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps _from_ the would-be space $A$ into $U$, hence as the collection of $U$-valued _functions_ on $A$. Since a function on a point is a "quantity", these are generalized quantities.
+  We think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps _from_ the would-be space $A$ into $U$, hence as the collection of $U$-valued _functions_ on $A$. Since a function on a point is a "quantity", these are generalized quantities.
 
 One may view the _[[Yoneda lemma]]_ and the resulting _[[Yoneda embedding]]_ as expressing consistency conditions on this perspective: The [[Yoneda lemma]] says that the prescribed rule for how to test a generalized space $X$ by a test space $U$ turns out to coincide with the actual maps from $U$ to $X$, when $U$ is itself regarded as a generalized space, and the [[Yoneda embedding]] says that, as a result, the nature of maps between test spaces does not depend on whether we regard these as test spaces or as generalized spaces.
 
@@ -48,7 +48,7 @@ Beyond this _automatic_ consistency condition, guaranteed by [[category theory]]
 
 * If $C$ carries the structure of a [[site]], one asks a generalized space to be a presheaf $X = PSh(C) = [C^{op},Set]$ that respects the way objects in $C$ are [[covering|covered]] by other objects. These are the _[[sheaves]]_. The [[category of sheaves]]
 
-  $Sh(C) \hookrightarrow PSh(C)$
+  $$Sh(C) \hookrightarrow PSh(C)$$
 
   is the [[topos]] of spaces modeled on objects in $C$. More details on how to think of sheaves as generalized spaces is at [[motivation for sheaves, cohomology and higher stacks]].
 
@@ -93,9 +93,9 @@ $$
   C(X,U) := Hom_{Spaces_S}(X,U)
   \,.
 $$
-This defines a covariant functor $C(X) := Hom_{Spaces_S}(X,-): S \to Sets$. More generally, we can consider the S-valued quantities on $X$ to be a copresheaf on $S$, namely a covariant functor
+This defines a covariant functor $C(X) := Hom_{Spaces_S}(X,-): S \to Set$. More generally, we can consider the S-valued quantities on $X$ to be a copresheaf on $S$, namely a covariant functor
 $$
-  C(X): S \to Sets
+  C(X): S \to Set
   \,.
 $$
 One can think of $C(X)$ as a generalized quantity which may be _co-probed_ by objects of $S$.
