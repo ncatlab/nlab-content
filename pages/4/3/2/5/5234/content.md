@@ -10,12 +10,20 @@ She was a recipient of the Sonja Kovalevskaja prize and worked for several years
 
 * talks: [slides](http://www.its.caltech.edu/~matilde/slides.html)
 
+
 ## Selected writings
 
 
 On relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
 
 * [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036))
+
+Speculation on [[quantum field theory]] over $\mathbb{F}_1$ (via [[wonderful compactifications]] of [[configuration spaces of points]]):
+
+* Dori Bejleri, [[Matilde Marcolli]], *Quantum field theory over $\mathbb{F}_1$*, Journal of Geometry and Physics
+**69** (2013) 40-59 &lbrack;[arXiv:1209.4837](https://arxiv.org/abs/1209.4837), [doi:10.1016/j.geomphys.2013.03.002](https://doi.org/10.1016/j.geomphys.2013.03.002)&rbrack;
+
+
 
 On the [[p-adic AdS/CFT correspondence]] and [[tensor networks]]:
 
