@@ -114,6 +114,11 @@ On [[Lars Brink]]:
 
 * [[Hermann Nicolai]]: *[Lars Brink 1943–2022](https://cerncourier.com/a/lars-brink-1943-2022/)*, CernCourier (1 Mar 2023): 
 
+On the history of [[supersymmetry]]:
+
+* [[Hermann Nicolai]], *Reflections on Supersymmetry* &lbrack;[arXiv:2311.06051](https://arxiv.org/abs/2311.06051)&rbrack;
+
+
 
 ## Related entries
 
