@@ -61,6 +61,10 @@ $$(4) \quad\quad    F F\phi \to F\phi$$
 
 should be in our logic,  (and similarly for $P$, but that will hold in the bidirectional models since if $R$ is transitive then so will be $R^{op}$).
 
+### Periods as primitive entities
+
+Instead of points, periods can be thought of as primitive entities. Therefore one may consider structures of the form $(P, \prec, \sqsubset)$, where $p\prec q$ means that the whole period $p$ precedes $q$, and $\sqsubset$ is the [[inclusion]] relation (see [Venema 2017](#Venema17)).
+
 ## Temporal type theory in terms of adjoints
 
 It is possible to specify a temporal type theory in the context of [[adjoint logic]]. Consider a category $\mathcal{C}$, and an [[internal category]] given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. We may choose to impose additional structure on $Time$, e.g., that it be an internal [[poset]], or a [[linear order]].
@@ -139,6 +143,8 @@ For the relationship between linear-time temporal logic and functional reactive 
 * {#Jeffrey12} Alan Jeffrey _LTL types FRP: Linear-time temporal logic propositions as types, proofs as functional reactive programs_, in: Proceedings of the Sixth Workshop on Programming Languages Meets Program Verification (PLPV ’12)(2012), pp. 49–60. ([pdf](http://ect.bell-labs.com/who/ajeffrey/papers/plpv12.pdf))
 
 * {#Jeltsch12} Wolfgang Jeltsch, _Towards a Common Categorical Semantics for Linear-Time Temporal Logic and Functional Reactive Programming_, Electronic Notes in Theoretical Computer Science 286, pp. 229-242, ([doi](https://doi.org/10.1016/j.entcs.2012.08.015))
+
+* {#Venema17} Yde Venema, _Temporal logic_. 2017. ([pdf](https://staff.science.uva.nl/y.venema/papers/TempLog.pdf))
 
 For an interval-based approach see
 
