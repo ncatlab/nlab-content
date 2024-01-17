@@ -255,7 +255,7 @@ Theories**
 
 \linebreak
 
-* 17 Jan 2024
+* {#Hull2024} 17 Jan 2024
 
   [[Chris Hull]]:
 
