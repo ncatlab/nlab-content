@@ -59,14 +59,15 @@ Stated set-theoretically, the __lesser limited principle of omniscience for $A$_
 
 Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
 
-*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]]. 
+*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
+
+* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]].
+
 *  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
-The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic (L)LPO is the same as the (L)LPO for natural numbers.
+The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic principles of omniscience are the same as those for natural numbers.
 
-(Note that we need not accept $WCC$ to see that an analytic result implies the (L)LPO and so cannot be constructively valid.)
-
-That the real numbers have [[decidable equality]] is weaker than the analytic LPO (and decidable equality for the modulated Cantor reals in weaker than $LPO_{\mathbf{N}}$), unless we also assume [[Markov's principle]] (over $\mathbf{N}$ for the modulated Cantor reals, an analytic version for the Dedekind reals).
+(Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
 
 ## Truncated and untruncated versions in homotopy type theory
 
@@ -107,7 +108,7 @@ There are various other results that are equivalent to or related to the princip
 
 * {#UFP} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
-For the analytic versions of LPO and LLPO, see
+The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
 
 * [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
