@@ -433,6 +433,11 @@ On [[pure spinor]]-techniques:
 
 * [[Martin Cederwall]], *Pure spinors in classical and quantum supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.06141](https://arxiv.org/abs/2210.06141)&rbrack;
 
+On [[higher curvature corrections]]:
+
+* Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], *Higher Derivative Supergravities in Diverse Dimensions* &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945)&rbrack;
+
+
 
 ### Renormalization
 
