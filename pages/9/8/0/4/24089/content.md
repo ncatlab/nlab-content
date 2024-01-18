@@ -36,6 +36,16 @@ In the [[graph theory|graph theoretic]] representation of relations as (directed
 
 The notion of dense relation in [[Rel]] can in theory be generalized to the notion of a *dense* [[morphism]] of an arbitrary [[2-poset]]: Given a 2-poset $C$ and an object $A \in \mathrm{Ob}(C)$, a morphism $R \in \mathrm{Hom}(A, A)$ is dense if $R \leq R \circ R$. 
 
+## Dense relation structures
+
+In [[dependent type theory]], the usual definition of a dense relation above use the phrase "there exists...". This existence in the definitions is mere existence; i.e. using the [[existential quantifier]] rather than the [[dependent sum type]]. 
+
+The untruncated version of the dense relation using dependent sum types can be called **dense relation structure**, and fields states that 
+
+* for all $x:A$ and $y:A$ such that $R(x, y)$, there exists as structure an element $z:A$ such that $R(x, z)$ and $R(z, y)$. 
+
+$$\prod_{x:A} \prod_{y:A} R(x, y) \to \sum_{z:A} R(x, z) \times R(z, y)$$
+
 ## Related concepts
 
 * [[DLO]]
