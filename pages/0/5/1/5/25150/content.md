@@ -59,7 +59,7 @@ $$\prod_{x:F} \prod_{y:F} x \lt y \to \sum_{q:\mathbb{Q}} (x \lt i(q)) \times (i
 
 One could construct archimedean structure for any Archimedean ordered field satisfying [[trichotomy]], that for all $x:F$ and $y:F$, exactly one of $x \gt y$, $x \lt y$, $x = y$ is true. 
 
-Suppose the Archimedean ordered field $F$ has [[decidable equality]]. Then, the [[ceiling]] $x \mapsto \lceil x \rceil$ and [[floor]] $x \mapsto \lfloor x \rfloor$ are well defined functions over the entire domain of $F$. By definition of the ceiling and the fact that $x \lt y$, we have that 
+Suppose the Archimedean ordered field $F$ satisfies [[trichotomy]]. Then, the [[ceiling]] $x \mapsto \lceil x \rceil$ and [[floor]] $x \mapsto \lfloor x \rfloor$ are well defined functions over the entire domain of $F$. By definition of the ceiling and the fact that $x \lt y$, we have that 
 
 $$\left\lceil\frac{2}{y - x}\right\rceil \geq \frac{2}{y - x}$$
 and thus
@@ -70,7 +70,7 @@ Since $x \lt y$, $0 \lt \left\lceil\frac{2}{y - x}\right\rceil$, and so it is po
 
 $$x \lt \frac{\left\lceil \left\lceil\frac{2}{y - x}\right\rceil x \right\rceil + \left\lfloor \left\lceil\frac{2}{y - x}\right\rceil y \right\rfloor}{2 \left\lceil\frac{2}{y - x}\right\rceil} \lt y$$
 
-Thus, if the Archimedean ordered field has [[decidable equality]], then the Archimedean ordered field has Archimedean structure. In [[classical mathematics]], as well as in [[constructive mathematics]] in which the [[analytic LPO]] for the [[terminal object|terminal]] Archimedean ordered field is true, every Archimedean ordered field has Archimedean structure. 
+Thus, if the Archimedean ordered field satisfies [[trichotomy]], then the Archimedean ordered field has Archimedean structure. In [[classical mathematics]], as well as in [[constructive mathematics]] in which the [[analytic LPO]] for the [[terminal object|terminal]] Archimedean ordered field is true, every Archimedean ordered field has Archimedean structure. 
 
 ## Examples
 
