@@ -206,7 +206,7 @@ $$
   \;\coloneqq\;
   \big(
     \mathbb{Z},\,
-    \{\psi^k_{\mathbb{Z}}_k\}
+    \{\psi^k_{\mathbb{Z}(n)}\}
   \big)
   \,,
 $$
@@ -217,7 +217,7 @@ $$
   \array{
     \mathbb{Z}
     &
-    \overset{\;\;\; \psi^k\;\;\;}{\longrightarrow}
+    \overset{\;\;\; \psi^k_{\mathbb{Z}(n)}\;\;\;}{\longrightarrow}
     &
     \mathbb{Z}
     \\
