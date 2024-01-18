@@ -9,6 +9,11 @@ On [[synthetic differential geometry]]:
 
 * [[René Lavendhomme]], *Basic concepts of synthetic differential geometry*, Kluwer Texts in the Mathematical Sciences **13**,  Springer (1996) &lbrack;[doi:10.1007/978-1-4757-4588-7](https://doi.org/10.1007/978-1-4757-4588-7)&rbrack;
 
+On [[non-abelian cohomology]]
+
+*  [[René Lavendhomme]] and [[J. R. Roisin]], _Cohomologie non abélienne de structures algèbriques_, Journal of Algebra
+Volume 67, Issue 2, 1980, Pages 385-414, &lbrack;[doi:10.1016/0021-8693(80)90168-4](https://doi.org/10.1016/0021-8693(80)90168-4)&rbrack;
+
 
 category: people
 
