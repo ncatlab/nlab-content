@@ -119,10 +119,13 @@ If $F : C \to D$ is final then $C$ is connected precisely if $D$ is.
 +-- {: .num_prop #Stability}
 ###### Proposition
 
-
 If $F_1$ and $F_2$ are final, then so is their composite $F_1 \circ F_2$.
 
 If $F_2$ and the composite $F_1 \circ F_2$ are final, then so is $F_1$.
+
+Final functors are stable under [[pushout]]. 
+
+The [[coproduct]] of final functors in the [[arrow category]] $\mathbf{Cat}^{\mathbf{2}}$ is a final functor. 
 
 If $F_1$ is a [[full and faithful functor]] and the composite is final, then both functors seperately are final.
 
@@ -170,7 +173,9 @@ The generalization of the notion of final functor from [[category theory]] to [[
 **([[subcategory|inclusion]] of a [[terminal object]] is [[final functor]])** \linebreak
 If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks that terminal object is final: for every $d \in D$ the [[comma category]] $d/F$ is equivalent to $*$.  The converse is also true: if a functor $*\to D$ is final, then its image is a terminal object.
 
-  In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
+In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
+
+More generally, a functor whose domain is a [[discrete category]] is final if and only if it is a right adjoint.  
 
 \end{example}
 
