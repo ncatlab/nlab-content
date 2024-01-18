@@ -89,7 +89,12 @@ Application to [[FRW models]] of [[cosmology]]:
 
 * Jan Ambjorn, *Lattice Quantum Gravity: EDT and CDT* &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
 
-* Dario Benedetti, *Landau Theory of Causal Dynamical Triangulations*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.11043](https://arxiv.org/abs/2212.11043)&rbrack;
+Review:
+
+* Dario Benedetti, *Landau Theory of Causal Dynamical Triangulations*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.11043](https://arxiv.org/abs/2212.11043)&rbrack;
+
+* J. Ambjørn, R. Loll, *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
+
 
 
 
