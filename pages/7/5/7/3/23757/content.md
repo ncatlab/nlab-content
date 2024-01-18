@@ -17,15 +17,11 @@
 
 ### In the real numbers
 
-An [[open interval]] between [[real numbers]] $a \in \mathbb{R}$ and $b \in \mathbb{R}$ is the set 
-
-$$\mathrm{OpenInt}(a,b) = \{c \in \mathbb{R} \vert a \lt c \lt b\}$$
-
 A **locator** for a real number $c \in \mathbb{R}$ is an element of the indexed [[cartesian product]]
 
-$$l \in \prod_{a \in \mathbb{Q}} \prod_{b \in \mathbb{Q}} (\mathrm{OpenInt}(a,c) \uplus \mathrm{OpenInt}(c,b))^{\mathrm{OpenInt}(a,b)}$$
+$$l \in \prod_{a \in \mathbb{Q}} \prod_{b \in \mathbb{Q}} \left([\{d \in \mathbb{R} \vert a \lt d \lt c\}] \uplus [\{d \in \mathbb{R} \vert c \lt d \lt b\}]\right)^{[\{d \in \mathbb{R} \vert a \lt d \lt b\}]}$$
 
-where $A \uplus B$ is the [[disjoint union]] of two sets $A$ and $B$, $B^A$ is the [[function set|set of functions]] from $A$ to $B$, and the indexed [[cartesian product]] is defined in [[set theory]] as
+where $A \uplus B$ is the [[disjoint union]] of two sets $A$ and $B$, $B^A$ is the [[function set|set of functions]] from $A$ to $B$, $[A]$ is the [[support of a set|support]] of $A$, and the indexed [[cartesian product]] is defined in [[set theory]] as
 
 $$\prod_{a \in A} B(a) = \{f \in \left(\bigcup_{a\in A} B(a)\right)^A \vert \forall a, f(a) \in B(a) \}$$
 
@@ -33,7 +29,7 @@ for [[family of sets]] $(B(a))_{a \in A}$.
 
 Equivalently, a **locator** is an element of the indexed [[cartesian product]]
 
-$$l \in \prod_{a \in \mathbb{Q}} \prod_{b \in \mathbb{Q}} \mathrm{OpenInt}(a,c)^{\mathrm{OpenInt}(a,b)} \times \mathrm{OpenInt}(c,b)^{\mathrm{OpenInt}(a,b)}$$
+$$l \in \prod_{a \in \mathbb{Q}} \prod_{b \in \mathbb{Q}} [\{d \in \mathbb{R} \vert a \lt d \lt c\}]^{[\{d \in \mathbb{R} \vert a \lt d \lt b\}]} \times [\{d \in \mathbb{R} \vert c \lt d \lt b\}]^{[\{d \in \mathbb{R} \vert a \lt d \lt b\}]}$$
 
 ### In arbitrary dense linear orders
 
@@ -43,7 +39,7 @@ $$\mathrm{OpenInt}(a,b) = \{c \in A \vert a \lt c \lt b\}$$
 
 Given a [[countable dense linear order]] $(B, \lt_B)$ such that $B \subseteq A$ and for all elements $a \in A$ and $b \in A$ where $a \lt b$, there exists $c \in B$ such that $a \lt c \lt b$, a **$B$-indexed locator** for an [[element]] $c \in A$ is an element of the indexed [[cartesian product]]
 
-$$l \in \prod_{a \in B} \prod_{b \in B} (\mathrm{OpenInt}(a,c) \uplus \mathrm{OpenInt}(c,b))^{\mathrm{OpenInt}(a,b)}$$
+$$l \in \prod_{a \in B} \prod_{b \in B} \left([\mathrm{OpenInt}(a,c)] \uplus [\mathrm{OpenInt}(c,b)]\right)^{[\mathrm{OpenInt}(a,b)]}$$
 
 ## In dependent type theory
 
