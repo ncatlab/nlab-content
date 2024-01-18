@@ -291,6 +291,10 @@ The correct definition using [[crossed modules]] of sheaves then appeared in
 * {#Debremaeker76} Raymond Debremaeker, _Cohomologie met waarden in een gekruiste groepenschoof op een situs_, PhD thesis, 1976 (Katholieke Universiteit te Leuven). English translation: 
 _Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.02128](https://arxiv.org/abs/1702.02128)
 
+Of [[algebra|algebraic]] [[structures]]:
+
+*  [[René Lavendhomme]], J. R. Roisin, _Cohomologie non abélienne de structures algèbriques_, Journal of Algebra **67** 2 (1980) 385-414 &lbrack;<a href="https://doi.org/10.1016/0021-8693(80)90168-4">doi:10.1016/0021-8693(80)90168-4</a>&rbrack;
+
 
 Discussion in terms of [[gerbes]]:
 
