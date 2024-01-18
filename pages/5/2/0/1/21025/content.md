@@ -18,7 +18,6 @@
 =--
 
 
-
 \linebreak
 
 
@@ -111,6 +110,8 @@ at [[CQTS]] @ New York University, Abu Dhabi
   [[Neil Lambert]]:
 
   **Non-Relativistic M2-Branes and AdS/CFT**
+
+  slides: [[Lambert-NonRelM2Branes.pdf:file]]
 
   cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
 
