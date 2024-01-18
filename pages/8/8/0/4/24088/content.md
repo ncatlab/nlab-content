@@ -27,7 +27,5 @@
 
 * [[dense relation]]
 
-* [[dense directed loop graph]]
-
 category: disambiguation
 
