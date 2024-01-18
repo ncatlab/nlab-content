@@ -447,8 +447,6 @@ $$
 
 On [[non-perturbative quantum field theory|non-perturbative]] enhancements of BV-BRST formalism cast in ([[differential cohesion|differential]]) [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] theory:
 
-* [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
-
 * {#AlfonsiYoung23} [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
 
 
@@ -459,7 +457,7 @@ The following is a rough survey of homotopical Poisson reduction, following ([St
 
 Let $(X, \{-,-\})$ be a [[smooth manifold|smooth]] [[Poisson manifold]]. 
 
-Let $A := C^\infty(X)$ be its [[associative algebra|algebra]] of [[smooth function]]s. 
+Let $A \coloneqq C^\infty(X)$ be its [[associative algebra|algebra]] of [[smooth function]]s. 
 
 Consider 
 
