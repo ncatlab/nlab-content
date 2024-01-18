@@ -139,6 +139,10 @@ Relation to [[cosmic censorship hypothesis]]:
 
 * Akash K Mishra, Sumanta Chakraborty, _Strong Cosmic Censorship in higher curvature gravity_, Phys. Rev. D 101, 064041 (2020) ([arXiv:1911.09855](https://arxiv.org/abs/1911.09855))
 
+For [[supergravity]]:
+
+* Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], *Higher Derivative Supergravities in Diverse Dimensions* &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945)&rbrack;
+
 
 ### Higher curvature corrections to $D=4$ supergravity
 
@@ -147,6 +151,9 @@ Discussion of [[higher curvature corrections]] to [[D=4 supergravity]]:
 Relation to [[quintessence]]:
 
 * [[Fotis Farakos]], _Quintessence from higher curvature supergravity_ ([arXiv:2003.09366](https://arxiv.org/abs/2003.09366))
+
+
+
 
 
 ### Higher curvature corrections to heterotic supergravity
