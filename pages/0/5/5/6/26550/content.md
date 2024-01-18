@@ -111,6 +111,20 @@ The inference rules for the real numbers type imply that the real numbers type a
 $$\mathrm{cut}(x):\mathrm{CutDomain}(x) \hookrightarrow (\mathbb{Q} + \mathbb{Q})$$ 
 associated with the real number $x:\mathbb{R}$. This makes the real numbers type similar to other [[type universes]] such as the [[type of all propositions]] or the [[type of finite types]]. 
 
+### As a terminal object
+
+An [[Archimedean ordered field]] can be defined in any dependent type theory with the following types:
+
+* [[dependent product types]], [[dependent sum types]], [[identity types]], [[empty type]], [[unit type]], [[sum types]], [[bracket types]], and a [[natural numbers type]]
+
+Then the real numbers type $\mathbf{R}$ is the homotopy terminal Archimedean ordered field. 
+
+If the [[dependent type theory]] has [[quotient sets]], then it is provable that $\mathbf{R}$ is Cauchy complete. From the definition of homotopy terminal Archimedean ordered field, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{C}(X)$ which takes Archimedean ordered fields $X$ to the Archimedean ordered field $\mathcal{C}(X)$ of [[equivalence classes]] of Cauchy sequences in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{C}(X)$ in the type of Archimedean ordered field is a Cauchy complete Archimedean ordered field. 
+
+Similarly, if [[power sets]] of Archimedean ordered fields exist, then it is provable that $\mathbf{R}$ is Dedekind complete. From the definition of homotopy terminal Archimedean field, $\mathbf{R}$ is an algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ which takes Archimedean ordered fields $X$ to the Archimedean ordered field $\mathcal{C}(X)$ of two-sided Dedekind cuts in $X$. Every algebra of the endofunctor $X \mapsto \mathcal{D}(X)$ in the type of Archimedean ordered field is a Dedekind complete Archimedean ordered field. 
+
+If a real numbers type $R$ as defined in the previous section also exists, then it is a [[subtype]] of this real numbers type $\mathbb{R}$ defined as the terminal Archimedean ordered field, since $R$ is provably Archimedean ordered, and any [[ring homomorphisms]] between two field objects is an [[embedding of types]], and by definition of terminal object, there is always a ring homomorphism $R \to \mathbb{R}$. 
+
 ## Properties
 
 ### Algebraic structure on real numbers
