@@ -25,8 +25,6 @@ A decidable [[binary relation]] $R$ on a set $S$ is a relation such that for all
 
 ## Examples
 
-* Every set with a [[tight apartness relation]] has a decidable [[denial inequality]] relation. 
-
 * Every set with [[decidable equality]] has a decidable equality relation. 
 
 * In the presence of [[excluded middle]], every relation is a decidable relation. 
