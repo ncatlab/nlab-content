@@ -39,9 +39,16 @@ At least some aspects of the carbon [[atomic nucleus]] may be modeled by [[Skyrm
 
 ## References
 
-* {#LauManton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
-
-See also 
+See also:
 
 * Wikipedia, _[Carbon](https://en.wikipedia.org/wiki/Carbon)_
+
+Discussion of the carbon [[atomic nucleus]] via the [[Skyrmion model]]:
+
+* {#LauManton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
+
+* Christoph Adam, [[Carlos Naya]], Andrzej Wereszczyński, *Carbon-12 in the generalized Skyrme model* &lbrack;[arXiv:2401.08778](https://arxiv.org/abs/2401.08778)&rbrack;
+
+
+
 
