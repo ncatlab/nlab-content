@@ -5,6 +5,9 @@
 
 * [Interview with Yoichiro Nambu by Babak Ashrafi, July 2004](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/30538)
 
+* Christopher T. Hill, *A personal recollection of Yoichiro Nambu*,  Section VI in: *Nambu and Compositeness* &lbrack;[arXiv:2401.08716](https://arxiv.org/abs/2401.08716)&rbrack;
+
+
 On his contributions to [[string theory]]:
 
 * [[Hiroshi Itoyama]], *Birth of String Theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A103 &lbrack;[arXiv:1604.03701](http://arxiv.org/abs/1604.03701), [doi:10.1093/ptep/ptw063](https://doi.org/10.1093/ptep/ptw063)&rbrack;
