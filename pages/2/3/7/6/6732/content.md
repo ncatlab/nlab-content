@@ -176,6 +176,12 @@ On the [[large N limit]] in [[lattice gauge theory]]:
 
 * Margarita Garcia Perez, _Prospects for large $N$ gauge theories on the lattice_ ([arXiv:2001.10859](https://arxiv.org/abs/2001.10859))
 
+See also:
+
+* Marco Bochicchio, Mauro Papinutto, Francesco Scardino, *On the structure of the large-$N$ expansion in $SU(N)$ Yang-Mills theory* &lbrack;[arXiv:2401.09312](https://arxiv.org/abs/2401.09312)&rbrack;
+
+
+
 ### Open/closed string duality
 
 On the role of [[open/closed string duality]] in interpreting the [[large N limit]]:
