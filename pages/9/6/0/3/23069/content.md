@@ -23,3 +23,7 @@ possibly explained via [[leptoquarks]]:
 possibly explained via [[Z'-bosons]] and in view of [[Higgs field]] [metastability](Higgs+field#MassAndVacuumInstability):
 
 * Rigo Bause, [[Gudrun Hiller]], Tim Höhne, Daniel F. Litim, Tom Steudtner, *B-Anomalies from flavorful $U(1)'$ extensions, safely* ([arXiv:2109.06201](https://arxiv.org/abs/2109.06201))
+
+On [[vacuum]] stability of the [[Higgs field]] in the [[standard model of particle physics]]:
+
+* [[Gudrun Hiller]], Tim Höhne, Daniel F. Litim, Tom Steudtner, *Vacuum Stability in the Standard Model and Beyond* &lbrack;[arXiv:2401.08811](https://arxiv.org/abs/2401.08811)&rbrack;
