@@ -17,7 +17,7 @@ Since every [[ordered local integral domain]] $R$ has [[characteristic zero]], t
 
 Archimedean ordered local integral domains are important because they are the [[ordered local rings]] with [[infinitesimals]] but no [[infinite elements]], infinitesimals for which the zero-product property fails, or invertible infinitesimals. These play an important role in some approaches to [[analysis]] and [[differential geometry]], such as the approaches where the ring of [[formal power series]] with $n$ commuting variables on the [[real numbers]] is used to model [[infinitesimals]] in the real line. 
 
-[[Archimedean ordered fields]] are the Archimedean ordered local integral domains in which every non-invertible element is equal to zero. However, unlike Archimedean ordered fields, Archimedean ordered local integral domains can be defined inside of an arbitrary [[arithmetic pretopos]] in [[coherent logic]], or in [[dependent type theory]] without [[function types]] and [[dependent function types]]. 
+[[Archimedean ordered fields]] are the Archimedean ordered local integral domains in which every non-invertible element is equal to zero. However, unlike Archimedean ordered fields, Archimedean ordered local integral domains can be defined inside of an arbitrary [[arithmetic pretopos]] in [[coherent logic]]. 
 
 ## See also
 
