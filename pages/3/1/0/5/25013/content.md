@@ -54,11 +54,15 @@ $$a:T \vdash \beta_{\mathrm{idtonotapart}}^{\mathrm{refl}_T}(a):\mathrm{idtonota
 
 The last condition ensures that the type is an [[h-set]].
 
-## Strongly extensional functions
+## Properties
+
+In every inequality space $S$, [[denial inequality]] $x \neq y \coloneqq \neg(x = y)$ is decidable. This is because denial inequality is the [[double negation]] of the tight apartness relation $\#$ on $S$, and the double negation of any relation is a [[decidable relation]]. 
+
+### Strongly extensional functions
 
 Given two inequality spaces $S$ and $T$, a [[function]] $f\colon S \to T$ is __[[strongly extensional function|strongly extensional]]__ if $f(x) \# f(y)$ implies $x \# y$; that is, $f$ reflects apartness. $f$ is a [[strongly injective function|strongly injective]] if $f(x) \# f(y)$ is logically equivalent to $x \# y$. The [[contrapositive]] of the both conditions imply that $f$ preserves equality and is an [[injection]] respectively. 
 
-## Stable and decidable inequality
+### Stable and decidable inequality
 
 Strict inequality is stable if it is logical equivalent to [[denial inequality]]; i.e. for all elements $a \in S$ and $b \in S$, $a \neq b$ if and only if $a \# b$. Stable strict inequality is simply called "inequality", as there is no need to distinguish between strict inequality and [[denial inequality]] in this case. 
 
