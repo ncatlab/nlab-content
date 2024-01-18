@@ -886,7 +886,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
 **Talks:**
 
-* 15 Jan 2024
+* {#LambertMThMath2024} 15 Jan 2024
 
   [[Neil Lambert]]:
 
@@ -894,9 +894,11 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
   cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
 
+  > We discuss a peculiar limit of [[M2-branes]] that leads to a non-relativistic [[ABJM model|Chern-Simons-matter theory]] with an infinite dimensional spacetime [[symmetry group]] and whose dynamics leads to [[quantum mechanics]] on a [[Hitchin moduli space]]. We also discuss the corresponding limit in the [[AdS-CFT correspondence|gravitational dual]] which is described by an eleven-dimensional Membrane-Newton-Cartan theory about a [[background field|background]] with an [[anti de Sitter spacetime|$AdS_2$]] factor.
+
 \linebreak
 
-* 15 Jan 2024
+* {#ShahbaziMThMath2024} 15 Jan 2024
 
   [[Carlos Shahbazi]]:
 
@@ -904,6 +906,8 @@ at [[CQTS]] @ New York University, Abu Dhabi
 Dimensional Universal Supergravity**
 
   cf.: [arXiv:2101.07236](pre-metric+electromagnetism#LazaroiuShahbazi23)
+
+  > Using the [[sheaf cohomology|cohomology]] of the appropriate [[locally constant sheaf]] I will explain how to implement the [[Dirac charge quantization|Dirac-Schwinger-Zwanziger integrality condition]] on [[D=4 supergravity|four-dimensional]] [[classical field theory|classical]] ungauged [[supergravity]] and how to interpret it geometrically in order to obtain its [[U-duality|duality]]-covariant, [[gauge theory|gauge-theoretic]], [[differential geometry|differential-geometric]] global model. Using this construction, I will prove that [[D=4 supergravity|four-dimensional]] bosonic un[[gauged supergravity|gauged]] [[supergravity]] is completely determined by a choice of polarized Siegel bundle defined over the total space of a vertically [[Riemannian manifold|Riemannian]] [[submersion]] equipped with a complete [[Ehresmann connection]], showing that its gauge sector reduces to a polarized [[self-dual higher gauge theory|self-duality condition]] for connections on the underlying polarized Siegel bundle. Furthermore, I will explore the continuous and arithmetic [[U-duality]] groups of the theory, characterizing them through [[short exact sequences]] and realizing the latter through the [[automorphism group]] of the underlying Siegel bundle acting on its [[adjoint bundle]]. This elucidates the geometric origin of [[U-duality]] and justifies the miraculous existence of U-dualities by describing them as a [[gauge transformation]] of the appropriately defined [[principal bundle]].
 
 \linebreak
 
@@ -915,9 +919,11 @@ Dimensional Universal Supergravity**
 
   cf.: [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler)  
 
+  > In this talk I will explain a [[moment map]] construction for [[string algebroids]], a special type of [[Courant algebroids]] which arise as [[Atiyah algebroids]] of [[principal 2-bundle|higher principal bundles]]. The zero locus of our moment map is given by the solutions of the Calabi system, a coupled system of equations which provides a unifying framework for the classical Calabi problem and the Hull-Strominger system in [[heterotic string theory]]. Our main results are concerned with the geometry of the [[moduli space]] of solutions, and assume a technical condition which is fulfilled in examples. We prove that the [[moduli space]] carries a pseudo-Kähler metric with Kähler potential given by the [[dilaton]] functional, a topological formula for the metric, and an infinitesimal Donaldson-Uhlenbeck-Yau type theorem. Based on joint work with Rubio and Tipler in [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler) (to appear in JDG) and ongoing joint work with Álvarez-Cónsul and Tellez.
+
 \linebreak
 
-* 15 Jan 2024
+* {#GiotopoulosMThMath2024} 15 Jan 2024
 
   [[Grigorios Giotopoulos]]:
 
@@ -926,10 +932,11 @@ the Topos of Smooth Sets**
 
   cf.: [arXiv:2312.16301](smooth+set#GiotopoulosSati23)
 
+  > Any notion of [[non-perturbative field theory|non-pertubative]] ([[prequantum geometry|pre]])-[[quantization]] of [[classical field theories]], as in particular expected in [[M-theory|M-theoretic]] contexts, presupposes a [[convenient category of topological spaces|convenient category]] within which non-pertubative classical field theory may be rigorously formalised. In this talk, I will describe [[smooth sets]] as a [[category]] of [[generalized smooth spaces]], completely determined by "how they may be smoothly probed by finite dimensional [[smooth manifold|manifolds]]". Formally, this is the "[[topos]] [[category of sheaves|of sheaves]] over the [[site]] of [[Cartesian spaces]]". I will then explain how the [[variational calculus|variational algorithm]] of ([[bosonic field|bosonic]]) [[classical field theory]] and the space of [[on-shell]] [[field (physics)|fields]] naturally take place in [[smooth sets]], along with many more field theoretic concepts. Time permitting, I will indicate how the setting naturally generalizes to include the description of [[synthetic differential geometry|infinitesimal]] (pertubative) structure, [[fermionic fields]], and ([[gauge field|gauge]]) fields with [[internal symmetries]].
 
 \linebreak
 
-* 15 Jan 2024
+* {#AlfonsiMThMath2024} 15 Jan 2024
 
   [[Luigi Alfonsi]]:
 
@@ -938,30 +945,38 @@ Geometry and the Puzzle of Quantisation**
 
   cf.: [arXiv:arXiv:2307.15106](BV-BRST+formalism#AlfonsiYoung23)
 
+  > In this talk I will introduce and discuss a global geometric framework which allows one to encode a natural [[non-perturbative field theory|non-perturbative]] generalisation of classical [[BV-formalism|Batalin–Vilkovisky(BV-)theory]]. First, I will set the stage by briefly describing the current state of the art of [[perturbative quantum field theory|perturbative]] [[BV-theory]]. Then, I will introduce a concrete model of [derived differential geometry]], whose geometric objects are [[formal geometry|formal]] [[derived geometry|derived]] [[smooth stacks]] (i.e. [[stacks]] on formal [[derived smooth manifolds]]), and which is obtained by applying [Töen-Vezzosi's homotopical algebraic geometry](derived+algebraic+geometry#ToenVezzosi04) to the theory of [[derived manifolds]] of [Spivak](derived+smooth+manifold#Spivak08) and [Carchedi-Steffens](derived+smooth+manifold#CarchediSteffens19). I will explain how derived differential geometry is able to capture non-perturbative classical BV-theory by means of examples: [[scalar field theory]] and [[Yang-Mills theory]]. Finally, I will discuss some open questions, most importantly on [[quantisation]] and on applications to global aspects of [[M-theory]].
+
 \linebreak
 
 
-* 15 Jan 2024
+* {#SharpeMThMath2024} 15 Jan 2024
 
   [[Eric Sharpe]]:
 
   **Decomposition of 2D Pure Yang-Mills and the Gross-
 Taylor String Theory**
 
+  slides: [[Sharpe-MTheoryMath2024.pdf:file]]
+
   cf.: [arXiv:2307.08729](https://arxiv.org/abs/2307.08729)
+
+  > In this talk, we will attempt to reconcile two different results on [[D=2 Yang-Mills theory|two-dimensional pure Yang-Mills theory]]. Specifically, we will discuss how the fact that [[D=2 Yang-Mills theory|2d pure Yang-Mills]] is equivalent to a disjoint union of theories, is related to the Gross-Taylor description of 2d pure Yang-Mills as the [[target space|target-space]] field theory of a [[string theory]]. The Gross-Taylor picture can be understood by first rewriting the Yang-Mills partition function (in a [[large N limit|large $N$ limit]]) as a sum of [[correlation functions]] in [[Dijkgraaf-Witten theories]] for the [[symmetric group]] $S_n$, and then interpreting those Dijkgraaf-Witten correlation functions in terms of [[branched covers]], which leads to the string theory description. We first observe that the decomposition of the pure Yang-Mills aligns perfectly with the decomposition of $S_n$ Dijkgraaf-Witten theory, and then discuss decomposition and the branched covers interpretation. We encounter two puzzles, and to solve them, propose that the Gross-Taylor string theory has a [[higher form symmetry|higher-form symmetry]].
 
 \linebreak
 
-* 16 Jan 2024
+* {#MinasianMThMath2024} 16 Jan 2024
 
   [[Ruben Minasian]]:
 
   **Constraining and Un-constraining Supergravities**
 
+  > I will review various aspects and somewhat surprising consequences of cancellation of (different types of) [[anomalies]] in [[supergravity]] theories in [[D=8 supergravity|eight]] and [[D=6 supergravity|six]] dimensions. I will also discuss appearance and importance of exotic (singular, non-spin, non-orientable) [[background field|backgrounds]].
+
 
 \linebreak
 
-* 16 Jan 2024
+* {#MalekMThMath2024} 16 Jan 2024
 
   [[Emanuel Malek]]:
 
@@ -969,10 +984,12 @@ Taylor String Theory**
 Compactifications**
 
   cf.: [arXiv:2212.01135](exceptional+field+theory#DuboeufMalekSamtleben23)
+
+  > I will present a powerful new method that for the first time allows us to compute the [[Kaluza-Klein theory|Kaluza-Klein]] spectrum of a large class of [[string theory]] [[KK-compactification|compactifications]], including those arising in maximal [[gauged supergravities]] and beyond. This includes geometries with little to no remaining ([[supersymmetry|super]]-)[[symmetries]], completely inaccessible by previous methods. I will show how these insights can be used to [[holographic principle|holographically]] compute the anomalous dimensions of protected and unprotected operators in [[non-perturbative quantum field theory|strongly-coupled]] [[CFTs]], as well as to study global properties of their conformal manifolds. I will also show how the method can be used to determine the perturbative stability of non supersymmetric [[anti-de Sitter spacetime|AdS]] [[string theory vacuum|vacua]]. We will see the importance of higher Kaluza-Klein modes to the physics of string compactifications, e.g. in realising the compactness of moduli spaces, restoring [[supersymmetry]] that is lost in a consistent truncation, and in destabilising vacua that appear to stable in lower-dimensional supergravities.
   
 \linebreak
 
-* 16 Jan 2024
+* {#HanMThMath2024} 16 Jan 2024
 
   [[Fei Han]]:
 
@@ -980,9 +997,11 @@ Compactifications**
 
   cf.: [arXiv:2005.02344](https://arxiv.org/abs/2005.02344)
 
+  > [Freed and Hopkins developed](D=11+N=1+supergravity#FreedHopkins21) an algebraic theory of cubic forms, which is an analogy to the theory of [[quadratic forms]] in topology. They are motivated by the Witten-Freed-Hopkins anomaly cancellation formula in [[M-theory]], which equals a cubic form arising from an [[E8|$E_8$]] [[principal bundle|bundle]] over a 12 dimensional [[spin manifold]] to the [[index of a Dirac operator|indices]] of twisted [[Dirac operators]] on the manifold. In this talk, we will first review the Witten-Freed-Hopkins anomaly cancellation formula and the algebraic theory of cubic forms, and then show that the cubic forms as well as the anomaly cancellation formula can be naturally derived from [[modular forms]] that we construct inspired by the [[Witten genus]] and the basic representation of [[affine Lie algebra|affine]] [[E8|$\mathfrak{e}_8$]]. Following this approach, we obtain new cubic forms and anomaly cancellation formulas on non-spin manifolds and thus provide a unified way to obtain anomaly cancellation formulas of this type. This is based on our [joint work](D=D11+N=1+supergravity#HanHuangLiuZhang20) with Prof. [[Ruizhi Huang]], Prof. [[Kefeng Liu]] and Prof. [[Weiping Zhang]].
+
 \linebreak
 
-* 16 Jan 2024
+* {#TanMThMath2024} 16 Jan 2024
 
   [[Meng-Chwan Tan]]:
 
@@ -990,27 +1009,33 @@ Compactifications**
 
   cf.: [arXiv:2305.15965](https://arxiv.org/abs/2305.15965)
 
+  > We perform a topological-holomorphic [[topological twist|twist]] of [[D=4 N=4 SYM|$\mathcal{N}=4$]] [[super Yang-Mills theory|supersymmetric gauge theory]] on a [[4-manifold|four-manifold]] of the form $M^4 = \Sigma_1 \times \Sigma_2$, and unravel the mathematical implications of its physics. In particular, we consider the cohomology of different linear combinations of the resulting scalar supercharges under [[S-duality]], whence we would be able to derive novel topological and holomorphic invariants of $M^4$ and their [[geometric Langlands duality|Langlands duals]]. As the twisted theory can be topological along $\Sigma_1$ such that we can [[KK-reduction|dimensionally reduce]] it to 2d, via the [[effective field theory|effective]] [[sigma-model]] on $\mathbb{C}_2$, we can also relate these 4d invariants and their Langlands duals to the [[mirror symmetry]] of [[Higgs bundles]] and that of quasi-topological strings described by the [[sheaf]] of [[chiral differential operators]].
+
 \linebreak
 
-* 16 Jan 2024
+* {#HohmMThMath2024} 16 Jan 2024
 
   [[Olaf Hohm]]:
 
   **Double Copy, Double Field Theory & Homotopy
 Algebras**
 
+  > The [[double copy]] denotes a technology to relate the [[scattering amplitudes]] of [[Yang-Mills theory]] to those of [[gravity]]. While enormously successful at the level of [[scattering amplitudes]], until recently there was no first-principle understanding of how to derive such relations. Such an understanding would be needed in order to describe, for instance, a double copy of classical solutions. I present an approach based on [[homotopy algebras]] such as [[L-infinity algebras|L-infinity algebras]] that allows one to provide such a first-principle derivation, at least to some finite order in [[perturbation theory]]. To this end I review how to formulate [[Yang-Mills theory]] as an [[L-infinity algebra]], how to "strip off" [[color charge|color]] to obtain a different kind of homotopy algebra and, finally, how to combine two copies of these exotic algebras to obtain the L-infinity algebra of gravity in the form of [[double field theory]].
+
 \linebreak
 
-* 16 Jan 2024
+* {#SaemannMThMath2024} 16 Jan 2024
 
   [[Christian Saemann]]:
 
   **Atiyah Algebroids for Higher and Groupoid Gauge
 Theories**
 
+  > We present an [[Atiyah Lie algebroid|Atiyah algebroid]] picture for [[higher gauge theory|higher]] and groupoid [[gauge theories]]. Common to both is the fact that straightforward definitions of [[curvatures]] are only suitable for partially [[flat bundle|flat]] cases. Instead, one has to adjust the underlying [[cocycle]] relations, leading to new curvatures and gauge transformations. The Atiyah algebroid picture I sketch provides a good idea about the origin of [[adjusted Weil algebra|adjustments]] and why they are required even in the relative conventional case of groupoid gauge theories.
+
 \linebreak
 
-* 17 Jan 2024
+* {#HullMThMath2024} 17 Jan 2024
 
   [[Chris Hull]]:
 
@@ -1019,13 +1044,17 @@ Graviton**
 
   cf.: [arXiv:2307.04748](self-dual+higher+gauge+theory#Hull23)
 
+  > [Sen's action](self-dual+higher+gauge+theory#Sen20) for a [[higher gauge field|$p$-form gauge field]] with [[self-dual higher gauge theory|self-dual]] [[field strength]] coupled to a [[spacetime]] [[Riemannian metric|metric]] involves an explicit [[Minkowski metric]] and the presence of this raises questions as to whether the action is [[coordinate]] independent and whether it can be used on a general spacetime [[manifold]]. A natural generalisation of [Sen's action](self-dual+higher+gauge+theory#Sen20) is presented in which the Minkowski metric is replaced by a second metric on spacetime. The theory is covariant and can be formulated on any spacetime. The theory describes a physical sector, consisting of the [[self-dual higher gauge theory|chiral $p$-form gauge field]] coupled to the dynamical metric $g$, plus a shadow sector consisting of a second chiral $p$-form and the second metric. The resulting theory is covariant and can be formulated on any spacetime. A spacetime with two metrics has some interesting geometry and some of this is explored here and used in the construction of the interactions. The action has two [[diffeomorphism]]-like symmetries, one acting only on the physical sector and one acting only on the shadow sector, with the spacetime diffeomorphism symmetry arising as the diagonal subgroup.
+
 \linebreak
 
-* 17 Jan 2024
+* {#HeMThMath2024} 17 Jan 2024
 
   [[Yang-Hui He]]:
 
   **The AI Mathematician**
+
+  > We summarize how [[artificial intelligence|AI]] can approach mathematics in three ways: [[proof assistant|theorem-proving]], [[conjecture]] formulation, and [[natural language|language]] processing. Inspired by initial experiments in [[geometry]] and [[string theory]], we present a number of recent experiments on how various standard [[machine learning|machine-learning]] [[algorithms]] can help with pattern detection across disciplines ranging from [[algebraic geometry]] to [[representation theory]], to [[combinatorics]], and to [[number theory]].
 
 \linebreak
 
@@ -1038,21 +1067,28 @@ Theory and M-Theory**
 
   cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
 
+  > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
+
 \linebreak
 
-* 17 Jan 2024
+* {#SatiMThMath2024} 17 Jan 2024
 
   [[Hisham Sati]]:
 
   **M-Theory and Hypothesis H**
 
+  > I will survey the ([[cohomotopy|co]])[[homotopy theory|homotopical]] perspective on the [[field (physics)|fields]] and [[branes]] in [[M-theory]], showcasing several recent developments. This talk highlights the [[classical field theory|classical]]/[[prequantum field theory|prequantum]] aspects, while the [talk by Urs Schreiber](#Schreiber2024) will highlight the [[quantum physics|quantum]] aspects.
+
 \linebreak
 
-* 17 Jan 2024
+* {#SchreiberMThMath2024} 17 Jan 2024
 
   [[Urs Schreiber]]:
 
   **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
+
+  > A famous [[hypothesis]] in [[string theory]] [[D-brane charge quantization in K-theory|says]] that the [[RR-fields]] in [[10d supergravity]] are subject to "[[flux quantization]]" in [[topological K-theory|topological K-cohomology]] theory. From a modernized point of view of [[rational homotopy theory]], analogous reasoning applies to the [[supergravity C-field|C-field]] in [[11d supergravity]] and suggests that its flux should be quantized in the "[[Cohomotopy|unstable CoHomotopy]]" [[cohomology theory]] of [Borsuk](cohomotopy#Borsuk36), [Pontrjagin](cohomotopy#Pontryagin38a) and [Spanier](#Spanier49). I'll survey this "[[schreiber:Hypothesis H]]" with focus on its implications for [[quantum observables]] on [[intersecting branes]]. This is joint work with [[Hisham Sati]]. Notes are available at: *[[schreiber:Hypothesis H|ncatlab.org/schreiber/show/Introduction+to+Hypothesis+H]]*.
+
 
 
 \linebreak
