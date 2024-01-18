@@ -9,6 +9,8 @@ The **analytic Markov's principle** states that the [[pseudo-order]] on the [[De
 
 This is equivalent to the usual formulation of the analytic Markov's principle, which says that for all real numbers $x \in \mathbb{R}$, $\neg (x \leq 0)$ implies $0 \lt x$. For if we take $x = s - r$, this becomes $\neg (s - r \leq 0)$ implies $0 \lt s - r$, and by the order and arithmetic properties of the real numbers, this is equivalent to $\neg (s \leq r)$ implies $r \lt s$, which is the same as $\neg \neg (r \lt s)$ implies $r \lt s$. 
 
+Other equivalent statements include that the [[tight apartness relation]] on the Dedekind real numbers is a [[stable relation]]. 
+
 The analytic Markov's principle makes sense for any [[ordered local ring|ordered]] [[local Artinian algebra|local Artinian $\mathbb{R}$-algebra]] as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. The quotient of the Weil $\mathbb{R}$-algebra by its [[nilradical]] is the Dedekind real numbers satisfying the analytic Markov's principle. 
 
 ## See also ##
