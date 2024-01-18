@@ -57,6 +57,12 @@ $$l:\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} (p \lt q) \to ((p \lt r) + (r \lt 
 
 * That every [[Dedekind real number]] has a $\mathbb{Q}$-indexed locator implies the weak [[limited principle of omniscience]]. 
 
+## Principle of locators
+
+The **principle of locators** state that every real number $x:\mathbb{R}$ merely has a locator (i.e. the [[support]] of the locator has an element), and implies that the [[Cauchy real numbers]] is the [[terminal object|terminal]] [[Archimedean ordered field]], and coincides with the [[Dedekind real numbers]]. This is true in [[classical mathematics]], as is in [[constructive mathematics]] which also uses [[countable choice]]. 
+
+However, in general constructive mathematics, it is not necessarily true that every real number has a locator, and so there may be multiple sets of real numbers. In that case, this principle becomes the **axiom of locators**, which says that every element $x:\mathbb{R}$ of the [[terminal object|terminal]] [[Archimedean ordered field]] $\mathbb{R}$ merely has a locator, making it coincide with the [[Cauchy real numbers]]. We use terminal Archimedean ordered field since in [[predicative mathematics]] the [[Dedekind real numbers]] may not exist.
+
 ## Related concepts
 
 * [[Dedekind cut]]
@@ -71,4 +77,7 @@ $$l:\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} (p \lt q) \to ((p \lt r) + (r \lt 
 * [[Steve Vickers]], *Locators point-free* ([pdf](https://www.cs.bham.ac.uk//~sjv/locatorsPF.pdf))
 
 [[!redirects locators]]
+
+[[!redirects principle of locators]]
+[[!redirects axiom of locators]]
 
