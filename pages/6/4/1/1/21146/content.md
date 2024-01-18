@@ -27,4 +27,9 @@ More on [[Skyrmions]]:
 
 * [[Carlos Naya]], K. Oles, _Background fields and self-dual Skyrmions_ ([arXiv:2004.07069](https://arxiv.org/abs/2004.07069))
 
+On [[Skyrmion]] models for the [[carbon]] 12 [[atomic nucleus]]:
+
+* Christoph Adam, [[Carlos Naya]], Andrzej Wereszczyński, *Carbon-12 in the generalized Skyrme model* &lbrack;[arXiv:2401.08778](https://arxiv.org/abs/2401.08778)&rbrack;
+
+
 category: people
