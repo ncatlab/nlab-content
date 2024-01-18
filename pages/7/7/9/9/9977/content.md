@@ -33,6 +33,10 @@ If one wishes to reserve the word "inequality" for [[order]] relations (such as 
 
 The weak inequality relation is an [[irreflexive symmetric relation]]. Irreflexivity follows from the negation of reflexivity of [[equality]], while symmetry follows from the [[contrapositive]] of symmetry of equality. In addition, the weak inequality relation is a [[stable relation]], because in [[constructive mathematics]], given any proposition $P$, $\neg \neg \neg P$ implies that $\neg P$. This means that $\neg \neg \neg (a = b)$ implies that $\neg (a = b)$, and since $\neg (a = b)$ if and only if $a \neq b$, this means that $\neg \neg (a \neq b)$ implies that $a \neq b$. Weak inequality is a [[weakly tight relation]], in that for all elements $a \in A$ and $b \in A$, $\neg (a \neq b)$ implies that $\neg \neg (a = b)$, because by definition, $\neg (a = b)$ if and only if $a \neq b$, and so by contraposition, $\neg \neg (a = b)$ if and only if $\neg (a \neq b)$. 
 
+### Inequality spaces
+
+The denial inequality in an [[inequality space]], a set with a [[tight apartness relation]], is a [[decidable relation]], because denial inequality is the double negation of the tight apartness relation, and the double negation of any relation is a decidable relation. 
+
 ### Denial apartness
 
 The denial inequality relation on a set $S$ is said to be a **denial apartness relation** if for all elements $a \in S$, $b \in S$ and $c \in S$, $\neg((a \neq b) \wedge (b \neq c))$ implies that $\neg(a \neq b) \vee \neg(b \neq c)$. 
