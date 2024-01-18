@@ -291,13 +291,15 @@ focuses on concrete constructions of well-adapted models using the technology of
 
 Another textbook is
 
-* R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer Dordrecht 1996.
+* [[René Lavendhomme]], *Basic concepts of synthetic differential geometry*, Kluwer Texts in the Mathematical Sciences **13**,  Springer (1996) &lbrack;[doi:10.1007/978-1-4757-4588-7](https://doi.org/10.1007/978-1-4757-4588-7)&rbrack;
 
 ### Expositions
 
 Introductory survey includes
 
-* [[Anders Kock]], _Synthetic differential geometry - new methods for old spaces_, talk at _[[New Spaces for Mathematics and Physics]]_ IHP Paris, 2015 ([video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE)); _New methods for old spaces: synthetic differential geometry_, [arxiv/1610.00286](https://arxiv.org/abs/1610.00286)
+* [[Anders Kock]], _Synthetic differential geometry - new methods for old spaces_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris (2015) &lbrack;[video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE)&rbrack;
+
+* [[Anders Kock]], _New methods for old spaces: synthetic differential geometry_ &lbrack;[arxiv/1610.00286](https://arxiv.org/abs/1610.00286)&rbrack;
 
 Introductory expositions of basic ideas of synthetic differential geometry are
 
@@ -305,7 +307,7 @@ Introductory expositions of basic ideas of synthetic differential geometry are
 
 *  [[John Lane Bell]], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
-* R. P. Kostecki, _Differential Geometry in Toposes_ , ms. University of Warsaw (2009) [pdf](http://www.fuw.edu.pl/~kostecki/sdg.pdf)
+* R. P. Kostecki, _Differential Geometry in Toposes_, ms. University of Warsaw (2009) [pdf](http://www.fuw.edu.pl/~kostecki/sdg.pdf)
 
 * [[Urs Schreiber]], _[[geometry of physics -- supergeometry]]_
 
