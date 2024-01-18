@@ -2121,3 +2121,9 @@ Interesting wishlists for treatments of Hochschild cohomology are in [this](http
 [[!redirects hochschild homology]]
 [[!redirects hochschild cohomology]]
 [[!redirects hochschild complex]]
+
+[[!redirects Connes coboundary operator]]
+[[!redirects Connes coboundary operators]]
+[[!redirects Connes coboundary]]
+[[!redirects Connes coboundaries]]
+
