@@ -62,6 +62,12 @@ On [[supergravity]]:
 
 * [[Ergin Sezgin]], *Survey of supergravities*, in *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754)&rbrack;
 
+On [[higher curvature corrections]] in [[supergravity]]:
+
+* Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], *Higher Derivative Supergravities in Diverse Dimensions* &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945)&rbrack;
+
+
+
 
 
 
