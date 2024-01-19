@@ -1,10 +1,23 @@
-* wikipedia, [French](http://fr.wikipedia.org/wiki/Bernhard_Riemann)
 
-* nlab: [[Riemann conjecture]], [[Riemann surface]]
+* [Wikipedia entry (en)](https://en.wikipedia.org/wiki/Bernhard_Riemann)
 
-## Writings
+* [Wikipedia entry (fr)](http://fr.wikipedia.org/wiki/Bernhard_Riemann)
 
-* [[On the hypotheses which underlie geometry]]
+
+## Seleted writings
+
+* *[[On the hypotheses which underlie geometry]]*
+
+## Related entries
+
+* [[manifold]], [[smooth manifold]]
+
+* [[Riemannian geometry]], [[Riemannian metric]]
+
+* [[Riemann conjecture]]
+
+* [[Riemann surface]]
+
 
 category: people
 
