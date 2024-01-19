@@ -128,6 +128,16 @@ Thus all together a distributive law for a monad over a monad is a 2-cell for wh
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
 
+#### As monads in monads
+As mentioned earlier, one can understand a distributive of a monad $(a,s)$ over another monad $(a,t)$ as displaying $s:a \to a$ as a monad on $(a,t)$ in the 2-category $\mathbf{Mnd}(A)$ of monads in a 2-category $A$.
+
+Specifically, a monad in $\mathbf{Mnd}(A)$ over $(a,t)$ (which is a monad in $A$!) is comprised of the following data:
+
+1. A 1-cell $s:a \to a$ in $A$, together with an intertwiner $\lambda : ts \to st$ satisfying the equations [[monad#BicategoryOfMonads|here]]
+2. Two 2-cells (in $\mathbf{Mnd}(A)$) $\sigma : 1 \Rightarrow (s,\lambda)$ and $\nu : (s,\lambda)(s,\lambda) \Rightarrow (s,\lambda)$ which correspond to two 2-cells in $A$ $\sigma: 1 \Rightarrow s$, $\nu:ss \Rightarrow s$ commuting with the intertwiners of $1$, $s$ and $ss$.
+
+Then $\lambda$ is the distributive law sought, and the laws $\lambda$, $\sigma$ and $\nu$ satisfy correspond to those of a distributive law.
+
 
 ### Monad distributing over a comonad 
 
