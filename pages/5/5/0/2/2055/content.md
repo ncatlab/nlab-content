@@ -5,6 +5,8 @@
 
 * [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]]
 
+* [Lovely little lemmas] (http://lovelylittlelemmas.rjprojects.net/) by Remy van Dobben de Bruyn, 
+
 * [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
 
 * [mathbabe](http://mathbabe.org/) Blog on mathematical finance by former academic 
@@ -43,7 +45,7 @@
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
-* [Shadows of Simplicity](https://tcjpn.wordpress.com) - analytic/algebraic/geometric/topological/enumerative combinatorics, fractional/operational calculus, umbral calculus
+* [Shadows of Simplicity](http://tcjpn.wordpress.com) - notes on analytic, algebraic, geometric, and topological enumerative combinatorics, fractional and operational calculus, and umbral calculus
 
 * [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
 
