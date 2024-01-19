@@ -1,4 +1,3 @@
-[[!redirects 9d supergravity]]
 
 #Contents#
 * table of contents
@@ -17,5 +16,8 @@
 
 ## References
 
-* M. P. Garcia del Moral, J. M. Pena, A. Restuccia, _Supermembrane origin of type II gauged supergravities in 9D_, JHEP 1209 (2012) 063 ([arXiv:1203.2767](http://arxiv.org/abs/1203.2767))
+* [[Maria P. Garcia del Moral]], J. M. Pena, [[Alvaro Restuccia]], _Supermembrane origin of type II gauged supergravities in 9D_, JHEP 1209 (2012) 063 &lbrack;[arXiv:1203.2767](http://arxiv.org/abs/1203.2767)&rbrack;
+
+[[!redirects 9d supergravity]]
+[[!redirects D=9 supergravity]]
 
