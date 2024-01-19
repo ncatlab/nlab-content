@@ -1033,6 +1033,8 @@ Algebras**
   **Atiyah Algebroids for Higher and Groupoid Gauge
 Theories**
 
+  slides: [[Saemann-AtiyahAlgebroids.pdf:file]]
+
   > We present an [[Atiyah Lie algebroid|Atiyah algebroid]] picture for [[higher gauge theory|higher]] and groupoid [[gauge theories]]. Common to both is the fact that straightforward definitions of [[curvatures]] are only suitable for partially [[flat bundle|flat]] cases. Instead, one has to adjust the underlying [[cocycle]] relations, leading to new curvatures and gauge transformations. The Atiyah algebroid picture I sketch provides a good idea about the origin of [[adjusted Weil algebra|adjustments]] and why they are required even in the relative conventional case of groupoid gauge theories.
 
 \linebreak
