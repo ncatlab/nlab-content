@@ -85,7 +85,7 @@ $$
     X_i
 $$
 
-become [[continuous functions]] (calle the _Tychonoff topology_). 
+become [[continuous functions]] (called the _Tychonoff topology_). 
 
 This means equivalently that $\tau_{prod}$ is the topology generated from the [[sub-base of a topology|sub-base]] 
 
