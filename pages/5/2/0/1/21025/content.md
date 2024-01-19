@@ -104,6 +104,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
 \linebreak
 
+
 **Talks:**
 
 * {#Lambert2024} 15 Jan 2024
@@ -112,7 +113,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
   **Non-Relativistic M2-Branes and AdS/CFT**
 
-  slides: [[Lambert-NonRelM2Branes.pdf:file]]
+  slides: [[Lambert-NonRelM2BranesAndADSCFT.pdf:file]]
 
   cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
 
