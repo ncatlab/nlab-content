@@ -27,7 +27,7 @@ $$
 $,$
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Algebraicszoom.png/1200px-Algebraicszoom.png" width="490"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Algebraicszoom.png/1200px-Algebraicszoom.png" width="490"/>
 </center>
 
 > **Visualisation of the (countable) field of algebraic numbers in the complex plane.** Colours indicate degree of the polynomial the number is a root of (red = linear, i.e. the rationals, green = quadratic, blue = cubic, yellow = quartic...). Points becomes smaller as the integer polynomial coefficients become larger. View shows integers 0,1 and 2 at bottom right, $+i$ near top. 
