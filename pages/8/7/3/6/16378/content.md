@@ -38,11 +38,11 @@ The action functional is apparently originally due to
 
 * A. Ach&#250;carro, [[Jerome Gauntlett]], K. Itoha, [[Paul Townsend]], _World-volume supersymmetry from spacetime supersymmetry of the four-dimensional supermembrane_, Nuclear Physics B Volume 314, Issue 1, 20 February 1989, Pages 129&#8211;157 (<a href="https://doi.org/10.1016/0550-3213(89)90115-6">doi:10.1016/0550-3213(89)90115-6</a>)
 
-Further dicussion of the coupling to the [[d=4 N=1 supergravity]] background includes
+Further dicussion of the coupling to the [[d=4 N=1 supergravity]] background:
 
 * [[Burt Ovrut]], [[Daniel Waldram]], _Membranes and Three-form Supergravity_, Nucl.Phys. B506 (1997) 236-266 ([arXiv:hep-th/9704045](http://arxiv.org/abs/hep-th/9704045))
 
-* M. P. Garcia del Moral, J. M. Pena, A. Restuccia, _$N=1$ 4D Supermembrane from $11D$_, JHEP0807:039,2008 ([arXiv:0709.4632](http://arxiv.org/abs/0709.4632))
+* [[Maria P. Garcia del Moral]], J. M. Pena, [[Alvaro Restuccia]], _$\mathcal{N}=1$ 4D Supermembrane from $11D$_, JHEP0807 039 (2008) &lbrack;[arXiv:0709.4632](http://arxiv.org/abs/0709.4632)&rbrack;
 
 * M. Huebscher, P. Meessen, T. Ortin, _Domain walls and instantons in $N=1$, $d=4$ supergravity_, JHEP 1006:001,2010 ([arXiv:0912.3672](http://arxiv.org/abs/0912.3672))
 
