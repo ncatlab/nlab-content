@@ -551,7 +551,16 @@ is a [[Lie group]].
 
 ## References
 
-Textbook accounts include
+> See also the references at *[[smooth manifold]]*.
+
+The vision of the modern notion of [[manifolds]] is attributed to:
+
+* [[Bernhard Riemann]], *[[Über die Hypothesen, welche der Geometrie zu Grunde liegen]]*, Göttingen (1845) &lbrack;[doi:10.1007/978-3-642-35121-1](https://doi.org/10.1007/978-3-642-35121-1)&rbrack;
+
+  Engl. transl: [[William Clifford]]: *[[On the hypotheses which underlie geometry]]*, Nature **VIII** (1873) 183-184 &lbrack;[doi:10.1007/978-3-319-26042-6](https://doi.org/10.1007/978-3-319-26042-6)&rbrack;
+
+
+Monographs:
 
 * {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
