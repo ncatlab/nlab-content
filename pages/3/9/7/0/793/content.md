@@ -374,6 +374,13 @@ Discussion of T-duality that takes into account the [[super p-brane]] charges (i
 
   reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
 
+Lift of T-duality from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acting on the [[M2-brane]]-[[Green-Schwarz action functional|sigma-model]]:
+
+* [[Maria P. Garcia del Moral]], I. Martin, [[Alvaro Restuccia]], *Nonperturbative $SL(2,\mathbb{Z})$ $(p,q)$-strings manifestly realized on the quantum M2* &lbrack;[arXiv:0802.0573](https://arxiv.org/abs/0802.0573)&rbrack;
+
+* [[Maria P. Garcia del Moral]], J. M. Pena, [[Alvaro Restuccia]], *Aspects of the T-duality construction for the Supermembrane theory*, J. Phys.: Conf. Ser. **720** (2016) 012025 &lbrack;[arXiv:1504.06907](https://arxiv.org/abs/1504.06907), [doi:10.1088/1742-6596/720/1/012025](https://doi.org/10.1088/1742-6596/720/1/012025)&rbrack;
+
+
 
 
 [[!redirects Buscher rule]]
