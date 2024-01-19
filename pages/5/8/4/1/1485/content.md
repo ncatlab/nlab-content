@@ -232,6 +232,17 @@ These definitions need to be carefully checked against known examples (e.g., the
 
 ## References
 
+> For more see the references at *[[differentiable manifold]]* and *[[smooth manifold]]*.
+
+The vision of the modern notion of manifolds is attributed to:
+
+* [[Bernhard Riemann]], *[[Über die Hypothesen, welche der Geometrie zu Grunde liegen]]*, Göttingen (1845) &lbrack;[doi:10.1007/978-3-642-35121-1](https://doi.org/10.1007/978-3-642-35121-1)&rbrack;
+
+  Engl. transl: [[William Clifford]]: *[[On the hypotheses which underlie geometry]]*, Nature **VIII** (1873) 183-184 &lbrack;[doi:10.1007/978-3-319-26042-6](https://doi.org/10.1007/978-3-319-26042-6)&rbrack;
+
+
+See also:
+
 * John Loftin, _The real definition of a smooth manifold_ ([pdf](http://andromeda.rutgers.edu/~loftin/difffal03/manifold.pdf))
 
 
