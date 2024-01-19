@@ -167,13 +167,13 @@ Discussion of possible realization of massive type IIA string theory in [[M-theo
 
 > The type IIB supergravity theory also cannot be obtained from 11-dimensional supergravity, but the type IIB string theory can be obtained from M-theory by compactifying on a 2-torus and taking a limit
 
-* Maria Pikar Garcia del Moral, Alvaro Restuccia, *10D Massive Type IIA Supergravities as the uplift of Parabolic M2-brane Torus bundles*, in: *"The String Theory Universe* (2015) &lbrack;[arXiv:1511.04784](https://arxiv.org/abs/1511.04784)&rbrack;
+* [[Maria P. Garcia del Moral]], [[Alvaro Restuccia]], *10D Massive Type IIA Supergravities as the uplift of Parabolic M2-brane Torus bundles*, Forthsch. d. Phys. **64** 4-5 (2016) &lbrack;[arXiv:1511.04784](https://arxiv.org/abs/1511.04784), [doi:10.1002/prop.201500087](https://doi.org/10.1002/prop.201500087)&rbrack;
 
 * {#LoweNastaeRamgoolam03} D. A. Lowe, [[Horatiu Nastase]], [[Sanyaje Ramgoolam]], _Massive IIA String Theory and Matrix Theory Compactification_, Nucl. Phys. B 667 (2003) 55-89 ([cern:609880](http://cds.cern.ch/record/609880), <a href="https://doi.org/10.1016/S0550-3213(03)00547-9">doi:10.1016/S0550-3213(03)00547-9</a>)
 
   > (corresponding [[BFSS matrix model]])
 
 
-* M. P. Garcia del Moral, P. Leon, A. Restuccia, *Wordsheet description of a* massive *type IIA superstring in 10D* &lbrack;[arXiv:2306.16620](https://arxiv.org/abs/2306.16620)&rbrack;
+* [[Maria P. Garcia del Moral]], P. Leon, [[Alvaro Restuccia]], *Wordsheet description of a* massive *type IIA superstring in 10D*, J. High Energ. Phys. **2023** 104 (2023) &lbrack;[arXiv:2306.16620](https://arxiv.org/abs/2306.16620), <a href="https://doi.org/10.1007/JHEP11(2023)104">doi:10.1007/JHEP11(2023)104</a>&rbrack;
 
 
