@@ -65,6 +65,19 @@ should be in our logic,  (and similarly for $P$, but that will hold in the bidir
 
 Instead of points, periods can be thought of as primitive entities. Therefore one may consider structures of the form $(P, \prec, \sqsubset)$, where $p\prec q$ means that the whole period $p$ precedes $q$, and $\sqsubset$ is the [[inclusion]] relation (see [Venema 2017](#Venema17)).
 
+### Other structures
+
+Other time structures are described in [(Hajnicz 1996, Chapter 2)](#Hajnicz96). In particular, a *metric cyclic point time structure* is defined as:
+
+* a set $T$ of time moments,
+* a set of distances between time points,
+* a global order over $T$,
+* a local order over $T$,
+* a metric over $T$,
+* the length of the semicircle.
+
+It can be axiomatized by five axioms (totality, local antisymmetry, local linearity, local transitivity, and consistency) in the [[predicate logic|first-order predicate calculus]].
+
 ## Temporal type theory in terms of adjoints
 
 It is possible to specify a temporal type theory in the context of [[adjoint logic]]. Consider a category $\mathcal{C}$, and an [[internal category]] given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. We may choose to impose additional structure on $Time$, e.g., that it be an internal [[poset]], or a [[linear order]].
@@ -149,6 +162,10 @@ For the relationship between linear-time temporal logic and functional reactive 
 For an interval-based approach see
 
 * {#Venema91} Yde Venema, _A modal logic for chopping intervals_. Journal of Logic and Computation, 1(4), pp. 453–476, 1991.
+
+For other time structures see
+
+* {#Hajnicz96} Elżbieta Hajnicz, _Time Structures_. Springer 1996.
 
 For versions of temporal type theory see
 
