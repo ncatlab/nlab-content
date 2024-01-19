@@ -37,5 +37,10 @@ See also
 
 * [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
 
-* M.P. Garcia del Moral, C. Las Heras, P. Leon, J.M. Pena, A. Restuccia, _Fluxes, Twisted tori, Monodromy and $U(1)$ Supermembranes_ ([arXiv:2005.06397](https://arxiv.org/abs/2005.06397))
+* [[Maria P. Garcia del Moral]], C. Las Heras, P. Leon, J. M. Pena, [[Alvaro Restuccia]], _Fluxes, Twisted tori, Monodromy and $U(1)$ Supermembranes_,  J. High Energ. Phys. **2020** 97 (2020) &lbrack;[arXiv:2005.06397](https://arxiv.org/abs/2005.06397), <a href="https://doi.org/10.1007/JHEP09(2020)097">doi:10.1007/JHEP09(2020)097</a>&rbrack;
+
+
+On possible structures in M2-brane dynamics and [[M2-M5-brane bound states]] which could be [[M-theory]]-lifts of the familiar [[integrable system|integrability]] of the [[Green-Schwarz superstring]] on [[AdS spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]]:
+
+* [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory* &lbrack;[arXiv:2301.06486](https://arxiv.org/abs/2301.06486)&rbrack;
 
