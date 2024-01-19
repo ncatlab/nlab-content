@@ -30,7 +30,7 @@ Of course, a topos may carry more than one non-cartesian monoidal category struc
 
 \begin{example}
 \label{ViaDayConvolution}
-For $(\mathcal{C}, \otimes)$ a small [[monoidal category]], the [[presheaf topos]] $[\mathcal{C}, Set]$ is naturally a monoidal topos with respect to the [[Day convolution]] tensor product.
+For $(\mathcal{C}, \otimes)$ a small [[monoidal category]], the [[presheaf topos]] $[\mathcal{C}, Set]$ is naturally a biclosed monoidal topos with respect to the [[Day convolution]] tensor product.
 \end{example}
 
 \begin{example}\label{SliceToposOverAMonoidObject}
@@ -80,7 +80,7 @@ $$
   \,.
 $$
 
-Such monoidal toposes appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_.
+Such monoidal toposes are always biclosed and appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_.
 \end{example}
 
 \begin{remark}
