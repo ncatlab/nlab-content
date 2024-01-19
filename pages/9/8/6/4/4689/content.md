@@ -158,6 +158,16 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 
 ### General
 
+Early mentioning of potential breakdown of classical geometry at microscopic scales:
+
+* [[Bernhard Riemann]], *[[Über die Hypothesen, welche der Geometrie zu Grunde liegen]]*, Göttingen (1845) &lbrack;[doi:10.1007/978-3-642-35121-1](https://doi.org/10.1007/978-3-642-35121-1)&rbrack;
+
+  Engl. transl: [[William Clifford]]: *[[On the hypotheses which underlie geometry]]*, Nature **VIII** (1873) 183-184 &lbrack;[doi:10.1007/978-3-319-26042-6](https://doi.org/10.1007/978-3-319-26042-6)&rbrack;
+
+  > &lbrack;[§III.3](https://ncatlab.org/nlab/files/Riemann-OnTheHypotheses.pdf#page=11)&rbrack; *Now it seems that the empirical notions on which the metric determinations of Space are based, the concept of a solid body and a light ray, lose their validity in the infinitely small; it is therefore quite definitely conceivable that the metric relations of Space in the infinitely small do not conform to the hypotheses of geometry; and in fact, one ought to assume this as soon as it permits a simpler way of explaining phenomena.*
+
+
+
 Original discussion of the [[Wheeler-DeWitt equation]]:
 
 * {#DeWitt67} [[Bryce DeWitt]], (5.5) in:  *Quantum Theory of Gravity. I. The Canonical Theory*, Phys. Rev. **160** (1967) 1113 &lbrack;[doi:10.1103/PhysRev.160.1113](https://doi.org/10.1103/PhysRev.160.1113)&rbrack;
