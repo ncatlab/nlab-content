@@ -86,11 +86,12 @@ Having a distributive law $l$ from one monad to another enables to define the co
 
 ### Monad distributing over monad
 
-
+\begin{definition}
 A __distributive law__ for a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ over an endofunctor
 $P$ is a [[2-morphism]] $l : T P \Rightarrow P T$ such that
 $l \circ (\eta^T)_P = P(\eta^T)$ and
 $l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$. In diagrams:
+
 \begin{tikzcd}
 & P \ar{dl}[swap]{\eta^T P} \ar{dr}{P \eta^T} \\
 T P \ar{rr}{l} && P T
@@ -100,43 +101,53 @@ T T P \ar{d}{\mu^T P} \ar{r}{T l} & T P T \ar{r}{l T} & P T T \ar{d}{P \mu^T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
 
-Distributive laws for the monad $\mathbf{T}$ over the endofunctor $P$ are in a canonical bijection with lifts of $P$ to an endofunctor $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
+\end{definition}
+
+Distributive laws for the monad $\mathbf{T}$ over the endofunctor $P$ are in a canonical bijection with lifts of $P$ to an [[endofunctor]] $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
 satisfying $U^{\mathbf T} P^{\mathbf T} = P U^{\mathbf T}$. Indeed, the endofunctor $P^{\mathbf T}$
 is given by $(M,\nu) \mapsto (P M,P(\nu)\circ l_M)$.
 
+\begin{definition}
 A __distributive law__ for a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ over a monad
 $\mathbf{P} = (P, \mu^P, \eta^P)$ in $A$ 
 is a distributive law for $\mathbf T$ over the endofunctor $P$,
 compatible with $\mu^P,\eta^P$ in the sense that
 $l \circ T(\eta^P) = (\eta^P)_T$ and
 $l \circ T(\mu^P) = (\mu^P)_T \circ P(l) \circ l_P$. In diagrams:
+
 \begin{tikzcd}
 & T \ar{dl}[swap]{T \eta^P} \ar{dr}{\eta^P T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
+
 \begin{tikzcd}
 T P P \ar{d}{T \mu^P} \ar{r}{l P} & P T P \ar{r}{P l} & P P T \ar{d}{\mu^P T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
 
+\end{definition}
 (due to [Beck 1969](#Beck69), review includes [Barr & Wells 1985 §9 2.1](#BarrWells85))
 
-The correspondence between distributive laws and _endofunctor_ liftings extends to a correspondence between distributive laws and _monad_ liftings. That is, distributive laws $l : T P \Rightarrow P T$ from the monad $\mathbf{T}$ to the monad $\mathbf{P}$ are in a canonical bijection with lifts of the monad $\mathbf{P}$ to a monad $\mathbf{P}^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
-such that $U^{\mathbf T} : A^{\mathbf T}\to A$ preserves the monad structure.
+The correspondence between distributive laws and _endofunctor_ liftings extends to a correspondence between distributive laws and _monad_ liftings. That is, distributive laws $l \colon T P \Rightarrow P T$ from the monad $\mathbf{T}$ to the monad $\mathbf{P}$ are in a canonical bijection with lifts of the monad $\mathbf{P}$ to a monad $\mathbf{P}^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
+such that $U^{\mathbf T} \colon A^{\mathbf T}\to A$ preserves the monad structure.
 
 Thus all together a distributive law for a monad over a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
 
-#### As monads in monads
-As mentioned earlier, one can understand a distributive of a monad $(a,s)$ over another monad $(a,t)$ as displaying $s:a \to a$ as a monad on $(a,t)$ in the 2-category $\mathbf{Mnd}(A)$ of monads in a 2-category $A$.
+\begin{remark}\label{DistributivityAsMonadsInMonads}
+**(distributivity as monads in monads)**
+\linebreak
+As mentioned earlier, one can understand a distributivity law of a monad $(a,s)$ over another monad $(a,t)$ as displaying $s \colon a \to a$ as a monad on $(a,t)$ [[internalization|in]] the [[2-category]] $\mathbf{Mnd}(A)$ of monads in a 2-category $A$.
 
 Specifically, a monad in $\mathbf{Mnd}(A)$ over $(a,t)$ (which is a monad in $A$!) is comprised of the following data:
 
-1. A 1-cell $s:a \to a$ in $A$, together with an intertwiner $\lambda : ts \to st$ satisfying the equations [[monad#BicategoryOfMonads|here]]
-2. Two 2-cells (in $\mathbf{Mnd}(A)$) $\sigma : 1 \Rightarrow (s,\lambda)$ and $\nu : (s,\lambda)(s,\lambda) \Rightarrow (s,\lambda)$ which correspond to two 2-cells in $A$ $\sigma: 1 \Rightarrow s$, $\nu:ss \Rightarrow s$ commuting with the intertwiners of $1$, $s$ and $ss$.
+1. A [[1-morphism]] $s \colon a \to a$ in $A$, together with an intertwiner $\lambda \colon t s \to s t$ satisfying the equations [[monad#BicategoryOfMonads|here]]
+
+2. Two [[2-morphisms]] (in $\mathbf{Mnd}(A)$) $\sigma \colon 1 \Rightarrow (s,\lambda)$ and $\nu \colon (s,\lambda)(s,\lambda) \Rightarrow (s,\lambda)$ which correspond to two 2-morpisms in $A$ $\sigma \colon 1 \Rightarrow s$, $\nu \colon s s \Rightarrow s$ commuting with the intertwiners of $1$, $s$ and $ss$.
 
 Then $\lambda$ is the distributive law sought, and the laws $\lambda$, $\sigma$ and $\nu$ satisfy correspond to those of a distributive law.
+\end{remark}
 
 
 ### Monad distributing over a comonad 
