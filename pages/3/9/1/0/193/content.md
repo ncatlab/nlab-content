@@ -358,6 +358,12 @@ Though see also the following, which uses more modern terminology:
 
 * [[Max Kelly]], §2 in: *Adjunction for enriched categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059145](https://doi.org/10.1007/BFb0059145)&rbrack;
 
+A thorough 2-categorical account is contained in:
+
+* [[Claude Auderset]], _Adjonctions et monades au niveau des $2 $-catégories_, Cahiers de topologie et géométrie différentielle 15.1 (1974): 3-20.
+
+* [[Stephen Schanuel]] and [[Ross Street]], _The free adjunction_, Cahiers de topologie et géométrie différentielle catégoriques 27.1 (1986): 81-8
+
 Review:
 
 * [[Saunders MacLane]], §XII.4 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
