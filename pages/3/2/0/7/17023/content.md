@@ -21,6 +21,10 @@ On [[cyclotomic field extensions]]:
 
 * [[Keith Conrad]], *Cyclotomic extensions* &lbrack;[pdf](https://kconrad.math.uconn.edu/blurbs/galoistheory/cyclotomic.pdf), [[Conrad-CyclotomicExtensions.pdf:file]]&rbrack; 
 
+On [[SL(2,Z)]]:
+
+* [[Keith Conrad]], *$SL_2(\mathbb{Z})$* &lbrack;<a href="https://kconrad.math.uconn.edu/blurbs/grouptheory/SL(2,Z).pdf">pdf</a>, [[Conrad-SL2Z.pdf:file]]&rbrack;
+
 
 
 ## Related entries
