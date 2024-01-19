@@ -241,55 +241,12 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 
 ## References
+ {#References}
 
 
-### As a fundamental brane (GS-type $\sigma$-model)
 
-The [[Green-Schwarz sigma-model]]-type formulation of the [[supermembrane]] in 11d (as in the [[brane scan]]) first appears in 
-
-* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], *Supermembranes and eleven-dimensional supergravity*, Phys. Lett. B **189** (1987) 75-78 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91272-X">doi:10.1016/0370-2693(87)91272-X</a>, [spire:248230](http://inspirehep.net/record/248230/)&rbrack;
-
-
-The [[equations of motion]] of the super membrane are derived via the [[superembedding approach]] in 
-
-* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], Chapter 3 of: _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
-
-and the [[Lagrangian density]] for the super membrane is derived via the [[superembedding approach]] in
-
-* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], *The supermembrane revisited*, Class. Quant. Grav. **22** (2005) 2167-2200 &lbrack;[arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245), [doi:10.1088/0264-9381/22/11/017](https://doi.org/10.1088/0264-9381/22/11/017)&rbrack;
-
-Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
-
-* {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
-
-
-The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz superstring]] was observed in
-
-* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
-
-The interpretation of the membrane as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _M2-brane_ was proposed in 
-
-* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068)&rbrack;
-
-around the time when [[M-theory]] became accepted due to
-
-* {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
-
-
-See also
-
-* [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_ &lbrack;[arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245)&rbrack;
-
-* [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
-
-* M.P. Garcia del Moral, C. Las Heras, P. Leon, J.M. Pena, A. Restuccia, _Fluxes, Twisted tori, Monodromy and $U(1)$ Supermembranes_ ([arXiv:2005.06397](https://arxiv.org/abs/2005.06397))
-
-* Pedro D. Alvarez, Pedro García, Maria Pilar Garcia del Moral, Joselen M. Peña, Reginaldo Prado, *Spinning solutions for the bosonic M2-brane with $C_{\pm}$ fluxes* ([arXiv:2104.08927](https://arxiv.org/abs/2104.08927))
-
-On possible structures in M2-brane dynamics and [[M2-M5-brane bound states]] which could be [[M-theory]]-lifts of the familiar [[integrable system|integrability]] of the [[Green-Schwarz superstring]] on [[AdS spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]]:
-
-* [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory* &lbrack;[arXiv:2301.06486](https://arxiv.org/abs/2301.06486)&rbrack;
  
+[[!include fundamental M2-brane sigma-model -- references]]
 
 
 
