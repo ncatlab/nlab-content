@@ -47,6 +47,11 @@ In dependent type theory, given a real number $r:\mathbb{R}$, a locator on the [
 
 $$l:\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} (p \lt q) \to ((p \lt r) + (r \lt q))$$
 
+This above type is equivalent to the types
+
+$$\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} (p \lt q) \to \sum_{b:\mathrm{bool}} ((b = 1) \to (p \lt r)) \times ((b = 0) \to (r \lt q))$$
+$$\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} (p \lt q) \to \sum_{b:\mathrm{bool}} ((b = 0) \to (p \lt r)) \times ((b = 1) \to (r \lt q))$$
+
 ## Properties 
 
 * A locator is equivalent to having the structure of a [[Cauchy sequence]] with [[modulus of convergence]]. This is stronger than merely being a [[modulated Cauchy real number]].
