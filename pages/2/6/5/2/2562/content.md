@@ -9,7 +9,7 @@ There are multiple notions of domain of mathematics. These include:
 
 * in [[domain theory]]: 
 
-  [[pointed directed-complete partial orders]]
+  [[Scott domains]]: [[pointed directed-complete partial orders]]
 
 * in [[category theory]]: 
 
