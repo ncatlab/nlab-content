@@ -21,7 +21,9 @@ The [[special linear group]] in [[dimension]] 2 over the [[integers]].
 
 * [[Moebius group]]
 
-* [[S-duality]]
+* [[mapping class group]]
+
+* [[S-duality]], [[U-duality]]
 
 ## References
 
