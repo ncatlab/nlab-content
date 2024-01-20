@@ -19,11 +19,42 @@ An _Archimedean ordered field_ is an [[ordered field]] that satisfies the [[arch
 
 ## Definition
 
+### Using field homomorphisms from the rationals
+
 The [[rational numbers]] are the [[initial]] [[ordered field]], so for every ordered field $F$ there is a field homomorphism $h:\mathbb{Q}\to F$. $F$ is _Archimedean_ if for all elements $a\in F$ and $b\in F$, if $a \lt b$, then there exists a rational number $q\in \mathbb{Q}$ such that $a \lt h(q)$ and $h(q) \lt b$. 
+
+### Using Dedekind cut-like conditions
+
+A [[real number]] in an [[ordered field]] $F$ is an element $x \in F$ which satisfies the [[Dedekind cut]] axioms:
+
+1. there exists a rational number $q \in \mathbb{Q}$ such that $q \lt x$
+1. there exists a rational number $r \in \mathbb{Q}$ such that $x \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$ and $q' \in \mathbb{Q}$, $q \lt q'$ and $q' \lt x$ implies that $q \lt x$
+1. for all rational numbers $r \in \mathbb{Q}$ and $r' \in \mathbb{Q}$, $x \lt r'$ and $r' \lt r$ implies that $x \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$, $q \lt x$ implies that there exists a rational number $q' \in \mathbb{Q}$, such that $q \lt q'$ and $q' \lt x$
+1. for all rational numbers $r \in \mathbb{Q}$, $x \lt r$ implies that there exists a rational number $r' \in \mathbb{Q}$, such that $x \lt r'$ and $r' \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$ and $r \in \mathbb{Q}$, $q \lt x$ and $x \lt r$ implies that $q \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$ and $r \in \mathbb{Q}$, $q \lt r$ implies that $q \lt x$ or $x \lt r$
+
+We have the following results:
+
+* The first and second conditions say that every element $x \in F$ is bounded below and above by rational numbers, and thus strictly not an [[infinite]] element. 
+
+* The fifth and sixth conditions imply that every element $x \in F$ is strictly not an [[infinitesimal]] element. 
+
+These four conditions together imply the [[archimedean property]] for the ordered field $F$. 
+
+* The third, fourth, and seventh conditions are always true for all elements $x \in F$ because of transitivity of the [[strict order]] relation. 
+
+* Finally, the eighth condition says that every element $x \in F$ is located, and is true for all elements $x \in F$ because the [[pushout]] of the [[open intervals]] $(q, \infty)$ and $(-\infty, r)$ with canonical inclusions $(q, r) \to (q, \infty)$ and $(q, r) \to (-\infty, r)$ is equivalent to $F$ itself. 
+
+Thus, an **Archimedean ordered field** is an ordered field $F$ where every element $x \in F$ is a real number. 
+
+Note that this definition is not the same as saying that $F$ contains every [[real number]] - the latter definition results in the [[Dedekind real numbers]], which is the union of all Archimedean ordered fields and the [[terminal object|terminal]] Archimedean ordered field. 
 
 ## Properties
 
-Every Archimedean ordered field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every Archimedean ordered field is the field of [[real numbers]]. 
+Every Archimedean ordered field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every Archimedean ordered field is the field of all [[real numbers]]. 
 
 Every Archimedean ordered field is a [[differentiable space]]:
 
