@@ -326,6 +326,11 @@ $$
 
 ## References 
 
+Textbook account:
+
+* [[Jean Gallier]], [[Jocelyn Quaintance]], *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
+
+
 Original texts:
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
