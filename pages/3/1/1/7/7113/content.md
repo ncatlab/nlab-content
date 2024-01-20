@@ -21,7 +21,7 @@ An _Archimedean ordered field_ is an [[ordered field]] that satisfies the [[arch
 
 ### Using field homomorphisms from the rationals
 
-The [[rational numbers]] are the [[initial]] [[ordered field]], so for every ordered field $F$ there is a field homomorphism $h:\mathbb{Q}\to F$. $F$ is _Archimedean_ if for all elements $a\in F$ and $b\in F$, if $a \lt b$, then there exists a rational number $q\in \mathbb{Q}$ such that $a \lt h(q)$ and $h(q) \lt b$. 
+The [[rational numbers]] are the [[initial]] [[ordered field]], so for every ordered field $F$ there is a field homomorphism $h:\mathbb{Q}\to F$. Since every field homomorphism between ordered fields is an [[injection]], the rational numbers $\mathbb{Q}$ is a [[subset]] of the ordered field $F$, and we can suppress the field homomorphism via [[coercion]], such that given $q \in \mathbb{Q}$ one can derive that $q \in F$. Thus, $F$ is _Archimedean_ if for all elements $x \in F$ and $y \in F$, if $x \lt y$, then there exists a rational number $q\in \mathbb{Q}$ such that $x \lt q$ and $q \lt y$. 
 
 ### Using Dedekind cut-like conditions
 
@@ -56,9 +56,38 @@ Note that this definition is not the same as saying that $F$ contains every [[re
 
 Every Archimedean ordered field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every Archimedean ordered field is the field of all [[real numbers]]. 
 
+### Dedekind cuts
+
+Every element $x \in F$ in an Archimedean ordered field satisfies the axioms of [[Dedekind cuts]]:
+
+1. there exists a rational number $q \in \mathbb{Q}$ such that $q \lt x$
+1. there exists a rational number $r \in \mathbb{Q}$ such that $x \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$ and $q' \in \mathbb{Q}$, $q \lt q'$ and $q' \lt x$ implies that $q \lt x$
+1. for all rational numbers $r \in \mathbb{Q}$ and $r' \in \mathbb{Q}$, $x \lt r'$ and $r' \lt r$ implies that $x \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$, $q \lt x$ implies that there exists a rational number $q' \in \mathbb{Q}$, such that $q \lt q'$ and $q' \lt x$
+1. for all rational numbers $r \in \mathbb{Q}$, $x \lt r$ implies that there exists a rational number $r' \in \mathbb{Q}$, such that $x \lt r'$ and $r' \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$ and $r \in \mathbb{Q}$, $q \lt x$ and $x \lt r$ implies that $q \lt r$
+1. for all rational numbers $q \in \mathbb{Q}$ and $r \in \mathbb{Q}$, $q \lt r$ implies that $q \lt x$ or $x \lt r$
+
+We have the following results:
+
+* The first condition is always true because for all $x \in F$, we have $x - 1 \in F$, and by the Archimedean principle there exists a rational number $q \in \mathbb{Q}$ such that $x - 1 \lt q \lt x$. 
+
+* The second condition is always true because for all $x \in F$, we have $x + 1 \in F$, and by the Archimedean principle there exists a rational number $r \in \mathbb{Q}$ such that $x \lt r \lt x + 1$. 
+
+* The fifth condition is always true because for all $x \in F$ and $q \in \mathbb{Q}$, if $q \lt x$, then by the Archimedean principle there exists a rational number $q' \in \mathbb{Q}$ such that $q \lt q' \lt x$. 
+
+* The sixth condition is always true because for all $x \in F$ and $r \in \mathbb{Q}$, if $x \lt r$, then by the Archimedean principle there exists a rational number $q' \in \mathbb{Q}$ such that $x \lt r' \lt r$. 
+
+* The third, fourth, and seventh conditions are always true for all elements $x \in F$ because of transitivity of the [[strict order]] relation. 
+
+* Finally, the eighth condition says that every element $x \in F$ is located, and is true for all elements $x \in F$ because the [[pushout]] of the [[open intervals]] $(q, \infty)$ and $(-\infty, r)$ with canonical inclusions $(q, r) \to (q, \infty)$ and $(q, r) \to (-\infty, r)$ is equivalent to $F$ itself. 
+
+### Continuous and differentiable structure
+
 Every Archimedean ordered field is a [[differentiable space]]:
 
-### Pointwise continuous functions
+#### Pointwise continuous functions
 
 Let $F$ be an Archimedean ordered field. A function $f:F \to F$ is __continuous at a point__ $c \in F$ if 
 
@@ -71,7 +100,7 @@ The set of all pointwise continuous functions is defined as
 
 $$C^0(F) \coloneqq \{f \in F \to F \vert isPointwiseContinuous(f)\}$$
 
-### Pointwise differentiable functions
+#### Pointwise differentiable functions
 
 Let $F$ be an Archimedean ordered field. A function $f:F \to F$ is __differentiable at a point__ $c \in F$ if 
 
@@ -119,6 +148,8 @@ Non-Archimedean ordered fields include
 * [[differentiable space]]
 
 ## References
+
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 The definition of the Archimedean property for an ordered field is given in section 4.3 of
 
