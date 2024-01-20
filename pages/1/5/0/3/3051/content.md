@@ -1,11 +1,13 @@
-[[!redirects Jean Benabou]]
-Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what we now call [[monoidal categories]].
 
-* [JEAN BÉNABOU (1932–2022): The man and the mathematician](http://cahierstgdc.com/wp-content/uploads/2022/07/F.-BORCEUX-LXIII-3.pdf), a biographical and mathematical sketch of Bénabou written by [[Francis Borceux]], published in _Cahiers de Topologie et Géométrie Différentielle Catégoriques_, volume LXIII-3, 2022
+Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what are now called *[[monoidal categories]]*.
+
+* [Wikipedia entry](https://fr.wikipedia.org/wiki/Jean_B%C3%A9nabou)
+
+* [[Francis Borceux]]: *JEAN BÉNABOU (1932–2022): The man and the mathematician*, _[[Cahiers]] de Topologie et Géométrie Différentielle Catégoriques_, **LXIII-3** (2022) &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2022/07/F.-BORCEUX-LXIII-3.pdf)&rbrack;
+
 
 ## Selected writings
  {#SelectedWritings}
-
 
 Introducing the notion of [[enriched categories]] (and of [[strict 2-categories]], as an example):
 
@@ -76,6 +78,7 @@ See also:
 
 category: people
 
+[[!redirects Jean Benabou]]
 [[!redirects Jean Bénabou]]
 [[!redirects J. Bénabou]]
 [[!redirects Benabou]]
