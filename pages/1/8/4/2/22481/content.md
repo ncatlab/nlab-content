@@ -10,9 +10,9 @@ Introducing [[Baire lattices]]:
 
  * [[Karl Heinrich Hofmann]], _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. ([doi:10.1017/S0004972700006080]( https://doi.org/10.1017/S0004972700006080))
 
-Textbook on [[domain theory]] and [[Baire lattices]]:
+Monograph on [[domain theory]] and [[Baire lattices]]:
 
- * G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains* in *Encyclopedia of Mathematics and its Applications* 93, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
+ * G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, [[Michael W. Mislove]], [[Dana S. Scott]], *Continuous Lattices and Domains* in *Encyclopedia of Mathematics and its Applications* 93, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
 
 
 On [[compact subgroups]] of [[Lie groups]] and [[locally compact groups]]:
