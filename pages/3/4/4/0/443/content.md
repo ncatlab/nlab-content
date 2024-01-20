@@ -52,14 +52,9 @@ $$Span \to Rel$$
 ## Limits and colimits##
  {#LimitsAndColimit}
 
-The category $Rel$ does have [[products]] and [[coproducts]]; they coincide (by self-duality) and are just [[disjoint unions]] of sets. However, otherwise $Rel$ has very few (co)limits; it doesn't even have
-splittings of all idempotents. All symmetric idempotents have splittings, but the order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
-split. It follows that it can't have (co)equalisers.
+The category $Rel$ does have [[products]] and [[coproducts]]; they coincide (by self-duality) and are just [[disjoint unions]] of sets. However, otherwise $Rel$ has very few (co)limits; it doesn't even have splittings of all idempotents. All symmetric idempotents have splittings, but the order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be split. It follows that it can't have (co)equalisers.
 
-Since the category $Rel$ is the category of _free algebras_ ([[Kleisli
-category]]) for the powerset monad, there is, indeed, very little chance
-of a limit of such algebras being free again. To get decent limits,
-one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]],
+Since the category $Rel$ is the category of _free algebras_ ([[Kleisli category]]) for the [[powerset monad]], there is, indeed, very little chance of a limit of such algebras being free again. To get decent limits, one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]],
 viz., the category of complete [[suplattices]].
 
 ### Weak equalizers and completion###
