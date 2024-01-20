@@ -35,11 +35,11 @@ Abstractly, the free bicompletion construction is the [[coproduct]] of the two [
 
 * The free bicompletion of a category $C$ under an [[initial object]] and [[terminal object]] is given by adjoining two objects $\bot$ and $\top$ and defining:
 $$
-  C(\bot, \bot) = 1
-  C(\bot, c) = 1
-  C(c, \top) = 1
-  C(\bot, \top) = 1
-  C(\top, \top) = 1
+  C(\bot, \bot) = 1 \qquad
+  C(\bot, c) = 1 \qquad
+  C(c, \top) = 1 \qquad
+  C(\bot, \top) = 1 \qquad
+  C(\top, \top) = 1 \qquad
 $$
 The composition laws are uniquely determined. (This is equivalently the result of completing $C$ under a terminal object, and then cocompleting under an initial object.)
 
