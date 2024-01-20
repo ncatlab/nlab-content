@@ -36,7 +36,7 @@ On [[fibered categories]]:
 
 * {#Bénabou1975} Jean Bénabou, _Fibrations petites et localement petites_, C. R. Acad. Sci. Paris **281** Série A (1975) 897-900 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171.image#)&rbrack;
 
-* {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack
+* {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
 
 On [[foliated categories]]:
 
