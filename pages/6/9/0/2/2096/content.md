@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -21,7 +21,7 @@ If $f$ or $g$ are inclusions of (possibly [[immersion|immersed]]) [[submanifolds
 
 ## Definition 
 
-Two [[differentiable functions]] $f \colon X \to Z$ and $g \colon Y \to Z$ between  [[differentiable manifold]] (for instance [[smooth functions]] between [[smooth manifolds]]) are __transversal__ if for all point $x \in X$ and $y \in Y$ with $f(x) = z = g(y)$ the [[differentials]] of $f$ and $g$ in these points [[linear span|span]] the entire [[tangent space]] at $z$ in the sense that
+Two [[differentiable functions]] $f \colon X \to Z$ and $g \colon Y \to Z$ between  [[differentiable manifold]] (for instance [[smooth functions]] between [[smooth manifolds]]) are __transversal__ if for all pairs of points $x \in X$ and $y \in Y$ with $f(x) = z = g(y)$ the [[differentials]] of $f$ and $g$ in these points [[linear span|span]] the entire [[tangent space]] at $z$ in the sense that
 
 $$
   im(d f) + im(d g) \simeq T_z Z
@@ -65,12 +65,18 @@ See at _[[Thom's transversality theorem]]_.
 
 ## References
 
-* {#Kosinski93} [[Antoni Kosinski]], chapter IV.1 of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+* [[Theodor Bröcker]], [[Klaus Jänich]], *Introduction to differentiable topology* (1982) &lbrack;[ISBN:9780521284707](https://www.cambridge.org/ae/universitypress/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/introduction-differential-topology?format=PB&isbn=9780521284707)&rbrack;
+
+  > (translated from the German 1973 edition)
+
+* [[Morris Hirsch]], _Differential topology_, GTM **33**, Springer (1976) &lbrack;[doi:10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)&rbrack;
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IV (pp. 59) of: _Differential manifolds_, Academic Press (1993) \[<a href="http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf">pdf</a>, [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C)\]
+
+* [[Ieke Moerdijk]], [[Gonzalo E. Reyes]], p. 27 in: *[[Models for Smooth Infinitesimal Analysis]]*, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://link.springer.com/book/10.1007/978-1-4757-4143-8)&rbrack;
 
 
-* T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; &#8707; also 1990 German 2nd edition)
 
-* Morris W. Hirsch, _Differential topology_, Springer GTM 33, [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)
 
 
 [[!redirects transversal map]]
