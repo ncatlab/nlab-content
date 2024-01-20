@@ -54,5 +54,10 @@ In [[quantum computation]]:
 
 * {#Sale77} [[Arthur Sale]], _Primitive data types_, The Australian Computer Journal, Vol. 9, No. 2, July 1977 ([pdf](http://eprints.utas.edu.au/139/1/PrimitiveData.pdf))
 
+* D. J. Lehmann, M. B., Smyth, *Algebraic specification of data types: A synthetic approach*,  Math. Systems Theory **14** (1981) 97–139 &lbrack;[doi:10.1007/BF01752392](https://doi.org/10.1007/BF01752392)&rbrack;
+
+  > (via [[CPOs]] in [[domain theory]])
+
+
 
 [[!redirects data types]]
