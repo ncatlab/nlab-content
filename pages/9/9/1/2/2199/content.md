@@ -268,13 +268,13 @@ In [[homotopy type theory]] the type of booleans / bits looks as [above](#InType
 
 ### Extensionality principle of the boolean domain
 
-The elements of the boolean domain represent certain truth values or propositions, namely, [[true]] and [[false]]. By the principle of [[propositions as some types]], truth values or propositions are represented as certain types: specifically, [[true]] or $1$ is represented by the [[unit type]] $\mathbb{1}$, and [[false]] or $0$ is represented by the [[empty type]] $\mathbb{0}$. The boolean domain becomes a [[Tarski universe]] via type recursion:
+The elements of the boolean domain represent certain truth values or propositions, namely, [[true]] and [[false]]. By the principle of [[propositions as some types]], truth values or propositions are represented as certain types: specifically, [[true]] or $1$ is represented by the [[unit type]] $\mathbb{1}$, and [[false]] or $0$ is represented by the [[empty type]] $\mathbb{0}$. The boolean domain is a [[Tarski universe]] through the following type family:
 
-$$x:\mathrm{Bool} \vdash \mathrm{typerec}_{\mathrm{Bool}}^{\mathbb{0}, \mathbb{1}}(x) \; \mathrm{type}$$
+$$x:\mathrm{Bool} \vdash \mathrm{El}(x) \coloneqq (x =_\mathrm{Bool} 1) \times \neg (x =_\mathrm{Bool} 0)$$
 
 The extensionality principle of the boolean domain is then given by the [[univalence axiom]]:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bool}, y:\mathrm{Bool} \vdash \mathrm{ua}(x, y):\mathrm{Id}_\mathrm{Bool}(x, y) \simeq (\mathrm{typerec}_{\mathrm{Bool}}^{\mathbb{0}, \mathbb{1}}(x) \simeq \mathrm{typerec}_{\mathrm{Bool}}^{\mathbb{0}, \mathbb{1}}(y))}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bool}, y:\mathrm{Bool} \vdash \mathrm{ua}(x, y):\mathrm{Id}_\mathrm{Bool}(x, y) \simeq (\mathrm{El}(x) \simeq \mathrm{El}(y))}$$
 
 Since the empty type is not equivalent to the unit type, this automatically implies that $0$ is not equal to $1$. 
 
@@ -282,7 +282,7 @@ Since the empty type is not equivalent to the unit type, this automatically impl
 
 The [[sum types]] can be defined in terms of the boolean domain and the [[dependent sum type]]. Given types $A$ and $B$, the sum type $A + B$ is defined as 
 
-$$A + B \coloneqq \sum_{x:\mathrm{Bool}} \mathrm{typerec}_{\mathrm{Bool}}^{A, B}(x)$$
+$$A + B \coloneqq \sum_{x:\mathrm{Bool}} ((x =_\mathrm{Bool} 1) \to A) \times ((x =_\mathrm{Bool} 0) \to B)$$
 
 ### Boolean logic
 
