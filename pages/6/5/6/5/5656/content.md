@@ -66,6 +66,11 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 ### General
 
+Textbook account:
+
+* [[Jean Gallier]], [[Jocelyn Quaintance]], *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
+
+
 See the references at:
 
 * [[singular cohomology]], [[cellular cohomology]]
