@@ -41,7 +41,7 @@ According to [Kornell 2020](#Kornell20), and in mild paraphrase (following the d
     \mathscr{H}^'_{(x,y)} 
   $$
 
-With [[composition]] the evident [[tensor product of vector spaces|tensor]]-[[matrix multiplication]], quantum relations between quantum sets form a [[category]] $qRel$, which is a [[dagger-compact category]]. 
+With [[composition]] the evident [[matrix multiplication]] ([Kornell 2020 (5)](#Kornell20)), quantum relations between quantum sets form a [[category]] $qRel$, which is a [[dagger-compact category]]. 
 
 As such, this serves as [[categorical semantics]] for [[quantum programming languages]] like [[Quipper]] equipped with term recursion, via [[quantum CPOs]] ([Kornell, Lindenhovius & Mislove 2021](#KornellLindenhoviusMislove21)).
 
