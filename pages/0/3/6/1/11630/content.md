@@ -37,7 +37,7 @@ $$
 which is usefully thought of to continue as
 
 $$
-  E_5 := Spin(10), E_4 := SU(5), E_3 := SU(3) \times SU(2)
+  E_5 \coloneqq Spin(10), E_4 \coloneqq SU(5), E_3 \coloneqq SU(3) \times SU(2)
   \,.
 $$
 
@@ -52,8 +52,8 @@ $$
 and one sets
 
 $$
-  E_{5(5)} := Spin(5,5), E_{4(4)} := SL(5, \mathbb{R}), 
-  E_{3(3)} := SL(3, \mathbb{R}) \times SL(2, \mathbb{R})
+  E_{5(5)} \coloneqq Spin(5,5), E_{4(4)} \coloneqq SL(5, \mathbb{R}), 
+  E_{3(3)} \coloneqq SL(3, \mathbb{R}) \times SL(2, \mathbb{R})
   \,.
 $$
 
