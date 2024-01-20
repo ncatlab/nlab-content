@@ -81,7 +81,7 @@ We have the following results:
 
 * The third, fourth, and seventh conditions are always true for all elements $x \in F$ because of transitivity of the [[strict order]] relation. 
 
-* Finally, the eighth condition says that every element $x \in F$ is located, and is true for all elements $x \in F$ because the [[pushout]] of the [[open intervals]] $(q, \infty)$ and $(-\infty, r)$ with canonical inclusions $(q, r) \to (q, \infty)$ and $(q, r) \to (-\infty, r)$ is equivalent to $F$ itself. 
+* Finally, the eighth condition says that every element $x \in F$ is located, and is true for all elements $x \in F$ because the [[union]] $(q, \infty) \cup (-\infty, r)$ of the [[open intervals]] $(q, \infty)$ and $(-\infty, r)$ is the [[improper subset]] of $F$. 
 
 ### Continuous and differentiable structure
 
@@ -135,7 +135,7 @@ In [[constructive mathematics]], one has the different notions of real numbers
 * [[HoTT book real numbers]] (initial [[Cauchy complete]] Archimedean ordered field)
 * [[Dedekind real numbers]] (terminal Archimedean ordered field, also initial [[Dedekind complete]] Archimedean ordered field)
 
-These notions of real numbers are the same if every Dedekind real number merely has a [[locator]], so that the Cauchy real numbers are Dedekind complete. Both the [[analytic LPO]] and [[countable choice]] imply that every Dedekind real number has a [[locator]]. 
+These notions of real numbers are the same if every Dedekind real number merely has a [[locator]], so that the Cauchy real numbers are Dedekind complete. Both [[excluded middle]] and [[countable choice]] imply that every Dedekind real number has a [[locator]]. 
 
 Non-Archimedean ordered fields include
 
