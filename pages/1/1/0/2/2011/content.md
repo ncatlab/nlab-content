@@ -86,7 +86,9 @@ Introductions and monographs:
 
 * [[Morris Hirsch]], _Differential topology_, Springer GTM 33 (1976) ([doi:10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C))
 
-* T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; $\exists$ also 1990 German 2nd edition)
+* [[Theodor Bröcker]], [[Klaus Jänich]], *Introduction to differentiable topology* (1982) &lbrack;[ISBN:9780521284707](https://www.cambridge.org/ae/universitypress/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/introduction-differential-topology?format=PB&isbn=9780521284707)&rbrack;
+
+  > (translated from the German 1973 edition)
 
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Math. __82__, Springer 1982. xiv+331 pp.
 
