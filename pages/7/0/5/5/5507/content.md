@@ -48,7 +48,7 @@ This appears as [[Higher Topos Theory|HTT, def. 7.2.2.18]].
 
 If $\mathcal{X}$ has [[homotopy dimension]] $\leq n$ then it also has cohomology dimension $\leq n$.
 
-The converse holds if $\mathcal{X}$ has finite homotopy dimension an $n \geq 2$. 
+The converse holds if $\mathcal{X}$ has finite homotopy dimension and $n \geq 2$. 
 
 =--
 
