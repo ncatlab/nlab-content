@@ -113,6 +113,14 @@ The set of all pointwise differentiable functions is defined as
 
 $$D^0(F) \coloneqq \{f \in F \to F \vert isPointwiseDifferentiable(f)\}$$
 
+## Category of Archimedean ordered fields
+
+The **category of Archimedean ordered fields** is the [[category]] whose [[objects]] are Archimedean ordered fields and whose [[morphisms]] are [[strictly monotonic]] field [[homomorphisms]] between Archimedean ordered fields. 
+
+The category of Archimedean ordered fields is a [[thin category]]. 
+
+The [[initial object]] in the category of Archimedean ordered fields is the [[rational numbers]] and the [[terminal object]] in the category of Archimedean ordered fields is the ([[Dedekind real number|Dedekind]]) [[real numbers]]. 
+
 ## Examples
 
 Archimedean ordered fields include
@@ -120,6 +128,14 @@ Archimedean ordered fields include
 * [[rational numbers]]
 * [[real closed fields]]
 * [[real numbers]]
+
+In [[constructive mathematics]], one has the different notions of real numbers
+
+* [[Cauchy real numbers]] (terminal Archimedean ordered field where every element merely has a [[locator]])
+* [[HoTT book real numbers]] (initial [[Cauchy complete]] Archimedean ordered field)
+* [[Dedekind real numbers]] (terminal Archimedean ordered field, also initial [[Dedekind complete]] Archimedean ordered field)
+
+These notions of real numbers are the same if every Dedekind real number merely has a [[locator]], so that the Cauchy real numbers are Dedekind complete. Both the [[analytic LPO]] and [[countable choice]] imply that every Dedekind real number has a [[locator]]. 
 
 Non-Archimedean ordered fields include
 
@@ -160,3 +176,6 @@ The definition of the Archimedean property for an ordered field is given in sect
 
 [[!redirects Archimedean ordered field]]
 [[!redirects Archimedean ordered fields]]
+
+[[!redirects category of archimedean ordered fields]]
+[[!redirects category of Archimedean ordered fields]]
