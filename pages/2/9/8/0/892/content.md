@@ -13,7 +13,6 @@
 =--
 =--
 
-# Power sets
 * table of contents
 {: toc}
 
