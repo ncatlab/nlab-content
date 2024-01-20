@@ -59,6 +59,8 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 * [[dimer]]
 
+* [[quantum set]]
+
 ## References
 
 ### General
