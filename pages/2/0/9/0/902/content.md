@@ -20,7 +20,7 @@
 
 ## Idea
 
-For a [[small category]] $S$, just as the [[presheaf category]]  $Set^{S^{op}}$ is the [[free cocompletion]] of $S$, by [[formal duality]] its [[opposite category]] $(Set^S)^{op}$ is the **free completion** of $S$.  
+For a [[small category]] $S$, just as the [[presheaf category]]  $Set^{S^{op}}$ is the [[free cocompletion]] of $S$, by [[formal duality]] the [[opposite category]] $(Set^S)^{op}$ of the category of presheaves on $S^{op}$ is the **free completion** of $S$.  
 
 This means that any [[functor]] $S\to C$ where $C$ is [[complete category|complete]] factors uniquely (up to [[isomorphism]]) through the "opposite [[Yoneda embedding]]" $S\to (Set^S)^{op}$ via a [[continuous functor]] $(Set^S)^{op}\to C$.
 
