@@ -50,6 +50,8 @@ In [[foundations]] without [[proper classes]] or higher categories, it may be tr
 
 * [[empty family]]
 
+* [[quantum set]]
+
 [[!redirects family]]
 [[!redirects families]]
 [[!redirects indexed family]]
