@@ -233,7 +233,7 @@ The following categories are naturally [[full subcategories]] of $Str n Cat_{gen
 
 =--
 
-This is discussed in more detail in [[(infinity,n)-category]]  in _[Presentation by Theta-spaces and by n-fold Segal spaces]((infinity,n)-category#PresentationByThetaSpaces)_.
+This is discussed in more detail in [[(infinity,n)-category]]  in _[Presentation by Theta-spaces and by n-fold Segal spaces](%28infinity,n%29-category#PresentationByThetaSpaces)_.
 
 +-- {: .num_defn #FundamentalPushouts}
 ###### Definition
