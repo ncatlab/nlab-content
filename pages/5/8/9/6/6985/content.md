@@ -95,6 +95,12 @@ The elimination, computation, and uniqueness rules for the sum type of $A$ and $
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{in}_A}:\prod_{x:A} C(\mathrm{in}_A(x)) \quad \Gamma \vdash c_{\mathrm{in}_B}:\prod_{y:B} C(\mathrm{in}_B(y))}{\Gamma \vdash \mathrm{up}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}):\exists!c:\prod_{x:A + B} C(x).\left(\prod_{a:A} \mathrm{Id}_{C(\mathrm{in}_A(a))}(c(\mathrm{in}_A(a)), c_{\mathrm{in}_A}(a))\right) \times \left(\prod_{b:B} \mathrm{Id}_{C(\mathrm{in}_B(b))}(c(\mathrm{in}_B(b)), c_{\mathrm{in}_B}(b))\right)}$$
 
+### In terms of dependent sum types and booleans
+
+The sum type can be defined in terms of the [[boolean domain]] and the [[dependent sum type]]. Given types $A$ and $B$, the sum type $A + B$ is defined as 
+
+$$A + B \coloneqq \sum_{x:\mathrm{Bool}} ((x =_\mathrm{Bool} 1) \to A) \times ((x =_\mathrm{Bool} 0) \to B)$$
+
 ## Related concepts
 
 * [[copy]]
