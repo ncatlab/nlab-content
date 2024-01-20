@@ -1,6 +1,6 @@
 
 
-* [webpage](https://www.mathematik.uni-wuerzburg.de/~waldmann/index.html)
+* [webpage](https://www.mathematik.uni-wuerzburg.de/mathematicalphysics/)
 
 ## Selected writings
 
