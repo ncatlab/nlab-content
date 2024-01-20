@@ -234,6 +234,8 @@ What should be the [[categorical semantics]] of one kind of dependent linear typ
 
 * [[dependent type theory]], [[linear type theory]]
 
+* [[quantum set]]
+
 * [[classical modality]]
 
 * [[categorical semantics]]: 
@@ -355,6 +357,9 @@ specifically implemented for [[Quipper]]:
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil Ross]], [[Peter Selinger]],  _A Tutorial Introduction to Quantum Circuit Programming in Dependently Typed Proto-Quipper_, in I. Lanese, M. Rawski  (eds.) _Reversible Computation_ RC 2020. Lecture Notes in Computer Science, vol 12227 ([arXiv:2005.08396](https://arxiv.org/abs/2005.08396), [doi:10.1007/978-3-030-52482-1_9](https://doi.org/10.1007/978-3-030-52482-1_9))
 
+and in view of [[linear homotopy type theory]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
 [[!redirects dependent linear type theories]]
 
