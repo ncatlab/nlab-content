@@ -92,7 +92,7 @@ Textbook accounts:
 
 * [[David A. Schmidt]], *Denotational Semantics -- A methodology for language development*, Allyn and Bacon (1986)  &lbrack;[pdf](https://people.cs.ksu.edu/~schmidt/text/DenSem-full-book.pdf), [webpage](https://people.cs.ksu.edu/~schmidt/text/densem.html)&rbrack;
 
-* {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains*, in: *Encyclopedia of Mathematics and its Applications* **93**, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
+* {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, [[Michael W. Mislove]], [[Dana S. Scott]], *Continuous Lattices and Domains*, in: *Encyclopedia of Mathematics and its Applications* **93**, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
 
 * [[Thomas Streicher]], *Domain-Theoretic Foundations of Functional Programming*, World Scientific (2006) &lbrack;[pdf](https://doc.lagout.org/programmation/Functional%20Programming/Domain-Theoretic%20Foundations%20of%20Functional%20Programming%20%5BStreicher%202006-12-04%5D.pdf), [doi:10.1142/6284](https://www.worldscientific.com/worldscibooks/10.1142/6284)&rbrack;
 
