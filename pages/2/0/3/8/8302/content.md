@@ -249,6 +249,9 @@ In terms of [[current (distribution theory)|currents]]:
 
 * [[Georges de Rham]], Chapter IV of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
+Comprehensive monograph:
+
+* [[Jean Gallier]], [[Jocelyn Quaintance]], *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
 
 With an eye towards application in [[mathematical physics]]:
 
