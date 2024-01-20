@@ -26,6 +26,8 @@
 
 ## Introduction
 
+We follow [SS23-QM](#SS23QM).
+
 ### The problem
 
 In the context of [[quantum computation]], a pure *[[quantum circuit diagram]]* (originally: "quantum computational network", [Deutsch 1989](quantum+circuit#Deutsch89)) is a kind of [[string diagram]] ([Abramsky & Coecke 2004](quantum+circuit#AbramskyCoecke04)) in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]], typically used to express a sequence of low-level [[quantum logic gate|quantum gates]] mapping between [[space of quantum states|spaces of]] [[pure quantum state|pure]] [[quantum states]].
@@ -155,9 +157,8 @@ Both of these options naturally emerge and are naturally unified in the "[Quantu
 
 ### A solution
 
-The following discussion indicates[^1] how a natural [[quantum programming language]] for [[quantum information]]-processing protocols --- hence  for [[quantum circuits]] consisting of general [[quantum gates]] with classical control, including [[decoherence|de-coherent]] [[quantum measurement]]-gates and subsequent coherent quantum gates depending on these --- is elegantly subsumed within any [[dependent linear type theory|dependent linearly typed]] [[programming language]] which expresses the "[[yoga of six operations]]", such as is the case in the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis). 
+The following discussion hupf indicates how a natural [[quantum programming language]] for [[quantum information]]-processing protocols --- hence  for [[quantum circuits]] consisting of general [[quantum gates]] with classical control, including [[decoherence|de-coherent]] [[quantum measurement]]-gates and subsequent coherent quantum gates depending on these --- is elegantly subsumed within any [[dependent linear type theory|dependent linearly typed]] [[programming language]] which expresses the "[[yoga of six operations]]", such as is the case in the [[linear homotopy type theory]] of [Riley 2022](dependent+linear+type+theory#Riley22Thesis). 
 
-[^1]: Full details to appear at: *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]*.
 
 This works by regarding classically controlled [[quantum states]] as having [[linear type|linear data types]] [[dependent type|dependent]] on classical control parameters and on measurement results, and then making the following key observations on **[modal quantum logic](necessity+and+possibility#ModalQuantumLogic)** with [[dependent linear types]]:
 
@@ -177,7 +178,7 @@ Aspects of the following have a resemblance to some variants and categorical int
 
 We assume a [[dependent linear type theory]] which [[functor|functorially]] obtains (as anticipated in [Schreiber 2014](dependent+linear+type+theory#Schreiber14), [§3.2](https://arxiv.org/pdf/1402.7041.pdf#page=39) and established in [Riley 2022](dependent+linear+type+theory#Riley22Thesis), [§2.4](https://digitalcollections.wesleyan.edu/islandora/object/ir:3269)):
 
-1. from a classical ("intuitionistic") [[type]] $X : Type$ a (large) type $LinType_X$ of [[linear types]] [[dependent type|dependent]] on $X$, equipped with [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed monoidal structure]] $(-) \otimes (-)$ ([[tensor product]]) and $[-,\,-]$ ([[internal hom]]);
+1. from a classical ("intuitionistic") [[type]] $X : Type$ a (large) type $LinType_X$ of [[linear types]] [[dependent type|dependent]] on $X$ (cf. *[[quantum sets]]*), equipped with [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed monoidal structure]] $(-) \otimes (-)$ ([[tensor product]]) and $[-,\,-]$ ([[internal hom]]);
 
 1. from a [[function]] $f : X_1 \xrightarrow{\;} X_2$ between classical types a [[yoga of six operations]] (specifically: a "[[Wirthmüller context]]") between their types of dependent linear types, hence a [[contravariant functor|contravariant]] [[substitution]]/[[pullback]] operation $f^\ast$ which is [[strong monoidal functor|strong monoidal]], [[strong closed functor|strong closed]] and extends to a [[base change]] [[adjoint triple]] (with [[left adjoint]] $f_!$ a version of [[dependent sum]] and [[right adjoint]] a version of [[dependent product]]):
 
@@ -988,7 +989,7 @@ The [[quantum bit flip code]] for 3-qbit encoding:
 
 * {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)*, talk at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)* @ *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Nov 2022) &lbrack;[pdf](/schreiber/files/QuantumDataInLHoTT-221117.pdf)&rbrack;
 
-* [[David J. Myers]], [[Mitchell Riley]], [[Hisham Sati]],[[Urs Schreiber]], *[[schreiber:Effective Quantum Certification via Linear Homotopy Types]]*, extended abstract for QPL 2023 &lbrack;[pdf](https://ncatlab.org/schreiber/files/QPinLHOTT-ExtendedAbstract-230328.pdf)&rbrack;
+* {#SS23QM} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
 
 The above figure of an SQRAM scheme is taken from:
