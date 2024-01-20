@@ -22,8 +22,7 @@ On [[intuitionistic logic]]:
 
 On [[constructivism]]:
 
-* {#Troelstra91} [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
-
+* {#Troelstra91} [[Anne Sjerp Troelstra]], *History of Constructivism in the Twentieth Century* (1991) &lbrack;[pdf](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf), [[Troelstra-HistoryOfConstructivism.pdf:file]]&rbrack; 
 
 On [[linear logic]]:
 
