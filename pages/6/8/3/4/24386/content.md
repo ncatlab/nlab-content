@@ -81,6 +81,8 @@ Survey and review:
 
 * [[Christian Saemann]], *$E L_\infty$-algebras, Generalized Geometry, and Tensor Hierarchies*, talk at [SFT@Cloud 2021](https://indico.cern.ch/event/1042834/) (2021) &lbrack;[pdf](https://indico.cern.ch/event/1042834/contributions/4487418/attachments/2313514/3937748/saemann_generalized_geometry.pdf), [[Saemann-ELInfinityAndTensorHierarchies.pdf:file]]&rbrack;
 
+* [[Christian Saemann]], *Atiyah Algebroids for Higher and Groupoid Gauge Theories*, [talk at](M-Theory+and+Mathematics#Saemann2024) *[[M-Theory and Mathematics]]*, [[CQTS]] (2024) &lbrack;[[Saemann-AtiyahAlgebroids.pdf:file]]&rbrack;
+
 Application to geometric refinement of [[topological T-duality]]:
 
 * [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
