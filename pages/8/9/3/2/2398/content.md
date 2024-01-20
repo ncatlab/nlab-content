@@ -18,6 +18,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -157,25 +159,40 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 * [[Hodge theorem]]
 
+
 ## References
 
 ### On cohomology
 
-Standard textbook references include
+Textbook accounts:
 
-* [[Raoul Bott]], [[Loring Tu]], Thm. 8.9 & Prop. 10.6 of: _[[Differential Forms in Algebraic Topology]]_, Springer 1982
 
-* [[M M Postnikov]], Lectures on geometry, vol. III, Differentiable manifolds  
+* [[M M Postnikov]], *Differentiable manifolds*, vol. III of: *Lectures on geometry,*
 
-* Arne Lorenz, _Abstract de Rham theorem_, [pdf slides](http://wwwb.math.rwth-aachen.de/~arne/Talks/deRham.pdf) (exposition of the standard de Rham theorem)
+* [[Raoul Bott]], [[Loring Tu]], Thm. 8.9 & Prop. 10.6 of: _[[Differential Forms in Algebraic Topology]]_, Springer (1982)
 
-In the broader context of [[rational homotopy theory]]:
+* [[Jean Gallier]], [[Jocelyn Quaintance]], Ch. 9 in: *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
+
+Exposition:
+
+* Arne Lorenz, _Abstract de Rham theorem_, [pdf slides](http://wwwb.math.rwth-aachen.de/~arne/Talks/deRham.pdf) 
+
+In the context of [[rational homotopy theory]]:
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Theorem 10.15 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
-In [[analytic geometry]] also 
+In [[analytic geometry]]:
 
 * M. E. Herrera, _De Rham theorems on semianalytic sets_, Bull. Amer. Math. Soc. __7__ 3 (1967) 414&#8211;418, [doi](http://dx.doi.org/10.1090/S0002-9904-1967-11772-5), [MR214094](http://www.ams.org/mathscinet-getitem?mr=214094)
+
+In the generality of [[diffeological spaces]]:
+
+* [[Patrick Iglesias-Zemmour]], *Une cohomologie de Čech pour les espaces differentiables et sa relation a la cohomologie de De Rham* (1988) &lbrack;[pdf](https://math.huji.ac.il/~piz/documents/UCDCPLEDESRALCDDR.pdf), [[IglesiasZemmour-CechDeRham.pdf:file]]&rbrack;
+
+* [[Patrick Iglesias-Zemmour]], *Čech–De Rham bicomplex in diffeology*, Israel Journal of Mathematics (2023) 1–38 &lbrack;[doi:10.1007/s11856-023-2486-8](https://doi.org/10.1007/s11856-023-2486-8)&rbrack;
+
+* [[Emilio Minichiello]], *The Diffeological Čech-de Rham Obstruction* &lbrack;[arXiv:2401.09400](https://arxiv.org/abs/2401.09400)&rbrack;
+
 
 ### On cocycles
  {#ReferencesdeRhamTheoremOnCocycles}
