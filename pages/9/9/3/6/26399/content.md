@@ -115,14 +115,14 @@ The case with unbounded, infinite joins is earlier considered here:
  
 * [[Bart Jacobs]], *Coalgebraic trace semantics for combined possibilitistic and probabilistic systems*, Proceedings of CMCS 2008, ENTCS **203** 5 (2008) 131-152 &lbrack;[doi:10.1016/j.entcs.2008.05.023](https://doi.org/10.1016/j.entcs.2008.05.023)&rbrack;
 
-In the domain theoretic setting, convex powersets of distributions are explored and axiomatized amongst other approaches by 
+In [[domain theory]], convex powersets of distributions are explored and axiomatized amongst other approaches by 
 
 * Daniela Varacca: *Probability, Nondeterminism and Concurrency: Two Denotational Models for
 Probabilistic Computation*. PhD thesis, Univ. Aarhus (2003) &lbrack;[brics:DS/03/14](https://www.brics.dk/DS/03/14)&rbrack;
 
 and analyzed as "convex powercones" by 
 
-* Michael W Mislove: *Nondeterminism and probabilistic choice: Obeying the laws*, in: Proc. CONCUR
+* [[Michael W. Mislove]], *Nondeterminism and probabilistic choice: Obeying the laws*, in: Proc. CONCUR
 2000, Lecture Notes in Computer Science **1877**, Springer (2000) 350–364 &lbrack;[doi:10.1007/3-540-44618-4\_26](https://doi.org/10.1007/3-540-44618-4_26)&rbrack;.
 
 * [[Regina Tix]], [[Klaus Keimel]], [[Gordon D. Plotkin]]: *Semantic domains for combining probability and non-determinism*, Electronic Notes in Theoretical Computer Science, **222** (2009) 3–99 &lbrack;[doi:10.1016/j.entcs.2009.01.002](https://doi.org/10.1016/j.entcs.2009.01.002)&rbrack;
