@@ -16,7 +16,7 @@ On the theory of [[computation]] and introducing the notion of [[denotational se
 
 * {#Scott76} [[Dana Scott]], *Data types as lattices*. SIAM Journal of Computing **5** 3 (1976) 522--587 &lbrack;[doi:10.1137/0205037](https://doi.org/10.1137/0205037), [pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf)&rbrack;
 
-* {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, M. Mislove, [[Dana S. Scott]], *Continuous Lattices and Domains* in *Encyclopedia of Mathematics and its Applications* 93, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
+* {#GierzHofmannKeimelLawsonLisloveScott03} G. Gierz, [[Karl H. Hofmann]], K. Keimel, J. D. Lawson, [[Michael W. Mislove]], [[Dana S. Scott]], *Continuous Lattices and Domains* in *Encyclopedia of Mathematics and its Applications* 93, Cambridge University Press (2003)  &lbrack;[doi:10.1017/CBO9780511542725](https://doi.org/10.1017/CBO9780511542725)&rbrack;
 
 On [[modal logic]]:
 
