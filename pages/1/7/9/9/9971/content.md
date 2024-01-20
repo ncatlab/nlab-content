@@ -102,6 +102,7 @@ On quantum [[software verification]] for/with Quipper:
 
 * Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds) Reversible Computation. RC 2016. Lecture Notes in Computer Science, vol 9720. Springer, Cham ([doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16))
 
+
 ### Dependent linear types and categorical semantics
  {#ReferencesDependentLinearTypesAndCategoricalSemantics}
 
@@ -116,6 +117,10 @@ Discussion of some [[dependent linear type theory]] and [[categorical semantics]
 * [[Francisco Rios]], *On a Categorically Sound Quantum Programming Language for Circuit Description*, Dalhousie University (2021) &lbrack;[hdl:10222/80771](http://hdl.handle.net/10222/80771)&rbrack;
 
 * {#Lee22} [[Dongho Lee]], *Formal Methods for Quantum Programming Languages*, Paris Saclay (Dec 2022) &lbrack;[hal:tel-03895847](https://hal.science/LMF/tel-03895847)&rbrack;
+
+Semantics on [[quantum CPOs]] (via [[quantum relations]] on [[quantum sets]]) for interpreting Quipper with term recursion:
+
+* [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *Quantum CPOs*, EPTCS **340** (2021) 174-187 &lbrack;[arXiv:2109.02196](https://arxiv.org/abs/2109.02196), [doi:10.4204/EPTCS.340.9](https://doi.org/10.4204/EPTCS.340.9)&rbrack;
 
 
 ### Dynamic lifting
