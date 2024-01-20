@@ -130,6 +130,11 @@ Survey with relation to [[differential topology]]:
 
 * [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
 
+With focus on [[ordinary homology]], [[ordinary cohomology]] and [[abelian sheaf cohomology]]:
+
+* [[Jean Gallier]], [[Jocelyn Quaintance]], *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) \[<a href="https://doi.org/10.1142/12495">doi:10.1142/12495</a>, [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)\]
+
+
 Some interactive 3D demos:
 
 * [[Neil Strickland]], *Interactive pages for Algebraic Topology*, [web site](http://neil-strickland.staff.shef.ac.uk/courses/MAS435/demos/)
