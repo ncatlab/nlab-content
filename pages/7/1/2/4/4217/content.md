@@ -82,6 +82,10 @@ and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all typ
 $$\| A + B \| \simeq \left(\prod_{P:\mathrm{Prop}} ((A + B) \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} ((A \to P) \times (B \to P)) \to P\right)$$
 \end{proof}
 
+If one has the [[boolean domain]] and the [[existential quantifier]], then the disjunction of two types $A$ and $B$ is given by the following type:
+
+$$A \vee B \coloneqq \exists b:\mathrm{bool}.((b = \mathrm{true}) \to A) \times ((b = \mathrm{false}) \to B)$$
+
 ## Classical vs constructive
 
 There are a variety of connectives that are distinct in [[intuitionistic logic]] but are all equivalent to disjunction in [[classical logic]].  Here is a Hasse diagram of some of them, with the strongest statement at the bottom and the weakest at the top (so that each statement entails those above it):
