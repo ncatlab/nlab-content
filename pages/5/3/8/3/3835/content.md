@@ -16,9 +16,17 @@ On [[diffeological spaces]]:
 
 * {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  Dissertation (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
 
-
 * {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185)).
 Reprint (revised version) by Beijing WPC (2022), World Map Technology, ([pdf] (http://www.icloud.com/iclouddrive/08bIgfV5NT8F8oBo-Ipqoz1kg#Diffeology), [publisher] (https://mp.weixin.qq.com/s?__biz=MjM5NzE3Nzc4MQ==&mid=2664511235&idx=2&sn=a2b55b7fc0e88a3ae4142a8f53077055)).
+
+On the [[de Rham theorem]] over [[diffeological spaces]]:
+
+* [[Patrick Iglesias-Zemmour]], *Une cohomologie de Čech pour les espaces differentiables et sa relation a la cohomologie de De Rham* (1988) &lbrack;[pdf](https://math.huji.ac.il/~piz/documents/UCDCPLEDESRALCDDR.pdf), [[IglesiasZemmour-CechDeRham.pdf:file]]&rbrack;
+
+* [[Patrick Iglesias-Zemmour]], *Čech–De Rham bicomplex in diffeology*, Israel Journal of Mathematics (2023) 1–38 &lbrack;[doi:10.1007/s11856-023-2486-8](https://doi.org/10.1007/s11856-023-2486-8)&rbrack;
+
+* [[Emilio Minichiello]], *The Diffeological Čech-de Rham Obstruction* &lbrack;[arXiv:2401.09400](https://arxiv.org/abs/2401.09400)&rbrack;
+
 
 On [[orbifolds]] regarded as geometric local quotient [[diffeological spaces]]:
 
@@ -42,7 +50,7 @@ On [[Noncommutative Geometry]] and [[diffeology]]:
 
 * [[Patrick Iglesias-Zemmour]], Elisa Prato, *Quasifolds, diffeology and noncommutative geometry*, Journal of Noncommutative Geometry, volume 15, issue 2 (2021). [doi 10.4171/jncg/419] (https://doi.org/10.4171/jncg/419).
 
-## Related $n$Lab entries
+## Related entries
 
 * [[diffeological space]]
 
