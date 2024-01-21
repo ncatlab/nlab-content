@@ -57,7 +57,9 @@ Similarly, archimedean structure for ordered fields states that
 
 $$\prod_{x:F} \prod_{y:F} x \lt y \to \sum_{q:\mathbb{Q}} (x \lt i(q)) \times (i(q) \lt y)$$
 
-One could construct archimedean structure for any Archimedean ordered field satisfying [[trichotomy]], that for all $x:F$ and $y:F$, exactly one of $x \gt y$, $x \lt y$, $x = y$ is true. 
+One could construct archimedean structure for any Archimedean ordered field where every element has a [[locator]]. See lemma 6.7.3 of [Booij20](#Booij20). 
+
+In particular, one could construct archimedean structure for any Archimedean ordered field satisfying [[trichotomy]], that for all $x:F$ and $y:F$, exactly one of $x \gt y$, $x \lt y$, $x = y$ is true. 
 
 Suppose the Archimedean ordered field $F$ satisfies [[trichotomy]]. Then, the [[ceiling]] $x \mapsto \lceil x \rceil$ and [[floor]] $x \mapsto \lfloor x \rfloor$ are well defined functions over the entire domain of $F$. By definition of the ceiling and the fact that $x \lt y$, we have that 
 
@@ -89,7 +91,7 @@ The alternative definition of the Archimedean property for ordered fields using 
 
 and in section 4.3 of
 
-* [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
+* {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
 [[!redirects archimedean property]]
 [[!redirects Archimedean property]]
