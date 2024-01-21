@@ -197,6 +197,7 @@ Taylor String Theory**
   > I will review various aspects and somewhat surprising consequences of cancellation of (different types of) [[anomalies]] in [[supergravity]] theories in [[D=8 supergravity|eight]] and [[D=6 supergravity|six]] dimensions. I will also discuss appearance and importance of exotic (singular, non-spin, non-orientable) [[background field|backgrounds]].
 
 
+
 \linebreak
 
 * {#Malek2024} 16 Jan 2024
@@ -205,6 +206,8 @@ Taylor String Theory**
 
   **Kaluza-Klein Spectrometry for String Theory
 Compactifications**
+
+  slides: [[Malek-MTheoryMath2024.pdf:file]]
 
   cf.: [arXiv:2212.01135](exceptional+field+theory#DuboeufMalekSamtleben23)
 
