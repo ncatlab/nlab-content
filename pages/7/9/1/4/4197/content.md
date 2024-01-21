@@ -1,6 +1,10 @@
 
 * [website](http://www.physics.miami.edu/~alvarez/)
 
+* [inspire page](https://inspirehep.net/authors/1018545)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=2Gn_5V8AAAAJ&hl=en)
+
 ## Selected writings
 
 Interpreting [[elliptic genera]] as [[indices]] of [[Dirac-Ramond operators]] as would-be [[Dirac operators on smooth loop space]]:
@@ -18,10 +22,14 @@ On the [[Schwinger effect]]:
 
   > (via [[worldline formalism]])
 
-On [[Dirac charge quantization]]:
+Formulating [[Dirac charge quantization]] via [[Čech cohomology]]:
 
-* [[Orlando Alvarez]], Section 2 of: _Topological quantization and cohomology_, Comm. Math. Phys. Volume 100, Number 2 (1985), 279-309 ([euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448))
+* {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
+
+
+* [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
 
 
 
 category: people
+
