@@ -112,8 +112,13 @@ However, calling this relation an abstract rewriting system indicates that one i
 
 A _[[curve]]_ in $n$-dimensional [[Cartesian space]] is just a [[smooth function]] $r:\mathbb{R} \to \mathbb{R}^n$. 
 
-However, in [[differential geometry]], one takes the function $r$ as defining a parameterization of a smooth curve. 
+However, in [[differential geometry]], one takes the function $r$ as defining a parameterization of a smooth curve.
 
+### Flows of time
+
+A _flow of time_ is just a set endowed with a [[strict partial order]].
+
+However, in [[temporal logic]], a (point-based) [[model]] is a pair consisting of a flow of time and a valuation.
 
 ## Further examples
  {#FurtherExamples}
