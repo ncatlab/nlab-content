@@ -31,7 +31,7 @@ The free loop space carries a canonical [[action]] ([[infinity-action]]) of the 
 
 ### Explicit description
 
-For $X$ a topological space, the free loop space $\mathcal{L}X$ is the topological space $Map(S^1,X)$ of [[continuous map]]s in [[compact-open topology]]. 
+For $X$ a topological space, the free loop space $\mathcal{L}X$ is the topological space $Map(S^1,X)$ of [[continuous map|continuous maps]] with the [[compact-open topology]]. 
 
 If we work in a category of [[pointed topological space|based spaces]], then still the topological space $Map(S^1,X)$ is in the non-based sense but has a distinguished point which is the constant map $t\mapsto x_0$ where $x_0$ is the base point of $X$.
 
