@@ -152,6 +152,10 @@ The observation that wide binaries do not seem to have MOND effects:
 
 * [[Charalambos Pittordis]], [[Will Sutherland]], *Wide Binaries from GAIA EDR3: preference for GR over MOND?*. The Open Journal of Astrophysics, Vol. 6, 2023, February 02, 2023. ([doi:10.21105/astro.2205.02846](https://doi.org/10.21105/astro.2205.02846), [arXiv:2205.02846](https://arxiv.org/abs/2205.02846))
 
+The observation that SPARC galaxies prefer dark matter over MOND:
+
+* [[Mariia Khelashvili]], [[Anton Rudakovskyi]], [[Sabine Hossenfelder]], *SPARC galaxies prefer Dark Matter over MOND* ([arXiv:2401.10202](https://arxiv.org/abs/2401.10202))
+
 ### MOND phenomenology from actual dark matter
 
 Derivations of the MOND phenomenology from actual [[dark matter]] is discussed in the following articles:
