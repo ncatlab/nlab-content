@@ -14,9 +14,13 @@ On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\inft
 
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] in [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
+Expositions:
+
 * [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]], video:[YT](https://youtu.be/7Bw9CJct8QY)&rbrack;
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+* [[Grigorios Giotopoulos]], *Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets*, [talk at](M-Theory+and+Mathematics#Giotopoulos2024) *[[M-Theory and Mathematics]]*, [[CQTS]] (Jan 2024)
 
 
 
