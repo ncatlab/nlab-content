@@ -10,7 +10,7 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
-#### Algebraic quantum field theory
+#### Quantum field theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
