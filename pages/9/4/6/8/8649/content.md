@@ -18,8 +18,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -101,10 +99,17 @@ Further early discussion
 
 * [[Daniel Zwanziger]], *Quantum Field Theory of Particles with Both Electric and Magnetic Charges*, Phys. Rev. **176** (1968) 1489 &lbrack;[doi:10.1103/PhysRev.176.1489](https://doi.org/10.1103/PhysRev.176.1489)&rbrack;
 
+Understanding of charge quantization in terms of [[Čech cohomology]]:
 
-Review and further discussion:
+* {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
-* {#Alvarez85} [[Orlando Alvarez]], Section 2 of: _Topological quantization and cohomology_, Comm. Math. Phys. Volume 100, Number 2 (1985), 279-309 ([euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448))
+* {#Alvarez85} [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
+
+reviewed in:
+
+* Guillermo A. González, *Cohomologa de Cĕch y Cuantización Topológica de Parámetros Físicos*, Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales **47** 182 (2023) 51-71 &lbrack;[doi:10.18257/raccefyn.1782](https://doi.org/10.18257/raccefyn.1782), [[Gonzales-TopologicalQuantization.pdf:file]]&rbrack;
+
+General review and further discussion:
 
 * {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
