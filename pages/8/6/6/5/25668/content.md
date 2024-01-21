@@ -24,7 +24,7 @@ The notion of *[[center]] of a [[monoid]]* has a [[horizontal categorification]]
 
 ## Definition
  
-For $\mathcal{C}$ a [[category]], its *center* $Z(\mathcal{Z})$ is defined to be the [[commutative monoid]] 
+For $\mathcal{C}$ a [[category]], its *center* $Z(\mathcal{C})$ is defined to be the [[commutative monoid]] 
 
 $$
   Z(\mathcal{C})
