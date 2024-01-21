@@ -21,6 +21,8 @@ Sabine Hossenfelder is a physicist in Frankfurt focused on foundation questions,
 
 * [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Superfluid dark matter in tension with weak gravitational lensing data* ([arXiv:2303.08560](https://arxiv.org/abs/2303.08560))
 
+* [[Mariia Khelashvili]], [[Anton Rudakovskyi]], [[Sabine Hossenfelder]], *SPARC galaxies prefer Dark Matter over MOND* ([arXiv:2401.10202](https://arxiv.org/abs/2401.10202))
+
 ## Related pages
 
 Related pages include [[empiricism]].
