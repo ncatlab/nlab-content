@@ -69,7 +69,7 @@ This conjecture was proved in [Kim 16](#Kim16) under the assumption that the obj
 
 * [[James Dolan]], _[[jamesdolan:Algebraic Geometry|Doctrines of Algebraic Geometry]]_
 
-* {#Kim16}[[Youngsoo Kim]], _A Note on Strict Commutativity of a Monoidal Product_, Pure and Applied Mathematics Journal Volume 5, Issue 5, October 2016, pp. 155-159, [url](https://article.sciencepublishinggroup.com/html/10.11648.j.pamj.20160505.13.html)
+* {#Kim16}[[Youngsoo Kim]], _A Note on Strict Commutativity of a Monoidal Product_, Pure and Applied Mathematics Journal Volume 5, Issue 5, October 2016, pp. 155-159, [url](https://doi.org/10.11648/j.pamj.20160505.13)
 
 
 [[!redirects commutative monoidal categories]]
