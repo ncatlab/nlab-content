@@ -101,7 +101,7 @@ There is also a variant due to Barannikov, and in a more abstract form due to Vi
 
 The relation to [[supersymmetric quantum mechanics]] is due to 
 
-* [[Edward Witten]], _Supersymmetry and morse theory_ ([Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.jdg/1214437492))
+* [[Edward Witten]]. _Supersymmetry and Morse theory_. J. Diff Geom. 17(4): 661-692 (1982). ([doi](https://doi.org/10.4310/jdg/1214437492))
 
 Reviews include
 
