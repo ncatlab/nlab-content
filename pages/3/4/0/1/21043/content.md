@@ -53,7 +53,7 @@ Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spac
 
 * {#Halperin92} [[Stephen Halperin]], *Universal enveloping algebras and loop space homology*, Journal of Pure and Applied Algebra **83** 3 (1992) 237-282 \[<a href="https://doi.org/10.1016/0022-4049(92)90046-I">doi:10.1016/0022-4049(92)90046-I</a>\]
 
-* Jonathan A. Scott, _Algebraic Structure in the Loop Space Homology Bockstein Spectral Sequence_,  Transactions of the American Mathematical Society Vol. 354, No. 8 (Aug., 2002), pp. 3075-3084 ([jstor:3073034](https://www.jstor.org/stable/3073034))
+* [[Jonathan A. Scott]], _Algebraic Structure in the Loop Space Homology Bockstein Spectral Sequence_,  Transactions of the American Mathematical Society **354** 8 (2002) 3075-3084 &lbrack;[jstor:3073034](https://www.jstor.org/stable/3073034)&rbrack;
 
 * [[Victor Buchstaber]], [[Jelena Grbić]], *Hopf algebras and homology of loop suspension spaces* ([pdf](http://www.personal.soton.ac.uk/jg1u11/Papers/Buchstaber.Grbic.pdf), [[BuchstaberGrbicHopfAlgebrasAndHomology.pdf:file]]) in: V. Buchstaber et al. (eds.), *Topology, Geometry, Integrable Systems, and Mathematical Physics: Novikov’s Seminar 2012–2014*, American Mathematical Society Translations - Series 2
 Advances in the Mathematical Sciences, 2014 ([ISBN:978-1-4704-1871-7](https://bookstore.ams.org/trans2-234))
