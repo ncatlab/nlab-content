@@ -256,6 +256,8 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[double profunctor]]
 
+* [[double limit]]
+
 * [[monoidal double category]], [[locally double bicategory]]
 
 * [[triple category]], [[intercategory]], and [[multiple category]]
