@@ -427,4 +427,5 @@ See also
 [[!redirects computational trinitarianism]]
 [[!redirects computational trinity]]
 
+[[!redirects logical triality]]
 
