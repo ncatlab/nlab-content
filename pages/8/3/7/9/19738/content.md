@@ -63,7 +63,7 @@ But one says _quiver_ instead of _directed graph_ when one is interested in stud
 
 A *[[causal set]]* is just a [[partially ordered set]].
 
-But one says *causal set* in order to indicate that one means to think of the [[elements]] of the [[poset]] as [[spacetime]] [[events]] and of the oder-[[relation]] as given by [[causality]].
+But one says *causal set* in order to indicate that one means to think of the [[elements]] of the [[poset]] as [[spacetime]] [[events]] and of the order-[[relation]] as given by [[causality]].
  
 ### Persistence modules
  {#PersistenceModule}
