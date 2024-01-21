@@ -224,6 +224,8 @@ and slightly beyond
 
 * {#Halperin92} [[Stephen Halperin]], *Universal enveloping algebras and loop space homology*, Journal of Pure and Applied Algebra **83** 3 (1992) 237-282 \[<a href="https://doi.org/10.1016/0022-4049(92)90046-I">doi:10.1016/0022-4049(92)90046-I</a>\]
 
+* [[Jonathan A. Scott]], _Algebraic Structure in the Loop Space Homology Bockstein Spectral Sequence_,  Transactions of the American Mathematical Society **354** 8 (2002) 3075-3084 &lbrack;[jstor:3073034](https://www.jstor.org/stable/3073034)&rbrack;
+
 and for higher Whitehead brackets:
 
 * {#Arkowitz71} [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
