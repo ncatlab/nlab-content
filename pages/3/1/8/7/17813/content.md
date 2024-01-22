@@ -1,7 +1,7 @@
 
-$\,$
+\linebreak
 
-$\,$
+\linebreak
 
 
 > this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
@@ -9,9 +9,10 @@ $\,$
 
 > previous section: _[[geometry of physics -- supersymmetry]]_
 
+> next section: *[[geometry of physics -- flux quantization]]*
 
 
-$\,$
+\linebreak
 
 
 
