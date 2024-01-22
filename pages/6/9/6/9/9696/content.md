@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[magnetic monopoles]]:
+
+* [[John Preskill]], *Magnetic Monopoles*, Ann. Rev. Nucl. Part. Sci. **34** (1984) 461-530 &lbrack;[doi:10.1146/annurev.ns.34.120184.002333](https://doi.org/10.1146/annurev.ns.34.120184.002333)&rbrack;
+
+
 On [[vortex]]$\;$[[anyons]]:
 
 * [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 &lbrack;[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)&rbrack;
