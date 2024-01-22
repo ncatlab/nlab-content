@@ -144,19 +144,6 @@ Strict function types appear in most dependent type theories such as [[Martin-LÃ
 
 For strict function types, the judgmental computation and uniqueness rules automatically imply the propositional computation and uniqueness rules, as by the rules for [[judgmental equality]] and [[identity types]], judgmental equality of two terms always implies propositional equality of the two terms. 
 
-### As a special case of the dependent product
-
-In [[dependent type theory]] a function type $A \to B$ is the
-special case the [[dependent product]] over $a : A$ for the 
-special case that $B$ is regarded as an $A$-[[dependent type]] that
-actually happens to be $A$-independent. The rules are given as follows:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash B[a/x] \equiv B[b/x] \; \mathrm{type}}{\Gamma \vdash A \to B \equiv \prod_{x:A} B\; \mathrm{type}}$$
-
-In [[categorical semantics]] this is the statement that a [[section]] of a product [[projection]] $A \times B \to A$ is equivalently just a morphism $A \to B$.
-
 ### As types of anafunctions
 
 In [[dependent type theory]], in the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]], one could also define function types as types of [[anafunctions]]. This requires both [[identity types]] and [[heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$.  
@@ -186,7 +173,7 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is an [[anafunctio
 
 ### Relation to dependent product types
 
-A function type is the special case of a [[dependent product type]] for the case where the [[dependent type]] does not actually depend.
+In [[dependent type theory]] a function type $A \to B$ is the special case the [[dependent product type]] over $a : A$ for the special case that $B$ is regarded as an $A$-[[dependent type]] $x:A \vdash B$ that actually happens to be $A$-independent; this type family $x:A \vdash B$ can always be constructed by the [[weakening rule]] of dependent type theory, which is an [[admissible rule]]. 
 
 $$
   (X \to A)
@@ -194,6 +181,8 @@ $$
   \prod_{x \colon X} A
   \,.
 $$
+
+In [[categorical semantics]] this is the statement that a [[section]] of a product [[projection]] $A \times B \to A$ is equivalently just a morphism $A \to B$. 
 
 See also at _[[function monad]]_.
 
