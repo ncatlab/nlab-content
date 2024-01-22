@@ -69,6 +69,10 @@ There is a more general definition of K-finite objects that does not need to ass
 Since it is still provable in the [[internal logic]] that any decidable finitely indexed set is finite, the "internally finite" objects (those that are locally isomorphic to a finite cardinal, as above) can be characterized as the __decidable $K$-finite objects__.
 
 
+### Dedekind finiteness
+
+An object is **Dedekind finite** or **co-Hopfian** (in analogy to [[Hopfian group]]) if every [[monic]] [[endomorphism]] is an [[automorphism]]. This definition makes sense in any [[category]].
+
 ## Properties
 
 ### Closure of finite objects
@@ -281,3 +285,8 @@ See also
 [[!redirects D-finite objects]]
 [[!redirects D-finite]]
 [[!redirects D-finiteness]]
+
+[[!redirects Hopfian object]]
+[[!redirects Hopfian objects]]
+[[!redirects co-Hopfian object]]
+[[!redirects co-Hopfian objects]]
