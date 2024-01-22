@@ -44,6 +44,7 @@ We can, however, also consider *pseudo* algebras for a 2-monad; see [[pseudoalge
 
 There are also 2-monads that specify [[property-like structure]].  For instance, there is a 2-monad whose algebras are categories with finite products.  Actually, its algebras are categories equipped with _specified_ finite products, the strict morphisms of these algebras preserve these specified finite products on the nose, and the pseudo morphisms preserve them in the usual sense of "preserving finite products."  In this case, _every_ functor between algebras is an oplax morphism, since there is always a canonical comparison map $F(A\times B) \to F(A)\times F(B)$.
 
+For limit and colimit properties of algebras, see [[2-limits and 2-colimits in 2-categories of 2-algebras]].
 
 ## Properties
 
