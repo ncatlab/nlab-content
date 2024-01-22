@@ -252,6 +252,13 @@ On the "intermediate" $E_{7 \tfrac{1}{2}}$:
 
 * Kimyeong Lee, Kaiwen Sun, Haowu Wang, *On intermediate Lie algebra $E_{7 \tfrac{1}{2}}$* &lbrack;[arXiv:2306.09230](https://arxiv.org/abs/2306.09230)&rbrack;
 
+See also:
+
+* [[Tevian Dray]], [[Corinne Manogue]], [[Robert Wilson]], *A New Division Algebra Representation of $E_7$* &lbrack;[arxiv:2401.10534](https://arxiv.org/abs/2401.10534)&rbrack;
+
+
+
+
 
 
 ### In view of U-duality
