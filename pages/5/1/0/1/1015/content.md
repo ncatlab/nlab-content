@@ -116,6 +116,8 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
   > (with commentary on [[ETCC]])
 
+* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
+
 ### In homotopy type theory
  {#ReferencesInHomotopyTypeTheory}
 
