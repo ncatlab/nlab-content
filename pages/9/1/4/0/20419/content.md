@@ -19,6 +19,10 @@ On [[subgroups]] of [[Clifford algebras]] reminiscent of [[gauge groups]] of rel
 
 * {#Wilson21} [[Robert A. Wilson]], *On the Problem of Choosing Subgroups of Clifford Algebras for Applications in Fundamental Physics*, Adv. Appl. Clifford Algebras 31, 59 (2021) ([doi:10.1007/s00006-021-01160-5]( https://doi.org/10.1007/s00006-021-01160-5))
 
+On [[E7]] via [[division algebra]]:
+
+* [[Tevian Dray]], [[Corinne Manogue]], [[Robert Wilson]], *A New Division Algebra Representation of $E_7$* &lbrack;[arxiv:2401.10534](https://arxiv.org/abs/2401.10534)&rbrack;
+
 
 
 ## Related entries
