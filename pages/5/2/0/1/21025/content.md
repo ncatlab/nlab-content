@@ -128,6 +128,8 @@ at [[CQTS]] @ New York University, Abu Dhabi
   **The Differential Geometry and Topology of Four-
 Dimensional Universal Supergravity**
 
+  slides: [[Shahbazi-MTheoryAndMath2024.pdf:file]]
+
   cf.: [arXiv:2101.07236](pre-metric+electromagnetism#LazaroiuShahbazi23)
 
   > Using the [[sheaf cohomology|cohomology]] of the appropriate [[locally constant sheaf]] I will explain how to implement the [[Dirac charge quantization|Dirac-Schwinger-Zwanziger integrality condition]] on [[D=4 supergravity|four-dimensional]] [[classical field theory|classical]] ungauged [[supergravity]] and how to interpret it geometrically in order to obtain its [[U-duality|duality]]-covariant, [[gauge theory|gauge-theoretic]], [[differential geometry|differential-geometric]] global model. Using this construction, I will prove that [[D=4 supergravity|four-dimensional]] bosonic un[[gauged supergravity|gauged]] [[supergravity]] is completely determined by a choice of polarized Siegel bundle defined over the total space of a vertically [[Riemannian manifold|Riemannian]] [[submersion]] equipped with a complete [[Ehresmann connection]], showing that its gauge sector reduces to a polarized [[self-dual higher gauge theory|self-duality condition]] for connections on the underlying polarized Siegel bundle. Furthermore, I will explore the continuous and arithmetic [[U-duality]] groups of the theory, characterizing them through [[short exact sequences]] and realizing the latter through the [[automorphism group]] of the underlying Siegel bundle acting on its [[adjoint bundle]]. This elucidates the geometric origin of [[U-duality]] and justifies the miraculous existence of U-dualities by describing them as a [[gauge transformation]] of the appropriately defined [[principal bundle]].
@@ -194,6 +196,8 @@ Taylor String Theory**
 
   **Constraining and Un-constraining Supergravities**
 
+  slides: [[Minasian-MTheoryAndMath2024.pdf:file]]
+
   > I will review various aspects and somewhat surprising consequences of cancellation of (different types of) [[anomalies]] in [[supergravity]] theories in [[D=8 supergravity|eight]] and [[D=6 supergravity|six]] dimensions. I will also discuss appearance and importance of exotic (singular, non-spin, non-orientable) [[background field|backgrounds]].
 
 
@@ -233,6 +237,8 @@ Compactifications**
 
   **Topological-Holomorphic $\mathcal{N}=4$ Gauge Theory: From Langlands Duality of Holomorphic Invariants to Mirror Symmetry of Quasi-Topological Strings**
 
+  slides: [[Tan-MTheoryAndMath2024.pdf:file]]
+
   cf.: [arXiv:2305.15965](https://arxiv.org/abs/2305.15965)
 
   > We perform a topological-holomorphic [[topological twist|twist]] of [[D=4 N=4 SYM|$\mathcal{N}=4$]] [[super Yang-Mills theory|supersymmetric gauge theory]] on a [[4-manifold|four-manifold]] of the form $M^4 = \Sigma_1 \times \Sigma_2$, and unravel the mathematical implications of its physics. In particular, we consider the cohomology of different linear combinations of the resulting scalar supercharges under [[S-duality]], whence we would be able to derive novel topological and holomorphic invariants of $M^4$ and their [[geometric Langlands duality|Langlands duals]]. As the twisted theory can be topological along $\Sigma_1$ such that we can [[KK-reduction|dimensionally reduce]] it to 2d, via the [[effective field theory|effective]] [[sigma-model]] on $\mathbb{C}_2$, we can also relate these 4d invariants and their Langlands duals to the [[mirror symmetry]] of [[Higgs bundles]] and that of quasi-topological strings described by the [[sheaf]] of [[chiral differential operators]].
@@ -269,6 +275,8 @@ Theories**
 
   **Self-Dual $p$-Form Gauge Fields and the Topology of the
 Graviton**
+
+  slides: [[Hull-MTheoryAndMath2024.pdf:file]]
 
   cf.: [arXiv:2307.04748](self-dual+higher+gauge+theory#Hull23)
 
@@ -967,6 +975,7 @@ This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Co
 \linebreak
 
 \linebreak
+
 
 
 ## Related events
