@@ -51,6 +51,7 @@ See also:
 * [[geometry of physics]] -- _[Equations of motion](geometry%20of%20physics#EquationsOfMotion)_
 
 [[!redirects principle of stationary action]]
+[[!redirects stationary action principle]]
 [[!redirects principle of least action]]
 
 [[!redirects action principle]]
