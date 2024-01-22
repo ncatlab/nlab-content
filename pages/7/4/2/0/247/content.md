@@ -49,6 +49,10 @@ On [[displayed type theory]]:
 
 * [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* ([arXiv:2311.18781](https://arxiv.org/abs/2311.18781)) 
 
+On [[set theory]]:
+
+* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
+
 ## Talks
 
 On [[higher observational type theory]]:
