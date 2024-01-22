@@ -61,7 +61,7 @@ Towards a [[BFSS matrix model|matrix model]] taking these K-theoretic effects in
 
 
 
-### Twisted, equivariant and differential refinement
+#### Twisted, equivariant and differential refinement
 
 Discussion of charge quantization in [[twisted K-theory]] for the case of non-vanishing [[B-field]]:
 
