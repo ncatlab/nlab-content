@@ -175,6 +175,8 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
 * [[double limit]]
 
+* [[2-limits and 2-colimits in 2-categories of 2-algebras]]
+
 * [[(∞,1)-limit]]
 
   * [[homotopy limit]]
