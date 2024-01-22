@@ -240,3 +240,5 @@ Discussion of variants of [[differential concretification|differentially concret
 
 * [[Severin Bunk]], [[Carlos S. Shahbazi]], *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633](https://arxiv.org/abs/2304.06633)&rbrack;
 
+
+[[!redirects differential ordinary cohomology]]
