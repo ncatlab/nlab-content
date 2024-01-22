@@ -9,6 +9,15 @@ Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category t
 ## Selected writings
  {#SelectedWritings}
 
+Introducing the notion of [[monoidal categories]] (then under the name "categories with multiplication" or "multiplicative categories"):
+
+* [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) 1887-1890 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image)&rbrack;
+
+* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) 771-774 &lbrack;[gallica](gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image)&rbrack;
+
+* [[Jean Bénabou]], *Les catégories multiplicatives*, Séminaire de mathématique pure **27**, Université de Louvain (1972) &lbrack;[[Benabou-CategoriesMultiplicatives.pdf:file]]&rbrack;
+
+
 Introducing the notion of [[enriched categories]] (and of [[strict 2-categories]], as an example):
 
 * [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
@@ -20,16 +29,20 @@ On [[bicategories]] (and introducing the terminology *[[monad]]*):
 
 * Jean Bénabou, *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
-See also:
-
-* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
-
 
 On [[monadic descent]] via the [[Beck-Chevalley condition]], the [[monadicity theorem]] and introducing the [[Bénabou-Roubaud theorem]]:
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
-On [[profunctors]] (including for [[enriched categories]] and [[internal categories]]):
+On [[monads]]:
+
+* [[Jean Bénabou]], *Les Triples*, Séminaire de mathématiquepure pure **26**, Université de Louvain (1972) &lbrack;[[Benabou-LesTriples.pdf:file]]&rbrack;
+
+On [[toposes]]:
+
+* [[Jean Bénabou]], *Problèmes dans les topos*, Séminaire de mathématiquepure pure **34**, Université de Louvain (1973) &lbrack;[[Benabou-ProblemesDansLesTopos.pdf:file]]&rbrack;
+
+On [[profunctors]] ("[[distributors]]", including for [[enriched categories|enriched]] and [[internal categories]]):
 
 * {#Benabou73} [[Jean Bénabou]], *Les distributeurs*, Université Catholique de Louvain, Institut de Mathématique Pure et Appliquée,  rapport **33** (1973) &lbrack;[pdf](http://www.entretemps.asso.fr/maths/DistributeursLouvain.pdf), [[Benabou-LesDistributeurs.pdf:file]]&rbrack;
 
@@ -39,6 +52,11 @@ On [[fibered categories]]:
 * {#Bénabou1975} Jean Bénabou, _Fibrations petites et localement petites_, C. R. Acad. Sci. Paris **281** Série A (1975) 897-900 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171.image#)&rbrack;
 
 * {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
+
+See also:
+
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
+
 
 On [[foliated categories]]:
 
