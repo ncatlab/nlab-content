@@ -65,9 +65,11 @@ See at _[[D-brane charge quantization in K-theory]]_
 See at _[supergravity C-field -- shifted flux quantization condition](supergravity+C-field#ShiftedCFieldFluxQuantizationCondition)_
 
 
-## Related concepts
+## Related entries
 
 * [[flux]], [[flux tube]], [[flux compactification]], [[uncertainty of fluxes]]
+
+* [[higher flux quantization]]
 
 * [[fiber bundles in physics]]
 
@@ -91,7 +93,7 @@ See also the references at *[[fiber bundles in physics]]*.
 
 The original argument for charge quantization of the [[electromagnetic field]]:
 
-* {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72 ([doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short))
+* {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short)&rbrack;
 
 Further early discussion
 
