@@ -231,7 +231,7 @@ An introduction to concepts in the [[quantization]] of gauge theories is in
 
 A standard textbook on the [[BV-BRST formalism]] for the quantization of gauge systems is in
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_ Princeton University Press, 1992
+* [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
 
 Comprehensive lecture notes on this are at 
 
