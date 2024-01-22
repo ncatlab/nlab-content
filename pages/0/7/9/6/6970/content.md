@@ -23,6 +23,8 @@ In [[type theory]] a _function type_ $X \to Y$ for two [[types]] $X,Y$ is the [[
 
 In a [[model]] of the type theory in [[categorical semantics]], this is an [[exponential object]]. In [[set theory]], it is a [[function set]]. In [[dependent type theory]], it is a special case of a [[dependent product type]].
 
+Function types are important because they allow the user to [[quantification|quantify]] over [[functions]] in [[type theory]]. In [[material set theory]] functions are sets and one could quantify over sets, while in [[structural set theory]], while functions are different from sets, one could still quantify over the [[sort]] of functions. However, in [[type theory]], one cannot quantify over families of elements $x:A \vdash b(x):B$, which are the analogue of functions in material and structural set theory, since families of elements are not elements of a single type, and quantification only occurs over a single type. Instead, one uses function types whose elements, called functions, represent families of elements, in the same way that the elements of [[type universes]] represent types. 
+
 ## Overview
 
 [[!include function type natural deduction - table]]
