@@ -37,10 +37,11 @@ When the full axiom of choice fails, it may still be valid for some restricted c
 More generally, we may consider analogous statements in [[categories]] $C$ other than $Set$.
 
 ### External form
+ {#ExternalForm}
 
 We say that $C$ satisfies the **external axiom of choice** if every [[epimorphism]] in $C$ [[split epimorphism|splits]].
 
-In this form, the axiom of choice may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle | fiber bundles]].
+In this form, the axiom of choice may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundles]].
 
 If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]] (or [[extremal epimorphism]], [[effective epimorphism]], etc.)  In $Set$ (and in any [[topos]]), all of these notions of epimorphism are the same.
 
