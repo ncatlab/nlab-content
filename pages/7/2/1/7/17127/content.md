@@ -16,8 +16,12 @@ On _[[supersymmetry and division algebras]]_:
 
 * [[Tevian Dray]], J. Janesky, [[Corinne Manogue]], _Octonionic hermitian matrices with non-real eigenvalues_, Adv. Appl. Clifford Algebras 10 (2000), 193&#8211;216 ([arXiv:math/0006069](https://arxiv.org/abs/math/0006069))
 
+On [[E7]] via [[division algebra]]:
 
-## Related $n$Lab entries
+* [[Tevian Dray]], [[Corinne Manogue]], [[Robert Wilson]], *A New Division Algebra Representation of $E_7$* &lbrack;[arxiv:2401.10534](https://arxiv.org/abs/2401.10534)&rbrack;
+
+
+## Related entries
 
 * [[octonions]]
 
