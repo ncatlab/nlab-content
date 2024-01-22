@@ -850,6 +850,10 @@ The first monograph:
 
 * {#EilKel66} [[Samuel Eilenberg]], [[G. Max Kelly]], Section II.1 in: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
+Early lecture notes: 
+
+* [[Jean Bénabou]], *Les catégories multiplicatives*, Séminaire de mathématiquepure pure **27**, Université de Louvain (1972) &lbrack;[[Benabou-CategoriesMultiplicatives.pdf:file]]&rbrack;
+
 Textbook accounts:
 
 * {#MacLane71} [[Saunders MacLane]], Section VII.1 of: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
@@ -866,11 +870,11 @@ Exposition of basics of monoidal categories and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
-Monoidal categories were introduced by B&#233;nabou under the name 'category with multiplication'. Mac Lane was the first to give a finite axiomatisation, under the name 'bicategory' (not to be confused with [[bicategory]]). The current name is due to Eilenberg.
+Monoidal categories were introduced by [[Jean Bénabou]] under the name 'category with multiplication'. Mac Lane was the first to give a finite axiomatisation, under the name 'bicategory' (not to be confused with the contemporary meaning of *[[bicategory]]*). The current name is due to Eilenberg.
 
-* [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) pp.1887-1890. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image))
+* [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) 1887-1890 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image)&rbrack;
 
-* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) pp.771-774. ([gallica](gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image))
+* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) 771-774 &lbrack;[gallica](gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image)&rbrack;
 
 * {#MacLane} [[Saunders Mac Lane]], _Natural Associativity and Commutativity_ , Rice University Studies **49** (1963) pp.28-46. 
  
