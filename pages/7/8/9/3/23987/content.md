@@ -1732,6 +1732,24 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Isolated [[electron|electronic]] [[spins]] such as donors in silicon and defects like the [[nitrogen-vacancy center in diamond|nitrogen-vacancy (NV) center in diamond]] are promising platforms for some [[quantum system|quantum]] technologies. The [[decoherence]] of these spins is often dominated by interactions with other electronic or nuclear spin species present in their vicinity. For example, silicon-29 nuclear spins can limit the coherence times of donors in silicon, and substitutional nitrogen or P1 centers often limit the coherence times of NV centers in diamond. In this talk I will describe two recent sets of experiments from our group where we are able to extend the coherence times of the central spin by engineering these spin-bath interactions. First, I show how the coherence times of phosphorus donors in silicon are influenced by low-power above-bandgap optical excitation.  Next, I describe the use of dynamical decoupling techniques to suppress NV-P1 interactions in diamond.  In addition to extending coherence times, these decoupling techniques can be used to measure time-dependent magnetic fields, a form of AC-sensing or noise spectroscopy.
 
+
+
+\linebreak
+
+### Jan 2024
+
+
+
+* 22 Jan 2024
+ 
+  [[Matteo Capucci]]: 
+
+  **Para Construction as a Wreath Product**
+
+  cf. [arXiv:2105.06332](categorical+systems+theory#CGHR22)
+
+  > on the [[para construction]] in [[categorical systems theory]]
+
 \linebreak
 
 ***
