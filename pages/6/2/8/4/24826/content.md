@@ -38,6 +38,8 @@
 
 * [[David Jaz Myers]], *Double Categories of Open Dynamical Systems*, EPTCS **333** (2021) 154-167 &lbrack;[arXiv:2005.05956](https://arxiv.org/abs/2005.05956), [doi:10.4204/EPTCS.333.11](https://doi.org/10.4204/EPTCS.333.11)&rbrack;
 
+* {#CGHR22} [[Matteo Capucci]], [[Bruno Gavranović]], [[Jules Hedges]], [[Eigil F. Rischel]], *Towards Foundations of Categorical Cybernetics*, EPTCS **372** (2022) 235-248 &lbrack;[arXiv:2105.06332](https://arxiv.org/abs/2105.06332), [doi:10.4204/EPTCS.372.17](https://doi.org/10.4204/EPTCS.372.17)&rbrack;
+
 
 Monographs:
 
@@ -57,3 +59,6 @@ Exposition:
 * [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
 
 [[!redirects categorical system theory]]
+
+[[!redirects cybernetics]]
+
