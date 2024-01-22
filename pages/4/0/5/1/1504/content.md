@@ -483,6 +483,10 @@ See also
 
 * Matej Kudrna, [[Martin Schnabl]], _Universal Solutions in Open String Field Theory_ ([arXiv:1812.03221](https://arxiv.org/abs/1812.03221))
 
+On a proposal for a background-independent formalism for bosonic open string field theory, exhibiting in particular the [[orthosymplectic super Lie algebra|orthosymplectic group]] $OSp(d|2)$ as a symmetry:
+
+* [[Itzhak Bars]], Dmitry Rychkov. *Background Independent String Field Theory*. (2014). ([arXiv:1407.4699](https://arxiv.org/abs/1407.4699))
+
 #### Closed SFT
  {#ReferencesBosonicCSFT}
 
