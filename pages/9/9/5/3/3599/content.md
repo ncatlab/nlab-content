@@ -113,7 +113,7 @@ $$
  {#TypeBundlesReflectedInTypeUniverse}
 
 Assuming the [[univalence]]-[[axiom]], the analogous statement holds reflected within a [[type universe]] $Type$: Given $X \,\colon\, Type$, the type $X \to Type$ of $X$-dependent types is [[equivalence of types|equivalent]] to the type $(X \colon Type) \times (Y \to X)$ of [[function type|functions]] with [[codomain]] $X$, via forming [[fiber types]] and [[dependent sum]]-types, respectively
- &lbrack;[UFP13, Thm. 4.8.6](#UFP13)&rbrack; 
+ &lbrack;[UFP13, Thm. 4.8.3](#UFP13)&rbrack; 
 
 $$
   X \colon Type
