@@ -305,8 +305,9 @@ Brief expositions:
 
 * MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
 
-
 Lecture notes:
+
+* [[Jean Bénabou]], *Problèmes dans les topos*, Séminaire de mathématique pure **34**, Université de Louvain (1973) &lbrack;[[Benabou-ProblemesDansLesTopos.pdf:file]]&rbrack;
 
 * [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
 
