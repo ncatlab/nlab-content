@@ -105,7 +105,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 \linebreak
 
 
-**Talks:**
+{#Talks2024} **Talks:**
 
 * {#Lambert2024} 15 Jan 2024
 
