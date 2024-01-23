@@ -261,7 +261,7 @@ $$
 
 The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\infty,1)Cat$ over the $(\infty,1)$-category $V$, which is $V$ itself, as indicated.
 
-## Some comment
+## Some comments
 
  * If the action of a Lie group $G$ on the manifold $X$ is free and proper, what you get is a manifold $X/G$.
 
