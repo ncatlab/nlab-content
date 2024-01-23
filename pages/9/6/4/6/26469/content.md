@@ -17,7 +17,7 @@
 
 ## Idea
 
-[…]
+[ ... ]
 
 ## Related concepts
 
@@ -27,9 +27,9 @@
 
 * [[Mallows kernel]] 
 
-  [[Kendall kernel]]
+* [[Kendall kernel]]
 
-  [[Cayley distance kernel]]
+* [[Cayley distance kernel]]
 
 ## References
 
@@ -46,7 +46,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_. Adv. Math., 370:107239, 2020. [arXiv:1908.07021](https://arxiv.org/abs/1908.07021).
 
-* Noé Ensarguet, Paolo Perrone, _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
+* Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
 
 [[!redirects Markov kernels]]
 
