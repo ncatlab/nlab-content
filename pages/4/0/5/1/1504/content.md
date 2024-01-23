@@ -485,7 +485,8 @@ See also
 
 On a proposal for a background-independent formalism for bosonic open string field theory, exhibiting in particular the [[orthosymplectic super Lie algebra|orthosymplectic group]] $OSp(d|2)$ as a symmetry:
 
-* [[Itzhak Bars]], Dmitry Rychkov. *Background Independent String Field Theory*. (2014). ([arXiv:1407.4699](https://arxiv.org/abs/1407.4699))
+* [[Itzhak Bars]], Dmitry Rychkov. *Background Independent String Field Theory* &lbrack;[arXiv:1407.4699](https://arxiv.org/abs/1407.4699)&rbrack;
+
 
 #### Closed SFT
  {#ReferencesBosonicCSFT}
