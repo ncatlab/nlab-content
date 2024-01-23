@@ -1,5 +1,7 @@
 
-* [personal page](http://sites.nd.edu/tcampion/)
+* [old personal page](http://sites.nd.edu/tcampion/)
+
+He  is now at John Hopkins University (no web page as yet).
 
 ## Selected writings
 
