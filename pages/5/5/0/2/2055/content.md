@@ -55,6 +55,8 @@
 
 * [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba: personal blog of a math professor, various topics, rarely even math)
 
+* [theHigherGeometer](https://thehighergeometer.wordpress.com/) ([[David Roberts]])
+
 * [The Math Less Travelled](http://mathlesstraveled.com/) Expository writing aimed to expose the beauty of mathematics to a general audience
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category) A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
