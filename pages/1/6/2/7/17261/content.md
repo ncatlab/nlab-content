@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[ordinary homology]]/[[ordinary cohomology]] represented as [[singular homology]]/[[singular cohomology]], then _Kronecker pairing_ refers to the defining pairing of a [[chain]] with a [[cochain]]. 
+In [[ordinary homology]]/[[ordinary cohomology]] represented as [[singular homology]]/[[singular cohomology]], _Kronecker pairing_ refers to the defining pairing of a [[chain]] with a [[cochain]]. 
 
 More generally, in [[generalized (Eilenberg-Steenrod) cohomology]]/[[generalized homology]] represented by a [[ring spectrum]] $E$, then the _Kronecker pairing_ 
 is a canonical pairing of the $E$-[[generalized cohomology]] [[cohomology group|groups]] $E^\bullet(X)$ with the $E$-[[generalized homology]] groups $E_\bullet(X)$ of suitable spaces ([[homotopy types]]/[[spectra]]) $X$
