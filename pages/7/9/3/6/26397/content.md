@@ -92,7 +92,7 @@ The differential form of the Gauss law (eq:DifferentialFormOfEMGaussLaw) general
 ### In higher gauge theory
  {#InHigherGaugeTheory}
 
-The generalization of Gauss laws to [[higher gauge theory]] may transparently be understood, in broad generality, by casting the corresponding higher Maxwell-type [[equations of motion]] into "[[duality-symmetric gauge theory|duality-symmetric]]" form (we follow [SS23](#SS23)):
+The generalization of Gauss laws to [[higher gauge theory]] may transparently be understood, in broad generality, by casting the corresponding [higher Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) [[equations of motion]] into "[[duality-symmetric gauge theory|duality-symmetric]]" form (we follow [SS23](#SS23)):
 
 Consider:
 
@@ -267,7 +267,7 @@ In terms of these components, the higher [[Bianchi identities]] (eq:HigherBianch
 
 Hence in the [[duality-symmetric gauge theory|duality-symmetric formulation]] of [[higher gauge theory]], the Gauss law is just the spatial component of the [[Bianchi identity]].
 
-Moreover, one finds that the higher Gauss law (eq:HigherGaussLaw) is a [[first class constraint]] in that it is preserved by the time evolution presribed by the higher Faraday-Amp&egrave;re law (eq:HigherGaussLaw), so that the solution space of the higher Maxwell equations is identified with the space of flux densities on any [[Cauchy surface]] 
+Moreover, one finds that the higher Gauss law (eq:HigherGaussLaw) is a [[first class constraint]] in that it is preserved by the time evolution presribed by the higher Faraday-Amp&egrave;re law (eq:HigherGaussLaw), so that the solution space of the [higher Maxwell equations](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is identified with the space of flux densities on any [[Cauchy surface]] 
 $$
   \iota
   \,\colon\,
