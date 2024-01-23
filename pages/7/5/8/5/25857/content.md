@@ -51,7 +51,7 @@ The original use of "solitonic branes" as "topological sugra solutions with ever
 * {#DuffLu94} [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052), <a href="https://doi.org/10.1016/0550-3213(94)90586-X">doi:10.1016/0550-3213(94)90586-X</a>&rbrack;
 
 Other uses of the word "solitonic brane":
-::
+
 * {#Stelle98} [[Kellogg Stelle]], *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
 
 * {#Smith02} [[Douglas J. Smith]], *Intersecting brane solutions in string and M-theory*, Class. Quant. Grav. **20** R233 (2003) &lbrack;[arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157), [doi:10.1088/0264-9381/20/9/203](https://doi.org/10.1088/0264-9381/20/9/203)&rbrack;
