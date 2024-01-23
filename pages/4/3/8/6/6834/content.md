@@ -97,16 +97,112 @@ The canonical example of this phenomenon is the [[RR-field]] in [[string theory]
 
 
 ## Examples
+ {#Examples}
 
-* [[Kalb-Ramond field]]
+Among ordinary [[gauge theories]] there is
 
-* [[RR-field]]
+1. "metric" gauge theory:
 
-* [[supergravity C-field]]
+   1. [[Maxwell theory]],
 
-* [[string field theory|string field]]
+   1. [[Yang-Mills theory]]
 
-* [[AKSZ sigma-model]]
+1. [[topological field theory|topological]] gauge theory:
+
+   * [[Chern-Simons theory]]
+
+(as well as mixed cases, such as the [[ABJM model]]).
+
+While the [[field (physics)|fields]] of these theories are [[gauge fields]] of the same kind in all cases (modeled by [[connection on a bundle|connections]] on [[principal bundles]]), the nature of these theories is different, not the least because the first class depends on (couples to) a [[background field|background]] ([[pseudo-Riemannian metric|pseudo]]) [[Riemannian metric]] ([[gravity]]) while the second does not (is a [[topological field theory]]).
+
+Moreover, even though [[Maxwell theory]] ([[electromagnetism]]) may be understood as the special case of [[Yang-Mills theory]] for [[gauge group]] specialized to the [[circle group]] $U(1)$, this makes a crucial difference for the nature of these theories and their higher generalizations.
+
+Some example of higher gauge fields...
+
+1. ...of higher Maxwell type:
+
+   the fields appearing in higher-dimensional [[supergravity]] theories:
+
+   * [[Kalb-Ramond field]] ([[B-field]])
+
+   * [[RR-field]]
+
+   * [[supergravity C-field]]
+
+1. ...of higher Chern-Simons type:
+
+   * [[AKSZ sigma-models]]
+
+   * [[string field theory|string field]]
+
+
+
+### Higher gauge theories of Maxwell type
+ {#HigherGaugeTheoryOfMaxwellType}
+
+Consider
+
+* $D = 1 + d \in \mathbb{N}_{\geq 2}$ the [[spacetime]] dimension,
+
+* $X^D$ a $D$-dimensional [[spacetime]] [[smooth manifold|manifold]],
+
+* with [[Hodge star]]-operator on [[differential forms]]
+
+  $$
+    \star \,\colon\,
+    \Omega^p_{dR}(X^D) \to \Omega^{D-p}_{dR}(X^D)
+  $$
+
+  satisfying (see [there](Hodge+star+operator#eq:HodgeSquareOnRiemannian))
+
+  $$
+    \star \, \star = - (-1)^{p(D-p)}
+    \,,
+  $$
+
+* $I \,\in\, Set$ an [[index set]] of flux species 
+
+  (subsuming both electric fluxes and magnetic fluxes, both now allowed of further different species),
+
+* $\big( deg_i \,\in\, \mathbb{N}_{\geq 1} \big)_{i \in I}$ an [[indexed set]] of degrees,
+
+* $\vec F \,\equiv\,\big( F^{(i)} \,\in\, \Omega^{deg_i}_{dR}(X^D) \big)_{i \in I}$ an [[indexed set]] of [[flux densities]]
+
+* $\vec P = \big( P^{(i)}  \big)_{i \in I}$ an [[indexed set]] of graded-symmetric [[polynomials]] in $I$ [[variables]],
+
+* $\vec \mu$ an [[invertible matrix|invertible]] $I \times I$-[[matrix]] 
+
+then the corresponding **higher Maxwell-type equations** on these [[differential forms]]/[[flux densities]] are, in [[duality-symmetric higher gauge theory|duality-symmetric form]] (cf. [SS23](#SS23)): 
+
+1. the system of [[Bianchi identity]] [[differential equations]] (cf. at *[[Gauss law]]*)
+
+   \[
+     \label{HigherBianchiIdentities}
+     \mathrm{d}\,\vec F 
+     \,=\,
+     \vec P\big(
+       \vec F
+     \big)
+   \]
+
+1. the self-[[Hodge duality]] condition
+
+   \[
+     \label{HigherSelfDuality}
+     \star \, \vec F
+     \,=\,
+     \vec \mu\big(\vec F\big)
+     \,.
+   \]
+
+The full field content of a higher gauge theory with these flux densities is to involve *[[gauge potentials]]* for these flux densities. A systematic way to get hold of these is to choose a [[flux quantization law]] for the given flux densities, defining a ([[nonabelian cohomology|nonabelian]]) [[generalized cohomology theory]]. Then a full higher gauge field is a [[cocycle]] in the corresponding ([[nonabelian differential cohomology|nonabelian]]) [[differential cohomology]].
+
+
+### Higher gauge theories of Chern-Simons type
+
+See at *[[schreiber:infinity-Chern-Simons theory]]*
+
+
 
 ## Related entries
 
@@ -153,8 +249,12 @@ Deriving [[higher gauge symmetries]] through the [[variational bicomplex]]:
 
 * [[Igor Khavkine]], *Topology, rigid cosymmetries and linearization instability in higher gauge theories*, Annales Henri Poincaré **16** (2015) 255–288, &lbrack;[arXiv:1303.2406](https://arxiv.org/abs/1303.2406), [doi:10.1007/s00023-014-0321-9](https://doi.org/10.1007/s00023-014-0321-9)&rbrack;
 
+The aspect of [[flux quantization laws]]:
 
-For foundations of higher [[prequantum field theory]] see 
+* {#SS23} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
+
+
+Foundations of higher [[prequantum field theory]]:
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
 
@@ -177,6 +277,7 @@ Specifically on [[topological phases of matter]] via higher  [[lattice gauge the
 Further on higher [[lattice gauge theory]]:
 
 * [[Juan Orendain]], [[José A. Zapata]], *Higher homotopy and lattice gauge fields* &lbrack;[arXiv:2311.02363](https://arxiv.org/abs/2311.02363)&rbrack;
+
 
 
 
