@@ -38,7 +38,7 @@ By the discussion at [conserved current -- In higher prequantum geometry](conser
 ### As the Lie algebra of derivations of the SuGra Lie 3-algebra
 
 In ([Castellani 05](#Castellani05)) it is 
-implicitly shown, ([FSS 13](#FSS13)), that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
+implicitly shown ([FSS 13](#FSS13)) that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
 
 ### As an 11-dimensional boundary condition for the M2-brane
  {#AsAn11DimensionalBoundaryCondition}
@@ -96,9 +96,9 @@ and then a 1-parameter family of such was discovered in
 
 * [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. 317 (2005) 238-279 ([arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100))
 
-That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$ is due to
+That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$:
 
-* {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
+* {#FernandezIzquierdoOlmo15} J.J. Fernandez, [[José M. Izquierdo]], M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946)&rbrack;
 
 Further discussion is in
 
@@ -191,6 +191,8 @@ Arguments that the charges of the M-theory super Lie algebra may be identified i
 * [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
 
 * [[Paul Cook]], around p. 75 of _Connections between Kac-Moody algebras and M-theory_ ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+
 
 [[!redirects M-theory Lie algebra]]
 
