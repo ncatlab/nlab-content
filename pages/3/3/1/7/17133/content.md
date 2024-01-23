@@ -20,8 +20,12 @@ On [[D=14 supersymmetry]]:
 
 * [[Itzhak Bars]], _Duality Covariant Type IIB Supersymmetry and Nonperturbative Consequences_, Phys. Rev. D 56, 7954 (1997) ([arXiv:hep-th/9706185](https://arxiv.org/abs/hep-th/9706185))
 
+On [[string field theory]] with [[orthosymplectic super Lie algebra|$OSp(d\vert 2)$]]-symmetry:
 
-## Related $n$Lab entries
+* [[Itzhak Bars]], Dmitry Rychkov. *Background Independent String Field Theory* &lbrack;[arXiv:1407.4699](https://arxiv.org/abs/1407.4699)&rbrack;
+
+
+## Related entries
 
 * [[supersymmetry and division algebras]]
 
