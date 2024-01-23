@@ -52,5 +52,9 @@ More generally, other [[matrix Lie groups]], such as the [[general linear group]
 [[!redirects classical Lie group]]
 [[!redirects classical Lie groups]]
 
+[[!redirects classical Lie algebra]]
+[[!redirects classical Lie algebras]]
+
 [[!redirects classical simple Lie group]]
 [[!redirects classical simple Lie groups]]
+
