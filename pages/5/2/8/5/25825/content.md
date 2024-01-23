@@ -22,6 +22,11 @@ On [[n-Lie algebras]]:
 
 * [[José de Azcárraga]], [[José M. Izquierdo]], *$n$-Ary algebras: a review with applications*, J. Phys. A: Math. Theor. **43** (2010) 293001 &lbrack;[doi:10.1088/1751-8113/43/29/293001](https://doi.org/10.1088/1751-8113/43/29/293001)&rbrack;
 
+On the [[M-theory super Lie algebra]] in relation to the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$:
+
+* {#FernandezIzquierdoOlmo15} J.J. Fernandez, [[José M. Izquierdo]], M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946)&rbrack;
+
+
 
 On [[extended super Minkowski spacetimes]] in the language of the  [[D'Auria-Fre formulation of supergravity]] ("FDA"s) and the [[brane scan]]:
 
