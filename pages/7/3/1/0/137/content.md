@@ -55,13 +55,6 @@ Finally, this means that $f$ is an epimorphism in a [[category]] $\mathcal{C}$ p
 
 ### General
 
-+-- {: .num_example}
-###### Example
-
-Every [[isomorphism]] is both an epimorphism and a [[monomorphism]].
-
-=--
-
 
 +-- {: .num_example #EpimorphismsOfSets}
 ###### Example
@@ -92,7 +85,7 @@ a bijection (hence isomorphism), or equivalently, the multiplication map $S\otim
 
 It follows that the multiplication induces natural isomorphism of endofunctors with components $M\mapsto M\otimes_R S\otimes_R S\cong M\otimes_R S$. While the extension of scalars followed by restriction of scalars is a monad (by adjunction), this implies that it is an idempotent monad, hence the extension of scalars is a localization functor. 
 
-In both categories, every surjective ring homomorphisms is an epimorphism, however there are many epimorphisms which are not surjective maps. For example, every flat localization of rings (e.g. [[Ore localization]]) is the same as a flat epimorphism; (nontrivial) localizations are not surjective.
+In both categories, every surjective ring homomorphism is an epimorphism, however there are many epimorphisms which are not surjective maps. For example, the inclusion $\mathbb{Z} \to \mathbb{Q}$ is an epimorphism of rings, and of commutative rings.  More generally, every flat localization of rings (e.g. [[Ore localization]]) is a flat epimorphism, but (nontrivial) localizations are not surjective.
 
 Any faithfully flat epimorphism of rings is an isomorphism.
 
@@ -103,6 +96,12 @@ An epimorphism of commutative rings is surjective iff it is a finite morphism. F
 
 Often, though, the surjections correspond to a stronger notion of epimorphism.
 
++-- {: .num_example}
+###### Example
+
+Every [[isomorphism]] is both an epimorphism and a [[monomorphism]].
+
+=--
 
 But beware that the converse fails:
 
