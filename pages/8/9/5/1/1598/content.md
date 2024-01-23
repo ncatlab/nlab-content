@@ -308,6 +308,3 @@ for maps out of [[compact Lie groups]] and the fact that [[nearby homomorphisms 
 [[!redirects classical group]]
 [[!redirects classical groups]]
 
-
-[[!redirects classical Lie group]]
-[[!redirects classical Lie groups]]
