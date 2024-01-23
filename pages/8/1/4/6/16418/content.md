@@ -89,7 +89,14 @@ Appearance of $\mathfrak{osp}(1|2) \times $[[sl(2)]]-[[modular functor]] is foun
 
 * [[Horatiu Nastase]], _Towards a Chern-Simons M theory of $OSp(1\vert 32) \times OSp(1\vert 32)$_ ([arXiv:hep-th/0306269](https://arxiv.org/abs/hep-th/0306269))
 
-* {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
+* [[Itzhak Bars]], Dmitry Rychkov. *Background Independent String Field Theory* &lbrack;[arXiv:1407.4699](https://arxiv.org/abs/1407.4699)&rbrack;
+
+  > (on [[string field theory]] with [[orthosymplectic super Lie algebra|$OSp(d\vert 2)$]]-symmetry)
+
+
+* {#FernandezIzquierdoOlmo15} J. J. Fernandez, [[José M. Izquierdo]], M. A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946)&rbrack;
+
+  > (relating to the [[M-theory super Lie algebra]])
 
 * {#vanHoltenVanProeyen82} [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ Supersymmetry Algebras in $D=2$, $D=3$, $D=4$ $MOD-8$_, J.Phys. A15 (1982) 3763 ([spire:177060](http://inspirehep.net/record/177060))
 
