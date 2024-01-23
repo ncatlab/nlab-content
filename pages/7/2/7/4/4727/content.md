@@ -14,8 +14,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -695,6 +693,8 @@ In fact their full rheonomy constraint III.3.32 is essentialy the same horizonta
 [[!redirects L-∞ algebra valued differential form]]
 [[!redirects L-∞ algebra valued differential forms]]
 
+[[!redirects flat L-infinity algebra valued differential form]]
+[[!redirects flat L-infinity algebra valued differential forms]]
 [[!redirects flat L-infinity-algebra valued differential form]]
 [[!redirects flat L-infinity-algebra valued differential forms]]
 
