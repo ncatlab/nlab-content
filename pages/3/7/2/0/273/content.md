@@ -226,6 +226,8 @@ For examples and discussion of this see
 
 ## Related concepts
 
+* [[nonabelian de Rham cohomology]]
+
 * [[differential non-abelian cohomology]]
 
 * [[generalized cohomology]]
