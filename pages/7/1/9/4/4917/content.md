@@ -23,7 +23,7 @@
 
 Given a [[monad]] $t \colon a \to a$ in a [[2-category]] $K$, the **Kleisli object** $a_t$ of $t$ is, if it exists, the [[universal property|universal]] right $t$-[[module over a monad|module]] or $t$-opalgebra.  Equivalently, $a_t$ [[representable functor|represents]] the [[functor]] $RMod(-,t)$ that takes an object $x$ of $K$ to the category of right $t$-modules $a \to x$.
 
-This means that there is a [[1-morphism]] $f_t \colon a \to a_t$ and a [[2-morphism]] $\alpha \colon f_t t \Rightarrow f_t$ that induce an [[isomorphism]] $K(a_t,x) \cong RMod(x,t)$: given a right $t$-module $r \colon a \to x, \rho \colon r t \to r$, there is a unique morphism $h \colon a_t \to x$ whose [[composition|composite]] with $f_t$ (respectively $\alpha$) is equal to $r$ (resp. $\rho$).
+This means that there is a "free" [[1-morphism]] $f_t \colon a \to a_t$ and a [[2-morphism]] $\alpha \colon f_t t \Rightarrow f_t$ that induce an [[isomorphism]] $K(a_t,x) \cong RMod(x,t)$: given a right $t$-module $r \colon a \to x, \rho \colon r t \to r$, there is a unique morphism $h \colon a_t \to x$ whose [[composition|composite]] with $f_t$ (respectively $\alpha$) is equal to $r$ (resp. $\rho$).
 \begin{center}
 \begin{tikzcd}
 a 
