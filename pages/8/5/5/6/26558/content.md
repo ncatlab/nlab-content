@@ -30,7 +30,7 @@ $$
   \underset{
     \alpha \in \Omega_{dR}^{n-1}(X)
   }{\exists}
-  \omega' = \mathrm{d} \omega
+  \omega' = \mathrm{d}\alpha+ \omega
 $$
 
 is equivalent to the [[concordance]]-relation &lbrack;[FSS20, Prop. 6.4](#FSS20)&rbrack;
@@ -94,7 +94,7 @@ The *non-abelian de Rham cohomology* of a smooth manifold $X$ with [[coefficient
     X
     ;\,
     \mathfrak{a}
-  \big)_{clsd}
+  \big) _{clsd}
   \big/
   \mathrm{concordance}
   \,.
@@ -104,7 +104,7 @@ The *non-abelian de Rham cohomology* of a smooth manifold $X$ with [[coefficient
 ## Examples
 
 \begin{example}
-  With (eq:OrdinaryDeRhamCoboundaryAsConcordance) it follows that the ordinary [[de Rham cohomology]] in degre $n$ is equivalently non-abelian de Rham cohomology with [[coefficients]] in the [[line Lie n-algebra]] $b^{n-1}\mathfrak{u}(1)$:
+  With (eq:OrdinaryDeRhamCoboundaryAsConcordance) it follows that the ordinary [[de Rham cohomology]] in degree $n$ is equivalently non-abelian de Rham cohomology with [[coefficients]] in the [[line Lie n-algebra]] $b^{n-1}\mathfrak{u}(1)$:
 $$
   H_{dR}\big(
     X
@@ -127,7 +127,7 @@ $$
 
 ### Recipient of non-abelian character map
 
-For $\mathcal{A}$ (the [[homotopy type]] of) a [[topological space]] which is [[nilpotent topological space|nilpotent]] (for instance: [[simply connected topological space|simply connected]]) and of rational [[finite type]] (all its [[rational cohomology]]-groups are [[finite-dimensional vector spaces|finite-dimensional $\mathbb{Q}$-vector spaces]]) one may regard the [[homotopy classes]] of [[maps]] into $\athcal{A}$ as the [[nonabelian cohomology]] classified by $\mathcal{A}$ (the non-abelian cohomology in degree=1 with coefficients in the [[loop space]] [[infinity-group|$\infty$-group]] $\Omega \mathcal{A}$ ):
+For $\mathcal{A}$ (the [[homotopy type]] of) a [[topological space]] which is [[nilpotent topological space|nilpotent]] (for instance: [[simply connected topological space|simply connected]]) and of rational [[finite type]] (all its [[rational cohomology]]-groups are [[finite-dimensional vector spaces|finite-dimensional $\mathbb{Q}$-vector spaces]]) one may regard the [[homotopy classes]] of [[maps]] into $\mathcal{A}$ as the [[nonabelian cohomology]] classified by $\mathcal{A}$ (the non-abelian cohomology in degree=1 with coefficients in the [[loop space]] [[infinity-group|$\infty$-group]] $\Omega \mathcal{A}$ ):
 
 \[
   \label{NonabelianCohomology}
@@ -198,7 +198,7 @@ $$
   B U \times \mathbb{Z}
 $$
 
-is the [[classifying space]] [[KU]]$_0$ for complex [[topological K-theory]], then this reduces to to complex topologial K-theory:
+is the [[classifying space]] [[KU]]$_0$ for complex [[topological K-theory]], then this reduces to to complex topological K-theory:
 
 $$
   H\big(
