@@ -5,7 +5,7 @@
 
 * [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]]
 
-* [Lovely little lemmas] (http://lovelylittlelemmas.rjprojects.net/) by Remy van Dobben de Bruyn, 
+* [Lovely little lemmas] (http://lovelylittlelemmas.rjprojects.net/) by Remy van Dobben de Bruyn 
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
 
@@ -36,6 +36,8 @@
 * [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
 
 * [Oscar Cunningham's Blog](http://oscarcunningham.com/) (Category theory, nontrivial trivialities)
+
+* [Peter Cameron's Blog] (http://cameroncounts.wordpress.com/page/6/) notes on group theory, graph theory, number theory, and combinatorics
 
 * [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
 
