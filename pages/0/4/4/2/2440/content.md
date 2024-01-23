@@ -920,10 +920,10 @@ On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Sc
 * [[Roberto Catenacci]], [[C. A. Cremonini]], [[Pietro Antonio Grassi]], [[Simone Noja]], _Cohomology of Lie Superalgebras: Forms, Integral Forms and Coset Superspaces_ ([arXiv:2012.05246](https://arxiv.org/abs/2012.05246))
 
 
-
+[[!redirects super Lie algebras]]
 
 [[!redirects Lie superalgebra]]
-[[!redirects super Lie algebras]]
+[[!redirects Lie superalgebras]]
 
 [[!redirects super Lie bracket]]
 [[!redirects super Lie brackets]]
