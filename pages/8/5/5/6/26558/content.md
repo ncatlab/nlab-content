@@ -266,6 +266,19 @@ For the case that $\mathcal{A} = KU_0$ the [[cohomology operation]] (eq:TheNonab
 
 Therefore, it makes sense to refer to (eq:TheNonabelianCharacterMap) generally as the *character map on nonabelian cohomology* taking values in non-abelian de Rham cohomology ([FSS20, Part IV](#FSS20)).
 
+
+\begin{imagefromfile}
+    "file_name": "NonabCharacter-240123.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 ## Related entries
 
 * [[non-abelian cohomology]]
