@@ -2474,6 +2474,20 @@ Stone-von Neumann**
 
   > Classically, since $\mathbb{Z}/p$ [[prime field|is a field]], any [[module spectrum|module]] over the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p$ splits as a [[wedge sum|wedge]] of [[reduced suspension|suspensions]] of $H \mathbb{Z}/p$ itself. Equivariantly, the module theory of [[equivariant stable homotopy theory|$G$-equivariant]] Eilenberg—MacLane spectra is much more complicated.  For the [[cyclic group]] $G=C_p$ and the [[constant functor|constant]] [[Mackey functor]] $\mathbb{Z}/p$, there are infinitely many [[indecomposable object|indecomposable]] $H \mathbb{Z}/p$-modules. [Previous work](Bredon+cohomology#DuggerHazelMay24) together with [[Daniel Dugger|Dugger]] and [[Christy Hazel|Hazel]] classified all indecomposable $H \mathbb{Z}/2$-modules for the group $G=C_2$. The [[isomorphism classes]] of indecomposables fit into just three families. By contrast, we show for $G=C_p$ with $p$ an [[odd number|odd]] [[prime number|prime]], the classification of indecomposable $H \mathbb{Z}/p$-modules is wild. This is joint work in progress with Grevstad.
 
+\linebreak
+
+### Jan 2024
+
+* 24 Jan 2024:
+
+  Quentin Ehret:
+
+  **Central extensions of restricted Lie superalgebras and classification of $p$-nilpotent Lie superalgebras in dimension 4**
+
+  cf.: [arXiv:2401.08313](https://arxiv.org/abs/2401.08313)
+
+  > [[ground field|Over a field]] of [[positive characteristic]] $p$, restricted [[Lie algebras]] are of prime interest, mainly due to their link to [[algebraic groups]] and their role in [[representation theory]] and classification. The [[Lie algebra cohomology|cohomology]] associated with restricted Lie algebras is considerably more complicated than the ordinary [[Chevalley-Eilenberg complex|Chevalley-Eilenberg cohomology]] and explicit formulas are only known up to order 2. In this talk, I will explain how to build the first and second restricted cohomology groups for restricted [[Lie superalgebras]] in [[characteristic]] $p$ greater than 3, modifying a previous construction.  I will explain how these groups capture some algebraic structures, such as restricted extensions.  Further, I will show how to apply this construction to classify $p$-nilpotent restricted Lie superalgebras up to dimension 4 over an [[algebraically closed field]] of characteristic $p$ greater than 3. This is a joint work with Sofiane Bouarroudj (NYU Abu Dhabi).
+
 
 \linebreak
 
