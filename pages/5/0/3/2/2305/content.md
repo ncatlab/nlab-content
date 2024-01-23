@@ -125,6 +125,8 @@ This follows from the [[Mayer-Vietoris sequence]] associated to the open cover o
 
 * [[de Rham theorem]]
 
+* [[nonabelian de Rham cohomology]]
+
 ### Relation to PL de Rham complex
   {#RelaionToPLDeRhamComplex}
 
