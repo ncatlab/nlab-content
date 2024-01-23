@@ -1,7 +1,8 @@
 
-* [old personal page](http://sites.nd.edu/tcampion/)
+Tim Campion is a mathematician at Johns Hopkins University.
 
-He  is now at John Hopkins University (no web page as yet).
+* [old personal page](http://sites.nd.edu/tcampion/) (at Notre Dame)
+
 
 ## Selected writings
 
