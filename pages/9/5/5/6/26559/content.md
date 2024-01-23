@@ -163,10 +163,24 @@ That these two $L_\infty$-algebras coincide is the condition on the choice of th
 Finally, given such a choice of flux quantization law $\mathcal{A}$, the [[gauge potentials]] and hence the full [[moduli stack]] of [[higher gauge fields]] appears by forming the above matching not just as an identification in [[non-abelian de Rham cohomology]] but as a [[homotopy fiber product]] of the corresponding [[moduli stacks]]: This makes the full flux-quantized [[higher gauge fields]] be [[cocycles]] in [[nonabelian differential cohomology]] with coefficients in $\mathcal{A}$.
 
 \begin{remark}
-In comparison to more traditional discussions, beware that the (possibly non-abelian) $L_\infty$-algebra $\mathfrak{a}$ here controls the (possibly non-linear) [[Bianchi identities]]/[[Gauss law]] satisfied by the [[curvature forms]]/[[flux densities]] but is not the higher Lie algebra in which the [[gauge potentials]] take values, if any. 
-This is tacitly familiar in the case of RR-flux/D-brane charge: Here the characteristic $L_\infty$-algebra $[b_2, \, v_{2\bullet-1}] = v_{2\bullet + 1}$ bears no resemblance to the [[Lie algebra]] [[special unitary Lie algebra|$\mathfrak{su}(n)$]], and yet after choosing [[D-brane charge quantization in topological K-theory]] it follows that gauge potentials with coefficients in $\mathfrak{su}(n)$ (namely [[connection on a bundle|connections]] on Hermitean [[vector bundles]]) provide [[cocycles]] for the resulting [[differential K-theory]]. It is in this way (RR-flux quantization $\rightsquigarrow$ K-theory $\rightsquigarrow$ gauge bundles as cocycles) that non-abelian [[gauge fields]] appear on [[D-branes]].
+**(the role of [[L-infinity algebra|$L_\infty$-algebras]]: curvature-coefficients instead of gauge potiential-coefficients)**
+\linebreak
+In comparison to more traditional discussions, beware that the (possibly non-abelian) [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ here controls the (possibly non-linear) [[Bianchi identities]]/[[Gauss law]] satisfied by the [[curvature forms]]/[[flux densities]] --- and thus is *not* the (higher) Lie algebra in which the [[gauge potentials]] take values, if any. (Even in the abelian case, where both types of coefficient $L_\infty$-algebras make sense, they differ by a degree-shift.)
+
+This is an underappreciated use of [$L_\infty$-algebras in physics](L-infinity-algebra#ReferencesInPhysics), but it is known from the ["FDA"-method in supergravity](D'Auria-Fre+formulation+of+supergravity) and is tacitly familiar in traditional discussion of RR-flux/D-brane charge: 
+
+Here the characteristic $L_\infty$-algebra $[b_2, \, v_{2\bullet-1}] = v_{2\bullet + 1}$ bears no resemblance to the [[Lie algebra]] [[special unitary Lie algebra|$\mathfrak{su}(n)$]], and yet after choosing [[D-brane charge quantization in topological K-theory]] it follows (an algebro-topological form of "[[gauge enhancement]]") that gauge potentials with coefficients in $\mathfrak{su}(n)$ (namely [[connection on a bundle|connections]] on Hermitean [[vector bundles]]) provide [[cocycles]] for the resulting [[differential K-theory]]. It is in this way (RR-flux quantization $\rightsquigarrow$ K-theory $\rightsquigarrow$ gauge bundles as cocycles) that non-abelian [[gauge fields]] appear on [[D-branes]].
+
+In fact, flux quantization as discussed here does not apply to [[su(n)|$\mathfrak{su}(n)$]]-[[Yang-Mills theory]] directly, see Rem. \ref{RoleOfNilpotentLInfinityAlgebras}.
 \end{remark}
 
+\begin{remark}\label{RoleOfNilpotentLInfinityAlgebras}
+**(the role of [[nilpotent L-infinity algebras|nilpotent $L_\infty$-algebras]])**
+\linebreak
+Not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rational [[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] of (the [[homotopy type]] of) a space $\mathcal{A}$ that is amenable to [[rationalization]]; those that do are "[[nilpotent L-infinity algebra|nilpotent]]". 
+
+For instance [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie algebra]], which relates to the fact that flux quantization as discussed here --- while it does apply to non-linear/non-abelian higher Bianchi identities such as for the [[supergravity C-field|C-field]] --- does not apply directly to [[Yang-Mills theory]] with gauge Lie algebra [[su(n)|$\mathfrak{su}(n)$]] (or other [[classical Lie algebras]]).
+\end{remark}
 
 
 ## Flux densities and Brane sources
