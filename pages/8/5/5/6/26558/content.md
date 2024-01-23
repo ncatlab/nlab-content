@@ -127,7 +127,7 @@ $$
 
 ### Recipient of non-abelian character map
 
-For $\mathcal{A}$ (the [[homotopy type of]]) a [[topological space]] which is [[nilpotent topological space|nilpotent]] (for instance: [[simply connected topological space|simply connected]]) and of rational [[finite type]] (all its [[rational cohomology]]-groups are [[finite-dimensional vector spaces|finite-dimensional $\mathbb{Q}$-vector spaces]]) one may regard the [[homotopy classes]] of [[maps]] into $\athcal{A}$ as the [[nonabelian cohomology]] classified by $\mathcal{A}$ (the non-abelian cohomology in degree=1 with coefficients in the [[loop space]] [[infinity-group|$\infty$-group]] $\Omega \mathcal{A}$ ):
+For $\mathcal{A}$ (the [[homotopy type]] of) a [[topological space]] which is [[nilpotent topological space|nilpotent]] (for instance: [[simply connected topological space|simply connected]]) and of rational [[finite type]] (all its [[rational cohomology]]-groups are [[finite-dimensional vector spaces|finite-dimensional $\mathbb{Q}$-vector spaces]]) one may regard the [[homotopy classes]] of [[maps]] into $\athcal{A}$ as the [[nonabelian cohomology]] classified by $\mathcal{A}$ (the non-abelian cohomology in degree=1 with coefficients in the [[loop space]] [[infinity-group|$\infty$-group]] $\Omega \mathcal{A}$ ):
 
 \[
   \label{NonabelianCohomology}
@@ -264,11 +264,20 @@ and, shown on the right, a non-abelian version of the [[de Rham theorem]] --- gi
 
 For the case that $\mathcal{A} = KU_0$ the [[cohomology operation]] (eq:TheNonabelianCharacterMap) coincides with the [[Chern character]] on complex [[topological K-theory]], and generally for $\mathcal{A} = \mathcal{E}_n$ a term in an [[Omega-spectrum]] it coincides with  the [[Chern-Dold character]] map on [[Whitehead-generalized cohomology]] ([Prop. 7.2](#FSS20)).
 
-Therefore, it makes sense to refer to (eq:TheNonabelianCharacterMap) generally as the *character map on nonabelian cohomology* taking values in non-abelian de Rham cohomology.
+Therefore, it makes sense to refer to (eq:TheNonabelianCharacterMap) generally as the *character map on nonabelian cohomology* taking values in non-abelian de Rham cohomology ([FSS20, Part IV](#FSS20)).
+
+## Related entries
+
+* [[non-abelian cohomology]]
+
+* [[differential non-abelian cohomology]]
 
 
 ## References
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Part III of: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+
+
+[[!redirects nonabelian de Rham cohomology]]
 
 
