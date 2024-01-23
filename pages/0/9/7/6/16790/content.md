@@ -84,7 +84,7 @@ The near/far horizon limits of the [[black brane|black]] [[M-branes]]:
 ### The black M2-brane
  {#BlackM2}
 
-The [[black brane|black]] [[M2-brane]] is given by the [[Riemannian metric]]
+The [[black brane|black]] [[M2-brane]] is given (we follow [AFFHS98, §2.1.1](#AFFHS98)) by the [[Riemannian metric]] 
 
 \[
   \label{BlackM2BraneMetric}
@@ -97,7 +97,9 @@ The [[black brane|black]] [[M2-brane]] is given by the [[Riemannian metric]]
 and the [[C-field]] [[field strength|strength]]
 
 $$
-  F_{M2} \;\coloneqq\; dvol_{\mathbb{R}^{2,1}} \wedge d H^{-1}
+  F_{M2} 
+     \;\coloneqq\; 
+  dvol_{\mathbb{R}^{2,1}} \wedge d H^{-1}
 $$
 
 where $C(X_7)$ denotes the [[metric cone]] on a [[closed manifold|closed]] 7-[[dimension|dimensional]] [[Einstein manifold]] $X_7$ for [[cosmological constant]] $\Lambda = 5$, whence 
@@ -193,12 +195,13 @@ which is the metric on a [[Cartesian product]] of flat [[Minkowski spacetime]] [
 ### The black M5-brane
  {#BlackM5Brane}
 
-The [[black brane|black]] [[M5-brane]] is given by the [[Riemannian metric]]
+The [[black brane|black]] [[M5-brane]] is given (we follow [AFFHS98, §2.1.2](#AFFHS98)) by the [[Riemannian metric]]
 
 \[
   \label{BlackM5BraneMetric}
-  g_{M5} \;\coloneqq\;
-  H^{- 1/3} g_{(\mathbb{R}^{5,1})}
+  g_{M5} 
+    \;\coloneqq\;
+  H^{-1/3} g_{(\mathbb{R}^{5,1})}
   +
   H^{2/3} g_{C(X_4)}
 \]
@@ -206,7 +209,7 @@ The [[black brane|black]] [[M5-brane]] is given by the [[Riemannian metric]]
 and the [[C-field]] [[field strength|strength]]
 
 $$
-  F_{M2} \;\coloneqq\; \pm 3 \star_5 \wedge d H
+  F_{M2} \;\coloneqq\; \pm 3 \star_5  d H
 $$
 
 where $C(X_4)$ denotes the [[metric cone]] on a [[closed manifold|closed]] 4-[[dimension|dimensional]] [[Einstein manifold]] $X_4$ for [[cosmological constant]] $\Lambda = 3$, whence 
@@ -450,7 +453,7 @@ The observation that the resulting [[isometry group]] is the bosonic body of one
 
 A decent account is in 
 
-* {#AFFHS98} [[Bobby Acharya]], [[Jose Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_, Adv. Theor. Math. Phys.2:1249-1286, 1999 ([arXiv:hep-th/9808014](https://arxiv.org/abs/hep-th/9808014))
+* {#AFFHS98} [[Bobby Acharya]], [[Jose Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_, Adv. Theor. Math. Phys. **2** (1999) 1249-1286 &lbrack;[arXiv:hep-th/9808014](https://arxiv.org/abs/hep-th/9808014)&rbrack;
 
 reviewed in
 
