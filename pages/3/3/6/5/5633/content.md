@@ -63,6 +63,10 @@ On [[quantum K-theory rings]]:
 
 * W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
 
+On [[gauged linear sigma-models]]:
+
+* [[Eric Sharpe]], *A survey of recent developments in GLSMs* &lbrack;[arxiv:2401.11637](https://arxiv.org/abs/2401.11637)&rbrack;
+
 
 ## Selected talks
 
