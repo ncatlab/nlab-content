@@ -220,7 +220,9 @@ On [[mirror symmetry]], [[topological string theory]] and a [[mysterious duality
 
 * {#Vafa18} _F-theory, Black holes and topological strings_, talk at [ift 2018](https://www.ift.uam-csic.es/en/content/f-theory-black-holes-and-topological-strings), ([pdf](https://workshops.ift.uam-csic.es/files/221/Vafa.pdf), [recording](https://www.youtube.com/watch?v=Fmri3ke8Q-g))
 
+On [[Ray-Singer torsion]] in relation to the  [[topological string]] and [[black hole entropy]]:
 
+* [[Cumrun Vafa]], *Ray-Singer Torsion, Topological Strings and Black Holes* &lbrack;[arXiv:2401.12816](https://arxiv.org/abs/2401.12816)&rbrack;
 
 
 ## Related $n$Lab entries
