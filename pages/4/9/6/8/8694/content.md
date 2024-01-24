@@ -48,11 +48,11 @@ Here
 
 ## References
 
-Section 5 of
-
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], Section 5 of: _[[The Geometry of Physics - An Introduction]]_
 
 * [[geometry of physics]], _[The electromagnetic field strength](geometry+of+physics#ElectromagneticFieldStrength)_
+
+* Wikipedia, *[Magnetic vector potential](https://en.wikipedia.org/wiki/Magnetic_vector_potential)*
 
 [[!redirects electromagnetic potentials]]
 
