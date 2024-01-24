@@ -69,5 +69,10 @@ with further developments including
 
 * {#Park09} Jinsung Park, _Analytic torsion and Ruelle zeta functions for hyperbolic manifolds with cusps_, Journal of Functional Analysis Volume 257, Issue 6, 15 September 2009, Pages 1713&#8211;1758
 
+In relation to the  [[topological string]] and [[black hole entropy]]:
+
+* [[Cumrun Vafa]], *Ray-Singer Torsion, Topological Strings and Black Holes* &lbrack;[arXiv:2401.12816](https://arxiv.org/abs/2401.12816)&rbrack;
+
+
 
 [[!redirects Ray-Singer torsion]]
