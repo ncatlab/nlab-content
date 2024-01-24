@@ -207,9 +207,14 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[free field theory]]
 
+
 ## References
 
 ### General
+
+Historical origins:
+
+* [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
 
 Textbook accounts:
 
