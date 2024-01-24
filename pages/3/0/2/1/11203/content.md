@@ -189,6 +189,10 @@ Via [[topological phases of matter]]:
 [[!redirects Abrikosov vortex]]
 [[!redirects Abrikosov vortices]]
 
+[[!redirects Abrikosov vortex string]]
+[[!redirects Abrikosov vortex strings]]
+
+
 [[!redirects Meissner effect]]
 [[!redirects Meissner-Ochsenfeld effect]]
 
