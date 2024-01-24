@@ -186,11 +186,6 @@ Via [[topological phases of matter]]:
 [[!redirects type II superconductor]]
 [[!redirects type II superconductors]]
 
-[[!redirects Abrikosov vortex]]
-[[!redirects Abrikosov vortices]]
-
-[[!redirects Abrikosov vortex string]]
-[[!redirects Abrikosov vortex strings]]
 
 
 [[!redirects Meissner effect]]
