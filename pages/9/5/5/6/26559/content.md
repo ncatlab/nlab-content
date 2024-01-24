@@ -196,11 +196,20 @@ Generally, not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rationa
 Specifically, [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie algebra]], which relates to the fact that flux quantization as discussed here --- while it does apply to non-linear/non-abelian higher Bianchi identities such as for the [[supergravity C-field|C-field]] --- does not apply directly to [[Yang-Mills theory]] with gauge Lie algebra [[su(n)|$\mathfrak{su}(n)$]] (or other [[classical Lie algebras]]).
 \end{remark}
 
+\linebreak
+
+We now explain all this in more detail.
+
+\linebreak
 
 ## Flux densities and Brane sources
  {#FluxDensitiesAndBraneSources}
 
-Faraday observed "lines of force" -- now called *flux of the magnetic field* -- to concentrate towards the poles of rod magnets:
+
+### Ordinary electromagnetic flux and its "branes"
+ {#OrdinaryElectromagneticFluxAndItsBranes}
+
+Faraday observed "lines of force" -- now called *flux of the magnetic field* -- concentrating towards the *poles* of rod magnets:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FaradayIronFilings-240124.jpg",
@@ -217,7 +226,6 @@ Faraday observed "lines of force" -- now called *flux of the magnetic field* -- 
 
 In modern [[differential geometry|differential-geometric]] formulation, the [[flux density|density of these flux lines]] through any given [[surface]]-element is encoded in a [[differential 2-form]] $F_2$:
 
-
 \begin{imagefromfile}
     "file_name": "GeomPhys-FluxDensityAs2Form-240124.jpg",
     "width": 600,
@@ -230,6 +238,220 @@ In modern [[differential geometry|differential-geometric]] formulation, the [[fl
     },
     "caption": "adapted from [Hyperphysics](#Hyperphysics)"
 \end{imagefromfile}
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-EMFluxDensity-240124.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -35,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+More in detail, with respect to any [[foliation]] of [[spacetime]] $X^4$ by [[spacelike]] [[Cauchy surfaces]] $X^4 \simeq \mathbb{R}^1 \times X^d$ (assuming [[globally hyperbolic spacetime|global hyperbolicity]]), the spatial component of $F_2$ is the *magentic flux density* $B$, while the [[Hodge duality|Hodge dual]]  (with respect to $X^4$) of the temporal component is the *electric flux density* $E$.
+
+Imagining, as Dirac did, that Faraday's rod magnet could be made *infinitely* long and thin, any one of its poles would look like an isolated [[monopole|mono-pole]] with flux concentrating towards it from all directions:
+
+\begin{imagefromfile}
+    "file_name": "MagneticMonopole-240124.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+At the point of the idealized monopole itself, the flux density $B$ per unit volume would diverge -- a "singularity" much in the sense of [[black holes]], which therefore we do not regard to be part of spacetime(time): The spacetime domain on which to discuss the fluxes sourced by a magnetic monopole is not [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ itself, but its  [[complement]] around the [[worldline]] $\mathbb{R}^{0,1}$ of the would-be monopole:
+
+$$
+  \mathbb{R}^{3,1} 
+    \setminus
+  \mathbb{R}^{0,1}
+  \;
+  \underset{\mathrm{homeo}}{\simeq}
+  \;
+  \mathbb{R}^{0,1}
+  \times
+  \big(
+    \mathbb{R}^3 \setminus \{0\}
+  \big)
+  \;
+  \underset{\mathrm{homeo}}{\simeq}
+  \;
+  \mathbb{R}^{0,1} 
+  \times 
+  R^1_{\gt 0}
+  \times S^2
+  \;
+  \underset{\mathrm{hmtp}}{\simeq}
+  \;
+  S^2
+  \,.
+$$
+
+As such, magnetic monopoles are the *[[singular brane|singular]] 0-[[branes]]* of electromagnetism --- in theory: Whether magnetic monopoles exist in nature remains open; they have not been seen in [[experiment]], but there are decent theoretical arguments that they should exist in [[grand unified theories]].
+
+On the other hand, the "[[solitonic branes]] of electromagnetism" are experimentally well-established (and have famously been regarded as actual 1-[[branes]] ([[strings]]) approximated by a [[Nambu-Goto action]]: [Nielsen & Olesen 1973](vortex+string#NielsenOlesen73); [Polyakov 2008, p. 1](vortex+string#Polyakov08); [Beekman & Zaanen 2011](vortex+string#BeekmanZaanen11)): These are the [[Abrikosov vortices]] formed in [[type II superconductors]] with in a transverse magnetic field:
+
+\begin{imagefromfile}
+    "file_name": "SuperconductorVortexStructure-230304.jpg",
+    "width": 720,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "adapted from [Loudon and Midgley 2009](superconductivity#LoudonMidgley09)"
+\end{imagefromfile}
+
+In this case the "sphere" through which the total magnetic flux density is measured is nominally the [[plane]] filled by the superconducting material, but since far away from any vortex the magentic flux has to vanish, this plane appears to the fluxes via its [[one-point compactification]] with the "point at infinity" adjoined.
+
+These vortext strings are *[[solitons]]* in that the flux density is everywhere finite, and yet the "bumps" in the flux density are topologically stable. Much like a bump in a rug cannot be flattened as long as the boundary of the rug is fixed in place, so the requirement that flux densities "[[vanishing at infinity|vanish at infinity]]" keeps the vortex strings in place --- or at least this is the case once we take account of [[Dirac flux quantization]] below.
+
+In summary:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MonopolesAndVortices-240124.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+The fact that there are, generally, these two kinds of "branes imprinted on flux" is "well-known" and yet underappreciated:
+
+\linebreak
+
+### The distinction between singular and solitonic branes
+ {#TheDistinctionBetweenSingularAndSolitonicBranes}
+
+Imprinted on [[flux densities]] may be *two kinds* of [[branes]], here to be called:
+
+1.  **[[singular branes]]** ([[black branes]]) reflected in **diverging flux density** at **singular loci** to be removed from spacetime,
+
+1. **[[solitonic branes]]** reflected in *localized* but
+**finite flux density**, namely **[[vanishing at infinity]]**, transversally.
+
+>   Beware that, while the terminology "[[solitonic brane]]" is wide-spread, its exact meaning differs between authors (as does the term "[[soliton]]" that it is derived from): It was introduced in [Duff, Khuri & Lu 1992](#DuffKhuriLu92), [1994](#DuffKhuriLu94) and [Duff & Lu 1993](#DuffLu93), [1994](#DuffLu94) to mean stable but *non-singular* brane-like solutions to (supergravity/flux) equations of motion, which is how we use it here. But already [Stelle 1998](solitonic+brane#Stelle98) uses "solitonic" to instead mean the  "[[electric-magnetic duality|electromagnetic-dual]] [[singular brane]]", e.g. calling the singular [[NS5-brane|$\mathrm{NS}_5$-brane]] the soliton of the [[F1-brane|fundamental string]]. Somewhat in this vein, many later authors (e.g.  [Smith (2002), p. 5](solitonic+brane#Smith02)) use "solitonic" for any singular or non-singular brane-like supergravity solution,  thus regarding it as the antonym to the [[fundamental particle|fundamental]] [[sigma-model]] branes.
+
+In other words, the choice of spacetime [[domain]] encodes where the fluxes sourced by singular or solitonic branes are not necessarily defined or constrained to vanish, respectively &lbrack;[SS23-MF, §2.1](#SS23-MF)&rbrack;:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-SingularAndSolitonicBranes.240124.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+For example, in the case of *flat branes*, both these spacetime domains are [[homotopy equivalence|homotopy equivalence]] to [[spheres]], but of differen dimensions:
+
+(1.) Spacetime domain for flat singular branes:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FlatSingularBranes-240124.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+(2.) Spacetime domain for flat solitonic branes:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FlatSolitonicBranes-240124.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+### Solution space of higher Maxwell equations
+
+(...)
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HigherMaxwellEquations.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+\begin{proposition}
+**([SS23-FQ](#SS23-FQ))**
+  On a [[globally hyperbolic spacetime]] $X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d$, the solution space to [higher Maxwell-equations](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) of motion brought into the [[duality-symmetric higher gauge theory|duality-symmetric form]] is [[isomorphism|isomorphic]] to the solution of the [[Bianchi identities]] on any [[Cauchy surface]] $\iota \,:\, X^d \hookrightarrow X^D$, then to be called the higher *[[Gauss law]]*
+\end{proposition}
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HigherMaxwellSolutionSpace.jpg",
+    "width": 850,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+(...)
+
+\begin{imagefromfile}
+    "file_name": "CanonicalAndCovariantPhaseSpace-240124.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+(...)
+
+
+
+
 
 (...)
 
@@ -274,11 +496,16 @@ In modern [[differential geometry|differential-geometric]] formulation, the [[fl
 
 * {#Hyperphysics} Hyperphysics, *Magnetic Flux* &lbrack;[hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html)&rbrack;
 
+* {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[arXiv:0807.2401](https://arxiv.org/abs/0807.2401), [doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008)&rbrack;
+
 
 * {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
 
+* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) &lbrack;[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)&rbrack;
 
-* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) $[$[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)$]$
+* {#SS23-MF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:M/F-Theory as Mf-Theory|M/F-Theory as $M f$-Theory]]*, Rev. Math. Phys. **35** 10 (2023) &lbrack;[doi:10.1142/S0129055X23500289](https://doi.org/10.1142/S0129055X23500289), [arXiv:2103.01877](https://arxiv.org/abs/2103.01877)&rbrack;
+
+* {#SS23-FQ} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
 
 * {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
