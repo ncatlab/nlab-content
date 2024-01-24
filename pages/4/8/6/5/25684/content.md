@@ -44,9 +44,21 @@ Uniqueness rules:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \phi \; \mathrm{prop} \quad \Gamma, \phi \vdash u:A \quad \Gamma \vdash v:\{A \vert \overline{\phi \to u}\}}{\Gamma \vdash \mathrm{inS}(\mathrm{outS}(v)) \equiv v:\{A \vert \overline{\phi \to u}\}}$$
 
+\begin{remark}
+The introduction and elimination operators $\mathrm{inS}$ and $\mathrm{outS}$ implicitly carries around the underlying proposition $\phi$, and these matter in the equations.
+
+For instance, in type theories with [[coercive subtyping]], one may expect to coerce _stronger_ extension types into _weaker_ ones using the composition of $\mathrm{inS}$ and $\mathrm{outS}$, where we use $\Gamma, \phi \vdash \phi'$ to say that the proposition $\phi$ implies $\phi'$ in the second layer:
+
+$$\frac
+  {\Gamma, \phi \vdash \phi' \quad \Gamma \vdash v : \{A \vert \phi \to u \} }
+  {\Gamma \vdash \mathrm{inS}(\mathrm{outS}(v)) : \{A \vert \phi' \to u \} }$$
+
+But this coercion does not simplify directly to $v$ because the underlying proposition carried by the operators are not the same.
+\end{remark}
+
 ### In type theory with shapes
 
-In [[type theory with shapes]], there are three different layers - there are the cube layer and the tope layer, which is [[logic over type theory]] where the cubes are the types and the topes are the propositions in the logic over type theory, and finally there is the type layer, which is a [[dependent type theory]]. 
+In [[type theory with shapes]], there are three different layers - there are the cube layer and the tope layer, which is [[logic over type theory]] where the cubes are the types and the topes are the propositions in the logic over type theory, and finally there is the type layer, which is a [[dependent type theory]]. Note that this type layer is distinct from the cube layer regarded as a type theory.
 
 Shapes are formed in the usual set-builder notation in [[set theory]]: given a cube $I$ and a predicate tope $t:I \vdash \phi$, one could construct the shape $\{t:I \vert \phi\}$. A cofibration in two-level type theory is an inclusion of shapes, which means shapes $\{t:I \vert \phi\}$ and $\{t:I \vert \psi\}$ with a predicate $t:I \vert \phi \vdash \psi$. 
 
