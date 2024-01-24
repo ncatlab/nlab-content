@@ -23,6 +23,12 @@ On [[Dirac monopoles]]:
 
 * [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976)
 
+On the historical origin of [[Maxwell's equations]], the "[[vector potential]]" and ([[Yang-Mills theory|Yang-Mills]]) [[gauge theory]]:
+
+* A. C. T. Wu, [[Chen Ning Yang]], *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
+
+* [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
+
 
 ## Quotes
  {#Quotes}
@@ -53,7 +59,6 @@ Yang expanded on this passage in an interview recorded as
 
 > $[$This$]$ was not just joy. There was something more, something deeper: After all, what could be more mysterious, what could be more awe-inspiring, than to find that the structure of the [[observable universe|physical world]] is intimately tied to the deep [[mathematics|mathematical]] concepts, concepts which were developed out of considerations rooted only in [[logic]] and the beauty of form?
 
-\linebreak
 
 
 
