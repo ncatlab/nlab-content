@@ -282,6 +282,9 @@ Some history and reflection:
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
+* [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
+
+
 For Maxwell's equations in the generality of [[dielectric media]], see the references there, such as:
 
 * G. Russakoff, *A Derivation of the Macroscopic Maxwell Equations*, American Journal of Physics **38** (1970) 1188–1195 &lbrack;[doi:10.1119/1.1976000](https://doi.org/10.1119/1.1976000)&rbrack;
