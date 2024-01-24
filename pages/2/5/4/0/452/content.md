@@ -207,7 +207,9 @@ between the corresponding [[delooping|delooped]] [[2-groupoid | 2-groupoids]]. E
 * For $H$ any group, its [[automorphism]] crossed module is 
 
   $$
-    AUT(H) := (G_2 = H, G_1 = Aut(H), \delta = Id, \alpha = Ad)
+    AUT(H) 
+    \coloneqq
+    (G_2 = H, G_1 = Aut(H), \delta = Id, \alpha = Ad)
    \,.
   $$ 
 
