@@ -306,9 +306,18 @@ Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[p
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _Hodge Dualities on Supermanifolds_, Nuclear Physics B Volume 899, October 2015, Pages 570-593 ([arXiv:1507.01421](https://arxiv.org/abs/1507.01421))
 
-[[!redirects Hodge star]]
-[[!redirects Hodge star operator]]
 [[!redirects Hodge star operators]]
+
+[[!redirects Hodge star-operator]]
+[[!redirects Hodge star-operators]]
+
+[[!redirects Hodge-star operator]]
+[[!redirects Hodge-star operators]]
+
+
+[[!redirects Hodge star]]
+[[!redirects Hodge stars]]
+
 
 [[!redirects Hodge inner product]]
 
@@ -320,6 +329,8 @@ Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[p
 
 [[!redirects Hodge pairing]]
 [[!redirects Hodge pairings]]
+
+
 
 
 
