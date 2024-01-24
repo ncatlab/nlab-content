@@ -5,7 +5,129 @@
 
 ## Idea
 
-(...)
+In [[computer science]], _cryptography_ is the art and science of securing communication and information through the use of [[mathematics|mathematical techniques]]. 
+
+Its roots trace back to ancient civilizations where secret codes were employed to protect sensitive messages. The earliest known use of cryptography is attributed to the ancient Egyptians, who used [hieroglyphs to inscribe messages](https://www.redhat.com/en/blog/brief-history-cryptography) on monuments in a way that could only be understood by those with the knowledge of the secret key.
+
+Today, cryptography relies on a wide variety of mathematical topics. Here is a non-exhaustive list of fields and topics that are particularly relevant to cryptography:
+
+- **Number Theory** (modular arithmetic, prime numbers, and group theory in the context of modular arithmetic)
+
+- **Abstract Algebra** (groups, rings, and fields such as Galois fields)
+
+- **Algebraic Geometry** (elliptic curve cryptography and algebraic varieties over finite fields)
+
+- **Combinatorics** (combinatorial designs and error-correcting codes)
+
+- **Probability Theory** (randomized algorithms in cryptography and probability distributions relevant to cryptographic protocols
+
+- **Graph Theory** (graph-based cryptographic algorithms
+ and network flow algorithms in the context of network security)
+
+- **Topology** (algebraic topology and homological algebra)
+
+- **Logic** (in the context of formal verification and proof systems)
+
+- **Complex Analysis** (analytic number theory)
+
+- **Functional Analysis** (for signal processing and cryptographic protocols)
+
+
+## Symmetric  and assymmetric cryptography
+
+There are two fundamental types of cryptography: _symmetric_ and _asymmetric_. Symmetric cryptography involves the use of a single secret key $k$ for both encryption $E_k:M \to C$ and decryption $D_k:C \to M$. This key must be securely shared between the communicating parties. 
+
+\[
+\begin{array}{ccccc}
+\mathsf{Bob} &\longrightarrow& \mathsf{Channel} & \longrightarrow &\mathsf{Alice}\\
+m & \longrightarrow & E_k(m) & \longrightarrow & D_{k}(E_k(m)) = m
+\end{array}
+\]
+
+On the other hand, asymmetric cryptography uses a pair of keys – a public key $k$ for encryption $E_k:M \to C$ and a private key $k'$ for decryption $D_{k'}:C \to M$. This asymmetric key pair allows for secure communication without the need for a shared secret, offering enhanced security in various scenarios.
+
+\[
+\begin{array}{ccccc}
+\mathsf{Bob} &\longrightarrow& \mathsf{Channel} & \longrightarrow &\mathsf{Alice}\\
+m & \longrightarrow & E_k(m) & \longrightarrow & D_{k'}(E_k(m)) = m
+\end{array}
+\]
+
+In practice, Alice would generate both keys $k'$ and $k$ and would send the public key $k$ to Bob.
+
+## Security and attacks
+
+Security in cryptography is a constant battle against potential attacks. Common attacks include brute force, where an attacker systematically tries all possible keys, and cryptanalysis, which involves exploiting vulnerabilities in the cryptographic algorithm. 
+
+Modern cryptographic systems aim to withstand these attacks, often relying on the complexity of mathematical problems, such as factoring large numbers or solving discrete logarithms, to ensure security.
+
+### Complexity classes
+
+
+[[complexity class|Complexity classes]] play a pivotal role in cryptography, providing a framework to analyze the efficiency and security of cryptographic algorithms. 
+
+The study of computational complexity helps assess the computational resources required to break a cryptographic scheme, distinguishing between feasible and infeasible attacks. 
+
+
+### Invertibility principle
+
+In cryptography, the concept of invertibility is essential for ensuring secure decryption. When plaintext undergoes encryption through the encryption algorithm $E_k:M \to C$, the efficacy of the system depends on the ease of decryption for authorized users and the complexity it imposes on unauthorized attempts.
+
+[[bijection|Bijections]] (or [[inverse|isomorphisms]]) $E:M \to C$ whose inverses $D = E^{-1}:C \to M$ are hard to compute provide practical examples of this principle. Such bijections $(E,D)$ establish a one-to-one relationship between plaintext $M$ and ciphertext $C$, enabling straightforward decryption given suitable information (constituting the potential private key $k$) while posing a significant challenge for unauthorized attempts.
+
+Mathematically, we could imagine that Alice and Bob have access to a groupoid $\mathcal{G}$ and a category $\mathcal{C}$, respectively, such that $\mathcal{C}$ is embedded in $\mathcal{G}$ via an inclusion functor.
+\[
+\mathcal{C} \hookrightarrow \mathcal{G}
+\]
+The security of a cryptosystem would then rely on the difficulty of reconstructing this inclusion using an algorithmic completion procedure.
+
+These mathematical principles form the foundation for secure cryptosystems, ensuring that only authorized users can successfully decrypt and access sensitive information.
+
+\begin{remark}
+Note that there is flexibility in considering weaker notions of isomorphisms, especially if Alice can employ these weaker isomorphisms effectively in the decryption of the message $m$ from the data $D_{k'}(E_k(m))$.
+\[
+D_{k'}(E_k(m)) \leftrightarrows m
+\]
+In category theory, examples of these weaker notions can be derived from higher category theory. This includes concepts such as [[adjoint equivalence|adjoint equivalences]], [[algebras for an endofunctor|algebras]], [[coalgebras|coalgebras]], and [[retractions|retractions]].
+\end{remark}
+
+## Post-quantum cryptography
+
+With the advent of [[quantum computation|quantum computers]], there is growing concern about the potential threat they pose to existing cryptographic systems. Post-[[quantum cryptography]] is an evolving field that explores algorithms resistant to quantum attacks. 
+
+Researchers are developing cryptographic schemes that rely on mathematical problems difficult for both classical and quantum computers to solve, ensuring the continued security of communication in the post-quantum era.
+
+### Useful links
+
+* [NTRU](https://en.wikipedia.org/wiki/NTRU)
+
+* [LWE](https://en.wikipedia.org/wiki/Learning_with_errors) and [RLWE](https://en.wikipedia.org/wiki/Ring_learning_with_errors)
+
+* [[braid group cryptography -- references|Braid group cryptography]]
+
+## Homomorphic cryptography
+
+[[homomorphism|Homomorphic]] cryptography takes a unique approach by allowing the processing of operations $\square$ on encrypted data without decrypting it first. 
+
+\[
+D(E(m_1) \square E(m_2)) = m_1 \square m_2
+\]
+
+This field aims to preserve privacy while still enabling meaningful computations on sensitive information. 
+
+Fully homomorphic cryptography, [a subset of homomorphic cryptography](https://en.wikipedia.org/wiki/Homomorphic_encryption), extends this concept to support arbitrary computations on encrypted data, opening new possibilities for secure and privacy-preserving data processing in various applications, including cloud computing and data analytics.
+
+
+
+### Related concepts
+
+* [[group|Group]]-[[homomorphism|homomorphisms]]
+
+* [[ring|Ring]]-[[homomorphism|homomorphisms]]
+
+* [[functor|Functors]]
+
+* [[monoidal functor|Monoidal functors]]
 
 
 ## Related entries
@@ -36,9 +158,6 @@
 [[probability theory|probabilistic]]:
 
 * Shafi Goldwasser, Silvio Micali, _Probabilistic encryption_, Journal of Computer and System Sciences 28:2 (1984) 270-299
-
-
-[[!include braid group cryptography -- references]]
 
 
 ### Verified software
