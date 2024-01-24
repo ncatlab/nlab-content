@@ -29,7 +29,8 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 ## References
 
-* {#VilenkinShellard94} [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+* {#VilenkinShellard94} [[Alexander Vilenkin]], E. P. S. Shellard, *Cosmic strings and other topological defects*, Cambridge University Press (1994) &lbrack;[ISBN:9780521654760](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/cosmic-strings-and-other-topological-defects?format=PB&isbn=9780521654760), [spire:1384873](https://inspirehep.net/literature/1384873)&rbrack;
+
 
 See also: 
 
