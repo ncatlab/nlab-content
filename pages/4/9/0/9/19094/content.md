@@ -13,8 +13,12 @@ and for the [[orientifold]] version of [[heterotic M-theory on ADE-singularities
 
 * Fabio Apruzzi, [[Marco Fazzi]], Section 2.1.2 of: _AdS7/CFT6 with orientifolds_, JHEP 01 (2018) 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
 
+On the [[Coulomb branch]] of [[D=3 N=4 SYM]] from [[heterotic string theory]] on [[ADE-singularities]]:
 
-## Related $n$Lab entries
+* [[Michele Del Zotto]], [[Marco Fazzi]], Suvendu Giri, *A new vista on the Heterotic Moduli Space from Six and Three Dimensions* &lbrack;[arXiv:2307.10356](https://arxiv.org/abs/2307.10356)&rbrack;
+
+
+## Related entries
 
 * [[NS5-brane]]
 
