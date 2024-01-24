@@ -19,7 +19,12 @@ On [[D=2 QCD]] ([['t Hooft model]]):
 
 * {#tHooft74} [[Gerard ’t Hooft]], _A Two-Dimensional Model For Mesons_, Nucl. Phys. B75, 461 (1974) (<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>)
 
-On [[naturalness]] and [[chiral symemtry breaking]] (and introducing the concept that became known as *[['t Hooft anomalies]]*):
+Original argument that [[magnetic monopoles]] may appear in [[grand unified theories]]:
+
+* [[Gerard ’t Hooft]], *Magnetic Monopoles in Unified Gauge Theories*, Nucl. Phys. B **79** (1974) 276-284 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90486-6">doi:10.1016/0550-3213(74)90486-6</a>&rbrack;
+
+
+On [[naturalness]] and [[chiral symmetry breaking]] (and introducing the concept that became known as *[['t Hooft anomalies]]*):
 
 * {#tHooft1980} [[Gerard 't Hooft]], *Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking* In: G. 'Hooft et al., *Recent Developments in Gauge Theories*, NATO Advanced Study Institutes Series **59**, Springer (1980) &lbrack;[doi:10.1007/978-1-4684-7571-5_9](https://doi.org/10.1007/978-1-4684-7571-5_9)&rbrack;
 
