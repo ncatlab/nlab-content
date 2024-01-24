@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -42,14 +41,24 @@ Vortex strings were originally considered in the abelian gauge theory of [[elect
 
 * {#Abrikosov57a} [[Alexei Abrikosov]], _On the Magnetic properties of superconductors of the second group_, Sov. Phys. JETP 5 (1957) 1174-1182, Zh. Eksp. Teor. Fiz. 32 (1957) 1442-1452 ([spire:9138](https://inspirehep.net/literature/9138))
 
-The idea that these vortex flux tube could be thought of as dynamical [[strings]] much as in [[string theory]] is due to:
+The suggestion that these vortex flux tube could be thought of as dynamical [[strings]] much as in [[string theory]]:
 
-* {#NielsenOlesen73} [[Holger Bech Nielsen]], [[Poul Olesen]], _Vortex-line models for dual strings_, Nuclear Physics B Volume 61, 24 September 1973, Pages 45-61 (<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>)
+* {#NielsenOlesen73} [[Holger Bech Nielsen]], [[Poul Olesen]], *Vortex-line models for dual strings*, Nuclear Physics B **61** (1973) 45-61 \[<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>\]
 
-See also 
+* {#BeekmanZaanen11} [[Aron J. Beekman]], [[Jan Zaanen]], *Electrodynamics of Abrikosov vortices: the field theoretical formulation*, Front. Phys. **6** (2011) 357–369 &lbrack;[doi:10.1007/s11467-011-0205-0](https://doi.org/10.1007/s11467-011-0205-0)&rbrack;
+
+* {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings* &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183)&rbrack;
+
+  published as: *Quarks, strings and beyond*, section 44 in: [[Paolo Di Vecchia]] et al. (ed.), *The Birth of String Theory*, Cambridge University Press (2012) 544-551 &lbrack;[doi:10.1017/CBO9780511977725.048](https://doi.org/10.1017/CBO9780511977725.048)&rbrack;
+
+  > "I remember that in the late sixties to early seventies
+Tolya Larkin and I discussed (many times) whether Abrikosov’s vortices could be viewed as elementary particles. Nothing concrete came out of this at that time, but it helped me with my later work. With some imagination we could have related the vortex lines with strings but we missed it."
+
+See also:
 
 * Wikipedia, _[Nielsen-Olesen vortex](https://en.wikipedia.org/wiki/Nielsen%E2%80%93Olesen_vortex)_
 
+* Wikipedia, *[Quantum vortex](https://en.wikipedia.org/wiki/Quantum_vortex)*
 
 ### In Yang-Mills theory
 
@@ -95,6 +104,13 @@ Physics Letters B **750** (2015) 416-419
 
 [[!redirects vortex strings]]
 
+[[!redirects Abrikosov vortex]]
+[[!redirects Abrikosov vortices]]
+
+[[!redirects Abrikosov vortex string]]
+[[!redirects Abrikosov vortex strings]]
+
+
 [[!redirects Nielsen-Olesen vortex]]
 [[!redirects Nielsen-Olesen vortices]]
 
@@ -103,3 +119,5 @@ Physics Letters B **750** (2015) 416-419
 
 [[!redirects Nielsen-Olesen vortex string]]
 [[!redirects Nielsen-Olesen vortex strings]]
+
+
