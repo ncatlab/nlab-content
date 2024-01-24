@@ -20,5 +20,10 @@ On [[QFT with defects]]:
 
 * [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
 
+On the [[Coulomb branch]] of [[D=3 N=4 SYM]] from [[heterotic string theory]] on [[ADE-singularities]]:
+
+* [[Michele Del Zotto]], [[Marco Fazzi]], Suvendu Giri, *A new vista on the Heterotic Moduli Space from Six and Three Dimensions* &lbrack;[arXiv:2307.10356](https://arxiv.org/abs/2307.10356)&rbrack;
+
+
 
 category: people
