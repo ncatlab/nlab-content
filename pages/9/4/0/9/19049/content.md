@@ -100,7 +100,7 @@ While  the $S$-[[state monad]] is the [[monad]] [induced](monad#RelationBetweenA
     \big]
   $$
 
-the *$S$-state comonad* is the induced comonad
+the *$S$-store comonad* is the induced comonad
 
 $$
   S Store
