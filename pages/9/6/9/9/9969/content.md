@@ -12,7 +12,7 @@ On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[
 
 * [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
 
-On the [[Aharanov-Bohm effect]], generalized to non-abelian [[Yang-Mills theory]] and its description by [[connection on a bundle|connections]] on [[fiber bundles in physics]]:
+On the [[Aharonov-Bohm effect]], generalized to non-abelian [[Yang-Mills theory]] and its description by [[connection on a bundle|connections]] on [[fiber bundles in physics]]:
 
 * {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
 
