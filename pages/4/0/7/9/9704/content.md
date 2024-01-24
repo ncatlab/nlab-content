@@ -39,8 +39,9 @@ In the original [[Dirac charge quantization]] argument an [[electromagnetic fiel
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/MagneticMonopole-230628.jpg" width="620">
+<img src="https://ncatlab.org/nlab/files/MagneticMonopole-240124.jpg" width="620">
 </center>
+
 
 This is the classical example of monopoles and often taken to be the default meaning. (In the context of the [[standard model of particle physics]], however, the default meaning is that of electroweak vacuum defect monopoles, discussed [below](#ElectroweakMonopoles).)
 
@@ -111,6 +112,10 @@ Textbook accounts:
 
 * [[Yakov Shnir]], *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
+The original argument that magentic monopoles may appear in [[grand unified theories]]:
+
+* [[Gerard ’t Hooft]], *Magnetic Monopoles in Unified Gauge Theories*, Nucl. Phys. B **79** (1974) 276-284 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90486-6">doi:10.1016/0550-3213(74)90486-6</a>&rbrack;
+
 On the [[phenomenology]] of magnetic monopoles:
 
 * [[Particle Data Group]], *Magnetic Monopoles*, Section 95 in: *The Review of Particle Physics* (2022) &lbrack;[pdf](https://pdg.lbl.gov/2022/reviews/rpp2022-rev-mag-monopole-searches.pdf)&rbrack;
@@ -122,13 +127,13 @@ On [[Yang-Mills monopoles]]:
 
 Experimental search for magnetic monopoles via the [[Schwinger effect]]:
 
-* B. Acharya et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
+* [[Bobby Acharya]] et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
 
 
-A general account of [[vacuum]] [[QFT with defects|defects]] such as [[domain walls]] and monopoles is in 
+A general account of [[vacuum]] [[QFT with defects|defects]] such as [[domain walls]] and monopoles:
 
-* [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
- {#VilenkinShellard94}
+* {#VilenkinShellard94} [[Alexander Vilenkin]], E. P. S. Shellard, *Cosmic strings and other topological defects*, Cambridge University Press (1994) &lbrack;[ISBN:9780521654760](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/cosmic-strings-and-other-topological-defects?format=PB&isbn=9780521654760), [spire:1384873](https://inspirehep.net/literature/1384873)&rbrack;
+ 
 
 Detailed discussion of the [[phenomenology]] of [[electroweak force|electroweak]] monopoles is in 
 
