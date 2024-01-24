@@ -35,7 +35,7 @@ A **group object** or **internal group** [[internalization|internal to]] a categ
 
   * [[neutral element]]: 
 
-    $\mathrm{e} \,\colon\,  \asy \to G$
+    $\mathrm{e} \,\colon\,  \ast \to G$
 
   * [[inverse elements]] 
 
@@ -69,7 +69,7 @@ $$
   & \stackrel{(\mathrm{e},id)}{\longrightarrow} 
   & G\times G
   \\
-  {}^{\mathllap{(\id,1)}}
+  {}^{\mathllap{(\id,\mathrm{e})}}
   \big\downarrow 
   &\underset{\id}{\searrow}& 
   \big\downarrow m 
@@ -96,7 +96,7 @@ G
    }
    \big\downarrow 
    & 
-   \underset{1}{\searrow}& \downarrow m 
+   \underset{id}{\searrow}& \downarrow m 
    \\
    G\times G 
    & 
