@@ -192,6 +192,8 @@ and in [[equivariant Cohomotopy]]:
 
 [[!redirects Dirac's charge quantization]]
 
+[[!redirects Dirac flux quantization]]
+
 [[!redirects charge quantization]]
 [[!redirects charge quantizations]]
 
@@ -200,3 +202,6 @@ and in [[equivariant Cohomotopy]]:
 
 [[!redirects flux quantization law]]
 [[!redirects flux quantization laws]]
+
+
+
