@@ -30,7 +30,7 @@ For more see at *[[flux]]* and at _[[Dirac charge quantization]]_.
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/MagneticMonopole-230628.jpg" width="650">
+<img src="https://ncatlab.org/nlab/files/MagneticMonopole-240124.jpg" width="650">
 </center>
 
 
@@ -47,6 +47,8 @@ The [[trajectory]] of an [[electron]] in the vicinity of a [[magnetic monopole]]
 
 ## Related concepts
 
+* [[monopole]]
+
 * [[Yang monopole]]
 
 * [[fiber bundles in physics]]
@@ -62,6 +64,11 @@ Textbook accounts:
 * [[Yakov Shnir]], Part I of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
 * [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
+
+The original argument that magentic [[monopoles]] may appear in [[grand unified theories]]:
+
+* [[Gerard ’t Hooft]], *Magnetic Monopoles in Unified Gauge Theories*, Nucl. Phys. B **79** (1974) 276-284 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90486-6">doi:10.1016/0550-3213(74)90486-6</a>&rbrack;
+
 
 See also:
 
