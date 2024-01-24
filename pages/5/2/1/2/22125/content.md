@@ -1,9 +1,14 @@
 
+Jan Zaanen (1957-2024)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Jan_Zaanen)
+
+* University Leiden News: *[In memoriam Jan Zaanen 1957-2024](https://www.universiteitleiden.nl/en/news/2024/01/in-memoriam-jan-zaanen-1957-2024-the-universe-in-a-speck-of-rusting-copper)*
 
 * [Institute page](https://www.universiteitleiden.nl/en/staffmembers/johannes-zaanen#tab-1)
 
 * [Quantum Matter Theory Group page](https://www.lorentz.leidenuniv.nl/zaanen/wordpress/)
+
 
 ## Selected writings
 
