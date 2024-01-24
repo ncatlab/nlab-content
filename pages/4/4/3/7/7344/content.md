@@ -79,6 +79,11 @@ Via [[KK-compactification]] from [[little string theory]]:
 
 * Antonio Amariti, Gianmarco Formigoni, _A note on $4d$ $\mathcal{N} = 3$ from little string theory_ ([arXiv:2003.05983](https://arxiv.org/abs/2003.05983))
 
+and from [[heterotic string theory]] on [[ADE-singularities]]:
+
+* [[Michele Del Zotto]], [[Marco Fazzi]], Suvendu Giri, *A new vista on the Heterotic Moduli Space from Six and Three Dimensions* &lbrack;[arXiv:2307.10356](https://arxiv.org/abs/2307.10356)&rbrack;
+
+
 See also:
 
 * Mikhail Evtikhiev, _$\mathcal{N} = 3$ SCFTs in 4 dimensions and non-simply laced groups_ ([arXiv:2004.03919](https://arxiv.org/abs/2004.03919))
@@ -199,3 +204,5 @@ On [[Wilson loop operators]] in [[D=3 N=4 super Yang-Mills theory]]:
 
 [[!redirects N=4 D=3 sYM]]
 [[!redirects N=4 D=3 SYM]]
+
+[[!redirects D=3 N=4 SYM]]
