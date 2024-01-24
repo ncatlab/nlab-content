@@ -64,31 +64,36 @@
  {#Outline}
 
 
-([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]]) $X^4$ allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \{F^{(i)}\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ ($D = d+1 \geq 2$), and with the analog of the [[Maxwell equations]] being any system of first order polynomial [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]]) subject to a linear [[Hodge star operator|Hodge]]-[[duality-symmetric higher gauge theory|self-duality]] relation $\star \vec F \,=\, \vec \mu\big(\vec F\big)$.
+([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and with the analog of the [[Maxwell equations]] being any system of polynomial $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes) subject to a linear $\vec \mu(-)$ [[Hodge star operator|Hodge]]-[[duality-symmetric higher gauge theory|self-duality]] relation $\star \vec F \,=\, \vec \mu\big(\vec F\big)$ (the "[[constitutive equation]]").
 
-Such [[higher gauge theories]] famously appear as the [[higher gauge field|gauge field]]-sector in higher-dimensional [[supergravity]] and hence in [[superstring|super]]-[[string theory|string]]/[[M-theory]], which is where they draw much of their motivation from. 
+Such [[higher gauge theories]] famously appear as the [[higher gauge field|gauge field]]-sector in higher-dimensional [[supergravity]] and hence in [[superstring|super]]-[[string theory|string]]/[[M-theory]], which is where they draw most of their motivation from. 
 
-In analogy to how for ordinary [[Maxwell theory]] one may think of [[singularities]] or stable bumps in the [[flux density]] $F_2$ as being sourced by [[charges]] carried by (hypothetical) [[Dirac monopoles]] or (observed) [[Abrikosov vortex strings]], respectively, so one may think of [[singularities]] or stable bumps in these higher flux densities as sourced by [[singular branes]] or [[solitonic branes]], respectively, for suitably higher dimensional ([[membrane|mem-]])[[branes]] carrying suitable higher charges.
+In analogy to how for ordinary [[Maxwell theory]] one may think of [[singularities]] or stable bumps in the [[flux density]] $F_2$ as being sourced by [[charges]] carried by (hypothetical) [[Dirac monopoles]] or by (observed) [[Abrikosov vortex strings]], respectively, so one may think of [[singularities]] or stable bumps in these higher flux densities as sourced by [[singular branes]] or [[solitonic branes]], respectively, for suitably higher dimensional ([[membrane|mem-]])[[branes]] carrying suitable higher charges.
 
-\linebreak
-
-([§3](#FluxQuantizationLaws)) But just as for [[electromagnetism]], these higher [[flux densities]] themselves do not constitute the full [[field (physics)|field]]-content of the given higher gauge theory. 
-
-Traditionally one declares the full [[higher gauge field|higher]] [[gauge field]] to be given by [[gauge potentials]] $\vec A$ whose differential *locally* contributes to the given flux density, $\vec F \,=\, \mathrm{d} \vec A + \cdots$ and which is *globally* subjected to a topological condition which implies *[[flux quantization|flux and charge quantization]]* of the total fluxes and (brane-)charges, making them form a [[discrete space]] reflecting the nature of *individual* ("[[elementary particle|elementary]]") branes carrying/sourcing discrete units of charges/fluxes (as famously observed for [[Abrikosov vortex strings]]).
-
-More systematically, we may understand [[flux quantization]] as the specification of the [[non-perturbative quantum field theory|non-perturbative]] charge/flux sectors in ([[nonabelian cohomology|non-abelian]]) [[generalized cohomology]] of which the [[flux densities]] are but differential-geometric [[Chern-Dold character|characters]], and observe that the corresponding higher [[gauge potentials]] and hence the full field content of the higher gauge theory arise automaticaly as the [[homotopy theory|homotopy]]/[[higher gauge theory|gauge theoretic]] witnesses of the resulting [[flux quantization]], making the full higher gauge fields be [[cocycles]] in a corresponding ([[nonabelian differential cohomology|nonabelian]]) [[differential cohomology]] theory.
+But for [[singular brane|singular]]/[[solitonic branes]] to be "[[elementary particle|elementary]]" objects of individually discernible nature, their charges, and hence the total fluxes which they source, should have discrete ("quantized") values (as indeed observed for [[Abrikosov vortex strings]]). This is the topic of *[[flux quantization]]*:
 
 \linebreak
 
-([§4](#Examples)) Key examples beyond [[Dirac charge quantization]] in [[electromagnetism]] play a role in [[string theory|string]]/[[M-theory]]: 
+([§3](#FluxQuantizationLaws)) Just as for [[electromagnetism]], these higher [[flux densities]] themselves do not yet constitute the full [[field (physics)|field]]-content of the given higher gauge theory. 
 
-  * the "Hypothesis K" of [[D-brane charge quantization in K-theory]],
+Traditionally one declares the full [[higher gauge field|higher]] [[gauge field]] to be given by [[gauge potentials]] $\vec A$ whose differential *locally* contributes to the given flux density, $\vec F \,=\, \mathrm{d} \vec A + \cdots$ and which is *globally* subjected to a topological condition which implies *[[flux quantization|flux and charge quantization]]* of the total fluxes and (brane-)charges, making them form a [[discrete space]] reflecting the nature of *individual* ("[[elementary particle|elementary]]") branes carrying/sourcing discrete units of charges/fluxes (as famously observed for [[Abrikosov vortex strings]]). 
+But from this point of view it is far from transparent how to identify the structure of gauge potentials for general higher gauge theories.
 
-  * the "[[schreiber:Hypothesis H]]" of [[M-brane]] charge quantization in unstable [[Cohomotopy]].
+More systematically, we may understand [[flux quantization]] as the specification of the [[non-perturbative quantum field theory|non-perturbative]] charge/flux sectors in ([[nonabelian cohomology|non-abelian]]) [[generalized cohomology]] of which the [[flux densities]] are but differential-geometric [[Chern-Dold character|characters]], and observe that the corresponding higher [[gauge potentials]] and hence the full field content of the higher gauge theory arise automatically as the [[homotopy theory|homotopy]]/[[higher gauge theory|gauge theoretic]] witnesses of the resulting [[flux quantization]], making the full higher gauge fields be [[cocycles]] in a corresponding ([[nonabelian differential cohomology|nonabelian]]) [[differential cohomology]] theory.
 
 \linebreak
 
-Notice that a *choice* of flux quantization is (depending on perspective of how that higher gauge theory is ultimately defined):
+([§4](#Examples)) Examples of [[flux quantization]] beyond [[Dirac charge quantization]] in [[electromagnetism]] play a key role in [[string theory|string]]/[[M-theory]]: 
+
+  * the seminal "Hypothesis K" postulating [[D-brane charge quantization in K-theory]],
+
+  * the more recent "[[schreiber:Hypothesis H]]" postulating [[M-brane]] charge quantization in unstable [[twisted Cohomotopy|twisted]] [[Cohomotopy]].
+
+These hypotheses are not unrelated: Under "[[double dimensional reduction|double dimensional]] [[Kaluza-Klein reduction]]" along a [[circle]] [[fiber]] the [[supergravity C-field|C-field]] fluxes on $X^{10+1}$ are to give rise to *most* of the [[B-field|$B$-]]/[[RR-field]]-fluxes in $X^{9+1}$ (as part of the [[duality between M-theory and type IIA string theory]], which is either conjectural or defining, depending on attitude towards the definition of the elusive [[M-theory]]). Therefore [[schreiber:Hypothesis H]] may be understood as providing an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *lift* of [[D-brane charge quantization in K-theory|Hypothesis K]] to the extent that it reduces to the latter under [[double dimensional reduction]], and as an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *correction* to the extent that it does not quite reduce to Hypothesis K.
+
+While the discussion of the fine-grained predictions and mutual (in)compatibilities of these flux-quantization laws is beyond the scope of this review, these examples serve to highlight nature of the space of choices of flux quantization laws and with them the general mechanism of flux quantization --- which previous more *ad hoc*-discussions have barely brought out.
+
+Notice therefore that a *choice* of flux quantization is (depending on perspective of how that higher gauge theory is ultimately defined):
 
 * a hypothesis about 
 
@@ -96,7 +101,7 @@ or else
 
 * a specification of 
 
-the [[non-perturbative quantum field theory|non-perturbative completion]] of the given [[higher gauge theory]].
+the [[non-perturbative quantum field theory|non-perturbative completion]] of the given [[higher gauge theory]], which is generally an issue that deserves (more) attention.
 
 Traditionally, flux quantization laws have been postulated sporadically and in ad-hoc fashion, in order to patch up "anomalous" theories: 
 Since the ancient past it is common to define any [[theory (physics)|physical theory]] by a [[stationary action principle]] embodied by a [[Lagrangian density]], from which a perturbative [[BRST complex]] is extracted, whose [[quantization]] (e.g. [Henneaux & Teitelboim 1992](#HenneauxTeitelboim92)) is generally afflicted with problems ("[[quantum anomalies|anomalies]]") some of which are dealt with by ad-hoc flux quantization: For example the original [[Dirac charge quantization]] was postulated to cure an anomaly in the quantum theory of an [[electron]] propagating in the background field of a [[magnetic monopole]] (a "0-brane"), while the enigmatic [[shifted C-field flux quantization]] similarly serves to cure an anomaly in the quantum theory of the [[M2-brane]] propagating in the background field of an [[M5-brane]] ([Witten 1996a, §2.2](#Witten96a)).
@@ -184,34 +189,60 @@ This is an underappreciated use of [$L_\infty$-algebras in physics](L-infinity-a
 
 Here the characteristic $L_\infty$-algebra $[b_2, \, v_{2\bullet-1}] = v_{2\bullet + 1}$ bears no resemblance to the [[Lie algebra]] [[special unitary Lie algebra|$\mathfrak{su}(n)$]], and yet after choosing [[D-brane charge quantization in topological K-theory]] it follows (an algebro-topological form of "[[gauge enhancement]]") that gauge potentials with coefficients in $\mathfrak{su}(n)$ (namely [[connection on a bundle|connections]] on Hermitean [[vector bundles]]) provide [[cocycles]] for the resulting [[differential K-theory]]. It is in this way (RR-flux quantization $\rightsquigarrow$ K-theory $\rightsquigarrow$ gauge bundles as cocycles) that non-abelian [[gauge fields]] appear on [[D-branes]].
 
-In fact, flux quantization as discussed here does not apply to [[su(n)|$\mathfrak{su}(n)$]]-[[Yang-Mills theory]] directly, see Rem. \ref{RoleOfNilpotentLInfinityAlgebras}.
+In fact, flux quantization as discussed here does not apply to [[su(n)|$\mathfrak{su}(n)$]]-[[Yang-Mills theory]] directly:
+
+Generally, not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rational [[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] of (the [[homotopy type]] of) a space $\mathcal{A}$ that is amenable to [[rationalization]]; those that do are "[[nilpotent L-infinity algebra|nilpotent]]". 
+
+Specifically, [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie algebra]], which relates to the fact that flux quantization as discussed here --- while it does apply to non-linear/non-abelian higher Bianchi identities such as for the [[supergravity C-field|C-field]] --- does not apply directly to [[Yang-Mills theory]] with gauge Lie algebra [[su(n)|$\mathfrak{su}(n)$]] (or other [[classical Lie algebras]]).
 \end{remark}
 
-\begin{remark}\label{RoleOfNilpotentLInfinityAlgebras}
-**(the role of [[nilpotent L-infinity algebras|nilpotent $L_\infty$-algebras]])**
-\linebreak
-Not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rational [[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] of (the [[homotopy type]] of) a space $\mathcal{A}$ that is amenable to [[rationalization]]; those that do are "[[nilpotent L-infinity algebra|nilpotent]]". 
-
-For instance [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie algebra]], which relates to the fact that flux quantization as discussed here --- while it does apply to non-linear/non-abelian higher Bianchi identities such as for the [[supergravity C-field|C-field]] --- does not apply directly to [[Yang-Mills theory]] with gauge Lie algebra [[su(n)|$\mathfrak{su}(n)$]] (or other [[classical Lie algebras]]).
-\end{remark}
-
-\linebreak
 
 ## Flux densities and Brane sources
  {#FluxDensitiesAndBraneSources}
 
+Faraday observed "lines of force" -- now called *flux of the magnetic field* -- to concentrate towards the poles of rod magnets:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FaradayIronFilings-240124.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    },
+    "caption": "From Faraday’s diary of experimental investigation, vol VI, entry from 11th Dec. 1851, as reproduced in [Martin 2009, p. 311](#Martin09); the colored arc is our addition, for ease of comparison with the next graphics"
+\end{imagefromfile}
+
+In modern [[differential geometry|differential-geometric]] formulation, the [[flux density|density of these flux lines]] through any given [[surface]]-element is encoded in a [[differential 2-form]] $F_2$:
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FluxDensityAs2Form-240124.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    },
+    "caption": "adapted from [Hyperphysics](#Hyperphysics)"
+\end{imagefromfile}
+
 (...)
 
-\linebreak
+
+
+
+
 
 
 ## Flux/Charge quantization laws
  {#FluxQuantizationLaws}
 
 (...)
-
-\linebreak
-
 
 ## Examples in String/M-Theory
  {#Examples}
@@ -240,6 +271,12 @@ For instance [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie 
 
 
 * {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
+
+* {#Hyperphysics} Hyperphysics, *Magnetic Flux* &lbrack;[hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html)&rbrack;
+
+
+* {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
+
 
 * {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) $[$[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)$]$
 
