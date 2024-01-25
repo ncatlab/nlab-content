@@ -108,9 +108,11 @@ There are various other results that are equivalent to or related to the princip
 
 * {#UFP} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
+* {#Booij} [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
+
 The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
 
-* [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+* {#Shulman} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 
 [[!redirects principle of omniscience]]
@@ -127,6 +129,10 @@ The analytic WLPO and LLPO are mentioned in the following paper, although unfort
 [[!redirects lesser limited principle of omniscience]]
 [[!redirects lesser limited principles of omniscience]]
 
+[[!redirects WLPO]]
+[[!redirects weak limited principle of omniscience]]
+[[!redirects weak limited principles of omniscience]]
+
 [[!redirects analytic LPO]]
 [[!redirects analytic limited principle of omniscience]]
 [[!redirects analytic limited principles of omniscience]]
@@ -134,3 +140,7 @@ The analytic WLPO and LLPO are mentioned in the following paper, although unfort
 [[!redirects analytic LLPO]]
 [[!redirects analytic lesser limited principle of omniscience]]
 [[!redirects analytic lesser limited principles of omniscience]]
+
+[[!redirects analytic WLPO]]
+[[!redirects analytic weak limited principle of omniscience]]
+[[!redirects analytic weak limited principles of omniscience]]
