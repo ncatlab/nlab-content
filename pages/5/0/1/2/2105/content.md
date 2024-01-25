@@ -1,5 +1,4 @@
 
-# Varieties of algebras
 * tic
 {: toc}
 
