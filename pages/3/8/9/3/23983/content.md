@@ -405,11 +405,11 @@ Heterogeneous identity types are used in many extensionality principles.
 
 * The extensionality principle for [[function types]] (non-dependent [[function extensionality]]) states that there is an equivalence 
 
-$$\mathrm{ext}_{\to}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{Id}_{A \to B}(f, g) \simeq \prod_{a:A} \prod_{b:B} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{B}(a, b, p, f(a), g(b))$$
+$$\mathrm{ext}_{\to}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{Id}_{A \to B}(f, g) \simeq \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{B}(a, b, p, f(a), g(b))$$
 
 * The extensionality principle for [[dependent product types]] (dependent [[function extensionality]]) states that there is an equivalence
 
-$$\mathrm{ext}_\Pi:\prod_{f:\prod_{x:A} B(x)} \prod_{g:\prod_{x:A} B(x)} \mathrm{Id}_{\prod_{x:A} B(x)}(f, g) \simeq \prod_{a:A} \prod_{b:B} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), g(b))$$
+$$\mathrm{ext}_\Pi:\prod_{f:\prod_{x:A} B(x)} \prod_{g:\prod_{x:A} B(x)} \mathrm{Id}_{\prod_{x:A} B(x)}(f, g) \simeq \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), g(b))$$
 
 * The extensionality principle for [[product types]] states that there is an equivalence
 
