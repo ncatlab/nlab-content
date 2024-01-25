@@ -264,7 +264,7 @@ $$
   Y \oplus Y
   \simeq
   Y \sqcup Y
-  \overset{\nabla_X}{\to}
+  \overset{\nabla_Y}{\to}
   Y
   \,.
 $$
