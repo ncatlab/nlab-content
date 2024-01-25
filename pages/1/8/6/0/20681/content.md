@@ -16,7 +16,13 @@ and their lift to [[M-theory]] ([[MO5]], [[MO9]]):
 
 * {#Gimon98} [[Eric Gimon]], _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226), [spire:472499](http://inspirehep.net/record/472499))
 
+Understanding [[solitonic brane|solitonic]] (non-[[singular brane|singular]]) [[D-branes]] and their [[T-duality]] in terms of the [[D-brane charge quantization in K-theory]]:
+
+* {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 \[<a href="https://doi.org/10.1088/1126-6708/1999/04/010">doi:10.1088/1126-6708/1999/04/010</a>, [arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160)\]
+
+
 
 category: people
 
+[[!redirects Eric G. Gimon]]
 
