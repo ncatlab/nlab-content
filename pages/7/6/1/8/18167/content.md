@@ -7,6 +7,8 @@ A [[subobject]] in [[fields]], a [[subset]] of a [[field]] that inherits itself 
 
 * [[Galois theory]]
 
+* [[field extension]]
+
 [[!redirects subfields]]
 
 [[!redirects sub-field]]
