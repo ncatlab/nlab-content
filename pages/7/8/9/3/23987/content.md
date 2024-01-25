@@ -882,6 +882,21 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
 * [[Eric Sharpe]]
 
+\begin{imagefromfile}
+    "file_name": "GroupPhotoAtMTheoryAndMath2024.jpg",
+    "width": 850,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": -40
+    }
+\end{imagefromfile}
+
+[[Luigi Alfonsi|Alfonsi]]$\,$[[Grigorios Giotopoulos|Giotop.]] [[Emanuel Malek|Malek]] [[Christian Saemann|Saemann]] [[Ruben Minasian|Minasian]] [[Neil Lambert|Lambert]] [[Chris Hull|Hull]] [[Urs Schreiber|Schreiber]] [[Yang-Hui He|He]] [[Hisham Sati|Sati]] X [[Fei Han|Han]] [[Meng-Chwan Tan|Tan]] [[Vivek Kumar Singh|Singh]] [[Carlos Shahbazi|Shahbazi]] [[David Jaz Myers|Myers]] [[Olaf Hohm|Hohm]]
+
+
 \linebreak
 
 **Talks:**
