@@ -109,6 +109,8 @@ We have that
 
 * If a kernel $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ admits a Bayesian inverse $k^\dagger:(Y,\mathcal{B},q)\to(X,\mathcal{A},p)$, then any kernel $h:(Y,\mathcal{B},q)\to(X,\mathcal{A},p)$ is a Bayesian inverse of $k$ if and only if it is $q$-almost surely equal to $k^\dagger$. 
 
+* Bayesian inverses, when they exist, depend crucially on the measure $p$.
+
 * Bayesian inversion makes the category [[Krn]] (see [[Markov kernel#categories_of_markov_kernels|below]]) a [[dagger category]].
 
 
