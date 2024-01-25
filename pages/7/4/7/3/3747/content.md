@@ -68,20 +68,6 @@ holds whenever $i \geq \alpha(\epsilon)$.  Once more, we can combine these condi
 $$ {|x_i - y_j|} \leq \delta + \epsilon $$
 holds whenever $i \geq \alpha(\delta)$ and $j \geq \alpha(\epsilon)$.
 
-### As a terminal object
-
-Let $F$ be an [[Archimedean ordered field]]. Every element of $F$ satisfies the axioms of a [[Dedekind cut]] with respect to the [[strict order]] [[relation]] of $F$. An element $x \in F$ is a **Cauchy real number** if [[existential quantifier|there exists]] a [[locator]] of $x$, or equivalently if there exists [[Dedekind cut structure]] of $x$. 
-
-The **Cauchy real numbers** $\mathbb{R}_C$ is the [[terminal object|terminal]] Archimedean ordered field where for every element $x \in \mathbb{R}_C$ there exists a locator of $x$: i.e. for any other Archimedean ordered field $F$ where for every element $x \in F$ there exists a locator of $x$, there exists a unique [[strictly monotonic]] [[field homomorphism]] $u_F:F \to \mathbb{R}_C$. 
-
-Since every [[ring homomorphism]] between [[fields]] is an [[injection]], the Cauchy real numbers being the terminal Archimedean ordered field $F$ where for every element $x \in F$ there exists a locator of $x$ implies that every other such Archimedean ordered field is a [[subfield]] of $\mathbb{R}_C$ via the unique ring homomorphism $u_F:F \to \mathbb{R}_C$:
-
-$$\forall F.\left(\mathrm{isAOField}(F) \wedge \forall x \in F.\exists p \in \mathrm{locator}(x)\right) \Rightarrow (F \subseteq \mathbb{R}_C)$$
-
-Either way, this definition makes sense in any [[Heyting category]] with [[exponential objects]] and a [[natural numbers object]] or in any [[Heyting category]] with a [[parametrized natural numbers object]], even when the Heyting category is not a [[pretopos]] and the Cauchy real numbers cannot be constructed as a [[quotient set]]. 
-
-In [[dependent type theory]], the property that there exists a locator of $x$ is rendered as the [[bracket type]] of the [[type]] of [[locators]] of $x$. 
-
 ### Cauchy approximations
 
 The modulated Cauchy real numbers could also be constructed through [[Cauchy approximations]] rather than sequences of rational numbers with a modulus of convergence. Let $\mathbb{Q}$ be the [[rational numbers]] $\mathbb{Q}$ and let 
@@ -186,9 +172,35 @@ For non-modulated Cauchy sequences and reals, there are additional problems even
 
 (Actually, Lubarsky writes using [[Heyting-valued sets]] on topological spaces rather than classifying toposes of propositional [[geometric theories]], but it seems almost certain to me that his results can be rephrased as the above.)
 
-## Locators
+### Using locators
 
-* A [[locator]] is equivalent to having the structure of a [[Cauchy sequence]] with [[modulus of convergence]]. This is stronger than merely being a modulated Cauchy real number.
+Let $F$ be an [[Archimedean ordered field]]. Every element of $F$ satisfies the axioms of a [[Dedekind cut]] with respect to the [[strict order]] [[relation]] of $F$, and is thus a [[real number]]. 
+
+The Dedekind real numbers $\mathbb{R}_D$ are the [[terminal]] [[Archimedean ordered field]], i.e. for any other Archimedean ordered field $F$, there exists a unique [[strictly monotonic]] [[field homomorphism]] $u_F:F \to \mathbb{R}_C$. Since every [[ring homomorphism]] between [[fields]] is an [[injection]], the Dedekind real numbers being the terminal Archimedean ordered field $F$ implies that every other Archimedean ordered field is a [[subfield]] of $\mathbb{R}_D$ via the unique ring homomorphism $u_F:F \to \mathbb{R}_D$:
+
+$$\forall F.\mathrm{isAOField}(F) \Rightarrow (F \subseteq \mathbb{R}_D)$$
+
+In this sense, the Dedekind real numbers is the collection of *all* real numbers. 
+
+An element $x \in F$ is a **Cauchy real number** if [[existential quantifier|there exists]] a [[locator]] of $x$. The **Cauchy real numbers** are the set of Dedekind real numbers $x \in \mathbb{R}_D$ where there exist a locator
+
+$$\mathbb{R}_C = \{x \in \mathbb{R}_D \vert \exists p \in \mathrm{locator}(x)\}$$
+
+Alternatively, if one doesn't have the [[Dedekind real numbers]], then one can still characterize the Cauchy real numbers by its universal property. The **Cauchy real numbers** $\mathbb{R}_C$ is the [[terminal object|terminal]] Archimedean ordered field where for every element $x \in \mathbb{R}_C$ there exists a locator of $x$: i.e. for any other Archimedean ordered field $F$ where for every element $x \in F$ there exists a locator of $x$, there exists a unique [[strictly monotonic]] [[field homomorphism]] $u_F:F \to \mathbb{R}_C$. 
+
+Since every [[ring homomorphism]] between [[fields]] is an [[injection]], the Cauchy real numbers being the terminal Archimedean ordered field $F$ where for every element $x \in F$ there exists a locator of $x$ implies that every other such Archimedean ordered field is a [[subfield]] of $\mathbb{R}_C$ via the unique ring homomorphism $u_F:F \to \mathbb{R}_C$:
+
+$$\forall F.\left(\mathrm{isAOField}(F) \wedge \forall x \in F.\exists p \in \mathrm{locator}(x)\right) \Rightarrow (F \subseteq \mathbb{R}_C)$$
+
+In this sense, the Cauchy real numbers is the collection of *all* real numbers for which there exist a locator. 
+
+Either way, this definition makes sense in any [[Heyting category]] with [[exponential objects]] and a [[natural numbers object]], even when the Heyting category is not a [[pretopos]] and the Cauchy real numbers cannot be constructed as a [[quotient set]]. In [[classical mathematics]], one can prove that the [[Dedekind real numbers]] is a [[discrete field]], which implies that the Cauchy real numbers and the Dedekind real numbers coincide. 
+
+In [[dependent type theory]], the property that there exists a locator of $x$ is rendered as the [[bracket type]] of the [[type]] of [[locators]] of $x$. 
+
+In addition, in [[constructive mathematics]], the Cauchy real numbers $\mathbb{R}_C$ is not to be confused with the set of real numbers 
+$$\mathbb{R}^\mathcal{L} = \bigcup_{x \in \mathbb{R}_D} \mathrm{locator}(x)$$ 
+which have as [[structure]] a [[locator]]. That the two notions coincide is equivalent to the [[WLPO]], and is not provable in general. 
 
 ## Algebraic closure
 
