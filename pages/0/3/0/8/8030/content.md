@@ -177,6 +177,11 @@ In
 
 it is claimed that computer simulation shows that the [[IKKT matrix model]] description of, supposedly, non-perturbative type II string theory exhibits spontanous decompactification of 3+1 large dimensions, with the other 6 remaining tiny.
 
+See also:
+
+* [[David Prieto]], *Moduli Stabilization and Stability in Type II/F-theory flux compactifications* &lbrack;[arXiv:2401.13339](https://arxiv.org/abs/2401.13339)&rbrack;
+
+
 
 #### In M-theory
  {#ReferencesInMTheory}
