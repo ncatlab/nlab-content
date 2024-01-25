@@ -21,6 +21,13 @@ One thinks of the elements $x\in X$ as possible configurations of a system subje
 
 Accordingly, a [[measurable function]] $f$ on a probability space has the interpretation of a _[[random variable]]_. Its [[integral]] $\langle f\rangle \coloneqq \int_X f \cdot\mu$ is its [[expectation value]].
 
+## Categories of probability spaces
+
+* The category [[Prob]] has probability spaces as objects, and measure-preserving maps as morphisms;
+
+* The [[category of couplings]] has probability spaces as objects and [[transport plans]] as morphisms, or equivalently, equivalence classes of measure-preserving [[Markov kernels]].
+
+
 ## Related concepts
 
 * [[random variable]]
@@ -30,6 +37,8 @@ Accordingly, a [[measurable function]] $f$ on a probability space has the interp
 * [[entropy]]
 
 * [[quantum probability space]]
+
+* [[Prob]], [[ProbStoch]].
 
 ## References
 
