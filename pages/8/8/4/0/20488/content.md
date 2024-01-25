@@ -33,7 +33,7 @@ Today, cryptography relies on a wide variety of mathematical topics. Here is a n
 - **Functional Analysis** (for signal processing and cryptographic protocols)
 
 
-## Symmetric  and assymmetric cryptography
+## Symmetric  and asymmetric cryptography
 
 There are two fundamental types of cryptography: _symmetric_ and _asymmetric_. Symmetric cryptography involves the use of a single secret key $k$ for both encryption $E_k:M \to C$ and decryption $D_k:C \to M$. This key must be securely shared between the communicating parties. 
 
