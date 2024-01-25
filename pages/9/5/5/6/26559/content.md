@@ -338,23 +338,30 @@ The fact that there are, generally, these two kinds of "branes imprinted on flux
 \linebreak
 
 
-### The distinction between singular and solitonic branes
+### Singular versus solitonic branes
  {#TheDistinctionBetweenSingularAndSolitonicBranes}
 
 Imprinted on [[flux densities]] may be *two kinds* of [[branes]], here to be called:
 
-1.  **[[singular branes]]** ([[black branes]]) reflected in **diverging flux density** at **singular loci** to be removed from spacetime,
+1.  **[[singular branes]]** ([[black branes]]) reflected in **diverging flux density** at **singular loci** that are to be removed from spacetime,
 
-1. **[[solitonic branes]]** reflected in *localized* but
-**finite flux density**, namely **[[vanishing at infinity]]**, transversally.
+    > Beware that in [[supergravity]] these are also called "elementary branes" &lbrack;[Duff & Lu 1994](#DuffLu94)&rbrack;, in reference to how [[black holes]] carry the same quantum numbers as [[elementary particles]] -- but here we rather not conflate these two aspects.
 
->   Beware that, while the terminology "[[solitonic brane]]" is wide-spread, its exact meaning differs between authors (as does the term "[[soliton]]" that it is derived from): It was introduced in [Duff, Khuri & Lu 1992](#DuffKhuriLu92), [1994](#DuffKhuriLu94) and [Duff & Lu 1993](#DuffLu93), [1994](#DuffLu94) to mean stable but *non-singular* brane-like solutions to (supergravity/flux) equations of motion, which is how we use it here. But already [Stelle 1998](solitonic+brane#Stelle98) uses "solitonic" to instead mean the  "[[electric-magnetic duality|electromagnetic-dual]] [[singular brane]]", e.g. calling the singular [[NS5-brane|$\mathrm{NS}_5$-brane]] the soliton of the [[F1-brane|fundamental string]]. Somewhat in this vein, many later authors (e.g.  [Smith (2002), p. 5](solitonic+brane#Smith02)) use "solitonic" for any singular or non-singular brane-like supergravity solution,  thus regarding it as the antonym to the [[fundamental particle|fundamental]] [[sigma-model]] branes.
+1. **[[solitonic branes]]** reflected in **finite flux density** which is localized in that it **[[vanishing at infinity|vanishes at infinity]]**, transversally.
 
-In other words, the choice of spacetime [[domain]] encodes where the fluxes sourced by singular or solitonic branes are not necessarily defined or constrained to vanish, respectively &lbrack;[SS23-MF, §2.1](#SS23-MF)&rbrack;:
+   >  The terminology "[[solitonic brane]]" was introduced in [Duff, Khuri & Lu 1992](solitonic+brane#DuffKhuriLu92), [1994](solitonic+brane#DuffKhuriLu94) and [Duff & Lu 1993](solitonic+brane#DuffLu93), [1994](#DuffLu94) to mean stable but non-singular brane-like solutions to (supergravity/flux) equations of motion ("[[solitons]]"). 
+
+**Singular points and points at infinity.**
+More formally, one may encode these two cases by  slightly adjusting the nature of the **spacetime domain** on which fluxes are actually defined &lbrack;cf. [SS23-MF, §2.1](#SS23-MF)&rbrack;:
+
+1. fluxes sourced by [[singular branes]] of [[dimension]] $p+1$ inside [[spacetime]] $X^{d+1}$ are actually defined on the [[complement]] $X^{d+1} \setminus Q^{p+1}$ of their singular [[worldvolume]],
+
+1. fluxes sourced by [[solitonic branes]] 
+of [[codimension]] $d-p$ are actually defined on their transverse space $T^{d-p}$ equipped with a "[[point at infinity]]" on which they are required to vanish.
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-SingularAndSolitonicBranes.240124.jpg",
-    "width": 750,
+    "file_name": "GeomPhys-DomainsForSingAndSolFluxes.240125.jpg",
+    "width": 620,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -364,7 +371,54 @@ In other words, the choice of spacetime [[domain]] encodes where the fluxes sour
     }
 \end{imagefromfile}
 
-For example, in the case of *flat branes*, both these spacetime domains are [[homotopy equivalence|homotopy equivalence]] to [[spheres]], but of differen dimensions:
+Here the condition of flux densities [[vanishing at infinity]] on some space is naturally formalized by considering the larger [[category]] of [[pointed topological spaces]] $(X, x \in X)$ (we discuss further below how to properly speak of differential geometric smoothness in this context) and regarding their given "base point" as being the "point at infinity", whence we shall write $(X, \infty_X)$ for the generic pointed space. Then a function "[[vanishing at infinity]]" on $(X,\infty_X)$ is a function on $X$ that literally vanishes at $\infty_X$.
+
+For example:
+
+1. The result of *adjoining* to $\mathbb{R}^n$ its "point at infinity" (this is called its *[[one-point compactification]]*, here to be denoted $\mathbb{R}^n_{\cup \{\infty\}}$) is [[homeomorphism|homeomorphic]] to the [[n-sphere|$n$-sphere]] with any basepoint: 
+
+   $$
+     \mathbb{R}^n_{\cup \{\infty\}} 
+       \,\underset{homeo}{\simeq}\, 
+     S^n
+     \,.
+   $$
+
+1. On the other hand, to consider unconstrained functions on some $X$ in this context, we may regard all the points of $X$ as being at finite distance by declaring that the "point at infinity" is disjoint from $X$, hence by considering the [[disjoint union]] (denoted "$\sqcup$" as opposed to "$\cup$"):
+ 
+   $$
+     X_{\sqcup \{\infty\}}
+     \;\coloneqq\;
+     X \sqcup \{ \infty \}
+     \,.
+   $$
+
+Given two such pointed spaces, their *[[smash product]]* "$\wedge$" is their [[Cartesian product]] with all points that are at infinity in either factor identified with a single new point at infinity:
+
+$$
+  \big(
+    X,\, \infty_X
+  \big)
+  \wedge
+  \big(
+    Y,\, \infty_Y
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  \frac{
+    X \times Y
+  }{
+    X \times \{\infty_Y\}
+    \,\cup\,
+    \{\infty_X\} \times Y
+  }
+$$
+
+\linebreak
+
+**The case of flat branes.**
+For example, in the case of *flat branes* (i.e. with [[Cartesian space|Cartesian]] [[worldvolumes]] inside [[Minkowski spacetime]]), both these spacetime domains are [[homotopy equivalence|homotopy equivalence]] to [[spheres]], but of differen dimensions:
 
 (1.) Spacetime domain for flat singular branes:
 
@@ -401,7 +455,7 @@ In the case of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFl
 1. singular 0-branes with spacetime domain 
 
    $$
-     \matbb{R}^{3,1} \setminus \mathbb{R}^{0,1} 
+     \mathbb{R}^{3,1} \setminus \mathbb{R}^{0,1} 
        \,\underset{\mathrm{homeo}}{\simeq}\, 
      \mathbb{R}^{0,1} \times \mathbb{R}_{\gt 0} \times S^2  
        \,\underset{\mathrm{hmtp}}{\simeq}\, 
@@ -468,9 +522,9 @@ Remarkably, such higher flux densities "automatically" appear in higher dimensio
 
 * [[D=11 supergravity]]: [[C-field]]$\leftrightarrow$[[M5-brane]]/[[M2-brane]].
 
-The *[[solitonic brane|solitonic]]* [[D-branes]], in the [above sense](#TheDistinctionBetweenSingularAndSolitonicBranes), are best understood after their [[double dimensional reduction|double-dimensional]] [[KK-reduction]] to [[D=9 supergravity]] on a [[circle]] [[fiber]] &lbrack;[Bergman, Gimon & Hořava 1999, §2.2 & §2.3](#BergmanGimonHořava99), building on earlier discussion by [Witten 1998, §4.1](#Witten98)&rbrack;:
+(cf. [Blumenhagen, Lüst & Theisen 2013, §18.5, Table 18.3](#BlumenhagenLüstTheisen13))
 
-(...)
+Historically, the [[D-branes]] in [[D=10 supergravity]] were first identified as such &lbrack;[Polchinski 1995, cf. (14)](#Polchinski95)&rbrack; in their [[singular brane]] incarnation &lbrack;[Duff & Lu 1994](#DuffLu94)&rbrack;, while their incarnation as solitonic branes (in the [above sense](#TheDistinctionBetweenSingularAndSolitonicBranes)) was considered only later in the context of the hypothesis of [[D-brane charge quantization in K-theory]] &lbrack;[Bergman, Gimon & Hořava 1999, §2.2 & §2.3](#BergmanGimonHořava99), building on earlier discussion by [Witten 1998, §4.1](#Witten98)&rbrack; to be discussed further [below](#Examples).
 
 
 
@@ -573,10 +627,15 @@ on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\
 
 * {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 &lbrack;[arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160), [doi:10.1088/1126-6708/1999/04/010](https://doi.org/10.1088/1126-6708/1999/04/010)&rbrack;
 
+* {#BlumenhagenLüstTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _Brane solutions in supergravity_, chapter 18.5 in: _Basic Concepts of String Theory_, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
+
 
 * {#BFJKNRSW24} [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short)&rbrack;
+
+* {#DuffLu94} [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052), <a href="https://doi.org/10.1016/0550-3213(94)90586-X">doi:10.1016/0550-3213(94)90586-X</a>&rbrack;
+
 
 * {#Faraday1852} [[Michael Faraday]], *Delienation of Lines of Magnetic Force by iron filings*, §37 in: *Experimental Researches in Electricity.--Twenty-Ninth Series*, Philosophical Transactions of the Royal Society of London **142** (1852) 137-159 &lbrack;[doi:10.1098/rstl.1852.0012](https://doi.org/10.1098/rstl.1852.0012), [jstor:108540](https://www.jstor.org/stable/108540)&rbrack;
 
@@ -594,6 +653,9 @@ on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\
 
 
 * {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
+
+* {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. **75** (1995) 4724-4727 &lbrack;[arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017), [doi:10.1103/PhysRevLett.75.4724](https://doi.org/10.1103/PhysRevLett.75.4724)&rbrack;
+
 
 * {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) &lbrack;[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)&rbrack;
 
