@@ -123,5 +123,8 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 [[!redirects algebra homomorphism]]
 [[!redirects algebra homomorphisms]]
 
+[[!redirects field homomorphism]]
+[[!redirects field homomorphisms]]
+
 
 
