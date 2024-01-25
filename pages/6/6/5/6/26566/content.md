@@ -40,11 +40,29 @@ Let $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$ be [[probability spaces]]. A **c
 
 ### Identity coupling
 
-(...)
+Given a probability space $(X,\mathcal{A},p)$, the **identity coupling** or **diagonal coupling** is given by the following measure on $\mathcal{A}\otimes\mathcal{A}$:
+$$
+\Delta_p (A\times A') = p(A\cap A') 
+$$
+for all $A,A'\in\mathcal{A}$.
 
-### Constant coupling
+Intuitively, this is a copy of $p$ on $X$ concentrated on the diagonal subset $\{(x,x):x\in X\}\subseteq X\times X$.
+(Whenever $(X,\mathcal{A})$ is standard Borel, the diagonal subset is measurable, and so this intuition can be made precise.)
 
-(...)
+This coupling gives the [[identity]] in the [[category of couplings]].
+In terms of transport plans, this corresponds to not moving any mass (almost surely).
+
+
+### Independent coupling
+
+Given probability spaces $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$ the **independent coupling** or **product coupling** or **constant coupling** is given by the product measure $p\otimes q$, i.e.
+$$
+(p\otimes q)(A\times B) = p(A)\,q(B)
+$$
+for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
+
+In terms of transport plans, this arranges the mass from almost all points of $X$ to a distribution proportional to $q$, (almost surely) independently of the point of origin.
+
 
 ### Composition of couplings
 
