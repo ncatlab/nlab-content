@@ -33,7 +33,7 @@ which is  [[bilinear form|bilinear]] *or rather* -- namely if $\mathbb{K}$ is un
 
 Often one requires such a pairing to be non-degenerate or even [[positive-definite]] in order to qualify as an inner product, standard conventions depend on context.
 
-For example, the ([[Hermitian inner product|Hermtian]]) inner product on a [[Hilbert space]] is required to be positive definite, as is that on [[tangent spaces]] in [[Riemannian geometry]], but the inner product on [[tangent spaces]] in [[pseudo-Riemannian geometry]] is only required to be non-degenerate. 
+For example, the ([[Hermitian inner product|Hermitian]]) inner product on a [[Hilbert space]] is required to be positive definite, as is that on [[tangent spaces]] in [[Riemannian geometry]], but the inner product on [[tangent spaces]] in [[pseudo-Riemannian geometry]] is only required to be non-degenerate. 
 
 The group of [[automorphisms]] of an inner product space is the [[orthogonal group of an inner product space]].
 
