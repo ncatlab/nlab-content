@@ -131,11 +131,11 @@ For now, see [[probability monad]].
 
 ## See also
 
-* [[Markov kernel]]
+* [[probability theory]], [[categorical probability]]
+
+* [[Markov kernel]], [[stochastic map]]
 
 * [[probability monad]]
-
-* [[probability theory]]
 
 * [[statistics]]
 
