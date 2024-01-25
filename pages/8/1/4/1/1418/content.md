@@ -48,6 +48,10 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 
 * [[Top]], [[FinSet]] are not lfp.
 
+## Related pages
+
+* [[locally strongly finitely presentable category]]
+
 ## References
 
 * P. Gabriel, F. Ulmer, _Lokal präsentierbare Kategorien_, Springer Lect. Notes in Math. __221__ 1971 [Zbl0225.18004](https://zbmath.org/?q=an:0225.18004) [MR327863](https://mathscinet.ams.org/mathscinet-getitem?mr=327863)
