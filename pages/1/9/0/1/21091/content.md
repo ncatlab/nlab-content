@@ -4,10 +4,12 @@
 
 Related nLab pages:
 
+* [[categorical probability]]
 * [[monads of probability, measures, and valuations]]
 * [[Markov category]]
+* [[category of couplings]]
 * [[partial evaluation]]
-* [[weighted category]]
+
 
 ### Selected writings
 
