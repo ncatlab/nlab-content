@@ -64,7 +64,7 @@
  {#Outline}
 
 
-([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and with the analog of the [[Maxwell equations]] being any system of polynomial $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes) subject to a linear $\vec \mu(-)$ [[Hodge star operator|Hodge]]-[[duality-symmetric higher gauge theory|self-duality]] relation $\star \vec F \,=\, \vec \mu\big(\vec F\big)$ (the "[[constitutive equation]]").
+([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher (see Def. \ref{HigherMaxwellequations} below) analog of [[Maxwell's equations]].
 
 Such [[higher gauge theories]] famously appear as the [[higher gauge field|gauge field]]-sector in higher-dimensional [[supergravity]] and hence in [[superstring|super]]-[[string theory|string]]/[[M-theory]], which is where they draw most of their motivation from. 
 
@@ -201,6 +201,7 @@ In the following we discuss all this in more detail.
 
 \linebreak
 
+
 ## Flux densities and Brane sources
  {#FluxDensitiesAndBraneSources}
 
@@ -336,6 +337,7 @@ The fact that there are, generally, these two kinds of "branes imprinted on flux
 
 \linebreak
 
+
 ### The distinction between singular and solitonic branes
  {#TheDistinctionBetweenSingularAndSolitonicBranes}
 
@@ -393,12 +395,102 @@ For example, in the case of *flat branes*, both these spacetime domains are [[ho
     }
 \end{imagefromfile}
 
+\begin{example}
+In the case of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) it follows from this general reasoning that a flux density 2-form $F_2$ in $D=3+1$ may reflect the presence of 
+
+1. singular 0-branes with spacetime domain 
+
+   $$
+     \matbb{R}^{3,1} \setminus \mathbb{R}^{0,1} 
+       \,\underset{\mathrm{homeo}}{\simeq}\, 
+     \mathbb{R}^{0,1} \times \mathbb{R}_{\gt 0} \times S^2  
+       \,\underset{\mathrm{hmtp}}{\simeq}\, 
+     S^2
+   $$
+
+1. solitonic 1-branes with spacetime domain
+
+   $$
+     \mathbb{R}^{1,1}_+ 
+       \wedge 
+     \mathbb{R}^{2}_{\cup \{\infty\}}
+     \;\underset{homeo}{\simeq}\;
+     \mathbb{R}^{1,1}_+ 
+       \wedge 
+     S^2
+     \;\underset{hmtp}{\simeq}\;
+     S^2
+   $$
+
+which are exactly the familiar cases of [[magnetic monopoles]] (hypothetical) and [[Abrikosov vortex strings]] (observed).
+\end{example}
+
+This general distinction between [[singular branes]] and [[solitonic branes]] is important for the correct understanding of the implications of choices of [[flux quantization]]-laws on the corresponding brane charges.
 
 \linebreak
 
-### Solution space of higher Maxwell equations
 
-(...)
+### Higher flux and its branes
+ {#HigherFluxAndItsBranes}
+
+On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
+
+$$
+  \vec F
+  \;\equiv\;
+  \Big\{
+    F^{(i)}_{\mathrm{deg}_i}
+    \,\in\,
+    \Omega_{dR}^{deg_i}\big(
+      X^D
+    \big)
+  \Big\}
+  \,.
+$$
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FluxesAndTheirSingularBranes-240125.jpg",
+    "float": "right",
+    "width": 460,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Remarkably, such higher flux densities "automatically" appear in higher dimensional [[supergravity]], namely as partial "[[superpartners]]" of the [[gravitino]]-field. In particular in [[D=10 supergravity]] and [[D=11 supergravity]] these higher flux densities are known under the (now) fairly standard symbols shown on the right, along with the standard name of the correspoding [[singular branes]] (the "higher-dimensional monopoles").
+
+* [[D=10 supergravity]]: [[B-field]]$\leftrightarrow$[[NS5-brane]]/[[F1-brane]] and [[RR-field]]$\leftrightarrow$[[D-branes]]
+
+* [[D=11 supergravity]]: [[C-field]]$\leftrightarrow$[[M5-brane]]/[[M2-brane]].
+
+
+
+
+
+
+
+
+
+
+\linebreak
+
+
+### Higher Maxwell-type equations on flux densities
+ {#HigherMaxwellEquations}
+
+Given this understanding of [[flux density]] as encoded in [[differential forms]] on [[spacetime]], we need to understand which flux densities are physically realized in a given [[higher gauge theory]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType), hence which flux densities solve the corresponding higher analog of [[Maxwell's equations]]. Here we are concerned with equations of motion of the following form:
+
+\begin{definition}
+\label{HigherMaxwellequations}
+**Higher Maxwell-type equations** 
+on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$, is any system of polynomial $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes) subject to a [[linear map|linear]] $\vec \mu(-)$ [[Hodge star operator|Hodge]]-[[duality-symmetric higher gauge theory|self-duality]] relation $\star \vec F \,=\, \vec \mu\big(\vec F\big)$ (the "[[constitutive equation]]"):
+\end{definition}
+
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-HigherMaxwellEquations.jpg",
@@ -411,6 +503,9 @@ For example, in the case of *flat branes*, both these spacetime domains are [[ho
         "left": 0
     }
 \end{imagefromfile}
+
+
+### Solution space of higher Maxwell equations
 
 
 \begin{proposition}
