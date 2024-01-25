@@ -199,6 +199,7 @@ The full field content of a higher gauge theory with these flux densities is to 
 
 
 ### Higher gauge theories of Chern-Simons type
+ {#OfChernSimonsType}
 
 See at *[[schreiber:infinity-Chern-Simons theory]]*
 
