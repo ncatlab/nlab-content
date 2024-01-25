@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -16,24 +21,24 @@
 
 ## Idea
 
-The *category of couplings*, sometimes denoted *Krn* or *ProbStoch*, is a category of [[probability spaces]] and [[transport plans]] between them. 
+The *category of couplings*, sometimes denoted *Krn* or *ProbStoch*, is a [[category]] of [[probability spaces]] and [[transport plans]] between them. 
 
-It is naturally a [[dagger category]], as transport plans can be interpreted as going in either direction. 
+This category is naturally a [[dagger category]], as transport plans can be interpreted as going in either direction. 
 
-It is used in [[categorical probability]] to model, categorically, properties which only hold *almost surely*, i.e. only up to an event of zero probability.
+It is used in [[categorical probability]] to model, [[category theory|category theoretically]], properties which only hold *almost surely*, i.e. only up to an event of zero probability (zero measure).
 
 
 ## Construction
 
-There are two equivalent definitions of the category, either in terms of [[coupling (probability)|couplings]], or in terms of equivalence classes of [[Markov kernels]].
+There are two equivalent definitions of the category of couplings, either in terms of [[coupling (probability)|couplings]], or in terms of [[equivalence classes]] of [[Markov kernels]].
 
 ### In terms of couplings
 
 The [[category]] **Krn** has 
 
-* As [[objects]], [[standard Borel]] [[probability spaces]], i.e. triplets $(X,\mathcal{A},p)$ where $X$ is a set $\mathcal{A}$ is a [[sigma-algebra]] on $X$ making $(X,\mathcal{A})$ a [[standard Borel space]], and $p$ is a [[probability measure]] on $(X,\mathcal{A})$;
+* As [[objects]], [[standard Borel]] [[probability spaces]], i.e. [[triples]] $(X,\mathcal{A},p)$ where $X$ is a [[set]] $\mathcal{A}$ is a [[sigma-algebra]] on $X$ making $(X,\mathcal{A})$ a [[standard Borel space]], and $p$ is a [[probability measure]] on $(X,\mathcal{A})$;
 
-* As [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. 
+* as [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. 
 
 (...)
 
@@ -43,9 +48,9 @@ The [[category]] **Krn** has
 
 * As [[objects]], [[standard Borel]] [[probability spaces]] (see above);
 
-* As [[morphisms]], equivalence classes of [[Markov kernel#measurepreserving_kernels|measure-preserving Markov kernels]] under [[Markov kernel#almost_sure_equality|almost sure equality]].
+* as [[morphisms]], [[equivalence classes]] of [[Markov kernel#measurepreserving_kernels|measure-preserving Markov kernels]] under [[Markov kernel#almost_sure_equality|almost sure equality]].
 
-The identity and composition are constructed as in [[Stoch]].
+The [[identity morphisms|identity]] and [[composition]] are constructed as in [[Stoch]].
 
 
 ### Equivalence of the definitions
