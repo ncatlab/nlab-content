@@ -144,7 +144,7 @@ For multiplication, if $x y # x' y'$, then $x y - x' y'$ is invertible. Write $x
 
 Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **[[weak local ring]]** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible.  The quotients of weak local rings are precisely the *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field".
 
-There is also the notion of a **discrete local ring**, which is a local ring where every element is either invertible or noninvertible. The quotient of discrete local rings are precisely the [[discrete fields]]. 
+There is also the notion of a **discrete local ring**, which is a local ring where every element is either invertible or noninvertible, or equivalently, where the [[apartness relation]] of the local ring is a [[decidable relation]]. The quotient of discrete local rings are precisely the [[discrete fields]]. 
 
 ## Local homomorphisms 
 
