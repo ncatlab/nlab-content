@@ -1,0 +1,102 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The *category of couplings*, sometimes denoted *Krn* or *ProbStoch*, is a category of [[probability spaces]] and [[transport plans]] between them. 
+
+It is naturally a [[dagger category]], as transport plans can be interpreted as going in either direction. 
+
+It is used in [[categorical probability]] to model, categorically, properties which only hold *almost surely*, i.e. only up to an event of zero probability.
+
+
+## Construction
+
+There are two equivalent definitions of the category, either in terms of [[coupling (probability)|couplings]], or in terms of equivalence classes of [[Markov kernels]].
+
+### In terms of couplings
+
+The [[category]] **Krn** has 
+
+* As [[objects]], [[standard Borel]] [[probability spaces]], i.e. triplets $(X,\mathcal{A},p)$ where $X$ is a set $\mathcal{A}$ is a [[sigma-algebra]] on $X$ making $(X,\mathcal{A})$ a [[standard Borel space]], and $p$ is a [[probability measure]] on $(X,\mathcal{A})$;
+
+* As [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. That is, given probability spaces $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$, a morphism is given by a probability space $(X\times Y, \mathcal{A}\otimes\mathcal{B},r)$, where 
+
+* * $\mathcal{A}\otimes\mathcal{B}$ denotes the tensor product sigma-algebra;
+* * $r$ is a coupling of $p$ and $q$, i.e. a probability measure on $(X\times Y, \mathcal{A}\otimes\mathcal{B})$ such that its marginals are $p$ and $q$.
+
+(...)
+
+### In terms of Markov kernels
+
+The [[category]] **Krn** has 
+
+* As [[objects]], [[standard Borel]] [[probability spaces]] (see above);
+
+* As [[morphisms]], equivalence classes of [[Markov kernel#measurepreserving_kernels|measure-preserving Markov kernels]] under [[Markov kernel#almost_sure_equality|almost sure equality]].
+
+The identity and composition are constructed as in [[Stoch]].
+
+
+### Equivalence of the definitions
+
+(...)
+
+## Basic structures and properties
+
+### Dagger structure
+
+(...)
+
+## Generalizations and extensions
+
+### For non-standard-Borel measurable spaces
+
+(...)
+
+### For abstract Markov categories
+
+(...)
+
+
+## References
+
+The category *Krn* was originally defined in
+
+* Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
+their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
+
+It also appears in the following works:
+
+* [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_. Adv. Math., 370:107239, 2020. [arXiv:1908.07021](https://arxiv.org/abs/1908.07021).
+
+* Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
+
+## Related concepts
+
+* [[Markov kernel]]
+* [[coupling (probability)]]
+* [[dagger category]]
+* [[Stoch]]
+* [[categorical probability]]
+
+
+category: category
+
+
+[[!redirects Krn]]
+[[!redirects ProbStoch]]
+[[!redirects categories of couplings]]
