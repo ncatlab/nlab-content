@@ -291,7 +291,7 @@ $$
 =--
 
 From this statement of Tannaka duality in $V$-enriched category theory
-now various special cases of interest follow, by simply choosing suitable enrichement categories $V$.
+now various special cases of interest follow, by simply choosing suitable enrichment categories $V$.
 
 #### For algebra modules 
   {#ForAlgebraModules}
@@ -324,7 +324,7 @@ Additional structure on the algebra $A$ corresponds to addition structure on its
 
 #### For linear group representations
 
-Still for the special case $V = Vect$, let now $G$ be a [[group]] and let the algeba in question specifically be its [[group algebra]] $A = k[G]$ . Then the category of linear [[representation]]s of $G$ is 
+Still for the special case $V = Vect$, let now $G$ be a [[group]] and let the algebra in question specifically be its [[group algebra]] $A = k[G]$ . Then the category of linear [[representation]]s of $G$ is 
 
 $$
   Rep(G) \simeq k[G] Mod
