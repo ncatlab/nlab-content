@@ -25,6 +25,10 @@ Introducing [[Hořava-Witten theory]]:
 
 * {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
 
+Understanding [[solitonic brane|solitonic]] (non-[[singular brane|singular]]) [[D-branes]] and their [[T-duality]] in terms of the [[D-brane charge quantization in K-theory]]:
+
+* {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 \[<a href="https://doi.org/10.1088/1126-6708/1999/04/010">doi:10.1088/1126-6708/1999/04/010</a>, [arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160)\]
+
 
 On [[Ricci flow]] and [[quantum gravity]]:
 
