@@ -267,7 +267,10 @@ Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \
 
 * $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a &#8224;-category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
+* The [[category of couplings]] between [[probability spaces]].
+
 * Every [[symmetric proset]] is a [[thin category|thin]] &#8224;-category. 
+
 
 ## Variants
 
