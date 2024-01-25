@@ -10,13 +10,19 @@
 =--
 
 
-This page collects links related to the textbook
+This page collects links related to the textbook:
 
-* [[Peter West]], 
+* [[Peter West]]:
 
-  _Introduction to Strings and Branes_, 
+  \linebreak
 
-  Cambridge University Press 2012
+  **Introduction to Strings and Branes**
+
+  \linebreak
+
+  Cambridge University Press (2012)
+  
+  [doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)
 
 on [[string theory]] and [[M-theory]].
 
