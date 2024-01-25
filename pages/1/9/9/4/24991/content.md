@@ -63,6 +63,8 @@ Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotien
 
 * The [[dual numbers]] $\mathbb{R}[\epsilon]/\epsilon^2$ are an ordered local ring where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{R}[\epsilon]/\epsilon^2$ is a non-zero non-positive non-negative element. 
 
+* The set of [[Cauchy sequences]] of [[rational numbers]] is an ordered local ring whose [[residue field]] is the [[Cauchy real numbers]]. 
+
 ## See also
 
 * [[local ring]]
