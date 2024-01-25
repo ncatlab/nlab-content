@@ -18,7 +18,7 @@
 
 ## Idea
 
-The formalism of Markov categories can be thought of as a way to express certain aspects of [[probability]] and [[statistics]] [[analytic versus synthetic|synthetically]]. In other words, it consists of [[structures]] and [[axioms]] which one can think of as "fundamental" in probability and statistics, which one can use to prove theorems, without having to use [[measure theory]] directly. One then proves that the usual measure-theoretic treatment is a [[model]] (or [[semantics]]) of this theory.
+The formalism of Markov categories is a very fruitful approach to [[categorical probability]], can be thought of as a way to express certain aspects of [[probability]] and [[statistics]] [[analytic versus synthetic|synthetically]]. In other words, it consists of [[structures]] and [[axioms]] which one can think of as "fundamental" in probability and statistics, which one can use to prove theorems, without having to use [[measure theory]] directly. One then proves that the usual measure-theoretic treatment is a [[model]] (or [[semantics]]) of this theory.
 
 Intuitively, for the purposes of probability a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
@@ -106,24 +106,24 @@ For now, see [[probability monad]].
   <th markdown="1">[[Stoch]]</th>
   <td markdown="1">[[Giry monad]] on [[Meas]]</td>
   <td markdown="1">No ([Fritz'19](#fritzmarkov), Example 11.3)</td>
-  <td markdown="1">(...)</td>
-  <td markdown="1">(...)</td>
+  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Example 11.25)</td>
+  <td markdown="1">Not in general</td>
   <td markdown="1">[Fritz'19](#fritzmarkov)</td>
  </tr>
 <tr>
-  <th markdown="1">[[BorelStoch]]</th>
+  <th markdown="1">[[Stoch#borelstoch|BorelStoch]]</th>
   <td markdown="1">[[Giry monad]] on [[Pol]]</td>
   <td markdown="1">Yes ([Kallenberg '17](#Kallenberg17), [B-M'19](#BM19))</td>
-  <td markdown="1">(...)</td>
-  <td markdown="1">(...)</td>
+  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Section 11)</td>
+  <td markdown="1">Countable ([Fritz-Rischel'19](#fritzrischel))</td>
   <td markdown="1">[Fritz'19](#fritzmarkov)</td>
  </tr>
 <tr>
-  <th markdown="1">[[FinStoch]]</th>
-  <td markdown="1">Not representable</td>
+  <th markdown="1">[[Stoch#finstoch|FinStoch]]</th>
+  <td markdown="1">Not representable (closely related to the [[distribution monad]])</td>
   <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Example 11.6)</td>
-  <td markdown="1">(...)</td>
-  <td markdown="1">(...)</td>
+  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Section 11)</td>
+  <td markdown="1">No</td>
   <td markdown="1">[Fritz'19](#fritzmarkov)</td>
  </tr>
 </table>
@@ -152,7 +152,7 @@ Markov categories as defined here appear in:
 
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
-* [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+* {#fritzrischel} [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
 * [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], [[Eigil Fjeldgren Rischel]], _Representable Markov categories and comparison of statistical experiments in categorical probability_. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
