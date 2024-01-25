@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[probability theory]], a *stochastic map* between sets $X$ and $Y$ is a way of assigning numbers to elements $(x,y)$ of $X\times Y$ to model a probabilistic transition from $X$ to $Y$. The entries of a stochastic map form a matrix often called a *stochastic matrix*, which has nonnegative entries whose columns (or rows, depending on the convention) sum to one.
+In [[probability theory]], a *stochastic map* between sets $X$ and $Y$ is a way of assigning numbers to elements $(x,y)$ of $X\times Y$ to model a probabilistic transition from $X$ to $Y$. The entries of a stochastic map form a matrix often called a *stochastic matrix* or *transition matrix*, which has nonnegative entries whose columns (or rows, depending on the convention) sum to one.
 
 A generalization to arbitrary measurable spaces is called a [[stochastic kernel]] (or *Markov kernel*).
 (Sometimes the term *stochastic map* is used to denote a stochastic kernel.)
