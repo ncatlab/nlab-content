@@ -89,7 +89,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 * _The inner automorphism 3-group of a strict 2-group_, [Journal of Homotopy and Related Structures](https://tcms.org.ge/Journals/JHRS/), vol. 3(1), 2008, pp.193&#8211;245, [journal version](https://tcms.org.ge/Journals/JHRS/volumes/2008/volume3-1.htm), [arXiv:0708.1741](https://arxiv.org/abs/0708.1741). Joint with [[nLab:Urs Schreiber|Urs Schreiber]].
 
-* _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](https://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](https://doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](https://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
+* _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](https://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](https://doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](https://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]. **Sadly, this paper [had to be retracted](https://doi.org/10.1088/1751-8121/ad1d59).** See also [this blog post](https://thehighergeometer.wordpress.com/2024/01/25/ctrl-z-18-years-later-yang-mills-theory-for-bundle-gerbes-is-now-retracted/).
 
 
 ### Notes/Other
