@@ -50,6 +50,11 @@ The original use of "solitonic branes" as "topological sugra solutions with ever
 
 * {#DuffLu94} [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052), <a href="https://doi.org/10.1016/0550-3213(94)90586-X">doi:10.1016/0550-3213(94)90586-X</a>&rbrack;
 
+Understanding non-singular [[solitonic brane|solitonic]] [[D-branes]] (though not using this term) and their [[T-duality]] in terms of the [[D-brane charge quantization in K-theory]]:
+
+* {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 \[<a href="https://doi.org/10.1088/1126-6708/1999/04/010">doi:10.1088/1126-6708/1999/04/010</a>, [arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160)\]
+
+
 Other uses of the word "solitonic brane":
 
 * {#Stelle98} [[Kellogg Stelle]], *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
