@@ -10,7 +10,7 @@
 =--
 
 
-# Quasi-Borel Space
+# Contents
 * table of contents
 {: toc}
 
@@ -65,6 +65,7 @@ The monad can be regarded as a [[probability monad]], and  its [[Kleisli categor
 * [[quasi-topological space]]
 * [[subsequential space]]
 * [[concrete sheaf]]
+* [[standard Borel space]]
 
 ## References
 
