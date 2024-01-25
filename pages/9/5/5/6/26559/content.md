@@ -64,7 +64,7 @@
  {#Outline}
 
 
-([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher (see Def. \ref{HigherMaxwellequations} below) analog of [[Maxwell's equations]].
+([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher (see Def. \ref{HigherMaxwellEquations} below) analog of [[Maxwell's equations]].
 
 Such [[higher gauge theories]] famously appear as the [[higher gauge field|gauge field]]-sector in higher-dimensional [[supergravity]] and hence in [[superstring|super]]-[[string theory|string]]/[[M-theory]], which is where they draw most of their motivation from. 
 
@@ -206,10 +206,10 @@ In the following we discuss all this in more detail.
  {#FluxDensitiesAndBraneSources}
 
 
-### Ordinary electromagnetic flux and its "branes"
+### Electromagnetic flux and its "branes"
  {#OrdinaryElectromagneticFluxAndItsBranes}
 
-Faraday observed "lines of force" -- now called *flux of the magnetic field* -- concentrating towards the *poles* of rod magnets:
+[[Michael Faraday|Faraday]] observed "lines of force" -- now called *flux of the magnetic field* -- concentrating towards the *poles* of rod magnets:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FaradayIronFilings-240124.jpg",
@@ -484,12 +484,13 @@ This general distinction between [[singular branes]] and [[solitonic branes]] is
 \linebreak
 
 
-### Higher flux and its branes
+### Higher fluxes and their brane sources
  {#HigherFluxAndItsBranes}
 
 On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
 
-$$
+\[
+  \label{TheHigherFluxDensities}
   \vec F
   \;\equiv\;
   \Big\{
@@ -500,7 +501,7 @@ $$
     \big)
   \Big\}
   \,.
-$$
+\]
 
 
 \begin{imagefromfile}
@@ -531,17 +532,45 @@ Historically, the [[D-branes]] in [[D=10 supergravity]] were first identified as
 \linebreak
 
 
-### Higher Maxwell-type equations on flux densities
+### Equations of motion of flux
  {#HigherMaxwellEquations}
 
-Given this understanding of [[flux density]] as encoded in [[differential forms]] on [[spacetime]], we need to understand which flux densities are physically realized in a given [[higher gauge theory]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType), hence which flux densities solve the corresponding higher analog of [[Maxwell's equations]]. Here we are concerned with equations of motion of the following form:
+As we now turn to the [[equations of motion]] for [[flux densities]] (the analogs of [[Maxwell's equations]] for [[electromagnetic field|electromagnetic]] flux), the key move towards identifying possible [[flux quantization laws]] ([below](#FluxQuantizationLaws)) is to arrange these equations, equivalently, as:
 
-\begin{definition}
-\label{HigherMaxwellequations}
+1. a purely *[[cochain cohomology|cohomological]]* system of [[differential equations]] known as higher *[[Bianchi identities]]*;
+
+1. a purely *[[geometry|geometric]]* system of [[linear equations]] expressing a *[[Hodge duality|Hodge self-duality]]*.
+
+the point being that the first item is entirely "[[algebraic topology|algebro-topological]]" ([[homotopy theory|homotopy-theoretic]]),  while dependency on geometry,  namely on the [[spacetime]] [[pseudo-Riemannian metric|metric]]  (the [[field (physics)|field]] of [[gravity]]) is all isolated in the second item.
+
+It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetric laws of flux*, the [[canonical phase space]] of the [[higher gauge theory]], including the [[flux quantization|flux-quantization structure]] (\cref{BraneChargeQuantization}) may be obtained straightforwardly, *without* going through the traditional and thorny route of [[BRST complex|BRST-]][[BV formalism|BV analysis]] based on an [[stationary action principle]] given by a [[Lagrangian density]]. 
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-PhaseSpaceFromEOMsSchematics-240125.jpg",
+    "width": 860,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This move of isolating "pre-metric flux equations" supplemented by a "constitutive" duality constraint has a curious status in the  literature. On the one hand, it is elementary and immediate as an equivalent re-formulation of the usual form of (higher) Maxwell-type equations of motion,
+and as such has been highlighted, in the case of electromagnetism a century ago  [Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)  and more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)), but the broader community does not seem to have taken much note of this yet. 
+On the other hand, we may observe that just the same "pregeometric" perspective, applied to higher degree flux forms, evidently underlies what string theorists call 
+"duality-symmetric" or (for better or worse: "democratic")  formulations of supergravity fields.
+
+
+\begin{definition}\label{HigherMaxwellEquations}
 **Higher Maxwell-type equations** 
-on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$, is any system of polynomial $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes) subject to a [[linear map|linear]] $\vec \mu(-)$ [[Hodge star operator|Hodge]]-[[duality-symmetric higher gauge theory|self-duality]] relation $\star \vec F \,=\, \vec \mu\big(\vec F\big)$ (the "[[constitutive equation]]"):
-\end{definition}
+on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$ (eq:TheHigherFluxDensities), is:
 
+1. any system of [[polynomial]] $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes);
+
+1. subject to a [[linear map|linear]] $\vec \mu(-)$ [[Hodge star operator|Hodge]]-[[duality-symmetric higher gauge theory|self-duality]] relation $\star \vec F \,=\, \vec \mu\big(\vec F\big)$ (the "[[constitutive equation]]"):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-HigherMaxwellEquations.jpg",
@@ -554,6 +583,78 @@ on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\
         "left": 0
     }
 \end{imagefromfile}
+
+Concretely, here 
+
+* $\vec P$ is an $I$-tuple of graded-symmetric [[polynomials]] in $I$ [[variables]] of degrees $\vec deg$ with [[rational numbers|rational]] [[coefficients]],
+
+* $\vec \mu$ is a [[linear map|linear]] [[endomorphism]] on the [[vector space]] [[linear span|spanned]] by these variables.
+
+(Of course, the above equations imply that $\vec P$ and $\vec \mu$ respect degrees is a certain evident way.)
+\end{definition}
+
+\begin{remark}
+Not all higher gauge theories are of the higher Maxwell-form (Def. \ref{HigherMaxwellEquations}): For instance [higher Chern-Simons type theories](higher+gauge+field#OfChernSimonsType) are different.
+
+As a consequence, given a higher gauge theory of higher Maxwell-type, its [[double dimensional]] is no longer of this type, since the [[KK-monopole]]-flux appears without a duality-partner (...)
+\end{remark}
+
+
+\begin{example}
+**(EoMs of electromagnetism)**
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MotionOfElectromagnetism.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
+\begin{example}
+**(EoMs of [[RR-fields|RR-fields]])**
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MotionRRFields.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\end{example}
+
+\begin{example}
+**(EoMs of [[supergravity C-field|C-field]])**
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MotionOfCField.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\end{example}
+
+ 
+
+
 
 
 ### Solution space of higher Maxwell equations
