@@ -49,6 +49,8 @@ Families of probability distributions often form statistical models, that is, su
 
 We describe here some perspectives on (parts of) probability theory from the categorical point of view (see [[nPOV]]). This perspective mainly applies to the study of situations involving Markov kernels and Chapman-Kolmogorov property. 
 
+See also [[categorical approaches to probability theory]].
+
 [[Prakash Panangaden]] in [Probabilistic Relations](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4840) defines the [[category]] $SRel$ (stochastic [[relation]]s) to have as [[object]]s [[set]]s equipped with a $\sigma$[[sigma-field|-field]]. [[morphism|Morphisms]] are conditional probability densities or stochastic kernels. So, a morphism from $( X, \Sigma_X)$ to $( Y, \Sigma_Y)$ is a function $h: X \times \Sigma_Y \to [0, 1]$ such that 
 
 1. $\forall B \in \Sigma_Y . \lambda x \in X . h(x, B)$ is a bounded measurable function,
