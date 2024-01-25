@@ -53,10 +53,13 @@ _Stoch_ can be equivalently described as the [[Kleisli category]] of the [[Giry 
 
 _BorelStoch_ is the [[full subcategory]] of _Stoch_ whose objects are [[standard Borel space|standard Borel]] measurable spaces. 
 This is particularly important as a [[Markov category]] because it has [[Markov category#conditionals|conditionals]] and countable [[Markov category#kolmogorov_products|Kolmogorov products]].
+It is the Kleisli category of the [[Giry monad]] restricted to [[standard Borel spaces]].
 
 ### FinStoch
 
 _FinStoch_ is the [[full subcategory]] of _Stoch_ whose objects are discrete [[finite sets]]. Equivalently, it is the category of finite [[stochastic matrices]].
+It is closely related to the Kleisli category of the [[distribution monad]].
+
 
 ## Related concepts
 
