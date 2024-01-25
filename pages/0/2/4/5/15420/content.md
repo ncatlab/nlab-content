@@ -17,15 +17,20 @@
 =--
 =--
 
+
 This page collects links related to 
 
-* [[Gregory Moore]],
+* [[Gregory Moore]]:
 
-  _The Impact of D-Branes on Mathematics_,
+  \linebreak
+
+  **The Impact of D-Branes on Mathematics**
+
+  \linebreak
 
   talk at [PolchinskiFest 2014](http://online.kitp.ucsb.edu/online/joefest-c14/)
 
-  ([pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf))
+  [pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf), [[Moore-ImpactOfDBranesOnMath.pdf:file]]
 
 on the concept of [[D-branes]] in  [[mathematical physics]] and [[mathematics]].
 
