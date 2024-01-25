@@ -175,7 +175,7 @@ The original observation that [[D-brane charge]] for orientifolds should be in [
 
 and was re-amplified in
 
-* {#Gukov00} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](http://arxiv.org/abs/hep-th/9901042))
+* {#Gukov00} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun. Math. Phys. **210** (2000) 621-639 &lbrack;[arXiv:hep-th/9901042](http://arxiv.org/abs/hep-th/9901042), [doi:10.1007/s002200050793](https://doi.org/10.1007/s002200050793)&rbrack;
 
 ### In terms of KO-theory
 
