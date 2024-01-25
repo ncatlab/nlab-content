@@ -126,6 +126,14 @@ For now, see [[probability monad]].
   <td markdown="1">No</td>
   <td markdown="1">[Fritz'19](#fritzmarkov)</td>
  </tr>
+<tr>
+  <th markdown="1">**TychStoch**</th>
+  <td markdown="1">[[extended probabilistic powerdomain#the_probability_monad_on_top|probability monad on topolofical spaces]]</td>
+  <td markdown="1"> No </td>
+  <td markdown="1"> Yes ([Fritz et al'23](#supports_idemp)) </td>
+  <td markdown="1"> ? </td>
+  <td markdown="1">[Fritz et al'23](#supports_idemp)</td>
+ </tr>
 </table>
 
 
@@ -162,7 +170,15 @@ Markov categories as defined here appear in:
 
 * [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
-* [[Paolo Perrone]], _Markov Categories and Entropy_ ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
+* [[Sean Moss]] and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
+
+* {#dilations} [[Tobias Fritz]], [[Tomáš Gonda]], Nicholas Gauguin Houghton-Larsen, [[Paolo Perrone]] and [[Dario Stein]], _Dilations and information flow axioms in categorical probability_. Mathematical Structures in Computer Science, 2023. ([arXiv:2211.02507](https://arxiv.org/abs/2211.02507)).
+
+* [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
+
+* {#supports_idemp} [[Tobias Fritz]], [[Tomáš Gonda]], [[Antonio Lorenzin]], [[Paolo Perrone]] and [[Dario Stein]], _Absolute continuity, supports and idempotent splitting in categorical probability_, 2023. ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+
+* Noé Ensarguet and [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions_, and transitions to equilibrium, 2023. ([arXiv:2310.04267](https://arxiv.org/abs/2310.04267))
 
 See also the references therein.
 
