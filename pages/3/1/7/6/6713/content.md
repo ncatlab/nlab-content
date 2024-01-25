@@ -296,7 +296,7 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 The original article is
 
-* {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. 75:4724-4727, 1995 ([arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017))
+* {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. **75** (1995) 4724-4727 &lbrack;[arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017), [doi:10.1103/PhysRevLett.75.4724](https://doi.org/10.1103/PhysRevLett.75.4724)&rbrack;
 
   from p.7:
 
@@ -304,9 +304,9 @@ The original article is
 
 General review:
 
-* [[Joseph Polchinski]], _TASI Lectures on D-Branes_ ([arXiv:hep-th/9611050](https://arxiv.org/abs/hep-th/9611050))
+* [[Joseph Polchinski]], _TASI Lectures on D-Branes_ &lbrack;[arXiv:hep-th/9611050](https://arxiv.org/abs/hep-th/9611050)&rbrack;
 
-* {#Johnson98} [[Clifford Johnson]], _Études on D-Branes_, in: [[Mike Duff]] et. al. (eds.) _Nonperturbative aspects of strings, branes and supersymmetry_, Proceedings, Trieste, Italy, March 23-April 3, 1998 ([arXiv:hep-th/9812196](https://arxiv.org/abs/hep-th/9812196), [spire:481393](https://inspirehep.net/literature/481393))
+* {#Johnson98} [[Clifford Johnson]], _Études on D-Branes_, in: [[Mike Duff]] et. al. (eds.) _Nonperturbative aspects of strings, branes and supersymmetry_, Proceedings, Trieste, Italy, March 23-April 3, (1998) &lbrack;[arXiv:hep-th/9812196](https://arxiv.org/abs/hep-th/9812196), [spire:481393](https://inspirehep.net/literature/481393)&rbrack;
 
 * [[Koji Hashimoto]], _D-Brane -- Superstrings and New Perspective of Our World_, Springer 2012 ([doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897))
 
