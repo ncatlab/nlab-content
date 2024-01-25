@@ -1,4 +1,10 @@
 
+[[GeomPhys-MotionOfCField.jpg:file]]
+
+[[GeomPhys-MotionRRFields.jpg:file]]
+
+[[GeomPhys-MotionOfElectromagnetism.jpg:file]]
+
 [[GeomPhys-PhaseSpaceFromEOMsSchematics-240125.jpg:file]]
 
 [[GeomPhys-DomainsForSingAndSolFluxes.240125.jpg:file]]
