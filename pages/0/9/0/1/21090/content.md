@@ -18,9 +18,9 @@
 
 ## Idea
 
-The formalism of Markov categories is a very fruitful approach to [[categorical probability]. As such, it can be thought of as a way to express certain aspects of [[probability]] and [[statistics]] [[analytic versus synthetic|synthetically]]. In other words, it consists of [[structures]] and [[axioms]] which one can think of as "fundamental" in probability and statistics, which one can use to prove theorems, without having to use [[measure theory]] directly. One then proves that the usual measure-theoretic treatment is a [[model]] (or [[semantics]]) of this theory.
+The formalism of Markov categories is one of the most recent [[categorical approaches to probability theory]]. 
 
-Intuitively, for the purposes of probability a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
+Intuitively, a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
 **Caveat**: some of the content of this page reflects work in progress. Content may change.
 
@@ -50,8 +50,8 @@ Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is 
 
 ## Examples 
 
-- The category $\mathsf{FinStoch}$ of finite sets and stochastic matrices.
-- The category $\mathsf{Stoch}$ of [[measurable spaces]] and [[Markov kernels]]
+- The category [[Stoch#finstoch|FinStoch]] of finite sets and [[stochastic matrices]].
+- The category [[Stoch]] of [[measurable spaces]] and [[Markov kernels]]
 - For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$ preserving the monoidal unit, the [[Kleisli category]] $Kl(T)$ is a Markov category.
 
 See also the [detailed list below](#DetailedList).
