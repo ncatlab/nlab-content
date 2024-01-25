@@ -33,10 +33,7 @@ The [[category]] **Krn** has
 
 * As [[objects]], [[standard Borel]] [[probability spaces]], i.e. triplets $(X,\mathcal{A},p)$ where $X$ is a set $\mathcal{A}$ is a [[sigma-algebra]] on $X$ making $(X,\mathcal{A})$ a [[standard Borel space]], and $p$ is a [[probability measure]] on $(X,\mathcal{A})$;
 
-* As [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. That is, given probability spaces $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$, a morphism is given by a probability space $(X\times Y, \mathcal{A}\otimes\mathcal{B},r)$, where 
-
-* * $\mathcal{A}\otimes\mathcal{B}$ denotes the tensor product sigma-algebra;
-* * $r$ is a coupling of $p$ and $q$, i.e. a probability measure on $(X\times Y, \mathcal{A}\otimes\mathcal{B})$ such that its marginals are $p$ and $q$.
+* As [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. 
 
 (...)
 
