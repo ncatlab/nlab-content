@@ -54,6 +54,10 @@ Specifically for D-branes in [[WZW models]] see
 
 * [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
 
+Understanding the [[solitonic brane|solitonic]] (non-singular) D-branes and their [[T-duality]] in K-theory:
+
+* {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 \[<a href="https://doi.org/10.1088/1126-6708/1999/04/010">doi:10.1088/1126-6708/1999/04/010</a>, [arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160)\]
+
  
 Towards a [[BFSS matrix model|matrix model]] taking these K-theoretic effects into account ([[K-matrix model]]):
 
