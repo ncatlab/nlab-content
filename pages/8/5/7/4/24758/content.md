@@ -34,3 +34,9 @@ The [[support object]] of an [[object]] $A$ of a [[category]] is the [[image]] o
 
 [[!redirects support set]]
 [[!redirects support sets]]
+
+[[!redirects support of a set]]
+[[!redirects supports of a set]]
+
+[[!redirects support of the set]]
+[[!redirects supports of the set]]
