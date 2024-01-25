@@ -37,7 +37,6 @@ One way of achieving [[moduli stabilization]] for KK-compactifications in [[Eins
 
 ## References
 
-### General
 
 * [[Michael Douglas]], [[Shamit Kachru]], _Flux compactification_, Rev. Mod. Phys. __79__ (2007) 733&#8211;796 ([arXiv:hep-th/0610102](http://arxiv.org/abs/hep-th/0610102))
 
@@ -69,15 +68,18 @@ With [[RR-field tadpole cancellation]] taken into account:
 
 * Philip Betzler, Erik Plauschinn, _Type IIB flux vacua and tadpole cancellation_ ([arXiv:1905.08823](https://arxiv.org/abs/1905.08823))
 
+See also:
+
+* [[David Prieto]], *Moduli Stabilization and Stability in Type II/F-theory flux compactifications* &lbrack;[arXiv:2401.13339](https://arxiv.org/abs/2401.13339)&rbrack;
 
 
-### Non-geometric flux compactifications
 
-[[non-geometric string vacuum|non-geometric]] flux vacua
 
-* R. Blumenhagen, A. Deser, E. Plauschinn, F. Rennecke, _Bianchi identities for non-geometric fluxes: from quasi-Poisson structures to Courant algebroids_, [arXiv:1205.1522](http://arxiv.org/abs/1205.1522)
+On [[non-geometric string vacuum|non-geometric]] flux vacua:
 
-* D. Mylonas, P. Schupp, [[Richard Szabo|R. J. Szabo]], _Membrane sigma-models and quantization of non-geometric flux backgrounds_, [arxiv/1207.0926](http://arxiv.org/abs/1207.0926)
+* [[Ralph Blumenhagen]], A. Deser, E. Plauschinn, F. Rennecke, _Bianchi identities for non-geometric fluxes: from quasi-Poisson structures to Courant algebroids_, [arXiv:1205.1522](http://arxiv.org/abs/1205.1522)
+
+* D. Mylonas, Peter Schupp, [[Richard Szabo]], _Membrane sigma-models and quantization of non-geometric flux backgrounds_, [arxiv/1207.0926](http://arxiv.org/abs/1207.0926)
 
 [[!redirects flux background]]
 [[!redirects flux compactifications]]
