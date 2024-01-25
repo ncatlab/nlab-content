@@ -68,15 +68,42 @@ $$
 \int_X k(B|x)\,p(dx) = q(B) .
 $$
 
+### Kernels from deterministic functions
+
+The [[identity]] function on a measurable set $(X,\mathcal{A})$ defines a kernel as follows,
+$$
+\delta(A|x) = \delta_x(A) = 1_A(x) = \begin{cases}
+1 & x\in A ; \\
+0 & x\notin A
+\end{cases}
+$$
+for every $x\in X$ and $A\in\mathcal{A}$. This gives the identity morphisms in the categories of kernels [[Markov kernel#categories_of_markov_kernels|below]].
+
+More generally, let $f:(X,\mathcal{A})\to (Y,\mathcal{B})$ be a [[measurable function]]. We can define the kernel $\delta_f:(X,\mathcal{A})\to (Y,\mathcal{B})$ as follows,
+$$
+\delta_f(B|x) = \delta_f(x)(B) = 1_{f^{-1}(B)}(x) = \begin{cases}
+1 & f(x)\in B ; \\
+0 & f(x)\notin B
+\end{cases}
+$$
+for every $x\in X$ and $B\in\mathcal{B}$. 
+Intuitively, this kernel represents the deterministic transition, from $x$ to $f(x)$ with probability one.
+This construction induces a [[functor]] from the category [[Meas]] to the categories of kernels [[Markov kernel#categories_of_markov_kernels|below]].
+(Compare with the [[stochastic map#stochastic_maps_from_deterministic_functions|analogous construction for stochastic maps]].)
+
+
 ### Disintegration theorem
 
-[...]
+(...)
+
+
+
 
 ## Categories of Markov kernels
 
 * [[Stoch]] is the category of [[measurable spaces]] and Markov kernels between them.
 
-[...]
+(...)
 
 
 
@@ -88,6 +115,8 @@ $$
 * [[Stoch]]
 
 * [[category of couplings]]
+
+* [[stochastic map]]
 
 * [[kernel method]]
 
