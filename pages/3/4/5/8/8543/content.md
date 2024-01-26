@@ -1,5 +1,4 @@
 
-> This article is under construction.
 
 
 +-- {: .rightHandSide}
