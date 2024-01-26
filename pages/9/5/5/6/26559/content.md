@@ -543,7 +543,7 @@ As we now turn to the [[equations of motion]] for [[flux densities]] (the analog
 
 the point being that the first item is entirely "[[algebraic topology|algebro-topological]]" ([[homotopy theory|homotopy-theoretic]]),  while dependency on geometry,  namely on the [[spacetime]] [[pseudo-Riemannian metric|metric]]  (the [[field (physics)|field]] of [[gravity]]) is all isolated in the second item.
 
-It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetric laws of flux*, the [[canonical phase space]] of the [[higher gauge theory]], including the [[flux quantization|flux-quantization structure]] (\cref{BraneChargeQuantization}) may be obtained straightforwardly, *without* going through the traditional and thorny route of [[BRST complex|BRST-]][[BV formalism|BV analysis]] based on an [[stationary action principle]] given by a [[Lagrangian density]]. 
+It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetric laws of flux*, the [[canonical phase space]] of the [[higher gauge theory]], including the [[flux quantization|flux-quantization structure]] may be obtained straightforwardly, *without* going through the traditional and thorny route of [[BRST complex|BRST-]][[BV formalism|BV analysis]] based on an [[stationary action principle]] given by a [[Lagrangian density]]. 
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-PhaseSpaceFromEOMsSchematics-240125.jpg",
@@ -559,14 +559,12 @@ It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetr
 
 
 This move of isolating "pre-metric flux equations" supplemented by a "constitutive" duality constraint has a curious status in the  literature. On the one hand, it is elementary and immediate as an equivalent re-formulation of the usual form of (higher) Maxwell-type equations of motion,
-and as such has been highlighted, in the case of electromagnetism a century ago  [Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)  and more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)), but the broader community does not seem to have taken much note of this yet. 
-On the other hand, we may observe that just the same "pregeometric" perspective, applied to higher degree flux forms, evidently underlies what string theorists call 
-"duality-symmetric" or (for better or worse: "democratic")  formulations of supergravity fields.
+and as such has been highlighted, in the case of electromagnetism a century ago  [Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)  and more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). While the broader community does not seem to have taken much note of "premetric electromagnetism", we may observe that just the same "pregeometric" perspective evidently underlies what string theorists call "duality-symmetric" or (for better or worse: "democratic")  formulations of supergravity fields (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
 
 
 \begin{definition}\label{HigherMaxwellEquations}
-**Higher Maxwell-type equations** 
-on a system of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$ (eq:TheHigherFluxDensities), is:
+**Higher Maxwell-type equations** (in vacuum)
+on a [[tupe]] (eq:TheHigherFluxDensities) of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$ , is:
 
 1. any system of [[polynomial]] $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes);
 
@@ -596,12 +594,14 @@ Concretely, here
 \begin{remark}
 Not all higher gauge theories are of the higher Maxwell-form (Def. \ref{HigherMaxwellEquations}): For instance [higher Chern-Simons type theories](higher+gauge+field#OfChernSimonsType) are different.
 
-As a consequence, given a higher gauge theory of higher Maxwell-type, its [[double dimensional]] is no longer of this type, since the [[KK-monopole]]-flux appears without a duality-partner (...)
+As a consequence, given a higher gauge theory of higher Maxwell-type, its [[double dimensional]] is no longer of this type, since the [[KK-monopole]]-flux appears without a duality-partner, see below (..).
 \end{remark}
 
 
 \begin{example}
-**(EoMs of electromagnetism)**
+**(Motion of the electromagnetic field)**
+
+The classical [[Maxwell equations]] expressed in terms of differential forms (see basic references [here](Maxwell's+equations#ReferencesForMaxwellEquationsViaDifferentialForms)) are as shown on the left, with their [[premetric electromagnetism|premetric]] form shown on the right:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfElectromagnetism.jpg",
@@ -615,11 +615,27 @@ As a consequence, given a higher gauge theory of higher Maxwell-type, its [[doub
     }
 \end{imagefromfile}
 
+Here the [[differential 3-form]] $J_3$ embodies the density of a [[electric current]] carrying an [[electric field]] and inducing a [[magnetic field]]. This kind of *[[background field|background]]* source term, where the source is not given by (a polynomial in) the flux densities themselves, does not fit into the Definition \ref{HigherMaxwellEquations} and shall be disregarded for the purpose of the present discussion, meaning that we focus on the special case of Maxwell's equations "in vacuum":
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MotionOfVacuumElectromagnetism.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
 \end{example}
 
 
-\begin{example}
-**(EoMs of [[RR-fields|RR-fields]])**
+\begin{example}\label{MotionOfPureRRFields}
+**(Motion of untwisted [[RR-fields|RR-fields]])**
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionRRFields.jpg",
@@ -635,8 +651,8 @@ As a consequence, given a higher gauge theory of higher Maxwell-type, its [[doub
 
 \end{example}
 
-\begin{example}
-**(EoMs of [[supergravity C-field|C-field]])**
+\begin{example}\label{MotionOfSupergravityCField}
+**(Motion of [[supergravity C-field|C-field]])**
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfCField.jpg",
@@ -652,9 +668,17 @@ As a consequence, given a higher gauge theory of higher Maxwell-type, its [[doub
 
 \end{example}
 
- 
+\begin{example}\label{MotionOfCoupledBRRFields}
+**(Motion of coupled B/RR-fields)**
+
+(...)
+
+\end{example} 
 
 
+
+
+\linebreak
 
 
 ### Solution space of higher Maxwell equations
