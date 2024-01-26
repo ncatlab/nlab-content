@@ -20,7 +20,7 @@ The intention of this page is to list a wide choice of main books and comprehens
 
 ## Classical mathematical physics
 
-Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical physics, special functions, [[generalized function]]s, analytic functions, basic [[functional analysis]], potential theory:
+Here [[PDEs]], [[differential equation|ODE]]s, and integral equation of mathematical physics, special functions, [[generalized function]]s, analytic functions, basic [[functional analysis]], potential theory:
 
 * R. Courant, [[David Hilbert]], _Methods of mathematical physics_, 2 vols. 
 
@@ -30,7 +30,12 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 
 * V. Vladimirov, _Equations of mathematical physics_, Moscow, Izdatel'stvo Nauka, (1976. 528 p. Russian;  English edition, Mir 198x); _Generalized functions in mathematical physics_, Moscow
 
-* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
+Focus on [[differential geometry]]:
+
+* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) &lbrack;[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)&rbrack;
+
+* [[Mikhail O. Katanaev]], *Geometrical methods in mathematical physics* (in Russian) &lbrack;[arXiv1311.0733](https://arxiv.org/abs/1311.0733)&rbrack;
+
 
 
 ## Classical mechanics 
