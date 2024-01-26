@@ -40,7 +40,8 @@ The [[category]] **Krn** has
 
 * as [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. 
 
-(...)
+The identity and composition couplings are described [[transport plan#main_constructions|here]].
+
 
 ### In terms of Markov kernels
 
@@ -55,7 +56,17 @@ The [[identity morphisms|identity]] and [[composition]] are constructed as in [[
 
 ### Equivalence of the definitions
 
-(...)
+Given a [[Markov kernel#measurepreserving_kernels|measure-preserving Markov kernel]] $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$, one can define a coupling canonically as follows,
+$$
+r_k(A\times B) = \int_A k(B|x)\,p(dx) 
+$$
+for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
+(See also [[transport plan#couplings_induced_by_kernels|here]].) 
+
+Conversely, whenever $(X,\mathcal{A},p)$ and $(Y,\mathcal{A},q)$ are [[standard Borel]], given a coupling $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$ one can form the [[Markov kernel#regular_conditional_distributions|regular conditional distribution]] $r':(X,\mathcal{A},p)\to(Y,\mathcal{A},q)$, which is a measure-preserving kernel, defined up to [[Markov kernel#almost_sure_equality|almost sure equality]]. 
+
+As one can check, these two assignment are mutually inverse, so that the two definitions of *Krn* give [[isomorphic categories]].
+
 
 ## Basic structures and properties
 
@@ -87,7 +98,7 @@ It also appears in the following works:
 
 * Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
 
-* [[Dexter Kozen]], [[Alexandra Silva]], Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
+* Dexter Kozen, Alexandra Silva, Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
 
 
 ## Related concepts
