@@ -192,6 +192,9 @@ Arguments that the charges of the M-theory super Lie algebra may be identified i
 
 * [[Paul Cook]], around p. 75 of _Connections between Kac-Moody algebras and M-theory_ ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
+On higher-dimensional analogues of the M-theory Lie algebra
+
+* Pinak Banerjee. *Worldvolume origin of Higher M Theories*. (2024) ([arXiv:2401.13706](https://arxiv.org/abs/2401.13706))
 
 
 [[!redirects M-theory Lie algebra]]
