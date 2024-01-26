@@ -1,1 +1,6 @@
-...
+
+
+It is interesting to observe that a use-case of what deserves to be called genuine "homotopical computation" is secretly known: We showed in arXiv:2303.02382
+(in print at Comm. Math. Phys., see ncatlab.org/schreiber/show/TQC+in+HoTT) that the specification of the logic gates envisioned in "topological quantum computation on anyons", while intricate in traditional language, have a slick expression in HoTT, simply as transport of certain truncated dependent function types into Eilenberg-MacLane types. The mathematical theorem behind this is a result on conformal quantum field theory by Schechtmann & Varchenko (1990) combined with our novel algebro-topological construction, lending itself to formalization in HoTT, of Gauss-Manin connections on fibrations of twisted cohomology groups. 
+
+Generally, the relation between HoTT and quantum computation is closer than might be suspected: Adding rules meant to enforce interpretation of HoTT into infinity-topoi of parameterized module spectra (such as Riley's Linear HoTT) naturally provides for an expressive language for quantum programming with "dynamic lifting" of quantum measurement results (arXiv:2310.15735, ncatlab.org/schreiber/show/Quantum+Monadology).
