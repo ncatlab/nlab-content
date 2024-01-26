@@ -17,7 +17,12 @@
 
 ## Idea
 
-(...)
+One can view a [[probability measure]] $p$ on a space $(X,\mathcal{A})$ as a "pile of mass", for example, of sand, on the space $X$. 
+Using this picture, given two probability spaces $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$, there could be many ways of moving the mass from $X$ to $Y$ in such a way that the sand from the pile $p$ is arranged to form the pile $q$. (The mass from which point goes to which point, or points?)
+This "way of moving the mass" is called a *transport plan*, and it is usually encoded by a joint distribution or by a [[Markov kernel]] (see below). 
+
+It is useful to keep track of *in which way* we are rearranging the mass $p$ to form $q$, and we can see these different ways as different morphisms, between the objects $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$, in a  [[category of couplings]]. 
+
 
 ## Definition
 
@@ -66,19 +71,52 @@ In terms of transport plans, this arranges the mass from almost all points of $X
 
 ### Composition of couplings
 
-(...)
+Let $(X,\mathcal{A},p)$, $(Y,\mathcal{B},q)$, $(Z,\mathcal{C},r)$ be [[standard Borel]] probability spaces, and consider transport plans $s$ from $p$ to $q$ and $t$ from $q$ to $r$. 
+The **composite transport plan** $t\circ s$ from $p$ to $r$ is defined as follows:
+$$
+(t\circ s)(A\times C) = \int_Y s'(A|y)\,t'(C|y) q(dy)
+$$
+for all $A\in\mathcal{A}$ and $C\in\mathcal{C}$, and where $s'$ and $t'$ are the [[Markov kernel#regular_conditional_distributions|regular conditional distributions]] associated to $s$ and $t$ given $Y$.
+The interpretation is that the mass in moved according to the plan $s$ and then according to the plan $t$, and in case the transport is stochastic, the two transitions are taken independently.
+
+This construction gives composition in the [[category of couplings]]. When the transport plans are induced by functions or kernels (see below), the composition of transport plans is given by the composition of functions or kernels.
+
+In [Kozen-Silva-Voogd'23](#non_borel), this construction was extended beyond the standard Borel case. (See there for the details.)
 
 ### Couplings induced by functions
 
-(...)
+Let $f:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ be a [[measure-preserving function]]. 
+One can define the "deterministic" transport plan $r_f$ as follows,
+$$
+r_f(A\times B) = p\big(A\cap f^{-1}(B)\big)
+$$
+for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
+Intuitively, this maps all the mass at $x$ to the point $f(x)$, for every $x\in X$.
+
+Note that in general there may exist no measure-preserving function between two probability spaces, for example, on the real line, if $p$ is a Dirac delta and $q$ is not. 
+A construction that always exists is in terms of [[Markov kernels]], see below.
 
 ### Couplings induced by kernels
 
-(...)
+Let $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ be a [[Markov kernel#measurepreserving_kernels|measure-preserving Markov kernel]]. 
+One can define a transport plan $r_k$ as follows,
+$$
+r_k(A\times B) = \int_A k(B|x)\,p(dx) 
+$$
+for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
+Intuitively, this maps all the mass at $x$ to a measure on $Y$ proportional to the measure $B\mapsto k(B|x)$. 
+
+In many cases, such as if $(X,\mathcal{A})$ and $(Y,\mathcal{B})$ are [[standard Borel]], every transport plan is in the form $r_k$ for some $k$. See also [[category of couplings#equivalence_of_the_definitions|the discussion at "categories of couplings"]].
 
 ### Bayesian inversion
 
-(...)
+Couplings are in some sense undirected, meaning that every transport plan from $X$ to $Y$ can also be seen as (and canonically induces) a transport plan from $Y$ to $X$.
+
+This makes the [[category of couplings]] canonically a [[dagger category]].
+
+For transport plans specified by kernels, this symmetry corresponds exactly to [[Markov kernel#bayesian_inversion|Bayesian inversion of measure-preserving kernels]].
+
+
 
 ## Related concepts
 
@@ -93,6 +131,16 @@ In terms of transport plans, this arranges the mass from almost all points of $X
 * [[optimal transport]]
 
 
+## References
+
+* {#villani} [[Cedric Villani]], _Optimal transport: old and new_, Springer, 2008.
+
+* Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
+their approximation, categorically_, MFPS 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
+
+* {#non_borel} Dexter Kozen, Alexandra Silva, Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
+
+* [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv:2110.06591](https://arxiv.org/abs/2110.06591))
 
 
 [[!redirects transport plans]]
