@@ -20,7 +20,7 @@
 
 The formalism of Markov categories is one of the most recent [[categorical approaches to probability theory]]. 
 
-Intuitively, a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
+Intuitively, a Markov category can be seen as a category where morphisms behave like "random functions", for example, [[Markov kernels]] form such a category (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
 **Caveat**: some of the content of this page reflects work in progress. Content may change.
 
