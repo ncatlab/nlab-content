@@ -87,6 +87,9 @@ It also appears in the following works:
 
 * Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
 
+* [[Dexter Kozen]], [[Alexandra Silva]], Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
+
+
 ## Related concepts
 
 * [[Markov kernel]]
