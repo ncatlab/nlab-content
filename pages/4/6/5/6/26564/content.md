@@ -63,7 +63,7 @@ $$
 for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
 (See also [[transport plan#couplings_induced_by_kernels|here]].) 
 
-Conversely, whenever $(X,\mathcal{A},p)$ and $(Y,\mathcal{A},q)$ are [[standard Borel]], given a coupling $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$ one can form the [[Markov kernel#regular_conditional_distributions|regular conditional distribution]] $r':(X,\mathcal{A},p)\to(Y,\mathcal{A},q)$, which is a measure-preserving kernel, defined up to [[Markov kernel#almost_sure_equality|almost sure equality]]. 
+Conversely, whenever $(X,\mathcal{A},p)$ and $(Y,\mathcal{A},q)$ are [[standard Borel]], given a coupling $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$ one can form the [[Markov kernel#regular_conditionals_from_a_joint_distribution|regular conditional distribution]] $r':(X,\mathcal{A},p)\to(Y,\mathcal{A},q)$, which is a measure-preserving kernel, defined up to [[Markov kernel#almost_sure_equality|almost sure equality]]. 
 
 As one can check, these two assignment are mutually inverse, so that the two definitions of *Krn* give [[isomorphic categories]].
 
