@@ -1754,12 +1754,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 ### Jan 2024
 
 
-
-* 22 Jan 2024
+* {#CapucciJan2024} 22 Jan 2024
  
   [[Matteo Capucci]]: 
 
   **Para Construction as a Wreath Product**
+
+  slides: [[Capucci-ParaAsWreathProduct.pdf:file]]
 
   cf. [arXiv:2105.06332](categorical+systems+theory#CGHR22)
 
