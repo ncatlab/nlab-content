@@ -1,3 +1,4 @@
+[[!redirects categorical approaches to probability theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,8 +22,13 @@ There are a number of approaches to apply [[category theory]] to [[probability]]
 On one hand, one can study the existing structures in traditional probability theory (such as [[probability spaces]], [[integration]], and so on) using a categorical lens. For instance, the [[Giry monad]] models the formation of spaces of [[probability measures]] and its iterations, used for example in the context of [[de Finetti's theorem]].
 
 On the other hand, one can try to express certain aspects of [[probability]] and [[statistics]] [[analytic versus synthetic|synthetically]]. One looks for [[structures]] and [[axioms]] which can be thought of as "fundamental" in probability and statistics, and which one can use to prove theorems, without having to use [[measure theory]] directly. One then proves that the usual measure-theoretic treatment is a [[model]] (or [[semantics]]) of this theory. This approach is often called **synthetic probability theory**, in analogy for example with [[synthetic differential geometry]].
-
 One of the most recent approaches to synthetic probability theory is given by [[Markov categories]].
+
+The main end goals of categorical probability are
+
+* To generalize existing results in probability theory to more general settings, for example with less stringent conditions on countability, separability, etc.;
+* To find new results, which with the traditional methods would have been too complex to prove;
+* To make probability and related fields more accessible to practitioners, thanks to the fact that the formalism incorporates measure theory without requiring any deep knowledge of it.
 
 
 ## Main structures of interest
@@ -79,8 +85,9 @@ Here are other references:
 
 
 
-
+[[!redirects category-theoretic approach to probability theory]]
 [[!redirects categorical approach to probability theory]]
+[[!redirects categorical approaches to probability theory]]
 [[!redirects categorical probability]]
 [[!redirects categorical probability theory]]
 [[!redirects categorical probability and statistics]]
