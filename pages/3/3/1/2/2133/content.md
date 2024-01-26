@@ -64,7 +64,7 @@ $$
   B\big(x, [y,z] \big)
 $$
 
-for all $x,y,z \in \mathbb{g}$. This follows from the cyclic invariance of the [[trace]]],
+for all $x,y,z \in \mathbb{g}$. This follows from the cyclic invariance of the [[trace]].
 
 For complex Lie algebras $\mathfrak{g}$, nondegeneracy of the Killing form (i.e. being the metric making $\mathfrak{g}$ a [[metric Lie algebra]]) is equivalent to [[semisimple Lie algebra|semisimplicity]] of $\mathfrak{g}$. 
 
