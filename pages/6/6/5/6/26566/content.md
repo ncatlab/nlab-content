@@ -76,7 +76,7 @@ The **composite transport plan** $t\circ s$ from $p$ to $r$ is defined as follow
 $$
 (t\circ s)(A\times C) = \int_Y s'(A|y)\,t'(C|y) q(dy)
 $$
-for all $A\in\mathcal{A}$ and $C\in\mathcal{C}$, and where $s'$ and $t'$ are the [[Markov kernel#regular_conditional_distributions|regular conditional distributions]] associated to $s$ and $t$ given $Y$.
+for all $A\in\mathcal{A}$ and $C\in\mathcal{C}$, and where $s'$ and $t'$ are the [[Markov kernel#regular_conditionals_from_a_joint_distribution|regular conditional distributions]] associated to $s$ and $t$ given $Y$.
 The interpretation is that the mass in moved according to the plan $s$ and then according to the plan $t$, and in case the transport is stochastic, the two transitions are taken independently.
 
 This construction gives composition in the [[category of couplings]]. When the transport plans are induced by functions or kernels (see below), the composition of transport plans is given by the composition of functions or kernels.
