@@ -55,6 +55,9 @@ _BorelStoch_ is the [[full subcategory]] of _Stoch_ whose objects are [[standard
 This is particularly important as a [[Markov category]] because it has [[Markov category#conditionals|conditionals]] and countable [[Markov category#kolmogorov_products|Kolmogorov products]].
 It is the Kleisli category of the [[Giry monad]] restricted to [[standard Borel spaces]].
 
+As proven [here](#markov_support), in _BorelStoch_ all [[idempotent splitting|idempotents split]], making it a [[Cauchy-complete category]].
+
+
 ### FinStoch
 
 _FinStoch_ is the [[full subcategory]] of _Stoch_ whose objects are discrete [[finite sets]]. Equivalently, it is the category of finite [[stochastic matrices]].
@@ -72,3 +75,7 @@ It is closely related to the Kleisli category of the [[distribution monad]].
 * [[categorical probability]]
 
 category: category
+
+## References:
+
+* {#markov_support} Tobias Fritz, Tomáš Gonda, Antonio Lorenzin, Paolo Perrone, Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
