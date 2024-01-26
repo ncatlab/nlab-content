@@ -533,7 +533,7 @@ Historically, the [[D-branes]] in [[D=10 supergravity]] were first identified as
 
 
 ### Equations of motion of flux
- {#HigherMaxwellEquations}
+ {#EquationsOfMotionOfFlux}
 
 As we now turn to the [[equations of motion]] for [[flux densities]] (the analogs of [[Maxwell's equations]] for [[electromagnetic field|electromagnetic]] flux), the key move towards identifying possible [[flux quantization laws]] ([below](#FluxQuantizationLaws)) is to arrange these equations, equivalently, as:
 
@@ -564,7 +564,7 @@ and as such has been highlighted, in the case of electromagnetism a century ago 
 
 \begin{definition}\label{HigherMaxwellEquations}
 **Higher Maxwell-type equations** (in vacuum)
-on a [[tupe]] (eq:TheHigherFluxDensities) of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$ , is:
+on a [[tuple]] (eq:TheHigherFluxDensities) of [[flux]] [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ (a [[pseudo-Riemannian manifold]]) of any dimension $D = d+1 \geq 2$ , is:
 
 1. any system of [[polynomial]] $\vec P(-)$ first order [[exterior derivative|exterior]]-[[differential equations]] $\mathrm{d} \vec F \,=\, \vec P\big(\vec F\big)$ (the higher [[Bianchi identities]], crucially admitting polynomial "self-sourcing" of fluxes);
 
@@ -582,9 +582,9 @@ on a [[tupe]] (eq:TheHigherFluxDensities) of [[flux]] [[differential forms]] $\v
     }
 \end{imagefromfile}
 
-Concretely, here 
+Concretely:
 
-* $\vec P$ is an $I$-tuple of graded-symmetric [[polynomials]] in $I$ [[variables]] of degrees $\vec deg$ with [[rational numbers|rational]] [[coefficients]],
+* $\vec P$ is an $I$-tuple of graded-symmetric [[polynomials]] with [[rational numbers|rational]] [[coefficients]] in $I$ [[variables]] of degrees $\vec deg$,
 
 * $\vec \mu$ is a [[linear map|linear]] [[endomorphism]] on the [[vector space]] [[linear span|spanned]] by these variables.
 
@@ -594,18 +594,18 @@ Concretely, here
 \begin{remark}
 Not all higher gauge theories are of the higher Maxwell-form (Def. \ref{HigherMaxwellEquations}): For instance [higher Chern-Simons type theories](higher+gauge+field#OfChernSimonsType) are different.
 
-As a consequence, given a higher gauge theory of higher Maxwell-type, its [[double dimensional]] is no longer of this type, since the [[KK-monopole]]-flux appears without a duality-partner, see below (..).
+As a consequence, given a higher gauge theory of higher Maxwell-type, its [[double dimensional reduction]] is no longer of this type, since the [[KK-monopole]]-flux appears without a Hodge duality-partner, see below (..).
 \end{remark}
 
 
-\begin{example}
-**(Motion of the electromagnetic field)**
+\begin{example}\label{MotionOfElectromagneticField}
+**(Motion of the electromagnetic fluxes)**
 
-The classical [[Maxwell equations]] expressed in terms of differential forms (see basic references [here](Maxwell's+equations#ReferencesForMaxwellEquationsViaDifferentialForms)) are as shown on the left, with their [[premetric electromagnetism|premetric]] form shown on the right:
+The classical [[Maxwell equations]] expressed in terms of differential forms (see basic references [here](Maxwell's+equations#ReferencesForMaxwellEquationsViaDifferentialForms)) are as shown on the left, with their [[premetric electromagnetism|premetric]] form shown on the right (see the references [there](pre-metric+electromagnetism#ReferencesPremetricElectromagnetism)):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfElectromagnetism.jpg",
-    "width": 600,
+    "width": 430,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -617,10 +617,9 @@ The classical [[Maxwell equations]] expressed in terms of differential forms (se
 
 Here the [[differential 3-form]] $J_3$ embodies the density of a [[electric current]] carrying an [[electric field]] and inducing a [[magnetic field]]. This kind of *[[background field|background]]* source term, where the source is not given by (a polynomial in) the flux densities themselves, does not fit into the Definition \ref{HigherMaxwellEquations} and shall be disregarded for the purpose of the present discussion, meaning that we focus on the special case of Maxwell's equations "in vacuum":
 
-
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfVacuumElectromagnetism.jpg",
-    "width": 600,
+    "width": 430,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -630,16 +629,18 @@ Here the [[differential 3-form]] $J_3$ embodies the density of a [[electric curr
     }
 \end{imagefromfile}
 
-
 \end{example}
 
+It is clear that, mathematically at least, Ex. \ref{MotionOfElectromagneticField}, makes sense more generally for flux densities of any degree. In particular:
 
 \begin{example}\label{MotionOfPureRRFields}
-**(Motion of untwisted [[RR-fields|RR-fields]])**
+**(Motion of untwisted [[RR-field]] fluxes)**
+
+The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] in the case of vanishing [[B-field]]-fluxes are often taken to be as follows:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-MotionRRFields.jpg",
-    "width": 600,
+    "file_name": "GeomPhys-MotionOfPureRRFluxes.jpg",
+    "width": 820,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -649,7 +650,17 @@ Here the [[differential 3-form]] $J_3$ embodies the density of a [[electric curr
     }
 \end{imagefromfile}
 
+Beware, while these equations are readily written down in themselves and are now often stated in this form, it is at least subtle to see them in entirety as actually arising from [[D=10 suoergravity]], since in that context the fluxes of low (co)dimensions are not genuinely present (in type IIA this concerns $F_0$, $F_8$ and $F_{10}$). See the discussion in ... below.
 \end{example}
+
+\begin{example}
+**(Motion of self-dual higher gauge field fluxes)**
+
+Since Def. \ref{HigherMaxwellEquations} regards every higher gauge field as a "self-dual" higher gauge field, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
+
+
+\end{example}
+
 
 \begin{example}\label{MotionOfSupergravityCField}
 **(Motion of [[supergravity C-field|C-field]])**
