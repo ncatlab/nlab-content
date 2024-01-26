@@ -588,8 +588,36 @@ Concretely:
 
 * $\vec \mu$ is a [[linear map|linear]] [[endomorphism]] on the [[vector space]] [[linear span|spanned]] by these variables.
 
-(Of course, the above equations imply that $\vec P$ and $\vec \mu$ respect degrees is a certain evident way.)
 \end{definition}
+
+\begin{remark}
+The equations in Def. \ref{HigherMaxwellEquations} imply that $\vec P$ and $\vec \mu$ respect degrees is a certain evident way. Moreover, the following property of the [[Hodge star operator]] on [[Lorentzian manifolds]] (see [there](Hodge+star+operator#eq:HodgeSquareOnRiemannian)) implies further constraints on the available higher Maxwell-type equations:
+\[
+  \label{HodgeSquareOnLorentzianSpacetime}
+  \star 
+  \,
+  \star
+  \,
+  F_{deg}
+  \;\;
+  =
+  \;\;
+  -(-1)^{deg(D-deg)}
+  \,
+  F_{deg}
+  \,,
+  \;\;\;\;\;\;\;\;
+  \text{for}
+  \;
+  F_{deg}
+  \,\in\,
+  \Omega^{deg}_{dR}(X^D)
+  \,.
+\]
+This controls notably the existence of genuinely [[self-dual higher gauge theories]], see Ex. \ref{MotionOfSelfDualHigherGaugeFluxes} below.
+
+\end{remark}
+
 
 \begin{remark}
 Not all higher gauge theories are of the higher Maxwell-form (Def. \ref{HigherMaxwellEquations}): For instance [higher Chern-Simons type theories](higher+gauge+field#OfChernSimonsType) are different.
@@ -615,7 +643,7 @@ The classical [[Maxwell equations]] expressed in terms of differential forms (se
     }
 \end{imagefromfile}
 
-Here the [[differential 3-form]] $J_3$ embodies the density of a [[electric current]] carrying an [[electric field]] and inducing a [[magnetic field]]. This kind of *[[background field|background]]* source term, where the source is not given by (a polynomial in) the flux densities themselves, does not fit into the Definition \ref{HigherMaxwellEquations} and shall be disregarded for the purpose of the present discussion, meaning that we focus on the special case of Maxwell's equations "in vacuum":
+Here the [[differential 3-form]] $J_3$ embodies the density of an [[electric current]] carrying an [[electric field]] and inducing a [[magnetic field]]. This kind of *[[background field|background]]* source term, where the source is not given by (a polynomial in) the flux densities themselves, does not fit into the Definition \ref{HigherMaxwellEquations} and shall be disregarded for the purpose of the present discussion, meaning that we focus on the special case of Maxwell's equations "in vacuum":
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfVacuumElectromagnetism.jpg",
@@ -650,24 +678,21 @@ The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] 
     }
 \end{imagefromfile}
 
-Beware, while these equations are readily written down in themselves and are now often stated in this form, it is at least subtle to see them in entirety as actually arising from [[D=10 suoergravity]], since in that context the fluxes of low (co)dimensions are not genuinely present (in type IIA this concerns $F_0$, $F_8$ and $F_{10}$). See the discussion in ... below.
+> (While we may think of $\bullet$ as ranging over all [[natural numbers]] -- which is suggestive in view of [[D-brane charge quantization in topological K-theory|Hypothesis K]] discussed below -- of course on the given spacetime manifold of dimension $D=10$ all differential forms of degree $\gt 10$ vanish identically.)
+
+Beware, while these equations are readily written down in themselves and are now often stated in this form, it is at least subtle to see them in entirety as actually arising from [[D=10 supergravity]], since in that context the fluxes of low (co)dimensions are not genuinely present (in type IIA this concerns $F_8$ and $F_0$, $F_{10}$, the latter two, at least, belong to [[massive type IIA supergravity]]). See the discussion in ... below.
 \end{example}
 
-\begin{example}
+Notice that in type IIB, Ex. \ref{MotionOfPureRRFields} describes a flux density ($F_5$) which is Hode dual (not just to any other flux in the tuple but) to itself, $F_5 \,=\, \star\, F_5$. Generally we have:
+
+\begin{example}\label{MotionOfSelfDualHigherGaugeFluxes}
 **(Motion of self-dual higher gauge field fluxes)**
 
-Since Def. \ref{HigherMaxwellEquations} regards every higher gauge field as a "self-dual" higher gauge field, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
-
-
-\end{example}
-
-
-\begin{example}\label{MotionOfSupergravityCField}
-**(Motion of [[supergravity C-field|C-field]])**
+Since Def. \ref{HigherMaxwellEquations} regards *every* higher gauge theory as being "self-dual" in a sense, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-MotionOfCField.jpg",
-    "width": 600,
+    "file_name": "GeomPhys-MotionOfSelfDualFlux.jpg",
+    "width": 510,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -677,10 +702,81 @@ Since Def. \ref{HigherMaxwellEquations} regards every higher gauge field as a "s
     }
 \end{imagefromfile}
 
+Due to the properties of the square of the Hodge operator (eq:HodgeSquareOnLorentzianSpacetime),
+this has non-trivial solutions iff the degree of the flux is odd $deg = 2k+1$ and hence iff spacetime dimension is $D=4k+2$, $k \in \mathbb{N}$.
+\end{example}
+
+What is much more clear-cut than the example of fluxes in [[D=10 supergravity]] (Ex. \ref{MotionOfPureRRFields}) is the following example of fluxes in [[D=11 supergravity]], where at least on flat spacetimes there is no ambiguity in the literature:
+
+
+\begin{example}\label{MotionOfSupergravityCField}
+**(Motion of [[supergravity C-field|C-field]] fluxes)**
+
+The equations of motion of the [[supergravity C-field|C-field]] in [[D=11 supergravity]] (originally the "3-index A-field" due to [Cremmer, Julia & Scherk 1978](D=11+supergravity#CremmerJuliaScherk78), see also [D'Auria & Fré 1982, p. 131](D=11+supergravity#DAuriaFré82); [Castellani, D'Auria & Fré 1991, §III.8](D=11+supergravity#CastellaniDAuriaFré91); [Miemiec & Schnakenburg 2006, p. 32](D=11+supergravity#MiemiecSchnakenburg06)) are traditionally as shown on the left here, with their equivalent "duality-symmetric" reformulation shown on the right (see the references [there](duality-symmetric+higher+gauge+theory#PremetricCFieldReferences)):
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MotionOfCField.jpg",
+    "width": 580,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+Since this higher gauge theory is unambiguous, it is worth considering its [[double dimensional reduction]]: Considering the case that the 11-dimensional spacetime is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$
+
+\begin{tikzcd}[sep=20pt]
+  S^1 
+  \ar[r, hook]
+  &
+  X^{11}
+  \ar[d]
+  \\
+  &
+  X^{10}
+\end{tikzcd}
+
+with ([[first Chern class|first]]) [[Chern class]] represented by a [[differential 2-form]] on $X^{10}$
+
+\[
+  \label{ClosureOfFirstChernClassOnBaseSpace}
+  \mathrm{d}
+  \,
+  F_2
+  \;=\;
+  0
+  \,,
+\]
+
+and assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] to $X^{11}$ ) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers:
+
+$$
+  \begin{array}{l}
+    G_4
+    \;=\;
+    F_4 \,+\, \theta \wedge H_3
+    \\
+    G_7 
+    \;=\;
+    H_7 \,+\, \theta \wedge F_6
+    \,.
+  \end{array}
+$$
+
+In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04)&rbrack;:
+
+(...)
+
+Here we 
+
 \end{example}
 
 \begin{example}\label{MotionOfCoupledBRRFields}
-**(Motion of coupled B/RR-fields)**
+**(Motion of coupled B/RR-field fluxes)**
 
 (...)
 
