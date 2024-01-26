@@ -213,7 +213,7 @@ Here
 ### Basic properties 
  {#BasicProperties}
 
-Let $(X,g)$ be a ([[pseudo-Riemannian manifold|pseudo]]-) [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then the following holds:
+Let $(X,g)$ be a ([[pseudo-Riemannian manifold|pseudo]]-) [[Riemannian manifold]] of [[dimension]] $D$ and let $\omega,\lambda \in \Omega^k(X)$. Then the following holds:
 
 \[
   \label{HodgeSquareOnRiemannian}
@@ -221,10 +221,12 @@ Let $(X,g)$ be a ([[pseudo-Riemannian manifold|pseudo]]-) [[Riemannian manifold]
   \;=\; 
   \left\{
   \begin{array}{rc}  
-    (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega 
+    (-1)^{k(D+1)} \omega = (-1)^{k(D-k)} \omega 
     & \text{(Riemannian)}
     \\
-    -(-1)^{k(n+1)} \omega = - (-1)^{k(n-k)} \omega 
+    -(-1)^{k(D+1)} \omega 
+      = 
+    - (-1)^{k(D-k)} \omega 
     & \text{(pseudo-Riemannian)}
   \end{array}
   \right.
