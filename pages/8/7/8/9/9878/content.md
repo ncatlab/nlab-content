@@ -1,4 +1,7 @@
 
+> "Coupling" redirects here. For the concept of *coupling* in probability theory, see [[transport plan]].
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
