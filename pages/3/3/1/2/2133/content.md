@@ -56,7 +56,7 @@ $$
 
 ## Properties
  
-The Killing form is am _[[invariant polynomial]]_ in that 
+The Killing form is an _[[invariant polynomial]]_ in that 
 
 $$
   B\big([x,y],z\big)
