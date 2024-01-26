@@ -89,9 +89,11 @@ Here is a partial list, in alphabetical order.
 
 * [[ergodic decomposition theorem]] (...)
 
-* [[Kolmogorov extension theorem]] (...)
+* [[idempotent completion]] of [[BorelStoch]] (...)
 
 * joint and marginal distributions (...)
+
+* [[Kolmogorov extension theorem]] (...)
 
 * [[martingales]] (...)
 
