@@ -102,9 +102,9 @@ Given a measure-preserving Markov kernel $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q
 $$
 \int_A k(B|x)\,p(d x) = \int_B k^\dagger(A|y)\,q(d y) .
 $$
-The last formula can be seen as an instance of [[Bayes' formula]], as it is in the form 
+The last formula can be seen as an instance of [[Bayes' formula]], as it generalize the usual discrete formula
 $$
-P(B|A)\,P(A) = P(A|B)\,P(B) .
+P(b|a)\,P(a) = P(a|b)\,P(b) .
 $$
 We have that 
 
