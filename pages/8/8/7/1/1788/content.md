@@ -3,6 +3,8 @@
 
 [[GeomPhys-MotionRRFields.jpg:file]]
 
+[[GeomPhys-MotionOfVacuumElectromagnetism.jpg:file]]
+
 [[GeomPhys-MotionOfElectromagnetism.jpg:file]]
 
 [[GeomPhys-PhaseSpaceFromEOMsSchematics-240125.jpg:file]]
