@@ -60,6 +60,7 @@ $$\mathrm{isDecidable}(P) \coloneqq \mathrm{isProp}(P) \times (P \vee \neg P)$$
 
 * [[type of decidable propositions]]
 * [[decidable subsingleton]]
+* [[semi-decidable proposition]]
 
 [[!redirects decidable proposition]]
 [[!redirects decidable propositions]]
