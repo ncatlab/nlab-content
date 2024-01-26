@@ -252,6 +252,7 @@ There is no [[Whitehead-generalized cohomology theory]] with this property, due 
  {#References}
 
 ### Premetric electromagnetic fields
+ {#ReferencesPremetricElectromagnetism}
 
 The idea (if not the terminology) of pre-metric electromagnetism is attributed to:
 
