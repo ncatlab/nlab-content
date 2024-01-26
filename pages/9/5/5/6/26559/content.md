@@ -503,7 +503,7 @@ On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagnet
   \,.
 \]
 
-
+\[\label{FluxesAndTheirSingularSources}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-FluxesAndTheirSingularBranes-240125.jpg",
     "float": "right",
@@ -591,7 +591,7 @@ Concretely:
 \end{definition}
 
 \begin{remark}
-The equations in Def. \ref{HigherMaxwellEquations} imply that $\vec P$ and $\vec \mu$ respect degrees is a certain evident way. Moreover, the following property of the [[Hodge star operator]] on [[Lorentzian manifolds]] (see [there](Hodge+star+operator#eq:HodgeSquareOnRiemannian)) implies further constraints on the available higher Maxwell-type equations:
+The equations in Def. \ref{HigherMaxwellEquations} imply that $\vec P$ and $\vec \mu$ respect degrees in a certain evident way. Moreover, the following property of the [[Hodge star operator]] on [[Lorentzian manifolds]] (see [there](Hodge+star+operator#eq:HodgeSquareOnRiemannian)) implies further constraints on the available higher Maxwell-type equations:
 \[
   \label{HodgeSquareOnLorentzianSpacetime}
   \star 
@@ -668,7 +668,7 @@ The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] 
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfPureRRFluxes.jpg",
-    "width": 820,
+    "width": 780,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -686,7 +686,7 @@ Beware, while these equations are readily written down in themselves and are now
 Notice that in type IIB, Ex. \ref{MotionOfPureRRFields} describes a flux density ($F_5$) which is Hode dual (not just to any other flux in the tuple but) to itself, $F_5 \,=\, \star\, F_5$. Generally we have:
 
 \begin{example}\label{MotionOfSelfDualHigherGaugeFluxes}
-**(Motion of self-dual higher gauge field fluxes)**
+**(Motion of [[self-dual higher gauge field]] fluxes)**
 
 Since Def. \ref{HigherMaxwellEquations} regards *every* higher gauge theory as being "self-dual" in a sense, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
 
@@ -727,62 +727,45 @@ The equations of motion of the [[supergravity C-field|C-field]] in [[D=11 superg
     }
 \end{imagefromfile}
 
-Since this higher gauge theory is unambiguous, it is worth considering its [[double dimensional reduction]]: Considering the case that the 11-dimensional spacetime is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$
+Since this higher gauge theory is unambiguous, it is worth considering its [[double dimensional reduction]]: 
 
-\begin{tikzcd}[sep=20pt]
-  S^1 
-  \ar[r, hook]
-  &
-  X^{11}
-  \ar[d]
-  \\
-  &
-  X^{10}
-\end{tikzcd}
-
-with ([[first Chern class|first]]) [[Chern class]] represented by a [[differential 2-form]] on $X^{10}$
-
-\[
-  \label{ClosureOfFirstChernClassOnBaseSpace}
-  \mathrm{d}
-  \,
-  F_2
-  \;=\;
-  0
-  \,,
-\]
-
-and assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] to $X^{11}$ ) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers:
-
-$$
-  \begin{array}{l}
-    G_4
-    \;=\;
-    F_4 \,+\, \theta \wedge H_3
-    \\
-    G_7 
-    \;=\;
-    H_7 \,+\, \theta \wedge F_6
-    \,.
-  \end{array}
-$$
-
-In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04)&rbrack;:
-
-(...)
-
-Here we 
 
 \end{example}
 
 \begin{example}\label{MotionOfCoupledBRRFields}
 **(Motion of coupled B/RR-field fluxes)**
 
-(...)
+Consider the case that the 11-dimensional spacetime is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$, denoting BY
+
+* $\theta$ the [[Maurer-Cartan form]]  along the fibers,
+
+* $F_2$ the corresponding ([[first Chern class|first]]) [[Chern class]]-[[characteristic form]].
+
+Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] along the projection $p$) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers:
+
+In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03); [Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles)&rbrack;:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-DoubleDimReductionOfCField.jpg",
+    "width": 810,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Here the new $\color{orange}gravitational$ [[flux density]] $F_2$ is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources -- cf. (eq:FluxesAndTheirSingularSources) --  in the geometric guise of "[[KK-monopoles]]" in 11d.
+Its Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is purely a reflection of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry) and hence not encoded by the equations for the C-field alone.  But invoking the [[supergravity]] equations gives &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack; that $\differential \, F_8 \,=\, H_3 \wedge F_6$.
+
+Do notice the non-linear Bianchi identity for $H_7$ &lbrack;also [CJCP98 (3.4)](#CremmerJuliaLuPope98)&rbrack;, whose presence in [[type IIA supergravity]] does not seem to be widely appreciated -- it is rather directly in conflict with the traditional [[D-brane charge quantization in K-theory|Hypothesis K]].
 
 \end{example} 
 
 
+(...)
 
 
 \linebreak
@@ -864,6 +847,9 @@ Here we
 
 * {#BFJKNRSW24} [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+* {#CremmerJuliaLuPope98} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 3 of: *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
+
+
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short)&rbrack;
 
 * {#DuffLu94} [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052), <a href="https://doi.org/10.1016/0550-3213(94)90586-X">doi:10.1016/0550-3213(94)90586-X</a>&rbrack;
@@ -872,6 +858,12 @@ Here we
 * {#Faraday1852} [[Michael Faraday]], *Delienation of Lines of Magnetic Force by iron filings*, §37 in: *Experimental Researches in Electricity.--Twenty-Ninth Series*, Philosophical Transactions of the Royal Society of London **142** (1852) 137-159 &lbrack;[doi:10.1098/rstl.1852.0012](https://doi.org/10.1098/rstl.1852.0012), [jstor:108540](https://www.jstor.org/stable/108540)&rbrack;
 
   > (the notion of "lines of force" is introduced on pp. 154)
+
+
+* {#Figueroa-O'FarrillSimón03} [[José Figueroa-O'Farrill]], [[Joan Simón]], *Supersymmetric Kaluza-Klein reductions of M2 and M5-branes*, Adv. Theor. Math. Phys. **6** (2003) 703-793 &lbrack;[arXiv:hep-th/0208107](https://arxiv.org/abs/hep-th/0208107), [doi:10.4310/ATMP.2002.v6.n4.a4](https://doi.org/10.4310/ATMP.2002.v6.n4.a4)&rbrack;
+
+* {#FSS17SphereCocycles} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]*, J. Geometry and Physics, **114** (2017) 91-108 &lbrack;[arXiv:1606.03206](https://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024)&rbrack;
+
 
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
