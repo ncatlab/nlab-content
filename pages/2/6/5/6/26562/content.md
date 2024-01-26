@@ -79,7 +79,7 @@ Here is a partial list, in alphabetical order.
 
 * [[conditional expectations]] (...)
 
-* [[de Finetti's theorem]], stated, interpreted and proven in terms of Markov categories as well as in dagger categories. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) and [Ensarguet-Perrone'23](#ergodic_dagger) for further context. An additional categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
+* [[de Finetti's theorem]], stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
 
 * [[disintegrations]] (...) 
 
@@ -121,7 +121,7 @@ Here is a partial list, in alphabetical order.
 
 The first work on categorical probability seems to be due to Lawvere, and it is unpublished:
 
-*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
 
 
