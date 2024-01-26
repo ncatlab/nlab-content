@@ -19,12 +19,13 @@
 
 ## Idea
 
-*Categorical systems theory* is [[category theory]] (and [[2-category theory]]) for the conceptualization and description of [[dynamical systems]].
-
+On [[category theory]] (and [[higher category theory]]) for the conceptualization and description of [[dynamical systems]].
 
 ## Related concepts
 
 * [[lens (in computer science)]]
+
+* [[para construction]]
 
 * [[double category]]
 
@@ -58,7 +59,17 @@ Exposition:
 
 * [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
 
+On a [[triple category]]-generalization of the [[para construction]] for systems theory:
+
+* {#Myers22} [[David Jaz Myers]], _The Para construction as a distributive law_, talk at the Virtual Double Categories Workshop (2022) &lbrack;[slides](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/david-jaz-myers.pdf), [video](https://www.youtube.com/watch?v=zB_ifewP8Yk)&rbrack;
+
+* {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_ &lbrack;[slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://youtu.be/jYxnUy1vH7Q)&rbrack;
+
+* [[Matteo Capucci]], *Para Construction as a Wreath Product*, [talk at](CQTS#CapucciJan2024) *[[CQTS]]* (Jan 2024) &lbrack;slides: [[Capucci-ParaAsWreathProduct.pdf:file]]&rbrack;
+
+
 [[!redirects categorical system theory]]
+[[!redirects categorical systems theory]]
 
 [[!redirects cybernetics]]
 
