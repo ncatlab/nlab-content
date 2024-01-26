@@ -9,10 +9,13 @@ Discussion of [[spectral triples]] over [[Jordan algebras]] in the [[Connes-Lott
 * [[Latham Boyle]], [[Shane Farnsworth]],
 _The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
 
-* [[Shane Farnsworth]], _The geometry of physical observables_ ([arXiv:2003.01708](https://arxiv.org/abs/2003.01708))
+On the [[Penrose tiling]] in relation to [[quantum error correcting codes]]:
+
+* Zhi Li, [[Latham Boyle]], *The Penrose Tiling is a Quantum Error-Correcting Code* &lbrack;[arXiv:2311.13040](https://arxiv.org/abs/2311.13040)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[Connes-Lott-Chamseddine model]]
 
