@@ -251,13 +251,13 @@ The terminology "Para construction" first appears in:
 
 It has then be developed for the purposes of machine learning in:
 
-* {#Gavranovic2019} Bruno Gavranović, _Compositional Deep Learning_, ([arXiv:1907.08292](https://arxiv.org/abs/1907.08292))
+* {#Gavranovic2019} [[Bruno Gavranović]], _Compositional Deep Learning_ &lbrack;[arXiv:1907.08292](https://arxiv.org/abs/1907.08292)&rbrack;
 
 * {#Cruttwell2021} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
 and generalized further to [[actegories]] for the purposes of categorical cybernetics in:
 
-* {#Capucci2020} Matteo Capucci, [[Bruno Gavranović]], [[Jules Hedges]], Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
+* {#Capucci2020} [[Matteo Capucci]], [[Bruno Gavranović]], [[Jules Hedges]], Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
 
 The generalization of the Para construction being developed by [[David Jaz Myers]] and [[Matteo Capucci]] is expounded in the following talks:
 
