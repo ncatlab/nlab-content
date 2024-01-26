@@ -213,12 +213,11 @@ The history as of 1990s with an eye towards the development to [[M-theory]] is s
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
-* {#DAuriaFre} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
+* {#DAuriaFré82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140
  
-
 of which a textbook account is in 
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapters III.8 and V.4-V.11 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
+* {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapters III.8 and V.4-V.11 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 
 The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 82](#DAuriaFre82) later reappears in (4.13) of
@@ -230,7 +229,7 @@ and around (4.2) of [Tsimpis 04](#Tsimpis04)
  
 More recent textbook accounts include
 
-* [[Antoine Van Proeyen]], [[Daniel Freedman]], Section 10 of: *Supergravity*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
+* {#VanProeyenFreedman12} [[Antoine Van Proeyen]], [[Daniel Freedman]], Section 10 of: *Supergravity*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
 
 
 Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the [[supergravity torsion constraints]] is in 
@@ -243,7 +242,7 @@ following
 
 Much computational detail is displayed in
 
-* [[André Miemiec]], [[Igor Schnakenburg]], _Basics of M-Theory_, Fortsch. Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256))
+* {#MiemiecSchnakenburg06} [[André Miemiec]], [[Igor Schnakenburg]], _Basics of M-Theory_, Fortsch. Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256))
 
 In terms of [[pure spinors]]:
 
