@@ -68,6 +68,7 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _La duale de la catégorie $\mathscr{L}d(0, 1)$_, (1969), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4802973/f497))
 - _Sur les catégories des $(t, T)$-faisceaux_, (1969), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4802973/f411))
 - _Les faisceaux d'une théorie_, (1969), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4802973/f378))
+- _Problèmes universels associés à quelques catégories d'applications_, ([[René Guitart]], 1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k480298g/f1408.item))
 - _Transformations H-naturelles et H-quintettes_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f9))
 - _Structures discrètes et triples_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f13))
 - _Réalisations dominées_, (1970), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5619186c/f17))
