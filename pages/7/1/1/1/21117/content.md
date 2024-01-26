@@ -480,6 +480,10 @@ On relevant classical control mechanisms:
 
 * {#PalerHerrDevitt19} Alexandru Paler, Daniel Herr, [[Simon J. Devitt]], *Really Small Shoe Boxes - On Realistic Quantum Resource Estimation*, Computer **52** 6 (2019) &lbrack;[arXiv:1902.08104](https://arxiv.org/abs/1902.08104), [doi:10.1109/MC.2019.2908621](https://doi.org/10.1109/MC.2019.2908621)&rbrack;
 
+In relation to the [[Penrose tiling]]:
+
+* Zhi Li, [[Latham Boyle]], *The Penrose Tiling is a Quantum Error-Correcting Code* &lbrack;[arXiv:2311.13040](https://arxiv.org/abs/2311.13040)&rbrack;
+
 
 ### Experimental realization
 
