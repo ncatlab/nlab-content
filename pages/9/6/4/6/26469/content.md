@@ -23,6 +23,8 @@ A **Markov kernel** (also called **transition kernel**, **stochastic kernel**, o
 It can be thought of as a generalization of a [[stochastic map]] outside the finite discrete case.
 (Sometimes the term "stochastic map" is itself used to denote a Markov kernel.)
 
+Markov kernels, in the form of regular conditional distributions (see [below](#regular_conditional_distributions)) are also the standard setting for talking about [[conditional probability]] outside of the discrete setting.
+
 Markov kernels and their categories are among the basic building blocks of [[categorical probability]].
 
 
@@ -66,7 +68,7 @@ Let $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$ be [[probability spaces]], i.e. 
 A **measure-preserving kernel** $(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ is a kernel between the underlying measurable spaces $k:(X,\mathcal{A})\to(Y,\mathcal{B})$
 such that for every $B\in\mathcal{B}$, 
 $$
-\int_X k(B|x)\,p(dx) = q(B) .
+\int_X k(B|x)\,p(d x) = q(B) .
 $$
 
 ### Kernels from deterministic functions
@@ -98,7 +100,7 @@ Note that if $f:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ is a [[measure-preserving
 
 Given a measure-preserving Markov kernel $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$, a **Bayesian inverse** of $k$ is a Markov kernel $k^\dagger:(Y,\mathcal{B},q)\to(X,\mathcal{A},p)$ such that for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$,
 $$
-\int_A k(B|x)\,p(dx) = \int_B k^\dagger(A|y)\,q(dy) .
+\int_A k(B|x)\,p(d x) = \int_B k^\dagger(A|y)\,q(d y) .
 $$
 The last formula can be seen as an instance of [[Bayes' formula]], as it is in the form 
 $$
@@ -117,9 +119,68 @@ We have that
 
 ## Regular conditional distributions
 
-(...)
+A Markov kernel can be seen as a [[probability measure]] which depends [[measurable function|measurably]] on a parameter. 
+Therefore, together with the idea of [[conditional expectation]], they a very useful tool to talk about [[conditional probability]] without incurring into paradoxes. Let's see how.
 
+Let $(X,\mathcal{A},p)$ be a [[probability space]], and consider a sub-[[sigma-algebra]] $\mathcal{B}\subseteq\mathcal{A}$. 
+Recall that 
 
+* the [[conditional expectation]] of an integrable function $f:(X,\mathcal{A},p)\to\mathbb{R}$ given $\mathcal{B}$ is a function $\mathbb{E}[f|\mathcal{B}]:X\to\mathbb{R}$ which is $\mathcal{B}$-measurable ("coarser" than $f$), and such that for every $B\in\mathcal{B}$,
+$$
+\int_B f \, d p = \int_B \mathbb{E}[f|\mathcal{B}] \, d p .
+$$
+(Such a function always exists by the [[Radon-Nikodym theorem]].)
+
+* the [[conditional probability]] of an event (measurable subset) $A\in\mathcal{A}$ is the conditional expectation of its indicator function:
+$$
+\mathbb{P}[A|\mathcal{B}] = \mathbb{E}[1_A|\mathcal{B}] .
+$$
+
+Note that $\mathbb{P}[A|\mathcal{B}]$ is a function, 
+$$
+x\mapsto \mathbb{P}[A|\mathcal{B}](x) 
+$$
+which is $\mathcal{B}$-measurable for every $A\in\mathcal{A}$. Therefore, in order for the assignment 
+\begin{tikzcd}[row sep=0]
+X \times \mathcal{A} \ar{r} & {[0,1]} \\
+(x,A) \ar[mapsto]{r} & \mathbb{P}{[A|\mathcal{B}]}(x)
+\end{tikzcd} 
+to be a Markov kernel $(X,\mathcal{B})\to(X,\mathcal{A})$ (see the definition [above](#definition)), we moreover need that for every $x\in X$ the assignment 
+$$
+A \mapsto \mathbb{P}[A|\mathcal{B}](x) 
+$$
+be a probability measure on $(X,\mathcal{A})$. 
+This is not always the case. When this happens, we call the resulting kernel $(X,\mathcal{B})\to(X,\mathcal{A})$ a **regular conditional distribution** given $\mathcal{B}$.
+We can view a regular conditional distribution as a probability measure on $(X,\mathcal{A})$ which is parametrized in a measurable way by $(X,\mathcal{B})$. 
+
+The **disintegration theorem** says that when $(X,\mathcal{A})$ is standard Borel, regular conditional distributions in the form above always exist. 
+
+### Regular conditionals from a joint distribution
+
+Using the disintegration theorem we can obtain conditional probability distributions in a way that generalizes the discrete formula
+$$
+p(b|a) = \frac{p(a,b)}{p(a)}
+$$
+to the non-discrete setting.
+
+Given standard Borel spaces $(X,\mathcal{A})$ and $(Y,\mathcal{B})$, their product $(X\times Y,\mathcal{A}\otimes\mathcal{B})$ is again standard Borel. The projection map $\pi_1:(X\times Y,\mathcal{A}\otimes\mathcal{B})\to (X,\mathcal{A})$ induces a sub-sigma-algebra $\pi_1^{-1}(\mathcal{A})$ on $X\times Y$ (which makes it isomorphic to $(X,\mathcal{A})$ in both [[Stoch]] and [[Krn]], see [Section 2.1 of this paper](#ergodic_dagger)).
+
+Given a joint distribution $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, we can then form the regular conditional $(X\times Y,\pi_1^{-1}(\mathcal{A}))\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$ (or equivalently, up to isomorphism, $(X,\mathcal{A})\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$).
+Further composing with the projection $\pi_2:(X\times Y,\mathcal{A}\otimes\mathcal{B})\to(Y,\mathcal{B})$ (or equivalently restricting the kernel to the sub-sigma-algebra $\pi_2^{-1}(\mathcal{B})$) we then get a kernel
+\begin{tikzcd}[row sep=0]
+X\times\mathcal{B} \ar{r} & {[0,1]} \\
+(x,B) \ar[mapsto]{r} & \mathbb{P}{[\pi_2^{-1}(B)|\pi_1^{-1}(\mathcal{A})]}(x) ,
+\end{tikzcd}
+sometimes denoted simply $r(B|x)$ or $r'(B|x)$.
+
+This kernel satisfies the property that for every $A\in\mathcal{A}$ and $B\in\mathcal{B}$,
+$$
+\int_A r'(B|x) \, p(d x) = r(A\times B) ,
+$$
+and is therefore a generalization of conditional probability to the non-discrete setting: compare it to the formula 
+$$
+P(b|a)\,P(a) = P(a,b) .
+$$
 
 
 ## Categories of Markov kernels
@@ -166,7 +227,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_. Adv. Math., 370:107239, 2020. [arXiv:1908.07021](https://arxiv.org/abs/1908.07021).
 
-* Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
+* {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
 
 [[!redirects Markov kernels]]
 [[!redirects stochastic kernel]]
