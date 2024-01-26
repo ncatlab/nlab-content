@@ -73,7 +73,7 @@
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
 
-* [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations--last updated July 2011)
+* [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations)
 
 ### Older Blogs (last entry is over a year old)
 
