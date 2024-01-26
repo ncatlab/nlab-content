@@ -170,6 +170,20 @@ For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a fr
 
 =--
 
++-- {: .num_example}
+###### Example
+
+For $X$ a [[set]], the [[power set]] $\mathcal{P}(X)$ of $X$ is the [[frame of opens]] corresponding to the [[discrete topology]] on $X$. 
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The [[poset of truth values]] $\Omega$ is a [[frame]] equivalent to the [[frame of opens]] corresponding to the [[discrete topology]] on a [[singleton]]. 
+
+=--
+
 +-- {: .num_prop} 
 ###### Proposition 
 A [[sup-lattice|complete]] [[decidable equality|decidable]] [[linear order]] is a frame. 
