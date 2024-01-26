@@ -103,7 +103,7 @@ Then $(C^\infty(X), \mathfrak{g})$ is the [[Lie-Rinehart algebra]] corresponding
 
 ## References
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]], p. 114 of _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
+* [[Ieke Moerdijk]], [[Janez Mrčun]], p. 114 of _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
 
 * [[Alexander Schmeding]], [[Christoph Wockel]], _The Lie group of bisections of a Lie groupoid_ ([arXiv:1409.1428](http://arxiv.org/abs/1409.1428))
 
