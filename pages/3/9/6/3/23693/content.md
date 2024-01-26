@@ -27,6 +27,8 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 * Malcev topologies for set $A$, which are a $\sigma$-[[subobject|subframe]] of the intrinsic topology $\Sigma^A$. 
 
+* The [[boolean domain]] $\mathbb{2}$ is the initial $\sigma$-frame iff the [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ holds. 
+
 ## See also ##
 
 * [[sigma-complete lattice]]
@@ -48,6 +50,8 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 * [[sigma-topological space]]
 
 * [[sigma-locale]]
+
+* [[limited principle of omniscience]]
 
 ## References ##
 
