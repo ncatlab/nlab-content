@@ -7,7 +7,7 @@ A [[proposition]] or [[truth value]] $P$ is **semi-decidable** or **semidecidabl
 
 $$\mathrm{isSemiDecidable}(P) \coloneqq \exists f \in 2^\mathbb{N}.P \iff \exists x \in \mathbb{N}.f(x) = 1$$
 
-The set of all semi-decidable propositions is typically called the **[[Rosolini dominance]]**, though it may not be a [[dominance]] without certain assumptions such as [[countable choice]]. 
+The set of all semi-decidable propositions is typically called the **[[Rosolini dominance]]**, though it may not be a [[dominance]] without certain assumptions such as [[countable choice]] or [[excluded middle]]. 
 
 If the [[foundations of mathematics]] has the [[Cauchy real numbers]] $\mathbb{R}_C$ as well, then $P$ is semideciable if and only if there exists a Cauchy real number $x \in \mathbb{R}_C$ such that $P$ if and only if $x \gt 0$.
 
