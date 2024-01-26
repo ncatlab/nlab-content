@@ -9,8 +9,6 @@
 =--
 =--
 
-
-# Coslice (under) categories
 * table of contents
 {: toc}
 
