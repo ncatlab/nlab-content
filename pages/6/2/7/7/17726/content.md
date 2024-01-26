@@ -31,7 +31,7 @@ The formal system of [[type theory]] has semantics in many [[categories]], and i
 | [[topological space|space]] | [[type]] |
 | [[continuous function]] | [[function]] |
 | [[clopen set]] | [[decidable object|decidable]] set |
-| [[open set]] | semi-decidable set |
+| [[open set]] | [[semi-decidable equality|semi-decidable]] set |
 | [[closed set]] | set with semi-decidable [[complement]] |
 | [[discrete space]] | type with [[decidable equality]] |
 | [[Hausdorff space]] | type with semi-decidable [[inequality relation|inequality]] |
