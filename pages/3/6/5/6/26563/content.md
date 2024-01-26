@@ -57,6 +57,12 @@ Up to isomorphism of measurable spaces, these are the only examples. Note in par
 
 ## Properties
 
+* Finite and countable [[products]] (in the category [[Meas]], i.e. with the tensor product [[sigma-algebra]]) of standard Borel spaces are again standard Borel. 
+
+* Measurable subsets of standard Borel spaces, with the induced sigma-algebra, are again standard Borel.
+
+* Measurable retracts of a standard Borel space are again standard Borel.
+
 * The [[sigma-algebra]] of a standard Borel space is countably generated and separating.
 
 This has a number of consequences, for example:
