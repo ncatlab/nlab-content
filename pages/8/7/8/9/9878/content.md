@@ -1,5 +1,5 @@
 
-> "Coupling" redirects here. For the concept of *coupling* in probability theory, see [[transport plan]].
+> This page is about the notion in [[physics]]/[[quantum field theory]]. For the concept of "coupling" in [[probability theory]], see *[[transport plan]]*.
 
 ***
 
