@@ -324,7 +324,7 @@ Further discussion:
 
 
 
-### Premetric RR-fields
+### Duality-symmetric RR-fields
  {#PremetricRRFieldReferences}
 
 References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]]") formulation (eq:RRFieldsEquationsInPreMetricDifferentialForm) of the RR-fields in [[type II supergravity]] manifest:
@@ -335,7 +335,7 @@ References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]
 
 
 
-### Premetric C-field
+### Duality-symmetric C-field
  {#PremetricCFieldReferences}
 
 [[!include self-duality for pregeometric C-field -- references]]
