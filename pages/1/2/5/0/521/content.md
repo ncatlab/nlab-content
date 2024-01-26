@@ -104,7 +104,7 @@ The category of [[commutative algebras]] over a [[field]] $F$ is the coslice und
 
 ## Properties
 
-### Limits and colimits
+### Limits
  {#LimitsAndColimits}
 
 
