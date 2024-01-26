@@ -250,7 +250,7 @@ The first example along these lines is the [[Kalb-Ramond field]] or [[B-field]],
 
 The basic relation between [[foliation]] theory and [[Lie groupoid]]-theory is discussed in 
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
+* [[Ieke Moerdijk]], [[Janez Mrčun]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
  {#MoerdijkMrcun}
 
 The identification of [[orbifolds]] as (proper) [[etale Lie groupoids]] is due to
