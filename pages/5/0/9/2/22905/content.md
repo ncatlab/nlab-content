@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* this block creates the table of contents, leave as is
+* table of contents
 {: toc}
 
 
@@ -261,11 +261,13 @@ and generalized further to [[actegories]] for the purposes of categorical cybern
 
 The generalization of the Para construction being developed by [[David Jaz Myers]] and [[Matteo Capucci]] is expounded in the following talks:
 
-* {#Myers22} [[David Jaz Myers]], _The Para construction as a distributive law_, talk at the Virtual Double Categories Workshop, 2022 ([slides](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/david-jaz-myers.pdf), [video](https://www.youtube.com/watch?v=zB_ifewP8Yk))
+* {#Myers22} [[David Jaz Myers]], _The Para construction as a distributive law_, talk at the Virtual Double Categories Workshop (2022) &lbrack;[slides](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/david-jaz-myers.pdf), [video](https://www.youtube.com/watch?v=zB_ifewP8Yk)&rbrack;
 
-* {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_, ([slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://www.youtube.com/watch?v=jYxnUy1vH7Q&pp=ygUmY2FwdWNjaSBjb25zdHJ1Y3RpbmcgdHJpcGxlIGNhdGVnb3JpZXM%3D))
+* {#Capucci23} [[Matteo Capucci]], _Constructing triple categories of cybernetic processes_ &lbrack;[slides](https://zenodo.org/record/8221550/files/main.pdf), [video](https://youtu.be/jYxnUy1vH7Q)&rbrack;
 
-The view of quantum channels via CoPara is in
+* [[Matteo Capucci]], *Para Construction as a Wreath Product*, [talk at](CQTS#CapucciJan2024) *[[CQTS]]* (Jan 2024) &lbrack;slides: [[Capucci-ParaAsWreathProduct.pdf:file]]&rbrack;
+
+A view on [[quantum channels]] via CoPara:
 
 * {#HuotStaton2018} Mathieu Huot, Sam Staton, _Universal properties in quantum theory_ (QPL 2018) ([pdf](https://www.mathstat.dal.ca/qpl2018/papers/QPL_2018_paper_68.pdf)).
 
