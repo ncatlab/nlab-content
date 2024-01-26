@@ -27,7 +27,9 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 * Malcev topologies for set $A$, which are a $\sigma$-[[subobject|subframe]] of the intrinsic topology $\Sigma^A$. 
 
-* The [[boolean domain]] $\mathbb{2}$ is the initial $\sigma$-frame iff the [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ holds. 
+* Any [[frame]] is a $\sigma$-frame. In particular, the [[poset of truth values]] is a $\sigma$-frame. 
+
+* The [[boolean domain]] $\mathbb{2}$ is a $\sigma$-frame iff the [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 ## See also ##
 
