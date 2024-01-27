@@ -752,7 +752,7 @@ Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0
 In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles); see also [Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03)&rbrack;:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-DoubleDimReductionOfCField.jpg",
+    "file_name": "GeomPhys-DoubleDimReductionOfCField-240127.jpg",
     "width": 810,
     "unit": "px",
     "margin": {
