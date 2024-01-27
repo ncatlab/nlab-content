@@ -46,7 +46,9 @@ $$
 (See [[strong monad#algebra_structure_on_the_internal_homs|here]] for the details.)
 
 The **internal hom** of $A$ and $B$ in $C^T$ is defined to be the [[equalizer]] of the following parallel pair:
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 {[A,B]} \ar[bend right=10]{rr}[swap]{a^*} \ar{r}{t'} & {[TA, TB]} \ar{r}{b_*} & {[TA,B]}, \\
 \end{tikzcd}
 where $a^*:[A,B]\to [T A,B]$ is the internal precomposition with $a:T A\to A$, and $b_*:[T A,T B]\to [T A,B]$ is the internal postcomposition with $b:T B\to B$.
