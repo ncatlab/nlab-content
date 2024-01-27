@@ -1,4 +1,5 @@
 
+
 $$
   \begin{array}{l}
     \mathrm{d}
@@ -32,6 +33,8 @@ $$
     0
   \end{array}
 $$
+
+[[GeomPhys-ChargeOfMonopolesAndVortices.jpg:file]]
 
 [[GeomPhys-UnboundedBRRFluxMotion.jpg:file]]
 
