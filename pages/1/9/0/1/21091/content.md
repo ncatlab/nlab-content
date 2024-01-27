@@ -27,3 +27,5 @@ category:people
 
 [[!redirects P. Perrone]]
 [[!redirects Perrone]]
+
+[[!redirects paoloperrone]]
