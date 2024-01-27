@@ -71,7 +71,9 @@ The multiplication of the monad is a map $P P X\to P X$ for all objects $X$. Thi
 
 The following example is taken from [Perrone '19, Example 5.1.2](#notesperrone). 
 Suppose that you have two coins in your pocket. Suppose that one coin is fair, with "heads" on one face and "tails" on the other face; suppose the second coin has "heads" on both sides. Suppose now that you draw a coin randomly, and flip it.  We can sketch the probabilities in the following way:
-  \begin{tikzcd}
+  \begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
    &&& ? \ar{dll}[swap]{1/2} \ar{drr}{1/2} \\
    & \mathrm{coin} \,1 \ar{dl}[swap]{1/2} \ar{dr}{1/2} &&&& \mathrm{coin} \,2 \ar{dl}[swap]{1} \ar{dr}{0} \\
    \mathrm{heads} && \mathrm{tails} && \mathrm{heads} && \mathrm{tails}
@@ -79,7 +81,9 @@ Suppose that you have two coins in your pocket. Suppose that one coin is fair, w
  Let $X$ be the set $\{heads,tails\}$. A coin gives a _law_ according to which we will obtain "heads" or "tails" so it determines an element of $P X$. Since the choice of coin is also random (we also have a _law on the coins_), the law on the coins determines an element of $P P X$.
  By averaging, the resulting overall probabilities are 
 
-  \begin{tikzcd}
+  \begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
    & ? \ar{dl}[swap]{3/4} \ar{dr}{1/4} \\
    \mathrm{heads} && \mathrm{tails}
   \end{tikzcd}
