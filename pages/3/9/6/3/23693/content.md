@@ -29,7 +29,7 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 * Any [[frame]] is a $\sigma$-frame. In particular, the [[poset of truth values]] is a $\sigma$-frame. 
 
-* The [[boolean domain]] $\mathbb{2}$ is a $\sigma$-frame iff the [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] $\mathbb{2}$ is a $\sigma$-frame iff the [[internal limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 ## See also ##
 
