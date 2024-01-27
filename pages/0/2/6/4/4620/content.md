@@ -54,7 +54,6 @@ If, as before, you take the domains of quantification to be subsingletons, you g
 
 Stated set-theoretically, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.  Note that $LLPO_A$ follows from $LPO_A$, but not conversely.
 
-
 ## Analytic versions {#analytic}
 
 Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
@@ -68,6 +67,66 @@ Bishop introduced the above principles of omniscience to show that certain resul
 The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic principles of omniscience are the same as those for natural numbers.
 
 (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
+
+## In the internal logic
+
+In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
+
+* An internal *[[proposition]]* is a set $P$ such that for all elements $x \in A$ and $y \in A$, $x = y$. 
+
+* The internal proposition *[[true]]* is a [[singleton]] $\top$. 
+
+* The internal proposition *[[false]]* is the [[empty set]]
+
+* The internal conjunction of two internal propositions $P$ and $Q$ is the [[cartesian product]] $P \times Q$ of $P$ and $Q$. 
+
+* The internal disjunction of two internal propositions $P$ and $Q$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_{P \uplus Q}:P \uplus Q \to 1$ from the [[disjoint union]] of $P$ and $Q$ to the [[singleton]] $\top$. 
+
+$$P \vee Q = \mathrm{im}(!_{P \uplus Q})$$
+
+* The internal implication of two internal propositions $P$ and $Q$ is the [[function set]] $P \to Q$ between $P$ and $Q$. 
+
+* The internal negation of an internal proposition $P$ is the function set from $P$ to the [[empty set]]
+
+$$\neg P = P \to \emptyset$$
+
+* An internal proposition $P$ is a [[decidable proposition]] if it comes with a function $\chi_P:P \to 2$ from $P$ to the [[boolean domain]] $2$. 
+
+* An *internal predicate* on a set $A$ is a [[set]] $P$ with [[injection]] $i:P \hookrightarrow A$, whose family of propositions indexed by $x \in A$ is represented by the [[preimages]] $i^*(x)$.
+
+* The internal [[existential quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[image]] of the [[uniqueness quantifier|unique]] function $!_P:P \to \top$ into the singleton $\top$.
+
+$$\exists_A P = \im(!_P)$$
+
+* The internal [[universal quantifier]] of an internal predicate $i:P \hookrightarrow A$ is the [[dependent product]] of the preimages
+ 
+$$\forall_A P = \{f \in P^A \vert \forall x \in A, f(x) \in i^*(x) \}$$
+
+* An internal predicate $i:P \hookrightarrow A$ is a [[decidable proposition]] if it comes with a function $\chi_P(x):i^*(x) \to 2$ into the [[boolean domain]] for all elements $x \in A$, or equivalently if it comes with a function $\chi_P:A \to 2$ from $A$ to the [[boolean domain]] $2$. 
+
+Then the **internal LPO** for a [[family of sets]] $(A_z)_{z \in I}$ is the LPO for each $A_z$ stated in the internal logic of the set theory:
+
+* For any internal predicate $i:P \hookrightarrow A_z$, if there is a function $\chi_P:A_z \to 2$, then the internal existential quantification of $P$, $\exists_{A_z} P = \im(!_P)$ has a function $(\exists_{A_z} P) \to 2$ into the boolean domain. 
+
+or equivalently, as
+
+* For any function $a:A_z \to 2$, the internal existential quantification of $P = \{x \in A_z \vert a(x) = 1\}$, $\exists_{A_z} P = \im(!_P)$ has a function $(\exists_{A_z} P) \to 2$ into the boolean domain. 
+
+Similarly, the **internal WLPO** for a family of sets $(A_z)_{z \in I}$ is the WLPO for each $A_z$ stated in the internal logic of the set theory:
+
+* For any internal predicate $i:P \hookrightarrow A_z$, if there is a function $\chi_P:A_z \to 2$, then the internal universal quantification of $P$, $\forall_{A_z} P = \{f \in P^{A_z} \vert \forall x \in A_z, f(x) \in i^*(x) \}$ has a function $(\forall_{A_z} P) \to 2$ into the boolean domain. 
+
+or equivalently
+
+* For any function $a:A_z \to 2$, the internal universal quantification of $P = \{x \in A_z \vert a(x) = 1\}$, $\forall_{A_z} P = \{f \in P^{A_z} \vert \forall x \in A_z, f(x) \in i^*(x) \}$ has a function $(\forall_{A_z} P) \to 2$ into the boolean domain. 
+
+And finally, the **internal LLPO** for a family of sets $(A_z)_{z \in I}$ is the LLPO for each $A_z$ stated in the internal logic of the set theory:
+
+* The internal LPO for a family of sets $(A_z)_{z \in I}$ holds only for the internal predicates $i:P \hookrightarrow A_z$ which comes with an internal predicate $j:Q \hookrightarrow A_z$ such that $i^*(x) = \neg j^*(x)$ for all $x \in A_z$. 
+
+In particular, the internal LPO for the family of all [[subsingletons]] is internal excluded middle and the internal LLPO for the family of all [[subsingletons]] is internal [[weak excluded middle]]. 
+
+The internal versions of the principles of omniscience are weaker than the external version of the principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
 
 ## Truncated and untruncated versions in homotopy type theory
 
@@ -89,13 +148,15 @@ There are various other results that are equivalent to or related to the princip
 
 * Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $\mathbb{S}^1$. (Constructively, we take $\mathbb{S}^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
 
-* The [[boolean domain]] $\mathbb{2}$ is the [[sigma-frame|$\sigma$-frame]] of [[semi-decidable truth values]] iff $LPO_{\mathbf{N}}$ holds. This implies that the classical notion of [[Dedekind real numbers]] can be constructed with respect to the $\sigma$-frame $\mathbb{2}$. However, in general the classical Dedekind real numbers does not coincide with the constructive notion of [[Dedekind real numbers]] constructed using the [[frame of truth values]] $\Omega$, though it does if [[excluded middle]] or [[countable choice]] holds. 
+* The [[boolean domain]] $\mathbb{2}$ is the [[sigma-frame|$\sigma$-frame]] of [[semi-decidable truth values]] iff the internal $LPO_{\mathbf{N}}$ holds. This implies that the classical notion of [[Dedekind real numbers]] can be constructed with respect to the $\sigma$-frame $\mathbb{2}$. However, in general the classical Dedekind real numbers does not coincide with the constructive notion of [[Dedekind real numbers]] constructed using the [[frame of truth values]] $\Omega$, though it does if [[excluded middle]] or [[countable choice]] holds. 
 
 ## Models
 
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
 * The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cantor reals and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
+
+* The LPO for natural numbers can be stated in any $\Pi$-W-[[coherent category]] $\mathcal{E}$. This implies that the classical Dedekind real numbers can be constructed in $\mathcal{E}$, since the [[boolean domain object]] $2 \in \mathcal{E}$ is a $\sigma$-frame object if the LPO for natural numbers holds in $\mathcal{E}$, even though the modulated Cantor reals can only be constructed if $\mathcal{E}$ is also a [[pretopos]] and the constructive Dedekind reals can only be constructed if $\mathcal{E}$ is also an [[elementary topos]]. 
 
 ## References
 
@@ -133,6 +194,18 @@ The analytic WLPO and LLPO are mentioned in the following paper, although unfort
 [[!redirects WLPO]]
 [[!redirects weak limited principle of omniscience]]
 [[!redirects weak limited principles of omniscience]]
+
+[[!redirects internal LPO]]
+[[!redirects internal limited principle of omniscience]]
+[[!redirects internal limited principles of omniscience]]
+
+[[!redirects internal LLPO]]
+[[!redirects internal lesser limited principle of omniscience]]
+[[!redirects internal lesser limited principles of omniscience]]
+
+[[!redirects internal WLPO]]
+[[!redirects internal weak limited principle of omniscience]]
+[[!redirects internal weak limited principles of omniscience]]
 
 [[!redirects analytic LPO]]
 [[!redirects analytic limited principle of omniscience]]
