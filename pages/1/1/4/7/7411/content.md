@@ -98,7 +98,10 @@ First of all, the [[lax monoidal functor|lax monodal unit]] must coincide with t
 
 \[\label{LaxUnitIsMonadUnit}\]
 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large%
+]
   & 
   1\!\!1
   \ar[dl, equals]
@@ -122,7 +125,10 @@ First of all, the [[lax monoidal functor|lax monodal unit]] must coincide with t
 
 which already implies the unit diagram for the join operation:
 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large%
+]
   & 
   1\!\!1
   \ar[
@@ -153,7 +159,10 @@ which already implies the unit diagram for the join operation:
 
 and then the two main conditions:
 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large%
+]
   c \otimes c'
   \ar[dd, equals]
   \ar[
@@ -187,7 +196,10 @@ and then the two main conditions:
 
 and
 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large%
+]
   \big(\mathcal{E}\circ\mathcal{E}(c)\big)
   \otimes
   \big(\mathcal{E}\circ\mathcal{E}(c')\big)
@@ -494,7 +506,9 @@ In particular, the [[tensor product]] is given
 
 * On objects, by the tensor product $\otimes$ of $C$;
 * On morphisms, given $k:X\to TA$ and $h:Y\to TB$, their product is the map $X\otimes Y \to T(A\otimes B)$ obtained by the composition
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 X\otimes Y \ar{r}{f\otimes g} & TA \otimes TB \ar{r}{\nabla} & T(A\otimes B),
 \end{tikzcd}
 where $\nabla$ is the monoidal multiplication of $T$.
