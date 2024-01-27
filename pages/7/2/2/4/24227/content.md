@@ -1,4 +1,5 @@
-[My web page](https://www.carloangiuli.com/).
+
+* [personal page](https://www.carloangiuli.com/).
 
 ## Publications
 
