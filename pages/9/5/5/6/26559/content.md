@@ -27,9 +27,9 @@
 
 > **Abstract.**
 
-> For [[higher gauge fields]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) --- e.g. the common [[electromagnetic field]] but also the [[B-field|B-]], [[RR-field|RR-]], and [[supergravity|C-fields]] considered in [[string theory|string]]/[[M-theory]] --- [[flux]]-&[[charge]][[flux quantization|-quantization]] laws specify [[non-perturbative quantum field theory|non-perturbative completions]] of these [[field (physics)|fields]] by encoding their [[soliton|solitonic]] behaviour and hence by specifying the quantized [[charges]] carried by the individual [[branes]] that source these fluxes (higher-dimensional [[monopoles]] or [[solitons]]).
+> For [[higher gauge fields]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) --- e.g. the common [[electromagnetic field]] (the "A-field") but also the [[B-field|B-]], [[RR-field|RR-]], and [[supergravity|C-fields]] considered in [[string theory|string]]/[[M-theory]] --- [[flux]]&[[charge]][[flux quantization|-quantization]] laws specify [[non-perturbative quantum field theory|non-perturbative completions]] of these [[field (physics)|fields]] by encoding their [[soliton|solitonic]] behaviour and hence by specifying the quantized [[charges]] carried by the individual [[branes]] that source these fluxes (higher-dimensional [[monopoles]] or [[solitons]]).
 >
-> This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the non-linear [[Bianchi identities]] appearing in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity|10d]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity|11d]]. 
+> This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding from &lbrack;[FSS23-Char](#FSS23)&rbrack;  of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the non-linear [[Bianchi identities]] appearing in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity|10d]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity|11d]]. 
 >
 > While flux quantization applies already to [[classical field theory|classical]] gauge fields and might seem to be better called *flux discretization*, for disambiguation, the choice involved in flux quantization induces the actual [[nLab:strict deformation quantization]] of [[observables]] on fluxes and hence may be understood as part of actual [[quantization]] in the sense of *[[quantum field theory]]*, [[non-perturbative quantum field theory|non-perturbatively]].
 >
@@ -47,7 +47,7 @@
 >
 >   and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; which long remains mysterious. 
 >
-> * In recent years [FSS 2020](#FSS20) have developed a systematic understanding of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
+> * In recent years we have developed &lbrack;[FSS23-Char](#FSS23)&rbrack; a systematic understanding of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
 >
 >   This provides a transparent re-derivation of known flux quantization laws and it allows to finally discuss [[supergravity C-field|C-field]] flux/[[M-brane]] charge quantization.
 
@@ -559,7 +559,13 @@ It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetr
 
 
 This move of isolating "pre-metric flux equations" supplemented by a "constitutive" duality constraint has a curious status in the  literature. On the one hand, it is elementary and immediate as an equivalent re-formulation of the usual form of (higher) Maxwell-type equations of motion,
-and as such has been highlighted, in the case of electromagnetism a century ago  [Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)  and more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). While the broader community does not seem to have taken much note of "premetric electromagnetism", we may observe that just the same "pregeometric" perspective evidently underlies what string theorists call "duality-symmetric" or (for better or worse: "democratic")  formulations of supergravity fields (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
+and as such has been highlighted a century ago  &lbrack;[Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)&rbrack; and again more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the surveys [Hehl, Itin & Obukhov 2016](pre-metric+electromagnetism#HehlItinObukhov16) and [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). 
+
+While the broader community does not seem to have taken much note of "premetric electromagnetism", we note that just the same perspective is evidently what string theorists call "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
+
+
+
+
 
 
 \begin{definition}\label{HigherMaxwellEquations}
@@ -735,15 +741,15 @@ Since this higher gauge theory is unambiguous, it is worth considering its [[dou
 \begin{example}\label{MotionOfCoupledBRRFields}
 **(Motion of coupled B/RR-field fluxes)**
 
-Consider the case that the 11-dimensional spacetime is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$, denoting BY
+Consider the case that the 11-dimensional spacetime in Ex. \ref{MotionOfSupergravityCField} is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$, denoting BY
 
-* $\theta$ the [[Maurer-Cartan form]]  along the fibers,
+* $\theta \,\in\, \Omega^1_{dR}(X^{11})$ a fiberwise [[Maurer-Cartan form]] along the fibers (i.e. an [[Ehresmann connection]] form),
 
-* $F_2$ the corresponding ([[first Chern class|first]]) [[Chern class]]-[[characteristic form]].
+* $F_2 \,\in\, \Omega^2_{dR}(X^{10})$ the corresponding ([[first Chern class|first]]) [[Chern class]]-[[characteristic form]].
 
-Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] along the projection $p$) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers:
+Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] along the projection $p$) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers.
 
-In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03); [Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles)&rbrack;:
+In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles); see also [Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03)&rbrack;:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-DoubleDimReductionOfCField.jpg",
@@ -757,8 +763,8 @@ In terms of these components, the above duality-symmetric equations of motion of
     }
 \end{imagefromfile}
 
-Here the new $\color{orange}gravitational$ [[flux density]] $F_2$ is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources -- cf. (eq:FluxesAndTheirSingularSources) --  in the geometric guise of "[[KK-monopoles]]" in 11d.
-Its Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is purely a reflection of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry) and hence not encoded by the equations for the C-field alone.  But invoking the [[supergravity]] equations gives &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack; that $\differential \, F_8 \,=\, H_3 \wedge F_6$.
+Here the new $\color{orange}gravitational$ [[flux density]] $F_2$ is understood physically as witnessing singular [[D6-brane|$D_6$-brane]] sources -- cf. (eq:FluxesAndTheirSingularSources) --  in the geometric guise of "[[KK-monopoles]]" in 11d.
+Its Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is purely a reflection of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry) and hence obtained by reducgtion of the the C-field alone.  But invoking part of the [[supergravity]] equations of motion gives &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack; that $\differential \, F_8 \,=\, H_3 \wedge F_6$, as shown above.
 
 Do notice the non-linear Bianchi identity for $H_7$ &lbrack;also [CJCP98 (3.4)](#CremmerJuliaLuPope98)&rbrack;, whose presence in [[type IIA supergravity]] does not seem to be widely appreciated -- it is rather directly in conflict with the traditional [[D-brane charge quantization in K-theory|Hypothesis K]].
 
@@ -840,6 +846,9 @@ Do notice the non-linear Bianchi identity for $H_7$ &lbrack;also [CJCP98 (3.4)](
 
 * {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
+* {#BandosBerkovitsSorokin98} [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], *Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes*, Nucl. Phys. B **522** (1998) 214-233 \[<a href="https://doi.org/10.1016/S0550-3213(98)00102-3">doi:10.1016/S0550-3213(98)00102-3</a>, [arXiv:hep-th/9711055](https://arxiv.org/abs/hep-th/9711055)\]
+
+
 * {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 &lbrack;[arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160), [doi:10.1088/1126-6708/1999/04/010](https://doi.org/10.1088/1126-6708/1999/04/010)&rbrack;
 
 * {#BlumenhagenLüstTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _Brane solutions in supergravity_, chapter 18.5 in: _Basic Concepts of String Theory_, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
@@ -866,7 +875,7 @@ Do notice the non-linear Bianchi identity for $H_7$ &lbrack;also [CJCP98 (3.4)](
 
 
 
-* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+* {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
 
 * {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
@@ -877,6 +886,9 @@ Do notice the non-linear Bianchi identity for $H_7$ &lbrack;also [CJCP98 (3.4)](
 
 
 * {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
+
+* {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys. Rev. D **107** 6 (2023) 066027 \[<a href="https://doi.org/10.1103/PhysRevD.107.066027">doi:10.1103/PhysRevD.107.066027</a>[arXiv:2207.00626](https://arxiv.org/abs/2207.00626)\]
+
 
 * {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. **75** (1995) 4724-4727 &lbrack;[arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017), [doi:10.1103/PhysRevLett.75.4724](https://doi.org/10.1103/PhysRevLett.75.4724)&rbrack;
 
