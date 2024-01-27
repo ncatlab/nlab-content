@@ -29,11 +29,11 @@
 
 > For [[higher gauge fields]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) --- e.g. the common [[electromagnetic field]] (the "A-field") but also the [[B-field|B-]], [[RR-field|RR-]], and [[supergravity|C-fields]] considered in [[string theory|string]]/[[M-theory]] --- [[flux]]&[[charge]][[flux quantization|-quantization]] laws specify [[non-perturbative quantum field theory|non-perturbative completions]] of these [[field (physics)|fields]] by encoding their [[soliton|solitonic]] behaviour and hence by specifying the quantized [[charges]] carried by the individual [[branes]] that source these fluxes (higher-dimensional [[monopoles]] or [[solitons]]).
 >
-> This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding &lbrack;[FSS23-Char](#FSS23)&rbrack;  of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the non-linear [[Bianchi identities]] appearing in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity|10d]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity|11d]]. 
+> This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding &lbrack;[FSS23-Char](#FSS23)&rbrack;  of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the *non-linear* (self-sourcing) [[Bianchi identities]] that appear in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity]]. 
 >
-> While flux quantization applies already to [[classical field theory|classical]] gauge fields and might seem to be better called *flux discretization*, for disambiguation, the choice involved in flux quantization induces the actual [[nLab:strict deformation quantization]] of [[observables]] on fluxes &lbrack;[SS23-Obs](#SS23-Obs)&rbrack; and hence may be understood as part of actual [[quantization]] in the sense of *[[quantum field theory]]*, [[non-perturbative quantum field theory|non-perturbatively]].
+> While flux quantization applies already to [[classical field theory|classical]] gauge fields and might seem to be better called *flux discretization*, for disambiguation, the choice involved in flux quantization induces the actual [[strict deformation quantization]] of [[observables]] on fluxes &lbrack;[SS23-Obs](#SS23-Obs)&rbrack; and hence may be understood as part of actual [[quantization]] in the sense of *[[quantum field theory]]*, [[non-perturbative quantum field theory|non-perturbatively]].
 >
-> With higher flux quantization thus being a key aspect of the general formulation of [[non-perturbative quantum field theory]] --- which as a whole remains a major open problem of [[mathematical physics|mathematical]] [[theoretical physics]] --- it may be understood as one step in the historical development towards this goal:
+> With higher flux quantization thus being a key aspect of the general formulation of [[non-perturbative quantum field theory]] --- which as a whole remains a major open problem of [[mathematical physics|mathematical]] [[theoretical physics]] --- it may usefully be understood as one step in the historical development towards this goal:
 >
 > * In 1852 [[Michael Faraday|Faraday]] observes [[magnetic field]] [[flux lines]] emanating from magnetic poles &lbrack;[Faraday 1852](#Faraday1852)&rbrack;. 
 >   
@@ -49,7 +49,7 @@
 >
 > * In recent years we have developed &lbrack;[FSS23-Char](#FSS23)&rbrack; a systematic understanding of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
 >
->   This provides a transparent re-derivation of known flux quantization laws and it allows to finally discuss [[supergravity C-field|C-field]] flux/[[M-brane]] charge quantization.
+>   This provides a transparent re-derivation of known flux quantization laws and it allows to finally discuss [[supergravity C-field|C-field]] flux- and [[M-brane]] charge-quantization.
 
 \linebreak
 
@@ -76,7 +76,7 @@ But for [[singular brane|singular]]/[[solitonic branes]] to be "[[elementary par
 
 ([§3](#FluxQuantizationLaws)) Just as for [[electromagnetism]], these higher [[flux densities]] themselves do not yet constitute the full [[field (physics)|field]]-content of the given higher gauge theory. 
 
-Traditionally one declares the full [[higher gauge field|higher]] [[gauge field]] to be given by [[gauge potentials]] $\vec A$ whose differential *locally* contributes to the given flux density, $\vec F \,=\, \mathrm{d} \vec A + \cdots$ and which is *globally* subjected to a topological condition which implies *[[flux quantization|flux and charge quantization]]* of the total fluxes and (brane-)charges, making them form a [[discrete space]] reflecting the nature of *individual* ("[[elementary particle|elementary]]") branes carrying/sourcing discrete units of charges/fluxes (as famously observed for [[Abrikosov vortex strings]]). 
+Traditionally one declares the full [[higher gauge field|higher]] [[gauge field]] to be given by [[gauge potentials]] $\vec A$ whose differential *locally* contributes to the given flux density, $\vec F \,=\, \mathrm{d} \vec A + \cdots$ and which is *globally* subjected to a topological condition that implies *[[flux quantization|flux and charge quantization]]* of the total fluxes and (brane-)charges, making them form a [[discrete space]] reflecting the nature of *individual* ("[[elementary particle|elementary]]") branes carrying/sourcing discrete units of charges/fluxes (as famously observed for [[Abrikosov vortex strings]]). 
 But from this point of view it is far from transparent how to identify the structure of gauge potentials for general higher gauge theories.
 
 More systematically, we may understand [[flux quantization]] as the specification of the [[non-perturbative quantum field theory|non-perturbative]] charge/flux sectors in ([[nonabelian cohomology|non-abelian]]) [[generalized cohomology]] of which the [[flux densities]] are but differential-geometric [[Chern-Dold character|characters]], and observe that the corresponding higher [[gauge potentials]] and hence the full field content of the higher gauge theory arise automatically as the [[homotopy theory|homotopy]]/[[higher gauge theory|gauge theoretic]] witnesses of the resulting [[flux quantization]], making the full higher gauge fields be [[cocycles]] in a corresponding ([[nonabelian differential cohomology|nonabelian]]) [[differential cohomology]] theory.
@@ -89,9 +89,9 @@ More systematically, we may understand [[flux quantization]] as the specificatio
 
   * the more recent "[[schreiber:Hypothesis H]]" postulating [[M-brane]] charge quantization in unstable [[twisted Cohomotopy|twisted]] [[Cohomotopy]].
 
-These hypotheses are not unrelated: Under "[[double dimensional reduction|double dimensional]] [[Kaluza-Klein reduction]]" along a [[circle]] [[fiber]] the [[supergravity C-field|C-field]] fluxes on $X^{10+1}$ are to give rise to *most* of the [[B-field|$B$-]]/[[RR-field]]-fluxes in $X^{9+1}$ (as part of the [[duality between M-theory and type IIA string theory]], which is either conjectural or defining, depending on attitude towards the definition of the elusive [[M-theory]]). Therefore [[schreiber:Hypothesis H]] may be understood as providing an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *lift* of [[D-brane charge quantization in K-theory|Hypothesis K]] to the extent that it reduces to the latter under [[double dimensional reduction]], and as an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *correction* to the extent that it does not quite reduce to Hypothesis K.
+These hypotheses are not unrelated: Under "[[double dimensional reduction|double dimensional]] [[Kaluza-Klein reduction]]" along a [[circle]] [[fiber]] the [[supergravity C-field|C-field]] fluxes on $X^{10+1}$ are to give rise to *most* of the [[B-field|$B$-]]/[[RR-field]]-fluxes in $X^{9+1}$ (as part of the [[duality between M-theory and type IIA string theory]], which is either conjectural or defining, depending on attitude towards the definition of the elusive [[M-theory]]). Therefore [[schreiber:Hypothesis H]] may be understood as providing an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *lift* of [[D-brane charge quantization in K-theory|Hypothesis K]] to the extent that it reduces to the latter under [[double dimensional reduction]], and as a [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *correction* to the extent that it does not quite reduce to Hypothesis K.
 
-While the discussion of the fine-grained predictions and mutual (in)compatibilities of these flux-quantization laws is beyond the scope of this review, these examples serve to highlight nature of the space of choices of flux quantization laws and with them the general mechanism of flux quantization --- which previous more *ad hoc*-discussions have barely brought out.
+While the discussion of the fine-grained predictions and mutual (in)compatibilities of these flux-quantization laws is beyond the scope of this review, these examples serve to highlight the nature of the space of choices of flux quantization laws and with them the general mechanism of flux quantization --- which previous more *ad hoc*-discussions have barely brought out.
 
 Notice therefore that a *choice* of flux quantization is (depending on perspective of how that higher gauge theory is ultimately defined):
 
@@ -176,7 +176,7 @@ As this table indicates, the [[algebraic topology|algebro-topological]] nature o
 \end{imagefromfile}
 
 
-That these two $L_\infty$-algebras coincide is the condition on the choice of the flux quantization law embodied by $\mathcal{A}$; and it implies that the non-abelian [[Chern-Dold character map]] $ch_{\mathcal{A}}$ from the [[non-abelian cohomology]]-theory classified by $\mathcal{A}$ takes values in the [[non-abelian de Rham cohomology]] with coefficients in $\mathfrak{l}\mathcal{A}$, which under $\mathfrak{l}\mathcal{A} \simeq \mathscr{a}$ identifies with the deformation classes of [[flux densities]] satisfying their higher [[Gauss law]].
+That these two $L_\infty$-algebras coincide is the condition on the choice of the flux quantization law embodied by $\mathcal{A}$; and it implies that the non-abelian [[Chern-Dold character map]] $ch_{\mathcal{A}}$ from the [[non-abelian cohomology]]-theory classified by $\mathcal{A}$ takes values in the [[non-abelian de Rham cohomology]] with coefficients in $\mathfrak{l}\mathcal{A}$, which under $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ identifies with the deformation classes of [[flux densities]] satisfying their higher [[Gauss law]].
 
 Finally, given such a choice of flux quantization law $\mathcal{A}$, the [[gauge potentials]] and hence the full [[moduli stack]] of [[higher gauge fields]] appears by forming the above matching not just as an identification in [[non-abelian de Rham cohomology]] but as a [[homotopy fiber product]] of the corresponding [[moduli stacks]]: This makes the full flux-quantized [[higher gauge fields]] be [[cocycles]] in [[nonabelian differential cohomology]] with coefficients in $\mathcal{A}$.
 
@@ -299,7 +299,7 @@ $$
 
 As such, magnetic monopoles are the *[[singular brane|singular]] 0-[[branes]]* of electromagnetism --- in theory: Whether magnetic monopoles exist in nature remains open; they have not been seen in [[experiment]], but there are decent theoretical arguments that they should exist in [[grand unified theories]].
 
-On the other hand, the "[[solitonic branes]] of electromagnetism" are experimentally well-established (and have famously been regarded as actual 1-[[branes]] ([[strings]]) approximated by a [[Nambu-Goto action]] &lbrack;[Nielsen & Olesen 1973](vortex+string#NielsenOlesen73); [Polyakov 2008, p. 1](vortex+string#Polyakov08); [Beekman & Zaanen 2011](vortex+string#BeekmanZaanen11)&rbrack;): These are the [[Abrikosov vortices]] formed in [[type II superconductors]] with in a transverse magnetic field:
+On the other hand, the "[[solitonic branes]] of electromagnetism" are experimentally well-established (and have famously been regarded as actual 1-[[branes]] ([[strings]]) approximated by a [[Nambu-Goto action]] &lbrack;[Nielsen & Olesen 1973](vortex+string#NielsenOlesen73); [Polyakov 2008, p. 1](vortex+string#Polyakov08); [Beekman & Zaanen 2011](vortex+string#BeekmanZaanen11)&rbrack;): These are the [[Abrikosov vortices]] formed in [[type II superconductors]] within a transverse magnetic field:
 
 \begin{imagefromfile}
     "file_name": "SuperconductorVortexStructure-230304.jpg",
@@ -332,7 +332,7 @@ In summary:
     }
 \end{imagefromfile}
 
-And the spacetime domains on which to exhibit fluxes of singular EM-branes (monopoles) and of  solitonic EM-branes (vortices) are as shown on the left of the following graphics, whose right hand side already show the [[classifying maps]] of their quantized charges, further discussed [below](#FluxQuantizationLaws):
+The spacetime domains on which to exhibit fluxes of singular EM-branes (monopoles) and of  solitonic EM-branes (vortices) are as shown on the left of the following graphics, respectively, whose right hand side already shows the [[classifying maps]] of their quantized charges, further discussed [below](#FluxQuantizationLaws):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-ChargeOfMonopolesAndVortices.jpg",
@@ -355,7 +355,7 @@ The fact that there are, generally, these two kinds of "branes imprinted on flux
 ### Singular versus solitonic branes
  {#TheDistinctionBetweenSingularAndSolitonicBranes}
 
-Imprinted on [[flux densities]] may be *two kinds* of [[branes]], here to be called:
+Generally, imprinted on [[flux densities]] may be *two kinds* of [[branes]], here to be called:
 
 1.  **[[singular branes]]** ([[black branes]]) reflected in **diverging flux density** at **singular loci** that are to be removed from spacetime,
 
@@ -365,7 +365,11 @@ Imprinted on [[flux densities]] may be *two kinds* of [[branes]], here to be cal
 
    >  The terminology "[[solitonic brane]]" was introduced in [Duff, Khuri & Lu 1992](solitonic+brane#DuffKhuriLu92), [1994](solitonic+brane#DuffKhuriLu94) and [Duff & Lu 1993](solitonic+brane#DuffLu93), [1994](#DuffLu94) to mean stable but non-singular brane-like solutions to (supergravity/flux) equations of motion ("[[solitons]]"). 
 
-**Singular points and points at infinity.**
+This general distinction between [[singular branes]] and [[solitonic branes]] is important for the correct identification of the implications of choices of [[flux quantization]]-laws on the corresponding brane charges.
+
+\linebreak
+
+**Spacetime domains for brane fluxes.**
 More formally, one may encode these two cases by  slightly adjusting the nature of the **spacetime domain** on which fluxes are actually defined &lbrack;cf. [SS23-MF, §2.1](#SS23-MF)&rbrack;:
 
 1. fluxes sourced by [[singular branes]] of [[dimension]] $p+1$ inside [[spacetime]] $X^{d+1}$ are actually defined on the [[complement]] $X^{d+1} \setminus Q^{p+1}$ of their singular [[worldvolume]],
@@ -385,7 +389,7 @@ of [[codimension]] $d-p$ are actually defined on their transverse space $T^{d-p}
     }
 \end{imagefromfile}
 
-Here the condition of flux densities [[vanishing at infinity]] on some space is naturally formalized by considering the larger [[category]] of [[pointed topological spaces]] $(X, x \in X)$ (we discuss further below how to properly speak of differential geometric smoothness in this context) and regarding their given "base point" as being the "point at infinity", whence we shall write $(X, \infty_X)$ for the generic pointed space. Then a function "[[vanishing at infinity]]" on $(X,\infty_X)$ is a function on $X$ that literally vanishes at $\infty_X$.
+The condition of flux densities [[vanishing at infinity]] on some space is naturally formalized by considering the larger [[category]] of [[pointed topological spaces]] $(X, x \in X)$ (we discuss further below how to properly speak of differential geometric smoothness in this context) and regarding their given "[[base point]]" as being the "point at infinity", whence we shall write $(X, \infty_X)$ for the generic pointed space. Then a function "[[vanishing at infinity]]" on $(X,\infty_X)$ is a function on $X$ that literally vanishes at $\infty_X$.
 
 For example:
 
@@ -431,10 +435,12 @@ $$
 
 \linebreak
 
-**The case of flat branes.**
-For example, in the case of *flat branes* (i.e. with [[Cartesian space|Cartesian]] [[worldvolumes]] inside [[Minkowski spacetime]]), both these spacetime domains are [[homotopy equivalence|homotopy equivalence]] to [[spheres]], but of differen dimensions:
+\begin{example}\label{FlatBranes}
+**(The case of flat branes.)**
+\linebreak
+In the case of *flat branes* --- i.e. with [[Cartesian space|Cartesian]] [[worldvolumes]] inside [[Minkowski spacetime]]  --- both these spacetime domains are [[homotopy equivalence|homotopy equivalent]] to [[spheres]], but of different dimensions:
 
-(1.) Spacetime domain for flat singular branes:
+(1.) The spacetime domain for flat *singular* branes is homotopy-equivalent to the [[unit sphere]] in the transverse space, hence the sphere *around* the singular brane locus:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FlatSingularBranes-240124.jpg",
@@ -449,7 +455,7 @@ For example, in the case of *flat branes* (i.e. with [[Cartesian space|Cartesian
 \end{imagefromfile}
 
 
-(2.) Spacetime domain for flat solitonic branes:
+(2.) The spacetime domain for flat solitonic branes is homotopy equivalent to the sphere which is the [[one-point compactification]] of the transverse space (its [[stereographic projection]]):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FlatSolitonicBranes-240124.jpg",
@@ -463,8 +469,12 @@ For example, in the case of *flat branes* (i.e. with [[Cartesian space|Cartesian
     }
 \end{imagefromfile}
 
-\begin{example}
-In the case of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) it follows from this general reasoning that a flux density 2-form $F_2$ in $D=3+1$ may reflect the presence of 
+\end{example}
+
+\begin{example}\label{FlatBranesOfElectromagnetism}
+**(the flat branes of electromagnetism)**
+\linebreak
+Specifying Ex. \ref{FlatBranes}  to the case of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) it follows from this general reasoning that a flux density 2-form $F_2$ in $D=3+1$ may reflect the presence of 
 
 1. singular 0-branes with spacetime domain 
 
@@ -490,10 +500,63 @@ In the case of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFl
      S^2
    $$
 
-which are exactly the familiar cases of [[magnetic monopoles]] (hypothetical) and [[Abrikosov vortex strings]] (observed).
+which are exactly the familiar cases of [[magnetic monopoles]] (hypothetical) and [[Abrikosov vortex strings]] (observed), discussed [above](#OrdinaryElectromagneticFluxAndItsBranes).
 \end{example}
 
-This general distinction between [[singular branes]] and [[solitonic branes]] is important for the correct understanding of the implications of choices of [[flux quantization]]-laws on the corresponding brane charges.
+\begin{example}\label{NearHorizonGeometriesOfSingularBranes}
+**(near-horizon geometries of singular branes**)
+\linebreak
+The idea of regarding singular branes from the [[complement]]  of their singular locus in spacetime is familiar from the [[AdS/CFT correspondence]]:
+
+The [[near horizon geometry]] of any $\gt 1/4$ [[BPS state|BPS]] [[black brane]] (for references see ) are all [[product topological spaces|product spaces]] of an [[anti de Sitter spacetime]] with a ([free discrete quotient](group+actions+on+spheres#FreeActionsByFiniteGroupsAndSphericalSpaceForms) of) a [[sphere]] (a [[spherical space form]]) around the singularity &lbrack;[Acharya, Figueroa-O'Farrill, Hull & Spence 1999](near-horizon+geometry#AFFHS98)&rbrack;. On a causal chart of AdS spacetime, this is homeomorphic to the flat brane complements form Ex. \ref{FlatBranes}:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-NearHorizonGeometries.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\end{example}
+
+In general, the spacetime domain on which to measure flux densities may be a mix of these purely singular and purely solitonic situations, in which case the notions of singular and of solitonic branes blend into each other:
+
+\begin{example}\label{SolitonicBranesInKKCompactifications}
+**(solitonic branes in KK-compactifications)**
+
+In mild generalization of Ex. \ref{FlatBranes}, consider the case that spacetime is a trivial [[circle]]-[[fiber bundle]] over a [[Minkowski spacetime]]
+
+$$
+  X^D 
+    \,\equiv\,
+  \mathbb{R}^{1,d-1} \times S^1
+  \,.
+$$
+
+In this case the flux sourced by solitonic branes of [[codimension]] $n$ as seen on the base spacetime $\mathbb{R}^{1,d-1}$ is measured on the [[smash product]] space
+$$
+  \big(
+    S^1 \times \mathbb{R}^n
+  \big)_{\cup \{\infty\}}
+  \;\underset{homeo}{\simeq}\;
+  S^1_{\sqcup \{\infty\}}
+  \wedge
+  \mathbb{R}^n_{\cup \{\infty\}}
+  \;\underset{homeo}{\simeq}\;
+  S^1_{\sqcup \{\infty\}}
+  \wedge
+  S^n  
+  \,.
+$$
+
+This was maybe first understood by [Bergman, Gimon & Hořava 1999, §2.2 & §2.3](#BergmanGimonHořava99) (there in slightly different language).
+\end{example}
+
 
 \linebreak
 
@@ -501,7 +564,7 @@ This general distinction between [[singular branes]] and [[solitonic branes]] is
 ### Higher fluxes and their brane sources
  {#HigherFluxAndItsBranes}
 
-On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and of the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
+On this backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and of the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
 
 \[
   \label{TheHigherFluxDensities}
@@ -595,7 +658,7 @@ As we now turn to the [[equations of motion]] for [[flux densities]] (the analog
 
 1. a purely *[[cochain cohomology|cohomological]]* system of [[differential equations]] known as higher *[[Bianchi identities]]*;
 
-1. a purely *[[geometry|geometric]]* system of [[linear equations]] expressing a *[[Hodge duality|Hodge self-duality]]*.
+1. a purely *[[geometry|geometric]]* system of [[linear equations]] expressing a *[[Hodge duality|Hodge self-duality]]*,
 
 the point being that the first item is entirely "[[algebraic topology|algebro-topological]]" ([[homotopy theory|homotopy-theoretic]]),  while dependency on geometry,  namely on the [[spacetime]] [[pseudo-Riemannian metric|metric]]  (the [[field (physics)|field]] of [[gravity]]) is all isolated in the second item.
 
@@ -615,9 +678,9 @@ It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetr
 
 
 This move of isolating "pre-metric flux equations" supplemented by a "constitutive" duality constraint has a curious status in the  literature. On the one hand, it is elementary and immediate as an equivalent re-formulation of the usual form of (higher) Maxwell-type equations of motion,
-and as such has been highlighted a century ago  &lbrack;[Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)&rbrack; and again more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the surveys [Hehl, Itin & Obukhov 2016](pre-metric+electromagnetism#HehlItinObukhov16) and [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). 
+and as such has been highlighted a century ago  &lbrack;[Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)&rbrack; and again more recently &lbrack;[Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a)&rbrack; (see the surveys [Hehl, Itin & Obukhov 2016](pre-metric+electromagnetism#HehlItinObukhov16) and [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). 
 
-While the broader community does not seem to have taken much note of "premetric electromagnetism", we notice that just the same perspective is evidently what string theorists call "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
+While the broader community does not seem to have taken much note of "premetric electromagnetism" as such, we notice that just the same perspective is evidently what string theorists call "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
 
 
 
@@ -684,7 +747,7 @@ Not all higher gauge theories are of the higher Maxwell-form (Def. \ref{HigherMa
 
 
 \begin{example}\label{MotionOfElectromagneticField}
-**(Motion of the electromagnetic fluxes)**
+**(Motion of the ordinary electromagnetic fluxes)**
 
 The classical [[Maxwell equations]] expressed in terms of differential forms (see basic references [here](Maxwell's+equations#ReferencesForMaxwellEquationsViaDifferentialForms)) are as shown on the left, with their [[premetric electromagnetism|premetric]] form shown on the right (see the references [there](pre-metric+electromagnetism#ReferencesPremetricElectromagnetism)):
 
@@ -833,7 +896,7 @@ These are the equations of motion of the flux densities of [[type IIA supergravi
 
 Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, either for how they appear or for how they do *not* appear:
 
-1. The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is part of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry). The expression for $\mathrm{d} H_8$ arises as part of the gravitational field equations &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack;..
+1. The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is part of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry). The expression for $\mathrm{d} H_8$ arises as part of the gravitational field equations &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack;.
 
 1. The presence in [[type IIA supergravity]] of the non-linear Bianchi identity for $H_7$, albeit readily verified and "well-known" at least since [CJCP98 (3.4)](#CremmerJuliaLuPope98), is not as widely appreciated as the pattern (eq:TwistedUnboundedRREquations) from Ex. \ref{MotionOfPureRRFields} -- which it *breaks*.
 
@@ -847,52 +910,93 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 \linebreak
 
 
-### Solution space of higher Maxwell equations
+### Solution space of the flux equations
+ {#SolutionSpaceOfHigherMaxwellEquations}
 
-(...)
-
-\begin{proposition}
-**([SS23-FQ](#SS23-FQ))**
-  On a [[globally hyperbolic spacetime]] $X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d$, the solution space to [higher Maxwell-equations](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) of motion brought into the [[duality-symmetric higher gauge theory|duality-symmetric form]] is [[isomorphism|isomorphic]] to the solution of the [[Bianchi identities]] on any [[Cauchy surface]] $\iota \,:\, X^d \hookrightarrow X^D$, then to be called the higher *[[Gauss law]]*
-\end{proposition}
-
-\begin{imagefromfile}
-    "file_name": "GeomPhys-HigherMaxwellSolutionSpace.jpg",
-    "width": 850,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 0
-    }
-\end{imagefromfile}
-
-
-(...)
+**The phase space.** Abstractly, the *phase space* of a any [[field theory]] is nothing but the space of all those [[field histories]] that satisfy the given [[equations of motion]] (the "[[on-shell]]" field histories). Phrased this way, this is sometimes called the 
+*[[covariant phase space]]*, to emphasize that no choice of [[foliation]] of spacetime by [[Cauchy surfaces]] has been or needs to be made.
 
 \begin{imagefromfile}
     "file_name": "CanonicalAndCovariantPhaseSpace-240124.jpg",
-    "width": 700,
+    "float": "right",
+    "width": 610,
     "unit": "px",
     "margin": {
-        "top": -40,
-        "bottom": 20,
+        "top": -10,
+        "bottom": 10,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
+The more traditionally familiar
+**[[canonical phase space]]** (common physics jargon, somewhat incompatible with the mathematician's "canonical") is instead a parameterization of the covariant phase space by [[initial value data]] on a choice of [[Cauchy surface]]. 
+This choice breaks the "manifest covariance" of the covariant phase space. Nevertheless, if a Cauchy surface exists at all (hence on [[globally hyperbolic spacetimes]]), then both these phase spaces are equivalent, by definition, the equivalence being the map that generates from [[initial value data]] the essentially unique [[on-shell]] [[field history]] that evolves from it (possibly up to [[gauge transformation]]).
+
+**Solution space of on-shell flux densities.** At this point in our discussion, we do not yet know what the full field content of our field theories really is -- this will be implied by a choice of flux quantization [below](#FluxQuantizationLaws) -- we only know the corresponding [[flux densities]]. To remember this, we shall call the space of flux densities solving their equations of motion (Def. \ref{HigherMaxwellEquations}) the *solution space*, and we are after its incarnation as a *canonical solution space* of initial value data on a Cauchy surface. But this goes a long way, since the higher Maxwell-type equations of motion constrain exclusively the flux densities: Once the flux-quantization the canonical phase will simply consist of all flux-quantized [[gauge potentials]] compatible with the flux densities in the canonical solution space.
+
+\begin{proposition}\label{SolutionSpaceViaGaussLaw}
+**([SS23-FQ](#SS23-FQ))**
+  On a [[globally hyperbolic spacetime]] $X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d$, the solution space to [higher Maxwell-equations](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) of motion (Def. \ref{HigherMaxwellEquations}) is [[isomorphism|isomorphic]] to the solution of the [[Bianchi identities]] restricted to any [[Cauchy surface]] $\iota \,:\, X^d \hookrightarrow X^D$, there to be called the higher *[[Gauß law]]*:
+
+\[\label{GaussLawFromBianchiIdentities}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HigherMaxwellSolutionSpace.jpg",
+    "width": 850,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 5,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\end{proposition}
+
+\begin{example}
+**(the phase space of electromagnetism)**
+\linebreak
+In the case of ordinary vacuum [[electromagnetism]], Prop. \ref{SolutionSpaceViaGaussLaw} applied to the ordinary Maxwell equations from Ex. \ref{MotionOfElectromagneticField} says that the initial value data on a Cauchy surface $X^3$ is given by *independently* specifying magnetic and electric flux densities 
+
+$$
+  B,\, E \,\in\, \Omega^2_{dR}(X^3)
+$$ 
+
+subject only to the [ordinary Gauß laws](Gauss+law#InElectromagnetism):
+
+$$
+  \mathrm{d} B \,=\, 0
+  \,,\;\;\;
+  \mathrm{d} E \,=\, 0
+  \,.
+$$
+
+Indeed, the actual [[phase space]] of electromagnetism, after [[Dirac charge quantization]], is well-known (see [there](electromagnetism#ReferencesPhaseSpaceAndPoissonBrackets)) to have as
+
+* [[canonical coordinate]] the [[gauge potential]] $A$,
+
+* [[canonical momentum]] the electric flux density $E$.
+
+Thereby $B \,\equiv\, \mathrm{d}A$ is indeed independent from $E$ (and satisfies its Gauß law definitionally, while the Gauß law on $E$ is a phase space [[constrained mechanics|constraint]]).
+
+Notice how, thereby, this traditional split of [[initial value data]] into [[canonical coordinates]] and [[canonical momenta]] (whose definition requires assumption and [[variational calculus|variation]] of a [[Lagrangian density]]) is preempted here, under Prop. \ref{SolutionSpaceViaGaussLaw}, already by the pregeometric/duality-symmetric formulation of Maxwell's equations (in Ex. \ref{MotionOfElectromagneticField}), in the sense that the spacetime archetypes of the canonical coordinates and momenta   on a Cauchy surface (the former seen under the differential) are just the ordinary flux density $F_2$ and its "duality partner" $G_2$.
+\end{example}
+
+
+\begin{remark}\label{GravityDecouplesOnCanonicalPhaseSpace}
+**(Gravity "decouples" on canonical phase space)**
+\linebreak
+The inverse isomorphism (eq:GaussLawFromBianchiIdentities) is given by time evolution of initial value data. Notice that the [[pseudo-Riemannian metric]] on $X^D$ -- the [[background field]] of [[gravity]] -- enters *only* in determining the nature of this isomorphism $\iota^\ast$ (the time evolution away from the Cauchy surface), but does not affect the nature of the initial value data (of the canonical phase space) as such.
+\end{remark}
+
+It is this "decoupling" *on the canonical phase space* of the gravity/metric effects from the phase space [[Gauß law]] constraint which allows to gain plenty of insight into brane configurations from purely cohomological analysis of fluxes on Cauchy surfaces, disregarding the full solution of the coupled (super-)gravity equations of motion:
+
+
+### Brane intersections imprinted on flux
+
 
 (...)
-
-
-
-
-
-(...)
-
-
 
 
 
