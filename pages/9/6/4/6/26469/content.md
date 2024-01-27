@@ -32,7 +32,10 @@ Markov kernels and their categories are among the basic building blocks of [[cat
 
 Let $(X,\mathcal{A})$ and $(Y,\mathcal{B})$ be [[measurable spaces]], i.e. sets equipped each with a [[sigma-algebra]]. 
 A **Markov kernel** $(X,\mathcal{A})\to(Y,\mathcal{B})$ is an assignment 
-\begin{tikzcd}[row sep=0]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
 X \times \mathcal{B} \ar{r}{k} & {[0,1]} \\
 (x,B) \ar[mapsto]{r} & k(B|x)
 \end{tikzcd}
@@ -49,7 +52,10 @@ The quantity $k(B|x)$ can be thought of as the probability of transitioning to $
 ### As Kleisli morphisms
 
 A Markov kernel $k:(X,\mathcal{A})\to(Y,\mathcal{B})$ can be equivalently expressed as a measurable map 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
 X \ar{r}{k^\sharp} & PY
 \end{tikzcd}
 where $P$ denotes the [[Giry monad]] on [[Meas]], with the Giry sigma-algebra. 
@@ -141,7 +147,10 @@ $$
 x\mapsto \mathbb{P}[A|\mathcal{B}](x) 
 $$
 which is $\mathcal{B}$-measurable for every $A\in\mathcal{A}$. Therefore, in order for the assignment 
-\begin{tikzcd}[row sep=0]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
 X \times \mathcal{A} \ar{r} & {[0,1]} \\
 (x,A) \ar[mapsto]{r} & \mathbb{P}{[A|\mathcal{B}]}(x)
 \end{tikzcd} 
@@ -167,7 +176,10 @@ Given standard Borel spaces $(X,\mathcal{A})$ and $(Y,\mathcal{B})$, their produ
 
 Given a joint distribution $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, we can then form the regular conditional $(X\times Y,\pi_1^{-1}(\mathcal{A}))\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$ (or equivalently, up to isomorphism, $(X,\mathcal{A})\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$).
 Further composing with the projection $\pi_2:(X\times Y,\mathcal{A}\otimes\mathcal{B})\to(Y,\mathcal{B})$ (or equivalently restricting the kernel to the sub-sigma-algebra $\pi_2^{-1}(\mathcal{B})$) we then get a kernel
-\begin{tikzcd}[row sep=0]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
 X\times\mathcal{B} \ar{r} & {[0,1]} \\
 (x,B) \ar[mapsto]{r} & \mathbb{P}{[\pi_2^{-1}(B)|\pi_1^{-1}(\mathcal{A})]}(x) ,
 \end{tikzcd}
