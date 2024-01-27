@@ -519,7 +519,7 @@ See also:
 
 The case of [[D6-D8 brane bound states]]:
 
-* [[Amihay Hanany]], [[Alberto Zaffaroni]], §2.4 *Chiral Symmetry from Type IIA Branes*, Nucl. Phys. B **509** (1998) 145-168 &lbrack;[arXiv:hep-th/9706047](https://arxiv.org/abs/hep-th/9706047), <a href="https://doi.org/10.1016/S0550-3213(97)00595-6">doi:10.1016/S0550-3213(97)00595-6</a>&rbrack;
+* {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], §2.4 in: *Chiral Symmetry from Type IIA Branes*, Nucl. Phys. B **509** (1998) 145-168 &lbrack;[arXiv:hep-th/9706047](https://arxiv.org/abs/hep-th/9706047), <a href="https://doi.org/10.1016/S0550-3213(97)00595-6">doi:10.1016/S0550-3213(97)00595-6</a>&rbrack;
 
 * {#BergshoeffLozanoOrtin98} [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], p. 60 of: *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
