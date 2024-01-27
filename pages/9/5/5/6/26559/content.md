@@ -517,7 +517,7 @@ On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagnet
     }
 \end{imagefromfile}
 
-Remarkably, such higher flux densities "automatically" appear in higher dimensional [[supergravity]], namely as partial "[[superpartners]]" of the [[gravitino]]-field. In particular in [[D=10 supergravity]] and [[D=11 supergravity]] these higher flux densities are known under the (now) fairly standard symbols shown on the right, along with the standard name of the correspoding [[singular branes]] (the "higher-dimensional monopoles").
+Remarkably, such higher flux densities "automatically" appear in higher dimensional [[supergravity]], namely as "[[superpartners]]" of the [[gravitino]]-field that cannot be accounted for by the [[graviton]] itself. In particular in [[D=10 supergravity]] and [[D=11 supergravity]] these higher flux densities are known under the (now) fairly standard symbols shown on the right, along with the standard name of the correspoding [[singular branes]] (the "higher-dimensional monopoles").
 
 * [[D=10 supergravity]]: [[B-field]]$\leftrightarrow$[[NS5-brane]]/[[F1-brane]] and [[RR-field]]$\leftrightarrow$[[D-branes]]
 
@@ -525,8 +525,46 @@ Remarkably, such higher flux densities "automatically" appear in higher dimensio
 
 (cf. [Blumenhagen, Lüst & Theisen 2013, §18.5, Table 18.3](#BlumenhagenLüstTheisen13))
 
+\begin{remark}
+**(singular vs. solitonic D-branes)**
+\linebreak
 Historically, the [[D-branes]] in [[D=10 supergravity]] were first identified as such &lbrack;[Polchinski 1995, cf. (14)](#Polchinski95)&rbrack; in their [[singular brane]] incarnation &lbrack;[Duff & Lu 1994](#DuffLu94)&rbrack;, while their incarnation as solitonic branes (in the [above sense](#TheDistinctionBetweenSingularAndSolitonicBranes)) was considered only later in the context of the hypothesis of [[D-brane charge quantization in K-theory]] &lbrack;[Bergman, Gimon & Hořava 1999, §2.2 & §2.3](#BergmanGimonHořava99), building on earlier discussion by [Witten 1998, §4.1](#Witten98)&rbrack; to be discussed further [below](#Examples).
 
+But beware that the distinction between these two aspects of D-branes, while "well-known", is not commonly highlighted in the literature (not even in these original articles).
+\end{remark}
+
+The above flux densities in 11d and 10d are closely related:
+
+Consider the case that the 11-dimensional spacetime is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$, and denote by
+
+* $\theta \,\in\, \Omega^1_{dR}(X^{11})$ any fiberwise [[Maurer-Cartan form]] along the fibers (i.e. an [[Ehresmann connection]] form),
+
+* $F_2 \,\in\, \Omega^2_{dR}(X^{10})$ the corresponding ([[first Chern class|first]]) [[Chern class]]-[[characteristic form]], i.e. the [[curvature]] form whose [[pullback of differential forms|pullback]] to $X^{11}$ is
+
+  $$
+    \mathrm{d} \theta
+    \;=\;
+    p^\ast F_2
+    \,.
+  $$
+
+Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] along the projection $p$) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers:
+
+\[\label{KKComponentsOfCFieldFlux}\]
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-DDReductionOfCFieldFlux.jpg",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -25,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This is the process of "[[double dimensional reduction]]" (called this way since both spacetime dimension is reduced by [[Kaluza-Klein reduction]] on a fiber space, but also the degrees of densities of fluxes "through the fiber space" are decreased) known as part of the [[duality between M-theory and type IIA string theory]]: The new component flux densities $H_3$ and $H_7$ are interpreted as those of the [[B-field]] and the component flux densitirs $F_4$ and $F_6$ (and $F_2$) as those of the [[RR-field]] in [[type IIA supergravity]].
 
 
 \linebreak
@@ -741,15 +779,7 @@ Since this higher gauge theory is unambiguous, it is worth considering its [[dou
 \begin{example}\label{MotionOfCoupledBRRFields}
 **(Motion of coupled B/RR-field fluxes)**
 
-Consider the case that the 11-dimensional spacetime in Ex. \ref{MotionOfSupergravityCField} is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$, denoting BY
-
-* $\theta \,\in\, \Omega^1_{dR}(X^{11})$ a fiberwise [[Maurer-Cartan form]] along the fibers (i.e. an [[Ehresmann connection]] form),
-
-* $F_2 \,\in\, \Omega^2_{dR}(X^{10})$ the corresponding ([[first Chern class|first]]) [[Chern class]]-[[characteristic form]].
-
-Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0th [[Kaluza-Klein reduction|KK-modes]]) they decompose into a [[basic differential form|basic]] component (a differential form on $X^{10}$, [[pullback of differential forms|pulled back]] along the projection $p$) and the [[wedge product]] of a [[basic differential form]] with the [[Maurer-Cartan form]] $\theta$ on the $S^1$-fibers.
-
-In terms of these components, the above duality-symmetric equations of motion of the C-field read equivalently as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles); see also [Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03)&rbrack;:
+In terms of these components (...), the equations of motion of the C-field from Ex. \ref{MotionOfSupergravityCField} read equivalently as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles); see also [Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03)&rbrack;:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-DoubleDimReductionOfCField-240127.jpg",
@@ -763,8 +793,9 @@ In terms of these components, the above duality-symmetric equations of motion of
     }
 \end{imagefromfile}
 
-Here the new $\color{orange}gravitational$ [[flux density]] $F_2$ is understood physically as witnessing singular [[D6-brane|$D_6$-brane]] sources -- cf. (eq:FluxesAndTheirSingularSources) --  in the geometric guise of "[[KK-monopoles]]" in 11d.
-Its Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is purely a reflection of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry) and hence obtained by reducgtion of the the C-field alone.  But invoking part of the [[supergravity]] equations of motion gives &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack; that $\differential \, F_8 \,=\, H_3 \wedge F_6$, as shown above.
+Here the flux density $F_2$, which in 10d is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources -- cf. (eq:FluxesAndTheirSingularSources), is a $\color{orange}\text{gravitational}$ flux from the 11d point of view: If $X^{10} \,=\, \mathbb{R}^{6,1} \times \matbbb{R}_{\gt 0} \times S^1$ is the spacetime domain around a flat singular [[D6-brane]], then the total space of the circle-principal bundle $X^{11}$ (a multiple of the [[complex Hopf fibration]]) is known as the corresponding "[[KK-monopole]]" spacetime.
+
+The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is purely a reflection of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry).  But invoking part of the [[supergravity]] equations of motion gives &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack; that $\differential \, F_8 \,=\, H_3 \wedge F_6$, as shown above.
 
 Do notice the non-linear Bianchi identity for $H_7$ &lbrack;also [CJCP98 (3.4)](#CremmerJuliaLuPope98)&rbrack;, whose presence in [[type IIA supergravity]] does not seem to be widely appreciated -- it is rather directly in conflict with the traditional [[D-brane charge quantization in K-theory|Hypothesis K]].
 
