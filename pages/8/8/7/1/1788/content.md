@@ -33,6 +33,9 @@ $$
   \end{array}
 $$
 
-
+[[GeomPhys-DDReductionOfCFieldFlux.jpg:file]]
 
 [[GeomPhys-DoubleDimReductionOfCField-240127.jpg:file]]
+
+
+
