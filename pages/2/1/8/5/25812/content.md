@@ -10,7 +10,7 @@ Discussion of ([[Lagrangian densities]] for) [[D=10 type II supergravity]] with 
 
 * {#BandosNurmagambetovSorokin04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], *Various Faces of Type IIA Supergravity*, Nucl. Phys. B **676** (2004) 189-228 $[$[arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153), [doi:10.1016/j.nuclphysb.2003.10.036](https://doi.org/10.1016/j.nuclphysb.2003.10.036)$]$
 
-* {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys. Rev. D **107** 6 (2023) 066027 \[<a href="https://doi.org/10.1103/PhysRevD.107.066027">doi:10.1103/PhysRevD.107.066027</a>[arXiv:2207.00626](https://arxiv.org/abs/2207.00626)\]
+* {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys. Rev. D **107** 6 (2023) 066027 \[<a href="https://doi.org/10.1103/PhysRevD.107.066027">doi:10.1103/PhysRevD.107.066027</a>, [arXiv:2207.00626](https://arxiv.org/abs/2207.00626)\]
 
 
 Enhancement of the [[self-dual higher gauge field|self-duality]] constraint on [[pregeometric RR-field|pregeometric]] [[RR-fields]] from ([[twisted de Rham cohomology|twisted]]) [[de Rham cohomology]] to ([[twisted K-theory|twisted]]) [[topological K-theory]] (under the hypothesized [[K-theory classification of D-brane charge]])
