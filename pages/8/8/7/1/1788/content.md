@@ -34,6 +34,10 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-SourcingM2FluxFromM5Fluxes.jpg:file]]
+
+[[GeomPhys-FluxOfM2M5Intersection.jpg:file]]
+
 [[GeomPhys-NearHorizonGeometries.jpg:file]]
 
 [[GeomPhys-ChargeOfMonopolesAndVortices.jpg:file]]
