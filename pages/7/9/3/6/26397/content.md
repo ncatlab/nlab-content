@@ -439,17 +439,33 @@ see also in relation to [[infraparticles]]:
 
 * {#Buchholz86} [[Detlev Buchholz]], _Gauss’ law and the infraparticle problem_, Phys.  Lett.  B **174** (1986) 331-334 \[<a href="https://doi.org/10.1016/0370-2693(86)91110-X">doi:10.1016/0370-2693(86)91110-X</a>\]
 
+[[!redirects Gauss laws]]
 
 [[!redirects Gauss's law]]
+[[!redirects Gauss's laws]]
+
 [[!redirects Gauss' law]]
+[[!redirects Gauss' laws]]
+
 [[!redirects Gauß law]]
+[[!redirects Gauß laws]]
 
 [[!redirects magnetic Gauss law]]
+[[!redirects magnetic Gauss laws]]
+
 [[!redirects magnetic Gauss' law]]
+[[!redirects magnetic Gauss' laws]]
+
 [[!redirects magnetic Gauß law]]
+[[!redirects magnetic Gauß laws]]
 
 [[!redirects electric Gauss law]]
+[[!redirects electric Gauss laws]]
+
 [[!redirects electric Gauss' law]]
+[[!redirects electric Gauss' laws]]
+
 [[!redirects electric Gauß law]]
+[[!redirects electric Gauß laws]]
 
 
