@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-NearHorizonGeometries.jpg:file]]
+
 [[GeomPhys-ChargeOfMonopolesAndVortices.jpg:file]]
 
 [[GeomPhys-UnboundedBRRFluxMotion.jpg:file]]
