@@ -37,7 +37,9 @@ It turns out that all these concepts coincide (see below, as well as the article
 Let $(T,\mu,\eta)$ be a [[monad]] on a [[symmetric monoidal category]] $C$, equipped with a [[strong monad|left-strength]] $\sigma$ (and with the right-strength $\tau$ induced from $\sigma$ and the [[braiding]]). 
 
 We say that $T$ (or $\sigma$) is **commutative** if the following diagram commutes for all objects $X$ and $Y$ of $C$. 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 & T X \otimes T Y \ar{dl}[swap]{\sigma} \ar{dr}{\tau} \\
 T(T X \otimes Y) \ar{d}[swap]{T\tau} && T(X\otimes T Y) \ar{d}{T\sigma} \\
 TT(X\otimes Y) \ar{dr}[swap]{\mu} && TT(X\otimes Y) \ar{dl}{\mu} \\
@@ -62,7 +64,9 @@ The same is true for the notion of commutativity: one can define commutative mon
 More in detail, let $C$ be a [[closed category]], and denote its [[internal homs]] by $[X,Y]$. 
 Let $t':[X,Y]\to [T X, T Y]$ be a left-strength for $T$ (as defined [[strong monad#strong_monads_are_enriched_monads|here]]), and let $s':T[X,Y]\to [X, T Y]$ be a right-strength (as defined [[strong monad#right-strength_and_pointwise_structure|here]]).
 We say that $t'$ and $s'$ _commute_, or that $T$ is _commutative_, if the following diagram commutes.
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 & T{[X,Y]} \ar{dl}[swap]{s'} \ar{dr}{Tt'} \\
 {[X,T Y]} \ar{d}[swap]{t'} && T{[T X, T Y]} \ar{d}{s'} \\
 {[T X, T T Y]} \ar{dr}[swap]{{[T X,\mu]}} && {[T X, T T Y]} \ar{dl}{{[T X,\mu]}} \\
@@ -98,12 +102,18 @@ Since commutative monads are the same as monoidal monads, monads encoding struct
 
 For a concrete example, consider the free commutative monoid monad $T$, and given a set $X$, write the elements of $TX$ as formal sums, such as $x_1+x_2$.  
 The commutativity condition says that these two compositions have the same result,
-\begin{tikzcd}[row sep=0]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
 TX \times TY \ar{r}{\sigma} & T(TX\times Y) \ar{r}{T\tau} & TT(X\times Y) \ar{r}{\mu} & T(X\times Y) \\
 (x_1+x_2, y_1+y_2) \ar[mapsto]{r} & (x_1+x_2, y_1) + (x_1+x_2, y_2) \ar[mapsto]{r} & ((x_1, y_1) + (x_2, y_1)) + ((x_1, y_2) + (x_2, y_2)) \ar[mapsto]{r} & (x_1, y_1) + (x_2, y_1) + (x_1, y_2) + (x_2, y_2)
 \end{tikzcd}
 and
-\begin{tikzcd}[row sep=0]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
 TX \times TY \ar{r}{\tau} & T(X\times TY) \ar{r}{T\sigma} & TT(X\times Y) \ar{r}{\mu} & T(X\times Y) \\
 (x_1+x_2, y_1+y_2) \ar[mapsto]{r} & (x_1, y_1+y_2) + (x_2, y_1+y_2) \ar[mapsto]{r} & ((x_1, y_1) + (x_1, y_2)) + ((x_2, y_1) + (x_2, y_2)) \ar[mapsto]{r} & (x_1, y_1) + (x_1, y_2) + (x_2, y_1) + (x_2, y_2)
 \end{tikzcd}
