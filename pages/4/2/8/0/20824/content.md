@@ -155,7 +155,10 @@ Speculation that strong-coupling limit of massive type IIA does not exist:
 
 * {#AJTZ10} [[Ofer Aharony]], [[Daniel Jafferis]], [[Alessandro Tomasiello]], [[Alberto Zaffaroni]], _Massive type IIA string theory cannot be strongly coupled_, JHEP 1011:047, 2010 ([arXiv:1007.2451](https://arxiv.org/abs/1007.2451))
 
-Discussion of possible realization of massive type IIA string theory in [[M-theory]]:
+### Lift to M-theory
+ {#ReferencesLiftToMTheory}
+
+Discussion of possible lift of [[massive type IIA string theory]] to [[M-theory]] (in view of the [[duality between type IIA string theory and M-theory]]):
 
 * [[Paul S. Howe]], [[Neil D. Lambert]], [[Peter C. West]], *A New Massive Type IIA Supergravity From Compactification*, Phys. Lett. B **416** (1998) 303-308 &lbrack;[arXiv:hep-th/9707139](https://arxiv.org/abs/hep-th/9707139), <a href="https://doi.org/10.1016/S0370-2693(97)01199-4">doi:10.1016/S0370-2693(97)01199-4</a>&rbrack;
 
