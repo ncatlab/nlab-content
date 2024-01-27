@@ -35,7 +35,9 @@ Denote the [[monoidal functor|monoidal multiplication]] of $T$ by $\nabla$.
 
 Given [[algebra over a monad|$T$-algebras]] $(A,a)$ and $(B,b)$, their **tensor product** is, if it exists, the object $A\otimes_T B$ given by the coequalizer in the [[Eilenberg-Moore category]] $C^T$
 
- \begin{tikzcd}
+ \begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
   T(TA \otimes TB) \ar[bend right=10]{rr}[swap]{T(a\otimes b)} \ar{r}{T\nabla} & TT(A\otimes B) \ar{r}{\mu} & T(A\otimes B) \ar{r} & A\otimes_T B.
  \end{tikzcd}
 
@@ -72,7 +74,9 @@ A less ambiguous term is [[binary morphism]].
 
 Let $(A,a)$, $(B,b)$ and $(R,r)$ be $T$-algebras. A **binary morphism** of algebras, or **$T$-balanced map**, or **$T$-bilinear** (or **bimorphism**, see the caveat above) from $A$ and $B$ to $R$ is a morphism $f:A\otimes B\to R$ of $C$ such that the following diagram commutes.
 
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
   TA \otimes TB \ar{d}{a\otimes b} \ar{r}{\nabla} & T(A\otimes B) \ar{r}{Tf} & TR \ar{d}{r} \\
   A\otimes B \ar{rr}{f} && R
 \end{tikzcd}
@@ -85,7 +89,9 @@ We can view a binary morphism as a morphism which is a "morphism of algebras in 
 ###### Proposition
 ([Kock '71, Theorem 1.1](#Kock71bilin), [Seal '12, Proposition 2.1.2](#Seal12))
 A morphism $f:A\otimes B\to R$ of $C$ is a binary morphism of algebras if and only if both the following two diagrams commute. (The maps $s$ and $t$ denote the [[strong monad|strength and costrength]] of the monad $T$.)
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 A \otimes TB \ar{d}{1\otimes b} \ar{r}{s} & T(A\otimes B) \ar{r}{Tf} & TR \ar{d}{r}  && TA \otimes B \ar{d}{a\otimes 1} \ar{r}{t} & T(A\otimes B) \ar{r}{Tf} & TR \ar{d}{r}  \\
 A \otimes B \ar{rr}{f} && R && A \otimes B \ar{rr}{f} && R
 \end{tikzcd}
@@ -100,7 +106,9 @@ As in the case of multilinear maps, we have that the tensor product of algebras,
 ###### Theorem
 ([Seal '12, Proposition 2.3.4](#Seal12))
 Suppose that $C^T$ has tensors. For each $T$-algebras $(A,a)$, $(B,b)$ and $(R,r)$ there is a bijection
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 C^T(A\otimes_T B, C) \ar{r}{\cong} & C^T(A,B; C) ,
 \end{tikzcd}
 natural in $A$, $B$ and $C$. 
@@ -115,11 +123,15 @@ The treatment of the closed case goes back to [the work done in the 70s by Ander
 
 If $C$ is a [[monoidal closed category]] and has [[equalizers]], and $C^T$ has tensors, the first hypothesis of [the theorem above](#sealthms) is satisfied, and so $(C^T,\otimes_T,T1)$ is a monoidal category. Moreover, $C^T$ can be equipped with an [[internal hom]] $[A,B]_T$ which makes $C^T$ closed (see [[internal hom of algebras over a commutative monad]]).
 In that case the natural bijection
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 C(A\otimes B, C)  \ar{r}{\cong} & C(A ,{[B,C]})
 \end{tikzcd}
 given by the [[hom-tensor adjunction]] of $C$ induces a natural bijection
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 C^T(A\otimes_T B, C) \ar{r}{\cong} & C^T(A, {[B,C]}_T)
 \end{tikzcd}
 which makes $C^T$ itself a [[closed monoidal category]].
