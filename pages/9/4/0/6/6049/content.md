@@ -158,7 +158,7 @@ Next, this construction may be repeated, having the [[D6-branes]] end on differe
 #### D6 branes intersecting D8-branes over NS5-branes
  {#D6BranesIntersectingD8BranesOverNS5Branes}
 
-...and on the other end, the D6-branes may [[intersecting branes|end on]] [[D8-branes]] over an NS5-brane ([Janssen-Meessen-Ortin 99, Section 3](#JanssenMeessenOrtin99)) yielding [[D6-D8 brane intersections]]:
+...and on the other end, the D6-branes may [[intersecting branes|end on]] [[D8-branes]] over an NS5-brane ([Janssen-Meessen-Ortin 99, Section 3](#JanssenMeessenOrtin99)) yielding [[D6-D8 brane intersections]] (for more detials see at [[Hanany-Witten effect]], [here](Hanany-Witten+effect#D6StretchingBetweenNS5AndD8)):
 
 <img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
 
