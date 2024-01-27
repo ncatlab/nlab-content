@@ -26,20 +26,301 @@ Intuitively, a Markov category can be seen as a category where morphisms behave 
 
 
 
-## Definition
+## Definitions
 
-A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of a [[commutative]] [[internal monoid|internal comonoid]].
-We denote the [[comultiplication]] and [[counit]] maps by $copy: X \to X \otimes X$ and $del: X\to 1$. 
+A formal, concise definition can be given as follows: A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of a [[commutative]] [[internal monoid|internal comonoid]].
+Equivalently, it is a semicartesian symmetric monoidal category that [[supply in a monoidal category|supplies]] commutative comonoids.
 
-In terms of string diagrams, we are saying that every object $X$ is equipped with maps as follows:
+The [[comultiplication]] and [[counit]] maps are usually denoted by $copy: X \to X \otimes X$ and $del: X\to 1$. 
+
+Let's now restate the definition in a more intuitive, mathematically equivalent way, by making use of [[string diagrams]].
+
+### String diagrams for monoidal categories
+
+It is useful to introduce a [[string diagram]] notation for Markov categories, which is used throughout the literature, and which makes stochastic interactions particularly intuitive. 
+
+First of all, we represent a [[morphism]] $f:X\to Y$ in a [[monoidal category]] as follows, which we read *from bottom to top*:
+
 \begin{tikzpicture}[%
 thick,%
-scale=1,%
-every node/.style={scale=1.5},%
+scale=0.8,%
+every node/.style={scale=1.25},%
 none/.style={fill=none,draw=none},%
 morphism/.style={fill=white, draw=black, shape=rectangle},%
-bn/.style={fill=black, draw=black, shape=circle, inner sep=1.5pt},%
-state/.style={fill=white, draw=black, regular polygon, regular polygon sides=3, minimum width=0.8cm, shape border rotate=180, inner sep=0pt},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (0, -1) {};
+		\node [style=none] (1) at (0, 1) {};
+		\node [style=none] (2) at (0, -1.5) {$X$};
+		\node [style=none] (3) at (0, 1.5) {$Y$};
+
+		\draw (0.center) to (1.center);
+
+        \node [style=morphism] (4) at (0, 0) {$f$};
+\end{tikzpicture}
+
+When domain and codomain are clear, we will omit them:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (0, -1) {};
+		\node [style=none] (1) at (0, 1) {};
+
+		\draw (0.center) to (1.center);
+
+        \node [style=morphism] (4) at (0, 0) {$f$};
+\end{tikzpicture}
+
+We represent the object $X$, as well as its [[identity]] morphism, simply as a wire:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (0, -1) {};
+		\node [style=none] (1) at (0, 1) {};
+		\node [style=none] (2) at (0, -1.5) {$X$};
+		\node [style=none] (3) at (0, 1.5) {$X$};
+
+		\draw (0.center) to (1.center);
+
+                \node [style=none] (4) at (2, 0) {or};
+
+		\node [style=none] (5) at (4, -1) {};
+		\node [style=none] (6) at (4, 1) {};
+		\node [style=none] (7) at (4.5, 0) {$X$};
+
+		\draw (5.center) to (6.center);
+\end{tikzpicture}
+
+The (sequential) [[composition]] of morphisms $f:X\to Y$ and $g:Y\to Z$ is drawn as follows:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+	
+		\node [style=none] (0) at (-2, -2.5) {};
+		\node [style=none] (1) at (-2, 2.5) {};
+		\node [style=none] (2) at (-2, -3) {$X$};
+		\node [style=none] (3) at (-2, 3) {$Z$};
+		\node [style=none] (6) at (2, -1.75) {};
+		\node [style=none] (7) at (2, 1.75) {};
+		\node [style=none] (8) at (2, -2.25) {$X$};
+		\node [style=none] (9) at (2, 2.25) {$Z$};
+		\node [style=none] (12) at (0, 0) {or};
+		\node [style=none] (13) at (-2.5, 0) {$Y$};
+
+		\draw (0.center) to (1.center);
+		\draw (6.center) to (7.center);
+
+		\node [style=morphism] (4) at (-2, -1.5) {$f$};
+		\node [style=morphism] (5) at (-2, 1.5) {$g$};
+		\node [style=morphism] (10) at (2, -0.75) {$f$};
+		\node [style=morphism] (11) at (2, 0.75) {$g$};
+\end{tikzpicture}
+
+The [[tensor product]] of the monoidal category, or parallel composition, is represented as follows. 
+First of all, given objects $A$, $B$, $X$ and $Y$, a morphism $h:A\otimes B\to X\otimes Y$ is depicted as a box with multiple input and output wires: 
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (-0.75, -1) {};
+		\node [style=none] (1) at (0.75, -1) {};
+		\node [style=none] (2) at (-0.75, 1) {};
+		\node [style=none] (3) at (0.75, 1) {};
+		\node [style=none] (4) at (-0.75, -1.5) {$A$};
+		\node [style=none] (5) at (0.75, -1.5) {$B$};
+		\node [style=none] (6) at (-0.75, 1.5) {$X$};
+		\node [style=none] (7) at (0.75, 1.5) {$Y$};
+
+		\draw (2.center) to (0.center);
+		\draw (3.center) to (1.center);
+
+		\node [style=morphism] (8) at (0, 0) {$\quad h\quad$};
+\end{tikzpicture}
+
+Now given $f:A\to X$ and $g:B\to Y$, the parallel composition $f\otimes g:A\otimes B\to X\otimes Y$ is represented by juxtaposition:
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+\node [style=none] (0) at (-0.75, -1) {};
+		\node [style=none] (1) at (0.75, -1) {};
+		\node [style=none] (2) at (-0.75, 1) {};
+		\node [style=none] (3) at (0.75, 1) {};
+		\node [style=none] (4) at (-0.75, -1.5) {$A$};
+		\node [style=none] (5) at (0.75, -1.5) {$B$};
+		\node [style=none] (6) at (-0.75, 1.5) {$X$};
+		\node [style=none] (7) at (0.75, 1.5) {$Y$};
+
+		\draw (2.center) to (0.center);
+		\draw (3.center) to (1.center);
+
+		\node [style=morphism] (8) at (-0.75, 0) {$f$};
+                \node [style=morphism] (9) at (0.75, 0) {$g$};
+\end{tikzpicture}
+
+This highlights that this situation is *non-signalling*: here, $X$ depends on $A$ only, and not on $B$, while in the generic case of $h$ above, $X$ may depend both on $A$ and $B$. This will be particularly relevant when we discuss stochastic interactions (see below).
+
+Similarly, one can form the product of three or more objects and morphisms. Note that in the diagrams, the product is strictly associative: string diagrams, rather than the original category, technically represent a [[strict monoidal category]] which is [[monoidal equivalence|monoidally equivalent]] to the original one. (Such a category always exists thanks to the [[coherence theorem for monoidal categories|coherence theorem]].)
+
+In a similar vein, the monoidal unit is usually not appearing in string diagrams, whenever this does not cause confusion. This way, for example, the diagram
+imply as a wire:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (5) at (4, -1) {};
+		\node [style=none] (6) at (4, 1) {};
+		\node [style=none] (7) at (4.5, 0) {$X$};
+
+		\draw (5.center) to (6.center);
+\end{tikzpicture}
+ 
+represent the object $X$ but also $X\otimes I$, $I\otimes X$, and so on. 
+
+Particular importance is given to *morphisms from the monoidal unit*, in the form $p:I\to X$, and which here we call **states**, and represent as follows.
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (0, -0.5) {};
+		\node [style=none] (1) at (0, 1) {};
+                \node [style=none] (2) at (0, 1.5) {$X$};
+
+		\draw (0.center) to (1.center);
+
+        \node [style=morphism] (4) at (0, -0.5) {$p$};
+\end{tikzpicture}
+
+These will model probabilistic states, such as information sources or probability measures (see below).
+In the literature, states are also depicted as triangles.
+
+To conclude this section, the [[braiding]] of the monoidal category is represented as follows:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.5,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-5, 2) {};
+		\node [style=none] (1) at (-2, 2) {};
+		\node [style=none] (2) at (-5, -2) {};
+		\node [style=none] (3) at (-2, -2) {};
+		\node [style=none] (4) at (-5, -2.5) {$X$};
+		\node [style=none] (5) at (-2, -2.5) {$Y$};
+		\node [style=none] (6) at (-5, 2.5) {$Y$};
+		\node [style=none] (7) at (-2, 2.5) {$X$};
+
+		\draw [style=over arrow, in=90, out=-90] (1.center) to (2.center);
+		\draw [style=over arrow, in=90, out=-90] (0.center) to (3.center);
+\end{tikzpicture}
+
+The [[unitors]] and [[associators]] are similarly omitted from the diagrams, except when it causes ambiguity.
+
+Since we work in a [[symmetric monoidal category]], the braiding is its own inverse.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.5,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-5, 2) {};
+		\node [style=none] (1) at (-2, 2) {};
+		\node [style=none] (2) at (-5, -2) {};
+		\node [style=none] (3) at (-2, -2) {};
+		\node [style=none] (4) at (-5, -2.5) {$X$};
+		\node [style=none] (5) at (-2, -2.5) {$Y$};
+		\node [style=none] (6) at (-5, 2.5) {$Y$};
+		\node [style=none] (7) at (-2, 2.5) {$X$};
+		\node [style=none] (8) at (0, 0) {$=$};
+		\node [style=none] (9) at (2, 2) {};
+		\node [style=none] (10) at (5, 2) {};
+		\node [style=none] (11) at (2, -2) {};
+		\node [style=none] (12) at (5, -2) {};
+		\node [style=none] (13) at (2, -2.5) {$X$};
+		\node [style=none] (14) at (5, -2.5) {$Y$};
+		\node [style=none] (15) at (2, 2.5) {$Y$};
+		\node [style=none] (16) at (5, 2.5) {$X$};
+
+		\draw [style=over arrow, in=90, out=-90] (1.center) to (2.center);
+		\draw [style=over arrow, in=90, out=-90] (0.center) to (3.center);
+		\draw [style=over arrow, in=90, out=-90] (9.center) to (12.center);
+		\draw [style=over arrow, in=90, out=-90] (10.center) to (11.center);
+\end{tikzpicture}
+
+
+### Commutative comonoids
+
+Let $X$ be an [[object]] of a [[symmetric monoidal category]]. A [[commutative]] [[internal monoid|comonoid]] structure on $X$ consists first of all of maps $X\mapsto X\otimes X$ and $X\to I$, called the *comultiplication* and *counit*, or *copy* and *discard*. 
+For the purposes of Markov categories, we denote them by $copy: X \to X \otimes X$ and $del: X\to 1$
+
+In terms of string diagrams, we represent these maps as follows:
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
 ]
 
 		\node [style=bn] (0) at (-4, 0) {};
@@ -65,16 +346,16 @@ state/.style={fill=white, draw=black, regular polygon, regular polygon sides=3, 
 \end{tikzpicture}
 which we can think of as "copying the state of $X$" and "discarding it".
 
-These maps need to satisfy the following conditions (commutativity, counitality, coassociativity):
+These maps need to satisfy the following conditions (*commutativity*, *counitality*, *coassociativity*):
 
 \begin{tikzpicture}[%
 thick,%
-scale=1,%
-every node/.style={scale=1.5},%
+scale=0.8,%
+every node/.style={scale=1.25},%
 none/.style={fill=none,draw=none},%
 morphism/.style={fill=white, draw=black, shape=rectangle},%
-bn/.style={fill=black, draw=black, shape=circle, inner sep=1.5pt},%
-state/.style={fill=white, draw=black, regular polygon, regular polygon sides=3, minimum width=0.8cm, shape border rotate=180, inner sep=0pt},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
 ]
 
 		\node [style=none] (1) at (-7.25, -0.75) {};
@@ -154,8 +435,8 @@ state/.style={fill=white, draw=black, regular polygon, regular polygon sides=3, 
 		\draw (54.center) to (7.center);
 		\draw (56.center) to (55.center);
 		\draw (57.center) to (41.center);
-		\draw [in=90, out=-90] (25.center) to (17.center);
-		\draw [in=90, out=-90] (24.center) to (16.center);
+		\draw [style=over arrow, in=90, out=-90] (25.center) to (17.center);
+		\draw [style=over arrow, in=90, out=-90] (24.center) to (16.center);
 		\draw (58.center) to (34.center);
 		\draw (59.center) to (35.center);
 		\draw (60.center) to (48.center);
@@ -176,7 +457,16 @@ which we can interpret as the facts that
 
 In other words, these conditions assure that the interpretation as "copying and discarding information" is consistent. 
 
-We moreover require the following compatibility property between the copy map and the tensor product: for all objects $X$ and $Y$, 
+
+### Markov and CD categories
+
+A **copy-discard (CD) category** or **garbage-share (GS) monoidal category** is a symmetric monoidal category where 
+
+* Every object is equipped with a distinguished commutative comonoid structure;
+
+* The comonoid structures are compatible with the tensor products in the following ways. 
+
+First for all, for all objects $X$ and $Y$, 
 $$
 copy_{X\otimes Y} \; =\; (id_X\otimes b_{Y,X} \otimes id_Y) ( copy_X \otimes copy_Y ),
 $$
@@ -184,12 +474,11 @@ where $b$ denotes the [[braiding]]. In terms of string diagrams:
 
 \begin{tikzpicture}[%
 thick,%
-scale=1,%
-every node/.style={scale=1.5},%
+scale=0.8,%
+every node/.style={scale=1.25},%
 none/.style={fill=none,draw=none},%
 morphism/.style={fill=white, draw=black, shape=rectangle},%
-bn/.style={fill=black, draw=black, shape=circle, inner sep=1.5pt},%
-state/.style={fill=white, draw=black, regular polygon, regular polygon sides=3, minimum width=0.8cm, shape border rotate=180, inner sep=0pt},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
 over arrow/.style={-, black, preaction={draw=white, double}},%
 ]
 
@@ -244,24 +533,201 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 		\draw [style=over arrow, in=90, out=-90] (1.center) to (3.center);
 \end{tikzpicture}
 
-Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is [[terminal]], hence it is also [[natural transformation|natural]] in $X$ (see [[semicartesian monoidal category]] for more). On the other hand, the copy map is _not_ required to be natural.
+Similarly, we also have the following conditions (recall that the monoidal unit, unitors and associators are not depicted):
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+ 
+		\node [style=none] (0) at (-6, -1) {};
+		\node [style=none] (1) at (-5, -1) {};
+		\node [style=none] (2) at (-6, -1.5) {$X$};
+		\node [style=none] (3) at (-5, -1.5) {$Y$};
+		\node [style=bn] (4) at (-6, 1) {};
+		\node [style=bn] (5) at (-5, 1) {};
+		\node [style=bn] (6) at (-10, 1) {};
+		\node [style=none] (7) at (-8, 0) {$=$};
+		\node [style=none] (8) at (-10, -1) {};
+		\node [style=none] (9) at (-10, -1.5) {$X\otimes Y$};
+		\node [style=none] (10) at (1, -1) {};
+		\node [style=bn] (11) at (1, 1) {};
+		\node [style=none] (12) at (1, -1.5) {$I$};
+		\node [style=none] (13) at (3, 0) {$=$};
+		\node [style=none] (14) at (5, 2) {};
+		\node [style=none] (15) at (5, -2) {};
+		\node [style=none] (16) at (9, 2) {};
+		\node [style=none] (17) at (9, -2) {};
+		\node [style=none] (18) at (11, 0) {$=$};
+		\node [style=none] (19) at (14, -1) {};
+		\node [style=none] (20) at (14, -1.5) {$I$};
+		\node [style=bn] (21) at (14, 0) {};
+		\node [style=none] (22) at (13, 1) {};
+		\node [style=none] (23) at (15, 1) {};
+		\node [style=none] (24) at (13, 1.5) {$I$};
+		\node [style=none] (25) at (15, 1.5) {$I$};
+ 
+		\draw (4) to (0.center);
+		\draw (5) to (1.center);
+		\draw (6) to (8.center);
+		\draw (11) to (10.center);
+		\draw [dashed] (14.center) to (16.center);
+		\draw [dashed] (16.center) to (17.center);
+		\draw [dashed] (17.center) to (15.center);
+		\draw [dashed] (15.center) to (14.center);
+		\draw [in=165, out=-90] (22.center) to (21);
+		\draw (21) to (19.center);
+		\draw [bend left] (23.center) to (21);
+ 
+\end{tikzpicture}
+
+A **Markov category** or **affine CD category** is a CD category where any of these equivalent conditions hold:
+
+* The monoidal unit $I$ is a [[terminal object]] (i.e. the category is [[semicartesian]] monoidal);
+* The discard (counit) maps $del:X\to I$ are part of a [[natural transformation]] $id\Rightarrow I$;
+* For every morphism $f:X\to Y$, we have that $del_Y \circ f = \del_X$.
+
+The last equation can be written in terms of string diagrams as follows:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-2, -1) {};
+		\node [style=bn] (1) at (-2, 1) {};
+		\node [style=bn] (2) at (2, 0.5) {};
+		\node [style=none] (3) at (2, -1) {};
+		\node [style=none] (5) at (0, 0) {$=$};
+
+		\draw (1) to (0.center);
+		\draw (2) to (3.center);
+
+		\node [style=morphism] (4) at (-2, 0) {$f$};
+\end{tikzpicture}
+
+This condition can be interpreted as follows:
+
+* From the point of view of [[information theory]], it says that processing any information and discarding the result is the same as discarding the input altogether.
+* From the point of view of [[probability theory]], it says that probabilities are normalized to one. (More on that below.)
+
+Notice also that if we assume that the monoidal unit is terminal, all compatibility conditions between the comonoid structures and the tensor product except the first one are satisfied.
 
 
-
-
-## Remarks
-
-* A Markov category can equivalently be defined as a semicartesian symmetric monoidal category that [[supply in a monoidal category|supplies]] commutative comonoids.
 
 ## Examples 
 
-- The category [[Stoch#finstoch|FinStoch]] of finite sets and [[stochastic matrices]].
-- The category [[Stoch]] of [[measurable spaces]] and [[Markov kernels]]
-- For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$ preserving the monoidal unit, the [[Kleisli category]] $Kl(T)$ is a Markov category.
+Let's start with a simple example where randommess is not involved, the category of sets.
+We then look at more interesting cases where randomness is involved, [[FinStoch]] and [[Stoch]].
 
 See also the [detailed list below](#DetailedList).
 
-## Deterministic morphisms
+
+### The Markov structure of *Set*
+
+Consider the category [[Set]] of sets and functions, with its usual cartesian monoidal structure (given by the cartesian product of sets). 
+
+Every set $X$ is equipped with canonical maps
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
+ X \ar{r}{\mathrm{copy}} & X\times X && X \ar{r}{\mathrm{del}} & 1 \\
+x \ar[mapsto]{r} & (x,x) && x \ar[mapsto]{r} & *
+\end{tikzcd}
+
+which can be interpreted as "copying the value of $x$" and "discarding it" (we denote by $*$ the unique element of the terminal set $1$). 
+It can be easily checked that these maps make $X$ a commutative comonoid, and that these maps are compatible with the tensor product.
+Since the monoidal unit is terminal, we have a Markov category.
+
+The same can be done in every cartesian monoidal category:
+
+\begin{proposition}\label{cartmon1}
+In a cartesian monoidal category every object is equipped with a unique commutative comonoid structure, defined in terms of the universal property of the product.
+\end{proposition}
+
+In cartesian monoidal categories, no randomness is present (as defined below), and so the Markov structure is purely about manipulating information deterministically: information can be copied, discarded, and processed deterministically (through arbitrary morphisms).
+
+
+### The category *FinStoch* of stochastic matrices
+
+Let's now look at a category where randomness is involved.
+Let $X$ and $Y$ be [[finite sets]]. 
+Recall that a [[stochastic matrix]], or *stochastic map*, between them is a function 
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
+ X\times Y \ar{r} & {[0,1]} \\
+(x,y) \ar[mapsto]{r} & f(y|x)
+\end{tikzcd}
+such that 
+\begin{equation}\label{norm}
+\sum_{y\in Y} f(y|x)  = 1
+\end{equation}
+for every $x\in X$.
+
+We can interpret the number $f(y|x)$ as the probability of transitioning from $x$ to $y$, in a stochastic way.
+Note that in particular, [[stochastic map#stochastic_maps_from_deterministic_functions|every deterministic function defines a stochastic matrix]]: if $f:X\to Y$ is an ordinary function, we can write a stochastic matrix $\delta_f$ from $X$ to $Y$ by saying that $\delta_f(y|x)=1$ if $y=f(x)$, and $0$ otherwise. Therefore these random transitions include the deterministic ones as a special case.
+
+See [[stochastic map]] for more information, and for how they compose.
+
+Similarly to what we did for [[Set]], we can assign copy and discard maps to our object, which intuitively copy and discard information deterministically. 
+First of all, as monoidal structure we again take the cartesian product of sets. (In this category, it is not a [[categorical product]], but it's still a [[monoidal category|monoidal]] one.)
+We now the copy and discard maps as the maps $\delta_copy$ and $\delta_del$ induced by the ones of *Set* (see the example above). 
+Explicitly, the stochastic map $copy:X\to X\otimes X$ is defined by 
+$$
+copy(x',x''|x) = \begin{cases}
+1 & x'=x''=x ; \\
+0 & otherwise.
+\end{cases}
+$$
+The stochastic map $del:X\to 1$ satisfies
+$$
+del(*|x) = 1 ,
+$$
+where $*$ is the unique element of the terminal set $1$.
+
+Again, one can check that these maps make $X$ a commutative comonoid, and that these maps are compatible with the tensor product.
+
+The reason why we have a *Markov* category and not just a CD category is exactly the normalization condition \eqref{norm}: given a stochastic map $f:X\to Y$, the condition $del_Y\circ f = del_X$ reads exactly as 
+$$
+(del_Y\circ f) (*|x) = \sum_{y\in Y} del_Y(*|y) \, f(y|x) = \sum_{y\in Y} 1\, f(y|x) = 1 = \del_X(*|x)
+$$
+for every $x\in X$.
+
+
+### The category *Stoch* of Markov kernels
+
+- The category [[Stoch]] of [[measurable spaces]] and [[Markov kernels]]
+
+(...)
+
+### Kleisli categories of probability monads
+
+- For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$ preserving the monoidal unit, the [[Kleisli category]] $Kl(T)$ is a Markov category.
+
+(...)
+
+
+
+## Core concepts
+
+### Conditional independence
+
+(...)
+
+### Deterministic morphisms
 
 A morphism $f:X\to Y$ in a Markov category is called **deterministic** if it commutes with the copy map,
 $$
@@ -272,12 +738,11 @@ In terms of string diagrams:
 
 \begin{tikzpicture}[%
 thick,%
-scale=1,%
-every node/.style={scale=1.5},%
+scale=0.8,%
+every node/.style={scale=1.25},%
 none/.style={fill=none,draw=none},%
 morphism/.style={fill=white, draw=black, shape=rectangle},%
-bn/.style={fill=black, draw=black, shape=circle, inner sep=1.5pt},%
-state/.style={fill=white, draw=black, regular polygon, regular polygon sides=3, minimum width=0.8cm, shape border rotate=180, inner sep=0pt},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
 over arrow/.style={-, black, preaction={draw=white, double}},%
 ]
 
@@ -339,9 +804,14 @@ A _deterministic_ morphism is instead one that does _not_ exhibit this behavior,
 (to be expanded)
 
 
-## Representable Markov categories
+### Representable Markov categories
 
 For now, see [[probability monad]].
+
+
+## History
+
+(...)
 
 
 ## Detailed list
