@@ -24,7 +24,6 @@
 =--
 
 
-
 > **Abstract.**
 
 > For [[higher gauge fields]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) --- e.g. the common [[electromagnetic field]] (the "A-field") but also the [[B-field|B-]], [[RR-field|RR-]], and [[supergravity|C-fields]] considered in [[string theory|string]]/[[M-theory]] --- [[flux]]&[[charge]][[flux quantization|-quantization]] laws specify [[non-perturbative quantum field theory|non-perturbative completions]] of these [[field (physics)|fields]] by encoding their [[soliton|solitonic]] behaviour and hence by specifying the quantized [[charges]] carried by the individual [[branes]] that source these fluxes (higher-dimensional [[monopoles]] or [[solitons]]).
@@ -202,7 +201,7 @@ In the following we discuss all this in more detail.
 \linebreak
 
 
-## Flux densities and Brane sources
+## Flux densities and Brane charges
  {#FluxDensitiesAndBraneSources}
 
 
@@ -782,7 +781,7 @@ Here the [[differential 3-form]] $J_3$ embodies the density of an [[electric cur
 It is clear that, mathematically at least, Ex. \ref{MotionOfElectromagneticField}, makes sense more generally for flux densities of any degree. In particular:
 
 
-\begin{example}\label{MotionOfPureRRFields}
+\begin{example}\label{MotionOfUnboundedRRFields}
 **(Motion of unbounded [[RR-field]] fluxes)**
 
 The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] in the case of vanishing [[B-field]]-fluxes are often taken to be as follows (e.g. [Mkrtchyan & Valach 2023](#MkrtchyanValach23)):
@@ -828,6 +827,8 @@ For more on this see Ex. \ref{MotionOfCoupledBRRFields} below.
 
 Notice that in type IIB, (eq:PureUnboundedRREquations) describes a flux density ($F_5$) which is Hodge dual (not just to any other flux in the tuple but) to itself, $F_5 \,=\, \star\, F_5$. Generally we have:
 
+
+
 \begin{example}\label{MotionOfSelfDualHigherGaugeFluxes}
 **(Motion of [[self-dual higher gauge field]] fluxes)**
 
@@ -850,7 +851,7 @@ Due to the properties of the square of the Hodge operator (eq:HodgeSquareOnLoren
 this has non-trivial solutions iff the degree of the flux is odd, $deg = 2k+1$, and hence iff spacetime dimension is $D = 4k + 2$, $k \in \mathbb{N}$.
 \end{example}
 
-What is much more clear-cut than the example of fluxes in [[D=10 supergravity]] (Ex. \ref{MotionOfPureRRFields}) is the following example of fluxes in [[D=11 supergravity]], where at least on flat spacetimes there is no ambiguity in the literature:
+What is much more clear-cut than the example of fluxes in [[D=10 supergravity]] (Ex. \ref{MotionOfUnboundedRRFields}) is the following example of fluxes in [[D=11 supergravity]], where at least on flat spacetimes there is no ambiguity in the literature:
 
 
 \begin{example}\label{MotionOfSupergravityCField}
@@ -898,7 +899,7 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 
 1. The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is part of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry). The expression for $\mathrm{d} H_8$ arises as part of the gravitational field equations &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack;.
 
-1. The presence in [[type IIA supergravity]] of the non-linear Bianchi identity for $H_7$, albeit readily verified and "well-known" at least since [CJCP98 (3.4)](#CremmerJuliaLuPope98), is not as widely appreciated as the pattern (eq:TwistedUnboundedRREquations) from Ex. \ref{MotionOfPureRRFields} -- which it *breaks*.
+1. The presence in [[type IIA supergravity]] of the non-linear Bianchi identity for $H_7$, albeit readily verified and "well-known" at least since [CJCP98 (3.4)](#CremmerJuliaLuPope98), is not as widely appreciated as the pattern (eq:TwistedUnboundedRREquations) from Ex. \ref{MotionOfUnboundedRRFields} -- which it *breaks*.
 
 1. No flux densities $F_0$ nor $F_{10}$ appear in 10d from [[KK-reduction]] on a circle, nor are they part of [[type IIA supergravity]]. These fluxes are instead part of [[massive type IIA supergravity]] whose relation to [[D=11 supergravity]]/[[M-theory]] remains less understood, see the references [here](massive+type+IIA+string+theory#ReferencesLiftToMTheory).
 
@@ -993,12 +994,172 @@ The inverse isomorphism (eq:GaussLawFromBianchiIdentities) is given by time evol
 It is this "decoupling" *on the canonical phase space* of the gravity/metric effects from the phase space [[Gauß law]] constraint which allows to gain plenty of insight into brane configurations from purely cohomological analysis of fluxes on Cauchy surfaces, disregarding the full solution of the coupled (super-)gravity equations of motion:
 
 
-### Brane intersections imprinted on flux
+### Qualitative solutions: Brane intersections
+ {#BraneIntersectionsImprintedOnFlux}
+
+Prop. \ref{SolutionSpaceViaGaussLaw} implies that on [[globally hyperbolic spacetimes]] the structure of [[on-shell]] flux densities in [[supergravity]] may be analyzed already by solving the (non-linear) [[Gauss law]] (eq:GaussLawFromBianchiIdentities) on any [[Cauchy surface]] and ignoring the coupling to [[gravity]] there (assuming only that there exists at least one gravitational field configuration which solves its [[Einstein equations]] with source terms of this form). Since the same Gauss law also governs the admissible flux quantization laws [below](#FluxQuantizationLaws) we showcase a couple of qualitative solutions to highlight just how much non-trivial (brane-)physics is encoded in these equations.
+
+\begin{example}\label{D6CreationAndHananyWittenEffect}
+**([[D6-D8 brane bound state|D6/D8-intersections]] and the [[Hanany-Witten effect]])**
+A popular conjecture by [Hanany & Witten 1997](#Hanany-Witten+effect#HananyWitten97) states that the expected $\mathrm{D}_{\!p}$-branes stretching between $\mathrm{NS}_5$ and  $\mathrm{D}_{p+2}$ (cf. [above](#HigherFluxAndItsBranes)) are "created" as the $\mathrm{D}_{\!p+2}$-branes are "dragged over" the $\mathrm{NS}_5$, intuitively like a pole will cause a spike in a rubber sheet that is pulled over its tip. It was suggested by [Marolf 2001 (§2)](Hanany-Witten+effect#Marolf01) that this *[[Hanany-Witten effect]]* should be understandable entirely from analysis of the flux Bianchi identities (eq:GaussLawFromBianchiIdentities). 
+
+For the case of [[D6-D8 brane bound states|NS5/D6/D8-brane intersections]] &lbrack;[Hanany & Zaffaroni 1998 (§2.4)](Hanany-Witten+effect#HananyZaffaroni98); [Bergshoeff, Lozano & Ortin 1998 (p. 60)](Hanany-Witten+effect#BergshoeffLozanoOrtin98) this may be seen as follows (the other cases work analogously):
+
+Here, by the flux equation (eq:TwistedUnboundedRREquations) 
+\[
+  \label{EquationsForHananyWittenEffectForD6D8}
+  \begin{array}{l}
+  \mathrm{d} F_0 \;=\; 0
+  \,,
+  \\
+  \mathrm{d}
+  \,
+  F_2
+  \;=\;
+  H_3 \wedge F_0
+  \,,
+  \end{array}
+\]
+the flux density $F_0$ of $\mathrm{D}_8$-branes (the "Romans mass") is a [[locally constant function]] that vanishes in the vacuum and jumps by $N$ units across the singular locus of $N$ [[D8-branes|$\mathrm{D}_8$-branes]] (cf. e.g. [Fazzi 2017 (p. 40)](NS5-brane#Fazzi17)).
+But this means that:
+
+\begin{imagefromfile}
+    "file_name": "FluxesOfD6BetweenNS5AndD8-230618b.jpg",
+    "float": "right",
+    "width": 580,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": -40, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 
-(...)
+(1.) When the [[NS5-brane|$\mathrm{NS}_5$-brane]] is located in the vacuum where $F_0 = 0$, then its sourcing of $F_{2}$-flux is "switched off" by the vanishing $F_0$-factor 
+in (eq:EquationsForHananyWittenEffectForD6D8), hence if $F_2$ vanishes at infinity then the [[PDE]] demands it vanishes everywhere,  reflecting the absence of [[D6-branes|$\mathrm{D}_6$-branes]].
+
+(2.) When the [[NS5-brane|$\mathrm{NS}_5$-brane]] is located on the other side of the [[D8-brane|$\mathrm{D}_8$-branes]], where $F_0 = N$, then the equation (eq:EquationsForHananyWittenEffectForD6D8) shows that $F_2$-flux/[[D6-brane|$\mathrm{D}_6$]]-number density which vanishes far away will increase along the coordinate axis $x^9$ orthogonal to the [[D8-branes|$\mathrm{D}_8$-branes]] in proportionality to the $\mathrm{d}x^9$-component of the flux $H_3$, and hence pronouncedly so as one crosses the [[NS5-brane|$\mathrm{NS}_5$-brane]] locus.
+
+\end{example}
+
+\begin{example}
+**([[M2/M5-brane bound state|M2$\perp$M5-brane intersections]] on [[M-strings]])**
+\linebreak
+Consider the singular loci of two parallel flat [[M5-branes]] at a distance $2d \gt 0$
+
+\begin{tikzcd}[sep=0pt]
+    \mathbb{R}^{1,5}_{{}_{(i)}}
+    \ar[rr, hook]
+    &&
+    \mathbb{R}^{1,D}
+    \\
+    (t,\vec x) 
+      &\mapsto& 
+    \big(t,\vec x, (-1)^i d, \vec 0\big)
+\end{tikzcd}
+
+each reflected by unit 4-flux through their sourrounding [[4-spheres]]:
+
+$$
+    G_4^{{}^{(i)}}
+    \;\coloneqq\;
+    \mathrm{dvol}_{S^4}
+    \,\in\,
+    \Omega^4_{\mathrm{dR}}(S^4)
+    \xhookrightarrow{ \quad \mathrm{pr}_{S^4}^\ast \quad}
+    \Omega^4_{\mathrm{dR}}\Big(
+      \mathbb{R}^{1,5}_{{}_{(i)}}
+      \times
+      \mathbb{R}_{\plus}
+      \times
+      S^4
+    \Big)
+    \;\simeq\;
+    \Omega^4_{\mathrm{dR}}\Big(
+      \mathbb{R}^{1,10}
+      \setminus
+      \mathbb{R}^{1,5}_{{}_{(i)}}
+    \Big)
+  \,.
+$$
+
+With the total 4-flux thus
+$
+  G_4 
+  \;\coloneqq\;
+  G_4^{(1)}
+  +
+  G_4^{(2)}
+  \,,
+$
+the [[supergravity C-field|C-field]] Bianchi identity (Ex. \ref{MotionOfSupergravityCField}) says that the flux $G_7$ sourced by [[M2-branes]] obeys the equation
+
+\[
+  \label{M2FluxSourcedSourceByTwoM5Branes}
+  \begin{array}{rcl}
+    \mathrm{d}
+    G_7
+    &=&
+    -
+    \tfrac{1}{2} G_4 \wedge G_4
+    \\
+    &=&
+    - G_4^{(1)} \wedge G_4^{(2)}
+  \end{array}
+\]
+
+where the wedge product of the two translated $S^4$-volume forms acts as an effective "[[electric current|electric potential]]" source term.
+
+For illustration purposes we consider a qualitative sketch of  the 2-dimensional analog of this situation, where the 4-forms are replaced by 2-forms:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FluxOfM2M5Intersection.jpg",
+    "float": "right",
+    "width": 380,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 10,
+        "right": -10, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+**Effective dipole of quadratic brane flux.**
+The figure means to indicate the nature of the differential 2-form which is the wedge product of two copies of the pullback of $\mathrm{dvol}_{S^1}$ to around either of the punctures (the brane loci) in the 2-punctured plane. Here:
+
+* the strength of the circular lines indicates the absolute value of the flux density sourced by the respective 5-brane,
+
+* the arrows indicate the orientation of the flux density of either 5-brane,
+
+* the parallelograms indicate the orientation of their wedge product.
+
+Evidently, the absolute value of the wedge product is concentrated near the 5-branes and particularly between them...
 
 
+\begin{imagefromfile}
+    "file_name": "GeomPhys-SourcingM2FluxFromM5Fluxes.jpg",
+    "float": "right",
+    "width": 670,
+    "unit": "px",
+    "margin": {
+        "top": -35,
+        "bottom": 0,
+        "right": -10, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+...but the orientation of the wedge product changes sign across the axis connecting the branes, as shown. This means that the flux *sourced* by this wedge product, according to (eq:M2FluxSourcedSourceByTwoM5Branes), is, if vanishing at infinity, concentrated between the branes.
+
+This sourced flux concentration (indicated in red) witnesses an [[M2-brane]] stretching between the two [[M5-branes]]. The [[brane intersection|intersection]] is known as the *[[M-string]]*.
+
+\end{example}
+
+Notice how in these examples we *chose* integral values for the total source brane fluxes. Next we discuss how such *flux quantization* is systematically added to the higher gauge theory.
 
 
 
