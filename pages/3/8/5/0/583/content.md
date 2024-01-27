@@ -45,7 +45,11 @@ The basic ideas of the internal logic induced by a given [[category]] $C$ are:
   
   * the conjunction [[and]] is the [[product]] of subobjects (their [[meet]])
 
-  * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]])
+  * the [[disjunction]] [[or]] is the [[coproduct]] of subobjects (their [[join]])
+
+  * the [[existential quantifier]] is the [[support]] of the [[dependent sum]] of subobjects
+
+  * the [[universal quantifier]] is the [[dependent product]] of subobjects
 
 and so on.
 
