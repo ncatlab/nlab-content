@@ -33,6 +33,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-UnboundedBRRFluxMotion.jpg:file]]
+
 [[GeomPhys-DDReductionOfCFieldFlux.jpg:file]]
 
 [[GeomPhys-DoubleDimReductionOfCField-240127.jpg:file]]
