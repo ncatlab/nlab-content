@@ -400,55 +400,6 @@ Weak ω-category construction via terminal coalgebras
 
 * [[Eugenia Cheng]] and [[Tom Leinster]], _Weak ω-categories via terminal coalgebras_ ([arXiv](https://arxiv.org/abs/1212.5853)), published as _Weak $\infty$-categories via terminal coalgebras_, Theory and Applications of Categories,  Vol. 34, 2019, No. 34, pp 1073-1133. ([tac](http://www.tac.mta.ca/tac/volumes/34/34/34-34abs.html))
 
-## Discussion
-
-Previous versions of this entry led to the following discussions:
-
-+--{.query} 
-  [[John Baez|John]] has just substituted "topological" for my ([[Todd Trimble|Todd]]'s) original "tautological", which I don't mind at all -- "topological" is correct and arguably more informative -- but maybe this is a good place to explain that "tautological" was not a typo, but rather an expansion of a technical usage: 
-
-  One of the first examples of an operad that people are taught is the one where the n-th component consists of _all_ n-ary operations $X^n \to X$. (Here $X^n$ denotes an n-fold tensor power in a monoidal category.) Because it's the simplest or most obvious example of an operad, and because it's canonically there no matter what $X$ is, it's often in the literature called a "tautological operad". What is less often noted is that by the same logic, $hom(X, X^n)$ is an equally tautological operad, except that it consists of all "co-operations" instead of operations. Then, I am applying this observation to the example of the monoidal category of topological cospans from a point to itself, where $X$ is the interval. 
-
-  _Toby_:  Considering that the original was 'tautological topological', which is more informative, I\'ve changed it back.  But perhaps this explanation has a place in the main text?
-
-  _Todd_: Sounds like a good idea. If you can figure out a smooth way to do that, I'd be grateful. 
-
-  _Toby_:  Actually, I just realised that most of it is already in the next paragraph below.  I\'ll just add a sentence noting that this explains the name.
-=--
-
-+--{.query}
-[[Urs Schreiber|Urs]]: Thanks, Todd, this is great. If I may, let me try, also to check if I am following, to see how much of this we can do while abstracting away from Top and the concrete interval object in there.
-
-It seems that we need:
-
-* a closed monoidal homotopical category $V$ (not your $V$ above, but I'll call it $V$ nevertheless);
-
-* an object $I \in V$ fitting in an internal co-graph $pt \stackrel{\sigma, \tau}{\to} I$ such that
-
-  * all the end-to-end pushouts $I^{\vee n}$ exist in $V$;
- 
-  * all the $V$-internal hom-objects $[I, I^{\vee n}]$ are weakly equivalent to the point (the terminal object) $[I, I^{\vee n}] \stackrel{\sim}{\to} pt$;
-
-  * equipped with the structure of a co-operad internal to $V$ on $\{[I,I^{\vee n}]\}$, $n \in \mathbb{N}$.
-
-Then
-
-  * for $C$ any $V$-enriched homotopical category (I want to use now that $C$ is powered over $V$) we get &#8211; now let me see... &#8211; a functor
-$$\Pi_{\omega}: C \to Trimble-\omega-Cat.$$
-
-Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
-
-[[Todd Trimble|Todd]]: Yes, that's more or less right. But there is a god-given nonpermutative operad (not co-operad) structure on the graded $V$-object $\{[I, I^{\vee n}]\}$, and that's what I'm using here. If you know how the "endomorphism operad" works (as in the entry [[operad]]), then the operad here works the same way, mutatis mutandis. 
-
-As for the last part: in the original definition, I didn't know how to pass to the full-fledged $\omega$-categorical definition; I just had $n$-categories, one for each $n$. But Tom and Eugenia figured out how to make "Trimble-like" $\omega$-categories work by using coalgebraic methods. I haven't thought about whether that allows a $\Pi_\omega$... But aside from these technicalities: yes, you seem to understand what this is all about. 
-
-There were some comments to this effect after I gave that lecture; someone asked what you really need to do this definition very generally. Martin Hyland cried, "Not much!"
-
-_[[Urs Schreiber]]:_ Okay, thanks. I tried now to formalize this at [[interval object]].
-
-=--
-
-
 [[!redirects Trimble's notion of weak n-category]]
 [[!redirects Trimble's notion of weak n-category]]
 [[!redirects flabby n-category]]
