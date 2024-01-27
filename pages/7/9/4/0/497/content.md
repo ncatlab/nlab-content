@@ -139,6 +139,10 @@ In particular, the axiom of choice implies PEM.  This argument, due originally t
 
 * [[compact spaces equivalently have converging subnets]]
 
+* The [[limited principle of omniscience]] holds for all sets. 
+
+* The [[boolean domain]] $2$ is a [[frame]] iff the [[category of sets]] is a [[Boolean topos]]. This implies that one can do [[topology]] (using [[topological spaces]], [[locales]], [[formal topologies]], etc) directly using the boolean domain as the frame of open truth values. 
+
 ## Double-negated PEM
  {#DoubleNegatedPEM}
 
