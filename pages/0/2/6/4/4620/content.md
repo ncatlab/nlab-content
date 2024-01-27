@@ -124,7 +124,7 @@ And finally, the **internal LLPO** for a family of sets $(A_z)_{z \in I}$ is the
 
 * The internal LPO for a family of sets $(A_z)_{z \in I}$ holds only for the internal predicates $i:P \hookrightarrow A_z$ which comes with an internal predicate $j:Q \hookrightarrow A_z$ such that $i^*(x) = \neg j^*(x)$ for all $x \in A_z$. 
 
-In particular, the internal LPO for the family of all [[subsingletons]] is internal excluded middle and the internal LLPO for the family of all [[subsingletons]] is internal [[weak excluded middle]]. 
+In particular, the internal LPO for the family of all [[subsingletons]] is internal excluded middle and the internal LLPO for the family of all [[subsingletons]] is internal [[weak excluded middle]]. Similarly, given a [[universe]] $U$, the internal LPO for the family of all sets in $U$ is excluded middle in $U$, and the internal LLPO for the family of all sets in $U$ is weak excluded middle in $U$. 
 
 The internal versions of the principles of omniscience, like all internal versions of axioms, are weaker than the external version of the principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
 
