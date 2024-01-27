@@ -114,7 +114,10 @@ called the *left-strength*, and required to make the following [[commuting diagr
 
 "Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
 
-\begin{tikzcd}[column sep=small, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=small,%
+]
 & TA \ar{ddr}{\cong} \ar{ddl}[swap]{\cong} \\ \\
 1 \otimes TA \ar{rr}{t_{1,A}} && T(1\otimes A)
 \end{tikzcd}
@@ -124,19 +127,28 @@ called the *left-strength*, and required to make the following [[commuting diagr
 =--
 
 "Consecutive applications of strength commute" (and play well with the [[associators]]):
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
 (A\otimes B) \otimes TC \ar{d}{\cong} \ar{rr}{t_{A\otimes B, C}} && T((A\otimes B)\otimes C) \ar{d}{\cong} \\
 A \otimes (B\otimes TC) \ar{r}{A\otimes t_{B,C}} & A\otimes T(B\otimes C) \ar{r}{t_{A,B\otimes C}} & T(A\otimes(B\otimes C))
 \end{tikzcd}
 
 "Strength commutes with the [[monad unit]]":
-\begin{tikzcd}[column sep=small, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=small,%
+]
 & A \otimes B \ar{ddl}[swap]{A\otimes\eta_B} \ar{ddr}{\eta_{A\otimes B}} \\ \\
 A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
 \end{tikzcd}
 
 "Strength commutes with the monad multiplication":
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
 A\otimes TTB \ar{d}{A\otimes\mu_B} \ar{r}{t_{A,TB}} & T(A\otimes TB) \ar{r}{Tt_{A,B}} & TT(A\otimes B) \ar{d}{\mu_{A\otimes B}} \\
 A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
 \end{tikzcd}
@@ -176,7 +188,9 @@ $$
 In other words, it turns an element of $X$ and a list of elements of $Y$ into a list of elements of $X\times Y$, canonically.
 
 * For the left [[action monad]] (on [[Set]] or on any other [[monoidal category]]) relative to a [[monoid]] or [[monoid object]] $M$, the right-strength is inherited by the [[associator]] as follows (see [Brandenburg '14, Example 6.3.4](#Brandenburg2014)),
-\begin{tikzcd}
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+]
 (M \otimes X) \otimes Y \ar{r}{a_{M,X,Y}}[swap]{\cong} & M \otimes (X \otimes Y) .
 \end{tikzcd}
 * On a [[symmetric monoidal category]], a left-strength for a left action monad can be obtained analogously, using the [[braiding]]. (For right actions, the braiding is not needed.)
@@ -307,12 +321,16 @@ $$
 [X,Y] \otimes T X \;\to\; T Y.
 $$
 The latter is provided by the strength $t$ as follows,
-\begin{tikzcd}
+[%
+nodes={scale=1.25}, arrows={thick},%
+]
 {[X,Y]} \otimes T X \ar{r}{t} & T\big({[X,Y]}\otimes X \big) \ar{r}{T\epsilon} & TY.
 \end{tikzcd}
 
 Conversely, given a map $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a left-strength as
-\begin{tikzcd}
+[%
+nodes={scale=1.25}, arrows={thick},%
+]
 X \otimes T Y \ar{r}{\eta\otimes TY} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
 \end{tikzcd}
 
@@ -332,18 +350,30 @@ $$
 \mathrm{Hom}(X,Y) \;\to\; \mathrm{Hom}(T X, T Y) .
 $$
 Under [[currying]], this corresponds to the map 
-\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+column sep=large,%
+]
 \mathrm{Hom}(X,Y) \times T X \ar{r} & T Y \\
 (f,k) \ar[mapsto]{r} & Tf (k) .
 \end{tikzcd}
 For example, for the [[list monad]], the map is given by
-\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+column sep=large,%
+]
 \mathrm{Hom}(X,Y) \times L X \ar{r} & L Y \\
 (f,{[x_1,\dots,x_n]}) \ar[mapsto]{r} & {[f(x_1),\dots,f(x_n)]} .
 \end{tikzcd}
 
 The strength obtained this way is the usual left-strength of the list monad,
-\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+column sep=large,%
+]
 X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T Y \ar{r}{t'} & T(X\times Y) \\
 (x,{[y_1,\dots,y_n]}) \ar[mapsto]{r} & \big( y\mapsto (x,y) , {[y_1,\dots,y_n]}\big) \ar[mapsto]{r} & {[(x,y_1),\dots,(x,y_n)]}.
 \end{tikzcd}
@@ -361,26 +391,41 @@ $$
 such that the following diagrams commute. 
 
 * Compatibility with the unit of the monad $\eta^T$: 
-\begin{tikzcd}[column sep=small, row sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=large,%
+column sep=small,%
+]
 & {[X,Y]} \ar{dl}[swap]{\eta^T} \ar{dr}{{[X,\eta^T]}} \\
 T{[X,Y]}  \ar{rr}[swap]{s'} && {[X,TY]}
 \end{tikzcd}
 
 * Compatibility with the multiplication of the monad $\mu^T$:
-\begin{tikzcd}[row sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=large,%
+]
 TT{[X,Y]} \ar{dd}{\mu^T} \ar{rr}{Ts'} && T{[X,TY]} \ar{d}{s'} \\
 && {[X,TTY]} \ar{d}{{[X,\mu^T]}} \\
 T{[X,Y]} \ar{rr}{s'} && {[X,TY]}
 \end{tikzcd}
 
 * Compatibility with the "unitor of the closed structure", the natural isomorphism $i:X\to [1,X]$ (see [[closed category#basic_definition]]):
-\begin{tikzcd}[column sep=small, row sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=large,%
+column sep=small,%
+]
 & T X \ar{dl}[swap]{Ti} \ar{dr}{i} \\
 T{[1,X]} \ar{rr}{s'} && {[1,T X]}
 \end{tikzcd}
 
 * Compatibility with the (curried) composition morphism of the closed structure, the morphism $l:[Y,Z]\to [[X,Y],[Y,Z]]$ (see [[closed category#basic_definition]]):
-\begin{tikzcd}[sep=large, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=large,%
+column sep=large,%
+]
 T{[Y,Z]} \ar{rr}{s'} \ar{d}{Tl} && {[Y, T Z]}  \ar{d}{l} \\
 T{[{[X,Y]}, {[X,Z]}]} \ar{r}{s'} & {[{[X,Y]}, T{[X,Z]}]} \ar{r}{{[\mathrm{id}, s']}} & {[{[X,Y]}, {[X, T Z]}]}
 \end{tikzcd}
@@ -390,12 +435,18 @@ T{[{[X,Y]}, {[X,Z]}]} \ar{r}{s'} & {[{[X,Y]}, T{[X,Z]}]} \ar{r}{{[\mathrm{id}, s
 
 Suppose now that $C$ is a [[monoidal closed category]]. In this case, a pointwise structure and a costrength coincide. Let's see how.
 Given a right-strength $s:T X\otimes Y \to T(X\otimes Y)$ we can obtain a pointwise structure as follows,
-\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+]
 T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\otimes X)]} \ar{r}{{[X,T\epsilon]}} & {[X,TY]} .
 \end{tikzcd}
 
 Conversely, given a pointwise structure $s':T[X,Y]\to [X,TY]$ we can obtain a right-strength as
-\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+]
 TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes Y ) .
 \end{tikzcd}
 
@@ -407,7 +458,10 @@ By [[currying]] it can be shown that the respective diagrams of costrength and p
 
 A pointwise structure allows in particular to _form pointwise algebra structures_, in the following sense. Given a $T$-[[algebra over a monad|algebra]] $(A,a)$, and any object $X$, we can canonically define an algebra structure on $[X,A]$, given by
 
-\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+]
 T{[X,A]} \ar{r} & {[X,TA]} \ar{r}{{[X,a]}} & {[X,A]} .
 \end{tikzcd}
 
@@ -422,7 +476,11 @@ The diagrams above assure us that
 #### Example in Set
 
 Consider the [[list monad]] on [[Set]]. The usual right-strength gives the following pointwise structure:
-\begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+column sep=small,%
+]
 L{[X,Y]} \ar{r}{\eta} & {[X,L{[X,Y]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,Y]}\times X)]} \ar{r}{{[X,L\epsilon]}} & {[X,LY]} \\
 {[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto ({[f,g,h]},x) \big) \ar[mapsto]{r} & \big( x\mapsto {[(f,x), (g,x), (h,x)]}\big) \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) 
 \end{tikzcd}
@@ -430,7 +488,11 @@ L{[X,Y]} \ar{r}{\eta} & {[X,L{[X,Y]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,Y]}\t
 Indeed, this turns a list of functions into a function into lists, that maps $x\in X$ to the list of the results. 
 
 If $(A,a)$ is an $L$-[[algebra over a monad|algebra]], i.e. a [[monoid]], this allows to equip function spaces with a monoid structure as follows: 
-\begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+column sep=small,%
+]
 L{[X,A]} \ar{r} & {[X,LA]} \ar{r}{{[X,a]}} & {[X,A]} \\
 {[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) \ar[mapsto]{r} & \big( x\mapsto f(x) + g(x) + h(x) \big)
 \end{tikzcd}
