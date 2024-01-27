@@ -18,18 +18,18 @@
 
 ## Idea
 
-The formalism of Markov categories is one of the most recent [[categorical approaches to probability theory]]. 
+The formalism of *Markov categories* and *copy-discard categories* is one of the most recent [[categorical approaches to probability theory]]. 
 
 Intuitively, a Markov category can be seen as a category where morphisms behave like "random functions", for example, [[Markov kernels]] form such a category (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
-**Caveat**: some of the content of this page reflects work in progress. Content may change.
+Markov categories have a graphical formalism, based on [[string diagrams]], that allows to easily keep track of the stochastic dependencies, as well as of randomness and determinism. 
+Using this formalism one can interpret, prove and even *generalize* several results of probability and related fields (see [[categorical probability#main_results|Categorical probability -- results]] for more details).
 
 
 
 ## Definitions
 
-A formal, concise definition can be given as follows: A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of a [[commutative]] [[internal monoid|internal comonoid]].
-Equivalently, it is a semicartesian symmetric monoidal category that [[supply in a monoidal category|supplies]] commutative comonoids.
+A formal, concise definition can be given as follows: A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ which [[supply in a monoidal category|supplies]] commutative comonoids, i.e. in which every object $X$ is equipped with the structure of a [[commutative]] [[internal monoid|internal comonoid]] compatible with the tensor product.
 
 The [[comultiplication]] and [[counit]] maps are usually denoted by $copy: X \to X \otimes X$ and $del: X\to 1$. 
 
@@ -61,6 +61,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
         \node [style=morphism] (4) at (0, 0) {$f$};
 \end{tikzpicture}
 
+Notice that, across the literature, convention vary (for example, also left-to-right is used.)
 When domain and codomain are clear, we will omit them:
 
 \begin{tikzpicture}[%
@@ -200,7 +201,6 @@ This highlights that this situation is *non-signalling*: here, $X$ depends on $A
 Similarly, one can form the product of three or more objects and morphisms. Note that in the diagrams, the product is strictly associative: string diagrams, rather than the original category, technically represent a [[strict monoidal category]] which is [[monoidal equivalence|monoidally equivalent]] to the original one. (Such a category always exists thanks to the [[coherence theorem for monoidal categories|coherence theorem]].)
 
 In a similar vein, the monoidal unit is usually not appearing in string diagrams, whenever this does not cause confusion. This way, for example, the diagram
-imply as a wire:
 
 \begin{tikzpicture}[%
 thick,%
@@ -219,7 +219,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 		\draw (5.center) to (6.center);
 \end{tikzpicture}
  
-represent the object $X$ but also $X\otimes I$, $I\otimes X$, and so on. 
+represents the object $X$, but also $X\otimes I$, $I\otimes X$, and so on. 
 
 Particular importance is given to *morphisms from the monoidal unit*, in the form $p:I\to X$, and which here we call **states**, and represent as follows.
 \begin{tikzpicture}[%
@@ -241,7 +241,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
         \node [style=morphism] (4) at (0, -0.5) {$p$};
 \end{tikzpicture}
 
-These will model probabilistic states, such as information sources or probability measures (see below).
+These will model probabilistic states, such as probability measures (see below).
 In the literature, states are also depicted as triangles.
 
 To conclude this section, the [[braiding]] of the monoidal category is represented as follows:
@@ -488,7 +488,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 		\node [style=none] (4) at (3, 2.5) {$Y$};
 		\node [style=none] (6) at (4.5, 2.5) {$X$};
 		\node [style=none] (7) at (-3.75, -2) {$X\otimes Y$};
-		\node [style=none] (14) at (0, 0) {$=$};
+		\node [style=none] (14) at (-0.25, 0) {$=$};
 		\node [style=none] (15) at (4.5, 2) {};
 		\node [style=none] (32) at (3, 0.5) {};
 		\node [style=none] (33) at (-3.75, -0.5) {};
@@ -606,8 +606,8 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 	
 		\node [style=none] (0) at (-2, -1) {};
 		\node [style=bn] (1) at (-2, 1) {};
-		\node [style=bn] (2) at (2, 0.5) {};
-		\node [style=none] (3) at (2, -1) {};
+		\node [style=bn] (2) at (1.75, 0.5) {};
+		\node [style=none] (3) at (1.75, -1) {};
 		\node [style=none] (5) at (0, 0) {$=$};
 
 		\draw (1) to (0.center);
@@ -633,7 +633,7 @@ We then look at more interesting cases where randomness is involved, [[FinStoch]
 See also the [detailed list below](#DetailedList).
 
 
-### The Markov structure of *Set*
+### The copy-discard structure of *Set*
 
 Consider the category [[Set]] of sets and functions, with its usual cartesian monoidal structure (given by the cartesian product of sets). 
 
@@ -642,7 +642,7 @@ Every set $X$ is equipped with canonical maps
 nodes={scale=1.25}, arrows={thick},%
 row sep=0,%
 ]
- X \ar{r}{\mathrm{copy}} & X\times X && X \ar{r}{\mathrm{del}} & 1 \\
+ X \ar{r}{\mathrm{diag}} & X\times X && X \ar{r}{!} & 1 \\
 x \ar[mapsto]{r} & (x,x) && x \ar[mapsto]{r} & *
 \end{tikzcd}
 
@@ -657,6 +657,119 @@ In a cartesian monoidal category every object is equipped with a unique commutat
 \end{proposition}
 
 In cartesian monoidal categories, no randomness is present (as defined below), and so the Markov structure is purely about manipulating information deterministically: information can be copied, discarded, and processed deterministically (through arbitrary morphisms).
+
+\begin{remark}
+Note that, while the copy-discard structure of *Set* and of other cartesian monoidal categories may seem trivial, it is not.
+The copy map is implicitly used whenever we are *reusing* a variable in an expression. For example, every function $f:X\times X\to Y$ also defines a function $f':X\to Y$ by just "pluggin in $x$ twice": 
+$$
+f'(x) = f(x,x) .
+$$
+What happened under the hood is the following composition:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
+X \ar{r}{\mathrm{diag}} \ar[bend left=35]{rr}{f'} & X\times X \ar{r}{f} & Y \\
+x \ar[mapsto]{r} & (x,x) \ar[mapsto]{r} & f(x,x)
+\end{tikzcd}
+In string diagrams, we write this as follows.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=bn] (0) at (2.75, -1) {};
+		\node [style=none] (1) at (2, -0.25) {};
+		\node [style=none] (2) at (3.5, -0.25) {};
+		\node [style=none] (3) at (2, 0.25) {};
+		\node [style=none] (4) at (3.5, 0.25) {};
+		\node [style=none] (5) at (2.75, 0.25) {};
+		\node [style=none] (6) at (2.75, 1.5) {};
+		\node [style=none] (7) at (2.75, 2) {$Y$};
+		\node [style=none] (8) at (2.75, -1.75) {};
+		\node [style=none] (9) at (2.75, -2.25) {$X$};
+		\node [style=none] (10) at (-2, 1.5) {};
+		\node [style=none] (11) at (-2, -1.75) {};
+		\node [style=none] (12) at (-2, -2.25) {$X$};
+		\node [style=none] (13) at (-2, 2) {$Y$};
+		\node [style=none] (16) at (0, 0) {$=$};
+
+		\draw [in=165, out=-90] (1.center) to (0);
+		\draw [in=15, out=-90] (2.center) to (0);
+		\draw (3.center) to (1.center);
+		\draw (4.center) to (2.center);
+		\draw (6.center) to (5.center);
+		\draw (0) to (8.center);
+		\draw (10.center) to (11.center);
+
+		\node [style=morphism] (14) at (-2, 0) {$f'$};
+		\node [style=morphism] (15) at (2.75, 0.25) {$\quad f \quad$};
+\end{tikzpicture}
+
+Similarly, the discard map is used whenever we are *not using* a variable in an expression. For example, every function $g:X\to Y$ also defines a function $g':X\times A\to Y$ which "does not really depend on $A$":
+$$
+g'(x,a) = g(x) .
+$$
+What happened under the hood is the following composition,
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
+X\times A \ar[bend left=35]{rr}{g'} \ar{r}{\mathrm{id}\times !} & X\times 1\cong X \ar{r}{g} & Y \\
+(x,a) \ar[mapsto]{r} & x \ar[mapsto]{r} & g(x)
+\end{tikzcd}
+which in string diagrams we write as follows.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+	
+		\node [style=none] (0) at (-3.75, -1.5) {};
+		\node [style=none] (1) at (-3, 1.5) {};
+		\node [style=none] (2) at (-3.75, -2) {$X$};
+		\node [style=none] (3) at (-3, 2) {$Y$};
+		\node [style=none] (4) at (-2.25, -1.5) {};
+		\node [style=none] (5) at (-2.25, -2) {$A$};
+		\node [style=none] (6) at (-3, 0) {};
+		\node [style=none] (7) at (-3, 0) {};
+		\node [style=none] (8) at (-3.75, 0) {};
+		\node [style=none] (9) at (-2.25, 0) {};
+		\node [style=none] (10) at (0, 0) {$=$};
+		\node [style=none] (11) at (2.25, -1.5) {};
+		\node [style=none] (13) at (2.25, -2) {$X$};
+		\node [style=none] (14) at (2.25, 2) {$Y$};
+		\node [style=none] (15) at (3.75, -1.5) {};
+		\node [style=none] (16) at (3.75, -2) {$A$};
+		\node [style=none] (19) at (2.25, 1.5) {};
+		\node [style=bn] (21) at (3.75, 0) {};
+
+		\draw (7.center) to (1.center);
+		\draw (8.center) to (0.center);
+		\draw (9.center) to (4.center);
+		\draw (19.center) to (11.center);
+		\draw (21) to (15.center);
+
+		\node [style=morphism] (22) at (-3, 0) {$\quad g' \quad$};
+		\node [style=morphism] (23) at (2.25, 0) {$g$};
+\end{tikzpicture}
+
+In particular, every element $y\in Y$ can be seen as a *constant* function $X\to Y$ which does not really depends on $X$. 
+
+As we will see, once probabilities are involved, copying and discarding will require particular care, due to the presence of possible correlation.
+Markov and CD categories allow us to keep track of these operations graphically, avoiding many possible pitfalls, and even using them to our advantage.
+\end{remark}
 
 
 ### The category *FinStoch* of stochastic matrices
@@ -683,7 +796,7 @@ Note that in particular, [[stochastic map#stochastic_maps_from_deterministic_fun
 See [[stochastic map]] for more information, and for how they compose.
 
 Similarly to what we did for [[Set]], we can assign copy and discard maps to our object, which intuitively copy and discard information deterministically. 
-First of all, as monoidal structure we again take the cartesian product of sets. (In this category, it is not a [[categorical product]], but it's still a [[monoidal category|monoidal]] one.)
+First of all, as monoidal structure we again take the cartesian product of sets. (In this category, it is not a [[cartesian product|categorical product]], but it's still a [[monoidal category|monoidal]] one.)
 We now the copy and discard maps as the maps $\delta_copy$ and $\delta_del$ induced by the ones of *Set* (see the example above). 
 Explicitly, the stochastic map $copy:X\to X\otimes X$ is defined by 
 $$
@@ -709,25 +822,461 @@ for every $x\in X$.
 
 ### The category *Stoch* of Markov kernels
 
-- The category [[Stoch]] of [[measurable spaces]] and [[Markov kernels]]
+The category [[Stoch]] of [[measurable spaces]] and [[Markov kernels]] between them has a Markov category structure, similar to the one of *FinStoch*.
+(See the articles on [[Stoch]] and on [[Markov kernels]] for details about the composition of kernels.)
 
-(...)
+Again, as monoidal structure we take the one induced by the product of measurable spaces. Given measurable spaces $(X,\mathcal{A})$ and $(Y,\mathcal{B})$ (or more briefly, $X$ and $Y$), we take $X\otimes Y$ to be the cartesian product of sets $X\times Y$, equipped with the tensor product [[sigma-algebra]] $\mathcal{A}\otimes\mathcal{B}$, the one generated by the sets $A\times B\subseteq X\times Y$ for $A\in\mathcal{A}$ and $B\in\mathcal{B}$. 
+
+The copy and discard maps $X\to X\otimes X$ and $X\to 1$, just as for *FinStoch* (see above), are inherited from the ones of *Set*. Explicitly, for each object $(X,\mathcal{A})$, we have that for all $x\in X$ and for all $A,A'\in\mathcal{A}$,
+$$
+copy(A\times A'|x) = \delta(A\cap A'|x) = \begin{cases}
+1 & x\in A\cap A' ; \\
+0 & x\notin A\cap A' 
+\end{cases}
+$$
+and 
+$$
+del(\{*\}|x) = 1 ,
+$$
+where $*$ is the unique element of the terminal measurable space $1$, the one-point space.
+
+These again equip each object with a commutative comonoid structure compatible with the tensor product.
+
+Just as for *FinStoch*, the fact that $1$ is terminal in [[Stoch]] reflects the fact that Markov kernels are normalized: for every kernel $f:X\to Y$ and for every $x\in X$,
+$$
+(del_Y\circ f) (\{*\}|x) = \int_Y del_Y(\{*\}|y) \, f(dy|x) = \int_Y 1\, f(dy|x) = 1 = \del_X(\{*\}|x) .
+$$
+
 
 ### Kleisli categories of probability monads
 
-- For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$ preserving the monoidal unit, the [[Kleisli category]] $Kl(T)$ is a Markov category.
+Let $C$ be a [[cartesian monoidal category]], which we can interpret as encoding "no randomness" (more on that below). For example, [[Set]].
+As we have seen [above](#the_markov_structure_of_set), $C$ has a canonical copy and discard structure. 
 
-(...)
+The [[Kleisli category]] of a [[commutative monad]] (or monoidal monad) $P$ on $C$, for example of most [[probability monads]], has a canonical copy-discard structure inherited from the one of $C$.
+First of all, for every monoidal monad, [[monoidal monad#monoidal_structure_on_the_kleisli_category|the Kleisli category is canonically monoidal again]]. To define a copy-discard structure, we can use the one of $C$ and the unit of the monad: 
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=small,%
+]
+X \ar{r}{\mathrm{diag}} & X\times X \ar{r}{\eta} & P(X\times X) \\
+X \ar{r}{\mathrm{!}} & 1 \ar{r}{\eta} & P1
+\end{tikzcd}
+
+If moreover we have that $P$ preserves the monoidal unit ($P1\cong 1$, i.e. the monad is [[affine monad|affine]]), we have that $1$ is terminal in the Kleisli category as well, and so we have a Markov category.
+
+Several Markov categories are obtained in this way, where the randomness is, in some sense, generated by the monad.
+For example, [[Stoch]] is the Kleisli category of the [[Giry monad]].
 
 
 
 ## Core concepts
 
-### Conditional independence
+### States, channels, joints, marginals
+
+The Markov category structures can be interpreted in terms of probability, statistics, and information theory in these ways. 
+
+First of all, a state on $X$
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (0, -0.5) {};
+		\node [style=none] (1) at (0, 1) {};
+                \node [style=none] (2) at (0, 1.5) {$X$};
+
+		\draw (0.center) to (1.center);
+
+        \node [style=morphism] (4) at (0, -0.5) {$p$};
+\end{tikzpicture}
+
+has the interpretation of a _probability measure_ on $X$, or in terms of information theory, a _noisy source_ with alphabet $X$. 
+
+This reflect the intuition in our main examples:
+
+* In [[FinStoch]], a state is exactly a $n\times 1$ stochastic matrix, i.e.~a column vector whose entries sum to one. In other words, it is exactly a (discrete) probability distribution on $X$, of entries $p(x)$.
+* In [[Stoch]], a state es exactly a probability measure on a measurable space $(X,\mathcal{A})$, of values $p(A)$ for $A\in\mathcal{A}$. 
+* In [[Set]] (no randomness!), a state is exactly a function $1\to X$, i.e. a point $x$ of $X$. 
+
+Let's now turn to morphisms:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, double}},%
+]
+
+		\node [style=none] (0) at (0, -1) {};
+		\node [style=none] (1) at (0, 1) {};
+		\node [style=none] (2) at (0, -1.5) {$X$};
+		\node [style=none] (3) at (0, 1.5) {$Y$};
+
+		\draw (0.center) to (1.center);
+
+        \node [style=morphism] (4) at (0, 0) {$f$};
+\end{tikzpicture}
+
+As we have already remarked, these can be thought of as _functions with possibly random outcomes_, or, from the point of view of information theory _potentially noisy channels_. 
+In our basic examples:
+
+* Morphisms of *FinStoch* are [[stochastic maps]];
+* Morphisms of *Stoch* are [[Markov kernels]];
+* Morphisms of *Set* (no randomness!) are [[functions]].
+
+Morphisms in a Markov category have an additional useful interpretation: a morphism $f:X\to Y$ can also be seen as a _state on $Y$ which depends by a parameter $X$_. Indeed:
+
+* In *FinStoch*, a stochastic map $f:X\to Y$, of entries $f(y|x)$, can be seen as a probability distribution on $Y$ which depends by a parameter $x\in X$;
+* In *Stoch*, a Markov kernel $f:(X,\mathcal{A})\to (Y,\mathcal{B})$ of values $f(B|x)$ can be seen as a probability measure on $Y$ which depends *measurably* on $x\in X$, sometimes called a [[Markov kernel#regular_conditional_distributions|regular conditional distribution]].
+* In *Set* (no randomness!), a function $f:X\to Y$ can be seen as a point of $Y$ parametrized by $X$. 
+
+This idea can be seen as a stochastic version of [[generalized elements]].
+
+Let's now turn to slightly more complex objects.
+States in the form $p:I\to X\otimes Y$ are called **joint states**. 
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (10) at (-3, 0) {};
+		\node [style=none] (11) at (-2, 0) {};
+		\node [style=none] (12) at (-2, 1.25) {};
+		\node [style=none] (13) at (-3, 1.25) {};
+		\node [style=none] (14) at (-3, 1.75) {$X$};
+		\node [style=none] (15) at (-2, 1.75) {$Y$};
+		\node [style=none] (20) at (-2.5, 0) {};
+
+		\draw (10.center) to (13.center);
+		\draw (11.center) to (12.center);
+        
+                \node [style=morphism] (27) at (-2.5, 0) {$\;\, p \;\,$};
+\end{tikzpicture}
+
+This has the interpretation of "shared randomness between $X$ and $Y$, possibly with correlation or other interactions".
+
+* In *FinStoch*, a joint state on $X\otimes Y$ is a joint probability distribution on $X\times Y$, of entries $p(x,y)$.
+* In *Stoch*, a joint state on $X\otimes Y$ is a joint probability measure on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, specified uniquely by its values $p(A\times B)$ for $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
+* In *Set*, a joint state on $X\otimes Y$ is an ordered pair $(x,y)$.
+
+Given a joint state $p$ on $X\otimes Y$, its **marginals** are the states $p_X$ and $p_Y$, on $X$ and $Y$ respectively, given by discarding the unobserved variable:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-3.5, -0.75) {};
+		\node [style=none] (2) at (-4, 1) {};
+		\node [style=none] (3) at (-4, 1.5) {$X$};
+		\node [style=none] (4) at (-4, -0.5) {};
+		\node [style=none] (5) at (-3, -0.5) {};
+		\node [style=bn] (6) at (-3, 0.5) {};
+		\node [style=none] (9) at (-8.25, 1) {};
+		\node [style=none] (10) at (-8.25, 1.5) {$X$};
+		\node [style=none] (11) at (-8.25, -0.5) {};
+		\node [style=none] (12) at (-6, 0) {$=$};
+		\node [style=none] (13) at (7.75, -0.75) {};
+		\node [style=none] (15) at (8.25, 1) {};
+		\node [style=none] (16) at (8.25, 1.5) {$Y$};
+		\node [style=none] (17) at (8.25, -0.5) {};
+		\node [style=none] (18) at (7.25, -0.5) {};
+		\node [style=bn] (19) at (7.25, 0.5) {};
+		\node [style=none] (21) at (3, 1) {};
+		\node [style=none] (22) at (3, 1.5) {$Y$};
+		\node [style=none] (23) at (3, -0.5) {};
+		\node [style=none] (24) at (5.25, 0) {$=$};
+
+		\draw (2.center) to (4.center);
+		\draw (5.center) to (6);
+		\draw (9.center) to (11.center);
+		\draw (15.center) to (17.center);
+		\draw (18.center) to (19);
+		\draw (21.center) to (23.center);
+
+		\node [style=morphism] (1) at (-3.5, -0.75) {$\;\, p \;\,$};
+		\node [style=morphism] (8) at (-8.25, -0.75) {$p_X$};
+		\node [style=morphism] (14) at (7.75, -0.75) {$\;\, p \;\,$};
+		\node [style=morphism] (20) at (3, -0.75) {$p_Y$};
+\end{tikzpicture}
+
+This formalizes both the idea of "not observing" as well as the one of *averaging* or *integrating* over something:
+
+* In *FinStoch*, the marginal distribution $p_X$ on $X$ formed by the joint distribution $p$ on $X\times Y$ is given by summing over $Y$:
+$$
+p_X(x) = \sum_{y\in Y} p(x,y)
+$$
+* In *Stoch*, the marginal distribution $p_X$ on $(X,\mathcal{A})$ formed by the joint distribution $p$ on $X\times Y$ is given by *integrating* over $Y$:
+$$
+p_X(A) = p(A\times Y) = \int_Y 1_A(x)\,p(d x\,d y)
+$$
+for all $A\in\mathcal{A}$.
+* In *Set*, the marginal state $x\in X$ formed by the joint state $(x,y)\in X\otimes Y$ is simply given by discarding the second component.
+
+
+Similarly, we call a **joint morphism** a morphism in the form $p:A\to X\otimes Y$.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+
+		\node [style=none] (9) at (-2.5, -1.25) {};
+		\node [style=none] (10) at (-3, 0) {};
+		\node [style=none] (11) at (-2, 0) {};
+		\node [style=none] (12) at (-2, 1.25) {};
+		\node [style=none] (13) at (-3, 1.25) {};
+		\node [style=none] (14) at (-3, 1.75) {$X$};
+		\node [style=none] (15) at (-2, 1.75) {$Y$};
+		\node [style=none] (19) at (-2.5, -1.75) {$A$};
+                \node [style=none] (20) at (-2.5, 0) {};
+
+		\draw (9.center) to (20);
+		\draw (10.center) to (13.center);
+		\draw (11.center) to (12.center);
+
+		\node [style=morphism] (27) at (-2.5, 0) {$\;\, p \;\,$};
+\end{tikzpicture}
+
+We can view this equivalently as a joint state which depends on a parameter $A$.
+We form its **marginal morphisms** $p_X:A\to X$ and $p_X:A\to Y$ by discarding the unobserved variables:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+
+		\node [style=none] (0) at (-3.5, -0.75) {};
+		\node [style=none] (2) at (-4, 1) {};
+		\node [style=none] (3) at (-4, 1.5) {$X$};
+		\node [style=none] (4) at (-4, -0.5) {};
+		\node [style=none] (5) at (-3, -0.5) {};
+		\node [style=bn] (6) at (-3, 0.5) {};
+		\node [style=none] (9) at (-8.25, 1) {};
+		\node [style=none] (10) at (-8.25, 1.5) {$X$};
+		\node [style=none] (11) at (-8.25, -0.5) {};
+		\node [style=none] (12) at (-6, -0.5) {$=$};
+		\node [style=none] (13) at (7.75, -0.75) {};
+		\node [style=none] (15) at (8.25, 1) {};
+		\node [style=none] (16) at (8.25, 1.5) {$Y$};
+		\node [style=none] (17) at (8.25, -0.5) {};
+		\node [style=none] (18) at (7.25, -0.5) {};
+		\node [style=bn] (19) at (7.25, 0.5) {};
+		\node [style=none] (21) at (3, 1) {};
+		\node [style=none] (22) at (3, 1.5) {$Y$};
+		\node [style=none] (23) at (3, -0.5) {};
+		\node [style=none] (24) at (5.25, -0.5) {$=$};
+		\node [style=none] (25) at (-8.25, -1.75) {};
+		\node [style=none] (26) at (-3.5, -1.75) {};
+		\node [style=none] (27) at (3, -1.75) {};
+		\node [style=none] (28) at (7.75, -1.75) {};
+		\node [style=none] (29) at (-3.5, -0.5) {};
+		\node [style=none] (30) at (7.75, -0.5) {};
+		\node [style=none] (31) at (-8.25, -2.25) {$A$};
+		\node [style=none] (32) at (-3.5, -2.25) {$A$};
+		\node [style=none] (33) at (3, -2.25) {$A$};
+		\node [style=none] (34) at (7.75, -2.25) {$A$};
+
+		\draw (2.center) to (4.center);
+		\draw (5.center) to (6);
+		\draw (9.center) to (11.center);
+		\draw (15.center) to (17.center);
+		\draw (18.center) to (19);
+		\draw (21.center) to (23.center);
+		\draw (11.center) to (25.center);
+		\draw (29.center) to (26.center);
+		\draw (23.center) to (27.center);
+		\draw (30.center) to (28.center);
+
+		\node [style=morphism] (1) at (-3.5, -0.5) {$\;\, p \;\,$};
+		\node [style=morphism] (8) at (-8.25, -0.5) {$p_X$};
+		\node [style=morphism] (14) at (7.75, -0.5) {$\;\, p \;\,$};
+		\node [style=morphism] (20) at (3, -0.5) {$p_Y$};
+\end{tikzpicture}
+
+This way, also the marginals will depend on the parameter $A$.
+
+
+### Stochastic independence
+
+A joint state $p$ on $X\otimes Y$ is said to exhibit **independence** of $X$ and $Y$ if and only if the following equation holds.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (1) at (2.5, -0.25) {};
+		\node [style=none] (2) at (4.5, -0.25) {};
+
+		\node [style=none] (5) at (2, 1.25) {};
+		\node [style=none] (6) at (5, 1.25) {};
+		\node [style=none] (8) at (0, 0.5) {$=$};
+		\node [style=none] (10) at (-3, 0) {};
+		\node [style=none] (11) at (-2, 0) {};
+		\node [style=none] (12) at (-2, 1.25) {};
+		\node [style=none] (13) at (-3, 1.25) {};
+		\node [style=none] (14) at (-3, 1.75) {$X$};
+		\node [style=none] (15) at (-2, 1.75) {$Y$};
+		\node [style=none] (16) at (2, 1.75) {$X$};
+		\node [style=none] (17) at (5, 1.75) {$Y$};
+		\node [style=none] (20) at (-2.5, 0) {};
+		\node [style=none] (21) at (2, 0) {};
+		\node [style=none] (22) at (3, 0) {};
+		\node [style=none] (23) at (5, 0) {};
+		\node [style=none] (24) at (4, 0) {};
+		\node [style=bn] (25) at (3, 1) {};
+		\node [style=bn] (26) at (4, 1) {};
+
+		\draw (23.center) to (6.center);
+		\draw (5.center) to (21.center);
+		\draw (10.center) to (13.center);
+		\draw (11.center) to (12.center);
+		\draw (22.center) to (25);
+		\draw (24.center) to (26);
+        
+                \node [style=morphism] (3) at (2.5, 0) {$\;\, p \;\,$};
+		\node [style=morphism] (4) at (4.5, 0) {$\;\, p \;\,$};
+                \node [style=morphism] (27) at (-2.5, 0) {$\;\, p \;\,$};
+\end{tikzpicture}
+
+More generally, a joint morphism $p:A\to X\otimes Y$ is said to exhibit **conditional independence** of $X$ and $Y$ **given** $A$ if and only if the following holds.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+
+		\node [style=bn] (0) at (3.5, -1.25) {};
+		\node [style=none] (1) at (2.5, -0.25) {};
+		\node [style=none] (2) at (4.5, -0.25) {};
+		\node [style=none] (5) at (2, 1.25) {};
+		\node [style=none] (6) at (5, 1.25) {};
+		\node [style=none] (7) at (3.5, -2) {};
+		\node [style=none] (8) at (0, 0) {$=$};
+		\node [style=none] (9) at (-2.5, -2) {};
+		\node [style=none] (10) at (-3, 0) {};
+		\node [style=none] (11) at (-2, 0) {};
+		\node [style=none] (12) at (-2, 1.25) {};
+		\node [style=none] (13) at (-3, 1.25) {};
+		\node [style=none] (14) at (-3, 1.75) {$X$};
+		\node [style=none] (15) at (-2, 1.75) {$Y$};
+		\node [style=none] (16) at (2, 1.75) {$X$};
+		\node [style=none] (17) at (5, 1.75) {$Y$};
+		\node [style=none] (18) at (3.5, -2.5) {$A$};
+		\node [style=none] (19) at (-2.5, -2.5) {$A$};
+        \node [style=none] (20) at (-2.5, 0) {};
+		\node [style=none] (21) at (2, 0) {};
+		\node [style=none] (22) at (3, 0) {};
+		\node [style=none] (23) at (5, 0) {};
+		\node [style=none] (24) at (4, 0) {};
+		\node [style=bn] (25) at (3, 1) {};
+		\node [style=bn] (26) at (4, 1) {};
+
+		\draw (7.center) to (0);
+		\draw (23.center) to (6.center);
+		\draw (5.center) to (21.center);
+		\draw (9.center) to (20);
+		\draw (10.center) to (13.center);
+		\draw (11.center) to (12.center);
+		\draw (22.center) to (25);
+		\draw (24.center) to (26);
+		\draw [in=165, out=-90] (1.center) to (0);
+		\draw [in=270, out=15] (0) to (2.center);
+
+		\node [style=morphism] (3) at (2.5, 0) {$\;\, p \;\,$};
+		\node [style=morphism] (4) at (4.5, 0) {$\;\, p \;\,$};
+		\node [style=morphism] (27) at (-2.5, 0) {$\;\, p \;\,$};
+\end{tikzpicture}
 
 (...)
 
 ### Deterministic morphisms
+
+A state $p:I\to X$ in a Markov category is called **deterministic** if and only if the following equation holds.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (2) at (-3, -0.5) {};
+		\node [style=none] (5) at (-3, -1.5) {};
+		\node [style=bn] (7) at (-3, -0.5) {};
+		\node [style=none] (8) at (-4, 0.5) {};
+		\node [style=none] (9) at (-2, 0.5) {};
+		\node [style=none] (10) at (-2, 0.5) {};
+		\node [style=none] (11) at (-4, 1) {};
+		\node [style=none] (12) at (-2, 1) {};
+		\node [style=none] (14) at (-4, 1.5) {$X$};
+		\node [style=none] (15) at (-2, 1.5) {$X$};
+		\node [style=none] (16) at (-0.125, -0.25) {$=$};
+		\node [style=none] (20) at (2, -1.5) {};
+		\node [style=none] (21) at (4, 0.5) {};
+		\node [style=none] (22) at (4, -1.5) {};
+		\node [style=none] (23) at (2, 1) {};
+		\node [style=none] (24) at (4, 1) {};
+		\node [style=none] (25) at (2, 1.5) {$X$};
+		\node [style=none] (26) at (4, 1.5) {$X$};
+
+		\draw (5) to (2.center);
+		\draw [in=270, out=165] (7) to (8.center);
+		\draw [in=270, out=15] (7) to (9.center);
+		\draw (11.center) to (8.center);
+		\draw (12.center) to (10.center);
+		\draw (23.center) to (20.center);
+		\draw (24.center) to (22.center);
+
+		\node [style=morphism] (28) at (-3, -1.5) {$p$};
+		\node [style=morphism] (18) at (2, -1.5) {$p$};
+		\node [style=morphism] (27) at (4, -1.5) {$p$};
+\end{tikzpicture}
 
 A morphism $f:X\to Y$ in a Markov category is called **deterministic** if it commutes with the copy map,
 $$
@@ -760,7 +1309,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 		\node [style=none] (13) at (4, 1.75) {};
 		\node [style=none] (14) at (-4, 1.75) {};
 		\node [style=none] (15) at (-2, 1.75) {};
-		\node [style=none] (16) at (0, 0) {$=$};		
+		\node [style=none] (16) at (-0.25, 0) {$=$};		
 		\node [style=none] (18) at (2, 2.25) {$Y$};
 		\node [style=none] (19) at (4, 2.25) {$Y$};
 		\node [style=none] (20) at (-4, 2.25) {$Y$};
@@ -791,22 +1340,362 @@ A _deterministic_ morphism is instead one that does _not_ exhibit this behavior,
 
 (...)
 
-## Further structures and properties
+### Almost sure equality 
+
+Let $f,g:X\to Y$ be morphisms in a Markov category, and let $p$ be a state on $X$. We say that $f$ and $g$ are **$p$-almost surely equal** if and only if the following equation holds. 
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-3, -2) {};
+		\node [style=bn] (1) at (-3, -1) {};
+		\node [style=none] (2) at (3, -2) {};
+		\node [style=bn] (3) at (3, -1) {};
+		\node [style=none] (4) at (-4, 0) {};
+		\node [style=none] (5) at (-2, 0) {};
+		\node [style=none] (6) at (2, 0) {};
+		\node [style=none] (7) at (4, 0) {};
+		\node [style=none] (8) at (-4, 1.5) {};
+		\node [style=none] (9) at (-2, 1.5) {};
+		\node [style=none] (10) at (2, 1.5) {};
+		\node [style=none] (11) at (4, 1.5) {};
+		\node [style=none] (12) at (-4, 2) {$X$};
+		\node [style=none] (13) at (-2, 2) {$Y$};
+		\node [style=none] (14) at (2, 2) {$X$};
+		\node [style=none] (15) at (4, 2) {$Y$};
+
+        \node [style=none] (20) at (0.125, -0.25) {$=$};
+
+		\draw (8.center) to (4.center);
+		\draw (9.center) to (5.center);
+		\draw (10.center) to (6.center);
+		\draw (11.center) to (7.center);
+		\draw (0.center) to (1);
+		\draw (2.center) to (3);
+		\draw [in=165, out=-90] (4.center) to (1);
+		\draw [in=15, out=-90] (5.center) to (1);
+		\draw [in=165, out=-90] (6.center) to (3);
+		\draw [in=15, out=-90] (7.center) to (3);
+
+		\node [style=morphism] (16) at (-2, 0.5) {$f$};
+		\node [style=morphism] (17) at (4, 0.5) {$g$};
+		\node [style=morphism] (18) at (-3, -2) {$p$};
+		\node [style=morphism] (19) at (3, -2) {$p$};
+\end{tikzpicture}
 
 (...)
 
+
+In the same vein, given a morphism $f:X\to Y$ and a state $p$ on $X$ we say that $f$ is **$p$-almost surely deterministic** if and only if the determinism equation for $f$ holds $p$-almost surely. In string diagrams:
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=bn] (0) at (-4, -1.75) {};
+		\node [style=bn] (1) at (-2.5, 1.25) {};
+		\node [style=bn] (2) at (4, -1.75) {};
+		\node [style=bn] (3) at (5.5, 0) {};
+		\node [style=none] (4) at (-4, -2.75) {};
+		\node [style=none] (5) at (4, -2.75) {};
+		\node [style=none] (6) at (-5.5, -0.25) {};
+		\node [style=none] (7) at (-2.5, -0.25) {};
+		\node [style=none] (8) at (2.5, -0.25) {};
+		\node [style=none] (9) at (5.5, -0.25) {};
+		\node [style=none] (10) at (-5.5, 2.25) {};
+		\node [style=none] (11) at (2.5, 2.25) {};
+		\node [style=none] (12) at (-5.5, 2.75) {$X$};
+		\node [style=none] (13) at (2.5, 2.75) {$X$};
+		\node [style=none] (14) at (-1.5, 2.25) {};
+		\node [style=none] (15) at (-3.5, 2.25) {};
+		\node [style=none] (16) at (-3.5, 2.75) {$Y$};
+		\node [style=none] (17) at (-1.5, 2.75) {$Y$};
+		\node [style=none] (18) at (4.5, 1) {};
+		\node [style=none] (19) at (6.5, 1) {};
+		\node [style=none] (20) at (4.5, 2.25) {};
+		\node [style=none] (21) at (6.5, 2.25) {};
+		\node [style=none] (22) at (4.5, 2.75) {$Y$};
+		\node [style=none] (23) at (6.5, 2.75) {$Y$};
+		\node [style=none] (24) at (0.125, 0) {$=$};
+
+		\draw (0) to (4.center);
+		\draw (2) to (5.center);
+		\draw [in=165, out=-90] (6.center) to (0);
+		\draw [in=15, out=-90] (7.center) to (0);
+		\draw [in=165, out=-90] (8.center) to (2);
+		\draw [in=270, out=15] (2) to (9.center);
+		\draw (10.center) to (6.center);
+		\draw (11.center) to (8.center);
+		\draw (1) to (7.center);
+		\draw [in=165, out=-90] (15.center) to (1);
+		\draw [in=270, out=15] (1) to (14.center);
+		\draw [in=165, out=-90] (18.center) to (3);
+		\draw (3) to (9.center);
+		\draw [in=-90, out=15] (3) to (19.center);
+		\draw (20.center) to (18.center);
+		\draw (21.center) to (19.center);
+
+		\node [style=morphism] (25) at (-4, -2.75) {$p$};
+		\node [style=morphism] (26) at (4, -2.75) {$p$};
+		\node [style=morphism] (27) at (-2.5, 0.25) {$f$};
+		\node [style=morphism] (28) at (4.5, 1.25) {$f$};
+		\node [style=morphism] (29) at (6.5, 1.25) {$f$};
+
+\end{tikzpicture}
+
+(...)
+
+
 ### Conditionals
 
-### Kolmogorov products
+Let $p$ be a joint state on $X\otimes Y$. A **conditional distribution** on $Y$ **given** $X$ is a morphism $p|_X:X\to Y$ such that the following equation holds:
 
-### Positivity
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-3.5, -1) {};
+		\node [style=none] (1) at (-3.5, 1) {};
+		\node [style=none] (2) at (-2, 1) {};
+		\node [style=none] (3) at (-2, -1) {};
+		\node [style=none] (4) at (-3.5, 1.5) {$X$};
+		\node [style=none] (5) at (-2, 1.5) {$Y$};
+		\node [style=none] (7) at (0.125, 0) {$=$};
+		\node [style=none] (8) at (3, -2) {};
+		\node [style=none] (11) at (4.5, -2) {};
+		\node [style=none] (12) at (2, 2.5) {$X$};
+		\node [style=none] (13) at (4, 2.5) {$Y$};
+		\node [style=bn] (15) at (3, -0.5) {};
+		\node [style=bn] (16) at (4.5, -1) {};
+		\node [style=none] (17) at (2, 0.5) {};
+		\node [style=none] (18) at (4, 0.5) {};
+		\node [style=none] (19) at (4, 2) {};
+		\node [style=none] (20) at (2, 2) {};
 
-(to be expanded)
+		\draw (1.center) to (0.center);
+		\draw (2.center) to (3.center);
+		\draw (16) to (11.center);
+		\draw (15) to (8.center);
+		\draw [in=15, out=-90] (18.center) to (15);
+		\draw [in=165, out=-90] (17.center) to (15);
+		\draw (20.center) to (17.center);
+		\draw (19.center) to (18.center);
+
+		\node [style=morphism] (6) at (-2.75, -1) {$\quad p \quad$};
+		\node [style=morphism] (14) at (3.75, -2) {$\quad p \quad$};
+		\node [style=morphism] (21) at (4, 1) {$p|_X$};
+\end{tikzpicture}
+
+(...)
+
+Let $p$ be a state on $X$ and let $f:X\to Y$ be a morphisms. A **Bayesian inverse** of $f$ with respect to $p$ is a morphism $f^\dagger:Y\to X$ such that the following equation holds, where $q=f\circ p$.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=bn] (0) at (-3, -1) {};
+		\node [style=bn] (1) at (3, -1) {};
+		\node [style=none] (2) at (-3, -2) {};
+		\node [style=none] (3) at (3, -2) {};
+		\node [style=none] (4) at (-4, 0) {};
+		\node [style=none] (5) at (-2, 0) {};
+		\node [style=none] (6) at (2, 0) {};
+		\node [style=none] (7) at (4, 0) {};
+		\node [style=none] (8) at (-4, 1.5) {};
+		\node [style=none] (9) at (-2, 1.5) {};
+		\node [style=none] (10) at (2, 1.5) {};
+		\node [style=none] (11) at (4, 1.5) {};
+		\node [style=none] (16) at (-4, 2) {$X$};
+		\node [style=none] (17) at (-2, 2) {$Y$};
+		\node [style=none] (18) at (2, 2) {$Y$};
+		\node [style=none] (19) at (4, 2) {$Y$};
+		\node [style=none] (20) at (0, -0.25) {$=$};
+
+		\draw [in=165, out=-90] (4.center) to (0);
+		\draw [in=15, out=-90] (5.center) to (0);
+		\draw (0) to (2.center);
+		\draw [in=165, out=-90] (6.center) to (1);
+		\draw [in=15, out=-90] (7.center) to (1);
+		\draw (1) to (3.center);
+		\draw (8.center) to (4.center);
+		\draw (9.center) to (5.center);
+		\draw (10.center) to (6.center);
+		\draw (11.center) to (7.center);
+
+		\node [style=morphism] (12) at (-4, 0.25) {$f^\dagger_p$};
+		\node [style=morphism] (13) at (4, 0.25) {$f$};
+		\node [style=morphism] (14) at (-3, -2) {$q$};
+		\node [style=morphism] (15) at (3, -2) {$p$};
+\end{tikzpicture}
+
+(...)
+
+The general definition of a conditional is as follows. 
+Let $h:A\to X\otimes Y$ be a joint morphism. A **conditional** of $h$ **given** $X$ is a morphism $h|_X:X\otimes A\to Y$ such that the following equation holds.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-3.5, 0) {};
+		\node [style=none] (1) at (-2, 0) {};
+		\node [style=none] (2) at (-3.5, 1.5) {};
+		\node [style=none] (3) at (-2, 1.5) {};
+		\node [style=none] (4) at (-2.75, 0) {};
+		\node [style=none] (5) at (-2.75, 0) {};
+		\node [style=none] (6) at (-2.75, -1.5) {};
+		\node [style=none] (7) at (-2.75, -2) {$A$};
+		\node [style=none] (8) at (-3.5, 2) {$X$};
+		\node [style=none] (9) at (-2, 2) {$Y$};
+		\node [style=none] (10) at (0.125, 0) {$=$};
+		\node [style=none] (11) at (2.5, -0.5) {};
+		\node [style=none] (12) at (4, -0.5) {};
+		\node [style=none] (17) at (3.25, -0.75) {};
+		\node [style=none] (18) at (4.25, -3.25) {$A$};
+		\node [style=none] (19) at (1.5, 3.25) {$X$};
+		\node [style=none] (20) at (4.25, 3.25) {$Y$};
+		\node [style=bn] (21) at (2.5, 0.5) {};
+		\node [style=bn] (22) at (4, 0.5) {};
+		\node [style=none] (23) at (1.5, 1.5) {};
+		\node [style=none] (24) at (3.5, 1.5) {};
+		\node [style=bn] (25) at (4.25, -1.75) {};
+		\node [style=none] (26) at (5.25, -0.75) {};
+		\node [style=none] (27) at (4.25, -2.75) {};
+		\node [style=none] (28) at (5, 1.5) {};
+		\node [style=none] (29) at (4.25, 1.5) {};
+		\node [style=none] (30) at (4.25, 2.75) {};
+		\node [style=none] (31) at (1.5, 2.75) {};
+
+		\draw (0.center) to (2.center);
+		\draw (3.center) to (1.center);
+		\draw (5.center) to (6.center);
+		\draw (21) to (11.center);
+		\draw (12.center) to (22);
+		\draw [in=165, out=-90] (23.center) to (21);
+		\draw [in=15, out=-90] (24.center) to (21);
+		\draw [in=15, out=-90] (26.center) to (25);
+		\draw [in=165, out=-90] (17.center) to (25);
+		\draw (25) to (27.center);
+		\draw [in=90, out=-90] (28.center) to (26.center);
+		\draw (31.center) to (23.center);
+		\draw (30.center) to (29.center);
+
+		\node [style=morphism] (32) at (-2.75, 0) {$\quad h \quad$};
+		\node [style=morphism] (33) at (3.25, -0.5) {$\quad h \quad$};
+		\node [style=morphism] (34) at (4.25, 1.75) {$\;\, h|_X \;\,$};
+\end{tikzpicture}
+
+(...)
+
+
+
+## Further structures and properties
+
+(...)
 
 
 ### Representable Markov categories
 
 For now, see [[probability monad]].
+
+(...)
+
+### Kolmogorov products
+
+(...)
+
+### Positivity
+
+A Markov category is called **positive** if and only if whenever two morphisms $f:X\to Y$ and $g:Y\to Z$ are such that $g\circ f:X\to Z$ is deterministic, then the following holds,
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-3, -2) {};
+		\node [style=bn] (1) at (-3, 0) {};
+		\node [style=bn] (2) at (3.25, -1) {};
+		\node [style=none] (3) at (3.25, -2) {};
+		\node [style=none] (4) at (3.25, -2) {};
+		\node [style=none] (5) at (-4, 1) {};
+		\node [style=none] (6) at (-2, 1) {};
+		\node [style=none] (7) at (2.25, 0) {};
+		\node [style=none] (8) at (4.25, 0) {};
+		\node [style=none] (9) at (3.25, -2.5) {$X$};
+		\node [style=none] (10) at (-3, -2.5) {$X$};
+		\node [style=none] (11) at (-4, 2.5) {};
+		\node [style=none] (12) at (-2, 2.5) {};
+		\node [style=none] (13) at (2.25, 2.5) {};
+		\node [style=none] (14) at (4.25, 2.5) {};
+		\node [style=none] (15) at (0, 0) {$=$};
+		\node [style=none] (16) at (-4, 3) {$Y$};
+		\node [style=none] (17) at (-2, 3) {$Z$};
+		\node [style=none] (18) at (2.25, 3) {$Y$};
+		\node [style=none] (19) at (4.25, 3) {$Z$};
+		
+		\draw (1) to (0.center);
+		\draw (4.center) to (2);
+		\draw [in=165, out=-90] (5.center) to (1);
+		\draw [in=270, out=15] (1) to (6.center);
+		\draw [in=165, out=-90] (7.center) to (2);
+		\draw [in=270, out=15] (2) to (8.center);
+		\draw (11.center) to (5.center);
+		\draw (12.center) to (6.center);
+		\draw (13.center) to (7.center);
+		\draw (14.center) to (8.center);
+
+        \node [style=morphism] (20) at (-3, -1) {$f$};
+		\node [style=morphism] (21) at (-2, 1.25) {$g$};
+		\node [style=morphism] (22) at (2.25, 1) {$f$};
+		\node [style=morphism] (23) at (4.25, 0.25) {$f$};
+		\node [style=morphism] (24) at (4.25, 1.5) {$g$};
+\end{tikzpicture}
+
+i.e. the resulting joint morphism on the left makes $Y$ and $Z$ conditionally independent given $X$.
+
+Equivalently, a Markov category is positive if and only if  for every joint morphism $h:A\to X\otimes Y$ such that one of its marginals is deterministic, $h$ exhibits conditional independents of its outputs given its input.
+
+(...)
+
+
 
 
 ## History
@@ -816,8 +1705,6 @@ For now, see [[probability monad]].
 
 ## Detailed list
  {#DetailedList}
-
-(...to be expanded...)
 
 <table>
  <tr>
@@ -862,7 +1749,7 @@ For now, see [[probability monad]].
  </tr>
 <tr>
   <th markdown="1">**QBStoch**</th>
-  <td markdown="1">probability monad on [[quasi-Borel spaces]] (here, Tychonoff)</td>
+  <td markdown="1">probability monad on [[quasi-Borel spaces]]</td>
   <td markdown="1"> No ([Sabok et al'20](#name_gen))</td>
   <td markdown="1"> No ([Sabok et al'20](#name_gen))</td>
   <td markdown="1"> ? </td>
@@ -870,12 +1757,14 @@ For now, see [[probability monad]].
  </tr>
 </table>
 
+(...to be expanded...)
+
 
 ## See also
 
 * [[probability theory]], [[categorical probability]]
 
-* [[Markov kernel]], [[stochastic map]]
+* [[Markov kernel]], [[stochastic map]], [[Stoch]]
 
 * [[probability monad]]
 
