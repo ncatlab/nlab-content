@@ -115,11 +115,14 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 [[!include electromagnetism in terms of differential forms -- references]]
 
 
-### Phase space and Poisson brackets:
+### Phase space and Poisson brackets
+ {#ReferencesPhaseSpaceAndPoissonBrackets}
 
 * {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366), [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)&rbrack;
 
 * [Corichi 1998, §III](#Corichi98)
+
+For more see the references at *[Yang-Mills theory -- References -- Phase space and canonical quantization](Yang-Mills+theory#ReferencesPhaseSpaceAndCanonicalQuantization)*.
 
 
 ### Quantum electromagnetism
