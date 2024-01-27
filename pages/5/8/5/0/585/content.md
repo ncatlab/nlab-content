@@ -203,6 +203,11 @@ where $\delta: [0, 1] \to [0, 2]$ is a co-composition. The pentagonator is simil
 
 To be continued...
 
+## Comparison to classical notions of $n$-category in low degree
+
+A Trimble $n$-category has composition and unit which are associative and unital up to $n-1$-equivalence, but the notion of a morphism of Trimble $n$-categories is strict; for example, a morphism of bicategories regarded as Trimble 2-categories is precisely a strict pseudofunctor (one whose lax composition constraint and lax unit constraint are identity 2-cells).
+
+In comparison with classical concrete definitions of higher category, a bicategory is precisely a Trimble 2-category, but a Trimble 3-category is a tricategory satisfying a strict interchange law for composition. Not every tricategory is equivalent to one with a strict interchange law for composition; in fact, the fundamental coherence theorem for tricategories is equivalent to the statement that every tricategory is equivalent to a [[Gray-category|Gray category]], which is a tricategory strict in every respect *except* for the interchange law.
 
 ## Iterative operadic enrichment
 
