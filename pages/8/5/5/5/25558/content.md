@@ -132,6 +132,8 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 * [[Jean-Louis Loday]], _Cyclic Homology_, Springer Heidelberg 1998$^2$.
 
+* Walker H. Stern, _Structured topological field theories via crossed simplicial groups_, arXiv:1603.02614 (2016). ([abstract](https://arxiv.org/abs/1603.02614))
+
 * [[Jun Yoshida]], _A general method to construct cube-like categories and applications to homotopy theory_, arXiv:1502.07539. ([abstract](https://arxiv.org/abs/1502.07539))
 
 * [[Jun Yoshida]], _Colimits and limits of crossed groups_, arXiv:1802.06644 (2018). ([abstract](https://arxiv.org/abs/1802.06644))
