@@ -29,9 +29,9 @@
 
 > For [[higher gauge fields]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) --- e.g. the common [[electromagnetic field]] (the "A-field") but also the [[B-field|B-]], [[RR-field|RR-]], and [[supergravity|C-fields]] considered in [[string theory|string]]/[[M-theory]] --- [[flux]]&[[charge]][[flux quantization|-quantization]] laws specify [[non-perturbative quantum field theory|non-perturbative completions]] of these [[field (physics)|fields]] by encoding their [[soliton|solitonic]] behaviour and hence by specifying the quantized [[charges]] carried by the individual [[branes]] that source these fluxes (higher-dimensional [[monopoles]] or [[solitons]]).
 >
-> This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding from &lbrack;[FSS23-Char](#FSS23)&rbrack;  of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the non-linear [[Bianchi identities]] appearing in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity|10d]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity|11d]]. 
+> This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding &lbrack;[FSS23-Char](#FSS23)&rbrack;  of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the non-linear [[Bianchi identities]] appearing in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity|10d]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity|11d]]. 
 >
-> While flux quantization applies already to [[classical field theory|classical]] gauge fields and might seem to be better called *flux discretization*, for disambiguation, the choice involved in flux quantization induces the actual [[nLab:strict deformation quantization]] of [[observables]] on fluxes and hence may be understood as part of actual [[quantization]] in the sense of *[[quantum field theory]]*, [[non-perturbative quantum field theory|non-perturbatively]].
+> While flux quantization applies already to [[classical field theory|classical]] gauge fields and might seem to be better called *flux discretization*, for disambiguation, the choice involved in flux quantization induces the actual [[nLab:strict deformation quantization]] of [[observables]] on fluxes &lbrack;[SS23-Obs](#SS23-Obs)&rbrack; and hence may be understood as part of actual [[quantization]] in the sense of *[[quantum field theory]]*, [[non-perturbative quantum field theory|non-perturbatively]].
 >
 > With higher flux quantization thus being a key aspect of the general formulation of [[non-perturbative quantum field theory]] --- which as a whole remains a major open problem of [[mathematical physics|mathematical]] [[theoretical physics]] --- it may be understood as one step in the historical development towards this goal:
 >
@@ -221,7 +221,7 @@ In the following we discuss all this in more detail.
         "right": 0, 
         "left": 0
     },
-    "caption": "From Faraday’s diary of experimental investigation, vol VI, entry from 11th Dec. 1851, as reproduced in [Martin 2009, p. 311](#Martin09); the colored arc is our addition, for ease of comparison with the next graphics"
+    "caption": "From Faraday’s diary of experimental investigation, vol VI, entry from 11th Dec. 1851, as reproduced in [Martin 2009, p. 311](#Martin09) -- the colored arc is our addition, for ease of comparison with the next graphics."
 \end{imagefromfile}
 
 In modern [[differential geometry|differential-geometric]] formulation, the [[flux density|density of these flux lines]] through any given [[surface]]-element is encoded in a [[differential 2-form]] $F_2$:
@@ -269,7 +269,7 @@ Imagining, as Dirac did, that Faraday's rod magnet could be made *infinitely* lo
     }
 \end{imagefromfile}
 
-At the point of the idealized monopole itself, the flux density $B$ per unit volume would diverge -- a "singularity" much in the sense of [[black holes]], which therefore we do not regard to be part of spacetime(time): The spacetime domain on which to discuss the fluxes sourced by a magnetic monopole is not [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ itself, but its  [[complement]] around the [[worldline]] $\mathbb{R}^{0,1}$ of the would-be monopole:
+At the point of the idealized monopole itself, the flux density $B$ per unit volume would diverge -- a "singularity" much in the sense of [[black holes]], which therefore we do not regard to be part of space(-time): The spacetime domain on which to discuss the fluxes sourced by a magnetic monopole is (more on this [below](#TheDistinctionBetweenSingularAndSolitonicBranes)) not [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ itself, but its  [[complement]] around the [[worldline]] $\mathbb{R}^{0,1}$ of the would-be monopole:
 
 $$
   \mathbb{R}^{3,1} 
@@ -299,7 +299,7 @@ $$
 
 As such, magnetic monopoles are the *[[singular brane|singular]] 0-[[branes]]* of electromagnetism --- in theory: Whether magnetic monopoles exist in nature remains open; they have not been seen in [[experiment]], but there are decent theoretical arguments that they should exist in [[grand unified theories]].
 
-On the other hand, the "[[solitonic branes]] of electromagnetism" are experimentally well-established (and have famously been regarded as actual 1-[[branes]] ([[strings]]) approximated by a [[Nambu-Goto action]]: [Nielsen & Olesen 1973](vortex+string#NielsenOlesen73); [Polyakov 2008, p. 1](vortex+string#Polyakov08); [Beekman & Zaanen 2011](vortex+string#BeekmanZaanen11)): These are the [[Abrikosov vortices]] formed in [[type II superconductors]] with in a transverse magnetic field:
+On the other hand, the "[[solitonic branes]] of electromagnetism" are experimentally well-established (and have famously been regarded as actual 1-[[branes]] ([[strings]]) approximated by a [[Nambu-Goto action]] &lbrack;[Nielsen & Olesen 1973](vortex+string#NielsenOlesen73); [Polyakov 2008, p. 1](vortex+string#Polyakov08); [Beekman & Zaanen 2011](vortex+string#BeekmanZaanen11)&rbrack;): These are the [[Abrikosov vortices]] formed in [[type II superconductors]] with in a transverse magnetic field:
 
 \begin{imagefromfile}
     "file_name": "SuperconductorVortexStructure-230304.jpg",
@@ -325,7 +325,21 @@ In summary:
     "width": 750,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+And the spacetime domains on which to exhibit fluxes of singular EM-branes (monopoles) and of  solitonic EM-branes (vortices) are as shown on the left of the following graphics, whose right hand side already show the [[classifying maps]] of their quantized charges, further discussed [below](#FluxQuantizationLaws):
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-ChargeOfMonopolesAndVortices.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 0
@@ -487,7 +501,7 @@ This general distinction between [[singular branes]] and [[solitonic branes]] is
 ### Higher fluxes and their brane sources
  {#HigherFluxAndItsBranes}
 
-On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
+On the backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and of the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
 
 \[
   \label{TheHigherFluxDensities}
@@ -574,7 +588,7 @@ This transmutation, under [[Kaluza-Klein compactification]], of parts of the gra
 \linebreak
 
 
-### Equations of motion of flux
+### Equations of motion of higher flux
  {#EquationsOfMotionOfFlux}
 
 As we now turn to the [[equations of motion]] for [[flux densities]] (the analogs of [[Maxwell's equations]] for [[electromagnetic field|electromagnetic]] flux), the key move towards identifying possible [[flux quantization laws]] ([below](#FluxQuantizationLaws)) is to arrange these equations, equivalently, as:
@@ -603,7 +617,7 @@ It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetr
 This move of isolating "pre-metric flux equations" supplemented by a "constitutive" duality constraint has a curious status in the  literature. On the one hand, it is elementary and immediate as an equivalent re-formulation of the usual form of (higher) Maxwell-type equations of motion,
 and as such has been highlighted a century ago  &lbrack;[Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)&rbrack; and again more recently [Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a) (see the surveys [Hehl, Itin & Obukhov 2016](pre-metric+electromagnetism#HehlItinObukhov16) and [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). 
 
-While the broader community does not seem to have taken much note of "premetric electromagnetism", we note that just the same perspective is evidently what string theorists call "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
+While the broader community does not seem to have taken much note of "premetric electromagnetism", we notice that just the same perspective is evidently what string theorists call "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
 
 
 
@@ -666,8 +680,6 @@ This controls notably the existence of genuinely [[self-dual higher gauge theori
 
 \begin{remark}
 Not all higher gauge theories are of the higher Maxwell-form (Def. \ref{HigherMaxwellEquations}): For instance [higher Chern-Simons type theories](higher+gauge+field#OfChernSimonsType) are different.
-
-As a consequence, given a higher gauge theory of higher Maxwell-type, its [[double dimensional reduction]] is no longer of this type, since the [[KK-monopole]]-flux appears without a Hodge duality-partner, see below (..).
 \end{remark}
 
 
@@ -706,10 +718,11 @@ Here the [[differential 3-form]] $J_3$ embodies the density of an [[electric cur
 
 It is clear that, mathematically at least, Ex. \ref{MotionOfElectromagneticField}, makes sense more generally for flux densities of any degree. In particular:
 
-\begin{example}\label{MotionOfPureRRFields}
-**(Motion of untwisted [[RR-field]] fluxes)**
 
-The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] in the case of vanishing [[B-field]]-fluxes are often taken to be as follows:
+\begin{example}\label{MotionOfPureRRFields}
+**(Motion of unbounded [[RR-field]] fluxes)**
+
+The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] in the case of vanishing [[B-field]]-fluxes are often taken to be as follows (e.g. [Mkrtchyan & Valach 2023](#MkrtchyanValach23)):
 
 \[\label{PureUnboundedRREquations}\]
 \begin{imagefromfile}
@@ -724,38 +737,46 @@ The [[equations of motion]] of the [[RR-field]] fluxes in [[D=10 supergravity]] 
     }
 \end{imagefromfile}
 
-and those with non-vanishing [[B-field]] as follows:
-
-\[\label{TwistedUnboundedRREquations}\]
-(...)
-
-(e.g. [Mkrtchyan & Valach 2023](#MkrtchyanValach23))
-
 > (While we may think of $\bullet$ as ranging over all [[natural numbers]] -- which is suggestive in view of [[D-brane charge quantization in topological K-theory|Hypothesis K]] discussed below -- of course on the given spacetime manifold of dimension $D=10$ all differential forms of degree $\gt 10$ vanish identically.)
 
-Beware, while these equations are readily written down in themselves and are now often stated in this form, it is at least subtle to see them in entirety as actually arising from ordinary [[D=10 supergravity]] (as arising from [[KK-compactification]] of [[D=11 supergravity]]), since in that context: 
+and, more generally, those with non-vanishing [[B-field]] as follows:
+
+\[\label{TwistedUnboundedRREquations}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-UnboundedBRRFluxMotion.jpg",
+    "width": 780,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+Beware, while these equations are now often stated in this form, and while this is the form that motivates the traditional [[D-brane charge quantization in topological K-theory|Hypothesis K]], it is at least subtle to see them in entirety as actually arising from ordinary [[D=10 supergravity]] (namely from [[KK-compactification]] of [[D=11 supergravity]]), since in that context: 
 
 1. The fluxes $F_0$ and $F_{10}$ are not actually present (they arise only in [[massive type IIA supergravity]], which has its own subtleties).
 
-1. Another flux $H_7$ *is* present and its [[Bianchi identity]] ($\mathrm{d} H_7 \,=\, -F_4 \wedge F_4 + F_2 \wedge F_6$) does not fit the pattern.
+1. The flux $H_7$ has a non-linear [[Bianchi identity]] ($\mathrm{d} H_7 \,=\, -F_4 \wedge F_4 + F_2 \wedge F_6$) which does not fit the suggestive pattern.
 
 For more on this see Ex. \ref{MotionOfCoupledBRRFields} below.
-
 \end{example}
 
-Notice that in type IIB, (eq:PureUnboundedRREquations) describes a flux density ($F_5$) which is Hode dual (not just to any other flux in the tuple but) to itself, $F_5 \,=\, \star\, F_5$. Generally we have:
+Notice that in type IIB, (eq:PureUnboundedRREquations) describes a flux density ($F_5$) which is Hodge dual (not just to any other flux in the tuple but) to itself, $F_5 \,=\, \star\, F_5$. Generally we have:
 
 \begin{example}\label{MotionOfSelfDualHigherGaugeFluxes}
 **(Motion of [[self-dual higher gauge field]] fluxes)**
 
 Since Def. \ref{HigherMaxwellEquations} regards *every* higher gauge theory as being "self-dual" in a sense, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
 
+\[\label{SelfDualHigherFluxEquationsOfMotion}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfSelfDualFlux.jpg",
     "width": 510,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 0
@@ -763,7 +784,7 @@ Since Def. \ref{HigherMaxwellEquations} regards *every* higher gauge theory as b
 \end{imagefromfile}
 
 Due to the properties of the square of the Hodge operator (eq:HodgeSquareOnLorentzianSpacetime),
-this has non-trivial solutions iff the degree of the flux is odd $deg = 2k+1$ and hence iff spacetime dimension is $D=4k+2$, $k \in \mathbb{N}$.
+this has non-trivial solutions iff the degree of the flux is odd, $deg = 2k+1$, and hence iff spacetime dimension is $D = 4k + 2$, $k \in \mathbb{N}$.
 \end{example}
 
 What is much more clear-cut than the example of fluxes in [[D=10 supergravity]] (Ex. \ref{MotionOfPureRRFields}) is the following example of fluxes in [[D=11 supergravity]], where at least on flat spacetimes there is no ambiguity in the literature:
@@ -774,13 +795,13 @@ What is much more clear-cut than the example of fluxes in [[D=10 supergravity]] 
 
 The equations of motion of the [[supergravity C-field|C-field]] in [[D=11 supergravity]] (originally the "3-index A-field" due to [Cremmer, Julia & Scherk 1978](D=11+supergravity#CremmerJuliaScherk78), see also [D'Auria & Fré 1982, p. 131](D=11+supergravity#DAuriaFré82); [Castellani, D'Auria & Fré 1991, §III.8](D=11+supergravity#CastellaniDAuriaFré91); [Miemiec & Schnakenburg 2006, p. 32](D=11+supergravity#MiemiecSchnakenburg06)) are traditionally as shown on the left here, with their equivalent "duality-symmetric" reformulation shown on the right (see the references [there](duality-symmetric+higher+gauge+theory#PremetricCFieldReferences)):
 
-\[label{CFieldEquationsOfMotion}\]
+\[\label{CFieldEquationsOfMotion}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-MotionOfCField.jpg",
     "width": 580,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 0
@@ -791,28 +812,28 @@ The equations of motion of the [[supergravity C-field|C-field]] in [[D=11 superg
 \end{example}
 
 \begin{example}\label{MotionOfCoupledBRRFields}
-**(Motion of coupled B/RR-field fluxes)**
+**(Motion of type IIA B&RR-field fluxes)**
 
 Under [[double dimensional reduction]] of the C-field flux from Ex. \ref{MotionOfSupergravityCField} along a [[circle]]-[[bundle]] as in (eq:KKComponentsOfCFieldFlux), the equations of motion (eq:CFieldEquationsOfMotion) of the C-field from are equivalently expressed in terms of its [[B-field|B]]&[[RR-field]]-components as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles); see also [Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03)&rbrack;:
 
-\[label{BRRFieldEquationsOfMotion}\]
+\[\label{BRRFieldEquationsOfMotion}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-DoubleDimReductionOfCField-240127.jpg",
     "width": 810,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
-These are the equations of motion of the flux densities of [[type IIA supergravity]] in their duality-symmetric formulation &[Cremmer, Julia, Lu & Pope 1998, §3](#CremmerJuliaLuPope98)&rbrack;. 
+These are the equations of motion of the flux densities of [[type IIA supergravity]] in their duality-symmetric formulation &lbrack;[Cremmer, Julia, Lu & Pope 1998, §3](#CremmerJuliaLuPope98)&rbrack;. 
 
 Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, either for how they appear or for how they do *not* appear:
 
-1. The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is part of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry). The expression for $\mathrm{d} H_8$ arises as part of the gravitational field equations &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack; that $\differential \, F_8 \,=\, H_3 \wedge F_6$.
+1. The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is part of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry). The expression for $\mathrm{d} H_8$ arises as part of the gravitational field equations &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack;..
 
 1. The presence in [[type IIA supergravity]] of the non-linear Bianchi identity for $H_7$, albeit readily verified and "well-known" at least since [CJCP98 (3.4)](#CremmerJuliaLuPope98), is not as widely appreciated as the pattern (eq:TwistedUnboundedRREquations) from Ex. \ref{MotionOfPureRRFields} -- which it *breaks*.
 
@@ -821,7 +842,6 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 \end{example} 
 
 
-(...)
 
 
 \linebreak
@@ -829,6 +849,7 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 
 ### Solution space of higher Maxwell equations
 
+(...)
 
 \begin{proposition}
 **([SS23-FQ](#SS23-FQ))**
@@ -949,6 +970,7 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 
 * {#SS23-FQ} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
+* {#SS23-Obs} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Quantum Observables of Quantized Fluxes]]* &lbrack;[arXiv:2312.13037](https://arxiv.org/abs/2312.13037)&rbrack;
 
 * {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
 
