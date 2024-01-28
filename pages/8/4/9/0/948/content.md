@@ -203,8 +203,8 @@ Concepts that usually arise in constructive mathematics, often because they are 
 *  [[locale]] (classically similar to but not equivalent to a [[topological space]])
 *  [[connected irreflexive comparison]] (classically complementary to a [[partial order]])
 *  [[subsingleton]] (classically equivalent to the empty set or a [[singleton]])
-*  [[Heyting field]], [[Johnstone residue field]], [[discrete field]] (classically all equivalent to a [[field]])
-*  [[weak local ring]] (classically equivalent to a [[local ring]])
+*  [[Heyting field]], [[weak Heyting field]], [[discrete field]] (classically all equivalent to a [[field]])
+*  [[weak local ring]], [[local ring]], [[discrete local ring]] (classically equivalent to a [[local ring]])
 *  [[Cantor real numbers]], [[HoTT book real numbers]], [[Dedekind real numbers]] (classically all equivalent as the [[real numbers]])
 
 Some of these are also useful internally or even classically.
