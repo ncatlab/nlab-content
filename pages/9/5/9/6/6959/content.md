@@ -13,6 +13,8 @@ On [[constructive analysis]]:
 
 * [[Douglas Bridges]], *Constructive mathematics: a foundation for computable analysis*, Theoretical Computer Science **219** 1–2 (1999) 95-109 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00285-0">doi:10.1016/S0304-3975(98)00285-0</a>&rbrack;
 
+On [[weak countable choice]]:
 
+* [[Fred Richman]], [[Douglas Bridges]], Peter Schuster, *A weak countable choice principle*. Proceedings of the American Mathematical Society 128(9):2749-2752, March 2000. &lbrack;[doi:10.1090/S0002-9939-00-05327-2](http://dx.doi.org/10.1090/S0002-9939-00-05327-2)&rbrack;
 
 category:people
