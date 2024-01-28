@@ -12,4 +12,8 @@ On [[constructive mathematics]]:
 * [[Fred Richman]], *Constructive Mathematics without Choice*,
 in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum*, Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
 
+On the [[real numbers]] in [[constructive mathematics]]: 
+
+* [[Fred Richman]], *Real numbers and other completions*, Real numbers and other completions. Mathematical Logic Quarterly, Volume 54, Issue 1, February 2008, Pages 98-108. ([doi:https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024))
+
 category: people
