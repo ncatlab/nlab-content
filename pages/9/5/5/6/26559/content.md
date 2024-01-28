@@ -1196,11 +1196,11 @@ and then that this perspective generalizes:
 
 1. so that flux quantization in $\mathcal{A}$-cohomology of the flux densities $\vec F$ is the choice of an $\mathcal{A}$-valued map $\chi$ and a deformation/[[concordance]] $\widehat{A} \,\colon\, \vec F \Rightarrow ch(\chi)$.
 
-This is equivalently the data of a [[gauge potential]] $\widehat{A}$ for the given higher gauge theory, hence qualifies as its actual field content. The "space" of the $big(\vec F, \chi, \widehat{A}\big)$ (really: a [[smooth infinity-groupoid]]) is the [[nonabelian differential cohomology]]-[[moduli stack]] of the given Cauchy surface and serves as the non-perturbative [[BRST-complex|BRST]] [[phase space]] of the theory.
+This is equivalently the data of a [[gauge potential]] $\widehat{A}$ for the given higher gauge theory, hence qualifies as its actual field content. The "space" of the $\big(\vec F, \chi, \widehat{A}\big)$ (really: a [[smooth infinity-groupoid]]) is the [[nonabelian differential cohomology]]-[[moduli stack]] of the given Cauchy surface and serves as the non-perturbative [[BRST-complex|BRST]] [[phase space]] of the theory.
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-CanonNonabDiffCohomology.jpg",
-    "width": 800,
+    "file_name": "GeomPhys-CanonNonabDiffCohomAsPhaseSpace2.jpg",
+    "width": 900,
     "unit": "px",
     "margin": {
         "top": -20,
