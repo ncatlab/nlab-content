@@ -1847,7 +1847,7 @@ Every Markov category with all conditionals is causal ([Fritz'20](#fritzmarkov),
 
 In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
 
-The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in his unpublished notes [Lawvere'62](#Lawvere62).
+The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in unpublished notes ([Lawvere'62](#Lawvere62)).
 The same category was studied independently by Chentsov ([Chentsov'65](#Chentsov65)), who wrote in Russian. It is likely that Lawvere and Chentsov remained unaware of each other's work for several decades. 
 
 Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of the [[Giry monad|monad which brings her name]].
@@ -1858,7 +1858,7 @@ The first definition of a _garbage-share_ (a.k.a. _copy-discard_) category seems
 
 The first mention of Markov and CD-categories used for the purpose of probability seems to have first appeared in the work of Golubtsov ([Golubtsov'99](#golubtsov99)), who named the structure "category of information converters" or "information transformers", likely unaware of Gadducci's work, and first writing in Russian. In subsequent work ([Golubtsov'02](#golubtsov02), [Golubtsov-Mosaliuk'02](#golubtsov_mosaliuk02), [Golubtsov'04](#golubtsov04)) these structures were connected to [[Kleisli categories]], introducing what now we call a [representable Markov category](#representable_markov_categories).
 
-In parallel, and seemingly unaware of Golubtsov's work, [[Bob Coecke|Coecke]] and Spekkens developed a string-diagrammatic framework for Bayesian inference, for the purpose of generalizing these concept from classical to quantum [Coecke-Spekkens'11](#coecke_spekkens11). The resulting framework is somewhat different from the one of Markov categories, but very similar in aims and philosophy.
+In parallel, and seemingly unaware of Golubtsov's work, [[Bob Coecke|Coecke]] and Spekkens developed a string-diagrammatic framework for Bayesian inference, for the purpose of generalizing these concept from classical to quantum ([Coecke-Spekkens'11](#coecke_spekkens11)). The resulting framework is somewhat different from the one of Markov categories, but very similar in aims and philosophy.
 
 Once again seemingly unaware of Golubtsov's work, [[Brendan Fong|Fong]] studied categorical structures to model Bayesian networks in his master's thesis ([Fong'12](#fong12)), in particular by means of equipping the objects of a category with comonoid structures.
 
