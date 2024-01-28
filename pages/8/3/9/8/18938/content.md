@@ -74,7 +74,7 @@ Usenet legend [[Alexander Abian]], before branching into speculative physics, ad
 * [[Alexander Abian]]. 1981. Calculus must consist of the study of real numbers in their decimal representation and not of the study of an abstract complete ordered field or nonstandard real numbers. International Journal of Mathematical Education in Science and Technology 12(4). [Doi:10.1080/0020739810120417](https://doi.org/10.1080/0020739810120417).
   {#Abian1981}
 
-* [[Fred Richman]]. 1999. Is 0.999... = 1?. [Web](http://math.fau.edu/Richman/html/999.htm).
+* [[Fred Richman]], *Is 0.999… = 1?*. Mathematics Magazine, Volume 72, Issue 5, 1999, Pages 396-400, &lbrack;[doi:10.1080/0025570X.1999.11996777](https://doi.org/10.1080/0025570X.1999.11996777)&rbrack;
   {#Richman1999}
 
 
