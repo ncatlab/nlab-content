@@ -1703,7 +1703,144 @@ Equivalently, a Markov category is positive if and only if  for every joint morp
 
 (...)
 
+\begin{proposition}
+Every Markov category with all conditionals is positive ([Fritz'20](#fritzmarkov), Lemma 11.24). 
+\end{proposition}
 
+The converse is false, as witnessed by [[Stoch]].
+
+
+### Causality
+
+A Markov category is called **causal** if whenever the following equation holds,
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-1.75, 2.5) {};
+		\node [style=none] (1) at (0, 0) {$=$};
+		\node [style=none] (2) at (-2.5, -3) {$A$};
+		\node [style=none] (4) at (-3.25, 2.5) {};
+		\node [style=none] (5) at (-1.75, 3) {$X$};
+		\node [style=none] (6) at (-2.5, -2.5) {};
+		\node [style=none] (7) at (-3.25, 1.75) {};
+		\node [style=none] (8) at (-1.75, 1.75) {};
+		\node [style=bn] (9) at (-2.5, 0.75) {};
+		\node [style=none] (12) at (-3.25, 3) {$Y$};
+		\node [style=none] (13) at (2.5, -2.5) {};
+		\node [style=none] (14) at (2.5, -3) {$A$};
+		\node [style=none] (15) at (3.25, 2.5) {};
+		\node [style=none] (16) at (3.25, 1.75) {};
+		\node [style=none] (17) at (1.75, 1.75) {};
+		\node [style=bn] (18) at (2.5, 0.75) {};
+		\node [style=none] (19) at (1.75, 2.5) {};
+		\node [style=none] (22) at (1.75, 3) {$Y$};
+		\node [style=none] (24) at (3.25, 3) {$X$};
+
+		\draw [style=morphism] (6.center) to (9);
+		\draw [style=morphism, in=-90, out=15] (9) to (8.center);
+		\draw [style=morphism, in=-90, out=165] (9) to (7.center);
+		\draw [style=morphism] (8.center) to (0.center);
+		\draw [style=morphism] (7.center) to (4.center);
+		\draw [style=morphism] (16.center) to (15.center);
+		\draw [style=morphism, in=-90, out=165] (18) to (17.center);
+		\draw [style=morphism, in=-90, out=15] (18) to (16.center);
+		\draw [style=morphism] (17.center) to (19.center);
+		\draw [style=morphism] (13.center) to (18);
+
+		\node [style=morphism] (3) at (-2.5, -1.5) {$f$};
+		\node [style=morphism] (10) at (-2.5, -0.25) {$g$};
+		\node [style=morphism] (11) at (-3.25, 1.75) {$h_1$};
+		\node [style=morphism] (20) at (2.5, -0.25) {$g$};
+		\node [style=morphism] (21) at (1.75, 1.75) {$h_2$};
+		\node [style=morphism] (23) at (2.5, -1.5) {$f$};
+\end{tikzpicture}
+
+then the following, stronger condition also holds.
+
+\begin{tikzpicture}[%
+thick,%
+scale=0.8,%
+every node/.style={scale=1.25},%
+none/.style={fill=none,draw=none},%
+morphism/.style={fill=white, draw=black, shape=rectangle},%
+bn/.style={fill=black, draw=black, shape=circle, inner sep=1.8pt},%
+over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
+]
+	
+		\node [style=none] (0) at (-3, 3) {};
+		\node [style=none] (1) at (0, 0) {$=$};
+		\node [style=none] (2) at (-3.75, -3.5) {$A$};
+		\node [style=none] (4) at (-4.5, 3) {};
+		\node [style=none] (5) at (-3, 3.5) {$X$};
+		\node [style=none] (7) at (-4.5, 2) {};
+		\node [style=none] (8) at (-3, 2) {};
+		\node [style=bn] (9) at (-3.75, 1) {};
+		\node [style=none] (12) at (-4.5, 3.5) {$Y$};
+		\node [style=none] (13) at (-3.75, -3) {};
+		\node [style=bn] (15) at (-3.75, -1) {};
+		\node [style=none] (16) at (-2, 0.5) {};
+		\node [style=none] (18) at (-2, 3) {};
+		\node [style=none] (19) at (-2, 3.5) {$W$};
+		\node [style=none] (20) at (3.5, 3) {};
+		\node [style=none] (21) at (2.75, -3.5) {$A$};
+		\node [style=none] (23) at (2, 3) {};
+		\node [style=none] (24) at (3.5, 3.5) {$X$};
+		\node [style=none] (25) at (2, 2) {};
+		\node [style=none] (26) at (3.5, 2) {};
+		\node [style=bn] (27) at (2.75, 1) {};
+		\node [style=none] (30) at (2, 3.5) {$Y$};
+		\node [style=none] (31) at (2.75, -3) {};
+		\node [style=bn] (32) at (2.75, -1) {};
+		\node [style=none] (33) at (4.5, 0.5) {};
+		\node [style=none] (34) at (4.5, 3) {};
+		\node [style=none] (35) at (4.5, 3.5) {$W$};
+		\node [style=none] (10) at (-3.75, 0) {};
+		\node [style=none] (28) at (2.75, 0) {};
+	
+		\draw [style=morphism, in=-90, out=15] (9) to (8.center);
+		\draw [style=morphism, in=-90, out=165] (9) to (7.center);
+		\draw [style=morphism] (8.center) to (0.center);
+		\draw [style=morphism] (7.center) to (4.center);
+		\draw [style=morphism] (13.center) to (15);
+		\draw [style=morphism, in=-90, out=0] (15) to (16.center);
+		\draw (16.center) to (18.center);
+		\draw (15) to (10);
+		\draw (10) to (9);
+		\draw [style=morphism, in=-90, out=15] (27) to (26.center);
+		\draw [style=morphism, in=-90, out=165] (27) to (25.center);
+		\draw [style=morphism] (26.center) to (20.center);
+		\draw [style=morphism] (25.center) to (23.center);
+		\draw [style=morphism] (31.center) to (32);
+		\draw [style=morphism, in=-90, out=0] (32) to (33.center);
+		\draw (33.center) to (34.center);
+		\draw (32) to (28);
+		\draw (28) to (27);
+	
+		\node [style=morphism] (3) at (-3.75, -2) {$f$};
+		\node [style=morphism] (40) at (-3.75, 0) {$g$};
+		\node [style=morphism] (11) at (-4.5, 2) {$h_1$};
+		\node [style=morphism] (22) at (2.75, -2) {$f$};
+		\node [style=morphism] (48) at (2.75, 0) {$g$};
+		\node [style=morphism] (29) at (2, 2) {$h_2$};
+\end{tikzpicture}
+
+\begin{theorem}
+Every Markov category with all conditionals is causal ([Fritz'20](#fritzmarkov), Proposition 11.34), and every causal Markov category is positive ([Fritz et al'23](#dilations), Theorem 2.24). Both converses are false.
+\end{theorem}
+
+(...)
+
+### The _ProbStoch_ construction
+
+(...)
 
 
 ## History
@@ -1711,7 +1848,7 @@ Equivalently, a Markov category is positive if and only if  for every joint morp
 In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
 
 The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in his unpublished notes [Lawvere'62](#Lawvere62).
-The same category was studied independently by [[Chentsov]] ([Chentsov'65](#Chentsov65)), who wrote in Russian. It is likely that Lawvere and Chentsov remained unaware of each other's work for several decades. 
+The same category was studied independently by Chentsov ([Chentsov'65](#Chentsov65)), who wrote in Russian. It is likely that Lawvere and Chentsov remained unaware of each other's work for several decades. 
 
 Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of the [[Giry monad|monad which brings her name]].
 Shortly after, computer scientists such as [[Eugenio Moggi|Moggi]] and [[Gordon Plotkin|Plotkin]] started considering monads in the context of effectful programming ([Moggi'89](#moggi89)), with probabilistic computation as a special case ([Jones-Plotkin'89](#jones_plotkin89)). (More details in [[monad (in computer science)]].)
@@ -1721,7 +1858,7 @@ The first definition of a _garbage-share_ (a.k.a. _copy-discard_) category seems
 
 The first mention of Markov and CD-categories used for the purpose of probability seems to have first appeared in the work of Golubtsov ([Golubtsov'99](#golubtsov99)), who named the structure "category of information converters" or "information transformers", likely unaware of Gadducci's work, and first writing in Russian. In subsequent work ([Golubtsov'02](#golubtsov02), [Golubtsov-Mosaliuk'02](#golubtsov_mosaliuk02), [Golubtsov'04](#golubtsov04)) these structures were connected to [[Kleisli categories]], introducing what now we call a [representable Markov category](#representable_markov_categories).
 
-In parallel, and seemingly unaware of Golubtsov's work, [[Bob Coecke|Coecke]] and [[Robert W. Spekkens|Spekkens]] developed a string-diagrammatic framework for Bayesian inference, for the purpose of generalizing these concept from classical to quantum [Coecke-Spekkens'11](#coecke_spekkens11). The resulting framework is somewhat different from the one of Markov categories, but very similar in aims and philosophy.
+In parallel, and seemingly unaware of Golubtsov's work, [[Bob Coecke|Coecke]] and Spekkens developed a string-diagrammatic framework for Bayesian inference, for the purpose of generalizing these concept from classical to quantum [Coecke-Spekkens'11](#coecke_spekkens11). The resulting framework is somewhat different from the one of Markov categories, but very similar in aims and philosophy.
 
 Once again seemingly unaware of Golubtsov's work, [[Brendan Fong|Fong]] studied categorical structures to model Bayesian networks in his master's thesis ([Fong'12](#fong12)), in particular by means of equipping the objects of a category with comonoid structures.
 
@@ -1744,26 +1881,26 @@ Finally, the current form of Markov and copy-discard categories, which is also t
  <tr>
   <th markdown="1">[[Stoch]]</th>
   <td markdown="1">[[Giry monad]] on [[Meas]]</td>
-  <td markdown="1">No ([Fritz'19](#fritzmarkov), Example 11.3)</td>
-  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Example 11.25)</td>
+  <td markdown="1">No ([Fritz'20](#fritzmarkov), Example 11.3)</td>
+  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Example 11.25)</td>
   <td markdown="1">Not in general</td>
-  <td markdown="1">[Fritz'19](#fritzmarkov)</td>
+  <td markdown="1">[Fritz'20](#fritzmarkov)</td>
  </tr>
 <tr>
   <th markdown="1">[[Stoch#borelstoch|BorelStoch]]</th>
   <td markdown="1">[[Giry monad]] on [[Pol]]</td>
   <td markdown="1">Yes ([Kallenberg '17](#Kallenberg17), [B-M'19](#BM19))</td>
-  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Section 11)</td>
+  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Section 11)</td>
   <td markdown="1">Countable ([Fritz-Rischel'19](#fritzrischel))</td>
-  <td markdown="1">[Fritz'19](#fritzmarkov)</td>
+  <td markdown="1">[Fritz'20](#fritzmarkov)</td>
  </tr>
 <tr>
   <th markdown="1">[[Stoch#finstoch|FinStoch]]</th>
   <td markdown="1">Not representable (closely related to the [[distribution monad]])</td>
-  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Example 11.6)</td>
-  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Section 11)</td>
+  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Example 11.6)</td>
+  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Section 11)</td>
   <td markdown="1">No</td>
-  <td markdown="1">[Fritz'19](#fritzmarkov)</td>
+  <td markdown="1">[Fritz'20](#fritzmarkov)</td>
  </tr>
 <tr>
   <th markdown="1">**TychStoch**</th>
@@ -1803,6 +1940,8 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 * [[supply in a monoidal category]]
 
 
+
+
 ## References
 
 ### Main sources
@@ -1821,15 +1960,15 @@ The graphical model (separation and d-separation) aspects of conditional indepen
 
 Representable Markov categories have been studied in 
 
-* [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], [[Eigil Fjeldgren Rischel]], _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
+* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
-as well as 
+as well as in the following work, together with an in-depth treatment of positivity and causality:
 
-* {#dilations} [[Tobias Fritz]], [[Tomáš Gonda]], Nicholas Gauguin Houghton-Larsen, [[Paolo Perrone]] and [[Dario Stein]], _Dilations and information flow axioms in categorical probability_. Mathematical Structures in Computer Science, 2023. ([arXiv:2211.02507](https://arxiv.org/abs/2211.02507)).
+* {#dilations} [[Tobias Fritz]], Tomáš Gonda, Nicholas Gauguin Houghton-Larsen, [[Paolo Perrone]] and Dario Stein, _Dilations and information flow axioms in categorical probability_. Mathematical Structures in Computer Science, 2023. ([arXiv:2211.02507](https://arxiv.org/abs/2211.02507)).
 
 Kolmogorov products have been studied in 
 
-* {#fritzrischel} [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+* {#fritzrischel} [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
 
 ### Introductory material
@@ -1837,10 +1976,6 @@ Kolmogorov products have been studied in
 Some of the introductory content on this page is taken from the following reference:
 
 * {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
-
-An introduction to comonoid objects and the idea of copying and discarding can be found in Section 6.2 of the book
-
-* {#perrone_book} [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024.
 
 Video lectures suitable for beginners:
 
@@ -1850,13 +1985,20 @@ Video lectures suitable for beginners:
 
 * (in Spanish) [[Paolo Perrone]], _Categorical Probability and Information Theory_, Universidad Carlos III Madrid, Spain ([video here](http://www.q-math.es/Videos/PaoloPerrone2023.mp4))
 
+* Eigil Fjeldgren Rischel, _Introduction to Markov categories_, Categorical Probability and Statistics Workshop, 2020. ([YouTube](https://www.youtube.com/watch?v=534f-9Qx2Lg))
+
 Slides from talks:
+
+* [[Tobias Fritz]], _Categorical Probability and the de Finetti theorem_, New York City Category Seminar, 2021. ([pdf](http://tobiasfritz.science/2021/markov_cats_nyc.pdf))
 
 * [[Tobias Fritz]], _Probability and Statistics as a Theory of Information Flow_, 2020 ([pdf](tobiasfritz.science/2020/markov_cats.pdf))
 
 * [[Tobias Fritz]], _A synthetic introduction to probability and statistics_, 2019 ([pdf](http://tobiasfritz.science/2019/markov_cats.pdf))
 
-* [[Tobias Fritz]], _Categorical Probability and the de Finetti theorem_, New York City Category Seminar, 2021. ([pdf](http://tobiasfritz.science/2021/markov_cats_nyc.pdf))
+
+An introduction to comonoid objects and the idea of copying and discarding can be found in Section 6.2 of the book
+
+* {#perrone_book} [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024.
 
 
 ### Historical references (see [History](#history)):
@@ -1864,13 +2006,13 @@ Slides from talks:
 * {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
 
-* {#Chentsov65} [[N. N. Chentsov]], _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
+* {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
 
 * {#giry82} Michèle Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis, Lecture notes in Mathematics 915, Springer, 1982.
 
 * {#moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, Proceedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39155))
 
-* {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
+* {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Proceedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
 
 * {#gadducci96} [[Fabio Gadducci]], _On the Algebraic Approach to Concurrent Term Rewriting_, PhD thesis, University of Pisa, 1996. ([available here](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.57.5651))
 
@@ -1890,45 +2032,60 @@ Slides from talks:
 
 * {#golubtsov04} Peter V. Golubtsov, _Information transformers: category-theoretical structure, informativeness, decision-making problems_, Hadronic Journal Supplements 19(3), 2004.
 
-* {#coecke_spekkens11} [[Bob Coecke]] and [[Robert W. Spekkens]], _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
+* {#coecke_spekkens11} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
 
 * {#fong12} [[Brendan Fong]], _Causal theories: A categorical prespective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1609.05382))
 
 
 ### Further references
 
-* [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
+* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
 * [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, Applied Categorical Structures 31, 21, 2023. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
 
-* [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, Proceedings of LICS, 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+* Sean Moss, [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, Proceedings of LICS, 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
-* [[Sean Moss]] and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
+* Sean Moss and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
 
 * Elena Di Lavore and Mario Román, _Evidential Decision Theory via Partial Markov Categories_, Proceedings of LICS, 2023. ([arXiv](https://arxiv.org/abs/2301.12989))
 
+* [[Bart Jacobs]], _Multinomial and Hypergeometric Distributions in Markov Categories_, Proceedings of MFPS 2021. ([arXiv](https://arxiv.org/abs/2112.14044))
+
 * [[Tobias Fritz]], [[Fabio Gadducci]], Davide Trotta, Andrea Corradini, _From gs-monoidal to oplax-cartesian categories: constructions and functorial completeness_, Applied Categorical Structures 31, 42, 2023. ([arXiv](https://arxiv.org/abs/2205.06892))
 
 * [[Tobias Fritz]], [[Fabio Gadducci]], [[Paolo Perrone]] and Davide Trotta, _Weakly Markov categories and weakly affine monads_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2303.14049))
 
-* {#supports_idemp} [[Tobias Fritz]], [[Tomáš Gonda]], [[Antonio Lorenzin]], [[Paolo Perrone]] and [[Dario Stein]], _Absolute continuity, supports and idempotent splitting in categorical probability_, 2023. ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+* Dario Stein and Richard Samuelson, _A Category for unifying Gaussian Probability and Nondeterminism_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2204.14024))
+
+* Dario Stein and [[Sam Staton]], _Probabilistic Programming with Exact Conditions_, JACM, 2023. ([arXiv](https://arxiv.org/abs/2312.17141))
+
+* {#supports_idemp} [[Tobias Fritz]], Tomáš Gonda, Antonio Lorenzin, [[Paolo Perrone]] and Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, 2023. ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+
+* Dario Stein and Richard Samuelson, _Towards a Compositional Framework for Convex Analysis (with Applications to Probability Theory)_, 2023. ([arXiv](https://arxiv.org/abs/2312.02291))
 
 * Noé Ensarguet and [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions_, and transitions to equilibrium, 2023. ([arXiv:2310.04267](https://arxiv.org/abs/2310.04267))
 
 * [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
-The research on Markov categories is still in progress, more work will appear soon.
+The research on Markov categories is still largely in progress, so this list will keep growing.
 
 
-On Markov kernels:
-
-* {#Kallenberg17} Olaf Kallenberg, _Random Measures, Theory and Applications_, Springer, 2017.
-
-* {#BM19} Vladimir Bogachev and Il'ya Malofeev, _Kantorovich problems and conditional measures depending on a parameter_. ([arXiv:1904.03642](https://arxiv.org/abs/1904.03642))
 
 
 [[!redirects Markov categories]]
 [[!redirects markov category]]
 [[!redirects markov categories]]
+[[!redirects copy-discard category]]
+[[!redirects copy-discard categories]]
+[[!redirects copy discard category]]
+[[!redirects copy discard categories]]
+[[!redirects cd category]]
+[[!redirects cd categories]]
+[[!redirects cd-category]]
+[[!redirects cd-categories]]
+[[!redirects CD category]]
+[[!redirects CD categories]]
+[[!redirects CD-category]]
+[[!redirects CD-categories]]
