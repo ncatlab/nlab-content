@@ -323,7 +323,8 @@ Other accounts:
 
 *  [[Michael Makkai]] (1996). [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
 
-*  [[Fred Richman]] (2000). [Constructive mathematics without choice](http://math.fau.edu/richman/html/nsf.htm).
+* [[Fred Richman]], *Constructive Mathematics without Choice*,
+in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum*, Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
 
 *  [[Paul Taylor]] (1996). Intuitionistic Sets and Ordinals. Available (with several other references) at [Induction, recursion, replacement and the ordinals](http://www.PaulTaylor.EU/ordinals/index.php).
 
