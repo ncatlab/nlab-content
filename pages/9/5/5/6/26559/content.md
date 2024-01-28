@@ -133,10 +133,10 @@ The following table shows in outline the logic of algebra-topological flux quant
 
 As this table indicates, the [[algebraic topology|algebro-topological]] nature of flux/charge quantization is [[higher Lie theory|higher Lie theoretic]] (explained in [§3](#FluxQuantizationLaws)), by matching two [[L-infinity algebras|$L_\infty$-algebras]] associated with a given [[higher gauge theory]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) ([§2](#FluxDensitiesAndBraneSources)):
 
-**(i)** The higher [[Gauss law]] of a [[higher gauge theory]] [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is equivalent to the condition that the [[flux densities]] jointly constitute a [[flat L-infinity algebra valued differential form|closed $L_\infty$-algebra valued differential form]] with values in a characteristic [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$;
+**(i)** The higher [[Gauss law]] of a [[higher gauge theory]] [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is equivalent to the condition that the [[flux densities]] jointly constitute a [[flat L-infinity algebra valued differential form|closed $L_\infty$-algebra valued differential form]] with values in a characteristic [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ (Prop. \ref{SolutionsAsFlatForms} below):
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-GaussLawAsFlatnessCondition-240123.jpg",
+    "file_name": "GeomPhys-GaussLawAsFlatnessCondition-240128.jpg",
     "width": 740,
     "unit": "px",
     "margin": {
@@ -179,7 +179,7 @@ That these two $L_\infty$-algebras coincide is the condition on the choice of th
 
 Finally, given such a choice of flux quantization law $\mathcal{A}$, the [[gauge potentials]] and hence the full [[moduli stack]] of [[higher gauge fields]] appears by forming the above matching not just as an identification in [[non-abelian de Rham cohomology]] but as a [[homotopy fiber product]] of the corresponding [[moduli stacks]]: This makes the full flux-quantized [[higher gauge fields]] be [[cocycles]] in [[nonabelian differential cohomology]] with coefficients in $\mathcal{A}$.
 
-\begin{remark}
+\begin{remark}\label{RoleOfLInfinityAlgebras}
 **(the role of [[L-infinity algebra|$L_\infty$-algebras]]: curvature-coefficients instead of gauge potiential-coefficients)**
 \linebreak
 In comparison to more traditional discussions, beware that the (possibly non-abelian) [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ here controls the (possibly non-linear) [[Bianchi identities]]/[[Gauss law]] satisfied by the [[curvature forms]]/[[flux densities]] --- and thus is *not* the (higher) Lie algebra in which the [[gauge potentials]] take values, if any. (Even in the abelian case, where both types of coefficient $L_\infty$-algebras make sense, they differ by a degree-shift.)
@@ -1270,11 +1270,223 @@ We now explain all this in more detail:
 
 
 ### Gauss laws as closure of $L_\infty$-valued forms
+ {#GaussLawsAsClosureOfHomotopyLieValuedForms}
 
-(...)
+We explain how higher [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and their corresponding higher [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently the closure ([[flat L-infinity algebra valued differential form|flatness]]) condition on [[L-infinity algebra valued differential form|differential forms valued in]] a characteristic [[L-infinity algebra|$L_\infty$-algebra]] (Prop. \ref{SolutionsAsFlatForms} below).
+
+The notion of $L_\infty$- or *strong homotopy Lie algebra*  is finally becoming more widely appreciated in physics, where they appear in various guises (see the references [there](L-infinity-algebra#ReferencesInPhysics)).
+Here we are concerned with  $L_\infty$-algebras
+which are (i) [[nilpotent L-infinity algebra|nilpotent]], (ii) [[connective chain complex|connective]] (iii) of [[finite type]], in their *joint* incarnation as higher [[flux density]] [[coefficients]] *and* as [[Whitehead L-infinity algebra|higher Whitehead brackets]] (all to be explained in a moment), which one might refer to as the
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FluxHomotopyLieTriality.jpg",
+    "float": "right",
+    "width": 380,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 10,
+        "right": -10, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+**Flux Homotopy Lie algebra triality**, indicated on the right. Classically familiar as many of its separate aspects are to their respective experts, the full triality may still not be widely appreciated but is key to our discussion here:
+
+$\bullet$ With *[[rational homotopy theory|rational homotopy]]* we are referring here specifically the *[[fundamental theorem of dg-algebraic rational homotopy theory]]*, mainly due to Quillen, Sullivan and Bousfield & Gugenheim, as reviewed in [FSS23-Char, §5](#FSS23), 
+
+$\bullet$ by the *[[D'Auria-Fre formulation of supergravity|FDA method in supregravity]]* we are referring, with some hindsight, to the observations of [van Nieuwenhuizen 1983](D'Auria-Fre+formulation+of+supergravity#Nieuwenhuizen82); [D
+Auria & Fré 1982](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82); [Castellani, D'Auria & Fré](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre), as explained in [FSS13](geometry+of+physics+--+fundamental+super+p-branes#FSS13), [FSS18](geometry+of+physics+--+fundamental+super+p-branes#FSS16b),[HSS19](geometry+of+physics+--+fundamental+super+p-branes#HSS19), reviewed in [FSS19-$\mathbb{Q}$Struc](#FSS19HigherStruc).
+
+$\bullet$ The *[[Chern-Dold character|nonabelian character]]* is the generalization of the [[Chern-Dold character]] map from [[topological K-theory]] and [[Whitehead-generalized cohomology]] to higher [[non-abelian cohomology]], constructed in [FSS23-Char](#FSS23).
+
+In particular, this means that $L_\infty$-algebras as used here are *not* directly to be understood as generalizations of the gauge Lie algebras familiar from Yang-Mills theory, which are coefficients of the gauge potentials, but instead as the coefficients of their flux densities (cf. Rem. \ref{RoleOfLInfinityAlgebras}).
 
 \linebreak
 
+**$L_\infty$-Algebras.** Since we are assuming [[L-infinity algebras|$L_\infty$-algebras]] to be connective and of finite type (meaning that they are degreewise finite-dimensional and concentrated in non-negative degrees) we may *define* them through their Chevalley-Eilenberg (CE) algebras in the following manner, which is not only convenient for dealing with the otherwise intricate sign rules, but also essential to their alternative perspectives in the above triality:
+
+$\;\;$**Chevalley-Eilenberg algebras of Lie algebras.**
+Namely, for $\mathfrak{g}$ a finite-dimensional Lie algebra (our ground field is the real numbers, throughout) with Lie bracket a skew-symmetric linear map $[-,-] \,:\, \mathfrak{g} \otimes \mathfrak{g} \to \mathfrak{g}$, its linear dual vector space $\mathfrak{g}^\ast$ is equipped with the dual bracket $[-,-]^\ast \,:\,\mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast$ which extends uniquely to a degree=1 [[derivation]] on the graded [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g} \,:=\, \underset{n \in \mathbb{N}}{\bigoplus}
+\,\underbrace{\mathfrak{g}^\ast \wedge \cdots \wedge \mathfrak{g}^\ast}_{n\;factors}$:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-LieAlgebraUnderCE.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+One readily checks that this derivation squares to zero iff the bracket satisfies its [[Jacobi identity]](!):
+$$
+  \text{
+    Jacobi identity for
+  }
+  \;
+  [-,-]
+  \;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;
+  \mathrm{d}_{{}_{[-,-]}}
+  \circ 
+  \mathrm{d}_{{}_{[-,-]}}
+  \;=\;
+   0
+  \,.
+$$
+The resulting [[dgc-algebra|differential graded-commutative (dgc) algebra]] $(\wedge^\bullet \mathfrak{g}^\ast, \mathrm{d})$  is known as the *[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg complex]]* $\mathrm{CE}(\mathfrak{g})$ whose cochain cohomology computes the [[Lie algebra cohomology]] of $\mathfrak{g}$ (with trivial coefficients) --- but the key point at the moment is that its construction is a *[[fully faithful functor|fully faithful]]* [[contravariant functor]] [[full subcategory|embedding]] the [[category]] of [[finite-dimensional vector space|finite-dimensional]] [[Lie algebras]] into the [[opposite category|opposite]] of that of [[dgc-algebras]].
+
+
+$\;\;$**$L_\infty$-algebras of finite type.**
+With ordinary Lie algebras viewed as special dgc-algebras this way, it is *immediate* to generalize them to the case where  $\mathfrak{g}$ may be a [[graded vector space]] of degreewise finite dimension ("of [[finite type]]"): Namely, writing
+$$
+  (\mathfrak{g}^\vee)_n
+  \;\defneq\;
+  (\mathfrak{g}_n)^\ast,
+  \hspace{.7cm}
+  \wedge^\bullet
+  \mathfrak{g}^\vee
+  \;\defneq\;
+  \mathrm{Sym}(\mathfrak{g}^\vee[1])
+$$
+we can use *verbatim* the same construction:
+
+A degree=1 derivation on $\wedge^\bullet\mathfrak{g}^\vee$ is determined by its restriction to $\wedge^1 \mathfrak{g}^\vee$, where it is a sum of co-[[arity|$n$-ary]] [[linear maps]], whose [[linear dual map|linear duals]] we may think of as [[arity|$n$-ary]] degree=(-1) brackets on $\mathfrak{g}[1]$:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-LInfinityUnderCE.jpg",
+    "width": 880,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+Here the simple condition that $\mathrm{d}_{{}_{[\cdots]}}$ be a differential implies a tower of conditions on these brackets, which generalize the Jacobi identity on an ordinary 
+Lie algebra, known as the conditions that make $\big( \mathfrak{g}, [-], [-,-], [-,-,-], \cdots \big)$ an [[L-infinity algebra|$L_\infty$-algebra]]:
+$$
+  \array{
+    \text{higher Jacobi identity for}
+    \\
+    [-], 
+    [-,-],
+    [-,-,-],
+    \cdots
+  }
+  \;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;
+  \mathrm{d}_{{}_{[\cdots]}}
+  \circ
+  \mathrm{d}_{{}_{[\cdots]}}
+  \;=\;
+  0
+  \,.
+$$
+
+In other words, we may identify $L_\infty$-algebras of finite type as the [[formal dual]] to [[dgc-algebras]] whose [[underlying]] [[graded-commutative algebra]] is [[symmetric algebra|free]] on a [[graded vector space]].
+
+Some examples:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-ExamplesOfFinTypeLInfinity.jpg",
+    "width": 850,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+$\;\;$**Flat $L_\infty$-algebra valued differential forms** now  have an immediate definition from
+this perspective: They are the [[dg-algebra]] [[homomorphism]] from  their CE-algebras into [[de Rham algebras]] (aka "[[Maurer-Cartan elements]]"):
+
+$$
+  \left.
+  \begin{array}{l}
+    \mathfrak{a}
+    \in
+    L_\infty Alg^{ftp}
+    \\
+    X \in SmthMfd
+  \end{array}
+  \right\}
+  \;\vdash\;
+  \Omega_{dR}(X;\mathfrak{a})
+  \;\equiv\;
+  Hom_{dgAlg}\big(
+    CE(\mathfrak{g})
+    ,\,
+    \Omega^\bullet_{dR}(X)
+  \big)
+  \,.
+$$
+
+Some examples:
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-ExamplesOfFlatLInfinityValuedForms.jpg",
+    "width": 820,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+$\;\;$**Flux densities satisfying Bianchi/Gauss laws are flat $L_\infty$-algebra-valued differential forms.**
+Remarkably, it follows that polynomials $\vec P$ defining [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently structure constants of $L_\infty$-algebras 
+$\mathfrak{a}$, such that the Bianchi/Gauss law is the flatness condition on $\mathfrak{a}$-valued forms:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CharacteristicLInfinityOfGaussLaw.jpg",
+    "width": 930,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+With Prop. \ref{SolutionSpaceViaGaussLaw} this means:
+
+\begin{proposition}\label{SolutionsAsFlatForms}
+Given a higher gauge theory of Maxwell-type (Def. \ref{HigherMaxwellEquations}) with [[Bianchi identities]] given by graded-symmetric [[polynomials]] $\vec P$ (eq:EqHigherMaxwellEquations) its space of [[flux densities]] solving the higher Maxwell equations is 
+identified with the space of closed differential forms with coefficients in the $L_\infty$-algebra $\mathfrak{a}$ on $I$ $(\vec deg-1)$-graded generators with structure constants $\vec P$:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-GaussLawAsFlatnessCondition-240128.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\end{proposition}
+
+With [[on-shell]] flux densities this way understood as cocycles in [[nonabelian de Rham cohomology]], we find their flux quantization laws among the corresponding torsion-ful [[nonabelian cohomology]]-theories:
+
+\linebreak
 
 ### Flux quantization laws as Nonabelian cohomology
 
@@ -1353,6 +1565,7 @@ We now explain all this in more detail:
 
 * {#FSS17SphereCocycles} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]*, J. Geometry and Physics, **114** (2017) 91-108 &lbrack;[arXiv:1606.03206](https://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024)&rbrack;
 
+* {#FSS19HigherStruc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The rational higher structure of M-theory]]_  in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
 
 
 * {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
