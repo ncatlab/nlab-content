@@ -62,7 +62,11 @@ Here are some representations of well-known real numbers in well-known radixes:
 
 ## Foundational issues
 
-In [[constructive mathematics]], the existence of a radix expansion for every real number is equivalent to the (analytic) [[lesser limited principle of omniscience]].
+In [[constructive mathematics]], it is not generally true that every [[real number]] has a radix expansion. However, one does have the following results:
+
+* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a radix expansion in any base for every [[Cauchy real number]] iff the [[lesser limited principle of omniscience]] (LLPO) for the [[natural numbers]] holds; there exists a radix expansion for every [[Dedekind real number]] has iff the [[analytic LLPO]] holds. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Swan). At least in the presence of [[countable choice]], this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+
+* That every Cauchy real number has a choice of radix expansion in any base implies that the [[weak limited principle of omniscience]] (WLPO) for the natural numbers holds; that every Dedekind real number has a choice of radix expansion implies that the [[analytic WLPO]] holds. 
 
 [[Fred Richman]] considered a number system (a noncancellable [[rig]]) of nonnegative decimal sequences in which $0.\overline{9} \lt 1$; the usual rig of nonnegative real numbers is a subrig; see [Richman 1999](#Richman1999).  Although Richman is a prominent constructivist, the development was not (and probably cannot be made) constructive.
 
@@ -77,6 +81,9 @@ Usenet legend [[Alexander Abian]], before branching into speculative physics, ad
 * [[Fred Richman]], *Is 0.999… = 1?*. Mathematics Magazine, Volume 72, Issue 5, 1999, Pages 396-400, &lbrack;[doi:10.1080/0025570X.1999.11996777](https://doi.org/10.1080/0025570X.1999.11996777)&rbrack;
   {#Richman1999}
 
+* {#Mehkeri} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
+
+* {#Swan} Madeleine Birchfield (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
 
 [[!redirects radix notation]]
 [[!redirects positional notation]]
