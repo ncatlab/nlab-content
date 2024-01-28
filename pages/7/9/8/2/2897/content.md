@@ -17,11 +17,11 @@
 
 ## General
 
-The word 'period' has many meanings in [[mathematics]], most of them coming from [[physics]]: the period of an oscillation, periods in celestial mechanics, even the period of a [[periodic function]] comes from the intuition that the periodicity is in the time dimension. Functions on [[torus|tori]] are periodic in two directions, say the [[Weierstrass functions]] on [[elliptic curves]], so it is not a surprise that more involved kinds of periods came from the study of elliptic curves and then more general [[Riemann surfaces]]. 
+The word 'period' has many meanings in [[mathematics]], most of them coming from [[physics]]: the period of an oscillation, periods in celestial mechanics, even the period of a [[periodic function]] comes from the intuition that the periodicity is in the time dimension. Functions on [[tori]] are periodic in two directions, say the [[Weierstrass elliptic functions]] on [[elliptic curves]], so it is not a surprise that more involved kinds of periods came from the study of elliptic curves and then more general [[Riemann surfaces]]. 
 
 ## In differential geometry
 
-The _period_ of a closed [[differential form]] $\omega \in \Omega^n_{cl}(X)$ over an $n$-[[cycle]] $S$ is the [[integral]] $\int_S \omega$. 
+The _period_ of a [[closed differential form|closed]] [[differential form]] $\omega \in \Omega^n_{cl}(X)$ over an $n$-[[cycle]] $S$ is the [[integration of differential forms|integral]] $\int_S \omega$. 
 
 
 ## In number theory and algebraic geometry
@@ -33,6 +33,11 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 
 
 ## References
+
+## In differential geometry
+
+* [[Georges de Rham]], p. 135 of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
+
 
 ### In number theory
  {#ReferencesInNumberTheory}
@@ -53,9 +58,8 @@ See also
 
 * mathoverflow: [ring of periods not a field](http://mathoverflow.net/questions/20497/is-it-known-that-the-ring-of-periods-is-not-a-field)
 
-* J. Carlson, [[P. Griffiths]], _What is a period do-
-main ?_,  AMS Notices __55__:11, 1418-1419
-(2008) [pdf](http://www.ams.org/notices/200811/tx081101418p.pdf)
+* J. Carlson, [[Phillip Griffith]], *What is a period domain?*,  AMS Notices **55** 11 (2008) 1418-1419 &lbrack;[pdf](http://www.ams.org/notices/200811/tx081101418p.pdf), full issue:[pdf](http://www.ams.org/notices/200811/200811FullIssue.pdf)&rbrack;
+
 
 ### In perturbative quantum field theory
  {#ReferencesInPerturbativeQuantumFieldTheory}
@@ -63,7 +67,6 @@ main ?_,  AMS Notices __55__:11, 1418-1419
 Discussion of [[motives in physics]] via periods as appearing in the [[perturbative quantum field theory]], hence in [[correlators]]/[[scattering amplitudes]], and their relation to the [[cosmic Galois group]] originates in
 
 * [[Maxim Kontsevich]], _Operads and motives in deformation quantization_, Lett.Math.Phys. __48__ (1999) 35--72, [math.QA/9904055](http://arxiv.org/abs/math.QA/9904055)
-
 
 More details on this (and a good review of periods in the first place) is in
 
