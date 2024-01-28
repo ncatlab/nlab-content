@@ -120,7 +120,7 @@ Every [[unramifiable polynomial|unramifiable]] [[monic polynomial|monic]] [[poly
 
 A fully choice-free constructive proof of this theorem by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) exists for the [[modulated Cantor real number|modulated Cantor complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]). It is unknown if this weaker FTA is true of the [[Dedekind real number|Dedekind complex numbers]] as well. 
 
-[[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
+[Richmann 2000](#Richman00) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
 ### In RCA_0
 
@@ -154,13 +154,17 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 
 A proof that Cauchy sequences of rational numbers satisfy the fundamental theorem of algebra: 
 
-* {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics, Volume 196 (2000), No. 1, pg. 213–230. ([doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf))
-{#Richman}
+* {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*, Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
+
+see also:
+
+* [[Fred Richman]], *Constructive Mathematics without Choice*,
+in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum*, Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
 
 The Reverse Mathematical treatment is given in
 
-* Kazuyuki Tanaka and Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
-{#TK2005}
+* {#TK2005} Kazuyuki Tanaka and Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
+
 
 A [[constructive mathematics|constructive]] algebraic proof of the fundamental theorem of algebra for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]
 
