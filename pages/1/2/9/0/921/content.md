@@ -45,7 +45,7 @@ There are two basic approaches possible: to define what a __real number__ is as 
 
 ### The terminal Archimedean ordered field
 
-There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal Archimedean ordered field'.  This can be interpreted as follows:
+There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal Archimedean ordered field' (cf. [Richman08](#Richman08)) This can be interpreted as follows:
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[strictly totally ordered]]* field.
@@ -340,6 +340,9 @@ As the [[coalgebra of the real interval]]:
 
 * {#PavlovicPratt} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, Electronic Notes in Theoretical Computer Science **19** (1999) 103-117, doi:[10.1016/S1571-0661(05)80272-5](https://doi.org/10.1016/S1571-0661%2805%2980272-5), [CiteSeerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204)
 
+A definition of the [[real numbers]] as [[generalized the|the]] [[terminal object|terminal]] [[Archimedean ordered field]] and as a [[complete space|complete]] [[Archimedean ordered field]]:
+
+* {#Richman08} [[Fred Richman]], *Real numbers and other completions*, Real numbers and other completions. Mathematical Logic Quarterly, Volume 54, Issue 1, February 2008, Pages 98-108. ([doi:https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024))
 
 A compact category $\mathbb{R}$ making the $\mathbb{R}$-linear operators into $\mathbb{R}$-enriched Kan extensions:
 
