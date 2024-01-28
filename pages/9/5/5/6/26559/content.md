@@ -872,8 +872,8 @@ The equations of motion of the [[supergravity C-field|C-field]] in [[D=11 superg
     }
 \end{imagefromfile}
 
-
 \end{example}
+
 
 \begin{example}\label{MotionOfCoupledBRRFields}
 **(Motion of type IIA B&RR-field fluxes)**
@@ -1165,6 +1165,51 @@ Notice how in these examples we *chose* integral values for the total source bra
 
 ## Flux/Charge quantization laws
  {#FluxQuantizationLaws}
+
+With the solution space (Prop. \ref{SolutionSpaceViaGaussLaw}) of higher Maxwell-type equations of motion (Def. \ref{HigherMaxwellEquations}) in hand, the question of flux quantization is to further constrain the [[flux densities]] such that the total fluxes through closed hypersurfaces (notably through [[n-spheres]]) only take certain discrete values.
+
+The technical issue to be resolved here is that:
+
+1. this is a *global condition* on the flux densities: The local flux densities may take any value (compatible with the equations of motion) and yet the accumulation of all these local contributions over a hypersurface needs to be constrained;
+
+1. the evident idea of constraining the ordinary [[integration of differential forms|integrals]] of the [[flux densities]] (their "[[periods]]") makes sense only for [[closed differential forms]] and hence does not work for non-linear Bianchi identities (such as those of the [[supergravity C-field|C-field]], Ex. \ref{MotionOfSupergravityCField}, and the B&RR-field, Ex. \ref{MotionOfCoupledBRRFields}).
+
+In solution of this problem, one makes the following observations &lbrack;[FSS23-Char](#FSS23), [SS23-FQ](#SS23-FQ)&rbrack;:
+
+1. the [[integration of differential forms|integrals]]/[[periods]] of ordinary [[closed differential form|closed]] differential $n$-forms $F_n$ over $n$-manifolds are in [[natural bijection|natural correspondence]] with 
+
+   1. their [[de Rham cohomology|de Rham]]-[[cohomology class|classes]],  $[F_n] \in H^n_{dR}(-)$, 
+
+   1. their "deformation classes", namely their *[[concordance]] [[equivalence class|classes]]* $H^n_{dR}(-) \,\simeq\, \big(\Omega^n_{dR}(-)_{clsd}\big)_{/cncrdnc}$ 
+
+1. representatives $\char(\chi) \in \Omega_{dR}^n(-)$ of closed differential forms with integral periods can be chosen for each (non-[[torsion subgroup|torsion]]) [[integral cohomology]]-[[cocycle]] $\chi \in Z^n(-;\mathbb{Z})$,
+
+1. so that integral flux quantization of a closed flux density $F_n$ is the choice of an integral cochain $\chi$ and a deformation/concordance $\widehat{A} \,\colon\, F_n \Rightarrow char(\chi)$;
+
+and then that this perspective generalizes:
+
+1. Systems $\vec F$ of differential forms that are not necessarily closed in the ordinary sense but satisfy a higher [[Gauss law]] (eq:GaussLawFromBianchiIdentities) are closed ([[flat L-infinity algebra valued differential form|flat]]) as [[L-infinity algebra valued differential forms|$\mathfrak{a}$-algebra valued differential forms]] for an [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ that characterizes the given [[Gauss law]]: $SolSpace \simeq \Omega_{dR}(-;\mathfrak{a})_{clsd}$,
+
+1.  hence their deformation/[[concordance]]-classes constitute $\mathfrak{a}$-valued [[non-abelian de Rham cohomology]] $H_{dR}(-;\mathfrak{a}) \,\coloneqq\, \big( \Omega_{dR}(-;\mathfrak{a})_{clsd} \big)_{cncrdnc}$,
+
+1. ([[nonabelian cohomology|nonabelian]]) [[generalized cohomology theories]] whose [[cocycles]] $\chi$ have [[Chern-Dold character map|characteristic]] $\mathfrak{a}$-valued differential forms $ch(\chi) \,\in\, \Omega_{dR}(-;\mathfrak{a})_{clsd}$ are given by those [[classifying spaces]] $\mathcal{A}$ (which are [[nilpotent topological space|nilpotent]] and of rational [[finite type]] and) whose [[real number|real]] [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}\mathcal{A}$ coincides with $\mathfrak{a}$,
+
+1. so that flux quantization in $\mathcal{A}$-cohomology of the flux densities $\vec F$ is the choice of an $\mathcal{A}$-valued map $\chi$ and a deformation/[[concordance]] $\widehat{A} \,\colon\, \vec F \Rightarrow ch(\chi)$.
+
+This is equivalently the data of a [[gauge potential]] $\widehat{A}$ for the given higher gauge theory, hence qualifies as its actual field content. The "space" of the $big(\vec F, \chi, \widehat{A}\big)$ (really: a [[smooth infinity-groupoid]]) is the [[nonabelian differential cohomology]]-[[moduli stack]] of the given Cauchy surface and serves as the non-perturbative [[BRST-complex|BRST]] [[phase space]] of the theory.
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CanonNonabDiffCohomology.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
 
 (...)
 
