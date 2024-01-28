@@ -1789,7 +1789,31 @@ Equivalently, a Markov category is positive if and only if  for every joint morp
 
 ### Introductory material
 
-(...)
+For a mathematically complete reference, see the original sources below.
+Besides them, some of the introductory content on this page is taken from the following reference:
+
+* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
+
+An introduction to comonoid objects and the idea of copying and discarding can be found in Section 6.2 of the book
+
+* {#perrone_book} [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024.
+
+Video lectures suitable for beginners:
+
+* [[Paolo Perrone]], _Tutorial on Markov categories_, Applied Category Theory 2023, University of Maryland, USA. ([YouTube](https://www.youtube.com/watch?v=9U5w3EMHio8))
+
+* [[Paolo Perrone]], _Universal properties in probability theory_, Category Theory 2023, Louvain-la-Neuve, Belgium. ([YouTube](https://www.youtube.com/watch?v=gmSlbgmLyVQ))
+
+* (in Spanish) [[Paolo Perrone]], _Categorical Probability and Information Theory_, Universidad Carlos III Madrid, Spain ([video here](http://www.q-math.es/Videos/PaoloPerrone2023.mp4))
+
+Slides from talks:
+
+* [[Tobias Fritz]], _Probability and Statistics as a Theory of Information Flow_, 2020 ([pdf](tobiasfritz.science/2020/markov_cats.pdf))
+
+* [[Tobias Fritz]], _A synthetic introduction to probability and statistics_, 2019 ([pdf](http://tobiasfritz.science/2019/markov_cats.pdf))
+
+* [[Tobias Fritz]], _Categorical Probability and the de Finetti theorem_, New York City Category Seminar, 2021. ([pdf](http://tobiasfritz.science/2021/markov_cats_nyc.pdf))
+
 
 ### Main sources
 
@@ -1813,6 +1837,15 @@ Kolmogorov products have been studied in
 
 * {#fritzrischel} [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
+### Historical references (see [History](#history)):
+
+*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+([[lawvereprobability1962.pdf:file]])
+
+*{#Chentsov65} [[N. N. Chentsov]], _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
+
+
+
 ### Further references
 
 * [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
@@ -1825,23 +1858,16 @@ Kolmogorov products have been studied in
 
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, 2020. ([arXiv](https://arxiv.org/abs/2007.08638))
 
-* [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
-
 * {#supports_idemp} [[Tobias Fritz]], [[Tomáš Gonda]], [[Antonio Lorenzin]], [[Paolo Perrone]] and [[Dario Stein]], _Absolute continuity, supports and idempotent splitting in categorical probability_, 2023. ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
 
 * Noé Ensarguet and [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions_, and transitions to equilibrium, 2023. ([arXiv:2310.04267](https://arxiv.org/abs/2310.04267))
 
-See also the references therein.
 
-The first idea of defining a "category of probabilistic mappings" seems to be due to [[Lawvere]], in
-
-*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]])
 
 (...more to come...)
 
 
-Further references:
+On Markov kernels:
 
 * {#Kallenberg17} Olaf Kallenberg, _Random Measures, Theory and Applications_, Springer, 2017.
 
