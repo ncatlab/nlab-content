@@ -16,7 +16,7 @@ On [[equivariant de Rham cohomology]] and [[supersymmetry]]:
 
 On [[differential geometry]] with emphasis on [[differential forms]] and their [[de Rham cohomology]]:
 
-* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
+* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) &lbrack;[doi:10.1142/11058](https://doi.org/10.1142/11058), draft:[pdf](https://math.mit.edu/classes/18.952/2018SP/files/18.952_book.pdf)&rbrack;
 
 
 ## Related entries
