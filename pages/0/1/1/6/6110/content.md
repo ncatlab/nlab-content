@@ -1,13 +1,17 @@
 
 This entry collects material related to the book
 
-* [[Raoul Bott]], [[Loring Tu]], 
+* [[Raoul Bott]], [[Loring Tu]]:
 
-  _Differential Forms in Algebraic Topology_ 
+  \linebreak
 
-  Graduate Texts in Mathematics 82
+  **Differential Forms in Algebraic Topology**
 
-  Springer 1982
+  \linebreak
+
+  Graduate Texts in Mathematics **82**
+
+  Springer (1982)
 
   [doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)
 
