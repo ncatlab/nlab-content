@@ -253,7 +253,7 @@ Dicussion in [[constructive analysis]]:
 
 * {#BishopBridges85} [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
-*  [[Fred Richman]], [[Douglas Bridges]], Peter Schuster; 1998; _A weak countable choice principle_; available from <http://math.fau.edu/richman/html/docs.htm>.
+* [[Fred Richman]], [[Douglas Bridges]], Peter Schuster, *A weak countable choice principle*. Proceedings of the American Mathematical Society 128(9):2749-2752, March 2000. &lbrack;[doi:10.1090/S0002-9939-00-05327-2](http://dx.doi.org/10.1090/S0002-9939-00-05327-2)&rbrack;
 
 {#ReferencesCauchyCompleteness} The proof that Cauchy sequences (with a modulus of convergence) as such (i.e. not passing to their [[equivalence classes]]) are [[sequentially Cauchy complete]]:
 
