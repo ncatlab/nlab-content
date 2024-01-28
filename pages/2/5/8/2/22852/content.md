@@ -9,6 +9,10 @@ The term "finite type" may refer to:
 
   *[[finite homotopy type]]* or *[[π-finite homotopy type]]*
 
+* In [[rational homotopy theory]] also:
+
+  with [[finite-dimensional vector spaces|finite dimensional]] [[rational cohomology]] in each degree ("rational finite type")
+
 * In [[type theory]]:
 
   [[types]] of the kind of [[finite sets]] (see at *[[family of finite types]]* and *[[inductive family]]*)
