@@ -39,7 +39,7 @@ Every Kock field with [[decidable equality]] is a [[discrete field]].
 * [[ordered local ring]]
 * [[discrete field]]
 * [[Heyting field]]
-* [[Johnstone residue field]]
+* [[weak Heyting field]]
 
 ## References
 
