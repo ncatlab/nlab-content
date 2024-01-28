@@ -244,7 +244,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * {#Porton} [[Victor Porton]], _[Algebraic General Topology: Book 3: Algebra](https://mathematics21.org/the-algebra-of-general-topology/)_
 
-* [[Fred Richman]], Real numbers and other completions ([pdf](http://math.fau.edu/richman/docs/RealNums.pdf))
+* [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98-108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
 
 * Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
 
