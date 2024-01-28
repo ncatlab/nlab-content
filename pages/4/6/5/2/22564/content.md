@@ -17,11 +17,23 @@
 
 Given a [[natural number]] $n$, an __n-ary operation__ on a [[set]] $S$ is a [[function]] 
 
-$$\phi:(\mathrm{Fin}(n) \to S) \to S$$ 
+$$
+  \phi
+  \;\colon\;
+  \big(
+    \mathrm{Fin}(n) \to S
+  \big) 
+  \longrightarrow 
+  S
+$$ 
 
-from the function set $\mathrm{Fin}(n) \to S$ to $S$ itself, where $\mathrm{Fin}(n)$ is the finite set with $n$ elements. The __arity__ of the operation is $n$. In general, if the natural number $n$ is not specified, these are called **finitary operations**. 
+from the [[function set]] $\mathrm{Fin}(n) \to S$ to $S$ itself, where $\mathrm{Fin}(n)$ is the [[finite set]] with $n$ elements. 
 
-Sets with finitary operations are called **finitary magmas** or **finitary groupoids**. 
+The __arity__ of the operation is $n$. 
+
+In general, if the natural number $n$ is not specified, these are called **finitary operations**. 
+
+Sets equipped with finitary operations are also called **finitary [[magmas]]** (or "finitary groupoids" in older terminology which now clashes with another meaning of *[[groupoid]]*, see at *[[historical notes on quasigroups]]*). 
 
 More generally, a finitary operation in a [[multicategory]] is just a [[multimorphism]]. 
 
