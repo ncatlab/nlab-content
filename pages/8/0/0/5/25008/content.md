@@ -16,7 +16,7 @@
 
 A weaker notion of [[integral domain]] which allows for some [[zero divisors]], but for which one may [[quotient ring|quotient out]] the zero divisors to obtain an [[integral domain]]. 
 
-"Approximate integral domain" is a placeholder name for a concept which may or may not have another name in the mathematics literature. The idea however is that approximate integral domains are to integral domains as [[local rings]] are to [[Heyting fields]], and as [[weak local rings]] are to [[Peter Johnstone]]&rsquo;s [[Johnstone residue field|notion of residue field]]. 
+"Approximate integral domain" is a placeholder name for a concept which may or may not have another name in the mathematics literature. The idea however is that approximate integral domains are to integral domains as [[local rings]] are to [[Heyting fields]], and as [[weak local rings]] are to [[weak Heyting fields]]. 
 
 ## Definition
 
