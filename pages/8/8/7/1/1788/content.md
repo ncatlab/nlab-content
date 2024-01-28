@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-GaussLawAsFlatnessCondition-240128.jpg:file]]
+
 [[GeomPhys-CharacteristicLInfinityOfGaussLaw.jpg:file]]
 
 [[GeomPhys-ExamplesOfFlatLInfinityValuedForms.jpg:file]]
