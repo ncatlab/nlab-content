@@ -48,7 +48,7 @@ $$\array{& \mathrm{CRing} & \overset{L}\rightarrow & \mathrm{Prefield} & \\
 
 ## In constructive mathematics
 
-In constructive mathematics, the notion of field bifurcates into multiple notions. The definition given above results in a possibly trivial [[Johnstone residue field|residue field]] in the sense of [Johnstone77](#Johnstone77). However, there are also possibly trivial [[Heyting fields]] and possibly trivial [[discrete fields]]. 
+In constructive mathematics, the notion of field bifurcates into multiple notions. The definition given above results in a possibly trivial [[weak Heyting field]]. However, there are also possibly trivial [[Heyting fields]] and possibly trivial [[discrete fields]]. 
 
 ### Possibly trivial Heyting fields
 
@@ -66,8 +66,6 @@ A possibly trivial field is **discrete** if every element is either zero or inve
 * [[weak local ring]]
 
 ## References
-
-* {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) 238-260 [doi](https://doi.org/10.1016/0021-8693%2877%2990284-8)
 
 The concept of a possibly trivial field appeared in 
 
