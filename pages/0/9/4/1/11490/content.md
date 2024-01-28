@@ -19,6 +19,9 @@ On the [[Boolean algebra]] underlying Spencer Brown's "Laws of form":
 
 * {#Banaschewski77} [[B. Banaschewski]], *On G. Spencer Brown's laws of form*, Notre Dame J. Formal Logic **18** 3 (1977) 507-509 &lbrack;[doi:10.1305/ndjfl/1093888028](https://projecteuclid.org/journals/notre-dame-journal-of-formal-logic/volume-18/issue-3/On-G-Spencer-Browns-laws-of-form/10.1305/ndjfl/1093888028.full)&rbrack;
 
+On [[algebraic closures]] of [[fields]] in the absence of the [[axiom of choice]]:
+
+* {#Banaschewski92} [[Bernhard Banaschewski]], *Algebraic closure without choice*, Mathematical Logic Quarterly, Volume 38, Issue 1, 1992, Pages 383-385, &lbrack;[doi:10.1002/malq.19920380136](https://doi.org/10.1002/malq.19920380136)&rbrack;
 
 ## Related entries
 
