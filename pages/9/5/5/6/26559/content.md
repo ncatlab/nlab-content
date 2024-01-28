@@ -1241,6 +1241,7 @@ The flux densities are equivalently [[L-infinity algebra valued differential for
 
 This flux-quantized phase space hence subsumes the "solitonic" fields with non-trivial charge sectors $\chi$, and as such is a non-perturbative completion of the traditional phase spaces (which correspond to a fixed charge sector only, typically to $\chi = 0$).
 
+Incidentally, it follows (as discussed below) that the choice of flux quantization law $\mathcal{A}$ not only defines the solitonic content of the theory but completely characterizes it:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-TopologicalPhaseSpace.jpg",
