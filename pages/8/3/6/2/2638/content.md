@@ -127,6 +127,8 @@ Here "restricted" refers to Remark \ref{restrict}. See _[[Puiseux series]]_ for 
 * [Doubly Infinite Laurent Series](http://math.rutgers.edu/~sdurst/DILS.html), lectures for formal Laurent series in [[vertex operator algebra]] context 
 * Alexander Zheglov, _Wild division algebras over Laurent series fields_, [math.NT/0503637](http://arxiv.org/abs/math/0503637)
 
+* [[Fred Richman]], *Laurent series over $\mathbb{R}$*. Communications in Algebra, Volume 48, Issue 5, 11 Jan 2020 Pages 1982-1984 &lbrack;[doi:10.1080/00927872.2019.1710166](https://doi.org/10.1080/00927872.2019.1710166)&rbrack;
+
 For discussion of products of distributions, see 
 
 * J.F. Colombeau, _Multiplication of distributions_, Bull. Amer. Math. Soc. (N.S.) Volume 23, Number 2 (1990), 251-268. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183555881)) 
