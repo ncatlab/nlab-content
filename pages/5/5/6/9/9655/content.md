@@ -1,6 +1,7 @@
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=6518)
 
+
 ## Selected writings
 
 On the [[fundamental theorem of algebra]] in [[constructive mathematics]]:
@@ -14,6 +15,6 @@ in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Contin
 
 On the [[real numbers]] in [[constructive mathematics]]: 
 
-* [[Fred Richman]], *Real numbers and other completions*, Real numbers and other completions. Mathematical Logic Quarterly, Volume 54, Issue 1, February 2008, Pages 98-108. ([doi:https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024))
+* [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98-108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
 
 category: people
