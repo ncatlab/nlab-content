@@ -113,6 +113,6 @@ $$\im(f)_{\#0} \coloneqq \{x \in El(A)\vert f(x) # 0\}$$
 
 ## References ##
 
-* Fred Richman, [Algebraic functions, calculus style](https://web.archive.org/web/20130605213603/http://math.fau.edu/richman/Docs/Oily.pdf)
+* {#Richman12} [[Fred Richman]], *Algebraic functions, calculus style*. Communications in Algebra, Volume 40, Issue 7, July 2012, Pages 2671-2683 &lbrack;[doi:10.1080/00927872.2011.584337](https://doi.org/10.1080/00927872.2011.584337)&rbrack;
 
 [[!redirects reciprocal of partial functions]]
