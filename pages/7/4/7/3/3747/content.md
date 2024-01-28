@@ -263,7 +263,7 @@ Dicussion in [[constructive analysis]]:
 
 See also
 
-* [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice* (1998) &lbrack;[pdf](http://math.fau.edu/richman/docs/Fta.pdf)&rbrack;
+* [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
 On why the (modulated) Cauchy real numbers, hence after passage to [[equivalence classes]] of Cauchy sequences, are not [[sequentially Cauchy complete]] (without the [[axiom of countable choice]]):
 
