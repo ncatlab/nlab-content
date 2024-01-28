@@ -1,7 +1,9 @@
 
-Bernhard Banaschewski
 
-* [McMaster webpage](http://www.math.mcmaster.ca/index.php/people/faculty-emerti/66-/faculty-emeriti/340-banaschewski-bernhard.html)
+Bernhard Banaschewski (1926-2022)]
+
+* [McMaster obituary](https://math.mcmaster.ca/bernhard-banaschewski-1926-2022/#:~:text=Bernhard%20Banaschewski%2C%20McKay%20Professor%20(Emeritus,of%20the%20Department%20in%201955.)
+
 
 * [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=13403)
 
@@ -31,5 +33,5 @@ On [[algebraic closures]] of [[fields]] in the absence of the [[axiom of choice]
 
 category:people
 
-[[!redirects Bernhard Banaschewski]]
+[[!redirects B. Banaschewski]]
 [[!redirects Banaschewski]] 
