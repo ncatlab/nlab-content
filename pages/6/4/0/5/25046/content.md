@@ -55,7 +55,7 @@ Now the sequence of functions $(f_k)_{k=0}^\infty$ so defined converges uniforml
 
 ## Other nth root functions
 
-According to ([Richman 2010](#Richman2010)), given the existence of an nth root function, there are an uncountable number of functions that satisfy the [[functional equation]] $f(x)^n = x$ on some [[subset]] of the [[real numbers]]. Each of these could be called a real "nth root function". 
+According to ([Richman 2012](#Richman12)), given the existence of an nth root function, there are an uncountable number of functions that satisfy the [[functional equation]] $f(x)^n = x$ on some [[subset]] of the [[real numbers]]. Each of these could be called a real "nth root function". 
 
 For example, let $1_{\mathbb{Q}}:\mathbb{R} \to \mathbb{R}$ be the constructive Dirichlet indicator function, defined as $1_{\mathbb{Q}}(x) \coloneqq 1$ for every rational number $q \in \mathbb{Q}$, and $1_{\mathbb{Q}}(x) \coloneqq 0$ for every real number $x$ apart from every rational number $q \in \mathbb{Q}$ 
 
@@ -70,7 +70,7 @@ Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \sqrt[n]{x}$ is a rea
 
 ## References 
 
-* {#Richman2010} [[Fred Richman]] (2010). _Algebraic functions, calculus style_. [Fred Richman's documents](http://math.fau.edu/richman/html/docs.htm).
+* {#Richman12} [[Fred Richman]], *Algebraic functions, calculus style*. Communications in Algebra, Volume 40, Issue 7, July 2012, Pages 2671-2683 &lbrack;[doi:10.1080/00927872.2011.584337](https://doi.org/10.1080/00927872.2011.584337)&rbrack;
 
 [[!redirects real nth root function]]
 [[!redirects real nth root functions]]
