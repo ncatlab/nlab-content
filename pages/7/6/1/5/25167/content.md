@@ -39,7 +39,7 @@ The theory of reduced local rings is a [[coherent theory]].
 
 For a division algorithm for [[polynomials]] over reduced local rings:
 
-* [[Fred Richman]], *A division algorithm* ([pdf](http://math.fau.edu/richman/docs/heyting3.pdf))
+* [[Fred Richman]], *A division algorithm*. Journal of Algebra and Its Applications, Vol. 04, No. 04, pp. 441-449 (2005) &lbrack;[doi:10.1142/S0219498805001289](https://doi.org/10.1142/S0219498805001289)&rbrack;
 
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
