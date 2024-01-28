@@ -152,15 +152,21 @@ In the context of [[homotopy type theory]], the various principles of omniscienc
 
 ## Equivalent statements
 
-There are various other results that are equivalent to or related to the principles of omniscience.  Here are a few:
-
-* Every modulated Cantor real number has a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LLPO}_\mathbb{N}$ holds; every Dedekind real number has a radix expansion iff the analytic $LLPO$ holds.  At least in the presence of [[countable choice]] (which also implies that modulated Cantor reals and Dedekind reals agree), this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+There are various other results that are equivalent to the principles of omniscience. Here are a few:
 
 * Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $\mathbb{S}^1$. (Constructively, we take $\mathbb{S}^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] iff $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 * The [[boolean domain]] $\mathbb{2}$ is a [[sigma-frame|$\sigma$-frame]] iff the internal $\mathrm{LPO}_\mathbb{N}$ holds. This implies that the classical notion of [[Dedekind real numbers]] can be constructed with respect to the $\sigma$-frame $\mathbb{2}$. However, in general the classical Dedekind real numbers does not coincide with the constructive notion of [[Dedekind real numbers]] constructed using the [[frame of truth values]] $\Omega$, though it does if [[excluded middle]] or [[countable choice]] holds. 
+
+## Related statements
+
+There are various other results that are related to the principles of omniscience. Here are a few:
+
+* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds; there exists a radix expansion for every [[Dedekind real number]] has iff the analytic $\mathrm{LLPO}$ holds. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Swan). At least in the presence of [[countable choice]], this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+
+* That every Cauchy real number has a choice of [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) implies that the $\mathrm{WLPO}_\mathbb{N}$ holds; that every Dedekind real number has a choice of radix expansion implies that the analytic $\mathrm{WLPO}$ holds. 
 
 ## Models
 
@@ -179,6 +185,8 @@ There are various other results that are equivalent to or related to the princip
 *  {#Escardo} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
 
 * {#Mehkeri} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
+
+* {#Swan} Madeleine Birchfield (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
 
 * {#UFP} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
