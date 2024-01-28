@@ -68,6 +68,16 @@ The analytic principles of omniscience imply the corresponding ones for natural 
 
 (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
 
+There are also analytic principles of omniscience for the set of Cauchy sequences of rational numbers. Since the set of Cauchy sequences of rational numbers is an [[ordered local ring]] whose [[residue field]] is the [[ordered field]] of [[Cauchy real numbers]], one has the following principles of omniscience
+
+*  The __analytic LPO__ states that every [[Cauchy sequence]] of [[rational numbers]] is invertible or non-invertible, or equivalently [[trichotomy]] for the Cauchy sequence of rational numbers ($x \gt y$, $x \lt y$, or $x - y$ is non-invertible), or equivalently that Cauchy sequences of rational numbers form a [[discrete local ring]].
+
+* The __analytic WLPO__ states that the equivalence relation $x \approx y$ on the local ring of Cauchy sequences of rational numbers, defined as $x - y$ is non-invertible, is a [[decidable relation]]. 
+
+*  The __analytic LLPO__ states that the usual [[preorder]] on the local ring of Cauchy sequences of rational numbers is a [[total preorder]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for Cauchy sequences of rational numbers.
+
+If [[quotient sets]] exist, these principles of omniscience directly imply the corresponding analytic principles of omniscience for the Cauchy real numbers. 
+
 ## In the internal logic
 
 In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
@@ -144,13 +154,13 @@ In the context of [[homotopy type theory]], the various principles of omniscienc
 
 There are various other results that are equivalent to or related to the principles of omniscience.  Here are a few:
 
-* Every modulated Cantor real number has a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $LLPO_{\mathbf{N}}$ holds; every Dedekind real number has a radix expansion iff the analytic $LLPO$ holds.  At least in the presence of [[countable choice]] (which also implies that modulated Cantor reals and Dedekind reals agree), this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+* Every modulated Cantor real number has a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LLPO}_\mathbb{N}$ holds; every Dedekind real number has a radix expansion iff the analytic $LLPO$ holds.  At least in the presence of [[countable choice]] (which also implies that modulated Cantor reals and Dedekind reals agree), this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
 * Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $\mathbb{S}^1$. (Constructively, we take $\mathbb{S}^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
 
-* Every [[semi-decidable proposition]] is a [[decidable proposition]] if $LPO_{\mathbf{N}}$ holds. 
+* Every [[semi-decidable proposition]] is a [[decidable proposition]] if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] $\mathbb{2}$ is a [[sigma-frame|$\sigma$-frame]] iff the internal $LPO_{\mathbf{N}}$ holds. This implies that the classical notion of [[Dedekind real numbers]] can be constructed with respect to the $\sigma$-frame $\mathbb{2}$. However, in general the classical Dedekind real numbers does not coincide with the constructive notion of [[Dedekind real numbers]] constructed using the [[frame of truth values]] $\Omega$, though it does if [[excluded middle]] or [[countable choice]] holds. 
+* The [[boolean domain]] $\mathbb{2}$ is a [[sigma-frame|$\sigma$-frame]] iff the internal $\mathrm{LPO}_\mathbb{N}$ holds. This implies that the classical notion of [[Dedekind real numbers]] can be constructed with respect to the $\sigma$-frame $\mathbb{2}$. However, in general the classical Dedekind real numbers does not coincide with the constructive notion of [[Dedekind real numbers]] constructed using the [[frame of truth values]] $\Omega$, though it does if [[excluded middle]] or [[countable choice]] holds. 
 
 ## Models
 
