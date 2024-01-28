@@ -152,14 +152,14 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 
 * {#Taylor85} [[Paul Taylor]], _Gauss' Second Proof_, Eureka 45 (1985) 42-47 ([pdf](http://www.jon-arny.com/httpdocs/Gauss/Eureka-2-aug24.pdf))
 
-A proof that Cauchy sequences of rational numbers satisfy the fundamental theorem of algebra: 
+A proof of a variant of the fundamental theorem of algebra using finite multisets of complex numbers: 
 
 * {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*, Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
 see also:
 
 * [[Fred Richman]], *Constructive Mathematics without Choice*,
-in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum*, Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
+in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum* Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
 
 The Reverse Mathematical treatment is given in
 
