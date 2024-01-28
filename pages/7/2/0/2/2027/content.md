@@ -49,7 +49,7 @@ The ring of [[formal power series]] of an integral domain is a [[local integral 
 
 ## In constructive mathematics
 
-in constructive mathematics, there are different inequivalent ways to define an integral domain. The above definition is sometimes called a **ring without zero divisors**. Stronger notions include:
+in constructive mathematics, there are different inequivalent ways to define an integral domain. The above definition is sometimes called a **ring without zero divisors** or a **weak integral domain**. Stronger notions include:
 
 \begin{definition}
 A **Heyting integral domain** is an integral domain which has a [[tight apartness relation]] and where every element apart from zero is [[regular element in a ring|regular]]. The [[ring of fractions]] of a Heyting integral domain is a [[Heyting field]]. 
