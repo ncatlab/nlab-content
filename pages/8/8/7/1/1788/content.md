@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-CanonNonabDiffCohomology.jpg:file]]
+
 [[GeomPhys-SourcingM2FluxFromM5Fluxes.jpg:file]]
 
 [[GeomPhys-FluxOfM2M5Intersection.jpg:file]]
