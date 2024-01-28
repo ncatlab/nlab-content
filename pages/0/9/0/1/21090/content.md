@@ -1708,7 +1708,25 @@ Equivalently, a Markov category is positive if and only if  for every joint morp
 
 ## History
 
-(...)
+In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
+
+The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in his unpublished notes [Lawvere'62](#Lawvere62).
+The same category was studied independently by [[Chentsov]] ([Chentsov'65](#Chentsov65)), who wrote in Russian. It is likely that Lawvere and Chentsov remained unaware of each other's work for several decades. 
+
+Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of the [[Giry monad|monad which brings her name]].
+Shortly after, computer scientists such as [[Eugenio Moggi|Moggi]] and [[Gordon Plotkin|Plotkin]] started considering monads in the context of effectful programming ([Moggi'89](#moggi89)), with probabilistic computation as a special case ([Jones-Plotkin'89](#jones_plotkin89)). (More details in [[monad (in computer science)]].)
+This is also the time when a number of [[probability monads]] were introduced, see there for more. 
+
+The first definition of a _garbage-share_ (a.k.a. _copy-discard_) category seems to be due to [[Fabio Gadducci|Gadducci]] ([Gadducci'96](#gadducci96)), who in his PhD thesis introduced such a structure (for strict monoidal categories), with in mind applications to formal languages (in particular graph term rewriting). In subsequent papers together with Andrea Corradini some further properties of these construction were studied, including higher-categorical ones ([Corradini-Gadducci'97](#corradini_gadducci97), [Corradini-Gadducci'99a](#corradini_gadducci99a), [Corradini-Gadducci'99b](#corradini_gadducci99b), [Corradini-Gadducci'02](#corradini_gadducci02)).
+
+The first mention of Markov and CD-categories used for the purpose of probability seems to have first appeared in the work of Golubtsov ([Golubtsov'99](#golubtsov99)), who named the structure "category of information converters" or "information transformers", likely unaware of Gadducci's work, and first writing in Russian. In subsequent work ([Golubtsov'02](#golubtsov02), [Golubtsov-Mosaliuk'02](#golubtsov_mosaliuk02), [Golubtsov'04](#golubtsov04)) these structures were connected to [[Kleisli categories]], introducing what now we call a [representable Markov category](#representable_markov_categories).
+
+In parallel, and seemingly unaware of Golubtsov's work, [[Bob Coecke|Coecke]] and [[Robert W. Spekkens|Spekkens]] developed a string-diagrammatic framework for Bayesian inference, for the purpose of generalizing these concept from classical to quantum [Coecke-Spekkens'11](#coecke_spekkens11). The resulting framework is somewhat different from the one of Markov categories, but very similar in aims and philosophy.
+
+Once again seemingly unaware of Golubtsov's work, [[Brendan Fong|Fong]] studied categorical structures to model Bayesian networks in his master's thesis ([Fong'12](#fong12)), in particular by means of equipping the objects of a category with comonoid structures.
+
+Finally, the current form of Markov and copy-discard categories, which is also the one presented in this article, was developed in the works of Cho and [[Bart Jacobs|Jacobs]] ([Cho-Jacobs'19](#cd_categories)) and of [[Tobias Fritz|Fritz]] ([Fritz'20](#fritzmarkov)).
+
 
 
 ## Detailed list
@@ -1787,10 +1805,36 @@ Equivalently, a Markov category is positive if and only if  for every joint morp
 
 ## References
 
+### Main sources
+
+The main definitions and results in this article can be found in
+
+* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+
+and in the following reference (where Markov categories are called *affine CD categories*):
+
+* {#cd_categories} Kenta Cho, Bart Jacobs, _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science 29, 2019. ([arXiv:1709.00322](https://arxiv.org/abs/1709.00322))
+
+The graphical model (separation and d-separation) aspects of conditional independence for Markov categories have been studied in
+
+* {#d-sep} [[Tobias Fritz]] and Andreas Klingler, _The d-separation criterion in Categorical Probability_, Journal of Machine Learning Research 24(46), 2023. ([arXiv](https://arxiv.org/abs/2207.05740))
+
+Representable Markov categories have been studied in 
+
+* [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], [[Eigil Fjeldgren Rischel]], _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
+
+as well as 
+
+* {#dilations} [[Tobias Fritz]], [[Tomáš Gonda]], Nicholas Gauguin Houghton-Larsen, [[Paolo Perrone]] and [[Dario Stein]], _Dilations and information flow axioms in categorical probability_. Mathematical Structures in Computer Science, 2023. ([arXiv:2211.02507](https://arxiv.org/abs/2211.02507)).
+
+Kolmogorov products have been studied in 
+
+* {#fritzrischel} [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+
+
 ### Introductory material
 
-For a mathematically complete reference, see the original sources below.
-Besides them, some of the introductory content on this page is taken from the following reference:
+Some of the introductory content on this page is taken from the following reference:
 
 * {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
 
@@ -1815,56 +1859,67 @@ Slides from talks:
 * [[Tobias Fritz]], _Categorical Probability and the de Finetti theorem_, New York City Category Seminar, 2021. ([pdf](http://tobiasfritz.science/2021/markov_cats_nyc.pdf))
 
 
-### Main sources
-
-The main definitions and results in this article can be found in
-
-* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
-
-and in the following reference (where Markov categories are called *affine CD categories*):
-
-* {#cd_categories} Kenta Cho, Bart Jacobs, _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science 29, 2019. ([arXiv:1709.00322](https://arxiv.org/abs/1709.00322))
-
-Representable Markov categories have been studied in 
-
-* [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], [[Eigil Fjeldgren Rischel]], _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
-
-as well as 
-
-* {#dilations} [[Tobias Fritz]], [[Tomáš Gonda]], Nicholas Gauguin Houghton-Larsen, [[Paolo Perrone]] and [[Dario Stein]], _Dilations and information flow axioms in categorical probability_. Mathematical Structures in Computer Science, 2023. ([arXiv:2211.02507](https://arxiv.org/abs/2211.02507)).
-
-Kolmogorov products have been studied in 
-
-* {#fritzrischel} [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
-
 ### Historical references (see [History](#history)):
 
-*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
 
-*{#Chentsov65} [[N. N. Chentsov]], _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
+* {#Chentsov65} [[N. N. Chentsov]], _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
 
+* {#giry82} Michèle Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis, Lecture notes in Mathematics 915, Springer, 1982.
+
+* {#moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, Proceedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39155))
+
+* {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
+
+* {#gadducci96} [[Fabio Gadducci]], _On the Algebraic Approach to Concurrent Term Rewriting_, PhD thesis, University of Pisa, 1996. ([available here](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.57.5651))
+
+* {#corradini_gadducci97} Andrea Corradini and [[Fabio Gadducci]], _A 2-categorical presentation of term graph rewriting_. In CTCS, LNCS 1290, 1997.
+
+* {#corradini_gadducci99a} Andrea Corradini and [[Fabio Gadducci]], _An algebraic presentation of term graphs, via gs-monoidal categories_, Applied Categorical Structures 7(4), 1999
+
+* {#corradini_gadducci99b} Andrea Corradini and [[Fabio Gadducci]], _Rewriting on cyclic structures: equivalence between the operational and the categorical description_, RAIRO Theoretical Informatics and Applications 33(4-5), 1999.
+
+* {#corradini_gadducci02} Andrea Corradini and [[Fabio Gadducci]], _A functorial semantics for multi-algebras and partial algebras, with applications to syntax_, Theoretical Computer Science 286(2), 2002.
+
+* {#golubtsov99} Peter V. Golubtsov, _Axiomatic description of categories of information converters_, Problemy Peredachi Informatsii (Problems in Information Transmission) 35(3), 1999. 
+
+* {#golubtsov02} Peter V. Golubtsov, _Monoidal Kleisli category as a background for information transformers theory_. Information Theory and Information Processing 2, 2002.
+
+* {#golubtsov_mosaliuk02} Peter V. Golubtsov and Stepan S. Moskaliuk, _Method of additional structures on the objects of a monoidal Kleisli category as a background for information transformers theory_, Hadronic Journal 25(2), 2002.
+
+* {#golubtsov04} Peter V. Golubtsov, _Information transformers: category-theoretical structure, informativeness, decision-making problems_, Hadronic Journal Supplements 19(3), 2004.
+
+* {#coecke_spekkens11} [[Bob Coecke]] and [[Robert W. Spekkens]], _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
+
+* {#fong12} [[Brendan Fong]], _Causal theories: A categorical prespective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1609.05382))
 
 
 ### Further references
 
 * [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
-* [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, 2022. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
+* [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, Applied Categorical Structures 31, 21, 2023. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
 
-* [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+* [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, Proceedings of LICS, 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
 * [[Sean Moss]] and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
-* {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, 2020. ([arXiv](https://arxiv.org/abs/2007.08638))
+* {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
+
+* Elena Di Lavore and Mario Román, _Evidential Decision Theory via Partial Markov Categories_, Proceedings of LICS, 2023. ([arXiv](https://arxiv.org/abs/2301.12989))
+
+* [[Tobias Fritz]], [[Fabio Gadducci]], Davide Trotta, Andrea Corradini, _From gs-monoidal to oplax-cartesian categories: constructions and functorial completeness_, Applied Categorical Structures 31, 42, 2023. ([arXiv](https://arxiv.org/abs/2205.06892))
+
+* [[Tobias Fritz]], [[Fabio Gadducci]], [[Paolo Perrone]] and Davide Trotta, _Weakly Markov categories and weakly affine monads_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2303.14049))
 
 * {#supports_idemp} [[Tobias Fritz]], [[Tomáš Gonda]], [[Antonio Lorenzin]], [[Paolo Perrone]] and [[Dario Stein]], _Absolute continuity, supports and idempotent splitting in categorical probability_, 2023. ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
 
 * Noé Ensarguet and [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions_, and transitions to equilibrium, 2023. ([arXiv:2310.04267](https://arxiv.org/abs/2310.04267))
 
+* [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
-
-(...more to come...)
+The research on Markov categories is still in progress, more work will appear soon.
 
 
 On Markov kernels:
