@@ -171,6 +171,10 @@ The definition of the Archimedean property for an ordered field is given in sect
 
 * Auke B. Booij, *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
+The [[real numbers]] are defined as [[generalized the|the]] [[terminal object|terminal]] [[Archimedean ordered field]] and the [[complete space|complete]] [[Archimedean ordered field]] in:
+
+* {#Richman08} [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98-108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
+
 [[!redirects archimedean ordered field]]
 [[!redirects archimedean ordered fields]]
 
