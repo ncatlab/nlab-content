@@ -34,6 +34,10 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-StepsInFluxQuantization.jpg:file]]
+
+[[GeomPhys-GaugePotentialsAsHomotopies.jpg:file]]
+
 [[GeomPhys-CanonNonabDiffCohomAsPhaseSpace2.jpg:file]]
 
 [[GeomPhys-CanonNonabDiffCohomAsPhaseSpace.jpg:file]]
