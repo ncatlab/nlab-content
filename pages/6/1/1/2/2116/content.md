@@ -23,15 +23,7 @@ where $c$ and the $a_i$ are elements of $k$.
 
 An __algebraic closure__ of an arbitrary field $k$ is an algebraically closed field $\bar{k}$ equipped with a field homomorphism (necessarily an [[injection]]) $i: k \to \bar{k}$ such that $\bar{k}$ is an [[algebraic extension]] of $k$ (which means that every element of $\bar{k}$ is the root of some non-zero polynomial with coefficients only from $k$). For example, $\mathbb{C}$ is an algebraic closure of $\mathbb{R}$.   An algebraic closure of $k$ can also be described as a maximal algebraic extension of $k$.  The [[axiom of choice]] proves the existence of $\bar{k}$ for any field $k$, as well as its uniqueness up to [[isomorphism]] over $k$.  (See [[splitting field]] for a more refined result.) However, note that $\bar{k}$ need not be unique up to *unique* isomorphism, so it\'s not really appropriate to speak of [[the]] algebraic closure of $k$.  For example, complex conjugation is a nontrivial [[automorphism]] of $\mathbb{C}$ over $\mathbb{R}$.
 
-Without choice, the existence and uniqueness of algebraic closures may fail; see
-
-*  _[Algebraic closure of Q](http://cs.nyu.edu/pipermail/fom/2006-May/010531.html)_, a thread on FOM started by [[Timothy Chow]]; 
-
-be sure to check for improperly replied posts with the same subject in that and the next two months
-
-*  possibly _[Algebraic closure without choice](http://doi.wiley.com/10.1002/malq.19920380136)_, a paper by somebody that I can\'t read
-
-*  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/richman/html/docs.htm)_ by [[Fred Richman]]
+Without choice, the existence and uniqueness of algebraic closures may fail; see [Chow06](#Chow06), [Banaschewski92](#Banaschewski92), [Richman00](#Richman00). 
 
 Even with choice, algebraic closure is not [[functor|functorial]] in any reasonable sense. For example, it is very easy to demonstrate that there is no algebraic closure functor $F \mapsto \widebar{F}$ that renders the inclusion $i: F \to \widebar{F}$ natural: 
 
@@ -108,6 +100,18 @@ Well-definedness of transcendence degree then follows from abstract consideratio
 The algebraic closure of a field $F$ is the splitting field of the set of all [[monic polynomials]] over $F$. Thus for relevant material, see 
 
 * [[splitting field]] 
+
+## References
+
+*  {#Chow06} _[Algebraic closure of Q](http://cs.nyu.edu/pipermail/fom/2006-May/010531.html)_, a thread on FOM started by [[Timothy Chow]]; 
+
+be sure to check for improperly replied posts with the same subject in that and the next two months
+
+* {#Banaschewski92} [[Bernhard Banaschewski]], *Algebraic closure without choice*, Mathematical Logic Quarterly, Volume 38, Issue 1, 1992, Pages 383-385, &lbrack;[doi:10.1002/malq.19920380136](https://doi.org/10.1002/malq.19920380136)&rbrack;
+
+* {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*, Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
+
+* {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
 [[!redirects algebraically closed field]]
 [[!redirects algebraically closed fields]]
