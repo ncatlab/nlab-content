@@ -47,7 +47,7 @@ Assuming [[excluded middle]], every Richman premetric space is a [[metric space]
 
 ## References ##
 
-* [[Fred Richman]], Real numbers and other completions ([pdf](http://math.fau.edu/richman/docs/RealNums.pdf))
+* [[Fred Richman]], *Real numbers and other completions*, Real numbers and other completions. Mathematical Logic Quarterly, Volume 54, Issue 1, February 2008, Pages 98-108. ([doi:https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024))
 
 [[!redirects Richman premetric]]
 [[!redirects Richman premetrics]]
