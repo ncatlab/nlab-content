@@ -1,5 +1,5 @@
 
-> This entry is about the notion of a residue field in [[algebraic geometry]]. There is another (related) notion of a residue field in [[constructive mathematics]]; see under [[field]].
+> This entry is about the notion of a residue field in [[algebraic geometry]]. There is another (related) notion of a residue field in [[constructive mathematics]]; see [[weak Heyting field]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
