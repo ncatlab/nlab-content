@@ -8898,6 +8898,11 @@ The observation of the [[schreiber:brane bouquet]] in super $L_\infty$-algebra a
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],   _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018, ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
+see also
+
+* {#HSS19} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], *Real ADE-equivariant (co)homotopy and Super M-branes*, Comm .in Math. Phys. **371** (2019) 425 &lbrack;[doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3), [arXiv:1805.05987](https://arxiv.org/abs/1805.05987)&rbrack;
+
+
 The homotopy-[[descent]] of the [[M5-brane]] cocycle and of the type IIA [[D-brane]] cocycles is due to
 
 * {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The WZW term of the M5-brane|The WZW term of the M5-brane and differential cohomotopy]]_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](https://arxiv.org/abs/1506.07557))
