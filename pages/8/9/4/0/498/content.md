@@ -142,7 +142,7 @@ For addition, if $(x + y) \# (x' + y')$, then $x + y - (x' + y') = (x - x') + (y
 For multiplication, if $x y # x' y'$, then $x y - x' y'$ is invertible. Write $x y - x' y' = (x - x')y + x'(y - y')$. Since $R$ is local, either $(x - x')y$ is a unit or $x'(y - y')$ is a unit. From this we easily conclude $x - x'$ is a unit or $y - y'$ is, whence $(x, y) # (x', y')$. So multiplication is also strongly extensional. 
 =-- 
 
-Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **[[weak local ring]]** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible.  The quotients of weak local rings are precisely the *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field".
+Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **[[weak local ring]]** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible. The quotients of weak local rings are the [[weak Heyting fields]], or what Johnstone called  *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field" by Johnstone.
 
 There is also the notion of a **discrete local ring**, which is a local ring where every element is either invertible or noninvertible, or equivalently, where the [[apartness relation]] of the local ring is a [[decidable relation]]. The quotient of discrete local rings are precisely the [[discrete fields]]. 
 
@@ -187,11 +187,11 @@ Possible to-dos: say something about $\mathfrak{m}$-adic topology, completion, Z
 
 ## References
 
-
 * {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) pp 238-260. doi:[10.1016/0021-8693(77)90284-8](https://doi.org/10.1016/0021-8693%2877%2990284-8)
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
+* {#Richman20} [[Fred Richman]], *Laurent series over $\mathbb{R}$*. Communications in Algebra, Volume 48, Issue 5, 11 Jan 2020 Pages 1982-1984 &lbrack;[doi:10.1080/00927872.2019.1710166](https://doi.org/10.1080/00927872.2019.1710166)&rbrack;
 
 [[!redirects local ring]]
 [[!redirects local rings]]
