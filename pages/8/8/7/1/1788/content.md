@@ -34,6 +34,18 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-CharacteristicLInfinityOfGaussLaw.jpg:file]]
+
+[[GeomPhys-ExamplesOfFlatLInfinityValuedForms.jpg:file]]
+
+[[GeomPhys-ExamplesOfFinTypeLInfinity.jpg:file]]
+
+[[GeomPhys-LInfinityUnderCE.jpg:file]]
+
+[[GeomPhys-LieAlgebraUnderCE.jpg:file]]
+
+[[GeomPhys-FluxHomotopyLieTriality.jpg:file]]
+
 [[GeomPhys-TopologicalPhaseSpace.jpg:file]]
 
 [[GeomPhys-IntegralFlux2.jpg:file]]
