@@ -34,6 +34,10 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-TopologicalPhaseSpace.jpg:file]]
+
+[[GeomPhys-IntegralFlux2.jpg:file]]
+
 [[GeomPhys-StepsInFluxQuantization.jpg:file]]
 
 [[GeomPhys-GaugePotentialsAsHomotopies.jpg:file]]
