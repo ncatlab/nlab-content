@@ -269,19 +269,34 @@ analytic De Rham cohomology_ ([pdf](http://www.emis.de/journals/JTNB/2004-2/page
 
 * [[Mikhail Kapranov]], _DG-Modules over the de Rham complex and the vanishing cycles functor_, Lecture Notes in Mathematics **1479**, Springer (1991) &lbrack;[doi:10.1007/BFb0086264](https://doi.org/10.1007/BFb0086264)&rbrack;
 
+[[!redirects de Rham complexes]]
+
 [[!redirects deRham complex]]
+[[!redirects deRham complexes]]
+
 [[!redirects deRham algebra]]
+[[!redirects deRham algebras]]
+
 [[!redirects de Rham algebra]]
+[[!redirects de Rham algebras]]
+
 [[!redirects deRham dga]]
+[[!redirects deRham dgas]]
+
+
 [[!redirects de Rham dga]]
+[[!redirects de Rham dgas]]
+
 [[!redirects deRham dg-algebra]]
+[[!redirects deRham dg-algebras]]
+
 [[!redirects de Rham dg-algebra]]
+[[!redirects de Rham dg-algebras]]
+
 [[!redirects de Rham cohomology]]
+
 [[!redirects deRham cohomology]]
 
-[[!redirects de Rham complex]]
-
-[[!redirects de Rham complexes]]
 
 [[!redirects exterior calculus]]
 
