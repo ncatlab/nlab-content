@@ -154,7 +154,7 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 
 A proof that Cauchy sequences of rational numbers satisfy the fundamental theorem of algebra: 
 
-*  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/html/docs.htm)
+* {#Richman00} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics, Volume 196 (2000), No. 1, pg. 213–230. ([doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf))
 {#Richman}
 
 The Reverse Mathematical treatment is given in
