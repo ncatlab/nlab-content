@@ -319,7 +319,7 @@ Other accounts:
 
 * [[Douglas Bridges]] and [[Fred Richman]], _Varieties of constructive mathematics_ (1987)
 
-*  [[Douglas Bridges]], [[Fred Richman]], Peter Schuster (1998). A weak countable choice principle. Available from [Fred Richman's Documents](http://math.fau.edu/richman/html/docs.htm).
+* [[Fred Richman]], [[Douglas Bridges]], Peter Schuster, *A weak countable choice principle*. Proceedings of the American Mathematical Society 128(9):2749-2752, March 2000. &lbrack;[doi:10.1090/S0002-9939-00-05327-2](http://dx.doi.org/10.1090/S0002-9939-00-05327-2)&rbrack;
 
 *  [[Michael Makkai]] (1996). [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
 
