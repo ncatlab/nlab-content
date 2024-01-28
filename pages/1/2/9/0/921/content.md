@@ -342,7 +342,7 @@ As the [[coalgebra of the real interval]]:
 
 A definition of the [[real numbers]] as [[generalized the|the]] [[terminal object|terminal]] [[Archimedean ordered field]] and as a [[complete space|complete]] [[Archimedean ordered field]]:
 
-* {#Richman08} [[Fred Richman]], *Real numbers and other completions*, Real numbers and other completions. Mathematical Logic Quarterly, Volume 54, Issue 1, February 2008, Pages 98-108. ([doi:https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024))
+* {#Richman08} [[Fred Richman]], *Real numbers and other completions*, Mathematical Logic Quarterly **54** 1 (2008) 98-108 &lbrack;[doi:10.1002/malq.200710024](https://onlinelibrary.wiley.com/doi/10.1002/malq.200710024)&rbrack;
 
 A compact category $\mathbb{R}$ making the $\mathbb{R}$-linear operators into $\mathbb{R}$-enriched Kan extensions:
 
