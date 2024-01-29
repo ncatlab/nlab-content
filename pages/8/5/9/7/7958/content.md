@@ -24,7 +24,7 @@ Cauchy's integral theorem states that [[contour integrals]] of [[holomorphic fun
 
 ## Statement
 
-Let $D$ be an [[open subset]] of the [[complex plane]] $\mathbb{C}$, let $a$ and $b$ be two points in $D$, let $\gamma_1$ and $\gamma_2$ be two [[curves]] in $D$ from $a$ to $b$, let the region between them also lie entirely within $D$, and let $f$ be a [[holomorphism]] on $D$. Then we have
+Let $D$ be an [[open subset]] of the [[complex plane]] $\mathbb{C}$, let $a$ and $b$ be two points in $D$, let $\gamma_1$ and $\gamma_2$ be two [[curves]] in $D$ from $a$ to $b$, let the region between them also lie entirely within $D$, and let $f$ be a [[holomorphic function]] on $D$. Then we have
 
 $$ \int_{\gamma_1} f(z) \,\mathrm{d}z = \int_{\gamma_2} f(z) \,\mathrm{d}z .$$
 
