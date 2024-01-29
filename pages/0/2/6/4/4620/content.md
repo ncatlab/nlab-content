@@ -20,21 +20,15 @@ In [[logic and foundations]], a __principle of omniscience__ is any principle of
 Bishop\'s principles of omniscience (stated below) may be seen as principles that extend classical logic from [[predicates]] (where $EM$ may happen to be valid, even constructively, for certain predicates) to their [[quantifications]] over infinite domains (where $EM$ is typically not constructively valid).
 
 
-## The limited principle of omniscience
+## Definition
+
+### The limited principle of omniscience
 
 The __limited principle of omniscience__ ($LPO$) states that the [[existential quantification]] of any [[decidable proposition]] is again decidable.  That is,
 $$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x, P(x)) \vee \neg(\exists x, P(x)) ,$$
 or equivalently
 $$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\exists x, P(x)) \vee (\forall x, \neg{P(x)}) .$$
 
-The __weak limited principle of omniscience__ ($WLPO$) states that the [[universal quantification]] of any [[decidable proposition]] is again decidable. That is,
-$$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x, P(x)) \vee \neg(\forall x, P(x)).$$
-
-Note that $LPO$ implies $WLPO$: if $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $LPO$ gives
-$$(\exists x, \neg{P(x)}) \vee (\forall x, \neg{\neg{P(x)}}), $$
-which implies
-$$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
-as $P$ is decidable.
 
 We have not stated the domain of quantification of the variable $x$.  If you take it to be the [[subsingleton]] corresponding to a given [[truth value]] and apply this principle to the constantly [[true]] proposition, then $EM$ follows; conversely, $EM$ implies $LPO$ (over any domain).  However, Bishop\'s $LPO$ takes the domain to be the set of [[natural numbers]], giving a weaker principle than $EM$.  (It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer (2011)](#Bauer11).)  Note that propositions of the form $\exists x, P(x)$ when $P$ is decidable are the [[open truth values]] in the [[Rosolini dominance]].
 
@@ -42,17 +36,33 @@ We can also state the principle set-theoretically, with explicit reference to th
 
 While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology.  See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
+### The weak limited principle of omniscience
 
-## The lesser limited principle of omniscience
+The __weak limited principle of omniscience__ ($WLPO$) states that the [[universal quantification]] of any [[decidable proposition]] is again decidable. That is,
+$$(\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall x, P(x)) \vee \neg(\forall x, P(x)).$$
+
+### The lesser limited principle of omniscience
 
 The __lesser limited principle of omniscience__ ($LLPO$) states that, if the existential quantification of the [[conjunction]] of two [[decidable propositions]] is false, then one of their separate existential quantifications is false.  That is,
 $$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x, P(x) \wedge \exists y, Q(y)) \Rightarrow \neg(\exists x, P(x)) \vee \neg(\exists y, Q(y)) ,$$
 or equivalently
 $$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y, Q(y) \vee \neg{Q(y)}) \Rightarrow \neg(\exists x, P(x) \wedge \exists y, Q(y)) \Rightarrow (\forall x, \neg{P(x)}) \vee (\forall y, \neg{Q(y)}) .$$
 
-If, as before, you take the domains of quantification to be subsingletons, you get [[de Morgan's law]] $\neg(p \wedge q) \Rightarrow \neg{p} \vee \neg{q}$ ($DM$), which is weaker than $EM$; conversely, $DM$ implies $LLPO$ (over any domain).  Again, Bishop\'s $LLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $DM$ (and also weaker than $LPO_{\mathbb{N}}$).
+If, as before, you take the domains of quantification to be subsingletons, you get [[de Morgan's law]] $\neg(p \wedge q) \Rightarrow \neg{p} \vee \neg{q}$ ($DM$), which is weaker than $EM$; conversely, $DM$ implies $LLPO$ (over any domain). Again, Bishop\'s $LLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $DM$ (and also weaker than $LPO_{\mathbb{N}}$). 
 
-Stated set-theoretically, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.  Note that $LLPO_A$ follows from $LPO_A$, but not conversely.
+Stated set-theoretically, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.
+
+### Relation between the principles of omniscience
+
+We have the following relations between the three principles of omniscience:
+
+* $WLPO$ follows from $LPO$, but not conversely. If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $LPO$ gives
+$$(\exists x, \neg{P(x)}) \vee (\forall x, \neg{\neg{P(x)}}), $$
+which implies
+$$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
+as $P$ is decidable.
+
+* $LLPO$ follows from $LPO$, but not conversely. 
 
 ## Analytic versions {#analytic}
 
@@ -199,6 +209,8 @@ There are various other results that are related to the principles of omniscienc
 * {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
 * {#Richman90} [[Fred Richman]], *Polynomials and linear transformations*. Linear Algebra and its Applications, Volume 131, 1 April 1990, Pages 131-137. &lbrack;<a href="https://doi.org/10.1016/0024-3795(90)90379-Q">doi:10.1016/0024-3795(90)90379-Q</a>&rbrack;
+
+* {#Ishihara06} [[Hajime Ishihara]], _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006) ([doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406),  [pdf](https://philosophiascientiae.revues.org/pdf/406))
 
 The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
 
