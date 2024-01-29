@@ -102,6 +102,16 @@ Then
 $$C \simeq \sum_{x:A} \sum_{z:C} f(z) =_A x$$ 
 is the set truncation of $A$. 
 
+## Properties
+
+### Universal property of set truncations
+
+The **universal property of set truncations** says that given a type $A$, a set $B$, and a function $f:A \to B$, [[uniqueness quantifier|there exists a unique]] function $u:[A] \to B$ such that for all $x:A$, $f(x) = u([x]_0)$. 
+
+### Power sets
+
+Given a type $A$ and a [[subtype]] $P:A \to \mathrm{Prop}$, by [[propositional extensionality]] and the universal property of set truncations, one can construct a subtype $[P]_0:[A]_0 \to \mathrm{Prop}$ of the set truncation of $A$ such that for all $x:A$, $P(x) = [P]_0([x]_0)$, . 
+
 ## Related concepts
 
 * [[quotient set]]
@@ -139,7 +149,6 @@ and section 6.9 and 7.3 of:
 [[!redirects judgmental set truncation]]
 [[!redirects judgmental set truncations]]
 
-
 [[!redirects judgmental set-truncation]]
 [[!redirects judgmental set-truncations]]
 
@@ -148,3 +157,9 @@ and section 6.9 and 7.3 of:
 
 [[!redirects definitional set-truncation]]
 [[!redirects definitional set-truncations]]
+
+[[!redirects universal property of set truncations]]
+[[!redirects universal properties of set truncations]]
+
+[[!redirects universal property of set-truncations]]
+[[!redirects universal properties of set-truncations]]
