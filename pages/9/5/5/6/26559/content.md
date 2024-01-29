@@ -1427,7 +1427,9 @@ this perspective: They are the [[dg-algebra]] [[homomorphism]] from  their CE-al
     X \in SmthMfd
   \end{array}
   \right\}
-  \;\vdash\;
+  \;\;\;\;\;\;\; 
+  \vdash
+  \;\;\;\;\;\;\;
   \Omega^1_{dR}(X;\mathfrak{a})_{clsd}
   \;\coloneqq\;
   Hom_{dgAlg}\big(
@@ -1563,7 +1565,7 @@ For comparison to the flux quantization rules discussed [below](#FluxQuantizatio
 it is useful to understand this equivalently &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack; as the set of dg-homotopy classes of the corresponding dgc-homomorphisms:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-NonabDeRhamAsHomotopyClasses-240129.jpg",
+    "file_name": "GeomPhys-NonabDeRhamAsHomotopyClasses-240129b.jpg",
     "width": 760,
     "unit": "px",
     "margin": {
@@ -1575,7 +1577,7 @@ it is useful to understand this equivalently &lbrack;[FSS23-Char, Thm. 6.5](#FSS
 \end{imagefromfile}
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-TotalFluxInNonabDeRhamCohom.jpg",
+    "file_name": "GeomPhys-TotalFluxInNonabDeRhamCohom-240129.jpg",
     "float": "right",
     "width": 320,
     "unit": "px",
