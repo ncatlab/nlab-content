@@ -823,6 +823,13 @@ Gluing aspects are in focus of the program explained in
 
 * Alberto S. Cattaneo, Pavel Mnev, Nicolai Reshetikhin, _Perturbative BV theories with Segal-like gluing_, [arxiv/1602.00741](http://arxiv.org/abs/1602.00741)
 
+
+On extracting [[L-infinity algebras|$L_\infty$-algebras]] from [[BV-formalism]] around a solutio, encoding [[tree level]] [[Feynman diagrams]]:
+
+* [[Maxim Grigoriev]], [[Dmitry Rudinsky]], *Notes on the $L_\infty$-approach to local gauge field theories*, Journal of Geometry and Physics **190** (2023) 104863 &lbrack;[arXiv2303.08990](https://arxiv.org/abs/2303.08990), [doi:10.1016/j.geomphys.2023.104863](https://doi.org/10.1016/j.geomphys.2023.104863)&rbrack;
+
+
+
 #### For non-Lagrangian theories
  {#ReferencesForNonLagrangianEquations}
 
