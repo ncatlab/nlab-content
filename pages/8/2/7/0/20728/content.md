@@ -15,7 +15,7 @@
 
 ## Idea
 
-In many categorical approaches to [[measure theory]] and [[probability]], one considers a [[category]] of [[spaces]], such as [[measurable spaces]] or [[topological spaces]], and equips this category with a [[monad]] whose [[functor]] part assigns to each space $X$ a space $P X$ of [[measures]], [[probability measures]], or [[valuation (measure theory)|valuations]] on $X$, or a variation thereof.
+In many [[categorical approaches to probability theory]], one considers a [[category]] of [[spaces]], such as [[measurable spaces]] or [[topological spaces]], and equips this category with a [[monad]] whose [[functor]] part assigns to each space $X$ a space $P X$ of [[measures]], [[probability measures]], or [[valuation (measure theory)|valuations]] on $X$, or a variation thereof.
 
 For probability theory, this can be interpreted as adding to the [[points]] of a space $X$ new "random points", modelled as probability measures or valuations.
 The old points, which we can think of as deterministic, are embedded in $P X$ via the unit of the monad $X\to P X$. Just as well, the [[Kleisli morphisms]] of $P$ can be seen as [[stochastic maps]].
@@ -30,7 +30,7 @@ See [the table below](#detailed_list) for more details.
 
 Note that "probability monad" and "measure monad" are not used here as technical terms with a definition. Here we just explain what most monads of this kind look like. 
 (There are ongoing works which may give a general, precise definition of probability monad.)
-The term "probability monad" was coined by Giry herself (see [here](#giry80)), to refer to what we today call the [[Giry monad]].
+The term "probability monad" was coined by Giry (see [here](#giry80)), to refer to what we today call the [[Giry monad]].
 
 ## Functor, unit and multiplication
 
