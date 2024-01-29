@@ -1,6 +1,8 @@
 
 * [institute page](https://www.cpt.univ-mrs.fr/~speziale/index.html)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=U0gwxYMAAAAJ&hl=en)
+
 ## Selected writings
 
 On [[discrete light cone quantization]]:
