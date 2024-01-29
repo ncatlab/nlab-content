@@ -92,6 +92,11 @@ See also:
 * Lars Aalsma, [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], 
 _A New Spin on the Weak Gravity Conjecture_ ([arXiv:2011.05337](https://arxiv.org/abs/2011.05337))
 
+Proof of the weak gravity conjecture in [[bosonic string theory]] is claimed in:
+
+* [[Ben Heidenreich]], Matteo Lotito, *Proving the Weak Gravity Conjecture in Perturbative String Theory, Part I: The Bosonic String* &lbrack;[arXiv:2401.14449](https://arxiv.org/abs/2401.14449)&rbrack;
+
+
 
 
 
