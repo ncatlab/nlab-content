@@ -39,5 +39,6 @@ In the context of [[constructive mathematics]]:
 
 * [[Hannes Diener]], *Constructive Reverse Mathematics*, 2018 ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
+* Takayuki Kihara, *Degrees of incomputability, realizability and constructive reverse mathematics* &lbrack;[arXiv:2002.10712](https://arxiv.org/abs/2002.10712)&rbrack;
 
 [[!redirects constructive reverse mathematics]]
