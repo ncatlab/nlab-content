@@ -24,7 +24,7 @@ In [[intersecting D-brane models]] Yukawa couplings are encoded by [[worldsheet 
 
 
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/YukawaFukaya.jpg" width="600">
+<img src="https://ncatlab.org/nlab/files/YukawaFukaya.jpg" width="680">
 \end{center}
 
 > table grabbed from [Marchesano 03](#Marchesano03)
@@ -39,6 +39,7 @@ In [[intersecting D-brane models]] Yukawa couplings are encoded by [[worldsheet 
 
 * [[spinors in Yang-Mills theory]]
 
+
 ## References
 
 ### General
@@ -52,6 +53,8 @@ See also
 On computation of Yukawa couplings in [[heterotic string theory]]:
 
 * Stefan Blesneag, [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], [[Eran Palti]], _Matter Field Kähler Metric in Heterotic String Theory from Localisation_ ([arXiv:1801.09645](https://arxiv.org/abs/1801.09645))
+
+* Giorgi Butbaia, Damián Mayorga Peña, Justin Tan, Per Berglund, [[Tristan Hübsch]], Vishnu Jejjala, Challenger Mishra, *Physical Yukawa Couplings in Heterotic String Compactifications* &lbrack;[arXiv:2401.15078](https://arxiv.org/abs/2401.15078)&rbrack;
 
 and in [[intersecting D-brane models]] of [[type II string theory]] via [[Fukaya categories]]:
 
