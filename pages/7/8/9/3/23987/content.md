@@ -909,7 +909,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
   slides: [[Lambert-NonRelM2BranesAndADSCFT.pdf:file]]
 
-  cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
+  cf.: [arXiv:2401.14955](https://arxiv.org/abs/2401.14955)
 
   > We discuss a peculiar limit of [[M2-branes]] that leads to a non-relativistic [[ABJM model|Chern-Simons-matter theory]] with an infinite dimensional spacetime [[symmetry group]] and whose dynamics leads to [[quantum mechanics]] on a [[Hitchin moduli space]]. We also discuss the corresponding limit in the [[AdS-CFT correspondence|gravitational dual]] which is described by an eleven-dimensional Membrane-Newton-Cartan theory about a [[background field|background]] with an [[anti de Sitter spacetime|$AdS_2$]] factor.
 
@@ -1754,7 +1754,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * {#CapucciJan2024} 22 Jan 2024
  
-  [[Matteo Capucci]]: 
+  [[Matteo Capucci]] (University of Strathclyde): 
 
   **Para Construction as a Wreath Product**
 
@@ -1763,6 +1763,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   cf. [arXiv:2105.06332](categorical+systems+theory#CGHR22)
 
   > on the [[para construction]] in [[categorical systems theory]]
+
+\linebreak
+
+* 28 Jan 2024
+
+  [[Alessandra Di Pierro]] (University of Verona):
+
+  **Topological Kernels via Quantum Computation**
+
+  cf. [arXiv:2307.07383](TDA#IMD23)
+
+  > [[topological data analysis|Topological data analysis]] (TDA) enhances the analysis of objects by embedding them into a [[simplicial complex]] and extracting useful global properties such as the [[Betti numbers]], i.e. the number of multidimensional holes, which can be used to define [[kernel methods]] that are easily integrated with existing [[machine-learning]] [[algorithms]]. These [[kernel methods]] have found broad applications, as they rely on powerful mathematical frameworks which provide theoretical guarantees on their performance. However, the [[computation]] of higher-dimensional Betti numbers can be prohibitively expensive on classical hardware, whereas [[quantum computation|quantum algorithms]] can approximate them in polynomial time in the instance size. In this work, we propose a quantum approach to defining topological kernels that is based on constructing Betti curves, i.e. topological fingerprint of [[filtered object|filtrations]] with increasing order.
+
 
 \linebreak
 
