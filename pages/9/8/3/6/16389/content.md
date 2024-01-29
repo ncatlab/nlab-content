@@ -183,6 +183,11 @@ and on the issue of excluding $p^+ = 0$:
 
 * [[Joel S. Rozowsky]], [[Charles B. Thorn]], *Spontaneous Symmetry Breaking at Infinite Momentum without $P^+$ Zero-Modes*, Phys. Rev. Lett. **85** (2000) 1614-1617 &lbrack;[arXiv:hep-th/0003301](https://arxiv.org/abs/hep-th/0003301), [doi:10.1103/PhysRevLett.85.1614](https://doi.org/10.1103/PhysRevLett.85.1614)&rbrack;
 
+See also:
+
+* [[Glenn Barnich]], Sucheta Majumdar, [[Simone Speziale]], Wen-Di Tan, *Lessons from discrete light-cone quantization for physics at null infinity: Bosons in two dimensions* &lbrack;[arXiv:2401.14873](https://arxiv.org/abs/2401.14873)&rbrack;
+
+
 
 Lecture notes:
 
