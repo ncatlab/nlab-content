@@ -81,6 +81,14 @@ The **local membership relation** $x \in_A B$ between elements $x:A$ and materia
 $$x \in_A B \coloneqq B(x)$$
 \end{definition}
 
+\begin{theorem}
+Given a type $A$ and a [[subtype]] $P:A \to \mathrm{Prop}$, one can construct a subtype $[P]_0:[A] \to \mathrm{Prop}$ of the [[set truncation]] of $A$ such that for all $x:A$, $P(x) = [P]_0([x]_0)$. 
+\end{theorem}
+
+\begin{proof}
+By [[propositional extensionality]], the [[type of propositions]] $\mathrm{Prop}$ is a set, and by the [[universal property of set truncations]], given any type $A$, set $B$, and function $f:A \to B$, one can construct a [[uniqueness quantifier|unique]] function $u:[A]_0 \to B$ such that for all $x:A$, $f(x) = u([x]_0)$. This is just the special case of the universal property of set truncations where the [[codomain]] is the set of propositions. 
+\end{proof}
+
 ### Structural subtypes
 
 \begin{definition}
