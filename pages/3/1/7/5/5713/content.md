@@ -5,13 +5,16 @@
 
 ## Selected writings
 
+On [[BV-formalism|BV-]][[BRST complex|BRST]]-[[quantization]] of [[gauge theories]]:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
+
+
 Introducing [[BTZ black holes]]:
 
 * [[Máximo Bañados]], [[Claudio Teitelboim]], [[Jorge Zanelli]], _The Black Hole in Three Dimensional Space Time_, Phys. Rev. Lett. 69 (1992) 1849-1851 ([arXiv:hep-th/9204099](https://arxiv.org/abs/hep-th/9204099))
 
-
-* [[Máximo Bañados]], [[Marc Henneaux]], [[Claudio Teitelboim]], [[Jorge Zanelli]], 
-_Geometry of the 2+1 Black Hole_, Phys. Rev. D48: 1506-1525, 1993 ([arXiv:gr-qc/9302012](https://arxiv.org/abs/gr-qc/9302012))
+* [[Máximo Bañados]], [[Marc Henneaux]], [[Claudio Teitelboim]], [[Jorge Zanelli]], _Geometry of the 2+1 Black Hole_, Phys. Rev. D **48** (1993) 1506-1525 &lbrack;[arXiv:gr-qc/9302012](https://arxiv.org/abs/gr-qc/9302012)&rbrack;
 
 
 On [[self-dual higher gauge fields]]:
