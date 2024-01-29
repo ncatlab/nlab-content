@@ -123,6 +123,12 @@ $$
 $$
 \end{example}
 
+\begin{example}\label{TotalFluxInHigherGaugeTheories}
+  In [[higher gauge theories]] [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType), nonabelian de Rham cohomology of a [[Cauchy surface]] with coefficients in an [[L-infinity algebra]] characteristic of the theory's [[Gauss law]] reflects the *total [[flux]]* of the [[higher gauge fields]]. 
+
+See at *[[geometry of physics -- flux quantization]]* the section *[Total flux in Nonabelian de Rham cohomology](geometry+of+physics+--+flux+quantization#TotalFluxInNonabelianDeRhamCohomology)*.
+\end{example}
+
 ## Properties
 
 ### Recipient of non-abelian character map
