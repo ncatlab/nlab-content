@@ -44,9 +44,9 @@ $$
 
 [[GeomPhys-CauchyEvolutionOfGaussLawData.jpg:file]]
 
-[[GeomPhys-GaussLawAsFlatnessCondition-240128.jpg:file]]
+[[GeomPhys-GaussLawAsFlatnessCondition-240129.jpg:file]]
 
-[[GeomPhys-CharacteristicLInfinityOfGaussLaw.jpg:file]]
+[[GeomPhys-CharacteristicLieOfGaussLaw-240129.jpg:file]]
 
 [[GeomPhys-ExamplesOfFlatLInfinityValuedForms.jpg:file]]
 
