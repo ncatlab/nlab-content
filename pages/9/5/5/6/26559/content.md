@@ -1663,6 +1663,42 @@ With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de 
 ### Flux quantization laws as Nonabelian cohomology
 
 
+**Classifying spaces for generalized cohomology.**
+A classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated even in [[mathematical physics]] -- is that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
+
+
+The archetypical examples are *[[Eilenberg-MacLane spaces]]* like $K(\mathbb{Z},n)$ which classify [[ordinary cohomology]] such as [[integral cohomology]], in any degree $n$. 
+As $n$ ranges, these EM-spaces happen to be [[loop spaces]] of each other, $K(\mathbb{Z},n) \simeq \Omega K(\mathbb{Z}, n+1)$.
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-ClassifyingSpacesForCohomology.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Generalizing from this classical example, one considers [[Whitehead-generalized cohomology theories]] which [[Brown representability theorem|are classified by]] any sequences of [[pointed topological spaces]] $\{E_n\}_{n \in \mathbb{N}}$ equipped with [[weak homotopy equivalences]] $E_n \simeq \Omega E_{n+1}$, called a *[[spectrum]] of spaces*. 
+
+This implies that each $E_n$ is an [[infinite-loop space]], which makes them be "[[abelian infinity-group|abelian $\infty$-groups]]" reflecting the fact that the homotopy classes of maps into these spaces indeed have the [[structure]] of *[[abelian groups]]*.
+
+The maybe most familiar example of such *abelian* generalized cohomology is [[topological K-theory]], whose classifying space [[KU|$KU_0$]] may be identified with the space of [[Fredholm operators]] on an infinite-dimensional [[separable]] [[complex vector space|complex]] [[Hilbert space]].
+
+While [[Whitehead-generalized cohomology theory]] has received so much attention that it is now widely understood as the default and even the exclusive meaning of "generalized cohomology", historically long preceding it is the [[nonabelian cohomology]] of [[Chern-Weil theory]], classified by the original [[classifying spaces]] $B G$ of [[compact Lie groups]] $G$. 
+
+Unless $G$ happens to be [[abelian group|abelian]] itself, this [[nonabelian cohomology]] does not assign abelian [[cohomology groups]], not even any groups at all, but just *[[pointed set|pointed]] cohomology sets*. Nevertheless, as the historical name "nonabelian cohomology" clearly indicates, these systems of cohomology sets may usefully be regarded as constituting a kind of cohomology theory, too.
+
+In this vein &lbrack;[FSS23-Char, §2](#FSS23)&rbrack; one may observe  that (the [[homotopy type]] of) *every* connected space $\mathcal{A}$ is equivalently the [[classifying space]] of an [[infinity-group]] $\Omega \mathcal{A}$, namely of its own [[loop space]] regarded as an [[A-infinity space|$A_\infty$-space]] under concatenation of loops), so that homotopy classes of maps into *any* connected space are examples of an evident generalization of Chern-Weil-style [[nonabelian cohomology]].
+
+A fundamental and ancient historical example of such "truly-generalized" [[nonabelian cohomology]] is *[[Cohomotopy|CoHomotopy]]*,
+whose classifying spaces are the ([[homotopy type|homotopy types]]) of [[spheres]].
+
+
 (...)
 
 \linebreak
