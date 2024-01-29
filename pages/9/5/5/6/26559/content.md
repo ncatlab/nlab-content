@@ -256,6 +256,7 @@ More in detail, with respect to any [[foliation]] of [[spacetime]] $X^4$ by [[sp
 
 Imagining, as Dirac did, that Faraday's rod magnet could be made *infinitely* long and thin, any one of its poles would look like an isolated [[monopole|mono-pole]] with flux concentrating towards it from all directions:
 
+\[\label{MagneticMonopoleSchematics}\]
 \begin{imagefromfile}
     "file_name": "MagneticMonopole-240124.jpg",
     "width": 600,
@@ -300,6 +301,7 @@ As such, magnetic monopoles are the *[[singular brane|singular]] 0-[[branes]]* o
 
 On the other hand, the "[[solitonic branes]] of electromagnetism" are experimentally well-established (and have famously been regarded as actual 1-[[branes]] ([[strings]]) approximated by a [[Nambu-Goto action]] &lbrack;[Nielsen & Olesen 1973](vortex+string#NielsenOlesen73); [Polyakov 2008, p. 1](vortex+string#Polyakov08); [Beekman & Zaanen 2011](vortex+string#BeekmanZaanen11)&rbrack;): These are the [[Abrikosov vortices]] formed in [[type II superconductors]] within a transverse magnetic field:
 
+\[\label{AbrikosovVortexSchematics}\]
 \begin{imagefromfile}
     "file_name": "SuperconductorVortexStructure-230304.jpg",
     "width": 720,
@@ -1270,9 +1272,11 @@ We now explain all this in more detail:
 
 
 ### Total flux in Non-abelian de Rham cohomology
- {#GaussLawsAsClosureOfHomotopyLieValuedForms}
+ {#TotalFluxInNonabelianDeRhamCohomology}
 
-We explain how higher [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and their corresponding higher [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently the closure ([[flat L-infinity algebra valued differential form|flatness]]) condition on [[L-infinity algebra valued differential form|differential forms valued in]] a characteristic [[L-infinity algebra|$L_\infty$-algebra]] (Prop. \ref{SolutionsAsFlatForms} below).
+We explain how higher [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and their corresponding higher [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently the closure ([[flat L-infinity algebra valued differential form|flatness]]) condition on [[L-infinity algebra valued differential form|differential forms valued in]] a characteristic [[L-infinity algebra|$L_\infty$-algebra]] (Prop. \ref{SolutionsAsFlatForms} below), so that *total flux* is a class in $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology} below).
+
+\linebreak
 
 The notion of $L_\infty$- or *strong homotopy Lie algebra*  is finally becoming more widely appreciated in physics, where they appear in various guises (see the references [there](L-infinity-algebra#ReferencesInPhysics)).
 Here we are concerned with  $L_\infty$-algebras
@@ -1412,7 +1416,8 @@ Some examples:
 $\;\;$**Flat $L_\infty$-algebra valued differential forms** now  have an immediate definition from
 this perspective: They are the [[dg-algebra]] [[homomorphism]] from  their CE-algebras into [[de Rham algebras]] (aka "[[Maurer-Cartan elements]]"):
 
-$$
+\[
+  \label{FlatLInfinityAlgebraValuedDifferentialForms}
   \left.
   \begin{array}{l}
     \mathfrak{a}
@@ -1423,15 +1428,15 @@ $$
   \end{array}
   \right\}
   \;\vdash\;
-  \Omega_{dR}(X;\mathfrak{a})
-  \;\equiv\;
+  \Omega_{dR}(X;\mathfrak{a})_{clsd}
+  \;\coloneqq\;
   Hom_{dgAlg}\big(
-    CE(\mathfrak{g})
+    CE(\mathfrak{a})
     ,\,
     \Omega^\bullet_{dR}(X)
   \big)
   \,.
-$$
+\]
 
 Some examples:
 
@@ -1484,17 +1489,174 @@ identified with the space of closed differential forms with coefficients in the 
 
 \end{proposition}
 
-$\;\;$**Total flux in non-abelian de Rham cohomology.** While, with Prop. \ref{SolutionsAsFlatForms}, the [[Gauss law]] of the giben [[higher gauge theory]] of Maxwell-type constrains the [[flux densities]] on any [[Cauchy surface]] $X^d \hookrightarrow X^D$ to constitute a [[flat L-infinity-algebra valued differential form|flat $L_\infty$-algebra valued differential form]], the actual value of these differential forms depends on the [[Cauchy surface]], which is an arbirary choice. 
+$\;\;$**Total flux in non-abelian de Rham cohomology.** While, with Prop. \ref{SolutionsAsFlatForms}, the [[Gauss law]] of the given [[higher gauge theory]] of Maxwell-type constrains the [[flux densities]] on any [[Cauchy surface]] $X^d \hookrightarrow X^D$ to constitute a [[flat L-infinity-algebra valued differential form|flat $L_\infty$-algebra valued differential form]], the actual value of these differential forms depends on the [[Cauchy surface]], which is an arbirary choice. 
 
 We should, therefore, regard as the *total flux* that aspect of the [[flux densities]] which is [[invariant]] under choice of [[Cauchy surfaces]].
 
-But since the [[Gauss law]] is (by Prop. \ref{SolutionSpaceViaGaussLaw}) nothing but the [[pullback of differential forms|restriction]] to the Cauchy surface of the [[Bianchi identities]] *expressed on duality-symmtric flux densities*, the argument of Prop. \ref{SolutionsAsFlatForms} shows that this invariant aspect is the [[equivalence classes]] of flux densities under [[concordance]], in the following sense:
+But since the [[Gauss law]] is (by Prop. \ref{SolutionSpaceViaGaussLaw}) nothing but the [[pullback of differential forms|restriction]] to the Cauchy surface of the [[Bianchi identities]] (on the duality-symmetric flux densities of Def. \ref{HigherMaxwellEquations}), the argument of Prop. \ref{SolutionsAsFlatForms} shows that this invariant aspect is the [[equivalence classes]] of flux densities under *[[concordance]]*:
 
-hupf
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CauchyEvolutionOfGaussLawData.jpg",
+    "width": 760,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\begin{definition}\label{NonabelianDeRhamCohomology}
+(**[[non-abelian de Rham cohomology]]** &lbrack;[FSS23-Char, Def. 6.3](#FSS23)&rbrack;)
+\linebreak
+Given an [[L-infinity algebra|$L_\infty$-algebra $\mathfrak{a}$]] and a [[smooth manifold]] $X^d$, we say that a pair of [[flat L-infinity algebra valued differential forms|closed $\mathfrak{a}$-valued differential forms]] $\vec B_0, \vec B_1 \,\in\, \Omega_{dR}\big(X^d;\mathfrak{a}\big)_{clsd}$ (eq:FlatLInfinityAlgebraValuedDifferentialForms) are *cohomologous* iff they are [[concordance|concordant]]: iff there exists a [[flat L-infinity algebra valued differential forms|closed $\mathfrak{a}$-valued differential form]] $\vec F$ on the [[cylinder]] over $X^d$ whose restriction ([[pullback of differential forms|pullback]]) to the $k$th boundary component equals $\vec B_k$:
+
+$$
+  \vec B_0
+  \;\sim\;
+  \vec B_1
+  \;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;
+  \exists
+  \;\;
+  \vec F
+  \,
+  \Omega_{dR}\big(
+    X^d \times [0,1]
+  \big)_{clsd}
+  \;
+  \text{with}
+  \;
+  \left\{
+  \begin{array}{l}
+    \vec B_1 \,=\, \iota_1^\ast \vec F
+    \\
+    \vec B_0 \,=\, \iota_0^\ast \vec F
+  \end{array}
+  \right.
+  \,.
+$$
+
+The [[quotient set]] by this [[equivalence relation]] is $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of $X^d$:
+$$
+  H_{dR}\big(
+    X^d;\mathfrak{a}
+  \big)
+  \;\coloneqq\;
+  \Omega_{dR}\big(
+    X^d;\mathfrak{a}
+  \big)_{clsd}
+  \big/
+  \sim
+  \,.
+$$
+\end{definition}
+
+This is equivalently the set of dg-homotopy classes of the corresponding dgc-homomorphisms:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-NonabDeRhamAsHomotopyClasses-240129.jpg",
+    "width": 760,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-TotalFluxInNonabDeRhamCohom.jpg",
+    "float": "right",
+    "width": 320,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 20, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+Regarding the image of flux densities in non-abelian de Rham cohomology as expressing their *total flux*
+it follows immediately that:
+
+$\;\;\;\;\;$*Total flux is preserved under time evolution.* 
 
 \linebreak
 
-With [[on-shell]] flux densities this way understood as cocycles in [[nonabelian de Rham cohomology]], we find their flux quantization laws among the corresponding [[torsion subgroup|torsion]]-ful [[nonabelian cohomology]]-theories:
+As a plausibility check, we recover the ordinary notions in the abelian case:
+
+\begin{example}
+([FSS23-Char, Prop. 6.4](#FSS23))
+\linebreak
+  In the case of ordinary electromagnetism and abelian higher gauge fields, hence for $\mathfrak{a} = b^n \mathfrak{u}(1)$ the [[line Lie n-algebra]], Def. \ref{NonabelianDeRhamCohomology} reduces to the ordinary notions:
+
+1. $\Omega_{dR}\big(X^d; b^n\mathfrak{u}(1)\big)_{clsd} \,\simeq\, \Omega^{n+1}(X^d)_{clsd}$
+
+   are ordinary [[closed differential forms]];
+
+1. [[concordance]] between these is the [[coboundary]] relation in the ordinary [[de Rham complex]];
+
+1. $H_{dR}\big(X^d;\, b^n \mathfrak{u}(1)\big) \,\simeq\, H_{dR}^{n+1}\big(X^d\big)$
+
+   is ordinary [[de Rham cohomology]].
+
+and since the latter also gives the [[periods]] of closed differential forms, this recovers indeed the usual notion of total (integrated) flux.
+
+Concretely, with 
+
+$$
+  F_2
+  \;\coloneqq\;
+  q
+  \mathrm{dvol}_{S^2}
+  \;\in\;
+  \Omega^2_{dR}\big(S^2\big)
+  \;\overset{p^\ast_{S^2}}{\longrightarrow}\;
+  \Omega^2_{dR}\big(\mathbb{R}^3 \setminus \{0\}\big)
+  \;\simeq\;
+  \Omega_{dR}\big(\mathbb{R}^3 \setminus \{0\}  
+    ;\,
+    b\mathfrak{u}(1)
+  \big)
+$$
+
+the flux density around a [[magnetic monopole]] of charge $q$ (eq:MagneticMonopoleSchematics), the total flux is 
+
+$$
+  \array{
+    H^2_{dR}\big(
+     \mathbb{R}^3 \setminus \{0\}
+    \big)
+    &\simeq&
+    H^2_{dR}\big(
+     S^2
+    \big)
+    &\simeq&
+    \mathbb{R}
+    \\
+    F_2
+    &\mapsto&
+    \big[ F_2\,  \big]
+    &\mapsto&
+    \int_{S^2} F_2
+    \mathrlap{
+      = q
+      \,.
+    }
+  }
+$$
+
+\end{example}
+
+\linebreak
+
+With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de Rham cohomology]], we find their flux quantization laws among the corresponding [[torsion subgroup|torsion]]-ful [[nonabelian cohomology]]-theories:
 
 \linebreak
 
