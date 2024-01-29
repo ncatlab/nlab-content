@@ -52,8 +52,11 @@ is the [[associator]] [[natural transformation]] (or more generally: [[associato
 For more references see at _[[braided monoidal category]]_ and at _[[coherence law]]_.
 
 
+[[!redirects pentagon identities]]
 
 [[!redirects pentagon equation]]
 [[!redirects pentagon equations]]
 
-[[!redirects pentagon identities]]
+[[!redirects pentagon law]]
+[[!redirects pentagon laws]]
+
