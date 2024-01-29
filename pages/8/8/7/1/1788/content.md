@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-CharacterMaps.jpg:file]]
+
 [[GeomPhys-ClassifyingSpacesForCohomology.jpg:file]]
 
 [[GeomPhys-TotalFluxInNonabDeRhamCohom-240129.jpg:file]]
