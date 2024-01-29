@@ -49,11 +49,14 @@ If Mochizuki's corollary 3.12 happens to be true, then [[Szpiro's conjecture]] a
 
 * Taylor Dupuy, Anton Hilado, _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, ([arxiv:2004.13108](https://arxiv.org/abs/2004.13108))
 
-* [[Kirti Joshi]], *Construction of Arithmetic Teichmuller Spaces III: A Rosetta Stone and a proof of Mochizuki's Corollary 3.12* ([arXiv:2401.13508](https://arxiv.org/abs/2401.13508))
-
 Lectures on Mochizuki's inequality:
 
 * Taylor Dupuy, "A User's Guide to Mochizuki's Inequality", Spring 2019, University of Tennesse Knoxville, Barrett Lectures ([slides](https://www.dropbox.com/s/b63figtzrg86u5t/IUTFAQ.pdf?))
+
+Claim of proof of similar statements:
+
+* [[Kirti Joshi]], *Construction of Arithmetic Teichmuller Spaces III: A Rosetta Stone and a proof of Mochizuki's Corollary 3.12* &lbrack;[arXiv:2401.13508](https://arxiv.org/abs/2401.13508)&rbrack;
+
 
 [[!redirects Mochizuki's Corollary 3.12]]
 [[!redirects Mochizuki's inequality]]
