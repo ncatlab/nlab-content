@@ -34,6 +34,12 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-TotalFluxInNonabDeRhamCohom.jpg:file]]
+
+[[GeomPhys-NonabDeRhamAsHomotopyClasses-240129.jpg:file]]
+
+[[GeomPhys-NonabDeRhamAsHomotopyClasses.jpg:file]]
+
 [[GeomPhys-CauchyEvolutionOfGaussLawData.jpg:file]]
 
 [[GeomPhys-GaussLawAsFlatnessCondition-240128.jpg:file]]
