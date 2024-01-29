@@ -1258,7 +1258,7 @@ In other words, $p$ denotes independendence if and only if it is the product of 
 In particular:
 
 * In _FinStoch_, the joint distribution $p(x,y)$ denotes independence if it is in the form $p_X(x)\,p_Y(y)$ ;
-* In _Stoch_, $p$ on $(X\times Y, \mathcal{A}\otimes\mathcal{B})$ denotes independence if for every $A\in\mathcal{A}$ and $B\in\mathcal{B}$, $p(A\otimes B) = p_X(A)\,p_Y(B)$;
+* In _Stoch_, $p$ on $(X\times Y, \mathcal{A}\otimes\mathcal{B})$ denotes independence if for every $A\in\mathcal{A}$ and $B\in\mathcal{B}$, $p(A\times B) = p_X(A)\,p_Y(B)$;
 * In _Set_, every joint state $(x,y)$ is trivially the product of its marginals $x$ and $y$: _no nontrivial correlation can happen when there is no randomness_ (see Proposition \ref{eqdet} below).
 
 We can interpret the string diagram as follows: when $p$ denotes independence of $X$ and $Y$, then $p$ "splits" and leaves them disconnected. This denotes the fact that _no information flow from $X$ to $Y$ is possible_, i.e. observing the value of $X$ does not increase our knowledge over $Y$. 
