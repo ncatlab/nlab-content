@@ -24,7 +24,7 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *(Older-Version) Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups* ([arXiv:2010.05748](https://arxiv.org/abs/2010.05748))
 
-Claim of proof of [[Mochizuki's corollary 3.12]]:
+Claim of proof of statements similar to [[Mochizuki's corollary 3.12]]:
 
 * [[Kirti Joshi]], *Appendix to Construction of Arithmetic Teichmüller spaces II($\frac{1}{2}$): Deformations of Number Fields* ([arXiv:2305.10398](https://arxiv.org/abs/2305.10398))
 
