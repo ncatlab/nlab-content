@@ -25,9 +25,9 @@
 
 **Variational calculus** -- sometimes called **secondary calculus** -- is a version of [[differential calculus]] that deals with local extremization of [[nonlinear functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping spaces]], [[spaces of sections]] and hence [[spaces of histories]] of [[field (physics)|fields]] in [[field theory]]. 
 
-Specifically, it studies the _[[critical points]]_ , i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[section]]s of [[jet bundle]]s. The kinds of equations specifying these critical points are [[Euler-Lagrange equation]]s.
+Specifically, it studies the _[[critical points]]_ , i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[sections]] of [[jet bundles]]. The kinds of equations specifying these critical points are [[Euler-Lagrange equations]].
 
-This applies to, and is largely motivated from, the study of [[action functional]]s in [[physics]]. In [[classical physics]] the critical points of a specified action functional on the space of field configurations encode the physically observable configurations.
+This applies to, and is largely motivated from, the study of [[action functionals]] in [[physics]]. In [[classical physics]] the critical points of a specified action functional on the space of field configurations encode the physically observable configurations.
 
 There are strong [[cohomology|cohomological]] tools for studying variational calculus, such as the [[variational bicomplex]] and [[BV-BRST formalism]].
 
@@ -366,7 +366,7 @@ A formalism for variational calculus based on [[functorial analysis]] (with a pr
 
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
 
-The formulation of variational calculus in terms of [[diffeological space]]s is mentioned for instance in section 1.65 of
+The formulation of variational calculus in terms of [[diffeological spaces]] is mentioned for instance in section 1.65 of
 
 * [[Patrick Iglesias-Zemmour]], _Diffeology_ ([pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf#page=64))
 {#PIZ}
