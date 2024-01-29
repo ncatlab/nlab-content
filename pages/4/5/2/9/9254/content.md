@@ -203,11 +203,13 @@ Persistent homology has strong computational limits for large data sets and majo
 
 * Paweł Dłotko, Davide Gurnari, _Euler Characteristic Curves and Profiles: a stable shape invariant for big data problems_, [arXiv:2212.01666](https://arxiv.org/abs/2212.01666)
 
-### See also
+### Relation to quantum computation
 
-Implementation on a [[quantum computer]]:
+Potential implementation of TDA on [[quantum computers]]:
 
 * He-Liang Huang, Xi-Lin Wang, Peter P. Rohde, Yi-Han Luo, You-Wei Zhao, Chang Liu, Li Li, Nai-Le Liu, Chao-Yang Lu, Jian-Wei Pan, _Demonstration of Topological Data Analysis on a Quantum Processor_, Optica 5(2), 193 (2018) ([arXiv:1801.06316](https://arxiv.org/abs/1801.06316)) 
+
+* {#IMD23} Massimiliano Incudini, Francesco Martini, [[Alessandra Di Pierro]], *Higher-order topological kernels via quantum computation*, 2023 IEEE International Conference on Quantum Computing and Engineering, QCE **1** (2023) &lbrack;[arXiv:2307.07383](https://arxiv.org/abs/2307.07383), [doi:10.1109/QCE57702.2023.00076](https://doi.ieeecomputersociety.org/10.1109/QCE57702.2023.00076)&rbrack;
 
 
 [[!include cohomotopy in topological data analysis -- references]]
