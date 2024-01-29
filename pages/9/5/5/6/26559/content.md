@@ -1597,8 +1597,6 @@ $\;\;\;\;\;$*Total flux is preserved under time evolution.*
 
 \linebreak
 
-As a plausibility check, we recover the ordinary notions in the abelian case:
-
 \begin{example}
 ([FSS23-Char, Prop. 6.4](#FSS23))
 \linebreak
@@ -1673,7 +1671,7 @@ With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de 
 
 
 **Classifying spaces for generalized cohomology.**
-A classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated even in [[mathematical physics]] -- is that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
+It is a classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated even in [[mathematical physics]] -- that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
 
 
 The archetypical examples are *[[Eilenberg-MacLane spaces]]* like $K(\mathbb{Z},n)$ which classify [[ordinary cohomology]] such as [[integral cohomology]], in any degree $n$. 
@@ -1704,11 +1702,69 @@ Unless $G$ happens to be [[abelian group|abelian]] itself, this [[nonabelian coh
 
 In this vein &lbrack;[FSS23-Char, §2](#FSS23)&rbrack; one may observe  that (the [[homotopy type]] of) *every* connected space $\mathcal{A}$ is equivalently the [[classifying space]] of an [[infinity-group]] $\Omega \mathcal{A}$, namely of its own [[loop space]] regarded as an [[A-infinity space|$A_\infty$-space]] under concatenation of loops), so that homotopy classes of maps into *any* connected space are examples of an evident generalization of Chern-Weil-style [[nonabelian cohomology]].
 
-A fundamental and ancient historical example of such "truly-generalized" [[nonabelian cohomology]] is *[[Cohomotopy|CoHomotopy]]*,
+A fundamental and historical example of such "truly-generalized" [[nonabelian cohomology]] is *[[Cohomotopy|CoHomotopy]]*,
 whose classifying spaces are the ([[homotopy type|homotopy types]]) of [[spheres]].
 
+Notice that "generalized nonabelian cohomology" is really "not necessarily abelian": It subsumes all the other cases: For $E_\bullet$ a [[spectrum]] we have
+
+$$
+  E^n(X) \,\simeq\, H^1\big(X;\, \Omega E_n\big)
+  \,.
+$$
+
+\linebreak
+
+**Character maps on generalized cohomology.**
+Moreover, it is classical that, over smooth manifolds, reasonable cohomology theories have their non-[[torsion subgroup|torsion]] content reflected in [[de Rham cohomology]] via *character maps*:
+
+* on [[integral cohomology]] this is *[[de Rham theorem]]*, 
+
+* on ordinary [[non-abelian cohomology]] this is the *[[Chern-Weil homomorphism]]*,
+
+* on [[topological K-theory]] this is the *[[Chern character]]*,
+
+* on any [[Whitehead-generalized cohomology]] this is the *[[Chern-Dold character]]*
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CharacterMaps.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+The nonabelian character map was not known in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], but it does exists [FSS23-Char, Def. IV.2](#FSS23), constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
+
+We next survey how this works.
+
+\linebreak
+
+**The Whitehead-bracket $L_\infty$-algebra of a space.**
 
 (...)
+
+**Rational homotopy theory: Discarding torsion in nonabelian cohomology.**
+
+(...)
+
+**The fundamental theorem of dg-algebraic rational homotopy theory.**
+
+(...)
+
+
+**The generalized nonabelian character map.**
+
+(...)
+
+
+**Flux quantization in nonabelian cohomology.**
+
+(...)
+
 
 \linebreak
 
