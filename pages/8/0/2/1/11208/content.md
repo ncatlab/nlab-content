@@ -46,6 +46,8 @@ Now, the category of assemblies in number realizability provides such a Heyting 
 
 * [[propositional axiom of choice]]
 
+* [[Lifschitz realizability]]
+
 [[!include computable mathematics -- table]]
 
 
