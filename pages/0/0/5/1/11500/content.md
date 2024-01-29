@@ -25,7 +25,6 @@ For $U \subset \mathbb{C}$ an [[open subset]] of the [[complex plane]] $\mathbb{
 
 $$ 
   f(\zeta) =  \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.
-  \,.
 $$
 
 Hence the [[contour integral]] picks out the enclosed _[[residues]]_.
