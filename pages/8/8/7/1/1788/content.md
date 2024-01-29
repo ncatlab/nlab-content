@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-ClassifyingSpacesForCohomology.jpg:file]]
+
 [[GeomPhys-TotalFluxInNonabDeRhamCohom.jpg:file]]
 
 [[GeomPhys-NonabDeRhamAsHomotopyClasses-240129.jpg:file]]
