@@ -1269,7 +1269,7 @@ We now explain all this in more detail:
 \linebreak
 
 
-### Gauss laws as closure of $L_\infty$-valued forms
+### Total flux in Non-abelian de Rham cohomology
  {#GaussLawsAsClosureOfHomotopyLieValuedForms}
 
 We explain how higher [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and their corresponding higher [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently the closure ([[flat L-infinity algebra valued differential form|flatness]]) condition on [[L-infinity algebra valued differential form|differential forms valued in]] a characteristic [[L-infinity algebra|$L_\infty$-algebra]] (Prop. \ref{SolutionsAsFlatForms} below).
@@ -1484,11 +1484,22 @@ identified with the space of closed differential forms with coefficients in the 
 
 \end{proposition}
 
-With [[on-shell]] flux densities this way understood as cocycles in [[nonabelian de Rham cohomology]], we find their flux quantization laws among the corresponding torsion-ful [[nonabelian cohomology]]-theories:
+$\;\;$**Total flux in non-abelian de Rham cohomology.** While, with Prop. \ref{SolutionsAsFlatForms}, the [[Gauss law]] of the giben [[higher gauge theory]] of Maxwell-type constrains the [[flux densities]] on any [[Cauchy surface]] $X^d \hookrightarrow X^D$ to constitute a [[flat L-infinity-algebra valued differential form|flat $L_\infty$-algebra valued differential form]], the actual value of these differential forms depends on the [[Cauchy surface]], which is an arbirary choice. 
+
+We should, therefore, regard as the *total flux* that aspect of the [[flux densities]] which is [[invariant]] under choice of [[Cauchy surfaces]].
+
+But since the [[Gauss law]] is (by Prop. \ref{SolutionSpaceViaGaussLaw}) nothing but the [[pullback of differential forms|restriction]] to the Cauchy surface of the [[Bianchi identities]] *expressed on duality-symmtric flux densities*, the argument of Prop. \ref{SolutionsAsFlatForms} shows that this invariant aspect is the [[equivalence classes]] of flux densities under [[concordance]], in the following sense:
+
+hupf
+
+\linebreak
+
+With [[on-shell]] flux densities this way understood as cocycles in [[nonabelian de Rham cohomology]], we find their flux quantization laws among the corresponding [[torsion subgroup|torsion]]-ful [[nonabelian cohomology]]-theories:
 
 \linebreak
 
 ### Flux quantization laws as Nonabelian cohomology
+
 
 (...)
 
