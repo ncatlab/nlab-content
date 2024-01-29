@@ -1926,6 +1926,14 @@ Finally, the current form of Markov and copy-discard categories, which is also t
   <td markdown="1"> No </td>
   <td markdown="1">[Stein et al.'23](#gauss)</td>
  </tr>
+<tr>
+  <th markdown="1">**FinSetMulti**</th>
+  <td markdown="1">Finite nonempty [[power set monad]]</td>
+  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
+  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
+  <td markdown="1"> No ([Fritz-Rischel'19](#fritzrischel))</td>
+  <td markdown="1">[Stein et al.'23](#gauss)</td>
+ </tr>
 </table>
 
 (...to be expanded...)
