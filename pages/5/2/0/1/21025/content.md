@@ -129,7 +129,7 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
   slides: [[Lambert-NonRelM2BranesAndADSCFT.pdf:file]]
 
-  cf.: [arXiv:1904.07547](https://arxiv.org/abs/1904.07547)
+  cf.: [arXiv:2401.14955](https://arxiv.org/abs/2401.14955)
 
   > We discuss a peculiar limit of [[M2-branes]] that leads to a non-relativistic [[ABJM model|Chern-Simons-matter theory]] with an infinite dimensional spacetime [[symmetry group]] and whose dynamics leads to [[quantum mechanics]] on a [[Hitchin moduli space]]. We also discuss the corresponding limit in the [[AdS-CFT correspondence|gravitational dual]] which is described by an eleven-dimensional Membrane-Newton-Cartan theory about a [[background field|background]] with an [[anti de Sitter spacetime|$AdS_2$]] factor.
 
