@@ -1271,7 +1271,7 @@ We now explain all this in more detail:
 \linebreak
 
 
-### Total flux in Non-abelian de Rham cohomology
+### Total flux as Non-abelian de Rham cohomology
  {#TotalFluxInNonabelianDeRhamCohomology}
 
 We explain how higher [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and their corresponding higher [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently the closure ([[flat L-infinity algebra valued differential form|flatness]]) condition on [[L-infinity algebra valued differential form|differential forms valued in]] a characteristic [[L-infinity algebra|$L_\infty$-algebra]] (Prop. \ref{SolutionsAsFlatForms} below), so that *total flux* is a class in $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology} below).
@@ -1428,7 +1428,7 @@ this perspective: They are the [[dg-algebra]] [[homomorphism]] from  their CE-al
   \end{array}
   \right\}
   \;\vdash\;
-  \Omega_{dR}(X;\mathfrak{a})_{clsd}
+  \Omega^1_{dR}(X;\mathfrak{a})_{clsd}
   \;\coloneqq\;
   Hom_{dgAlg}\big(
     CE(\mathfrak{a})
@@ -1455,10 +1455,10 @@ Some examples:
 
 $\;\;$**Flux densities satisfying Bianchi/Gauss laws are flat $L_\infty$-algebra-valued differential forms.**
 Remarkably, it follows that polynomials $\vec P$ defining [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and [[Gauss laws]] (eq:GaussLawFromBianchiIdentities) are equivalently structure constants of $L_\infty$-algebras 
-$\mathfrak{a}$, such that the Bianchi/Gauss law is the flatness condition on $\mathfrak{a}$-valued forms:
+$\mathfrak{a}$, such that the Bianchi/Gauss law is the closure/flatness condition on $\mathfrak{a}$-valued forms:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-CharacteristicLInfinityOfGaussLaw.jpg",
+    "file_name": "GeomPhys-CharacteristicLieOfGaussLaw-240129.jpg",
     "width": 930,
     "unit": "px",
     "margin": {
@@ -1476,7 +1476,7 @@ Given a higher gauge theory of Maxwell-type (Def. \ref{HigherMaxwellEquations}) 
 identified with the space of closed differential forms with coefficients in the $L_\infty$-algebra $\mathfrak{a}$ on $I$ $(\vec deg-1)$-graded generators with structure constants $\vec P$:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-GaussLawAsFlatnessCondition-240128.jpg",
+    "file_name": "GeomPhys-GaussLawAsFlatnessCondition-240129.jpg",
     "width": 900,
     "unit": "px",
     "margin": {
@@ -1510,7 +1510,7 @@ But since the [[Gauss law]] is (by Prop. \ref{SolutionSpaceViaGaussLaw}) nothing
 \begin{definition}\label{NonabelianDeRhamCohomology}
 (**[[non-abelian de Rham cohomology]]** &lbrack;[FSS23-Char, Def. 6.3](#FSS23)&rbrack;)
 \linebreak
-Given an [[L-infinity algebra|$L_\infty$-algebra $\mathfrak{a}$]] and a [[smooth manifold]] $X^d$, we say that a pair of [[flat L-infinity algebra valued differential forms|closed $\mathfrak{a}$-valued differential forms]] $\vec B_0, \vec B_1 \,\in\, \Omega_{dR}\big(X^d;\mathfrak{a}\big)_{clsd}$ (eq:FlatLInfinityAlgebraValuedDifferentialForms) are *cohomologous* iff they are [[concordance|concordant]]: iff there exists a [[flat L-infinity algebra valued differential forms|closed $\mathfrak{a}$-valued differential form]] $\vec F$ on the [[cylinder]] over $X^d$ whose restriction ([[pullback of differential forms|pullback]]) to the $k$th boundary component equals $\vec B_k$:
+Given an [[L-infinity algebra|$L_\infty$-algebra $\mathfrak{a}$]] and a [[smooth manifold]] $X^d$, we say that a pair of [[flat L-infinity algebra valued differential forms|closed $\mathfrak{a}$-valued differential forms]] $\vec B_0, \vec B_1 \,\in\, \Omega^1_{dR}\big(X^d;\mathfrak{a}\big)_{clsd}$ (eq:FlatLInfinityAlgebraValuedDifferentialForms) are *cohomologous* iff they are [[concordance|concordant]]: iff there exists a [[flat L-infinity algebra valued differential forms|closed $\mathfrak{a}$-valued differential form]] $\vec F$ on the [[cylinder]] over $X^d$ whose restriction ([[pullback of differential forms|pullback]]) to the $k$th boundary component equals $\vec B_k$:
 
 $$
   \vec B_0
@@ -1522,13 +1522,15 @@ $$
   \exists
   \;\;
   \vec F
-  \,
-  \Omega_{dR}\big(
+  \,\in\,
+  \Omega^1_{dR}\big(
     X^d \times [0,1]
+    ;\,
+    \mathfrak{a}
   \big)_{clsd}
-  \;
+  \;\;\;
   \text{with}
-  \;
+  \;\;\;
   \left\{
   \begin{array}{l}
     \vec B_1 \,=\, \iota_1^\ast \vec F
@@ -1539,22 +1541,26 @@ $$
   \,.
 $$
 
-The [[quotient set]] by this [[equivalence relation]] is $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of $X^d$:
+The [[quotient set]] by this [[equivalence relation]] is $\mathfrak{a}$-valued *[[nonabelian de Rham cohomology]]* of $X^d$:
 $$
-  H_{dR}\big(
+  H^1_{dR}\big(
     X^d;\mathfrak{a}
   \big)
   \;\coloneqq\;
-  \Omega_{dR}\big(
-    X^d;\mathfrak{a}
+  \Omega^1_{dR}\big(
+    X^d
+    ;\,
+    \mathfrak{a}
   \big)_{clsd}
-  \big/
+  \Big/
+  \!
   \sim
   \,.
 $$
 \end{definition}
 
-This is equivalently the set of dg-homotopy classes of the corresponding dgc-homomorphisms:
+For comparison to the flux quantization rules discussed [below](#FluxQuantizationLawsAsNonabelianCohomology)
+it is useful to understand this equivalently &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack; as the set of dg-homotopy classes of the corresponding dgc-homomorphisms:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-NonabDeRhamAsHomotopyClasses-240129.jpg",
@@ -1596,13 +1602,13 @@ As a plausibility check, we recover the ordinary notions in the abelian case:
 \linebreak
   In the case of ordinary electromagnetism and abelian higher gauge fields, hence for $\mathfrak{a} = b^n \mathfrak{u}(1)$ the [[line Lie n-algebra]], Def. \ref{NonabelianDeRhamCohomology} reduces to the ordinary notions:
 
-1. $\Omega_{dR}\big(X^d; b^n\mathfrak{u}(1)\big)_{clsd} \,\simeq\, \Omega^{n+1}(X^d)_{clsd}$
+1. $\Omega^1_{dR}\big(X^d; b^n\mathbb{R}\big)_{clsd} \,\simeq\, \Omega^{n+1}(X^d)_{clsd}$
 
    are ordinary [[closed differential forms]];
 
 1. [[concordance]] between these is the [[coboundary]] relation in the ordinary [[de Rham complex]];
 
-1. $H_{dR}\big(X^d;\, b^n \mathfrak{u}(1)\big) \,\simeq\, H_{dR}^{n+1}\big(X^d\big)$
+1. $H^1_{dR}\big(X^d;\, b^n \mathbb{R}\big) \,\simeq\, H^{n+1}_{dR}\big(X^d\big)$
 
    is ordinary [[de Rham cohomology]].
 
@@ -1620,9 +1626,9 @@ $$
   \;\overset{p^\ast_{S^2}}{\longrightarrow}\;
   \Omega^2_{dR}\big(\mathbb{R}^3 \setminus \{0\}\big)
   \;\simeq\;
-  \Omega_{dR}\big(\mathbb{R}^3 \setminus \{0\}  
+  \Omega^1_{dR}\big(\mathbb{R}^3 \setminus \{0\}  
     ;\,
-    b\mathfrak{u}(1)
+    b\mathbb{R}
   \big)
 $$
 
@@ -1661,6 +1667,7 @@ With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de 
 \linebreak
 
 ### Flux quantization laws as Nonabelian cohomology
+ {#FluxQuantizationLawsAsNonabelianCohomology}
 
 
 **Classifying spaces for generalized cohomology.**
