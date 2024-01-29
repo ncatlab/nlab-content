@@ -1918,6 +1918,14 @@ Finally, the current form of Markov and copy-discard categories, which is also t
   <td markdown="1"> ? </td>
   <td markdown="1">[Fritz et al'23](#dilations)</td>
  </tr>
+<tr>
+  <th markdown="1">**Gauss**</th>
+  <td markdown="1">?</td>
+  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
+  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
+  <td markdown="1"> No </td>
+  <td markdown="1">[Stein et al.'23](#gauss)</td>
+ </tr>
 </table>
 
 (...to be expanded...)
@@ -1998,7 +2006,7 @@ Slides from talks:
 
 An introduction to comonoid objects and the idea of copying and discarding can be found in Section 6.2 of the book
 
-* {#perrone_book} [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024.
+* {#perrone_book} [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024. ([coming soon](https://www.worldscientific.com/worldscibooks/10.1142/13670))
 
 
 ### Historical references (see [History](#history)):
@@ -2057,7 +2065,7 @@ An introduction to comonoid objects and the idea of copying and discarding can b
 
 * [[Tobias Fritz]], [[Fabio Gadducci]], [[Paolo Perrone]] and Davide Trotta, _Weakly Markov categories and weakly affine monads_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2303.14049))
 
-* Dario Stein and Richard Samuelson, _A Category for unifying Gaussian Probability and Nondeterminism_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2204.14024))
+* {#gauss} Dario Stein and Richard Samuelson, _A Category for unifying Gaussian Probability and Nondeterminism_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2204.14024))
 
 * Dario Stein and [[Sam Staton]], _Probabilistic Programming with Exact Conditions_, JACM, 2023. ([arXiv](https://arxiv.org/abs/2312.17141))
 
@@ -2065,14 +2073,24 @@ An introduction to comonoid objects and the idea of copying and discarding can b
 
 * Dario Stein and Richard Samuelson, _Towards a Compositional Framework for Convex Analysis (with Applications to Probability Theory)_, 2023. ([arXiv](https://arxiv.org/abs/2312.02291))
 
+* Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
+
 * Noé Ensarguet and [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions_, and transitions to equilibrium, 2023. ([arXiv:2310.04267](https://arxiv.org/abs/2310.04267))
 
 * [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
+* [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
+
 The research on Markov categories is still largely in progress, so this list will keep growing.
 
 
+### References about Markov kernels
 
+* {#Kallenberg17} Olaf Kallenberg, Random Measures, Theory and Applications, Springer, 2017.
+
+* {#BM19} Vladimir Bogachev and Il’ya Malofeev, Kantorovich problems and conditional measures depending on a parameter. ([arXiv](https://arxiv.org/abs/1904.03642))
+
+See also [[Markov kernel]], [[Stoch]].
 
 [[!redirects Markov categories]]
 [[!redirects markov category]]
