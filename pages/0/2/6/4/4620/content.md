@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[logic and foundations]], a __principle of omniscience__ is any principle of [[classical mathematics]] that is not valid in [[constructive mathematics]].  The idea behind the name (which is due to [Bishop (1967)](#Bishop)) is that, if we attempt to extend the [[computation|computational]] interpretation of constructive mathematics to incorporate one of these principles, we would have to know something that we cannot compute.  The main example is the law of [[excluded middle]] ($EM$); to apply $p \vee \neg{p}$ computationally, we must know which of these [[disjunction|disjuncts]] hold; to apply this in all situations, we would have to know everything (hence 'omniscience').
+In [[logic and foundations]], a __principle of omniscience__ is any principle of [[classical mathematics]] that is not valid in [[constructive mathematics]].  The idea behind the name (which is due to [Bishop (1967)](#Bishop67)) is that, if we attempt to extend the [[computation|computational]] interpretation of constructive mathematics to incorporate one of these principles, we would have to know something that we cannot compute.  The main example is the law of [[excluded middle]] ($EM$); to apply $p \vee \neg{p}$ computationally, we must know which of these [[disjunction|disjuncts]] hold; to apply this in all situations, we would have to know everything (hence 'omniscience').
 
 Bishop\'s principles of omniscience (stated below) may be seen as principles that extend classical logic from [[predicates]] (where $EM$ may happen to be valid, even constructively, for certain predicates) to their [[quantifications]] over infinite domains (where $EM$ is typically not constructively valid).
 
@@ -36,11 +36,11 @@ which implies
 $$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
 as $P$ is decidable.
 
-We have not stated the domain of quantification of the variable $x$.  If you take it to be the [[subsingleton]] corresponding to a given [[truth value]] and apply this principle to the constantly [[true]] proposition, then $EM$ follows; conversely, $EM$ implies $LPO$ (over any domain).  However, Bishop\'s $LPO$ takes the domain to be the set of [[natural numbers]], giving a weaker principle than $EM$.  (It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer (2011)](#Bauer).)  Note that propositions of the form $\exists x, P(x)$ when $P$ is decidable are the [[open truth values]] in the [[Rosolini dominance]].
+We have not stated the domain of quantification of the variable $x$.  If you take it to be the [[subsingleton]] corresponding to a given [[truth value]] and apply this principle to the constantly [[true]] proposition, then $EM$ follows; conversely, $EM$ implies $LPO$ (over any domain).  However, Bishop\'s $LPO$ takes the domain to be the set of [[natural numbers]], giving a weaker principle than $EM$.  (It appears that a [[realizability topos]] based on infinite-time [[Turing machine]]s validates $LPO$ but not $EM$; see [Bauer (2011)](#Bauer11).)  Note that propositions of the form $\exists x, P(x)$ when $P$ is decidable are the [[open truth values]] in the [[Rosolini dominance]].
 
 We can also state the principle set-theoretically, with explicit reference to the domain of quantification.  Given a [[set]] $A$, the __limited principle of omniscience for $A$__ ($LPO_A$) states that, given any [[function]] $f$ from $A$ to the [[boolean domain]] $\{0,1\}$, either $f$ is the [[constant map]] to $0$ or $1$ belongs to the [[image]] of $f$.  Then Bishop\'s $LPO$ is $LPO_{\mathbb{N}}$, which applies to any [[infinite sequence]] of [[bits]].
 
-While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology.  See [Escard&#243; (2011)](#Escardo) for this and much more.
+While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology.  See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
 
 ## The lesser limited principle of omniscience
@@ -164,9 +164,9 @@ There are various other results that are equivalent to the principles of omnisci
 
 There are various other results that are related to the principles of omniscience. Here are a few:
 
-* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds; there exists a radix expansion for every [[Dedekind real number]] has iff the analytic $\mathrm{LLPO}$ holds. Without [[weak countable choice]], Lifschitz realizability gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]], which implies that there are models in which the analytic LLPO holds but it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Swan). In addition, the analytic $\mathrm{LLPO}$ holds for the [[Dedekind real numbers]] in [[condensed sets]], but every function from the Dedekind real numbers to the [[boolean domain]] $\mathbb{2}$ is a [[constant function]], which implies that it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. 
+* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds; there exists a radix expansion for every [[Dedekind real number]] has iff the analytic $\mathrm{LLPO}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]], which implies that there are models in which the analytic LLPO holds but it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Swan24). In addition, the analytic $\mathrm{LLPO}$ holds for the [[Dedekind real numbers]] in [[condensed sets]], but every function from the Dedekind real numbers to the [[boolean domain]] $\mathbb{2}$ is a [[constant function]], which implies that it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. 
 
-* In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+* In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
 
 * That every Cauchy real number has a choice of [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) implies that the $\mathrm{WLPO}_\mathbb{N}$ holds; that every Dedekind real number has a choice of radix expansion implies that the analytic $\mathrm{WLPO}$ holds. 
 
@@ -180,23 +180,27 @@ There are various other results that are related to the principles of omniscienc
 
 ## References
 
-* {#Bauer}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
+* {#Bauer11}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
 
-*  {#Bishop} [[Errett Bishop]] (1967), _[[Foundations of Constructive Analysis]]_ (in the introduction or chapter 1, I forget)
+* {#Bishop67} [[Errett Bishop]] (1967), _[[Foundations of Constructive Analysis]]_ (in the introduction or chapter 1, I forget)
 
-*  {#Escardo} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
+* {#Escardo11} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
 
-* {#Mehkeri} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
+* {#Mehkeri10} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
 
-* {#Swan} Madeleine Birchfield (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
+* {#Swan24} Madeleine Birchfield (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
 
-* {#UFP} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
-* {#Booij} [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
+* {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
+
+* {#RathjenSwan20} [[Michael Rathjen]], [[Andrew Swan]], *Lifschitz Realizability as a Topological Construction*. The Journal of Symbolic Logic, Volume 85, Issue 4, December 2020, pp. 1342 - 1375. &lbrack;[doi:10.1017/jsl.2021.1](https://doi.org/10.1017/jsl.2021.1), [arXiv:1806.10047](https://arxiv.org/abs/1806.10047)&rbrack;
+
+* {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
 The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
 
-* {#Shulman} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+* {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 
 [[!redirects principle of omniscience]]
