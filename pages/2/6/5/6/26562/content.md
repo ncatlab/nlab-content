@@ -89,6 +89,8 @@ Here is a partial list, in alphabetical order.
 
 * [[ergodic decomposition theorem]] (...)
 
+* filtering (...)
+
 * [[idempotent completion]] of [[BorelStoch]] (...)
 
 * joint and marginal distributions (...)
@@ -213,13 +215,20 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 
 * Alex Simpson, _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
 
+* Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
+
 * Chris Heunen, Ohad Kammar, Sam Staton, Hongseok Yang, _A Convenient Category for Higher-Order Probability Theory_, ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
+
+* {#panangaden_markov} Prakash Panangaden, _Labelled Markov processes_, Imperial College Press, 2009.
 
 * {#panangaden_condexp} Prakash Panangaden, _A categorical view of conditional expectation_, ([slides](http://math.ucr.edu/home/baez/mathematical/ACTUCR/Panagaden_Conditional_Expectation.pdf))
 
 * Dario Stein and [[Sam Staton]], _Probabilistic Programming with Exact Conditions_, JACM, 2023. ([arXiv](https://arxiv.org/abs/2312.17141))
 
 * [[Bart Jacobs]], _A Channel-Based Perspective on Conjugate Priors_, ([arXiv:1707.00269](https://arxiv.org/abs/1707.00269))
+
+
+* [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
 
 (...more to add...)
 
