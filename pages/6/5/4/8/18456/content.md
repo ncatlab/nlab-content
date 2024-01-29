@@ -29,7 +29,12 @@ The [[dimensional reduction]] of the standard [[supermultiplets]] of $D = 4, \ma
 
 * {#GatesHubschStiffler14} [[Jim Gates]], [[Tristan Hübsch]], Kory Stiffler, _Adinkras and SUSY Holography_, Int. J. Mod. Phys. A29 no. 7, (2014) 1450041 ([arXiv:1208.5999](https://arxiv.org/abs/1208.5999))
 
-## Related $n$Lab entries
+On [[Yukawa couplings]] in [[string phenomenology]] for [[heterotic strings]] on [[Calabi-Yau manifolds]]:
+
+* Giorgi Butbaia, Damián Mayorga Peña, Justin Tan, Per Berglund, [[Tristan Hübsch]], Vishnu Jejjala, Challenger Mishra, *Physical Yukawa Couplings in Heterotic String Compactifications* &lbrack;[arXiv:2401.15078](https://arxiv.org/abs/2401.15078)&rbrack;
+
+
+## Related entries
 
 * [[adinkra]]
 
