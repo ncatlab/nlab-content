@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-CFieldGaugeAlgebraAsWhiteheadBracket.jpg:file]]
+
 [[GeomPhys-FurtherExamplesOfSullivanModels.jpg:file]]
 
 [[GeomPhys-FirstExamplesOfSullivanModels.jpg:file]]
