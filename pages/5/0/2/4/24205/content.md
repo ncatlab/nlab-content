@@ -73,3 +73,9 @@ It should be noted that the above can be compressed, to specify a function $f : 
 * {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, LICS 2014 ([pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/))
 
 Formalization that $K(G,n)$ is a spectrum [here](https://github.com/HoTT/HoTT-Agda/blob/master/homotopy/EilenbergMacLane.agda)
+
+[[!redirects Eilenberg-MacLane space types]]
+
+[[!redirects Eilenberg-MacLane type]]
+[[!redirects Eilenberg-MacLane types]]
+
