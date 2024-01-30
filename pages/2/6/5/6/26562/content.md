@@ -76,11 +76,11 @@ In addition, the category-theoretic formalism often trades higher complexity for
 
 Thirdly, and most importantly, *new theorems* have been proven, as well as generalizations and extensions of old theorems, especially from the discrete to the continuous case. 
 
-Here is a partial list, in alphabetical order.
+Here is a partial list, roughly in alphabetical order, roughly divided by subject.
 
 (Work in progress, especially adding the relevant references.)
 
-### Probability and measure theory:
+### Probability and measure theory
 
 * [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
@@ -92,7 +92,7 @@ Here is a partial list, in alphabetical order.
 
 * [[ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* [[idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structurel consequences, proven in [FGLPS'23](#markov_supports).
+* [[idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
 
 * [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
 
@@ -126,7 +126,7 @@ Here is a partial list, in alphabetical order.
 
 ### Information theory
 
-* [[entropy]] and [[data processing inequalities]]: were expressed using [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
+* [[entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
 
 (...)
 
