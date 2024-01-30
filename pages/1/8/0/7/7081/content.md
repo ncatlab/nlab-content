@@ -41,11 +41,15 @@ In [[propositions as types]] language, this can be pronounced as "every two elem
 +-- {: .num_prop}
 ###### Proposition
 
-The following are three provably [[equivalence in homotopy type theory|equivalent]] definitions of $isProp(A)$, in terms of the dependent type $isContr(-)$ that checks for [[contractible types]]:
+The following are provably [[equivalence in homotopy type theory|equivalent]] definitions of $isProp(A)$:
 
 * $isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isContr(x=y) $
 * $ isProp(A) \coloneqq (A \to isContr(A)) $
-* $isProp(A) \coloneqq \mathrm{isEquiv}(\mathrm{const}_{\mathrm{bool}, A})$
+* $isProp(A) \coloneqq \mathrm{isEquiv}(\mathrm{const}_{\mathbb{2}, A})$
+* $isProp(A) \coloneqq \prod_{f:\mathbb{2} \to A} f(0) = f(1)$
+* $isProp(A) \coloneqq \prod_{f:\mathbb{2} \to A} isContr(f(0) = f(1))$
+* $isProp(A) \coloneqq \prod_{f:\mathbb{2} \to A} \prod_{x:\mathbb{2}} \prod_{y:\mathbb{2}} f(x) = f(y)$
+* $isProp(A) \coloneqq \prod_{f:\mathbb{2} \to A} \sum_{p:\mathbb{I} \to A} \prod_{x:\mathbb{2}} p(\mathrm{rec}_\mathbb{2}^\mathbb{I}(0_\mathbb{I}, 1_\mathbb{I})(x)) = f(x)$
 
 =--
 
@@ -54,8 +58,16 @@ The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $
 The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]", and when [[isContr]] is expanded out to $\sum_{x:A} \prod_{y:A} x =_A y$, the resulting type $A \to \sum_{x:A} \prod_{y:A} x =_A y$ is just the type of the [[graph of a dependent function|graphs of dependent functions]] of $\prod_{x:A} \prod_{y:A} x =_A y$. 
 
 The third states that being a proposition is the same as being a $\mathrm{bool}$-[[localization of a type|local type]]: the function 
-$$\mathrm{const}_{\mathrm{bool}, A} \equiv \lambda x:A.\lambda b:\mathrm{bool}.x:A \to (\mathrm{bool} \to A)$$ 
+$$\mathrm{const}_{\mathbb{2}, A} \equiv \lambda x:A.\lambda b:v.x:A \to (\mathrm{bool} \to A)$$ 
 which takes elements $x:A$ to [[constant functions]] from the [[boolean domain]] with value $x$ is an [[equivalence of types]]. 
+
+The fourth states that being a proposition is equivalent to the condition that for every function from the [[boolean domain]], $f(0) = f(1)$, and is interderivable from the usual definition of isProp via the recursion principle of the boolean domain. 
+
+The fifth states that being a proposition is equivalent to the condition that for every function from the [[boolean domain]], $f(0) = f(1)$ is contractible, and is interderivable from the first via the recursion principle of the boolean domain. 
+
+The sixth states that being a proposition is equivalent to the condition that every function from the [[boolean domain]] is a [[weakly constant function]], and can be proven to be equivalent to the fourth via double induction on the boolean domain and the properties of identity types. 
+
+The seventh states that being a proposition is equivalent to the condition that every function from the [[boolean domain]] to $A$ factors through the [[interval type]] via the function $\mathrm{rec}_\mathbb{2}^\mathbb{I}(0_\mathbb{I}, 1_\mathbb{I}):\mathbb{2} \to \mathbb{I}$ defined by the recursion principle of the boolean domain. 
 
 ### Rules for isProp
 
@@ -84,11 +96,9 @@ $$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p
 
 * We can prove that for any $A$, the type $isProp(A)$ is an h-proposition, i.e. $isProp(isProp(A))$.  Thus, any two inhabitants of $isProp(A)$ (witnesses that $A$ is an h-proposition) are "equal".
 
-* If $A$ and $B$ are h-props and there exist maps $A\to B$ and $B\to A$, then $A$ and $B$ are [[equivalence in homotopy type theory|equivalent]].
+* Every function between h-propositions $A$ and $B$ is an [[embedding of types]]. 
 
-
-
-
+* If $A$ and $B$ are h-props and there exist maps $A\to B$ and $B\to A$, then $A$ and $B$ are [[equivalence of types|equivalent]]. This follows from the fact that if $A$ and $B$ are types and there exists embeddings $A\to B$ and $B\to A$, then $A$ and $B$ are equivalent. 
 
 ## Categorical semantics
 
