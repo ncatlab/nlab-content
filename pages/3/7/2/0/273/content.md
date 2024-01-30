@@ -373,6 +373,12 @@ On the non-abelian [[Chern-Dold character]]:
 
 
 
-
 [[!redirects non-abelian cohomology]]
+
+[[!redirects nonabelian cohomology theory]]
+[[!redirects nonabelian cohomology theories]]
+
+[[!redirects non-abelian cohomology theory]]
+[[!redirects non-abelian cohomology theories]]
+
 
