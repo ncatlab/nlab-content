@@ -29,7 +29,7 @@ One can however also take _infinite products_. In some situations, such as in [[
 In measure-theoretic [[probability theory]], such a construction is provided by [[Kolmogorov's extension theorem]], and the same idea can be used in general:
 
 - In a category with products, an infinite product can be expressed as a [[cofiltered limit]] of finite products.
-- Similarly, one can define an *infinitary tensor product* as a cofiltered limit, if it exists, if finite *tensor* products*.
+- Similarly, one can define an *infinitary tensor product* as a cofiltered limit, if it exists, of finite *tensor* products*.
 
 
 ## Definition
