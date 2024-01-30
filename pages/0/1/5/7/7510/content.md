@@ -798,6 +798,19 @@ defined by $\mathrm{graph}(f)(x) \equiv (x, f(x))$ for all $x:A$. As a [[depende
 
 $$x:A, y:B(x) \vdash f(x) =_{B(x)} y$$
 
+### Relation to sections
+
+A family of type $x:A \vdash B(x)$ is equivalently a type $B$ with a function $f:B \to A$. Then each $B(x)$ is defined as the fiber of $f$ at element $x:A$. Then the dependent product of a function is defined as the dependent product type
+
+$$\Pi_{A, B}(f) \coloneqq \prod_{x:A} \sum_{y:B} f(y) =_A x$$
+
+or equivalently, due to the [[type theoretic axiom of choice]], as the dependent sum type
+
+$$\Pi_{A, B}(f) \coloneqq \sum_{g:A \to B} \prod_{x:A} f(g(x)) =_A x$$
+
+which says that $g$ is a [[section]] of $f$. One could eliminate the use of the dependent product type entirely by using the definition of dependent product type from function types:
+
+$$\Pi_{A, B}(f) \coloneqq \sum_{g:A \to B} \sum_{h:A \to \sum_{x:A} f(g(x)) =_A x} \mathrm{pr}_{\sum}^{A} \circ h =_{A \to A} \mathrm{id}_A$$ 
 
 ## Categorical interpretation
 
@@ -828,6 +841,10 @@ The standard rules for type-formation, term introduction/elimination and computa
 Another textbook account could be found in section 2.1 of:
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+as well as sections 1.4 and 2.9 of:
+
+* {#UFP13} [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 See also:
 
