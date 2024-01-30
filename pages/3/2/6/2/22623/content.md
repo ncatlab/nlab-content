@@ -60,7 +60,7 @@ $$
   \ell hook_\lambda(i,j)
   \;\coloneqq\;
   1 +
-  (\lambda_i - j) + (\lambda'_j - 1)
+  (\lambda_i - j) + (\lambda'_j - i)
   \,,
 $$
 
