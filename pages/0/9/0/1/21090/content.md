@@ -1939,7 +1939,7 @@ Both *FinStoch* and *BorelStoch* have conditionals.
 
 ### Representable Markov categories
 
-[As we explained above](#kleisli_categories_of_probability_monads), this often gives rise to a Markov category. 
+[As we explained above](#kleisli_categories_of_probability_monads), a [[probability monad]] often gives rise to a Markov category. 
 
 Conversely, consider a Markov category $C$. 
 
@@ -1966,7 +1966,7 @@ For a Markov category $C$, the following conditions are equivalent.
 
 1. Every object of $C$ has a distribution object.
 2. The inclusion functor $C_det\to C$ has a right adjoint (which we denote by $P$). 
-3. $C$ is isomorphic to the Kleisli category of a monad on $C_det$.
+3. $C$ is isomorphic to the Kleisli category of a commutative affine monad on $C_det$.
 
 \end{theorem}
 
@@ -1994,9 +1994,27 @@ This also corresponds to the idea of sampling in [[probabilistic programming]], 
 
 ### Kolmogorov products
 
-(...)
+Kolmogorov products are a way to equip a Markov category with an [[infinitary tensor product]].
+The idea can be seen as an abstraction of the [[Kolmogorov extension theorem]] for [[probability measures]].
 
-### Positivity
+Let $C$ be a Markov category, and let $(X_j)_{j\in J}$ be a family of obejcts. A **Kolmogorov product** of them is an [[infinite tensor product]] 
+$$
+X_J=\bigotimes_{j\in J}
+$$
+such that all finite projections (marginalizations) $X_J\to X_F$, with $F\subseteq J$ finite, are deterministic morphisms.
+
+Using the universal property of limits, this says that a joint distribution on $X_J$ is equivalently given by joint distributions on all the finite subsets of $J$, which are compatible with the restrictions.
+
+* *BorelStoch* has all countable Kolmogorov products by means of the [[Kolmogorov extension theorem]].
+
+* In *Set*, and in every [[cartesian monoidal category]], Kolmogorov products coincide with ordinary products (when they exist for those cardinality). 
+
+Because of this, a Kolmogorov product on $C$ restricts to a [[cartesian product]] in the category $C_det$ of deterministic morphisms.
+
+
+### Positivity and causality
+
+Positivity and causality are two additional axioms for Markov categories, introduced in [Fritz'20](#fritzmarkov), which hold in categories of kernels such as [[Stoch]].
 
 A Markov category is called **positive** if and only if whenever two morphisms $f:X\to Y$ and $g:Y\to Z$ are such that $g\circ f:X\to Z$ is deterministic, then the following holds,
 
@@ -2053,16 +2071,6 @@ i.e. the resulting joint morphism on the left makes $Y$ and $Z$ conditionally in
 
 Equivalently, a Markov category is positive if and only if  for every joint morphism $h:A\to X\otimes Y$ such that one of its marginals is deterministic, $h$ exhibits conditional independents of its outputs given its input.
 
-(...)
-
-\begin{proposition}
-Every Markov category with all conditionals is positive ([Fritz'20](#fritzmarkov), Lemma 11.24). 
-\end{proposition}
-
-The converse is false, as witnessed by [[Stoch]].
-
-
-### Causality
 
 A Markov category is called **causal** if whenever the following equation holds,
 
@@ -2188,11 +2196,28 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 Every Markov category with all conditionals is causal ([Fritz'20](#fritzmarkov), Proposition 11.34), and every causal Markov category is positive ([Fritz et al'23](#dilations), Theorem 2.24). Both converses are false.
 \end{theorem}
 
-(...)
+The category [[Stoch]] is causal (but ot doesn't have all conditionals).
+
 
 ### The _ProbStoch_ construction
 
-(...)
+The _ProbStoch_ construction on a Markov category formalizes the idea of a category of [[probability spaces]]. Morphisms are identified when they agree almost surely, so that universal properties in that category tend to encode universal properties that hold "up to probability zero".
+Moreover, if conditionals exist, the _ProbStoch_ construction gives an abstraction of the [[category of couplings]].
+
+Let $C$ be a causal Markov category. The category **$ProbStoch(C)$** is defined as follows.
+
+* Its [[objects]] are pairs $(X,p)$ where $X$ is an object of $C$, and $p:I\to X$ is a state on $X$. 
+* Its [[morphisms]] $(X,p)\to(Y,q)$ are equivalence classes of morphisms $f:X\to Y$ of $C$ under $p$-almost sure equality, and such that $f\circ p=q$. 
+
+The causality condition is required in order for composition to be well defined on the equivalence classes.
+
+In general $ProbStoch(C)$ is not a Markov category, but only a [[semicartesian monoidal category]].
+
+\begin{proposition}
+If a Markov category $C$ has all conditionals, $ProbStoch(C)$ is a [[dagger category]], with the daggers given by Bayesian inverses. 
+\end{proposition}
+
+For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is the category [[Krn]].
 
 
 ## History
