@@ -129,6 +129,8 @@ See also
 
 * Emmanuele Battista, [[Harold C. Steinacker]], *One-loop effective action of the IKKT model for cosmological backgrounds* &lbrack;[arXiv:2310.11126](https://arxiv.org/abs/2310.11126)&rbrack;
 
+* Samuel Laliberte, *Effective mass and symmetry breaking in the IKKT matrix model from compactification* &lbrack;[arXiv:2401.16401](https://arxiv.org/abs/2401.16401)&rbrack;
+
 
 
 
