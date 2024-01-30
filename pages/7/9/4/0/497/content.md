@@ -149,6 +149,8 @@ or the always true statement that every [[split surjection]] splits.
 
 * The [[boolean domain]] $2$ is a [[frame]] iff the [[category of sets]] is a [[Boolean topos]]. This implies that one can do [[topology]] (using [[topological spaces]], [[locales]], [[formal topologies]], etc) directly using the boolean domain as the frame of open truth values. 
 
+* The [[poset of truth values]] is an [[inequality space]].
+
 ## Double-negated PEM
  {#DoubleNegatedPEM}
 
