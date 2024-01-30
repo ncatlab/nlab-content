@@ -2224,8 +2224,10 @@ For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is
 
 In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
 
-The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in unpublished notes ([Lawvere'62](#Lawvere62)).
+The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in unpublished notes ([Lawvere'62](#Lawvere62), see also the explanation by Lawvere himself in [this video](https://www.youtube.com/watch?v=BhKaHAY8Ec8&t=3621s), time 1:00:21.)
 The same category was studied independently by Chentsov ([Chentsov'65](#Chentsov65)), who wrote in Russian. It is likely that Lawvere and Chentsov remained unaware of each other's work for several decades. 
+
+
 
 Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of the [[Giry monad|monad which brings her name]].
 Shortly after, computer scientists such as [[Eugenio Moggi|Moggi]] and [[Gordon Plotkin|Plotkin]] started considering monads in the context of effectful programming ([Moggi'89](#moggi89)), with probabilistic computation as a special case ([Jones-Plotkin'89](#jones_plotkin89)). (More details in [[monad (in computer science)]].)
