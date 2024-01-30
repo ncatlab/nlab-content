@@ -1687,6 +1687,7 @@ With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de 
  {#FluxQuantizationLawsAsNonabelianCohomology}
 
 
+{#ClassifyingSpacesForGeneralizedCohomology}
 **Classifying spaces for generalized cohomology.**
 It is a classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated even in [[mathematical physics]] -- that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
 
@@ -1754,7 +1755,7 @@ Moreover, it is classical that, over smooth manifolds, reasonable cohomology the
     }
 \end{imagefromfile}
 
-The nonabelian character map was not known in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], but it does exists [FSS23-Char, Def. IV.2](#FSS23), constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
+The nonabelian character map was not known in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], but it does exists &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;, constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
 
 We next survey how this works. 
 
@@ -1767,9 +1768,7 @@ The key point is that [[rational homotopy theory]] characterizes the non-[[torsi
 
 For a [[topological space]] $\mathcal{A}$ which is
 
-1. [[simply connected topological space|simply connected]]: 
-
-   $\pi_0(i) = \ast$,\; $\pi_1(i) = 1$,
+1. [[simply connected topological space|simply connected]]: $\pi_0(i) = \ast$,\; $\pi_1(i) = 1$,
 
 1. of rational [[finite type]]: $\mathrm{dim}_{\mathbb{Q}}\big(H^n(\mathcal{A}; \mathbb{Q})\big) \lt \infty$.
 
@@ -1814,18 +1813,20 @@ there is a polynomial dgc-algebra over $\mathbb{R}$, unique up to dga-[[isomorph
 This [[dgc-algebra]] is known as the [[minimal model|minimal]] **[[Sullivan model]]** of $\mathcal{A}$.
 By (eq:FinTypeLInfinityAlgebrasAsDGCAlgebras) it is the [[Chevalley-Eilenberg algebra]] of an [[L-infinity algebra|$L_\infinity$-algebra]] (essentially the "Quillen model"): The [[Whitehead bracket]] algebra structure on the $\mathbb{R}$-rational [[homotopy groups]] of the [[loop space]]
 
-$$
+\[
+ \label{WhiteheadLInfinityAlgebra}
   \mathfrak{l}\mathcal{A}
   \;=\;
+  \color{darkblue}
   \pi_\bullet\big(
     \Omega \mathcal{A}
   \big) \otimes_{\mathbb{Z}} \mathbb{R}
   \,.
-$$
+\]
 
-(Think of "$\mathfrak{l}$" as standing for "Lie" or for "loops".)
+(Think of "$\mathfrak{l}(-)$" as standing for "Lie" or for "loops".)
 
-Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l}\mathcal{A}$:
+Some examples for how to use Prop. \ref{SullivanTheorem} to compute [[Sullivan models]] and hence $\mathbb{R}$-[[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] $\mathfrak{l}\mathcal{A}$ of spaces:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FirstExamplesOfSullivanModels.jpg",
@@ -1850,6 +1851,157 @@ Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l
         "left": -3
     }
 \end{imagefromfile}
+
+Many of the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] of familar spaces do not have established names as [[L-infinity algebras|$L_\infty$-algebras]]. An interesting exception is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] of the [[4-sphere]], which happens to coincide with what in [[D=11 supergravity]]-theory is known (quite independently) as the  *gauge algebra of the C-field* &lbrack;[Cremmer, Julia, Lu & Pope 1998, (2.6)](#CremmerJuliaLuPope98); [Sati 2010, §4](#Sati10); [Sati & Voronov 2022, (13)](#SatiVoronov22)&rbrack; (see more references [there](D=11+N=1+supergravity#ReferencesCFieldGaugeAlgebra)):
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CFieldGaugeAlgebraAsWhiteheadBracket.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\begin{remark} 
+**(prefactors in Sullivan algebras)**
+\linebreak
+As stated so far, the ubiquituous prefactor $-\tfrac{1}{2}$ is pure convention, due to the freedom of rescaling generators by rational (or even real) numbers while retaining dga-isomorphy. However, this factor is fixed by requiring certain integrality properties of the generators, see [FSS21-HopfWZ, Prop. 4.6](#FSS21WZ). 
+
+This becomes relevant when regarding the lift back from $\mathfrak{l}S^4$ to $\mathcal{A} \equiv S^4$ as a [[flux quantization]], law, because then it implies that the C-field flux densities $G_4$ and $G_7$ in the image of the normalized generators $\omega_4$ and $\omega_7$ satisfy expected integrality conditions &lbrack;[FSS21-HopfWZ, Thm. 4.8](#FSS21WZ)&rbrack;. We discuss this further [below](#CFieldFluxQuantizationIn10d).
+\end{remark}
+
+\linebreak
+
+
+**Rational homotopy theory: Discrading torsion in nonabelian cohomology.**
+From the perspective ([above](#ClassifyingSpacesForGeneralizedCohomology)) that any topological space $\mathcal{A}$ serves as the *classifying space* of a generalized [[nonabelian cohomology theory]],
+the idea of [[rational homotopy theory]] (survey in [Hess 2006](rational+homotopy+theory#Hess06), [FSS23-Char, §4](#FSS23)) becomes that of extracting the non-[[torsion subgroup|torsion]] content of such a cohomology theory, which we will see is that shadow of it which, over [[smooth manifolds]], is reflected in the [[non-abelian de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology}) of $\mathfrak{l}\mathcal{A}$-valued differential forms.
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HomotopyToCohomology.jpg",
+    "width": 660,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-RationalizingHomotopyGroups.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Hence to have a classifying space for the non-torsion part of $\mathcal{A}$-cohomology means to ask for:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-RationalizationOfASpace.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+For example, the [[rationalization]] of an integral [[Eilenberg-MacLane space]] $B^n \mathbb{Z} \,\equiv\, K(\mathbb{Z},n)$ classifies [[ordinary cohomology|ordinary]] [[rational cohomology]], mapping to ordinary [[de Rham cohomology]]:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CharacterInOrdinaryCohomology.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+We may regard this as the archetype of a *character map* and ask for its generalization to any $\mathcal{A}$-cohomology theory.  The pivotal  observation of [FSS23-Char](#FSS23) is that for this purpose one may invoke the *[[fundamental theorem of dg-algebraic rational homotopy theory]]:
+
+\linebreak
+
+**The Fundamental Theorem of dg-Algebraic Rational Homotopy Theory}** (review in [FSS23-Char, Prop. 5.6](#FSS23))
+says that the [[homotopy theory]] of [[rational spaces]] ([[simply-connected topological space|simply-connected]] with [[finite-dimensional vector space|fin-dim]] [[rational cohomology]]) is all encoded by their  [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (eq:WhiteheadLInfinityAlgebra) over the [[rational numbers]].
+
+In particular, for $X$ a [[CW-complex]] one gets
+
+\[\label{FundamentalTheoremOfRHT}\]
+\begin{tikzcd}
+  \mathrm{Map}\big(
+    X
+    ,\,
+    L^{\mathbb{Q}} \mathcal{A}
+  \big)_{/ \mathrm{homotopy}}
+  \;\;
+  \simeq
+  \;\;
+  \mathrm{Hom}_{\mathrm{dgAlg}}\Big(
+    \mathrm{CE}\big(
+      \mathfrak{l}^{\mathbb{Q}}
+      \mathcal{A}
+    \big)
+    ,\,
+    \Omega^\bullet_{\mathrm{PLdR}}(X)
+  \Big)_{
+    \!/\mathrm{concordance},
+  }
+\end{tikzcd}
+
+where on the right we have something called the "[[PL de Rham complex|piecewise linear de Rham complex]]" of the topological space $X$.
+
+Notice that the right-hand side looks close to the definition of [[nonabelian de Rham cohomology|$\mathfrak{l}\mathcal{A}$-valued de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology}). In order to actually connect to such smooth differential forms, we need to extend the scalars from the [[rational numbers]] to the [[real numbers]]:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-RealRationalizationOfASpace.jpg",
+    "float": "right",
+    "width": 530,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+$\;\;$**Rational homotopy theory over the Reals.** &lbrack;[FSS23-Char, Def. 5.7, Rem. 5.2](#FSS23)&rbrack;
+The construction (eq:FundamentalTheoremOfRHT) also works over $\mathbb{R}$ (but is then not a "[[localization of spaces|localization]]") to give the $\mathbb{R}$-rationalization &lbrack;[FSS23-Char, Def. 5.7, Prop. 5.8](#FSS23)&rbrack;:
+
+With this "[[derived functor|derived]] [[extension of scalars]]" &lbrack;[FSS23-Char, Lem 5.3](#FSS23)&rbrack; and for $X$ a smooth manifold,  the fundamental theorem (eq:FundamentalTheoremOfRHT) does relate to smooth differential forms &lbrack;[FSS23-Char, Lem. 6.4](#FSS23)&rbrack; via a **[[non-abelian de Rham theorem]]** &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack;:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-NonabelianDeRhamTheorem.jpg",
+    "width": 860,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+
+(...)
 
 
 \linebreak
@@ -1902,6 +2054,7 @@ Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l
 \linebreak
 
 ### C-Field flux quantization in 11d
+ {#CFieldFluxQuantizationIn10d}
 
 (...)
 
@@ -1950,7 +2103,10 @@ Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l
 
 * {#FSS17SphereCocycles} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]*, J. Geometry and Physics, **114** (2017) 91-108 &lbrack;[arXiv:1606.03206](https://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024)&rbrack;
 
+
 * {#FSS19HigherStruc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The rational higher structure of M-theory]]_  in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
+
+* {#FSS21WZ} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. **384** (2021) 403–432 &lbrack;[arXiv:1906.07417](https://arxiv.org/abs/1906.07417), [doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0)&rbrack;
 
 
 * {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
@@ -1963,7 +2119,7 @@ Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l
 * {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[arXiv:0807.2401](https://arxiv.org/abs/0807.2401), [doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008)&rbrack;
 
 
-* {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
+* {#Martin09} Thomas Martin (ed.), *Faraday's diary of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
 
 * {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys. Rev. D **107** 6 (2023) 066027 \[<a href="https://doi.org/10.1103/PhysRevD.107.066027">doi:10.1103/PhysRevD.107.066027</a>[arXiv:2207.00626](https://arxiv.org/abs/2207.00626)\]
 
@@ -1972,6 +2128,11 @@ Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l
 
 
 * {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) &lbrack;[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)&rbrack;
+
+* {#Sati10} [[Hisham Sati]], *Geometric and topological structures related to M-branes*, in *Superstrings, Geometry, Topology, and $C^\ast$-algebras*, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arXiv.org/abs/1001.5020), [ams:pspum/081](http://www.ams.org/books/pspum/081)&rbrack;
+
+* {#SatiVoronov22} [[Hisham Sati]], [[Alexander Voronov]], (13) in: *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
+
 
 * {#SS23-MF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:M/F-Theory as Mf-Theory|M/F-Theory as $M f$-Theory]]*, Rev. Math. Phys. **35** 10 (2023) &lbrack;[doi:10.1142/S0129055X23500289](https://doi.org/10.1142/S0129055X23500289), [arXiv:2103.01877](https://arxiv.org/abs/2103.01877)&rbrack;
 
