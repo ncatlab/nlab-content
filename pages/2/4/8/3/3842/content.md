@@ -113,6 +113,10 @@ Now assume that $\mathcal{C}$ is a [[small category]].
 
 * A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]] (see there for details).
 
+### (Co-)Monadicity over Families
+
+There is a functor from presheaves to families of sets $U : Psh(C) \to Set^{Ob(C)} \cong Set/Ob(C)$ given by "forgetting" the functorial action on morphisms of $C$. This functor is both [[monadic functor|monadic]] and [[comonadic functor|comonadic]].
+
 ### Functoriality
 
 See [[functoriality of categories of presheaves]].
