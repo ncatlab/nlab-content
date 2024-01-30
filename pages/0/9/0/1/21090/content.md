@@ -2220,6 +2220,11 @@ If a Markov category $C$ has all conditionals, $ProbStoch(C)$ is a [[dagger cate
 For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is the category [[Krn]].
 
 
+## Quantum versions 
+
+(...)
+
+
 ## History
 
 In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
@@ -2464,6 +2469,19 @@ Slides from talks:
 * [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
 * [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
+
+* {#quantum_markov} Arthur J. Parzygnat, _Inverses, disintegrations, and Bayesian inversion in quantum Markov categories_, 2020. ([arXiv](https://arxiv.org/abs/2001.08375))
+
+* {#noncommutative_bayes} Arthur J. Parzygnat and Benjamin P. Russo, _A noncommutative Bayes theorem_, Linear Algebra Applications 644, 2022. ([arXiv](https://arxiv.org/abs/2005.03886))
+
+* {#conditional_quantum} Arthur J. Parzygnat, _Conditional distributions for quantum systems_, EPTCS 343, 2021. ([arXiv](https://arxiv.org/abs/2102.01529))
+
+* {#quantum_states_time} James Fullwood and Arthur J. Parzygnat, _On quantum states over time_, Proceedings of the Royal Society A 478, 2022. ([arXiv](https://arxiv.org/abs/2202.03607))
+
+* {#retrodiction} Arthur J. Parzygnat, Francesco Buscemi, _Axioms for retrodiction: achieving time-reversal symmetry with a prior_, Quantum 7(1013), 2023. [arXiv](https://arxiv.org/abs/2210.13531)
+
+* {#quantum_bayes} James Fullwood and Arthur J. Parzygnat, _From time-reversal symmetry to quantum Bayes rules_, PRX Quantum 4, 2023. ([arXiv](https://arxiv.org/abs/2212.08088))
+
 
 The research on Markov categories is still largely in progress, so this list will keep growing.
 
