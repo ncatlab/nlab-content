@@ -63,7 +63,7 @@
  {#Outline}
 
 
-([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher (see Def. \ref{HigherMaxwellEquations} below) analog of [[Maxwell's equations]].
+([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review in [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) (Def. \ref{HigherMaxwellEquations} below) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher (see Def. \ref{HigherMaxwellEquations} below) analog of [[Maxwell's equations]].
 
 Such [[higher gauge theories]] famously appear as the [[higher gauge field|gauge field]]-sector in higher-dimensional [[supergravity]] and hence in [[superstring|super]]-[[string theory|string]]/[[M-theory]], which is where they draw most of their motivation from. 
 
@@ -1987,9 +1987,48 @@ The construction (eq:FundamentalTheoremOfRHT) also works over $\mathbb{R}$ (but 
 
 With this "[[derived functor|derived]] [[extension of scalars]]" &lbrack;[FSS23-Char, Lem 5.3](#FSS23)&rbrack; and for $X$ a smooth manifold,  the fundamental theorem (eq:FundamentalTheoremOfRHT) does relate to smooth differential forms &lbrack;[FSS23-Char, Lem. 6.4](#FSS23)&rbrack; via a **[[non-abelian de Rham theorem]]** &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack;:
 
+\[\label{NonabelianDeRhamTheorem}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-NonabelianDeRhamTheorem.jpg",
     "width": 860,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+**In abelian (ie. Whitehead-generalized) cohomology** theories both the rationalization step and the subsequent extension of scalars to $\mathbb{R}$  can be more easily described as forming the [[smash product]] of the [[coefficient]] [[spectrum]] with the rational [[Eilenberg-MacLane spectrum]] $H\mathbb{R}$ &lbrack;[FSS23-Char, Ex. 5.7](#FSS23)&rbrack;. 
+This is how the *[[Chern-Dold character]]* map over $\mathbb{R}$ is tacitly used  in all the literature on abelian ([[Whitehead-generalized cohomology|Whitehead-generalized]]) [[differential cohomology]] theory (e.g. [Bunke & Nikolaus 2014, Def. 4.2](twisted+differential+cohomology#BunkeNikolaus14)
+
+\[\label{RealificationOfSpectra}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-RealRationalizationOfSpectra.jpg",
+    "width": 530,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+The point of the non-abelian de Rham theorem (eq:NonabelianDeRhamTheorem) is to generalize the realifification  (eq:RealificationOfSpectra) of [[Whitehead-generalized cohomology]] to generalized [[non-abelian cohomology]], such as to [[Cohomotopy]]; and the key result that makes this work is the fundamental 
+theorem of dg-algebraic homotopy theory (eq:FundamentalTheoremOfRHT). This, ultimately, is the "reason" why [[L-infinity algebra valued differential forms|$L_\infty$-valued differential 
+forms]] relate fluxes to their flux-quantization laws.
+
+\linebreak
+
+**The general non-abelian character map** is now immediate &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;:
+It is the [[cohomology operation]] induced by $\mathbb{R}$-[[rationalization]] of [[classifying spaces]], seen under the [[non-abelian de Rham theorem]] (eq:NonabelianDeRhamTheorem):
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-NonabelianCharacterMap.jpg",
+    "width": 900,
     "unit": "px",
     "margin": {
         "top": -30,
