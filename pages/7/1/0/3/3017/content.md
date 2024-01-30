@@ -28,6 +28,10 @@ For usefully working with bicategories of this kind, it is typically of crucial 
 
 This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. See there for more.
 
+## See also
+* [[companion pair]]
+* [[conjunction]]
+* [[proarrow equipment]]
 
 ## References
 
@@ -41,7 +45,7 @@ This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. 
 
 * [[Patrick Schultz]], [[David Spivak]], [[Christina Vasilakopoulou]], Ryan Wisnesky, _Algebraic Databases_, ([arXiv:1602.03501](http://arxiv.org/abs/1602.03501))
 
-* Pierre-Evariste Dagand, Conor McBride, _A Categorical Treatment of Ornaments_, ([arXiv:1212.3806](http://arxiv.org/abs/1212.3806))
+* Pierre-Evariste Dagand, [[Conor McBride]], _A Categorical Treatment of Ornaments_, ([arXiv:1212.3806](http://arxiv.org/abs/1212.3806))
 
 [[!redirects framed bicategories]]
 [[!redirects fibrant double category]]
