@@ -96,6 +96,11 @@ See also
 * [[José Figueroa-O'Farrill]], section _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
 
 
+
+[[!include C-field gauge algebra -- references]]
+
+
+
 #### In BV-BRST formalism
  {#ReferencesBVBRSTFormalism}
 
