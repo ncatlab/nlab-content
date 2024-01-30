@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-MCConditionAsDGAlgHomomorphy.jpg:file]]
+
 [[GeomPhys-CharacterMaps.jpg:file]]
 
 [[GeomPhys-ClassifyingSpacesForCohomology.jpg:file]]
