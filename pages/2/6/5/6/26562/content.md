@@ -1,4 +1,3 @@
-[[!redirects categorical approaches to probability theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
