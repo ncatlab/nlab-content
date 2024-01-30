@@ -93,6 +93,9 @@ Discussion via [[L-infinity algebras|$L_\infty$-algebras]]:
 
 * Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, J. Math. Phys., **61** 112502 (2020) &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
 
+See also:
+
+* Fernando T. Brandt, J. Frenkel, S. Martins-Filho, D. G. C. McKeon, *Quantization of Einstein-Cartan theory in the first order form* &lbrack;[arXiv:2401.16343](https://arxiv.org/abs/2401.16343)&rbrack;
 
 
 [[!redirects first-order formulations of gravity]]
