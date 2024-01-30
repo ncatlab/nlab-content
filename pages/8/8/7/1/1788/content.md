@@ -1,122 +1,22 @@
-$a\nrightarrow b$
 
-$$
-  \begin{array}{l}
-    \mathrm{d}
-    G_7
-    \;=\;
-    -
-    \tfrac{1}{2}
-    G_4 \wedge G_4
-    \\
-    \Leftrightarrow
-    \mathrm{d} H_7 
-    -
-    F_2 \wedge F_6
-    +
-    \theta \wedge \mathrm{d} F_6
-    \;=\;
-    -\tfrac{1}{2}F_4 \wedge F_4
-    +
-    \theta \wedge F_4 \wedge H_3
-  \end{array}
-$$
+The idea of quantum computing.
 
-$$
-  \begin{array}{l}
-    \mathrm{d}
-    \,
-    F_4
-    -
-    F_2 \wedge H_3
-    \,=\,
-    0
-  \end{array}
-$$
+The idea of topological quantum computing. 
 
-[[GeomPhys-CharacterKernelAndCokernel.jpg:file]]
+Issues:
 
-[[GeomPhys-FirstIdeaOfFluxQuantization.jpg:file]]
+- Certification $\rightsquigarrow$ Linear type theory
 
-[[GeomPhys-CharacterMapChargesToFluxes.jpg:file]]
+- Parameterization $\rightsquigarrow$ Dependent type theory
 
-[[GeomPhys-NonabelianCharacterMap.jpg:file]]
+- Stabilization $\rightsquigarrow$ Homotopy type theory
 
-[[GeomPhys-RealRationalizationOfSpectra.jpg:file]]
+$\rightsquigarrow$ linear HoTT.
 
-[[GeomPhys-NonabelianDeRhamTheorem.jpg:file]]
+The Feigin-Schechtman-Varchenko theorem.
 
-[[GeomPhys-RealRationalizationOfASpace.jpg:file]]
+Homotopy theory of Gauss-Manin connections.
 
-[[GeomPhys-CharacterInOrdinaryCohomology.jpg:file]]
+HoTT code for anyon braid gates.
 
-[[GeomPhys-RationalizationOfASpace.jpg:file]]
-
-[[GeomPhys-RationalizingHomotopyGroups.jpg:file]]
-
-[[GeomPhys-HomotopyToCohomology.jpg:file]]
-
-[[GeomPhys-CFieldGaugeAlgebraAsWhiteheadBracket.jpg:file]]
-
-[[GeomPhys-FurtherExamplesOfSullivanModels.jpg:file]]
-
-[[GeomPhys-FirstExamplesOfSullivanModels.jpg:file]]
-
-[[GeomPhys-MCConditionAsDGAlgHomomorphy.jpg:file]]
-
-[[GeomPhys-CharacterMaps.jpg:file]]
-
-[[GeomPhys-ClassifyingSpacesForCohomology.jpg:file]]
-
-[[GeomPhys-TotalFluxInNonabDeRhamCohom-240129.jpg:file]]
-
-[[GeomPhys-NonabDeRhamAsHomotopyClasses-240129b.jpg:file]]
-
-[[GeomPhys-NonabDeRhamAsHomotopyClasses.jpg:file]]
-
-[[GeomPhys-CauchyEvolutionOfGaussLawData.jpg:file]]
-
-[[GeomPhys-GaussLawAsFlatnessCondition-240129.jpg:file]]
-
-[[GeomPhys-CharacteristicLieOfGaussLaw-240129.jpg:file]]
-
-[[GeomPhys-ExamplesOfFlatLInfinityValuedForms.jpg:file]]
-
-[[GeomPhys-ExamplesOfFinTypeLInfinity.jpg:file]]
-
-[[GeomPhys-LInfinityUnderCE.jpg:file]]
-
-[[GeomPhys-LieAlgebraUnderCE.jpg:file]]
-
-[[GeomPhys-FluxHomotopyLieTriality.jpg:file]]
-
-[[GeomPhys-TopologicalPhaseSpace.jpg:file]]
-
-[[GeomPhys-IntegralFlux2.jpg:file]]
-
-[[GeomPhys-StepsInFluxQuantization.jpg:file]]
-
-[[GeomPhys-GaugePotentialsAsHomotopies.jpg:file]]
-
-[[GeomPhys-CanonNonabDiffCohomAsPhaseSpace2.jpg:file]]
-
-[[GeomPhys-CanonNonabDiffCohomAsPhaseSpace.jpg:file]]
-
-[[GeomPhys-CanonNonabDiffCohomology.jpg:file]]
-
-[[GeomPhys-SourcingM2FluxFromM5Fluxes.jpg:file]]
-
-[[GeomPhys-FluxOfM2M5Intersection.jpg:file]]
-
-[[GeomPhys-NearHorizonGeometries.jpg:file]]
-
-[[GeomPhys-ChargeOfMonopolesAndVortices.jpg:file]]
-
-[[GeomPhys-UnboundedBRRFluxMotion.jpg:file]]
-
-[[GeomPhys-DDReductionOfCFieldFlux.jpg:file]]
-
-[[GeomPhys-DoubleDimReductionOfCField-240127.jpg:file]]
-
-
-
+Outlook: Linear typing.
