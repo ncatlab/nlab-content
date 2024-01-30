@@ -1686,6 +1686,9 @@ With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de 
 ### Flux quantization laws as Nonabelian cohomology
  {#FluxQuantizationLawsAsNonabelianCohomology}
 
+We explain how the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of the previous subsection receives *character maps* from generalized [[nonabelian cohomology]] theories whose [[classifying spaces]] $\mathcal{A}$ have compatible rational [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ --- whence $\mathcal{A}$ encodes a flux quantization law for Bianchi identities characterized by $\mathfrak{a}$, and lifting through the $\mathfrak{A}$-character map corresponds to choices of *charge quanta* which source given total flux.
+
+\linebreak
 
 {#ClassifyingSpacesForGeneralizedCohomology}
 **Classifying spaces for generalized cohomology.**
@@ -2026,6 +2029,7 @@ forms]] relate fluxes to their flux-quantization laws.
 **The general non-abelian character map** is now immediate &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;:
 It is the [[cohomology operation]] induced by $\mathbb{R}$-[[rationalization]] of [[classifying spaces]], seen under the [[non-abelian de Rham theorem]] (eq:NonabelianDeRhamTheorem):
 
+\[\label{NonabelianCharacterMap}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-NonabelianCharacterMap.jpg",
     "width": 900,
@@ -2040,33 +2044,50 @@ It is the [[cohomology operation]] induced by $\mathbb{R}$-[[rationalization]] o
 
 
 
-(...)
 
 
-\linebreak
+**Flux quantization in generalized nonabelian cohomology.** With the generalized nonabelian character map (eq:NonabelianCharacterMap) in hand, we may finally state the general concept of flux quantization:
 
-**The Whitehead-bracket $L_\infty$-algebra of a space.**
+Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology) that the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of a [[Cauchy surface]] encodes the *total flux* of the [[higher gauge fields]] characterized by the [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$, it follows that for every choice of $\mathcal{A}$ with $\mathfrak{l}\mathcal{A} \,\simeq\, \mathfrak{a}$ the nonabelian character map (eq:NonabelianCharacterMap) may be understood as assigning to *discrete charges* embodied by $\mathcal{A}$-cohomology-classes the corresponding total flux (thereby losing torsion-information encoded in the charges but not in the fluxes):
 
-(...)
+\[\label{NonabelianCharacterMapChargesToFluxes}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CharacterMapChargesToFluxes.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
-**Rational homotopy theory: Discarding torsion in nonabelian cohomology.**
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FirstIdeaOfFluxQuantization.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
-(...)
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CharacterKernelAndCokernel.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
-**The fundamental theorem of dg-algebraic rational homotopy theory.**
-
-(...)
-
-
-**The generalized nonabelian character map.**
-
-(...)
-
-
-**Flux quantization in nonabelian cohomology.**
-
-(...)
-
+This provides a proper idea of what a choice of flux quantization *law* is and does. However, since we are dealing with (higher) [[gauge theories]], the full field content is not just a pair of a flux density and a total charge such that the total flux of the former equals the sourced flux of the latter. Instead, we should ask for a kind of [[gauge transformation]] that pairs the flux densities with a topological field sector. This is the topic of the next subsection.
 
 \linebreak
 
