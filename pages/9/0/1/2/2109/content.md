@@ -200,6 +200,46 @@ We discuss how a 2-category with proarrow equipment is an [[internal category]] 
 
 For the moment see at _[Segal space - Examples - In 1Grpd](http://ncatlab.org/nlab/show/Segal%20space#ExamplesInIGrpd)_.
 
+### As a fibrant monad
+Internal categories in a [[finitely complete category]] (or 2-category) $K$ can be presented as [[monad|monads]] in the double category of [[spans]] $\mathbf{Span}(K)$.
+
+This is true also for double categories, specifically a double category is a monad in $\mathbf{Span}(\mathbf{Cat})$.
+We can characterize which double categories are proarrow equipments in this setting, by seeing them as [[two-sided fibrations]].
+
+Specifically, let $C_0 \xleftarrow{s} C_1 \xrightarrow{t} C_0$ be monad in $\mathbf{Span}(\mathbf{Cat})$. It is a *left fibration* when it's a left [[algebra of a monad|algebra]] of the [[KZ-monad]] $C_0 \xleftarrow{\partial_0} C_0^\downarrow \xrightarrow{\partial_1} C_0$, and it's a *right fibration* when it's a right algebra thereof.
+
+A span $C_0 \xleftarrow{s} C_1 \xrightarrow{t} C_0$ is a left fibration when $s$ is a [[cartesian fibration]] and $t$ invert $s$-cartesian morphisms. Dually, it's a right fibration when $t$ is a [[opfibration|cocartesian fibration]] (aka *opfibration*) and $s$ inverts all $t$-cocartesian morphisms.
+
+Finally, a span is a two-sided fibration when it is both a left and right fibration in a compatible way (see [[two-sided fibration#TwoSidedFibrationsInCat|this page]]).
+
+\begin{proposition}
+Let $C_0 \xleftarrow{s} C_1 \xrightarrow{t} C_0$ be a monad in $\mathbf{Span}(\mathbf{Cat})$.
+Then
+
+1. If it is a left fibration, it presents a double category with [[companions]];
+2. If it is a right fibration, it presents a double category with [[conjoints]];
+3. If it is a two-sided fibration, it presents a proarrow equipment.
+
+\end{proposition}
+\begin{proof}
+We sketch proof of (1), (2) is formally dual and (3) is basically the content of Theorem 4.1 of [(Shulman '08)](#Shulman).
+
+The fact $C_0 \xleftarrow{s} C_1 \xrightarrow{t} C_0$ is a left fibration means $s$ is a fibration. Hence given a tight map $f:A \to B$ and a loose arrow $p:B \nrightarrow B'$ we can form the cartesian square:
+
+\begin{tikzcd}
+	A & B \\
+	{f^*B'} & {B'}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "p", "\shortmid"{marking}, from=1-2, to=2-2]
+	\arrow["f", from=1-1, to=1-2]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "{f^*p}"', "\shortmid"{marking}, from=1-1, to=2-1]
+	\arrow["{f'}"', from=2-1, to=2-2]
+	\arrow["{\text{cart}}", shorten <=6pt, shorten >=6pt, Rightarrow, from=1, to=0]
+\end{tikzcd}
+
+Here $f'$ is $t(\text{cart})$, which by left fibrancy is an invertible tight map. Since a cartesian lift is a universal object, it is only defined up to unique isomorphism, which allows us to replace $f'$ with $1_{B'}$, which can be verified to yield a cartesian square.
+
+Now for $p=U_B$ we construct in this way the companion $f^*U_B = {_f B}$, whose unit and counit are, respectively, the cartesian 2-cell we started from and its universal factorization for the identity 2-cell of $f$.
+\end{proof}
 
 ### Related notions
 
@@ -372,7 +412,7 @@ and "Proarrows II" (the original definitions), and a number of following papers.
 
 * [[Dominic Verity]], "Enriched categories, internal categories, and change of base", Ph.D. Thesis.  (The connection with double categories.)
 
-* [[Michael Shulman]], "Framed bicategories and monoidal fibrations".  (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
+* {#Shulman} [[Michael Shulman]], "Framed bicategories and monoidal fibrations".  (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
 
 * [[Geoff Cruttwell]], [[Michael Shulman]], "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
 
