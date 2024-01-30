@@ -34,6 +34,12 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-CharacterKernelAndCokernel.jpg:file]]
+
+[[GeomPhys-FirstIdeaOfFluxQuantization.jpg:file]]
+
+[[GeomPhys-CharacterMapChargesToFluxes.jpg:file]]
+
 [[GeomPhys-NonabelianCharacterMap.jpg:file]]
 
 [[GeomPhys-RealRationalizationOfSpectra.jpg:file]]
