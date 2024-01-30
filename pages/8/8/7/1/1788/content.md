@@ -1,4 +1,4 @@
-
+$a\nrightarrow b$
 
 $$
   \begin{array}{l}
