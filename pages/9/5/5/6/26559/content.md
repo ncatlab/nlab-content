@@ -1756,11 +1756,13 @@ Moreover, it is classical that, over smooth manifolds, reasonable cohomology the
 
 The nonabelian character map was not known in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], but it does exists [FSS23-Char, Def. IV.2](#FSS23), constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
 
-We next survey how this works.
+We next survey how this works. 
+
+The key point is that [[rational homotopy theory]] characterizes the non-[[torsion subgroup|torsion]] content of (the [[homotopy type]] of) a (classifying) space by an [[L-infinity algebra|$L_\infty$-algebra]]-approximation $\mathfrak{l}\mathcal{A}$ to its [[loop space]] [[infinity-group|$\infty$-group]] $\Omega \mathcal{A}$.
 
 
-\begin{proposition}
-**(Quillen-Sullivan-Whitehead $L_\infty$-algebra** following &lbrack;[FSS23-Char, Prop. 4.23, 5.6 & 5.13](#FSS23)&rbrack;)
+\begin{proposition}\label{SullivanTheorem}
+**(Quillen-Sullivan-Whitehead $L_\infty$-algebra** &lbrack;cf. [FSS23-Char, Prop. 4.23, 5.6 & 5.13](#FSS23)&rbrack;)
 \linebreak
 
 For a [[topological space]] $\mathcal{A}$ which is
@@ -1781,14 +1783,15 @@ there is a polynomial dgc-algebra over $\mathbb{R}$, unique up to dga-[[isomorph
      \Big(
      \wedge^\bullet
      \big(
-       \,
-       \pi_\bullet
-       \big(
-         \Omega \mathcal{A}
-       \big)
-       \!\otimes_{{}_\mathbb{Z}}\!
-       \mathbb{R}
-       \,
+       \,{
+         \color{darkblue}
+         \pi_\bullet
+         \big(
+           \Omega \mathcal{A}
+         \big)
+         \!\otimes_{{}_\mathbb{Z}}\!
+         \mathbb{R}
+       }\,
      \big)^\vee
      ,\,
      \mathrm{d}_{CE(\mathfrak{l}\mathcal{A})}
@@ -1808,8 +1811,8 @@ there is a polynomial dgc-algebra over $\mathbb{R}$, unique up to dga-[[isomorph
   $$
 
 \end{proposition}
-This dg-algebra is known as the minimal **[[Sullivan model]]** of $\mathcal{A}$.
-By (eq:FinTypeLInfinityAlgebrasAsDGCAlgebras) it is hupf [[Chevalley-Eilenberg algebra]] of an [[L-infinity algebra|$L_\infinity$-algebra]]: The [[Whitehead bracket]] algebra structure on the $\mathbb{R}$-rational [[homotopy groups]] of the [[loop space]]
+This [[dgc-algebra]] is known as the [[minimal model|minimal]] **[[Sullivan model]]** of $\mathcal{A}$.
+By (eq:FinTypeLInfinityAlgebrasAsDGCAlgebras) it is the [[Chevalley-Eilenberg algebra]] of an [[L-infinity algebra|$L_\infinity$-algebra]] (essentially the "Quillen model"): The [[Whitehead bracket]] algebra structure on the $\mathbb{R}$-rational [[homotopy groups]] of the [[loop space]]
 
 $$
   \mathfrak{l}\mathcal{A}
@@ -1820,7 +1823,33 @@ $$
   \,.
 $$
 
-(Think of "$\mathfrak{l}$" as standing both for "Lie" and for "Loops".)
+(Think of "$\mathfrak{l}$" as standing for "Lie" or for "loops".)
+
+Some examples for how to use Prop. \ref{SullivanTheorem} to compute $\mathfrak{l}\mathcal{A}$:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FirstExamplesOfSullivanModels.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 0,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-FurtherExamplesOfSullivanModels.jpg",
+    "width": 907,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": -3
+    }
+\end{imagefromfile}
 
 
 \linebreak
