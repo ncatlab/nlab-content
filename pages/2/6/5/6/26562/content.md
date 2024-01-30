@@ -78,7 +78,7 @@ Thirdly, and most importantly, *new theorems* have been proven, as well as gener
 
 Here is a partial list, roughly in alphabetical order, roughly divided by subject.
 
-(Work in progress, especially adding the relevant references.)
+(Work in progress, for more material see also the references below.)
 
 ### Probability and measure theory
 
@@ -91,6 +91,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * [[d-separation]]: proven for [[Markov categories]] in [Fritz-Klingler'22](#d-sep).
 
 * [[ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
+
+* stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
 
 * [[idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
 
@@ -126,13 +128,33 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 ### Information theory
 
-* [[entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
+* characterizations of [[relative entropy]] in the discrete case: [Baez-Fritz-Leinster'11](#entropy_infloss), [Baez-Fritz'14](#entropy_bayes), [Leinster'19](#entropy_short), [Fullwood-Parzygnat'21](#information_loss_stoch). (Quantum case in [Parzygnat'22](#von_neumann), see below.)
+
+* characterizations of [[relative entropy]] on [[standard Borel spaces]]: [Gagne-Panangaden'18](#entropy_borel).
+
+* entropy in terms of operads: [Bradley'21](#entropy_operads).
+
+* entropy from the point of view of [[topos theory]]: [Constantin-Döring'20](#entropy_topos).
+
+* [[entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
+
+* a book on the relationship between metric, entropy and diversity, with a category-theoretic mindset: [Leinster'21](#entropy_diversity).
 
 (...)
 
 ### Quantum probability and information theory
 
-(...)
+* quantum versions of Bayesian inverses: [Coecke-Spekkens'12](#coecke_spekkens12), [Parzygnat-Russo'22](#noncommutative_bayes), [Parzygnat-Buscemi'23](#retrodiction), [Fullwood-Parzygnat'23](#quantum_bayes)
+
+* quantum versions of conditioning and disintegrations:  [Parzygnat'21](#conditional_quantum), [Parzygnat-Russo'23](#noncomm_disintegrations).
+
+* quantum versions of [[de Finetti's theorem]]: [Staton-Summers'22](#definetti_ned) and [Fritz-Lorenzin'23](#quantum_definetti).
+
+* categorical descriptions of dilations: [Parzygnat'19](#stinespring) and [GHL'21](#gauguin_dilations).
+
+* categorical characterization of von Neumann entropy: [Parzygnat'22](#von_neumann).
+
+* quantum versions of Markov categories: [Parzygnat'20](#quantum_markov) and [Fritz-Lorenzin'23](#quantum_definetti).
 
 
 
@@ -154,125 +176,224 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 ## References
 
-The first work on categorical probability seems to be due to Lawvere, and it is unpublished:
+(in alphabetical order by author)
 
-* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]])
+* {#jung} Mauricio Alvarez-Manilla, Achim Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
 
+* {#avery_giry} Tom Avery, _Codensity and the Giry monad_, Journal of Pure and Applied Algebra, 220(3), 2016.
 
-Here are other references:
+* {#stoch_lambda} Pedro H. Azevedo de Amorim, Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], Michael Roberts, _Universal semantics for the stochastic $\lambda$-calculus_, Proceedings of LICS, 2021. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics-2021-1.pdf))
 
+* {#algebraic_markov} Giorgio Bacci, Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _An algebraic theory of Markov processes_, Proceedings of LICS, 2018. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/Markov-LICS.pdf))
 
-* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+* {#entropy_bayes} [[John Baez]] and [[Tobias Fritz]], _A Bayesian characterization of relative entropy_, Theory and Application of Categories, 29(16), 2014. ([arXiv](https://arxiv.org/abs/1402.3067))
 
-* {#fritz_definetti} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
+* {#entropy_infloss} [[John Baez]], [[Tobias Fritz]] and [[Tom Leinster]], _A characterization of entropy in terms of information loss_, Entropy 13(2), 2011. ([arXiv](https://arxiv.org/abs/1106.1791))
+
+* {#entropy_operads} Tai-Danae Bradley, _Entropy as a topological operad derivation_, Entropy 23(9), 2021. ([arXiv](https://arxiv.org/abs/2107.09581))
+
+* {#vanbreugel} Franck van Breugel, _The metric monad for probabilistic nondeterminism_, unpublished, 2005. ([pdf](http://www.cse.yorku.ca/~franck/research/drafts/monad.pdf))
+
+* {#approx_markov} Philippe Chaput, Vincent Danos, [[Prakash Panangaden]] and [[Gordon Plotkin]], _Approximating Markov processes by averaging_, Proceedings of ICALP 2009. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/new_plain.pdf))
+
+* {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
 
 * {#cd_categories} Kenta Cho, [[Bart Jacobs]], _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science 29, 2019. ([arXiv:1709.00322](https://arxiv.org/abs/1709.00322))
 
-* {#definetti_limit} [[Bart Jacobs]], [[Sam Staton]], _De Finetti's construction as a categorical limit_, Proceedings of CMCS, 2021. ([arXiv:2003.01964](https://arxiv.org/abs/2003.01964))
+* {#structuralism} [[Bob Coecke]], Eric Oliver Paquette, Dusko Pavlovic, _Classical and quantum structuralism_, ([arXiv:0904.1997](https://arxiv.org/abs/0904.1997))
 
-* {#coecke_spekkens11} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
+* {#coecke_spekkens12} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
 
-* {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
-
-* {#FPKant} [[Tobias Fritz]] and [[Paolo Perrone]], _A Probability Monad as the Colimit of Spaces of Finite Samples_, Theory and Applications of Categories 34, 2019. ([arXiv:1712.05363](https://arxiv.org/abs/1712.05363))
-
-* {#monads_supports} [[Tobias Fritz]], [[Paolo Perrone]], Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, Mathematical Structures in Computer Science 31(8), 2021. ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
+* {#entropy_topos} Carmen Constantin and Andreas Döring, _A topos-theoretic notion of entropy_, 2020. ([arXiv](https://arxiv.org/abs/2006.03139))
 
 * {#krn} Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
 their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
 
-* {#pearl_jeffrey} [[Bart Jacobs]], _Pearl's and Jeffrey's Update as Modes of Learning in Probabilistic Programming_ ([arXiv:2309.07053](https://arxiv.org/abs/2309.07053))
+* {#affine_lazy} Swaraj Dash, Younesse Kaddar, Hugo Paquet and Sam Staton, _Affine monads and lazy structures for Bayesian programming_, Proceedings of POPL, 2023. ([pdf](https://www.cs.ox.ac.uk/people/hugo.paquet/lazyppl.pdf))
+
+* {#point_processes} Swaraj Dash and Sam Staton, _A monad for probabilistic point processes_, Proceedings of Applied Category Theory, 2020. ([pdf](https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ACT2020:61.pdf))
+
+* {#partial_markov} Elena Di Lavore and Mario Román, _Evidential Decision Theory via Partial Markov Categories_, Proceedings of LICS, 2023. ([arXiv](https://arxiv.org/abs/2301.12989))
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
 
-* {#markov_supports} [[Tobias Fritz]], Tomáš Gonda, Antonio Lorenzin, [[Paolo Perrone]], Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+* {#fong12} [[Brendan Fong]], _Causal theories: A categorical prespective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1609.05382))
+
+* {#2-entropy} James Fullwood, _On a 2-relative entropy_, Entropy 24(1), 2022. ([arXiv](https://arxiv.org/abs/2112.03582))
+
+* {#quantum_bayes} James Fullwood and [[Arthur J. Parzygnat]], _From time-reversal symmetry to quantum Bayes rules_, PRX Quantum 4, 2023. ([arXiv](https://arxiv.org/abs/2212.08088))
+
+* {#quantum_states_time} James Fullwood and [[Arthur J. Parzygnat]], _On quantum states over time_, Proceedings of the Royal Society A 478, 2022. ([arXiv](https://arxiv.org/abs/2202.03607))
+
+* {#information_loss_stoch} James Fullwood and [[Arthur J. Parzygnat]], _The information loss of a stochastic map_, Entropy 2021, 23(8), 2021. ([arXiv](https://arxiv.org/abs/2107.01975))
+
+* {#gelfand_furber} Robert W. J. Furber and [[Bart Jacobs]]: _From Kleisli Categories to Commutative C*-algebras: Probabilistic Gelfand Duality_, LMCS 11(2), 2015. ([arXiv](https://arxiv.org/abs/1303.1115))
+
+* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+
+* {#weaklymarkov} [[Tobias Fritz]], [[Fabio Gadducci]], [[Paolo Perrone]] and Davide Trotta, _Weakly Markov categories and weakly affine monads_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2303.14049))
+
+* {#oplax_cartesian} [[Tobias Fritz]], [[Fabio Gadducci]], Davide Trotta, Andrea Corradini, _From gs-monoidal to oplax-cartesian categories: constructions and functorial completeness_, Applied Categorical Structures 31, 42, 2023. ([arXiv](https://arxiv.org/abs/2205.06892))
 
 * {#dilations} [[Tobias Fritz]], Tomáš Gonda, Nicholas Gauguin Houghton-Larsen, [[Paolo Perrone]] and Dario Stein, _Dilations and information flow axioms in categorical probability_. Mathematical Structures in Computer Science, 2023. ([arXiv:2211.02507](https://arxiv.org/abs/2211.02507)).
 
-* {#det_submonad} Sean Moss, [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+* {#markov_supports} [[Tobias Fritz]], Tomáš Gonda, Antonio Lorenzin, [[Paolo Perrone]], Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
 
-* {#d-sep} [[Tobias Fritz]] and Andreas Klingler, _The d-separation criterion in Categorical Probability_, Journal of Machine Learning Research 24(46), 2023. ([arXiv](https://arxiv.org/abs/2207.05740))
+* {#fritz_definetti} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
 * {#fritz_representable} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
+* {#d-sep} [[Tobias Fritz]] and Andreas Klingler, _The d-separation criterion in Categorical Probability_, Journal of Machine Learning Research 24(46), 2023. ([arXiv](https://arxiv.org/abs/2207.05740))
+
+* {#hidden_markov} [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
+
+* {#free_gs} [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, Applied Categorical Structures 31, 21, 2023. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
+
+* {#quantum_definetti} [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
+
+* {#orderedkantorovich} [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
+
+* {#pev} [[Tobias Fritz]] and [[Paolo Perrone]], _Monads, partial evaluations, and rewriting_, Proceedings of MFPS, 2020. ([arXiv](https://arxiv.org/abs/1810.06037))
+
+* {#FPKant} [[Tobias Fritz]] and [[Paolo Perrone]], _A Probability Monad as the Colimit of Spaces of Finite Samples_, Theory and Applications of Categories 34, 2019. ([arXiv:1712.05363](https://arxiv.org/abs/1712.05363))
+
+* {#bimonoidal_monads} [[Tobias Fritz]], [[Paolo Perrone]], _Bimonoidal Structure of Probability Monads_, Proceedings of MFPS, 2018, ([arXiv:1804.03527](https://arxiv.org/abs/1804.03527))
+
+* {#monads_supports} [[Tobias Fritz]], [[Paolo Perrone]], Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, Mathematical Structures in Computer Science 31(8), 2021. ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
+
 * {#fritzrischel} [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
-* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
+* {#entropy_borel} Nicolas Gagne and [[Prakash Panangaden]], _A categorical characterization of relative entropy on standard Borel spaces_, ENTCS 336, 2018. ([arXiv](https://arxiv.org/abs/1703.08853))
 
-* {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
+* {#gauguin_dilations} Nicholas Gauguin Houghton-Larsen, _A Mathematical Framework for Causally Structured Dilations and its Relation to Quantum Self-Testing_, PhD thesis, University of Copenhagen, 2021. ([arXiv](https://arxiv.org/abs/2103.02302))
 
 * {#giry82} Michèle Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis, Lecture notes in Mathematics 915, Springer, 1982.
-
-* {#moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, Proceedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39155))
-
-* {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
 
 * {#golubtsov99} Peter V. Golubtsov, _Axiomatic description of categories of information converters_, Problemy Peredachi Informatsii (Problems in Information Transmission) 35(3), 1999. 
 
 * {#golubtsov02} Peter V. Golubtsov, _Monoidal Kleisli category as a background for information transformers theory_. Information Theory and Information Processing 2, 2002.
 
-* {#golubtsov_mosaliuk02} Peter V. Golubtsov and Stepan S. Moskaliuk, _Method of additional structures on the objects of a monoidal Kleisli category as a background for information transformers theory_, Hadronic Journal 25(2), 2002.
-
 * {#golubtsov04} Peter V. Golubtsov, _Information transformers: category-theoretical structure, informativeness, decision-making problems_, Hadronic Journal Supplements 19(3), 2004.
 
-* {#coecke_spekkens11} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
+* {#golubtsov_mosaliuk02} Peter V. Golubtsov and Stepan S. Moskaliuk, _Method of additional structures on the objects of a monoidal Kleisli category as a background for information transformers theory_, Hadronic Journal 25(2), 2002.
 
-* {#fong12} [[Brendan Fong]], _Causal theories: A categorical prespective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1609.05382))
+* {#algebras} [[Jean Goubault-Larrecq]] and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
+([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
-* [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, Applied Categorical Structures 31, 21, 2023. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
+* {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* {#markov_ergodic} Sean Moss and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
+* {#QBS} [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Proceedings of LICS 2017. ([arXiv](https://arxiv.org/abs/1701.02547))
 
-* {#avery_giry} Tom Avery, _Codensity and the Giry monad_, Journal of Pure and Applied Algebra, 220(3), 2016.
+* {#stone_markov} Dexter Kozen, Kim G. Larsen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of LICS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/mfcs2013.pdf))
+
+* {#markov_logid} Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of MFCS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2013.pdf))
+
+* {#urn_isometric} [[Bart Jacobs]], _Drawing from an Urn is Isometric_, Proceedings of FoSSaCS, 2024. ([pdf](http://www.cs.ru.nl/B.Jacobs/PAPERS/draw-isometries.pdf))
+
+* {#pearl_jeffrey} [[Bart Jacobs]], _Pearl's and Jeffrey's Update as Modes of Learning in Probabilistic Programming_ ([arXiv:2309.07053](https://arxiv.org/abs/2309.07053))
+
+* {#urns_tubes} [[Bart Jacobs]], _Urns & Tubes_, Compositionality 4(4), 2022. ([arXiv](https://arxiv.org/abs/2110.02155))
+
+* {#idemp_discrete} [[Bart Jacobs]], _Sufficient statistics and split idempotents in discrete probability theory_, Proceedings of MFPS, 2023. ([arXiv](https://arxiv.org/abs/2212.09191))
 
 * {#multinomial} [[Bart Jacobs]], _Multinomial and Hypergeometric Distributions in Markov Categories_, Proceedings of MFPS 2021. ([arXiv](https://arxiv.org/abs/2112.14044))
 
-* [[Tobias Fritz]], [[Fabio Gadducci]], Davide Trotta, Andrea Corradini, _From gs-monoidal to oplax-cartesian categories: constructions and functorial completeness_, Applied Categorical Structures 31, 42, 2023. ([arXiv](https://arxiv.org/abs/2205.06892))
+* {#multisets} [[Bart Jacobs]], _From Multisets over Distributions to Distributions over Multisets_, Proceedings of LICS, 2021. ([arXiv](https://arxiv.org/abs/2105.06908))
 
-* [[Tobias Fritz]], [[Fabio Gadducci]], [[Paolo Perrone]] and Davide Trotta, _Weakly Markov categories and weakly affine monads_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2303.14049))
+* {#jacobs_pmonads} [[Bart Jacobs]], _From probability monads to commutative effectuses_, Journal of Logical and Algebraic Methods in Programming 94, 2018. 
+([doi:10.1016/j.jlamp.2016.11.006](https://doi.org/10.1016/j.jlamp.2016.11.006))
 
-* Dario Stein and Richard Samuelson, _A Category for unifying Gaussian Probability and Nondeterminism_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2204.14024))
+* {#parameter_learning} [[Bart Jacobs]], _Categorical aspects of parameter learning_, 2018. ([arXiv](https://arxiv.org/abs/1810.05814))
 
-* [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
+* {#exact_inference} [[Bart Jacobs]], _A Channel-based Exact Inference Algorithm for Bayesian Networks_, 2018. ([arXiv](https://arxiv.org/abs/1804.08032))
 
-* [[Bart Jacobs]], Fabio Zanasi, and Octavio Zapata, _Bayesian Factorisation as Adjoint, [abstract](http://wadt18.cs.rhul.ac.uk/submissions/WADT18A33.pdf)
+* {#conj_priors} [[Bart Jacobs]], _A Channel-Based Perspective on Conjugate Priors_, 2017. ([arXiv:1707.00269](https://arxiv.org/abs/1707.00269))
+
+* {#hypernormalization} [[Bart Jacobs]], _Hyper Normalisation and Conditioning for Discrete Probability Distributions_, LMCS 13, 2017. ([arXiv](https://arxiv.org/abs/1607.02790))
+
+* {#causal_surgery} [[Bart Jacobs]], Aleks Kissinger, Fabio Zanasi, _Causal Inference by String Diagram Surgery_, ([arXiv:1811.08338](https://arxiv.org/abs/1811.08338))
+
+* {#definetti_limit} [[Bart Jacobs]], [[Sam Staton]], _De Finetti's construction as a categorical limit_, Proceedings of CMCS, 2021. ([arXiv:2003.01964](https://arxiv.org/abs/2003.01964))
+
+* {#overdrawing} [[Bart Jacobs]] and [[Dario Stein]], _Overdrawing Urns using Categories of Signed Probabilities_, Proceedings of Applied Category Theory, EPTCS 397, 2023. ([arXiv](https://arxiv.org/abs/2312.12453))
+
+* {#essential_bayes} [[Bart Jacobs]], Fabio Zanasi, _The Logical Essentials of Bayesian Reasoning_, ([arXiv:1804.01193](https://arxiv.org/abs/1804.01193))
+
+* {#bayes_adjoint} [[Bart Jacobs]], Fabio Zanasi, and Octavio Zapata, _Bayesian Factorisation as Adjoint, [abstract](http://wadt18.cs.rhul.ac.uk/submissions/WADT18A33.pdf)
 Adjunction between Bayesian nets and distributions. How can one net be assigned? 
 
-* [[Bart Jacobs]], _Structured Probabilistic Reasoning_, [pdf](http://www.cs.ru.nl/B.Jacobs/PAPERS/ProbabilisticReasoning.pdf)
+* {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
 
-* [[Bart Jacobs]], _Categorical Aspects of Parameter Learning_, [slides](http://www.cs.ru.nl/B.Jacobs/TALKS/learning.pdf)
+* {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
 
-* [[Bob Coecke]], Eric Oliver Paquette, Dusko Pavlovic, _Classical and quantum structuralism_, ([arXiv:0904.1997](https://arxiv.org/abs/0904.1997))
+* {#Lawvere62} [[Bill Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+([[lawvereprobability1962.pdf:file]])
 
-* [[Bart Jacobs]], Fabio Zanasi, _The Logical Essentials of Bayesian Reasoning_, ([arXiv:1804.01193](https://arxiv.org/abs/1804.01193))
+* {#entropy_short} Tom Leinster, _A short characterization of relative entropy_, Journal of Mathematical Physics 60, 2019. ([arXiv](https://arxiv.org/abs/1712.04903))
 
-* [[Bart Jacobs]], Aleks Kissinger, Fabio Zanasi, _Causal Inference by String Diagram Surgery_, ([arXiv:1811.08338](https://arxiv.org/abs/1811.08338))
+* {#entropy_diversity} Tom Leinster, _Entropy and Diversity_, Cambridge University Press, 2021. 
 
-* {#bimonoidal_monads} [[Tobias Fritz]], [[Paolo Perrone]], _Bimonoidal Structure of Probability Monads_, Proceedings of MFPS, 2018, ([arXiv:1804.03527](https://arxiv.org/abs/1804.03527))
+* {#wasserstein_algebras} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Free complete Wasserstein algebras_, LMCS 14, 2018. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/fcwa.pdf))
 
-* [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
+* {#quantitative_reasoning} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Quantitative algebraic reasoning_, Proceedings of LICS, 2016. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2016.pdf))
 
-* Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
+* {#moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, Proceedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39155))
 
-* [[Chris Heunen]], Ohad Kammar, Sam Staton, Hongseok Yang, _A Convenient Category for Higher-Order Probability Theory_, ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
+* {#markov_ergodic} Sean Moss and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
-* {#vb_codensity} Ruben Van Belle, _Probability monads as codensity monads_, Theory and Applications of Categories, 38(21), 2022. ([arXiv](https://arxiv.org/abs/2111.01250))
+* {#det_submonad} Sean Moss, [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
-* {#panangaden_markov} Prakash Panangaden, _Labelled Markov processes_, Imperial College Press, 2009.
+* {#panangaden_cat_markov} [[Prakash Panangaden]], _The category of Markov kernels_, ENTCS, 1999. ([full text](https://www.sciencedirect.com/science/article/pii/S1571066105806024))
 
-* {#panangaden_condexp} Prakash Panangaden, _A categorical view of conditional expectation_, ([slides](http://math.ucr.edu/home/baez/mathematical/ACTUCR/Panagaden_Conditional_Expectation.pdf))
+* {#panangaden_markov} [[Prakash Panangaden]], _Labelled Markov processes_, Imperial College Press, 2009.
 
-* Dario Stein and [[Sam Staton]], _Probabilistic Programming with Exact Conditions_, JACM, 2023. ([arXiv](https://arxiv.org/abs/2312.17141))
+* {#panangaden_condexp} [[Prakash Panangaden]], _A categorical view of conditional expectation_, ([slides](http://math.ucr.edu/home/baez/mathematical/ACTUCR/Panagaden_Conditional_Expectation.pdf))
 
-* [[Bart Jacobs]], _A Channel-Based Perspective on Conjugate Priors_, ([arXiv:1707.00269](https://arxiv.org/abs/1707.00269))
+* {#von_neumann} [[Arthur J. Parzygnat]], _A functorial characterization of von Neumann entropy_, Cahiers de Topologie et de Géométrie Différentielle Catégorique LXIII(1), 2022. ([arXiv](https://arxiv.org/abs/2009.07125))
 
-* {#vb_caratheodory} Ruben Van Belle, _A categorical proof of the Carathéodory extension theorem_, 2022. ([arXiv](https://arxiv.org/abs/2210.01720))
+* {#conditional_quantum} [[Arthur J. Parzygnat]], _Conditional distributions for quantum systems_, EPTCS 343, 2021. ([arXiv](https://arxiv.org/abs/2102.01529))
+
+* {#quantum_markov} [[Arthur J. Parzygnat]], _Inverses, disintegrations, and Bayesian inversion in quantum Markov categories_, 2020. ([arXiv](https://arxiv.org/abs/2001.08375))
+
+* {#stinespring} [[Arthur J. Parzygnat]], _Stinespring's construction as an adjunction_, Compositionality 1(2), 2019. ([arXiv](https://arxiv.org/abs/1807.02533))
+
+* {#stoch_gelfand_parzygnat} [[Arthur J. Parzygnat]], _Discrete probabilistic and algebraic dynamics: a stochastic commutative Gelfand-Naimark Theorem_, 2017. ([arXiv](https://arxiv.org/abs/1708.00091))
+
+* {#retrodiction} [[Arthur J. Parzygnat]], Francesco Buscemi, _Axioms for retrodiction: achieving time-reversal symmetry with a prior_, Quantum 7(1013), 2023. [arXiv](https://arxiv.org/abs/2210.13531)
+
+* {#noncomm_disintegrations} [[Arthur J. Parzygnat]], Benjamin P. Russo, _Non-commutative disintegrations: existence and uniqueness in finite dimensions_, Journal of Noncommutative Geometry 17(3), 2023. ([arXiv](https://arxiv.org/abs/1907.09689))
+
+* {#noncommutative_bayes} [[Arthur J. Parzygnat]] and Benjamin P. Russo, _A noncommutative Bayes theorem_, Linear Algebra Applications 644, 2022. ([arXiv](https://arxiv.org/abs/2005.03886))
+
+* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
+
+* {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv](https://arxiv.org/abs/2110.06591))
+
+* {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
+
+* {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
+
+* {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
+
+* {#gauss_nondet} Dario Stein and Richard Samuelson, _A Category for unifying Gaussian Probability and Nondeterminism_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2204.14024))
+
+* {#exact_cond} Dario Stein and [[Sam Staton]], _Probabilistic Programming with Exact Conditions_, JACM, 2023. ([arXiv](https://arxiv.org/abs/2312.17141))
+
+* {#swirszcz} T. Swirszcz, _Monadic functors and convexity_, Bulletin de l'Academie Polonais des Sciences 22, 1974 ([pdf](https://www.fuw.edu.pl/~kostecki/scans/swirszcz1974.pdf))
 
 * {#vb_martingales} Ruben Van Belle, _A categorical treatment of the Radon-Nikodym theorem and martingales_, 2023. ([arXiv](https://arxiv.org/abs/2305.03421))
 
+* {#vb_caratheodory} Ruben Van Belle, _A categorical proof of the Carathéodory extension theorem_, 2022. ([arXiv](https://arxiv.org/abs/2210.01720))
 
-* {#hidden_markov} [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
+* {#vb_codensity} Ruben Van Belle, _Probability monads as codensity monads_, Theory and Applications of Categories, 38(21), 2022. ([arXiv](https://arxiv.org/abs/2111.01250))
+
+* {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
+
+* {#filters_virgo} Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
+
+
+
+
 
 (...more to add...)
 
