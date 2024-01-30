@@ -299,4 +299,11 @@ Therefore, it makes sense to refer to (eq:TheNonabelianCharacterMap) generally a
 
 [[!redirects nonabelian de Rham cohomology]]
 
+[[!redirects nonabelian de Rham theorem]]
+[[!redirects nonabelian de Rham theorems]]
+
+[[!redirects non-abelian de Rham theorem]]
+[[!redirects non-abelian de Rham theorems]]
+
+
 
