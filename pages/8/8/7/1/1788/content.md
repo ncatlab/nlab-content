@@ -34,6 +34,18 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-RealRationalizationOfSpectra.jpg:file]]
+
+[[GeomPhys-NonabelianDeRhamTheorem.jpg:file]]
+
+[[GeomPhys-RealRationalizationOfASpace.jpg:file]]
+
+[[GeomPhys-CharacterInOrdinaryCohomology.jpg:file]]
+
+[[GeomPhys-RationalizationOfASpace.jpg:file]]
+
+[[GeomPhys-RationalizingHomotopyGroups.jpg:file]]
+
 [[GeomPhys-HomotopyToCohomology.jpg:file]]
 
 [[GeomPhys-CFieldGaugeAlgebraAsWhiteheadBracket.jpg:file]]
