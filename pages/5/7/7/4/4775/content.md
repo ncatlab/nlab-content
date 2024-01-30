@@ -112,7 +112,7 @@ For example, on objects, $\alpha \in \mathrm{Aut}_B(b)$ acts to send $(e,\phi)$ 
 \end{remark}
 
 
-When the essential fiber is essentially a set as in proposition \ref{essential_fibers_faithful_and_conservative_1}, this allows to describe the essential fiber as a [[union]] of [[orbits]]:
+When the essential fiber is essentially a set as in proposition \ref{essential_fibers_faithful_and_conservative_1}, this allows us to describe the essential fiber as a [[union]] of [[orbits]]:
 
 +-- {: .num_prop #essential_fibers_faithful_and_conservative}
 ###### Proposition
