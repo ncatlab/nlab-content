@@ -18,3 +18,5 @@ On [[higher parallel transport]] for [[connections on a 2-bundle]]:
 
 
 category: people
+
+[[!redirects Arthur J. Parzygnat]]
