@@ -2003,7 +2003,7 @@ X_J=\bigotimes_{j\in J}
 $$
 such that all finite projections (marginalizations) $X_J\to X_F$, with $F\subseteq J$ finite, are deterministic morphisms.
 
-Using the universal property of limits, this says that a joint distribution on $X_J$ is equivalently given by joint distributions on all the finite subsets of $J$, which are compatible with the restrictions.
+Using the universal property of limits, this says that a joint distribution on $X_J$ is equivalently given by a family of joint distributions on all finite subsets of $J$, compatible with the restrictions.
 
 * *BorelStoch* has all countable Kolmogorov products by means of the [[Kolmogorov extension theorem]].
 
