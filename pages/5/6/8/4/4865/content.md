@@ -257,6 +257,10 @@ In terms of [[pure spinors]]:
 
 
 
+[[!include C-field gauge algebra -- references]]
+
+
+
 ### Classical solutions and BPS states
 	
 Bosonic solutions of eleven-dimensional supergravity were studied in the 1980s in the context of [[Kaluza-Klein mechanism|Kaluza-Klein]] supergravity. The topic received renewed attention in the mid-to-late 1990s as a result of the [[branes]] and duality paradigm and the [[AdS/CFT correspondence]].
