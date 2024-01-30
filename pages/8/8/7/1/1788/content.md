@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-HomotopyToCohomology.jpg:file]]
+
 [[GeomPhys-CFieldGaugeAlgebraAsWhiteheadBracket.jpg:file]]
 
 [[GeomPhys-FurtherExamplesOfSullivanModels.jpg:file]]
