@@ -103,7 +103,7 @@ Origin and history:
 
   > (the notion of "lines of force" is introduced on pp. 154)
 
-* {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
+* {#Martin09} Thomas Martin (ed.), *Faraday's diary of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
 
 * The Royal Institution, *Michael Faradays' iron filings* &lbrack;[web](https://www.rigb.org/explore-science/explore/collection/michael-faradays-iron-filings)&rbrack;
 
