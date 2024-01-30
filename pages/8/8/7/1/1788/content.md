@@ -34,6 +34,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-NonabelianCharacterMap.jpg:file]]
+
 [[GeomPhys-RealRationalizationOfSpectra.jpg:file]]
 
 [[GeomPhys-NonabelianDeRhamTheorem.jpg:file]]
