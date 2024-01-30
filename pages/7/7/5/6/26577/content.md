@@ -14,14 +14,15 @@
 
 ## Idea
 
-In elementary probability theory, **Bayes' formula** denotes a version of the formula 
+In elementary [[probability theory]], **[[Bayes' formula]]** refers to a version of the formula 
 $$
-P(A)\,P(B|A) = P(B)\,P(A|B) ,
+   P(A)\,P(B|A) \,=\, P(B)\,P(A|B)
+   \,,
 $$
 and relates the [[conditional probability]] of $B$ given $A$ to the one of $A$ given $B$.
-It is a cornerstone idea in [[statistical inference]].
+This is a cornerstone idea in [[statistical inference]].
 
-From the [[categorical probability|categorical point of view]], this formula expresses a duality, sometimes called **Bayesian inversion**, which often gives rise to a [[dagger category|dagger structure]].
+From the [[category-theoretic probability|category-theoretic point of view]], this formula expresses a duality, sometimes called **Bayesian inversion**, which often gives rise to a [[dagger category|dagger structure]].
 
 
 ## Intuition
@@ -98,3 +99,4 @@ For now see [[category of couplings]].
 [[!redirects bayesian inversions]]
 [[!redirects bayesian inverse]]
 [[!redirects bayesian inverses]]
+
