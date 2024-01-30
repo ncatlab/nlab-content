@@ -252,6 +252,8 @@ Textbook accounts on quantum computation:
 
 * [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
 
+* [[Steven Duplij]], [[Raimund Vogl]], *Innovative Quantum Computing*, IOP (2023) &lbrack;[ISBN:978-0-7503-5281-9](https://iopscience.iop.org/book/mono/978-0-7503-5281-9)&rbrack; 
+
 
 Introducing the notion of [[quantum supremacy]] and highlighting its relation to [[quantum entanglement]]:
 
