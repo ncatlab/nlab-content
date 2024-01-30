@@ -82,29 +82,35 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 ### Probability and measure theory
 
+* Approximations of Markov chains: [CDPP'09](#approx_markov), [DDGS'18](#krn), 
+
 * [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
-* [[conditional expectations]]: first expressed categorically by [Panangaden](#panangaden_condexp), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), and in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
+* [[conditional expectation|Conditional expectations]]: first expressed categorically in [Panangaden](#panangaden_condexp)  and [CDPP'09](#approx_markov), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) then using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), [FP'20](#pev) and [FGPR'23](#fritz_representable), and finally in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* [[de Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
+* [[De Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
 
-* [[d-separation]]: proven for [[Markov categories]] in [Fritz-Klingler'22](#d-sep).
+* [[ergodic decomposition|Ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* [[ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
+* Stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
 
-* stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
+* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep).
 
-* [[idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
+* [[idempotent completion|Idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
+
+* [[Kantorovich duality]] in terms of [[probability monads]]: [Perrone'18](#Perrone_thesis), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
 
 * [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
 
-* [[martingales]] Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis).
+* [[martingales|Martingales]] Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis).
 
-* multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
+* Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
 * [[Radon-Nikodym theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_martingales).
 
-* [[supports]] of [[probability measures]]: studied in terms of [[probability monads]] in [FPR'21](#monads_supports) and in terms of [[Markov categories]] in [FGLPS'23](#markov_supports)
+* [[support|Supports]] of [[probability measures]]: studied in terms of [[probability monads]] in [Fritz-Perrone-Rezagholi'21](#monads_supports) and in terms of [[Markov categories]] in [FGLPS'23](#markov_supports)
+
+* Urn models, multinomials, and probability on sets, using category theory, including Markov categories: [Jacobs'21a](#multisets) [Jacobs'21b](#multinomial) [Jacobs'22](#urns_tubes), [Jacobs-Stein'23](#overdrawing), [Jacobs'24](#urn_isometric).
 
 * Kolmogorov and Hewitt-savage's [[zero-one laws]]: proven in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
@@ -118,51 +124,105 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), and others.
 
+* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and inclusing using Markov categories [Di Lavore-Román'23],(#partial_markov).
+
 * Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable).
 
-* filtering and smoothing: described in terms of [[Markov categories]] in [FKMSW'24](#hidden_markov), with results on structural properties (recovering in particular the Kalman filter and the Rauch-Tung-Striebel smoother for the category [[Gauss]]).
+* Causal inference: using string diagrams [JKZ'18](#causal_surgery), and using Markov categories [Yin'22](#markov_causal).
+
+* Filtering and smoothing for hidden Markov models: described in terms of [[Markov categories]] in [Virgo'23](#filters_virgo), as well as in [FKMSW'24](#hidden_markov).
 
 * Fisher-Neyman factorization theorem for [[sufficient statistics]]: proven in terms of Markov categories in [Fritz'20](#fritzmarkov).
+
+* General results on [[sufficient statistics]]: in terms of Markov categories [Fritz'20](#fritzmarkov), and in terms of [[idempotents]] [Jacobs'23](#idemp_discrete).
+
+* Improper priors for Gaussians, using [[Markov categories]]: [Stein-Samuelson'23](#gauss_nondet).
 
 (...)
 
 ### Information theory
 
-* characterizations of [[relative entropy]] in the discrete case: [Baez-Fritz-Leinster'11](#entropy_infloss), [Baez-Fritz'14](#entropy_bayes), [Leinster'19](#entropy_short), [Fullwood-Parzygnat'21](#information_loss_stoch). (Quantum case in [Parzygnat'22](#von_neumann), see below.)
+* Characterizations of [[relative entropy]] in the discrete case: [Baez-Fritz-Leinster'11](#entropy_infloss), [Baez-Fritz'14](#entropy_bayes), [Leinster'19](#entropy_short), [Fullwood-Parzygnat'21](#information_loss_stoch). (Quantum case in [Parzygnat'22](#von_neumann), see below.)
 
-* characterizations of [[relative entropy]] on [[standard Borel spaces]]: [Gagne-Panangaden'18](#entropy_borel).
+* Characterizations of [[relative entropy]] on [[standard Borel spaces]]: [Gagne-Panangaden'18](#entropy_borel).
 
-* entropy in terms of operads: [Bradley'21](#entropy_operads).
+* [[entropy|Entropy]] in terms of [[operads]]: [Bradley'21](#entropy_operads).
 
-* entropy from the point of view of [[topos theory]]: [Constantin-Döring'20](#entropy_topos).
+* [[entropy|Entropy]] from the point of view of [[topos theory]]: [Constantin-Döring'20](#entropy_topos).
 
-* [[entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
+* [[entropy|Entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
 
-* a book on the relationship between metric, entropy and diversity, with a category-theoretic mindset: [Leinster'21](#entropy_diversity).
+* A book on the relationship between [[metrics]], [[entropy]] and diversity in ecology, with a category-theoretic mindset: [Leinster'21](#entropy_diversity).
 
 (...)
 
 ### Quantum probability and information theory
 
-* quantum versions of Bayesian inverses: [Coecke-Spekkens'12](#coecke_spekkens12), [Parzygnat-Russo'22](#noncommutative_bayes), [Parzygnat-Buscemi'23](#retrodiction), [Fullwood-Parzygnat'23](#quantum_bayes)
+* Quantum versions of Bayesian inverses: [Coecke-Spekkens'12](#coecke_spekkens12), [Parzygnat-Russo'22](#noncommutative_bayes), [Parzygnat-Buscemi'23](#retrodiction), [Fullwood-Parzygnat'23](#quantum_bayes)
 
-* quantum versions of conditioning and disintegrations:  [Parzygnat'21](#conditional_quantum), [Parzygnat-Russo'23](#noncomm_disintegrations).
+* Quantum versions of conditioning and disintegrations:  [Parzygnat'21](#conditional_quantum), [Parzygnat-Russo'23](#noncomm_disintegrations).
 
-* quantum versions of [[de Finetti's theorem]]: [Staton-Summers'22](#definetti_ned) and [Fritz-Lorenzin'23](#quantum_definetti).
+* Quantum versions of [[de Finetti's theorem]]: [Staton-Summers'22](#definetti_ned) and [Fritz-Lorenzin'23](#quantum_definetti).
 
-* categorical descriptions of dilations: [Parzygnat'19](#stinespring) and [GHL'21](#gauguin_dilations).
+* Categorical descriptions of dilations: [Parzygnat'19](#stinespring) and [GHL'21](#gauguin_dilations).
 
-* categorical characterization of von Neumann entropy: [Parzygnat'22](#von_neumann).
+* Categorical characterization of von Neumann entropy: [Parzygnat'22](#von_neumann).
 
-* quantum versions of Markov categories: [Parzygnat'20](#quantum_markov) and [Fritz-Lorenzin'23](#quantum_definetti).
+* Quantum versions of Markov categories: [Parzygnat'20](#quantum_markov) and [Fritz-Lorenzin'23](#quantum_definetti).
 
+(...)
+
+
+### Probability in computer science
+
+* Bayesian updating in probabilistic programming: [Jacobs'23](#pearl_jeffrey).
+
+* A [[cartesian closed category]] with a [[probability monad]]: [HKSY'17](#QBS), [SSSW'21](#name_gen).
+
+* Stochastic $\lambda$-calculus: [AKM'21](#stoch_lambda).
+
+* Probability monads for probabilistic computation: [Jones-Plotkin'89](#jones_plotkin89), [Jacobs'18](#jacobs_pmonads), [DKPS'2023](#affine_lazy).
+
+* Privacy of name generation: [HKSY'17](#QBS), [SSSW'21](#name_gen), [FGGPS'23](#dilations).
+
+* [[Probabilistic programming]] and [[random graphs]]: [AFKKMRSY'24](#graphons).
+
+* Stochastic memoization via monads: [Kaddar-Staton'23](#stoch_memo).
+
+(...)
 
 
 ### Structural results of categorical probability
 
-* results expressing [[probability monads]] as [[codensity monads]]: [Avery'16](#avery_giry) and more recently [Van Belle'22](#vb_codensity) with concrete applications to measure theory.
+* Foundational results on [[Markov categories]]: [Golubtsov'99](#golubtsov99), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov).
+
+* Constructions and analysis of [[categories]] of [[Markov kernels]] and of [[transport plans]]: [Lawvere'62](#Lawvere62), [Chentsov'65](#Chentsov65), [Giry'82](#giry'82), [Panangaden'99](#panangaden_cat_markov), [DDGS'18](#krn), [Perrone'21](#lifting), [Kozen-Silva-Voogd'23](#krn_ext).
+
+* Constructions of free Markov and CD categories: [Fritz-Liang'23](#free_gs).
+
+* Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
+
+* Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov).
+
+* Connections between [[Markov categories]] and [[probability monads]]: [Golubtsov'02](#golubtsov02), [FGPR'23](#fritz_representable), [Moss-Perrone'22](#det_submonad), [FGGPS'23](#dilations).
+
+* Connections between [[Markov category#positivity_and_causality|positive Markov categories]] and [[semicartesian monoidal categories]]: [FGGPS'23](#dilations).
+
+* Construction of [[point-free]] [[probability monads]] (on [[locales]]): [Vickers'11](#vmonad).
+
+* Results expressing [[probability monads]] as [[codensity monads]]: [Avery'16](#avery_giry) and more recently [Van Belle'22](#vb_codensity) with concrete applications to measure theory.
+
+* Constructions of [[probability monads]] on [[metric spaces]], and connections with [[metric geometry]] and [[Banach spaces]]: [AJK'04](#jung), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
+
+* Constructions of [[probability monads]] on [[topological spaces]], and connections with [[functional analysis]]: [Swirszcz'74](#swirszcz), [Giry'82](#giry'82), [Jones-Plotkin'89](#jones_plotkin89), [Heckmann'96](#Heckmann96), [Keimel'08](#radonkeimel), [GLJ'19](#algebras), [Fritz-Perrone-Rezagholi'21](#monads_supports).
+
+* A monad encoding [[probabilistic point processes]] combining probability and nondeterminism: [Dash-Staton'20](#point_processes).
+
+* [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_shaves).
 
 (...)
+
+
 
 
 ## See also
@@ -179,6 +239,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 (in alphabetical order by author)
 
 * {#jung} Mauricio Alvarez-Manilla, Achim Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+
+* {#graphons} Nathanael L. Ackerman, Cameron E. Freer, Younesse Kaddar, Jacek Karwowski, Sean K. Moss, Daniel M. Roy, Sam Staton, Hongseok Yang, _Probabilistic programming interfaces for random graphs: Markov categories, graphons, and nominal sets_, Proceedings of POPL, 2024. ([arXiv](https://arxiv.org/abs/2312.17127))
 
 * {#avery_giry} Tom Avery, _Codensity and the Giry monad_, Journal of Pure and Applied Algebra, 220(3), 2016.
 
@@ -282,11 +344,9 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
+* {#stoch_memo} Younesse Kaddar and Sam Staton, _A model of stochastic memoization and name generation in probabilistic programming: categorical semantics via monads on presheaf categories_, Proceedings of MFPS, 2023. ([arXiv](https://arxiv.org/abs/2309.09467))
+
 * {#QBS} [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Proceedings of LICS 2017. ([arXiv](https://arxiv.org/abs/1701.02547))
-
-* {#stone_markov} Dexter Kozen, Kim G. Larsen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of LICS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/mfcs2013.pdf))
-
-* {#markov_logid} Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of MFCS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2013.pdf))
 
 * {#urn_isometric} [[Bart Jacobs]], _Drawing from an Urn is Isometric_, Proceedings of FoSSaCS, 2024. ([pdf](http://www.cs.ru.nl/B.Jacobs/PAPERS/draw-isometries.pdf))
 
@@ -320,11 +380,16 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#essential_bayes} [[Bart Jacobs]], Fabio Zanasi, _The Logical Essentials of Bayesian Reasoning_, ([arXiv:1804.01193](https://arxiv.org/abs/1804.01193))
 
 * {#bayes_adjoint} [[Bart Jacobs]], Fabio Zanasi, and Octavio Zapata, _Bayesian Factorisation as Adjoint, [abstract](http://wadt18.cs.rhul.ac.uk/submissions/WADT18A33.pdf)
-Adjunction between Bayesian nets and distributions. How can one net be assigned? 
 
 * {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
 
 * {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
+
+* {#stone_markov} Dexter Kozen, Kim G. Larsen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of LICS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/mfcs2013.pdf))
+
+* {#markov_logid} Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of MFCS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2013.pdf))
+
+* {#krn_ext} Dexter Kozen, Alexandra Silva, Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
 
 * {#Lawvere62} [[Bill Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
@@ -336,6 +401,8 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 * {#wasserstein_algebras} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Free complete Wasserstein algebras_, LMCS 14, 2018. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/fcwa.pdf))
 
 * {#quantitative_reasoning} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Quantitative algebraic reasoning_, Proceedings of LICS, 2016. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2016.pdf))
+
+* Cristina Matache, Sean Moss, Sam Staton, Ariadne Si Suo, _Denotational semantics for languages for inference: semirings, monads, and tensors_, Proceedings of LAFI, 2023. ([arXiv](https://arxiv.org/abs/2312.16694))
 
 * {#moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, Proceedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39155))
 
@@ -371,6 +438,8 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 
 * {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
+* {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings of POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
+
 * {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
 
 * {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
@@ -390,6 +459,8 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 * {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
 
 * {#filters_virgo} Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
+
+* {#markov_causal} Yimu Yin, Jiji Zhang ,_Markov categories, causal theories, and the do-calculus_, 2022. ([arXiv](https://arxiv.org/abs/2204.04821))
 
 
 
