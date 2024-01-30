@@ -782,6 +782,10 @@ defined by $\mathrm{graph}(f)(x) \equiv (x, f(x))$ for all $x:A$. As a [[depende
 
 $$x:A, y:B \vdash f(x) =_{B} y$$
 
+and so is equivalently the [[dependent sum type]]
+
+$$\mathrm{graph}(f) \coloneqq \sum_{x:A} \sum_{y:B} f(x) =_{B} y$$
+
 ## Related concepts
 
 * [[function application]]
