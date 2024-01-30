@@ -103,6 +103,8 @@ We say that an object is an **infintary tensor product of the family $(X_i)_{i\i
 
 ## References
 
+* [[George Janelidze]] and [[Ross Street]], _Real sets_, Tbilisi Mathematical Journal, Vol. 10, No. 3, 2017, pp. 23-49. &lbrack;[doi:10.1515/tmj-2017-0101](https://doi.org/10.1515/tmj-2017-0101)&rbrack;
+
 * {#fritzrischel} [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
 
