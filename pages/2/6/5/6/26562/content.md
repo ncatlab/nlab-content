@@ -32,26 +32,34 @@ The main end goals of categorical probability are
 
 ## Main structures of interest
 
+[[category theory|Category theory]] was first developed to model particular structures in [[algebraic topology]], and subsequently [[algebraic geometry]], [[algebra]], [[logic]] and [[computer science]]. Each one of these intended applications shaped a piece of the theory, adding to category theory the relevant structures of interest for each application.
+
+The applications of category theory to probability are among the most recent, and are both bringing new categorical structures into the theory (such as [[Markov categories]]), as well as repurposing and reinterpreting existing ideas (such as [[monads]]).
 
 ### Markov categories
 
-For now, see [[Markov category]].
+[[Markov categories]] are a recent framework that models categories whose morphisms can be thought of as having randomness, such as [[stochastic maps]] and [[Markov kernels]]. 
+It has a graphical formalism which keeps track of the stochastic dependencies, and which can be used to prove theorems in probability purely graphically.
 
-(...)
+For more details, see [[Markov category]].
 
 
 ### Probability monads
 
-For now, see [[probability monad]].
+[[probability monads|Probability monads]] can be thought of as a way of adding a notion of "randomness" to an existing theory.
+A [[monad]] often models the idea of "forming spaces of particular structures", and in probability theory, one is interested in forming spaces of [[probability measures]].
+Monads are particularly useful when this construction needs to be iterated, for example, when in [[de Finetti theorem|de Finetti]] situations one needs to form _probability measures over probability measures_. 
 
-(...)
+For more details, see [[probability monad]].
 
 
 ### Dagger categories
 
-For now, see [[dagger category]].
+[[dagger categories|Dagger categories]] can be thought of as "undirected" categories, where morphisms can be seen as going either way as in an undirected graph. 
+In [[probability theory]], joint distributions, or [[transport plans]] exhibit such a behavior, sometimes called [[Bayesian inversion]].
+Several probabilistic ideas can be modelled in terms of dagger-categorical concepts, for example, [[conditional expectation]].
 
-(...)
+For more details, see [[category of couplings]].
 
 
 ## Main results
@@ -72,41 +80,67 @@ Here is a partial list, in alphabetical order.
 
 (Work in progress, especially adding the relevant references.)
 
-* [[Bayesian inverses]] (...)
+### Probability and measure theory:
 
-* Blackwell-Sherman-Stein theorem on statistical experiments (...)
+* [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
-* [[conditional expectations]] (...)
+* [[conditional expectations]]: first expressed categorically by [Panangaden](#panangaden_condexp), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), and in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* [[de Finetti's theorem]], stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
+* [[de Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
 
-* [[disintegrations]] (...) 
+* [[d-separation]]: proven for [[Markov categories]] in [Fritz-Klingler'22](#d-sep).
 
-* [[d-separation]] (...)
+* [[ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* [[entropy]] and [[data processing inequalities]] (...)
+* [[idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structurel consequences, proven in [FGLPS'23](#markov_supports).
 
-* [[ergodic decomposition theorem]] (...)
+* [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
 
-* filtering (...)
+* [[martingales]] Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis).
 
-* [[idempotent completion]] of [[BorelStoch]] (...)
+* multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
-* joint and marginal distributions (...)
+* [[Radon-Nikodym theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_martingales).
 
-* [[Kolmogorov extension theorem]] (...)
+* [[supports]] of [[probability measures]]: studied in terms of [[probability monads]] in [FPR'21](#monads_supports) and in terms of [[Markov categories]] in [FGLPS'23](#markov_supports)
 
-* [[martingales]] (...)
+* Kolmogorov and Hewitt-savage's [[zero-one laws]]: proven in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* multinomial and hypergeometric distributions (...)
+(...)
 
-* privacy in name generation (...)
+### Statistics
 
-* [[sufficient statistics]] (...)
+* Bahadur's theorem on ancillary statistics: proven in terms of Markov categories in [Fritz'20](#fritzmarkov)
 
-* Kolmogorov and Hewitt-savage's [[zero-one laws]] (...)
+* Basu's theorem on minimal [[sufficient statistics]]: proven in terms of Markov categories in [Fritz'20](#fritzmarkov).
 
-(also missing: quantum probability)
+* [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), and others.
+
+* Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable).
+
+* filtering and smoothing: described in terms of [[Markov categories]] in [FKMSW'24](#hidden_markov), with results on structural properties (recovering in particular the Kalman filter and the Rauch-Tung-Striebel smoother for the category [[Gauss]]).
+
+* Fisher-Neyman factorization theorem for [[sufficient statistics]]: proven in terms of Markov categories in [Fritz'20](#fritzmarkov).
+
+(...)
+
+### Information theory
+
+* [[entropy]] and [[data processing inequalities]]: were expressed using [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
+
+(...)
+
+### Quantum probability and information theory
+
+(...)
+
+
+
+### Structural results of categorical probability
+
+* results expressing [[probability monads]] as [[codensity monads]]: [Avery'16](#avery_giry) and more recently [Van Belle'22](#vb_codensity) with concrete applications to measure theory.
+
+(...)
 
 
 ## See also
@@ -145,6 +179,9 @@ Here are other references:
 
 * {#monads_supports} [[Tobias Fritz]], [[Paolo Perrone]], Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, Mathematical Structures in Computer Science 31(8), 2021. ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
 
+* {#krn} Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
+their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
+
 * {#pearl_jeffrey} [[Bart Jacobs]], _Pearl's and Jeffrey's Update as Modes of Learning in Probabilistic Programming_ ([arXiv:2309.07053](https://arxiv.org/abs/2309.07053))
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
@@ -157,7 +194,7 @@ Here are other references:
 
 * {#d-sep} [[Tobias Fritz]] and Andreas Klingler, _The d-separation criterion in Categorical Probability_, Journal of Machine Learning Research 24(46), 2023. ([arXiv](https://arxiv.org/abs/2207.05740))
 
-* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
+* {#fritz_representable} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
 * {#fritzrischel} [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
@@ -185,9 +222,11 @@ Here are other references:
 
 * [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, Applied Categorical Structures 31, 21, 2023. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
 
-* Sean Moss and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
+* {#markov_ergodic} Sean Moss and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
-* [[Bart Jacobs]], _Multinomial and Hypergeometric Distributions in Markov Categories_, Proceedings of MFPS 2021. ([arXiv](https://arxiv.org/abs/2112.14044))
+* {#avery_giry} Tom Avery, _Codensity and the Giry monad_, Journal of Pure and Applied Algebra, 220(3), 2016.
+
+* {#multinomial} [[Bart Jacobs]], _Multinomial and Hypergeometric Distributions in Markov Categories_, Proceedings of MFPS 2021. ([arXiv](https://arxiv.org/abs/2112.14044))
 
 * [[Tobias Fritz]], [[Fabio Gadducci]], Davide Trotta, Andrea Corradini, _From gs-monoidal to oplax-cartesian categories: constructions and functorial completeness_, Applied Categorical Structures 31, 42, 2023. ([arXiv](https://arxiv.org/abs/2205.06892))
 
@@ -218,6 +257,8 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 
 * Chris Heunen, Ohad Kammar, Sam Staton, Hongseok Yang, _A Convenient Category for Higher-Order Probability Theory_, ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
 
+* {#vb_codensity} Ruben Van Belle, _Probability monads as codensity monads_, Theory and Applications of Categories, 38(21), 2022. ([arXiv](https://arxiv.org/abs/2111.01250))
+
 * {#panangaden_markov} Prakash Panangaden, _Labelled Markov processes_, Imperial College Press, 2009.
 
 * {#panangaden_condexp} Prakash Panangaden, _A categorical view of conditional expectation_, ([slides](http://math.ucr.edu/home/baez/mathematical/ACTUCR/Panagaden_Conditional_Expectation.pdf))
@@ -226,8 +267,12 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 
 * [[Bart Jacobs]], _A Channel-Based Perspective on Conjugate Priors_, ([arXiv:1707.00269](https://arxiv.org/abs/1707.00269))
 
+* {#vb_caratheodory} Ruben Van Belle, _A categorical proof of the Carathéodory extension theorem_, 2022. ([arXiv](https://arxiv.org/abs/2210.01720))
 
-* [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
+* {#vb_martingales} Ruben Van Belle, _A categorical treatment of the Radon-Nikodym theorem and martingales_, 2023. ([arXiv](https://arxiv.org/abs/2305.03421))
+
+
+* {#hidden_markov} [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
 
 (...more to add...)
 
