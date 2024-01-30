@@ -1314,6 +1314,7 @@ $\;\;$**Chevalley-Eilenberg algebras of Lie algebras.**
 Namely, for $\mathfrak{g}$ a finite-dimensional Lie algebra (our ground field is the real numbers, throughout) with Lie bracket a skew-symmetric linear map $[-,-] \,:\, \mathfrak{g} \otimes \mathfrak{g} \to \mathfrak{g}$, its linear dual vector space $\mathfrak{g}^\ast$ is equipped with the dual bracket $[-,-]^\ast \,:\,\mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast$ which extends uniquely to a degree=1 [[derivation]] on the graded [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g} \,:=\, \underset{n \in \mathbb{N}}{\bigoplus}
 \,\underbrace{\mathfrak{g}^\ast \wedge \cdots \wedge \mathfrak{g}^\ast}_{n\;factors}$:
 
+\[\label{LieAlgebrasAsDGCAlgebras}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-LieAlgebraUnderCE.jpg",
     "width": 800,
@@ -1350,12 +1351,12 @@ $\;\;$**$L_\infty$-algebras of finite type.**
 With ordinary Lie algebras viewed as special dgc-algebras this way, it is *immediate* to generalize them to the case where  $\mathfrak{g}$ may be a [[graded vector space]] of degreewise finite dimension ("of [[finite type]]"): Namely, writing
 $$
   (\mathfrak{g}^\vee)_n
-  \;\defneq\;
+  \;\coloneqq\;
   (\mathfrak{g}_n)^\ast,
-  \hspace{.7cm}
+  \;\;\;\;\;\;\;\;\;\;\;\;
   \wedge^\bullet
   \mathfrak{g}^\vee
-  \;\defneq\;
+  \;\coloneqq\;
   \mathrm{Sym}(\mathfrak{g}^\vee[1])
 $$
 we can use *verbatim* the same construction:
@@ -1373,6 +1374,7 @@ A degree=1 derivation on $\wedge^\bullet\mathfrak{g}^\vee$ is determined by its 
         "left": 0
     }
 \end{imagefromfile}
+\[\label{FinTypeLInfinityAlgebrasAsDGCAlgebras}\]
 
 Here the simple condition that $\mathrm{d}_{{}_{[\cdots]}}$ be a differential implies a tower of conditions on these brackets, which generalize the Jacobi identity on an ordinary 
 Lie algebra, known as the conditions that make $\big( \mathfrak{g}, [-], [-,-], [-,-,-], \cdots \big)$ an [[L-infinity algebra|$L_\infty$-algebra]]:
@@ -1439,6 +1441,21 @@ this perspective: They are the [[dg-algebra]] [[homomorphism]] from  their CE-al
   \big)
   \,.
 \]
+
+Namely, a graded algebra homomorphism from a CE-algebra picks differential forms $\vec B$ for the algebra generators $\vec b$, and its respect for the differentials imposes on these differential forms exactly the closure/flatness condition:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-MCConditionAsDGAlgHomomorphy.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 10,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 Some examples:
 
@@ -1740,6 +1757,71 @@ Moreover, it is classical that, over smooth manifolds, reasonable cohomology the
 The nonabelian character map was not known in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], but it does exists [FSS23-Char, Def. IV.2](#FSS23), constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
 
 We next survey how this works.
+
+
+\begin{proposition}
+**(Quillen-Sullivan-Whitehead $L_\infty$-algebra** following &lbrack;[FSS23-Char, Prop. 4.23, 5.6 & 5.13](#FSS23)&rbrack;)
+\linebreak
+
+For a [[topological space]] $\mathcal{A}$ which is
+
+1. [[simply connected topological space|simply connected]]: 
+
+   $\pi_0(i) = \ast$,\; $\pi_1(i) = 1$,
+
+1. of rational [[finite type]]: $\mathrm{dim}_{\mathbb{Q}}\big(H^n(\mathcal{A}; \mathbb{Q})\big) \lt \infty$.
+
+there is a polynomial dgc-algebra over $\mathbb{R}$, unique up to dga-[[isomorphism]], whose
+
+*  generators are the $\mathbb{R}$-rational homotopy groups of $\mathcal{A}$,
+
+   $$
+     \mathrm{CE}(\mathfrak{l}\mathcal{A})
+     \;=\;
+     \Big(
+     \wedge^\bullet
+     \big(
+       \,
+       \pi_\bullet
+       \big(
+         \Omega \mathcal{A}
+       \big)
+       \!\otimes_{{}_\mathbb{Z}}\!
+       \mathbb{R}
+       \,
+     \big)^\vee
+     ,\,
+     \mathrm{d}_{CE(\mathfrak{l}\mathcal{A})}
+     \Big)
+   $$
+
+* [[cochain cohomology]] is the [[ordinary cohomology|ordinary]] [[real cohomology]] of $\mathcal{A}$.
+
+
+  $$
+    H^\bullet\big(
+      \mathrm{CE}(\mathfrak{l}\mathcal{A})
+    \big)
+    =
+    H^\bullet(\mathcal{A};\, \mathbb{R})
+    \,.
+  $$
+
+\end{proposition}
+This dg-algebra is known as the minimal **[[Sullivan model]]** of $\mathcal{A}$.
+By (eq:FinTypeLInfinityAlgebrasAsDGCAlgebras) it is hupf [[Chevalley-Eilenberg algebra]] of an [[L-infinity algebra|$L_\infinity$-algebra]]: The [[Whitehead bracket]] algebra structure on the $\mathbb{R}$-rational [[homotopy groups]] of the [[loop space]]
+
+$$
+  \mathfrak{l}\mathcal{A}
+  \;=\;
+  \pi_\bullet\big(
+    \Omega \mathcal{A}
+  \big) \otimes_{\mathbb{Z}} \mathbb{R}
+  \,.
+$$
+
+(Think of "$\mathfrak{l}$" as standing both for "Lie" and for "Loops".)
+
 
 \linebreak
 
