@@ -25,7 +25,7 @@ _Stoch_ is the category whose
 
 * [[Objects]] are [[measurable spaces]], i.e. pairs $(X,\mathcal{A})$ where $X$ is a set and $\mathcal{A}$ is a [[sigma-algebra]] on $X$;
 * [[Morphisms]] $(X,\mathcal{A})\to(Y,\mathcal{B})$ are [[Markov kernels]] of entries $k(B|x)$, for $x\in X$ and $B\in\mathcal{B}$;
-* The [[identities]] $(X,\mathcal{A})\to(Y,\mathcal{B})$ are given by the [[Dirac delta]] kernels
+* The [[identities]] $(X,\mathcal{A})\to(X,\mathcal{A})$ are given by the [[Dirac delta]] kernels
 $$
 \delta(A|x) = 1_A(x) = \begin{cases}
 1 & x\in A ; \\
@@ -60,7 +60,7 @@ As proven [here](#markov_support), in _BorelStoch_ all [[idempotent splitting|id
 
 ### FinStoch
 
-_FinStoch_ is the [[full subcategory]] of _Stoch_ whose objects are discrete [[finite sets]]. Equivalently, it is the category of finite [[stochastic matrices]].
+[[FinStoch]] is the [[full subcategory]] of _Stoch_ whose objects are discrete [[finite sets]]. Equivalently, it is the category of finite [[stochastic matrices]].
 It is closely related to the Kleisli category of the [[distribution monad]].
 
 
