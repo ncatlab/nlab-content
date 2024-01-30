@@ -745,7 +745,7 @@ By the computation rule of weak function types, there are families of identifica
 $$x:A \vdash \beta_{A \to B}^{x:A.b(x)}(b(x)):((\lambda x:A.b(x))(x) =_{B} b(x)$$
 $$x:A \vdash \beta_{A \to B}^{x:A.b'(x)}(b'(x)):((\lambda x:A.b'(x))(x) =_{B} b'(x)$$
 
-Thus, there are families of identificaitons 
+Thus, there are families of identifications 
 
 $$x:A \vdash \beta_{A \to B}^{x:A.b(x)}(b(x)) \bullet p(x) \bullet \beta_{A \to B}^{x:A.b'(x)}(b'(x))^{-1}:(\lambda x:A.b(x))(x) =_B (\lambda x:A.b'(x))(x)$$
 
@@ -776,11 +776,11 @@ Given a type $A$ and $B$, there is a function
 
 $$\mathrm{graph}:\left(A \to B\right) \to \left(A \to A \times B\right)$$
 
-which takes a function $f:A \times B$ and returns the **[[graph of a function]]** 
+which takes a function $f:A \to B$ and returns the **[[graph of a function]]** 
 $$\mathrm{graph}(f):A \to (A \times B)$$ 
 defined by $\mathrm{graph}(f)(x) \equiv (x, f(x))$ for all $x:A$. As a [[dependent anafunction]] the graph of the function is represented by the [[identity type]] family
 
-$$x:A, y:B(x) \vdash f(x) =_{B} y$$
+$$x:A, y:B \vdash f(x) =_{B} y$$
 
 ## Related concepts
 
