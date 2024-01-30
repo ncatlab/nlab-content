@@ -2214,7 +2214,7 @@ The causality condition is required in order for composition to be well defined 
 In general $ProbStoch(C)$ is not a Markov category, but only a [[semicartesian monoidal category]].
 
 \begin{proposition}
-If a Markov category $C$ has all conditionals, $ProbStoch(C)$ is a [[dagger category]], with the daggers given by Bayesian inverses. 
+If a Markov category $C$ has all conditionals, $ProbStoch(C)$ is a [[dagger category]], with the daggers given by [[Bayesian inversion|Bayesian inverses]]. 
 \end{proposition}
 
 For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is the category [[Krn]].
@@ -2474,7 +2474,7 @@ The research on Markov categories is still largely in progress, so this list wil
 
 * {#BM19} Vladimir Bogachev and Il’ya Malofeev, Kantorovich problems and conditional measures depending on a parameter. ([arXiv](https://arxiv.org/abs/1904.03642))
 
-See also [[Markov kernel]], [[Stoch]].
+See also the references at [[Markov kernel]].
 
 [[!redirects Markov categories]]
 [[!redirects markov category]]
