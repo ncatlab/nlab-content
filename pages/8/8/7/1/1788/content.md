@@ -34,6 +34,10 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-FurtherExamplesOfSullivanModels.jpg:file]]
+
+[[GeomPhys-FirstExamplesOfSullivanModels.jpg:file]]
+
 [[GeomPhys-MCConditionAsDGAlgHomomorphy.jpg:file]]
 
 [[GeomPhys-CharacterMaps.jpg:file]]
