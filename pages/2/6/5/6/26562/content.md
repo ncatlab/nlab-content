@@ -251,11 +251,11 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 
 * {#bimonoidal_monads} [[Tobias Fritz]], [[Paolo Perrone]], _Bimonoidal Structure of Probability Monads_, Proceedings of MFPS, 2018, ([arXiv:1804.03527](https://arxiv.org/abs/1804.03527))
 
-* Alex Simpson, _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
+* [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
 
 * Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
 
-* Chris Heunen, Ohad Kammar, Sam Staton, Hongseok Yang, _A Convenient Category for Higher-Order Probability Theory_, ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
+* [[Chris Heunen]], Ohad Kammar, Sam Staton, Hongseok Yang, _A Convenient Category for Higher-Order Probability Theory_, ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
 
 * {#vb_codensity} Ruben Van Belle, _Probability monads as codensity monads_, Theory and Applications of Categories, 38(21), 2022. ([arXiv](https://arxiv.org/abs/2111.01250))
 
@@ -277,6 +277,7 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 (...more to add...)
 
 
+[[!redirects category-theoretic probability]]
 
 [[!redirects category-theoretic approach to probability theory]]
 [[!redirects categorical approach to probability theory]]
@@ -286,3 +287,6 @@ Adjunction between Bayesian nets and distributions. How can one net be assigned?
 [[!redirects categorical probability and statistics]]
 [[!redirects synthetic probability]]
 [[!redirects synthetic probability theory]]
+
+
+
