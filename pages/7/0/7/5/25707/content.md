@@ -7,34 +7,36 @@
 
 The general idea of [[topology]] goes back to:
 
-* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123, (1895). ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
+* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique **2** 1 (1895) 1–123 \[<a href="https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7">gallica:12148/bpt6k4337198/f7</a>, Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]]\]
 
 The notion of [[topological space]] involving [[neighbourhoods]] was first developed, for the special case now known as *[[Hausdorff spaces]]*, in:
 
-* [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914) &lbrack;ISBN:978-0-8284-0061-9&rbrack; Reprinted by Chelsea Publishing Company (1944, 1949, 1965) &lbrack;[ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)&rbrack;
+* [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914), Reprinted by Chelsea Publishing Company (1944, 1949, 1965) \[ISBN:978-0-8284-0061-9, [ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)\]
 
 The more general definition -- dropping Hausdorff's $T_2$-[[separation axiom]] and formulated in terms of [[closure operators]] that preserve finite [[unions]] -- is due to:
 
-* [[Kazimierz Kuratowski]], *Sur l'opération Ā de l'Analysis Situs*, Fundamenta Mathematicae **3** (1922) 182–199 &lbrack;[doi:10.4064/fm-3-1-182-199](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/fundamenta-mathematicae/all/3/0/92454/sur-l-operation-a-de-l-analysis-situs)&rbrack;
+* [[Kazimierz Kuratowski]], *Sur l'opération Ā de l'Analysis Situs*, Fundamenta Mathematicae **3** (1922) 182–199 \[<a href="https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/fundamenta-mathematicae/all/3/0/92454/sur-l-operation-a-de-l-analysis-situs">doi:10.4064/fm-3-1-182-199</a>\]
 
 The modern formulation via [[open set]] was widely popularized by:
 
 * {#Bourbak71} [[Nicolas Bourbaki]]], *Eléments de mathématique II. Première partie. Les structures fondamentales de l’analyse. Livre III. Topologie générale. Chapitre I. Structures topologiques.* Actualités scientifiques et industrielles, vol. 858. Hermann, Paris (1940)
 
-  *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+  *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) \[<a href="https://doi.org/10.1007/978-3-642-61701-0">doi:10.1007/978-3-642-61701-0</a>\]
 
 ### Further
 
 Further textbook accounts:
 
-* {#Kelley55} [[John Kelley]], *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
+* {#Kelley55} [[John Kelley]], *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) \[<a href="https://www.springer.com/gp/book/9780387901251">ISBN:978-0-387-90125-1</a>\]
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000) \[ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)\]
 
-* [[Klaus Jänich]], *Topology*, Undergraduate Texts in Mathematics, Springer (1984, 1999) &lbrack;[ISBN:9780387908922](https://link.springer.com/book/9780387908922), [doi:10.1007/978-3-662-10574-0](https://doi.org/10.1007/978-3-662-10574-0), Chapters 1-2: [pdf](http://topologicalmedialab.net/xinwei/classes/readings/Janich/Janich_Topology_ch1-2.pdf)&rbrack;
+* [[Richard E. Hodel]] (ed.), *Set-Theoretic Topology*, Academic Press (1977) \[<a href="https://doi.org/10.1016/C2013-0-11355-4">doi:10.1016/C2013-0-11355-4</a>\]
+
+* [[Klaus Jänich]], *Topology*, Undergraduate Texts in Mathematics, Springer (1984, 1999) \[<a href="https://link.springer.com/book/9780387908922">ISBN:9780387908922</a>, [doi:10.1007/978-3-662-10574-0](https://doi.org/10.1007/978-3-662-10574-0), Chapters 1-2: [pdf](http://topologicalmedialab.net/xinwei/classes/readings/Janich/Janich_Topology_ch1-2.pdf)\]
 
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
@@ -44,7 +46,7 @@ Further textbook accounts:
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
-* Anatole Katok, Alexey Sossinsky, *Introduction to Modern Topology and Geometry* (2010) &lbrack;[toc pdf](http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf), [[KatokSossinsky-Topology-Ch1.pdf:file]]&rbrack;
+* Anatole Katok, Alexey Sossinsky, *Introduction to Modern Topology and Geometry* (2010) \[<a href="http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf">toc pdf</a>, [[KatokSossinsky-Topology-Ch1.pdf:file]]\]
 
 and leading over to [[homotopy theory]]:
 
