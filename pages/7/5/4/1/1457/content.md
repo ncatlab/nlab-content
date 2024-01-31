@@ -52,18 +52,26 @@ Metrizable spaces are closed under topological [[coproducts]] and of course [[su
 
 Fundamental early work in point-set topology established a number of metrization theorems, i.e., theorems which give sufficient conditions for a space to be metrizable. One of the more useful theorems is due to [[Urysohn]]: 
 
-+-- {: .num_theorem} 
-###### Theorem 
-**(Urysohn metrization)** 
+\begin{theorem}\label{UrysohnMetrizationTheorem}
+**([[Urysohn metrization theorem]])** 
+\linebreak
 A [[separation axiom|regular, Hausdorff]] [[second-countable space]] is metrizable. 
-=-- 
+\end{theorem}
 
-So, for instance, a compact Hausdorff space that is second-countable is metrizable. 
 
-+-- {: .num_remark} 
-###### Remark 
-A compact Hausdorff space that is merely [[separable space|separable]] need not be metrizable; one example is the [[Stone-Cech compactification]] $\beta(\mathbb{N})$, in which $\mathbb{N}$ is dense but no non-principal [[ultrafilter]] $U$ is the limit of a sequence $X = \{x_n\} \subseteq \mathbb{N}$ of principal ultrafilters. (Supposing it were, choose complementary subsets $A, B \subseteq \mathbb{N}$ such that $A \cap X$ and $B \cap X$ are infinite. By the decomposition $\beta(\mathbb{N}) = \beta(A + B) = \beta(A) + \beta(B)$, we have $U$ belonging to exactly one of $\beta(A), \beta(B)$, say $\beta(B)$. But since the subsequence $A \cap X$ converges to $U$, the basic open neighborhood $\beta(B) = \{V \in \beta(\mathbb{N}): B \in V\}$ of $U$ intersects $A \cap X$ non-trivially, i.e., $B$ is contained in some principal ultrafilter $prin(a)$ with $a \in A \cap X$. Then $a$ lies in disjoint sets $B$ and $A \cap X$, contradiction.) 
-=-- 
+\begin{example} 
+  A [[compact Hausdorff space]] that is second-countable is metrizable. 
+\end{example}
+
+\begin{remark}
+**([[counter-example]])**
+\linebreak
+A [[compact Hausdorff space]] that is merely [[separable space|separable]] need not be metrizable.
+
+One [[counter-example]] is the [[Stone-Cech compactification]] $\beta(\mathbb{N})$, in which the [[discrete topological space|discrete space]] $\mathbb{N}$ of [[natural numbers]] is [[dense subspace|dense]], whle no non-principal [[ultrafilter]] $U$ is the [[limit of a sequence]] $X = \{x_n\} \subseteq \mathbb{N}$ of principal ultrafilters. 
+
+Namely: Supposing it were, choose complementary subsets $A, B \subseteq \mathbb{N}$ such that $A \cap X$ and $B \cap X$ are infinite. By the decomposition $\beta(\mathbb{N}) = \beta(A + B) = \beta(A) + \beta(B)$, we have $U$ belonging to exactly one of $\beta(A), \beta(B)$, say $\beta(B)$. But since the subsequence $A \cap X$ converges to $U$, the basic open neighborhood $\beta(B) = \{V \in \beta(\mathbb{N}): B \in V\}$ of $U$ intersects $A \cap X$ non-trivially, i.e., $B$ is contained in some principal ultrafilter $prin(a)$ with $a \in A \cap X$. Then $a$ lies in disjoint sets $B$ and $A \cap X$, contradiction. 
+\end{remark}
 
 
 ### Variations 
