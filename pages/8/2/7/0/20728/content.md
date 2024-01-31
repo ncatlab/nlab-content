@@ -254,13 +254,12 @@ for the continuous case.
 
 ## See also
 
-* [[monad]], [[algebra over a monad]]
+* [[monad]], [[algebra over a monad]], [[Kleisli category]]
 * [[monad (in computer science)]]
-* [[Giry monad]]
-* [[probability theory]]
-* [[measure theory]]
+* [[Giry monad]], [[Markov kernel]], [[Stoch]]
+* [[categorical probability]], [[Markov category]]
+* [[probability theory]], [[measure theory]]
 * [[valuation (measure theory)]]
-* [[Markov category]]
 
 
 ## References
@@ -301,6 +300,8 @@ for the continuous case.
 * {#QBS} [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Proceedings of LICS 2017. ([arXiv](https://arxiv.org/abs/1701.02547))
 
 * [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+
+* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
 An account in terms of [[codensity monads]] in:
 
