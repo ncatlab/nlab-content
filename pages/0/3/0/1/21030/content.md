@@ -105,6 +105,8 @@ See also
 
 * Minos Axenides, Emmanuel Floratos, Dimitrios Katsinis, Georgios Linardopoulos, *Cascade of instabilities in the classical limit of the BMN matrix model* ([arXiv:2109.01088](https://arxiv.org/abs/2109.01088))
 
+* Shota Komatsu, Adrien Martina, João Penedones, Noé Suchel, Antoine Vuignier, Xiang Zhao, *Gravity from quantum mechanics of finite matrices* &lbrack;[arXiv:2401.16471](https://arxiv.org/abs/2401.16471)&rbrack;
+
 
 
 
