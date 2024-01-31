@@ -28,7 +28,7 @@ Just as a monoid in a monoidal category $C$ can be equivalently defined as a [[m
 
 ## Variations
 
-* A **map pseudomonoid** is a pseudomonoid whose multiplication and unit are [[bicategory of maps|maps]], i.e. [[left adjoints]].  This is a more appropriate notion for monoidal bicategories whose morphisms are [[profunctors]], since maps therein can be identified (modulo [[Cauchy completion]]) with [[functors]].
+* A **map pseudomonoid** is a pseudomonoid whose multiplication and unit are [[bicategory of maps|maps]], i.e. [[left adjoints]].  This is a more appropriate notion for monoidal bicategories whose morphisms are [[profunctors]], since maps therein can be identified (modulo [[Cauchy completion]]) with [[functors]]. (However, it is typically better to work instead in a [[double category]], where one may distinguish between **tight pseudomonoids** and **loose pseudomonoids**.)
 
 Other more special kinds of pseudomonoid are generalizations of special kinds of monoidal categories, including:
 
