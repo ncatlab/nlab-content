@@ -267,19 +267,23 @@ Thus, the extensionality principle of the circle type implies that the integers 
 
 One can prove the extensionality principle of the circle type, given a [[univalent universe]] where the circle is small relative to the universe. The [[HoTT book]] provides a number of such proofs. 
 
-There is another statement of the extensionality principle of the circle type. By the recursion principle of the natural numbers, there is a function 
+### The circle type and infinity
+
+The extensionality principle of the circle type says that the loop space of the circle at its base point $\Omega(S^1, \mathrm{base})$ is a [[denumerable set]]. However, there is a weaker axiom that one can add to the circle type: that $\Omega(S^1, \mathrm{base})$ is an [[infinite set|infinite]] type. 
+
+By the recursion principle of the natural numbers, there is a function 
 
 $$\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop}):\mathbb{N} \to \Omega(S^1, \mathrm{base})$$
 
-which takes zero to reflexivity of $\mathrm{base}$ and the successor function to concatenation of a self-identification by $\mathrm{loop}$. The extensionality principle of the circle type states that the above function is an [[embedding of types]], 
-$$\mathrm{ext}_{S^1}:\mathrm{isEmbed}\left(\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})\right)$$
+which takes zero to reflexivity of $\mathrm{base}$ and the successor function to concatenation of a self-identification by $\mathrm{loop}$. That $\Omega(S^1, \mathrm{base})$ is an infinite set, states that the above function is an [[embedding of types]], 
+$$\mathrm{inf}_{S^1}:\mathrm{isEmbed}\left(\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})\right)$$
 or equivalently that application of the above function is an equivalence for all natural numbers $m:\mathbb{N}$, $n:\mathbb{N}$
 
-$$\mathrm{ext}_{S^1}:\prod_{m:\mathbb{N}} \prod_{n:\mathbb{N}} \mathrm{isEquiv}\left(\mathrm{ap}_{\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})}(m, n)\right)$$
+$$\mathrm{inf}_{S^1}:\prod_{m:\mathbb{N}} \prod_{n:\mathbb{N}} \mathrm{isEquiv}\left(\mathrm{ap}_{\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})}(m, n)\right)$$
 
-If one doesn't have a [[natural numbers type]], one can still express the extensionality principle: the loop space $\Omega(S^1, \mathrm{base})$ of the circle type at its base point $\mathrm{base}:S^1$ is a [[denumerable set]] if and only if $\Omega(S^1, \mathrm{base})$ is equivalent to the [[sum type]] $\Omega(S^1, \mathrm{base}) + \Omega(S^1, \mathrm{base})$. 
+If one doesn't have a [[natural numbers type]], the loop space $\Omega(S^1, \mathrm{base})$ of the circle type at its base point $\mathrm{base}:S^1$ is an [[infinite set]] if and only if $\Omega(S^1, \mathrm{base})$ is equivalent to the [[sum type]] $\Omega(S^1, \mathrm{base}) + \Omega(S^1, \mathrm{base})$. 
 
-$$\mathrm{ext}_{S^1}:\Omega(S^1, \mathrm{base}) \simeq (\Omega(S^1, \mathrm{base}) + \Omega(S^1, \mathrm{base}))$$
+$$\mathrm{inf}_{S^1}:\Omega(S^1, \mathrm{base}) \simeq (\Omega(S^1, \mathrm{base}) + \Omega(S^1, \mathrm{base}))$$
 
 See [Rasekh 21](#Rasekh21) for proving this statement in the presence of the [[univalence axiom]]. 
 
