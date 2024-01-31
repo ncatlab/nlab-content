@@ -156,6 +156,10 @@ A notion of "flat 2-functor" (cf [[Diaconescu's theorem]]) perhaps relevant to t
 
 * M.E. Descotte, [[Eduardo Dubuc]], M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
+Discussion of 2-classifiers for 2-toposes is in 
+
+* [[Luca Mesiti]], _2-classifiers via dense generators and Hofmann-Streicher universe in stacks_ &lbrack;[arXiv:2401.16900](https://arxiv.org/abs/2401.16900)&rbrack;
+
 
 [[!redirects 2-toposes]]
 [[!redirects 2-topoi]]
