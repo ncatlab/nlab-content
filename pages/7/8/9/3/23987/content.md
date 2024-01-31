@@ -2515,6 +2515,18 @@ Stone-von Neumann**
 
   > [[ground field|Over a field]] of [[positive characteristic]] $p$, restricted [[Lie algebras]] are of prime interest, mainly due to their link to [[algebraic groups]] and their role in [[representation theory]] and classification. The [[Lie algebra cohomology|cohomology]] associated with restricted Lie algebras is considerably more complicated than the ordinary [[Chevalley-Eilenberg complex|Chevalley-Eilenberg cohomology]] and explicit formulas are only known up to order 2. In this talk, I will explain how to build the first and second restricted cohomology groups for restricted [[Lie superalgebras]] in [[characteristic]] $p$ greater than 3, modifying a previous construction.  I will explain how these groups capture some algebraic structures, such as restricted extensions.  Further, I will show how to apply this construction to classify $p$-nilpotent restricted Lie superalgebras up to dimension 4 over an [[algebraically closed field]] of characteristic $p$ greater than 3. This is a joint work with Sofiane Bouarroudj (NYU Abu Dhabi).
 
+\linebreak
+
+* 31 Jan 2024
+
+  [[Chris Blair]]:
+
+  **Geometry and Dualities of Decoupling Limits in String Theory and M-Theory**
+
+  cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
+
+  > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
+
 
 \linebreak
 
