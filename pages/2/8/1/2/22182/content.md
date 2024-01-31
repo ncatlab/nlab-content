@@ -277,6 +277,12 @@ or equivalently that application of the above function is an equivalence for all
 
 $$\mathrm{ext}_{S^1}:\prod_{m:\mathbb{N}} \prod_{n:\mathbb{N}} \mathrm{isEquiv}\left(\mathrm{ap}_{\mathrm{rec}_{\mathbb{N}}(\mathrm{refl}_{S^1}(\mathrm{base}), \lambda l:\Omega(S^1, \mathrm{base}).l \bullet \mathrm{loop})}(m, n)\right)$$
 
+If one doesn't have a [[natural numbers type]], one can still express the extensionality principle: the loop space $\Omega(S^1, \mathrm{base})$ of the circle type at its base point $\mathrm{base}:S^1$ is a [[denumerable set]] if and only if $\Omega(S^1, \mathrm{base})$ is equivalent to the [[sum type]] $\Omega(S^1, \mathrm{base}) + \Omega(S^1, \mathrm{base})$. 
+
+$$\mathrm{ext}_{S^1}:\Omega(S^1, \mathrm{base}) \simeq (\Omega(S^1, \mathrm{base}) + \Omega(S^1, \mathrm{base}))$$
+
+See [Rasekh 21](#Rasekh21) for proving this statement in the presence of the [[univalence axiom]]. 
+
 ### Kuratowski-finiteness
 
 The circle type is [[Kuratowski-finite]]. (Cf [Frumin et al. 18](#FGGW))
@@ -350,6 +356,10 @@ For the fact that the type of H-space structures on a circle type is contractibl
 For the fact that the circle type is Kuratowski-finite:
 
 * {#FGGW} [[Dan Frumin]], [[Herman Geuvers]], [[Léon Gondelman]], [[Niels van der Weide]], _Finite Sets in Homotopy Type Theory_, in *CPP 2018: Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2018) 201–214 &lbrack;[doi:10.1145/3167085](https://doi.org/10.1145/3167085), [pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf)&rbrack;
+
+For the fact that one can construct a [[natural numbers type]] from the circle type:
+
+* {#Rasekh21} [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, Theory and Applications of Categories **37** 13 (2021) 337-377.  ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734), [tac:37-13](http://www.tac.mta.ca/tac/volumes/37/13/37-13abs.html))
 
 [[!redirects circle type]]
 [[!redirects circle types]]
