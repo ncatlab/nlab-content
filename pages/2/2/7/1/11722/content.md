@@ -10,17 +10,17 @@
 =--
 
 
-Theorem named after [[Pavel Urysohn|Urysohn]].
-
+#Contents#
 * table of contents
 {: toc}
 
 ## Statement and proof
 
 [[!include Urysohn metrization theorem - main theorem]]
-The proof can be divided into three parts. Recall that "second-countable" means having a countable base. All spaces considered are assumed to be $T_1$ (points are closed), so that "regular" means regular Hausdorff. 
 
-1. A [[regular space]] with a countable base is [[normal space|normal]]. 
+The **proof** can be divided into three parts. Recall that "second-countable" means having a [[countable set|countable]] [[topological base|base]]. All topological spaces considered here are assumed to be [[T1|$T_1$]] (points are closed), so that "[[regular topological space|regular]]" means "regular [[Hausdorff space|Hausdorff]]". 
+
+1. A [[regular space]] with a [[countable set|countable]] [[topological base|base]] is [[normal space|normal]]. 
 
 1. A normal space $X$ is a [[completely regular space]], i.e., given a point $x \in X$ and an open set $U \subseteq X$ containing $x$, there exists a continuous function $f: X \to [0, 1]$ such that $f(x) = 1$ and $f(y) = 0$ for $y \notin U$. 
 
@@ -66,5 +66,29 @@ is a continuous injection, since if $x \neq y$, we can find a pair $s = (U, V) \
 ## Related concepts
 
 * [[topological space]]
+
 * [[metrisable topological space]]
+
 * [[second-countable space]]
+
+
+## References
+
+Named after [[Pavel Urysohn]].
+
+Textbook accounts:
+
+* {#Kelley55} [[John Kelley]], Ch. 4, Th. 16 in: *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
+
+* {#Munkres75} [[James Munkres]], Ch. 4, Thm 34.1 _Topology_, Prentice Hall (1975, 2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
+
+* [[Richard E. Hodel]], *The Alexandroff-Urysohn metrization theorem revisited*, in: *Set-Theoretic Topology*, Academic Press (1977) 239-253 &lbrack;[doi:10.1016/B978-0-12-584950-0.50021-3](https://doi.org/10.1016/B978-0-12-584950-0.50021-3)
+
+See also:
+
+* ProofWiki, *[Urysohn's_Metrization_Theorem](https://proofwiki.org/wiki/Urysohn%27s_Metrization_Theorem)*
+
+
+
+
+
