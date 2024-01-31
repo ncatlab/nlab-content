@@ -236,7 +236,7 @@ See in particular also the list of references given there.
 
 Other lecture notes include
 
-* Theo B&#252;hler, _An introduction to the derived category_ ([pdf](http://www.uni-math.gwdg.de/theo/intro-derived.pdf))
+* Theo B&#252;hler, _An introduction to the derived category_ ([pdf](https://ncatlab.org/nlab/files/intro-derived.PDF)).
 
 and for applications to [[coherent sheaves]],
 
