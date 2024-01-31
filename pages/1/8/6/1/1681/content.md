@@ -279,8 +279,7 @@ Quick review includes
 
 * {#Yin} Xi Yin, _On Eilenberg-MacLane spaces_ ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Notes_files/AT.pdf))
 
-
-Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]]:
+Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]] (cf. *[[Eilenberg-MacLane space type]]*):
 
 * {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, CSL-LICS '14 **66** (2014) 1-9 &lbrack;[pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/), [doi:10.1145/2603088.2603153](https://doi.org/10.1145/2603088.2603153)&rbrack;
 
@@ -288,7 +287,7 @@ Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
-* [[David Wärn]], _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
+* [[David Wärn]], *Eilenberg-MacLane spaces and stabilisation in homotopy type theory*, J. Homotopy Relat. Struct. **18**  (2023) 357–368 &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685), [doi:10.1007/s40062-023-00330-5](https://doi.org/10.1007/s40062-023-00330-5)&rbrack;
 
 
 
