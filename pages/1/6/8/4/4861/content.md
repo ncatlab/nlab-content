@@ -21,9 +21,9 @@
 
 ## Idea ##
 
-A [[homotopy]] between two maps $f,g \;\colon\; X \to Y$ may be thought of as a path in the [[mapping space]] $Map(X,Y)$.  If, instead, one works with the space of [[embeddings]], then one gets the concept of **isotopy**.
+A [[homotopy]] between two maps $f,g \;\colon\; X \to Y$ may be thought of as a [[continuous map|continuous]] [[path]] in the [[mapping space]] $Map(X,Y)$.  Similarly, a path in the  [[topological subspace|subspace]] $Emb(X,Y) \hookrightarrow Map(X,Y)$ of [[embeddings]] of $X$ into $Y$, is an **isotopy**.
 
-Since, for arbitrary [[topological spaces]], the mapping space $Map(X,Y)$ is not always well-defined as a topological space, defining a homotopy as a _left homotopoy_ using a [[cylinder object]], hence as a map $H \colon X \times I \to Y$ is the rigorous way of saying "$H$ is a path from $f$ to $g$ in the mapping space.".  Similarly, the proper definition of an isotopy as a map $H \colon X \times I \to Y$ with the property that $H(-,t) \colon X \to Y$ is always an embedding, is the rigorous way of saying "$H$ is a path from $f$ to $g$ in the embedding space.".
+Since, for arbitrary [[topological spaces]], the mapping space $Map(X,Y)$ is not always well-behaved, defining a homotopy as a _left homotopy_ using a [[cylinder object]], hence as a map $H \colon X \times I \to Y$ is the rigorous way of saying "$H$ is a path from $f$ to $g$ in the mapping space.".  Similarly, the proper definition of an isotopy as a map $H \colon X \times I \to Y$ with the property that $H(-,t) \colon X \to Y$ is always an embedding, is the rigorous way of saying "$H$ is a path from $f$ to $g$ in the embedding space.".
 
 In some settings, even this is not strong enough.  In the notion of an **ambient isotopy**, one requires the path to extend to a path in the space of homeomorphisms of the ambient space.
 
