@@ -48,9 +48,9 @@ See also
 
 * [[Haskell]]: [Data-Category-Enriched.html](https://hackage.haskell.org/package/data-category-0.10/docs/Data-Category-Enriched.html)
 
-The tensor product of enriched categories is called the **commuting tensor product** of enriched categories in the following:
+The tensor product of enriched categories is called the *commuting tensor product* of enriched categories in:
 
-* [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_, [arXiv](http://arxiv.org/abs/1507.08710).
+* [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_ &lbrack;[arXiv:1507.08710](http://arxiv.org/abs/1507.08710)&rbrack;
 
 
 [[!redirects enriched product category]]
