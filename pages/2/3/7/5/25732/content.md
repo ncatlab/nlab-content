@@ -52,6 +52,8 @@ The tensor product of enriched categories is called the *commuting tensor produc
 
 * [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_ &lbrack;[arXiv:1507.08710](http://arxiv.org/abs/1507.08710)&rbrack;
 
+where the authors show how to construct the tensor product even when $V$ is not [[braided monoidal category|braided monoidal]], but merely [[duoidal category|duoidal]].
+
 
 [[!redirects enriched product category]]
 [[!redirects enriched product categories]]
