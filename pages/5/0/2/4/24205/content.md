@@ -68,11 +68,18 @@ It should be noted that the above can be compressed, to specify a function $f : 
 
 ## References
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, CSL-LICS '14 **66** (2014) 1-9 &lbrack;[pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/), [doi:10.1145/2603088.2603153](https://doi.org/10.1145/2603088.2603153)&rbrack;
 
-* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, LICS 2014 ([pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/))
+* {#vanDoorn18} [[Floris van Doorn]], §42 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
 
-Formalization that $K(G,n)$ is a spectrum [here](https://github.com/HoTT/HoTT-Agda/blob/master/homotopy/EilenbergMacLane.agda)
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
+
+* [[David Wärn]], *Eilenberg-MacLane spaces and stabilisation in homotopy type theory*, J. Homotopy Relat. Struct. **18**  (2023) 357–368 &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685), [doi:10.1007/s40062-023-00330-5](https://doi.org/10.1007/s40062-023-00330-5)&rbrack;
+
+Formal proof that the $K(G,-)$ form a [[spectrum]]:
+
+* [github.com/HoTT/HoTT-Agda/blob/master/homotopy/EilenbergMacLane.agda](https://github.com/HoTT/HoTT-Agda/blob/master/homotopy/EilenbergMacLane.agda)
+
 
 [[!redirects Eilenberg-MacLane space types]]
 
