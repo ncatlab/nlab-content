@@ -15,9 +15,9 @@
 
 ## Idea
 
-The [[category]] whose [[objects]] are [[finite sets]] and whose [[morphisms]] are [[stochastic maps]] (or [[stochastic matrices]]) is often denotes _FinStoch_, or similar.
+The [[category]] whose [[objects]] are [[finite sets]] and whose [[morphisms]] are [[stochastic maps]] (or [[stochastic matrices]]) is often denotes _FinStoch_, or similar; a [[full subcategory]] of [[Stoch]].
 
-It is an elementary but nontrivial example of a [[Markov category]], and together with its subcategory [[Stoch#borelstoch|BorelStoch]], one of the most important categories of [[categorical probability]].
+This is an elementary but nontrivial example of a [[Markov category]], and together with its subcategory [[Stoch#borelstoch|BorelStoch]], one of the most important categories of [[category-theoretic probability]].
 
 ## Definition
 
@@ -49,7 +49,7 @@ See at [[stochastic matrix]] for more details.
 
 ## References:
 
-* {#markov_support} Tobias Fritz, Tomáš Gonda, Antonio Lorenzin, Paolo Perrone, Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+* {#markov_support} [[Tobias Fritz]], Tomáš Gonda, Antonio Lorenzin, [[Paolo Perrone]], Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_ &lbrack;[arXiv:2308.00651](https://arxiv.org/abs/2308.00651)&rbrack;
 
 category: category
 
