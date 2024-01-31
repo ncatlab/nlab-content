@@ -1,4 +1,8 @@
 
+* &lbrack;[[TQGinHoTT-GaussManinConnectionType-240131.jpg:file]]&rbrack; *[[Gauss-Manin connection]] on [[nLab:twisted ordinary cohomology|twisted cohomology]] as [[dependent function|dependent function]] [[type transport]]*.
+
+* &lbrack;[[TQGinHoTT-BraidGroups-240131.jpg:file]]&rbrack; *[[nLab:braid group|Braid groups]] and their [[finitely presented group|finite presentations]]*.
+
 The idea of quantum computing.
 
 The idea of topological quantum computing. 
