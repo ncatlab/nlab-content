@@ -943,7 +943,7 @@ Taking $\sigma$ to be the identity permutation, we have that $f = g$. It then fo
 This implies, for instance, that the $\otimes$ of an Abelian group is commutative.
 
 \begin{corollary}
-In a commutative algebraic theory such that every operation has a unit, every operation is invariant under permutation of its operands, and there is at most one $n$-ary operation for each $n \in \mathbb{N}$.
+Suppose a given algebraic theory is commutative and every operation has a unit. Then every operation is invariant under permutation of its operands, and there is at most one $n$-ary operation for each $n \in \mathbb{N}$.
 \end{corollary}
 
 \begin{proof}
