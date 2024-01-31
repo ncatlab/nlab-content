@@ -468,6 +468,146 @@ $$
 \frac{\Gamma, x:A, y:A, p:\mathrm{Id}_A(x, y) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{Id}_A(c)) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{up}_{\mathrm{Id}_A}(t, a):\exists!J:\left(\prod_{c:A} C(c, c, \mathrm{id}_A(c))\right) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:\mathrm{Id}_A(x, y)} C(x, y, p)\right).\mathrm{Id}_{C(a, a, \mathrm{id}_A(a))}(J(t, a, a, \mathrm{id}_A(a)), t(a))}
 $$
 
+### Variants of the identity type
+
+Given a type $A$, two elements $x:A$ and $y:A$ is equivalently 
+
+* a function $\mathrm{rec}_\mathbb{2}^A(x, y):\mathbb{2} \to A$ from $\mathbb{2}$ to $A$ by the recursion and uniqueness principle of the [[boolean domain]] $\mathbb{2}$, 
+
+* a [[pair]] $\mathrm{in}(x, y):A \times A$ by the introduction rule of [[pair types]] $A \times A$. 
+
+From the other side, a function $f:\mathbb{2} \to A$ is equivalently two elements $f(0):A$ and $f(1):A$, and by the negative recursion and uniqueness rules of [[pair types]], a pair $z:A \times A$ is equivalently two elements $\pi_1(z):A$ and $\pi_2(z)$. This implies that one can define two variants of the identity type, 
+
+* a variant $\mathrm{Id}_A(f)$ indexed by functions $f:\mathbb{2} \to A$ out of the boolean domain, where the usual identity type is then defined as 
+$$x =_A y \coloneqq \mathrm{Id}_A(\mathrm{rec}_\mathbb{2}^A(x, y))$$
+
+* a variant $\mathrm{Id}_A(z)$ indexed by pairs $z:A \times A$, where the usual identity type is then defined as 
+$$x =_A y \coloneqq \mathrm{Id}_A(\mathrm{in}(x, y))$$
+
+#### Identity types indexed by functions from the booleans
+
+The inference rules for identity types indexed by functions from the booleans is given as follows:
+
+First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+
+**[[type formation]]**
+
+$$\frac{\Gamma \vdash A:Type}{\Gamma, f:\mathbb{2} \to A \vdash Id_A(f):Type}$$
+
+Now the basic "introduction" rule, which says that the elements of $A$ encoded in the [[constant function]] $\lambda b:\mathbb{2}.x$ which sends every boolean $b:\mathbb{2}$ to $x:A$ are equal in a canonical way.
+
+**[[term introduction]]**
+
+$$\frac{\Gamma \vdash A:Type}{\Gamma, x:A \vdash r(x) : Id_A(\lambda b:\mathbb{2}.x)}$$
+
+Then we have the “elimination” rule:
+
+$$\frac{\Gamma, f:\mathbb{2} \to A, p:Id_A(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash t(x):C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, f:\mathbb{2} \to A, p:Id_A(f) \vdash J^{\underline{ }.t}(f,p) : C(f,p)}$$
+
+The elimination rule then says that if:
+
+1. for any $f:\mathbb{2} \to A$ and any reason $p:Id_A(f)$ why the two elements of $A$ encoded in the functions are the same, we have a type $C(f,p)$
+1. for any $x:A$ we have a $t(x):C(\lambda b:\mathbb{2}.x,r(x))$,
+
+we can construct a canonically defined term $J^{\underline{ }.t}(f,p):C(f,p)$ for *any* $f$ and $p:Id_A(f)$, by "[[transport|transporting]]" the family of terms $t(x)$ dependent upon the element $x:A$ along the proof of equality $p$. The elimination rule alternatively says that in order to prove a statement is true about all $f,p$, it suffices to prove it in the special case for $\lambda b:\mathbb{2}.x,r(x)$.
+
+Finally, we have the "computation" or [[beta-reduction]] rule. There are two possible computation rules, which result in strict and weak identity types respectively. The computation rule for strict identity types says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. 
+
+**[[computation rule]] for strict identity types**
+
+$$\frac{\Gamma, f:\mathbb{2} \to A, p:Id_A(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash t(x):C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash J^{\underline{ }.t}(\lambda b:\mathbb{2}.x,r(x)) = t(x)}$$
+
+Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
+
+The computation rule for weak identity types says that there is a witness that the substitution along a [[reflexive relation|reflexivity]] proof is equal to the original $t(x)$. 
+
+**[[computation rule]] for weak identity types**
+
+$$\frac{\Gamma, f:\mathbb{2} \to A, p:Id_A(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash t(x):C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash \beta^{\underline{ }.t}(x):Id_{C(\lambda b:\mathbb{2}.x,r(x))}(J^{\underline{ }.t}(\lambda b:\mathbb{2}.x,r(x)),t(x))}$$
+
+If we have [[dependent product types]], we can directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(\lambda b:\mathbb{2}.x,r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,f,p):C(f,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(\lambda b:\mathbb{2}.x,r(x))$ rather than annotated with the family $t(x)$. 
+
+$$\frac{\Gamma, f:\mathbb{2} \to A, p:Id_A(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, f:\mathbb{2} \to A, p:Id_A(f) \vdash J(t,f,p) : C(f,p)}$$
+
+$$\frac{\Gamma, f:\mathbb{2} \to A, p:Id_A(f), \Delta(f,p) \vdash C(f,p):Type \qquad
+\Gamma \vdash t:\prod_{x:A} C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash J(t,\lambda b:\mathbb{2}.x,r(x)) = t(x)}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $J(\lambda x:A.t(x),f,p):C(f,p)$ and $J(\lambda x:A.t(x),\lambda b:\mathbb{2}.x,r(x)) \equiv t(x):C(\lambda b:\mathbb{2}.x,r(x))$. . 
+
+Similarly, the canonically defined term in the propositional computation rule is given by the identification $\beta(t,x):Id_{C(\lambda b:\mathbb{2}.x,r(x))}(J(t,\lambda b:\mathbb{2}.x,r(x)),t(x))$ and is dependent upon dependent function $t:\prod_{x:A} C(\lambda b:\mathbb{2}.x,r(x))$ rather than annotated with the family $t(x)$.
+
+$$\frac{\Gamma, f:\mathbb{2} \to A, p:Id_A(f), \Delta(f,p) \vdash C(f,p):Type \qquad
+\Gamma \vdash t:\prod_{x:A} C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash \beta(t,x):Id_{C(\lambda b:\mathbb{2}.x,r(x))}(J(t,\lambda b:\mathbb{2}.x,r(x)),t(x))}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\lambda b:\mathbb{2}.x,r(x))}(J(\lambda x:A.t(x),\lambda b:\mathbb{2}.x,r(x)),t(x))$.  
+
+#### Identity types indexed by pairs
+
+The inference rules for identity types indexed by pairs is given as follows:
+
+First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+
+**[[type formation]]**
+
+$$\frac{\Gamma \vdash A:Type}{\Gamma, z:A \times A \vdash Id_A(z):Type}$$
+
+Now the basic "introduction" rule, which says that the elements encoded in the non-dependent [[diagonal]] $\Delta_A(x) \coloneqq \lambda x:A.(x, x)$ at $x:A$ are equal in a canonical way.
+
+**[[term introduction]]**
+
+$$\frac{\Gamma \vdash A:Type}{\Gamma, x:A \vdash r(x) : Id_A(\Delta_A(x))}$$
+
+Then we have the “elimination” rule:
+
+$$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma, x:A, \Delta(\Delta_A(x),r(x)) \vdash t(x):C(\Delta_A(x),r(x))}
+{\Gamma, z:A \times A, p:Id_A(z) \vdash J^{\underline{ }.t}(z,p) : C(z,p)}$$
+
+The elimination rule then says that if:
+
+1. for any $z:A \times A$ and any reason $p:Id_A(z)$ why the two elements of $A$ encoded in the pair are the same, we have a type $C(z,p)$
+1. for any $x:A$ we have a $t(x):C(\Delta_A(x),r(x))$,
+
+we can construct a canonically defined term $J^{\underline{ }.t}(z,p):C(z,p)$ for *any* $z$ and $p:Id_A(z)$, by "[[transport|transporting]]" the family of terms $t(x)$ dependent upon the element $x:A$ along the proof of equality $p$. The elimination rule alternatively says that in order to prove a statement is true about all $z,p$, it suffices to prove it in the special case for $\Delta_A(x),r(x)$.
+
+Finally, we have the "computation" or [[beta-reduction]] rule. There are two possible computation rules, which result in strict and weak identity types respectively. The computation rule for strict identity types says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. 
+
+**[[computation rule]] for strict identity types**
+
+$$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma, x:A, \Delta(\Delta_A(x),r(x)) \vdash t(x):C(\Delta_A(x),r(x))}
+{\Gamma, x:A, \Delta(\Delta_A(x),r(x)) \vdash J^{\underline{ }.t}(\Delta_A(x),r(x)) = t(x)}$$
+
+Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
+
+The computation rule for weak identity types says that there is a witness that the substitution along a [[reflexive relation|reflexivity]] proof is equal to the original $t(x)$. 
+
+**[[computation rule]] for weak identity types**
+
+$$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma, x:A, \Delta(\Delta_A(x),r(x)) \vdash t(x):C(\Delta_A(x),r(x))}
+{\Gamma, x:A, \Delta(\Delta_A(x),r(x)) \vdash \beta^{\underline{ }.t}(x):Id_{C(\Delta_A(x),r(x))}(J^{\underline{ }.t}(\Delta_A(x),r(x)),t(x))}$$
+
+If we have [[dependent product types]], we can directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(\Delta_A(x),r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,z,p):C(z,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(\Delta_A(x),r(x))$ rather than annotated with the family $t(x)$. 
+
+$$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(\Delta_A(x),r(x))}
+{\Gamma, z:A \times A, p:Id_A(z) \vdash J(t,z,p) : C(z,p)}$$
+
+$$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(\Delta_A(x),r(x))}
+{\Gamma, x:A, \Delta(\Delta_A(x),r(x)) \vdash J(t,\Delta_A(x),r(x)) = t(x)}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $J(\lambda x:A.t(x),z,p):C(z,p)$ and $J(\lambda x:A.t(x),\Delta_A(x),r(x)) \equiv t(x):C(\Delta_A(x),r(x))$. . 
+
+Similarly, the canonically defined term in the propositional computation rule is given by the identification $\beta(t,x):Id_{C(\Delta_A(x),r(x))}(J(t,\Delta_A(x),r(x)),t(x))$ and is dependent upon dependent function $t:\prod_{x:A} C(\Delta_A(x),r(x))$ rather than annotated with the family $t(x)$.
+
+$$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(\Delta_A(x),r(x))}
+{\Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash \beta(t,x):Id_{C(\lambda b:\mathbb{2}.x,r(x))}(J(t,\lambda b:\mathbb{2}.x,r(x)),t(x))}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\Delta_A(x),r(x))}(J(\lambda x:A.t(x),\Delta_A(x),r(x)),t(x))$.  
+
 ## Definition from an interval type
 
 Suppose that one has an [[interval type]] $\mathbb{I}$, with elements $0:\mathbb{I}$ and $1:\mathbb{I}$. 
