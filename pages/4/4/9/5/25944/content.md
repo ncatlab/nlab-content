@@ -20,7 +20,7 @@
 
 ## Definition
 
-A [[topological space]] $(X,\tau)$ is called an **accessible topological space** or a **$T_1$-topological space** if it is both a [[Kolmogorov topological space]] and a [[symmetric topological space]]. Or equivalently, if its [[specialization preorder]] is [[equality]]. Or equivalently still, if all [[singletons]] are closed sets. 
+A [[topological space]] $(X,\tau)$ is called an **accessible topological space** or a **$T_1$-topological space** if it is both a [[Kolmogorov topological space]] and a [[symmetric topological space]]. Or equivalently, if its [[specialization preorder]] is [[equality]]. Or equivalently still, if all [[singletons]] are [[closed subsets]] ("[[closed point|points are closed]]"). 
 
 [[!include main separation axioms -- table]]
 
