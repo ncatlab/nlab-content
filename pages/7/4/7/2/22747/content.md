@@ -12,8 +12,11 @@ Note that while the adjective 'ordered' usually refers to a [[total order]], whi
 
 An __ordered integral domain__ is an [[integral domain]] $R$ equipped with a [[strict total order]] $\lt$ such that:
 
-*  $1 \gt 0$,
-*  If $a, b \gt 0$, then so are $a + b$ and $a b$.
+* $0 \lt 1$
+
+* for all $a \in R$ and $b \in R$, $0 \lt a$ and $0 \lt b$ implies that $0 \lt a + b$; alternatively, $0 \lt a + b$ implies that $0 \lt a$ or $0 \lt b$. 
+
+* for all $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then $0 \lt a \cdot b$
 
 ## Examples
 
