@@ -115,8 +115,6 @@ future actions of yet another observer.
 > It is now clear that the interpretation of quantum mechanics with which we began &lbrack;the Copenhagen interpretation&rbrack; is untenable if we are to consider a universe containing more than one observer.
 
 
-While this may indeed seem paradoxical when expressed this way in ordinary language, notice that the [[deferred measurement principle]] may be regarded as making precise that/how both these perspectives are in fact equivalent.
-
 
 ## Related concepts
 
