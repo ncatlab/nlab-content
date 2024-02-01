@@ -257,24 +257,25 @@ The terminology for the various incarnations of the single notion of [[connectio
 ## References 
 
 
-The original definition is due to
+The notion originates with:
 
-* [[Charles Ehresmann]], _Les connexions infinitésimales dans un espace fibré différentiable_, [[Séminaire Bourbaki]], Vol. 1, Exp. No. 24, 153–168, [numdam](http://www.numdam.org/article/SB_1948-1951__1__153_0.pdf).
-A paper with the same author and title appeared in
-Colloque de topologie (espaces fibrés), Bruxelles, 1950, pp. 29–55. Georges Thone, Liège; Masson et Cie., Paris, 1951.
+* [[Charles Ehresmann]], *Les connexions infinitésimales dans un espace fibré différentiable*, 
 
-See also
+   Colloque de topologie (espaces fibrés), Bruxelles, 1950, Georges Thone, Liège; Masson et Cie., Paris (1951) 29–55
 
-* Nakahara, Mikio: _Geometry, topology and physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1090.53001&format=complete))
+  [[Séminaire Bourbaki]], **1** 24 (1952) 153–168 &lbrack;[numdam:SB_1948-1951__1__153_0](http://www.numdam.org/item/?id=SB_1948-1951__1__153_0), [pdf](http://www.numdam.org/article/SB_1948-1951__1__153_0.pdf)&rbrack;
 
-A formulation and discussion of Ehresmann connections using language and tools from [[synthetic differential geometry]] is in section 6 of
+See also:
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+* [[Mikio Nakahara]], _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
-Generalization to [[principal 2-bundles]] is discussed in
+A formulation and discussion of Ehresmann connections using language and tools from [[synthetic differential geometry]]:
 
-* {#Waldorf16} [[Konrad Waldorf]], _A global perspective to connections on 
-principal 2-bundles_ ([arXiv:1608.00401](https://arxiv.org/abs/1608.00401))
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], section 6 of: _[[Models for Smooth Infinitesimal Analysis]]_
+
+Generalization to [[principal 2-bundles]]:
+
+* {#Waldorf16} [[Konrad Waldorf]], _A global perspective to connections on principal 2-bundles_ ([arXiv:1608.00401](https://arxiv.org/abs/1608.00401))
 
 Generalization to [[connections on principal ∞-bundles]]:
 
