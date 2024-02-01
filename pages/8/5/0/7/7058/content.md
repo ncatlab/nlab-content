@@ -44,4 +44,7 @@ For instance appendix 6 of
 
 [[!redirects strong adjoint functors]]
 
+[[!redirects strong adjunction]]
+[[!redirects strong adjunctions]]
+
 
