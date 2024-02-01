@@ -63,7 +63,7 @@ This is due to ([Barwick & Schommer-Pries](#BarwickSchommer-Pries)).
 
 ## References
 
-* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the uniticity of the homotopy theory of higher categories_ ([pdf](http://dl.dropbox.com/u/8165870/Unicity.pdf))
+* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the unicity of the homotopy theory of higher categories_ ([pdf](https://arxiv.org/pdf/1112.0040.pdf))
  {#BarwickSchommer-Pries}
 
 [[!redirects InfinityCommaNCat]]
