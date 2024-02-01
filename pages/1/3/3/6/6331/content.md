@@ -1045,7 +1045,11 @@ claimed in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98).
 
 * [[Picard-Fuchs equation]]
 
+* [[Knizhnik-Zamolodchikov connection]]
+
 ## Related concepts
+
+* [[Ehresmann theorem]]
 
 * [[flat connection]]
 
@@ -1053,7 +1057,6 @@ claimed in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98).
 
 * [[local system]]
 
-* [[Knizhnik-Zamolodchikov equation]]
 
 ## References
 
