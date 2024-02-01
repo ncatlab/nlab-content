@@ -283,11 +283,11 @@ $$\frac{\Gamma \vdash A:Type}
 
 To a category theorist, it might be more natural to call this $1_X$.  The traditional notation $r(x)$ indicates that this is a canonical proof of the *[[reflexive relation|reflexivity]]* of equality.
 
-Then there are the "elimination" rule and the "computation" or [[beta-reduction]] rule of identity types, which together result in the induction principle of identity types. There are two different ways to express the elimination and computation rule of identity types, depending on whether one fixes a particular term $x:A$ for the rules or whether one leaves $x:A$ as a [[free variable]] throughout the rules (Cf [UFP13](#UFP13)). The latter results in the usual induction principle of identity types, known as **path induction**, while the former results in **based path induction**, since the principle is based at a particular $x:A$. 
+Then there are the "elimination" rule and the "computation" or [[beta-reduction]] rule of identity types, which together result in the induction principle of identity types. There are two different ways to express the elimination and computation rule of identity types, depending on whether one fixes a particular term $x:A$ for the rules or whether one leaves $x:A$ as a [[free variable]] throughout the rules (Cf [UFP13](#UFP13)). The latter results in the usual induction principle of identity types, known as **path induction** ([UFP13](#UFP13)) or the **standard J rule** ([Kraus and Raumer (2019)](#KrausRaumer19)), while the former results in **based path induction** ([UFP13](#UFP13)) or the **Paulin-Mohring J rule** ([Kraus and Raumer (2019)](#KrausRaumer19)), since the principle is based at a particular $x:A$ and was first defined in [Paulin-Mohring (1993)](#PaulinMohring93). 
 
 The following rules may seem a little ad-hoc, but they are actually a particular case of the general notion of [[inductive type]].
 
-#### Path induction
+#### Standard J rule
 
 Then we have the “elimination” rule, which is easily the most subtle and powerful.
 
@@ -340,7 +340,7 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 
 The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(x,x,r(x))}(J(\lambda x:A.t(x),x,x,r(x)),t(x))$. . 
 
-#### Based path induction
+#### Paulin-Mohring J rule
 
 There is another way to express the elimination and computation rules of identity types:
 
@@ -1179,6 +1179,10 @@ For the two different ways of expressing the elimination and computation rules o
 
 * {#Rijke22} [[Egbert Rijke]], §5.1 *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
+* {#PaulinMohring93} [[Christine Paulin-Mohring]], *Inductive definitions in the system Coq -- Rules and Properties*, in: *Typed Lambda Calculi and Applications* TLCA 1993, Lecture Notes in Computer Science **664** Springer (1993) &lbrack;[doi:10.1007/BFb0037116](https://doi.org/10.1007/BFb0037116)&rbrack;
+
+* {#KrausRaumer19} [[Nicolai Kraus]], [[Jakob von Raumer]], *Path Spaces of Higher Inductive Types in Homotopy Type Theory*. &lbrack;[arXiv:1901.06022](https://arxiv.org/abs/1901.06022)&rbrack;
+
 See also (?):
 
 * [[Per Martin-Löf]], p. 169 (17 of 23) in: *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
@@ -1255,7 +1259,6 @@ reviewed in:
 
 * {#Riehl22} [[Emily Riehl]], §1.1 in: *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
 
-
 For more see the references at _[[homotopy type theory]]_.
 
 See also
@@ -1327,20 +1330,15 @@ See also
 [[!redirects propositional J rule]]
 [[!redirects typal J rule]]
 
-[[!redirects J-rule]]
-[[!redirects judgmental J-rule]]
-[[!redirects propositional J-rule]]
-[[!redirects typal J-rule]]
+[[!redirects standard J rule]]
+[[!redirects judgmental standard J rule]]
+[[!redirects propositional standard J rule]]
+[[!redirects typal standard J rule]]
 
-[[!redirects based J rule]]
-[[!redirects judgmental based J rule]]
-[[!redirects propositional based J rule]]
-[[!redirects typal based J rule]]
-
-[[!redirects J-rule]]
-[[!redirects judgmental based J-rule]]
-[[!redirects propositional based J-rule]]
-[[!redirects typal based J-rule]]
+[[!redirects Paulin-Mohring J rule]]
+[[!redirects judgmental Paulin-Mohring J rule]]
+[[!redirects propositional Paulin-Mohring J rule]]
+[[!redirects typal Paulin-Mohring J rule]]
 
 [[!redirects identity induction]]
 [[!redirects path induction]]
