@@ -170,9 +170,12 @@ Every [[locally trivial]] topological fiber bundle projection is a [[Serre fibra
   Beware that the converse statement is far from being true.
 \end{remark}
 
+
 ## Related concepts
 
 * [[bundle]]
+
+* [[Ehresmann's theorem]]
 
 * **fiber bundle** / [[fiber ∞-bundle]]
 
