@@ -104,10 +104,10 @@ $$
 ### Relation to equivariant homotopy theory
 
 
-The [[(∞,1)-category of (∞,1)-presheaves]] on the [[global equivariant indexing category]] is the [[global equivariant homotopy theory]] and under the canonical projection is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. Its [[slice (∞,1)-topos]] over the terminal oribispace is cohesive over [[orbispaces]]
+The [[(∞,1)-category of (∞,1)-presheaves]] on the [[global equivariant indexing category]] is the [[global equivariant homotopy theory]] and under the canonical projection is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. Its [[slice (∞,1)-topos]] over the terminal orbispace is cohesive over [[orbispaces]]
 
 $$
-  PSh_\infty(Glo)_{/\mathcal{N}} \to Psh_\infty(Orb)
+  PSh_\infty(Glo)_{/\mathcal{N}} \to PSh_\infty(Orb)
  \,.
 $$
 
