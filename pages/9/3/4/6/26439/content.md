@@ -66,7 +66,7 @@ $\overline{a}\langle M,N\rangle:r$ | Use Lemma 1, knowing that $p$ and $q$, to p
 
 ### Session types
 
-Session types were introduced by Kohei Honda. A session links exactly two subprocesses that interact with each other, and multiple sessions can run simultaneously.
+[[session type|Session types]] were introduced by Kohei Honda. A session links exactly two subprocesses that interact with each other, and multiple sessions can run simultaneously.
 
 \begin{example}
 The process
