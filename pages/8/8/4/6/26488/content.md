@@ -60,6 +60,16 @@ there exists a dependent function $c:\prod_{z:\underset{x:A, y:A}{\mathrm{Wsus}}
 * for all $x:A$, $c(\mathrm{points}(x)) \equiv c_\mathrm{points}(x)$, and
 * for all $x:A$, $y:A$, and $r:R(x, y)$, $\mathrm{apd}_c(\mathrm{paths}(x,y,r)) \equiv c_\mathrm{paths}(x, y, r)$
 
+The large recursion principle of $\underset{x:A,y:A}{\mathrm{Wsus}} R(x, y)$ says that given
+
+* a type family $x:A \vdash C(x)$
+* a dependent function $c_\mathrm{equiv}:\prod_{x:A} \prod_{y:A} R(x, y) \to (C(x) \simeq C(y))$
+
+there exists a type family $z:\left(\underset{x:A, y:A}{\mathrm{Wsus}} R(x, y)\right) \vdash D(z)$ such that 
+
+* for all $x:A$, $D(c(x)) \equiv C(x)$, and
+* for all $x:A$, $y:A$, and $r:R(x, y)$, $\mathrm{tr}_C(\mathrm{paths}(x,y,r)) \equiv c_\mathrm{equiv}(x, y, r):C(x) \simeq C(y)$
+
 ### Sojakova W-suspensions
 
 The second notion of graph leads to the following higher inducive type defined in [Sojakova15](#Sojakova15):
