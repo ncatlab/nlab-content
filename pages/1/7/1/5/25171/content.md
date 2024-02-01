@@ -37,6 +37,8 @@ A **local integral domain** is a [[commutative ring]] which is both a [[local ri
 
 Unlike the [[theory]] of [[Heyting fields]], the theory of local integral domains is a [[coherent theory]]. It is the condition that a local integral domain is an [[Artinian ring]] that fails in [[coherent logic]], since it relies on either negation to refer to non-invertible elements (see [[Artinian local ring]]), proper ideals/maximal ideals, or the [[natural numbers]] to refer to the [[descending chain condition]]. Even if one has the natural numbers around to define a [[dependent sequence]] of [[monomorphisms]] for the [[descending chain condition]], such as working internally in an [[arithmetic pretopos]], it is not necessarily the case that every such [[Artinian local ring]] has a maximal ideal or that [[Nakayama's lemma]] holds in [[coherent logic]]. 
 
+While every [[ring homomorphism]] between fields is an [[injection]], it is not the case that every ring homomorphism between local integral domains is an injection. The ring homomorphism which takes a local integral domain to its [[residue field]] is an injection if and only if the local integral domain is already a field. 
+
 ## See also
 
 * [[ordered local integral domain]]
