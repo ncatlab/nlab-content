@@ -5,14 +5,19 @@
 
 ## Definition
 
-Every [[field]] $F$ has a [[characteristic]]: it is zero if its underlying $\mathbb{Z}$-[[module]] is a [[flat module]], or equivalently if its underlying [[abelian group]] is a [[torsion-free group]]. 
+Every [[commutative ring]] $R$ has a [[characteristic]]: it is zero if equivalently
 
+* its underlying $\mathbb{Z}$-[[module]] is a [[flat module]], 
 
-If a mathematical construct involves a "base field", e.g. an algebraic variety, then we say that it is in characteristic zero, if its base field is.  
+* its underlying [[abelian group]] is a [[torsion-free group]]. 
+
+* The unique [[ring homomorphism]] from $\mathbb{Z}$ to $R$ is an [[injection]]. 
+
+If a mathematical construct involves a "base ring", e.g. an algebraic variety, then we say that it is in characteristic zero, if its base ring is.  
 
 ## Examples
 
-The basic example of a field of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one often says that any [[ring]] (or even [[super ring]]) $R\supset \mathbb{Q}$ containing the rationals is also of characteristic zero. 
+The basic example of a ring of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one often says that any [[ring]] (or even [[super ring]]) $R\supset \mathbb{Q}$ containing the rationals is also of characteristic zero. 
 
 The basic example of an [[algebraically closed field]] of characteristic zero is the field $\mathbb{C}$ of [[complex numbers]]. 
 
