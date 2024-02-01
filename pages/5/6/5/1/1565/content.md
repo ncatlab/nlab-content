@@ -59,6 +59,7 @@ More formally, the ring completion of a rig $R$ is obtained by applying the [[gr
 
 Matrices of rigs can be used to formulate versions of [[matrix mechanics]].
 
+Every rig with [[positive characteristic]] is a [[ring]]. 
 
 ## Examples
 
