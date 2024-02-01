@@ -875,6 +875,10 @@ A formalization in terms of [[homotopy type theory]], using a unary notation, is
 
 (A different common formalization of integers in type theory is in a binary notation, as in the [Coq standard library](http://coq.inria.fr/stdlib/Coq.ZArith.BinInt.html).  Binary notation is exponentially more efficient for performing computations, but the unary notation was convenient for calculating $\pi_1(S^1)$.)
 
+That one can construct the [[natural numbers type]] from the integers type can be found in:
+
+* [[Christian Sattler]], *Natural numbers from integers* ([pdf](https://www.cse.chalmers.se/~sattler/docs/naturals.pdf))
+
 [[!redirects integers type]]
 [[!redirects integers types]]
 
