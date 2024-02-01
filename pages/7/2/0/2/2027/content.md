@@ -36,6 +36,8 @@ The [[ring of fractions]] of every integral domain is a [[field]], the [[field o
 
 The ring of [[formal power series]] of an integral domain is a [[local integral domain]]. 
 
+While every [[ring homomorphism]] between [[fields]] is an [[injection]], it is not the case that every ring homomorphism between integral domains is an injection. The ring homomorphism which takes a [[local integral domain]] to its [[quotient ring|quotient]] by its [[Jacobson radical]] is an injection if and only if the local integral domain is already a field. 
+
 ## Examples
 
 * [[GCD domain]]
