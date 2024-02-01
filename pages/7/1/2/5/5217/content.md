@@ -13,9 +13,13 @@ Note that while the adjective 'ordered' usually refers to a [[partial order]], i
 
 Classically: 
 
-\begin{definition}
-An __ordered field__ is a [[field]] $K$ equipped with a [[strict total order]] $\lt$ such that $1 \gt 0$ and if $a, b \gt 0$, then so are $a + b$ and $a b$.
-\end{definition}
+An __ordered field__ is a [[field]] $K$ equipped with a [[strict total order]] $\lt$ such that 
+
+* $0 \lt 1$
+
+* for all $a \in R$ and $b \in R$, $0 \lt a$ and $0 \lt b$ implies that $0 \lt a + b$; alternatively, $0 \lt a + b$ implies that $0 \lt a$ or $0 \lt b$. 
+
+* for all $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then $0 \lt a \cdot b$
 
 One often sees the definition using a weak [[total order]] $\leq$ instead of the strict total order $\lt$. This makes no difference in [[classical mathematics]], but the definition of the strict total order is the one that generalizes to [[constructive mathematics]]. 
 
@@ -62,7 +66,7 @@ In particular, the traditional definition of an ordered field as defined above n
 
 2. that the ordered field, depending on how field is defined (see [[field#Constructive notions]]), is no longer [[Heyting field|Heyting]]. 
 
-Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundatiins Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$ and be a [[Heyting field]], with the [[tight apartness relation]] defined as $a \# b$ if and only if $a \lt b$ or $b \lt a$. 
+Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundatiins Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$ and be a [[Heyting field]], with the [[tight apartness relation]] defined as $a \# b$ if and only if $a \lt b$ or $b \lt a$.  
 
 However, other fields with a strict total order, such as the [[surreal numbers]], do not necessarily have a lattice structure, nor are [[Heyting field|Heyting]], so other authors prefer the more traditional definition given above. 
 
