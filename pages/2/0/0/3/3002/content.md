@@ -70,7 +70,9 @@ It is a theorem that a semigroup homomorphism between [[groups]] must be a monoi
 
 A __[[ring]] homomorphism__ is a function between rings that is a homomorphism for both the additive group and the multiplicative monoid.  Traditional [[ring theory]] sometimes actually uses rng homomorphisms even when the rngs in question are assumed to have identity elements, so be careful when reading old books.
 
-A [[semi-ring]] **homomorphism** is a function between semi-rings that is a homomorphism for both the additive monoid and the multiplicative monoid.
+A [[rig]] **homomorphism** is a function between rigs that is a homomorphism for both the additive monoid and the multiplicative monoid.
+
+A [[semi-ring]] **homomorphism** is a function between semi-rings that is a homomorphism for both the additive semigroup and the multiplicative monoid.
 
 ### General
 
