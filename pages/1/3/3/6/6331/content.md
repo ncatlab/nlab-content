@@ -26,7 +26,7 @@ A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles
 ## For fiber bundles
  {#ForFiberBundles}
 
-The existence of a flat connection on bundles of fiberwise-cohomology groups is easy to understand in the case that the [[fibers]] form a [[locally trivial bundle|locally trivial]] [[fiber bundle]]: In this case the fiberwise cohomology of the local trivialization of this fiber bundle is a local trivialization of the bundle of its fiberwise cohomology groups. The Gauss-Manin connection in this case is made explicit for instance in [Voisin 2002, above Def. 9.13](#Voisin02).
+The existence of a flat connection on bundles of fiberwise-cohomology groups is easy to understand in the case that the [[fibers]] form a [[locally trivial bundle|locally trivial]] [[fiber bundle]]: In this case the fiberwise cohomology of the local trivialization of this fiber bundle is a local trivialization of the bundle of its fiberwise cohomology groups. The Gauss-Manin connection in this case is made explicit for instance in [Voisin 2002, above Def. 9.13](#Voisin02) ([[Voisin-DefinitionOfGaussManinConn.pdf:file]]), see also [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98) ([[EtingofEtAl-DefOfGaussManin.pdf:file]]).
 
 Simple as this may appear, at least in the case of fiberwise [[twisted cohomology]] this case subsumes (for forgetful fibrations of [[configuration spaces of points]] in the plane) the profound example of solutions to the [[Knizhnik-Zamolodchikov equation]], identified as such via the  [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) -- this is highlighted as such in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98), reproduced as Example \ref{ExampleOfHypergeometricKZEquations} below.
 
@@ -1084,12 +1084,12 @@ Textbook accounts:
 
 and with focus on the special case of [[surjective submersions]] of [[smooth manifolds]]:
 
-* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. **76** (2002) &lbrack;[doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344), def: [[Voisin-DefinitionOfGaussManinConn.pdf:file]]&rbrack;
 
 
 Lecture notes:
 
-* {#Bloch16} [[Spencer Bloch]], *Gauss-Manin connections* (2016) $[$[pdf](http://www.math.uchicago.edu/~bloch/Beijing_lectures_hypergeometric_161028.pdf), [[Bloch-GaussManinConnections.pdf:file]]$]$
+* {#Bloch16} [[Spencer Bloch]], *Gauss-Manin connections* (2016) &lbrack;[pdf](http://www.math.uchicago.edu/~bloch/Beijing_lectures_hypergeometric_161028.pdf), [[Bloch-GaussManinConnections.pdf:file]]&rbrack;
 
 Gauss-Manin connections over [[configuration spaces of points]]:
 
@@ -1102,13 +1102,12 @@ Gauss-Manin connections over [[configuration spaces of points]]:
 
 and review in the context of [hypergeometric solutions](BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) to the [[Knizhnik-Zamolodchikov equation]]:
 
-* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Section 7.5 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
+* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Section 7.5 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) &lbrack;[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf), def: [[EtingofEtAl-DefOfGaussManin.pdf:file]]&rbrack;
 
 
 The discussion [above](#ForFiberBundles) follows:
 
-* {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[Gauss-Manin- and Knizhnik-Zamolodchikov connections via abstract homotopy theory](https://ncatlab.org/schreiber/show/Topological+Quantum+Computation+in+TED-K#GMConAbs)*
-
+* {#SS22} *[Gauss-Manin- and Knizhnik-Zamolodchikov connections via abstract homotopy theory](/schreiber/show/Topological+Quantum+Computation+in+TED-K#GMConAbs)*, Chapter 4 of: [[David J. Myers]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. (2024) &lbrack;[arXiv:2303.02382](https://arxiv.org/abs/2303.02382)&rbrack;
 
 See also:
 
