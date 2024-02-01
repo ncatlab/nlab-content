@@ -956,6 +956,10 @@ Equivalence to binary presentations:
 
 * [[Nicolas Magaud]], *Changing Data Representation within the Coq*, in *Theorem Proving in Higher Order Logics. TPHOLs 2003*, Lecture Notes in Computer Science **2758** &lbrack;[doi:10.1007/10930755_6](https://doi.org/10.1007/10930755_6)&rbrack;
 
+That one can construct the [[natural numbers type]] from the integers type can be found in:
+
+* [[Christian Sattler]], *Natural numbers from integers* ([pdf](https://www.cse.chalmers.se/~sattler/docs/naturals.pdf))
+
 [[!redirects natural number type]]
 [[!redirects natural-number type]]
 [[!redirects natural numbers type]]
