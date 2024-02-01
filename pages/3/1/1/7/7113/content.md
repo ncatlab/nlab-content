@@ -117,7 +117,7 @@ $$D^0(F) \coloneqq \{f \in F \to F \vert isPointwiseDifferentiable(f)\}$$
 
 The **category of Archimedean ordered fields** is the [[category]] whose [[objects]] are Archimedean ordered fields and whose [[morphisms]] are [[strictly monotonic]] field [[homomorphisms]] between Archimedean ordered fields. 
 
-The category of Archimedean ordered fields is a [[thin category]]. 
+The category of Archimedean ordered fields is a [[thin category]]. It is also a [[skeletal category]] and a [[gaunt category]], and impredicatively is the subset of the [[power set]] of [[real numbers]] which consists of all the Archimedean ordered [[subfields]] of the real numbers. 
 
 The [[initial object]] in the category of Archimedean ordered fields is the [[rational numbers]] and the [[terminal object]] in the category of Archimedean ordered fields is the ([[Dedekind real number|Dedekind]]) [[real numbers]]. 
 
