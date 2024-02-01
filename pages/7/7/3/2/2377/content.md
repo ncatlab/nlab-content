@@ -393,7 +393,7 @@ We now define a **relation** $A\looparrowright B$ to be a subset of $A\times B$.
 
 Applying separation to subsets of $A\times B$ and composing $i$ with the product projections, we recover Axiom 2 (tabulations).  We can now go on with the subsequent axioms stated in the same way as before.
 
-### SEPAF: Using pairs and functions instead of relations
+### SEPF: Using pairs and functions instead of relations
 
 One could use functions instead of relations. Sets and elements are as before. A function $f:A \to B$ depends on two sets $A$ and $B$, similar to a relation. For every function $f:A \to B$ and element $a \in A$, one could form the element $f(a) \in B$ called the **function evaluation** of $f$ at $a$. Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$, as well as functions $\pi_A:A \times B \to A$ and $\pi_B:A \times B \to B$. 
 
@@ -446,4 +446,5 @@ The following pages develop various aspects of set theory in SEAR or related the
 * [[ETCS with elements]]: A version of [[ETCS]] that, like SEAR, includes elements as a primitive. 
 
 [[!redirects SEPS]]
+[[!redirects SEPF]]
 [[!redirects three-sorted SEAR]]
