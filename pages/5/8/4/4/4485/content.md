@@ -74,9 +74,11 @@ While the [[category]] [[Diff]] of (finite dimensional) [[smooth manifold]]s doe
 
 The [[surjection|surjective]] submersions (that is the submersions that are also [[epimorphisms]] in [[Diff]]) are [[regular epimorphism]]s.
 
-Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]], and so may be used in [[internal category|internal]] [[category theory]] when using $Diff$ as the ambient category. They appear notably in the definition of [[Lie groupoid]]s.
+Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]], and so may be used in [[internal category|internal]] [[category theory]] when using $Diff$ as the ambient category. They appear notably in the definition of [[Lie groupoids]].
 
-[[Ehresmann's theorem]] states that a [[proper morphism|proper]] submersion is a locally trivial [[fibration]].
+### Ehresmann's theorem
+
+[[Ehresmann's theorem]] states that a [[proper morphism|proper]] submersion is a [[locally trivial bundle|locally trivial]] [[fibration]].
 
 ### Normal form
 
