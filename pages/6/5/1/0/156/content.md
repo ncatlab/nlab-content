@@ -232,6 +232,8 @@ Unlike in set-level foundations, in intensional type theory not every precategor
 
 * The [[free object|free]] [[category]] on a [[directed acyclic graph]] is skeletal.
 
+* The [[category]] of [[Archimedean ordered fields]] and [[monotonic]] [[field homomorphisms]] is skeletal. 
+
 All of the above examples are in fact [[gaunt categories|gaunt]]: not only are any two isomorphic objects equal, but any isomorphism is an identity morphism.
 
 * The [[delooping]] of a [[group]] is a skeletal category that is not gaunt (unless the group is [[trivial group|trivial]]).  In intensional type theory, this is a non-univalent precategory; its [[Rezk completion]] is no longer skeletal according to the above improved definition.
