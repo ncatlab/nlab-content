@@ -25,7 +25,7 @@ A **pseudo-ordered ring** or a **strictly totally ordered ring** is an [[ring]] 
 
 * $0 \lt 1$
 
-* for all $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then $0 \lt a + b$
+* for all $a \in R$ and $b \in R$, $0 \lt a$ and $0 \lt b$ implies that $0 \lt a + b$; alternatively, $0 \lt a + b$ implies that $0 \lt a$ or $0 \lt b$. 
 
 * for all $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then $0 \lt a \cdot b$
 
@@ -39,7 +39,7 @@ Pseudo-ordered rings may have [[zero divisors]]. The pseudo-ordered rings which 
 
 * the integers are a pseudo-ordered ring
 
-* the [[Dedekind real numbers]] are a totally ordered ring which in constructive mathematics cannot be proved to be a [[totally ordered ring]]. 
+* the [[Dedekind real numbers]] are a pseudo-ordered ring which in constructive mathematics cannot be proved to be a [[totally ordered ring]]. 
 
 ## See also
 
