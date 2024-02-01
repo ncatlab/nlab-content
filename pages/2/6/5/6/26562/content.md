@@ -122,7 +122,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Basu's theorem on minimal [[sufficient statistics]]: proven in terms of Markov categories in [Fritz'20](#fritzmarkov).
 
-* [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), and others.
+* [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), [Parzygnat'24](#retrodiction), and others.
 
 * [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and inclusing using Markov categories [Di Lavore-Román'23],(#partial_markov).
 
@@ -158,7 +158,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 ### Quantum probability and information theory
 
-* Quantum versions of Bayesian inverses: [Coecke-Spekkens'12](#coecke_spekkens12), [Parzygnat-Russo'22](#noncommutative_bayes), [Parzygnat-Buscemi'23](#retrodiction), [Fullwood-Parzygnat'23](#quantum_bayes)
+* Quantum versions of Bayesian inverses: [Coecke-Spekkens'12](#coecke_spekkens12), [Parzygnat-Russo'22](#noncommutative_bayes), [Parzygnat-Buscemi'23](#retrodiction), [Fullwood-Parzygnat'23](#quantum_bayes), [Parzygnat'24](#retrodiction).
 
 * Quantum versions of conditioning and disintegrations:  [Parzygnat'21](#conditional_quantum), [Parzygnat-Russo'23](#noncomm_disintegrations).
 
@@ -282,6 +282,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#fong12} [[Brendan Fong]], _Causal theories: A categorical prespective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1609.05382))
 
 * {#2-entropy} James Fullwood, _On a 2-relative entropy_, Entropy 24(1), 2022. ([arXiv](https://arxiv.org/abs/2112.03582))
+
+* {#retrodiction} [[Arthur J. Parzygnat]], _Reversing information flow: retrodiction in semicartesian categories_, 2024. ([arXiv](https://arxiv.org/abs/2401.17447))
 
 * {#quantum_bayes} James Fullwood and [[Arthur J. Parzygnat]], _From time-reversal symmetry to quantum Bayes rules_, PRX Quantum 4, 2023. ([arXiv](https://arxiv.org/abs/2212.08088))
 
