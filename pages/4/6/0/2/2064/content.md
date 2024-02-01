@@ -246,37 +246,44 @@ Discussion of fiber bundles [[internalization|internal]] to [[finitely complete 
 
 * [[Anders Kock]], *Generalized fibre bundles*, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics **1348** (2006) 194-207 &lbrack;[doi:10.1007/BFb0081359](https://doi.org/10.1007/BFb0081359)&rbrack;
 
+
+[[!redirects fiber bundles]]
+
+
 [[!redirects fibre bundle]]
+[[!redirects fibre bundles]]
+
+
+
 [[!redirects standard fiber]]
 [[!redirects standard fibre]]
+
 [[!redirects typical fiber]]
 [[!redirects typical fibre]]
-[[!redirects locally trivial fiber bundle]]
-[[!redirects locally trivial fibre bundle]]
-[[!redirects locally trivial bundle]]
 
+[[!redirects locally trivial fiber bundle]]
+[[!redirects locally trivial fiber bundles]]
+
+[[!redirects locally trivial fibre bundle]]
+[[!redirects locally trivial fibre bundles]]
+
+[[!redirects locally trivial bundle]]
+[[!redirects locally trivial bundles]]
 
 
 [[!redirects G-bundle]]
-[[!redirects bundle with structure group]]
-[[!redirects fiber bundles]]
-[[!redirects fibre bundles]]
-[[!redirects standard fibers]]
-[[!redirects standard fibres]]
-[[!redirects typical fibers]]
-[[!redirects typical fibres]]
-[[!redirects locally trivial fiber bundles]]
-[[!redirects locally trivial fibre bundles]]
-[[!redirects locally trivial bundles]]
-
 [[!redirects G-bundles]]
-[[!redirects bundles with structure group]]
+
+[[!redirects bundle with structure group]]
+[[!redirects bundle with structure groups]]
 [[!redirects bundles with structure groups]]
 
-[[!redirects locally trivial bundle]]
-[[!redirects locally trivial bundles]]
-[[!redirects locally trivial fiber bundle]]
-[[!redirects locally trivial fiber bundles]]
+[[!redirects standard fiber]]
+[[!redirects standard fibres]]
+
+[[!redirects typical fiber]]
+[[!redirects typical fibres]]
+
 
 [[!redirects transition function]]
 [[!redirects transition functions]]
