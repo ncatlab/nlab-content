@@ -162,7 +162,7 @@ are isomorphic to the direct pullback along the composite on the right.
 
 * [[cartesian closed model category]], [[locally cartesian closed model category]]
 
-* [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
+* [[cartesian closed (∞,1)-category]], [[locally cartesian closed (∞,1)-category]]
 
 
 ## References
