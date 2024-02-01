@@ -74,7 +74,7 @@ given by forming [[smash product]] with $E G_+$ and forming the [[internal hom]]
 Then the [[homotopy fixed point]] functor is
 
 $$
-  (-)^{h g} \coloneqq [E G_+, -]^G \;\colon\; Spectra(G Top) \longrightarrow Spectra
+  (-)^{h G} \coloneqq [E G_+, -]^G \;\colon\; Spectra(G Top) \longrightarrow Spectra
 $$
 
 and the [[homotopy quotient]] functor is
