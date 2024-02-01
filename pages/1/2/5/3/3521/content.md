@@ -429,7 +429,7 @@ $$
   \,,
 $$ 
 
-where $Sing \;\colo\; Top \to Set^{\Delta^{op}}$ is the [[singular simplicial complex]]-[[functor]]. 
+where $Sing \;\colon\; Top \to Set^{\Delta^{op}}$ is the [[singular simplicial complex]]-[[functor]]. 
 
 A $P$-coalgebra partitions $X$ into path components and exhibits contractibility of each component. Similarly, a coalgebra of the d&eacute;calage comonad exhibits the acyclicity of the underlying simplicial set. 
 
