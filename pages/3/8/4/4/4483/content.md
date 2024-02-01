@@ -38,12 +38,11 @@ The concept of the characteristic has been generalized to [[E-∞ rings]] ([Szym
 
 If $n$ is a [[natural number]], then we suppress mention of $\phi_K$ to think of $n$ as an element of $K$.  If $K$ is a ring, then we do the same for a negative [[integer]] $n$.  We then have that $n = 0$ in $K$ if and only if $n$ is a multiple of $\char K$.
 
-The characteristic of a field must be either [[zero]] or a [[prime number]].  Basically, this is because the kernel of $\phi_K$, for $K$ a field, must be a [[prime ideal]].
+The characteristic of a field must be either [[zero]] or a [[prime number]]. Basically, this is because the kernel of $\phi_K$, for $K$ a field, must be a [[prime ideal]]. Similarly, the characteristic of an [[integral domain]] must be either zero or a prime number. 
 
 Every rig with positive characteristic is in fact a ring, since we have $\char K - 1 = -1$.  In other words, any rig other than a ring must have characteristic zero (although many rings also have that characteristic).
 
-If there is any [[homomorphism]] at all between two fields, then they have the same characterstic.  In other words, any [[field extension|extension]] of a field keeps the same characteristic.
-
+If there is any [[homomorphism]] at all between two fields, then they have the same characterstic. In other words, any [[field extension|extension]] of a field keeps the same characteristic. 
 
 ## Examples
 
