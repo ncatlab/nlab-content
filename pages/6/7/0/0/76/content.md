@@ -178,7 +178,7 @@ The [[Top|category of]] [[D-topological spaces]] is a [[full sub-(∞,1)-categor
 
 ### Simplicial homotopy theory
 
-The most immediate way model an [[∞-groupoid]] is as a [[simplicial set]] which is a [[Kan complex]].  Accordingly, another homotopy theory equivalent to archetypical homotopy theory of [[∞-groupoids]] is the [[classical model structure on simplicial sets|classical homotopy theory of simplicial sets]], typically referred to as _[[simplicial homotopy theory]]_.
+The most immediate way to model an [[∞-groupoid]] is as a [[simplicial set]] which is a [[Kan complex]].  Accordingly, another homotopy theory equivalent to archetypical homotopy theory of [[∞-groupoids]] is the [[classical model structure on simplicial sets|classical homotopy theory of simplicial sets]], typically referred to as _[[simplicial homotopy theory]]_.
 
 \linebreak
 
