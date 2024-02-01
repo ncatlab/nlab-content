@@ -112,7 +112,7 @@ The direct analog of Prop. \ref{FineModelStructureOnGSpaces}, Prop. \ref{BasicPr
 \end{remark}
 
 \begin{corollary}\label{GCWComplexesAreCofibrant}
-  Evey [[G-CW complex]] (being, by definition, a special [[cell complex]] in the generating cofibrations (eq:GeneratingCofibrations)) is a [[cofibrant object]] in the fine equivariant model structure.
+  Every [[G-CW complex]] (being, by definition, a special [[cell complex]] in the generating cofibrations (eq:GeneratingCofibrations)) is a [[cofibrant object]] in the fine equivariant model structure.
 \end{corollary}
 
 The $TopSp_{Qu}$ enrichment of Prop. \ref{BasicPropertiesOfTheFineModelStructure} in fact underlies a model enrichment of $G Act(TopSp_{Qu})_{fine}$ over itself:
