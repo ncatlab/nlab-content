@@ -184,11 +184,6 @@ Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a sur
 
 1. The axiom of choice holds.
 1. Any two ana-equivalent categories are strongly equivalent.
-   +-- {: .query}
-   I removed 'non-ana', since I don\'t think that 'strongly equivalent' would ever be used in an 'ana-' sense.  ---Toby
-
-   Addendum:  Actually, I don\'t know why I asked whether you meant weakly or strongly here, since obviously one can prove that two ana-equivalent categories are weakly equivalent!  It seems that the discussion above used the terms 'equivalence' and 'ana-equivalence' where [[equivalence of categories]] uses 'strong equivalence' and 'weak equivalence' or 'ana-equivalence'; so I just changed it.  And then I added another entry, which maybe you should remove if Freyd & Scedrov don\'t actually address it.  On the other hand, if they really talk about weak equivalence instead of ana-equivalence (although if they define it in elementary terms, it\'s hard to tell the difference), maybe there\'s no need to say 'ana-' at all on this page.
-   =--
 1. Any two weakly equivalent categories are strongly equivalent.
 1. Every small category has a weak skeleton.
 1. Every small category has a coskeleton.
