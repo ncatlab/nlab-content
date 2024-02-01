@@ -4,8 +4,6 @@ He had a succession of influential students, and among the concepts which he ini
 
 The journal he founded and edited, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], has been continued by his widow, [[Andree Ehresmann]].
 
-## References 
-
 * [English Wikipedia page](http://en.wikipedia.org/wiki/Charles_Ehresmann)
 
 * [Wikip&#233;dia fran&#231;ais](http://fr.wikipedia.org/wiki/Charles_Ehresmann)
@@ -22,8 +20,15 @@ Collected works:
 
 * *[&#338;uvres compl&#232;tes et comment&#233;es](https://mes-ehres.fr/ChEh/oeuvres.htm)*
 
-  I-1,2. Topologie  alg&#233;brique et g&#233;om&#233;trie diff&#233;rentielle, With commentary by [[Willem van Est]],
- [[Michel Zisman]], Georges Reeb, Paulette Libermann, [[René Thom]], [[Jean Pradines]], Robert Hermann, [[Anders Kock]], [[André Haefliger]], [[Jean Bénabou]], Ren&#233; Guitart, and [[Andrée Charles Ehresmann]], Edited by Andr&#233;e Charles Ehresmann,  Cahiers Topologie G&#233;om&#233;trie Diff&#233;rentielle, 24, (1983) suppll. 1.
+  I-1,2. Topologie  alg&#233;brique et g&#233;om&#233;trie diff&#233;rentielle, With commentary by [[Willem van Est]], [[Michel Zisman]], Georges Reeb, Paulette Libermann, [[René Thom]], [[Jean Pradines]], Robert Hermann, [[Anders Kock]], [[André Haefliger]], [[Jean Bénabou]], Ren&#233; Guitart, and [[Andrée Charles Ehresmann]], Edited by Andr&#233;e Charles Ehresmann,  Cahiers Topologie G&#233;om&#233;trie Diff&#233;rentielle, 24, (1983) suppll. 1.
+
+Introducing the notion of [[Ehresmann connections]] and proving [[Ehresmann's theorem]]:
+
+* [[Charles Ehresmann]], *Les connexions infinitésimales dans un espace fibré différentiable*, 
+
+   Colloque de topologie (espaces fibrés), Bruxelles, 1950, Georges Thone, Liège; Masson et Cie., Paris (1951) 29–55
+
+  [[Séminaire Bourbaki]], **1** 24 (1952) 153–168 &lbrack;[numdam:SB_1948-1951__1__153_0](http://www.numdam.org/item/?id=SB_1948-1951__1__153_0), [pdf](http://www.numdam.org/article/SB_1948-1951__1__153_0.pdf)&rbrack;
 
 
 Early proposal to grasp the notion of *[[mathematical structure]]* via [[category theory]], specifically in terms of [[forgetful functors]] between the [[groupoids]] which they form (cf. *[[stuff, structure, property]]*):
@@ -48,7 +53,6 @@ Introducing the notion of [[internal categories]] (or at least something in this
 Introducing [[sketches]]:
 
 * {#Ehresmann68} [[Charles Ehresmann]], _Esquisses et types de structures algébriques_, Bul. Inst. Polit. Iasi **14** 1–2 (1968) 1-14 &lbrack;[[Ehresmann-EsquisseEtTypes.pdf:file]]&rbrack;
-
 
 On [[internalization]] of [[mathematical structures]] via [[sketches]]:
 
