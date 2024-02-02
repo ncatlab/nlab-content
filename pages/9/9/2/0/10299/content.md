@@ -23,8 +23,6 @@ The Cayley plane can't be constructed using homogeneous coordinates the way it w
 
 The octonionic projective plane is a non-Desarguesian plane, that is, [[Desargues' theorem]] does not hold. See [[projective plane]].
 
-
-
 ### Isometries
 
 * [[F4]] is the [[isometry group]] of $\mathbb{O} P^2$, with the [[stabilizer]] of a point being [[Spin(9)]]. Hence $\mathbb{O} P^2 \cong F_4/Spin(9)$.
@@ -38,16 +36,96 @@ The octonionic projective plane is a non-Desarguesian plane, that is, [[Desargue
 There is a [[homeomorphism]]
 
 $$
-  \mathbb{O}P^2 \,\simeq\, S^{15} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P^1
+  \mathbb{O}P^2 \,\simeq\, D^{16} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P^1
 $$
 
 between the [[octonionic projective plane]] and the [[attaching space]] obtained from the [[octonionic projective line]] along the [[octonionic Hopf fibration]].
 
 =--
 
-([Lackman 19, Lemma 3.4](#Lackman19))
+([Lackmann 19, Lemma 3.4.](#Lackmann19))
+
+([Mimura 67, page 166](#Mimura67))
 
 See also at _[[cell structure of projective spaces]]_.
+
+### Homotopy groups
+
++-- {: .num_prop #HomotopyGroupsOfOctonionicProjectivePlane}
+###### Proposition
+
+The [[homotopy groups]] of octonionic projective plane are
+\[
+  \label{ListOfHomotopyGroupsOfOctonionicProjectivePlane}
+    \pi_k
+    \big(
+      \mathbb{O}P^2
+    \big)
+    \;=\;
+    \left\{
+    \array{
+      1 &\vert& k \leq 7
+      \\
+      \pi_k
+      \big(
+        S^8
+      \big)
+      &\vert&
+      8 \leq k \leq 14
+    }
+    \right.
+\]
+Further homotopy groups are
+$$\pi_{15}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_{120}$$
+$$\pi_{16}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_2^3$$
+$$\pi_{17}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_2^4$$
+$$\pi_{18}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_{24}\times\mathbb{Z}_2$$
+$$\pi_{19}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_{504}\times\mathbb{Z}_2$$
+$$\pi_{20}\big(\mathbb{O}P^2\big)
+\cong 1$$
+$$\pi_{21}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_6$$
+$$\pi_{22}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_4$$
+$$\pi_{23}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}\times\mathbb{Z}_{120}\times\mathbb{Z}_2^2\,.$$
+(While $\pi_{15}\big(S^8\big)
+\cong\mathbb{Z}\times\mathbb{Z}_{120}$, which includes the [[homotopy class]] of the [[octonionic Hopf fibration]].)
+
+=--
+
+([Lackmann 19, page 7](#Lackmann19))
+
+([Mimura 67, Theorem 7.2.](#Mimura67))
+
+### Cohomology
+
++-- {: .num_prop #CohomologyOfOctonionicProjectivePlane}
+###### Proposition
+
+For $A \in $ [[Ab]] any [[abelian group]], then the [[ordinary cohomology]] [[cohomology groups|groups]] of octionionic projective plane $\mathbb{O}P^2$ with [[coefficients]] in $A$ are
+
+$$
+  H^k(\mathbb{O}P^2,A)
+   \simeq
+  \left\{
+    \array{
+       A & for \; k=0,8,16
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
+([Lackmann 19, Corollary 4.1.](#Lackmann19))
 
 ### AKM-Theorem
 
@@ -77,7 +155,7 @@ $$
 
 ### General
 
-* {#Lackman19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
+* {#Lackmann19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 
 See also:
 
@@ -106,6 +184,8 @@ Indications that [[M-theory]] in 10+1 dimensions may be understood as the [[KK-c
 
 * [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_, Phys. Lett. B, 808, (2020)
 ([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
+
+* {#Mimura67} Mamoru Mimura, _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. 6 (2) 131 - 176, 1967. [https://doi.org/10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)
 
 
 [[!redirects Cayley planes]]
