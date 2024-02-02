@@ -1508,6 +1508,34 @@ identified with the space of closed differential forms with coefficients in the 
 
 \end{proposition}
 
+\begin{example}\label{SolutionSpaceOfElectromagnetism}
+ The characteristic $L_\infty$-algebra of ordinary vacuum electromagnetism is the [[direct sum]] $b \mathfrak{u}(1) \oplus b \mathfrak{u}(1)$ of two copies of the [[line Lie 2-algebra]], which by the previous example and Prop. \ref{SolutionsAsFlatForms} corresponds to:
+
+$$
+  SolSpace_{EM}(X^3)
+  \;\simeq\;
+  \Omega^1_{dR}\big(
+    X^3
+    ;\,
+    b\mathfrak{u}(1)
+    \times
+    b\mathfrak{u}(1)
+  \big)_{clsd}
+  \;\simeq\;
+  \Omega^2_{dR}(X^3)
+  \times
+  \Omega^2_{dR}(X^3)
+  \,.
+$$
+
+An element here is a pair $(B,E)$, where 
+
+1. the magnetic flux density is, locally on a [[chart]] $U \hookrightarrow X^3$, the differential $B\vert_U = \mathrm{d}A_U$ of the [[canonical coordinate]] 1-form $A$,
+
+1. the electric flux density $E$ serves as the [[canonical momentum]].
+  
+\end{example}
+
 $\;\;$**Total flux in non-abelian de Rham cohomology.** While, with Prop. \ref{SolutionsAsFlatForms}, the [[Gauss law]] of the given [[higher gauge theory]] of Maxwell-type constrains the [[flux densities]] on any [[Cauchy surface]] $X^d \hookrightarrow X^D$ to constitute a [[flat L-infinity-algebra valued differential form|flat $L_\infty$-algebra valued differential form]], the actual value of these differential forms depends on the [[Cauchy surface]], which is an arbirary choice. 
 
 We should, therefore, regard as the *total flux* that aspect of the [[flux densities]] which is [[invariant]] under choice of [[Cauchy surfaces]].
@@ -2093,7 +2121,22 @@ Notice that such a lift is not *just* a (quantization/discretization-)condition 
 
 However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]] given by an [[equality]] of gauge equivalence classes, instead one should consider an explicit [[gauge transformation]]. Doing so leads to emergence of the [[gauge potentials]] and of the higher [[phase space]] stack of the theory, in the [next subsection](#PhaseSpacesAsDifferentialNonabelianCohomology).
 
+\begin{example}
+  **(flux quantization laws for ordinary electromagnetism)**
+  \linebreak
 
+  By Ex. \ref{SolutionSpaceOfElectromagnetism} the characteristic $L_\infty$-algebra of vacuum electromagnetism is two copies of the [[line Lie 2-algebra]] $b \mathfrak{u}(1)$. This is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] of the [[classifying space]] $B \mathrm{U}(1) \,\simeq\, B^2 \mathbb{Z}$ and hence of its [[rationalization]] $B^2 \mathbb{Q}$.
+
+Therefore -- among many further variants -- there are the following choices of of flux quantization laws for electromagnetism:
+
+| EM flux quantization law |  comment |
+|--------------------------|----------|
+| $\underset{mag}{\underbrace{B^2 \mathbb{Q}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes *no* flux quantization (it does rule out [[irrational number|irrational]] total fluxes) and as such was the tacit choice since [Maxwell 1865](Maxwell's+equations#Maxwell1865) until [Dirac 1931](#Dirac31) |
+| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes integrality of magentic flux but no further condition on electric flux -- common choice since [Dirac 1931](#Dirac31), for instance in [Alvarez 1985b, p. 299](#Alvarez85b); [Freed 2000, Ex. 2.1.2](#Freed00) | 
+| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Z}}}$ | this choice imposes integrality of both magentic and electric flux -- considered in [Freed, Moore & Segal 2007a](#FreedMooreSegal07a), [2007b](#FreedMooreSegal07a); [Becker, Benini, Schenkel & Szabo 2015, Rem. 2.3](#BeckerBeniniSchenkelSzabo15); [Lazaroiu & Shahbazi 2022](#LazaroiuShahbazi22); [Lazaroiu & Shahbazi 2022, §2](#LazaroiuShahbazi22) | 
+| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\rtimes\, \underset{el}{\underbrace{B\big( K \ltimes B\mathbb{Z} \big) }}$ | for a [[finite group]] $K \to Aut(\mathbb{Z})$ -- this choice induces non-commutativity between EL/EL- and EL/M-fluxes, an example of a "non-evident" flux quantization condition considered in [SS23-FQ](#SS23-FQ) |
+
+\end{example}
 
 \linebreak
 
@@ -2143,7 +2186,12 @@ However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]
 
 * {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
+* {#Alvarez85b} [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
+
+
 * {#BandosBerkovitsSorokin98} [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], *Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes*, Nucl. Phys. B **522** (1998) 214-233 \[<a href="https://doi.org/10.1016/S0550-3213(98)00102-3">doi:10.1016/S0550-3213(98)00102-3</a>, [arXiv:hep-th/9711055](https://arxiv.org/abs/hep-th/9711055)\]
+
+* {#BeckerBeniniSchenkelSzabo15} [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], Rem. 2.3 in: _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
 
 
 * {#BergmanGimonHořava99} [[Oren Bergman]], [[Eric G. Gimon]], [[Petr Hořava]], *Brane Transfer Operations and T-Duality of Non-BPS States*, JHEP 9904 (1999) 010 &lbrack;[arXiv:hep-th/9902160](https://arxiv.org/abs/hep-th/9902160), [doi:10.1088/1126-6708/1999/04/010](https://doi.org/10.1088/1126-6708/1999/04/010)&rbrack;
@@ -2178,13 +2226,24 @@ However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]
 
 * {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
+* {#Freed00} [[Daniel Freed]], *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+
+
+* {#FreedMooreSegal07a} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
+
+* {#FreedMooreSegal07b} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *Heisenberg Groups and Noncommutative Fluxes*, Annals Phys. **322** (2007) 236-285 &lbrack;[arXiv:hep-th/0605200](https://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
+
 
 * {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
 
 * {#Hyperphysics} Hyperphysics, *Magnetic Flux* &lbrack;[hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html)&rbrack;
 
-* {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[arXiv:0807.2401](https://arxiv.org/abs/0807.2401), [doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008)&rbrack;
+* {#LazaroiuShahbazi22} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around Def. 1.16 in: *The duality covariant geometry and DSZ quantization of abelian gauge theory*, Advances in Theoretical and Mathematical Physics **26** (2022) 2213–2312 &lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236), [doi:10.4310/ATMP.2022.v26.n7.a5](https://dx.doi.org/10.4310/ATMP.2022.v26.n7.a5)&rbrack;
 
+* {#LazaroiuShahbazi23} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around (3) in: *The geometry and DSZ quantization of four-dimensional supergravity*, Letters in Mathematical Physics  **113** 4 (2023) &lbrack;[arXiv:2101.07778](https://arxiv.org/abs/2101.07778), [doi:10.1007/s11005-022-01626-y](https://doi.org/10.1007/s11005-022-01626-y)&rbrack;
+
+
+* {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[arXiv:0807.2401](https://arxiv.org/abs/0807.2401), [doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008)&rbrack;
 
 * {#Martin09} Thomas Martin (ed.), *Faraday's diary of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
 
