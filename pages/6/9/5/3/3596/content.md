@@ -374,6 +374,42 @@ The computation rule for weak identity types says that there is a witness that t
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(y,p) \vdash C(x,y,p):Type \quad \Gamma \vdash x:A \quad \Gamma \vdash t:C(x,x,r(x))}
 {\Gamma \vdash \beta(x,t):Id_{C(x,x,r(x))}(J(x,t,x,r(x)) ,t)}$$
 
+#### Identity types as a negative type
+
+If one has [[dependent sum types]], there is a way of defining the identiy type as a [[negative type]]. The idea is that using the inference rules for dependent sum types, the standard J-rule states that the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
+$$\Delta_{A}(x) \coloneqq (x, (x, \mathrm{refl}_A(x))):\sum_{x:A} \sum_{y:A} x =_A y$$
+However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[strict equivalence of types]]: 
+
+* Elimination rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_A^{-1}(z):A}$$
+
+* Computation rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_A^{-1}(\Delta_{A}(x)) \equiv x:A}$$
+
+* Uniqueness rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_{A}(\Delta_A^{-1}(z)) \equiv z:\sum_{x:A} \sum_{y:A} x =_A y}$$
+
+\begin{theorem}
+The standard J-rule holds: given any type $A$, and any type family $C(z)$ indexed by elements $z:\sum_{x:A} \sum_{y:A} x =_A y$, and given any dependent function $t:\prod_{x:A} C(\Delta_A(x))$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the diagonal at $x:A$ into $C$, $C(\Delta_A(x))$, one can construct a dependent function $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t):\prod_{z:\sum_{x:A} \sum_{y:A} x =_A y} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(\Delta_A(x)) \equiv t(x):C(\Delta_A(x))$. 
+\end{theorem}
+
+\begin{proof}
+$\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t)$ is defined to be
+
+$$\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t) \equiv \lambda z:\sum_{x:A} \sum_{y:A} x =_A y.t(\Delta_A^{-1}(z))$$
+
+and by the computation rules of path types as negative copies, one has that for all $x:A$, 
+
+$$\Delta_A^{-1}(\Delta_A(x)) \equiv x$$
+
+and so by definition of $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t)$ and the judgmental congruence rules for substitution, one has
+
+$$\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t, \Delta_A(x)) \equiv t(\Delta_A^{-1}(\Delta_A(x))) \equiv t(x)$$
+\end{proof}
+
 ### Induction using functions instead of type families
 
 There is a version of the induction principle which uses a type $C$ and a function $f:C \to \sum_{x:A} \sum_{y:A} x =_A y$ into the type of all identity types in $A$, instead of a type family $C(x, y, p)$ indexed by $x:A$, $y:A$, and $p:x =_A y$. 
