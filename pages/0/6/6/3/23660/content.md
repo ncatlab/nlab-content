@@ -80,6 +80,12 @@ $$a:\mathbb{R}_H, b:\mathbb{R}_H, \epsilon:\mathbb{Q}_{+} \vdash \pi(a, b, \epsi
 
 The [[analytic functions]], such as the [[exponential function]], the [[sine function]], and the [[cosine function]] are well defined in the HoTT book real numbers, since all modulated Cauchy sequences converge in the HoTT book real numbers. 
 
+In addition, the following two conditions are equivalent:
+
+* The [[pseudometric space]] of [[Cauchy sequences]] of [[rational numbers]] is a [[metric space]]. 
+
+* The [[Cauchy real numbers]] and the [[HoTT book real numbers]] coincide. 
+
 ## See also ##
 
 * [[higher inductive-inductive type]]
