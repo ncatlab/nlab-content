@@ -72,6 +72,9 @@ See also:
 
 * [[David Prieto]], *Moduli Stabilization and Stability in Type II/F-theory flux compactifications* &lbrack;[arXiv:2401.13339](https://arxiv.org/abs/2401.13339)&rbrack;
 
+* Minjae Cho, Manki Kim, *A Worldsheet Description of Flux Compactifications* &lbrack;[arXiv:2311.04959](https://arxiv.org/abs/2311.04959)&rbrack;
+
+
 
 
 
