@@ -317,9 +317,6 @@ Further discussion:
 
 * {#LazaroiuShahbazi23} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around (3) in: *The geometry and DSZ quantization of four-dimensional supergravity*, Letters in Mathematical Physics  **113** 4 (2023) &lbrack;[arXiv:2101.07778](https://arxiv.org/abs/2101.07778), [doi:10.1007/s11005-022-01626-y](https://doi.org/10.1007/s11005-022-01626-y)&rbrack;
 
-
-&lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236)&rbrack;
-
   > (in the generality allowing "[[U-duality]]-twists" among several abelian gauge fields, motivated by application to [[D=4 supergravity]])
 
 
