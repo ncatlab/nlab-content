@@ -225,7 +225,7 @@ In the following we discuss all this in more detail.
     "caption": "From Faraday’s diary of experimental investigation, vol VI, entry from 11th Dec. 1851, as reproduced in [Martin 2009, p. 311](#Martin09) -- the colored arc is our addition, for ease of comparison with the next graphics."
 \end{imagefromfile}
 
-In modern [[differential geometry|differential-geometric]] formulation, the [[flux density|density of these flux lines]] through any given [[surface]]-element is encoded in a [[differential 2-form]] $F_2$:
+In modern [[differential geometry|differential-geometric]] formulation, the [[flux density|density of these flux lines]] through any given [[surface]]-element is encoded in a [[differential 2-form]] $F_2$, as indicated in the following schematic graphics:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FluxDensityAs2Form-240124.jpg",
@@ -254,7 +254,7 @@ In modern [[differential geometry|differential-geometric]] formulation, the [[fl
 \end{imagefromfile}
 
 
-More in detail, with respect to any [[foliation]] of [[spacetime]] $X^4$ by [[spacelike]] [[Cauchy surfaces]] $X^4 \simeq \mathbb{R}^1 \times X^d$ (assuming [[globally hyperbolic spacetime|global hyperbolicity]]), the spatial component of $F_2$ is the *magentic flux density* $B$, while the [[Hodge duality|Hodge dual]]  (with respect to $X^4$) of the temporal component is the *electric flux density* $E$.
+More in detail, with respect to any [[foliation]] $X^4 \simeq \mathbb{R}^1 \times X^3$ of a [[globally hyperbolic spacetime|globally hyperbolic]] [[spacetime]] $X^4$ by [[spacelike]] [[Cauchy surfaces]] $X^3$, the spatial component of $F_2$ is the *magentic flux density* $B$, while the [[Hodge duality|Hodge dual]]  (with respect to $X^4$) of the temporal component is the *electric flux density* $E$.
 
 Imagining, as Dirac did, that Faraday's rod magnet could be made *infinitely* long and thin, any one of its poles would look like an isolated [[monopole|mono-pole]] with flux concentrating towards it from all directions:
 
