@@ -131,7 +131,10 @@ With emphasis on the [[AdS-CFT|holographic content]]:
 
 * {#Narovlansky19} Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
 
-* [[Micha Berkooz]], Mikhail Isachenkov, Prithvi Narayan, Vladimir Narovlansky, *Quantum groups, non-commutative $AdS_2$, and chords in the double-scaled SYK model* &lbrack;[arXiv:2212.13668](https://arxiv.org/abs/2212.13668)&rbrack;
+* [[Micha Berkooz]], Mikhail Isachenkov, Prithvi Narayan, Vladimir Narovlansky, *Quantum groups, non-commutative $AdS_2$, and chords in the double-scaled SYK model* \[<a href="https://arxiv.org/abs/2212.13668">arXiv:2212.13668</a>\]
+
+* [[Herman Verlinde]], *Double-scaled SYK, Chords and de Sitter Gravity* \[<a href="https://arxiv.org/abs/2402.00635">arXiv:2402.00635</a>\]
+
 
 and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravity]]: 
 
