@@ -1746,6 +1746,7 @@ Moreover, it is classical that, over smooth manifolds, reasonable cohomology the
 
 * on any [[Whitehead-generalized cohomology]] this is the *[[Chern-Dold character]]*
 
+\[\label{ExamplesOfCharacterMaps}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-CharacterMaps.jpg",
     "width": 900,
@@ -1758,7 +1759,7 @@ Moreover, it is classical that, over smooth manifolds, reasonable cohomology the
     }
 \end{imagefromfile}
 
-The nonabelian character map was not known in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], but it does exists &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;, constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
+The nonabelian character in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], is due to &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;, constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
 
 We next survey how this works. 
 
@@ -2042,8 +2043,7 @@ It is the [[cohomology operation]] induced by $\mathbb{R}$-[[rationalization]] o
     }
 \end{imagefromfile}
 
-
-
+All the classical abelian character maps (eq:ExamplesOfCharacterMaps) are special cases of this generalized nonabelian character &lbrack;[FSS23-Char, §7](#FSS23)&rbrack;, but now examples in generalized [[nonabelian cohomology]] are also included; for instance there is a character map on [[Cohomotopy]]-theory &lbrack;[FSS23-Char, Ex. 6.11](#FSS23)&rbrack;
 
 
 **Flux quantization in generalized nonabelian cohomology.** With the generalized nonabelian character map (eq:NonabelianCharacterMap) in hand, we may finally state the general concept of flux quantization:
@@ -2052,8 +2052,8 @@ Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology)
 
 \[\label{NonabelianCharacterMapChargesToFluxes}\]
 \begin{imagefromfile}
-    "file_name": "GeomPhys-CharacterMapChargesToFluxes.jpg",
-    "width": 650,
+    "file_name": "GeomPhys-CharacterMapChargesToFluxes-240202.jpg",
+    "width": 450,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2062,6 +2062,8 @@ Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology)
         "left": 0
     }
 \end{imagefromfile}
+
+Since the total charges in $H^1\big(X^d; \Omega \mathcal{A})\big)$ on the left form a discrete set, we may think of a [[lift]] of total fluxes through the character map as enforcing flux quantization in $\mathcal{A}$-cohomology:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FirstIdeaOfFluxQuantization.jpg",
@@ -2075,6 +2077,8 @@ Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology)
     }
 \end{imagefromfile}
 
+Notice that such a lift is not *just* a (quantization/discretization-)condition on the total fluxes, but also [[extra structure|extra data]], namely a choice of [[torsion subgroup|torsion]]-component of the total charge reflected in total fluxes, as see in $\mathcal{A}$-cohomology:
+
 \begin{imagefromfile}
     "file_name": "GeomPhys-CharacterKernelAndCokernel.jpg",
     "width": 900,
@@ -2087,12 +2091,15 @@ Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology)
     }
 \end{imagefromfile}
 
-This provides a proper idea of what a choice of flux quantization *law* is and does. However, since we are dealing with (higher) [[gauge theories]], the full field content is not just a pair of a flux density and a total charge such that the total flux of the former equals the sourced flux of the latter. Instead, we should ask for a kind of [[gauge transformation]] that pairs the flux densities with a topological field sector. This is the topic of the next subsection.
+However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]] given by an [[equality]] of gauge equivalence classes, instead one should consider an explicit [[gauge transformation]]. Doing so leads to emergence of the [[gauge potentials]] and of the higher [[phase space]] stack of the theory, in the [next subsection](#PhaseSpacesAsDifferentialNonabelianCohomology).
+
+
 
 \linebreak
 
 
 ### Phase spaces as Differential nonabelian cohomology
+ {#PhaseSpacesAsDifferentialNonabelianCohomology}
 
 (...)
 
