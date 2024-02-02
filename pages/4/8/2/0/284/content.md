@@ -370,7 +370,7 @@ A model by [[stratified spaces]] is in
 
 A more model-independent abstract formulation is discussed in
 
-* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures **4** 1 (2020) &lbrack;[arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf), [lectures](https://www.epfl.ch/labs/hessbellwald-lab/seminar/ytm2015/)&rbrack;
 
 * {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
 
