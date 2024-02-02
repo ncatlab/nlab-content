@@ -77,17 +77,21 @@ The constructive school, however, often accepts function sets (thus being *weakl
 
 [[Brouwer]], on the other hand, did not accept the sequence above, although his followers differ on when (if ever) it stops.
 
+### Bijection sets
+
+In the presence of the [[axiom of choice]], [[bijection sets]] are in bijection with [[power sets]], and so are impredicative. 
+
+### Univalence axiom
+
+One consequence of the rejection of [[bijection sets]] in predicative mathematics with the axiom of choice is that the univalence axiom of a universe of sets is no longer available, since it postulates a bijection between equality and bijection sets. 
+
 ### Excluded middle
 
 Classical predicativists of course accept [[excluded middle]]; otherwise they would be [[constructivism|constructivists]].  But from the perspective of weakly predicative constructive mathematics, excluded middle is impredicative, since it implies power sets (given function sets) and unbounded separation (given replacement).
 
-### Choice operators
+### The axiom of choice
 
-Some classical predicativists accept [[choice operators]]. This includes [[dependent type theories]] which include [[choice operators]] but reject [[dependent function types]]. But from the perspective of weakly predicative constructive mathematics, choice operators is impredicative, since it implies excluded middle, and thus power sets (given function sets) and unbounded separation (given replacement). 
-
-### Bijection sets
-
-In predicative mathematics with choice operators, having [[bijection sets]] implies power sets, since choice operators imply the [[axiom of choice]], which in turn implies power sets. 
+Some classical predicativists accept the [[axiom of choice]]. But from the perspective of weakly predicative constructive mathematics, the axiom of choice is impredicative, since it implies excluded middle, and thus power sets (given function sets) and unbounded separation (given replacement). 
 
 ### Propositional resizing
 
