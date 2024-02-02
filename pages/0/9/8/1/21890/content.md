@@ -33,22 +33,103 @@ between the [[octonionic projective line]] and the [[8-sphere]].
 There is a [[homeomorphism]]
 
 $$
-  \mathbb{O}P^2 \,\simeq\, S^{15} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P^1
+  \mathbb{O}P^2 \,\simeq\, D^{16} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P^1
 $$
 
 between the [[octonionic projective plane]] and the [[attaching space]] obtained from the [[octonionic projective line]] along the [[octonionic Hopf fibration]].
 
 =--
 
-([Lackman 19, Lemma 3.4](#Lackman19))
+([Lackmann 19, Lemma 3.4.](#Lackmann19))
+
+([Mimura 67, page 166](#Mimura67))
 
 See also at _[[cell structure of projective spaces]]_.
 
+### Homotopy groups
+
++-- {: .num_prop #HomotopyGroupsOfOctonionicProjectivePlane}
+###### Proposition
+
+The [[homotopy groups]] of octonionic projective plane are
+\[
+  \label{ListOfHomotopyGroupsOfOctonionicProjectivePlane}
+    \pi_k
+    \big(
+      \mathbb{O}P^2
+    \big)
+    \;=\;
+    \left\{
+    \array{
+      1 &\vert& k \leq 7
+      \\
+      \pi_k
+      \big(
+        S^8
+      \big)
+      &\vert&
+      8 \leq k \leq 14
+    }
+    \right.
+\]
+Further homotopy groups are
+$$\pi_{15}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_{120}$$
+$$\pi_{16}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_2^3$$
+$$\pi_{17}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_2^4$$
+$$\pi_{18}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_{24}\times\mathbb{Z}_2$$
+$$\pi_{19}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_{504}\times\mathbb{Z}_2$$
+$$\pi_{20}\big(\mathbb{O}P^2\big)
+\cong 1$$
+$$\pi_{21}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_6$$
+$$\pi_{22}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}_4$$
+$$\pi_{23}\big(\mathbb{O}P^2\big)
+\cong\mathbb{Z}\times\mathbb{Z}_{120}\times\mathbb{Z}_2^2\,.$$
+(While $\pi_{15}\big(S^8\big)
+\cong\mathbb{Z}\times\mathbb{Z}_{120}$, which includes the [[homotopy class]] of the [[octonionic Hopf fibration]].)
+
+=--
+
+([Lackmann 19, page 7](#Lackmann19))
+
+([Mimura 67, Theorem 7.2.](#Mimura67))
+
+### Cohomology
+
++-- {: .num_prop #OrdinaryCohomologyOfOctonionicProjectivePlane}
+###### Proposition
+
+For $A \in $ [[Ab]] any [[abelian group]], then the [[ordinary cohomology]] [[cohomology groups|groups]] of octionionic projective plane $\mathbb{O}P^2$ with [[coefficients]] in $A$ are
+
+$$
+  H^k(\mathbb{O}P^2,A)
+   \simeq
+  \left\{
+    \array{
+       A & for \; k=0,8,16
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
+([Lackmann 19, Corollary 4.1.](#Lackmann19))
+
 ## References
 
-* {#Lackman19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
+* {#Lackmann19} [[Malte Lackmann]], _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
 * {#Voelkel16} [[Konrad Voelkel]], _Motivic cell structures for projective spaces over split quaternions_, 2016 ([freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content))
 * Rowena Held, Iva Stavrov, Brian VanKoten, _(Semi-)Riemannian geometry of (para-)octonionic projective planes_, Diff. Geom. & its Appl. __27__:4 (2009) 464-481 [doi:/10.1016/j.difgeo.2009.01.007](https://doi.org/10.1016/j.difgeo.2009.01.007)
+* {#Mimura67} Mamoru Mimura, _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. 6 (2) 131 - 176, 1967. [https://doi.org/10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)
 
 [[!redirects octonionic projective spaces]]
 
