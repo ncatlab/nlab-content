@@ -128,7 +128,7 @@ Similarly (interestingly), in the presence of [[background field|background]] [[
 
 This is adapted from _[electromagnetic field -- Maxwell's equations](electromagnetic+field#MaxwellEquations)_, for more see the references [below](#ReferencesForMaxwellEquationsViaDifferentialForms).
 
-In modern language, the insight of ([Maxwell, 1865](#Maxwell)) is that locally, when physical [[spacetime]] is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional [[Minkowski space]] $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]]
+In modern language, the insight of ([Maxwell, 1865](#Maxwell1865)) is that locally, when physical [[spacetime]] is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional [[Minkowski space]] $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]]
 
 $$
   \begin{aligned}
@@ -274,7 +274,7 @@ For more see the references at *[[electromagnetism]]*.
 
 Maxwell's equations originate in:
 
-* {#Maxwell} [[James Clerk Maxwell]], *A Dynamical Theory of the Electromagnetic Field*, Philosophical Transactions of the Royal Society of London **155** (1865) 459-512 &lbrack;[doi:10.1098/rstl.1865.0008](https://doi.org/10.1098/rstl.1865.0008), [jstor:108892](https://www.jstor.org/stable/108892), [Wikipedia entry](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field)&rbrack;
+* {#Maxwell1865} [[James Clerk Maxwell]], *A Dynamical Theory of the Electromagnetic Field*, Philosophical Transactions of the Royal Society of London **155** (1865) 459-512 &lbrack;[doi:10.1098/rstl.1865.0008](https://doi.org/10.1098/rstl.1865.0008), [jstor:108892](https://www.jstor.org/stable/108892), [Wikipedia entry](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field)&rbrack;
 
 * [[James Clerk Maxwell]], *A Treatise on Electricity and Magnetism*, Clarendon Press Series, Macmillan & Co. (1873),  Cambridge University Press (2010) &lbrack;[ark:/13960/t9s17v886](https://archive.org/details/electricandmagne01maxwrich), [doi:10.1017/CBO9780511709333](https://doi.org/10.1017/CBO9780511709333), [pdf](https://www.aproged.pt/biblioteca/MaxwellI.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Treatise_on_Electricity_and_Magnetism)&rbrack;
 
