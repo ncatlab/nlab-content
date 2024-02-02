@@ -2127,7 +2127,7 @@ However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]
 
   By Ex. \ref{SolutionSpaceOfElectromagnetism} the characteristic $L_\infty$-algebra of vacuum electromagnetism is two copies of the [[line Lie 2-algebra]] $b \mathfrak{u}(1)$. This is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] of the [[classifying space]] $B \mathrm{U}(1) \,\simeq\, B^2 \mathbb{Z}$ and hence of its [[rationalization]] $B^2 \mathbb{Q}$.
 
-Therefore -- among many further variants -- there are the following choices of of flux quantization laws for electromagnetism:
+Therefore -- among many further variants -- there are the following choices of flux quantization laws for electromagnetism:
 
 | EM flux quantization law |  comment |
 |--------------------------|----------|
@@ -2136,6 +2136,8 @@ Therefore -- among many further variants -- there are the following choices of o
 | $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Z}}}$ | this choice imposes integrality of both magentic and electric flux -- considered in [Freed, Moore & Segal 2007a](#FreedMooreSegal07a), [2007b](#FreedMooreSegal07a); [Becker, Benini, Schenkel & Szabo 2015, Rem. 2.3](#BeckerBeniniSchenkelSzabo15); [Lazaroiu & Shahbazi 2022](#LazaroiuShahbazi22); [Lazaroiu & Shahbazi 2022, §2](#LazaroiuShahbazi22) | 
 | $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\rtimes\, \underset{el}{\underbrace{B\big( K \ltimes B\mathbb{Z} \big) }}$ | for a [[finite group]] $K \to Aut(\mathbb{Z})$ -- this choice induces non-commutativity between EL/EL- and EL/M-fluxes, an example of a "non-evident" flux quantization condition considered in [SS23-FQ](#SS23-FQ) |
 
+
+
 \end{example}
 
 \linebreak
@@ -2143,6 +2145,39 @@ Therefore -- among many further variants -- there are the following choices of o
 
 ### Phase spaces as Differential nonabelian cohomology
  {#PhaseSpacesAsDifferentialNonabelianCohomology}
+
+**Higher deformations of flux densities.**
+
+Recall that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities, subject to their Bianchi identities:
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-DeformationPathOfFluxDensities.jpg",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+But in higher gauge theories, there will also be defomrations-of-deformations. It is intuitively plausible that these should be given by deformation paths-of-paths parameterized by squares $[0,1]^2$, next by cubes $[0,1]^3$, etc. It turns out to be equivalent but technically more conveninet to parameterize them instead by *triangles*, then *tetrahedra* and generally by "$n$-simplices":
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-SimplicialSetOfFluxDeformations.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
 
 (...)
 
@@ -2177,8 +2212,9 @@ Therefore -- among many further variants -- there are the following choices of o
 
 \linebreak
 
-## References
 
+
+## References
 
 * {#Abrikosov57a} [[Alexei Abrikosov]], *On the Magnetic properties of superconductors of the second group*, Sov. Phys. JETP **5** (1957) 1174-1182; Zh. Eksp. Teor. Fiz. **32** (1957) 1442-1452 &lbrack;[spire:9138](https://inspirehep.net/literature/9138), [[Abrikosov-MagneticPropertiesOfSuperconductors.pdf:file]]&rbrack;
 
