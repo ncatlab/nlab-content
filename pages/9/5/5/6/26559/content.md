@@ -42,7 +42,7 @@
 >   
 > * In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[magnetic fields]] as [[cocycles]] in ([[differential ordinary cohomology|differential]]) [[ordinary cohomology]]. &lbrack;[Alvarez 1985](#Alvarez85a)&rbrack;
 >
-> * In the 1990s [[string theory|string theorists]] conjecture that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[twisted K-theory|twisted topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack;; 
+> * In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[twisted K-theory|twisted topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack;; 
 >
 >   and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; which long remains mysterious. 
 >
@@ -59,40 +59,40 @@
 
 \linebreak
 
-## Outline
+## Overview
  {#Outline}
 
 
-([§2](#FluxDensitiesAndBraneSources)) A *[[higher gauge theory]]* (review includes [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) (Def. \ref{HigherMaxwellEquations} below) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher (see Def. \ref{HigherMaxwellEquations} below) analog of [[Maxwell's equations]].
+**([§2](#FluxDensitiesAndBraneSources))** A *[[higher gauge theory]]* (review includes [Alfonsi 2024, §2](#Alfonsi24); [BFJ${}^+$ 2024](#BFJKNRSW24)) [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) (Def. \ref{HigherMaxwellEquations} below) is a ([[quantum field theory|quantum]]) [[field theory]] analogous to [[vacuum]]-[[electromagnetism]] ([[AQFT on curved spacetimes|on curved spacetimes]]), but with the analog of the electromagnetic [[flux density]] $F_2$ ([which ordinarily is](electromagnetic+field#FieldStrengthAsClosed2Form) a [[differential 2-form]] on 3+1 [[dimension of a manifold|dimensional]] [[spacetime]] $X^4$)  allowed to be a system of [[differential forms]] $\vec F \,\equiv\, \big\{F^{(i)}\big\}_{i \in I}$ of any degree $deg_i \geq 1$ on a [[dimension of a manifold|$D$-dimensional]] [[spacetime]] $X^D$ of any dimension $D = d+1 \geq 2$, and satisfying a higher analog of [[Maxwell's equations]] (eq:EqHigherMaxwellEquations).
 
 Such [[higher gauge theories]] famously appear as the [[higher gauge field|gauge field]]-sector in higher-dimensional [[supergravity]] and hence in [[superstring|super]]-[[string theory|string]]/[[M-theory]], which is where they draw most of their motivation from. 
 
 In analogy to how for ordinary [[Maxwell theory]] one may think of [[singularities]] or stable bumps in the [[flux density]] $F_2$ as being sourced by [[charges]] carried by (hypothetical) [[Dirac monopoles]] or by (observed) [[Abrikosov vortex strings]], respectively, so one may think of [[singularities]] or stable bumps in these higher flux densities as sourced by [[singular branes]] or [[solitonic branes]], respectively, for suitably higher dimensional ([[membrane|mem-]])[[branes]] carrying suitable higher charges.
 
-But for [[singular brane|singular]]/[[solitonic branes]] to be "[[elementary particle|elementary]]" objects of individually discernible nature, their charges, and hence the total fluxes which they source, should have discrete ("quantized") values (as indeed observed for [[Abrikosov vortex strings]]). This is what *[[flux quantization]]* is about.
+\linebreak
+
+**([§3](#FluxQuantizationLaws))** 
+But for such [[singular brane|singular]]/[[solitonic branes]] to be "[[elementary particle|elementary]]" objects of individually discernible nature, their charges, and hence the total fluxes which they source, should have discrete ("quantized") values (as indeed observed for [[Abrikosov vortex strings]]). This is what *[[flux quantization]]* is about.
+
+Traditionally one declares the full higher gauge field to be given by gauge potentials $\widehat A$ whose curvature is the flux density $\vec F$ and which is globally subjected to a topological condition that implies the flux and charge quantization. While this is classical for electromagnetism (and Yang-Mills theory), it is far from transparent, from this point of view, how to identify the structure of gauge potentials for general higher gauge theories.
+
+More systematically, one may understand [[flux quantization]] as the specification of a [[generalized cohomology|generalized]] ([[nonabelian cohomology|non-abelian]]) [[cohomology theory]] for which the charges are required to be [[cocycles]], and of which the total fluxes are then the differential-geometric (Chern-Dold-)*[[Chern-Dold character|characters]]*.
+
+From this modern point of view, the higher [[gauge potential]] and hence the full field content of the higher gauge theory, arises as the homotopy/gauge theoretic witness of the matching of total fluxes with the character of the charges, making the full higher gauge fields be cocycles in a corresponding generalized (nonabelian) *[[differential cohomology theory|differential]]* cohomology theory.
 
 \linebreak
 
-([§3](#FluxQuantizationLaws)) Just as for [[electromagnetism]], these higher [[flux densities]] themselves do not yet constitute the full [[field (physics)|field]]-content of the given higher gauge theory. 
-
-Traditionally one declares the full [[higher gauge field|higher]] [[gauge field]] to be given by [[gauge potentials]] $\vec A$ whose differential *locally* contributes to the given flux density, $\vec F \,=\, \mathrm{d} \vec A + \cdots$ and which is *globally* subjected to a topological condition that implies *[[flux quantization|flux and charge quantization]]* of the total fluxes and (brane-)charges, making them form a [[discrete space]] reflecting the nature of *individual* ("[[elementary particle|elementary]]") branes carrying/sourcing discrete units of charges/fluxes (as famously observed for [[Abrikosov vortex strings]]). 
-But from this point of view it is far from transparent how to identify the structure of gauge potentials for general higher gauge theories.
-
-More systematically, one may understand [[flux quantization]] as the specification of the [[non-perturbative quantum field theory|non-perturbative]] charge/flux sectors in ([[nonabelian cohomology|non-abelian]]) [[generalized cohomology]] of which the [[flux densities]] are but differential-geometric [[Chern-Dold character|characters]], and observe that the corresponding higher [[gauge potentials]] and hence the full field content of the higher gauge theory arise automatically as the [[homotopy theory|homotopy]]/[[higher gauge theory|gauge theoretic]] witnesses of the resulting [[flux quantization]], making the full higher gauge fields be [[cocycles]] in a corresponding ([[nonabelian differential cohomology|nonabelian]]) [[differential cohomology]] theory.
-
-\linebreak
-
-([§4](#Examples)) Examples of [[flux quantization]] beyond [[Dirac charge quantization]] in [[electromagnetism]] play a key role in [[string theory|string]]/[[M-theory]]: 
+**([§4](#Examples))** Examples of [[flux quantization]] beyond [[Dirac charge quantization]] in [[electromagnetism]] play a key role in [[string theory|string]]/[[M-theory]]: 
 
   * the seminal "Hypothesis K" postulating [[D-brane charge quantization in K-theory]],
 
   * the more recent "[[schreiber:Hypothesis H]]" postulating [[M-brane]] charge quantization in unstable [[twisted Cohomotopy|twisted]] [[Cohomotopy]].
 
-These hypotheses are not unrelated: Under "[[double dimensional reduction|double dimensional]] [[Kaluza-Klein reduction]]" along a [[circle]] [[fiber]] the [[supergravity C-field|C-field]] fluxes on $X^{10+1}$ are to give rise to *most* of the [[B-field|$B$-]]/[[RR-field]]-fluxes in $X^{9+1}$ (as part of the [[duality between M-theory and type IIA string theory]], which is either conjectural or defining, depending on attitude towards the definition of the elusive [[M-theory]]). Therefore [[schreiber:Hypothesis H]] may be understood as providing an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *lift* of [[D-brane charge quantization in K-theory|Hypothesis K]] to the extent that it reduces to the latter under [[double dimensional reduction]], and as a [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *correction* to the extent that it does not quite reduce to Hypothesis K.
+These hypotheses are not unrelated: Under "[[double dimensional reduction|double dimensional]] [[Kaluza-Klein reduction]]" along a [[circle]] [[fiber]], the [[supergravity C-field|C-field]] fluxes on $X^{10+1}$ are to give rise to *most* of the [[B-field|$B$-]]/[[RR-field]]-fluxes in $X^{9+1}$ (as part of the [[duality between M-theory and type IIA string theory]], which is either conjectural or defining, depending on attitude towards the definition of the elusive [[M-theory]]). Therefore [[schreiber:Hypothesis H]] may be understood as providing an [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *lift* of [[D-brane charge quantization in K-theory|Hypothesis K]] to the extent that it reduces to the latter under [[double dimensional reduction]], and as a [[non-perturbative effect|non-perturbative]]/[[M-theory|M-theoretic]] *correction* to the extent that it does not quite reduce to Hypothesis K.
 
-While the discussion of the fine-grained predictions and mutual (in)compatibilities of these flux-quantization laws is beyond the scope of this review, these examples serve to highlight the nature of the space of choices of flux quantization laws and with them the general mechanism of flux quantization --- which previous more *ad hoc*-discussions have barely brought out.
+\linebreak
 
-Notice therefore that a *choice* of flux quantization is (depending on perspective of how that higher gauge theory is ultimately defined):
+**Perspective.** This highlights that a *choice* of flux quantization is (depending on perspective of how that higher gauge theory is ultimately defined):
 
 * a hypothesis about 
 
@@ -109,11 +109,13 @@ In contrast, in the modernized picture reviewed here, the available choices of f
 
 Typically there is an "evident" choice of flux quantization and this is the choice tacitly made in the literature, where considered at all. But it is important to notice that there are other admissible choices, embodying hypotheses about (or definitions of) non-evident nonperturbative completions of the given higher gauge theory. 
 
-The following table shows in outline the logic of algebro-topological flux quantization; on the left in generality and on the right for our three running examples:
+\linebreak
+
+**The logic of flux quantization.** The following table shows in outline the logic of algebro-topological flux quantization as reviewed here; on the left in generality and on the right for our running examples:
 
 1. traditional [[Dirac charge quantization]] of the [[electromagnetic field]] (experimentally well-supported);
 
-1. traditional [[D-brane charge quantization in topological K-theory|D-brane charge quantization]] in [[twisted K-theory|twisted]] [[topological K-theory]] ("Hypothesis K", still facing various challenges);
+1. traditional [[D-brane charge quantization in topological K-theory|D-brane charge quantization]] in [[twisted K-theory|twisted]] [[topological K-theory]] ("Hypothesis K");
 
 1. more recent [[M-brane]]$\;$[[shifted C-field flux quantization|charge quantization]] in unstable [[twisted Cohomotopy|twisted]] [[Cohomotopy]] ("[[schreiber:Hypothesis H]]").
 
@@ -133,7 +135,7 @@ The following table shows in outline the logic of algebro-topological flux quant
 
 As this table indicates, the [[algebraic topology|algebro-topological]] nature of flux/charge quantization is [[higher Lie theory|higher Lie theoretic]] (explained in [§3](#FluxQuantizationLaws)), by matching two [[L-infinity algebras|$L_\infty$-algebras]] associated with a given [[higher gauge theory]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) ([§2](#FluxDensitiesAndBraneSources)):
 
-**(i)** The higher [[Gauss law]] of a [[higher gauge theory]] [of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) is equivalent to the condition that the [[flux densities]] jointly constitute a [[flat L-infinity algebra valued differential form|closed $L_\infty$-algebra valued differential form]] with values in a characteristic [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ (Prop. \ref{SolutionsAsFlatForms} below):
+**(i) Bianchi-Gauss $L_\infty$-algebras.** The higher [[Bianchi identities]] of [duality-symmetric higher flux densities](higher+gauge+field#HigherGaugeTheoryOfMaxwellType), and hence their their higher [[Gauss law]] (Prop. \ref{SolutionSpaceViaGaussLaw}) are equivalent to the condition that the [[flux densities]] jointly constitute a [[flat L-infinity algebra valued differential form|closed $L_\infty$-algebra valued differential form]] with [[coefficients]] in a characteristic [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ (Prop. \ref{SolutionsAsFlatForms} below):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-GaussLawAsFlatnessCondition-240128.jpg",
@@ -147,7 +149,7 @@ As this table indicates, the [[algebraic topology|algebro-topological]] nature o
     }
 \end{imagefromfile}
 
-**(ii)** The [[classifying space]] $\mathcal{A}$ of the topological flux/charge sector is [[rational homotopy type|rationally]] characterized by its [[rational numbers|rational]] [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]]  $\mathfrak{l}\mathcal{A}$ (essentially the "Quillen model" of $\mathcal{A}$: that $L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{l}\mathcal{A})$ is the [[Sullivan model]] of $\mathcal{A}$) and the nonabelian [[Chern-Dold character]] map extracts from $\mathcal{A}$-cohomology its image in $\mathfrak{l}\mathcal{A}$-valued [[nonabelian de Rham cohomology]]:
+**(ii) Whitehead $L_\infty$-algebras.** The [[classifying space]] $\mathcal{A}$ of any charge quantization law is [[rational homotopy type|rationally]] characterized by its [[rational numbers|rational]] [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]]  $\mathfrak{l}\mathcal{A}$ (essentially the "Quillen model" of $\mathcal{A}$: that $L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{l}\mathcal{A})$ is the [[Sullivan model]] of $\mathcal{A}$) and the nonabelian [[Chern-Dold character]] map extracts from $\mathcal{A}$-cohomology its image in $\mathfrak{l}\mathcal{A}$-valued [[nonabelian de Rham cohomology]] (eq:NonabelianCharacterMap):
 
 \begin{imagefromfile}
     "file_name": "NonabCharacter-240123.jpg",
@@ -175,7 +177,7 @@ As this table indicates, the [[algebraic topology|algebro-topological]] nature o
 \end{imagefromfile}
 
 
-That these two $L_\infty$-algebras coincide is the condition on the choice of the flux quantization law embodied by $\mathcal{A}$; and it implies that the non-abelian [[Chern-Dold character map]] $ch_{\mathcal{A}}$ from the [[non-abelian cohomology]]-theory classified by $\mathcal{A}$ takes values in the [[non-abelian de Rham cohomology]] with coefficients in $\mathfrak{l}\mathcal{A}$, which under $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ identifies with the deformation classes of [[flux densities]] satisfying their higher [[Gauss law]].
+That these two $L_\infty$-algebras coincide is a consistency condition on the choice of the flux quantization law embodied by $\mathcal{A}$; and it implies that the non-abelian [[Chern-Dold character map]] $ch_{\mathcal{A}}$ from the [[non-abelian cohomology]]-theory classified by $\mathcal{A}$ takes values in the [[non-abelian de Rham cohomology]] with coefficients in $\mathfrak{l}\mathcal{A}$, which under $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ identifies with the total flux of [[flux densities]] satisfying their higher [[Gauss law]].
 
 Finally, given such a choice of flux quantization law $\mathcal{A}$, the [[gauge potentials]] and hence the full [[moduli stack]] of [[higher gauge fields]] appears by forming the above matching not just as an identification in [[non-abelian de Rham cohomology]] but as a [[homotopy fiber product]] of the corresponding [[moduli stacks]]: This makes the full flux-quantized [[higher gauge fields]] be [[cocycles]] in [[nonabelian differential cohomology]] with coefficients in $\mathcal{A}$.
 
