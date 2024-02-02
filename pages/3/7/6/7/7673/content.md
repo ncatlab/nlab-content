@@ -260,6 +260,11 @@ $$P(\Delta, (\Gamma, A)) = (\gamma : \Delta \to \Gamma) \times (a : Tm(\Delta, A
 then the universal property of the context extension is that there is a natural isomorphism $\Delta \to ext(\Gamma, A) \cong P(\Delta,(\Gamma,A))$
 
 
+### Categories with Representable Maps
+ {#CwR}
+
+Taichi Uemura introduced [[categories with representable maps]] as a [[functorial semantics]] approach to type theory generalizing the notion of a Category with Families/Natural Model. A category with representable maps (CwR) is a category with finite limits with a specified class of "representable" arrows that are [[pullback-stable]] and [[exponentiable morphism|exponentiable]]. The motivating examples are presheaf categories where the representable arrows are the [[representable morphisms]] in the usual sense. Then any CwR can be considered to be a type theory: for instance, the [[free]] CwR with a representable map $Tm \to Ty$ has as models precisely the natural models, and so can be thought of as the embodiment of the judgments of Martin-Lof Type Theory (with no connectives).
+
 ### Contextual categories, or C-systems
  {#ContextualCategoriesOrCSystems}
 
