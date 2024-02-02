@@ -1,3 +1,4 @@
 
+[[GeomPhys-SimplicialSetOfFluxDeformations.jpg:file]]
 
-[[GeomPhys-CharacterMapChargesToFluxes-240202.jpg:file]]
+[[GeomPhys-DeformationPathOfFluxDensities.jpg:file]]
