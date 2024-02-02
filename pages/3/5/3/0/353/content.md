@@ -137,7 +137,19 @@ Many of these definitions are actually "truncations" of definitions of (weak) [[
 
 ## References
 
-See the list of references at *[[higher category theory]]*.
+See also the references at *[[higher category theory]]* and especially at *[[(infinity,n)-category]]*.
+
+Exposition of the original [[algebraic definition of higher categories|algebraic notions]] of $n$-categories:
+
+* [[John Baez]], *[The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale)*
+
+* [[John Baez]], *An Introduction to $n$-Categories*,  in *7th Conference on Category Theory and Computer Science*, Lecture Notes in Computer Science **1290**. Springer (1997) 
+
+* [[Eugenia Cheng]], [[Aaron Lauda]], *Higher-Dimensional Categories: An Illustrated Guidebook* &lbrack;[pdf](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-lauda-guidebook.pdf)&rbrack;
+
+* [[Tom Leinster]], _A Survey of Definitions of $n$-Category_ &lbrack;[arXiv:math.CT/0107188](http://arxiv.org/abs/math.CT/0107188)&rbrack;
+
+* [[Tom Leinster]], _Higher Operads, Higher Categories_ &lbrack;[arXiv:math/0305049](http://arxiv.org/abs/math/0305049)&rbrack;
 
 
 
