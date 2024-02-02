@@ -82,7 +82,7 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 * **[Topological Quantum Programming with Linear Homotopy Types](/schreiber/show/Topological+Quantum+Gates+in+Homotopy+Type+Theory#HoTTEST2024)**
 
-  talk at: *[Homotopy Type Theory Electronic Seminar,](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)*
+  talk at: *[Homotopy Type Theory Electronic Seminar,](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)*, 02 Feb 2024
 
   video: [YT](https://youtu.be/Wnm3yCUzNb0)
 
