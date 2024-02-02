@@ -290,6 +290,8 @@ Significantly, since the [[field]] operations on the discrete locale of [[ration
 
 * [[Simon Henry]], *Localic Metric spaces and the localic Gelfand duality*, ([arXiv:1411.0898](https://arxiv.org/abs/1411.0898))
 
+* Guillaume Raynaud, *Fibred Contextual Quantum Physics* ([etheses:1685](https://etheses.bham.ac.uk/id/eprint/1685/), [pdf](https://etheses.bham.ac.uk//id/eprint/1685/1/Raynaud14PhD.pdf))
+
 The locale of real numbers as the [[classifying locale]] of the [[geometric theory]] of [[two-sided Dedekind cuts]]:
 
 * [[Ingo Blechschmidt]], section 2.2 of: *Generalized spaces for constructive algebra*, ([arXiv:2012.13850](https://arxiv.org/abs/2012.13850))
