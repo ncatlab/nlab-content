@@ -9,7 +9,6 @@
 =--
 =--
 
-# Supply in a monoidal category
 * toc
 {: toc}
 
@@ -35,9 +34,9 @@ The notion of "supply" does not satisfy the [[principle of equivalence]]: if $C\
 
 * A [[hypergraph category]] is a symmetric monoidal category that supplies special commutative [[Frobenius algebras]].
 
-* A [[Markov category]] is a [[semicartesian monoidal category|semicartesian]] symmetric monoidal category that supplies commutative comonoids.
+* A [[Markov category]] is a [[semicartesian monoidal category|semicartesian]] symmetric monoidal category that supplies cocommutative comonoids.
 
-* A [[gs-monoidal category]] is a symmetric monoidal category that supplies commutative comonoids.
+* A [[gs-monoidal category]] is a symmetric monoidal category that supplies cocommutative comonoids.
 
 ## References
 
