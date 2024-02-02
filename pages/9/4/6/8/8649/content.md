@@ -69,7 +69,7 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 * [[flux]], [[flux tube]], [[flux compactification]], [[uncertainty of fluxes]]
 
-* [[higher flux quantization]]
+* [[geometry of physics -- flux quantization]]
 
 * [[fiber bundles in physics]]
 
@@ -105,7 +105,7 @@ Understanding of charge quantization in terms of [[Čech cohomology]]:
 
 * {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
-* {#Alvarez85} [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
+* {#Alvarez85} [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
 
 reviewed in:
 
@@ -123,7 +123,7 @@ General review and further discussion:
 
 * [[Yakov Shnir]], Section 2.1 of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
-* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+* {#FreedMooreSegal07} [Freed, Moore & Segal 2007, p. 7](#FreedMooreSegal07)
 
 * {#Heras18} Ricardo Heras, _Dirac quantisation condition: a comprehensive review_, Contemp. Phys. 59, 331 (2018) ([arXiv:1810.13403](https://arxiv.org/abs/1810.13403))
 
@@ -134,6 +134,16 @@ See also
 Arguments for electric charge quantization from [[anomaly cancellation]] in the [[standard model of particle physics]]:
 
 * K. S. Babu and Rabindra N. Mohapatra, *Quantization of electric charge from anomaly constraints and a Majorana neutrino*, Phys. Rev. D **41** (1990) 271 &lbrack;[doi:10.1103/PhysRevD.41.271](https://doi.org/10.1103/PhysRevD.41.271)&rbrack;
+
+Consideration of combined magnetic *and* electric charge quantization in [[vacuum]] (cf. *[[duality-symmetric electromagnetism]]*):
+
+* {#FreedMooreSegal07} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
+
+* {#BBSS15} [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], Rem. 2.3 in: _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
+
+* {#LazaroiuShahbazi22} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around Def. 1.16 in: *The duality covariant geometry and DSZ quantization of abelian gauge theory*, Advances in Theoretical and Mathematical Physics **26** (2022) 2213–2312 &lbrack;[arXiv:2101.07236](https://arxiv.org/abs/2101.07236), [doi:10.4310/ATMP.2022.v26.n7.a5](https://dx.doi.org/10.4310/ATMP.2022.v26.n7.a5)&rbrack;
+
+* {#LazaroiuShahbazi23} [[Calin Lazaroiu]], [[Carlos S. Shahbazi]], around (3) in: *The geometry and DSZ quantization of four-dimensional supergravity*, Letters in Mathematical Physics  **113** 4 (2023) &lbrack;[arXiv:2101.07778](https://arxiv.org/abs/2101.07778), [doi:10.1007/s11005-022-01626-y](https://doi.org/10.1007/s11005-022-01626-y)&rbrack;
 
 
 ### For the weak nuclear force field
