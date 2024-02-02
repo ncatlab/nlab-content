@@ -267,6 +267,11 @@ Thus, the extensionality principle of the circle type implies that the integers 
 
 One can prove the extensionality principle of the circle type, given a [[univalent universe]] where the circle is small relative to the universe. The [[HoTT book]] provides a number of such proofs. 
 
+If one doesn't have a type of integers or a [[type universe]], then the extensionality principle of the [[circle type]] says that the [[identity types]] $\mathrm{base} =_{S^1} \mathrm{base}$ satisfy the [[dependent universal property of the integers type]] with respect to the element $\mathrm{refl}_{S^1}(\mathrm{base}):\mathrm{base} =_{S^1} \mathrm{base}$ and the equivalence 
+$$\lambda p:\mathrm{base} =_{S^1} \mathrm{base}.p \bullet \mathrm{loop}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq (\mathrm{base} =_{S^1} \mathrm{base})$$
+
+This is a special case of the extensionality principle of [[coequalizer types]] and [[pushout types]] as detailed in [Kraus and Raumer (2019)](#KrausRaumer19). 
+
 ### The circle type and infinity
 
 The extensionality principle of the circle type says that the loop space of the circle at its base point $\Omega(S^1, \mathrm{base})$ is a [[denumerable set]]. However, there is a weaker axiom that one can add to the circle type: that $\Omega(S^1, \mathrm{base})$ is an [[infinite set|infinite]] type. 
@@ -365,6 +370,10 @@ For the fact that one can construct a [[natural numbers type]] from the circle t
 
 * {#Rasekh21} [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, Theory and Applications of Categories **37** 13 (2021) 337-377.  ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734), [tac:37-13](http://www.tac.mta.ca/tac/volumes/37/13/37-13abs.html))
 
+For the induction principle of the identity types of the circle type:
+
+* {#KrausRaumer19} [[Nicolai Kraus]], [[Jakob von Raumer]], *Path Spaces of Higher Inductive Types in Homotopy Type Theory*. &lbrack;[arXiv:1901.06022](https://arxiv.org/abs/1901.06022)&rbrack;
+
 [[!redirects circle type]]
 [[!redirects circle types]]
 
@@ -375,5 +384,16 @@ For the fact that one can construct a [[natural numbers type]] from the circle t
 
 [[!redirects dependent universal property of the circle type]]
 [[!redirects dependent universal property of circle types]]
+
 [[!redirects universal property of the circle type]]
 [[!redirects universal property of circle types]]
+
+[[!redirects dependent universal property of the identity types of the circle type]]
+[[!redirects dependent universal property of the identity types of circle types]]
+[[!redirects dependent universal property of identity types of the circle type]]
+[[!redirects dependent universal property of identity types of circle types]]
+
+[[!redirects universal property of the identity types of the  the circle type]]
+[[!redirects universal property of the identity types of circle types]]
+[[!redirects universal property of identity types of the  the circle type]]
+[[!redirects universal property of identity types of circle types]]
