@@ -27,7 +27,7 @@
 
 In [[topology]] the _path space_ of a [[topological space]] $X$ is a _topological space of all continuous [[paths]]_ in $X$.
 
-In [[topological homotopy theory]] the path space constrution serves to exhibit [[homotopies]] in the guise of _[[right homotopies]]_. This situation generalizes to many other [[model categories]] and one speaks more generally of _[[path space objects]]_ in this case.
+In [[topological homotopy theory]] the path space construction serves to exhibit [[homotopies]] in the guise of _[[right homotopies]]_. This situation generalizes to many other [[model categories]] and one speaks more generally of _[[path space objects]]_ in this case.
  
 For exposition in the context of [[point-set topology]] see at _[[Introduction to Topology -- 1]] around [this example](Introduction+to+Topology+--+1#PathSpace)_.
 
@@ -35,7 +35,7 @@ For exposition in the context of [[topological homotopy theory]] see at _[[Intro
 
 ## Definition
 
-For $X$ a [[topological space]], then its _path space_ is the [[mapping space]] $X^{[0,1]}$, out of the [[topological interval]] into $X$, i.e. the set of [[continuous function]] $\gamma \;\colon\; [0,1] \to X$ equipped with the [[compact-open topology]]. 
+For $X$ a [[topological space]], then its _path space_ is the [[mapping space]] $X^{[0,1]}$, out of the [[topological interval]] into $X$, i.e. the set of [[continuous functions]] $\gamma \;\colon\; [0,1] \to X$ equipped with the [[compact-open topology]]. 
 
 The two endpoint inclusions $\ast \colon [0,1]$ and the unique projection $[0,1] \to \ast$ induce continuous functions
 
