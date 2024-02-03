@@ -38,9 +38,9 @@ A [[real number]] in an [[ordered field]] $F$ is an element $x \in F$ which sati
 
 We have the following results:
 
-* The first and second conditions say that every element $x \in F$ is bounded below and above by rational numbers, and thus strictly not an [[infinite]] element. 
+* The first and second conditions say that every element $x \in F$ is bounded below and above by rational numbers, and thus strictly not an [[infinite]] element. This also implies that there are no infinitesimal elements, because there are no element $x \in F$ whose multiplicative inverse is an infinite element. 
 
-* The fifth and sixth conditions imply that every element $x \in F$ is strictly not an [[infinitesimal]] element. 
+* The fifth and sixth conditions independently imply that every element $x \in F$ is strictly not an [[infinitesimal]] element. 
 
 These four conditions together imply the [[archimedean property]] for the ordered field $F$. 
 
