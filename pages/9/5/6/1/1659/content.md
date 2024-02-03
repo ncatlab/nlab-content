@@ -28,6 +28,8 @@ Note that the first two terms are not entirely standardised; some authors use th
 
 ## Definitions
 
+### Countable sets
+
 If you accept the [[axiom of choice]], then there is really nothing more to say than what was above.  In weaker [[foundations]], more care may be needed.  The following definitions should be more than enough for practical use in [[constructive mathematics]]:
 
 * A [[set]] $S$ is __denumerable__ if there exists a [[bijection]] between $S$ and $\mathbf{N}$; or in other words if $S$ is the same as $\mathbf{N}$ [[up to isomorphism]] in [[Set]].
@@ -39,7 +41,6 @@ If you accept the [[axiom of choice]], then there is really nothing more to say 
 * $S$ is __subcountable__ (or _subdenumerable_) if there exists an [[injection]] from $S$ to a countable set, or equivalently to a denumerable set; or in other words if $S$ is a [[subset]] of $\mathbf{N}$, up to isomorphism.
 * $S$ is __subcountably indexed__ (or _subdenumerably indexed_) if $S$ is a [[subquotient]] of $\mathbf{N}$, up to isomorphism. 
 * $S$ is __split subcountably indexed__ (or _split subdenumerably indexed_) if there exists a [[split surjection]] to $S$ from a subcountable set, or equivalently if there exists an [[injection]] from $S$ to a split countably indexed set or equivalently to a split denumerably indexed set. 
-* $S$ is __uncountable__ if, given any [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$, the function is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
 
 Of course, the terms are even less standardised here.  Certainly it is common for 'countable' to mean countably indexed, and yet it may also (as in classical mathematics) mean denumerable.  In at least some contexts, 'enumerable' (without the initial 'd') means denumerably indexed. 
 
@@ -51,20 +52,36 @@ In addition, in the presence of [[countable choice]], the difference between *de
 
 Under the [[BHK interpretation]] of constructive mathematics, one only has the split versions of denumerably indexed, countably indexed, subcountably indexed. 
 
-There is a lot of freedom in defining uncountability.  You can start with countable or countably indexed sets and require that any function from them to $S$ be non-surjective (in the strong sense used in the definition above).  Or you can start with denumerable or denumerably indexed sets and require that any function from them to $S$ be non-surjective, then add the additional clause that $S$ must be [[inhabited set|inhabited]].  Or you can compromise, and start with a detachable subset of $\mathbb{N}$ without requiring it to be a lower subset, since this is enough to prove $S$ inhabited and make the order-closure irrelevant.  All of these definitions are equivalent!
+### Uncountable sets
 
-Arguably, uncountability is really a property of a set [[equipped with]] an [[inequality relation]] $\#$.  Then $S$ is __$\#$-uncountable__, or the pair $(S,\#)$ is __strongly uncountable__ (or just _uncountable_ if context is clear) if, given any [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$ (or equivalently any variation as in the previous paragraph), the function is $\#$-strongly non-surjective in the sense that there exists an element of $S$ that is $\#$-distinct from every element in the [[image]] of $f$.  Then the mere set $S$ is uncountable if and only if it is uncountable when equipped with the [[denial inequality]].
+There are a number of different definitions of an uncountable set, which all differ in the absence of [[countable choice]]:
 
+* $S$ is __indenumerable__ if every [[function]] $f$ from $\mathbf{N}$ to $S$ is not a [[bijection]].
+* $S$ is __split indenumerably indexed__ if every [[function]] $f$ from $\mathbf{N}$ to $S$ is not a [[split surjection]].
+* $S$ is __indenumerably indexed__ if every [[function]] $f$ from $\mathbf{N}$ to $S$ is not a [[surjection]].
+* $S$ is __strongly indenumerably indexed__ if every [[function]] $f$ from $\mathbf{N}$ to $S$ is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
+* Suppose $S$ is an [[inequality space]]. Then $S$ is __$\#$-indenumerably indexed__, or the pair $(S,\#)$ is __strongly indenumerably indexed__ (or just _indenumerable_ if context is clear) if every [[function]] $f$ from $\mathbf{N}$ to $S$ (or equivalently any variation as in the previous paragraph) is $\#$-strongly non-surjective in the sense that there exists an element of $S$ that is $\#$-distinct from every element in the [[image]] of $f$. 
+* $S$ is __uncountable__ if every [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$ is not a [[bijection]].
+* $S$ is __split uncountably indexed__ if every [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$ is not a [[split surjection]].
+* $S$ is __uncountably indexed__ if every [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$ is not a [[surjection]].
+* $S$ is __strongly uncountably indexed__ if every [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$ is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
+* Suppose $S$ is an [[inequality space]]. Then $S$ is __$\#$-uncountably indexed__, or the pair $(S,\#)$ is __strongly uncountably indexed__ (or just _uncountable_ if context is clear) if every [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$ (or equivalently any variation as in the previous paragraph) is $\#$-strongly non-surjective in the sense that there exists an element of $S$ that is $\#$-distinct from every element in the [[image]] of $f$. 
+
+Similarly as the case for above, the terms are even less standardised here.  Certainly it is common for 'uncountable' to mean uncountably indexed, and yet it may also (as in classical mathematics) mean indenumerable. 
+
+We make the distinction between uncountable and uncountably indexed and between indenumerable and indenumerably indexed because in [[neutral constructive mathematics]] it is consistent that there exist a set which is both indenumerable and indenumerably indexed. However, similarly to countably indexed sets, in the presence of [[countable choice]], the difference between *uncountably indexed* and *split uncountably indexed* and *indenumerably indexed* and *split indenumerably indexed* disappear. 
+
+There is a lot of freedom in defining uncountably indexed sets. You can start with countable and require that any function from them to $S$ be non-surjective (in the strong sense used in the definition above). Or you can start with denumerable or denumerably indexed sets and require that any function from them to $S$ be non-surjective, then add the additional clause that $S$ must be [[inhabited set|inhabited]]. Or you can compromise, and start with a detachable subset of $\mathbb{N}$ without requiring it to be a lower subset, since this is enough to prove $S$ inhabited and make the order-closure irrelevant. All of these definitions are equivalent!
 
 ## Examples and Properties
 
-In [[classical mathematics]], the set of [[real numbers]] is uncountable. In [[constructive mathematics]], the [[MacNeille real numbers]] are always uncountable, and in the presence of [[countable choice]], the [[Dedekind real numbers]] are uncountable. However, without countable choice, it is consistent that the Dedekind real numbers are countably indexed and thus *not* uncountable (cf [Bauer 2022](#Bauer22)), although it is unknown whether it is consistent that the Dedekind real numbers are countable in the sense of having a *bijection* with a detachable lower subset of the natural numbers. 
+In [[classical mathematics]], the set of [[real numbers]] is uncountable. Even in [[constructive mathematics]], the [[MacNeille real numbers]], the [[Dedekind real numbers]], and the Cauchy real numbers are all uncountable, in the sense of having a bijection with a countable set. More generally, it is impossible for the real numbers to be both subcountable and countably indexed at the same time; subcountability implies that the real numbers have [[decidable equality]] because the natural numbers have decidable equality and injections preserve and reflect decidable equality, from which one can derive [[WLPO]] allowing one to prove that the real numbers are uncountably indexed by any of the usual arguments, resulting in a contradiction. However, it is consistent that the Dedekind real numbers are denumerably indexed and thus *not* uncountably indexed (cf [Bauer 2022](#Bauer22)). 
 
 Every denumerable set is [[infinite set|infinite]], and hence so is every set with a denumerable subset.  Classically (usng [[dependent choice]] $DC$), we have the converse: a set is infinite if and only if it has a denumerable subset.  If a set has a denumerable subset, then its [[power set]] is uncountable.  Even without $DC$, using [[excluded middle]] instead, the power set of an infinite set is uncountable.
 
 In contrast, the set of [[algebraic numbers]] is denumerable.  Also, the set of [[computable numbers]] is subcountably indexed (and infinite, so denumerable in classical mathematics).  Combined with the uncountability of the real numbers, this gives the existence of transcendental numbers (constructively) and uncomputable numbers (classically).
 
-Classically, every set is countable [[xor]] uncountable.  Even constructively, a countably indexed set cannot be uncountable.  In [[Russian constructivism]], however, there are subcountable sets that are also uncountable.  In particular, the set of computable numbers is subcountably indexed, while the set of real numbers is uncountable, yet in Russian constructivism, these are the same set!  In some formalisms of Russian constructivism, *every* set is subcountably indexed.
+Classically, every set is countably indexed [[xor]] uncountably indexed.  Even constructively, a countably indexed set cannot be uncountably indexed. In [[Russian constructivism]], however, there are subcountably indexed sets that are also uncountably indexed. In particular, the set of computable numbers is subcountably indexed, while the set of real numbers is uncountably indexed, yet in Russian constructivism, these are the same set! In some formalisms of Russian constructivism, *every* set is subcountably indexed. 
 
 The [[empty set]] is countable, although not denumerably indexed.  Conversely, any uncountable set must be [[inhabited set|inhabited]], as must be any denumerably indexed set.  Even constructively, a countable set is empty xor inhabited.
 
@@ -101,20 +118,50 @@ The [[diagonal argument]] also shows the uncountability of the real numbers (non
 
 which discusses both the origin of the 1874 article and the questions of constructivity that arose in its aftermath.
 
-That in the absence of [[countable choice]] it is consistent that the [[Dedekind real numbers]] are countably indexed:
+That in the absence of [[countable choice]] it is consistent that the [[Dedekind real numbers]] are denumerably indexed:
 
 * {#Bauer22} [[Andrej Bauer]], *The countable reals* ([video](https://www.youtube.com/watch?v=4CBFUojXoq4)). 
 
 [[!redirects countable set]]
 [[!redirects countable sets]]
+
 [[!redirects countably infinite set]]
 [[!redirects countably infinite sets]]
+
 [[!redirects denumerable set]]
 [[!redirects denumerable sets]]
+
+[[!redirects subcountable]]
+[[!redirects subcountable set]]
+[[!redirects subcountable sets]]
+
+[[!redirects subdenumerable]]
+[[!redirects subdenumerable set]]
+[[!redirects subdenumerable sets]]
+
+[[!redirects countably indexed]]
+[[!redirects countably indexed set]]
+[[!redirects countably indexed sets]]
+
+[[!redirects denumerably indexed]]
+[[!redirects denumerably indexed set]]
+[[!redirects denumerably indexed sets]]
 
 [[!redirects uncountable]]
 [[!redirects uncountable set]]
 [[!redirects uncountable sets]]
+
+[[!redirects uncountably indexed]]
+[[!redirects uncountably indexed set]]
+[[!redirects uncountably indexed sets]]
+
+[[!redirects indenumerable]]
+[[!redirects indenumerable set]]
+[[!redirects indenumerable sets]]
+
+[[!redirects indenumerably indexed]]
+[[!redirects indenumerably indexed set]]
+[[!redirects indenumerably indexed sets]]
 
 [[!redirects countable family]]
 [[!redirects countable families]]
