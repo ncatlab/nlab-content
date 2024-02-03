@@ -50,6 +50,40 @@ $$
 ([Bousfield-Gugenheim 76, Theorem 2.2](#BousfieldGugenheim76))
 
 
+## Lemmas
+
+Besides the [[Poincaré lemma]] for piecewise polynomial forms, the proof uses:
+
+\begin{lemma}
+**(extension lemma)**
+
+Given a PL form on the [[boundary of a simplex]] it extends to (hence is the [[pullback of differential forms|restriction of]]) a PL form on the full [[n-simplex]].
+
+\end{lemma}
+
+([Griffiths & Morgan 2013, Lemma 9.6](#GriffithsMorgan13))
+
+\begin{proof}
+  
+Using [barycentric coordinates](simplex#BarycentricCoordinates) for the given [[n-simplex]]
+
+$$
+  \Delta^n 
+  \,\equiv\,
+  \left\{
+    (x^0, \cdots, x^n)
+    \,\in\,
+    \mathbb{R}^{n+1}
+    \;\middle\vert\;
+    \sum_k x^k = 0 
+  \right\}
+$$
+
+such that the $i$-face is the subspace where $x^i = 0$  ...
+
+\end{proof}
+
+
 ## Related statements
 
 * [[PL de Rham complex of smooth manifold is equivalent to de Rham complex]]
@@ -60,7 +94,10 @@ $$
 
 ## References
 
-
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+
+Including the variant of piecewise smooth forms:
+
+* {#GriffithsMorgan13} [[Phillip Griffiths]], Chapter 9 of: [[John Morgan]], *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
 
 
