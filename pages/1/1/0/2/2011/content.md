@@ -84,7 +84,7 @@ Introductions and monographs:
 
 * [[Victor Guillemin]], Alan Pollack, _Differential topology_, Prentice-Hall 1974
 
-* [[Morris Hirsch]], _Differential topology_, Springer GTM 33 (1976) ([doi:10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C))
+* [[Morris Hirsch]], _Differential topology_, Springer Graduate Texts in Mathematics **33** (1976) &lbrack;[doi:10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)&rbrack;
 
 * [[Theodor Bröcker]], [[Klaus Jänich]], *Introduction to differentiable topology* (1982) &lbrack;[ISBN:9780521284707](https://www.cambridge.org/ae/universitypress/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/introduction-differential-topology?format=PB&isbn=9780521284707)&rbrack;
 
