@@ -35,6 +35,19 @@ A consequence is that the product $z z^*$ is not non-negative anymore, since
 $$
 z z^* = x^2 - j^2 y^2 = x^2 - y^2
 $$
+meaning in particular that [[zero-divisors]] exist (for example $(1 - j)(1 + j)=1 - j^2=0$). Using the diagonal basis
+$$
+e = \frac{1 - j}{2}
+$$
+$$
+e^* = \frac{1 + j}{2}
+$$
+of idempotent elements, hence for which $e^2=e$ and $(e^*)^2=e^*$, and fulfilling $e e^*=e^* e=0$ results in multiplication given by
+$$
+(a e+b e^*)(c e+d e^*)
+=(a c) e+(b d) e^*
+$$
+which yields that the algebra $\mathbb{R}[j]=\mathbb{R}[e]$ of split-complex numbers is isomorphic to the algebra $\mathbb{R}\oplus\mathbb{R}$ with pointwise multiplication.
 
 ## Related concepts
 
