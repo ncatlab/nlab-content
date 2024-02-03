@@ -213,7 +213,7 @@ Fiber bundles (then spelled fibre-bundles) were originally defined in:
 
 Other sources:
 
-* [[Norman Steenrod]], Section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
+* [[Norman Steenrod]], Section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
 * [[Alexander Grothendieck]], *A General Theory of Fibre Spaces With Structure Sheaf*, University of Kansas, Report No. 4 (1955, 1958) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Kansasnotes.pdf), [[Grothendieck-FibreSpaces.pdf:file]]&rbrack;
 
