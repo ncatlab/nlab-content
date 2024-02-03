@@ -168,8 +168,6 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] iff $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] $\mathbb{2}$ is a [[sigma-frame|$\sigma$-frame]] iff the internal $\mathrm{LPO}_\mathbb{N}$ holds. This implies that the classical notion of [[Dedekind real numbers]] can be constructed with respect to the $\sigma$-frame $\mathbb{2}$. However, in general the classical Dedekind real numbers does not coincide with the constructive notion of [[Dedekind real numbers]] constructed using the [[frame of truth values]] $\Omega$, though it does if [[excluded middle]] or [[countable choice]] holds. 
-
 ## Related statements
 
 There are various other results that are related to the principles of omniscience. Here are a few:
@@ -185,8 +183,6 @@ There are various other results that are related to the principles of omniscienc
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
 * The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cantor reals and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
-
-* The LPO for natural numbers can be stated in any $\Pi$-W-[[coherent category]] $\mathcal{E}$. This implies that the classical Dedekind real numbers can be constructed in $\mathcal{E}$, since the [[boolean domain object]] $2 \in \mathcal{E}$ is a $\sigma$-frame object if the LPO for natural numbers holds in $\mathcal{E}$, even though the modulated Cantor reals can only be constructed if $\mathcal{E}$ is also a [[pretopos]] and the constructive Dedekind reals can only be constructed if $\mathcal{E}$ is also an [[elementary topos]]. 
 
 ## References
 
