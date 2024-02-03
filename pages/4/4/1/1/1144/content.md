@@ -1244,7 +1244,7 @@ On this non-nilpotent generalization see also:
 
 Emphasis of the role of [[de Rham complexes]] of [[smooth manifolds]])
 
-* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
 
 
 
