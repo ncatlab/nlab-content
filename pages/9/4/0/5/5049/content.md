@@ -140,8 +140,11 @@ which moroever is itself (continuously) homotopic to $\eta$ via some continuous 
 
 ## References
 
-* [[Christoph Wockel]], _A Generalisation of Steenrod's Approximation Theorem_, Archivum mathematicum, Volume 45  No. 2 (2009) ([arXiv:0610252](http://arxiv.org/abs/math/0610252))
-{#Wockel}
+* [[Norman Steenrod]], Section 6.7 of: _The topology of fibre bundles_, Princeton Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
-[[!redirects Steenrod approximation theorem]]
+* [[Morris Hirsch]], Chapter 2.2 (Thm. 2.5) in: _Differential topology_, Springer Graduate Texts in Mathematics **33** (1976) &lbrack;[doi:10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)&rbrack;
+
+* {#Wockel} [[Christoph Wockel]], _A Generalisation of Steenrod's Approximation Theorem_, Archivum mathematicum **45** 2 (2009) &lbrack;[arXiv:0610252](http://arxiv.org/abs/math/0610252)&rbrack;
+
+
 
