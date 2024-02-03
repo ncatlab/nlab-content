@@ -174,7 +174,7 @@ Also notice that if we take the site to be the point, $C = *$, then sheaves over
 
 ### $\infty$-Representations  {#IdeaInfRepresentations}
 
-We have found above the the term "representation" it to a large extent congruent with the term "morphism in a (2,1)-topos with codomain a stack of modules".
+We have found above the term "representation" is, to a large extent, congruent with the term "morphism in a (2,1)-topos with codomain a stack of modules".
 
 This way of thinking of representations has an immediate generalization to [[higher category theory]] and in particular to [[(∞,1)-category theory]]/[[homotopy theory]].
 
