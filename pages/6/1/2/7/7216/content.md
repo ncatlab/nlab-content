@@ -106,6 +106,7 @@ This is related to but different from the sort of [[dual basis]] applicable gene
 
 
 ## Double duals
+ {#DoubleDualVectorSpaces}
 
 The __[[double dual]]__ of $V$ is simply the dual of the dual of $V$.  There is a [[natural transformation]] from $V$ to its double dual:
 $$ \hat{x}(\lambda) = \lambda(x) ,$$
