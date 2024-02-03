@@ -14,7 +14,8 @@ A [[monoidal category]] is cartesian if and only if it is equivalent to its own 
 
 ## Related concepts
 
-A similar but slightly more complicated theorem seems to exist for [[symmetric powers in a symmetric monoidal (Q plus)-linear category|symmetric powers in symmetric monoidal (Q plus)-linear categories]].
+- A similar but slightly more complicated theorem seems to exist for [[symmetric powers in a symmetric monoidal (Q plus)-linear category|symmetric powers in symmetric monoidal (Q plus)-linear categories]].
+- [[semicartesian monoidal category]]
 
 ## Reference
 
