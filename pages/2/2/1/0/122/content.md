@@ -162,12 +162,67 @@ An advantage of this approach is that it applies to the case of topological cate
 An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence of categories]] a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]].
 
 ## Examples ##
+ {#Examples}
 
-* The [[determinant]] is a natural transformation $det\colon GL_n\rightarrow -^*$ from the [[general linear group]] to the [[group of units]] of a [[ring]], which are both functors from [[Ring]] to [[Grp]].
-* The [[Frobenius homomorphism]] is a natural transformation $Frob_p\colon Id_{Ring_p}\Rightarrow Id_{Ring_p}$ from the [[identity functor]] on the [[full subcategory]] of [[Ring]] containing all rings with [[characteristic]] $p$ to itself.
-* The [[Hurewicz homomorphism]] is a natural transformation $h_n\colon\pi_n\Rightarrow H_n(-;\mathbb{Z})$ from the [[homotopy group]] to [[singular homology]], which are both functors from [[Top]] to $Grp$.
-* The inversion $G\rightarrow G^{op},g\mapsto g^{-1}$ for every [[group]] $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{op}$ from the identity functor on $Grp$ to the [[opposite group]] functor.
-* The projection $G\rightarrow G^{ab},g\mapsto[g]$ for every group $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{ab}$ from the identity functor on $Grp$ to the [[abelianization]] functor. 
+\begin{example}\label{UnitOfDoubleDualization}
+**(unit of double-dualization)**
+\linebreak
+  For any [[ground field]] $\mathbb{K}$,
+  the canonical [[linear map]] from a [[vector space]] $V$ to its [double dual](dual+vector+space#DoubleDualVectorSpaces) $\big(V^{\ast}\big)^\ast$ 
+\[\label{UnitMapToDoubleDual}\]
+\begin{tikzcd}[sep=0pt]
+  V \ar[rr] && \big(V^\ast\big)^\ast
+  \\
+  v 
+    &\mapsto& 
+  \big(
+    \omega(-) \mapsto \omega(v)
+  \big)
+\end{tikzcd}
+is a natural transformation 
+$$
+  Id \longrightarrow \big((-)^{\ast}\big)^\ast
+$$
+
+from the [[identity functor]] $Id$ on [[Vect|$\mathbb{K} Vect$]] to the [[composition]] $\big((-)^{\ast}\big)^\ast$ of the [[linear dual space|linear dual]]-[[endofunctor]] with itself.
+
+This example was the motivating example of [Eilenberg & MacLane 1945](#EilenbergMacLane45) (right on the first pages) for introducing the notion of natural transformation (and with it [[category theory]]) in the first place.
+
+The conceptual subtlety that these authors sought to resolve here is that for any *[[finite-dimensional vector space|finite-dimensional]]* [[vector space]] there exists also an [[isomorphism]] from $V$ to its *single*-[[dual vector space]]:
+
+$$
+  V \in \mathbb{K} Vect^{fdim}
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  \exists
+  \;
+  V \xrightarrow{\sim} V^\ast
+  \,.
+$$
+
+But these linear maps are conceptually different from (eq:UnitMapToDoubleDual) in that they are *not natural* in the technical sense that they do not form the components of a natural transformation between the evident functors. Instead they involve an arbitrary choice equivalent to that of an (possibly indefinite) [[inner product]] on $V$, which is not preserved by general [[linear isomorphisms]] (but just by the corresponding [[isometries]]).
+\end{example}
+
+\begin{example}
+The [[determinant]] is a natural transformation $det\colon GL_n\rightarrow (-)^\times$ from the [[general linear group]] to the [[group of units]] of a [[ring]], which are both functors from [[Ring]] to [[Grp]].
+\end{example}
+
+\begin{example}
+The [[Frobenius homomorphism]] is a natural transformation $Frob_p\colon Id_{Ring_p}\Rightarrow Id_{Ring_p}$ from the [[identity functor]] on the [[full subcategory]] of [[Ring]] containing all rings with [[characteristic]] $p$ to itself.
+\end{example}
+
+\begin{example}
+The [[Hurewicz homomorphism]] is a natural transformation $h_n\colon\pi_n\Rightarrow H_n(-;\mathbb{Z})$ from the [[homotopy group]] to [[singular homology]], which are both functors from [[Top]] to $Grp$.
+\end{example}
+
+\begin{example}
+The inversion $G\rightarrow G^{op},g\mapsto g^{-1}$ for every [[group]] $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{op}$ from the [[identity functor]] on $Grp$ to the [[opposite group]] functor.
+\end{example}
+
+\begin{example}
+The projection $G\rightarrow G^{ab},g\mapsto[g]$ for every group $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{ab}$ from the [[identity functor]] on $Grp$ to the [[abelianization]] functor. 
+\end{example}
 
 ## Properties ##
 
@@ -242,10 +297,16 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
 ## References
 
+The notion of *natural transformations* between functors is due to
+
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _[[General Theory of Natural Equivalences]]_,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
+
+where it served as the motivation for the definition of *[[categories]]* and *[[functors]]* in the first place.
+
+
 Textbook accounts:
 
 * [[Saunders MacLane]], §I.4 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
-
 
 * [[Francis Borceux]], Section 1.3 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
