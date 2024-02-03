@@ -30,19 +30,26 @@ Note that the first two terms are not entirely standardised; some authors use th
 
 If you accept the [[axiom of choice]], then there is really nothing more to say than what was above.  In weaker [[foundations]], more care may be needed.  The following definitions should be more than enough for practical use in [[constructive mathematics]]:
 
-*  A [[set]] $S$ is __denumerable__ if there exists a [[bijection]] between $S$ and $\mathbf{N}$; or in other words if $S$ is the same as $\mathbf{N}$ [[up to isomorphism]] in [[Set]].
-*  $S$ is __denumerably indexed__ if there exists a [[surjection]] to $S$ from $\mathbf{N}$ (or equivalently any denumerable set); or in other words if $S$ a [[quotient set]] of a $\mathbf{N}$, up to isomorphism.
-*  $S$ is __countable__ if there exists a bijection between $S$ and a [[detachable subset|detachable]] [[lower subset]] of $\mathbf{N}$.
-*  $S$ is __countably indexed__ if there exists a [[surjection]] to $S$ from a countable set.
-*  $S$ is __subcountable__ (or _subdenumerable_) if there exists an [[injection]] from $S$ to a countable set, or equivalently to a denumerable set; or in other words if $S$ is a [[subset]] of $\mathbf{N}$, up to isomorphism.
-*  $S$ is __subcountably indexed__ (or _subdenumerably indexed_) if $S$ is a [[subquotient]] of $\mathbf{N}$, up to isomorphism.
-*  $S$ is __uncountable__ if, given any [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$, the function is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
+* A [[set]] $S$ is __denumerable__ if there exists a [[bijection]] between $S$ and $\mathbf{N}$; or in other words if $S$ is the same as $\mathbf{N}$ [[up to isomorphism]] in [[Set]].
+* $S$ is __denumerably indexed__ if there exists a [[surjection]] to $S$ from $\mathbf{N}$ (or equivalently any denumerable set); or in other words if $S$ a [[quotient set]] of a $\mathbf{N}$, up to isomorphism. 
+* $S$ is __split denumerably indexed__ if there exists a [[split surjection]] to $S$ from $\mathbf{N}$. 
+* $S$ is __countable__ if there exists a bijection between $S$ and a [[detachable subset|detachable]] [[lower subset]] of $\mathbf{N}$. 
+* $S$ is __countably indexed__ if there exists a [[surjection]] to $S$ from a countable set. 
+* $S$ is __split countably indexed__ if there exists a [[split surjection]] to $S$ from a countable set. 
+* $S$ is __subcountable__ (or _subdenumerable_) if there exists an [[injection]] from $S$ to a countable set, or equivalently to a denumerable set; or in other words if $S$ is a [[subset]] of $\mathbf{N}$, up to isomorphism.
+* $S$ is __subcountably indexed__ (or _subdenumerably indexed_) if $S$ is a [[subquotient]] of $\mathbf{N}$, up to isomorphism. 
+* $S$ is __split subcountably indexed__ (or _split subdenumerably indexed_) if there exists a [[split surjection]] to $S$ from a subcountable set, or equivalently if there exists an [[injection]] from $S$ to a split countably indexed set or equivalently to a split denumerably indexed set. 
+* $S$ is __uncountable__ if, given any [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$, the function is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
 
-Of course, the terms are even less standardised here.  Certainly it is common for 'countable' to mean countably indexed, and yet it may also (as in classical mathematics) mean denumerable.  In at least some contexts, 'enumerable' (without the initial 'd') means denumerably indexed.
+Of course, the terms are even less standardised here.  Certainly it is common for 'countable' to mean countably indexed, and yet it may also (as in classical mathematics) mean denumerable.  In at least some contexts, 'enumerable' (without the initial 'd') means denumerably indexed. 
 
 Not only does the difference between 'denumerable' and 'countable' disappear when we add the prefix 'sub' (for obvious reasons), but it almost disappears when we add the suffix 'ly indexed'!  Specifically, a set is denumerably indexed if and only if it is both [[inhabited set|inhabited]] and countably indexed; and a set is countably indexed if and only if it is either [[empty set|empty]] or denumerably indexed.  That countability involves *lower* subsets of $\mathbb{N}$ is also almost irrelevant here; any *inhabited* detachable subset of $\mathbb{N}$ is denumerably indexed regardless of its closure under order.
 
 On the other hand, it is key that countability involves *detachable* subsets of $\mathbb{N}$, so that not every subcountable set is necessarily countable (or even countably indexed).  Indeed, the set of [[computable numbers]] is subcountably indexed, while the set of [[real numbers]] is uncountable (and thus not countably indexed); yet in [[Russian constructivism]], these are the same set!  One reason to focus on countably indexed sets is that this is about the most general concept that definitely does *not* hold of the set of real numbers.
+
+In addition, in the presence of [[countable choice]], the difference between *denumerably indexed* and *split denumerably indexed*, *countably indexed* and *split countably indexed*, and *subcountably indexed* and *split subcountably indexed* disappear, since every surjection out of $\mathbb{N}$ and every subset of $\mathbb{N}$ has a [[section]] by [[countable choice]]. 
+
+Under the [[BHK interpretation]] of constructive mathematics, one only has the split versions of denumerably indexed, countably indexed, subcountably indexed. 
 
 There is a lot of freedom in defining uncountability.  You can start with countable or countably indexed sets and require that any function from them to $S$ be non-surjective (in the strong sense used in the definition above).  Or you can start with denumerable or denumerably indexed sets and require that any function from them to $S$ be non-surjective, then add the additional clause that $S$ must be [[inhabited set|inhabited]].  Or you can compromise, and start with a detachable subset of $\mathbb{N}$ without requiring it to be a lower subset, since this is enough to prove $S$ inhabited and make the order-closure irrelevant.  All of these definitions are equivalent!
 
@@ -51,7 +58,7 @@ Arguably, uncountability is really a property of a set [[equipped with]] an [[in
 
 ## Examples and Properties
 
-The set of [[real numbers]] is uncountable.  Even in constructive mathematics, this is true for pretty much any notion of real number, from [[regular Cauchy real numbers]] to [[MacNeille real numbers]], by any of the usual arguments.
+In [[classical mathematics]], the set of [[real numbers]] is uncountable. In [[constructive mathematics]], the [[MacNeille real numbers]] are always uncountable, and in the presence of [[countable choice]], the [[Dedekind real numbers]] are uncountable. However, without countable choice, it is consistent that the Dedekind real numbers are countably indexed and thus *not* uncountable (cf [Bauer 2022](#Bauer22)), although it is unknown whether it is consistent that the Dedekind real numbers are countable in the sense of having a *bijection* with a detachable lower subset of the natural numbers. 
 
 Every denumerable set is [[infinite set|infinite]], and hence so is every set with a denumerable subset.  Classically (usng [[dependent choice]] $DC$), we have the converse: a set is infinite if and only if it has a denumerable subset.  If a set has a denumerable subset, then its [[power set]] is uncountable.  Even without $DC$, using [[excluded middle]] instead, the power set of an infinite set is uncountable.
 
@@ -94,6 +101,9 @@ The [[diagonal argument]] also shows the uncountability of the real numbers (non
 
 which discusses both the origin of the 1874 article and the questions of constructivity that arose in its aftermath.
 
+That in the absence of [[countable choice]] it is consistent that the [[Dedekind real numbers]] are countably indexed:
+
+* {#Bauer22} [[Andrej Bauer]], *The countable reals* ([video](https://www.youtube.com/watch?v=4CBFUojXoq4)). 
 
 [[!redirects countable set]]
 [[!redirects countable sets]]
