@@ -1159,6 +1159,8 @@ Theory and M-Theory**
 
   * [[Ulrik Buchholtz]]
 
+  * [[Ugo Dal Lago]]
+
   * [[Eric Finster]]
 
   * [[Daniel Gratzer]]
@@ -1177,7 +1179,7 @@ Theory and M-Theory**
 
   * [[Jennifer Paykin]] (tbc)
 
-  * [[Robert Rand]] (tbc)
+  * [[Robert Rand]]
 
   * [[Jon Sterling]] (tbc)
 
