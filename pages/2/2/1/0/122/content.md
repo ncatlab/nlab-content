@@ -161,6 +161,13 @@ An advantage of this approach is that it applies to the case of topological cate
 
 An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence of categories]] a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]].
 
+## Examples ##
+
+* The [[determinant]] is a natural transformation $det\colon GL_n\rightarrow -^*$ from the [[general linear group]] to the [[group of units]] of a [[ring]], which are both functors from [[Ring]] to [[Grp]].
+* The [[Frobenius homomorphism]] is a natural transformation $Frob_p\colon Id_{Ring_p}\Rightarrow Id_{Ring_p}$ from the [[identity functor]] on the [[full subcategory]] of [[Ring]] containing all rings with [[characteristic]] $p$ to itself.
+* The [[Hurewicz homomorphism]] is a natural transformation $h_n\colon\pi_n\Rightarrow H_n(-;\mathbb{Z})$ from the [[homotopy group]] to [[singular homology]], which are both functors from [[Top]] to $Grp$.
+* The inversion $G\rightarrow G^{op},g\mapsto g^{-1}$ for every [[group]] $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{op}$ from the identity functor on $Grp$ to the [[opposite group]] functor.
+* The projection $G\rightarrow G^{ab},g\mapsto[g]$ for every group $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{ab}$ from the identity functor on $Grp$ to the [[abelianization]] functor. 
 
 ## Properties ##
 
