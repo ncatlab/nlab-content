@@ -208,6 +208,10 @@ $$
 
 ## Properties
 
+### For rings
+
+* The Frobenius homomorphism is a [[natural transformation]] $Frob_p\colon Id_{Ring_p}\Rightarrow Id_{Ring_p}$ from the [[identity functor]] on the [[full subcategory]] of [[Ring]] containing all rings with [[characteristic]] $p$ to itself.
+
 ### For fields
 
 * The Frobenius morphism on algebras is always [[injective]]. Note that the Frobenius morphism of schemes (see below) is *not* always a monomorphism.
