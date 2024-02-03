@@ -51,8 +51,7 @@ The suggestion that these vortex flux tube could be thought of as dynamical [[st
 
   published as: *Quarks, strings and beyond*, section 44 in: [[Paolo Di Vecchia]] et al. (ed.), *The Birth of String Theory*, Cambridge University Press (2012) 544-551 &lbrack;[doi:10.1017/CBO9780511977725.048](https://doi.org/10.1017/CBO9780511977725.048)&rbrack;
 
-  > "I remember that in the late sixties to early seventies
-Tolya Larkin and I discussed (many times) whether Abrikosov’s vortices could be viewed as elementary particles. Nothing concrete came out of this at that time, but it helped me with my later work. With some imagination we could have related the vortex lines with strings but we missed it."
+  > "I remember that in the late sixties to early seventies Tolya Larkin and I discussed (many times) whether Abrikosov’s vortices could be viewed as elementary particles. Nothing concrete came out of this at that time, but it helped me with my later work. With some imagination we could have related the vortex lines with strings but we missed it."
 
 See also:
 
