@@ -511,7 +511,7 @@ which are exactly the familiar cases of [[magnetic monopoles]] (hypothetical) an
 \linebreak
 The idea of regarding singular branes from the [[complement]]  of their singular locus in spacetime is familiar from the [[AdS/CFT correspondence]]:
 
-The [[near horizon geometry]] of any $\gt 1/4$ [[BPS state|BPS]] [[black brane]] (for references see ) are all [[product topological spaces|product spaces]] of an [[anti de Sitter spacetime]] with a ([free discrete quotient](group+actions+on+spheres#FreeActionsByFiniteGroupsAndSphericalSpaceForms) of) a [[sphere]] (a [[spherical space form]]) around the singularity &lbrack;[Acharya, Figueroa-O'Farrill, Hull & Spence 1999](near-horizon+geometry#AFFHS98)&rbrack;. On a causal chart of AdS spacetime, this is homeomorphic to the flat brane complements form Ex. \ref{FlatBranes}:
+The [[near horizon geometry]] of any $\gt 1/4$ [[BPS state|BPS]] [[black brane]] are all [[product topological spaces|product spaces]] of an [[anti de Sitter spacetime]] with a ([free discrete quotient](group+actions+on+spheres#FreeActionsByFiniteGroupsAndSphericalSpaceForms) of) a [[sphere]] (a [[spherical space form]]) around the singularity &lbrack;[Acharya, Figueroa-O'Farrill, Hull & Spence 1999](near-horizon+geometry#AFFHS98)&rbrack;. On a causal chart of AdS spacetime, this is homeomorphic to the flat brane complements from Ex. \ref{FlatBranes}:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-NearHorizonGeometries.jpg",
@@ -567,14 +567,14 @@ This was maybe first understood by [Bergman, Gimon & Hořava 1999, §2.2 & §2.3
 ### Higher fluxes and their brane sources
  {#HigherFluxAndItsBranes}
 
-On this backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and of the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}_{deg_i}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in Set$ and jointly to be denoted as follows:
+On this backdrop of ordinary electromagnetic flux ([above](#OrdinaryElectromagneticFluxAndItsBranes)) and of the general rule for measuring flux sourced by [[singular branes]] or [[solitonic branes]] ([above](#TheDistinctionBetweenSingularAndSolitonicBranes)) it clearly makes sense to consider [[theory (physics)|physical theories]] of [[higher gauge fields]] whose precise nature remains to be discussed, but whose flux densities are reflected in higher-degree differential forms $F^{(i)}(X^D)$, these possibly being of different field species to be labeled by a [[finite set|finite]] [[index set]] $I \in FinSet$ and jointly to be denoted as follows:
 
 \[
   \label{TheHigherFluxDensities}
   \vec F
   \;\equiv\;
   \Big\{
-    F^{(i)}_{\mathrm{deg}_i}
+    F^{(i)}
     \,\in\,
     \Omega_{dR}^{deg_i}\big(
       X^D
@@ -615,7 +615,19 @@ But beware that the distinction between these two aspects of D-branes, while "we
 
 The above flux densities in 11d and 10d are closely related:
 
-Consider the case of C-field flux densities $G_4$ and $G_7$ an an 11-dimensional spacetime $X^{11}$ which is the total space of a [[circle group|circle]]-[[principal bundle]] over a 10-dimensional base manifold $X^{10}$, and denote by
+\begin{example}
+**([[double dimensional reduction]] of fluxes form 11d to 10d)**
+\linebreak
+Consider the case of C-field flux densities $G_4$ and $G_7$ on an 11-dimensional spacetime $X^{11}$ which is the total space of a [[circle group|circle]]-[[principal bundle]] 
+
+\begin{tikzcd}[sep=15pt]
+  S^1 \ar[r, hook] &[-5pt] X^{11}
+  \ar[d, "p"]
+  \\
+  & X^{10}
+\end{tikzcd}
+
+and denote by
 
 * $\theta \,\in\, \Omega^1_{dR}(X^{11})$ any fiberwise [[Maurer-Cartan form]] along the fibers (i.e. an [[Ehresmann connection]] form),
 
@@ -644,9 +656,10 @@ Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0
     }
 \end{imagefromfile}
 
-This is the process of "[[double dimensional reduction]]" -- called this way since both spacetime dimension is reduced by [[Kaluza-Klein reduction]] on a fiber space, but also the degrees of densities of fluxes "through the fiber space" are decreased -- known as part of the [[duality between M-theory and type IIA string theory]]: The new component flux densities $H_3$ and $H_7$ are interpreted as those of the [[B-field]] and the component flux densitirs $F_4$ and $F_6$ (and $F_2$) as those of the [[RR-field]] in [[type IIA supergravity]].
+This is the process of "[[double dimensional reduction]]" -- called this way since both spacetime dimension is reduced by [[Kaluza-Klein reduction]] on a fiber space, but also the degrees of densities of fluxes "through the fiber space" are decreased -- known as part of the [[duality between M-theory and type IIA string theory]]: The new component flux densities $H_3$ and $H_7$ are interpreted as those of the [[B-field]] and the component flux densities $F_4$ and $F_6$ (and $F_2$) as those of the [[RR-field]] in [[type IIA supergravity]].
 
-Here the flux density $F_2$, which in 10d is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources, is a $\color{orange}\text{gravitational}$ flux from the 11d point of view: If $X^{10} \,=\, \mathbb{R}^{6,1} \times \mathbb{R}_{\gt 0} \times S^1$ is the spacetime domain around a flat singular [[D6-brane]], then the total space of the circle-principal bundle $X^{11}$ (a multiple of the [[complex Hopf fibration]]) is known as the corresponding "[[KK-monopole]]" spacetime.
+Here the flux density $F_2$, which in 10d is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources, is a $\color{orange}\text{gravitational}$ flux from the 11d point of view: If $X^{10} \,=\, \mathbb{R}^{6,1} \times \mathbb{R}_{\gt 0} \times S^2$ is the spacetime domain around a flat singular [[D6-brane]] (cf. [above](#TheDistinctionBetweenSingularAndSolitonicBranes)), then the total space of the circle-principal bundle $X^{11}$ (a multiple of the [[complex Hopf fibration]]) is known as the corresponding "[[KK-monopole]]" spacetime.
+\end{example}
 
 This transmutation, under [[Kaluza-Klein compactification]], of parts of the gravitational field in higher dimensions into [[gauge fields]] in lower dimensions is a major subtlety in choosing [[flux quantization]] laws: Since these laws apply to higher gauge fields but not directly to the field of gravity, there may appear new possibilities for flux quantization after [[KK-reduction]] to lower dimensions which do not come from flux quantization in higher dimensions. 
 
@@ -683,7 +696,7 @@ It turns out &lbrack;[SS23-FQ](#SS23-FQ)&rbrack; that from such *duality-symmetr
 This move of isolating "pre-metric flux equations" supplemented by a "constitutive" duality constraint has a curious status in the  literature. On the one hand, it is elementary and immediate as an equivalent re-formulation of the usual form of (higher) Maxwell-type equations of motion,
 and as such has been highlighted a century ago  &lbrack;[Kottler (1922a)](pre-metric+electromagnetism#Kottler22a), [(1922b)](pre-metric+electromagnetism#Kottler22b), [Cartan (1924) §80](pre-metric+electromagnetism#Cartan24), [Dantzig (1934)](pre-metric+electromagnetism#Dantzig34)&rbrack; and again more recently &lbrack;[Hehl & Obukhov (2003)](pre-metric+electromagnetism#HehlObukhov03), [Delphenich (2005a)](pre-metric+electromagnetism#Delphenich05a), [(2005b)](pre-metric+electromagnetism#Delphenich05a)&rbrack; (see the surveys [Hehl, Itin & Obukhov 2016](pre-metric+electromagnetism#HehlItinObukhov16) and [Delphenich (202x)](pre-metric+electromagnetism#DelphenichBook)). 
 
-While the broader community does not seem to have taken much note of "premetric electromagnetism" as such, we notice that just the same perspective is evidently what string theorists call "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
+While the broader community does not seem to have taken much note of "premetric electromagnetism" as such, we notice that just the same perspective is evidently what in [[supergravity]] and [[string theory]] is called "duality-symmetric" &lbrack;[Bandos, Berkovits & Sorokin 1998](#BandosBerkovitsSorokin98)&rbrack; or "democratic" &lbrack;[Mkrtchyan & Valach 2023](#MkrtchyanValach23)&rbrack; formulations of fluxes in supergravity  (see Examples \ref{MotionOfSupergravityCField} and \ref{MotionOfCoupledBRRFields} below).
 
 
 
@@ -701,7 +714,7 @@ on a [[tuple]] (eq:TheHigherFluxDensities) of [[flux]] [[differential forms]] $\
     "width": 800,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 0
@@ -837,7 +850,7 @@ Notice that in type IIB, (eq:PureUnboundedRREquations) describes a flux density 
 \begin{example}\label{MotionOfSelfDualHigherGaugeFluxes}
 **(Motion of [[self-dual higher gauge field]] fluxes)**
 
-Since Def. \ref{HigherMaxwellEquations} regards *every* higher gauge theory as being "self-dual" in a sense, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
+Since Def. \ref{HigherMaxwellEquations} regards *every* higher gauge theory (of Maxwell-type) as being "self-dual" in a sense, the [[equations of motion]] of [[flux densities]] of actual [[self-dual higher gauge fields]] -- in the strict sense that one and the same flux density form is required to be Hodge dual to itself -- are readily an example of Def. \ref{HigherMaxwellEquations}:
 
 \[\label{SelfDualHigherFluxEquationsOfMotion}\]
 \begin{imagefromfile}
@@ -881,7 +894,7 @@ The equations of motion of the [[supergravity C-field|C-field]] in [[D=11 superg
 
 
 \begin{example}\label{MotionOfCoupledBRRFields}
-**(Motion of type IIA B&RR-field fluxes)**
+**(Motion of [[type IIA supergravity|type IIA]] [[B-field|B]]&[[RR-field]] fluxes)**
 
 Under [[double dimensional reduction]] of the C-field flux from Ex. \ref{MotionOfSupergravityCField} along a [[circle]]-[[bundle]] as in (eq:KKComponentsOfCFieldFlux), the equations of motion (eq:CFieldEquationsOfMotion) of the C-field from are equivalently expressed in terms of its [[B-field|B]]&[[RR-field]]-components as follows &lbrack;[Mathai & Sati 2004, §4](duality+between+M-theory+and+type+IIA+string+theory#MathaiSati04); [FSS17-Sph, §3](#FSS17SphereCocycles); see also [Figueroa-O'Farrill & Simón 2003, §1.2](#Figueroa-O'FarrillSimón03)&rbrack;:
 
@@ -904,7 +917,7 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 
 1. The Hodge dual $F_8 \,\coloneqq\, \star \, F_2$ is *not* part of the C-field in 11d, but is part of the gravitational field (the Hodge star encodes the 10d metric and $F_2$ is an aspect of the 11d fiber geometry). The expression for $\mathrm{d} H_8$ arises as part of the gravitational field equations &lbrack;[Cremmer, Julia, Lu & Pope 1998 (3.4)](#CremmerJuliaLuPope98)&rbrack;.
 
-1. The presence in [[type IIA supergravity]] of the non-linear Bianchi identity for $H_7$, albeit readily verified and "well-known" at least since [CJCP98 (3.4)](#CremmerJuliaLuPope98), is not as widely appreciated as the pattern (eq:TwistedUnboundedRREquations) from Ex. \ref{MotionOfUnboundedRRFields} -- which it *breaks*.
+1. The presence in [[type IIA supergravity]] of the non-linear Bianchi identity for $H_7$, albeit readily verified and "well-known" at least since [CJLP98 (3.4)](#CremmerJuliaLuPope98), is not as widely appreciated as the pattern (eq:TwistedUnboundedRREquations) from Ex. \ref{MotionOfUnboundedRRFields} -- which it *breaks*.
 
 1. No flux densities $F_0$ nor $F_{10}$ appear in 10d from [[KK-reduction]] on a circle, nor are they part of [[type IIA supergravity]]. These fluxes are instead part of [[massive type IIA supergravity]] whose relation to [[D=11 supergravity]]/[[M-theory]] remains less understood, see the references [here](massive+type+IIA+string+theory#ReferencesLiftToMTheory).
 
