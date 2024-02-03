@@ -117,11 +117,15 @@ $$\det(U A U^{-1}) = \det(A)$$
 
 for each [[inverse|invertible]] [[linear map]] $U \in GL(V)$. 
 
-If we choose a [[basis of a vector space|basis]] of $V$ so that we have an identification $GL(V) \cong Mat_n(k)$, then the determinant gives a [[function]]
+If we choose a [[basis of a vector space|basis]] of $V$ so that we have an identification $End(V) \cong Mat_n(k)$, then the determinant gives a [[function]]
 
-$$\det \colon Mat_n(k) \to k$$ 
+$$\det \colon Mat_n(k) \to k$$
 
-that takes products of $n \times n$ [[matrices]] to products in $k$. The determinant however is of course independent of choice of basis, since any two choices are related by a change-of-basis matrix $U$, where $A$ and its transform $U A U^{-1}$ have the same determinant. 
+or by restriction to invertible matirces with invertible determinants a function
+
+$$\det\colon GL_n(k) \to k^*$$
+
+that takes products of $n \times n$ [[matrices]] to products in $k$. The determinant however is of course independent of choice of basis, since any two choices are related by a change-of-basis matrix $U$, where $A$ and its transform $U A U^{-1}$ have the same determinant. The above map is furthermore natural in $k$, hence is a [[natural transformation]] $det\colon GL_n\rightarrow -^*$ from the [[general linear group]] to the [[group of units]] of a [[field]] (or more generally a [[ring]]), which are both functors from [[Field]] (or more generally [[Ring]]) to [[Grp]].
 
 By following the definitions above, we can give an explicit formula: 
 
