@@ -141,11 +141,11 @@ Observe that given a polynomial form $\alpha$ on $\sigma_i(\Delta^n)$, its [[pul
 
 is a differential form on $\Delta^n \setminus \{v_i\}$ such that
 
-1. pulled back to the $i$th face, $\widehat \alpha$ coincides with $\alpha$ (there being the pullback of an identity map),
+1. $\widehat \alpha$ extends to $v_i$ (by zero) to give a polynomial differential form on all of $\Delta^n$;
 
-1. pulled back to any other face, $\widehat \alpha$ vanishes (there being the pullback along a constant map),
+1. pulled back to the $i$th face, $\widehat \alpha$ coincides with $\alpha$ (there being the pullback of an identity map);
 
-1. $\widehat \alpha$ extends to $v_i$ (by zero) to give a polynomial differential form on all of $\Delta^n$.
+1. if $\alpha$ vanishes on the $j$-face in $\sigma(\Delta^n)$ then $\widehat{\alpha}$ vanishes on the $j$-face of $\Delta^n$ (there being a pullback of the former).
 
 Now to complete the proof, consider a polynomial differential form $\omega$ on the [[boundary of a simplex|boundary]] $\partial \Delta^n$. We need to find an extension $\widehat \omega$ to all of $\Delta_n$.
 
