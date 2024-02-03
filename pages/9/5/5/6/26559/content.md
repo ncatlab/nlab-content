@@ -952,11 +952,11 @@ The more traditionally familiar
 **[[canonical phase space]]** (common physics jargon, somewhat incompatible with the mathematician's "canonical") is instead a parameterization of the covariant phase space by [[initial value data]] on a choice of [[Cauchy surface]]. 
 This choice breaks the "manifest covariance" of the covariant phase space. Nevertheless, if a Cauchy surface exists at all (hence on [[globally hyperbolic spacetimes]]), then both these phase spaces are equivalent, by definition, the equivalence being the map that generates from [[initial value data]] the essentially unique [[on-shell]] [[field history]] that evolves from it (possibly up to [[gauge transformation]]).
 
-**Solution space of on-shell flux densities.** At this point in our discussion, we do not yet know what the full field content of our field theories really is -- this will be implied by a choice of flux quantization [below](#FluxQuantizationLaws) -- we only know the corresponding [[flux densities]]. To remember this, we shall call the space of flux densities solving their equations of motion (Def. \ref{HigherMaxwellEquations}) the *solution space*, and we are after its incarnation as a *canonical solution space* of initial value data on a Cauchy surface. But this goes a long way, since the higher Maxwell-type equations of motion constrain exclusively the flux densities: Once the flux-quantization the canonical phase will simply consist of all flux-quantized [[gauge potentials]] compatible with the flux densities in the canonical solution space.
+**Solution space of on-shell flux densities.** At this point in the discussion, the full gauge field content is not yet determined -- this will only be implied by a choice of flux quantization [below](#FluxQuantizationLaws) -- so far we are only considering the [[flux densities]] of the would-be gauge fields. To remember this, we shall call the space of flux densities solving their equations of motion (Def. \ref{HigherMaxwellEquations}) the *solution space*; and we are after its incarnation as a *canonical solution space* of initial value data on a Cauchy surface. But this goes a long way, since the higher Maxwell-type equations of motion constrain exclusively the flux densities: Once the flux-quantization the canonical phase will simply consist of all flux-quantized [[gauge potentials]] compatible with the flux densities in the canonical solution space.
 
 \begin{proposition}\label{SolutionSpaceViaGaussLaw}
 **([SS23-FQ](#SS23-FQ))**
-  On a [[globally hyperbolic spacetime]] $X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d$, the solution space to [higher Maxwell-equations](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) of motion (Def. \ref{HigherMaxwellEquations}) is [[isomorphism|isomorphic]] to the solution of the [[Bianchi identities]] restricted to any [[Cauchy surface]] $\iota \,:\, X^d \hookrightarrow X^D$, there to be called the higher *[[Gauß law]]*:
+  On a [[globally hyperbolic spacetime]] $X^D \,\simeq\, \mathbb{R}^{0,1} \times X^d$, the solution space to given [higher Maxwell-equations](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) of motion (Def. \ref{HigherMaxwellEquations}) is [[isomorphism|isomorphic]] to the solution of (just) the duality-symmetric [[Bianchi identities]] (eq:EqHigherMaxwellEquations) restricted ([[pullback of differential forms|pulled back]] to) to any [[Cauchy surface]] $\iota \,:\, X^d \hookrightarrow X^D$, there to be called the higher *[[Gauß law]]*:
 
 \[\label{GaussLawFromBianchiIdentities}\]
 \begin{imagefromfile}
@@ -974,7 +974,7 @@ This choice breaks the "manifest covariance" of the covariant phase space. Never
 \end{proposition}
 
 \begin{example}
-**(the phase space of electromagnetism)**
+**(Solution- and phase-space of ordinary electromagnetism)**
 \linebreak
 In the case of ordinary vacuum [[electromagnetism]], Prop. \ref{SolutionSpaceViaGaussLaw} applied to the ordinary Maxwell equations from Ex. \ref{MotionOfElectromagneticField} says that the initial value data on a Cauchy surface $X^3$ is given by *independently* specifying magnetic and electric flux densities 
 
@@ -991,15 +991,15 @@ $$
   \,.
 $$
 
-Indeed, the actual [[phase space]] of electromagnetism, after [[Dirac charge quantization]], is well-known (see [there](electromagnetism#ReferencesPhaseSpaceAndPoissonBrackets)) to have as
+Indeed, the actual [[phase space]] of electromagnetism, after introducing a [[gauge potential]], is well-known (see [there](electromagnetism#ReferencesPhaseSpaceAndPoissonBrackets)) to have as
 
 * [[canonical coordinate]] the [[gauge potential]] $A$,
 
 * [[canonical momentum]] the electric flux density $E$.
 
-Thereby $B \,\equiv\, \mathrm{d}A$ is indeed independent from $E$ (and satisfies its Gauß law definitionally, while the Gauß law on $E$ is a phase space [[constrained mechanics|constraint]]).
+Thereby $B \,\equiv\, curv(\widehat{A})$ is indeed independent from $E$ (and satisfies its Gauß law definitionally, while the Gauß law on $E$ is a phase space [[constrained mechanics|constraint]]).
 
-Notice how, thereby, this traditional split of [[initial value data]] into [[canonical coordinates]] and [[canonical momenta]] (whose definition requires assumption and [[variational calculus|variation]] of a [[Lagrangian density]]) is preempted here, under Prop. \ref{SolutionSpaceViaGaussLaw}, already by the pregeometric/duality-symmetric formulation of Maxwell's equations (in Ex. \ref{MotionOfElectromagneticField}), in the sense that the spacetime archetypes of the canonical coordinates and momenta   on a Cauchy surface (the former seen under the differential) are just the ordinary flux density $F_2$ and its "duality partner" $G_2$.
+Notice how, thereby, this traditional split of [[initial value data]] into [[canonical coordinates]] and [[canonical momenta]] (whose definition requires assumption and [[variational calculus|variation]] of a [[Lagrangian density]]) is preempted here, under Prop. \ref{SolutionSpaceViaGaussLaw}, already by the pregeometric/duality-symmetric formulation of Maxwell's equations (in Ex. \ref{MotionOfElectromagneticField}), in the sense that the spacetime archetypes of the canonical coordinates and momenta   on a Cauchy surface (the former seen under the differential) are just the ordinary flux density $F_2$ (since $B = \iota^\ast F_2$) and its "duality partner" $G_2$ (since $E = \iota^\ast G_2$).
 \end{example}
 
 
