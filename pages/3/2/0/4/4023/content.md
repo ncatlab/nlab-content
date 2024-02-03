@@ -30,7 +30,7 @@ Let [[Vect]]${}_k$ be the [[category]] of [[vector space|vector spaces]] over a 
 
 $$sgn_j \colon S_j \to \hom(k, k)$$ 
 
-be the 1-dimensional [[sign representation]] on the [[symmetric group]] $S_j$, taking each transposition $(i j)$ to $-1 \in k^\ast$. We may linearly extend the sign action of $S_j$, so that $sgn$ names a (right) $k S_j$-[[module]] with underlying [[vector space]] $k$. At the same time, $S_j$ acts on the $j^{th}$ [[tensor product]] of a vector space $V$ by permuting tensor factors, giving a left $k S_j$-module structure on $V^{\otimes j}$. We define the [[Schur functor]] 
+be the 1-dimensional [[sign representation]] on the [[symmetric group]] $S_j$, taking each transposition $(i j)$ to $-1 \in k^\times$. We may linearly extend the sign action of $S_j$, so that $sgn$ names a (right) $k S_j$-[[module]] with underlying [[vector space]] $k$. At the same time, $S_j$ acts on the $j^{th}$ [[tensor product]] of a vector space $V$ by permuting tensor factors, giving a left $k S_j$-module structure on $V^{\otimes j}$. We define the [[Schur functor]] 
 
 $$\Lambda^j \colon Vect_k \to Vect_k$$ 
 
