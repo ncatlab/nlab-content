@@ -61,39 +61,19 @@ $$\forall x, Ord(x)\Rightarrow x \leq \omega \vee P(\Omega) \leq x$$
 where $x\leq y$ means $x$ is a [[subquotient]] of $y$, and $Ord(x)$ is a predicate that returns True if and only if $x$ is an [[ordinal]]. This says that no ordinal can be between $\omega$ and $P(\omega)$ in size. 
 In the presence of classical logic and the well-ordering principle, this then implies that no set can have cardinality between $\omega$ and $P(\omega)$.
 
+In [[neutral constructive mathematics]], it is not provable that one has bijections $\mathbb{R} \cong L^\mathbb{N}$ between the [[real numbers]] and any set of sequences of elements of a [[trivial object|non-trivial]] [[distributive lattice|distributive sublattice]] of the [[lattice of truth values]] $L \subseteq \Omega$. In particular, it is not provable that there is a bijection $\mathbb{R} \cong 2^\mathbb{N}$ between the real numbers and [[Cantor space]] or abijection $\mathbb{R} \cong \Omega^\mathbb{N}$ between the real numbers and the [[power set]] of the [[natural numbers]] (cf. [Bauer 2022](#Bauer22)). In addition, there are different notions of the real numbers used in [[constructive mathematics]], such as the [[Cauchy real numbers]], the [[HoTT book real numbers]], the [[Dedekind real numbers]], etc, which cannot in general be proven to coincide. Thus, there are actually different notions of the continuum hypothesis, depending upon whether one uses some notion of the [[real number|real]] [[continuum]] or some non-trivial distributive sublattice $L$ of the lattice of truth values:
 
-### In weakly predicative mathematics
+* Given a notion of [[real number]] $\mathbb{R}$, the **(Cauchy/Dedekind/etc...) real continuum hypothesis** states that if there is a series of monomorphisms such that
 
-[[predicative mathematics|Predicatively]], the power set $\Omega^N$ does not exist, but if function sets exist, then the mathematics is only weakly predicative. Assuming $E$ is a [[Heyting category|Heyting]] [[ΠW-pretopos]], one replaces the subset classifier $\Omega$ in the definition of the [[Dedekind real numbers]] with a [[Sierpinski space|Sierpinski space object]] $\Sigma$ in $Set$, defined as an [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] in $Set$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that
+$$N \hookrightarrow A\hookrightarrow \mathbb{R}$$
 
-$$N \hookrightarrow A\hookrightarrow \Sigma^N$$
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $\mathbb{R} \hookrightarrow A$.
 
-then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $\Sigma^N \hookrightarrow A$.
+* Given a non-trivial distributive sublattice $L \subseteq \Omega$ of the [[lattice of truth values]], the **$L^\mathbb{N}$-continuum hypothesis** states that if there is a series of monomorphisms such that
 
-If the $\Pi W$-pretopos $E$ is [[Boolean category|Boolean]], then it is an elementary topos, the principle of excluded middle is true, and $S$ has two elements and is isomorphic to $\Omega$, so the pretopos is no longer predicative, and this definition reduces to the classical definition. 
+$$N \hookrightarrow A\hookrightarrow L^\mathbb{N}$$
 
-Since $\Sigma$ as defined above is a [[countable]] set, one could replace $\Sigma$ with $N$ itself, as $N$ is also [[countable]]. The continuum hypothesis then becomes that if there is a series of monomorphisms such that 
-
-$$N \hookrightarrow A\hookrightarrow N^N$$
-
-then there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $N^N \hookrightarrow A$.
-
-The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. In constructive mathematics, there is an [[homeomorphism]] between $N^N$ and the set of positive [[irrational numbers]] $J$ through infinite [[continued fractions]]. 
-
-Finally, one could construct the [[unit interval]] [[continuum]] as the [[terminal coalgebra of the endofunctor]] $F(X) = X \times 2 + 1$ on [[Set]], the [[stream]] $2_*$. Since the [[initial algebra]] of the endofunctor $F(X) = X \times 2 + 1$ is the [[free monoid]] $2^*$ and has countable cardinality, the continuum hypothesis then be written as that if there is a series of monomorphisms such that 
-
-$$2^* \hookrightarrow A\hookrightarrow 2_*$$
-
-then there exists a monomorphism $A \hookrightarrow 2^*$ or a monomorphism $2_* \hookrightarrow A$. This last definition is important in situations where [[internal hom-objects]] do not exist in the ambient category, such as in the pretopos [[Set]] of strongly predicative mathematics. 
-
-### In strongly predicative mathematics
-If neither power sets nor function sets exist, such as in a Boolean or Heyting [[pretopos|W-pretopos]], the mathematics is strongly predicative and the cardinality of the continuum is an [[inaccessible cardinal]]. Then, classically, the continuum hypothesis becomes the question of whether there is a cardinal between the inaccessible cardinal $\aleph_0$ and the inaccessible cardinal $\mathfrak{c}$. 
-
-While the set of real numbers could be defined by fiat as the [[terminal object|terminal]] [[archimedean field]] object $R$ in $Set$, its existence has to be included as an axiom of the set theory, after which the continuum hypothesis becomes if there is a series of monomorphisms such that 
-
-$$N \hookrightarrow A\hookrightarrow R$$
-
-then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $R \hookrightarrow A$. One could likewise assert by fiat the existence of free monoids and streams on a finite set, whereby the continuum hypothesis follows from above. 
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $L^\mathbb{N} \hookrightarrow A$.
 
 ## Unprovability
 
@@ -247,6 +227,10 @@ A [[formal proof]] of the independence of the continuum hypothesis from [[ZFC]] 
 published as
 
 * {#HanvanDoorn20} [[Jesse Han|Jesse Michael Han]] and [[Floris van Doorn]],  _A Formal Proof of the Independence of the Continuum Hypothesis_, Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (2020) pp 353–366, doi:[https://doi.org/10.1145/3372885.3373826](https://doi.org/10.1145/3372885.3373826), arXiv:[2102.02901](https://arxiv.org/abs/2102.02901).
+
+For the failure of the continuum to be equivalent to the powerset of the natural numbers in [[constructive mathematics]], see:
+
+* {#Bauer22} [[Andrej Bauer]], *The countable reals* ([video](https://www.youtube.com/watch?v=4CBFUojXoq4)). 
 
 [[!redirects CH]]
 [[!redirects Continuum hypothesis]]
