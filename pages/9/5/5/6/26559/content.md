@@ -997,7 +997,7 @@ Indeed, the actual [[phase space]] of electromagnetism, after introducing a [[ga
 
 * [[canonical momentum]] the electric flux density $E$.
 
-Thereby $B \,\equiv\, curv(\widehat{A})$ is indeed independent from $E$ (and satisfies its Gauß law definitionally, while the Gauß law on $E$ is a phase space [[constrained mechanics|constraint]]).
+Thereby $B \,\equiv\, curv\big(\widehat{A}\big)$ is indeed independent from $E$ (and satisfies its Gauß law definitionally, while the Gauß law on $E$ is a phase space [[constrained mechanics|constraint]]).
 
 Notice how, thereby, this traditional split of [[initial value data]] into [[canonical coordinates]] and [[canonical momenta]] (whose definition requires assumption and [[variational calculus|variation]] of a [[Lagrangian density]]) is preempted here, under Prop. \ref{SolutionSpaceViaGaussLaw}, already by the pregeometric/duality-symmetric formulation of Maxwell's equations (in Ex. \ref{MotionOfElectromagneticField}), in the sense that the spacetime archetypes of the canonical coordinates and momenta   on a Cauchy surface (the former seen under the differential) are just the ordinary flux density $F_2$ (since $B = \iota^\ast F_2$) and its "duality partner" $G_2$ (since $E = \iota^\ast G_2$).
 \end{example}
@@ -1015,13 +1015,13 @@ It is this "decoupling" *on the canonical phase space* of the gravity/metric eff
 ### Qualitative solutions: Brane intersections
  {#BraneIntersectionsImprintedOnFlux}
 
-Prop. \ref{SolutionSpaceViaGaussLaw} implies that on [[globally hyperbolic spacetimes]] the structure of [[on-shell]] flux densities in [[supergravity]] may be analyzed already by solving the (non-linear) [[Gauss law]] (eq:GaussLawFromBianchiIdentities) on any [[Cauchy surface]] and ignoring the coupling to [[gravity]] there (assuming only that there exists at least one gravitational field configuration which solves its [[Einstein equations]] with source terms of this form). Since the same Gauss law also governs the admissible flux quantization laws [below](#FluxQuantizationLaws) we showcase a couple of qualitative solutions to highlight just how much non-trivial (brane-)physics is encoded in these equations.
+Prop. \ref{SolutionSpaceViaGaussLaw} implies that on [[globally hyperbolic spacetimes]] the structure of [[on-shell]] flux densities in [[supergravity]] may be analyzed already by solving the (non-linear) [[Gauss law]] (eq:GaussLawFromBianchiIdentities) for duality-symmetric fluxes on any [[Cauchy surface]] and ignoring the coupling to [[gravity]] there (assuming only that there exists at least one gravitational field configuration which solves its [[Einstein equations]] with source terms of this form). Since the same Gauss law also governs the admissible flux quantization laws [below](#FluxQuantizationLaws) we showcase a couple of qualitative solutions to highlight just how much non-trivial (brane-)physics is encoded in these equations.
 
 \begin{example}\label{D6CreationAndHananyWittenEffect}
 **([[D6-D8 brane bound state|D6/D8-intersections]] and the [[Hanany-Witten effect]])**
 A popular conjecture by [Hanany & Witten 1997](#Hanany-Witten+effect#HananyWitten97) states that the expected $\mathrm{D}_{\!p}$-branes stretching between $\mathrm{NS}_5$ and  $\mathrm{D}_{p+2}$ (cf. [above](#HigherFluxAndItsBranes)) are "created" as the $\mathrm{D}_{\!p+2}$-branes are "dragged over" the $\mathrm{NS}_5$, intuitively like a pole will cause a spike in a rubber sheet that is pulled over its tip. It was suggested by [Marolf 2001 (§2)](Hanany-Witten+effect#Marolf01) that this *[[Hanany-Witten effect]]* should be understandable entirely from analysis of the flux Bianchi identities (eq:GaussLawFromBianchiIdentities). 
 
-For the case of [[D6-D8 brane bound states|NS5/D6/D8-brane intersections]] &lbrack;[Hanany & Zaffaroni 1998 (§2.4)](Hanany-Witten+effect#HananyZaffaroni98); [Bergshoeff, Lozano & Ortin 1998 (p. 60)](Hanany-Witten+effect#BergshoeffLozanoOrtin98) this may be seen as follows (the other cases work analogously):
+For the case of [[D6-D8 brane bound states|NS5/D6/D8-brane intersections]] &lbrack;e.g. [Hanany & Zaffaroni 1998 (§2.4)](Hanany-Witten+effect#HananyZaffaroni98); [Bergshoeff, Lozano & Ortin 1998 (p. 60)](Hanany-Witten+effect#BergshoeffLozanoOrtin98) this may be seen as follows (the other cases work analogously):
 
 Here, by the flux equation (eq:TwistedUnboundedRREquations) 
 \[
