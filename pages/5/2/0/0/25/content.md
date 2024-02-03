@@ -44,7 +44,7 @@ describes the process by which
 
 * The horizontal categorification of [[groups]] are [[groupoids]]: [[category|categories]] in which every morphism is invertible.
 
-* A horizontal categorification of [[algebras]] are _algebroids_: [[enriched category|enriched categories]] in the category of vector spaces. 
+* A horizontal categorification of [[algebras]] are [[algebroids]]: [[enriched category|enriched categories]] in the category of vector spaces. 
 
 * A horizontal categorification of rings are [[ringoid]]s: [[enriched category|enriched categories]] over the category of abelian groups. ([blog](http://golem.ph.utexas.edu/category/2006/09/ringoids.html))
 
