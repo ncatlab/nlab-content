@@ -149,7 +149,7 @@ Metric Spaces_ , PhD University of Ljubljana 2010. ([pdf](http://www.fmf.uni-lj.
 
 * J. Z. Reichman, _Semicontinuous Real Numbers in a Topos_ , JPAA **28** (1983) pp.81-91.
 
-* Guillaume Raynaud, *Fibred Contextual Quantum Physics* ([etheses:1685](https://etheses.bham.ac.uk/id/eprint/1685/), [pdf](https://etheses.bham.ac.uk//id/eprint/1685/1/Raynaud14PhD.pdf))
+* Guillaume Raynaud, *Fibred Contextual Quantum Physics*, PhD thesis, Birmingham  (2014) &lbrack;[etheses:1685](https://etheses.bham.ac.uk/id/eprint/1685/), [pdf](https://etheses.bham.ac.uk//id/eprint/1685/1/Raynaud14PhD.pdf)&rbrack;
 
 See also the following MO-discussion: ([link](http://mathoverflow.net/questions/108029/simplification-in-semi-continuous-real?rq=1))
 
