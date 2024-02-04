@@ -2473,6 +2473,8 @@ $$
 
 =--
 
+In this sense, topological $K$-theory may be regarded as the *stabilization* of the [[unstable K-theory]] groups $[X,BU(n)]$ and $[X,U(n)]$.
+
 There is another variant on the classifying space
 
 +-- {: .num_defn #Uk}
@@ -2689,6 +2691,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
   * [[KR-theory]]
 
   * [[vectorial bundle]]
+
+  * [[unstable K-theory]]
 
 * [[groupoid K-theory]]
 
