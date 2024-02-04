@@ -34,6 +34,32 @@ $$
 ## Properties
  {#Properties}
 
+## Homology
+
++-- {: .num_prop #HomologyAndCohomologyOfQuaternionicProjectiveSpace}
+###### Proposition
+**([[homology]] of quaternionic projective space)**
+
+The [[ordinary homology]] [[homology groups|groups]] of quaternionic projective space $\mathbb{R}P^n$ can be calculated using its CW structure and are given by
+
+\[
+  \label{ListOfHomotopyGroupsOfQuaternionicProjectiveSpace}
+    H^k
+    \big(
+      \mathbb{H}P^n
+    \big)
+    \;=\;
+    \left\{
+    \array{
+       \mathbb{Z} &\vert& \; k = 0, 4,\ldots, 4(n-1),4n
+       \\
+       1 &\vert& otherwise
+    }
+    \right.
+\]
+
+=--
+
 ### As a coset space
 
 
@@ -69,7 +95,9 @@ By the [[coset space]]-realization (eq:SpnCosetSpaceRealization), quaternion pro
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section I.4 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 
-See also 
+See also
+
+* [[Topospaces]], _[Homology of quaternionic projective space](https://topospaces.subwiki.org/wiki/Homology_of_quaternionic_projective_space)_
 
 * Wikipedia, _[Quaternionic projective space](https://en.wikipedia.org/wiki/Quaternionic_projective_space)_
 
