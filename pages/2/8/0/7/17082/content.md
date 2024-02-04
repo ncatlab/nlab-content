@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _lifting property_ is a property of a pair of [[morphism]]s in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
+The _lifting property_ is a property of a pair of [[morphism|morphisms]] in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
 A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples.
 
 {#AsQualitativeNegation} Often it is useful to think of lifting properties as a expressing a kind of qualitative negation ("[[Quillen negation]]"): The morphisms with the left/right lifting property against those in a class $P$ tend to be characterized by properties opposite of those in $P$.
