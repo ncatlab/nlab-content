@@ -2473,7 +2473,9 @@ $$
 
 =--
 
-In this sense, topological $K$-theory may be regarded as the *stabilization* of the [[unstable K-theory]] groups $[X,BU(n)]$ and $[X,U(n)]$.
+\begin{remark}
+In this sense, topological $K$-theory may be regarded as the *stabilization* of the [[unstable topological K-theory]] groups $[X,BU(n)]$ and $[X,U(n)]$.
+\end{remark}
 
 There is another variant on the classifying space
 
