@@ -1216,7 +1216,7 @@ The original articles are
 
 * {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item?id=PMIHES_1977__47__269_0), [pdf](http://archive.numdam.org/article/PMIHES_1977__47__269_0.pdf))
 
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS **179** (1976) &lbrack;[ams:memo-8-179](https://bookstore.ams.org/memo-8-179)&rbrack;
 
 * {#Neisendorfer78} [[Joseph Neisendorfer]], _Lie algebras, coalgebras and rational homotopy theory for nilpotent spaces_, Pacific J. Math. Volume 74, Number 2 (1978), 429-460. ([euclid](http://projecteuclid.org/euclid.pjm/1102810284))
 
