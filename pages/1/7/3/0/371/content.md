@@ -62,7 +62,7 @@ There is also a notion of **zero object** in [[algebra]] which does not always c
 ###### Proposition
 
 
-* The [[category of pointed sets]] has a zero object, namely any one-element set.  
+* The one-point set is the zero object of the [[category of pointed sets]] (denoted $\Set_*$) and of the category of [[pointed topological spaces]] (denoted $\Top_*$), but only the [[terminal object]] of [[Set]] and [[Top]].
 
 * The [[trivial group]] is a zero object in the category [[Grp]] of [[groups]] and in the category [[Ab]] of [[abelian groups]].  
 
