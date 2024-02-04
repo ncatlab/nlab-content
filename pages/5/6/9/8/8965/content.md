@@ -214,6 +214,17 @@ The elimination, computation, and uniqueness rules for the natural numbers type 
 
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).\mathrm{Id}_{C(0)}(c(0), c_0) \times \prod_{x:\mathbb{N}} \mathrm{Id}_{C(s(x))}(c(s(x)), c_s(c(x)))}$$
 
+The dependent universal property of the natural numbers is used to characterize the [[dependent product type]] of an type family $C(x)$ dependent on $x:\mathbb{N}$, and states that the [[fibers]] of the function 
+$$\lambda c.(c(0), \lambda x.c(s(x))):\prod_{x:\mathbb{N}} C(x) \to \left(C(0) \times \prod_{x:\mathbb{N}} C(x) \to C(s(x))\right)$$
+are [[contractible types]]. This is equivalent to saying that the above function is an [[equivalence of types]]:
+
+$$\mathrm{isEquiv}(\lambda c.(c(0), \lambda x.c(s(x))))$$
+
+The non-dependent universal property similarly says that given a type $C$ the function 
+$$\lambda c.(c(0), \lambda x.c(s(x))):(\mathbb{N} \to C) \to \left(C \times (\mathbb{N} \to C \to C)\right)$$
+is an equivalence of types
+$$\mathrm{isEquiv}(\lambda c.(c(0), \lambda x.c(s(x))))$$
+
 ### Generalized induction principle
 
 There is also a generalized induction principle (cf. the talk slides in [LumsdaineShulman17](#LumsdaineShulman17)), which uses a type $C$ and a function $f:C \to \mathbb{N}$ instead of a type family $x:\mathbb{N} \vdash P(x)$, and one uses the [[fiber]] $\sum_{z:C} f(z) =_\mathbb{N} n$ to express the generalized induction principle.
