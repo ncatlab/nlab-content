@@ -33,6 +33,7 @@ Let $X = \prod_{n \to \alpha} X_n$ be an internal set, and let $\mathcal{F}_X$ b
 * [[sigma-algebra]]
 * [[zero-set structure]]
 * [[countably compact space]]
+* [[first countable space]]
 
 ## References
 
