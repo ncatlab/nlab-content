@@ -266,7 +266,7 @@ A discussion of these higher categorical structure in [[representation theory]] 
 
 ### $n$-Representations
 
-If the codomain $Mod$ is not an [[(∞,1)-category]] that is just a [[(n,1)-category]] (all [[k-morphisms]]s for $k \gt n$ are effectively identities) then an $\infty$-representation is called an **$n$-representation**. These are _representations up to homotopy_ where from degree $n$ on all homotopies are actually identities: $n$-[[truncated]] representations up to homotopy.
+If the codomain $Mod$ is  an [[(∞,1)-category]] that is just a [[(n,1)-category]] (all [[k-morphisms]]s for $k \gt n$ are effectively identities) then an $\infty$-representation is called an **$n$-representation**. These are _representations up to homotopy_ where from degree $n$ on all homotopies are actually identities: $n$-[[truncated]] representations up to homotopy.
 
 As always in [[higher category theory]], the cases for low $n$ are more restrictive but typically admit a more tractable detailed analysis and construction.
 
