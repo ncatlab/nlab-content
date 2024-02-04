@@ -34,7 +34,7 @@ $$
 ## Properties
  {#Properties}
 
-## Homology
+### Homology
 
 +-- {: .num_prop #HomologyAndCohomologyOfQuaternionicProjectiveSpace}
 ###### Proposition
