@@ -205,6 +205,10 @@ See [[ETop∞Grpd]].
 
 ## Examples
 
+Examples of *generalized* nonabelian cohomology (with general classifying spaces):
+
+* [[unstable topological K-theory]]
+
 * [[Cohomotopy]]
 
 
