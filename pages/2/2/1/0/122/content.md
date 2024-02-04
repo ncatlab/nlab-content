@@ -205,7 +205,9 @@ But these linear maps are conceptually different from (eq:UnitMapToDoubleDual) i
 \end{example}
 
 \begin{example}
-For a category $C$ its [[category of presheaves]] $Set^{C^op}$ has for objects all functors $C^op \rightarrow  Set$ and for morphisms all natural transformations between those presheaves.  If the objects in that category can be seen as being some type of [[graph]] then its morphisms are graph [[homomorphisms]] which in this case are natural transformations.
+For a category $C$ its [[category of presheaves]] $Set^{C^op}$ has for [[objects]] all [[functors]] $C^op \rightarrow  Set$ (from the [[opposite category]] of $C$ to [[Set]]), also called *[[presheaves]]*, and for [[morphisms]] all natural transformations between these presheaves.  
+
+If the objects of $C$ can be seen as being some type of [[graph]] then its morphisms are graph [[homomorphisms]] which in this case are natural transformations.
 \end{example}
 
 \begin{example}
