@@ -40,6 +40,12 @@ The __character__, tout court, of a space is the [[supremum]] of the characters 
 
 [[!include topology - countability axioms]]
 
+## Related concepts
+
+* [[sigma-topological space]]
+
+* [[sigma-frame]]
+
 
 [[!redirects first-countable space]]
 [[!redirects first-countable spaces]]
