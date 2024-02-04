@@ -1063,7 +1063,7 @@ in (eq:EquationsForHananyWittenEffectForD6D8), hence if $F_2$ vanishes at infini
 \end{example}
 
 \begin{example}
-**([[M2/M5-brane bound state|M2$\perp$M5-brane intersections]] on [[M-strings]])**
+**([[M2/M5-brane bound state|M2$\perp$M5-brane intersections]] on "[[M-strings]]")**
 \linebreak
 Consider the singular loci of two parallel flat [[M5-branes]] at a distance $2d \gt 0$
 
@@ -1078,7 +1078,7 @@ Consider the singular loci of two parallel flat [[M5-branes]] at a distance $2d 
     \big(t,\vec x, (-1)^i d, \vec 0\big)
 \end{tikzcd}
 
-each reflected by unit 4-flux through their sourrounding [[4-spheres]]:
+each reflected by unit 4-flux through their surrounding [[4-spheres]]:
 
 $$
     G_4^{{}^{(i)}}
@@ -1125,12 +1125,13 @@ the [[supergravity C-field|C-field]] Bianchi identity (Ex. \ref{MotionOfSupergra
     \\
     &=&
     - G_4^{(1)} \wedge G_4^{(2)}
+    \,,
   \end{array}
 \]
 
 where the wedge product of the two translated $S^4$-volume forms acts as an effective "[[electric current|electric potential]]" source term.
 
-For illustration purposes we consider a qualitative sketch of  the 2-dimensional analog of this situation, where the 4-forms are replaced by 2-forms:
+For the purpose of illustration we consider a qualitative sketch of  the 2-dimensional analog of this situation, where the 4-forms are replaced by 2-forms:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FluxOfM2M5Intersection.jpg",
@@ -1177,22 +1178,22 @@ This sourced flux concentration (indicated in red) witnesses an [[M2-brane]] str
 
 \end{example}
 
-Notice how in these examples we *chose* integral values for the total source brane fluxes. Next we discuss how such *flux quantization* is systematically added to the higher gauge theory.
+Notice how in these examples we *chose* integral values for the total source brane fluxes. Next we discuss how such *flux quantization* is systematically enforced in the higher gauge theory.
 
 
 
 ## Flux/Charge quantization laws
  {#FluxQuantizationLaws}
 
-With the solution space (Prop. \ref{SolutionSpaceViaGaussLaw}) of higher Maxwell-type equations of motion (Def. \ref{HigherMaxwellEquations}) in hand, the question of flux quantization is to further constrain the [[flux densities]] such that the total fluxes through closed hypersurfaces (notably through [[n-spheres]]) only take certain discrete values.
+With the solution space (Prop. \ref{SolutionSpaceViaGaussLaw}) of higher Maxwell-type equations of motion (Def. \ref{HigherMaxwellEquations}) in hand, the question of flux quantization is to further constrain the [[flux densities]] such that the total fluxes and their total source charges take values in some discrete space.
 
 The technical issue to be resolved here is that:
 
-* this is a *global condition* on the flux densities: The local flux densities may take any value (compatible with the equations of motion) and yet the accumulation of all these local contributions over a hypersurface needs to be constrained;
+* this is a *global condition* on the flux densities: The local flux densities may take any value (compatible with the equations of motion) and yet the total accumulation of all these local contributions needs to be constrained;
 
 * the evident idea of constraining the ordinary [[integration of differential forms|integrals]] of the [[flux densities]] (their "[[periods]]") makes sense only for [[closed differential forms]] and hence does not work for non-linear Bianchi identities (such as those of the [[supergravity C-field|C-field]], Ex. \ref{MotionOfSupergravityCField}, and the B&RR-field, Ex. \ref{MotionOfCoupledBRRFields}).
 
-To solve this, one may first observe that:
+To resolve this, one may first observe that:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-IntegralFlux2.jpg",
