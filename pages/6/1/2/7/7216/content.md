@@ -108,11 +108,22 @@ This is related to but different from the sort of [[dual basis]] applicable gene
 ## Double duals
  {#DoubleDualVectorSpaces}
 
-The __[[double dual]]__ of $V$ is simply the dual of the dual of $V$.  There is a [[natural transformation]] from $V$ to its double dual:
-$$ \hat{x}(\lambda) = \lambda(x) ,$$
-for $x$ in $V$, $\lambda$ in $V^*$, and consequently $\hat{x}$ in $V^{**}$.
+The dual $\big(V^{\ast}\big)^\ast$ of the dual $V^\ast$ of a vector space $V$ is also called its *[[double dual]]*.  
 
-The space $V$ is called __[[reflexive Banach space|reflexive]]__ if this natural transformation is an [[isomorphism]].  The reflexive spaces include all finite-dimensional vector spaces or modules over [[fields]] or [[division rings]], as well as all [[Hilbert spaces]], the [[Lebesgue spaces]] $L^p$ over a [[localizable measure|localisable measure space]] for $1 \lt p \lt \infty$, and others.
+There is a [[natural transformation]] from $V$ to its double dual:
+\begin{tikzcd}[sep=0pt]
+  V \ar[rr] && \big(V^\ast\big)^\ast
+  \\
+  v 
+    &\mapsto& 
+  \big(
+    \omega(-) \mapsto \omega(v)
+  \big)
+\end{tikzcd}
+
+> (In fact, historically this was the motivating example for the notion of natural transformations in the first place, see [there](natural+transformation#UnitOfDoubleDualization))
+
+The space $V$ is called __[[reflexive Banach space|reflexive]]__ if this natural transformation is an [[isomorphism]].  The reflexive spaces include all [[finite-dimensional vector spaces]] (or more generally [[modules]]) over [[fields]] (or more generall [[division rings]]), as well as all [[Hilbert spaces]], the [[Lebesgue spaces]] $L^p$ over a [[localizable measure|localisable measure space]] for $1 \lt p \lt \infty$, and others.
 
 
 ## Dual spaces as dual objects
@@ -216,5 +227,8 @@ Discussion in the context of [[distributions]]:
 [[!redirects linear form]]
 [[!redirects linear forms]]
 
+
+[[!redirects double dual]]
+[[!redirects double duals]]
 
 
