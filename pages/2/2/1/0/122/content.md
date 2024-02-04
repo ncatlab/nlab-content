@@ -27,6 +27,9 @@ Natural transformations are the [[2-morphism]]s in the [[2-category]] [[Cat]].
 
 ### Explicit definition
 
+\begin{definition}
+**(natural transformations)**
+\linebreak
 Given [[categories]] $C$ and $D$ and [[functors]] $F,G \colon C \to D,$ a __natural transformation__ $\alpha \colon F \Rightarrow G$ between them, denoted
 
 \begin{xymatrix}
@@ -42,27 +45,54 @@ Given [[categories]] $C$ and $D$ and [[functors]] $F,G \colon C \to D,$ a __natu
 is an assignment to every [[object]] $x$ in $C$ of a [[morphism]] 
 $\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) such that for any morphism $f:x \to y$ in $C$, the following [[diagram]] [[commuting diagram|commutes]] in $D$:
 
-\begin{centre}
-  \begin{tikzcd}
+\begin{tikzcd}
     F(x) \arrow[r, "F(f)"] \arrow[d, "\alpha_x"'] & F(y) \arrow[d, "\alpha_y"] \\
     G(x) \arrow[r, "G(f)"']                        & G(y)                       
-  \end{tikzcd}
-\end{centre}
+\end{tikzcd}
 
-### Composition
+\end{definition}
 
+\begin{remark}
+**([[composition]] of natural transformations)**
 Natural transformations between functors $C \to D$ and $D \to E$ compose in the obvious way to natural transformations $C \to E$ (this is their [[vertical composition]] in the [[2-category]] [[Cat]])
 and functors $F : C \to D$ with natural transformations between them form the [[functor category]] 
 
-$$
-  [C,D] \in Cat
-$$ 
+\[
+  \label{FunctorCategory}
+  [C,D] \;\in\; Cat
+\] 
 
-The notation alludes to the fact that this makes [[Cat]] a [[closed monoidal category]].  Since $Cat$ is in fact a [[cartesian closed category]], another common notation is $D^C$.  In fact, if we want $Cat$ to be [[cartesian closed category|cartesian closed]], the definition of natural transformation is forced (since an [[adjoint functor]] is unique). This is discussed in [a section below](#InTermsOfCartMon).
+The notation alludes to the fact that this makes [[Cat]] a [[closed monoidal category]].  (Since $Cat$ is in fact a [[cartesian closed category]], another common notation is $D^C$, cf. *[[exponential objects]]*.) 
+
+ In fact, if we want $Cat$ to be [[cartesian closed category|cartesian closed]], the definition of natural transformation is forced (since an [[adjoint functor]] is unique). This is discussed in [a section below](#InTermsOfCartMon).
 
 There is also a [[horizontal composition]] of natural transformations, which makes [[Cat]] a [[2-category]]: the [[Godement product]]. See there for details. 
 
 In fact, [[Cat]] is a 2-category (a $Cat$-enriched category) _because_ it is (cartesian) closed: closed monoidal categories are automatically enriched over themselves, via their [[internal hom]].
+\end{remark}
+
+\begin{remark}\label{CategoryOfPresheaves}
+**([[categories of presheaves]])**
+  \linebreak
+  The [[functor categories]]  (eq:FunctorCategory) are also called *[[categories of presheaves]]*, in particular if they are of the form
+$$
+  PSh(C) \,\coloneqq\, [C^{op}, Set]
+  \,,
+$$
+hence if they are categories whose 
+
+* [[objects]] are [[functors]] out of the [[opposite category]] of a given category $C$ into the category [[Set]] of [[sets]] and [[functions]]
+
+* [[morphisms]] are natural transformations between these.
+
+Similarly, functor categories of the form
+$$
+  CPSh(C) \,\coloneqq\, [C, Set]
+$$
+are also called *[[categories of copresheaves]]*.
+
+\end{remark}
+
 
 ### In terms of morphismwise components
 {#morphismwiseDefn}
@@ -205,12 +235,6 @@ But these linear maps are conceptually different from (eq:UnitMapToDoubleDual) i
 \end{example}
 
 \begin{example}
-For a category $C$ its [[category of presheaves]] $Set^{C^op}$ has for [[objects]] all [[functors]] $C^op \rightarrow  Set$ (from the [[opposite category]] of $C$ to [[Set]]), also called *[[presheaves]]*, and for [[morphisms]] all natural transformations between these presheaves.  
-
-If the objects of $C$ can be seen as being some type of [[graph]] then its morphisms are graph [[homomorphisms]] which in this case are natural transformations.
-\end{example}
-
-\begin{example}
 The [[determinant]] is a natural transformation $det\colon GL_n\rightarrow (-)^\times$ from the [[general linear group]] to the [[group of units]] of a [[ring]], which are both functors from [[Ring]] to [[Grp]].
 \end{example}
 
@@ -219,53 +243,30 @@ The [[Frobenius homomorphism]] is a natural transformation $Frob_p\colon Id_{Rin
 \end{example}
 
 \begin{example}
-The [[Hurewicz homomorphism]] is a natural transformation $h_n\colon\pi_n\Rightarrow H_n(-;\mathbb{Z})$ from the [[homotopy group]] to [[singular homology]], which are both functors from [[Top]] to $Grp$.
+The [[Hurewicz homomorphism]] is a natural transformation $h_n\colon\pi_n\Rightarrow H_n(-;\mathbb{Z})$ from the [[homotopy group]] to [[singular homology]], which are both functors from [[Top]] to [[Grp]].
 \end{example}
 
 \begin{example}
-The inversion $G\rightarrow G^{op},g\mapsto g^{-1}$ for every [[group]] $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{op}$ from the [[identity functor]] on $Grp$ to the [[opposite group]] functor.
+The [[inverse element|inversion]] $G \rightarrow G^{op},g\mapsto g^{-1}$ for every [[group]] $G$ yields a natural transformation $\Id_{Grp}\Rightarrow (-)^{op}$ from the [[identity functor]] on [[Grp]] to the [[opposite group]]-assigning functor.
 \end{example}
 
 \begin{example}
-The projection $G\rightarrow G^{ab},g\mapsto[g]$ for every group $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{ab}$ from the [[identity functor]] on $Grp$ to the [[abelianization]] functor. 
+The [[coprojection]] $G\rightarrow G^{ab},g\mapsto[g]$ for every group $G$ yields a natural transformation $\Id_{Grp}\Rightarrow -^{ab}$ from the [[identity functor]] on $Grp$ to the [[abelianization]] functor. 
 \end{example}
 
-## Properties ##
+\begin{example}\label{HomomorphismsOfDiagrams}
+**(homomorphisms of diagrams)**
+\linebreak
+By Remark \ref{CategoryOfPresheaves}, every category identified with a [[category of presheaves]] or [[copresheaves]] has its morphisms identified with natural transformations.
 
-The following properties come from the [[HoTT book]]. 
-
-It follows that the type of [[natural transformations]] from $F$ to $G$ is a set.
-
-### Composites with functors ###
-For [[functors]] $F : A \to B$ and $G,H : B  \to C$ and a natural transformation $\gamma : G \to H$, the composite $(\gamma F) : G F \to H F$ is given by
-
-* For each $a:A$, the component $\gamma_{F a}$.
-
-Naturality is easy to check. Similarly, for $\gamma$ as above and $K : C \to D$, the composite $(K \gamma): K G \to K H$ is given by
-
-* For each $b: B$, the component $K(\gamma_b)$.
+For instance, the category of [[directed graphs]] ([[digraphs]]) may be identified with the category of [[copresheaves]] on the [[diagram]] shape $\big\{ V \rightrightarrows E\big\}$, and under this identification the natural transformations between functors $\big\{ V \rightrightarrows E \big\} \longrightarrow Set$ are identified with [[digraph]] [[homomorphisms]].
+\end{example}
 
 
-### Lemma 9.2.8 in the HoTT book ###
-For [[functors]] $F,G: A\to B$ and $H,K: B \to C$ and natural transformations $\gamma : F \to G$ and $\delta : H \to K$, we have
-
-$$(\delta G)(H \gamma) = (K \gamma) (\delta F).$$
-
-**Proof.** It suffices to check componentwise: at $a:A$ we have
-
-$$
-\begin{aligned}
-  ((\delta G)(H \gamma))_a &\equiv (\delta G)_a (H \gamma)_a \\
-  &\equiv \delta_{G a} \circ H(\gamma_a)\\
-  &= K(\gamma_a) \circ \delta_{F a} \qquad (by\ naturality\ of\ \delta) \\ 
-  &\equiv (K \gamma)_a \circ (\delta F)_a\\
-  &\equiv ((K \gamma)(\delta F))_a.\ \square
-\end{aligned}
-$$
 
 ## Variations
 
-For functors between [[n-category|higher categories]], see [[lax natural transformation]] etc.
+For functors between [[n-category|higher categories]], see *[[lax natural transformation]]* etc.
 
 A transformation which is natural only relative to [[isomorphisms]] may be called a [[core-natural transformation|canonical transformation]].
 
