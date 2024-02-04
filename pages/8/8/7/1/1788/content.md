@@ -1,4 +1,6 @@
 
+[[GeomPhys-DeformationPathOfFluxDensities-240204.jpg:file]]
+
 [[GeomPhys-RationalizingHomotopyGroups-240204.jpg:file]]
 
 [[GeomPhys-CauchyEvolutionOfGaussLawData-240204.jpg:file]]
