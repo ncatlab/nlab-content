@@ -1458,7 +1458,7 @@ this perspective: They are the [[dg-algebra]] [[homomorphism]] from  their CE-al
   \,.
 \]
 
-Namely, a graded algebra homomorphism from a CE-algebra picks differential forms $\vec B$ for the algebra generators $\vec b$, and its respect for the differentials imposes on these differential forms exactly the closure/flatness condition:
+Namely, a graded algebra homomorphism from a [[Chevalley-Eilenberg algebra|CE-algebra]] sends the algebra generators $\vec b$ to differential forms $\vec B$, and its respect for the differentials imposes on these differential forms exactly the closure/flatness condition:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-MCConditionAsDGAlgHomomorphy.jpg",
@@ -1546,7 +1546,7 @@ $$
 
 An element here is a pair $(B,E)$, where 
 
-1. the magnetic flux density is, locally on a [[chart]] $U \hookrightarrow X^3$, the differential $B\vert_U = \mathrm{d}A_U$ of the [[canonical coordinate]] 1-form $A$,
+1. the magnetic flux density is the curvature $B = \mathrm{curv}\big(\widehat A\big)$ of the gauge potential which plays the role of the "[[canonical coordinate]]" on the field space;
 
 1. the electric flux density $E$ serves as the [[canonical momentum]].
   
@@ -1559,7 +1559,7 @@ We should, therefore, regard as the *total flux* that aspect of the [[flux densi
 But since the [[Gauss law]] is (by Prop. \ref{SolutionSpaceViaGaussLaw}) nothing but the [[pullback of differential forms|restriction]] to the Cauchy surface of the [[Bianchi identities]] (on the duality-symmetric flux densities of Def. \ref{HigherMaxwellEquations}), the argument of Prop. \ref{SolutionsAsFlatForms} shows that this invariant aspect is the [[equivalence classes]] of flux densities under *[[concordance]]*:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-CauchyEvolutionOfGaussLawData.jpg",
+    "file_name": "GeomPhys-CauchyEvolutionOfGaussLawData-240204.jpg",
     "width": 760,
     "unit": "px",
     "margin": {
@@ -1622,21 +1622,9 @@ $$
 $$
 \end{definition}
 
-For comparison to the flux quantization rules discussed [below](#FluxQuantizationLawsAsNonabelianCohomology)
-it is useful to understand this equivalently &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack; as the set of dg-homotopy classes of the corresponding dgc-homomorphisms:
-
-\begin{imagefromfile}
-    "file_name": "GeomPhys-NonabDeRhamAsHomotopyClasses-240129b.jpg",
-    "width": 760,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 0
-    }
-\end{imagefromfile}
-
+\begin{remark}
+**(flux conservation)**
+\linebreak
 \begin{imagefromfile}
     "file_name": "GeomPhys-TotalFluxInNonabDeRhamCohom-240129.jpg",
     "float": "right",
@@ -1650,28 +1638,48 @@ it is useful to understand this equivalently &lbrack;[FSS23-Char, Thm. 6.5](#FSS
     }
 \end{imagefromfile}
 
-
 Regarding the image of flux densities in non-abelian de Rham cohomology as expressing their *total flux*
 it follows immediately that:
 
-$\;\;\;\;\;$*Total flux is preserved under time evolution.* 
+$\;\;\;\;\;$*Total flux is conserved under time evolution.* 
+
+\end{remark}
+
+\linebreak
+
+\begin{remark}
+**(nonabelian de Rham cohomology as dg-homotopy classes)**
+\linebreak
+For comparison to the flux quantization rules discussed [below](#FluxQuantizationLawsAsNonabelianCohomology)
+it is useful to understand this equivalently &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack; as the set of dg-homotopy classes of the corresponding dgc-homomorphisms:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-NonabDeRhamAsHomotopyClasses-240129b.jpg",
+    "width": 680,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+\end{remark}
 
 \linebreak
 
 \begin{example}
 ([FSS23-Char, Prop. 6.4](#FSS23))
 \linebreak
-  In the case of ordinary electromagnetism and abelian higher gauge fields, hence for $\mathfrak{a} = b^n \mathfrak{u}(1)$ the [[line Lie n-algebra]], Def. \ref{NonabelianDeRhamCohomology} reduces to the ordinary notions:
+  In the case of ordinary electromagnetism and abelian higher gauge fields, hence for $\mathfrak{a} = b^n \mathfrak{u}(1)$ the [[line Lie n-algebra|line Lie $(n+1)$-algebra]], Def. \ref{NonabelianDeRhamCohomology} reduces to the ordinary notions:
 
-1. $\Omega^1_{dR}\big(X^d; b^n\mathbb{R}\big)_{clsd} \,\simeq\, \Omega^{n+1}(X^d)_{clsd}$
-
-   are ordinary [[closed differential forms]];
+1. $\Omega^1_{dR}\big(X^d; b^n\mathbb{R}\big)_{clsd} \,\simeq\, \Omega^{n+1}(X^d)_{clsd}$ are ordinary [[closed differential forms]];
 
 1. [[concordance]] between these is the [[coboundary]] relation in the ordinary [[de Rham complex]];
 
-1. $H^1_{dR}\big(X^d;\, b^n \mathbb{R}\big) \,\simeq\, H^{n+1}_{dR}\big(X^d\big)$
-
-   is ordinary [[de Rham cohomology]].
+1. $H^1_{dR}\big(X^d;\, b^n \mathbb{R}\big) \,\simeq\, H^{n+1}_{dR}\big(X^d\big)$ is ordinary [[de Rham cohomology]].
 
 and since the latter also gives the [[periods]] of closed differential forms, this recovers indeed the usual notion of total (integrated) flux.
 
@@ -1730,13 +1738,13 @@ With [[on-shell]] flux densities thus understood as cocycles in [[nonabelian de 
 ### Flux quantization laws as Nonabelian cohomology
  {#FluxQuantizationLawsAsNonabelianCohomology}
 
-We explain how the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of the previous subsection receives *character maps* from generalized [[nonabelian cohomology]] theories whose [[classifying spaces]] $\mathcal{A}$ have compatible rational [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ --- whence $\mathcal{A}$ encodes a flux quantization law for Bianchi identities characterized by $\mathfrak{a}$, and lifting through the $\mathfrak{A}$-character map corresponds to choices of *charge quanta* which source given total flux.
+We explain how the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of the previous subsection receives *character maps* from generalized [[nonabelian cohomology]] theories whose [[classifying spaces]] $\mathcal{A}$ have compatible rational [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ --- whence $\mathcal{A}$ encodes a flux quantization law for Bianchi identities characterized by $\mathfrak{a}$, and lifting through the $\mathcal{A}$-character map corresponds to choices of *charge quanta* which source given total flux.
 
 \linebreak
 
 {#ClassifyingSpacesForGeneralizedCohomology}
 **Classifying spaces for generalized cohomology.**
-It is a classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated even in [[mathematical physics]] -- that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
+It is a classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated in [[mathematical physics]] -- that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
 
 
 The archetypical examples are *[[Eilenberg-MacLane spaces]]* like $K(\mathbb{Z},n)$ which classify [[ordinary cohomology]] such as [[integral cohomology]], in any degree $n$. 
@@ -1761,11 +1769,11 @@ This implies that each $E_n$ is an [[infinite-loop space]], which makes them be 
 
 The maybe most familiar example of such *abelian* generalized cohomology is [[topological K-theory]], whose classifying space [[KU|$KU_0$]] may be identified with the space of [[Fredholm operators]] on an infinite-dimensional [[separable]] [[complex vector space|complex]] [[Hilbert space]].
 
-While [[Whitehead-generalized cohomology theory]] has received so much attention that it is now widely understood as the default and even the exclusive meaning of "generalized cohomology", historically long preceding it is the [[nonabelian cohomology]] of [[Chern-Weil theory]], classified by the original [[classifying spaces]] $B G$ of [[compact Lie groups]] $G$. 
+While [[Whitehead-generalized cohomology theory]] has received so much attention that it is now widely understood as the default or even the exclusive meaning of "generalized cohomology", historically long preceding it is the [[nonabelian cohomology]] of [[Chern-Weil theory]], classified by the original [[classifying spaces]] $B G$ of [[compact Lie groups]] $G$. 
 
-Unless $G$ happens to be [[abelian group|abelian]] itself, this [[nonabelian cohomology]] does not assign abelian [[cohomology groups]], not even any groups at all, but just *[[pointed set|pointed]] cohomology sets*. Nevertheless, as the historical name "nonabelian cohomology" clearly indicates, these systems of cohomology sets may usefully be regarded as constituting a kind of cohomology theory, too.
+Unless $G$ happens to be [[abelian group|abelian]] itself, this [[nonabelian cohomology]] does not assign abelian [[cohomology groups]], nor even any groups at all, but just *[[pointed set|pointed]] cohomology sets*. Nevertheless, as the historical name "nonabelian cohomology" clearly indicates, these systems of cohomology sets may usefully be regarded as constituting a kind of cohomology theory, too.
 
-In this vein &lbrack;[FSS23-Char, §2](#FSS23)&rbrack; one may observe  that (the [[homotopy type]] of) *every* connected space $\mathcal{A}$ is equivalently the [[classifying space]] of an [[infinity-group]] $\Omega \mathcal{A}$, namely of its own [[loop space]] regarded as an [[A-infinity space|$A_\infty$-space]] under concatenation of loops), so that homotopy classes of maps into *any* connected space are examples of an evident generalization of Chern-Weil-style [[nonabelian cohomology]].
+In this vein one may observe &lbrack;[FSS23-Char, §2](#FSS23)&rbrack; that (the [[homotopy type]] of) *every* connected space $\mathcal{A}$ is equivalently the [[classifying space]] of an [[infinity-group]] $\Omega \mathcal{A}$, namely of its own [[loop space]] regarded as an [[A-infinity space|$A_\infty$-space]] under concatenation of loops), so that homotopy classes of maps into *any* connected space are examples of an evident generalization of Chern-Weil-style [[nonabelian cohomology]].
 
 A fundamental and historical example of such "truly-generalized" [[nonabelian cohomology]] is *[[Cohomotopy|CoHomotopy]]*,
 whose classifying spaces are the ([[homotopy type|homotopy types]]) of [[spheres]].
@@ -1803,9 +1811,7 @@ Moreover, it is classical that, over smooth manifolds, reasonable cohomology the
     }
 \end{imagefromfile}
 
-The nonabelian character in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], is due to &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;, constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]].
-
-We next survey how this works. 
+The nonabelian character in the generality of generalized non-abelian cohomology, such as [[Cohomotopy|CoHomotopy]], is due to &lbrack;[FSS23-Char, Def. IV.2](#FSS23)&rbrack;, constructed via the [[fundamental theorem of dg-algebraic rational homotopy theory]]. We next survey how this works. 
 
 The key point is that [[rational homotopy theory]] characterizes the non-[[torsion subgroup|torsion]] content of (the [[homotopy type]] of) a (classifying) space by an [[L-infinity algebra|$L_\infty$-algebra]]-approximation $\mathfrak{l}\mathcal{A}$ to its [[loop space]] [[infinity-group|$\infty$-group]] $\Omega \mathcal{A}$.
 
@@ -1816,9 +1822,9 @@ The key point is that [[rational homotopy theory]] characterizes the non-[[torsi
 
 For a [[topological space]] $\mathcal{A}$ which is
 
-1. [[simply connected topological space|simply connected]]: $\pi_0(i) = \ast$,\; $\pi_1(i) = 1$,
+1. [[simply connected topological space|simply connected]]: $\pi_0(\mathcal{A}) = \ast$ and $\pi_1(\mathcal{A}) = 1$;
 
-1. of rational [[finite type]]: $\mathrm{dim}_{\mathbb{Q}}\big(H^n(\mathcal{A}; \mathbb{Q})\big) \lt \infty$.
+1. of [[rational cohomology|rational]] [[finite type]]: $\mathrm{dim}_{\mathbb{Q}}\big(H^n(\mathcal{A}; \mathbb{Q})\big) \lt \infty$;
 
 there is a polynomial dgc-algebra over $\mathbb{R}$, unique up to dga-[[isomorphism]], whose
 
@@ -1859,7 +1865,7 @@ there is a polynomial dgc-algebra over $\mathbb{R}$, unique up to dga-[[isomorph
 
 \end{proposition}
 This [[dgc-algebra]] is known as the [[minimal model|minimal]] **[[Sullivan model]]** of $\mathcal{A}$.
-By (eq:FinTypeLInfinityAlgebrasAsDGCAlgebras) it is the [[Chevalley-Eilenberg algebra]] of an [[L-infinity algebra|$L_\infinity$-algebra]] (essentially the "Quillen model"): The [[Whitehead bracket]] algebra structure on the $\mathbb{R}$-rational [[homotopy groups]] of the [[loop space]]
+By (eq:FinTypeLInfinityAlgebrasAsDGCAlgebras) it is the [[Chevalley-Eilenberg algebra]] of an [[L-infinity algebra|$L_\infinity$-algebra]] which we denote by $\mathfrak{l}\mathcal{A}$ (essentially the "Quillen model"): The [[Whitehead bracket]] algebra structure on the $\mathbb{R}$-rational [[homotopy groups]] of the [[loop space]]
 
 \[
  \label{WhiteheadLInfinityAlgebra}
@@ -1900,7 +1906,7 @@ Some examples for how to use Prop. \ref{SullivanTheorem} to compute [[Sullivan m
     }
 \end{imagefromfile}
 
-Many of the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] of familar spaces do not have established names as [[L-infinity algebras|$L_\infty$-algebras]]. An interesting exception is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] of the [[4-sphere]], which happens to coincide with what in [[D=11 supergravity]]-theory is known (quite independently) as the  *gauge algebra of the C-field* &lbrack;[Cremmer, Julia, Lu & Pope 1998, (2.6)](#CremmerJuliaLuPope98); [Sati 2010, §4](#Sati10); [Sati & Voronov 2022, (13)](#SatiVoronov22)&rbrack; (see more references [there](D=11+N=1+supergravity#ReferencesCFieldGaugeAlgebra)):
+Many of the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] of familar spaces do not have established names as [[L-infinity algebras|$L_\infty$-algebras]]. An interesting exception is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] of the [[4-sphere]], which happens to coincide with what in [[D=11 supergravity]]-theory is known (quite independently) as the  *gauge algebra of the C-field* &lbrack;[Cremmer, Julia, Lu & Pope 1998, (2.6)](#CremmerJuliaLuPope98); [Sati 2010, §4](#Sati10); [Sati & Voronov 2022, (13)](#SatiVoronov22)&rbrack; (see more references [there](D=11+N=1+supergravity#ReferencesCFieldGaugeAlgebra)):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-CFieldGaugeAlgebraAsWhiteheadBracket.jpg",
@@ -1919,7 +1925,7 @@ Many of the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] of fa
 \linebreak
 As stated so far, the ubiquituous prefactor $-\tfrac{1}{2}$ is pure convention, due to the freedom of rescaling generators by rational (or even real) numbers while retaining dga-isomorphy. However, this factor is fixed by requiring certain integrality properties of the generators, see [FSS21-HopfWZ, Prop. 4.6](#FSS21WZ). 
 
-This becomes relevant when regarding the lift back from $\mathfrak{l}S^4$ to $\mathcal{A} \equiv S^4$ as a [[flux quantization]], law, because then it implies that the C-field flux densities $G_4$ and $G_7$ in the image of the normalized generators $\omega_4$ and $\omega_7$ satisfy expected integrality conditions &lbrack;[FSS21-HopfWZ, Thm. 4.8](#FSS21WZ)&rbrack;. We discuss this further [below](#CFieldFluxQuantizationIn10d).
+This becomes relevant when regarding the lift back from $\mathfrak{l}S^4$ to $\mathcal{A} \equiv S^4$ as a [[flux quantization]] law, because then it implies that the C-field flux densities $G_4$ and $G_7$ in the image of the normalized generators $\omega_4$ and $\omega_7$ satisfy expected integrality conditions &lbrack;[FSS21-HopfWZ, Thm. 4.8](#FSS21WZ)&rbrack;. We discuss this further [below](#CFieldFluxQuantizationIn10d).
 \end{remark}
 
 \linebreak
@@ -1927,7 +1933,7 @@ This becomes relevant when regarding the lift back from $\mathfrak{l}S^4$ to $\m
 
 **Rational homotopy theory: Discrading torsion in nonabelian cohomology.**
 From the perspective ([above](#ClassifyingSpacesForGeneralizedCohomology)) that any topological space $\mathcal{A}$ serves as the *classifying space* of a generalized [[nonabelian cohomology theory]],
-the idea of [[rational homotopy theory]] (survey in [Hess 2006](rational+homotopy+theory#Hess06), [FSS23-Char, §4](#FSS23)) becomes that of extracting the non-[[torsion subgroup|torsion]] content of such a cohomology theory, which we will see is that shadow of it which, over [[smooth manifolds]], is reflected in the [[non-abelian de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology}) of $\mathfrak{l}\mathcal{A}$-valued differential forms.
+the idea of [[rational homotopy theory]] (survey in [Hess 2006](rational+homotopy+theory#Hess06); [FSS23-Char, §4](#FSS23)) becomes that of extracting the non-[[torsion subgroup|torsion]] content of such a cohomology theory, which we will see is, over [[smooth manifolds]], that shadow of it that is reflected in the [[non-abelian de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology}) of $\mathfrak{l}\mathcal{A}$-valued differential forms.
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-HomotopyToCohomology.jpg",
@@ -1943,7 +1949,7 @@ the idea of [[rational homotopy theory]] (survey in [Hess 2006](rational+homotop
 
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-RationalizingHomotopyGroups.jpg",
+    "file_name": "GeomPhys-RationalizingHomotopyGroups-240204.jpg",
     "width": 900,
     "unit": "px",
     "margin": {
@@ -1956,12 +1962,13 @@ the idea of [[rational homotopy theory]] (survey in [Hess 2006](rational+homotop
 
 Hence to have a classifying space for the non-torsion part of $\mathcal{A}$-cohomology means to ask for:
 
+\[\label{RationalizationOfASpace}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-RationalizationOfASpace.jpg",
     "width": 650,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
@@ -1986,10 +1993,10 @@ We may regard this as the archetype of a *character map* and ask for its general
 
 \linebreak
 
-**The Fundamental Theorem of dg-Algebraic Rational Homotopy Theory}** (review in [FSS23-Char, Prop. 5.6](#FSS23))
-says that the [[homotopy theory]] of [[rational spaces]] ([[simply-connected topological space|simply-connected]] with [[finite-dimensional vector space|fin-dim]] [[rational cohomology]]) is all encoded by their  [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (eq:WhiteheadLInfinityAlgebra) over the [[rational numbers]].
+**The Fundamental Theorem of dg-Algebraic Rational Homotopy Theory** (review in [FSS23-Char, Prop. 5.6](#FSS23))
+says that the [[homotopy theory]] of [[rational spaces]] ([[simply-connected topological space|simply-connected]] with [[finite-dimensional vector space|fin-dim]] [[rational cohomology]]) is all encoded by their  [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebras]] (eq:WhiteheadLInfinityAlgebra) over the [[rational numbers]].
 
-In particular, for $X$ a [[CW-complex]] one gets
+In particular, for $X$ a [[CW-complex]], the [[homotopy classes]] of [[maps]] into the [[rationalization]] $L^{\mathbb{Q}}\mathcal{A}$ (eq:RationalizationOfASpace) of a space $\mathcal{A}$ is identified with dg-homotopy classes of  homomorphisms from the rational [[Sullivan model]] of $\mathcal{A}$ to the "[[PL de Rham complex|piecewise polynomial de Rham complex]]" of the topological space $X$:
 
 \[\label{FundamentalTheoremOfRHT}\]
 \begin{tikzcd}
@@ -2013,9 +2020,8 @@ In particular, for $X$ a [[CW-complex]] one gets
   }
 \end{tikzcd}
 
-where on the right we have something called the "[[PL de Rham complex|piecewise linear de Rham complex]]" of the topological space $X$.
 
-Notice that the right-hand side looks close to the definition of [[nonabelian de Rham cohomology|$\mathfrak{l}\mathcal{A}$-valued de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology}). In order to actually connect to such smooth differential forms, we need to extend the scalars from the [[rational numbers]] to the [[real numbers]]:
+Observing that the right-hand side looks close to the definition of [[nonabelian de Rham cohomology|$\mathfrak{l}\mathcal{A}$-valued de Rham cohomology]] (Def. \ref{NonabelianDeRhamCohomology}), in order to actually connect to such smooth differential forms one needs to extend the [[ground field]] scalars from the [[rational numbers]] to the [[real numbers]]:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-RealRationalizationOfASpace.jpg",
@@ -2030,8 +2036,8 @@ Notice that the right-hand side looks close to the definition of [[nonabelian de
     }
 \end{imagefromfile}
 
-$\;\;$**Rational homotopy theory over the Reals.** &lbrack;[FSS23-Char, Def. 5.7, Rem. 5.2](#FSS23)&rbrack;
-The construction (eq:FundamentalTheoremOfRHT) also works over $\mathbb{R}$ (but is then not a "[[localization of spaces|localization]]") to give the $\mathbb{R}$-rationalization &lbrack;[FSS23-Char, Def. 5.7, Prop. 5.8](#FSS23)&rbrack;:
+$\;\;$**Rational homotopy theory over the Reals.** &lbrack;[Bousfield & Gugenheim 1976](rational+homotopy+theory#BousfieldGugenheim76); reviewed in [FSS23-Char, Def. 5.7, Rem. 5.2, Prop. 5.8](#FSS23)&rbrack;
+The construction (eq:RationalizationOfASpace) also works over $\mathbb{R}$ (but is then not a "[[localization of spaces|localization]]") to give the *$\mathbb{R}$-rationalization*.
 
 With this "[[derived functor|derived]] [[extension of scalars]]" &lbrack;[FSS23-Char, Lem 5.3](#FSS23)&rbrack; and for $X$ a smooth manifold,  the fundamental theorem (eq:FundamentalTheoremOfRHT) does relate to smooth differential forms &lbrack;[FSS23-Char, Lem. 6.4](#FSS23)&rbrack; via a **[[non-abelian de Rham theorem]]** &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack;:
 
@@ -2050,7 +2056,7 @@ With this "[[derived functor|derived]] [[extension of scalars]]" &lbrack;[FSS23-
 
 
 **In abelian (ie. Whitehead-generalized) cohomology** theories both the rationalization step and the subsequent extension of scalars to $\mathbb{R}$  can be more easily described as forming the [[smash product]] of the [[coefficient]] [[spectrum]] with the rational [[Eilenberg-MacLane spectrum]] $H\mathbb{R}$ &lbrack;[FSS23-Char, Ex. 5.7](#FSS23)&rbrack;. 
-This is how the *[[Chern-Dold character]]* map over $\mathbb{R}$ is tacitly used  in all the literature on abelian ([[Whitehead-generalized cohomology|Whitehead-generalized]]) [[differential cohomology]] theory (e.g. [Bunke & Nikolaus 2014, Def. 4.2](twisted+differential+cohomology#BunkeNikolaus14)
+This is how the *[[Chern-Dold character]]* map over $\mathbb{R}$ is tacitly used  in all the literature on abelian ([[Whitehead-generalized cohomology|Whitehead-generalized]]) [[differential cohomology]] theory (e.g. [Bunke & Nikolaus 2014, Def. 4.2](twisted+differential+cohomology#BunkeNikolaus14)):
 
 \[\label{RealificationOfSpectra}\]
 \begin{imagefromfile}
@@ -2058,7 +2064,7 @@ This is how the *[[Chern-Dold character]]* map over $\mathbb{R}$ is tacitly used
     "width": 530,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 0
@@ -2169,7 +2175,7 @@ Recall that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[con
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-DeformationPathOfFluxDensities.jpg",
-    "width": 300,
+    "width": 210,
     "unit": "px",
     "margin": {
         "top": -30,
