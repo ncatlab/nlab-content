@@ -1296,7 +1296,9 @@ We explain how higher [[Bianchi identities]] (eq:EqHigherMaxwellEquations) and t
 
 The notion of $L_\infty$- or *strong homotopy Lie algebra*  is finally becoming more widely appreciated in physics, where they appear in various guises (see the references [there](L-infinity-algebra#ReferencesInPhysics)).
 Here we are concerned with  $L_\infty$-algebras
-which are (i) [[nilpotent L-infinity algebra|nilpotent]], (ii) [[connective chain complex|connective]] (iii) of [[finite type]], in their *joint* incarnation as higher [[flux density]] [[coefficients]] *and* as [[Whitehead L-infinity algebra|higher Whitehead brackets]] (all to be explained in a moment), which one might refer to as the
+which are (i) [[nilpotent L-infinity algebra|nilpotent]], (ii) [[connective chain complex|connective]] (iii) of [[finite type]], in their *joint* incarnation as higher [[flux density]] [[coefficients]] *and* as [[Whitehead L-infinity algebra|higher Whitehead brackets]] (all to be explained in a moment), which one might refer to as the 
+
+**Flux Homotopy Lie algebra triality.**
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FluxHomotopyLieTriality.jpg",
@@ -1311,14 +1313,12 @@ which are (i) [[nilpotent L-infinity algebra|nilpotent]], (ii) [[connective chai
     }
 \end{imagefromfile}
 
-**Flux Homotopy Lie algebra triality**, indicated on the right. Classically familiar as many of its separate aspects are to their respective experts, the full triality may still not be widely appreciated but is key to our discussion here:
-
 $\bullet$ With *[[rational homotopy theory|rational homotopy]]* we are referring here specifically the *[[fundamental theorem of dg-algebraic rational homotopy theory]]*, mainly due to Quillen, Sullivan and Bousfield & Gugenheim, as reviewed in [FSS23-Char, §5](#FSS23), 
 
 $\bullet$ by the *[[D'Auria-Fre formulation of supergravity|FDA method in supregravity]]* we are referring, with some hindsight, to the observations of [van Nieuwenhuizen 1983](D'Auria-Fre+formulation+of+supergravity#Nieuwenhuizen82); [D
 Auria & Fré 1982](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82); [Castellani, D'Auria & Fré](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre), as explained in [FSS13](geometry+of+physics+--+fundamental+super+p-branes#FSS13), [FSS18](geometry+of+physics+--+fundamental+super+p-branes#FSS16b),[HSS19](geometry+of+physics+--+fundamental+super+p-branes#HSS19), reviewed in [FSS19-$\mathbb{Q}$Struc](#FSS19HigherStruc).
 
-$\bullet$ The *[[Chern-Dold character|nonabelian character]]* is the generalization of the [[Chern-Dold character]] map from [[topological K-theory]] and [[Whitehead-generalized cohomology]] to higher [[non-abelian cohomology]], constructed in [FSS23-Char](#FSS23).
+$\bullet$ The *[[Chern-Dold character|nonabelian character]]* is the generalization of the [[Chern-Dold character]] map from [[topological K-theory]] and [[Whitehead-generalized cohomology]] to generalized [[non-abelian cohomology]], constructed in [FSS23-Char](#FSS23).
 
 In particular, this means that $L_\infty$-algebras as used here are *not* directly to be understood as generalizations of the gauge Lie algebras familiar from Yang-Mills theory, which are coefficients of the gauge potentials, but instead as the coefficients of their flux densities (cf. Rem. \ref{RoleOfLInfinityAlgebras}).
 
@@ -1360,7 +1360,7 @@ $$
    0
   \,.
 $$
-The resulting [[dgc-algebra|differential graded-commutative (dgc) algebra]] $(\wedge^\bullet \mathfrak{g}^\ast, \mathrm{d})$  is known as the *[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg complex]]* $\mathrm{CE}(\mathfrak{g})$ whose cochain cohomology computes the [[Lie algebra cohomology]] of $\mathfrak{g}$ (with trivial coefficients) --- but the key point at the moment is that its construction is a *[[fully faithful functor|fully faithful]]* [[contravariant functor]] [[full subcategory|embedding]] the [[category]] of [[finite-dimensional vector space|finite-dimensional]] [[Lie algebras]] into the [[opposite category|opposite]] of that of [[dgc-algebras]].
+The resulting [[dgc-algebra|differential graded-commutative (dgc) algebra]] $(\wedge^\bullet \mathfrak{g}^\ast, \mathrm{d}_{[-,-]})$  is known as the *[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg complex]]* $\mathrm{CE}(\mathfrak{g})$ whose cochain cohomology computes the [[Lie algebra cohomology]] of $\mathfrak{g}$ (with trivial coefficients) --- but the key point at the moment is that its construction is a *[[fully faithful functor|fully faithful]]* [[full subcategory|embedding]] the [[category]] of [[finite-dimensional vector space|finite-dimensional]] [[Lie algebras]] into the [[opposite category|opposite]] of that of [[dgc-algebras]].
 
 
 $\;\;$**$L_\infty$-algebras of finite type.**
@@ -1377,7 +1377,7 @@ $$
 $$
 we can use *verbatim* the same construction:
 
-A degree=1 derivation on $\wedge^\bullet\mathfrak{g}^\vee$ is determined by its restriction to $\wedge^1 \mathfrak{g}^\vee$, where it is a sum of co-[[arity|$n$-ary]] [[linear maps]], whose [[linear dual map|linear duals]] we may think of as [[arity|$n$-ary]] degree=(-1) brackets on $\mathfrak{g}[1]$:
+A degree=1 derivation on $\wedge^\bullet\mathfrak{g}^\vee$ is determined by its restriction to $\wedge^1 \mathfrak{g}^\vee$, where it is a sum of co-[[arity|$n$-ary]] [[linear maps]], whose [[linear dual map|linear duals]] are identified as [[arity|$n$-ary]] degree=(-1) brackets on $\mathfrak{g}[1]$:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-LInfinityUnderCE.jpg",
@@ -1392,8 +1392,8 @@ A degree=1 derivation on $\wedge^\bullet\mathfrak{g}^\vee$ is determined by its 
 \end{imagefromfile}
 \[\label{FinTypeLInfinityAlgebrasAsDGCAlgebras}\]
 
-Here the simple condition that $\mathrm{d}_{{}_{[\cdots]}}$ be a differential implies a tower of conditions on these brackets, which generalize the Jacobi identity on an ordinary 
-Lie algebra, known as the conditions that make $\big( \mathfrak{g}, [-], [-,-], [-,-,-], \cdots \big)$ an [[L-infinity algebra|$L_\infty$-algebra]]:
+Here the simple condition that $\mathrm{d}_{{}_{[\cdots]}}$ be a differential implies a tower of conditions on these brackets, generalizing the Jacobi identity on an ordinary 
+Lie algebra and known as the conditions that make $\big( \mathfrak{g}, [-], [-,-], [-,-,-], \cdots \big)$ an [[L-infinity algebra|$L_\infty$-algebra]]:
 $$
   \array{
     \text{higher Jacobi identity for}
