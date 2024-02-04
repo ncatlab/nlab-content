@@ -531,7 +531,7 @@ $$
   \,.
 $$
 
-Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{C}P^n$ is
+Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{C}P^n$ are
 
 $$
   H^k(\mathbb{C}P^n,A)
