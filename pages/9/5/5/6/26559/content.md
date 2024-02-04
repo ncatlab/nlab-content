@@ -2096,9 +2096,9 @@ It is the [[cohomology operation]] induced by $\mathbb{R}$-[[rationalization]] o
 All the classical abelian character maps (eq:ExamplesOfCharacterMaps) are special cases of this generalized nonabelian character &lbrack;[FSS23-Char, §7](#FSS23)&rbrack;, but now examples in generalized [[nonabelian cohomology]] are also included; for instance there is a character map on [[Cohomotopy]]-theory &lbrack;[FSS23-Char, Ex. 6.11](#FSS23)&rbrack;
 
 
-**Flux quantization in generalized nonabelian cohomology.** With the generalized nonabelian character map (eq:NonabelianCharacterMap) in hand, we may finally state the general concept of flux quantization:
+**Flux quantization in generalized nonabelian cohomology.** With the generalized nonabelian character map (eq:NonabelianCharacterMap) in hand, we may finally state the general concept of flux quantization (to be further refined [below](#PhaseSpacesAsDifferentialNonabelianCohomology)):
 
-Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology) that the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of a [[Cauchy surface]] encodes the *total flux* of the [[higher gauge fields]] characterized by the [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$, it follows that for every choice of $\mathcal{A}$ with $\mathfrak{l}\mathcal{A} \,\simeq\, \mathfrak{a}$ the nonabelian character map (eq:NonabelianCharacterMap) may be understood as assigning to *discrete charges* embodied by $\mathcal{A}$-cohomology-classes the corresponding total flux (thereby losing torsion-information encoded in the charges but not in the fluxes):
+Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology) that the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of a [[Cauchy surface]] encodes the *total flux* of the [[higher gauge fields]] characterized by the [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$, it follows that for every choice of classifying space $\mathcal{A}$ with $\mathfrak{l}\mathcal{A} \,\simeq\, \mathfrak{a}$ the nonabelian character map (eq:NonabelianCharacterMap) may be understood as assigning to *discrete charges* embodied by $\mathcal{A}$-cohomology-classes the corresponding total flux (thereby losing torsion-information encoded in the charges but not in the fluxes):
 
 \[\label{NonabelianCharacterMapChargesToFluxes}\]
 \begin{imagefromfile}
@@ -2106,14 +2106,14 @@ Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology)
     "width": 450,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 0
     }
 \end{imagefromfile}
 
-Since the total charges in $H^1\big(X^d; \Omega \mathcal{A})\big)$ on the left form a discrete set, we may think of a [[lift]] of total fluxes through the character map as enforcing flux quantization in $\mathcal{A}$-cohomology:
+Since the total charges in $H^1\big(X^d; \Omega \mathcal{A})\big)$ on the left form a discrete set, we may think of implementing flux quantization in $\mathcal{A}$-cohomology as *[[lifting]]* of total fluxes through the character map:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-FirstIdeaOfFluxQuantization.jpg",
@@ -2127,7 +2127,7 @@ Since the total charges in $H^1\big(X^d; \Omega \mathcal{A})\big)$ on the left f
     }
 \end{imagefromfile}
 
-Notice that such a lift is not *just* a (quantization/discretization-)condition on the total fluxes, but also [[extra structure|extra data]], namely a choice of [[torsion subgroup|torsion]]-component of the total charge reflected in total fluxes, as see in $\mathcal{A}$-cohomology:
+Notice that such a lift is not *just* a (quantization/discretization-)*condition* on the total fluxes, but also *[[extra structure]]*, namely a choice of [[torsion subgroup|torsion]]-component of the total charge reflected in total fluxes, as see in $\mathcal{A}$-cohomology:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-CharacterKernelAndCokernel.jpg",
@@ -2141,7 +2141,7 @@ Notice that such a lift is not *just* a (quantization/discretization-)condition 
     }
 \end{imagefromfile}
 
-However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]] given by an [[equality]] of gauge equivalence classes, instead one should consider an explicit [[gauge transformation]]. Doing so leads to emergence of the [[gauge potentials]] and of the higher [[phase space]] stack of the theory, in the [next subsection](#PhaseSpacesAsDifferentialNonabelianCohomology).
+However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]] given by an [[equality]] of gauge equivalence classes, instead one should consider an explicit [[gauge transformation]] between actual fields. Doing so leads to emergence of the [[gauge potentials]] and of the higher [[phase space]] stack of the theory, in the [next subsection](#PhaseSpacesAsDifferentialNonabelianCohomology).
 
 \begin{example}
   **(flux quantization laws for ordinary electromagnetism)**
@@ -2154,8 +2154,8 @@ Therefore -- among many further variants -- there are the following choices of f
 | EM flux quantization law |  comment |
 |--------------------------|----------|
 | $\underset{mag}{\underbrace{B^2 \mathbb{Q}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes *no* flux quantization (it does rule out [[irrational number|irrational]] total fluxes) and as such was the tacit choice since [Maxwell 1865](Maxwell's+equations#Maxwell1865) until [Dirac 1931](#Dirac31) |
-| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes integrality of magentic flux but no further condition on electric flux -- common choice since [Dirac 1931](#Dirac31), for instance in [Alvarez 1985b, p. 299](#Alvarez85b); [Freed 2000, Ex. 2.1.2](#Freed00) | 
-| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Z}}}$ | this choice imposes integrality of both magentic and electric flux -- considered in [Freed, Moore & Segal 2007a](#FreedMooreSegal07a), [2007b](#FreedMooreSegal07a); [Becker, Benini, Schenkel & Szabo 2015, Rem. 2.3](#BeckerBeniniSchenkelSzabo15); [Lazaroiu & Shahbazi 2022](#LazaroiuShahbazi22); [Lazaroiu & Shahbazi 2022, §2](#LazaroiuShahbazi22) | 
+| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes integrality of magentic charge but no further condition on electric flux -- common choice since [Dirac 1931](#Dirac31), for instance in [Alvarez 1985b, p. 299](#Alvarez85b); [Freed 2000, Ex. 2.1.2](#Freed00) | 
+| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Z}}}$ | this choice imposes integrality of both magentic and electric charges -- considered in [Freed, Moore & Segal 2007a](#FreedMooreSegal07a), [2007b](#FreedMooreSegal07b); [Becker, Benini, Schenkel & Szabo 2015, Rem. 2.3](#BeckerBeniniSchenkelSzabo15); [Lazaroiu & Shahbazi 2022](#LazaroiuShahbazi22); [Lazaroiu & Shahbazi 2023, §2](#LazaroiuShahbazi23) | 
 | $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\rtimes\, \underset{el}{\underbrace{B\big( K \ltimes B\mathbb{Z} \big) }}$ | for a [[finite group]] $K \to Aut(\mathbb{Z})$ -- this choice induces non-commutativity between EL/EL- and EL/M-fluxes, an example of a "non-evident" flux quantization condition considered in [SS23-FQ](#SS23-FQ) |
 
 
@@ -2174,8 +2174,8 @@ Recall that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[con
 
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-DeformationPathOfFluxDensities.jpg",
-    "width": 210,
+    "file_name": "GeomPhys-DeformationPathOfFluxDensities-240204.jpg",
+    "width": 500,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2199,9 +2199,22 @@ But in higher gauge theories, there will also be defomrations-of-deformations. I
     }
 \end{imagefromfile}
 
+Such a system of sets indexed by higher simplices is called a *[[simplicial set]]*, and in its [[contravariant functor|contravariant]] dependence on $X \,\in\, \mathrm{SmthMfd}$ it is called a *[[simplicial presheaf]]*. As such, we here denote it
+$
+  \shape 
+  \,
+  \Omega^1_{\mathrm{dR}}\big(
+    -;
+    \mathfrak{a}
+  \big)
+$ 
+&lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack;.
 
+
+\linebreak
 
 (...)
+
 
 \linebreak
 
