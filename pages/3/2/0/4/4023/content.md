@@ -121,7 +121,7 @@ If we choose a [[basis of a vector space|basis]] of $V$ so that we have an ident
 
 $$\det \colon Mat_n(k) \to k$$
 
-or by restriction to invertible matirces with invertible determinants a function
+or by restriction to invertible matrices with invertible determinants a function
 
 $$\det\colon GL_n(k) \to k^*$$
 
