@@ -804,7 +804,10 @@ Now
 
 \linebreak
 
+
 ## Related concepts
+
+* [[unstable topological K-theory]]
 
 [[!include flavours of cohomotopy -- table]]
 
@@ -973,6 +976,8 @@ Discussion of [[smooth functions]] into the [[4-sphere]] in the context of [[Con
 [[!redirects Cohomotopy set]]
 [[!redirects Cohomotopy sets]]
 
+[[!redirects unstable cohomotopy]]
+[[!redirects unstable Cohomotopy]]
 
 [[!redirects cohomotopy group]]
 [[!redirects cohomotopy groups]]
