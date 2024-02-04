@@ -63,9 +63,9 @@ An object that is both initial and [[terminal object|terminal]] is called a [[ze
 
 * The [[trivial group]] is the initial object (in fact, the [[zero object]]) of [[Grp]] and [[Ab]].
 
-* The [[ring] of [[integers]] $\mathbb{Z}$ is the initial object of [[Ring]].
+* The [[ring]] of [[integers]] $\mathbb{Z}$ is the initial object of [[Ring]].
 
-* The [[field]] of [[rational numbers]] $\mathbbb{Q}$ is the initial object of $Field_0$ (category of fields with [[characteristic]] $0$) and the [[prime field]] $\mathbb{F}_p$ is the initial object of $Field_p$ (category of fields with characteristic $p$), but none are the initial object of [[Field]] (category of all fields), which doesn't have an initial object at all.
+* The [[field]] of [[rational numbers]] $\mathbb{Q}$ is the initial object of $Field_0$ (category of fields with [[characteristic]] $0$) and the [[prime field]] $\mathbb{F}_p$ is the initial object of $Field_p$ (category of fields with characteristic $p$), but none are the initial object of [[Field]] (category of all fields), which actually doesn't have one at all.
 
 * The terminal object of a [[under category|coslice category]] $x/C$ is the [[identity morphism]] $x \to x$.
 
