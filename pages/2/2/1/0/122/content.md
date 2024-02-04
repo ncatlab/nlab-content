@@ -205,6 +205,10 @@ But these linear maps are conceptually different from (eq:UnitMapToDoubleDual) i
 \end{example}
 
 \begin{example}
+For a category $C$ its [[category of presheaves]] $Set^{C^op}$ has for objects all functors $C^op \rightarrow  Set$ and for morphisms all natural transformations between those presheaves.  If the objects in that category can be seen as being some type of [[graph]] then its morphisms are graph [[homomorphisms]] which in this case are natural transformations.
+\end{example}
+
+\begin{example}
 The [[determinant]] is a natural transformation $det\colon GL_n\rightarrow (-)^\times$ from the [[general linear group]] to the [[group of units]] of a [[ring]], which are both functors from [[Ring]] to [[Grp]].
 \end{example}
 
