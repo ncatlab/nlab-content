@@ -34,6 +34,14 @@ $$
 ## Properties
  {#Properties}
 
+### General
+
+\begin{proposition}
+Every continuous map $\mathbb{H}P^n\rightarrow\mathbb{H}P^n$ for $n \geq 2$ has a [[fixed point]]. This does not hold for $n = 1$ as in this case $\mathbb{H}P^1\cong S^4$ and the antipodal map $S^4\rightarrow S^4, x\mapsto -x$ does not have a fixed point.
+\end{proposition}
+
+([Hatcher 02, page 180](#Hatcher02))
+
 ### Homology
 
 +-- {: .num_prop #HomologyAndCohomologyOfQuaternionicProjectiveSpace}
@@ -91,6 +99,8 @@ By the [[coset space]]-realization (eq:SpnCosetSpaceRealization), quaternion pro
 ## References
 
 ### General
+
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section I.4 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
