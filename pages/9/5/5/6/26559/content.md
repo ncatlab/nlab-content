@@ -1558,6 +1558,7 @@ We should, therefore, regard as the *total flux* that aspect of the [[flux densi
 
 But since the [[Gauss law]] is (by Prop. \ref{SolutionSpaceViaGaussLaw}) nothing but the [[pullback of differential forms|restriction]] to the Cauchy surface of the [[Bianchi identities]] (on the duality-symmetric flux densities of Def. \ref{HigherMaxwellEquations}), the argument of Prop. \ref{SolutionsAsFlatForms} shows that this invariant aspect is the [[equivalence classes]] of flux densities under *[[concordance]]*:
 
+\[\label{ConcordanceOfFlatDifferentialForms}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-CauchyEvolutionOfGaussLawData-240204.jpg",
     "width": 760,
@@ -2098,7 +2099,7 @@ All the classical abelian character maps (eq:ExamplesOfCharacterMaps) are specia
 
 **Flux quantization in generalized nonabelian cohomology.** With the generalized nonabelian character map (eq:NonabelianCharacterMap) in hand, we may finally state the general concept of flux quantization (to be further refined [below](#PhaseSpacesAsDifferentialNonabelianCohomology)):
 
-Recalling from the [previous subsection](#TotalFluxInNonabelianDeRhamCohomology) that the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of a [[Cauchy surface]] encodes the *total flux* of the [[higher gauge fields]] characterized by the [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$, it follows that for every choice of classifying space $\mathcal{A}$ with $\mathfrak{l}\mathcal{A} \,\simeq\, \mathfrak{a}$ the nonabelian character map (eq:NonabelianCharacterMap) may be understood as assigning to *discrete charges* embodied by $\mathcal{A}$-cohomology-classes the corresponding total flux (thereby losing torsion-information encoded in the charges but not in the fluxes):
+Recalling (eq:ConcordanceOfFlatDifferentialForms) that the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of a [[Cauchy surface]] encodes the *total flux* of the [[higher gauge fields]] characterized by the [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$, it follows that for every choice of classifying space $\mathcal{A}$ with $\mathfrak{l}\mathcal{A} \,\simeq\, \mathfrak{a}$ the nonabelian character map (eq:NonabelianCharacterMap) may be understood as assigning to *discrete charges* embodied by $\mathcal{A}$-cohomology-classes the corresponding total flux (thereby losing torsion-information encoded in the charges but not in the fluxes):
 
 \[\label{NonabelianCharacterMapChargesToFluxes}\]
 \begin{imagefromfile}
@@ -2170,7 +2171,7 @@ Therefore -- among many further variants -- there are the following choices of f
 
 **Higher deformations of flux densities.**
 
-Recall that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities, subject to their Bianchi identities:
+Recall (eq:ConcordanceOfFlatDifferentialForms) that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
 
 
 \begin{imagefromfile}
@@ -2185,7 +2186,7 @@ Recall that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[con
     }
 \end{imagefromfile}
 
-But in higher gauge theories, there will also be defomrations-of-deformations. It is intuitively plausible that these should be given by deformation paths-of-paths parameterized by squares $[0,1]^2$, next by cubes $[0,1]^3$, etc. It turns out to be equivalent but technically more conveninet to parameterize them instead by *triangles*, then *tetrahedra* and generally by "$n$-simplices":
+But in higher gauge theories, there will also be deformations-of-deformations. It is intuitively plausible that these should be given by deformation paths-of-paths parameterized by squares $[0,1]^2$, next by cubes $[0,1]^3$, etc. It turns out to be equivalent but technically more conveninet to parameterize them instead by *triangles*, then *tetrahedra* and generally by "$n$-simplices":
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-SimplicialSetOfFluxDeformations.jpg",
@@ -2201,7 +2202,7 @@ But in higher gauge theories, there will also be defomrations-of-deformations. I
 
 Such a system of sets indexed by higher simplices is called a *[[simplicial set]]*, and in its [[contravariant functor|contravariant]] dependence on $X \,\in\, \mathrm{SmthMfd}$ it is called a *[[simplicial presheaf]]*. As such, we here denote it
 $
-  \shape 
+  \esh
   \,
   \Omega^1_{\mathrm{dR}}\big(
     -;
