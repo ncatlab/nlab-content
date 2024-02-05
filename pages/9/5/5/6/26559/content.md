@@ -2190,11 +2190,11 @@ The idea of *[[moduli stacks]]* is the evident refinement of that of *[[classify
 
    with ([[higher homotopy|higher]]) [[homotopies]] of these maps corresponding to the ([[higher gauge transformation|higher]]) [[gauge transformations]] between these structures.
 
-In order to understand that and how such moduli stacks may exist at all, it is useful to take a perspective where *every* kind of space under consideration (such as spacetime itself) is *defined* (not as a underlying set of points with extra structure but) by the maps it receives from given *probes*.
+In order to understand that and how such moduli stacks may exist at all, it is useful to take a perspective where *every* kind of space under consideration (such as spacetime itself) is *defined* (not as an underlying set of points with extra structure but) by the maps it receives from given *probes*.
 
 We refer the reader to the section *[[geometry of physics -- smooth sets]]* or else to &lbrack;[Schreiber 2024](#Schreiber24), [Giotopoulos & Sati 2023](#GiotopoulosSati23)&rbrack; for more exposition and discssion of the following idea:
 
-For the present purpose of [[higher differential geometry]], the relevant probe spaces are "abstract coordinate charts", namely [[Cartesian spaces]] $\mathbb{R}^n$, and the idea is that any space $X$ which qualifies as a "[[smooth set]]" should be *defined* (not necessarily by an [[underlying]] [[set]] of points equipped with [[smooth structure]] but) by a system of sets of ways 
+$\;$**Smooth sets.** For the present purpose of [[higher differential geometry]], the relevant probe spaces are "abstract coordinate charts", namely [[Cartesian spaces]] $\mathbb{R}^n$, and the idea is that any space $X$ which qualifies as a "[[smooth set]]" should be *defined* (not necessarily by an [[underlying]] [[set]] of points equipped with [[smooth structure]] but) by a system of sets of ways 
 
 $$
   \mathbb{R}^n 
@@ -2219,7 +2219,7 @@ $$
 
 from/on the [[category]] [[CartSp]] of [[Cartesian spaces]] $\mathbb{R}^n$ ($n \in \mathbb{R}$) with [[smooth functions]] between them. Similar considerations show that a *smooth map* $f \,\colon\, X \to Y$ between [[smooth sets]] defined this way (only) by their systems of plots should be just a compatible system of transformations of plots-of-$X$ to plots-of-$Y$, hence should be a [[natural transformation]] between such functors.
 
-The further consistency requirement of *locality* of probes demands that such a smooth map $f \,\colon\, X \to Y$ should count as an [[isomorphism]] ([[diffeomorphism]] of smooth sets) already if its transformation of plots is a [[bijection]] between *[[germs]]* of plots (around $0 \in \mathbb{R}^n$, say, hence a bijection on "[[stalks]]" at $0$).
+The further consistency requirement of *locality* of probes demands that such a smooth map $f \,\colon\, X \to Y$ should count as an [[isomorphism]] ([[diffeomorphism]] of smooth sets) already if its transformation $f_\ast$ of plots is a [[bijection]] between *[[germs]]* of plots (around $0 \in \mathbb{R}^n$, say, hence a bijection on "[[stalks]]" at $0$).
 
 This way one find that the [[category]] of [[smooth sets]] should be the [[localization of a category|localization]] of the [[category of presheaves]] on [[CartSp]] at the *[[stalk]]-wise [[bijections]]* hence at the "[[local isomorphisms]]" ($liso$), also known as the *[[category of sheaves]]* or the *[[sheaf topos]]* over the *[[site]]* [[CartSp]]:
 
@@ -2246,7 +2246,7 @@ $$
   }
 $$
 
-In particular, the probe [[Cartesian spaces]] $\mathbb{R}^n$ are incarnated themselves as smooth sets in this way. This allows to compare the *prescribed* plots $Plot(\mathbb{R}^n,X)$ of any smooth set with the actual smooth maps $Hom\big(\mathbb{R}^n, X \big)$ (forming the [[hom-sets]] of [[SmoothSet]]), and remarkably they coincide (this is the *[[Yoneda lemma]]* over [[CartSp]]), thus rendering the "bootstrap definition" of smooth sets consistent:
+In particular, the probe [[Cartesian spaces]] $\mathbb{R}^n$ are incarnated themselves as smooth sets in this way. This allows to compare the *prescribed* plots $Plot(\mathbb{R}^n,X)$ of any smooth set with the actual smooth maps $Hom\big(\mathbb{R}^n, X \big)$ into it (forming the [[hom-sets]] of [[SmoothSet]]), and remarkably they coincide (this is the *[[Yoneda lemma]]* over [[CartSp]]), thus rendering the "bootstrap definition" of smooth sets consistent:
 
 $$
   \left.
@@ -2261,13 +2261,85 @@ $$
   \;\;\;\;\;\;\;
   \array{
     Hom\big(\mathbb{R}^n,\, X\big)
-    &\overset{}{\longrightarrow}&
+    &\overset{\sim}{\longrightarrow}&
     Plot\big(\mathbb{R}^n,\, X\big)
     \\
-    f &\mapsto& f \circ id_{\mathbb{R}^n}
+    f &\mapsto& f_\ast id_{\mathbb{R}^n}
     \,.
   }
 $$
+
+But the category [[SmoothSet]] contains now much more than just ordinary [[smooth manifolds]], in particular it contains ([[truncated object in an (infinity,1)-category|0-truncated]]) [[moduli stacks]] of [[differential forms]]:
+
+For $p \in \mathbb{N}$, the smooth [[differential n-forms]] clearly form a [[sheaf]] over [[CartSp]] and hence may be regarded as the plots of a [[smooth set]] $\mathbf{\Omega}^p_{dR} \,\in\, SmoothSet$:
+
+$$
+  Plot\big(
+    \mathbb{R}^n
+    ,\,
+    \mathbf{\Omega}^p_{dR}
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  \Omega^p_{dR}(\mathbb{R}^n)
+  \,.
+$$
+
+One checks that this is a moduli stack for differential forms on smooth manifolds, in that for $X \in SmthMfd \hookrightarrow SmthSet$ we have a [[natural bijection]]
+
+$$
+  Hom\big(
+    X
+    ,\,
+    \mathbf{\Omega}^p_{dR}
+  \big)
+  \;\simeq\;
+  \Omega^p_{dR}(X)
+$$
+
+of the smooth maps from $X$ into $\mathbf{\Omega}^p_{dR}$ with the actual smooth differential forms.
+
+Here it is useful to think of $\mathbf{\Omega}^p_{dR}$ as a space which carries a *universal differential $p$-form* $\omega_p^{univ} \,\in\, \Omega^p_{dR}\big(\mathbf{\Omega}^p_{dR}\big)$ (as befits a moduli stack of differential forms) such that every differential form on any $X$ is the [[pullback of differential forms|pullback]] of $\omega_p^{univ}$ along a unique smooth map $X \to \mathbf{\Omega}^p_{dR}$.
+
+In fact, it makes sense to define differential forms on any smooth set by
+$$
+  X \,\in\, SmthSet
+  \;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;
+  \Omega^p_{dR}(X)
+  \;\coloneqq\;
+  Hom\big(
+    X
+    ,\,
+    \mathbf{\Omega}^p_{dR}
+  \big)
+$$
+
+and then that universal differential form on $\mathbf{\Omega}^p_{dR}$ actually exists:
+
+$$
+  \omega_p^{univ}
+  \;\coloneqq\;
+  id
+  \,\in\,
+  Hom\big(
+    \mathbf{\Omega}^p_{dR}
+    ,\,
+    \mathbf{\Omega}^p_{dR}
+  \big)  
+  \;\equiv\;
+  \Omega^p_{dR}\big(
+    \mathbf{\Omega}^p_{dR}
+  \big)
+  \,.
+$$
+
+It is in this way that the category [[SmoothSet]] makes (0-truncated) [[moduli stacks]] exist in just the way they ought to (and higher moduli stacks exist similarly in the higher generalization of [[smooth sets]] to [[smooth infinity-groupoids]] that we turn to below).
+
+
+
 
 (...)
 
