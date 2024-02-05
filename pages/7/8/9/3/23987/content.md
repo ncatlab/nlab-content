@@ -1753,7 +1753,6 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Jan 2024
 
-
 * {#CapucciJan2024} 22 Jan 2024
  
   [[Matteo Capucci]] (University of Strathclyde): 
@@ -1777,6 +1776,25 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   cf. [arXiv:2307.07383](TDA#IMD23)
 
   > [[topological data analysis|Topological data analysis]] (TDA) enhances the analysis of objects by embedding them into a [[simplicial complex]] and extracting useful global properties such as the [[Betti numbers]], i.e. the number of multidimensional holes, which can be used to define [[kernel methods]] that are easily integrated with existing [[machine-learning]] [[algorithms]]. These [[kernel methods]] have found broad applications, as they rely on powerful mathematical frameworks which provide theoretical guarantees on their performance. However, the [[computation]] of higher-dimensional Betti numbers can be prohibitively expensive on classical hardware, whereas [[quantum computation|quantum algorithms]] can approximate them in polynomial time in the instance size. In this work, we propose a quantum approach to defining topological kernels that is based on constructing Betti curves, i.e. topological fingerprint of [[filtered object|filtrations]] with increasing order.
+
+\linebreak
+
+### Feb 2024
+
+
+* {#RossFeb2024} 05 Feb 2024
+  
+  [[Julien Ross]]:
+
+  **Catalytic Embeddings: Theory and Applications**
+
+  cf.: [arXiv:2305.07720](quantum+circuit+diagram#ACGMMR23)
+
+  > Let $C$ be a [[quantum circuit]] and let $G$ be a set of [[quantum gates]]. A *catalytic embedding* of $C$ over $G$ is a pair $(D,v)$ consisting of a [[quantum state|state]] $v$ and a [[quantum circuit|circuit]] $D$ over $G$ such that for every state $u$ we have $D(u \otimes v) = (C u) \otimes v$.
+Because the state $v$ is left unchanged by the application of $D$, it is known as a *catalyst*. Catalytic embeddings are useful when the circuit $C$ cannot be exactly represented over the gate set $G$. In such cases, one can leverage the catalyst to implement (any number of occurrences of) $C$ using circuits over $G$.
+
+  > In this talk, I will present the theory of catalytic embeddings and discuss applications to the exact and approximate synthesis of quantum circuits.
+
 
 
 \linebreak
@@ -2784,6 +2802,7 @@ Researchers:
 
 
 ***
+
 
 
 \linebreak
