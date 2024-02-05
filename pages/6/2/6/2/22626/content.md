@@ -274,6 +274,9 @@ Formal [[quantum programming language]]-perspective on quantum circuits:
 
 * [[Yuri Gurevich]], [[Andreas Blass]], *Software science view on quantum circuit algorithms* &lbrack;[arXiv:2209.13731](https://arxiv.org/abs/2209.13731)&rbrack;
 
+See also:
+
+* {#ACGMMR23} M. Amy, M. Crawford, A. N. Glaudell, M. L. Macasieb, S. S. Mendelson, [[Neil J. Ross]], *Catalytic Embeddings of Quantum Circuits* &lbrack;[arXiv:2305.07720](https://browse.arxiv.org/abs/2305.07720)&rbrack;
 
 ### Parameterized quantum circuits
  {#ReferencesParameterizedQuantumCircuits}
