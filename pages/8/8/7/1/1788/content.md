@@ -3,6 +3,30 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+\[
+  \begin{tikzcd}[
+    row sep=9pt
+  ]
+    \mathllap{ \forall\;\; }
+    \Lambda^n_k 
+    \ar[r]
+    \ar[d, hook]
+    &
+    X
+    \\
+    \Delta^n
+    \mathrlap{\,.}
+    \ar[
+      ur, 
+      dashed,
+      "{ \exists }", swap
+    ]
+  \end{tikzcd}
+\]
+
+
+[[The2Horns.jpg:file]]
+
 [[GeomPhys-GroupoidOfYMFieldOnR3.jpg:file]]
 
 [[GeomPhys-GlobularAmongSimplicial.jpg:file]]
