@@ -2169,6 +2169,23 @@ Therefore -- among many further variants -- there are the following choices of f
 ### Phase spaces as Differential nonabelian cohomology
  {#PhaseSpacesAsDifferentialNonabelianCohomology}
 
+
+With higher Maxwell-type equations of flux given and with a compatible flux/charge quantization law $\mathcal{A}$ chosen, we explain how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] and hence its [[phase space]] appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
+
+In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]]. 
+
+However, the "topological observables" on the higher gauge theory (those that detect topological charge structure but the local [[differential geometry]] of field configurations) depend only on the "[[shape modality|shape]]" of the phase space stack, which by the properties of "[[cohesive (infinity,1)-topos|cohesive higher topos theory]]" turns out to coincide simply with the actual [[mapping space]] from the Cauchy surface into the classifyong space $\mathcal{A}$. 
+
+Therefore the reader who is not to be bothered with [[(infinity,1)-topos theory|higher topos theory]] and is content with the "topological" implications of flux quantization may safely (dis-)regard this subsection as a black box which guarantees that once a classifying spaces $\mathcal{A}$ is chosen for flux quantization, it controls not only the set $H^1\big(X^d;\, \mathcal{A}\big) \,\equiv\, \pi_0 Map(X^d, \mathcal{A})$ of total charges of the theory, but also the full [[moduli space]] $Map(X^d, \mathcal{A})$ of local charges.
+
+\linebreak
+
+**Smooth sets of moduli of flux densities.**
+
+(...)
+
+\linebreak
+
 **Higher deformations of flux densities.**
 
 Recall (eq:ConcordanceOfFlatDifferentialForms) that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
