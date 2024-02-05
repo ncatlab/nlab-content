@@ -1294,6 +1294,11 @@ Discussion of the Witten-Veneziano mechanism
 
 * [[Josef Leutgeb]], [[Anton Rebhan]], _Witten-Veneziano mechanism and pseudoscalar glueball-meson mixing in holographic QCD_ ([arxiv:1909.12352](https://arxiv.org/abs/1909.12352))
 
+See also:
+
+* Si-wen Li, Hao-qian Li, Yi-peng Zhang, *The worldvolume fermion as baryon in holographic QCD with a theta angle* &lbrack;[arXiv:2402.01197](https://arxiv.org/abs/2402.01197)&rbrack;
+
+
 
 
 ### Application to the QCD trace anomaly
