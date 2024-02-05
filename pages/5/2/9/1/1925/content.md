@@ -278,14 +278,25 @@ On the other hand, we could generalize the notion of [[group]] to allow for an e
 
 This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by treating the empty and inhabited cases separately. (This rather trivial method is obvious to a classical mathematician, but it\'s not constructively valid, since a invertible semigroup/associative quasigroup/heap as defined here can\'t be constructively proved empty or inhabited; it can only be proved empty iff not inhabited.  Indeed, taking any group $G$ and any [[truth value]] $P$, the invertible subsemigroup or associative subquasigroup $\{x \in G \;|\; P\}$ is empty or inhabited iff $P$ is false or true.)
 
+## Examples in homotopy theory
+
+The map $[0,1]\to[0,1]$ that sends $0\mapsto 0$, $1/3\mapsto 1$, $2/3\mapsto 0$, $1\mapsto 1$,
+and interpolates linearly between these points
+yields an associative Malcev operation on $[\Sigma X,Y]$,
+where $X$ and $Y$ are (unpointed) spaces, $\Sigma$ is the [[suspension]] functor, and $[-,-]$ denotes the set of morphisms in the [[homotopy category]].
+
+Thus, $[\Sigma X,Y]$ is a (nonabelian) heap.
+Likewise, the full mapping space $Map(\Sigma X,Y)$ can be turned into an (∞,1)-heap, defined as an (∞,1)-algebra (in spaces) over the algebraic theory of heaps.
+
+See Vokřínek {#Vokrinek} for more information.
+
 ## References and remarks
 
 Related notions: [[torsor]], [[affine space]], [[Mal'cev variety]], [[truss]]
 
 * [[Christopher D. Hollings]], [[Mark V. Lawson]], _Wagner’s theory of generalised heaps_, 2017, Springer.  [doi](https://doi.org/10.1007/978-3-319-63621-4)
 
-* [[A. K. Sushkevich]], _Theory of generalised groups_, DNTVU, Kharkov-Kiev (1937) (in Russian, 
-[[А. К. Сушкевич]], _Теория обобщенных групп_, Государственное научно-техническое издательство Украины, 1937)
+* [[A. K. Sushkevich]], _Theory of generalised groups_, DNTVU, Kharkov-Kiev (1937) (Russian original: [[А. К. Сушкевич]], _Теория обобщенных групп_, Государственное научно-техническое издательство Украины, 1937).
 
 * G.M. Bergman, A.O. Hausknecht,
 _Cogroups and co-rings in categories of associative rings_, Ch.IV, paragraph 22, p.95ff, AMS 1996.
@@ -299,6 +310,9 @@ _Cogroups and co-rings in categories of associative rings_, Ch.IV, paragraph 22,
 * wikipedia:[heap](https://en.wikipedia.org/wiki/Heap_%28mathematics%29) (mathematics)
 
 * [[John Baez]] on [Heaps and torsors](http://www.math.ucr.edu/home/baez/torsors.html)
+
+* [[Lukáš Vokřínek]], _Heaps and unpointed stable homotopy theory_, [arXiv](https://arxiv.org/abs/1312.1709v1).
+
 
 There is an oidification ([[horizontal categorification]]) of a heap, sometimes called a _heapoid_. 
 
