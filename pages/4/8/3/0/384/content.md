@@ -220,7 +220,7 @@ $$
 and a [[sequential diagram]] of [[topological space]] of the form
 
 $$
-  X = X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow X_3 \hookrightarrow \cdots
+  X = X_{-1} \hookrightarrow X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow \cdots
 $$
 
 such that 
