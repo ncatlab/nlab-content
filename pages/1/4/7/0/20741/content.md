@@ -163,7 +163,7 @@ Application of [[tensor networks]] and specifically [[tree tensor networks]]:
 ### Relation to renormalization group flow
  {#ReferencesRelationToRenormalizationGroupFlow}
 
-Relation to deep learning to [[renormalization group flow]]:
+Relation of deep learning to [[renormalization group flow]]:
 
 * {#MS14} Pankaj Mehta, David J. Schwab - _An exact mapping between the Variational Renormalization Group and Deep Learning_, 2014 ([arXiv:1410.3831](https://arxiv.org/abs/1410.3831))
 
