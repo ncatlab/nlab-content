@@ -59,8 +59,12 @@ Discussion via [[machine learning]] of [[connection on a bundle|connections]] on
 
 * [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
 
+and for computation of [[Yukawa couplings]]:
 
-## Related $n$Lab pages
+* Andrei Constantin, Cristofero S. Fraser-Taliente, Thomas R. Harvey, [[Andre Lukas]], [[Burt Ovrut]], *Computation of Quark Masses from String Theory* \[<a href="https://arxiv.org/abs/2402.01615">arXiv:2402.01615</a>\]
+
+
+## Related pages
 
 * [[heterotic M-theory]]
 
