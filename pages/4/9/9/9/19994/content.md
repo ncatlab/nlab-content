@@ -56,13 +56,17 @@ On computation of [[Yukawa couplings]] in [[heterotic string theory]]:
 
 * Stefan Blesneag, [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], [[Eran Palti]], _Matter Field Kähler Metric in Heterotic String Theory from Localisation_ ([arXiv:1801.09645](https://arxiv.org/abs/1801.09645))
 
+and via [[machine learning]]:
+
+* Andrei Constantin, Cristofero S. Fraser-Taliente, Thomas R. Harvey, [[Andre Lukas]], [[Burt Ovrut]], *Computation of Quark Masses from String Theory* \[<a href="https://arxiv.org/abs/2402.01615">arXiv:2402.01615</a>\]
+
 On realizations of the [[MSSM]] [[standard model of particle physics]] in [[heterotic string theory]]:
 
 * {#CHE18} [[Andrei Constantin]], [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_, Physics Letters B Volume 792, 10 May 2019, Pages 258-262 ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[string phenomenology]]
 
