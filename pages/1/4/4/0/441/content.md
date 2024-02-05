@@ -167,6 +167,19 @@ $$
 
 respectively. 
 
+\[\label{The2Horns}\]
+\begin{imagefromfile}
+    "file_name": "The2Horns.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
 =--
 
 ## Lifting against horn inclusion
