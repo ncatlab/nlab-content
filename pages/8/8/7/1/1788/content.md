@@ -3,6 +3,10 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-GlobularAmongSimplicial.jpg:file]]
+
+[[GeomPhys-SimplicialSetSchematics.jpg:file]]
+
 [[GeomPhys-HigherGaugeTransformationSimplices.jpg:file]]
 
 [[GeomPhys-DeformationPathOfFluxDensities-240204.jpg:file]]
