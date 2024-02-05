@@ -237,7 +237,7 @@ The composition of anafunctors agree with the composition of functors.
 ### Inverses of anafunctors
 Given an anafunctor $F: C \to D$ with $\sigma: |F| \to C$ and $\tau: |F| \to D$, if $F$ (ie. $\tau$) is essentially surjective, then its saturation is strictly surjective.
 
-Then given a saturated full and faithfull essentially surjective anafunctor, we can obtain an inverse anafunctor $F^{-1}: D \to C$ by swapping $\tau$ and $\sigma$ around. The conditions of being full and faithful and essentially surjective guarantees the axioms are still satisfied.
+Then given a saturated full and faithful essentially surjective anafunctor, we can obtain an inverse anafunctor $F^{-1}: D \to C$ by swapping $\tau$ and $\sigma$ around. The conditions of being full and faithful and essentially surjective guarantees the axioms are still satisfied.
 
 ## Questions of size {#SizeQuestions}
 
