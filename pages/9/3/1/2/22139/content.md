@@ -1,5 +1,7 @@
 
-* [webpage](https://www.mathstat.dal.ca/~neilr/)
+* [personal page](https://www.mathstat.dal.ca/~neilr/)
+
+* [institute page](https://www.dal.ca/faculty/science/math-stats/faculty-staff/our-faculty/mathematics/julien-ross.html)
 
 ## Selected writings
 
@@ -30,9 +32,15 @@ On [[dependent linear type theory]] and [[categorical semantics]] for versions o
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *Proto-Quipper with dynamic lifting* &lbrack;[arXiv:2204.13041](https://arxiv.org/abs/2204.13041)&rbrack;
 
+On [[quantum circuits]]:
+
+* {#ACGMMR23} M. Amy, M. Crawford, A. N. Glaudell, M. L. Macasieb, S. S. Mendelson, [[Neil J. Ross]], *Catalytic Embeddings of Quantum Circuits* &lbrack;[arXiv:2305.07720](https://browse.arxiv.org/abs/2305.07720)&rbrack;
+
 
 
 category: people
 
 [[!redirects Neil J. Ross]]
+
+[[!redirects Julien Ross]]
 
