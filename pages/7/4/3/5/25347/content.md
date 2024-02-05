@@ -1,4 +1,4 @@
-Currently holds a postdoctoral research position at Masaryk University in Brno. 
+Currently holds a postdoctoral research position at the University of Manchester. 
 
 * [personal webpage](https://gtendas.github.io/)
 
