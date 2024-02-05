@@ -2170,7 +2170,7 @@ Therefore -- among many further variants -- there are the following choices of f
  {#PhaseSpacesAsDifferentialNonabelianCohomology}
 
 
-With higher Maxwell-type equations of flux given and with a compatible flux/charge quantization law $\mathcal{A}$ chosen, we explain how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] and hence its [[phase space]] appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
+With higher Maxwell-type equations of flux given ([above](#EquationsOfMotionOfFlux)) and with a compatible flux/charge quantization law $\mathcal{A}$ chosen ([above](#TotalFluxInNonabelianDeRhamCohomology)), we explain here how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] (including the [[gauge potentials]]) and hence its [[phase space]] appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
 
 In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]]. 
 
@@ -2181,6 +2181,93 @@ Therefore the reader who is not to be bothered with [[(infinity,1)-topos theory|
 \linebreak
 
 **Smooth sets of moduli of flux densities.**
+
+The idea of *[[moduli stacks]]* is the evident refinement of that of *[[classifying spaces]]*: Given a certain kind of [[mathematical structure|structure]] (in physics typically: a certain kind of fields):
+
+1. a *classifying space* is such that [[homotopy classes]] of ([[continuous map|continuous]]) [[maps]] to it from any $X$ correspond to [[equivalence classes]] of such structures on $X$,
+
+1. a *moduli stack* is such that the individual ([[smooth map|smooth]]) maps to it from any $X$ correspond to the individual such structures on $X$,
+
+   with ([[higher homotopy|higher]]) [[homotopies]] of these maps corresponding to the ([[higher gauge transformation|higher]]) [[gauge transformations]] between these structures.
+
+In order to understand that and how such moduli stacks may exist at all, it is useful to take a perspective where *every* kind of space under consideration (such as spacetime itself) is *defined* (not as a underlying set of points with extra structure but) by the maps it receives from given *probes*.
+
+We refer the reader to the section *[[geometry of physics -- smooth sets]]* or else to &lbrack;[Schreiber 2024](#Schreiber24), [Giotopoulos & Sati 2023](#GiotopoulosSati23)&rbrack; for more exposition and discssion of the following idea:
+
+For the present purpose of [[higher differential geometry]], the relevant probe spaces are "abstract coordinate charts", namely [[Cartesian spaces]] $\mathbb{R}^n$, and the idea is that any space $X$ which qualifies as a "[[smooth set]]" should be *defined* (not necessarily by an [[underlying]] [[set]] of points equipped with [[smooth structure]] but) by a system of sets of ways 
+
+$$
+  \mathbb{R}^n 
+    \;\mapsto\;
+  Plots\big(
+    \mathbb{R}^n
+    ,\,
+    X
+  \big)
+$$
+
+of *plotting out* probe spaces $\mathbb{R}^n$ inside the would-be space $X$. Basic consistency requirements demand that this assignment should make a [[contravariant functor]] to [[Sets]] (a "[[presheaf]]")
+
+$$
+  Plots\big(
+    -;
+    X
+  \big)
+  \;\colon\;
+  CartSp^{op} \longrightarrow Set
+$$
+
+from/on the [[category]] [[CartSp]] of [[Cartesian spaces]] $\mathbb{R}^n$ ($n \in \mathbb{R}$) with [[smooth functions]] between them. Similar considerations show that a *smooth map* $f \,\colon\, X \to Y$ between [[smooth sets]] defined this way (only) by their systems of plots should be just a compatible system of transformations of plots-of-$X$ to plots-of-$Y$, hence should be a [[natural transformation]] between such functors.
+
+The further consistency requirement of *locality* of probes demands that such a smooth map $f \,\colon\, X \to Y$ should count as an [[isomorphism]] ([[diffeomorphism]] of smooth sets) already if its transformation of plots is a [[bijection]] between *[[germs]]* of plots (around $0 \in \mathbb{R}^n$, say, hence a bijection on "[[stalks]]" at $0$).
+
+This way one find that the [[category]] of [[smooth sets]] should be the [[localization of a category|localization]] of the [[category of presheaves]] on [[CartSp]] at the *[[stalk]]-wise [[bijections]]* hence at the "[[local isomorphisms]]" ($liso$), also known as the *[[category of sheaves]]* or the *[[sheaf topos]]* over the *[[site]]* [[CartSp]]:
+
+$$
+  SmoothSet
+  \;\coloneqq\;
+  Sh(CartSp)
+  \;\simeq\;
+  L^{liso}  PSh(CartSp)
+  \,.
+$$
+
+For example, if $X$ is an ordinary [[smooth manifold]] then it is regarded as a smooth set by taking its plots to be the actual [[smooth functions]] into it:
+
+$$
+  \array{
+    SmthMfd &\hookrightarrow& SmoothSet
+    \\
+    X 
+      &\mapsto& 
+    \underset{
+      Plot(-;X)
+    }{\underbrace{C^\infty(-;X)}}
+  }
+$$
+
+In particular, the probe [[Cartesian spaces]] $\mathbb{R}^n$ are incarnated themselves as smooth sets in this way. This allows to compare the *prescribed* plots $Plot(\mathbb{R}^n,X)$ of any smooth set with the actual smooth maps $Hom\big(\mathbb{R}^n, X \big)$ (forming the [[hom-sets]] of [[SmoothSet]]), and remarkably they coincide (this is the *[[Yoneda lemma]]* over [[CartSp]]), thus rendering the "bootstrap definition" of smooth sets consistent:
+
+$$
+  \left.
+  \begin{array}{l}
+    X \in SmoothSet
+    \\
+    \mathbb{R}^ \in CartSp
+  \end{array}
+  \right\}
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  \array{
+    Hom\big(\mathbb{R}^n,\, X\big)
+    &\overset{}{\longrightarrow}&
+    Plot\big(\mathbb{R}^n,\, X\big)
+    \\
+    f &\mapsto& f \circ id_{\mathbb{R}^n}
+    \,.
+  }
+$$
 
 (...)
 
@@ -2322,6 +2409,8 @@ $
 
 * {#FreedMooreSegal07b} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *Heisenberg Groups and Noncommutative Fluxes*, Annals Phys. **322** (2007) 236-285 &lbrack;[arXiv:hep-th/0605200](https://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
 
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]]: *[[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+
 
 * {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
 
@@ -2346,14 +2435,16 @@ $
 
 * {#Sati10} [[Hisham Sati]], *Geometric and topological structures related to M-branes*, in *Superstrings, Geometry, Topology, and $C^\ast$-algebras*, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arXiv.org/abs/1001.5020), [ams:pspum/081](http://www.ams.org/books/pspum/081)&rbrack;
 
-* {#SatiVoronov22} [[Hisham Sati]], [[Alexander Voronov]], (13) in: *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
-
-
 * {#SS23-MF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:M/F-Theory as Mf-Theory|M/F-Theory as $M f$-Theory]]*, Rev. Math. Phys. **35** 10 (2023) &lbrack;[doi:10.1142/S0129055X23500289](https://doi.org/10.1142/S0129055X23500289), [arXiv:2103.01877](https://arxiv.org/abs/2103.01877)&rbrack;
 
 * {#SS23-FQ} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization on Phase Space]]* &lbrack;[arXiv:2312.12517](https://arxiv.org/abs/2312.12517)&rbrack;
 
 * {#SS23-Obs} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Quantum Observables of Quantized Fluxes]]* &lbrack;[arXiv:2312.13037](https://arxiv.org/abs/2312.13037)&rbrack;
+
+* {#SatiVoronov22} [[Hisham Sati]], [[Alexander Voronov]], (13) in: *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
+
+
+* {#Schreiber24} [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
 
 * {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
 
