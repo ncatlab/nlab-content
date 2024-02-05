@@ -155,21 +155,21 @@ This category is an [[accessible category]]. If $\mathcal{U}$ satisfies the [[ax
 
 - Any [[free object|free]] [[commutative algebra|commutative $\mathbb{N}$-algebra]] on a generating set $S$ with $s(r) \coloneqq r + 1$ and $\mathcal{C}(r)$ for all $r \in \mathbb{N}[S]$, is a model of Nelson arithmetic without induction. 
 
-* The [[disjoint union]] set $\mathbb{N} + \mathbb{1}$ where $*:\mathbb{1}$ is the unique element of the [[singleton]] cextends the model $\mathbb{N}$ with: 
+* The [[disjoint union]] set $\mathbb{N} + \mathbb{1}$, where $*:\mathbb{1}$ is the unique element of the [[singleton]], extends the model $\mathbb{N}$ with: 
+  
+  1. $s(*) = *$
+  
+  1. $\forall a \in \mathbb{N}. * + a = * = a + *$ and $* + * = *$
+  
+  1. $\forall a \in \mathbb{N}. * \cdot a = a$
+  
+  1. $\forall a \in \mathbb{N} + \mathbb{1}. a \cdot * = *$
+  
+  1. $\mathcal{C}(*)$ 
+  
+  This defines a model of Nelson arithmetic without induction. Note that multiplication is not commutative and that $0 \cdot * = *$, so this is not an instance of the previous examples.
 
-1. $s(*) = *$
-
-1. $\forall a \in \mathbb{N}. * + a = * = a + *$ and $* + * = *$
-
-1. $\forall a \in \mathbb{N}. * \cdot a = a$
-
-1. $\forall a \in $\mathbb{N} + \mathbb{1}$. a \cdot * = *$
-
-1. $\mathcal{C}(*)$ 
-
-Is a model of Nelson arithmetic without induction. Note that multiplication is not commutative and that $0 \cdot * = *$, so this is not an instance of the previous examples.
-
-* Given any nonstandard model $N$ of Peano arithmetic, and any subset $C \subset N$ with $0 \in C$ and $a \in C \Rightarrow a+1 \in C$, $N$ and $C$ together give a model of Nelson arithemtic.
+* Given any nonstandard model $N$ of Peano arithmetic, and any subset $C \subset N$ with $0 \in C$ and $a \in C \Rightarrow a+1 \in C$, $N$ and $C$ together give a model of Nelson arithmetic.
 
 ## Groupoidal categorification
 
