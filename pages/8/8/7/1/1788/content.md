@@ -3,6 +3,8 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-GroupoidOfYMFieldOnR3.jpg:file]]
+
 [[GeomPhys-GlobularAmongSimplicial.jpg:file]]
 
 [[GeomPhys-SimplicialSetSchematics.jpg:file]]
