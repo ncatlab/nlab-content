@@ -78,16 +78,6 @@ The analytic principles of omniscience imply the corresponding ones for natural 
 
 (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
 
-There are also analytic principles of omniscience for the set of Cauchy sequences of rational numbers. Since the set of Cauchy sequences of rational numbers is an [[ordered local ring]] whose [[residue field]] is the [[ordered field]] of [[Cauchy real numbers]], one has the following principles of omniscience
-
-*  The __analytic LPO__ states that every [[Cauchy sequence]] of [[rational numbers]] is invertible or non-invertible, or equivalently [[trichotomy]] for the Cauchy sequence of rational numbers ($x \gt y$, $x \lt y$, or $x - y$ is non-invertible), or equivalently that Cauchy sequences of rational numbers form a [[discrete local ring]].
-
-* The __analytic WLPO__ states that the equivalence relation $x \approx y$ on the local ring of Cauchy sequences of rational numbers, defined as $x - y$ is non-invertible, is a [[decidable relation]]. 
-
-*  The __analytic LLPO__ states that the usual [[preorder]] on the local ring of Cauchy sequences of rational numbers is a [[total preorder]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for Cauchy sequences of rational numbers.
-
-If [[quotient sets]] exist, these principles of omniscience directly imply the corresponding analytic principles of omniscience for the Cauchy real numbers. 
-
 ## In the internal logic
 
 In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
