@@ -204,7 +204,7 @@ The [[simplicial nerve]] of a [[category]] (i.e. of a [[1-category]]) is a [[cos
 Of course there is more to a category than its associativity condition, and hence the converse fails: Not every [[coskeleton|2-coskeletal]] [[simplicial set]] is the [[nerve of a category]]. For example the [[boundary of a simplex|boundary of the 2-simplex]], $\partial \Delta^2$, is 2-coskeletal but not the nerve of a category, since it is missing a [[composition]] of the edges $0 \to 1 \to 2$, namely it is missing a filler of this [[inner horn]].
 
 In fact, a [[simplicial set]] is the [[nerve]] of a [[category]] iff it has *unique* [[inner horn|inner $n$-horn]]-fillers for $n \geq 2$ (e.g. [this Prop.](nerve#sSetIsNerveOfCategoryIffAllInnerHornsHaveUniqueFillers)).
-But [[coskeleton|2-coskeletality]] already implies that all $k \geq 4$-horns have unique filles (first uniquely fill the missing $k-1$-face then the interior $k$)-cell. Together this implies that:
+But [[coskeleton|2-coskeletality]] already implies that all $k \geq 4$-horns have unique filler (first uniquely fill the missing $k-1$-face then the interior $k$)-cell. Together this implies that:
 
 A [[simplicial set]] is the [[nerve]] of a [[category]] iff
 
