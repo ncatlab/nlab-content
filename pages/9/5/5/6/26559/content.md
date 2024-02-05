@@ -2372,6 +2372,7 @@ and in generalization of (eq:DifferentialFormsModulatedOnManifolds), this is aga
 \]
 
 
+
 \linebreak
 
 
@@ -2422,10 +2423,10 @@ Hence (still disregarding for the moment its [[differential geometry]]) the [[un
     }
 \end{imagefromfile}
 
-Hence in the spirit of the above discussion of generalized spaces defined by how to plot out probe-spaces inside them, simplicial sets are those space which are probe-able by the abstract cellular simplices (forming the [[simplex category]] $\Delta$), and hence the category [[sSet]] of simplicial sets is that of [[presheaves]] on $\Delta$:
+Hence in the spirit of the above discussion of generalized spaces defined by how to plot out probe-spaces inside them, simplicial sets are those space which are probe-able by the abstract cellular simplices (forming the [[simplex category]] $\Delta$), and hence the category [[SimpSet]] of simplicial sets is that of [[presheaves]] on $\Delta$:
 
 $$
-  sSet
+  SimpSet
   \;\coloneqq\;
   PSh(\Delta)
   \,.  
@@ -2457,13 +2458,13 @@ For example, given a [[Lie group]] $G$ with [[Lie algebra]] $\mathfrak{g}$ then 
 \begin{imagefromfile}
     "file_name": "The2Horns.jpg",
     "float": "right",
-    "width": 520,
+    "width": 510,
     "unit": "px",
     "margin": {
         "top": -30,
         "bottom": 20,
         "right": 0, 
-        "left": 0
+        "left": 10
     }
 \end{imagefromfile}
 
@@ -2473,7 +2474,7 @@ Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-KanCondition.jpg",
-    "width": 600,
+    "width": 540,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2483,41 +2484,162 @@ Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be
     }
 \end{imagefromfile}
 
-For example, any topological space $\mathcal{A}$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh \mathcal{A} \,\in\, sSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of topological $n$-simplices:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-TopologicalSimplices.jpg",
+    "float": "right",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+For example, any topological space $X$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh X \,\in\, SimpSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of the *topological* $n$-simplices $\Delta^n_{Top}$ in $X$:
 
 $$
+  \begin{array}{l}
   Plot\big(
-    \Delta^m
+    \Delta^n
     ,\,
     \esh 
-    \mathcal{A}
+    X
   \big)
-  \;\coloneq\;
+  \\
+  \;\coloneqq\;
   Hom_{Top}\Big(
-    \big\{
-      \vec x \in (\mathbb{R}_{\geq 0})^{\times^{n+1}}
-      \,\big\vert\,
-      \sum_i x^i = 1
-    \big\}
+    \underset{\Delta^n_{Top}}{
+    \underbrace{
+      \big\{
+        \vec x \in (\mathbb{R}_{\geq 0})^{\times^{n+1}}
+        \,\big\vert\,
+        \textstyle{\sum}_i x^i = 1
+      \big\}
+    }
+    }
     ,\,
-    \mathcal{A}
+    X
   \Big)
   \,.
+  \end{array}
 $$
+
+This construction forgets the topology but retains retains the "[[homotopy type]]" of $X$, which is all that matters for plain (as opposed to [[differential cohomology|differential]]) [[nonabelian cohomology]]:
+
+With the set of connected components of an $\infty$-groupoid $\mathcal{X} \,\in\, SimpSet_{Kan}$ being the [[quotient set]] of the 0-simplices by the [[equivalence relation]] embodied by the 1-simplices
+
+$$
+  \pi_0
+  \mathcal{X}
+  \;\coloneqq\;
+  \mathcal{X}_0\big/\mathcal{X}_1
+$$
+
+this gives another way to state the definition of [[nonabelian cohomology]]:
+
+$$
+  \left.
+  \begin{array}{l}
+    \mathcal{A}
+    \,\in\,
+    SimpSet_{Kan}
+    \\
+    X \,\in\, Top
+  \end{array}  
+  \right\}
+  \;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;
+  H^1(X;\, \mathcal{A})
+  \;\;
+    \simeq
+  \;\;
+  \pi_0 Map\big(
+    \esh X
+    ,\,
+    \mathcal{A}
+  \big)
+  \,.
+$$
+
+
+
+As another example, for $\mathcal{X},\, \mathcal{Y} \,\in\, SimpSet_{Kan}$, there is the [[infinity-groupoid|$\infty$-groupoid]] [[derived hom-space|of maps]] between them $Map(\mathcal{X},\mathcal{Y})\,\in\, SimpSet_{Kan}$ 
+
+$$
+  Plt\big(
+    \Delta^n
+    ,\,
+    Map(\mathcal{X},\mathcal{Y})
+  \big)
+  \;\coloneqq\;
+  Hom\big(
+    \Delta^n
+    \times
+    \mathcal{X}
+    ,\,
+    \mathcal{Y}
+  \big)
+  \,.
+$$
+
+whose 0-simplices are the maps $\mathcal{X} \to \mathcal{Y}$ and whose 1-simplices are [[homotopies]] between such maps.
+
+\[\label{HomotopyEquivalenceOfSimplicialSets}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HomotopyEquivalence.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+A  *homotopy equivalence* between [[infinity-groupoids|$\infy$-groupoids]] are maps back and forth which are inverses *up to homotopy* (in that there exist homotopies $g$, $g'$ as shown).
 
 (...)
 
 \linebreak
 
 **Smooth simplicial sets of deformations of flux densities.**
+By the above we have obtained moduli for 
 
-It is now clear that these
+1. [[flux densities]] with their [[differential geometry|differential geometric]] nature in [[SmoothSet]],
 
-1. [[differential geometry|differential geometric]]
+1. local charges with their [[higher gauge theory|higher gauge theoretic]] nature in [[SimpSet]].
 
-1. [[higher gauge theory|higher gauge theoretic]]
+In order to obtain moduli for the full flux-quantized fields, 
+we need to combine these  aspects into a category of *smooth Kan-simplicial sets*. 
 
-aspects are to be combined in a category of "smooth simplicial sets". 
+It is clear that these should be presheaves on CartSp with values in Kan-simplicial sets, with their *combined* notion of local equivalence:
+
+For $\mathcal{X}, \mathcal{Y} \,\in\, PSh\big(CartSp,\, SimpSet_{Kan}\big)$ we say that a morphism $f \,\colon\, \mathcal{X} \to \mathcal{Y}$ is a *local homotopy equivalence* (lheq) if it is a homotopy equivalence (eq:HomotopyEquivalenceOfSimplicialSets) on all [[germs]] of plots, hence on all simplicial [[stalks]].
+
+The resulting
+
+$$
+  SmthGrpd_\infty
+  \;\coloneqq\;
+  \mathbf{L}^{lheq}
+  PSh\big(
+    CartSp
+    ,\,
+    SimpSet_{Kan}
+  \big)
+$$
+
+(...)
+
+
+
+For example:
 
 Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
 
@@ -2550,7 +2672,7 @@ But in higher gauge theories, there will also be deformations-of-deformations. I
 
 Such a system of sets indexed by higher [[simplices]] 
 connected by maps assigning boundary values ("face maps") and extensions to flat simplices ("degeneracy maps")
-is called a *[[simplicial set]]*. With the [[morphisms]] between these defined to be systems of maps between the component sets in each degree, which respect the face and degeneracy maps, these form a [[category]] [[sSet]] which may be regarded as replacing the base category [[Set]] in the context of [[higher gauge theory]].
+is called a *[[simplicial set]]*. With the [[morphisms]] between these defined to be systems of maps between the component sets in each degree, which respect the face and degeneracy maps, these form a [[category]] [[SimpSet]] which may be regarded as replacing the base category [[Set]] in the context of [[higher gauge theory]].
 
 In fact, the simplicial sets of deformations/concordances above have componentwise a [[contravariant functor|contravariant functorial]] dependence on the domain manifold $X$. Just as each such component functor constitutes (the plots of) a *[[smooth set]]* (eq:ModuliSheafOfFlatDifferentialForms), so their collection constitutes a smimplicial smooth set:
 
