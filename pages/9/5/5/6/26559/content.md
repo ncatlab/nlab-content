@@ -2454,12 +2454,10 @@ For example, given a [[Lie group]] $G$ with [[Lie algebra]] $\mathfrak{g}$ then 
 
 *$n\geq 3$-Simplices* are uniquely filled whenever their face $(n-1)$-simplices exist. 
 
-That this example is indeed a *[[groupoid]]* in that the gauge transformation 1-simplices have composites (whenever composable) and inverses is witnessed by the fact that whenever one finds in this simplicial set a pair of 1-simplices that share a 0-simplex (jargon: a "[[horn|2-horn]]" $\Lambda^2_-$) then there exists a 2-simplex completing the diagram:
-
-
 \begin{imagefromfile}
     "file_name": "The2Horns.jpg",
-    "width": 700,
+    "float": "right",
+    "width": 520,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2468,6 +2466,41 @@ That this example is indeed a *[[groupoid]]* in that the gauge transformation 1-
         "left": 0
     }
 \end{imagefromfile}
+
+That this example is indeed a *[[groupoid]]* in that the gauge transformation 1-simplices have composites (whenever composable) and inverses is witnessed by the fact that whenever one finds in this simplicial set a pair of 1-simplices that share a 0-simplex (jargon: a "[[horn|2-horn]]" $\Lambda^2_i$) then there exists a 2-simplex completing the diagram.
+
+Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be the sub-simplicial sets of a simplex missing the interior and the $ith$ face, and then says that a simplicial set is an *[[infinity-groupoid|$\infty$-groupoid]]* (*[[Kan complex]]*) if all images of $\Lambda^n_i$ inside it may be completed to an image of $\Delta^n$.:
+
+\[
+  \mathcal{X}
+  \,\in\,
+  \mathrm{Sh}(
+    \Delta
+    ,\,
+    \mathrm{Set}
+  )_{\mathrm{Kan}}
+  \;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;
+  \begin{tikzcd}[
+    row sep=9pt
+  ]
+    \mathllap{ \forall\;\; }
+    \Lambda^n_k 
+    \ar[r]
+    \ar[d, hook]
+    &
+    \mathcal{X}
+    \\
+    \Delta^n
+    \mathrlap{\,.}
+    \ar[
+      ur, 
+      dashed,
+      "{ \exists }", swap
+    ]
+  \end{tikzcd}
+\]
 
 
 (...)
