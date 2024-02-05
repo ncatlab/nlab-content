@@ -163,11 +163,13 @@ There are also "internal" versions of these axioms.
 ### In type theory
  {#InTypeTheory}
 
-In [[dependent type theory]], there are two interpretations of [[predicate logic]] in the type theory; [[propositions as some types]] and [[propositions as types]]. 
+In [[dependent type theory]], there are two interpretations of [[predicate logic]] in the type theory; [[propositions as some types]] and [[propositions as types]], resulting in two notions of the axiom of choice:
 
-The [[propositions as some types]] interprets [[disjunction]] and [[existential quantification]] as the [[bracket type]] of the [[sum type]] and [[dependent sum type]] respectively, and leads to the statement of the axiom of choice in [[dependent type theory]], that "any [[dependent product]] of any [[family]] of [[inhabited]] [[h-sets]] is [[inhabited]]". 
+* [[propositional axiom of choice]]
 
-The [[propositions as types]] interprets [[disjunction]] and [[existential quantification]] directly as the [[sum type]] and [[dependent sum type]] respectively, and the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts. (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.) The equivalent form of the axiom of choice involving cartesian products of inhabited types then becomes in type theory the statement that "any [[dependent product]] of any [[family]] of [[pointed types]] is [[pointed]]". and is just the [[identity function]] on the dependent product type. Since both statements is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.
+* [[type theoretic axiom of choice]]
+
+The former corresponds to the [[internal axiom of choice]] in [[categorical semantics]] and [[set theory]], while the latter is provable in any [[locally cartesian closed category]] or the [[set theory]] which interprets such categories. 
 
 ### In spatial type theory
 
