@@ -259,6 +259,10 @@ Discussion with an eye towards [[geometric type theory]] is in
 
 * {#Vickers09}[[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
 
+Discussion with an eye towards [[quantum physics]]:
+
+* Guillaume Raynaud, *Fibred Contextual Quantum Physics* ([etheses:1685](https://etheses.bham.ac.uk/id/eprint/1685/), [pdf](https://etheses.bham.ac.uk//id/eprint/1685/1/Raynaud14PhD.pdf))
+
 [[Stone duality]] for geometric theories is discussed in:
 
 * [[Henrik Forssell]], _Topological representation of geometric theories_,  [arxiv/1109.0699](http://arxiv.org/abs/1109.0699)
