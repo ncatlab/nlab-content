@@ -70,7 +70,7 @@ $$
   \Big\{
     \vec x \in (\mathbb{R}_{\geq 0})^{n+1}
     \,\big|\,
-    \textstyle{\sum}_{i = 0 }^n x_i = 1 
+    \textstyle{\sum}_{i = 0 }^n x^i = 1 
   \Big\}
   \;\subset\; 
   \mathbb{R}^{n+1}
@@ -79,6 +79,25 @@ $$
 of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose [[topological space|topology]] is the  [[subspace topology]] inherited from the [[Euclidean topology]] on $\mathbb{R}^{n+1}$.
 
 =--
+
+\linebreak
+\linebreak
+
+\[\label{IllustrationOfBarycentricTopologicalSimplices}\]
+\begin{imagefromfile}
+    "file_name": "TopologicalSimplices.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -100,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+
 
 
 +-- {: .num_defn #FaceInclusionInBarycentricCoords}
@@ -363,6 +382,7 @@ The [[orientals]] relate simplices to [[globes]].
 
 
 
+
 [[!redirects simplices]]
 
 [[!redirects simplicial simplex]]
@@ -403,5 +423,6 @@ The [[orientals]] relate simplices to [[globes]].
 
 [[!redirects geometric n-simplex]]
 [[!redirects geometric n-simplices]]
+
 
 
