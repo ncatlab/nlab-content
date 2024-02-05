@@ -19,7 +19,7 @@ For $A= \mathbb{Z}$ the [[integers]] both constructions agree, up to [[isomorphi
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
-* [[Charles Rezk]], _Analytic completion_ ([pdf](http://www.math.uiuc.edu/~rezk/analytic-paper.pdf))
+* [[Charles Rezk]], _Analytic completion_ ([pdf](https://rezk.web.illinois.edu/analytic-paper.pdf))
 
 [[!redirects analytic completions]]
 
