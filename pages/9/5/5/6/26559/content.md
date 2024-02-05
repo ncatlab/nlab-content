@@ -2371,7 +2371,9 @@ and in generalization of (eq:DifferentialFormsModulatedOnManifolds), this is aga
   \,.
 \]
 
+
 \linebreak
+
 
 **Simplicial sets of moduli of charges.**
 
@@ -2404,7 +2406,6 @@ But independently of the differential geometry, the collection of fields in a [[
 \end{imagefromfile}
 
 
-
 There are different equivalent ways to record systems of such [[higher gauge transformations]]. A [[globular set|globular]] or [[cubical set|cubical]] arrangement suggests itself but turns out to come with technical subtleties, while the "simplicial" arrangement indicated above turns out to be remarkably useful and has an extremely well-developed theory: Here the [[gauge-of-gauge transformations]] are always taken to fill a *[[triangle]]* of ordinary [[gauge transformations]], the next [[higher gauge transformations]] are taken to fill a *[[tetrahedron]]* of these, and generally an $n$-gauge transformation is taken to form an *[[n-simplex|$n$-simplex]]*. Notice that the subsumes the intuitively expected "[[globular set|globular]]" situations by taking some faces of the simplices to be labeled by identity-transformations (called *thin* or *degenerate simplices*).
 
 Hence (still disregarding for the moment its [[differential geometry]]) the [[underlying]] set of fields of a [[higher gauge theory]] is, beyond the "0-simplices" of the nominal fields themselves, actually a system of sets of higher simplices in any dimension, such that with any $n$-simplex also all its face $(n-1)$-simplices and all the degenerate $(n+1)$-simplices obtainable form it are part of this *[[simplicial set]]*:
@@ -2421,12 +2422,53 @@ Hence (still disregarding for the moment its [[differential geometry]]) the [[un
     }
 \end{imagefromfile}
 
+Hence in the spirit of the above discussion of generalized spaces defined by how to plot out probe-spaces inside them, simplicial sets are those space which are probe-able by the abstract cellular simplices (forming the [[simplex category]] $\Delta$), and hence the category [[sSet]] of simplicial sets is that of [[presheaves]] on $\Delta$:
 
+$$
+  sSet
+  \;\coloneqq\;
+  PSh(\Delta)
+  \,.  
+$$
 
+For example, given a [[Lie group]] $G$ with [[Lie algebra]] $\mathfrak{g}$ then the [[groupoid]] of $G$-[[Yang-Mills theory|Yang-Mills]] [[gauge potentials]] on $\mathbb{R}^3$ --  to be denoted $\mathbf{Plt}(\mathbb{R}^3,\mathbf{B}G_{conn})$ for reasons discussed below -- is the [[simplicial set]] whose:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-GroupoidOfYMFieldOnR3.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -35,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+*0-Simplices* are the YM [[gauge potentials]], hence the [[Lie algebra valued differential form|$\mathfrak{g}$-valued 1-forms]] $A \in \Omega^1_{dR}(\mathbb{R}^3; \mathfrak{g})$;
+
+*1-Simplices* are the smooth $G$-valued functions $g \,\colon\, \mathbb{R}^3 \to G$ serving as [[gauge transformations]] between such [[gauge potentials]];
+
+*2-Simplices* are uniquely filled whenever the gauge transformations around their boundary compose;
+
+*$n\geq 3$-Simplices* are uniquely filled whenever their face $(n-1)$-simplices exist. 
+
+That this example is indeed a *[[groupoid]]* in that the gauge transformation 1-simplices have composites (whenever composable) and inverses is witnessed by the fact that whenever one finds in this simplicial set a pair of 1-simplices that share a 0-simplex (jargon: a "[[horn|2-horn]]" $\Lambda^2_-$) then there exists a 2-simplex completing the diagram:
+
+(...)
 
 \linebreak
 
 **Smooth simplicial sets of deformations of flux densities.**
+
+It is now clear that these
+
+1. [[differential geometry|differential geometric]]
+
+1. [[higher gauge theory|higher gauge theoretic]]
+
+aspects are to be combined in a category of "smooth simplicial sets". 
 
 Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
 
