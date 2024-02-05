@@ -33,8 +33,6 @@ Unlike [[Archimedean ordered fields]], which require arithmetic [[Heyting pretop
 
 Archimedean ordered local $\mathbb{R}$-algebras are important for modeling notions of [[infinitesimals]]. These include the dual numbers, which represent nilsquare infinitesimals and are used to synthetically define [[differentiable functions]] in the real numbers, Archimedean ordered Weil $\mathbb{R}$-algebras, which represent nilpotent infintiesimals and are used to synthetically define [[smooth functions]] in the real numbers, as well as [[formal power series]] on $\mathbb{R}$, which represent infinitesimals which are not nilpotent and are used to synthetically define [[analytic functions]] in the real numbers. 
 
-In addition, the set of [[Cauchy sequences]] of [[rational numbers]] is a [[sequentially Cauchy complete]] Archimedean ordered local ring whose [[residue field]] is the [[Cauchy real numbers]]. 
-
 ## See also
 
 * [[Archimedean ordered field]]
