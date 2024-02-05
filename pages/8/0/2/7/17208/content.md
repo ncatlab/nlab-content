@@ -165,7 +165,11 @@ The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassm
 
 ### General
 
+\begin{proposition}
+Every continuous map $\mathbb{C}P^n\rightarrow\mathbb{C}P^n$ for $n$ even has a [[fixed point]]. This does not hold for $n$ odd as in this case the continuous map $\mathbb{C}P^n\rightarrow\mathbb{C}P^n, [x_0:x_1:\ldots:x_{n-1}:x_n]\mapsto[x_1:-x_0:\ldots:x_n:-x_{n-1}]$ does not have a fixed point.
+\end{proposition}
 
+([Hatcher 02, page 180](#Hatcher02))
 
 ### Cell structure
 
@@ -1003,6 +1007,8 @@ Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[
 ## References
 
 Textbook accounts:
+
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Exp. 14.22 of: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
 
