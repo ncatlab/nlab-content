@@ -2483,6 +2483,27 @@ Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be
     }
 \end{imagefromfile}
 
+For example, any topological space $\mathcal{A}$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh \mathcal{A} \,\in\, sSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of topological $n$-simplices:
+
+$$
+  Plot\big(
+    \Delta^m
+    ,\,
+    \esh 
+    \mathcal{A}
+  \big)
+  \;\coloneq\;
+  Hom_{Top}\Big(
+    \big\{
+      \vec x \in (\mathbb{R}_{\geq 0})^{\times^{n+1}}
+      \,\big\vert\,
+      \sum_i x^i = 1
+    \big\}
+    ,\,
+    \mathcal{A}
+  \Big)
+  \,.
+$$
 
 (...)
 
