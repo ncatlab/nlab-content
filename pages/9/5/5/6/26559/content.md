@@ -935,6 +935,7 @@ Several terms in (eq:BRRFieldEquationsOfMotion) deserve special attention, eithe
 **The phase space.** Abstractly, the *phase space* of a any [[field theory]] is nothing but the space of all those [[field histories]] that satisfy the given [[equations of motion]] (the "[[on-shell]]" field histories). Phrased this way, this is sometimes called the 
 *[[covariant phase space]]*, to emphasize that no choice of [[foliation]] of spacetime by [[Cauchy surfaces]] has been or needs to be made.
 
+\[\label{CanonicalAndCovariantPhaseSpace}\]
 \begin{imagefromfile}
     "file_name": "CanonicalAndCovariantPhaseSpace-240124.jpg",
     "float": "right",
@@ -2170,11 +2171,11 @@ Therefore -- among many further variants -- there are the following choices of f
  {#PhaseSpacesAsDifferentialNonabelianCohomology}
 
 
-With higher Maxwell-type equations of flux given ([above](#EquationsOfMotionOfFlux)) and with a compatible flux/charge quantization law $\mathcal{A}$ chosen ([above](#TotalFluxInNonabelianDeRhamCohomology)), we explain here how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] (including the [[gauge potentials]]) and hence its [[phase space]] appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
+With higher Maxwell-type equations of flux given ([above](#EquationsOfMotionOfFlux)) and with a compatible flux/charge quantization law $\mathcal{A}$ chosen ([above](#TotalFluxInNonabelianDeRhamCohomology)), we explain here how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] (including the [[gauge potentials]]) and hence its [[phase space]] (eq:CanonicalAndCovariantPhaseSpace) appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
 
 In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]]. 
 
-However, the "topological observables" on the higher gauge theory (those that detect topological charge structure but the local [[differential geometry]] of field configurations) depend only on the "[[shape modality|shape]]" of the phase space stack, which by the properties of "[[cohesive (infinity,1)-topos|cohesive higher topos theory]]" turns out to coincide simply with the actual [[mapping space]] from the Cauchy surface into the classifyong space $\mathcal{A}$. 
+However, the "topological observables" on the higher gauge theory (those that detect topological charge structure but not the local [[differential geometry]] of field configurations) depend only on the "[[shape modality|shape]]" of the phase space stack, which by the properties of "[[cohesive (infinity,1)-topos|cohesive higher topos theory]]" turns out to coincide simply with the actual [[mapping space]] from the Cauchy surface into the classifyong space $\mathcal{A}$. 
 
 Therefore the reader who is not to be bothered with [[(infinity,1)-topos theory|higher topos theory]] and is content with the "topological" implications of flux quantization may safely (dis-)regard this subsection as a black box which guarantees that once a classifying spaces $\mathcal{A}$ is chosen for flux quantization, it controls not only the set $H^1\big(X^d;\, \mathcal{A}\big) \,\equiv\, \pi_0 Map(X^d, \mathcal{A})$ of total charges of the theory, but also the full [[moduli space]] $Map(X^d, \mathcal{A})$ of local charges.
 
@@ -2246,14 +2247,14 @@ $$
   }
 $$
 
-In particular, the probe [[Cartesian spaces]] $\mathbb{R}^n$ are incarnated themselves as smooth sets in this way. This allows to compare the *prescribed* plots $Plot(\mathbb{R}^n,X)$ of any smooth set with the actual smooth maps $Hom\big(\mathbb{R}^n, X \big)$ into it (forming the [[hom-sets]] of [[SmoothSet]]), and remarkably they coincide (this is the *[[Yoneda lemma]]* over [[CartSp]]), thus rendering the "bootstrap definition" of smooth sets consistent:
+In particular, the probe [[Cartesian spaces]] $\mathbb{R}^n$ are incarnated themselves as smooth sets in this way. This allows to compare the *prescribed* plots $Plot(\mathbb{R}^n,X)$ of any smooth set with the actual smooth maps $Hom\big(\mathbb{R}^n, X \big)$ into it (forming the [[hom-sets]] of [[SmoothSet]]), and remarkably they coincide (this is the *[[Yoneda lemma]]* over [[CartSp]]), thus rendering consistent the above "bootstrap definition" of smooth sets:
 
 $$
   \left.
   \begin{array}{l}
     X \in SmoothSet
     \\
-    \mathbb{R}^ \in CartSp
+    \mathbb{R}^n \in CartSp
   \end{array}
   \right\}
   \;\;\;\;\;\;\;
@@ -2286,9 +2287,14 @@ $$
   \,.
 $$
 
-One checks that this is a moduli stack for differential forms on smooth manifolds, in that for $X \in SmthMfd \hookrightarrow SmthSet$ we have a [[natural bijection]]
+One checks that this is a moduli stack for differential forms on [[smooth manifolds]], in that for $X \in SmthMfd \hookrightarrow SmthSet$ we have a [[natural bijection]]
 
-$$
+\[
+  \label{DifferentialFormsModulatedOnManifolds}
+  X \in SmthMfd \hookrightarrow SmthSet
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
   Hom\big(
     X
     ,\,
@@ -2296,7 +2302,7 @@ $$
   \big)
   \;\simeq\;
   \Omega^p_{dR}(X)
-$$
+\]
 
 of the smooth maps from $X$ into $\mathbf{\Omega}^p_{dR}$ with the actual smooth differential forms.
 
@@ -2338,16 +2344,91 @@ $$
 
 It is in this way that the category [[SmoothSet]] makes (0-truncated) [[moduli stacks]] exist in just the way they ought to (and higher moduli stacks exist similarly in the higher generalization of [[smooth sets]] to [[smooth infinity-groupoids]] that we turn to below).
 
+For the case at hand, it is now straightforward to further specialize this example: The (0-truncated) moduli stack of [[flat L-infinity algebra valued differential forms|flat $\mathfrak{a}$-valued differential forms]] for a given [[L-infinity algebra|$L_\infty$-algebra]] $\mathfrak{a}$ is the [[smooth set]] whose plots are just those differential forms on [[Cartesian spaces]]
 
+\[
+  \label{ModuliSheafOfFlatDifferentialForms}
+  \Omega^1_{dR}(\text{-};\mathfrak{a})_{clsd}
+  \;\in\;
+  SmthSet
+\]
 
+and in generalization of (eq:DifferentialFormsModulatedOnManifolds), this is again the moduli stack of such differential forms in that:
 
-(...)
+\[
+  \label{FlatDifferentialFormsModulatedOnManifolds}
+  X \in SmthMfd \hookrightarrow SmthSet
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  Hom\big(
+    X
+    ,\,
+    \Omega^1_{dR}(\text{-};\mathfrak{a})_{clsd}
+  \big)
+  \;\simeq\;
+  \Omega^p_{dR}(X)
+  \,.
+\]
 
 \linebreak
 
-**Higher deformations of flux densities.**
+**Simplicial sets of moduli of charges.**
 
-Recall (eq:ConcordanceOfFlatDifferentialForms) that a coboundary in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HigherGaugeTransformationSimplices.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -35,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+But independently of the differential geometry, the collection of fields in a [[higher gauge theory]] is not really a [[set]] with unambiguously distinct [[elements]]: A pair $\Phi$, $\Phi'$ of [[gauge fields]] may be distinct and yet connected by [[gauge transformations]] $\Phi \underoverset{\sim}{g}{\longrightarrow} \Phi'$.  Moreover, for [[higher gauge fields]] there is not really a set of such gauge transformations either, as any two of them may be distinct and yet connected by a [[gauge-of-gauge transformation]] $\mu$, etc.
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-GlobularAmongSimplicial.jpg",
+    "float": "right",
+    "width": 170,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+There are different equivalent ways to record systems of such [[higher gauge transformations]]. A [[globular set|globular]] or [[cubical set|cubical]] arrangement suggests itself but turns out to come with technical subtleties, while the "simplicial" arrangement indicated above turns out to be remarkably useful and has an extremely well-developed theory: Here the [[gauge-of-gauge transformations]] are always taken to fill a *[[triangle]]* of ordinary [[gauge transformations]], the next [[higher gauge transformations]] are taken to fill a *[[tetrahedron]]* of these, and generally an $n$-gauge transformation is taken to form an *[[n-simplex|$n$-simplex]]*. Notice that the subsumes the intuitively expected "[[globular set|globular]]" situations by taking some faces of the simplices to be labeled by identity-transformations (called *thin* or *degenerate simplices*).
+
+Hence (still disregarding for the moment its [[differential geometry]]) the [[underlying]] set of fields of a [[higher gauge theory]] is, beyond the "0-simplices" of the nominal fields themselves, actually a system of sets of higher simplices in any dimension, such that with any $n$-simplex also all its face $(n-1)$-simplices and all the degenerate $(n+1)$-simplices obtainable form it are part of this *[[simplicial set]]*:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-SimplicialSetSchematics.jpg",
+    "width": 900,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+
+
+\linebreak
+
+**Smooth simplicial sets of deformations of flux densities.**
+
+Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
 
 
 \begin{imagefromfile}
@@ -2362,7 +2443,7 @@ Recall (eq:ConcordanceOfFlatDifferentialForms) that a coboundary in $\mathfrak{a
     }
 \end{imagefromfile}
 
-But in higher gauge theories, there will also be deformations-of-deformations. It is intuitively plausible that these should be given by deformation paths-of-paths parameterized by squares $[0,1]^2$, next by cubes $[0,1]^3$, etc. It turns out to be equivalent but technically more conveninet to parameterize them instead by *triangles*, then *tetrahedra* and generally by "$n$-simplices":
+But in higher gauge theories, there will also be deformations-of-deformations. It is intuitively plausible that these should be given by deformation paths-of-paths parameterized by squares $[0,1]^2$, next by cubes $[0,1]^3$, etc. It turns out to be equivalent but technically more conveninet to parameterize them instead by *triangles*, then *tetrahedra* and generally by "[[n-simplex|$n$-simplices]]":
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-SimplicialSetOfFluxDeformations.jpg",
@@ -2376,7 +2457,16 @@ But in higher gauge theories, there will also be deformations-of-deformations. I
     }
 \end{imagefromfile}
 
-Such a system of sets indexed by higher simplices is called a *[[simplicial set]]*, and in its [[contravariant functor|contravariant]] dependence on $X \,\in\, \mathrm{SmthMfd}$ it is called a *[[simplicial presheaf]]*. As such, we here denote it
+Such a system of sets indexed by higher [[simplices]] 
+connected by maps assigning boundary values ("face maps") and extensions to flat simplices ("degeneracy maps")
+is called a *[[simplicial set]]*. With the [[morphisms]] between these defined to be systems of maps between the component sets in each degree, which respect the face and degeneracy maps, these form a [[category]] [[sSet]] which may be regarded as replacing the base category [[Set]] in the context of [[higher gauge theory]].
+
+In fact, the simplicial sets of deformations/concordances above have componentwise a [[contravariant functor|contravariant functorial]] dependence on the domain manifold $X$. Just as each such component functor constitutes (the plots of) a *[[smooth set]]* (eq:ModuliSheafOfFlatDifferentialForms), so their collection constitutes a smimplicial smooth set:
+
+
+
+
+and in its [[contravariant functor|contravariant]] dependence on $X \,\in\, \mathrm{SmthMfd}$ it is called a *[[simplicial presheaf]]*. As such, we here denote it
 $
   \esh
   \,
