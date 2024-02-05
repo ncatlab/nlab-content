@@ -56,6 +56,10 @@ On computation of Yukawa couplings in [[heterotic string theory]]:
 
 * Giorgi Butbaia, Damián Mayorga Peña, Justin Tan, Per Berglund, [[Tristan Hübsch]], Vishnu Jejjala, Challenger Mishra, *Physical Yukawa Couplings in Heterotic String Compactifications* &lbrack;[arXiv:2401.15078](https://arxiv.org/abs/2401.15078)&rbrack;
 
+* Andrei Constantin, Cristofero S. Fraser-Taliente, Thomas R. Harvey, [[Andre Lukas]], [[Burt Ovrut]], *Computation of Quark Masses from String Theory* &lbrack;[arXiv:2402.01615](https://arxiv.org/abs/2402.01615)&rbrack;
+
+
+
 and in [[intersecting D-brane models]] of [[type II string theory]] via [[Fukaya categories]]:
 
 * {#CremadesIbanezMarchesano03} D. Cremades, [[Luis Ibáñez]], [[Fernando Marchesano]], _Yukawa couplings in intersecting D-brane models_, JHEP 0307 (2003) 038 ([arXiv:hep-th/0302105](https://arxiv.org/abs/hep-th/0302105))
