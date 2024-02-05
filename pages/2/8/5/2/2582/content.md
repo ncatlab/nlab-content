@@ -279,12 +279,12 @@ A good notion of geometric [[homotopy groups in an (∞,1)-topos]] exist in a [[
 
 The original reference is 
 
-*  [[George Whitehead]] _Fiber Spaces and the Eilenberg Homology Groups_, PNAS **38**, No. 5 (1952)
+*  [[George Whitehead]], _Fiber Spaces and the Eilenberg Homology Groups_, PNAS **38**, No. 5 (1952)
  {#Whitehead}
 
 A textbook account is around example 4.20 in
 
-* [[Allen Hatcher]], _Algebraic Topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 A more detailed useful discussion happens to be in section 2.A, starting on p. 11 of 
 
