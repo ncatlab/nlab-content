@@ -3,6 +3,8 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-HomotopyEquivalence.jpg:file]]
+
 [[GeomPhys-TopologicalSimplices.jpg:file]]
 
 [[GeomPhys-KanCondition.jpg:file]]
