@@ -12,7 +12,8 @@ Review and exposition:
 
 * {#Nilles11} [[Hans-Peter Nilles]], _Strings, Exceptional Groups and Grand Unification_, talk at _[Planck 2011](https://indico.cern.ch/event/112851/)_ \[<a href="http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/114planck.pdf">pdf</a>, [[Nilles11GUT.pdf:file]]\]
 
-* [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2401.03125](https://arxiv.org/abs/2401.03125), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+* [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) \[<a href="https://doi.org/10.1007/978-981-19-3079-9">doi:10.1007/978-981-19-3079-9</a>, 
+[arXiv:2401.03125](https://arxiv.org/abs/2401.03125)\]
 
 
 #### The $E_8 \times E_8$-heterotic string 
@@ -77,6 +78,10 @@ Review includes
 Computation of [[metrics]] on these Calabi-Yau compactifications (eventually needed for computing their induced [[Yukawa couplings]]) is started in 
 
 * [[Volker Braun]], Tamaz Brelidze, [[Michael Douglas]], [[Burt Ovrut]], _Calabi-Yau Metrics for Quotients and Complete Intersections_, JHEP 0805:080, 2008 ([arXiv:0712.3563](https://arxiv.org/abs/0712.3563))
+
+and via [[machine learning]]:
+
+* Andrei Constantin, Cristofero S. Fraser-Taliente, Thomas R. Harvey, [[Andre Lukas]], [[Burt Ovrut]], *Computation of Quark Masses from String Theory* \[<a href="https://arxiv.org/abs/2402.01615">arXiv:2402.01615</a>\]
 
 This "heterotic standard model" has a "hidden sector" copy of the actual standard model, more details of which are discussed here:
 
