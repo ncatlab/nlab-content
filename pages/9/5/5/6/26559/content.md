@@ -2259,6 +2259,7 @@ $$
     \\
     \mathbb{R}^n \in CartSp
   \end{array}
+  \;
   \right\}
   \;\;\;\;\;\;\;
   \vdash
@@ -2410,7 +2411,7 @@ But independently of the differential geometry, the collection of fields in a [[
 \end{imagefromfile}
 
 
-There are different equivalent ways to record systems of such [[higher gauge transformations]]. A [[globular set|globular]] or [[cubical set|cubical]] arrangement suggests itself but turns out to come with technical subtleties, while the "[[simplicial set|simplicial]]" arrangement indicated above turns out to be remarkably useful and has an [[simplicial homotopy theory|extremely well-developed theory]]: Here the [[gauge-of-gauge transformations]] are always taken to fill a *[[triangle]]* of ordinary [[gauge transformations]], the next [[higher gauge transformations]] are taken to fill a *[[tetrahedron]]* of these, and generally an $n$-gauge transformation is taken to form the $n$-dimensional generalization of tetrahedra, called *[[n-simplex|$n$-simpleces]]*. Notice that this subsumes the intuitively expected "[[globular set|globular]]" situations by taking some faces of the simplices to be labeled by identity-transformations, as indicated on the right.
+There are different equivalent ways to record systems of such [[higher gauge transformations]]. A [[globular set|globular]] or [[cubical set|cubical]] arrangement suggests itself but turns out to come with technical subtleties, while the "[[simplicial set|simplicial]]" arrangement indicated above turns out to be remarkably useful and has an [[simplicial homotopy theory|extremely well-developed theory]]: Here the [[gauge-of-gauge transformations]] are always taken to fill a *[[triangle]]* of ordinary [[gauge transformations]], the next [[higher gauge transformations]] are taken to fill a *[[tetrahedron]]* of these, and generally an $n$-gauge transformation is taken to form the $n$-dimensional generalization of tetrahedra, called *[[n-simplex|$n$-simplices]]*. Notice that this subsumes the intuitively expected "[[globular set|globular]]" situations by taking some faces of the simplices to be labeled by identity-transformations, as indicated on the right.
 
 Hence (still disregarding its [[differential geometry]]) the [[underlying]] set of fields of a [[higher gauge theory]] is, beyond the "0-simplices" of the nominal fields themselves, actually a system of sets of higher simplices of [[higher gauge transformations]] in any dimension, such that with any $n$-simplex also all its face $(n-1)$-simplices and all the correspoinding "thin" ("degenerate") $(n+1)$-simplices are part of this *[[simplicial set]]*:
 
@@ -2528,7 +2529,7 @@ Hence a  *homotopy equivalence* between [[infinity-groupoids|$\infty$-groupoids]
 > (Beware that if one works with all simplicial sets instead of just the [[Kan complexes|Kan-simplicial sets]] among them, as often done in the literature, then the relevant notion of equivalence is instead "[[weak homotopy equivalence]]".)
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-TopologicalSimplices.jpg",
+    "file_name": "GeomPhys-GeometricSimplices.jpg",
     "float": "right",
     "width": 500,
     "unit": "px",
@@ -2540,7 +2541,7 @@ Hence a  *homotopy equivalence* between [[infinity-groupoids|$\infty$-groupoids]
     }
 \end{imagefromfile}
 
-As a more concrete class of examples: A [[topological space]] $X$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh X \,\in\, SimpSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of the *topological* $n$-simplices $\Delta^n_{Top}$ in $X$:
+As a more concrete class of examples: A [[topological space]] $X$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh X \,\in\, SimpSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of the *geometric* $n$-simplices $\Delta^n_{geo}$ in $X$:
 
 \[
   \label{SimplicialShape}
@@ -2554,8 +2555,9 @@ As a more concrete class of examples: A [[topological space]] $X$ gives rise to 
   \\
   \;\coloneqq\;
   Hom_{Top}\Big(
+    \;
     \underset{
-      \Delta^n_{Top}
+      \Delta^n_{geo}
       \phantom{
         \vert^{\vert^{\vert}}
       }
@@ -2568,6 +2570,7 @@ As a more concrete class of examples: A [[topological space]] $X$ gives rise to 
       \big\}
     }
     }
+    \,
     ,\,
     X
   \Big)
@@ -2657,10 +2660,12 @@ To regard these local homotopy equivalences as the actual equivalences of smooth
   \label{SmoothInfinityGroupoids}
   SmthGrpd_\infty
   \;\coloneqq\;
-  \mathbf{L}^{lheq}
+  \mathbf{L}^{\!lheq}
+  \,
   SmoothSimpSet_{Kan}
   \;\coloneqq\;
-  \mathbf{L}^{lheq}
+  \mathbf{L}^{\!lheq}
+  \,
   PSh\big(
     CartSp
     ,\,
@@ -2732,7 +2737,7 @@ As an example of a local homotopy equivalence of smooth simplicial sets, conside
 
 Since the patches are subsets of $X^d$, this has an evident map to $X^d$ which is readily seen to be a local homotopy equivalence.
 
-Since this map becomes invertible in (eq:SmoothInfinityGroupoids), maps in $SmoothGrpd_\infty$ out of $X^d$ are the same as maps out of $\widehat X{}^d$. But some further theory shows that $\widehat X{}^d$ is a *good* (namely: [[cofibrant object|cofibrant]]) representative of the local homotopy equivalence class of $X^d$, in that maps out of it may be considered already before localization, in $SmoothSimpSet_{Kan}$.
+Since this map $\widehat X{}^d \to X^d$ becomes invertible in (eq:SmoothInfinityGroupoids), maps in $SmoothGrpd_\infty$ out of $X^d$ are the same as maps out of $\widehat X{}^d$. But some further theory shows that $\widehat X{}^d$ is a *good* (namely: [[cofibrant object|cofibrant]]) representative of the local homotopy equivalence class of $X^d$, in that maps out of it may be considered already before localization, in $SmoothSimpSet_{Kan}$.
 
 This is important, because for any [[infinity-groupoid|$\infty$-groupoid]] $\mathcal{A} \,\in\, SimpSet_{Kan} \xhookrightarrow{const} SmoothSimpSet_{Kan}$ regarded as a geometrically discrete [[smooth infinity-groupoid|smooth $\infty$-groupoid]], the [[nonabelian cohomology]] $H^1\big(X;\, \Omega\mathcal{A}\big)$ (eq:NonabelianCohomologyViaSimplicialMappings)
 may equivalently be computed as the special case of "differential" cohomology of [[smooth infinity-groupoid|smooth $\infty$-groupoids]] with coefficients that happen to be non-differential (geometrically [[discrete object|discrete]]) 
@@ -2797,7 +2802,7 @@ Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfr
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-DeformationPathOfFluxDensities-240204.jpg",
-    "width": 500,
+    "width": 470,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2807,7 +2812,7 @@ Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfr
     }
 \end{imagefromfile}
 
-But in higher gauge theories, there are also non-trivial deformations-of-deformations varying over [[n-simplex|$n$-simplices]]":
+Here $[0,1] \simeq \Delta^1_{geo}$, and in higher gauge theories there are also non-trivial deformations-of-deformations varying over the higher dimensional [[n-simplex|$n$-simplices]] $\Delta^n_{geo}$:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-SimplicialSetOfFluxDeformations.jpg",
@@ -2859,36 +2864,44 @@ $$
 
 (2.) Given an identification $\mathfrak{a} \,\simeq\, \mathfrak{l}\mathcal{A}$ with a [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (Prop. \ref{SullivanTheorem}), then the [[fundamental theorem of dg-algebraic rational homotopy theory]] (eq:FundamentalTheoremOfRHT) furthermore says &lbrack;[FSS23-Char, Lem. 9.1](#FSS23Char)&rbrack; that we have a (homotopy-)equivalence to the $\mathbb{R}$-rationalization $L^{\mathbb{R}} \mathcal{A}$ of $\mathcal{A}$  ([above](#RationalizationOverTheReals)) so that [[rationalization]] gives a **differential character map** &lbrack;[FSS23-Char, Def. 9.2](#FSS23Char)&rbrack;
 
-$$
-  \mathcal{A}
-    \xrightarrow{\;\; \eta^{\mathbb{R}} \;\;}
-  L^{\mathbb{R}}
-  \mathcal{A}
-    \xrightarrow{\;\; \sim \;\;}
-  \esh
-  \,
-  \Omega^1_{\mathrm{dR}}\big(
-    -;
-    \mathfrak{a}
-  \big)_{clsd}  
-  \,.
-$$
 
-This way we may now *locally* implement [[flux quantization]] 
+\begin{imagefromfile}
+    "file_name": "GeomPhys-DifferentialCharacterMap.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-ChargesToFluxHomotopy.jpg",
+    "float": "right",
+    "width": 340,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+This way one may now *locally* implement [[flux quantization]] 
 
 * of flux densities $\vec F \,\colon\, X^d \to \Omega^1_{dR}\big(-;\mathfrak{a}\big)$
 
 * by charges $\xhi \,\colon\, X^d \to \mathcal{A}$
 
-by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids of the following form:
-
-
-
+by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids as shown on the right. These homotopies turn out to reflect the expected [[gauge potentials]].
 
 \linebreak
 
 (...)
-
 
 \linebreak
 
