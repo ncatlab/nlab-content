@@ -3,6 +3,10 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-ModulatingFluxesAndCharges-240206.jpg:file]]
+
+[[GeomPhys-CechGroupoid.jpg:file]]
+
 [[GeomPhys-SmoothInfinityGroupoids-240206.jpg:file]]
 
 [[GeomPhys-HomotopyType.jpg:file]]
