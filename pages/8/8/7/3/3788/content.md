@@ -27,7 +27,7 @@ If $\mathcal{C}$ and $\mathcal{D}$ are strict double categories, i.e. [[internal
 In explicit terms:
 
 \begin{definition}
-   Let $\mathcal{C}$ and $\mathcal{D}$ be double categories. Denote by $v\mathcal{C}$ (resp. $v\mathcal{D}$) and $h\mathcal{C}$ (resp. $h\mathcal{D}$) the horizontal and vertical categories, respectively, underlying $\mathcal{C}$ (resp. $\mathcal{D}$). Moreover, let us denote by $\vert$ the horizontal composition of squares and by $\frac{\phantom{xx}}{\phantom{xx}}$ the horizontal one.
+   Let $\mathcal{C}$ and $\mathcal{D}$ be double categories. Denote by $v\mathcal{C}$ (resp. $v\mathcal{D}$) and $h\mathcal{C}$ (resp. $h\mathcal{D}$) the horizontal and vertical categories, respectively, underlying $\mathcal{C}$ (resp. $\mathcal{D}$). Moreover, let us denote by $\vert$ the horizontal composition of squares and by $\frac{\phantom{xx}}{\phantom{xx}}$ the vertical one.
 
 A double functor $F: \mathcal{C} \to \mathcal{D}$ consists of the following data:
 
