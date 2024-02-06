@@ -34,6 +34,8 @@ When $W$ is furthermore equipped with the [[structure]] of a [[monoid]], then $W
 
 On the other hand, if $W$ is further [[exponentiable object|exponentiable]] then $W \times (-)$ is [[left adjoint]] to the [[reader monad]] $W \to -$, so that it is known as the **reader comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or **coreader comonad** (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the **product comonad** (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)) and the **environment comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Env](https://hackage.haskell.org/package/comonad-5.0.8/docs/Control-Comonad-Env.html)*).
 
+Coreader comonads in $\mathcal{C}^op$ are [[exception monads]] in $\mathcal{C}$, because products turn into [[coproducts]].
+
 ## Properties
 
 ### As an Indexed Comonad
@@ -96,6 +98,8 @@ A [[coalgebra of a comonad|coalgebra]] of the coreader comonad $W \times -$ is e
 * [[continuation monad]]
 
 * [[state monad]]
+
+* [[exception monad]]
 
 ## References
 
