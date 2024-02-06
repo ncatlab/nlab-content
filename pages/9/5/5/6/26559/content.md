@@ -2688,28 +2688,32 @@ It is clear that both [[smooth sets]] as well as plain [[infinity-groupoids|$\in
 \begin{imagefromfile}
     "file_name": "GeomPhys-CechGroupoid.jpg",
     "float": "right",
-    "width": 600,
+    "width": 520,
     "unit": "px",
     "margin": {
         "top": -30,
         "bottom": 20,
         "right": 0, 
-        "left": 0
+        "left": 15
     }
 \end{imagefromfile}
 
-As an example of a local homotopy equivalence of smooth simplicial sets, consider $X^d$ a smooth manifold and $\big\{\mathbb{R}^d \simeq U_j \xhookrightarrow{ \iota_j } X \big\}_{j \in J}$ a [[good open cover]]. Then the **[[Čech groupoid]]** $\widehat X{}^d \,\in\, SmoothSimpSet_{Kan}$ has as $\Delta^n$-shaped plots the smooth maps into the $(n+1)$-fold intersections of the open patches:
+As an example of a local homotopy equivalence of smooth simplicial sets, consider a [[smooth manifold]] $X^d$  and $\big\{\mathbb{R}^d \simeq U_j \xhookrightarrow{ \iota_j } X \big\}_{j \in J}$ a [[good open cover]]. Then the **[[Čech groupoid]]** $\widehat X{}^d \,\in\, SmoothSimpSet_{Kan}$ has as $\Delta^n$-shaped plots the smooth maps into the $(n+1)$-fold intersections of the open patches:
 
 \[
   \label{CechGroupoid}
+  \begin{array}{l}
   Plot\Big(
     \mathbb{R}^n
+    \times
+    \Delta^n
     ,\,
     \widehat{X}{}^d
   \Big)
-  \;\;
+  \\
+  \;
   \coloneqq
-  \;\;
+  \;
   C^\infty\big(
     \mathbb{R}^n
     ,\,
@@ -2718,19 +2722,14 @@ As an example of a local homotopy equivalence of smooth simplicial sets, conside
     }{
       \textstyle{\coprod}
     }
+    \,
     U_{j_0} \cap \cdots \cap U_{j_n}
   \big)
   \,.
+  \end{array}
 \]
 
-Since the patches are subsets of $X^d$, this has an evident map to $X^d$ which is readily seen to be a local homotopy equivalce:
-
-$$
-  \widehat X^d 
-  \xrightarrow{\;\; lheq \;\;}
-  X^d
-  \,.
-$$
+Since the patches are subsets of $X^d$, this has an evident map to $X^d$ which is readily seen to be a local homotopy equivalence.
 
 Since this map becomes invertible in (eq:SmoothInfinityGroupoids), maps in $SmoothGrpd_\infty$ out of $X^d$ are the same as maps out of $\widehat X{}^d$. But some further theory shows that $\widehat X{}^d$ is a *good* (namely: [[cofibrant object|cofibrant]]) representative of the local homotopy equivalence class of $X^d$, in that maps out of it may be considered already before localization, in $SmoothSimpSet_{Kan}$.
 
@@ -2757,19 +2756,39 @@ may equivalently be computed as the special case of "differential" cohomology of
     \simeq
   \;\;
   \pi_0 Map\big(
+    \,
     \widehat X{}^d
     ,\,
     \mathcal{A}
+    \,
   \big)
   \,,
 \]
 
 In components this is the **[[Čech cohomology]]**-presentation of generalized [[nonabelian cohomology]].
 
+On the other hand, if $A \,\in\, SmoothSet \hookrightarrow SmoothGrpd_\infty$ is 0-truncated, then smooth simplicial maps out of the [[Čech groupoid]] into $A$ collapse to maps out of just $X$ itself.
+
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-ModulatingFluxesAndCharges.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 10,
+        "right": 0, 
+        "left": 20
+    }
+\end{imagefromfile}
+
+In summary so far, this means that flux densities as well as their local charges are now *both* "[[modulating morphism|modulated]]" by maps of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]:
+
+In order to impose flux quantization -- hence the condition that these $\mathfrak{a}$-flux densities are sourced by such $\mathcal{A}$-charges -- it remains to construct moduli stack in which both these components may be universally related:
+
 \linebreak
 
-
-The main example of a genuine smooth simplicial set of interest here is that of:
 
 **Higher deformations of flux densities.**
 Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
