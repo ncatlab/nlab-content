@@ -35,7 +35,7 @@ $$
 
 \begin{theorem}
 
-If the [[paracompact topological space]] $X$ has covering dimension $\leq n$, then the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,11)}(Op(X))$ is an [[(∞,1)-topos]] of [[homotopy dimension]] $\leq n$.
+If the [[paracompact topological space]] $X$ has covering dimension $\leq n$, then the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ is an [[(∞,1)-topos]] of [[homotopy dimension]] $\leq n$.
 
 \end{theorem}
 
