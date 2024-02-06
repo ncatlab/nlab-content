@@ -34,10 +34,10 @@ In a [[category]] $C$ with [[pullbacks]], a **preordered object** $X$ is an obje
 
 * internal [[reflexive relation|reflexivity]]: $\rho \colon X \to R$ which is a [[section]] both of $s$ and of $t$, i.e., $s \circ \rho = t \circ \rho = 1_X$;
 
-* internal [[transitive relation|transitivity]]: $\tau_p: R \times_X R \to R$ which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following diagram commutes
+* internal [[transitive relation|transitivity]]: $\tau: R \times_X R \to R$ which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following diagram commutes
   $$\array{
     && R \\  
-    & {}^{\mathllap{t}}\nearrow & \downarrow \\
+    & {}^{\mathllap{\tau}}\nearrow & \downarrow \\
     R \times_X R & \stackrel{(s \circ p_1,t \circ p_2)}\rightarrow & X \times X
   }
   $$
@@ -55,7 +55,7 @@ where $p_1$ and $p_2$ are the projections defined by the [[pullback | pullback d
 +-- {: .num_remark}
 ###### Remark
 
-Since $i$ is a [[monomorphism]], the maps $\rho$, and $\tau_p$ are necessarily unique if they exist.
+Since $i = (s,t)$ is a [[monomorphism]], the maps $\rho$ and $\tau$ are necessarily unique if they exist.
 
 =--
 
