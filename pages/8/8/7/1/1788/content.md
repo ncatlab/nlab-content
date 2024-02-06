@@ -3,6 +3,8 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-SmoothInfinityGroupoids-240206.jpg:file]]
+
 [[GeomPhys-HomotopyType.jpg:file]]
 
 [[GeomPhys-HomotopyEquivalence.jpg:file]]
