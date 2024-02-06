@@ -63,6 +63,11 @@ Further discussion:
 
 * [[Vivek Kr. Singh]], S. Chauhan, A. Dwivedi, P. Ramadevi, B.P. Mandal, S. Dwivedi, *Knot-Quiver correspondence for double twist knots* &lbrack;[arXiv:2303.07036](https://arxiv.org/abs/2303.07036)&rbrack;
 
+* [[Marko Stošić]], *Generalized knots-quivers correspondence* &lbrack;[arXiv:2402.03066](https://arxiv.org/abs/2402.03066)&rbrack;
+
+
+
+
 [[!redirects knot-quiver correspondence]]
 
 
