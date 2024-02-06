@@ -10,7 +10,7 @@ This is a theorem due to [[Thomas Fox]] which characterizes products in a [[cart
 
 ## Theorem
 
-A [[monoidal category]] is cartesian if and only if it is equivalent to its own category of cocommutative [[comonoids]]. Thus every object is equipped with a cocommutative comonoid structure, and these structures are respected by all maps.
+A [[symmetric monoidal category]] is cartesian if and only if it is [[isomorphic]] to its own category of cocommutative [[comonoids]]. Thus every object is equipped with a unique cocommutative comonoid structure, and these structures are respected by all maps.
 
 ## Related concepts
 
