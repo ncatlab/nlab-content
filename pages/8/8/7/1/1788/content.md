@@ -3,6 +3,8 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-SimpSetOfFluxDeformations-240206.jpg:file]]
+
 [[GeomPhys-GeometricSimplices.jpg:file]]
 
 [[GeomPhys-ChargesToFluxHomotopy.jpg:file]]
