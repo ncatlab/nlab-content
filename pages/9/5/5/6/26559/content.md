@@ -2815,8 +2815,8 @@ Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfr
 Here $[0,1] \simeq \Delta^1_{geo}$, and in higher gauge theories there are also non-trivial deformations-of-deformations varying over the higher dimensional [[n-simplex|$n$-simplices]] $\Delta^n_{geo}$:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-SimplicialSetOfFluxDeformations.jpg",
-    "width": 900,
+    "file_name": "GeomPhys-SimpSetOfFluxDeformations-240206.jpg",
+    "width": 850,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2826,7 +2826,7 @@ Here $[0,1] \simeq \Delta^1_{geo}$, and in higher gauge theories there are also 
     }
 \end{imagefromfile}
 
-Since each component here is a set of plots of a [[smooth set]] of on-shell flux densities (eq:ModuliSheafOfFlatDifferentialForms), we have in total a smooth (Kan-)simplicial set &lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack; which we may think of as the [[shape modality|shape]]/[[shape via cohesive path ∞-groupoid|smooth path $\infty$-groupoid]]
+Since in each degree this is a set of plots of a [[smooth set]] of on-shell flux densities (eq:ModuliSheafOfFlatDifferentialForms), we have in total a smooth simplicial set &lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack; that is Kan &lbrack;[FSS23-Char, Prop. 5.10](#FSS23)&rbrack; and which we may think of as the [[shape modality|shape]]/[[shape via cohesive path ∞-groupoid|smooth path $\infty$-groupoid]]
 
 $$
   \esh
