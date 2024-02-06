@@ -36,6 +36,8 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
 * The category of [[algebraic lattices]], considered as a full subcategory of $T_0$-[[separation axioms|spaces]], is a nice cartesian closed category of spaces in which to do [[domain theory]]. Related to this is the category of [[equilogical spaces]], which is locally cartesian closed (and thus also regular) and arises as the [[exact completion|reg/ex completion]] of the category of $T_0$ spaces. 
 
+* The category of [[condensed sets]] is a nice category of spaces which is a [[well-powered category|well-powered]], [[locally cartesian closed]] [[pretopos|infinitary-pretopos]] in which one can do [[condensed mathematics]]. Related to this is the category of [[pyknotic sets]], which form a [[topos]]. 
+
 ## References
 
 * [[Peter May]], _[[A Concise Course in Algebraic Topology]]_ (Chapter 5, for compactly generated spaces)
