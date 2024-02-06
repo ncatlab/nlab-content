@@ -10,6 +10,11 @@ Introducing the [[knots-quivers correspondence]]:
 
 * [[Piotr Kucharski]], [[Markus Reineke]], [[Marko Stosic]], [[Piotr Sułkowski]], *BPS states, knots and quivers*, Phys. Rev. D **96** 121902 (2017) &lbrack;[arXiv:1707.02991](https://arxiv.org/abs/1707.02991), [doi:10.1103/PhysRevD.96.121902](https://doi.org/10.1103/PhysRevD.96.121902)&rbrack;
 
+Further discussion:
+
+* [[Marko Stošić]], *Generalized knots-quivers correspondence* &lbrack;[arXiv:2402.03066](https://arxiv.org/abs/2402.03066)&rbrack;
+
+
 
 ## Related entries
 
