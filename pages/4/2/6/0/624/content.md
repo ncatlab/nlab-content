@@ -507,7 +507,9 @@ The notion of [[fully dualizable objects]] in a [[symmetric monoidal (infinity,n
 
 * {#Lurie} [[Jacob Lurie]], Section 2.3  _[[On the Classification of Topological Field Theories]]_
 
+On the connection between dualisability, finiteness, and enrichment, see:
 
+* [[Chris Heunen]], _Semimodule enrichment_, Electronic Notes in Theoretical Computer Science 218 (2008): 193-208.
 
 
 [[!redirects dualizable objects]]
