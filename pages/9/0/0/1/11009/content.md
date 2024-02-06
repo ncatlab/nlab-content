@@ -46,7 +46,7 @@ Other texts include
 
 * Mark Balaguer, _Platonism & Anti-Platonism in Mathematics_ , Oxford University Press, 1998. 
 
-* [[Barry Mazur]], _Mathematical Platonism and its Opposites_ . ([pdf](http://www.math.harvard.edu/~mazur/papers/plato4.pdf))
+* [[Barry Mazur]], _Mathematical Platonism and its Opposites_, Newsletter of the European Mathematical Society 68 (2008), 19–21. [PDF](https://ems.press/content/serial-issue-files/13674), [PDF](https://dash.harvard.edu/bitstream/handle/1/2623649/Mazur_Platonism.pdf), ([pdf](http://www.math.harvard.edu/~mazur/papers/plato4.pdf))
 
 
 
