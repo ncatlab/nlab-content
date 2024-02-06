@@ -20,7 +20,7 @@
 
 ## Summary
 
-This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the [[Heine–Borel theorem]]).
+This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]], as the [[localic completion]] of the [[rational numbers]]. The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the [[Heine–Borel theorem]]).
 
 The exposition here is pretty much [[Toby Bartels]]\'s own work, although of course the basic ideas are well known to many.  In particular, the Zigzag Lemma \ref{zigzaglemma} is Bartels\'s as far as they know (but it\'s not very deep, just bookkeeping).  The version of [[Cousin's theorem|Cousin's Theorem]] that appears here may also be original.
 
