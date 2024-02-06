@@ -509,7 +509,7 @@ The notion of [[fully dualizable objects]] in a [[symmetric monoidal (infinity,n
 
 On the connection between dualisability, finiteness, and enrichment, see:
 
-* [[Chris Heunen]], _Semimodule enrichment_, Electronic Notes in Theoretical Computer Science 218 (2008): 193-208.
+* [[Chris Heunen]], _Semimodule enrichment_, Electronic Notes in Theoretical Computer Science **218** (2008) 193-208 &lbrack;[doi:10.1016/j.entcs.2008.10.012](https://doi.org/10.1016/j.entcs.2008.10.012)&rbrack;
 
 
 [[!redirects dualizable objects]]
