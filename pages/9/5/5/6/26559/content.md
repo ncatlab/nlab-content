@@ -2146,6 +2146,7 @@ Notice that such a lift is not *just* a (quantization/discretization-)*condition
 However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]] given by an [[equality]] of gauge equivalence classes, instead one should consider an explicit [[gauge transformation]] between actual fields. Doing so leads to emergence of the [[gauge potentials]] and of the higher [[phase space]] stack of the theory, in the [next subsection](#PhaseSpacesAsDifferentialNonabelianCohomology).
 
 \begin{example}
+\label{FluxQuantizationLawsForOrdinaryElectromagnetism}
   **(flux quantization laws for ordinary electromagnetism)**
   \linebreak
 
@@ -2169,7 +2170,6 @@ Therefore -- among many further variants -- there are the following choices of f
 
 ### Phase spaces as Differential nonabelian cohomology
  {#PhaseSpacesAsDifferentialNonabelianCohomology}
-
 
 With higher Maxwell-type equations of flux given ([above](#EquationsOfMotionOfFlux)) and with a compatible flux/charge quantization law $\mathcal{A}$ chosen ([above](#TotalFluxInNonabelianDeRhamCohomology)), we explain here how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] (including the [[gauge potentials]]) and hence its [[phase space]] (eq:CanonicalAndCovariantPhaseSpace) appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
 
@@ -2675,7 +2675,7 @@ To regard these local homotopy equivalences as the actual equivalences of smooth
 
 and referred to as the *[[(infinity,1)-topos|$\infty$-topos]] of [[smooth infinity-groupoid|smooth $\infty$-groupoids]]*.
 
-It is clear that both [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] (the [[truncated object of an (infinity,1)-category|0-truncated objects]]) and the latter as the objects which are constant on [[CartSp|$CartSp$]] (the geometrically [[discrete object|discrete]] objects):
+It is clear that, both, [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] (the [[truncated object of an (infinity,1)-category|0-truncated objects]]) and the latter as the objects which are constant on [[CartSp|$CartSp$]] (the geometrically [[discrete object|discrete]] objects):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-SmoothInfinityGroupoids-240206.jpg",
@@ -2877,7 +2877,9 @@ $$
     }
 \end{imagefromfile}
 
+\linebreak
 
+\[\label{GaugePotentialsAsHomotopy}\]
 \begin{imagefromfile}
     "file_name": "GeomPhys-ChargesToFluxHomotopy.jpg",
     "float": "right",
@@ -2897,11 +2899,41 @@ This way one may now *locally* implement [[flux quantization]]
 
 * by charges $\xhi \,\colon\, X^d \to \mathcal{A}$
 
-by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids as shown on the right. These homotopies turn out to reflect the expected [[gauge potentials]].
+by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids as shown on the right. &lbrack;[FSS23-Char, Def. 9.3](#FSS23Char)&rbrack;. These homotopies turn out to reflect the expected [[gauge potentials]] -- which is not entirely obvious from the definition but follows by careful examination:
 
+
+\begin{example}
+**([[gauge potentials]] of [[electromagnetism]] and [[ordinary differential cohomology]])**
 \linebreak
+The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHomotopy) is equivalent...
 
-(...)
+* ...for the case of ordinary [[electromagnetism]] with $\mathfrak{a} \equiv b \mathfrak{u}(1)$ (or two direct summands thereof) and $\mathcal{A} \equiv B \mathrm{U}(1) = B^2 \mathbb{Z}$ (Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}):  
+
+  to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism;
+
+* ...for the case of a plain [[B-field]] with $\mathfrak{a} \equib b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
+
+  to that of a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]] on $X^d$;
+
+* ...for the general case of $\mathfrak{a} \equiv b^n \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^n \mathrm{U}(1) \simewq B^{n+1} \mathbb{Z}$:
+
+  to that of a [[cocycle]] for [[Deligne cohomology]] in degree $n+1$ on $X^d$.
+
+This is shown in [FSS23-Char, Prop. 9.5](#FSS23Char) (and with the [[Dold-Kan correspondence]] understood, the main computations are also spelled out at *[[Deligne cohomology]]* in the section *[Properties](Deligne+cohomology#Properties)*).
+\end{example}
+
+More generally:
+
+\begin{example}
+**(abelian [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]])**
+\linebreak
+For $E_\bullet$ a [[spectrum]] of spaces and $\mathcal{A} = E_n$, the data $\hat A \,\colon\,\chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHomotopy) is equivalent to a [[cocycle]] in the "canonical" version of $E_n$-[[differential cohomology]] as originally introduced by [Hopkins & Singer 2005](#HopkinsSinger05), see [Bunke 2012](#differential+cohomology#Bunke12).
+
+This is spelled out in [FSS23-Char, Ex. 9.1](#FSS23Char).
+\end{example}
+
+In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]] in the $\mathcal{A}$-[[nonabelian differential cohomology]] of $X^d$.
+
 
 \linebreak
 
@@ -2995,6 +3027,8 @@ by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids 
 
 
 * {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
+
+* {#HopkinsSinger05} [[Michael Hopkins]], [[Isadore Singer]], *[[Quadratic Functions in Geometry, Topology, and M-Theory]]*,  J. Differential Geom. **70** 3 (2005)  329-452 &lbrack;[arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [doi:10.4310/jdg/1143642908](https://doi.org/10.4310/jdg/1143642908), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908)&rbrack;
 
 * {#Hyperphysics} Hyperphysics, *Magnetic Flux* &lbrack;[hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html)&rbrack;
 
