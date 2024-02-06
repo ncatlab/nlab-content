@@ -2597,7 +2597,8 @@ Here we shall denote actual homotopy types $\mathcal{X} \,\in\, SimpSet_{Kan}$ b
 The plain (as opposed to [[differential cohomology|differential]]) [[nonabelian cohomology]] ([above](#NonabelianCohomology))
 of a topological space $X$ is an invariant of its [[shape]]/[[homotopy type]] $\esh X$ (eq:SimplicialShape) formed by the [[simplicial mapping complex]] (eq:MappingComplex):
 
-$$
+\[
+  \label{NonabelianCohomologyViaSimplicialMappings}
   \left.
   \begin{array}{l}
     \mathcal{A}
@@ -2621,7 +2622,7 @@ $$
     \mathcal{A}
   \big)
   \,,
-$$
+\]
 
 where on the right $\pi_0(-)$ refers to the connected components of an $\infty$-groupoid $\mathcal{X} \,\in\, SimpSet_{Kan}$ being the [[quotient set]] of the 0-simplices by the [[equivalence relation]] embodied by the 1-simplices:
 $
@@ -2645,7 +2646,7 @@ With the above discussion one has moduli for
 
 In order to discuss moduli for the full flux-quantized fields,  one need to combine these two aspects into a category of *smooth simplicial sets* (smooth Kan-simplicial sets, to be precise). 
 
-It is clear that these should be presheaves on [[CartSp]] with values in [[Kan complexes|Kan-simplicial sets]], subject to their *combined* notion of equivalence: *local* equivalences as for [[smooth sets]] (eq:SmoothSetsByLocalization) and *homomotopy* equivalences as for $\infty$-groupoids (eq:HomotopyEquivalenceOfSimplicialSets):
+It is clear that these should be presheaves on [[CartSp]] with values in [[Kan complexes|Kan-simplicial sets]], subject to their *combined* notion of equivalence: *local* equivalences as for [[smooth sets]] (eq:SmoothSetsByLocalization) and *homomotopy* equivalences as for [[infinity-groupoid|$\infty$-groupoids]] (eq:HomotopyEquivalenceOfSimplicialSets):
 
 For $\mathcal{X}, \mathcal{Y} \,\in\, PSh\big(CartSp,\, SimpSet_{Kan}\big)$ a morphism $f \,\colon\, \mathcal{X} \to \mathcal{Y}$ is a **local homotopy equivalence** (lheq) if it is a morphism that restricts to a [[homotopy equivalence]] (eq:HomotopyEquivalenceOfSimplicialSets) on all [[germs]] of plots, hence on all simplicial [[stalks]].
 
@@ -2668,15 +2669,30 @@ To regard these local homotopy equivalences as the actual equivalences of smooth
 
 and referred to as the *[[(infinity,1)-topos|$\infty$-topos]] of [[smooth infinity-groupoid|smooth $\infty$-groupoids]]*.
 
-For example, consider $X^d$ a smooth manifold and $\big\{\mathbb{R}^d \simeq U_j \xhookrightarrow{ \iota_j } X \big\}_{j \in J}$ a [[good open cover]]. Then the *[[Čech groupoid]]* $\widehat X^d \,\in\, SmoothSimpSet_{Kan}$ given by 
+It is clear that both [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] (the [[truncated object of an (infinity,1)-category|0-truncated objects]]) and the latter as the objects which are constant on [[CartSp|$CartSp$]] (the geometrically [[discrete object|discrete]] objects):
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-SmoothInfinityGroupoids-240206.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+As an example of a local homotopy equivalence of smooth simplicial sets, consider $X^d$ a smooth manifold and $\big\{\mathbb{R}^d \simeq U_j \xhookrightarrow{ \iota_j } X \big\}_{j \in J}$ a [[good open cover]]. Then the **[[Čech groupoid]]** $\widehat X{}^d \,\in\, SmoothSimpSet_{Kan}$ has as $\Delta^n$-shaped plots the smooth maps into the $(n+1)$-fold intersections of the open patches:
 
 \[
   \label{CechGroupoid}
-  Plot\big(
+  Plot\Big(
     \mathbb{R}^n
     ,\,
-    \widehat{X}^d
-  \big)
+    \widehat{X}{}^d
+  \Big)
   \;\;
   \coloneqq
   \;\;
@@ -2685,12 +2701,15 @@ For example, consider $X^d$ a smooth manifold and $\big\{\mathbb{R}^d \simeq U_j
     ,\,
     \underset{
       j_\bullet \in J^{n+1}
-    }{\coprod}
+    }{
+      \textstyle{\coprod}
+    }
     U_{j_0} \cap \cdots \cap U_{j_n}
   \big)
+  \,.
 \]
 
-comes with a canonical map back to $X^d$ which is a local homotopy equivalce
+Since the patches are subsets of $X^d$, this has an evident map to $X^d$ which is readily seen to be a local homotopy equivalce:
 
 $$
   \widehat X^d 
@@ -2699,21 +2718,42 @@ $$
   \,.
 $$
 
-Since this map becomes invertible in (eq:SmoothInfinityGroupoids), maps in $SmoothGrpd_\infty$ out of $X^d$ are the same as maps out of $\widehat X^d$. But some further theory shows that $\widehat X^d$ is a *good* (namely: [[cofibrant object|cofibrant]]) representative of the local homotopy equivalence class of $X^d$, in that maps out of it may be considered already before localization, in $SmoothSimpSet_{Kan}$.
+Since this map becomes invertible in (eq:SmoothInfinityGroupoids), maps in $SmoothGrpd_\infty$ out of $X^d$ are the same as maps out of $\widehat X{}^d$. But some further theory shows that $\widehat X{}^d$ is a *good* (namely: [[cofibrant object|cofibrant]]) representative of the local homotopy equivalence class of $X^d$, in that maps out of it may be considered already before localization, in $SmoothSimpSet_{Kan}$.
 
-For example, for any $\mathcal{A} \,\in\, SimpSet_{Kan} \hookrightarrow SmoothSimpSet_{Kan}$, very element of $H^1\big(X;\, \Omega\mathcal{A}\big)$ is represented by a map of smooth simplicial sets
+This is important, because for any [[infinity-groupoid|$\infty$-groupoid]] $\mathcal{A} \,\in\, SimpSet_{Kan} \xhookrightarrow{const} SmoothSimpSet_{Kan}$ regarded as a geometrically discrete [[smooth infinity-groupoid|smooth $\infty$-groupoid]], the [[nonabelian cohomology]] $H^1\big(X;\, \Omega\mathcal{A}\big)$ (eq:NonabelianCohomologyViaSimplicialMappings)
+may equivalently be computed as the special case of "differential" cohomology of [[smooth infinity-groupoid|smooth $\infty$-groupoids]] with coefficients that happen to be non-differential (geometrically [[discrete object|discrete]]) 
 
-$$
-  \widehat X^d \longrightarrow \mathcal{A}
-  \,.
-$$
+\[
+  \label{NonabelianCohomologyViaSimplicialMappings}
+  \left.
+  \begin{array}{l}
+    \mathcal{A}
+    \,\in\,
+    SimpSet_{Kan}
+    \\
+    X^d \,\in\, SmthMfd
+  \end{array}  
+  \;
+  \right\}
+  \;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;
+  H^1(X;\, \mathcal{A})
+  \;\;
+    \simeq
+  \;\;
+  \pi_0 Map\big(
+    \widehat X{}^d
+    ,\,
+    \mathcal{A}
+  \big)
+  \,,
+\]
 
-In components, this is the [[Čech cohomology]]-presentation of $\mathcal{A}$-cohomology.
+In components this is the **[[Čech cohomology]]**-presentation of generalized [[nonabelian cohomology]].
 
 \linebreak
 
-
-It is clear that both [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] and the latter as the objects which are constant on [[CartSp|$CartSp$]].
 
 The main example of a genuine smooth simplicial set of interest here is that of:
 
