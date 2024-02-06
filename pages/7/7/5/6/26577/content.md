@@ -26,7 +26,28 @@ From the [[category-theoretic probability|category-theoretic point of view]], th
 
 ## Intuition
 
-(...)
+In logical reasoning, implications in general cannot be reversed: $A \to B$, alone, does not imply $B\to A$. 
+
+In [[probability theory]], instead, conditional statements exhibit a [[duality]] which is absent in pure logical reasoning.
+
+Consider for example a city in which *all taxis are yellow*. (The implication is $taxi\to yellow$.)
+If we see a yellow car, of course we can't be sure it's a taxi. However, it's *more likely* that it's a taxi compared to a randomly colored car. This increase in likelihood is larger if the fraction of yellow cars is small. Indeed, [[Bayes' rule]] says that 
+$$
+P(taxi|yellow) = \frac{P(yellow\,taxi)}{P(yellow)} = \frac{P(taxi)}{P(yellow)} .
+$$
+
+More generally, in a city where *most* taxis are yellow, there is a high conditional probability that a given taxi is yellow,
+$$
+P(yellow|taxi) .
+$$
+The higher this probability is, the higher is the probability that a given yellow car is a taxi, again according to [[Bayes' rule]]:
+$$
+P(taxi|yellow) = \frac{P(yellow\,taxi)}{P(yellow)} = \frac{P(taxi)\,P(yellow|taxi)}{P(yellow)}
+$$
+
+In [[categorical probability]], this phenomenon can be modeled by saying that to each "conditional" morphism in the form $\{taxi, not\,taxi\}\to\{colors\,of\,cars\}$ there corresponds a canonical morphism $\{colors\,of\,cars\}\to\{taxi, not\,taxi\}$, called the *Bayesian inverse*.
+
+In some cases, this symmetry gives rise to a [[dagger category]].
 
 ## In traditional probability theory
 
@@ -67,7 +88,7 @@ For now see [[category of couplings]].
 
 ## See also
 
-* [[categorical probability]] [[Markov category]]
+* [[categorical probability]], [[Markov category]]
 
 * [[transport plan]], [[category of couplings]]
 
