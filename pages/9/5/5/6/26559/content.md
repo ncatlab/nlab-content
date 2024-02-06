@@ -2038,7 +2038,7 @@ Observing that the right-hand side looks close to the definition of [[nonabelian
     }
 \end{imagefromfile}
 
-$\;\;$**Rational homotopy theory over the Reals.** &lbrack;[Bousfield & Gugenheim 1976](rational+homotopy+theory#BousfieldGugenheim76); reviewed in [FSS23-Char, Def. 5.7, Rem. 5.2, Prop. 5.8](#FSS23)&rbrack;
+{#RationalizationOverTheReals} $\;\;$**Rational homotopy theory over the Reals.** &lbrack;[Bousfield & Gugenheim 1976](rational+homotopy+theory#BousfieldGugenheim76); reviewed in [FSS23-Char, Def. 5.7, Rem. 5.2, Prop. 5.8](#FSS23)&rbrack;
 The construction (eq:RationalizationOfASpace) also works over $\mathbb{R}$ (but is then not a "[[localization of spaces|localization]]") to give the *$\mathbb{R}$-rationalization*.
 
 With this "[[derived functor|derived]] [[extension of scalars]]" &lbrack;[FSS23-Char, Lem 5.3](#FSS23)&rbrack; and for $X$ a smooth manifold,  the fundamental theorem (eq:FundamentalTheoremOfRHT) does relate to smooth differential forms &lbrack;[FSS23-Char, Lem. 6.4](#FSS23)&rbrack; via a **[[non-abelian de Rham theorem]]** &lbrack;[FSS23-Char, Thm. 6.5](#FSS23)&rbrack;:
@@ -2049,8 +2049,8 @@ With this "[[derived functor|derived]] [[extension of scalars]]" &lbrack;[FSS23-
     "width": 860,
     "unit": "px",
     "margin": {
-        "top": -30,
-        "bottom": 20,
+        "top": -15,
+        "bottom": 5,
         "right": 0, 
         "left": 0
     }
@@ -2644,7 +2644,8 @@ For $\mathcal{X}, \mathcal{Y} \,\in\, PSh\big(CartSp,\, SimpSet_{Kan}\big)$ a mo
 
 To regard these local homotopy equivalences as the actual equivalences of smooth simplicial sets means to pass to the [[simplicial localization]] of the category of smooth simplicial sets at the local homotopy equivalences, to be denoted:
 
-$$
+\[
+  \label{SmoothInfinityGroupoids}
   SmthGrpd_\infty
   \;\coloneqq\;
   \mathbf{L}^{lheq}
@@ -2656,15 +2657,61 @@ $$
     ,\,
     SimpSet_{Kan}
   \big)
-$$
+\]
 
 and referred to as the *[[(infinity,1)-topos|$\infty$-topos]] of [[smooth infinity-groupoid|smooth $\infty$-groupoids]]*.
 
-The main example of such a smooth simplicial set of interest here is that of:
+For example, consider $X^d$ a smooth manifold and $\big\{\mathbb{R}^d \simeq U_j \xhookrightarrow{ \iota_j } X \big\}_{j \in J}$ a [[good open cover]]. Then the *[[Čech groupoid]]* $\widehat X^d \,\in\, SmoothSimpSet_{Kan}$ given by 
+
+\[
+  \label{CechGroupoid}
+  Plot\big(
+    \mathbb{R}^n
+    ,\,
+    \widehat{X}^d
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  C^\infty\big(
+    \mathbb{R}^n
+    ,\,
+    \underset{
+      j_\bullet \in J^{n+1}
+    }{\coprod}
+    U_{j_0} \cap \cdots \cap U_{j_n}
+  \big)
+\]
+
+comes with a canonical map back to $X^d$ which is a local homotopy equivalce
+
+$$
+  \widehat X^d 
+  \xrightarrow{\;\; lheq \;\;}
+  X^d
+  \,.
+$$
+
+Since this map becomes invertible in (eq:SmoothInfinityGroupoids), maps in $SmoothGrpd_\infty$ out of $X^d$ are the same as maps out of $\widehat X^d$. But some further theory shows that $\widehat X^d$ is a *good* (namely: [[cofibrant object|cofibrant]]) representative of the local homotopy equivalence class of $X^d$, in that maps out of it may be considered already before localization, in $SmoothSimpSet_{Kan}$.
+
+For example, for any $\mathcal{A} \,\in\, SimpSet_{Kan} \hookrightarrow SmoothSimpSet_{Kan}$, very element of $H^1\big(X;\, \Omega\mathcal{A}\big)$ is represented by a map of smooth simplicial sets
+
+$$
+  \widehat X^d \longrightarrow \mathcal{A}
+  \,.
+$$
+
+In components, this is the [[Čech cohomology]]-presentation of $\mathcal{A}$-cohomology.
+
+\linebreak
+
+
+It is clear that both [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] and the latter as the objects which are constant on [[CartSp|$CartSp$]].
+
+The main example of a genuine smooth simplicial set of interest here is that of:
 
 **Higher deformations of flux densities.**
 Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
-
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-DeformationPathOfFluxDensities-240204.jpg",
@@ -2706,23 +2753,53 @@ $$
   \,.
 $$
 
-This receives a canonical map
+It is in this object that [[flux densities]] become comparable to their local charges:
+
+First of all, there is evidently the canonical inclusion of the smooth set of flux densities
 
 $$
   \Omega^1_{\mathrm{dR}}\big(
     -;
     \mathfrak{a}
   \big)_{clsd}
-  \overset{
+  \xrightarrow{
+    \;\;
     \eta^{\esh}
-  }{\longrightarrow}
-  \esh
+    \;\;
+  }
   \,
   \Omega^1_{\mathrm{dR}}\big(
     -;
     \mathfrak{a}
   \big)_{clsd}
+  \,.
 $$
+
+But moreover, 
+if here $\mathfrak{a} \,\simeq\, \mathfrak{l}\mathcal{A}$ is a [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (Prop. \ref{SullivanTheorem}), then the [[fundamental theorem of dg-algebraic rational homotopy theory]] (eq:FundamentalTheoremOfRHT) furthermore says that we have a (homotopy-)equivalence to the $\mathbb{R}$-rationalization $L^{\mathbb{R}} \mathcal{A}$ of $\mathcal{A}$   ([above](#RationalizationOverTheReals)):
+
+$$
+  \mathcal{A}
+    \xrightarrow{\;\; \eta^{\mathbb{R}} \;\;}
+  L^{\mathbb{R}}
+  \mathcal{A}
+    \xrightarrow{\;\; \sim \;\;}
+  \esh
+  \,
+  \Omega^1_{\mathrm{dR}}\big(
+    -;
+    \mathfrak{a}
+  \big)_{clsd}  
+  \,.
+$$
+
+This way we may now implement [[flux quantization]] 
+
+* of flux densities $\vec F \,\colon\, X^d \to \Omega^1_{dR}\big(-;\mathfrak{a}\big)$
+
+* by local charges $\xhi \,\colon\, X^d \to \mathcal{A}$
+
+
 
 \linebreak
 
