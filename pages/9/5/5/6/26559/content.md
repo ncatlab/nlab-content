@@ -2221,18 +2221,19 @@ $$
 
 from/on the [[category]] [[CartSp]] of [[Cartesian spaces]] $\mathbb{R}^n$ ($n \in \mathbb{R}$) with [[smooth functions]] between them. Similar considerations show that a *smooth map* $f \,\colon\, X \to Y$ between [[smooth sets]] defined this way (only) by their systems of plots should be just a compatible system of transformations of plots-of-$X$ to plots-of-$Y$, hence should be a [[natural transformation]] between such functors.
 
-The further consistency requirement of *locality* of probes demands that such a smooth map $f \,\colon\, X \to Y$ should count as an [[isomorphism]] ([[diffeomorphism]] of smooth sets) already if its transformation $f_\ast$ of plots is a [[bijection]] between *[[germs]]* of plots (around $0 \in \mathbb{R}^n$, say, hence a bijection on "[[stalks]]" at $0$).
+The further consistency requirement of *locality* of probes demands that such a smooth map $f \,\colon\, X \to Y$ should "count as" an [[invertible morphism|invertible]] [[isomorphism]] ([[diffeomorphism]] of smooth sets) already if it is a *[[local isomorphism]]* in that its transformation $f_\ast$ of plots is a [[bijection]] (not necessarily on all plots but) between *[[germs]]* of plots (around $0 \in \mathbb{R}^n$, say, hence a bijection on "[[stalks]]" at $0$).
 
-This way one find that the [[category]] of [[smooth sets]] should be the [[localization of a category|localization]] of the [[category of presheaves]] on [[CartSp]] at the *[[stalk]]-wise [[bijections]]* hence at the "[[local isomorphisms]]" ($liso$), also known as the *[[category of sheaves]]* or the *[[sheaf topos]]* over the *[[site]]* [[CartSp]]:
+This way one find that the [[category]] of [[smooth sets]] should be the "[[localization of a category|localization]]" $L^{iso}$ of the [[category of presheaves]] on [[CartSp]] at the *[[stalk]]-wise [[bijections]]* hence at the "[[local isomorphisms]]" ($liso$), also known as the *[[category of sheaves]]* or the *[[sheaf topos]]* over the *[[site]]* [[CartSp]]:
 
-$$
+\[
+  \label{SmoothSetsByLocalization}
   SmoothSet
   \;\coloneqq\;
   Sh(CartSp)
   \;\simeq\;
   L^{liso}  PSh(CartSp)
   \,.
-$$
+\]
 
 For example, if $X$ is an ordinary [[smooth manifold]] then it is regarded as a smooth set by taking its plots to be the actual [[smooth functions]] into it:
 
@@ -2578,7 +2579,7 @@ As a more concrete example, a [[topological space]] $X$ gives rise to an [[infin
     "unit": "px",
     "margin": {
         "top": -30,
-        "bottom": 20,
+        "bottom": 0,
         "right": 0, 
         "left": 0
     }
@@ -2626,29 +2627,28 @@ $
 $.
 
 
-
-(...)
-
 \linebreak
 
 **Smooth simplicial sets of deformations of flux densities.**
-By the above we have obtained moduli for 
+With the above discussion one has moduli for 
 
-1. [[flux densities]] with their [[differential geometry|differential geometric]] nature in [[SmoothSet]],
+1. [[flux densities]] with their [[differential geometry|differential geometric]] nature, in [[SmoothSet]],
 
-1. local charges with their [[higher gauge theory|higher gauge theoretic]] nature in [[SimpSet]].
+1. local charges with their [[higher gauge theory|higher gauge theoretic]] nature, in [[SimpSet]].
 
-In order to obtain moduli for the full flux-quantized fields, 
-we need to combine these  aspects into a category of *smooth Kan-simplicial sets*. 
+In order to discuss moduli for the full flux-quantized fields,  one need to combine these two aspects into a category of *smooth Kan-simplicial sets*. 
 
-It is clear that these should be presheaves on CartSp with values in Kan-simplicial sets, with their *combined* notion of local equivalence:
+It is clear that these should be presheaves on [[CartSp]] with values in [[Kan complexes|Kan-simplicial sets]], subject to their *combined* notion of equivalence: *local* equivalences as for [[smooth sets]] (eq:SmoothSetsByLocalization) and *homomotopy* equivalences as for $\infty$-groupoids (eq:HomotopyEquivalenceOfSimplicialSets):
 
-For $\mathcal{X}, \mathcal{Y} \,\in\, PSh\big(CartSp,\, SimpSet_{Kan}\big)$ we say that a morphism $f \,\colon\, \mathcal{X} \to \mathcal{Y}$ is a *local homotopy equivalence* (lheq) if it is a homotopy equivalence (eq:HomotopyEquivalenceOfSimplicialSets) on all [[germs]] of plots, hence on all simplicial [[stalks]].
+For $\mathcal{X}, \mathcal{Y} \,\in\, PSh\big(CartSp,\, SimpSet_{Kan}\big)$ a morphism $f \,\colon\, \mathcal{X} \to \mathcal{Y}$ is a *local homotopy equivalence* (lheq) if it is a morphism that restricts to a [[homotopy equivalence]] (eq:HomotopyEquivalenceOfSimplicialSets) on all [[germs]] of plots, hence on all simplicial [[stalks]].
 
-The resulting
+To regard these local homotopy equivalences as the actual equivalences of smooth simplicial sets means to pass to the [[simplicial localization]] of the category of smooth simplicial sets at the local homotopy equivalences, to be denoted:
 
 $$
   SmthGrpd_\infty
+  \;\coloneqq\;
+  \mathbf{L}^{lheq}
+  SmoothSimpSet_{Kan}
   \;\coloneqq\;
   \mathbf{L}^{lheq}
   PSh\big(
@@ -2658,12 +2658,11 @@ $$
   \big)
 $$
 
-(...)
+and referred to as the *[[(infinity,1)-topos|$\infty$-topos]] of [[smooth infinity-groupoid|smooth $\infty$-groupoids]]*.
 
+The main example of such a smooth simplicial set of interest here is that of:
 
-
-For example:
-
+**Higher deformations of flux densities.**
 Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfrak{a}$-valued de Rham cohomology is a "[[concordance]]" of flux densities, to be thought of as a path of smooth variations of the flux densities subject to their [[Bianchi identities]]:
 
 
@@ -2679,7 +2678,7 @@ Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfr
     }
 \end{imagefromfile}
 
-But in higher gauge theories, there will also be deformations-of-deformations. It is intuitively plausible that these should be given by deformation paths-of-paths parameterized by squares $[0,1]^2$, next by cubes $[0,1]^3$, etc. It turns out to be equivalent but technically more conveninet to parameterize them instead by *triangles*, then *tetrahedra* and generally by "[[n-simplex|$n$-simplices]]":
+But in higher gauge theories, there are also non-trivial deformations-of-deformations varying over [[n-simplex|$n$-simplices]]":
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-SimplicialSetOfFluxDeformations.jpg",
@@ -2693,26 +2692,37 @@ But in higher gauge theories, there will also be deformations-of-deformations. I
     }
 \end{imagefromfile}
 
-Such a system of sets indexed by higher [[simplices]] 
-connected by maps assigning boundary values ("face maps") and extensions to flat simplices ("degeneracy maps")
-is called a *[[simplicial set]]*. With the [[morphisms]] between these defined to be systems of maps between the component sets in each degree, which respect the face and degeneracy maps, these form a [[category]] [[SimpSet]] which may be regarded as replacing the base category [[Set]] in the context of [[higher gauge theory]].
+Since each component here is a set of plots of a [[smooth set]] of on-shell flux densities (eq:ModuliSheafOfFlatDifferentialForms), we have in total a smooth (Kan-)simplicial set &lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack; which we may think of as the [[shape modality|shape]]/[[shape via cohesive path ∞-groupoid|smooth path $\infty$-groupoid]]
 
-In fact, the simplicial sets of deformations/concordances above have componentwise a [[contravariant functor|contravariant functorial]] dependence on the domain manifold $X$. Just as each such component functor constitutes (the plots of) a *[[smooth set]]* (eq:ModuliSheafOfFlatDifferentialForms), so their collection constitutes a smimplicial smooth set:
-
-
-
-
-and in its [[contravariant functor|contravariant]] dependence on $X \,\in\, \mathrm{SmthMfd}$ it is called a *[[simplicial presheaf]]*. As such, we here denote it
-$
+$$
   \esh
   \,
   \Omega^1_{\mathrm{dR}}\big(
     -;
     \mathfrak{a}
-  \big)
-$ 
-&lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack;.
+  \big)_{clsd}
+  \;\in\;
+  SmoothSimpSet_{Kan}
+  \,.
+$$
 
+This receives a canonical map
+
+$$
+  \Omega^1_{\mathrm{dR}}\big(
+    -;
+    \mathfrak{a}
+  \big)_{clsd}
+  \overset{
+    \eta^{\esh}
+  }{\longrightarrow}
+  \esh
+  \,
+  \Omega^1_{\mathrm{dR}}\big(
+    -;
+    \mathfrak{a}
+  \big)_{clsd}
+$$
 
 \linebreak
 
