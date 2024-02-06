@@ -343,7 +343,11 @@ A [[symmetric multicategory]] structure on the [[category]] of pseudo double cat
 
 * {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
 
+For [[univalent double categories]] in [[dependent type theory]]:
 
+* [[Niels van der Weide]], [[Nima Rasekh]], [[Benedikt Ahrens]], [[Paige Randall North]], *Univalent Double Categories* &lbrack;[arXiv:2310.09220](https://arxiv.org/abs/2310.09220)&rbrack;
+
+[[!redirects double category]]
 [[!redirects double categories]]
 [[!redirects double groupoid]]
 [[!redirects double groupoids]]
