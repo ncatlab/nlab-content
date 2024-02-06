@@ -2173,11 +2173,12 @@ Therefore -- among many further variants -- there are the following choices of f
 
 With higher Maxwell-type equations of flux given ([above](#EquationsOfMotionOfFlux)) and with a compatible flux/charge quantization law $\mathcal{A}$ chosen ([above](#TotalFluxInNonabelianDeRhamCohomology)), we explain here how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] (including the [[gauge potentials]]) and hence its [[phase space]] (eq:CanonicalAndCovariantPhaseSpace) appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
 
-In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]]. 
+In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]] (for full details we refer the reader to [FSS23-Char, §1 & §9](#FSS23Char)).
 
-However, the "topological observables" on the higher gauge theory (those that detect topological charge structure but not the local [[differential geometry]] of field configurations) depend only on the "[[shape modality|shape]]" of the phase space stack, which by the properties of "[[cohesive (infinity,1)-topos|cohesive higher topos theory]]" turns out to coincide simply with the actual [[mapping space]] from the Cauchy surface into the classifyong space $\mathcal{A}$. 
+However, the "topological observables" on the higher gauge theory (those that detect topological charge structure but not the local [[differential geometry]] of field configurations) depend only on the "[[shape modality|shape]]" of the phase space stack, which by the properties of "[[cohesive (infinity,1)-topos|cohesive higher topos theory]]" turns out to coincide simply with the actual [[mapping space]] from the Cauchy surface into the classifying space $\mathcal{A}$. 
 
 Therefore the reader who is not to be bothered with [[(infinity,1)-topos theory|higher topos theory]] and is content with the "topological" implications of flux quantization may safely (dis-)regard this subsection as a black box which guarantees that once a classifying spaces $\mathcal{A}$ is chosen for flux quantization, it controls not only the set $H^1\big(X^d;\, \mathcal{A}\big) \,\equiv\, \pi_0 Map(X^d, \mathcal{A})$ of total charges of the theory, but also the full [[moduli space]] $Map(X^d, \mathcal{A})$ of local charges.
+
 
 \linebreak
 
@@ -2767,19 +2768,20 @@ may equivalently be computed as the special case of "differential" cohomology of
 
 In components this is the **[[Čech cohomology]]**-presentation of generalized [[nonabelian cohomology]].
 
-On the other hand, if $A \,\in\, SmoothSet \hookrightarrow SmoothGrpd_\infty$ is 0-truncated, then smooth simplicial maps out of the [[Čech groupoid]] into $A$ collapse to maps out of just $X$ itself.
+On the other hand, if the target object is a smooth set such as $\Omega^1_{dR}(-;\mathfrak{a})_{clst}$ (eq:ModuliSheafOfFlatDifferentialForms) 
+then smooth simplicial maps out of the [[Čech groupoid]] into it collapse to maps out of just $X$ itself.
 
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-ModulatingFluxesAndCharges.jpg",
+    "file_name": "GeomPhys-ModulatingFluxesAndCharges-240206.jpg",
     "float": "right",
-    "width": 300,
+    "width": 280,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -50,
         "bottom": 10,
         "right": 0, 
-        "left": 20
+        "left": 30
     }
 \end{imagefromfile}
 
@@ -2833,9 +2835,9 @@ $$
   \,.
 $$
 
-It is in this object that [[flux densities]] become comparable to their local charges:
+It is in this object that [[flux densities]] become comparable to their charges:
 
-First of all, there is evidently the canonical inclusion of the smooth set of flux densities
+(1.) There is the evident inclusion of the smooth set of flux densities &lbrack;[FSS23-Char (9.3)](#FSS23Char)&rbrack;
 
 $$
   \Omega^1_{\mathrm{dR}}\big(
@@ -2855,8 +2857,7 @@ $$
   \,.
 $$
 
-But moreover, 
-if here $\mathfrak{a} \,\simeq\, \mathfrak{l}\mathcal{A}$ is a [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (Prop. \ref{SullivanTheorem}), then the [[fundamental theorem of dg-algebraic rational homotopy theory]] (eq:FundamentalTheoremOfRHT) furthermore says that we have a (homotopy-)equivalence to the $\mathbb{R}$-rationalization $L^{\mathbb{R}} \mathcal{A}$ of $\mathcal{A}$   ([above](#RationalizationOverTheReals)):
+(2.) Given an identification $\mathfrak{a} \,\simeq\, \mathfrak{l}\mathcal{A}$ with a [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] (Prop. \ref{SullivanTheorem}), then the [[fundamental theorem of dg-algebraic rational homotopy theory]] (eq:FundamentalTheoremOfRHT) furthermore says &lbrack;[FSS23-Char, Lem. 9.1](#FSS23Char)&rbrack; that we have a (homotopy-)equivalence to the $\mathbb{R}$-rationalization $L^{\mathbb{R}} \mathcal{A}$ of $\mathcal{A}$  ([above](#RationalizationOverTheReals)) so that [[rationalization]] gives a **differential character map** &lbrack;[FSS23-Char, Def. 9.2](#FSS23Char)&rbrack;
 
 $$
   \mathcal{A}
@@ -2873,11 +2874,14 @@ $$
   \,.
 $$
 
-This way we may now implement [[flux quantization]] 
+This way we may now *locally* implement [[flux quantization]] 
 
 * of flux densities $\vec F \,\colon\, X^d \to \Omega^1_{dR}\big(-;\mathfrak{a}\big)$
 
-* by local charges $\xhi \,\colon\, X^d \to \mathcal{A}$
+* by charges $\xhi \,\colon\, X^d \to \mathcal{A}$
+
+by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids of the following form:
+
 
 
 
