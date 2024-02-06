@@ -38,7 +38,7 @@ Accordingly, a [[measurable function]] $f$ on a probability space has the interp
 
 * [[quantum probability space]]
 
-* [[Prob]], [[ProbStoch]].
+* [[Prob]], [[category of coupling]].
 
 ## References
 
