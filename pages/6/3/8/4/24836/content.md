@@ -55,7 +55,11 @@ In terms of [[monads in computer science]], the *effect* of (possibly) throwing 
 
 If here $Msg = \ast$ is the [[unit type]], then the exception monad is also known as the *[[maybe monad]]*, modelling the effect that a program *may* fail, without however transmitting any further information about the failure.
 
+Exception monads correspond to [[coreader comonads]] in the opposite category, because coproducts turn into [[products]] there.
+
 ## Related entries
+
+* [[coreader comonad]]
 
 * [[maybe monad]]
 
