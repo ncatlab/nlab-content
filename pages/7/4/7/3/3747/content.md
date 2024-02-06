@@ -126,9 +126,20 @@ Requiring a modulus of convergence would make no difference for either of these,
 
 ### Relations between these definitions
 
-Classically, all of these definitions are equivalent.  In fact, to prove their equivalence, we need only the principle of __[[weak countable choice]]__ ($WCC$):  A [[surjective function]] $f\colon S \to \mathbb{N}$ [[split epic|splits]], if, whenever $i \ne j$, either $f^*(i)$ or $f^*(j)$ is a [[singleton]].  (This is a rather special case of [[countable choice]] that can also be proved using only [[excluded middle]].)
+Classically, all of these definitions are equivalent.  In fact, to prove their equivalence, we need only the following equivalent principles (cf. [Booij 2020](#Booij20)):
 
-If we don\'t accept $WCC$, then we still have these results:
+{#DedekindCauchyEquivalence}
+* Every [[Dedekind real number]] is a [[modulated Cauchy real number]]
+
+* For every [[Dedekind real number]] there exists a signed-digit representation of the real number
+
+* For every [[Dedekind real number]] there exists a [[locator]]
+
+* For every [[Dedekind real number]] there exists [[Dedekind cut structure]]
+
+* For every [[Dedekind real number]] there exists a [[Cauchy sequence]] of [[rational numbers]] whose limit is the real number. 
+
+If we don\'t accept any of the above, then we still have these results:
 
 +-- {: .un_theorem}
 ###### Theorems
@@ -150,15 +161,13 @@ Hence even in [[constructive mathematics]], there are only three notions that we
 Just to be explicit, here are the missing converses:
 
 +-- {: .un_theorem}
-###### Theorems
-(assuming $WCC$).
-
+###### Axioms
 Every classical Cauchy real number is modulated, and any two equal Cauchy real numbers are equal as modulated Cauchy real numbers.
 
 Every multivalued Cauchy real number is equal (as a multivalued Cauchy real number) to some classical Cauchy real number, and two classical Cauchy real numbers are equal if they are equal as multivalued Cauchy real numbers.
 =--
 
-Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without $WCC$, the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function sets]], whereas multivalued Cauchy reals  require [[fullness]] and the Dedekind reals require [[powersets]] for their definitions.
+Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without [[weak countable choice]], the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function sets]], whereas multivalued Cauchy reals  require [[fullness]] and the Dedekind reals require [[powersets]] for their definitions.
 
 On the other hand, even the (modulated) Cauchy real numbers are not necessarily Cauchy complete, i.e. a Cauchy sequence (even a modulated one) of Cauchy real numbers need not converge to another Cauchy real number (though it always does converge to a Dedekind real number, since the Dedekind real numbers *are* always Cauchy complete).  The problem is that without countable choice, we cannot lift a (modulated) Cauchy sequence of (modulated Cauchy) real numbers to a Cauchy sequence of Cauchy sequences in order to "diagonalize" it; a countermodel is constructed by [Lubarsky](#Lubarsky).
 
@@ -222,7 +231,7 @@ Thus, to *define* a real number to be an $\alpha$-regular Cauchy real (for any o
 
 Note we may be rounding up or down, regardless of which is nearer.  For example, in approximating $e = \exp\,1$ by decimal fractions, we might get ($2,2.7,2.71,\ldots)$ or $(3,2.7,2.72,\ldots)$, but we might also get $(2,2.8,2.71,\ldots)$.  To choose to always round down, towards zero, or towards the nearer approximant (with a rule for $0.5$) requires an application of [[excluded middle]] (or at least the [[lesser limited principle of omniscience]]).
 
-Even for Dedekind reals without $WCC$, we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Trying to avoid this can motivate multivalued Cauchy real numbers.
+Even for Dedekind reals in [[neutral constructive matehmatics]], we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Trying to avoid this can motivate multivalued Cauchy real numbers.
 
 ## See also ##
 
