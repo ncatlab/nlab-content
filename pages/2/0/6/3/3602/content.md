@@ -23,7 +23,7 @@ Despite the exotic-sounding name (a portmanteau of [[quantale]] and [[groupoid]]
 
 * Let $E$ be a Grothendieck topos. Then the bicategory of relations in $E$, $Rel(E)$, is a quantaloid. 
 
-A toy form of this example: take any [[frame]] $H$, and considering the bicategory of spans in $H$: this is evidently a quantaloid, $Span(H)$. 
+A toy form of this example: take any [[frame]] $H$, and consider the bicategory of spans in $H$: this is evidently a quantaloid, $Span(H)$. 
 
 Here is a particularly rich source of examples. Let $Q$ be a quantale. Then there is a quantaloid $Q$-$Mat$ of $Q$-valued matrices: 
 
@@ -37,7 +37,7 @@ $$(M N)(x, z) = \sum_{y: Y} M(x, y) \cdot N(y, z)$$
 
 where $\cdot$ is the multiplication of $Q$ and the sum is the sup in $Q$. This class of examples easily internalizes in a topos, and in that sense it subsumes the first example, $Rel(E)$, by taking $Q = \Omega$ (as an internal frame, hence a quantale). 
 
-Slightly more generally, if $Q$ is a quantal_oid_, there is a quantaloid $Q$-$Mat$ of $Q$-matrices, as follows: 
+Slightly more generally, if $Q$ is a quantaloid, there is a quantaloid $Q$-$Mat$ of $Q$-matrices, as follows: 
 
 * Objects are sets $X$ together with functions $p: X \to Q_0$; 
 
