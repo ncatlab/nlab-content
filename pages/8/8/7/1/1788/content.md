@@ -3,6 +3,12 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-GeometricSimplices.jpg:file]]
+
+[[GeomPhys-ChargesToFluxHomotopy.jpg:file]]
+
+[[GeomPhys-DifferentialCharacterMap.jpg:file]]
+
 [[GeomPhys-ModulatingFluxesAndCharges-240206.jpg:file]]
 
 [[GeomPhys-CechGroupoid.jpg:file]]
