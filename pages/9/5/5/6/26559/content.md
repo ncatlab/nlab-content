@@ -2684,6 +2684,20 @@ It is clear that both [[smooth sets]] as well as plain [[infinity-groupoids|$\in
 \end{imagefromfile}
 
 
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CechGroupoid.jpg",
+    "float": "right",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
 As an example of a local homotopy equivalence of smooth simplicial sets, consider $X^d$ a smooth manifold and $\big\{\mathbb{R}^d \simeq U_j \xhookrightarrow{ \iota_j } X \big\}_{j \in J}$ a [[good open cover]]. Then the **[[Čech groupoid]]** $\widehat X{}^d \,\in\, SmoothSimpSet_{Kan}$ has as $\Delta^n$-shaped plots the smooth maps into the $(n+1)$-fold intersections of the open patches:
 
 \[
