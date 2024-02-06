@@ -34,6 +34,16 @@ Objective type theory has [[decidable]] [[type checking]], and the type checking
 
 ## Formalizations and syntax
 
+### Substitutions
+
+There are two ways one could define [[substitutions]] in [[dependent type theory]], either by [[explicit substitution]] or by showing that the [[substitution rule]] is an [[admissible rule]]. However, for objective type theory, only the latter approach is possible. 
+
+The problem with explicit substitutions is that with explicit substitution approaches, the contexts are usually formalized with [[judgmental equality]] of [[morphisms]] of contexts, such that the [[categorical semantics]] correspond to a functor from the category of contexts $C$ to the [[2-category]] $\mathrm{Cat}$ which takes a context $\Gamma:C$ to the slice category $C/\Gamma$. However, without judgmental equality, $C$ doesn't form a category anymore, since the morphisms in $C$ don't form a [[set]] anymore, and one can no longer express the unit and associatvity laws for composition of morphisms of contexts, which are needed for the unit and associativity laws of explicit substitution. The same holds for explicit substitution via [[telescopes]]; here, substitutions are elements of telescopes, and one has judgmental equalities of the substitutions themselves. 
+
+Alternatively, one can try to define structure indicating that the collection of contexts $C$ forms an [[(infinity,1)-category|$(\infty, 1)$-category]], avoiding the need for judgmental equality entirely, but one quickly runs into [[coherence]] issues, since the structure of an $(\infty, 1)$-category cannot be expressed from nothing using a finite amount of structure. This is similar to the issues in defining an $(\infty, 1)$-category in dependent type theory without using pre-existing [[simplicial set|simplicial]] or [[cubical set|cubical]] structure or [[modal type theory|modalities]]. Thus, it is currently unknown how to avoid this use of judgmental equality for explicit substitution and/or telescopes in dependent type theory, rendering it impossible for those to formulate objective type theory.
+
+The other approach involving an admissible substitution rule doesn't suffer from this issue because the analogue in admissible substitution approaches of the judgmental equality in explicit substitution approaches resides in the metatheory rather than the actual theory itself, so the type theory itself can genuinely be said to not contain any judgmental equalities. 
+
 ### Definitions in objective type theory
 
 In section 9 of [Winterhalter2020](#Winterhalter20), [[Theo Winterhalter]] indicates that there are many ways to formalize [[dependent type theory]]. One important aspect is whether to use [[Russell universes]] or a separate [[type]] [[judgment]] to denote types: [van der Berg & den Besten 2021](#BB21) and [UPF 2013](#UPF13) both use [[Russell universes]] in their formal presentation of dependent type theory, while [Rijke 2022](#Rijke22) uses a separate type judgment to denote types. 
