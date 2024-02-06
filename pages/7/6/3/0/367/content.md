@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _simplicial object_ $X$ in a [[category]] $C$ is an _[[simplicial set]]_ [[internalization|internal]] to $C$: a collection $\{X_n\}_{n \in \mathbb{N}}$ of [[objects]] in $C$ that behave as if $X_n$ were an object of $n$-dimensional [[simplices]] [[internalization|internal to]] $C$ equipped with maps between these space that assign faces and degenerate simplices.
+A _simplicial object_ $X$ in a [[category]] $C$ is a _[[simplicial set]]_ [[internalization|internal]] to $C$: a collection $\{X_n\}_{n \in \mathbb{N}}$ of [[objects]] in $C$ that behave as if $X_n$ were an object of $n$-dimensional [[simplices]] [[internalization|internal to]] $C$ equipped with maps between these spaces that assign faces and degenerate simplices.
 
 For instance, and there is a longer list further down this page, a simplicial object in $Grps$ is a collection $\{G_n\}_{n\in \mathbb{N}}$ of groups, together with face and degeneracy _homomorphisms_ between them. This is just a [[simplicial group]]. We equally well have other important instances of the same idea, when we replace $Grps$ by other categories, or higher categories.
 
