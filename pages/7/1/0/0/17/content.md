@@ -804,7 +804,7 @@ and adding usual `TikZ`-code inside.
 
 {#TikZSupportIsAHack} Beware that this functionality is a hack: The `tikz`-code is compiled server-side and then included as an SVG in the page's HTML source. 
 
-In practice this means that `TikZ`-code does not interact with the ambient `instiki`-code, for instance it cannot be included inside bullet-items nor inside other math-environments. To prevent `instiki`'s indentation mechanism to clash, be sure to align the outer block of the `TikZ`-code to the left of the edit window.
+In practice this means that `TikZ`-code does not interact with the ambient `instiki`-code, for instance it cannot be included inside bullet-items nor inside other math-environments. To prevent `instiki`'s indentation mechanism from clashing, be sure to align the outer block of the `TikZ`-code to the left of the edit window.
 
 > (There used to be a claim here that `\usetikzlibrary` can be called inside the `tikz`-code block, but it does not seem to be the case.)
 
