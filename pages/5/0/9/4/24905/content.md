@@ -54,7 +54,7 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 ## See also
 
-* [[Jason Rute]], *What is neutral constructive mathematics*, ([MathOverflow](https://mathoverflow.net/questions/404270/what-is-neutral-constructive-mathematics/404313#404313))
+* [[Jason Rute]], *What is neutral constructive mathematics*, ([MathOverflow](https://mathoverflow.net/questions/404270/what-is-neutral-constructive-mathematics))
 
 * [[Fred Richman]], *Constructive Mathematics without Choice*,
 in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum*, Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
