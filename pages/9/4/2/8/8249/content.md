@@ -112,7 +112,7 @@ $$
   \mathcal{D}^\bullet(\mathcal{A}) \simeq \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
 $$
 
-etc. One wants to accordingly _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A})$ between these derived categories. It is immediate to achieve this on the domain category, there we can simply precompose and form
+etc. One wants to accordingly _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A}')$ between these derived categories. It is immediate to achieve this on the domain category, there we can simply precompose and form
 
 $$
   \mathcal{A}  
