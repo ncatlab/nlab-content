@@ -73,11 +73,11 @@ are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category
 
 So, suppose $(C, \otimes, 1)$ is a semicartesian symmetric monoidal category.  The unique map $e_x : x \to I$ is a [[monoidal natural transformation]].  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
 
-The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned on page 47 of the slides at:
+The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$ is mentioned on page 47 of the slides at:
 
 * John Baez, _Universal algebra and diagrammatic reasoning_, 2006. [link](http://math.ucr.edu/home/baez/universal/)
 
-and as of 2014, Nick Gurski plans to write up the proof in a paper on semicartesian monads.
+However, the characterisation was certainly known earlier: for instance, it appears in the thesis of Kegelmann, in which it is called [[folklore]].
 
 ### Definition in terms of projections
 
@@ -113,6 +113,8 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 * [[Tom Leinster]], [Monoidal Categories with Projections](https://golem.ph.utexas.edu/category/2016/08/monoidal_categories_with_proje.html) (blog discussion)
 
 * {#dremodaris} MO user 'dremodaris', _A semicartesian monoidal category with diagonals is cartesian: proof?_ [MO348480](https://mathoverflow.net/q/348480/)
+
+* Mathias Kegelmann, _Continuous domains in logical form_, Electronic Notes in Theoretical Computer Science 49 (2002): 1-166.
 
 
 [[!redirects semicartesian category]]
