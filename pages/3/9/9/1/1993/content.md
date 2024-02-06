@@ -28,7 +28,7 @@ $$
 $$
 
 
-between [[crossed module]]s $\mathbb{X}=(\partial_X : X_1\to X_0)$ and $\mathbb{Y}=(\partial_Y:Y_1\to Y_0)$ (actions surpressed from the notation), given by a diagram of [[group]]s
+between [[crossed module]]s $\mathbb{X}=(\partial_X : X_1\to X_0)$ and $\mathbb{Y}=(\partial_Y:Y_1\to Y_0)$ (actions suppressed from the notation), given by a diagram of [[group]]s
 
 $$
   \array{
@@ -53,7 +53,7 @@ Butterflies corresponds to weak functors between the corresponding $2$-[[2-group
 
 Under the correspondence between [[crossed module]]s and [[internal category|categories internal]] to [[Grp]], butterflies are precisely the saturated [[anafunctor|anafunctors]] internal to $Grp$, using the [[Grothendieck pretopology]] of surjective homomorphisms.
 
-In fact under the same correpondence, butterflies correspond to 
+In fact under the same correspondence, butterflies correspond to 
 locally representable [[profunctor|profunctors]], while split butterflies give representable profunctors. This extends to the intrinsic setting, where the base category is semi-abelian (see references below).
 
 
