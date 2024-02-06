@@ -192,7 +192,7 @@ Here the characteristic $L_\infty$-algebra $[b_2, \, v_{2\bullet-1}] = v_{2\bull
 
 In fact, flux quantization as discussed here does not apply to [[su(n)|$\mathfrak{su}(n)$]]-[[Yang-Mills theory]] directly:
 
-Generally, not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rational [[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] of (the [[homotopy type]] of) a space $\mathcal{A}$ that is amenable to [[rationalization]]; those that do are "[[nilpotent L-infinity algebra|nilpotent]]". 
+Generally, not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rational [[Whitehead L-infinity algebras|Whitehead $L_\infty$-algebras]] of (the [[homotopy type]] (eq:HomeoToHomotopyType) of) a topological space $\mathcal{A}$ that is amenable to [[rationalization]]; those that do are "[[nilpotent L-infinity algebra|nilpotent]]". 
 Specifically, [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie algebra]], which relates to the fact that flux quantization as discussed here --- while it does apply to non-linear/non-abelian higher Bianchi identities such as for the [[supergravity C-field|C-field]] --- does not apply directly to [[Yang-Mills theory]] with gauge Lie algebra [[su(n)|$\mathfrak{su}(n)$]] (or other [[classical Lie algebras]]).
 \end{remark}
 
@@ -1233,7 +1233,7 @@ and then that this perspective generalizes &lbrack;[FSS23-Char](#FSS23), [SS23-F
 (1) Higher Maxwell-type equations (eq:EqHigherMaxwellEquations) have a **characteristic [[L-infinity algebra|$L_\infty$-algebra]]** $\mathfrak{a}$:
 The flux densities are equivalently [[L-infinity algebra valued differential forms|$\mathfrak{a}$-valued differential forms]], and the [[Gauss law]] (eq:GaussLawFromBianchiIdentities) is equivalently the condition that these be *closed* (i.e.: [[flat L-infinity-algebra valued differential form|flat]], aka a "[[Maurer-Cartan element]]"; in [[D'Auria-Fre formulation of supergravity|Italian SuGra literature]]: "satisfying an FDA").
 <br/>
-(2.)  Also [[homotopy type|topological spaces]] $\mathcal{A}$ (under mild conditions) have a characteristic $L_\infty$-algebra: Their $\mathbb{R}$-rational  **[[Whitehead L-infinity algebra|Whitehead bracket $L_\infty$-algebra]]**.
+(2.)  Also ([[homotopy types]] (eq:HomeoToHomotopyType) of) [[topological spaces]] $\mathcal{A}$ (under mild conditions) have a characteristic $L_\infty$-algebra: Their $\mathbb{R}$-rational  **[[Whitehead L-infinity algebra|Whitehead bracket $L_\infty$-algebra]]**.
 <br/>
 (3.) The **nonabelian** [[Chern-Dold character map]] turns $\mathcal{A}$-valued maps into [[flat L-infinity algebra valued differential forms|closed $\mathfrak{l}\mathcal{A}$-valued differential forms]], generalizing the [[Chern character]] for $\mathcal{A} =$ [[KU|$\mathrm{KU}_0$]].
 <br/>
@@ -1746,7 +1746,7 @@ We explain how the $\mathfrak{a}$-valued [[nonabelian de Rham cohomology]] of th
 
 {#ClassifyingSpacesForGeneralizedCohomology}
 **Classifying spaces for generalized cohomology.**
-It is a classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated in [[mathematical physics]] -- that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$.
+It is a classical fact of [[algebraic topology]] -- which may have remained somewhat underappreciated in [[mathematical physics]] -- that reasonable [[generalized cohomology theory|generalized]] [[cohomology theories]] have *classifying spaces* $\mathcal{A}$, in that the sets of cohomology classes assigned to a given domain space (which we take to be a [[smooth manifold]] $X$) are in [[natural bijection]] with the [[homotopy classes]] $\pi_0 Maps\big(-, \mathcal{A}\big)$ of [[continuous maps]] from $X$ into $\mathcal{A}$ (it is only the [[homotopy type]] (eq:HomeoToHomotopyType) of $\mathcal{A}$ that matters here).
 
 
 The archetypical examples are *[[Eilenberg-MacLane spaces]]* like $K(\mathbb{Z},n)$ which classify [[ordinary cohomology]] such as [[integral cohomology]], in any degree $n$. 
@@ -1765,7 +1765,7 @@ As $n$ ranges, these EM-spaces happen to be [[loop spaces]] of each other, $K(\m
     }
 \end{imagefromfile}
 
-Generalizing from this classical example, one considers [[Whitehead-generalized cohomology theories]] which [[Brown representability theorem|are classified by]] any sequences of [[pointed topological spaces]] $\{E_n\}_{n \in \mathbb{N}}$ equipped with [[weak homotopy equivalences]] $E_n \simeq \Omega E_{n+1}$, called a *[[spectrum]] of spaces*. 
+{#NonabelianCohomology} Generalizing from this classical example, one considers [[Whitehead-generalized cohomology theories]] which [[Brown representability theorem|are classified by]] any sequences of [[pointed topological spaces]] $\{E_n\}_{n \in \mathbb{N}}$ equipped with [[weak homotopy equivalences]] $E_n \simeq \Omega E_{n+1}$, called a *[[spectrum]] of spaces*. 
 
 This implies that each $E_n$ is an [[infinite-loop space]], which makes them be "[[abelian infinity-group|abelian $\infty$-groups]]" reflecting the fact that the homotopy classes of maps into these spaces indeed have the [[structure]] of *[[abelian groups]]*.
 
@@ -2197,7 +2197,8 @@ We refer the reader to the section *[[geometry of physics -- smooth sets]]* or e
 
 $\;$**Smooth sets.** For the present purpose of [[higher differential geometry]], the relevant probe spaces are "abstract coordinate charts", namely [[Cartesian spaces]] $\mathbb{R}^n$, and the idea is that any space $X$ which qualifies as a "[[smooth set]]" should be *defined* (not necessarily by an [[underlying]] [[set]] of points equipped with [[smooth structure]] but) by a system of sets of ways 
 
-$$
+\[
+  \label{PlotsByCartesianSpaces}
   \mathbb{R}^n 
     \;\mapsto\;
   Plots\big(
@@ -2205,7 +2206,7 @@ $$
     ,\,
     X
   \big)
-$$
+\]
 
 of *plotting out* probe spaces $\mathbb{R}^n$ inside the would-be space $X$. Basic consistency requirements demand that this assignment should make a [[contravariant functor]] to [[Sets]] (a "[[presheaf]]")
 
@@ -2407,9 +2408,9 @@ But independently of the differential geometry, the collection of fields in a [[
 \end{imagefromfile}
 
 
-There are different equivalent ways to record systems of such [[higher gauge transformations]]. A [[globular set|globular]] or [[cubical set|cubical]] arrangement suggests itself but turns out to come with technical subtleties, while the "simplicial" arrangement indicated above turns out to be remarkably useful and has an extremely well-developed theory: Here the [[gauge-of-gauge transformations]] are always taken to fill a *[[triangle]]* of ordinary [[gauge transformations]], the next [[higher gauge transformations]] are taken to fill a *[[tetrahedron]]* of these, and generally an $n$-gauge transformation is taken to form an *[[n-simplex|$n$-simplex]]*. Notice that the subsumes the intuitively expected "[[globular set|globular]]" situations by taking some faces of the simplices to be labeled by identity-transformations (called *thin* or *degenerate simplices*).
+There are different equivalent ways to record systems of such [[higher gauge transformations]]. A [[globular set|globular]] or [[cubical set|cubical]] arrangement suggests itself but turns out to come with technical subtleties, while the "simplicial" arrangement indicated above turns out to be remarkably useful and has an extremely well-developed theory: Here the [[gauge-of-gauge transformations]] are always taken to fill a *[[triangle]]* of ordinary [[gauge transformations]], the next [[higher gauge transformations]] are taken to fill a *[[tetrahedron]]* of these, and generally an $n$-gauge transformation is taken to form an *[[n-simplex|$n$-simplex]]*. Notice that this subsumes the intuitively expected "[[globular set|globular]]" situations by taking some faces of the simplices to be labeled by identity-transformations.
 
-Hence (still disregarding for the moment its [[differential geometry]]) the [[underlying]] set of fields of a [[higher gauge theory]] is, beyond the "0-simplices" of the nominal fields themselves, actually a system of sets of higher simplices in any dimension, such that with any $n$-simplex also all its face $(n-1)$-simplices and all the degenerate $(n+1)$-simplices obtainable form it are part of this *[[simplicial set]]*:
+Hence (still disregarding for the moment its [[differential geometry]]) the [[underlying]] set of fields of a [[higher gauge theory]] is, beyond the "0-simplices" of the nominal fields themselves, actually a system of sets of higher simplices in any dimension, such that with any $n$-simplex also all its face $(n-1)$-simplices and all the "this" ("degenerate") $(n+1)$-simplices obtainable form it are part of this *[[simplicial set]]*:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-SimplicialSetSchematics.jpg",
@@ -2423,7 +2424,7 @@ Hence (still disregarding for the moment its [[differential geometry]]) the [[un
     }
 \end{imagefromfile}
 
-Hence in the spirit of the above discussion of generalized spaces defined by how to plot out probe-spaces inside them, simplicial sets are those space which are probe-able by the abstract cellular simplices (forming the [[simplex category]] $\Delta$), and hence the category [[SimpSet]] of simplicial sets is that of [[presheaves]] on $\Delta$:
+Hence in the spirit (eq:PlotsByCartesianSpaces) of generalized spaces defined by how to plot out probe-spaces inside them, such [[simplicial sets]] are those spaces which are probe-able by the abstract cellular simplices $\Delta$ (forming the [[simplex category]] $\Delta$), and hence the category [[SimpSet]] of simplicial sets is that of [[presheaves]] on $\Delta$:
 
 $$
   SimpSet
@@ -2468,9 +2469,9 @@ For example, given a [[Lie group]] $G$ with [[Lie algebra]] $\mathfrak{g}$ then 
     }
 \end{imagefromfile}
 
-That this example is indeed a *[[groupoid]]* in that the gauge transformation 1-simplices have composites (whenever composable) and inverses is witnessed by the fact that whenever one finds in this simplicial set a pair of 1-simplices that share a 0-simplex (jargon: a "[[horn|2-horn]]" $\Lambda^2_i$) then there exists a 2-simplex completing the diagram.
+That this example is indeed a *[[groupoid]]* in that the gauge transformation 1-simplices have [[composition|composites]] (whenever composable) and [[inverse morphism|inverses]] is witnessed by the fact that whenever one finds in this simplicial set a pair of 1-simplices that share a 0-simplex (jargon: a "[[horn|2-horn]]" $\Lambda^2_i$) then there exists a 2-simplex completing the diagram.
 
-Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be the sub-simplicial sets of a simplex missing the interior and the $ith$ face, and then says that a simplicial set is an *[[infinity-groupoid|$\infty$-groupoid]]* (historical terminology: *[[Kan complex]]*) if all images of $\Lambda^n_i$ inside it may be completed to an images of $\Delta^n$.:
+Similarly one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be the sub-simplicial sets of a simplex missing the interior and the $ith$ face, and then says that a simplicial set is an *[[infinity-groupoid|$\infty$-groupoid]]* (historical terminology: *[[Kan complex]]*) if all images of $\Lambda^n_i$ inside it may be completed to an images of $\Delta^n$.:
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-KanCondition.jpg",
@@ -2484,6 +2485,45 @@ Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be
     }
 \end{imagefromfile}
 
+As an abstract example, for $\mathcal{X},\, \mathcal{Y} \,\in\, SimpSet_{Kan}$, there is the [[infinity-groupoid|$\infty$-groupoid]] [[derived hom-space|of maps]] between them $Map(\mathcal{X},\mathcal{Y})\,\in\, SimpSet_{Kan}$ 
+
+\[
+  \label{MappingComplex}
+  Plt\big(
+    \Delta^n
+    ,\,
+    Map(\mathcal{X},\mathcal{Y})
+  \big)
+  \;\coloneqq\;
+  Hom\big(
+    \Delta^n
+    \times
+    \mathcal{X}
+    ,\,
+    \mathcal{Y}
+  \big)
+  \,.
+\]
+
+whose 0-simplices are the maps $\mathcal{X} \to \mathcal{Y}$ and whose 1-simplices are [[homotopies]] between such maps.
+
+\[\label{HomotopyEquivalenceOfSimplicialSets}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HomotopyEquivalence.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+A  *homotopy equivalence* between [[infinity-groupoids|$\infty$-groupoids]] are maps back and forth which are inverses *up to homotopy* (in that there exist homotopies $g$, $g'$ as shown).
+
+> (Beware that if one works with all simplicial sets instead of just the [[Kan complexes|Kan-simplicial sets]] among them, as often done in the literature, then the relevant notion of equivalence is instead "[[weak homotopy equivalence]]".)
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-TopologicalSimplices.jpg",
@@ -2494,13 +2534,14 @@ Similarly, one defines the higher [[horns]] $\Lambda^n_i \subset \Delta^n$ to be
         "top": -40,
         "bottom": 20,
         "right": 0, 
-        "left": 0
+        "left": 10
     }
 \end{imagefromfile}
 
-For example, any topological space $X$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh X \,\in\, SimpSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of the *topological* $n$-simplices $\Delta^n_{Top}$ in $X$:
+As a more concrete example, a [[topological space]] $X$ gives rise to an [[infinity-groupoid|$\infty$-groupoid]] $\esh X \,\in\, SimpSet_{Kan}$: its *[[path infinity-groupoid]]* whose [[n-morphism|$n$-morphisms]] are the [[continuous map|continuous]] images of the *topological* $n$-simplices $\Delta^n_{Top}$ in $X$:
 
-$$
+\[
+  \label{SimplicialShape}
   \begin{array}{l}
   Plot\big(
     \Delta^n
@@ -2525,20 +2566,30 @@ $$
   \Big)
   \,.
   \end{array}
-$$
+\]
 
-This construction forgets the topology but retains retains the "[[homotopy type]]" of $X$, which is all that matters for plain (as opposed to [[differential cohomology|differential]]) [[nonabelian cohomology]]:
+\linebreak
 
-With the set of connected components of an $\infty$-groupoid $\mathcal{X} \,\in\, SimpSet_{Kan}$ being the [[quotient set]] of the 0-simplices by the [[equivalence relation]] embodied by the 1-simplices
+\[\label{HomeoToHomotopyType}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HomotopyType.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
 
-$$
-  \pi_0
-  \mathcal{X}
-  \;\coloneqq\;
-  \mathcal{X}_0\big/\mathcal{X}_1
-$$
+This [[path infinity-groupoid|path $\infty$-groupoid]]-construction forgets the topology on $X$ (the "[[cohesion]]" of its points as embodied by its system of [[open subsets]]) but retains the *[[shape modality|shape]]* of $X$, namely its *[[homotopy type]]*: the [[equivalence class]] of $\esh X$ under [[homotopy equivalences]] (eq:HomotopyEquivalenceOfSimplicialSets). A classical fact of [[homotopy theory]] asserts (in particular) that every [[homotopy type]] in $SimpSet_{Kan}$ is equivalently the [[shape modality|shape]]/[[path infinity-groupoid|path $\infty$-groupoid]] of some topological space, which traditionally leads to some conflation of these different notion of "space".
 
-this gives another way to state the definition of [[nonabelian cohomology]]:
+Here we shall denote actual homotopy types $\mathcal{X} \,\in\, SimpSet_{Kan}$ by calligraphic symbols. In particular, it is homotopy types $\mathcal{A}$ which determine flux quantization laws [above](#FluxQuantizationLawsAsNonabelianCohomology):
+
+The plain (as opposed to [[differential cohomology|differential]]) [[nonabelian cohomology]] ([above](#NonabelianCohomology))
+of a topological space $X$ is an invariant of its [[shape]]/[[homotopy type]] $\esh X$ (eq:SimplicialShape) formed by the [[simplicial mapping complex]] (eq:MappingComplex):
 
 $$
   \left.
@@ -2549,6 +2600,7 @@ $$
     \\
     X \,\in\, Top
   \end{array}  
+  \;
   \right\}
   \;\;\;\;\;\;\;
     \vdash
@@ -2562,47 +2614,18 @@ $$
     ,\,
     \mathcal{A}
   \big)
-  \,.
+  \,,
 $$
 
-
-
-As another example, for $\mathcal{X},\, \mathcal{Y} \,\in\, SimpSet_{Kan}$, there is the [[infinity-groupoid|$\infty$-groupoid]] [[derived hom-space|of maps]] between them $Map(\mathcal{X},\mathcal{Y})\,\in\, SimpSet_{Kan}$ 
-
-$$
-  Plt\big(
-    \Delta^n
-    ,\,
-    Map(\mathcal{X},\mathcal{Y})
-  \big)
+where on the right $\pi_0(-)$ refers to the connected components of an $\infty$-groupoid $\mathcal{X} \,\in\, SimpSet_{Kan}$ being the [[quotient set]] of the 0-simplices by the [[equivalence relation]] embodied by the 1-simplices:
+$
+  \pi_0
+  \mathcal{X}
   \;\coloneqq\;
-  Hom\big(
-    \Delta^n
-    \times
-    \mathcal{X}
-    ,\,
-    \mathcal{Y}
-  \big)
-  \,.
-$$
+  \mathcal{X}_0\big/\mathcal{X}_1
+$.
 
-whose 0-simplices are the maps $\mathcal{X} \to \mathcal{Y}$ and whose 1-simplices are [[homotopies]] between such maps.
 
-\[\label{HomotopyEquivalenceOfSimplicialSets}\]
-\begin{imagefromfile}
-    "file_name": "GeomPhys-HomotopyEquivalence.jpg",
-    "float": "right",
-    "width": 400,
-    "unit": "px",
-    "margin": {
-        "top": -40,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
-
-A  *homotopy equivalence* between [[infinity-groupoids|$\infy$-groupoids]] are maps back and forth which are inverses *up to homotopy* (in that there exist homotopies $g$, $g'$ as shown).
 
 (...)
 
