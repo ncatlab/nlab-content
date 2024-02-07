@@ -167,6 +167,9 @@ We are now learning ways to understand [[measure theory]] and [[probability]] aw
 
 * [[sigma-topological space|$\sigma$-topological space]]
 
+
+category: probability
+
 [[!redirects sigma-algebra]]
 [[!redirects sigma-algebras]]
 [[!redirects σ-algebra]]
