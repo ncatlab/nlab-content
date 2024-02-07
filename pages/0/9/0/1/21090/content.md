@@ -1998,9 +1998,9 @@ This also corresponds to the idea of sampling in [[probabilistic programming]], 
 Kolmogorov products are a way to equip a Markov category with an [[infinitary tensor product]].
 The idea can be seen as an abstraction of the [[Kolmogorov extension theorem]] for [[probability measures]].
 
-Let $C$ be a Markov category, and let $(X_j)_{j\in J}$ be a family of obejcts. A **Kolmogorov product** of them is an [[infinite tensor product]] 
+Let $C$ be a Markov category, and let $(X_j)_{j\in J}$ be a family of objects. A **Kolmogorov product** of them is an [[infinite tensor product]] 
 $$
-X_J=\bigotimes_{j\in J}
+X_J=\bigotimes_{j\in J} X_j
 $$
 such that all finite projections (marginalizations) $X_J\to X_F$, with $F\subseteq J$ finite, are deterministic morphisms.
 
