@@ -2547,9 +2547,20 @@ Stone-von Neumann**
 
   > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
 
-
 \linebreak
 
+### Feb 2024
+
+* {#ChenFeb2024} 07 Feb 2024
+
+  [[Hank Chen]] (University of Waterloo, Canada):
+
+  **Higher Anomaly Resolution from $L_\infty$ Algebras**
+
+  > This talk is based on [arXiv:2211.08549](Dirac+monopole#ChenGirelli22), in which we explore the [[higher Lie theory|Lie higher-algebraic]] and [[higher geometry|higher-geometric]] structures that arise from a procedure we dub "gauging the gauge", and study the resulting [[higher gauge theory|2- and 3-gauge theory]]. The homotopy weakening of algebraic properties afforded by [[Lie n-algebra|Lie $L_n$-algebras]] is tied to violation of geometric higher-[[Bianchi identity|Bianchi conditions]]. In this talk, I will focus on the application of this observation to two specific cases, and examine its consequences. First, for the [[monopole]] [[circle group|$U(1)$]] gauge theory, the above observation gives rise to the [[2-group]] [[Green-Schwarz anomaly cancellation]] ([Benini-Cordova-Intriligator 2019](Green-Schwarz+mechanism#BeniniCordovaHsin19)), and the associated dipole conservation laws exhibit mobility restriction akin to fractonic matter (Slagel-Kim 2017). Second, for the [[string 2-group|string 2-gauge]] theory, we find a [[3-group]] worth of charges exhibiting novel and intricate mobility restrictions and, under certain assumptions, the resulting 3-gauge theory achieves a higher-monopole charge which matched the [[first fractional Pontrjagin class|fractional Pontrjagyn class]] $\tfrac{1}{2}p_1$. This gives a way in which the [[string structure]] of a [[spin manifold]] $X$ can be probed dynamically by a 3-group gauge theory.
+
+
+\linebreak
 
 
 ## External presentations
