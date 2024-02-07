@@ -356,6 +356,8 @@ Discussion form the point of view of [[quantum probability]] is in
 * {#RedeiSummers06} [[Miklos Redei]], [[Stephen Summers]], section 7.3 of _Quantum Probability Theory_ ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158))
 
 
+category: probability
+
 [[!redirects conditional probability]]
 [[!redirects conditional probabilities]]
 
