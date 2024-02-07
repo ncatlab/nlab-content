@@ -267,7 +267,7 @@ To do:
 
 
 
-
+category: probability
 
 [[!redirects Giry monad]]
 [[!redirects Giry's monad]]
