@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[monoidal category]]-[[structure]] is **strict** if its [[associator]] and left/right [[unitors]] are [[identity natural transformations]].
+A [[monoidal category]]-[[structure]] is **strict** if its [[associator]] and left/right [[unitors]] are [[identity natural transformations]]. By the [[coherence theorem for monoidal categories]], every monoidal category is monoidally [[equivalent]] to a strict one.
 
 
 Explicitly, this means that:
