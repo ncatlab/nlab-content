@@ -145,6 +145,8 @@ their approximation, categorically_, MFPS 2018.  [arXiv](https://arxiv.org/abs/1
 * [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv:2110.06591](https://arxiv.org/abs/2110.06591))
 
 
+category: probability
+
 [[!redirects transport plans]]
 [[!redirects coupling (probability)]]
 [[!redirects couplings (probability)]]
