@@ -109,7 +109,7 @@ The default venue for all communication regarding the nLab is the [nForum](https
 
 * Latest edit logs are to be posted under *[Latest changes](https://nforum.ncatlab.org/5/)*.
 
-* Organizational matters (such as concerning user accounts) are best posted under *[nLab Oranization](https://nforum.ncatlab.org/14/)*.
+* Organizational matters (such as concerning user accounts) are best posted under *[nLab Oragnisation](https://nforum.ncatlab.org/14/)*.
 
 * Technical bug reports or software feature requests are best raised in *[nLab Technical Matters](https://nforum.ncatlab.org/21/)*
 
