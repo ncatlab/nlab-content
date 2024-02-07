@@ -58,7 +58,7 @@ Let $C$ be a Markov category, and let $(X_j)_{j\in J}$ be a family of objects. A
 $$
 X_J=\bigotimes_{j\in J} X_j
 $$
-such that all finite projections (marginalizations) $X_J\to X_F$, with $F\subseteq J$ finite, are deterministic morphisms.
+such that all finite projections (marginalizations) $X_J\to X_F$, with $F\subseteq J$ finite, are [[Markov category#deterministic_morphisms|deterministic morphisms]].
 \end{definition}
 
 The category [[BorelStoch]], for example, has all countable Kolmogorov products. (The uncountable product of [[standard Borel spaces]], in general, is not standard Borel.)
@@ -83,5 +83,8 @@ See [[Markov category#kolmogorov_products|Markov category - Kolmogorov products]
 * {#fritzrischel} [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _Infinite products and zero-one laws in categorical probability_, Compositionality 2(3) 2020. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
 * {#vb_martingales} Ruben Van Belle, _A categorical treatment of the Radon-Nikodym theorem and martingales_, 2023. ([arXiv](https://arxiv.org/abs/2305.03421))
+
+
+category: probability
 
 [[!redirects Kolmogorov's extension theorem]]
