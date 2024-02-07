@@ -7,7 +7,7 @@ Jean-Luc Brylinski is a French mathematician now working in the USA. He has deve
 
 On [[loop spaces]], [[characteristic classes]] and [[geometric quantization]] (and on [[bundle gerbes]] and on [[Deligne cohomology]]):
 
-* [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993) ([doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))
+* {#Brylinski93} [[Jean-Luc Brylinski]], *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))&rbrack;
 
 
 On the [[cyclic homology]] of the [[groupoid convolution algebra]] of [[étale groupoid|étale]] [[Lie groupoids]], hence of [[orbifolds]]:
