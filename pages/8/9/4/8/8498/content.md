@@ -132,3 +132,5 @@ There is also a complete development in the [[Elephant]]:
 [[!redirects coalgebra of the real interval]]
 [[!redirects coalgebra of the real numbers]]
 [[!redirects coalgebra of real numbers]]
+
+[[!redirects Freyd interval]]
