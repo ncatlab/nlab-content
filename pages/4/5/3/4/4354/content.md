@@ -33,6 +33,12 @@ On [[monoidal category]]-theory with an eye towards [[quantum information theory
 
   {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]&rbrack;
 
+
+On [[weak omega-category|weak $\omega$-categories]] via [[computads]] construed as [[inductive types]]:
+
+* [[Christopher J. Dean]], [[Eric Finster]], [[Ioannis Markakis]], [[David Reutter]], [[Jamie Vicary]], *Computads for weak $\omega$-categories as an inductive type* &lbrack;[arXiv:2208.08719](https://arxiv.org/abs/2208.08719)&rbrack;
+
+
 ## Related entries
 
 * [[quantum information theory via dagger-compact categories]]
