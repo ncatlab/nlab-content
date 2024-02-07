@@ -81,6 +81,7 @@ When one takes as [[Markov category]] the [[Kleisli category]] of a [[probabilit
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
 
+category: probability
 
 [[!redirects joints and marginal distribution]]
 [[!redirects joints and marginals]]
