@@ -257,6 +257,10 @@ The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equi
 
 Or, dually, we may regard the 4-form $\star \omega$ of def. \ref{As2PlectomorphismsOnR7} as being a [[n-plectic geometry|3-plectic structure]] and $G_2$ correspondingly as the linear part in the [[3-plectomorphism group]] of $\mathbb{R}^7$.
 
+### As zero-divisors of the sedenions
+
+It is shown in Corollary 2.14 of [Moreno (1997)](#Moreno97) that the group of [[zero-divisor|zero-divisors]] of the [[sedenion|sedenions]] is isomorphic to $G_2$.
+
 ## Related concepts
 
 * [[G2 manifold]], [[generalized G2-manifold]]
@@ -303,6 +307,10 @@ A description of the root space decomposition of the [[Lie algebra]] $\mathfrak{
 
 * {#Basak17} Tathagata Basak, _Root space decomposition of $\mathfrak{g}_2$ from octonions_, arXiv:[1708.02367](https://arxiv.org/abs/1708.02367)
 
+As the group of [[zero-divisor|zero divisors]] of the [[sedenion|sedenions]]
+
+* {#Moreno97} Guillermo Moreno. *The zero divisors of the Cayley-Dickson algebras over the real numbers*. (1997) ([doi](https://arxiv.org/abs/q-alg/9710013))
+
 
 
 Cohomological properties are discussed in 
@@ -327,3 +335,4 @@ Discussion of $G_2$ as a subgroup of [[Spin(7)]]:
 Discussion of [[Yang-Mills theory]] with $G_2$ as [[gauge group]] is in 
 
 * Ernst-Michael Ilgenfritz, Axel Maas, _Topological aspects of $G_2$ Yang-Mills theory_ ([arXiv:1210.5963](http://arxiv.org/abs/1210.5963))
+
