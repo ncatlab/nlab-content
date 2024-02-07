@@ -93,7 +93,7 @@ $$
 for those $y\in Y$ with $q(y)\ne 0$, and an arbitrary number on the $y\in Y$ with $q(y)=0$.
 (To ensure the normalization condition, on such $y$ one can for example take $k^\dagger(x|y)=\delta_{x_0,x}$, where $x_0$ is a fixed element of $X$. Note that $X$ is nonempty since it admits a probability measure.)
 
-Bayesian inverses are not unique, but they are uniquely defined on the support of $q$. That is, they are unique up to [[almost sure equality]].
+Bayesian inverses are not unique, but they are uniquely defined on the support of $q$. That is, they are unique up to [[almost surely|almost sure]] [[equality]].
 
 
 ### Measure-theoretic case
@@ -103,7 +103,7 @@ Given [[probability spaces]] $(X,\mathcal{A},p)$ and $(Y,\mathcal{B},q)$, and a 
 $$
 \int_A k(B|x)\,p(dx) = \int_B k^\dagger(A|y)\,q(dy) 
 $$
-As one can see from [[Markov kernel#almost_sure_equality|Markov kernel - Almost sure equality]], this formula specifies a kernel only up to [[almost sure equality]], just as in the discrete case.
+As one can see from [[Markov kernel#almost_sure_equality|Markov kernel - Almost sure equality]], this formula specifies a kernel only up to [[almost surely|almost sure]] [[equality]], just as in the discrete case.
 
 Existence, on the other hand, is more tricky. In general, a kernel $k^\dagger$ as above may fail to exist. The problem is that in order for $k^\dagger$ to be a well-defined [[Markov kernel]] $(Y,\mathcal{B})\to(X,\mathcal{A})$, we need the following two conditions:
 
