@@ -31,22 +31,47 @@ However, an infinite product is a [[cofiltered limit]] of finite products, and u
 One can interpret this fact as the absence of "infinitary correlations".
 
 Statements of this kind are known collectively as the **Kolmogorov extension theorem**.
+They are particularly important in the theory of [[stochastic processes]], since a stochastic process can be seen as a [[joint distribution]] over an [[infinite tensor product|infinite product]].
 
 
 ## In measure-theoretic probability
+
+### Classical statement
+
+(...)
+
+### In terms of the Giry monad
+
+(...)
+
+### In the category of Markov kernels
 
 (...)
 
 
 ## In Markov categories
 
-(...)
+In [[Markov categories]] the Kolmogorov extension theorem appears in the form of an [[axiom]] that the category can satisfy, an abstraction of the universal property in the [[category of Markov kernels]] given above.
+
+\begin{definition}
+Let $C$ be a Markov category, and let $(X_j)_{j\in J}$ be a family of objects. A **Kolmogorov product** of them is an [[infinite tensor product]] 
+$$
+X_J=\bigotimes_{j\in J} X_j
+$$
+such that all finite projections (marginalizations) $X_J\to X_F$, with $F\subseteq J$ finite, are deterministic morphisms.
+\end{definition}
+
+The category [[BorelStoch]], for example, has all countable Kolmogorov products. (The uncountable product of [[standard Borel spaces]], in general, is not standard Borel.)
+
+See [[Markov category#kolmogorov_products|Markov category - Kolmogorov products]] for more on this, as well as [Fritz-Rischel'20](#fritzrischel).
+
 
 
 ## See also 
 
 * [[probability theory]], [[categorical probability]]
 * [[filtered category]], [[filtered limit]]
+* [[probability monad]], [[Giry monad]]
 * [[Markov category]], [[infinitary tensor product]]
 
 
