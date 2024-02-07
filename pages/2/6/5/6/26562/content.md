@@ -473,8 +473,9 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 (...more to add...)
 
 
-[[!redirects category-theoretic probability]]
+category: probability
 
+[[!redirects category-theoretic probability]]
 [[!redirects category-theoretic approach to probability theory]]
 [[!redirects categorical approach to probability theory]]
 [[!redirects categorical approaches to probability theory]]
