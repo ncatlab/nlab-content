@@ -16,7 +16,7 @@ Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] 
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_,  J. High Energ. Phys. **2019** 184 (2019) ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790), <a href="https://doi.org/10.1007/JHEP02(2019)184">doi:10.1007/JHEP02(2019)184</a>)
 
-* [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], *On 2-Group Global Symmetries and Their Anomalies*,  J. High Energ. Phys. **2019** 118 (2019) ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336), <a href="https://doi.org/10.1007/JHEP03(2019)118">doi:10.1007/JHEP03(2019)118</a>)
+* {#BeniniCordovaHsin19} [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], *On 2-Group Global Symmetries and Their Anomalies*,  J. High Energ. Phys. **2019** 118 (2019) ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336), <a href="https://doi.org/10.1007/JHEP03(2019)118">doi:10.1007/JHEP03(2019)118</a>)
 
 * {#FSS22} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Twistorial Cohomotopy implies Green-Schwarz anomaly cancellation]]*, Reviews in Mathematical Physics **34** 05 (2022) 2250013 \[<a href="https://doi.org/10.1142/S0129055X22500131">doi:10.1142/S0129055X22500131</a>, [arXiv:2008.08544](https://arxiv.org/abs/2008.08544)\]
 
