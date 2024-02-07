@@ -254,6 +254,8 @@ For the quantum case:
 * {#noncomm_disintegrations} [[Arthur J. Parzygnat]], Benjamin P. Russo, _Non-commutative disintegrations: existence and uniqueness in finite dimensions_, Journal of Noncommutative Geometry 17(3), 2023. ([arXiv](https://arxiv.org/abs/1907.09689))
 
 
+category: probability
+
 [[!redirects Bayesian inversions]]
 [[!redirects Bayesian inverse]]
 [[!redirects Bayesian inverses]]
