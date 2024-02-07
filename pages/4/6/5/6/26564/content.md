@@ -23,9 +23,9 @@
 
 The *category of couplings*, sometimes denoted *Krn* or *ProbStoch*, is a [[category]] of [[probability spaces]] and [[transport plans]] between them. 
 
-This category is naturally a [[dagger category]], as transport plans can be interpreted as going in either direction. 
+This category is naturally a [[dagger category]], as transport plans can be interpreted as going in either direction. (One can see that as an instance of [[Bayesian inversion]].)
 
-It is used in [[categorical probability]] to model, [[category theory|category theoretically]], properties which only hold *almost surely*, i.e. only up to an event of zero probability (zero measure).
+This category is used in [[categorical probability]] to model, abstractly, properties which only hold *almost surely*, i.e. only up to an event of zero probability (zero measure).
 
 
 ## Construction
