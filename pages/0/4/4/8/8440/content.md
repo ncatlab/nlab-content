@@ -11,9 +11,14 @@ On [[inductive types]] and the [[calculus of constructions]]:
 
 * [[Frank Pfenning]], [[Christine Paulin-Mohring]], *Inductively defined types in the Calculus of Constructions*, in: *Mathematical Foundations of Programming Semantics MFPS 1989*,  Lecture Notes in Computer Science **442**, Springer (1990) $[$[doi:10.1007/BFb0040259](https://doi.org/10.1007/BFb0040259)$]$
 
+On [[Semi-axiomatic sequent calculus]]:
+
+* [[Henry DeYoung]], [[Frank Pfenning]], and [[Klaas Pruiksma]]. Semi-axiomatic sequent calculus. In Z. Ariola, editor, *5th International Conference on Formal Structures for Computation and Deduction (FSCD 2020)*, pages 29:1--29:22, Paris, France, June 2020. LIPIcs 167. &lbrack;[bib](https://www.cs.cmu.edu/~fp/pfenning_bib.html#DeYoung20fscd) | [.pdf](http://www.cs.cmu.edu/~fp/papers/fscd20a.pdf)&rbrack;
+
 On [[linear logic]] and basics of [[type theory]]:
 
 * [[Frank Pfenning]], *Linear Logic*, lecture notes (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
+* [[Frank Pfenning]], *Substructural Logics*, lecture notes (2023) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/15836-f23/misc/sublogics23.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/15836-f23/)&rbrack;
 
 On [[logical frameworks]]:
 
