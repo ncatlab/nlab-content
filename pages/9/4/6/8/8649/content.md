@@ -113,7 +113,7 @@ reviewed in:
 
 General review and further discussion:
 
-* {#Brylinski93} [[Jean-Luc Brylinski]], §7.1 in: *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))&rbrack;
+* {#Brylinski93} [[Jean-Luc Brylinski]], §7.1 in: *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://link.springer.com/book/10.1007/978-0-8176-4731-5)&rbrack;
 
 * {#Frankel} [[Theodore Frankel]], section 16.4e of: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
