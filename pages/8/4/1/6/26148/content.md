@@ -114,6 +114,9 @@ See also:
 
 * James Fullwood, [[Arthur Parzygnat]], Section 4 of: *The information loss of a stochastic map*, Entropy **2021** 23(8) 1021 &lbrack;[arXiv:2107.01975](https://arxiv.org/abs/2107.01975), [doi:10.3390/e23081021](https://doi.org/10.3390/e23081021)&rbrack;
 
+
+category: probability
+
 [[!redirects stochastic maps]]
 
 [[!redirects stochastic matrix]]
