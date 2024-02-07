@@ -62,7 +62,7 @@ For the terminology we use see:
 
 * {#Levy19} [[Paul Blain Levy]], *Locally graded categories*, talk (2019) &lbrack;slides:[pdf](https://www.cs.bham.ac.uk/~pbl/papers/locgrade.pdf), [[Levy-LocallyGradedCategories.pdf:file]]&rbrack;
 
-* [[Dylan McDermott]], [[Tarmo Uustalu]], _Flexibly graded monads and graded algebras_, in: *Mathematics of Program Construction MPC 2022*, Lecture Notes in Computer Science **13544**, Springer (2022) &lbrack;[doi:10.1007/978-3-031-16912-0_4](https://doi.org/10.1007/978-3-031-16912-0_4)&rbrack;
+* [[Dylan McDermott]], [[Tarmo Uustalu]], _Flexibly graded monads and graded algebras_, in: *Mathematics of Program Construction MPC 2022*, Lecture Notes in Computer Science **13544**, Springer (2022) &lbrack;[doi:10.1007/978-3-031-16912-0_4](https://dl.acm.org/doi/abs/10.1007/978-3-031-16912-0_4)&rbrack;
 
 For the example of [[simplicially enriched category]] example see for instance:
 
