@@ -40,8 +40,7 @@ When interpreted as a [[geometric theory]], conditions (1)--(4) say that the loc
 
 ## Generalizations
 
-We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or even a "[[metric locale]]".  We can also allow $X$ to be a certain sort of [[uniform space]], with uniformity induced by a family of [[upper real number]] valued [[pseudometrics]].  See the references.
-
+We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or even a "[[metric locale]]".  We can also allow $X$ to be a certain sort of [[uniform space]], with uniformity induced by a family of [[upper real number]] valued [[pseudometrics]].  See the references. 
 
 ## References
 
