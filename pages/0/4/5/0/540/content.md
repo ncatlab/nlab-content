@@ -34,9 +34,13 @@ The following are examples for proposals of definitions of weak $\omega$-categor
 
 ## References
 
-See the general references at [[higher category theory]].
+> Fore more see general references at *[[higher category theory]]*, such as:
 
 * [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](https://web.archive.org/web/20150326110254/http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
+
+Discussion of weak $\omega$-categories via [[computads]] construed as [[inductive types]]:
+
+* [[Christopher J. Dean]], [[Eric Finster]], [[Ioannis Markakis]], [[David Reutter]], [[Jamie Vicary]], *Computads for weak $\omega$-categories as an inductive type* &lbrack;[arXiv:2208.08719](https://arxiv.org/abs/2208.08719)&rbrack;
 
 
 
