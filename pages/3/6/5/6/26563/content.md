@@ -93,6 +93,8 @@ This has a number of consequences, for example:
 (...)
 
 
+category: probability
+
 [[!redirects standard Borel]]
 [[!redirects standard Borel spaces]]
 [[!redirects Pol]]
