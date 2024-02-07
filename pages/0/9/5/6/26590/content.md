@@ -68,6 +68,8 @@ For the quantum case:
 * {#quantum_definetti} [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
 
+category: probability
+
 [[!redirects de Finetti theorem]]
 [[!redirects De Finetti's theorem]]
 [[!redirects De Finetti theorem]]
