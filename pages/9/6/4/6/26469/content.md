@@ -104,7 +104,7 @@ Note that if $f:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ is a [[measure-preserving
 
 ### Bayesian inversion
 
-Given a measure-preserving Markov kernel $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$, a **Bayesian inverse** of $k$ is a Markov kernel $k^\dagger:(Y,\mathcal{B},q)\to(X,\mathcal{A},p)$ such that for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$,
+Given a measure-preserving Markov kernel $k:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$, a **[[Bayesian inverse]]** of $k$ is a Markov kernel $k^\dagger:(Y,\mathcal{B},q)\to(X,\mathcal{A},p)$ such that for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$,
 $$
 \int_A k(B|x)\,p(d x) = \int_B k^\dagger(A|y)\,q(d y) .
 $$
