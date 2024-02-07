@@ -34,7 +34,7 @@ In general, the joint probability has more information than the marginal probabi
 
 From the [[category-theoretic approaches to probability theory|category-theoretic perspective]], one can encode this idea using the following (related) concepts:
 
-* A [[monoidal category|monoidal structure]] on a [[category of kernels]] or [[Markov category]] which is a [[weak limit|weak product]], but not a [[product]];
+* A [[monoidal category|monoidal structure]] on a [[category of kernels]] or [[Markov category]] which is [[semicartesian monoidal category|semicartesian]], but not [[cartesian monoidal category|cartesian]], i.e. for which the tensor product is not a [[product|categorical product]];
 
 or 
 
