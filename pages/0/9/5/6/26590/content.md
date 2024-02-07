@@ -63,7 +63,7 @@
 
 For the quantum case:
 
-* {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
+* {#definetti_ned} [[Sam Staton]] and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of $C^\ast$-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
 
 * {#quantum_definetti} [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
