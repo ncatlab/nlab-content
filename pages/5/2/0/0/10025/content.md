@@ -30,6 +30,8 @@ A __probability density__ is a [[density]] on some [[space]] which under [[integ
 * Wikipedia, _[Probability density function](http://en.wikipedia.org/wiki/Probability_density_function)_
 
 
+category: probability
+
 [[!redirects probability density]]
 [[!redirects probability densities]]
 [[!redirects probability density function]]
