@@ -82,7 +82,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 ### Probability and measure theory
 
-* Approximations of Markov chains: [CDPP'09](#approx_markov), [DDGS'18](#krn), 
+* Approximations of Markov chains: [CDPP'09](#approx_markov), [DDGS'18](#krn).
 
 * [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
@@ -124,7 +124,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), [Parzygnat'24](#retrodiction), and others.
 
-* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and inclusing using Markov categories [Di Lavore-Román'23],(#partial_markov).
+* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and including using Markov categories, [Di Lavore-Román'23](#partial_markov).
 
 * Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable).
 
@@ -185,7 +185,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Privacy of name generation: [HKSY'17](#QBS), [SSSW'21](#name_gen), [FGGPS'23](#dilations).
 
-* [[Probabilistic programming]] and [[random graphs]]: [AFKKMRSY'24](#graphons).
+* [[probabilistic programming|Probabilistic programming]] and [[random graphs]]: [AFKKMRSY'24](#graphons).
 
 * Stochastic memoization via monads: [Kaddar-Staton'23](#stoch_memo).
 
@@ -204,15 +204,17 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov).
 
+* Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov) and [Ensarguet-Perrone'23](#ergodic_dagger).
+
 * Connections between [[Markov categories]] and [[probability monads]]: [Golubtsov'02](#golubtsov02), [FGPR'23](#fritz_representable), [Moss-Perrone'22](#det_submonad), [FGGPS'23](#dilations).
 
 * Connections between [[Markov category#positivity_and_causality|positive Markov categories]] and [[semicartesian monoidal categories]]: [FGGPS'23](#dilations).
 
-* Construction of [[point-free]] [[probability monads]] (on [[locales]]): [Vickers'11](#vmonad).
+* Construction of [[locale|point-free]] [[probability monads]] (on [[locales]]): [Vickers'11](#vmonad).
 
 * Results expressing [[probability monads]] as [[codensity monads]]: [Avery'16](#avery_giry) and more recently [Van Belle'22](#vb_codensity) with concrete applications to measure theory.
 
-* Constructions of [[probability monads]] on [[metric spaces]], and connections with [[metric geometry]] and [[Banach spaces]]: [AJK'04](#jung), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
+* Constructions of [[probability monads]] on [[metric spaces]], and connections with [[metric space|metric geometry]] and [[Banach spaces]]: [AJK'04](#jung), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
 
 * Constructions of [[probability monads]] on [[topological spaces]], and connections with [[functional analysis]]: [Swirszcz'74](#swirszcz), [Giry'82](#giry'82), [Jones-Plotkin'89](#jones_plotkin89), [Heckmann'96](#Heckmann96), [Keimel'08](#radonkeimel), [GLJ'19](#algebras), [Fritz-Perrone-Rezagholi'21](#monads_supports).
 
