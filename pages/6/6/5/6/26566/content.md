@@ -116,7 +116,7 @@ Couplings are in some sense undirected, meaning that every transport plan from $
 
 This makes the [[category of couplings]] canonically a [[dagger category]].
 
-For transport plans specified by kernels, this symmetry corresponds exactly to [[Markov kernel#bayesian_inversion|Bayesian inversion of measure-preserving kernels]].
+For transport plans specified by kernels, this symmetry corresponds exactly to [[Bayesian inversion]] of kernels.
 
 
 
