@@ -160,6 +160,8 @@ See also
 * {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.normalesup.org/~henry/Thesis.pdf))
 
 
+category: probability
+
 [[!redirects measurable space]]
 [[!redirects measurable spaces]]
 
