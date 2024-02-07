@@ -80,6 +80,9 @@ The collection of all probability distributions on a measurable space carries va
 
 * Alex Simpson, [Measure, randomness and sublocales](https://www.sciencedirect.com/science/article/pii/S0168007211001874). 
 
+
+category: probability
+
 [[!redirects probability distribution]]
 [[!redirects probability distributions]]
 [[!redirects probability measure]]
