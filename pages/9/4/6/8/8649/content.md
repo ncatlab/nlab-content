@@ -113,7 +113,9 @@ reviewed in:
 
 General review and further discussion:
 
-* {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
+* {#Brylinski93} [[Jean-Luc Brylinski]], §7.1 in: *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))&rbrack;
+
+* {#Frankel} [[Theodore Frankel]], section 16.4e of: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
 * [[Luis Alvarez-Gaumé]], Frederic Zamora, Section II in:  *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1063/1.55087](https://doi.org/10.1063/1.55087)&rbrack;
 
