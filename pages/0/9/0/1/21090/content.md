@@ -2072,8 +2072,10 @@ i.e. the resulting joint morphism on the left makes $Y$ and $Z$ conditionally in
 
 Equivalently, a Markov category is positive if and only if  for every joint morphism $h:A\to X\otimes Y$ such that one of its marginals is deterministic, $h$ exhibits conditional independents of its outputs given its input.
 
+In a positive Markov category, every isomorphism is deterministic ([Fritz'20](#fritzmarkov), Remark 11.28).
 
-A Markov category is called **causal** if whenever the following equation holds,
+
+A Markov category is called **causal** if, whenever the following equation holds,
 
 \begin{tikzpicture}[%
 thick,%
