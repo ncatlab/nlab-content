@@ -74,11 +74,13 @@ It is closely related to the Kleisli category of the [[distribution monad]].
 * [[Kleisli category]]
 * [[categorical probability]]
 
-category: category
 
 ## References:
 
 * {#markov_support} Tobias Fritz, Tomáš Gonda, Antonio Lorenzin, Paolo Perrone, Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+
+
+category: category, probability
 
 [[!redirects BorelStoch]]
 [[!redirects category of kernels]]
