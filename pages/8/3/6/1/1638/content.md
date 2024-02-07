@@ -171,18 +171,27 @@ The following more recent papers are referred to above:
 
 * [[Richard Garner]], [Homomorphisms of higher categories](http://arxiv.org/abs/0810.4450).
 
-* [[Simon Henry]], [Non-unital polygraphs form a presheaf category](https://arxiv.org/abs/1711.00744), 2017
- {#Henry17}
+* {#Henry17} [[Simon Henry]], [Non-unital polygraphs form a presheaf category](https://arxiv.org/abs/1711.00744), 2017
+ 
+Disucssion of computads as [[inductive types]]:
+
+* [[Christopher J. Dean]], [[Eric Finster]], [[Ioannis Markakis]], [[David Reutter]], [[Jamie Vicary]], *Computads for weak $\omega$-categories as an inductive type* &lbrack;[arXiv:2208.08719](https://arxiv.org/abs/2208.08719)&rbrack;
+
 
 One should beware that there are some erroneous claims in some of Batanin's papers; in particular the claim that computads relative to a globular operad are *always* a presheaf category.  This was explicitly shown to be false in
 
 * Michael Makkai and Marek Zawadowski, _The category of 3-computads is not cartesian closed_, [MR](http://www.ams.org/mathscinet-getitem?mr=2440266).
 
-* Eugenia Cheng, [A direct proof that the category of 3-computads is not cartesian closed](http://arxiv.org/abs/1209.0414)
+* [[Eugenia Cheng]], [A direct proof that the category of 3-computads is not cartesian closed](http://arxiv.org/abs/1209.0414)
 
-Finally, we had some blog discussion about this at 
+Some blog discussion:
 
 * [Freely generated &#969;-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
+
+
+
+
+
 
 [[!redirects computads]]
 [[!redirects n-computad]]
