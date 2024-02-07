@@ -117,7 +117,14 @@ often referred to as "[[cohomological field theory]]"
 
 * {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
-where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted and related to [[Donaldson theory]]. The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
+where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted and related to [[Donaldson theory]]. 
+
+A superspace formulation that makes the form of the Lagrangian more transparent is in:
+
+* James Horne. *Superspace versions of topological theories.* Nuclear Physics B 318, no. 1 (1989): 22-52. ([doi](https://doi.org/10.1016/0550-3213(89)90046-1))
+
+
+The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
 
 * [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B **431** (1994) 3-77 &lbrack;[arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074)&rbrack;
 
