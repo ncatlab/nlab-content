@@ -27,7 +27,7 @@ The _coherence theorem for [[monoidal categories]]_, like many [[coherence theor
 
 1. The free monoidal category on some given data is equivalent to the free [[strict monoidal category]] on the same data.
 
-1. Every monoidal category is monoidally equivalent to a strict monoidal category.
+1. Every monoidal category is monoidally equivalent to a [[strict monoidal category]].
 
 1. Every monoidal category is equivalent to an [[unbiased monoidal category]].
 
@@ -62,6 +62,8 @@ One may have to practice visualizing this before it all sinks in, but it's a tre
 See also section 5 of
 
 * [[Saunders Mac Lane]], Topology and Logic as a Source of Algebra (Retiring Presidential Address), _Bulletin of the AMS_ 82:1, January 1976. ([euclid](https://projecteuclid.org/euclid.bams/1183537593))
+
+* {#Schauenburg01} [[Peter Schauenburg]], *Turning Monoidal Categories into Strict Ones*, New York Journal of Mathematics **7** (2001) 257-265 &lbrack;[nyjm:j/2001/7-16](http://nyjm.albany.edu/j/2001/7-16.html), [eudml:121925](https://eudml.org/doc/121925)&rbrack;
 
 ## See also
 
