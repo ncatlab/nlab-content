@@ -241,6 +241,9 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], _Categorical probability spaces, ergodic decompositions, and transitions to equilibrium_.  [arXiv](https://arxiv.org/abs/2310.04267).
 
+
+category: probability
+
 [[!redirects Markov kernels]]
 [[!redirects stochastic kernel]]
 [[!redirects stochastic kernels]]
