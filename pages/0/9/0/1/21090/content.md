@@ -1799,9 +1799,9 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 
 which says that "in the inside of $p|_X$, a wire has been bent to turn an output into an input".
 
-A particularly important conditional distribution is the following.
+A particularly important conditional distribution is given by [[Bayesian inverses]].
 
-Let $p$ be a state on $X$ and let $f:X\to Y$ be a morphisms. A **Bayesian inverse** of $f$ with respect to $p$ is a morphism $f^\dagger:Y\to X$ such that the following equation holds, where $q=f\circ p$.
+Let $p$ be a state on $X$ and let $f:X\to Y$ be a morphisms. A **[[Bayesian inverse]]** of $f$ with respect to $p$ is a morphism $f^\dagger:Y\to X$ such that the following equation holds, where $q=f\circ p$.
 
 \begin{tikzpicture}[%
 thick,%
@@ -1857,14 +1857,15 @@ q(y) \,f^\dagger_p(x|y) = p(x) \,f(y|x) ,
 $$
 which is in the usual form 
 $$
-P(y) \, P(x|y) = P(x) \, P(y|x) ;
+P(y) \, P(x|y) = P(x) \, P(y|x) ,
 $$
+which recovers the usual [[Bayesian inversion#discrete_case|Bayesian version for stochastic maps]].
 
 * In *Stoch*, similarly, it says that for all measurable $A\subseteq X$ and $B\subseteq Y$,
 $$
 \int_B f^\dagger_p(A|y) \, q(d y) = \int_A f(B|x)\,p(d x) .
 $$
-This recovers the [[Markov kernel#bayesian_inversion|Bayesian inversion of Markov kernels]].
+This recovers the [[Bayesian inversion#measuretheoretic_case|Bayesian inversion of Markov kernels]].
 
 Once again, Bayesian inversions exist for all [[standard Borel spaces]], and in general, if they exist, they are unique $q$-almost surely.
 
