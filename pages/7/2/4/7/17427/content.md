@@ -73,7 +73,7 @@ $$
   \big(
     C
     \otimes
-    (D \times E);
+    (D \times E)
     \otimes
     F
   \big)
