@@ -200,7 +200,13 @@ First Pontrjagin class as counting [[gravitational instanton number]]:
 
 
 [[!redirects first fractional Pontryagin class]]
+[[!redirects first fractional Pontrjagin class]]
+
+
 [[!redirects second fractional Pontryagin class]]
+[[!redirects second fractional Pontrjagin class]]
+
+
 
 [[!redirects fractional first Pontryagin class]]
 [[!redirects fractional second Pontryagin class]]
