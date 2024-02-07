@@ -3,6 +3,8 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-HigherGaugeFieldAsHomotopy.jpg:file]]
+
 [[GeomPhys-SimpSetOfFluxDeformations-240206.jpg:file]]
 
 [[GeomPhys-GeometricSimplices.jpg:file]]
