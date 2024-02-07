@@ -50,4 +50,7 @@ Surveys and lecture notes include
 
 * {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012 ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
 
+
+category: probability
+
 [[!redirects probability spaces]]
