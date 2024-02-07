@@ -29,32 +29,36 @@
 > For [[higher gauge fields]] [of Maxwell type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) --- e.g. the common [[electromagnetic field]] (the "A-field") but also the [[B-field|B-]], [[RR-field|RR-]], and [[supergravity|C-fields]] considered in [[string theory|string]]/[[M-theory]] --- [[flux]]&[[charge]][[flux quantization|-quantization]] laws specify [[non-perturbative quantum field theory|non-perturbative completions]] of these [[field (physics)|fields]] by encoding their [[soliton|solitonic]] behaviour and hence by specifying the quantized [[charges]] carried by the individual [[branes]] that source these fluxes (higher-dimensional [[monopoles]] or [[solitons]]).
 >
 > This page surveys the general ([[rational homotopy theory|rational]]-)[[homotopy theory|homotopy theoretic]] understanding &lbrack;[FSS23-Char](#FSS23)&rbrack;  of flux- & charge-quantization via the [[Chern-Dold character map]] generalized to the *non-linear* (self-sourcing) [[Bianchi identities]] that appear in higher-dimensional [[supergravity]] theories, notably for [[B-field|B-]]&[[RR-fields]] in [[D=10 supergravity]] and for the [[supergravity C-field|C-field]] in [[D=11 supergravity]]. 
->
-> While flux quantization applies already to [[classical field theory|classical]] gauge fields and might seem to be better called *flux discretization*, for disambiguation, the choice involved in flux quantization induces the actual [[strict deformation quantization]] of [[observables]] on fluxes &lbrack;[SS23-Obs](#SS23-Obs)&rbrack; and hence may be understood as part of actual [[quantization]] in the sense of *[[quantum field theory]]*, [[non-perturbative quantum field theory|non-perturbatively]].
->
-> With higher flux quantization thus being a key aspect of the general formulation of [[non-perturbative quantum field theory]] --- which as a whole remains a major open problem of [[mathematical physics|mathematical]] [[theoretical physics]] --- it may usefully be understood as one step in the historical development towards this goal:
->
-> * In 1852 [[Michael Faraday|Faraday]] observes [[magnetic field]] [[flux lines]] emanating from magnetic poles &lbrack;[Faraday 1852](#Faraday1852)&rbrack;. 
->   
-> * In 1931 [[P. A. M. Dirac|Dirac]] invokes [[quantum mechanics]] to argue that, if there were unpaired such (mono-)poles, then the total flux emanating from them --- and thus the magnetic charge carried by them --- had to come in [[integer]] multiples of a unit quantum &lbrack;[Dirac 1931](#Dirac31)&rbrack;. 
->
-> * In 1957 --- while magnetic monopoles remain unobserved --- [[Alexei Abrikosov|Abrikosov]] notices that the same electromagnetic flux-&charge-quantization mechanism makes [[Abrikosov vortex|vortex strings]] in [[type II superconductors]] carry units of localized magnetic flux.  &lbrack;[Abrikosov 1957](#Abrikosov57a)&rbrack;
->   
-> * In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[magnetic fields]] as [[cocycles]] in ([[differential ordinary cohomology|differential]]) [[ordinary cohomology]]. &lbrack;[Alvarez 1985](#Alvarez85a)&rbrack;
->
-> * In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[twisted K-theory|twisted topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack;; 
->
->   and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; which long remains mysterious. 
->
-> * In recent years we have developed &lbrack;[FSS23-Char](#FSS23)&rbrack; a systematic understanding of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
->
->   This provides a transparent re-derivation of known flux quantization laws and it allows to finally discuss [[supergravity C-field|C-field]] flux- and [[M-brane]] charge-quantization.
+
+
 
 \linebreak
 
 #Contents#
 * table of contents
 {:toc}
+
+\linebreak
+
+
+
+**History.**
+
+In 1852 [[Michael Faraday|Faraday]] observes [[magnetic field]] [[flux lines]] emanating from magnetic poles &lbrack;[Faraday 1852](#Faraday1852)&rbrack;. 
+  
+In 1931 [[P. A. M. Dirac|Dirac]] invokes [[quantum mechanics]] to argue that, if there were unpaired such (mono-)poles, then the total flux emanating from them --- and thus the magnetic charge carried by them --- had to come in [[integer]] multiples of a unit quantum &lbrack;[Dirac 1931](#Dirac31)&rbrack;. 
+
+In 1957 [[Alexei Abrikosov|Abrikosov]] essentially notices that the same electromagnetic flux-&charge-quantization mechanism makes [[Abrikosov vortex|vortex strings]] in [[type II superconductors]] carry units of localized magnetic flux.  &lbrack;[Abrikosov 1957](#Abrikosov57a)&rbrack;
+  
+In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[magnetic fields]] as [[cocycles]] in ([[differential ordinary cohomology|differential]]) [[ordinary cohomology]]. &lbrack;[Alvarez 1985](#Alvarez85a)&rbrack;
+
+In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[topological K-theory|topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack; or more generally in "[[twisted K-theory|twisted]]" such K-theory &lbrack;[Bouwknegt & Mathai 2001](#BouwknegtMathai01)&rbrack;
+
+and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; whose proper mathematical home motivates [Hopkins & Singer 2005](#HopkinsSinger05) but remains somewhat mysterious. 
+
+In the 2020s [Fiorenza et al. 2020](#FSS20H) develop a systematic understanding &lbrack;[FSS23-Char](#FSS23)&rbrack; of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
+
+This provides a transparent re-derivation of known flux quantization laws and it allows to finally discuss [[supergravity C-field|C-field]] flux- and [[M-brane]] charge-quantization.
 
 
 \linebreak
@@ -2991,6 +2995,8 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 * {#BFJKNRSW24} [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+* {#BouwknegtMathai01} [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 $[$[arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023), [doi:10.1088/1126-6708/2000/03/007](https://doi.org/10.1088/1126-6708/2000/03/007)$]$
+
 * {#CremmerJuliaLuPope98} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 3 of: *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
 
 
@@ -3010,6 +3016,8 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 
 * {#FSS19HigherStruc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The rational higher structure of M-theory]]_  in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
+
+* {#FSS20H} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds]]_, Comm Math. Phys.  **377** (2020) 1961-2025 &lbrack;[arXiv:1904.10207](https://arxiv.org/abs/1904.10207), [doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2)&rbrack;
 
 * {#FSS21WZ} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. **384** (2021) 403–432 &lbrack;[arXiv:1906.07417](https://arxiv.org/abs/1906.07417), [doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0)&rbrack;
 
