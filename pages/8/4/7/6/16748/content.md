@@ -60,7 +60,8 @@ In [[quantum mechanics]], the [[collapse of the wavefunction]] may be seen as a 
 
 [[!redirects Bayes' formula]]
 [[!redirects Bayes' formulas]]
-
+[[!redirects Bayes formula]]
+[[!redirects Bayes formulas]]
 
 [[!redirects Bayes's formula]]
 [[!redirects Bayes's formulas]]
