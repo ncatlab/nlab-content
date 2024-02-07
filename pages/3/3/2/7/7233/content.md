@@ -572,6 +572,13 @@ Weak $G_2$-holonomy is discussed in
 
 For more on this see at _[[M-theory on G2-manifolds]]_
 
+### Cohomology
+
+An analysis of the [[de Rham complex]] of $G_2$ manifolds, and an analogue of [[Dolbeault cohomology]] is in
+
+* Marisa Fernández, Luis Ugarte. *Dolbeault Cohomology for $G2$-Manifolds*. Geometriae Dedicata 70, 57–86 (1998). ([doi](https://doi.org/10.1023/A:1004940807017))
+
+
 
 
 [[!redirects G2 manifolds]]
