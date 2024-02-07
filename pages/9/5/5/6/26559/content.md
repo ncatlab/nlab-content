@@ -170,21 +170,48 @@ As this table indicates, the [[algebraic topology|algebro-topological]] nature o
 \begin{imagefromfile}
     "file_name": "GeomPhys-FirstIdeaFluxQuantization-240123.jpg",
     "float": "right",
-    "width": 580,
+    "width": 450,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -50,
         "bottom": 20,
         "right": 0, 
-        "left": 10
+        "left": 30
     }
 \end{imagefromfile}
 
 
 The admissible flux quantization laws for a higher gauge theory with Bianchi-Gauss $L_\infty$-algebra $\mathfrak{a}$ are hence those classified by spaces $\mathcal{A}$ with Whitehead $L_\infty$-algebra $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$. Given such a choice, then quantizing a flux density $\vec B$ is to lift its $\mathfrak{a}$-valued de Rham-class to a class in $\mathcal{A}$-valued nonabelian cohomology.
 
+\linebreak
+\linebreak
 
-Finally, given such a choice of flux quantization law $\mathcal{A}$, the [[gauge potentials]] and hence the full [[moduli stack]] of [[higher gauge fields]] appears by forming the above matching not just as an identification in [[non-abelian de Rham cohomology]] but as a [[homotopy fiber product]] of the corresponding [[moduli stacks]]: This makes the full flux-quantized [[higher gauge fields]] be [[cocycles]] in [[nonabelian differential cohomology]] with coefficients in $\mathcal{A}$.
+\begin{imagefromfile}
+    "file_name": "GeomPhys-HigherGaugeFieldAsHomotopy.jpg",
+    "float": "right",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+More in detail, a *flux-quantized higher gauge field* is (i) a flux density $\vec B$ being a cocycle in $\mathfrak{a}$-de Rham cohomology, (ii) a charge $\rchi$ being a cocycle in $\mathcal{A}$-cohomology and (iii) a *[[gauge potential]]* $\widehat A$ being a coboundary between their joint images (thus exhibiting the above identification of their cohomology classes).
+
+This makes the flux-quantized higher gauge fields be cocycles in *[[differential nonabelian cohomology|differential]]* $\mathcal{A}$-cohomology.
+
+\linebreak
+
+In the following we discuss all this in more detail.
+
+
+
+
+\linebreak
+\linebreak
 
 \begin{remark}\label{RoleOfLInfinityAlgebras}
 **(the role of [[L-infinity algebra|$L_\infty$-algebras]]: curvature-coefficients instead of gauge potiential-coefficients)**
@@ -201,9 +228,6 @@ Generally, not all [[L-infinity algebras|$L_\infty$-algebras]] appear as rationa
 Specifically, [[su(n)|$\mathfrak{su}(n)$]] ($n \geq 2$) is not a [[nilpotent Lie algebra]], which relates to the fact that flux quantization as discussed here --- while it does apply to non-linear/non-abelian higher Bianchi identities such as for the [[supergravity C-field|C-field]] --- does not apply directly to [[Yang-Mills theory]] with gauge Lie algebra [[su(n)|$\mathfrak{su}(n)$]] (or other [[classical Lie algebras]]).
 \end{remark}
 
-\linebreak
-
-In the following we discuss all this in more detail.
 
 \linebreak
 
