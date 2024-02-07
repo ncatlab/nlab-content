@@ -181,7 +181,8 @@ As this table indicates, the [[algebraic topology|algebro-topological]] nature o
 \end{imagefromfile}
 
 
-That these two $L_\infty$-algebras coincide is a consistency condition on the choice of the flux quantization law embodied by $\mathcal{A}$; and it implies that the non-abelian [[Chern-Dold character map]] $ch_{\mathcal{A}}$ from the [[non-abelian cohomology]]-theory classified by $\mathcal{A}$ takes values in the [[non-abelian de Rham cohomology]] with coefficients in $\mathfrak{l}\mathcal{A}$, which under $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$ identifies with the total flux of [[flux densities]] satisfying their higher [[Gauss law]].
+The admissible flux quantization laws for a higher gauge theory with Bianchi-Gauss $L_\infty$-algebra $\mathfrak{a}$ are hence those classified by spaces $\mathcal{A}$ with Whitehead $L_\infty$-algebra $\mathfrak{l}\mathcal{A} \simeq \mathfrak{a}$. Given such a choice, then quantizing a flux density $\vec B$ is to lift its $\mathfrak{a}$-valued de Rham-class to a class in $\mathcal{A}$-valued nonabelian cohomology.
+
 
 Finally, given such a choice of flux quantization law $\mathcal{A}$, the [[gauge potentials]] and hence the full [[moduli stack]] of [[higher gauge fields]] appears by forming the above matching not just as an identification in [[non-abelian de Rham cohomology]] but as a [[homotopy fiber product]] of the corresponding [[moduli stacks]]: This makes the full flux-quantized [[higher gauge fields]] be [[cocycles]] in [[nonabelian differential cohomology]] with coefficients in $\mathcal{A}$.
 
