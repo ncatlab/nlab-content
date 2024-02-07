@@ -110,7 +110,7 @@ It also appears in the following works:
 * [[categorical probability]]
 
 
-category: category
+category: category, probability
 
 
 [[!redirects Krn]]
