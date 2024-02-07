@@ -217,13 +217,13 @@ The concept is implicit in classical texts on [[differential topology]], for ins
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], Section 2 of: _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
 
 
-Discussion of the [[twisted Pontrjagin theory]] and of twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
+Discussion of the [[twisted Pontrjagin theorem]] and of twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
 
 * {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 and Section 7 of: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
-Discussion of unstabilized twisted cohomotopy, with application to foundations of [[M-theory]] ([[Hypothesis H]]):
+Discussion of unstable twisted Cohomotopy, with application to [[flux quantization]] of [[supergravity C-field]] ("[[Hypothesis H]]"):
 
-* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds]]_, Comm Math. Phys.  **377** (2020) 1961-2025 &lbrack;[arXiv:1904.10207](https://arxiv.org/abs/1904.10207), [doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2)&rbrack;
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
