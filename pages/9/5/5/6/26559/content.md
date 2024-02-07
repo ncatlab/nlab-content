@@ -2704,10 +2704,10 @@ To regard these local homotopy equivalences as the actual equivalences of smooth
 
 and referred to as the *[[(infinity,1)-topos|$\infty$-topos]] of [[smooth infinity-groupoid|smooth $\infty$-groupoids]]*.
 
-It is clear that, both, [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] (the [[truncated object of an (infinity,1)-category|0-truncated objects]]) and the latter as the objects which are constant on [[CartSp|$CartSp$]] (the geometrically [[discrete object|discrete]] objects):
+It is clear that, both, [[smooth sets]] as well as plain [[infinity-groupoids|$\infty$-groupoids]] are jointly contained in this larger category, the former as the objects which are constant on [[simplex category|$\Delta$]] (the [[truncated object of an (infinity,1)-category|0-truncated objects]]) and the latter as the objects which are constant on [[CartSp|$CartSp$]] (the geometrically [[discrete object|discrete]] objects). This allows to put both flux densities as well as the (homotopy types of) charge classifying spaces $\mathcal{A}$ on the same footing and hence relate them to each other fur the purpose of flux quantization, as previewed in the following diagrsm:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-SmoothInfinityGroupoids-240206.jpg",
+    "file_name": "GeomPhys-SmoothInfinityGroupoids-240207.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
@@ -2855,7 +2855,7 @@ Here $[0,1] \simeq \Delta^1_{geo}$, and in higher gauge theories there are also 
     }
 \end{imagefromfile}
 
-Since in each degree this is a set of plots of a [[smooth set]] of on-shell flux densities (eq:ModuliSheafOfFlatDifferentialForms), we have in total a smooth simplicial set &lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack; that is Kan &lbrack;[FSS23-Char, Prop. 5.10](#FSS23)&rbrack; and which we may think of as the [[shape modality|shape]]/[[shape via cohesive path ∞-groupoid|smooth path $\infty$-groupoid]]
+Since in each degree this is a set of plots of a [[smooth set]] of on-shell flux densities (eq:ModuliSheafOfFlatDifferentialForms), we have in total a smooth simplicial set &lbrack;[FSS23-Char, Def. 9.1](#FSS23)&rbrack; that is Kan &lbrack;[FSS23-Char, Prop. 5.10](#FSS23)&rbrack; and which we may think of as the *[[shape modality|shape]]* or *[[shape via cohesive path ∞-groupoid|smooth path $\infty$-groupoid]]* of the moduli of flux densities:
 
 $$
   \esh
