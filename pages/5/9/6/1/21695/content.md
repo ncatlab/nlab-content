@@ -26,7 +26,7 @@ The semidefinite integral is defined in terms of the definite integral.  We can 
 
 The value at $x$ of the semidefinite integral from $a$ may be denoted
 $$ \int_a f(x) \,\mathrm{d}x $$
-for short.  Notice that this notation has no dummy variable; we only need to introduce the dummy variable $t$ to unfold the definition.  (Indeed, some writers will abuse notation, writing $\int_a^x f(x) \,\mathrm{d}x$ for the semidefinite integral.)  But as in $\mathrm{d}y/\mathrm{d}x$, the $x$ here is not a [[free variable]] either, since we cannot freely use substitution; it has to be viewed as [[variable quantity]] instead.  Rather, if you want to evaluate $\int_a f(x) \,\mathrm{d}x$ when $x$ is some number $b$, then the notation for this is $\int_a^b f(x) \,\mathrm{d}x$, in which $x$ has now become a dummy variable but has not simply been replaced with $b$.
+for short.  Notice that this notation has no dummy variable; we only need to introduce the dummy variable $t$ to unfold the definition.  (Indeed, some writers will abuse notation, writing $\int_a^x f(x) \,\mathrm{d}x$ for the semidefinite integral.)  But as in $\mathrm{d}y/\mathrm{d}x$, the $x$ here is not a [[free variable]] either, since we cannot freely use substitution; it has to be viewed as [[variable quantity]] instead.  Rather, if you want to evaluate $\int_a f(x) \,\mathrm{d}x$ when $x$ is some number $b$, then the notation for this is $(\int_a f(x) \,\mathrm{d}x)|_{x=b}$ following the general logic of variable quantities; but unwrapping the definition of semidefinite integral, this can also be written as $\int_a^b f(x) \,\mathrm{d}x$.  (In each of these, $x$ has now become a dummy variable.)
 
 +-- {: .num_defn #semiIV}
 ###### Definition
@@ -64,9 +64,18 @@ This is not standard terminology, but it fits in well with other 'almost' termin
 The main property linking the different kinds of indefinite integral is the _[[fundamental theorem of calculus]]_ (FTC).  For various definitions of integral, one can prove that every semidefinite integral, or more generally any indefinite integral in the sense of Definition \ref{semiIV}, is an antiderivative; and that every antiderivative, or more generally every almost antiderivative, is an indefinite integral; possibly with technical conditions (depending on the type of integral concerned) such as differentiability or absolute continuity.  See that article for details.
 
 Indefinite integrals provide solutions to [[differential equations]].  Of course, the definition of an antiderivative is that it is the solution to a particularly simple differential equation.  Employing the FTC, we see that the indefinite integrals are the solutions to the corresponding initial-value problems.  Specifically, the solution to
-$$ F'(x) = f(x),\; F(a) = C $$
+$$ \frac{\mathrm{d}y}{\mathrm{d}x} = f(x),\; y|_{x=a} = C $$
 is the indefinite integral of $f$ with initial point $a$ and initial value $C$:
-$$ F(x) = C + \int_a f(x) \,\mathrm{d}x .$$
+$$ y = C + \int_a f(x) \,\mathrm{d}x .$$
+Some more general initial-value problems can be solved similarly; for example, the implicit solution to the separable IVP
+$$ g(y) \frac{\mathrm{d}y}{\mathrm{d}x} = f(x),\; y|_{x=a} = C $$
+is
+$$ \int_C g(y) \,\mathrm{d}y = \int_a f(x) \,\mathrm{d}x .$$
+Similarly, the solution to the linear IVP
+$$ \frac{\mathrm{d}y}{\mathrm{d}x} + P(x) \,y = Q(x),\; y|_{x=a} = C $$
+is
+$$ y = \frac{C + \int_a Q(x) \,\mu(x) \,\mathrm{d}x}{\mu(x)} ,$$
+where $\mu(x) = \exp \int_a P(x) \,\mathrm{d}x$.
 
 
 ## Generalizations
