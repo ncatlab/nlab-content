@@ -231,6 +231,8 @@ Dedicated [[string phenomenology]] for the case of compactification on [[G2-mani
 
 * {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large N Duality_, J. Math. Phys.42:3209-3220, 2001 ([arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256))
 
+* [[Sergei Gukov]]. *Solitons, Superpotentials and Calibrations*. Nuclear Physics B Volume 574, Issues 1–2, 15 May 2000, Pages 169-188. ([doi](https://doi.org/10.1016/S0550-3213(00)00053-5))
+
 * {#BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177), [doi:10.4310/ATMP.2002.v6.n1.a1]( https://dx.doi.org/10.4310/ATMP.2002.v6.n1.a1))
