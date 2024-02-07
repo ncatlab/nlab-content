@@ -321,6 +321,9 @@ and in the following video lectures:
 
 * [[Paolo Perrone]], _What is a probability monad?_, tutorial. ([YouTube](https://youtu.be/3Da88Tgw_rM))
 
+
+category: probability
+
 [[!redirects probability monad]]
 [[!redirects probability monads]]
 [[!redirects measure monad]]
