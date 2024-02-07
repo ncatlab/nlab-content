@@ -2497,6 +2497,9 @@ The research on Markov categories is still largely in progress, so this list wil
 
 See also the references at [[Markov kernel]].
 
+
+category: probability
+
 [[!redirects Markov categories]]
 [[!redirects markov category]]
 [[!redirects markov categories]]
