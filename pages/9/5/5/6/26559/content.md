@@ -2186,7 +2186,7 @@ Therefore -- among many further variants -- there are the following choices of f
 | EM flux quantization law |  comment |
 |--------------------------|----------|
 | $\underset{mag}{\underbrace{B^2 \mathbb{Q}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes *no* flux quantization (it does rule out [[irrational number|irrational]] total fluxes) and as such was the tacit choice since [Maxwell 1865](Maxwell's+equations#Maxwell1865) until [Dirac 1931](#Dirac31) |
-| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes integrality of magentic charge but no further condition on electric flux -- common choice since [Dirac 1931](#Dirac31), for instance in [Alvarez 1985b, p. 299](#Alvarez85b); [Freed 2000, Ex. 2.1.2](#Freed00) | 
+| $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Q}}}$ | this choice imposes integrality of magentic charge but no further condition on electric flux -- common choice since [Dirac 1931](#Dirac31), for instance in [Alvarez 1985b, p. 299](#Alvarez85b); [Brylinski 1993, §7.1](Dirac+charge+quantization#Brylinski93); [Freed 2000, Ex. 2.1.2](#Freed00) | 
 | $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\times\, \underset{el}{\underbrace{B^2 \mathbb{Z}}}$ | this choice imposes integrality of both magentic and electric charges -- considered in [Freed, Moore & Segal 2007a](#FreedMooreSegal07a), [2007b](#FreedMooreSegal07b); [Becker, Benini, Schenkel & Szabo 2015, Rem. 2.3](#BeckerBeniniSchenkelSzabo15); [Lazaroiu & Shahbazi 2022](#LazaroiuShahbazi22); [Lazaroiu & Shahbazi 2023, §2](#LazaroiuShahbazi23) | 
 | $\underset{mag}{\underbrace{B^2 \mathbb{Z}}} \,\rtimes\, \underset{el}{\underbrace{B\big( K \ltimes B\mathbb{Z} \big) }}$ | for a [[finite group]] $K \to Aut(\mathbb{Z})$ -- this choice induces non-commutativity between EL/EL- and EL/M-fluxes, an example of a "non-evident" flux quantization condition considered in [SS23-FQ](#SS23-FQ) |
 
@@ -2202,7 +2202,7 @@ Therefore -- among many further variants -- there are the following choices of f
 
 With higher Maxwell-type equations of flux given ([above](#EquationsOfMotionOfFlux)) and with a compatible flux/charge quantization law $\mathcal{A}$ chosen ([above](#TotalFluxInNonabelianDeRhamCohomology)), we explain here how the full [[on-shell]] [[field (physics)|field]] content of the [[higher gauge theory]] (including the [[gauge potentials]]) and hence its [[phase space]] (eq:CanonicalAndCovariantPhaseSpace) appears as the corresponding "[[moduli space]]" of [[nonabelian differential cohomology]] $\widehat{A}$ of any [[Cauchy surface]]. 
 
-In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]] (for full details we refer the reader to [FSS23-Char, §1 & §9](#FSS23Char)).
+In fact, such a [[phase space]] is not just a [[smooth manifold]], but is a *[[smooth infinity-groupoid|smooth $\infty$-groupoid]]* (aka *[[smooth infinity-stack|smooth $\infty$-stack]]*, hence a higher *[[moduli stack]]*) whose [[higher morphisms]] represent the [[higher gauge transformations]] between the field configurations; and so we briefly review some required concepts from [[(infinity,1)-topos theory|higher topos theory]] (for full details we refer the reader to [FSS23-Char, §1 & §9](#FSS23Char), quick exposition of the basic ideas is in [Schreiber 2024](#Schreiber24)).
 
 However, the "topological observables" on the higher gauge theory (those that detect topological charge structure but not the local [[differential geometry]] of field configurations) depend only on the "[[shape modality|shape]]" of the phase space stack, which by the properties of "[[cohesive (infinity,1)-topos|cohesive higher topos theory]]" turns out to coincide simply with the actual [[mapping space]] from the Cauchy surface into the classifying space $\mathcal{A}$. 
 
@@ -2223,9 +2223,9 @@ The idea of *[[moduli stacks]]* is the evident refinement of that of *[[classify
 
 In order to understand that and how such moduli stacks may exist at all, it is useful to take a perspective where *every* kind of space under consideration (such as spacetime itself) is *defined* (not as an underlying set of points with extra structure but) by the maps it receives from given *probes*.
 
-We refer the reader to the section *[[geometry of physics -- smooth sets]]* or else to &lbrack;[Schreiber 2024](#Schreiber24), [Giotopoulos & Sati 2023](#GiotopoulosSati23)&rbrack; for more exposition and discssion of the following idea:
+$\;$**Smooth sets.** We refer the reader to the section *[[geometry of physics -- smooth sets]]* or else to &lbrack;[Giotopoulos & Sati 2023](#GiotopoulosSati23)&rbrack; for more exposition and discssion of the following idea:
 
-$\;$**Smooth sets.** For the present purpose of [[higher differential geometry]], the relevant probe spaces are "abstract coordinate charts", namely [[Cartesian spaces]] $\mathbb{R}^n$, and the idea is that any space $X$ which qualifies as a "[[smooth set]]" should be *defined* (not necessarily by an [[underlying]] [[set]] of points equipped with [[smooth structure]] but) by a system of sets of ways 
+For the present purpose of [[higher differential geometry]], the relevant probe spaces are "abstract coordinate charts", namely [[Cartesian spaces]] $\mathbb{R}^n$, and the idea is that any space $X$ which qualifies as a "[[smooth set]]" should be *defined* (not necessarily by an [[underlying]] [[set]] of points equipped with [[smooth structure]] but) by a system of sets of ways 
 
 \[
   \label{PlotsByCartesianSpaces}
