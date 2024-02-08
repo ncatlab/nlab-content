@@ -44,11 +44,19 @@ Here
 
 ## Related concepts
 
+* [[gauge potential]]
+
 * [[Aharonov-Bohm effect]]
 
 ## References
 
-Historical origin:
+The identification of [[gauge potentials]] with [[connections]] on [[fiber bundles]] is due to:
+
+* {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
+
+See also at *[[fiber bundles in physics]]*.
+
+History:
 
 * A. C. T. Wu, [[Chen Ning Yang]], *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
 
