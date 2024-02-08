@@ -6,11 +6,11 @@
 
 Neutral constructive mathematics is a branch of [[constructive mathematics]] which simply removes the [[axiom of choice]] and [[excluded middle]] from the [[axioms]] of the [[foundations]], and does not replace it either with weaker versions of the axiom of choice or with axioms which contradict the axiom of choice. Thus, neutral constructive mathematics is agnostic about the status of the [[axiom of choice]] and [[excluded middle]]. 
 
-As a result, it is the [[internal logic]] of an [[elementary topos]] with [[natural numbers object]]. 
+As a result, [[impredicative mathematics|impredicative]] neutral constructive mathematics is the [[internal logic]] of an [[elementary topos]] with [[natural numbers object]]. 
 
 ## Examples
 
-Examples of mathematical foundations which one could do neutral constructive mathematics include:
+Examples of mathematical foundations which one could do impredicative neutral constructive mathematics include:
 
 * [[Martin-Löf type theory]], [[cubical type theory]], or ([[higher observational type theory|higher]]) [[observational type theory]] with a [[type of all propositions]]. 
 
@@ -20,9 +20,17 @@ Examples of mathematical foundations which one could do neutral constructive mat
 
 * intuitionistic bounded [[SEAR]]
 
-* intuitionistic [[Mostowski set theory]]
+* [[intuitionistic Mostowski set theory]]
 
 * the [[internal logic]] of any [[elementary topos]]
+
+Examples of mathematical foundations which one could do predicative neutral constructive mathematics include:
+
+* [[Martin-Löf type theory]], [[cubical type theory]], or ([[higher observational type theory|higher]]) [[observational type theory]]. 
+
+* [[constructive Mostowski set theory]]
+
+* the [[internal logic]] of any $\Pi$-$W$-pretopos. 
 
 ## Consequences
 
