@@ -25,8 +25,10 @@ An element $x \in L$ is __positive__ if it is not a [[bottom element]], equivale
 ###### Definition
 **(in [[classical mathematics]], and in impredicative [[constructive mathematics]])**
 
-An element $x \in L$ is __positive__ if whenever $x$ is bounded above by a [[join]] of some [[subset]] $A$ of $L$, $A$ is [[inhabited subset|inhabited]]: $\forall A\,; x \leq \bigvee A \;\Rightarrow\; \exists\, u \in A$.
+An element $x$ of $L$ is __positive__ if whenever $x$ is the [[join]] of some [[subset]] $A$ of $\{x\}$ in $L$, $A$ is [[inhabited subset|inhabited]] (and so all of $\{x\}$): $\forall P\colon Prop,\; x = \bigvee \{x \;|\; P\} \;\Rightarrow\; P$.
 =--
+
+It follows that any arbitrary subset $A$ of $L$ is inhabited if $x$ is the join of $A$.  (This is because if $x = \bigvee A$, then $x = \bigvee \{x \;|\; A\ is\ inhabited\}$.)  But it\'s important that the definition only quantifies over [[truth values]], which is why this definition is classically predicative, and may even be acceptable to some constructive predicativists who don\'t accept [[function sets]].
 
 +-- {: .num_defn #predconstdef}
 ###### Definition
@@ -34,9 +36,9 @@ An element $x \in L$ is __positive__ if whenever $x$ is bounded above by a [[joi
 
 A **positivity predicate** on $L$ is a [[predicate]] $\lozenge{x}$, pronounced "$x$ is positive", such that
 
-*  If $x$ is bounded above by a join of a subset and $x$ is positive, then some element of that subset is positive: $\lozenge{x} \;\wedge\; x \leq \bigvee A \;\vdash\; \exists\, u \in A,\; \lozenge{u}$.
+*  If $x$ is the join of a subset and $x$ is positive, then some element of that subset is positive: $\lozenge{x} \;\wedge\; x = \bigvee A \;\vdash\; \exists\, u \in A,\; \lozenge{u}$.
 
-*  If $x$ is bounded above by a join on the assumption that $x$ is positive, then $x$ really is so bounded: $\lozenge{x} \;\Rightarrow\; x \leq \bigvee A \;\vdash\; x \leq \bigvee A$.
+*  If $x$ equals a join on the assumption that $x$ is positive, then $x$ really is that join: $\lozenge{x} \;\Rightarrow\; x = \bigvee A \;\vdash\; x = \bigvee A$.
 =--
 
 These definitions are equivalent under certain circumstances.  Specifically:
