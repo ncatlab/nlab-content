@@ -67,10 +67,11 @@ The derivation of the fact that the Kalb-Ramond field that is locally given by a
   $$
     hol(\Sigma)
     =
-    \prod_{f} \exp(i \int_f \Sigma^* B_{\rho(f)})
-    \prod_{e \subset f}
-    \exp(i \int_{e} \Sigma^* A_{\rho(f) \rho(e)})
-    \prod_{v \subset e \subset f}
+    \textstyle{\prod}_{f} 
+    \exp(i \textstyle{\int}_f \Sigma^* B_{\rho(f)})
+    \textstyle{\prod}_{e \subset f}
+    \exp(i \textstyle{\int}_{e} \Sigma^* A_{\rho(f) \rho(e)})
+    \textstyle{\prod}_{v \subset e \subset f}
     \exp(i \lambda_{\rho(f) \rho(e) \rho(v)})
     \,.
   $$
@@ -81,6 +82,7 @@ The derivation of the fact that the Kalb-Ramond field that is locally given by a
     \lambda_{i j k} - \lambda_{i j l} +
     \lambda_{i k l} - \lambda_{j k l}
     = 0 \;mod \, 2\pi
+    \,,
   $$
 
   which says that $(B_i, A_{i j}, \lambda_{i j k})$ is indeed a degree 3 [[Deligne cohomology|Deligne cocycle]].
@@ -100,53 +102,54 @@ The restriction of the Kalb-Ramond field in the 10-dimensional [[spacetime]] to 
 
 [[!include table of branes]]
 
+
 ## References {#References}
 
-The name goes back to the article
+The name goes back to:
 
-* {#KalbRamond} M. Kalb and [[Pierre Ramond]], _Classical direct interstring action, Phys. Rev. D. 9 (1974), 2273&#8211;2284_
+* {#KalbRamond} M. Kalb, [[Pierre Ramond]], *Classical direct interstring action*, Phys. Rev. D. **9** (1974) 2273-2284 &lbrack;[doi:10.1103/PhysRevD.9.2273](https://doi.org/10.1103/PhysRevD.9.2273)&rbrack;
  
+The interpretation as a 4d [[axion]]:
 
-The interpretation as a 4d [[axion]] is discussed in
+* {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051 (2006) &lbrack;[arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206)&rbrack;
 
-* {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
+The interpretatin of the B-field as a 3-[[cocycle]] in [[Deligne cohomology]] is due to
 
-The earliest reference where the gauge term in the standard string [[action functional]] is identified with the surface holonomy of a 3-cocycle in [[Deligne cohomology]] seems to be
+* [[Krzysztof Gawedzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5)&rbrack;
 
-* [[Krzysztof Gawedzki]], _Topological Actions in two-dimensional Quantum Field Theories_, in: ’t Hooft G., Jaffe A., Mack G., Mitter P.K., Stora R. (eds.) Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5))
+picked up in
 
-The later article
+* {#FreedWitten99} [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. **3** 4 (1999) 819-852 &lbrack;[arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189), [InSpire:2655986](https://inspirehep.net/literature/2655986)&rbrack;
 
-* [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. 3:819, 1999 ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+The equivalent formulation in terms of [[connections on bundle gerbes]] originates with
 
-argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cohomology using [[quantum anomaly]]-cancellation arguments.
+* {#GawędzkiReis02} [[Krzysztof Gawędzki]], [[Nuno Reis]], *WZW branes and gerbes*, Rev. Math. Phys. **14** (2002) 1281-1334 &lbrack;[arXiv:hep-th/0205233](https://arxiv.org/abs/hep-th/0205233), [doi:10.1142/S0129055X02001557](https://doi.org/10.1142/S0129055X02001557)&rbrack;
 
-This is expanded on in 
+* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics **52** 2 (2004) 186-216 &lbrack;[arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [doi:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008)&rbrack;
 
-* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics Volume 52, Issue 2, October 2004, Pages 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [doi:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008))
+A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the [[RR-fields]] that it interacts with:
 
-A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the fields that it interacts with is in
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry **7** (2002) 129-194 &lbrack;  [arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
 
-* [[Dan Freed]], _Dirac Charge Quantization and Generalized Differential Cohomology_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
-
-In fact, in full generality the Kalb-Ramond field on an [[orientifold]] background is not a plain gerbe, but a _Jandl gerbe_ , a connection on a nonabelian $AUT(U(1))$-[[principal 2-bundle]]s for the [[automorphism 2-group]] $AUT(U)(1))$ of $U(1)$:
+In fact, in full generality the Kalb-Ramond field on an [[orientifold]] background is not a plain bundle gerbe, but a _[[Jandl gerbe]]_, a connection on a nonabelian $AUT(U(1))$-[[principal 2-bundles]] for the [[automorphism 2-group]] $AUT(U)(1))$ of $U(1)$:
 
 for the bosonic string this is discussed in 
 
-* [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv:hep-th/0512283](http://arxiv.org/abs/hep-th/0512283))
+* {#SSW05} [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_, Communications in Mathematical Physics **274** 1 (2007) 31-64 &lbrack;[arXiv:hep-th/0512283](http://arxiv.org/abs/hep-th/0512283), [doi:10.1007/s00220-007-0271-x](https://doi.org/10.1007/s00220-007-0271-x)&rbrack;
 
 and for the refinement to the [[superstring]] in
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics volume 83 AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795))
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[arXiv:0906.0795](http://arxiv.org/abs/0906.0795)&rbrack;
 
 * {#DistlerFreedMooreII} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_, Surveys in Differential Geometry, Volume 15 (2010) ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581), [doi:10.4310/SDG.2010.v15.n1.a4](http://dx.doi.org/10.4310/SDG.2010.v15.n1.a4))
-See at _[[orientifold]]_ for more on this.
+
+See at _[[orientifold]]_ for more on this; also at *[[discrete torsion]]*.
 
 The role of the KR field in [[twisted K-theory]] (see *[[K-theory classification of D-brane charge]]*) is discussed a bit also in 
 
-* {#Moore} [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
+* {#Moore} [[Greg Moore]], _K-theory from a physical perspective_ &lbrack;[arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018)&rbrack;
 
-In relation to Einstein-Cartan theory:
+In relation to [[first-order formulation of gravity|Einstein-Cartan theory]]:
 
 * Richa Kapoor, _A review of Einstein Cartan Theory to describe superstrings with intrinsic torsion_ ([arXiv:2009.07211](https://arxiv.org/abs/2009.07211))
 
