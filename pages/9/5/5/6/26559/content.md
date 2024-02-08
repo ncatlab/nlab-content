@@ -2144,10 +2144,10 @@ Recalling (eq:ConcordanceOfFlatDifferentialForms) that the $\mathfrak{a}$-valued
     }
 \end{imagefromfile}
 
-Since the total charges in $H^1\big(X^d; \Omega \mathcal{A})\big)$ on the left form a discrete set, we may think of implementing flux quantization in $\mathcal{A}$-cohomology as *[[lifting]]* of total fluxes through the character map:
+Since the total charges in $H^1\big(X^d; \Omega \mathcal{A})\big)$ on the left form a discrete set, we may think of implementing global flux quantization in $\mathcal{A}$-cohomology as *[[lifting]]* of total fluxes through the character map:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-FirstIdeaOfFluxQuantization.jpg",
+    "file_name": "GeomPhys-GlobalFluxQuantization.jpg",
     "width": 900,
     "unit": "px",
     "margin": {
@@ -2910,9 +2910,8 @@ $$
 
 \[\label{GaugePotentialsAsHomotopy}\]
 \begin{imagefromfile}
-    "file_name": "GeomPhys-ChargesToFluxHomotopy.jpg",
-    "float": "right",
-    "width": 340,
+    "file_name": "GeomPhys-LocalFluxQuantization.jpg",
+    "width": 870,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -2922,13 +2921,7 @@ $$
     }
 \end{imagefromfile}
 
-This way one may now *locally* implement [[flux quantization]] 
-
-* of flux densities $\vec F \,\colon\, X^d \to \Omega^1_{dR}\big(-;\mathfrak{a}\big)$
-
-* by charges $\xhi \,\colon\, X^d \to \mathcal{A}$
-
-by taking the fields on $X^d$ to be [[homotopies]] of smooth $\infty$-groupoids as shown on the right. &lbrack;[FSS23-Char, Def. 9.3](#FSS23Char)&rbrack;. These homotopies turn out to reflect the expected [[gauge potentials]] -- which is not entirely obvious from the definition but follows by careful examination:
+These homotopies turn out to reflect the expected [[gauge potentials]] -- which is not entirely obvious from the definition but follows by examination:
 
 
 \begin{example}
