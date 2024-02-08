@@ -31,7 +31,11 @@ Unlike [[Archimedean ordered fields]], which require arithmetic [[Heyting pretop
 
 ## In analysis
 
-Archimedean ordered local $\mathbb{R}$-algebras are important for modeling notions of [[infinitesimals]]. These include the dual numbers, which represent nilsquare infinitesimals and are used to synthetically define [[differentiable functions]] in the real numbers, Archimedean ordered Weil $\mathbb{R}$-algebras, which represent nilpotent infintiesimals and are used to synthetically define [[smooth functions]] in the real numbers, as well as [[formal power series]] on $\mathbb{R}$, which represent infinitesimals which are not nilpotent and are used to synthetically define [[analytic functions]] in the real numbers. 
+Archimedean ordered local rings are important for modeling notions of [[infinitesimals]]. These include the dual numbers, which represent nilsquare infinitesimals and are used to synthetically define [[differentiable functions]] in the real numbers, Archimedean ordered Weil rings, which represent nilpotent infintiesimals and are used to synthetically define [[smooth functions]] in the real numbers, as well as [[formal power series]] on the [[ground ring]], which represent infinitesimals which are not nilpotent and are used to synthetically define [[analytic functions]] in the real numbers. 
+
+### Kock-Lawvere axiom
+
+An Archimedean ordered local ring $R$ satisfies the *[[Kock-Lawvere axiom]]* if and only if given any Weil $R$-algebra $W$, the canonical function from $W$ to $R^{\mathrm{spec}_R^W}$ the [[function algebra]] with [[domain]] the [[formal spectrum]] of $W$ and codomain $R$ is an $R$-algebra [[isomorphism]]. 
 
 ## See also
 
@@ -40,6 +44,10 @@ Archimedean ordered local $\mathbb{R}$-algebras are important for modeling notio
 * [[Archimedean ordered Artinian local ring]]
 * [[Archimedean ordered reduced local ring]]
 * [[Archimedean ordered local integral domain]]
+
+## References
+
+* [[Ieke Moerdijk]], [[Gonzalo E. Reyes]]: **Models for Smooth Infinitesimal Analysis**, Springer (1991), [doi:10.1007/978-1-4757-4143-8](https://link.springer.com/book/10.1007/978-1-4757-4143-8)
 
 [[!redirects Archimedean ordered local ring]]
 [[!redirects Archimedean ordered local rings]]
