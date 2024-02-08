@@ -171,6 +171,17 @@ Every continuous map $\mathbb{C}P^n\rightarrow\mathbb{C}P^n$ for $n$ even has a 
 
 ([Hatcher 02, page 180](#Hatcher02))
 
+\begin{proposition}
+One has
+$$
+\operatorname{TC}(\mathbb{C}P^n)
+=2n+1
+$$
+for the [[topological complexity]].
+\end{proposition}
+
+([Farber & Tabachnikov & Yuzvinsky 02,  Corollary 2](#FarberTabachnikovYuzvinsky02))
+
 ### Cell structure
 
 +-- {: .num_prop #CellComplexStructureOnComplexProjectiveSpace}
@@ -1023,6 +1034,10 @@ See also
 
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org
 /wiki/Complex_projective_space)_
+
+[[Topological complexity]] of complex projective space:
+
+* {#FarberTabachnikovYuzvinsky02} [[Michael Farber]], [[Serge Tabachnikov]], [[Sergey Yuzvinsky]], _Topological robotics: motion planning in projective spaces_ (2002), [arXiv:math/0210018](https://arxiv.org/abs/math/0210018);
 
 Computation of [[Cohomotopy]]-sets of complex projective spaces:
 
