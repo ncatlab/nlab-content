@@ -45,5 +45,11 @@ Every Kock field with [[decidable equality]] is a [[discrete field]].
 
 * [[David Jaz Myers]], Axiom 3 in Sec. 4.1 of: *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
 
+
+[[!redirects Kock field]]
+[[!redirects Kock fields]]
+
 [[!redirects Postulate K]]
+
 [[!redirects field in the sense of Kock]]
+[[!redirects fields in the sense of Kock]]
