@@ -209,7 +209,7 @@ Discussion of [[transgression]] and [[higher holonomy]] in [[Deligne cohomology]
 
 
 [[!redirects connections on a bundle gerbes]]
-[[!redirects connections on bundle gerbess]]
+[[!redirects connections on bundle gerbes]]
 
 [[!redirects bundle gerbe with connection]]
 [[!redirects bundle gerbes with connection]]
