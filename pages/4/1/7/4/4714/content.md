@@ -23,10 +23,13 @@ The notion is
 
 * a generalization of the notion of [[bundle 2-gerbe]] from abelian to nonabelian structure [[infinity-group|3-groups]].
 
+## Related concepts
+
+* [[principal 3-bundle]]
 
 ## References
 
-* [[Branislav Jurco]], _Nonabelian bundle 2-gerbes_ ([arXiv:0911.1552](http://arxiv.org/abs/0911.1552))
+* [[Branislav Jurčo]], *Nonabelian bundle 2-gerbes*,  International Journal of Geometric Methods in Modern Physics **08** 01 (2011) 49-78 &lbrack;[arXiv:0911.1552](http://arxiv.org/abs/0911.1552), [doi:10.1142/S0219887811004963](https://doi.org/10.1142/S0219887811004963)&rbrack;
 
 A model for the [[supergravity C-field]] in terms of nonabelian bundle 2-gerbes:
 
