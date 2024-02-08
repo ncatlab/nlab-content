@@ -393,7 +393,20 @@ See [[connection on a principal ∞-bundle]].
 
 ## References
 
-A classical textbook reference is
+The notion of [[Ehresmann connections]] originates with:
+
+* [[Charles Ehresmann]], *Les connexions infinitésimales dans un espace fibré différentiable*, 
+
+   Colloque de topologie (espaces fibrés), Bruxelles, 1950, Georges Thone, Liège; Masson et Cie., Paris (1951) 29–55
+
+  [[Séminaire Bourbaki]], **1** 24 (1952) 153–168 &lbrack;[numdam:SB_1948-1951__1__153_0](http://www.numdam.org/item/?id=SB_1948-1951__1__153_0), [pdf](http://www.numdam.org/article/SB_1948-1951__1__153_0.pdf)&rbrack;
+
+
+The understanding of [[gauge potentials]] in [[Yang-Mills theory]] as [[connection on a bundle|connections]] on [[fiber bundles]] originates with (see also at *[[fiber bundles in physics]]*):
+
+* {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
+
+Textbook account:
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
