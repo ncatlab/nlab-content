@@ -186,11 +186,15 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 
 ## References
 
-(See also the references at _[[Dirac charge quantization]]_.)
+> See also the references at _[[Dirac charge quantization]]_ at *[[gauge potential]]*.
+
+The understanding of [[electromagnetic potentials]] as [[connection on a bundle|connections]] on [[fiber bundles]] originates with:
 
 * {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
 
-* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
+Further discussion and review:
+
+* {#EguchiGilkeyHanson80} [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213-393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
 
 * [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Springer "Lecture Notes in Physics", 188 (1983) ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://link.springer.com/book/10.1007/3-540-12724-0))
 
@@ -210,7 +214,7 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 * [[Adam Marsh]], _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089)), chapter 10 in: [[Adam Marsh]], _Mathematics for Physics: An Illustrated Handbook_, World Scientific 2018 ([doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/))
 
 
-* {#RudolhSchmidt} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* {#RudolphSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
 
 Specifically in [[solid state physics]] ([[valence bundles]] and their [[K-theory classification of topological phases of matter]]):
