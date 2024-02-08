@@ -22,7 +22,7 @@ A _distributive monoidal_ category is a [[monoidal category]] whose [[tensor pro
 
 ## Definition
 
-A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose [[tensor product]] [[preserved colimit|preserves]] [[coproducts]] in each variable: i.e. the canonical morphisms
+A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose [[tensor product]] [[preserved colimit|preserves]] [[coproducts]] in each variable: i.e. such that the canonical morphisms
 $$\coprod_i (X\otimes Y_i)\to X \otimes \coprod_i Y_i$$
 $$\coprod_i (X_i\otimes Y)\to \coprod_i X_i \otimes Y$$
 are [[isomorphisms]].
