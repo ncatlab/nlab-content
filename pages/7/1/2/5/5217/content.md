@@ -68,7 +68,7 @@ In particular, the traditional definition of an ordered field as defined above n
 
 Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundatiins Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$ and be a [[Heyting field]], with the [[tight apartness relation]] defined as $a \# b$ if and only if $a \lt b$ or $b \lt a$.  
 
-However, there are other fields with a strict total order but without a lattice structure, such as any [[Archimedean ordered field]] in which every [[endofunction]] is a [[smooth function]], and there are other fields with a strict total order which are only [[weak Heyting fields]] and not [[Heyting fields]], such as the [[surreal numbers]]. Thus, other authors prefer the more traditional definition given above. 
+However, it is consistent in constructive mathematics that there are fields with a strict total order but without a lattice structure (see [here](https://mathoverflow.net/questions/463680/archimedean-ordered-fields-without-maxima-and-minima-in-constructive-mathematics) for example), and there are other fields with a strict total order which are only [[weak Heyting fields]] and not [[Heyting fields]], such as the [[surreal numbers]]. Thus, other authors prefer the more traditional definition given above. 
 
 ## Examples
 
