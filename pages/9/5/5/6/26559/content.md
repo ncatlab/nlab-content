@@ -2925,17 +2925,21 @@ These homotopies turn out to reflect the expected [[gauge potentials]] -- which 
 
 
 \begin{example}
-**([[gauge potentials]] of [[electromagnetism]] and [[ordinary differential cohomology]])**
+**([[circle n-group|higher U(1)-]][[gauge potentials]] in [[ordinary differential cohomology]])**
 \linebreak
 The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHomotopy) is equivalent...
 
-* ...for the case of ordinary [[electromagnetism]] with $\mathfrak{a} \equiv b \mathfrak{u}(1)$ (or two direct summands thereof) and $\mathcal{A} \equiv B \mathrm{U}(1) = B^2 \mathbb{Z}$ (Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}):  
+* **(A)** ...for the case of ordinary [[electromagnetism]] with $\mathfrak{a} \equiv b \mathfrak{u}(1)$ and $\mathcal{A} \equiv B \mathrm{U}(1) = B^2 \mathbb{Z}$ (Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}):  
 
   to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism (going back to [Wu & Yang 1975](gauge+potential#WuYang75), cf. [Wu & Yang 2006](gauge+potential#WuYang06); [Eguchi, Gilkey & Hanson 1980, Ex. 5.5](fiber+bundles+in+physics#EguchiGilkeyHanson80), [Rudolph & Schmidt 2017, §6](fiber+bundles+in+physics#RudolphSchmidt17));
 
-* ...for the case of a plain [[B-field]] with $\mathfrak{a} \equib b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
+* **(B)** ...for the case where $\mathfrak{a} \equiv b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
 
-  to that of a 3-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which is the traditionally understood model for 2-form gauge potentials &lbrack;[Gawędzki 1986](#Gawędzki86); [Freed & Witten 1999, §6](#FreedWitten99);&rbrack;, often regarded in the equivalent guise of "[[connections on bundle gerbes]]" [Gawędzki & Reis 2002](#GawędzkiReis02); [Carey, Johnson & Murray 2002](#CareyJohnsonMurray02); [Bonora, Ruffino & Savelli 2008](Kalb-Ramond+field#BonoraRuffinoSavelli08)&rbrack;
+  to that of a 3-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which is the traditionally understood model for [[B-field]] gauge potentials &lbrack;[Gawędzki 1986](#Gawędzki86); [Freed & Witten 1999, §6](#FreedWitten99);&rbrack;, often regarded in the equivalent guise of "[[connections on bundle gerbes]]" [Gawędzki & Reis 2002](#GawędzkiReis02); [Carey, Johnson & Murray 2002](#CareyJohnsonMurray02); [Bonora, Ruffino & Savelli 2008](Kalb-Ramond+field#BonoraRuffinoSavelli08)&rbrack;
+
+* **(C)** ... for the case where $\mathfrak{a} \equiv b^3 \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^3 \mathrm{U}(1) \simeq B^4 \mathbb{Z}$:
+
+  to that of a 4-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which was one of the proposed models for the [[supergravity C-field|C-field]] gauge potentials (in the case that the [[first fractional Pontrjagin class]] $\tfrac{1}{2}p_1$ of [[spacetime]] is [[even number|even]], otherwise the [[shifted C-field flux quantization|half-integral shift]] has been added "by hand") &lbrack;[Diaconescu, Freed & Moore 2003, p. 6](#DiaconescuFreedMoore03); [Hopkins & Singer 2005](#HopkinsSinger05); [FSS15](#FSS15)&rbrack;
 
 * ...for the general case of $\mathfrak{a} \equiv b^n \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^n \mathrm{U}(1) \simewq B^{n+1} \mathbb{Z}$:
 
@@ -3020,6 +3024,9 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 * {#CremmerJuliaLuPope98} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 3 of: *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
 
+* {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, in: _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489)&rbrack;
+
+
 
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short)&rbrack;
 
@@ -3032,6 +3039,8 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 
 * {#Figueroa-O'FarrillSimón03} [[José Figueroa-O'Farrill]], [[Joan Simón]], *Supersymmetric Kaluza-Klein reductions of M2 and M5-branes*, Adv. Theor. Math. Phys. **6** (2003) 703-793 &lbrack;[arXiv:hep-th/0208107](https://arxiv.org/abs/hep-th/0208107), [doi:10.4310/ATMP.2002.v6.n4.a4](https://doi.org/10.4310/ATMP.2002.v6.n4.a4)&rbrack;
+
+* {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics **333** 1 (2015) 117-151, &lbrack;[arXiv:1202.2455](http://arxiv.org/abs/1202.2455), [doi:10.1007/s00220-014-2228-1](http://link.springer.com/article/10.1007%2Fs00220-014-2228-1)&rbrack;
 
 * {#FSS17SphereCocycles} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]*, J. Geometry and Physics, **114** (2017) 91-108 &lbrack;[arXiv:1606.03206](https://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024)&rbrack;
 
