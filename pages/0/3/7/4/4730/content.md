@@ -25,8 +25,10 @@ A **principal 3-bundle** is a $G$-[[principal ∞-bundle]] over a [[3-groupoid|3
 
 For $G = \mathbf{B}^2 U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 3-group</a>, the total space of a $\mathbf{B}^2 U(1)$-principal 3-bundle is modeled by a [[bundle 2-gerbe]].
 
-## Connections
+## Related concepts
 
-See [[connection on a 3-bundle]] .
+* [[connection on a 3-bundle]]
+
+* [[nonabelian bundle 2-gerbe]]
 
 [[!redirects principal 3-bundles]]
