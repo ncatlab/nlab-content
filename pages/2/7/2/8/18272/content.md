@@ -257,7 +257,7 @@ Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obta
 
    forms [[preimages]] under $f$,
 
-1. $f_ast \,\coloneqq\, T \setminus f\big(S \setminus (-)\big) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
+1. $f_\ast \,\coloneqq\, T \setminus f\big(S \setminus (-)\big) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
 
    forms the [[complement]] of [[images]] of [[complements]].
 
