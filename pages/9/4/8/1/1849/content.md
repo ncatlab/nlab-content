@@ -881,9 +881,14 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 
 * {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489)&rbrack;
 
-A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- and its cancellation -- is in
+A related model of the C-field in terms of [[nonabelian bundle 2-gerbe|nonabelian]] [[bundle 2-gerbes]]:
 
-* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics, Volume 263, Number 1, 89-132, &lbrack;[arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
+* [[Paolo Aschieri]], [[Branislav Jurčo]], *Gerbes, M5-Brane Anomalies and $E_8$ Gauge Theory*, JHEP 0410:068 (2004) &lbrack;[arXiv:hep-th/0409200](https://arxiv.org/abs/hep-th/0409200), [doi:10.1088/1126-6708/2004/10/068](https://doi.org/10.1088/1126-6708/2004/10/068)&rbrack;
+
+
+Further discussion ofthe [[quantum anomaly]] of the supergravity C-field, and its cancellation:
+
+* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics **263** 1 (2006) 89-132, &lbrack;[arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
  
 A summary and review of this:
 
