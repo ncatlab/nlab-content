@@ -56,19 +56,21 @@ $$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b)
 The strict total order is defined as
 $$a \lt b \coloneqq \mathrm{isPositive}(b - a)$$
 
-### In constructive mathematics. 
+### In constructive mathematics
 
-Due to the fact that in constructive mathematics, a set having a strict total order no longer implies that the set has a weak total order, and a set having a weak total order no longer implies that the set has a strict total order, the notion of ordered field bifurcates into multiple inequivalent notions. 
+In constructive mathematics, [[denial inequality]] is no longer a [[tight apartness relation]], and neither relation is a [[decidable relation]]. Thus, the concept of a [[field]] splits into multiple separate notions, *[[discrete fields]]*, *[[Heyting fields]]*, and *[[Kock fields]]*, depending on whether one uses [[denial inequality]] or a separate [[tight apartness relation]] to characterize invertibility of elements. This split in the definition of field carries over to the definition of an ordered field. 
 
-In particular, the traditional definition of an ordered field as defined above no longer implies that
- 
-1. that the ordered field is a [[lattice]], that it has binary [[joins]] and [[meets]]
+* An **ordered discrete field** is an [[ordered local ring]] such that $x$ is invertible or $x = 0$. 
 
-2. that the ordered field, depending on how field is defined (see [[field#Constructive notions]]), is no longer [[Heyting field|Heyting]]. 
+* An **ordered Heyting field** is an [[ordered local ring]] such that $x$ is non-invertible if and only if $x = 0$. 
 
-Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundatiins Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$ and be a [[Heyting field]], with the [[tight apartness relation]] defined as $a \# b$ if and only if $a \lt b$ or $b \lt a$.  
+* An **[[ordered Kock field]]** is an [[ordered local ring]] such that $x$ is invertible if and only if $\neg (x = 0)$. 
 
-However, it is consistent in constructive mathematics that there are fields with a strict total order but without a lattice structure (see [here](https://mathoverflow.net/questions/463680/archimedean-ordered-fields-without-maxima-and-minima-in-constructive-mathematics) for example), and there are other fields with a strict total order which are only [[weak Heyting fields]] and not [[Heyting fields]], such as the [[surreal numbers]]. Thus, other authors prefer the more traditional definition given above. 
+Ordered Heyting fields are commonly used in [[real analysis]] with the [[Dedekind real numbers]], since the Dedekind real numbers $\mathbb{R}$ and any [[subfield]] of $\mathbb{R}$ form an ordered Heyting field. On the other hand, ordered Kock fields are commonly used in [[synthetic differential geometry]]. 
+
+Furthermore, a set having a strict total order no longer implies that the set has a weak total order, and a set having a weak total order no longer implies that the set has a strict total order. In particular, the traditional definition of an ordered field as defined above no longer implies that the ordered field is a [[lattice]], that it has binary [[joins]] and [[meets]]. 
+
+Thus, some authors in constructive mathematics, such as [Booij 2020](#Booij20) and [Univalent Foundations Project 2013](#UFP13), have defined an ordered field to additionally have a lattice structure on $\leq$. However, it is consistent in constructive mathematics that there are ordered Heyting fields without a lattice structure (see [here](https://mathoverflow.net/questions/463680/archimedean-ordered-fields-without-maxima-and-minima-in-constructive-mathematics) for example), and ordered Kock fields which satisfy the [[Kock-Lawvere axiom]] are not lattices with respect to $\leq$ either. 
 
 ## Examples
 
@@ -132,3 +134,8 @@ In the other direction, every real field $F$ may be embedded in a [[real closed 
 [[!redirects totally ordered fields]]
 [[!redirects strictly ordered field]]
 [[!redirects strictly ordered fields]]
+
+[[!redirects ordered discrete field]]
+[[!redirects ordered discrete fields]]
+[[!redirects ordered Heyting field]]
+[[!redirects ordered Heyting fields]]
