@@ -3,6 +3,58 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+Tests for how case split is rendered (see discussion on [[real projective space]]):
+\[
+    H_k
+    \big(
+      \mathbb{R}P^n
+    \big)
+    \;=\;
+    \left\{
+    \begin{array}{ll}
+       \mathbb{Z} & k = 0 \quad or \quad k = n \quad if \quad odd
+       \\
+       \mathbb{Z}_2 & k \quad odd \quad and \quad 1 \leq k \leq n-1
+       \\
+       1 & otherwise
+    \end{array}
+    \right.
+\]
+\[
+    H_k
+    \big(
+      \mathbb{R}P^n
+    \big)
+    \;=\;
+    \left\{
+    \begin{array}{ll}
+       \mathbb{Z} & k = 0 \; or \; k = n \; if \; odd
+       \\
+       \mathbb{Z}_2 & k \; odd \; and \; 1 \leq k \leq n-1
+       \\
+       1 & otherwise
+    \end{array}
+    \right.
+\]
+$$
+  H_k(\mathbb{C}P^n,A)\simeq
+  \left\{
+    \array{
+       A & for \; k \;even\; and \; k \leq 2n
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+$$
+1 \leq k \leq n-1
+$$
+\[
+0 < k < n
+\]
+
+
 [[GeomPhys-LocalFluxQuantization.jpg:file]]
 
 [[GeomPhys-GlobalFluxQuantization.jpg:file]]
