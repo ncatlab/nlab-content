@@ -2844,7 +2844,7 @@ Recall (eq:ConcordanceOfFlatDifferentialForms) that a [[coboundary]] in $\mathfr
 Here $[0,1] \simeq \Delta^1_{geo}$, and in higher gauge theories there are also non-trivial deformations-of-deformations varying over the higher dimensional [[n-simplex|$n$-simplices]] $\Delta^n_{geo}$:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-SimpSetOfFluxDeformations-240206.jpg",
+    "file_name": "GeomPhys-SimpSetOfFluxDeformations-240208.jpg",
     "width": 850,
     "unit": "px",
     "margin": {
