@@ -2924,7 +2924,7 @@ $$
 These homotopies turn out to reflect the expected [[gauge potentials]] -- which is not entirely obvious from the definition but follows by examination:
 
 
-\begin{example}
+\begin{example}\label{HigherCircleGaugePotentials}
 **([[circle n-group|higher U(1)-]][[gauge potentials]] in [[ordinary differential cohomology]])**
 \linebreak
 The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHomotopy) is equivalent...
@@ -2939,7 +2939,7 @@ The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHom
 
 * **(C)** ... for the case where $\mathfrak{a} \equiv b^3 \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^3 \mathrm{U}(1) \simeq B^4 \mathbb{Z}$:
 
-  to that of a 4-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which was one of the proposed models for the [[supergravity C-field|C-field]] gauge potentials (in the case that the [[first fractional Pontrjagin class]] $\tfrac{1}{2}p_1$ of [[spacetime]] is [[even number|even]], otherwise the [[shifted C-field flux quantization|half-integral shift]] has been added "by hand") &lbrack;[Diaconescu, Freed & Moore 2003, p. 6](#DiaconescuFreedMoore03); [Hopkins & Singer 2005](#HopkinsSinger05); [FSS15](#FSS15)&rbrack;
+  to that of a 4-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which was one of the proposed models for the [[supergravity C-field|C-field]] gauge potentials (in the case that the [[first fractional Pontrjagin class]] $\tfrac{1}{2}p_1$ of [[spacetime]] is [[even number|even]], otherwise the [[shifted C-field flux quantization|half-integral shift]] has been added "by hand") &lbrack;[Diaconescu, Freed & Moore 2003, p. 6](#DiaconescuFreedMoore03); [Aschieri & Jurčo 2004](#AschieriJurčo04); [Hopkins & Singer 2005](#HopkinsSinger05); [FSS15](#FSS15)&rbrack;
 
 * ...for the general case of $\mathfrak{a} \equiv b^n \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^n \mathrm{U}(1) \simewq B^{n+1} \mathbb{Z}$:
 
@@ -2948,17 +2948,22 @@ The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHom
 This is shown in [FSS23-Char, Prop. 9.5](#FSS23Char) (and with the [[Dold-Kan correspondence]] understood, the main computations are also spelled out at *[[Deligne cohomology]]* in the section *[Properties](Deligne+cohomology#Properties)*).
 \end{example}
 
+\begin{remark}
+**(Shortcoming of higher $\mathrm{U}(1)$-charge quantization)**
+\linebreak
+For a long time, these examples \ref{HigherCircleGaugePotentials} used to be the state of the art in understanding flux quantization of higher gauge fields. But notice that in all three items the flux-quantization of the duality-partner fields have been ignored. For item (A) this can readily be rectified, since here the partner (electric) field can be flux-quantized in the same way (and later has been, Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}),  but in items (B) and (C) it is actually impossible to model the dual fields (with flux densities $H_7$ and $G_7$, respectively) as higher $\mathrm{U}(1)$-gauge fields (nor even as generalized higher abelian gauge fields, Ex. \ref{AbelianWhiteheadGeneralizedDiffCohomology}), since their Bianchi identities are non-linear (by Ex. \ref{MotionOfCoupledBRRFields} and Ex. \ref{MotionOfSupergravityCField}, respectively).
+\end{remark}
+
 More generally:
 
 \begin{example}
+\label{AbelianWhiteheadGeneralizedDiffCohomology}
 **(abelian [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]])**
 \linebreak
-For $E_\bullet$ a [[spectrum]] of spaces and $\mathcal{A} = E_n$, the data $\hat A \,\colon\,\chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHomotopy) is equivalent to a [[cocycle]] in the "canonical" version of $E_n$-[[differential cohomology]] as originally introduced by [Hopkins & Singer 2005](#HopkinsSinger05), see [Bunke 2012](#differential+cohomology#Bunke12).
+For $E_\bullet$ a [[spectrum]] of spaces and $\mathcal{A} \equiv E_n$, the data $\hat A \,\colon\,\chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHomotopy) is equivalent &lbrack;[FSS23-Char, Ex. 9.1](#FSS23Char)&rbrack; to [[cocycles]] in the "canonical" version of [[differential cohomology|differential]] [[Whitehead-generalized cohomology|$E_n$-cohomology]] as originally introduced by [Hopkins & Singer 2005](#HopkinsSinger05), cf. [Bunke 2012, p. 88](differential+cohomology#Bunke12). 
 
-This is spelled out in [FSS23-Char, Ex. 9.1](#FSS23Char).
+For application to flux quantization, the most prominent example of such abelian generalized differential cohomology remain flavours of [[differential K-theory]], to which we come [below](#RRFieldFluxQuantization).
 \end{example}
-
-In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]] in the $\mathcal{A}$-[[nonabelian differential cohomology]] of $X^d$.
 
 
 \linebreak
@@ -2986,6 +2991,7 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 \linebreak
 
 ### B-&RR-Field flux quantization in 10d
+ {#RRFieldFluxQuantization}
 
 (...)
 
@@ -3003,6 +3009,8 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 * {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
 * {#Alvarez85b} [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
+
+* {#AschieriJurčo04} [[Paolo Aschieri]], [[Branislav Jurčo]], *Gerbes, M5-Brane Anomalies and $E_8$ Gauge Theory*, JHEP 0410:068 (2004) &lbrack;[arXiv:hep-th/0409200](https://arxiv.org/abs/hep-th/0409200), [doi:10.1088/1126-6708/2004/10/068](https://doi.org/10.1088/1126-6708/2004/10/068)&rbrack;
 
 
 * {#BandosBerkovitsSorokin98} [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], *Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes*, Nucl. Phys. B **522** (1998) 214-233 \[<a href="https://doi.org/10.1016/S0550-3213(98)00102-3">doi:10.1016/S0550-3213(98)00102-3</a>, [arXiv:hep-th/9711055](https://arxiv.org/abs/hep-th/9711055)\]
