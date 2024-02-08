@@ -29,9 +29,11 @@ Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotien
 
 ## Examples
 
-* Every [[ordered field]] is an ordered local ring where every non-positive non-negative element is equal to zero. 
+* Every [[ordered discrete field]] is an ordered local ring where the order relation satisfies [[trichotomy]]. 
 
-* Every [[ordered Kock field]] is an ordered local ring. 
+* Every [[ordered Heyting field]] is an ordered local ring where every non-positive non-negative element is equal to zero. 
+
+* Every [[ordered Kock field]] is an ordered local ring in which every non-zero element is positive or negative. 
 
 * The [[dual numbers]] $\mathbb{R}[\epsilon]/\epsilon^2$ are an ordered local ring where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{R}[\epsilon]/\epsilon^2$ is a non-zero non-positive non-negative element. 
 
