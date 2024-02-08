@@ -2931,7 +2931,7 @@ The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHom
 
 * ...for the case of ordinary [[electromagnetism]] with $\mathfrak{a} \equiv b \mathfrak{u}(1)$ (or two direct summands thereof) and $\mathcal{A} \equiv B \mathrm{U}(1) = B^2 \mathbb{Z}$ (Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}):  
 
-  to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism;
+  to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism (going back to [Wu & Yang 1965](gauge+potential#WuYang75), cf. [Wu & Yang 2006](gauge+potential#WuYang06), [Eguchi, Gilkey & Hanson 1980](fiber+bundles+in+physics#EguchiGilkeyHanson80), [Rudolph & Schmidt 2017](fiber+bundles+in+physics#RudolphSchmidt17));
 
 * ...for the case of a plain [[B-field]] with $\mathfrak{a} \equib b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
 
