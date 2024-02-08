@@ -44,7 +44,7 @@ Every [[small category|small]] [[abelian category]] admits a [[full functor|full
 \end{theorem}
 
 
-This result can be found as Theorem 7.34 on page 150 of ([Freyd](#Freyd)).  (The terminology there is a bit outdated, in that it calls an abelian category "fully abelian" if it admits a full and faithful exact functor to a category of $R$-modules.)  A pedagogical discussion is in section 1.6 of ([Weibel](#Weibel)). See also ([Wikipedia](#Wikipedia)) for the idea of the proof.
+This result can be found as Theorem 7.34 on page 150 of ([Freyd](#Freyd)).  (The terminology there is a bit outdated, in that it calls an abelian category "fully abelian" if it admits a full and faithful exact functor to a category of $R$-modules.)  A pedagogical discussion is in section 1.6 of ([Weibel](#Weibel)). See also ([Wikipedia](http://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem)) for the idea of the proof.
 
 +-- {: .proof #Proof}
 ###### Proof
