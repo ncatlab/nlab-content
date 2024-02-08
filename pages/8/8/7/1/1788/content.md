@@ -54,6 +54,14 @@ $$
 0 < k < n
 \]
 
+These here done with `\text{...}`
+
+$$
+  \begin{array}{ll}
+    0 & \;\text{if}\; n \lt o \;\text{or if}\; b \gt 5
+  \end{array}
+$$
+
 
 [[GeomPhys-LocalFluxQuantization.jpg:file]]
 
