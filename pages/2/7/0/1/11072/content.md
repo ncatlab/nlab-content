@@ -34,7 +34,7 @@ In a most elementary and illuminating example (which may not have received the a
 
   $ClaTypes \,\coloneqq\, Set$
 
-* linear tupes form (are interpreted in) the category of [[vector spaces]] (cf. [Murfet 2014](linear+logic#Murfet14))
+* linear types form (are interpreted in) the category of [[vector spaces]] (cf. [Murfet 2014](linear+logic#Murfet14))
 
   $LinTypes  \,\coloneqq\, Vect_{\mathbb{K}}$
 
