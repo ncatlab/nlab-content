@@ -33,6 +33,23 @@ Every continuous map $\mathbb{R}P^n\rightarrow\mathbb{R}P^n$ for $n$ even has a 
 
 ([Hatcher 02, page 180](#Hatcher02))
 
+\begin{proposition}
+For $n\neq 1,3,7$, the smallest number $k$, so that there exists an [[immersion]] of real projective space $\mathbb{R}P^n$ into [[cartesian space]] $\mathbb{R}^{k-1}$, is exactly the [[topological complexity]] $\operatorname{TC}(\mathbb{R}P^n)$ (with convention $\operatorname{TC}(*)=1$).
+\end{proposition}
+
+([Farber & Tabachnikov & Yuzvinsky 02, Theorem 12](#FarberTabachnikovYuzvinsky02))
+
+\begin{proposition}
+For $n=1,3,7$ one has
+$$
+\operatorname{TC}(\mathbb{R}P^n)
+=n+1
+$$
+for the [[topological complexity]] (with convention $\operatorname{TC}(*)=1$).
+\end{proposition}
+
+([Farber & Tabachnikov & Yuzvinsky 02, Proposition 18](#FarberTabachnikovYuzvinsky02))
+
 ### Cell structure
  {#CellStructure}
 
@@ -165,9 +182,13 @@ See also:
 * [[Topospaces]], _[Real projective space](https://topospaces.subwiki.org/wiki/real_projective_space)_
 * Wikipedia, _[Real projective space](https://en.wikipedia.org/wiki/Real_projective_space)_
 
+[[Topological complexity]] of real projective space and connection with their [[immersion]]:
+
+* {#FarberTabachnikovYuzvinsky02} [[Michael Farber]], [[Serge Tabachnikov]], [[Sergey Yuzvinsky]], _Topological robotics: motion planning in projective spaces_ (2002), [arXiv:math/0210018](https://arxiv.org/abs/math/0210018)
+
 Homotopy groups, homology and cohomology of real projective space:
 
-* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+* {#Hatcher02} [[Allen Hatcher]], _Algebraic Topology_, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 Computation of [[cohomotopy]]-sets of real projective space:
 
