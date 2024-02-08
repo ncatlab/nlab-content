@@ -307,6 +307,25 @@ $$\lambda_1 1 = (1 \lambda_1) \circ \alpha_{1, 1, 1} = \rho_1 1$$
 where the first equation follows from Lemma \ref{kel1} and the second from the triangle identity. 
 =-- 
 
++-- {: .num_lemma #end_commutative} 
+###### Proposition
+The [[endomorphism]] [[monoid]] $End(1)$ is commutative.
+=-- 
+
++-- {: .proof}
+###### Proof 
+The isomorphism $i \coloneqq \lambda_1 = \rho_1 \colon 1 \otimes 1 \to 1$ (using Lem. \ref{kel2}) induces a monoid structure on $End(1)$ given by $f * g \coloneqq i \circ (f \otimes g) \circ i^{-1}$ for two endomorphisms $f, g\colon 1 \to 1$ with neutral element $\id_1\colon 1 \to 1$.
+
+For endomorphisms $a,b,c,d\colon 1 \to 1$ one has
+$$
+(a \circ b) * (c \circ d)
+=i \circ ((a \circ b) \otimes (c \circ d)) \circ i^{-1}
+=i \circ ((a \otimes c) \circ (b \otimes d)) \circ i^{-1}
+=(a * c) \circ (b * d)
+$$
+hence the [[Eckmann-Hilton argument]] yields the result.
+=-- 
+
 
 ### Strict monoidal categories 
 
