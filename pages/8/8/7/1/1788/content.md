@@ -3,6 +3,10 @@ $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
 
+[[GeomPhys-LocalFluxQuantization.jpg:file]]
+
+[[GeomPhys-GlobalFluxQuantization.jpg:file]]
+
 [[GeomPhys-SimpSetOfFluxDeformations-240208.jpg:file]]
 
 [[GeomPhys-SmoothInfinityGroupoids-240207.jpg:file]]
