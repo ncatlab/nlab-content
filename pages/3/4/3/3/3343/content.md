@@ -1,18 +1,21 @@
-**Branislav Jur&#269;o** is a Czech mathematical physicist ([[group]] theory, [[quantum groups]], noncommutative gauge theories, [[integrable systems]], [[nonabelian cocycle]]s in [[string theory]], [[Batalin-Vilkovisky formalism]]) and category theorist ([[gerbes]], classifying 2-spaces and topoi, [[higher gauge theory|higher gauge theories]], [[twisted K-theory]], [[operad]]s), born in former Czechoslovak Republic. 
 
-* [website](http://sites.google.com/site/branislavjurco/)
+**Branislav Jurčo** is a Czech [[mathematical physics|mathematical physicist]] ([[group]] theory, [[quantum groups]], noncommutative gauge theories, [[integrable systems]], [[nonabelian cocycle]]s in [[string theory]], [[Batalin-Vilkovisky formalism]]) and category theorist ([[gerbes]], classifying 2-spaces and topoi, [[higher gauge theory|higher gauge theories]], [[twisted K-theory]], [[operad]]s), born in former Czechoslovak Republic. 
 
-* some articles listed at [INSPIRE](http://inspirehep.net/search?p=FIND+AU+JURCO%2C+b&FORMAT=www&SEQUENCE=)
+* [institute page](https://www.mff.cuni.cz/en/faculty/organizational-structure/people?hdl=5368)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=05IMCCwAAAAJ&hl=de)
+
+* [InSpire page](https://inspirehep.net/authors/2280915)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=193829)
+
 
 ## Selected writings
 
-On [[fiber bundles]] ([[principal bundles]], [[vector bundles]]), [[topological K-theory]] applications to [[D-branes]]:
-
-* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
 On [[quantum optics]]:
 
-* Jan Pe&#345;ina, Zden&#283;k Hradil, Branislav Jur&#269;o, [[Quantum optics and fundamentals of physics]], Kluwer, Dodrecht-Boston 1994
+* Jan Pe&#345;ina, Zden&#283;k Hradil, Branislav Jurčo, [[Quantum optics and fundamentals of physics]], Kluwer, Dodrecht-Boston 1994
 
 and [[integrable systems]]:
 
@@ -20,20 +23,34 @@ and [[integrable systems]]:
 
 On the [[Yang-Baxter equation]] and [[integrable systems]]:
 
+* Branislav Jurčo, _Classical Yang-Baxter equations and quantum integrable systems ([[Gaudin models]])_, pp. 1616-6361 in Springer Lect. Notes in Physics __370__ (1990) [doi](http://dx.doi.org/10.1007/3-540-53503-9)
 
-* Branislav Jur&#269;o, _Classical Yang-Baxter equations and quantum integrable systems ([[Gaudin models]])_, pp. 1616-6361 in Springer Lect. Notes in Physics __370__ (1990) [doi](http://dx.doi.org/10.1007/3-540-53503-9)
+A model for the [[supergravity C-field]] in terms of [[nonabelian bundle 2-gerbe|nonabelian]] [[bundle 2-gerbes]]:
+
+* [[Paolo Aschieri]], [[Branislav Jurčo]], *Gerbes, M5-Brane Anomalies and $E_8$ Gauge Theory*, JHEP 0410:068 (2004) &lbrack;[arXiv:hep-th/0409200](https://arxiv.org/abs/hep-th/0409200), [doi:10.1088/1126-6708/2004/10/068](https://doi.org/10.1088/1126-6708/2004/10/068)&rbrack;
+
+
+On [[fiber bundles]] ([[principal bundles]], [[vector bundles]]), [[topological K-theory]] applications to [[D-branes]]:
+
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
 On [[classifying toposes]]
 
 * [[Igor Baković]], Branislav Jurčo, _The classifying topos of a topological bicategory_, Homology, homotopy and applications 12(1), 279-300 (2010), [published files](http://www.intlpress.com/HHA/v12/n1/a14) [arxiv/0902.1750](https://arxiv.org/abs/0902.1750) [cafe](http://golem.ph.utexas.edu/category/2009/02/bakovi_and_juro_on_classifying.html)
 
+
+On [[nonabelian bundle 2-gerbes]]:
+
+* [[Branislav Jurčo]], *Nonabelian bundle 2-gerbes*,  International Journal of Geometric Methods in Modern Physics **08** 01 (2011) 49-78 &lbrack;[arXiv:0911.1552](http://arxiv.org/abs/0911.1552), [doi:10.1142/S0219887811004963](https://doi.org/10.1142/S0219887811004963)&rbrack;
+
+
 On [[string field theory]]:
 
-* Branislav Jur&#269;o, Korbinian Muenster, _Type II superstring field theory: geometric approach and operadic description_, JHEP 1304:126 (2013) ([arXiv/1303.2323](http://arxiv.org/abs/1303.2323), <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>)
+* Branislav Jurčo, Korbinian Muenster, _Type II superstring field theory: geometric approach and operadic description_, JHEP 1304:126 (2013) ([arXiv/1303.2323](http://arxiv.org/abs/1303.2323), <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>)
 
 On [[string field theory]] in terms of [[L-infinity algebras|$L_\infty$-algebras]]:
 
-* {#DoubekJurcoMuenster13} [[Martin Doubek]], [[Branislav Jurco]], Korbinian Muenster, _Modular operads and the quantum open-closed homotopy algebra_, J. High Energ. Phys. 2015, 1–55 (2015) ([arXiv:1308.3223](https://arxiv.org/abs/1308.3223), <a href="https://doi.org/10.1007/JHEP12(2015)158">doi:10.1007/JHEP12(2015)158</a>)
+* {#DoubekJurcoMuenster13} [[Martin Doubek]], [[Branislav Jurčo]], Korbinian Muenster, _Modular operads and the quantum open-closed homotopy algebra_, J. High Energ. Phys. 2015, 1–55 (2015) ([arXiv:1308.3223](https://arxiv.org/abs/1308.3223), <a href="https://doi.org/10.1007/JHEP12(2015)158">doi:10.1007/JHEP12(2015)158</a>)
 
 On [[Riemannian geometry]] on [[Courant algebroids]] and relation to [[supergravity]] [[equations of motion]]:
 
