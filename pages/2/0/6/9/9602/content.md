@@ -29,7 +29,7 @@ The [[model structure on simplicial algebras]] for [[simplicial Lie algebras]].
 +-- {: .num_defn #CategoryOfSimplicialLieAlgebras}
 ###### Definition
 
-For $k$ some [[field]], write $LieAg_k$ for the [[category]] of [[Lie algebras]] over $k$, and write 
+For $k$ some [[field]], write $LieAlg_k$ for the [[category]] of [[Lie algebras]] over $k$, and write 
 
 $$
   ((LieAlg)_k)^{\Delta^{op}}
