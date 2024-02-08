@@ -2931,11 +2931,11 @@ The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHom
 
 * ...for the case of ordinary [[electromagnetism]] with $\mathfrak{a} \equiv b \mathfrak{u}(1)$ (or two direct summands thereof) and $\mathcal{A} \equiv B \mathrm{U}(1) = B^2 \mathbb{Z}$ (Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}):  
 
-  to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism (going back to [Wu & Yang 1965](gauge+potential#WuYang75), cf. [Wu & Yang 2006](gauge+potential#WuYang06), [Eguchi, Gilkey & Hanson 1980](fiber+bundles+in+physics#EguchiGilkeyHanson80), [Rudolph & Schmidt 2017](fiber+bundles+in+physics#RudolphSchmidt17));
+  to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism (going back to [Wu & Yang 1975](gauge+potential#WuYang75), cf. [Wu & Yang 2006](gauge+potential#WuYang06); [Eguchi, Gilkey & Hanson 1980, Ex. 5.5](fiber+bundles+in+physics#EguchiGilkeyHanson80), [Rudolph & Schmidt 2017, §6](fiber+bundles+in+physics#RudolphSchmidt17));
 
 * ...for the case of a plain [[B-field]] with $\mathfrak{a} \equib b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
 
-  to that of a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]] on $X^d$;
+  to that of a 3-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which is the traditionally understood model for 2-form gauge potentials &lbrack;[Gawędzki 1986](#Gawędzki86); [Freed & Witten 1999, §6](#FreedWitten99);&rbrack;, often regarded in the equivalent guise of "[[connections on bundle gerbes]]" [Gawędzki & Reis 2002](#GawędzkiReis02); [Carey, Johnson & Murray 2002](#CareyJohnsonMurray02); [Bonora, Ruffino & Savelli 2008](Kalb-Ramond+field#BonoraRuffinoSavelli08)&rbrack;
 
 * ...for the general case of $\mathfrak{a} \equiv b^n \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^n \mathrm{U}(1) \simewq B^{n+1} \mathbb{Z}$:
 
@@ -3013,7 +3013,10 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 * {#BFJKNRSW24} [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
-* {#BouwknegtMathai01} [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 $[$[arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023), [doi:10.1088/1126-6708/2000/03/007](https://doi.org/10.1088/1126-6708/2000/03/007)$]$
+* {#BouwknegtMathai01} [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 &lbrack;[arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023), [doi:10.1088/1126-6708/2000/03/007](https://doi.org/10.1088/1126-6708/2000/03/007)&rbrack;
+
+* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics **52** 2 (2004) 186-216 &lbrack;[arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [doi:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008)&rbrack;
+
 
 * {#CremmerJuliaLuPope98} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 3 of: *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
 
@@ -3044,10 +3047,16 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 * {#Freed00} [[Daniel Freed]], *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
 
-
 * {#FreedMooreSegal07a} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
 
 * {#FreedMooreSegal07b} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *Heisenberg Groups and Noncommutative Fluxes*, Annals Phys. **322** (2007) 236-285 &lbrack;[arXiv:hep-th/0605200](https://arxiv.org/abs/hep-th/0605200), [doi:10.1016/j.aop.2006.07.014](https://doi.org/10.1016/j.aop.2006.07.014)&rbrack;
+
+* {#FreedWitten99} [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. **3** 4 (1999) 819-852 &lbrack;[arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189), [InSpire:2655986](https://inspirehep.net/literature/2655986)&rbrack;
+
+* {#Gawędzki86} [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5)&rbrack;
+
+* {#GawędzkiReis02} [[Krzysztof Gawędzki]], [[Nuno Reis]], *WZW branes and gerbes*, Rev. Math. Phys. **14** (2002) 1281-1334 &lbrack;[arXiv:hep-th/0205233](https://arxiv.org/abs/hep-th/0205233), [doi:10.1142/S0129055X02001557](https://doi.org/10.1142/S0129055X02001557)&rbrack;
+
 
 * {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]]: *[[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
@@ -3085,8 +3094,9 @@ In general, we may think of (eq:GaugePotentialsAsHomotopy) as being a [[cocycle]
 
 * {#SatiVoronov22} [[Hisham Sati]], [[Alexander Voronov]], (13) in: *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
 
-
 * {#Schreiber24} [[Urs Schreiber]], *[[schreiber:Higher Topos Theory in Physics]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
+
+
 
 * {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22** 1   (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
 
