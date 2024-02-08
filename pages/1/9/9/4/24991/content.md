@@ -35,6 +35,10 @@ Let $D$ be the [[ideal]] of all non-invertible elements in $R$. Then the quotien
 
 * The [[dual numbers]] $\mathbb{R}[\epsilon]/\epsilon^2$ are an ordered local ring where the [[nilpotent]] [[infinitesimal]] $\epsilon \in \mathbb{R}[\epsilon]/\epsilon^2$ is a non-zero non-positive non-negative element. 
 
+## In analysis
+
+Ordered local rings are important for modeling notions of [[infinitesimals]] and [[infinite elements]], including both the non-invertible infinitesimals common in [[synthetic differential geometry]] and the [[invertible]] infinitesimals whose reciprocals are the infinite elements common in [[nonstandard analysis]]. 
+
 ## See also
 
 * [[local ring]]
