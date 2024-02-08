@@ -127,6 +127,14 @@ The equivalent formulation in terms of [[connections on bundle gerbes]] originat
 
 * {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics **52** 2 (2004) 186-216 &lbrack;[arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [doi:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008)&rbrack;
 
+
+See also:
+
+* {#BonoraRuffinoSavelli08} [[Loriano Bonora]], [[Fabio Ferrari Ruffino]], [[Raffaele Savelli]], *Classifying A-field and B-field configurations in the presence of D-branes*, JHEP 0812:078 (2008) &lbrack;[arXiv:0810.4291](https://arxiv.org/abs/0810.4291), [doi:10.1088/1126-6708/2008/12/078](https://doi.org/10.1088/1126-6708/2008/12/078)&rbrack;
+
+* [[Fabio Ferrari Ruffino]], *Classifying A-field and B-field configurations in the presence of D-branes - Part II: Stacks of D-branes*, Nuclear Physics, Section B **858** (2012) 377-404 &lbrack;[arXiv:1104.2798](https://arxiv.org/abs/1104.2798), [doi:10.1016/j.nuclphysb.2012.01.013](https://doi.org/10.1016/j.nuclphysb.2012.01.013)&rbrack;
+
+
 A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the [[RR-fields]] that it interacts with:
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry **7** (2002) 129-194 &lbrack;  [arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
