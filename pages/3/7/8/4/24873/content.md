@@ -93,13 +93,15 @@ The name $\Delta_0$-classical Mostowski set theory comes from the fact that the 
 
 #### Variations of Mostowski set theory in intuitionistic logic
 
-By removing axiom 9 from $\Delta_0$-classical Mostowski set theory, one gets **[[intuitionistic logic|intuitionistic]] Mostowski set theory** or **[[constructive mathematics|constructive]] Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed topos]] with [[natural numbers object]] and the [[axiom of well-founded materialization]].
+By removing axiom 9 from $\Delta_0$-classical Mostowski set theory, one gets **[[intuitionistic logic|intuitionistic]] Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed topos]] with [[natural numbers object]] and the [[axiom of well-founded materialization]].
+
+By replacing axiom 7 by the [[axiom of fullness]] (for all sets $a$ and $b$, the set of [[entire relations]] from $a$ to $b$ exists) in intuitionistic Mostowski set theory, one gets **constructive Mostowski set theory**. 
 
 By removing axiom 7 from $\Delta_0$-classical Mostowski set theory, one gets **[[predicative mathematics|predicative]] $\Delta_0$-classical Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed]] [[Heyting pretopos]] with [[natural numbers object]] and the [[axiom of choice]]. 
 
 By removing axiom 7 from intuitionistic Mostowski set theory, one gets **[[predicative mathematics|strongly predicative]] constructive Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed]] [[Heyting pretopos]] with a [[natural numbers object]] and the [[axiom of well-founded materialization]]. 
 
-By replacing axiom 7 by the axiom of exponentiation (for all sets $a$ and $b$, the set $b^a$ of functions from $a$ to $b$ exists) in intuitionistic Mostowski set theory, one gets **[[predicative mathematics|weakly predicative]] constructive Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed]] [[ΠW-pretopos]] with the [[axiom of well-founded materialization]]. 
+By replacing axiom 7 by the axiom of exponentiation (for all sets $a$ and $b$, the set $b^a$ of functions from $a$ to $b$ exists) in intuitionistic Mostowski set theory, one gets **(neutral) [[predicative mathematics|weakly predicative]] constructive Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed]] [[ΠW-pretopos]] with the [[axiom of well-founded materialization]]. 
 
 By removing axiom 8 from any $X$ Mostowski set theory, with $X$ being one of ($\Delta_0$-classical, intuitionistic, predicative $\Delta_0$-classical, weakly predicative constructive, strongly predicative constructive), one gets **[[finite mathematics|weakly finitist]] $X$ Mostowski set theory**, which is equivalent in strength to a [[constructively well-pointed]] $C$, where $C$ is one of ([[Boolean topos]] with the [[axiom of choice]], [[elementary topos]] with the [[axiom of well-founded materialization]], [[Boolean pretopos]] with the [[axiom of choice]], [[Π-pretopos]] with the [[axiom of well-founded materialization]], [[Heyting pretopos]] with the [[axiom of well-founded materialization]]). 
 
@@ -121,3 +123,6 @@ Given any constructively well-pointed Heyting pretopos $\mathcal{E}$, we can con
 ## References
 
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
+
+[[!redirects intuitionistic Mostowski set theory]]
+[[!redirects constructive Mostowski set theory]]
