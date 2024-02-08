@@ -44,11 +44,11 @@ involved for principal bundle gerbes -- can be naturally derived from a functori
 concept of parallel surface transport, just like connection $1$-forms on bundles
 can be derived from parallel line transport.
 
-###Definitions###
+### Definitions 
 
 
 
-####for line bundle gerbes####
+#### For line bundle gerbes
 
 A connection (also known as "connection and curving") on a line bundle gerbe
 $$
@@ -97,7 +97,7 @@ $$
 
 The deRham class $[H]$ of this 3-form is the image in real cohomology of the class in integral coholomology classifying the bundle gerbe.
 
-#### for principal bundle gerbes ####
+#### For principal bundle gerbes 
 
 A connection on a $G$-principal bundle gerbe is
 
@@ -127,7 +127,7 @@ conditions found for (proper) gerbes with connection by Breen & Messing in
 been given by Aschieri, Cantini & Jur&#269;o in  
 [hep-th/0312154](http://arxiv.org/abs/hep-th/0312154).
 
-###Surface transport###
+### Surface transport
 
 From a line bundle gerbe with connection one obtains a notion of [[parallel transport]] along surfaces in a way that generalizes the procedure for locally trivialized fiber bundles with connection.
 
@@ -182,23 +182,26 @@ and similarly in
 
 * Joao Faria Martins, Roger Picken, _A Cubical Set Approach to 2-Bundles with Connection and Wilson Surfaces_ ([arXiv](http://arxiv.org/abs/0808.3964))
 
-
  This applies to more general situations than ordinary line bundle gerbes with connection.
 
-The generalization to unoriented surfaces (hence to type I strings) was given in
+The generalization ("[[Jandl gerbes]]") to unoriented surfaces (hence to type I strings) 
 
 * K. Waldorf, C. Schweigert &amp; U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
 
+## Related concepts
+
+* [[B-field]]
+
+* [[Deligne cohomology]]
 
 
-## References
+## Further references
 
 (...)
 
 In relation to [[ordinary differential cohomology]]:
 
 * [[Byungdo Park]], *Differential cohomology and gerbes: An introduction to higher differential geometry*, lecture notes (2023) &lbrack;[pdf](https://byungdo.github.io/seminars/IMSRS.pdf), [[Park-DifferentialCohomology.pdf:file]]&rbrack;
-
 
 Discussion of [[transgression]] and [[higher holonomy]] in [[Deligne cohomology]] (for [[bundle gerbes with connection]]) over [[orbifolds]]:
 
