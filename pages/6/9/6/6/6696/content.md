@@ -35,7 +35,12 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 
 On [[instantons]] in [[chiral perturbation theory]]:
 
-* [[Gerard 't Hooft]], _How instantons solve the $U(1)$ problem_, Physics Reports Volume 142, Issue 6, September 1986, Pages 357-387 (<a href="https://doi.org/10.1016/0370-1573(86)90117-1">doi:10.1016/0370-1573(86)90117-1</a>)
+* [[Gerard 't Hooft]], _How instantons solve the $U(1)$ problem_, Physics Reports **142** 6  (1986) 357-387 &lbrack;<a href="https://doi.org/10.1016/0370-1573(86)90117-1">doi:10.1016/0370-1573(86)90117-1</a>&rbrack;
+
+On [[non-perturbative quantum field theory]]:
+
+* [[Gerard ’t Hooft]], [[Arthur Jaffe]], [[Gerhard Mack]], [[P. K. Mitter]], [[Raymond Stora]] (eds.) *Nonperturbative Quantum Field Theory*,  NATO Science Series B **185** (1988) &lbrack;[doi:10.1007/978-1-4613-0729-7](https://doi.org/10.1007/978-1-4613-0729-7)&rbrack;
+
 
 Introducing the [[holographic principle]]:
 
