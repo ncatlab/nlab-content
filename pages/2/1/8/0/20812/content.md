@@ -148,9 +148,9 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 
 * {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press (2007) &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489)&rbrack;
 
-* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics, Volume 263, Number 1, 89-132, ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7))
+* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics **263** 1 (2006) 89-132 &lbrack;[arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
 
-* {#Moore04} [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_, Comptes Rendus Physique 6 (2005) 251-259 ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
+* {#Moore04} [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_, Comptes Rendus Physique **6** (2005) 251-259 &lbrack;[arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158), [doi:10.1016/j.crhy.2004.12.005](https://doi.org/10.1016/j.crhy.2004.12.005)&rbrack;
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics,  Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455), [doi:10.1007/s00220-014-2228-1](http://link.springer.com/article/10.1007%2Fs00220-014-2228-1))
 
