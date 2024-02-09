@@ -75,7 +75,18 @@ It is closely related to the Kleisli category of the [[distribution monad]].
 * [[categorical probability]]
 
 
-## References:
+## References
+
+* {#Lawvere62} [[Bill Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+([[lawvereprobability1962.pdf:file]])
+
+* {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
+
+* {#panangaden_cat_markov} [[Prakash Panangaden]], _The category of Markov kernels_, ENTCS, 1999. ([full text](https://www.sciencedirect.com/science/article/pii/S1571066105806024))
+
+* {#cd_categories} Kenta Cho, [[Bart Jacobs]], _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science 29, 2019. ([arXiv:1709.00322](https://arxiv.org/abs/1709.00322))
+
+* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
 * {#markov_support} Tobias Fritz, Tomáš Gonda, Antonio Lorenzin, Paolo Perrone, Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
 
