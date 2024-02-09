@@ -2332,15 +2332,9 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 
 * [[Markov kernel]], [[stochastic map]], [[Stoch]]
 
-* [[probability monad]]
+* [[probability monad]], [[affine monad]], [[commutative monad]]
 
-* [[statistics]]
-
-* [[zero-one law]]
-
-* [[doctrine]]
-
-* [[supply in a monoidal category]]
+* [[doctrine]], [[supply in a monoidal category]]
 
 
 
