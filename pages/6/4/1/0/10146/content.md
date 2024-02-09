@@ -1,4 +1,1 @@
-
 * [webpage](http://mq.edu.au/)
-
-category: people
