@@ -26,7 +26,8 @@ The "reasons to doubt" that interpretation is that the [[M2-brane]] does not sup
 The defining characteristic of M-theory is that it exhibits [[duality between M-theory and type IIA string theory|duality with type IIA string theory]] in the following way:
 
 
-$$
+\[
+  \label{MTheoryDiagram}
   \array{
       M-Theory(?) &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
       \\
@@ -40,7 +41,7 @@ $$
         &\stackrel{low\;energy\;effective\;QFT}{\to}&  
       10d Supergravity
   }
-$$
+\]
 
 (see also e.g. ([Obers-Pioline 98, p. 12](#ObersPioline98))). The unknown top left corner here has optimistically been given a name, and that is "M-theory". But even the rough global structure of the top left corner has remained elusive. 
 
@@ -49,9 +50,10 @@ $$
 > ([Moore 14, section 12](Physical+Mathematics+and+the+Future#Moore14))
 
 
-## Hints
+## Hints for M-theory
+ {#Hints}
 
-The available evidence that there is something of interest consists of various facets of the bottom left and the top right entry of the above diagram, that seem to have a common origin in the top left corner.
+The available evidence that there is something like M-theory consists of various facets in the bottom left and the top right entry of the above diagram (eq:MTheoryDiagram) that seem to have a common origin in the top left corner.
 
 ### Membranes
 
