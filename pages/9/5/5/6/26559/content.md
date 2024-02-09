@@ -3003,7 +3003,7 @@ On the other hand, strongly-coupled string theory at large-scale/low-energy is a
 ### C-Field flux quantization in 11d
  {#CFieldFluxQuantizationIn10d}
 
-Given the [[supergravity C-field|C-field]]'s [[Gauss law]]
+Given the [[supergravity C-field|C-field]]'s [[Gauss law]] (Ex. \ref{MotionOfSupergravityCField}, Prop. \ref{SolutionSpaceViaGaussLaw}):
 
 $$
   SolSpace 
@@ -3027,7 +3027,7 @@ $$
     \,
     B_7 &=& 
     -\tfrac{1}{2}
-    G_4 \wedge G_4
+    B_4 \wedge B_4
   \end{array}
   \;
   \right\}
@@ -3060,7 +3060,7 @@ $$
   \,.
 $$
 
-We dicuss now two possible choices of such flux quantization laws $\mathcal{A}$ for the C-field that have been considered in the literature (here we denote them by $\mathcal{A}_{{}_{DFM}}$ and $\mathcal{A}_{{}_{FSS}}$, respectively), both of which, while quite distinct from each other, being an "evident" choice from their respective natural perspective. 
+We discuss now two possible choices of such flux quantization laws $\mathcal{A}$ for the C-field that have been considered in the literature (here we denote them by $\mathcal{A}_{{}_{DFM}}$ and $\mathcal{A}_{{}_{FSS}}$, respectively), both of which, while quite distinct from each other, being an "evident" choice from their respective natural perspective. 
 
 Recall again that, besides these "evident" choices, there are an infinitude of admissible variant flux quantization laws which differ in their torsion-content. In the present case, any such choice is a hypothesis/definition concerning aspects of the elusive [[M-theory]]. Careful investigation of the implications of the "evident" flux quantization laws of the C-field may not only serve to decide if either is "correct" (which is not always straightforward to decide, as long as a plausibly complete definition of [[M-theory]] remains missing), but also to understand how variant flux quantization laws would have to be chosen if the "evident" ones are deemed to have undesireable implications.
 
@@ -3101,7 +3101,7 @@ In terms of [[classifying spaces]] this means to pass to the [[homotopy fiber]],
 \end{imagefromfile}
 
 
-This flux quantization law is essentially that considered in [Diaconescu, Freed & Moore 2003](#DiaconescuFreedMoore03), when specialized to the case where $\tfrac{1}{2}p_1[T X^d]$ is even and [[I8]]$[T X^d]$ vanishes -- the expected contributions of these terms are adjoined "by hand" by these authors.
+This flux quantization law is essentially that considered in [Diaconescu, Freed & Moore 2003](#DiaconescuFreedMoore03), when specialized to the case where [[first fractional Pontrjagin class|$\tfrac{1}{2}p_1[T X^d]$]] is [[even number|even]] and [[I8|$I_8[T X^d]$]] vanishes -- the expected contributions of these terms are adjoined "by hand" by these authors.
 
 Notice that:
 
