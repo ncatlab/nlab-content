@@ -167,7 +167,7 @@ Modern reviews of the basics:
  
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_  ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
 
-* [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF)
+* [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](https://www.ma.imperial.ac.uk/~skdona/YMILLS.PDF)
 
 * [[José Figueroa-O'Farrill]], _[Gauge theory](http://empg.maths.ed.ac.uk/Activities/GT/index.html)_
 
@@ -188,7 +188,7 @@ Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/st
 
 which is reviewed in the lecture notes
 
-* [[Jonathan Evans]] _Aspects of Yang-Mills theory_, ([web](http://www.homepages.ucl.ac.uk/~ucahjde/yangmills.htm))
+* [[Jonathan Evans]], _Aspects of Yang-Mills theory_, ([web](http://www.homepages.ucl.ac.uk/~ucahjde/yangmills.htm))
 
 For the relation to [[instanton Floer homology]] see also
 
