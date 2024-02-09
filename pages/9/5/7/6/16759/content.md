@@ -24,7 +24,7 @@ This page collects material related to the book collection
 
   IoP 1999
 
-  [ISBN 9780750306720 ](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)
+  [ISBN:9780750306720 ](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)
 
 that collects and comments key articles in the (pre-)history of [[M-theory]] ([[M-branes]] in [[11-dimensional supergravity]]) in the 1990s.
 
