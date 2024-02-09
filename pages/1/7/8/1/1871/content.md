@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -156,28 +157,34 @@ Yang-Mills theory is named after the article
 
 which was the first to generalize the principle of [[electromagnetism]] to a [[non-abelian group|non-abalian]] [[gauge group]]. This became accepted as formulation of [[QCD]] and [[weak interactions]] (only) after [[spontaneous symmetry breaking]] (the [[Higgs mechanism]]) was understood in the 1960s.
 
+The identification of Yang-Mills [[gauge potentials]] with [[connections]] on [[fiber bundles]] is due to:
+
+* {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
+
 On the historical origins:
 
 * A. C. T. Wu, [[Chen Ning Yang]], *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
 
 * [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
 
-
-Modern reviews of the basics:
+Review of the basics:
  
-* {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_  ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
+* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ (2000) &lbrack;[pdf](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), [pdf](https://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf), [[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
 
-* [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](https://www.ma.imperial.ac.uk/~skdona/YMILLS.PDF)
+  > (in the context of the [[mass gap problem]])
 
-* [[José Figueroa-O'Farrill]], _[Gauge theory](http://empg.maths.ed.ac.uk/Activities/GT/index.html)_
+* [[Mikio Nakahara]], Section 10.5.4 of: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
+
+
+* {#Donaldson05} [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) &lbrack;[pdf](https://www.ma.imperial.ac.uk/~skdona/YMILLS.PDF), [[Donaldson-YangMillsGeometry.pdf:file]]&rbrack;
+
+* {#Donaldson06} [[Simon Donaldson]], _Gauge Theory: Mathematical Applications_, Encyclopedia of Mathematical Physics, Academic Press (2006) 468-481 &lbrack;[doi:10.1016/B0-12-512666-2/00075-4](https://doi.org/10.1016/B0-12-512666-2/00075-4), [author pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]]&rbrack;
+
+* [[José Figueroa-O'Farrill]], *Gauge theory*, lecture notes (2006) &lbrack;[web](http://empg.maths.ed.ac.uk/Activities/GT/index.html)&rbrack;
 
 * {#Uhlenbeck12} [[Karen Uhlenbeck]], notes by [[Laura Fredrickson]], _Equations of Gauge Theory_, lecture at Temple University, 2012 ([pdf](https://web.stanford.edu/~ljfred4/Attachments/TempleLectures.pdf), [[UhlenbeckGaugeTheory.pdf:file]])
 
-* {#Donaldson06} [[Simon Donaldson]], _Gauge Theory: Mathematical Applications_, Encyclopedia of Mathematical Physics, Academic Press, Pages 468-481, 2006  ([doi:10.1016/B0-12-512666-2/00075-4](https://doi.org/10.1016/B0-12-512666-2/00075-4), [author pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]])
-
-* [[Mikio Nakahara]], Section 10.5.4 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
-
-* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapters 7-9 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapters 7-9 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8)&rbrack;
 
 See also the references at _[[QCD]]_, _[[gauge theory]]_, _[[Yang-Mills monopole]]_, _[[Yang-Mills instanton]]_ and at _[[super Yang-Mills theory]]_.
 
