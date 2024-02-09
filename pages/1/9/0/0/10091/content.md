@@ -37,7 +37,7 @@ The fate of the [[closed string|closed]] bosonic string tachyon is more subtle. 
 
 ### In superstring theory
 
-Similarly in [[superstring theory]] [[open string]] states between [[D-brane]]/[[anti D-brane]] pairs may be tachyonic, signallying the decay of these brane configurations. This leads to the conjectured classification of [[D-brane charge]] in [[K-theory]] (see [there](D-brane#ReferencesKTheoryDescription)).
+Similarly, in [[superstring theory]] [[open string]] states between [[D-brane]]/[[anti D-brane]] pairs may be tachyonic, signallying the decay of these brane configurations: see *[[Sen's conjecture]]* [in superstring theory](Sen's+conjecture#InSuperstringTheory). This leads to the conjectured classification of [[D-brane charge]] in [[K-theory]] (see [there](D-brane#ReferencesKTheoryDescription)).
 
 (...)
 
