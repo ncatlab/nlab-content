@@ -127,6 +127,8 @@ General introduction:
 
 Monographs:
 
+* [[Gerard ’t Hooft]], [[Arthur Jaffe]], [[Gerhard Mack]], [[P. K. Mitter]], [[Raymond Stora]] (eds.) *Nonperturbative Quantum Field Theory*,  NATO Science Series B **185** (1988) &lbrack;[doi:10.1007/978-1-4613-0729-7](https://doi.org/10.1007/978-1-4613-0729-7)&rbrack;
+
 * {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific (1992) &lbrack;[doi:10.1142/1245](https://doi.org/10.1142/1245)&rbrack;
 
 * [[Yitzhak Frishman]], [[Jacob Sonnenschein]], *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack;.
