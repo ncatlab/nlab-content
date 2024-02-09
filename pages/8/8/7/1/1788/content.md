@@ -1,5 +1,9 @@
 
 
+$\twoheadrightarrow$
+
+
+
 $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
@@ -62,6 +66,8 @@ $$
     0 & \;\text{if}\; n \lt o \;\text{or if}\; b \gt 5
   \end{array}
 $$
+
+[[GeomPhys-DBraneAnnihilation.jpg:file]]
 
 [[GeomPhys-TheDFMModel.jpg:file]]
 
