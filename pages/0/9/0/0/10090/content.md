@@ -26,7 +26,9 @@ This conjecture became famous as **Sen's conjecture**. It was subsequently check
 
 A breakthrough happened in 2005, when [[Martin Schnabl]] found an analytic expression for this "tachyon vacuum" ([Schnabl 05](#Schnabl05)).
 
+
 ### In superstring theory -- The K-theory conjecture
+ {#InSuperstringTheory}
 
 Sen's conjecture actually originates in [[superstring theory]] ([Sen 98](#Sen98)). While here the tachyon mode for [[open string|open]] [[superstrings]] on [[supersymmetry|supersymmetric]] [[D-brane]]-configurations is famously absent, signifying the [[vacuum stability|stability]] of [[perturbative superstring vacua]],
 there are still [[tachyon]] modes in [[open string|open]] [[superstrings]] stretching between [[D-branes]] and _[[anti-D-branes]]_. 
@@ -67,9 +69,9 @@ For more references in the context of [[string field theory]], see there at:
 ### For superstrings
  {#ReferencesForSuperstrings}
 
-Sen's conjecture on the decay of [[D-brane]]/[[anti-D-brane]] pairs in [[superstring theory]] via open [[superstring]] [[tachyon condensation]]:
+Sen's conjecture on the decay of [[D-brane]]/[[anti-D-brane]] pairs in [[superstring theory]] via [[open string|open]] [[superstring]] [[tachyon condensation]]:
 
-* {#Sen98} [[Ashoke Sen]], _Tachyon Condensation on the Brane Antibrane System_, JHEP 9808:012,1998 ([arXiv:hep-th/9805170](https://arxiv.org/abs/hep-th/9805170))
+* {#Sen98} [[Ashoke Sen]], _Tachyon Condensation on the Brane Antibrane System_, JHEP 9808 012 (1998) &lbrack;[arXiv:hep-th/9805170](https://arxiv.org/abs/hep-th/9805170), [doi:10.1088/1126-6708/1998/08/012](https://doi.org/10.1088/1126-6708/1998/08/012)&rbrack;
 
 * {#Sen99} [[Ashoke Sen]], _Universality of the Tachyon Potential_, JHEP 9912:027, 1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
 
