@@ -1,4 +1,5 @@
 
+
 $$
   \Omega_{dR}^1(\text{-};\mathfrak{a})_{clsd}
 $$
@@ -62,6 +63,9 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-TheDFMModel.jpg:file]]
+
+[[GeomPhys-CupSquareClassifying.jpg:file]]
 
 [[GeomPhys-LocalFluxQuantization.jpg:file]]
 
