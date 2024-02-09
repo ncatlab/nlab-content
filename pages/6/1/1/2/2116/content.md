@@ -103,6 +103,8 @@ The algebraic closure of a field $F$ is the splitting field of the set of all [[
 
 ## References
 
+* {#Leinster21} [[Tom Leinster]], _[Algebraic closure](https://golem.ph.utexas.edu/category/2021/04/algebraic_closure.html)_, [[n-Category Café]]
+
 *  {#Chow06} _[Algebraic closure of Q](http://cs.nyu.edu/pipermail/fom/2006-May/010531.html)_, a thread on FOM started by [[Timothy Chow]]; 
 
 be sure to check for improperly replied posts with the same subject in that and the next two months
