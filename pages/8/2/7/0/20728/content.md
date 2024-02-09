@@ -255,9 +255,11 @@ for the continuous case.
 ## See also
 
 * [[monad]], [[algebra over a monad]], [[Kleisli category]]
+* [[commutative monad]], [[affine monad]]
 * [[monad (in computer science)]]
 * [[Giry monad]], [[Markov kernel]], [[Stoch]]
 * [[categorical probability]], [[Markov category]]
+* [[joint and marginal distributions]]
 * [[probability theory]], [[measure theory]]
 * [[valuation (measure theory)]]
 
