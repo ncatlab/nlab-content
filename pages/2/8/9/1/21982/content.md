@@ -153,7 +153,7 @@ The closest available towards an actual check of the argument for K-theory via [
 
 * {#Erler13} [[Theodore Erler]], _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 ([arXiv:1308.4400](https://arxiv.org/abs/1308.4400))
 
-which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=32)) with:
+which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)) with:
 
 > It would also be interesting to see if these developments can shed light on the long-speculated relation between string field theory and the K-theoretic description of D-brane charge $[$[75, 76, 77](D-brane#DBraneChargeQuantizationInTopologicalKTheory)$]$. We leave these questions for future work.
 
