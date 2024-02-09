@@ -50,11 +50,13 @@ In 1931 [[P. A. M. Dirac|Dirac]] invokes [[quantum mechanics]] to argue that, if
 
 In 1957 [[Alexei Abrikosov|Abrikosov]] essentially notices that the same electromagnetic flux-&charge-quantization mechanism makes [[Abrikosov vortex|vortex strings]] in [[type II superconductors]] carry units of localized magnetic flux.  &lbrack;[Abrikosov 1957](#Abrikosov57a)&rbrack;
   
-In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[magnetic fields]] as [[cocycles]] in ([[differential ordinary cohomology|differential]]) [[ordinary cohomology]]. &lbrack;[Alvarez 1985](#Alvarez85a)&rbrack;
+In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[magnetic fields]] as 2-[[cocycles]] in ([[differential ordinary cohomology|differential]]) [[ordinary cohomology]]. &lbrack;[Alvarez 1985](#Alvarez85a)&rbrack;
+
+In 1988 [[Krzysztof Gawędzki|Gawędzki]] observes that the [[B-field]] flux felt by a [[string]] must similarly be quantized as a 3-cocycle in [[Deligne cohomology]]. &lbrack;[Gawędzki 1988](#Gawędzki88), also [Freed & Witten 1999](#FreedWitten99)&rbrack;
 
 In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[topological K-theory|topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack; or more generally in "[[twisted K-theory|twisted]]" such K-theory &lbrack;[Bouwknegt & Mathai 2001](#BouwknegtMathai01)&rbrack;
 
-and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; whose proper mathematical home motivates [Hopkins & Singer 2005](#HopkinsSinger05) but for a long time remains somewhat mysterious. 
+and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; whose proper mathematical home motivates [Hopkins & Singer 2005](#HopkinsSinger05) but remains somewhat mysterious, for a long time.
 
 In the 2020s [Fiorenza et al. 2020](#FSS20H) develop a systematic understanding &lbrack;[FSS23-Char](#FSS23)&rbrack; of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
 
@@ -2935,7 +2937,7 @@ The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHom
 
 * **(B)** ...for the case where $\mathfrak{a} \equiv b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
 
-  to that of a 3-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which is the traditionally understood model for [[B-field]] gauge potentials &lbrack;[Gawędzki 1986](#Gawędzki86); [Freed & Witten 1999, §6](#FreedWitten99);&rbrack;, often regarded in the equivalent guise of "[[connections on bundle gerbes]]" [Gawędzki & Reis 2002](#GawędzkiReis02); [Carey, Johnson & Murray 2002](#CareyJohnsonMurray02); [Bonora, Ruffino & Savelli 2008](Kalb-Ramond+field#BonoraRuffinoSavelli08)&rbrack;
+  to that of a 3-cocycle in [[Čech cohomology|Čech]]-[[Deligne cohomology]], which is the traditionally understood model for [[B-field]] gauge potentials &lbrack;[Gawędzki 1988](#Gawędzki88); [Freed & Witten 1999, §6](#FreedWitten99);&rbrack;, often regarded in the equivalent guise of "[[connections on bundle gerbes]]" [Gawędzki & Reis 2002](#GawędzkiReis02); [Carey, Johnson & Murray 2002](#CareyJohnsonMurray02); [Bonora, Ruffino & Savelli 2008](Kalb-Ramond+field#BonoraRuffinoSavelli08)&rbrack;
 
 * **(C)** ... for the case where $\mathfrak{a} \equiv b^3 \mathfrak{u}(1)$ and $\mathcal{A} \equiv B^3 \mathrm{U}(1) \simeq B^4 \mathbb{Z}$:
 
@@ -2951,7 +2953,7 @@ This is shown in [FSS23-Char, Prop. 9.5](#FSS23Char) (and with the [[Dold-Kan co
 \begin{remark}
 **(Shortcoming of higher $\mathrm{U}(1)$-charge quantization)**
 \linebreak
-For a long time, these examples \ref{HigherCircleGaugePotentials} used to be the state of the art in understanding flux quantization of higher gauge fields. But notice that in all three items the flux-quantization of the duality-partner fields have been ignored. For item (A) this can readily be rectified, since here the partner (electric) field can be flux-quantized in the same way (and later has been, Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}),  but in items (B) and (C) it is actually impossible to model the dual fields (with flux densities $H_7$ and $G_7$, respectively) as higher $\mathrm{U}(1)$-gauge fields (nor even as generalized higher abelian gauge fields, Ex. \ref{AbelianWhiteheadGeneralizedDiffCohomology}), since their Bianchi identities are non-linear (by Ex. \ref{MotionOfCoupledBRRFields} and Ex. \ref{MotionOfSupergravityCField}, respectively).
+For a long time, these examples \ref{HigherCircleGaugePotentials} used to be the state of the art in understanding flux quantization of higher gauge fields. But notice that in all three items the flux-quantization of the duality-partner fields (and hence of the [[canonical momenta]]) have been ignored. For item (A) this can readily be rectified, since here the partner (electric) field can be flux-quantized in the same way (and later has been, Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}),  but in items (B) and (C) it is actually impossible to model the dual fields (with flux densities $H_7$ and $G_7$, respectively) as higher $\mathrm{U}(1)$-gauge fields (nor even as generalized higher abelian gauge fields, Ex. \ref{AbelianWhiteheadGeneralizedDiffCohomology}), since their Bianchi identities are non-linear (by Ex. \ref{MotionOfCoupledBRRFields} and Ex. \ref{MotionOfSupergravityCField}, respectively).
 \end{remark}
 
 More generally:
@@ -3094,7 +3096,7 @@ On the other hand, strongly-coupled string theory at large-scale/low-energy is a
 
 * {#FreedWitten99} [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. **3** 4 (1999) 819-852 &lbrack;[arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189), [InSpire:2655986](https://inspirehep.net/literature/2655986)&rbrack;
 
-* {#Gawędzki86} [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5)&rbrack;
+* {#Gawędzki88} [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1988) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
 
 * {#GawędzkiReis02} [[Krzysztof Gawędzki]], [[Nuno Reis]], *WZW branes and gerbes*, Rev. Math. Phys. **14** (2002) 1281-1334 &lbrack;[arXiv:hep-th/0205233](https://arxiv.org/abs/hep-th/0205233), [doi:10.1142/S0129055X02001557](https://doi.org/10.1142/S0129055X02001557)&rbrack;
 
