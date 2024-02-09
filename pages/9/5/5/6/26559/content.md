@@ -2996,7 +2996,105 @@ On the other hand, strongly-coupled string theory at large-scale/low-energy is a
 ### B-&RR-Field flux quantization in 10d
  {#RRFieldFluxQuantization}
 
+Considering the [[Gauss law]] of the unbounded [[RR-field]] flux densities (Ex. \ref{MotionOfUnboundedRRFields}, Prop. \ref{SolutionSpaceViaGaussLaw}) as commonly expected in [[massive type IIA supergravity]] and *ignoring* (as commonly done, but see below... for possible justification) the non-linear Bianchi identity (eq:BRRFieldEquationsOfMotion) of the dual B-field flux $H_7$ (whence we now notationally suppress $H_7$ altogether, as usual)
+
+$$
+  SolSpace
+  \;=\;
+  \left\{
+    \begin{array}{l}
+      H_3 \,\in\, \Omega^3_{dR}(X^d)
+      \\
+      F_{2\bullet}
+      \,\in\,
+      \Omega^{2\bullet}_{dR}(X^d)
+    \end{array}
+    \;\text{s.t.}\;
+    \begin{array}{l}
+      \mathrm{d}\, H_3 \,=\, 0
+      \\
+      \mathrm{d}\, F_{2\bullet} \,=\, 
+      H_3 \wedge F_{2\bullet -2}
+    \end{array}
+  \right\}
+  \,,
+$$
+
+its admissible flux quantization laws have classifying spaces $\mathcal{A}$ whose $\mathbb{R}$-[Sullivan algebra]] looks as follows:
+
+$$
+  CE(\mathfrak{l}\mathcal{A})
+  \;=\;
+  \mathbb{R}[h_3, h_7, f_{2\bullet}]
+  \Big/
+  \left(
+    \begin{array}{l}
+      \mathrm{d}\, h_3 \,=\, 0
+      \\
+      \mathrm{d}\, f_{2\bullet} 
+        \,=\, 
+      h_3 \wedge f_{2\bullet -2}
+    \end{array}
+  \right)
+  \,.
+$$
+
+Now it so happens that a space $\mathcal{A}$ with this property is given &lbrack;[Freed, Hopkins & Teleman 2007, p. 6](#FreedHopkinsTeleman07); [BMSS19, Lem. 2.31](#BMSS19)&rbrack; by the [[homotopy quotient]] of the classifying space [[KU|$KU_0$]] for [[complex topological K-theory]] in degree=0 by the [[group action|action]] of the [[projective unitary group]] [[PU(H)|$PU(\mathscr{H})$]] on the essentially unique [[separable Hilbert space|separably infinite-dimensional]] [[complex vector space|complex]] [[Hilbert space]] $\mathscr{H}$:
+
+\[
+  \label{ClassifyingSpaceForTwistedKTheory}
+  KU_0
+  \hookrightarrow
+  \overset{
+    \mathcal{A}
+  }{
+  \overbrace{
+    KU_0 \sslash PU(\mathscr{H})
+  }
+  }
+  \twoheadrightarrow
+  B PU(\mathscr{H})
+  \,,
+\]
+
+which we are displaying here in its canonical [[homotopy fiber sequence]] exhibiting it as a $KU_0$-[[fiber bundle]] over $B PU(\athscr{H}) \;\underset{whe}{\simeq}\; B^3 \mathbb{Z}$.
+
+> To make this result plausible, notice first that one presentation for the K-theory classifying space is [[KU|$KU_0$]] $\simeq \mathbb{Z} \times B \mathrm{U}$, where $B\mathrm{U} \coloneqq \underset{\longrightarrow}{lim}_n B\mathrm{U}(n)$ is the [[direct limit]] over the ordinary [[classifying spaces]] of [[unitary groups]]. By the above examples, this shows that the Sullivan model of $KU_0$ has one generator in every even degree. Second, notice that *another* presentation of $KU_0$, up to [[weak homotopy equivalence]], is as the space of [[Fredholm operators]] on $\mathscr{H}$, on which $\mathrm{U}(\mathscr{H})$ manifestly [[group action|acts]] by [[conjugation]], hence on which the [[quotient group]] [[PU(H)|$PU(\mathscr{H})$]] by the [[circle group|$\mathrm{U}(1)$]]-[[center of a group|center]] still acts [[effective group action|effectively]]. Finally observe that [[PU(H)|$PU(\mathscr{H})$]] $\underset{whe}{\simeq} B \mathrm{U}(1) \simeq B^2 \mathbb{Z}$, whence $B PU(\mathscr{H})  \simeq B^3 \mathbb{Z}$ has as Sullivan model a single closed generator in degree 3.
+
+Accordingly, the generalized [[nonabelian cohomology theory]] classified by $\mathcal{A} \,\equiv\, KU_0 \sslash PU(\mathscr{H})$ decomposes over the [[ordinary cohomology|ordinary]] [[integral cohomology]] in degree 3, with fibers being the *abelian* [[Whitehead-generalized cohomology theory]] of [[topological K-theory]], and as such it may and traditionally is understood as an abelian but *[[twisted cohomology|twisted]]* cohomology theory: *[[twisted topological K-theory]]* &lbrack;[Atiyah & Segal 2004, Def. 3.3](#AtiyahSegal04); [Freed, Hopkins & Teleman 2007, (2.6)](#FreedHopkinsTeleman07); [SS21-Bun, Ex. 4.5.4](#SS21-Bun); [FSS23-Char, Ex. 3.4](#FSS23Char)&rbrack;. Moreover, under this decomposition, the nonabelian character map on (eq:ClassifyingSpaceForTwistedKTheory) is &lbrack;[FSS23-Char, Prop. 10.1](#FSS23Char)&rbrack; the [[twisted Chern character|twisted]] [[Chern character]] (the archetypical example which gives its name to the more general "character map").
+
+Therefore, choosing (eq:ClassifyingSpaceForTwistedKTheory) as the flux quantization law for the unbounded RR-fields means to hypothesize/declare that [[RR-field]] flux and hence [[D-brane]] charge is quantized in [[twisted topological K-theory]], with the [[twisted de Rham cohomology]]-classes of the RR-field flux densities just being the image of these K-theory classes under the [[twisted Chern character|twisted]] [[Chern character]]. This is the *[[D-brane charge quantization in topological K-theory|Hypothesis K]]* (our terminology) originally due to [Minasian & Moore 1997](#MinasianMoore97); and [Witten 1998](#Witten98), with further details added by [Freed & Hopkins 2000](#FreedHopkins00); [Bouwknegt & Mathai 2001](#BouwknegtMathai01) and others.
+
+\begin{remark}
+**(comparison to the literature)**
+\linebreak
+The original motivation close to the above logic may be found in the paragraph wrapping p. 9-10 in [Witten 1998](#Witten98). 
+
+When comparing to [Minasian & Moore 1997](#MinasianMoore97) beware that these authors, and the literature following them, take the $\mathbb{R}$-rational D-brane charge to be expressed by the [[Chern character]] *multiplied* with the square root of the [[A-hat genus]] of the [[tangent bundle]] of [[spacetime]]. However, since this term is multiplicatively invertible (being a unit plus a sum of inhomogeneous differential forms which are nilpotent under wedge product), this is not intrinsic to the notion of D-brane charge and may be disregarded for the purpose of charge quantization (cf. [Freed & Hopkins 2000, ftn. 12](#FreedHopkins00)); its role is rather as a technical convenience making the Chern character natural under [[push-forward in generalized cohomology|push-forward]] &lbrack;[Brodzki, Mathai, Rosenberg & Szabo 2008, §2](#BrodzkiMathaiRosenbergSzabo08)&rbrack;.
+\end{remark}
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-DBraneAnnihilation.jpg",
+    "float": "right",
+    "width": 340,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 5,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+An influential argument why *[[D-brane charge quantization in K-theory|Hypothesis K]]* (eq:ClassifyingSpaceForTwistedKTheory) should be singled out among other compatible choices of RR-field flux quantization was the observation by [Witten 1998, §3](#Witten98) that the [[equivalence relation]] on [[virtual vector bundles]] which characterizes [[topological K-theory]] $KU_0(X)$ on [[compact Hausdorff spaces]] (see [there](topological+K-theory#KGroupByGrothendieckGroup)) plausibly mimics the expected mechanism ("[[Sen's conjecture]]") of [[D-brane]]/[[anti D-brane]]-annihilation by [[tachyon condensation]], by which [[isomorphism|isomorphic]] but opposite [[Chan-Paton bundles]] on the [[worldvolume]] of [[D-branes]] should annihilate for [[coincident brane|coincident]] [[D-branes]].
+
+> Beware that this is a heuristic argument: There is still no string-theoretic computation which actually verifies this intuition &lbrack;[Erler 2013](D-brane+charge+quantization+in+K-theory#Erler13), [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)&rbrack;. In fact [Witten 1998, ftn. 2](#Witten98) already points out that on closer inspection it is less clear how the picture should work.
+
+
+
+
 (...)
+
 
 \linebreak
 
@@ -3158,6 +3256,8 @@ The *minimal* choice of C-field flux quantization in this sense, requiring the m
 
 * {#AschieriJurčo04} [[Paolo Aschieri]], [[Branislav Jurčo]], *Gerbes, M5-Brane Anomalies and $E_8$ Gauge Theory*, JHEP 0410:068 (2004) &lbrack;[arXiv:hep-th/0409200](https://arxiv.org/abs/hep-th/0409200), [doi:10.1088/1126-6708/2004/10/068](https://doi.org/10.1088/1126-6708/2004/10/068)&rbrack;
 
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], *Twisted K-theory*, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
+
 
 * {#BandosBerkovitsSorokin98} [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], *Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes*, Nucl. Phys. B **522** (1998) 214-233 \[<a href="https://doi.org/10.1016/S0550-3213(98)00102-3">doi:10.1016/S0550-3213(98)00102-3</a>, [arXiv:hep-th/9711055](https://arxiv.org/abs/hep-th/9711055)\]
 
@@ -3172,6 +3272,10 @@ The *minimal* choice of C-field flux quantization in this sense, requiring the m
 * {#BFJKNRSW24} [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
 * {#BouwknegtMathai01} [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 &lbrack;[arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023), [doi:10.1088/1126-6708/2000/03/007](https://doi.org/10.1088/1126-6708/2000/03/007)&rbrack;
+
+* {#BMSS19} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Gauge enhancement of Super M-Branes]]_, Comm. Math. Phys. **371** (2019) 197-265 &lbrack;[arXiv:1806.01115](https://arxiv.org/abs/1806.01115), [doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4)&rbrack;
+
+* {#BrodzkiMathaiRosenbergSzabo08} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. **277** (2008) 643-706 &lbrack;[arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020), [doi:10.1007/s00220-007-0396-y](https://doi.org/10.1007/s00220-007-0396-y)&rbrack;
 
 * {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics **52** 2 (2004) 186-216 &lbrack;[arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [doi:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008)&rbrack;
 
@@ -3198,7 +3302,6 @@ The *minimal* choice of C-field flux quantization in this sense, requiring the m
 
 * {#FSS17SphereCocycles} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]*, J. Geometry and Physics, **114** (2017) 91-108 &lbrack;[arXiv:1606.03206](https://arxiv.org/abs/1606.03206), [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024)&rbrack;
 
-
 * {#FSS19HigherStruc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The rational higher structure of M-theory]]_  in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
 
 * {#FSS20H} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds]]_, Comm Math. Phys.  **377** (2020) 1961-2025 &lbrack;[arXiv:1904.10207](https://arxiv.org/abs/1904.10207), [doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2)&rbrack;
@@ -3209,6 +3312,10 @@ The *minimal* choice of C-field flux quantization in this sense, requiring the m
 * {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
 * {#Freed00} [[Daniel Freed]], *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+
+* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 $[$[arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027), [doi:10.1088/1126-6708/2000/05/044](https://doi.org/10.1088/1126-6708/2000/05/044)$]$
+
+* {#FreedHopkinsTeleman07} [[Daniel S. Freed]], [[Michael Hopkins]], [[Constantin Teleman]], *Twisted equivariant K-theory with complex coefficients*, Journal of Topology **1** 1 (2007) &lbrack;[arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001)&rbrack;
 
 * {#FreedMooreSegal07a} [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** (2007) 247-274 &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
 
@@ -3250,6 +3357,9 @@ The *minimal* choice of C-field flux quantization in this sense, requiring the m
 * {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) &lbrack;[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)&rbrack;
 
 * {#Sati10} [[Hisham Sati]], *Geometric and topological structures related to M-branes*, in *Superstrings, Geometry, Topology, and $C^\ast$-algebras*, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arXiv.org/abs/1001.5020), [ams:pspum/081](http://www.ams.org/books/pspum/081)&rbrack;
+
+* {#SS21-Bun} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
 
 * {#SS23-MF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:M/F-Theory as Mf-Theory|M/F-Theory as $M f$-Theory]]*, Rev. Math. Phys. **35** 10 (2023) &lbrack;[doi:10.1142/S0129055X23500289](https://doi.org/10.1142/S0129055X23500289), [arXiv:2103.01877](https://arxiv.org/abs/2103.01877)&rbrack;
 
