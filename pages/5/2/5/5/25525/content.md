@@ -39,8 +39,3 @@
 * [[Amnon Neeman]], *K-Theory for Triangulated Categories $3\frac{3}{4}$: A Direct Proof of the Theorem of the Heart*, K-Theory **22** 1-2 (2001) 1-144 &lbrack;[doi:10.1023/A:1011172502978](http://dx.doi.org/10.1023/A:1011172502978)&rbrack;
 
 * [[Clark Barwick]], *On exact infinity-categories and the Theorem of the Heart*, Compositio Mathematica **151** (2015) 2160-2186 &lbrack;[arXiv:1212.5232](https://arxiv.org/abs/1212.5232), [doi:10.1112/S0010437X15007447](https://doi.org/10.1112/S0010437X15007447)&rbrack;
-
-
-
-category: people
-
