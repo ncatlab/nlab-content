@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -115,7 +116,7 @@ The interpretation as a 4d [[axion]]:
 
 The interpretatin of the B-field as a 3-[[cocycle]] in [[Deligne cohomology]] is due to
 
-* [[Krzysztof Gawedzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5)&rbrack;
+* [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
 
 picked up in
 
