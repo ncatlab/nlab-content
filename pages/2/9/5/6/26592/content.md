@@ -38,7 +38,7 @@ From the [[category-theoretic approaches to probability theory|category-theoreti
 
 or 
 
-* A [[probability monad]] which is [[affine]] but not [[strong monoidal functor|strong monoidal]], i.e. which does not preserve [[products]].
+* A [[probability monad]] which is [[affine monad|affine]] but not [[strong monoidal functor|strong monoidal]], i.e. which does not preserve [[products]].
 
 When one takes as [[Markov category]] the [[Kleisli category]] of a [[probability monad]], the two concepts coincide.
 
@@ -64,6 +64,7 @@ When one takes as [[Markov category]] the [[Kleisli category]] of a [[probabilit
 ## See also 
 
 * [[stochastic dependence and independence]]
+* [[affine monad]]
 * [[probability theory]], [[categorical probability]]
 * [[probability monad]], [[Giry monad]]
 * [[Markov category]], [[Markov kernel]]
@@ -79,6 +80,8 @@ When one takes as [[Markov category]] the [[Kleisli category]] of a [[probabilit
 * {#cd_categories} Kenta Cho, [[Bart Jacobs]], _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science 29, 2019. ([arXiv:1709.00322](https://arxiv.org/abs/1709.00322))
 
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+
+* [[Anders Kock]], _Bilinearity and cartesian closed monads_, Mathematica Scandinavica 29(2), 1971. 
 
 
 category: probability
