@@ -56,6 +56,17 @@ In fact, any faithful functor is likewise equivalent to the inclusion of a (non-
 
 Other types of morphism in a 2-category which have some claim to be considered "subobjects" include [[pseudomonic functor|pseudomonic]] morphisms and [[conservative functor|conservative]] morphisms.  Pseudomonic morphisms might merit a name such as **(2,1)-subcategory**, since a functor is pseudomonic iff it is faithful (a 2-subcategory) and its induced functor between [[underlying groupoid]]s is fully faithful (a 1-subcategory).  See also [[stuff, structure, property]].
 
+### As Displayed Categories
+
+A different way to describe subcategories is as [[displayed categories]] satisfying certain properties. This is analogous to defining a [[subset]] by its [[characteristic function]], which allows to define subsets without a notion of global membership.
+
+A __subcategory__ of a category $C$ is a displayed category $D$ over $C$ such that all $D(c)$ and $D_f(A,B)$ are [[mere proposition|propositions]]. We can recover a subcategory in the original sense by taking the [[Grothendieck construction]] of $D$. The identity and composition in the displayed category correspond precisely to the inclusion of the subcategory being closed under identity and composition.
+
+We can also capture the above flavors of subcategory by adding further conditions to $D$. We say $D$ is...
+
+* A __full subcategory__ if all $D_f(A,B)$ are true.
+* A __wide subcategory__ if all $D(c)$ are true.
+* A __replete subcategory__ if $D$ is an [[isofibration]].
 
 ## Related concepts
 
