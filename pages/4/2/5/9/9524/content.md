@@ -2,4 +2,3 @@
 
 * [webpage](http://www.rssd.esa.int/index.php?project=planck)
 
-category: people
