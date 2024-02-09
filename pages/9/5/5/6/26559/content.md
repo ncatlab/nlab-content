@@ -54,7 +54,7 @@ In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[m
 
 In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[topological K-theory|topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack; or more generally in "[[twisted K-theory|twisted]]" such K-theory &lbrack;[Bouwknegt & Mathai 2001](#BouwknegtMathai01)&rbrack;
 
-and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; whose proper mathematical home motivates [Hopkins & Singer 2005](#HopkinsSinger05) but remains somewhat mysterious. 
+and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; whose proper mathematical home motivates [Hopkins & Singer 2005](#HopkinsSinger05) but for a long time remains somewhat mysterious. 
 
 In the 2020s [Fiorenza et al. 2020](#FSS20H) develop a systematic understanding &lbrack;[FSS23-Char](#FSS23)&rbrack; of flux quantization of any [higher gauge theory of Maxwell-type](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) in generalized [[non-abelian cohomology]] theory, using [[fundamental theorem of dg-algebraic rational homotopy theory|tools from dg-algebraic]] [[rational homotopy theory]] related to the [[D'Auria-Fre formulation of supergravity|"FDA-method" in the supergravity literature]]. 
 
@@ -2979,6 +2979,21 @@ For application to flux quantization, the most prominent example of such abelian
 ## Examples in String/M-Theory
  {#Examples}
 
+While flux quantization is an issue in any higher gauge theory, the examples where it has received most (essentially all) of the attention are those of evident relevance in [[string theory]] --- which is what we focus on in the following. 
+
+While [[string theory]] is [[Polyakov gauge-string duality|an attempt to understand]] the [[mass gap problem|all-important but elusive]] [[non-perturbative quantum field theory|non-perturbative behaviour]] of [[Yang-Mills theories]] (notably  [[quantum chromodynamics]]) by regarding [[quarks]] [[confinement|confined]] by [[color charge|color]] [[flux tubes]] as endpoints of [[open strings]] stuck on [[intersecting brane model|intersecting]] [[branes]] in an [[Randall-Sundrum model|unobserved higher dimensional spacetime]], ironically also string physics itself (such as [[string scattering amplitudes|their scatterning amplitudes]]) has really been understood only perturbatively (namely just by replacing [[Feynman diagrams]] in ordinary [[worldline formalism|worldline]] [[perturbative quantum field theory]] with [[worldsheet]] [[n-point functions]] of a [[2d SCFT]]). 
+
+But since flux quantization laws (as discussed [above](#FluxQuantizationLaws)) are hypotheses/prescriptions for otherwise missing non-perturbative degrees of freedom of the string's [[background fields]], their investigation goes towards the heart of the open problem finding a non-perturbative completion of string theory itself, famous under the working title *[[M-theory]]*/*[[F-theory]]*. 
+
+For instance, the traditional *Hypothesis K* ([below](#RRFieldFluxQuantization)) that [[RR-field]] fluxes are quantized in [[topological K-theory]] has been motivated/justified &lbrack;[Witten 1998, §3)](#Witten98)&rbrack; as describing -- or in fact pre-scribing -- the stable end results of the [[tachyon condensation]] of [[open string]] modes stretching between [[D-brane]]/[[anti D-brane]] pairs, a process which cannot be followed by string perturbation theory, but which is expected ("[[Sen's conjecture]]" &lbrack;[Sen 1998](Sen's+conjecture#Sen98)&rbrack;) to find the non-perturbative true [[vacuum state]] where [[D-brane]]/[[anti D-brane]] pairs have mutually annihilated as far as possible. Indeed, at least in practice, RR-field flux quantization in topological K-theory has become the widely-accepted *definition* of stable D-brane vacua, and as such must be understood as a partial proposal for the nature of non-perturbative string theory. 
+
+On the other hand, strongly-coupled string theory at large-scale/low-energy is also [famously argued](M-theory#Hints) to be described by [[D=11 supergravity]], whence it stands to reason that flux quantization of the [[supergravity C-field]] in 11d should go further still towards the full non-perturbative definition of string theory (hence of [[M-theory]]). While the details are subtle and generally deserve more attention, the systematic understanding of non-linear flux quantization reviewed [above](#FluxQuantizationLaws) provides a systematic mathematical theory which clearly delineates the available choices of non-perturbative completions and allows to rigorously derive their consequences.
+
+\linebreak
+
+### B-&RR-Field flux quantization in 10d
+ {#RRFieldFluxQuantization}
+
 (...)
 
 \linebreak
@@ -2990,8 +3005,17 @@ For application to flux quantization, the most prominent example of such abelian
 
 \linebreak
 
-### B-&RR-Field flux quantization in 10d
- {#RRFieldFluxQuantization}
+### B-Field flux quantization in 6d
+ {#BFieldFluxQuantizationIn6d}
+
+
+(...)
+
+\linebreak
+
+### Green-Schwarz mechanicm in 10d & 6d
+ {#BFieldFluxQuantizationIn6d}
+
 
 (...)
 
