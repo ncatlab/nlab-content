@@ -54,7 +54,7 @@ In 1985 [[Orlando Alvarez|Alvarez]] understands such *[[soliton|solitonic]]* [[m
 
 In 1988 [[Krzysztof Gawędzki|Gawędzki]] observes that the [[B-field]] flux felt by a [[string]] must similarly be quantized as a 3-cocycle in [[Deligne cohomology]]. &lbrack;[Gawędzki 1988](#Gawędzki88), also [Freed & Witten 1999](#FreedWitten99)&rbrack;
 
-In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[topological K-theory|topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack; or more generally in "[[twisted K-theory|twisted]]" such K-theory &lbrack;[Bouwknegt & Mathai 2001](#BouwknegtMathai01)&rbrack;
+In the 1990s [[string theory|string theorists]] hypothesize that the combined flux of [[B-field|B-]]&[[RR-fields]] and hence the charge of [[D-branes]] is analogously quantized in a [[Whitehead-generalized cohomology|generalized]] cohomology theory called "[[topological K-theory|topological K-theory]]" &lbrack;[Minasian & Moore 1997](#MinasianMoore97); [Witten 1998](#Witten98)&rbrack; or more generally in "[[twisted K-theory|twisted]]" such K-theory &lbrack;[Bouwknegt & Mathai 2001](#BouwknegtMathai01)&rbrack;,
 
 and that the flux of the [[supergravity C-field|C-field]] and hence the charge of [[M-branes]] is quantized in a "[[shifted C-field flux quantization|shifted half-integral]]" cohomology theory &lbrack;[Witten 1996](#Witten96a)&rbrack; whose proper mathematical home motivates [Hopkins & Singer 2005](#HopkinsSinger05) but remains somewhat mysterious, for a long time.
 
@@ -3003,7 +3003,127 @@ On the other hand, strongly-coupled string theory at large-scale/low-energy is a
 ### C-Field flux quantization in 11d
  {#CFieldFluxQuantizationIn10d}
 
+Given the [[supergravity C-field|C-field]]'s [[Gauss law]]
+
+$$
+  SolSpace 
+  \;=\;
+  \left\{
+  \;
+  \begin{array}{l}
+    B_4 \,\in\, \Omega^4_{dR}(X^d)
+    \\
+    B_7 \,\in\, \Omega^7_{dR}(X^d)
+  \end{array}
+  \;\;\;
+  \text{s.t.}
+  \;\;\;
+  \begin{array}{rcl}
+    \mathrm{d}
+    \,
+    B_4 &=& 0
+    \\
+    \mathrm{d}
+    \,
+    B_7 &=& 
+    -\tfrac{1}{2}
+    G_4 \wedge G_4
+  \end{array}
+  \;
+  \right\}
+$$
+
+its admissible flux quantization laws have a classifying space $\mathcal{A}$ whose $\mathbb{R}$-[[Sullivan algebra]] is as follows
+
+$$
+  CE(\mathfrak{l}\mathcal{A})
+  \;\;
+  =
+  \;\;
+  \mathbb{R}\big[ 
+    b_4, b_7
+  \big]
+  \Big/
+  \left(
+  \begin{array}{rcl}
+    \mathrm{d}
+    \,
+    b_4 &=& 0
+    \\
+    \mathrm{d}
+    \,
+    b_7 &=& 
+    -\tfrac{1}{2}
+    b_4 \wedge b_4
+  \end{array}
+  \right)
+  \,.
+$$
+
+We dicuss now two possible choices of such flux quantization laws $\mathcal{A}$ for the C-field that have been considered in the literature (here we denote them by $\mathcal{A}_{{}_{DFM}}$ and $\mathcal{A}_{{}_{FSS}}$, respectively), both of which, while quite distinct from each other, being an "evident" choice from their respective natural perspective. 
+
+Recall again that, besides these "evident" choices, there are an infinitude of admissible variant flux quantization laws which differ in their torsion-content. In the present case, any such choice is a hypothesis/definition concerning aspects of the elusive [[M-theory]]. Careful investigation of the implications of the "evident" flux quantization laws of the C-field may not only serve to decide if either is "correct" (which is not always straightforward to decide, as long as a plausibly complete definition of [[M-theory]] remains missing), but also to understand how variant flux quantization laws would have to be chosen if the "evident" ones are deemed to have undesireable implications.
+
+\linebreak
+
+**DFM flux-quantization.**
+
+If one takes the point of view that a higher $\mathrm{U}(1)$-flux quantization law as in Ex. \ref{HigherCircleGaugePotentials} is the most natural starting point, which naively would demand $G_4$ to be quantized in integral 4-cohomology with classifying space $B^4 \mathbb{Z} \equiv K(\mathbb{Z}, 4)$, then one is naturally led to consider the deformation of this situation which just adds-on the condition that the [[cup product|cup-square]] of this 4-class be trivialized:
+
+\begin{imagefromfile}
+    "file_name": "GeomPhys-CupSquareClassifying.jpg",
+    "float": "right",
+    "width": 460,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": -5,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+In terms of [[classifying spaces]] this means to pass to the [[homotopy fiber]], here to be denoted $\mathcal{A}_{{}_{DFM}}$, of the map that classifies the [[cup product|cup-square]] [[cohomology operation]] on [[integral cohomology|integral 4-cohomology]], which indeed has the required Sullivan model, as shown
+(these kinds of computations are reviewed in [FSS23-Char, §1, §5](#FSS23)):
+
+\[\label{HomotopyFiberOfCupSquare}\]
+\begin{imagefromfile}
+    "file_name": "GeomPhys-TheDFMModel.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This flux quantization law is essentially that considered in [Diaconescu, Freed & Moore 2003](#DiaconescuFreedMoore03), when specialized to the case where $\tfrac{1}{2}p_1[T X^d]$ is even and [[I8]]$[T X^d]$ vanishes -- the expected contributions of these terms are adjoined "by hand" by these authors.
+
+Notice that:
+
+* In (eq:HomotopyFiberOfCupSquare) we have inserted a minus sign in front of the cup square and a factor of 2 in front of the generator $g_7$ in order to match the model to the physics convention in (eq:CFieldEquationsOfMotion), cf. [DFM08, §8](#DiaconescuFreedMoore03).
+
+
+* While the DFM-model manifestly enforces integral charges of singular [[M5-branes]], the charge of the singular [[M2-branes]] ("[[Page charge]]") is not generally quantized in this model &lbrack;[Moore 2004, §5](#Moore04)&rbrack;.
+
+
+
+\linebreak
+
+
+**FSS flux-quantization.**
+
+Another perspective is to regard the baseline of all flux quantization to be that classified by the *point* $\mathcal{A}_0 = \ast$ (for the entirely trivial higher gauge theory) and to obtain non-trivial classifying spaces from this maximally unbiased starting point by iterated [[cell attachment]] in the sense of [[CW-complexes]].
+
+The *minimal* choice of C-field flux quantization in this sense, requiring the minimum number 1 of [[cell attachments]], is to take $\mathcal{A}_{{}_{FSS}} \,\equiv\, S^4$ to be the ([[homotopy type]] of) the [[4-sphere]] (which is a valid choice of C-field flux quantization, by the examples explained [above](#TotalFluxInNonabelianDeRhamCohomology)).
+
+
 (...)
+
 
 \linebreak
 
@@ -3120,6 +3240,8 @@ On the other hand, strongly-coupled string theory at large-scale/low-energy is a
 * {#Martin09} Thomas Martin (ed.), *Faraday's diary of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
 
 * {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys. Rev. D **107** 6 (2023) 066027 \[<a href="https://doi.org/10.1103/PhysRevD.107.066027">doi:10.1103/PhysRevD.107.066027</a>[arXiv:2207.00626](https://arxiv.org/abs/2207.00626)\]
+
+* {#Moore04} [[Greg Moore]], *Anomalies, Gauss laws, and Page charges in M-theory*, Comptes Rendus Physique **6** (2005) 251-259 &lbrack;[arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158), [doi:10.1016/j.crhy.2004.12.005](https://doi.org/10.1016/j.crhy.2004.12.005)&rbrack;
 
 
 * {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. **75** (1995) 4724-4727 &lbrack;[arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017), [doi:10.1103/PhysRevLett.75.4724](https://doi.org/10.1103/PhysRevLett.75.4724)&rbrack;
