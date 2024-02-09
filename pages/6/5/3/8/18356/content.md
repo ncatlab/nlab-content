@@ -41,7 +41,7 @@ Moreover, up to [[equivalence of categories|equivalence]], every [[Grothendieck 
 
 1. the [[equivalence classes]] of left exact reflective subcategories $\mathcal{E} \hookrightarrow PSh(\mathcal{C})$ of the [[category of presheaves]] 
 
-1. [[Grothendieck topologies]] $\tau$ on $\mathcal{C}$, 
+1. [[Grothendieck topologies]]  $\tau$ on $\mathcal{C}$, 
 
 which is such that $\mathcal{E} \simeq Sh(\mathcal{C}, \tau)$. 
 
