@@ -55,7 +55,7 @@ Given
 
 then:
 
-The **latching object** of $X$ at stage $r$ is the [[colimit]] 
+The **latching object** of $X$ at stage $r$ is the [[colimit]] in $\mathcal{C}$
 
 \[
   \label{LatchingObject}
@@ -71,7 +71,7 @@ over the [[full subcategory]] of the [[slice category]] $R_+/r$ containing all o
 
 [[formal duality|Dually]]:
 
-The **matching object** of $X$ at stage $r$ is the [[limit]]
+The **matching object** of $X$ at stage $r$ is the [[limit]] in $\mathcal{C}$
 
 \[
   \label{MatchingObject}
