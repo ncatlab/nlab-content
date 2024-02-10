@@ -42,7 +42,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 * [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 
-* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  ([doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8)
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  \[ISBN 978-3-662-49361-8, [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8)\]
 
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
@@ -106,7 +106,7 @@ Textbooks:
 On [[constructive mathematics|constructive]] methods ([[constructive algebraic topology]]):
 
 * [[Julio Rubio]], [[Francis Sergeraert]], *Constructive Algebraic Topology*, Bulletin des Sciences Mathématiques
-**126** 5 (2002) 389-412 &lbrack;[arXiv:math/0111243](https://arxiv.org/abs/math/0111243), <a href="https://doi.org/10.1016/S0007-4497(02)01119-3">doi:10.1016/S0007-4497(02)01119-3</a>&rbrack;
+**126** 5 (2002) 389-412 \[<a href="https://doi.org/10.1016/S0007-4497(02)01119-3">doi:10.1016/S0007-4497(02)01119-3</a>, [arXiv:math/0111243](https://arxiv.org/abs/math/0111243)\] 
 
 
 Lecture notes:
