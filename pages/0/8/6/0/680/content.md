@@ -450,6 +450,20 @@ Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by [[Pilar Carr
 Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of [[Carrasco]] and [[Cegarra]], but here they fall out from the theory.  On the down side there is apparently no
 full analysis as yet of the actual form of this monad.
 
+Gary Nan Tie showed that a certain full subcategory of filtered systems of hypergroupoids of rank n is equivalent to the following three categories, n-groupoids, n-simplicial T-complexes and n-crossed complexes, and in doing so proved a non-abelian Dold-Kan theorem for crossed complexes:
+
+A Dold-Kan theorem for crossed complexes,
+Journal of Pure and Applied Algebra,
+Volume 56, Issue 2, 1989, Pages 177-194,
+ISSN 0022-4049,
+https://doi.org/10.1016/0022-4049(89)90143-6
+
+Iterated W̄ and T-groupoids,
+Journal of Pure and Applied Algebra,
+Volume 56, Issue 2, 1989, Pages 195-209,
+ISSN 0022-4049,
+https://doi.org/10.1016/0022-4049(89)90144-8
+
 
 ## Stable Dold-Kan correspondence
  {#StableDoldKanCorrespondence}
