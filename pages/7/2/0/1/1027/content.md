@@ -89,6 +89,8 @@ Wide pushouts are an example of a non-recursive higher inductive type.
 
 * [[connected limit]] 
 
+* [[wide pushout type]]
+
 [[!include notions of pullback -- contents]]
 
 
@@ -104,5 +106,9 @@ Wide pullbacks are considered under the term *fibred product* in:
 
 [[!redirects wide pullback]]
 [[!redirects wide pullbacks]]
+
+[[!redirects wide pullback type]]
+[[!redirects wide pullback types]]
+
 [[!redirects wide pushout]]
 [[!redirects wide pushouts]]
