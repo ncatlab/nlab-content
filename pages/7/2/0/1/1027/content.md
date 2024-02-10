@@ -46,22 +46,17 @@ From products and equalizers, we can get arbitrary limits.
 
 =--
 
-## In dependent type theory
-
-In [[dependent type theory]], the wide pullback of a family of functions $f:\prod_{i:I} A(i) \to C$ is given by the type 
-
-$$\sum_{y:C} \prod_{i:I} \sum_{x:A(i)} f(i, x) =_C y$$
-
-Since dependent type theory is the [[internal logic]] of [[locally cartesian closed (infinity,1)-categories]], this implies that any locally cartesian closed (infinity,1)-category with a [[terminal object]] is [[complete category|complete]]. 
-
 ## Related concepts
 
 * [[connected limit]] 
 
-* [[wide pushout type]]
-
 [[!include notions of pullback -- contents]]
 
+**Analogues in [[dependent type theory]]**:
+
+* [[wide pullback type]]
+
+* [[wide pushout type]]
 
 ## References
 
