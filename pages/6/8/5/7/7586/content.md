@@ -1,6 +1,3 @@
-[[!redirects Pawel Sobocinski]]
-[[!redirects Pawel Sobocinski]]
-
 * [webpage](https://www.ioc.ee/~pawel/)
 
 ## Selected writings
