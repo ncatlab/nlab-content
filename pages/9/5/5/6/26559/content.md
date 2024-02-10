@@ -2996,9 +2996,9 @@ On the other hand, strongly-coupled string theory at large-scale/low-energy is a
 ### B-&RR-Field flux quantization in 10d
  {#RRFieldFluxQuantization}
 
-Considering the [[Gauss law]] of the unbounded [[RR-field]] flux densities (Ex. \ref{MotionOfUnboundedRRFields}, Prop. \ref{SolutionSpaceViaGaussLaw}) as commonly expected in [[massive type IIA supergravity]] and *ignoring* (as commonly done, but see below... for possible justification) the non-linear Bianchi identity (eq:BRRFieldEquationsOfMotion) of the dual B-field flux $H_7$ (whence we now notationally suppress $H_7$ altogether, as usual)
-
-$$
+Recall the [[Gauss law]] of the unbounded [[RR-field]] flux densities (Ex. \ref{MotionOfUnboundedRRFields}, Prop. \ref{SolutionSpaceViaGaussLaw}) as commonly expected in *[[massive type IIA supergravity|massive]]* [[type IIA supergravity]] and *ignoring* (as commonly done, but see below... for possible justification) the non-linear Bianchi identity (eq:BRRFieldEquationsOfMotion) of the dual B-field flux $H_7$ (whence we now notationally suppress $H_7$ altogether, as usual):
+\[
+  \label{SolutionSpaceForUnboundedRRRecalled}
   SolSpace
   \;=\;
   \left\{
@@ -3017,11 +3017,9 @@ $$
       H_3 \wedge F_{2\bullet -2}
     \end{array}
   \right\}
-  \,,
-$$
-
-its admissible flux quantization laws have classifying spaces $\mathcal{A}$ whose $\mathbb{R}$-[Sullivan algebra]] looks as follows:
-
+  \,.
+\]
+Hence the admissible flux quantization laws have classifying spaces $\mathcal{A}$ whose $\mathbb{R}$-[[Sullivan algebra]] looks as follows:
 $$
   CE(\mathfrak{l}\mathcal{A})
   \;=\;
@@ -3057,43 +3055,54 @@ Now it so happens that a space $\mathcal{A}$ with this property is given &lbrack
   \,,
 \]
 
-which we are displaying here in its canonical [[homotopy fiber sequence]] exhibiting it as a $KU_0$-[[fiber bundle]] over $B PU(\athscr{H}) \;\underset{whe}{\simeq}\; B^3 \mathbb{Z}$.
+which we are displaying here in its canonical [[homotopy fiber sequence]] exhibiting it as a $KU_0$-[[fiber bundle]] over $B PU(\mathscr{H}) \;\underset{whe}{\simeq}\; B^3 \mathbb{Z}$.
 
 > To make this result plausible, notice first that one presentation for the K-theory classifying space is [[KU|$KU_0$]] $\simeq \mathbb{Z} \times B \mathrm{U}$, where $B\mathrm{U} \coloneqq \underset{\longrightarrow}{lim}_n B\mathrm{U}(n)$ is the [[direct limit]] over the ordinary [[classifying spaces]] of [[unitary groups]]. By the above examples, this shows that the Sullivan model of $KU_0$ has one generator in every even degree. Second, notice that *another* presentation of $KU_0$, up to [[weak homotopy equivalence]], is as the space of [[Fredholm operators]] on $\mathscr{H}$, on which $\mathrm{U}(\mathscr{H})$ manifestly [[group action|acts]] by [[conjugation]], hence on which the [[quotient group]] [[PU(H)|$PU(\mathscr{H})$]] by the [[circle group|$\mathrm{U}(1)$]]-[[center of a group|center]] still acts [[effective group action|effectively]]. Finally observe that [[PU(H)|$PU(\mathscr{H})$]] $\underset{whe}{\simeq} B \mathrm{U}(1) \simeq B^2 \mathbb{Z}$, whence $B PU(\mathscr{H})  \simeq B^3 \mathbb{Z}$ has as Sullivan model a single closed generator in degree 3.
 
-Accordingly, the generalized [[nonabelian cohomology theory]] classified by $\mathcal{A} \,\equiv\, KU_0 \sslash PU(\mathscr{H})$ decomposes over the [[ordinary cohomology|ordinary]] [[integral cohomology]] in degree 3, with fibers being the *abelian* [[Whitehead-generalized cohomology theory]] of [[topological K-theory]], and as such it may and traditionally is understood as an abelian but *[[twisted cohomology|twisted]]* cohomology theory: *[[twisted topological K-theory]]* &lbrack;[Atiyah & Segal 2004, Def. 3.3](#AtiyahSegal04); [Freed, Hopkins & Teleman 2007, (2.6)](#FreedHopkinsTeleman07); [SS21-Bun, Ex. 4.5.4](#SS21-Bun); [FSS23-Char, Ex. 3.4](#FSS23Char)&rbrack;. Moreover, under this decomposition, the nonabelian character map on (eq:ClassifyingSpaceForTwistedKTheory) is &lbrack;[FSS23-Char, Prop. 10.1](#FSS23Char)&rbrack; the [[twisted Chern character|twisted]] [[Chern character]] (the archetypical example which gives its name to the more general "character map").
+\begin{imagefromfile}
+    "file_name": "GeomPhys-TwistedKtheory.jpg",
+    "float": "right",
+    "width": 290,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Accordingly, the generalized [[nonabelian cohomology theory]] classified by $\mathcal{A} \,\equiv\, KU_0 \sslash PU(\mathscr{H})$ decomposes over the [[ordinary cohomology|ordinary]] [[integral cohomology]] in degree 3, with fibers being the *abelian* [[Whitehead-generalized cohomology]] of [[topological K-theory]], and as such it may and traditionally is understood as an abelian but *[[twisted cohomology|twisted]]* cohomology theory: *[[twisted topological K-theory]]* &lbrack;[Atiyah & Segal 2004, Def. 3.3](#AtiyahSegal04); [Freed, Hopkins & Teleman 2007, (2.6)](#FreedHopkinsTeleman07); [SS21-Bun, Ex. 4.5.4](#SS21-Bun); [FSS23-Char, Ex. 3.4](#FSS23Char)&rbrack;. Moreover, under this decomposition, the nonabelian character map on (eq:ClassifyingSpaceForTwistedKTheory) is &lbrack;[FSS23-Char, Prop. 10.1](#FSS23Char)&rbrack; the [[twisted Chern character|twisted]] [[Chern character]] (the archetypical example which gives its name to the more general "character map").
 
 Therefore, choosing (eq:ClassifyingSpaceForTwistedKTheory) as the flux quantization law for the unbounded RR-fields means to hypothesize/declare that [[RR-field]] flux and hence [[D-brane]] charge is quantized in [[twisted topological K-theory]], with the [[twisted de Rham cohomology]]-classes of the RR-field flux densities just being the image of these K-theory classes under the [[twisted Chern character|twisted]] [[Chern character]]. This is the *[[D-brane charge quantization in topological K-theory|Hypothesis K]]* (our terminology) originally due to [Minasian & Moore 1997](#MinasianMoore97); and [Witten 1998](#Witten98), with further details added by [Freed & Hopkins 2000](#FreedHopkins00); [Bouwknegt & Mathai 2001](#BouwknegtMathai01) and others.
 
 \begin{remark}
 **(comparison to the literature)**
 \linebreak
-The original motivation close to the above logic may be found in the paragraph wrapping p. 9-10 in [Witten 1998](#Witten98). 
+The original motivation close to the above logic via the character map may be found in [Witten 1998](#Witten98), in the paragraph wrapping p. 9-10 . 
 
 When comparing to [Minasian & Moore 1997](#MinasianMoore97) beware that these authors, and the literature following them, take the $\mathbb{R}$-rational D-brane charge to be expressed by the [[Chern character]] *multiplied* with the square root of the [[A-hat genus]] of the [[tangent bundle]] of [[spacetime]]. However, since this term is multiplicatively invertible (being a unit plus a sum of inhomogeneous differential forms which are nilpotent under wedge product), this is not intrinsic to the notion of D-brane charge and may be disregarded for the purpose of charge quantization (cf. [Freed & Hopkins 2000, ftn. 12](#FreedHopkins00)); its role is rather as a technical convenience making the Chern character natural under [[push-forward in generalized cohomology|push-forward]] &lbrack;[Brodzki, Mathai, Rosenberg & Szabo 2008, §2](#BrodzkiMathaiRosenbergSzabo08)&rbrack;.
 \end{remark}
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-DBraneAnnihilation.jpg",
+    "file_name": "GeomPhys-DBraneAnnihilation-240210.jpg",
     "float": "right",
     "width": 340,
     "unit": "px",
     "margin": {
-        "top": -10,
+        "top": -30,
         "bottom": 5,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
-An influential argument why *[[D-brane charge quantization in K-theory|Hypothesis K]]* (eq:ClassifyingSpaceForTwistedKTheory) should be singled out among other compatible choices of RR-field flux quantization was the observation by [Witten 1998, §3](#Witten98) that the [[equivalence relation]] on [[virtual vector bundles]] which characterizes [[topological K-theory]] $KU_0(X)$ on [[compact Hausdorff spaces]] (see [there](topological+K-theory#KGroupByGrothendieckGroup)) plausibly mimics the expected mechanism ("[[Sen's conjecture]]") of [[D-brane]]/[[anti D-brane]]-annihilation by [[tachyon condensation]], by which [[isomorphism|isomorphic]] but opposite [[Chan-Paton bundles]] on the [[worldvolume]] of [[D-branes]] should annihilate for [[coincident brane|coincident]] [[D-branes]].
+An influential argument why *[[D-brane charge quantization in K-theory|Hypothesis K]]* (eq:ClassifyingSpaceForTwistedKTheory) should be singled out among other compatible choices of RR-field flux quantization was the observation by [Witten 1998, §3](#Witten98) that the [[equivalence relation]] on [[virtual vector bundles]] which characterizes [[topological K-theory]] $KU_0(X)$ on [[compact Hausdorff spaces]] (see [there](topological+K-theory#KGroupByGrothendieckGroup)) plausibly mimics the expected mechanism ("[[Sen's conjecture]]") of [[D-brane]]/[[anti D-brane]]-annihilation via [[tachyon condensation]], by which [[isomorphism|isomorphic]] but opposite [[Chan-Paton bundles]] on the [[worldvolume]] of [[coincident brane|coincident]] [[D-branes]] should mutually annihilate.
 
-> Beware that this is a heuristic argument: There is still no string-theoretic computation which actually verifies this intuition &lbrack;[Erler 2013](D-brane+charge+quantization+in+K-theory#Erler13), [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)&rbrack;. In fact [Witten 1998, ftn. 2](#Witten98) already points out that on closer inspection it is less clear how the picture should work.
+Beware that this is a heuristic argument: There is no string-theoretic computation which actually verifies this intuition &lbrack;cf. commentary by [Erler 2013](D-brane+charge+quantization+in+K-theory#Erler13), [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)&rbrack;. In fact [Witten 1998, ftn. 2](#Witten98) already points out that on closer inspection it is less clear how the picture should work.
 
+This seems noteworthy in view of the fact that the starting point (eq:SolutionSpaceForUnboundedRRRecalled) of *Hypothesis K* is a little shaky (as discussed after Ex. \ref{MotionOfCoupledBRRFields}): There seems to be room to speculate that *Hypothesis K* will have to receive corrections. This motivates having a closer look at the flux quantization of the M-theoretic avatar of the RR-fields: The C-field.
 
-
-
-(...)
 
 
 \linebreak
@@ -3166,10 +3175,10 @@ Recall again that, besides these "evident" choices, there are an infinitude of a
 
 **DFM flux-quantization.**
 
-If one takes the point of view that a higher $\mathrm{U}(1)$-flux quantization law as in Ex. \ref{HigherCircleGaugePotentials} is the most natural starting point, which naively would demand $G_4$ to be quantized in integral 4-cohomology with classifying space $B^4 \mathbb{Z} \equiv K(\mathbb{Z}, 4)$, then one is naturally led to consider the deformation of this situation which just adds-on the condition that the [[cup product|cup-square]] of this 4-class be trivialized:
+If one takes the point of view that a higher $\mathrm{U}(1)$-flux quantization law as in Ex. \ref{HigherCircleGaugePotentials} is the most natural starting point, which naively would demand $G_4$ to be quantized in integral 4-cohomology with classifying space $B^4 \mathbb{Z} \equiv K(\mathbb{Z}, 4)$, then one is naturally led to consider the deformation of this situation which just adds-on the condition that half the [[cup product|cup-square]] of this 4-class be trivialized in [[rational cohomology]]:
 
 \begin{imagefromfile}
-    "file_name": "GeomPhys-CupSquareClassifying.jpg",
+    "file_name": "GeomPhys-CupSquareClassifying-240210.jpg",
     "float": "right",
     "width": 460,
     "unit": "px",
@@ -3182,12 +3191,12 @@ If one takes the point of view that a higher $\mathrm{U}(1)$-flux quantization l
 \end{imagefromfile}
 
 
-In terms of [[classifying spaces]] this means to pass to the [[homotopy fiber]], here to be denoted $\mathcal{A}_{{}_{DFM}}$, of the map that classifies the [[cup product|cup-square]] [[cohomology operation]] on [[integral cohomology|integral 4-cohomology]], which indeed has the required Sullivan model, as shown
+In terms of [[classifying spaces]] this means to pass to the [[homotopy fiber]], here to be denoted $\mathcal{A}_{{}_{DFM}}$, of the map that classifies (minus) half the [[cup product|cup-square]] [[cohomology operation]] on [[integral cohomology|integral 4-cohomology]]. This has the required Sullivan model, as shown
 (these kinds of computations are reviewed in [FSS23-Char, §1, §5](#FSS23)):
 
 \[\label{HomotopyFiberOfCupSquare}\]
 \begin{imagefromfile}
-    "file_name": "GeomPhys-TheDFMModel.jpg",
+    "file_name": "GeomPhys-TheDFMModel-240210.jpg",
     "width": 800,
     "unit": "px",
     "margin": {
@@ -3199,14 +3208,10 @@ In terms of [[classifying spaces]] this means to pass to the [[homotopy fiber]],
 \end{imagefromfile}
 
 
-This flux quantization law is essentially that considered in [Diaconescu, Freed & Moore 2003](#DiaconescuFreedMoore03), when specialized to the case where [[first fractional Pontrjagin class|$\tfrac{1}{2}p_1[T X^d]$]] is [[even number|even]] and [[I8|$I_8[T X^d]$]] vanishes -- the expected contributions of these terms are adjoined "by hand" by these authors.
+This flux quantization law is essentially that considered in 
+[Diaconescu, Freed & Moore 2003](#DiaconescuFreedMoore03), when specialized to the case where [[first fractional Pontrjagin class|$\tfrac{1}{2}p_1[T X^d]$]] is [[even number|even]] (the desired half-integral shift by $\tfrac{1}{2}\big(\tfrac{1}{2}p_1\big)$ is essentially added "by hand" by these authors and thus falls out of the systematics of flux quantization as discussed here).
 
-Notice that:
-
-* In (eq:HomotopyFiberOfCupSquare) we have inserted a minus sign in front of the cup square and a factor of 2 in front of the generator $g_7$ in order to match the model to the physics convention in (eq:CFieldEquationsOfMotion), cf. [DFM08, §8](#DiaconescuFreedMoore03).
-
-
-* While the DFM-model manifestly enforces integral charges of singular [[M5-branes]], the charge of the singular [[M2-branes]] ("[[Page charge]]") is not generally quantized in this model &lbrack;[Moore 2004, §5](#Moore04)&rbrack;.
+While this DFM-model manifestly enforces quantization of charges of singular [[M5-branes]], it is not so clear why the charge of the singular [[M2-branes]] ("[[Page charge]]") would be quantized in this model (but see the claim by [Moore 2004, §5](#Moore04)).
 
 
 
