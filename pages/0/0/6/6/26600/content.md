@@ -76,7 +76,7 @@ This is an example of the hubs-and-spokes construction of [[higher inductive typ
 
 * The [[positive type|positive]] [[dependent sum type]] of a family of types $B(x)$ indexed by $x:A$ is the dependent pushout type of the family of unique functions from the [[empty type]] to each $B(x)$. 
 
-* The [[union]] of a family of [[subtypes]] of a type $A$ is given by the dependent pushout type of the [[wide pullback]] of the [[embedding of types|embeddings]] into $A$. 
+* The [[union]] of a family of [[subtypes]] of a type $A$ is given by the dependent pushout of the [[dependent pullback]] of the [[embedding of types|embeddings]] into $A$. 
 
 * Binary [[pushout types]] are boolean-indexed dependent pushout types. 
 
@@ -85,11 +85,33 @@ This is an example of the hubs-and-spokes construction of [[higher inductive typ
 ## Related concepts
 
 * [[dependent sum type]]
+* [[dependent pullback type]]
 * [[pushout type]]
 * [[wide pushout]]
+
+[[!redirects dependent pushout]]
+[[!redirects dependent pushouts]]
+
+[[!redirects dependent cofiber coproduct]]
+[[!redirects dependent cofiber coproducts]]
+
+[[!redirects dependent cofibre coproduct]]
+[[!redirects dependent cofibre coproducts]]
 
 [[!redirects dependent pushout type]]
 [[!redirects dependent pushout types]]
 
+[[!redirects dependent cofiber coproduct type]]
+[[!redirects dependent cofiber coproduct types]]
+
+[[!redirects dependent cofibre coproduct type]]
+[[!redirects dependent cofibre coproduct types]]
+
 [[!redirects wide pushout type]]
 [[!redirects wide pushout types]]
+
+[[!redirects wide cofiber coproduct type]]
+[[!redirects wide cofiber coproduct types]]
+
+[[!redirects wide cofibre coproduct type]]
+[[!redirects wide cofibre coproduct types]]
