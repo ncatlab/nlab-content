@@ -828,6 +828,7 @@ $$\pi_A(x) \circ u_C = f(x)$$
 
 * [[dependent product]]
 * [[dependent sum type]]
+* [[dependent pullback type]]
 * [[function type]]
 * [[dependent sequence type]]
 * [[dependent extension type]]
