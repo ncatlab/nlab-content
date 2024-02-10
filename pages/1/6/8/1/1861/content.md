@@ -827,7 +827,7 @@ Now
 
 Original articles:
 
-* {#Borsuk36} [[Karol Borsuk]], _Sur les groupes des classes de transformations continues_, CR Acad. Sci. Paris 202.1400-1403 (1936)
+* {#Borsuk36} [[Karol Borsuk]], *Sur les groupes des classes de transformations continues*, CR Acad. Sci. Paris **202** 1400-1403 (1936) 2-3 
 
 * {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
  
