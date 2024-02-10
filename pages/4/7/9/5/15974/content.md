@@ -105,7 +105,7 @@ The variant of [Palm opetopic omega-categories](opetopic+omega-category#Definiti
 
 A [[syntax|syntactic]] formalization of [[opetopic omega-categories]] in terms of [[opetopic type theory]] is in 
 
-* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
+* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](https://ncatlab.org/nlab/files/FinsterTypesAndOpetopes2012.pdf))
 
 
 
