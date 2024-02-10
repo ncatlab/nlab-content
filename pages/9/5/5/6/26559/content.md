@@ -3110,7 +3110,7 @@ This seems noteworthy in view of the fact that the starting point (eq:SolutionSp
 ### C-Field flux quantization in 11d
  {#CFieldFluxQuantizationIn10d}
 
-Given the [[supergravity C-field|C-field]]'s [[Gauss law]] (Ex. \ref{MotionOfSupergravityCField}, Prop. \ref{SolutionSpaceViaGaussLaw}):
+Recalling the [[supergravity C-field|C-field]]'s [[Gauss law]] (Ex. \ref{MotionOfSupergravityCField}, Prop. \ref{SolutionSpaceViaGaussLaw}):
 
 $$
   SolSpace 
