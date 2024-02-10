@@ -127,9 +127,9 @@ In relation to the [[Hopf WZ term]] and [[Page charge]]:
 * {#FSS19WZ} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
-On [[Cohomotopy]] and [[Hypothesis H]]:
+On [[differential cohomotopy|differential]] [[Cohomotopy]] and [[Hypothesis H]]:
 
-* {#GS20} [[Daniel Grady]], [[Hisham Sati]], _Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers_ ([arXiv:2001.07640](https://arxiv.org/abs/2001.07640))
+* [[Daniel Grady]], [[Hisham Sati]], *Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers*, Journal of Geometry and Physics **165** (2021) 104203 &lbrack;[arXiv:2001.07640](https://arxiv.org/abs/2001.07640), [doi:10.1016/j.geomphys.2021.104203](https://doi.org/10.1016/j.geomphys.2021.104203)&rbrack;
 
 On [[U-duality]] (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
 
