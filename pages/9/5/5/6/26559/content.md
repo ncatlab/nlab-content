@@ -3003,11 +3003,11 @@ Recall the [[Gauss law]] of the unbounded [[RR-field]] flux densities (Ex. \ref{
   \;=\;
   \left\{
     \begin{array}{l}
-      H_3 \,\in\, \Omega^3_{dR}(X^d)
+      H_3 \,\in\, \Omega^3_{dR}(X^9)
       \\
       F_{2\bullet}
       \,\in\,
-      \Omega^{2\bullet}_{dR}(X^d)
+      \Omega^{2\bullet}_{dR}(X^9)
     \end{array}
     \;\text{s.t.}\;
     \begin{array}{l}
@@ -3118,9 +3118,9 @@ $$
   \left\{
   \;
   \begin{array}{l}
-    B_4 \,\in\, \Omega^4_{dR}(X^d)
+    B_4 \,\in\, \Omega^4_{dR}(X^{10})
     \\
-    B_7 \,\in\, \Omega^7_{dR}(X^d)
+    B_7 \,\in\, \Omega^7_{dR}(X^{10})
   \end{array}
   \;\;\;
   \text{s.t.}
@@ -3223,6 +3223,8 @@ While this DFM-model manifestly enforces quantization of charges of singular [[M
 Another perspective is to regard the baseline of all flux quantization to be that classified by the *point* $\mathcal{A}_0 = \ast$ (for the entirely trivial higher gauge theory) and to obtain non-trivial classifying spaces from this maximally unbiased starting point by iterated [[cell attachment]] in the sense of [[CW-complexes]].
 
 The *minimal* choice of C-field flux quantization in this sense, requiring the minimum number 1 of [[cell attachments]], is to take $\mathcal{A}_{{}_{FSS}} \,\equiv\, S^4$ to be the ([[homotopy type]] of) the [[4-sphere]] (which is a valid choice of C-field flux quantization, by the examples explained [above](#TotalFluxInNonabelianDeRhamCohomology)).
+
+Since the generalized [[nonabelian cohomology theory]] classified by the ([[homotop types]] of) [[n-spheres]] is known as *[[Cohomotopy]]* (being the [[formal dual]] to the "nonabelian homology theory" given by forming [[homotopy groups]]).
 
 
 (...)
