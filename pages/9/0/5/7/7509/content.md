@@ -268,6 +268,8 @@ This corresponds to the positive dependent sum types.
 
 * [[dependent product type]]
 
+* [[dependent pushout type]]
+
 ## References
 
 A textbook account could be found in section 4.6 of:
