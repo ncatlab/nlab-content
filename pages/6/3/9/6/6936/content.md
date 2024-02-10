@@ -219,6 +219,8 @@ A definition of the set of [[integers]] as a higher inductive type.
 
 * [[Rezk completion]]
 
+* [[dependent pushout type]]
+
 ## Semantics
 See ([Lumsdaine-Shulman17](#LumsdaineShulman17)).
 
