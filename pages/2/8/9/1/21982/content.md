@@ -143,15 +143,15 @@ In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-b
 
 {#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted in
 
-* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.5.2 and 4.6.5 of  _Triples, Fluxes, and Strings_, Adv. Theor. Math. Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.5.2 and 4.6.5 of  *Triples, Fluxes, and Strings*, Adv. Theor. Math. Phys. **4** (2002) 995-1186 \[<a href="https://arxiv.org/abs/hep-th/0103170">arXiv:hep-th/0103170</a>, [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/atmp/2000/0004/0005/ATMP-2000-0004-0005-a001.pdf)\]
 
-* {#Evslin06} [[Jarah Evslin]], section 8 of: _What Does(n't) K-theory Classify?_, Second Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328))
+* {#Evslin06} [[Jarah Evslin]], section 8 of: *What Does(n't) K-theory Classify?*, Second Modave Summer School in Mathematical Physics \[<a href="https://arxiv.org/abs/hep-th/0610328">arXiv:hep-th/0610328</a>\]
 
 In particular, actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed some subtleties:
 
-* {#FredenhagenQuella05} [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP 0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
+* {#FredenhagenQuella05} [[Stefan Fredenhagen]], [[Thomas Quella]], *Generalised permutation branes*, JHEP 0511:004 (2005) \[<a href="https://arxiv.org/abs/hep-th/0509153">arXiv:hep-th/0509153</a>, <a href="https://iopscience.iop.org/article/10.1088/1126-6708/2005/11/004">doi:10.1088/1126-6708/2005/11/004</a>\]
 
-  > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory.
+  > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory. \[...\]  it is fair to say that a satisfactory answer is still missing.
 
 
 The closest available towards an actual check of the argument for K-theory via [[Sen's conjecture|open superstring tachyon condensation]] ([Witten 98, Section 3](#Witten98)) seems to be
