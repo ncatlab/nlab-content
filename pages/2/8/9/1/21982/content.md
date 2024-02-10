@@ -151,7 +151,7 @@ In particular, actual checks of the proposal that D-brane charge is given by K-t
 
 The closest available towards an actual check of the argument for K-theory via [[Sen's conjecture|open superstring tachyon condensation]] ([Witten 98, Section 3](#Witten98)) seems to be
 
-* {#Erler13} [[Theodore Erler]], _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 ([arXiv:1308.4400](https://arxiv.org/abs/1308.4400))
+* {#Erler13} [[Theodore Erler]], _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 \[<a href="https://doi.org/10.1007/JHEP11(2013)007">doi:10.1007/JHEP11(2013)007</a>, [arXiv:1308.4400](https://arxiv.org/abs/1308.4400)\]
 
 which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)) with:
 
