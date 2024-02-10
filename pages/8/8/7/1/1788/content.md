@@ -67,6 +67,8 @@ $$
   \end{array}
 $$
 
+[[GeomPhys-TwistedKtheory.jpg:file]]
+
 [[GeomPhys-DBraneAnnihilation.jpg:file]]
 
 [[GeomPhys-TheDFMModel-240210.jpg:file]]
