@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[torsion subgroup|torsion]] in the [[D-brane charge quantization in topological K-theory]]:
+
+* [[Volker Braun]], *K-Theory Torsion* &lbrack;<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>&rbrack;
+
+
 Computation of the [[twisted ad-equivariant K-theory]]-groups for all [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[simple Lie groups]]:
 
 * [[Volker Braun]], _Twisted K-Theory of Lie Groups_, JHEP 0403 (2004) 029 ([arXiv:hep-th/0305178](https://arxiv.org/abs/hep-th/0305178))
@@ -24,7 +29,7 @@ On [[duality in string theory|duality]] of [[M-theory on G2-manifolds]] with [[h
 
 
 
-## Related $n$Lab pages
+## Related pages
 
 * [[string phenomenology]]
 
