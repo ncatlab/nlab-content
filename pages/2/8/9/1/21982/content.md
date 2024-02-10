@@ -109,11 +109,16 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
 
-See also for instance
+Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in Ktheory
 
-* [[Ilka Brunner]], [[Jacques Distler]], _Torsion D-Branes in Nongeometrical Phases_ ([arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018))
+* [[Volker Braun]], *K-Theory Torsion* &lbrack;<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>&rbrack;
 
-Discussion of D-branes in [[KK-theory]] is reviewed in
+* [[Ilka Brunner]], [[Jacques Distler]], *Torsion D-Branes in Nongeometrical Phases*, Adv. Theor. Math. Phys. **5** (2002) 265-309 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a3">doi:10.4310/ATMP.2001.v5.n2.a3</a>, [arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018)\]
+
+* [[Ilka Brunner]], [[Jacques Distler]], Rahul Mahajan, *Return of the Torsion D-Branes*, Adv. Theor. Math. Phys. **5** (2002) 311-352 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a4">doi:10.4310/ATMP.2001.v5.n2.a4</a>, [arXiv:hep-th/0106262](https://arxiv.org/abs/hep-th/0106262)\]
+
+
+Review of D-branes charge seen in [[KK-theory]]:
 
 * {#Szabo} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
  
