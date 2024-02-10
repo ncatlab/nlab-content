@@ -13,7 +13,7 @@
 
 ## Definition
 
-A __wide pullback__ in a [[category]] $\mathcal{C}$ is a [[product]] (of arbitrary [[cardinality]]) in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  In terms of $\mathcal{C}$, this can be expressed as a [[limit]] over a category obtained from a [[discrete category]] by adjoining a [[terminal object]].
+A **wide pullback** or **wide fiber product** or **wide fibre product** in a [[category]] $\mathcal{C}$ is a [[product]] (of arbitrary [[cardinality]]) in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  In terms of $\mathcal{C}$, this can be expressed as a [[limit]] over a category obtained from a [[discrete category]] by adjoining a [[terminal object]].
 
 Yet more explicitly, the wide pullback of a family of morphisms $f_i\colon A_i \to C$ (a **[[wide cospan]]**) is an object $P$ equipped with projection $p_i\colon P\to A_i$ such that $f_i p_i$ is independent of $i$, and which is universal with this property.
 
@@ -75,6 +75,12 @@ Wide pullbacks are considered under the term *fibred product* in:
 
 [[!redirects wide pullback]]
 [[!redirects wide pullbacks]]
+
+[[!redirects wide fiber product]]
+[[!redirects wide fiber products]]
+
+[[!redirects wide fibre product]]
+[[!redirects wide fibre products]]
 
 [[!redirects wide pullback type]]
 [[!redirects wide pullback types]]
