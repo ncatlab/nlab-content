@@ -35,9 +35,13 @@ On [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * {#BrunnerKarch97} [[Ilka Brunner]], [[Andreas Karch]], _Branes at Orbifolds versus Hanany Witten in Six Dimensions_, JHEP 9803:003, 1998 ([arXiv:hep-th/9712143](https://arxiv.org/abs/hep-th/9712143))
 
-On [[D-branes]] in [[non-geometric vacua]]:
 
-* [[Ilka Brunner]], [[Jacques Distler]], _Torsion D-Branes in Nongeometrical Phases_ ([arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018))
+On [[torsion subgroup|torsion]] in the [[D-brane charge quantization in topological K-theory]] related to [[non-geometric vacua]]:
+
+* [[Ilka Brunner]], [[Jacques Distler]], *Torsion D-Branes in Nongeometrical Phases*, Adv. Theor. Math. Phys. **5** (2002) 265-309 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a3">doi:10.4310/ATMP.2001.v5.n2.a3</a>, [arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018)\]
+
+* [[Ilka Brunner]], [[Jacques Distler]], Rahul Mahajan, *Return of the Torsion D-Branes*, Adv. Theor. Math. Phys. **5** (2002) 311-352 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a4">doi:10.4310/ATMP.2001.v5.n2.a4</a>, [arXiv:hep-th/0106262](https://arxiv.org/abs/hep-th/0106262)\]
+
 
 Discussion of [[Rozansky-Witten theory|Rozansky-Witten]] [[defect QFT]] as an [[extended TQFT]] via the [[cobordism hypothesis]]:
 
