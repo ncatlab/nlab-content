@@ -16,9 +16,9 @@ and for [[KO]]:
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
-On [[Cohomotopy]] and [[Hypothesis H]]:
+On [[differential cohomotopy|differential]] [[Cohomotopy]] and [[Hypothesis H]]:
 
-* {#GS20} [[Daniel Grady]], [[Hisham Sati]], _Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers_ ([arXiv:2001.07640](https://arxiv.org/abs/2001.07640))
+* [[Daniel Grady]], [[Hisham Sati]], *Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers*, Journal of Geometry and Physics **165** (2021) 104203 &lbrack;[arXiv:2001.07640](https://arxiv.org/abs/2001.07640), [doi:10.1016/j.geomphys.2021.104203](https://doi.org/10.1016/j.geomphys.2021.104203)&rbrack;
 
 
 On [[local field theory|locality]] of [[extended functorial field theory|extended]] [[functorial field theory]]:
