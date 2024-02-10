@@ -69,9 +69,9 @@ $$
 
 [[GeomPhys-DBraneAnnihilation.jpg:file]]
 
-[[GeomPhys-TheDFMModel.jpg:file]]
+[[GeomPhys-TheDFMModel-240210.jpg:file]]
 
-[[GeomPhys-CupSquareClassifying.jpg:file]]
+[[GeomPhys-CupSquareClassifying-240210.jpg:file]]
 
 [[GeomPhys-LocalFluxQuantization.jpg:file]]
 
