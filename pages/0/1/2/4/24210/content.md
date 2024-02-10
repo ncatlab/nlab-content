@@ -345,11 +345,11 @@ Here:
 
 * [[cofiber type]]
 
-* [[wide pushout type]]
-
 ## See also
 
 * [[higher inductive type]]
+
+* [[dependent pushout type]]
 
 * [[pushout]], [[homotopy pushout]]
 
