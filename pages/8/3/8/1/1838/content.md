@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
