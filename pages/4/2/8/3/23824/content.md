@@ -112,7 +112,7 @@ Given a type $A$, the **[[improper subset|improper]] material subtype** on $A$ i
 \end{definition}
 
 \begin{definition}
-Given a type $A$, there is a binary operation $(-)\cap(-):\mathcal{P}(A) \times \mathcal{P}(A) \to \mathcal{P}(A)$ on the power set of $A$ called the **[[intersection]]**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \cap C$ is defined as
+Given a type $A$, there is a binary operation $(-)\cap(-):\mathcal{P}(A) \times \mathcal{P}(A) \to \mathcal{P}(A)$ on the power set of $A$ called the **binary [[intersection]]**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \cap C$ is defined as
 $$(B \cap C)(x) \coloneqq (x \in_A B) \wedge (x \in_A C)$$
 for all $x:A$, where $A \wedge B \coloneqq [A \times B]$ is the [[disjunction]] of two [[types]] and $[T]$ is the propositional truncation of $T$. 
 \end{definition}
@@ -130,7 +130,7 @@ Given a type $A$, the **empty material subtype** on $A$ is the material subtype 
 \end{definition}
 
 \begin{definition}
-Given a type $A$, there is a binary operation $(-)\cup(-):\mathcal{P}(A) \times \mathcal{P}(A) \to \mathcal{P}(A)$ on the power set of $A$ called the **[[union]]**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \cup C$ is defined as
+Given a type $A$, there is a binary operation $(-)\cup(-):\mathcal{P}(A) \times \mathcal{P}(A) \to \mathcal{P}(A)$ on the power set of $A$ called the **binary [[union]]**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \cup C$ is defined as
 $$(B \cup C)(x) \coloneqq (x \in_A B) \vee (x \in_A C)$$
 for all $x:A$, where $A \vee B \coloneqq [A + B]$ is the [[disjunction]] of two [[types]] and $[T]$ is the propositional truncation of $T$. 
 \end{definition}
@@ -179,18 +179,38 @@ Given a type $T$, $T$ is the **improper structural subtype**, with embedding giv
 \end{definition}
 
 \begin{definition}
-Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hookrightarrow T$ and $i_S:S \hookrightarrow T$, the **intersection** of $R$ and $S$ is the dependent sum type
+Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hookrightarrow T$ and $i_S:S \hookrightarrow T$, the **binary intersection** of $R$ and $S$ is the [[pullback]] of the two embeddings into $T$, or equivalently the dependent sum type
 $$R \cap S \coloneqq \sum_{r:R} \sum_{s:S} i_R(r) =_T i_S(s)$$
 \end{definition}
+
+\begin{definition}
+Given a type $T$, an index type $I$, and a family of structural subtypes $(R(i))_{i:I}$ with a family of embeddings $i_R:\prod_{i:I} R(i) \hookrightarrow T$, the **$I$-indexed intersection** of $(R(i))_{i:I}$ is the [[dependent pullback]] of the embeddings into $T$, or equivalently the dependent sum type
+$$\bigcap_{i:I} R(i) \coloneqq \sum_{t:T} \prod_{i:I} \sum_{r:R(i)} i_R(i, r) =_T t$$
+\end{definition}
+
+By definition of [[dependent pullback]], the intersection of a family of structural subsets is a [[wide span]], with dependent function
+
+$$\lambda j:I.\lambda p:\bigcap_{i:I} R(i).\pi_1(\pi_2(p)(j)):\prod_{j:I} \left(\bigcap_{i:I} R(i)\right) \to R(j)$$
 
 \begin{definition}
 Given a type $T$, the [[empty type]] is the **empty structural subtype**, with embedding given by any function from the empty type to $T$. 
 \end{definition}
 
 \begin{definition}
-Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hookrightarrow T$ and $i_S:S \hookrightarrow T$, the **[[union]]** of $R$ and $S$ is the [[pushout type]] 
+Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hookrightarrow T$ and $i_S:S \hookrightarrow T$, the **binary [[union]]** of $R$ and $S$ is the [[pushout type]] 
 $$R \cup S \coloneqq R \sqcup^{R \cap S}_{\pi_1 ; \pi_1' \circ \pi_2} S$$
 where $\pi_1$ and $\pi_2$ are the first and second projection functions for the first dependent sum type and $\pi_1'$ is the first projection function for the second dependent sum type for the intersection as defined above ($\sum_{r:R} \sum_{s:S} i_R(r) =_T i_S(s)$)
+\end{definition}
+
+\begin{definition}
+Given a type $T$, an index type $I$, and a family of structural subtypes $(R(i))_{i:I}$ with a family of embeddings $i_R:\prod_{i:I} R(i) \hookrightarrow T$, the **$I$-indexed union** of $(R(i))_{i:I}$ is the [[dependent pushout]] of the [[dependent pullback]] 
+$$\lambda j.\lambda p.\pi_1(\pi_2(p)(j)):\prod_{j:I} \left(\bigcap_{i:I} R(i)\right) \to R(j)$$
+of the embeddings into $T$, 
+$$\bigcup_{i:I} R(i) \coloneqq \bigsqcup_{i:I}^{\bigcap_{i:I} R(i), \lambda j.\lambda p.\pi_1(\pi_2(p)(j))} R(i)$$
+\end{definition}
+
+\begin{definition}
+Given a type $T$, a **singleton subtype** of $T$ is a [[contractible type]] $S$ with an embedding $i:S \hookrightarrow T$.
 \end{definition}
 
 \begin{definition}
