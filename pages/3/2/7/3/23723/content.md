@@ -63,6 +63,8 @@ Note that this construction is distinct from [[monadic decomposition]], which in
 
 * [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381), [pdf](https://www.math.mcgill.ca/barr/papers/coalgs.pdf), [[Barr-CoalgInAlg.pdf:file]]&rbrack;
 
+* [[Armin Frei]] and [[John L. MacDonald]], _Algebras, coalgebras and cotripleability_, Archiv der Mathematik 22 (1971): 1-6.
+
 * {#Taylor} Paul Taylor's email to the [[categories mailing list]] "monadic completion of adjunctions" ([link](https://github.com/punkdit/categories/blob/26b751bbcbe6765fe447e805629ff6416f4c38b1/www.mta.ca/~cat-dist/catlist/1999/monadic-compl))
 
 * Stefano Kasangian, [[Stephen Lack]], and [[Enrico Vitale]]. _Coalgebras, braidings, and distributive laws_, Theory and Applications of Categories 13.8 (2004): 129-146. ([html](https://www.emis.de/journals/TAC/volumes/13/8/13-08abs.html))
