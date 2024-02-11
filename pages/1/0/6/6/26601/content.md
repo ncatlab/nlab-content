@@ -55,6 +55,11 @@ $$\sum_{y:C} \prod_{i:I} \sum_{x:A(i)} f(i, x) =_C y$$
 
 The type $\sum_{x:A(i)} f(i, x) =_C y$ is the [[fiber type]] of the function $f(i):A(i) \to C$ at the element $y:C$, so this type is also the [[dependent product type|dependent product]] of [[fiber types]], or the **dependent fiber product type** or **dependent fibre product type**. 
 
+In addition, there is a dependent function 
+$$\lambda j.\lambda p.\pi_1(\pi_2(p)(j)):\prod_{j:I} \left(\sum_{y:C} \prod_{i:I} \sum_{x:A(i)} f(i, x) =_C y\right) \to A(j)$$
+
+which shows that the dependent pullback type is a [[wide span]]. 
+
 ## Examples
 
 * The [[dependent product type]] of a family of types $B(x)$ indexed by $x:A$ is the dependent pullback of the family of unique functions from each $B(x)$ to the [[unit type]]. 
