@@ -325,7 +325,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * Enrique Ruiz Hernández, *Another characterization of no-iteration distributive laws*, [arxiv](https://arxiv.org/abs/1910.06531)
 
-
+* Werner Struckmann and Dietmar Wätjen, _A note on the number of distributive laws_, Algebra universalis 21 (1985): 305-306.
 
 On distributive laws for [[relative monads]]:
 
