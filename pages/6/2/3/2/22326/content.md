@@ -23,7 +23,7 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
   (specifically for [[M-theory on G2-manifolds]])
 
-* {#Tsimpis04} [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(\ell^3)$_, JHEP0410:046, 2004 ([arXiv:hep-th/0407271](https://arxiv.org/abs/hep-th/0407271))
+* {#Tsimpis04} [[Dimitrios Tsimpis]], *11D supergravity at $\mathcal{O}(\ell^3)$*, JHEP0410:046 (2004) \[<a href="https://arxiv.org/abs/hep-th/0407271">arXiv:hep-th/0407271</a>, <a href="https://doi.org/10.1088/1126-6708/2004/10/046">doi:10.1088/1126-6708/2004/10/046</a>\]
 
 * {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
 
@@ -35,7 +35,7 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
 * [[Anirban Basu]], _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
 
-* {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
+* {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], *The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity*, Phys. Rev. D **95** 026013 (2017) \[<a href="https://doi.org/10.1103/PhysRevD.95.026013">doi:10.1103/PhysRevD.95.026013</a>, [arXiv:1612.02021](https://arxiv.org/abs/1612.02021)\]
 
 * [[Bertrand Souères]], _Supergravities in Superspace_, Lyon 2018 ([tel:01998725](https://tel.archives-ouvertes.fr/tel-01998725), [pdf](https://tel.archives-ouvertes.fr/tel-01998725/document))
 
