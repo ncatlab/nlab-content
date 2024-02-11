@@ -20,7 +20,7 @@
 
 In [[topology]], the notion of *properness* is that of [[compact topological space|compactness]], but generalized from [[topological spaces]] to [[continuous functions]] between them.
 
-A continuous map $X \to Y$ is proper when “$X$ is compact, relatively to $Y$”.
+A continuous map $X \to Y$ is proper when “$X$ is compact, relative to $Y$”.
 
 ## Definition
 
