@@ -197,6 +197,11 @@ The notion of comma categories was introduced (in order to [characterize](adjoin
 
 * [[F. W. Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University (1963)
 
+* Consolato Pellegrino, _Creazione di limiti nelle categorie comma_, Rivista di Matematica della Università di Parma 3 (1974): 201-204.
+
+* Consolato Pellegrino, _Un teorema di completezza per le categorie comma, sue applicazioni agli n-grafi_, Atti del Seminario Matematico e Fisico dell'Università di Modena 23 (1974): 223-230.
+
+
 Textbook accounts:
 
 * [[Saunders MacLane]], §II.6 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
