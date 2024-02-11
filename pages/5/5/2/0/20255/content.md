@@ -102,7 +102,7 @@ $$
 
 ([Souères-Tsimpis 17, (4.4)](#SoueresTsimpis17))
 
-Beware that this is not the lowest order [[higher curvature correction]]: there is already one at $\mathcal{O}(\ell^3)$, given by $\ell^3 G_4 \wedge \tfrac{1}{2}p_1(R)$ ([Souères-Tsimpis 17, Section 3.2](#SoueresTsimpis17)). Hence the full correction at $\mathcal{O}(\ell^6)$ should be the further modification of (eq:11dSugraBIAtOrder6) to
+Beware that this is not the lowest order [[higher curvature correction]]: there is already one at $\mathcal{O}(\ell^3)$, given by $\ell^3 G_4 \wedge \tfrac{1}{2}p_1(R)$ ([Souères-Tsimpis 17, Section 3.2](#SoueresTsimpis17)). Hence the full correction at $\mathcal{O}(\ell^6)$ should be the further modification of (eq:11dSugraBIAtOrder6) to (cf. [Tsimpis 2004, p. 8](D=11+supergravity#Tsimpis04)):
 
 \[
   \label{11dSugraBIAtOrder6}
@@ -117,7 +117,7 @@ Beware that this is not the lowest order [[higher curvature correction]]: there 
   \big)
   + 
   \ell^6 I_8(R)
-  \,,
+  \,.
 \]
 
 
@@ -246,7 +246,6 @@ For further discussion see
 Derivation from classification of [[higher curvature corrections]] to [[D=11 supergravity]]:
 
 * [[Paul Howe]], [[Dimitrios Tsimpis]], Around (56) in: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129))
-
 
 * {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], Section 4 of: _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
