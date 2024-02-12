@@ -291,7 +291,7 @@ which means that $f(X)$ is connected.
 
 +-- {: .num_example #2}
 ###### Example
-[[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected.
+[[pushout|Wide pushouts]] of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullbacks]]. More memorably: [[connected limit|connected colimits]] of connected spaces are connected.
 =--
 
 +-- {: .num_example #5}
