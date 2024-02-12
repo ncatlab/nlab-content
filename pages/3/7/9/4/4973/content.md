@@ -41,7 +41,7 @@ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \i
 
 * {#TheGluingFibration} The [[gluing fibration]] $(\mathcal{E}/f^*)\to \mathcal{S}$ has a [fibered separating family](separating+family#fibered).
 
-* The exists a $B\in\mathcal{E}$ such that for every $A\in\mathcal{E}$ the 
+* There exists a $B\in\mathcal{E}$ such that for every $A\in\mathcal{E}$ the 
 composite
 
   $$
