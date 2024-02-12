@@ -1,4 +1,12 @@
 
+* hhh
+
+  > References:
+
+  > 1. T. Baumgratz, M. Cramer, M. B. Plenio, *Quantifying Coherence*, Phys. Rev. Lett. **113** 140401 (2014) &lbrack;[arXiv:1311.0275](https://arxiv.org/abs/1311.0275), [doi:10.1103/PhysRevLett.113.140401](https://doi.org/10.1103/PhysRevLett.113.140401)&rbrack;
+  > 2. R. Chandrashekar, P. Manikandan, J. Segar and Tim Byrnes, Physical Review Letters 116, 150504 (2016).
+  > 3. Md. Manirul Ali, Po-Wen Chen, [[Radhakrishnan Chandrashekar|R. Chandrashekar]], Physica A 633, 129436 (2024) &lbrack;[doi:10.1016/j.physa.2023.129436](https://doi.org/10.1016/j.physa.2023.129436)&rbrack;
+
 
 $\twoheadrightarrow$
 
