@@ -257,7 +257,7 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
 * a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a weak equivalence in the [[classical model structure on simplicial sets]] (hence a [[weak homotopy equivalence]] of [[geometric realizations]]);
 
-* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on simplicial sets]] (hence a [[Kan fibration]]);
+* a **strict fibration** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on simplicial sets]] (hence a [[Kan fibration]]);
 
 * a **strict cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
 
