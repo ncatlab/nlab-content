@@ -1790,10 +1790,25 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf.: [arXiv:2305.07720](quantum+circuit+diagram#ACGMMR23)
 
-  > Let $C$ be a [[quantum circuit]] and let $G$ be a set of [[quantum gates]]. A *catalytic embedding* of $C$ over $G$ is a pair $(D,v)$ consisting of a [[quantum state|state]] $v$ and a [[quantum circuit|circuit]] $D$ over $G$ such that for every state $u$ we have $D(u \otimes v) = (C u) \otimes v$.
-Because the state $v$ is left unchanged by the application of $D$, it is known as a *catalyst*. Catalytic embeddings are useful when the circuit $C$ cannot be exactly represented over the gate set $G$. In such cases, one can leverage the catalyst to implement (any number of occurrences of) $C$ using circuits over $G$.
+  > Let $C$ be a [[quantum circuit]] and let $G$ be a set of [[quantum gates]]. A *catalytic embedding* of $C$ over $G$ is a pair $(D,v)$ consisting of a [[quantum state|state]] $v$ and a [[quantum circuit|circuit]] $D$ over $G$ such that for every state $u$ we have $D(u \otimes v) = (C u) \otimes v$. Because the state $v$ is left unchanged by the application of $D$, it is known as a *catalyst*. Catalytic embeddings are useful when the circuit $C$ cannot be exactly represented over the gate set $G$. In such cases, one can leverage the catalyst to implement (any number of occurrences of) $C$ using circuits over $G$.
 
   > In this talk, I will present the theory of catalytic embeddings and discuss applications to the exact and approximate synthesis of quantum circuits.
+
+\linebreak
+
+* 12 Feb 2025
+
+  [[Chandrashekar Radhakrishnan]] (NYU Shanghai):
+
+  **Theory of Quantum Coherence and Its Application in Quantum Synchronization**
+
+  > [[quantum coherence|Coherence]] is a well-known feature of [[quantum systems]]. An information theoretic investigation of quantum coherence was initiated in [1] from a resource theory perspective. In this talk, I will provide an outline of quantifying coherence, the two different forms corresponding to it namely the intrinsic coherence and local coherence, and trade-off relation between these two types of coherence [2]. As an application, I will talk about the role of quantum coherence in the study of quantum synchronization. First, I will give an overview of synchronization. Then considering an [[open quantum system]] comprising of a two-level system interacting with an external environment, I will show how it exhibits phase preference in the long-time limit. While this phase preference, which we identify as quantum phase localization, shows features like Arnold tongue, which is considered as an identifier for quantum synchronization, I present evidence to show that it is not quantum synchronization [3]. Finally, I will discuss the challenges remaining to be addressed in connecting these two related phenomena of quantum phase localization and quantum synchronization.
+ 
+  > References:
+
+  > 1. T. Baumgratz, M. Cramer, M. B. Plenio, *Quantifying Coherence*, Phys. Rev. Lett. **113** 140401 (2014) &lbrack;[arXiv:1311.0275](https://arxiv.org/abs/1311.0275), [doi:10.1103/PhysRevLett.113.140401](https://doi.org/10.1103/PhysRevLett.113.140401)&rbrack;
+  > 2. [[Radhakrishnan Chandrashekar|R. Chandrashekar]], P. Manikandan, J. Segar, [[Tim Byrnes]], *Distribution of quantum coherence in multipartite systems*, Phys. Rev. Lett. **116** 150504 (2016) &lbrack;[arXiv:1602.00286](https://arxiv.org/abs/1602.00286), [doi:10.1103/PhysRevLett.116.150504](https://doi.org/10.1103/PhysRevLett.116.150504)&rbrack;
+  > 3. Md. Manirul Ali, Po-Wen Chen, [[Radhakrishnan Chandrashekar|R. Chandrashekar]], Physica A 633, 129436 (2024) &lbrack;[doi:10.1016/j.physa.2023.129436](https://doi.org/10.1016/j.physa.2023.129436)&rbrack;
 
 
 
