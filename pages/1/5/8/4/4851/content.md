@@ -44,13 +44,13 @@ a *strict 2-adjunction* between them is, equivalently:
     C\big(F(a), c\big) \,\cong\, A\big(a, U(c)\big)
   $$  
 
-  which is [[strict 2-natural transformation|strict 2-natural in $a$ and $c$;
+  which is [[strict 2-natural transformation|strict 2-natural]] in $a$ and $c$;
 
-* a pair of [[strict 2-natural transformations]] of 2-functors: 
+* a pair of [[strict 2-natural transformation|strict 2-natural transformations]] of 2-functors: 
 
-   1. [[adjunction unit]] $\eta \colon Id_A \to U F$, 
+   1. [[adjunction unit]] $\; \eta \colon Id_A \to U F$, 
 
-   1. [[adjunction counit]] $\epsilon \colon F U \to Id_B$, 
+   1. [[adjunction counit]] $\; \epsilon \colon F U \to Id_B$, 
 
 
   satisfying the [[triangle identities]] strictly.  
