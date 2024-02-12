@@ -50,7 +50,7 @@ In weak foundations, we sometimes want to be a little more strict about how a se
 
 In general, a __[[modulus of convergence]]__ may be any function $\alpha$ from the positive rational numbers to the natural numbers such that, for every natural number $n$, there is a positive rational number $\epsilon$ such that $\alpha(\epsilon) \geq n$.
 
-A __[[modulated Cauchy real number]]__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
+A __modulated Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
 $$ {|x_i - x_j|} \leq \epsilon $$
 holds whenever $i,j \geq \alpha(\epsilon)$.  Two modulated Cauchy real numbers $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
 $$ {|x_i - y_i|} \leq \epsilon $$
@@ -58,7 +58,7 @@ holds whenever $i \geq \alpha(\epsilon)$.  Again we can combine these conditions
 $$ {|x_i - y_j|} \leq \epsilon $$
 holds whenever $i,j \geq \alpha(\epsilon)$.
 
-Some variations are often met.  A modulus $\alpha$ may be extended to all rational numbers, although the conditions above can only be required for positive $\epsilon$.  Alternatively, it is enough to define $\alpha$ (and require the conditions) for $\epsilon$ of specific form; common choices are $1/n$ and $1/2^n$ for $n$ a natural number.  (The important criterion is to use a set of positive rational numbers of which zero is a limit point.)
+Some variations are often met.  A modulus $\alpha$ may be extended to all rational numbers, although the conditions above can only be required for positive $\epsilon$.  Alternatively, it is enough to define $\alpha$ (and require the conditions) for $\epsilon$ of specific form; common choices are $1/n$ and $1/2^n$ for $n$ a natural number, which work well with $\alpha(\epsilon) = 1/\epsilon$ and $\alpha(\epsilon) = -\log_2\epsilon$, respectively.  (The important criterion is to use a [[detachable set]] of positive rational numbers of which zero is a limit point; then $\alpha$ can be extended from this set to all positive rational numbers by rounding down.)
 
 It is also possible to fix a specific modulus $\alpha$ ahead of time.  Then we need to treat each index separately, in this way:  An __$\alpha$-regular Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that
 $$ {|x_i - x_j|} \leq \delta + \epsilon $$
@@ -131,7 +131,7 @@ Classically, all of these definitions are equivalent.  In fact, to prove their e
 {#DedekindCauchyEquivalence}
 * Every [[Dedekind real number]] is a [[modulated Cauchy real number]]
 
-* For every [[Dedekind real number]] there exists a signed-digit representation of the real number
+* For every [[Dedekind real number]] there exists a signed-digit [[radix representation]] of the real number
 
 * For every [[Dedekind real number]] there exists a [[locator]]
 
@@ -167,9 +167,9 @@ Every classical Cauchy real number is modulated, and any two equal Cauchy real n
 Every multivalued Cauchy real number is equal (as a multivalued Cauchy real number) to some classical Cauchy real number, and two classical Cauchy real numbers are equal if they are equal as multivalued Cauchy real numbers.
 =--
 
-Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without [[weak countable choice]], the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function sets]], whereas multivalued Cauchy reals  require [[fullness]] and the Dedekind reals require [[powersets]] for their definitions.
+Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without [[excluded middle]] or [[countable choice]], the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function sets]], whereas multivalued Cauchy reals  require [[fullness]] and the Dedekind reals require [[powersets]] for their definitions.
 
-On the other hand, even the (modulated) Cauchy real numbers are not necessarily Cauchy complete, i.e. a Cauchy sequence (even a modulated one) of Cauchy real numbers need not converge to another Cauchy real number (though it always does converge to a Dedekind real number, since the Dedekind real numbers *are* always Cauchy complete).  The problem is that without countable choice, we cannot lift a (modulated) Cauchy sequence of (modulated Cauchy) real numbers to a Cauchy sequence of Cauchy sequences in order to "diagonalize" it; a countermodel is constructed by [Lubarsky](#Lubarsky).
+On the other hand, even the (modulated) Cauchy real numbers are not necessarily Cauchy complete, i.e. a Cauchy sequence (even a modulated one) of Cauchy real numbers need not converge to another Cauchy real number (though it always does converge to a Dedekind real number, since the Dedekind real numbers *are* always Cauchy complete).  The problem is that without enough countable choice, we cannot lift a (modulated) Cauchy sequence of (modulated Cauchy) real numbers to a Cauchy sequence of Cauchy sequences in order to "diagonalize" it; a countermodel is constructed by [Lubarsky](#Lubarsky).
 
 For non-modulated Cauchy sequences and reals, there are additional problems even if we assume representatives are already chosen.  A modulated Cauchy sequence of modulated Cauchy sequences does converge to a modulated Cauchy sequence.  Moreover, a *modulated* Cauchy sequence of *classical* Cauchy sequences, and a *classical* Cauchy sequence of *modulated* Cauchy sequences, both necessarily converge to a *classical* Cauchy sequence.  But the results need not be modulated, and a classical Cauchy sequence of classical Cauchy sequences need not converge to a classical Cauchy sequence.  In fact, [Lubarsky](#Lubarsky) shows that:
 
@@ -180,6 +180,7 @@ For non-modulated Cauchy sequences and reals, there are additional problems even
 * The generic modulated Cauchy sequence of classical Cauchy sequences, in the classifying topos of such, does not converge to a modulated Cauchy sequence.
 
 (Actually, Lubarsky writes using [[Heyting-valued sets]] on topological spaces rather than classifying toposes of propositional [[geometric theories]], but it seems almost certain to me that his results can be rephrased as the above.)
+
 
 ### Using locators
 
@@ -211,15 +212,18 @@ In addition, in [[constructive mathematics]], the Cauchy real numbers $\mathbb{R
 $$\mathbb{R}^\mathcal{L} = \bigcup_{x \in \mathbb{R}_D} \mathrm{locator}(x)$$ 
 which have as [[structure]] a [[locator]]. That the two notions coincide is equivalent to the [[WLPO]], and is not provable in general. 
 
+
 ## Algebraic closure
 
 The [[algebraic closure]] of the modulated Cauchy real numbers is the modulated Cauchy [[complex numbers]]; i.e. the [[fundamental theorem of algebra]] is true for the modulated Cauchy real numbers. 
+
 
 ## Generalisations
 
 Although the notion of [[metric space]] doesn\'t make sense until we know what real numbers are, once we have these, we can recognise that the rational numbers form a metric space $\mathbb{Q}$ and the real numbers were constructed from them in a way that makes reference only to the metric-space structure of $\mathbb{Q}$.  Thus, this procedure may be generalised to any metric space to produce its [[complete metric space|completion]].
 
-We can also interpret $\mathbb{Q}$ as a [[uniform space]] or even as a [[Cauchy space]] and define analogous notions of completion for these.  However, these require us (in general) to use generalised Cauchy sequences, that is Cauchy [[nets]], even in classical mathematics.  (Of course, without [[weak countable choice]], we should use nets even for metric spaces.)
+We can also interpret $\mathbb{Q}$ as a [[uniform space]] or even as a [[Cauchy space]] and define analogous notions of completion for these.  However, these require us (in general) to use generalised Cauchy sequences, that is Cauchy [[nets]], even in classical mathematics.  (Of course, without excluded middle or countable choice, we should use nets even for metric spaces.)
+
 
 ## Motivation
 
@@ -233,7 +237,8 @@ Note we may be rounding up or down, regardless of which is nearer.  For example,
 
 Even for Dedekind reals in [[neutral constructive matehmatics]], we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Trying to avoid this can motivate multivalued Cauchy real numbers.
 
-## See also ##
+
+## See also
 
 * [[generalized Cauchy real number]]
 
@@ -282,7 +287,7 @@ See also
 
 * [[Auke Booij]], *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
-A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental theorem of algebra]] for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]
+A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental theorem of algebra]] for the [[modulated Cauchy real numbers]] without countable choice:
 
 * Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
