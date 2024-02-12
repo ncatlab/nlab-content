@@ -128,7 +128,7 @@ Another usual notion of subgraph in combinatorics is[^3] _spanning_ subgraph:
 [^3]: Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
 
 
-this means just any subgraph $(W,F)$ in the above sense with $W=V$. There are three kinds of spanning subgraphs which are the most studied: [[Hamilton circuit]]s[^4], [[perfect matching]]s and [[spanning tree]]s.
+this means just any subgraph $(W,F)$ in the above sense with $W=V$. There are three kinds of spanning subgraphs which are the most studied: [[Hamilton circuit|Hamilton circuits]][^4], [[perfect matching|perfect matchings]] and [[spanning tree|spanning trees]].
 
 [^4]: We here follow A. Bondy's choice of words in [p. 20](#HandbookOfCombinatoricsVol1), both in the decision whether to use _hamiltonian_ or _Hamilton_, and whether to use _cycle_ or _circuit_. 
 The term _circuit_ is less usual than _cycle_ in combinatorics, but less ambiguous, not longer, and more clearly signalling that the combinatorial notion is meant (not one of the many other meanings of _cycle_).
