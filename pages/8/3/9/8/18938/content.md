@@ -93,7 +93,16 @@ Usenet legend [[Alexander Abian]], before branching into speculative physics, ad
 [[!redirects place value notation]]
 
 [[!redirects radix expansion]]
+[[!redirects radix expansions]]
+[[!redirects radix representation]]
+[[!redirects radix representations]]
 [[!redirects expansion in base]]
+[[!redirects expansions in base]]
+[[!redirects representation in base]]
+[[!redirects representations in base]]
 
 [[!redirects decimal notation]]
 [[!redirects decimal expansion]]
+[[!redirects decimal expansions]]
+[[!redirects decimal representation]]
+[[!redirects decimal representations]]
