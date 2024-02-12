@@ -49,6 +49,7 @@ Here we collect some consequences of the countable axiom of choice.
 
 * [[countable unions of countable sets are countable]]
 
+
 ## Variations
 
 ### $COSHEP$ & $DC$
@@ -63,17 +64,25 @@ Sometimes in foundations it is useful to consider a weaker version of countable 
 
 ### Weak countable choice {#WCC}
 
-The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the [[fundamental theorem of algebra]] in the sense that every non-constant complex polynomial has a root; see [Bridges et al (1998)](#BRS). 
+The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the [[fundamental theorem of algebra]] in the sense that every non-constant complex polynomial has a root; see [Bridges et al (1998)](#BRS).
+
+
+### Another weak countable choice {#ACN2}
+
+An axiom variously called $AC_{weak}$ and $AC_{N2}$ is countable choice for subsets of $\{0,1\}$; that is, every $\mathbb{N}$-indexed sequence of inhabited subsets of $\{0,1\}$ has a choice function.  Like $WCC$ above, this also follows from either $CC$ or excluded middle.  It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]].  See [Saving et al (2021)](#Saving2021).
+
 
 ### Very weak countable choice
 
 An even weaker form of countable choice was proposed by [Martin Escardo](#EscardoCN); it states that any surjection of the form $A \sqcup (\mathbf{N}\times B) \to \mathbf{N}$ has a section, where $A\to \mathbf{N}$ is a [[decidable subset]] and $B$ is an arbitrary set with $\mathbf{N}\times B \to \mathbf{N}$ the projection.  This follows from WCC and also from the [[limited principle of omniscience]]; see the [constructivenews discussion](#EscardoCN).
+
 
 ### Topos violating the CAC
 
 One easy example is the category $Sh([0,1])$, the sheaves on the unit interval, since in that topos the [[real numbers object#classical_dedekind_real_numbers|Dedekind real numbers]] and the [[real numbers object#cauchy_real_numbers|Cauchy real numbers]] are not isomorphic, and this is a consequence of the internal countable choice.
 
 Discussion [here](https://mathoverflow.net/questions/79807/example-of-a-topos-that-violates-countable-choice). 
+
 
 ### In higher category theory
 
@@ -94,6 +103,7 @@ There are also "internal" versions of these axioms.
 
 * We can also replace the $(-1)$-truncation by the assertion of $k$-connectedness, obtaining the **axiom of countable $k$-connected choice**.
 
+
 ## References
 
 * {#BRS} [[Fred Richman]], [[Douglas Bridges]], Peter Schuster, *A weak countable choice principle*. Proceedings of the American Mathematical Society 128(9):2749-2752, March 2000. &lbrack;[doi:10.1090/S0002-9939-00-05327-2](http://dx.doi.org/10.1090/S0002-9939-00-05327-2)&rbrack;
@@ -102,9 +112,12 @@ There are also "internal" versions of these axioms.
 
 * {#RichmanFTA} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
+* {#Saving2021} Mark Saving et al (2021). *A weak form of countable choice*. [MathOverflow](https://mathoverflow.net/questions/385805/a-weak-form-of-countable-choice/).
+
 See also 
 
 * Wikipedia, _[Axiom of countable choice](https://en.wikipedia.org/wiki/Axiom_of_countable_choice)_
+
 
 category: foundational axiom
 
