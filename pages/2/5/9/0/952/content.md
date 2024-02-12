@@ -38,6 +38,7 @@ The notion of [[cyclic set]] is intermediate between symmetric sets and simplici
 
 * [[Denis-Charles Cisinski]], _Les préfaisceaux comme modèles des types d'homotopie_, Astérisque 308, 2006 ([doi:10.24033/ast.715](https://smf.emath.fr/publications/les-prefaisceaux-comme-modeles-des-types-dhomotopie), [NUMDAM](http://www.numdam.org/item/AST_2006__308__R1_0/))
 
+* Eric Ramón Antokoletz, _An Alternative Presentation of the Symmetric-Simplicial Category_, arXiv:1012.1587 (2010). ([abstract](https://arxiv.org/abs/1012.1587))
 
 [[!redirects symmetric simplicial set]]
 [[!redirects symmetric simplicial sets]]
