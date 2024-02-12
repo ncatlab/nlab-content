@@ -72,6 +72,14 @@ Given a stratification $f$ on $X$, there is a map $X \to \mathrm{Exit}(f)$ mappi
 
 The characteristic map (Rmk. \ref{CharacteristicMap}) need not be [[continuous map|continuous]] in general (unless the stratification is locally finite, see Rmk \ref{ContinuityOfCharacteristicMap} below); it is, however, continuous on the [[preimage]] of any finite [[full functor|full]] subposet of the exit path poset. It is often convenient to construct stratifications by constructing their characteristic map.
 
+\begin{example}\label{CWStratification}
+**(Stratification of CW complexes)**\linebreak
+The following are stratifications of the 1- and 2-spheres:
+[[SphereStratification.jpg:pic]]
+
+In general, a stratification of a CW complex $X$ is obtained by taking the strata to be the $n$-cells of $X$ (for each $n$), but with the $(n-1)$-skeleton $X_{n-1}$ removed.
+\end{example}
+
 \begin{example}\label{PosetStratification}
 **(Poset stratifications)** \linebreak
 Let $X$ be a [[topological space]], $P$ a [[poset]], and $f \colon X \to P$ a [[continuous map]] (in other words, $f$ is a $P$-[[poset-stratified space|stratification of $X$]]). This determines a stratification $\mathrm{c}(f)$ of $X$ (in the sense of Def. \ref{Stratification} above) whose strata are the [[connected components]] of the [[preimages]] $f^{-1}(x)$, $x \in P$. The map $f$ factors uniquely through the characteristic map $\mathrm{c}(f) \colon X \to \mathsf{Exit}(\mathrm{c}(f))$ by a [[conservative functor|conservative]] poset map $\mathsf{Exit}(\mathrm{c}(f)) \to P$. (Such (characteristic,conservative)-factorizations are essentially unique.)
@@ -254,6 +262,10 @@ An earlier paper on exit paths is
 Poset-stratified spaces and the conicality condition, as well as the construction of the fundamental $\infty$-poset of a conical stratification as a quasicategory, first appeared in:
 
 * {#LurieHA} [[Jacob Lurie]], *[[Higher Algebra]]*, 2012, in particular Appendix A ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
+
+Stratified spaces are used to develop a graphical calculus for Gray categories in:
+
+* Benjamin Taylor Hummon, *[Surface Diagrams for Gray-Categories](https://escholarship.org/uc/item/5b24s9cc)*, PhD thesis.
 
 
 [[!redirects stratified space]]
