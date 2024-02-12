@@ -52,6 +52,10 @@ The concept is introduced in the following, where marked 2-limits are called *ca
 
 * [[Adjointness for 2-Categories]]
 
+It was generalised in section 0.2 of:
+
+* [[Robert Blackwell]], _Some existence theorems in the theory of doctrines_, PhD thesis, UNSW Sydney, 1976.
+
 The equivalence to weighted 2-limits is first proven in:
 
 * {#StreetLimitsIndexed} [[Ross Street]], _Limits indexed by category-valued 2-functors_ Journal of Pure and Applied Algebra **8**, Issue 2 (1976) pp 149-181. doi:[10.1016/0022-4049(76)90013-X](https://doi.org/10.1016/0022-4049(76%2990013-X)
