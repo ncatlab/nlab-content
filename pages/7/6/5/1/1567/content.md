@@ -233,7 +233,7 @@ Birkhoff duality does not hold for infinite distributive lattices. However, in t
 
 Posets also give rise to a "free" distributive lattice, which is not the same as their Birkhoff dual. Instead, it is formed by the following procedure: First, take the poset of upsets with the reverse ordering (this is the free finite meet completion). Then form the distributive lattice of finitely generated downsets in that.
 
-In the case that one begins with a discrete poset (i.e., a set) then the number of elements in the resultant free distributive lattice is known as a Dedekind number, which also counts the number of monotone Boolean functions in $n$ variables. Dedekind numbers increase extremely rapidly, and there is no good known closed-form summation to compute them. The first nine (and only known) Dedekind numbers are (starting at $n = 0$): 2, 3, 6, 20, 168, 7581, 7828354, 2414682040998, and 56130437228687557907788; see [OEIS A000372](#A000372).
+In the case that one begins with a discrete poset (i.e., a set) then the number of elements in the resultant free distributive lattice is known as a Dedekind number, which also counts the number of monotone Boolean functions in $n$ variables. Dedekind numbers increase extremely rapidly, and there is no good known closed-form summation to compute them. The first ten (and only known) Dedekind numbers are (starting at $n = 0$): 2, 3, 6, 20, 168, 7581, 7828354, 2414682040998, 56130437228687557907788, and 286386577668298411128469151667598498812366; see [OEIS A000372](#A000372).
 
 ### Categorification
 
