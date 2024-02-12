@@ -71,3 +71,5 @@ Discussion in [[homotopy type theory]]:
 [[!redirects unique up to unique coherent isomorphism]]
 [[!redirects unique up to unique equivalence]]
 [[!redirects unique up to unique coherent equivalence]]
+
+[This article have been translated into spanish by](https://chicksgold.com).
