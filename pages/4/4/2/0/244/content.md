@@ -202,7 +202,7 @@ $$
 
 We recall that an adjacent transposition $[1,n] \rightarrow [1,n]$ where $n \ge 2$ is a permutation $t:[1,n] \rightarrow [1,n]$ such that there exists a $1 \le i \le n-1$ such that: 
 $$
-t(1)=1,..., t(i-1)=i-1, t(i) = i+1, t(i+1) = i, t(i+2)=i+1,.... ,t(n)=n
+t(1)=1,..., t(i-1)=i-1, t(i) = i+1, t(i+1) = i, t(i+2)=i+2,.... ,t(n)=n
 $$
 This $i$ is then unique, and for every $1 \le i \le n-1$, we note $t_{i}$ the associated adjacent transposition.
 
