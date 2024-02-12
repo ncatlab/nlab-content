@@ -32,7 +32,7 @@ According to the [classification of superconformal symmetry](supersymmetry#Class
 
 ...with $(2,0)$-[[supersymmetry]], that contain a [[self-dual higher gauge theory]] whose field configurations are [[connections on a 2-bundle]] (a [[circle n-bundle with connection|circle 2-bundle with connection]] in the abelian case).
 
-In ([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97)) such has been derived, in the abelian case and to low order, as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around the embedding in the [[asymptotic boundary]] of the [[AdS-spacetime]] that is the [[near-horizon geometry]] of the [[black brane|black]] M5-brane.
+This was derived by [Claus, Kallosh & van Proeyen 1997](#ClausKalloshProeyen97), in the abelian case and to low order, as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around the embedding in the [[asymptotic boundary]] of the [[AdS-spacetime]] that is the [[near-horizon geometry]] of the [[black brane|black]] M5-brane.
 
 In accord with this the [AdS7-CFT6](AdS-CFT#AdS7CFT6) correspondence predicts that the nonabelian 6d theory is the corresponding theory for $N$ coincident M5-branes.
 
@@ -124,8 +124,7 @@ The first indication of a 6d theory with a self-dual 2-form field appears in
 
 Derivation of the abelian 6d theory to low order as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around a solution embedding as the asymptotic boundary of the [[AdS-spacetime]] [[near-horizon geometry]] of a [[black brane|black]] 5-brane is due to 
 
-* {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
-
+* {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>, [arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161)&rbrack;
 
 General survey:
 
@@ -197,11 +196,11 @@ Relation to [[BFSS matrix model]] on [[tori]]:
 
 The [[KK-compactification]] specifically of the [[D=6 N=(1,0) SCFT]] to [[D=4 N=1 super Yang-Mills]]:
 
-* Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
+* [[Ibrahima Bah]], [[Christopher Beem]], Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
 * Shlomo S. Razamat, [[Cumrun Vafa]], Gabi Zafrir, _$4d$ $\mathcal{N} = 1$ from $6d (1,0)$_, J. High Energ. Phys. (2017) 2017: 64 ([arXiv:1610.09178](https://arxiv.org/abs/1610.09178))
 
-* Ibrahima Bah, [[Amihay Hanany]], Kazunobu Maruyoshi, Shlomo S. Razamat, Yuji Tachikawa, Gabi Zafrir, _$4d$ $\mathcal{N}=1$ from $6d$ $\mathcal{N}=(1,0)$ on a torus with fluxes_ ([arXiv:1702.04740](https://arxiv.org/abs/1702.04740))
+* [[Ibrahima Bah]], [[Amihay Hanany]], Kazunobu Maruyoshi, Shlomo S. Razamat, Yuji Tachikawa, Gabi Zafrir, _$4d$ $\mathcal{N}=1$ from $6d$ $\mathcal{N}=(1,0)$ on a torus with fluxes_ ([arXiv:1702.04740](https://arxiv.org/abs/1702.04740))
 
 * Hee-Cheol Kim, Shlomo S. Razamat, [[Cumrun Vafa]], Gabi Zafrir, _E-String Theory on Riemann Surfaces_, Fortsch. Phys. ([arXiv:1709.02496](https://arxiv.org/abs/1709.02496))
 
