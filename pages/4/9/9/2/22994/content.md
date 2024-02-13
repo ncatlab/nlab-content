@@ -22,11 +22,13 @@ Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] 
 
 * [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], *2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories*,  J. High Energ. Phys. 2021, 252 (2021) ([arXiv:2009.00138](https://arxiv.org/abs/2009.00138), <a href="https://doi.org/10.1007/JHEP04(2021)252">doi:10.1007/JHEP04(2021)252</a>)
 
-* [[Michele Del Zotto]], [[Kantaro Ohmori]], _2-Group Symmetries of 6D Little String Theories and T-Duality_, Annales Henri Poincaré **22** (2021) 2451–2474  ([arXiv:2009.03489](https://arxiv.org/abs/2009.03489), [doi:10.1007/s00023-021-01018-3)](https://doi.org/10.1007/s00023-021-01018-3))
+* [[Michele Del Zotto]], [[Kantaro Ohmori]], _2-Group Symmetries of 6D Little String Theories and T-Duality_, Annales Henri Poincaré **22** (2021) 2451–2474  \[<a href="https://arxiv.org/abs/2009.03489">arXiv:2009.03489</a>, <a href="https://doi.org/10.1007/s00023-021-01018-3">doi:10.1007/s00023-021-01018-3</a>\]
 
-* {#SS20} [[Hisham Sati]], [[Urs Schreiber]], *The character map in equivariant twistorial Cohomotopy implies the Green-Schwarz mechanism with heterotic M5-branes* ([arXiv:2011.06533](https://arxiv.org/abs/2011.06533))
+* {#SS20} [[Hisham Sati]], [[Urs Schreiber]], *The character map in equivariant twistorial Cohomotopy implies the Green-Schwarz mechanism with heterotic M5-branes* \[<a href="https://arxiv.org/abs/2011.06533">arXiv:2011.06533</a>\]
 
-* [[Yasunori Lee]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], *Matching higher symmetries across Intriligator-Seiberg duality* ([arXiv:2108.05369](https://arxiv.org/abs/2108.05369))
+* [[Hisham Sati]], [[Urs Schreiber]], §2.9 in: *[[schreiber:M/F-Theory as Mf-Theory]]*, Reviews in Mathematical Physics **35** 10 (2023) \[<a href="https://doi.org/10.1142/S0129055X23500289">doi:10.1142/S0129055X23500289</a>, [arXiv:2103.01877](https://arxiv.org/abs/2103.01877)\]
+
+* [[Yasunori Lee]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], *Matching higher symmetries across Intriligator-Seiberg duality*,  J. High Energ. Phys. **2021** 114 (2021) \[<a href="https://arxiv.org/abs/2108.05369">arXiv:2108.05369</a>, <a href="https://doi.org/10.1007/JHEP10(2021)114">doi:10.1007/JHEP10(2021)114</a>\]
 
 * Monica Jinwoo Kang, Sungkyung Kang, *Central extensions of higher groups: Green-Schwarz mechanism and 2-connections* \[<a href="https://arxiv.org/abs/2311.14666">arXiv:2311.14666</a>\]
 
