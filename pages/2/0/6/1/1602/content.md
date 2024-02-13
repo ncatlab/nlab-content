@@ -618,12 +618,12 @@ Review (with an eye towards [[KK-compactification]] to 6d, see also at [[D=6 N=(
 
 * [[Michael Green]], [[John Schwarz]], [[Pete West]], Section 2 of: _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
 
-* [[Augusto Sagnotti]], _A Note on the Green - Schwarz Mechanism in Open - String Theories_, Phys. Lett. B294:196-203, 1992 ([arXiv:hep-th/9210127](https://arxiv.org/abs/hep-th/9210127))
+* [[Augusto Sagnotti]], _A Note on the Green-Schwarz Mechanism in Open-String Theories_, Phys. Lett. B **294** (1992) 196-203 &lbrack;[arXiv:hep-th/9210127](https://arxiv.org/abs/hep-th/9210127)&rbrack;
 
 
 A clear and precise account of what the relevant anomalies are and what the Green-Schwarz mechanism is to cancel them is given in (see also the relevant bits at _[[eta invariant]]_)
 
-* {#Witten99} [[Edward Witten]], section 2.2 of _World-Sheet Corrections Via D-Instantons_, JHEP 0002:030, 2000 ([arXiv:9907041](http://arxiv.org/abs/hep-th/9907041))
+* {#Witten99} [[Edward Witten]], section 2.2 of: _World-Sheet Corrections Via D-Instantons_, JHEP **2000** 02:030 (2000) &lbrack;[arXiv:9907041](http://arxiv.org/abs/hep-th/9907041), [doi:10.1088/1126-6708/2000/02/030](https://doi.org/10.1088/1126-6708/2000/02/030)&rbrack;
 
 Review, broader context and further discussion is given in
 
