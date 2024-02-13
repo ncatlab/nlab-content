@@ -573,7 +573,9 @@ The observation that limits can be constructed from [[products]] and [[equaliser
 
 That, more generally, it suffices to consider only equalisers of [[reflexive pairs]] is due to:
 
-* S. A. Huq and R. Cornu. _A remark on the existence of limits in categories_. Mathematische Nachrichten 55.1‐6 (1973): 223-224. &lbrack;[doi:10.1002/mana.19730550111](https://doi.org/10.1002/mana.19730550111)&rbrack;
+* [[Ernest Manes]], *A triple miscellany: Some aspects of the theory of algebra over a triple*, PhD thesis, Wesleyan University, 1967. &lbrack;[pdf](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1967_manes_triple-miscellany.pdf)&rbrack;
+
+* S. A. Huq and R. Cornu. _A remark on the existence of limits in categories_. Mathematische Nachrichten 55.1‐6 (1973): 223-224. &lbrack; [doi:10.1002/mana.19730550111](https://doi.org/10.1002/mana.19730550111)&rbrack;
 
 Textbook accounts:
 
