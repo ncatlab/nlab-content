@@ -61,7 +61,7 @@ In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux
 
 \linebreak
 
-**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination, also known as the _[[Page charge]]_ (due to [Page 83 (8)](M2-brane#Page83), [Duff-Stelle 91 (43)](M2-brane#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](M2-brane#BaggerLambertMukhiPapageorgakis13)):
+**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination, also known as the _[[Page charge]]_ (due to [Page 1983 (8)](M2-brane#Page83), [Duff & Stelle 1991, (43)](M2-brane#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](M2-brane#BaggerLambertMukhiPapageorgakis13)):
 
 
 
