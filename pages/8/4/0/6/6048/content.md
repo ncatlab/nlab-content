@@ -259,7 +259,7 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 The [[black brane|black]] membrane solution of [[11-dimensional supergravity]] was found in
 
-* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
+* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], *Multi-membrane solutions of $D = 11$ supergravity*, Phys. Lett. B **253** 1-2 (1991) 113-118 &lbrack;[spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>&rbrack;
 
 Its regularity across the [[event horizon]] is due to
 
@@ -267,7 +267,7 @@ Its regularity across the [[event horizon]] is due to
 
 Further discussion of such _[[Freund-Rubin compactifications]]_:
 
-* {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
+* {#Page83} [[Don Page]], *Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity*, Phys. Rev. D **28** 12 (1983) 2976-2982 &lbrack;[spire:14480](http://inspirehep.net/record/14480), [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976)&rbrack;
 
 
 The [[Horava-Witten theory|Horava-Witten]]-[[orientifold]] of the black M2, supposedly yielding the [[black brane|black]] [[heterotic string]] is discussed in
