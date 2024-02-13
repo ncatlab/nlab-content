@@ -28,10 +28,14 @@ On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills th
 
 * {#BeisertFrolovStaudacherTseytlin03} [[Niklas Beisert]], [[Sergey Frolov]], [[Matthias Staudacher]], [[Arkady Tseytlin]], _Precision Spectroscopy of AdS/CFT_, JHEP 0310:037, 2003 ([arXiv:hep-th/0308117](https://arxiv.org/abs/hep-th/0308117))
 
+On defect branes in [[D=4 N=4 SYM]] via [[AdS/CFT]]:
+
+* Hongliang Jiang, [[Arkady A. Tseytlin]], *On co-dimension 2 defect anomalies in $\mathcal{N}=4$ SYM and $(2,0)$ theory via brane probes in AdS/CFT* &lbrack;[arXiv:2402.07881](https://arxiv.org/abs/2402.07881)&rbrack;
 
 
 
-## Related $n$Lab entries
+
+## Related  entries
 
 * [[worldline formalism]], [[beta function]]
 
@@ -42,3 +46,4 @@ On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills th
 category: people
 
 [[!redirects A. Tseytlin]]
+[[!redirects Arkady A. Tseytlin]]
