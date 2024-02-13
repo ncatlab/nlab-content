@@ -71,7 +71,7 @@ Perhaps the most general [[set theory|set-theoretically]] based construction of 
 
 ## References
 
-* [[Max Kelly]], ["A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on"](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=4759448)
+* [[Max Kelly]], ["A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on"](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=4759448) (1980)
 
 * [[Max Kelly]] and [[John Power]], ["Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads"](http://www.sciencedirect.com/science/article/pii/0022404993900928)
 
