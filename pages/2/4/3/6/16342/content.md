@@ -97,6 +97,8 @@ Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric mon
     \,.
   $$
 
+Note that this condition makes sense even if the [[braiding]] $\tau$ is not symmetric, as in a [[braided monoidal category]]. Such a monoid is also called a **braided monoid** in $(\mathcal{C}, \otimes, 1, \tau)$.
+
 A [[homomorphism]] of monoids $(A_1, \mu_1, e_1)\longrightarrow (A_2, \mu_2, f_2)$ is a morphism
 
 $$
@@ -295,4 +297,4 @@ Discussion of the [[opposite categories]] of commutative monoid objects and rega
 [[!redirects commutative monoid objects in a monoidal category]]
 [[!redirects commutative monoid objects in monoidal categories]]
 
-
+[[!redirects braided monoid]]
