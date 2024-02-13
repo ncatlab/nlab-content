@@ -34,7 +34,7 @@ Every commutative monoid has the canonical structure of a [[module]] over the co
 ### In any symmetric monoidal category
 
 
-More generally, the concept makes sense [[internalization|internal]] to any [[symmetric monoidal category]]. See at _[[commutative monoid in a symmetric monoidal category]]_ for details.
+More generally, the concept makes sense [[internalization|internal]] to any [[symmetric monoidal category]] (or even any [[braided monoidal category]]). See at _[[commutative monoid in a symmetric monoidal category]]_ for details.
 
 ### As a 0-truncated object
 
