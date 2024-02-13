@@ -34,7 +34,7 @@ In this [[homotopy theory|homotopy theoretic]]-perspective on $n$-categories the
 Conversely, for concrete computations it is at times convenient to have *less* flexible and more rigid definitions or at least presentations/models of $n$-categories. In as far as these are still suitably equivalent to the general notion one speaks of *[[semi-strict n-categories]]* and much of [[higher category theory]] revolves around identifying and comparing such *rigidifications*. On the other hand, perfectly *[[strict n-categories|strict $n$-categories]]* are typically too rigid to play more than a niche role in [[higher category theory]].
 
 
-Finally, it is sometimes useful to subsume degenerate cases in the general pattern of $n$-categories, such as [[0-categories]] ([[sets]]), [[(0,1)-categories]] ([[posets]]) and even *[[(-1)-categories]]* ([[truth values]]) and *[[(-2)-categories]]* (the [[terminal category]]).
+Finally, it is sometimes useful to subsume degenerate cases in the general pattern of $n$-categories, such as [[0-categories]] ([[sets]]), [[(0,1)-categories]] ([[posets]]) and even *[[(-1)-categories]]* ([[truth values]]) and *[[(-2)-categories]]* (the singleton).
 
 
 ## Categories of $n$-categories 
