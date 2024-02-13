@@ -34,7 +34,7 @@ More generally, one can consider vines from $n$ points to $m$ points. As a resul
 
 ## Definition
 
-What is called the *category of vines* is the [[free construction|free]] [[braided monoidal category|braided]] [[strict monoidal category]] containing a braided monoid (i.e. an [[E2-algebra|$E_2$-algebra]]). It is also the [[PRO|PROB]] for braided monoids.  
+What is called the *category of vines* is the [[free construction|free]] [[braided monoidal category|braided]] [[strict monoidal category]] containing a [[braided monoid]] (i.e. an [[E2-algebra|$E_2$-algebra]]). It is also the [[PRO|PROB]] for braided monoids.  
 
 Concretely:
 
