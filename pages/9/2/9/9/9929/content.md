@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _complex oriented cohomology theory_ is a [[generalized (Eilenberg-Steenrod) cohomology theory]] which is [[orientation in generalized cohomology|oriented]] on all [[complex vector bundles]]. Examples include [[ordinary cohomology]], complex [[topological K-theory]], [[elliptic cohomology]] and [[cobordism cohomology]].
+A _complex oriented cohomology theory_ is a [[Whitehead-generalized cohomology theory]] which is [[orientation in generalized cohomology|oriented]] on all [[complex vector bundles]]. Examples include [[ordinary cohomology]], complex [[topological K-theory]], [[elliptic cohomology]] and [[cobordism cohomology]].
 
 The collection of all complex oriented cohomology theories turns out to be parameterized over the [[moduli stack of formal group laws]]. The [[stratification]] of this stack by the [[height of a formal group|height of formal group]] leads to the stratification of complex oriented cohomology theory by "[[chromatic level]]", a perspective also known as _[[chromatic homotopy theory]]_.
 
