@@ -1032,7 +1032,7 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 
 The description of the [[gauge transformation]]s of the [[supergravity C-field]] is in section 3 of
 
-{#DFM}* E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
+* {#DFM} E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
  
 
 The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential string structures as above was given in 
@@ -1042,24 +1042,21 @@ The local data for the [[∞-Lie algebra valued differential forms]] for the des
 
 The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
 
-* {#FiorenzaSatiSchreiber12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
-
-The 2-group $String^{\mathbf{c}_2}$ and its differential structurs, etc. are discussed in 
-
-* {#FiSaSc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differential $Spin^c$-structures_
- 
+* {#FiorenzaSatiSchreiber12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack; 
 
 A comprehensive discussion including all the formal background and the applications is attempted at
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#dcct} [[Urs Schreiber]], section 4.2 of: _[[schreiber:differential cohomology in a cohesive topos]]_
 
-in section 4.2.
+
+The translation between the [[bundle 2-gerbe]]-picture of [Waldorf](#Waldorf) and the $String$-[[principal 2-bundle]]-piucture of [Sati et al.](#SSSIII), [Fiorenza et al.](#FiorenzaSatiSchreiber12) and [dcct](#dcct) is worked out in some detail in:
+
+* Alessandra Capotosti, *[[From String structures to Spin structures on loop spaces]]*, Ph.D. thesis, Universit&#224; degli Studi Roma Tre, Rome (April 2016) &lbrack;[thesis pdf](http://www.matfis.uniroma3.it/Allegati/Dottorato/TESI/capotosti/PhD%20Thesis%202016%20A%20Capotosti.pdf), [[Capotosti-FromStringStructures.pdf:file]], talk slides: [[Capotosti-FromStringStruc-Slides.pdf:file]]&rbrack;
 
 The relation to [[quantum anomaly]] cancellation in [[heterotic string theory]] has been first discussed in 
 
 * {#Killingback} Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588
  
-
 and given a rigorous treatment in 
 
 * {#Bunke} [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
