@@ -12,7 +12,7 @@ Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §3.7, §3.8 in: *Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory*, Adv. Theor. Math. Phys. **18** (2014) 229-321 \[<a href="https://arxiv.org/abs/1201.5277">arXiv:1201.5277</a>, [euclid:atmp/1414414836](https://projecteuclid.org/journals/advances-in-theoretical-and-mathematical-physics/volume-18/issue-2/Multiple-M5-branes-String-2-connections-and-7d-nonabelian-Chern/atmp/1414414836.full)\]
 
-* {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The moduli 3-stack of the C-field|The $E_8$ moduli 3-stack of the C-field in M-theory]]*, Comm. Math. Phys. **333** 1 (2015) 117-151 ([arXiv:1202.2455](https://arxiv.org/abs/1202.2455))
+* {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The moduli 3-stack of the C-field|The $E_8$ moduli 3-stack of the C-field in M-theory]]*, Comm. Math. Phys. **333** 1 (2015) 117-151 \[<a href="https://arxiv.org/abs/1202.2455">arXiv:1202.2455</a>, [doi:10.1007/s00220-014-2228-1](https://doi.org/10.1007/s00220-014-2228-1)\]
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_,  J. High Energ. Phys. **2019** 184 (2019) ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790), <a href="https://doi.org/10.1007/JHEP02(2019)184">doi:10.1007/JHEP02(2019)184</a>)
 
