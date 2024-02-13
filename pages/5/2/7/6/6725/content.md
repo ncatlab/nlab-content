@@ -194,7 +194,7 @@ Review is in
 
 * [[Paul Townsend]], _Four Lectures on M-Theory_ ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)). 
 
-* {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_, TASI 2001. 2004. 359-407  ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032), [doi:10.1142/9789812702821_0007](https://doi.org/10.1142/9789812702821_0007))
+* {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_, in *Strings, Branes and Extra Dimensions*, TASI 2001, World Scientific (2004) 359-407  &lbrack;[arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032), [doi:10.1142/9789812702821_0007](https://doi.org/10.1142/9789812702821_0007)&rbrack;
 
 * {#Falkowski} [[Adam Falkowski]], section 3 of _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
 
