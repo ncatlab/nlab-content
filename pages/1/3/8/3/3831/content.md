@@ -17,7 +17,14 @@ is given objectwise by addition of integers $n$, and on morphisms it is given by
 
 $$B_m \times B_n \to B_{m+n}$$ 
 
-which may be described as juxtaposition of braids. 
+which may be described as juxtaposition of braids.
+
+$\mathbf{B}$ is also a [[braided monoidal category]], with the braiding $m+n \to n+m$ given by the "$m$-over-$n$" braid:
+
+\begin{imagefromfile}
+        "file_name": "braiding.jpg",
+        "width": 300
+    \end{imagefromfile}
 
 ## Properties
 
@@ -38,8 +45,6 @@ C \otimes C \otimes C & \underset{R \otimes 1}{\to} & C \otimes C \otimes C & \u
 commutes (as usually done, we work in strict monoidal categories for convenience). The statement now is that the braid category is initial in the category of strict monoidal categories equipped with a Yang-Baxter object. The $R$ in this case is a generator of $B_2 \cong \mathbb{Z}$, which is a braid with one crossing, and the commutativity may be pictured as an equality across a Reidemeister III move (and may be proven using the axioms of a braided monoidal category). 
 
 This result gave a conceptual framework in which to interpret quantum group representations as giving knot invariants. 
-
-[...]
 
 ## Related concepts
 
