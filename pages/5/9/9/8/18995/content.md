@@ -27,8 +27,12 @@ and specifically so in [[D=6 N=(2,0) SCFT]] and [[D=6 N=(1,0) SCFT]]:
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], from p. 18 in: _2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories_ ([arXiv:2009.00138](https://arxiv.org/abs/2009.00138))
 
+On [[generalized global symmetries]]:
 
-## Related $n$Lab entries
+* [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], [[Shu-Heng Shao]], *Snowmass White Paper: Generalized Symmetries in Quantum Field Theory and Beyond* &lbrack;[arXiv:2205.09545](https://arxiv.org/abs/2205.09545)&rbrack;
+
+
+## Related entries
 
 * [[higher gauge theory]]
 
