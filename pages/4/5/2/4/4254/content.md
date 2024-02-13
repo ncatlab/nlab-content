@@ -74,6 +74,11 @@ Surveys are in
 * Qingtao Chen, _Introduction to Floer Homology and its
 relation with TQFT_ (2005) ([pdf](http://math.berkeley.edu/~alanw/242papers05/chen.pdf))
 
+On [[holomorphic function|Holomorphic]] Floer Theory:
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]]. *Holomorphic Floer theory I: exponential integrals in finite and infinite dimensions*. (2024) ([arXiv:2402.07343](https://arxiv.org/abs/2402.07343))
+
+
 See also
 
 * [wikipedia](http://en.wikipedia.org/wiki/Floer_homology)
