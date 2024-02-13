@@ -1,4 +1,4 @@
-2
+
 Michael Jerome Hopkins is a mathematician at Harvard University.
 He got his PhD from Northwestern University in 1984, advised by [[Mark Mahowald]].
 
