@@ -1,14 +1,24 @@
-[[!redirects Alessandra Capotosti]]
-This page contains links related to
+This page is about 
 
-* Alessandra Capotosti,
+* Alessandra Capotosti:
 
-  _From String structures to Spin structures on loop spaces_
+  \linebreak
 
-  Ph.D. thesis, Universit&#224; degli Studi Roma Tre, Rome, April 2016
+  **From String structures to Spin structures on loop spaces**
 
-  (**[thesis pdf](https://www.dropbox.com/s/oe9jkafcm8d4agl/Ph.D.Thesis_2016_A.Capotosti.pdf?dl=0)**,  **[official thesis archive entry](http://www.matfis.uniroma3.it/dottorato/tesi.php?dottorato=matematica)**,**[talk slides](https://www.dropbox.com/s/9xu5opee2f1kltd/Presentation.pdf?dl=0)**).
+  \linebreak
 
+  Ph.D. thesis, 
+
+  Universit&#224; degli Studi Roma Tre, Rome, April 2016
+
+  \linebreak
+
+  [thesis pdf](http://www.matfis.uniroma3.it/Allegati/Dottorato/TESI/capotosti/PhD%20Thesis%202016%20A%20Capotosti.pdf), [[Capotosti-FromStringStructures.pdf:file]] 
+
+   talk slides [[Capotosti-FromStringStruc-Slides.pdf:file]]
+
+on [[differential string structures]].
 
 **Abstract**
 
@@ -24,3 +34,6 @@ refining the [[first fractional Pontryagin class]]. Once this morphism is exhibi
 
 
 category: reference
+
+[[!redirects Alessandra Capotosti]]
+
