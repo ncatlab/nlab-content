@@ -155,7 +155,9 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 
 * The category of [[crossed G-set|crossed G-sets]].
 
-* The category of [[vines]].
+* The [[braid category]] is the [[free construction|free]] [[braided monoidal category|braided]] [[strict monoidal category]] on an object.
+
+* The category of [[vines]] is the [[free construction|free]] [[braided monoidal category|braided]] [[strict monoidal category]] containing a [[braided monoid]].
 
 ## Properties
 
