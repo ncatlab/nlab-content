@@ -89,7 +89,7 @@ Rather, a pointed endofunctor is equipped with a map from the [[unit object]] fo
 
 ## References
 
-* Harvey Wolff, p. 234 of: *Free monads and the orthogonal subcategory problem*, Journal of Pure and Applied Algebra **13** 3 (1978) 233-242 &lbrack;<a href="https://doi.org/10.1016/0022-4049(78)90010-5">doi:10.1016/0022-4049(78)90010-5</a>&rbrack;
+* [[Harvey Wolff]], p. 234 of: *Free monads and the orthogonal subcategory problem*, Journal of Pure and Applied Algebra **13** 3 (1978) 233-242 &lbrack;<a href="https://doi.org/10.1016/0022-4049(78)90010-5">doi:10.1016/0022-4049(78)90010-5</a>&rbrack;
 
 
 * {#Kelly} [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
