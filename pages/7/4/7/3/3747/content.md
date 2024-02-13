@@ -235,7 +235,7 @@ Thus, to *define* a real number to be an $\alpha$-regular Cauchy real (for any o
 
 Note we may be rounding up or down, regardless of which is nearer.  For example, in approximating $e = \exp\,1$ by decimal fractions, we might get ($2,2.7,2.71,\ldots)$ or $(3,2.7,2.72,\ldots)$, but we might also get $(2,2.8,2.71,\ldots)$.  To choose to always round down, towards zero, or towards the nearer approximant (with a rule for $0.5$) requires an application of [[excluded middle]] (or at least the [[lesser limited principle of omniscience]]).
 
-Even for Dedekind reals in [[neutral constructive matehmatics]], we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Trying to avoid this can motivate multivalued Cauchy real numbers.
+Even for Dedekind reals in [[neutral constructive mathematics]], we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Trying to avoid this can motivate multivalued Cauchy real numbers.
 
 
 ## See also
