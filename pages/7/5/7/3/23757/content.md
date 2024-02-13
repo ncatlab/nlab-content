@@ -60,9 +60,11 @@ $$\prod_{p:\mathbb{Q}} \prod_{q:\mathbb{Q}} (p \lt q) \to \sum_{b:\mathrm{bool}}
 
 ## Principle of locators
 
+Note: The "principle of locators" or "axiom of locators" are placeholder names for a principle or axiom which may or may not have an already existing name in the mathematics literature. 
+
 The **principle of locators** state that every real number $x:\mathbb{R}$ merely has a locator (i.e. the [[support]] of the locator has an element), and implies that the [[Cauchy real numbers]] is the [[terminal object|terminal]] [[Archimedean ordered field]], and coincides with the [[Dedekind real numbers]]. This is true in [[classical mathematics]], as is in [[constructive mathematics]] which also uses [[countable choice]]. 
 
-However, in general constructive mathematics, it is not necessarily true that every real number has a locator, and so there may be multiple sets of real numbers. In that case, this principle becomes the **axiom of locators**, which says that every element $x:\mathbb{R}$ of the [[terminal object|terminal]] [[Archimedean ordered field]] $\mathbb{R}$ merely has a locator, making it coincide with the [[Cauchy real numbers]]. We use terminal Archimedean ordered field since in [[predicative mathematics]] the [[Dedekind real numbers]] may not exist.
+However, in general constructive mathematics, while theorem 6.10.3 of [Booij 2020](#Booij20) states that a real number is a [[Cauchy real number]] if and only if it merely has a locator, not every real number is necessarily a Cauchy real number, so it is not necessarily true that every real number has a locator. In that case, this principle becomes the **axiom of locators**, which says that every element $x:\mathbb{R}$ of the [[terminal object|terminal]] [[Archimedean ordered field]] $\mathbb{R}$ merely has a locator, making it coincide with the [[Cauchy real numbers]]. We use terminal Archimedean ordered field since in [[predicative mathematics]] the [[Dedekind real numbers]] may not exist.
 
 ## Related concepts
 
@@ -81,4 +83,3 @@ However, in general constructive mathematics, it is not necessarily true that ev
 
 [[!redirects principle of locators]]
 [[!redirects axiom of locators]]
-
