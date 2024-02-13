@@ -127,6 +127,11 @@ Incorporation of defect branes into the [[K-theory classification of D-brane cha
 
 * {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]*, Reviews in Mathematical Physics **35** 06 (2023) 2350009 &lbrack;[arXiv:2203.11838](https://arxiv.org/abs/2203.11838), [doi:10.1142/S0129055X23500095](https://doi.org/10.1142/S0129055X23500095)&rbrack;
 
+On defect branes in [[D=4 N=4 SYM]] via [[AdS/CFT]]:
+
+* Hongliang Jiang, [[Arkady A. Tseytlin]], *On co-dimension 2 defect anomalies in $\mathcal{N}=4$ SYM and $(2,0)$ theory via brane probes in AdS/CFT* &lbrack;[arXiv:2402.07881](https://arxiv.org/abs/2402.07881)&rbrack;
+
+
 
 [[!redirects defect branes]]
 
