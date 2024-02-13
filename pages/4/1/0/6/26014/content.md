@@ -78,6 +78,11 @@ The terminology of *generalized global symmetries* is due to:
 
 * {#GaiottoKapustinSeibergWillett14} [[Davide Gaiotto]], [[Anton Kapustin]], [[Nathan Seiberg]], [[Brian Willett]], *Generalized Global Symmetries*  J. High Energ. Phys. **2015** 172 (2015) &lbrack;[arXiv:1412.5148](https://arxiv.org/abs/1412.5148), <a href="https://doi.org/10.1007/JHEP02(2015)172">doi:10.1007/JHEP02(2015)172</a>&rbrack;
 
+Survey of the "field":
+
+* [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], [[Shu-Heng Shao]], *Snowmass White Paper: Generalized Symmetries in Quantum Field Theory and Beyond* &lbrack;[arXiv:2205.09545](https://arxiv.org/abs/2205.09545)&rbrack;
+
+
 Further suggestion for mathematical formalization of what [GKSW14](#GaiottoKapustinSeibergWillett14) had in mind (purely at the quantum level, with caveats):
 
 * {#FMT22} [[Daniel Freed]], [[Gregory Moore]], [[Constantin Teleman]], *Topological symmetry in quantum field theory* (2022) &lbrack;[arXiv:2209.07471](https://arxiv.org/abs/2209.07471)&rbrack;
