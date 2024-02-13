@@ -6,6 +6,9 @@
 
 Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] for [[anomaly cancellation]] in [[heterotic string theory]], on [[M5-branes]], and in related systems in terms of some kind of [[nonabelian differential cohomology]] (ordered by arXiv time-stamp):
 
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], pp. 13 in: *$L_\infty$-algebra connections and applications to String- and Chern-Simons $n$-transport*, in *Quantum Field Theory*, Birkhäuser (2009) 303-424 \[<a href="https://arxiv.org/abs/0801.3480">arXiv:0801.3480</a>, <a href="https://doi.org/10.1007/978-3-7643-8736-5_17">doi:10.1007/978-3-7643-8736-5_17</a>\]
+
+
 * {#SatiSchreiberStasheff12} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Comm. Math. Phys. **315** (2012) 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
   > (via [[adjusted Weil algebras]], see there for more)
