@@ -66,7 +66,13 @@ Early discussion of "generalized global symmetries" under the name of *[[QFT wit
 
 * {#FFRS07} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Duality and defects in rational conformal field theory*, Nucl. Phys. B **763** (2007) 354-430 &lbrack;[arXiv:hep-th/0607247](http://arxiv.org/abs/hep-th/0607247), [doi:10.1016/j.nuclphysb.2006.11.017](https://doi.org/10.1016/j.nuclphysb.2006.11.017)&rbrack;
 
+The terminology "categorical (symmetry)-groups" for *[[2-groups]]* goes back to the origin of the subject in
 
+* {#Solian80} [[Alexandru Solian]], *Coherence in categorical groups*,  Communications in Algebra **9** 10 (1980) 1039-1057 &lbrack;[doi:10.1080/00927878108822631](https://doi.org/10.1080/00927878108822631)&rbrack;
+
+Early appearance of the terminology "categorified symmetries" is in:
+
+* [[Urs Schreiber]], [[Zoran Škoda]], *Categorified symmetries*, 5th Summer School of Modern Mathematical Physics, SFIN XXII Series **A1** (2009) 397-424 &lbrack;[arXiv:1004.2472](https://arxiv.org/abs/1004.2472), [inspire:851901](https://inspirehep.net/literature/851901)&rbrack;
 
 The terminology of *generalized global symmetries* is due to:
 
