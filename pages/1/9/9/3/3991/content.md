@@ -17,7 +17,7 @@
 
 In [[logic]], a **signature** is a collection of data which prescribes the 'alphabet' of non-logical symbols of a logical [[theory]], saying which operations and [[predicates]] are taken to be primitive. 
 
-
+The signature of a structure is the union of the collection of constant symbols, function symbols, and  relation symbols in the language of said structure.
 
 ## Definition
 
@@ -125,3 +125,8 @@ The *language* $Lang(\Sigma)$ is the initial object in the category of interpret
 [[!redirects function symbol]]
 [[!redirects relation symbols]]
 [[!redirects function symbols]]
+
+[[!redirects signature of a structure]]
+[[!redirects signatures of structures]]
+
+
