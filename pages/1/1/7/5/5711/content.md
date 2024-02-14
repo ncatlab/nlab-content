@@ -15,7 +15,12 @@ On [[Lie groups]] and [[quantum groups]]:
 
 * [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
 
-## Related $n$Lab entries
+On [[conformal blocks]] for [[Liouville theory]]:
+
+* [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
+
+
+## Related entries
 
 * [[3d TQFT]]
 
