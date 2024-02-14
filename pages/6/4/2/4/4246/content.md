@@ -2,7 +2,18 @@ __Alexei Bondal__ (&#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1081; &#1048;&#10
 
 * [data at ras](http://www.mi.ras.ru/staff/bondal_e.html)
 * math genealogy [page](http://genealogy.math.ndsu.nodak.edu/id.php?id=85435)
+
+## Selected writings
+
+Introducing [[Serre functors]]:
+
+* {#BondalKapranov90} [[Alexei I. Bondal]], [[Mikhail M. Kapranov]], _Representable functors, Serre functors, and mutations_, Mathematics of the USSR-Izvestiya **35** 3 (1990) 519-541 &lbrack;[doi:10.1070/IM1990v035n03ABEH000716](https://doi.org/10.1070/IM1990v035n03ABEH000716)&rbrack;
+
+
+## Related entries
+
 * [[Bondal-Orlov reconstruction theorem]]
+
 * [[triangulated categories of sheaves]]
 
 category: people
@@ -21,3 +32,6 @@ category: people
 [[!redirects A. Bondal]]
 [[!redirects Bondal]]
 [[!redirects A.I.Bondal]]
+
+[[!redirects Alexei I. Bondal]]
+
