@@ -49,11 +49,17 @@ On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[Riemann surfaces]] [[4d 
 
 On [[braid group representations]] for [[su(2)-anyon]]-[[anyon statistics|statistics]] from the [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] of bundles of [[conformal blocks]] over [[configuration spaces of points]]:
 
-* Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)&rbrack;
+* [[Xia Gu]], [[Babak Haghighat]], [[Yihua Liu]], *Ising- and Fibonacci-Anyons from KZ-equations*,  J. High Energ. Phys. **2022** 15 (2022) &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195), <a href="https://doi.org/10.1007/JHEP09(2022)015">doi:10.1007/JHEP09(2022)015</a>&rbrack;
 
 On [[QFT with defects|defects]] in the [[KK-compactification]] of the [[D=6 N=(2,0) SCFT]] on [[4-manifolds]]:
 
 * [[Jin Chen]], [[Wei Cui]], [[Babak Haghighat]], [[Yi-Nan Wang]], *SymTFTs and Duality Defects from 6d SCFTs on 4-manifolds*, JHEP **2023** 208 (2023) &lbrack;[arXiv:2305.09734](https://arxiv.org/abs/2305.09734), <a href="https://doi.org/10.1007/JHEP11(2023)208">doi:10.1007/JHEP11(2023)208</a>&rbrack;
+
+On [[conformal blocks]] for [[Liouville theory]]:
+
+* [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
+
+* [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
 
 
 
