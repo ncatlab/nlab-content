@@ -1,3 +1,9 @@
+Lucile Vandembroucq is an Associate Professor in the
+University of Minho.
+
+*  [webpage](https://www.cmat.uminho.pt/index.php/user/671)
+
+
 ## Selected writings
 
 On [[topological complexity]] of [[connected sums]]:
