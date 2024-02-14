@@ -28,242 +28,205 @@ However, when formally defining the natural numbers primitive, in order to ensur
 
 ## Formal presentation
 
-The presentation of formal book HoTT we have chosen is a two-[[layered type theory]]. The first level consists of a basic [[objective type theory]] consisting only of type judgments, term judgments, [[identity types]], and a [[natural numbers type]]. The second level is the [[homotopy type theory]], and contains term judgments and [[judgmental equality]] of terms, [[Russell universes]], and all the other type formers in [[homotopy type theory]]. To distinguish between the two layers, we shall call the types in the first layer "metatypes", as the first layer behaves as a metatheory or external theory. 
+The presentation of formal book HoTT we have chosen is a  type theory with [[judgments]] for contexts
 
-### First layer
+* $\Gamma \; \mathrm{ctx}$, that $\Gamma$ is a [[context]]
 
-#### Judgments and contexts
+### Universe levels and Peano arithmetic
 
-We begin with the formal rules of the first layer. The first layer consists of three judgments: metatype judgments $A \; \mathrm{metatype}$, where we judge $A$ to be a metatype, metatyping judgments, where we judge $a$ to be an element of $A$, $a \in A$, and metacontext judgments, where we judge $\Xi$ to be a metacontext, $\Xi \; \mathrm{metactx}$. Metacontexts are lists of metatyping judgments $a \in A$, $b \in B$, $c \in C$, et cetera, and are formalized by the rules for the empty metacontext and extending the metacontext by a metatyping judgment
+Then we have judgments for universe levels and predicate logic:
 
-$$\frac{}{() \; \mathrm{metactx}} \qquad \frac{\Xi \; \mathrm{metactx} \quad \Xi \vdash A \; \mathrm{metatype}}{(\Xi, a \in A) \; \mathrm{metactx}}$$
+* $i \; \mathrm{level}$, that $i$ is a universe level, 
 
-#### Structural rules
+* $\phi \; \mathrm{prop}$, that $\phi$ is a [[proposition]], 
 
-The three standard structural rules, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]], are also included in the theory. Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
+* $\phi \; \mathrm{true}$, that $\phi$ is a [[true]] proposition, 
 
-* The variable rule:
+and the formal [[signature (in logic)|signature]] and [[inference rules]] of [[first-order theory|first-order]] [[Heyting arithmetic]] or [[Peano arithmetic]]. 
 
-$$\frac{\Xi, a \in A, \Omega \; \mathrm{metactx}}{\vdash \Xi, a \in A, \Omega \vdash a \in A}$$
+These rules ensure that there are an [[infinite]] number of indices, which are strictly ordered with [[strict total order]] $\lt$ and upwardly unbounded, where $i \lt s(i)$ is true for all indices $i$. 
 
-* The weakening rule:
+### Typing judgments and Russell universes
 
-$$\frac{\Xi, \Omega \vdash \mathcal{J} \quad \Xi \vdash A \; \mathrm{metatype}}{\Xi, a \in A, \Omega \vdash \mathcal{J}}$$
+Now, we introduce the typing judgment $a:A$, which says that $a$ is a term of the type $A$. Instead of type judgments, we introduce a special kind of type called a [[Russell universe]], whose terms are the types themselves. Russell universes are formalized with the following rules:
 
-* The substitution rule:
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash U_i:U_{s(i)}} \qquad \frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{\Gamma \vdash A:U_{s(i)}}$$
 
-$$\frac{\Xi \vdash a \in A \quad \Xi, b \in A, \Omega \vdash \mathcal{J}}{\Xi, \Omega[a/b] \vdash \mathcal{J}[a/b]}$$
+In addition, we have rules for contexts which state that one could add typing judgments to the list of contexts:
 
-#### Identity metatypes
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
-In addition, there are identity metatypes: the [[natural deduction]] rules for identity metatypes are as follows
-
-$$\frac{\Xi \vdash A \; \mathrm{metatype}}{\Xi, a \in A, b \in A \vdash a =_A b \; \mathrm{metatype}} \qquad \frac{\Xi \vdash A \; \mathrm{metatype}}{\Xi, a \in A \vdash \mathrm{refl}_A(a)  \in  a =_A a}$$
-
-$$\frac{\Xi, x \in A, y \in A, p \in x =_A y \vdash C \; \mathrm{metatype} \quad \Xi, z \in A \vdash t \in C[z/x, z/y, \mathrm{refl}_A(z)/p] \quad \Xi \vdash a \in A \quad \Xi \vdash b \in A \quad \Xi \vdash q \in a =_A b}{\Xi \vdash J(x.y.p.C, z.t, x, y, p) \in C[a/x, b/y, q/p]}$$
-
-$$\frac{\Xi, x \in A, y \in A, p \in x =_A y \vdash C \; \mathrm{metatype} \quad \Xi, z \in A \vdash t:C[z/x, z/y, \mathrm{refl}_A(z)/p] \quad \Xi \vdash a:A}{\Xi \vdash \beta_{=_A}(a) \in J(x.y.p.C, z.t, a, a, \mathrm{refl}_A(a)) =_{C[a/x, a/y, \mathrm{refl}_A(a)/p]} t[a/z]}$$
-
-#### Natural numbers primitive
-
-Finally, we have the natural numbers primitive, given by the following [[natural deduction]] rules:
-
-$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vdash \mathcal{N} \; \mathrm{metatype}} \qquad \frac{\Xi \; \mathrm{metactx}}{\Xi \vdash 0_{\mathcal{N}} \in \mathcal{N}} \qquad \frac{\Xi \vdash n \in \mathcal{N}}{\Xi \vdash s_\mathcal{N}(n) \in \mathcal{N}}$$
-
-$$\frac{\Xi, x \in \mathcal{N} \vdash C \; \mathrm{metatype} \quad \Xi \vdash c_{0_\mathcal{N}} \in C[0_\mathcal{N}/x] \quad \Xi, x \in \mathcal{N}, c \in C \vdash c_{s_\mathcal{N}} \in C[s_\mathcal{N}(x)/x] \quad \Xi \vdash n \in \mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathcal{N}^C(n, c_{0_\mathcal{N}}, c_{s_\mathcal{N}}) \in C[n/x]}$$
-
-$$\frac{\Xi, x \in \mathcal{N} \vdash C \; \mathrm{metatype} \quad \Xi \vdash c_{0_\mathcal{N}} \in C[0_\mathcal{N}/x] \quad \Xi, x \in \mathcal{N}, c \in C \vdash c_{s_\mathcal{N}} \in C[s_\mathcal{N}(x)/x]}{\Xi \vdash \beta_\mathcal{N}^{0_\mathcal{N}} \in \mathrm{ind}_\mathcal{N}^C(0_\mathcal{N}, c_{0_\mathcal{N}}, c_{s_\mathcal{N}}) =_{C[0_\mathcal{N}/x]} c_{0_\mathcal{N}}}$$
-
-$$\frac{\Xi, x \in \mathcal{N} \vdash C \; \mathrm{metatype} \quad \Xi \vdash c_{0_\mathcal{N}} \in C[0_\mathcal{N}/x] \quad \Xi, x \in \mathcal{N}, c \in C \vdash c_{s_\mathcal{N}} \in C[s_\mathcal{N}(x)/x]}{\Gamma \vdash \beta_\mathcal{N}^{s_\mathcal{N}(n)} \in \mathrm{ind}_\mathcal{N}^C(s_\mathcal{N}(n), c_{0_\mathcal{N}}, c_{s_\mathcal{N}}) =_{C[s_\mathcal{N}(n)/x]} c_{s_\mathcal{N}}(n, \mathrm{ind}_\mathcal{N}^C(n, c_{0_\mathcal{N}}, c_{s_\mathcal{N}}))}$$
-
-### Second layer
-
-#### Judgments, contexts, and Russell universes
-
-Now, we introduce the second layer, which consists of a dependent type theory with two judgments, the typing judgment $a:A$, which says that $a$ is a term of the type $A$, and [[judgmental equality]] $a \equiv a':A$, which says that $a$ and $a'$ are judgmentally equal terms of the type $A$. Instead of type judgments, we introduce a special kind of type called a [[Russell universe]], whose terms are the types themselves. We also assume cumulativity for the Russell universes. Russell universes are formalized with the following rules:
-
-$$\frac{\Xi \vdash i \in \mathcal{N}}{\Xi \vdash U_i:U_{s_\mathcal{N}(i)}} \quad \frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vdash A:U_i}{\Xi \vdash A:U_{s_\mathcal{N}(i)}}$$
-
-Contexts are defined as a metacontext with a list of typing judgments, with the metacontext always preceding the list of typing judgments:
-
-$$\frac{\Xi \; \mathrm{metactx}}{\Xi \vert () \; \mathrm{ctx}} \qquad \frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i}{\Xi \vert (\Gamma, a:A) \; \mathrm{ctx}}$$
-
-The general rules for Russell universes then follows:
-
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \; \mathrm{ctx}}{\Xi \vert \Gamma \vdash U_i:U_{s_\mathcal{N}(i)}} \quad \frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i}{\Xi \vert \Gamma \vdash A:U_{s_\mathcal{N}(i)}}$$
-
-In addition, if there is a term $a:A$ of a type $A$, then the type $A$ is a term of some Russell universe $U_i$. 
-
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash A:U_{i}}$$
-
-#### Structural rules
+### Structural rules
 
 There are three structural rules in dependent type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
 
 The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
 
-$$\frac{\Xi \vert \Gamma, a:A, \Delta \; \mathrm{ctx}}{\Xi \vert \Gamma, a:A, \Delta \vdash a:A}$$
+$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
 
 Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
 
 The weakening rule:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma, \Delta \vdash \mathcal{J}}{\Xi \vert \Gamma, a:A, \Delta \vdash \mathcal{J}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma, \Delta \vdash \mathcal{J}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
 
 The substitution rule:
 
-$$\frac{\Xi \vert \Gamma \vdash a:A \quad \Xi \vert \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Xi \vert \Gamma, \Delta[a/b] \vdash \mathcal{J}[a/b]}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vdash \mathcal{J}[a/b]}$$
 
 The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
 
-#### Structural rules for judgmental equality
+### Structural rules for judgmental equality
 
 Judgmental equality has its own structural rules: introduction rules for judgmentally equal terms, reflexivity, symmetry, transitivity, the principle of substitution, and the variable conversion rule. 
 
 * Introduction rules for judgmentally equal terms
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a \equiv b:A}{\Xi \vert \Gamma \vdash a:A}$$
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a \equiv b:A}{\Xi \vert \Gamma \vdash b:A}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash a:A}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash b:A}$$
 
 * Reflexivity of judgmental equality
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash a \equiv a:A}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a:A}{\Gamma \vdash a \equiv a:A}$$
 
 * Symmetry of judgmental equality
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a \equiv b:A}{\Xi \vert \Gamma \vdash b \equiv a:A}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a \equiv b:A}{\Gamma \vdash b \equiv a:A}$$
 
 * Transitivity of judgmental equality
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a \equiv b:A \quad \Xi \vert \Gamma \vdash b \equiv c:A}{\Xi \vert \Gamma \vdash a \equiv c:A}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a \equiv b:A \quad \Gamma \vdash b \equiv c:A}{\Gamma \vdash a \equiv c:A}$$
 
 * Principle of substitution:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a \equiv b : A \quad \Xi \vert \Gamma, x:A, \Delta \vdash c:B}{\Xi \vert \Gamma, \Delta[b/x] \vdash c[a/x] \equiv c[b/x]: B[b/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c:B}{\Gamma, \Delta[b/x] \vdash c[a/x] \equiv c[b/x]: B[b/x]}$$
 
 * Variable conversion rule:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A \equiv B:U_i \quad \Xi \vert \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Xi \vert \Gamma, x:B, \Delta \vdash \mathcal{J}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A \equiv B:U_i \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
+We also have a rules saying that equality is preserved across universe levels:
 
-#### Dependent product types
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash j \; \mathrm{level} \quad \Gamma \vdash i = j \; \mathrm{true}}{\Gamma \vdash U_i \equiv U_j:U_{s(i)}}$$
+
+### Dependent product types
 
 * Formation rules for dependent product types:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma, x:A \vdash B:U_i}{\Xi \vert \Gamma \vdash \prod_{x:A} B(x):U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma, x:A \vdash B:U_i}{\Gamma \vdash \prod_{x:A} B(x):U_i}$$
 
 * Introduction rules for dependent product types:
 
-$$\frac{\Xi \vert \Gamma, x:A \vdash b:B}{\Xi \vert \Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
+$$\frac{\Gamma, x:A \vdash b:B}{\Gamma \vdash \lambda(x:A).b(x):\prod_{x:A} B(x)}$$
 
 * Elimination rules for dependent product types:
 
-$$\frac{\Xi \vert \Gamma \vdash f:\prod_{x:A} B(x) \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash f[a/x]:B[a/x]}$$
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash f[a/x]:B[a/x]}$$
 
 * Computation rules for dependent product types:
 
-$$\frac{\Xi \vert \Gamma, x:A \vdash b:B \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \lambda(x:A).b(x)[a/x] \equiv b[a/x]:B[a/x]}$$
+$$\frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)[a/x] \equiv b[a/x]:B[a/x]}$$
 
 * Uniqueness rules for dependent product types:
 
-$$\frac{\Xi \vert \Gamma \vdash f:\prod_{x:A} B(x)}{\Xi \vert \Gamma \vdash f \equiv \lambda(x).f(x):\prod_{x:A} B(x)}$$
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f \equiv \lambda(x).f(x):\prod_{x:A} B(x)}$$
 
-#### Dependent sum types
+### Dependent sum types
 
 * Formation rules for dependent sum types:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Gamma, x:A \vdash B:U_i}{\Xi \vert \Gamma \vdash \sum_{x:A} B(x):U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma, x:A \vdash B:U_i}{\Gamma \vdash \sum_{x:A} B(x):U_i}$$
 
 * Introduction rules for dependent sum types:
 
-$$\frac{\Xi \vert \Gamma, x:A \vdash b:B \quad \Xi \vert \Gamma \vdash a:A \quad \Xi \vert \Gamma \vdash b:B[a/x]}{\Xi \vert \Gamma \vdash (a, b):\sum_{x:A} B(x)}$$
+$$\frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash (a, b):\sum_{x:A} B(x)}$$
 
 * Elimination rules for dependent sum types:
 
-$$\frac{\Xi \vert \Gamma \vdash z:\sum_{x:A} B(x)}{\Xi \vert \Gamma \vdash \pi_1(z):A} \qquad \frac{\Xi \vert \Gamma \vdash z:\sum_{x:A} B(x)}{\Xi \vert \Gamma \vdash \pi_2(z):B[\pi_1(z)/x]}$$
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_2(z):B[\pi_1(z)/x]}$$
 
 * Computation rules for dependent sum types:
 
-$$\frac{\Xi \vert \Gamma, x:A \vdash b:B \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Xi \vert \Gamma, x:A \vdash b:B \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \pi_2(a, b) \equiv b:B[\pi_1(a, b)/x]}$$
+$$\frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv b:B[\pi_1(a, b)/x]}$$
 
 * Uniqueness rules for dependent sum types:
 
-$$\frac{\Xi \vert \Gamma \vdash z:\sum_{x:A} B(x)}{\Xi \vert \Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):\sum_{x:A} B(x)}$$
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z \equiv (\pi_1(z), \pi_2(z)):\sum_{x:A} B(x)}$$
 
-#### Sum types
+### Sum types
 
 * Formation rules for sum types:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash B:U_i}{\Xi \vert \Gamma \vdash A + B:U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash A + B:U_i}$$
 
 * Introduction rules for sum types:
 
-$$\frac{\Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Xi \vert \Gamma \vdash b:B}{\Xi \vert \Gamma \vdash \mathrm{inr}(b):A + B}$$
+$$\frac{\Gamma \vdash a:A}{\Gamma \vdash \mathrm{inl}(a):A + B} \qquad \frac{\Gamma \vdash b:B}{\Gamma \vdash \mathrm{inr}(b):A + B}$$
 
 * Elimination rules for sum types:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, z:A + B \vdash C:U_i \quad \Xi \vert \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Xi \vert \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Xi \vert \Gamma \vdash e:A + B}{\Xi \vert \Gamma \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, e):C[e/z]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, z:A + B \vdash C:U_i \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash e:A + B}{\Gamma \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, e):C[e/z]}$$
 
 * Computation rules for sum types:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, z:A + B \vdash C:U_i \quad \Xi \vert \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Xi \vert \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, \mathrm{inl}(a)) \equiv c[a/x]:C[\mathrm{inl}(a)/z]}$$
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, z:A + B \vdash C:U_i \quad \Xi \vert \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Xi \vert \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Xi \vert \Gamma \vdash b:A}{\Xi \vert \Gamma \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, \mathrm{inr}(b)) \equiv d[b/x]:C[\mathrm{inr}(b)/z]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, z:A + B \vdash C:U_i \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, \mathrm{inl}(a)) \equiv c[a/x]:C[\mathrm{inl}(a)/z]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, z:A + B \vdash C:U_i \quad \Gamma, x:A \vdash c:C[\mathrm{inl}(x)/z] \quad \Gamma, y:B \vdash d:C[\mathrm{inr}(y)/z] \quad \Gamma \vdash b:A}{\Gamma \vdash \mathrm{ind}_{A + B}(z.C, x.c, y.d, \mathrm{inr}(b)) \equiv d[b/x]:C[\mathrm{inr}(b)/z]}$$
 
-#### Empty type
+### Empty type
 
 * Formation rules for the empty type:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \; \mathrm{ctx}}{\Xi \vert \Gamma \vdash \mathbb{0}:U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash \mathbb{0}:U_i}$$
 
 * Elimination rules for the empty type:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:\mathbb{0} \vdash C:U_i \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}(x.C, p):C[p/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:\mathbb{0} \vdash C:U_i \quad \Gamma \vdash p:\mathbb{0}}{\Gamma \vdash \mathrm{ind}_\mathbb{0}(x.C, p):C[p/x]}$$
 
-#### Unit type
+### Unit type
 
 * Formation rules for the unit type:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \; \mathrm{ctx}}{\Xi \vert \Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash \mathbb{1}:U_i}$$
 
 * Introduction rules for the unit type:
 
-$$\frac{\Xi \vert \Gamma \; \mathrm{ctx}}{\Xi \vert \Gamma \vdash *:\mathbb{1}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:\mathbb{1}}$$
 
 * Elimination rules for the unit type:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:\mathbb{1} \vdash C:U_i \quad \Gamma, y:\mathbb{1} \vdash c[y/x]:C[y/x] \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, y.c, p):C[p/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:\mathbb{1} \vdash C:U_i \quad \Gamma, y:\mathbb{1} \vdash c[y/x]:C[y/x] \quad \Gamma \vdash p:\mathbb{1}}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, y.c, p):C[p/x]}$$
 
 * Computation rules for the unit type:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:\mathbb{1} \vdash C:U_i \quad \Gamma, y:\mathbb{1} \vdash c[y/x]:C[y/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, y.c, *) \equiv c[*/x]:C[*/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:\mathbb{1} \vdash C:U_i \quad \Gamma, y:\mathbb{1} \vdash c[y/x]:C[y/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{1}(x.C, y.c, *) \equiv c[*/x]:C[*/x]}$$
 
-#### Natural numbers
+### Natural numbers
 
 * Formation rules for the natural numbers:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \; \mathrm{ctx}}{\Xi \vert \Gamma \vdash \mathbb{N}:U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash \mathbb{N}:U_i}$$
 
 * Introduction rules for the natural numbers:
-$$\frac{\Xi \vert \Gamma \; \mathrm{ctx}}{\Xi \vert \Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Xi \vert \Gamma \vdash n:\mathbb{N}}{\Xi \vert \Gamma \vdash s(n):\mathbb{N}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \vdash n:\mathbb{N}}{\Gamma \vdash s(n):\mathbb{N}}$$
 
 * Elimination rules for the natural numbers:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:\mathbb{N} \vdash C:U_i \quad \Xi \vert \Gamma \vdash c_0:C[0/x] \quad \Xi \vert \Gamma, x:\mathbb{N}, y:C \vdash c_s:C[s(x)/x] \quad \Xi \vert \Gamma \vdash n:\mathbb{N}}{\Xi \vert \Gamma \vdash \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, n):C[n/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:\mathbb{N} \vdash C:U_i \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, y:C \vdash c_s:C[s(x)/x] \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, n):C[n/x]}$$
 
 * Computation rules for the natural numbers:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:\mathbb{N} \vdash C:U_i \quad \Xi \vert \Gamma \vdash c_0:C[0/x] \quad \Xi \vert \Gamma, x:\mathbb{N}, y:C \vdash c_s:C[s(x)/x]}{\Xi \vert \Gamma \vdash \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, 0) \equiv c_0:C[0/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:\mathbb{N} \vdash C:U_i \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, y:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, 0) \equiv c_0:C[0/x]}$$
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:\mathbb{N} \vdash C:U_i \quad \Xi \vert \Gamma \vdash c_0:C[0/x] \quad \Xi \vert \Gamma, x:\mathbb{N}, y:C \vdash c_s:C[s(x)/x]}{\Xi \vert \Gamma \vdash \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, s(n) \equiv c_s(n, \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, n)):C[s(n)/x]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:\mathbb{N} \vdash C:U_i \quad \Gamma \vdash c_0:C[0/x] \quad \Gamma, x:\mathbb{N}, y:C \vdash c_s:C[s(x)/x]}{\Gamma \vdash \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, s(n) \equiv c_s(n, \mathrm{ind}_\mathbb{N}(x.C, c_0, x.y.c_s, n)):C[s(n)/x]}$$
 
-#### Identity types
+### Identity types
 
 There is another version of equality in book HoTT, called [[typal equality]]. Typal equality is represented by the [[identity type]]. 
 
 * Formation rule for identity types:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a:A \quad \Xi \vert \Gamma \vdash b:A}{\Xi \vert \Gamma \vdash a =_A b:U_i}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A}{\Gamma \vdash a =_A b:U_i}$$
 
 * Introduction rule for identity types:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash \mathrm{refl}_A(a) : a =_A a}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
 * Elimination rule for identity types:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:A, y:A, p:a =_A b \vdash C:U_i \quad \Xi \vert \Gamma, z:A \vdash t:C[z/a, z/b, \mathrm{refl}_A(z)/p] \quad \Xi \vert \Gamma \vdash a:A \quad \Xi \vert \Gamma \vdash b:A \quad \Xi \vert \Gamma \vdash q:a =_A b}{\Xi \vert \Gamma \vdash J(x,y,p.C, z.t, a, b, q):C[a, b, q/x, y, p]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:A, y:A, p:a =_A b \vdash C:U_i \quad \Gamma, z:A \vdash t:C[z/a, z/b, \mathrm{refl}_A(z)/p] \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash q:a =_A b}{\Gamma \vdash J(x,y,p.C, z.t, a, b, q):C[a, b, q/x, y, p]}$$
 
 * Computation rules for identity types:
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma, x:A, y:A, p:a =_A b \vdash C:U_i \quad \Xi \vert \Gamma, z:A \vdash t:C[z/a, z/b, \mathrm{refl}_A(z)/p] \quad \Xi \vert \Gamma \vdash a:A}{\Xi \vert \Gamma \vdash J(x.y.p.C, z.t, a, a, \mathrm{refl}(a)) \equiv t:C[a, a, \mathrm{refl}_A(a)/x, y, p]}$$
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma, x:A, y:A, p:a =_A b \vdash C:U_i \quad \Gamma, z:A \vdash t:C[z/a, z/b, \mathrm{refl}_A(z)/p] \quad \Gamma \vdash a:A}{\Gamma \vdash J(x.y.p.C, z.t, a, a, \mathrm{refl}(a)) \equiv t:C[a, a, \mathrm{refl}_A(a)/x, y, p]}$$
 
-#### Univalence
+### Univalence
 
 Given types $A:U_i$ and $B:U_i$, a function $f:A \to B$ is an [[equivalence of types]] if the fiber of $f$ at each element of $B$ has exactly one element. The property of the type $A$ having exactly one element is represented by the [[isContr]] modality which states that the type $A$ is contractible. The fiber of $f$ at an element $b:B$ is given by the type
 $$\sum_{b:B} f(a) =_B b$$
@@ -286,7 +249,7 @@ $$\mathrm{idtoequiv}_{A, A}(\mathrm{refl}_{U_i}(A)) \equiv id_A$$
 
 The [[univalence axiom]] then states that $\mathrm{idtoequiv}_{A, B}$ is an equivalence for all external natural numbers $i \in \mathcal{N}$ and types $A:U_i$ and $B:U_i$:
 
-$$\frac{\Xi \vdash i \in \mathcal{N} \quad \Xi \vert \Gamma \vdash A:U_i \quad \Xi \vert \Gamma \vdash B:U_i}{\Xi \vert \Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}_{A =_{U_i} B, A \simeq B}(\mathrm{idtoequiv}_{A, B})}$$ 
+$$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}_{A =_{U_i} B, A \simeq B}(\mathrm{idtoequiv}_{A, B})}$$ 
 
 ## See also
 
