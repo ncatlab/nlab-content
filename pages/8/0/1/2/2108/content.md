@@ -1228,6 +1228,11 @@ Discussion with an eye towards the [[philosophy of physics]] is in
 
 * [[Gabriel Catren]], _Towards a Group-Theoretical Interpretation of Mechanics_ ([PhilSci Archive](http://philsci-archive.pitt.edu/10116/))
 
+On geometric quantization of the [[scalar field]]:
+
+* José Luis Alonso, Carlos Bouthelier-Madre, Jesús Clemente-Gallardo, David Martínez-Crespo, *Geometric flavours of Quantum Field theory on a Cauchy hypersurface. Part II: Methods of quantization and evolution* &lbrack;[arXiv:2402.07953](https://arxiv.org/abs/2402.07953)&rbrack;
+
+
 ### Holographic quantization
 
 The geometric [[quantization via the A-model]] is discussed in 
