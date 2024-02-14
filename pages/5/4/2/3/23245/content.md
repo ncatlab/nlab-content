@@ -24,6 +24,14 @@ On [[braid group representations]] seen in the [[topological K-theory]] of the [
 
 * [[Alejandro Adem]], [[Daniel C. Cohen]], [[Frederick R. Cohen]], *On representations and K-theory of the braid groups*, Math. Ann. **326** (2003) 515-542 ([arXiv:math/0110138](https://arxiv.org/abs/math/0110138), [doi:10.1007/s00208-003-0435-8](https://doi.org/10.1007/s00208-003-0435-8))
 
+On [[topological complexity]] of [[connected sums]]:
+
+* {#CohenVandembroucq18} [[Daniel C. Cohen]], [[Lucile Vandembroucq]], _Motion planning in connected sums of real projective spaces_ (2018), [arXiv:1807.09947](https://arxiv.org/abs/1807.09947)
+
+On [[topological complexity]] of the [[Klein bottle]]:
+
+* {#CohenVandembroucq16} [[Daniel C. Cohen]], [[Lucile Vandembroucq]], _Topological Complexity of the Klein bottle_ (2018), [arXiv:1612.03133v3](https://arxiv.org/abs/1612.03133v3)
+
 
 category: people
 
