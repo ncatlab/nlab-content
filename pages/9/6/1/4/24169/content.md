@@ -41,6 +41,7 @@ __Book homotopy type theory__ or **Book HoTT** is a [[Martin-Löf dependent type
 
 ## See also ##
 
+* [[dependent type theory]]
 * [[homotopy type theory]]
 * [[univalent type theory]]
 
