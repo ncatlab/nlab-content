@@ -534,7 +534,7 @@ For a simple example: the real [[projective plane]] $\mathbb{RP}^2$ is the one-p
 ###### Example
 **(every [[locally compact topological space|locally compact]] [[Hausdorff space]] is an [[open subset|open]] [[subspace]] of a [[compact Hausdorff space]])**
 
-Every [[locally compact topological space|locally compact]] [[Hausdorff space]]  is [[homeomorphism|homemorphic]] to a [[open subset|open]] [[topological subspace]] of a [[compact topological space]].
+Every [[locally compact topological space|locally compact]] [[Hausdorff space]]  is [[homeomorphism|homeomorphic]] to a [[open subset|open]] [[topological subspace]] of a [[compact topological space]].
 
 =--
 
