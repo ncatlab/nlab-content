@@ -89,7 +89,7 @@ The original paper and English translation:
 
 * {#BondalKapranov89}  &#1040;. &#1048;. &#1041;&#1086;&#1085;&#1076;&#1072;&#1083;, &#1052;. &#1052;. &#1050;&#1072;&#1087;&#1088;&#1072;&#1085;&#1086;&#1074;, _&#1055;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1080;&#1084;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1090;&#1086;&#1088;&#1099;, &#1092;&#1091;&#1085;&#1082;&#1090;&#1086;&#1088;&#1099; &#1057;&#1077;&#1088;&#1088;&#1072; &#1080; &#1087;&#1077;&#173;&#1088;&#1077;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;_, &#1048;&#1079;&#1074;. &#1040;&#1053; &#1057;&#1057;&#1057;&#1056;. &#1057;&#1077;&#1088;. &#1084;&#1072;&#1090;&#1077;&#1084;., 53:6 (1989), 1183&#8211;1205 [pdf](http://www.mathnet.ru/links/99950da8b286808c64286a2820235651/im1153.pdf)
 
-* {#BondalKapranov90} [[Alexei I. Bondal]], [[Mikhail M. Kapranov]], _Representable functors, Serre functors, and mutations_, Mathematics of the USSR-Izvestiya **35** 3 (1990) 519-541 &lbrack;[doi:10.1070/IM1990v035n03ABEH000716](https://doi.org/10.1070/IM1990v035n03ABEH000716)&rbrack;
+* {#BondalKapranov90} [[Alexei I. Bondal]], [[Mikhail M. Kapranov]], _Representable functors, Serre functors, and mutations_, Mathematics of the USSR-Izvestiya **35** 3 (1990) 519-541 &lbrack;[doi:10.1070/IM1990v035n03ABEH000716](https://doi.org/10.1070/IM1990v035n03ABEH000716) [pdf](https://www.mathnet.ru/links/6ad8b932b7c8801d1b821034af7d08b2/im1153_eng.pdf)&rbrack;
  
 The following paper gives the corrected definition and also demonstrates the utility of the Serre functor as a tool for working with the derived category of coherent sheaves on a variety (c.f. [[Bondal-Orlov reconstruction theorem]]):
 
