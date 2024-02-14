@@ -96,6 +96,17 @@ $\,$
 
 * The [[character group]] of a torus $T^n$ is isomorphic to its [[fundamental group]], which is $\mathbb{Z}^n$. See also at _[[Pontryagin duality]]_ and at _[[moduli space of flat connections]]_.
 
+\begin{proposition}
+One has
+$$
+TC(T^n)
+=n+1
+$$
+for the [[topological complexity]].
+\end{proposition}
+
+([Farber 01, Theorem 13](#Farber01))
+
 
 ## Related concepts
 
@@ -137,6 +148,10 @@ On [[2-group]]-[[higher central extensions|extensions]] of torus groups:
 On the [[stable homotopy type]] of the torus:
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], Thm. 11.8  of: _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+
+On [[topological complexity]] of [[tori]] (or more general [[product topological space|products]] of [[spheres]])
+
+* {#Farber01} [[Michael Farber]], _Topological complexity of motion planning_ (2001), [arXiv:math/0111197](https://arxiv.org/abs/math/0111197);
 
 
 [[!redirects tori]]
