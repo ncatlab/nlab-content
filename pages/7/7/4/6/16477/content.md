@@ -8,7 +8,7 @@ A [[closed manifold|closed]] [[surface]] that does not admit an [[orientation]].
 ## Properties
 
 \begin{proposition}
-The topological complexity of the [[Klein bottle]] is $4$ (with convention $TC(*)=0$).
+The [[topological complexity]] of the [[Klein bottle]] is $4$ (with convention $TC(*)=0$).
 \end{proposition}
 
 ([Cohen & Vandembrouq 16, Theorem 1](#CohenVandembroucq16))
