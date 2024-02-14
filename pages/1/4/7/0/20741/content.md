@@ -97,7 +97,12 @@ Textbook account:
 
 * Daniel A. Roberts, Sho Yaida, Boris Hanin, *The Principles of Deep Learning Theory*, Cambridge University Press 2022 ([arXiv:2106.10165](https://arxiv.org/abs/2106.10165))
 
-On the learning algorithm as analogous to differential equations and dynamical systems:
+Lecture notes:
+
+* Yasaman Bahri, Boris Hanin, Antonin Brossollet, Vittorio Erba, Christian Keup, Rosalba Pacelli, James B. Simon, *Les Houches Lectures on Deep Learning at Large & Infinite Width* &lbrack;[arXiv:2309.01592](https://arxiv.org/abs/2309.01592)&rbrack;
+
+
+On the learning algorithm as related to [[differential equations]] and [[dynamical systems]]:
 
 * {#CMHRBH17} Bo Chang, Lili Meng, Eldad Haber, Lars Ruthotto, David Begert, Elliot Holtham, *Reversible Architectures for Arbitrarily Deep Residual Neural Networks*, ([arXiv:1709.03698](https://arxiv.org/abs/1709.03698))
 
