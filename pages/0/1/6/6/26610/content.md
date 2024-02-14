@@ -14,11 +14,23 @@
 * table of contents
 {:toc}
 
-The topological complexity is a [[topological invariant]] connected to the problem of motion planning and the [[immersion]] problem of [[real projective space]]. It was introduced by [[Michael Farber]] in 2001.
+The *topological complexity* &lbrack;[Farber 2001](#Farber01)&rbrack; of a [[topological space]] is a [[topological invariant]] related to the problem of motion planning and the [[immersion]] problem of [[real projective space]].
 
 ## Definition
 
-For a [[topological space]] $X$ its _topological complexity_ $TC(X)$ is the smallest number $n$, so that there is an [[open cover]] $(U_k)_{k=1}^n$ of $n$ [[open subsets]] of $X\times X$ with local sections $s_k\colon X\times X\rightarrow PX$ of the evaluation map $PX\rightarrow X\times X,\gamma\mapsto(\gamma(0),\gamma(1))$ of the [[path space]] $PX$. It is also possible to define it using the [[Schwarz genus]] of the path space fibration $\Omega X\hookrightarrow PX\rightarrow X$.
+For a [[topological space]] $X$ its _topological complexity_ $TC(X)$ is the smallest number $n$, so that there is an [[open cover]] $(U_k)_{k=1}^n$ of $X\times X$ by $n$ [[open subsets]] addmitting [[local sections]] $s_k\colon X\times X\rightarrow P X$ of the [[evaluation map]] 
+
+$$
+  \array{
+    P X &\rightarrow& X\times X
+    \\
+    \gamma &\mapsto &(\gamma(0),\gamma(1))
+  }
+$$ 
+
+of the [[path space]] $P X$. 
+
+It is also possible to define it using the [[Schwarz genus]] of the path space fibration $\Omega X\hookrightarrow P X\rightarrow X$.
 
 There is also the convention of using the smallest number $n$, so that an [[open cover]] $(U_k)_{k=0}^n$ of $n+1$ [[open sets]] of $X\times X$ with the above property exists. This lowers all topological complexities by one, hence the convention used can be given by giving the topological complexity of the set with one point. ($TC(*)=1$ for the upper convention and $TC(*)=0$ for the lower convention.)
 
@@ -138,7 +150,7 @@ For $n \geq 2$ and $g \geq 2$ one has
   \label{TopologicalComplexityOfConnectedSumOfRealProjectiveSpace}
     TC
     \big(
-      (\mathbb{R}P^n)^g
+      (\mathbb{R]P^n)^g
     \big)
     \;=\;
     2n
@@ -180,10 +192,6 @@ The topological complexity of the [[Klein bottle]] is $4$ (with convention $TC(*
 ([Farber & Grant 08, Theorem 1](#FarberGrant08))
 
 ## References
-
-See also:
-
-* Wikipedia, [[topological complexity|https://en.wikipedia.org/wiki/Topological_complexity]]
 
 Definition and basic properties of topological complexity:
 
