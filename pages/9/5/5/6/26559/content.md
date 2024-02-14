@@ -1,5 +1,9 @@
 
-> under construction (using material from part I of *[[schreiber:Introduction to Hypothesis H]]*)
+> under construction 
+
+> a `pdfLaTeX`ed version of this page is at: *[[schreiber:Flux Quantization]]*
+
+> 
 
 > this entry is one section of "[[geometry of physics]]"
 
