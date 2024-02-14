@@ -83,12 +83,17 @@ $$
 
 ## Related concepts
 
-See also 
+* [[loop space]]
 
 * [[path groupoid]];
 
 * [[fundamental groupoid]];
 
+* [[topological complexity]]
+
+* [[path space object]]
+
+* [[identity type]]
 
 
 [[!redirects path space]]
