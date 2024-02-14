@@ -251,7 +251,7 @@ Discussion of [[phenomenology]]/[[string phenomenology]] for the [[heterotic M-t
 
 and with emphasis on [[heterotic line bundle]]-models:
 
-* [[Sebastian Dumitru]], *The strongly coupled $E_8 \times E_8$ heterotic string: Geometry & Phenomenology* &lbrack;[arXiv:2206.12310](https://arxiv.org/abs/2206.12310)&rbrack;
+* [[Sebastian Dumitru]], *The strongly coupled $E_8 \times E_8$ heterotic string: Geometry & Phenomenology* &lbrack;[arXiv:2206.12310](https://arxiv.org/abs/2206.12310), [spire:2100628](https://inspirehep.net/literature/2100628)&rbrack;
 
 See also:
 
