@@ -62,7 +62,7 @@ One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ 
     }
 \end{imagefromfile}
 
-For $p \in S^n$ one of the corresponding poles, the _stereorgraphic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
+For $p \in S^n$ one of the corresponding poles, the _stereographic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
 
 
 
