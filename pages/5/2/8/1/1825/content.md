@@ -90,7 +90,53 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 * These spheres, or rather their underlying [[topological spaces]] or [[simplicial set|simplicial sets]], are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
 
-* [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]). 
+* [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]).
+
+\begin{proposition}
+The [[topological complexity]] of the sphere is
+\[
+  \label{TopologicalComplexityOfSpheres}
+    TC
+    \big(
+      S^n
+    \big)
+    \;=\;
+    \left\{
+    \begin{array}{ll}
+       2 & ; n \quad odd
+       \\
+       3 & ; n \quad even
+    \end{array}
+    \right.
+\]
+\end{proposition}
+
+([Farber 01, Theorem 8](#Farber01))
+
+This proposition can be generalized:
+
+\begin{proposition}
+The [[topological complexity]] of a product of spheres is
+\[
+  \label{TopologicalComplexityOfProductOfSpheres}
+    TC
+    \big(
+      (S^m)^n
+    \big)
+    \;=\;
+    \left\{
+    \begin{array}{ll}
+       n+1 & ; m \quad odd
+       \\
+       2n+1 & ; m \quad even
+    \end{array}
+    \right.
+\]
+\end{proposition}
+
+([Farber 01, Theorem 13](#Farber01))
+
+A special case of this proposition is $TC(T^n)=n+1$ for the [[topological complexity]] of the [[torus]].
 
 ### CW-structures
  {#CWstructures}
@@ -480,6 +526,13 @@ The ([[isotopy]] [[equivalence class|class]] of an) [[embedding of differentiabl
 ### Iterated loop spaces
 
 * {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+
+### Topological complexity
+
+On [[topological complexity]] of spheres and [[product topological space|products]] of spheres (including [[tori]] as special case):
+
+* {#Farber01} [[Michael Farber]], _Topological complexity of motion planning_ (2001), [arXiv:math/0111197](https://arxiv.org/abs/math/0111197);
+
 
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
