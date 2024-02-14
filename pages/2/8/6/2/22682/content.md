@@ -27,8 +27,7 @@ Braid representations from the [[monodromy]] of the [[Knizhnik-Zamolodchikov con
 
 and understood in terms of [[anyon statistics]]:
 
-* Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations*, Journal of High Energy Physics **2022** 15 (2022) $[$[arXiv:2112.07195](https://arxiv.org/abs/2112.07195), <a href="https://doi.org/10.1007/JHEP09(2022)015">doi:10.1007/JHEP09(2022)015</a>$]$
-
+* [[Xia Gu]], [[Babak Haghighat]], [[Yihua Liu]], *Ising- and Fibonacci-Anyons from KZ-equations*,  J. High Energ. Phys. **2022** 15 (2022) \[<a href="https://doi.org/10.1007/JHEP09(2022)015">doi:10.1007/JHEP09(2022)015</a>, [arXiv:2112.07195](https://arxiv.org/abs/2112.07195)\]
 
 
 Braid representations seen inside the [[topological K-theory]] of the [[braid group]]'s [[classifying space]]:
