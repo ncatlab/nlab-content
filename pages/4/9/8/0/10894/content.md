@@ -1,8 +1,7 @@
 [[!redirects M. Farber]]
-Michael Farber is a Professor of Mathematics at the University of Warwick. His research interests are in both pure and applied Algebraic Topology. Some of his recent research has been in stochastic algebraic topology.
+Michael Farber is Professor of Mathematics at the School of Mathematical Sciences, Queen Mary University of London. His research interests focus on applied and computational topology, topological robotics, applications of topology to statistics and computer science.
 
-
-* [webpage](http://www2.warwick.ac.uk/fac/sci/maths/people/staff/michael_farber/)
+* [webpage](https://www.qmul.ac.uk/maths/profiles/farberm.html)
 
 ## Selected writings
 
