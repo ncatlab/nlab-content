@@ -151,7 +151,7 @@ Note that if $G$ is finite, then $k[G]\cong k(G)$ as $k$-modules, but the Hopf a
 
 ###  The theorem of Hopf modules 
 
-Hopf algebras can be characterized among bialgebras by the fundamental theorem on [[Hopf module|Hopf modules]]: the category of Hopf modules over a bialgebra is canonically equivalent to the category of vector spaces over the ground ring iff the bialgebra is a Hopf algebra.  This categorical fact enables a definition of Hopf monoids in some setups that do not allow a sensible definition of antipode.
+Hopf algebras can be characterized among bialgebras by the [fundamental theorem of Hopf modules](https://ncatlab.org/nlab/show/Hopf+module#fundamental_theorem_on_hopf_modules): the category of Hopf modules over a bialgebra is canonically equivalent to the category of vector spaces over the ground ring iff the bialgebra is a Hopf algebra.  This categorical fact enables a definition of Hopf monoids in some setups that do not allow a sensible definition of antipode.
 
 ### Relation to Lie algebras
 
