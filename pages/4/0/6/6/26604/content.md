@@ -1,1 +1,2 @@
-The signature of a structure is the union of the collection of constant symbols, function symbols, and  relation symbols in the language of said structure. Each relation and function symbol need have a finite "arity".
+
+see *[[signature (in logic)]]*
