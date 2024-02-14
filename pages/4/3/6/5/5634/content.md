@@ -22,6 +22,24 @@
 
 What is known in the literature as _discrete torsion_ ([Vafa 86](#Vafa86)) are phenomena of [[equivariant ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]] ([Sharpe 99](#Sharpe99)) and of [[circle n-bundle with connection|circle 3-bundles with connection]] (e.g. represented as [[bundle 2-gerbes]]) modelling the [[supergravity C-field]] on [[orbifolds]] ([Sharpe 00](#Sharpe00)), as in [[M-theory on G2-manifolds]] with [[ADE-singularities]].
 
+## Classification
+
+Discrete torsion first arose in the context of 2d orbifold partition functions in [Vafa 86](#Vafa86), where it was noted that the twisted sectors could be multiplied by nontrivial $U(1)$ phases. By imposing requirements on these phases, such as respecting modular invariance, and multi-loop factorization (that the genus $2$ phase factor is equal to the product of two genus $1$ phase factors whenever the generators $a_{1(2)}$ of the fundamental group commute with the generators $b_{1(2)}$, respectively), it was observed that consistent phases are described by group 2-cocycles
+
+$$
+\omega\in Z^2(G,U(1))
+$$
+
+for $G$ the orbifold group with trivial action on $U(1)$, and that 2-coboundaries yield trivial phases. This gives a classification of discrete torsion in terms of the second group cohomology group $H^2(G,U(1))$. Concretely, the orbifold partition function of a genus $1$ surface with discrete torsion $\omega\in Z^2(G,U(1))$ is
+
+$$
+Z = \sum_{g,h\in G} \frac{\omega(g,h)}{\omega(h,g)} Z_{g,h}
+$$
+
+for $g,h$ commuting pairs. The phase factor, even though it is formulated in terms of cocycles, only depends on the cohomology class of discrete torsion, since it is clearly invariant under shifts by coboundaries.
+
+This classification was observed again in [Sharpe 99](#Sharpe99), where such 2-cocycles were interpreted as actions of the orbifold group $G$ on a U(1) 2-bundle, and extended to the three-dimensional case in [Sharpe 00](#Sharpe00), with the actions now being classified by the *third* cohomology group $H^3(G,U(1))$ (under simplifying assumptions).
+
 ## Related concepts
 
 * [[equivariant ordinary differential cohomology]]
