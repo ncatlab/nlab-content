@@ -92,7 +92,6 @@ Discussion in terms of [[conformal nets]]:
 
 * {#BartelsDouglasHenriques14} [[Arthur Bartels]], [[Christopher Douglas]], [[André Henriques]], _Conformal nets II: conformal blocks_ ([arXiv:1409.8672](http://arxiv.org/abs/1409.8672))
 
-
 See also
 
 * A. Tsuchiya, [[Kenji Ueno]], Y. Yamada, _Conformal field theory on universal family of stable curves with gauge symmetries_, Adv. Studies in Pure Math. __19__, 459--566, Academic Press (1989) [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92a:81191)
@@ -112,6 +111,11 @@ In particular, argument that the higher conformal blocks of the [[D=6 N=(2,0) SC
 
 * {#Witten09} [[Edward Witten]], [p. 22](https://arxiv.org/pdf/0905.2720.pdf#page=22) of: *Geometric Langlands From Six Dimensions*, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes **50** AMS (2010) &lbrack;[arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50)&rbrack;
 
+Conformal blocks for [[Liouville theory]]:
+
+* [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
+
+* [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
 
 
 ### Relation to theta functions
