@@ -182,7 +182,7 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 
 ### Relation to monads
 
-See at _[monad -- Relation to adjunctions](monad#RelationToAdjunctionsAndMonadicity)_.
+See at _[monad -- Relation between adjunctions and monads](monad#RelationBetweenAdjunctionsAndMonads)_.
 
 
 
