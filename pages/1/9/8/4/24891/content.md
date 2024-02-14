@@ -1,5 +1,5 @@
 
-* [institute page](https://homepages.uni-regensburg.de/~wos07573/paper.html)
+* [institute page](https://homepages.uni-regensburg.de/~wos07573/)
 
 ## Selected writings
 
