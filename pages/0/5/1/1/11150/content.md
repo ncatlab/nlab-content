@@ -113,6 +113,12 @@ Further discussion:
 
 * Pavel Haman, Alfredo Iorio, *Classical gravitational anomalies of Liouville theory* &lbrack;[arXiv:2306.09825](https://arxiv.org/abs/2306.09825)&rbrack;
 
+On [[conformal blocks]] for [[Liouville theory]]:
+
+* [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
+
+* [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
+
 
 category: physics
 
