@@ -9,6 +9,11 @@ Mikhail Kapranov is a professor of mathematics at Kavli IPMU in Tokyo.
 
 ## Selected writings
 
+Introducing [[Serre functors]]:
+
+* {#BondalKapranov90} [[Alexei I. Bondal]], [[Mikhail M. Kapranov]], _Representable functors, Serre functors, and mutations_, Mathematics of the USSR-Izvestiya **35** 3 (1990) 519-541 &lbrack;[doi:10.1070/IM1990v035n03ABEH000716](https://doi.org/10.1070/IM1990v035n03ABEH000716)&rbrack;
+
+
 On [[Rozansky-Witten invariants]]:
 
 * {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
@@ -48,3 +53,5 @@ category: people
 [[!redirects Михайл Капранов]]
 [[!redirects Капранов]]
 [[!redirects M. Kapranov]]
+
+[[!redirects Mikhail M. Kapranov]]
