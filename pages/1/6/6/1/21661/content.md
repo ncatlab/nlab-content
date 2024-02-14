@@ -47,7 +47,7 @@ Heterotic line bundle models were first considered in
 * {#AndersonGrayLukasPalti11} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_, Phys. Rev. D 84, 106005 (2011) ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
 
-* {#AndersonGrayLukasPalti12} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_, JHEP06 (2012) 113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
+* {#AndersonGrayLukasPalti12} [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], *Heterotic Line Bundle Standard Models*, JHEP **2012** 113 (2012) 06 &lbrack;[arXiv:1202.1757](https://arxiv.org/abs/1202.1757), <a href=" https://doi.org/10.1007/JHEP06(2012)113">doi:10.1007/JHEP06(2012)113</a>&rbrack;
 
 The resulting scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[heterotic line bundle models]]:
 
