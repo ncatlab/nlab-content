@@ -39,7 +39,7 @@
 ## Idea
 
 
-_Stereographic projection_ is the name for a specific [[homeomorphism]] (for any $n \in \mathbb{N}$) form the [[n-sphere]] $S^n$ with one point $p \in S^n$ removed to the [[Euclidean space]] $\mathbb{R}^n$ 
+_Stereographic projection_ is the name for a specific [[homeomorphism]] (for any $n \in \mathbb{N}$) from the [[n-sphere]] $S^n$ with one point $p \in S^n$ removed to the [[Euclidean space]] $\mathbb{R}^n$ 
 
 $$
   S^n \backslash \{p\} \overset{\simeq}{\longrightarrow} \mathbb{R}^n
