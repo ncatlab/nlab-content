@@ -132,7 +132,7 @@ Textbook accounts:
 
   > on [[black holes]], [[cosmology]] and the ([[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation of]]) [[supergravity]]
 
-Lecture notes
+Lecture notes:
 
 * [[Matthias Blau]], _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
@@ -140,10 +140,16 @@ Lecture notes
 
 * Pietro Menotti, _Lectures on gravitation_ ([arXiv:1703.05155](https://arxiv.org/abs/1703.05155))
 
-
 See also 
 
 * {#Coley18} [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
+
+On gravity in relation to [[thermodynamics]]:
+
+* [[Thanu Padmanabhan]], *Gravity and/is Thermodynamics*,  Current Science, **109** (2015) 2236-2242 &lbrack;[doi:10.18520/v109/i12/2236-2242](https://doi.org/10.18520/v109/i12/2236-2242)&rbrack;
+
+* [[Thanu Padmanabhan]], *Exploring the Nature of Gravity*, talk notes &lbrack;[arXiv:1602.01474](https://arxiv.org/abs/1602.01474)&rbrack;
+
 
 Discussion of classical gravity via its [[perturbative quantum field theory]]:
 
