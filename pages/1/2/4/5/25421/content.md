@@ -52,6 +52,12 @@ Reviewed in:
 
 * [[Konrad Waldorf]], *String structures and loop spaces*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12998](https://arxiv.org/abs/2312.12998)&rbrack;
 
+Compare also 
+
+* Alessandra Capotosti, *[[From String structures to Spin structures on loop spaces]]*, Ph. D. thesis, Università  degli Studi Roma Tre, Rome (2016)
+
+and other references at *[[smooth loop space]]*.
+
 
 
 [[!redirects stringor bundles]]
