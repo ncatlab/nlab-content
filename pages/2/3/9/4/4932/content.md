@@ -34,6 +34,10 @@ On the [[cobordism ring]]:
 
 * {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
 
+On [[Whitehead torsion]]:
+
+* {#Milnor66} [[John Milnor]], _Whitehead torsion_, In: Bull. Amer. Math. Soc., 72, 1966, p. 358–426. [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf)
+
 On [[bilinear forms]]:
 
 * [[John Milnor]], [[Dale Husemöller]], *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
