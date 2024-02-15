@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -36,9 +37,7 @@ $$
 $$
 
 
-of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$; specifically -- 
-under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] underlying $\mathbb{C}^{d+1}$ -- 
-by the [[action]] induced from a [[linear representation]] of the form
+of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$; specifically --- under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] underlying $\mathbb{C}^{d+1}$ --- by the [[action]] induced from a [[linear representation]] of the form
 
 $$
   \array{
@@ -76,25 +75,30 @@ Often this is considered by default for $2d + 1 = 3$, in which case lens spaces 
 ### Classification
 
 \begin{theorem}
-Two lens spaces $L(n,\{l_i\}_{i=0}^d)$ and $L(n,\{l_i'\}_{i=0}^d)$ are [[homotopy equivalent]] iff there exists a $k\in\mathbb{N}$ with
+
+Two lens spaces $L\big(n,\{l_i\}_{i=0}^d\big)$ and $L\big(n,\{l'_i\}_{i=0}^d\big)$ are [[homotopy equivalent]] iff there exists a $k\in\mathbb{N}$ with
 $$
-l_0\cdot\ldots\cdot l_d
-\equiv k^d l_0'\cdot\ldots\cdot l_d' \mod n.
+  l_0\cdot\ldots\cdot l_d
+  \;\equiv\; 
+  k^d l'_0 \cdot \ldots \cdot l'_d \mod n
+  \,.
 $$
 \end{theorem}
 
-([Olum 53](#Olum53))
+([Olum 1953](#Olum53))
 
 \begin{theorem}
-Two lens spaces $L(n,\{l_i\}_{i=0}^d)$ and $L(n,\{l_i'\}_{i=0}^d)$ are [[homeomorphic]] iff there exists a $k\in\mathbb{N}$ and a [[permutation]] $\sigma\in Sym_d$ with
+Two lens spaces $L\big(n,\{l_i\}_{i=0}^d\big)$ and $L\big(n,\{l'_i\}_{i=0}^d\big)$ are [[homeomorphic]] iff there exists a $k\in\mathbb{N}$ and a [[permutation]] $\sigma\in Sym_d$ with
 $$
-l_i
-\equiv \pm k l_{\sigma(i)}' \mod n
+  l_i
+  \;\equiv\; 
+  \pm k l'_{\sigma(i)} \mod n
 $$
-for all $i=0,\ldots,d$.
+for all $i=0,\ldots, d$.
+
 \end{theorem}
 
-([Brody 60](#Brody60)), ([Milnor 66](#Milnor66))
+([Brody 1960](#Brody60), [Milnor 1966](#Milnor66))
 
 In both theorems, the same $n$ for both lens spaces is a necessary condition for them to be [[homeomorphic]] or [[homotopy equivalent]] as follows with their respective [[fundamental group]].
 
@@ -159,7 +163,8 @@ On classification of lens spaces:
 
 * {#Brody60} [[E. J. Brody]], _The topological classification of the lens spaces_, Ann. of Math. (2) 71 (1960), 163–184. MR0116336 (22 #7125) Zbl 0119.18901
 
-* {#Milnor66} [[John Milnor]], _Whitehead torsion_, In: Bull. Amer. Math. Soc., 72, 1966, p. 358–426. [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf)
+* {#Milnor66} [[John Milnor]], *Whitehead torsion*, Bull. Amer. Math. Soc. **72** (1966) 358–426 &lbrack;[doi:10:1090/S0002-9904-1966-11484-2](https://www.ams.org/journals/bull/1966-72-03/S0002-9904-1966-11484-2), [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf), [jstor:bams/1183527946](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-72/issue-3/Whitehead-torsion/bams/1183527946.full)&rbrack;
+
 
 
 [[!redirects lens spaces]]
