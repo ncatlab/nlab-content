@@ -170,7 +170,7 @@ Formalization of modalities in [[homotopy type theory]] ([[modal homotopy type t
 
 * {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
 
-* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_,  Logical Methods in Computer Science, January 8, 2020, Volume 16, Issue 1 ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526), [episciences:6015](https://lmcs.episciences.org/6015))
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], *Modalities in homotopy type theory*,  Logical Methods in Computer Science, **16** 1 (2020) &lbrack;[arXiv:1706.07526](https://arxiv.org/abs/1706.07526), [episciences:6015](https://lmcs.episciences.org/6015), <a href="https://doi.org/10.23638/LMCS-16(1:2)2020">doi:10.23638/LMCS-16(1:2)2020</a>&rbrack;
 
 * [[Mike Shulman]], _[http://homotopytypetheory.org/2015/07/05/modules-for-modalities/](http://homotopytypetheory.org/2015/07/05/modules-for-modalities/)_  (2015)
 
