@@ -232,7 +232,7 @@ A detailed proof of this is in ([Waldorf, lemma A.1.7](#Waldorf))
 
 The usual notions of _[[G-structures]]_ for [[manifolds]], such as [[orientation]], [[spin structure]], [[string structure]], etc. do not carry over directly to their smooth loop spaces, but they are closely related by [[transgression]]: a [[spin structure]] on $X$ is supposed to induce a kind of orientation structure on $\Omega X$, a string structure on $X$ is supposed to induce a kind of spin structure on $\Omega X$.
 
-Formalizations of such "smooth loop space $G$-structures" have been proposed in  ([Stolz-Teichner 2005](#Stolz)), ([Waldorf 2010](#Waldorf10))  and ([Waldorf 2012](#Waldorf12)). In particular an equivalence between spin structures on smooth loop space and [[string structure]] on the underlying space is discussed in ([Waldorf 14](#Waldorf14)).
+Formalizations of such "smooth loop space $G$-structures" have been proposed in  ([Stolz-Teichner 2005](#Stolz)), ([Waldorf 2011](#Waldorf11))  and ([Waldorf 2016](#Waldorf16)). In particular an equivalence between spin structures on smooth loop space and [[string structure]] on the underlying space is discussed in ([Waldorf 14](#Waldorf14)).
 
 
 
@@ -355,6 +355,8 @@ When unwrapping what all this means, one sees that the object $LoopSpace_x(X) \i
 
 * [[loop space]], [[free loop space]]
 
+* [[stringor bundle]]
+
 ## References
 
 A general standard reference on generalized smooth spaces is
@@ -380,16 +382,23 @@ Discussion of [[G-structures]] on smooth loop spaces is in the following article
 
 For [[orientation]] structure on loop space and its [[transgression]] from [[spin structure]] on target space (cf. *[[stringor bundle]]*):
 
-* {#Waldorf10} [[Konrad Waldorf]], _A Loop Space Formulation for Geometric Lifting Problems_ ([arXiv:1007.5373](http://arxiv.org/abs/1007.5373))
+* {#Waldorf11} [[Konrad Waldorf]], *A Loop Space Formulation for Geometric Lifting Problems*, Journal of the Australian Mathematical Society **90** 1 (2011) 129-144  &lbrack;[arXiv:1007.5373](http://arxiv.org/abs/1007.5373), [doi:10.1017/S1446788711001182 ](https://doi.org/10.1017/S1446788711001182 )&rbrack;
  
 For [[spin structure]] on loop spaces and its [[transgression]] from [[string structure]] on target space:
 
 * {#Stolz} [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) &lbrack;[pdf](http://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/MPI.pdf), [[Stolz-Teichner-SpinorOnLoopSpace.pdf:file]]&rbrack;
  
 
-* {#Waldorf12} [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
+* {#Waldorf16} [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_, Algebr. Geom. Topol. **16** (2016) 675-709 &lbrack;[arXiv:1209.1731](http://arxiv.org/abs/1209.1731), [doi:10.2140/agt.2016.16.675](https://doi.org/10.2140/agt.2016.16.675)&rbrack;
 
 * {#Waldorf14} [[Konrad Waldorf]], _String geometry vs. spin geometry on loop spaces_ ([arXiv:1403.5656](http://arxiv.org/abs/1403.5656))
+
+See also:
+
+* {#SperaWurzbacher07} Mauro Spera, Tilman Wurzbacher, *Twistor spaces and spinors over loop spaces*, Math. Ann. **338** (2007) 801–843 &lbrack;[doi:10.1007/s00208-007-0085-3](https://doi.org/10.1007/s00208-007-0085-3)&rbrack;
+
+* Alessandra Capotosti, *[[From String structures to Spin structures on loop spaces]]*, Ph. D. thesis, Università  degli Studi Roma Tre, Rome (2016)
+
 
 There are also sketchy notes in
 
