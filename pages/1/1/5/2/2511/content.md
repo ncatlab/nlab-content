@@ -9,7 +9,10 @@ The original articles on the [[D'Auria-Fre formulation of supergravity]]:
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 (<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]) 
 
-* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauging of $d = 11$ supergravity?_, Annals of Physics Volume 146, Issue 1, March 1983, Pages 35&#8211;77
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
+
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
@@ -33,6 +36,15 @@ On [[N=1 D=4 super Yang-Mills theory]] via [[D3 branes]] at resolved [[orbifold 
 On [[special geometry]]
 
 * [[Pietro Fré]], _Lectures on special Kähler geometry and electric-magnetic duality rotations_, Nucl. Phys. B Proc. Suppl. __45__:2-3, pp. 59--114 (1996) ([hep-th/9512043](https://arxiv.org/abs/hep-th/9512043) <a href"https://doi.org/10.1016/0920-5632(95)00629-X">doi</a>)
+
+Textbook on [[gravity]]:
+
+* [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
+
+and specifically on [[black holes]], [[cosmology]] and the ([[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation of]]) [[supergravity]]:
+
+* [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
+
 
 
 ## Related entries
