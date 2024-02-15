@@ -642,3 +642,9 @@ Discussions of spin structures as [[anomaly cancellation]] for the [[spinning pa
 [[!redirects spin manifolds]]
 [[!redirects spin-manifold]]
 [[!redirects spin-manifolds]]
+
+[[!redirects Spin manifold]]
+[[!redirects Spin manifolds]]
+[[!redirects Spin-manifold]]
+[[!redirects Spin-manifolds]]
+
