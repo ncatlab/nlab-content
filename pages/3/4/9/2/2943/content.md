@@ -146,10 +146,21 @@ Some formal generalizations of thermodynamical formalism include mixing time and
 
 Mathematical analogies and generalizations include also 
 
-* [[John Baez]], Mike Stay, _Algorithmic thermodynamics_, [pdf](http://math.ucr.edu/home/baez/thermo.pdf), [cafe](http://golem.ph.utexas.edu/category/2010/02/algorithmic_thermodynamics.html)
-* [[M. Marcolli]], Ryan Thorngren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
+* [[John Baez]], [[Mike Stay]], _Algorithmic thermodynamics_, [pdf](http://math.ucr.edu/home/baez/thermo.pdf), [cafe](http://golem.ph.utexas.edu/category/2010/02/algorithmic_thermodynamics.html)
+
+* [[M. Marcolli]], [[Ryan Thorngren]], _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
+
 * M. Zinsmeister, _Thermodynamic formalism and holomorphic dynamical systems_, Amer. Math. Soc. 2000.
+
 * I. Itenberg, G. Mikhalkin, _Geometry in the tropical limit_, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
+
+On [[gravity]] in relation to thermodynamics:
+
+* [[Thanu Padmanabhan]], *Gravity and/is Thermodynamics*,  Current Science, **109** (2015) 2236-2242 &lbrack;[doi:10.18520/v109/i12/2236-2242](https://doi.org/10.18520/v109/i12/2236-2242)&rbrack;
+
+* [[Thanu Padmanabhan]], *Exploring the Nature of Gravity*, talk notes &lbrack;[arXiv:1602.01474](https://arxiv.org/abs/1602.01474)&rbrack;
+
+
 
 
 
