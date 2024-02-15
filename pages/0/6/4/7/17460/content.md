@@ -28,7 +28,7 @@ $$
     \longrightarrow 
   \mathbf{B}^2\big(\mathbf{B}U(1)_{conn}\big)
 $$
-refining the [[first fractional Pontryagin class]] (following [[schreiber:Cech Cocycles for Differential characteristic Classes|Fiorenza, Schreiber & Stasheff 2012]]). This transgression map has been known for a while in the Physics literature, and a completely rigorous proof has
+refining the [[first fractional Pontryagin class]] (following [[schreiber:Cech Cocycles for Differential characteristic Classes|Fiorenza, Schreiber and Stasheff 2012]]). This transgression map has been known for a while in the Physics literature, and a completely rigorous proof has
 been then given by [[Konrad Waldorf]] in a series of papers. 
 
 Recall that a [[Spin manifold]] $X$ is endowed with a [[String
@@ -105,7 +105,7 @@ $$
   \colon 
   \mathbf{B}Spin_{conn} \to \mathbf{B}^3 U(1)_{conn}
 $$
-constructed in [[schreiber:Cech Cocycles for Differential characteristic Classes|Fiorenza, Schreiber & Stasheff 2012]].
+constructed in [[schreiber:Cech Cocycles for Differential characteristic Classes|Fiorenza, Schreiber and Stasheff 2012]].
 
 ## Related entries
 
