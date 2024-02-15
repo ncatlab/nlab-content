@@ -213,11 +213,11 @@ The history as of 1990s with an eye towards the development to [[M-theory]] is s
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
-* {#DAuriaFré82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140
+* {#DAuriaFré82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
  
 of which a textbook account is in 
 
-* {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapters III.8 and V.4-V.11 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapters III.8 and V.4-V.11 in vol 2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]&rbrack;
 
 
 The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 82](#DAuriaFre82) later reappears in (4.13) of
