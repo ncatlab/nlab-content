@@ -49,7 +49,7 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 ## Details
 
-> for the moment see [[D'Auria-Fre formulation of supergravity]] for further details
+> for the moment see *[[D'Auria-Fre formulation of supergravity]]* for further details
 
 ## Related concepts
 
