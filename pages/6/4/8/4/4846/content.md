@@ -17,7 +17,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -253,20 +252,24 @@ $$
   \,.
 $$
 
-+-- {: .num_note #SugraEOM}
-###### Claim
+\begin{proposition}
+\label{SugraEOM}
 
 A field configuration of [[11-dimensional supergravity]] is given by [[∞-groupoid of ∞-Lie algebra valued forms|L-∞ algebra valued differential forms]] with values in $\mathfrak{sugra}_6$. Among all of these the solutions to the equations of motion (the points in the [[covariant phase space]]) can be characterized as follows:
 
 A field configuration
 
 $$
-  \Omega^\bullet(X) \leftarrow \tilde W(\mathfrak{sugra}_6) : \Phi
+  \Omega^\bullet(X) 
+     \leftarrow 
+  \tilde W(\mathfrak{sugra}_6)  
+  \;\colon\; 
+  \Phi
 $$
 
 solves the equations of motion precisely if
 
-1. all [[curvature]]s sit in the ideal of differential forms spanned by the 1-form fields $E^a$ ([[vielbein]]) and $\Psi$ ([[gravitino]]); 
+1. all [[curvatures]] sit in the ideal of differential forms spanned by the 1-form fields $E^a$ ([[vielbein]]) and $\Psi$ ([[gravitino]]); 
 
    more precisely if we have
 
@@ -292,18 +295,71 @@ solves the equations of motion precisely if
 
 1. such that the coefficients of terms containing $\Psi$s are polynomials in the coefficients of the terms containing no $\Psi$s. ("rheonomy").
 
-=--
+\end{proposition}
 
-This is the content of [Castellani, D'Auria & Fré, section III.8.5](#CastellaniDAuriaFre).
+This is, in paraphrase, the content of [Castellani, D'Auria & Fré, section III.8.5](#CastellaniDAuriaFre).
 
-In particular this implies that on-shell the 4- and 7-field strength are indeed [[Hodge duality|Hodge dual]] to each other:
+\begin{remark}
+\label{EOMOfSuperCField}
+
+In particular, the [[Bianchi identity]] for the super-form enhancement of the [[supergravity C-field]] [[flux density]] is ([III.8.23j, 34, 35, 36](#CastellaniDAuriaFre)):
 
 $$
-  G_7 \propto \star G_4
-  \,.
+  \begin{array}{l}
+  \mathrm{d}\big(
+    F_{a_1 \cdots a_4}
+    e^{a_1} \wedge \cdots \wedge e^{a_4}
+    \,+\,
+    \mathrm{i}
+    \overline{\psi} \Gamma_{a_1 \cdots a_5} \psi
+    \,
+    e^{a_1} \wedge \cdots \wedge e^{a_5}
+  \big)
+  \\
+  \;=\;
+  -15
+  \big(
+    F_{a_1 \cdots a_4} 
+    e^{a_1} \wedge \cdots \wedge e^{a_4}
+    +
+    \tfrac{1}{2}
+    \overline{\psi}\Gamma_{a_1 a_2}\psi
+    \,
+    e^{a_1} \wedge e^{a_2}
+  \big)
+  \wedge
+  \big(
+    F_{a_1 \cdots a_4} 
+    e^{a_1} \wedge \cdots \wedge e^{a_4}
+    +
+    \tfrac{1}{2}
+    \overline{\psi}\Gamma_{a_1 a_2}\psi
+    \,
+    e^{a_1} \wedge e^{a_2}
+  \big)
+  \end{array}
 $$
 
-This is the content of [Castellani, D'Auria & Fre (III.8.52)](#CastellaniDAuriaFre).
+and its rheonomic solution implies for the "actual" [[flux densities]] $F_4 \coloneqq F_{a_1 \cdots a_4} e^{a_1} \wedge \cdots \wedge e^{a_4}\vert_{\psi=0}$ and $G_4 \coloneqq  G_{a_1 \cdots a_7} e^{a_1} \wedge \cdots e^{a_7} \vert_{\psi = 0}$ that
+
+1. the CJS [[higher gauge theory|higher]] [[Maxwell equation]] holds
+
+   $$
+     \mathrm{d}\, G_7 \;=\; - 15 F_4 \wedge F_4
+   $$
+
+   ([III.8.53](#CastellaniDAuriaFre))
+
+
+1. the [[Hodge duality|Hodge duality]] holds
+
+   $$
+     G_7 \star F_4
+   $$
+
+   ([III.8.52](#CastellaniDAuriaFre))
+
+\end{remark}
 
 ## Related concepts
 
@@ -334,7 +390,7 @@ Brief review is in:
 
 A monograph account is in:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 2, III.8.3 of: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html)&rbrack;
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 2, III.8.3 of: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]&rbrack;
  
 It was (apparently) rediscovered in:  
 
