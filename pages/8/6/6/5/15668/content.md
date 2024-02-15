@@ -51,7 +51,7 @@ More conceptual discussion, in the context of the [[function field analogy]], is
 
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
 
-* {Scholze17} [[Peter Scholze]], _p-adic geometry_, [arXiv:1712.03708](https://arxiv.org/abs/1712.03708)
+* {#Scholze17} [[Peter Scholze]], _p-adic geometry_, [arXiv:1712.03708](https://arxiv.org/abs/1712.03708)
 
 [[!redirects shtukas]]
 
