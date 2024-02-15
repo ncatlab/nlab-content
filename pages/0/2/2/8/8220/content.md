@@ -91,6 +91,9 @@ Textbook accounts:
 
 * [[John Peacock]], _Cosmological Physics_, Cambridge University Press (1998, 2012) &lbrack;[doi:10.1017/CBO9780511804533](https://doi.org/10.1017/CBO9780511804533), [book webpage](http://www.roe.ac.uk/~jap/book.html)&rbrack;
 
+* [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
+
+
 Lecture notes:
 
 * [[Matthias Blau]], Part F of: *Lecture notes on general relativity* ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
