@@ -43,6 +43,8 @@ On the other hand, [Borsten, Kim & Saemann 2021](#BorstenKimSaemann21) argue tha
 
 * [[nonabelian differential cohomology]]
 
+* [[supergravity Lie 6-algebra]]
+
 ## References
 
 The original discussion for the special case of [[string 2-connections]] and their higher analogs (such as [[Fivebrane structure|fivebrane]] 6-connections, [[Ninebrane structure|Ninebrane]] 10-connections etc.):
