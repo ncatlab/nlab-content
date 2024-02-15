@@ -106,7 +106,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
-* [[Radon-Nikodym theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_martingales).
+* [[Radon-Nikodym theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales).
 
 * [[support|Supports]] of [[probability measures]]: studied in terms of [[probability monads]] in [Fritz-Perrone-Rezagholi'21](#monads_supports) and in terms of [[Markov categories]] in [FGLPS'23](#markov_supports)
 
