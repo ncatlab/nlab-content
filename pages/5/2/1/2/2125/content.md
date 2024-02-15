@@ -184,14 +184,14 @@ See also section 2.3 of ([SchwedeShipley](#SchwedeShipley)).
 The lax monoidal transformation that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
 
 $$
-  \nabla_{A,B} : (N_\bullet A) \otimes (N_\bullet B))
+  \nabla_{A,B} : (N_\bullet A) \otimes (N_\bullet B)
   \to N_\bullet (A \otimes B)
 $$
 
 on a pair $A,B$ of simplicial abelian groups is the morphism of [[chain complex]]es that sends homogeneous elements $a_p\otimes b_q \in A_p \otimes B_q =: C_p(A) \otimes C_q(B)$ to
 
 $$
-  \nabla_{A,B}(a \otimes B)
+  \nabla_{A,B}(a \otimes b)
   =
   \sum_{(\mu,\nu)}  sign(\mu,\nu) (s_\nu a) \otimes s_\mu(b) 
   \in
