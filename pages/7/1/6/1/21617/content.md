@@ -73,6 +73,31 @@ Often this is considered by default for $2d + 1 = 3$, in which case lens spaces 
 
 ## Properties
 
+### Classification
+
+\begin{theorem}
+Two lens spaces $L(n,\{l_i\}_{i=0}^d)$ and $L(n,\{l_i'\}_{i=0}^d)$ are [[homotopy equivalent]] iff there exists a $k\in\mathbb{N}$ with
+$$
+l_0\cdot\ldots\cdot l_d
+\equiv k^d l_0'\cdot\ldots\cdot l_d' \mod n.
+$$
+\end{theorem}
+
+([Olum 53](#Olum53))
+
+\begin{theorem}
+Two lens spaces $L(n,\{l_i\}_{i=0}^d)$ and $L(n,\{l_i'\}_{i=0}^d)$ are [[homeomorphic]] iff there exists a $k\in\mathbb{N}$ and a [[permutation]] $\sigma\in Sym_d$ with
+$$
+l_i
+\equiv \pm k l_{\sigma(i)}' \mod n
+$$
+for all $i=0,\ldots,d$.
+\end{theorem}
+
+([Brody 60](#Brody60)), ([Milnor 66](#Milnor66))
+
+In both theorems, the same $n$ for both lens spaces is a necessary condition for them to be [[homeomorphic]] or [[homotopy equivalent]] as follows with their respective [[fundamental group]].
+
 ### Homotopy theory
 
 Lens spaces are the only [[3-manifolds]] with [[finite group|finite]], [[cyclic group|cyclic]], [[trivial group|non-trivial]] [[fundamental group]]. The reverse direction of this statement (that a 3-manifold with such a fundamental group must be a lens space) is closely related to the [[Poincaré conjecture]].
@@ -128,7 +153,13 @@ On the [[3d-3d correspondence]] for lens spaces:
 
 * [[Du Pei]], Chapter III of: _3d-3d correspondence for Seifert manifolds_, 2016 ([spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a))
 
+On classification of lens spaces:
 
+* {#Olum53} [[Paul Olum]], _Mappings of manifolds and the notion of degree_, Ann. of Math. (2) *58* (1953), p. 458–480. [JSTOR:1969748](https://www.jstor.org/stable/1969748)
+
+* {#Brody60} [[E. J. Brody]], _The topological classification of the lens spaces_, Ann. of Math. (2) 71 (1960), 163–184. MR0116336 (22 #7125) Zbl 0119.18901
+
+* {#Milnor66} [[John Milnor]], _Whitehead torsion_, In: Bull. Amer. Math. Soc., 72, 1966, p. 358–426. [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf)
 
 
 [[!redirects lens spaces]]
