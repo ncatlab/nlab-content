@@ -18,33 +18,39 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _supergravity Lie 6-algebra_ is a [[super L-∞ algebra]] such that [[connection on an ∞-bundle|∞-connections]] with values in it encode
+The _supergravity Lie 6-algebra_ ([D'Auria & Fré 1982, p. 18](#DauriaFre82)) is (with hindsight, following [FSS15](#FSS15)) a [[super L-∞ algebra]] such that [[L-infinity algebra valued differential forms|$L_\infty$-algebra valued differential forms]] (local [[connection on an ∞-bundle|∞-connections]]) with values in it encode [[field history|field histories]] of
 
-* a [[vielbein]] field and a [[spin connection]], hence the [[first order formulation of gravity]] for a [[graviton]] field in 11-[[dimension]]s;
+1. the [[vielbein]] field with a [[spin connection]], 
 
-* a [[gravitino]] field;
+   hence the [[first order formulation of gravity]] for a [[graviton]] field 
 
-* the [[supergravity C-field]] in degree 3 _and_ its [[electric-magnetic duality|magnetic dual]].
+   in 10+1 dimensions;
 
-This is such that the [[field strength]]s and [[Bianchi identities]] of these fields are governed by certain fermionic [[L-∞ algebra cohomology|super L-∞ algebraic cocycles]] as suitable for [[11-dimensional supergravity]].
+1. the [[gravitino]] field;
+
+1. the [[supergravity C-field]] 
+
+   _and_ its [[electric-magnetic duality|magnetic dual]].
+
+This is such that the [[field strengths]] and [[Bianchi identities]] of these fields are governed by certain fermionic [[L-∞ algebra cohomology|super L-∞ algebraic cocycles]] as suitable for [[11-dimensional supergravity]].
+
 
 ## Definition
 
 +-- {: .num_prop #TheSevenCocycle}
 ###### Proposition
 
-The [[supergravity Lie 3-algebra]] $\mathfrak{sugra}_3(10,1)$ carries an [[L-∞ algebra cohomology|L-∞ algebra cocycle]] $\mu_7 \in CE(\mathfrak{sugra}_3(10,1))$ of degree 7, given in the standard generators $\{e^a\}$ ([[vielbein]]), $\{\omega^{a b}\}$ ([[spin connection]]) $\{\psi^\alpha\}$ ([[gravitino]]) and $\{c_3\}$ ([[supergravity C-field]]) by
+The [[supergravity Lie 3-algebra]] $\mathfrak{sugra}_3(10,1)$ carries an [[L-∞ algebra cohomology|L-∞ algebra cocycle]] $\mu_7 \in CE\big(\mathfrak{sugra}_3(10,1)\big)$ of degree 7, given in the standard generators $\{e^a\}$ ([[vielbein]]), $\{\omega^{a b}\}$ ([[spin connection]]) $\{\psi^\alpha\}$ ([[gravitino]]) and $\{c_3\}$ ([[supergravity C-field]]) by
 
 $$
   \mu_7
-   \coloneqq
+   \;\coloneqq\;
    \frac{i}{2}\bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
    +
   15 \mu_4 \wedge c_3
@@ -54,15 +60,17 @@ $$
 where
 
 $$
-  \mu_4 = \frac{i}{2}\bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
+  \mu_4 
+  \;=\; 
+  \frac{i}{2}\bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
 $$
 
 is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$, and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \propto \mu_4$.
 
 =--
 
-This appears in ([DAuria-Fre, page 18](#DAuriaFre)) and 
-[Castellani-DAuria-Fre, III.8.3](#CastellaniDAuriaFre).
+This appears (in the dual language of [[Chevalley-Eilenberg algebras]]) in [DAuria & FrFré 1982, page 18](#DAuriaFre) and 
+[Castellani, D'Auria & Fré 1991, §III.8.3](#CastellaniDAuriaFre).
 
 +-- {: .proof}
 ###### Proof
@@ -71,7 +79,8 @@ One computes
 
 $$
   \begin{aligned}
-    d_{CE} \mu_7 = 
+    d_{{}_{CE}} \mu_7 
+    \;=\;
     & 
      - \frac{5}{4} \bar \psi \wedge \Gamma^{a_1 \cdots a_4 b} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_4} \wedge \bar \psi \wedge \Gamma_b \psi
   \\
@@ -87,14 +96,16 @@ This expression vanishes due to the [[Fierz identities]]
 
 $$
   \bar \psi \wedge 
-  \Gamma^{a_1 \cdots a_4 b} \psi \wedge \bar \psi \wedge \Gamma_b \psi = 
+  \Gamma^{a_1 \cdots a_4 b} \psi \wedge \bar \psi \wedge \Gamma_b \psi 
+  \;=\; 
   3 \bar \psi \wedge \Gamma^{[a_1 a_2} \psi \wedge \bar \psi \wedge \Gamma^{a_3 a_4 ]} \psi
 $$
 
 and
 
 $$
-  \bar \psi \wedge \Gamma^{a b} \psi \wedge \bar \psi \wedge \Gamma_b \psi = 0 
+  \bar \psi \wedge \Gamma^{a b} \psi \wedge \bar \psi \wedge \Gamma_b \psi 
+  \;=\; 0 
   \,.
 $$
 
@@ -106,21 +117,24 @@ $$
 Hence if we write
 
 $$
-  g_4 \coloneqq \mu_4 = \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
+  g_4 \coloneqq \mu_4 
+  \;=\; 
+  \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
 $$
 
 and
 
 $$
   g_7 
-  \coloneqq
+  \;\coloneqq\;
   \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
 $$
 
 then 
 
 $$
-  d g_7 \propto g_4 \wedge g_4
+  \mathr,{d} g_7 
+  \;\propto\; g_4 \wedge g_4
   \,.
 $$
 
@@ -132,7 +146,6 @@ This is the structure of the [[equations of motion]] of the [[field strength]] $
 
 +-- {: .num_def #TheDefinition}
 ###### Definition
-
 
 The _supergravity Lie 6-algebra_ $\mathfrak{sugra}_{7}(10,1)$ is the [[super L-∞ algebra|super Lie 7-algebra]] that is the $b^6 \mathbb{R}$-[[L-∞ algebra cohomology|extension]] of $\mathfrak{sugra}_3(10,1)$ classified by the cocycle $\mu_7$ from def. \ref{TheSevenCocycle}.
 
@@ -191,12 +204,12 @@ $$
 
 =--
 
-This appears in [Castellani, D'Auria & Fre, (III.8.18)](#CastellaniDAuriaFre).
+This appears in [Castellani, D'Auria & Fré, (III.8.18)](#CastellaniDAuriaFre).
 
 +-- {: .num_remark}
 ###### Remark
 
-According to [Castellani-DAuria-Fre, comment below (III.8.18)](#CastellaniDAuriaFre): "no further extension is possible".
+According to [Castellani, D'Auria & Fré 1991, comment below (III.8.18)](#CastellaniDAuriaFre): "no further extension is possible".
 
 =--
 
@@ -205,10 +218,11 @@ According to [Castellani-DAuria-Fre, comment below (III.8.18)](#CastellaniDAuria
 ## Relation to $D = 11$ supergravity
   {#RelationToSupergravity}
 
-The supergravity Lie 6-algebra is something like the gauge $L_\infty$-algebra of [[11-dimensional supergravity]], in the sense discussed at _[[D'Auria-Fre formulation of supergravity]]_ .
+The supergravity Lie 6-algebra is something like the gauge $L_\infty$-algebra of [[11-dimensional supergravity]], in the sense discussed at _[[D'Auria-Fré formulation of supergravity]]_ .
 
-+-- {: .num_defn #ModifiedWeilAlgebra}
-###### Definition
+
+\begin{definition}
+\label{ModifiedWeilAlgebra}
 
 Write $W\big(\mathfrak{sugra}_6(10,1)\big)$ for the [[Weil algebra]] of the supergravity Lie 6-algebra.
 
@@ -226,14 +240,16 @@ $$
 
 and hence the differential of $g_7$ is accordingly modified in the unique way that ensures $d_{\tilde W}^2 = 0$ (yielding the modified [[Bianchi identity]] for $g_7$).
 
-=--
+\end{definition}
 
-This ansatz appears as ([CastellaniDAuriaFre, (III.8.24)](#CastellaniDAuriaFre)).
+This ansatz appears in [Castellani, D'Auria & Fré 1991 (III.8.24)](#CastellaniDAuriaFre).
 
-Note that this amounts simply to a redefinition of [[curvature]]s
+Note that this amounts simply to a redefinition of [[curvatures]]
 
 $$
-  \tilde g_7 := g_7 + 15 g_4 \wedge c_3
+  \tilde g_7 
+    \;\coloneqq\; 
+  g_7 + 15 g_4 \wedge c_3
   \,.
 $$
 
@@ -278,7 +294,7 @@ solves the equations of motion precisely if
 
 =--
 
-This is the content of ([CastellaniDAuriaFre, section III.8.5](#CastellaniDAuriaFre)).
+This is the content of [Castellani, D'Auria & Fré, section III.8.5](#CastellaniDAuriaFre).
 
 In particular this implies that on-shell the 4- and 7-field strength are indeed [[Hodge duality|Hodge dual]] to each other:
 
@@ -301,42 +317,35 @@ This is the content of [Castellani, D'Auria & Fre (III.8.52)](#CastellaniDAuriaF
 
 * [[adjusted Weil algebra]]
 
+
 ## References
 
-The supergravity Lie 6-algebra appears first in
+The supergravity Lie 6-algebra originates in:
 
-* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]]; p. 18 of: _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
+* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], p. 18 of: _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
 
+Brief review is in:
 
-and is recalled in
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], §4 of: *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
-* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], section 4 of: _Gauging of $d = 11$ supergravity?_, Annals of Physics
-Volume 146, Issue 1, March 1983, Pages 35&#8211;77
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], §3 of: *Free Differential Algebras, Rheonomy, and Pure Spinors* &lbrack;[arXiv:0801.3076](http://arxiv.org/abs/0801.3076), [inspire:777785](https://inspirehep.net/literature/777785)&rbrack;
 
+* [[Pietro Fré]], §6.4.1 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
-A textbook discussion is in section III.8.3 of 
+A monograph account is in:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], 
-
-  _[[Supergravity and Superstrings - A Geometric Perspective]]_
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 2, III.8.3 of: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html)&rbrack;
  
+It was (apparently) rediscovered in:  
 
-The same is being recalled for instance in section 3 of
+* {#CAIB99} C. Chrysso‌malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, around equation (8.8) in: _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
 
-* [[Pietro Fré]], Pietro Antonio Grassi, _Free Differential Algebras, Rheonomy, and Pure Spinors_ ([arXiv:0801.3076](http://arxiv.org/abs/0801.3076))
+where a detailed discussion is given.
 
-Then it is rediscovered around equation (8.8) in 
+These authors all consider the [[Chevalley-Eilenberg algebra]] ("FDA") of the actual [[super L-infinity algebra|super $L_\infty$-algebra]]. The latter and its relation to [[smooth super ∞-groupoids]] is considered in:
 
-* {#CAIB99} C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
- 
+* {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, Int. J. Geom. Meth. Modern Physics **12** 02 (2015) 1550018 &lbrack;[arXiv:1308.5264](http://arxiv.org/abs/1308.5264), [doi:10.1142/S0219887815500188](http://www.worldscientific.com/doi/abs/10.1142/S0219887815500188)&rbrack;
 
-which gives a detailed and comprehensive discussion.
-
-A discussion in the context of [[smooth super ∞-groupoids]] is in 
-
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+* [[Urs Schreiber]], last section of: _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
-in the last section of 
-
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
