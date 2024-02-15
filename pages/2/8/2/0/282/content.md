@@ -11,20 +11,23 @@
 
 This entry is about the book
 
-* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _Nonabelian Algebraic Topology: filtered spaces, crossed complexes, cubical homotopy groupoids_ Tracts in Mathematics 15, European Mathematical Society , [web](http://groupoids.org.uk/nonab-a-t.html), from which the full pdf is available.
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]:
 
-The publication details of the book are as follows:
+  \linebreak
 
+  **Nonabelian Algebraic Topology: filtered spaces, crossed complexes, cubical homotopy groupoids** 
 
-ISBN 978-3-03719-083-8,  DOI 10.4171/083
+  \linebreak
 
-August 2011, 703 pages, hardcover, 17 x 24 cm.
+  Tracts in Mathematics **15** 
 
-98.00 &#8364;
+  European Mathematical Society (2011) 
 
-(distribution via the AMS in October, 2011)
+  ISBN 978-3-03719-083-8
 
-The EMS allows a full pdf (with hyperref) on Ronnie Brown's web page,  [web](http://groupoids.org.uk/nonab-a-t.html).  
+  [doi:10.4171/083](https://doi.org/10.4171/083)
+
+  [webpage](http://groupoids.org.uk/nonab-a-t.html)
 
 This treats [[algebraic topology]] using tools of [[strict ∞-groupoid]]-theory: notably the traditional [[homological algebra]] use of [[chain complex]]es of abelian groups is generalized to [[crossed complex]]es, and emphasis is put on the notion of [[fundamental groupoid]] and its strict [[higher category theory|higher categorical]] generalizations to the cubical [[fundamental omega-groupoid]] of a filtered space over the bare [[homotopy group]]s of a space.
 
