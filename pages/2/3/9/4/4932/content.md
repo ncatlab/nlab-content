@@ -34,9 +34,9 @@ On the [[cobordism ring]]:
 
 * {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
 
-On [[Whitehead torsion]]:
+On [[Whitehead torsion]] and classification of [[lens spaces]]:
 
-* {#Milnor66} [[John Milnor]], _Whitehead torsion_, In: Bull. Amer. Math. Soc., 72, 1966, p. 358–426. [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf)
+* {#Milnor66} [[John Milnor]], *Whitehead torsion*, Bull. Amer. Math. Soc. **72** (1966) 358–426 &lbrack;[doi:10:1090/S0002-9904-1966-11484-2](https://www.ams.org/journals/bull/1966-72-03/S0002-9904-1966-11484-2), [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf), [jstor:bams/1183527946](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-72/issue-3/Whitehead-torsion/bams/1183527946.full)&rbrack;
 
 On [[bilinear forms]]:
 
