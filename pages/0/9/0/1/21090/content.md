@@ -765,7 +765,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 		\node [style=morphism] (23) at (2.25, 0) {$g$};
 \end{tikzpicture}
 
-In particular, every element $y\in Y$ can be seen as a *constant* function $X\to Y$ which does not really depends on $X$. 
+In particular, every element $y\in Y$ can be seen as a *constant* function $X\to Y$ which does not really depend on $X$. 
 
 As we will see, once probabilities are involved, copying and discarding will require particular care, due to the presence of possible correlation.
 Markov and CD categories allow us to keep track of these operations graphically, avoiding many possible pitfalls, and even using them to our advantage.
