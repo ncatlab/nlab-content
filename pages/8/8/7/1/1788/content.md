@@ -1,4 +1,25 @@
 
+$$
+  \begin{array}{l}
+  G_{a_1 \cdots a_4}
+  \Gamma^{a_1 \cdots a_4 b_1 \cdots b_7}
+  \overline{\psi} 
+  \Gamma_{b_1}
+  \psi
+  \,
+  e_{b_2} \cdots e_{b_7}
+  \;-\;
+  G_{a_1 \cdots a_4}
+  e^{a_1} \cdots e^{a_4}
+  \,
+  \overline{\psi}
+  \Gamma_{b_1 b_2}
+  \psi  
+  \,
+  e^{b_1} e^{b_2}
+  \end{array}
+$$
+
 * hhh
 
   > References:
@@ -74,65 +95,4 @@ $$
     0 & \;\text{if}\; n \lt o \;\text{or if}\; b \gt 5
   \end{array}
 $$
-
-[[GeomPhys-TwistedKtheory.jpg:file]]
-
-[[GeomPhys-DBraneAnnihilation-240210.jpg:file]]
-
-[[GeomPhys-TheDFMModel-240210.jpg:file]]
-
-[[GeomPhys-CupSquareClassifying-240210.jpg:file]]
-
-[[GeomPhys-LocalFluxQuantization.jpg:file]]
-
-[[GeomPhys-GlobalFluxQuantization.jpg:file]]
-
-[[GeomPhys-SimpSetOfFluxDeformations-240208.jpg:file]]
-
-[[GeomPhys-SmoothInfinityGroupoids-240207.jpg:file]]
-
-[[GeomPhys-HigherGaugeFieldAsHomotopy.jpg:file]]
-
-[[GeomPhys-SimpSetOfFluxDeformations-240206.jpg:file]]
-
-[[GeomPhys-GeometricSimplices.jpg:file]]
-
-[[GeomPhys-ChargesToFluxHomotopy.jpg:file]]
-
-[[GeomPhys-DifferentialCharacterMap.jpg:file]]
-
-[[GeomPhys-ModulatingFluxesAndCharges-240206.jpg:file]]
-
-[[GeomPhys-CechGroupoid.jpg:file]]
-
-[[GeomPhys-SmoothInfinityGroupoids-240206.jpg:file]]
-
-[[GeomPhys-HomotopyType.jpg:file]]
-
-[[GeomPhys-HomotopyEquivalence.jpg:file]]
-
-[[GeomPhys-TopologicalSimplices.jpg:file]]
-
-[[GeomPhys-KanCondition.jpg:file]]
-
-[[The2Horns.jpg:file]]
-
-[[GeomPhys-GroupoidOfYMFieldOnR3.jpg:file]]
-
-[[GeomPhys-GlobularAmongSimplicial.jpg:file]]
-
-[[GeomPhys-SimplicialSetSchematics.jpg:file]]
-
-[[GeomPhys-HigherGaugeTransformationSimplices.jpg:file]]
-
-[[GeomPhys-DeformationPathOfFluxDensities-240204.jpg:file]]
-
-[[GeomPhys-RationalizingHomotopyGroups-240204.jpg:file]]
-
-[[GeomPhys-CauchyEvolutionOfGaussLawData-240204.jpg:file]]
-
-[[GeomPhys-SimplicialSetOfFluxDeformations.jpg:file]]
-
-[[GeomPhys-DeformationPathOfFluxDensities.jpg:file]]
-
 
