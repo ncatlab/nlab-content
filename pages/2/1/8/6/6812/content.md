@@ -14,6 +14,10 @@ Secretly introducing [[super L-∞ algebras]] in their [[formal dual]] incarnati
 
 * {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in: *Group Theoretical Methods in Physics*, Lecture Notes in Physics **180**, Springer (1983) 228–247 &lbrack;[doi:10.1007/3-540-12291-5_29](https://doi.org/10.1007/3-540-12291-5_29), [spire:182644](http://inspirehep.net/record/182644)&rbrack;
 
+and the resulting [[D'Auria-Fré formulation of supergravity]]:
+
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
+
 On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
