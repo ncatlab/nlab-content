@@ -59,7 +59,7 @@ The above references do not contain proofs. For a sketch of the existence of fre
 
 The free bicompletion of a category $C$ under nonempty [[products]] and nonempty [[coproducts]] is characterised as the category of nonempty $C$-valued contractible [[coherence spaces]] and $C$-maximal maps in:
 
-* [[Hongde Hu]], _Contractible coherence spaces and maximal maps_, Electronic Notes in Theoretical Computer Science 20 (1999): 309-319.
+* [[Hongde Hu]], _Contractible coherence spaces and maximal maps_, Electronic Notes in Theoretical Computer Science 20 (1999): 309-319. ([link](https://core.ac.uk/download/pdf/82113252.pdf))
 
 A different approach for discrete categories is described in:
 
