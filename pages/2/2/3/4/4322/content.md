@@ -3,7 +3,7 @@
 
 [[cobordism theory]], _[[Introduction to Cobordism and Complex Oriented Cohomology|Introduction]]_
 
-## Definitions
+**Definitions**
 
 * [[locally Euclidean space]]
 
@@ -62,13 +62,14 @@
     * [[genus]]
 
 
-## Genera and invariants
+**Genera and invariants**
 
 * [[signature genus]], [[Kervaire invariant]]
 
 * [[A-hat genus]], [[Witten genus]]
 
-## Classification 
+
+**Classification**
 
 * [[2-manifolds]]/[[surfaces]]
 
@@ -84,7 +85,7 @@
 
   * [[exotic smooth structure]]
 
-## Theorems
+**Theorems**
 
 * [[Whitney embedding theorem]]
 
@@ -102,4 +103,5 @@
 
 * [[cobordism hypothesis]]-theorem
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/manifolds+and+cobordisms+-+contents)</div>
+
+
