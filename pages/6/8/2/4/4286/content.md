@@ -115,6 +115,9 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 
 * [[Robert Wald]], _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press 1994; _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__, 1 (1977)
 
+* [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
+
+
 With focus on regular black holes:
 
 * Chen Lan, Hao Yang, Yang Guo, Yan-Gang Miao, *Regular black holes: A short topic review* &lbrack;[arXiv:2303.11696](https://arxiv.org/abs/2303.11696)&rbrack;
