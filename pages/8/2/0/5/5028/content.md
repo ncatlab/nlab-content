@@ -5,7 +5,7 @@ Bas Spitters is professor for [[formal logic]] and [[computer science]] at Aarhu
 
 * [Concordium page](https://cs.au.dk/research/centers/concordium/about)
 
-## Publications
+## Selected writings
 
 On [[constructive mathematics|constructive]] [[integration]] theory:
 
@@ -34,6 +34,10 @@ On [[Bohr toposes]]:
 On [[mathematical structures]] formulated in [[dependent type theory]], specifically via [[ufias2012:Type classes]] in [[Coq]]:
 
 * [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119)&rbrack;
+
+On [[modalities]] in [[homotopy type theory]] ([[modal homotopy type theory]]):
+
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], *Modalities in homotopy type theory*,  Logical Methods in Computer Science, **16** 1 (2020) &lbrack;[arXiv:1706.07526](https://arxiv.org/abs/1706.07526), [episciences:6015](https://lmcs.episciences.org/6015), <a href="https://doi.org/10.23638/LMCS-16(1:2)2020">doi:10.23638/LMCS-16(1:2)2020</a>&rbrack;
 
 On [[software verification]] for [[blockchain]]-technology:
 
