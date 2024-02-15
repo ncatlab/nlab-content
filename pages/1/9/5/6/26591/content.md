@@ -161,6 +161,7 @@ See [[Markov category#kolmogorov_products|Markov category - Kolmogorov products]
 
 * [[probability theory]], [[categorical probability]]
 * [[filtered category]], [[filtered limit]]
+* [[infinitary tensor product]]
 * [[probability monad]], [[Giry monad]]
 * [[Markov category]], [[infinitary tensor product]]
 * [[joint and marginal distributions]]
