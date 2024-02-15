@@ -61,6 +61,11 @@ A detailed account is in
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section I.4.1 of _[[Supergravity and Superstrings - A Geometric Perspective]]_
 
+which is aimed at [[supergravity]]. For more on this case see also
+
+* [[Bernard Julia]], S. Silva, *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
+
+
 The equivalence of the [[phase space]] of Palatini-Cartan-Holst [[Lagrangian  field theory]] with the [[Einstein-Hilbert action|Einstein-Hilbert version]] is established in
 
 * {#CattaneoSchiavina17a} [[Alberto Cattaneo]], [[Michele Schiavina]], _The reduced phase space of Palatini-Cartan-Holst theory_, Ann. Henri Poincaré (2019) 20: 445 ([arXiv:1707.05351](https://arxiv.org/abs/1707.05351), [doi:10.1007/s00023-018-0733-z](https://doi.org/10.1007/s00023-018-0733-z))
