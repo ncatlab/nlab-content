@@ -59,7 +59,13 @@ The original discussion for the special case of [[string 2-connections]] and the
 
 * {#dcct13} [[Urs Schreiber]], Def. 5.2.91 on [p. 645](https://arxiv.org/pdf/1310.7930v1.pdf#page=645) in: *[[schreiber:dcct|differential cohomology in a cohesive topos]]* (2013-)
 
-General characterization of adjusted $\mathfrak{g}$-Weil algebras by requiring well-behaved [[BRST-complexes]] for [[L-infinity algebra valued differential forms|$L_\infty$-algebra valued differential forms]]:
+{#WithHindsight} With hindsight, an early example of such adjustment (namely for the  "[[supergravity Lie 6-algebra]]", see [there](supergravity+Lie+6-algebra#ModifiedWeilAlgebra)), is given in:
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 2, III (8.24) of: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html)&rbrack;
+
+(recognized as a "modified Weil algebra" in [revision 8, 2011](https://ncatlab.org/nlab/revision/diff/supergravity+Lie+6-algebra/8), long before the "adjusted"-terminology was proposed).
+
+Characterization of adjusted $\mathfrak{g}$-Weil algebras by requiring well-behaved [[BRST-complexes]] for [[L-infinity algebra valued differential forms|$L_\infty$-algebra valued differential forms]]:
 
 * {#SaemannSchmidt20} [[Christian Saemann]], [[Lennart Schmidt]], *Towards an M5-Brane Model II: Metric String Structures*, Fortschr. Phys. **68** (2020) 2000051 &lbrack;[arXiv:1908.08086](https://arxiv.org/abs/1908.08086), [doi:10.1002/prop.202000051](https://doi.org/10.1002/prop.202000051)&rbrack;
 
