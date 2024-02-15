@@ -134,7 +134,7 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 
 ## References
 
-* {#Hatcher} [[Alan Hatcher]], _[Algebraic topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 
 [[!redirects homotopy equivalences]]
