@@ -21,6 +21,9 @@ On a system with points $P,Q,\ldots$ and transition relations $\{\overset{\alpha
 Bisimilarity is the greatest bisimulation.
 \end{definition}
 
+Let $\mathrm{traces}(s)$ be the set of all possible (finite or infinite) transition sequences starting as $s$.
+Trace equivalence, defined as $s\sim t$ if and only if $\mathrm{traces}(s)=\mathrm{traces}(t)$, is a bisimulation.
+
 ### In category theory
 
 In Joyal-Nielsen-Winskel (p.13) is given the following definition. For what a "path category in a category of models" is, see there.
