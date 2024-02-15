@@ -148,7 +148,7 @@ Also, it turns out that the second and third of the above disadvantages of [[cub
 
 1. The first problem can't be avoided. See
 
-   Rosa, Antolini and Bert Wiest, _The singular cubical set of a topological space_ , Mathematical Proceedings of the Cambridge Philosophical Society, 126 (1),  (1999)
+   Rosa Antolini and Bert Wiest, _The singular cubical set of a topological space_ , Mathematical Proceedings of the Cambridge Philosophical Society, 126 (1),  (1999)
 
 1. The second problem is resolved, at least when restricting to [[strict omega-groupoid]]s by using [[connection on a cubical set|cubical sets with connection]]. See
 
