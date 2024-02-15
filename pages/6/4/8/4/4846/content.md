@@ -163,41 +163,40 @@ This means that the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{sugra}_6)$ is 
 with [[differential]] defined by
 
 $$
-  d_{CE}  : \omega^{a b} \mapsto \omega^{a c} \wedge \omega_c{}^b
-$$
-
-$$
-  d_{CE} : e^a = -\omega^{a b} e_b  - \frac{1}{2}i \bar \psi \wedge  \Gamma^a \psi
-$$
-
-$$
-  d_{CE} : \psi \mapsto - \frac{1}{4}\omega^{a b} \Gamma^{a b} 
-$$
-
-$$
-  d_{CE} : c_3 \mapsto \frac{1}{2} \bar \psi \wedge \Gamma^{a b} \psi \wedge e_a \wedge e_b
-$$
-
-$$
-  d_{CE} 
-   \colon
+  \begin{array}{ccl}
+  \omega^{a b} 
+  &\mapsto& 
+  \omega^{a c} \wedge \omega_c{}^b
+  \\
+  e^a 
+    &\mapsto&
+  -\omega^{a b} e_b  - \frac{1}{2}i \bar \psi \wedge  \Gamma^a \psi
+  \\
+  \psi &\mapsto& 
+   - \frac{1}{4}\omega^{a b} \Gamma^{a b} 
+  \\
+  c_3 
+  &\mapsto& 
+  \frac{1}{2} \bar \psi \wedge \Gamma^{a b} \psi \wedge e_a \wedge e_b
+  \\
   c_6 
-  \mapsto
+  &\mapsto&
   - \frac{1}{2} \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
   -
   \frac{13}{2} \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2} \wedge c_3
   \,.
+  \end{array}
 $$
 
 
 =--
 
-This appears as ([Castellani-DAuria-Fre, (III.8.18)](#CastellaniDAuriaFre)).
+This appears in [Castellani, D'Auria & Fre, (III.8.18)](#CastellaniDAuriaFre).
 
 +-- {: .num_remark}
 ###### Remark
 
-According to ([Castellani-DAuria-Fre, comment below (III.8.18)](#CastellaniDAuriaFre)): "no further extension is possible".
+According to [Castellani-DAuria-Fre, comment below (III.8.18)](#CastellaniDAuriaFre): "no further extension is possible".
 
 =--
 
@@ -211,14 +210,18 @@ The supergravity Lie 6-algebra is something like the gauge $L_\infty$-algebra of
 +-- {: .num_defn #ModifiedWeilAlgebra}
 ###### Definition
 
-Write $W(\mathfrak{sugra}_6(10,1))$ for the [[Weil algebra]] of the supergravity Lie 6-algebra.
+Write $W\big(\mathfrak{sugra}_6(10,1)\big)$ for the [[Weil algebra]] of the supergravity Lie 6-algebra.
 
 Write $g_4$ and $g_7$ for the shifted generators of the Weil algebra corresponding to $c_3$ and $c_6$, respectively.
 
-Define a modified Weil algebra $\tilde W(\mathfrak{sugra}_6(10,1))$ by declaring it to have the same generators and differential as before, except that the differential for $c_6$ is modified to
+Define an [[adjusted Weil algebra]] $\tilde W(\mathfrak{sugra}_6(10,1))$ by declaring it to have the same generators and differential as before, except that the differential for $c_6$ is modified to
 
 $$
-  d_{\tilde W} c_6 := d_{W} c_6  + 15 g_4 \wedge c_3  
+  d_{\tilde W} c_6 
+    \coloneqq
+  d_{W} c_6  
+    + 
+  15 g_4 \wedge c_3  
 $$
 
 and hence the differential of $g_7$ is accordingly modified in the unique way that ensures $d_{\tilde W}^2 = 0$ (yielding the modified [[Bianchi identity]] for $g_7$).
@@ -277,14 +280,14 @@ solves the equations of motion precisely if
 
 This is the content of ([CastellaniDAuriaFre, section III.8.5](#CastellaniDAuriaFre)).
 
-In particular this implies that on-shell the 4- and 7-field strength are indeed dual of each other
+In particular this implies that on-shell the 4- and 7-field strength are indeed [[Hodge duality|Hodge dual]] to each other:
 
 $$
   G_7 \propto \star G_4
   \,.
 $$
 
-This is the content of ([CastellaniDAuriaFre, equation (III.8.52)](#CastellaniDAuriaFre)).
+This is the content of [Castellani, D'Auria & Fre (III.8.52)](#CastellaniDAuriaFre).
 
 ## Related concepts
 
@@ -296,16 +299,18 @@ This is the content of ([CastellaniDAuriaFre, equation (III.8.52)](#CastellaniDA
 
 * [[M-theory super Lie algebra]]
 
+* [[adjusted Weil algebra]]
+
 ## References
 
-The supergravity Lie 6-algebra appears first on page 18 of
+The supergravity Lie 6-algebra appears first in
 
-* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]]; _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
- 
+* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]]; p. 18 of: _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
 
-and is recalled in section 4 of
 
-* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauging of $d = 11$ supergravity?_, Annals of Physics
+and is recalled in
+
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], section 4 of: _Gauging of $d = 11$ supergravity?_, Annals of Physics
 Volume 146, Issue 1, March 1983, Pages 35&#8211;77
 
 
