@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the [[D'Auria-Fré formulation of supergravity]]:
+
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
+
+
 On [[gauged supergravity|gauged]] [[D=7 supergravity]]:
 
 * M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], _Gauged Maximally Extended Supergravity in Seven Dimensions_ , Phys. Lett. 143B (1984) 103 ([spire:15064](https://inspirehep.net/literature/15064), <a href="https://doi.org/10.1016/0370-2693(84)90813-X">doi:10.1016/0370-2693(84)90813-X</a>)
