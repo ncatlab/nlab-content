@@ -62,11 +62,13 @@ In view of [[constructive mathematics]]:
 * {#Sbierski} Jan Sbierski, _On the Existence of a Maximal Cauchy Development for the Einstein Equations - a Dezornification_ [PDF](http://arxiv.org/abs/1309.7591)
 
 
-Doubting aspects of the theorem:
+Cautioning that the singularity theorem makes statements about non-extendible curves but *not* explicitly about "singularities" in the sense of points of diverging curvature:
 
 * [[Roy Kerr]], *Do Black Holes have Singularities?* &lbrack;[arXiv:2312.00841](https://arxiv.org/abs/2312.00841)&rbrack;
 
+Informed commentary is made in reply to [Physics.SE:q/790724](https://physics.stackexchange.com/q/790724/5603), especially  [Physics.SE:a/796154](https://physics.stackexchange.com/a/796154/5603):
 
+> Penrose's theorem guarantees, under certain hypotheses, that spacetime is null geodesically incomplete. &lbrack;...&rbrack; The primary point of Kerr's paper is that this theorem has nothing to do with the central ring singularity of his namesake spacetime. The theorem does not tell us that the ring singularity is there: the singularity could, in principle, be excised from the spacetime and replaced with a self-supporting stationary matter distribution without contradicting the theorem in any way. 
 
 
 
@@ -77,4 +79,4 @@ Doubting aspects of the theorem:
 
 [[!redirects Penrose-Hawking singularity theorems]]
 
-
+[[!redirects Penrose-Hawking theorem]]
