@@ -730,7 +730,7 @@ For an extensive list of relevant publications see
 
 Some selected references are:
 
-1. Olum, P., _Non-abelian cohomology and van Kampen's theorem_, Ann. Math. 68 (1958) 658--667.
+1. [[Paul Olum]], _Non-abelian cohomology and van Kampen's theorem_, Ann. Math. 68 (1958) 658--667.
 
 1.  Brown, R., _On a method of P. Olum_, J. London Math. Soc. 40 (1965) 303--304.
 
