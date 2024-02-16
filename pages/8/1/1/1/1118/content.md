@@ -17,7 +17,11 @@
 * table of contents 
 {: toc}
 
-A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$.
+## Idea
+
+A _group object_ in a [[cartesian category|cartesian]] [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$ (see at *[[internalization]]* for more on the general idea).
+
+Given a non-cartesian [[monoidal category]] one can still make sense of group objects in the [[formal duality|dual]] guise of [[Hopf monoids]], see there for more and see Rem. \ref{GroupObjectsInGeneralMonoidalCategories} below.
 
 ## Definition 
 
@@ -27,21 +31,21 @@ A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal
 \label{GroupObjectInCartesianCategory}
 **(group object in [[cartesian monoidal category]])**
 \linebreak
-A **group object** or **internal group** [[internalization|internal to]] a category $C$ with [[finite products]] (binary [[Cartesian products]] and a [[terminal object]] $\ast$) is 
+A **group object** or **internal group** [[internalization|internal to]] a category $\mathcal{C}$ with [[finite products]] (binary [[Cartesian products]] and a [[terminal object]] $\ast$) is 
 
-* an [[object]] $G$ in $C$ 
+* an [[object]] $G$ in $\mathcal{C}$ 
 
-* and [[morphisms]] as follows
+* and [[morphisms]] in $\mathcal{C}$ as follows:
 
   * [[neutral element]]: 
 
     $\mathrm{e} \,\colon\,  \ast \to G$
 
-  * [[inverse elements]] 
+  * [[inverse elements]]:
 
     $(-)^{-1} \,\colon\, G\to G$
 
-  * [[binary operation]] $m \colon G\times G \to G$
+  * [[binary operation]] $m \colon G\times G \to G$,
 
 such that the following [[commuting diagram|diagrams commute]]:
 
@@ -57,7 +61,7 @@ $$
     m\times id
     }
   }
-  \big\downarrow && \downarrow m 
+  \big\downarrow && \big\downarrow m 
   \\
   G\times G & \stackrel{m}{\longrightarrow} & G
 }
@@ -74,10 +78,10 @@ $$
   &\underset{\id}{\searrow}& 
   \big\downarrow m 
   \\
-  G\times G & \stackrel{m}{\longrightarrow} &G
+  G\times G & \underset{m}{\longrightarrow} &G
 }
 $$
-(telling us that the [[neutral element]] is a left and right identity), and
+(telling us that the [[neutral element]] is a left and right [[unit element]]), and
 $$
 \array{
 G 
@@ -96,7 +100,9 @@ G
    }
    \big\downarrow 
    & 
-   \underset{id}{\searrow}& \downarrow m 
+   \underset{id}{\searrow}
+   & 
+   \big\downarrow m 
    \\
    G\times G 
    & 
@@ -105,7 +111,7 @@ G
    G
 }
 $$
-(telling us that the inverse map really does take an inverse).
+(telling us that the inverse map really does take an [[inverse element|inverse]]).
 \end{definition}
 
 \begin{remark}
@@ -116,7 +122,7 @@ The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[d
 \end{remark}
 
 \begin{remark}
-Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$, as above.
+Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $\mathcal{C}$, as above.
 \end{remark}
 
 \begin{remark}
@@ -137,57 +143,85 @@ Given this, inverses may be encoded by an *[[antipode]]* map and the resulting "
 +-- {: .num_prop}
 ###### Proposition
 
-Given a [[cartesian monoidal category]] $C$, the category of internal groups in $C$ is equivalent to the [[full subcategory]] of the category of [[presheaves]] of [[groups]] $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is [[representable functor|representable]]. 
+Given a [[cartesian monoidal category]] $\mathcal{C}$, the category of internal groups in $\mathcal{C}$ (in the sense of Def. \ref{GroupObjectInCartesianCategory}) is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the category of [[presheaves]] of [[groups]] $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is [[representable functor|representable]]. 
 
 =--
 
-This is a special case of the general theory of _[[structures in presheaf toposes]]_.
+This is a special case of the general theory of _[[structures in presheaf toposes]]_. 
 
-In other words, the [[forgetful functor]] from $Grp^{C^{op}}$ to $Set^{C^{op}}$ (obtained by composing with the [[forgetful functor]] [[Grp]] $\to$ [[Set]]) creates representable group objects from  representable objects. 
+It means that the [[forgetful functor]] from the [[functor category]] $Func\big(\mathcal{C}^{op}, Grp\big)$ to the [[presheaf category]] $Func\big(\mathcal{C}^{op}, Set\big)$ (obtained by composing with the [[forgetful functor]] [[Grp]] $\to$ [[Set]]) creates representable group objects from  representable objects. 
 
-An object $G$ in $C$ with an internal group structure is a diagram
+We unwind how this works:
 
-$$
+An object $G$ in $\mathcal{C}$ equipped with internal group structure is identified equivalently with a [[diagram]] of [[functors]] of the form
+
+\[
+  \label{PresheafWithValuesInGroups}
   \array{
     && Grp
     \\
-    & {}^{(G,\cdot)}\nearrow & \downarrow
+    & \mathllap{{}^{(G,\cdot)}}\nearrow & \big\downarrow
     \\
-    C^{op} &\stackrel{Y(G)}{\to}& Set
+    \mathcal{C}^{op} &\underset{y(G)}{\longrightarrow}& Set
   }
+  \,,
+\]
+
+where $\mathcal{C}^{op}$ is the [[opposite category]] of $C$, [[Grp]] is the category of [[groups]] with [[group homomorphisms]] between them, and [[Set]] is the category of [[sets]] with [[maps]]/[[functions]] between them. Finally,
+
+$$
+  \array{
+    y \colon & C &\xhookrightarrow{\phantom{--}}& PSh(C)
+    \\
+    & G &\mapsto& Hom_C(-,G)
+  }
+$$
+
+is the [[Yoneda embedding]] of $\mathcal{C}$ into its [[category of presheaves]] $PSh(C) \,\coloneqq\, Func(C^{op}, Set)$, which sends each [[object]] $G$ to the [[representable presheaf]] that it represents.
+
+Since the [[Yoneda embedding]] is [[fully faithful functor|fully faithful]], it is natural to leave it notationally implicit and to write $G(S)$ (for $S \in \mathcal{C}$) as shorthand for
+
+$$
+  G(S) \coloneqq  y(G)(S) \coloneqq  Hom_C(S,G)
   \,.
 $$
 
-This equips each object $S \in C$ with an ordinary group 
-$(G(S), \cdot)$ structure, so in particular a product operation
+(This a also referred to as "$G$ seen at stage $S$", or similar.)
+
+Now, the lift (eq:PresheafWithValuesInGroups) of such a presheaf of sets to a presheaf of groups equips for each object $S \in \mathcal{C}$ the set $G(S) \coloneqq y(G)(S) \coloneqq Hom_C(S,G) $ with an ordinary group [[structure]]
+$\big(G(S), \cdot_S, \athrm{e}_S\big)$, in particular with a product operation (a map of sets) of the form
 
 $$
-  \cdot_S : G(S) \times G(S) \to G(S)
+  \cdot_S 
+    \,\colon\, 
+  G(S) \times G(S) \longrightarrow G(S)
   \,.
 $$
 
-Moreover, since morphisms in $Grp$ are group homomorphisms, it follows
-that for every morphism $f : S \to T$ we get a 
-commuting diagram
+Moreover, since morphisms in [[Grp]] are [[group homomorphisms]], it follows
+that for every morphism $f \colon S \to T$ in $C$ we get a 
+[[commuting diagram]] of the form
 
 $$
   \array{
     G(S) \times G(S) &\stackrel{\cdot_S}{\to}& G(S)
     \\
-    \uparrow^{G(f)\times G(f)}  && \uparrow^{G(f)}
+    \big\uparrow\mathrlap{^{G(f)\times G(f)}}  
+    && \big\uparrow\mathrlap{^{G(f)}}
     \\
-    G(T) \times G(T) &\stackrel{\cdot_T}{\to}& G(T)     
+    G(T) \times G(T) &\underset{\cdot_T}{\longrightarrow}& G(T)     
+    \mathrlap{\,.}
   } 
 $$
 
 Taken together this means that there is a morphism
 
 $$
-  Y(G \times G)  \to Y(G)
+  y(G \times G)  \longrightarrow y(G)
 $$
 
-of representable presheaves. By the [[Yoneda lemma]], this uniquely
-comes from a morphism $\cdot : G \times G \to G$, which is the 
+of [[representable presheaves]]. By the [[Yoneda lemma]], this *uniquely*
+comes from a morphism $\cdot \colon G \times G \to G$ in $\mathcal{C}$, which is the 
 product of the group structure on the object $G$ that we are after.
 
 etc.  
