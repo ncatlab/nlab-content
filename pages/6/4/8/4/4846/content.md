@@ -42,6 +42,8 @@ This is such that the [[field strengths]] and [[Bianchi identities]] of these fi
 
 ## Definition
 
+> Our normalization conventions entirely follow [Castellani, D'Auria & Fré 1991, §III.8.3](#CastellaniDAuriaFre), but we denote the [[super-vielbein]] 1-forms by $\big\{e^a\big\}_{a=0}^{10}$ instead of by $\big\{V^a\big\}_{a=0}^{10}$.
+
 +-- {: .num_prop #TheSevenCocycle}
 ###### Proposition
 
@@ -52,7 +54,7 @@ $$
    \;\coloneqq\;
    \frac{i}{2}\bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
    +
-  15 \mu_4 \wedge c_3
+   15 \mu_4 \wedge c_3
   \,,
 $$
 
@@ -61,12 +63,35 @@ where
 $$
   \mu_4 
   \;=\; 
-  \frac{i}{2}\bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
+  \frac{1}{2} 
+  \overline{\psi} 
+    \Gamma^{a_1 a_2} 
+  \psi \wedge e_{a_1} \wedge e_{a_2}
 $$
 
-is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$, and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \propto \mu_4$.
+is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$, and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \,=\, \mu_4$.
 
 =--
+
+In other words, we have
+
+$$
+  \begin{array}{l}
+    \mathrm{d}
+    \,
+    \mu_4 \;=\; 0
+    \\
+    \mathrm{d}
+    \,
+    \mu_7
+    \;=\;
+    15\,
+    \mu_4 \wedge \mu_4
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+which has the same structure as the [[equations of motion]] of the [[field strength]] $G_4$ of the [[supergravity C-field]] and its [[Hodge dual]] $G_7 = \ast G_4$ in [[11-dimensional supergravity]] (to which it is related [below](#eq:SuperMaxwellEquation))
 
 This appears (in the dual language of [[Chevalley-Eilenberg algebras]]) in [DAuria & FrFré 1982, page 18](#DAuriaFre) and 
 [Castellani, D'Auria & Fré 1991, §III.8.3](#CastellaniDAuriaFre).
@@ -110,36 +135,7 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
 
-Hence if we write
-
-$$
-  g_4 \coloneqq \mu_4 
-  \;=\; 
-  \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
-$$
-
-and
-
-$$
-  g_7 
-  \;\coloneqq\;
-  \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
-$$
-
-then 
-
-$$
-  \mathr,{d} g_7 
-  \;\propto\; g_4 \wedge g_4
-  \,.
-$$
-
-This is the structure of the [[equations of motion]] of the [[field strength]] $G_4$ of the [[supergravity C-field]] and its [[Hodge dual]] $G_7 = \ast G_4$ in [[11-dimensional supergravity]].
-
-=--
 
 
 
@@ -230,11 +226,11 @@ Write $g_4$ and $g_7$ for the shifted generators of the Weil algebra correspondi
 Define an [[adjusted Weil algebra]] $\tilde W(\mathfrak{sugra}_6(10,1))$ by declaring it to have the same generators and differential as before, except that the differential for $c_6$ is modified to
 
 $$
-  d_{\tilde W} c_6 
+  d_{\tilde W} \, c_6 
     \coloneqq
-  d_{W} c_6  
+  d_{W} \, c_6  
     + 
-  15 g_4 \wedge c_3  
+  15 \, g_4 \wedge c_3  
 $$
 
 and hence the differential of $g_7$ is accordingly modified in the unique way that ensures $d_{\tilde W}^2 = 0$ (yielding the modified [[Bianchi identity]] for $g_7$).
@@ -302,50 +298,67 @@ This is, in paraphrase, the content of [Castellani, D'Auria & Fré, section III.
 \begin{remark}
 \label{EOMOfSuperCField}
 
-In particular, the [[Bianchi identity]] for the super-form enhancement of the [[supergravity C-field]] [[flux density]] is ([III.8.23j, 34, 35, 36](#CastellaniDAuriaFre)):
+In particular, the [[Bianchi identity]] for the super-form enhancement of the [[supergravity C-field]] [[flux density]] is (by [III.8.23j, 34, 35, 36](#CastellaniDAuriaFre) and using hupf):
 
-$$
+\[
+  \label{SuperMaxwellEquation}
   \begin{array}{l}
-  \mathrm{d}\big(
-    F_{a_1 \cdots a_4}
-    e^{a_1} \wedge \cdots \wedge e^{a_4}
-    \,+\,
-    \mathrm{i}
-    \overline{\psi} \Gamma_{a_1 \cdots a_5} \psi
-    \,
-    e^{a_1} \wedge \cdots \wedge e^{a_5}
+  \mathrm{d}
+  \big(
+    \underset{
+      G_7^{super}
+    }{
+      \underbrace{
+        F_{a_1 \cdots a_4}
+        e^{a_1} \wedge \cdots \wedge e^{a_4}
+        \,+\,
+        \mathrm{i}
+        \overline{\psi} \Gamma_{a_1 \cdots a_5} \psi
+        \,
+        e^{a_1} \wedge \cdots \wedge e^{a_5}
+      }
+    }
   \big)
   \\
   \;=\;
   -15
   \big(
-    F_{a_1 \cdots a_4} 
-    e^{a_1} \wedge \cdots \wedge e^{a_4}
-    +
-    \tfrac{1}{2}
-    \overline{\psi}\Gamma_{a_1 a_2}\psi
-    \,
-    e^{a_1} \wedge e^{a_2}
+    \underset{G_4^{super}}{
+    \underbrace{
+      F_{a_1 \cdots a_4} 
+      e^{a_1} \wedge \cdots \wedge e^{a_4}
+      +
+      \tfrac{1}{2}
+      \overline{\psi}\Gamma_{a_1 a_2}\psi
+      \,
+      e^{a_1} \wedge e^{a_2}
+    }
+    }
   \big)
   \wedge
   \big(
-    F_{a_1 \cdots a_4} 
-    e^{a_1} \wedge \cdots \wedge e^{a_4}
-    +
-    \tfrac{1}{2}
-    \overline{\psi}\Gamma_{a_1 a_2}\psi
-    \,
-    e^{a_1} \wedge e^{a_2}
+    \underset{G_4^{super}}{
+    \underbrace{
+      F_{a_1 \cdots a_4} 
+      e^{a_1} \wedge \cdots \wedge e^{a_4}
+      +
+      \tfrac{1}{2}
+      \overline{\psi}\Gamma_{a_1 a_2}\psi
+      \,
+      e^{a_1} \wedge e^{a_2}
+    }
+    }
   \big)
+  \mathrlap{\,}
   \end{array}
-$$
+\]
 
 and its rheonomic solution implies for the "actual" [[flux densities]] $F_4 \coloneqq F_{a_1 \cdots a_4} e^{a_1} \wedge \cdots \wedge e^{a_4}\vert_{\psi=0}$ and $G_4 \coloneqq  G_{a_1 \cdots a_7} e^{a_1} \wedge \cdots e^{a_7} \vert_{\psi = 0}$ that
 
 1. the CJS [[higher gauge theory|higher]] [[Maxwell equation]] holds
 
    $$
-     \mathrm{d}\, G_7 \;=\; - 15 F_4 \wedge F_4
+     \mathrm{d}\, G_7 \;=\; - 15 \, F_4 \wedge F_4
    $$
 
    ([III.8.53](#CastellaniDAuriaFre))
@@ -354,7 +367,7 @@ and its rheonomic solution implies for the "actual" [[flux densities]] $F_4 \col
 1. the [[Hodge duality|Hodge duality]] holds
 
    $$
-     G_7 \star F_4
+     G_7 \;=\; \star F_4
    $$
 
    ([III.8.52](#CastellaniDAuriaFre))
