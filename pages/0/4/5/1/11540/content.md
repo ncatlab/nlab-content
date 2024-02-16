@@ -20,11 +20,40 @@
 
 ## Idea
 
+### Functoriality w.r.t. functors
+
 Given a [[small category]] $C$, one can consider the [[category of presheaves]] $PSh(C, D)$ valued in some [[category]] $D$.  Given some assumptions on $D$, any [[functor]] of small categories $F : C \to C'$ induces two [[adjunction|adjoint pairs]]
 
   $$ F_! : PSh(C, D) \rightleftarrows PSh(C', D) : F^* $$
 
   $$ F^* : PSh(C', D) \rightleftarrows PSh(C, D) : F_* $$
+
+Here, $F^*$ is given by precomposition with $F$, whereas $F_!$ and $F_*$ are the left and right (global) [[Kan extension]]s along $F$.
+
+### Functoriality w.r.t. profunctors
+
+In fact, more generally, any [[profunctor]] $\mathcal{P} : C \nrightarrow C'$ (i.e. $\mathcal{P} : C \times {C'}^{op} \to D$ or, after [[currying]], $P : C \to PSh(C', D)$) gives rise to a single [[adjunction|adjoint pair]]
+
+  $$ P_\odot : PSh(C, D) \rightleftarrows PSh(C', D) : P^\odot $$
+
+($P_\odot$ and $P^\odot$ are not standard notations) where $P_\odot$ is the [[Yoneda extension]] of $P$.
+
+A functor $F : C \to C'$ gives rise to two profunctors:
+
+* a [[companion]] profunctor $\hat F : C \nrightarrow C'$, given by
+
+  $$ \hat F : C \times {C'}^{op} \to D : (c, c') \mapsto Hom_{C'}(c', Fc). $$
+
+  After currying, this amounts to the functor $y \circ F : C \to PSh(C')$.
+
+* a [[conjoint]] profunctor $\check F : C' \nrightarrow C$, given by
+
+  $$ \check F : C' \times {C}^{op} \to D : (c', c) \mapsto Hom_{C'}(Fc, c'). $$
+
+  After currying, this amounts to the functor $F^* \circ y : C' \to PSh(C)$.
+
+The former profunctor produces the adjoint pair $F_! \dashv F^*$, i.e. $F_! = (y \circ F)_\odot$ and $F^* \cong (y \circ F)^\odot$.
+The latter profunctor produces the adjoint pair $F^* \dashv F_*$, i.e. $F^* \cong (F^* \circ y)_\odot$ and $F_* = (F^* \circ y)^\odot$.
 
 ## Definitions
 
@@ -81,9 +110,11 @@ For functoriality of [[sheaves]], see
 * [[direct image]]
 * [[inverse image]]
 
-The pseudofunctor PSh (with $-_!$ as its action on morphisms) takes a category to its [[free cocompletion]]. As such, it has the structure of a weak [[2-monad]], and more specifically it is a prototypical example of a [[lax-idempotent 2-monad]]. It factors over its Eilenberg-Moore 2-category, the 2-category of ([[total category|total]]? [[cocomplete]]?) categories, as a [[lax-idempotent 2-adjunction]].
+The pseudofunctor $PSh$ (with $-_!$ as its action on morphisms) takes a category to its [[free cocompletion]]. As such, it has the structure of a weak [[2-monad]], and more specifically it is a prototypical example of a [[lax-idempotent 2-monad]]. It factors over its Eilenberg-Moore 2-category, the 2-category of ([[total category|total]]? [[cocomplete]]?) categories, as a [[lax-idempotent 2-adjunction]].
+The bind operation for $PSh$ is given by [[Yoneda extension]] and the [[Kleisli 2-category]] of $PSh$ is [[Prof]].
 
 ## References
 
 * [[SGA 4]], Exp. I, no. 5.
 * [[Stacks Project]], tags [00VC](http://stacks.math.columbia.edu/tag/00VC) and [00XF](http://stacks.math.columbia.edu/tag/00XF).
+ * {#Nuyts24} [[Andreas Nuyts]], _Lifting Profunctors to Presheaf Categories_, [note](https://anuyts.github.io/files/lifting-profunctors.pdf)
