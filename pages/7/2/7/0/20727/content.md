@@ -4,9 +4,9 @@
 
 ## Selected writings
 
-A model structure for [[(∞,n)-categories]] in terms of [[weak complicial sets]]:
+A [[model category]] structure on [[stratified simplicial sets]] modelling [[(infinity,n)-categories|$(\infty,n)$-categories]] in the guise of [[n-complicial sets|$n$-complicial sets]]:
 
-* [[Viktoriya Ozornova]], Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
+* [[Viktoriya Ozornova]], [[Martina Rovelli]], *Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces*, Algebr. Geom. Topol. **20** (2020) 1543-1600 &lbrack;[arxiv:1809.10621](https://arxiv.org/abs/1809.10621), [doi:10.2140/agt.2020.20.1543](https://doi.org/10.2140/agt.2020.20.1543)&rbrack;
 
 On classes of [[categories]] which are [[fibrant object|fibrant]] in the [[Thomason model structure]]:
 
