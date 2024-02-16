@@ -26,7 +26,7 @@ Recall that a profunctor from $A$ to $B$ is a functor $B^{op}\times A\to Set$.  
 $$(c,a)\mapsto \int^{b\in B} H(b,a)\times K(c,b).$$
 The identity on a category $A$ is its hom-functor $Hom_A(-,-)$.
 
-
+$\mathbf{Prof}$ can also be obtained as the [[Kleisli 2-category]] of [[functoriality of categories of presheaves|PSh]].
 
 ## Properties
 
