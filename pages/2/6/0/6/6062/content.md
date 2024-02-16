@@ -832,7 +832,7 @@ The full model structure on [[dg-coalgebras]] (in characteristic 0) as a [[model
 
 Also:
 
-* {#Valette14} Theorem 2.1 in: [[Bruno Valette]], _Homotopy theory of homotopy algebras_, Annales de l'Institut Fourier __70__:2 (2020)  683--738 [doi](https://10.5802/aif.3322) [Zbl:1335.18001](https://zbmath.org/?q=an:1335.18001) [arXiv:1411.5533](https://arxiv.org/abs/1411.5533)
+* {#Valette14} Theorem 2.1 in: [[Bruno Vallette]], _Homotopy theory of homotopy algebras_, Annales de l'Institut Fourier __70__:2 (2020)  683--738 [doi](https://10.5802/aif.3322) [Zbl:1335.18001](https://zbmath.org/?q=an:1335.18001) [arXiv:1411.5533](https://arxiv.org/abs/1411.5533)
 
 The structure of a [[category of fibrant objects]] on connective [[finite type]] $L_\infty$-algebras:
 
