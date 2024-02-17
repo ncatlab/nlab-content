@@ -1,0 +1,2 @@
+
+having [[finite limits]]
