@@ -159,6 +159,10 @@ A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 * {#Elg21} Josep Elgueta, _The groupoid of finite sets is biinitial in the 2-category of rig categories_, Journal of Pure and Applied Algebra
 **225** Issue 11 (2021) 106738, doi:[10.1016/j.jpaa.2021.106738](https://doi.org/10.1016/j.jpaa.2021.106738), [arXiv:2004.08684](https://arxiv.org/abs/2004.08684).
 
+On the idea of a [[symmetric monoidal category]] as a [[module]] over a commutative rig category:
+
+* [[John D. Berman]], _On the commutative algebra of categories_, Algebraic and Geometric Topology, 18(5):2963–3012, August 2018, ([arXiv:1606.05606](https://arxiv.org/abs/1606.05606)).
+
 
 [[!redirects rig category]]
 [[!redirects rig categories]]
@@ -166,6 +170,8 @@ A [[string diagram]] treatment of rig categories via _sheet diagrams_ is in
 [[!redirects rig-category]]
 [[!redirects rig-categories]]
 
+[[!redirects semiring category]]
+[[!redirects semiring categories]]
 
 [[!redirects ring category]]
 [[!redirects ring categories]]
