@@ -63,3 +63,4 @@ For a small category $C$, the presheaf category $[C^{op},Set]$ is cocomplete, an
 
 [[!redirects cocomplete categories]]
 [[!redirects cocomplete]]
+[[!redirects mplete category]]
