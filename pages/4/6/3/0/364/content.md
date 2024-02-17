@@ -21,7 +21,7 @@ On [[Reedy model structures]] via [[weighted colimits]]:
 
 An introductory [[category theory]] textbook for beginning graduate students or advanced undergraduates with an emphasis on applications of categorical concepts to a variety of areas of mathematics.
 
-* [[Emily Riehl]], _[[Category Theory in Context]]_ (2017)
+* {#RiehlCTInContext} [[Emily Riehl]], _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
 
 Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory (via [[∞-cosmoi]] and the [[homotopy 2-category of (∞,1)-categories]]):
 
