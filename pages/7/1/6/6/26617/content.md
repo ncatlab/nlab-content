@@ -21,7 +21,7 @@ __$Field$__ is the [[category]] with [[field|fields]] as [[objects]] and [[field
 
 ##Properties
 
-* $Field$ is neither [[finitely complete category|finitely complete]] nor [[finitely cocomplete category|finitely cocomplete]], meaning in particular, that it has neither [[products]] nor [[coproducts]]. ([Riehl 17, p. 126](#RiehlCTInContext))
+* $Field$ is neither [[finitely complete category|finitely complete]] nor [[finitely cocomplete category|finitely cocomplete]], meaning in particular, that it has neither [[products]] nor [[coproducts]]. ([Riehl 17, p. 126](#RiehlCTInContext)) This implies that it is not [[locally presentable]].
 * However, $Field$ is a [[locally multipresentable category]], which means in particular that it has [[connected limits]] and [[multicolimits]].
 * The [[forgetful functor]] $U\colon Field\to Set$ does not have a [[left adjoint]] (hence $Field$ is not a [[reflective subcategory]] of $Set$), hence there is no free field construction (contrary to many [[free functors]] for other [[algebraic categories]]). The same holds for weaker forgetful functors like $U\colon Field\to Ring$, $U\colon Field\to Ab$ or the [[group of units]] $-^\times\colon Field\to Ab$. ([Riehl 17, Example 4.1.11.](#RiehlCTInContext))
 * Every morphism in $Field$ is a [[monomorphism]], hence $Field$ is a [[left-cancellative category]].
