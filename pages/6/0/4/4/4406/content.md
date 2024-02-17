@@ -11,7 +11,7 @@ An [[ordered field]] $F$ is **real closed** if it satisfies the following two pr
 
 * Any odd-degree [[polynomial]] with coefficients in $F$ has a root in $F$. 
 
-Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) In fact, the [[category]] of real closed fields and order-preserving field homomorphisms is a [[full subcategory]] of the category of [[fields]] and field homomorphisms. 
+Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) In fact, the [[category]] of real closed fields and order-preserving field homomorphisms is a [[full subcategory]] of the category [[Field]] of [[fields]] and field homomorphisms. 
 
 
 ## Properties 
