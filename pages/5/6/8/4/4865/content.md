@@ -194,7 +194,7 @@ The basic [[BPS states]] of 11d SuGra are
 
 That there is a maximal dimension $d = 11$ in which supergravity may exist was found in 
 
-* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl. Phys. B **135** (1978) 149 &lbrack;[spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf)&rbrack;
 
 The theory was then actually constructed (as a [[Lagrangian field theory]]) in
 
