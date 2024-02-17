@@ -154,7 +154,7 @@ Moreover, by naturality in $d$, for any morphism $\phi : Hom_C(c, Rd)$, the firs
 \end{example}
 
 \begin{example}\label{MultiInitialObjectsInFields}
-The [category of fields](field#category) has a multi-initial object, i.e. the functor $Fld \to 1$ has a left multi-adjoint (Def. \ref{MultiAdjoints}).  This consists of all the "[[prime fields]]", $\mathbb{Q}$ and $\mathbb{F}_p$ for some [[prime number]] $p$.
+The [[category]] [[Field]] of [[fields]] has a multi-initial object, i.e. the functor $Fld \to 1$ has a left multi-adjoint (Def. \ref{MultiAdjoints}).  This consists of all the "[[prime fields]]", $\mathbb{Q}$ and $\mathbb{F}_p$ for some [[prime number]] $p$.
 \end{example}
 
 \begin{example}
