@@ -29,7 +29,7 @@ Beware that, in general, there is no way of making the assignment of the injecti
 * In [[Vect]] every object $A$ has an injective hull, $A \stackrel{id_A}{\longrightarrow} A$.  In other words, every vector space is already an [[injective object]].
 * In [[Pos]] every object has an injective hull, its [[MacNeille completion]].
 * In [[Ab]] every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
-* In the category of fields and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
+* In the category [[Field]] of [[fields]] and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
 * In the category of metric spaces and [[short map]]s, the injective hull is a standard construction also known as the [[tight span]] (see [Wikipedia](http://en.wikipedia.org/wiki/Tight_span)).
 
 ## Generalization
