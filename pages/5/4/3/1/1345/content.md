@@ -166,7 +166,7 @@ $$
 
 The original reference is
 
-* [[Aldridge Bousfield]] and [[Dan Kan]], _Homotopy limits, completions and localizations_ Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
+* [[Aldridge Bousfield]] and [[Dan Kan]], _Homotopy limits, completions and localizations_, Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
  {#BousfieldKan}
 
 Reviews include 
