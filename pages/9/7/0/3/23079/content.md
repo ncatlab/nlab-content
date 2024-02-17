@@ -71,7 +71,7 @@ Similarly, (strict) idempotent semigroups in $\mathcal{C}$ may be identified wit
 
 * An idempotent monoid in [[Spectra]] $\left(\mathsf{Sp},\otimes_{\mathbb{S}},\mathbb{S}\right)$ is a "solid ring spectrum" as in [Gutierrez 2013, Section 4](#Gutierrez13). See also [MO #298435](https://mathoverflow.net/questions/298435).
 
-* An idempotent monoid in the category $\mathsf{Fun}(\mathcal{C},\mathsf{Sets})$ equipped with the Day convolution monoidal structure is a [[strong monoidal functor]]. Similarly, strict idempotent monoids in $\mathsf{Fun}(\mathcal{C},\mathsf{Sets})$ recover [[strict monoidal functors]].
+* An idempotent monoid in the category $\mathsf{Fun}(\mathcal{C},\mathsf{Sets})$ equipped with the [[Day convolution]] monoidal structure is a [[strong monoidal functor]]. Similarly, strict idempotent monoids in $\mathsf{Fun}(\mathcal{C},\mathsf{Sets})$ recover [[strict monoidal functors]].
 
 ## Related concepts
 
