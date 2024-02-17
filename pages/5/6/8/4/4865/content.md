@@ -219,6 +219,10 @@ of which a textbook account is in
 
 * {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapters III.8 and V.4-V.11 in vol 2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]&rbrack;
 
+reviewed again in
+
+* [[Pietro Fré]], §6.4 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
+
 
 The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 82](#DAuriaFre82) later reappears in (4.13) of
 
