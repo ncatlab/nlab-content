@@ -171,7 +171,7 @@ The cartesian product of the empty family $()$ is the [[point]], a set whose onl
 
 For [[algebraic categories]] like [[Grp]], where the objects are sets equipped with (globally defined) specified operations that satisfy specified universally quantified identities, products are always constructed in the way you'd expect, viz. by taking products at the level of the underlying sets and endowing them with operations defined in the evident pointwise fashion, just like the way it works in $Grp$. More commentary on this in more general contexts will be given below.  
 
-* For a non-example: the category of [[fields]] does not admit products, even though some might consider that an algebraic example (in some loose or informal sense). 
+* For a non-example: The category [[Field]] of [[fields]] does not admit [[products]], even though some might consider that an algebraic example (in some loose or informal sense). 
 
 * In categories of topological type, products are again constructed in a common sense manner; see for instance [[product topological space]] for a prototype. 
 
