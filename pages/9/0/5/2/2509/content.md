@@ -10,7 +10,7 @@ On the [[D'Auria-Fré formulation of supergravity]]:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Leonardo Castellani]], _Supergravity in the group-geometric framework: a primer_ ([arXiv:1802.03407](https://arxiv.org/abs/1802.03407))
+* [[Leonardo Castellani]], *Supergravity in the group-geometric framework: a primer*, Fortschr. Phys. **66** 4 (2018) &lbrack;[arXiv:1802.03407](https://arxiv.org/abs/1802.03407), [doi:10.1002/prop.201800014]( https://doi.org/10.1002/prop.201800014)&rbrack;
 
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
 
