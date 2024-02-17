@@ -29,7 +29,7 @@ One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}
 
 * Every ring is a [[0-truncated]] [[ring groupoid]], and the trivial ring is the terminal ring groupoid. 
 
-* If one takes the definition of a [[field]] from [LombardiQuitté2010](#LombardiQuitté2010), then the [[trivial ring]] is a [[terminal object]] in the [[category]] of [[fields]]. 
+* If one takes the definition of a [[field]] from [LombardiQuitté2010](#LombardiQuitté2010), then the [[trivial ring]] is a [[terminal object]] in the [[category]] [[Field]] of [[fields]]. 
 
 ## See also
 
