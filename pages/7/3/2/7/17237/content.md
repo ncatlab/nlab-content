@@ -1,3 +1,2 @@
 
-
-having [[finite colimits]]
+see at *[[finitely cocomplete category]]*
