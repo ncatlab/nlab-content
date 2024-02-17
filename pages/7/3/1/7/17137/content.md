@@ -26,7 +26,7 @@ Note that this example is relevant to the combinatorics of [[embedded graphs]] (
 
 * In the [[(∞,1)-category]] [[Grpd]], an [[Eilenberg-MacLane space]] $K(G,1)$ is rigid if $G$ has trivial [[center]] and also trivial [[outer automorphism]] group, since $Aut(K(G,1))$ is a homotopy 1-type with $\pi_0(Aut(K(G,1)))=Out(G)$ and $\pi_1(Aut(K(G,1)))=Z(G)$.  In particular, this is the case for $G=S_n$ the [[symmetric group]] on $n$ letters, where $n\ge 3$ and $n\neq 6$.  This allows us to construct an [[monomorphism in an (∞,1)-category|embedding]] of $\mathbb{N}$ into the [[object classifier]]. 
 
-* A [[real closed field]] is a rigid object in the category of [[fields]]. 
+* A [[real closed field]] is a rigid object in the category [[Field]] of [[fields]]. 
 
 ## Related concepts
 
