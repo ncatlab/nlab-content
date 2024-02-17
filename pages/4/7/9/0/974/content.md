@@ -286,7 +286,7 @@ A [[poset]], regarded as a category, is locally finitely presentable if it is a 
 
 * The category [[FinSet]] of _[[finite set|finite]]_ sets is *not* locally finitely presentable, as it does not have all countable colimits.
 
-* The category of [[fields]] and field [[homomorphisms]] is *not* locally presentable, as it does not have all binary coproducts (for instance, there are none between fields of differing characteristics).
+* The category [[Field]] of [[fields]] and field [[homomorphisms]] is *not* locally presentable, as it does not have all binary coproducts (for instance, there are none between fields of differing characteristics).
 
 * [[TopologicalSpaces]] is not locally finitely presentable.
 
