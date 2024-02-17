@@ -87,7 +87,7 @@ Also, every algebraic category whose [[forgetful functor]] preserves [[filtered 
 
 The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], [[Vect]], etc, are all finitary monadic categories.  The [[monad]] $U \circ F$ may be thought of as mapping a set $x$ to the set of words with alphabet taken from $x$ and the connections between letters taken from the appropriate algebraic operations, with two words identified if they can be proved equal by the appropriate algebraic axioms.
 
-The category of cancellative [[monoids]] is finitary algebraic but not monadic.  The category of [[fields]] is not even algebraic.
+The category of cancellative [[monoids]] is finitary algebraic but not monadic. The category [[Field]] of [[fields]] is not even algebraic.
 
 Assuming the [[ultrafilter principle]], the category of [[compact Hausdorff spaces]] is monadic, but not bounded algebraic.  The monad in question takes a set $x$ to the set of [[ultrafilters]] on $x$.  (Without the ultrafilter principle, this monad still exists, but it may be quite small, possibly even the [[identity monad]]; passing to [[locales]] does not help.)
 
