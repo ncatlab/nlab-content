@@ -27,7 +27,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -1104,15 +1103,15 @@ The original articles that introduced specifically the D'Auria-Fré-formalism:
 
 Monographs:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224)&rbrack;
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]&rbrack;
 
-* [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
+* [[Pietro Fré]], §6 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
 Review:
 
-* [[Leonardo Castellani]], _Supergravity in the group-geometric framework: a primer_ ([arXiv:1802.03407](https://arxiv.org/abs/1802.03407))
+* [[Leonardo Castellani]], *Supergravity in the group-geometric framework: a primer*, Fortschr. Phys. **66** 4 (2018) &lbrack;[arXiv:1802.03407](https://arxiv.org/abs/1802.03407), [doi:10.1002/prop.201800014]( https://doi.org/10.1002/prop.201800014)&rbrack;
 
-* {#DAuria20} [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
+* {#DAuria20} [[Riccardo D'Auria]], _Geometric supergravity_ &lbrack;[arXiv:2005.13593](https://arxiv.org/abs/2005.13593)&rbrack; in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific (2019) &lbrack;[doi:10.1142/11643](https://doi.org/10.1142/11643)&rbrack;
 
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
 
@@ -1162,7 +1161,7 @@ To compare D'Auria-Fre with our language here, notice the following points in th
 
 
 
-Here are some more references:
+Some more references:
 
 * [[Pietro Fré]], _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
 
@@ -1183,7 +1182,6 @@ Relation to [[pure spinor]]-formalism:
 See also:
 
 * S. Salgado, *Non-linear realizations and invariant action principles in higher gauge theory* &lbrack;[arXiv:2312.08285](https://arxiv.org/abs/2312.08285)&rbrack;
-
 
 
 [[!redirects geometric supergravity]]
