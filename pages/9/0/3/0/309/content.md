@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -56,6 +55,10 @@ In any finitely complete category, the [[kernel pair]] of the [[identity morphis
 
 ## Related concepts
 
+* [[complete category]]
+
+* [[finitely cocomplete category]]
+
 * [[locally cartesian category]]
 
 * [[finitely complete (infinity,1)-category]]
@@ -75,3 +78,7 @@ Section A1.2 in
 [[!redirects left exact categories]]
 [[!redirects category with finite limits]]
 [[!redirects categories with finite limits]]
+
+[[!redirects finitely complete]]
+
+
