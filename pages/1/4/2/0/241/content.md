@@ -308,8 +308,6 @@ On enrichment of the 2-category of Grothendieck toposes:
 [[!redirects Giraud\'s axioms]]
 [[!redirects Giraud/'s axiom]]
 [[!redirects Giraud/'s axioms]]
-[[!redirects Giraud's axiom]]
-[[!redirects Giraud's axioms]]
 
 [[!redirects Giraud frame]]
 [[!redirects Giraud frames]]
