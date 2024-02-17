@@ -488,7 +488,26 @@ $$
 \end{proposition}
 ([Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), reviewed in [Williams 2020, pp. 9](#Williams20))
 
+\begin{proposition} The [[topological complexity]] of a configuration space is
+\[
+  \label{TopologicalComplexityOfConfigurationSpace}
+    TC
+    \big(
+      Conf(\mathbb{R}^m,n)
+    \big)
+    \;=\;
+    \left\{
+    \begin{array}{ll}
+       2n-1 & m \; odd
+       \\
+       2n-2 & m \; even
+    \end{array}
+    \right.
+\]
+(with convention $TC(*)=1$).
+\end{proposition}
 
+([Farber & Grant 08, Theorem 1](#FarberGrant08))
 
 ### Ordered unlabeled configurations from unordered labeled configurations
  {#OrderedUnlabeledConfigurationsFromUnorderedLabeledConfigurations}
@@ -1541,6 +1560,9 @@ The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces ove
 
 * {#Markl99} [[Martin Markl]], _A compactification  of  the  real  configuration  space  as  an  operadic completion, J. Algebra 215 (1999), no. 1, 185–204
 
+On topological complexity of [[configuration space]]:
+
+* {#FarberGrant08} [[Michael Farber]], [[Mark Grant]], _Topological Complexity of the Klein bottle_ (2008), [arXiv:0806.4111](https://arxiv.org/pdf/0806.4111.pdf)
 
 ### Cohomotopy charge map
  {#ReferencesCohomotopyChargeMap}
