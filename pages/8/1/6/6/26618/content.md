@@ -1,2 +1,2 @@
 
-having [[finite limits]]
+see at *[[finitely complete category]]*
