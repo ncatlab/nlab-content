@@ -261,7 +261,7 @@ Here are some notable examples of mathematical structures that look algebraic, b
 
 This might seem obvious since multiplicative inversion in fields is not a global operation, or otherwise the cancellation law of multiplication in integral domains is not a universally quantified axiom (since we have to make an exception of $0$). But one should be careful that there isn't some sneaky alternative axiomatization for these structures which counters these objections! 
 
-The first clause in Theorem \ref{RecognizingAConcreteCategoryAsAlgebrasOverALawvereTheory} already rules out fields, since $U$ in that case will create [[limits]] in $C$, but the category of fields does not even have [[products]]. Similarly for [[integral domains]]. 
+The first clause in Theorem \ref{RecognizingAConcreteCategoryAsAlgebrasOverALawvereTheory} already rules out fields, since $U$ in that case will create [[limits]] in $C$, but the category [[Field]] of fields does not even have [[products]]. Similarly for [[integral domains]]. 
 
 The second clause in Theorem \ref{RecognizingAConcreteCategoryAsAlgebrasOverALawvereTheory} suggests another type of non-example: 
 
