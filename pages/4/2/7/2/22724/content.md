@@ -33,7 +33,7 @@ In [[category theory]], a category $\mathcal{C}$ is **left cancellative** if all
 
 ### Left cancellative categories
  
- * the category of [[fields]] (with [[ring]] [[homomorphisms]] as the morphisms)
+ * the category [[Field]] of [[fields]] (with [[ring]] [[homomorphisms]] as the morphisms)
 
  * the category of nontrivial [[vector spaces]] (over the field of [[real numbers]] or [[complex numbers]]) equipped with positive definite [[inner products]]  
 
