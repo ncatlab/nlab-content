@@ -52,6 +52,8 @@ In dependent type theory, there are multiple notions of category. Because the ty
 
 * [[locally finite type]]
 
+* [[finitely complete category]], [[finitely cocomplete category]]
+
 
 [[!redirects finite category]]
 [[!redirects finite categories]]
