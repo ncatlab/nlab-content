@@ -619,7 +619,7 @@ $$
   \Omega(X, \mathfrak{g})
 $$
 
-of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] (Def. \ref{SuperLInfinityAlgebraValuedDifferentialForms})  is _rheonomic_ if on this subset the restriction to the bosoic subspace from Def. \ref{RestrictionOfSuperDifferentialFormsToBosonicSubmanifold} (hence the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$) is [[injection|injective]]
+of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] (Def. \ref{SuperLInfinityAlgebraValuedDifferentialForms})  is _rheonomic_ if on this subset the restriction to the bosonic subspace from Def. \ref{RestrictionOfSuperDifferentialFormsToBosonicSubmanifold} (hence the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$) is [[injection|injective]]
 
 $$
   \array{
@@ -654,7 +654,7 @@ More specifically, let now  $V$ be an [[extended super Minkowski spacetime]], wi
   \Omega(X,\mathfrak{g})
 \]
 
-of globally defined [[Cartan connection]]-forms, meaning that their [[super vielbein]] component is constrained to be non-degenerate, establishing at each [[global element|global point]] an [[linear map|linear]] [[isomorphism]] between its super [[tangent space]] and $V$.
+of globally defined [[Cartan connection]]-forms, meaning that their [[super vielbein]] component is constrained to be non-degenerate, establishing at each [[global element|global point]] a [[linear map|linear]] [[isomorphism]] between its super [[tangent space]] and $V$.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -663,7 +663,7 @@ A sufficient condition for the subset (eq:GlobalCartanConnectionForms) to be rhe
 
 =--
 
-([Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.30)](#CastellaniDAuriaFre))
+([Castellani, D'Auria &Fr&#233; 1991, vol 2, (III.3.30)](#CastellaniDAuriaFre))
 
 
 +-- {: .proof}
@@ -693,7 +693,7 @@ $$
   \,.
 $$
 
-We have to show,  under the assumption that there existlinear maps
+We have to show,  under the assumption that there exist linear maps
 
 $$
   \Big(
@@ -735,7 +735,7 @@ This is evidently equivalent to the statement that all the [[derivatives]] of $\
 
 The key point is that by the assumption that we have a Cartan connection, these derivatives are proportional to a sum of $\big( F_\omega\big)_{\alpha_{k+1} a}$ with a linear combination of the $\mu$. But by assumption, $\big( F_\omega\big)_{\alpha_{k+1} a}$ (which a priori depends on data at $\mathbf{d}\theta^\alpha \neq 0$) is a linear combination of the curvatures with bosonic indices, and these are determined from the data at $d \theta^\alpha = 0$.
 
-> This is essentially the argument in [Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.29)-(III.3.31)](#CastellaniDAuriaFre), except that I have added the inductive argument, which seems necessary to really conclude beyond first order in ther odd coordinates.
+> This is essentially the argument in [Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.29)-(III.3.31)](#CastellaniDAuriaFre), except that I have added the inductive argument, which seems necessary to really conclude beyond first order in the odd coordinates.
 
 This shows that $\mu\big( (x^a), (\theta^\alpha)  \big)$ satisfies well-formed differential equations in the $\theta^\alpha$. 
 
@@ -748,7 +748,7 @@ But we do have other boundary conditions on $\mu_\alpha\big( (x^a), (\theta^\alp
 
 > this is the argument I am adding in order to patch what seems to be a gap in Castellani-D'Auria-Fre
 
-... namely since $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$ is the coefficient of $\mathbf{d}\theta^\alpha$, we may/should constrain it to be _independent_ of the corresponding coordinate $\theta^\alpha$, for it had a dependence on this coordinate, this would disappear as we form $\mu = \mu_\alpha \mathbf{d}\theta^\alpha$.
+... namely since $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$ is the coefficient of $\mathbf{d}\theta^\alpha$, we may/should constrain it to be _independent_ of the corresponding coordinate $\theta^\alpha$, for if it had a dependence on this coordinate, this would disappear as we form $\mu = \mu_\alpha \mathbf{d}\theta^\alpha$.
 
 Hence our total boundary conditions are
 
