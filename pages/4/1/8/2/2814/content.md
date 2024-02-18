@@ -221,7 +221,7 @@ If $F$ is strong monoidal then this is an ordinary [[2-functor]]. If it is stric
 
 ## String diagrams
 
-Just like monoidal categories, monoidal functors have a [[string diagram]] calculus; see [these slides](http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf) for some examples.
+Just like monoidal categories, monoidal functors have a [[string diagram]] calculus; see [these slides](https://web.archive.org/web/20191021024946/http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf) for some examples.
 
 ## Related concepts
 
