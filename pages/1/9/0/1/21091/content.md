@@ -30,7 +30,7 @@ Related nLab pages:
 
 * Sean Moss and [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
-* [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
+* [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory 70(3), 2024. ([arXiv:2212.11719](https://arxiv.org/abs/2212.11719))
 
 
 category:people 
