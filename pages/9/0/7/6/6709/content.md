@@ -95,6 +95,8 @@ $$
   \,.
 $$
 
+([Milnor & Stasheff 74, Theorem 7.1.](#MilnorStasheff74))
+
 =--
 
 ### Whitney duality formula
@@ -168,6 +170,10 @@ Textbook accounts include
 Discussion with an eye towards [[mathematical physics]]
 
 * {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+Stiefel-Whitney classes generating the [[cohomology ring]] of $BO(n)$
+
+* {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
 
 
 See also
