@@ -23,13 +23,15 @@
 
 ## Idea
 
-An _idempotent monoid_ is a [[monoid]], which is [[idempotent]] in that “squares to itself” in the evident [[category theory|category-theoretic]] sense.
+An _idempotent monoid_ is a [[monoid]] which is [[idempotent]] in that it “squares to itself” in the evident [[category theory|category-theoretic]] sense.
 
 ## Definition
 
 An **idempotent monoid** $(A,\mu,\eta)$ in a [[monoidal category]] $\mathcal{C}$ is a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ whose multiplication morphism $\mu\colon A\otimes_{\mathcal{C}}A\to A$ is an [[isomorphism]].
 
 Similarly, an **idempotent semigroup in $\mathcal{C}$** (also called a _non-unital idempotent monoid in $\mathcal{C}$_) is a semigroup $(A,\mu)$ in $\mathcal{C}$ with $\mu$ an isomorphism.
+
+**Note.** This is different from the usual algebraic notion of an idempotent monoid (namely, one in which $a \cdot a = a$). One can make sense of that notion in any [[monoidal category with diagonals]] $\Delta_A : A \to A \otimes_{\mathcal{C}} A$ by requiring that $\mu \circ \Delta_A = \id_A$.
 
 We write $\mathsf{IdemMon}(\mathcal{C})$ for the [[full subcategory]] of $\mathsf{Mon}(\mathcal{C})$ spanned by the idempotent monoids in $\mathcal{C}$.
 
