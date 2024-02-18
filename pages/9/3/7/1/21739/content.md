@@ -34,14 +34,9 @@ Let $(T,\mu,\eta)$ be a [[monad]] on [[Set]], and let $(A,a)$ be an [[algebra ov
 
 Equivalently, partial evaluations are the 1-simplices of the [[bar construction]] (considered as a [[simplicial set]]) of the algebra $(A,a)$.
 
-(...)
-
-
 ## Examples
 
-(...)
-
-* For many [[probability monads]], partial evaluations correspond to [[conditional expectation]] of functions;
+* For many [[probability monads]], partial evaluations correspond to [[conditional expectation]] of [[algebra over a monad|algebra]]-valued [[random variables]];
 * For the [[free cocompletion]] monad, partial evaluations correspond to pointwise left [[Kan extensions]].
 
 
@@ -55,7 +50,9 @@ Equivalently, partial evaluations are the 1-simplices of the [[bar construction]
 
 * [[Tobias Fritz]] and [[Paolo Perrone]], _Monads, partial evaluations, and rewriting_. ([arXiv](https://arxiv.org/abs/1810.06037))
 
-* [[Carmen Constantin]], [[Tobias Fritz]], [[Paolo Perrone]] and [[Brandon Shapiro]], _Partial evaluations and the compositional structure of the bar construction_. ([arXiv](https://arxiv.org/abs/2009.07302))
+* Carmen Constantin, [[Tobias Fritz]], [[Paolo Perrone]] and Brandon Shapiro, _Partial evaluations and the compositional structure of the bar construction_, Theory and Applications of Categories 39, 2023. ([arXiv:2009.07302](https://arxiv.org/abs/2009.07302))
+
+* Carmen Constantin, [[Tobias Fritz]], [[Paolo Perrone]] and Brandon Shapiro, _Weak cartesian properties of simplicial sets_, Journal of Homotopy and Related Structures, 2023. ([arXiv:2105.04775](https://arxiv.org/abs/2105.04775))
 
 * [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
 
