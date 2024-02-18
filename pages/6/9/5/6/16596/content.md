@@ -9,15 +9,22 @@ On [[10d supergravity]] and [[10d super Yang-Mills theory]]:
 * {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
 Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
 
-* {#BonoraBregolaLechnerPastiTonin90} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _A discussion of the constraints in $N=1$ SUGRA-SYM in 10-D_,  International Journal of Modern Physics A, February 1990, Vol. 05, No. 03 : pp. 461-477 (<a href="https://doi.org/10.1142/S0217751X90000222">doi:10.1142/S0217751X90000222</a>)
+* {#BonoraBregolaLechnerPastiTonin90} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _A discussion of the constraints in $N=1$ SUGRA-SYM in 10-D_,  International Journal of Modern Physics A **05** 03 (1990) 461-477 &lbrack;<a href="https://doi.org/10.1142/S0217751X90000222">doi:10.1142/S0217751X90000222</a>&rbrack;
 
-* {#BBDFLPPRRTZ} L. Bonora, M. Bregola, [[Riccardo D'Auria]], [[Pietro Fre]], [[Kurt Lechner]], [[Paolo Pasti]], I. Pesando, M. Raciti, F. Riva, [[Mario Tonin]] and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
 
-* {#LechnerTonin08} [[Kurt Lechner]], [[Mario Tonin]], _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
+* {#BBDFLPPRRTZ} L. Bonora, M. Bregola, [[Riccardo D'Auria]], [[Pietro Fre]], [[Kurt Lechner]], [[Paolo Pasti]], I. Pesando, M. Raciti, F. Riva, [[Mario Tonin]] and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B **277** (1992) &lbrack;[[BonoraSuperGS.pdf:file]]&rbrack;
+
+
+* {#LechnerTonin08} [[Kurt Lechner]], [[Mario Tonin]], _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021 (2008) &lbrack;[arXiv:0802.3869](https://arxiv.org/abs/0802.3869)&rbrack;
 
 On [[anyons]] described by [[Chern-Simons theory]]:
 
 * [[Roberto Iengo]], [[Kurt Lechner]], *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
+
+On [[pregeometric electromagnetism|duality-symmetric]] [[supergravity]]:
+
+* Antonio Candiello, [[Kurt Lechner]], *Duality in supergravity theories*, Nuclear Physics B **412** 3 (1994) 479-501 \[<a href="https://doi.org/10.1016/0550-3213(94)90389-1">doi:10.1016/0550-3213(94)90389-1</a>\]
+
 
 On [[dual heterotic string theory]] and the heterotic [[NS5-brane]] [[Green-Schwarz sigma model]]:
 
