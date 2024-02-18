@@ -728,7 +728,7 @@ We now first prove something weaker, namely that these functions are uniquely de
 
 By the nilpotency of the odd-graded coordinates $\theta^\alpha$, we have that $\mu$ is a [[multilinear map]] in the $\theta^\alpha$. 
 
-Hence, by [[induction]], assume that the  $k$-linear parts $\mu\big( (x^a), (\theta^\alpha)_{k lin}  \big)$ in the $\theta^\alpha$ of $\mu\big( (x^a), (\theta^\alpha)  \big)$ is fixed by $\mu\big( (x^a), (\theta^\alpha = 0)  \big)$. It is then sufficient to show that also the $(k+1)$-linear term $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ is fixed.
+Hence, by [[induction]], assume that the  $k$-linear part $\mu\big( (x^a), (\theta^\alpha)_{k lin}  \big)$ in the $\theta^\alpha$ of $\mu\big( (x^a), (\theta^\alpha)  \big)$ is fixed by $\mu\big( (x^a), (\theta^\alpha = 0)  \big)$. It is then sufficient to show that also the $(k+1)$-linear term $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ is fixed.
 
 This is evidently equivalent to the statement that all the [[derivatives]] of $\mu\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ by any $\theta^{\alpha_{k+1}}$ evaluated at $\theta^{\alpha_{k+1}} = 0$ are fixed. 
 
