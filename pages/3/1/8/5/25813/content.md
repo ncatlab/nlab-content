@@ -1,11 +1,17 @@
 
 
-Discussion of ([[Lagrangian densities]] for) [[D=11 supergravity]] with the "[[duality-symmetric higher gauge theory|duality-symmetric]]"/"democratic"/"[[pregeometric C-fields|pregeometric]]" form of the [[supergravity C-field]]:
+
+Formulation of the [[equations of motion]] of [[D=11 supergravity]] in [[superspace]] on fields including a flux density $G_7$ *a priori* independent of the flux density $G_4$ of the [[supergravity C-field]]:
 
 * {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], ch III.8.3-5 in vol 2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]\]
 
-  > (These authors do not use the term "duality-symmetric", but  they do introduce $G_7$ as an independent field(strength) and [[D'Auria-Fre formulation of supergravity|formulate]] equations of motion which imply its Hodge duality with $G_4$.)
+  > (Using the [[D'Auria-Fre formulation of supergravity]].)
 
+* Antonio Candiello, [[Kurt Lechner]], §6 in: *Duality in supergravity theories*, Nuclear Physics B **412** 3 (1994) 479-501 \[<a href="https://doi.org/10.1016/0550-3213(94)90389-1">doi:10.1016/0550-3213(94)90389-1</a>\]
+
+  > (These authors seem not to be aware of [CDF91, III.8](#CastellaniDAuriaFré91) and, contrary to the result there, conclude that it is *not possible* without introducing non-local relations.)
+
+Discussion of [[Lagrangian densities]] for [[D=11 supergravity]] with an *a priori* independent dual C-field field and introduction of the "[[duality-symmetric higher gauge theory|duality-symmetric]]" terminology:
 
 * [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], *Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes*, Nucl. Phys. B **522** (1998) 214-233 \[<a href="https://doi.org/10.1016/S0550-3213(98)00102-3">doi:10.1016/S0550-3213(98)00102-3</a>, [arXiv:hep-th/9711055](https://arxiv.org/abs/hep-th/9711055)\]
 
