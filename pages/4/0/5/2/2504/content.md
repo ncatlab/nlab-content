@@ -258,24 +258,23 @@ See also [[division algebra and supersymmetry]].
 
 Further discussion of its "hidden" super Lie algebra includes
 
-* {#BAIPV04} [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv;hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
+* {#BAIPV04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, Oscar Varela, _On the underlying gauge group structure of $D=11$ supergravity_, Phys. Lett. B **596** (2004) 145-155 &lbrack;[arXiv;hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)&rbrack;
 
-* [[Igor Bandos]], [[Jose de Azcarraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. 317 (2005) 238-279 ([arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100))
+* [[Igor Bandos]], [[Jose de Azcarraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 &lbrack;[arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)&rbrack;
 
-* {#AndrianopoliDAuriaRavera16} L. Andrianopoli, [[Riccardo D'Auria]], L. Ravera, _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_ ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
+* {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_ &lbrack;[arXiv:1606.07328](https://arxiv.org/abs/1606.07328)&rbrack;
 
 Further review:
 
-* [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
-
+* [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* &lbrack;[arXiv:2112.00445](https://arxiv.org/abs/2112.00445)&rbrack;
 
 The computation of the automorphism Lie algebra of $\mathfrak{sugra}(10,1)$ is in 
 
-* {#Castellani05} [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_, J. Phys. Math. Volume 3 (2011), 1-7. ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213))
+* {#Castellani05} [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_, J. Phys. Math. **3** (2011) 1-7 &lbrack;[arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213)&rbrack;
  
-
 A similar argument with more explicit use of the Lie 3-algebra as underlying the [[Green-Schwarz action functional|Green-Schwarz-like action functional]] for the [[M5-brane]] is in 
 
-* [[Dmitri Sorokin]], [[Paul Townsend]], _M-theory superalgebra from the M-5-brane_, Phys. Lett. B412 (1997) 265-273 ([arXiv:hep-th/9708003](http://arxiv.org/abs/hep-th/9708003))
+* [[Dmitri Sorokin]], [[Paul Townsend]], _M-theory superalgebra from the M-5-brane_, Phys. Lett. B **412** (1997) 265-273 &lbrack;[arXiv:hep-th/9708003](http://arxiv.org/abs/hep-th/9708003)&rbrack;
 
 [[!redirects m2brane]]
+
