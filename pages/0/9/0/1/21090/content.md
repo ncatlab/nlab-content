@@ -2372,7 +2372,7 @@ Kolmogorov products have been studied in
 
 Some of the introductory content on this page is taken from the following reference:
 
-* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
+* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory 70(3), 2024. ([arXiv](https://arxiv.org/abs/2212.11719))
 
 Video lectures suitable for beginners:
 
