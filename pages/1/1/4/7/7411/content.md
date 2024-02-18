@@ -94,7 +94,7 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
 
 1. such that the monad structure transformations $ret^{\mathcal{E}}$ and $join^{\mathcal{E}}$ are [[monoidal transformations]] in that together with the lax monoidal structure transformation $\epsilon^{\mathcal{E}}$ and $\mu^{\mathcal{E}}$ they make the following [[commuting diagram|diagrams commute]]:
 
-First of all, the [[lax monoidal functor|lax monodal unit]] must coincide with the [[unit of a monad|monad unit]]
+First of all, the [[lax monoidal functor|lax monoidal unit]] must coincide with the [[unit of a monad|monad unit]]
 
 \[\label{LaxUnitIsMonadUnit}\]
 
@@ -512,6 +512,7 @@ nodes={scale=1.25}, arrows={thick},%
 X\otimes Y \ar{r}{f\otimes g} & TA \otimes TB \ar{r}{\nabla} & T(A\otimes B),
 \end{tikzcd}
 where $\nabla$ is the monoidal multiplication of $T$.
+
 * The associator and unitor are induced by those of $C$.
 
 
