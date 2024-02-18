@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 In [[higher supergeometry]] the [[bosonic modality]] $\stackrel{\rightsquigarrow}{(-)}$ which sends [[supermanifolds]] to their underlying ordinary [[boson|bosonic]] [[smooth manifolds]] has a further [[right adjoint]] $\Rh$, see at _[[super smooth infinity-groupoid]]_.
 
