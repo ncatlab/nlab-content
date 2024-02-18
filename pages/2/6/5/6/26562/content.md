@@ -150,7 +150,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[entropy|Entropy]] from the point of view of [[topos theory]]: [Constantin-Döring'20](#entropy_topos).
 
-* [[entropy|Entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'23](#markov_entropy).
+* [[entropy|Entropy]], [[relative entropy]] and [[data processing inequalities]]: expressed in terms of [[enriched category|enriched]] [[Markov categories]] in [Perrone'24](#markov_entropy).
 
 * A book on the relationship between [[metrics]], [[entropy]] and diversity in ecology, with a category-theoretic mindset: [Leinster'21](#entropy_diversity).
 
@@ -436,7 +436,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#noncommutative_bayes} [[Arthur J. Parzygnat]] and Benjamin P. Russo, _A noncommutative Bayes theorem_, Linear Algebra Applications 644, 2022. ([arXiv](https://arxiv.org/abs/2005.03886))
 
-* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory, 2023. ([arXiv](https://arxiv.org/abs/2212.11719))
+* {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory 70(3), 2024. ([arXiv](https://arxiv.org/abs/2212.11719))
 
 * {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv](https://arxiv.org/abs/2110.06591))
 
