@@ -550,7 +550,7 @@ Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent com
 
 * on the right we get an adjoint triple whose whose middle bit $\rightsquigarrow$ is the [[bosonic modality]] and whose left piece $\rightrightarrows$ produces _super-even_ components, containing all the "[[fermion]] [[conserved currents]]" if one wishes , which in this [[unity of opposites]] hence deserves to be called the _[[fermionic modality]]_. The further right adjoint $R$ is the [[rheonomy modality]].
 
-Hence we get a process of [[adjoint modalities]] of the form
+Hence we get a progression of [[adjoint modalities]] of the form
 
 $$
   \array{
