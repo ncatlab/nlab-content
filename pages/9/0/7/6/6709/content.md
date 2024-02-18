@@ -86,18 +86,24 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-Every class in $H^\bullet(B O(n), \mathbb{Z}_2)$ can be written uniquely as a polynomial in the Stiefel-Whitney classes. In fact the [[cohomology ring]] is the [[polynomial]] algebra over $\mathbb{Z}_2$ in the SW classes:
+Every class in $H^\bullet(B O(n), \mathbb{Z}_2)$ and $H^\bullet(B S O(n), \mathbb{Z}_2)$ can be written uniquely as a polynomial in the Stiefel-Whitney classes. In fact the [[cohomology rings]] are [[polynomial]] algebras over $\mathbb{Z}_2$ in the SW classes:
 
 $$
   H^\bullet(B O(n), \mathbb{Z}_2)  
   \simeq
   \mathbb{Z}_2[w_1, \cdots, w_n]  
+  \,,
+$$
+$$
+  H^\bullet(B S O(n), \mathbb{Z}_2)  
+  \simeq
+  \mathbb{Z}_2[w_2, \cdots, w_n]  
   \,.
 $$
 
-([Milnor & Stasheff 74, Theorem 7.1.](#MilnorStasheff74))
-
 =--
+
+([Milnor & Stasheff 74, Theorem 7.1. & Theorem 12.4.](#MilnorStasheff74))
 
 ### Whitney duality formula
 
