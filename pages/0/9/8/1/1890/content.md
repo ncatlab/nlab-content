@@ -321,14 +321,14 @@ $$
 [X,Y] \otimes T X \;\to\; T Y.
 $$
 The latter is provided by the strength $t$ as follows,
-[%
+\begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
 ]
 {[X,Y]} \otimes T X \ar{r}{t} & T\big({[X,Y]}\otimes X \big) \ar{r}{T\epsilon} & TY.
 \end{tikzcd}
 
 Conversely, given a map $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a left-strength as
-[%
+\begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
 ]
 X \otimes T Y \ar{r}{\eta\otimes TY} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
