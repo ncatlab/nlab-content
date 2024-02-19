@@ -46,9 +46,9 @@ become relevant as symmetries of the corresponding rank-3 simple [[Jordan algebr
 
 * Massimo Bianchi, [[Sergio Ferrara]], _Enriques and Octonionic Magic Supergravity Models_,  JHEP 0802:054,2008 ([arXiv:0712.2976](https://arxiv.org/abs/0712.2976))
 
-* {#CacciatoriCerchiaiMarrani12} Sergio L. Cacciatori, [[Bianca Cerchiai]], Alessio Marrani, _Squaring the Magic_ ([arXiv:1208.6153](http://arxiv.org/abs/1208.6153))
+* {#CacciatoriCerchiaiMarrani12} Sergio L. Cacciatori, [[Bianca Cerchiai]], [[Alessio Marrani]], _Squaring the Magic_ ([arXiv:1208.6153](http://arxiv.org/abs/1208.6153))
 
-* Sergio L. Cacciatori, [[Bianca Cerchiai]], Alessio Marrani, _Magic coset decompositions_, Adv. Theor. Math. Phys. Volume 17, Number 5 (2013), 1077-1128. ([euclid:atmp/1408626511^](https://projecteuclid.org/euclid.atmp/1408626511))
+* Sergio L. Cacciatori, [[Bianca Cerchiai]], [[Alessio Marrani]], _Magic coset decompositions_, Adv. Theor. Math. Phys. Volume 17, Number 5 (2013), 1077-1128. ([euclid:atmp/1408626511^](https://projecteuclid.org/euclid.atmp/1408626511))
 
 [[!redirects magic supergravities]]
 
