@@ -230,6 +230,13 @@ The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 
  
 
 and around (4.2) of [Tsimpis 04](#Tsimpis04)
+
+The [[D'Auria-Fre formulation of supergravity|D'Auria-Fré formulation]] is a [[first-order formulation of gravity|first-order formulation]] OF $D=11$ supergravity; for more on this see:
+
+
+* [[Bernard Julia]], S. Silva, §6 of: *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
+
+
  
 More recent textbook accounts include
 
