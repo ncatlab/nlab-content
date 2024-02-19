@@ -1058,9 +1058,14 @@ See also at _[supergravity -- History](supergravity#History)_.
 ### Textbooks and lectures
  {#ReferencesTextbooksAndLectures}
 
-Historically the first textbook on supersymmetry was
+The first general account:
 
-* [[Jim Gates]], M.T. Grisaru, [[Martin Roček]], [[Warren Siegel]],  _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548 ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200))
+* [[Jim Gates]], M.T. Grisaru, [[Martin Roček]], [[Warren Siegel]],  _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58* (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200)&rbrack;
+
+Textbooks:
+
+* [[Steven Weinberg]], *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555),  [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
+
 
 Further physics texts:
 
