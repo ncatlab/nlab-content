@@ -35,7 +35,7 @@ Let $f\colon [a,b] \to \mathbb{R}$ be a [[continuous function]] from a [[compact
 +-- {: .proof}
 ###### Proof
 
-Let $g:\mathbb{R} \to \mathbb{R}$ be defined as $g(x) \coloneqq (b - a) x + a$. Then there exists a function $h:[1,0] \to \mathbb{R}$ such that $f = g \circ h$. 
+Let $g:\mathbb{R} \to \mathbb{R}$ be defined as $g(x) \coloneqq (b - a) x + a$. Then we can define a function $h:[0,1] \to \mathbb{R}$ by $h \coloneqq f \circ g$. 
 
 By [this example](connected+topological+space) the interval $[0,1]$ is a [[connected topological space]] (this is where [[excluded middle]] is used).
 
