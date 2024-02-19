@@ -24,7 +24,9 @@ This theorem can make it easier to define certain [[adjoint functors]], and is a
 Let $R : C $&#8696;$ D$ be a profunctor, i.e., a functor from $D^{op}\times C \to Set$ and $F : C\to D$ a functor that [[representable functor|represents]] it by a natural isomorphism $\alpha : R \Rightarrow D(-,F=)$.
 Then the action of $F$ on morphisms is determined by $R,\alpha$ by the formula:
 
-$$F(f : c \to c') = \alpha(R(id_{F c}, f)(\alpha^{-1}(id_{F c}))$$
+$$F(f : c \to c') = \alpha \Big( R(id_{F c}, f)\big(\alpha^{-1}(id_{F c})\big) \Big)$$
+or the following composite acting on $id_{F c}$:
+$$ D(F c, F c) \xrightarrow{\alpha^{-1}} R (Fc, c) \xrightarrow{R (id_{F c}, f)} R (F c, c') \xrightarrow{\alpha} D(F c, F c') $$
 
 ## Representation Presentation of a Functor
 
