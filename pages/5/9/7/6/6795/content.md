@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[supergravity]]:
+
+* [[Abdus Salam]], [[Ergin Sezgin]] (eds.), *Supergravities in Diverse Dimensions*, Elsevier & World Scientific (1990) &lbrack;[doi:10.1142/0277](https://doi.org/10.1142/0277)&rbrack;
+
+
 On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
