@@ -378,7 +378,16 @@ Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
+* [[Steven Weinberg]], *Supergravity*, Section 31 in: *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555),  [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
+
+  > "Gravity exists, so if there is any truth to supersymmetry then any realistic supersymmetry theory must eventually be enlarged to a supersymmetric theory of matter and gravitation, known as supergravity. Supersymmetry without supergravity is not an option, though it may be a good approximation at energies far below the Planck scale."
+
+
 * [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
+
+Collection of original articles:
+
+* [[Abdus Salam]], [[Ergin Sezgin]] (eds.), *Supergravities in Diverse Dimensions*, Elsevier & World Scientific (1990) &lbrack;[doi:10.1142/0277](https://doi.org/10.1142/0277)&rbrack;
 
 Survey:
 
@@ -404,7 +413,7 @@ Lecture notes:
 
 Further surveys:
 
-* {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
+* {#Duff04} [[Michael Duff]], *The status of local supersymmetry*, in: *From Quarks to Black Holes: Progress in understanding the logic of Nature*, World Scientific (2005) 60-116 &lbrack;[arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160), [doi:10.1142/9789812701794_0004](https://doi.org/10.1142/9789812701794_0004)&rbrack;
 
 
 A fair bit of detail on [[supersymmetry]] and on supergravity is in 
