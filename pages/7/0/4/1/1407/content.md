@@ -494,6 +494,8 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 
 * [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
 
+* [[Ashoke Sen]], [[Edward Witten]]. *Filling the gaps with PCO’s*. JHEP 09 004 (2015). ([doi](https://doi.org/10.1007/JHEP09(2015)004))
+
 ### Fields medal (and other) work related to string theory
  {#FieldMedalWork}
 
