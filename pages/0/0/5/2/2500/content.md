@@ -366,9 +366,13 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 
 ### General
 
-An early survey is 
+Early review:
 
-* {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, Vol. 68, p. 189 - 398, 1981
+* {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, **68,** (1981) 189-398 &lbrack;<a href="https://doi.org/10.1016/0370-1573(81)90157-5">doi:10.1016/0370-1573(81)90157-5</a>&rbrack;
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
+
+  > (emphasis on [[Kaluza-Klein compactification]])
 
 Textbook accounts:
 
@@ -396,9 +400,6 @@ Lecture notes:
 
 * [[Joachim Gomis]], _Three lectures on Supergravity_ ([pdf slides](http://www.fis.puc.cl/~jalfaro/supergravity/Three%20Lectures%20on%20Supergravity.pdf))
 
-On [[Kaluza-Klein compactification]] in supergravity:
-
-* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
 
 
 Further surveys:
