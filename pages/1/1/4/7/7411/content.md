@@ -71,13 +71,11 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
 1. [[lax monoidal functor]]-[[structure]] on $\mathcal{E}$
 
    $
-     c \in \mathbf{C}
-     \;\;\;\;
      \vdash
      \;\;\;\;
-     \epsilon^{\mathcal{E}}_c
+     \epsilon^{\mathcal{E}}
      \,\colon\,
-     c \to \mathcal{E}(c)
+     1\!\!1 \to \mathcal{E}(1\!\!1)
    $
 
    $
@@ -92,7 +90,7 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
      \mathcal{E}(c \otimes c')
    $
 
-1. such that the monad structure transformations $ret^{\mathcal{E}}$ and $join^{\mathcal{E}}$ are [[monoidal transformations]] in that together with the lax monoidal structure transformation $\epsilon^{\mathcal{E}}$ and $\mu^{\mathcal{E}}$ they make the following [[commuting diagram|diagrams commute]]:
+1. such that the monad structure transformations $ret^{\mathcal{E}}$ and $join^{\mathcal{E}}$ are [[monoidal transformations]] in that together with the lax monoidal structure $\epsilon^{\mathcal{E}}$ and $\mu^{\mathcal{E}}$ they make the following [[commuting diagram|diagrams commute]]:
 
 First of all, the [[lax monoidal functor|lax monoidal unit]] must coincide with the [[unit of a monad|monad unit]]
 
@@ -108,7 +106,7 @@ sep=large%
   \ar[
     dr, 
     "{ 
-      \epsilon^{\mathcal{E}}_{1\!\!1} 
+      \epsilon^{\mathcal{E}} 
     }"
   ]
   \\
@@ -134,15 +132,15 @@ sep=large%
   \ar[
     dl,
     "{
-       \epsilon^{\mathcal{E}}_{\mathcal{E}(1\!\!1)}
+       \mathcal{E}(\epsilon^{\mathcal{E}})
        \circ
-       \epsilon^{\mathcal{E}}_{1\!\!1}
+       \epsilon^{\mathcal{E}}
     }"{description}
   ]
   \ar[
     dr,
     "{
-      \epsilon^{\mathcal{E}}_{1\!\!1}
+      \epsilon^{\mathcal{E}}
     }"
   ]
   \\
