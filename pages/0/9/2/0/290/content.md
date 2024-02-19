@@ -192,7 +192,9 @@ Introductions:
 
 A standard textbook written from the perspective of [[effective field theory]]:
 
-* {#Weinberg95} [[Steven Weinberg]] _The Quantum Theory of Fields_, Cambridge University Press (1995)
+* {#Weinberg95} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
+
+* {#Weinberg96} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
 
 Application in/to [[solid state physics]]:
 
