@@ -253,7 +253,7 @@ following
 
 Much computational detail is displayed in
 
-* {#MiemiecSchnakenburg06} [[André Miemiec]], [[Igor Schnakenburg]], _Basics of M-Theory_, Fortsch. Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256))
+* {#MiemiecSchnakenburg06} [[André Miemiec]], [[Igor Schnakenburg]], *Basics of M-Theory*, Fortsch. Phys. **54** (2006) 5-72 &lbrack;[arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137), [doi:10.1002/prop.200510256]( https://doi.org/10.1002/prop.200510256)&rbrack;
 
 In terms of [[pure spinors]]:
 
