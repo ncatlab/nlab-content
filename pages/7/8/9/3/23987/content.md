@@ -1811,6 +1811,18 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > 3. Md. Manirul Ali, Po-Wen Chen, [[Radhakrishnan Chandrashekar|R. Chandrashekar]], Physica A 633, 129436 (2024) &lbrack;[doi:10.1016/j.physa.2023.129436](https://doi.org/10.1016/j.physa.2023.129436)&rbrack;
 
 
+\linebreak
+
+* 19 Feb 2024
+
+  [[Venkata S. R. Redrouthu|Venkata SubbaRao Redrouthu]] (NYU AD):
+
+  **The Quantum Symphony: Electron Spin Choreography for Hyperpolarized Nuclear Spin Sensing**
+
+  > Delving into the atomic secrets encoded within [[nucleus|nuclear]] [[spinor|spins]] necessitates a quantum leap in sensitivity. My research endeavors to achieve this leap through Pulsed Dynamic Nuclear Polarization (DNP), an emerging technique that harnesses quantum-controlled [[electron]] spins to hyperpolarize nuclear spins, overcoming inherent sensitivity challenges in [[nuclear magnetic resonance|Nuclear Magnetic Resonance]] (NMR) spectroscopy. 
+
+  > In this presentation, I demonstrate a novel [[quantum mechanics|quantum mechanical]] scheme: broad-band pulsed DNP sequences. Comprising carefully choreographed sequences of quantum gates or pulses, each precisely controlled in phase and time, these sequences represent a pivotal advancement beyond conventional DNP methods. Through [[density matrix]]-based theoretical analyses and numerical simulations, I navigate the intricacies of these sequences, offering a deeper comprehension of their foundational principles and the quantum symphony they orchestrate in enhancing nuclear spin sensitivity.
+
 
 \linebreak
 
