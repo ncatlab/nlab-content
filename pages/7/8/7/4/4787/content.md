@@ -7,7 +7,7 @@ A notion of _dimension_ is a notion of "size" of [[objects]]. There are various 
 
 ### Of spaces
 
-There are many notions of _dimension_ of [[space]]s.  What they all have in common is that the [[cartesian space]] $\mathbb{R}^n$ has dimension $n$.
+There are many notions of _dimension_ of [[space|spaces]].  What they all have in common is that the [[cartesian space]] $\mathbb{R}^n$ has dimension $n$.
 
 *  The __dimension__ of a [[vector space]] $V$ is the [[cardinality]] of any [[basis of a vector space|linear basis]], hence of any [[set]] $B$ such that $V$ is the $B$-indexed [[direct sum]] ([[coproduct]] in [[Vect]])  of the [[ground field]].  (The *[[basis theorem]]*, equivalent to the [[axiom of choice]], says that every vector space has a unique dimension.)  For [[modules]] over [[rings]] that are not [[fields]] (for which the theorem above does not hold, neither existence nor uniqueness) the term used is [[rank]].
 
