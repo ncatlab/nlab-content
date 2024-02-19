@@ -16,7 +16,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -153,6 +152,32 @@ On holographic description of quantum [[spin chains]]:
 
 * Naoto Yokoi, Yasuyuki Oikawa, Eiji Saitoh, *Holographic Dual of Quantum Spin Chain as Chern-Simons-Scalar Theory* &lbrack;[arXiv:2310.01890](https://arxiv.org/abs/2310.01890)&rbrack:
 
+
+
+### Via supergravity
+ {#ReferencesViaSupergravity}
+
+Usage of full [[supergravity]] (retaining the [[gravitino]]) for [[AdS-CMT]], with application to [[graphene]]-like systems:
+
+* [[Laura Andrianopoli]], [[Bianca L. Cerchiai]], [[Riccardo D'Auria]], [[Mario Trigiante]], *Unconventional Supersymmetry at the Boundary of $AdS_4$ Supergravity*,  J. High Energ. Phys. **2018** 7 (2018) &lbrack;[arXiv:1801.08081](https://arxiv.org/abs/1801.08081), <a href="https://doi.org/10.1007/JHEP04(2018)007">doi:10.1007/JHEP04(2018)007</a>&rbrack;
+
+* {#ACDGNT20} [[Laura Andrianopoli]], [[Bianca L. Cerchiai]], [[Riccardo D'Auria]], A. Gallerati, R. Noris, [[Mario Trigiante]], [[Jorge Zanelli]], *$\mathcal{N}$-Extended $D=4$ Supergravity, Unconventional SUSY and Graphene*, JHEP 01 (2020) 084 &lbrack;[arXiv:1910.03508](https://arxiv.org/abs/1910.03508), <a href="https://doi.org/10.1007/JHEP01(2020)084">doi:10.1007/JHEP01(2020)084</a>&rbrack;
+
+* Antonio Gallerati, *Supersymmetric theories and graphene*, in  *40th International Conference on High Energy physics* (ICHEP2020),  PoS **390** (2021) &lbrack;[arXiv:2104.07420](https://arxiv.org/abs/2104.07420), [doi:10.22323/1.390.0662](https://doi.org/10.22323/1.390.0662)&rbrack;
+
+Exposition:
+
+* [[Bianca L. Cerchiai]],  *Supergravity in a pencil*, [talk at](M-Theory+and+Mathematics#Cerchiai2020) *[[M-Theory and Mathematics]] [2020](M-Theory+and+Mathematics#2020)*, NYU Abu Dhabi &lbrack;[[CerchiaiSlidesAtMTheoryAndMathematics2020.pdf:file]], video: [YT](https://youtu.be/xE7TmwyqqaU)&rbrack;
+
+* [[Bianca L. Cerchiai]], *Holography, Supergravity and Graphene*, talk at *106th online SIF Congress* (2020) &lbrack;[pdf](https://agenda.infn.it/event/23656/contributions/120378/attachments/75347/96340/cerchiai_sif2020.pdf), [[Cerciai-SIF2020.pdf:file]]&rbrack;
+
+Background discussion of supergravity with [[asymptotic boundaries]] (in the [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation]]): 
+
+* [[Laura Andrianopoli]], [[Lucrezia Ravera]], *On the geometric approach to the boundary problem in supergravity*, Universe **7** 12 (2021) 463 &lbrack;[arXiv:2111.01462](https://arxiv.org/abs/2111.01462), [doi:10.3390/universe7120463](https://doi.org/10.3390/universe7120463)&rbrack;
+
+See also 
+
+* *[New supergravity tools to study strongly coupled physical systems](https://cordis.europa.eu/article/id/202912-new-supergravity-tools-to-study-strongly-coupled-physical-systems)*
 
 
 ### Application to topological phases of matter
