@@ -26,20 +26,19 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 _Quantum field theory_ is the general framework for the description of the fundamental processes in [[physics]] as understood today. These are carried by configurations of [[field (physics)|fields]] under the generalized rules of [[quantum mechanics]], therefore the name. Notably the [[standard model of particle physics]] is a quantum field theory and has been the main motivation for the development of the concept in general. 
 
 Historically quantum field theory grew out of attempts to combine [[classical field theory]] in the context of [[special relativity]] with [[quantum mechanics]]. While some aspects of it are understood in exceeding detail, the overall picture of what quantum field theory actually is used to be quite mysterious. There are two main approaches for axiomatizing and formalizing the notion:
 
-* algebraic quantum field theory: [[AQFT]] -- this encodes a quantum field theory as an assignment of [[operator algebra]]s "of observables" to patches of [[spacetime]];
+* algebraic quantum field theory: [[AQFT]] -- this encodes a quantum field theory as an assignment of [[operator algebras]] "of [[quantum observables]]" to patches of [[spacetime]];
 
-* functorial quantum field theory: [[FQFT]] -- this encodes a quantum field theory as an assignment of _spaces of quantum states_ to patches of [[codimension]] 1, and of maps between spaces of states -- the time evolution operator -- to [[cobordism]]s between such patches.
+* functorial quantum field theory: [[FQFT]] -- this encodes a quantum field theory as an assignment of _[[spaces of quantum states]]_ to patches of [[codimension]] 1, and of maps between spaces of states -- the time evolution operator -- to [[cobordisms]] between such patches.
 
-Both these approaches try to capture the notion of a _full_ quantum field theory. On the other hand, much activity in physics is concerned with [[perturbative quantum field theory]]. This is a priori to be thought of as an approximation to a full quantum field theory akin to the approximation of a function by its Taylor series, but not the least because it is often the only available technique, the tools of perturbative quantum field theory are to some extent also taken as a definition of quantum field theory. 
+Both these approaches aim at capturing the notion of a _full_ [[nonperturbative quantum field theory]]. On the other hand, much activity in physics is concerned "only" with [[perturbative quantum field theory]]. This is a priori to be thought of as just an approximation to a full quantum field theory akin to the approximation of a [[smooth function]] by its [[Taylor series]] around some point. But since [[nonperturbative quantum field theory]] has remained largely out of reach, and since [[perturbative quantum field theory]] is already so rich, the latter is often understood by default when referring to the topic,.
 
-The gap for instance between the formal study of the [[AQFT]] axioms and physics as done in practice by physicists had to a large extent been due to the fact that [[AQFT]] had little to say about perturbative quantum field theory. But recently this has been changing. See [[perturbative quantum field theory]] for more.
-
-Recent times have seen major progress in understanding these axiomatizations and connecting them to the structures studied in [[physics]] (see the references below), but still the number of interesting phenomena in quantum field theory that physicists handle semi-rigorously and that are waiting for a fully formal understanding is large.
+Recent times have seen major progress in understanding these axiomatizations and connecting them to the structures studied in [[physics]] (see the references below), but still there is a large number of interesting phenomena in quantum field theory that physicists handle semi-rigorously and that are waiting for a fully formal understanding.
 
 
 ## Locally covariant perturbative quantum field theory
