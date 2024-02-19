@@ -1060,7 +1060,8 @@ See also at _[supergravity -- History](supergravity#History)_.
 
 The first general account:
 
-* [[Jim Gates]], M.T. Grisaru, [[Martin Roček]], [[Warren Siegel]],  _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58* (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200)&rbrack;
+* [[Jim Gates]], M.T. Grisaru, [[Martin Roček]], [[Warren Siegel]],  _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58** (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200)&rbrack;
+
 
 Textbooks:
 
@@ -1071,7 +1072,7 @@ Further physics texts:
 
 * Stephen P. Martin, _A Supersymmetry Primer_ ([arXiv:hep-ph/9709356](http://arxiv.org/abs/hep-ph/9709356))
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2 of: _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
 
 * Howard E. Haber, Laurel Stephenson Haskins, _Supersymmetric Theory and Models_ ([arXiv:1712.05926](https://arxiv.org/abs/1712.05926))
 
