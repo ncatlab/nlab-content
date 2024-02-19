@@ -12,7 +12,7 @@ On [[factorization homology]] for [[surfaces]] equipped with [[flat connections]
 
 On [[factorization homology]] for [[surfaces]] with [[defects]], dynamical quantum groups, and Chern--Simons theory with sources: 
 
-* [[Corina Keller]], *Generalized character varieties and quantization via factorization homology*, PhD Thesis, Université de Montpellier &lbrack;[pdf] (https://imag.umontpellier.fr/~calaque/students-Corina_Keller_PhD_Thesis.pdf)&rbrack;
+* [[Corina Keller]], *Generalized character varieties and quantization via factorization homology*, PhD Thesis, Université de Montpellier &lbrack;[tel-04062148](https://theses.hal.science/tel-04062148), [pdf] (https://imag.umontpellier.fr/~calaque/students-Corina_Keller_PhD_Thesis.pdf)&rbrack;
 
 
 Review: 
