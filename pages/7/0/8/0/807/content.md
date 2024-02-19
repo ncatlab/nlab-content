@@ -41,7 +41,7 @@ $$
 +-- {: .num_defn #EulerCharOfChainComplex}
 ###### Definition
 
-If the [[homology group|homology]] of $V$ consists of finitely generated projective modules, then the **Euler characteristic** of $V$ is the alternating sum of its [[Betti number]]s (the [[ranks]] of its homology modules), if this is finite:
+If the [[homology group|homology]] of $V$ consists of finitely generated projective modules, then the **Euler characteristic** of $V$ is the alternating sum of its [[Betti number|Betti numbers]] (the [[ranks]] of its homology modules), if this is finite:
 $$
   \chi(V)
   \,\coloneqq\,
@@ -54,7 +54,7 @@ When both of these are defined, they are equal.  This is a consequence of the fu
 
 +-- {: .num_remark #InvariantUnderQIso}
 ###### Remark
-Definition \ref{EulerCharOfChainComplex} shows that the Euler characteristic of chain complexes is invariant under the natural notion of [[equivalence in an (infinity,1)-category|equivalence]] of chain complexes: (zig-zags of) [[quasi-isomorphism]]s.
+Definition \ref{EulerCharOfChainComplex} shows that the Euler characteristic of chain complexes is invariant under the natural notion of [[equivalence in an (infinity,1)-category|equivalence]] of chain complexes: (zig-zags of) [[quasi-isomorphism|quasi-isomorphisms]].
 =--
 
 ### Of a topological space (or $\infty$-groupoid)
@@ -197,12 +197,12 @@ See ([PontoShulman](#PontoShulman)) and the discussion at [[Thom spectrum]] for 
 ### Homotopy cardinality ($\infty$-groupoid cardinality)
  {#HomotopyCardinality}
 
-The [above](OfATopologicalSpace) Euler characteristic of a topological space is the alternating _sum_ over sizes of _homology_ groups. Similar in construction is the alternating _product_ of sizes of [[homotopy group]]s. This goes by the name _[[∞-groupoid cardinality]]_ or _[[homotopy cardinality]]_ . But [below](RelationBetweenDefinitions) we shall see that Euler characteristic of higher categories interpolates between this homotopical and the above homological notion. 
+The [above](OfATopologicalSpace) Euler characteristic of a topological space is the alternating _sum_ over sizes of _homology_ groups. Similar in construction is the alternating _product_ of sizes of [[homotopy group|homotopy groups]]. This goes by the name _[[∞-groupoid cardinality]]_ or _[[homotopy cardinality]]_ . But [below](RelationBetweenDefinitions) we shall see that Euler characteristic of higher categories interpolates between this homotopical and the above homological notion. 
 
 +-- {: .num_defn #EulerCharOfSpaceHomotopically}
 ###### Definition
 
-For $X$ a [[topological space]] / [[homotopy type]] / [[∞-groupoid]], its **[[homotopy cardinality]]** or **[[∞-groupoid cardinality]]** is -- if it exists -- the [[rational number]] given by the alternating product of [[cardinality|cardinalities]] of [[homotopy group]]s
+For $X$ a [[topological space]] / [[homotopy type]] / [[∞-groupoid]], its **[[homotopy cardinality]]** or **[[∞-groupoid cardinality]]** is -- if it exists -- the [[rational number]] given by the alternating product of [[cardinality|cardinalities]] of [[homotopy group|homotopy groups]]
 
 $$
   \chi_{homotop}(X) 
@@ -217,7 +217,7 @@ $$
 ### Of posets, groupoids and categories
 
 The process of sending a [[category]] $C$ to its 
-[[geometric realization of categories]] ${\vert C \vert} \in $ [[Top]] $\simeq$ [[∞Grpd]] is a way to _present_ [[topological space]]s, and hence [[∞-groupoid]]s, by a category: we can think of $\vert C \vert$ as the [[Kan fibrant replacement]] of $C$: the [[universal property|universal solution]] to [[weak inverse|weakly inverting]] all [[morphism]]s of $C$.
+[[geometric realization of categories]] ${\vert C \vert} \in $ [[Top]] $\simeq$ [[∞Grpd]] is a way to _present_ [[topological space|topological spaces]], and hence [[∞-groupoid|∞-groupoids]], by a category: we can think of $\vert C \vert$ as the [[Kan fibrant replacement]] of $C$: the [[universal property|universal solution]] to [[weak inverse|weakly inverting]] all [[morphism|morphisms]] of $C$.
 
 Up to the relevant notion of [[equivalence in an (infinity,1)-category]] (which is [[weak homotopy equivalence]]), _every_ [[∞-groupoid]] arises as the [[nerve]]/[[geometric realization of categories|geometric realization]] of a category. In fact one can assume the category to be a [[poset]]. (This follows from the existence of the [[Thomason model structure]], as discussed in more detail there.)
 
@@ -256,7 +256,7 @@ $$
 
 =--
 
-The definition of Euler characteristic of [[poset]]s  appears for instance in ([Rota](#Rota)). For [[groupoid]]s it has been amplified in [BaezDolan](#BaezDolan). The joint generalization to categories is due to ([Leinster](#Leinster)), where the above appears as def. 2.2.
+The definition of Euler characteristic of [[poset|posets]] appears for instance in ([Rota](#Rota)). For [[groupoid|groupoids]] it has been amplified in [BaezDolan](#BaezDolan). The joint generalization to categories is due to ([Leinster](#Leinster)), where the above appears as def. 2.2.
 
 +-- {: .num_remark }
 ###### Remark
@@ -287,7 +287,7 @@ $$
   Str3Cat \simeq Str2Cat-Cat
 $$
 
-etc, this gives a notion of Euler characteristic of strict $\infty$-categories, hence in particular of [[strict infinity-groupoid]]s.
+etc, this gives a notion of Euler characteristic of strict $\infty$-categories, hence in particular of [[strict infinity-groupoid|strict infinity-groupoids]].
 
 One should be able to show that applied to strict $\infty$-groupoids this does reproduce [[homotopy cardinality]].
 
@@ -304,7 +304,7 @@ Euler characteristic behaves well with respect to the basic operations in [[homo
 ###### Proposition
 
 
-In a [[symmetric monoidal category|symmetric monoidal]] [[triangulated category]] with [[dualizable object]]s $X, Y, Z$, if
+In a [[symmetric monoidal category|symmetric monoidal]] [[triangulated category]] with [[dualizable object|dualizable objects]] $X, Y, Z$, if
 
 $$
   \array{
@@ -352,7 +352,7 @@ The following proposition asserts that the definition \ref{EulerCharOfCat} of Eu
 +-- {: .num_prop #PosteEulerCharGiveSpaceCharUnderRealization}
 ###### Proposition
 
-Let $C$ be a finite [[poset]] or, slightly more generally, a finite [[skeleton|skeletal]] [[category]] with no nontrivial [[endomorphism]]s.
+Let $C$ be a finite [[poset]] or, slightly more generally, a finite [[skeleton|skeletal]] [[category]] with no nontrivial [[endomorphism|endomorphisms]].
 
 Write $\vert C \vert \in $ [[Top]] $\simeq$ [[∞Grpd]] for its [[geometric realization of categories|geometric realization]]. Then
 
@@ -517,12 +517,12 @@ Efremovich and Rudyak shown that the Euler characteristic is (up to the overall 
 
 * V. A. Efremovich, Yu. B. Rudyak, _On the concept of the Euler characteristic_, Uspehi Mat. Nauk __31__:5(191) (1976), 239&#8211;240 [MR458412](http://www.ams.org/mathscinet-getitem?mr=458412), [Russian pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=3975&volume=31&year=1976&issue=5&fpage=239&what=fullt)
 
-The description of Euler characteristics are categorical [[trace]]s in [[symmetric monoidal categories]] is discussed in section 4 of
+The description of Euler characteristics are categorical [[trace|traces]] in [[symmetric monoidal categories]] is discussed in section 4 of
 
 * {#DoldPuppe} [[Albrecht Dold]], [[Dieter Puppe]], _Duality, trace and transfer_ , Proceedings of the Steklov Institute of Mathematics, (1984), issue 4
  
 
-Behaviour of tracial Euler characteristic under [[homotopy colimit]]s is discussed in 
+Behaviour of tracial Euler characteristic under [[homotopy colimit|homotopy colimits]] is discussed in 
 
 * {#May} [[Peter May]], _The additivity of traces in triangulated categories_ K-theory (1991) ([website](http://www.math.uiuc.edu/K-theory/0474/))
  
