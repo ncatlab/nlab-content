@@ -135,6 +135,11 @@ For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is d
 
 * Machiko Hatsuda, Kiyoshi Kamimura, _M5 algebra and $SO(5,5)$ duality_ ([arXiv:1305.2258](http://arxiv.org/abs/1305.2258))
 
+More on generalized exceptional [[sigma-models]]:
+
+* David Osten, *On the universal exceptional structure of world-volume theories in string and M-theory* &lbrack;[arXiv:2402.10269](https://arxiv.org/abs/2402.10269)&rbrack;
+
+
 ### Super-exceptional generalized geometry
  {#SuperExceptionalGeometryReferences}
 
