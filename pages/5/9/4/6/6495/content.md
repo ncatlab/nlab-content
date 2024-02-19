@@ -101,8 +101,7 @@ Review and exposition includes
 
 * Thomas Geisser, _Motivic Cohomology, K-Theory and Topological Cyclic Homology_, Handbook of K-theory II.1, [pdf](http://www.math.uiuc.edu/K-theory/handbook/1-193-234.pdf)
 
-* Ib Madsen, _Algebraic K-theory and traces_, [pdf](http://math.mit.edu/~nrozen/juvitop/madsen.pdf)
-
+* Ib Madsen, _Algebraic K-theory and traces_, [pdf](https://math.mit.edu/juvitop/old/notes/2009_Fall/madsen.pdf)
 
 Abstract characterization of the [[Dennis trace]] and cyclotomic trace is discussed in
 
