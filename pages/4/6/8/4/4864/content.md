@@ -189,6 +189,11 @@ and specifically on the [[I8]]-term:
 
 * [[Michael Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nucl.Phys. B452 (1995) 261-282 ([arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126))
 
+On [[supergravity]]:
+
+* {#Duff04} [[Michael Duff]], *The status of local supersymmetry*, in: *From Quarks to Black Holes: Progress in understanding the logic of Nature*, World Scientific (2005) 60-116 &lbrack;[arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160), [doi:10.1142/9789812701794_0004](https://doi.org/10.1142/9789812701794_0004)&rbrack;
+
+
 On [[Freudenthal magic square|magic squares]] of [[magic supergravities]]  and [[U-duality]] via the [[classical double copy]]:
 
 * {#BorstenDuffHughesNagy13} [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic square from Yang-Mills squared*, Phys. Rev. Lett. **112** (2014) 131601  &lbrack;[arXiv:1301.4176](http://arxiv.org/abs/1301.4176)&rbrack;
