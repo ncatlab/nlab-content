@@ -8,11 +8,7 @@
 
 ## Selected writings
 
-* _Scientist: Four golden lessons_, Nature 426, 389 (27 November 2003) ([doi:10.1038/426389a](http://www.nature.com/nature/journal/v426/n6965/full/426389a.html))
-
-* _Against philosophy_, in _Dreams of a final theory_ ([pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf))
-
-Re-introducing [[light-cone gauge quantization]]:
+(Re-)Introducing [[light-cone gauge quantization]]:
 
 * [[Steven Weinberg]], *Dynamics at Infinite Momentum*, Phys. Rev. **150** (1966) 1313,  Erratum Phys. Rev. 158, 1638 (1967) &lbrack;[doi:10.1103/PhysRev.150.1313](https://doi.org/10.1103/PhysRev.150.1313)&rbrack;
 
@@ -51,9 +47,25 @@ On classification of possible long-range [[forces]], hence of [[scattering]] pro
 
 * [[Steven Weinberg]], _Photons and Gravitons in Perturbation Theory: Derivation of Maxwell’s and Einstein’s Equations,” Phys. Rev. 138 (1965) B988 ([doi:10.1103/PhysRev.138.B988](https://doi.org/10.1103/PhysRev.138.B988))
 
+On [[quantum field theory]]:
+
+* {#Weinberg95} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
+
+* {#Weinberg96} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
+
+
+On [[supersymmetry]]:
+
+* [[Steven Weinberg]], *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555),  [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
+
+
 On [[quantum mechanics]]:
 
 * [[Steven Weinberg]], *Lectures on Quantum Mechanics*, Cambridge University Press (2015) &lbrack;[doi:10.1017/CBO9781316276105](https://doi.org/10.1017/CBO9781316276105)&rbrack;
+
+* [[Steven Weinberg]]: _Scientist: Four golden lessons_, Nature **426**, 389 (27 November 2003) &lbrack;[doi:10.1038/426389a](http://www.nature.com/nature/journal/v426/n6965/full/426389a.html)&rbrack;
+
+* [[Steven Weinberg]], *Against philosophy*, in: _Dreams of a final theory_ &lbrack;[pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf)&rbrack;
 
 
 
