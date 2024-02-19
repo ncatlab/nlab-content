@@ -19,7 +19,12 @@ Introducing [[superspace]] and [[superfields]] for [[supersymmetry|supersymmetri
 
 * [[Abdus Salam]], [[John Strathdee]], _Superfields and Fermi-Bose symmetry_, Physical Review D11, 1521-1535 (1975) ([doi:10.1142/9789812795915_0051](https://doi.org/10.1142/9789812795915_0051))
 
-## Related $n$Lab entries
+On [[supergravity]]:
+
+* [[Abdus Salam]], [[Ergin Sezgin]] (eds.), *Supergravities in Diverse Dimensions*, Elsevier & World Scientific (1990) &lbrack;[doi:10.1142/0277](https://doi.org/10.1142/0277)&rbrack;
+
+
+## Related entries
 
 * [[superspace]], [[superfield]]
 
