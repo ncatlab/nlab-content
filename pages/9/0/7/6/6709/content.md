@@ -81,12 +81,12 @@ $$
 
 ## Properties
 
-### Spanning the cohomology ring
+### Spanning the cohomology ring of $B SO$
 
 +-- {: .num_prop}
 ###### Proposition
 
-Every class in $H^\bullet(B O(n), \mathbb{Z}_2)$ and $H^\bullet(B S O(n), \mathbb{Z}_2)$ can be written uniquely as a polynomial in the Stiefel-Whitney classes. In fact the [[cohomology rings]] are [[polynomial]] algebras over $\mathbb{Z}_2$ in the SW classes:
+Every class in the [[ordinary cohomology]] $H^\bullet(B O(n), \mathbb{Z}_2)$ and $H^\bullet(B S O(n), \mathbb{Z}_2)$ of the [[classifying spaces]] of the ([[special orthogonal group|special]]) [[orthogonal group]] with [[coefficients]] in [[cyclic group of order 2|$\mathbb{Z}_2$ is  uniquely a [[polynomial]] in the Stiefel-Whitney classes. In fact the [[cohomology rings]] are [[polynomial]] algebras over $\mathbb{Z}_2$ in the SW classes:
 
 $$
   H^\bullet(B O(n), \mathbb{Z}_2)  
