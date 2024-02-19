@@ -3,6 +3,13 @@
 
 # Selected writings
 
+On [[magic supergravity]]:
+
+* {#CacciatoriCerchiaiMarrani12} Sergio L. Cacciatori, [[Bianca Cerchiai]], [[Alessio Marrani]], _Squaring the Magic_ &lbrack;[arXiv:1208.6153](http://arxiv.org/abs/1208.6153)&rbrack;
+
+* {#CacciatoriCerchiaiMarrani2013} Sergio L. Cacciatori, [[Bianca Cerchiai]], [[Alessio Marrani]], _Magic coset decompositions_, Adv. Theor. Math. Phys. **17** 5 (2013) 1077-1128 &lbrack;[doi:10.4310/ATMP.2013.v17.n5.a4](https://doi.org/10.4310/ATMP.2013.v17.n5.a4)&rbrack;
+
+
 On generalizations of [[exceptional structures]], including [[E8]], [[octonions]] and the [[exceptional Jordan algebra]]:
 
 * [[Piero Truini]], [[Michael Rios]], [[Alessio Marrani]], *The Magic Star of Exceptional Periodicity*, J. Phys.: Conf. Ser. **1194** (2019) 012106 &lbrack;[arXiv:1711.07881](https://arxiv.org/abs/1711.07881), [doi:10.1088/1742-6596/1194/1/012106](https://iopscience.iop.org/article/10.1088/1742-6596/1194/1/012106)&rbrack;
