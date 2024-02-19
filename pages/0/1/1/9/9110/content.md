@@ -75,9 +75,9 @@ The class of Freund-Rubin compactifications of 6d [[Einstein-Maxwell theory]] do
 now a popoular toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
 
 
-A detailed textbook account is in
+Textbook account (in [[D'Auria-Fre formulation of supergravity|D'Auria-Fré formulation]]):
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapters V.4-V.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapters V.4-V.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
 
 Discussion of compactification along the fibration $S^1 \to S^7 \to \mathbb{C}P^3$ is in
 
