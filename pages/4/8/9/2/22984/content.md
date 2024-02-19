@@ -18,7 +18,7 @@
 
 ## Idea
 
-A **regular hyperdoctrine**, also called an **elementary existential doctrine**, is a version of a [[first-order hyperdoctrine]] that is appropriate for [[regular logic]].
+A **regular hyperdoctrine**, also called an **elementary existential doctrine** or a **regular fibration**, is a version of a [[first-order hyperdoctrine]] that is appropriate for [[regular logic]].
 
 ## Definition
 
@@ -50,6 +50,8 @@ The original definition of Lawvere did not include the last two conditions and a
 
 * Davide Trotta, *An algebraic approach to the completions of elementary doctrines*, 2021 ([arxiv:2108.03415](https://arxiv.org/abs/2108.03415))
 
+* [[Bart Jacobs]], *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf), [webpage](http://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html)&rbrack;
+
 [[!redirects regular hyperdoctrines]]
 [[!redirects elementary existential doctrine]]
 [[!redirects elementary existential doctrines]]
@@ -57,3 +59,5 @@ The original definition of Lawvere did not include the last two conditions and a
 [[!redirects elementary doctrines]]
 [[!redirects existential doctrine]]
 [[!redirects existential doctrines]]
+[[!redirects regular fibration]]
+[[!redirects regular fibrations]]
