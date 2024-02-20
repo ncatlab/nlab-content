@@ -1376,6 +1376,21 @@ See also
 [[!redirects propositional Paulin-Mohring J rule]]
 [[!redirects typal Paulin-Mohring J rule]]
 
+[[!redirects J-rule]]
+[[!redirects judgmental J-rule]]
+[[!redirects propositional J-rule]]
+[[!redirects typal J-rule]]
+
+[[!redirects standard J-rule]]
+[[!redirects judgmental standard J-rule]]
+[[!redirects propositional standard J-rule]]
+[[!redirects typal standard J-rule]]
+
+[[!redirects Paulin-Mohring J-rule]]
+[[!redirects judgmental Paulin-Mohring J-rule]]
+[[!redirects propositional Paulin-Mohring J-rule]]
+[[!redirects typal Paulin-Mohring J-rule]]
+
 [[!redirects identity induction]]
 [[!redirects path induction]]
 [[!redirects identification induction]]
