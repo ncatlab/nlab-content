@@ -278,3 +278,9 @@ and then developed in detail for [[QCD]] on [[D8-branes]] in the [[Sakai-Sugimot
 [[!redirects flavour problem]]
 [[!redirects flavor problem]]
 
+[[!redirects flavour symmetry]]
+[[!redirects flavour symmetries]]
+
+
+
+
