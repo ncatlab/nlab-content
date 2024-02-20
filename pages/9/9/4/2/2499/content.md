@@ -1090,11 +1090,16 @@ The formulation of supergravity of [[supermanifolds]] and the relevance of the [
 
 The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
+* [[Yuval Ne'eman]], [[Tullio Regge]], *Gravity and supergravity as gauge theories on a group manifold*, Physics Letters B **74** 1–2 (1978) 54-56 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90058-8">doi:10.1016/0370-2693(78)90058-8</a>, [spire:6328](https://inspirehep.net/literature/6328)&rbrack;
+
+  also: Rivista del Nuovo Cimento **1** 5 (1978) 1–43
+
+
 * {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in: *Group Theoretical Methods in Physics*, Lecture Notes in Physics **180**, Springer (1983) 228–247 &lbrack;[doi:10.1007/3-540-12291-5_29](https://doi.org/10.1007/3-540-12291-5_29), [spire:182644](http://inspirehep.net/record/182644)&rbrack;
 
 The original articles that introduced specifically the D'Auria-Fré-formalism:
 
-* {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
+* {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]],  [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
 
 * {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
 
@@ -1116,6 +1121,8 @@ Review:
 * {#DAuria20} [[Riccardo D'Auria]], _Geometric supergravity_ &lbrack;[arXiv:2005.13593](https://arxiv.org/abs/2005.13593)&rbrack; in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific (2019) &lbrack;[doi:10.1142/11643](https://doi.org/10.1142/11643)&rbrack;
 
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
+
+* [[Lucrezia Ravera]], *Geometric approach to supergravity in superspace and some applications*, lecture at *Training school on Cartan Geometry*, Masaryk University (Nov 2023) &lbrack;video: [YT](https://youtu.be/tuSXuAtvdRk)&rbrack;
 
 See also:
 
