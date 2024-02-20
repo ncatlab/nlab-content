@@ -13,7 +13,7 @@
 
 ## Idea
 
-Set truncation is an operation in [[type theory]] which turns a [[type]] into an [[h-set]]. 
+Set truncation is an operation in [[type theory]] which turns a [[type]] into an [[h-set]]. The idea is that given a type $T$, the type of [[connected components]] of $T$ is a set. 
 
 ## Definition
 
