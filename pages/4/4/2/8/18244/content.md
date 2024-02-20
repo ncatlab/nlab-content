@@ -22,3 +22,4 @@ See also
 
 * Wikipedia, _[First uncountable ordinal](https://en.wikipedia.org/wiki/First_uncountable_ordinal)_
 
+[Spanish Version](https://chicksx.com/blog/primer-ordinal-incontable) by [ChicksX](https://chicksx.com/).
