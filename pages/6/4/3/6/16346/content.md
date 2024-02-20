@@ -2354,6 +2354,11 @@ Fully explicit super Cartan geometry is in:
 
 * [[Konstantin Eder]], _Super fiber bundles, connection forms and parallel transport_ ([arXiv:2101.00924](https://arxiv.org/abs/2101.00924))
 
+In relation to the [[D'Auria-Fre formulation of supergravity]]:
+
+* J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
+
+
 
 
 For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
