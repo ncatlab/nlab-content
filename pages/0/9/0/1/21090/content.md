@@ -1049,8 +1049,8 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 
 This has the interpretation of "shared randomness between $X$ and $Y$, possibly with correlation or other interactions".
 
-* In *FinStoch*, a joint state on $X\otimes Y$ is a joint probability distribution on $X\times Y$, of entries $p(x,y)$.
-* In *Stoch*, a joint state on $X\otimes Y$ is a joint probability measure on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, specified uniquely by its values $p(A\times B)$ for $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
+* In *FinStoch*, a joint state on $X\otimes Y$ is a [[joint probability distribution]] on $X\times Y$, of entries $p(x,y)$.
+* In *Stoch*, a joint state on $X\otimes Y$ is a [[joint probability measure]] on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, specified uniquely by its values $p(A\times B)$ for $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
 * In *Set*, a joint state on $X\otimes Y$ is an ordered pair $(x,y)$.
 
 Given a joint state $p$ on $X\otimes Y$, its **marginals** are the states $p_X$ and $p_Y$, on $X$ and $Y$ respectively, given by discarding the unobserved variable:
@@ -1101,11 +1101,11 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 
 This formalizes both the idea of "not observing" as well as the one of *averaging* or *integrating* over something:
 
-* In *FinStoch*, the marginal distribution $p_X$ on $X$ formed by the joint distribution $p$ on $X\times Y$ is given by summing over $Y$:
+* In *FinStoch*, the [[marginal distribution]] $p_X$ on $X$ formed by the [[joint distribution]] $p$ on $X\times Y$ is given by summing over $Y$:
 $$
 p_X(x) = \sum_{y\in Y} p(x,y)
 $$
-* In *Stoch*, the marginal distribution $p_X$ on $(X,\mathcal{A})$ formed by the joint distribution $p$ on $X\times Y$ is given by *integrating* over $Y$:
+* In *Stoch*, the [[marginal distribution]] $p_X$ on $(X,\mathcal{A})$ formed by the [[joint distribution]] $p$ on $X\times Y$ is given by *integrating* over $Y$:
 $$
 p_X(A) = p(A\times Y) = \int_Y 1_A(x)\,p(d x\,d y)
 $$
