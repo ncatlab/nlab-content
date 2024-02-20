@@ -30,7 +30,7 @@ A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is 
 
 1. For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **[[De Morgan law]]**)
 
-2. For all $a\in M$: $\not a\vee\not\not a=\top$.
+2. For all $a\in M$: $\not a\vee\not\not a=\top$. (**[[weak excluded middle]]**)
 
 3. For all $a,b\in M$: $\not\not (a\vee b) =\not\not a\vee \not\not b$.
 
