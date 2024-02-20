@@ -17,19 +17,27 @@
 
 A **random variable**, or _stochastic variable_, is  a quantity that is subject to 'random' variation.
 
+Some authors in [[probability theory]] distinguish between random variables and **random elements**: a *random element* is a generic entity (such as a [[point]] of a [[set]] or [[space]]) subject to random variation, while a *random variable* is specifically a [[number]] subject to random variation. 
+
+
 ## Definition
 
-The formalization of this idea in modern [[probability theory]] ([Kolmogorov 33, III](#Kolmogorov33)) is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mu)$ (e.g. [Grigoryan 08, 3.2](#Grigoryan08), [Dembo 12, 1.2.1](#Dembo12)). 
+The formalization of this idea in modern [[probability theory]] ([Kolmogorov 33, III](#Kolmogorov33)) is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mathcal{F},\mu)$ (e.g. [Grigoryan 08, 3.2](#Grigoryan08), [Dembo 12, 1.2.1](#Dembo12)). 
 
 One thinks of $X$ as the space of all possible configurations (all the "[[possible worlds]]" with respect to the idealized situation under consideration), thinks of the measure $\mu(U)$ of any [[subset]] of it as the [[probability]] that one of the configurations $x \in U \subset X$ is _randomly_ realized, and thinks of $f(x)$ as the value of the given random variable in the situation of that configuration.
 
-Accordingly for instance the [[expectation value]] of the random variable $f$ is the [[integral]]
+Often, a *random element* is a [[measurable function]] $X\to Y$, where $Y$ is a generic [[measurable space]], while the term *random variable* is reserved for the case where $Y$ is $\mathbb{R}$, $\mathbb{R}^n$, or a more general [[vector space]].
+One speaks for example of *random elements of a set*, and of *real-valued* or *vector-valued random variables*.
+
+In particular, the *random variable* tends to be used for those situation where there is a notion of [[expectation value]].
+For example the [[expectation value]] of a (real-valued) random variable $f$ is the [[integral]]
 
 $$
   \langle f \rangle \coloneqq \int_X f \cdot \mu
 $$
 
-of $f$ against the [[probability measure]], i.e. the average value of the random variable over all possible configuration, weighted by their [[probability]].
+of $f$ against the [[probability measure]] $\mu$, i.e. the average value of the random variable over all possible configuration, weighted by their [[probability]].
+
 
 ## Properties
 
@@ -65,7 +73,7 @@ The details of this example, due to [[Dana Scott|D. Scott]], are described in ([
 
 * [[probability theory]]
 
-* [[Giry monad]]
+* [[probability monad]]
 
 ## References
 
@@ -95,7 +103,13 @@ Discussion from a point of view of [[type theory]]/[[computer science]] includes
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014.
 
+
+category: probability
+
 [[!redirects random variables]]
+
+[[!redirects random element]]
+[[!redirects random elements]]
 
 [[!redirects stochastic variable]]
 [[!redirects stochastic variables]]
