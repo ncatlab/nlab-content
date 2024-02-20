@@ -20,7 +20,7 @@ In [[type theory]], the _axiom K_ is an [[axiom]] that when added to [[intension
 
 Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $Id_A(x,x)$ (of [[equivalences]] of a [[term]] $x \colon A$) is [[propositional equality|propositionally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_x \colon Id_A(x,x)$. 
 
-See also at _[extensional type theory -- Propositional extensionality](extensional+type+theory#PropositionalExtensionality)_.
+See also at _[[set-level type theory]]_.
 
 Axiom K can also be called **loop induction** or **self-identification induction** in parallel to [[path induction]]. 
 
