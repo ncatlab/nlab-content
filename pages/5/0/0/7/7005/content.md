@@ -563,6 +563,10 @@ For more references see _[[homotopy type theory]]_.
 
 [[!redirects univalence]]
 [[!redirects univalent]]
+
+[[!redirects univalent type family]]
+[[!redirects univalent type families]]
+
 [[!redirects univalent universe]]
 [[!redirects univalent universes]]
 [[!redirects universe extensionality]]
