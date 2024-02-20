@@ -28,7 +28,7 @@ In [[probability theory]], it is a well known fact that [[events]] are not alway
 $$
 P(A,B) \ne P(A)\,P(B).
 $$
-One says that [[stochastic dependence and independence|the probability of a product is not the product of the probabilities]].
+One says that *the probability of a product is not the product of the probabilities*.
 The term on the left is called the *joint probability* (the probability that the events $A$ and $B$ happen *jointly*) and the terms on the right are called *marginal probabilities* (the probabilities that $A$ and $B$ happen *separately*.)
 In general, the joint probability has more information than the marginal probabilities alone, because of the presence of [[correlation]] or other [[stochastic interactions]].
 
