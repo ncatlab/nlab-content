@@ -2347,26 +2347,46 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 
 * {#EgeilehChami13} [[Michel Egeileh]], [[Fida El Chami]], _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
 
-Fully explicit super Cartan geometry is in:
+Super Cartan geometry in the usual components is made explicit in:
 
 * [[Konstantin Eder]], _Super Cartan geometry and the super Ashtekar connection_ ([arXiv:2010.09630](https://arxiv.org/abs/2010.09630))
 
 
 * [[Konstantin Eder]], _Super fiber bundles, connection forms and parallel transport_ ([arXiv:2101.00924](https://arxiv.org/abs/2101.00924))
 
-In relation to the [[D'Auria-Fre formulation of supergravity]]:
+Further discussion in relation to the [[D'Auria-Fre formulation of supergravity]]:
 
 * J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
 
 
-
-
 For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
 
-The formalization as discussed above is from
 
-* _[[schreiber:differential cohomology in a cohesive topos]]_
+The above was prepared as lecture notes for
+
+* [[Urs Schreiber]], *[[schreiber:Higher Cartan Geometry]]*, lectures at Charles University, Prague (2015)
+
+* [[Urs Schreiber]], *[[schreiber:super geometry seminar|Super Cartan Geometry]]*, lectures at Czech Academy of Science, Prague (2016)
+
+following
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+
+See also related lecture notes at:
+
+* [[Urs Schreiber]], *[[schreiber:Introduction to Higher Supergeometry]]*, lecture at _[[Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/) (2018)
+
+  partially published as: 
+
+  [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]: *Higher Structures in M-Theory*, Fortschritte der Physik **67** 8-9 (2019) &lbrack; [arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001]( https://doi.org/10.1002/prop.201910001)&rbrack;
+
+
+* [[geometry of physics -- supergeometry]]
+ 
+
 
 [[!redirects super Cartan geometry]]
 [[!redirects super Cartan geometries]]
 [[!redirects super-Cartan geometries]]
+
+
