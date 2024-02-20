@@ -15,9 +15,9 @@
 
 ## Idea
 
-Given a [[probability space]] $(S,\mu)$ and a [[random variable]] $X \colon S \to \mathbb{R}$ with values in the [[real numbers]], the *law* of $X$ is the [[probability measure]] on $\mathbb{R}$ which to a [[measurable subset]] assigns the [[probability]] that $X$ takes values in this subset.
+Given a [[probability space]] $(S,\mathcal{F},\mu)$ and a [[random variable]] or [[random element]] $f \colon S \to X$, the **law** or **distribution** of $f$ (or sometimes, of $X$) is the [[probability measure]] on $X$ which to a [[measurable subset]] $A\subseteq X$ assigns the [[probability]] that $f$ takes values in $A$.
 
-In particular, the law of $X$ is the [[pushforward measure|pushforward]] of $\mu$ along $X$.
+In particular, the law of $f$ is the [[pushforward measure|pushforward]] of $\mu$ along $f$.
 
 ## Examples
 
@@ -25,9 +25,13 @@ In particular, the law of $X$ is the [[pushforward measure|pushforward]] of $\mu
   The law of a [[deterministic random variable]] is a [[Dirac measure]].
 \end{example} 
 
+## See also
 
-## References
+* [[random variable]]
+* [[probability space]]
+* [[probability monad]]
+* [[joint and marginal probability]]
 
-(...)
+category: probability
 
 [[!redirects laws of random variables]]
