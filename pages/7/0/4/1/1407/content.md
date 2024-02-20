@@ -490,11 +490,10 @@ Discussion of type II [[quantum anomalies]] is in
 * {#DFMII}  [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
   
 
-Discussion of [[superstring]] [[perturbation theory]] is in 
+Discussion of [[superstring]] [[perturbation theory]] (see at *[[string scattering amplitudes]]*)
 
-* [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
+* [[Edward Witten]], _Superstring Perturbation Theory Revisited_ &lbrack;[arXiv:1209.5461](http://arxiv.org/abs/1209.5461)&rbrack;
 
-* [[Ashoke Sen]], [[Edward Witten]]. *Filling the gaps with PCO’s*. JHEP 09 004 (2015). ([doi](https://doi.org/10.1007/JHEP09(2015)004))
 
 ### Fields medal (and other) work related to string theory
  {#FieldMedalWork}
