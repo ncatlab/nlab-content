@@ -134,7 +134,22 @@ for the continuous case.
 
 ## Monoidal structure: products and marginals
 
-(...work in progress...)
+Probability monads are usually defined on [[monoidal categories]], in particular on [[cartesian monoidal categories]]. 
+On product spaces $X\times Y$, the object $P(X\times Y)$ has the interpretation of containing [[joint distributions]]. Given a joint distribution, one can form the [[joint and marginal probability|marginals]] by pushing forward along the [[product]] projections $X\times Y\to X$ and $X\times Y\to Y$. This is in general a destructive operation, since [[stochastic dependence]] may be discarded.
+
+Given [[marginal distributions]], one can form a canonical joint distribution by forming the [[product distribution]]. This is encoded by a [[monoidal monad|monoidal structure]] on the probability monad (or equivalently, a [[commutative monad|commutative strength]]), a map
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
+PX\times PY \ar{r}{\nabla} & P(X\times Y)
+\end{tikzcd}
+which satisfies particular compatibility conditions. 
+The Giry monad is monoidal on the category [[Meas]] with the [[cartesian product]]. Similar statements are true for most other probability and measure monads.
+
+When the monad is [[affine monad|affine]], one has that *a product probability is necessarily the product of its marginals*. This is the case for monads of probability measures, but not for monads of unnormalized measures.
+
+More on this at [[joint and marginal probability]].
 
 ## Duality
 
