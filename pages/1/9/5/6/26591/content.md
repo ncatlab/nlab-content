@@ -24,7 +24,7 @@
 
 ## Idea
 
-One of the main tenets of [[probability theory]] is that in general [[stochastic dependence and independence|the probability of the product is not the product of the probabilities]], because of [[correlation]] and other [[statistical interactions]]. 
+One of the main tenets of [[probability theory]] is that in general [[joint and marginal probability|the probability of the product is not the product of the probabilities]], because of [[correlation]] and other [[statistical interactions]]. 
 In particular, the probability of an [[infinite tensor product|infinite product]] is not the infinite product of the probabilities.
 
 However, an infinite product is a [[cofiltered limit]] of finite products, and under some conditions, *the probability of an infinite product is the limit of the probability of the finite products*. 
