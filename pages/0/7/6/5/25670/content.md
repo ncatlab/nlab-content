@@ -1,19 +1,14 @@
-Hello ncatlab.org, 
- 
-I hope you're doing well. Today, I have an exciting resource that could revolutionize your website and business! 
- 
-Picture an easy-to-use platform hosting a variety of professionals, from copywriters to web developers. All ready to take your website to the next level without the hassle of recruitment. 
- 
-Intrigued? 
- 
-  [Enhance Your Website Now]( https://tinyurl.com/FreeTrial546 ) 
- 
-With straightforward pricing and a secure payment system, you'll get exactly what you need, quickly and without surprises. 
- 
-Don't let your website lag behind. Make it a driving force in your industry. 
- 
-  [Start Today](  https://tinyurl.com/FreeTrial546 ) 
- 
-To your success, 
- 
-Sam McKenny
+
+\tableofcontents
+
+## Idea
+
+In [[dependent type theory]], a type is **$n$-connected** if its [[n-truncation modality|n-truncation]] is a [[contractible type]]. 
+
+## See also
+
+* [[n-connected object]]
+
+## References
+
+* {#UFP13} [[Univalent Foundations Project]], §7.5 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
