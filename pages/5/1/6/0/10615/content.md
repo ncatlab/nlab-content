@@ -368,3 +368,9 @@ Considering the combination of $n$-truncation modality and [[shape modality]]:
 
 [[!redirects truncation modality]]
 [[!redirects truncation modalities]]
+
+[[!redirects n-truncated type]]
+[[!redirects n-truncated types]]
+
+
+
