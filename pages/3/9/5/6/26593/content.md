@@ -35,6 +35,30 @@
 
 ## In measure-theoretic probability
 
+Let $(\Omega,\mathcal{F},p)$ be a [[probability space]], and let $A,B\in\mathcal{F}$ be [[events]], i.e. measurable subsets of $\Omega$. 
+We say that $A$ and $B$ are **independent** if and only if 
+$$
+p(A\cap B) = p(A)\,p(B) ,
+$$
+i.e. if *the [[joint probability]] is the product of the probabilities*.
+
+More generally, if $f:(\Omega,\mathcal{F})\to(X,\mathcal{A})$ and $g:(\Omega,\mathcal{F})\to(Y,\mathcal{B})$ are [[random variables]] or [[random elements]], one says that $f$ and $g$ are **independent** if and only if all the events they induce are independent, i.e. for every $A\in\mathcal{A}$ and $B\in\mathcal{B}$, 
+$$
+p\big(f^{-1}(A)\cap g^{-1}(B)\big) = p\big(f^{-1}(A)\big)\,p\big(g^{-1}(B)\big) .
+$$
+
+Equivalently, one can form the [[joint distribution|joint random variable]] $(f,g):(\Omega,\mathcal{F})\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$ and form the [[joint distribution]] $q=(f,g)_*p$ on $X\times Y$. 
+We have that $f$ and $g$ are independent as random variables if and only if for every $A\in\mathcal{A}$ and $B\in\mathcal{B}$, 
+$$
+q\big(\pi_1^{-1}(A)\cap \pi_2^{-1}(B)\big) = q\big(\pi_1^{-1}(A)\big)\,q\big(\pi_2^{-1}(B)\big) .
+$$ 
+If we denote the [[marginal distributions]] of $q$ by $q_X$ and $q_Y$, the independence condition reads
+$$
+q(A \times B) = q_X(A)\,q_Y(B) ,
+$$
+meaning that the joint distribution $q$ is the product of its marginals.
+
+
 (...)
 
 ### In terms of the Giry monad
@@ -53,7 +77,7 @@
 ## See also 
 
 * [[probability theory]], [[categorical probability]]
-* [[joint and marginal distributions]]
+* [[joint and marginal probability]]
 * [[Kolmogorov extension theorem]]
 * [[probability monad]], [[Giry monad]]
 * [[Markov category]], [[Markov kernel]]
