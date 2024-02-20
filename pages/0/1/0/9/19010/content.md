@@ -14,11 +14,15 @@ On the [[supergravity Lie 3-algebra]] (see also at *[[M-theory supersymmetry alg
 
 * [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
 
+On the [[self-dual higher gauge field]] on the [[M5-brane]] lifted to [[superspace]] in the [[D'Auria-Fré formulation of supergravity]]:
+
+* {#ACDGMNRT22} [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], R. Matrecano, R. Noris, [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
 
 
 
 
-## Related $n$Lab entries
+
+## Related  entries
 
 * [[D'Auria-Fré formulation of supergravity]]
 
