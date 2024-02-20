@@ -34,7 +34,7 @@ The [[supergeometry|supergeometric]] meaning was clarified in [Belopolsky 97b](#
 
 The appearance in the [[quantization]] of the [[NSR superstring]] is due to
 
-* {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory, Nucl. Phys., B271 (1986) 93
+* {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], *Conformal invariance, supersymmetry and string theory*, Nucl. Phys. B **271** (1986) 93
 
 A [[supergeometry|supergeometric]] interpretation of picture changing operators as part of the geometry of [[super Riemann surfaces]] is given in 
 
@@ -62,6 +62,10 @@ In this perspective picture number is an extra grading on [[differential forms o
 Review:
 
 * [[Pietro Grassi]], *Integral Forms and Applications*, Sestri Levante 2015 ([pdf](https://agenda.infn.it/event/8823/attachments/55101/64989/Grassi-SL.pdf), [[GrassiIntegralForms2015.pdf:file]])
+
+See also:
+
+* [[Ashoke Sen]], [[Edward Witten]]. *Filling the gaps with PCO’s*. JHEP 09 004 (2015) &lbrack;[doi](https://doi.org/10.1007/JHEP09(2015)004), [arXiv:1504.00609](https://arxiv.org/abs/1504.00609)&rbrack;
 
 
 Via [[pure spinors]]:
