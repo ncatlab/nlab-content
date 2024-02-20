@@ -1120,13 +1120,16 @@ Review:
 
 * {#DAuria20} [[Riccardo D'Auria]], _Geometric supergravity_ &lbrack;[arXiv:2005.13593](https://arxiv.org/abs/2005.13593)&rbrack; in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific (2019) &lbrack;[doi:10.1142/11643](https://doi.org/10.1142/11643)&rbrack;
 
+* [Edinburgh Mathematical Physics Group](https://empg.maths.ed.ac.uk/Activities.html), *[The rheonomic approach to supergravity](https://empg.maths.ed.ac.uk/Activities/RhSG/index.html)* (2020-21) 
+
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
 
 * [[Lucrezia Ravera]], *Geometric approach to supergravity in superspace and some applications*, lecture at *Training school on Cartan Geometry*, Masaryk University (Nov 2023) &lbrack;video: [YT](https://youtu.be/tuSXuAtvdRk)&rbrack;
 
+
 See also:
 
-* [[Igor Bandos]], [[José de Azcárraga]] , M. Picon, O. Varela, Section 2 of: *Generalized curvature and the equations of D=11 supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
+* [[Igor Bandos]], [[José de Azcárraga]] , M. Picon, O. Varela, Section 2 of: *Generalized curvature and the equations of $D=11$ supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
 
 
 Discussion of [[gauged supergravity]] in this way is in 
