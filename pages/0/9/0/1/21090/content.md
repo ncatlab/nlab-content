@@ -1479,7 +1479,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 		\node [style=morphism] (17) at (-3, -0.75) {$f$};
 \end{tikzpicture}
 
-This formalized the idea of a deterministic transition, or function. In particular:
+This formalizes the idea of a deterministic transition, or function. In particular:
 
 * In *FinStoch*, by means of a similar calculation as above, a stochastic matrix $k:X\to Y$ is deterministic if and only if for all $x,y\in X$, $k(y|x)=0$ or $k(y|x)=1$. This means precisely that $k$ is in the form $\delta_f$ for a set-theoretic function $f$ (see [[stochastic map#stochastic_maps_from_deterministic_functions|here]]).
 
