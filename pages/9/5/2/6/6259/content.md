@@ -12,7 +12,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -311,6 +310,11 @@ Discussion of the equivalence of these superficially different action functional
 
 * [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
+Discussion in the [[D'Auria-Fré formulation of supergravity]]:
+
+* {#ACDGMNRT22} [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], R. Matrecano, R. Noris, [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+
+
 
 
 ### For ordinary $U(1)$-higher gauge fields / ordinary differential cohomology
@@ -380,7 +384,11 @@ Another proposal for a Lagrangian for self-dual higher gauge fields, at the cost
 
 * {#Sen20} [[Ashoke Sen]], *Self-dual forms: Action, Hamiltonian and Compactification*,  Journal of Physics A: Mathematical and Theoretical, **53** 8 (2020) &lbrack;[arXiv:1903.12196](https://arxiv.org/abs/1903.12196), [doi:10.1088/1751-8121/ab5423](https://doi.org/10.1088/1751-8121/ab5423)&rbrack;
 
-further discussion:
+Enhancement to [[superspace]] (in [[D'Auroa-Fre formulation of supergravity]]):
+
+* [ACDGMNRT22](#ACDGMNRT22)
+
+Further discussion:
 
 * {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes* &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748)&rbrack;
 
