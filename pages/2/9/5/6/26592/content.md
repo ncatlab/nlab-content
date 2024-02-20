@@ -136,7 +136,7 @@ sep=large,%
 & \Omega \ar{dl}[swap]{f} \ar{dr}{g} \ar[dashed]{d}[near end]{(f,g)} \\
 X & X\otimes Y \ar{l}{\pi_1} \ar{r}[swap]{\pi_2} & Y
 \end{tikzcd}
-For Markov kernels, however, this is in general not the case: setting $\Omega=1$, the one-point space, this would require in particular that there is a unique joint distribution on $X\times Y$ for every pair of marginals $X$ and $Y$. As we have seen above, this is not the case. 
+For Markov kernels, this property does not hold: setting $\Omega=1$, the one-point space, the property would require in particular that there is a unique joint distribution on $X\times Y$ for every pair of marginals $X$ and $Y$. As we have seen above, this is not the case. 
 What fails is not the *existence* part of the universal property: a joint distribution always exists, the product distribution. What fails is the *uniqueness* part. In other words, the monoidal structure in [[Stoch]] is a [[weak limit|weak product]] but not a categorical [[product]]. 
 
 More generally, given a [[monoidal monad]] on a [[cartesian monoidal category]], the induced monoidal structure on the [[Kleisli category]] is monoidal only when the monad is [[strong monoidal functor|strong monoidal]], and we saw that this is not the case for most probability monads.
