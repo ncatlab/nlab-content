@@ -19,6 +19,6 @@ A natural [[Riemannian metric]] on a [[moduli space of curves]] or more generall
 
 ## References
 
-* Wikipedia, _[Weil-Petersson metric](https://en.wikipedia.org/wiki/Weil&#8211;Petersson_metric)_
+* Wikipedia, _[Weil-Petersson metric](https://en.wikipedia.org/wiki/Weil%E2%80%93Petersson_metric)_
 
 [[!redirects Weil-Petersson metrics]]
