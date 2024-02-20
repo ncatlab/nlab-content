@@ -251,12 +251,32 @@ The [[univalence axiom]] then states that $\mathrm{idtoequiv}_{A, B}$ is an equi
 
 $$\frac{\Gamma \vdash i \; \mathrm{level} \quad \Gamma \vdash A:U_i \quad \Gamma \vdash B:U_i}{\Gamma \vdash \mathrm{ua}_{U_i}(A, B):\mathrm{isEquiv}_{A =_{U_i} B, A \simeq B}(\mathrm{idtoequiv}_{A, B})}$$ 
 
+## Related pages
+
+Some of the kinds of inductive definitions mentioned in the HoTT Book are:
+
+* [[W-types]]
+* [[inductive families]]
+* [[mutually inductive types]]
+* [[inductive-inductive types]]
+* [[inductive-recursive types]]
+* [[higher inductive types]]
+* [[higher inductive-inductive types]]
+* [[higher inductive-recursive types]]
+
 ## See also
 
 * [[dependent type theory]]
 
 * [[homotopy type theory]]
 
+* [[univalent type theory]]
+
 ## References
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+[[!redirects book HoTT]]
+[[!redirects book homotopy type theory]]
+[[!redirects Book homotopy type theory]]
+[[!redirects Book Homotopy Type Theory]]
