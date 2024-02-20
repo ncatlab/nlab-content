@@ -24,7 +24,7 @@ This entry is about the formulation of [[sequential spectra]] [[spectrum object|
 
 ## Definition ##
 
-In [[homotopy type theory]], a **prespectrum** or **sequential spectrum** is a [[dependent sequence|dependent]] [[bi-infinite sequence]] of [[types]] $n:\mathbb{Z} \vdash E_n\;\mathrm{type}$ with a dependent [[bi-infinite sequence]] of [[types]] $n \colon \mathbb{Z} \vdash *_n \colon E_n$ and a dependent bi-infinite sequence of [[functions]] $n \colon \mathbb{Z} \vdash e_n \colon E_n \to \Omega E_{n+1}$ which preserves the point, where $\Omega A$ is the [[loop space type]] of $A$. 
+In [[homotopy type theory]], a **prespectrum** or **sequential spectrum** is a [[dependent sequence|dependent]] [[bi-infinite sequence]] of [[types]] $n:\mathbb{Z} \vdash E_n\;\mathrm{type}$ with a dependent [[bi-infinite sequence]] of [[terms]] $n \colon \mathbb{Z} \vdash *_n \colon E_n$ and a dependent bi-infinite sequence of [[functions]] $n \colon \mathbb{Z} \vdash e_n \colon E_n \to \Omega E_{n+1}$ which preserves the point, where $\Omega A$ is the [[loop space type]] of $A$. 
 
 In [[Coq]] pseudocode, this becomes
 
