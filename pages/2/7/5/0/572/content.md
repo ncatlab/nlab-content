@@ -483,7 +483,7 @@ See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[
 
 Complete Segal spaces were originally defined in 
 
-* {#Rezk} [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
+* {#Rezk} [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([arXiv:math/9811037](https://arxiv.org/abs/math/9811037))
  
 
 The relation to [[quasi-categories]] is discussed in 
