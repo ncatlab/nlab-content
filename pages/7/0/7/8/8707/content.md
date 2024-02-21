@@ -282,7 +282,15 @@ A list of related references is also kept at
 
 * [[Valeria de Paiva]], _Intuitionistic Modal Logic Selected Publications_ ([web](https://docs.google.com/document/pub?id=1ASo__R-_Bzq9D9lGUo0xrfIxt_I9az7oqSg-wmP1K10))
 
+[[!redirects modal type theory]]
 [[!redirects modal type theories]]
+[[!redirects modal dependent type theory]]
+[[!redirects modal dependent type theories]]
+
+[[!redirects multimodal type theory]]
+[[!redirects multimodal type theories]]
+[[!redirects multimodal dependent type theory]]
+[[!redirects multimodal dependent type theories]]
 
 [[!redirects geometric modality]]
 [[!redirects geometric modalities]]
