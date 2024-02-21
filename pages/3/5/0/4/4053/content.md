@@ -10,25 +10,30 @@
 =--
 
 # Balanced monoidal categories#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-A __twist__, or __balance__, in a [[braided monoidal category]] $\mathscr{C}$ is a [[natural transformation | natural isomorphism]] $\theta$ from the [[identity functor]] on $\mathscr{C}$ to itself satisfying the following compatibility condition with the braiding:
+A __twist__, or __balance__, in a [[braided monoidal category]] $\mathscr{C}$ is a [[natural transformation | natural isomorphism]] $\theta$ from the [[identity functor]] on $\mathscr{C}$ to itself satisfying the following compatibility condition with the [[braiding]] $\beta$:
 
-$$\theta_{A\otimes B}=\beta_{B,A}\circ \beta_{A,B}\circ (\theta_A\otimes \theta_B),\,\, \forall A,B\in\mathscr{C}$$
+$$
+  \theta_{A\otimes B}
+  \;=\;
+  \beta_{B,A}
+    \circ 
+   \beta_{A,B}
+     \circ 
+    (\theta_A \otimes \theta_B),
+    \,\, \forall A, B \in \mathscr{C}
+$$
 
-where $\beta$ is the braiding on $\mathscr{C}$. A __balanced monoidal category__ is a braided monoidal category equipped with such a balance. 
+A __balanced monoidal category__ is a braided monoidal category equipped with such a balance. 
 
-A braided [[rigid monoidal category]] is balanced if and only if it is a [[pivotal category]], but a balanced monoidal category need not be rigid (cf. [Selinger,  Lem. 4.20](#Selinger)).
-
-Beware of the un-related notion of *[[balanced categories]]*.
+Beware that there is an un-related notion of *[[balanced categories]]*.
 
 
 ## Properties
-
-Every [[symmetric monoidal category]] is balanced in a canonical way. In fact, the [[identity natural transformation]] on the identity functor of $\mathscr{C}$ is a balance on $\mathscr{C}$. In this way, the twist can be seen as a way of "controlling" the non-symmetric behavior of the braiding.
 
 In the language of [[string diagrams]], the balancing is represented by a 360-degree twist:
 
@@ -38,21 +43,25 @@ In the language of [[string diagrams]], the balancing is represented by a 360-de
 "unit": "px"
 \end{imagefromfile}
 
+Every [[symmetric monoidal category]] is balanced in a canonical way. In fact, the [[identity natural transformation]] on the identity functor of $\mathscr{C}$ is a balance on $\mathscr{C}$. In this way, the twist can be seen as a way of "controlling" the non-symmetric behavior of the braiding.
+
+
+A braided [[rigid monoidal category]] is balanced if and only if it is a [[pivotal category]], but a balanced monoidal category need not be rigid (cf. [Selinger 2011,  Lem. 4.20](#Selinger11)).
+
 ## References
-
-
 
 The original definition:
 
-* [[Andre Joyal]], [[Ross Street]], _The geometry of tensor calculus I_,  Adv. Math.  __88__ 1 (1991) 55--112, &lbrack;[doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P)&rbrack;
+* [[André Joyal]], [[Ross Street]], *The geometry of tensor calculus I*,  Adv. Math.  __88__ 1 (1991) 55--112, &lbrack;<a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>&rbrack;
 
-The above follows
+The above definition follows:
 
-* Jeff Egger*, Appendix C &lbrack;[pdf](http://www.mscs.dal.ca/~jegger/4micah.pdf)&rbrack;
+* [[Jeff Egger]], Appendix C in: *Of Operator Algebras and Operator Spaces* (2006) &lbrack;[pdf](http://www.mscs.dal.ca/~jegger/4micah.pdf)&rbrack;
 
-See also
+See also:
 
-* {#Selinger} [[Peter Selinger]], *A survey of graphical languages for monoidal categories* &lbrack;[arXiv:0908.3347](https://arxiv.org/abs/0908.3347)&rbrack;
+* {#Selinger11} [[Peter Selinger]], *A survey of graphical languages for monoidal categories*, 
+Springer Lecture Notes in Physics **813** (2011) 289-355 &lbrack;[arXiv:0908.3347](https://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4)&rbrack;
 
 
 [[!redirects balancing]]
