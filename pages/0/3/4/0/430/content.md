@@ -21,7 +21,11 @@
 * table of contents
 {: toc}
 
+## Idea
 
+A field is a mathematical structure with the usual arithmetic operations of [[addition]], [[subtraction]], [[multiplication]], and [[division]] of non-zero elements. 
+
+The original concept of a field was developed by [[Gustav Lejeune Dirichlet]] and [[Richard Dedekind]] in 1871 under the name "body" (Körper in German), and referred solely to [[subfields]] of the [[complex numbers]] (cf. [Dirichlet & Dedekind 1871](#DirichletDedekind71)). Later in 1893 [[Heinrich Weber]] generalized the notion of field to today's definition of field as an arbitrary [[commutative ring|commutative]] [[division ring]] (cf. [Weber 1893](#Weber93)). The word "field" itself in the English language was coined by [[E. Hastings Moore]] in 1893 (cf. [Moore 1893](#Moore93)) to refer to the algebraic structure. 
 
 ## Definitions
 
@@ -185,6 +189,12 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 | [[Weil ring]] | [[field]] | [[field]] |
 
 ## References
+
+* {#DirichletDedekind71} [[Gustav Lejeune Dirichlet]] (1871), [[Richard Dedekind]] (ed.), Vorlesungen über Zahlentheorie (Lectures on Number Theory) (in German), vol. 1 (2nd ed.), Braunschweig, Germany: Friedrich Vieweg und Sohn ([Google Books](https://books.google.com/books?id=SRJTAAAAcAAJ&pg=PA424))
+
+* {#Weber93} [[Heinrich Weber]] (1893), "Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie", Mathematische Annalen (in German), 43 (4): 521–549, $[$[doi:10.1007/BF01446451](https://doi.org/10.1007%2FBF01446451), [ISSN:0025-5831](https://www.worldcat.org/issn/0025-5831), [JFM:25.0137.01](https://zbmath.org/?format=complete&q=an:25.0137.01), [S2CID:120528969](https://api.semanticscholar.org/CorpusID:120528969)$]$
+
+* {#Moore93} [[E. Hastings Moore]] (1893), "A doubly-infinite system of simple groups", Bulletin of the American Mathematical Society, 3 (3): 73–78, $[$[doi:10.1090/S0002-9904-1893-00178-X](https://doi.org/10.1090%2FS0002-9904-1893-00178-X), [MR:1557275](https://mathscinet.ams.org/mathscinet-getitem?mr=1557275)$]$
 
 * {#MRR87} Ray Mines, [[Fred Richman]], Wim Ruitenburg,  _A course in constructive algebra_, Universitext, Springer, 1987.
 
