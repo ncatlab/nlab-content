@@ -15,7 +15,7 @@
 
 ## Idea
 
-In the [[foundations]] of [[mathematics]], an [[axiom of infinity]] is any axiom that asserts that [[infinite set]]s exist. In [[set theory]] and [[set-level type theory]], infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom. Further axioms in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
+In the [[foundations]] of [[mathematics]], an [[axiom of infinity]] is any axiom that asserts that [[infinite set]]s exist. In [[set theory]] and [[set-level type theory]], infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom. Further axioms, in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
 
 ## Statement
 
