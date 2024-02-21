@@ -19,7 +19,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-An [[object]] $U$ in a [[category]] $C$ is **subterminal** if any two [[morphism]]s with [[target]] $U$ and the same source are equal.  In other words, $U$ is subterminal if for any object $X$, there is at most one morphism $X\to U$.
+An [[object]] $U$ in a [[category]] $C$ is **subterminal** or **preterminal** if any two [[morphism]]s with [[target]] $U$ and the same source are equal.  In other words, $U$ is subterminal if for any object $X$, there is at most one morphism $X\to U$.
 
 =--
 
@@ -59,9 +59,15 @@ The *support* of an object $X$ in a topos is the [[image]] $U \hookrightarrow 1$
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977
 
+* [[Dieter Pumplün]], _Initial morphisms and monomorphisms_, Manuscripta mathematica 32 (1980): 309-333.
+
 [[!redirects subterminal]]
 [[!redirects subterminals]]
 [[!redirects subterminal objects]]
+
+[[!redirects preterminal]]
+[[!redirects preterminal object]]
+[[!redirects preterminal objects]]
 
 [[!redirects open object]]
 [[!redirects open objects]]
