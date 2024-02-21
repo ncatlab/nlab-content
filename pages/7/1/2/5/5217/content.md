@@ -58,7 +58,7 @@ $$a \lt b \coloneqq \mathrm{isPositive}(b - a)$$
 
 ### In constructive mathematics
 
-In constructive mathematics, [[denial inequality]] is no longer a [[tight apartness relation]], and neither relation is a [[decidable relation]]. Thus, the concept of a [[field]] splits into multiple separate notions, *[[discrete fields]]*, *[[Heyting fields]]*, and *[[Kock fields]]*, depending on whether one uses [[denial inequality]] or a separate [[tight apartness relation]] to characterize invertibility of elements. This split in the definition of field carries over to the definition of an ordered field. 
+In constructive mathematics, [[denial inequality]] is no longer a [[tight apartness relation]], and neither relation, is a [[decidable relation]]. Thus, the concept of a [[field]] splits into multiple separate notions, *[[discrete fields]]*, *[[Heyting fields]]*, and *[[Kock fields]]*, depending on whether one uses [[denial inequality]] or a separate [[tight apartness relation]] to characterize invertibility of elements. This split in the definition of field carries over to the definition of an ordered field. 
 
 * An **ordered discrete field** is an [[ordered local ring]] such that $x$ is invertible or $x = 0$. 
 
