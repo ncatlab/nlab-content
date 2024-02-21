@@ -19,7 +19,8 @@ A __twist__, or __balance__, in a [[braided monoidal category]] $\mathscr{C}$ is
 
 $$\theta_{A\otimes B}=\beta_{B,A}\circ \beta_{A,B}\circ (\theta_A\otimes \theta_B),\,\, \forall A,B\in\mathscr{C}$$
 
-where $\beta$ is the braiding on $\mathscr{C}$. A __balanced monoidal category__ is a braided monoidal category equipped with such a balance. Equivalently, a balanced monoidal category can be described as a braided [[pivotal category]].
+where $\beta$ is the braiding on $\mathscr{C}$. A __balanced monoidal category__ is a braided monoidal category equipped with such a balance. 
+A braided [[rigid monoidal category]] is balanced if and only if it is a [[pivotal category]], but a balanced monoidal category need not be rigid.
 
 Balanced monoidal categories should not be confused with the other unrelated notation of a [[balanced category]].
 
