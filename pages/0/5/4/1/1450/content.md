@@ -32,7 +32,7 @@
 
 In _synthetic differential geometry_ one formulates [[differential geometry]] [[axiom|axiomatically]] in [[toposes]] -- called [[smooth toposes]] --  of [[generalized smooth spaces]] by assuming the explicit existence of [[infinitesimal neighbourhoods]] of points.
 
-The main point of the axioms is to ensure that a well defined notion of [[infinitesimal spaces]] exists in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
+The main point of the axioms is to ensure that a well defined notion of the [[infinitesimal spaces]] exists in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
 
 In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object | exponential objects]] in the [[cartesian closed category]] $E$). So a tangent vector in this context is literally an _infinitesimal path_ in $X$.
 
@@ -43,7 +43,7 @@ This way, in [[smooth topos | smooth toposes]] it is possible to give precise we
 
 As quoted by [[Anders Kock]] in his first book ([p. 9 ](http://home.imf.au.dk/kock/sdg99.pdf#page=9)), [[Sophus Lie]] -- one of the founding fathers of [[differential geometry]] and, of course [[Lie theory]] -- once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see _[[analytic versus synthetic]]_) just due to lack of a formalized language:
 
-> "The reason why I have postponed for so long these investigations, which are basic to my other work in this field, is essentially the following. I found these theories originally by synthetic considerations. But I soon realized that, as expedient ( _zweckm&#228;ssig_ ) the synthetic method is for discovery, as difficult it is to give a clear exposition on synthetic investigations, which deal with objects that till now have almost exclusively been considered analytically. After long vacillations, I have decided to use a half synthetic, half analytic form. I hope my work will serve to bring justification to the synthetic method besides the analytical one." ([[Sophus Lie]], _Allgemeine Theorie der partiellen Differentialgleichungen erster Ordnung_, Math. Ann. 9 (1876).)
+> "The reason why I have postponed for so long these investigations, which are basic to my other work in this field, is essentially the following: I found these theories originally by synthetic considerations. But I soon realized that, as expedient ( _zweckm&#228;ssig_ ) the synthetic method is for discovery, as difficult it is to give a clear exposition on synthetic investigations, which lead to deal with objects that till now have almost exclusively been considered analytically. After long vacillations, I have decided to use a half synthetic, half analytic form. I hope my work will serve to bring justification to the synthetic method besides the analytical one." ([[Sophus Lie]], _Allgemeine Theorie der partiellen Differentialgleichungen erster Ordnung_, Math. Ann. 9 (1876).)
 
 =--
 
