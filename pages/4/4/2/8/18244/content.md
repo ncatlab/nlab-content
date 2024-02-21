@@ -20,5 +20,5 @@ On the other hand, the [[cardinality]] of $\omega_1$ is of course no bigger than
 
 See also
 
-* Wikipedia, _[First uncountable ordinal](https://en.wikipedia.org/wiki/First_uncountable_ordinal)_
+* Wikipedia, _[First uncountable ordinal](https://en.wikipedia.org/wiki/First_uncountable_ordinal)_ [Spanish Version](https://chicksx.com/blog/primer-ordinal-incontable)by[Chicksx](https://chicksx.com).
 
