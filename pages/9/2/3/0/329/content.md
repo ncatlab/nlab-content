@@ -25,7 +25,7 @@ The concept of *strict 2-categories* is the simplest generalization of that of [
 
 More concretely, a strict 2-category is a [[directed n-graph|directed 2-graph]] equipped with [[horizontal composition|horizontal-]] and [[vertical composition]] of adjacent 1-cells ([[1-morphisms]]) and 2-cells ([[2-morphisms]]), respectively, which is strictly [[unitality|unital]] and [[associativity|associative]] in both directions, and such that both types of composition are compatible (the "[[interchange law]]").
 
-A quick way of making this precise is to say that strict 2-categories are [[Cat]]-[[enriched categories]], see [below](#DefinitionStrictTwoCategories).
+A quick way of making this precise, is to say that strict 2-categories are [[Cat]]-[[enriched categories]], see [below](#DefinitionStrictTwoCategories).
 
 The term _2-category_ implicitly refers to a [[geometric shapes for higher structures|globular]] structure.  By contrast, [[double category|double categories]] are based on [[cubes]] instead.  The two notions are closely related, however: every strict 2-category gives rise to several strict double categories, and every double category has several [[underlying]] 2-categories.
 
