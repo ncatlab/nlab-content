@@ -17,7 +17,7 @@
 
 **Vop&#283;nka's principle** is a [[large cardinal]] axiom which implies a good deal of simplification in the theory of [[locally presentable categories]].  
 
-It is fairly strong as large cardinal axioms go: its consistency follows from the existence of [[huge cardinal]]s, and it implies the existence of arbitrarily large [[measurable cardinal]]s.
+It is fairly strong as large cardinal axioms go: Its consistency follows from the existence of [[huge cardinal]]s, and it implies the existence of arbitrarily large [[measurable cardinal]]s.
 
 ## Statements
 
