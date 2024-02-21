@@ -38,5 +38,13 @@ Every [[localization of a commutative ring|localization]] of the integral domain
 
 * [[protoring]]
 
+## References
+
+The first characterization of the integers as an [[ordered integral domain]] appeared in:
+
+* [[Hermann Grassmann]], _Lehrbuch der Arithmetik für höhere Lehranstalten_, Berlin: Enslin, 1861. ([Google Books](https://books.google.com/books?id=jdQ2AAAAMAAJ))
+
+though the name "ordered integral domain" does not appear in the text. 
+
 [[!redirects ordered integral domain]]
 [[!redirects ordered integral domains]]
