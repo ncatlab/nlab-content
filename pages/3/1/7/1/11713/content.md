@@ -60,7 +60,7 @@ Other writings include
 
 * Hermann Grassmann, _Geometrische Analyse geknüpft an die von Leibniz erfundenegeometrische Charakteristik. Gekrönte Preisschrift, Leipzig: Wiedmann, 1847. English translation in Grassmann 1915.
 
-* Hermann Grassmann, _Lehrbuch der Arithmetik für höhere Lehranstalten_, Berlin: Enslin, 1861.
+* Hermann Grassmann, _Lehrbuch der Arithmetik für höhere Lehranstalten_, Berlin: Enslin, 1861. ([Google Books](https://books.google.com/books?id=jdQ2AAAAMAAJ))
 
 * Hermann Grassmann, _A New Branch of Mathematics. The Ausdehnungslehre of 1844 and Other Works_, edited and translated by L. C. Kannenberg, Chicago: Open Court, 1915.
 
