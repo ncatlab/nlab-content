@@ -17,7 +17,9 @@
 
 In the [[foundations]] of [[mathematics]], an [[axiom of infinity]] is any axiom that asserts that [[infinite set]]s exist. In [[set theory]] and [[set-level type theory]], infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom. Further axioms in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
 
-## Statements
+## Statement
+
+### Natural numbers
 
 One common form of the axiom of infinity says that the particular set $N$ of [[natural number]]s exists.  In material [[set theory]] this often takes the form of asserting that the von Neumann [[ordinal number]] $\omega$ exists, where $\omega$ is characterized as the smallest set such that $\emptyset\in\omega$ and whenever $a\in \omega$ then $a\cup \{a\}\in \omega$.  In structural set theory the usual form of the axiom of infinity is the existence of a [[natural numbers object]]. 
 
@@ -30,6 +32,20 @@ which states that there is a [[natural numbers type]] in the universe.
 There is an alternate way to express the axiom of infinity in a Tarski universe, as the axiom of resizing the [[set truncation]] of the [[type of finite types]] in $U$, since $\mathrm{isFinite}$ and set truncations are definable from the [[type of propositions]] in $U$, $\sum_{A:U} \mathrm{isProp}(A)$, but they are all usually large, and so have to be resized to be small:
 
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} T(\mathbb{N}) \simeq \left[\sum_{A:U} \mathrm{isFinite}(T(A))\right]_0$$
+
+### Integers
+
+Instead of a defining the natural numbers via its induction principle, one can instead define the [[integers]] via its induction principle, and then use the fact that disjoint unions are disjoint and $\mathbb{Z} \cong \mathbb{Z} \uplus \mathbb{Z}$ to construct the natural numbers. 
+
+Alternatively, one can assume an [[ordered integral domain]] $\mathbb{Z}$ - along with the [[power set]] $\mathcal{P}(\mathbb{Z})$, such that every ordered integral subdomain of $\mathbb{Z}$ is equal to the [[improper subset]] of $\mathbb{Z}$. This defines the [[integers]], since the integers are the [[initial object|initial]] ordered integral domain. Since the integers as defined automatically comes with a [[total order]] $\leq$ and a [[pseudo-order]] $\lt$, one can define the natural numbers as the set of non-negative integers. 
+
+The benefit of such a definition of infinity is that it allows for a [[strongly predicative mathematics|strongly predicative]] definition of both the [[natural numbers]] and the [[real numbers]] in [[dependent type theory]], since one doesn't need arbitrary [[function sets]] or [[dependent function types]] to define the natural numbers, which one needs to characterize the natural numbers by its recursion or induction principle. Instead, one only needs dependent function types of a family of propositions, weak function extensionality, and the power set of the integers. 
+
+### Rational numbers
+
+One can assume an [[ordered field]] $\mathbb{Q}$ - along with the [[power set]] $\mathcal{P}(\mathbb{Q})$, such that every ordered [[subfield]] of $\mathbb{Q}$ is equal to the [[improper subset]] of $\mathbb{Q}$. This defines the [[rational numbers]]. The rational numbers are automatically infinite, and one can construct the [[integers]] $\mathbb{Z}$ as the [[intersection]] of all [[ordered integral domain|ordered integral subdomains]] of $\mathbb{Q}$, and since the integers as defined automatically comes with a [[total order]] $\leq$ and a [[pseudo-order]] $\lt$, one can define the natural numbers as the set of non-negative integers. 
+
+The benefit of such a definition of infinity is that it allows for a [[strongly predicative mathematics|strongly predicative]] definition of both the [[natural numbers]] and the [[real numbers]] in [[dependent type theory]], since one doesn't need arbitrary [[function sets]] or [[dependent function types]] to define the natural numbers, which one needs to characterize the natural numbers by its recursion or induction principle. Instead, one only needs dependent function types of a family of propositions, weak function extensionality, and the power set of the rational numbers. 
 
 ## Generalizations 
 
@@ -87,6 +103,9 @@ In relation to [[classifying toposes]]:
 
 * [[Andreas Blass]], *Classifying topoi and the axiom of infinity*, Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
 
+For constructing the [[natural numbers]] from the [[integers]]:
+
+* {#Sattler23} [[Christian Sattler]], *Natural numbers from integers* ([pdf](https://www.cse.chalmers.se/~sattler/docs/naturals.pdf))
 
 category: foundational axiom
 
