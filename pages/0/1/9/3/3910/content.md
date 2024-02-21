@@ -147,6 +147,12 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 ## References
 
+The first characterization of the integers as an [[ordered integral domain]] appeared in:
+
+* [[Hermann Grassmann]], _Lehrbuch der Arithmetik für höhere Lehranstalten_, Berlin: Enslin, 1861. ([Google Books](https://books.google.com/books?id=jdQ2AAAAMAAJ))
+
+though the name "ordered integral domain" does not appear in the text. 
+
 History:
 
 * [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
