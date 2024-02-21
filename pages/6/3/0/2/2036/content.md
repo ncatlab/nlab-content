@@ -18,7 +18,7 @@
 +-- {: .num_defn #AlternativeAlgebra}
 ###### Definition
 
-Consider the following [[equational laws]] of a [[binary operation]] (written multiplicatively):
+Consider the following equational laws of a [[binary operation]] (written multiplicatively):
 
 * __left alternativity__: $(x x) y = x (x y)$;
 * __flexibility__: $(x y) x = x (y x)$;
