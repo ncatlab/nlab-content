@@ -36,7 +36,7 @@ Often sheaves are introduced and discussed in the more restrictive sense of _she
 $$
   Sh(X) \;\coloneqq\; Sh(Op(X)) 
     \overset{\phantom{AAA}}{\hookrightarrow}
-  [Op(X)^{op}, X]
+  [Op(X)^{op}, Set]
   \,.
 $$ 
 
