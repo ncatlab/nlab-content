@@ -266,6 +266,13 @@ In [[homotopy type theory]] the type of booleans / bits looks as [above](#InType
 
 ## Properties
 
+### Descent and large elimination
+
+The [[descent]] for the boolean domain states that given any types $A$ and $B$ one can construct a type family $x:\mathbb{2} \vdash \mathrm{descFam}_\mathbb{2}^{A, B}(x)$ with [[equivalences of types]] 
+$$\mathrm{descEquiv}_A:\mathrm{descFam}_\mathbb{2}^{A, B}(0) \simeq A \quad \mathrm{and} \quad \mathrm{descEquiv}_B:\mathrm{descFam}_\mathbb{2}^{A, B}(1) \simeq B$$ 
+Large elimination for the boolean domain strengthens the equivalences of types in descent to [[judgmental equality of types]] 
+$$\mathrm{descFam}_\mathbb{2}^{A, B}(0) \equiv A \quad \mathrm{and} \quad \mathrm{descFam}_\mathbb{2}^{A, B}(1) \equiv B$$
+
 ### Extensionality principle of the boolean domain
 
 The elements of the boolean domain represent certain truth values or propositions, namely, [[true]] and [[false]]. By the principle of [[propositions as some types]], truth values or propositions are represented as certain types: specifically, [[true]] or $1$ is represented by the [[unit type]] $\mathbb{1}$, and [[false]] or $0$ is represented by the [[empty type]] $\mathbb{0}$. The boolean domain is a [[Tarski universe]] through the following type family:
@@ -276,7 +283,7 @@ The extensionality principle of the boolean domain is then given by the [[unival
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bool}, y:\mathrm{Bool} \vdash \mathrm{ua}(x, y):\mathrm{Id}_\mathrm{Bool}(x, y) \simeq (\mathrm{El}(x) \simeq \mathrm{El}(y))}$$
 
-Since the empty type is not equivalent to the unit type, this automatically implies that $0$ is not equal to $1$. 
+Since the empty type is not equivalent to the unit type, this automatically implies that $0$ is not equal to $1$. The extensionality principle of the boolean domain can be proven from descent of the boolean domain, see [Sattler 2023](#Sattler23) for a proof. 
 
 ### Relation to sum types
 
@@ -364,6 +371,10 @@ Discussion in [[homotopy type theory]]:
 ...
 
 * {#LumsdaineShulman16} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Abstracting away from cell complexes*, &lbrack;talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf)&rbrack;
+
+Large elimination and descent of the boolean domain can be found in 
+
+* {#Sattler23} [[Christian Sattler]], *Natural numbers from integers* ([pdf](https://www.cse.chalmers.se/~sattler/docs/naturals.pdf))
 
 [[!redirects boolean domain]]
 [[!redirects Boolean domain]]
