@@ -112,7 +112,9 @@ Problems in [[cohesive homotopy type theory]]:
 
 * What is the $(\infty,1)$-topos theoretic interpretation of the [[axiom of real cohesion]]?
 
-* Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s [model of cohesive homotopy type theory](https://arxiv.org/abs/1509.07584) without resorting to crispness. 
+* Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s model of [[real-cohesive homotopy type theory]] without resorting to crispness. 
+
+* Construct a real-cohesive homotopy type theory in [[multimodal dependent type theory]] a la [GKNB21](https://arxiv.org/abs/2011.15021) and prove the results of [Shulman16](https://arxiv.org/abs/1509.07584) in the multimodal dependent type theory
 
 See also the commented list of problems at:
 
