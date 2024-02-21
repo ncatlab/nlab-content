@@ -53,15 +53,11 @@ Using extensionality, we obtain [[M-types]] from W-types.
 * Similarly to the torus, consider the projective plane, Klein bottle, ... as discussed in the book (sec 6.6). Show that the Klein bottle is not orientable.  (This requires defining "orientable".)
     * This also requires defining what a surface is.
 
-* What is the [[loop space of a wedge of circles]] indexed by a set without decidable equality?
-
 * Calculate more [[homotopy groups of spheres]].
 
 * Show that the [[homotopy groups of spheres]] are all finitely generated, and are finite with the same exceptions as classically.
 
     * The classical proof requires Hurewicz, and now that spectral sequences are around should be possible.
-
-* Define the Hurewicz map and prove the Hurewicz theorem
 
 * Define the Toda bracket.
 
@@ -204,4 +200,8 @@ Guillaume Brunerie did this in 2017, written up in [this paper](https://arxiv.or
 
 * Does having an [[interval type]] with only typal [[beta conversion]] rules imply [[function extensionality]] in [[Martin-Löf type theory]]? If yes, does the above still hold if the [[function types]] only have a typal [[eta conversion]] rule? Answered in the negative in [this section about the relation between the interval type and function extensionality](https://ncatlab.org/nlab/show/interval+type#relation_to_function_extensionality): where judgmental beta conversion was used in the original proof becomes function extensionality in the typal case, resulting in circularity. 
 
-* Is the [[propositional truncation]] of the [[boolean domain]], both of which only have typal [[computation rules]] rules, the [[interval type]]? The case with judgmental computation rules was done [here](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html). Answered in the positive in [this section about the relation between the interval type and propositional truncations](https://ncatlab.org/nlab/show/interval+type#relation_to_propositional_truncations): one uses the definition of the interval type with a function $j:\mathbb{2} \to \mathbb{I}$ and use double induction on $\mathbb{2}$ to inductively define a function $f:\prod_{a:2} \prod_{b:2} j(a) =_\mathbb{I} j(b)$. 
+* Is the [[propositional truncation]] of the [[boolean domain]], both of which only have typal [[computation rules]] rules, the [[interval type]]? The case with judgmental computation rules was done [here](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html). Answered in the positive in [this section about the relation between the interval type and propositional truncations](https://ncatlab.org/nlab/show/interval+type#relation_to_propositional_truncations): one uses the definition of the interval type with a function $j:\mathbb{2} \to \mathbb{I}$ and use double induction on $\mathbb{2}$ to inductively define a function $f:\prod_{a:2} \prod_{b:2} j(a) =_\mathbb{I} j(b)$.
+
+* Define the Hurewicz map and prove the Hurewicz theorem. A proof of the Hurewicz theorem in HoTT can be [found here](https://arxiv.org/abs/2007.05833).
+ 
+* What is the [[loop space of a wedge of circles]] indexed by a set without decidable equality? It is a set, and can be shown to be using the [zigzag construction](https://arxiv.org/abs/2402.12339).
