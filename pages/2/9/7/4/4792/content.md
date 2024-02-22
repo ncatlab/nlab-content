@@ -60,7 +60,7 @@ This means (see [there](Cayley-Dickson+construction#DefinitionByGeneratorsAndRel
         "right": 0, 
         "left": 10
     },
-    "caption": ""
+    "caption": "graphics from [SS21](#SS21)"
 \end{imagefromfile}
 
 
@@ -256,20 +256,6 @@ The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real n
 
 {#FanoPlaneDiagram} $\,$
 
-
-\begin{imagefromfile}
-    "file_name": "OctonionMultiplicationTable.jpg",
-    "float": "right",
-    "width": 400,
-    "unit": "px",
-    "margin": {
-        "top": -40,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    },
-    "caption": "graphics from [Baez 02](#Baez02)"
-\end{imagefromfile}
 
 This becomes a [[star-algebra]] with star [[involution]]
 
@@ -762,6 +748,8 @@ Volume 322, Issue 6, 15 September 2009, Pages 2186-2190, ([pdf](http://www.maths
 Application of [[octonion]]-algebra to analysis of [[spin representations]] and [[spin geometry]] specifically in 11d (for general discussion in other dimensions see at _[[supersymmetry and division algebras]]_):
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 371: 425. (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+* {#SS21} [[Hisham Sati]], [[Urs Schreiber]], *Super-exceptional M5-brane model -- Emergence of $SU(2)$-flavor sector*, Journal of Geometry and Physics **170** (2021) 104349 &lbrack;[arXiv:2006.00012](https://arxiv.org/abs/2006.00012), [doi:10.1016/j.geomphys.2021.104349](https://doi.org/10.1016/j.geomphys.2021.104349)&rbrack;
 
 
 [[!redirects octonion]]
