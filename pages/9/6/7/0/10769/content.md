@@ -11,6 +11,7 @@ A kind of [[field extension]]
 
 * [[perfect field]]
 
+* [[transcendental extension]]
 
 ## References
 
