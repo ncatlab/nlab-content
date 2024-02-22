@@ -17,11 +17,11 @@ A **transcendental number** is a number which is not a root of a polynomial with
 
 ## Definition
 
-Given a [[field extension]] of the [[rational numbers]] $\mathbb{Q} \subseteq F$ with a non-trivial [[absolute value]] $\vert - \vert:F \to \mathbb{R}$, a number $\alpha \in F$ is **transcendental** if for all [[polynomial functions]] with [[rational number|rational]] [[coefficients]] $f \in \mathbb{Q}[x] \subseteq F^F$, the absolute value of $f(\alpha)$ is greater than zero 
+Given a [[field extension]] of the [[rational numbers]] $\mathbb{Q} \subseteq F$ with a non-trivial [[absolute value]] $\vert - \vert:F \to \mathbb{R}$, a number $\alpha \in F$ is **transcendental** if for all [[polynomial functions]] with [[rational number|rational]] [[coefficients]] $f \in \mathbb{Q}[x] \subseteq F^F$, the absolute value of $f(\alpha)$ is positive 
 
-$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall p \in \mathbb{Q}[x].\vert f(\alpha) \vert \gt 0$$
+$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall f \in \mathbb{Q}[x].\vert f(\alpha) \vert \gt 0$$
 
-Equivalently, $\alpha \in F$ is **transcendental** if the [[metric|distance]] from that number to every [[algebraic number]] in $F$, which is the absolute value of the difference of $\alpha$ and every algebraic number in $F$, is positive:
+Equivalently, $\alpha \in F$ is **transcendental** if the absolute value of the difference of $\alpha$ and every algebraic number in $F$ is positive:
 
 $$\mathrm{isTranscendental}(\alpha) \coloneqq \forall \beta \in F.(\beta \in \overline{\mathbb{Q}}) \Rightarrow (\vert \alpha - \beta \vert \gt 0)$$ 
 
