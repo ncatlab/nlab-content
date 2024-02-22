@@ -59,6 +59,7 @@ Given a [[traced monoidal category]] $\mathcal{C}$, there is a [[free constructi
 
 the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal{C}$, a morphism $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ is given by a morphism of the form $A^+\otimes B^- \longrightarrow A^- \otimes B^+$ in $\mathcal{C}$, and [[composition]] of two such morphisms $(A^+ , A^-) \to (B^+ , B^-)$ and $(B^+ , B^-) \to (C^+ , C^-)$ is given by [[trace|tracing out]] $B^+$ and $B^-$ in the evident way.
 
+Every compact closed category is self-dual, i.e. equivalent to its opposite.
 
 ### Relation to star-autonomous categories
 
