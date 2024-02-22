@@ -6,10 +6,10 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Title|Author|Year|URL|Summary|
 |-----|------|----|---|------|
 |[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| |
-|Functor theory|[[Peter Freyd]]|1960| | |
+|Functor theory|[[Peter Freyd]]|1960|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1960_freyd_functor-theory.pdf) | |
 |[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
 |The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[Scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| |
-|Categories of Set Valued Functors|[[Marta Bunge]]|1966| | on [[categories of presheaves]] |
+|Categories of Set Valued Functors|[[Marta Bunge]]|1966|[ProQuest](https://www.proquest.com/docview/302207560/48E9615B59B04E17PQ/1?accountid=10474&sourcetype=Dissertations%20&%20Theses) | on [[categories of presheaves]] |
 |Fibred Categories and the Theory of Structures (Part I)|[[John Duskin]]|1966|[McMaster repository](https://macsphere.mcmaster.ca/handle/11375/17610)| |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
 |A triple miscellany: some aspects of the theory of algebras over a triple|[[Ernest Manes]]|1967|[proquest](https://www.proquest.com/openview/85791ad4b7917802ca6692378e453d60/)| |
@@ -33,7 +33,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Algebraic and locally algebraic functors|James J. Dukarm|1980|[Scan](https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/3281/b12244193a.pdf)| on locally equational categories |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
-|Operational Categories|Colin Barry Jay|1984| | |
+|Operational Categories|Colin Barry Jay|1984|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1984_jay_generalising-structure-semantics.pdf) | |
 |Butler's theorems and adjoint squares|[[John Power]]|1984|[Scan](https://central.bac-lac.gc.ca/.item?id=TC-QMM-121093&op=pdf&app=Library&is_thesis=1&oclc_number=1032920922)| on the [[adjoint lifting theorem]] and [[adjoint triangle theorem]] |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
 |Predicates and Fibrations|[[Duško Pavlović]]|1990|[Scan](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf)| |
@@ -51,7 +51,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | An algebraic theory of tricategories | [[Nick Gurski]] | 2007 | [[Gurski-AlgebraicTricategories.pdf:file]] | |
 | Bigroupoid 2-torsors | [[Igor Baković]] | 2008 | [doi](https://doi.org/10.5282/edoc.9209)  | on [[principal 2-bundles]] |
 | Coherence for Categorified Operadic Theories | Miles Gould | 2008 | [Glasgow repository](https://theses.gla.ac.uk/689/1/2009gouldphd.pdf) | on [[categorification]], [[coherence]] and [[operads]] |
-| Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 | | |
+| Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 |[ProQuest](https://www.proquest.com/docview/305052318?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses) | |
 | Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | on [[codescent objects]] and 2-dimensional generalisations of [[internal categories]] |
 |Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
 |Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
