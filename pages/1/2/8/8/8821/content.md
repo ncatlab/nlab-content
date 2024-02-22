@@ -68,25 +68,25 @@ An [[initial object]] $\varnothing$ is called a **strict initial object** if eve
 ## Examples
  {#Examples}
 
-The [[empty set]] is a strict initial object in [[Sets]].
+* The [[empty set]] is a strict initial object in [[Sets]].
 
-The [[empty topological space]] is a strict initial object in [[TopologicalSpaces]].
+* The [[empty topological space]] is a strict initial object in [[TopologicalSpaces]].
 
-The [[empty groupoid]] is a strict initial object in [[Groupoids]].
+* The [[empty groupoid]] is a strict initial object in [[Groupoids]].
 
-The [[empty simplicial set]] is a strict initial object in [[SimplicialSets]].
+* The [[empty simplicial set]] is a strict initial object in [[SimplicialSets]].
 
-The initial objects of any of the following types of categories are strict:
+* The initial objects of any of the following types of categories are strict:
 
-* in [[posets]],
+  * in [[posets]],
 
-* in [[toposes]],
+  * in [[toposes]],
 
-* in [[extensive categories]],
+  * in [[extensive categories]],
 
-* in [[distributive categories]].
+  * in [[distributive categories]].
 
-Specifically the initial objects of [[Set]], [[Cat]], [[Top]] are all strict.
+* Specifically the initial objects of [[Set]], [[Cat]], [[Top]] are all strict.
 
 At the other extreme, a [[zero object]] is a strict initial object only if the category is trivial (i.e. [[equivalence of categories|equivalent]] to the [[terminal category]]).
 
