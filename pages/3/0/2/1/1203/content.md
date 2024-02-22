@@ -43,7 +43,7 @@ The benefit of such a definition of infinity is that it allows for a [[strongly 
 
 ### Rational numbers
 
-If one has [[power sets]], one can assume an [[trichotomous]] [[ordered field]] $\mathbb{Q}$, such that every ordered [[subfield]] of $\mathbb{Q}$ is equal to the [[improper subset]] of $\mathbb{Q}$. This defines the [[rational numbers]], since the rational numbers are the initial [[trichotomous]] [[ordered field]]. The rational numbers are automatically infinite, and one can construct the [[integers]] $\mathbb{Z}$ as the [[intersection]] of all [[ordered integral domain|ordered integral subdomains]] of $\mathbb{Q}$, and since the integers as defined automatically comes with a [[total order]] $\leq$ and a [[pseudo-order]] $\lt$, one can define the natural numbers as the set of non-negative integers. 
+If one has [[power sets]], one can assume an [[ordered field]] $\mathbb{Q}$, such that every ordered [[subfield]] of $\mathbb{Q}$ is equal to the [[improper subset]] of $\mathbb{Q}$. This defines the [[rational numbers]], since the rational numbers are the initial [[ordered field]] and are [[strict initial object|strictly initial]]. The rational numbers are automatically infinite, and one can construct the [[integers]] $\mathbb{Z}$ as the [[intersection]] of all [[ordered integral domain|ordered integral subdomains]] of $\mathbb{Q}$, and since the integers as defined automatically comes with a [[total order]] $\leq$ and a [[pseudo-order]] $\lt$, one can define the natural numbers as the set of non-negative integers. 
 
 ## Generalizations 
 
