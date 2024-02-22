@@ -311,12 +311,13 @@ $$
   \,.
 $$
 \end{remark}
+
 \begin{remark}\label{TensorAdjunctabilityDoesNotImplyDualizability}
 **(Tensor-adjuncatibility does not imply dualizability)**
 \linebreak
-Prop. \ref{RelationToAdjunctableTensorProducts} does *not* claim that for $A'$ to be a dual object of $A$ it is sufficient that $(\text{-}) \otimes A$ has a [[right adjoint]] of the form $(\text{-}) \otimes A'$, instead it claims that the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) for this adjunction must be of the particular form (eq:HomIsoInducedByDualizability).
+Prop. \ref{RelationToAdjunctableTensorProducts} does *not* claim that for $A$ to be dualizable it is sufficient that $(\text{-}) \otimes A$ has a [[right adjoint]].
 
-A [[counterexample]] to sufficiency of the weaker condition is indicated by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).
+A [[counterexample]] is indicated by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).
 \end{remark}
 
 
