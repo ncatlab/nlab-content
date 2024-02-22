@@ -72,7 +72,7 @@ meaning that the joint distribution $q$ is the product of its marginals.
 
 ## In Markov categories
 
-(...)
+(For now see [[Markov category#stochastic_independence|Markov category - Stochastic independence]])
 
 ## See also 
 
