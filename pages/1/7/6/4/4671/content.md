@@ -19,7 +19,7 @@
 
 A __cocartesian monoidal category__ is a [[monoidal category]] $\big(\mathcal{C}, 0, \sqcup \big)$ whose monoidal product functor $\sqcup \,\colon\, \mathcal{C} \times \mathcal{C} \to \mathcal{C}$ is given by the [[coproduct]] (and so whose [[tensor unit]] is an [[initial object]] "$0$").  
 
-This is the [[opposite category|dual]] notion of that of a *[[cartesian monoidal categories]]*.
+This is the [[opposite category|dual]] notion of that of a *[[cartesian monoidal categories|cartesian monoidal category]]*.
 
 Sometime we refer to a category as __cocartesian monoidal__ just to indicate that it *has* all [[finite coproducts]].
 
