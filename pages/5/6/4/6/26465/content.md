@@ -21,6 +21,7 @@ A **trichotomous relation** on a set $S$ is a [[relation]] $R(x, y)$ which satis
 
 * [[analytic LPO]]
 
+[[!redirects trichotomous]]
 [[!redirects trichotomous relation]]
 [[!redirects trichotomous relations]]
 
