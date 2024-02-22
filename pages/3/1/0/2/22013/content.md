@@ -20,4 +20,6 @@ On [[epimorphisms]] in [[homotopy type theory]]:
 
 * [[Tom de Jong]], *Acyclic types and epimorphisms in HoTT*, [[Homotopy Type Theory Electronic Seminar Talks]], 17 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Jong-2022-11-17-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=vohAYPAAWxs))
 
+* [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
+
 category: people
