@@ -29,6 +29,9 @@ On higher structures in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], *Higher Structures in Homotopy Type Theory*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019)  &lbrack;[doi:10.1007/978-3-030-15655-8_7](https://doi.org/10.1007/978-3-030-15655-8_7), [arXiv:1807.02177](https://arxiv.org/abs/1807.02177)&rbrack;
 
+On [[epimorphisms]] and [[acyclic types]] in [[univalent type theory]]:
+
+* [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
 
 category: people
 
