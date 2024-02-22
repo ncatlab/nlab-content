@@ -27,7 +27,12 @@ Of course, there are also various theorems about general classes of numbers that
 ## Definition
 
 ### In the real numbers
-An __irrational (real) number__ is a [[real number]] $x$ such that, given any [[rational number]] $a$ (thought of as a real number), the [[absolute value]] ${|x - a|}$ is [[positive number|positive]].  (This precise definition is used in [[constructive mathematics]]; [[classical mathematics|classically]] this is equivalent to saying that $x \ne a$.)  We may define an irrational [[complex number]] similarly.
+
+An [[affine function]] on the real numbers consists of a function $f$ and real number [[coefficients]] $a$ and $b$ such that for all real numbers $x$, $f(x) = a x + b$. The [[constant function]] at zero $\lambda x.0$ is an affine function where $a = 0$ and $b = 0$. A real number is **irrational** if for all affine functions $f$ with [[integer]] coefficients, if $f(x) = 0$, then $f = \lambda x.0$. This is equivalent to saying that a real number is irrational if for all rational numbers $a$, $x \neq a$.
+
+Alternatively, a [[real number]] $x$ is **irrational** if given any [[rational number]] $a$ (thought of as a real number), the [[absolute value]] ${|x - a|}$ is [[positive number|positive]]. 
+
+These two definitions are equivalent in [[classical mathematics]]. However, these two definitions no longer coincide in [[constructive mathematics]]; the former definition of irrational number is called **weakly irrational** while the latter definition is called **strongly irrational** or **strictly irrational**. Strongly irrational numbers are most commonly used in constructive mathematics, since it uses the apartness relation or strict order relation of the real numbers, which, unlike equality, is what is detected of the real numbers in constructive mathematics. 
 
 The [[set]] of irrational real numbers (a [[subset]] of the set of real numbers) is variously denoted $\mathbb{I}$, $\mathbb{J}$, or $\mathbb{B}$ (in various fonts).  The $\mathbb{I}$ and $\mathbb{J}$ stand for 'irrational', while the $\mathbb{B}$ stands for 'Baire' (see the next paragraph).  Here we will use $\mathbb{J}$.
 
@@ -117,6 +122,30 @@ The usual proofs of these theorems are entirely [[constructive mathematics|const
 [[!redirects irrational real numbers]]
 [[!redirects irrational real]]
 [[!redirects irrational reals]]
+
+[[!redirects weakly irrational number]]
+[[!redirects weakly irrational numbers]]
+
+[[!redirects weakly irrational real number]]
+[[!redirects weakly irrational real numbers]]
+[[!redirects weakly irrational real]]
+[[!redirects weakly irrational reals]]
+
+[[!redirects strongly irrational number]]
+[[!redirects strongly irrational numbers]]
+
+[[!redirects strongly irrational real number]]
+[[!redirects strongly irrational real numbers]]
+[[!redirects strongly irrational real]]
+[[!redirects strongly irrational reals]]
+
+[[!redirects strictly irrational number]]
+[[!redirects strictly irrational numbers]]
+
+[[!redirects strictly irrational real number]]
+[[!redirects strictly irrational real numbers]]
+[[!redirects strictly irrational real]]
+[[!redirects strictly irrational reals]]
 
 [[!redirects set of irrational numbers]]
 [[!redirects space of irrational numbers]]
