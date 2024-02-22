@@ -78,6 +78,8 @@ This says that the type is [[dependent type|dependent]] on the type $X$ and indu
 
 * [[homotopy pushout]]
 
+* [[acyclic type]]
+
 ## References
 
 * [[Univalent Foundations Project]], §6.5 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
