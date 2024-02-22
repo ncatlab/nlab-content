@@ -13,27 +13,31 @@
 
 ## Idea
 
-A **transcendental number** is a number which is not a root of a polynomial with rational coefficients. 
+A **transcendental number** is a [[complex number]] for which the only [[polynomial]] with [[rational number|rational]] [[coefficients]] that has the number as a [[root]] is the zero polynomial. Equivalently in [[classical mathematics]], it is a number which is not a root of a non-zero polynomial with rational coefficients, or a number which is not equal to any [[algebraic number]]. 
 
 ## Definition
 
-Given a [[field extension]] of the [[rational numbers]] $\mathbb{Q} \subseteq F$ with a non-trivial [[absolute value]] $\vert - \vert:F \to \mathbb{R}$, a number $\alpha \in F$ is **transcendental** if for all [[polynomial functions]] with [[rational number|rational]] [[coefficients]] $f \in \mathbb{Q}[x] \subseteq F^F$, the absolute value of $f(\alpha)$ is positive 
+An complex number $\alpha \in \mathbb{C}$ is **weakly transcendental** if the only [[polynomial function]] with [[rational number|rational]] [[coefficients]] $f \in \mathbb{Q}[x] \subseteq \mathbb{C}^\mathbb{C}$ such that $f(\alpha)$ is equal to zero is the constant polynomial function at zero. 
 
-$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall f \in \mathbb{Q}[x].\vert f(\alpha) \vert \gt 0$$
+An complex number $\alpha \in \mathbb{C}$ is **strictly transcendental** if the field extension $\mathbb{Q}(\alpha) \subseteq \mathbb{C}$ is [[isomorphic]] to the [[field of fractions]] $\mathbb{Q}(x)$ of the generic [[polynomial ring]] $\mathbb{Q}[x]$. Equivalently, $\alpha \in F$ is **strictly transcendental** if the complex absolute value of the difference of $\alpha$ and every algebraic number is positive:
 
-Equivalently, $\alpha \in F$ is **transcendental** if the absolute value of the difference of $\alpha$ and every algebraic number in $F$ is positive:
+$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall \beta \in \mathbb{C}.(\beta \in \overline{\mathbb{Q}}) \Rightarrow (\vert \alpha - \beta \vert \gt 0)$$ 
 
-$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall \beta \in F.(\beta \in \overline{\mathbb{Q}}) \Rightarrow (\vert \alpha - \beta \vert \gt 0)$$ 
+These two notions coincide in [[classical mathematics]], with both concepts just called **transcendental**; however, they are different in [[constructive mathematics]]. 
 
-Famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the natural [[logarithm]] in the [[complex numbers]] with its [[Archimedean absolute value]], as well as the equivalents $\mathrm{e}$, $2 \pi \mathrm{i}$, and $\pi$ in the [[p-adic complex numbers]] with its [[p-adic norm]]. 
+## Examples
+
+Famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the natural [[logarithm]] in the [[complex numbers]] with its [[Archimedean absolute value]]. 
 
 ## Related concepts
 
-* [[Archimedean valued field]]
+* [[absolute value]]
 
 * [[algebraic number]]
 
 * [[irrational number]]
+
+* [[transcendental element]]
 
 ## References
 
@@ -43,3 +47,9 @@ See also
 
 [[!redirects transcendental number]]
 [[!redirects transcendental numbers]]
+
+[[!redirects weakly transcendental number]]
+[[!redirects weakly transcendental numbers]]
+
+[[!redirects strictly transcendental number]]
+[[!redirects strictly transcendental numbers]]
