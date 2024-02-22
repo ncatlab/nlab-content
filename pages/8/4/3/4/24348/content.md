@@ -81,6 +81,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Topics in the theory of enriched accessible categories|[[Giacomo Tendas]]|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
 |Introspective Theories and Geminal Categories|[[Sridhar Ramesh]]|2023|[eScholarship repository](https://escholarship.org/uc/item/3mn0c475)| on [[Löb's theorem]] and the [[Gödel incompleteness theorem]] |
 |Scalar Enrichment and Cotraces in Bicategories|Callum William Reader|2023|[White Rose repository](https://etheses.whiterose.ac.uk/33327/)| on [[traces]] and [[cotraces]] in [[monoidal bicategories]] |
+|Doctrinal and Groupoidal Representations of Classifying Topoi|Joshua L. Wrigley|2024|[PDF](https://jlwrigley.github.io/thesis/thesis_wrigley.pdf)| |
 
 
 ## Related pages
