@@ -266,6 +266,8 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[right-connected double category]]
 
+* [[double fibration]]
+
 
 
 ## References ##
@@ -332,10 +334,6 @@ On [[model structures on DblCat]]:
 * {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories* (2020) &lbrack;[talk slides pdf](https://acmbl.github.io/greg_slides.pdf)&rbrack;
 
 * {#MSVHInvar} [[Lyne Moser]], Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, Algebraic & Geometric Topology **23** 4 (2023) 1725-1786 &lbrack;[arxiv:2007.00588](https://arxiv.org/abs/2007.00588), journal:[pdf](https://msp.org/agt/2023/23-4/agt-v23-n4-p08-p.pdf)&rbrack;
-
-[[Fibrations]] of double categories, or _double fibrations_, are treated in 
-
-* [[Geoffrey Cruttwell]], Michael Lambert, [[Dorette Pronk]], Martin Szyld, _Double Fibrations_ ([arXiv:2205.15240](https://arxiv.org/abs/2205.15240)).
 
 An explicit description of what it means to be a one-object double category (i.e. filling in the gap in "a delooping of a ___ is a double category") is given in [this Math.StackExchange answer](https://math.stackexchange.com/a/3790232).
 
