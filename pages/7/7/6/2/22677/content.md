@@ -116,7 +116,7 @@ The [[unit object]] in $(CMon, \otimes)$ is the additive monoid of [[natural num
 +-- {: .proof}
 ###### Proof
 
-To see that $\mathbb{N}$ is the unit object, consider for any commitative momoid $A$ the map
+To see that $\mathbb{N}$ is the unit object, consider for any commutative monoid $A$ the map
 
 $$
   A \otimes \mathbb{N} \to A
