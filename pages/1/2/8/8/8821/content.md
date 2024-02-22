@@ -88,6 +88,8 @@ An [[initial object]] $\varnothing$ is called a **strict initial object** if eve
 
 * Specifically the initial objects of [[Set]], [[Cat]], [[Top]] are all strict.
 
+* [[John Baez]] showed on the [Category Theory Zulip](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Integers.20and.20rational.20numbers.20as.20strict.20initial.20objects.3F/near/422742440) that the [[rational numbers]] are a strict initial object in the category of [[characteristic zero]] [[fields]] and [[ring homomorphisms]]. This implies that the rational numbers are a strict initial object in the category of [[ordered fields]] and [[ring homomorphisms]]. 
+
 At the other extreme, a [[zero object]] is a strict initial object only if the category is trivial (i.e. [[equivalence of categories|equivalent]] to the [[terminal category]]).
 
 ## Related concepts
