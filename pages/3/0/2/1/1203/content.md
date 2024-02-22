@@ -35,9 +35,15 @@ $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} T(\mathbb{N}) \simeq \left[\sum_{A:U} \ma
 
 ### Integers
 
+#### Inductive definition
+
 Instead of a defining the natural numbers via its induction principle, one can instead define the [[integers]] via its induction principle, and then use the fact that disjoint unions are disjoint and $\mathbb{Z} \cong \mathbb{Z} \uplus \mathbb{Z}$ to construct the natural numbers. 
 
+#### Second-order definition
+
 Alternatively, one can assume a (trichotomous) [[ordered integral domain]] $\mathbb{Z}$, such that every (trichotomous) ordered integral subdomain of $\mathbb{Z}$ is equivalent to the [[improper subset]] of $\mathbb{Z}$. This defines the [[integers]], since the integers are the [[initial object|initial]] (trichotomous) ordered integral domain and are [[strict initial object|strictly initial]]. Since the integers as defined automatically comes with a [[total order]] $\leq$ and a [[pseudo-order]] $\lt$, one can define the natural numbers as the set of non-negative integers. 
+
+The benefit of such a definition of infinity is that it allows for a [[strongly predicative mathematics|strongly predicative]] definition of the [[natural numbers]], the [[rational numbers]], and the [[real numbers]] in [[dependent type theory]], since one doesn't need arbitrary [[function sets]] or [[dependent function types]] to define the natural numbers, which one needs to characterize the natural numbers by its usual recursion or induction principle. Instead, one only needs dependent function types of a family of propositions, weak function extensionality, and the power set of the ordered integral domain $\mathbb{Z}$. Unlike the case for arbitrary ordered integral domains, being an ordered integral subdomain is only a property of an element of a power set, and then one can construct the type of ordered integral subdomains of $\mathbb{Z}$, from which one can characterize $\mathbb{Z}$ as having a contractible type of ordered integral subdomains of $\mathbb{Z}$. 
 
 ### Rational numbers
 
