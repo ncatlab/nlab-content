@@ -37,6 +37,8 @@ The name "split coequalizer" is appropriate, because in any split coequalizer di
 
 In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].
 
+By this we mean the diagram consisting only of only $$ A \;\underoverset{f}{g}{\rightrightarrows}\; B $$ is absolute (i.e, the splitting is not part of the diagram that is absolute; adding more information would also make it absolute, but it's not the impressive part)
+
 ### Contractible pairs
 
 On the other hand, suppose we are given only $f,g\colon A\to B$ and $t\colon B\to A$ such that $f t = 1_B$ and $g t f = g t g$ (which is certainly the case in any split coequalizer, since $g t f = s e f = s e g = g t g$).  Such a situation is sometimes called a **contractible pair**.  In this case, any coequalizer of $f$ and $g$ is split, for if $e\colon B\to C$ is a coequalizer of $f$ and $g$, then the equation $g t f = g t g$ implies, by the universal property of $e$, a unique morphism $s\colon C\to B$ such that $s e = g t$, whence $e s e = e g t = e f t = e$ and so $e s = 1_C$ since $e$ is epic.
