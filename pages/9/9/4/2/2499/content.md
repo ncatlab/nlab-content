@@ -1,6 +1,5 @@
 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -744,27 +743,8 @@ To conclude, we hence need to see that we have sufficient boundary data on $\mu\
 Now the boundary data for $\mu_a\big( (x^a), (\theta^\alpha)  \big)$ is clearly $\mu_a\big( (x^a), (\theta^\alpha = 0)  \big)$, and if the differential equations did not also depend on $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$ this would be the end of the story. 
 
 We do *not* know the analogous boundary data $\mu_\alpha\big( (x^a), (\theta^\alpha = 0)  \big)$, since all of $\mu_\alpha$ is forgotten when restricting to $\mathbf{d}\theta^\alpha = 0$.
-But we do have other boundary conditions on $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$...
 
-> this is the argument I am adding in order to patch what seems to be a gap in Castellani-D'Auria-Fre
-
-... namely since $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$ is the coefficient of $\mathbf{d}\theta^\alpha$, we may/should constrain it to be _independent_ of the corresponding coordinate $\theta^\alpha$, for if it had a dependence on this coordinate, this would disappear as we form $\mu = \mu_\alpha \mathbf{d}\theta^\alpha$.
-
-Hence our total boundary conditions are
-
-$$
-  \mu_a\big( (x^a), (\theta^\alpha)  \big)_{\vert (\theta^\alpha = 0)}
-  =
-  \mu_a\big( (x^a), (\theta^\alpha = 0)  \big)
-  \;\;\,,
-  \;\;
-  \frac{\partial}{\partial \theta^\alpha}\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)
-  =
-  0
-$$
-
-(no sum over $\alpha$). Since we started with a solution to these differential equations, which we are trying to reconstruct, there is no issue here of integrating these differential equations. The only question is if these are sufficient to uniquely nail down that solution which we do know exists. Just by counting variables and conditions (which should be independent conditions) this should be the case.
-
+> I think this is a real gap in the general argument for rheonomy. It is not a real problem in special situations, though...
 
 =--
 
@@ -1183,7 +1163,7 @@ Some more references:
 
 Discussion in this formalism of the [[Green-Schwarz action functional]] for the [[M2-brane]] [[sigma-model]] with a [[target space]]  [[11-dimensional supergravity]] background is in 
 
-* {#AFFFTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194,1999, ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+* {#AFFFTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys. B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115)&rbrack;
 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl. Phys.  B 763:1-34, 2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
