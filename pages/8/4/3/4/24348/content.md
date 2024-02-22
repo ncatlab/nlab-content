@@ -29,6 +29,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Indicial methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
 |Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content)| |
 |Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
+|Catégories localisables & Aspects geometriques de la propriete de Radon-Nikodym dans les espaces de Banach|[[Yves Diers]]|1977|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1977_diers_cat%C3%A9gories-localisables.pdf)| on [[locally multipresentable categories]], among other things |
 |Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| on [[exponentiable objects]] (there called "cartesian objects") |
 |Algebraic and locally algebraic functors|James J. Dukarm|1980|[Scan](https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/3281/b12244193a.pdf)| on locally equational categories |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
