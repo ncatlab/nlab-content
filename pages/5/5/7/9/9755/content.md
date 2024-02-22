@@ -38,6 +38,9 @@ On [[delooping]], [[H-spaces]] and [[Eilenberg-MacLane spaces]] in [[homotopy ty
 
 * [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
+On [[epimorphisms]] and [[acyclic types]] in [[univalent type theory]]:
+
+* [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
 
 ## Related $n$Lab entries
 
