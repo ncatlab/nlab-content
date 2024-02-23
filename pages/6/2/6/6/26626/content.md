@@ -13,7 +13,7 @@
 
 ## Definition
 
-Given a [[field]] $K$ and a field extension $K \subseteq F$, an element $\alpha \in F$ is **transcendental** if for all [[polynomial functions]] $f$ with [[coefficients]] in $K$, if $f(\alpha) = 0$ then $f$ is the zero polynomial. 
+Given a [[field]] $K$ and a [[field extension]] $K \subseteq F$, an element $\alpha \in F$ is **transcendental** if for all [[polynomial functions]] $f$ with [[coefficients]] in $K$, if $f(\alpha) = 0$ then $f$ is the zero polynomial. 
 
 Alternatively, an element $\alpha \in F$ is **transcendental** if the [[field extension]] $K(\alpha) \subseteq F$ is isomorphic to the [[field of fractions]] $K(x)$ of the generic [[polynomial ring]] $K[x]$. 
 
