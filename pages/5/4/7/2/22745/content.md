@@ -13,7 +13,7 @@ If the relation $\leq$ is only a [[preorder]], then the ring $R$ is said to be a
 
 ## Related concepts
 
-* [[lattice ordered ring]]
+* [[lattice-ordered ring]]
 
 * [[totally ordered ring]]
 
