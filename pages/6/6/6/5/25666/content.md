@@ -47,4 +47,6 @@ See at *[[model category]]*.
 [[!redirects bi-fibrant object]]
 [[!redirects bi-fibrant objects]]
 
+[[!redirects fibrant and cofibrant object]]
+[[!redirects fibrant and cofibrant objects]]
 
