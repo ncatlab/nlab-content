@@ -19,6 +19,10 @@ On the [[supersymmetry|supersymmetric]] [[WZW model]] using [[group algebra]]:
 
 * [[Matthias Blau]], [[George Thompson]], *Equivariant Kähler Geometry and Localization in the $G/G$ Model*, Nucl. Phys. B **439** (1995) 367-394 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00058-Z">doi:10.1016/0550-3213(95)00058-Z</a>, [arXiv:hep-th/9407042](https://arxiv.org/abs/hep-th/9407042)&rbrack;
 
+On [[Ray-Singer torsion]] and [[path integrals]]:
+
+* [[Matthias Blau]], Mbambu Kakona, [[George Thompson]], *On the Evaluation of the Ray-Singer Torsion Path Integral* &lbrack;[arXiv:2402.14437](https://arxiv.org/abs/2402.14437)&rbrack;
+
 
 
 category: people
