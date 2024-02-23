@@ -65,6 +65,23 @@ Every compact closed category is self-dual, i.e. equivalent to its opposite.
 
 A compact closed category is a [[star-autonomous category]]: the [[tensor unit]] is a [[dualizing object]]. Thus it is also an [[mix rule|isomix]] category. (But note that, for example, the symmetric monoidal category of [[sup-lattices]] is star-autonomous, with dualizing object given by the unit, but not compact closed. In a compact closed category, the dualizing functor is additionally monoidal.)
 
+### Incompatibility with distributivity
+
+\begin{theorem}
+If a compact closed category has binary products that distribute over binary coproducts, it is [[thin category|thin]].
+\end{theorem}
+\begin{proof}
+By Lemma 4 of [Houston 06](#Houston06), whose proof only requires binary products and coproducts, for any objects $A$ and $B$ the canonical morphism
+$$(A\times A)+(B\times B) \to (A+B)\times (A+B)$$
+is invertible, which we can write as
+$$ A^2 + B^2 \to (A+B)^2.$$
+This map factors through
+$$ A^2 + B^2 + 2\cdot A\times B$$
+via the coproduct injection and a pair of distributivity maps.  Since the latter are isomorphisms, so is the former.  This means that for any object $X$, if there exists a morphism $A^2+B^2 \to X$, then there exists a unique morphism $2\cdot A\times B \to X$.
+
+Now taking $B=X=A$, we observe that there is a morphism $A^2+A^2 \to A$.  Therefore, there is a unique morphism $2\cdot A^2 \to A$, and therefore a unique morphism $A^2 \to A$.  In particular, the two projections $\pi_1 : A\times A\to A$ and $\pi_2 : A\times A\to A$ are equal, which is to say that $A$ is [[subterminal]].  Since $A$ was arbitrary, the category is thin.
+\end{proof}
+
 ## Examples
 
 \begin{example}
@@ -123,8 +140,6 @@ On [[biproducts]]:
 On compact closure in [[homotopical algebra]] and relating to the [Barrat-Priddy theorem](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement):
 
 * [[Amit Sharma]], *Compact closed categories and Γ-categories (with an appendix by [[André Joyal]])*, Theory and Applications of Categories **37** 37 (2021) 1222-1261 &lbrack;[arXiv:2010.09216](https://arxiv.org/abs/2010.09216), [tac:37-37](http://www.tac.mta.ca/tac/volumes/37/37/37-37abs.html)&rbrack;
-
-
 
 
 [[!redirects compact closed]]
