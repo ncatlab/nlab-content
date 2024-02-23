@@ -35,4 +35,7 @@ However in general one may want to consider flavors of [[dependent type theory]]
 * [[fibrant replacement]]
 * [[contextual fibrancy]]
 
+[[!redirects fibrant type]]
 [[!redirects fibrant types]]
+[[!redirects non-fibrant type]]
+[[!redirects non-fibrant types]]
