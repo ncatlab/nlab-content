@@ -39,6 +39,34 @@ Dependent type theory support various [[foundations of mathematics]] via the [[p
 
 On the other hand, if one only has a [[Tarski type of all propositions]] for [[higher-order logic]], then propositions and subsingletons are not the same thing, and one is following the philosophy of **propositions as codes for subsingletons**, similar to [[set theory]] with the [[axiom schema of separation]]. 
 
+### Propositions as subsingletons in set theory
+
+There is an analogue of the "propositions as some types" in [[set theory]], called **propositions as subsingletons**. Instead of working in the external logic, one interprets certain set-theoretic operations as representing the predicate logic:
+
+* Any [[subsingleton]] represents a proposition
+
+* The [[empty set]] represents [[falsehood]]
+
+* Any [[singleton]] represents [[truth]]
+
+* The binary cartesian product of two subsingletons is [[conjunction]] of propositions
+
+* The function set between two subsingletons is [[implication]] of propositions
+
+* The function set from a subsingleton to the empty set is [[negation]] of propositions
+
+* Given a family of subsingletons, the indexed [[cartesian product]] of the family of subsingletons is [[universal quantification]]
+
+* One can turn any set into a subsingleton by taking the [[image]] of the unique function into a [[singleton]]. This is useful for constructing the internal disjunction and existential quantifier:
+
+* The image of the unique function from the [[disjoint union]] of two subsingletons to any singleton is the [[disjunction]] of propositions
+
+* The image of the unique function from the indexed [[disjoint union]] of a family of subsingletons to any singleton is the [[existential quantifier]]
+
+* Equality is given by the [[diagonal subset]]
+
+Compare with [[propositions as sets]], which is the [[BHK interpretation]] of the internal logic of a set theory via set-theoretic operations on sets.
+
 ## Related concepts
 
 [[!include notions of type]]
