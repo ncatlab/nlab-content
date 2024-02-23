@@ -62,7 +62,7 @@ Every strictly weakly ordered ring is a [[preordered ring]] given by the [[negat
 
 * In particular, the set of [[Cauchy sequences]] of [[rational numbers]] is a strictly weakly ordered ring. 
 
-* Every [[ordered Kock field]] is a example of a strictly weakly ordered ring which in the presence of [[excluded middle]] is a [[linearly ordered ring]]. 
+* Every [[ordered Kock field]] is a example of a strictly weakly ordered ring which in the presence of [[excluded middle]] is a [[pseudo-ordered ring]]. 
 
 ## See also
 
