@@ -35,6 +35,8 @@ These two notions coincide in [[classical mathematics]]. They also coincide in [
 
 * [[transcendental extension]]
 
+* [[algebraically independent subset]]
+
 ## References
 
 See also
