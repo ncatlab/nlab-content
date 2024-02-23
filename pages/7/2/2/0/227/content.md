@@ -244,7 +244,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[ordered ring]]
 
-* [[lattice ordered ring]]
+* [[lattice-ordered ring]]
 
 * [[totally ordered ring]]
  
