@@ -18,13 +18,13 @@
 
 ## Disambiguation
 
-Traditionally, in [[classical mathematics]], an ordered ring is a [[totally ordered ring]]. However, in [[constructive mathematics]], due to the failure of [[excluded middle]], there are multiple notions of order which are not necessarily equivalent to the notion of total order but which in the presence of [[excluded middle]] are equivalent to the notion of [[total order]], and thus, there are multiple notions of ordered rings. There are also more general notions of ordered rings, where the order is a [[preorder]], a [[partial order]], a [[pseudolattice]], a [[pseudo-order]], or a [[strict preorder]]. 
+Traditionally, in [[classical mathematics]], an ordered ring is a [[totally ordered ring]]. However, in [[constructive mathematics]], due to the failure of [[excluded middle]], there are multiple notions of order which are not necessarily equivalent to the notion of total order but which in the presence of [[excluded middle]] are equivalent to the notion of [[total order]], and thus, there are multiple notions of ordered rings. There are also more general notions of ordered rings, where the order is a [[preorder]], a [[partial order]], a [[lattice]], a [[pseudo-order]], or a [[strict preorder]]. 
 
 * [[preordered ring]]
 
 * [[totally preordered ring]]
 
-* [[pseudolattice preordered ring]]
+* [[prelattice ordered ring]]
 
 * [[strictly weakly ordered ring]]
 
@@ -32,7 +32,7 @@ Traditionally, in [[classical mathematics]], an ordered ring is a [[totally orde
 
 * [[totally ordered ring]]
 
-* [[pseudolattice ordered ring]]
+* [[lattice ordered ring]]
 
 * [[pseudo-ordered ring]]
 
