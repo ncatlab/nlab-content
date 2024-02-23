@@ -32,14 +32,14 @@ Another synonym is *[[(0,1)-category]]*.
 ### Relation to order theory
  {#RelationToOrderTheory}
 
-Up to [[isomorphism of categories|isomorphism]], a thin category [[relation between type theory and category theory|is]] a [[preordered set]] ("[[proset]]").  Up to [[equivalence of categories|equivalence]], a thin category [[relation between type theory and category theory|is]] the same thing as a [[partially ordered set]] ("[[poset]]").  
+Up to [[isomorphism of categories|isomorphism]], a small thin category [[relation between type theory and category theory|is]] a [[preordered set]] ("[[proset]]").  Up to [[equivalence of categories|equivalence]], a small thin category [[relation between type theory and category theory|is]] the same thing as a [[partially ordered set]] ("[[poset]]").  
 
 For more on this see at *[[relation between preorders and (0,1)-categories]]*.
 
 
 ## Examples
 
-A [[poset]] is a thin category. In particular so are [[lattice|(semi)lattices]], [[Heyting algebra|Heyting algebras]] and [[frame|frames]].
+Any [[preordered set]] is a thin category. In particular so are [[poset|posets]], [[lattice|(semi)lattices]], [[Heyting algebra|Heyting algebras]] and [[frame|frames]].
 
 ## Related concepts
 
