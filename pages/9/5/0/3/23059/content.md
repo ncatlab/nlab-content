@@ -1,24 +1,28 @@
+[[!redirects lattice ordered group]]
+
+\tableofcontents
+
 ##Idea
 
-A lattice ordered group is a group which is also a lattice in a compatible way.
+A lattice-ordered group is a group which is also a lattice in a compatible way.
 
-##Partially ordered groups.
+## Partially ordered groups.
  
  First we introduce _partially ordered groups_. 
 
 A group $G$ is said to be _partially ordered_ if it is equipped with a partial order, $\le$, which is compatible with the group multiplication, $\cdot$, so, if $g\leq h$ then $g\cdot k\leq h\cdot k$ and also $k\cdot g\leq k\cdot h$ for any $g,h,k \in G$.
 
-##Positive elements
+## Positive elements
 
 The set, $G^+=\{g\in G\mid g\geq 1\}$ is called the _positive cone_ of $(G,\leq)$. It completely determines the partial order since $g\leq h$ if and only if $hg^{-1}\in G^*\cup \{0\}$.
 
-##Lattice ordered groups.
+## Lattice-ordered groups.
 
-If $G,\leq)$ is a partially ordered group, and the partial order is a lattice, then we say $G$ is a _lattice ordered group_, so for each pair , $a,b$ in $G$ has a [[join]], $a \vee b$ and a [[meet]], $a\wedge b$.
+If $G,\leq)$ is a partially ordered group, and the partial order is a lattice, then we say $G$ is a _lattice-ordered group_, so for each pair , $a,b$ in $G$ has a [[join]], $a \vee b$ and a [[meet]], $a\wedge b$.
 
-Many sources abbreviate 'lattice ordered group' to '$\ell$-group'.
+Many sources abbreviate 'lattice-ordered group' to '$\ell$-group'.
 
-##Properties 
+## Properties 
 
 * The group operation distibutes over both $\vee$ and $\wedge$.
 
@@ -28,15 +32,24 @@ Many sources abbreviate 'lattice ordered group' to '$\ell$-group'.
 
 * The compatibility of the group multiplication with the lattice structure interpretas as saying that left and right multiplication by elements of the group give automorphisms of the lattice structure.
 
-## Lattice ordered groups and residuated lattices
+## Lattice-ordered groups and residuated lattices
 
 We note that given any $x, y \in G$, we can form $x / y = x\cdot y^{-1}$, and $y\backslash x = y^{-1}\cdot x$. In this case, if $x\cdot y \leq z$, then, of course, $y\leq x\backslash z$ and $x\leq z / y$.  We then also have $x^{-1}= 1 / x$ - which is neat!
 
-This gives that any lattice ordered group gives a [[residuated lattice]].
+This gives that any lattice-ordered group gives a [[residuated lattice]].
 
-The lattice ordered groups form a variet ub the category of residuated lattices that is axiomatised by the identity $x\cdot (1/x) = x$.
+The lattice-ordered groups form a variet ub the category of residuated lattices that is axiomatised by the identity $x\cdot (1/x) = x$.
 
-##References
+## Related concepts
+
+* [[ordered group]]
+
+* [[lattice-ordered abelian group]]
+
+* [[lattice-ordered ring]]
+
+## References
+
 The original article that considered ordered groups in the non-commutative case is by Garrett Birkhoff:
 
 * [[Garrett Birkhoff]]. _Lattice-ordered groups,_ Annals of Math. 43, (1942) pp. 298 - 331.
@@ -49,3 +62,17 @@ There are several monographs or books on the subject of lattice ordered groups.
 
 * V. M. Kopytov, N. Ya. Medvedev, _The Theory of Lattice-Ordered Groups_,  Mathematics and Its Applications, volume 307, 1994), Springer, [doi](https://doi.org/10.1007/978-94-015-8304-6).
 
+[[!redirects l-group]]
+[[!redirects l-groups]]
+
+[[!redirects lattice-ordered group]]
+[[!redirects lattice-ordered groups]]
+
+[[!redirects lattice ordered group]]
+[[!redirects lattice ordered groups]]
+
+[[!redirects pseudolattice-ordered group]]
+[[!redirects pseudolattice-ordered groups]]
+
+[[!redirects pseudolattice ordered group]]
+[[!redirects pseudolattice ordered groups]]
