@@ -42,6 +42,8 @@ As stated, the [[target]] of such a function depends on the argument, which is n
 
 In traditional forms of [[set theory]], one can also take the target of $f$ to be the [[union]] $\bigcup_i A_i$ or even the class of all objects (equivalently, leave it unspecified).
 
+$$\prod_{a \in A} B(a) = \{f \in \left(\bigcup_{a\in A} B(a)\right)^A \vert \forall a, f(a) \in B(a) \}$$
+
 ### In a general category
  {#InAGeneraCategory}
 
