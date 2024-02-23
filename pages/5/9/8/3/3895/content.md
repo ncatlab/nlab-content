@@ -51,11 +51,18 @@ Analytic torsion appears as one factor in the [[perturbation theory|perturbative
 
 * {#Cheeger77} [[Jeff Cheeger]], _Analytic torsion and Reidemeister torsion_, Proc. Natl. Acad. Sci. USA __74__, No. 7, pp. 2651-2654 (1977), [pdf](http://www.pnas.org/content/74/7/2651.full.pdf)
 
+* [[John Lott]], *The Ray-Singer torsion* &lbrack;[arXiv:2309.05688](https://arxiv.org/abs/2309.05688)&rbrack;
+
+
 * Wikipedia, _[Analytic torsion](http://en.wikipedia.org/wiki/Analytic_torsion)_
 
-* A.A. Bytsenko, A.E. Goncalves, W. da Cruz, _Analytic Torsion on Hyperbolic Manifolds and the Semiclassical Approximation for Chern-Simons Theory_ ([arXiv:hep-th/9805187](http://arxiv.org/abs/hep-th/9805187))
 
-Review of the role played in the perturbative [[quantization of Chern-Simons theory]] includes
+
+
+
+Review of the role played in the perturbative [[quantization of Chern-Simons theory]]:
+
+* A.A. Bytsenko, A.E. Goncalves, W. da Cruz, _Analytic Torsion on Hyperbolic Manifolds and the Semiclassical Approximation for Chern-Simons Theory_ ([arXiv:hep-th/9805187](http://arxiv.org/abs/hep-th/9805187))
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
@@ -72,6 +79,11 @@ with further developments including
 In relation to the  [[topological string]] and [[black hole entropy]]:
 
 * [[Cumrun Vafa]], *Ray-Singer Torsion, Topological Strings and Black Holes* &lbrack;[arXiv:2401.12816](https://arxiv.org/abs/2401.12816)&rbrack;
+
+See also:
+
+* [[Matthias Blau]], Mbambu Kakona, [[George Thompson]], *On the Evaluation of the Ray-Singer Torsion Path Integral* &lbrack;[arXiv:2402.14437](https://arxiv.org/abs/2402.14437)&rbrack;
+
 
 
 
