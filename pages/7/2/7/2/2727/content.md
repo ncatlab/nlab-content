@@ -70,7 +70,31 @@ So in terms of the notion of [[n-connected object of an (infinity,1)-topos|n-con
 
 We would not say homotopy type theory has propositions as types in the same way that Martin--L&#246;f type theory has; only the $(-1)$-truncated types are propositions as such.  That is, in HoTT we have propositions as *some* types.  In this case the [[bracket types]] can be identified with a particular [[higher inductive type]] called $isInhab$.
 
+### Propositions as sets in set theory
 
+There is an analogue of the "propositions as types" in [[set theory]], called **propositions as sets**. Instead of working in the external logic, one interprets certain set-theoretic operations as representing the predicate logic:
+
+* Any [[set]] represents a proposition
+
+* The [[empty set]] represents [[falsehood]]
+
+* Any [[singleton]] represents [[truth]]
+
+* The binary cartesian product of two sets is [[conjunction]] of propositions
+
+* The function set between two sets is [[implication]] of propositions
+
+* The function set from a set to the empty set is [[negation]] of propositions
+
+* Given a family of sets, the indexed [[cartesian product]] of the family of sets is [[universal quantification]]
+
+* The binary [[disjoint union]] of two sets is the [[disjunction]] of propositions
+
+* The indexed [[disjoint union]] of a family of sets is the [[existential quantifier]]
+
+* Equality is given by the [[diagonal subset]]
+
+Compare with [[propositions as subsingletons]], which is the usual interpretation of the [[internal logic]] of a set theory via set-theoretic operations on sets. 
 
 ## Related concepts
 
@@ -176,6 +200,9 @@ and in section 5 of
 [[!redirects propositions as types]]
 [[!redirects propositions-as-types]]
 [[!redirects propositions as types in type theory]]
+
+[[!redirects propositions as sets]]
+[[!redirects propositions-as-sets]]
 
 [[!redirects Curry-Howard correspondence]]
 [[!redirects Curry?Howard correspondence]]
