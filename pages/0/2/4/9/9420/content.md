@@ -91,6 +91,9 @@ It may also be instructive to look at the logical structure of each condition:
 *  $LD$: $\exists (a,v),\; \sum a v = 0 \;\wedge\; \exists i,\; a_i \ne 0$;
 *  $LF$: $\forall (a,v),\; \sum a v \ne 0 \;\Leftarrow\; \exists i,\; a_i \ne 0$.
 
+## Related concepts
+
+* [[algebraically independent subset]]
 
 [[!redirects linearly independent subset]]
 [[!redirects linearly independent set]]
