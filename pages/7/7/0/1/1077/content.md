@@ -221,6 +221,8 @@ Categories with biproducts include:
 
 * The category [[SupLat]] of sup-lattices.
 
+* Any [[compact closed category]] with products (or coproducts); see [Houston 06](#Houston06), and for generalizations [Garner-Schaeppi 15](#GarnerSchaeppi15) and [Zekic 21](#Zekic21).
+
 ## Non-examples
 
 Some categories possess all [[binary products]] and [[coproducts]] but they are not biproducts and the category is thus not a semiadditive category. From above, we know that they are not enriched over the category of commutative monoids.
@@ -249,6 +251,10 @@ Some categories possess all [[binary products]] and [[coproducts]] but they are 
 * {#Lack09} [[Stephen Lack]], _Non-canonical isomorphisms_, ([arXiv:0912.2126](http://arxiv.org/abs/0912.2126)).
 
 * {#Houston06} [[Robin Houston]], _Finite Products are Biproducts in a Compact Closed Category_, Journal of Pure and Applied Algebra, Volume 212, Issue 2, February 2008, Pages 394-400 ([arXiv:math/0604542](http://arxiv.org/abs/math/0604542))
+
+* {#GarnerSchaeppi15} [[Richard Garner]] and [[Daniel Schaeppi]], _When coproducts are biproducts_, Math. Proc. Camb. Phil. Soc. 161 (2016) 47-51, [arXiv:1505.01669](https://arxiv.org/abs/1505.01669), 2015
+
+* {#Zekic21} Mladen Zekić, _Biproducts in monoidal categories_, Publications de L'Institut Mathematique, [DOI](https://doi.org/10.2298/PIM2123001Z), 2021
 
 
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
