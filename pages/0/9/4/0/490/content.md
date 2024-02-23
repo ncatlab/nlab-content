@@ -27,20 +27,16 @@ In elementary terms, CoSHEP states
 For every [[set]] $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]].
 =--
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 The full axiom of choice states that every surjection $X \to A$ has a section; hence in the above $P$ may be chosen to be $A$ itself.
-=--
+\end{remark}
 
 This should be read in view of the definition of _[[projective objects]]_:
 
-+-- {: .num_defn}
-###### Definition
-
+\begin{definition}
 An [[object]] $P$ in a [[category]] $C$ is (externally) [[projective object|projective]] iff the [[hom-functor]] $C(P, -): C \to Set$
 takes [[epimorphism|epis]] to epis. This is the same as saying: given an epi $p: B \to A$ and a map $f: P \to A$, there exists a lift $g: P \to B$ in the sense that $f = p \circ g$. 
-=--
+\end{definition}
 
 Accordingly, in a [[topos]] the CoSHEP axiom says equivalently
 
@@ -52,20 +48,9 @@ Every object has a [[projective presentation]]. Hence: There are [enough project
 
 Borrowing from the philosophy of [[constructive mathematics|constructivism]], we may also call this a _complete presentation_.
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 The [[duality|dual]] axiom,  that $Set$ has [enough injectives](injective+object#EnoughInjectives) (that is, every set admits an injection into an injective set) is [[true]] in every [[topos]]: every [[power object]] is an [[injective object]], and every object $X$ embeds in its power object $P X$ via the [[singleton subset|singleton]] map $\{\cdot\}:X\hookrightarrow P X$.
-=--
-
-
-
-## Justification
-
-Although perhaps not well known in the literature of [[constructive mathematics]], the CoSHEP axiom may be justified by the sort of reasoning usually accepted to justify the [[axiom of countable choice|axioms of countable choice]] and [[axiom of dependent choice|dependent choice]] (which it implies, by Proposition \ref{ImpliesDependentAndCountableChoice} below). 
-
-To be explicit, every set $A$ should have a 'completely presented' set of 'canonical' [[elements]], that is elements given directly as they are constructed without regard for the [[equality relation]] imposed upon them. For canonical elements, [[equality]] is identity, so the [[BHK interpretation]] of logic justifies the axiom of choice for a completely presented set. This set is $P$, and $A$ is obtained from it as a [[quotient set|quotient]] by the relation of equality on $A$. This argument can be made precise in many forms of [[type theory]] (including those of Martin-L&#246;f and Thierry Coquand), which thus justify CoSHEP, much as they are widely known to justify dependent choice.
-
+\end{remark}
 
 ## Consequences
 
@@ -129,6 +114,82 @@ A topos in which CoSHEP holds but $1$ is not projective is $Set^C$, where $C$ is
 
 CoSHEP also implies several weaker forms of choice, such as the [[axiom of multiple choice]] and [[WISC]].  In weakly [[predicative mathematics]], it can be combined with the existence of [[function sets]] to show the [[subset collection]] axiom.
 
+## Variants of the presentation axiom
+{#Variants}
+
+### Split surjections
+
+In the absence of the full [[axiom of choice]], there are actually two notions of surjections: [[surjections]], and [[split surjections]]. Hence, we get four possible different statements of the presentation axiom, depending on whether one uses surjections or split surjections:
+
+1. For every [[set]] $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]].
+
+2. For every [[set]] $A$, there exists a set $P$ and a [[split surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]].
+
+3. For every [[set]] $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every split surjection $X \twoheadrightarrow P$ has a [[section]]. 
+
+4. For every [[set]] $A$, there exists a set $P$ and a [[split surjection]] $P \to A$, such that every split surjection $X \twoheadrightarrow P$ has a [[section]].
+
+By definition of split surjection, every split surjection has a section, so the third and fourth versions of the presentation axioms are simply:
+
+* For every [[set]] $A$, there exists a set $P$ and a [[surjection]] $P \to A$. 
+
+* For every [[set]] $A$, there exists a set $P$ and a [[split surjection]] $P \to A$.
+
+These two versions of the presentation axiom are always true: take the set $P$ to be $A$ and the (split) surjection $P \to A$ to be the [[identity function]] on $A$. 
+
+This leaves the first and second version of the presentation axiom as non-trivial axioms that one can add to the [[foundations]]. In general, the version using a split surjection into $A$ is stronger than the version using a surjection into $A$, because not every surjection is a split surjection unless the full [[axiom of choice]] holds. And then the usual [[axiom of choice]] is simply the presentation axiom where the surjection is required to be a [[bijection]]. 
+
+### External and internal versions
+
+In addition, every [[set theory]] has an [[internal logic]] defined on its [[subsingletons]]:
+
+* Any [[subsingleton]] represents a proposition
+
+* The [[empty set]] represents [[falsehood]]
+
+* Any [[singleton]] represents [[truth]]
+
+* The binary cartesian product of two subsingletons is [[conjunction]] of propositions
+
+* The function set between two subsingletons is [[implication]] of propositions
+
+* The function set from a subsingleton to the empty set is [[negation]] of propositions
+
+* Given a family of subsingletons, the indexed [[cartesian product]] of the family of subsingletons is [[universal quantification]]
+
+* One can turn any set into a subsingleton by taking the [[image]] of the unique function into a [[singleton]]. This is useful for constructing the internal disjunction and existential quantifier:
+
+* The image of the unique function from the [[disjoint union]] of two subsingletons to any singleton is the [[disjunction]] of propositions
+
+* The image of the unique function from the indexed [[disjoint union]] of a family of subsingletons to any singleton is the [[existential quantifier]]
+
+* Equality is given by the [[diagonal subset]]
+
+Then there also exist internal versions of the presentation axiom, which states that the presentation axiom is true when expressed internally in the set theory, that a particular subsingleton defined using the set theoretic operations above is a singleton. 
+
+### BHK interpretation of the presentation axiom
+
+In addition, there are two different ways to interpret predicate logic in the internal logic of a set theory:
+
+* There is the traditional way of interpreting the internal logic, which takes [[propositions as subsingletons]], and uses the [[disjunction]] for "or" and the [[existential quantifier]] for "there exists, suitably defined in the internal logic.
+
+* There is the [[BHK interpretation]] of the internal logic, which takes [[propositions as sets]] and directly uses binary [[disjoint unions]] for "or" instead of the disjunction, as well as indexed disjoint unions for "there exist" instead of the existential quantifier. 
+
+This means that we get even more versions of the presentation axiom in set theory, depending on where one uses the traditional interpretation of predicate logic and where one uses the BHK interpretation of predicate logic in the internal logic: 
+
+* For surjections, whether the fibers of the function $f:P \to A$ are internally inhabited or pointed
+
+* For split surjections, whether given a function $f:P \to A$ there exists a section $g:A \to P$, or whether one has a section-retraction pair $(f, g):(P \to A) \times (A \to P)$
+
+All of these combine together to form a huge number of possible axioms of the presentation axiom, ranging from the provable to stronger than the usual presentation axiom. 
+
+### In dependent type theory
+
+In dependent type theory, not all types are sets, and sets (and other types) are usually elements of types called universes, so there are even more versions of the presentation axiom, depending on 
+
+* Whether given a set $A:U$ there exists a set $P:U$ or whether one has a pair of sets $(A, P):U \times U$,
+
+* Whether one uses sets or types in defining the presentation axiom. 
 
 ## In a topos
  {#topos}
@@ -210,6 +271,12 @@ In [[higher category theory]], there are different versions of CoSHEP:
 * For every [[infinity-groupoid]] $A$, there exists 0-groupoid $P$ and [[effective epimorphism]] $P \to A$, such that for all 0-groupoids $X$ there exists effective epimorphism $X \to P$ with [[section]]. 
 
 The difference between these versions of CoSHEP is that [[sets cover]]. 
+
+## Justification
+
+Although perhaps not well known in the literature of [[constructive mathematics]], the CoSHEP axiom may be justified by the sort of reasoning usually accepted to justify the [[axiom of countable choice|axioms of countable choice]] and [[axiom of dependent choice|dependent choice]], which it implies, by Proposition \ref{ImpliesDependentAndCountableChoice} above. 
+
+To be explicit, every set $A$ should have a 'completely presented' set of 'canonical' [[elements]], that is elements given directly as they are constructed without regard for the [[equality relation]] imposed upon them. For canonical elements, [[equality]] is identity, so the [[BHK interpretation]] of logic justifies the axiom of choice for a completely presented set. This set is $P$, and $A$ is obtained from it as a [[quotient set|quotient]] by the relation of equality on $A$. This argument can be made precise in some forms of [[type theory]], which thus justify CoSHEP, much as they are widely known to justify dependent choice.
 
 ## Related concepts
 
