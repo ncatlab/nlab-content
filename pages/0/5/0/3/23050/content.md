@@ -53,11 +53,11 @@ We have
 
 $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow (R\subseteq T / S)).$$
 
-###Lattice-ordered group
+### Lattice-ordered group
 
-Any [[lattice ordered group]] gives a residuated lattice. This is described in the entry on lattice ordered groups.  It is noteworthy that in this context, the residuals are quotients and, in fact, the inverses in the group are residuals. 
+Any [[lattice-ordered group]] gives a residuated lattice. This is described in the entry on lattice-ordered groups.  It is noteworthy that in this context, the residuals are quotients and, in fact, the inverses in the group are residuals. 
 
-##Categorical interpretations of residuation
+## Categorical interpretations of residuation
 
 Looking at the poset structure of $L$ as a category, one rewrites $a\le b$ as $a\to b$ and  $L(a,b)$ for the singleton set consisting just of the morphism $a\to b$.
 
