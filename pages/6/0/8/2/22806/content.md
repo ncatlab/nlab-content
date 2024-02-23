@@ -24,7 +24,7 @@ A totally ordered abelian group is an [[ordered abelian group]] whose order form
 
 The following definition is from [[Peter Freyd]]:
 
-A __totally ordered abelian group__ is a [[lattice ordered abelian group]] $G$ such that for all elements $a$ in $G$, $a \leq 0$ or $-a \leq 0$. 
+A __totally ordered abelian group__ is a [[lattice-ordered abelian group]] $G$ such that for all elements $a$ in $G$, $a \leq 0$ or $-a \leq 0$. 
 
 In a totally ordered abelian group, the [[join]] is usually called the __maximum__, while the [[meet]] is usually called the __minimum__  
 
@@ -40,7 +40,7 @@ The [[integers]], the [[rational numbers]], and the [[real numbers]] are totally
 
 * [[total order]]
 
-* [[lattice ordered abelian group]]
+* [[lattice-ordered abelian group]]
 
 * [[totally preordered abelian group]]
 
