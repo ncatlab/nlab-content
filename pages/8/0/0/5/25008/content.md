@@ -46,7 +46,7 @@ A **strict approximate integral domain** is a weak approximate integral domain f
 
 The [[quotient object|quotient ring]] of a strict approximate integral domain by its anti-ideal of cancellative elements is a [[Heyting integral domain]].
 
-One can define an [[apartness relation]] in any strict approximate integral domain: $x \# y$ iff $x - y$ is cancellative. Then the local ring is a Heyting field if and only if this apartness relation is [[tight relation|tight]].
+One can define an [[apartness relation]] in any strict approximate integral domain: $x \# y$ iff $x - y$ is cancellative. Then the approximate integral domain is a Heyting integral domain if and only if this apartness relation is [[tight relation|tight]].
 
 +-- {: .num_prop #internal} 
 ###### Proposition 
