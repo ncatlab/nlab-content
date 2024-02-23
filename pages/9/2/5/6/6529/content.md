@@ -25,5 +25,9 @@ On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invarian
 
 * [[Matthias Blau]], George Thompson, _On the Relationship between the Rozansky-Witten and the 3-Dimensional Seiberg-Witten Invariants_, Adv. Theor. Math. Phys. 5 (2002) 483-498 ([arXiv:hep-th/0006244](https://arxiv.org/abs/hep-th/0006244))
 
+On [[Ray-Singer torsion]] and [[path integrals]]:
+
+* [[Matthias Blau]], Mbambu Kakona, [[George Thompson]], *On the Evaluation of the Ray-Singer Torsion Path Integral* &lbrack;[arXiv:2402.14437](https://arxiv.org/abs/2402.14437)&rbrack;
+
 
 category: people
