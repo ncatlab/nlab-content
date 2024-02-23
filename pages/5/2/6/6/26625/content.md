@@ -17,7 +17,7 @@
 
 ## Definition
 
-In [[univalent type theory]] with [[pushout types]], a type $A$ is an **acyclic type** if its [[suspension type]] $\Sigma A$ is a [[contractible type]]. Equivalently, a type $A$ is acyclic if its reduced integral homology vanishes. 
+In [[univalent type theory]] with [[pushout types]], a type $A$ is an **acyclic type** if its [[suspension type]] $\Sigma A$ is a [[contractible type]]. Assuming [[Whitehead theorem | Whitehead's principle]], a type $A$ is acyclic if its reduced integral homology vanishes. 
 
 ## Related concepts
 
