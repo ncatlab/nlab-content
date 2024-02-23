@@ -136,6 +136,24 @@ This is noted in [Cockett 1993, p. 280, also Corollary 5.9](#Cockett93), where [
 
 In particular, then, the free distributive category, which is the free distributive category on the empty category, is the [[category of finite sets]], up to equivalence.
 
+## Incompatibilities
+
+Distributivity, in the sense of this page, is "incompatible" with certain other "linear" structures, at least in the sense that when combined they force the category to become [[thin category|thin]].
+
+\begin{theorem}
+If a category is distributive, and also [[linearly distributive category|linearly distributive]] with the same cartesian product and coproduct, then it is [[thin category|thin]].
+\end{theorem}
+\begin{proof}
+This can be found in [Cockett-Seely 92](#CockettSeely92)
+\end{proof}
+
+\begin{theorem}
+If a category has binary products that distribute over binary coproducts, and also has a [[monoidal category|monoidal structure]] that is [[compact closed category|compact closed]], then it is [[thin category|thin]].
+\end{theorem}
+\begin{proof}
+See at [[compact closed category]].
+\end{proof}
+
 ## Related concepts
 
 * [[distributive law]]
@@ -164,6 +182,8 @@ In particular, then, the free distributive category, which is the free distribut
 
 ## References 
 
+About distributive categories in general:
+
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 &lbrack;<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>&rbrack;
 
 * {#Cockett93} [[Robin Cockett]], *Introduction to distributive categories*, Mathematical Structures in Computer Science **3** (2009) 277-307 &lbrack;<a href="https://doi.org/10.1017/S0960129500000232">doi:10.101/S0960129500000232</a>&rbrack;
@@ -177,6 +197,13 @@ See also
 * Wikipedia, *[Distributive category](https://en.wikipedia.org/wiki/Distributive_category)*
 
 For more see at *[[distributive monoidal category]]*.
+
+Also cited above:
+
+* {#CockettSeely92} [[Robin Cockett]], [[Robert Seely]],  _Weakly Distributive Categories_, in M.P. Fourman, P.T. Johnstone, A.M. Pitts, eds., _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177 (1992), pp. 45&#8211;65. ([book website](https://www.cambridge.org/au/academic/subjects/mathematics/logic-categories-and-sets/applications-categories-computer-science-proceedings-london-mathematical-society-symposium-durham-1991))
+
+* {#Houston06} [[Robin Houston]], _Finite Products are Biproducts in a Compact Closed Category_, Journal of Pure and Applied Algebra, Volume 212, Issue 2, February 2008, Pages 394-400 ([arXiv:math/0604542](http://arxiv.org/abs/math/0604542))
+
 
 
 [[!redirects distributive categories]] 
