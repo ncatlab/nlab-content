@@ -63,9 +63,7 @@ Non-abelian examples include free groups and torsion-free nilpotent groups.  The
 
 ## Related concepts
 
-* [[lattice ordered abelian group]]
-
-* [[totally ordered abelian group]]
+* [[lattice-ordered group]]
 
 * [[Tarski group]]
 
