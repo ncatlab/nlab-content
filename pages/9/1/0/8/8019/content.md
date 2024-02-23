@@ -63,7 +63,7 @@ Non-abelian examples include free groups and torsion-free nilpotent groups.  The
 
 ## Related concepts
 
-* [[pseudolattice ordered abelian group]]
+* [[lattice ordered abelian group]]
 
 * [[totally ordered abelian group]]
 
