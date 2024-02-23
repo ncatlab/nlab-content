@@ -80,16 +80,16 @@ $$ \prod_{A,B} \neg(A \wedge B) \to (\neg A + \neg B) $$
 Combine the two lemmas.
 =--
 
-## In the theory of pseudolattice ordered abelian groups
+## In the theory of lattice ordered abelian groups
 
-Peter Freyd's definition of a [[pseudolattice ordered abelian group]] in [Freyd 08](#Freyd08) is equational, and so is a [[Lawvere theory]] and could be defined in a category with finite products and a generic object $A$ where every object is equivalent to a finite product of $A$. 
+Peter Freyd's definition of a [[lattice ordered abelian group]] in [Freyd 08](#Freyd08) is equational, and so is a [[Lawvere theory]] and could be defined in a category with finite products and a generic object $A$ where every object is equivalent to a finite product of $A$. 
 
-Freyd then showed that the de Morgan laws are satisfied in any [[pseudolattice ordered abelian group]]:
+Freyd then showed that the de Morgan laws are satisfied in any [[lattice ordered abelian group]]:
 
 $$-(p \vee q) = (-p) \wedge (-q)$$
 $$-(p \wedge q) = (-p) \vee (-q)$$
 
-with the join and meet being the pseudolattice operations and negation being the negation of the abelian group. 
+with the join and meet being the lattice operations and negation being the negation of the abelian group. 
 
 In particular, the de Morgan laws are valid for the [[integers]], the [[rational numbers]], and the [[Dedekind real numbers]], with the join being the maximum function and the meet being the minimum function. 
 
