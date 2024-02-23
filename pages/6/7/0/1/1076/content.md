@@ -514,7 +514,7 @@ Similarly, the [[homotopy category of an (infinity,1)-category|homotopy category
 
 * The [[stable homotopy category]] (the [[homotopy category of an (∞,1)-category|homotopy category]] of the [[stable (∞,1)-category of spectra]]) is a triangulated category.  This is also true for [[parameterized spectra|parametrized]], [[equivariant spectra|equivariant]], etc. spectra. Also the [[full subcategory]] called the [[Spanier-Whitehead category]] is triangulated.
 
-* The stable category of a [[Quillen exact category]] is [[suspended category]] as exhibited by [[Bernhard Keller]]. If the exact category is Frobenius, i.e. has enough injectives and enough projective and these two classes coincide, then the suspension of the stable category is in fact invertible, hence the stable category is triangulated. A triangulated category equivalent to a triangulated categories is said to be an [[algebraic triangulated category]]. 
+* The stable category of a [[Quillen exact category]] is [[suspended category]] as exhibited by [[Bernhard Keller]]. If the exact category is Frobenius, i.e. has enough injectives and enough projective and these two classes coincide, then the suspension of the stable category is in fact invertible, hence the stable category is triangulated. A triangulated category equivalent to a stable category of a Frobenius exact category is said to be an [[algebraic triangulated category]]. 
 
 * As mentioned before, the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (∞,1)-category]] is a triangulated category.  Slightly more generally, this applies also to a [[stable derivator]], and slightly less generally, it applies to a [[stable model category]].  This includes both the preceding examples.
 
