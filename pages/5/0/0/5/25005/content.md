@@ -24,7 +24,7 @@ Traditionally, in [[classical mathematics]], an ordered ring is a [[totally orde
 
 * [[totally preordered ring]]
 
-* [[prelattice ordered ring]]
+* [[prelattice-ordered ring]]
 
 * [[strictly weakly ordered ring]]
 
@@ -32,7 +32,7 @@ Traditionally, in [[classical mathematics]], an ordered ring is a [[totally orde
 
 * [[totally ordered ring]]
 
-* [[lattice ordered ring]]
+* [[lattice-ordered ring]]
 
 * [[pseudo-ordered ring]]
 
