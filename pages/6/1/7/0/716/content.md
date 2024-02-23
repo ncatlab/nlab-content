@@ -71,7 +71,7 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 If a compact closed category has binary products that distribute over binary coproducts, it is [[thin category|thin]].
 \end{theorem}
 \begin{proof}
-By Lemma 4 of [Houston 06](#Houston06), whose proof only requires binary products and coproducts, for any objects $A$ and $B$ the canonical morphism
+By Lemma 4 of &lbrack;[Houston 08](#Houston08)&rbrack;, whose proof only requires binary products and coproducts, for any objects $A$ and $B$ the canonical morphism
 $$(A\times A)+(B\times B) \to (A+B)\times (A+B)$$
 is invertible, which we can write as
 $$ A^2 + B^2 \to (A+B)^2.$$
@@ -79,7 +79,7 @@ This map factors through
 $$ A^2 + B^2 + 2\cdot A\times B$$
 via the coproduct injection and a pair of distributivity maps.  Since the latter are isomorphisms, so is the former.  This means that for any object $X$, if there exists a morphism $A^2+B^2 \to X$, then there exists a unique morphism $2\cdot A\times B \to X$.
 
-Now taking $B=X=A$, we observe that there is a morphism $A^2+A^2 \to A$.  Therefore, there is a unique morphism $2\cdot A^2 \to A$, and therefore a unique morphism $A^2 \to A$.  In particular, the two projections $\pi_1 : A\times A\to A$ and $\pi_2 : A\times A\to A$ are equal, which is to say that $A$ is [[subterminal]].  Since $A$ was arbitrary, the category is thin.
+Now taking $B=X=A$, we observe that there is a morphism $A^2+A^2 \to A$.  Therefore, there is a unique morphism $2\cdot A^2 \to A$, and therefore a unique morphism $A^2 \to A$.  In particular, the two projections $\pi_1 : A\times A\to A$ and $\pi_2 : A\times A\to A$ are equal, which is to say that $A$ is [[subterminal object|subterminal]].  Since $A$ was arbitrary, the category is thin.
 \end{proof}
 
 ## Examples
@@ -133,7 +133,7 @@ On the relation to [[quantum operations]] and [[completely positive maps]]:
 
 On [[biproducts]]:
 
-* [[Robin Houston]], *Finite products are biproducts in a compact closed category*, Journal of Pure and Applied Algebra **212** 2 (2008) 394-400 &lbrack;[arXiv:math/0604542](https://arxiv.org/abs/math/0604542), [doi:10.1016/j.jpaa.2007.05.021](https://doi.org/10.1016/j.jpaa.2007.05.021)&rbrack;
+*  {#Houston08} [[Robin Houston]], *Finite products are biproducts in a compact closed category*, Journal of Pure and Applied Algebra **212** 2 (2008) 394-400 &lbrack;[arXiv:math/0604542](https://arxiv.org/abs/math/0604542), [doi:10.1016/j.jpaa.2007.05.021](https://doi.org/10.1016/j.jpaa.2007.05.021)&rbrack;
 
 
 
