@@ -47,7 +47,7 @@ A **category of fibrant objects** $\mathbf{C}$ is
   $$
   where $f \in Mor(F)$ is called a **fibration**
 
-  Those morphisms which are both weak equivalences and fibrations are called **acyclic fibrations** .
+Those morphisms which are both weak equivalences and fibrations are called **acyclic fibrations**.
 
 This data has to satisfy the following properties:
 
