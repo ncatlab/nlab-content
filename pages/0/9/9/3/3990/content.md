@@ -35,9 +35,7 @@ such that $e s = 1_C$, $s e = g t$, and $f t = 1_B$.  This is equivalent to sayi
 
 The name "split coequalizer" is appropriate, because in any split coequalizer diagram, the morphism $e$ is necessarily a [[coequalizer]] of $f$ and $g$.  For given any $h\colon B\to D$ such that $h f = h g$, the composite $h s$ provides a factorization of $h$ through $e$, since $h s e = h g t = h f t = h$, and such a factorization is unique since $e$ is (split) [[epimorphism|epic]].  
 
-In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].
-
-By this we mean the diagram consisting only of only $$ A \;\underoverset{f}{g}{\rightrightarrows}\; B $$ is absolute (i.e, the splitting is not part of the diagram that is absolute; adding more information would also make it absolute, but it's not the impressive part)
+In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].  This is meant in the sense in which any functor can "preserve a coequalizer", namely that $F e$ is a coequalizer of $F f$ and $F g$ for any functor $F$.  Of course this happens *because* $F$ also preserves the splitting morphisms $s$ and $t$, but those are not part of the coequalizer diagram that is "preserved" in this statement.
 
 ### Contractible pairs
 
