@@ -82,7 +82,7 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 * [[frame]]
 
-* [[lattice ordered abelian group]]
+* [[lattice-ordered abelian group]]
 
 * [[lattice object]]
 
