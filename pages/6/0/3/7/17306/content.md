@@ -24,7 +24,7 @@ Something like a
 
 * [[category of fibrant objects]]
 
-or similar
+or similar.
 
 ## Related entries
 
