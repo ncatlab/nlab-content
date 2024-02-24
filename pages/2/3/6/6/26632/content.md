@@ -54,12 +54,12 @@ In thus recasting the formulation of the theorem somewhat, we also:
 
 1. take care of the proper combinatorial normalization of the fields, which makes the crucial factor of 1/2 appear in (eq:SuperFluxBianchiIdentity);
 
-1. re-define the super-flux densities as in (eq:LocalFormOfSuperFluxDensities), highlighting that it is (only) in this combination that the form of the expected [[Bianchi identity]] (eq:SuperFluxBianchiIdentity) holds even in [[superspace]];
+1. re-define the super-flux densities as above (eq:LocalFormOfSuperFluxDensities), highlighting that it is (only) in this combination that the algebraic form of the expected [[Bianchi identity]] (eq:SuperFluxBianchiIdentity) extends to [[superspace]];
 
 1. disregard the [[gauge potentials]] $C_3$ and $C_6$, whose role in [CDF91, §III.8.2-4](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre) is really just to motivate the form of the [[Bianchi identities]] equivalent to (eq:SuperFluxBianchiIdentity), but whose global nature is more subtle than acknowledged there, while being irrelevant for just the [[equations of motion]].
 
 Indeed, the point is that, in consequence of our second item above, the following formulation shows that one may apply [[flux quantization]] of the [[supergravity C-field]] on [[superspace]] in formally the same way as bosonically (for instance in [[Cohomotopy]] as per *[[schreiber:Hypothesis H]]*, or in any other [[nonabelian cohomology theory]] whose [[classifying space]] has the $\mathbb{Q}$-[[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] [[rational n-sphere|of the]] [[4-sphere]]), and in fact that the ability to do so *implies* the [[equations of motion|EoMs]] of [[D=11 supergravity|11d SuGra]].
-Any such choice of [[flux quantization]] is then what defines, conversely, the [[gauge potentials]], globally. Moreover, by the fact brought out here, that the super-flux Bianchi identity already implies the full equations of motion, this flux quantization is then seen to be compatible with the equations of motion on all of [[super spacetime]].
+Any such choice of [[flux quantization]] is then what defines, conversely, the [[gauge potentials]], globally. Moreover, by the fact brought out here, that the super-flux Bianchi identity already implies the full equations of motion, this flux quantization is thereby seen to be compatible with the equations of motion on all of [[super spacetime]].
 
 \linebreak
 
@@ -91,7 +91,7 @@ by a *[[super-spacetime]]* of super-dimension $D\vert \mathbf{N}$ we here mean:
 
 1. which admits an [[open cover]] by [[super-Minkowski spacetime|super-Minkowski]] supermanifolds $\mathbb{R}^{1,D-1\vert \mathbf{N}}$,
 
-1. equipped with a [[super Cartan geometry|super]] [[Cartan connection]] for $Spin(1,10) \hookrightarrow Iso(\mathbb{R}^{1,10\vert\mathbf{N}})$, hence:
+1. equipped with a [[super Cartan geometry|super]] [[Cartan connection]] with respect to the canonical subgroup inclusion $Spin(1,D-1) \hookrightarrow Iso(\mathbb{R}^{1,D-1\vert\mathbf{N}})$ of the [[spin group]] into the [[super Poincaré group]], namely:
 
    1. equipped with a [[super-vielbein]] $(e, \psi)$, hence on each super-chart $U \hookrightarrow X$ 
 
