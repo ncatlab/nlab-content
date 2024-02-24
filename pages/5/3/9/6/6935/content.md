@@ -444,7 +444,7 @@ The inductive [[inference rules]] for the [[natural numbers type]]:
        n \,\colon\, \mathbb{N}
        \,,
        \; 
-       p \,\colon\, P(x) 
+       p \,\colon\, P(n) 
          \;\vdash\; 
        succ_P(n,\,p) \,\colon\, P\big(succ(n)\big)
        \mathclap{\phantom{\vert_{\vert}}}
@@ -474,7 +474,7 @@ The inductive [[inference rules]] for the [[natural numbers type]]:
        n \,\colon\, \mathbb{N}
        \,, 
        \;
-       p \,\colon\, P(x) 
+       p \,\colon\, P(n) 
          \;\vdash\; 
        succ_P(n,p) \,\colon\, P\big(succ(n)\big)
        \mathclap{\phantom{\vert_{\vert}}}
@@ -501,9 +501,9 @@ The inductive [[inference rules]] for the [[natural numbers type]]:
        n \,\colon\, \mathbb{N}
        \,, 
        \;
-       p \,\colon\, P(x) 
+       p \,\colon\, P(n) 
          \;\vdash\; 
-       succ_P(x,p) \,\colon\, P(s x)
+       succ_P(n,p) \,\colon\, P(s n)
        \;;
        \;\;\;\;
        \vdash\; n \,\colon\, \mathbb{N}
