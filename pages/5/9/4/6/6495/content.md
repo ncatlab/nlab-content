@@ -22,7 +22,7 @@
 
 __Topological Hochschild homology__ (resp. __topological cyclic homology__)  (see the survey in ([May](#May))) is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. 
 
-One motivation for their study: Comes from computational considerations, as well in certain cases, these invariants are easier to compute than [[algebraic K-theory]], while there is a natural morphism of [[spectra]] 
+One motivation for their study are computational considerations, as well in certain cases, these invariants are easier to compute than [[algebraic K-theory]], while there is a natural morphism of [[spectra]] 
 
 $$
   \array{
