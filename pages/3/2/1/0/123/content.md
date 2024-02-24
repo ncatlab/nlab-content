@@ -492,7 +492,7 @@ For functors in homotopy type theory
 
 * _[functors_transformations.v](https://github.com/benediktahrens/rezk_completion/blob/master/functors_transformations.v)_
 
-Formalization in [[cubicalAgda]]:
+Formalization in [[cubical Agda]]:
 
 * [[1lab]], *[Functors](https://1lab.dev/Cat.Functor.Base.html#functors)*
 
