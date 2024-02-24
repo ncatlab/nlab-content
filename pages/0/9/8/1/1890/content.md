@@ -87,7 +87,7 @@ The left-strong monad, being a [[monad]] in this [[lax functor]] [[bicategory]] 
 
 By the general logic of $(2,1)$-[[(n,k)-transformation|transformations]] the components of $T$ are themselves a certain [[functor]].
 
-Then the [usual diagrams](#concrete_definition) that specify a strong monad
+Then the [usual diagrams](#ConcreteDefinition) that specify a strong monad
 
 
 * unitalness and functoriality of the component functor of $T$;
@@ -289,11 +289,7 @@ J(X \otimes Y)
 
 If the category $C$ is [[closed monoidal category|monoidal closed]], left-strength and right-strength induce particular structures on the [[internal homs]]. 
 
-In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denoted by $[-,-]$. Denote the [[unit of an adjunction|unit of the hom-tensor adjunction]] by $\eta_X:X \to [Y,X\otimes Y]$ and the counit (or _evaluation map_, see [[internal hom#EvaluationMap|internal hom - evaluation map]]) by $\epsilon_Y:X\otimes [X,Y]\to Y$.
-
-+-- {: .query}
-The unit is the unit of $- \otimes Y \dashv [Y, -]$ applied to $X$. The co-unit is the co-unit of $X \otimes - \dashv [X, -]$ applied to $Y$. The swapping of the variable names is already confusing, but more importantly, we're tensoring on the other side. Either we're assuming that the category is symmetric monoidal (then we should mention so), or we're not but then we should be consistent.
-=--
+In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denoted by $[-,-]$. Denote the [[unit of an adjunction|unit of the hom-tensor adjunction]] by $\eta_X:X \to [Y,X\otimes Y]$ and the counit (or _evaluation map_, see [[internal hom#EvaluationMap|internal hom - evaluation map]]) by $\epsilon_Y:[X,Y]\otimes X \to Y$.
 
 ### Left-strong monads are enriched monads
  {#LeftStrongMonadsAreEnrichedMonads}
@@ -334,7 +330,7 @@ nodes={scale=1.25}, arrows={thick},%
 X \otimes T Y \ar{r}{\eta\otimes TY} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
 \end{tikzcd}
 
-One can verify that these assignments are inverse to each other. Moreover, the [strength diagrams](#concrete_definition) for $t$ commute if and only the resulting assigment is indeed an [[enriched monad]], and vice versa. 
+One can verify that these assignments are inverse to each other. Moreover, the [strength diagrams](#ConcreteDefinition) for $t$ commute if and only the resulting assigment is indeed an [[enriched monad]], and vice versa. 
 
 
 #### Example in Set {#example-in-set}
