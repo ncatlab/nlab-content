@@ -1,5 +1,3 @@
-[[!redirects Gelfand-Naimark theorem]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
