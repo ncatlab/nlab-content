@@ -67,6 +67,10 @@ where $A$ denotes the [[gauge field]] [[connection on a bundle|connection]], $\o
 
 ## References
 
+The 10d sugra + SYM Lagrangian in terms of a six-form potential was constructed in:
+
+* [[Ali Chamseddine]]. *Interacting supergravity in ten dimensions: The role of the six-index gauge field*. Phys. Rev. D 24, 3065 (1981). ([doi](https://doi.org/10.1103/PhysRevD.24.3065))
+
 
 The heterotic [[NS5-brane]] (see also at _[[half M5-brane]]_) was found as a [[black brane]] in [[heterotic string theory]] in 
 
@@ -107,6 +111,9 @@ For a description of the general mechanism in [[differential cohomology]] at wor
 
 * {#Freed00} [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, 2000
 
+See also
+
+* Hao-Yuan Chang, [[Ergin Sezgin]], Yoshiaki Tanii. *Dualization of higher derivative heterotic supergravities in 6D and 10D*. JHEP 10 (2022): 1-31. ([doi](https://doi.org/10.1007/JHEP10(2022)062))
 
 
 [[!redirects dual heterotic string theory]]
