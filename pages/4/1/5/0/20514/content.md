@@ -105,6 +105,10 @@ That the Hubble tension might result from systematics in the [[cosmic microwave 
 
 * [[Stacy McGaugh]], *Early Galaxy Formation and the Hubble Tension* &lbrack;[arXiv:2312.03127](https://arxiv.org/abs/2312.03127)&rbrack;
 
+That there are no late-time solutions to the Hubble tension:
+
+* Lu Huang, Shao-Jiang Wang, Wang-Wei Yu, *No-go guide for the Hubble tension: late-time or local-scale new physics* &lbrack;[arXiv:2401.14170](https://arxiv.org/abs/2401.14170)&rbrack; 
+
 [[!redirects Hubble constant]]
 
 [[!redirects Hubble tension]]
