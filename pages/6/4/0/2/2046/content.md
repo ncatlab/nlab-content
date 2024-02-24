@@ -46,7 +46,7 @@ The [[terminal object ]] itself is *not* simple, as it has only *one* quotient o
 +-- {: .num_remark}
 ###### Remark
 
-In [[constructive mathematics]], we want to phrase the definition as follow: A quotient object of $X$ is $X$ if and only if it is not $1$.
+In [[constructive mathematics]], we want to phrase the definition as follows: A quotient object of $X$ is $X$ if and only if it is not $1$.
 
 =--
 
