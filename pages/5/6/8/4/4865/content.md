@@ -249,7 +249,7 @@ Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the 
 
 following 
 
-*  A. Candiello, [[Kurt Lechner]], _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
+*  {#CandielloLechner94} A. Candiello, [[Kurt Lechner]], _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
 
 Much computational detail is displayed in
 
