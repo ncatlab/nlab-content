@@ -28,4 +28,11 @@ See at _[[field (physics)]]_ the section _[Ordinary gravity](field%20%28physics%
 
 [[!redirects spin connections]]
 
+[[!redirects spin-connection]]
+[[!redirects spin-connections]]
+
+
+
+
+
 
