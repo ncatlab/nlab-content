@@ -24,9 +24,9 @@
 
 ## Idea
 
-Ordinary [[heterotic string theory]] is the study of the perturbation series of correlators of a certain 2-dimensional [[SCFT]] over surfaces. The resulting [[S-matrix]] is interpreted as encoding the scattering amplitudes of strings propagating in some target space.
+Ordinary [[heterotic string theory]] is the study of the [[string scattering amplitude|string perturbation series]] of [[correlators]] of a certain [[2d SCFT|2-dimensional]] [[SCFT]] over [[super Riemann surfaces]]. The resulting [[S-matrix]] is interpreted as encoding the [[string scattering amplitude|scattering amplitudes of strings]] propagating in some [[target space]].
 
-Among the [[gauge field]]s that these strings are charged under is the [[Kalb-Ramond field]], which is a [[circle n-bundle with connection|circle 2-bundle with connection]].
+Among the [[gauge fields]] that these strings are charged under is the [[Kalb-Ramond field]], which is a [[circle n-bundle with connection|circle 2-bundle with connection]].
 
 By general [[electric-magnetic duality]] (see [Freed 00](#Freed00) for a formal treatment in [[differential cohomology]]) one expects there to be a dual theory theory where the $(p=1)$-dimensional strings are replaced by their magnetic duals, which are $10-(p+2)-2 = 5$-branes. 
 
