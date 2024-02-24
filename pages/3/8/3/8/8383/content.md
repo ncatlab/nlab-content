@@ -58,6 +58,8 @@ In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a m
 
 * [[monoidal Grothendieck construction]]
 
+* [[indexed monoidal (infinity,1)-category]]
+
 ## References
 
 The notion of indexed monoidal category has been rediscovered many times by different people in different contexts.  Some references include:
