@@ -238,7 +238,7 @@ By [[exterior calculus]] the gravitational [[field strength]] [[tensors]] (Def. 
 \begin{remark}
 **(role of the gravitational Bianchi identities)**
 \linebreak
-  Notice that the equations (eq:GravitationalBianchiIdentities) are not conditions but identities satisfied by any [[super-spacetime]] (in the sense of Def. \ref{SuperSpacetime}, hence even such that $T^a = 0$.) But conversely this means that when *constructing* a super-spacetime (say subject to further contraints, such as [[Bianchi identities]] for [[flux densities]]), the equations (eq:GravitationalBianchiIdentities) are a *necessary condition* to be satisfied by any *candidate* [[super-vielbein]]-field, and as such they may play the role of [[equations of motion]] for the [[supergravity|supergravitational]] [[field (physics)|field]], as we will see.
+  Notice that the equations (eq:GravitationalBianchiIdentities) are not conditions but identities satisfied by any [[super-spacetime]] (in the sense of Def. \ref{SuperSpacetime}, hence even such that $T^a = 0$.) But conversely this means that when *constructing* a super-spacetime (say subject to further contraints, such as [[Bianchi identities]] for [[flux densities]]), the equations (eq:GravitationalBianchiIdentities) are a *necessary condition* to be satisfied by any *candidate* [[super-vielbein]]-field, and as such they may play the role of [[equations of motion]] for the [[supergravity|super-gravitational]] [[field (physics)|field]], as we will see.
 \end{remark}
 
 \linebreak
@@ -252,9 +252,9 @@ Given
 
 1. ([[supergravity|super-gravity]] [[field (physics)|field]]:) an $11\vert\mathbf{32}$-dimensional [[super-spacetime]] $X$ (Def. \ref{SuperSpacetime}), 
 
-1. ([[supergravity C-field|C-field]]:) [[differential form on a supermanifold|differential forms]] $(G^s_4,\, G^s_7)$ as in (eq:LocalFormOfSuperFluxDensities)
+1. ([[differential form on a supermanifold|super-]][[supergravity C-field|C-field]] [[flux densities]]:)  $(G^s_4,\, G^s_7)$ as in (eq:LocalFormOfSuperFluxDensities)
 
-then the super-[[Bianchi identity]]  (eq:SuperFluxBianchiIdentity) (super-[higher Maxwell equation](higher+gauge+field#HigherGaugeTheoryOfMaxwellType))
+then the super-flux [[Bianchi identity]]  (eq:SuperFluxBianchiIdentity) (the super-[higher Maxwell equation](higher+gauge+field#HigherGaugeTheoryOfMaxwellType) for the [[supergravity C-field|C-field]])
 
 \[
   \begin{array}{l}
@@ -268,6 +268,33 @@ is equivalent to the joint solution by $\big(e, \psi, \omega, G_4^s,\, G_7^s\big
 \end{theorem}
 This is, in some paraphrase, the result of [CDF91, §III.8.5](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre), We indicate the **proof** broken up in the following Lemmas \ref{SuperBianchiIdentityOnG4InComponents}, \ref{SuperBianchiIdentityOnG7InComponents}, and 
 \ref{SuperCFieldBianchiImpliesSuGraEoM}.
+
+\begin{remark}
+**(Normalization conventions)**
+\linebreak
+Our choice of prefactors and normalization follows [CDF91](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre)
+except for the following changes:
+
+* our Clifford generators absorb a factor of [[imaginary unit|$\mathrm{i}$]]: $\;\;\;\Gamma_a \;=\; \mathrm{i}\, \Gamma_a^{^{DF}} $
+
+* our gravitinos absorb a factor of $\sqrt{2}$: $\;\;\;\psi \;=\; \sqrt{2}\psi^{^{DF}}$
+
+* our 4-flux density absorbs a combinatorial factor of $1/2$: $\;\;\;G_4 = \tfrac{1}{2} R^{\Box}$
+
+* our 7-flux density absorbs a combinatoiral factor of $1/5!$: $\;\;\;G_7 = \tfrac{1}{5!} R^{\otimes}$
+
+Here:
+
+* The  first rescaling reflects that $\Gamma^{{}^{\mathrm{DF}}}$ is not actually a Majorana representation of $\mathrm{Pin}^+(1,10)$, but $\mathrm{i}\Gamma^{{}^{\mathrm{DF}}}$ is. 
+
+  This rescaling removes all occurrences of imaginary units in the Bianchi identities, as it should be for algebra over the real numbers with real fermion representations.
+
+* The second rescaling has the effect that $\differential e^a = \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$ instead of $\differential\, e^a = \tfrac{1}{2} \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$, which in turn implies 
+
+* with the combinatorial rescalings (which are natural in themselves)  then the all-important quartic Fierz identity
+(...) comes out with the relative factor $1/2$  expected in the Bianchi identity for $G_7$.
+
+\end{remark}
 
 \begin{lemma}
 \label{SuperBianchiIdentityOnG4InComponents}
@@ -397,5 +424,5 @@ $$
 \end{lemma}
 This is essentially [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
 
-Together, these lemmas prove Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
+In conlcusion the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
 
