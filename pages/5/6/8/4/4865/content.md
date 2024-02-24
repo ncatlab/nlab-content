@@ -28,6 +28,14 @@ $N=1$ [[supergravity]] in $d = 11$.
 
 > for the moment see the respective section at [[D'Auria-Fre formulation of supergravity]]
 
+
+
+
+[[!include 11d SuGra from super C-field flux quantization -- section]]
+
+
+
+
 ## The action functional
 
 (...)
