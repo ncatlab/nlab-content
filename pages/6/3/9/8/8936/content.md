@@ -40,7 +40,7 @@ Uniqueness of identity proofs implies that $A$ is an [[h-set]], and can be used 
 
 Uniqueness of identity proofs for type families $(A, B)$ says that given a type $A$ with a type family $B(a)$ indexed by elements $a:A$, the typal uniqueness of identity proofs holds for the dependent type $B(a)$ of every element of the index type $a:A$. This is the same as stating that there is a dependent function
 
-$$\mathrm{UIP}_{A, B}: \prod_{a:A} \prod_{b:B(a)} \prod_{c:B(a)} \prod_{p:\mathrm{Id}_{B(a)}(b, c)} \prod_{q:\mathrm{Id}_{B(a)}(b, c)} \mathrm{Id}_{\mathrm{Id}_A(b, c)}(p, q)$$
+$$\mathrm{UIP}_{A, B}: \prod_{a:A} \prod_{b:B(a)} \prod_{c:B(a)} \prod_{p:\mathrm{Id}_{B(a)}(b, c)} \prod_{q:\mathrm{Id}_{B(a)}(b, c)} \mathrm{Id}_{\mathrm{Id}_{B(a)}(b, c)}(p, q)$$
 
 This definition of uniqueness of identity proofs could be used in the definition of [[family of sets]]. Since this definition applies to type families, this should probably be called the **familial uniqueness of identity proofs** to distinguish it from the uniqueness of identity proofs axiom above. 
 
