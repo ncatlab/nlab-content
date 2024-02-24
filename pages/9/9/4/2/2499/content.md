@@ -751,18 +751,28 @@ We do *not* know the analogous boundary data $\mu_\alpha\big( (x^a), (\theta^\al
 (...)
 
 
-## Dynamics
-
-### Field equations of motion
-
-A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. 
-
-The major statement/claim is that all the [[supergravity]] [[equations of motion]] specify just precisely those super-$L_\infty$-connections -- satisfying their [[Bianchi identities]]-- which are [rheonomic](#Rheonomy).
 
 
 
 
-### Cosmo-cocycle equations {#ChernSimonsElements}
+
+
+
+[[!include 11d SuGra from super C-field flux quantization -- section]]
+
+
+
+
+
+
+
+
+
+## Lagrangian densities
+
+
+### Cosmo-cocycle equations 
+  {#ChernSimonsElements}
 
 We discuss how actional functionals for supergravity theories are special cases of this.
 
@@ -1047,6 +1057,11 @@ $$
 
 This fails to sit in the shifted generators by the terms coming from the translation algebra. For the degree-3 element $c$ however it does produce
 the expected term $r^c \wedge r^c \wedge r^c$.
+
+
+
+
+
 
 ## Related entries
 
