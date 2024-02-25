@@ -35,7 +35,7 @@ For a concrete example in the case of monoidal categories, take [[lax monoidal f
 $$\array{
 H(F x \otimes F y) & \to & H F (x\otimes y) & \to & G K (x\otimes y) \\
 \downarrow &&&& \downarrow \\
-H F x \otimes H F x & \to & G K x \otimes G K x & \to & G (K x \otimes K y).
+H F x \otimes H F y & \to & G K x \otimes G K y & \to & G (K x \otimes K y).
 }$$
 
 If $K$ is a [[strict 2-category]], then $T \mathbf{Alg}$ is a strict double category; otherwise it is "pseudo in both directions" in some sense (such double categories can be defined, but are tricky; see [[double category]]).  As the objects we can use either strict $T$-algebras (if $T$ is a strict 2-monad) or pseudo algebras (if $T$ is either a strict or a pseudo 2-monad).
