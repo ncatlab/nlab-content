@@ -70,6 +70,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Tangent bundles, monoidal theories, and Weil algebras|Poon Leung|2017|[Macquarie repository](http://hdl.handle.net/1959.14/1260669)| |
 |The Way of the Dagger|[[Martti Karvonen]]|2018|[arXiv](https://arxiv.org/abs/1904.10805)| |
 |Morphisms of 2-dimensional structures with applications|Branko Nikolić|2018|[Macquarie repository](http://hdl.handle.net/1959.14/1266304)| |
+|Categorical probability and stochastic dominance in metric spaces|[[Paolo Perrone]]|2018|[pdf](http://paoloperrone.org/phdthesis.pdf)| on [[categorical probability theory]] |
 |Compact symmetric multicategories and the problem of loops|Sophie Raynor|2018|[Aberdeen repository](https://abdn.alma.exlibrisgroup.com/discovery/delivery/44ABE_INST:44ABE_VU1/12153018780005941)| |
 |Homotopy theory of Grothendieck ∞-groupoids and ∞-categories|Edoardo Lanari|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269609)| | 
 |Restriction presheaves and restriction colimits|Daniel Lin|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269712)| |
