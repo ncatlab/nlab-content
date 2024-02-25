@@ -2406,7 +2406,8 @@ $$
 **([[Fierz identities]] controlling [[D=11 supergravity]])**
 \linebreak
   The following quartic expressions in $\pin \in \mathbf{32}$ vanish:
-$$
+\[
+  \label{QuarticFierzIdentitiesOn32}
     \begin{array}{r}
     \big(
       \overline{\psi}
@@ -2447,7 +2448,7 @@ $$
     \;=\;
     0
     \end{array}
-$$
+\]
 \end{proposition}
 \begin{proof}
   On the first expression:
@@ -2467,11 +2468,9 @@ $$
     \,.
   $$
   But by (eq:IrrepDecompositionOfSymmetricPowersOf32) the irrep summand $\mathbf{11}$ does not appear on the left, hence this map has to vanish by [[Schur's lemma]] 
-([D'Auria & Fré 1982, (3.13)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82))
-(\cite[(3.13)]{DF82}).
+([D'Auria & Fré 1982, (3.13)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82)).
   For the second expression one needs a closer analysis 
-([D'Auria & Fré 1982, (3.28a)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82))
-(\cite[(3.13)]{DF82}), for more details see [this example](geometry+of+physics+--+fundamental+super+p-branes#TheM2andM5CocyclesAsFierzIdentities) at *[[geometry of physics -- fundamental super p-branes]]*.
+([D'Auria & Fré 1982, (3.28a)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82)), for more details see [this example](geometry+of+physics+--+fundamental+super+p-branes#TheM2andM5CocyclesAsFierzIdentities) at *[[geometry of physics -- fundamental super p-branes]]*.
 \end{proof}
 
 
