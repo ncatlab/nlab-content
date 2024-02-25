@@ -1965,9 +1965,167 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 ### Properties of spinors in 11d
+ {#PropertiesOfSpinorsIn11d}
 
 Consider the real irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}\big(Spin(10,1)\big)$ from above.
 
+First a couple of general statements about [[Clifford algebra]]:
+
+Consider the standard shorthand
+$$
+  \Gamma_{a_1 \cdots a_p}
+  \;\coloneqq\;
+  \Gamma_{[a_1} 
+    \cdots 
+  \Gamma_{a_p]}
+  \;:=\;
+  \tfrac{1}{p!}
+  \underset{
+    \sigma 
+  }{\sum}
+  (-1)^{\vert\sigma\vert}
+  \,
+  \Gamma_{a_{\sigma(1)}}
+    \cdots
+  \Gamma_{a_{\sigma(p)}}
+  \,.
+$$
+\begin{lemma}
+With the above conventions we have.
+\[
+  \label{CliffordVolumeFormIn11d}
+  \Gamma_{a_1 \cdots a_{11}}
+  \;=\;
+  \epsilon_{a_1 \cdots a_{11}} 
+  \cdot 1_{\mathbf{32}}
+  \,.
+\]
+\end{lemma}
+\begin{lemma}
+\label{ProductOfLinearCliffordGenerators}
+\[
+  \Gamma^{a_j \cdots a_1}
+  \,
+  \Gamma_{b_1 \cdots b_k}
+  \;=\;
+  \sum_{l = 0}^{ min(j,k) }
+  \pm
+  l!
+  \Big(
+    { j \atop l }
+  \Big)
+  \Big(
+    { k \atop l }
+  \Big)
+  \,
+  \delta
+   ^{[a_1 \cdots a_l}
+   _{[b_1 \cdots b_l}
+  \Gamma^{a_j \cdots a_{l+1}]}
+  {}_{b_{l+1} \cdots b_k]}
+  \,.
+\]
+\end{lemma}
+(e.g. [Miemiec & Schnakenburg 2006, Prop. 2](D=11+N=1+supergravity#MiemiecSchnakenburg06))
+\begin{proof}
+Observe that if the $a$-indices are not pairwise distinct or the $b$-indices are not pairwise distinct then both sides of the equation are zero. 
+
+Hence assume next that the indices are separately pairwise distinct, and consider their sets $A \coloneqq \{a_1, \cdots, a_j\}$, $B \coloneqq \{b_1, \cdots, b_k\}$ and their intersection $C := A \cap B$, with cardinality $\mathrm{card}(C) = l$. 
+The idea is to recursively contract one pair $(\Gamma^c , \Gamma_{c})$ with $c \in C$ at a time. 
+We claim that in the first step this can be written as 
+$$
+  \Gamma^{a_j \cdots a_1}
+  \Gamma_{b_1 \cdots b_k}
+  \;=\;
+  \frac{j k}{l}
+  \,
+  \Gamma^{[a_j \cdots a_2}
+  \delta^{a_1]}_{[b_1}
+  \Gamma_{b_2 \cdots b_k]}  
+  \,.
+$$
+Namely, notice that for any tensor $X^{a_1 \cdots a_k}$ the expression $k X^{[a_k \cdots a_1]}$ is the signed sum over all ways of moving any one index to the far right, and similarly $l Y^{[b_1 \cdots b_l]}$ is the signed sum over all ways of moving any one index to the far left. In contracting all the indices that thus become coincident "in the middle" of our expression, we are contracting the one index that we set out to contract, but since we are doing this for all $c \in C$ we are overcounting by a factor of $l$.
+
+In order to conveniently recurse on this expression, we just move the Kronecker-delta to the left to obtain
+$$
+  \Gamma^{a_j \cdots a_1}
+  \Gamma_{b_1 \cdots b_k}
+  \;=\;
+  (-1)^{j-1}
+  \frac{j k}{l}
+  \,
+  \delta^{[a_1}_{[b_1}
+  \Gamma^{a_j \cdots a_2]}
+  \Gamma_{b_2 \cdots b_k]}  
+  \,.
+$$
+Now recursing, we arrive at
+$$
+  \Gamma^{a_j \cdots a_1}
+  \Gamma_{b_1 \cdots b_k}
+  \;=\;
+  (-1)^{(j-1) \cdots (j-l)}
+  \underbrace{
+  \frac{
+    j \cdots (j-l)
+    \,
+    k \cdots (k-l)
+  }{l!}
+  }_{
+    l! 
+    \Big(
+      { k \atop l }
+    \Big)
+    \Big(
+      { j \atop l }
+    \Big)
+  }
+  \,
+  \delta
+    ^{[a_1 \cdots a_l}
+    _{[b_1 \cdots b_l}
+  \underbrace{
+    \Gamma^{a_j \cdots a_{l+1}]}
+    \Gamma_{b_{l+1} \cdots b_{k}]}  
+  }_{
+    \Gamma
+      ^{ a_j \cdots a_{l+1}] }
+      {}_{ b_{j + l} \cdots b_k] }
+  }
+$$
+Under the brace on the far right we use that by assumption no further contraction is possible.
+With the subsitution under the brace made, the right hand side can just as well be summed over $l$, since it gives zero whenever $l \,\neq\, \mathrm{card}(C)$. This yields the claimed formula.
+\end{proof}
+
+\begin{proposition}
+\label{ExpandingEndomorphismOf32InCliffordElements}
+Every $\mathbb{R}$-linear endomorphism on $\mathbf{32}$ 
+$
+  M
+    \;\in\;
+  \mathrm{End}_{\mathbb{R}}(\mathbf{32})
+$
+may be expanded as:
+\[
+  M 
+    \;=\;
+  \tfrac{1}{32}
+  \sum_{p = 0}^5
+  \;
+  \frac{
+    (-1)^{p(p-1)/2}
+  }{ p! }
+  \mathrm{Tr}\big(
+    \phi \circ 
+    \Gamma_{a_1 \cdots a_p}
+  \big)
+  \Gamma^{a_1 \cdots a_p}
+\]
+\end{proposition}
+(e.g. [Miemiec & Schnakenburg 2006 (2.61)](D=11+N=1+supergravity#MiemiecSchnakenburg06))
+
+
+\linebreak
 
 \begin{proposition}
 ([D'Auria & Fré 1982, (3.1-3)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82))
@@ -2054,7 +2212,7 @@ $$
   }_{ =  0}
   \,,
 $$ 
-has to have vanishing last component $\kappa$, as show, since $\kappa$ has to be pointwise just such a $Spin(10,1)$-equivariant map $\big(\mathfb{32}\otimes \mathbf{32}\big)_{sym} \to \mathbf{32}$.
+has to have vanishing last component $\kappa$, as show, since $\kappa$ has to be pointwise just such a $Spin(10,1)$-equivariant map $\big(\mathbf{32} \otimes \mathbf{32}\big)_{sym} \to \mathbf{32}$.
 \end{remark}
 
 \begin{proposition}
@@ -2063,11 +2221,10 @@ has to have vanishing last component $\kappa$, as show, since $\kappa$ has to be
   \begin{tikzcd}[
     sep=0pt
   ]
-    \mathllap{
-      \overline{(\text{-})}
-      (\text{-})
-      \;\;
-    }
+    \overline{(\text{-})}
+    (\text{-})
+    \ar[r, phantom, ":"]
+    &
     \mathbf{32}
     \times
     \mathbf{32}
@@ -2077,6 +2234,7 @@ has to have vanishing last component $\kappa$, as show, since $\kappa$ has to be
     &&
     \mathbb{R}
     \\
+    &
     (\psi, \phi)
     &\mapsto&
     \mathrm{Re}\big(
@@ -2088,9 +2246,9 @@ has to have vanishing last component $\kappa$, as show, since $\kappa$ has to be
     \big)
   \end{tikzcd}
 
-(using the 4-component [[octonion|octonionic]]spinor notation on the right)
+(using the 4-component [[octonion|octonionic]]-spinor notation on the right)
 
-is 
+is:
 
 1. [[bilinear map|bi-linear]]
 
@@ -2101,6 +2259,7 @@ is
 \end{proposition}
 
 \begin{proposition}
+\label{VanishingQuadraticFormsOn32}
   The followig [[quadratic forms]] on $\psi \in \mathbf{32}$ vanish:
 \[
 \begin{array}{r}
@@ -2142,7 +2301,7 @@ is
 \]
 and so on.
 \end{proposition}
-Conversely, all non-trivial [[quadratic forms]] on $\mathbf{32}$ are linear combinations of the following ones: 
+Conversely and using (eq:CliffordVolumeFormIn11d), all non-trivial [[quadratic forms]] on $\mathbf{32}$ are linear combinations of the following ones: 
 $$
   \begin{array}{ll}
     \big(
@@ -2192,7 +2351,7 @@ $$
     \Gamma_{[a_1 \cdots a_p]}
     \phi
     \big)
-       & \;\defneq\;
+       & \;\coloneqq\;
     \mathrm{Re}\big(
       \psi^\dagger
       \Gamma_0
@@ -2241,6 +2400,82 @@ $$
   \end{array}
 $$
 \end{proof}
+
+
+\begin{proposition}
+**([[Fierz identities]] controlling [[D=11 supergravity]])**
+\linebreak
+  The following quartic expressions in $\pin \in \mathbf{32}$ vanish:
+$$
+    \begin{array}{r}
+    \big(
+      \overline{\psi}
+      \Gamma_{a b}
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma^{a}\,
+      \psi
+    \big)
+    \;=\;
+    0
+    \\
+    \big(
+      \overline{\psi}
+      \Gamma_{a b_1\cdots b_4}
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma^{a}\,
+      \psi
+    \big)
+    \;+\;
+    3
+    \,
+    \big(
+      \overline{\psi}
+      \,\Gamma_{b_1 b_2}\,
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma_{b_3 b_4}\,
+      \psi
+    \big)
+    \;=\;
+    0
+    \end{array}
+$$
+\end{proposition}
+\begin{proof}
+  On the first expression:
+  This is the quartic diagonal of a $\mathrm{Spin}(1,10)$-equivariant map
+  $$
+    \big(
+      \mathbf{32}
+      \,\otimes\,
+      \mathbf{32}
+      \,\otimes\,
+      \mathbf{32}
+      \,\otimes\,
+      \mathbf{32}
+    \big)_{\mathrm{symm}}
+    \longrightarrow
+    \mathbf{11}
+    \,.
+  $$
+  But by (eq:IrrepDecompositionOfSymmetricPowersOf32) the irrep summand $\mathbf{11}$ does not appear on the left, hence this map has to vanish by [[Schur's lemma]] 
+([D'Auria & Fré 1982, (3.13)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82))
+(\cite[(3.13)]{DF82}).
+  For the second expression one needs a closer analysis 
+([D'Auria & Fré 1982, (3.28a)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82))
+(\cite[(3.13)]{DF82}), for more details see [this example](geometry+of+physics+--+fundamental+super+p-branes#TheM2andM5CocyclesAsFierzIdentities) at *[[geometry of physics -- fundamental super p-branes]]*.
+\end{proof}
+
+
+
 
 ## Appendix
 
@@ -2411,7 +2646,8 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 * [[charge conjugation matrix]]
 
-* vaguely related only: *[[Majorana zero modes]]* in [[solid state physics]]
+* only vaguely related: [[Majorana zero modes]] in [[solid state physics]]
+
 
 ## References
 
@@ -2434,6 +2670,7 @@ See also
 * Theodor Br&#246;cker, [[Tammo tom Dieck]], _Representations of Compact Lie Groups_, Springer (1985)
 
 * Wikipedia, _[Majorana fermion](https://en.wikipedia.org/wiki/Majorana_fermion)_
+
 
 The above discussion of cocycles on super-Minkowski spacetimes draws from
 
