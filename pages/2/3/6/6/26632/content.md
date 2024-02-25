@@ -591,6 +591,7 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
 \end{proof}
 
 
+
 \begin{lemma}\label{SuperBianchiIdentityOnG7InComponents}
   Given the [[Bianchi identity]] for $G^s_4$ (eq:BianchiIdentityForG4sInComponents), then 
  the [[Bianchi identity]] for $G^s_7$ (eq:SuperFluxBianchiIdentity) is equivalent to the Bianchi identity for the ordinary flux density $G_7$ and its [[Hodge duality]] to $G_4$:
@@ -634,9 +635,301 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
 \]
 \end{lemma}
 This is essentially [CDF91, (III.8.50-53)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+\begin{proof}
+The components of the Biachi identity are
+$$
+  \begin{array}{l}
+  \mathrm{d}
+  \,
+  G_4^s \;=\; 0
+  \\
+  \Rightarrow
+  \left\{
+  \begin{array}{l}
+  \mathrm{d}
+  \Big(
+    \tfrac{1}{7!}
+    (G_7)_{a_1 \cdots a_7}
+    \, 
+    e^{a_1} \cdots e^{a_7}
+    -
+    \tfrac{1}{5!}
+    \big(
+    \overline{\psi}
+    \Gamma_{a_1 \cdots a_5}
+    \psi
+    \big)
+    e^{a_1} \cdots e^{a_5}
+  \Big)
+  \\
+  \;=\;
+  \tfrac{1}{2}
+  \Big(
+    \tfrac{1}{4!}
+    (G_4)_{a_1 \cdots a_4}
+    e^{a_1}
+    \cdots
+    e^{a_4}
+    -
+    \tfrac{1}{2}
+    \big(
+      \overline{\psi}
+      \Gamma_{a_1 a_2}
+      \psi
+    \big)
+  \Big)
+  \Big(
+    \tfrac{1}{4!}
+    (G_4)_{a_1 \cdots a_4}
+    e^{a_1}
+    \cdots
+    e^{a_4}
+    -
+    \tfrac{1}{2}
+    \big(
+      \overline{\psi}
+      \Gamma_{a_1 a_2}
+      \psi
+    \big)
+  \Big)
+  \\
+  \;\Leftrightarrow\;
+  \left\{
+  \begin{array}{l}
+  \Big(
+    \nabla_{a_1}
+    \tfrac{1}{7!}
+    (G_7)_{a_2 \cdots a_8}  
+    \;=\;
+    \;\tfrac{1}{2}\;
+    \tfrac{1}{4!}
+    (G_4)_{a_1 \cdots a_4}
+    \,
+    \tfrac{1}{4!}
+    (G_4)_{a_5 \cdots a_8}
+  \Big)
+  e^{a_1} \cdots e^{a_8}
+  \\
+  \left.
+  \begin{array}{l}
+    \tfrac{1}{6!}
+    (G_7)_{a_1 \cdots a_6 b}
+    \big(
+      \overline{\psi}
+      \,\Gamma^b\,
+      \psi
+    \big)
+    e^{a_1}
+    \cdots
+    e^{a_6}
+    \\
+    \;\;\;+\,
+    \tfrac{2}{12}
+    \,
+    \tfrac{1}{5!}
+    \,
+    \tfrac{1}{4!}
+    \,
+      (G_4)^{b_1 \cdots b_4}
+    \big(
+      \overline{\psi}
+      \,
+      \Gamma_{a_1 \cdots a_5}
+      \,
+      \Gamma_{a b_1 \cdots b_4}\,
+      \psi
+    \big)
+    e^a
+    \,
+    e^{a_1} \cdots e^{a_5}
+    \\
+    \;\;-\;
+    \tfrac{2}{6}
+    \tfrac{1}{5!}
+    \tfrac{1}{3!}
+    (G_4)_{a b_1 b_2 b_3}
+    \big(
+      \overline{\psi}
+      \,\Gamma_{a_1 \cdots a_5}\,
+      \Gamma^{b_1 b_2 b_3}
+      \psi
+    \big)
+    e^{a}
+    \,
+    e^{a_1} \cdots e^{a_5}
+    \\
+    \;\;\;-\,
+    \Big(
+    \tfrac{1}{2}
+    \big(
+      \overline{\psi}
+       \Gamma_{a_1 a_2}
+      \psi
+    \big)
+    e^{a_1} \, e^{a_2}
+    \Big)
+    \tfrac{1}{4!}
+    (G_4)_{b_1 \cdots b_4}
+    \,
+    e^{b_1} \cdots e^{b_4}
+    \;\;=\;\; 0
+    \,,
+  \end{array}
+  \right\}
+  \Leftrightarrow
+  (G_7)_{a_1 \cdots a_6 b}
+  \;=\;
+  \tfrac{1}{4!}
+  \epsilon_{a_1 \cdots a_6 b
+  b_1 \cdots b_4}
+  (G_4)^{b_1 \cdots b_4}
+  \end{array}
+  \right.
+  \end{array}
+  \right.
+  \end{array}
+$$
+where:
+
+**(i)** in the quadratic spinorial component we inserted the expression for $\rho$ from (eq:BianchiIdentityForG4sInComponents), then contracted $\Gamma$-factors using again [this Lemma](Majorana+spinor#ProductOfLinearCliffordGenerators),
+and finally observed that of the three spinorial quadratic forms (see [there](Majorana+spinor#eq:TheThreeQuadraticFormsOn32))
+the coefficients of $\big(\overline{\psi}\Gamma_{a_1 a_2} \psi\big)$ and of $\big(\overline{\psi}\Gamma_{a_1 \cdots a_6} \psi\big)$ vanish identically, by a remarkable cancellation of combinatorial prefactors:
+
+* $\underset{= 0 }{\underbrace{\bigg(- \frac{2}{12} \frac{1}{5!} \frac{1}{4!} 4!
+ \Big(
+   { 5 \atop 4 }
+ \Big)
+ \Big(
+   { 4 \atop 4 }
+ \Big)
+ \;+\;
+ \frac{2}{6}
+ \frac{1}{5!}
+ \frac{1}{3!}
+ 3!
+ \Big(
+   { 5 \atop 3 }
+ \Big)
+ \Big(
+   { 3 \atop 3 }
+ \Big)
+ \;-\;
+ \frac{1}{2}
+ \frac{1}{4!}
+ \bigg)
+ }
+ }
+ \;
+ (G_4)_{a_2 \cdots a_5}
+ \big(
+ \overline{\psi}
+ \,\Gamma_{a a_1}\,
+ \psi
+ \big)
+ e^{a}
+ \,
+ e^{a_1} \cdots e^{a_6}
+ \;\;\;
+$
+(<a href="https://www.wolframalpha.com/input?i=-+%282%2F12%29+*+%281%2F5%21%29+*+%281%2F4%21%29+*+4%21+%285+choose+4%29+*+%284+choose+4%29+%2B+%282%2F6%29+*+%281%2F5%21%29+*+%281%2F3%21%29+*+3%21+*+%285+choose+3%29+*+%283+choose+3%29+-+%281%2F2%29*+++%281%2F4%21%29">check</a>)
+
+* $\underset{
+    = 0
+  }{   
+  \underbrace{
+    \bigg(
+    \frac{2}{12}
+    \frac{1}{5!}
+    \frac{1}{4!}
+    2
+    \Big(
+      { 5 \atop 2 }
+    \Big)
+    \Big(
+      { 4 \atop 2 }
+    \Big)
+    \;-\;
+    \frac{2}{6}
+    \frac{1}{5!}
+    \frac{1}{3!}
+    3!
+    \Big(
+      { 5 \atop 1 }
+    \Big)
+    \Big(
+      { 3 \atop 1 }
+    \Big)    
+    \bigg)
+  }
+  }
+  \;
+    (G_4)_{a_1 a_2 b_1 b_2}
+    \big(
+      \overline{\psi}
+      \,\Gamma_{a_3 \cdots a_6}{}^{b_1 b_2}\,
+      \psi
+    \big)
+    e^{a_1} \cdots e^{a_6}
+  \;\;\;
+$
+(<a href="https://www.wolframalpha.com/input?i=%282%2F12%29+*+%281%2F5%21%29+*+%281%2F4%21%29+*+2%21+*+%285+choose+2%29+*+%284+choose+2%29++-++%282%2F6%29+*+%281%2F5%21%29+*+%281+%2F+3%21%29+*+5+*+3">check</a>)
+
+**(ii)** the quartic spinorial component holds identitically, due to the [[Fierz identity]] [here](Majorana+spinor#eq:QuarticFierzIdentitiesOn32):
+$$
+  -\tfrac{1}{4!}
+  \big(
+    \overline{\psi}
+    \,\Gamma_{a_1 \cdots a_5}\,
+    \psi
+  \big)
+  \big(
+    \overline{\psi}
+    \Gamma^{a_1}
+  \big)
+  e^{a_2} \cdots e^{a_5}
+  \;=\;
+  \tfrac{1}{8}
+  \Big(
+  \big(
+    \overline{\psi}
+    \,\Gamma_{a_1 a_2}\,
+    \psi
+  \big)
+  e^{a_1} e^{a_2}
+  \Big)
+  \Big(
+  \big(
+    \overline{\psi}
+    \,\Gamma_{a_1 a_2}\,
+    \psi
+  \big)
+  e^{a_1} e^{a_2}
+  \Big)
+  \,.
+$$
+
+Therefore the only spinorial component of the Bianchi identity which is not automatically satisfied is (with $\Gamma_{0 1 2 \cdots} = \epsilon_{0 1 2 \cdots}$, see [there](Majorana+spinor#eq:CliffordVolumeFormIn11d)) the vanishing of
+$$
+  \tfrac{1}{6!}
+  \Big(
+  (G_7)_{a_1 \cdots a_6 b}
+  -
+  \tfrac{1}{4!}
+  (G_4)^{b_1 \cdots b_4}
+  \epsilon_{b_1 \cdots b_4 a_1 \cdots a_6 b}
+  \Big)
+  \big(
+    \overline{\psi}
+    \,\Gamma^b\,
+    \psi
+  \big)
+  \,,
+$$
+which is  manifestly the claimed [[Hodge duality]] relation.
+\end{proof}
  
 \begin{lemma}\label{SuperCFieldBianchiImpliesSuGraEoM}
-  Given Bianchi identities for $G_4^s$ (eq:BianchiIdentityForG4sInComponents) and $G_7^s$ (eq:BianchiIdentityForG7sInComponents), the supergravity fields satisfy their [[Einstein equations]] with these source terms:
+  Given the Bianchi identities for $G_4^s$ (eq:BianchiIdentityForG4sInComponents) and $G_7^s$ (eq:BianchiIdentityForG7sInComponents), the supergravity fields satisfy their [[Einstein equations]] with these source terms:
 $$
   \begin{array}{l}
     \mathrm{d}\, G_4^s \;=\;0
@@ -674,5 +967,5 @@ $$
 \end{lemma}
 This is essentially [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
 
-In conlcusion the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
+In conlcusion, the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
 
