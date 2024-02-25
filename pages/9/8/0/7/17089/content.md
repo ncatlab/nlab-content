@@ -65,23 +65,29 @@ In their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (s
 
 In the [[supergravity]] literature these CE-algebras are referred to as "FDA"s. This is short for "free differential algebra", which is a slight misnomer for what in mathematics are called [[semifree dga]]s (or sometimes "quasi-free" dga-s).
 
-The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formalism]] to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language is made in 
+The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formalism]] ("FDA"s) to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language was made in:
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], example 5 in section 6.5.1, p. 54 of _[[schreiber:L-infinity algebra connections|$L_\infty$ algebra connections and applications to String- and Chern-Simons n-transport]]_, in: *Quantum Field Theory*, Birkh&#228;user (2009) 303-424 \[<a href="http://arxiv.org/abs/0801.3480">arXiv:0801.3480</a>, [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)\]
+* [[Urs Schreiber]], *[SuGra 3-Connection Reloaded](https://golem.ph.utexas.edu/category/2006/08/sugra_3connection_reloaded.html)* (2006)
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], example 5 in section 6.5.1, p. 54 of: _[[schreiber:L-infinity algebra connections|$L_\infty$ algebra connections and applications to String- and Chern-Simons n-transport]]_, in: *Quantum Field Theory*, Birkh&#228;user (2009) 303-424 \[<a href="http://arxiv.org/abs/0801.3480">arXiv:0801.3480</a>, [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)\]
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 connecting them to the [[higher WZW terms]] of the [[Green-Schwarz sigma models]] of fundamental [[super p-branes]] ([[schreiber:The brane bouquet]]).
 
-Further exposition of this includes
-
-* [[Urs Schreiber]],  _[Homotopy Lie n-algebras in Supergravity](https://www.physicsforums.com/insights/homotopy-lie-n-algebras-supergravity/)_, PhysicsForums-Insights 2015
-
 See also at _[[supergravity Lie 3-algebra]]_, and _[[supergravity Lie 6-algebra]]_.
 
-Notice that there is a _different_ concept of "Filipov [[n-Lie algebra]]" suggested in ([Bagger-Lambert 06](BLG+model#BaggerLambert06)) to play a role in the description of the [[conformal field theory]] in the [[near horizon limit]] of [[black p-branes]], notably the [[BLG model]] for the conformal [[worldvolume]] theory on the [[M2-brane]] .
+Further exposition and review of the (dual) identification of supergravity "FDAs" with [[super L-infinity algebra|super $L_\infty$-algebras]]:
 
-A realization of thse "Filippov $3$-Lie algebras" as 2-term $L_\infty$-algebras ([[Lie 2-algebras]]) equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is in 
+* [[Urs Schreiber]],  _[Homotopy Lie n-algebras in Supergravity](https://www.physicsforums.com/insights/homotopy-lie-n-algebras-supergravity/)_, PhysicsForums-Insights (2015)
+
+* [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]: _Higher Structures in M-Theory_, Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. **67** 8-9 (2019) 1910001 &lbrack;[arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001](https://doi.org/10.1002/prop.201910001)&rbrack;
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The rational higher structure of M-theory|The rational higher structure of M-theory]]*, in *[[Higher Structures in M-Theory 2018]]*, Fortschr. der Physik **67** 8-9 (2019) 1910017 \[<a href="https://arxiv.org/abs/1903.02834">arXiv:1903.02834</a>, <a href="https://doi.org/10.1002/prop.201910017">doi:10.1002/prop.201910017</a>\]
+
+Notice that there is a _different_ concept of "Filipov [[n-Lie algebra]]" suggested by [Bagger& Lambert 2006](BLG+model#BaggerLambert06) to play a role in the description of the [[conformal field theory]] in the [[near horizon limit]] of [[black p-branes]], notably the [[BLG model]] for the conformal [[worldvolume]] theory on the [[M2-brane]] .
+
+A realization of these "Filippov $3$-Lie algebras" as 2-term $L_\infty$-algebras ([[Lie 2-algebras]]) equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is in:
 
 * Sam Palmer, [[Christian Saemann]], section 2 of _M-brane Models from Non-Abelian Gerbes_, JHEP 1207:010, 2012 ([arXiv:1203.5757](http://arxiv.org/abs/1203.5757))
 
