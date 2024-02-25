@@ -101,7 +101,7 @@ and named Freyd categories in
 
 and the longer journal version of that paper has more discussion:
 
-* Paul Blain Levy, John Power and Hayo Thielecke, "Modelling environments in call-by-value programming languages",  Inf. Comput. 185(2): 182-210, 2003 [preprint pdf](https://www.cs.bham.ac.uk/~hxt/research/envcbv.pdf).
+* Paul Blain Levy, John Power and Hayo Thielecke, "Modelling environments in call-by-value programming languages",  Inf. Comput. 185(2): 182-210, 2003 [DOI: 10.1016/S0890-5401(03)00088-9](https://www.sciencedirect.com/science/article/pii/S0890540103000889)
 
 The definition with monoidal actions appears in 
 
