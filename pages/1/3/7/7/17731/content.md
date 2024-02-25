@@ -2302,7 +2302,8 @@ is:
 and so on.
 \end{proposition}
 Conversely and using (eq:CliffordVolumeFormIn11d), all non-trivial [[quadratic forms]] on $\mathbf{32}$ are linear combinations of the following ones: 
-$$
+\[
+  \label{TheThreeQuadraticFormsOn32}
   \begin{array}{ll}
     \big(
     \overline{\psi}
@@ -2340,7 +2341,7 @@ $$
     \;=\;
     462
   \end{array}
-$$
+\]
 and by (eq:IrrepDecompositionOfSymmetricPowersOf32) all of these are nontrivial.
 \begin{proof}
 With the skew-symmetry of the spinor pairing (eq:SpinorPairingOn32) we compute as follows:
