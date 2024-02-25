@@ -419,12 +419,32 @@ Therefore, the Bianchi identity has the following components,
         e^{a_1} \, e^{a_2} \, e^b
         \;=\;
         0
+        \,,
       \end{array}
       \right.
     \end{array}
 \]
+where we used that the quartic spinorial component vanishes identically, due to a [[Fierz identity]] ([here](Majorana+spinor#eq:QuarticFierzIdentitiesOn32)):
+  $$
+    -
+    \tfrac{1}{2}
+    \big(
+      \overline{\psi}
+      \Gamma_{a_1 a_2}
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \Gamma^{a_1}
+      \psi
+    \big)
+    e^{a_2}
+    \;=\;
+    0
+    \,.
+  $$
  
-To solve the second line for $H_a$ (this is [CDF91 (III.8.43-49)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre)) we 
+To solve the second line in (eq:ComponentsOfBianchiForGs4) for $H_a$ (this is [CDF91 (III.8.43-49)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre)) we 
 expand $H_a$ in the Clifford algebra (according to [this Prop.](Majorana+spinor#ExpandingEndomorphismOf32InCliffordElements)), 
 observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the $\Gamma_a$ the matrix $H_a$ needs to have a $\Gamma_{a_1}$-summand or a $\Gamma_{a_1 a_2 a_3}$-summand. The former does not admit a Spin-equivariant linear combination with coefficients $(G_4)_{a_1 \cdots a_4}$, hence it must be the latter. But then we may also need a component $\Gamma_{a_1 \cdots a_5}$ in order to absorb the skew-symmetric product in $\Gamma_{a_1 a_2} H_a$. Hence $H_a$ must be of this form:
 
