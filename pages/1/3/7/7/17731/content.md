@@ -1964,6 +1964,284 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 =--
 
 
+### Properties of spinors in 11d
+
+Consider the real irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}\big(Spin(10,1)\big)$ from above.
+
+
+\begin{proposition}
+([D'Auria & Fré 1982, (3.1-3)](D'Auria-Fre+formulation+of+supergravity#DAuriaFre82))
+  The $Spin(10,1)$-irrep decomposition of the first few [[symmetric algebra|symmetric tensor powers]] of $\mathbf{32}$ is of the form:
+\[
+  \label{IrrepDecompositionOfSymmetricPowersOf32}
+    \begin{array}{rcl}
+       \big(
+        \mathbf{32} \otimes \mathbf{32}
+      \big)_{\mathrm{symm}}
+      &\simeq&
+      \mathbf{11}
+      \,\oplus\,
+      \mathbf{55}
+      \,\oplus\,
+      \mathbf{462}
+      \\
+       \big(
+        \mathbf{32}
+          \otimes
+        \mathbf{32} 
+          \otimes 
+        \mathbf{32}
+      \big)_{\mathrm{symm}}
+      &\simeq&
+      \mathbf{32}
+      \,\oplus\,
+      \mathbf{320}
+      \,\oplus\,
+      \mathbf{1408}
+      \,\oplus\,
+      \mathbf{4424}
+      \\
+       \big(
+        \mathbf{32}
+          \otimes
+        \mathbf{32} 
+          \otimes 
+        \mathbf{32}
+          \otimes 
+        \mathbf{32}
+      \big)_{\mathrm{symm}}
+      &\simeq&
+      \mathbf{1}
+      \,\oplus\,
+      \mathbf{165}
+      \,\oplus\,
+      \mathbf{330}
+      \,\oplus\,
+      \mathbf{462}
+      \,\oplus\,
+      \mathbf{65}
+      \,\oplus\,
+      \mathbf{429}
+      \,\oplus\,
+      \mathbf{1144}
+      \,\oplus\,
+      \mathbf{17160}
+      \,\oplus\,
+      \mathbf{32604}
+      \,,
+    \end{array}
+\]
+where on the right each boldface [[direct sum|summand]] is one [[irrep]] of that dimension.
+\end{proposition}
+\begin{remark}
+**(application in 11d supergravity)**
+\linebreak
+In [[D=11 supergravity]] the [[gravitino]]-[[field (physics)|field]] is a [[differential form on a supermanifold|super 1-form]] $\psi \in \Omega^1_{dR}(-;\mathbf{32}_1)$ of de Rham degree 1 with coefficients in a copy of $\mathbf{32}$ in odd degree. By the [[signs in supergeometry|super-sign rule]] this means that these forms actuall commute with each other, hence that the $Spin(10,1)$-[[equivariant function|equivariant]] [[linear combinations]] of [[wedge products]] of these gravitino fields are $Spin(10,1)$-equivariant maps out of symmetric powers of $\mathbf{32}$ seen on the left of (eq:IrrepDecompositionOfSymmetricPowersOf32).
+
+Now [[Schur's lemma]] implies that such cobinations can be non-zero only if they take values in the irreps appearing on the right of (eq:IrrepDecompositionOfSymmetricPowersOf32).
+
+For example, the only $Spin(10,1)$-equiariant map $(\mathbf{32} \otimes \mathbf{32})_{sym} \to \mathbf{32}$ must be zero, which implies for instance that the [[gravitino]]-[[field strength]] $\rho \in \Omega^2_{dR}(-;\mathbf{32}_{odd})$, which on a local super-chart may be expanded as
+$$
+  \rho 
+    \;=\;
+  \rho_{a b}
+  e^a\, e^b
+  +
+  H_a \psi \, e^a
+  +
+  \underbrace{
+    \overline{\psi}\kappa\psi
+  }_{ =  0}
+  \,,
+$$ 
+has to have vanishing last component $\kappa$, as show, since $\kappa$ has to be pointwise just such a $Spin(10,1)$-equivariant map $\big(\mathfb{32}\otimes \mathbf{32}\big)_{sym} \to \mathbf{32}$.
+\end{remark}
+
+\begin{proposition}
+  The spinor pairing
+\[\label{SpinorPairingOn32}\]
+  \begin{tikzcd}[
+    sep=0pt
+  ]
+    \mathllap{
+      \overline{(\text{-})}
+      (\text{-})
+      \;\;
+    }
+    \mathbf{32}
+    \times
+    \mathbf{32}
+    \ar[
+      rr,
+    ]
+    &&
+    \mathbb{R}
+    \\
+    (\psi, \phi)
+    &\mapsto&
+    \mathrm{Re}\big(
+      \psi^\dagger
+      \cdot
+      \Gamma_0
+      \cdot
+      \phi
+    \big)
+  \end{tikzcd}
+
+(using the 4-component [[octonion|octonionic]]spinor notation on the right)
+
+is 
+
+1. [[bilinear map|bi-linear]]
+
+1. $Spin(10,1)$-[[equivariant map|equivariant]]
+
+1. skew-symmetric.
+
+\end{proposition}
+
+\begin{proposition}
+  The followig [[quadratic forms]] on $\psi \in \mathbf{32}$ vanish:
+\[
+\begin{array}{r}
+  \overline{\psi}
+  \psi 
+  \;=\;0
+  \\
+  \overline{\psi}
+  \Gamma_{[a_1 a_2 a_3]}
+  \psi
+  \;=\; 
+  0
+  \\
+  \overline{\psi}
+  \Gamma_{[a_1 \cdots a_4]}
+  \psi
+  \;=\; 
+  0
+  \\
+  \overline{\psi}
+  \Gamma_{[a_1 \cdots a_7]}
+  \psi
+  \;=\; 
+  0
+  \\
+  \overline{\psi}
+  \Gamma_{[a_1 \cdots a_8]}
+  \psi
+  \;=\; 
+  0
+  \\
+  \overline{\psi}
+  \Gamma_{[a_1 \cdots a_{11}]}
+  \psi
+  \;=\; 
+  0
+  \mathrlap{\,,}
+\end{array}
+\]
+and so on.
+\end{proposition}
+Conversely, all non-trivial [[quadratic forms]] on $\mathbf{32}$ are linear combinations of the following ones: 
+$$
+  \begin{array}{ll}
+    \big(
+    \overline{\psi}
+    \Gamma_a
+    \psi
+    \big)
+    &
+    \left(
+      11 \atop 1
+    \right)
+    \;=\;
+    11
+    \\
+    \big(
+    \overline{\psi}
+    \Gamma_{a b}
+    \psi
+    \big)
+    &
+    \left(
+      11 \atop 2
+    \right)
+    \;=\;
+    55
+    \\
+    \big(
+    \overline{\psi}
+    \Gamma_{a_1 \cdots a_5}
+    \psi
+    \big)
+    &
+    \left(
+      11 \atop 5
+    \right)
+    \;=\;
+    462
+  \end{array}
+$$
+and by (eq:IrrepDecompositionOfSymmetricPowersOf32) all of these are nontrivial.
+\begin{proof}
+With the skew-symmetry of the spinor pairing (eq:SpinorPairingOn32) we compute as follows:
+$$
+  \begin{array}{ll}
+    \big(
+    \overline{\psi}
+    \Gamma_{[a_1 \cdots a_p]}
+    \phi
+    \big)
+       & \;\defneq\;
+    \mathrm{Re}\big(
+      \psi^\dagger
+      \Gamma_0
+      \Gamma_{[a_1 \cdots a_p]}
+      \phi
+    \big) 
+    \\
+   & \;=\;
+    -
+    \mathrm{Re}\Big(
+      \phi^\dagger
+      \big(\Gamma_{[a_1 \cdots a_p]}\big)^\dagger
+      \Gamma_0
+      \psi
+    \Big) 
+    \\
+   &  \;=\;
+    -
+    \mathrm{Re}\Big(
+      \phi^\dagger
+      \Gamma_0
+      \Gamma^{-1}_0
+      \big(\Gamma_{[a_1 \cdots a_p]}\big)^\dagger
+      \Gamma_0
+      \psi
+    \Big) 
+    \\
+   & \;=\;
+    -
+    (-1)^{p + p(p-1)/2}
+    \mathrm{Re}\Big(
+      \phi^\dagger
+      \Gamma_0
+      \Gamma_{[a_1 \cdots a_p]}
+      \psi
+    \Big) 
+    \\
+  &  \;=\;
+    -(-1)^{p(p+1)/2}
+    \big(
+      \overline{\phi}
+      \,\Gamma_{[a_1 \cdots a_p]}\,
+      \psi
+    \big)
+    \;.
+  \end{array}
+$$
+\end{proof}
+
 ## Appendix
 
 ### Review of unitary representations with real structure
