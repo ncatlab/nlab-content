@@ -237,6 +237,8 @@ $
 
 
 Next $d(H_3 - CompositeH_3) = \phi^\ast G_4^s$ etc.
+
+$\eta$ should be the worldvolume analog of the gravitino that absorbs now the $H$-field strength.
     
 
 
