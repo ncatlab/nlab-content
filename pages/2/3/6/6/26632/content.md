@@ -269,6 +269,8 @@ is equivalent to the joint solution by $\big(e, \psi, \omega, G_4^s,\, G_7^s\big
 This is, in some paraphrase, the result of [CDF91, §III.8.5](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre), We indicate the **proof** broken up in the following Lemmas \ref{SuperBianchiIdentityOnG4InComponents}, \ref{SuperBianchiIdentityOnG7InComponents}, and 
 \ref{SuperCFieldBianchiImpliesSuGraEoM}.
 
+In all lemmas one expands the Bianchi identoties in their super-vielbein form components.
+
 \begin{remark}
 **(Normalization conventions)**
 \linebreak
@@ -289,7 +291,7 @@ Here:
 
   This rescaling removes all occurrences of imaginary units in the Bianchi identities, as it should be for algebra over the real numbers with real fermion representations.
 
-* The second rescaling has the effect that $\differential e^a = \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$ instead of $\differential\, e^a = \tfrac{1}{2} \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$, which in turn implies 
+* The second rescaling has the effect that $\mathrm{d} e^a = \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$ instead of $\mathrm{d}\, e^a = \tfrac{1}{2} \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$, which in turn implies 
 
 * with the combinatorial rescalings (which are natural in themselves)  then the all-important quartic Fierz identity
 (...) comes out with the relative factor $1/2$  expected in the Bianchi identity for $G_7$.
@@ -324,7 +326,8 @@ Here:
       \tfrac{1}{3!}
       (G_4)_{a b_1 b_2 b_3}
       \,\Gamma^{a b_1 b_2 b_3}\,
-      \,\pm\,
+      \,
+      +
       \tfrac{1}{12}
       \,
       \tfrac{1}{4!}
@@ -340,6 +343,233 @@ Here:
 \]
 \end{lemma}
 This is essentially [CDF91, (III.8.44-49)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+\begin{proof}
+  The general expansion of $\rho$ in the super-vielbein basis is of the form 
+  $$
+    \rho
+    \;:=\;
+    \rho_{a b}
+    \,
+    e^a\, e^b
+    +
+    H_a \psi \, e^a
+    +
+    \underset{ = 0 }{
+      \underbrace{
+      \overline{\psi}
+        \,\kappa\,
+      \psi
+      }
+    }
+    \,,
+  $$
+  where the last term has to vanish: The component function $\kappa$ has to take values in $\mathrm{Spin}(1,10)$-equivariant linear maps of the form $\big(\mathbf{32} \otimes \mathbf{32}\big)_{sym} \longrightarrow \mathbf{32}$, but since the irrep $\mathbf{32}$ is not a summand of its symmetric square (by the first line of [this](Majorana+spinor#eq:IrrepDecompositionOfSymmetricPowersOf32) decomposition), [[Schur's lemma]] implies that $\kappa = 0$.
+
+Therefore, the Bianchi identity has the following components, 
+\[
+  \label{ComponentsOfBianchiForGs4}
+    \begin{array}{l}
+      \mathrm{d}
+      \Big(
+      \,
+      \tfrac{1}{4!}
+      (G_4)_{a_1 \cdots a_4}
+      \,
+      e^{a_1} \cdots e^{a_4}
+      -
+      \tfrac{1}{2}
+        \big(
+          \overline{\psi}
+          \Gamma_{a_1 a_2}
+        \psi
+        \big)
+        \,
+        e^{a_1}\, e^{a_2}
+      \Big)
+      \;=\;
+      0
+      \\
+      \;\Leftrightarrow\;
+      \left\{
+      \begin{array}{l}
+        \big(
+          \nabla_{a}
+          (G_4)_{a_1 \cdots a_4}
+        \big)
+        e^{a}\, e^{a_1} \cdots e^{a_4}
+        \;=\;
+        0
+        \\
+        \tfrac{1}{3!}
+        (G_4)_{a b_1 b_2 b_3}
+        \big(
+          \overline{\psi}
+          \,\Gamma^a\,
+          \psi
+        \big)
+        \,
+        e^{b_1 b_2 b_3}
+        +
+        \big(
+        \overline{\psi}
+        \,\Gamma_{a_1 a_2}\,
+        H_b
+        \psi
+        \big)
+        e^{a_1} \, e^{a_2} \, e^b
+        \;=\;
+        0
+      \end{array}
+      \right.
+    \end{array}
+\]
+ 
+To solve the second line for $H_a$ (this is [CDF91 (III.8.43-49)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre)) we 
+expand $H_a$ in the Clifford algebra (according to [this Prop.](Majorana+spinor#ExpandingEndomorphismOf32InCliffordElements)), 
+observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the $\Gamma_a$ the matrix $H_a$ needs to have a $\Gamma_{a_1}$-summand or a $\Gamma_{a_1 a_2 a_3}$-summand. The former does not admit a Spin-equivariant linear combination with coefficients $(G_4)_{a_1 \cdots a_4}$, hence it must be the latter. But then we may also need a component $\Gamma_{a_1 \cdots a_5}$ in order to absorb the skew-symmetric product in $\Gamma_{a_1 a_2} H_a$. Hence $H_a$ must be of this form:
+
+\[
+    \label{AnsatzForHa}
+    H_a 
+    \;=\;
+    \mathrm{const}_1
+    \,
+    \tfrac{1}{3!}
+    (G_4)_{a b_1 b_2 b_3}
+    \Gamma^{b_1 b_2 b_3}
+    +
+    \mathrm{const}_2
+    \,
+    \tfrac{1}{4!}
+    (G_4)^{b_1 \cdots b_4}
+    \Gamma_{a b_1 \cdots b_4}
+    \,.
+\]
+  With this, we compute:
+  \[
+    \label{PairingTheHaTermInRho}
+    \begin{array}{ll}
+      \big(
+      \overline{\psi}
+      \Gamma_{a_1 a_2} H_{a_3}
+      \psi
+      \big)
+      e^{a_1} \, e^{a_2} \, e^{a_3}
+      &
+      =\;
+      \mathrm{const}_1
+      \,
+      \tfrac{1}{3!}
+      (G_4)_{a_3 b_1 b_2 b_3}
+      \,
+     \big(
+     \overline{\psi}
+     \Gamma_{a_1 a_2}
+     \Gamma^{b_1 b_2 b_3}
+     \psi
+     \big)
+     e^{a_1} \, e^{a_2} \, e^{a_3}
+     \\
+     &
+     \;\;\;+\,
+     \mathrm{const}_2
+     \,
+     \tfrac{1}{4!}
+     \,
+     (G_4)^{b_1 \cdots b_4}
+     \,
+     \big(
+     \overline{\psi}
+     \Gamma_{a_1 a_2}
+     \Gamma_{a_3 b_1 \cdots b_4}
+     \psi
+     \big)
+     e^{a_1} \, e^{a_2} \, e^{a_3}
+     \\
+     &
+     \;=\;
+      1
+      \,
+      \mathrm{const}_1
+      \,
+      \tfrac{1}{3!}
+      \,
+      (G_4)_{a_3 b_1 b_2 b_3}
+      \big(
+       \overline{\psi}
+       \,\Gamma_{a_1 a_2}{}^{b_1 b_ 2 b_3}\,
+       \psi
+      \big)
+      e^{a_1} \, e^{a_2} \, e^{a_3}
+      \\
+      &
+      \;\;\;+\,
+      6
+      \,
+      \mathrm{const}_1
+      \,
+      \tfrac{1}{3!}
+      \,
+      (G_4)_{a_3 b_1 b_2 b_3}
+       \big(
+       \overline{\psi}
+       \,\Gamma^{a_3}\,
+       \psi
+       \big)
+     e^{b_1} \, e^{b_2} \, e^{b_3}
+     \\
+     &
+     \;\;\;+\,
+     8
+     \,
+     \mathrm{const}_2
+     \,
+     \tfrac{1}{4!}
+     \,
+     (G_4)^{b_1 \cdots b_3 a_3}
+     \,
+     \big(
+     \overline{\psi}
+     \Gamma^{a_1 a_2}{}_{b_1 \cdots b_3}
+     \psi
+     \big)
+     e^{a_1} \, e^{a_2} \, e^{a_3}
+     \,.
+    \end{array}
+  \]
+  Here the multiplicities of the nonvanishing Clifford-contractions arise via [this Lemma](Majorana+spinor#ProductOfLinearCliffordGenerators):
+  $$
+    \begin{array}{l}
+      1 \;=\; 0! \Big( {2 \atop 0} \Big) \Big( {3 \atop 0} \Big)
+      \\
+      6 \;=\; 2! \Big( {2 \atop 2} \Big) \Big( {3 \atop 2} \Big)
+      \\
+      8 \;=\; 1! \Big( {2 \atop 1} \Big) \Big( {4 \atop 1} \Big)
+    \,,
+    \end{array}
+  $$
+  and all remaining contractions vanish inside the spinor pairing by [this lemma](Majorana+spinor#VanishingQuadraticFormsOn32).
+
+  Now using (eq:PairingTheHaTermInRho) in (eq:ComponentsOfBianchiForGs4) yields:
+  $$
+    \begin{array}{l}
+    \mathrm{const}_1 = -1/6
+    \,,
+    \\
+    \mathrm{const}_2 
+      = 
+    -
+    4!/3!
+    \,
+    \mathrm{const}_1 / 8
+      =
+    + 1/12 
+    \,,
+    \end{array}
+  $$ 
+  as claimed.
+\end{proof}
+
 
 \begin{lemma}\label{SuperBianchiIdentityOnG7InComponents}
   Given the [[Bianchi identity]] for $G^s_4$ (eq:BianchiIdentityForG4sInComponents), then 
