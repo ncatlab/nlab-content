@@ -90,7 +90,7 @@ $$
   \,.
 $$
 
-In the [[model structure on L-infinity algebras|homotopy theory of L-infinity algebra]] this means that
+In the [[model structure on L-infinity algebras|homotopy theory of L-infinity algebras]] this means that
 
 $$
   \array{
