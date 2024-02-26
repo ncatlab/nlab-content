@@ -18,7 +18,7 @@
 ## Idea
 
 An [[endofunctor]] on a [[category]] $\mathcal{A}$ is _pointed_ if it is equipped with a [[natural transformation]] from the [[identity functor]].
-
+from
 
 
 ## Definition
@@ -86,6 +86,8 @@ Rather, a pointed endofunctor is equipped with a map from the [[unit object]] fo
 * [[pointed object]]
 
 * [[well-pointed endofunctor]]
+
+* [[copointed endofunctor]]
 
 ## References
 
