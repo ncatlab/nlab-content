@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[prime factorization]] [[algorithm]] for [[quantum computers]].
+A [[prime factorization]] [[algorithm]] for [[quantum computers]] (cf. *[[quantum algorithm]]*).
 
 ## Related concepts
 
