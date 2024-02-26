@@ -19,7 +19,7 @@
 
 ## Idea
 
-The notion that for certain tasks the power of [[quantum computation]] potentially drastically surpasses that of [[classical physics|classical]] [[computation]] (e.g. via [[Shor's algorithm]]) has been called *quantum supremacy* ([Preskill 2013](#Preskill13), there related to the computational resource of [[quantum entanglement]]) or *quantum advantage*.
+The notion that for certain tasks the power of [[quantum computation]] potentially drastically surpasses that of [[classical physics|classical]] [[computation]] (e.g. via [[quantum algorithms]] such as [[Shor's algorithm]]) has been called *quantum supremacy* ([Preskill 2013](#Preskill13), there related to the computational resource of [[quantum entanglement]]) or *quantum advantage*.
 
 ## Related concepts
 
