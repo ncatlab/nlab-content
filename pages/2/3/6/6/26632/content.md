@@ -530,13 +530,13 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
       \,
       \tfrac{1}{3!}
       \,
-      (G_4)_{a_3 b_1 b_2 b_3}
+      (G_4)_{b_3 a_1 a_2 a_3}
        \big(
        \overline{\psi}
-       \,\Gamma^{a_3}\,
+       \,\Gamma^{b_3}\,
        \psi
        \big)
-     e^{b_1} \, e^{b_2} \, e^{b_3}
+     e^{a_1} \, e^{a_2} \, e^{a_3}
      \\
      &
      \;\;\;+\,
@@ -965,7 +965,8 @@ $$
   \end{array}
 $$
 \end{lemma}
-This is essentially [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+This is indicated in [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+It follows by solving the super-gravitational Bianchi identities \eqref{GravitationalBianchiIdentities}, using from the previous lemmas only the form of the gravitino field strength (eq:BianchiIdentityForG4sInComponents).
 
 In conlcusion, the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
 
