@@ -17,6 +17,10 @@ On [[dynamic lifting]] (of [[quantum measurement]]-results) in [[quantum program
 * [[Dongho Lee]], *Formal Methods for Quantum Programming Languages*, Paris Saclay (Dec 2022) &lbrack;[hal:tel-03895847](https://hal.science/LMF/tel-03895847)&rbrack;
 
 
+On [[software verification]] ([[formal methods]]) for [[quantum computing]]/[[quantum algorithms]]:
+
+* Christophe Chareton, Sébastien Bardin, [[Dongho Lee]], [[Benoît Valiron]], Renaud Vilmart, Zhaowei Xu, *Formal Methods for Quantum Programs: A Survey*, in: *Handbook of Formal Analysis and Verification in Cryptography*, CRC (2023) &lbrack;[arXiv:2109.06493](https://arxiv.org/abs/2109.06493), [doi:10.1201/9781003090052](https://doi.org/10.1201/9781003090052)&rbrack;
+
 
 
 
