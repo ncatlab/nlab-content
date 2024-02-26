@@ -103,6 +103,8 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 ## Related entries
 
+* [[quantum algorithm]]
+
 * [[quantum simulation]]
 
 * [[quantum sensing]]
