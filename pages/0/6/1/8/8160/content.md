@@ -1,6 +1,5 @@
 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -29,6 +28,8 @@
 * [[effective homology]]
 
 ## Related concepts
+
+* [[quantum algorithm]]
 
 * [[program]]
 
