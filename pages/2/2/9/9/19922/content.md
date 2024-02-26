@@ -33,3 +33,4 @@ Abstractly, PRA can be described as the initial Skolem theory. Precise statement
 ##Related pages
 
 * [[ordinal analysis]]
+* [[finite mathematics]]
