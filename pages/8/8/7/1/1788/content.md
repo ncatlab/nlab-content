@@ -1,3 +1,9 @@
+
+$$
+  \color{darkblue} \text{ kkk}
+$$
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
