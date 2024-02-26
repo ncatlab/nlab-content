@@ -157,13 +157,13 @@ Under the name "doubly supersymmetric geometrical approach" the formalism origin
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
 
 
-Review is in
+Review:
 
-* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. 329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
-* {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
+* {#Sorokin01} [[Dmitri Sorokin]], *Introduction to the Superembedding Description of Superbranes*, AIP Conference Proceedings **589** 98 (2001) &lbrack;[arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102), [doi:10.1063/1.1419318](https://doi.org/10.1063/1.1419318)&rbrack;
 
-where also the term "superembedding approach" is introduced.
+where also the terminology "superembedding approach" is introduced.
 
 Further review:
 
