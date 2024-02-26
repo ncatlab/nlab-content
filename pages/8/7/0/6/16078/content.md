@@ -43,10 +43,6 @@ Discussion including the higher order obstructions in [[Spencer cohomology]] to 
 
 * {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([jstor:1994134](http://www.jstor.org/stable/1994134))
 
-Formalization in [[homotopy type theory]] is in
-
-* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
-
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
@@ -68,6 +64,13 @@ Discussion specifically for kinematical groups:
 See also
 
 * Wikipedia, _[Torsion of a G-structure](https://en.wikipedia.org/wiki/G-structure#Torsion_of_a_G-structure)_
+
+Formalization in [[homotopy type theory]] (so far only for infinite-order torsion):
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ (2017)
+
+
+
 
 [[!redirects torsion of G-structures]]
 
