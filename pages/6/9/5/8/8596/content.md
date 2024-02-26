@@ -1,5 +1,5 @@
-Given an associative algebra $A$, with enveloping algebra $A^e = A\otimes A^{op}$, the Takeuchi product $\times_A$ is certain product 
-in the category of $A$-[[ring]]s.
+Given an associative algebra $A$, with enveloping algebra $A^e = A\otimes A^{op}$, the Takeuchi product $\times_A$ is a certain bifunctor 
+in the category of $A^e$-[[ring]]s.
 It generalizes a construction of [[M. E. Sweedler]] where $A$ is commutative; Sweedler's article may be itself viewed in a sense a "generalization of the relative [[Brauer group]] and the associated theory". 
 
 Takeuchi product is used in the theory of associative [[bialgebroid]]s over noncommutative base.
