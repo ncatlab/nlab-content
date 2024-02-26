@@ -19,7 +19,7 @@
 
 ## Idea
 
-An early example of an [[algorithm]] for which [[quantum computers]] are expected to drastically outperform classical computers.
+An early example of a [[algorithm]] for which [[quantum computers]] are expected to drastically outperform classical computers (cf. *[[quantum algorithm]]*).
 
 ## Related concepts
 
