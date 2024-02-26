@@ -53,6 +53,8 @@ If $F$ is equipped with the structure of a [[monad]], then a coalgebra for it is
 
 =--
 
+If $F$ is a [[copointed endofunctor]] with copoint $\epsilon : F \to Id$, then by a **coalgebra** for $F$ one usually means a *pointed coalgebra*, i.e. one such that $\epsilon_X \circ \alpha = id_X$.
+
 
 ## Examples 
 
@@ -121,6 +123,8 @@ More information may be found at [[coalgebra of the real interval]].
 
 
 ## Related concepts
+
+* [[copointed endofunctor]]
 
 * [[list of notable initial algebras and terminal coalgebras]]
 
