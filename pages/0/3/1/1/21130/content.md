@@ -21,7 +21,7 @@
 
 ## Idea
 
-A search [[algorithm]] for [[quantum computers]] which is expected to produce quadratic speedup (from $O(N)$ to $O(\sqrt{N})$) compared to classical computers.
+A search [[algorithm]] for [[quantum computers]] (cf. *[[quantum algorithm]]*) which is expected to produce quadratic speedup (from $O(N)$ to $O(\sqrt{N})$) compared to classical computers.
 
 ## Related concepts
 
