@@ -15,7 +15,7 @@
 
 ## Idea
 
-The Baum-Connes conjecture asserts that under suitable technical conditions, the [[operator K-theory]]/[[KK-theory]] of the [[groupoid convolution algebra]] of an [[action groupoid|action]] [[topological groupoid]] $X//G$ is equivalent to the _$G$-[[equivariant cohomology|equivariant]]_ [[topological K-theory]]/[[equivariant operator K-theory]]/[[equivariant KK-theory]] of $X$. Moreover, it says that this equivalences is exhibited by the _[[analytic assembly map]]_.
+The Baum-Connes conjecture asserts that under suitable technical conditions, the [[operator K-theory]]/[[KK-theory]] of the [[groupoid convolution algebra]] of an [[action groupoid|action]] [[topological groupoid]] $X//G$ is equivalent to the _$G$-[[equivariant cohomology|equivariant]]_ [[topological K-theory]]/[[equivariant operator K-theory]]/[[equivariant KK-theory]] of $X$. Moreover, it says that this equivalence is exhibited by the _[[analytic assembly map]]_.
 (Just the [[injective map|injectivity]] of this map is related to the [[Novikov conjecture]].)
 
 The original version of the Baum-Connes conjecture ([Baum-Connes](#BaumConnes00)) stated for a suitable [[topological group]] $G$ that with $X = E G \simeq \ast$ the point incarnated as the $G$-[[universal principal bundle]] with its free $G$-[[action]] the [[analytic assembly map]] (the $G$-equivariant [[index]] map)
