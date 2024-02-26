@@ -313,7 +313,7 @@ $$
 \end{remark}
 
 \begin{remark}\label{TensorAdjunctabilityDoesNotImplyDualizability}
-**(Tensor-adjuncatibility does not imply dualizability)**
+**(Tensor-adjunctability does not imply dualizability)**
 \linebreak
 Prop. \ref{RelationToAdjunctableTensorProducts} does *not* claim that for $A$ to be dualizable it is sufficient that $(\text{-}) \otimes A$ has a [[right adjoint]].
 
