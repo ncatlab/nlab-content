@@ -90,6 +90,8 @@ Dialgebras can be used to provide semantics to interactive programs; [[coalgebra
 
 * {#subeq} [[Joachim Lambek]], _Subequalizers_, 1970
 
+* [[Peter Freyd]], _Recursive types reduced to inductive types_, [1990] Proceedings. Fifth Annual IEEE Symposium on Logic in Computer Science. IEEE, 1990.
+
 * Erik Poll, Jan Zwanenburg, _From Algebras and Coalgebras to Dialgebras_, Electronic Notes in Theoretical Computer Science 44(1), May 2001, 289-307, ([doi:10.1016/S1571-0661(04)80915-0](https://doi.org/10.1016/S1571-0661%2804%2980915-0)).
 
 * {#lam} [[Tatsuya Hagino]], _A Typed Lambda Calculus with Categorical Type Constructors_, 2005, [link](https://link.springer.com/chapter/10.1007/3-540-18508-9_24)
