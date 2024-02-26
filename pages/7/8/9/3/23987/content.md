@@ -1823,6 +1823,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > In this presentation, I demonstrate a novel [[quantum mechanics|quantum mechanical]] scheme: broad-band pulsed DNP sequences. Comprising carefully choreographed sequences of quantum gates or pulses, each precisely controlled in phase and time, these sequences represent a pivotal advancement beyond conventional DNP methods. Through [[density matrix]]-based theoretical analyses and numerical simulations, I navigate the intricacies of these sequences, offering a deeper comprehension of their foundational principles and the quantum symphony they orchestrate in enhancing nuclear spin sensitivity.
 
+\linebreak
+
+* {#ValironFeb2024} 26 Feb 2024
+
+  [[Benoît Valiron]]:
+
+  **Reversible and Quantum Control-Flow**
+
+  > One perspective on [[quantum algorithms]] is that they are classical [[algorithms]] having access to a [[quantum memory|special kind of memory]] with exotic properties. This perspective suggests that, even in the case of quantum algorithms, the control flow notions of sequencing, conditionals, loops, and [[recursion]] are entirely classical. There is, however, another notion of execution control flow that is itself quantum. In this talk, we shall overview the two paradigms and discuss the issues specific to quantum control.
 
 \linebreak
 
