@@ -269,7 +269,7 @@ is equivalent to the joint solution by $\big(e, \psi, \omega, G_4^s,\, G_7^s\big
 This is, in some paraphrase, the result of [CDF91, §III.8.5](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre), We indicate the **proof** broken up in the following Lemmas \ref{SuperBianchiIdentityOnG4InComponents}, \ref{SuperBianchiIdentityOnG7InComponents}, and 
 \ref{SuperCFieldBianchiImpliesSuGraEoM}.
 
-In all lemmas one expands the Bianchi identoties in their super-vielbein form components.
+In all of the following lemmas one expands the Bianchi identoties in their super-vielbein form components.
 
 \begin{remark}
 **(Normalization conventions)**
@@ -300,7 +300,14 @@ Here:
 
 \begin{lemma}
 \label{SuperBianchiIdentityOnG4InComponents}
-  The [[Bianchi identity]] for $G^s_4$ (eq:SuperFluxBianchiIdentity) is equivalent to the closure of the ordinary 4-flux density $G_4$ and the following $\psi$-dependence of $\rho$ on $G_4$ (shown in any super-chart):
+  The [[Bianchi identity]] for $G^s_4$ (eq:SuperFluxBianchiIdentity) is equivalent to 
+
+1. the closure of the ordinary 4-flux density $G_4$ 
+
+1. the following $\psi$-dependence of $\rho$ on $G_4$ (shown in any super-chart)
+
+1. a weak [[Rarita-Schwinger equation]]:
+
 \[
   \label{BianchiIdentityForG4sInComponents}
   \begin{array}{l}
@@ -337,6 +344,10 @@ Here:
       \psi
       \, 
       e^a
+      \\
+      \Gamma^{b_1 \cdots b_7 a_1 a_2}
+      \rho_{a_1 a_2} \;=\; 0
+      \,.
     \end{array}
     \right.
   \end{array}
@@ -594,7 +605,14 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
 
 \begin{lemma}\label{SuperBianchiIdentityOnG7InComponents}
   Given the [[Bianchi identity]] for $G^s_4$ (eq:BianchiIdentityForG4sInComponents), then 
- the [[Bianchi identity]] for $G^s_7$ (eq:SuperFluxBianchiIdentity) is equivalent to the Bianchi identity for the ordinary flux density $G_7$ and its [[Hodge duality]] to $G_4$:
+ the [[Bianchi identity]] for $G^s_7$ (eq:SuperFluxBianchiIdentity) is equivalent to 
+
+1. the Bianchi identity for the ordinary flux density $G_7$ 
+
+1. its [[Hodge duality]] to $G_4$
+
+1. a less weak [[Rarita-Schwinger equation]] on the gravitino:
+
 \[
   \label{BianchiIdentityForG7sInComponents}
   \begin{array}{l}
@@ -629,6 +647,9 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
       \tfrac{1}{4!}
       \epsilon_{a_1 \cdots a_b b_1 \cdots b_4}
       (G_4)^{b_1 \cdots b_4}
+      \\
+      \Gamma^{b_1 \cdots b_4 a_1 a_2}
+      \, \rho_{a_1 a_2} \;=\; 0
     \end{array}
     \right.
   \end{array}
@@ -709,6 +730,12 @@ $$
     (G_4)_{a_5 \cdots a_8}
   \Big)
   e^{a_1} \cdots e^{a_8}
+  \\
+  \Gamma_{a_1 \cdots a_5} 
+  \rho_{a_6 a_7}
+  \, e^{a_1} \cdots e^{a_7}
+  \;=\;
+  0
   \\
   \left.
   \begin{array}{l}
@@ -955,11 +982,15 @@ $$
       \,
       (G_4)^{c_1 \cdots c_4}
       (G_4)_{c_1 \cdots c_4}
+      \;\;\;\;
+      ({\color{darkblue}\text{Einstein equation}})
       \\
-      \Gamma^{c a b}
-      \rho_{a b}
+      \Gamma^{b a_1 a_2}
+      \rho_{a_1 a_2}
       \;=\;
       0
+      \;\;\;\;
+      ({\color{darkblue}\text{Rarita-Schwinger equation}})
     \end{array}
     \right.
   \end{array}
