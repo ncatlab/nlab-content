@@ -23,6 +23,23 @@ $$
 
 The *Stieltjes integral* can refer to two different [[integral|integrals]]: the [[Riemann-Stieltjes integral]] or the [[Lebesgue-Stieltjes integral]].
 
+$$
+\big( (x+2) \big)
+$$
+
+and
+
+$$
+  \int_{c' \in \mathcal{C}} 
+  V\big(
+    \mathcal{C}(c',c)
+    ,\, F(c')
+  \big) 
+    \;\simeq\; 
+  F(c)
+  \,.
+$$
+
 ## Related concepts
 
 * [[integral]]
