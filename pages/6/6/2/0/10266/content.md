@@ -11,6 +11,10 @@ On [[Bekenstein-Hawking entropy]]:
 
 * [[Thanu Padmanabhan]], _Thermodynamical Aspects of Gravity: New insights_, Rep. Prog. Phys. **73** (2010) 046901 &lbrack;[arXiv:0911.5004](http://arxiv.org/abs/0911.5004)&rbrack;
 
+On [[gravity]] ([[general relativity]]):
+
+* [[Thanu Padmanabhan]], *Gravitation -- Foundations and Frontiers*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511807787](https://doi.org/10.1017/CBO9780511807787), [spire:852758](https://inspirehep.net/literature/852758), toc: [pdf](https://web.iucaa.in/~paddy/books/GRTOC.pdf)&rbrack;
+
 On [[gravity]] in relation to [[thermodynamics]]:
 
 * [[Thanu Padmanabhan]], *Gravity and/is Thermodynamics*,  Current Science, **109** (2015) 2236-2242 &lbrack;[doi:10.18520/v109/i12/2236-2242](https://doi.org/10.18520/v109/i12/2236-2242)&rbrack;
