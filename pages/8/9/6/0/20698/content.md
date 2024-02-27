@@ -57,6 +57,10 @@ The category $PF$ of [[sets]] and [[partial functions]] is the prototypical exam
 
 * {#CockettLack07} [[Robin Cockett]] and [[Steve Lack]], _Restriction categories III: colimits, partial limits and extensivity_, Mathematical Structures in Computer Science **17** 4 (2007)  775-817 &lbrack;[arXiv:math/0610500](https://arxiv.org/abs/math/0610500), [doi:10.1017/S0960129507006056](https://doi.org/10.1017/S0960129507006056)&rbrack;
 
+The following provides some historical context for the notion of restriction category in §2, and describe the relation to [[allegories]]:
+
+* [[Robin Cockett]] and [[Ernie Manes]], _Boolean and classical restriction categories_, Mathematical Structures in Computer Science 19.2 (2009): 357-416.
+
 * {#CockettGarner14} [[Robin Cockett]] and [[Richard Garner]], _Restriction categories as enriched categories_, Theoretical Computer Science **523** (2014) 37-55 &lbrack;[arXiv:1211.6170](https://arxiv.org/abs/1211.6170), [doi:10.1016/j.tcs.2013.12.018](https://doi.org/10.1016/j.tcs.2013.12.018)&rbrack;
 
 A [[double category|double categorical]] approach to restriction categories is proposed in:
