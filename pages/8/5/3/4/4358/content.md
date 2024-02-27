@@ -29,6 +29,8 @@
 
 A _prime number_ is a nonzero [[natural number]] that cannot be written as a [[multiplication|product]] of finitely many natural numbers (all) other than itself, hence a natural number greater than 1 that is [[division|divisible]] only by 1 and itself.
 
+Equivalently, a _prime number_ is a [[natural number]] $A$ such that $A$ is not equal to 1, and for all natural numbers $B$ and $C$, $A = B \cdot C$ implies that either $B$ is equal to 1 or $C$ is equal to 1. 
+
 This means that every [[natural number]] $n \in \mathbb{N}$ is, up to re-ordering of factors, _uniquely_ expressed as a product of a tuple of prime numbers:
 
 $$
@@ -81,6 +83,18 @@ see at _[[prime number theorem]]_
 * [[Fermat prime]]
 * [[Mersenne prime]]
 * [[twin prime]]
+
+## Finite sets with prime number cardinality
+
+The following statements are equivalent for a [[finite set]] $A$:
+
+* $A$ has a prime number [[cardinality]]
+
+* $A$ is not a [[singleton]], and for all [[finite sets]] $B$ and $C$ for which there exists a [[bijection]] $A \cong B \times C$, either $B$ is a [[singleton]] or $C$ is a [[singleton]]. 
+
+In [[dependent type theory]], this is expressed for $A:\mathrm{Fin}$ as
+
+$$\mathrm{hasPrimeCard}(A) \coloneqq \neg \mathrm{isContr}(A) \times \prod_{B:\mathrm{Fin}} \prod_{C:\mathrm{Fin}} [A \simeq B \times C] \to (\mathrm{isContr}(B) \vee \mathrm{isContr}(C))$$
 
 ## Related concepts
 
