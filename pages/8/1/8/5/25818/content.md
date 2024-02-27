@@ -17,7 +17,31 @@
 =--
 =--
 
-\tableofcontents
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+There are multiple ways to [[categorify]] the [[function comprehension principle]] from a method of constructing functions to a method of constructing [[functors]]. They have in common that they give a method of defining a functor without explicitly defining functions on objects or morphisms. Since one also doesn't need to prove the action on morphisms is functorial, this can lead to a large reduction in effort, and so these constructions are very commonly used, though not often by a name. These principles become even more useful in [[higher category theory]], due to the combinatorial explosion in coherence conditions at higher dimension.
+
+We describe on this page two formulations that have well-known generalizations to categories. First, the formulation
+
+> Every [[anafunction]] is the graph of a function.
+
+can be generalized to the statement that every [[anafunctor]] is (naturally isomorphic to) the [[graph of a functor]]. Since anafunctions/anafunctors are not a commonly used notion (precisely because of the comprehension principles), this principle is usually stated as
+
+> Every [[injective]], [[surjective]] function has a (necessarily unique) inverse.
+
+and the "anafunctors determine functors" formulation can be rephrased as the more familiar category theoretic principle that every [[fully faithful]], [[essentially surjective]] functor has a (necessarily unique up to unique natural isomorphism) [[inverse functor|inverse]].
+
+A second formulation of the function comprehension principle, that is not quite as trivially equivalent, is the following, sometimes called the "axiom/principle of unique choice" for its resemblance in logical structure to a formulation of the [[axiom of choice]]:
+
+> Given a [[relation]], i.e. a function to a [[powerset]] $P : A \to P B$, if for every $x \in A$, $P(a)$ is [[uniqueness quantifier|uniquely inhabited]], then $P$ is equal to the extension of a unique function $f : A \to B$ by the inclusion $i : B \to P(B)$ of singletons. That is, $P = i \circ f$.
+
+This definition can be cleanly generalized to functors as follows. Given a [[profunctor]], i.e., a functor to a [[presheaf category]] $P : C \to Psh(D)$, if for every $c \in C$, $P(c)$ is [[representable]], then $P$ is naturally isomorphic to the extension of a unique (up to unique natural isomorphism) functor $F : C \to D$ by the [[Yoneda embedding]] $Y : D \to Psh(D)$. That is, $P \cong Y \circ F$. This formulation is sometimes referred to as "parameterized representability", or simply as an application of the [[Yoneda lemma]].
+
+## Every Fully Faithful Eso is an Equivalence
 
 Consider the statement:
 
@@ -27,7 +51,7 @@ If we use a set-theoretic foundation for mathematics, then this statement is equ
 
 We start by characterizing full, faithful, and eso morphisms in the internal logic.
 
-## Faithful morphisms
+### Faithful morphisms
 
 Consider first the following theory with two 1-types $A$ and $B$:
 
@@ -37,7 +61,7 @@ Consider first the following theory with two 1-types $A$ and $B$:
 Of course, the first axiom interprets by a morphism $f\colon A\to B$.  This induces a map from $ker(A) \to (f/f)$ over $A\times A$.  The context of the second axiom above is the kernel pair of this map (as a map between discrete objects in $K/A\times A$); thus the second axiom asserts that this kernel pair factors through the diagonal of $ker(A)$, and hence is monic.  But this is equivalent to saying that $f$ is faithful, so a model of this theory in a lex 2-category is precisely a faithful morphism.
 
 
-## Full and ff morphisms
+### Full and ff morphisms
 
 Now consider the following theory, again with two 1-types $A$ and $B$:
 
@@ -64,7 +88,7 @@ The first two axioms give a faithful morphism $f\colon A\to B$, as above, and no
 I don't know whether there is a theory in lex 2-logic whose models in lex 2-categories are precisely full morphisms, but I suspect not.  I also don't know whether there is a theory in regular 2-logic whose models in non-exact regular 2-categories are precisely full morphisms.
 
 
-## Eso morphisms
+### Eso morphisms
 
 Now consider the regular 2-theory
 
@@ -82,7 +106,7 @@ Of course, we can then write the combined theory
 whose models in exact 2-categories are precisely the eso+full morphisms.
 
 
-## Equivalences
+### Equivalences
 
 It follows from the above considerations that a model of the following theory:
 
@@ -101,8 +125,16 @@ Of course, in a [[Heyting 2-category]], the latter three axioms can equivalently
 
 which have perhaps the most familiar form.
 
+## Every Point-wise Representable Profunctor is a Functor
+
+For now see [[representability determines functoriality]], which should eventually be merged with this page. 
+
 ## References
 
-The above definitions and observations are originally due to
+The definitions and observations on the first given formulation of the principle are originally due to
 
 * [[Michael Shulman]], _[[michaelshulman:functor comprehension principle]]_ 
+
+
+[[!redirects functor comprehension]]
+[[!redirects parameterized representability]]
