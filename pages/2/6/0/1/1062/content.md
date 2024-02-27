@@ -36,7 +36,7 @@ such that for all triples $a,b,c$ of objects the
 $
   \circ_{a,b,c} : Hom_C(a,b) \times Hom_C(b,c) \to Hom_C(a,c)
 $
-is bilinear. A __ringoid__ is small $Ab$-enriched category.
+is bilinear. A __ringoid__ is a small $Ab$-enriched category.
 
 
 ## Remarks
