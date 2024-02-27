@@ -16,6 +16,8 @@ In the same way as lattices, one could either assume that prelattices have top a
 
 * [[Heyting prealgebra]]
 
+* [[prelattice-ordered ring]]
+
 [[!redirects prelattice]]
 [[!redirects prelattices]]
 
