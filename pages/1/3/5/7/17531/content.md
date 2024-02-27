@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,7 +17,7 @@
 
 ## Idea
 
-The [[natural numbers]] $0, 1, 2, \ldots$ are [[poset|partially ordered]] by the divisibility relation: $a|b$ if $b = a k$ for some natural number $k$. This poset is in fact a [[lattice]]. The *greatest common divisor* of $a, b$ is their [[meet]] in this lattice. 
+The [[natural numbers]] $0, 1, 2, \ldots$ are [[poset|partially ordered]] by the [[divisibility relation]]: $a|b$ if $b = a k$ for some natural number $k$. This poset is in fact a [[lattice]]. The *greatest common divisor* of $a, b$ is their [[meet]] in this lattice. 
 
 ## Remarks 
 
