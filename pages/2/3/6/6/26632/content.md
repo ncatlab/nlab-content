@@ -1,5 +1,6 @@
 
 
+
 ## 11d-SuGra from Super C-Field Flux Quantization
  {#11DSugraFromSuperCFieldFluxQuantization}
 
@@ -345,14 +346,18 @@ shown in any super-chart:
       \, 
       e^a
       \\
-      \big(
-        \Gamma_{a_1 a_2}
-        \rho_{a_3 a_4} 
-        \;-\; 
+      \Big(
+        \tfrac{1}{4!}
+        \psi^\alpha
         \nabla_\alpha
         (G_4)_{a_1 \cdots a_4}
-      \psi^\alpha
-      \big)
+        \;+\;
+        \big(
+          \overline{\psi}
+          \Gamma_{a_1 a_2}
+          \rho_{a_3 a_4} 
+        \big)
+      \Big)
       e^{a_1} \cdots e^{a_4}
       \;=\;
       0
@@ -420,16 +425,20 @@ Therefore, the Bianchi identity has the following components,
         \;=\;
         0
         \\
-        \psi^\alpha
-        \big(
-          \nabla_\alpha
-          (G_4)_{a_1 \cdots a_4}
-        \big)
-        e^{a_1 \cdots a_4}
-        \;+\;
-        \overline{\psi}
-        \Gamma_{a_1 a_2}
-        \rho_{a_3 a_4}
+        \Big(
+          \tfrac{1}{4!}
+          \psi^\alpha
+          \big(
+            \nabla_\alpha
+            (G_4)_{a_1 \cdots a_4}
+          \big)
+          \;+\;
+          \big(
+            \overline{\psi}
+            \Gamma_{a_1 a_2}
+            \rho_{a_3 a_4}
+          \big)
+        \Big)
         e^{a_1} \cdots e^{a_4}
         \;=\;
         0
@@ -671,14 +680,20 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
       \epsilon_{a_1 \cdots a_b b_1 \cdots b_4}
       (G_4)^{b_1 \cdots b_4}
       \\
-      \big(
-        \nabla_{\alpha}
+      \Big(
+        \tfrac{1}{7!}
+        \psi^\alpha
+        \nabla_\alpha
         (G_7)_{a_1 \cdots a_7}
         \psi^\alpha
-        +
-        \Gamma_{a_1 \cdots a_5} 
-        \rho_{a_6 a_7}
-      \big)
+        \;+\;
+        \frac{2}{5!}
+        \big(
+          \overline{\psi}
+          \Gamma_{a_1 \cdots a_5} 
+          \rho_{a_6 a_7}
+        \big)
+      \Big)
       e^{a_1} \cdots e^{a_7}
       \;=\;
       0
@@ -763,14 +778,19 @@ $$
   \Big)
   e^{a_1} \cdots e^{a_8}
   \\
-  \big(
-    \nabla_{\alpha}
-    (G_7)_{a_1 \cdots a_7}
+  \Big(
+    \tfrac{1}{7!}
     \psi^\alpha
+    \nabla_\alpha
+    (G_7)_{a_1 \cdots a_7}
     +
-    \Gamma_{a_1 \cdots a_5} 
-    \rho_{a_6 a_7}
-  \big)
+    \frac{2}{5!}
+    \big(
+      \overline{\psi}
+      \Gamma_{a_1 \cdots a_5} 
+      \rho_{a_6 a_7}
+    \big)
+  \Big)
   e^{a_1} \cdots e^{a_7}
   \;=\;
   0
