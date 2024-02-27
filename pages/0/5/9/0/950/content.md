@@ -29,25 +29,30 @@ For the opinionated espousal of finitism (and much else), one can hardly do bett
 
 ### The mathematics of FinSet
 
-An alternative definition of finite mathematics is as the mathematics of [[FinSet]]. This includes the basic arithmetic of [[natural numbers]], since these are the [[cardinal numbers|cardinalities]] of finite sets. This may seem contradictory to the entire conception of "finite mathematics", since the [[natural numbers]] form an infinite set. The way out is to state that the natural numbers don't form a set (or class) at all; instead, they are formally defined outside of the [[set theory]] via an auxiliary theory like [[primitive recursive arithmetic]]. This phenomenon is similar to defining the [[universe hierarchy]] of [[Russell universes]] or [[Coquand universes]] in [[dependent type theory]] without a separate [[type]] [[judgment]], where the natural numbers used in the universe indices are not elements of a type, but rather formally defined outside of the type theory using some other theory. 
+One definition of finite mathematics is as the mathematics of [[FinSet]]. This includes the basic arithmetic of [[natural numbers]], since these are the [[cardinal numbers|cardinalities]] of finite sets. This may seem contradictory to the entire conception of "finite mathematics", since the [[natural numbers]] form an infinite set. The way out is to state that the natural numbers don't form a set (or class) at all; instead, they are formally defined outside of the [[set theory]] via an auxiliary theory like [[primitive recursive arithmetic]]. This phenomenon is similar to defining the [[universe hierarchy]] of [[Russell universes]] or [[Coquand universes]] in [[dependent type theory]] without a separate [[type]] [[judgment]], where the natural numbers used in the universe indices are not elements of a type, but rather formally defined outside of the type theory using some other theory. 
 
 ### Neutral finite mathematics
 
-One definition of finite mathematics is **neutral finite mathematics**; i.e. mathematics done internally to an [[elementary topos]] (constructively) or [[Boolean topos]] (classically), but which does not assume either the [[axiom of infinity]] or the [[axiom of finiteness]]. There are no [[natural numbers]]; instead one works directly with the [[finite sets]] in neutral finite mathematics in neutral finite mathematics. 
+An alternative definition of finite mathematics is **neutral finite mathematics**; i.e. mathematics done internally to an [[elementary topos]] (constructively) or [[Boolean topos]] (classically), but which does not assume either the [[axiom of infinity]] or the [[axiom of finiteness]]. There are no [[natural numbers]]; instead one works directly with the [[finite sets]] in neutral finite mathematics in neutral finite mathematics. 
 
-In particular, in the [[internal logic|internal]] [[type theory]] of neutral finite mathematics, since types in the internal type theory aren't [[free variables]], one cannot quantify over finite sets, which means that many concepts in elementary number theory cannot be defined. For example, one cannot define the analogue of individual [[factors]] or a [[prime number]] for finite sets in neutral finite mathematics, since the definition in the [[natural numbers]] requires quantifying over natural numbers, which cannot be done for finite sets in neutral finite mathematics. 
-
-Alternatively, one can attempt to approximate arithmetic in the natural numbers by considering increasing long [[tuples]] of digits - elements of a finite set $D$, via the inclusions
+Alternatively, one can attempt to approximate arithmetic in the natural numbers by considering increasing long [[tuples]] of digits - elements of a [[finite set]] $D$, via the inclusions
 
 $$\mathbb{1} \hookrightarrow D \hookrightarrow D \times D \hookrightarrow D \times D \times D \hookrightarrow \ldots$$
 
-The non-negative [[rational numbers]] do not exist in neutral finite mathematics. The analogues of the rational numbers are [[action groupoids]] $G // X$, given a [[finite group]] $G$ as an [[action]] on a set $X$, which corresponds to the [[fraction]] $m/n$ where $m$ is the cardinality of $G$ and $n$ is the cardinality of $X$. However, since in general groupoids are not sets unless they are [[discrete groupoids|discrete]], one cannot do the set-like analogue of rational arithmetic in neutral finite mathematics. 
+In particular, in the [[internal logic|internal]] [[type theory]] of neutral finite mathematics, since types in the internal type theory aren't [[free variables]], one cannot quantify over finite sets, which means that many concepts in elementary number theory cannot be internally defined in neutral finite mathematics for finite sets. Examples include: 
 
-Similarly, trying to encode the negative [[integers]] directly as set-like objects seems to require infinity, since infinity is inherent in the [[sphere spectrum]] $\lim_{n \to \infty} \Omega^n S^n$ (which is kind of like [[FinSet]] but with negative [[cardinalities]]) from the fact that the [[sphere spectrum]] is not $\pi$-finite. Furthermore, any attempt to axiomatize the sphere spectrum as the initial [[E-infinity ring]] will result in [[coherence law|coherence issues]] from the fact that the syntax cannot handle infinite structure without the natural numbers. 
+* Unlike the case for division of [[natural numbers]], which can be defined via [[induction]] or [[recursion]] on the [[natural numbers]], the [[division]] of two [[finite sets]] cannot be defined via the usual set-theoretic operations on [[finite sets]] in neutral finite mathematics. Instead, one needs to add additional set constructors to neutral finite mathematics which state that given finite set $A$ and finite [[pointed set]] $B$ with an element $p:B$, one can construct finite sets $A \div B$ and $A\ \%\ B$ with bijections
+$$A \simeq ((B \times (A \div B)) + (A\ \%\ B)) \qquad (B \hookrightarrow A\ \%\ B) \simeq \emptyset$$
+meaning that it is no longer neutral finite mathematics. 
 
-However, one can attempt to approximate arithmetic in the integers by considering increasing long [[tuples]] of digits - elements of a finite set $D$ - with a sign bit at the beginning of the tuple, via the inclusions
+* As a result, the analogues of the notions of [[divisibility relation]], [[divisor]], [[greatest common divisor]], [[least common multiple]], [[prime number]], [[prime factorization]], and so forth, cannot be internally defined for finite sets in neutral finite mathematics. 
 
-$$\mathbb{2} \hookrightarrow \mathbb{2} \times D \hookrightarrow \mathbb{2} \times D \times D \hookrightarrow \mathbb{2} \times D \times D \times D \hookrightarrow \ldots$$
+* Furthermore, the definition of [[prime number]] requires quantification over finite sets, which is impossible in the internal logic since there are no finite set free variables. (The collection of finite sets are infinite, and so internally quantifying over that collection implies that one has an infinite collection in the foundations, contrary to finitism.) From this internal perspective, [[Doron Zeilberger]], despite his [Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html), is not finitist since he is able to define prime numbers and work with them (cf. [Zeilberger 01](#Zeilberger01)), which requires some notion of quantification over finite sets to define finite sets with prime number [[cardinality]], or otherwise the infinite set of natural numbers so that one can internally quantify over them for the definition of prime number. 
+
+* One can prove that given individual finite sets $A$ and $B$ that there is a bijection $A + B \simeq B + A$, but one cannot prove that there is a bijection $A + B \simeq B + A$ for all $A$ and $B$, because there are no finite set free variables in the internal logic. The same goes for any arithmetic or order-theoretic property for the set-theoretic operations on finite sets. Syntactically, the properties for finite sets are given by [[inference rules]] with at least one [[hypothesis]], rather than [[axioms]] as would be for the [[natural numbers]]: 
+$$\frac{A \; \mathrm{set} \quad p:\mathrm{isFinite}(A) \quad B \; \mathrm{set} \quad q:\mathrm{isFinite}(A)}{\mathrm{comm}_{A + B}(p, q):A + B \simeq B + A}$$
+
+* In [[predicative mathematics|predicative]] [[constructive mathematics|constructive]] neutral finite mathematics; i.e. internal to a [[Pi-pretopos|$\Pi$-pretopos]] without the [[natural numbers]] or a [[set of truth values]], one can't even define when a [[set]] is a [[finite set]], and thus one cannot do any natural numbers arithmetic in the guise of finite set arithmetic at all. Even basic arithmetic properties of the natural numbers like the [[cancellative monoid|cancellativity of multiplication]] don't apply to arbitrary sets in the absence of [[excluded middle]] (cf. [Swan 18](https://arxiv.org/abs/1804.04490)), and arbitrary sets only form a [[preorder]], rather than a [[total preorder]]. 
 
 ### $\pi$-finite mathematics
 
@@ -65,11 +70,15 @@ In [[homotopy type theory]], another possibility is available: $\pi$-finite math
 
 ## References
 
+* {#Zeilberger01} [[Doron Zeilberger]], *“Real” Analysis is a Degenerate Case of Discrete Analysis*, Transcript of a plenary talk delivered at the International Conference on Difference Equations and Applications (ICDEA 2001), Augsburg, Germany, Aug. 1, 2001. &lbrack;[pdf](https://sites.math.rutgers.edu/~zeilberg/mamarim/mamarimPDF/hersh90.pdf)&rbrack;
+
 * [[Edward Nelson]], _Warning Signs of a Possible Collapse of Contemporary Mathematics_ (~2011) &lbrack;[pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf), [[Nelson-WarningSigns.pdf:file]]&rbrack;
 
 * Manuel Bremer, *Inconsistent Mathematics*, ([slides](https://www.mbph.de/Logic/Para/InconsistentMathematics.pdf))
 
 [[!redirects finite mathematics]]
+
+[[!redirects neutral finite mathematics]]
 
 [[!redirects finitist mathematics]]
 [[!redirects finitism]]
