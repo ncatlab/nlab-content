@@ -191,6 +191,13 @@ This was the first definition of dependent sum types in dependent type theory, a
 
 ## Properties
 
+### Descent and large elimination
+
+The [[descent]] for the dependent sum type $\Sigma x:A.B(x)$ states that given any type family $x:A, y:B(x) \vdash C(x, y)$ one can construct a type family $z:\Sigma x:A.B(x) \vdash \mathrm{descFam}_{\Sigma x:A.B(x)}^{C}(z)$ with families of [[equivalences of types]] 
+$$x:A, y:B(x) \vdash \mathrm{descEquiv}_{\Sigma x:A.B(x)}^C:\mathrm{descFam}_{\Sigma x:A.B(x)}^{C}(\mathrm{in}(x, y)) \simeq C(x, y)$$
+Large elimination for sum types strengthens the equivalences of types in descent to [[judgmental equality of types]] 
+$$x:A, y:B(x) \vdash \mathrm{descFam}_{\Sigma x:A.B(x)}^{C}(\mathrm{in}(x, y)) \equiv C(x, y) \; \mathrm{type}$$
+
 ### Typal congruence rules
 
 These are called *typal congruence rules* because they are the analogue of the judgmental [[congruence rules]] which use [[identity types]] and [[equivalence types]] instead of [[judgmental equality]]:
