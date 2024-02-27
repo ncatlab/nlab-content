@@ -34,7 +34,7 @@ In generalization to ambient categories other that [[Sets]], an *empty morphism*
 
 ## Properties
 
-The empty function to the [[empty set]] is _not_ a [[constant function]].
+The empty function to the [[empty set]] is _not_ a [[constant function]], though it is a [[weakly constant function]].
 
 ## Related concepts
 
