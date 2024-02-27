@@ -10,7 +10,6 @@
 =--
 
 
-# Premonoidal categories
 * table of contents
 {: toc}
 
@@ -104,6 +103,10 @@ It seems unlikely that these desiderata can be reconciled purely in the world of
 * [[Freyd category]]
 
 ## References
+
+Premonoidal categories were introduced in:
+
+* Stuart Oliver Anderson, and [[A. J. Power]], _A representable approach to finite nondeterminism_, Theoretical Computer Science 177.1 (1997): 3-25.
 
 * {#PR97} [[John Power]] and [[Edmund Robinson]], _Premonoidal categories and notions of computation_, Math. Structures Comput. Sci., 7(5):453&#8211;468, 1997. Logic, domains, and programming languages (Darmstadt, 1995). 
  [PostScript](http://www.eecs.qmul.ac.uk/~edmundr/pubs/mscs97/premoncat.ps)
