@@ -132,7 +132,7 @@ $$
       \;\;\vdash\;\;
       tree_D\big(root,\,subt ,\, subt_D\big) 
         \,\colon\, 
-      D\big(tree(c,\, subt)\big)
+      D\big(tree(root,\, subt)\big)
       \mathclap{\phantom{\vert_{\vert}}}
     \end{array}  
   }{
