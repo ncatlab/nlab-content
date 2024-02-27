@@ -101,6 +101,17 @@ The sum type can be defined in terms of the [[boolean domain]] and the [[depende
 
 $$A + B \coloneqq \sum_{x:\mathrm{Bool}} ((x =_\mathrm{Bool} 1) \to A) \times ((x =_\mathrm{Bool} 0) \to B)$$
 
+## Properties
+
+### Descent and large elimination
+
+The [[descent]] for the sum type $A + B$ states that given any type families $x:A \vdash C(x)$ and $y:B \vdash D(y)$ one can construct a type family $z:A + B \vdash \mathrm{descFam}_{A + B}^{C, D}(z)$ with families of [[equivalences of types]] 
+$$x:A \vdash \mathrm{descEquiv}_{A + B}^C:\mathrm{descFam}_{A + B}^{C, D}(\mathrm{inl}(x)) \simeq C(x)$$
+$$y:B \vdash \mathrm{descEquiv}_{A + B}^D:\mathrm{descFam}_{A + B}^{C, D}(\mathrm{inr}(y)) \simeq D(y)$$ 
+Large elimination for sum types strengthens the equivalences of types in descent to [[judgmental equality of types]] 
+$$x:A \vdash \mathrm{descFam}_{A + B}^{C, D}(\mathrm{inl}(x)) \equiv C(x) \; \mathrm{type}$$
+$$y:B \vdash \mathrm{descFam}_{A + B}^{C, D}(\mathrm{inr}(y)) \equiv D(y) \; \mathrm{type}$$ 
+
 ## Related concepts
 
 * [[copy]]
@@ -123,6 +134,18 @@ For sum types in [[homotopy type theory]], see:
 
 [[!redirects sum type]]
 [[!redirects sum types]]
+
+[[!redirects descent of the sum type]]
+[[!redirects descent of the sum types]]
+
+[[!redirects descent of sum types]]
+[[!redirects descent of sum types]]
+
+[[!redirects descent for the sum type]]
+[[!redirects descent for the sum types]]
+
+[[!redirects descent for sum types]]
+[[!redirects descent for sum types]]
 
 [[!redirects universal property of the sum type]]
 [[!redirects universal property of the sum types]]
