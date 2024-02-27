@@ -247,7 +247,7 @@ Let $(X,g)$ be a ([[pseudo-Riemannian manifold|pseudo]]-) [[Riemannian manifold]
 
 where $dvol$ denotes the [[volume form]].
 
-(e.g. [Frankel 1997 (14.9), (14.5)](#Frankel97))
+(e.g. [Frankel 1997 (14.9), (14.5)](#Frankel97); [Padmanabhan 2010 (11.61)](#Padmanabhan10))
 
 ## Examples
 
@@ -287,9 +287,11 @@ Lecture notes:
 
 * _Hodge theory on Riemannian manifolds_ , lecture notes ([pdf](http://math.uh.edu/~minru/Riemann08/hodgetheory.pdf))
 
-Textbook account:
+Textbook accounts:
 
 * {#Frankel97} [[Theodore Frankel]], §14.1a in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) \[<a href="https://doi.org/10.1017/CBO9781139061377">doi:10.1017/CBO9781139061377</a>\]
+
+* {#Padmanabhan10} [[Thanu Padmanabhan]], §11.5 in: _Thermodynamical Aspects of Gravity: New insights_, Rep. Prog. Phys. **73** (2010) 046901 &lbrack;[arXiv:0911.5004](http://arxiv.org/abs/0911.5004)&rbrack;
 
 
 A unified perspective in terms of [[Berezin integration]]:
