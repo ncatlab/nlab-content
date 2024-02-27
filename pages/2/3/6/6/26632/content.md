@@ -304,9 +304,9 @@ Here:
 
 1. the closure of the ordinary 4-flux density $G_4$ 
 
-1. the following $\psi$-dependence of $\rho$ on $G_4$ (shown in any super-chart)
+1. the following dependence of $\rho$ on $G_4$
 
-1. a weak [[Rarita-Schwinger equation]]:
+shown in any super-chart:
 
 \[
   \label{BianchiIdentityForG4sInComponents}
@@ -345,15 +345,24 @@ Here:
       \, 
       e^a
       \\
-      \Gamma^{b_1 \cdots b_7 a_1 a_2}
-      \rho_{a_1 a_2} \;=\; 0
+      \big(
+        \Gamma_{a_1 a_2}
+        \rho_{a_3 a_4} 
+        \;-\; 
+        \nabla_\alpha
+        (G_4)_{a_1 \cdots a_4}
+      \psi^\alpha
+      \big)
+      e^{a_1} \cdots e^{a_4}
+      \;=\;
+      0
       \,.
     \end{array}
     \right.
   \end{array}
 \]
 \end{lemma}
-This is essentially [CDF91, (III.8.44-49)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+This is essentially [CDF91, (III.8.44-49 & 60b)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
 \begin{proof}
   The general expansion of $\rho$ in the super-vielbein basis is of the form 
   $$
@@ -408,6 +417,20 @@ Therefore, the Bianchi identity has the following components,
           (G_4)_{a_1 \cdots a_4}
         \big)
         e^{a}\, e^{a_1} \cdots e^{a_4}
+        \;=\;
+        0
+        \\
+        \psi^\alpha
+        \big(
+          \nabla_\alpha
+          (G_4)_{a_1 \cdots a_4}
+        \big)
+        e^{a_1 \cdots a_4}
+        \;+\;
+        \overline{\psi}
+        \Gamma_{a_1 a_2}
+        \rho_{a_3 a_4}
+        e^{a_1} \cdots e^{a_4}
         \;=\;
         0
         \\
@@ -611,7 +634,7 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
 
 1. its [[Hodge duality]] to $G_4$
 
-1. a less weak [[Rarita-Schwinger equation]] on the gravitino:
+1. another condition on the gravitino field strength
 
 \[
   \label{BianchiIdentityForG7sInComponents}
@@ -648,8 +671,17 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
       \epsilon_{a_1 \cdots a_b b_1 \cdots b_4}
       (G_4)^{b_1 \cdots b_4}
       \\
-      \Gamma^{b_1 \cdots b_4 a_1 a_2}
-      \, \rho_{a_1 a_2} \;=\; 0
+      \big(
+        \nabla_{\alpha}
+        (G_7)_{a_1 \cdots a_7}
+        \psi^\alpha
+        +
+        \Gamma_{a_1 \cdots a_5} 
+        \rho_{a_6 a_7}
+      \big)
+      e^{a_1} \cdots e^{a_7}
+      \;=\;
+      0
     \end{array}
     \right.
   \end{array}
@@ -657,7 +689,7 @@ observing that for $\Gamma_{a_1 a_2} H_{a_3}$ to be a linear combination of the 
 \end{lemma}
 This is essentially [CDF91, (III.8.50-53)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
 \begin{proof}
-The components of the Biachi identity are
+The components of the Bianchi identity are
 $$
   \begin{array}{l}
   \mathrm{d}
@@ -731,9 +763,15 @@ $$
   \Big)
   e^{a_1} \cdots e^{a_8}
   \\
-  \Gamma_{a_1 \cdots a_5} 
-  \rho_{a_6 a_7}
-  \, e^{a_1} \cdots e^{a_7}
+  \big(
+    \nabla_{\alpha}
+    (G_7)_{a_1 \cdots a_7}
+    \psi^\alpha
+    +
+    \Gamma_{a_1 \cdots a_5} 
+    \rho_{a_6 a_7}
+  \big)
+  e^{a_1} \cdots e^{a_7}
   \;=\;
   0
   \\
