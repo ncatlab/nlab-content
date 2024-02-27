@@ -35,6 +35,24 @@ An alternative definition of finite mathematics is as the mathematics of [[FinSe
 
 In [[homotopy type theory]], another possibility is available: $\pi$-finite mathematics, which can be said to be the study of only the $n$-[[truncated]] [[pi-finite types]] for $n:\mathbb{N}$, which have finite homotopy groups, and type operations that preserve finiteness. Finite sets are just finite 0-truncated tame homotopy types in homotopy type theory. Certain type operations do not preserve tameness, such as [[suspensions]] and [[homotopy pushouts]], and so wouldn't be part of finite mathematics. This extends traditional finite mathematics based in set theoretic foundations to more modern fields such as [[higher category theory]] and [[homotopy theory]]. Just as the cardinalities of finite sets are [[natural numbers]] (finite set cardinalities), the [[groupoid cardinality|cardinalities]] of these $n$-truncated homotopy types are positive [[rational numbers]]. 
 
+### Neutral finite mathematics
+
+One definition of finite mathematics is **neutral finite mathematics**; i.e. mathematics done internally to an [[elementary topos]] (constructively) or [[Boolean topos]] (classically), but which does not assume either the [[axiom of infinity]] or the [[axiom of finiteness]]. There are no [[natural numbers]]; instead one works directly with the [[finite sets]] in neutral finite mathematics in neutral finite mathematics. 
+
+In particular, in the [[internal logic|internal]] [[type theory]] of neutral finite mathematics, while one can show that arithmetic statements of individual finite sets is true, such as $\mathbb{2} + \mathbb{2} \simeq \mathbb{2} \times \mathbb{2}$ given the [[boolean domain]] $\mathbb{2}$, one cannot show that $A + \emptyset \simeq A$ for all finite sets $A$ - because types in the internal type theory aren't [[free variables]]. 
+
+Alternatively, one can attempt to approximate arithmetic in the natural numbers by considering increasing long [[tuples]] of digits - elements of a finite set $D$, via the inclusions
+
+$$\mathbb{1} \hookrightarrow D \hookrightarrow D \times D \hookrightarrow D \times D \times D \hookrightarrow \ldots$$
+
+The non-negative [[rational numbers]] do not exist in neutral finite mathematics. However, given a [[finite group]] $G$ as an [[action]] on a set $X$, one can assume as a separate axiom the existence of the [[action groupoid]] of $G // X$, which corresponds to the [[fraction]] $m/n$ where $m$ is the cardinality of $G$ and $n$ is the cardinality of $X$. This means one can instead work with action groupoids for rational arithmetic. Externally, this requires moving from an [[elementary topos]] or [[Boolean topos]] to an [[(infinity,1)-category|$(\infty, 1)$-category]] which has [[finite limits]], [[power sets]], and action groupoids, since in general groupoids are not sets unless they are [[discrete groupoids|discrete]]. 
+
+Unfortunately, trying to encode the negative [[integers]] directly as set-like objects seems to require infinity, since infinity is inherent in the [[sphere spectrum]] $\lim_{n \to \infty} \Omega^n S^n$ (which is kind of like [[FinSet]] but with negative [[cardinalities]]) from the fact that the [[sphere spectrum]] is not $\pi$-finite. Furthermore, any attempt to axiomatize the sphere spectrum as the initial [[E-infinity ring]] will result in [[coherence law|coherence issues]] from the fact that the syntax cannot handle infinite structure without the natural numbers. 
+
+However, one can attempt to approximate arithmetic in the integers by considering increasing long [[tuples]] of digits - elements of a finite set $D$ - with a sign bit at the beginning of the tuple, via the inclusions
+
+$$\mathbb{2} \hookrightarrow \mathbb{2} \times D \hookrightarrow \mathbb{2} \times D \times D \hookrightarrow \mathbb{2} \times D \times D \times D \hookrightarrow \ldots$$
+
 ## See also
 
 * [[predicative mathematics]]
