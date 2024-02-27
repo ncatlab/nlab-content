@@ -24,7 +24,7 @@ For $A \subset B$ a triangulated subcategory, the [[Verdier quotient]] category 
 =--
 
 
-The Verdier quotient $B/A$  has the property that the only objects whose images in $B/A$ are isomorphic to the [[zero object]] are the objects from $A$. 
+The Verdier quotient $B/A$  has the property that the only objects whose images in $B/A$ are isomorphic to the [[zero object]] are the objects from the thickening of $A$ (the smallest thick subcategory containing $A$). 
 
 +-- {: .un_defn}
 ###### Definition (Bousfield localization)
