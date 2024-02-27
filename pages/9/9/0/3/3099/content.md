@@ -124,7 +124,7 @@ Finally, there is a monoidal structure on the category of species known as **ple
 
 The following discusses formalization of the concept of species in [[homotopy type theory]].
 
-Let [[FinSet]] be the [[type]] of [[finite sets]] (see at _[[hSet]]_). Notice that in [[homotopy type theory]] this automatically comes out as the [[groupoid]] of finite sets (see also at _[[universe in type theory]]_), so we may (and do) suppress writing "[[core]]" here.  
+Let [[FinSet]] be the [[type]] of [[finite sets]] (see at _[[hSet]]_). Notice that in [[homotopy type theory]] this automatically comes out as the [[groupoid]] of finite sets (see also at _[[type of finite types]]_), so we may (and do) suppress writing "[[core]]" here.  
 
 +-- {: .num_defn #HoTTSpecies}
 ###### Definition
