@@ -33,3 +33,5 @@ If $R$ is (or may be) non-commutative, then we may distinguish __left__ and __ri
 ## See also
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Divisibility_(ring_theory)">Divisibility (ring theory)</a>_
+
+[[!redirects divisibility relation]]
