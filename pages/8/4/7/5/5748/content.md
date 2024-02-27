@@ -226,7 +226,7 @@ Fiberwise complex structure on [[real vector bundles]]:
 
 Lecture notes include
 
-* {#Audin} Mich&#232;le Audin, _Symplectic and almost complex manifolds_ ([pdf](http://www-irma.u-strasbg.fr/~maudin/HolomorphicChapII.pdf))
+* {#Audin} Mich&#232;le Audin, _Symplectic and almost complex manifolds_ ([pdf](https://link.springer.com/content/pdf/10.1007/978-3-0348-8508-9_3.pdf))
 
 Discussion from the point of view of [[integrable G-structures]] includes
 
