@@ -23,6 +23,12 @@ See at _[[field (physics)]]_ the section _[Ordinary gravity](field%20%28physics%
 
 ## References
 
+* [[Thanu Padmanabhan]], §11.6 in: *Gravitation -- Foundations and Frontiers*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511807787](https://doi.org/10.1017/CBO9780511807787), [spire:852758](https://inspirehep.net/literature/852758), toc: [pdf](https://web.iucaa.in/~paddy/books/GRTOC.pdf)&rbrack;
+
+
+
+See also at:
+
 * _[[geometry of physics]]_
 
 
