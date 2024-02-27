@@ -138,6 +138,28 @@ Here:
 
 * "$\mathrm{apd}_{f}$" denotes [[dependent function application to identifications]]. 
 
+## Properties
+
+### Descent and large elimination
+
+The [[descent]] for the dependent pushout type $\mathrm{pushout}_{A, I, x:I.B(x)}(f)$ states that given any type family $x:I, y:B(x) \vdash C(x, y)$, any type family $w:A \vdash D(w)$, and any family of equivalences of types 
+$$w:A, x:I \vdash e(w, x):C(x, f(x, w)) \simeq D(w)$$
+one can construct a type family $z:\mathrm{pushout}_{A, I, x:I.B(x)}(f) \vdash \mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e, z)$ with families of [[equivalences of types]] 
+$$x:I, y:B(x) \vdash \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^C(x, y):\mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e, \mathrm{in}(x, y)) \simeq C(x, y)$$
+$$w:A \vdash \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^D(w):\mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e, \mathrm{gluehubs}(w)) \simeq D(w)$$
+and families of [[identifications]]
+$$w:A, x:I \vdash \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}(e, w, x):\mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^C(x, y)^{-1} \circ \mathrm{transport}_{\mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e)}(\mathrm{gluespokes}(w, x)) \circ \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^D(w) =_{C(x, f(x, w)) \simeq D(w)} e(w, x)$$
+or families of [[judgmental equality of terms]]
+$$w:A, x:I \vdash \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^C(x, y)^{-1} \circ \mathrm{transport}_{\mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e)}(\mathrm{gluespokes}(w, x)) \circ \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^D(w) \equiv e(w, x):C(x, f(x, w)) \simeq D(w)$$
+
+Large elimination for dependent pushout types strengthens the equivalences of types in descent to [[judgmental equality of types]]
+$$x:I, y:B(x) \vdash \mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e, \mathrm{in}(x, y)) \equiv C(x, y)$$
+$$w:A \vdash \mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e, \mathrm{gluehubs}(w)) \equiv D(w)$$
+and comes with families of [[identifications]]
+$$w:A, x:I \vdash \mathrm{descEquiv}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}(e, w, x):\mathrm{transport}_{\mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e)}(\mathrm{gluespokes}(w, x)) =_{C(x, f(x, w)) \simeq D(w)} e(w, x)$$
+or families of [[judgmental equality of terms]]
+$$w:A, x:I \vdash \mathrm{transport}_{\mathrm{descFam}_{\mathrm{pushout}_{A, I, x:I.B(x)}(f)}^{C, D}(e)}(\mathrm{gluespokes}(w, x)) \equiv e(w, x):C(x, f(x, w)) \simeq D(w)$$
+
 ## Examples
 
 * The [[positive type|positive]] [[dependent sum type]] of a family of types $B(x)$ indexed by $x:A$ is the dependent pushout type of the family of unique functions from the [[empty type]] to each $B(x)$. 
