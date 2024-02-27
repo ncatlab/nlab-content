@@ -384,10 +384,11 @@ There is a version for [[Morita contexts]] instead of monads:
 
 * [[Tomasz Brzezinski]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Appl. Categ. Structures __19__ (2011), no. 5, 821&#8211;858 [MR2836546](http://www.ams.org/mathscinet-getitem?mr=2836546) [doi](http://dx.doi.org/10.1007/s10485-009-9217-0)
 
-On Beck's theorem for [[pseudomonads]] ([[higher monadic descent]]):
+On Beck's theorem for [[pseudomonads]] (see [[higher monadic descent]] for more details):
 
 * I. J. Le Creurer, [[Francisco Marmolejo]], [[Enrico M. Vitale]], _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra **173** 3 (2002) 293-313 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00038-5">doi:10.1016/S0022-4049(02)00038-5</a>&rbrack;
 
+* [[Claudio Hermida]], *Descent on 2-fibrations and strongly 2-regular 2-categories*, Appl. Categ. Structures **12** 5-6 (2004)  427-459 &lbrack;[doi:10.1023/B:APCS.0000049311.17100.da](https://doi.org/10.1023/B:APCS.0000049311.17100.da)&rbrack;
 
 Discussion for [[(infinity,1)-monads]]:
 
