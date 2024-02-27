@@ -46,6 +46,7 @@ However, this is not the same principle of unique choice as in set theory. The *
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 [[!redirects principle of unique choice]]
+[[!redirects function comprehension principle]]
 [[!redirects function comprehension]]
 [[!redirects axiom of unique choice]]
 [[!redirects unique choice]]
