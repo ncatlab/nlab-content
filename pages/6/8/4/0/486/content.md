@@ -77,10 +77,10 @@ of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
   * the universe becomes an [[arithmetic pretopos]] if it is closed under a parameterized [[natural numbers type]]
   * the universe becomes a Heyting pretopos if the universe is closed under [[dependent product types]] for families of [[mere propositions]], or equivalently, if it is closed under types of [[embeddings]]
   * the universe becomes a Boolean pretopos if it is a Heyting pretopos and additionally every proposition satisfies [[excluded middle]]
-  * the universe becomes a Pi-pretopos if it the universe is closed under all [[dependent product types]], or equivalently, if the universe is closed under [[function types]]
-  * the universe becomes an arithmetic Pi-pretopos if it is a Pi-pretopos and is closed under a [[natural numbers type]]
-  * the universe becomes an elementary topos if it is a Pi-pretopos and has a [[type of all propositions]]
-  * the universe becomes an Boolean topos if it is a Boolean Pi-pretopos
+  * the universe becomes a Π-pretopos if it is closed under all [[dependent product types]], or equivalently, if the universe is closed under [[function types]]
+  * the universe becomes an arithmetic Π-pretopos if it is a Π-pretopos and is closed under a [[natural numbers type]]
+  * the universe becomes an elementary topos if it is a Π-pretopos and has a [[type of all propositions]]
+  * the universe becomes a Boolean topos if it is a Boolean Π-pretopos
 
 ## Properties
 
