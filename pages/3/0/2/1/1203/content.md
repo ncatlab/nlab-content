@@ -19,15 +19,21 @@ In the [[foundations]] of [[mathematics]], an [[axiom of infinity]] is any axiom
 
 ## Statement
 
-### Von Neumann ordinal
+### Natural numbers
 
 One common form of the axiom of infinity says that the particular set $N$ of [[natural number]]s exists.  In material [[set theory]] this often takes the form of asserting that the von Neumann [[ordinal number]] $\omega$ exists, where $\omega$ is characterized as the smallest set such that $\emptyset\in\omega$ and whenever $a\in \omega$ then $a\cup \{a\}\in \omega$. 
 
-### Natural numbers
+In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V, \in)$ of [[pure sets]] which behaves as a [[material set theory]]. The universal type family of the Tarski universe is given by the type family $x:V \vdash \sum_{y:V} y \in x$. The **axiom of infinity** is given by the following [[inference rule]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{infinity}_V:\sum_{\omega:V} \left((\emptyset \in \omega) \times \prod_{x:V} (x \in \omega) \to \sum_{s:V} (s \in \omega)\right) \times \prod_{z:V} \left(\left((\emptyset \in z) \times \prod_{x:V} (x \in z) \to \sum_{s:V} (s \in z)\right) \to \prod_{x:V} (x \in \omega) \to (x \in z)\right)}$$
+
+The **axiom schema of induction** is given by the following [[inference rule]]:
+
+$$\frac{\Gamma, x:V \vdash \phi(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{induction}_V^{\phi(-)}:\left(\prod_{x:V} \mathrm{isProp}(\phi(x))\right) \to \sum_{\omega:V} \left((\emptyset \in \omega) \times \prod_{x:V} (x \in \omega) \to \sum_{s:V} (s \in \omega)\right) \times \left(\left(\phi(\emptyset) \times \prod_{x:V} (x \in \omega) \to (\phi(x) \to \sum_{s:V} \phi(s))\right) \to \prod_{x:V} (x \in \omega) \to \phi(x)\right)}$$
 
 In structural set theory the usual form of the axiom of infinity is the existence of a [[natural numbers object]]. 
 
-In [[dependent type theory]], the axiom of infinity for a [[Tarski universe]] is given by the element
+In [[dependent type theory]], the [[natural numbers type]] for a [[Tarski universe]] is given by the element
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:T(\mathbb{N}) \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:T(\mathbb{N})} T(C(x)) \to T(C(s(x)))} \sum_{c:\prod_{x:T(\mathbb{N})} T(C(x))} (c(0) =_{T(C(0))} c_0) \times \prod_{x:T(\mathbb{N})} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
 or
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:U} \prod_{c_0:T(C)} \prod_{c_s:T(C) \to T(C)} \exists!c:T(\mathbb{N}) \to T(C).(f(0) =_{T(C)} c_0) \times \prod_{n:T(\mathbb{N})} c(s(n)) =_{T(C)} c_s(c(n))$$
@@ -102,6 +108,10 @@ In particular, the axiom of finiteness for the entire type theory implies the [[
 * [[Set]], [[FinSet]]
 
 ## References
+
+* Wikipedia, *[Axiom of infinity](https://en.wikipedia.org/wiki/Axiom_of_infinity)*
+
+* [[Michael Shulman]] (2018). Comparing material and structural set theories. &lbrack;[arXiv:1808.05204](https://arxiv.org/abs/1808.05204)&rbrack.
 
 In relation to [[classifying toposes]]:
 
