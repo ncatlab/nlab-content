@@ -26,7 +26,7 @@ and generally in terms of [[Berezin integration]]:
 
 On [[D=7 supergravity]]:
 
-* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], [[Mario Trigiante]], _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
 
 On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] ([[integration over supermanifolds]], [[picture changing operators]]):
 
@@ -63,7 +63,8 @@ Relating the [[D'Auria-Fré formulation of supergravity]] to [[pure spinor]]-for
 
 On the [[self-dual higher gauge field]] on the [[M5-brane]] lifted to [[superspace]] in the [[D'Auria-Fré formulation of supergravity]]:
 
-* {#ACDGMNRT22} [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], R. Matrecano, R. Noris, [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+* [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+
 
 
 category: people
