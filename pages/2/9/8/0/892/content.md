@@ -26,8 +26,9 @@ Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [
 
 * the [[slice category]] $Inj/S$, where [[Inj]] is the [[wide subcategory]] of [[Set]] with morphisms restricted to [[injection|injections]]. This is similar to the subobject definition but is more unpacked. $Inj/S$ has objects that are injections to $S$ and morphisms that are commuting triangles of injections.
 
-
 ## Foundational status
+
+### In material set theory
 
 One generally needs a specific axiom in the [[foundations of mathematics]] to ensure the existence of power sets.  In [[material set theory]], this can be phrased as follows:
 
@@ -37,15 +38,29 @@ One can then use the [[axiom of separation]] ([[bounded separation]] is enough) 
 
 Alternatively, one could include a [[powerset structure]], a primitive unary operator $\mathcal{P}(S)$ such that for all sets $S$, if for all sets $A$ and sets $B$, $B \in A$ implies that $B \in S$, then $A \in \mathcal{P}(S)$. 
 
+### In structural set theory
+
 In [[structural set theory]], we state rather that there exists a set $\mathcal{P}$ which indexes the subsets of $A$ and prove uniqueness [[generalised the|up to unique isomorphism]].
+
+### In dependent type theory
+
+In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V, \in)$ of [[pure sets]] which behaves as a [[material set theory]]. The universal type family of the Tarski universe is given by the type family $x:V \vdash \sum_{y:V} y \in x$. The **axiom of power sets** is given by the following [[inference rule]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{powersets}_V:\prod_{S:V} \sum_{\mathcal{P}:V} \prod_{A:V} \left(\prod_{x:V} (x \in A) \to (x \in S)\right) \to (A \in \mathcal{P})}$$
+
+### Status in predicative mathematics
 
 In [[predicative mathematics]], the existence of power sets (along with other "impredicative" axioms) is not accepted.  However we can still speak of a power set as a [[proper class]], sometimes called a __power class__.
 
 One can use power sets to construct [[function sets]]; the converse also works using [[excluded middle]] (or anything else that will guarantee the existence of the set of truth values).  In particular, power sets exist in any theory containing excluded middle and function sets; thus predicative theories which include function sets must also be [[constructive mathematics|constructive]].
 
+## Relation to function sets and the set of truth values
+
+The existence of power sets is equivalent to the existence of [[function sets]] and a [[set of truth values]]. 
+
 ### In dependent type theory
 
-In [[dependent type theory]], if one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $S$, the power set of $S$ is the [[function type]] $\mathcal{P}S \coloneqq S \to \mathrm{Prop}$. The power set of a type is always a set, because $\mathrm{Prop}$ is always a set by [[univalence]]; and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
+In [[dependent type theory]], this is equivalent to the existence of [[function types]] and a [[univalent]] [[type of all propositions]]. If one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $S$, the power set of $S$ is the [[function type]] $\mathcal{P}S \coloneqq S \to \mathrm{Prop}$. The power set of a type is always a set, because $\mathrm{Prop}$ is always a set by [[univalence]]; and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
 
 An element of a power set $P:\mathcal{P}S$ is a [[predicate]]. The type 
 
