@@ -45,7 +45,7 @@ Every [[morphism]] $f \colon A\to B$ in a [[pre-abelian category]] has a canonic
   \overset{\; p \;}{\twoheadrightarrow}
   \coker\big(\ker f\big)
   \xrightarrow{\; \overline{f} \;}
-  \ker\big(\coker(f)\big)
+  \ker\big(\coker f\big)
   \xhookrightarrow{\; i \;}  
   B
 \]
