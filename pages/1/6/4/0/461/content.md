@@ -32,6 +32,8 @@ Endless debates (as seen for example at sci.math) about the meaning of $0^0$ are
 
 ## Foundational status
 
+### Material set theory
+
 In [[set theory]] as a [[foundation of mathematics]], the existence of the empty set is often taken as an axiom, the __axiom of the null set__.  Actually, this axiom can be written in such a simple way that the name seems unmotivated:
 
 +-- {: .un_defn}
@@ -45,6 +47,12 @@ However, one can then use the axiom of separation ([[bounded separation]] is eno
 In some axiomatic frameworks, even this is unnecessary; while it makes little sense from the standpoint of [[categorial logic]], it was once traditional to take $\forall x,\; P[x] \;\Rightarrow\; \exists x,\; P[x]$ as an axiom (or theorem) of [[first-order logic]].  It is then automatic that something exists, and if one uses a [[material set theory]] of [[pure sets]], then this something must be a set.
 
 Alternatively, since the [[axiom of infinity]] states the existence of a set (and is often phrased to state explicitly the existence of an empty set), then the axiom of the null set becomes unnecessary for another reason.
+
+### Dependent type theory
+
+In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V, \in)$ of [[pure sets]] which behaves as a [[material set theory]]. The universal type family of the Tarski universe is given by the type family $x:V \vdash \sum_{y:V} y \in x$. The **axiom of the null set** is given by the following [[inference rule]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{nullset}_V:\sum_{\emptyset:V} \prod_{x:V} \neg (x \in \emptyset)}$$
 
 ## Related concepts
 
