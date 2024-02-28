@@ -40,6 +40,14 @@ In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{union}_V:\prod_{x:V} \sum_{U:V} \prod_{y:V} \prod_{z:V} (y \in x) \times (z \in y) \to (z \in U)}$$
 
+There is a similar axiom for binary unions:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{union}_V:\prod_{x:V} \prod_{y:V} \sum_{U:V} \prod_{z:V} ((z \in x) \to (z \in U)) \times ((z \in y) \to (z \in U))}$$
+
+With the [[type theoretic axiom of choice]], this is equivalent to the axiom
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{union}_V:\sum_{(-) \cup (-):V \times V \to V} \prod_{x:V} \prod_{y:V} \prod_{z:V} ((z \in x) \to (z \in x \cup y)) \times ((z \in y) \to (z \in x \cup y))}$$
+
 ## Related notions
 
 If $\mathcal{X}$ is given as a collection of [[subsets]] of some ambient [[set]] $S$, then the axiom of union is not necessary; $S$ itself already satisfies the conclusion of the hypothesis (and then bounded separation gives us the union that we want).  This is the only case when unions are taken in [[structural set theory]].  However, structural set theory makes use of _[[disjoint unions]]_, and [[predicative mathematics]] requires an axiom giving their existence.  (In impredicative mathematics, we can construct disjoint unions from [[power sets]] and [[cartesian products]].)
