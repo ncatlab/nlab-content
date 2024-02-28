@@ -310,9 +310,10 @@ Discussion of the equivalence of these superficially different action functional
 
 * [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
-Discussion in the [[D'Auria-Fré formulation of supergravity]]:
+On the [[self-dual higher gauge field]] on the [[M5-brane]] lifted to [[superspace]] in the [[D'Auria-Fré formulation of supergravity]]:
 
-* {#ACDGMNRT22} [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], R. Matrecano, R. Noris, [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+* {#ACDGMNRT22}  [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+
 
 
 
