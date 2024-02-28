@@ -19,9 +19,13 @@ In the [[foundations]] of [[mathematics]], an [[axiom of infinity]] is any axiom
 
 ## Statement
 
+### Von Neumann ordinal
+
+One common form of the axiom of infinity says that the particular set $N$ of [[natural number]]s exists.  In material [[set theory]] this often takes the form of asserting that the von Neumann [[ordinal number]] $\omega$ exists, where $\omega$ is characterized as the smallest set such that $\emptyset\in\omega$ and whenever $a\in \omega$ then $a\cup \{a\}\in \omega$. 
+
 ### Natural numbers
 
-One common form of the axiom of infinity says that the particular set $N$ of [[natural number]]s exists.  In material [[set theory]] this often takes the form of asserting that the von Neumann [[ordinal number]] $\omega$ exists, where $\omega$ is characterized as the smallest set such that $\emptyset\in\omega$ and whenever $a\in \omega$ then $a\cup \{a\}\in \omega$.  In structural set theory the usual form of the axiom of infinity is the existence of a [[natural numbers object]]. 
+In structural set theory the usual form of the axiom of infinity is the existence of a [[natural numbers object]]. 
 
 In [[dependent type theory]], the axiom of infinity for a [[Tarski universe]] is given by the element
 $$\mathrm{axinf}_U:\sum_{\mathbb{N}:U} \sum_{0:T(\mathbb{N})} \sum_{s:T(\mathbb{N}) \to T(\mathbb{N})} \prod_{C:T(\mathbb{N}) \to U} \prod_{c_0:T(C(0))} \prod_{c_s:\prod_{x:T(\mathbb{N})} T(C(x)) \to T(C(s(x)))} \sum_{c:\prod_{x:T(\mathbb{N})} T(C(x))} (c(0) =_{T(C(0))} c_0) \times \prod_{x:T(\mathbb{N})} (c(s(x)) =_{T(C(s(x)))} c_s(c(x)))$$
