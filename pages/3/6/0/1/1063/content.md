@@ -35,7 +35,7 @@ Equivalently:
 +-- {: .num_defn }
 ###### Definition
 
-A **pre-abelian category** is an [[Ab-enriched category]] category with all [[finite limits]] and finite [[colimits]]. 
+A **pre-abelian category** is an [[Ab-enriched category]] with all [[finite limits]] and finite [[colimits]]. 
 
 =--
 
@@ -58,7 +58,7 @@ By the discussion [here](finite+limit#Properties) the existence of finite limits
 +-- {: .num_prop}
 ###### Proposition
 
-For every object $c\in C$ in a pre-abelian category, the operations of [[kernel]] and [[cokernel]] form a [[Galois connection]] between the [[preorders]] $Sub(c)$ of [[monomorphisms]] ([[subobjects]]) into $c$ and $Quot(c)$ of [[epimorphisms ]]out of $c$.  
+For every object $c\in C$ in a pre-abelian category, the operations of [[kernel]] and [[cokernel]] form a [[Galois connection]] between the [[preorders]] $Sub(c)$ of [[monomorphisms]] ([[subobjects]]) into $c$ and $Quot(c)$ of [[epimorphisms]] out of $c$.  
 
 In particular, $f:b\to c$ is a [[kernel]] iff $f = ker(coker(f))$ and dually.  
 
