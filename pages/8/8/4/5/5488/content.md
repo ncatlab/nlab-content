@@ -61,6 +61,12 @@ In set theories where sets and elements are not the same thing, pairing becomes 
 
 $P$ is usually denoted $X \times Y$ and called the __[[Cartesian product]]__ of $X$ and $Y$, while $c$ is usually denoted $(a, b)$ and called the __[[ordered pair]] of $a$ and $b$.
 
+### In dependent type theory
+
+In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V, \in)$ of [[pure sets]] which behaves as a [[material set theory]]. The universal type family of the Tarski universe is given by the type family $x:V \vdash \sum_{y:V} y \in x$. The **axiom of pairing** is given by the following [[inference rule]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{pairing}_V:\prod_{x:V} \prod_{y:V} \sum_{P:V} (x \in P) \times (y \in P)}$$
+
 ## Generalisation
 
 The axiom of pairing is the binary part of a [[binary/nullary pair]] whose nullary part is the axiom stating the existence of the [[empty set]].  We can use these axioms and the [[axiom of union]] to prove every instance of the following __axiom__ (or rather theorem) __schema of finite sets__:
