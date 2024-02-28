@@ -1831,6 +1831,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Reversible and Quantum Control-Flow**
 
+  cf. [arXiv:1804.00952](https://arxiv.org/abs/1804.00952)
+
   > One perspective on [[quantum algorithms]] is that they are classical [[algorithms]] having access to a [[quantum memory|special kind of memory]] with exotic properties. This perspective suggests that, even in the case of quantum algorithms, the control flow notions of sequencing, conditionals, loops, and [[recursion]] are entirely classical. There is, however, another notion of execution control flow that is itself quantum. In this talk, we shall overview the two paradigms and discuss the issues specific to quantum control.
 
 \linebreak
@@ -2607,6 +2609,19 @@ Stone-von Neumann**
 
   >  I will talk about [[Liouville theory|Liouville]] [[conformal blocks]] with degenerate primaries and one operator in an irregular representation of the [[Virasoro algebra]]. Using an algebraic approach, we derive modified BPZ equations satisfied by such blocks and subsequently construct corresponding integral representations based on integration over non-compact Lefschetz cycles. The integral representations are then used to derive novel types of [[flat connections]] on the irregular conformal block bundle. 
 
+\linebreak
+
+* [[Joshua Lackman]] (Peking University, China):
+
+  **A Groupoid Construction of Functional Integrals**
+
+  cf.: [arXiv:2402.05866](https://arxiv.org/abs/2402.05866)
+
+  > We formalize [Feynman's construction](path+integral#Feynman42) of the [[path integral]] in the context of [[Lie algebroid]]-valued [[sigma models]]. To do this, we use the [[pair groupoid]] and the [[van Est map]] to define [[integration]] on [[manifolds]] in a [[coordinate]]-free way. We discuss applications to [[Brownian motion]] and the [[Poisson sigma model]].
+
+
+
+ 
 
 \linebreak
 
