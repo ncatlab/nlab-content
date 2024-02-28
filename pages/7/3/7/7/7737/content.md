@@ -267,6 +267,9 @@ Stratified spaces are used to develop a graphical calculus for Gray categories i
 
 * Benjamin Taylor Hummon, *[Surface Diagrams for Gray-Categories](https://escholarship.org/uc/item/5b24s9cc)*, PhD thesis.
 
+The homotopy theory of stratified spaces is explored in the thesis of [[Sylvain Douteau]]:
+
+* [[Sylvain Douteau]], _Étude homotopique des espaces stratifiés_,  [Arxiv version](https://arxiv.org/pdf/1908.01366.pdf).
 
 [[!redirects stratified space]]
 [[!redirects stratified spaces]]
