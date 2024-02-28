@@ -261,7 +261,7 @@ $$
 $$
 is called the **universal cone** over $F$, because,
 again by the defining property of limit as above,
-every other cone $\{c \to F(d)\}_{d \in D}$ as 
+every cone $\{c \to F(d)\}_{d \in D}$ as 
 above is bijectively related to a morphism
 $c \to  \lim F$ 
 
