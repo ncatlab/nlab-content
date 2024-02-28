@@ -2611,7 +2611,9 @@ Stone-von Neumann**
 
 \linebreak
 
-* [[Joshua Lackman]] (Peking University, China):
+* 28 Feb 2024
+  
+  [[Joshua Lackman]] (Peking University, China):
 
   **A Groupoid Construction of Functional Integrals**
 
