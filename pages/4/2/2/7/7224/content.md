@@ -36,7 +36,7 @@ to have _left $J$-relative adjoint_ (or *$J$-left adjoint*) means that there is 
 	L \colon B \longrightarrow C
 \]
 
-and a [[natural isomorphism]] of the ofrm
+and a [[natural isomorphism]] of the form
 
 \[
   Hom_C\big(L(-),-\big) 
