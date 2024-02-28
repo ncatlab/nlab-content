@@ -147,7 +147,7 @@ Relation to [[massive type IIA supergravity]] and [[bound states]] of [[D-branes
 
 Discussion in the [[D'Auria-Fré formulation of supergravity]] is in
 
-* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], [[Mario Trigiante]], _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 &lbrack;[arXiv:1511.06245](https://arxiv.org/abs/1511.06245)&rbrack;
 
 and the 7d analog of the [[DF-algebra]] (the [[Chevalley-Eilenberg algebra]]  of a spinorial extension of the [[M-theory super Lie algebra]]) is due to
 
