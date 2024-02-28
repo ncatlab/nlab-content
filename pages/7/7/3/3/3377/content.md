@@ -164,6 +164,10 @@ Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]
 
 * {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
 
+### Mirror symmetry
+
+* Victoria Hoskins, Simon Pepin Lehalleur. *Motivic mirror symmetry for Higgs bundles* (2022). ([arXiv:2205.15393](https://arxiv.org/abs/2205.15393)).
+
 
 
 [[!redirects Higgs bundles]]
