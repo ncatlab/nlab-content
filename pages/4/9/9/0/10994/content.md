@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## As a synonym for morphism
 
 The term _arrow_ is sometimes used as a synonym for _[[morphism]]_, _[[map]]_, and also for directed edge (in a [[directed graph]] or [[quiver]]).
