@@ -78,6 +78,12 @@ $$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \ma
 
 $$\frac{\Gamma \vdash S \; \mathrm{set} \quad \Gamma, x \in S \vdash P(x) \; \mathrm{prop}}{\Gamma, x \in R, P(x) \; \mathrm{true} \vdash \exists y \in \{x \in S \vert P(x)\}.x = i(y) \; \mathrm{true}}$$
 
+## In dependent type theory
+
+In [[dependent type theory]], it is possible to define a [[Tarski universe]] $(V, \in)$ of [[pure sets]] which behaves as a [[material set theory]]. The universal type family of the Tarski universe is given by the type family $x:V \vdash \sum_{y:V} y \in x$. The **axiom schema of separation** is given by the following [[inference rule]]:
+
+$$\frac{\Gamma, x:V \vdash \phi(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{seperation}_V^{\phi(-)}:\left(\prod_{x:V} \mathrm{isProp}(\phi(x))\right) \to \prod_{a:V} \sum_{S:V} \prod_{x:V} (x \in a) \to (\phi(x) \simeq (x \in S))}$$
+
 ## In hyperdoctrines
 
 ### Lawvere's definition
