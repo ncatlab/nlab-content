@@ -143,18 +143,19 @@ A more detailed account of Benabou's work on this topic can be found at:
 
 * Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf) {#Benabou}
 
+* [[Graham Manuell]], _Monoid extensions and the Grothendieck construction_, Semigroup Forum **105** (2022) 488–507 &lbrack;[doi:10.1007/s00233-022-10294-2](https://doi.org/10.1007/s00233-022-10294-2)&rbrack;
+
 The term "displayed category", and the applications to type theory, are due to:
 
-* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], *Displayed Categories*, [arxiv](https://arxiv.org/abs/1705.04296)
+* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], _Displayed Categories_, Logical Methods in Computer Science **15** 1, (2019) &lbrack;<a href="https://doi.org/10.23638/LMCS-15(1:20)2019">doi:10.23638/LMCS-15(1:20)2019</a>, [arXiv:1705.04296](https://arxiv.org/abs/1705.04296)&rbrack; 
 
 An unpacking of the definition as lax functors into [[Span]] is in 2.2 of
 
-* [[Duško Pavlović]], [[Samson Abramsky]], *Specifying Interaction Categories*, [LNCS](https://link.springer.com/chapter/10.1007/BFb0026986)
+* [[Duško Pavlović]], [[Samson Abramsky]], _Specifying Interaction Categories_, Lecture Notes in Computer Science **1290** (1997) 147–158. &lbrack;[doi:10.1007/BFb0026986](https://doi.org/10.1007/BFb0026986)&rbrack;
 
 Also cited above:
 
-* [[Geoff Cruttwell]], [[Mike Shulman]], *A unified framework for generalized multicategories* [TAC](http://tac.mta.ca/tac/volumes/24/21/24-21abs.html)
- {#CS}
+* {#CS} [[Geoff Cruttwell]], [[Mike Shulman]], _A unified framework for generalized multicategories_, Theory and Applications of Categories **24** 21 (2010) 580-655.  &lbrack;[TAC](http://tac.mta.ca/tac/volumes/24/21/24-21abs.html)&rbrack;
 
 [[!redirects displayed categories]]
 [[!redirects displayed functor]]
