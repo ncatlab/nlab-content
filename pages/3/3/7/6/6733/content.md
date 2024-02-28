@@ -609,8 +609,7 @@ The [[double dimensional reduction]] to the [[D4-brane]] [[D=5 super Yang-Mills 
  
 with further comments in 
 
-* Michele Nardelli, _On some equations concerning Fivebranes and Knots, Wilson Loops in Chern-Simons Theory, cusp anomaly and integrability from String theory. Mathematical connections with
-some sectors of Number Theory_  (2011) ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli2011b.pdf))
+* Michele Nardelli, _On some equations concerning Fivebranes and Knots, Wilson Loops in Chern-Simons Theory, cusp anomaly and integrability from String theory. Mathematical connections with some sectors of Number Theory_  (2011) &lbrack;[pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli2011b.pdf)&rbrack;
 
 A proposal for a construction as a [[higher gauge theory]] for [[differential string structure|string 2-connections]] is due to 
 
@@ -619,6 +618,11 @@ A proposal for a construction as a [[higher gauge theory]] for [[differential st
 based on 
 
 * {#SaemannSchmidt17a} [[Christian Saemann]], [[Lennart Schmidt]], _The Non-Abelian Self-Dual String and the (2,0)-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
+
+Discussion in the [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation]]:
+
+* [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+
 
 
 ### Hopf-Wess-Zumino term
