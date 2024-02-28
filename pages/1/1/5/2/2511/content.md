@@ -27,7 +27,7 @@ On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fre formulation o
 
 On [[D=7 supergravity]]:
 
-* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], [[Mario Trigiante]], _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
 
 On [[N=1 D=4 super Yang-Mills theory]] via [[D3 branes]] at resolved [[orbifold singularities]] and invoking a generalized [[McKay correspondence]]:
 
