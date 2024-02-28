@@ -156,6 +156,9 @@ Issues with defining gravitating mass on non-stationary spacetimes:
 
 * Zhi-Wei Wang, [[Samuel L. Braunstein]], _Could dark matter be a natural consequence of a dynamical universe?_ ([arXiv:2011.09923](https://arxiv.org/abs/2011.09923))
 
+A modified gravity theory which is indistinguishable from  cold dark matter if the dark matter only interacts with [[gravity]]:
+
+* C. Deffayet, R. P. Woodard, *The Price of Abandoning Dark Matter Is Nonlocality* ([2402.11716v1](https://arxiv.org/abs/2402.11716v1))
 
 ### Evidence
  {#Evidence}
