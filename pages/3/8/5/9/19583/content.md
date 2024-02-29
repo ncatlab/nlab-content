@@ -81,6 +81,9 @@ Further review:
 
 * Matteo Laudonio, Romain Pascalie, Adrian Tanasa, _Combinatorial aspects of the Sachdev-Ye-Kitaev model_ ([arXiv:2001.11849](https://arxiv.org/abs/2001.11849))
 
+* [[Subir Sachdev]], *Quantum glasses, reparameterization invariance, Sachdev-Ye-Kitaev models* &lbrack;[arXiv:2402.17824](https://arxiv.org/abs/2402.17824)&rbrack;
+
+
 See also 
 
 * Wikipedia, _[SYK model of non-Fermi liquids and black holes](https://en.wikipedia.org/wiki/Subir_Sachdev#SYK_model_of_non-Fermi_liquids_and_black_holes)_
