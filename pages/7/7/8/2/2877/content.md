@@ -36,8 +36,11 @@ As [[Hopf algebroid]]s generalize (function algebras on) groupoids, there is a w
 
 See also
 
-* [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213); _Quantum group differentials, bundles and gauge theory_, Encyclopedia of Mathematical Physics, Acad. Press. 2006, pp. 236&#8211;244
+* [[Tomasz Brzeziński]]. _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](https://arxiv.org/abs/0912.0213)
+
+* [[Tomasz Brzeziński]]. _Quantum group differentials, bundles and gauge theory_, Encyclopedia of Mathematical Physics, Acad. Press. 2006, pp. 236&#8211;244
 [doi](http://dx.doi.org/10.1016/B0-12-512666-2/00050-X)
+
 * Francesco D'Andrea, Alessandro De Paris, _On noncommutative equivariant bundles_,  Commun. Alg. __47__:12 (2019) 5443-5461 [arxiv/1606.09130](https://arxiv.org/abs/1606.09130) [doi](https://doi.org/10.1080/00927872.2019.1631320)
 
 For principal bundles in the context of operator algebras, see
