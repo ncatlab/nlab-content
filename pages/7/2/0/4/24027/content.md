@@ -2,6 +2,10 @@
 ### Topological entanglement entropy
  {#ReferencesTopologicalEntanglementEntropy}
 
+On [[entanglement entropy]] in [[arithmetic Chern-Simons theory]]:
+
+* Hee-Joong Chung, Dohyeong Kim, [[Minhyong Kim]], Jeehoon Park, Hwajong Yoo, *Entanglement entropies in the abelian arithmetic Chern-Simons theory* &lbrack;[arXiv:2312.17138](https://arxiv.org/abs/2312.17138)&rbrack;
+
 #### General
 
 Identification of a contribution to [[entanglement entropy]] at [[absolute zero]] which is independent of the [[subsystem]]'s size ("[[topological entanglement entropy]]", "[[long-range entanglement]]"), reflecting [[topological order]] and proportional to the total [[quantum dimension]] of [[anyon|anyon excitations]]: 
