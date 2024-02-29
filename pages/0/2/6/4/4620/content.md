@@ -158,6 +158,8 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] iff $\mathrm{LPO}_\mathbb{N}$ holds. 
 
+* Bolzano-Weierstrass compactness of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+
 ## Related statements
 
 There are various other results that are related to the principles of omniscience. Here are a few:
@@ -171,6 +173,8 @@ There are various other results that are related to the principles of omniscienc
 * [[countable set|Subcountability]] of the [[real numbers]] implies the analytic $\mathrm{WLPO}$ because [[natural numbers]] have [[decidable equality]] and injections preserve and reflect decidable equality. 
 
 * The $\mathrm{WLPO}$ implies that the [[real numbers]] are [[uncountably indexed]]. 
+
+* The analytic $\mathrm{LPO}$ implies the [[fundamental theorem of algebra]]. 
 
 ## Models
 
