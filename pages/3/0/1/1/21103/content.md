@@ -48,6 +48,9 @@ See also:
 
 * Eunseok Oh, Taewon Yuk, Sang-Jin Sin, *The emergence of Strange metal and Topological Liquid near Quantum Critical Point in a solvable model*, Annals of Physics Volume 417, June 2020, 168138 ([arXiv:2103.08166](https://arxiv.org/abs/2103.08166))
 
+* [[Subir Sachdev]], *Quantum glasses, reparameterization invariance, Sachdev-Ye-Kitaev models* &lbrack;[arXiv:2402.17824](https://arxiv.org/abs/2402.17824)&rbrack;
+
+
 Models:
 
 * Edwin W. Huang, Ryan Sheppard, Brian Moritz, Thomas P. Devereaux, *Strange metallicity in the doped Hubbard model*, Science  22 Nov 2019:
