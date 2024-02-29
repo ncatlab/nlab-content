@@ -151,6 +151,8 @@ or the always true statement that every [[split surjection]] splits.
 
 * The [[poset of truth values]] is an [[inequality space]].
 
+* The [[partial function classifier]] of any [[singleton]] is the [[boolean domain]]. 
+
 ## Double-negated PEM
  {#DoubleNegatedPEM}
 
