@@ -43,7 +43,7 @@ has two objects, 0 and 1,
 and two nonidentity arrows, $f,g\colon 0\to 1$.
 \end{definition}
 
-Now functors $P\to C$ are pecisely pairs of parallel morphisms.
+Now functors $P\to C$ are precisely pairs of parallel morphisms.
 
 ## Limits and colimits
 
