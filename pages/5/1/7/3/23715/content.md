@@ -21,7 +21,17 @@ Given a [[Heyting field]] $F$, let us define the [[type]] of all [[terms]] in $F
 
 $$F_{#0} \coloneqq \{a \in F \vert a # 0\}$$
 
-The **reciprocal** or **reciprocal function** is a [[partial function]] $f:F_{#0} \to F$ such that for all $a \in F_{#0}$ we have $a \cdot f(a) = 1$ and $f(a) \cdot a = 1$
+The **reciprocal** or **reciprocal function** is a [[partial function]] $\frac{1}{-}:F_{#0} \to F$ such that for all $a \in F_{#0}$ we have $a \cdot \frac{1}{a} = 1$ and $\frac{1}{a} \cdot a = 1$
+
+In a [[discrete field]], the reciprocal is a function $f:F \to F + 1$ defined as 
+
+$$f(x) \coloneqq \frac{1}{x}$$
+
+for $x \neq 0$ and 
+
+$$f(x) \coloneqq \bot$$
+
+for $x = 0$, where $\bot \in 1$. This is because for a [[discrete field]] $F$, the set $F_{#0} \simeq F_{\neq 0}$ is a [[decidable subset]] of $F$.  
 
 ### In dense sequentially Cauchy complete ordered integral domains
 
