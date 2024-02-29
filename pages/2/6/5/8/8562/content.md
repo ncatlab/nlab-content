@@ -4,6 +4,10 @@ Minhyong Kim is Professor of Number Theory at the University of Oxford.
 
 ## Selected writings
 
+On [[entanglement entropy]] in [[arithmetic Chern-Simons theory]]:
+
+* Hee-Joong Chung, Dohyeong Kim, [[Minhyong Kim]], Jeehoon Park, Hwajong Yoo, *Entanglement entropies in the abelian arithmetic Chern-Simons theory* &lbrack;[arXiv:2312.17138](https://arxiv.org/abs/2312.17138)&rbrack;
+
 On a [[Lefschetz trace formula]] in [[equivariant cohomology]]:
 
 
