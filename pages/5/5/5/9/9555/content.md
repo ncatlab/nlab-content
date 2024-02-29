@@ -7,6 +7,11 @@ Introducing the [[Sachdev-Ye-Kitaev model]]:
 
 * {#SachdevYe93} [[Subir Sachdev]], Jinwu Ye, _Gapless Spin-Fluid Ground State in a Random Quantum Heisenberg Magnet_, Phys. Rev. Lett. 70:3339, 1993 ([arXiv:cond-mat/9212030](https://arxiv.org/abs/cond-mat/9212030))
 
+review relating also to [[strange metals]]:
+
+* [[Subir Sachdev]], *Quantum glasses, reparameterization invariance, Sachdev-Ye-Kitaev models* &lbrack;[arXiv:2402.17824](https://arxiv.org/abs/2402.17824)&rbrack;
+
+
 
 On [[AdS/CFT in condensed matter physics]]:
 
@@ -17,7 +22,7 @@ On the [[quantum dimer model]]:
 * [[Subir Sachdev]], *[Quantum dimer model](http://qpt.physics.harvard.edu/qdimer.html)*
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[AdS-CFT in condensed matter physics]]
 
