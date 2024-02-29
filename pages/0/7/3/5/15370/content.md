@@ -41,9 +41,11 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 1. ${\vert f \vert} = 0$ precisely if $f = 0$;
 
-2. ${\vert f + g \vert} \leq {\vert f \vert}+ {\vert g \vert}$ ([[triangle identity]])
+2. $\vert -f\vert = \vert f \vert$
 
-3. ${\vert f \cdot g\vert} \leq {\vert f \vert\cdot {\vert g \vert}}$.
+3. ${\vert f + g \vert} \leq {\vert f \vert}+ {\vert g \vert}$ ([[triangle identity]])
+
+4. ${\vert f \cdot g\vert} \leq {\vert f \vert\cdot {\vert g \vert}}$.
 
 =--
 
