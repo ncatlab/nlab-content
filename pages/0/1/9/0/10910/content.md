@@ -61,7 +61,13 @@ The [[KK-compactification]] of $D=10$ super-Yang-Mills to the point is a [[theor
 
 ## References
 
+
 * {#Nilsson81} [[Bengt Nilsson]], _Off-shell fields for the 10-dimensional supersymmetric Yang&#8211;Mills theory_, Feb 1981 ([Spire](http://inspirehep.net/record/164407/))
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], A. J. da Silva, *Geometric structure of $N=1$, $D=10$ and $N=4$, $D=4$ super Yang-Mills theory*, Nuclear Physics B **196** 2 (1982) 205-239 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90036-0">doi:10.1016/0550-3213(82)90036-0</a>&rbrack;
+
+  > (in [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation]])
+
 
 * {#AtickDharRatra86} [[Joseph Atick]], Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional $N=1$ supergravity coupled to $N=1$ super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
 
