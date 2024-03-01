@@ -2631,9 +2631,7 @@ Stone-von Neumann**
 ## External presentations
  {#ExternalTalk}
 
-External presentations reporting on work at CQTS.
-
-\linebreak
+\linebrea
 
 
 ### Sep 2022
@@ -2823,6 +2821,51 @@ External presentations reporting on work at CQTS.
   talk at: *[Homotopy Type Theory Electronic Seminar,](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)*, 
 
   video: [YT](https://youtu.be/Wnm3yCUzNb0)
+
+
+
+\linebreak
+
+* 28-29 Feb 2024
+
+  [[Asif Equbal]] and [[Amaria Javed]] presenting the CQTS booth at:
+
+  *[Quantum Information Summit, Dubai](https://quantuminnovationsummit.com)*
+
+\begin{imagefromfile}
+    "file_name": "CQTSBooth-At-QIS2024.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+* 29 Feb 2024
+
+  [[Hisham Sati]]
+
+  speaking at the Gala dinner of
+
+  *[Quantum Information Summit, Dubai](https://quantuminnovationsummit.com)*
+
+\begin{imagefromfile}
+    "file_name": "Sati-Award-QIS2024.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 
 
