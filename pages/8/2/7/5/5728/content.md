@@ -21,14 +21,13 @@
 
 ## Definition
 
-A **Artinian local ring** or **local Artinian ring** or **local Artin ring** or **Artin local ring** or **Weil ring** is a [[local ring]] which satisfies one of the equivalent conditions
+A **Artinian local ring** or **local Artinian ring** or **local Artin ring** or **Artin local ring** or **Weil ring** is a [[local ring]] which is also an [[Artinian ring]]; it satisfies the [[descending chain condition]]
 
-* The local ring is an [[Artinian ring]]; it satisfies the [[descending chain condition]]
-* The [[Jacobson radical]] of the local ring is a [[nilradical]]
+Crucially, this implies that the [[Jacobson radical]] of the local ring is a [[nilradical]]
 
 These are also called **Artinian local algebras**, **local Artinian algebras**, **Artin local algebras**, or **local Artin algebras** or **Weil algebras**, since Artinian local rings are [[commutative algebras]] over the residue field $\mathbb{K}$. 
 
-In [[synthetic differential geometry]], the term Weil algebra is used for real Artinian local algebras, see _[[infinitesimally thickened point]]_ for more details. 
+In [[synthetic differential geometry]], the term *Weil algebra* is used for real Artinian local algebras, see _[[infinitesimally thickened point]]_ for more details. 
 
 ## Properties
 
@@ -62,6 +61,8 @@ An Artinian local algebra has a unique [[prime ideal]], which means that its [[s
 ## References
 
 * [[The Stacks Project]]
+
+  * [10.53. Artinian rings](https://stacks.math.columbia.edu/tag/00J4)
 
   * [10.100. Flatness criteria over Artinian rings](http://stacks.math.columbia.edu/tag/051E)
 
