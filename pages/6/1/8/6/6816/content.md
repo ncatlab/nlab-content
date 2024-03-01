@@ -73,6 +73,7 @@ See at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 ## Related concepts
 
 * [[super Yang-Mills theory]]
+
 * [[N=1 D=4 super Yang-Mills theory]]
 
 * [[N=2 D=4 super Yang-Mills theory]]
@@ -90,6 +91,12 @@ See at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 ## References
 
 ### General
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], A. J. da Silva, *Geometric structure of $N=1$, $D=10$ and $N=4$, $D=4$ super Yang-Mills theory*, Nuclear Physics B **196** 2 (1982) 205-239 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90036-0">doi:10.1016/0550-3213(82)90036-0</a>&rbrack;
+
+  > (in [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation]])
+
+
 
 Discussion of [[D=4 N=4 SYM]] with emphasis on [[multi-trace operators]]:
 
