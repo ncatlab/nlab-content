@@ -50,7 +50,7 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 =--
 
-(e.g [Berkovich 2009, def. 1.2.1](#Berkovich09) Note that axiom 2 is missing in the source. It is however necessary to get a metric.)
+E.g [Berkovich 2009, def. 1.2.1](#Berkovich09) (But beware that axiom 2 is missing in the source, which is necessary to get a metric.)
 
 +-- {: .num_remark}
 ###### Remark
@@ -111,7 +111,7 @@ Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.km
 
 * {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 6.5 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
-* ProofWiki, _[Norm (Division ring)](https://proofwiki.org/wiki/Definition:Norm_(Division_Ring))_
+* ProofWiki, <a href="https://proofwiki.org/wiki/Definition:Norm_(Division_Ring)">Norm (Division ring)</a>
 
 For more see the references at _[[Banach ring]]_.
 
