@@ -30,7 +30,7 @@ See also
 
 * Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
  
-Comprehensive survey with emphasis on [[L-infinity algebra cohomology]]:
+Comprehensive survey with emphasis on [[L-infinity algebra cohomology|$L_\infty$-algebra cohomology]]:
 
 * Ben Reinhold, *$L_\infty$-algebras and their cohomology*, Emergent Scientist **3** 4 (2019) &lbrack;[doi:10.1051/emsci/2019003](https://doi.org/10.1051/emsci/2019003)&rbrack;
 
