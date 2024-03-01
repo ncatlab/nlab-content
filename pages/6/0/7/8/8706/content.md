@@ -215,7 +215,7 @@ $$
   \to 
   \cdots
   \to 
-  H_1(X) \to H_1(X,*) \to  H_0(*) \stackrel{H_0(x)}{\to}  H_0(X) \to H_n(X,*)
+  H_1(X) \to H_1(X,*) \to  H_0(*) \stackrel{H_0(x)}{\to}  H_0(X) \to H_0(X,*)
   \to 0
   \,.
 $$
