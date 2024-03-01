@@ -68,7 +68,18 @@ See also at _[supergravity -- History](supergravity#History)_.
 
 ### Geometric construction
 
-Discussion in the [[D'Auria-Fré formulation of supergravity]] includes
+Discussion in the [[D'Auria-Fré formulation of supergravity]]:
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], *About bosonic rheonomic symmetry and the generation of a spin-1 field in $D=5$ supergravity*, Nuclear Physics B
+**173** 3 (1980) 456-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90013-9">doi:10.1016/0550-3213(80)90013-9</a>&rbrack;
+
+  > (on [[D=4 N=1 supergravity]])
+
+* [[Pietro Fré]], *Extended supergravity on the supergroup manifold: $N=3$ and $N=2$ theories*, Nuclear Physics B
+**186** 1 (1981) 44-60 &lbrack;<a href="https://doi.org/10.1016/0550-3213(81)90092-4">doi:10.1016/0550-3213(81)90092-4</a>&rbrack;
+
+  > (on [[D=4 N=2 supergravity|D=4 N=2]] and [[D=4 N=3 supergravity]])
+
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.3.5 and III.4 and V.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
