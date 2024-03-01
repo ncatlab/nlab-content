@@ -1092,19 +1092,37 @@ The use in this context of [[super L-∞ algebras]] in their [[formal dual]] inc
 
 * {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in: *Group Theoretical Methods in Physics*, Lecture Notes in Physics **180**, Springer (1983) 228–247 &lbrack;[doi:10.1007/3-540-12291-5_29](https://doi.org/10.1007/3-540-12291-5_29), [spire:182644](http://inspirehep.net/record/182644)&rbrack;
 
-The original articles that introduced specifically the D'Auria-Fré-formalism:
+The original articles that introduced specifically the D'Auria-Fré-formalism for discussion of [[supergravity]] in this fashion ("geometric supergravity"):
 
 * {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]],  [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
 
-* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
+* [[Riccardo D'Auria]], [[Pietro Fré]], *About bosonic rheonomic symmetry and the generation of a spin-1 field in $D=5$ supergravity*, Nuclear Physics B
+**173** 3 (1980) 456-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90013-9">doi:10.1016/0550-3213(80)90013-9</a>&rbrack;
+
+  > (on [[D=4 N=1 supergravity]])
+
+* [[Pietro Fré]], *Extended supergravity on the supergroup manifold: $N=3$ and $N=2$ theories*, Nuclear Physics B
+**186** 1 (1981) 44-60 &lbrack;<a href="https://doi.org/10.1016/0550-3213(81)90092-4">doi:10.1016/0550-3213(81)90092-4</a>&rbrack;
+
+  > (on [[D=4 N=2 supergravity|D=4 N=2]] and [[D=4 N=3 supergravity]])
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], A. J. da Silva, *Geometric structure of $N=1$, $D=10$ and $N=4$, $D=4$ super Yang-Mills theory*, Nuclear Physics B **196** 2 (1982) 205-239 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90036-0">doi:10.1016/0550-3213(82)90036-0</a>&rbrack;
+
+  > (on [[D=10 super Yang-Mills theory|D=10]] and [[D=4 N=4 super Yang-Mills theory]])
+
+
+* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
+
+  > (in [[D=11 supergravity]])
 
 * {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
 
+
 Monographs:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
 
 * [[Pietro Fré]], §6 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
