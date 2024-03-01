@@ -59,11 +59,18 @@ For more see also at _[[higher category theory and physics]]_.
 
 #### In supergravity
 
-In their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (see [above](#ReformulationInTermsOfSemifreeDGAlgebra)), $L_\infty$-algebras of [[finite type]] -- in fact [[super L-∞ algebras]] -- appear in pivotal role in the [[D'Auria-Fré formulation of supergravity]] at least since 
+Implicitly, in their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (see [above](#ReformulationInTermsOfSemifreeDGAlgebra)), $L_\infty$-algebras of [[finite type]] -- in fact [[super L-∞ algebras]] -- play a pivotal role in the [[D'Auria-Fré formulation of supergravity]] at least since 
 
-* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
+* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 \[<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]\]
 
-In the [[supergravity]] literature these CE-algebras are referred to as "FDA"s. This is short for "free differential algebra", which is a slight misnomer for what in mathematics are called [[semifree dga]]s (or sometimes "quasi-free" dga-s).
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], Ch III.6 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]]\]
+
+* [[Pietro Fré]], §6.3 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) \[<a href="https://doi.org/10.1007/978-94-007-5443-0">doi:10.1007/978-94-007-5443-0</a>\]
+
+* [[Leonardo Castellani]], §6 in: *Supergravity in the group-geometric framework: a primer*, Fortschr. Phys. **66** 4 (2018) \[<a href="https://doi.org/10.1002/prop.201800014">doi:10.1002/prop.201800014</a>, [arXiv:1802.03407](https://arxiv.org/abs/1802.03407)\]
+
+
+where they are called "free differential algebras" ("FDA"s, apparently following [can Nieuwenhuizen 1982](D'Auria-Fre+formulation+of+supergravity#Nieuwenhuizen82)), which is a misnomer for what in mathematics are called [[semifree dga]]s (since it is only the [[underlying]] [[graded-commutative algebra]] that is required to be free, the [[differential]] is crucially *not* free in general, otherwise one has just a [[Weil algebra]]).
 
 The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formalism]] ("FDA"s) to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language was made in:
 
@@ -71,7 +78,7 @@ The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré forma
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], example 5 in section 6.5.1, p. 54 of: _[[schreiber:L-infinity algebra connections|$L_\infty$ algebra connections and applications to String- and Chern-Simons n-transport]]_, in: *Quantum Field Theory*, Birkh&#228;user (2009) 303-424 \[<a href="http://arxiv.org/abs/0801.3480">arXiv:0801.3480</a>, [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)\]
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, Int. J. of Geometric Methods in Modern Physics **12** 02 (2015) 1550018 &lbrack;[arXiv:1308.5264](http://arxiv.org/abs/1308.5264), [doi:10.1142/S0219887815500188](https://doi.org/10.1142/S0219887815500188)&rbrack;
 
 connecting them to the [[higher WZW terms]] of the [[Green-Schwarz sigma models]] of fundamental [[super p-branes]] ([[schreiber:The brane bouquet]]).
 
