@@ -1430,12 +1430,17 @@ $$
   \int_C \;\colon\; \Omega^{\bullet + dim(C)}(U \times C) \longrightarrow \Omega^\bullet(U)
 $$
 
-which on differential forms of the form $\omega_U \wedge \omega$ is given by
+which on differential forms of the form $\omega_U \wedge \omega$ with ($\omega_U$ [[pullback of differential forms|pulled back]] from $U$ and $\omega$ from $C$)
+is given by:
 
 $$
   \int_C \omega_U \wedge \omega
    \;\coloneqq\;
-  (-1)^{\vert \omega_U\vert} \int_C \omega
+  (-1)^{\vert \omega_U\vert} 
+  \Big(
+    \textstyle{\int}_C \omega
+  \Big)
+  \omega_U
   \,.
 $$
 
