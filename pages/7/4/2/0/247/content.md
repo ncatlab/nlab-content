@@ -29,6 +29,10 @@ On [[set theory]]:
 
 * {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
 
+On [[synthetic differential geometry]]:
+
+* [[Mike Shulman]], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://home.sandiego.edu/~shulman/papers/sdg-pizza-seminar.pdf))
+
 ## Talks
 
 On [[higher observational type theory]]:
