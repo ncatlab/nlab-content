@@ -84,6 +84,7 @@ Later on, [Wadler 2012](#Walder2012) established a correspondence between [[clas
 * Peter Sewell, _Applied $\pi$ – A Brief Tutorial_, (2000) ([pdf](https://www.cl.cam.ac.uk/~pes20/apppi.pdf)).
 * Jeannette M. Wing, _FAQ on $\pi$-Calculus_, (2002) ([pdf](https://www.cs.cmu.edu/~wing/publications/Wing02a.pdf)).
 * Daniel Hirschkoff, _A brief survey of the theory of the $\pi$-calculus_, (2003) ([pdf](https://hal-lara.archives-ouvertes.fr/hal-02101985/file/RR2003-13.pdf)).
+* [[Pierre-Louis Curien]], *Introduction to CCS and $pi$-calculus*, (2003) ([ps](https://www.irif.fr/~curien/CCS-DEA.ps.gz)).
 
 On types:
 
