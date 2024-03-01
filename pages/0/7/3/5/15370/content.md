@@ -50,7 +50,7 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 =--
 
-(e.g [Berkovich 2009, def. 1.2.1](#Berkovich09))
+(e.g [Berkovich 2009, def. 1.2.1](#Berkovich09) Note that axiom 2 is missing in the source. It is however necessary to get a metric.)
 
 +-- {: .num_remark}
 ###### Remark
