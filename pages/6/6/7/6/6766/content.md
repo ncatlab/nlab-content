@@ -78,6 +78,8 @@ Relation to [[braid representations]]:
 
 * [[Ivan Marin]], *Sur les représentations de Krammer génériques*, Annales de l'Institut Fourier, **57** 6 (2007) 1883-1925 &lbrack;[numdam:AIF_2007__57_6_1883_0](http://www.numdam.org/item/AIF_2007__57_6_1883_0)&rbrack;
 
+* [[Anton Alekseev]], Florian Naef, Muze Ren. *Generalized Pentagon Equations* (2024). ([arXiv:2402.19138](https://arxiv.org/abs/2402.19138)).
+
 and understood in terms of [[anyon statistics]]:
 
 * {#GuHaghighatLiu21} Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations*, J. High Energ. Phys. **2022** 15 (2022) &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195), <a href="https://doi.org/10.1007/JHEP09(2022)015">doi:10.1007/JHEP09(2022)015</a>&rbrack;
