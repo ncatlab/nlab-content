@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -49,7 +50,7 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 =--
 
-e.g ([Berkovich 09, def. 1.2.1](#Berkovich09))
+(e.g [Berkovich 2009, def. 1.2.1](#Berkovich09))
 
 +-- {: .num_remark}
 ###### Remark
@@ -106,7 +107,7 @@ Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.km
 
 * {#Jarden11} M. Jarden, _Normed rings_, chapter 2 of  _Algebraic patching_, Springer Monographs in Mathematics, 2011 ([[JardenNormedRings.pdf:file]])
 
-* {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+* {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 &lbrack;[pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf)&rbrack;
 
 * {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 6.5 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
