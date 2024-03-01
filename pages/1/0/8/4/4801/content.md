@@ -23,6 +23,8 @@ See at _[[field (physics)]]_ the section _[Ordinary gravity](field%20%28physics%
 
 ## References
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §I.2 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]]&rbrack;
+
 * [[Thanu Padmanabhan]], §11.6 in: *Gravitation -- Foundations and Frontiers*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511807787](https://doi.org/10.1017/CBO9780511807787), [spire:852758](https://inspirehep.net/literature/852758), toc: [pdf](https://web.iucaa.in/~paddy/books/GRTOC.pdf)&rbrack;
 
 
