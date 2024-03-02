@@ -73,7 +73,7 @@ is an [[exact functor]] (sends [[short exact sequences]] to short exact sequence
 +-- {: .num_defn #FaithfullyFlatModule}
 ###### Definition
 
-A module as above is _faithfully flat_ if it is flat and tensoring in addition _reflects exactness_, hence if the tensored sequence is exact if and only if the original sequence was.
+A module as above is _faithfully flat_ if it is flat and tensoring in addition _reflects exactness_, hence if the tensored sequence is exact if and only if the original sequence was. Equivalently, one says a module is faithfully flat is it is flat and a module $M$ is nonzero if and only if the module $M\otimes N$ is nonzero.
 
 =--
 
