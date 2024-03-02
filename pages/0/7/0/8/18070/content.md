@@ -870,7 +870,7 @@ Then the [[Cohomotopy charge map]] constitutes a [[weak homotopy equivalence]]
 $$
   \underset{
     \color{blue}
-    { \phantom{a} \atop \text{ J-twisted Cohomotopy space}}
+    { \phantom{a} \atop \text{ tangentaklltwisted Cohomotopy space}}
   }{
     Maps_{{}_{/B O(n)}}
     \Big(
@@ -914,7 +914,7 @@ $$
 
 between 
 
-1. the [[J-homomorphism|J]]-[[twisted Cohomotopy|twisted (n+k)-Cohomotopy]] space of $X^n$, hence the [[space of sections]] of the $(n + k)$-[[spherical fibration]] over $X$ which is [[associated fiber bundle|associated]] via the [[tangent bundle]] by the [[O(n)]]-[[action]] on $S^{n+k} = S(\mathbb{R}^{n} \times \mathbb{R}^{k+1})$
+1. the tangentially-[[twisted Cohomotopy|twisted (n+k)-Cohomotopy]] space of $X^n$, hence the [[space of sections]] of the $(n + k)$-[[spherical fibration]] over $X$ which is [[associated fiber bundle|associated]] via the [[tangent bundle]] by the [[O(n)]]-[[action]] on $S^{n+k} = S(\mathbb{R}^{n} \times \mathbb{R}^{k+1})$
 
 1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
 
