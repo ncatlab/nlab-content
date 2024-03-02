@@ -44,6 +44,9 @@ But piecewise flat spacetimes also appear naturally as the "[[far-horizon geomet
 
 * {#Regge61} [[Tullio Regge]], _General relativity without coordinates_,  Nuovo Cim (1961) 19: 558 ([doi:10.1007/BF02733251](https://doi.org/10.1007/BF02733251))
 
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], §42 in: _[[Gravitation]]_, W. H. Freeman (1973) &lbrack;[inspire:95654](https://inspirehep.net/literature/95654)&rbrack;
+
+
 * {#CheegerMuellerSchrader84} [[Jeff Cheeger]], Werner Müller, Robert Schrader, _On the curvature of piecewise flat spaces_, Comm. Math. Phys. Volume 92, Number 3 (1984), 405-454 ([euclid:1103940867](https://projecteuclid.org/euclid.cmp/1103940867))
 
 * {#Barrett87} [[John Barrett]], _The geometry of classical Regge calculus_, Classical and Quantum Gravity, Volume 4, Number 6, 1987 ([doi:10.1088/0264-9381/4/6/015/meta](http://iopscience.iop.org/article/10.1088/0264-9381/4/6/015/meta))
