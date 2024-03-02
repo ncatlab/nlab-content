@@ -104,13 +104,12 @@ The notion of normed rings originates with:
 
 See also:
 
-* {#BoschGüntzerRemmert84} S. Bosch, U. U. Güntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_ (1984) &lbrack;[pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf)&rbrack;
-
+* {#BoschGüntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], *[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry*, Grundlehren der Mathem. Wissen. **261** (1984) &lbrack;  [ISBN:9783540125464](https://link.springer.com/book/9783540125464), [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf)&rbrack;
 
 * Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
-Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.kmj/1138833472))
+**1** 3-4 (1949) 23-24 &lbrack;[euclid:kmj/1138833472](http://projecteuclid.org/euclid.kmj/1138833472)&rbrack;
 
-* {#Naimark59} [[Mark Naimark]],  _Normed Rings_, Groningen, Netherlands: P. Noordhoff N. V., 1959.
+* {#Naimark59} [[Mark Naimark]],  _Normed Rings_, Groningen, Netherlands: P. Noordhoff N. V. (1959)
 
 * {#Jarden11} M. Jarden, _Normed rings_, chapter 2 of:  _Algebraic patching_, Springer Monographs in Mathematics (2011) &lbrack;[[JardenNormedRings.pdf:file]]&rbrack;
 
