@@ -338,7 +338,7 @@ With this identification the [[torsion of a Cartan connection]] maps into the [[
 
 The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. [[Cartan geometry]]).
 
-* {#Cartan23} [[Élie Cartan]] _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
+* {#Cartan23} [[Élie Cartan]], *Sur les variétés à connexion affine et la théorie de la relativité généralisée (première partie)*, Annales scientifiques de l’École Normale Supérieure, Sér. **3** 40 (1923) 325-412 &lbrack;[numdam:ASENS_1923_3_40__325_0](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0)&rbrack;
 
 The formalization in terms of [[principal connections]] (in their incarnation as [[Ehresmann connections]]) is due to
 
@@ -348,15 +348,26 @@ reviewed in
 
 * {#Marle14} [[Charles-Michel Marle]], _The works of Charles Ehresmann on connections: from Cartan connections to connections on fibre bundles_ ([arxiv:1401.8272](http://arxiv.org/abs/1401.8272))
 
-Textbook accounts include
+see also
 
-* {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+* [[Shôshichi Kobayashi]], *On Connections Of Cartan*, Canadian Journal of Mathematics **8** (1956) 145-156 &lbrack;[doi:10.4153/CJM-1956-018-8](https://doi.org/10.4153/CJM-1956-018-8)&rbrack;
+
+Textbook accounts:
+
+* {#Sharpe97} [[Richard Sharpe]], _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
 * {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
-Discussion with an eye towards [[torsion constraints in supergravity]] is in
+Discussion with an eye towards [[first-order formulation of gravity]]:
 
-* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+* [[Gabriel Catren]], *Geometrical Foundations of Cartan Gauge Gravity*,  Int. J. Geom. Methods in Modern Physics **12** 04 (2015) 1530002  &lbrack;[arXiv:1407.7814](https://arxiv.org/abs/1407.7814), [doi:10.1142/S0219887815300020](https://doi.org/10.1142/S0219887815300020)&rbrack;
+
+
+Discussion with an eye towards [[torsion constraints in supergravity]]:
+
+* [[John Lott]], *Torsion Constraints in Supergravity*, Comm. Math. Phys. **133** (1990) 563-615
+
+* {#Lott01} [[John Lott]], *The Geometry of Supergravity Torsion Constraints* &lbrack;[arXiv:0108125](http://arxiv.org/abs/math/0108125)&rbrack;
 
  
 See also
