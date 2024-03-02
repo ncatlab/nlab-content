@@ -58,7 +58,9 @@ The Wheeler-DeWitt equation is (5.5) in [DeWitt 1967](#DeWitt67)
 
 Review:
 
-* [[Domenico Giulini]], _The Superspace of Geometrodynamics_ ([arXiv:0902.3923](https://arxiv.org/abs/0902.3923))
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], §43 in: _[[Gravitation]]_, W. H. Freeman (1973) &lbrack;[inspire:95654](https://inspirehep.net/literature/95654)&rbrack;
+
+* [[Domenico Giulini]], _The Superspace of Geometrodynamics_ &lbrack;[arXiv:0902.3923](https://arxiv.org/abs/0902.3923)&rbrack;
 
 See also:
 
