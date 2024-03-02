@@ -8,23 +8,37 @@
 =--
 =--
 =--
+
 This page collects material related to the textbook
 
-* [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]],
+* [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]]:
 
-  _Non-Archimedean Analysis -- A systematic approach to rigid analytic geometry_, 
+  \linebreak
 
-  Grundlehren der Mathem. Wissen. __261__, 1984 
+  **Non-Archimedean Analysis**
 
-  ([MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961), [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+  **A systematic approach to rigid analytic geometry**
+ 
+  \linebreak
+
+  Grundlehren der Mathem. Wissen. **261** (1984)
+
+  [ISBN:9783540125464](https://link.springer.com/book/9783540125464)
+
+  [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf)
+
+  [MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961) 
 
 on [[rigid analytic geometry]].
+
+
+
 
 #Contents#
 * table of contents
 {:toc}
 
-## Part A. Linear Uktrametric Analysis and Valuation Theory
+## Part A. Linear Ultrametric Analysis and Valuation Theory
 
 
 ### Chapter 1. Norms and valuations
