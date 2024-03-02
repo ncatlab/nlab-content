@@ -76,7 +76,7 @@ Introductions are in
 
 A comprehensive textbook account is in 
 
-* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, Grundlehren der Mathem. Wissen. __261__, Springer 1984 ([MR0746961](http://www.ams.org/mathscinet-getitem?mr=0746961), [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+* {#BoschGüntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], *[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry*, Grundlehren der Mathem. Wissen. **261** (1984) &lbrack;  [ISBN:9783540125464](https://link.springer.com/book/9783540125464), [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf)&rbrack;
 
 
 
