@@ -51,7 +51,9 @@ Whatever it is otherwise, [[string theory]] turns out to be an organizational pr
 
 
 
+
 ## References
+
 
 ### Original articles
 
@@ -66,11 +68,12 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 ### Surveys and lecture notes
 
 
-
 * {#Schwarz97} [[John Schwarz]], _Lectures on Superstring and M Theory Dualities_, Nucl. Phys. Proc. Suppl. 55B:1-32, 1997 ([arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201))
 
 
 * [[Michael Dine]], _String Theory Dualities_ &lbrack;[arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051)&rbrack;
+
+* [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
