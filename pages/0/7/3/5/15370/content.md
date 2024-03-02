@@ -97,7 +97,14 @@ Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute v
 
 ## References
 
-* {#BoschGuntzerRemmert84} S. Bosch, U. G&#252;ntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+The notion of normed rings originates with:
+
+* [[Israel Gelfand]], *Normierte Ringe*, Rec. Math. [Mat. Sbornik] N.S. **9**(51) 1 (1941) 3–24 &lbrack;[mathnet:6046](https://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=6046&option_lang=eng)&rbrack;
+
+
+See also:
+
+* {#BoschGüntzerRemmert84} S. Bosch, U. U. Güntzer, [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_ (1984) &lbrack;[pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf)&rbrack;
 
 
 * Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
@@ -105,7 +112,7 @@ Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.km
 
 * {#Naimark59} [[Mark Naimark]],  _Normed Rings_, Groningen, Netherlands: P. Noordhoff N. V., 1959.
 
-* {#Jarden11} M. Jarden, _Normed rings_, chapter 2 of  _Algebraic patching_, Springer Monographs in Mathematics, 2011 ([[JardenNormedRings.pdf:file]])
+* {#Jarden11} M. Jarden, _Normed rings_, chapter 2 of:  _Algebraic patching_, Springer Monographs in Mathematics (2011) &lbrack;[[JardenNormedRings.pdf:file]]&rbrack;
 
 * {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 &lbrack;[pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf)&rbrack;
 
