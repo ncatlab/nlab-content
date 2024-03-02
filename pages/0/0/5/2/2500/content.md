@@ -374,6 +374,12 @@ Early review:
 
   > (emphasis on [[Kaluza-Klein compactification]])
 
+* [[Yoshiaki Tanii]], *Introduction to Supergravities in Diverse Dimensions*, in *[YITP Workshop on Supersymmetry](https://inspirehep.net/conferences/971516)*, Kyoto (1996) &lbrack;[arXiv:hep-th/9802138](https://arxiv.org/abs/hep-th/9802138)&rbrack;
+
+* [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
+
+
+
 Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
