@@ -7,6 +7,11 @@
 
 The original articles on the [[D'Auria-Fre formulation of supergravity]]:
 
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Geometrical formulation of supergravity as a theory on a supergroup manifold*, contribution to *[Supergravity Workshop](https://inspirehep.net/conferences/964530)*, Stony Brook (1979) 85-92 &lbrack;[inspire:148583](https://inspirehep.net/literature/148583)&rbrack;
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Supergravity and Cohomology Theory: Progress and Problems in $D = 5$*, in *Unification of the Fundamental Particle Interactions*, Ettore Majorana International Science Series, **7** Springer (1980) &lbrack;[doi:10.1007/978-1-4613-3171-1_12](https://doi.org/10.1007/978-1-4613-3171-1_12), [[DAuriaFreRegge-SuGraAndCohomology.pdf:file]]&rbrack;
+
 * {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3**, fasc. 12 (1980) &lbrack;[spire](http://inspirehep.net/record/156191)&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], *About bosonic rheonomic symmetry and the generation of a spin-1 field in $D=5$ supergravity*, Nuclear Physics B
