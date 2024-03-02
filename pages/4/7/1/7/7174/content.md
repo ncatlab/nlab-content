@@ -1,5 +1,5 @@
 
-Peter West is professor of mathematics at King's college London.
+Peter Christopher West is professor of mathematics at King's college London.
 
 * <a href="https://en.wikipedia.org/wiki/Peter_West_(physicist)">Wikipedia entry</a>
 
@@ -9,10 +9,15 @@ Peter West is professor of mathematics at King's college London.
 
 ## Selected writings
 
+Formulating [[supergravity]] in [[superspace]]:
+
+* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;[doi:10.1016/0550-3213(80)90037-1](https://doi.org/10.1016/0550-3213(80)90037-1)&rbrack;
+
+
+
 Early construction of [[type IIA supergravity]]:
 
-* I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B
-**243** 1 (1984) 112-124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
+* I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B **243** 1 (1984) 112-124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
 
 On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
 
