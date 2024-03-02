@@ -34,13 +34,13 @@
 ## Idea
  {#Idea}
 
-The D'Auria-Fr&#233; formalism ([D'Auria-Fr&#233;-Regge 80](#DAuriaFre80), [D'Auria-Fr&#233; 80](#DAuriaFre), [Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre)) is a natural "[[superspace]]" formulation of [[supergravity]] in general [[dimensions]], including [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
+The D'Auria-Fré-Regge formalism (due to [Ne'eman & Regge 1978](#NeemanRegge78); [D'Auria, Fré & Regge 1979](#DAuriaFréRegge79), [80a](#DAuriaFréRegge80a), [80b](#DAuriaFréRegge80b), extensively developed by [Castellani, D'Auria & Fré 1991](#CastellaniDAuriaFre)) is a natural  formulation of [[supergravity]] on "[[superspace]]" (with some hindsight: in [[higher Cartan geometry|higher]] [[super Cartan geometry]]) in general [[dimensions]], including besides [[D=4 supergravity]] also [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
 
 This proceeds in generalization of how [[Einstein gravity]] in [[first order formulation of gravity]] is equivalently the [[Cartan geometry]] for the inclusion of the [[Lorentz group]] inside the [[Poincare group]]: a [[field (physics)|field]] configuration of the field of [[gravity]] is equivalently a [[Cartan connection]] for this [[subgroup]] inclusion. 
 
 Accordingly, low dimensional [[supergravity]] without [[extended supersymmetry]] is equivalently the [[super-Cartan geometry]] of the inclusion of the [[spin group]] into the [[super Poincaré group]].
 
-What D'Auria-Fr&#233; implicitly observe (not in this [[homotopy theory|homotopy theoretic]] language though, that was developed in [Sati-Schreiber-Stasheff 08](#SSS), [Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10), [Fiorenza-Sati-Schreiber 13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]]. This is the refinement of [[super-Cartan geometry]] to [[higher Cartan geometry]].
+What D'Auria-Fr&#233; implicitly observe (not in this [[homotopy theory|homotopy theoretic]] language though, that was developed in [Sati, Schreiber & Stasheff 09](#SSS); [Fiorenza, Schreiber & Stasheff 10](#FiorenzaSchreiberStasheff10), [13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]]. This is the refinement of [[super-Cartan geometry]] to [[higher Cartan geometry]].
 
 This [[higher Cartan geometry|higher]] [[super Cartan geometry]]-description of [[supergravity]] is what D'Auria-Fr&#233; called the _geometric approach to supergravity_ or _geometric supergravity_ (e.g. [D'Auria 20](#DAuria20)). 
 
@@ -1085,16 +1085,19 @@ The formulation of supergravity of [[supermanifolds]] and the relevance of the [
 
 The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
-* [[Yuval Ne'eman]], [[Tullio Regge]], *Gravity and supergravity as gauge theories on a group manifold*, Physics Letters B **74** 1–2 (1978) 54-56 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90058-8">doi:10.1016/0370-2693(78)90058-8</a>, [spire:6328](https://inspirehep.net/literature/6328)&rbrack;
+* {#NeemanRegge78} [[Yuval Ne'eman]], [[Tullio Regge]], *Gravity and supergravity as gauge theories on a group manifold*, Physics Letters B **74** 1–2 (1978) 54-56 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90058-8">doi:10.1016/0370-2693(78)90058-8</a>, [spire:6328](https://inspirehep.net/literature/6328)&rbrack;
 
   also: Rivista del Nuovo Cimento **1** 5 (1978) 1–43
-
 
 * {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in: *Group Theoretical Methods in Physics*, Lecture Notes in Physics **180**, Springer (1983) 228–247 &lbrack;[doi:10.1007/3-540-12291-5_29](https://doi.org/10.1007/3-540-12291-5_29), [spire:182644](http://inspirehep.net/record/182644)&rbrack;
 
 The original articles that introduced specifically the D'Auria-Fré-formalism for discussion of [[supergravity]] in this fashion ("geometric supergravity"):
 
-* {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]],  [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
+* {#DAuriaFréRegge79} [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Geometrical formulation of supergravity as a theory on a supergroup manifold*, contribution to *[Supergravity Workshop](https://inspirehep.net/conferences/964530)*, Stony Brook (1979) 85-92 &lbrack;[inspire:148583](https://inspirehep.net/literature/148583)&rbrack;
+
+* {#DAuriaFréRegge80a}[[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Supergravity and Cohomology Theory: Progress and Problems in $D = 5$*, in *Unification of the Fundamental Particle Interactions*, Ettore Majorana International Science Series, **7** Springer (1980) 171-185 &lbrack;[doi:10.1007/978-1-4613-3171-1_12](https://doi.org/10.1007/978-1-4613-3171-1_12), [[DAuriaFreRegge-SuGraAndCohomology.pdf:file]]&rbrack;
+
+* {#DAuriaFréRegge80b} [[Riccardo D'Auria]], [[Pietro Fré]],  [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], *About bosonic rheonomic symmetry and the generation of a spin-1 field in $D=5$ supergravity*, Nuclear Physics B
 **173** 3 (1980) 456-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90013-9">doi:10.1016/0550-3213(80)90013-9</a>&rbrack;
@@ -1109,7 +1112,6 @@ The original articles that introduced specifically the D'Auria-Fré-formalism fo
 * [[Riccardo D'Auria]], [[Pietro Fré]], A. J. da Silva, *Geometric structure of $N=1$, $D=10$ and $N=4$, $D=4$ super Yang-Mills theory*, Nuclear Physics B **196** 2 (1982) 205-239 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90036-0">doi:10.1016/0550-3213(82)90036-0</a>&rbrack;
 
   > (on [[D=10 super Yang-Mills theory|D=10]] and [[D=4 N=4 super Yang-Mills theory]])
-
 
 * {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
 
@@ -1144,9 +1146,18 @@ See also:
 * [[Igor Bandos]], [[José de Azcárraga]] , M. Picon, O. Varela, Section 2 of: *Generalized curvature and the equations of $D=11$ supergravity*, Phys. Lett. B **615** (2005) 127-133 &lbrack;[arXiv:hep-th/0501007](https://arxiv.org/abs/hep-th/0501007), [doi:10.1016/j.physletb.2005.03.045](https://doi.org/10.1016/j.physletb.2005.03.045)&rbrack;
 
 
-Discussion of [[gauged supergravity]] in this way is in 
+Discussion of [[gauged supergravity]] in this way:
 
 * {#Fre05} [[Pietro Fré]], _M-theory FDA, Twisted Tori and Chevalley Cohomology_, Nucl.Phys.B742:86-123, 2006 ([arXiv:hep-th/0510068](http://arxiv.org/abs/hep-th/0510068))
+
+Independent dicussion of rheonomy in the guise of "superspace constraints":
+
+* [[Warren Siegel]], [[S. James Gates Jr.]], *Superfield supergravity*, Nuclear Physics B **147** 1–2 (1979) 77-104 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90416-4">doi:10.1016/0550-3213(79)90416-4</a>&rbrack;
+
+* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;[doi:10.1016/0550-3213(80)90037-1](https://doi.org/10.1016/0550-3213(80)90037-1)&rbrack;
+
+* [[S. James Gates Jr.]], *On-shell and conformal $N=4$ supergravity in superspace*, Nuclear Physics B **213** 3 (1983) 409-444 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90229-8">doi:10.1016/0550-3213(83)90229-8</a>&rbrack;
+
 
 
 The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential forms]] is in
@@ -1157,7 +1168,7 @@ The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravi
 
 The [[Lie integration]] of that to genuine [[principal ∞-connections]] is in 
 
-* {#FiorenzaSchreiberStasheff10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:?ech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
+* {#FiorenzaSchreiberStasheff10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Phyiscs, **16** 1 (2012) &lbrack;[arXiv:1011.4735](http://arxiv.org/abs/1011.4735)&rbrack;
   
 
 The [[super L-∞ algebras]] that govern the construction are interpreted in the [[higher gauge theory]] of an [[schreiber:∞-Wess-Zumino-Witten theory]] description of the [[Green-Schwarz sigma-model]]-type $p$-[[branes]] in
@@ -1211,7 +1222,8 @@ See also:
 [[!redirects geometric supergravity]]
 
 [[!redirects rheonomy]]
+
+[[!redirects D'Auria-Fre formulation of supergravity]]
 [[!redirects D'Auria-Fré formulation of supergravity]]
 [[!redirects Auria-Fre formulation of supergravity]]
-
 
