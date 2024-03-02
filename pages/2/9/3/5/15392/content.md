@@ -1,7 +1,12 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Shoshichi_Kobayashi)
 
+
 ## Selected writings
+
+On [[Cartan connections]]:
+
+* [[Shôshichi Kobayashi]], *On Connections Of Cartan*, Canadian Journal of Mathematics **8** (1956) 145-156 &lbrack;[doi:10.4153/CJM-1956-018-8](https://doi.org/10.4153/CJM-1956-018-8)&rbrack;
 
 On [[differential geometry]]:
 
@@ -19,3 +24,8 @@ On [[differential geometry]] with emphasis on [[G-structures]];
 * [[G-structure]]
 
 category: people
+
+
+[[!redirects Shôshichi Kobayashi]]
+
+
