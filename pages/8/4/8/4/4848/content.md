@@ -288,6 +288,8 @@ If the torsion vanishes, this is indeed a closed form.
 
 * [[special orthogonal Lie algebra]]
 
+* [[Poincaré-Weyl algebra]]
+
 * [[super Poincaré Lie algebra]]
 
 
