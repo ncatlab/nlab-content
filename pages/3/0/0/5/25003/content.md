@@ -39,6 +39,8 @@ An **ordered Kock field** is a [[Kock field]] $R$ with a [[strict weak order]] $
 
 * [[ordered local ring]]
 
+* [[Archimedean ordered Kock field]]
+
 ## References
 
 * [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
