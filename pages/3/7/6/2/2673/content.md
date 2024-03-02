@@ -51,17 +51,21 @@ See also at _[[teleparallel gravity]]_.
 
 * [[teleparallel gravity]]
 
+
 ## References
 
 A decent introduction is in  
 
 * [[Jorge Zanelli]], sections 4 and 5 of _Lecture notes on Chern-Simons (super-)gravities. Second edition (February 2008)_ ([arXiv:hep-th/0502193](http://arxiv.org/abs/hep-th/0502193))
 
-A detailed account is in  
+Understood via [[Cartan geometry]]:
+
+* [[Gabriel Catren]], *Geometrical Foundations of Cartan Gauge Gravity*,  Int. J. Geom. Methods in Modern Physics **12** 04 (2015) 1530002  &lbrack;[arXiv:1407.7814](https://arxiv.org/abs/1407.7814), [doi:10.1142/S0219887815300020](https://doi.org/10.1142/S0219887815300020)&rbrack;
+
+and in view of [[supergravity]]:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section I.4.1 of _[[Supergravity and Superstrings - A Geometric Perspective]]_
-
-which is aimed at [[supergravity]]. For more on this case see also
+ For more on this case see also
 
 * [[Bernard Julia]], S. Silva, *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
 
