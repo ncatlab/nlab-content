@@ -47,6 +47,8 @@ Ordered local rings are important for modeling notions of [[infinitesimals]] and
 
 * [[ordered field]]
 
+* [[ordered Kock field]]
+
 * [[Archimedean ordered local ring]]
 
 * [[ordered Artinian local ring]]
