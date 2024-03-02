@@ -1,5 +1,6 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -2347,22 +2348,7 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 
 * {#EgeilehChami13} [[Michel Egeileh]], [[Fida El Chami]], _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
 
-Super Cartan geometry in the usual components is made explicit in:
-
-* [[Konstantin Eder]], _Super Cartan geometry and the super Ashtekar connection_ ([arXiv:2010.09630](https://arxiv.org/abs/2010.09630))
-
-
-* [[Konstantin Eder]], _Super fiber bundles, connection forms and parallel transport_ ([arXiv:2101.00924](https://arxiv.org/abs/2101.00924))
-
-Further discussion in relation to the [[D'Auria-Fre formulation of supergravity]]:
-
-* J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
-
-
-For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
-
-
-The above was prepared as lecture notes for
+The above material was prepared as lecture notes for
 
 * [[Urs Schreiber]], *[[schreiber:Higher Cartan Geometry]]*, lectures at Charles University, Prague (2015)
 
@@ -2381,7 +2367,27 @@ See also related lecture notes at:
   [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]: *Higher Structures in M-Theory*, Fortschritte der Physik **67** 8-9 (2019) &lbrack; [arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001]( https://doi.org/10.1002/prop.201910001)&rbrack;
 
 
-* [[geometry of physics -- supergeometry]]
+* *[[geometry of physics -- supergeometry]], [[geometry of physics -- supersymmetry|supersymmetry]]*
+
+
+Super Cartan geometry in more traditional form is made explicit in:
+
+* [[Konstantin Eder]], *Super Cartan geometry and the super Ashtekar connection*, Ann. Henri Poincaré **24** (2023) 3531–3599 &lbrack;[arXiv:2010.09630](https://arxiv.org/abs/2010.09630), [doi:10.1007/s00023-023-01290-5](https://doi.org/10.1007/s00023-023-01290-5)&rbrack;
+
+* [[Konstantin Eder]], *Super fiber bundles, connection forms and parallel transport*, J. Math. Phys. **62** 063506 (2021) &lbrack;[arXiv:2101.00924](https://arxiv.org/abs/2101.00924), [doi:10.1063/5.0044343](https://doi.org/10.1063/5.0044343)&rbrack;
+
+briefly reviewed also in:
+
+* James Ratcliffe, §3 in: *Supergeometry, Supergravity and Kaluza-Klein Theory*, MSc thesis, Imperial College (2022) &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2022/James-Ratcliffe-Dissertation.pdf), [[Ratcliffe-Supergravity.pdf:file]]&rbrack
+
+Further discussion in relation to the [[D'Auria-Fre formulation of supergravity]]:
+
+* J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
+
+
+For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
+
+
  
 
 
