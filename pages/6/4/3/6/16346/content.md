@@ -2329,6 +2329,9 @@ This means that for applications to [[supergravity]] the inclusion of [[supergro
 
 ## References
 
+> For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
+
+
 Traditional literature that involves super-Cartan geometry more or less explicitly and in the context of [[supergravity]] and its [[supergravity torsion constraints]] includes
 
 * {#Baaklini77a} N. S. Baaklini, _Spin 3/2 Field and Cartan's Geometry_, Letters in Mathematical Physics August 1977, Volume 2, Issue 1, pp 43-47
@@ -2358,7 +2361,13 @@ following
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
 
-See also related lecture notes at:
+remarked upon also in
+
+* [[John Huerta]], [[Urs Schreiber]], p. 7-8 in: *M-theory from the Superpoint*, Lett. Math. Phys. **108** (2018) 2695–2727  &lbrack;[doi:10.1007/s11005-018-1110-z](https://doi.org/10.1007/s11005-018-1110-z), [arXiv:1702.01774](https://arxiv.org/abs/1702.01774)&rbrack;
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], p. 6-7 in: *Real ADE-equivariant (co)homotopy and Super M-branes* **371** (2019) 425–524 &lbrack;[doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3), [arXiv:1805.05987](https://arxiv.org/abs/1805.05987)&rbrack;
+
+with related lecture notes at:
 
 * [[Urs Schreiber]], *[[schreiber:Introduction to Higher Supergeometry]]*, lecture at _[[Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/) (2018)
 
@@ -2378,14 +2387,15 @@ Super Cartan geometry in more traditional form is made explicit in:
 
 briefly reviewed also in:
 
-* James Ratcliffe, §3 in: *Supergeometry, Supergravity and Kaluza-Klein Theory*, MSc thesis, Imperial College (2022) &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2022/James-Ratcliffe-Dissertation.pdf), [[Ratcliffe-Supergravity.pdf:file]]&rbrack
+* James Ratcliffe, §3 in: *Supergeometry, Supergravity and Kaluza-Klein Theory*, MSc thesis, Imperial College (2022) &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2022/James-Ratcliffe-Dissertation.pdf), [[Ratcliffe-Supergravity.pdf:file]]&rbrack;
 
 Further discussion in relation to the [[D'Auria-Fre formulation of supergravity]]:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], *Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 * J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
 
 
-For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
 
 
  
