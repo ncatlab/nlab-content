@@ -27,6 +27,8 @@ See at _[[field (physics)]]_ the section _[Ordinary gravity](field%20%28physics%
 
 * [[Thanu Padmanabhan]], §11.6 in: *Gravitation -- Foundations and Frontiers*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511807787](https://doi.org/10.1017/CBO9780511807787), [spire:852758](https://inspirehep.net/literature/852758), toc: [pdf](https://web.iucaa.in/~paddy/books/GRTOC.pdf)&rbrack;
 
+* [[Pietro Fré]], §5.2.2 in: *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
+
 
 
 See also at:
