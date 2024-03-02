@@ -41,6 +41,7 @@ An Archimedean ordered local ring $R$ satisfies the *[[Kock-Lawvere axiom]]* if 
 
 * [[Archimedean ordered field]]
 * [[ordered local ring]]
+* [[Archimedean ordered Kock field]]
 * [[Archimedean ordered Artinian local ring]]
 * [[Archimedean ordered reduced local ring]]
 * [[Archimedean ordered local integral domain]]
