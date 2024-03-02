@@ -9,6 +9,10 @@ On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmet
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135 ([spire:266584](http://inspirehep.net/record/266584/), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
 
+On [[supergravity]] and [[duality in string theory]]:
+
+* [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
+
 On [[gauged supergravity]] and introducing the concept of [[tensor hierarchies]]:
 
 * [[Bernard de Wit]], [[Henning Samtleben]], _Gauged maximal supergravities and hierarchies of nonabelian vector-tensor systems_, Fortsch. Phys. 53 (2005) 442-449 ([arXiv:hep-th/0501243](https://arxiv.org/abs/hep-th/0501243))
