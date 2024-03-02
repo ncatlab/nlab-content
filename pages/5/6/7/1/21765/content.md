@@ -7,9 +7,9 @@
 
 On [[supergravity]] as [[super Cartan geometry]]:
 
-* [[Konstantin Eder]], _Super Cartan geometry and the super Ashtekar connection_ ([arXiv:2010.09630](https://arxiv.org/abs/2010.09630))
+* [[Konstantin Eder]], *Super Cartan geometry and the super Ashtekar connection*, Ann. Henri Poincaré **24** (2023) 3531–3599 &lbrack;[arXiv:2010.09630](https://arxiv.org/abs/2010.09630), [doi:10.1007/s00023-023-01290-5](https://doi.org/10.1007/s00023-023-01290-5)&rbrack;
 
-* [[Konstantin Eder]], _Super fiber bundles, connection forms and parallel transport_ ([arXiv:2101.00924](https://arxiv.org/abs/2101.00924))
+* [[Konstantin Eder]], *Super fiber bundles, connection forms and parallel transport*, J. Math. Phys. **62** 063506 (2021) &lbrack;[arXiv:2101.00924](https://arxiv.org/abs/2101.00924), [doi:10.1063/5.0044343](https://doi.org/10.1063/5.0044343)&rbrack;
 
 On [[D=3 supergravity]] via [[super Cartan geometry]] for [[super L-infinity algebras]]:
 
