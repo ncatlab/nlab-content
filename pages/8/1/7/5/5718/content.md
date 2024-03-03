@@ -372,6 +372,10 @@ On jet bundles of $\mathbb{Z}$-[[graded manifold|graded manifolds]] and their [[
 
 * [[Jan Vysoky]]. *Graded Jet Geometry*. (2023). ([arXiv:2311.15754](https://arxiv.org/abs/2311.15754))
 
+On jet bundles in [[noncommutative geometry]]:
+
+* [[Shahn Majid]], Francisco Simão. *Quantum jet bundles*. Lett.Math.Phys. 113 (2023) 6, 120. ([doi](https://doi.org/10.1007/s11005-023-01738-z)).
+
 [[!redirects jet bundles]]
 
 [[!redirects jet]]
