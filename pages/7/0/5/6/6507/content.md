@@ -53,7 +53,7 @@ That seems to be roughly what is suggested in [Lawvere](#Lawvere). Of course one
 
 ### Groups
 
-The [[syntactic category]] $T_{Grp}$ of the [[theory]] of [[group]]s is the "general abstract" of groups. Its essentially unique generating object is  _the abstract particular_ group.
+The [[syntactic category]] $T_{Grp}$ of the [[theory]] of [[group|groups]] is the "general abstract" of groups. Its essentially unique generating object is  _the abstract particular_ group.
 
 The category $T_{Grp} Mod(Set) = $ [[Grp]] of all groups is the _concrete general_ of groups.
 
