@@ -59,7 +59,7 @@ Assuming [[excluded middle]], complete *[[atomic Boolean algebra|atomic]]* Boole
 
 This property of CABAs is not applicable in [[constructive mathematics]], where power sets are rarely boolean algebras.  However, we can use [[discrete space|discrete]] [[locales]] instead (or rather, their corresponding [[frames]]).  That is, define a __CABA__ to be (not a complete atomic boolean algebra but) a frame $X$ such that the locale maps $X \to 1$ and $X \to X \times X$ (which in the category of frames are maps $0 \to X$ and $X + X \to X$) are [[open map|open]] (as locale maps).  (Of course, that $X \to 1$ is open is the condition that $X$ is [[overt locale|overt]].)  Then it should be (I will check) a classical theorem that CABAs and complete atomic boolean algebras are the same, and a constructive theorem that CABAs and power sets are the same (in the same functorial manner as above).
 
-Another approach is via [[overlap algebra]]s.  An overlap algebra is a [[frame]] with two extra conditions (one of which is [[overt locale|overtness]] of the corresponding [[locale]]).  Classically, overlap algebras are the same thing as complete Boolean algebras; constructively, atomic overlap algebras are the same thing as powersets.  See [Ciraulo 2010](#Ciraulo2010).
+Another approach is via [[overlap algebra|overlap algebras]].  An overlap algebra is a [[frame]] with two extra conditions (one of which is [[overt locale|overtness]] of the corresponding [[locale]]).  Classically, overlap algebras are the same thing as complete Boolean algebras; constructively, atomic overlap algebras are the same thing as powersets.  See [Ciraulo 2010](#Ciraulo2010).
 
 
 ## Algebraicity 
@@ -90,7 +90,7 @@ For instance around theorem 2.4 of
 
 and
 
-* PlanetMat, _[representing a complete atomic Boolean algebra by power set](http://planetmath.org/RepresentingACompleteAtomicBooleanAlgebraByPowerSet.html)_
+* PlanetMath, _[representing a complete atomic Boolean algebra by power set](https://planetmath.org/representingacompleteatomicbooleanalgebrabypowerset)_
 
 The [[Stone duality]] for complete Boolean algebras is explained in
 
