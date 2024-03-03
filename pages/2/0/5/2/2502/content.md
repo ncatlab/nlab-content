@@ -212,7 +212,60 @@ At least some of the [polyvector extensions](#PolyvectorExtensions) of the super
 
 For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "[[M-theory Lie algebra]]"-extension of super-Poincar&#233; in 11-dimensions ([FSS 13](#FSS13)). This is also discussed at _[supergravity Lie 3-algebra -- Polyvector extensions](supergravity+Lie+3-algebra#Polyvector)_.
 
+### Contractions
 
+There has been some interest in theories which break super-Poincaré invariance at some small, or large limit of the speed of light $c$. This leads to the notion of Carrollian, and Galilean theories, respectively. These are theories invariant under the Carroll, and Galilean superalgebras, defined as follows. We denote the generators of the $4d$ $N=1$ super-Poincaré algebra as $\{ J_{\mu\nu}, P_{\mu}, Q_{\alpha}, \bar{Q}_{\dot \alpha} \}$.
+
+The **super-Carroll** algebra is defined by the rescaled generators $\{K^C _i := c J_{0i} , P^C _0 := c P_0, J_{ij} ^C := J_{ij} , P_{i} ^C := P_{i}, Q^C _{\alpha} := \sqrt{c} Q_{\alpha} , \bar{Q}^C _{\dot \alpha} := \bar{Q} _{\dot \alpha} \}$ satisfying the commutation relations inherited from the super-Poincaré algebra, with the exceptions that now the commutators
+
+
+$$
+[K^{^{(\rm{C})}}_i ,J^{C}_{jk} ] = - i \delta_{i[j} K^{C}_{k]}
+$$
+$$
+[J^{C}_{ij} ,J^{C}_{kl} ] = i (\delta_{[i|k|} J^{C}_{j]l}  - \delta_{[i|l|} J^{C}_{j]k} )
+$$
+$$
+[K^{C}_i ,P^{C}_j ] = -i \delta_{ij} P^{C}_0
+$$
+$$
+[J^{C}_{ij} ,P^{C}_k ] = i \delta_{[i|k|}P^{C}_{j]}
+$$
+$$
+[J^{C}_{ij} ,Q^{C}_{\alpha} ] = (\sigma_{ij} )_{\alpha} ^{\beta} Q^{C}_{\beta}
+$$
+$$
+[J^{C}_{ij} ,\bar{Q}^{C}_{\dot\alpha} ] = (\bar{\sigma }_{ij})_{\dot\alpha}^{\dot\beta} \bar{Q}^{C}_{\dot\beta}
+$$
+$$
+\{Q^{C}_{\alpha},\bar{Q}^{C}_{\dot\alpha}\} = -(\sigma^0 )_{\alpha\dot\alpha} P^{C}_0.
+$$
+
+The **super-Galilean** algebra is defined with generators
+$\{K^{G}_i = \frac{1}{c} J_{0i} , P^{G}_0 = c P_0 , Q^{G}_{\alpha} = Q_{\alpha}, J^{G}_{ij} = J_{ij}, P^{G}_{i} = P_{i}, \bar{Q}^{G}_{\dot\alpha} =
+Q_{\dot\alpha} \}$ and non-zero commutators
+
+$$
+[K^{G}_i ,J^{G}_{jk} ] = -i \delta_{i[j} K^{G}_{k]}
+$$
+$$
+[J^{G}_{ij} ,J^{G}_{kl} ] = i(\delta_{[i|k|} J^{G}_{j]l} - \delta_{[i|l|}J^{G}_{j]k} )
+$$
+$$
+[K^{G}_i ,P^{G}_0 ] = - i P^{G}_i
+$$
+$$
+[J^{G}_{ij} ,P^{G}_k ] = i \delta_{[i|k|} P^{G}_{j]}
+$$
+$$
+[J^{G}_{ij},Q^{G}_{\alpha} ] = (\sigma_{ij} )_{\alpha}^{\beta} Q^{G}_{\beta}
+$$
+$$
+[J^{G}_{ij},\bar{Q}^{G}_{\dot\alpha} ] = (\bar{\sigma}_{ij})_{\dot\alpha}^{\dot\beta} \bar{Q}^{G}_{\dot\beta}
+$$
+$$
+\{Q^{G}_{\alpha},\bar{Q}^{G}_{\dot\alpha}\} = -(\sigma^i)_{\alpha\dot\alpha} P^{G}_i.
+$$
 
 
 ## Related concepts
