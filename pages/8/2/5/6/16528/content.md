@@ -1,6 +1,11 @@
 
 
-* [webpage](http://www.ipnl.in2p3.fr/perso/tsimpis/cv.html)
+* [personal page](https://perso.ip2i.in2p3.fr//tsimpis/cv.html)
+
+* [InSpire page](https://inspirehep.net/authors/985551)
+
+* [GoogleScholar page](https://scholar.google.fr/citations?user=LiZLIG8AAAAJ&hl=en)
+
 
 ## Selected writings
 
