@@ -219,7 +219,7 @@ The history as of 1990s with an eye towards the development to [[M-theory]] is s
 * {#Duff99} [[Mike Duff]], chapter I of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
 
-The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
+The description of 11d supergravity in terms of the [[D'Auria-Fré-Regge formulation of supergravity]] originates in 
 
 * {#DAuriaFré82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
  
