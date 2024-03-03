@@ -50,7 +50,8 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 =--
 
-E.g [Berkovich 2009, def. 1.2.1](#Berkovich09) (But beware that axiom 2 is missing in the source, which is necessary to get a metric.)
+(e.g [Ozaki, Kashiwagi & Tsuboi 1953](#OzakiKashiwagiTsuboi53))
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -103,7 +104,7 @@ The notion of normed rings originates with:
 
 Early further discussion:
 
-* Shigeo Ozaki, Sadao Kashiwagi, Teruo Tsuboi, *Note on Normed Rings*, Science Reports of the Tokyo Bunrika Daigaku, Section A **4** 98/103 (1953) 277-282 &lbrack;[jstor:43700402](https://www.jstor.org/stable/43700402)&rbrack;
+* {#OzakiKashiwagiTsuboi53} Shigeo Ozaki, Sadao Kashiwagi, Teruo Tsuboi, *Note on Normed Rings*, Science Reports of the Tokyo Bunrika Daigaku, Section A **4** 98/103 (1953) 277-282 &lbrack;[jstor:43700402](https://www.jstor.org/stable/43700402)&rbrack;
 
 
 
