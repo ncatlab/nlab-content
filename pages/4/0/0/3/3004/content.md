@@ -18,7 +18,7 @@
 
 The notion of *geometric theory* has many different incarnations.  A few are:
 
-* A geometric theory is a (possibly infinitary) [[first-order logic|first order]] [[theory]] whose [[model]]s are preserved and reflected by [[geometric morphisms]].
+* A geometric theory is a (possibly infinitary) [[first-order logic|first order]] [[theory]] whose [[model|models]] are preserved and reflected by [[geometric morphisms]].
 
 * A geometric theory is a (possibly infinitary) [[first-order logic|first order]] [[theory]] whose axioms can be written as [[sequent|sequents]] in context of formulae constructed from the [[logical connective|connectives]] $\top$ ([[truth]]), $\wedge$ (finite [[logical conjunction|conjunction]]), $\bot$ ([[falsity]]), $\bigvee$ (possibly infinitary [[disjunction]]), and $\exists$ ([[existential quantification]]),
 as well as $=$ ([[equality]]).
@@ -153,7 +153,7 @@ How can we construct more theories that ought to be geometric?  We should start 
 
 Now define a *simple functional extension* of $T$ to be the [[inserter]] of a pair of geometric constructs $T\;\rightrightarrows\; O$.  A model of such a theory will consist of a model of $T$, together with an additional morphism between two objects constructed out of the given $T$-model.  By iteratively applying such constructions, we can add in any number of new morphisms between "constructed objects."
 
-Finally, define a *simple geometric quotient* of $T$ to be the [[inverter]] of a [[modification]] between a pair of geometric constructs $T\;\rightrightarrows\; O$.  That is, we require that a certain naturally defined morphism between objects constructed out of $T$-models must be an isomorphism.  (Applying equalizers, we see that this also includes the ability to set morphisms equal, i.e. to construct [[equifier]]s.)
+Finally, define a *simple geometric quotient* of $T$ to be the [[inverter]] of a [[modification]] between a pair of geometric constructs $T\;\rightrightarrows\; O$.  That is, we require that a certain naturally defined morphism between objects constructed out of $T$-models must be an isomorphism.  (Applying equalizers, we see that this also includes the ability to set morphisms equal, i.e. to construct [[equifier|equifiers]].)
 
 From this point of view, a **geometric theory** is a theory $GrTop^{op}\to Cat$ obtained from some $O_n$ by a finite sequence of simple functional extensions and simple geometric quotients.  Of course, once we know that each $O_n$ has a classifying topos, it follows immediately that any geometric theory has a classifying topos, since $GrTop$ has inserters and inverters.
 
