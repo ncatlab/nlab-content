@@ -45,7 +45,7 @@ This means that it consists of a [[subobject]]
   R\stackrel{(p_1,p_2)}\hookrightarrow X \times X
 \] 
 
-of the [[Cartesian products]] of $X$ with itself, equipped with the following [[morphisms]]: 
+of the [[Cartesian product]] of $X$ with itself, equipped with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$, i.e., $p_1 r = p_2 r = 1_X$;
 
