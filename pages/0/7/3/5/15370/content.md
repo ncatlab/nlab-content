@@ -101,6 +101,12 @@ The notion of normed rings originates with:
 
 * [[Israel Gelfand]], *Normierte Ringe*, Rec. Math. [Mat. Sbornik] N.S. **9**(51) 1 (1941) 3–24 &lbrack;[mathnet:6046](https://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=6046&option_lang=eng)&rbrack;
 
+Early further discussion:
+
+* Shigeo Ozaki, Sadao Kashiwagi, Teruo Tsuboi, *Note on Normed Rings*, Science Reports of the Tokyo Bunrika Daigaku, Section A **4** 98/103 (1953) 277-282 &lbrack;[jstor:43700402](https://www.jstor.org/stable/43700402)&rbrack;
+
+
+
 
 See also:
 
