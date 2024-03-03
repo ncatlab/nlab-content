@@ -1,4 +1,6 @@
 
+$\psi$
+
 $$
   \color{darkblue} \text{ kkk}
 $$
