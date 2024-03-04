@@ -159,7 +159,7 @@ Let $A$ be a set, and let $F: Set \to Set$ be the functor $F(X) = 1 + A \times X
   This "fixed point" of $F$ can be thought of as the result of the (slightly nonsensical) calculation 
   $$1 + A \times X = X \Rightarrow X = \frac1{1 - A} = 1 + A + A^2 + \ldots = A^*$$ 
   which can be made rigorous by interpreting the initial equality as defining the solution $X$ by recursion, and applying the theorem above. 
-\end{example
+\end{example}
 
 \begin{example}
 Let $F: Set \to Set$ be the functor $F(X) = 1 + X^2$. Then the initial $F$-algebra is the set $T$ of isomorphism classes of finite (planar, rooted) binary [[trees]]. The $F$-algebra structure is 
