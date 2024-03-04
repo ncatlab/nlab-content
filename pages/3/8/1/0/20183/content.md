@@ -188,7 +188,7 @@ This may be found as [Félix-Halperin-Thomas 00, 15, Example 4, p. 202](#FelixHa
 
 Beware that the Sullivan models for spherical fibrations in Prop. \ref{SullivanModelForSphericalFibration} are not in general _minimal_ Sullivan models. 
 
-For example over the [[classifying space]] $B SO(8)$ of [[SO(8)]] with indecomposable [[Euler class]] generator $\chi_8$ the equation $d \omega_7 = \chi_8$ (eq:SullivanModelForOddDimensionalSphericalFibration) for the univeral 7-sperical fibration $S^7 \sslash SO(8) \to B SO(8)$ violates the Sullivan minimality condition (which requires that the right hand side is at least a binary wedge product of generators, or equivalently that the degree of the new generator $\omega_7$ is greater than that of any previous generators).
+For example over the [[classifying space]] [[BSO(n)|$B SO(8)$]] of [[SO(8)]] with indecomposable [[Euler class]] generator $\chi_8$ the equation $d \omega_7 = \chi_8$ (eq:SullivanModelForOddDimensionalSphericalFibration) for the univeral 7-sperical fibration $S^7 \sslash SO(8) \to B SO(8)$ violates the Sullivan minimality condition (which requires that the right hand side is at least a binary wedge product of generators, or equivalently that the degree of the new generator $\omega_7$ is greater than that of any previous generators).
 
 But the Sullivan models in Prop. \ref{SullivanModelForSphericalFibration} are _relative_ minimal models, relative to the Sullivan model for the base.
 
