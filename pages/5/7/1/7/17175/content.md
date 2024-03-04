@@ -305,7 +305,7 @@ Since this construction is natural, one finds the following [[universal characte
 +-- {: .num_prop #ConnerFloyedClasses}
 ###### Proposition
 
-Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] $B U(n)$ is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq k \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
+Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] [[BU(n)|$B U(n)$]] is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq k \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
 
 $$
   E^\bullet(B U(n))
