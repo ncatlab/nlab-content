@@ -64,7 +64,7 @@ This flux quantization in type II superconductors is traditionally explained via
 
 But, as indicated a little more explicitly in [Alvarez-Gaumé 98 (Section IV.B, culminating below IV.11)](superconductivity#AlvarezGaume98), the flux quantization as such is mathematically a direct consequence of the global topological nature of the [[electromagnetic field]], the argument being the direct 2-dimensional analog of the quantization of [[instantons in QCD]] in 4d (see also at [SU(2)-Instantons -- From the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)) and in fact is but a slight variation of the argument for [[Dirac charge quantization]] of [[magnetic monopoles]]:
 
-Namely, the [[electromagnetic field]] is a [[connection on a circle bundle]],  and hence the [[Brown representability theorem|cohomology classifying space]] for the topological class of the [[electromagnetic field]] is the [[classifying space]] $B \mathrm{U}(1)$ of the [[circle group]], which, being an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, has second [[homotopy group]] the [[integers]]:
+Namely, the [[electromagnetic field]] is a [[connection on a circle bundle]],  and hence the [[Brown representability theorem|cohomology classifying space]] for the topological class of the [[electromagnetic field]] is the [[classifying space]] [[BU(n)|$B \mathrm{U}(1)$]] of the [[circle group]], which, being an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, has second [[homotopy group]] the [[integers]]:
 
 $$
   \pi_2(B \mathrm{U}(1)) 
