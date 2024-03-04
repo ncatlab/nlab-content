@@ -44,7 +44,7 @@ In [[physics]] the rotation group is related to [[angular momentum]].
 ### Homology and cohomology 
  {#HomologyAndCohomology}
 
-On the [[ordinary cohomology]] of the [[classifying spaces]] $B O(n)$ and $B SO(n)$ 
+On the [[ordinary cohomology]] of the [[classifying spaces]] [[BO(n)|$B O(n)$]] and [[BSO(n)|$B SO(n)$]]
 
 * with [[cyclic group of order 2|$\mathbb{Z}_2$]] [[coefficients]]:
 
