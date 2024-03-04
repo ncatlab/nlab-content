@@ -26,7 +26,7 @@ The [[special orthogonal group]] in [[dimension]] 3.
 +-- {: .num_prop }
 ###### Proposition
 
-The [[integral cohomology|integral]] [[cohomology ring]] of the [[classifying space]] $B SO(3)$ is
+The [[integral cohomology|integral]] [[cohomology ring]] of the [[classifying space]] [[BSO(n)|$B SO(3)$]] is
 
 $$
   H^\bullet\big( 
