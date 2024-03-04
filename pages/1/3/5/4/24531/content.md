@@ -47,7 +47,7 @@ Just as Lawvere theories can be identified with [[cartesian multicategories]], t
 
 A formalization in [[Agda]]:
 
-* Marcelo Fiore and Dmitrij Szamozvancev: [webpage](https://www.cl.cam.ac.uk/~ds709/agda-soas/) with an [accompanying talk](https://www.youtube.com/watch?v=nP2J9SJ9DVM).
+* [[Marcelo Fiore]] and Dmitrij Szamozvancev: [webpage](https://www.cl.cam.ac.uk/~ds709/agda-soas/) with an [accompanying talk](https://www.youtube.com/watch?v=nP2J9SJ9DVM).
 
 
 Discussion via [[monads]]:
