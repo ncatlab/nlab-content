@@ -41,7 +41,7 @@ $$
   M O \simeq \underset{\longrightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to Spectra)
 $$
 
-hence the "total space" of the universal [[spherical fibration]] on the [[classifying space]] $B O$ for (stable) [[real vector bundles]].
+hence the "total space" of the universal [[spherical fibration]] on the [[classifying space]] [[BO|$B O$]] for (stable) [[real vector bundles]].
 
 Given this, for any [[topological group]] $G$ equipped with a [[homomorphism]] to the [[orthogonal group]] there is a corresponding Thom spectrum
 
