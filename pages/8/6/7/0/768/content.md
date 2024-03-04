@@ -93,7 +93,7 @@ a surjective function $V_n(\mathbb{R}^q) \to G_n(\mathbb{R}^q)$, and we topologi
 The standard inclusion of $\mathbb{R}^q$ in $\mathbb{R}^{q+1}$ induces inclusions
 $V_n(\mathbb{R}^q) \hookrightarrow V_n(\mathbb{R}^{q+1})$ and $G_n(\mathbb{R}^q) \hookrightarrow G_n(\mathbb{R}^{q+1})$. We define $V_n(\mathbb{R}^\infty)$ and $G_n(\mathbb{R}^\infty)$ to be the unions of the $V_n(\mathbb{R}^q)$ and $G_n(\mathbb{R}^q)$, with the topology of the union. 
 
-Then $G_n(\mathbb{R}^\infty)$ is a model for the classifying space $B O(n)$.
+Then $G_n(\mathbb{R}^\infty)$ is a model for the classifying space [[BO(n)]].
 
 
 #### Definitions
@@ -580,7 +580,7 @@ The colimiting space $E U(n) = \underset{\longrightarrow}{\lim}_k V_n(\mathbb{C}
 +-- {: .num_prop #HomotopyGroupsOfBOnThoseOfOnShifted}
 ###### Proposition
 
-The [[homotopy groups]] of the classifying spaces $B O(n)$ and $B U(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ and of the [[unitary group]] $U(n)$, respectively, shifted up in degree: there are [[isomorphisms]]
+The [[homotopy groups]] of the classifying spaces [[BO(n)]] and [[BU(n)]] (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ and of the [[unitary group]] $U(n)$, respectively, shifted up in degree: there are [[isomorphisms]]
 
 $$
   \pi_{\bullet+1}(B O(n))
