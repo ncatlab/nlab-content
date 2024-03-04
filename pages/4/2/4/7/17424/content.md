@@ -159,7 +159,7 @@ One has $H_{n-1}(\mathbb{R}P^n)\cong\mathbb{Z}_2$ für $n$ odd and $H_{n-1}(\mat
 ### Relation to the $\mathbb{Z}/2$-classifying space
  {#RelationToClassifyingSpace}
 
-The infinite real projective space $\mathbb{R}P^\infty \coloneqq \underset{\longrightarrow}{\lim}_n \mathbb{R}P^n$ is the [[classifying space]] for [[real line bundles]]. It has the [[homotopy type]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,1) = B \mathbb{Z}/2$.
+The infinite real projective space $\mathbb{R}P^\infty \coloneqq \underset{\longrightarrow}{\lim}_n \mathbb{R}P^n$ is the [[classifying space]] [[BO(n)|$B O(1)$]] for [[real line bundles]]. It has the [[homotopy type]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,1) = B \mathbb{Z}/2$.
 
 ### Kahn-Priddy theorem
 
@@ -182,7 +182,7 @@ See also:
 * [[Topospaces]], _[Real projective space](https://topospaces.subwiki.org/wiki/real_projective_space)_
 * Wikipedia, _[Real projective space](https://en.wikipedia.org/wiki/Real_projective_space)_
 
-[[Topological complexity]] of real projective space and connection with their [[immersion]]:
+On [[topological complexity]] of real projective space and connection with their [[immersion]]:
 
 * {#FarberTabachnikovYuzvinsky02} [[Michael Farber]], [[Serge Tabachnikov]], [[Sergey Yuzvinsky]], _Topological robotics: motion planning in projective spaces_ (2002), [arXiv:math/0210018](https://arxiv.org/abs/math/0210018)
 
