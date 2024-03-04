@@ -94,7 +94,7 @@ There are two notions of "algebraic cobordism", not closely related, one due to 
  
 The construction in [Snaith 77](#Snaith77), motivated from the [[Conner-Floyd isomorphism]], uses a variant of his general construction ([[Snaith's theorem]]) of a periodic [[multiplicative cohomology theory]] $X(b)^*(-)$ out of a pair consisting of a homotopy commutative [[H-monoid]] $X$ and a class $b\in \pi_n(X)$: 
 
-When $X = B S^1$ (the [[classifying space]] of the [[circle group]]) and $b$ is a generator of $\pi_2(BS^1)\cong\mathbb{Z}$ then $X(b)^*(-)$ is isomorphic with 2-periodic [[complex K-theory]]. 
+When $X = B S^1$ (the [[classifying space]] [[BU(n)|$B U(1)$]] of the [[circle group]]) and $b$ is a generator of $\pi_2(BS^1)\cong\mathbb{Z}$ then $X(b)^*(-)$ is isomorphic with 2-periodic [[complex K-theory]]. 
 
 When $X = B U$ and $b$ a generator of $\pi_2(BU)\cong\mathbb{Z}$ one obtains $MU^*[u_2,u_2^{-1}]$ where [[MU]] is the (topological) [[complex cobordism cohomology]] and $u_2$ is the periodicity element. 
 
