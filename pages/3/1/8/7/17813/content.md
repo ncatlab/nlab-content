@@ -936,6 +936,7 @@ such that the following conditions hold:
 A _strict [[homomorphism]]_ of super $L_\infty$-algebras
 
 $$is
+
   \mathfrak{g}_1 \longrightarrow \mathfrak{g}_2
 $$
 
@@ -5109,7 +5110,7 @@ where
 
 1. $U$ denotes the [[stable unitary group]],
 
-1. $B U$ denotes the [[classifying space]] for [[complex vector bundles]].
+1. [[BU|$B U$]] denotes the [[classifying space]] for [[complex vector bundles]].
 
 So in this case a [[cocycle]] is represented by the [[homotopy class]] of a map of the form
 
