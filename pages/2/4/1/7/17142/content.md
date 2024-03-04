@@ -107,7 +107,7 @@ A **[[tangential structure|(B,f)-structure]]** is
      }
    $$
 
-   to the [[classifying space]] $B O(n)$ ([def.](classifying+space#EOn));
+   to the [[classifying space]] [[BO(n)|$B O(n)$]] ([def.](classifying+space#EOn));
 
 1. for all $n_1 \leq n_2$ a pointed continuous function
 
@@ -243,13 +243,13 @@ Examples of $(B,f)$-structures (def. \ref{BfStructure}) include the following:
 
 1. $B_n = E O(n)$ and $f_n$ the [[universal principal bundle]]-projection is **[[framing]]-structure**;
 
-1. $B_n = B SO(n) = E O(n)/SO(n)$ the classifying space of the [[special orthogonal group]] and $f_n$ the canonical projection is **[[orientation]] structure**;
+1. $B_n = B SO(n) = E O(n)/SO(n)$ the classifying space [[BSO(n)|$B SO(n)$]] of the [[special orthogonal group]] and $f_n$ the canonical projection is **[[orientation]] structure**;
 
 1. $B_n = B Spin(n) = E O(n)/Spin(n)$ the classifying space of the [[spin group]] and $f_n$ the canonical projection is **[[spin structure]]**.
 
 Examples of $S^2$-$(B,f)$-structures (def. \ref{BfStructure}) include
 
-1. $B_{2n} = B U(n) = E O(2n)/U(n)$ the classifying space of the [[unitary group]], and $f_{2n}$ the canonical projection is **[[almost complex structure]]** (or rather: **[[almost Hermitian structure]]**).
+1. $B_{2n} = B U(n) = E O(2n)/U(n)$ the classifying space [[BU(n)|$B U(n)$]] of the [[unitary group]], and $f_{2n}$ the canonical projection is **[[almost complex structure]]** (or rather: **[[almost Hermitian structure]]**).
 
 1. $B_{2n} = B Sp(2n) = E O(2n)/Sp(2n)$ the classifying space of the [[symplectic group]], and $f_{2n}$ the canonical projection is **[[almost symplectic structure]]**.
 
@@ -406,7 +406,7 @@ e.g. ([Kochmann 96, prop. 1.5.3](#Kochmann96))
 +-- {: .num_defn #ThomSpace}
 ###### Definition
 
-Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ (def. \ref{EOn}) over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
+Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ (def. \ref{EOn}) over the [[classifying space]] [[BO(n)|$B O(n)$]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
 
 1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
 
@@ -1270,7 +1270,7 @@ $$
   \,.
 $$
 
-Moreover, since the [[n-spheres]] are [[compact topological spaces]], and since the [[classifying space]] $B O(n)$, and hence its universal Thom space, is a [[sequential colimit]] over [[relative cell complex]] inclusions, the right vertical map factors through some finite stage (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), the manifold $X$ is equivalently recovered as a pullback of the form
+Moreover, since the [[n-spheres]] are [[compact topological spaces]], and since the [[classifying space]] [[BO(n)|$B O(n)$]], and hence its universal Thom space, is a [[sequential colimit]] over [[relative cell complex]] inclusions, the right vertical map factors through some finite stage (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), the manifold $X$ is equivalently recovered as a pullback of the form
 
 $$
   \array{
