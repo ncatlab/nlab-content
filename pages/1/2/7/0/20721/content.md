@@ -154,7 +154,7 @@ $$
 $$ 
 is just a plain graded-commutative algebra. 
 
-For $n = \infty$ (ie. for the [[classifying space]] $\mathbb{C}P^\infty \simeq B U(1)$) this becomes
+For $n = \infty$ (ie. for the [[classifying space]] $\mathbb{C}P^\infty \simeq$[[BU(n)|$B U(1)$]]) this becomes
 $$
   H_\bullet\big(
     \Omega \mathbb{C}P^{\infty}
