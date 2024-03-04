@@ -11,7 +11,6 @@
 =--
 
 
-/clissifying
 #Contents#
 * table of contents
 {:toc}
@@ -570,7 +569,7 @@ Discussion with an eye towards foundations of [[M-theory]]:
 
 ### Cohomology
 
-The [[integral cohomology]] of the [[classifying spaces]] $B SO(8)$ and $B Spin(8)$ and the [[action]] of [[triality]] on these is discussed in
+The [[integral cohomology]] of the [[classifying spaces]] [[BSO(n)|$B SO(8)$]] and $B Spin(8)$ and the [[action]] of [[triality]] on these is discussed in
 
 
 * {#GrayGreen70} [[Alfred Gray]], Paul S. Green, _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
