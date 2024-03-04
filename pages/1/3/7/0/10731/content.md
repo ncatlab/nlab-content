@@ -72,7 +72,7 @@ Apply the [[Boardman homomorphism]] to get the statement over the [[rational num
 
 Now use the $H\mathbb{F}_p$-[[Adams spectral sequence]], which, on its second page, expresses these homotopy groups by the $H\mathbb{F}_p$-[[homology of MU]].
 
-The [[homology of MU]] may be computed by reducing, via the [[Thom isomorphism]], to computation of the homology of the [[classifying space]] $B U$, which in turn is given by [[Kronecker pairing]] from the [[Conner-Floyd Chern classes]]. 
+The [[homology of MU]] may be computed by reducing, via the [[Thom isomorphism]], to computation of the homology of the [[classifying space]] [[BU|$B U$]], which in turn is given by [[Kronecker pairing]] from the [[Conner-Floyd Chern classes]]. 
 
 Using this and applying the [[change of rings theorem]], the [[Adams spectral sequence]] is seen to collapse right away, and so the result may now be obtained by explicitly computing the relevant comodule [[Ext]]-groups of the [[homology of MU]]
 
