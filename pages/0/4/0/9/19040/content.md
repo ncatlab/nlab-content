@@ -1,5 +1,3 @@
-# Double category of algebras
-
 * table of contents
 {: toc}
 
