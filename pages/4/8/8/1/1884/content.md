@@ -2311,7 +2311,7 @@ We discuss how the [[classifying space]] for $\tilde K^0$ is the [[delooping]] o
 **([[classifying space]] of the [[stable unitary group]])**
 
 For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]]
-in dimension $n$, both regarded as [[topological groups]] in the standard way. Write $B U(n) , B O(n)\in $ [[Top]] for the corresponding [[classifying space]].
+in dimension $n$, both regarded as [[topological groups]] in the standard way. Write [[BU(n)|$B U(n)$]], [[BO(n)|$B O(n)$]]$\in $ [[Top]] for the corresponding [[classifying space]].
 
 Write
 
@@ -2586,7 +2586,7 @@ then this is a [[complex oriented cohomology|complex orientation]] for complex t
 
 From this we obtain the [[formal group law]] associated with topological K-theory (from [this prop.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheoryFormalGroupLaw)):
 
-By the nature of the [[classifying space]] $B U(1)$ we have that for
+By the nature of the [[classifying space]] [[BU(n)|$B U(1)$]] we have that for
 
 $$
   \mu \;\colon\; B U(1) \times B U(1) \longrightarrow B U(1)
