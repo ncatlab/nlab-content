@@ -215,9 +215,9 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 ### Contractions
  {#Contractions}
 
-One may consider [[symmetry breaking|breaking]] super-Poincaré invariance by passage to non-relativistic or ultrarelativistic limits, formally understood as taking the [[speed of light]] to [[infinity|$\infty$]] or to [[zero|0]], respectively, referred to as *Galilean* of *Carrollian* [[limit of a sequence|limits]], respectively.
+One may consider [[symmetry breaking|breaking]] super-Poincaré invariance by passage to non-relativistic or ultrarelativistic limits, formally understood as taking the [[speed of light]] to [[infinity|$\infty$]] or to [[zero|0]], respectively, referred to as *Galilean* of *Carrollian* [[limit of a sequence|limits]], respectively. This is achieved via the process of [[Lie algebra contraction|contraction]], as described in [İnönü & Wigner 1953](#IW53).
 
-The corresponding super Lie algebras are defined as follows. We denote the generators of the $4d$ $N=1$ super-Poincaré algebra as $\{ J_{\mu\nu}, P_{\mu}, Q_{\alpha}, \bar{Q}_{\dot \alpha} \}$.
+The corresponding super Lie algebras are defined as follows (see e.g. Section 2 of [Koutrolikos & Najafizadeh 2023](#KN23)). We denote the generators of the $4d$ $N=1$ super-Poincaré algebra as $\{ J_{\mu\nu}, P_{\mu}, Q_{\alpha}, \bar{Q}_{\dot \alpha} \}$.
 
 The **super-Carroll** algebra is defined by the rescaled generators 
 
@@ -308,6 +308,7 @@ $$
   \end{array}
 $$
 
+See [Bergshoeff et al. 2023](#BFG23) and the references therein for more.
 
 ## Related concepts
 
@@ -447,6 +448,17 @@ A direct constructions of ordinary (Lie algebraic) extensions of the super Poinc
 * Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_ ([pdf](http://cbpfindex.cbpf.br/publication_pdfs/NF00102.2010_08_03_10_47_48.pdf))
 
 For more on this see at _[[division algebra and supersymmetry]]_.
+
+On the notion of contraction used for non-Lorentzian limits:
+
+* {#IW53} [[Erdal İnönü]], [[Eugene Wigner]]. *On the Contraction of Groups and Their Representations*. Proceedings of the National Academy of Sciences 39, no. 6 (1953): 510-524. ([doi](https://doi.org/10.1073/pnas.39.6.510)).
+
+Discussion of the Carrollian- and Galilean limits:
+
+* {#KN23} Konstantinos Koutrolikos, Mojtaba Najafizadeh. *Super-Carrollian and super-Galilean field theories.* Physical Review D 108, no. 12 (2023): 125014. ([doi](https://doi.org/10.1103/PhysRevD.108.125014)).
+
+* {#BFG23} [[Eric Bergshoeff]], [[José Figueroa-O'Farrill]], and [[Joaquim Gomis]]. *A non-lorentzian primer.* SciPost Physics Lecture Notes (2023): 069. ([doi](https://doi.org/10.21468/SciPostPhysLectNotes.69)).
+
 
 [[!redirects super Poincare Lie algebras]]
 
