@@ -27,7 +27,7 @@ The basic line bundle is the canonically [[associated bundle]] to basic [[circle
 
 ## Definition
 
-The [[classifying space]] for [[circle principal bundles]], or equivalently (via forming [[associated bundles]]) that of [[complex line bundles]] is $B U(1)$, which as a [[Grassmannian]] is the infinite [[complex projective space]] $\mathbb{C}P^\infty$. The [[homotopy type]] of this space is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$. This means that $K(\mathbb{Z},2)$ is in particular [[path-connected topological space|path-connected]] and has second [[homotopy group]] the [[integers]]: $\pi_2(K(\mathbb{Z},2)) \simeq \mathbb{Z}$.
+The [[classifying space]] for [[circle principal bundles]], or equivalently (via forming [[associated bundles]]) that of [[complex line bundles]] is [[BU(n)|$B U(1)$]], which as a [[Grassmannian]] is the infinite [[complex projective space]] $\mathbb{C}P^\infty$. The [[homotopy type]] of this space is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$. This means that $K(\mathbb{Z},2)$ is in particular [[path-connected topological space|path-connected]] and has second [[homotopy group]] the [[integers]]: $\pi_2(K(\mathbb{Z},2)) \simeq \mathbb{Z}$.
 
 It being the [[classifying space]] for complex line bundles means that 
 
@@ -60,7 +60,7 @@ $$
 
 The ([[isomorphism class]]) of the complex line bundle which corresponds to $+1 \in \mathbb{Z}$ under this sequence of [[isomorphisms]] is called the _basic complex line bundle on the 2-sphere_. 
 
-Hence the basic complex line bundle on the 2-sphere is [[generalized the|the]] [[pullback bundle]] of the [[universal complex line bundle]] on $B U(1)$ along the map $S^2 \to B U(1)$ which represents the element $1 \in \mathbb{Z} \simeq \pi_2(B U(1))$. If the [[classifying space]] $B U(1)$ is represented by the infintie [[complex projective space]] $\mathbb{C}P^\infty$ with its canonical [[CW-complex]] structure ([this prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace)), then this map is represented by the canonical cell incusion $S^2 \hookrightarrow\mathbb{C}P^\infty$.
+Hence the basic complex line bundle on the 2-sphere is [[generalized the|the]] [[pullback bundle]] of the [[universal complex line bundle]] on [[BU(n)|$B U(1)$]] along the map $S^2 \to B U(1)$ which represents the element $1 \in \mathbb{Z} \simeq \pi_2(B U(1))$. If the [[classifying space]] [[BU(n)|$B U(1)$]] is represented by the infintie [[complex projective space]] $\mathbb{C}P^\infty$ with its canonical [[CW-complex]] structure ([this prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace)), then this map is represented by the canonical cell incusion $S^2 \hookrightarrow\mathbb{C}P^\infty$.
 
 Notice that there is a non-trivial [[automorphism]] of $\mathbb{Z}$ as an [[abelian group]] given by $n \mapsto -n$. This means that there is an ambiguity in the definition of the basic line bundle on the 2-sphere. 
 
