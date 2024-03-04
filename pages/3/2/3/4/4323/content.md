@@ -333,7 +333,7 @@ $$
   E^{\mathcal{B}}_n \coloneqq f_n^\ast ( E O(n) \underset{O(n)}{\times} \mathbb{R}^n )
 $$
 
-for the [[pullback]] of the rank-$n$ [[universal vector bundle]] from $B O(n)$ to $B_n$ along $f_n$.
+for the [[pullback]] of the rank-$n$ [[universal vector bundle]] from [[BO(n)|$B O(n)$]] to $B_n$ along $f_n$.
 
 =--
 
