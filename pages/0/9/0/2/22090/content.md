@@ -294,7 +294,7 @@ An analogous statement, identifying [[cobordism classes]] of [[normally oriented
   {\phantom{AAAAAAAA}}
 \end{xymatrix}
 
-(Now the notion of asymptotic directed distance depends on the [[normal bundle|normal tangent spaces]], along $\Sigma$, which themselves vary now in the [[Grassmannian]] $Gr_n$, hence in the [[classifying space]] $B SO(n) \subset M SO(n)$.)
+(Now the notion of asymptotic directed distance depends on the [[normal bundle|normal tangent spaces]], along $\Sigma$, which themselves vary now in the [[Grassmannian]] $Gr_n$, hence in the [[classifying space]] [[BSO(n)|$B SO(n)$]]$\subset M SO(n)$.)
 
 
 Both statements, Pontryagin's and Thom's, as well as their joint generalization to other [[tangential structures]] (besides framing and orientation structure) and notably their [[stabilization]] to [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[Cobordism cohomology theory]], have all come to be widely known as _the [[Pontryagin-Thom construction]]_, or similar, a term commonly used also for rather more involved cases, such as in [[MUFr]]-theory. This type of construction constitutes the basis of modern [[cobordism theory]] and its application in [[stable homotopy theory]].
