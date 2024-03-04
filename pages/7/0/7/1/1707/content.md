@@ -1040,9 +1040,9 @@ For $U$ the [[unitary group]], the [[integral cohomology]] of the [[classifying 
 
 #### The (special) orthogonal groups $O(n)$, $SO(n)$
 
-The cohomology of $B O(n)$ ([[orthogonal group]]) and $B SO(n)$ ([[special orthogonal group]]) with coefficients in $\mathbb{Z}_2$ is discussed in ([MilnorStasheff, 1974](#MilnorStasheff)).
+The cohomology of [[BO(n)|$B O(n)$]] ([[orthogonal group]]) and [[BSO(n)|$B S O(n)$]] ([[special orthogonal group]]) with coefficients in $\mathbb{Z}_2$ is discussed in ([MilnorStasheff, 1974](#MilnorStasheff)).
 
-The cohomology of $B O(n)$ with coefficients in $\mathbb{Z}$ and $\mathbb{Z}_{2 m}$ was found in 
+The cohomology of [[BO(n)|$B O(n)$]] with coefficients in $\mathbb{Z}$ and $\mathbb{Z}_{2 m}$ was found in 
 
 * Emery Thomas , _On the cohomology of the real Grassman complexes and the characteristic classes of the $n$-plane bundle_ , Trans. Amer. Math. Soc. 96 (1960), 67&#8211;89.
 
