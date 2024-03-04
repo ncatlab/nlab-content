@@ -37,7 +37,7 @@ $$
   }
 $$
 
-Since this is all considered (only) for [[homotopy types]] of topological spaces (e.g. via the [[classical model structure on topological spaces]]) and there is a [[weak homotopy equivalence]] $B GL(n) \simeq  B O(n)$ to the [[classifying space]] of the [[orthogonal group]] (the latter being the [[maximal compact subgroup]] of $GL(n)$), authors typically consider the equivalent diagram over $B O(n)$.
+Since this is all considered (only) for [[homotopy types]] of topological spaces (e.g. via the [[classical model structure on topological spaces]]) and there is a [[weak homotopy equivalence]] $B GL(n) \simeq  B O(n)$ to the [[classifying space]] of the [[orthogonal group]] (the latter being the [[maximal compact subgroup]] of $GL(n)$), authors typically consider the equivalent diagram over [[BO(n)|$B O(n)$]].
 
 Beware that the same kind of lift but understood in [[differentiable stack|differentiable]] [[classifying stacks]] instead of just [[classifying spaces]] is a _[[G-structure]]_ as commonly understood now (for $A = \mathbf{B}G$, the classifying stack/[[delooping]] of a [[Lie group]] $G$). 
 
@@ -68,7 +68,7 @@ A **$(B,f)$-structure** is
      }
    $$
 
-   to the [[classifying space]] $B O(n)$ ([def.](classifying+space#EOn));
+   to the [[classifying space]] [[BO(n)|$B O(n)$]] ([def.](classifying+space#EOn));
 
 1. for all $n_1 \leq n_2$ a pointed continuous function
 
@@ -180,7 +180,7 @@ Examples of $(B,f)$-structures (def. \ref{BfStructure}) include the following:
 
 1. $B_n = E O(n)$ and $f_n$ the [[universal principal bundle]]-projection is **[[framing]]-structure**;
 
-1. $B_n = B SO(n) = E O(n)/SO(n)$ the classifying space of the [[special orthogonal group]] and $f_n$ the canonical projection is **[[orientation]] structure**;
+1. $B_n = B SO(n) = E O(n)/SO(n)$ the classifying space [[BSO(n)|$B S O(n)$]] of the [[special orthogonal group]] and $f_n$ the canonical projection is **[[orientation]] structure**;
 
 1. $B_n = B Spin(n) = E O(n)/Spin(n)$ the classifying space of the [[spin group]] and $f_n$ the canonical projection is **[[spin structure]]**.
 
