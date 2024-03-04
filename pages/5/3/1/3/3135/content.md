@@ -170,7 +170,7 @@ This in contrast to the finite dimensional situation. For $n \in \mathbb{N}$ ($n
 =--
 
 
-Write $B U(n)$ for the [[classifying space]] of the [[topological group]] $U(n)$. Inclusion of matrices into larger matrices gives a canonical sequence of inclusions
+Write [[BU(n)|$B U(n)$]] for the [[classifying space]] of the [[topological group]] $U(n)$. Inclusion of matrices into larger matrices gives a canonical sequence of inclusions
 
 $$
   \cdots \to B U(n) \hookrightarrow B U(n+1) \hookrightarrow B U(n+2) \to \cdots
