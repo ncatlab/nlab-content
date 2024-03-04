@@ -2185,7 +2185,7 @@ However, in a [[higher gauge theory]] it is unnatural to have [[extra structure]
   **(flux quantization laws for ordinary electromagnetism)**
   \linebreak
 
-  By Ex. \ref{SolutionSpaceOfElectromagnetism} the characteristic $L_\infty$-algebra of vacuum electromagnetism is two copies of the [[line Lie 2-algebra]] $b \mathfrak{u}(1)$. This is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] of the [[classifying space]] $B \mathrm{U}(1) \,\simeq\, B^2 \mathbb{Z}$ and hence of its [[rationalization]] $B^2 \mathbb{Q}$.
+  By Ex. \ref{SolutionSpaceOfElectromagnetism} the characteristic $L_\infty$-algebra of vacuum electromagnetism is two copies of the [[line Lie 2-algebra]] $b \mathfrak{u}(1)$. This is the [[Whitehead L-infinity algebra|Whitehead $L_\infty$-algebra]] of the [[classifying space]] [[BU(n)|$B \mathrm{U}(1)$]]$\,\simeq\, B^2 \mathbb{Z}$ and hence of its [[rationalization]] $B^2 \mathbb{Q}$.
 
 Therefore -- among many further variants -- there are the following choices of flux quantization laws for electromagnetism:
 
