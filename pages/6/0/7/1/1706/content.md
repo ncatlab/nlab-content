@@ -248,7 +248,7 @@ reproduces the $(\infty,n)$-category of framed cobordisms of def. \ref{FramedCob
 +-- {: .num_example #UnorientedAsXXiStructur}
 ###### Example
 
-For $X = B O(n)$ the [[classifying space]] of real [[vector bundles]] of [[rank]] $n$ (the [[delooping]] of the [[∞-group]] $O(n)$ underlying the [[orthogonal group]]) and for $\xi = E O(n) \underset{O(n)}{\times} \mathbb{R}^n$ the vector bundle [[associated bundle|associated]] to the $O(n)$-[[universal bundle]], then $(X,\xi)$-structure on $n$-dimensional manifolds is essentially _no_-structure (the [[maximal compact subgroup]]-inclusion $O(n)\to GL(n)$ is a [[weak homotopy equivalence]]). Cobordisms with this structure will also be called _unoriented cobordisms_
+For $X = $[[BO(n)|$B O(n)$]] the [[classifying space]] of real [[vector bundles]] of [[rank]] $n$ (the [[delooping]] of the [[∞-group]] $O(n)$ underlying the [[orthogonal group]]) and for $\xi = E O(n) \underset{O(n)}{\times} \mathbb{R}^n$ the vector bundle [[associated bundle|associated]] to the $O(n)$-[[universal bundle]], then $(X,\xi)$-structure on $n$-dimensional manifolds is essentially _no_-structure (the [[maximal compact subgroup]]-inclusion $O(n)\to GL(n)$ is a [[weak homotopy equivalence]]). Cobordisms with this structure will also be called _unoriented cobordisms_
 
 $$
   Bord_n^{un} \coloneqq Bord_n^{(B O(n), E O(n)\underset{O(n)}{\times} \mathbb{R}^n)}
