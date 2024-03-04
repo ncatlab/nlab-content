@@ -29,7 +29,7 @@ roughly, given a [[spectrum]] $E$ [[Brown representability|representing]] a give
 
 (More precisely, in order for this construction to yield not just a single [[simplicial set]] (which will be a [[Kan complex]]) but a suitable [[spectrum]] object, there are conditons on the dependency of $\omega$ on the [[tangent vector]]s to the [[simplex]].)
 
-When applied to the [[Eilenberg-MacLane spectrum]] $K\mathbb{Z}$ this construction reproduces, on cohomology classes, [[ordinary differential cohomology]]. Applied to the [[classifying space]] $B U$ of [[topological K-theory]] it gives [[differential K-theory]]. 
+When applied to the [[Eilenberg-MacLane spectrum]] $K\mathbb{Z}$ this construction reproduces, on cohomology classes, [[ordinary differential cohomology]]. Applied to the [[classifying space]] [[BU|$B U$]] of [[topological K-theory]] it gives [[differential K-theory]]. 
 
 See also at _[differential cohomology diagram --Hopkins-Singer coefficients](differential+cohomology+diagram#HopkinsSingerCoefficients)_.
 
@@ -356,7 +356,7 @@ $$
 ### Line bundles with connection
 
 
-Let $X = \mathcal{B} U(1) \simeq K(\mathbb{Z},2)$ be the [[Eilenberg-MacLane space]] that is the [[classifying space]] for $U(1)$-[[principal bundle]]s. It carries the canonical [[cocycle]] $\iota := Id : \mathcal{B}U(1) \to \mathcal{B}U(1) \simeq K(\mathbb{Z},2)$ representing in $H^2(X,\mathbb{Z})$ the class of the universal complex [[line bundle]] $L \to X$ on $X$.
+Let $X = \mathcal{B} U(1) \simeq K(\mathbb{Z},2)$ be the [[Eilenberg-MacLane space]] that is the [[classifying space]] [[BU(n)|$B U(1)$]] for $U(1)$-[[principal bundle]]s. It carries the canonical [[cocycle]] $\iota := Id : \mathcal{B}U(1) \to \mathcal{B}U(1) \simeq K(\mathbb{Z},2)$ representing in $H^2(X,\mathbb{Z})$ the class of the universal complex [[line bundle]] $L \to X$ on $X$.
 
 Accordingly, for $c : S\to \mathcal{B}U(1)$ a continuous map, we have the corresponding line bundle $c^* L$ on $S$. 
 
