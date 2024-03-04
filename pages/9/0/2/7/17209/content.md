@@ -35,14 +35,14 @@ $$
 $$
 
 
-The _universal real vector_ $\zeta_n$ of rank $n$ is the [[vector bundle]] which is [[associated bundle|associated]] to the [[universal principal bundle]] $E GL(n) \to B GL(n)$ (with [[structure group]] the [[general linear group]]) over the given [[classifying space]], equivalently to $E O(n) \to B O(n)$:
+The _universal real vector_ $\zeta_n$ of rank $n$ is the [[vector bundle]] which is [[associated bundle|associated]] to the [[universal principal bundle]] $E GL(n) \to B GL(n)$ (with [[structure group]] the [[general linear group]]) over the given [[classifying space]], equivalently to $E O(n) \to $[[BO(n)|$B O(n)$]]:
 
 $$
   \zeta_n \coloneqq (E O(n))\underset{O(n)}{\times} \mathbb{R}^n
   \,.
 $$
 
-Similarly for [[complex vector bundles]]
+Similarly for [[complex vector bundles]] for $E U(n) \to $[[BU(n)|$B U(n)$]]:
 
 $$
   \zeta^{\mathbb{C}}_n \coloneqq (E U(n))\underset{U(n)}{\times} \mathbb{R}^{2n}
