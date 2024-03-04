@@ -172,7 +172,7 @@ are inclusion of the first summand followed by the map sending $(1,0)\mapsto 2$ 
 ### Homology and cohomology 
  {#HomologyAndCohomology}
 
-On the [[ordinary cohomology]] of the [[classifying spaces]] $B O(n)$ and $B SO(n)$ 
+On the [[ordinary cohomology]] of the [[classifying spaces]] [[BO(n)|$B O(n)$]] and [[BSO(n)|$B S O(n)$]]
 
 * with [[cyclic group of order 2|$\mathbb{Z}_2$]] [[coefficients]]:
 
