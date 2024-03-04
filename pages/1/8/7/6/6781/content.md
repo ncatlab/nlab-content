@@ -110,6 +110,20 @@ Drinfeld proved that for $n=2$ the following is true. Given a quasiabialgebra $A
 $A^F = (A,m,\eta,F\Delta(-)F^{-1},\epsilon,\phi^F)$ is also a quasibialgebra. Furthermore, [[categories of modules]] $A-mod$ and $A^F-mod$ are [[monoidal category|monoidally]] [[equivalence of categories|equivalent]] reflecting the idea that cohomologous cocycles lead to nonessential categorical effects. If $(A,R)$ is quasitriangular quasibialgebra then we can twist the
 R-element $R\in H\otimes H$ to $R^F = F_{21} R F$ to obtain quasitriangular quasibialgebra $(A^F,R^F)$ and their [[braided monoidal categories]] of representations are braided monoidally equivalent. 
 
+## Properties
+
+### Quasi-fiber functor
+
+Recall from [[Tannaka duality]] that given a [[rigid monoidal category]] $C$ with a [[fiber functor]] $F: C\to RMod$ one can reconstruct a [[Hopf algebra]] $H$ via $H=End(F)$, so that in particular $C\cong Rep(H)$. While categories of the form $Rep(H_q )$ for $H_q$ a *quasi*-Hopf algebra do not admit a fiber functor unless $H_q$ is furthermore a Hopf algebra, they do admit a weaker notion called a *quasi*-fiber functor $F_q$. 
+
+Much as a fiber functor, a quasi-fiber functor $F_q$ is an [[exact functor|exact]], [[faithful functor]] equipped with a natural transformation
+$$
+\mu: F(-)\otimes F(-)\to F(-\otimes -)
+$$
+
+The main difference is that $\mu$ is *not* required to satisfy the associativity condition, so that $(F,\mu)$ does not describe a [[monoidal functor]]. The failure of $\mu$ to satisfy the associative condition is a direct reflection of the non-coassociativity of $H_q$. See Sections 5.1, 5.11, and 5.12 in [EGNO 2016](#EGNO16) for more.
+
+
 ## Related concepts
 
 * [[hopfish algebra]]
@@ -149,6 +163,11 @@ Other articles include
 * M. Jimbo, H. Konno, S. Odake, J. Shiraishi, _Quasi-Hopf twistors for elliptic quantum groups_, Transformation Groups 4(4), 303–327 (1999) [doi](http://sci-hub.tw/10.1007/BF01238562)
 * Ivan Kobyzev, Ilya Shapiro, _A categorical approach to cyclic cohomology of quasi-Hopf algebras and Hopf algebroids_, Applied Categorical Structures, __27__:1 (2019) 85–109 [doi](https://doi.org/10.1007/s10485-018-9544-0)
 * L Frappat, D Issing, E Ragoucy, _The quantum determinant of the elliptic algebra $\mathcal{A}_{q, p}(\widehat{gl}_N)$_, J. Phys. __A51__:44, [doi](https://doi.org/10.1088/1751-8121/aae296)
+
+See also Chapter 5, Sections 1, 11, and 12 of:
+
+* {#EGNO16} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]. *Tensor categories*. Vol. 205. American Mathematical Soc., 2016.
+
 
 [[!redirects quasibialgebra]]
 [[!redirects quasihopf algebra]]
