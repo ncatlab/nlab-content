@@ -18,7 +18,7 @@
 ## Idea
 
 
-The _Pontryagin classes_ are [[characteristic class]]es on the [[classifying space]] $B O(n)$ of the [[orthogonal group]]
+The _Pontryagin classes_ are [[characteristic class]]es on the [[classifying space]] [[BO(n)|$B O(n)$]] of the [[orthogonal group]]
 and, by pullback, on the base of any bundle with structural group the
 [[orthogonal group]]. The latter is where they were originally defined.
 
@@ -26,7 +26,7 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 
 ## Definition
 
-The universal Pontryagin [[characteristic classes]] $P_k$ on the [[classifying space]] $B O(n)$ are, up to a sign, the pullbacks of the [[Chern classes]] $c_{2k}$ along the [[complexification]] inclusion 
+The universal Pontryagin [[characteristic classes]] $P_k$ on the [[classifying space]] [[BO(n)|$B O(n)$]] are, up to a sign, the pullbacks of the [[Chern classes]] $c_{2k}$ along the [[complexification]] inclusion into the [[classifying space]] [[BU(n)|$B U(n)$]] 
 
 $$
   B O(n) \to B U(n)
