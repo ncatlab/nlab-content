@@ -14,7 +14,7 @@ Introducing the notion of [[nerve]] of a [[cover]]:
 
 On [[Alexandroff spaces]] ([[specialization topology]]):
 
-* [[Paul Alexandroff]], _Diskrete R&#228;ume_ ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5579&option_lang=eng)) (1973)
+* [[Paul Alexandroff]], _Diskrete R&#228;ume_ ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5579&option_lang=eng)) (1937)
 
 
 On [[one-point compactification]]:
