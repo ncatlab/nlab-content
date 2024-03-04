@@ -70,7 +70,7 @@ where
 +-- {: .num_prop}
 ###### Proposition
 
-The [[integral cohomology]] [[cohomology ring|ring]] of the [[classifying space]] $B SO(4)$ is
+The [[integral cohomology]] [[cohomology ring|ring]] of the [[classifying space]] [[BSO(n)|$B SO(4)$]] is
 
 $$
   H^\bullet
