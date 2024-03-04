@@ -130,7 +130,7 @@ from the [[Burnside ring]] to the [[representation ring]] of the [[finite group]
 So far, this applies to [[stable Cohomotopy theory]], which historically has received almost all the attention. But, while [[stabilization]]  makes the immensely rich nature of [[homotopy theory]] a tad more tractable, it is only an approximation (just the first [[Goodwillie calculus|Goodwillie derivative]]!) of full unstable/[[non-abelian cohomology]].
 Hence the one concept more fundamental than stable Cohomotopy theory is actual Cohomotopy theory.
 
-For example, the classification of [[Yang-Mills instantons]] on $\mathbb{R}^4$ is typically regarded in the [[non-abelian cohomology]] theory represented by the [[classifying space]] $B SU(N)$ of the [[special unitary group]] (for $N \geq 2$, starting with [[SU(2)]])
+For example, the classification of [[Yang-Mills instantons]] on $\mathbb{R}^4$ is typically regarded in the [[non-abelian cohomology]] theory represented by the [[classifying space]] [[BSU(n)|$B SU(N)$]] of the [[special unitary group]] (for $N \geq 2$, starting with [[SU(2)]])
 
 $$
   (B SU(N))^0
