@@ -41,7 +41,7 @@ $\,$
 
 **Instanton number**
 
-There is a [[classifying space]] for $SU(2)$-[[principal bundles]], denoted $B SU(2)$. This being a [[classifying space]] means that for $X$ any [[paracompact topological space]], we have that the [[isomorphism classes]] of $SU(2)$-[[principal bundles]] on $X$ are in [[bijection]] with [[homotopy classes]] of [[continuous functions]] from $X$ to $B SU(2)$.
+There is a [[classifying space]] for $SU(2)$-[[principal bundles]], denoted [[B SU(n)|$B SU(2)$]]. This being a [[classifying space]] means that for $X$ any [[paracompact topological space]], we have that the [[isomorphism classes]] of $SU(2)$-[[principal bundles]] on $X$ are in [[bijection]] with [[homotopy classes]] of [[continuous functions]] from $X$ to [[B SU(n)|$B SU(2)$]].
 
 $$
   \{X \to B SU(2)\}_{/homotopy}
@@ -60,7 +60,7 @@ $$
    \mathbb{Z}
 $$
  
-is the 4th [[homotopy group]] of the [[classifying space]] $B SU(2)$. 
+is the 4th [[homotopy group]] of the [[classifying space]] [[B SU(n)|$B SU(2)$]]. 
 
 This is an [[integer]], and so this integer labels [[isomorphism classes]] of instantons on $S^4$ (hence on $\mathbb{R}^4$). We see below that [[Chern-Weil theory]] identifies this number with the [[instanton number]].
 
