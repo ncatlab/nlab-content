@@ -345,7 +345,7 @@ $$
 
 and anlogously for $E U(n)$.
 
-As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
+As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space [[BO(n)|$B O(n)$]] is the corresponding _classifying space_.
 
 
 +-- {: .num_defn #InclusionOfBOnIntoBOnPlusOne}
@@ -450,7 +450,7 @@ $$
 
 are subcomplex incusions (hence [[relative cell complex]] inclusions).
 
-Accordingly there is an induced CW-complex structure on the [[classifying spaces]] $B O(n)$ and $B U(n)$ (def. \ref{EOn}).
+Accordingly there is an induced CW-complex structure on the [[classifying spaces]] [[BO(n)|$B O(n)$]] and [[BU(n)|$B U(n)$]] (def. \ref{EOn}).
 
 =--
 
@@ -771,7 +771,7 @@ $$
   O(n) Bund/_\sim
 $$
 
-between [[homotopy classes]] of functions from $X$ to $B O(n)$ and isomorphism classes of $O(n)$-[[principal bundles]] on $X$.
+between [[homotopy classes]] of functions from $X$ to [[BO(n)|$B O(n)$]] and isomorphism classes of $O(n)$-[[principal bundles]] on $X$.
 
 =--
 
@@ -879,7 +879,7 @@ A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)).
 +-- {: .num_prop}
 ###### Proposition
 
-The classifying spaces $B O(n)$ are [[paracompact spaces]].
+The classifying spaces [[BO(n)|$B O(n)$]] are [[paracompact spaces]].
 =--
 
 An early source of this statement is ([Cartan-Schwartz 63, expos&#233; 5](#CartanSchwartz63)). It follows for instance by prop. \ref{CWComplexStructure} the fact that every [[CW-complex]] is paracompact.
