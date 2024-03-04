@@ -47,7 +47,7 @@ $$
   \big)
 $$ 
 
-of the [[classifying space]] $B U(n)$ of the [[unitary group]] are the [[cohomology classes]] of $B U(n)$ in [[integral cohomology]] that are characterized as follows:
+of the [[classifying space]] [[BU(n)|$B U(n)$]] of the [[unitary group]] are the [[cohomology classes]] of [[BU(n)|$B U(n)$]] in [[integral cohomology]] that are characterized as follows:
 
 1. $c_0 = 1$ and $c_i = 0$ if $i \gt n$;
 
@@ -81,7 +81,7 @@ $$
 +-- {: .num_prop #GeneratorsOfCohomologyOfBunChernClasses}
 ###### Proposition
 
-The [[cohomology ring]] of the [[classifying space]] $B U(n)$ (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
+The [[cohomology ring]] of the [[classifying space]] [[BU(n)|$B U(n)$]] (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
 
 $$
   H^\bullet(B U(n), \mathbb{Z})
