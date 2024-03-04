@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -93,6 +91,8 @@ A promonoidal structure on $A$ can be identified with a particular sort of [[mul
 More generally, we define a co-multicategory $\bar A$ as follows.  The objects of $\bar A$ are the objects of $A$.  The co-multimorphisms $b\to a_1\dots a_n$ in $\bar A$ are defined by induction on $n$ as follows: $\bar A(b;)=Jb$, and $\bar A(b;a_1,\dots,a_{n+1})=\int^x\bar A(x;a_1,\dots,a_n)\otimes P(b,x\diamond a_{n+1})$.
 
 Not every co-multicategory arises from a promonoidal one in this way.  Roughly, a promonoidal category is a co-multicategory whose $n$-ary co-multimorphisms are determined by the binary, unary, and nullary morphisms.  In general, co-multicategories can be identified with a certain sort of "lax promonoidal category".
+
+In fact, promonoidal categories correspond exactly to the [[exponentiable]] multicategories: see [[multicategory]] for more information.
 
 ## Notes
 
