@@ -20,7 +20,7 @@
 * table of contents
 {:toc}
 
-A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A string structure on a [[manifold]]  with [[spin structure]] given by a [[Spin group]]-[[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} Spin(n)$ through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}Spin(n)$ in the [[Whitehead tower]] of $BO(n)$ to a [[String group]]-[[principal bundle]]:
+A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A string structure on a [[manifold]]  with [[spin structure]] given by a [[Spin group]]-[[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} Spin(n)$ through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}Spin(n)$ in the [[Whitehead tower]] of [[BO(n)|$B O(n)$]] to a [[String group]]-[[principal bundle]]:
 
 $$
   \array{
@@ -44,7 +44,7 @@ $$
   X \to B O(n)
 $$
 
-from $X$ to the [[classifying space]] of the [[orthogonal group]] $O(n)$.
+from $X$ to the [[classifying space]] [[BO(n)|$B O(n)$]] of the [[orthogonal group]] $O(n)$.
 
 * A **String structure** on $X$ is the choice of a lift of this map a few steps through the [[Whitehead tower]] of $BO(n)$.
 
@@ -52,7 +52,7 @@ from $X$ to the [[classifying space]] of the [[orthogonal group]] $O(n)$.
 
 This means the following:
 
-* there is a canonical map $w_1 : B O(n) \to B\mathbb{Z}_2$ from the [[classifying space]] of $O(n)$ to that of $\mathbb{Z}_2 = \mathbb{Z}/2\mathbb{Z}$ that represents the generator of the cohomology $H^1(B O(n), \mathbb{Z}_2)$. The classifying space of the group $SO(n)$ is the [[generalized universal bundle|homotopy pullback]]
+* there is a canonical map $w_1 : B O(n) \to B\mathbb{Z}_2$ from the [[classifying space]] [[BO(n)|$B O(n)$]] of $O(n)$ to that of $\mathbb{Z}_2 = \mathbb{Z}/2\mathbb{Z}$ that represents the generator of the cohomology $H^1(B O(n), \mathbb{Z}_2)$. The classifying space [[BSO(n)|$B S O(n)$]] of the group $SO(n)$ is the [[generalized universal bundle|homotopy pullback]]
   $$
    \array{
     B SO(n) &\to& {*}
@@ -63,7 +63,7 @@ This means the following:
    }
   $$
 
-  Namely using the [[homotopy hypothesis]] (which is a theorem, recall), we may identify $B O(n)$ with the one object [[groupoid]] whose space of morphisms is $O(n)$ and similarly for $ B \mathbb{Z}_2$. Then the map in question is the one induced from the group homomorphism that sends orientation preserving elements in $O(n)$ to the identity and orientation reversing elements to the nontrivial element in $\mathbb{Z}_2$.
+  Namely using the [[homotopy hypothesis]] (which is a theorem, recall), we may identify [[BO(n)|$B O(n)$]] with the one object [[groupoid]] whose space of morphisms is $O(n)$ and similarly for $ B \mathbb{Z}_2$. Then the map in question is the one induced from the group homomorphism that sends orientation preserving elements in $O(n)$ to the identity and orientation reversing elements to the nontrivial element in $\mathbb{Z}_2$.
 
   * an **[[orientation]]** on $X$ is a choice of lift of the structure group through $B SO(n) \to B O(n)$
   $$
