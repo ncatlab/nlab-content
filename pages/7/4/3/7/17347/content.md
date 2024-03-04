@@ -3026,7 +3026,7 @@ $$
   \,.
 $$
 
-Moreover, since the [[n-spheres]] are [[compact topological spaces]], and since the [[classifying space]] $B O(n)$, and hence its universal Thom space, is a [[sequential colimit]] over [[relative cell complex]] inclusions, the right vertical map factors through some finite stage (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), the manifold $X$ is equivalently recovered as a pullback of the form
+Moreover, since the [[n-spheres]] are [[compact topological spaces]], and since the [[classifying space]] [[BO(n)|$B O(n)$]], and hence its universal Thom space, is a [[sequential colimit]] over [[relative cell complex]] inclusions, the right vertical map factors through some finite stage (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), the manifold $X$ is equivalently recovered as a pullback of the form
 
 $$
   \array{
@@ -3438,7 +3438,7 @@ $$
 
 covering the canonical inclusions of classifying spaces. For instance for $G_n \to O(n)$ a compatible system of [[topological group]] [[homomorphisms]], then the $(B,f)$-structure given by the [[classifying spaces]] $B G_n$ (possibly suitably resolved for the maps $B G_n \to B O(n)$ to become Serre fibrations) defines _[[G-structure]]_.
 
-Given a $(B,f)$-structure, then there are the [[pullbacks]] $V^{\mathcal{B}}_n \coloneqq f_n^\ast (E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the [[universal vector bundles]] over $B O(n)$, which are the _universal vector bundles equipped with $(B,f)$-structure_
+Given a $(B,f)$-structure, then there are the [[pullbacks]] $V^{\mathcal{B}}_n \coloneqq f_n^\ast (E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the [[universal vector bundles]] over [[BO(n)|$B O(n)$]], which are the _universal vector bundles equipped with $(B,f)$-structure_
 
 $$
   \array{
@@ -4332,7 +4332,7 @@ $\,$
 +-- {: .num_prop #GeneratorsOfCohomologyOfBunChernClasses}
 ###### Proposition
 
-The [[cohomology ring]] of the [[classifying space]] $B U(n)$ (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
+The [[cohomology ring]] of the [[classifying space]] [[BU(n)|$B U(n)$]] (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
 
 $$
   H^\bullet(B U(n), \mathbb{Z})
@@ -4807,7 +4807,7 @@ Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes
 +-- {: .num_prop #ConnerFloyedClasses}
 ###### Proposition
 
-Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] $B U(n)$ is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
+Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] [[BU(n)|$B U(n)$]] is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
 
 $$
   E^\bullet(B U(n))
@@ -5381,7 +5381,7 @@ $$
   }
 $$
 
-exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|universal complex vector bundle]] over $B U(n)$.
+exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|universal complex vector bundle]] over [[BU(n)|$B U(n)$]].
 
 
 =--
@@ -5489,7 +5489,7 @@ $$
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the [[relative cohomology]] of $B U(n)$ relative $B U(n-1)$
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the [[relative cohomology]] of [[BU(n)|$B U(n)$]] relative $B U(n-1)$
 
 $$
   \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
@@ -5532,7 +5532,7 @@ $$
   \,.
 $$
 
-Regarding the second statement: the Conner-Floyd classes freely generate the $E$-cohomology of $B U(n)$ for all $n$:
+Regarding the second statement: the Conner-Floyd classes freely generate the $E$-cohomology of [[BU(n)|$B U(n)$]] for all $n$:
 
 $$
   E^\bullet(B U(n))
@@ -5571,7 +5571,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since $B U(n)$ is [[connected topological space|connected]], it is sufficient to check the statement over the base point. Since that fixed fiber is canonically isomorphic to the direct sum of $n$ complex lines, we may equivalently check that the restriction of $c^E_n$ to the pullback of the universal rank $n$ bundle along
+Since [[BU(n)|$B U(n)$]] is [[connected topological space|connected]], it is sufficient to check the statement over the base point. Since that fixed fiber is canonically isomorphic to the direct sum of $n$ complex lines, we may equivalently check that the restriction of $c^E_n$ to the pullback of the universal rank $n$ bundle along
 
 $$
   i \colon B U(1)^n \longrightarrow B U(n)
