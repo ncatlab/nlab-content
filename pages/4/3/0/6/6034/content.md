@@ -46,4 +46,5 @@ If $\mathcal{P}$ is closed under pullback, then a morphism $h_X\to h_Y$ between 
 [[!redirects representable morphisms]]
 [[!redirects representable morphism of presheaves]]
 [[!redirects representable morphisms of presheaves]]
+[[!redirects representable natural transformation]]
 
