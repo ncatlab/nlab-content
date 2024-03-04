@@ -64,7 +64,7 @@ $$
   Hom_{Ho(Top)}(B, \mathbb{C}P^\infty)
 $$
 
-so $\mathbb{C}P^\infty$ is a [[classifying space]] for complex line bundle. Similarly for higher rank vector bundles and Grassmannians.
+so $\mathbb{C}P^\infty$ is the [[classifying space]] [[BU(n)|$B U(1)$]] for complex line bundle. Similarly for higher rank vector bundles and Grassmannians.
 
 The analogue in the algebraic category is
 
@@ -85,7 +85,7 @@ Why are [[fine moduli space]]s desireable?
 
 They allow us to study a _single_ family which tells us universal things about all families. Even if you do not care about families or deformations, moduli spaces can help, because perhaps they can tell you something about trivial families, i.e. the objects that you are studying to begin with.
 
-**example** studying the [[cohomology ring]]s of $Gr_n(\mathbb{R}^\infty)$ or $Gr_n(\mathbb{C}^\infty)$, which are the classifying space for higher rank real and complex [[vector bundle]]s gives universal relations (or, rather, the lack thereof!) among [[Chern class]]es, etc.
+**example** studying the [[cohomology ring]]s of [[BO(n)|$B O(n)$]]$=Gr_n(\mathbb{R}^\infty)$ or [[BU(n)|$B U(n)$]]$=Gr_n(\mathbb{C}^\infty)$, which are the classifying space and for higher rank real and complex [[vector bundle]]s gives universal relations (or, rather, the lack thereof!) among [[Chern class]]es, etc.
 
 Let's look at [[elliptic curve]]s (we'll work over $\mathbb{C}$).
 
