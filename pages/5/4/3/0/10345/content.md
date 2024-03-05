@@ -36,11 +36,12 @@ The hypothetical [[gravitino]] in [[supergravity]] is closely related.
 
 ## References
 
+* Mauricio Valenzuela, [[Jorge Zanelli]], *The propagating modes of the massless Rarita--Schwinger system* &lbrack;[arXiv:2305.00106](https://arxiv.org/abs/2305.00106)&rbrack;
+
 * Wikipedia, _[Rarita-Schwinger equation](http://en.wikipedia.org/wiki/Rarita%E2%80%93Schwinger_equation)_
 
-A good account is in 
-
 * SuchIdeas, _[Rarita Schwinger (Spin 3/2) Fields](http://suchideas.com/articles/physics/quantum/rarita-schwinger/)_
+
 [[!redirects Rarita-Schwinger fields]]
 
 [[!redirects Rarita-Schwinger equation]]
