@@ -52,7 +52,7 @@ where $I$ is the [[augmentation ideal]] of the [[representation ring]] of $G$.
 **(complex topological K-theory of $B S^1$)** \linebreak
 
 The [[complex topological K-theory]] of the [[classifying space]]
-$B S^1$ of the [[circle group]] is the [[power series ring]]:
+[[BU(n)|$B S^1$]] of the [[circle group]] is the [[power series ring]]:
 $$
   KU^0
   \big(
