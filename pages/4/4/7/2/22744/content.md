@@ -34,5 +34,8 @@ See also:
 
 * Wikipedia, *[Quantum phase transition](https://en.wikipedia.org/wiki/Quantum_phase_transition)*
 
+* Matthew T. Wheeler, [[Hayder Salman]], Magnus O. Borgh, *Dynamics of a Nonequilibrium Discontinuous Quantum Phase Transition in a Spinor Bose-Einstein Condensate* &lbrack;[arXiv:2312.16555](https://arxiv.org/abs/2312.16555)&rbrack;
+
+
 [[!redirects quantum phase transitions]]
 
