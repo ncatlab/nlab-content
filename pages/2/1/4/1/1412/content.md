@@ -26,13 +26,13 @@ Actually, the reader need not even know anything about topological spaces. The o
 
 Classes of maps between [[topological space]]s encode interesting information.
 
-To pick just one example: there is a [[topological space]]  that goes by the name $K(\mathbb{Z},2)$ or $\mathcal{B}U(1)$ and is called an [[Eilenberg-Mac Lane space]].  It has the  peculiar property that for any other space $X$, the [[homotopy]] classes $[X, \mathcal{B}U(1)]$ of continuous maps from $X$ to $\mathcal{B}U(1)$ characterize the following:
+To pick just one example: there is a [[topological space]]  that goes by the name $K(\mathbb{Z},2)$ or [[BU(n)|$\mathcal{B}U(1)$]] and is called an [[Eilenberg-Mac Lane space]].  It has the  peculiar property that for any other space $X$, the [[homotopy]] classes $[X, \mathcal{B}U(1)]$ of continuous maps from $X$ to [[BU(n)|$\mathcal{B}U(1)$]] characterize the following:
 
 * they correspond to equivalence classes of [[circle bundle]]s over $X$: that is, to spaces $P$ equipped with a map to $X$ such that over 
 a contractible open subset $U \subset X$ the space $P$ looks like
 the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[group]] $U(1)$ on the circle).
 
-  * Thus, one says that $\mathcal{B}U(1)$ is the [[classifying space]] for circle [[bundle]]s ($[X, \mathcal{B}U(1)] \simeq \{ $circle bundles over $X \}/{\sim}$) or that it [[representable functor|represents]] the assignment of circle bundles to spaces -- to some extent the topic of sheaves, and cohomology is all about the notion of such [[representable functor|representability]]
+  * Thus, one says that [[BU(n)|$\mathcal{B}U(1)$]] is the [[classifying space]] for circle [[bundle]]s ($[X, \mathcal{B}U(1)] \simeq \{ $circle bundles over $X \}/{\sim}$) or that it [[representable functor|represents]] the assignment of circle bundles to spaces -- to some extent the topic of sheaves, and cohomology is all about the notion of such [[representable functor|representability]]
 
   * A famous such circle bundle you may have seen is the [[Hopf fibration]], which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the [[product]] space $U \times S^1$.
 
