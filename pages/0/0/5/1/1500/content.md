@@ -85,7 +85,18 @@ $G$ a [[finite group]] (or [finite super-group](supergroup#finite_supergroups)),
 
 ### Relation to weak Hopf algebras
 
-Under [[Tannaka duality]], every fusion category $C$ arises as the [[representation category]] of a [[weak Hopf algebra]]. ([Ostrik](#Ostrik))
+Under [[Tannaka duality]], every fusion category $C$ arises as the [[representation category]] of a [[weak Hopf algebra]] ([Ostrik](#Ostrik)). However, this does not mean  that every fusion category admits a [[fiber functor]] to the [[Vect|category of vector spaces]] $\text{Vect}= k-Mod$. 
+
+Given any multi-fusion category $C$, one can always construct a fiber functor $F:C\to RMod$ for $R$ the algebra spanned by a basis of orthogonal idempotents $\{v_i\}_{i\in I}$ for $I$ the equivalence classes of simple objects of $C$. This functor is referred to in some sources as a *generalized* fiber functor. The endomorphisms of this functor then give a weak Hopf algebra that represents $C$. In [Hayashi 1999](#Hayashi99) (see there for the relevant definitions), this is computed as a [[coend]], where one has that $C\cong Rep(A)$ for $A= \text{coend}(F^*\otimes F: C^{op} \times C \to Bmd(E))$, where $E=\dot R\otimes R$ is equipped with a coalgebra structure
+$$
+\Delta(\dot\lambda \mu) = \sum_{\nu\in I} \dot\lambda \nu\otimes \dot\nu \mu
+$$
+$$
+\epsilon (\dot\lambda \mu) = \delta_{\lambda,\mu}
+$$
+
+It is important to note that, generally speaking, $C$ may admit other fiber functor to different module categories $RMod$, as is the case for fusion categories of the form $Rep(H)$ for $H$ a Hopf algebra, which admits both the fiber functor described above, as well as a fiber functor to $\text{Vect}$.
+
 
 ### Relation to pivotal and spherical categories
 
@@ -207,7 +218,7 @@ Further review:
 
 On the [[Tannaka duality]] to [[weak Hopf algebras]]:
 
-* Takahiro Hayashi, _A canonical Tannaka duality for finite seimisimple tensor categories_ ([arXiv:math/9904073](http://arxiv.org/abs/math/9904073))
+* {#Hayashi99} Takahiro Hayashi, _A canonical Tannaka duality for finite seimisimple tensor categories_ ([arXiv:math/9904073](http://arxiv.org/abs/math/9904073))
 
 * {#Ostrik} [[Victor Ostrik]], _Module categories, weak Hopf algebras and modular invariants_ ([arXiv:math/0111139](http://arxiv.org/abs/math/0111139)) 
  
