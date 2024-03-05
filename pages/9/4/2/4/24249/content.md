@@ -13,5 +13,8 @@ Survey of [[algebra|algebraic]] [[structures]] in [[2d conformal field theory]] 
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
+On [[star-autonomous categories]] with an eye towards apication in [[2d CFT]] (to [[representations]] of [[vertex operator algebras]] and their [[bimodules]]):
+
+* [[Jürgen Fuchs]], [[Gregor Schaumann]], [[Christoph Schweigert]], [[Simon Wood]], *Grothendieck-Verdier duality in categories of bimodules and weak module functors* &lbrack;[arXiv:2306.17668](https://arxiv.org/abs/2306.17668)&rbrack;
 
 category: people
