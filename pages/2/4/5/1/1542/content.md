@@ -327,6 +327,8 @@ over its [[classifying space]] $B G \simeq K(G,1)$ (which here is an [[Eilenberg
 
 * [[category enriched in a bicategory]]
 
+* [[complete graph]]
+
 [[!redirects codiscrete groupoid]]
 [[!redirects codiscrete groupoids]]
 
