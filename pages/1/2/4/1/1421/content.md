@@ -178,10 +178,10 @@ $$
 $$
 
 of the $(\infty,2)$-algebras  $QC(X)$ of 
-[[quasicoherent ∞-stack]]s to perfect $$\infty$-stacks $X$ constitutes a 
-[[geometric ∞-function theory]]: this assignment commutes with [[(∞,1)-pullback]]s and admits a ggood pull-push theory of [[integral transforms on sheaves]].
+[[quasicoherent ∞-stack]]s to perfect $\infty$-stacks $X$ constitutes a 
+[[geometric ∞-function theory]]: this assignment commutes with [[(∞,1)-pullback]]s and admits a good pull-push theory of [[integral transforms on sheaves]].
 
-([Ben-ZviFrancisNadler](#Ben-ZviFrancisNadler)
+([Ben-ZviFrancisNadler](#Ben-ZviFrancisNadler))
 
 ## Examples
 
