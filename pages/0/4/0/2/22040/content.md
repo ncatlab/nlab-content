@@ -21,7 +21,7 @@
 
 ## Idea
 
-The [[Thom space]] of the [[universal complex line bundle]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the base space of the line bundle, hence to the [[classifying space]] for the [[circle group]], and this is equivalence is exhibited by the [[zero section]] of the universal line bundle, followed by its inclusion into its [[Thom space]] ([Adams 74, Part I, Example 2.1](#Adams74), see Prop. \ref{TheStatement} below).
+The [[Thom space]] of the [[universal complex line bundle]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the base space of the line bundle, hence to the [[classifying space]] [[BU(n)|$B U(1)$]] for the [[circle group]], and this is equivalence is exhibited by the [[zero section]] of the universal line bundle, followed by its inclusion into its [[Thom space]] ([Adams 74, Part I, Example 2.1](#Adams74), see Prop. \ref{TheStatement} below).
 
 This statement plays a key role in the discussion of [[complex oriented cohomology]], as it implies that any choice of [[universal characteristic class|universal]] first [[Conner-Floyd Chern class]] $c^E_1$ is equivalent to a choice of universal [[Thom class]] on the [[universal complex line bundle]], and hence induces a Thom class, hence a "fiberwise complex orientation" on any [[complex line bundle]]. (See at _[Conner-Floyd E-Chern classes are E-Thom classes](universal+complex+orientation+on+MU#ConnerFloydChernClassesAreThomClasses)_ for more on this.) 
 
