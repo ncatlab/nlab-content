@@ -230,13 +230,6 @@ There exist states on $B_1 \vee B_2$ that are not (convex combinations of) produ
 =--
 
 
-## Quantum physics in general 
-
-More generally, _quantum physics_ is all the known physics not including [[classical physics]] in wider sense; it includes relativistic and nonrelativistic phenomena. Quantum mechanics is the standard formalism with the Hilbert space, unitary evolution etc. which explains theoretically phenomena of quantum physics: in this generality of the formalism a la von Neumann, it includes the quantum field theory. Quantum statistical mechanics in fact uses some additional assumptions not in exact quantum mechanics, which are believed to be derivable eventually (like quantum ergodicity etc.). Thus quantum statistical mechanics may or may not be included within quantum mechanics. 
-
-Remark: Another way to look at quantum processes is via [[quantum channels]] which are completely positive trace-preserving maps.
-
-For a previous query about quantum physics (includes experimental phenomena) and quantum mechanics (formalism for such, sometimes with or without statistical principles) see [here](https://quantumpositioned.com/learn-quantum-mechanics/).
 
 ## Formulations and formalization
 
