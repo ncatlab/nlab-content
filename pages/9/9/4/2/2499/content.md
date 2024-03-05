@@ -1083,7 +1083,7 @@ The formulation of supergravity of [[supermanifolds]] and the relevance of the [
 
 * [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
 
-The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
+The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation as [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
 * {#NeemanRegge78} [[Yuval Ne'eman]], [[Tullio Regge]], *Gravity and supergravity as gauge theories on a group manifold*, Physics Letters B **74** 1–2 (1978) 54-56 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90058-8">doi:10.1016/0370-2693(78)90058-8</a>, [spire:6328](https://inspirehep.net/literature/6328)&rbrack;
 
