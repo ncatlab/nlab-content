@@ -51,7 +51,7 @@ $$
   }
 $$
 
-exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|universal complex vector bundle]] over $B U(n)$.
+exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|universal complex vector bundle]] over [[BU(n)|$B U(n)$]].
 
 
 =--
@@ -168,7 +168,7 @@ $$
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theory, the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of $B U(n)$ relative $B U(n-1)$:
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theory, the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of [[BU(n)|$B U(n)$]] relative $B U(n-1)$:
 
 $$
   \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
@@ -212,7 +212,7 @@ $$
   \,.
 $$
 
-Regarding the second statement: the [[Conner-Floyd-Chern classes]] freely generate the $E$-cohomology of $B U(n)$ for all $n$ ([prop.](Conner-Floyd+Chern+class#ConnerFloyedClasses)):
+Regarding the second statement: the [[Conner-Floyd-Chern classes]] freely generate the $E$-cohomology of [[BU(n)|$B U(n)$]] for all $n$ ([prop.](Conner-Floyd+Chern+class#ConnerFloyedClasses)):
 
 $$
   E^\bullet(B U(n))
@@ -251,7 +251,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since $B U(n)$ is [[connected topological space|connected]], it is sufficient to check the statement over the base point. Since that fixed fiber is canonically isomorphic to the direct sum of $n$ complex lines, we may equivalently check that the restriction of $c^E_n$ to the pullback of the universal rank $n$ bundle along
+Since [[BU(n)|$B U(n)$]] is [[connected topological space|connected]], it is sufficient to check the statement over the base point. Since that fixed fiber is canonically isomorphic to the direct sum of $n$ complex lines, we may equivalently check that the restriction of $c^E_n$ to the pullback of the universal rank $n$ bundle along
 
 $$
   i \colon B U(1)^n \longrightarrow B U(n)
@@ -523,7 +523,7 @@ $$
   (B U(1) \simeq M U_{2} \overset{c_1}{\longrightarrow} E_2)
 $$
 
-which sends a homomorphism $c$ of [[homotopy commutative ring spectra]] to its component map in degree 2, interpreted as a class on $B U(1)$ via lemma \ref{UniversalComplexLineBundleThomSpace}, constitutes a [[bijection]] from homotopy classes of homomorphisms of homotopy commutative ring spectra to complex orientations (def. \ref{StrictComplexOrientation}) on $E$.
+which sends a homomorphism $c$ of [[homotopy commutative ring spectra]] to its component map in degree 2, interpreted as a class on [[BU(n)|$B U(1)$]] via lemma \ref{UniversalComplexLineBundleThomSpace}, constitutes a [[bijection]] from homotopy classes of homomorphisms of homotopy commutative ring spectra to complex orientations (def. \ref{StrictComplexOrientation}) on $E$.
 
 =--
 
