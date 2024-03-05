@@ -28,7 +28,7 @@
 
 The concept of _real oriented cohomology theory_ ([Araki 78](#Araki78), [Araki 79](#Araki79)) is the analog of that of _[[complex oriented cohomology theory]]_ in the context of $\mathbb{Z}_2$-[[equivariant cohomology theory]].
 
-Where [[complex oriented cohomology theory]] singles out the [[classifying space]] $B S^1 = B U(1)$ of the [[circle group]], in real-oriented cohomology theory its role is played by this same space but equipped with the $\mathbb{Z}_2$-[[∞-action]] induced by the $\mathbb{Z}_2$-[[action]] $S^1 \to S^1$ on the circle that identifies the two semi-circles.
+Where [[complex oriented cohomology theory]] singles out the [[classifying space]] $B S^1 =$[[BU(n)|$B U(1)$]] of the [[circle group]], in real-oriented cohomology theory its role is played by this same space but equipped with the $\mathbb{Z}_2$-[[∞-action]] induced by the $\mathbb{Z}_2$-[[action]] $S^1 \to S^1$ on the circle that identifies the two semi-circles.
 
 If one thinks of the canonical embedding $S^1 \hookrightarrow \mathbb{C}$ of the circle as the unit circle in the [[complex plane]], then this involution is induced by the [[complex conjugation]] [[involution]] on the complex plane. In this sense real oriented cohomology theory is in a sense "complex oriented cohomology theory with complex conjugation divided out", and that motivates the term _real_ cohomology theory.
 
