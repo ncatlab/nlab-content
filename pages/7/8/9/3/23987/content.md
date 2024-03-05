@@ -1837,6 +1837,20 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Mat 2024
+
+* 08 Mar 2024
+
+  [[Hayder Salman]] (University of East Anglia):
+
+  **Dynamics of a Nonequilibrium Discontinuous Quantum Phase Transition in a Spinor Bose-Einstein Condensate**
+
+  cf. [arXiv:2312.16555](https://arxiv.org/abs/2312.16555)
+
+  > [[symmetry breaking|Symmetry-breaking]]$\;$[[quantum phase transitions]] lead to the production of [[topological defects]] or [[domain walls]] in a wide range of [[physical systems]]. In second-order transitions, these exhibit universal scaling laws described by the Kibble-Zurek mechanism, but for first-order transitions a similarly universal approach is still lacking. Here we propose a spinor [[Bose-Einstein condensate]] as a testbed system where critical scaling behavior in a first-order quantum phase transition can be understood from generic properties. We generalize the Kibble-Zurek mechanism to determine the critical exponents for: (1) the onset of the decay of the metastable state on short times scales, and (2) the number of resulting phase-separated ferromagnetic domains at longer times, as a one-dimensional spin-1 condensate is ramped across a first-order quantum phase transition. The predictions are in excellent agreement with mean-field numerical simulations and provide a paradigm for studying the decay of metastable states in experimentally accessible systems.
+
+\linebreak
+
 ***
 
 \linebreak
