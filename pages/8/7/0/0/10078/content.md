@@ -171,7 +171,12 @@ and for photon-graviton scattering:
 
 * Fiorenzo Bastianelli, Francesco Comberiati, Leonardo de la Cruz, *Light bending from eikonal in worldline quantum field theory* ([arXiv:2112.05013](https://arxiv.org/abs/2112.05013))
 
-A list of more literature is at
+For [[fermions]] on [[manifolds with boundary]] such as in the [[quark bag model]]:
+
+* Lucas Manzo, *Worldline approach for spinor fields in manifolds with boundaries* &lbrack;[arXiv:2403.00218](https://arxiv.org/abs/2403.00218)&rbrack;
+
+
+A list of more literature:
 
 * The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
 
