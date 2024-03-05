@@ -236,7 +236,7 @@ More generally, _quantum physics_ is all the known physics not including [[class
 
 Remark: Another way to look at quantum processes is via [[quantum channels]] which are completely positive trace-preserving maps.
 
-For a previous query about quantum physics (includes experimental phenomena) and quantum mechanics (formalism for such, sometimes with or without statistical principles) see [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2573&Focus=22059#Comment_22059).
+For a previous query about quantum physics (includes experimental phenomena) and quantum mechanics (formalism for such, sometimes with or without statistical principles) see [here](https://quantumpositioned.com/learn-quantum-mechanics/).
 
 ## Formulations and formalization
 
