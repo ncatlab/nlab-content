@@ -170,7 +170,7 @@ the _[[H-group ring spectrum]]_ of $G$. See [there](∞-group+∞-ring#HGroupRin
 
 #### The ring spectrum of the circle 2-group
 
-One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] $B U(1)$ for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
+One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] [[BU(n)|$B U(1)$]] for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
 
 
 $$
@@ -366,12 +366,12 @@ $$
 Since, by the above, morphisms $\Sigma^\infty B U(1) \longrightarrow K U$ in $Ho(Spectra)$,
 hence equivalently morphisms $B U(1) \longrightarrow B U \times \mathbb{Z}$ in $Ho(Top^{\ast/})$,
 hence equivalently morphisms $B U(1) \to B U$ in $Ho(Top)$  correspond to the reduced K-theory of
-$B U(1)$, and since morphisms $\mathbb{S} \to KU$ in $Ho(Spectra)$, hence equivalently morphism $\ast \to B U \times \mathbb{Z}$
+[[BU(n)|$B U(1)$]], and since morphisms $\mathbb{S} \to KU$ in $Ho(Spectra)$, hence equivalently morphism $\ast \to B U \times \mathbb{Z}$
 in $Ho(Top)$ correspond to the K-theory of the point, and since over (colimits of) [[compact topological spaces]]
 K-theory splits as $K(X) \simeq \tilde K(X) \oplus K(\ast)$ via $[E]- n \mapsto ([E] - rk(E)) + ( rk(E) - n )$
 ([this prop](topological+K-theory#KGrupDirectSummandReducedKGroup)) it follows that
 
-1. $\tilde i$ takes the canonical line bundle $\mathcal{O}(1)$ on $B U(1)$ to its image $\mathcal{O}(1)-1$ in reduced K-theory
+1. $\tilde i$ takes the canonical line bundle $\mathcal{O}(1)$ on [[BU(n)|$B U(1)$]] to its image $\mathcal{O}(1)-1$ in reduced K-theory
 
    $$
      B U(1) \overset{\mathcal{O}(1) \mapsto (\mathcal{O}(1)-1)}{\longrightarrow} B U \simeq B U \times \{0\} \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
