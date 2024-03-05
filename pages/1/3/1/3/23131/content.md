@@ -51,7 +51,7 @@ A right Tambara module is defined in the exact way except $\mathbf C$ and $\math
 
 \begin{definition}
   Let $P, Q: \mathbf C^{op} \times \mathbf D \to \mathbf{Set}$ be (left) Tambara modules.
-  A **morphism of Tambara modules** $\alpha : P \to Q$ is a natural transformation $P \Rightarrow Q$ that commutes with $P$ and $Q$'s strenghts:
+  A **morphism of Tambara modules** $\alpha : P \to Q$ is a natural transformation $P \Rightarrow Q$ that commutes with $P$ and $Q$'s strengths:
 $$
 \alpha_{a,b} \circ s^P_{a,b,m} = s^Q_{a,b,m} \circ \alpha_{m \cdot a,m \cdot b}
 $$
