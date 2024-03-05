@@ -16,5 +16,10 @@ Usage of full [[supergravity]] (retaining the [[gravitino]]) for [[AdS-CMT]], wi
 
 * [[Laura Andrianopoli]], [[Bianca L. Cerchiai]], [[Riccardo D'Auria]], [[Antonio Gallerati]], [[Ruggero Noris]], [[Mario Trigiante]], [[Jorge Zanelli]], *$\mathcal{N}$-Extended $D=4$ Supergravity, Unconventional SUSY and Graphene*, JHEP 01 (2020) 084 &lbrack;[arXiv:1910.03508](https://arxiv.org/abs/1910.03508), <a href="https://doi.org/10.1007/JHEP01(2020)084">doi:10.1007/JHEP01(2020)084</a>&rbrack;
 
+On [[Rarita-Schwinger fields]] (notably [[gravitinos]]):
+
+* Mauricio Valenzuela, [[Jorge Zanelli]], *The propagating modes of the massless Rarita--Schwinger system* &lbrack;[arXiv:2305.00106](https://arxiv.org/abs/2305.00106)&rbrack;
+
+
 
 category: people
