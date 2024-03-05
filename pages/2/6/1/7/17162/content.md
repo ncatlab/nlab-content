@@ -19,7 +19,7 @@
 
 The ([[generalized homology|generalised]]) [[homology]] of [[Thom spectra]] $M G$, such as [[MO]] and [[MU]].
 
-In the presence of a [[Thom isomorphism]] (e.g. for [[complex oriented cohomology]] of [[MU]]) this identifies with the homology of the [[classifying spaces]] $B G$, such as $B O$ and $B U$.
+In the presence of a [[Thom isomorphism]] (e.g. for [[complex oriented cohomology]] of [[MU]]) this identifies with the homology of the [[classifying spaces]] $B G$, such as [[BO|$B O$]] and [[BU|$B U$]].
 
 Feeding the homology of $M G$ into an [[Adams spectral sequence]] gives a way to compute its [[homotopy groups]].
 
