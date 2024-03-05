@@ -2512,7 +2512,7 @@ $$
 $$
 
 of [[topological space]]s. This is a [[characteristic class]] on the 
-[[classifying space]] $B U(N)$: the first [[Chern class]] (see [[determinant line bundle]] for more on this).
+[[classifying space]] [[BU(n)|$B U(N)$]]: the first [[Chern class]] (see [[determinant line bundle]] for more on this).
 
 By postcomposion with $\mathbf{B}det$ of the classifying morphisms for principal bundles, it acts on principal bundles: postcomposition of a [[Cech cohomology|Cech]] cocycle 
 
