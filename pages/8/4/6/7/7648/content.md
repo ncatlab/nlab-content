@@ -105,7 +105,20 @@ $$\array{
 
 ### Relation to fusion categories
 
-Under [[Tannaka duality]] (semisimple) weak Hopf algebras correspond to (multi-)[[fusion categories]] ([Ostrik](#Ostrik)).
+Under [[Tannaka duality]], every fusion category $C$ arises as the [[representation category]] of a [[weak Hopf algebra]] ([Ostrik](#Ostrik)). However, this does not mean  that every fusion category admits a [[fiber functor]] to the [[Vect|category of vector spaces]] $\text{Vect}= k-Mod$. 
+
+Given any multi-fusion category $C$, one can always construct a fiber functor $F:C\to RMod$ for $R$ the algebra spanned by a basis of orthogonal idempotents $\{v_i\}_{i\in I}$ for $I$ the equivalence classes of simple objects of $C$. This functor is referred to in some sources as a *generalized* fiber functor. The endomorphisms of this functor then give a weak Hopf algebra that represents $C$. In [Hayashi 1999](#Hayashi99) (see there for the relevant definitions), this is computed as a [[coend]], where one has that $C\cong Rep(A)$ for $A= \text{coend}(F^*\otimes F: C^{op} \times C \to Bmd(E))$, where $E=\dot R\otimes R$ is equipped with a coalgebra structure
+$$
+\Delta(\dot\lambda \mu) = \sum_{\nu\in I} \dot\lambda \nu\otimes \dot\nu \mu
+$$
+$$
+\epsilon (\dot\lambda \mu) = \delta_{\lambda,\mu}
+$$
+
+It is important to note that, generally speaking, $C$ may admit other fiber functor to different module categories $RMod$, as is the case for fusion categories of the form $Rep(H)$ for $H$ a Hopf algebra, which admits both the fiber functor described above, as well as a fiber functor to $\text{Vect}$.
+
+Even further, this statement generalizes to tensor [[C-star-category|C-star-categories]] and [[C-star-algebra|C-star]] weak Hopf algebras ([Vainerman & Vallin 2020](#VV20)).
+
 
 ### Relation to Frobenius algebras
 
@@ -158,6 +171,10 @@ On the relation to [[Frobenius algebra|Frobenius algebras]]
 * {#Vec03} [[Peter Vecsernyés]]. *Larson–Sweedler theorem and the role of grouplike elements in weak Hopf algebras*. Journal of Algebra. Volume 270, Issue 2, 15 December 2003, Pages 471-520. ([doi](https://doi.org/10.1016/j.jalgebra.2003.02.001))
 
 * {#IK08} [[Miodrag Iovanov]], [[Lars Kadison]]. *When weak Hopf algebras are Frobenius*. (2008). ([arXiv:0810.4777](https://arxiv.org/abs/0810.4777))
+
+On the [[Tannaka duality]] of C-star weak Hopf algebras:
+
+* {#VV20} Leonid Vainerman, Jean-Michel Vallin. *Classifying (weak) coideal subalgebras of weak Hopf C-star-algebras.* Journal of Algebra 550 (2020): 333-357. ([doi](https://doi.org/10.1016/j.jalgebra.2019.12.026)).
 
 
 category: algebra
