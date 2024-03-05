@@ -73,7 +73,7 @@ Beware that this is _not_ the "[[canonical line bundle]]" from example \ref{Cano
 +-- {: .num_example #UniversalComplexLineBundle}
 ###### Example
 
-The [[classifying space]]/[[Eilenberg-MacLane space]] $B U(1) \simeq B^2 \mathbb{Z}$ carries the [[circle group]]-[[universal principal bundle]]. The corresponding [[associated bundle]] via the canonical [[action]] of $U(1)$ on $\mathbb{C}$ is the [[universal complex line bundle]].
+The [[classifying space]]/[[Eilenberg-MacLane space]] [[BU(n)|$B U(1)$]]$\simeq B^2 \mathbb{Z}$ carries the [[circle group]]-[[universal principal bundle]]. The corresponding [[associated bundle]] via the canonical [[action]] of $U(1)$ on $\mathbb{C}$ is the [[universal complex line bundle]].
 
 =--
 
