@@ -295,6 +295,11 @@ See also:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *The $\ast$-autonomous category of uniform sup semi-lattices*,  Theory and Applications of Categories **27** 11 (2012) 222–241 &lbrack;[tac:27-11](http://www.tac.mta.ca/tac/volumes/27/11/27-11abs.html)&rbrack;
 
+With an eye towards apication in [[2d CFT]] (to [[representations]] of [[vertex operator algebras]] and their [[bimodules]]):
+
+* [[Jürgen Fuchs]], [[Gregor Schaumann]], [[Christoph Schweigert]], [[Simon Wood]], *Grothendieck-Verdier duality in categories of bimodules and weak module functors* &lbrack;[arXiv:2306.17668](https://arxiv.org/abs/2306.17668)&rbrack;
+
+
 
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
