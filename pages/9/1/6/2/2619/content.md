@@ -380,8 +380,14 @@ Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy complet
 
 The term "atomic object" or rather "a.t.o.m" is suggested in 
 
-* [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
- {#Lawvere97}
+* {#Lawvere97} [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
+ 
+A [[modal type theory]] for tiny objects:
+
+* [[Mitchell Riley]], *A Type Theory with a Tiny Object* &lbrack;[arXiv:2403.01939](https://arxiv.org/abs/2403.01939)&rbrack;
+
+
+
 
 
 [[!redirects small-projective object]]
