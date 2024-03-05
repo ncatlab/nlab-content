@@ -938,7 +938,7 @@ In the presence of a nontrivial [[gauge fields]], string structures are generali
 #### Whitehead tower
  {#WhiteheadTower}
 
-The nature of higher spin structures is governed by what is called the _[[Whitehead tower]]_ of the [[homotopy type]] of the [[classifying space]] $B O$ of the [[orthogonal group]], where in each stage a [[homotopy group]] is removed _from below_. This is [[duality|dual]] to the _[[Postnikov tower]]_, where in each stage a homotopy group is added from above.
+The nature of higher spin structures is governed by what is called the _[[Whitehead tower]]_ of the [[homotopy type]] of the [[classifying space]] [[BO|$B O$]] of the [[orthogonal group]], where in each stage a [[homotopy group]] is removed _from below_. This is [[duality|dual]] to the _[[Postnikov tower]]_, where in each stage a homotopy group is added from above.
 
 The [[homotopy groups]] of $B O$ start out as
 
@@ -2473,7 +2473,7 @@ $$
 $$
 
 
-**Proposition** The smooth stack $\mathbf{B} U$ is a smooth refinement of the [[classifying space]] $B U$ of reduced [[K-theory]]. Also, for $X$ a [[compact topological space|compact]] [[smooth manifold]] smooth $U$-principal bundles and smooth $U$-gauge transformations on $X$ are represented by ordinary $U(n)$-bundles for some finite $n$.
+**Proposition** The smooth stack $\mathbf{B} U$ is a smooth refinement of the [[classifying space]] [[BU|$B U$]] of reduced [[K-theory]]. Also, for $X$ a [[compact topological space|compact]] [[smooth manifold]] smooth $U$-principal bundles and smooth $U$-gauge transformations on $X$ are represented by ordinary $U(n)$-bundles for some finite $n$.
 
 $$
   \mathbf{H}(X, \mathbf{B}U)
