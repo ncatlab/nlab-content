@@ -29,13 +29,17 @@
 
 In [[quantum field theory]] the term _gravitino_ refers to the [[supersymmetry|superpartner]] of the [[graviton]], a [[Rarita-Schwinger field]] of [[spin]] $3/2$ that appears in [[supergravity]].
 
-In [[supergravity]] a field configuration is a [[connection on a bundle|connection]] locally given by a  [[Lie algebra-valued form]]
+In [[supergravity]] a [[field history]] is a [[connection on a bundle|connection]] on [[super spacetime]] locally given by a  [[super Lie algebra|super]] [[Lie algebra-valued differential form]]
 
 $$
-  (E, \Omega, \Psi) \colon T X \to \mathfrak{siso}(d,1)
+  (E, \Omega, \Psi) \,\colon\, T X \longrightarrow \mathfrak{iso}\big(\mathbb{R}^{1,10\vert \mathbf{32}}\big)
 $$
 
-on [[spacetime]] with values in the [[super Poincare Lie algebra]]. Its components $\Psi$ in the [[spin group]] [[representation]] $\Gamma \subset \mathfrak{siso}(d)$ is the **gravitino** field.
+on [[spacetime]] with values in the [[super Poincaré Lie algebra]]. Its components $\Psi$ in the [[spin representation]] 
+$\mathbf{32} \subset
+\mathfrak{iso}\big(\mathbb{R}^{1,10\vert \mathbf{32}}\big)
+$
+is the **gravitino** field.
 
 The name derives from the fact that the other two components are identified in [[gravity]] with the [[graviton]] field.
 
@@ -60,11 +64,29 @@ The [[Rarita-Schwinger equation|Rarita-Scwinger]]-like [[equation of motion]] fo
 
 where
 
-* $\rho_{b_1 b_2} \coloneqq \nabla_{[b_1} \psi_{b_2]}$ are the components of the [[field strength]] of the gravitino with respect to the [[frame field]] ([[vielbein]], which encodes the bosonic field of [[gravity]] in [[first-order formulation of gravity|first-order formulation]]): 
+* $\rho_{b_1 b_2}$ are the bosonic [[frame field]] components of the gravitino [[field strength]]:
 
-  for each value of the indices $b_i \in \{0, 1, \cdots, 10\}$ this is a [[smooth function]] from the chart to the [[real vector space]] [[underlying]] the [[irrep|irreducible]] [[real numbers|real]] [[representation]] $\mathbf{32}$ of [[pin group|$Pin^+(1,10)$]],
+  $$
+    \mathrm{d}\, \Psi
+    -
+    \!\tfrac{1}{4}
+    \omega^{a b}
+    \Gamma_{a b}
+    \psi
+    \;=\;
+    \rho_{b_1 b_2}
+    E^{b_1} E^{b_2}
+    +
+    (\cdots)
+    \Psi E
+    \,,
+  $$ 
 
-* $\Gamma^{a_1 a_2 a_3} \,\coloneqq\, \tfrac{1}{3!} \underset{\sigma \in Sym(3)}{\sum} sgn(\sigma) \Gamma^{a_{\sigma(1)}} \Gamma^{a_{\sigma(2)}} \Gamma^{a_{\sigma(3)}}$ is the skew-symmetrized product of three [[Clifford algebra]] [[linear basis|basis]] elements in the [[irrep|irreducible]] real [[representation]] $\mathbf{32}$ of [[pin group|$Pin^+(1,10)$]], acting pointwise on the component spinors of $\rho$,
+  So for each value of the indices $b_i \in \{0, 1, \cdots, 10\}$ this is a [[smooth function]] from the chart to the [[real vector space]] [[underlying]] the [[irrep|irreducible]] [[real numbers|real]] [[representation]] $\mathbf{32}$ of [[pin group|$Pin^+(1,10)$]],
+
+* $\Gamma^{a_1 \cdots a_p} \,\coloneqq\, \tfrac{1}{p!} \underset{\sigma \in Sym(p)}{\sum} sgn(\sigma) \Gamma^{a_{\sigma(1)}} \cdots \Gamma^{a_{\sigma(p)}}$ is the skew-symmetrized product of $p$ [[Clifford algebra]] [[linear basis|basis]] elements in the [[irrep|irreducible]] real [[representation]] $\mathbf{32}$ of [[pin group|$Pin^+(1,10)$]], 
+
+  here acting pointwise on the component spinors of $\rho$,
 
 * the [[Einstein summation convention]] implies summation over repeated indices.
 
