@@ -1,0 +1,1 @@
+Let $G = (V,E)$ be a $\textit{simple,undirected}$ graph. Then we say that $G$ is $\textit{complete}$ as a graph, if for every pair of vertices $(v_1,v_2) \in V \times V$, there exists an edge $e_{v_1,v_2} \in E$ between the vertices $v_1,v_2 \in V$. 
