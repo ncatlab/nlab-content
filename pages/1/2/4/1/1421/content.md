@@ -21,13 +21,13 @@
 
 ## Idea
 
-In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from compact objects/dualizable objects: modules that are locally [[perfect chain complex]]es.
+In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stacks]] (of [[modules]] over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from [[compact objects]]/[[dualizable objects]]: modules that are locally [[perfect chain complexes]].
 
 
  
 ## Definition
 
-Let $k$ be a [[field]] of [[characteristic]] 0. Let $T$ be the [[Lawvere theory]] of commutative [[associative algebra]]s over $k$. When this is regarded as an [[(∞,1)-algebraic theory]], the $T$-$\infty$-algebras are modeled (by the [[monoidal Dold-Kan correspondence]] equivalently) by the
+Let $k$ be a [[field]] of [[characteristic zero]]. Let $T$ be the [[Lawvere theory]] of commutative [[associative algebras]] over $k$. When this is regarded as an [[(∞,1)-algebraic theory]], the $T$-$\infty$-algebras are modeled (by the [[monoidal Dold-Kan correspondence]] equivalently) by the
 
 * [[model structure on simplicial T-algebras]];
 
@@ -45,10 +45,10 @@ of the [[opposite (∞,1)-category]] of these $\infty$-algebras.
 +-- {: .un_defn}
 ###### Definition
 
-The [[(∞,2)-presheaf]] of [[quasicoherent ∞-stack]]s is
+The [[(∞,2)-presheaf]] of [[quasicoherent ∞-stacks]] is
 
 $$
-  Mod : C^{op} \to (\infty,1)Cat
+  Mod \colon C^{op} \to (\infty,1)Cat
 $$
 
 given by
@@ -68,7 +68,7 @@ where on the right we take the $(\infty,1)$-category of $\infty$-modules over th
 For $X \in Sh_{(\infty,1)}(C)$ an [[∞-stack]] in [[dg-geometry]], write
 
 $$
-  QC(X) := PSh_{(\infty,2)}(C)\left( X, Mod \right)
+  QC(X) \coloneqq PSh_{(\infty,2)}(C)\left( X, Mod \right)
 $$
 
 for the $(\infty,1)$-category of **quasicoherent $\infty$-stacks** on $X$.
@@ -94,7 +94,7 @@ $$
 
 =--
 
-This appears as ([Ben-ZviFrancisNadler, section 3.1](#Ben-ZviFrancisNadler)).
+This appears in [Ben-Zvi, Francis & Nadler, section 3.1](#Ben-ZviFrancisNadler).
 
 +-- {: .un_prop}
 ###### Proposition
@@ -107,7 +107,7 @@ For all $X \in \mathbf{H}$, we have that $QC(X)$
 
 =--
 
-([Ben-ZviFrancisNadler, section 3.1](#Ben-ZviFrancisNadler)).
+([Ben-Zvi, Francis & Nadler, section 3.1](#Ben-ZviFrancisNadler)).
 
 
 +-- {: .un_defn}
@@ -119,7 +119,7 @@ For a [[∞-stack]] $X \in Sh_{(\infty,1)}(C)$, the $\infty$-category $Perf(X)$ 
 
 =--
 
-This appears as ([Ben-ZviFrancisNadler, definition 3.1](#Ben-ZviFrancisNadler)).
+This appears in [Ben-Zvi, Francis & Nadler, definition 3.1](#Ben-ZviFrancisNadler).
 
 
 +-- {: .un_defn}
@@ -148,7 +148,7 @@ A morphism $X \rightarrow Y$ is said to be **perfect morphism** if its fibers $X
 +-- {: .un_def}
 ###### Definition
 
-A [[stable (∞,1)-category]] $C$ is **compactly generated** if it has a [[small set]] $\{c_i\}_{i \in I}$ of [[compact object]] that are [[generator]]s in the sense that if for $N \in C$ we have that $C(c_i, N)$ is equivalent to the [[zero morphism]], then $N$ is the [[zero object]].
+A [[stable (∞,1)-category]] $C$ is **compactly generated** if it has a [[small set]] $\{c_i\}_{i \in I}$ of [[compact objects]] that are [[generator]]s in the sense that if for $N \in C$ we have that $C(c_i, N)$ is equivalent to the [[zero morphism]], then $N$ is the [[zero object]].
 
 =--
 
@@ -156,7 +156,7 @@ A [[stable (∞,1)-category]] $C$ is **compactly generated** if it has a [[small
 +-- {: .un_theorem}
 ###### Proposition
 
-For a [[∞-stack]] $X \in Sh_{(\infty,1)}(C)$ with affine diagonal, the following are equivalent:
+For an [[∞-stack]] $X \in Sh_{(\infty,1)}(C)$ with affine diagonal, the following are equivalent:
 
 * $X$ is perfect
 
@@ -174,14 +174,14 @@ For a [[∞-stack]] $X \in Sh_{(\infty,1)}(C)$ with affine diagonal, the followi
 The assigmnent 
 
 $$
-  QC : X \mapsto QC(X)
+  QC \colon X \mapsto QC(X)
 $$
 
 of the $(\infty,2)$-algebras  $QC(X)$ of 
 [[quasicoherent ∞-stack]]s to perfect $\infty$-stacks $X$ constitutes a 
 [[geometric ∞-function theory]]: this assignment commutes with [[(∞,1)-pullback]]s and admits a good pull-push theory of [[integral transforms on sheaves]].
 
-([Ben-ZviFrancisNadler](#Ben-ZviFrancisNadler))
+([Ben-Zvi, Francis& Nadler](#Ben-ZviFrancisNadler))
 
 ## Examples
 
@@ -203,8 +203,8 @@ But the following are examples of perfect $\infty$-stacks
 
 The concept of a _perfect stack_ in the context of [[dg-geometry]] is considered in
 
-* [[David Ben-Zvi|Ben-Zvi]], [[John Francis]],  [[David Nadler]], _Integral transforms and Drinfeld centers in derived algebraic geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
-{#Ben-ZviFrancisNadler}
+* {#Ben-ZviFrancisNadler} [[David Ben-Zvi|Ben-Zvi]], [[John Francis]],  [[David Nadler]], _Integral transforms and Drinfeld centers in derived algebraic geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
+
 
 
 [[!redirects perfect infinity-stacks]]
