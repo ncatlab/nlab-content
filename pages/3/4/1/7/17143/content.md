@@ -95,7 +95,7 @@ In particular:
 ###### Lemma
 **([[zero-section into Thom space of universal line bundle is weak equivalence]])
 
-The [[zero-section]] map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the infinite [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] (the [[tautological line bundle]] on infinite [[complex projective space]]) is a [[weak homotopy equivalence]]
+The [[zero-section]] map from the [[classifying space]] [[BU(n)|$B U(1)$]]$\simeq \mathbb{C}P^\infty$ (the infinite [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] (the [[tautological line bundle]] on infinite [[complex projective space]]) is a [[weak homotopy equivalence]]
 
 $$
   B U(1) 
@@ -282,7 +282,7 @@ $$
  c_1^E \in E^2(B U(1))
 $$
 
-in the cohomology of the [[classifying space]] $B U(1)$ (given by the infinite [[complex projective space]]) such that its image under the restriction map
+in the cohomology of the [[classifying space]] [[BU(n)|$B U(1)$]] (given by the infinite [[complex projective space]]) such that its image under the restriction map
 
 $$
   \phi
