@@ -117,9 +117,9 @@ Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and s
 ## Literature
 
 
-* Geun Bin Im, [[Gregory Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](http://mathnet.kaist.ac.kr/mathnet/thesis_file/JKMS-23-1-19-33.pdf)
-* _On classes of morphisms closed under limits_, J. Korean Math. Soc. __23__ (1986), no. 1, 1&#8211;18
-* _Adjoint-triangle theorems for conservative functors_, Bull. Austral. Math. Soc. __36__ (1987),  no. 1, 133&#8211;136, [MR88k:18005](http://www.ams.org/mathscinet-getitem?mr=897429), [doi](http://dx.doi.org/10.1017/S000497270002637X) 
+* Geun Bin Im, [[Gregory Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](https://koreascience.kr/article/JAKO198621048976714.pdf)
+* Geun Bin Im, [[Gregory Maxwell Kelly]], _On classes of morphisms closed under limits_, J. Korean Math. Soc. __23__ (1986), no. 1, 1&#8211;18, [pdf](https://koreascience.kr/article/JAKO198621048976702.pdf)
+* Geun Bin Im, [[Gregory Maxwell Kelly]], _Adjoint-triangle theorems for conservative functors_, Bull. Austral. Math. Soc. __36__ (1987),  no. 1, 133&#8211;136, [MR88k:18005](http://www.ams.org/mathscinet-getitem?mr=897429), [doi](http://dx.doi.org/10.1017/S000497270002637X) 
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
