@@ -3315,7 +3315,7 @@ Here for instance the symbol $X^{(\mathbf{65})}_{\array{a_1 \\ a_2}}$ denotes th
   \label{Fierz11dB}
   \left(\overline{\psi} \wedge \Gamma_{a_1 a_2} \psi\right)
     \wedge
-  \left(\overline{\psi} \wedge \Gamma_{a_3}\right)
+  \left(\overline{\psi} \wedge \Gamma_{a_3} \psi\right)
     \;=\;
   X^{(\mathbf{429})}_{\array{ a_1 & a_2 \\ a_3}}
    +
@@ -3328,7 +3328,7 @@ Here for instance the symbol $X^{(\mathbf{65})}_{\array{a_1 \\ a_2}}$ denotes th
     \overline{\psi}\Gamma_{a_1 a_2} \psi
   \right)
   \left(
-    \overline{\psi} \Gamma_{a_3 a_4}
+    \overline{\psi} \Gamma_{a_3 a_4} \psi
   \right)
    \;=\;
   X^{(\mathbf{1144})}_{\array{a_1 a_2 \\ a_3 a_4}}
