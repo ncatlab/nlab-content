@@ -489,6 +489,8 @@ See also
 
 * [[Francis Borceux]], _When is $\Omega$ a cogenerator in a topos ?_ , Cah. Top. Géom. Diff. Cat. **XVI** no.1 (1975) pp.3-15. ([numdam](http://www.numdam.org/item?id=CTGDC_1975__16_1_3_0))
 
+* Chang Ku Im, _On elementary toposes_ , Bull. Korean Math. Soc. **16**, No.2 (1980) pp.55-71. ([pdf](https://koreascience.kr/article/JAKO198021167807333.pdf))
+
 For sheaves
 
 * {#Caramello}[[Olivia Caramello]], _Topos Theory: Lectures 7-14: Sheaves on a site_, [slides](https://www.oliviacaramello.com/Teaching/Lectures7_to_14.pdf)
