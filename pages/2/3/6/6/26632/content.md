@@ -53,8 +53,6 @@ But we may observe that the only rheonomic *constraint* necessary is that (eq:Lo
 
 In thus recasting the formulation of the theorem somewhat, we also:
 
-1. take care of the proper combinatorial normalization of the fields, which makes the crucial factor of 1/2 appear in (eq:SuperFluxBianchiIdentity);
-
 1. re-define the super-flux densities as above (eq:LocalFormOfSuperFluxDensities), highlighting that it is (only) in this combination that the algebraic form of the expected [[Bianchi identity]] (eq:SuperFluxBianchiIdentity) extends to [[superspace]];
 
 1. disregard the [[gauge potentials]] $C_3$ and $C_6$, whose role in [CDF91, §III.8.2-4](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre) is really just to motivate the form of the [[Bianchi identities]] equivalent to (eq:SuperFluxBianchiIdentity), but whose global nature is more subtle than acknowledged there, while being irrelevant for just the [[equations of motion]].
@@ -292,10 +290,8 @@ Here:
 
   This rescaling removes all occurrences of imaginary units in the Bianchi identities, as it should be for algebra over the real numbers with real fermion representations.
 
-* The second rescaling has the effect that $\mathrm{d} e^a = \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$ instead of $\mathrm{d}\, e^a = \tfrac{1}{2} \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$, which in turn implies 
+* The second rescaling has the effect that $\mathrm{d} e^a = \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$ instead of $\mathrm{d}\, e^a = \tfrac{1}{2} \big(\overline{\psi} \Gamma^a \psi\big) + \cdots$.
 
-* with the combinatorial rescalings (which are natural in themselves)  then the all-important quartic Fierz identity
-(...) comes out with the relative factor $1/2$  expected in the Bianchi identity for $G_7$.
 
 \end{remark}
 
