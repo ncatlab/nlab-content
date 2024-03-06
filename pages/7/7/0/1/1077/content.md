@@ -43,6 +43,16 @@ $$
 i_{1};p_{1}=1_{a}, \quad i_{2};p_{2}=1_{b}, \quad p_{1};i_{1} + p_{2};i_{2} = 1_{a \oplus b}
 $$
 
+If $n \ge 3$ and $a_1,...,a_n$ are objects of $\mathcal{C}$, a biproduct of these objects ([MacLane](#MacLane) p.196) is an object $\underset{1 \le j \le n}{\bigoplus}a_j$ together with maps
+\begin{tikzcd}
+\underset{1 \le j \le n}{\bigoplus}a_j \arrow[rr, "p_k", shift left] &  & a_k \arrow[ll, "i_k", shift left]
+\end{tikzcd}
+for $1 \le k \le n$ which satisfy the following equalities:
+$$
+i_{k};p_{l}=\delta_{k,l}, \quad \underset{1 \le k \le n}{\sum}p_k;i_k=1_{\underset{1 \le j \le n}{\bigoplus}a_j}
+$$
+where $\delta_{k,l}=0_{a_k,a_l}$ if $k \neq l$ and $\delta_{k,l}=1_{a_k}$ if $k = l$. Note that the equalities $i_1;p_2=0$ and $i_2;p_1=0$ are automatically verified in the case $n=2$. 
+
 ### In a category with zero morphisms
 
 Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $\mathcal{C}$ is [[enriched category|enriched]] over [[pointed sets]] (which is notably the case when $\mathcal{C}$ has a [[zero object]]).  For $c_1, c_2$ a [[pair]] of objects in $\mathcal{C}$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  
