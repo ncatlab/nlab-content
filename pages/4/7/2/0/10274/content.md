@@ -1,4 +1,6 @@
 
+Tullio Regge (1931-2014)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Tullio_Regge)
 
 * [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
@@ -15,8 +17,11 @@ Introducing the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Supergravity and Cohomology Theory: Progress and Problems in $D = 5$*, in *Unification of the Fundamental Particle Interactions*, Ettore Majorana International Science Series, **7** Springer (1980) &lbrack;[doi:10.1007/978-1-4613-3171-1_12](https://doi.org/10.1007/978-1-4613-3171-1_12), [[DAuriaFreRegge-SuGraAndCohomology.pdf:file]]&rbrack;
 
-
 * {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]],  [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
+
+On [[Fierz identities]] in ([[D=5 supergravity|D=5]]) [[supergravity]]:
+
+* {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]],  *A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity*, Annals Phys. 139 (1982) 93 &lbrack;<a href="http://dx.doi.org/10.1016/0003-4916(82)90007-0">doi:10.1016/0003-4916(82)90007-0</a>, [spire:167640](http://inspirehep.net/record/167640)&rbrack;
 
 
 ## Related entries
