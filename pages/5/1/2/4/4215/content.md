@@ -43,7 +43,11 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 
 ## References
 
+The concept is due to (there called **orthogonal adjoint**):
+
 * [[Marco Grandis]] and [[Robert Pare]], *Adjoints for double categories*
+
+The terminology "conjoint" is due to:
 
 * [[Robert Dawson]] and [[Robert Pare]] and [[Dorette Pronk]], *The Span construction*, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html).
 
