@@ -60,7 +60,7 @@ A **Petri net** $N$ consists of
 
   *  $pre: P\times E\to \mathbb{N}$, and
 
-  *   $post:  P\times E\to \mathbb{N}$.
+  *  $post:  P\times E\to \mathbb{N}$.
 =--
 
 ## Categorical Semantics of Petri Nets {#semantics}
@@ -73,7 +73,7 @@ E \ar[r,shift left=.5ex,"\mathrm{pre}"] \ar[r,shift right=.5ex,"\mathrm{post}",s
 \end{tikzcd}
 \end{centre}
 
-where $\mathbb{N}[P]$ denotes the [[free monoid|free commutative monoid]] on the set $P$ of places. Written this way, the analogy to [[directed graph|graphs]] is clearer. The main difference is that now the source and target functions land in a [[free monoid|free commutative monoid]] rather than just a set. Thus, Petri nets can be thought of as _symmetric monoidal graphs_ because each edge is a multi-edge between a permutable sum of vertices. Just as [[directed graph|graphs]] generate [[free categories]], Petri nets should generate free [[symmetric monoidal categories]]. As Petri nets often model processes in various sciences, the free symmetric monoidal categories that they generate model the operational semantics of these processes. For a given Petri net $P$, the free symmetric monoidal $FP$ that it generates should have objects given by possible markings of $P$ and morphisms given by ways of composing the events in sequence and in parallel.
+where $\mathbb{N}[P]$ denotes the [[free commutative monoid]] on the set $P$ of places. Written this way, the analogy to [[directed graph|graphs]] is clearer. The main difference is that now the source and target functions land in a [[free commutative monoid]] rather than just a set. Thus, Petri nets can be thought of as _symmetric monoidal graphs_ because each edge is a multi-edge between a permutable sum of vertices. Just as [[directed graph|graphs]] generate [[free categories]], Petri nets should generate free [[symmetric monoidal categories]]. As Petri nets often model processes in various sciences, the free symmetric monoidal categories that they generate model the operational semantics of these processes. For a given Petri net $P$, the free symmetric monoidal category $FP$ that it generates should have objects given by possible markings of $P$, and morphisms given by ways of composing the events in sequence and in parallel.
 
 The first to explore this idea were [Meseguer and Montanari](#monoids) who constructed an adjunction between Petri nets and a subcategory of the category $CMC$ of [[commutative monoidal categories]]. This adjunction was modified in [_Petri nets based on Lawvere theories_](#gen) to get
 
