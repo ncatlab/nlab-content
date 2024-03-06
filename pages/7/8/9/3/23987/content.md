@@ -2636,7 +2636,15 @@ Stone-von Neumann**
   > We formalize [Feynman's construction](path+integral#Feynman42) of the [[path integral]] in the context of [[Lie algebroid]]-valued [[sigma models]]. To do this, we use the [[pair groupoid]] and the [[van Est map]] to define [[integration]] on [[manifolds]] in a [[coordinate]]-free way. We discuss applications to [[Brownian motion]] and the [[Poisson sigma model]].
 
 
+### Mar 2024
 
+* {#PeiMar2024} 06 Mar 2024
+  
+  [[Du Pei]] (Centre for Quantum Mathematics, University of Southern Denmark):
+
+  *On New Invariants and Phases of Supersymmetric Quantum Field Theories*
+
+  In this talk, we will explore a novel approach to study [[supersymmetry|supersymmetric]] [[quantum field theories]] using tools from [[stable homotopy theory]]. We will explain how this approach leads to new invariants that can be used to detect subtle differences between phases that escape the detection of more conventional invariants.
  
 
 \linebreak
@@ -2645,7 +2653,7 @@ Stone-von Neumann**
 ## External presentations
  {#ExternalTalk}
 
-\linebrea
+\linebreal
 
 
 ### Sep 2022
