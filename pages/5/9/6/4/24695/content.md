@@ -12,6 +12,9 @@ On [[hermitian functorial field theory]] and the [[spin-statistics theorem]]:
 
 * [[Lukas Müller]], [[Luuk Stehouwer]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
 
+* [[Luuk Stehouwer]], _The categorical spin-statistics theorem_ &lbrack;[arXiv:2403.02282](https://arxiv.org/abs/2403.02282)&rbrack;
+
+
 On [[dagger categories]]:
 
 * [[Luuk Stehouwer]], [[Jan Steinebrunner]], *Dagger categories via anti-involutions and positivity* &lbrack;[arXiv:2304.02928](https://arxiv.org/abs/2304.02928)&rbrack;
