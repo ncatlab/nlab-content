@@ -640,7 +640,7 @@ For $d = 11$ then
 
 =--
 
-([D'Auria-Fr&#233; 82b (3.13) and (3.28) ](#DAuriaFre82b))
+([D'Auria & Fr&#233; 1982b (3.13) and (3.28) ](#DAuriaFre82b); [Naito, Osada & Kukui 1986, (2.27) and (2.28)](#NaitoOsadaKukui86))
 
 +-- {: .proof}
 ###### Proof
@@ -726,13 +726,13 @@ Named after [[Markus Fierz]].
 
 The interpretation of Fierz identities as relations satisfied by [[Clebsch-Gordan coefficients]] in the [[representation ring]] of the [[spin group]] originates in
 
-* {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]]  _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([doi:10.1016/0003-4916(82)90007-0](http://dx.doi.org/10.1016/0003-4916(82)90007-0), [spire](http://inspirehep.net/record/167640/))
+* {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]],  *A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity*, Annals Phys. 139 (1982) 93 &lbrack;<a href="http://dx.doi.org/10.1016/0003-4916(82)90007-0">doi:10.1016/0003-4916(82)90007-0</a>, [spire:167640](http://inspirehep.net/record/167640)&rbrack;
 
-where it was applied to $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]).
+where it was applied to $Spin(4,1)$ (relevant in [[D=5 supergravity]]).
 
 By this method the Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed in
 
-* {#DAuriaFre82a} [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1, D=10$ and $N=4, D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
+* {#DAuriaFre82a} [[Riccardo D'Auria]], [[Pietro Fré]], *Geometric Structure of $N=1, D=10$ and $N=4, D=4$ Super Yang-Mills Theory*, Nucl. Phys. B **196** (1982) 205 &lbrack;[inspire:167639](http://inspirehep.net/record/167639)&rbrack;
   
 see also appendix C of 
 
@@ -740,19 +740,19 @@ see also appendix C of
 
 and the Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) were tabulated in 
 
-* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], pages 12, 13 of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) ([[GeometricSupergravityErrata.pdf:file]]) 
- 
+* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
+
 see also
 
-* S. Naito, K. Osada, T. Fukui, _Fierz Identities and Invariance of Eleven-dimensional Supergravity Action_, Phys.Rev. D34 (1986) 536-552 ([spire](http://inspirehep.net/record/236376/?ln=de))
+* {#NaitoOsadaKukui86} S. Naito, K. Osada, T. Fukui, *Fierz Identities and Invariance of Eleven-dimensional Supergravity Action*, Phys. Rev. D **34** (1986) 536-552 &lbrack;[spire:236376](http://inspirehep.net/record/236376), [doi:10.1103/PhysRevD.34.536](https://doi.org/10.1103/PhysRevD.34.536)&rbrack;
 
 A textbook account of the representation ring method and summary of these results is in
 
-* {#CDF} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CDF} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.8 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch II.8: [[CastellaniDAuriaFre-ChII8.pdf:file]]&rbrack;
 
-See also
+See also:
 
-* C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 ([arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245))
+* C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 &lbrack;[arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245)&rbrack;
 
 * [[Calin Lazaroiu]], Elena-Mirela Babalic, Ioana-Alexandra Coman, _The geometric algebra of Fierz identities in arbitrary dimensions and signatures_, JHEP09(2013)156 ([arXiv:1304.4403](https://arxiv.org/abs/1304.4403))
 
