@@ -260,6 +260,12 @@ Textbook account:
 
 * [[Francis Borceux]], Section 2.1 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
+Categories with one object and binary products are studied in:
+
+* Aaron Gray and Keith Pardue, _Products in a Category with One Object_, [arXiv:1604.03999](https://arxiv.org/abs/1604.03999) (2016).
+
+* Richard Statman, _Products in a category with only one object_, [arXiv:2101.10494](https://arxiv.org/abs/2101.10494) (2021).
+
 
 category: foundational axiom
 
