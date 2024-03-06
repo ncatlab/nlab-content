@@ -45,6 +45,10 @@ with fiber functor $F$ from the Hopf category $End(F)$.
 
 * {#Green23} David Green, *Tannaka-Krein reconstruction for fusion 2-categories* (2023) &lbrack;[arXiv:2309.05591](https://arxiv.org/abs/2309.05591)&rbrack;
 
+On the classification of fermionic (i.e. super-) fusion 2-categories:
+
+* [[Thibault Decoppet]]. *Extension Theory and Fermionic Strongly Fusion 2-Categories* (2024). ([arXiv:2403.03211](https://arxiv.org/abs/2403.03211)).
+
 In the context of "[[generalized global symmetries]]":
 
 * Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen, *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
