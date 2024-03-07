@@ -35,9 +35,9 @@ This entry collects linked keywords for the book
 on ([[supersymmetry|supersymmetric]]) [[quantum field theory]] and ([[superstring|super]]) [[string theory]].
 
 
-Parts of this appear separately elsewhere, for instance:
+Parts of this appear separately elsewhere:
 
-* [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_ ([[NotesOnNotesOnSupersymmetry.pdf:file]])
+* [[Pierre Deligne]], [[John Morgan]], _Notes on supermathematics_ &lbrack;[[NotesOnNotesOnSupersymmetry.pdf:file]]&rbrack; (following the chapter *Notes on supersymmetry* [[DeligneMorgan-NotesOnSusy.pdf:file]])
 
 * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
 
