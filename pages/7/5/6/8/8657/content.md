@@ -17,7 +17,7 @@
 
 The **adjoint triangle theorem** in [[category theory]] gives conditions under which, given a [[pair]] of [[functors]] and an [[adjoint functor]], further adjoints exist.
 
-Depending on the specific assumptions, the theorem has several variants. The following gives the most common formulation going back to [Dubuc (1968)](#dubuc68).
+Depending on the specific assumptions, the theorem has several variants. The following gives the most common formulation going back to [Dubuc (1968)](#dubuc68) and [Huq (1970)](#huq70).
 
 ## Statement ##
 
@@ -82,6 +82,8 @@ It is also possible to derive the [[monadicity theorem]] from the adjoint triang
 * {#dubuc68} [[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968. &lbrack;[doi:10.1007/BFb0077118](https://doi.org/10.1007/BFb0077118)&rbrack;
 
 * {#huq70}S. A. Huq, _An interpolation theorem for adjoint functors_, Proc. AMS **25** (1970) pp.880-883. ([pdf](https://www.ams.org/journals/proc/1970-025-04/S0002-9939-1970-0260824-1/S0002-9939-1970-0260824-1.pdf))
+
+* Geun Bin Im, [[Gregory Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](https://koreascience.kr/article/JAKO198621048976714.pdf)
 
 * I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_, Bulletin of the Australian Mathematical Society **36** 1 (1987) pp.133-136. &lbrack;[doi:10.1017/S000497270002637X](https://doi.org/10.1017/S000497270002637X)&rbrack;
 
