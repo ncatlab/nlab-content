@@ -9,6 +9,7 @@
 =--
 =--
 
+
 <center>
 <img src="https://ncatlab.org/nlab/files/GrassmannGradedCommutativityI.jpg" width="460">
 </center>
@@ -865,35 +866,36 @@ The [[internalization]] into the [[topos]] over [[superpoints]] is due to
 
 The internalization sign rule follows for instance from applying the construction of [[internalization|internal]] [[Grassmann algebras]] in the [[category]] of [[super vector space]] as discussed in 
 
-* {#Deligne90} [[Pierre Deligne]], p. 165  _[[Catégories Tannakiennes]],  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.    
+* {#Deligne90} [[Pierre Deligne]], p. 165 in: *[[Catégories Tannakiennes]]*,  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. **87** (1990) 111-195.    
  
 The corresponding internal sign rule appears for instance in 
 
-* {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], section 2 of _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
-Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
+* {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], section 2 of: *Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions*, Nuclear Physics B **296** 4 (1988) &lbrack;<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>&rbrack;
 
-
-* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equations (II.2.106) and (II.2.109) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equations (II.2.106) and (II.2.109) in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
 
 
 
-* {#DeligneFreed99} [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_, 1999 ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf), [[DeligneFreedSignManifesto.pdf:file]]) 
+* {#DeligneFreed99} [[Pierre Deligne]], [[Dan Freed]], *Sign manifesto*, (1999) &lbrack;[pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf), [[DeligneFreedSignManifesto.pdf:file]]&rbrack; 
    
   which appears in
  
-  * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+  * [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions* &lbrack;[arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
     which in turn appears in 
 
-    * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+    * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence (1999) 357-366 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft)&rbrack;
 
 
 And with explicit acknowledgement that there is also the alternative super odd sign rule in:
 
-* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_, remark 1.2.8 in [[NotesOnNotesOnSupersymmetry.pdf:file]]
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_ ([[DeligneMorgan-NotesOnSusy.pdf:file]])
 
-  in [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+  pp. 62 ([[DeligneMorgan-SignRule.pdf:file]])
 
+  (also remark 1.2.8 in [[NotesOnNotesOnSupersymmetry.pdf:file]])
+
+  in: [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[web version](http://www.math.ias.edu/qft)&rbrack;
 
 * {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
