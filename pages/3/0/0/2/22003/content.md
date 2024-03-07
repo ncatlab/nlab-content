@@ -29,6 +29,10 @@ Computer-survey of [[Skyrmion]]-solutions:
 
 * {#GudnasonHalcrow22} [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *A Smörgåsbord of Skyrmions* &lbrack;[arXiv:2202.01792](https://arxiv.org/abs/2202.01792)&rbrack;
 
+On [[Skyrmion]] [[bound state|binding]] [[energy]]:
+
+* [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *Quantum binding energies in the Skyrme model* &lbrack;[arXiv:2307.09272](https://arxiv.org/abs/2307.09272)&rbrack;
+
 
 
 category: people
