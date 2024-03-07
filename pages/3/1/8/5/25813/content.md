@@ -3,7 +3,7 @@
 
 Formulation of the [[equations of motion]] of [[D=11 supergravity]] in [[superspace]] on fields including a flux density $G_7$ *a priori* independent of the flux density $G_4$ of the [[supergravity C-field]]:
 
-* {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], ch III.8.3-5 in vol 2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]\]
+* {#CastellaniDAuriaFré91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], ch III.8.3-III.8.5 in vol 2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, [epdf](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]]\]
 
   > (Using the [[D'Auria-Fre formulation of supergravity]].)
 
