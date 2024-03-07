@@ -23,5 +23,12 @@ On [[DBI-action]] and [[Green-Schwarz action functional]] for [[D-branes]]:
 
 * {#CGNSW96} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
 
+On [[Lars Brink]]:
+
+* [[Bengt E. W. Nilsson]], Björn Jonson: *Lars Brink -- November 12, 1943 - October 29, 2022* &lbrack;[arXiv:2403.03776](https://arxiv.org/abs/2403.03776)&rbrack;
+
 
 category: people
+
+[[!redirects Bengt E. W. Nilsson]]
+
