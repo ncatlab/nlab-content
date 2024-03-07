@@ -150,7 +150,7 @@ $$
   \,,
 $$
 
-hence by the [[pushout]] in $Top$ of he frm
+hence by the [[pushout]] in $Top$ of the form
 
 $$
   \array{
