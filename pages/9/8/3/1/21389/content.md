@@ -32,6 +32,10 @@ On [[skyrmions]]/[[solitons]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD corresp
 
 * Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], Tommaso Rainaldi, *Mass and Isospin Breaking Effects in the Skyrme Model and in Holographic QCD* \[<a href="https://arxiv.org/abs/2312.15404">arXiv:2312.15404</a>\]
 
+On [[Skyrmion]] [[bound state|binding]] [[energy]]:
+
+* [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *Quantum binding energies in the Skyrme model* &lbrack;[arXiv:2307.09272](https://arxiv.org/abs/2307.09272)&rbrack;
+
 
 
 category: people
