@@ -86,6 +86,8 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 ## References
 
+* Kornel Szlachányi, _Skew-monoidal categories and bialgebroids_, Advances in Mathematics 231.3-4 (2012): 1694-1730.
+
 * [[John Bourke]], [[Stephen Lack]], _Skew monoidal categories and skew multicategories_, Journal of Algebra **506** (2018), 237-266. &lbrack;[arXiv:1708.06088](https://arxiv.org/abs/1708.06088), [doi:10.1016/j.jalgebra.2018.02.039](https://doi.org/10.1016/j.jalgebra.2018.02.039)&rbrack;
 
 Skew monoidal closed structures on the category of [[Gray categories]] are considered in:
