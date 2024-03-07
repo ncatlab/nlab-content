@@ -1,8 +1,13 @@
 
+Lars Brink (1949-2022)
+
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Lars_Brink)
 
 * [[Hermann Nicolai]]: *[Lars Brink 1943–2022](https://cerncourier.com/a/lars-brink-1943-2022/)*, CernCourier (1 Mar 2023): 
+
+* [[Bengt E. W. Nilsson]], Björn Jonson: *Lars Brink -- November 12, 1943 - October 29, 2022* &lbrack;[arXiv:2403.03776](https://arxiv.org/abs/2403.03776)&rbrack;
+
 
 
 ## Selected writings
