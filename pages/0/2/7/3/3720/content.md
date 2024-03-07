@@ -30,6 +30,15 @@ On [[differential equations]] with regular singular points (and developing [[loc
 
 * [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
+Deligne led a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
+
+* _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970)
+
+surveyed in:
+
+* N. Katz, _An overview of Deligne's work on [[Riemann-Hilbert problem|Hilbert's twenty-first problem]]_, Proc. of Symp. in Pure Math., vol.28, pp. 537-557 (1976).
+
+
 
 Introducing [[Deligne cohomology]] in [[complex analytic geometry]] (by a [[chain complex]] of [[holomorphic differential forms]]) with applications to [[Hodge theory]] and [[intermediate Jacobians]]:
 
@@ -63,7 +72,7 @@ On [[Tannakian categories]]:
 * [[Pierre Deligne]], [[James Milne]]: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
 
 
-On [[tensor categories]] and [[Tannaka duality]]
+On [[tensor categories]] and [[Tannaka duality]]:
 
 * {#Deligne90} [[Pierre Deligne]], section 2 of _[[Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195 ([pdf](https://publications.ias.edu/sites/default/files/60_categoriestanna.pdf))
 
@@ -71,17 +80,21 @@ culminating in [[Deligne's theorem on tensor categories]]:
 
 * {#Deligne02} [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
 
+On mathematical foundations of [[superalgebra]], [[supergeometry]] and [[supersymmetry]]:
 
-Deligne led a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
+* [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry*, in *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 41-98 &lbrack;[web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]], [[DeligneMorgan-SignRule.pdf:file]]&rbrack;
 
-* _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970)
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 227 &lbrack;[web version](http://www.math.ias.edu/qft), [arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
-Related to this is the survey 
+and focus on [[signs in supergeometry]]:
 
-* N. Katz, _An overview of Deligne's work on [[Riemann-Hilbert problem|Hilbert's twenty-first problem]]_, Proc. of Symp. in Pure Math., vol.28, pp. 537-557 (1976).
+* [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
 
 
-## Related $n$Lab entries
+
+
+
+## Related entries
 
 * [[Deligne completeness theorem]]
 
