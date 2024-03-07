@@ -394,7 +394,7 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 
 \begin{theorem} 
-Let $(\mathcal{C}, \otimes, I)$ be a monoidal category and let $(T, \mu, \eta)$ be an idempotent monad on $\mathcal{C}$ equipped with compatible left and right [[strong monad|strengths]] $t_{A, B} : TA \otimes B \to T(A \otimes B)$ and $t'_{A, B} : A \otimes TB \to T(A \otimes B)$. Then $T$ is a [[commutative monad]].
+Let $(\mathcal{C}, \otimes, I)$ be a monoidal category and let $(T, \mu, \eta)$ be an idempotent monad on $\mathcal{C}$ equipped with compatible left and right [[strong monad|strengths]] $t_{A, B} : TA \otimes B \to T(A \otimes B)$ and $t'_{A, B} : A \otimes TB \to T(A \otimes B)$. Then $T$ is a [[commutative monad]], or equivalently a [[monoidal monad]].
 \end{theorem}
 
 \begin{proof} 
@@ -432,6 +432,21 @@ The commutativity equation is obtained using the strength axioms, the monad axio
 \end{proof}
 
 Alternatively we can deduce this from the fact that that [[thunk-force category|thunkable]] morphisms are [[premonoidal category|central]], since a monad is idempotent iff every Kleisli map is thunkable, and a monad is commutative iff every Kleisli map is central. (This fact is proved by Paul Levy [there](https://www.cs.bham.ac.uk/~pbl/papers/thunkcentral.pdf).) 
+
+\begin{theorem}
+If furthermore $\mathcal{C}$ is a [[monoidal category with diagonals]] $\Delta_A : A \to A \otimes A$, then the induced [[monoidal monad]] structure on $T$ is [[idempotent monoidal functor|idempotent]] in the sense that the following diagram commutes:
+\begin{tikzcd}
+  TA & {TA \otimes TA} \\
+  & {T(A \otimes A)}
+  \arrow["{\Delta_{TA}}", from=1-1, to=1-2]
+  \arrow[from=1-2, to=2-2]
+  \arrow["{T\Delta_A}"', from=1-1, to=2-2]
+\end{tikzcd}
+\end{theorem}
+
+\begin{proof}
+See [1Lab](#1Lab), *Strong idempotent monads*.
+\end{proof}
 
 ## Related concepts
 
@@ -487,6 +502,10 @@ Extension of idempotent monads along subcategory inclusions is discussed in
 Discussion of idempotent comonads and their relation to adjoint strings is contained in
 
 * {#RosebrughWood95} [[Robert Rosebrugh]], and [[Richard Wood]] *Distributive adjoint strings.* Theory and applications of categories (1995), pages 119-145.
+
+Formalisation in [[cubical Agda]]:
+
+* {#1Lab} [[1lab]], *[Idempotent monads](https://1lab.dev/Cat.Diagram.Monad.Idempotent.html)*
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
