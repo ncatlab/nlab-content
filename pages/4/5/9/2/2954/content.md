@@ -47,6 +47,14 @@ On [[topological quantum field theory]]:
 
 * [[Daniel Freed]], *Lectures on topological quantum field theory*, in: *Integrable Systems, Quantum Groups, and Quantum Field Theories*, NATO ASI Series **409** (1992) &lbrack;[doi:10.1007/978-94-011-1980-1_5](https://doi.org/10.1007/978-94-011-1980-1_5), [pdf](http://www.ma.utexas.edu/users/dafr/OldTQFTLectures.pdf), [[Freed-TQFTLectures.pdf:file]]&rbrack;
 
+On mathematical foundations of [[superalgebra]], [[supergeometry]] and [[supersymmetry]]:
+
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 227 &lbrack;[web version](http://www.math.ias.edu/qft), [arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
+
+and focus on [[signs in supergeometry]]:
+
+* [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
+
 
 On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant K-theory]]:
 
