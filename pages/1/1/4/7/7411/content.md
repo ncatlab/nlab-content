@@ -322,7 +322,7 @@ where
 * the two-sided strength means we have a [[structure]] of [[lax natural transformation]] $\tilde{V} \to \tilde{V}$. 
 
 
-+-- {: .num_remark}
++-- {: .num_remark #SymmetricStrength}
 ###### Remark
 
 In the setting where $V$ is _[[symmetric monoidal category|symmetric]]_ monoidal, we will assume that the left and right strengths $\tau$ and $\sigma$ are related by the symmetry in the obvious way, by a [[commutative square]] 
@@ -480,15 +480,21 @@ This relation has a converse:
 \begin{proposition}
 \label{BijectSymmMonoidalMonadsWithCommStrongMonads}
 \linebreak
-For a [[monad]] $T$ on (the [[underlying]] [[category]] of) a [[symmetric monoidal category|symmetric]] [[closed monoidal category]], there is a [[bijection]] between the [[structure]] on $T$ of:
+For a [[monad]] $T$ on (the [[underlying]] [[category]] of) a [[monoidal category]], there is a [[bijection]] between the [[structure]] on $T$ of:
 
 1. a [[commutative monad|commutative]] [[strong monad]]
 
-1. a [[symmetric monoidal functor|symmetric]] [[monoidal monad]].
+1. a [[monoidal monad]],
+
+and furthermore, in a [[symmetric monoidal category]], under this equivalence, there is a [[logical equivalence]] between the [[properties]] of:
+
+1. being a *symmetric* strength in the sense of remark \ref{SymmetricStrength}
+
+1. being a *symmetric* [[monoidal monad]] (def. \ref{MonoidalMonad}).
 
 \end{proposition}
 
-This is due to [Kock (1972)](#Kock72), Thm. 2.3), a detailed review is in  [GLLN08, §7.3, §A.4](#GLLN08).
+This is due to [Kock (1972)](#Kock72), Thm. 2.3), a detailed review is in [GLLN08, §7.3, §A.4](#GLLN08) and an [[Agda]] formalisation is in [1Lab](#1Lab).
 
 
 
@@ -553,6 +559,10 @@ Further discussion:
   > (on the [[Eilenberg-Moore categories]] of monoidal monads)
 
 * {#Brandenburg2014} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](https://arxiv.org/abs/1410.1716))
+
+Formalisation in [[cubical Agda]]:
+
+* {#1Lab} [[1lab]], *[Monoidal monads](https://1lab.dev/Cat.Monoidal.Monad.html)*
 
 Discussion in the context of [[monads in computer science]]:
 
