@@ -159,7 +159,7 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
        \\
        ((w \otimes x ) \otimes y) \otimes z
         && &&
-       (w \otimes (x \otimes (y \otimes z)))
+       w \otimes (x \otimes (y \otimes z))
        \\
        {}^{\mathllap{\alpha_{w,x,y}} \otimes id_z }\downarrow 
         && && 
