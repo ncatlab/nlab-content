@@ -20,6 +20,10 @@ This page collects a list of libraries of [[mathematics]] formalized in [[proof 
 
 * [Agda-UniMath](https://github.com/UniMath/agda-unimath)
 
+* [cubical](https://github.com/agda/cubical)
+
+* [1Lab](https://1lab.dev)
+
 ### Archived
 
 * [HoTT-Agda](https://github.com/hott/hott-agda/)
