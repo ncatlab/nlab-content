@@ -129,7 +129,7 @@ An important aspect of HoTT is the fact that the [[intensional type theory|inten
 
 This forms the basis of  the _Univalent Foundations_ program ([Voevodsky](#Voevodsky)), which uses Coq to generate and verify proofs with [[homotopy theory|homotopical]] content.
 
-See the [code page](http://homotopytypetheory.org/coq/) at the [HoTT site](#HoTTSite) for more.
+See the page [[formalized libraries of homotopy type theory]] for more.
 
 ## Dictionary HoTT-Coq / $(\infty,1)$-Category theory
  {#DictionaryToCoq}
