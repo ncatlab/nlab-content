@@ -81,6 +81,8 @@ It is also possible to derive the [[monadicity theorem]] from the adjoint triang
  
 * {#dubuc68} [[Eduardo Dubuc]], _Adjoint triangles_, pp.69-81 in LNM **61** Springer Heidelberg 1968. &lbrack;[doi:10.1007/BFb0077118](https://doi.org/10.1007/BFb0077118)&rbrack;
 
+* {#huq70}S. A. Huq, _An interpolation theorem for adjoint functors_, Proc. AMS **25** (1970) pp.880-883. ([pdf](https://www.ams.org/journals/proc/1970-025-04/S0002-9939-1970-0260824-1/S0002-9939-1970-0260824-1.pdf))
+
 * I. B. Im, [[Max Kelly|G. M. Kelly]], _Adjoint-Triangle Theorems for Conservative Functors_, Bulletin of the Australian Mathematical Society **36** 1 (1987) pp.133-136. &lbrack;[doi:10.1017/S000497270002637X](https://doi.org/10.1017/S000497270002637X)&rbrack;
 
 * [[John Power]], _A unified approach to the lifting of adjoints_, Cahiers de Topologie et Géométrie Différentielle Catégoriques **29** 1 (1988) 67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0))
