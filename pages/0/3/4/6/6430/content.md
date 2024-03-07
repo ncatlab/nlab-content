@@ -12,6 +12,11 @@ On [[complex surfaces]] and their [[elliptic fibrations]]:
 
 * {#FriedmanMorgan94} [[Robert Friedman]], [[John Morgan]], _Smooth Four-Manifolds and Complex Surfaces_, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge / A Series of Modern Surveys in Mathematics (1994) ([doi:10.1007/978-3-662-03028-8](https://www.springer.com/gp/book/9783540570585))
 
+On mathematical foundations of [[superalgebra]], [[supergeometry]] and [[supersymmetry]]:
+
+* [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry*, in *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 41-98 &lbrack;[web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]], [[DeligneMorgan-SignRule.pdf:file]]&rbrack;
+
+
 
 On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactification|compactified]] on [[orbifolds]] and [[orientifolds]]:
 
