@@ -343,17 +343,18 @@ Alice Rogers claims, in Chapter 1, that the smooth-manifold-of-(infinite-dimensi
 
 ### Other
 
-Discussion with an eye towards [[supergravity]] is in 
+Discussion with an eye towards [[supergravity]]:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
 
-Discussion with an eye on [[integration over supermanifolds]] is in
+
+Discussion with an eye towards [[integration over supermanifolds]]:
 
 * [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
 
-Global properties are discussed in
+Discussion of global properties:
 
-* [[Louis Crane]], Jeffrey M. Rabin, _Global properties of supermanifolds_, Comm. Math. Phys. Volume 100, Number 1 (1985), 141-160. ([Euclid](http://projecteuclid.org/euclid.cmp/1103943340))
+* [[Louis Crane]], [[Jeffrey M. Rabin]], _Global properties of supermanifolds_, Comm. Math. Phys. **100** 1 (1985) 141-160 &lbrack;[doi:10.1007/BF01212690](https://doi.org/10.1007/BF01212690), [euclid:cmp/1103943340](http://projecteuclid.org/euclid.cmp/1103943340)&rbrack;
 
 See also:
 
