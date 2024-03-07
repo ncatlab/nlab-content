@@ -153,13 +153,17 @@ A critical view of purely categorical foundations can be found in a series of [p
 
 * [[Solomon Feferman|S. Feferman]], *Categorical Foundations and Foundations of Category Theory*, pp.149-169 in Butts&Hintikka (eds.), _Logic, Foundations of Mathematics, and Computability Theory_, Reidel Dordrecht 1977. ([pdf](http://math.stanford.edu/~feferman/papers/Cat_founds.pdf))
 
-An inconsistency in a recent formalisation by Feferman is discussed in
+The unattainability of all the formal desiderata proposed by Feferman is discussed in
 
 * M. Ernst, *The Prospects of Unlimited Category Theory: Doing What Remains to be Done*, Review Symbolic Logic **8** no.2 (2015) pp.306-327.
 
 The above remarks from [[Mike Shulman|M. Shulman]] come from the following MO discussion that also offers additional perspectives on ETCC and ET2CC:
 
 * {#MO-CC}mathoverflow, *Category of categories as a foundation for mathematics*, December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
+
+A worked out ET2CSC where the "S" stands for "small" can be found in
+
+* C. Hughes, A. Miranda, _The elementary theory of the 2-category of small categories_, arXiv:2403.03647 (2024). ([abstract](https://arxiv.org/abs/2403.03647)) 
 
 See also
 
