@@ -10,9 +10,9 @@ This page collects a list of libraries of [[mathematics]] formalized in [[proof 
 
 ### Archived
 
-* [[Vladimir Voevodsky]]'s [Foundations](https://github.com/vladimirias/Foundations) repository (now a part of UniMath)
+* [[Vladimir Voevodsky]]'s [Foundations](https://github.com/vladimirias/Foundations) repository (now a part of [[UniMath|UniMath]])
 
-* A repository of files for [Inductive types in HoTT](https://github.com/HoTT/Archive), by Steve Awodey, Nicola Gambino, and Kristina Sojakova. (See [this blog post](https://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/).)
+* A repository of files for [Inductive types in HoTT](https://github.com/HoTT/Archive), by [[Steve Awodey]], [[Nicola Gambino]], and [[Kristina Sojakova]]. (See [this blog post](https://homotopytypetheory.org/2012/01/19/inductive-types-in-hott/).)
 
 ## Agda
 
