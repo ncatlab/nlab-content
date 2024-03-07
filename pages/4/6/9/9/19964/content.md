@@ -342,6 +342,8 @@ Further development:
 * Alberto García Martín-Caro, [[Chris Halcrow]],
 *The charge density and neutron skin thickness of Skyrmions* &lbrack;[https://arxiv.org/abs/2312.04335](https://arxiv.org/abs/2312.04335)&rbrack;
 
+* [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *Quantum binding energies in the Skyrme model* &lbrack;[arXiv:2307.09272](https://arxiv.org/abs/2307.09272)&rbrack;
+
 
 
 Large computer search for Skyrmion solutions:
