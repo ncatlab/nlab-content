@@ -195,7 +195,7 @@ for the [[full subcategory]] of $S$-local objects.
 ###### Definition
 **([[reflective subcategory|reflection]] onto [[full subcategory]] of [[local objects]])**
 
-Let $\mathcal{C}$ be a [[category]] and set $S \subset Mor_{\mathcal{C}}$ be a sub-[[class]] of its [[morphisms]]. Then the _reflection onto local $S$-objects_ (often called "localization at the collection $S$" is, if it exists, a [[left adjoint]] $L$ to the [[full subcategory]]-inclusion of the $S$-[[local objects]] (eq:FullSubcategoryOfSLocalObjects):
+Let $\mathcal{C}$ be a [[category]] and set $S \subset Mor_{\mathcal{C}}$ be a sub-[[class]] of its [[morphisms]]. Then the _reflection onto local $S$-objects_ (often called "localization at the collection $S$") is, if it exists, a [[left adjoint]] $L$ to the [[full subcategory]]-inclusion of the $S$-[[local objects]] (eq:FullSubcategoryOfSLocalObjects):
 
 $$
   \mathcal{C}_S
