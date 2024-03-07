@@ -1101,15 +1101,17 @@ A fair bit of detail on supersymmetry and of [[supergravity]] with an eye toward
 
 * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-especially in the contribution
+especially mathematical basics in:
 
-* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+* [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry*, in *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 41-98 &lbrack;[web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]], [[DeligneMorgan-SignRule.pdf:file]]&rbrack;
 
-The appendix there,
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 227 &lbrack;[web version](http://www.math.ias.edu/qft), [arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
-* _Sign manifesto_ ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf))
+The appendix of the latter,
 
-means to sort out various sign issues of relevance in [[supergeometry]] and supsersymmetric [[quantum field theory]] (see at _[[signs in supergeometry]]_.)
+* [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
+
+focuses on sign issues of relevance in [[supergeometry]] and supsersymmetric [[quantum field theory]] (see at _[[signs in supergeometry]]_.)
 
 See also
 
