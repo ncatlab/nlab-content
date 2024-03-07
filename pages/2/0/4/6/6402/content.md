@@ -16,14 +16,26 @@
 
 This entry collects linked keywords for the book
 
-* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], [[Lisa Jeffrey]], [[David Kazhdan]], [[John Morgan]], [[David R. Morrison]] and [[Edward Witten]], eds.  
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], [[Lisa Jeffrey]], [[David Kazhdan]], [[John Morgan]], [[David R. Morrison]] and [[Edward Witten]], eds.:
 
-  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+  \linebreak
 
-on [[quantum field theory]] and [[string theory]].
+  **Quantum Fields and Strings, A course for mathematicians** 
+
+  \linebreak
+ 
+  2 vols. 
+
+  Amer. Math. Soc. Providence (1999) 
+
+  [ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s)
+
+  [web version](http://www.math.ias.edu/qft)
+
+on ([[supersymmetry|supersymmetric]]) [[quantum field theory]] and ([[superstring|super]]) [[string theory]].
 
 
-Parts of this appear separately elsewhere, for instance
+Parts of this appear separately elsewhere, for instance:
 
 * [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_ ([[NotesOnNotesOnSupersymmetry.pdf:file]])
 
