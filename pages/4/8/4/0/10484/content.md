@@ -751,5 +751,7 @@ $$
 
 [[!redirects SuperCartSp]]
 
+[[!redirects SCartSp]]
+
 [[!redirects SuperFormalCartSp]]
 [[!redirects SuperFormalCartSpace]]
