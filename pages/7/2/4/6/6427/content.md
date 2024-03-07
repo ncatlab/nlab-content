@@ -52,7 +52,7 @@ The [[coset]] ([[super Klein geometry]]) of a super Poincar&#233; group by the [
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
  
 
-* [[Veeravalli Varadarajan]], section 6,5 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004 ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
+* {#Varadarajan04} [[Veeravalli Varadarajan]], section 6.5 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society (2004) &lbrack;[doi;10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), [pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf)&rbrack;
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
