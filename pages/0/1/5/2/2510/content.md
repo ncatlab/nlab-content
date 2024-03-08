@@ -1,6 +1,9 @@
 
+* [institute page](https://www.polito.it/personale?p=riccardo.dauria)
 
-* [website](http://areeweb.polito.it/ricerca/sugragroup/members.html)
+* [research group page](http://areeweb.polito.it/ricerca/sugragroup/members.html)
+
+* [inspire page](https://inspirehep.net/authors/1012604)
 
 
 ## Selected writings
@@ -54,7 +57,7 @@ Usage of full [[supergravity]] (retaining the [[gravitino]]) for [[AdS-CMT]], wi
 
 * [[Laura Andrianopoli]], [[Bianca L. Cerchiai]], [[Riccardo D'Auria]], [[Antonio Gallerati]], [[Ruggero Noris]], [[Mario Trigiante]], [[Jorge Zanelli]], *$\mathcal{N}$-Extended $D=4$ Supergravity, Unconventional SUSY and Graphene*, JHEP 01 (2020) 084 &lbrack;[arXiv:1910.03508](https://arxiv.org/abs/1910.03508), <a href="https://doi.org/10.1007/JHEP01(2020)084">doi:10.1007/JHEP01(2020)084</a>&rbrack;
 
-On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fre formulation of supergravity]], ...):
+On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fré-Regge formulation of supergravity]], ...):
 
 * [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
 
