@@ -893,9 +893,14 @@ And with explicit acknowledgement that there is also the alternative super odd s
 
   pp. 62 ([[DeligneMorgan-SignRule.pdf:file]])
 
-  (also remark 1.2.8 in [[NotesOnNotesOnSupersymmetry.pdf:file]])
-
   in: [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[web version](http://www.math.ias.edu/qft)&rbrack;
+
+Reviewed in
+
+* Ivan Mircović, remark 1.2.8 in: _Notes on supermathematics_ &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html), [[NotesOnNotesOnSupersymmetry.pdf:file]]&rbrack;
+
+
+See also:
 
 * {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
