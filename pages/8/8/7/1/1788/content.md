@@ -179,6 +179,46 @@ $$
 $$
 
 $$
+  \begin{array}{c}
+    \pm
+    \Big(
+      \tfrac{5! \cdot 6!}{5!\cdot 5!}
+      \tfrac{1}{24}
+      -
+      \tfrac{1}{6}
+    \Big)
+    \big(
+      \overline{\psi}
+      \,\Gamma^{b}\,
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma_{b a_1 \cdots d_4}\,
+      \psi
+    \big)
+    \;=\;
+    \pm
+    3
+    \Big(
+      \tfrac{6}{24}
+      -
+      \tfrac{1}{6}
+    \Big)
+    \big(
+      \overline{\psi}
+      \,\Gamma^{b}\,
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma_{b a_1 \cdots d_4}\,
+      \psi
+    \big)
+  \end{array}
+$$
+
+$$
   \begin{array}{l}
     \big(
       \overline{\psi}
