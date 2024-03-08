@@ -1,7 +1,11 @@
 
-* [InSpire page](https://inspirehep.net/authors/985668)
 
 * [Institute page](https://www.polito.it/personale?p=013490)
+
+* [Research group page](https://areeweb.polito.it/ricerca/sugragroup/members.html)
+
+* [InSpire page](https://inspirehep.net/authors/985668)
+
 
 ## Selected writings
 
