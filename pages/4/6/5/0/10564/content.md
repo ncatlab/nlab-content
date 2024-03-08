@@ -224,19 +224,28 @@ takes a space with $G$-[[action]] to its $G$-equivariant elliptic cohomology spe
 
 > under construction, tentative
 
-In ([Lurie, section 5.1](#Lurie)) is a vague mentioning of a more general perspective, where one evaluates elliptic cohomology not just on [[action groupoids]] of a [[group]], such as $B G$ but also on [[homotopy quotients]] of [[2-groups]], such as notably the [[string 2-group]], and how that gives a more conceptual picture. 
+[Lurie, section 5.1](#Lurie) makes a vague mentioning of a more general perspective, where one evaluates elliptic cohomology not just on [[action groupoids]] of a [[group]], such as $B G$ but also on [[homotopy quotients]] by [[infinity-actions|actions]] of [[2-groups]], such as notably the [[string 2-group]], and how that gives a more conceptual picture. 
 
-The following are some remarks on how to possibly realize this and at the same time refine it to geometric cohomology ([[differential cohomology]]). Tentative. Handle with care.
+The following are some remarks on how to possibly realize this and at the same time refine it to geometric cohomology ([[differential cohomology]]). Tentative -- handle with care.
 
 
 So let $G$ be a simple, simply connected [[compact Lie group]].
 
-Regard $\mathbf{B}G$ in [[Smooth∞Grpd]] = $Sh_\infty(SmthMfd)$. Then by the discussion at [[Lie group cohomology]] we have
+Regard $\mathbf{B}G$ in [[Smooth∞Grpd]] = $Sh_\infty(SmthMfd)$. Then by the discussion at *[[Lie group cohomology]]* we have:
 
 $$
-  \pi_0\mathbf{H}(\mathbf{B}G, \mathbf{B}\mathbb{C}^\times)
+  \pi_0
+  \mathbf{H}\big(
+    \mathbf{B}G
+    ,\, 
+    \mathbf{B}\mathbb{C}^\times
+  \big)
   \simeq
-  H(B G, K(\mathbb{Z},4))
+  H\big(
+    B G
+    ,\, 
+    K(\mathbb{Z},4)
+  \big)
   \simeq
   \mathbb{Z}
   \,.
@@ -260,12 +269,12 @@ $$
   k \mathbf{L} \;\colon\; \mathbf{B}G_{conn} \longrightarrow \mathbf{B}^3 \mathbb{C}^\times_{conn}
 $$
 
-Now given a [[torus]] $E = T^2$, regarded, for the moment, as a [[smooth manifold]], we have the [[transgression]] of the definition cocycle
+Now given a [[torus]] $E = T^2$, regarded, for the moment, as a [[smooth manifold]], we have the [[transgression]] of the defining cocycle
 
 $$
   \exp\left(
     \tfrac{i}{\hbar}
-    \int_{E} k \mathbf{L}
+    \textstyle{\int}_{E} k \mathbf{L}
   \right)
   \;\colon\;
   [E, \mathbf{B}G_{conn}]
@@ -287,7 +296,9 @@ $$
 Then the above yields
 
 $$
-  [(\Pi E) \times B, \mathbf{B}G]
+  \big[
+    (\Pi E) \times B, \mathbf{B}G
+  \big]
    \stackrel{}{\longrightarrow}
   \mathbf{B}[B,\mathbb{C}^\times]
 $$
@@ -333,17 +344,22 @@ are equivalently elements in the [[∞-group of units]] of $A$. So we should get
 
 $$
   \chi
-   \colon
-  [ \mathbf{B}[E,\mathbb{G}_m], \mathbf{B}G ]
+  \,\colon\,
+  \big[ 
+    \mathbf{B}[E,\mathbb{G}_m], \mathbf{B}G 
+  \big]
   \longrightarrow
   \mathbf{B}GL_1(A)
   \,.
 $$
 
-Forming its space of co-sections yields, by the discussion at [[Thom spectrum]], the $\chi$-[[twisted cohomology|twisted]] A-[[cohomology]] [[spectrum]]
+Forming its space of co-sections yields, by the discussion at *[[Thom spectrum]]*, the $\chi$-[[twisted cohomology|twisted]] A-[[cohomology]] [[spectrum]]
 
 $$
-  A^\chi([ \mathbf{B}[E,\mathbb{G}_m], \mathbf{B}G ])
+  A^\chi
+  \big(
+    [ \mathbf{B}[E,\mathbb{G}_m], \mathbf{B}G ]
+  \big)
   \,.
 $$
 
@@ -546,7 +562,7 @@ $$
   \,.
 $$
 
-This is ([Lurie, theorem 5.2](#Lurie)).
+This is [Lurie, theorem 5.2](#Lurie).
 
 
 $$
