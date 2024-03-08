@@ -78,12 +78,16 @@ $x:?\mathsf{int}.!\mathsf{int}.\mathsf{end}$.
 [Caires and Pfenning 2010](#Caires2010) established a correspondence between [[dual intuitionistic linear logic]] (DILL) and session typed $\pi$-calculus.
 Later on, [Wadler 2012](#Walder2012) established a correspondence between [[classical linear logic]] (CLL) and the same calculus.
 
+## Other process calculi
+
+The Calculus of Communicating Systems (CCS) is an important predecessor of the π-calculus. It can be seen as a restriction of π in which only a dummy name $w$ is exchanged in communications, and $w$ cannot be used in subject position ([Hirschkoff 2003](#Hirschkoff03)).
+
 ## References
 
 * [[Robin Milner]], Joachim Parrow and David Walker, _A Calculus of Mobile Processes_, Information and Computation, **100** (1992) 1-40.
 * Peter Sewell, _Applied $\pi$ – A Brief Tutorial_, (2000) ([pdf](https://www.cl.cam.ac.uk/~pes20/apppi.pdf)).
 * Jeannette M. Wing, _FAQ on $\pi$-Calculus_, (2002) ([pdf](https://www.cs.cmu.edu/~wing/publications/Wing02a.pdf)).
-* Daniel Hirschkoff, _A brief survey of the theory of the $\pi$-calculus_, (2003) ([pdf](https://hal-lara.archives-ouvertes.fr/hal-02101985/file/RR2003-13.pdf)).
+* {#Hirschkoff03} Daniel Hirschkoff, _A brief survey of the theory of the $\pi$-calculus_, (2003) ([pdf](https://hal-lara.archives-ouvertes.fr/hal-02101985/file/RR2003-13.pdf)).
 * [[Pierre-Louis Curien]], *Introduction to CCS and $pi$-calculus*, (2003) ([ps](https://www.irif.fr/~curien/CCS-DEA.ps.gz)).
 
 On types:
