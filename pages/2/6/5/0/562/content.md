@@ -259,7 +259,7 @@ Let $C$ be any category with [[pullbacks]] and $\mathbf{2}$ the [[free-living]] 
 
 \begin{example}
 \label{SimpleFibration}
-Let $C$ be a category with binary [[cartesian products]]. Then for each object $\Gamma$, we can construct an indexed comonad $C \to Comonad$, the [[coreader comonad|environment comonad]] $\Gamma \times -$ on $C$, and taking [[Kleisli categories]] we get a functor $C^{op} \to Cat$. The corresponding fibration is called the [[simple fibration]] over $C$ and can be seen as a full subfibration of the [[codomain fibration]], with objects being the [[projections]] $\Gamma \times A \to \Gamma$.
+Let $C$ be a category with binary [[cartesian products]]. Then for each object $\Gamma$, we can construct an indexed comonad $C \to Comonad$, the [[coreader comonad|environment comonad]] $\Gamma \times -$ on $C$, and taking [[Kleisli categories]] we get a functor $C^{op} \to Cat$. The corresponding fibration is called the [[simple fibration]] (e.g., in [Jacobs 1998](#Jacobs98)) over $C$ because it can be used to give semantics to simply-typed [[lambda calculus]]. The simple fibration can be seen as a full subfibration of the [[codomain fibration]], with objects being the [[projections]] $\Gamma \times A \to \Gamma$.
 \end{example}
 
 \begin{example}\label{FreeCoproductCompletion}
@@ -484,7 +484,7 @@ Textbook accounts:
 
 * [[Francis Borceux]], Chapter 8 of: *[[Handbook of Categorical Algebra]] vol. 2*, Cambridge UP 1994.
 
-* [[Bart Jacobs]], Chapters 1 and 9 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+* {#Jacobs98} [[Bart Jacobs]], Chapters 1 and 9 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
   > (in the context of [[categorical semantics of dependent types]])
 
