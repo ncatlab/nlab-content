@@ -1,9 +1,11 @@
 
-* [website]()
+* [institute page](https://fisica-sc.campusnet.unito.it/do/docenti.pl/Alias?leonardo.castellani#tab-profilo)
+
+* [research group page](https://www.strings.to.infn.it/personal/castellani/)
 
 ## Selected writings
 
-On the [[D'Auria-Fré formulation of supergravity]]:
+On the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
