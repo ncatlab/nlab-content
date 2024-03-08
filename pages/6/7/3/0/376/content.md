@@ -418,6 +418,9 @@ More generally, every [[quasitopos]] is locally cartesian closed.
 
 * [[cartesian closed (∞,1)-category]], [[locally cartesian closed (∞,1)-category]]
 
+* [[locally cartesian category]]
+
+* [[locally regular category]]
 
 ## References
 
