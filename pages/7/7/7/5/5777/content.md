@@ -17,7 +17,7 @@
 
 The _tangent complex_ of an algebro-geometric object is meant to behave as the (sheaf of) sections of the [[tangent bundle]]. 
 
-{#TangentComplexAsInfinitesimalDiskBundleInIntroduction} At least in the generality of  [[derived stack|derived]] [[algebraic stacks]] $X$, the tangent complex is equivalently (up to a shift in degree) the module of sections of the [[infinitesimal disk bundle]] of $X$ (the [[formal completion]] of the [[diagonal]] $\Delta_X \colon X \to X \times X$) ([Hennion 13, theorem 1](#Hennion13)).
+{#TangentComplexAsInfinitesimalDiskBundleInIntroduction} At least in the generality of  [[derived stack|derived]] [[algebraic stacks]] $X$, the tangent complex is equivalently (up to a shift in degree) to the module of sections of the [[infinitesimal disk bundle]] of $X$ (the [[formal completion]] of the [[diagonal]] $\Delta_X \colon X \to X \times X$) ([Hennion 13, theorem 1](#Hennion13)).
 
 For $A$ an ordinary [[associative algebra]], its _tangent complex_ is its [[module]] of [[derivations]].
 
