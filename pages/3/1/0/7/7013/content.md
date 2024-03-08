@@ -131,6 +131,8 @@ However, this "syntactic $(\infty,1)$-category" will not in general be locally p
 
 * [[cartesian closed (∞,1)-category]], **locally cartesian closed (∞,1)-category**
 
+* [[locally cartesian (∞,1)-category]]
+
 ## References
 
 Characterizations of locally presentable locally cartesian closed $(\infty,1)$-categories (as [[locally presentable (∞,1)-categories]] with [[universal colimits]]) are discussed in section 6.1 of
