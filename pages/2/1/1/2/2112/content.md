@@ -46,10 +46,9 @@ There is an extension to higher cohomologies instead of spaces of sections, call
 
 * [[Jean-Pierre Serre]], _Repr&#233;sentations lin&#233;aires et espaces homog&#232;nes k&#228;hl&#233;riens des groupes de Lie compacts (d'apr&#232;s Armand Borel et Andr&#233; Weil)", S&#233;minaire Bourbaki 100: 447&#8211;454, Paris: Soc. Math. France, 1953/54,  [numdam](http://www.numdam.org/item?id=SB_1951-1954__2__447_0)
 
-* [[Bertram Kostant]], _Lie algebra cohomology and the generalized 
-Borel-Weil theorem_, 
+* [[Bertram Kostant]], _Lie algebra cohomology and the generalized Borel-Weil theorem_, Ann. of Math. _74_, 2,  1961, pp. 329-387 [pdf](https://people.tamu.edu/~jml/kostant61.pdf)
 
-* [[Pierre Cartier]], _Remarks on "Lie algebra cohomology and the generalized Borel-Weil theorem" by B. Kostant_, Ann. of Math. _74_, 2,  1961 [pdf](http://www.math.tamu.edu/~jml/cartier61.pdf)
+* [[Pierre Cartier]], _Remarks on "Lie algebra cohomology and the generalized Borel-Weil theorem" by B. Kostant_, Ann. of Math. _74_, 2,  1961, pp. 388-390 [pdf](http://www.math.tamu.edu/~jml/cartier61.pdf)
 
 * [[Jacob Lurie]], _A proof of the Borel-Weil-Bott theorem_ ([pdf](http://www.math.harvard.edu/~lurie/papers/bwb.pdf))
 
