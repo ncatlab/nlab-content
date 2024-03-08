@@ -164,4 +164,33 @@ $$
   \end{array}
 $$
 
+$$
+  \begin{array}{l}
+    \big(
+      \overline{\psi}
+      \,\Gamma^{b_1 b_2}\,
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma_{b_1 b_2 a_1 \cdots a_4}\,
+      \psi
+    \big)
+    \\
+    \;=\;
+    \pm
+    \tfrac{1}{5!}
+    \big(
+      \overline{\psi}
+      \,\Gamma^{b_1 b_2}\,
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma^{c_1 \cdots c_5}\,
+      \psi
+    \big)
+    \epsilon_{b_1 b_2 a_1 \cdots a_4 c_1 \cdots c_5}
+  \end{array}
+$$
 
