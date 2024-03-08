@@ -37,15 +37,21 @@ on ([[supersymmetry|supersymmetric]]) [[quantum field theory]] and ([[superstrin
 
 Parts of this appear separately elsewhere:
 
-* [[Pierre Deligne]], [[John Morgan]], _Notes on supermathematics_ &lbrack;[[NotesOnNotesOnSupersymmetry.pdf:file]]&rbrack; (following the chapter *Notes on supersymmetry* [[DeligneMorgan-NotesOnSusy.pdf:file]])
-
 * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
 
   (see also at _[[signs in supergeometry]]_)
 
 on fundamental [[supergeometry]] needed for describing [[fermion]] [[particles]] (and [[superstrings]]). See also
 
-* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS 1999
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS (1999)
+
+See also the [seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html) notes:
+
+* Ivan Mircović, _Notes on supermathematics_ &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html), [[NotesOnNotesOnSupersymmetry.pdf:file]]&rbrack;
+
+following the chapter
+
+* [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry* &lbrack;[[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
 While advertized as "A course for mathematicians", experience shows that it is not really suited for pure mathematicians without previous exposition to and tolerance for physics, particularly beyond the first chapters (which show strong ambition to be mathematically precise) towards the following lectures (which are mainly standard lectures of theoretical physicists). But it is much better than the average physics text.
 
