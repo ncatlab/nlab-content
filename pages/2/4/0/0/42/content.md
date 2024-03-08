@@ -78,11 +78,16 @@ The definition of integration of integrable forms in supergeometry in terms of m
 
 ## References
 
-An exposition of the standard lore is in
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], Ch 3 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
-* [[Urs Schreiber]], [_Integration over supermanifolds_](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
+* {#Mircović04} [[Ivan Mircović]], Sec 4-6 in: *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
 
-A general abstract discussion in terms of [[D-module]] theory is in 
+
+Exposition:
+
+* [[Urs Schreiber]], *[Integration over supermanifolds](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)&
+
+A general abstract discussion in terms of [[D-module]] theory:
 
 * [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
 
