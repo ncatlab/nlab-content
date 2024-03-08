@@ -36,6 +36,12 @@ A [[category]] $C$ is **locally regular** if
 
 * Conversely, every tabular allegory has a locally regular category of maps (left adjoints).  So locally regular categories are essentially the same as tabular allegories.
 
+## Related concepts
+
+* [[locally cartesian category]]
+
+* [[locally cartesian closed category]]
+
 ## References
 
 * [[Peter Johnstone]], [[Sketches of an Elephant]], A3.2.7
