@@ -1,4 +1,12 @@
 
+* [personal page](https://www0.mi.infn.it/~strings/homepages/homeravera.php)
+
+* [institute page](https://www.polito.it/personale?p=lucrezia.ravera)
+
+* [research group page](https://areeweb.polito.it/ricerca/sugragroup/members.html)
+
+* [inspire page](https://inspirehep.net/authors/1626890)
+
 ## Selected writings
 
 
@@ -18,7 +26,7 @@ On the [[self-dual higher gauge field]] on the [[M5-brane]] lifted to [[superspa
 
 * [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
 
-On the [[D'Auria-Fré formulation of supergravity]]:
+On the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * [[Lucrezia Ravera]], *Geometric approach to supergravity in superspace and some applications*, lecture at *Training school on Cartan Geometry*, Masaryk University (Nov 2023) &lbrack;video: [YT](https://youtu.be/tuSXuAtvdRk)&rbrack;
 
