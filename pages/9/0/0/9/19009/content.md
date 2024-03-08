@@ -1,6 +1,10 @@
 
 
-* [webpage](https://didattica.polito.it/portal/pls/portal/sviluppo.scheda_pers_swas.show?m=003711)
+* [institute page](https://didattica.polito.it/portal/pls/portal/sviluppo.scheda_pers_swas.show?m=003711)
+
+* [research group page](https://areeweb.polito.it/ricerca/sugragroup/members.html)
+
+* [inspire page](https://inspirehep.net/authors/1018369)
 
 ## Selected writings
 
