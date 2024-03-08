@@ -660,17 +660,22 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 ## References
 
-### Definition
+### General
 
-The concept of [[Grassmann algebra]] and the super-sign rule is due to
+The concept of [[Grassmann algebra]] and the [[signs in supergeometry|super-sign rule]] is due to
 
-* {#Grassmann1844} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+* {#Grassmann1844} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_ (1844):
 
-Review of basic superalgebra includes
+Review of basic superalgebra:
 
 * [[Yuri Manin]], chapter 3 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
 * [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
+
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], Ch 1 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+
+* {#Mircović04} [[Ivan Mircović]], Sec 1 in: *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
+
 
 Discussion of superalgebra as algebra in certain [[symmetric monoidal category|symmetric monoidal]] [[tensor categories]] is in 
 
