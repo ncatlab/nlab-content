@@ -6,7 +6,7 @@
 
 In [[computer science]], **applicative functors** (also known as **idioms**) are the programming equivalent of [[lax monoidal functors]] with a [[tensorial strength]] in category theory.
 
-A [[monad (in computer science)|monad]] gives rise to an applicative functor, but not all applicative functors result from monads. Unlike monads, applicative functors are closed under composition.
+A [[strong monad]] gives rise to an applicative functor, but not all applicative functors result from monads. Unlike monads, applicative functors are closed under composition.
 
 ##Related concepts
 
