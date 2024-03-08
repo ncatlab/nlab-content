@@ -289,10 +289,14 @@ Discussion from the point of view of [[functorial geometry]]:
 
 * {#BerezinLeites} [[Felix Berezin]], D. A. Le&#301;tes, _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976).
  
-
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
-A more general variant of this in the spirit of [[locally algebra-ed topos|locally algebra-ed toposes]] is in
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], Ch 2 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+
+* {#Mircović04} [[Ivan Mircović]], Sec 2 in: *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
+
+
+A more general variant of this in the spirit of [[locally algebra-ed topos|locally algebra-ed toposes]]:
 
 * Alexander Alldridge, _A convenient category of supermanifolds_ ([arXiv:1109.3161](http://arxiv.org/abs/1109.3161))
 
