@@ -45,13 +45,14 @@ on fundamental [[supergeometry]] needed for describing [[fermion]] [[particles]]
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS (1999)
 
-See also the [seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html) notes:
 
-* Ivan Mircović, _Notes on supermathematics_ &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html), [[NotesOnNotesOnSupersymmetry.pdf:file]]&rbrack;
+See also:
+
+* [[Ivan Mircović]], *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
 
 following the chapter
 
-* [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry* &lbrack;[[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+* {#DeligneMorgan} [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry (following [[Joseph Bernstein]])* &lbrack;[[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
 While advertized as "A course for mathematicians", experience shows that it is not really suited for pure mathematicians without previous exposition to and tolerance for physics, particularly beyond the first chapters (which show strong ambition to be mathematically precise) towards the following lectures (which are mainly standard lectures of theoretical physicists). But it is much better than the average physics text.
 
