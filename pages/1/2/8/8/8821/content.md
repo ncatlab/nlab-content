@@ -84,7 +84,24 @@ An [[initial object]] $\varnothing$ is called a **strict initial object** if eve
 
   * in [[extensive categories]],
 
-  * in [[distributive categories]].
+  * in [[distributive categories]],
+
+  * in [[cartesian closed categories]],
+
+  * more generally, in any category where the [[products]] $\varnothing \times X$ exist and are initial (that is, where the product functor $- \times X$ [[preserved colimit|preserves initial objects]]). In that case any map $f : X \to \varnothing$ is a [[section]], hence an [[inverse]], of the unique map $! : \varnothing \to X$, as shown by this diagram:
+
+\begin{tikzcd}
+	&& \varnothing \\
+	\\
+	&& {\varnothing \times X} \\
+	X &&&& X
+	\arrow["f", from=4-1, to=1-3]
+	\arrow["{!}", from=1-3, to=4-5]
+	\arrow["{\langle f, \mathrm{id} \rangle}"{description}, from=4-1, to=3-3]
+	\arrow["{\pi_1}", from=3-3, to=1-3]
+	\arrow["{\pi_2}"', from=3-3, to=4-5]
+	\arrow["{\mathrm{id}}"', from=4-1, to=4-5]
+\end{tikzcd}
 
 * Specifically the initial objects of [[Set]], [[Cat]], [[Top]] are all strict.
 
