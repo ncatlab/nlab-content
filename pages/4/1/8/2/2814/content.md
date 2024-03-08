@@ -251,6 +251,8 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * [[symmetric monoidal functor]]
 
+* [[idempotent monoidal functor]]
+
 * [[monoidal (∞,1)-functor]]
 
 * [[monoidal (∞,n)-functor]]
