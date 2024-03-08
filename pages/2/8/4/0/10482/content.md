@@ -889,15 +889,16 @@ The corresponding internal sign rule appears for instance in
 
 And with explicit acknowledgement that there is also the alternative super odd sign rule in:
 
-* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_ ([[DeligneMorgan-NotesOnSusy.pdf:file]])
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry (following [[Joseph Bernstein]])_  &lbrack;[[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
   pp. 62 ([[DeligneMorgan-SignRule.pdf:file]])
 
-  in: [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[web version](http://www.math.ias.edu/qft)&rbrack;
+  in: [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s)
+[web version](http://www.math.ias.edu/qft)&rbrack;
 
-Reviewed in
 
-* Ivan Mircović, remark 1.2.8 in: _Notes on supermathematics_ &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html), [[NotesOnNotesOnSupersymmetry.pdf:file]]&rbrack;
+* [[Ivan Mircović]], remark 1.2.8 in: *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
+
 
 
 See also:
