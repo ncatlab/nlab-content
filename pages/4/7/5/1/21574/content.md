@@ -14,7 +14,13 @@ However, it is possible to put a different canonical model structure on [[2Cat]]
 
 The following is Theorem 4 in [Lack2004](#Lack2004).
 
-\begin{thm} There is a model structure on [[2Cat]] in which the equivalences are [[equivalence of 2-categories|equivalences of 2-categories]], and the fibrations are [[Lack fibration|Lack fibrations]]. \end{thm}
+\begin{thm} There is a model structure on [[2Cat]] in which the equivalences are [[equivalence of 2-categories|equivalences of 2-categories]], and the fibrations are [[equiv-fibrations]]. \end{thm}
+
+Note that by "equivalence of 2-categories" we mean the fully non-strict notion.  In particular, although the morphisms in $2Cat$ are [[strict 2-functors]], those that are equivalences may have inverses that are only [[pseudofunctors]] and hence not morphisms in $2Cat$.
+
+Every object in this model category is fibrant, but not every object is cofibrant.  The cofibrant 2-categories are those whose underlying 1-category is the [[free category]] on a [[quiver]].  This property ensures that any [[pseudofunctor]] with cofibrant domain is equivalent to a strict 2-functor, so that the "homotopy theory" of the model category is bicategorically correct.
+
+This is also a [[monoidal model category]] with respect to the [[Gray tensor product]].
 
 \section{Canonical model structure in which every object is both fibrant and cofibrant}
 
@@ -53,7 +59,7 @@ in [[2Cat]], there is a functor $k: \mathcal{B} \times \mathcal{E}_{semi} \right
 
 \end{defn}
 
-\begin{defn} A [[2-functor]] $f: \mathcal{A} \rightarrow \mathcal{B}$ is a _semi-strict equivalence of 2-categories_ if there is a 2-functor $h: \mathcal{A} \times \mathcal{E}_{semi} \rightarrow \mathcal{B}$ such that the 2-functor $h \circ \left( id \times 0 \right): \mathcal{A} \rightarrow \mathcal{B}$ is equal to $f$. \end{defn}
+\begin{defn} A [[2-functor]] $f: \mathcal{A} \rightarrow \mathcal{B}$ is a _semi-strict equivalence of 2-categories_ if there is a 2-functor $g : \mathcal{B} \to \mathcal{A}$ and 2-functors $h: \mathcal{A} \times \mathcal{E}_{semi} \rightarrow \mathcal{A}$ and $k : \mathcal{B}\times \mathcal{E}_{semi} \to \mathcal{B}$ exhibiting "homotopies" from $f\circ g$ and $g\circ f$ to identities. \end{defn}
 
 \begin{thm} The category [[2Cat]] can be equipped with a model structure in which the weak equivalences are semi-strict equivalences of 2-categories, the fibrations are semi-strict equiv-fibrations, and the cofibrations are semi-strict equiv-cofibrations. \end{thm} 
 
