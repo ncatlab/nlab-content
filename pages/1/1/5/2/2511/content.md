@@ -1,9 +1,18 @@
 
-* [website](http://personalpages.to.infn.it/~fre/)
+Pietro Guiseppe Fré 
+
+* [personal page](http://personalpages.to.infn.it/~fre/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Pietro_G._Fr%C3%A8)
+
+* [InSpire page](https://inspirehep.net/authors/1009512)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=8gjPrNgAAAAJ&hl=it)
+
 
 ## Selected writings
 
-The original articles on the [[D'Auria-Fre formulation of supergravity]]:
+The original articles on the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Geometrical formulation of supergravity as a theory on a supergroup manifold*, contribution to *[Supergravity Workshop](https://inspirehep.net/conferences/964530)*, Stony Brook (1979) 85-92 &lbrack;[inspire:148583](https://inspirehep.net/literature/148583)&rbrack;
 
@@ -46,7 +55,7 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
 
-On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fre formulation of supergravity]], ...):
+On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fré-Regge formulation of supergravity]], ...):
 
 * [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643))
 
