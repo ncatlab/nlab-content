@@ -35,7 +35,7 @@ The flavor of (classical) _[[modal logic]]_ called $S4$ is (classical) [[proposi
 1. (in addition in [[S5 modal logic]] one adds: $\lozenge p \to \Box \lozenge p$).
 
 
-Traditionally the canonical interpretation of the Box operator is that $\Box p$ is the statement that "$p$ is _[[necessity|necessarily]]_ true." (The [[de Morgan duality|de Morgan dual]] to the necessity modality is the "[[possibility]]" modality.) Then the interpretation of $\Box $ is that "If $p$ is necessarily true then it is necessarily necessarily true."
+Traditionally the canonical interpretation of the Box operator is that $\Box p$ is the statement that "$p$ is _[[necessity|necessarily]]_ true." (The [[de Morgan duality|de Morgan dual]] to the necessity modality is the "[[possibility]]" modality.) Then the interpretation of $\Box 4$ is that "If $p$ is necessarily true then it is necessarily necessarily true."
 S4 modal logic appears in many [[temporal logics]].
 
 
