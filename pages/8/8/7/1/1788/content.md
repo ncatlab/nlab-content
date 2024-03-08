@@ -161,6 +161,20 @@ $$
       \,\Gamma_{a_3 a_4]}\,
       \psi
     \big)
+    \\
+    \;=\;
+    18
+    \,
+    \big(
+      \overline{\psi}
+      \,\Gamma_{[a_1 a_2}\,
+      \psi
+    \big)
+    \big(
+      \overline{\psi}
+      \,\Gamma_{a_3 a_4]}\,
+      \psi
+    \big)
   \end{array}
 $$
 
@@ -191,6 +205,31 @@ $$
       \psi
     \big)
     \epsilon_{b_1 b_2 a_1 \cdots a_4 c_1 \cdots c_5}
+    \Xi^{a_1 \cdots a_4}
+    \\
+    \;=\;
+    \pm
+    \tfrac{1}{56 \cdot 5!}
+    \epsilon^{b_1 b_2 c_1 \cdots c_5 d_1 \cdots d_4}
+    \epsilon_{b_1 b_2 a_1 \cdots a_4 c_1 \cdots c_5}
+    \Xi^{a_1 \cdots a_4}
+    \\
+    \;=\;
+    \tfrac{4! \cdot 7!}{56 \cdot 5!}
+    \delta^{d_1 \cdots d_4}_{c_1 \cdots c_5}
+    \epsilon^{d_1 \cdots d_4}
+    \epsilon_{a_1 \cdots a_4}
+    \Xi^{a_1 \cdots a_4}
+    \\
+    \;=\;
+    \tfrac{4! \cdot 7!}{56 \cdot 5!}
+    \Xi^{d_1 \cdots d_4}
+    \\
+    \;=\;
+    \pm
+    18 
+    \, 
+    \Xi^{d_1 \cdots d_4}
   \end{array}
 $$
 
