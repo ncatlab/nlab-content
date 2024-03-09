@@ -46,6 +46,8 @@ TT(X\otimes Y) \ar{dr}[swap]{\mu} && TT(X\otimes Y) \ar{dl}{\mu} \\
 & T(X\otimes Y)
 \end{tikzcd}
 
+Note that this definition makes sense more generally in a [[monoidal category]], for a [[monad]] equipped with a (non-necessarily symmetric) [[strong monad|strength]].
+
 ## Properties
 
 ### Relation with monoidal monads 
