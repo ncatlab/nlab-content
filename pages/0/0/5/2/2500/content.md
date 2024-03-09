@@ -403,14 +403,14 @@ Survey:
 * Florian Domingo, [[Michel Rausch de Traubenberg]],
 *Supergravity: Application in Particle Physics*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.12541](https://arxiv.org/abs/2209.12541), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
-* [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754)&rbrack;
+* [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
 Lecture notes:
 
 * P. Binetruy, G. Girardi, R. Grimm, _Supergravity couplings: a geometric formulation_, Phys.Rept.343:255-462,2001 ([arXiv:hep-th/0005225](http://arxiv.org/abs/hep-th/0005225))
 
-* [[Friedemann Brandt]], _Lectures on supergravity_ ([arXiv:hep-th/0204035](http://arxiv.org/abs/hep-th/0204035))
+* [[Friedemann Brandt]], *Lectures on supergravity*, Fortsch. Phys. **50** (2002) 1126-1172 &lbrack;[arXiv:hep-th/0204035](http://arxiv.org/abs/hep-th/0204035), <A href="https://doi.org/10.1002/1521-3978(200210)50:10/11%3C1126::AID-PROP1126%3E3.0.CO;2-B">doi:10.1002/1521-3978(200210)50:10/11%3C1126::AID-PROP1126%3E3.0.CO;2-B</a> &rbrack;
 
 * [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
 
