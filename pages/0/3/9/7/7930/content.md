@@ -1823,6 +1823,11 @@ $$
 
 ## References
 
+Accounts in the physics literature include:
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], Ch II.7 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.7: [[CastellaniDAuriaFre-ChII7.pdf:file]]&rbrack;
+
+
 Accounts in the mathematical literature include
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Chapter I.5 of _[[Spin geometry]]_, Princeton University Press (1989)
