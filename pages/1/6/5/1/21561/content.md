@@ -1,8 +1,20 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 \section{Idea} 
 
-A _equifibration_ or _equiv-fibration_ is a [[categorification]] of the notion of an [[isofibration]] to the setting of [[2-category|2-categories]]. Roughly speaking, a [[2-functor|functor]] $p:E \rightarrow B$ between 2-categories is an equifibration if equivalences in $B$ can be 'lifted' to equivalences in $E$. However, there are some subtleties to the precise definition, as will be discussed below. 
+The notion of _equifibrations_ or _equiv-fibrations_ (meant to be short fort *equivalence-fibrations*) is a [[categorification]] of that of [[isofibrations]], from [[category theory]] to [[2-category theory]]. Roughly speaking, a [[2-functor]] $p \colon E \rightarrow B$ between [[2-categories]] is an equifibration if [[equivalence in a 2-category|equivalences]] in $B$ can be 'lifted' to equivalences in $E$. However, there are some subtleties to the precise definition, discussed below. 
 
 \section{Explicit definition}
 
