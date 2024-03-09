@@ -1,3 +1,4 @@
+[[!redirects Ivan Mircović]]
 
 * [personal page](https://people.math.umass.edu/~mirkovic/)
 
@@ -10,7 +11,7 @@
 
 On [[superalgebra]] and [[supergeometry]] ([[supermanifolds]], [[integration over supermanifolds]], [[supersymmetry]], with attention [[signs in supergeometry]], following [Deligne & Morgan 1999](Quantum+Fields+and+Strings#DeligneMorgan)):
 
-* [[Ivan Mircović]], *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
+* [[Ivan Mirković]], *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
 
 
 **Ivan Mirkovi&#263;** is a professor of mathematics at the University of Massachusets at Amherst (diploma from Zagreb and Ph. D. under D. Mili&#269;i&#263; in Utah) with interests in [[geometric representation theory]].
