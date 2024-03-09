@@ -209,7 +209,9 @@ A **[[generalized multicategory]]** is a normalized $T$-monoid for some monad $T
 
 This is ([CruttwellShulman, page 7](#CruttwellShulman)).
 
+## Properties
 
+* The 2-category of virtual double categories is the 2-category of algebras for a [[lax-idempotent 2-comonad]] on the 2-category of (strict) [[double categories]] and strict double functors, specifically that induced by the inclusion of the 2-category of double categories and strict double functors into the 2-category of double categories and lax double functors: see §2 of [DPP06](#DPP06). (This is analogous to the relationship between [[multicategories]] and [[monoidal categories]].) The same is true of **normal** virtual double categories, i.e. those with identity [[loose morphisms]].
 
 
 ## Enriching categories
@@ -234,9 +236,13 @@ Later, they were considered in:
 
 * [[Tom Leinster]], **fc**-multicategories, [arxiv](https://arxiv.org/abs/math/9903004) (1999)
 
+They are called **lax double categories** in:
+
+* {#DPP06} [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Paths in double categories_, Theory and Applications of Categories, Vol. 16, No. 18, 2006, pp. 460-521. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/16/18/16-18abs.html)&rbrack;
+
+The name **virtual double category** is introduced in:
+
 * {#CruttwellShulman} [[Geoff Cruttwell]], [[Mike Shulman]], _A unified framework for generalized multicategories_ &lbrack;[arXiv:0907.2460](http://arxiv.org/abs/0907.2460)&rbrack;
-
-
 
 On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[double categories]] with ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
 
