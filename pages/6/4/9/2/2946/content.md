@@ -213,6 +213,8 @@ Filtered colimits are also important in the theory of [[locally presentable cate
 
 * {#Borceux} [[Francis Borceux]], Section 2.13 in: _[[Handbook of Categorical Algebra]] vol 1_
 
+* Hajnal Andréka and István Németi, _Direct limits and filtered colimits are strongly equivalent in all categories_, Banach Center Publications 9 (1982): 75-88.
+
 
 Also
 
