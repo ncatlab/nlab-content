@@ -1,2 +1,2 @@
 
-see at *[[Ivan Mircović]]*
+see at *[[Ivan Mirković]]*
