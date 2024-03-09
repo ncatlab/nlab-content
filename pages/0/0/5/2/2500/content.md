@@ -401,7 +401,7 @@ Collection of original articles:
 Survey:
 
 * Florian Domingo, [[Michel Rausch de Traubenberg]],
-*Supergravity: Application in Particle Physics*, in *[[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2209.12541](https://arxiv.org/abs/2209.12541), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+*Supergravity: Application in Particle Physics*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.12541](https://arxiv.org/abs/2209.12541), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 * [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754)&rbrack;
 
