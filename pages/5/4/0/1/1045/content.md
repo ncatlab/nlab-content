@@ -62,7 +62,7 @@ This is in fact a [[left adjoint]] to the restriction functor $F^\ast \;\colon \
 Recalling the general formula for the left [[Kan extension]] of a functor $F \;\colon\; C \to D$ through a functor $p : C  \to C'$ 
 
 $$
-  (Lan F)(c') \simeq \colim_{(p(c) \to c') \in (p,c')} F(c)
+  (Lan_p F)(c') \simeq \colim_{(p(c) \to c') \in (p,c')} F(c)
 $$
 
 one finds for the Yoneda extension the formula
@@ -70,7 +70,7 @@ one finds for the Yoneda extension the formula
 $$
   \begin{aligned}
     \tilde F (A) 
-    & \;\coloneqq\; (Lan F)(A) 
+    & \;\coloneqq\; (Lan_Y F)(A) 
     \\
     & \simeq
     \colim_{(Y(U) \to A) \in (Y,A) } F(U)
