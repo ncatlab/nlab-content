@@ -496,7 +496,7 @@ and furthermore, in a [[symmetric monoidal category]], under this equivalence, t
 
 This is due to [Kock (1972)](#Kock72), Thm. 2.3), a detailed review is in [GLLN08, §7.3, §A.4](#GLLN08) and an [[Agda]] formalisation is in [1Lab](#1Lab).
 
-
+Note that being a symmetric monoidal monad is a non-trivial property: see ([McDermott & Uustalu 2022, appendix A.2](#McDermottUustalu22)) or [math.SE.a/4877915](https://math.stackexchange.com/a/4877915/501886) for an explicit example of a non-symmetric monoidal monad.
 
 ### Tensor product of algebras and multimorphisms
 
@@ -559,6 +559,8 @@ Further discussion:
   > (on the [[Eilenberg-Moore categories]] of monoidal monads)
 
 * {#Brandenburg2014} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](https://arxiv.org/abs/1410.1716))
+
+* {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
 
 Formalisation in [[cubical Agda]]:
 
