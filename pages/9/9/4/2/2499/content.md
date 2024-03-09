@@ -1125,9 +1125,10 @@ The original articles that introduced specifically the D'Auria-Fré-formalism fo
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
 
+
 Monographs:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.8: [[CastellaniDAuriaFre-ChII8.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], chII.7: [[CastellaniDAuriaFre-ChII7.pdf:file]], ch II.8: [[CastellaniDAuriaFre-ChII8.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
 
 * [[Pietro Fré]], §6 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
