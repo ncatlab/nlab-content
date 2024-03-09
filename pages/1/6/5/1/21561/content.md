@@ -14,7 +14,7 @@
 
 \section{Idea} 
 
-The notion of _equifibrations_ or _equiv-fibrations_ (meant to be short fort *equivalence-fibrations*) is a [[categorification]] of that of [[isofibrations]], from [[category theory]] to [[2-category theory]]. Roughly speaking, a [[2-functor]] $p \colon E \rightarrow B$ between [[2-categories]] is an equifibration if [[equivalence in a 2-category|equivalences]] in $B$ can be 'lifted' to equivalences in $E$. However, there are some subtleties to the precise definition, discussed below. 
+The notion of _equiv-fibrations_ &lbrack;[Lack 2002](#Lack02)&rbrack; or *equifibrations* &lbrack;[Campbell 2020, Def. 4.1](#Campbell20)&rbrack; (both meant to be short fort *equivalence-fibrations*) is a [[categorification]] of that of [[isofibrations]], from [[category theory]] to [[2-category theory]]. Roughly speaking, a [[2-functor]] $p \colon E \rightarrow B$ between [[2-categories]] is an equifibration if [[equivalence in a 2-category|equivalences]] in $B$ can be 'lifted' to equivalences in $E$. However, there are some subtleties to the precise definition, discussed below. 
 
 \section{Explicit definition}
 
@@ -53,13 +53,14 @@ Putting everything together, condition 2. is equivalent to: any 1-arrow of $E$ w
 
 \end{rmk}
 
+
 \section{References}
 
 The following was where efibrations were introduced.
 
 Equifibrations (there called equiv-fibrations) were introduced in:
 
-* [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory 26, No. 2, 171-205 (2002). [Zentralblatt review](https://zbmath.org/?q=an%3A1017.18005) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html) 
+* {#Lack02} [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory **26** 2 (2002) 171-205 &lbrack; [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html), [zbmath:3A1017.18005](https://zbmath.org/?q=an%3A1017.18005)&rbrack;
 
 However, it contains an error, not pertaining directly to the definition of a equifibration itself, but to obtaining a model structure on the [[2Cat|category of strict 2-categories]] with this definition. The aforementioned error was fixed in the following paper by using the [[free-standing adjoint equivalence]] rather than the free-standing equivalence in the generating acyclic cofibrations.
 
@@ -67,7 +68,7 @@ However, it contains an error, not pertaining directly to the definition of a eq
 
 In the paper above, equifibrations were unnamed (and simply referred to as *fibrations*). The term "equifibration" was used in the following paper:
 
-* [[Alexander Campbell]]. _A homotopy coherent cellular nerve for bicategories_, Advances in Mathematics 368 (2020): 107138.
+* {#Campbell20} [[Alexander Campbell]]. _A homotopy coherent cellular nerve for bicategories_, Advances in Mathematics **368* (2020) 107138 &lbrack;[arXiv:1907.01999](https://arxiv.org/abs/1907.01999), [doi;10.1016/j.aim.2020.107138](https://doi.org/10.1016/j.aim.2020.107138)&rbrack;
 
 Equifibrations are called **Lack fibrations** in:
 
