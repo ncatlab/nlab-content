@@ -496,6 +496,8 @@ Further early discussion:
 
 Brief introductions:
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], Ch II.7 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.7: [[CastellaniDAuriaFre-ChII7.pdf:file]]&rbrack;
+
 * [[Jean Gallier]], _Clifford Algebras, Clifford Groups, and a Generalization of the Quaternions_ ([arXiv:0805.0311](https://arxiv.org/abs/0805.0311))
 
 * Marc Lachieze-Rey, _Spin and Clifford algebras, an introduction_ ([arXiv:1007.2481](https://arxiv.org/abs/1007.2481))
