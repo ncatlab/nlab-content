@@ -409,7 +409,7 @@ Recall that the [[specialisation preorder]] on the [[underlying]] [[set]] of poi
 \[
   \label{SpecializationPreorder}
   x \,\leq\, y
-  \;\;\;\;\;\;\text{iff}\;\;\;\;\;\;
+  \;\;\;\;\;\;\text{ iff }\;\;\;\;\;\;
   x \,\in\, cl(y)
   \,,
 \]
@@ -430,7 +430,7 @@ where the right hand side means that the following two equivalent conditions hol
 
   $$
     y \,\leftarrow\, x
-    \;\;\;\text{iff}\;\;\; 
+    \;\;\;\text{ iff }\;\;\; 
     y \,\leq\, x\;
   $$ 
 
