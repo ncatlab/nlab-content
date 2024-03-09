@@ -1,6 +1,6 @@
 
 
-**Ivan Mircović** is a professor of mathematics at the University of Massachusets at Amherst (diploma from Zagreb and Ph. D. under D. Mili&#269;i&#263; in Utah) with interests in [[geometric representation theory]].
+**Ivan Mirković** is a professor of mathematics at the University of Massachusets at Amherst (diploma from Zagreb and Ph. D. under D. Mili&#269;i&#263; in Utah) with interests in [[geometric representation theory]].
 
 * [personal page](https://people.math.umass.edu/~mirkovic/)
 
