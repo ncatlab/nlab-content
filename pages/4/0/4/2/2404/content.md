@@ -9,25 +9,34 @@ His diverse work includes a classification theorem in the theory of commutative 
 Manin's students include:
 
 * [[A. Beilinson]], 
+
 * [[V. Drinfel'd]]
+
 * Vera Serganova
+
 * Ivan Penkov
+
 * [[M. Kapranov]]
+
 * [[Yuri Tschinkel]]
+
 * [[Ralph Kaufmann]]
+
 * ... 
 
 
 
 ## Selected writings
 
-* _[[New Dimensions in Geometry]]_
-
-* _[[Gauge Field Theory and Complex Geometry]]_
 
 Introducing what came to be called the *[[Gauss-Manin connection]]*:
 
 * {#Manin58} [[Yuri Manin]], _Algebraic curves over fields with differentiation_, Izv. Akad. Nauk SSSR Ser. Mat. **22** 6 (1958) 737-756 $[$[mathnet:izv3998](http://mi.mathnet.ru/izv3998), [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=3998&volume=22&year=1958&issue=6&fpage=737&what=fullt&option_lang=eng)$]$ (in Russian)
+
+Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
+
+* [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], *Construction of instantons*, Physics Letters A **65**  3 (1978) 185-187  &lbrack;<a href="https://doi.org/10.1016/0375-9601(78)90141-X">doi:10.1016/0375-9601(78)90141-X</a>&rbrack;
+
 
 Introducing the notion of [[quantum computation]]:
 
@@ -39,14 +48,19 @@ and review of [[Shor's algorithm]]:
 
 * [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
-Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
 
-* [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], *Construction of instantons*, Physics Letters A **65**  3 (1978) 185-187  &lbrack;<a href="https://doi.org/10.1016/0375-9601(78)90141-X">doi:10.1016/0375-9601(78)90141-X</a>&rbrack;
+Early discussion of mathematical [[supergeometry]]:
+
+* [[Yuri Manin]], _[[New Dimensions in Geometry]]_, in: *Arbeitstagung Bonn 1984*, Lecture Notes in Mathematics **1111**, Springer (1985) 59–101 &lbrack;[doi:10.1007/BFb0084585)]([doi:10.1007/BFb0084585](https://doi.org/10.1007/BFb0084585), [pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter04.pdf)&rbrack;
+
+On the [[Penrose-Ward transform]] relating [[twistor space]] to [[Minkowski spacetime]], on its generalization to [[superalgebra]] and [[supergeometry]], and on applications to [[super Yang-Mills theory]] and [[supergravity]]:
+
+* [[Yuri Manin]], _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
 
 On [[homological algebra]] and [[homotopical algebra]] (via [[triangulated categories]] and including the [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
 
-* [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,   transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
+* [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,  transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
 
 Introduced [[quantum linear group]]s as universal coacting bialgebras (and their quotient Hopf algebras) in
 
