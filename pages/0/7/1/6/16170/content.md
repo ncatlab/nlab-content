@@ -25,4 +25,8 @@ For the moment see at [[super Minkowski spacetime]] for more, around [this remar
 
 * [[torsion constraints in supergravity]]
 
+* [[Dragon's theorem]]
+
 [[!redirects super-torsion]]
+
+[[!redirects super torsion]]
