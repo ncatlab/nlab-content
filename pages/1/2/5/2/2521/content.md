@@ -73,6 +73,8 @@ Survey:
 
 * [[Yuri Manin]], Chapter 4 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
+* [[John Lott]], *Torsion constraints in supergeometry*, Comm. Math. Phys. **133** (1990) 563-615 &lbrack;[doi:10.1007/BF02097010](https://doi.org/10.1007/BF02097010)&rbrack;
+
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
 
 * {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], *Notes on Supersymmetry (following [[Joseph Bernstein]])*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
