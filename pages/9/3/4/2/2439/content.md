@@ -668,7 +668,7 @@ The concept of [[Grassmann algebra]] and the [[signs in supergeometry|super-sign
 
 Review of basic superalgebra:
 
-* [[Yuri Manin]], chapter 3 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
+* [[Yuri Manin]], Chapter 3 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
 * [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
