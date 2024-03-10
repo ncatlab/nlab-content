@@ -64,7 +64,9 @@ Argument that discussion of the issue in the toy example of 2d [[JT gravity]] do
 
 * {#LandgrenShekar24} Filip Landgren, Arvind Shekar, *Islands and entanglement entropy in $d$-dimensional curved backgrounds* \[<a href="https://arxiv.org/abs/2401.01653">arXiv:2401.01653</a>\]
 
+Debate between a proponent and a critic :
 
+* {#PeningtonRaju24} *Islands and Black Hole Information ft. [[Suvrat Raju]] and [[Geoff Penington]]*, podcast at *[Theoretically Podcasting](https://www.youtube.com/@theoreticallypodcasting7390)* (9 Mar 2024)  \[<a href="https://youtu.be/ZCIho8geEfI">YT</a>\]
 
 
 
