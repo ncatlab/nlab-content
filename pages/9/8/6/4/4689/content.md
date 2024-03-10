@@ -154,6 +154,7 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 
 * [[piecewise flat spacetime]]
 
+
 ## References
 
 ### General
@@ -223,6 +224,9 @@ Introduction, review and outlook:
 * [[John F. Donoghue]], *Quantum General Relativity and Effective Field Theory*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09902](https://arxiv.org/abs/2211.09902)&rbrack;
 
 * [[John F. Donoghue]], *General Relativity as a Perturbative Quantum Field Theory*, lecture series at *[Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)*, ISQG (2023) &lbrack;[web](https://blogs.umass.edu/grqft/)&rbrack;
+
+* {#Donoghue23} [[John Donoghue]], *Quantum General Relativity as an EFT*, podcast discussion on *[Theoretically Podcasting](https://www.youtube.com/@theoreticallypodcasting7390)*, Aug (2023) &lbrack;video: [YT](https://youtu.be/BEa27uCf6sE)&rbrack;
+
 
 Aspects of [[gauge invariance]]:
 
