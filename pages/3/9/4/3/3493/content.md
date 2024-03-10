@@ -1,4 +1,4 @@
-**Marta Bunge** (1938-2022) was a Argentinian-Canadian mathematician. Her research included [[fibered categories]], [[stacks]] (with values in [[categories]], hence [[2-sheaves]]) and [[groupoids]], [[topos theory]], geometric [[Galois theory]] of [[covering spaces]], [[synthetic differential topology]], amongst others.
+**Marta Bunge** (1938-2022) was an Argentinian-Canadian mathematician. Her research included [[fibered categories]], [[stacks]] (with values in [[categories]], hence [[2-sheaves]]) and [[groupoids]], [[topos theory]], geometric [[Galois theory]] of [[covering spaces]], [[synthetic differential topology]], amongst others.
 
 * [personal page](https://www.math.mcgill.ca/bunge)
 
