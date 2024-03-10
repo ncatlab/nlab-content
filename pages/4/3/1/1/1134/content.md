@@ -288,8 +288,10 @@ Discussion from the point of view of [[functorial geometry]]:
 ### As locally ringed spaces
 
 * {#BerezinLeites} [[Felix Berezin]], D. A. Le&#301;tes, _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976).
- 
-* I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
+
+* [[Yuri Manin]], §4.1 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
+
+* I. L. Buchbinder, S. M. Kuzenko, *Ideas and methods of supersymmetry and supergravity; or A walk through superspace* CRC Press (1998) &lbrack;[ISBN:10.1201/9780367802530](https://library.oapen.org/handle/20.500.12657/50874)&rbrack;
 
 * {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], Ch 2 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
