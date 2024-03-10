@@ -14,6 +14,8 @@ On [[perturbative quantum gravity]] as an [[effective quantum field theory]]:
 
 * [[John F. Donoghue]], *General Relativity as a Perturbative Quantum Field Theory*, lecture series at *[Basics of Quantum Gravity](https://indico.cern.ch/event/1279592/)*, ISQG (2023) &lbrack;[web](https://blogs.umass.edu/grqft/)&rbrack;
 
+* {#Donoghue23} [[John Donoghue]], *Quantum General Relativity as an EFT*, podcast discussion on *[Theoretically Podcasting](https://www.youtube.com/@theoreticallypodcasting7390)*, Aug (2023) &lbrack;video: [YT](https://youtu.be/BEa27uCf6sE)&rbrack;
+
 
 On [[asymptotic safety]] (or not):
 
