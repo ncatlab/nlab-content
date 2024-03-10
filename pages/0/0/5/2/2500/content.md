@@ -337,7 +337,7 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 
 ## Related concepts
 
-* [[gravitino condensation]]
+* [[Rarita-Schwinger field]]
 
 * [[gauged supergravity]]
 
@@ -345,13 +345,15 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 
 * [[topologically twisted supergravity]]
 
-* [[Rarita-Schwinger field]]
+* [[gravitino condensation]]
 
 * [[duality in physics]], [[duality in string theory]]
 
 * [[special geometry]]
 
 * [[torsion constraints of supergravity]]
+
+* [[Dragon's theorem]]
 
 * [[D'Auria-Fre formulation of supergravity]]
 
