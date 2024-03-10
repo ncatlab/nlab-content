@@ -82,12 +82,13 @@ Survey:
 
 Introductory lecture notes:
 
-
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
 * [[Gennadi Sardanashvily]], _Lectures on supergeometry_ &lbrack;[arXiv:0910.0092](http://arxiv.org/abs/0910.0092), [inspire:832789](https://inspirehep.net/literature/832789)&rbrack;
 
 Discussion via [[functorial geometry]]:
+
+* [[Thomas Schmitt]], *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 &lbrack;[arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132), [doi;10.1142/S0129055X97000348](https://doi.org/10.1142/S0129055X97000348)&rbrack;
 
 * [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], *Mathematical Foundations of Supersymmetry*, EMS Series of Lectures in Mathematics **15** (2011) &lbrack;[ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
