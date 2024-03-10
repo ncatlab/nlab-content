@@ -49,6 +49,8 @@ For more see at _[[geometry of physics -- supersymmetry]]_.
 [[!redirects supervielbein]]
 [[!redirects supervielbeins]]
 
+[[!redirects super frame field]]
+[[!redirects super frame fields]]
 
 [[!redirects super-vielbein field]]
 [[!redirects super-vielbein fields]]
