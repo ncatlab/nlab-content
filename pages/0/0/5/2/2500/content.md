@@ -374,6 +374,9 @@ Early review:
 
   > (emphasis on [[Kaluza-Klein compactification]])
 
+
+* [[Yuri Manin]], §5.7 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
+
 * [[Yoshiaki Tanii]], *Introduction to Supergravities in Diverse Dimensions*, in *[YITP Workshop on Supersymmetry](https://inspirehep.net/conferences/971516)*, Kyoto (1996) &lbrack;[arXiv:hep-th/9802138](https://arxiv.org/abs/hep-th/9802138)&rbrack;
 
 * [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
