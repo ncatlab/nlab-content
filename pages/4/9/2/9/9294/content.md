@@ -50,10 +50,9 @@ The observation that Wigner's representations $U_{(-)}$ are those for which all 
 
 * {#Mackey68} [[George Mackey]], _Induced Representations of Groups and Quantum Mechanics_, W. A. Benjamin, New York, 1968
 
-Review includes
+Review:
 
-* {#Schroer96} [[Bert Schroer]], _Wigner Representation Theory of the Poincar&#233;
-Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.ch/record/308785/files/9608092.pdf))
+* {#Schroer96} [[Bert Schroer]], _Wigner Representation Theory of the Poincar&#233; Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.ch/record/308785/files/9608092.pdf))
 
 * {#Dragon16} [[Norbert Dragon]], _Currents for Arbitrary Helicity_ ([arXiv:1601.07825](http://arxiv.org/abs/1601.07825))
 
