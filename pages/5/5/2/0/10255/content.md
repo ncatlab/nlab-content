@@ -1,10 +1,14 @@
 
 This page collects some links related to
 
-* [[Daniel Freed]]
+* [[Daniel Freed]]:
 
-  _Five lectures on supersymmetry_
+  \linebreak
 
+  **Five lectures on supersymmetry**
+
+  \linebreak
+  
   American Mathematical Society (1999)
 
   [ISBN:978-0-8218-1953-1](https://bookstore.ams.org/FLS)
@@ -13,10 +17,9 @@ This page collects some links related to
 
 on [[superalgebra]], [[supergeometry]] and [[supersymmetry]].
 
-See in conjunction also
+See in conjunction also:
 
-* [[Daniel Freed]], _Classical field theory and supersymmetry_, IAS/Park City Mathematics Series
-Volume 11, 2001 ([pdf](http://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+* [[Daniel Freed]], _Classical field theory and supersymmetry_, IAS/Park City Mathematics Series **11** (2001) &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/pcmi.pdf)&rbrack;
 
 and 
 
@@ -24,7 +27,7 @@ and
 
 with its section
 
-* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ &lbrack;[arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
 #Contents#
 * table of contents
