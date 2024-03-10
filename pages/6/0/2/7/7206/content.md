@@ -63,6 +63,10 @@ Minmal 4d Supergravity was the first [[supergravity]] theory to be constructed, 
 
 See also at _[supergravity -- History](supergravity#History)_.
 
+and see:
+
+* [[Yuri Manin]], §5.7 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
+
 
 
 
