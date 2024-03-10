@@ -36,7 +36,7 @@ Dragon's theorem fails in bosonic dimension $\leq 3$, where the curvature tensor
 
 The original theorem:
 
-* {#Dragon79} [[Norbert Dragon]], *Torsion and curvature in extended supergravity*, Zeitschrift f&uuml; Physik C -- Particles and Fields **2** (1979) 29–32 &lbrack;[doi:10.1007/BF01546233](https://doi.org/10.1007/BF01546233), [pdf](file:///C:/Users/us13/Downloads/Dragon1979_Article_TorsionAndCurvatureInExtendedS.pdf)&rbrack;
+* {#Dragon79} [[Norbert Dragon]], *Torsion and curvature in extended supergravity*, Zeitschrift f&uuml;r Physik C -- Particles and Fields **2** (1979) 29–32 &lbrack;[doi:10.1007/BF01546233](https://doi.org/10.1007/BF01546233), [pdf](file:///C:/Users/us13/Downloads/Dragon1979_Article_TorsionAndCurvatureInExtendedS.pdf)&rbrack;
 
 (implicitly stated there in bosonic dimension = 4).
 
