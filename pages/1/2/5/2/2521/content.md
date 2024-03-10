@@ -65,29 +65,31 @@ $\,$
 ## References
  {#References}
 
-Some historically influential general considerations are in 
+Historically influential general considerations:
 
-* [[Yuri Manin]], _[[New Dimensions in Geometry]]_, talk at Arbeitstagung, Bonn (1984)
+* [[Yuri Manin]], _[[New Dimensions in Geometry]]_, in: *Arbeitstagung Bonn 1984*, Lecture Notes in Mathematics **1111**, Springer (1985) 59–101 &lbrack;[doi:10.1007/BFb0084585](https://doi.org/10.1007/BFb0084585), [pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter04.pdf)&rbrack;
 
 Survey:
 
-* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+* [[Yuri Manin]], Chapter 4 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
+
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], *Notes on Supersymmetry (following [[Joseph Bernstein]])*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
 * {#Mirković04} [[Ivan Mirković]], *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
 
 
 Introductory lecture notes:
 
-* [[Yuri Manin]], chapter 4 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
-
-* [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
+* [[Gennadi Sardanashvily]], _Lectures on supergeometry_ &lbrack;[arXiv:0910.0092](http://arxiv.org/abs/0910.0092), [inspire:832789](https://inspirehep.net/literature/832789)&rbrack;
 
 Discussion via [[functorial geometry]]:
 
-* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15 (2011) ([ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], *Mathematical Foundations of Supersymmetry*, EMS Series of Lectures in Mathematics **15** (2011) &lbrack;[ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
 Discussion of traditional [[algebraic geometry]]  for [[super-schemes]]:
 
@@ -110,7 +112,7 @@ A summary/review is in the appendix of
 
 * {#KonechnySchwarz} Anatoly Konechny, [[Albert Schwarz]], 
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_ in [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ ([[Dmitry Volkov]] memorial volume), Lecture Notes in Physics **509**, Springer (1998) &lbrack;[arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003), [doi:10.1007/BFb0105247](https://doi.org/10.1007/BFb0105247)&rbrack;
+  _On $(k \oplus l|q)$-dimensional supermanifolds_, in [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ ([[Dmitry Volkov]] memorial volume), Lecture Notes in Physics **509**, Springer (1998) &lbrack;[arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003), [doi:10.1007/BFb0105247](https://doi.org/10.1007/BFb0105247)&rbrack;
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
   
