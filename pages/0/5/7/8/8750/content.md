@@ -54,9 +54,9 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 ### Monoidal structure
  {#MonoidalStructure}
 
-If $\mathcal{V}$ is [[symmetric monoidal category|symemtric monoidal]] then $V Cat$ becomes itself a ([[very large category|very large]]) [[monoidal category]] with [[tensor product]] given by forming [[enriched product categories]].
+If $\mathcal{V}$ is [[symmetric monoidal category|symmetric monoidal]] then $\mathcal{V}Cat$ becomes itself a ([[very large category|very large]]) [[monoidal category]] with [[tensor product]] given by forming [[enriched product categories]].
 
-If $\mathcal{C}$ is in addition [[closed monoidal category|closed]] and [[complete category|complete]], then $\mathcal{V}Cat$ becomes itself a [[closed monoidal category]] with [[internal hom]] given by forming [[enriched functor categories]].
+If $\mathcal{V}$ is in addition [[closed monoidal category|closed]] and [[complete category|complete]], then $\mathcal{V}Cat$ becomes itself a [[closed monoidal category]] with [[internal hom]] given by forming [[enriched functor categories]].
 
 &lbrack;[Kelly (1982), §2.3](#Kelly82)&rbrack;
 
