@@ -22,15 +22,15 @@
 
 ## Idea
 
-*Dragon's theorem* &lbrack;[Dragon 1979](#Dragon79)&rbrack; says that in [[super Cartan geometry]] of bosonic [[dimension]] $\geq 4$
+*Dragon's theorem* &lbrack;[Dragon 1979](#Dragon79)&rbrack; says that in [[super Cartan geometry]] of bosonic [[dimension]] $\geq 4$ with [[structure group]] the [[Lorentz group|Lorentzian]] [[spin group]]:
 
-1. the [[curvature]]-tensor is [[linear function]] of the [[torsion]]-tensor (cf. *[[super torsion]]*),
+1. the [[curvature]]-tensor is a [[linear function]] of the [[torsion]]-tensor (i.e., of the full *[[super torsion]]* tensor),
 
 1. expressed this way, the curvature-[[Bianchi identity]] is implied already by the torsion Bianchi identity.
 
 This observation arose in and finds application in [[supergravity]], whose [[fields]] are Cartan [[super frame fields]] and whose [[equations of motion]] are typically controlled by [[rheonomy]]/[[torsion constraints in supergravity|torsion constraints]], so that finding [[on-shell]] [[field histories]] is equivalent to solving the torsion- & curvature Bianchi identities subject to these constraints. Here the curvature Bianchi identity typically *looks* much more involved than the torsion Bianchi identity, but Dragon's theorem clarifies that it need not actually be solved independently.
 
-Dragon's theorem fails in bosonic dimension $\leq 3$, where the curvature tensor may contain components not governed by the tosion: "Dragon windows" &lbrack;[Cederwall, Gran & Nilsson 2011](#CederwallGranNilsson11)&rbrack;
+Dragon's theorem fails in bosonic dimension $\leq 3$, where the curvature tensor may contain components not governed by the torsion: "Dragon windows" &lbrack;[Cederwall, Gran & Nilsson 2011](#CederwallGranNilsson11)&rbrack;
 
 ## References
 
