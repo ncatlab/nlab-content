@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -105,4 +104,6 @@ An elaborate proposal for the correct flavour of real equivariant K-theory neede
 [[!redirects orthogonal K-theory]]
 
 [[!redirects KO-cohomology]]
+
+[[!redirects KO]]
 
