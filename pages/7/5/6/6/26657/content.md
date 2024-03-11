@@ -16,7 +16,7 @@
 
 ## Idea
 
-$B O(n)$ is the [[classifying space]] for the [[orthogonal group]] $O(n)$.
+$B O(n)$ is the [[classifying space]] for ([[principal bundles]] with [[structure group]]) the [[orthogonal group]] $O(n)$.
 
 ## Definition
 
@@ -66,6 +66,13 @@ B O
 \coloneqq\underset{\longrightarrow}{\lim}_n B O(n)
 $$
 and indeed the classifying space for $O\coloneqq\underset{\longrightarrow}{\lim}_n O(n)$.
+
+
+## Related concepts
+
+* [[BU(n)]]
+
+* [[KO]]
 
 ## References
 
