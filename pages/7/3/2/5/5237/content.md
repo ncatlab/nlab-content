@@ -59,7 +59,7 @@ functor|conservative]].  In many cases it is [[monadic functor|monadic]].
 
 ## Properties
 
-The properties of the [[category]] of monoids $Mon (C)$, especially with respect to [[colimit]]s, are markedly different according to whether or not the [[tensor product]] of $C$ preserves colimits in each variable.  (This is automatically the case if $C$ is [[closed monoidal category|closed]].)
+The properties of the [[category]] of monoids $Mon (C)$, especially with respect to [[colimit|colimits]], are markedly different according to whether or not the [[tensor product]] of $C$ preserves colimits in each variable.  (This is automatically the case if $C$ is [[closed monoidal category|closed]].)
 
 Most "algebraic" situations have this property, but others do not.  For instance, the category of [[monads]] on a fixed category $A$ is $Mon (C)$, where $C= [A,A]$ is the category of [[endofunctors]] of $A$ with composition as its monoidal structure.  This monoidal product preserves colimits in one variable (since colimits in $[A,A]$ are computed pointwise), but not in the other (since most endofunctors do not preserve colimits).  So far, the material on this page focuses on the case where $\otimes$ does preserve colimits in both variables, although some of the references at the end discuss the more general case.
 
@@ -87,7 +87,7 @@ This appears in ([Porst, page 7](#Porst)).
 +-- {: .num_prop}
 ###### Proposition
 
-Let $C$ be a [[monoidal category]] with countable [[coproduct]]s that are preserved by the [[tensor product]]. Then the forgetful functor $U_C$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
+Let $C$ be a [[monoidal category]] with countable [[coproduct|coproducts]] that are preserved by the [[tensor product]]. Then the forgetful functor $U_C$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
 
 $$
   U_C F_C X 
@@ -189,7 +189,7 @@ This appears for instance as ([Johnstone, page 478, cor. 1.1.9](#Johnstone)).
 +-- {: .num_prop #PushOutOfMonoidsAlongFreeMorphisms}
 ###### Proposition
 
-If $C$ is [[cocomplete category|cocomplete]] and its tensor product preserves colimits on both sides, then the category $Mon(C)$ of monoids has all [[pushout]]s 
+If $C$ is [[cocomplete category|cocomplete]] and its tensor product preserves colimits on both sides, then the category $Mon(C)$ of monoids has all [[pushout|pushouts]] 
 
 $$
   \array{
@@ -211,7 +211,7 @@ $$
 
 of objects $(P_n)_{n \in \mathbb{N}}$, which are each given by pushouts in $C$ inductively as follows. 
 
-Assume $P_{n-1}$ has been defined. Write $Sub(\mathbf{n})$ for the [[poset]] of [[subset]]s of the $n$-element set $\mathbf{n}$ (this is the poset of paths along the edges of an $n$-dimensional cube). Define a [[diagram]]
+Assume $P_{n-1}$ has been defined. Write $Sub(\mathbf{n})$ for the [[poset]] of [[subset|subsets]] of the $n$-element set $\mathbf{n}$ (this is the poset of paths along the edges of an $n$-dimensional cube). Define a [[diagram]]
 
 $$
   K : Sub \mathbf{n} \to C
@@ -326,7 +326,7 @@ $$
   U : CMon(C) \to C
 $$
 
-from commutative monoids to $C$ [[creates colimits|creates]] [[filtered colimit]]s.
+from commutative monoids to $C$ [[creates colimits|creates]] [[filtered colimit|filtered colimits]].
 
 =--
 
