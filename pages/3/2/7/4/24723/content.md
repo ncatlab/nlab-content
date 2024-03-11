@@ -1,4 +1,4 @@
-__Wendy Lowen__ is a mathematician at Universiteit Antwerpen, working mainly in algebra, categorical algebra, deformation theory and algebraic geometry.
+__Wendy Lowen__ is a mathematician at Universiteit Antwerpen, working mainly in [[algebra]], [[categorical algebra]], [[deformation theory]] and [[algebraic geometry]].
 
 ### Webpages: 
 
