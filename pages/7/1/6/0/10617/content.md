@@ -235,7 +235,7 @@ is a model for the [[classifying space]] of reduced complex [[topological K-theo
 
 * [[U(ℋ)]], [[PU(ℋ)]]
 
-* [[topological K-theory]] [[KU]]
+* [[topological K-theory]]$\;$[[KU]]
 
 * [[unstable topological K-theory]]
 
