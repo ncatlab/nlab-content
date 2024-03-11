@@ -34,7 +34,7 @@ The proof that for rational levels this construction indeed yields [[conformal b
 
   > (for [[sl(2)|$\mathfrak{sl}(2, \mathbb{C})$]])
 
-* [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247  $[$[euclid:cmp/1104272957](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full)$]$
+* {#FeiginSchechtmanVarchenko95} [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247 \[<a href="https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full">euclid:cmp/1104272957</a>\]
 
 
 Review:     
