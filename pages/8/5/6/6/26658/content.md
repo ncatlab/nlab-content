@@ -17,7 +17,7 @@
 
 ## Idea
 
-$B U(n)$ is the [[classifying space]] for the [[unitary group]] $U(n)$.
+$B U(n)$ is the [[classifying space]] for ([[principal bundles]] with [[structure group]]) the [[unitary group]] $U(n)$.
 
 ## Definition
 
@@ -53,12 +53,19 @@ This theorem also holds if $\mathbb{Z}$ is replaced by a general ring $R$.
 
 ## Colimit
 
-The canonical inclusions $U(n)\hookrightarrow U(n+1)$ yield canonical inclusions $B U(n)\hookrightarrow B U(n+1)$ of their respective classifying spaces. The [[limit]] is denoted as
+The canonical inclusions $U(n)\hookrightarrow U(n+1)$ yield canonical inclusions $B U(n)\hookrightarrow B U(n+1)$ of their respective classifying spaces. The [[colimit]] is denoted 
 $$
 B U
-\coloneqq\underset{\longrightarrow}{\lim}_n B U(n).
+\coloneqq\underset{\longrightarrow}{\lim}_n B U(n)
+\,,
 $$
-and indeed the classifying space for $S U\coloneqq\underset{\longrightarrow}{\lim}_n S U(n)$.
+which is the classifying space of the [[stable unitary group]] $ U\coloneqq\underset{\longrightarrow}{\lim}_n  U(n)$.
+
+## Related concepts
+
+* [[BO(n)]]
+
+* [[KU]]
 
 ## References
 
