@@ -120,6 +120,15 @@ _Toby_:  Looks good to me!
 From a category-theorist\'s perspective, the isomorphic category is really the [[full image]] of the [[inclusion functor]] from $Ban$ to $TVS$ (the category of [[topological vector spaces]]), which may be denoted $Ban_{TVS}$.  If you\'re working in $Ban_{TVS}$, then you only care about the topological linear structure of your space (although you do also care that it can be derived from some metric); if you\'re working in $Ban$, then you care about all of the structure on the space.
 
 
+### As a unit ball with extra structure
+
+Since the [[forgetful functor]] $Hom_Ban(\mathbb{R},-)\colon Ban \to Set$, taking each Banach space to its closed [[unit ball]], is [[faithful functor|faithful]], it\'s natural to consider a Banach space as this ball with [[extra structure]].  We can always do this by [[abstract nonsense]]: define a Banach space to be a [[set]] $B$ equipped with a [[bijection]] to the closed unit ball of some complete normed vector space.  However, we can also do this in a more explicit way, constructing a Banach space as a [[structured set]].
+
+Specifically, define a Banach space to be a complete normalizable normed [[convex space]].  Not all of these terms are standard, so to be specific, this is:
+* a set $B$,
+* ...
+
+
 ## Examples
 
 Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \infty$.  (Sometimes one can also try $0 \leq p \lt 1$, but these generally don\'t give Banach spaces.)
