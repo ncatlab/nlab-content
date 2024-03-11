@@ -32,7 +32,7 @@ This property is used in [[Nagata-Smirnov metrization theorem]]:
 
 ## References
 
-* [σ-Locally Finite Base](https://topology.jdabbs.com/properties/P000054), $\pi$-Base.
+* [σ-Locally Finite Base](https://topology.pi-base.org/properties/P000054), $\pi$-Base.
 
 
 [[!redirects countably locally finite sets of subsets]]
