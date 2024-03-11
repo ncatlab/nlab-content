@@ -60,12 +60,12 @@ $$
 
 ## Colimit
 
-The canonical inclusions $O(n)\hookrightarrow O(n+1)$ yield canonical inclusions $B O(n)\hookrightarrow B O(n+1)$ of their respective classifying spaces. The [[limit]] is denoted as
+The canonical inclusions $O(n)\hookrightarrow O(n+1)$ yield canonical inclusions $B O(n)\hookrightarrow B O(n+1)$ of their respective classifying spaces. The [[colimit]] is denoted as
 $$
 B O
 \coloneqq\underset{\longrightarrow}{\lim}_n B O(n)
 $$
-and indeed the classifying space for $O\coloneqq\underset{\longrightarrow}{\lim}_n O(n)$.
+and indeed the classifying space for the [[stable orthogonal group]] $O\coloneqq\underset{\longrightarrow}{\lim}_n O(n)$.
 
 
 ## Related concepts
