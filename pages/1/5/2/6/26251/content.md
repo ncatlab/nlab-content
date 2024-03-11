@@ -73,6 +73,15 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   in Santiago de Compostela (Spain) 
 
+* 2024, June 17th-21st
+
+  **ACT 2024: Applied Category Theory**
+  
+  (co-located with MFPS 2024; submission deadline 29 March 2024)
+
+  home page: [ACT & MFPS 2024](https://oxford24.github.io/)
+
+  In Oxford, UK
 
 * 2024, April 15th-16th
 
