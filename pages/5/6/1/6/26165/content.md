@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[proof assistant]] implementing [[simplicial homotopy type theory]].
+[Rzk](https://github.com/rzk-lang) is a [[proof assistant]] implementing [[simplicial homotopy type theory]].
 
 
 ## Related entries
