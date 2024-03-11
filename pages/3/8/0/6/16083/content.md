@@ -201,7 +201,7 @@ Here something special happens:
 
 The authors [Candiello & Lechner 1993 (5.6)](#CandielloLechner93) and [Howe 1997](#Howe97) (see [Cederwall, Gran, Nilsson, Tsimpis 2004, section 2.4](#CederwallGranNilssonTsimpis04)) show that imposing the torsion constraint (on any chart) $\mathbf{d} E^a + \omega^{a}{}_b \wedge E^b - \bar \psi \Gamma^a \psi  = 0$ as well as $(\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi)_{\theta \theta} = 0$ implies the equations of motion of [[11d supergravity]]. 
 
-Moreover, setting $\mathbf{d} \Psi +\tfrac{1}{4}\omega^{a b} \Gamma_{a b}\Psi = 0$ generally (not just the component proportional to the wedge product of two fermionic 1-forms, hence requiring the full supertorsion tensor to be that of [[super-Minkowski spacetime]]) then ([Candiello & Lechner 93, (5.8) with (6.5)](#CandielloLechner93))  this moreover sets the [[field strength]]/[}flux density]] of the [[supergravity C-field]] to 0. Hence this implies solutions to the ordinary vacuum [[Einstein equations]] in 11d. Such solutions are considered notably in the context of [[M-theory on G2-manifolds]] (e.g. [Acharya 02, p. 9](M-theory+on+G2-manifolds#Acharya02)). See also at _[M-theory on G2-manifolds -- Details -- Vacuum solution and torsion constraints](M-theory+on+G2-manifolds#VacuumSolutionsAndTorsion)_.
+
 
 
 ### 10d Heterotic supergravity
