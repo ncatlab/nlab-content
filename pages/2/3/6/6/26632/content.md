@@ -384,7 +384,9 @@ This is essentially [CDF91, (III.8.44-49 & 60b)](D'Auria-Fre+formulation+of+supe
     }
     \,,
   $$
-  where the last term has to vanish: The component function $\kappa$ has to take values in $\mathrm{Spin}(1,10)$-equivariant linear maps of the form $\big(\mathbf{32} \otimes \mathbf{32}\big)_{sym} \longrightarrow \mathbf{32}$, but since the irrep $\mathbf{32}$ is not a summand of its symmetric square (by the first line of [this](Majorana+spinor#eq:IrrepDecompositionOfSymmetricPowersOf32) decomposition), [[Schur's lemma]] implies that $\kappa = 0$.
+  where the last term is taken to vanish.l (...).
+
+
 
 Therefore, the Bianchi identity has the following components, 
 \[
