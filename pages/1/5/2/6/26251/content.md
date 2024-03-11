@@ -51,7 +51,7 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
 
   in Barcelona (Spain) 
 
-* 2024, June 24rd-28th 
+* 2024, June 24th-28th 
 
   **Logic Colloqium 2024**
 
@@ -72,6 +72,19 @@ To add an announcement, hit "edit" at the bottom of this page: In the edit pane 
   home page: [www.usc.gal/regaca/ct2024](https://www.usc.gal/regaca/ct2024)  
 
   in Santiago de Compostela (Spain) 
+
+
+* 2024, April 15th-16th
+
+  **SYCO 12: Twelfth Symposium on Compositional Structures**
+
+
+  (Interdisciplinary meeting exploring compositionality across diverse fields)
+
+  home page: [SYCO 12](https://www.cl.cam.ac.uk/events/syco/12/)
+
+  In Birmingham, UK
+
 
 
 * 2023, December 18th-19th 
