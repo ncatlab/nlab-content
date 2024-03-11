@@ -122,11 +122,16 @@ From a category-theorist\'s perspective, the isomorphic category is really the [
 
 ### As a unit ball with extra structure
 
-Since the [[forgetful functor]] $Hom_Ban(\mathbb{R},-)\colon Ban \to Set$, taking each Banach space to its closed [[unit ball]], is [[faithful functor|faithful]], it\'s natural to consider a Banach space as this ball with [[extra structure]].  We can always do this by [[abstract nonsense]]: define a Banach space to be a [[set]] $B$ equipped with a [[bijection]] to the closed unit ball of some complete normed vector space.  However, we can also do this in a more explicit way, constructing a Banach space as a [[structured set]].
+Since the [[forgetful functor]] $Hom_Ban(\mathbb{R},-)\colon Ban \to Set$, taking each Banach space to its closed [[unit ball]], is [[faithful functor|faithful]], it\'s natural to consider a Banach space as this ball with [[extra structure]].  We can always do this by [[abstract nonsense]]: define a Banach space to be a [[set]] $B$ equipped with a [[bijection]] to the closed unit ball of some complete normed vector space.
 
-Specifically, define a Banach space to be a complete normalizable normed [[convex space]].  Not all of these terms are standard, so to be specific, this is:
-* a set $B$,
-* ...
+However, we can also do this in a more explicit way, constructing a Banach space as a [[structured set]].  The key is that, while a vector space supports any finite [[linear combinations]] (and a complete TVS supports some infinite ones), the unit ball of a Banach space supports linear combinations (finite or infinite) whose coefficients\' absolute values sum to at most $1$.  So we define a __Banach space__ to be set $B$ (the _underlying set_, or _closed unit ball_ to be unambiguous) equipped with, for each multiset $A$ of scalars whose absolute values sum to at most $1$, an $A$-indexed operation on $B$, such that these operations are compatible as linear combinations should be, together with a function $\|{-}\|$ from $B$ to the [[unit interval]] $[0,1]$ satisfying the triangle inequality and making $B$ into a complete metric space.
+
+To be more explicit:
+*  Given a set $I$ (thought of as an [[index set]]), a _short $I$-indexed sequence of scalars_ is a scalar-valued function $a$ on $I$ (whose values are written $a_i$ for $i$ in $I$) such that $\sum_{i\colon I} {|{a_i}|} \leq 1$ (with, in [[constructive mathematics]], the non-vacuous assumption that the left-hand side of this inequality exists).
+*  Similarly, an _$I$-indexed sequence of short vectors_ is a $B$-valued function $x$ on $I$ (whose values are written $x_i$ for $i$ in $I$), with no requirements.
+*  For each $I$, each short $I$-indexed sequence $a$ of scalars, and each $I$-indexed sequence $x$ of short vectors, we have a short vector (that is an element of $B$) $\sum_{i\colon I} a_i x_i$.
+*  For each $I$-indexed family $J$ of sets (so $J_i$ is a set for each $i$ in $I$), each short $I$-indexed sequence $a$ of scalars, each $I$-indexed family $b$ of short $J_i$-indexed sequences of scalars (so $b_{i,j}$ is a scalar for each $i$ in $I$ and $j$ in $J_i$, and $\sum_{j\colon J_i} {|{b_{i,j}}|} \leq 1$ for each $i$ in $I$), and each $I$-indexed family $x$ of $J_i$-indexed sequences of short vectors (so $x_{i,j}$ is an element of $B$ for each $i$ in $I$ and $j$ in $J_i$), we have $\sum_{i\colon I} a_i \sum_{j\colon J_i} b_{i,j} x_{i,j} = \sum_{(i,j)\colon \biguplus_{i\colon I} J_i} a_i b_{i,j} x_{i,j}$ (which makes sense since $\sum_{(i,j)\colon \biguplus_{i\colon I} J_i} {|{a_i}|}\, {|{b_{i,j}}|} \leq 1$).  (This is what it means for the linear-combination operations to be compatible linear combinations.)
+*  ...
 
 
 ## Examples
