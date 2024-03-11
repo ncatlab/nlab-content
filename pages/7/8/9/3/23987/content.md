@@ -1089,12 +1089,8 @@ Graviton**
 
   [[Chris Blair]]:
 
-  **Geometry and Dualities of Decoupling Limits in String
-Theory and M-Theory**
+  (talk canceled last minute and postponed [to 31 Jan](#BlairJan2024))
 
-  cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
-
-  > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
 
 \linebreak
 
@@ -1802,6 +1798,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Theory of Quantum Coherence and Its Application in Quantum Synchronization**
 
+  video: [Zoom](https://nyu.zoom.us/rec/share/W815Laenx0NbRfFS0rrfJ53i2toXBHake0Iw_92iGpcYwR0P3-9Bro7SMgKKgJZ2.f4_g9hv8eEUpNSBV)
+
   > [[quantum coherence|Coherence]] is a well-known feature of [[quantum systems]]. An information theoretic investigation of quantum coherence was initiated in [1] from a resource theory perspective. In this talk, I will provide an outline of quantifying coherence, the two different forms corresponding to it namely the intrinsic coherence and local coherence, and trade-off relation between these two types of coherence [2]. As an application, I will talk about the role of quantum coherence in the study of quantum synchronization. First, I will give an overview of synchronization. Then considering an [[open quantum system]] comprising of a two-level system interacting with an external environment, I will show how it exhibits phase preference in the long-time limit. While this phase preference, which we identify as quantum phase localization, shows features like Arnold tongue, which is considered as an identifier for quantum synchronization, I present evidence to show that it is not quantum synchronization [3]. Finally, I will discuss the challenges remaining to be addressed in connecting these two related phenomena of quantum phase localization and quantum synchronization.
  
   > References:
@@ -1833,6 +1831,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf. [arXiv:1804.00952](https://arxiv.org/abs/1804.00952)
 
+  video: [Zoom](https://nyu.zoom.us/rec/share/cfiHo-BR-a_iLnu3GYuWKDkuTdgD2JhDVob5FckcvkhxtM5tXgf6_jf-pO92c_sZ.cNRBkfboawsJNsW5
+)
+
   > One perspective on [[quantum algorithms]] is that they are classical [[algorithms]] having access to a [[quantum memory|special kind of memory]] with exotic properties. This perspective suggests that, even in the case of quantum algorithms, the control flow notions of sequencing, conditionals, loops, and [[recursion]] are entirely classical. There is, however, another notion of execution control flow that is itself quantum. In this talk, we shall overview the two paradigms and discuss the issues specific to quantum control.
 
 \linebreak
@@ -1846,6 +1847,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   **Dynamics of a Nonequilibrium Discontinuous Quantum Phase Transition in a Spinor Bose-Einstein Condensate**
 
   cf. [arXiv:2312.16555](https://arxiv.org/abs/2312.16555)
+
+  video: [Zoom](https://nyu.zoom.us/rec/share/Y-f2Db6OO5dD-JI3WZhW-CVAWWJqo8IEr_x0cx4f0uvhZu4ahXlJSpWcpjotncN8.jF_oWx6DgV-cSBwb)
 
   > [[symmetry breaking|Symmetry-breaking]]$\;$[[quantum phase transitions]] lead to the production of [[topological defects]] or [[domain walls]] in a wide range of [[physical systems]]. In second-order transitions, these exhibit universal scaling laws described by the Kibble-Zurek mechanism, but for first-order transitions a similarly universal approach is still lacking. Here we propose a spinor [[Bose-Einstein condensate]] as a testbed system where critical scaling behavior in a first-order quantum phase transition can be understood from generic properties. We generalize the Kibble-Zurek mechanism to determine the critical exponents for: (1) the onset of the decay of the metastable state on short times scales, and (2) the number of resulting phase-separated ferromagnetic domains at longer times, as a one-dimensional spin-1 condensate is ramped across a first-order quantum phase transition. The predictions are in excellent agreement with mean-field numerical simulations and provide a paradigm for studying the decay of metastable states in experimentally accessible systems.
 
@@ -1950,7 +1953,7 @@ Weekly seminar, broadly on topics in [[geometry]], ([[algebraic topology|algebra
   **Mapping class group representations via Heisenberg, Schr&ouml;dinger and
 Stone-von Neumann**
 
-  [zoom link](https://nyu.zoom.us/rec/play/nqQSRLTINmsD32Bp68ysikC1yod5PKKneHckP-yhY4Z-sDbuCCCNn5UGIX7RMN_KPHkMgNPRfy2nGC2L.CufxX4yp7T9DFicw?autoplay=true&startTime=1648645579000)
+  vido: [Zoom](https://nyu.zoom.us/rec/play/nqQSRLTINmsD32Bp68ysikC1yod5PKKneHckP-yhY4Z-sDbuCCCNn5UGIX7RMN_KPHkMgNPRfy2nGC2L.CufxX4yp7T9DFicw?autoplay=true&startTime=1648645579000)
 
   > One of the first interesting [[braid group representation|representations of]] the [[braid groups]] is the [[Burau representation]]. It is the first of the family of Lawrence representations, defined topologically by viewing the braid group as the [[mapping class group]] of a punctured disc. Famously, the Burau representation is almost never faithful, but the $k = 2$ Lawrence representation is always faithful: this is a celebrated theorem of Bigelow and Krammer and implies immediately that braid groups are linear (act faithfully on finite-dimensional vector spaces). Motivated by this, and by the open question of whether mapping class groups are linear, I will describe [recent joint work with Christian Blanchet and Awais Shaukat](https://arxiv.org/abs/2109.00515) in which we construct analogues of the  awrence representations for mapping class groups of compact, orientable surfaces. Tools include twisted Borel-Moore homology of con guration spaces, Schr&ouml;dinger representations of discrete Heisenberg groups and the Stone-von Neumann theorem.
 
@@ -1967,7 +1970,7 @@ Stone-von Neumann**
 
   **Differential KO-theory via gradations and mass terms**
 
-  [zoom link](https://nyu.zoom.us/rec/play/7bZ5QFOvN2cUPSEQ2-8F1Ek8-SjV7ibQbBJANgPd1jJKP5Fv3J664ck86Rin-74Sv6HLOxSrhqOhVx4u.4Dxb1bbc5C0fN-nB?autoplay=true&startTime=1649246546000)
+  video: [Zoom](https://nyu.zoom.us/rec/play/7bZ5QFOvN2cUPSEQ2-8F1Ek8-SjV7ibQbBJANgPd1jJKP5Fv3J664ck86Rin-74Sv6HLOxSrhqOhVx4u.4Dxb1bbc5C0fN-nB?autoplay=true&startTime=1649246546000)
 
   > [[differential cohomology|Differential generalized cohomologies]] refine generalized cohomologies on manifolds so as to retain information on differential forms. The aim of my talk is to describe formulations of [[differential K-theory|differential]] [[KO-theory]] based on gradations and [[mass terms]]. The formulation based on mass terms is motivated by a conjecture of Freed and Hopkins about a classification of [[invertible quantum field theories]] and by a model of the [[Anderson dual]] of [[cobordism cohomology|cobordism theory]] given by Yamashita and Yonekura. I will start with an account of this background, and then describe the formulation of [[differential K-theory|differential]] [[KO-theory]]. In the formulation a key role is played by a uperconnection associated to a mass term. This is a joint work with [[Mayuko Yamashita]].
 
@@ -2579,7 +2582,7 @@ Stone-von Neumann**
 
 * 24 Jan 2024:
 
-  Quentin Ehret:
+  [Quentin Ehret](https://perso.matheor.com/quentin-ehret/):
 
   **Central extensions of restricted Lie superalgebras and classification of $p$-nilpotent Lie superalgebras in dimension 4**
 
@@ -2589,13 +2592,15 @@ Stone-von Neumann**
 
 \linebreak
 
-* 31 Jan 2024
+* {#BlairJan2024} 31 Jan 2024
 
   [[Chris Blair]]:
 
   **Geometry and Dualities of Decoupling Limits in String Theory and M-Theory**
 
   cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
+
+  video: [Zoom](https://nyu.zoom.us/rec/share/8bjffj-Je12l7blyFz7Zi7RBCdc1rphRMktgS3d91zPXUNB5tCOyN_U87oFiMybc.ntmnfYxBP7S3H8P8)
 
   > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
 
@@ -2621,6 +2626,9 @@ Stone-von Neumann**
 
   cf. [arXiv:2311.13358](https://arxiv.org/abs/2311.13358), [arXiv:2311.07960](https://arxiv.org/abs/2311.07960)
 
+  video: [Zoom](https://nyu.zoom.us/rec/share/c41GdU--I_-g2XLJ7A6T0HxK6AxI-utrlGb2mStB0XBOaJ3FrvC1JzoL_FsjWrEi.MBPR87t2nBR8f99t
+)
+
   >  I will talk about [[Liouville theory|Liouville]] [[conformal blocks]] with degenerate primaries and one operator in an irregular representation of the [[Virasoro algebra]]. Using an algebraic approach, we derive modified BPZ equations satisfied by such blocks and subsequently construct corresponding integral representations based on integration over non-compact Lefschetz cycles. The integral representations are then used to derive novel types of [[flat connections]] on the irregular conformal block bundle. 
 
 \linebreak
@@ -2642,7 +2650,9 @@ Stone-von Neumann**
   
   [[Du Pei]] (Centre for Quantum Mathematics, University of Southern Denmark):
 
-  *On New Invariants and Phases of Supersymmetric Quantum Field Theories*
+  **On New Invariants and Phases of Supersymmetric Quantum Field Theories**
+
+  video: [Zoom](https://nyu.zoom.us/rec/share/sYGPbeuU0leoUWpzXucAPx9UYVzeb0tN6GjVXalK-5fuKZh8X8czxB-AM6Ky6NDN.c56gKC_K1yxcl-6n)
 
   In this talk, we will explore a novel approach to study [[supersymmetry|supersymmetric]] [[quantum field theories]] using tools from [[stable homotopy theory]]. We will explain how this approach leads to new invariants that can be used to detect subtle differences between phases that escape the detection of more conventional invariants.
  
