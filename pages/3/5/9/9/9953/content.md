@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,7 +27,7 @@ $$
   O(n) \hookrightarrow O(n+1)
 $$
 
-of the [[orthogonal group]] in dimension $n$ into that in dimension $n+1$. The _stable orthogonal group_ is the [[direct limit]] over this sequence of inclusions.
+of the [[orthogonal group]] in dimension $n$ into that in dimension $n+1$. The _stable orthogonal group_ is the [[direct limit]] (as [[topological groups]] of this sequence of inclusions.
 
 $$
   O \coloneqq {\underset{\to}{\lim}}_n O(n)
@@ -44,9 +59,12 @@ Via the [[J-homomorphism]] this is related to the [[stable homotopy groups of sp
 
 * [[stable unitary group]]
 
+* [[BO(n)]]
+
 * [[J-homomorphism]]
 
-* [[topological K-theory]]
+* [[KO-theory]]
+
 
 [[!redirects stable orthogonal groups]]
 
