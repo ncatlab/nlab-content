@@ -2680,6 +2680,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
 ## Related concepts
 
+* [[BU(n)]]
+
 * [[virtual vector bundle]]
 
 * [[K-theory]]
@@ -2689,6 +2691,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
   * [[Atiyah-Bott-Shapiro isomorphism]]
 
   * [[topological index]]
+
+  * [[KO-theory]]
 
   * [[KR-theory]]
 
@@ -2838,7 +2842,7 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
-* {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 ### Topological phases of matter
 
