@@ -169,6 +169,9 @@ Presented at the AMS Meeting 876, held in Dayton, Ohio, on October 31, 1992.
 
 * [[Jacob Lurie]],  _[[On the Classification of Topological Field Theories]]_. [arXiv](http://arxiv.org/abs/0905.0465)
 
+* [[Shawn X. Cui]], *Higher Categories and Topological Quantum Field Theories*, Quantum Topology **10** 4 (2019) 593-676 &lbrack;[arXiv:1610.07628] (https://arxiv.org/abs/1610.07628), [doi:10.4171/QT/128](https://doi.org/10.4171/QT/128)&rbrack;
+
+
 With an eye towards the full extension of [[Chern-Simons theory]]:
 
 * [[Daniel S. Freed]], _Remarks on Fully Extended 3-Dimensional Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
