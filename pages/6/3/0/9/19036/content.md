@@ -33,9 +33,10 @@ Specifically on [[chord diagrams]] encoding [[SYK model]] [[correlators]] as rep
 
 * [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
 
+* [[Micha Berkooz]], Nadav Brukner, Yiyang Jia, Ohad Mamroud, *A Path Integral for Chord Diagrams and Chaotic-Integrable Transitions in Double Scaled SYK* \[<a href="https://arxiv.org/abs/2403.05980">arXiv:2403.05980</a>\]
 
 
-## Related $n$Lab entries
+## Related  entries
 
 * [[intersecting D-brane model]]
 
