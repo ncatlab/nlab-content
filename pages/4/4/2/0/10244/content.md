@@ -146,6 +146,7 @@ In [FSS 19c](#FSS19c) is offered a proof that combining super-embedding formalis
 
 [[!include worldvolume-target supersymmetry of brane sigma-models]]
 
+
 ## References
 
 ### General
@@ -168,6 +169,8 @@ where also the terminology "superembedding approach" is introduced.
 Further review:
 
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
 Derivation of [[BPS state|1/2 BPS]] superembedding via [[rational equivariant homotopy theory|rational]] [[ADE-singularity|ADE-]][[equivariant cohomotopy]]:
