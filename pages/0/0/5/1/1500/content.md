@@ -208,7 +208,7 @@ Original articles:
 
 * [[Pavel Etingof]], D. Nikshych and V. Ostrik, _Fusion categories and homotopy theory_ ,  Quantum Topology, 1(2010), 209-273. (Earlier version available as [ArXiv:0909.3140](http://arxiv.org/PS_cache/arxiv/pdf/0909/0909.3140v2.pdf)
 
-* [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
+* [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series **16** 1 (2010) 1–119 &lbrack;[arXiv:0906.0620](https://arxiv.org/abs/0906.0620), [doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z)&rbrack;
 
 
 Further review:
