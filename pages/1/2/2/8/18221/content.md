@@ -152,13 +152,12 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 
 * [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]
 
+
 ## References
  {#References}
 
 ### General
   {#ReferencesGeneral}
-
-
 
 The relation between [[complete Segal space|Segal completeness]] (now often "[[Rezk completion|Rezk completeness]]") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
 
@@ -172,7 +171,11 @@ Exposition:
 
 * [[Mike Shulman]],  _[Category Theory in Homotopy Type Theory](https://golem.ph.utexas.edu/category/2013/03/category_theory_in_homotopy_ty.html)_, 2013
 
+* {#Ahrens13} [[Benedikt Ahrens]], *Univalent categories and Rezk completion*, talk at IRIT (2013) &lbrack;[[Ahrend-UnivalentCategories.pdf:file]]&rbrack;
+
 * [[Amélia Liao]], *Univalent Category Theory*, [[Homotopy Type Theory Electronic Seminar Talks]], (October 2022) &lbrack;[video](https://www.youtube.com/watch?v=asY6dXkR2yg)&rbrack;
+
+
 
 
 Implementation in [[Coq]]:
