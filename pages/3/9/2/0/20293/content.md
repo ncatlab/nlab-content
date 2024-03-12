@@ -7,7 +7,9 @@ Every [[weakly Lindelöf topological space|weakly Lindelöf]] space with [[count
 \end{theorem}
 
 \begin{proof}
-Let $\mathcal{V}$ be a countably locally finite base. For each $x \in X$, there is a neighborhood $N_x$ meeting countably many members of $\mathcal{V}$. If $X$ is weakly Lindelöf, there is a countable $\{N_n\}_n$ which covers a dense subset of $X$. Then $ \mathcal{U} = \{V\in \mathcal{V} \mid N_n \cap V \neq \emptyset\}$ is a countable basis for X.
+Let $\mathcal{V}$ be a locally finite collection. For each $x \in X$, there is a neighborhood $N_x$ meeting finitely many members of $\mathcal{V}$. As $X$ is weakly Lindelöf, there are $x_n$ such that $\{N_{x_n}\}_n$ covers a dense subset of $X$. Then each member of $ \mathcal{V}$ meets some $N_{x_n}$, showing $ \mathcal{V}$ is countable.
+
+Therefore any countably locally finite base in a weakly Lindelöf space is countable, showing the space is second countable.
 \end{proof}
 
 ## Related statements and properties
