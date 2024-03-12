@@ -79,4 +79,4 @@ With an eye towards application in [[mathematical physics]]:
 
 * [[Jürgen Jost]], *Riemannian Geometry and Geometric Analysis*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-61860-9](https://doi.org/10.1007/978-3-319-61860-9)&rbrack;
 
-
+[[!redirects Riemannian geometries]]
