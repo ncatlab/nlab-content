@@ -28,6 +28,9 @@ B U(n)
 \coloneqq\underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{C}^k)
 $$
 \end{definition}
+
+([Milnor & Stasheff 74, page 169](#MilnorStasheff74))
+
 As the complex [[Grassmannian]] can be written as a homogenous space by
 $$
 Gr_n(\mathbb{C}^k)
@@ -45,6 +48,7 @@ Prin_{U(1)}(X)
 =[X,K(\mathbb{Z},2)]
 \cong H^2(X;\mathbb{Z}).
 $$
+Higher classifying spaces are not necessarily [[Eilenberg-MacLane spaces]], but [[continuous maps]] into them are possible, giving the idea behind [[characteristic classes]]. But they are defined for [[vector bundles]], which can be constructed from [[principal bundles]] using the [[balanced product]] $Prin_{U(n)}(X)\rightarrow Vect_\mathbb{C}^n(X),E\mapsto E\times_{U(n)}\mathbb{C}^n$.
 
 ## Cohomology
 
@@ -76,9 +80,15 @@ which is the classifying space of the [[stable unitary group]] $ U\coloneqq\unde
 
 * [[BO(n)]]
 
+* [[BSO(n)]]
+
+* [[BSU(n)]]
+
 * [[KU]]
 
 ## References
+
+* {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
 
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
