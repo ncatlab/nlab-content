@@ -105,6 +105,7 @@ $\,$
 [[!include geometries of physics -- table]]
 
 
+
 ## References
  {#References}
 
@@ -129,18 +130,23 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 ### General but traditional diff geometry
 
-* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprinted by Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
+* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprint: Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
+
+* [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971) &lbrack;[pdf](http://www.strangebeautiful.com/other-texts/spivak-calc-manifolds.pdf)&rbrack;
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
 
-* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
+
+
+* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) &lbrack;[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)&rbrack;
 
   > (with an eye towards [[mathematical physics]])
 
 
-* [[Michael Spivak]], _A comprehensive introduction to differential geometry_ (5 Volumes) 
+* Thomas A. Ivey and J.M. Landsberg, *Cartan for Beginners: Differential Geometry via Moving Frames and Exterior Differential Systems*, Graduate Studies in Mathematics **61**, AMS (2003) &lbrack;[doi:10.1090/gsm/061](https://doi.org/10.1090/gsm/061), [pdf](https://people.tamu.edu/~jml//EDSpublic.pdf), [pdf](https://people.tamu.edu/~jml//EDSpublic.pdf)&rbrack;
 
-* [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
+* [[Michael Spivak]], _A comprehensive introduction to differential geometry_, 5 Volumes 2005
+
 
 * [[M M Postnikov]], _Lectures on geometry_ 2001 (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
 
@@ -171,7 +177,7 @@ With emphasis on [[natural bundles]]:
 
 With emphasis on [[Cartan geometry]]:
 
-* R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
+* [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduare Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
 
 
 Lecture notes:
