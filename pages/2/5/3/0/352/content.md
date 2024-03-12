@@ -71,6 +71,11 @@ in terms of [[induction|inductively]] and [[coinduction|coinductively]] defined 
 
 * [[Zach Goldthorpe]], _Homotopy theories of $(\infty,\infty)$-categories as universal fixed points with respect to enrichment_, International Mathematics Research Notices **2023** 22 (2023) 19592–19640  &lbrack;[arXiv:2307.00442](https://arxiv.org/abs/2307.00442), [doi:10.1093/imrn/rnad196](https://doi.org/10.1093/imrn/rnad196)&rbrack;
 
+and generalization to higher sheaves/stacks of these:
+
+* [[Zach Goldthorpe]], *Sheaves of $(\infty,\infty)$-categories* &lbrack;[arXiv:2403.069262](https://arxiv.org/abs/2403.06926)&rbrack;
+
+
 see also 
 
 * Félix Loubaton, *Theory and models of $(\infty,\omega)$-categories* &lbrack;[arXiv:2307.11931](https://arxiv.org/abs/2307.11931)&rbrack;
