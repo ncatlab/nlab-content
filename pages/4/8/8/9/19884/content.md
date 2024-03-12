@@ -16,7 +16,7 @@
 
 ## Idea
 
-What is known as the _Banach-Tarski paradox_ is the [[theorem]] ([Banach-Tarski 24](#BanachTarski24)) that the [[axiom of choice]] implies that any two [[bounded subsets]] in [[Euclidean space]] of [[dimension]] $d \geq 3$ may be partitioned by a [[finite number]] of  pairwise congruent [[subsets]].
+What is known as the _Banach-Tarski paradox_ is the [[theorem]] by [Banach & Tarski 1924](#BanachTarski24) saying that the [[axiom of choice]] implies that any two [[bounded subsets]] in [[Euclidean space]] of [[dimension]] $d \geq 3$ may be partitioned by a [[finite number]] of  pairwise congruent [[subsets]].
 
 This is perceived as a [[paradox]] due to its counter-intuitive interpretation, which becomes particularly vivid if one takes the second bounded subset to be the [[disjoint union]] of two copies of the first one: In this case the theorem says, intuitively, that it is possible to break up any shape in 3d [[Euclidean space]] into a [[finite number]] of pieces, such that re-assembling these pieces suitably yields not just the original shape, but two complete copies of it.
 
@@ -25,7 +25,7 @@ It has been pointed out that it is not just the use of the [[axiom of choice]] t
 ## In point-free topology
  {#InPointFreeTopology}
 
-It is argued in ([Simpson 12](#Simpson12)) that the Banach-Tarski paradox disappears if one works in [[point-free topology]], hence with [[locales]] instead of just [[topological spaces]]:
+It is argued by [Simpson 2012](#Simpson12) that the Banach-Tarski paradox disappears if one works in [[point-free topology]], hence with [[locales]] instead of just [[topological spaces]]:
 
 > We view spaces of interest as [[locales]], and the notion of "part" is given by the standard notion of [[sublocale]], $[\cdots]$. Every [[topological space]] determines a [[locale]] $[\cdots]$.  However, when a space is viewed as a locale, the notion of [[sublocale]] gives rise to new "parts" of spaces that are not merely subsets, and need  not  be  determined by their points.
 
@@ -37,11 +37,11 @@ It is argued in ([Simpson 12](#Simpson12)) that the Banach-Tarski paradox disapp
 
 The original article:
 
-* {#BanachTarski24} [[Stefan Banach]], [[Alfred Tarski]], _Sur la décomposition des ensembles de points en parties respectivement congruentes_  Fundamenta Mathematicae (in French). 6: 244–277, 1924 ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm6/fm6127.pdf))
+* {#BanachTarski24} [[Stefan Banach]], [[Alfred Tarski]], _Sur la décomposition des ensembles de points en parties respectivement congruentes_,  Fundamenta Mathematicae  **6** (1924) 244–277 &lbrack;[pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm6/fm6127.pdf)&rbrack;
 
 Textbook account:
 
-* [[Cornelia Druţu]], [[Michael Kapovich]], Chapter 17 of: *Geometric group theory*, Colloquium Publications **63**, AMS 2018 ([ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649))
+* [[Cornelia Druţu]], [[Michael Kapovich]], Chapter 17 of: *Geometric group theory*, Colloquium Publications **63**, AMS (2018) &lbrack;[ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649)&rbrack;
 
 
 See also:
@@ -50,4 +50,4 @@ See also:
 
 Discussion in [[point-free topology]]:
 
-* {#Simpson12} [[Alex Simpson]], _Measure, randomness and sublocales_, Annals of Pure and Applied Logic Volume 163, Issue 11, November 2012, Pages 1642-1659 ([pdf](http://homepages.inf.ed.ac.uk/als/Research/Sources/mrs.pdf), [doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014))
+* {#Simpson12} [[Alex Simpson]], _Measure, randomness and sublocales_, Annals of Pure and Applied Logic **163** 11 (2012) 1642-1659 &lbrack;[pdf](http://homepages.inf.ed.ac.uk/als/Research/Sources/mrs.pdf), [doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014)&rbrack;
