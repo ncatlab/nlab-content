@@ -19,6 +19,11 @@ On [[weak omega-category|weak $\omega$-categories]] via [[computads]] construed 
 
 * [[Christopher J. Dean]], [[Eric Finster]], [[Ioannis Markakis]], [[David Reutter]], [[Jamie Vicary]], *Computads for weak $\omega$-categories as an inductive type* &lbrack;[arXiv:2208.08719](https://arxiv.org/abs/2208.08719)&rbrack;
 
+On [[G-crossed braided fusion categories]] via [[3-categories]]:
+
+* [[Corey Jones]], [[David Penneys]], [[David Reutter]], *A 3-categorical perspective on $G$-crossed braided categories*, J. London Math. Soc. **107** 1 (2023) 333-406 &lbrack;[arXiv:2009.00405](https://arxiv.org/abs/2009.00405), [doi:10.1112/jlms.12687](https://doi.org/10.1112/jlms.12687)&rbrack;
+
+
 
 
 category: people
