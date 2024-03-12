@@ -33,6 +33,8 @@ $$
 
 * An ordinary [[essentially algebraic theory]] is a 0-[[truncated]] essentially algebraic $(\infty,1)$-theory.
 
+* If $X$ is an [[(∞,1)-topos]], $T$-algebras in $\mathcal{X}$ correspond to left exact left adjoints $PSh(T) \to \mathcal{X}$ under the equivalence $\Fun^L(PSh(T), \mathcal{X}) \to \Fun(T, \mathcal{X})$
+
 ## Examples
 
 * A [[geometry (for structured (∞,1)-toposes)]] is an essentially algebraic $(\infty,1)$-theory.
