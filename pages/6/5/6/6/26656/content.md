@@ -41,7 +41,7 @@ implicitly stated there in bosonic dimension = 4.
 
 The evident generalization to higher dimensions is made explicit in:
 
-* Alexander W. Smith, *Torsion and curvature in higher dimensional supergravity theories*, Zeitschrift f&uuml;r Physik C -- Particles and Fields **24** (1984) 85–86 &lbrack;[doi:10.1007/BF01576291](https://doi.org/10.1007/BF01576291)&rbrack;
+* [[Alexander W. Smith]], *Torsion and curvature in higher dimensional supergravity theories*, Zeitschrift f&uuml;r Physik C -- Particles and Fields **24** (1984) 85–86 &lbrack;[doi:10.1007/BF01576291](https://doi.org/10.1007/BF01576291)&rbrack;
 
 Proof of the first part of the statement is also in:
 
