@@ -86,6 +86,10 @@ Review in:
 
 * {#Ostrik04} [[Victor Ostrik]], _Tensor categories (after P. Deligne)_ ([arXiv:math/0401347](http://arxiv.org/abs/math/0401347))
 
+On [[quotient object|quotients]] of tensor categories:
+
+* Zhenbang Zuo, Gongxiang Liu. *Quotient Category of a Multiring Category* (2024). ([arXiv:2403.06244](https://arxiv.org/abs/2403.06244)).
+
 
 
 [[!redirects quasitensor category]]
