@@ -27,7 +27,7 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
 * {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
 
-* {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
+* {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], *Supersymmetric Corrections to Eleven-Dimensional Supergravity*, JHEP 0505:052 (2005) \[<a href="https://doi.org/10.1088/1126-6708/2005/05/052">doi;10.1088/1126-6708/2005/05/052</a>, [arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107)\]
 
 * Yoshifumi Hyakutake, Sachiko Ogushi, _$R^4$ Corrections to Eleven Dimensional Supergravity via Supersymmetry_, Phys.Rev. D74 (2006) 025022 ([arXiv:hep-th/0508204](https://arxiv.org/abs/hep-th/0508204))
 
