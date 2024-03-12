@@ -13,9 +13,16 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
+
+
+> In the wake of the movement of ideas which followed the [[general relativity|general theory of relativity]], I was led to introduce the notion of new geometries, more general than [[Riemannian geometry]], and playing with respect to the different [[Klein geometries]] the same role as the [[Riemannian geometries]] play with respect to [[Euclidean space]]. The vast synthesis that I realized in this way depends  of course on the ideas of [[Felix Klein|Klein]] formulated in his celebrated [[Erlangen program|Erlangen programme]] while at the same time going far beyond it since it includes [[Riemannian geometry]], which had formed a completely isolated branch of geometry, within the compass of a very general scheme in which the notion of [[group]] still plays a fundamental role. 
+
+> &lbrack;[[Élie Cartan]] 1939, as quoted in [Sharpe 1997, p. 171](#Sharpe97)&rbrack;
+
 
 ## Idea
 
@@ -65,11 +72,11 @@ The original articles are
 
 * {#Cartan23} [[Élie Cartan]], _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
 
-Textbook accounts are in 
+Monographs:
 
-* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlangen program_ Springer (1997)
+* {#Sharpe97} [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduare Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
 
-* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009 ([ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154))
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of: _Parabolic Geometries I -- Background and General Theory_, AMS (2009) &lbrack;[ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154)&rbrack;
 
 * [ps](http://www.math.muni.cz/~slovak/Vyuka/gs2.ps)
 
