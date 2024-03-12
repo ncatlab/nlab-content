@@ -76,6 +76,38 @@ by the same map. Alternatively, this is [Kerodon, tag 03JQ](#Kerodon).
 
 This means that we have the formulas $Tw(C) \simeq el(\hom_C) \simeq ({*} \downarrow \hom)$, just as in the 1-category version.
 
+We can say more:
+
++-- {: .num_prop }
+###### Proposition
+
+If $C \to D$ is an inner fibration of simplicial sets, then 
+the universal map
+$$Tw(C) \to (C^{op} \times C) \times_{D^{\op} \times D} Tw(D)$$
+is a left fibration.
+
+=--
++-- {: .proof}
+###### Proof
+
+This is [Kerodon, tag 03JT](#Kerodon).
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+$Tw : sSet \to sSet$ is a right Quillen functor with respect to the [[model structure for quasicategories ]]
+
+=--
++-- {: .proof}
+###### Proof
+
+Let $L$ be the left adjoint. $L$ preserves monomorphisms, so we need to show it preserves trivial cofibrations. The [[model structure for quasicategories ]] is a Cisinski model structure, so a map is a trivial cofibration iff it has the left lifting property against fibrations between fibrant objects, which in this case are the categorical fibrations between quasicategories.
+
+Suppose $i$ is a trivial cofibration, and let $f : C \to D$ be a categorical fibration between quasi-categories. Since [[left Kan fibrations]] are categorical fibrations, the previous lemma implies $Tw(f)$ is a categorical fibration between quasicategories, so $i \perp Tw(f)$, and thus $L(i) \perp f$.
+
+=--
 
 ## Related concepts
 
