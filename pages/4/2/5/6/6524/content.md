@@ -67,4 +67,28 @@ See also
 
 [[!include local and global geometry - table]]
 
+## References
+
+Monographs:
+
+* {#Sharpe97} [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduare Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
+
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of: _Parabolic Geometries I -- Background and General Theory_, AMS (2009) &lbrack;[ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154)&rbrack;
+
+Discussion of torsion in [[gravity|gravitational]] [[classical field theory]]:
+
+* [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Élie Cartan’s torsion in geometry and in field theory, an essay*, Annales de la Fondation Louis de Broglie, **32** 2-3 (2007) 157-194 &lbrack;[pdf](https://fondationlouisdebroglie.org/AFLB-322/aflb322m595.pdf), [arXiv:0711.1535](https://arxiv.org/abs/0711.1535)&rbrack; 
+
+Discussion with an eye towards [[torsion constraints in supergravity]]:
+
+* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ &lbrack;[arXiv:0108125](http://arxiv.org/abs/math/0108125)&rbrack;
+
+  following:
+
+  [[John Lott]], *Torsion constraints in supergeometry*, Comm. Math. Phys. **133** (1990) 563-615 &lbrack;[doi:10.1007/BF02097010](https://doi.org/10.1007/BF02097010)&rbrack;
+
+
+
+
+
 
