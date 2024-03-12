@@ -22,7 +22,7 @@ On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Gre
 
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
 
-
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 On [[kappa-symmetry]] explained via the [[superembedding approach]]:
 
