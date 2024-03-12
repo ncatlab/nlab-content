@@ -34,6 +34,17 @@ Gr_n(\mathbb{R}^k)
 $$
 the group structure carries over to $B O(n)$.
 
+## Smallest classifying space
+
+The smallest classifying space $B O(1)$ is the [[infinite real projective space]] $\mathbb{R}P^\infty$. It is also a [[Eilenberg--MacLane space]] $K(\mathbb{Z}_2,1)$, hence $U(1)$ [[principal bundles]] over a space are classified by its first [[cohomology]] in the [[field]] $\mathbb{Z}_2$ of two elements:
+$$
+Prin_{O(1)}(X)
+=[X,B O(1)]
+=[X,\mathbb{R}P^\infty]
+=[X,K(\mathbb{Z}_2,1)]
+\cong H^1(X;\mathbb{Z}_2)
+$$
+
 ## Cohomology
 
 \begin{theorem}
@@ -79,6 +90,10 @@ and indeed the classifying space for the [[stable orthogonal group]] $O\coloneqq
 * {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
 
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
+See also 
+
+* Wikipedia, _[Classifying space for O(n)](https://en.wikipedia.org/wiki/Classifying_space_for_orthogonal_group)_
 
 [[!redirects classifying space of O(n)]]
 [[!redirects classifying space of orthogonal group]]
