@@ -13,6 +13,10 @@ On [[pre-metric electromagnetism]]:
 
 * [[Yuri N. Obukhov]], *Premetric approach in gravity and electrodynamics*, in: *The Fifteenth Marcel Grossmann Meeting* (2022) 654-659 &lbrack;[doi:10.1142/9789811258251_0087](https://doi.org/10.1142/9789811258251_0087), [arXiv:1904.00180](https://arxiv.org/abs/1904.00180)&rbrack;
 
+On [[torsion of a metric connection|torsion]] in [[gravity|gravitational]] [[classical field theory]]:
+
+* [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Élie Cartan’s torsion in geometry and in field theory, an essay*, Annales de la Fondation Louis de Broglie, **32** 2-3 (2007) 157-194 &lbrack;[pdf](https://fondationlouisdebroglie.org/AFLB-322/aflb322m595.pdf), [arXiv:0711.1535](https://arxiv.org/abs/0711.1535)&rbrack; 
+
 
 ## Related entries
 
