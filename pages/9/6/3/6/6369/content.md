@@ -27,9 +27,8 @@ An [[algebraic number]] is a [[root]] of a [[polynomial]] [[equation]] with [[in
 
 The main direction in algebraic number theory is the [[class field theory]] which roughly studies finite abelian extensions of number fields. The one dimensional class field theory stems from the ideas of Kronecker and Weber, and results of Hilbert soon after them. Main results of the theory belong to the first half of the 20th century (Hilbert, Artin, Tate, Hasse...) and are quite different for the [[local field]] from the [[global field]] case. Generalizations for higher dimensional fields came later under now active higher class field theory, which is usually formulated in terms of algebraic K-theory and is closely related to deep questions of algebraic geometry (Tate, Kato, Saito etc.). 
 
-## Related entries
 
-The circle of $n$Lab entries belonging or related closely to algebraic number theory is in its infancy, and the partial list of entries some of which are started and most of which are to be created should include (the entries grouped by similarity)
+## Related entries
 
 * [[field]], [[characteristic]], [[division ring]], [[ideal]]
 
@@ -75,9 +74,11 @@ The circle of $n$Lab entries belonging or related closely to algebraic number th
 
 * {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
 
-* [[Albrecht Fröhlich]], Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics 27, 1993
+* [[Albrecht Fröhlich]], Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27** (1993)
 
-* [[James Milne]], *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
+* [[Serge Lang]], _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1994) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
+
+* [[James Milne]], *Algebraic number theory* (2020) &lbrack;[pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf)&rbrack;
 
 The following survey of Connes-Marcolli work has an accessible quick introduction to algebraic number theory
 
