@@ -69,7 +69,7 @@ such that
 $$a = \langle a_i \rangle_{i \in I} \in \prod_{i \in I} M(s_i),$$
 $M(\sigma)(a)$ is defined if and only if all the equations in $Def(\sigma)$ are satisfied at the argument $a$. 
 
-* All the equations of $E$ are satisfied (i.e., are interpreted as equations between partial functions). 
+* All the equations of $E$ are satisfied (i.e. the restrictions of both partial functions to the intersection of their domains of definitions are equal). 
 =--
 
 Homomorphisms of models $\theta: M \to M'$ are defined in the standard way: a collection of functions $\theta(s): M(s) \to M'(s)$ for each sort of the signature $\Sigma$ which are compatible with the $M(\sigma), M'(\sigma)$ in the evident way. 
