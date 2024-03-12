@@ -135,6 +135,9 @@ With emphasis on the [[AdS-CFT|holographic content]]:
 
 * [[Herman Verlinde]], *Double-scaled SYK, Chords and de Sitter Gravity* \[<a href="https://arxiv.org/abs/2402.00635">arXiv:2402.00635</a>\]
 
+* [[Micha Berkooz]], Nadav Brukner, Yiyang Jia, Ohad Mamroud, *A Path Integral for Chord Diagrams and Chaotic-Integrable Transitions in Double Scaled SYK* \[<a href="https://arxiv.org/abs/2403.05980">arXiv:2403.05980</a>\]
+
+
 
 and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravity]]: 
 
