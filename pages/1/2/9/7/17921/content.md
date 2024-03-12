@@ -21,7 +21,7 @@ A [[fusion category]] over a field $k$ can be seen as a [[categorification]] of 
 
 In this sense, a $G$-crossed braided fusion category can be seen as some kind of categorification of a crossed module $(G, H, \delta\colon H \to G, \alpha\colon G \to Aut(H))$, where the group $H$ is lifted to a fusion category, but $G$ is still a (finite) group. The boundary morphism $\delta$ is replaced by a $G$-grading, and the Peiffer rule ($G$-graded commutativity) is categorified to a _crossed braiding_ on $\mathcal{C}$.
 
-$G$-crossed braided fusion category should also be related to monoidal bicategories.
+$G$-crossed braided fusion categories can also be turned into monoidal bicategories.
 
 ## Name
 
@@ -124,7 +124,14 @@ TODO Cui's 2-category
 * Section 4.4 in _On braided fusion categories I_, Drinfeld, Gelaki, Nikshych, Ostrik. [ArXiv](http://arxiv.org/abs/0906.0620)
 * Turaev
 * M&#252;ger
-* Cui
+
+Description of $G$-crossed braided categories as monoidal bicategories and construction of a 4d TQFT:
+
+* Cui [ArXiv] (https://arxiv.org/abs/1610.07628v2)
+
+Equivalence of certain Gray categories with $G$-crossed braided categories and strictification:
+
+* Jones, Penneys, Reutter [ArXiv](https://arxiv.org/abs/2009.00405v1)
 
 [[!redirects $G$-crossed braided fusion categories]]
 [[!redirects Braided $G$-crossed fusion categories]]
