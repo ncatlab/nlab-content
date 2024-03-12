@@ -27,6 +27,9 @@ B O(n)
 \coloneqq\underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
 $$
 \end{definition}
+
+([Milnor & Stasheff 74, page 151](#MilnorStasheff74))
+
 As the real [[Grassmannian]] can be written as a homogenous space by
 $$
 Gr_n(\mathbb{R}^k)
@@ -44,6 +47,7 @@ Prin_{O(1)}(X)
 =[X,K(\mathbb{Z}_2,1)]
 \cong H^1(X;\mathbb{Z}_2)
 $$
+Higher classifying spaces are not necessarily [[Eilenberg-MacLane spaces]], but [[continuous maps]] into them are possible, giving the idea behind [[characteristic classes]]. But they are defined for [[vector bundles]], which can be constructed from [[principal bundles]] using the [[balanced product]] $Prin_{O(n)}(X)\rightarrow Vect_\mathbb{R}^n(X),E\mapsto E\times_{O(n)}\mathbb{R}^n$.
 
 ## Cohomology
 
@@ -81,7 +85,11 @@ and indeed the classifying space for the [[stable orthogonal group]] $O\coloneqq
 
 ## Related concepts
 
+* [[BSO(n)]]
+
 * [[BU(n)]]
+
+* [[BSU(n)]]
 
 * [[KO]]
 
