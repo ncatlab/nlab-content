@@ -35,6 +35,17 @@ Gr_n(\mathbb{C}^k)
 $$
 the group structure carries over to $B U(n)$.
 
+## Smallest classifying space
+
+The smallest classifying space $B U(1)$ is the [[infinite complex projective space]] $\mathbb{C}P^\infty$. It is also a [[Eilenberg--MacLane space]] $K(\mathbb{Z},2)$, hence $U(1)$ [[principal bundles]] over a space are classified by its second [[cohomology]] in the [[ring]] $\mathbb{Z}$ of [[integers]]:
+$$
+Prin_{U(1)}(X)
+\cong [X,B U(1)]
+=[X,\mathbb{C}P^\infty]
+=[X,K(\mathbb{Z},2)]
+\cong H^2(X;\mathbb{Z}).
+$$
+
 ## Cohomology
 
 \begin{theorem}
@@ -70,6 +81,10 @@ which is the classifying space of the [[stable unitary group]] $ U\coloneqq\unde
 ## References
 
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
+See also 
+
+* Wikipedia, _[Classifying space for U(n)](https://en.wikipedia.org/wiki/Classifying_space_for_unitary_group)_
 
 [[!redirects classifying space of U(n)]]
 [[!redirects classifying space of unitary group]]
