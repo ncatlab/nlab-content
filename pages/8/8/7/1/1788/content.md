@@ -1,4 +1,10 @@
 
+On the history of the [[S-matrix]] in view of the origin of [[string theory]]:
+
+* Robert van Leeuwen, *From S-matrix theory to strings: Scattering data and the commitment to non-arbitrariness* &lbrack;[arXiv:2403.06690](https://arxiv.org/abs/2403.06690)&rbrack;
+
+
+
 [[Ahrend-UnivalentCategories.pdf:file]]
 
 $$
