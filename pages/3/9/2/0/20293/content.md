@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Statement
 
 Recall that a [[topological space]] is [[weakly Lindelöf topological space|weakly Lindelöf]] if every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.
@@ -15,3 +30,9 @@ Therefore any countably locally finite base in a weakly Lindelöf space is count
 ## Related statements and properties
 
 [[!include topology - global countability axioms]]
+
+## References
+ {#References}
+
+* Steven Clontz, reply to: "Is a $\sigma$-locally finite collection of open sets locally countable?" &lbrack;[MO:a/4878837](https://math.stackexchange.com/a/4878837/58526)&rbrack;
+
