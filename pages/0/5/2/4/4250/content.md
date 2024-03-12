@@ -45,7 +45,7 @@ Let $S^n  \,\coloneqq\, \partial \Delta[n+1]$ (or  $S^n \coloneqq Ex^\infty \par
 
 Then for $X \in \mathbf{H}$ an [[object]], the [[powering|power object]] $X^{S^n} \,\in\, \mathbf{H}$ plays the role of the space of of maps from the $n$-sphere into $X$, as in the definition of [[simplicial homotopy groups]], to which this reduces in the case that $\mathbf{H} = $ [[∞Grpd]]. 
 
-Moreover, [[powering]] of the canonical morphism $ i_n \colo * \to S^n$ induces a morphism
+Moreover, [[powering]] of the canonical morphism $ i_n \colon * \to S^n$ induces a morphism
 
 $$
   X^{i_n} \;\colon\; X^{S^n} \longrightarrow X
