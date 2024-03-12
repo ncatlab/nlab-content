@@ -197,3 +197,9 @@ Computation of [[cohomotopy]]-sets of real projective space:
 
 
 [[!redirects real projective spaces]]
+
+[[!redirects real projective n-space]]
+[[!redirects real projective n-spaces]]
+
+[[!redirects infinite real projective space]]
+[[!redirects infinite real projective spaces]]
