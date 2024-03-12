@@ -386,8 +386,17 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]]:
 
 * [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2401.03125](https://arxiv.org/abs/2401.03125), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
+\linebreak
+
+
+On the [[super-embedding formalism]] for describing [[super p-branes]]:
+
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes* &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
  
 \linebreak
+
+
 
 
 
