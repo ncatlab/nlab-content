@@ -3,6 +3,14 @@
 
 ## Selected writings
 
+On [[univalent categories]] in [[homotopy type theory]]:
+
+
+* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_, Mathematical Structures in Computer Science **25** 5 (*From type theory and homotopy theory to Univalent Foundations of Mathematics*),  (2015) 1010-1039   &lbrack;[arXiv:1303.0584](https://arxiv.org/abs/1303.0584), [doi:10.1007/978-3-319-21284-5_14](https://doi.org/10.1007/978-3-319-21284-5_14)&rbrack;
+
+
+* {#Ahrens13} [[Benedikt Ahrens]], *Univalent categories and Rezk completion*, talk at IRIT (2013) &lbrack;[[Ahrend-UnivalentCategories.pdf:file]]&rbrack;
+
 On the [[UniMath project]]:
 
 * [[Benedikt Ahrens]], _UniMath: its origins, present, and future_ (2017) &lbrack;[pdf](https://unimath.github.io/bham2017/UniMath_origins-present-future.pdf), [[Ahrens-UniMathHistory.pdf:file]]&rbrack;
