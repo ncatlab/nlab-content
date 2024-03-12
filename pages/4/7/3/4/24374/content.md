@@ -31,7 +31,7 @@ The later modality $\triangleright$ is an endofunctor in this category defined a
 Inspired by terminology used in the metric spaces (see below), every map $X \to X$ in $\text{Set}^{\omega^\text{op}}$ is called *non-expansive* while a map $f : X \to X$ is *contractive* if it factors through the $\text{next}$ map, i.e. there exists a map $g : \triangleright X \to X$ such that $f = g \circ \text{next}$. 
 
 ### Fixed-point construction
-A $\triangleright$-algebra $(X, f)$ yields a natural transformation with components $f_1 : 1 \to X(0)$ and $f_i : X(i) \to X(i+1)$ commuting with the restriction maps of the object $X$. 
+A $\triangleright$-algebra $(X, f)$ yields a natural transformation with components $f_0 : 1 \to X(0)$ and $f_i : X(i) \to X(i+1)$ commuting with the restriction maps of the object $X$. 
 It can therefore be thought of as an $\omega$-chain as follows 
 
 $$1 \xrightarrow{f_0} X(0) \xrightarrow{f_1} X(1)  \dots \to X(n) \dots $$
