@@ -1289,7 +1289,10 @@ The existence of [[kappa-symmetry]] was first noticed around
 
 The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Cartan geometry]] of super-[[target space]] is discussed in
 
-* {#McArthur} I.N. McArthur, _Kappa-Symmetry of Green-Schwarz Actions in Coset Superspaces_ ([arXiv:hep-th/9908045](http://arxiv.org/abs/hep-th/9908045))
+* {#McArthur} [[Ian N. McArthur]], _Kappa-Symmetry of Green-Schwarz Actions in Coset Superspaces_, Nucl. Phys. B **573** (2000) 811-829 \[<a href="https://doi.org/10.1016/S0550-3213(99)00800-7">https://doi.org/10.1016/S0550-3213(99)00800-7</a>\]
+
+
+ &lbrack;[arXiv:hep-th/9908045](http://arxiv.org/abs/hep-th/9908045)&rbrack;
 
 
 * {#GKW} [[Joaquim Gomis]], Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
