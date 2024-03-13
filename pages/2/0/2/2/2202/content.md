@@ -18,7 +18,7 @@
 
 ## Definition
 
-A [[monoidal category]] is **semicartesian** if the [[unit object|unit]] for the [[tensor product]] is a [[terminal object]]. This is a weaker version of the concept of *[[cartesian monoidal category]]* (where moreover the teson product is required to be the [[Cartesian product]]). 
+A [[monoidal category]] is **semicartesian** if the [[unit object|unit]] for the [[tensor product]] is a [[terminal object]]. This is a weaker version of the concept of *[[cartesian monoidal category]]* (where moreover the tensor product is required to be the [[cartesian product]]). 
 
 [[formal duality|Dually]], a monoidal category is **semicocartesian** if the unit for the tensor product is an [[initial object]]. This is a weaker version of the concept of *[[cocartesian monoidal category]]* (where in addition the tensor product is required to be the [[coproduct]].)
 
