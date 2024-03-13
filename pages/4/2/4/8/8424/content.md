@@ -52,7 +52,7 @@ Discussion of normal coordinates in [[supergeometry]] ([[super Cartan geometry]]
 
 * [[Sylvester James Gates Jr.]], [[Marcus Grisaru]], Marcia E. Knutt-Wehlau, [[Warren Siegel]], *Component actions from curved superspace: Normal coordinates and ectoplasm*, Physics Letters B **421** 1–4, 5 (1998) 203-210 \[<a href="https://doi.org/10.1016/S0370-2693(97)01557-8">doi:10.1016/S0370-2693(97)01557-8</a>\]
 
-* [[Dimitrios Tsimpis]], *Curved 11D supergeometry*, JHEP11 (2004) 087 &lbrack;[doi:10.1088/1126-6708/2004/11/087](https://iopscience.iop.org/article/10.1088/1126-6708/2004/11/087), [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)&rbrack;
+* {#Tsimpis04} [[Dimitrios Tsimpis]], *Curved 11D supergeometry*, JHEP11 (2004) 087 &lbrack;[doi:10.1088/1126-6708/2004/11/087](https://iopscience.iop.org/article/10.1088/1126-6708/2004/11/087), [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)&rbrack;
 
 
 
