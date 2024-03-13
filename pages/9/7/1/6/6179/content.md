@@ -224,6 +224,10 @@ and that it works particularly for [[N=4 D=4 super Yang-Mills theory]] is due to
 
 * H. Osborn, _Topological Charges For $N = 4$ Supersymmetric Gauge Theories And Monopoles Of Spin 1_, Phys. Lett. B83 (1979) 321-326.
 
+with further computations in
+
+* [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B **431** (1994) 3-77 &lbrack;[arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074)&rbrack;
+
 The observation that the $\mathbb{Z}_2$ electric/magnetic duality extends to an $SL(2,\mathbb{Z})$-action in this case is due to 
 
 * [[John Cardy]], E. Rabinovici, _Phase Structure Of Zp Models In The Presence Of A Theta Parameter_, Nucl. Phys. B205 (1982) 1-16; 
