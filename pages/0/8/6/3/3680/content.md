@@ -578,7 +578,8 @@ This can be used to establish a [[Bousfield-Kan formula]] for [[homotopy colimit
 
 ## References
 
- 
+* {#Hirschhorn} [[Philip S. Hirschhorn]], Section 19.6 of [[Model Categories and Their Localizations]].
+
 * {#Lurie} [[Jacob Lurie]], Section 4.1 of: _[[Higher Topos Theory]]_
  
 * [[Dan Dugger]], Section 6 ofL _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
