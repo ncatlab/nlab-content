@@ -10,6 +10,8 @@
 
 A **ternary frame** is a way of presenting a model for a [[substructural logic]] (such as [[linear logic]] and [[relevant logic]]) in terms of a set of "worlds" or "states of information" and a ternary [[relation]].
 
+The construction generalizes from [[posets]] to [[categories]] using the [[Day convolution]] of a [[promonoidal category]] ([see below](#dayconvolution)), or a "promagmal category" in the weakest version.
+
 ## Definition
 
 A **ternary frame** is a set $A$ together with a ternary relation $R$ on $A$; we write $R x y z$ when $R$ holds of three elements $x,y,z\in A$.
@@ -26,10 +28,11 @@ The [[logical connectives]] can then be defined inductively by clauses such as t
 * $x \Vdash P \oplus Q$ (the positive [[disjunction]]) if and only if $x \Vdash P$ or $x\Vdash Q$.
 * $x \Vdash \mathbf{0}$ (the positive [[falsity]]) never.
 * $x \Vdash \top$ (the negative [[truth]]) always.
-* $x \Vdash P \multimap Q$ (the one-sided linear implication) if and only if for all $y,z$, if $R x y z$ and $y\Vdash P$, then $z\Vdash Q$.
 * $x \Vdash P \otimes Q$ (the positive conjunction) if and only if there exist $y,z$ such that $R y z x$ and $y\Vdash P$ and $z\Vdash Q$.
+* $x \Vdash P \multimap Q$ (the one-sided linear implication) if and only if for all $y,z$, if $R x y z$ and $y\Vdash P$, then $z\Vdash Q$.
+* $x \Vdash P \multimap' Q$ (the dual linear implication) if and only if for all $y,z$, if $R x y z$ and $z\Vdash P$, then $y\Vdash Q$.
 
-The logic obtained thereby will generally be [[substructural logic|substructural]]: it need not satisfy the structural rules like [[weakening rule|weakening]], [[contraction rule|contraction]], or even [[exchange rule|exchange]].  On this page, we have used the notation for substructural connectives from [[linear logic]].
+The logic obtained thereby will generally be [[substructural logic|substructural]]: it need not satisfy the structural rules like [[weakening rule|weakening]], [[contraction rule|contraction]], [[exchange rule|exchange]] or even associativity and unit for the tensor product. On this page, we have used the notation for substructural connectives from [[linear logic]].
 
 ## Additional structure
 
@@ -64,7 +67,7 @@ We can then, if we wish, interpret negation and negative disjunction by defining
 The latter is most sensible if negation is involutive, which it need not be in general --- that is, if $x \Vdash \neg \neg P$ we need not have $x\Vdash P$.  One solution to this (if we want negation to be involutive) is to close up $\Vdash$ under double-negation.  This entails replacing the clauses defining the interpretation of the positive connectives $\otimes$, $\oplus$, $\mathbf{1}$, and $\mathbf{0}$ with their double-negation closure.  This is commonly done in the [[phase semantics]] for linear logic (see below).
 
 
-## From ternary frames to quantales
+## From ternary frames to quantales {#dayconvolution}
 
 Since the models above associate to formulas *subsets* of $A$, it seems natural to describe them in a purely algebraic way using structure on the [[powerset]] of $A$.  In the case when $A$ is a poset, instead of the powerset of $A$ we must use the set of up-closed subsets of $A$.  Since this subsumes the unordered case (use the discrete ordering), we henceforth assume $A$ to be a poset, with $R$ having the assumed compatibility relation.
 
