@@ -20,7 +20,6 @@
 
 
 
-
 #Contents#
 
 * table of contents
@@ -901,7 +900,7 @@ $$
 
 =--
 
-See ([Dugger, example 18.2](#Dugger)).
+See [Dugger, example 18.2](#Dugger).
 
 
 ### Homotopy colimits of diagrams of spaces
@@ -939,7 +938,7 @@ $$
 
 This is an application of the [bar-construction method](BarConstruction).
 
-See for instance ([Dugger, part 1](#Dugger)) for an exposition.
+See for instance [Dugger, part 1](#Dugger) for an exposition.
 
 
 #### Higher homotopy van Kampen theorem
@@ -1083,9 +1082,9 @@ More recently one has:
 * [[Emily Riehl]], Chapter 5 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
 
-An introduction is 
+An introduction:
 
-* {#Dugger} [[Daniel Dugger]], _A primer on homotopy colimits_, 2008 ([pdf](http://math.uoregon.edu/~ddugger/hocolim.pdf))
+* {#Dugger} [[Daniel Dugger]], *A primer on homotopy colimits*, (2008) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim.pdf), [pdf](https://www3.nd.edu/~stolz/2021S_Math80440/hocolim.pdf), [[Dugger-PrimerHomotopyColimits.pdf:file]]&rbrack;
  
 
 A general overview via universal properties is in the 
