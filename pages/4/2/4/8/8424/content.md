@@ -47,8 +47,7 @@ Discussion of normal coordinates in [[supergeometry]] ([[super Cartan geometry]]
 
 with application to [[sigma-models]]
 
-* [[Joseph Atick]], Avinash Dhar, §3 in: *$\theta$-Expansion and light-cone gauge fixing in curved superspace $\sigma$-models*, Nuclear Physics B
-**284** (1987) 131-145 \[<a href="https://doi.org/10.1016/0550-3213(87)90029-0">doi:10.1016/0550-3213(87)90029-0</a>\]
+* [[Joseph Atick]], Avinash Dhar, §3 in: *$\theta$-Expansion and light-cone gauge fixing in curved superspace $\sigma$-models*, Nuclear Physics B **284** (1987) 131-145 \[<a href="https://doi.org/10.1016/0550-3213(87)90029-0">doi:10.1016/0550-3213(87)90029-0</a>\]
 
 * [[Sylvester James Gates Jr.]], [[Marcus Grisaru]], [[Marcia E. Knutt-Wehlau]], [[Warren Siegel]], *Component actions from curved superspace: Normal coordinates and ectoplasm*, Physics Letters B **421** 1–4, 5 (1998) 203-210 \[<a href="https://doi.org/10.1016/S0370-2693(97)01557-8">doi:10.1016/S0370-2693(97)01557-8</a>\]
 
@@ -56,7 +55,7 @@ and to [[supergravity]]:
 
 * [[Marcus Grisaru]], [[Marcia E. Knutt-Wehlau]], [[Warren Siegel]], *A Superspace normal coordinate derivation of the density formula*, Nucl. Phys. B **523** (1998) 663-679 \[<a href="https://doi.org/10.1016/S0550-3213(98)00151-5">doi:10.1016/S0550-3213(98)00151-5</a>, [arXiv:hep-th/9711120](https://arxiv.org/abs/hep-th/9711120)\]
 
-specifically to [[D=11 supegravity]]:
+specifically to [[D=11 supergravity]]:
 
 * {#Tsimpis04} [[Dimitrios Tsimpis]], *Curved 11D supergeometry*, JHEP11 (2004) 087 &lbrack;[doi:10.1088/1126-6708/2004/11/087](https://iopscience.iop.org/article/10.1088/1126-6708/2004/11/087), [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)&rbrack;
 
