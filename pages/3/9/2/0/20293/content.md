@@ -34,5 +34,5 @@ Therefore any countably locally finite base in a weakly Lindelöf space is count
 ## References
  {#References}
 
-* Steven Clontz, reply to: "Is a $\sigma$-locally finite collection of open sets locally countable?" &lbrack;[MO:a/4878837](https://math.stackexchange.com/a/4878837/58526)&rbrack;
+* "Is a $\sigma$-locally finite collection of open sets locally countable?" &lbrack;[MO:a/4878507](https://math.stackexchange.com/q/4878507/58526)&rbrack;
 
