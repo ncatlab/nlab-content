@@ -13,7 +13,7 @@ Unlike [[lens (in computer science)|lenses]], in general optics do not require a
 
 ## Definition
 
-Let $(\mathbf M, I, \otimes)$ be a symmetric monoidal category. Let $\mathbf C$ and $\mathbf D$ be $\mathbf M$-[[actegories]], i.e. there are pseudoactions $\bullet$ and $\ast$ of $\mathbf M$ acts on $\mathbf C$ and $\mathbf D$, respectively.
+Let $(\mathbf M, I, \otimes)$ be a symmetric monoidal category. Let $\mathbf C$ and $\mathbf D$ be $\mathbf M$-[[actegories]], i.e. there are pseudoactions $\bullet$ and $\ast$ of $\mathbf M$ acting on $\mathbf C$ and $\mathbf D$, respectively.
 
 \begin{definition}
 The category of $(\mathbf C, \mathbf D)$-mixed optics $\mathrm{Optic}_{\bullet, \ast}(\mathbf C, \mathbf D)$ has objects given by pairs $(X : \mathbf C,Y : \mathbf D)$ and hom-sets given by
