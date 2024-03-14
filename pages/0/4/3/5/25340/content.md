@@ -23,4 +23,9 @@ On universality of [[braid representation|braid]] [[quantum gates]] of [[su(2)-a
 * [[Nikita Kolganov]], [[Sergey Mironov]], [[Andrey Morozov]], *Large $k$ topological quantum computer*, Nuclear Physics B
 **987** (2023) 116072 &lbrack;[arXiv:2105.03980](https://arxiv.org/abs/2105.03980), [doi:10.1016/j.nuclphysb.2023.116072](https://doi.org/10.1016/j.nuclphysb.2023.116072)&rbrack;
 
+On [[quantum measurement]] of [[anyons]]:
+
+* [[Andrey Morozov]], *On measuring the topological charge of anyons* &lbrack;[arXiv:2403.07847](https://arxiv.org/abs/2403.07847)&rbrack;
+
+
 category: people
