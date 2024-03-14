@@ -22,6 +22,10 @@ On [[model categories]]:
 
 * [[Mark Hovey]], _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s),   [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
+* {#Hovey99Err} [[Mark Hovey]], _Errata to Model Categories_ (1999) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf), [[Hovey-ModelCategories-Errata.pdf:file]]&rbrack;
+
+
+
 On general [[model structures on symmetric spectra]] (applicable e.g. to [[model structures for parameterized spectra]]):
 
 * {#Hovey00} [[Mark Hovey]], *Spectra and symmetric spectra in general model categories*, Journal of Pure and Applied Algebra **165** 1 (2001) 63-127 &lbrack;[arXiv:0004051](http://arxiv.org/abs/math/0004051), <a href="https://doi.org/10.1016/S0022-4049(00)00172-9">doi:10.1016/S0022-4049(00)00172-9</a>&rbrack;
