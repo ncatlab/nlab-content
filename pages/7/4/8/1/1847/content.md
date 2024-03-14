@@ -23,7 +23,7 @@ Recall:
 
 Let $(X,\tau)$ be a [[topological space]].
 
-An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for each point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+An [[open cover]] $\left\{U_i \subset X \right\}_{i \in I}$ of $X$ is called  _locally finite_ if for each point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \left\{x\right\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
 
 =--
 
