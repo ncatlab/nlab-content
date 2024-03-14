@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -578,17 +579,22 @@ This can be used to establish a [[Bousfield-Kan formula]] for [[homotopy colimit
 
 ## References
 
-* {#Hirschhorn} [[Philip S. Hirschhorn]], Section 19.6 of [[Model Categories and Their Localizations]].
+* {#Hovey} [[Mark Hovey]], Item 9 of: _Errata to Model Categories_ (1999) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf), [[Hovey-ModelCategories-Errata.pdf:file]]&rbrack;
 
-* {#Lurie} [[Jacob Lurie]], Section 4.1 of: _[[Higher Topos Theory]]_
+* {#Hirschhorn} [[Philip S. Hirschhorn]], Section 19.6 of *[[Model Categories and Their Localizations]]*, Mathematical Surveys and Monographs **99**, AMS (2002) &lbrack;ISBN:0-8218-3279-4, [doi:10.1090/surv/099](https://doi.org/10.1090/surv/099), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
+
+* {#Dugger} [[Daniel Dugger]], Section 6 of: *A primer on homotopy colimits*, (2008) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim.pdf), [pdf](https://www3.nd.edu/~stolz/2021S_Math80440/hocolim.pdf), [[Dugger-PrimerHomotopyColimits.pdf:file]]&rbrack;
+
+
+* {#Lurie} [[Jacob Lurie]], Section 4.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
  
-* [[Dan Dugger]], Section 6 ofL _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+* {#Cisinski} [[Denis-Charles Cisinski]], *[[Higher Categories and Homotopical Algebra]]*,   Cambridge Studies in Advanced Mathematics **180**, Cambridge University Press (2019) &lbrack;ISBN: 9781108588737, [doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf)&rbrack;
 
-* {#Hovey} [[Mark Hovey]], Item 9 of: _Errata to Model Categories_ ([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
 
-* {#Shah} [[Jay Shah]], *Parametrized higher categories and higher algebra: Expose II- Indexed homotopy limits and colimits*
 
-* {#Cisinski} [[Denis-Charles Cisinski]], *Higher Categories and Homotopical Algebra*
+* {#Shah} [[Jay Shah]], *Parametrized higher categories and higher algebra*, Algebr. Geom. Topol. **23** (2023) 509-644 &lbrack;[arXiv:1809.05892](https://arxiv.org/abs/1809.05892), [doi:10.2140/agt.2023.23.509](https://doi.org/10.2140/agt.2023.23.509)&rbrack;
+
+
 
 
 [[!redirects cofinal (infinity,1)-functor]]
