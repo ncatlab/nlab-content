@@ -17,15 +17,21 @@
 
 This entry collects links related to the book
 
-* [[Jacob Lurie]], 
+* [[Jacob Lurie]]:
 
-  _Higher Topos Theory_,
+  \linebreak
 
-  Annals of Mathematics Studies 170,
+  **Higher Topos Theory**
 
-  Princeton University Press 2009
+  \linebreak
 
-  ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+  Annals of Mathematics Studies **170**
+
+  Princeton University Press (2009)
+
+  [pup:8957](https://press.princeton.edu/titles/8957.html), 
+
+  [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)
 
 which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack | ∞-stacks]]) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos | (∞,1)-toposes]] -- in particular;
 
