@@ -39,7 +39,7 @@ For the moment see at _[[Hodge theory]]_
 
 * {#Voisin02} [[Claire Voisin]], section 5 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
-* Springer Online Dictionary, _Harmonic form_ ([web](http://eom.springer.de/h/h046460.htm))
+* Springer Online Dictionary, _Harmonic form_ ([web](https://encyclopediaofmath.org/wiki/Harmonic_form))
 
 [[!redirects harmonic differential forms]]
 
