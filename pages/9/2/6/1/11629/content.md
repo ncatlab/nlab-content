@@ -62,6 +62,9 @@ On the mod-2 [[elliptic genus]], both as a [[partition function]] of a [[superst
 
 * [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* $[$[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)$]$
 
+On [[tmf]] as claaifying certain torsion topological terms in [[heterotic string theory]]:
+
+* [[Yuji Tachikawa]], Hao Y. Zhang, On a $\mathbb{Z}_3$-valued discrete topological term in 10d heterotic string theories* \[<a href="https://arxiv.org/abs/2403.08861">arXiv:2403.08861</a>\]
 
 
 
