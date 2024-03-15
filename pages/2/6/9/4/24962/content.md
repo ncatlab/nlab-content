@@ -24,7 +24,7 @@
 
 ## Definition
 
-Let $V$ be a [[monoidal category]]. In a $V$-[[enriched category]], the [[hom-object]] of [[endomorphisms]] on an [[object]] is a [[monoid object]] in $V$, the **endomorphism monoid object**.
+Let $V$ be a [[monoidal category]]. In a $V$-[[enriched category]], the [[hom-object]] $[X, X]$ of [[endomorphisms]] on an [[object]] $X$ is a [[monoid object]] in $V$, the **endomorphism monoid object**.
 
 Important examples include 
 
