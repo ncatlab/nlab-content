@@ -37,9 +37,9 @@ which is [[natural transformation|natural]] in $a$ and $b$ and [[dinatural trans
 
 \end{definition}
 
-This is same thing as (left) **strong profunctors**. 
+This is the same thing as a (left) **strong profunctor**. 
 
-A right Tambara module is defined in the exact way except $\mathbf C$ and $\mathbf D$ are assumed to be right $\mathbf M$-actegories and everything is correspondigly 'done on the other side'.
+A right Tambara module is defined in almost the exact same way except $\mathbf C$ and $\mathbf D$ are assumed to be right $\mathbf M$-actegories and everything is correspondigly 'done on the other side'.
 
 \begin{definition}
   Suppose now $\mathbf C$ and $\mathbf D$ have both left and right $\mathbf M$-actegories structures.
