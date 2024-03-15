@@ -21,7 +21,7 @@
 
 ## Definition
 
-Two [[matrices]] $A,B \in Mat_{n \times m}(R)$ are called _matrix equivalent_ if there exist [[invertible matrices]] $P \in GL(n,R)$, $Q \in GL(m,R)$ such that $A_2$ [[equality|equals]] the [[matrix product]]
+Two [[matrices]] $A_1,A_2 \in Mat_{n \times m}(R)$ are called _matrix equivalent_ if there exist [[invertible matrices]] $P \in GL(n,R)$, $Q \in GL(m,R)$ such that $A_2$ [[equality|equals]] the [[matrix product]]
 
 $$
   A_2 \;=\;  P \cdot A_1 \cdot Q
