@@ -20,7 +20,12 @@ On [[mysterious duality]]/[[U-duality]] understood via [[Hypothesis H]] by [[aut
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory* &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810)&rbrack;
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
+
+On [[superstring|super]] [[string scattering amplitudes]]:
+
+* Sergio Luigi Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
+
 
 
 category: people
