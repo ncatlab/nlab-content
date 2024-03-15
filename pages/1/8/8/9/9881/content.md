@@ -202,6 +202,10 @@ Review of the scattering of massive modes in [[type IIB string theory]]:
 
 * Nicholas Agia, *Massive Type IIB Superstrings Part I: 3- and 4-Point Amplitudes* &lbrack;[arXiv:2309.11538](https://arxiv.org/abs/2309.11538)&rbrack;
 
+See also:
+
+* Sergio Luigi Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
+
 
 
 ### Higher order corrections
