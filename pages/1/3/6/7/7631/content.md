@@ -30,7 +30,7 @@ The [[logical connectives]] can then be defined inductively by clauses such as t
 * $x \Vdash \top$ (the negative [[truth]]) always.
 * $x \Vdash P \otimes Q$ (the positive conjunction) if and only if there exist $y,z$ such that $R y z x$ and $y\Vdash P$ and $z\Vdash Q$.
 * $x \Vdash P \multimap Q$ (the one-sided linear implication) if and only if for all $y,z$, if $R x y z$ and $y\Vdash P$, then $z\Vdash Q$.
-* $x \Vdash P \multimap' Q$ (the dual linear implication) if and only if for all $y,z$, if $R x y z$ and $z\Vdash P$, then $y\Vdash Q$.
+* $x \Vdash Q &#10204; P$ (the dual linear implication) if and only if for all $y,z$, if $R x y z$ and $z\Vdash P$, then $y\Vdash Q$.
 
 The logic obtained thereby will generally be [[substructural logic|substructural]]: it need not satisfy the structural rules like [[weakening rule|weakening]], [[contraction rule|contraction]], [[exchange rule|exchange]] or even associativity and unit for the tensor product. On this page, we have used the notation for substructural connectives from [[linear logic]].
 
