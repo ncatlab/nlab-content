@@ -119,7 +119,7 @@ Discussion properly via [[(2,1)-dimensional Euclidean field theory]]:
 * [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BerwickEvansMar23), video:[YT](https://www.youtube.com/watch?v=fw7yxFsDmjs)$]$
 
 
-See also
+See also:
 
 * Ying-Hsuan Lin, [[Du Pei]], *Holomorphic CFTs and topological modular forms* &lbrack;[arXiv:2112.10724](https://arxiv.org/abs/2112.10724)&rbrack;
 
@@ -127,6 +127,7 @@ See also
 
 * [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* $[$[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)$]$
 
+* [[Yuji Tachikawa]], Hao Y. Zhang, *On a $\mathbb{Z}_3$-valued discrete topological term in 10d heterotic string theories* \[<a href="https://arxiv.org/abs/2403.08861">arXiv:2403.08861</a>\]
 
 
 #### Occurrences in string theory
