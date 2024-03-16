@@ -23,9 +23,11 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
   (specifically for [[M-theory on G2-manifolds]])
 
+* [[Paul S. Howe]], [[Dimitrios Tsimpis]], *On higher-order corrections in M theory*,  JHEP 0309 (2003) 038 \[<a href="https://doi.org/10.1088/1126-6708/2003/09/038">doi:10.1088/1126-6708/2003/09/038</a>, [arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129)\]
+
 * {#Tsimpis04} [[Dimitrios Tsimpis]], *11D supergravity at $\mathcal{O}(\ell^3)$*, JHEP0410:046 (2004) \[<a href="https://arxiv.org/abs/hep-th/0407271">arXiv:hep-th/0407271</a>, <a href="https://doi.org/10.1088/1126-6708/2004/10/046">doi:10.1088/1126-6708/2004/10/046</a>\]
 
-* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
+* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_, contribution to *[Deserfest: A Celebration of the Life and Works of Stanley Deser](https://inspirehep.net/conferences/976239)* (2004) 137-149 \[<a href="https://inspirehep.net/literature/657136">inspire:657136</a>, [arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177)\]
 
 * {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], *Supersymmetric Corrections to Eleven-Dimensional Supergravity*, JHEP 0505:052 (2005) \[<a href="https://doi.org/10.1088/1126-6708/2005/05/052">doi;10.1088/1126-6708/2005/05/052</a>, [arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107)\]
 
