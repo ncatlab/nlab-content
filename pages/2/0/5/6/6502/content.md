@@ -352,11 +352,16 @@ see also
 
 * [[Shôshichi Kobayashi]], *On Connections Of Cartan*, Canadian Journal of Mathematics **8** (1956) 145-156 &lbrack;[doi:10.4153/CJM-1956-018-8](https://doi.org/10.4153/CJM-1956-018-8)&rbrack;
 
-Textbook accounts:
+Introduction:
 
-* {#Sharpe97} [[Richard Sharpe]], _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+* [[Richard W. Sharpe]], *An introduction to Cartan Geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Circolo Matematico di Palermo (2002) 61-75 &lbrack;[eudml:220395](https://eudml.org/doc/220395), [dml:701688](http://dml.cz/dmlcz/701688)&rbrack;
 
-* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+
+Monographs:
+
+* {#Sharpe97} [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduade Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
+
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of: _Parabolic Geometries I -- Background and General Theory_, AMS (2009) &lbrack;[ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154)&rbrack;
 
 Discussion with an eye towards [[first-order formulation of gravity]]:
 
