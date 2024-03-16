@@ -1077,11 +1077,12 @@ the expected term $r^c \wedge r^c \wedge r^c$.
 ## References 
  {#References}
 
-The formulation of supergravity of [[supermanifolds]] and the relevance of the [[Bianchi identities]] originates in
+The formulation of supergravity on [[super spacetime]] [[supermanifolds]] ("[[superspace]]") and the relevance of the [[Bianchi identities]] originates with:
 
-* R. Grimm, [[Julius Wess]], [[Bruno Zumino]], _A complete solution of the Bianchi identities in superspace with supergravity constraints_, Nuclear Phys. B152 (1979), 255&#8211;265.
+* [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B **66** (1977) 361-364 \[<a href="https://doi.org/10.1016/0370-2693(77)90015-6">doi:10.1016/0370-2693(77)90015-6</a>\]
 
-* [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
+* [[Richard Grimm]], [[Julius Wess]], [[Bruno Zumino]], *A complete solution of the Bianchi identities in superspace with supergravity constraints*, Nuclear Phys. B **152** (1979) 255-265 \[<a href="https://doi.org/10.1016/0550-3213(79)90102-0">doi:10.1016/0550-3213(79)90102-0</a>\]
+
 
 The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation as [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
