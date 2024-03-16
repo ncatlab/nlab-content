@@ -7,7 +7,10 @@
 
 On [[differential geometry]] in terms of [[Cartan geometry]] ([[Klein geometry]], [[Erlangen program]]):
 
-* {#Sharpe97} [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduare Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
+* {#Sharpe97} [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduate Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
+
+* [[Richard W. Sharpe]], *An introduction to Cartan Geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Circolo Matematico di Palermo (2002) 61-75 &lbrack;[eudml:220395](https://eudml.org/doc/220395), [dml:701688](http://dml.cz/dmlcz/701688)&rbrack;
+
 
 
 category: people
