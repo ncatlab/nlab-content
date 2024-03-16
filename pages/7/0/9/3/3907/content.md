@@ -19,4 +19,13 @@ Introducing [[supersymmetry]] for [[quantum field theory]] on 4d [[spacetime]]:
 
 * {#WessZumino74} [[Julius Wess]], [[Bruno Zumino]], _Supergauge transformations in four dimensions_, Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52 ([doi:10.1142/9789814542340_0002](https://doi.org/10.1142/9789814542340_0002))
 
+On [[supergravity]] formulated on [[super spacetime]] [[supermanifolds]] ("[[superspace]]"):
+
+* [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B **66** (1977) 361-364 \[<a href="https://doi.org/10.1016/0370-2693(77)90015-6">doi:10.1016/0370-2693(77)90015-6</a>\]
+
+* [[Richard Grimm]], [[Julius Wess]], [[Bruno Zumino]], *A complete solution of the Bianchi identities in superspace with supergravity constraints*, Nuclear Phys. B **152** (1979) 255-265 \[<a href="https://doi.org/10.1016/0550-3213(79)90102-0">doi:10.1016/0550-3213(79)90102-0</a>\]
+
+
+
 category: people
+
