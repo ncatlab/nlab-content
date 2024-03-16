@@ -1,4 +1,39 @@
 
+$$
+  T^a 
+  \;\coloneqq\;
+  \mathrm{d}e^a
+  -
+  \omega^a{}_b e^b
+$$
+
+$$
+  \begin{array}{l}
+    \mathrm{d} T^a
+    -
+    \omega^a{}_b T^b
+    \\
+    \;=\;
+    \mathrm{d} 
+    \big(
+      \mathrm{d}e^a
+      -
+      \omega^a{}_b e^b
+    \big)
+    -
+    \omega^a{}_b \big(
+      \mathrm{d}e^b
+      -
+      \omega^b{}_c e^c
+    \big)
+    \\
+    \;=\;
+    - (\mathrm{d} \omega^a{}_b) e^b
+    + \omega^a{}_b \mathrm{d}e^b
+    - \omega^a{}_b \mathrm{d}e^b 
+    + \omega^a{}_b \omega^b{}_c e^c 
+  \end{array}
+$$
 
 $$
   \begin{array}{l}
