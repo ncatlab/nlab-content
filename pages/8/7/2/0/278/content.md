@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -157,12 +158,13 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 * [[Mikhail O. Katanaev]], *Geometrical methods in mathematical physics* (in Russian) &lbrack;[arXiv1311.0733](https://arxiv.org/abs/1311.0733)&rbrack;
 
 
-* [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
+* [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer (2017) &lbrack;[ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824)&rbrack;
 
 * {#GallierQuaintance20a} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A computational perspective*, Geometry and Computing **12**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46040-2](https://doi.org/10.1007/978-3-030-46040-2), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
 
 * {#GallierQuaintance20b} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A second course*, Geometry and Computing **13**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46047-1](https://doi.org/10.1007/978-3-030-46047-1), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
 
+* [[Andrzej Derdzinski]], *Differential Geometry*, lecture notes &lbrack;[pdf](https://people.math.osu.edu/derdzinski.1/courses/851-852-notes.pdf), [[Derdzinski-DifferentialGeometry.pdf:file]]&rbrack;
 
 
 With emphasis on [[G-structures]]:
