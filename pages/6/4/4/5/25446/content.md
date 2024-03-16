@@ -18,7 +18,11 @@
 
 A **combinatorial category** &lbrack;[Pultr (1973, Def. 1.7)](#Pultr73)&rbrack; $C$ is a [[locally finite category]] satisfying the _unnatural isomorphism property_:
 
-For all objects $A, B \in C$, if there is an [[unnatural isomorphism]] $C(-, A) \cong C(-, B)$, then $A \cong B$. Equivalently if $\left|C(X, A)\right| = \left|C(X, B)\right|$ for all objects $X \in C$.
+* For all objects $A, B \in C$, if there is an [[unnatural isomorphism]] $C(-, A) \cong C(-, B)$, then $A \cong B$.
+
+Or equivalently
+
+* For all objects $A, B \in C$, $\left|C(X, A)\right| = \left|C(X, B)\right|$ for all objects $X \in C$.
 
 ## Properties
 
@@ -46,6 +50,6 @@ Hence we may divide both sides by $\left|C(Y, X)\right|$ (which is nonzero since
 
 * [[Luca Reggio]], _Polyadic sets and homomorphism counting_, Advances in Mathematics 410 (2022): 108712.
 
-* Shoma Fujino and Makoto Matsumoto, _Lov\{a} sz's hom-counting theorem by inclusion-exclusion principle_, [arXiv:2206.01994](https://arxiv.org/abs/2206.01994) (2022).
+* Shoma Fujino and Makoto Matsumoto, _Lov&aacute;sz's hom-counting theorem by inclusion-exclusion principle_, [arXiv:2206.01994](https://arxiv.org/abs/2206.01994) (2022).
 
 [[!redirects combinatorial categories]]
