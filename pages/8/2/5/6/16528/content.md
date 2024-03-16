@@ -20,11 +20,13 @@ On [[M2-M5 brane bound states]]:
 
 On [[higher curvature corrections]] in [[11-dimensional supergravity]]:
 
-* [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(\ell^3)$_, JHEP0410:046, 2004 ([arXiv:hep-th/0407271](https://arxiv.org/abs/hep-th/0407271))
+* [[Paul S. Howe]], [[Dimitrios Tsimpis]], *On higher-order corrections in M theory*,  JHEP 0309 (2003) 038 \[<a href="https://doi.org/10.1088/1126-6708/2003/09/038">doi:10.1088/1126-6708/2003/09/038</a>, [arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129)\]
 
-* [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
+* {#Tsimpis04} [[Dimitrios Tsimpis]], *11D supergravity at $\mathcal{O}(\ell^3)$*, JHEP0410:046 (2004) \[<a href="https://arxiv.org/abs/hep-th/0407271">arXiv:hep-th/0407271</a>, <a href="https://doi.org/10.1088/1126-6708/2004/10/046">doi:10.1088/1126-6708/2004/10/046</a>\]
 
-and specificallyt the on the [[I8]]-term
+* {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], *Supersymmetric Corrections to Eleven-Dimensional Supergravity*, JHEP 0505:052 (2005) \[<a href="https://doi.org/10.1088/1126-6708/2005/05/052">doi;10.1088/1126-6708/2005/05/052</a>, [arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107)\]
+
+and specifically the on the [[I8]]-term
 
 * {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
