@@ -44,15 +44,15 @@ The concept of superspace in physics (together with that of [[superfields]]) is 
 
 (which considered superspace of dimension $d = 4$ with number of supersymmetries $N = 2$, hence the [[supermanifold]] $\mathbb{R}^{4\vert \mathbf{4}+ \mathbf{4}}$, or rather the [[super Minkowski spacetime]] $\mathbb{R}^{3,1\vert \mathbf{4}+ \mathbf{4}}$)
 
-Textbook accounts:
+Early monograph:
 
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548  (1983) ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [spire:195126](inspirehep.net/record/195126))
 
-Specifically the formulation of [[supergravity]] in superspace is the topic of the 
+The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]: 
 
-* *[[D'Auria-Fré-Regge formulation of supergravity]]*
+* [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B **66** (1977) 361-364 \[<a href="https://doi.org/10.1016/0370-2693(77)90015-6">doi:10.1016/0370-2693(77)90015-6</a>\]
 
-(see there for more); independent discussion in components is due to:
+* [[Richard Grimm]], [[Julius Wess]], [[Bruno Zumino]], *A complete solution of the Bianchi identities in superspace with supergravity constraints*, Nuclear Phys. B **152** (1979) 255-265 \[<a href="https://doi.org/10.1016/0550-3213(79)90102-0">doi:10.1016/0550-3213(79)90102-0</a>\]
 
 * [[Warren Siegel]], [[S. James Gates Jr.]], *Superfield supergravity*, Nuclear Physics B **147** 1–2 (1979) 77-104 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90416-4">doi:10.1016/0550-3213(79)90416-4</a>&rbrack;
 
@@ -60,6 +60,11 @@ Specifically the formulation of [[supergravity]] in superspace is the topic of t
 
 * [[S. James Gates Jr.]], *On-shell and conformal $N=4$ supergravity in superspace*, Nuclear Physics B **213** 3 (1983) 409-444 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90229-8">doi:10.1016/0550-3213(83)90229-8</a>&rbrack;
 
+For more on this see the:
+
+* *[[D'Auria-Fré-Regge formulation of supergravity]]*
+
+See also:
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
 
