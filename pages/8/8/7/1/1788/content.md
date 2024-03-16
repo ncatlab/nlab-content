@@ -1,10 +1,11 @@
 
 ### Cartan structural equations and Bianchi identities
 
-On "Cartan structural equations" and their [[Bianchi identities]] for [[curvature]] and [[torsion]] of ([[Cartan connection|Cartan]]-)[[connection on a bundle|connections]] on [[tangent bundles]]:
+On "Cartan structural equations" and their [[Bianchi identities]] for [[curvature]] and [[torsion]] of ([[Cartan connection|Cartan]]-)[[connection on a bundle|connections]] on [[tangent bundles]] (especially in [[first-order formulation of gravity]]):
 
 * [[Shiing-Shen Chern]], p. 748 of: *A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds*, Annals of Mathematics, Second Series, **45** 4 (1944) 747-752 &lbrack;[doi:10.2307/1969302](https://doi.org/10.2307/1969302)&rbrack;
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §I.2 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], &rbrack;
 
 * C. C. Briggs, *A Sequence of Generalizations of Cartan's Conservation of Torsion Theorem* &lbrack;[arXiv:gr-qc/9908034](https://arxiv.org/abs/gr-qc/9908034)&rbrack;
 
@@ -16,8 +17,18 @@ On "Cartan structural equations" and their [[Bianchi identities]] for [[curvatur
 
 * Ivo Terek Couto, *Cartan Formalism and some computations* &lbrack;[pdf](https://www.asc.ohio-state.edu/terekcouto.1/texts/cartan_formalism.pdf)&rbrack;
  
-
 * Cadabra, *[Cartan structural equations and Bianchi identity](https://cadabra.science/notebooks/structure_equations_and_bianchi.html)*
+
+Generalization to [[supergeometry]] (motivated by [[supergravity]]):
+
+* [[Julius Wess]], [[Bruno Zumino]], p. 362 of: _Superspace formulation of supergravity_, Phys. Lett. B **66** (1977) 361-364 \[<a href="https://doi.org/10.1016/0370-2693(77)90015-6">doi:10.1016/0370-2693(77)90015-6</a>\]
+
+* [[Richard Grimm]], [[Julius Wess]], [[Bruno Zumino]], §2 in: *A complete solution of the Bianchi identities in superspace with supergravity constraints*, Nuclear Phys. B **152** (1979) 255-265 \[<a href="https://doi.org/10.1016/0550-3213(79)90102-0">doi:10.1016/0550-3213(79)90102-0</a>\]
+
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §III.3.2 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], &rbrack;
+
+
 
 ***
 
