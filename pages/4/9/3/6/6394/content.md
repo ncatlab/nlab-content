@@ -5,6 +5,7 @@ Paul Howe is emeritus professor in theoretical [[physics]] at King's College Lon
 
 * [inspire page](https://inspirehep.net/authors/1005477)
 
+
 ## Selected writings
 
 Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning string]] (via the supersymmetric [[Polyakov action]]):
@@ -55,6 +56,16 @@ On how the [[torsion constraints in supergravity]] for [[11-dimensional supergra
 On the [[self-dual string]] and [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as spikes/[[BIons]] from the [[M5-brane]]:
 
 * [[Paul S. Howe]], [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl. Phys. B **515** (1998) 203-216 &lbrack;[arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014), <a href="https://doi.org/10.1016/S0550-3213(97)00750-5">doi:10.1016/S0550-3213(97)00750-5</a>&rbrack;
+
+On [[higher curvature corrections]] in [[D=11 supergravity]]:
+
+* [[Paul S. Howe]], [[Dimitrios Tsimpis]], *On higher-order corrections in M theory*,  JHEP 0309 (2003) 038 \[<a href="https://doi.org/10.1088/1126-6708/2003/09/038">doi:10.1088/1126-6708/2003/09/038</a>, [arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129)\]
+
+* {#Tsimpis04} [[Dimitrios Tsimpis]], *11D supergravity at $\mathcal{O}(\ell^3)$*, JHEP0410:046 (2004) \[<a href="https://arxiv.org/abs/hep-th/0407271">arXiv:hep-th/0407271</a>, <a href="https://doi.org/10.1088/1126-6708/2004/10/046">doi:10.1088/1126-6708/2004/10/046</a>\]
+
+* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_, contribution to *[Deserfest: A Celebration of the Life and Works of Stanley Deser](https://inspirehep.net/conferences/976239)* (2004) 137-149 \[<a href="https://inspirehep.net/literature/657136">inspire:657136</a>, [arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177)\]
+
+
 
 Discussion of [[D=4 N=4 SYM]] with emphasis on [[multi-trace operators]]:
 
