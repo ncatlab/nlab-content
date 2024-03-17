@@ -7,6 +7,11 @@ Kellogg Stelle is a professor of theoretical [[physics]] at Imperial College Lon
 
 ## Selected writings
 
+On [[supergravity]] formulated on [[super spacetime]] [[supermanifolds]] ("[[superspace]]"):
+
+* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]], *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90037-1">doi:10.1016/0550-3213(80)90037-1</a>&rbrack;
+
+
 On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
 * {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
@@ -23,7 +28,8 @@ On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G
 
 On [[M-theory on Calabi-Yau 5-folds]] and [[supersymmetric quantum mechanics]]:
 
-* [[Alexander Haupt]], [[Andre Lukas]], [[Kellogg Stelle]], _M-theory on Calabi-Yau Five-Folds_, JHEP 0905:069, 2009 ([arXiv:0810.2685](https://arxiv.org/abs/0810.2685))
+* [[Alexander Haupt]], [[Andre Lukas]], [[Kellogg Stelle]], _M-theory on Calabi-Yau Five-Folds_, JHEP 0905:069 (2009) &lbrack;[arXiv:0810.2685](https://arxiv.org/abs/0810.2685)&rbrack;
+
 
 
 On the work of [[Mike Duff]]:
