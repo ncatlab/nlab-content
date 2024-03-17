@@ -44,9 +44,11 @@ The concept of superspace in physics (together with that of [[superfields]]) is 
 
 (which considered superspace of dimension $d = 4$ with number of supersymmetries $N = 2$, hence the [[supermanifold]] $\mathbb{R}^{4\vert \mathbf{4}+ \mathbf{4}}$, or rather the [[super Minkowski spacetime]] $\mathbb{R}^{3,1\vert \mathbf{4}+ \mathbf{4}}$)
 
-Early monograph:
+Monographs:
 
-* {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548  (1983) ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [spire:195126](inspirehep.net/record/195126))
+* {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58** (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [inspire:195126](https://inspirehep.net/literature/195126)&rbrack;
+
+* [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
 
 The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]: 
 
@@ -56,7 +58,9 @@ The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]:
 
 * [[Warren Siegel]], [[S. James Gates Jr.]], *Superfield supergravity*, Nuclear Physics B **147** 1–2 (1979) 77-104 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90416-4">doi:10.1016/0550-3213(79)90416-4</a>&rbrack;
 
-* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;[doi:10.1016/0550-3213(80)90037-1](https://doi.org/10.1016/0550-3213(80)90037-1)&rbrack;
+* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90037-1">doi:10.1016/0550-3213(80)90037-1</a>&rbrack;
+
+* [[Paul Howe]], *Supergravity in superspace*, Nuclear Physics B **199** 2 (1982) 309-364 \[<a href="https://doi.org/10.1016/0550-3213(82)90349-2">doi:10.1016/0550-3213(82)90349-2</a>\]
 
 * [[S. James Gates Jr.]], *On-shell and conformal $N=4$ supergravity in superspace*, Nuclear Physics B **213** 3 (1983) 409-444 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90229-8">doi:10.1016/0550-3213(83)90229-8</a>&rbrack;
 
