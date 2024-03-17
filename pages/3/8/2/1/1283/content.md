@@ -475,7 +475,7 @@ Reviews are in
 
 With emphasis on [[surface holonomy]]:
 
-* [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Bundle Gerbes and Surface Holonomy_ ([arXiv:0901.2085](https://arxiv.org/abs/0901.2085))
+* [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Bundle Gerbes and Surface Holonomy_ &lbrack;[arXiv:0901.2085](https://arxiv.org/abs/0901.2085), [spire:1511182](https://inspirehep.net/literature/1511182)&rbrack;
 
 Bundle gerbes over [[Lie groups]] (cf. the [[basic bundle gerbe]]):
 
