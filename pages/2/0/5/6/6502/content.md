@@ -336,9 +336,14 @@ With this identification the [[torsion of a Cartan connection]] maps into the [[
 ## References
  {#References}
 
-The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. [[Cartan geometry]]).
+The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. *[[Cartan geometry]]*)L
 
 * {#Cartan23} [[Élie Cartan]], *Sur les variétés à connexion affine et la théorie de la relativité généralisée (première partie)*, Annales scientifiques de l’École Normale Supérieure, Sér. **3** 40 (1923) 325-412 &lbrack;[numdam:ASENS_1923_3_40__325_0](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0)&rbrack;
+
+Historical review:
+
+* [[Erhard Scholz]], *E. Cartan’s attempt at bridge-building between Einstein and the Cosserats – or how translational curvature became to be known as "torsion"*, The European Physics Journal H **44** (2019) 47-75 \[<a href="https://doi.org/10.1140/epjh/e2018-90059-x">doi:10.1140/epjh/e2018-90059-x</a>\]
+
 
 The formalization in terms of [[principal connections]] (in their incarnation as [[Ehresmann connections]]) is due to
 
