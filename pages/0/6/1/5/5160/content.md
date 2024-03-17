@@ -5,9 +5,9 @@
 
 ## Texts about Weyl
 
-* Erhard Scholz, _Philosophy as a cultural resource and medium of reflection for Hermann Weyl_ ([arXiv:math/0409596](http://arxiv.org/abs/math/0409596))
+* [[Erhard Scholz]], _Philosophy as a cultural resource and medium of reflection for Hermann Weyl_ &lbrack;[arXiv:math/0409596](http://arxiv.org/abs/math/0409596)&rbrack;
 
-* Erhard Scholz, _Weyl geometry in late 20th century physics_ ([arXiv:1111.3220](http://arxiv.org/abs/1111.3220))
+* [[Erhard Scholz]], _Weyl geometry in late 20th century physics_ &lbrack;[arXiv:1111.3220](http://arxiv.org/abs/1111.3220)&rbrack;
 
 
 ## Selected writings
