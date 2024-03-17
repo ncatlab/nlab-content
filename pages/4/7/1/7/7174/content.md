@@ -9,10 +9,10 @@ Peter Christopher West is professor of mathematics at King's college London.
 
 ## Selected writings
 
-Formulating [[supergravity]] in [[superspace]]:
 
-* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;[doi:10.1016/0550-3213(80)90037-1](https://doi.org/10.1016/0550-3213(80)90037-1)&rbrack;
+On [[supergravity]] formulated on [[super spacetime]] [[supermanifolds]] ("[[superspace]]"):
 
+* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]], *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90037-1">doi:10.1016/0550-3213(80)90037-1</a>&rbrack;
 
 
 Early construction of [[type IIA supergravity]]:
