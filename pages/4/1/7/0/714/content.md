@@ -15,7 +15,7 @@
 
 ## Idea
 
-The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target [[object]]s -- of every 1-cell (every [[morphism]]). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the category as a morphism from $b$ to $a$ instead.
+The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target [[object|objects]] -- of every 1-cell (every [[morphism]]). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the category as a morphism from $b$ to $a$ instead.
 
 But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as source and which as target. An important general example is:
 
@@ -23,7 +23,7 @@ But there are many categories for which this is not the case, where every morphi
 
 More concrete examples are:
 
-* categories of [[cobordism]]s (but notice that cobordisms are naturally regarded as [[cospan]]s which makes this a special case of the above example);
+* categories of [[cobordism|cobordisms]] (but notice that cobordisms are naturally regarded as [[cospan|cospans]] which makes this a special case of the above example);
 
 * the category [[Hilb]] of Hilbert spaces, where for every linear map $f : H_1 \to H_2$ we also have the adjoint map (in the sense of Hilbert spaces, not in the categorical sense) $f^\dagger : H_2 \to H_1$ (but notice that according to [[groupoidification]] this is also essentially to be regarded as a special case of categories of spans).
 
@@ -102,7 +102,7 @@ $$
 =--
 
 
-For the purpose of considering what makes two objects of a $\dagger$-category [[equivalence|equivalent]], one should not consider all [[isomorphism]]s (invertible morphisms) but rather all unitary isomorphisms.
+For the purpose of considering what makes two objects of a $\dagger$-category [[equivalence|equivalent]], one should not consider all [[isomorphism|isomorphisms]] (invertible morphisms) but rather all unitary isomorphisms.
 
 The unitary isomorphisms form a [[groupoid]], which may be regarded as the _dagger-[[core]]_ of the $\dagger$-category.
 
@@ -265,7 +265,7 @@ Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \
 
 * More generally, let $C$ be a category with [[pullbacks]] and let $Span_1(C)$ be the 1-category of [[spans]] up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a &#8224;-structure on $Span_1(C)$.
 
-* $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a &#8224;-category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
+* $\mathcal{R}(G)$, the category of unitary [[representation|representations]] of a (discrete) [[group]] $G$ and intertwining maps, is a &#8224;-category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
 * The [[category of couplings]] between [[probability spaces]].
 
