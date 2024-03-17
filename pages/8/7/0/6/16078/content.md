@@ -32,7 +32,17 @@ The order $k$-torsion of a $G$-structure (counting may differ by 1) is an elemen
 
 ## References
 
-The concept goes back to the work of [[Eli Cartan]] ([[Cartan geometry]]).
+### General
+
+Historical origin of the notion in [[Cartan geometry]]:
+
+* {#Cartan22} [[Élie Cartan]], *Sur une généralisation de la notion de courbure de Riemann et les espaces á torsion*, C. R. Acad. Sci. **174** (1922) 593-595 .
+
+* {#Cartan23} [[Élie Cartan]], *Sur les variétés à connexion affine et la théorie de la relativité généralisée (première partie)*, Annales scientifiques de l’École Normale Supérieure, Sér. 3, **40** (1923) 325-412 \[<a href="http://www.numdam.org/item?id=ASENS_1923_3_40__325_0">doi:ASENS_1923_3_40__325_0</a>\]
+
+Historical review:
+
+* [[Erhard Scholz]], *E. Cartan’s attempt at bridge-building between Einstein and the Cosserats – or how translational curvature became to be known as "torsion"*, The European Physics Journal H **44** (2019) 47-75 \[<a href="https://doi.org/10.1140/epjh/e2018-90059-x">doi:10.1140/epjh/e2018-90059-x</a>\]
 
 
 Textbook accounts include
@@ -70,6 +80,8 @@ Formalization in [[homotopy type theory]] (so far only for infinite-order torsio
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ (2017)
 
 
+
+[[!include Cartan structural equations and Bianchi identities -- references]]
 
 
 [[!redirects torsion of G-structures]]
