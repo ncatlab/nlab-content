@@ -1070,6 +1070,8 @@ Textbooks:
 
 Further physics texts:
 
+* [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
+
 * Stephen P. Martin, _A Supersymmetry Primer_ ([arXiv:hep-ph/9709356](http://arxiv.org/abs/hep-ph/9709356))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2 of: _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
@@ -1079,6 +1081,8 @@ Further physics texts:
 * [[Joseph Polchinski]], appendix B of _[[String theory]]_, volume II, 
 
 * [[John Terning]], _Modern Supersymmetry_, Oxford Science Publications 
+
+
 
 More mathematical accounts:
 
