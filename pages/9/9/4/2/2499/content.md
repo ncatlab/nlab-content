@@ -1159,7 +1159,7 @@ Independent dicussion of rheonomy in the guise of "superspace constraints":
 
 * [[Warren Siegel]], [[S. James Gates Jr.]], *Superfield supergravity*, Nuclear Physics B **147** 1–2 (1979) 77-104 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90416-4">doi:10.1016/0550-3213(79)90416-4</a>&rbrack;
 
-* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;[doi:10.1016/0550-3213(80)90037-1](https://doi.org/10.1016/0550-3213(80)90037-1)&rbrack;
+* [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90037-1">doi:10.1016/0550-3213(80)90037-1</a>&rbrack;
 
 * [[S. James Gates Jr.]], *On-shell and conformal $N=4$ supergravity in superspace*, Nuclear Physics B **213** 3 (1983) 409-444 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90229-8">doi:10.1016/0550-3213(83)90229-8</a>&rbrack;
 
