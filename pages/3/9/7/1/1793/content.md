@@ -1629,7 +1629,7 @@ An explicit proof of the injective model structure with monos in positive degree
 
 * {#Dungan10} [[Gregory Dungan]], _Review of model categories_, 2010 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.696.123&rep=rep1&type=pdf), [[DunganModelCategories.pdf:file]])
 
-An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
+An explicit proof of the model structure on cochain complexes of abelian groups with fibrations the degreewise surjections is recorded in the appendix of
 
 * [[Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras -- with Applications to ∞-Lie Theory]]_ (2010)
 {#Stel}
