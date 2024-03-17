@@ -19,15 +19,16 @@
 
 ## Idea
 
-In [[Riemannian geometry|Riemann]]-[[Cartan geometry|Cartan]] [[differential geometry]], what are called Cartan's *structural equations* (*équations de structure* [Cartan 1923, p. 368](#Cartan1923), see [Scholz 2019, p. 53](#Scholz19)) are expressions for the [[torsion]] $T$ and the [[curvature]] $R$ of a [[Cartan moving frame]] $e$ with ([[Cartan connection|Cartan]]-)[[connection on a vector bundle|connection]] $\omega$ via the [[exterior derivative]] and [[wedge product]] of their [[differential form]]-representatives (in any local [[chart]] and using [[Einstein summation convention]]):
+In [[Riemannian geometry|Riemann]]-[[Cartan geometry|Cartan]] [[differential geometry]], what are called Cartan's *structural equations* (*équations de structure* [Cartan 1923, p. 368](#Cartan1923), see [Scholz 2019, p. 53](#Scholz19)) are expressions for the [[torsion]] $T$ and the [[curvature]] $R$ of a [[Cartan moving frame]] $e$ with ([[Cartan connection|Cartan]]-)[[connection on a vector bundle|connection]] $\omega$ via the [[exterior derivative]] and [[wedge product]] of their [[differential form]]-representatives (shown as usual in components on any local [[chart]] with respect to a [[trivial fiber bundle|trivialized]] [[fiber bundles]]  and using [[Einstein summation convention]]):
 
 \[
   \label{TheStructuralEquations}
-  \begin{array}{l}
-    T^a \;=\; \mathrm{d}e^a + \omega^a{}_b \wedge e^b
+  \begin{array}{ccccc}
+    T^a 
+    &=& \mathrm{d}e^a &+& \omega^a{}_b \wedge e^b
     \,,
     \\
-    R^{ab} \;=\; \mathrm{d} \omega^{a b} + \omega^{a}{}_c \wedge \omega^{c b}
+    R^{ab} &=& \mathrm{d} \omega^{a b} &+& \omega^{a}{}_c \wedge \omega^{c b}
     \,.
   \end{array}
 \]
