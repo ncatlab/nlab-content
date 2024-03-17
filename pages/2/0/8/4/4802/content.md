@@ -536,3 +536,7 @@ Discussion in the general context of [[G-structures]] includes
 
 [[!redirects soldering form]]
 [[!redirects soldering forms]]
+
+[[!redirects Cartan moving frame]]
+[[!redirects Cartan moving frames]]
+
