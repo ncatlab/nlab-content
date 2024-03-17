@@ -170,9 +170,12 @@ This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
 
 Named after *[[Luigi Bianchi]]*.
 
-The Bianchi identity for [[∞-Lie algebroid valued differential forms]] is discussed in 
+[[!include Cartan structural equations and Bianchi identities -- references]]
 
-* SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+
+On Bianchi identities in the generalization of [[∞-Lie algebroid valued differential forms]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], p. 52 in:: _[[schreiber:L-infinity algebra connections|$L_\infty$ algebra connections and applications to String- and Chern-Simons n-transport]]_, in: *Quantum Field Theory*, Birkh&#228;user (2009) 303-424 \[<a href="http://arxiv.org/abs/0801.3480">arXiv:0801.3480</a>, [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)\]
 
 
 
