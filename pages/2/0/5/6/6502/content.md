@@ -336,6 +336,8 @@ With this identification the [[torsion of a Cartan connection]] maps into the [[
 ## References
  {#References}
 
+### General
+
 The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. *[[Cartan geometry]]*)L
 
 * {#Cartan23} [[Élie Cartan]], *Sur les variétés à connexion affine et la théorie de la relativité généralisée (première partie)*, Annales scientifiques de l’École Normale Supérieure, Sér. **3** 40 (1923) 325-412 &lbrack;[numdam:ASENS_1923_3_40__325_0](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0)&rbrack;
@@ -397,6 +399,12 @@ Further discussion of Cartan connections as models for the [[first order formula
 See also
 
 * wikipedia [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
+
+
+
+[[!include Cartan structural equations and Bianchi identities -- references]]
+
+
 
 
 [[!redirects Cartan connections]]
