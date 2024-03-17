@@ -64,13 +64,18 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 ## References
 
-The original articles are
+The original articles:
 
-* {#Cartan22} [[Élie Cartan]], _Sur une g&#233;n&#233;ralisation de la notion de courbure de Riemann et les espaces &#225; torsion, C. R. Acad. Sci. 174, 593-595 (1922).
+* {#Cartan22} [[Élie Cartan]], *Sur une généralisation de la notion de courbure de Riemann et les espaces á torsion*, C. R. Acad. Sci. **174** (1922) 593-595 .
 
 * [[Élie Cartan]], Comptes rendus hebdomadaires des s&#233;ances de l&#8217;Acad&#233;mie des sciences, 174, 437-439, 593-595, 734-737, 857-860, 1104-1107 (January 1922).
 
-* {#Cartan23} [[Élie Cartan]], _Sur les vari&#233;t&#233;s &#224; connexion affine et la th&#233;orie de la relativit&#233; g&#233;n&#233;ralis&#233;e (premi&#232;re partie)_. Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 40 (1923), p. 325-412  ([NUMDAM](http://www.numdam.org/item?id=ASENS_1923_3_40__325_0))
+* {#Cartan23} [[Élie Cartan]], *Sur les variétés à connexion affine et la théorie de la relativité généralisée (première partie)*, Annales scientifiques de l’École Normale Supérieure, Sér. 3, **40** (1923) 325-412 \[<a href="http://www.numdam.org/item?id=ASENS_1923_3_40__325_0">doi:ASENS_1923_3_40__325_0</a>\]
+
+Historical review:
+
+* [[Erhard Scholz]], *E. Cartan’s attempt at bridge-building between Einstein and the Cosserats – or how translational curvature became to be known as "torsion"*, The European Physics Journal H **44** (2019) 47-75 \[<a href="https://doi.org/10.1140/epjh/e2018-90059-x">doi:10.1140/epjh/e2018-90059-x</a>\]
+
 
 Introduction:
 
