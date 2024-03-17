@@ -62,7 +62,21 @@ For $(H \to G)$ being the inclusion $O(d)\hookrightarrow Iso(\mathbb{R}^d)$ of t
 
 * [[torsion of a metric connection]]
 
+
 ## References
+
+### General
+
+Historical origin of the notion in [[Cartan geometry]]:
+
+* {#Cartan22} [[Élie Cartan]], *Sur une généralisation de la notion de courbure de Riemann et les espaces á torsion*, C. R. Acad. Sci. **174** (1922) 593-595 .
+
+* {#Cartan23} [[Élie Cartan]], *Sur les variétés à connexion affine et la théorie de la relativité généralisée (première partie)*, Annales scientifiques de l’École Normale Supérieure, Sér. 3, **40** (1923) 325-412 \[<a href="http://www.numdam.org/item?id=ASENS_1923_3_40__325_0">doi:ASENS_1923_3_40__325_0</a>\]
+
+Historical review:
+
+* [[Erhard Scholz]], *E. Cartan’s attempt at bridge-building between Einstein and the Cosserats – or how translational curvature became to be known as "torsion"*, The European Physics Journal H **44** (2019) 47-75 \[<a href="https://doi.org/10.1140/epjh/e2018-90059-x">doi:10.1140/epjh/e2018-90059-x</a>\]
+
 
 Monographs:
 
@@ -81,6 +95,9 @@ Discussion with an eye towards [[torsion constraints in supergravity]]:
   following:
 
   [[John Lott]], *Torsion constraints in supergeometry*, Comm. Math. Phys. **133** (1990) 563-615 &lbrack;[doi:10.1007/BF02097010](https://doi.org/10.1007/BF02097010)&rbrack;
+
+
+[[!include Cartan structural equations and Bianchi identities -- references]]
 
 
 [[!redirects torsion of Cartan connections]]
