@@ -20,9 +20,12 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 * [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys.Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
 
+* [[Paul Howe]], *Supergravity in superspace*, Nuclear Physics B **199** 2 (1982) 309-364 \[<a href="https://doi.org/10.1016/0550-3213(82)90349-2">doi:10.1016/0550-3213(82)90349-2</a>\]
+
+
 On [[Landau-Ginzburg models]] in the sense of [[string theory]] ([[sigma models]] with certain [[potential energy|potentials]]):
 
-* [[Paul Howe]], [[Peter West]], *Landau-Ginzburg Hamiltonians, string theory and critical phenomena*, in: *Proceedings of 25th International Conference on High Energy Physics*, Singapore, August 2-8, 1990 &lbrack;[inspire:301119](https://inspirehep.net/literature/301119), [pdf](https://inspirehep.net/files/f9b5ac3ccd39ef8c30ca5c7b69b92fc8)&rbrack;
+* [[Paul Howe]], [[Peter West]], *Landau-Ginzburg Hamiltonians, string theory and critical phenomena*, in: *Proceedings of 25th International Conference on High Energy Physics*, Singapore, August 2-8, (1990) &lbrack;[inspire:301119](https://inspirehep.net/literature/301119), [pdf](https://inspirehep.net/files/f9b5ac3ccd39ef8c30ca5c7b69b92fc8)&rbrack;
 
 
 On obtaining [[massive type IIA supergravity]] from a form o [[D=11 supergravity]]:
