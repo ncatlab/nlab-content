@@ -327,6 +327,9 @@ See also
 
 * Jill Ecker, [[Gabriele Honecker]], Wieland Staessens, _D6-Brane Model Building on $\mathbb{Z}_2 \times \mathbb{Z}_6$: MSSM-like and Left-Right Symmetric Models_, Nuclear Physics B Volume 901, December 2015, Pages 139-215,  ([arXiv:1509.00048](https://arxiv.org/abs/1509.00048))
 
+* Jacob Bardzell, Kevin Federico, Danielle Smith, [[Timm Wrase]], *On the absence of supergravity solutions for localized, intersecting sources* &lbrack;[arXiv:2403.09873](https://arxiv.org/abs/2403.09873)&rbrack;
+
+
 Intersection with [[O8-planes]]/[[D8-branes]] ([[M-theory on S1/G_HW times H/G_ADE]]) is discussed in
 
 * {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
