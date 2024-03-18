@@ -123,6 +123,15 @@ A superspace formulation that makes the form of the Lagrangian more transparent 
 
 * James Horne. *Superspace versions of topological theories.* Nuclear Physics B 318, no. 1 (1989): 22-52. ([doi](https://doi.org/10.1016/0550-3213(89)90046-1))
 
+A geometric interpretation and derivation of the Lagrangian using [[equivariant de Rham cohomology]] is in:
+
+* [[Michael Atiyah]], [[Lisa Jeffrey]]. *Topological Lagrangians and cohomology.* Journal of Geometry and Physics 7, no. 1 (1990): 119-136. ([doi](https://doi.org/10.1016/0393-0440(90)90023-V))
+
+based on the results in
+
+* [[Varghese Mathai]], [[Daniel Quillen]]. *Superconnections, Thom classes and equivariant differential forms*. Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
+
+
 
 The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
 
