@@ -7,9 +7,9 @@
 
 ## Idea
 
-An *ordinary tangle* is 1-manifold with boundary that is embedded in the 2-cube (or 3-cube), such that the tangle's boundary is embedded in two chosen opposing sides of the cube. Thus, one may think of a tangle as a [[knot]] that was cut at several points and the resulting strands were pulled apart at their endpoints to opposite sides of the cube. 
+An *ordinary tangle* is a 1-manifold with boundary that is embedded in the 2-cube (or 3-cube), such that the tangle's boundary is embedded in two chosen opposing sides of the cube. Thus, one may think of a tangle as a [[knot]] that was cut at several points and the resulting strands were pulled apart at their endpoints to opposite sides of the cube. 
 
-The notion generalizes to that of *$m$-tangles in dimension $n$*, which are $m$-manifolds with corners embedded in the $n$-cube that, such that their corners are appropriately embedded in the $n$-cube's boundary. 
+The notion generalizes to that of *$m$-tangles in dimension $n$*, which are $m$-manifolds with corners embedded in the $n$-cube such that their corners are appropriately embedded in the $n$-cube's boundary. 
 
 ## Definition of ordinary tangles
 
@@ -20,7 +20,7 @@ in which case morphisms $A\to B$ will encode the whole [[homotopy type]] of the 
 
 ## Higher-dimensional variants
 
-Higher-dimensional tangles, i.e. $m$-manifold with corners embedded in the $n$-cube, were considered for instance in [Baez and Dolan 95](#BaezDolan95). A "tame" definition of tangles that admit *finite* [[stratified space|stratifications]] by their critical point types was given in [Dorn and Douglas 22](#DornDouglas22).
+Higher-dimensional tangles, i.e. $m$-manifolds with corners embedded in the $n$-cube, were considered for instance in [Baez and Dolan 95](#BaezDolan95). A "tame" definition of tangles that admit *finite* [[stratified space|stratifications]] by their critical point types was given in [Dorn and Douglas 22](#DornDouglas22).
 
 ## Related concepts
 
