@@ -101,3 +101,6 @@ Section 5.3.1 of
 
 [[!redirects filtered (∞,1)-colimits]]
 [[!redirects filtered (infinity,1)-colimits]]
+
+[[!redirects (∞,1)-filtered (∞,1)-colimit]]
+[[!redirects (∞,1)-filtered (∞,1)-colimits]]
