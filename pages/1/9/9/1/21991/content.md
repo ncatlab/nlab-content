@@ -25,7 +25,7 @@
 
 ## Idea
 
-In a [[cartesian closed category]] , given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J_S(X) \mapsto [[X, S], X]$ (where $[-,-]$ denotes the [[internal hom]]).
+In a [[cartesian closed category]] , given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J_S(X) = [[X, S], X]$ (where $[-,-]$ denotes the [[internal hom]]).
 
 This is a [[strong monad]].
 
