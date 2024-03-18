@@ -80,7 +80,7 @@ For $\mathcal{C}$, $\mathcal{D}$ two [[symmetric monoidal (∞,n)-categories]], 
 ###### Definition
 
 
-Write $Bord_n^{fr}$ be the [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category of cobordisms]] with [[framed manifold|n-framing]].
+Let $Bord_n^{fr}$ be the [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category of cobordisms]] with [[framed manifold|n-framing]].
 
 
 =--
@@ -158,11 +158,11 @@ of [[fully dualizable objects]] in a [[symmetric monoidal (∞,n)-category]] $\m
 
 The action in corollary \ref{CanonicalOnAction} is
 
-* for $n = 1$: the $O(1) = \mathbb{Z}/2\mathbb{Z}$ action action given by passing to [[dual objects]];
+* for $n = 1$: the $O(1) = \mathbb{Z}/2\mathbb{Z}$ action given by passing to [[dual objects]];
 
-* for $n = 2$ the $O(2)$-action the _[[Serre automorphism]]_.
+* for $n = 2$: the $O(2)$-action of the _[[Serre automorphism]]_.
 
-* for $n = \infty$ the $O(n)$-action on [[n-fold loop spaces]] (see e.g. [Gaudens-Menichi 07, section 5](#GaudensMenichi07)) (see also at _[[orthogonal spectra]]_).
+* for $n = \infty$: the $O(n)$-action on [[n-fold loop spaces]] (see e.g. [Gaudens-Menichi 07, section 5](#GaudensMenichi07)) (see also at _[[orthogonal spectra]]_).
 
 =--
 
