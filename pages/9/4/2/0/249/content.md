@@ -55,6 +55,8 @@ Arguably, pseudomonic functors are precisely the functors for which it makes sen
 
 ## References
 
+* [[Max Kelly]], [[Steve Lack]], _On property-like structures_, TAC 3(9), 1997. ([abstract](http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html))
+
 Formalization in [[cubical Agda]]:
 
 * [[1lab]], *[Pseudomonic Functors](https://1lab.dev/Cat.Functor.Properties.html#pseudomonic-functors)*
