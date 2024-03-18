@@ -24,7 +24,7 @@ So there are two steps in which the notion of [[sheaf]] may be [[vertical catego
 1. the codomain is categorified and the domain remains a 1-category
 1. the codomain and the domain are categorified.
 
-The categorification of the codomain leads to the notion of [[stack]]s when [[Set]] replaced by [[Grpd]], and further to [[∞-stack]]s, when sets are replaced by [[∞-groupoid]]s. 
+The categorification of the codomain leads to the notion of [[stack]]s when [[Set]] is replaced by [[Grpd]], and further to [[∞-stack]]s, when sets are replaced by [[∞-groupoid]]s. 
 
 But there is no natural reason why the domain should in general remain a 1-category if one passes to an [[infinity-category|∞-categorical]]-context. A _derived stack_ is a generalization of the notion of sheaf where both domain and codomain are taken to be $\infty$-categorical.
 
