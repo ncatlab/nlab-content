@@ -11,7 +11,7 @@
 =--
 
 
-#Contemts#
+#Contents#
 * table of contents
 {:toc}
 
@@ -61,9 +61,9 @@ But see
 
 which says:
 
-> the [Faddeev-Kulish approach](#FadeevKulish70) is justified at best by working out some test cases in perturbation theory. The question if the infrared finite [[S-matrix]] has any [[non-perturbative quantum field theory|non-perturbative]] meaning is left completely open. Secondly, the relation between the Faddeev-Kulish approach to the more standard [[LSZ scattering theory]] has never been clarified. While a naive application of the LSZ ideas clearly fails in the presence of infrared problems, a careful LSZ description of a bare electron accompanied by real and virtual photons is in fact possible.
+> The [Faddeev-Kulish approach](#FadeevKulish70) is justified at best by working out some test cases in perturbation theory. The question is if the infrared finite [[S-matrix]] has any [[non-perturbative quantum field theory|non-perturbative]] meaning is left completely open. Secondly, the relation between the Faddeev-Kulish approach to the more standard [[LSZ scattering theory]] has never been clarified. While a naive application of the LSZ ideas clearly fails in the presence of infrared problems, a careful LSZ description of a bare electron accompanied by real and virtual photons is in fact possible.
 
-> In the present work we outline a bridge from the Faddeev-Kulish formalism to this LSZ descriptionin the massless Nelson model.
+> In the present work we outline a bridge from the Faddeev-Kulish formalism to this LSZ description the massless Nelson model.
 
 On the [[Lee-Nauenberg theorem]]:
 
