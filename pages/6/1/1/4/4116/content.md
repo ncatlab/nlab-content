@@ -45,7 +45,7 @@ In particular, as Johnstone remarks, this implies that the quotient $[0,1]/(0\si
 
 One of the important facts about the topological topos is that its [[real numbers object]] is the set of classical [[real numbers]] equipped with its usual [[topology]] --- or more precisely, with the structure of [[subsequential space]] given by the usual notion of convergence for sequences of real numbers (arising from the usual Euclidean topology).
 
-In fact, there are two commonly used definitions of "real number" in a topos: the [[Dedekind real numbers]] and the [[Cauchy real numbers]].  In a general topos the two may not coincide, although they do coincide if the topos is [[Boolean topos|Boolean]] or satisfies the [[axiom of countable choice]].  The topological topos is not Boolean, but does satisfy [[dependent choice]] and hence countable choice, see ([Shulman & Simpson 2024](#ShulmanSimpson2024)). Thus, the two real numbers objects coincide in the topological topos. In fact, both are the set of classical real numbers with its usual topology.
+In fact, there are two commonly used definitions of "real number" in a topos: the [[Dedekind real numbers]] and the [[Cauchy real numbers]].  In a general topos the two may not coincide, although they do coincide if the topos is [[Boolean topos|Boolean]] or satisfies the [[axiom of countable choice]].  The topological topos is not Boolean, but does satisfy [[dependent choice]] and hence [[countable choice]], see [Shulman & Simpson 2024](#ShulmanSimpson2024). Thus, the two real numbers objects coincide in the topological topos. In fact, both are the set of classical real numbers with its usual topology.
 
 For the Dedekind real numbers, a proof of this can be found in Johnstone's paper.  Here we sketch a proof for the Cauchy reals.
 
@@ -89,33 +89,39 @@ Finally, since $((z_{n,k})_k)_n$ converges to $w_k$ in the object of Cauchy *seq
 
 * [[topological site]]
 
-## Links
+# Links
 
-* n-cafe [blog on Johnstone's paper](https://golem.ph.utexas.edu/category/2014/04/on_a_topological_topos.html)
 
 ## References
 
-The topological topos was introduced in
+The topological topos was introduced in:
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014; exercise 0.10, p.21)
 
-* {#Johnstone79}[[Peter Johnstone]], _On a topological topos_ , Proc. London Math. Soc. (3) **38** (1979) pp.237&#8211;271. ([pdf](http://plms.oxfordjournals.org/content/s3-38/2/237.full.pdf))
+* {#Johnstone79} [[Peter Johnstone]], _On a topological topos_ , Proc. London Math. Soc. (3) **38** (1979) 237-271 &lbrack;[pdf](http://plms.oxfordjournals.org/content/s3-38/2/237.full.pdf)&rbrack;
 
-Some information with a somewhat changed terminology can be found in
+Review (with somewhat terminology):
 
-* [[Peter Johnstone]], _Sketches of an [[Elephant]] vols.I&II_, Oxford UP 2002. (A2.1.11(j), A2.6.4(c), C2.2.14(b); pp.81,123,537f)
+* [[Peter Johnstone]], _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford UP 2002 
 
-The topological topos is discussed in the context of [[convenient category of topological spaces|convenient categories of spaces]] in
+  > see A2.1.11(j), A2.6.4(c), C2.2.14(b); pp. 81, 123,537f
 
-* H. A. Harasani, _Topos theoretic methods in general topology_ , PhD Thesis University of Wales Bangor 1988.
+Discussion in the context of [[convenient category of topological spaces|convenient categories of spaces]]:
 
-The topological topos is shown to satisfy dependent choice in
+* H. A. Harasani, *Johnstone's topos*, Chapter V in: *Topos theoretic methods in general topology*, PhD Thesis, University of Wales Bangor (1988) &lbrack;[web](https://groupoids.org.uk/harasani.html), [pdf](https://groupoids.org.uk/pdffiles/HarasaniPhD-V-VI-Bib.pdf)&rbrack;
 
-* {#ShulmanSimpson2024} [[Michael Shulman]], [[Alex Simpson]], _Dependent choice in Johnstone's topological topos_, 2024 ([pdf](/nlab/files/DCTopTopos.pdf))
+See also discussion at:
 
-Recently, the topos has received attention in the context of [[Homotopy type theory]]. Shulman has shown that there is a [[higher topos]] analogue which models [[homotopy type theory]].
+* n-cafe [blog on Johnstone's paper](https://golem.ph.utexas.edu/category/2014/04/on_a_topological_topos.html)
 
-* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, 2015 [arXiv](https://arxiv.org/abs/1509.07584)
+
+Proof that the topological topos satisfies [[dependent choice]]:
+
+* {#ShulmanSimpson2024} [[Michael Shulman]], [[Alex Simpson]], _Dependent choice in Johnstone's topological topos_ (2024) &lbrack;[pdf](/nlab/files/DCTopTopos.pdf)&rbrack;
+
+A [[higher topos]]-analogue of the topological topos models [[homotopy type theory]]:
+
+* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, 2015 &lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584)&rbrack;
 
 * [[Martín Escardó]], [[Thomas Streicher]], _The intrinsic topology of Martin-Lof universes_, APAL (2016). ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/universe-indiscrete.pdf))
 
@@ -123,9 +129,11 @@ Recently, the topos has received attention in the context of [[Homotopy type the
 
 Generalizations of its construction occur in the following two papers:
 
-* R. Monta&#241;ez, _Topoi generated by topological spaces_ , Talk CT15 Aveiro 2015. ([pdf-slides](http://sweet.ua.pt/dirk/ct2015/slides/Montanez.pdf))
+* R. Monta&#241;ez, _Topoi generated by topological spaces_ , Talk CT15 Aveiro (2015) &lbrack;[pdf-slides](http://sweet.ua.pt/dirk/ct2015/slides/Montanez.pdf)&rbrack;
 
-* C. Ruiz, R. Monta&#241;ez, _Elevadores de Estructura_ , Bolet&#237;n de Matem&#225;ticas **XIII** no.2 (2006) pp.111&#8211;135. ([link](http://www.revistas.unal.edu.co/index.php/bolma/article/view/40451))
+* C. Ruiz, R. Monta&#241;ez, _Elevadores de Estructura_ , Bolet&#237;n de Matem&#225;ticas **XIII** 2 (2006) 111-135. &lbrack;[link](http://www.revistas.unal.edu.co/index.php/bolma/article/view/40451)&rbrack;
 
 
 [[!redirects topological topos]]
+
+
