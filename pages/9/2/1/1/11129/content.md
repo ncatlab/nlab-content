@@ -55,6 +55,8 @@ Compact generation for [[stable (∞,1)-categories]] is detected already on thei
 
 * [[compactly generated triangulated category]]
 
+* [[compactly assembled (∞,1)-category]]
+
 
 ## References
 
