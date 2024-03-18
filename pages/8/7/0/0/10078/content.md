@@ -45,13 +45,13 @@ Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was 
 
 
 
-Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formlism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
+Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formalism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
 
 <img src="http://ncatlab.org/nlab/files/worldlineformalismoverview.jpg">
 
 > graphics grabbed from ([Schmidt-Schubert 94](#SchmidtSchubert94))
 
-The first calculuation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)) where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
+The first calculation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)) where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
 
 
 ## Related entries
