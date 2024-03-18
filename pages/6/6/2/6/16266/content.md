@@ -124,6 +124,9 @@ Observe that distributivity is asymmetric with respect to limits and colimits, w
 
 Thus, for instance, finite limits distribute over (uniform) filtered colimits if and only if finite limits commute with filtered colimits.  The same is true for finite products and sifted colimits.
 
+## Distributivity of (∞,1)-limits over (∞,1)-colimits
+
+The condition that small [[(∞,1)-limits]] distribute over [[(∞,1)-filtered (∞,1)-colimits]] precisely characterizes [[compactly assembled (∞,1)-categories]] among all [[presentable (∞,1)-categories]].
 
 ## Examples
 
