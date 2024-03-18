@@ -81,7 +81,7 @@ $$[\phi(0) \wedge \forall_x (\phi(x) \Rightarrow \phi(s(x))] \Rightarrow \forall
 
 results in an equivalent theory to Peano arithmetic. See [Parameters in arithmetic induction axiom schemas](https://mathoverflow.net/questions/79174/parameters-in-arithmetic-induction-axiom-schemas). 
 
-By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic|"nonstandard" models]] of any infinite cardinality of Peano arithmetic, all of them [[elementary embedding|elementarily embedding]] the standard model of arithmetic.
+By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic|"nonstandard" models]] of any infinite cardinality of Peano arithmetic.
 
 ### Formalization
 
