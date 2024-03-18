@@ -16,4 +16,4 @@ The formalism is applicable to $\lambda$-presentable stable ∞-categories, wher
 
 * [[Marc Hoyois]], _K-theory of dualizable categories (after A. Efimov)_, <https://hoyois.app.uni-regensburg.de/papers/efimov.pdf>.
 
-
+* [[Thomas Nikolaus]], _Sheaves on manifolds_, [PDF](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf)
