@@ -91,6 +91,10 @@ Interpretation of $K(ku)$ as the [[K-theory]] of [[BDR 2-vector bundles]]:
 
 * [[Nils Baas]], [[Bjørn Ian Dundas]], [[Birgit Richter]], [[John Rognes]], _Stable bundles over rig categories_, Journal of Topology, Volume 4, Issue 3, September 2011, Pages 623–640 ([arXiv:0909.1742](https://arxiv.org/abs/0909.1742), [doi:10.1112/jtopol/jtr016](https://doi.org/10.1112/jtopol/jtr016))
 
+which can also be understood as a special case of K-theory for 2-categories:
+
+* [[Nick Gurski]], [[Niles Johnson]], [[Angélica M. Osorno]]. *K-theory for 2-categories.* Advances in Mathematics 322 (2017): 378-472. ([doi](https://doi.org/10.1016/j.aim.2017.10.011))
+
 ### Algebraic K-theory of algebraic K-theory
 
 On the [[algebraic K-theory]] of algebraic K-theory of [[finite fields]] $K(K(\mathbb{F}))$:
