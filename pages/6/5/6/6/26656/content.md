@@ -50,6 +50,8 @@ Proof of the first part of the statement is also in:
 
 Articles invoking Dragon's theorem in higher-dimensional [[supergravity]] ([[D=10 supergravity|D=10]] and [[D=11 supergravity|D=11]]):
 
+* {#CremmerFerrara80} [[Eugene Cremmer]], [[Sergio Ferrara]], p. 63 in: *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys. Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
+
 * {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], p. 884 in: *Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions*, Nuclear Physics B **296** 4 (1988) &lbrack;<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>, [inspire:247764](https://inspirehep.net/literature/247764)&rbrack;
 
 * A. Candiello, [[Kurt Lechner]], *Duality in Supergravity Theories*, Nucl. Phys. B **412** (1994) 479-501 &lbrack;[arXiv:hep-th/9309143](https://arxiv.org/abs/hep-th/9309143), <a href="https://doi.org/10.1016/0550-3213(94)90389-1">doi:10.1016/0550-3213(94)90389-1</a>&rbrack;
