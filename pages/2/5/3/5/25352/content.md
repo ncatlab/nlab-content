@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A generalization of [[Waldhausen K-theory]] to dualizable [[dg-categories]] and dualizable [[stable ∞-categories]].
@@ -16,4 +21,7 @@ The formalism is applicable to $\lambda$-presentable stable ∞-categories, wher
 
 * [[Marc Hoyois]], _K-theory of dualizable categories (after A. Efimov)_, <https://hoyois.app.uni-regensburg.de/papers/efimov.pdf>.
 
-* [[Thomas Nikolaus]], _Sheaves on manifolds_, [PDF](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf)
+* {#KrauseNikolaus24} [[Achim Krause]], [[Thomas Nikolaus]], *Sheaves on manifolds* (2024) &lbrack;[pdf](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf), [[KrauseNikolaus-SheavesOnManifolds.pdf:file]]&rbrack;
+
+
+
