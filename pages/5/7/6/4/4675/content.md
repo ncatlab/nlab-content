@@ -1032,17 +1032,16 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 
 The description of the [[gauge transformation]]s of the [[supergravity C-field]] is in section 3 of
 
-* {#DFM} E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
+* {#DFM} E. Diaconescu, [[Greg Moore]], [[Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069)&rbrack;
  
 
 The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential string structures as above was given in 
 
-* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]:  *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics **315** 1 (2012)  169-213 &lbrack;[arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3)]([arXiv:](https://link.springer.com/article/10.1007/s00220-012-1510-3))&rbrack;
+* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]]:  *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Comm. Math. Phys. **315** 1 (2012)  169-213 &lbrack;[arXiv:0910.4001](https://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://doi.org/10.1007/s00220-012-1510-3)&rbrack;
   
+The full Čech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
 
-The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
-
-* {#FiorenzaSatiSchreiber12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes|Čech cocycles for differential characteristic classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack; 
+* {#FiorenzaSatiSchreiber12} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Čech Cocycles for Differential Characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 &lbrack;[arXiv:1011.4735](https://arxiv.org/abs/1011.4735), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack; 
 
 A comprehensive discussion including all the formal background and the applications is attempted at
 
@@ -1067,6 +1066,7 @@ More discussion on the relation to spin structures on smooth loop space is in
 * Alessandra Capotosti, _[[From String structures to Spin structures on loop spaces]]_, Ph.D. thesis, Universit&#224; degli Studi Roma Tre, Rome, April 2016
 
 
+
 [[!redirects differential string structures]]
 
 [[!redirects differential String structure]]
@@ -1081,7 +1081,6 @@ More discussion on the relation to spin structures on smooth loop space is in
 [[!redirects twisted differential string structures]]
 [[!redirects twisted differential string-structure]]
 [[!redirects twisted differential string-structures]]
-
 
 [[!redirects geometric string structure]]
 [[!redirects geometric string structures]]
