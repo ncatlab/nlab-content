@@ -153,6 +153,8 @@ Lecture notes:
 
 * {#Scholze22} [[Peter Scholze]], *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
 
+* {#KrauseNikolaus24} [[Achim Krause]], [[Thomas Nikolaus]], *Sheaves on manifolds* (2024) &lbrack;[pdf](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf), [[KrauseNikolaus-SheavesOnManifolds.pdf:file]]&rbrack;
+
 
 An approach to six functor formalism as a bifibered multicategory (multiderivator, when appropriate) over correspondences is in 
 
@@ -257,5 +259,6 @@ The abstract approach behind Mann's work is the subject of [Scholze (2022)](#Sch
 
 [[!redirects motivic yoga]]
 
+[[!redirects six functor formalism]]
 
 
