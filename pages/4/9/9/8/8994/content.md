@@ -40,6 +40,18 @@ These extra associators are sometimes called "distributors", and should not be c
 
 **Warning:** a [[distributive category]] *cannot* be made into a linearly distributive category with $\otimes = \times$ and $\parr = +$ unless it is a [[partial order]] (but every [[distributive lattice]] is indeed a linearly distributive category) (for a proof, see [Cockett-Seely 1997](#CockettSeely97)).  This mistake is easy to make and even appears in print in one or two places.
 
+## Examples
+
+* Any [[star-autonomous category]] is linearly distributive, with $A \parr B = (A^* \otimes B^*)^*$.  See that page for many examples of this.
+
+* Any [[distributive lattice]] is linearly distributive, with $A\otimes  B = A\wedge B$ and $A\parr B = A\vee B$.  (This does *not* extend to [[distributive categories]].)
+
+* Any monoidal category is linearly distributive trivially with $\parr = \otimes$.
+
+* If $D$ is an [[invertible object]] in a monoidal category, then defining $A\parr B = A\otimes D \otimes B$ yields a linearly distributive structure whose linear distributors are isomorphisms.
+
+* The category of modules for a [[bialgebra]] in any linearly distributive category (hence, in particular, in any [[star-autonomous category]]) is again linearly distributive.  It is generally only star-autonomous if the bialgebra is a [[Hopf algebra]].
+
 ## Linear functors and transformations
 
 A **linear functor** $F:C\to D$ between linearly distributive categories consists of a pair of functors $F_\otimes, F_\parr$ such that, $F_\otimes$ is a [[lax monoidal functor]] with respect to $\otimes$, $F_\parr$ is a [[colax monoidal functor]] with respect to $\parr$, and there are "linear strengths"
