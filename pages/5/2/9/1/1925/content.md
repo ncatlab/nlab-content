@@ -265,7 +265,7 @@ $$
 
 where $g\in G$ is the unique group element such that $g\cdot b = a$.
 
-In fact, the category $Heap$ is [[equaivalence of categories|equivalent]] to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
+In fact, the category $Heap$ is [[equivalence of categories|equivalent]] to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
 
 
 ## The empty heap {#empty}
