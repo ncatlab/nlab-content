@@ -388,7 +388,7 @@ A Kan fibration $f\colon X\to Y$ is acyclic precisely if the [[fiber]] $f^{-1}(y
 
 =--
 
-Purely combinatorial proofs of this statement include ([Joyal 2008, prop. 8.23](#Joyal08), [Riehl-Verity 13, lemma 5.4.16](#RiehlVerity13))
+Purely combinatorial proofs of this statement include ([Joyal 2008, prop. 8.23](#Joyal08), [Riehl-Verity 13, lemma 5.4.16 in v2 on arxiv](#RiehlVerity13))
 
 ### Pullback and homotopy pullback
 
