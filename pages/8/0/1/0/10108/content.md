@@ -22,7 +22,7 @@
 
 Despite its fundamental role in the [[standard model of particle physics]], various details of the [[non-perturbative quantum field theory|non-perturbative]] [[quantization]] of the class of [[field theories]] known as [[Yang-Mills theory]] for [[non-abelian group|non-abelian]] [[gauge group]] (such as [[QCD]] but not [[QED]]) are still open, such as derivations of the phenomena 
 
-* [[quark]]  [[confinement]]
+* [[confinement|quark confinement]]
 
 and notably
 
@@ -53,7 +53,7 @@ From [Jaffe-Witten](#JaffeWitten):
 
 > Both [[experiment]] -- since [[QCD]] has numerous successes in confrontation with experiment -- and [[lattice gauge theory|computer simulations]], carried out since the late 1970s, have given strong encouragement that QCD does have the properties cited above. These properties can be seen, to some extent, in theoretical calculations carried out in a variety of highly oversimplified models (like strongly coupled [[lattice gauge theory]]).  But they are not fully understood theoretically; there does not exist a convincing, whether or not mathematically complete, theoretical computation demonstrating any of the three properties in QCD, as opposed to a severely simplified truncation of it.
 
-This is the problem of [[non-perturbative quantum field theory|non-perturbative]] quantization of Yang-Mills theory
+This is the problem of [[non-perturbative quantum field theory|non-perturbative]] quantization of Yang-Mills theory.
 
 ## Related concepts
 
