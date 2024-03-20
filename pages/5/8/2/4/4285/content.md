@@ -58,6 +58,33 @@ We need to prove that this is continuous.  First, note that if $f_n(x) \ne 0$ th
 From this, we deduce that the preimage of any open set not containing $1$ is open.  Thus $f$ is continuous everywhere except possibly at $v$.  Continuity at $v$ is similarly simple: given a set of the form $(1 -\epsilon,1]$ then there is some $n$ such that $2^{-n} \lt \epsilon$, whence $f^{-1}(1-\epsilon,1]$ contains all points such that $f_k(x) = 1$ for $k \le n$, which by construction is a neighbourhood of $v$.  Hence $f$ is continuous and has a single global maximum at $v$.
 =--
 
++-- {: .un_theorem}
+###### Mazurkiewicz theorem
+
+In a [[metric space]], every [[fully metrizable]] subset is a $G_\delta$ subspace.
+
+=--
+
+([Mazurkiewicz 16](#Mazurkiewicz16))
+
++-- {: .un_theorem}
+###### Hausdorff Gδ theorem
+
+In a [[fully metrizable]] space, every $G_\delta$ subspace is [[fully metrizable]].
+
+=--
+
+([Hausdorff 24](#Hausdorff24))
+
+## References
+
+* {#Mazurkiewicz16} [[Stefan Mazurkiewicz]], _Über Borelsche Mengen_, Bulletin International de l'Académie des Sciences de Cracovie, Classe des Sciences Mathématiques et Naturelles. Série A: Sciences Mathématiques. 1916, ZDB-ID 761846-3, S. 490–494.
+
+* {#Hausdorff24} [[Felix Hausdorff]], _Die Mengen $G_\delta$ in vollständigen Räumen_, Fundamenta Mathematicae. Bd. 6, 1924, S. 146–148.
+
+See also 
+
+* Wikipedia _[Gδ space](https://en.wikipedia.org/wiki/G%CE%B4_space)_
 
 [[!redirects G-delta]]
 [[!redirects G-∞]]
