@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[topological space]] $(X,\tau)$ is called _metrisable_ if there exists the stucture of a [[metric space]] $(X,d)$ on the underlying set, such that $\tau$ is the corresponding [[metric topology]].
+A [[topological space]] $(X,\tau)$ is called _metrisable_ if there exists the stucture of a [[metric space]] $(X,d)$ on the underlying set, such that $\tau$ is the corresponding [[metric topology]]. If there exists such a $(X,d)$ which is [[complete space|complete]], then $(X,\tau)$ is called _completely metrisable_.
 
 ## Properties
 
@@ -65,6 +65,22 @@ See also
 [[!redirects metrizable space]]
 [[!redirects metrizable spaces]]
 
+[[!redirects completely metrisable topological space]]
+[[!redirects completely metrisable topological spaces]]
+
+[[!redirects completely metrizable topological space]]
+[[!redirects metrizable topological spaces]]
+
+[[!redirects completely metrisable space]]
+[[!redirects completely metrisable spaces]]
+
+[[!redirects completely metrizable space]]
+[[!redirects completely metrizable spaces]]
+
+
 
 [[!redirects metrisable]]
 [[!redirects metrizable]]
+
+[[!redirects completely metrisable]]
+[[!redirects completely metrizable]]
