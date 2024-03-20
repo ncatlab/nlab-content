@@ -511,6 +511,10 @@ See also at [[field (physics)]] the section on _[Ordinary gravity](field%20%28ph
 
 ## References
 
+
+* [[Pietro Fré]], §3.2.5, §5.2.1 in: *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
+
+
 Discussion in the general context of [[G-structures]] includes
 
 * {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
@@ -537,6 +541,11 @@ Discussion in the general context of [[G-structures]] includes
 [[!redirects soldering form]]
 [[!redirects soldering forms]]
 
+[[!redirects moving frame]]
+[[!redirects moving frames]]
+
 [[!redirects Cartan moving frame]]
 [[!redirects Cartan moving frames]]
+
+
 
