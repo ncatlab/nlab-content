@@ -216,7 +216,7 @@ the condition $p(x) = p(y)$ and $\partial_i x = \partial_i y$ implies for all $k
 
 ### Quasi-fibration
 
-A **quasi-fibration** or **weak Kan fibration** or **inner Kan fibration** of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^n_k$ with $0 \lt k \lt (n-1)$, not the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$.
+A **quasi-fibration** or **weak Kan fibration** or **inner Kan fibration** of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^n_k$ with $0 \lt k \lt n$, not the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$.
 
 This weakened condition then says that _composition_ of cells may be lifted through the quasi-fibration, but not necessarily [[inverse|inversion]] of 1-cells.  See [[fibrations of quasi-categories]] for more details.
 
