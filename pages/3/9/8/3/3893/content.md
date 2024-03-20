@@ -62,6 +62,7 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 * [[higher Cartan geometry]]
 
+
 ## References
 
 The original articles:
@@ -77,13 +78,20 @@ Historical review:
 * [[Erhard Scholz]], *E. Cartan’s attempt at bridge-building between Einstein and the Cosserats – or how translational curvature became to be known as "torsion"*, The European Physics Journal H **44** (2019) 47-75 \[<a href="https://doi.org/10.1140/epjh/e2018-90059-x">doi:10.1140/epjh/e2018-90059-x</a>\]
 
 
-Introduction:
+Introductions:
 
 * [[Richard W. Sharpe]], *An introduction to Cartan Geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Circolo Matematico di Palermo (2002) 61-75 &lbrack;[eudml:220395](https://eudml.org/doc/220395), [dml:701688](http://dml.cz/dmlcz/701688)&rbrack;
+
+* [[Benjamin McKay]], *An introduction to Cartan geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Palermo (2002) &lbrack;[arXiv:2302.14457](https://arxiv.org/abs/2302.14457), [eudml:220395](https://eudml.org/doc/220395)&rbrack;
+
 
 Monographs:
 
 * {#Sharpe97} [[Richard W. Sharpe]], *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduate Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], Chapter I.3.7 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.3: [[CastellaniDAuriaFre-ChI3.pdf:file]]&rbrack;
+
+  > (these authors refer to Cartan geometries as "soft group manifolds")
 
 * {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of: _Parabolic Geometries I -- Background and General Theory_, AMS (2009) &lbrack;[ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154)&rbrack;
 
