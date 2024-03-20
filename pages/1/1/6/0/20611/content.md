@@ -59,16 +59,16 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|general|
 |[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|algebra|
 |[Journal of the Australian Mathematical Society](https://www.austms.org.au/Journal+of+the+Australian+Mathematical+Society)|Cambridge University Press|[[Nora Ganter|Ganter]]|subscription|general|
-|[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|[[Martin Hyland|Hyland]]|subscription|logic|
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
-|[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Colin McLarty|McLarty]], [[Steve Awodey|Awodey]]|subscription|logic|
+|[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Steve Awodey|Awodey]]|subscription|logic|
+|[Mathematical Logic Quaterly](https://onlinelibrary.wiley.com/journal/15213870)|Wiley|[[Steve Awodey|Awodey]], [[Maria Emilia Maietti|Maietti]], [[Emily Riehl|Riehl]]|subscription|logic|
 
 ## Journals previously publishing homotopy theory and/or category theory
 
 |Journal|Publisher|
 |-------|---------|
 |[[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]|French Academy of Sciences|
-
+|[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|
 ## Related pages
 
 * [[list of theses in category theory]]
