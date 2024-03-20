@@ -1083,6 +1083,13 @@ The formulation of supergravity on [[super spacetime]] [[supermanifolds]] ("[[su
 
 * [[Richard Grimm]], [[Julius Wess]], [[Bruno Zumino]], *A complete solution of the Bianchi identities in superspace with supergravity constraints*, Nuclear Phys. B **152** (1979) 255-265 \[<a href="https://doi.org/10.1016/0550-3213(79)90102-0">doi:10.1016/0550-3213(79)90102-0</a>\]
 
+paralleled by these maybe overlooked articles that make the underlying [[Cartan geometry]] more explicit:
+
+* [[N. S. Baaklini]], *Spin 3/2 field and Cartan's geometry*, Lett. Math. Phys. **2** (1977) 43-47 &lbrack;[doi:10.1007/BF00420670]( https://doi.org/10.1007/BF00420670)&rbrack;
+
+* [[N. S. Baaklini]], *Cartan's geometrical structure of supergravity*, Lett. Math. Phys. **2** (1977) 115-117 &lbrack;[doi:10.1007/BF00398576](https://doi.org/10.1007/BF00398576)&rbrack;
+
+
 
 The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation as [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
