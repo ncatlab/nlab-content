@@ -61,7 +61,7 @@ From this, we deduce that the preimage of any open set not containing $1$ is ope
 +-- {: .un_theorem}
 ###### Mazurkiewicz theorem
 
-In a [[metric space]], every [[fully metrizable]] subset is a $G_\delta$ subspace.
+In a [[metric space]], every [[completely metrizable space|completely metrizable]] subset is a $G_\delta$ subspace.
 
 =--
 
@@ -70,7 +70,7 @@ In a [[metric space]], every [[fully metrizable]] subset is a $G_\delta$ subspac
 +-- {: .un_theorem}
 ###### Hausdorff Gδ theorem
 
-In a [[fully metrizable]] space, every $G_\delta$ subspace is [[fully metrizable]].
+In a [[completely metrizable space]], every $G_\delta$ subspace is [[completely metrizable space|completely metrizable]].
 
 =--
 
