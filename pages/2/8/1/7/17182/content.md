@@ -141,7 +141,7 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] the ([[smash product]] $\dahsv$ [[pointed mapping space]])-[[adjuncts]]
+A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] the ([[smash product]] $\dashv$ [[pointed mapping space]])-[[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
