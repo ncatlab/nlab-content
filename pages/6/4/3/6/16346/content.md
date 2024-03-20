@@ -33,7 +33,7 @@ While the [[abstract general]] [[theory]] of super-Cartan geometry proceeds in d
 ## Survey of (non-)existing literature
  {#SurveyOfExistingLiterature}
 
-While the specific terminology "super-Cartan geometry" is traditionally not used much  (but see ([Baaklini 77a](#Baaklini77a), [Baaklini 77b](#Baaklini77b), [Egeileh-Chami 13](#EgeilehChami13))), nevertheless the key ingredients of super-Cartan geometry are well known in the literature, and all the more is it useful to make them explicit as what they are.
+While the specific terminology "super-Cartan geometry" is traditionally not used much  (but see [Baaklini 1977a](#Baaklini77a), [1977b](#Baaklini77b); [Egeileh & Chami 2013](#EgeilehChami13)), nevertheless the key ingredients of super-Cartan geometry are well known in the literature, and all the more is it useful to make them explicit as what they are.
 
 Physics literature usually refers to the "superspace formulation" of [[supergravity]] when referring to the formulation of the theory in [[supergeometry]] and uses terms such as "Einstein-Cartan theory" to refer to the [[first order formulation of gravity]] (e.g. [Nieuwenhuizen 81](#Nieuwenhuizen81)). But all of the literature on [[supergravity]] formulated this way in "superspace" is implicitly about super-Cartan geometry for the inclusion of a [[spin group]]-[[double cover]] of the [[Lorentz group]] inside a [[super Poincaré group]], in direct analogy to how ordinary [[Einstein gravity]] ([[pseudo-Riemannian geometry]]) is the Cartan geometry of the inclusion of a [[Lorentz group]] inside a plain [[Poincaré group]] -- this in fact being Cartan's original and motivating example for the whole theory. Where physicists speak of "locally gauging [[supersymmetry]]" the mathematical formulation of that is precisely this: the "[[supersymmetry]]" [[supergroup]] is the [[super Poincaré group]] [[action|acting]] on [[super Minkowski spacetime]], and "locally gauging" it means exactly to consider [[spacetimes]] that are locally ([[tangent space]]-wise) modeled on [[super Minkowski space]], while globally varying according to a [[Lorentz group]]-[[G-structure]], hence the super-analog of a [[pseudo-Riemannian metric]]. The main point to be aware of is that physics literature in general tends to by default outright ignore all global issues (such as nontrivial [[principal bundles]]) and instead discuss these only when absolutely necessary as extra phenomena going by names such as _[[instantons]]_ and _[[anomalies]]_.
 
@@ -2337,7 +2337,7 @@ This means that for applications to [[supergravity]] the inclusion of [[supergro
 
 Traditional literature that involves super-Cartan geometry more or less explicitly and in the context of [[supergravity]] and its [[supergravity torsion constraints]] includes
 
-* {#Baaklini77a} [[N. S. Baaklini]], *Spin 3/2 field and Cartan's geometry*, Lett. Math. Phys. **2** (1977) 43-47 &lbrack;[doi:10.1007/BF00420670]( https://doi.org/10.1007/BF00420670)&rbrack;
+* {#Baaklini77a} [[N. S. Baaklini]], *Spin 3/2 field and Cartan's geometry*, Lett. Math. Phys. **2** (1977) 43-47 &lbrack;[doi:10.1007/BF00420670](https://doi.org/10.1007/BF00420670)&rbrack;
 
 * {#Baaklini77b} [[N. S. Baaklini]], *Cartan's geometrical structure of supergravity*, Lett. Math. Phys. **2** (1977) 115-117 &lbrack;[doi:10.1007/BF00398576](https://doi.org/10.1007/BF00398576)&rbrack;
 
