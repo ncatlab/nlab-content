@@ -93,7 +93,7 @@ Interpretation of $K(ku)$ as the [[K-theory]] of [[BDR 2-vector bundles]]:
 
 which can also be understood as a special case of K-theory for 2-categories:
 
-* [[Nick Gurski]], [[Niles Johnson]], [[Angélica M. Osorno]]. *K-theory for 2-categories.* Advances in Mathematics 322 (2017): 378-472. ([doi](https://doi.org/10.1016/j.aim.2017.10.011))
+* [[Nick Gurski]], [[Niles Johnson]], [[Angélica M. Osorno]]. *K-theory for 2-categories.* Advances in Mathematics **322** (2017) 378-472 &lbrack;[doi](https://doi.org/10.1016/j.aim.2017.10.011), [arXiv:1503.07824](https://arxiv.org/abs/1503.07824)&rbrack;
 
 ### Algebraic K-theory of algebraic K-theory
 
