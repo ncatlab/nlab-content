@@ -71,7 +71,7 @@ Original articles:
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class. Quant. Grav.17:3689-3702, 2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
-* {#Hull07} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+* {#Hull07} [[Chris Hull]], *Generalised Geometry for M-Theory*, JHEP 0707:079 (2007) &lbrack;[arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203), [doi:10.1088/1126-6708/2007/07/079](https://doi.org/10.1088/1126-6708/2007/07/079)&rbrack;
  
 
 * {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123, 2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
