@@ -2337,11 +2337,11 @@ This means that for applications to [[supergravity]] the inclusion of [[supergro
 
 Traditional literature that involves super-Cartan geometry more or less explicitly and in the context of [[supergravity]] and its [[supergravity torsion constraints]] includes
 
-* {#Baaklini77a} N. S. Baaklini, _Spin 3/2 Field and Cartan's Geometry_, Letters in Mathematical Physics August 1977, Volume 2, Issue 1, pp 43-47
+* {#Baaklini77a} [[N. S. Baaklini]], *Spin 3/2 field and Cartan's geometry*, Lett. Math. Phys. **2** (1977) 43-47 &lbrack;[doi:10.1007/BF00420670]( https://doi.org/10.1007/BF00420670)&rbrack;
 
-* {#Baaklini77b} N. S. Baaklini _Cartan's Geometrical Structure of Supergravity_, Lett. Math. Phys. 2 (1977) 115.
+* {#Baaklini77b} [[N. S. Baaklini]], *Cartan's geometrical structure of supergravity*, Lett. Math. Phys. **2** (1977) 115-117 &lbrack;[doi:10.1007/BF00398576](https://doi.org/10.1007/BF00398576)&rbrack;
 
-* {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, Vol. 68, p. 189 - 398, 1981
+* {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, **68,** (1981) 189-398 &lbrack;<a href="https://doi.org/10.1016/0370-1573(81)90157-5">doi:10.1016/0370-1573(81)90157-5</a>&rbrack;
 
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
