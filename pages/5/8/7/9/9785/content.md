@@ -100,9 +100,9 @@ That a limiting case of this is given by the [[orthosymplectic super Lie algebra
 
 * {#FernandezIzquierdoOlmo15} J.J. Fernandez, [[José M. Izquierdo]], M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946)&rbrack;
 
-Further discussion is in
+Further discussion:
 
-* {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
+* {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], *Hidden Gauge Structure of Supersymmetric Free Differential Algebras*, JHEP 1608 (2016) 095 &lbrack;[arXiv:1606.07328](https://arxiv.org/abs/1606.07328), <a href=" https://doi.org/10.1007/JHEP08(2016)095">doi:10.1007/JHEP08(2016)095</a>&rbrack;
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
 
