@@ -80,16 +80,22 @@ On [[E11]]-[[exceptional generalized geometry]] for [[D=11 supergravity]]/[[M-th
 
 Discussion of the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
 
-* {#Wess11} [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+* [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 
 * Keith Glennon, [[Peter West]], _Gravity, Dual Gravity and $A_1^{+++}$_ ([arXiv:2004.03363](https://arxiv.org/abs/2004.03363))
 
 * Nicolas Boulanger, [[Paul P. Cook]], Josh A. O'Connor, [[Peter West]], *Higher dualisations of linearised gravity and the $A_1^{+++}$ algebra* &lbrack;[arXiv:2208.11501](https://arxiv.org/abs/2208.11501)&rbrack
 
-
 On basics of [[string theory]]:
 
-* _[[Introduction to Strings and Branes]]_
+* [[Peter West]], _[[Introduction to Strings and Branes]]_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
+
+
+On [[Abdus Salam]] and the early history of [[supersymmetry]]:
+
+* [[Peter West]]: *Memories of Abdus Salam and the early days of supersymmetry* &lbrack;[arXiv:2403.13453](https://arxiv.org/abs/2403.13453)&rbrack;
+
+
 
 ## Related entries
 
