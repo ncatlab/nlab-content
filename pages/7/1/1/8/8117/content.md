@@ -22,7 +22,14 @@ $$
   \phi \;\colon\; (X_1,\omega_1) \to (X_2, \omega_2)
 $$ 
 
-encodes a process undergone by this system, for instance the time evolution induced by a [[Hamiltonian vector field]]. 
+encodes a process undergone by this system, for instance the time evolution induced by a [[Hamiltonian vector field]].
+
+However, this is too restrictive for a notion of a morphism. Indeed, even at the level of [[symplectic vector space|symplectic vector spaces]], a symplectic morphism $\phi: (V,\omega)\to (W,\omega')$ is required to satisfy
+$$
+\phi^*\omega'=\omega.
+$$
+This implies that for any element $v\in\text{ker}(\phi)$, it holds that $\omega(v,w) = \omega'(f(v),f(w)) = 0$, and since $\omega$ is non-degenerate $\phi$ must be injective.
+
 
 Now the [[graph]] of a [[symplectomorphism]] $\phi$ is a [[Lagrangian submanifold]] of the [[Cartesian product]] space $X_1 \times X_2$ regarded as a [[symplectic manifold]] with symplectic form $p_1^\ast \omega_1 - p_2^\ast \omega_2$. In other words, a symplectomorphism $\phi$ as above constitutes a [[Lagrangian correspondence]] between $(X_1,\omega_1)$ and $(X_2, \omega_2)$. See for instance ([Cattaneo-Mnev-Reshetikhin 12](#CattaneoMnevReshetikhin12)) for a review.
 
