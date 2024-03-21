@@ -1,11 +1,17 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Abdus_Salam)
 
+* [[Peter West]]: *Memories of Abdus Salam and the early days of supersymmetry* &lbrack;[arXiv:2403.13453](https://arxiv.org/abs/2403.13453)&rbrack;
+
 ## Selected writings
+
+General:
+
+* *Selected Papers of Abdus Salam (With Commentary)*, World Scientific Series in 20th Century Physics **5**, World Scientific (1994) &lbrack;[doi:10.1142/2265 ](https://doi.org/10.1142/2265 )&rbrack;
 
 Co-introducing the theory of the [[electroweak field]]:
 
-* [[Abdus Salam]], [[John Clive Ward]], *Weak and electromagnetic interactions*, Nuovo Cimento. **11** 4 (1959) 568–577 &lbrack;[doi:10.1007/BF02726525](https://doi.org/10.1007/BF02726525)&rbrack;
+* [[Abdus Salam]], [[John Clive Ward]], *Weak and electromagnetic interactions*, Nuovo Cimento **11** 4 (1959) 568–577 &lbrack;[doi:10.1007/BF02726525](https://doi.org/10.1007/BF02726525)&rbrack;
 
 
 Introducing [[super Yang-Mills theory]]:
