@@ -65,17 +65,15 @@ This appears for instance as ([EGNO, prop. 1.46.2](#EGNO)). Without the finitene
 
 The construction was introduced in 
 
-* [[Pierre Deligne]], _Cat&#233;gories tannakiennes_, The Grothendieck
-Festschrift, Vol. II. Progr. Math. 87, 111&#8211;195. Birkh&#228;user
-Boston. 1990 (1990)
+* [[Pierre Deligne]], _Cat&#233;gories tannakiennes_, The Grothendieck Festschrift, Vol. II. Progr. Math. 87, 111&#8211;195. Birkh&#228;user Boston. 1990.
  {#Deligne}
 
-A survey is in 
+Ignacio L&#243;pez Franco has pointed out that while Deligne's tensor product always exists for finite abelian categories, it does not always exist for general [[abelian categories]].  He argues that in this case it is better to use Kelly's tensor product of finitely cocomplete categories, because it always exists, and it agrees with Deligne's tensor product when the latter exists.  See:
 
-* [[Ignacio L&#243;pez Franco]], _Tensor products of finitely cococomplete and abelian categories_ (2012) ([pdf](http://www.mat.uc.pt/~workCT/slides/Ignacio.pdf))
- {#Franco12}
+* [[Ignacio L&#243;pez Franco]], _Tensor products of finitely cocomplete and abelian categories_, Journal of Algebra 396, (2013) 207-219.  ([web](https://www.sciencedirect.com/science/article/pii/S0021869313004626))  {#Franco13}
 
-Here the author points out that while Deligne's tensor product always exists for finite abelian categories, it does not always exist for general [[abelian categories]].  He argues that in this case it is better to use Kelly's tensor product of finitely cocomplete categories, because it always exists, and it agrees with Deligne's tensor product when the latter exists.  
+* [[Ignacio L&#243;pez Franco]], _Tensor products of finitely cococomplete and abelian categories_ (2012) ([pdf of slides](http://www.mat.uc.pt/~workCT/slides/Ignacio.pdf))
+ {#Franco12} 
 
 Kelly's tensor product can be found in section 6.5 of
 
@@ -88,7 +86,7 @@ Similar remarks (in the context of [[2-rings]]/[[2-modules]]) are from corollary
 
 In this set of lecture notes
 
-* [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (Spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
+* [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor Categories_, Lecture notes (Spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
  {#EGNO}
 
 the Deligne tensor product is discussed in [lecture 9](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/MIT18_769S09_lec09.pdf).
