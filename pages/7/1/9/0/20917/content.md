@@ -9,19 +9,19 @@
 
 * [[stereographic projection]]
 
-* [[spherical fibration]], [[twisted Cohomotopy]]
-
 * [[homotopy groups of spheres]]
 
 * [[homotopy sphere]], [[Cohomotopy]]
 
-* [[homology sphere]]
-
-* [[rational n-sphere]]
-
-* [[motivic sphere]]
+* [[spherical fibration]], [[twisted Cohomotopy]]
 
 * [[sphere spectrum]], [[stable Cohomotopy theory]]
+
+* [[homology sphere]]
+
+* [[rational homotopy sphere]], [[rational n-sphere]]
+
+* [[motivic sphere]]
 
 * [[group actions on spheres]]
 
