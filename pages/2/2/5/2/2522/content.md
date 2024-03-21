@@ -1050,6 +1050,8 @@ Accounts of the early history of the concept of supersymmetry:
 
 * [[Hermann Nicolai]], *Reflections on Supersymmetry* &lbrack;[arXiv:2311.06051](https://arxiv.org/abs/2311.06051)&rbrack;
 
+* [[Peter West]]: *Memories of [[Abdus Salam]] and the early days of supersymmetry* &lbrack;[arXiv:2403.13453](https://arxiv.org/abs/2403.13453)&rbrack;
+
 
 See also at _[supergravity -- History](supergravity#History)_.
 
