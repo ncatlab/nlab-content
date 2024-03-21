@@ -5,3 +5,13 @@ A [[topological space]] $X$ is called hemicompact iff there exists a sequence $(
 ## Properties ##
 
 If $X$ is hemicompact and $(K_n)$ a sequence as in the definition, then every compact subset $K\subseteq X$ is contained in one of the $K_n$. In other words: $\lbrace K_n \mid n\in\mathbb{N}\rbrace$ is [[cofinal]] in the set of all compact subsets (partially ordered by inclusion)
+
+## Related concepts
+
+* [[orthocompact space]]
+
+[[!redirects hemicompact]]
+[[!redirects hemicompact spaces]]
+
+[[!redirects countably hemicompact]]
+[[!redirects countably hemicompact spaces]]
