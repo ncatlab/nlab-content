@@ -22,6 +22,18 @@
 
 A _rational homotopy sphere_ is a [[topological space]] which need not be [[homeomorphism|homeomorphic]] to an [[n-sphere]], but which has the same [[rational homotopy type]] as an $n$-sphere, hence whose [[rationalization]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to a [[rational n-sphere]].
 
+## Properties
+
+\begin{corollary}
+Every [[homotopy sphere]] is a rational homotopy sphere.
+\end{corollary}
+
+## Related concepts
+
+* [[homotopy sphere]]
+* [[homology sphere]]
+* [[rational homology sphere]]
+
 [[!redirects rational homotopy spheres]]
 
 
