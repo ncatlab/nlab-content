@@ -32,3 +32,6 @@ category: people
 
 
 [[!redirects Michael A. Hill]]
+
+[[!redirects Mike Hill]]
+
