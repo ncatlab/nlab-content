@@ -1,6 +1,3 @@
-[[!redirects standard Borel]]
-[[!redirects standard Borel]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
