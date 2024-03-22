@@ -138,6 +138,11 @@ As another example, the [[identity types]] in Martin-L&#246;f's original constru
 This is now known as _[[homotopy type theory]]_, see there for more.
 
 
+### In probability theory 
+
+See [[category-theoretic approaches to probability theory]].
+
+
 ### In physics {#Physics}
 
 See also _[[higher category theory and physics]]_.
