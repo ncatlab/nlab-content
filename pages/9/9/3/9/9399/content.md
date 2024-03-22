@@ -63,9 +63,9 @@ In the context of [[category theory]] the concept is discussed in
 
 In the context of [[(infinity,1)-categories]] (with an eye towards [[(infinity,1)-toposes]]) the concept is called **equifibered natural transformations** and is considered in
 
-* {#Rezk10} [[Charles Rezk]], p. 9 of _Toposes and homotopy toposes_ (2010) ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk10} [[Charles Rezk]], p. 9 of _Toposes and homotopy toposes_ (2010) ([pdf](https://rezk.web.illinois.edu/homotopy-topos-sketch.pdf))
 
-* {#Rezk14} [[Charles Rezk]], p. 2 of _When are homotopy colimits compatible with homotopy base change?_ (2014) ([pdf](http://www.math.uiuc.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf))
+* {#Rezk14} [[Charles Rezk]], p. 2 of _When are homotopy colimits compatible with homotopy base change?_ (2014) ([pdf](https://rezk.web.illinois.edu/i-hate-the-pi-star-kan-condition.pdf))
 
 The name "equifibered" comes from the fact that since $\alpha_x$ is a pullback of $\alpha_y$, they must have [[isomorphism|isomorphic]] [[fibers]].  (Of course, if $C$ is not [[connected category|connected]], then being equifibered does not imply that *all* components of $\alpha$ have isomorphic fibers.)
 
