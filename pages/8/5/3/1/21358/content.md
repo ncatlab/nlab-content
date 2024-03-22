@@ -14,7 +14,7 @@ There are two ways to define a Galois category. We give them both below, followi
 
 1. $G$ has [[finite limit|finite limits]]. 
 1. $G$ has [[finite colimit|finite colimits]].
-1. For every arrow $f: X \rightarrow Y$ of $G$, there are objects $Z_{f}$ and $Z'_{f}$ of $G$ such that $Y$ is isomorphic to the coproduct $Z_{f} \sqcup Z'_{f}$, such that there is a [[strict epimorphism]] $u: X \rightarrow Z_{f}$, and such that the canonical [[coprojection]] functor $v: Z_{f} \rightarrow Y$ is a [[monomorphism]]. 
+1. Every arrow $f: X \rightarrow Y$ of $G$ factorizes as a composition of a [[strict epimorphism]] $u: X \rightarrow Z$ and the [[coprojection]] $v: Z \rightarrow Y$ for a coproduct decomposition $Y \cong Z \sqcup Z'$, where $v$ is a [[monomorphism]].
 1. $F$ is [[exact functor|exact]], that is to say, preserves finite limits and finite colimits.
 1. $F$ is [[conservative functor|conservative]]. 
 
