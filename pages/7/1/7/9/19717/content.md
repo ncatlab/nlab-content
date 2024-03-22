@@ -318,7 +318,7 @@ There are many generalizations of lenses which have been proposed, however they 
 
 These sorts of lenses are generalized by [Spivak 19](#Spivak19). For a quick explanation of how these sorts of generalized lenses are of use in systems theory, see [Myers20](#Myers20); for a longer explanation, see Chapter 2 of [Myers](#Myers).
 
-* An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' state from the forward part to the backward part, avoiding the necessity of a cartesian structure by swapping it with a sufficiently rich categorical context.
+* An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' state from the forward part to the backward part, avoiding the necessity of a cartesian structure by swapping it with a sufficiently rich actegorical context.
 
 ### Lenses with laws
 
