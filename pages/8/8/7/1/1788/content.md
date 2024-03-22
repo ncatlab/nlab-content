@@ -1,4 +1,4 @@
-
+$A \cong B$
 
 $$
   \begin{array}{l}
