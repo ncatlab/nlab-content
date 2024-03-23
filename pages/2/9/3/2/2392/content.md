@@ -52,7 +52,7 @@ The second models the [[(∞,1)-category]] version of a [[category of operators]
 
 Here [[simplicial set]]s are generalized to [[dendroidal set]]s. The theory of $(\infty,1)$-operads is then formulated in terms of dendroidal sets in close analogy to how the theory of [[(∞,1)-category|(∞,1)-categories]] is formulated in terms of [[simplicial set]]s.
 
-There is a [[model  structure on dendroidal sets]] whose fibrant objest are the **quasi-operad**s in direct analogy to the notion of [[quasi-category]]. 
+There is a [[model  structure on dendroidal sets]] whose fibrant objects are the **quasi-operad**s in direct analogy to the notion of [[quasi-category]]. 
 
 So the [[model structure on dendroidal sets]] is a [[presentable (∞,1)-category|presention]] of the [[(∞,1)-category]] of $(\infty,1)$-operads. It is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on operads]] enriched over [[Top]] or [[sSet]]. Therefore, conversely, the traditional homotopy-theoretic constructions on topological and chain operads (such as cofibrant [[resolution]]s in order to present homtopy algebras such as [[A-∞ algebra]]s, [[L-∞ algebra]]s, [[homotopy BV-algebra]]s and the like) are also indeed presentations of $(\infty,1)$-operads.
 
