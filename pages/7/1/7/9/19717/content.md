@@ -378,7 +378,7 @@ Further discussion:
 
 * {#Clarke20b} [[Bryce Clarke]], _A diagrammatic approach to symmetric lenses_, EPTCS, 333, 2021 ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
 
-* {#Clarke20b} [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
+* {#Clarke20b} [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
 * [[Matthew Di Meglio]], _The category of asymmetric lenses and its proxy pullbacks_, Master's Thesis, Macquarie University, (2021) &lbrack;[doi:10.25949/20236449.v1](https://doi.org/10.25949/20236449.v1)&rbrack;
 
@@ -413,7 +413,9 @@ Further review:
 
 * [[Bartosz Milewski]], pp 240 in: *The Dao of Functional Programming* (2023) &lbrack;[pdf](https://github.com/BartoszMilewski/Publications/blob/master/TheDaoOfFP/DaoFP.pdf), [github](https://github.com/BartoszMilewski/Publications/tree/master/TheDaoOfFP)&rbrack;
 
+### Relation to produoidal categories
 
+* [[Craig Pastro]], [[Ross Street]], _Doubles for monoidal categories_ (2007)
 
 ### Blog posts, talk slides, and other material
 
