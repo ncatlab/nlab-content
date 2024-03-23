@@ -2258,7 +2258,7 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 
 <table>
  <tr>
-  <th markdown="1">Category</th>
+  <th markdown="1">Markov category</th>
   <th markdown="1">[[probability monad|Probability monad]]</th>
   <th markdown="1">[[Markov category#conditionals|Conditionals]]</th>
   <th markdown="1">[[Markov category#positivity|Positivity]]</th>
