@@ -51,6 +51,8 @@ Note that if the structure on X is such that matrix multiplication is associativ
 
 * [[Smith normal form]]
 
+* [[stochastic matrix]]
+
 * [[adjacency matrix]]
 
 * [[linear algebra]], [[general linear group]], [[special linear group]], [[matrix mechanics]], [[matrix theory]], [[matrix Hopf algebra]], [[matrix Lie algebra]], [[matrix Lie group]], [[classical Lie group]], [[universal localization]], [[tensor calculus]], [[moment of inertia]], [[eigenvalue]], [[characteristic polynomial]] (Cayley-Hamilton theorem), [[spectral curve]]
