@@ -21,10 +21,9 @@ The original articles on [[3d gravity]], discussing its formulation as a [[Chern
 
 The corresponding [[non-perturbative QFT|non-perturbative]] [[quantization]] of 3-dimensional gravity, via [[quantization of 3d Chern-Simons theory]]:
 
-* {#Witten88} [[Edward Witten]], _(2+1)-Dimensional Gravity as an Exactly Soluble System_ Nucl. Phys. B311 (1988) 46. ([web](http://adsabs.harvard.edu/abs/1988NuPhB.311...46W))
+* {#Witten88} [[Edward Witten]], _(2+1)-Dimensional Gravity as an Exactly Soluble System_, Nucl. Phys. B **311** (1988) 46. \[<a href="https://doi.org/10.1016/0550-3213(88)90143-5">doi:10.1016/0550-3213(88)90143-5<\a>]
  
-* [[Herman Verlinde]], _Conformal field theory, two-dimensional quantum gravity and quantization of Teichmüller space_, Nuclear Physics B
-Volume 337, Issue 3, 25 June 1990, Pages 652-680 (<a href="https://doi.org/10.1016/0550-3213(90)90510-K">doi:10.1016/0550-3213(90)90510-K</a>)
+* [[Herman Verlinde]], _Conformal field theory, two-dimensional quantum gravity and quantization of Teichmüller space_, Nuclear Physics B **337** 3 (1990) 652-680 \[<a href="https://doi.org/10.1016/0550-3213(90)90510-K">doi:10.1016/0550-3213(90)90510-K</a>\]
 
 Review:
 
@@ -46,7 +45,7 @@ Review:
 
 Further developments:
 
-* {#Witten} [[Edward Witten]], _Three-dimensional gravity revisited_, (2007) [arxiv/0706.3359](http://arxiv.org/abs/0706.3359) 
+* {#Witten} [[Edward Witten]], *Three-dimensional gravity revisited* (2007) \[<a href="http://arxiv.org/abs/0706.3359">arXiv:0706.3359</a>\] 
 
 * [[Paul Townsend]], _Massive 3d (super)gravity_, slides, ([pdf](http://superfields.web.cern.ch/Superfields/docs/Seminars/Townsend.pdf))
 
