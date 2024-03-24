@@ -68,7 +68,7 @@ Arguably, the most general case where generalized elements defined at only one s
 
 ### In presheaf categories
 
-For $C = [D^{op}, Set]$  a [[presheaf]] category and for $I = \Delta_{pt} = (d \mapsto \{\bullet\})$ the presheaf constant at the singleton set, the generalized elements of a presheaf $F$ are the _[[global section]]s_ of this presheaf, equivalently these are the elements in the [[limit]] set over $F$.
+For $C = [D^{op}, Set]$  a [[presheaf]] category and for $I = \Delta_{pt} = (d \mapsto \{\bullet\})$ the presheaf constant at the singleton set, the generalized elements of a presheaf $F$ are the _[[global section|global sections]]_ of this presheaf, equivalently these are the elements in the [[limit]] set over $F$.
 
 On the other hand, if $I=D(-,d)$ is a [[representable functor|representable]] presheaf, then the generalized elements of $F$ at stage $d$ are precisely the elements of the set $F(d)$, by the [[Yoneda lemma]].
 
