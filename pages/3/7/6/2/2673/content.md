@@ -74,6 +74,11 @@ For more in the case of [[supergravity]]:
 
 * [[Bernard Julia]], S. Silva, *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
 
+Formulation via [[BV-formalism]] and [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, Journal of Mathematical Physics **61** (2020) 112502 &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
+
+
 
 The equivalence of the [[phase space]] of Palatini-Cartan-Holst [[Lagrangian  field theory]] with the [[Einstein-Hilbert action|Einstein-Hilbert version]] is established in
 
@@ -103,9 +108,6 @@ See also:
 
 * J. Fernando Barbero G., Juan Margalef-Bentabol, Valle Varo, Eduardo J.S. Villaseñor, *Covariant phase space for gravity with boundaries: metric vs tetrad formulations* ([arXiv:2103.06362](https://arxiv.org/abs/2103.06362))
 
-Discussion via [[L-infinity algebras|$L_\infty$-algebras]]:
-
-* Marija Dimitrijević Ćirić, [[Grigorios Giotopoulos]], Voja Radovanović, [[Richard J. Szabo]], *$L_\infty$-Algebras of Einstein-Cartan-Palatini Gravity*, J. Math. Phys., **61** 112502 (2020) &lbrack;[arXiv:2003.06173](https://arxiv.org/abs/2003.06173), [doi:10.1063/5.0011344](https://doi.org/10.1063/5.0011344)&rbrack;
 
 See also:
 
