@@ -130,7 +130,7 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
 
   For $g \in G_1$ we write $\bullet \stackrel{g}{\to} \bullet$ for the corresponding 1-morphism in $\mathbf{B}G$;
 
-* Compositition of 1-morphisms is given by the product operation in $G_1$. There are two choices for the order in which to form the product.
+* Composition of 1-morphisms is given by the product operation in $G_1$. There are two choices for the order in which to form the product.
 
   * **(convention F)** horizontal composition is given by
 
@@ -383,7 +383,7 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
 
 By the above, every [[crossed module]] gives an example of a 2-group. 
 
-But the nature of some strict 2-groups is best understood by genuinely regarding them as 2-categorical structures. This is true notably for the example of the automorphism 2-groups, discussed below. These, too, of course are equivalenly encoded by crossed modules, but that may hide a bit their structural meaning.
+But the nature of some strict 2-groups is best understood by genuinely regarding them as 2-categorical structures. This is true notably for the example of the automorphism 2-groups, discussed below. These, too, of course are equivalently encoded by crossed modules, but that may hide their structural meaning a little.
 
 ### Automorphism 2-groups
 
@@ -400,7 +400,7 @@ $$
   \,.
 $$
 
-Its objects are the ordinary [[automorphism]]s of $K$ in [[Grp]], while its 2-morphisms go between two automorphisms that differ by an inner automorphism.
+Its objects are the ordinary [[automorphism]]s of $K$ in [[Grp]], while its morphisms go between two automorphisms that differ by an inner automorphism.
 
 Accordingly, the [[crossed module]] corresponding to the 2-group $AUT(K)$ is
 
