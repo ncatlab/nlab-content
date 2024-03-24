@@ -25,7 +25,7 @@
 
 In [[category theory]] a limit of a [[diagram]] $F : D \to C$ in a [[category]] $C$ is an [[object]] $lim F$ of $C$ equipped with morphisms to the objects $F(d)$ for all $d \in D$, such that everything in sight commutes. Moreover, the limit $lim F$ is the _universal_ object with this property, i.e. the "most optimized solution" to the problem of finding such an object.
 
-The limit construction has a wealth of applications throughout category theory and mathematics in general.  In practice, it is possibly best thought of in the context of [[representable functor]]s as a [[classifying space]] for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object, as far as morphisms _into_ it are concerned.
+The limit construction has a wealth of applications throughout category theory and mathematics in general.  In practice, it is possibly best thought of in the context of [[representable functor|representable functors]] as a [[classifying space]] for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object, as far as morphisms _into_ it are concerned.
 The corresponding universal object for morphisms _out_ of the diagram is the [[colimit]]. 
 
 An intuitive general idea is that a limit of a diagram is the locus or solution set of a bunch of equations, where each of the coordinates is parametrized by one of the objects of the diagram, and where the equations are prescribed by the morphisms of the diagram. This idea is explained more formally [here](http://ncatlab.org/nlab/show/limits+and+colimits+by+example#limitsintermsofotherops). 
@@ -36,7 +36,7 @@ In some cases the category-theoretic notion of limit does reproduce notions of l
 
 ### Global versus local 
 
-In correspondence to the _local_ definition of [[adjoint functor]]s (as discussed there), there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
+In correspondence to the _local_ definition of [[adjoint functor|adjoint functors]] (as discussed there), there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
 
 If all limits over the given shape of diagrams exist in a category, then both definitions are equivalent.
 
@@ -51,7 +51,7 @@ In some schools of mathematics, limits are called _projective limits_, while col
 
 Correspondingly, the symbols $\underset{\leftarrow}lim$ and $\underset{\rightarrow}\lim$ are used instead of $\lim$ and $\colim$.
 
-Confusingly, many authors restrict the meanings of these alternative terms to (co)limits whose sources are [[direction|directed set]]s; see [[directed limit]].  In fact, this is the original meaning; projective and inductive limits in this sense were studied in algebra before the general category-theoretic notion of (co)limit.
+Confusingly, many authors restrict the meanings of these alternative terms to (co)limits whose sources are [[direction|directed sets]]; see [[directed limit]].  In fact, this is the original meaning; projective and inductive limits in this sense were studied in algebra before the general category-theoretic notion of (co)limit.
 
 ## Definition
 
@@ -86,7 +86,7 @@ The set $lim F$ is equivalently called
 
 * the set of _global sections_ of $F$;
 
-* the set of [[generalized element]]s of $F$.
+* the set of [[generalized element|generalized elements]] of $F$.
 
 The set $lim F$ can be equivalently expressed as an [[equalizer]] of a [[product]], explicitly:
 
@@ -150,7 +150,7 @@ $$
 #### Generalization to weighted limits 
 
 In the above formulation, there is an evident
-generalization to [[weighted limit]]s:
+generalization to [[weighted limit|weighted limits]]:
 
 replace in the above the constant terminal functor
 $pt : D^{op} \to Set$ with _any_ functor
@@ -314,7 +314,7 @@ An illustrative example is the following: a limit of the [[identity functor]] $I
 
 Given categories $D$ and $C$, limits over functors $D^{op} \to C$ may exist for some functors, but not for all. If it does exist for all functors, then the above _local definition_ of limits is equivalent to the following _global definition_.
 
-For $D$ a [[small category]] and $C$ any category, the [[functor category]] $[D^{op},C]$ is the category of $D$-[[diagram]]s in $C$.  Pullback along the functor $D^{op} \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
+For $D$ a [[small category]] and $C$ any category, the [[functor category]] $[D^{op},C]$ is the category of $D$-[[diagram|diagrams]] in $C$.  Pullback along the functor $D^{op} \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
 $$
   const :  C \to [D^{op},C]
 $$
@@ -329,7 +329,7 @@ which sends every diagram to its [[colimit]] and the [[adjoint functor|right adj
 $$
   lim_D : [D^{op},C] \to C
 $$
-which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction]]s state precisely the universal property of [[limit]] and [[colimit]] given above.
+which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction|adjunctions]] state precisely the universal property of [[limit]] and [[colimit]] given above.
 
 Concretely this means that for all $c \in C$ we have a bijection
 $$
@@ -360,9 +360,9 @@ The central point about examples of limits is:
 
 _Categorical limits are ubiquitous_. 
 
-To a fair extent, [[category theory]] is all about limits and the other [[universal construction]]s: [[Kan extension]]s, [[adjoint functor]]s, [[representable functor]]s, which are all special cases of limits -- and limits are special cases of these.
+To a fair extent, [[category theory]] is all about limits and the other [[universal construction|universal constructions]]: [[Kan extension|Kan extensions]], [[adjoint functor|adjoint functors]], [[representable functor|representable functors]], which are all special cases of limits -- and limits are special cases of these.
 
-Listing examples of limits in [[category theory]] is much like listing examples of [[integral]]s in [[analysis]]: one can and does fill books with these. (In fact, that analogy has more to it than meets the casual eye: see [[coend]] for more).
+Listing examples of limits in [[category theory]] is much like listing examples of [[integral|integrals]] in [[analysis]]: one can and does fill books with these. (In fact, that analogy has more to it than meets the casual eye: see [[coend]] for more).
 
 
 Keeping that in mind, we do list some special cases and special classes of examples that are useful to know. But any list is necessarily wildly incomplete.
@@ -378,7 +378,7 @@ Here are some important examples of limits, classified by the shape of the [[dia
 * A limit of a [[cospan]] is a [[pullback]].
 * A limit of a pair (or more) of [[parallel morphisms]] is an [[equalizer]].
 * A limit over a [[finite category]] is a [[finite limit]].
-* Another important "shape" of limits are those that give rise to [[end]]s.
+* Another important "shape" of limits are those that give rise to [[end|ends]].
 * A limit of a diagram $F : D \to C$ for which $D$  admits an [[initial object]] $I$, is simply $F(I)$.
 
 ### Limits in analysis
@@ -447,7 +447,7 @@ For $F : D^{op} \to Set$ any functor and $const_{*} : D^{op} \to Set$ the functo
 $$
   lim F \simeq [D^{op}, Set](const_{*}, F)
 $$
-in the [[functor category]], i.e. the set of [[natural transformation]]s from the constant functor into $F$.
+in the [[functor category]], i.e. the set of [[natural transformation|natural transformations]] from the constant functor into $F$.
 =--
 
 ### In functor categories
