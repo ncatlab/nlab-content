@@ -18,8 +18,8 @@ Base category | Endofunctor                | Initial Algebra        | Final Coal
 [[Set]] | $X \mapsto [A, X]$               | $[A, \emptyset]$       | 1                             | [[reader monad]] |
 [[Set]] | $X \mapsto 1 + A \times X$       | [[list|List]] $A$               | another definition of [[stream|Stream]] $A$; i.e. potentially infinite [[list|List]] $A$ | [[list]], [[stream]] |
 [[Set]] | $X \mapsto 1 + A \times X^2$     | Finite [[binary tree]] with $A$-labelled nodes  | Potentially infinite [[binary tree]] with $A$-labelled [[nodes]] | [[tree]] |
-[[Set]] | $X \mapsto B + A \times \text{List}(X)$     | Finite tree with $A$-labelled nodes and $B$-labelled [[leaves]] | Potentially infinite tree with $A$-labelled nodes with and $B$-labelled leaves| The number of subtrees is not fixed to a particular $n$, it could be any number |
 [[Set]] | $X \mapsto B + A \times X^n$     | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled [[leaves]] | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves| |
+[[Set]] | $X \mapsto B + A \times \text{List}(X)$     | Finite tree with $A$-labelled nodes and $B$-labelled [[leaves]] | Potentially infinite tree with $A$-labelled nodes with and $B$-labelled leaves| The number of subtrees is not fixed to a particular $n$, it could be any number |
 [[Set]] | $X \mapsto O \times [I, X]$      | $O \times [I, \emptyset]$ | Potentially infinite [[Moore machine]] | |
 [[Set]] | $X \mapsto [I, O \times X]$      | $[I, \emptyset]$       | Potentially infinite [[Mealy machine]]             | |
 [[Set]] | $X \mapsto \mathcal{P}(X)$       | /                      | /                             | |
