@@ -153,6 +153,10 @@ On von Neumann algebra factors as algebras of [[quantum observables]] in [[quant
 
 and particularly in [[quantum field theory on curved spacetime]]:
 
+* [[Edward Witten]], *Notes On Some Entanglement Properties Of Quantum Field Theory*, in *APS Medal for Exceptional Achievement in Research: Invited article on entanglement properties of quantum field theory*, Reviews of Modern Physics (2018) &lbrack;[arXiv:1803.04993](https://arxiv.org/abs/1803.04993), [doi:10.1103/revmodphys.90.045003](
+https://doi.org/10.1103/RevModPhys.90.045003
+)&rbrack;
+
 * [[Edward Witten]], *Why Does Quantum Field Theory In Curved Spacetime Make Sense? And What Happens To The Algebra of Observables In The Thermodynamic Limit?*, in *Dialogues Between Physics and Mathematics*, Springer (2022) &lbrack;[arXiv:2112.11614](https://arxiv.org/abs/2112.11614), [doi:10.1007/978-3-031-17523-7_11](https://doi.org/10.1007/978-3-031-17523-7_11)&rbrack;
 
 * Edward Witten, *Algebras, Regions, and Observers* &lbrack;[arXiv:2303.02837](https://arxiv.org/abs/2303.02837)&rbrack;
