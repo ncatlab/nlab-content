@@ -70,3 +70,7 @@ A _general_ Grothendieck topos may fail to have enough points or even fail to ha
 
 * G. E. Reyes, _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. Cat. **XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
 
+An historical analysis and a collection of improvements of Deligne can be found in
+
+* {#DLL24} [[Ivan Di Liberti]], [[Morgan Rogers]], *Topoi with enough points* &lbrack;[arXiv:2403.15338](https://arxiv.org/abs/2403.15338)&rbrack;
+
