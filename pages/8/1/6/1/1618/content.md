@@ -8,8 +8,6 @@
 =--
 =--
 
-
-# The points of a topos #
 * table of contents
 {: toc}
 
