@@ -11,6 +11,8 @@ The term "logos" is used
 
 * in [Anel 2019](#Anel19) for a [[cartesian closed (infinity,1)-category|cartesian closed $\infty$-category]] with [[finite (infinity,1)-limits|finite $\infty$-limits]] and [[van Kampen colimits]] in size bounded by some [[inaccessible cardinal]].
 
+* in [DLL24](#DLL24) for a cocomplete category equipped with a family of limits such that colimits are exact with respect to this family. This paper also discusses the relationship between theirs, Anel-Joyal and Freyd-Scedrov  proposal of logos. Despite being different these proposals all come with similar motivations in mind.
+
 ## References
 
 * {#FreydScedrov} [[Peter Freyd]], Andre Scedrov, _[[Categories, Allegories]]_
@@ -24,6 +26,8 @@ The term "logos" is used
 * {#Anel19} [[Mathieu Anel]], *Descent and Univalence*, talk at [HoTTEST](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) (May 2019) &lbrack;[slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Anel-2019-05-2-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=86s0BCB3HGo)&rbrack;
 
 * {#ABFJ23} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], *Left-exact Localizations of ∞-Topoi III: The Acyclic Product* &lbrack;[arXiv:2308.15573](https://arxiv.org/abs/2308.15573)&rbrack;
+
+* {#DLL24} [[Ivan Di Liberti]], [[Gabriele Lobbia]], *Sketches and Classifying Logoi* &lbrack;[arXiv:2403.09264](https://arxiv.org/abs/2403.09264)&rbrack;
 
 Discussion of relation to [[taoism]]:
 
