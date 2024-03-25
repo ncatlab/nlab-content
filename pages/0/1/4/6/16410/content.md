@@ -30,7 +30,7 @@ $$
   adS^d \simeq O(d-1,2)/O(d-1,1)
 $$
 
-(e.g <a href="https://books.google.de/books?id=vtEkBAAAQBAJ&lpg=PA135&ots=zsId1G2lKU&dq=anti-de%20Sitter%20quotient%20of%20SO(3%2C2)&pg=PA135#v=onepage&q=anti-de%20Sitter%20quotient%20of%20SO(3,2)&f=false">here</a>)
+(e.g. [Blau §39.1](#Blau))
 
 This admits different spatial slicings of relevance:
 
@@ -45,15 +45,17 @@ This admits different spatial slicings of relevance:
 [[!include local and global geometry - table]]
 
 
+
 ## References
  {#References}
 
 ### In classical gravity
 
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), ch I.3: [[CastellaniDAuriaFre-ChI3.pdf:file]], ch I.4: [[CastellaniDAuriaFre-ChI4.pdf:file]]&rbrack;
 
-* [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+* {#Blau} [[Matthias Blau]], §39 of: _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
 
 * Thomas Hartman, _Lecture Notes on Classical de Sitter Space_ ([pdf](http://www.hartmanhep.net/GR2017/desitter-lectures-v2.pdf), [[HartmanDeSitterSpacetime.pdf:file]])
 
