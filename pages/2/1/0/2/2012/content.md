@@ -76,9 +76,18 @@ Discussion in the context of [[harmonic maps]] is in
 
 * [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and vesture for harmonic maps into symmetric spaces_ ([arXiv:1209.1383](https://arxiv.org/abs/1209.1383))
 
-See also 
+* Michael Gekhtman, Anton Izosimov, *Integrable systems and cluster algebras*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.07287](https://arxiv.org/abs/2403.07287)&rbrack;
+
+See also:
+
 
 * Wikipedia, _[Integrable system](https://en.wikipedia.org/wiki/Integrable_system)_
+
+### In gravity
+
+In [[gravity]]:
+
+* Dmitry Korotkin, [[Henning Samtleben]], *Integrability and Einstein's Equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.07900](https://arxiv.org/abs/2311.07900)&rbrack;
 
 ### In string/M-theory
 
