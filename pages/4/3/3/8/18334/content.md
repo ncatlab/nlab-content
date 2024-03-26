@@ -37,7 +37,7 @@ The axioms as considered in [Schenkel 17](#Schenkel17) have some  similarity wit
 ## References
  {#References}
 
-For review and exposition see
+Review and exposition:
 
 * {#Schenkel17} [[Alexander Schenkel]], _Towards Homotopical Algebraic Quantum Field Theory_, talk at _[Foundational and Structural Aspects of Gauge Theories](https://indico.mitp.uni-mainz.de/event/76/overview)_, Mainz Institute for Theoretical Physics, 29 May &#8211; 2 June 2017. ([pdf](http://aschenkel.eu/Mainz17.pdf))
 
@@ -48,6 +48,8 @@ For review and exposition see
 * {#BeniniSchenkel19} [[Marco Benini]], [[Alexander Schenkel]], _Higher Structures in Algebraic Quantum Field Theory_,  Proceedings of LMS/EPSRC Symposium _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik 2019  ([arXiv:1903.02878](https://arxiv.org/abs/1903.02878), [doi:10.1002/prop.201910015]( https://doi.org/10.1002/prop.201910015))
 
 * [[Simen Bruinsma]], _Coloring Operads for Algebraic Field Theory_, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_ Fortschritte der Physik, Special Issue Volume 67, Issue 8-9 ([arXiv:1903.02863](https://arxiv.org/abs/1903.02863) [doi:10.1002/prop.201910004](https://doi.org/10.1002/prop.201910004))
+
+* [[Marco Benini]], [[Alexander Schenkel]], *Operads, homotopy theory and higher categories in algebraic quantum field theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.03372](https://arxiv.org/abs/2305.03372)&rbrack;
 
 
 Construction and axiomatization of gauge field AQFT via [[homotopy theory]] and [[homotopical algebra]] is being developed in
