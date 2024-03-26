@@ -18,6 +18,10 @@ Examples of [[non-perturbative quantum field theory|non-perturbative]] [[interac
 
 * [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C^\ast$-algebraic approach to interacting quantum field theories_,  Commun. Math. Phys. **377** (2020) 947–969  &lbrack;[arXiv:1902.06062](https://arxiv.org/abs/1902.06062), [doi:10.1007/s00220-020-03700-9](https://doi.org/10.1007/s00220-020-03700-9)&rbrack;
 
+On [[algebraic quantum field theory]]:
+
+* [[Detlev Buchholz]], [[Klaus Fredenhagen]], *Algebraic quantum field theory: objectives, methods, and results*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.12923](https://arxiv.org/abs/2305.12923)&rbrack;
+
 
 
 ## Related entries
