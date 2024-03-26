@@ -38,6 +38,10 @@ On [[KK-reduction]] of [[D=10 supergravity]] and [[D=11 supergravity]] on [[squa
 * Bastien Duboeuf, [[Emanuel Malek]], [[Henning Samtleben]]
 *Kaluza-Klein Spectrometry beyond Consistent Truncations: The Squashed $S^7$*,  J. High Energ. Phys. **2023** 62 (2023) &lbrack;[arXiv:2212.01135](https://arxiv.org/abs/2212.01135), <a href="https://doi.org/10.1007/JHEP04(2023)062">doi:10.1007/JHEP04(2023)062</a>&rbrack;
 
+On [[integrable systems]] in [[gravity]]:
+
+* Dmitry Korotkin, [[Henning Samtleben]], *Integrability and Einstein's Equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.07900](https://arxiv.org/abs/2311.07900)&rbrack;
+
 
 ## Related entries
 
