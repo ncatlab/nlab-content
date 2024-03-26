@@ -54,3 +54,6 @@ We have that $B_t\in C^p$ iff $p\gt 1/H$ and that fBm is not a semimartingale un
 * Peter Friz and [[Martin Hairer]], A Course on Rough Paths, (2014), doi:[10.1007/978-3-319-08332-2](https://doi.org/10.1007/978-3-319-08332-2), ([pdf](http://www.hairer.org/notes/RoughPaths.pdf)).
 
 * Peter Friz and Nicolas Victoir, _Multidimensional Stochastic Processes as Rough Paths: Theory and Applications_ (2010) doi:[10.1017/CBO9780511845079](https://doi.org/10.1017/CBO9780511845079) ([pdf](http://page.math.tu-berlin.de/~friz/master4_May6th.pdf)).
+
+* Ilya Chevyrev, *Rough path theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2402.10331](https://arxiv.org/abs/2402.10331)&rbrack;
+
