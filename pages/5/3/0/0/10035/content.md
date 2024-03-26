@@ -63,10 +63,11 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 ## References
  {#References}
 
-* [[Kevin Walker]], _On Witten's 3-manifold invariants_ (1991) [pdf](http://tqft.net/other-papers/KevinWalkerTQFTNotes.pdf)
-  {#Walker1991}
-
+* {#Walker1991} [[Kevin Walker]], _On Witten's 3-manifold invariants_ (1991) [pdf](http://tqft.net/other-papers/KevinWalkerTQFTNotes.pdf)
+  
 * {#CarterKauffmanSaito96} [[Scott Carter]], [[Louis Kauffman]], Masahico Saito, _Diagrams, Singularities, and Their Algebraic Interpretations_, in "10th Brazilian Topology Meeting, S. Carlos, July 22 26, 1996 ([pdf](http://homepages.math.uic.edu/~kauffman/cksBrasil.pdf) (dead))
+
+* Kursat Sozer, [[Alexis Virelizier]], *3d TQFTs and 3-manifold invariants*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.10587](https://arxiv.org/abs/2401.10587)&rbrack;
 
 Discussion via the [[cobordism hypothesis]] with [[fusion categories]] as [[fully dualizable objects]] is in 
 
