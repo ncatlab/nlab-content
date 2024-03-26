@@ -53,10 +53,17 @@ On ([[equivariant K-theory|equivariant]]) [[KK-theory]] as the [[homotopy catego
 
 * {#BunkeEngelLand21} [[Ulrich Bunke]], [[Alexander Engel]], [[Markus Land]], *A stable $\infty$-category for equivariant KK-theory* $[$[arXiv:2102.13372](https://arxiv.org/abs/2102.13372)$]$
 
-On (topological) [[inertia stack]]s
+On (topological) [[inertia stacks]]:
 
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Inertia and delocalized twisted cohomology_, Homotopy, Homology and Applications 10(1) 129--180 (2008) [math.KT/0609576](https://arxiv.org/abs/math/0609576)  	
 [doi](https://doi.org/10.4310/HHA.2008.v10.n1.a6)
+
+On [[coarse topology]]:
+
+* [[Ulrich Bunke]], *Coarse geometry*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.09203](https://arxiv.org/abs/2305.09203)&rbrack;
+
+
+
 
 ## Related entries
 
