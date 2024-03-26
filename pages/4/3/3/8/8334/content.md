@@ -53,6 +53,8 @@ It has been suggested ([Doering-Isham, section 1](#DoeringIsham)) that the secon
 
 * Edward Anderson, _On the Semiclassical Approach to Quantum Cosmology_ Class. Quant. Grav. 28 185008 (2011) ([arXiv:1101.4916](http://arxiv.org/abs/1101.4916))
 
+* Steffen Gielen, *Quantum Cosmology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.01790](https://arxiv.org/abs/2309.01790)&rbrack;
+
 ### Applications
 
 On [[structure formation]] during [[cosmic inflation]] in quantum [[inhomogeneous cosmology]]:
