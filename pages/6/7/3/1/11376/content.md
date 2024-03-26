@@ -33,6 +33,11 @@ See also:
 
 * Wikipedia, _[Quantum fluctuation](https://en.wikipedia.org/wiki/Quantum_fluctuation)_
 
+In view of [[thermodynamics]]:
+
+
+* Akira Sone, Kanu Sinha, Sebastian Deffner, *Thermodynamic perspective on quantum fluctuations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.04951](https://arxiv.org/abs/2308.04951)&rbrack;
+
 [[!redirects quantum fluctuations]]
 
 [[!redirects vacuum fluctuation]]
