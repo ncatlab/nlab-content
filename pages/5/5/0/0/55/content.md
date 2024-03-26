@@ -195,9 +195,13 @@ Textbook accounts
 
 * [[Janez Mrčun]], [[Ieke Moerdijk]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, Cambridge University Press 2003. x+173 pp. ISBN: 0-521-83197-0
 
-Expository review (motivated by [[higher spin gauge theory]]):
+Review:
 
 * [[Xavier Bekaert]], *Geometric tool kit for higher spin gravity (part II): An introduction to Lie algebroids and their enveloping algebras* &lbrack;[arXiv:2308.00724](https://arxiv.org/abs/2308.00724)&rbrack;
+
+  > (motivated by [[higher spin gauge theory]])
+
+* [[Eckhard Meinrenken]], *Lie Algebroids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03034](https://arxiv.org/abs/2401.03034)&rbrack;
 
 
 For an infinite-dimensional version used in stochastic analysis see
