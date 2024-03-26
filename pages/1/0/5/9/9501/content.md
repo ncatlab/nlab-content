@@ -51,8 +51,12 @@ The notion originates in
 
 in the study of [[characteristic classes]] of [[foliations]]. Further developments are in 
 
-* Jonathan Bowden, _On foliated characteristic classes of transversally symplectic foliations_ ([arXiv:1108.1919](http://arxiv.org/abs/1108.1919))
+* Jonathan Bowden, _On foliated characteristic classes of transversally symplectic foliations_ ([arXiv:1108.1919](https://arxiv.org/abs/1108.1919))
 
+Used in the context of secondary characteristic classes for Lie algebroids in Sec. 2.3 of
+
+* [[Marius Crainic]], [[Rui Loja Fernandes]], _Secondary characteristic classes of Lie algebroids_,
+In: u. Carow-Watamura, y. Maeda, s. Watamura (eds), Quantum Field Theory and Noncommutative Geometry. Springer Lecture Notes in Physics __662__ [doi](https://doi.org/10.1007/11342786_9)
 
 
 [[!redirects Bott connections]]
