@@ -59,6 +59,9 @@ See also:
 
 * Luiz L. Lopes, Carline Biesdorf, K. D. Marquez, Debora P. Menezes, _Modified MIT Bag Models pt II: QCD phase diagram, hot quark stars and speed of sound_ ([arXiv:2009.13552](https://arxiv.org/abs/2009.13552))
 
+* Amirhossein Rezaei, Mohammad Parsa Akrami, *Exact and Efficient Numerical approaches to MIT Bag Model* &lbrack;[arXiv:2403.15833](https://arxiv.org/abs/2403.15833)&rbrack;
+
+
 Via [[worldline formalism]]:
 
 * Lucas Manzo, *Worldline approach for spinor fields in manifolds with boundaries* &lbrack;[arXiv:2403.00218](https://arxiv.org/abs/2403.00218)&rbrack;
