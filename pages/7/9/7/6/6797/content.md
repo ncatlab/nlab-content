@@ -36,15 +36,15 @@ At present there are several classes of higher spin theories that evade the no-g
 
 ### General
 
-Original articles include
+Original articles:
 
 * {#Vasiliev96} [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
 
-Reviews and lecture notes include the following:
+Reviews and lecture notes:
 
 * {#Vasiliev03} [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_, 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([arXiv:hep-th/0401177](https://arxiv.org/abs/hep-th/0401177))
  
-* [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([arXiv:hep-th/0409260](https://arxiv.org/abs/hep-th/0409260))
+* [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_, talk at String2004 in Moscow ([arXiv:hep-th/0409260](https://arxiv.org/abs/hep-th/0409260))
 
 * R. Argurio, [[Glenn Barnich]], G. Bonelli, M. Grigoriev (eds.) _Higher spin gauge theories_ Solvay Workshops and Symposia  (2004) ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Solvay1proc.pdf))
 
@@ -60,8 +60,11 @@ Reviews and lecture notes include the following:
 
 * Dmitry Ponomarev, *Basic introduction to higher-spin theories* &lbrack;[arXiv:2206.15385](https://arxiv.org/abs/2206.15385)&rbrack;
 
+* Andrea Campoleoni, [[Stefan Fredenhagen]], *Higher-spin gauge theories in three spacetime dimensions* &lbrack;[arXiv:2403.16567](https://arxiv.org/abs/2403.16567)&rbrack;
 
-Further developments include for instance
+
+
+Further developments:
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
 
@@ -69,7 +72,7 @@ Further developments include for instance
 
 * [[Miles Blencowe]], _A consistent interacting massless higher-spin field theory in $D=2+1$_ Classical and quantum gravity, volume 6 no 4 (1998)
 
-* C.N. Pope, P.K. Townsend, Conformal Higher Spin in (2+1)-dimensions, Phys.Lett. B225 (1989) 245-250.
+* C. N. Pope, P.K. Townsend, *Conformal Higher Spin in (2+1)-dimensions*, Phys.Lett. B225 (1989) 245-250.
 
 * E. S. Fradkin,  V. Ya. Linetsky, _a Superconformal Theory of Massless Higher Spin Fields in D=2+1_ ([web](http://adsabs.harvard.edu/abs/1989MPLA....4..731F))
 
