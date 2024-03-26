@@ -1,18 +1,25 @@
-# Overview
+
+\tableofcontents
+
+## Overview
 
 _Calogero_ models comprise several [[integrable system|integrable systems]] in classical mechanics and their relatives; they are describing interacting systems of $n$ particles on a circle or on a line. Basic variants include Calogero-Moser system, Calogero-Sutherland system and "relativistic" [[Ruijsenaars model|Ruijsenaars models]]. Calogero-Moser system was a historical source of the study of [[Dunkl operator|Dunkl operators]] and Cherednik's [[double Hecke algebra|double Hecke algebras]]. The Calogero-Moser system can also be related to the rational $n$-soliton solutions of rational KP equation; the elucidation of the relation between the soliton solutions and solutions of the Calogero-Moser system is rather deep and is called __Calogero-Moser correspondence__. Its modern formulation involves [[noncommutative algebraic geometry]]. 
 
 Some special functions come out of analysis of Calogero models, like [[Jack polynomial|Jack polynomials]].
 
-# Literature
+## Literature
 
-* Pavel Etingof, _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
+* [[Pavel Etingof]], _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
 * [[D. Kazhdan]], [[B. Kostant]], [[S. Sternberg]], _Hamiltonian group actions and dynamical systems of Calogero type_, Comm. Pure Appl. Math. __31__ (1978), 481-508, [MR478225](http://www.ams.org/mathscinet-getitem?mr=478225), [doi](http://dx.doi.org/10.1002/cpa.3160310405)
 * H. Airault, H. P. McKean, J. Moser, _Rational and elliptic solutions of the Korteweg-de Vries equation and a related many-body problem_, Comm. Pure Appl. Math. __30__ (1977), no. 1, 95--148; [MR0649926](https://mathscinet.ams.org/mathscinet-getitem?mr=649926), [doi](https://doi.org/10.1002/cpa.3160300106)
 * E. Mukhin, V. Tarasov, A. Varchenko, _KZ characteristic variety as the zero set of classical Calogero-Moser Hamiltonians_, [arxiv/1201.3990](https://arxiv.org/abs/1201.3990)
 * Sergio Andraus, Makoto Katori, Seiji Miyashita, _Calogero-Moser systems as a diffusion-scaling transform of Dunkl processes on the line_, [arxiv/1211.6561](https://arxiv.org/abs/1211.6561)
 * scholarpedia [Calogero-Moser system](http://www.scholarpedia.org/article/Calogero-Moser_system)
 * [[Yuri Berest]], Oleg Chalykh, _Deformed Calogero--Moser operators and ideals of rational Cherednik algebras_, Commun. Math. Phys. 400, 133--178 (2023) [doi](https://doi.org/10.1007/s00220-022-04595-4) [arXiv:2002.08691](https://arxiv.org/pdf/2002.08691)
+
+Review:
+
+* Martin Hallnäs, *Calogero-Moser-Sutherland systems*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12932](https://arxiv.org/abs/2312.12932)&rbrack;
 
 On Calogero-Moser correspondence:
 
