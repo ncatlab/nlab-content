@@ -205,16 +205,15 @@ An account written by mathematicians for mathematicians:
 
 ### Reviews
 
-Recent account of the principle of locality in AQFT from the point of view of traditional school
 
 * [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found. Phys. **34** (2004) 501-527 &lbrack;[arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143)&rbrack;
 
 * [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
 
 
-Talk slides include
-
 * {#Montoya} Edison Montoya, _Algebraic quantum field theory_ (2009) ([pdf](http://www.matmor.unam.mx/~robert/sem/20091021_Montoya.pdf))
+
+* [[Detlev Buchholz]], [[Klaus Fredenhagen]], *Algebraic quantum field theory: objectives, methods, and results*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.12923](https://arxiv.org/abs/2305.12923)&rbrack;
  
 
 More on the role of [[von Neumann algebra factors]] in AQFT
