@@ -7,8 +7,7 @@ On [[quantum Bayesianism]]/[[QBism]]:
 * {#FuchsSchlosshauerStacey14} [[Christopher A. Fuchs]], [[Maximilian Schlosshauer]] (foreword), [[Blake C. Stacey]] (ed.) *My Struggles with the Block Universe* &lbrack;[arXiv:1405.2390](https://arxiv.org/abs/1405.2390)&rbrack;
 * B. C. Stacey, *A First Course in the Sporadic SICs.* [SpringerBriefs in Mathematical Physics volume 41](https://doi.org/10.1007/978-3-030-76104-2) (2021).
 
-
-Others:
+On [[differential calculus]]:
 
 * *[Calculus Made Easy](https://www.sunclipse.org/?p=3194)* --- a revised edition of the 1914 text
 
