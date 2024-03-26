@@ -394,9 +394,13 @@ Lie groupoids as a source for [[groupoid convolution algebras|groupoid convoluti
 
 * [[Alain Connes]], _[[Noncommutative Geometry]]_
 
-Expository discussion of various kinds of groupoids is also in 
+Review:
 
-* [[John Baez]]  _[TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html)_.
+* [[John Baez]]  _[TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html)_
+
+* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) &lbrack;[pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]]&rbrack;
+
+* [[Henrique Bursztyn]], Matias del Hoyo, *Lie Groupoids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.14105](https://arxiv.org/abs/2309.14105)&rbrack;
 
 Groupoids and their various morphisms between them in different categories, including in Diff, is also in
 
