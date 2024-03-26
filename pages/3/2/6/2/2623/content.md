@@ -4641,7 +4641,7 @@ A textbook account of [[renormalization|("re"-)normalization]] in [[causal pertu
 
 * {#Duetsch18} [[Michael Dütsch]], chapters 3 and 4 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
-Informal introductions include
+Informal introductions:
 
 * G. Peter Lepage, _What is Renormalization?_, talk 1989 ([arXiv:hep-ph/0506330](http://arxiv.org/abs/hep-ph/0506330))
 
@@ -4650,6 +4650,10 @@ Informal introductions include
 * [[R. E. Borcherds]], _Renormalization and quantum field theory_, ([arxiv/1008.0129](http://arxiv.org/abs/1008.0129))
 
 * [[Arnold Neumaier]], _Renormalizatin without infinities -- an elementary tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
+
+Further review:
+
+*  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
 
 ### In causal perturbation theory
