@@ -90,15 +90,154 @@ On [[flux quantization]] of [[higher gauge theories]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Flux Quantization|Flux Quantization]]*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2402.18473](https://arxiv.org/abs/2402.18473)&rbrack;
 
-
-
 On [[quantum gravity]] via [[causal dynamical triangulation]]:
 
 * J. Ambjørn, R. Loll, *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
 
+On [[quantum field theory]] in [[curved spacetime]]:
 
+* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
 
+On the [[infrared divergence|infrared problem]] in [[quantum electrodynamics]]:
 
+* [[Paweł Duch]], Wojciech Dybalski, *Infrared problem in quantum electrodynamics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2307.06114 ](https://arxiv.org/abs/2307.06114)&rbrack;
+
+On [[spin foam]] models for [[quantum gravity]]:
+
+* [[Etera Livine]], *Spinfoam Models for Quantum Gravity: Overview*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.09364](https://arxiv.org/abs/2403.09364)&rbrack;
+
+On advances in the [[infrared divergence
+|infrared structure]] of [[electrodynamics]]:
+
+* Andrzej Herdegen, *Infrared structure beyond locality in electrodynamics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.09234](https://arxiv.org/abs/2403.09234)&rbrack;
+
+On constructions of [[integrable systems]] with [[cluster algebra]] structure:
+
+* Michael Gekhtman, Anton Izosimov, *Integrable systems and cluster algebras*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.07287](https://arxiv.org/abs/2403.07287)&rbrack;
+
+On cuts in [[scattering amplitudes]]:
+
+* Ruth Britto, Claude Duhr, Holmfridur S. Hannesdottir, [[Sebastian Mizera]], *Cutting-Edge Tools for Cutting Edges*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2402.19415](https://arxiv.org/abs/2402.19415)&rbrack;
+
+On [[rough paths|rough path theory]]:
+
+* Ilya Chevyrev, *Rough path theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2402.10331](https://arxiv.org/abs/2402.10331)&rbrack;
+
+On [[higher category theory]]:
+
+* [[Rune Haugseng]], *Higher categories*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.14311](https://arxiv.org/abs/2401.14311)&rbrack;
+
+On [[3d TQFTs]] and [[3-manifold]] [[invariants]]:
+
+* Kursat Sozer, [[Alexis Virelizier]], *3d TQFTs and 3-manifold invariants*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.10587](https://arxiv.org/abs/2401.10587)&rbrack;
+
+On [[Lie algebroids]]:
+
+* [[Eckhard Meinrenken]], *Lie Algebroids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03034](https://arxiv.org/abs/2401.03034)&rbrack;
+
+On [[Calogero model|Calogero-Moser-Sutherland systems]]:
+
+* Martin Hallnäs, *Calogero-Moser-Sutherland systems*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12932](https://arxiv.org/abs/2312.12932)&rbrack;
+
+On [[renormalization]]:
+
+*  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
+
+On [[operator product expansion]]s in [[quantum field theory]]:
+
+* [[Stefan Hollands]], [[Robert Wald]], *The Operator Product Expansion in Quantum Field Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.01096](https://arxiv.org/abs/2312.01096)&rbrack;
+
+On [[integrable system|integrable structures]] in [[general relativity]]:
+
+* Dmitry Korotkin, [[Henning Samtleben]], *Integrability and Einstein's Equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.07900](https://arxiv.org/abs/2311.07900)&rbrack;
+
+On [[tensor categories]]:
+
+* [[Alexei Davydov]], *Tensor categories*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.05789](https://arxiv.org/abs/2311.05789)&rbrack;
+
+On the [[thermodynamics|thermodynamical]] properties of macroscopic [[black holes]]:
+
+* Alejandro Perez, *Black Hole Entropy and Planckian Discreteness*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.19389](https://arxiv.org/abs/2310.19389)&rbrack;
+
+On [[resurgence theory]] in [[mathematical physics]]:
+
+* David Sauzin, *Resurgence and Mould Calculus*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.15029](https://arxiv.org/abs/2310.15029)&rbrack;
+
+On [[factorization algebras]]:
+
+* [[Kevin Costello]], [[Owen Gwilliam]], *Factorization algebra*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.06137](https://arxiv.org/abs/2310.06137)&rbrack;
+
+On [[Lie groupoids]]:
+
+* [[Henrique Bursztyn]], Matias del Hoyo, *Lie Groupoids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.14105](https://arxiv.org/abs/2309.14105)&rbrack;
+
+On quantum character varieties and quantum character stacks:
+
+* [[David Jordan]], *Quantum character varieties*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.06543](https://arxiv.org/abs/2309.06543)&rbrack;
+
+On hybrid classical-quantum models:
+
+* Daniel R. Terno, *Classical-Quantum Hybrid Models*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.05014](https://arxiv.org/abs/2309.05014)&rbrack;
+
+On the Bethe Ansatz:
+
+* Frank Göhmann, *Bethe Ansatz*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.02008](https://arxiv.org/abs/2309.02008)&rbrack;
+
+On [[quantum cosmology]]:
+
+* Steffen Gielen, *Quantum Cosmology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.01790](https://arxiv.org/abs/2309.01790)&rbrack;
+
+On [[stochastic process|stochastic]] geometric [[mechanics]] in [[fluid dynamics]]:
+
+*  Darryl D. Holm, Erwin Luesink, *Stochastic Geometric Mechanics for Fluid Dynamics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.15286](https://arxiv.org/abs/2308.15286)&rbrack;
+
+On response functions for interacting [[fermion|fermionic]] [[lattice models]]:
+
+* Marcello Porta, Vieri Mastropietro, Alessandro Giuliani, *Response functions of many-body condensed matter systems*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.11282](https://arxiv.org/abs/2308.11282)&rbrack;
+
+On quasi-local [[horizons]] in [[black holes]]:
+
+* Abhay Ashtekar, *Black Hole Horizons and their Mechanics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.08729](https://arxiv.org/abs/2308.08729)&rbrack;
+
+On [[gapped Hamiltonian|gapped]] quantum [[spin]] systems:
+
+* Amanda Young, *Quantum Spin Systems*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848)&rbrack;
+
+On applications of [[coarse geometry]] to [[solid state physics]]:
+
+* [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
+
+On a [[thermodynamics|thermodynamic]] perspective of [[quantum fluctuations]]:
+
+* Akira Sone, Kanu Sinha, Sebastian Deffner, *Thermodynamic perspective on quantum fluctuations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.04951](https://arxiv.org/abs/2308.04951)&rbrack;
+
+On [[solutions]] to and [[algebraic structures]] in [[set theoretic Yang-Baxter equation|set-theoretic Yang-Baxter]] & [[reflection equation algebra|reflection equations]]:
+
+* Anastasia Doikou, *Algebraic structures in set-theoretic Yang-Baxter & reflection equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2307.06140](https://arxiv.org/abs/2307.06140)&rbrack;
+
+On [[Poisson vertex algebras]] and [[integrable system|integrability]] of Hamiltonian PDEs:
+
+* Alberto De Sole, Victor G. Kac, Daniele Valeri, *Poisson vertex algebras and Hamiltonian PDE*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2306.09709](https://arxiv.org/abs/2306.09709)&rbrack;
+
+On [[algebraic quantum field theory]]:
+
+* [[Detlev Buchholz]], [[Klaus Fredenhagen]], *Algebraic quantum field theory: objectives, methods, and results*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.12923](https://arxiv.org/abs/2305.12923)&rbrack;
+
+On [[coarse geometry]] and coarse homology theories:
+
+* [[Ulrich Bunke]], *Coarse geometry*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.09203](https://arxiv.org/abs/2305.09203)&rbrack;
+
+On [[higher algebra]] and [[higher category theory]] in [[algebraic quantum field theory]]:
+
+* [[Marco Benini]], [[Alexander Schenkel]], *Operads, homotopy theory and higher categories in algebraic quantum field theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.03372](https://arxiv.org/abs/2305.03372)&rbrack;
+
+On [[algebraic structures]] in [[2d conformal field theory]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+On [[measurement]] in [[quantum field theory]]:
+
+* [[Christopher Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
 
 
 
