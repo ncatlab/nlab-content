@@ -93,6 +93,11 @@ See also:
 
 * Wikipedia, _[Infrared divergence](https://en.wikipedia.org/wiki/Infrared_divergence)_
 
+* Andrzej Herdegen, *Infrared structure beyond locality in electrodynamics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.09234](https://arxiv.org/abs/2403.09234)&rbrack;
+
+* [[Paweł Duch]], Wojciech Dybalski, *Infrared problem in quantum electrodynamics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2307.06114 ](https://arxiv.org/abs/2307.06114)&rbrack;
+
+
 [[!redirects infrared divergences]]
 
 [[!redirects infrared divergency]]
