@@ -14,5 +14,10 @@ Review:
 
 * [[Matthias Ludewig]], *The spinor bundle on loop space and its fusion product*, talk at [[CQTS]] (Apr 2023) &lbrack;[web](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#LudewigApr2023), video: [YT](https://www.youtube.com/watch?v=iiRm47HavRU)&rbrack;
 
+On applications of [[coarse geometry]] to [[topological insulators]] in [[solid state physics]]:
+
+* [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
+
+
 
 category: people
