@@ -256,13 +256,18 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 ## References
 
+Review:
+
+* [[Rune Haugseng]], *Higher categories*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.14311](https://arxiv.org/abs/2401.14311)&rbrack;
+
 For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there ...; keep clicking the links.
 
 For a slightly more formal but still pathetically easy introduction, try:
 
 * [[John Baez]], [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in
 <em>7th Conference on Category Theory and Computer Science</em>, eds.
-E. Moggi and G. Rosolini, Springer Lecture Notes in
+
+* E. Moggi and G. Rosolini, Springer Lecture Notes in
 Computer Science vol. 1290, Springer, Berlin, 1997. 
 
 For a free introductory text on $n$-categories that's *full of pictures*, try this:
@@ -271,7 +276,7 @@ For a free introductory text on $n$-categories that's *full of pictures*, try th
 
 [[Tom Leinster]] has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
-* Tom Leinster, _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
+* [[Tom Leinster]], _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
