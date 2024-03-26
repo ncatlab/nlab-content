@@ -23,9 +23,11 @@ Do not confuse the field of coarse topology with a comparative property of one t
 The field grew in part from the study of "wild" metric structures in study of Gromov hyperbolic groups, from attacks on [[Novikov conjecture]] and the
 related [[Baum-Connes conjecture]]. Thus the operator algebras play a great role in the field.
 
-## Literature
+## Related entries 
 
-Related $n$Lab entries: [[asymptotic dimension]]
+* [[asymptotic dimension]]
+
+## Literature
 
 * _A short survey on coarse topology_, [pdf](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1126-9.pdf)
 
@@ -36,6 +38,10 @@ Related $n$Lab entries: [[asymptotic dimension]]
 * [[Mikhail Gromov]], _Hyperbolic groups_, Essays in group theory, Math. Sci. Res. Inst. Publ. __8__, Springer, New York, 1987, pp. 75&#8211;263. MR MR919829 (89e:20070) 61; _Asymptotic invariants of infinite groups_, in: Geometric group theory, vol. 2 (Sussex, 1991), London Math. Soc. Lecture Note Ser. __182__, Cambridge Univ. Press 1993, pp. 1&#8211;295. MR1253544 (95m:20041)
 
 * B. Grave, _Asymptotic dimension of coarse spaces_, New York J. Math. 12 (2006) 249&#8211;256
+
+
+* [[Ulrich Bunke]], *Coarse geometry*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.09203](https://arxiv.org/abs/2305.09203)&rbrack;
+
 
 category: topology
 [[!redirects coarse topology]]
