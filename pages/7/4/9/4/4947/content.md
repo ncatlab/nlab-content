@@ -42,6 +42,10 @@ related [[Baum-Connes conjecture]]. Thus the operator algebras play a great role
 
 * [[Ulrich Bunke]], *Coarse geometry*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.09203](https://arxiv.org/abs/2305.09203)&rbrack;
 
+On application to [[topological insulators]] in [[solid state physics]]:
+
+* [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
+
 
 category: topology
 [[!redirects coarse topology]]
