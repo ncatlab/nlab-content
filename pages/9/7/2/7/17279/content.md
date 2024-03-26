@@ -43,16 +43,17 @@ A clear account is in
 See p. 9 of https://arxiv.org/abs/1206.1890
 
 
-Review includes
+Review:
 
-
-* {#Marino12} [[Marcos Marino]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](https://arxiv.org/abs/1206.6272))
+* {#Marino12} [[Marcos Marino]], _Lectures on non-perturbative effects in large $N$ gauge theories, matrix models and strings_ ([arXiv:1206.6272](https://arxiv.org/abs/1206.6272))
 
 * {#Dorigoni14} Daniele Dorigoni, _An Introduction to Resurgence, Trans-Series_ ([arXiv:1411.3585](https://arxiv.org/abs/1411.3585))
 
 * {#Costin17} Ovidiu Costin, _The Mathematical Theory of Resurgence and Resummation, and Their Applications in Mathematics and Physics_, 2017 ([web](http://online.kitp.ucsb.edu/online/resurgent_c17/costin/))
 
 * [[Gerald Dunne]], _Introduction to Resurgence, Trans-series and Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
+
+* David Sauzin, *Resurgence and Mould Calculus*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.15029](https://arxiv.org/abs/2310.15029)&rbrack;
 
 
 Part of the above text is taken from
