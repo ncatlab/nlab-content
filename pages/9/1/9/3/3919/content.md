@@ -96,6 +96,8 @@ Reviews with emphasis on the AQFT-local-nets point of view:
 
 * Níckolas de Aguiar Alves, *Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime* &lbrack;[arXiv:2305.17453](https://arxiv.org/abs/2305.17453)&rbrack;
 
+* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
+
 
 On the [[perturbative algebraic quantum field theory|locally covariant pAQFT approach]] to effective [[quantum gravity]] and applications to experiment:
 
