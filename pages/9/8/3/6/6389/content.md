@@ -1,44 +1,16 @@
-I'm a [Research Assistant Professor](https://www.umb.edu/academics/csm/physics/faculty_staff) at the University of Massachusetts Boston. My current research is in [quantum information theory](https://arxiv.org/abs/1703.07901); my background is in [statistical physics, stochastic processes and evolutionary dynamics](https://arxiv.org/abs/1509.02958). I'm also [Blake Stacey](https://scirate.com/blake-stacey) at SciRate.
-
-Evidence of my lack of education:
-
-* [...about combinatorial games](http://golem.ph.utexas.edu/category/2009/11/combinatorialgame_categories.html#c029299)
-* [...about generating functions and stuff types](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html#c033601)
-* [...about thermodynamics, chaos theory and probability](http://golem.ph.utexas.edu/category/2011/05/categorytheoretic_characteriza_1.html#c037874)
-
-On the advice of [[John Baez]], I'm going to try writing a bit about [[universality]].  And having started a page on [[universality class|universality classes]], I now realise that I should get a few other topics going:
-
-* [[c-theorem]]
-* [[Reggeon field theory]]
-* [[RSOS model]]
-* [[ADE classification]]
-
-### Scratchpad ###
-
-**Restricted Solid-on-Solid** or **RSOS models** are field theories defined on a lattice, in which the field values at adjacent lattice sites are energetically constrained in a way specified by a graph structure.  If the graph is one of the special $A$, $D$ or $E$ Dynkin diagrams, then the critical point of the model is governed by a conformal field theory whose central charge is fixed by the Coxeter number of that Dynkin diagram.  RSOS models therefore exemplify the possible universality classes of 2D systems in thermal equilibrium.
-
-$$ Z = \sum_{heights} \prod_{faces} W \left(\begin{array}{cc} d & c \\ a & b\end{array}\right). $$
-
-The Boltzmann weights, as defined by Pasquier, depend on the _crossing parameter_ $\lambda = \pi/\hat{h}$, where $\hat{h}$ is the Coxeter number of the Dynkin diagram, and the _spectral parameter_ $u \in (0, \lambda)$.
-
-$$ W \left(\begin{array}{cc} d & c \\ a & b\end{array}\mid u\right) = \frac{\sin\lambda - u}{\sin\lambda} \delta_{a, c} G_{a, b} G_{a, d} + \frac{\sin u}{\sin\lambda} \left(\frac{S_a S_c}{S_b S_d}\right)^{1/2} \delta_{b, d} G_{a, b} G_{b, c}. $$
-
-$G_{a, b}$ is the adjacency matrix of the graph. 
-
-Michael E. Fisher (1968), _Renormalization of Critical Exponents by Hidden Variables_ Physical Review **176**: 257--72. ([web](http://link.aps.org/doi/10.1103/PhysRev.176.257))
-
-:The mathematical content of this article consists chiefly in the analysis of some thermodynamic manipulations appropriate to the imposition of "constraints" on certain previously free thermodynamic variables and is quite elementary.  To motivate our analysis and reveal its theoretical significance we ask the following fundamental question: "To what extent are the observed values of the critical-point exponents universal?" ... the fairly close concurrence of all the exponent values for fluids and magnets does suggest the existence of a universal set of exponents.
-
+I'm a theoretical physicist at the University of Massachusetts Boston. My current research is in [quantum information theory](https://arxiv.org/abs/1703.07901), although my background before that was in [statistical physics, stochastic processes and evolutionary dynamics](https://arxiv.org/abs/1509.02958). I'm also [Blake Stacey](https://scirate.com/blake-stacey) at SciRate.
 
 ## Selected writings
 
-On [[quantum Bayesianism]]/[[QBism]]
+On [[quantum Bayesianism]]/[[QBism]]:
 
 * {#FuchsSchlosshauerStacey14} [[Christopher A. Fuchs]], [[Maximilian Schlosshauer]] (foreword), [[Blake C. Stacey]] (ed.) *My Struggles with the Block Universe* &lbrack;[arXiv:1405.2390](https://arxiv.org/abs/1405.2390)&rbrack;
+* B. C. Stacey, *A First Course in the Sporadic SICs.* [SpringerBriefs in Mathematical Physics volume 41](https://doi.org/10.1007/978-3-030-76104-2) (2021).
 
 
+Others:
 
-
+* *[Calculus Made Easy](https://www.sunclipse.org/?p=3194)* --- a revised edition of the 1914 text
 
 category: people
 
