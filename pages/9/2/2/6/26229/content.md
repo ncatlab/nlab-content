@@ -34,7 +34,7 @@ On [[principal infinity-bundles|principal $\infty$-bundles]]:
 
 On the [[FRS theorem]] classifying [[rational CFT|rational]] [[2d conformal field theory]]:
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
 On [[BV quantization]]:
 
@@ -94,7 +94,7 @@ On [[quantum gravity]] via [[causal dynamical triangulation]]:
 
 * J. Ambjørn, R. Loll, *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
 
-On [[quantum field theory]] in [[curved spacetime]]:
+On [[quantum field theory]] in [[curved spacetime]] ([[AQFT on curved spacetimes]]):
 
 * [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
 
@@ -143,7 +143,7 @@ On [[renormalization]]:
 
 *  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
-On [[operator product expansion]]s in [[quantum field theory]]:
+On the [[operator product expansion]] in [[quantum field theory]]:
 
 * [[Stefan Hollands]], [[Robert Wald]], *The Operator Product Expansion in Quantum Field Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.01096](https://arxiv.org/abs/2312.01096)&rbrack;
 
@@ -179,7 +179,7 @@ On hybrid classical-quantum models:
 
 * Daniel R. Terno, *Classical-Quantum Hybrid Models*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.05014](https://arxiv.org/abs/2309.05014)&rbrack;
 
-On the Bethe Ansatz:
+On the [[Bethe ansatz]]:
 
 * Frank Göhmann, *Bethe Ansatz*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.02008](https://arxiv.org/abs/2309.02008)&rbrack;
 
@@ -203,7 +203,7 @@ On [[gapped Hamiltonian|gapped]] quantum [[spin]] systems:
 
 * Amanda Young, *Quantum Spin Systems*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848)&rbrack;
 
-On applications of [[coarse geometry]] to [[solid state physics]]:
+On applications of [[coarse geometry]] to [[topological insulators]] in [[solid state physics]]:
 
 * [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
 
@@ -215,9 +215,9 @@ On [[solutions]] to and [[algebraic structures]] in [[set theoretic Yang-Baxter 
 
 * Anastasia Doikou, *Algebraic structures in set-theoretic Yang-Baxter & reflection equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2307.06140](https://arxiv.org/abs/2307.06140)&rbrack;
 
-On [[Poisson vertex algebras]] and [[integrable system|integrability]] of Hamiltonian PDEs:
+On [[Poisson vertex algebras]] and [[integrability]] of Hamiltonian [[PDEs]]:
 
-* Alberto De Sole, Victor G. Kac, Daniele Valeri, *Poisson vertex algebras and Hamiltonian PDE*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2306.09709](https://arxiv.org/abs/2306.09709)&rbrack;
+* Alberto De Sole, [[Victor G. Kac]], Daniele Valeri, *Poisson vertex algebras and Hamiltonian PDE*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2306.09709](https://arxiv.org/abs/2306.09709)&rbrack;
 
 On [[algebraic quantum field theory]]:
 
@@ -227,15 +227,12 @@ On [[coarse geometry]] and coarse homology theories:
 
 * [[Ulrich Bunke]], *Coarse geometry*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.09203](https://arxiv.org/abs/2305.09203)&rbrack;
 
-On [[higher algebra]] and [[higher category theory]] in [[algebraic quantum field theory]]:
+On [[higher algebra]] and [[higher category theory]] in [[algebraic quantum field theory]] ([[homotopical AQFT]]):
 
 * [[Marco Benini]], [[Alexander Schenkel]], *Operads, homotopy theory and higher categories in algebraic quantum field theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.03372](https://arxiv.org/abs/2305.03372)&rbrack;
 
-On [[algebraic structures]] in [[2d conformal field theory]]:
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
-
-On [[measurement]] in [[quantum field theory]]:
+On ([[quantum measurement|quantum]]) [[measurement]] in [[quantum field theory]]:
 
 * [[Christopher Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
 
