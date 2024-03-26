@@ -1,4 +1,11 @@
-Set theoretic Yang-Baxter equation is the [[quantum Yang-Baxter equation]] in the Cartesian monoidal category of sets. Thus we talk about set-theoretic solutions of (quantum) Yang-Baxter equation.  
+
+\tableofcontents
+
+## Idea
+
+The set-theoretic Yang-Baxter equation is the [[quantum Yang-Baxter equation]] in the [[cartesian monoidal category]] of [[Sets]]. Thus one may talk about set-theoretic solutions of (quantum) Yang-Baxter equation.  
+
+## References
 
 Pioneering work
 
@@ -20,6 +27,11 @@ A dynamical version of set theoretic quantum Yang-Baxter is introduced using cat
 
 * Ryosuke Ashikaga, Youichi Shibukawa, _Dynamical reflection maps_, [arXiv:2209.10079](https://arxiv.org/abs/2209.10079)
 * Noriaki Kamiya, Youichi Shibukawa, _Dynamical Yang-Baxter maps associated with homogeneous pre-systems_, J. Gen. Lie Theory Appl. __5__ (2011)
+
+Review:
+
+
+* Anastasia Doikou, *Algebraic structures in set-theoretic Yang-Baxter & reflection equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2307.06140](https://arxiv.org/abs/2307.06140)&rbrack;
 
 
 category: algebra
