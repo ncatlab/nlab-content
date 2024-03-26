@@ -33,6 +33,11 @@ On [[celestial holography]] via [[topological strings]] on [[twistor space]]:
 
 * [[Kevin Costello]], [[Natalie M. Paquette]], [[Atul Sharma]], *Burns space and holography* &lbrack;[arXiv:2306.00940](https://arxiv.org/abs/2306.00940)&rbrack;
 
+On [[factorization algebras]]:
+
+
+* [[Kevin Costello]], [[Owen Gwilliam]], *Factorization algebra*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.06137](https://arxiv.org/abs/2310.06137)&rbrack;
+
 
 
 ## Related entries 
