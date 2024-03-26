@@ -50,6 +50,13 @@ On [[moment maps]]:
 
 * [[Eckhard Meinrenken]], _Lectures on group-valued moment maps and Verlinde formulas_, 35 pages, January 2012, [pdf](http://www.math.toronto.edu/mein/research/NotreLectures.pdf)
 
+On [[Lie algebroids]]:
+
+* [[Eckhard Meinrenken]], *Lie Algebroids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.03034](https://arxiv.org/abs/2401.03034)&rbrack;
+
+
+
+
 ## Related entries
 
 * [[deformation quantization of the 2-sphere]]
