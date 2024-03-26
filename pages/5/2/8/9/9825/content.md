@@ -186,7 +186,7 @@ See also:
 
 Discussion in the refined context of ([[local field theory|local]] [[algebraic quantum field theory|algebraic]]) [[quantum field theory]] [[AQFT on curved spacetimes|on Lorentzian manifolds]]:
 
-* [[Christopher J. Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory* &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
+* [[Christopher J. Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory* in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
 
 
 ### Formalization
