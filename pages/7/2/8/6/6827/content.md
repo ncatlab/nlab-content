@@ -43,6 +43,10 @@ On [[vertex operator algebras]] over [[non-archimedean fields]]:
 
 * [[Victor Kac]], _Non-Archimedean vertex algebras_ &lbrack;[arXiv:2304.09651](https://arxiv.org/abs/2304.09651)&rbrack;
 
+On [[Poisson vertex algebras]] and [[integrability]] of Hamiltonian [[PDEs]]:
+
+* Alberto De Sole, [[Victor G. Kac]], Daniele Valeri, *Poisson vertex algebras and Hamiltonian PDE*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2306.09709](https://arxiv.org/abs/2306.09709)&rbrack;
+
 
 
 category: people
