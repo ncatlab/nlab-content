@@ -10,11 +10,9 @@ A matrix $A$ over the field of [[real numbers]] is __[[totally positive matrix|t
 
 A cluster algebra of rank $n$ comes equipped with some subsets of size $n$ called clusters. Some of these clusters are related by sequences of operations called mutations.
 
-##Definition##
 
-(this is still a stub)
 
-##Links and references##
+## References
 
 * Sergey Fomin, Andrei Zelevinsky, _Cluster algebras. I. Foundations_, J. Amer. Math. Soc. 15 (2002), no. 2, 497--529, [math.RT/0104151 ](http://arxiv.org/abs/math/0104151); _Cluster algebras. II. Finite type classifications._ Invent. Math. 154 (2003), no. 1, 63--121 -- classification of cluster algebras of finite type via root systems [math.RA/0208229](http://arxiv.org/abs/math/0208229), _Cluster algebras, IV: Coefficients_, Compos. Math. __143__ (2007), 112&#8211;164, [MR2295199](http://www.ams.org/mathscinet-getitem?mr=2295199) [doi](http://dx.doi.org/10.1112/S0010437X06002521)
 
@@ -29,10 +27,12 @@ Proc Natl Acad Sci USA 111(27):9696-703  (2014) [doi](https://doi.org/10.1073/pn
 
 * description and conference info "Cluster Algebras and Lusztig's Semicanonical Basis", Oregon, June 2011, [html](http://pages.uoregon.edu/njp/cluster.html)
 
-* Maxim Kontsevich, Yan Soibelman, _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
 
 * Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. [arxiv/1105.4170](http://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
+
 * [[Bernard Leclerc]], _Cluster algebras and representation theory_, [arxiv/1009.4552](http://arxiv.org/abs/1009.4552)
+
 * Christof Geiss, Bernard Leclerc, Jan Schr&#246;er, _Preprojective algebras and cluster algebras_, [arxiv/0804.3168](http://arxiv.org/abs/0804.3168); _Kac-Moody groups and cluster algebras_, [arxiv/1001.3545](http://arxiv.org/abs/1001.3545); _Cluster structures on quantum coordinate rings_, [arxiv/1104.0531](http://arxiv.org/abs/1104.0531)
 
 * Tomoki Nakanishi, _[[dilogarithm|Dilogarithm]] identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
@@ -46,6 +46,10 @@ Generalized cluster algebras are studied in
 
 * Leonid Chekhov, Michael Shapiro, _Teichm&#252;ller spaces of Riemann surfaces with orbifold points of arbitrary order and cluster variables_, Int. Math. Res. Notices (2014)  2746-2772 [arxiv/1111.3963](http://arxiv.org/abs/1111.3963) [doi](http://dx.doi.org/10.1093/imrn/rnt016)
 * Tomoki Nakanishi, _Structure of seeds in generalized cluster algebras_, [arxiv/1409.5967](http://arxiv.org/abs/1409.5967)
+
+Review:
+
+* Michael Gekhtman, Anton Izosimov, *Integrable systems and cluster algebras*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.07287](https://arxiv.org/abs/2403.07287)&rbrack;
  
 
 [[!redirects cluster algebras]]
