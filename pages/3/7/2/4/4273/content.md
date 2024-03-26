@@ -9,6 +9,8 @@ On [[factorization algebras]] and [[BV-quantization]]:
 
 * Owen Gwilliam, _Factorization algebras and free field theories_, PhD thesis ([[GwilliamThesis.pdf:file]])
 
+* [[Kevin Costello]], [[Owen Gwilliam]], *Factorization algebra*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.06137](https://arxiv.org/abs/2310.06137)&rbrack;
+
 On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
 
 * [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
