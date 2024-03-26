@@ -20,6 +20,10 @@ On the [[perturbative algebraic quantum field theory|locally covariant pAQFT app
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Kasia Rejzner]], *Locally covariant approach to effective quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07800](https://arxiv.org/abs/2212.07800)&rbrack;
 
+On [[algebraic quantum field theory]]:
+
+* [[Detlev Buchholz]], [[Klaus Fredenhagen]], *Algebraic quantum field theory: objectives, methods, and results*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.12923](https://arxiv.org/abs/2305.12923)&rbrack;
+
 
 
 ## Related pages
