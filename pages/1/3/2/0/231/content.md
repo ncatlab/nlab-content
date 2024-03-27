@@ -428,6 +428,16 @@ naturally in $e$.
 
 There is a [[faithful functor]] from monoidal categories to [[multicategories]], given by forming [[representable multicategory|representable multicategories]].
 
+[[lax monoidal functors|Lax monoidal functors]] between monoidal categories are in correspondence with [[morphism of multicategories|morphisms]] between their underlying representable multicategories.
+
+
+### Relation to PROs
+
+There is a [[fully faithful functor]] from monoidal categories to colored [[PROs]]. This means monoidal categories can equivalently be defined as colored PROs satisfying a certain [[property]].
+
+A colored PRO is called _representable_ if every list of generating objects (or equivalently, every pair of generating objects and the empty list) is isomorphic to a single generating object. The category of monoidal categories and (strong) monoidal functors is equivalent to the category of representable colored PROs and colored PRO morphisms (which are required to preserve generating objects).
+Moreover, the category of monoidal categories and _strict_ monoidal functors is equivalent to the category whose objects are colored PROs equipped with _choices_ of such binary and nullary isomorphisms, and whose arrows are colored PRO homomorphisms that preserve these chosen isomorphisms.
+
 ### Internal logic
 
 The [[internal language]] of monoidal categories is a flavor of [[linear logic]]/[[linear type theory]] (non-commutative multiplicative intuitionistic linear type theory). In this logical context the [[string diagrams]] of monoidal categories are called [[proof nets]].
