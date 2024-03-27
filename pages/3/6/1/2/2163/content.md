@@ -39,7 +39,7 @@ A __cobordism category__ is a triple $(D,\partial,i)$ where
 
   * with finite [[coproduct]]s (called [[direct sum]]s, often denoted by $+$), 
 
-  * including an [[initial object]] $0$ (also often denoted by $\emptyset$), 
+  * including a special object $0$ (also often denoted by $\emptyset$), 
 
 * $\partial:D\to D$ is an additive (direct-sum-preserving) [[functor]] 
 
