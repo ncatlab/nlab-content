@@ -219,6 +219,98 @@ If $F$ is strong monoidal then this is an ordinary [[2-functor]]. If it is stric
 
 =--
 
+
+### Relation to multicategories
+
++-- {: .num_remark}
+###### Remark
+
+Lax monoidal functors between monoidal categories are in correspondence with [[morphism of multicategories|morphisms]] between their underlying ([[representable multicategories|representable]]) [[multicategories]].
+
+=--
+
+### Relation to PROs
+
++-- {: .num_remark}
+###### Remark
+
+Strong monoidal functors between monoidal categories are in correspondence with morphisms between their underlying (representable) colored [[PROs]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Strict monoidal functors between monoidal categories are in correspondence with morphisms between their underlying colored [[PROs]] that preserve the distinguished isomorphisms $() \xrightarrow{\sim} I$ and  $(A, B) \xrightarrow{\sim} (A \otimes B)$ for all $A, B$.
+
+=--
+
+
+### Relationships between categories of monoidal categories
+
+
++-- {: .num_prop}
+###### Proposition
+
+The 1-category of strict monoidal categories and strict monoidal functors is not equivalent to the 1-category of monoidal categories and strong monoidal functors.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The former has an initial object, whereas the latter does not.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The inclusion from the 1-category of strict monoidal categories and strong monoidal functors into the 1-category of monoidal categories and strong monoidal functors is not an equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As mentioned at [[monoidal category#the_2category_of_monoidal_categories|monoidal category]], not every skeletal monoidal category is monoidally equivalent to a strict skeletal monoidal category. Therefore the inclusion is not essentially surjective.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The inclusion from the 2-category of strict monoidal categories and strict monoidal functors into the 2-category of monoidal categories and strong monoidal functors is not an equivalence.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Not every strong monoidal functor between strict monoidal categories is equivalent to a strict one. See for example [this MathOverflow question](https://mathoverflow.net/questions/172815/strictifying-strong-monoidal-functors).
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The inclusion of the the 2-category of strict monoidal categories and strong monoidal functors into the 2-category of monoidal categories and strong monoidal functors is an equivalence.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the [[coherence theorem for monoidal categories]], every monoidal category is strong monoidally equivalent to a strict one.
+
+=--
+
+
 ## String diagrams
 
 Just like monoidal categories, monoidal functors have a [[string diagram]] calculus; see [these slides](https://web.archive.org/web/20191021024946/http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf) for some examples.
