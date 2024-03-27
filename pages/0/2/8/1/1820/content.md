@@ -661,3 +661,5 @@ See also
 [[!redirects Smith's recognition theorem]]
 
 [[!redirects combinatorial model categories]]
+[[!redirects combinatorial model structure]]
+[[!redirects combinatorial model structures]]
