@@ -20,7 +20,7 @@
 
 ## Definition 
 
-A morphism of [[affine schemes]] $Spec A \to Spec B$ is _pro-&#233;tale_ if it is a [[filtered limit]] of [[étale morphisms of schemes]] over $Spec B$, dually if $B \to A$ is an [[ind-object|ind-]][[étale algebra]].
+A morphism of [[affine schemes]] $Spec A \to Spec B$ is _pro-&#233;tale_ if it is a [[filtered colimit]] of [[étale morphisms of schemes]] over $Spec B$, dually if $B \to A$ is an [[ind-object|ind-]][[étale algebra]].
 
 Pro &#233;tale morphisms into some [[scheme]] $X$ form the [[pro-étale site]] of $X$.
 
