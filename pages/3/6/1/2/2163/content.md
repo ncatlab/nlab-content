@@ -20,49 +20,60 @@
 
 ## Idea 
 
-The notion of cobordism category is an abstract one intended to capture important features of (many variants of) the [[category]] of [[cobordism]]s and include in the same formalism cobordisms for closed manifolds with various kinds of structure. 
+The notion of *cobordism categories* in the original sense of [Stong 1968](#Stong68)
+abstracts basic properties of (variants of) [[categories]] whose [[objects]] are [[compact topological space|compact]] [[manifolds with boundary]], with the [[concept with an attitude|intent]] of regarding these as [[cobordisms]] between their boundary components.
+
+A closely related but nominally different notion are categories whose *[[morphisms]]* are taken to be cobordisms between their boundary components. 
+
+Beware that the use of terminology not always brings out this distinction; but these days this second meaning is more prevalent, in particular in discussion of [[cobordism cohomology]] and of [[topological field theory]].
 
 
-The passage from a [[manifold]] $M$ to its [[boundary]] $\partial M$ has some formal properties which are preserved in the presence of [[orientation]], for manifolds with additional structure and so on. The category of [[compact space|compact]] smooth manifolds with boundary $D = Diff_c$ has finite [[coproducts]] and the boundary operator $\partial:D\to D$, $M\mapsto \partial M$ is an endofunctor commuting with coproducts. (Often these coproducts are referred to as [[direct sums]], and some say that $\partial$ is an [[additive functor]], but $D$ is not actually an [[additive category]]). The inclusions $i_M:\partial M\to M$ form a [[natural transformation]] of functors $i:\partial\to Id$. Finally, the isomorphism classes of objects in $D$ form a set, so $D$ is [[essentially small category|essentially small]] (svelte).
+
 
 
 ## Definition
 
+
+The axiomatization below is motivated as capturing the following familiar situation:
+
+The category $D$ of [[compact space|compact]] [[smooth manifolds]] with [[boundary]], has finite [[coproducts]] and the boundary operator $\partial \colon D\to D$, $M\mapsto \partial M$ is an [[endofunctor]] commuting with [[coproducts]]. (Often these coproducts are referred to as [[direct sums]]. Notice that $D$ is similar to but not actually an [[additive category]]. The inclusions $i_M \colon \partial M\to M$ form a [[natural transformation]] of functors $i \colon \partial\to Id$. Finally, the [[isomorphism classes]] of objects in $D$ form a set, so $D$ is [[essentially small category|essentially small]] (svelte).
+
 ### Axiomatization
 
-+-- {: .un_def }
-###### Definition
+\begin{definition}
 
-A __cobordism category__ is a triple $(D,\partial,i)$ where 
+A __Stong cobordism category__ is a triple $(D,\partial,i)$ where 
 
 * $D$ is a [[svelte category]] (i.e. an [[essentially small category]])
 
   * with finite [[coproduct]]s (called [[direct sum]]s, often denoted by $+$), 
 
-  * including a special object $0$ (also often denoted by $\emptyset$), 
+  * including an [[initial object]] $0$ (also often denoted by $\emptyset$), 
 
 * $\partial:D\to D$ is an additive (direct-sum-preserving) [[functor]] 
 
 * and $i:\partial\to Id_D$ is a [[natural transformation]] such that $\partial\partial M = 0$ for all [[object]]s $M\in D$.
 
-=--
+\end{definition}
 
+[Stong 1968, p. 4](#Stong68).
+
+
+\begin{remark}
 Note that $i$ is *not* required to be a *[[subfunctor]]* of the identity, i.e. the components $i_M$ are not required to be [[monomorphism|monic]], which is however often the case in examples.
+\end{remark}
 
 
-+-- {: .un_def }
-###### Definition
+\begin{definition}
 
 Two objects $M$ and $N$ in a cobordism category $(D,\partial,i)$ are said to be __cobordant__, written $M\sim_{cob} N$, if there are objects $U,V\in D$ such that $M+\partial U \cong N+\partial V$ where $\cong$ denotes the relation of being [[isomorphism|isomorphic]] in $D$. 
 
-=--
+\end{definition}
 
-+-- {: .un_remark }
-###### Remark
-
+\begin{remark}
 In particular, isomorphic objects are cobordant. Being cobordant is an [[equivalence relation]] and for any object $M$ in $D$, one has $\partial M\sim_{cob} 0$. 
 
-=--
+\end{remark}
 
 
 +-- {: .un_def }
@@ -190,7 +201,7 @@ See also [MO:q/59677](https://mathoverflow.net/q/59677/381).
 
 A classical reference is
 
-* [[Robert Stong]], _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973) ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+* {#Stong68} [[Robert Stong]], _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973) &lbrack;[toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html)&rbrack;
 
 The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
