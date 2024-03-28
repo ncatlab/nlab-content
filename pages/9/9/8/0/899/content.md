@@ -37,9 +37,7 @@ A _topological group_ is
 
    1. a [[neutral element]] $e \in G$,
 
-   1. a [[associativity|associative]] [[unital|unital]] [[function]]
-
-   1. $(-)\cdot (-) \;\colon\; G \times G \to G$,
+   1. a [[associativity|associative]] [[unital|unital]] [[function]] $(-)\cdot (-) \;\colon\; G \times G \to G$,
 
    1. a function $(-)^{-1} \;\colon\; G \to G$ such that $g \cdot g^{-1} = e = g^{-1} \cdot g$ for all $g \in G$;
 
