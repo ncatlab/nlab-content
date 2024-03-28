@@ -221,7 +221,7 @@ A writeup finally appeared as:
 
 Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given in
 
-* {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
+* {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](https://rezk.web.illinois.edu/freudenthal-and-blakers-massey.pdf).
 
 prompted by online discussion at
 
