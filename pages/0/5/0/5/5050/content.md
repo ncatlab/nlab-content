@@ -56,6 +56,8 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries 
 
 * [[closed manifold]]
 
+* [[cobordism category]]
+
 * [[MOFr]], [[MUFr]], [[MSUFr]]
 
 
