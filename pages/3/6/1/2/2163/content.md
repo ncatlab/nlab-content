@@ -25,20 +25,20 @@ abstracts basic properties of (variants of) [[categories]] whose [[objects]] are
 
 A closely related but nominally different notion are categories whose *[[morphisms]]* are taken to be cobordisms between their boundary components. 
 
-Beware that the use of terminology not always brings out this distinction; but these days this second meaning is more prevalent, in particular in discussion of [[cobordism cohomology]] and of [[topological field theory]].
+Beware that the use of terminology not always brings out this distinction; but these days the second meaning is more prevalent, in particular in discussion of [[cobordism cohomology]] and of [[topological field theory]].
 
 
 
 
 
-## Definition
+## Definitions
 
+### Cobordisms as objects
 
 The axiomatization below is motivated as capturing the following familiar situation:
 
 The category $D$ of [[compact space|compact]] [[smooth manifolds]] with [[boundary]], has finite [[coproducts]] and the boundary operator $\partial \colon D\to D$, $M\mapsto \partial M$ is an [[endofunctor]] commuting with [[coproducts]]. (Often these coproducts are referred to as [[direct sums]]. Notice that $D$ is similar to but not actually an [[additive category]]. The inclusions $i_M \colon \partial M\to M$ form a [[natural transformation]] of functors $i \colon \partial\to Id$. Finally, the [[isomorphism classes]] of objects in $D$ form a set, so $D$ is [[essentially small category|essentially small]] (svelte).
 
-### Axiomatization
 
 \begin{definition}
 
@@ -107,10 +107,19 @@ of the cobordism category $(D,\partial,i)$.
 
 =--
 
+### Cobordisms as morphisms
+
+(...)
+
+e.g. [GMWT09, 2.1](#GMWT09)
+
+(...)
+
 
 
 ## Properties
 
+The following properties concern the notion ob cobordism categories with cobordisms serving as morphisms.
 
 ### The homotopy type of the cobordism category
  {#GMTWTheorem}
@@ -149,7 +158,7 @@ $$
 
 =--
 
-This is ([Galatius-Tillmann-Madsen-Weiss 06, main theorem](#GMWT)).
+This is [Galatius, Tillmann, Madsen & Weiss 2009, main theorem](#GMWT09).
 
 +-- {: .num_remark}
 ###### Remark
@@ -199,13 +208,15 @@ See also [MO:q/59677](https://mathoverflow.net/q/59677/381).
 
 ### General
 
-A classical reference is
+The notion of *cobordism categories* with cobordisms as objects is due to
 
 * {#Stong68} [[Robert Stong]], _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973) &lbrack;[toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html)&rbrack;
 
+Most authors these days use "cobordism category" to refer to the notion where cobordisms form the [[morphisms]]:
+
 The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
-* {#GMWT} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_, Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
+* {#GMWT09} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_, Acta Math. **202** 2 (2009) 195--239 &lbrack;[arXiv:math/0605249](http://arxiv.org/abs/math/0605249)&rbrack;
 
 
 A generalization to geometric structure on the cobordisms is discussed in
