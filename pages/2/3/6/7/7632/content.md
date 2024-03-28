@@ -27,7 +27,7 @@
 
 * the [[exchange rule]]
 
-are not necessarily assumes, or only with restrictions.
+are not necessarily assumed, or only with restrictions.
 
 Some particular substructural logics include:
 
