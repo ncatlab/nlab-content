@@ -3445,9 +3445,9 @@ $K^\bullet(-)$ as a [[generalized (Eilenberg-Steenrod) cohomology]] theory, as [
 
 ## References
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](https://ncatlab.org/nlab/files/wirthmueller-vector-bundles-and-k-theory.pdf))
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
