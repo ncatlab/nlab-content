@@ -1,5 +1,3 @@
-[[!redirects Australian Category Theory Seminar]]
-[[!redirects Australian Category Theory Seminar]]
 The **Australian Category Seminar** (also know as **AusCat**), previously called the **Sydney Category Seminar**, is a weekly meeting on ([[higher category theory|higher]]) [[category theory]] held by the Centre of Australian Category Theory that has been held since 1970. The first seminar was probably held on the 23rd September, 1970.
 
 > During 1970 Bob Walters, who had been a student of Bernhard Neumann at Canberra, and who had developed an interest in category theory, took a Lectureship at Sydney University. I went off with my family to spend the academic year 70/71 at Chicago, and Brian Day too had a post at Chicago for that year. While I was away, Ross and Bob began weekly meetings, along with my research student Geoffrey Lewis, to discuss category theory. This was the beginning of the Australian Category Seminar, which has met ever since for a half day each week. Using Fulbright funds at first to support visitors, we learnt that the Australian Research Council was willing to receive proposals from mathematicians. So we prepared such a proposal, and were successful, and have ever since had such support.
@@ -20,3 +18,5 @@ The **Australian Category Seminar** (also know as **AusCat**), previously called
 * {#Kelly} [[G. Maxwell Kelly]], _The beginnings of category theory in Australia_, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) 1-6 &lbrack;[doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
 category: reference
+
+[[!redirects Australian Category Theory Seminar]]
