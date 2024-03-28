@@ -161,7 +161,7 @@ The reflection functor $k$ is constructed as follows:
 
 We take $k(X) \coloneqq X$ on [[underlying]] [[sets]], and equip this with the [[topological space|topology]] whose [[closed sets]] are those whose [[intersection]] with [[compact Hausdorff space|compact Hausdorff]] subsets of (the original topology on) $X$ is [[closed subset|closed]] (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
 
-In particular, the identity map $id \colon k(X)\to X$ is continuous, and forms the [[counit of an adjunction|counit]] of the [[coreflective subcategory|coreflection]].  Thus this coreflection has a counit which is both a [[monomorphisms]] as well as an [[epimorphisms]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
+In particular, the identity map $id \colon k(X)\to X$ is continuous, and forms the [[counit of an adjunction|counit]] of the [[coreflective subcategory|coreflection]].  Thus this coreflection has a counit which is both a [[monomorphism]] as well as an [[epimorphism]], i.e. a "bimorphism"---such a coreflection is sometimes called a "bicoreflection."
 \end{proof}
 
 \begin{remark}
@@ -264,7 +264,7 @@ cartesian closed]] ([Cagliari-Matovani-Vitale 1995, p. 4](#CagliariMatovaniVital
 
 {#PartialLocalCartesianClosure} However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the [[pullback]] ([[base change]]) [[functor]] $K_{/B} \to K_{/A}$ has a [[right adjoint]]. (see [Booth & Brown 1978a, Thm. 3.5 & 7.3](#BoothBrown78a); [May & Sigurdsson 2006, §1.3.7-§1.3.9](#MaySigurdsson06)).
 
-There is still a lot of work on fibred exponential laws and their applications. One reason for the success and difficulties is that it is easy to give a topology on the space of closed subsets of a space $X$ by regarding this as the space of maps to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1\}$ is closed but not open). From this one can get an [[exponential law for spaces]] over $B$ if $B$ is [[To|$T_0$]], so that all fibres of spaces over $B$ are closed in their total space.  Note that weak Hausdorff implies [[T0|$T_0$]].
+There is still a lot of work on fibred exponential laws and their applications. One reason for the success and difficulties is that it is easy to give a topology on the space of closed subsets of a space $X$ by regarding this as the space of maps to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value|truth values]] in which $\{1\}$ is closed but not open). From this one can get an [[exponential law for spaces]] over $B$ if $B$ is [[T0|$T_0$]], so that all fibres of spaces over $B$ are closed in their total space.  Note that weak Hausdorff implies [[T0|$T_0$]].
 \end{remark}
 
 
