@@ -23,22 +23,30 @@
 
 ## Idea 
 
-A **universe** in a [[topos]] is a [[topos theory|topos-theoretic]] version of the notion of [[Grothendieck universe]]; see that page for general motivation and applications.
+A **universe** in a [[topos]] is a [[topos theory|topos-theoretic]] version of the notion of ?[[Grothendieck universes]]*; see that page for general motivation and applications.
 
-To free the notion from membership-based set theory, we must replace _sets of sets_ by _families of sets_, just as in passing from [[power set]]s to [[power object]]s we must replace sets of subsets by families of subsets.
+To free the notion from membership-based [[set theory]], we must replace _sets of sets_ by _families of sets_, just as in passing from [[power sets]] to [[power objects]] we must replace sets of subsets by families of subsets.
 
 
 ## Definition 
 
-A **universe** in a topos $\mathcal{E}$ is a morphism $el\colon E \to U$ satisfying the axioms to follow.  We think of $el\colon E \to U$ as an $U$-indexed family of objects/sets (fibers of $el$ being those objects), and we define a morphism $a\colon A \to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f\colon I \to U$ and a [[pullback]] square
-$$\array{A & \to & E\\
-  ^a\downarrow && \downarrow^{el}\\
-  I& \underset{f}{\to} & U.}
+A **universe** in a topos $\mathcal{E}$ is a [[morphism]] $el \,\colon\, E \to U$ satisfying the axioms to follow.  We think of $el$ as a $U$-indexed family of objects/sets ([[fibers]] of $el$ being those objects), and we define a morphism $a\colon A \to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f\colon I \to U$ and a [[pullback]] square of this form:
+$$
+  \array{
+    A & \longrightarrow & E
+    \\
+  \mathllap{^a}\big\downarrow 
+    && 
+    \big\downarrow\mathrlap{^{el}}
+  \\
+  I & \underset{f}{\longrightarrow} & U
+  \mathrlap{\,.}
+  }
 $$
 
-The arrow $f$ is sometimes called the **name** of $a\colon A \to I$, since in the case when $I=*$, the arrow $f:* \to U$ _points_ at the term in the universe $U$ representing the object $A$. (See also this [discussion](http://nforum.ncatlab.org/discussion/6564/elementary-formulation-of-groupautomorphism-group/?Focus=53083#Comment_53083) and references there.) 
+The morphism $f$ is sometimes called the **name** of $a\colon A \to I$, since in the case when $I=*$, the morphism $f\colon * \to U$ _points_ at the term in the universe $U$ representing the object $A$. (See also [this discussion](http://nforum.ncatlab.org/discussion/6564/elementary-formulation-of-groupautomorphism-group/?Focus=53083#Comment_53083) and references there.) 
 
-Note that $f$ is not, in general, unique: a universe can contain many isomorphic sets.  With this definition, the pullback of a $U$-small morphism is automatically again $U$-small.  We say that an object $X$ is $U$-small if $X\to 1$ is $U$-small.
+Note that $f$ is not, in general, unique: a universe can contain many [[isomorphism|isomorphic]] sets.  With this definition, the pullback of a $U$-small morphism is automatically again $U$-small.  We say that an object $X$ is $U$-small if $X\to 1$ is $U$-small.
 
 The axioms which must be satisfied are:
 
@@ -46,7 +54,7 @@ The axioms which must be satisfied are:
 
 2. The composite of $U$-small morphisms is $U$-small.
 
-3. If $f\colon A \to I$ and $g\colon B \to A$ are $U$-small, then so is the [[dependent product]] $\Pi_f g$ (where $\Pi_f$ is the right adjoint to $f^*\colon \mathcal{E}/I \to \mathcal{E}/A$).
+3. If $f\colon A \to I$ and $g\colon B \to A$ are $U$-small, then so is the [[dependent product]] $\Pi_f g$ (where $\Pi_f$ is the [[right adjoint]] to the [[pullback]] [[functor]] $f^*\colon \mathcal{E}/I \to \mathcal{E}/A$).
 
 4. The [[subobject classifier]] $\Omega$ is $U$-small.
 
