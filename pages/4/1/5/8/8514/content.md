@@ -148,10 +148,6 @@ See also
 
 * Wikipedia, _[abc conjecture](http://en.wikipedia.org/wiki/Abc_conjecture)_
 
-
-
-
-
 ### Alleged proof via IUT
 
 [[Shinichi Mochizuki]] anounced the proof which the mathematical community perceives as a serious but unchecked claim. See the references at _[[inter-universal Teichmüller theory]]_.
@@ -166,6 +162,14 @@ A popular account of the problem of the math community checking the proof is in
 
 * Caroline Chen, _The Paradox of the Proof_ ([web](http://projectwordsworth.com/the-paradox-of-the-proof/))
 
+### Another alleged proof
 
+Kirti Joshi has put out an alleged proof of the abc conjecture on the arXiv:
+
+* [[Kirti Joshi]], *Construction of Arithmetic Teichmuller Spaces IV: Proof of the abc-conjecture* ([arXiv:2403.10430](https://arxiv.org/abs/2403.10430))
+
+According to [[Peter Scholze]], there is a mistake in Joshi's proof at Proposition 6.10.7:
+
+* [[Peter Scholze]], *Global character of ABC/Szpiro inequalities*, [MathOverflow (version: 2024-03-29)](https://mathoverflow.net/q/467995). 
 
 [[!redirects abc-conjecture]]
