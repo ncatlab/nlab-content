@@ -189,7 +189,7 @@ The following paper developes covering uniformities constructively, and includes
 
 These ideas are developed further in
 
-* Graham Manuell, _Uniform locales and their constructive aspects_, [arxiv:2106.00678](https://arxiv.org/abs/2106.00678)
+* Graham Manuell, _Uniform locales and their constructive aspects_, [arxiv:2106.00678](https://arxiv.org/abs/2106.00678), [TAC](http://www.tac.mta.ca/tac/volumes/41/8/41-08abs.html) 41:8, 2024
 
 A constructive and predicative theory in the programme of [[formal topology]] can be found here:
 
