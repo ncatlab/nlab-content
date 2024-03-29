@@ -16,6 +16,14 @@ On [[string theory]]:
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], *Basic Concepts of String Theory*, Theoretical and Mathematical Physics, Springer (2013) &lbrack;[doi:10.1007/978-3-642-29497-6](https://doi.org/10.1007/978-3-642-29497-6)&rbrack;
 
+On the relation between [[Cobordism cohomology]] and [[D-brane charge quantization in K-theory]] in view of the "[[swampland conjectures]]":
+
+* {#BlumenhagenCribiori22} [[Ralph Blumenhagen]], [[Niccolò Cribiori]], *Open-Closed Correspondence of K-theory and Cobordism*,  J. High Energ. Phys. **2022** 37 (2022) \[<a href="https://arxiv.org/abs/2112.07678">arXiv:2112.07678</a>, <a href="https://doi.org/10.1007/JHEP08(2022)037">doi:10.1007/JHEP08(2022)037</a>\]
+
+* {#BCKM23} [[Ralph Blumenhagen]], [[Niccolò Cribiori]], Christian Kneissl, Andriana Makridou, *Dimensional Reduction of Cobordism and K-theory*, Journal of High Energy Physics 2023, 181, \[<a href=" https://doi.org/10.1007/JHEP03(2023)181">doi:10.1007/JHEP03(2023)181</a>, [arXiv:2208.01656](https://arxiv.org/abs/2208.01656)\]
+
+* {#Blumenhagen23} [[Ralph Blumenhagen]], *Nullifying Cobordism in Quantum Gravity*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BlumenhagenMar2023), slides: [[Blumenhagen-at-QFTAndCobordism2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=jLlE_jSH0lk)\]
+
 
 
 ## Related entries
