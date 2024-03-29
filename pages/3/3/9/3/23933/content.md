@@ -30,6 +30,10 @@ Claim of proof of statements similar to [[Mochizuki's corollary 3.12]]:
 
 * [[Kirti Joshi]], *Construction of Arithmetic Teichmuller Spaces III: A Rosetta Stone and a proof of Mochizuki's Corollary 3.12* ([arXiv:2401.13508](https://arxiv.org/abs/2401.13508))
 
+Claim of proof of the [[abc conjecture]]:
+
+* [[Kirti Joshi]], *Construction of Arithmetic Teichmuller Spaces IV: Proof of the abc-conjecture* ([arXiv:2403.10430](https://arxiv.org/abs/2403.10430))
+
 On [[anabelian geometry]]:
 
 * [[Kirti Joshi]], *Mochizuki's anabelian variation of ring structures and formal groups* ([arxiv:1906.06840](https://arxiv.org/abs/1906.06840))
