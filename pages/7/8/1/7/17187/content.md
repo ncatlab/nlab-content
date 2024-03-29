@@ -24,5 +24,9 @@ In [BriWei](#BriWei) the authors develop an enriched version.
 * {#BriWei} [[Pedro Boavida de Brito]], [[Michael Weiss]], _Manifold calculus and homotopy sheaves_, Homology, Homotopy and Applications, vol. 15(2), 2013, pp.361–383 ([arXiv:1202.1305](http://arxiv.org/abs/1202.1305))
 
 * [[Hiro Lee Tanaka]], _Manifold calculus is dual to factorization homology_, [pdf](http://math.mit.edu/conferences/talbot/2012/notes/14_Tanaka_FactorizationHomology%28hiro%29.pdf)
+
 * [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_ ([arXiv:1005.1698](http://arxiv.org/abs/1005.1698))
+
 * [[Thomas Willwacher]], _Configuration spaces of points and real Goodwillie-Weiss calculus_, [talk](https://www.newton.ac.uk/seminar/20181204100011001) at Isaac Newton Institute, 2018.
+
+* {#Arakawa24}[[Kensuke Arakawa]], _A Context for Manifold Calculus_, ([arXiv:2403.03321](https://arxiv.org/abs/2403.03321))
