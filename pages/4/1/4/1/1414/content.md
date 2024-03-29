@@ -573,6 +573,7 @@ Relating the [[Dwyer-Kan loop groupoid]]-construction to the homotopy coherent n
 
 * {#MinichielloRiveraZeinalian23} [[Emilio Minichiello]], [[Manuel Rivera]], [[Mahmoud Zeinalian]], *Categorical models for path spaces*, Advances in Mathematics **415** (2023) 108898 &lbrack;[arXiv:2201.03046](https://arxiv.org/abs/2201.03046), [doi:10.1016/j.aim.2023.108898](https://doi.org/10.1016/j.aim.2023.108898)&rbrack;
 
+* {#Arakawa23}[[Kensuke Arakawa]], *Classifying Space via Homotopy Coherent Nerve*, Homology Homotopy Appl. 25(2), 2023, 373--381 ([arXiv:math/2208.00550](https://arxiv.org/abs/2208.00550),[doi:org/10.4310/HHA.2023.v25.n2.a16](http://dx.doi.org/10.4310/HHA.2023.v25.n2.a16))
 
 [[!redirects homotopy coherent nerves]]
 [[!redirects homotopy coherent nerve functor]]
