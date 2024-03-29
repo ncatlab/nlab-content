@@ -20,7 +20,7 @@
 
 As for [[localization]] of ordinary [[categories]], there are slightly different notions of what a localization of an [[(∞,1)-category]] is.
 
-One definition is in terms of [[reflective (∞,1)-subcategories]]:
+One definition is in terms of [[simplicial localizations]]; another is in terms of [[reflective (∞,1)-subcategories]]:
 
 A _[[localization]]_ , in this sense, of an [[(∞,1)-category]] $C$ is a functor $L : C \to C_0$ to an $(\infty,1)$-subcategory $C_0 \hookrightarrow C$ such that with $c$ any object there is a morphism connecting it to its localization 
 
