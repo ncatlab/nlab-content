@@ -20,7 +20,7 @@
 
 ## Idea
 
-An _$(n \times k)$-category_ (read "n-by-k category") is an [[n-category]] [[internalization|internal]] to a $k$-category.  The term is "generic" in that it does not specify the level of strictness of the $n$-category and the $k$-category.
+An _$(n \times k)$-category_ (read "n-by-k category") is an [[n-category]] [[internalization|internal]] to the $(k+1)$-category of $k$-categories.  The term is "generic" in that it does not specify the level of strictness of the $n$-category and the $k$-category.
 
 For example:
 
