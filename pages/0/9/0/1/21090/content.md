@@ -2315,7 +2315,7 @@ Finally, the current form of Markov and copy-discard categories, which is also t
  </tr>
 <tr>
   <th markdown="1">**FinSetMulti**</th>
-  <td markdown="1">Finite nonempty [[power set monad]]</td>
+  <td markdown="1">Finite nonempty [[power set]] monad</td>
   <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
   <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
   <td markdown="1"> No ([Fritz-Rischel'19](#fritzrischel))</td>
@@ -2331,6 +2331,8 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 * [[probability theory]], [[categorical probability]]
 
 * [[Markov kernel]], [[stochastic map]], [[Stoch]]
+
+* [[conditional independence]], [[joint and marginal probability]]
 
 * [[probability monad]], [[affine monad]], [[commutative monad]]
 
