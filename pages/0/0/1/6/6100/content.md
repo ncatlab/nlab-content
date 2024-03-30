@@ -336,7 +336,7 @@ For variations of Quillens' Theorem B and its generalizations for [[(infinity,1)
 
 * {#Cisinski19} [[Denis-Charles Cisinski]], Section 4.6 of _Higher categories and homotopical algebra_, Cambridge Studies in Advanced Mathematics, 2021, &lbrack;[available at the author's webpage](https://cisinski.app.uni-regensburg.de/CatLR.pdf), [doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737)&rbrack;
 
-* {#Arakawa24} [[Kensuke Arakawa]], _A Context for Manifold Calculus_, &lbrack;[arXiv:2403.03321](https://arxiv.org/abs/2403.03321) &rbrack;
+* {#Arakawa24} [[Kensuke Arakawa]], _A Context for Manifold Calculus_, &lbrack[arXiv:2403.03321](https://arxiv.org/abs/2403.03321)&rbrack;
 
 * {#KSW24} [[Eilind Karlsson]], [[Claudia Scheimbauer]], [[Tashi Walde]], _Assembly of Constructible Factorization Algeras_, &lbrack;[arXiv:2403.19472](https://arxiv.org/abs/2403.19472) &rbrack;
 
