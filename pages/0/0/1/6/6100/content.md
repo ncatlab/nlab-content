@@ -146,6 +146,24 @@ If for each element/object $y \in \mathcal{D}$ its [[preimage]] $f^{-1}( \{ y' \
 An alternative proof is given in ([Barmak 10](#Barmak10)).
 
 
+### Quillen's Theorem B for Grothendieck fibrations
+
+Quillen's theorem B raises the following question: Which pullback square
+
+\begin{center}
+\begin{tikzcd}
+	{\mathcal{E}'} & {\mathcal{E}} \\
+	{\mathcal{B}'} & {\mathcal{B}}
+	\arrow[from=1-1, to=1-2]
+	\arrow["p", from=1-2, to=2-2]
+	\arrow[from=2-1, to=2-2]
+	\arrow["{p'}"', from=1-1, to=2-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+\end{tikzcd}
+\end{center}
+
+of small categories does the functor $|N(-)|$ carry to a [[homotopy pullback]] square? One such instance is where $p$ is a [[Grothendieck fibration]] which induces homotopy equivalences between the classifying spaces. This appears as ([LM15, Theorem 2.7](#LM15)). A version for [[(infinity,1)-categories]] appears in ([Arakawa24, Proposition 2.26](#Arakawa24)) and ([KSW24, Lemma A.1](#KSW24)). More discussions can be found in ([Cisinski19, Section 4.6](#Cisinski19)).
+
 
 ### Natural transformations and homotopies
 
@@ -312,7 +330,15 @@ Further development includes
 
 * [[David Roberts]], _[[davidroberts:Theorem A for topological categories]]_
 
- 
+For variations of Quillens' Theorem B and its generalizations for [[(infinity,1)-categories]]:
+
+* {#LM15} [[Zhen Lin Low]], [[Aaron Mazel-Gee]], _From fractions to complete Segal spaces_, Homology Homotopy Appl. **17** 1 (2015) 321--338 &lbrack;[arXiv:1409.8192](https://arxiv.org/abs/1409.8192), [doi:10.4310/HHA.2015.v17.n1.a16](https://doi.org/10.4310/HHA.2015.v17.n1.a16)&rbrack;
+
+* {#Cisinski19} [[Denis-Charles Cisinski]], Section 4.6 of _Higher categories and homotopical algebra_, Cambridge Studies in Advanced Mathematics, 2021, &lbrack;[available at the author's webpage](https://cisinski.app.uni-regensburg.de/CatLR.pdf), [doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737)&rbrack;
+
+* {#Arakawa24} [[Kensuke Arakawa]], _A Context for Manifold Calculus_, &lbrack;[arXiv:2403.03321](https://arxiv.org/abs/2403.03321) &rbrack;
+
+* {#KSW24} [[Eilind Karlsson]], [[Claudia Scheimbauer]], [[Tashi Walde]], _Assembly of Constructible Factorization Algeras_, &lbrack;[arXiv:2403.19472](https://arxiv.org/abs/2403.19472) &rbrack;
 
 
 [[!redirects geometric realization of a category]]
