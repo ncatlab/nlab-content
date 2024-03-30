@@ -233,9 +233,9 @@ $$
 
 =--
 
-For [[simplicial model categories]] this is ([Rezk, theorem 8.3](#{#Rezk}). For general [[model categories]] this is ([Bergner 07, theorem 6.2](#Bergner07)). For the fully general case this follows from results by [[Clark Barwick]], [[Daniel Kan]] and [[Bertrand Toën]] as pointed out by [[Chris Schommer-Pries]] [here on MathOverflow](http://mathoverflow.net/a/93139/381).
+For [[simplicial model categories]] this is ([Rezk, theorem 8.3](#Rezk). For general [[model categories]] this is ([Bergner 07, theorem 6.2](#Bergner07)). For the fully general case this follows from results by [[Clark Barwick]], [[Daniel Kan]] and [[Bertrand Toën]] as pointed out by [[Chris Schommer-Pries]] [here on MathOverflow](http://mathoverflow.net/a/93139/381).
 
-In fact, the construction $(\mathcal{C},\mathcal{W})\mapsto N_{Rezk}(\mathcal{C},\mathcal{W})$ admits a direct generalization in the case where $\mathcal{C}$ is a [[quasicategory]], and $N_{Rezk}(\mathcal{C},\mathcal{W})$ still presents the localization $\mathcal{C}[\mathcal{W}^{-1}]$. This is [Mazel-Gee19, Theorem 3.8](#Mazel-Gee19). A generalization can be found in [Arakawa23, Theorem 1.7]({#Arakawa23}).
+In fact, the construction $(\mathcal{C},\mathcal{W})\mapsto N_{Rezk}(\mathcal{C},\mathcal{W})$ admits a direct generalization in the case where $\mathcal{C}$ is a [[quasicategory]], and $N_{Rezk}(\mathcal{C},\mathcal{W})$ still presents the localization $\mathcal{C}[\mathcal{W}^{-1}]$. This is ([Mazel-Gee19, Theorem 3.8](#MazelGee19)). A generalization can be found in ([Arakawa23, Theorem 1.7](#Arakawa23)).
 
 ### Model categories for presheaves
 
@@ -497,7 +497,7 @@ Further discussion of the relation to [[simplicial localization]] is in
 
 * {#Bergner07} [[Julia Bergner]], _Complete Segal spaces arising from simplicial categories_ ([arXiv:0704.1624](http://arxiv.org/abs/0704.1624))
 
-* {#Maze-Gee19}[[Aaron Mazel-Gee]], _The universality of the Rezk nerve_, Algebr. Geom. Topol., 19(7), 2019, 3217--3260 ([arXiv:math/1510.03150](https://arxiv.org/abs/1510.03150), [doi:10.2140/agt.2019.19.3217](https://doi.org/10.2140/agt.2019.19.3217))
+* {#MazelGee19}[[Aaron Mazel-Gee]], _The universality of the Rezk nerve_, Algebr. Geom. Topol., 19(7), 2019, 3217--3260 ([arXiv:math/1510.03150](https://arxiv.org/abs/1510.03150), [doi:10.2140/agt.2019.19.3217](https://doi.org/10.2140/agt.2019.19.3217))
 
 * {#Arakawa23}[[Kensuke Arakawa]], _Classification Diagrams of Marked Simplicial Sets_ ([arXiv:math/2311.01101](https://arxiv.org/abs/2311.01101)).
 
