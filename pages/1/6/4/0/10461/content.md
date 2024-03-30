@@ -2,6 +2,8 @@
 
 * [webpage](http://stationq.cnsi.ucsb.edu/~wang/)
 
+* [wikipedia entry](https://en.wikipedia.org/wiki/Zhenghan_Wang)
+
 ## Selected writings
 
 On [[modular tensor categories]]:
