@@ -1838,7 +1838,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-### Mat 2024
+### Mar 2024
 
 * 08 Mar 2024
 
@@ -1853,6 +1853,23 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > [[symmetry breaking|Symmetry-breaking]]$\;$[[quantum phase transitions]] lead to the production of [[topological defects]] or [[domain walls]] in a wide range of [[physical systems]]. In second-order transitions, these exhibit universal scaling laws described by the Kibble-Zurek mechanism, but for first-order transitions a similarly universal approach is still lacking. Here we propose a spinor [[Bose-Einstein condensate]] as a testbed system where critical scaling behavior in a first-order quantum phase transition can be understood from generic properties. We generalize the Kibble-Zurek mechanism to determine the critical exponents for: (1) the onset of the decay of the metastable state on short times scales, and (2) the number of resulting phase-separated ferromagnetic domains at longer times, as a one-dimensional spin-1 condensate is ramped across a first-order quantum phase transition. The predictions are in excellent agreement with mean-field numerical simulations and provide a paradigm for studying the decay of metastable states in experimentally accessible systems.
 
 \linebreak
+
+* {#KumarMar2024} 25 Mar 2024
+
+  Kapil Kumar:
+
+  **Realization and Characterization of Topological Materials**
+
+  > [[topological insulator|Topological insulators]] (TIs) have emerged as a fascinating class of materials with unique electronic properties driven by non-trivial topology. Their exotic behavior, such as robust metallic states on the surface while being insulating in the bulk, has attracted significant attention from both theoretical and experimental communities. Characterizing these materials accurately is crucial for understanding their fundamental properties and exploring potential applications in quantum computing, spintronics, and topological quantum devices.
+
+  > This abstract provides an overview of the characterization techniques employed in the study of topological insulators. We discuss both experimental and theoretical approaches utilized to probe their electronic structure, surface states, topological invariants, and transport properties. Experimental techniques encompass a wide range of methods, including angle-resolved photoemission spectroscopy (ARPES), scanning tunneling microscopy/spectroscopy (STM/STS), magneto-transport measurements, and optical spectroscopy. These techniques provide invaluable insights into the band structure, Fermi surface topology, surface states, and the presence of any exotic quantum phenomena.
+
+
+  > On the theoretical front, available various computational methods, such as [[density functional theory]] (DFT), tight-binding models, and [[topological indices]], play a pivotal role in predicting and understanding the topological properties of these materials. These theoretical approaches not only aid in interpreting experimental results but also guide the design of novel topological materials with tailored properties.
+
+\linebreak
+
+
 
 ***
 
@@ -2654,8 +2671,22 @@ Stone-von Neumann**
 
   video: [Zoom](https://nyu.zoom.us/rec/share/sYGPbeuU0leoUWpzXucAPx9UYVzeb0tN6GjVXalK-5fuKZh8X8czxB-AM6Ky6NDN.c56gKC_K1yxcl-6n)
 
-  In this talk, we will explore a novel approach to study [[supersymmetry|supersymmetric]] [[quantum field theories]] using tools from [[stable homotopy theory]]. We will explain how this approach leads to new invariants that can be used to detect subtle differences between phases that escape the detection of more conventional invariants.
+  > In this talk, we will explore a novel approach to study [[supersymmetry|supersymmetric]] [[quantum field theories]] using tools from [[stable homotopy theory]]. We will explain how this approach leads to new invariants that can be used to detect subtle differences between phases that escape the detection of more conventional invariants.
+
+
  
+\linebreak
+
+
+* {#BunkMar24} 27 Mar 2024
+
+  [[Severin Bunk]] (University of Hertfordshire, UK): 
+
+  **Infinitesimal Higher Symmetries and Higher Connections**
+
+  > Every [[bundle]] on a [[manifold]] has a universal [[symmetry group]] which controls all [[equivariance|equivariant]] [[structures]] on the bundle. We modify this idea in two ways: we consider the [[infinitesimal]] version of universal symmetries and allow [[higher structure|higher]], or [[categorification|categorified]] bundles. These appear, for instance, in [[supergravity]], and [[higher gauge theory]], and more generally in [[geometry]] and [[topology]]. We will use a family-version of the [Lurie-Pridham Theorem](formal+moduli+problem#RelationToLInfinityAlgebras) of [[derived geometry|derived]] [[deformation theory]] to construct these higher, infinitesimal analogues of universal symmetry groups. We then use this to provide a unified definition of [[connection on a smooth principal infinity-bundle|connections on higher bundles]] and an algebraic formulation of [[differential cohomology]]. This extends work by [[John Baez|Baez]], [[Urs Schreiber|Schreiber]], [[Konrad Waldorf|Waldorf]], [[Mikhail Kapranov|Kapranov]] and others. Here, the [[curvature]] of a higher connection appears as an [[obstruction]] to infinitesimal equivariance. We elaborate in particular on the [[circle n-bundle with connection|case of higher $U(1)$-bundles]], or n-[[bundle gerbe|gerbes]]. This is joint work with [[Lukas Müller]], [[Joost Nuiten]] and [[Richard Szabo]].
+
+  
 
 \linebreak
 
