@@ -10,7 +10,7 @@ An **$\varepsilon$-number** is an [[ordinal number]], or more generally a [[surr
 
 ## Properties
 
-The ordinal $\varepsilon$-numbers are unbounded: for every ordinal $\beta$ there is an $\varepsilon$-number greater than $\beta$, namely the limit of the sequence $\beta, \omega^\beta ,\omega^{\omega^\beta},\dots$.  Thus, there are a proper class of ordinal $\varepsilon$-numbers, and their [[order type]] is the same as that of the ordinals themselves.  Hence, we can label them by writing $\varepsilon_n$ for the $n^{th}$ $\varepsilon$-number, where $n$ is any ordinal.
+The ordinal $\varepsilon$-numbers are unbounded: for every ordinal $\beta$ there is an $\varepsilon$-number greater than $\beta$, namely the limit of the sequence $\beta + 1, \omega^{\beta + 1} ,\omega^{\omega^{\beta + 1}},\dots$.  Thus, there are a proper class of ordinal $\varepsilon$-numbers, and their [[order type]] is the same as that of the ordinals themselves.  Hence, we can label them by writing $\varepsilon_n$ for the $n^{th}$ $\varepsilon$-number, where $n$ is any ordinal.
 
 In particular, $\varepsilon_0$ is the first ordinal $\varepsilon$-number, namely the limit of the sequence $1,\omega, \omega^\omega ,\omega^{\omega^\omega},\dots$.  It may be tempting to write $\varepsilon_0$ as 
 $$ \omega^{\omega^{\omega^{\dots}}} $$
