@@ -196,11 +196,11 @@ Further discussion and review:
 
 * {#EguchiGilkeyHanson80} [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213-393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
 
-* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Springer "Lecture Notes in Physics", 188 (1983) ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://link.springer.com/book/10.1007/3-540-12724-0))
+* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Lecture Notes in Physics **188**, Springer (1983) &lbrack;[arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://link.springer.com/book/10.1007/3-540-12724-0)&rbrack;
 
-* P. Balachandran, G. Marmo, B.-S. Skagerstam, A. Stern, _Classical Topology and Quantum States_ (World Scientific, Singapore, 1991).
+* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Classical Topology and Quantum States_ World Scientific (1991)
 
-* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000 ([doi:10.1142/2524](https://doi.org/10.1142/2524))
+* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific (2000) &lbrack;[doi:10.1142/2524](https://doi.org/10.1142/2524)&rbrack;
 
 
 * Luciano Boi, _Geometrical and topological foundations of theoretical physics: From gauge theories to string program_, 2003 ([pdf](http://www.emis.de/journals/HOA/IJMMS/2004/33-361777.pdf))
@@ -214,7 +214,7 @@ Further discussion and review:
 * [[Adam Marsh]], _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089)), chapter 10 in: [[Adam Marsh]], _Mathematics for Physics: An Illustrated Handbook_, World Scientific 2018 ([doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/))
 
 
-* {#RudolphSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* {#RudolphSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics Series, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://doi.org/10.1007/978-94-024-0959-8)&rbrack;
 
 
 Specifically in [[solid state physics]] ([[valence bundles]] and their [[K-theory classification of topological phases of matter]]):
