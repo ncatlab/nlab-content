@@ -59,6 +59,8 @@ In parts of the literature this case is understood by default when speaking of "
 
 ## Related concepts
 
+* [[connection on a smooth principal infinity-bundle]]
+
 * [[flat connection]]
 
 * [[Galois theory]]
