@@ -416,7 +416,7 @@ An early textbook account on [[strict 2-groups]] and explaining the relation to 
 
 Exposition of general 2-groups as [[monoidal categories]] with all objects and morphisms invertible (sometimes called [[Picard 2-groups]]):
 
-*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories **12** (2004) 423-491 &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200), [tac:12-14](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html)&rbrack;
+*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories **12** 14 (2004) 423-491 &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200), [tac:12-14](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html)&rbrack;
 
 
 ### Geometric 2-groups
