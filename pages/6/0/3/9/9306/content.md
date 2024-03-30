@@ -66,6 +66,7 @@ This ability to understand deformations order-by-order is related to the existen
 ## Properties
 
 ### Relation to $L_\infty$-algebras
+  {#RelationToLInfinityAlgebras}
 
 For $k$ a [[field]] of [[characteristic]] 0, write
 write $CAlg_k^{sm} \hookrightarrow CAlg_k$ for the [[(∞,1)-category]] of [[Artin ring|Artinian]] connective [[E-∞ algebras]] over $k$, or equivalently that of "small" commutative [[dg-algebras]] over $k$.
