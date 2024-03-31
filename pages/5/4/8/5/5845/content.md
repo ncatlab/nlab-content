@@ -169,7 +169,7 @@ For an adjoint triple $F\dashv G\dashv H$, the adjunction $F\dashv G$ is an [[id
 =--
 +-- {: .proof}
 ###### Proof
-The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps being [[mates]].  Therefore, by a standard fact, the category of $G F$-algebras and the category of $H G$-coalgebras are isomorphic over their common base.  However, $F\dashv G$ is idempotent precisely when $G F$ is an [[idempotent monad]], hence precisely when the forgetful functor of the category of $G F$-algebras is fully faithful, and dually for $G\dashv H$.  Since the categories of algebras are isomorphic respecting their forgetful functors, one forgetful functor is fully faithful if and only if the other is.
+The monad $G F$ is left adjoint to the comonad $G H$, with the structure maps being [[mates]].  Therefore, by a standard fact, the category of $G F$-algebras and the category of $G H$-coalgebras are isomorphic over their common base.  However, $F\dashv G$ is idempotent precisely when $G F$ is an [[idempotent monad]], hence precisely when the forgetful functor of the category of $G F$-algebras is fully faithful, and dually for $G\dashv H$.  Since the categories of algebras are isomorphic respecting their forgetful functors, one forgetful functor is fully faithful if and only if the other is.
 =--
 
 
