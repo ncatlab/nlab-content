@@ -16,7 +16,7 @@
 
 ## Definition
 
-A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$ (a Calabi-Yau [[algebraic surface]]/[[complex surface]]). This means that the [[canonical bundle]] $\omega_X=\wedge^2\Omega_X\simeq \mathcal{O}_X$ is trivial and $H^1(X, \mathcal{O}_X)=0$.
+A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$ whose [[Picard variety]] is zero-dimensional.  In other words, it is a complex [[algebraic surface]] with trivial [[canonical bundle]] ($\omega_X=\wedge^2\Omega_X\simeq \mathcal{O}_X$) and with $H^1(X, \mathcal{O}_X)=0$.
 
 The term "K3" is 
 
