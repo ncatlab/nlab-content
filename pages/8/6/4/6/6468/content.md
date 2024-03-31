@@ -30,7 +30,8 @@ The term "K3" is
 
 * A nonsingular degree $4$ hypersurface in $\mathbb{P}^3$, such as the [[Fermat hypersurface|Fermat quartic]] $\{[w,x,y,z] \in \mathbb{P}^3 | w^4 + x^4 + y^4 + z^4 = 0\}$ (in fact every K3 surface over $\mathbb{C}$ is [[diffeomorphism|diffeomorphic]] to this example).
 
-* The [[flat orbifold]] quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _Kummer surface_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](Riemannian+orbifold#BettiolDerdzinskiPiccione18))
+* The [[flat orbifold]] quotient of the [[4-torus]] (equipped with some [[complex structure]]) by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as a _Kummer surface_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol, Derdzinski & Piccione 2018, 5.5](Riemannian+orbifold#BettiolDerdzinskiPiccione18); [Taormina & Wendland 2015, §1](#TaorminaWendland15))
+
 
 
 
@@ -509,7 +510,10 @@ Further discussion includes
 
 Specifically in relation to [[orbifold]] [[string theory]]:
 
-* {#Wendland01} [[Katrin Wendland]], _Orbifold Constructions of K3: A Link between Conformal Field Theory and Geometry_, in _[[Orbifolds in Mathematics and Physics]]_ ([arXiv:hep-th/0112006](https://arxiv.org/abs/hep-th/0112006))
+* {#Wendland01} [[Katrin Wendland]], _Orbifold Constructions of K3: A Link between Conformal Field Theory and Geometry_, in _[[Orbifolds in Mathematics and Physics]]_ &lbrack;[arXiv:hep-th/0112006](https://arxiv.org/abs/hep-th/0112006)&rbrack;
+
+* {#TaorminaWendland15} Anne Taormina, [[Katrin Wendland]], *Symmetry-surfing the moduli space of Kummer K3s*, Proc. Symp. Pure Math. **90** (2015) 129 &lbrack;[arXiv:1303.2931](https://arxiv.org/abs/1303.2931), [doi:10.1090/pspum/090/01522](https://doi.org/10.1090/pspum/090/01522)&rbrack;
+
 
 Specifically in relation to the putative [[K-theory]]-classification of [[D-brane charge]]:
 
