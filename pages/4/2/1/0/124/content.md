@@ -22,7 +22,7 @@
 ## Idea 
  {#Idea}
 
-There are various different perspectives on the notion of _topos_.   One is that a topos is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphism]]s over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
+There are various different perspectives on the notion of _topos_.   One is that a topos is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphisms]] over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
 
 The archetypical class of examples are [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[étale space]]s over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
 
