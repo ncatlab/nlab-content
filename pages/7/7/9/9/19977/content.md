@@ -23,6 +23,9 @@ On [[Skyrmions]] via [[Yang-Mills instantons]]:
 
 * [[Josh Cork]], [[Chris Halcrow]], *ADHM skyrmions* ([arXiv:2110.15190](https://arxiv.org/abs/2110.15190))
 
+* [[Josh Cork]], [[Chris Halcrow]], *Quantisation of skyrmions using instantons* &lbrack;[arXiv:2403.17080](https://arxiv.org/abs/2403.17080)&rbrack;
+
+
 
 ## Related $n$Lab entries
 
