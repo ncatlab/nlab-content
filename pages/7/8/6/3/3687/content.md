@@ -114,7 +114,7 @@ Discussion amplifying the role of [[category theory]], and [[higher geometry]]:
 
 * {#Sharpe19} [[Eric Sharpe]], _Categorical equivalence and the renormalization group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
-Other reviews include
+Further review: 
 
 * [[Paul Aspinwall]], [[Tom Bridgeland]], [[Alastair Craw]], [[Michael Douglas]], Mark Gross, [[Anton Kapustin]], [[Gregory Moore]], [[Graeme Segal]], [[Balázs Szendrői]], P. Wilson,
 
@@ -124,19 +124,22 @@ Other reviews include
 
   ([pdf](http://www.claymath.org/library/monographs/cmim04c.pdf), [pdf](http://www2.maths.ox.ac.uk/cmi/library/monographs/cmim04.pdf))  (very readable!)
 
+* Felipe Espreafico G. Ramos, *Mirror Symmetry and Fukaya Categories* (2020) &lbrack;[pdf](https://mathi.uni-heidelberg.de/~framos/Fukaya.pdf), [[Ramos-MirrorSymmetry.pdf:file]]&rbrack;
+
+
 The relation to [[T-duality]] was established in
 
 * {#StromingerYauZaslow96} [[Andrew Strominger]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
 
-Further references include
+Further references:
 
 * [[Cumrun Vafa]], [[Shing-Tung Yau]] (eds.), _Winter school on mirror symmetry, vector bundles, and Lagrangian submanifolds_, Harvard 1999, AMS, Intern. Press (includes A. Strominger, S-T. Yau, E. Zaslow, _Mirror symmetry is $T$-duality_  as pages  333--347; ). 
 
 * K. Hori, S. Katz, A. Klemm et al. _Mirror symmetry I_, AMS, Clay Math. Institute 2003.
 
-* Paul Seidel, _Fukaya categories and Picard-Lefschetz theory_, Zurich Lectures in Advanced Mathematics. European Mathematical Society, Z&#252;rich, 2008. viii+326 pp
+* [[Paul Seidel]], _Fukaya categories and Picard-Lefschetz theory_, Zurich Lectures in Advanced Mathematics. European Mathematical Society, Z&#252;rich, 2008. viii+326 pp
 
-* Mark Gross, Bernd Siebert, _Mirror symmetry via logarithmic degeneration data I_, [math.AG/0309070](http://arxiv.org/abs/math/0309070), _From real affine geometry to complex geometry_, [math.AG/0703822](http://arxiv.org/abs/math/0703822), _Mirror symmetry via logarithmic degeneration data II_, [arxiv/0709.2290](http://arxiv.org/abs/0709.2290) 
+* [[Mark Gross]], [[Bernd Siebert]], _Mirror symmetry via logarithmic degeneration data I_, [math.AG/0309070](http://arxiv.org/abs/math/0309070), _From real affine geometry to complex geometry_, [math.AG/0703822](http://arxiv.org/abs/math/0703822), _Mirror symmetry via logarithmic degeneration data II_, [arxiv/0709.2290](http://arxiv.org/abs/0709.2290) 
 
 * [[Anton Kapustin]], [[Dmitri Orlov]], _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
 
