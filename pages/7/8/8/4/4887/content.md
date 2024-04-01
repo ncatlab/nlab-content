@@ -84,4 +84,9 @@ Relation to the [[B-model]] via [[mirror symmetry]] is discussed in
 
 * [[Sergei Gukov]], _Quantization via Mirror Symmetry_ ([arXiv:1011.2218](http://arxiv.org/abs/1011.2218))
 
+On its relation to [[geometric quantization]]:
+
+* [[Davide Gaiotto]], [[Edward Witten]]. *Probing Quantization Via Branes* (2021). ([arXiv:2107.12251](https://arxiv.org/abs/2107.12251)).
+
+
 [[!redirects brane quantization]]
