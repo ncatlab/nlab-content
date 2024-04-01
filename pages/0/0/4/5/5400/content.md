@@ -119,6 +119,14 @@ Lecture notes:
 
 * Hideki Kosaki, _Type III factors and index theory_ (1993) &lbrack;[pdf](http://pages.uoregon.edu/njp/lec-f.pdf)&rbrack;
 
+Exposition with an eye towards discussion of [[entanglement entropy]]:
+
+* Jonathan Sorce, *Notes on the type classification of von Neumann algebras* &lbrack;[arXiv:2302.01958](https://arxiv.org/abs/2302.01958)&rbrack;
+
+
+
+
+
 ### Subfactors
 
 The mathematics of inclusions of _subfactors_ is giving deep structural insights. See also at _[[planar algebra]]_. 
