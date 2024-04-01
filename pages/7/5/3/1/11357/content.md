@@ -54,6 +54,10 @@ Mathematical formalization and classification is discussed in
 
 For more see the [references](topologically+twisted+D%3D4+super+Yang-Mills+theory#References) at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 
+On conformal twists of [[SCFT|super-conformal field theories]]:
+
+* [[Chris Elliott]], [[Owen Gwilliam]], Matteo Lotito. *Twists of superconformal algebras* (2024). ([arXiv:2403.19753](https://arxiv.org/abs/2403.19753)).
+
 
 [[!redirects topological twists]]
 
