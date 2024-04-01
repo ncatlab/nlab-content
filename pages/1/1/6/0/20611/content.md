@@ -40,9 +40,9 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Topology and its Applications](https://www.journals.elsevier.com/topology-and-its-applications)|Elsevier|[[Bill Dwyer|Dwyer]]|subscription|general topology, homotopy|
 |[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|categories, [[synthetic differential geometry]]
 |[Journal of Topology](https://londmathsoc.onlinelibrary.wiley.com/journal/17538424)|LMS via Wiley|[[Andrew Blumberg|Blumberg]]|subscription|topology|
-|[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|general|
-|[Transactions of the American Mathematical Society](https://www.ams.org/tran/)|AMS|[[Craig Westerland|Westerland]]|subscription|general|
-|[International Mathematics Research Notices](https://academic.oup.com/imrn/)|OUP|[[Andrew Blumberg|Blumberg]], [[Lars Hesselholt|Hesselholt]], [[Dmitry Kaledin|Kaledin]]|subscription|general|
+|[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Julie Bergner|Bergner]]|subscription|general|
+|[Transactions of the American Mathematical Society](https://www.ams.org/tran/)|AMS|[[Clark Barwick|Barwick]], [[Craig Westerland|Westerland]]|subscription|general|
+|[International Mathematics Research Notices](https://academic.oup.com/imrn/)|OUP|[[Andrew Blumberg|Blumberg]], [[Dmitry Kaledin|Kaledin]]|subscription|general|
 |[Documenta Mathematica](https://www.elibm.org/series-details?q=se:2204)|DMV|[[Henning Krause|Krause]], [[Mike Hill|Hill]], [[Max Karoubi|Karoubi]]|open|general|
 |[Communications in Algebra](https://www.tandfonline.com/toc/lagb20/current)|Taylor and Francis|varies|subscription|algebra|
 |[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|general|
