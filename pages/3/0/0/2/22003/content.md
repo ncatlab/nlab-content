@@ -25,6 +25,10 @@ On [[Skyrmions]] via [[Yang-Mills instantons]]:
 
 * [[Josh Cork]], [[Chris Halcrow]], *ADHM skyrmions* ([arXiv:2110.15190](https://arxiv.org/abs/2110.15190))
 
+* [[Josh Cork]], [[Chris Halcrow]], *Quantisation of skyrmions using instantons* &lbrack;[arXiv:2403.17080](https://arxiv.org/abs/2403.17080)&rbrack;
+
+
+
 Computer-survey of [[Skyrmion]]-solutions:
 
 * {#GudnasonHalcrow22} [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *A Smörgåsbord of Skyrmions* &lbrack;[arXiv:2202.01792](https://arxiv.org/abs/2202.01792)&rbrack;
