@@ -24,5 +24,9 @@ On complex and Lorentzian analogs of [[Cayley forms]]:
 
 * [[Kirill Krasnov]], *Lorentzian Cayley Form* &lbrack;[arXiv:2304.01118](https://arxiv.org/abs/2304.01118)&rbrack;
 
+More on [[Cayley forms]]:
+
+* [[Kirill Krasnov]], *Dynamics of Cayley Forms* &lbrack;[arXiv:2403.16661](https://arxiv.org/abs/2403.16661)&rbrack;
+
 
 category: people
