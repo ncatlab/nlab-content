@@ -344,6 +344,8 @@ Further development:
 
 * [[Sven Bjarke Gudnason]], [[Chris Halcrow]], *Quantum binding energies in the Skyrme model* &lbrack;[arXiv:2307.09272](https://arxiv.org/abs/2307.09272)&rbrack;
 
+* [[Josh Cork]], [[Chris Halcrow]], *Quantisation of skyrmions using instantons* &lbrack;[arXiv:2403.17080](https://arxiv.org/abs/2403.17080)&rbrack;
+
 
 
 Large computer search for Skyrmion solutions:
