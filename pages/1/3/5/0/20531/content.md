@@ -77,9 +77,16 @@ for all $v \in \mathfrak{g}$.
 
 In this form the definition of basic forms makes sense more generally whenever a [[Cartan calculus]] is given, not necessarily exhibited by smooth vector fields on actual manifolds. This more general concept of basic differential forms appears notably in the construction of the Weil model for [[equivariant de Rham cohomology]].
 
-## Related concepts
+## References
+
+### Related concepts
 
 * [[horizontal differential form]]
+* [[Chern-Weil theory]]
+
+### Articles
+
+* Peter W. Michor, _Basic differential forms for actions of Lie groups_, Proc. Amer. Math. Soc. __124__ (1996), 1633--1642 [doi](https://doi.org/10.1090/S0002-9939-96-03195-4)
 
 
 [[!redirects basic differential forms]]
