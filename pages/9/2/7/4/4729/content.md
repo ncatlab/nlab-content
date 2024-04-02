@@ -653,6 +653,8 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 ## References
 
+> See also the rereferences at *[[nonabelian differential cohomology]]*.
+
 The local differential form data of $\infty$-connections was introduced in:
 
 * [[Urs Schreiber]], *[Obstructions to $n$-Bundle Lifts Part II](https://golem.ph.utexas.edu/category/2007/10/obstructions_to_nbundle_lifts.html)* (Oct 2007) &lbrack;diagram: [[Schreiber-PrincipalInfinityConnections-2007.pdf:file]]&rbrack;
@@ -666,13 +668,18 @@ The global description was then introduced in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:atmp/1358950853](http://projecteuclid.org/euclid.atmp/1358950853)) 
 
-
 A more comprehensive account is in sections 3.9.6, 3.9.7 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 For further developments see the references at *[[adjusted Weil algebra]]*.
 
+Approach via splitting of higher [[Atiyah Lie algebroids]]:
+
+* [[Severin Bunk]], *Infinitesimal Higher Symmetries and Higher Connections*, [talk at](CQTS#BunkMar24) [[CQTS]] (27 Mar 2024) &lbrack;slides:[[Bunk-InfinitesimalHigherSymmetries.pdf:file]]&rbrack;
+
+[[!redirects connections on smooth principal infinity-bundles]]
+[[!redirects connections on smooth principal ∞-bundles]]
 
 [[!redirects ∞-connection on a principal ∞-bundle]]
 [[!redirects ∞-connection on a principal ∞-bundle]]
@@ -707,3 +714,4 @@ For further developments see the references at *[[adjusted Weil algebra]]*.
 [[!redirects connections on principal ∞-bundles]]
 
 [[!redirects connection on principal L-infinity bundle]]
+
