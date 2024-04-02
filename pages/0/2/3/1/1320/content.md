@@ -114,6 +114,7 @@ For a specific **[[counter-example]]**: the category of [[reflexive graphs]] is 
 This is an instance of a general phenomenon: Let $\mathcal{C}$ be a [[reflective subcategory]] of a [[presheaf category]] $\widehat{A}$ (e.g. any [[locally presentable category]] is of this form). Then the [[adjoint functor|adjunction]] between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the [[adjoint functor|adjunction]] between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
 \end{remark}
 
+Monadic functors have the following cancellation property:
 \begin{proposition}
 Consider a pair of [[adjoint functors|adjunctions]]:
 \begin{tikzcd}
