@@ -120,7 +120,7 @@ The interpretation of the B-field as a 3-[[cocycle]] in [[Deligne cohomology]] i
 
 picked up in
 
-* {#FreedWitten99} [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. **3** 4 (1999) 819-852 &lbrack;[arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189), [InSpire:2655986](https://inspirehep.net/literature/2655986)&rbrack;
+* {#FreedWitten99} [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. **3** 4 (1999) 819-852 &lbrack;[arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189), [InSpire:504509](https://inspirehep.net/literature/504509)&rbrack;
 
 The equivalent formulation in terms of [[connections on bundle gerbes]] originates with
 
