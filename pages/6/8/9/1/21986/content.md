@@ -76,7 +76,7 @@ imparts a monoid structure (in fact a group structure) on $\mathbb{Z}$ descended
 
 ## Examples
 
-There are many examples of natural numbers objects. 
+There are many examples of integers objects. 
 
 ### In closed symmetric monoidal categories
 
