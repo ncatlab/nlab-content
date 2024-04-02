@@ -23,11 +23,11 @@
 ## Idea
 
 
-[Metamath](http://us.metamath.org/) is a [[proof assistant]] for creating databases of formally verified [[proofs]].  The proof language is extremely parsimonious using textual [[substitution]] as its only [[rule of inference]] (augmented by distinct [[variable]] constraints so that unfortunate variable captures can be prohibited).
+[Metamath](http://us.metamath.org/) is a [[proof assistant]] for creating databases of formally verified [[proofs]].  The proof language is extremely parsimonious, using textual [[substitution]] as its only [[rule of inference]] (augmented by distinct [[variable]] constraints so that unfortunate variable captures can be prohibited).
 
 One consequence of this philosophy is that the proof verifier itself treats [[definitions]], [[syntax]] and [[axioms]] all as [[axioms]]. To avoid inadvertently introducing ambiguities or contradictions there is a separate tool called the definition checker, which implements a set of rules which are more complicated than the simple substitution rule of the verifier, and which is only applicable for proof databases similar to the set theory ones more widely used.
 
-Metamath proof verifiers can be very small and simple, so many have been implemented in a wide variety of computer languages. Perhaps the most interesting was created by Stephen O'Rear using a language that makes Turing machines optimised for few states. This was used to [reduce the bound of the smallest Busy Beaver Number that ZFC cannot prove to exist](https://www.scottaaronson.com/blog/?p=2725). A side effect was a small turing machine that [halts iff the Riemann Hypothesis is False](https://www.scottaaronson.com/blog/?p=2741) (and gives the smallest counterexample)
+Metamath proof verifiers can be very small and simple, so many have been implemented in a wide variety of computer languages. Perhaps the most interesting was created by Stephen O'Rear using a language that makes [[Turing machines]] optimised for few states. This was used to [reduce the bound of the smallest Busy Beaver Number that ZFC cannot prove to exist](https://www.scottaaronson.com/blog/?p=2725). A side effect was a small Turing machine that [halts iff the Riemann Hypothesis is False](https://www.scottaaronson.com/blog/?p=2741) (and gives the smallest counterexample)
 
 ## Related entries
 
