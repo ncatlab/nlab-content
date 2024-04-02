@@ -260,8 +260,9 @@ Textbook accounts:
 
 * {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) &lbrack;[doi:10.1142/11058](https://doi.org/10.1142/11058), draft:[pdf](https://math.mit.edu/classes/18.952/2018SP/files/18.952_book.pdf)&rbrack;
 
+Exposition with eye towards applications in [[mathematical physics]]:
 
-A basic introduction with an eye towards applications in [[physics]]:
+* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 2 of: _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213-393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
 
 * [[Theodore Frankel]], section 2.1 of: *[[The Geometry of Physics - An Introduction]]* (1997)
 
