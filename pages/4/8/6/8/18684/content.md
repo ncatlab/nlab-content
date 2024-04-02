@@ -41,7 +41,8 @@ The [[equations of motion]] of the [[Dirac field]].
 
 ## References
 
-Textbook account on the relativistic Dirac equation in 3+1d Minkowski spacetime:
+
+Monograph on the relativistic Dirac equation in 3+1d Minkowski spacetime:
 
 * [[Bernd Thaller]], *The Dirac Equation*,  Texts and Monographs in Physics, Springer (1992) ([doi:10.1007/978-3-662-02753-0](https://link.springer.com/book/10.1007/978-3-662-02753-0))
    
@@ -49,6 +50,11 @@ Textbook account on the relativistic Dirac equation in 3+1d Minkowski spacetime:
 See also:
 
 * Wikipedia, _[Dirac equation](https://en.wikipedia.org/wiki/Dirac_equation)_
+
+Discussion for [[curved spacetime]]:
+
+* [[M. D. Pollock]], *On the Dirac equation in curved space-time*, Acta Physica Polonica B **41** (2010) &lbrack;[InSpire:874211](https://inspirehep.net/literature/874211), [pdf](https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=41&page=1827)&rbrack;
+
 
 
 The [[path integral]] approach to the Dirac equation:
