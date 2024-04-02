@@ -118,9 +118,15 @@ On the [[PCT theorem]] for [[local observables]] in [[algebraic quantum field th
 
 * [[Hans-Jürgen Borchers]], [[Jakob Yngvason]], *On the PCT--Theorem in the Theory of Local Observables*, in: *Mathematical physics in mathematics and physics: Quantum and operator algebraic aspects*, Fields Inst. Commun. **30** (2001) 39-64  &lbrack;[arXiv:math-ph/0012020](http://arxiv.org/abs/math-ph/0012020), [spire:538524](https://inspirehep.net/literature/538524)&rbrack;
 
-Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomatics) is in 
+Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomatics):
 
 * Hilary Greaves, [[Teruji Thomas]], _The CPT theorem_, Studies in History and Philosophy of Modern Physics 45 (2014) 46-66 ([arXiv:1204.4674](http://arxiv.org/abs/1204.4674))
+
+
+Discussion for [[curved spacetimes]]:
+
+* [[M. D. Pollock]], *On the Dirac equation in curved space-time*, Acta Physica Polonica B **41** (2010) &lbrack;[InSpire:874211](https://inspirehep.net/literature/874211), [pdf](https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=41&page=1827)&rbrack;
+
 
 See also:
 
@@ -136,4 +142,6 @@ See also:
 [[!redirects CPT theorem]]
 
 [[!redirects CPT-theorem]]
+
+[[!redirects TCP theorem]]
 
