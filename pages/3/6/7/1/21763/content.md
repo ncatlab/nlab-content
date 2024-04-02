@@ -36,7 +36,7 @@ The analog of [[Yang-Mills instantons]] in [[gravity]] (...)
 
 The original articles:
 
-* {#EguchiFreund67} [[Tohru Eguchi]], [[Peter Freund]], _Quantum Gravity and World Topology_, Phys. Rev. Lett. 37, 1251 (1967) ([doi:10.1103/PhysRevLett.37.1251](https://doi.org/10.1103/PhysRevLett.37.1251))
+* {#EguchiFreund67} [[Tohru Eguchi]], [[Peter Freund]], _Quantum Gravity and World Topology_, Phys. Rev. Lett. **37**  (1967) 1251 &lbrack;[doi:10.1103/PhysRevLett.37.1251](https://doi.org/10.1103/PhysRevLett.37.1251)&rbrack;
 
 * {#BelavinBurlankov76} [[Alexander Belavin]], D. Burlankov, _The renormalisable theory of gravitation and the Einstein equations_, Physics Letters A Volume 58, Issue 1, 26 July 1976, Pages 7-8 (<a href="https://doi.org/10.1016/0375-9601(76)90530-2">doi:10.1016/0375-9601(76)90530-2</a>)
 
@@ -44,7 +44,7 @@ The original articles:
 
 Review:
 
-* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 10.2 of: _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
+* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 10.2 of: _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213-393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
 
 See also 
 
