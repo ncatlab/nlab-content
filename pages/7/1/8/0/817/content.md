@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the context of $V$-[[enriched category theory]] (with $V$ any suitable [[cosmos for enrichment]]) for $\mathbf{C}$, $\mathbf{D}$ a [[pair]] of [[enriched categories|$V$-enriched categories]], there is, fist of all, an ordinary [[category]] whose 
+In the context of $V$-[[enriched category theory]] (with $V$ any suitable [[cosmos for enrichment]]) for $\mathbf{C}$, $\mathbf{D}$ a [[pair]] of [[enriched categories|$V$-enriched categories]], there is, first of all, an ordinary [[category]] whose 
 
 * [[objects]] are the [[enriched functors]] $F \colon \mathbf{C} \longrightarrow \mathbf{D}$,
 
