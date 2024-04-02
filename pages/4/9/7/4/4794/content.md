@@ -35,13 +35,13 @@ Spin geometry also plays a central role in supersymmetric quantum field theory s
 
 ## References
 
-The classical monograph on spin geometry is
+A classical monograph:
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38)&rbrack;
 
 Discussion with an eye towards [[mathematical physics]]:
 
-* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 5 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 5 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8)&rbrack;
 
 
 Lecture notes:
