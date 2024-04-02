@@ -81,6 +81,9 @@ See also [[pseudo-Riemannian manifold]]
 * [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_. Graduate Texts in Mathematics 176 (1997), Springer.  ISBN: 0-387-98271-X.
 Second Edition (retitled): *Introduction to Riemannian Manifolds* (2018), Springer.  ISBN: 978-3-319-91754-2 ([doi:10.1007/978-3-319-91755-9](https://doi.org/10.1007/978-3-319-91755-9))
 
+Exposition with an eye towards application in [[mathematical physics]]:
+
+* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 3 of: _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213-393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
 
 
 
