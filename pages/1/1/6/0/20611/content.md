@@ -36,7 +36,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Journal of Algebra](https://www.journals.elsevier.com/journal-of-algebra)|Elsevier|[[Volodymyr Mazorchuk|Mazorchuk]]|subscription|algebra|
 |[Journal of Homotopy and Related Structures](https://www.springer.com/mathematics/geometry/journal/40062)|[TCMS](http://tcms.org.ge/) via Springer|[[Ronnie Brown|Brown]]; [[Tim Porter|Porter]]; [[Ross Street|Street]]; [[Simon Willerton|Willerton]]|subscription|homotopy|
 |[Homology, Homotopy, and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/)|International Press|[[Ronnie Brown|Brown]]; [[George Janelidze|Janelidze]]; [[Emily Riehl|Riehl]]; [[Brooke Shipley|Shipley]]|subscription|homotopy|
-|[Algebraic & Geometric Topology](https://msp.org/agt/)|MSP|[[Julie Bergner|Bergner]]|subscription|homotopy, algebraic topology, geometric topology|
+|[Algebraic & Geometric Topology](https://msp.org/agt/)|MSP|[[Julie Bergner|Bergner]], [[Thomas Nikolaus|Nikolaus]]|subscription|homotopy, algebraic topology, geometric topology|
 |[Topology and its Applications](https://www.journals.elsevier.com/topology-and-its-applications)|Elsevier|[[Bill Dwyer|Dwyer]]|subscription|general topology, homotopy|
 |[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|categories, [[synthetic differential geometry]]
 |[Journal of Topology](https://londmathsoc.onlinelibrary.wiley.com/journal/17538424)|LMS via Wiley|[[Andrew Blumberg|Blumberg]]|subscription|topology|
