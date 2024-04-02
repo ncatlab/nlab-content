@@ -2684,6 +2684,8 @@ Stone-von Neumann**
 
   **Infinitesimal Higher Symmetries and Higher Connections**
 
+  slides: [[Bunk-InfinitesimalHigherSymmetries.pdf:file]]
+
   > Every [[bundle]] on a [[manifold]] has a universal [[symmetry group]] which controls all [[equivariance|equivariant]] [[structures]] on the bundle. We modify this idea in two ways: we consider the [[infinitesimal]] version of universal symmetries and allow [[higher structure|higher]], or [[categorification|categorified]] bundles. These appear, for instance, in [[supergravity]], and [[higher gauge theory]], and more generally in [[geometry]] and [[topology]]. We will use a family-version of the [Lurie-Pridham Theorem](formal+moduli+problem#RelationToLInfinityAlgebras) of [[derived geometry|derived]] [[deformation theory]] to construct these higher, infinitesimal analogues of universal symmetry groups. We then use this to provide a unified definition of [[connection on a smooth principal infinity-bundle|connections on higher bundles]] and an algebraic formulation of [[differential cohomology]]. This extends work by [[John Baez|Baez]], [[Urs Schreiber|Schreiber]], [[Konrad Waldorf|Waldorf]], [[Mikhail Kapranov|Kapranov]] and others. Here, the [[curvature]] of a higher connection appears as an [[obstruction]] to infinitesimal equivariance. We elaborate in particular on the [[circle n-bundle with connection|case of higher $U(1)$-bundles]], or n-[[bundle gerbe|gerbes]]. This is joint work with [[Lukas Müller]], [[Joost Nuiten]] and [[Richard Szabo]].
 
   
@@ -2694,7 +2696,7 @@ Stone-von Neumann**
 ## External presentations
  {#ExternalTalk}
 
-\linebreal
+\linebreak
 
 
 ### Sep 2022
@@ -2984,7 +2986,6 @@ Researchers:
 
 
 ***
-
 
 
 \linebreak
