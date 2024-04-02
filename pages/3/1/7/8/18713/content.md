@@ -14,6 +14,7 @@ On [[smooth ∞-groupoids]] and their [[shape via the cohesive path ∞-groupoid
 
 * {#Bunk20} [[Severin Bunk]], *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
 
+
 On [[principal ∞-bundles]]:
 
 * [[Severin Bunk]], *Principal ∞-Bundles and Smooth String Group Models* ([arXiv:2008.12263](https://arxiv.org/abs/2008.12263))
@@ -35,6 +36,10 @@ On the relation between [[functorial quantum field theory]] (axiomatizing the [[
 On [[principal infinity-bundles|principal $\infty$-bundles]]:
 
 * [[Severin Bunk]], *$\infty$-Bundles*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2308.04196](https://arxiv.org/abs/2308.04196)&rbrack;
+
+On [[connections on smooth principal infinity-bundles]] via splittings of [[L-infinity algebroid|higher]] [[Atiyah Lie algebroids]]:
+
+* [[Severin Bunk]], *Infinitesimal Higher Symmetries and Higher Connections*, [talk at](CQTS#BunkMar24) [[CQTS]] (27 Mar 2024) &lbrack;slides:[[Bunk-InfinitesimalHigherSymmetries.pdf:file]]&rbrack;
 
 
 
