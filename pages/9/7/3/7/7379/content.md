@@ -26,7 +26,8 @@ Today, quasi-topological spaces seem to be regarded mostly as a historical curio
 
 ## Definition 
 
-Let $\mathcal{C H}$ be the [[category]] of [[compact Hausdorff spaces]]. This may be regarded as a (large) [[site]] when equipped with the [[Grothendieck topology]] of [[finite open covers]], in fact a [[concrete site]]. 
+Let $\mathcal{C H}$ be the [[category]] of [[compact Hausdorff spaces]]. This may be regarded as a (large) [[site]] (in fact a [[concrete site]]) when equipped with the [[Grothendieck pretopology]] of finite families $\{ C_\alpha \to X \}_{
+\alpha \in I}$ for which the induced map $ \coprod_{\alpha\in I} C_\alpha \to X $ is surjective. 
 
 +-- {: .un_defn}
 ###### Definition 
