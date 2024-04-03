@@ -1,5 +1,5 @@
 
-> This entry is un-related to *[[correlation]]*.
+> This entry is about [[formal dual|dual]] [[relations]], un-related to *[[correlation]]*.
 
 ***
 
