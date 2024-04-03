@@ -44,7 +44,7 @@ In the case of [[2d CFT|2d]] [[rational CFT]] the [[representation category]] of
 
  In this case the [[monoidal category|monoidal]]- and the [[braided monoidal category|braided]] [[structure]] (hence the [[modular tensor category|modular tensor structure]]) on the underlying [[representation category]] is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks").
 
-This may be found highlighted in [EGNO 15, p. 266](#EGNO15), [Runkel, Sec. 4.3](#Runkel). The essentially equivalent fact that the genus=0 conformal blocks already determine the [[modular functor]] of the CFT is proven in [Andersen & Ueno 2012](modular+functor#AndersenUeno12).
+This may be found highlighted in [EGNO 15, p. 266](modular+tensor+category#EGNO15), [Runkel, Sec. 4.3](modular+tensor+category#Runkel). The essentially equivalent fact that the genus=0 conformal blocks already determine the [[modular functor]] of the CFT is proven in [Andersen & Ueno 2012](modular+functor#AndersenUeno12).
 
 
 ### Holographic correspondence
