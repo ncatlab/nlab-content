@@ -1,5 +1,11 @@
 
-* [website](http://www.ma.hw.ac.uk/maths/People/Frontpages/richard.html)
+* [institute page](https://researchportal.hw.ac.uk/en/persons/richard-joseph-szabo)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=-fZ8RpcAAAAJ&hl=en)
+
+* [InSpire page](https://inspirehep.net/authors/986959)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=116827)
 
 ## Selected writings
 
