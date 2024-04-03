@@ -10,4 +10,11 @@ following
 
 * [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Non-Abelian sigma models from Yang-Mills theory compactified on a circle_, Physics Letters B Volume 781, 10 June 2018, Pages 322-326 ([arXiv:1803.07322](https://arxiv.org/abs/1803.07322))
 
+On [[geometric quantization]] of the [[harmonic oscillator]]:
+
+* [[Alexander D. Popov]], *Quantum charges of harmonic oscillators* &lbrack;[arXiv:2404.01756](https://arxiv.org/abs/2404.01756)&rbrack;
+
+
+[[!redirects Alexander D. Popov]]
+
 category: people
