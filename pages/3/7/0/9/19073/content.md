@@ -25,7 +25,7 @@ On [[orbifold cohomology]] (such as [[orbifold K-theory]]):
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[equivariant rational homotopy theory]]
 
