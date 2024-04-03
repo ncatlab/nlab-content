@@ -9,4 +9,8 @@ On [[braid group representations]] via [[monodromy]] of the [[Knizhnik-Zamolodch
 
 * [[Ivan Todorov]], [[Ludmil Hadjiivanov]], *Monodromy Representations of the Braid Group*, Phys. Atom. Nucl. **64** (2001) 2059-2068; Yad.Fiz. **64** (2001) 2149-2158 &lbrack;[arXiv:hep-th/0012099](https://arxiv.org/abs/hep-th/0012099), [doi:10.1134/1.1432899](https://doi.org/10.1134/1.1432899)&rbrack;
 
+On [[Laughlin wavefunctions]] for [[Fibonacci anyons]] as [[conformal blocks]] and thus as a [[braid group representation]]:
+
+* [[Ludmil Hadjiivanov]], [[Lachezar S. Georgiev]], *Braiding Fibonacci anyons* \[<a href="https://arxiv.org/abs/2404.01778">arxiv:2404.01778</a>\]
+
 category: people
