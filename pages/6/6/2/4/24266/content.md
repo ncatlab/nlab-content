@@ -30,3 +30,6 @@ Specifically for [[su(2)-anyons]]:
 * Kazusumi Ino, *Modular Invariants in the Fractional Quantum Hall Effect*, Nucl. Phys. B **532** (1998) 783-806 $[$<a href="https://doi.org/10.1016/S0550-3213(98)00598-7">doi:10.1016/S0550-3213(98)00598-7</a>, [arXiv:cond-mat/9804198](https://arxiv.org/abs/cond-mat/9804198)$]$
 
 * {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+
+* [[Ludmil Hadjiivanov]], [[Lachezar S. Georgiev]], *Braiding Fibonacci anyons* \[<a href="https://arxiv.org/abs/2404.01778">arxiv:2404.01778</a>\]
+
