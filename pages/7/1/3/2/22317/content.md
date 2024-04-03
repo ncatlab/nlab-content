@@ -16,5 +16,9 @@ On formulating and proving [[confinement]] and the [[mass gap problem]] in [[lat
 
 > The second big open question is the problem of quark confinement. Quarks are the constituents of various elementary particles, such as protons and neutrons. It is an enduring mystery why quarks are never observed freely in nature. The problem of quark confinement has received enormous attention in the physics literature, but the current consensus seems to be that a satisfactory theoretical explanation does not exist.
 
+In [[Liouville theory]]:
+
+* [[Sourav Chatterjee]], [[Edward Witten]], *Liouville Theory: An Introduction to Rigorous Approaches* &lbrack;[arXiv:2404.02001](https://arxiv.org/abs/2404.02001)&rbrack;
+
 
 category: people
