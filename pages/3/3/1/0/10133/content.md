@@ -1,5 +1,11 @@
 
-* [webpage](http://www-personal.umich.edu/~ruan/)
+* [institute page](http://www.iasm.zju.edu.cn/iasm/2021/0525/c58324a2378093/page.htm)
+
+* [InSpire page](https://inspirehep.net/authors/991045)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Yongbin_Ruan)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=32004)
 
 
 ## Selected writings
