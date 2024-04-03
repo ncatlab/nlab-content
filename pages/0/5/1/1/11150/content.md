@@ -73,6 +73,11 @@ Rigorous construction of the [[path integral]], the DOZZ formula, and the [[conf
 
 * [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], _Conformal bootstrap in Liouville Theory_ &lbrack;[arXiv:2005.11530](https://arxiv.org/abs/2005.11530)&rbrack;
 
+Review:
+
+* [[Sourav Chatterjee]], [[Edward Witten]], *Liouville Theory: An Introduction to Rigorous Approaches* &lbrack;[arXiv:2404.02001](https://arxiv.org/abs/2404.02001)&rbrack;
+
+
 Construction as a [[functorial field theory]] following [Segal 1988](conformal+field+theory#Segal88)
 
 * [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* &lbrack;[arXiv:2112.14859](https://arxiv.org/abs/2112.14859)&rbrack;
