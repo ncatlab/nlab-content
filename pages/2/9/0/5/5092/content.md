@@ -3,7 +3,7 @@ Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One
 
 * [website](http://www.math.muni.cz/~rosicky/)
 
-* [wikipedia](https://www.google.com/search?client=safari&rls=en&q=jiri+rosicky+mathematician&ie=UTF-8&oe=UTF-8) 
+* wikipedia: https://en.wikipedia.org/wiki/Jiří_Rosický_(mathematician)
 
 
 ## Selected writings
