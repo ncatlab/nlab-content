@@ -23,7 +23,7 @@ Universal algebra (also _[[categorical algebra]]_) is the study of [[algebraic t
 
 Traditionally, the subject studies models of algebraic theories in the [[category]] of [[Set|sets]].  The category-theoretic approach abstracts the traditional notions, to study models in more general categories.  There are several ways of doing this, such as by using [[monads]], [[Lawvere theories]], or [[type theory]].
 
-As with the category-theoretic understanding of many other branches of mathematics, the advantage of doing things this way is not so much the obtaining of new results as the __unification__ of many previously disparate points of view.  Examples might include how a [[Hopf algebra]] is the same thing as a model in a category of vector spaces of the theory of groups, or how computational side-effects in the theory of programming languages may be understood in terms of [[free algebras]].
+As with the category-theoretic understanding of many other branches of mathematics, the advantage of doing things this way is not so much the obtaining of new results as the __unification__ of many previously disparate points of view.  Examples might include how a [[Hopf algebra]] is the same thing as a model in a category of vector spaces of the theory of groups, or how computational side-effects in the theory of programming languages may be understood in terms of [[algebra over a monad#FreeAlgebras|free algebras]].
 
 
 ## Related entries
