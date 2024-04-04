@@ -208,7 +208,11 @@ See also:
 
 * {#DouglasParkSchnell14} [[Michael Douglas]], Daniel S. Park, Christian Schnell, _The Cremmer-Scherk Mechanism in F-theory Compactifications on K3 Manifolds_, JHEP05 (2014) 135 ([arXiv:1403.1595](https://arxiv.org/abs/1403.1595))
 
-* Herbert Clemens, Stuart Raby, *Heterotic/F-theory Duality and Narasimhan-Seshadri Equivalence* $[$[arXiv:1906.07238](https://arxiv.org/abs/1906.07238)$]$
+* Herbert Clemens, Stuart Raby, *Heterotic/F-theory Duality and Narasimhan-Seshadri Equivalence* &lbrack;[arXiv:1906.07238](https://arxiv.org/abs/1906.07238)&rbrack;
+
+* Paul-Konstantin Oehlmann, [[Fabian Ruehle]], Benjamin Sung, *The Frozen Phase of Heterotic F-theory Duality* &lbrack;[arXiv:2404.02191](https://arxiv.org/abs/2404.02191)&rbrack;
+
+  > (in relation to [[D=6 N=(1,0) SCFT]])
 
 
 ### For both
