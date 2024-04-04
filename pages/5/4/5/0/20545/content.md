@@ -48,6 +48,10 @@ Comprehensive review of expected [[top-down model building|top-down construction
 
 * [[Jonathan J. Heckman]], [[Tom Rudelius]], *Top Down Approach to 6D SCFTs*, J. Phys. A: Math. Theor. **52** 9 (2019) 093001 &lbrack;[arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81)&rbrack;
 
+Via the [[duality between F-theory and heterotic string theory]]:
+
+* Paul-Konstantin Oehlmann, [[Fabian Ruehle]], Benjamin Sung, *The Frozen Phase of Heterotic F-theory Duality* &lbrack;[arXiv:2404.02191](https://arxiv.org/abs/2404.02191)&rbrack;
+
 
 ### Anomaly cancellation
 
