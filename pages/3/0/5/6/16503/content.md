@@ -29,7 +29,7 @@ One thinks of $X$ as the space of all possible configurations (all the "[[possib
 Often, a *random element* is a [[measurable function]] $X\to Y$, where $Y$ is a generic [[measurable space]], while the term *random variable* is reserved for the case where $Y$ is $\mathbb{R}$, $\mathbb{R}^n$, or a more general [[vector space]].
 One speaks for example of *random elements of a set*, and of *real-valued* or *vector-valued random variables*.
 
-In particular, the *random variable* tends to be used for those situation where there is a notion of [[expectation value]].
+In particular, the term *random variable* tends to be used for those situation where there is a notion of [[expectation value]].
 For example the [[expectation value]] of a (real-valued) random variable $f$ is the [[integral]]
 
 $$
