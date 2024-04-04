@@ -13,7 +13,6 @@
 =--
 =--
 
-# Ends and coends in a derivator
 * table of contents
 {: toc}
 
