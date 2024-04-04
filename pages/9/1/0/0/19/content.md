@@ -499,7 +499,7 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[Peter Johnstone]], _Category Theory_ , Lecture notes taken by David Mehrle, University of Cambridge (2015) &lbrack;[pdf](http://pi.math.cornell.edu/~dmehrle/notes/partiii/cattheory_partiii_notes.pdf)&rbrack;
 
-* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_ (2019) &lbrack;[arXiv:1912.10642](http://arxiv.org/abs/1912.10642)&rbrack
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_ (2019) &lbrack;[arXiv:1912.10642](http://arxiv.org/abs/1912.10642)&rbrack;
 
 
 * [[André Joyal]], *[[joyalscatlab:Categories]]*
