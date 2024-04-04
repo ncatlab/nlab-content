@@ -156,4 +156,8 @@ A [[string diagram]] calculus for monoidal hyperdoctrines is discussed in
 
 * Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_
 
+A concise introduction to *posetal* hyperdoctrines is given in 
+
+* [[Thomas Streicher]], [Categorical models of constructive logic](https://www2.mathematik.tu-darmstadt.de/~streicher/cmcl.pdf).
+
 [[!redirects hyperdoctrines]]
