@@ -68,7 +68,7 @@ Using category-theoretic methods, several results have been obtained in the past
 
 Firstly, some known concepts and results of probability theory have been given a category-theoretic description.
 (For example: expressing [[Kolmogorov's extension theorem]] as a [[cofiltered limit]] condition.) This allows to incorporate the existing theory of probability into the categorical framework, and is the basic starting point for further results. 
-(For example, every time in traditional probability Kolmogorov's extension theorem is invoked, one now knows that a certain universal property is being used.)
+(For example, every time in traditional probability Kolmogorov's extension theorem is invoked, one now knows that a certain [[universal property]] is being used.)
 
 Secondly, some classical results of probability theory have been restated and reproven using category theory.
 Often this adds new insight into the problem, and allows, for example, to drop further unnecessary assumptions (see the next point).
