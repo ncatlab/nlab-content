@@ -186,7 +186,17 @@ It has been posited that the statistics of the low-lying eigenvalues of the QCD 
 
 * [[holographic QCD]]
 
+
+
 ## References
+
+On [[chiral symmetry breaking]]:
+
+* Luca Ciambriello, Roberto Contino, Andrea Luzio, Marcello Romano, Ling-Xiao Xu, *A novel strategy to prove chiral symmetry breaking in QCD-like theories* &lbrack;[arXiv:2404.02967](https://arxiv.org/abs/2404.02967)&rbrack;
+
+* Luca Ciambriello, Roberto Contino, Ling-Xiao Xu, *On the Proof of Chiral Symmetry Breaking through Anomaly Matching in QCD-like Theories: An Exemplification* &lbrack;[arXiv:2404.02971](https://arxiv.org/abs/2404.02971)&rbrack;
+
+
 
 ### Introduction and review
 
