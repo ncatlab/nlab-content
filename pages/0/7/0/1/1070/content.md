@@ -246,7 +246,7 @@ For a discussion in the context of [[(∞,1)-category|(∞,1)-categories]] and i
 
 * [[Jacob Lurie]], _[[Stable ∞-Categories]]_
 
-For the applications of derived categories in [[algebraic geometry]], see
+On applications of derived categories in [[algebraic geometry]]:
 
 * [[Dmitri Orlov]], _Derived categories of coherent sheaves and equivalences between them_, Uspekhi Mat. Nauk, 2003, Vol. 58, issue 3(351), pp. 89&#8211;172, [English translation (PDF)](http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf)
 
@@ -256,7 +256,14 @@ For the applications of derived categories in [[algebraic geometry]], see
 
 * [[Igor Dolgachev]], [_Derived categories_](http://www.math.lsa.umich.edu/~idolga/derived9.pdf).
 
-* Andrei Caldararu, _Derived categories of coherent sheaves: a skimming_.  Lecture notes from _Algebraic Geometry: Presentations by Young Researchers_ in Snowbird, Utah, July 2004.  Available on [arXiv](http://arxiv.org/abs/math/0501094).
+* Andrei Caldararu, _Derived categories of coherent sheaves: a skimming_.  Lecture notes from _Algebraic Geometry: Presentations by Young Researchers_ in Snowbird, Utah, July 2004 &lbrack;[arXiv:math/0501094](http://arxiv.org/abs/math/0501094)&rbrack;
+
+On the [[algebraic K-theory]] of rings being encoded in the respective derived categories:
+
+* {#DuggerShipley04} [[Daniel Dugger]], [[Brooke Shipley]], *K-theory and derived equivalences*,  Duke Math. J. **124** 3 (2004) 587-617 &lbrack;[arXiv:math/0209084](https://arxiv.org/abs/math/0209084), [doi:10.1215/S0012-7094-04-12435-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-124/issue-3/K-theory-and-derived-equivalences/10.1215/S0012-7094-04-12435-2.short)&rbrack;
+
+
+
 
 [[!redirects derived categories]]
 [[!redirects bounded derived category]]
