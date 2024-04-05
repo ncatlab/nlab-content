@@ -50,7 +50,7 @@ X
 \arrow[r, "g"']
 & B
 \end{tikzcd}
-there is a unique horizontal morphism $x \colon X \rightarrow Tu$ such that 
+there is a unique horizontal morphism $x \colon X \rightarrow T u$ such that 
 $\tau_{u} x = \xi$. 
 
 2. The tetrahedron condition holds (see [Paré, page 478](#Pare2011)). 
