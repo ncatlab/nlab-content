@@ -8,6 +8,11 @@ On the [[stable Dold-Kan correspondence]]:
 * {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf), <a href="https://doi.org/10.1016/S0040-9383(02)00006-X">doi:10.1016/S0040-9383(02)00006-X</a>)
 
 * {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_, Amer. Jour. of Math. 129 (2007) 351-379. &lbrack;[arXiv:math/0209215](http://arxiv.org/abs/math/0209215), [jstor:40068065](https://www.jstor.org/stable/40068065)&rbrack;
+
+On the [[algebraic K-theory]] of [[rings]] being encoded in their [[derived categories]]:
+
+* {#DuggerShipley04} [[Daniel Dugger]], [[Brooke Shipley]], *K-theory and derived equivalences*,  Duke Math. J. **124** 3 (2004) 587-617 &lbrack;[arXiv:math/0209084](https://arxiv.org/abs/math/0209084), [doi:10.1215/S0012-7094-04-12435-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-124/issue-3/K-theory-and-derived-equivalences/10.1215/S0012-7094-04-12435-2.short)&rbrack;
+
  
 On [[model categories]] of [[coalgebras over a comonad]] via left-[[transferred model category|left transfer]] (left-induction):
 
@@ -25,7 +30,7 @@ On left-[[transferred model structures]] and [[model structures on functors]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[stable model category]]
 
