@@ -26,6 +26,11 @@ On [[Delta-generated spaces]]:
 
 * [[Daniel Dugger]], _Notes on Delta-generated spaces_ (2003) &lbrack;[web](https://pages.uoregon.edu/ddugger/delta.html), [[DuggerDeltaGenerated.pdf:file]]&rbrack;
 
+On the [[algebraic K-theory]] of [[rings]] being encoded in their [[derived categories]]:
+
+* {#DuggerShipley04} [[Daniel Dugger]], [[Brooke Shipley]], *K-theory and derived equivalences*,  Duke Math. J. **124** 3 (2004) 587-617 &lbrack;[arXiv:math/0209084](https://arxiv.org/abs/math/0209084), [doi:10.1215/S0012-7094-04-12435-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-124/issue-3/K-theory-and-derived-equivalences/10.1215/S0012-7094-04-12435-2.short)&rbrack;
+
+
 On [[homotopy colimits]]:
 
 * {#Dugger} [[Daniel Dugger]], *A primer on homotopy colimits*, (2008) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hocolim.pdf), [pdf](https://www3.nd.edu/~stolz/2021S_Math80440/hocolim.pdf), [[Dugger-PrimerHomotopyColimits.pdf:file]]&rbrack;
