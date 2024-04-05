@@ -8,6 +8,13 @@ More information (current research projects, publications, etc.) can be found [h
 
 ## Selected writings
 
+On [[higher geometric quantization]]:
+
+* {#RogersPhD} [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ 
+* {#Rogers} [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ &lbrack;[[RogersGottingen11.pdf:file]]&rbrack;
+ 
+
 On [[graph complexes]] and the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]:
 
 * {#DolgushevRogers12} [[Vasily Dolgushev]], [[Christopher Rogers]], _Notes on Algebraic Operads, Graph Complexes, and Willwacher's Construction_, In: Mathematical aspects of quantization 583 (2012): 25-145. ([arXiv:1202.2937](https://arxiv.org/abs/1202.2937))
