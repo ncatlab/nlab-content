@@ -220,6 +220,11 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 * [[Mario Flory]], Sebastian Grieninger, Sergio Morales-Tejera, *Critical and near-critical relaxation of holographic superfluids* &lbrack;[arXiv:2209.09251](https://arxiv.org/abs/2209.09251)&rbrack;
 
+and for the case of [[vortices]]:
+
+* Markus A. G. Amano, Minoru Eto, *Holographic Global Vortices with Novel Boundary Conditions* &lbrack;[arXiv:2404.03212](https://arxiv.org/abs/2404.03212)&rbrack;
+
+
 
 
 ### Application to superconductivity
