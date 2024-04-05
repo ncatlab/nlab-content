@@ -457,6 +457,12 @@ Refinement to [[global equivariant stable homotopy theory]]:
 
 * {#Ananyevskiy} Alexey Ananyevskiy, _On the algebraic $K$-theory of some homogeneous varieties_ ([pdf](http://www.math.uni-bielefeld.de/lag/man/431.pdf))
 
+On the algebraic K-theory of rings being encoded in the respective [[derived categories]]:
+
+* {#DuggerShipley04} [[Daniel Dugger]], [[Brooke Shipley]], *K-theory and derived equivalences*,  Duke Math. J. **124** 3 (2004) 587-617 &lbrack;[arXiv:math/0209084](https://arxiv.org/abs/math/0209084), [doi:10.1215/S0012-7094-04-12435-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-124/issue-3/K-theory-and-derived-equivalences/10.1215/S0012-7094-04-12435-2.short)&rbrack;
+
+
+
 
 [[!redirects algebraic K-theory of a stable (∞,1)-category]]
 [[!redirects algebraic K-theory of a stable (infinity,1)-category]]
