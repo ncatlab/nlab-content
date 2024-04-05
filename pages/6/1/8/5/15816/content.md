@@ -59,7 +59,11 @@ See *[Votex anyons](braid+group+statistics#VortexAnyons)* at *[[braid group stat
 
 ### General
 
-Reviews and surveys include
+A historical abandoned but influential speculation on [[cortex strings]]:
+
+* [[Lord Kelvin]], _[[On Vortex Atoms]]_
+
+Reviews and surveys:
 
 * [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), part 3: _Vortices_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/vortex.pdf)) 
 
@@ -75,11 +79,9 @@ On quantum vortices as in [[superconductors]] or [[Bose-Einstein condensates]]/[
 
 * K. R. Sreenivasan, *Vortices, particles and superfluidity* ([pdf](https://higherlogicdownload.s3.amazonaws.com/APS/22d184d0-d6d2-4493-97da-847d341d3d82/UploadedImages/Documents/Sreenivasan_DFD07.pdf), [[SreenivasanVortices.pdf:file]])
 
-For more see at _[[vortex string]]_.
+Discussion via [[AdS/CMT]]:
 
-A historical precursor with an abandoned but influential speculation is
-
-* [[Lord Kelvin]], _[[On Vortex Atoms]]_
+* Markus A. G. Amano, Minoru Eto, *Holographic Global Vortices with Novel Boundary Conditions* &lbrack;[arXiv:2404.03212](https://arxiv.org/abs/2404.03212)&rbrack;
 
 
 
