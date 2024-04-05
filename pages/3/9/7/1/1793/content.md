@@ -1613,11 +1613,9 @@ While the homotopical treatment of weak equivalences of chain complexes ([[quasi
 
 * [[Andre Joyal]], Letter to Alexander Grothendieck. April 11, 1984
 
-it seems that the injective model structure on chain complexes has been made fully explicit in print only in proposition 3.13 of
+it seems that the injective model structure on chain complexes has been made fully explicit in print only in proposition 3.13 (according to remark 3.14 there) of
 
-* Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math/0102087), [pdf](http://arxiv.org/PS_cache/math/pdf/0102/0102087v1.pdf))
-
-(at least according to the remark below that).
+* [[Tibor Beke]] *Sheafifiable homotopy model categories*,  Math. Proc. Cambridge Philos. Soc. __129__ 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](http://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack; 
 
 The projective model structure is discussed after that (and shown to be a [[monoidal model category]]) in:
 
@@ -1641,7 +1639,7 @@ The resolution model structures on cofibrant objects go back to
 
 and are reviewed in
 
-* {#Bousfield} [[Aldrich Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
+* {#Bousfield} [[Aldridge Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
 
 
 
