@@ -29,21 +29,21 @@ Work conducted in homotopy type theory:
 
 * [[HoTT book]]
 
-* [[Dan Licata]], [[Michael Shulman]], _Calculating the Fundamental Group of the Circle in Homotopy Type Theory_, ([arXiv:1301.3443](https://arxiv.org/abs/1301.3443))
+* [[Dan Licata]], [[Michael Shulman]], _Calculating the Fundamental Group of the Circle in Homotopy Type Theory_, ([arXiv:1301.3443](https://arxiv.org/abs/1301.3443)), ([doi](https://dx.doi.org/10.1109/LICS.2013.28)).
 
-* [[Favonia|Kuen-Bang Hou (Favonia)]], [[Robert Harper]], _Covering Spaces in Homotopy Type Theory_, ([pdf](https://favonia.org/files/cover-types2016.pdf)).
+* [[Favonia|Kuen-Bang Hou (Favonia)]], [[Robert Harper]], _Covering Spaces in Homotopy Type Theory_, ([pdf](https://favonia.org/files/cover-types2016.pdf)), ([doi](https://dx.doi.org/10.4230/LIPIcs.TYPES.2016.11)).
 
-* [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_, ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315)) 
+* [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_, ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315)), ([doi](https://dx.doi.org/10.1145/3209108.3209150)).
 
-* [[Nicolai Kraus]], [[Thorsten Altenkirch]], _Free Higher Groups in Homotopy Type Theory_, ([arXiv:1805.02069](https://arxiv.org/abs/1805.02069)) 
+* [[Nicolai Kraus]], [[Thorsten Altenkirch]], _Free Higher Groups in Homotopy Type Theory_, ([arXiv:1805.02069](https://arxiv.org/abs/1805.02069)), ([doi](https://dx.doi.org/10.1145/3209108.3209183))
 
-* [[Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))  
+* [[Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155)), ([doi](https://dx.doi.org/10.21136/HS.2020.01)).
 
-* [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_, ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307))
+* [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_, ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307)), ([doi](https://dx.doi.org/10.1007/s10817-018-9468-2)).
 
-* [[Dan Licata]], [[Guillaume Brunerie]], _$\pi_n(S^n)$ in Homotopy Type Theory_, Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf)
+* [[Dan Licata]], [[Guillaume Brunerie]], _$\pi_n(S^n)$ in Homotopy Type Theory_, Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf).
 
-* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_, ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134)):
+* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_, ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134)) ([doi](http://dx.doi.org/10.21136/HS.2018.02)).
 
 > Construction of the [[quaternionic Hopf fibration]]
 
