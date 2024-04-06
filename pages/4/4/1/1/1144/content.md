@@ -1275,8 +1275,10 @@ Review that makes the [[L-infinity algebra]] aspect completely manifest is in
 
 * {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
 
+> (which otherwise is about [[Sullivan models of mapping spaces]]).
 
-(which otherwise is about [[Sullivan models of mapping spaces]]).
+
+* [[Alexander A. Voronov]], *Rational Homotopy Theory*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.00939](https://arxiv.org/abs/2404.00939)&rbrack;
 
 
 More on the relation to Lie theory is in:
