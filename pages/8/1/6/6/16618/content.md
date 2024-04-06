@@ -112,3 +112,5 @@ Generalization to [[pseudomonads]]:
 [[!redirects Kleisli extensions]]
 
 
+[[!redirects monad in extension form]]
+[[!redirects monads in extension form]]
