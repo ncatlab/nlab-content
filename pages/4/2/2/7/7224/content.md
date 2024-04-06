@@ -8,166 +8,124 @@
 =--
 =--
 
-
-#Relative adjoint functors#
 * table of contents
 {:toc}
 
 ## Idea ##
 
-The notion of *relative adjoint functors* with respect to a functor $J$ is a generalization of that of [[adjoint functor]] (to which it reduces for $J$ an [[identity functor]]). 
-In generalization of the [relation between adjunctions and monads](monad#RelationBetweenAdjunctionsAndMonads),
-relative adjoint functors are related to [[relative monads]].
+The notion of *relative adjoint functor* (with respect to a functor $J$) is a generalisation of the notion of [[adjoint functor]], in which the domain of the left adjoint is not required to be the same as the codomain on the right adjoint. Dually, the notion of *relative coadjoint functor* is a generalisation of the notion of adjoint functor, in which the domain of the right adjoint is not required to be the same as the codomain of the left adjoint. In both cases, when $J$ is an [[identity functor]], the notions reduce to the notion of adjoint functor.
 
+In generalization of the [relation between adjunctions and monads](monad#RelationBetweenAdjunctionsAndMonads),
+relative adjoint functors are related to [[relative monads]], whilst relative coadjoint functors are related to [[relative comonads]].
 
 ## Definition ##
 
-### Via hom-isomorphism  ###
-
-Fix a functor $J\colon B \to D$. Then, for a functor 
+Fix a functor $J\colon A \to E$. Then, for a functor 
 
 \[
-	R \colon C \longrightarrow D
+	R \colon C \longrightarrow E
 \] 
 
-to have _left $J$-relative adjoint_ (or *$J$-left adjoint*) means that there is a functor 
+to have a _left $J$-relative adjoint_ (or _left $J$-adjoint_) means that there is a functor 
 
 \[ 
-	L \colon B \longrightarrow C
+	L \colon C \longrightarrow E
 \]
 
 and a [[natural isomorphism]] of the form
 
 \[
-  Hom_C\big(L(-),-\big) 
+  C\big(L(-),-\big) 
   \;\simeq\; 
-  Hom_D\big(J(-),R(-)\big)
+  E\big(J(-),R(-)\big)
   \,.
 \]
 
-[[formal duality|Dually]], for $L \colon C \longrightarrow D$ to have a _$J$-right adjoint_ $R \colon B \longrightarrow C$ means that there is a [[natural isomorphism]] of the form
+Such a situation is called a *$J$-relative adjunction* and is denoted $L \dashv_J R$.
+
+[[formal duality|Dually]], for a functor $L \colon C \longrightarrow E$ to have a _right $J$-relative coadjoint_ (or _right $J$-coadjoint_) $R \colon A \longrightarrow E$ means that there is a [[natural isomorphism]] of the form
 
 \[
-  Hom_D\big(L(-), J(-)\big) 
+  E\big(L(-), J(-)\big) 
    \;\simeq\; 
-  Hom_C\big(-, R(-)\big)
+  C\big(-, R(-)\big)
 \]
 
-One writes
+Such a situation is called a *$J$-relative coadjunction* and is denoted $L {\,\,}_J\!\dashv R$.
 
-- $L {\,\,}_J\!\dashv R$ stands for $L$ being the $J$-left adjoint of $R$
-- $L \dashv_J R$ stands for $R$ being the $J$-right adjoint of $L$
+Importantly, there is a bifurcation of concepts, which is not visible for ordinary adjunctions: the notion of relative adjunction is not self-dual.
 
-### Via absolute lifting ###
+## Terminology and notation
 
-Just as with regular adjoints, in the unenriched setting, relative adjoints can be defined in a more conceptual way in terms of _absolute [[Kan lift|liftings]]_. We have
+In the literature, relative adjunctions and relative coadjunctions have not been adequately distinguished, with the term "relative adjunction" frequently being used for both. However, they are distinct concepts and behave differently (albeit dually).
 
-1. $L {\,\,}_J\!\dashv R$ if $L = \mathop{Lift}_R J$, and this left lifting is _absolute_
-2. $L \dashv_J R$ if $R = \mathop{Rift}_L J$, and this right lifting is _absolute_
+Similarly, the convention $L \dashv_J R$ for relative adjunctions and $L {\,\,}_J\!\dashv R$ relative coadjunctions is sometimes reversed in the literature. On this page, we follow the conventions of [AM24](#AM24), who give a more detailed history of the concept.
 
-However, this is not true for [[enriched functors]].
+## Properties
 
-## Properties ##
+- A left $J$-relative adjoint is unique up to isomorphism. A right $J$-relative adjoint is unique up to isomorphism only if $J$ is dense. See Lemma 5.7 of [AM24](#AM24).
+- A left $J$-relative adjoint preserves those colimits that $J$ preserves (Proposition 5.11 of [AM24](#AM24)). A right $J$-relative adjoint preserves limits when $J$ is dense (Proposition 5.12 of [AM24](#AM24)).
+- A left relative adjoint is an _absolute [[Kan lift|lift]]_. In particular, if $L \dashv_J R$, then $L = \mathop{Lift}_R J$, and this left lift is _absolute_. Dually, for a right relative coadjoint $L {\,\,}_J\!\dashv R$, we have $R = \mathop{Rift}_L J$, and this right lift is _absolute_. Note that, for the converse to hold, we must additionally require that the lifts are _pointwise_. See Proposition 5.8 and Remark 5.9 of [AM24](#AM24).
+- A relative adjunction has a unit $\eta \colon 1 \Rightarrow RL$; whereas a relative coadjunction has a counit $\varepsilon \colon LR \Rightarrow 1$ (both may be seen to be induced from the hom-set definition, like for ordinary adjunctions). In fact, these may be used to give an alternative definition of relative adjunctions and relative coadjunctions, akin to the unit--counit formulation of an adjunction. See Lemma 5.5 of [AM24](#AM24).
 
-### asymmetry ###
+### Relative monads and comonads
 
-The most important difference with regular adjunctions is the asymmetry of the concept. First, for $L {\,\,}_J\!\dashv R$ it makes no sense to ask for $R \dashv_J L$ (domains and comodomains do not typecheck). And secondly, and more importantly:
+Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]],
 
-* **$L$ is $J$-left adjoint to $R$:** $R$ _determines_ $L$ 
-* **$R$ is $J$-right adjoint to $L$:** $L$ _determines_ $R$
+1. For relative adjunctions, if $L \dashv_J R$, then $RL$ admits the structure of [[relative monad]].
+2. For relative coadjunctions, if $L {\,\,}_J\!\dashv R$, then $LR$ admits the structure of a [[relative comonad]].
 
-(this is obvious from the definition in terms of liftings). Because of this, even if most of the properties of adjunctions have a generalization to the relative setting, they do that in a one-sided way.
+(with the units and counits respectively induced as described above).
 
-### unit, counit ###
-
-Asymmetry manifests itself here: 
-
-1. $L {\,\,}_J\!\dashv R$ yields a $J$-relative _unit_ 2-cell $\iota\colon J \to R L$
-2. while $L \dashv_J R$ gives a $J$-relative _counit_ $\epsilon\colon L R \to J$
-
-with no naturally available counterpart for them in each case. 
-
-These 2-cells are directly provided by the definition in terms of liftings, as the universal 2-cells 
-
-- $\iota\colon J \to R L$ given by $L = \mathop{Lift}_R J$
-- $\epsilon\colon L R \to J$ given by $R = \mathop{Rift}_L J$
-
-Alternatively, and just as with regular adjunctions, their components can be obtained from the natural hom-isomorphism: in the unit case, evaluating at $Lb$ we get a bijection
-
-\[
-	Hom_C(Lb, Lb) \simeq Hom_D(Jb, RLb)
-\]
-
-and 
-
-\[
-	\iota_b \colon J b \to R L b
-\]
-
-is given by evaluating at $1_{Lb}$ the aforementioned bijection. A completely analogous procedure yields a description of the counit for $L \dashv_J R$.
-
-### Relative monads and comonads ###
-
-Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]], for relative adjoints
-
-1. If $L {\,\,}_J\!\dashv R$, then $RL$ is a [[relative monad]]
-2. If $L \dashv_J R$, then $LR$ is a [[relative comonad]]
-
-with relative units and counits as above, respectively.
-
-There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]] and [[Kleisli category|Kleisli]] categories for these.
-
-### Relative adjointness generalizes adjointness ###
-
-The concept of relative adjoint functors is a generalization of the concept of adjoint functors: if a functor $R\colon C\to D$ has a left adjoint in the usual sense, then it also has a $J$-left adjoint for $J=id_D$.
+Conversely, there are anlogues of the [[Kleisli category]] and [[Eilenberg–Moore category]] for relative monads and relative comonads, which induce the relative monads and relative comonads.
 
 ## Examples ##
 
+**ordinary adjointness**
+
+:	An $id$-relative adjunction is simply an ordinary adjunction. Dually, an $id$-relative coadjunction is simply an ordinary adjunction.
+
 **fully faithful functors**
-:	A functor $F: A \to B$ is fully faithful iff it is representably fully faithful iff $1_A = \mathop{Lift}_F F$, and this lifting is absolute. Thus, $F$ fully faithful can be expressed as
+:	A functor $F: A \to B$ is fully faithful iff the canonical natural transformation $1 \Rightarrow B(F{-}, F{-})$ is invertible iff there exists any such isomorphism, i.e. iff
 	\[
 		1 {\,\,}_F\!\dashv F
 	\]
-	
 
 **partially defined adjoints** 
 :	As remarked in the [[adjoint functor|local definition of adjoint functor]], given a functor 
 	\[
-		L \colon C \to D
+		L \colon C \to E
 	\]
-	it may happen that $Hom_D(L(-),d)$ is [[representable functor|representable]] only for _some_ $d$, but not for all of them. In that case, taking 
+	it may happen that $E(L(-),e)$ is [[representable functor|representable]] only for _some_ $e \in E$, but not for all of them. In that case, taking 
 	\[
-		J \colon B \to D
+		J \colon A \to E
 	\]
-	be the inclusion of the [[full subcategory|full subcategory]] determined by $Hom_D(L(-),d)$ representable, and defining $R \colon B \to C$ accordingly, we have
+	to be the inclusion of the [[full subcategory|full subcategory]] determined by $E(L(-),e)$ representable, and defining $R \colon A \to C$ accordingly, we have
 	\[
-		L \dashv_J R
+		L {\,\,}_J\!\dashv R
 	\]
-	This can be specialized to situations such as a category having _some_ but not all [[limit|limits]] of some kind, partially defined [[Kan extension|Kan extensions]], etc. See also [[free object]].
-	
-
+	This can be specialized to situations such as a category having _some_ but not all [[limit]] of some kind, partially defined [[Kan extension|extensions]], etc. See also [[free object]].
 
 **nerves**
-:	Take $A$ a locally small category, and $F\colon A \to B$ a locally left-small functor (one for which $B(Fa,b)$ is always small). The _$A$-nerve_ induced by $F$ is the functor
+:	Take $A$ a locally small category, and $F\colon A \to B$ a small-admissible functor (one for which $B(Fa,b)$ is always small). The [[restricted Yoneda embedding|nerve]] of $F$ is the functor
 	\[
 		N_F \colon B \to \mathbf{Set}^{A^{\mathop{op}}}
 	\]
-	given by $N_F(b)(a) = B(Fa,b)$. It is a fundamental fact that $F = \mathop{Lift}_{N_F} y_A$ and this lifting is _absolute_; or, in relative adjoint notation, $F {\,\,}_{y_A}\!\dashv N_F$. The universal 2-cell $\iota\colon y_A \to N_F F$ is given by the action of $F$ on morphisms:
+	given by $N_F(b)(a) = B(Fa,b)$. The nerve forms a right adjoint to $F$ relative to the [[Yoneda embedding]]: $F \dashv_{y_A} N_F$. The universal 2-cell $\eta\colon y_A \to N_F F$ is given by the action of $F$ on morphisms:
 	\[
-		\iota_a \colon y_A a \to (N_F F)(a)
+		\eta_a \colon y_A a \to (N_F F)(a)
 	\]
 	at $a' \colon A$ is
 	\[
 		F_{a,a'}\colon A(a,a') \to B(Fa, Fa')
 	\]
 	
-	Note that when specialized to $F = 1_A$, this reduces to the [[yoneda lemma|Yoneda lemma]]: first $N_{1_A} \simeq y_A$, and then $1_A = \mathop{Lift}_{y_A} y_A$ absolute in hom-isomorphism terms reads: 
+	Note that, when specialized to $F = 1_A$, this reduces to [[full faithfulness]] of the [[Yoneda embedding]]: first $N_{1_A} \simeq y_A$, and then:
 	\[
 		A(x,y) \simeq \mathbf{Set}^{A^{\mathop{op}}}(y_A x, y_A y)
 	\]
 
-	One of the axioms of a [[yoneda structure|Yoneda structure]] on a 2-category abstract over this situation, by requiring the existence of $F$-nerves with respect to yoneda embeddings such that the 1-cell $F$ is an absolute left lifting as above; see [Weber](#Weber2007) or [Street--Walters](#StreetWalters1978)
-.
+	In fact, one of the axioms of a [[Yoneda structure]] on a 2-category axiomatises this situation, by requiring the existence of absolute left lifting with respect to Yoneda embeddings, as above: see [Street--Walters](#StreetWalters1978).
 
 ## Related concepts
 
@@ -177,12 +135,21 @@ The concept of relative adjoint functors is a generalization of the concept of a
 
 ### General
 
+A comprehensive account of relative adjunctions (covering also adjoint functors in [[enriched category theory]], and more generally [[formal category theory]]) may be found in:
+
+* {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+
+The original reference for relative adjunctions is:
+
 * [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_, Journal of Algebra, **8** 1 (1968) 77-95 &lbrack;<a href="https://doi.org/10.1016/0021-8693(68)90036-7">doi:10.1016/0021-8693(68)90036-7</a>&rbrack;
 
-*  {#StreetWalters1978} [[Ross Street]], [[Bob Walters]], *Yoneda structures on 2-categories*, Journal of Algebra, **50** 2 (1978) 350-379 &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>, [mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)&rbrack;
+Relative adjunctions were rediscovered in the context of [[relative monads]] in:
 
 * {#ACU14} [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
+For the role of nerves in [[Yoneda structures]], see:
+
+*  {#StreetWalters1978} [[Ross Street]], [[Bob Walters]], *Yoneda structures on 2-categories*, Journal of Algebra, **50** 2 (1978) 350-379 &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>, [mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)&rbrack;
 
 *  {#Weber2007} [[Mark Weber]] - _Yoneda structures from 2-toposes_, Appl Categor Struct. **15** (2007) 259. &lbrack;doi:10.1007/s10485-007-9079-2, [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
@@ -193,11 +160,22 @@ On the [[categorical semantics]] of [[dependent product types]] as *[[relative a
 * [[Michael Lindgren]], *Dependent products as relative adjoints*, Stockholm (2021) &lbrack;[[Lindgren-DependentProductsAsRelativeAdjoints.pdf:file]]&rbrack;
 
 
-
 [[!redirects relative adjoint functors]]
 [[!redirects relative right adjoint]]
 [[!redirects relative left adjoint]]
+[[!redirects relative right adjoints]]
+[[!redirects relative left adjoints]]
+[[!redirects right relative adjoint]]
+[[!redirects left relative adjoint]]
+[[!redirects right relative adjoints]]
+[[!redirects left relative adjoints]]
 [[!redirects relative adjoint]]
 [[!redirects relative adjoints]]
 [[!redirects relative adjunction]]
 [[!redirects relative adjunctions]]
+[[!redirects partial adjoint]]
+[[!redirects partial adjoints]]
+[[!redirects partial adjoint functor]]
+[[!redirects partial adjoint functors]]
+[[!redirects partial adjunction]]
+[[!redirects partial adjunctions]]
