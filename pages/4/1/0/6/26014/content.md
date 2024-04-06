@@ -102,6 +102,9 @@ See also:
 
 * {#PutrovWang23} [[Pavel Putrov]], [[Juven Wang]], *Categorical Symmetry of the Standard Model from Gravitational Anomaly* &lbrack;[arXiv:2302.14862](https://arxiv.org/abs/2302.14862)&rbrack;
 
+* Masaki Okada, [[Yuji Tachikawa]]. *Non-invertible symmetries act locally by quantum operations* (2024). ([arXiv:2403.20062](https://arxiv.org/abs/2403.20062)).
+
+
 In the context of [[fusion 2-categories]]:
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
