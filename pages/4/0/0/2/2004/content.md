@@ -161,7 +161,7 @@ of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda
 
 =--
 
-This statement appears as [(Linton 69, Observation 1.1)](#Linton69) (cf. [(Street 72, Theorem 14)](#Street72)). [(Street-Walters 78)](#StreetWalters78) show that it holds in any 2-category equipped with a [[Yoneda structure]].
+This statement appears as [(Linton 69, Observation 1.1)](#Linton69) (cf. [(Street 72, Theorem 14)](#Street72)). [(Street-Walters 78)](#StreetWalters78) establish a generalisation for a 2-category equipped with a [[Yoneda structure]]. [Arkor–McDermott '24](#AM24) establish a generalisation to a [[virtual equipment]], which also captures [[relative monads]] with [[dense functor|dense]] roots.
 
 +-- {: .proof}
 ###### Sketch of proof
@@ -273,6 +273,8 @@ General discussion:
 
 * {#StreetWalters78} [[Ross Street]], [[Bob Walters]], _Yoneda structures_, J. Algebra __50__, 1978
 
+* {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The pullback theorem for relative monads_ (2024) &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
+
 
 * [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
@@ -295,7 +297,6 @@ The example of [[idempotent monads]] is discussed also in
 Discussion of the [[universal property]] as the final adjoint decomposition of the monad:
 
 * [[Anthony Voutas]], *The basic theory of monads and their connection to universal algebra*, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf), [[Voutas-Monads.pdf:file]]&rbrack;
-
 
 Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-categories]] is around def. 6.1.7 of
 
