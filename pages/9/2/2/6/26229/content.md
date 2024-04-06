@@ -236,6 +236,11 @@ On ([[quantum measurement|quantum]]) [[measurement]] in [[quantum field theory]]
 
 * [[Christopher Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
 
+On [[rational homotopy theory]] in [[mathematical physics]], such as in [[Hypothesis H]]:
+
+* [[Alexander A. Voronov]], *Rational Homotopy Theory*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.00939](https://arxiv.org/abs/2404.00939)&rbrack;
+
+
 
 
 (...)
