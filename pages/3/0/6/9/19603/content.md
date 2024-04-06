@@ -61,7 +61,7 @@ Work conducted in homotopy type theory:
 
 * [[Favonia|Kuen-Bang Hou (Favonia)]], [[Michael Shulman]], _The Seifert–van Kampen Theorem in Homotopy Type Theory_, 2016, ([pdf](https://favonia.org/files/vankampen-csl2016.pdf)), ([doi](https://dx.doi.org/10.4230/LIPIcs.CSL.2016.22))
 
-* [[Dan Licata]] and [[Eric Finster]], _Eilenberg-MacLane Spaces in Homotopy Type Theory_, LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf)
+* [[Dan Licata]] and [[Eric Finster]], _Eilenberg-MacLane Spaces in Homotopy Type Theory_, LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), ([doi](https://dx.doi.org/10.1145/2603088.2603153))
 
 * Floris van Doorn, Jeremy Avigad, Steve Awodey, Ulrik Buchholtz, Egbert Rijke, and Mike Shulman, _Spectral Sequences in Homotopy Type Theory_. Paper forthcoming. 2018. [github](https://github.com/cmu-phil/Spectral).
 
@@ -77,9 +77,9 @@ Work conducted in homotopy type theory:
 
 * Nicolai Kraus, Jakob von Raumer, _Path Spaces of Higher Inductive Types in Homotopy Type Theory_, ([arXiv:1901.06022](https://arxiv.org/abs/1901.06022))
 
-* Ulrik Buchholtz, Egbert Rijke, _The long exact sequence of homotopy $n$-groups_, ([arXiv:1912.08696](https://arxiv.org/abs/1912.08696))
+* Ulrik Buchholtz, Egbert Rijke, _The long exact sequence of homotopy $n$-groups_, ([arXiv:1912.08696](https://arxiv.org/abs/1912.08696)), ([doi](https://doi.org/10.1017/S0960129523000038)).
 
-* [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_, ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833))
+* [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_, ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833)), ([doi](https://doi.org/10.2140/agt.2023.23.2107)).
 
 * Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], _Synthetic topology in Homotopy Type Theory for probabilistic programming_ ([arXiv:1912.07339](https://arxiv.org/abs/1912.07339))
 
@@ -87,7 +87,7 @@ Work conducted in homotopy type theory:
 
 * [[Daniel Carranza]], Jonathan Chang, [[Chris Kapulkin]], Ryan Sandford, _2-adjoint equivalences in homotopy type theory_, ([arXiv:2008.12433](https://arxiv.org/abs/2008.12433))
 
-* {#Swan20} [[Andrew Swan]], _On the Nielsen-Schreier Theorem in Homotopy Type Theory_ ([arXiv:2010.01187](https://arxiv.org/abs/2010.01187))
+* {#Swan20} [[Andrew Swan]], _On the Nielsen-Schreier Theorem in Homotopy Type Theory_ ([arXiv:2010.01187](https://arxiv.org/abs/2010.01187)) and ([lmcs:8989](https://lmcs.episciences.org/8989)).
 
   > (on the [[Nielsen-Schreier theorem]])
 
@@ -107,10 +107,13 @@ Work conducted in homotopy type theory:
 
 * [[Martín Hötzel Escardó]], _Compact, totally separated and well-ordered types in univalent mathematics_, ([abstract at the author's web page](https://www.cs.bham.ac.uk/~mhe/papers/compact-ordinals-Types-2019-abstract.pdf), also available at the [Types 2019 Book of Abstracts](https://eutypes.cs.ru.nl/eutypes_pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf))
 
-* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Daniel Grayson]], [[Michael Shulman]], _Construction of the Circle in UniMath_, ([arXiv:1910.01856](https://arxiv.org/abs/1910.01856))
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Daniel Grayson]], [[Michael Shulman]], _Construction of the Circle in UniMath_, ([arXiv:1910.01856](https://arxiv.org/abs/1910.01856)), ([doi](https://doi.org/10.1016/j.jpaa.2021.106687))
 
 * [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
 
+* [[David Wärn]], _Eilenberg–Maclane spaces and stabilisation in homotopy type theory_, Homotopy Relat. Struct. 18, 357–368 (2023), ([doi](https://doi.org/10.1007/s40062-023-00330-5)).
+
+* [[David Wärn]], _Path spaces of pushouts_, ([arXiv:2402.12339](https://arxiv.org/abs/2402.12339)).
 
 ### Modal homotopy type theory
 
@@ -122,7 +125,15 @@ Work which uses [[modal homotopy type theory]], with, for example,  [[modalities
 
 * [[Felix Wellen]], _Cohesive Covering Theory (Extended Abstract)_, ([pdf](https://hott-uf.github.io/2018/abstracts/HoTTUF18_paper_15.pdf));
 
-* [[David Jaz Myers]], _Good Fibrations through the Modal Prism_, ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034))
+* [[David Jaz Myers]], _Good Fibrations through the Modal Prism_, ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034)), ([doi](https://dx.doi.org/10.21136/HS.2022.04)).
+
+* [[David Jaz Myers]], [[Mitchell Riley]], _Commuting Cohesions_, ([arXiv:2301.13780](https://arxiv.org/abs/2301.13780)).
+
+* [[J. Daniel Christensen]], [[Egbert Rijke]],
+_Characterizations of modalities and lex modalities_,
+Journal of Pure and Applied Algebra, Volume 226, Issue 3,
+2022,
+([doi](https://doi.org/10.1016/j.jpaa.2021.106848)).
 
 See also [[schreiber:Some thoughts on the future of modal homotopy type theory]].
 
