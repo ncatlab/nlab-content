@@ -43,13 +43,13 @@ Work conducted in homotopy type theory:
 
 * [[Dan Licata]], [[Guillaume Brunerie]], _$\pi_n(S^n)$ in Homotopy Type Theory_, Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf).
 
-* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_, ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134)) ([doi](http://dx.doi.org/10.21136/HS.2018.02)).
+* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_, ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134)) ([doi](http://dx.doi.org/10.21136/HS.2018.02)):
 
 > Construction of the [[quaternionic Hopf fibration]]
 
-* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, Logical Methods in Computer Science, Volume 16, Issue 2 (June 1, 2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
+* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, Logical Methods in Computer Science, Volume 16, Issue 2 (June 1, 2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)).
 
-* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The real projective spaces in homotopy type theory_, ([arXiv:1704.05770](https://arxiv.org/abs/1704.05770)) 
+* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The real projective spaces in homotopy type theory_, ([arXiv:1704.05770](https://arxiv.org/abs/1704.05770)), ([doi](https://dx.doi.org/10.1109/LICS.2017.8005146)).
 
 * [[Robert Graham]], _Synthetic Homology in Homotopy Type Theory_, ([arXiv:1706.01540](https://arxiv.org/abs/1706.01540))  
 
@@ -57,15 +57,15 @@ Work conducted in homotopy type theory:
 
 * [[Kevin Quirin]], [[Nicolas Tabareau]], _Lawvere-Tierney sheafification in Homotopy Type Theory_, Journal of Formalized Reasoning, ASDD-AlmaDL, 2016, 9 (2), 0.6092/issn.1972-5787/6232. hal-01451710, [PDF](https://hal.inria.fr/hal-01451710/document)
 
-* [[Favonia|Kuen-Bang Hou (Favonia)]], [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_, ([arXiv:1605.03227](https://arxiv.org/abs/1605.03227)) 
+* [[Favonia|Kuen-Bang Hou (Favonia)]], [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_, ([arXiv:1605.03227](https://arxiv.org/abs/1605.03227)), ([doi](https://dx.doi.org/10.1145/2933575.2934545)).
 
-* [[Favonia|Kuen-Bang Hou (Favonia)]], [[Michael Shulman]], _The Seifert–van Kampen Theorem in Homotopy Type Theory_, 2016, ([pdf](https://favonia.org/files/vankampen-csl2016.pdf)), ([doi](10.4230/LIPIcs.CSL.2016.22))
+* [[Favonia|Kuen-Bang Hou (Favonia)]], [[Michael Shulman]], _The Seifert–van Kampen Theorem in Homotopy Type Theory_, 2016, ([pdf](https://favonia.org/files/vankampen-csl2016.pdf)), ([doi](https://dx.doi.org/10.4230/LIPIcs.CSL.2016.22))
 
 * [[Dan Licata]] and [[Eric Finster]], _Eilenberg-MacLane Spaces in Homotopy Type Theory_, LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf)
 
 * Floris van Doorn, Jeremy Avigad, Steve Awodey, Ulrik Buchholtz, Egbert Rijke, and Mike Shulman, _Spectral Sequences in Homotopy Type Theory_. Paper forthcoming. 2018. [github](https://github.com/cmu-phil/Spectral).
 
-* {#Scoccola19} [[Luis Scoccola]], _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
+* {#Scoccola19} [[Luis Scoccola]], _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245)), ([doi](https://dx.doi.org/10.1017/S0960129520000146))
 
 * [[Auke B. Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
