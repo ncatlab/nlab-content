@@ -101,6 +101,8 @@ Below, we list some fundamental theorems in category theory that have been formu
 
 * A ([[relative monad|relative]]) [[monadicity theorem]] is proven in [Arkor & McDermott 2023a](#AM23b) (for [[virtual equipments]]).
 
+* A pullback theorem for [[monads]] and [[relative monads]] is proven in [Arkor & McDermott 2024](#AM24) (for [[virtual equipments]]).
+
 For instance, one motivation for the development of this theory in the setting of (augmented) [[virtual equipments]] is to develop [[enriched category theory]] without the assumptions taken, for instance, by [[Max Kelly|Kelly]] in [Basic concepts of enriched category theory](enriched+category#Kelly82). This therefore gives a development of enriched category theory for categories enriched in a nonsymmetric [[monoidal category]], a [[bicategory]], or even a [[virtual double category]].
 
 ## Intramural and extramural formal category theory
@@ -174,9 +176,11 @@ Papers developing general theorems in (intramural) formal category theory:
 
 * {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
 
-* {#AM23a} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_ (2023) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+* {#AM23a} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
 * {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+* {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The pullback theorem for relative monads_ (2024) &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
 
 Papers developing general theorems in (extramural) formal category theory:
 
