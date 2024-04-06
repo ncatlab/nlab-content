@@ -26,6 +26,10 @@ On [[superstring|super]] [[string scattering amplitudes]]:
 
 * Sergio Luigi Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
 
+On [[rational homotopy theory]] in [[mathematical physics]], such as in [[Hypothesis H]]:
+
+* [[Alexander A. Voronov]], *Rational Homotopy Theory*  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.00939](https://arxiv.org/abs/2404.00939)&rbrack;
+
 
 
 category: people
