@@ -67,6 +67,10 @@ If only the first universal property holds, we say that the vertical morphism ha
 
 ## References
 
+An early reference for what is essentially the universal property of an (effective) tabulator is the definition of a **tabulation**, based on a similar definition in an [[allegory]]:
+
+* [[Aurelio Carboni]], [[Stefano Kasangian]] and [[Ross Street]], _Bicategories of spans and relations_, Journal of Pure and Applied Algebra, Vol. 33, No. 3, 1984, pp. 259-267. &lbrack;<a href="https://doi.org/10.1016/0022-4049(84)90061-6">doi:10.1016/0022-4049(84)90061-6</a>&rbrack;
+
 The definition of a (co)tabulator was first introduced in Section 5.3 of: 
 
 * [[Marco Grandis]], [[Robert Pare]], _Limits in double categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **40**, 1999. ([url](http://www.numdam.org/item/CTGDC_1999__40_3_162_0/))
