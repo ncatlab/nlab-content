@@ -2,7 +2,7 @@ Nathanael Arkor is a postdoc researching [[category theory]] and [[type theory]]
 
 * [personal page](https://arkor.co/)
 
-* [institute page](https://www.muni.cz/en/people/247504-nathanael-amariah-arkor)
+* [institute page](https://taltech.ee/en/contacts/high-assurance-software-laboratory/nathanael-amariah-arkor)
 
 
 
@@ -19,9 +19,11 @@ On [[simple type theory]]:
 
 On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual equipments]]:
 
-* [[Nathanael Arkor]], [[Dylan McDermott]], *The formal theory of relative monads* &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
 * {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The pullback theorem for relative monads_ (2024) &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
 
 * [[Nathanael Arkor]], *Relative monads and their many guises*, talk at *[[Category Theory Octoberfest]]* [2022](https://richardblute.ca/octoberfest-2022/) &lbrack;slides:[pdf](https://richardblute.files.wordpress.com/2022/10/arkor-ofest.pdf), video:[mp4](https://richardblute.files.wordpress.com/2022/10/arkor-ofest-1.mp4)&rbrack;
 
@@ -29,6 +31,8 @@ On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual
 On [[higher-order logic|higher-order]] [[algebraic theories]]:
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], *Higher-order algebraic theories* ([pdf](https://arkor.co/files/Higher-order%20algebraic%20theories.pdf))
+
+* [[Nathanael Arkor]] and [[Dylan McDermott]], _Abstract Clones for Abstract Syntax_, 6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021). Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 2021. ([arXiv](https://arxiv.org/abs/2105.00969))
 
 On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]:
 
@@ -38,7 +42,9 @@ On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]
 ## Related entries
 
 * [[formal category theory]]
-
+* [[relative monad]]
+* [[relative adjunction]]
+* [[algebraic theory]]
 
 
 category: people
