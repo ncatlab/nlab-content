@@ -81,7 +81,7 @@ Although probably those examples should be moved to [[indexed monoidal category]
 +-- {: .num_example}
 ###### Example
 
-For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{H}^{op} \to CartMonCat \to MonCat$ of [[slice toposes]] is an indexed monoidal category, hence an indexed monodial $(\infty,1)$-category.
+For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{H}^{op} \to CartMonCat \to MonCat$ of [[slice toposes]] is an indexed monoidal category, hence an indexed monoidal $(\infty,1)$-category.
 
 =--
 
@@ -92,7 +92,7 @@ This example for dependent linear type theory is extremely "non-linear".  For in
 
 =--
 
-We now pass gradually to more and more linear examples.x
+We now pass gradually to more and more linear examples.
 
 
 ### Parameterized pointed objects
