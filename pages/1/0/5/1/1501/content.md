@@ -77,7 +77,7 @@ $$\sum_{i}\tilde{v}_i\otimes \tilde{\varphi}_i=\sum_{i}v_i\otimes \varphi_i,$$
 so $\coev_{V}$ is well defined as desired. We now show that the rigidity diagrams commute. Going around the square, we find that this is equivalent to the condition that $1\otimes w=\sum_{i}\varphi_i(w)\otimes v_i$ for all $w\in V$. This follows from choosing a basis such that $v_i=w$ for some $i$. Then, $\varphi_i(w)\otimes v_i=w$ and all the other terms are zero, making the equality obvious.
 \end{proof}
 
-Another key example is that of endofunctor categories Given any category $\mathscr{C}$, the hom-space of functors $\text{Fun}(\mathscr{C},\mathscr{C})$ is a monoidal category, with the monoidal structure coming from composition. Duals correspond to [[adjoint functor]] as can be stated formally below:
+Another key example is that of endofunctor categories. Given any category $\mathscr{C}$, the hom-space of functors $\text{Fun}(\mathscr{C},\mathscr{C})$ is a monoidal category, with the monoidal structure coming from composition. Duals correspond to [[adjoint functor]] as can be stated formally below:
 
 \begin{proposition} Let $\mathscr{C}$ be a category, and let $F\in \text{Fun}(\mathscr{C},\mathscr{C})$ be an endofunctor. Let $F^*$ be the right adjoint of $F$. $F^*$ is a right dual for $F$, under the natural transformations
 
