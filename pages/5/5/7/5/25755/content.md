@@ -72,7 +72,7 @@ $\underset{n \to \infty}{\lim} \frac{\Gamma(n + (1/2))}{\Gamma(n) \cdot \sqrt{n}
 \end{proposition}  
 
 \begin{proof} 
-From log-convexity of $\Gamma$, we may derive 
+From log-convexity of $\Gamma$ (see [here](https://ncatlab.org/nlab/show/H%C3%B6lder%27s+inequality#relation_to_logconvex_functions)), we may derive 
 
 $$\frac{\Gamma(x-1/2)}{\Gamma(x - 1)} \leq \frac{\Gamma(x)}{\Gamma(x-1/2)} \leq \frac{\Gamma(x+1/2)}{\Gamma(x)}$$ 
 which implies that the values of $\frac{\Gamma(x+1/2)}{\Gamma(x) \cdot \sqrt{x}}$, with $x$ ranging over half-integers, tend to the same limit $L$ as with $x$ ranging over whole integers. Therefore 
