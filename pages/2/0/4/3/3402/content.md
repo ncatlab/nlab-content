@@ -57,7 +57,9 @@ See Corollary 6.10(2) in [Bezhanishvili](#SDGC).
 
 Assuming [[excluded middle]], complete *[[atomic Boolean algebra|atomic]]* Boolean algebras are (up to [[isomorphism]]) precisely [[power sets]].  In fact, taking power sets defines a [[fully faithful functor]] from the [[opposite category]] of [[Set]] to [[Comp Bool Alg]] whose [[essential image]] consists of the complete atomic boolean algebras.  See at _[Set -- Properties -- Opposite category](Set#OppositeCategory)_. These abstract representations of power sets are important enough to have their own abbreviation: 'CABA'.
 
-This property of CABAs is not applicable in [[constructive mathematics]], where power sets are rarely boolean algebras.  However, we can use [[discrete space|discrete]] [[locales]] instead (or rather, their corresponding [[frames]]).  That is, define a __CABA__ to be (not a complete atomic boolean algebra but) a frame $X$ such that the locale maps $X \to 1$ and $X \to X \times X$ (which in the category of frames are maps $0 \to X$ and $X + X \to X$) are [[open map|open]] (as locale maps).  (Of course, that $X \to 1$ is open is the condition that $X$ is [[overt locale|overt]].)  Then it should be (I will check) a classical theorem that CABAs and complete atomic boolean algebras are the same, and a constructive theorem that CABAs and power sets are the same (in the same functorial manner as above).
+This property of CABAs is not applicable in [[constructive mathematics]], where power sets are rarely boolean algebras.  However, we can use [[discrete space|discrete]] [[locales]] instead (or rather, their corresponding [[frames]]).  That is, define a __CABA__ to be (not a complete atomic boolean algebra but) a frame $X$ such that the locale maps $X \to 1$ and $X \to X \times X$ (which in the category of frames are maps $0 \to X$ and $X + X \to X$) are [[open map|open]] (as locale maps).  (Of course, that $X \to 1$ is open is the condition that $X$ is [[overt locale|overt]].)  Then it should be (I will check) a classical theorem that CABAs and complete atomic boolean algebras are the same, and a constructive theorem that CABAs and power sets are the same (in the same functorial manner as above). 
+
+Realtedly, CABAs are the same as [[completely distributive lattice|completely distributive complete Boolean algebras]]. 
 
 Another approach is via [[overlap algebra|overlap algebras]].  An overlap algebra is a [[frame]] with two extra conditions (one of which is [[overt locale|overtness]] of the corresponding [[locale]]).  Classically, overlap algebras are the same thing as complete Boolean algebras; constructively, atomic overlap algebras are the same thing as powersets.  See [Ciraulo 2010](#Ciraulo2010).
 
@@ -80,6 +82,7 @@ As a consequence, $CompBoolAlg$ is not cocomplete (otherwise there would exist a
 
 * [[Boolean locale]]
 * [[Stonean locale]]
+* [[completely distributive lattice]] 
 
 
 ## References
