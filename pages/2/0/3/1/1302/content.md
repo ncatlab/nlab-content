@@ -417,7 +417,7 @@ $QC : C^{op} \to (\infty,1)Cat$ we may adopt for any
 [[∞-stack]] $X : C^{op} \to \infty Grpd$ the definition
 
 $$
-  QX(X) := [C^{op},\infty Grpd](X,QC)
+  QX(X) := [C^{op},(\infty,1)Cat](X,QC)
 $$
 
 as a definition of generalized $\infty$-vector bundles on $X$. This general nonsense is considered further at [[schreiber:∞-vector bundle]]. Concrete realizations are discussed at [[quasicoherent ∞-stack]].
