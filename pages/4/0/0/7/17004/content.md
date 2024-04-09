@@ -79,7 +79,7 @@ $$
 
 =--
 
-This perspective is highlighted in: [Deitmar 06, p. 2](#Deitmar06); [Guillot 06](#Guillot06); [Mahanta 17](#Mahanta17); [Dundas, Goodwillie* McCarthy 13, II 1.2](#DundasGoodwillieMcCarthy13); [Morava](#MoravaSomeBackground), [Connes& Consani 16](#ConnesConsani16); [Chu, Lorscheid & Santhanam 10, Thm. 5.9](#ChuLorscheidSanthanam10). The latter reference generalizes also to [[equivariant stable Cohomotopy]] and [[equivariant K-theory]].
+This perspective is highlighted in: [Deitmar 06, p. 2](#Deitmar06); [Guillot 06](#Guillot06); [Mahanta 17](#Mahanta17); [Dundas, Goodwillie* McCarthy 13, II 1.2](#DundasGoodwillieMcCarthy13); [Morava](#MoravaSomeBackground), [Connes & Consani 16](#ConnesConsani16) and fully explicitly in [Chu, Lorscheid & Santhanam 10, Thm. 5.9](#ChuLorscheidSanthanam10) and [Beardsley & Nakamura 2024, Cor. 2.25](#BeardsleyNakamura24). ([Chu et al.](#ChuLorscheidSanthanam10) also generalize to [[equivariant stable Cohomotopy]] and [[equivariant K-theory]].)
 
 [[!include Segal completion -- table]]
 
@@ -311,6 +311,8 @@ The resulting interpretation of stable cohomotopy as [[algebraic K-theory]] over
 * {#Mahanta17} [[Snigdhayan Mahanta]], _G-theory of $\mathbb{F}_1$-algebras I: the equivariant Nishida problem_, J. Homotopy Relat. Struct. 12 (4), 901-930, 2017 ([arXiv:1110.6001](https://arxiv.org/abs/1110.6001))
 
 * {#ChuLorscheidSanthanam10} Chenghao Chu, [[Oliver Lorscheid]], Rekha Santhanam, *Sheaves and K-theory for $\mathbb{F}_1$-schemes*, Advances in Mathematics, **229** 4, (2012) 2239-2286 &lbrack;[arxiv:1010.2896](https://arxiv.org/abs/1010.2896), [doi:10.1016/j.aim.2011.12.023](https://doi.org/10.1016/j.aim.2011.12.023)&rbrack;
+
+* {#BeardsleyNakamura24} [[Jonathan Beardsley]], [[So Nakamura]], *Projective Geometries and Simple Pointed Matroids as $\mathbb{F}_1$-modules* &lbrack;[arXiv:2404.04730](https://arxiv.org/abs/2404.04730)&rbrack;
 
 
 see also
