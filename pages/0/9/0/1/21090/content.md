@@ -588,7 +588,7 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 
 A **Markov category** or **affine CD category** is a CD category where any of these equivalent conditions hold:
 
-* The monoidal unit $I$ is a [[terminal object]] (i.e. the category is [[semicartesian]] monoidal);
+* The monoidal unit $I$ is a [[terminal object]] (i.e. the category is [[semicartesian monoidal category|semicartesian monoidal]]);
 * The discard (counit) maps $del:X\to I$ are part of a [[natural transformation]] $id\Rightarrow I$;
 * For every morphism $f:X\to Y$, we have that $del_Y \circ f = \del_X$.
 
