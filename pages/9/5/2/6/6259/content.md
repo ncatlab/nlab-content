@@ -393,6 +393,9 @@ Further discussion:
 
 * {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes* &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748)&rbrack;
 
+* Sujiphat Janaun, Anajak Phonchantuek, Pichet Vanichchapongjaroen, *Nonlinear chiral forms in the Sen formulation* &lbrack;[arXiv:2404.05380](https://arxiv.org/abs/2404.05380)&rbrack;
+
+
 
 ### For RR-fields / differential K-theory
 
