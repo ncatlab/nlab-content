@@ -52,7 +52,7 @@ This proposal seems to subsume many aspects of other existing proposals (see e.g
 ### Modules/Vector spaces over $\mathbb{F}_1$
  {#Modules}
 
-It makes good sense to identify the concept of finite rank [[modules]]/[[finite-dimensional vector spaces]] over the field with one element with that of ([[pointed set|pointed]]) [[finite sets]] 
+One proposal here is to identify the concept of finite rank [[modules]]/[[finite-dimensional vector spaces]] over the field with one element with that of ([[pointed set|pointed]]) [[finite sets]] 
 
 $$
   \mathbb{F}_1 Mod_{fin}
@@ -69,6 +69,8 @@ $$
 $$
 
 (e.g. [Cohn 04, "puzzle 1"](#Cohn04), [Durov 07, 2.5.6](#Durov07), [Snyder 07](#Snyder07))
+
+But it has also been argued by Connes and Consani (see [Beardsley & So 24, 2.3](#BeardsleySo24)) that we should understand $\mathbb{F}_1$-modules as Segal [[$\Gamma$-sets]], i.e., pointed functors $Fin_{\ast} \to Set_{\ast}$.
 
 ### Algebraic K-theory
  {#AlgebraicKTheory}
@@ -94,7 +96,7 @@ Here in the second step we used the definition of algebraic K-theory for ordinar
 
 The perspective that the [[K-theory]] $K \mathbb{F}_1$ over $\mathbb{F}_1$ should be [[stable Cohomotopy]] has been highlighted in ([Deitmar 06, p. 2](#Deitmar06), [Guillot 06](#Guillot06), [Mahanta 17](#Mahanta17), [Dundas-Goodwillie-McCarthy 13, II 1.2](#DundasGoodwillieMcCarthy13), [Morava](#MoravaSomeBackground), [Connes-Consani 16](#ConnesConsani16)).). Generalized to [[equivariant stable homotopy theory]], the statement that [[equivariant K-theory]] $ K_G \mathbb{F}_1$ over $\mathbb{F}_1$ should be [[equivariant stable Cohomotopy]] is discussed in [Chu-Lorscheid-Santhanam 10, 5.3](#ChuLorscheidSanthanam10).
 
-
+With the understanding of $\mathbb{F}_1$-modules as $\Gamma$-sets, $K \mathbb{F}_1$ remains equal to the sphere spectrum.
 
 [[!include Segal completion -- table]]
 
@@ -170,6 +172,8 @@ Other approaches include
 * [[M. Marcolli]], [[Ryan Thorngren]], _Thermodynamical semirings_, [arXiv/1108.2874](https://arxiv.org/abs/1108.2874)
 
 * Bora Yalkinoglu, _On Endomotives, Lambda-rings and Bost-Connes systems_,  With an appendix by Sergey Neshveyev, [arxiv/1105.5022](http://arxiv.org/abs/1105.5022)
+
+* {#BeardsleySo24} [[Jonathan Beardsley]], So Nakamura, *Projective Geometries and Simple Pointed Matroids as $\mathbb{F}_1$-modules* &lbrack;[arXiv:2404.04730](https://arxiv.org/abs/2404.04730)&rbrack;
 
 The approach in terms of [[Lambda-rings]] due to
 
