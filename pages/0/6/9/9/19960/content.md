@@ -1249,6 +1249,7 @@ See also:
 
 * Si-wen Li, Yi-peng Zhang, *Correlation function of fundamental fermion in holographic QCD* &lbrack;[arXiv:2307.13357](https://arxiv.org/abs/2307.13357)&rbrack;
 
+* Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
 
 
 
