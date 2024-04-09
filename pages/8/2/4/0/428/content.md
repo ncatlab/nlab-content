@@ -386,6 +386,11 @@ See ([Fresse](#Fresse)).
 
 ## References and Literature
 
+The original reference for bar constructions in the generality of monads is
+
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+
 A general discussion of bar construction for monads is at
 
 * {#Trimble} [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
