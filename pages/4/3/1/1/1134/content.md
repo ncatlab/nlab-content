@@ -131,7 +131,9 @@ But we have the following useful characterization of morphisms of supermanifolds
 * There is a [[natural bijection]]
 
   $$
-    SDiff(X,Y) \simeq SAlgebras(C^\infty(Y), C^\infty(X)),
+    SDiff(X,Y) 
+   \;\simeq\; 
+   SAlgebras\big(C^\infty(Y), C^\infty(X)\big),
   $$
 
   so the contravariant embedding of supermanifolds into superalgebra is a [[full and faithful functor]].
