@@ -1,5 +1,9 @@
 
-* [webpage](https://www.maths.nottingham.ac.uk/plp/pmzkk)
+* [personal page](https://www.maths.nottingham.ac.uk/plp/pmzkk)
+
+* [InSpire page](https://inspirehep.net/authors/1001896)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=xniy3PIAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -16,6 +20,13 @@ On the exact [[gauge group]] of the [[standard model of particle physics]] (see 
 
 * {#Krasnov19} [[Kirill Krasnov]], _$SO(9)$ characterisation of the Standard Model gauge group_ ([arXiv:1912.11282](https://arxiv.org/abs/1912.11282))
 
+On [[gravity]] ([[general relativity]]) and the underlying [[differential geometry]], [[spin geometry]] and [[Cartan geometry]]:
+
+* [[Kirill Krasnov]], *Formulations of General Relativity*, PIRSA lecture series (Feb 2019) &lbrack;part 1:[doi:10.48660/19020079](https://doi.org/10.48660/19020079), 2:[doi:10.48660/19020080](https://doi.org/10.48660/19020080), 3:[doi:10.48660/19020081](https://doi.org/10.48660/19020081), 4:[doi:10.48660/19020082](https://doi.org/10.48660/19020082)&rbrack;
+
+* [[Kirill Krasnov]], *Formulations of General Relativity -- Gravity, Spinors and Differential Forms*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108674652](https://doi.org/10.1017/9781108674652), taster:[pdf](https://www.maths.nottingham.ac.uk/plp/pmzkk/book_taster.pdf)&rbrack;
+
+
 New perspective on the [[symmetry breaking]] of [[Spin(10)]]-[[GUT]] to the [[standard model of particle physics|standard model]] [[gauge group]]:
 
 * [[Kirill Krasnov]], *Geometry of $Spin(10)$ Symmetry Breaking* &lbrack;[arXiv:2209.05088](https://arxiv.org/abs/2209.05088)&rbrack;
@@ -27,6 +38,8 @@ On complex and Lorentzian analogs of [[Cayley forms]]:
 More on [[Cayley forms]]:
 
 * [[Kirill Krasnov]], *Dynamics of Cayley Forms* &lbrack;[arXiv:2403.16661](https://arxiv.org/abs/2403.16661)&rbrack;
+
+
 
 
 category: people
