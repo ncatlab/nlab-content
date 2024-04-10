@@ -212,7 +212,7 @@ Formulation in terms of [[supergeometry]] (on [[super spacetime]] [[supermanifol
 
 * {#CremmerFerrara80} [[Eugene Cremmer]], [[Sergio Ferrara]], *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys. Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
 
-* [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys.Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
+* [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys. Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
 
 The history as of 1990s with an eye towards the development to [[M-theory]] is survey in 
 
@@ -253,7 +253,7 @@ More recent textbook accounts include
 
 Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the [[supergravity torsion constraints]] is in 
 
-* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B **415** 2 (1997) 149-155 &lbrack;[arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184), <a href="https://doi.org/10.1016/S0370-2693(97)01261-6">doi:10.1016/S0370-2693(97)01261-6</a>&rbrack;
 
 following 
 
