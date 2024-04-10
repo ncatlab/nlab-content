@@ -1296,7 +1296,7 @@ This appears as ([Johnstone, lemma 1.1.1](#Johnstone)).
 +-- {: .proof}
 ###### Proof
 
-Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L R$ to a comonad structure on $Id_D$. By the [[Eckmann-Hilton argument]] the [[endomorphism monoid]] of $Id_D$ is commutative. Therefore,  since the coproduct on the comonad $Id_D$ is a [[left inverse]] to the counit (by the co-[[unitality]] property applied to this degenerate situation), it is in fact a two-sided [[inverse]] and hence the $Id_D$-counit is an [[isomorphism]]. Transferring this back one finds that also the counit of the comand $L R$, hence of the adjunction $(L \dashv R)$ is an isomorphism.
+Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L R$ to a comonad structure on $Id_D$. By the [[Eckmann-Hilton argument]] the [[endomorphism monoid]] of $Id_D$ is commutative. Therefore,  since the comultiplication of the comonad $Id_D$ is a [[left inverse]] to the counit (by the co-[[unitality]] property applied to this degenerate situation), it is in fact a two-sided [[inverse]] and hence the $Id_D$-counit is an [[isomorphism]]. Transferring this back one finds that also the counit of the comand $L R$, hence of the adjunction $(L \dashv R)$ is an isomorphism.
 
 =--
 
