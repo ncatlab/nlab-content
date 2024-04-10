@@ -71,6 +71,7 @@ Textbook accounts:
 
   > on [[black holes]], [[cosmology]] and the ([[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation of]]) [[supergravity]]
 
+* [[Kirill Krasnov]], *Formulations of General Relativity -- Gravity, Spinors and Differential Forms*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108674652](https://doi.org/10.1017/9781108674652), taster:[pdf](https://www.maths.nottingham.ac.uk/plp/pmzkk/book_taster.pdf)&rbrack;
 
 Lecture notes:
 
@@ -82,9 +83,11 @@ Lecture notes:
 
 * [[Daniel Baumann]], *[General Relativity](http://cosmology.amsterdam/general-relativity/)*, 2021 ([pdf](http://cosmology.amsterdam/wp-content/uploads/2021/10/GR-Oct19.pdf))
 
-and with focus on [[causal structure]], the [[Penrose singularity theorem]] and related aspects:
-
 * [[Edward Witten]], *Light Rays, Singularities, and All That*, Rev. Mod. Phys. **92** 45004 (2020) &lbrack;[arXiv:1901.03928](https://arxiv.org/abs/1901.03928), [doi:10.1103/RevModPhys.92.045004](https://doi.org/10.1103/RevModPhys.92.045004), lecture: [video 1](https://www.youtube.com/watch?v=-vS_WIa0vYo), [2](https://www.youtube.com/watch?v=4kEiNotDhck), [3](https://www.youtube.com/watch?v=Qje1ak6XF20), [4](https://www.youtube.com/watch?v=tzt25nkGg3Q), [5](https://www.youtube.com/watch?v=yC5BHqPw38Q), [6](https://www.youtube.com/watch?v=GHPL2_aomo8), [7](https://www.youtube.com/watch?v=tDeQ9ght3aI), [8](https://www.youtube.com/watch?v=fsmcGpKFbFU), [9](https://www.youtube.com/watch?v=Z_crNwSKpW0)&rbrack;
+
+  > (with focus on [[causal structure]], the [[Penrose singularity theorem]] and related aspects)
+
+* [[Kirill Krasnov]], *Formulations of General Relativity*, PIRSA lecture series (Feb 2019) &lbrack;part 1:[doi:10.48660/19020079](https://doi.org/10.48660/19020079), 2:[doi:10.48660/19020080](https://doi.org/10.48660/19020080), 3:[doi:10.48660/19020081](https://doi.org/10.48660/19020081), 4:[doi:10.48660/19020082](https://doi.org/10.48660/19020082)&rbrack;
 
 Emphasis on [[mathematical physics]]
 
