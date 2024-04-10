@@ -241,6 +241,9 @@ Other technical reviews:
 
 * {#DHMMNVW19} Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
 
+* [[Urko Reinosa]], *Aspects of confinement within non-Abelian gauge theories*, lectures at *[QCD Masterclass, Saint-Jacut-de-la-Mer, June 2023](https://indico.cern.ch/event/1174608/)* &lbrack;[arXiv:2404.06118](https://arxiv.org/abs/2404.06118)&rbrack;
+
+
 See also:
 
 * [[Yuri A. Simonov]], *The fundamental scale of QCD* ([arXiv:2103.08223](https://arxiv.org/abs/2103.08223))
