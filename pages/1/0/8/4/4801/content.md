@@ -29,6 +29,9 @@ See at _[[field (physics)]]_ the section _[Ordinary gravity](field%20%28physics%
 
 * [[Pietro Fré]], §5.2.2 in: *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
 
+* [[Kirill Krasnov]], §3 in: *Formulations of General Relativity*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108674652](https://doi.org/10.1017/9781108674652), taster:[pdf](https://www.maths.nottingham.ac.uk/plp/pmzkk/book_taster.pdf)&rbrack;
+
+
 
 
 See also at:
