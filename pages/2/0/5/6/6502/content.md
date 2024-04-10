@@ -374,6 +374,8 @@ Discussion with an eye towards [[first-order formulation of gravity]]:
 
 * [[Gabriel Catren]], *Geometrical Foundations of Cartan Gauge Gravity*,  Int. J. Geom. Methods in Modern Physics **12** 04 (2015) 1530002  &lbrack;[arXiv:1407.7814](https://arxiv.org/abs/1407.7814), [doi:10.1142/S0219887815300020](https://doi.org/10.1142/S0219887815300020)&rbrack;
 
+* [[Kirill Krasnov]], §3 in: *Formulations of General Relativity*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108674652](https://doi.org/10.1017/9781108674652), taster:[pdf](https://www.maths.nottingham.ac.uk/plp/pmzkk/book_taster.pdf)&rbrack;
+
 
 Discussion with an eye towards [[torsion constraints in supergravity]]:
 
