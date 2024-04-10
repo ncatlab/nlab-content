@@ -129,6 +129,9 @@ See also:
 
 * [[Yuji Tachikawa]], Hao Y. Zhang, *On a $\mathbb{Z}_3$-valued discrete topological term in 10d heterotic string theories* \[<a href="https://arxiv.org/abs/2403.08861">arXiv:2403.08861</a>\]
 
+* [[Theo Johnson-Freyd]], [[Mayuko Yamashita]], *On the 576-fold periodicity of the spectrum SQFT: The proof of the lower bound via the Anderson duality pairing* \[<a href="https://arxiv.org/abs/2404.06333">arXiv:2404.06333</a>\]
+
+
 
 #### Occurrences in string theory
 
