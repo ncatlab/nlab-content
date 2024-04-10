@@ -168,7 +168,7 @@ The first statement is a direct extension of the classical fact that [[smooth ma
  {#ModeledOnGrassmannAlgebra}
 
 We discuss a description of supermanifolds that goes back to 
-([DeWitt 92](#DeWitt92)) and ([Rogers](#Rogers)).
+([DeWitt 92](#DeWitt92)) and ([Rogers 2007](#Rogers07)).
 
 (...)
 
@@ -348,13 +348,15 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 ### As manifolds modelled on Grassmann algebras
 
-* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1984
-  
+* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1984  
 
-* {#Rogers} [[Alice Rogers]], Supermanifolds: Theory and Applications, World Scientific, (2007) 
+* {#Rogers07} [[Alice Rogers]], *Supermanifolds: Theory and Applications*, World Scientific (2007) &lbrack;[doi:10.1142/1878](https://doi.org/10.1142/1878)&rbrack;
 
-Alice Rogers claims, in Chapter 1, that the smooth-manifold-of-(infinite-dimensional)-Grassmann-algebras approach (the "concrete approach") is identical to the sheaf-of-ringed-spaces approach (the "algebro-geometric" approach) and that this equivalence is shown in Chapter 8. DeWitt seems unsure of this, but is writing more than 20 years earlier, before the ringed-space approach has been fully developed.
+  > ([Rogers 2007, Ch. 1](#Rogers07) that the smooth-manifold-of-(infinite-dimensional)-Grassmann-algebras approach (the "concrete approach") is identical to the sheaf-of-ringed-spaces approach (the "algebro-geometric" approach) and that this equivalence is shown in Chapter 8. DeWitt seems unsure of this, but is writing more than 20 years earlier, before the ringed-space approach has been fully developed.)
  
+* [[Alice Rogers]], *Aspects of the Geometrical Approach to Supermanifolds*, in: *Mathematical Aspects of Superspace*, NATO ASI Series **132**, Springer (1984) 135-148 &lbrack;[doi:10.1007/978-94-009-6446-4_5](https://doi.org/10.1007/978-94-009-6446-4_5)&rbrack;
+
+
 
 ### Other
 
