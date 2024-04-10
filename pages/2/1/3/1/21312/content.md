@@ -1,6 +1,6 @@
 
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Guy_F._de_Téramond)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Guy_de_Téramond_Peralta)
 
 
 ## Selected writings
