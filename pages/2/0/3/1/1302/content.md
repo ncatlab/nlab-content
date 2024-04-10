@@ -542,6 +542,12 @@ On a geometric stack
 
 * Leovigildo Alonso Tarrío, Ana Jeremías López, Marta Pérez Rodríguez, María J. Vale Gonsalves, _A functorial formalism for quasi-coherent sheaves on a geometric stack_, Expositiones Mathematicae __33__:4 (2015) 452-501 [doi](https://doi.org/10.1016/j.exmath.2014.12.007)
 
+See also
+
+* Section 3 in. [[Luigi Alfonsi]], [[Charles A. S. Young]]. *Towards non-perturbative BV-theory via derived differential geometry* (2023). ([arXiv:2307.15106](https://arxiv.org/abs/2307.15106)). 
+
+
+
 category: algebraic geometry
 
 [[!redirects quasicoherent sheaves]]
