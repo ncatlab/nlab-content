@@ -346,6 +346,9 @@ Further development:
 
 * [[Josh Cork]], [[Chris Halcrow]], *Quantisation of skyrmions using instantons* &lbrack;[arXiv:2403.17080](https://arxiv.org/abs/2403.17080)&rbrack;
 
+* Christoph Adam, Alberto Garcia Martin-Caro, Carlos Naya, Andrzej Wereszczynski, *Integral identities and universal relations for solitons* &lbrack;[arXiv2404.05789](https://arxiv.org/abs/2404.05789)&rbrack;
+
+
 
 
 Large computer search for Skyrmion solutions:
