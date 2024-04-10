@@ -106,6 +106,10 @@ On [[general relativity|relativistic]] MOND [[model (in theoretical physics)|mod
 
 * {#THCZ23} Shuxun Tian, Shaoqi Hou, Shuo Cao, Zong-Hong Zhu, *Time evolution of the local gravitational parameters and gravitational wave polarizations in a relativistic MOND theory*, Physical Review D, Volume 107, Issue 4. Published 24 February 2023. ([doi:10.1103/PhysRevD.107.044062](https://doi.org/10.1103/PhysRevD.107.044062), [arXiv:2302.13304](https://arxiv.org/abs/2302.13304))
 
+* [[Martin Bojowald]], Erick I. Duque, *Emergent Modified Gravity* &lbrack;[arXiv:2404.06375](https://arxiv.org/abs/2404.06375)&rbrack;
+
+
+
 ### Review
 
 General review includes
