@@ -22,7 +22,11 @@ On [[differential K-theory|differential]] [[KO-theory]] via [[mass terms]]:
 
 On the mod-2 [[elliptic genus]], both as a [[partition function]] of a [[superstring]] as well as via the [[string-orientation of tmf]]:
 
-* [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* &lbrack;[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)&rbrack
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* &lbrack;[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)&rbrack;
+
+On [[tmf]] in relation to [[elliptic genera]] as [[partition functions]] of [[2d SCFTs]]:
+
+* [[Theo Johnson-Freyd]], [[Mayuko Yamashita]], *On the 576-fold periodicity of the spectrum SQFT: The proof of the lower bound via the Anderson duality pairing* \[<a href="https://arxiv.org/abs/2404.06333">arXiv:2404.06333</a>\]
 
 
 category: people
