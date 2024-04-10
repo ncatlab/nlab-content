@@ -116,6 +116,9 @@ Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ whe
 
 =--
 
+([Batchelor 1979](#Batchelor79), reviewed in [Batchelor 1984, §1.13](#Batchelor84))
+
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -291,6 +294,10 @@ Discussion from the point of view of [[functorial geometry]]:
 
 * {#BerezinLeites} [[Felix Berezin]], D. A. Le&#301;tes, _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976).
 
+* {#Batchelor79} [[Marjorie Batchelor]], *The structure of supermanifolds*, Trans. Amer. Math. Soc. **253** (1979) 329-338 &lbrack;[doi:10.1090/S0002-9947-1979-0536951-0](https://doi.org/10.1090/S0002-9947-1979-0536951-0)&rbrack;
+
+* {#Batchelor84} [[Marjorie Batchelor]], *Graded Manifolds and Supermanifolds* in: *Mathematical Aspects of Superspace*, NATO ASI Series **132**, Springer (1984) 91-134 &lbrack;[doi:10.1007/978-94-009-6446-4_4](https://doi.org/10.1007/978-94-009-6446-4_4)&rbrack;
+
 * [[Yuri Manin]], §4.1 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
 * I. L. Buchbinder, S. M. Kuzenko, *Ideas and methods of supersymmetry and supergravity; or A walk through superspace* CRC Press (1998) &lbrack;[ISBN:10.1201/9780367802530](https://library.oapen.org/handle/20.500.12657/50874)&rbrack;
@@ -386,4 +393,6 @@ See also [pdf](http://www.math.uni-hamburg.de/home/sachse/handoutbatchelor.pdf)
 
 [[!redirects super-manifold]]
 [[!redirects super-manifolds]]
+
+[[!redirects Batchelor's theorem]]
 
