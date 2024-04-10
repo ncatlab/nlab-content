@@ -327,6 +327,8 @@ Discussion in [[topos theory]] is in
 
 * L. N. Stout, _Topological Properties of the Real Numbers Object in a Topos_ , Cah. Top. G&#233;om. Diff. Cat. **17** no.3 (1976) pp.295-326. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_3/CTGDC_1976__17_3_295_0/CTGDC_1976__17_3_295_0.pdf))
 
+* Andrej Bauer, James E. Hanson, _The Countable Reals_, [arXiv:2404.01256](https://arxiv.org/abs/2404.01256), 2024
+
 Discussion in [[homotopy type theory]] is in
 
 * [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
