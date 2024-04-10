@@ -213,8 +213,9 @@ Further discussion and review:
 
 * [[Adam Marsh]], _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089)), chapter 10 in: [[Adam Marsh]], _Mathematics for Physics: An Illustrated Handbook_, World Scientific 2018 ([doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/))
 
-
 * {#RudolphSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics Series, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://doi.org/10.1007/978-94-024-0959-8)&rbrack;
+
+* [[Kirill Krasnov]], §1.12 in: *Formulations of General Relativity*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108674652](https://doi.org/10.1017/9781108674652), taster:[pdf](https://www.maths.nottingham.ac.uk/plp/pmzkk/book_taster.pdf)&rbrack;
 
 
 Specifically in [[solid state physics]] ([[valence bundles]] and their [[K-theory classification of topological phases of matter]]):
