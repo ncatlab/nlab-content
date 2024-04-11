@@ -98,7 +98,7 @@ where '$\ess\forall$' means 'for all but finitely many' ($\tilde{K}$-[[K-finite|
 We equip $c_c$ with the topology of [[compact convergence]] (here, convergence on finite subsets).
 =--
 
-This is a [[locally convex space]].
+This is a [[locally convex space]] and not a Banach space.
 
 
 +-- {: .num_defn}
