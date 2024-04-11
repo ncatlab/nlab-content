@@ -156,9 +156,9 @@ $$
 
 where the first step is taking the component of a [[natural transformation]] at $c \in C$ and the second step is [[evaluation]] at $Id_c \in C(c,c)$. 
 
-The inverse of this map takes $f \in X(c)$ to the natural transformation $\eta^f$ with components
+The inverse of this map takes $\xi \in X(c)$ to the natural transformation $\eta^\xi$ with components
 $$
-  \eta^f_d := X(-)(f) : C(d,c) \to X(d)
+  \eta^\xi_d := X(-)(\xi) : C(d,c) \to X(d)
   \,.
 $$
 
