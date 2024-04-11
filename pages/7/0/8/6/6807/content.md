@@ -232,6 +232,7 @@ Computation of [[graviton]] [[scattering amplitudes]] with the BFSS matrix model
 
 * [[Aidan Herderschee]], [[Juan Maldacena]], *Three Point Amplitudes in Matrix Theory* &lbrack;[arXiv:2312.12592](https://arxiv.org/abs/2312.12592)&rbrack;
 
+* [[Juan Maldacena]], *Three point amplitudes + Soft theorems in the BFSS matrix model*, talk at *[KITP Conference: Spacetime and String Theory](https://online.kitp.ucsb.edu/online/strings-c24/)* (Apr 2024) &lbrack;[doi;10.26081/K62T48](https://doi.org/10.26081/K62T48)&rbrack;
 
 In relation to the [[soft graviton theorem]]:
 
