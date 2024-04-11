@@ -1,6 +1,12 @@
 
 
+* [Institute page](https://www.pa.ucla.edu/faculty-websites/ferrara.html)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Sergio_Ferrara)
+
+* [InSpire page](https://inspirehep.net/authors/1010108)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=BZ6UitAAAAAJ)
 
 One of the co-discoverers of [[supergravity]] ([[4d supergravity]]):
 
@@ -28,6 +34,16 @@ On [[D=6 supergravity]]:
 Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of their [[AdS-CFT duality|AdS-CFT dual]] [[gravity]]/[[string theory]] incarnation:
 
 * [[Laura Andrianopoli]], [[Sergio Ferrara]], _On short and long $SU(2,2/4)$ multiplets in the AdS/CFT correspondence_, Lett. Math.Phys. 48 (1999) 145-161 ([arXiv:hep-th/9812067](https://arxiv.org/abs/hep-th/9812067))
+
+On the history and development of [[supersymmetry]] and [[supergravity]]:
+
+* [[Sergio Ferrara]], *Supersymmetry: Some Reflections on the Future of a Symmetry from the Future*, 
+
+  talk at *2020 Breakthrough Prize Symposium* (November 2019) &lbrack;video:[yt](https://youtu.be/hZKVeJgVF04)&rbrack;
+
+  talk at *Colloqui della Classe di Scienze* (December 2019) &lbrack;video:[yt](https://youtu.be/bYSX3BdrJfc)&rbrack;
+
+  
 
 ## Related entries
 
