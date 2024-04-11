@@ -105,27 +105,23 @@ The same principle applies to other types, particularly [[dependent sum types]] 
 
 [[!redirects eta conversion]]
 [[!redirects eta-conversion]]
-[[!redirects ∞-conversion]]
+[[!redirects η-conversion]]
 
 [[!redirects eta reduction]]
 [[!redirects eta-reduction]]
-[[!redirects ∞-reduction]]
+[[!redirects η-reduction]]
 
 [[!redirects eta expansion]]
 [[!redirects eta-expansion]]
-[[!redirects ∞-expansion]]
+[[!redirects η-expansion]]
 
 [[!redirects eta rule]]
 [[!redirects eta-rule]]
-[[!redirects ∞-rule]]
+[[!redirects η-rule]]
 
 [[!redirects eta equivalent]]
 [[!redirects eta-equivalent]]
-[[!redirects ∞-equivalent]]
+[[!redirects η-equivalent]]
 [[!redirects eta equivalence]]
 [[!redirects eta-equivalence]]
-[[!redirects ∞-equivalence]]
-
-[[!redirects η-expansion]]
-[[!redirects η-reduction]]
-[[!redirects η-conversion]]
+[[!redirects η-equivalence]]
