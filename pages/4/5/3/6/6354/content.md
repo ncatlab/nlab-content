@@ -2,9 +2,13 @@
 
 Christopher Hull is professor for theoretical physics at Imperial College London.
 
-* [webpage](http://www.imperial.ac.uk/people/c.hull)
+* [institute page](http://www.imperial.ac.uk/people/c.hull)
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Chris_Hull_%28physicist%29)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Chris_Hull_%28physicist%29)
+
+* [InSpire page](https://inspirehep.net/authors/1005292)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=mbT5wsUAAAAJ)
 
 ## Selected writings
 
@@ -135,3 +139,7 @@ On [[Lagrangian densities]] for [[self-dual higher gauge theory|self-dual form f
 * [[5d supergravity]]
 
 category: people
+
+[[!redirects Chris M. Hull]]
+[[!redirects Christopher M. Hull]]
+
