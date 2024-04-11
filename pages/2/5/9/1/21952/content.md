@@ -21,6 +21,10 @@ On [[D=3 supergravity]] via [[super Cartan geometry]] for [[super L-infinity alg
 
 * [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], §16 in: *Poincaré Duality for Supermanifolds, Higher Cartan Geometry and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
+On [[adinkras]] in relation to [[pure spinors]]:
+
+* Richard Eager, [[Simone Noja]], Raphael Senghaas, [[Johannes Walcher]], *Adinkras and Pure Spinors* &lbrack;[arXiv:2404.07167](https://arxiv.org/abs/2404.07167)&rbrack;
+
 
 
 
