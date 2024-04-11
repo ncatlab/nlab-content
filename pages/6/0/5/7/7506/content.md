@@ -65,34 +65,34 @@ It makes some sense to call this $\beta$-reduction because under [[propositions 
 
 [[!redirects beta reduction]]
 [[!redirects beta-reduction]]
-[[!redirects ∞-reduction]]
+[[!redirects β-reduction]]
 
 [[!redirects beta conversion]]
 [[!redirects beta-conversion]]
-[[!redirects ∞-conversion]]
+[[!redirects β-conversion]]
 
 [[!redirects beta rule]]
 [[!redirects beta-rule]]
-[[!redirects ∞-rule]]
+[[!redirects β-rule]]
 
 [[!redirects beta equivalent]]
 [[!redirects beta-equivalent]]
-[[!redirects ∞-equivalent]]
+[[!redirects β-equivalent]]
 [[!redirects beta equivalence]]
 [[!redirects beta-equivalence]]
-[[!redirects ∞-equivalence]]
+[[!redirects β-equivalence]]
 
 [[!redirects beta reduced]]
 [[!redirects beta-reduced]]
-[[!redirects ∞-reduced]]
+[[!redirects β-reduced]]
 
 [[!redirects iota reduction]]
 [[!redirects iota-reduction]]
-[[!redirects ∞-reduction]]
+[[!redirects β-reduction]]
 
 [[!redirects iota equivalent]]
 [[!redirects iota-equivalent]]
-[[!redirects ∞-equivalent]]
+[[!redirects β-equivalent]]
 [[!redirects iota equivalence]]
 [[!redirects iota-equivalence]]
-[[!redirects ∞-equivalence]]
+[[!redirects β-equivalence]]
