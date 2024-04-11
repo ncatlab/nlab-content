@@ -36,12 +36,10 @@ This is distinct from the concept of an [[internal bicategory]], which additiona
 
 ## References
 
-- N. Martins-Ferreira. _Pseudo-categories_ Journal of Homotopy and Related Structures 1.1 (2006): 47-78. ([arXiv:math/0604549](https://arxiv.org/abs/math/0604549)
+- N. Martins-Ferreira. _Pseudo-categories_ Journal of Homotopy and Related Structures 1.1 (2006): 47-78. ([arXiv:math/0604549](https://arxiv.org/abs/math/0604549))
 
 [[!redirects internal pseudocategory]]
 [[!redirects internal pseudocategories]]
 
 [[!redirects pseudocategory]]
 [[!redirects pseudocategories]]
-
-
