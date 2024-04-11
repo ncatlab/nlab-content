@@ -794,7 +794,11 @@ The concept, and many of its basic properties, originates in several works of Br
 
 The universal property of the Day convolution, in the sense of free monoidal cocompletion, is discussed in
 
-* Geun  Bin Im and G. M. Kelly, _A universal property of the convolution monoidal structure_, J. Pure Appl. Algebra 43 (1986), no. 1, 75-88.
+* Geun Bin Im and G. M. Kelly, _A universal property of the convolution monoidal structure_, J. Pure Appl. Algebra 43 (1986), no. 1, 75-88.
+
+A generalisation to $\Phi$-cocompletions for some class $\Phi$ of weights is discussed in §3 of:
+
+* S. R. Johnson, _Monoidal Morita equivalence_, Journal of Pure and Applied Algebra 59.2 (1989): 169-177.
 
 General discussion includes
 
