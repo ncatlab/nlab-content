@@ -65,6 +65,9 @@ See also:
 
 * Pablo Bueno, Pablo A. Cano, Javier Moreno, Guido van der Velde, *Regular black holes in three dimensions* ([arXiv:2104.10172](https://arxiv.org/abs/2104.10172))
 
+* Matías Briceño, Cristián Martínez, [[Jorge Zanelli]], *On the central singularity of the BTZ geometries* &lbrack;[arXiv:2404.06552](https://arxiv.org/abs/2404.06552)&rbrack;
+
+
 In view of the [[cosmic censorship hypothesis]]:
 
 * [[Roberto Emparan]], Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_, JHEP 06 (2020) 038 ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
