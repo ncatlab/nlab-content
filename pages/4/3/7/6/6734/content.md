@@ -20,6 +20,10 @@ On [[Rarita-Schwinger fields]] (notably [[gravitinos]]):
 
 * Mauricio Valenzuela, [[Jorge Zanelli]], *The propagating modes of the massless Rarita--Schwinger system* &lbrack;[arXiv:2305.00106](https://arxiv.org/abs/2305.00106)&rbrack;
 
+Further on [[BTZ black holes]]:
+
+* Matías Briceño, Cristián Martínez, [[Jorge Zanelli]], *On the central singularity of the BTZ geometries* &lbrack;[arXiv:2404.06552](https://arxiv.org/abs/2404.06552)&rbrack;
+
 
 
 category: people
