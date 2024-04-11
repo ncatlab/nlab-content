@@ -97,6 +97,10 @@ and the [[soft graviton theorem]]:
 
 * [[Aidan Herderschee]], [[Juan Maldacena]], *Soft Theorems in Matrix Theory* &lbrack;[arXiv:2312.15111](https://arxiv.org/abs/2312.15111)&rbrack;
 
+surveyed in:
+
+* [[Juan Maldacena]], *Three point amplitudes + Soft theorems in the BFSS matrix model*, talk at *[KITP Conference: Spacetime and String Theory](https://online.kitp.ucsb.edu/online/strings-c24/)* (Apr 2024) &lbrack;[doi;10.26081/K62T48](https://doi.org/10.26081/K62T48)&rbrack;
+
 
 
 ## Related entries
