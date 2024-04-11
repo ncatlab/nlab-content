@@ -4727,13 +4727,16 @@ BPHZ renormalization was introduced in particular in
 * [[Klaus Hepp]], _Th&#233;orie de la Renormalisation_ Lect. Notes in Phys. Springer (1969)
 
 
-Review includes
+Review:
 
 * Klaus Sibold, _Bogoliubov-Parasiuk-Hepp-Zimmermann renormalization scheme_, Scholarpedia, 5(5):7306. [doi:10.4249/scholarpedia.7306](http://dx.doi.org/10.4249/scholarpedia.7306)
 
 * [[Alain Connes]], [[Matilde Marcolli]] _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
-The original articles on this are
+* [[Michel Talagrand]], §16 in: *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
+
+
+The original articles on the Hopf-algebraic formulation:
 
 * [[Alain Connes]], [[Dirk Kreimer]], _Renormalization in quantum field theory and the Riemann-Hilbert problem. I. The Hopf algebra structure of graphs and the main theorem_, Comm. Math. Phys. __210__ (2000), no. 1, 249&#8211;273, [hep-th/9912092](http://arxiv.org/abs/hep-th/9912092), [MR2002f:81070](http://www.ams.org/mathscinet-getitem?mr=1748177), [doi](http://dx.doi.org/10.1007/s002200050779), _II. The $\beta$-function, diffeomorphisms and the renormalization group_, Comm. Math. Phys. __216__ (2001), no. 1, 215--241; [hep-th/0003188](http://arxiv.org/abs/hep-th/0003188), [MR2002f:81071](http://www.ams.org/mathscinet-getitem?mr=1748177), [doi](http://dx.doi.org/10.1007/PL00005547)
 
