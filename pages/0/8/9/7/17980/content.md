@@ -159,9 +159,12 @@ See also
 
 * Kevin Iga, *Adinkras: Graphs of Clifford Algebra Representations, Supersymmetry, and Codes* ([arXiv:2110.01665](https://arxiv.org/abs/2110.01665))
 
-
-
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
+
+In relation to [[pure spinors]]:
+
+* Richard Eager, [[Simone Noja]], Raphael Senghaas, [[Johannes Walcher]], *Adinkras and Pure Spinors* &lbrack;[arXiv:2404.07167](https://arxiv.org/abs/2404.07167)&rbrack;
+
 
 
 [[!redirects adinkras]]
