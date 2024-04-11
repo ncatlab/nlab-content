@@ -188,6 +188,7 @@ Introductions:
 
 * [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
 
+* [[Michel Talagrand]], *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
 
 A standard textbook written from the perspective of [[effective field theory]]:
 
@@ -236,8 +237,7 @@ Discussion of perturbative [[quantum gravity]] in this perspective is in
 
 and survey of the generalization to [[gauge theory]] via [[homotopical algebraic quantum field theory]] is in 
 
-* {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
-in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) (with further emphasis on this point in the companion talk [Schreiber 14](field+bundle#Schreiber14)) 
+* {#Schenkel14} [[Alexander Schenkel]], *On the problem of gauge theories in locally covariant QFT*, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) (with further emphasis on this point in the companion talk [Schreiber 14](field+bundle#Schreiber14)) 
 
 * {#Schenkel17} [[Alexander Schenkel]], _Towards Homotopical Algebraic Quantum Field Theory_, talk at _[Foundational and Structural Aspects of Gauge Theories](https://indico.mitp.uni-mainz.de/event/76/overview)_,
 Mainz Institute for Theoretical Physics, 29 May &#8211; 2 June 2017. ([pdf](http://aschenkel.eu/Mainz17.pdf))
