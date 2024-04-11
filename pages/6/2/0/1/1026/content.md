@@ -30,7 +30,7 @@ $$
 
 is an [[isomorphism]]. In many and perhaps most cases, one refers to continuous functors $F \colon C \to D$ in cases where one already knows $C$ and $D$ are [[complete categories]], i.e., where $\lim A$ and $\lim F \circ A$ exist as a matter of course. 
 
-In such cases, all limits can be obtained from (small) [[products]] and binary [[equalizers]] (see [here](limit#ConstructionFromProductsAndEqualizers)), and so it follows that a functor from a [[complete category]] is continuous if and only if it [[preserved limoit|preserves]] all products and all binary equalizers. 
+In such cases, all limits can be obtained from (small) [[products]] and binary [[equalizers]] (see [here](limit#ConstructionFromProductsAndEqualizers)), and so it follows that a functor from a [[complete category]] is continuous if and only if it [[preserved limit|preserves]] all products and all binary equalizers. 
 
 ## Examples
 
