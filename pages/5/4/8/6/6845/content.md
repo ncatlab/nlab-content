@@ -12,6 +12,11 @@ On [[first-order formulation of gravity|first order formulation]] of [[supergrav
 
 * [[Bernard Julia]], S. Silva, *On first order formulations of supergravities*, JHEP 0001 (2000) 026 &lbrack;[arXiv:hep-th/9911035](https://arxiv.org/abs/hep-th/9911035), [doi:10.1088/1126-6708/2000/01/026](https://doi.org/10.1088/1126-6708/2000/01/026)&rbrack;
 
+On [[Eugène Cremmer]]:
+
+* [[Bernard Julia]], *Eugène Cremmer: 1942-2019*, Cern Courier **69** (19 July 2020) &lbrack;[web](https://cerncourier.com/a/eugene-cremmer-1942-2019), [web](https://www.lpens.ens.psl.eu/memories-of-eugene-cremmer-and-tributes)&rbrack;
+
+
 
 
 category: people
