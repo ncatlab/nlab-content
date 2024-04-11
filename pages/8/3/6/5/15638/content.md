@@ -7,6 +7,10 @@
 
 A _nonunital algebra_ is like an [[associative algebra]] but without specified [[identity]] element. The associative algebra version of _[[nonunital ring]]_, see there for more.
 
+## Examples
+
+The zero algebra is an example of an algebra that is nonunital as soon as the underlying vector space has dimension greater than 0. Given a vector space $V$, simply define its product to be $\mu: v\otimes w\mapsto 0$ for all vectors $v,w\in V$. Note that since a morphism $f:(A,\mu)\to (A',\mu')$ is a morphism of vector spaces $f:A\to A'$ such that $f(\mu(v\otimes w))=\mu'(f(v)\otimes f(w))$, a morphism between zero algebras is the same as linear maps of the underlying vector spaces. Thus, the zero product describes a full embedding of the category of vector spaces into the category of (nonunital) algebras.
+
 ## Related concepts
 
 * [[unitisation of C*-algebras]].
