@@ -43,6 +43,8 @@ See also
 
 * Francesco D'Andrea, Alessandro De Paris, _On noncommutative equivariant bundles_,  Commun. Alg. __47__:12 (2019) 5443-5461 [arxiv/1606.09130](https://arxiv.org/abs/1606.09130) [doi](https://doi.org/10.1080/00927872.2019.1631320)
 
+* Antonio Del Donno, Emanuele Latini, Thomas Weber. *On the Durdevic approach to quantum principal bundles* (2024). ([arXiv:2404.07944](https://arxiv.org/abs/2404.07944)).
+
 For principal bundles in the context of operator algebras, see
 
 * D. A. Ellwood, A new characterisation of principal actions, J. Funct. Anal. __173__(2000) 49–60, Zbl 0960.46049 [MR1760277](https://mathscinet.ams.org/mathscinet-getitem?mr=1760277)
