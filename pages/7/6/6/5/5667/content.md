@@ -787,6 +787,9 @@ Introductions and surveys include
 
 * {#Meyer06} [[R. Meyer]], *How analysis and topology interact in bivariant K-theory*, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
  
+On an approach using quasi-homomorphisms:
+
+* [[Joachim Cuntz]], James Gabe. *Generalized homomorphisms and KK with extra structure* (2024). ([arXiv:2404.06840](https://arxiv.org/abs/2404.06840)).
 
 ### Excision
 
