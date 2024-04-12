@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -137,11 +137,13 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
   * [[geometric Langlands duality]]
 
+* [[Proca theory]]
+
 * [[Chern-Simons theory]]
 
 * [[Yang-Mills instanton]]
 
-  * [[confinement]]
+* [[confinement]]
 
 * [[asymptotic freedom]]
 
