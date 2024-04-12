@@ -27,15 +27,15 @@ _This paragraph is translated from the abstract of ([Beilinson's Yaroslavly' lec
 
 ## Overview
 
-_p-adic Hodge theory_ is the study of properties of p-adic (&#233;tale, de Rham, logarithmic cristalline) [[cohomology]] (and [[motives]]) of non-archimedean [[analytic spaces]]. The $p$-adic Hodge structure of a (proper or semi-stably compactified) p-adic analytic variety is essentially given by a relation between three important invariants of the given variety:
+_p-adic Hodge theory_ is the study of properties of p-adic (&#233;tale, de Rham, logarithmic crystalline) [[cohomology]] (and [[motives]]) of non-archimedean [[analytic spaces]]. The $p$-adic Hodge structure of a (proper or semi-stably compactified) p-adic analytic variety is essentially given by a relation between three important invariants of the given variety:
 
 * p-adic de Rham cohomology equipped with the Hodge filtration,
 
-* log-cristalline cohomology (of a potentially semi-stable model) equipped with its Frobenius and monodromy map,
+* log-crystalline cohomology (of a potentially semi-stable model) equipped with its Frobenius and monodromy map,
 
 * [[pro-étale cohomology]] of the extension of the given variety to a `chosen` algebraic closure of the base field, together with its natural action of the Galois group.
 
-There is an "evident" isomorphism between p-adic de Rham cohomology and log-cristalline cohomology (both are given by a kind of differential calculus).
+There is an "evident" isomorphism between p-adic de Rham cohomology and log-crystalline cohomology (both are given by a kind of differential calculus).
 
 The main theorem of p-adic Hodge theory is that the datum of these two cohomologies and their relation
 on the one side, and of pro-&#233;tale cohomology on the other side, mutually determine each other (once
@@ -105,15 +105,15 @@ The ring $B_{dR}$ is equipped with a filtration and a Galois action. We have a w
 
 $$H_{\mathrm{dR}}^{i}(X)=(H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}})^{\mathrm{Gal}_{\mathbb{Q}_{p}}}$$
 
-Recovering the $p$-adic etale cohomology from the de Rham cohomology involves a different period ring, the crystalline period ring $B_{cris}$ (which is equipped with a Frobenius $\varphi$ in addition to a filtration and Galois action), and is only possible if $X$ has an integral model:
+Recovering the $p$-adic etale cohomology from the de Rham cohomology involves a different period ring, the crystalline period ring $B_{crys}$ (which is equipped with a Frobenius $\varphi$ in addition to a filtration and Galois action), and is only possible if $X$ has an integral model:
 
-$$H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})= \mathrm{Fil}^{0}(H_{\mathrm{dR}}^{i}(X)\otimes_{\mathbb{Q}_{p}} B_{\mathrm{cris}})^{\varphi=1}$$
+$$H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})= \mathrm{Fil}^{0}(H_{\mathrm{dR}}^{i}(X)\otimes_{\mathbb{Q}_{p}} B_{\mathrm{crys}})^{\varphi=1}$$
 
 ## Construction of period rings
 
 We now show how to construct $B_{dR}. $Let $\mathcal{O}_{\mathbb{C}_{p}}$ be the ring of integers of $\mathbb{C}_{p}$. We take the tilt $\mathbb{O}_{\mathbb{C}_{p}}^{\flat}$ of $\mathbb{O}_{\mathbb{C}_{p}}$, and take Witt vectors. The resulting ring $W(\mathbb{O}_{\mathbb{C}_{p}}^{\flat})$ is also called $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})$. It comes with a canonical map $\theta:A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})\to \mathcal{O}_{\mathbb{C}_{p}}$. Inverting $p$ and taking the completion with respect to $\theta$ gives us the ring $B_{dR}^{+}$. There is a special element $t\in B_{dR}^{+}$ which we think of as the logarithm of the element $(1,\zeta,\zeta^{1/p},\ldots)$. Then we define $B_{dR}=B_{dR}^{+}[1/t]$.
 
-Next we show how to construct $B_{cris}$. Once again we take $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})$ and invert $p$. Instead of completing with respect to $\theta$, as in the construction of $B_{dR}$, we take a generator $\omega$ of its kernel, and consider the ring $B_{cris}^{+}$ whose elements are power series of the form $\sum a_{n}\omega^{n}$ where the $a_{n}$'s are elements of $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})[1/p]$ which converge to $0$ as $n$ approaches infinity, with respect to the topology of $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})[1/p]$. Once again there will be an element $t$ as in the construction of $B_{dR}$; we define $B_{cris}=B_{cris}^{+}[1/t]$.
+Next we show how to construct $B_{crys}$. Once again we take $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})$ and invert $p$. Instead of completing with respect to $\theta$, as in the construction of $B_{dR}$, we take a generator $\omega$ of its kernel, and consider the ring $B_{crys}^{+}$ whose elements are power series of the form $\sum a_{n}\omega^{n}$ where the $a_{n}$'s are elements of $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})[1/p]$ which converge to $0$ as $n$ approaches infinity, with respect to the topology of $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})[1/p]$. Once again there will be an element $t$ as in the construction of $B_{dR}$; we define $B_{crys}=B_{crys}^{+}[1/t]$.
 
 ## Classification of $p$-adic Galois representations
 
@@ -121,7 +121,7 @@ We can abstract the concepts discussed above and take a p-adic Galois representa
 
 $$V_{dR}=(V\otimes B_{dR})^{\mathrm{Gal}_{\mathbb{Q}_{p}}}$$
 
-If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ is _de Rham_. We can also apply this construction with $B_{cris}$ instead of $B_{dR}$; if the dimension stays the same we say that $V$ is _crystalline_.
+If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ is _de Rham_. We can also apply this construction with $B_{crys}$ instead of $B_{dR}$; if the dimension stays the same we say that $V$ is _crystalline_.
 
 ## $p$-adic Hodge theory for rigid analytic spaces
 
