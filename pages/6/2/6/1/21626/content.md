@@ -14,4 +14,8 @@ On the [[tensor product]] of [[PROs]] as the [[smash product]] of [[pointed spac
 
 * [[Amar Hadzihasanovic]], _The smash product of monoidal theories_, ([arXiv:2101.10361](https://arxiv.org/abs/2101.10361))
 
+A book on higher-categorical [[string diagram|diagrams]]:
+
+* [[Amar Hadzihasanovic]], _Combinatorics of higher-categorical diagrams_ &lbrack;[arXiv:2404.07273](https://arxiv.org/abs/2404.07273)&rbrack;
+
 category: people
