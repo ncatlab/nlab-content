@@ -220,7 +220,6 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 * [[Mario Flory]], Sebastian Grieninger, Sergio Morales-Tejera, *Critical and near-critical relaxation of holographic superfluids* &lbrack;[arXiv:2209.09251](https://arxiv.org/abs/2209.09251)&rbrack;
 
-and for the case of [[vortices]]:
 
 * Markus A. G. Amano, Minoru Eto, *Holographic Global Vortices with Novel Boundary Conditions* &lbrack;[arXiv:2404.03212](https://arxiv.org/abs/2404.03212)&rbrack;
 
@@ -265,7 +264,8 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 
 * Latham Boyle, Madeline Dickens, Felix Flicker, _Conformal Quasicrystals and Holography_, Phys. Rev. X 10, 011009 (2020) ([arXiv:1805.02665](https://arxiv.org/abs/1805.02665))
 
-* Alexander Jahn, Zoltán Zimborás, Jens Eisert, _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+* [[Alexander Jahn]], Zoltán Zimborás, [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+
 
 ### Relation to $p$-adic AdS/CFT correspondence
 
