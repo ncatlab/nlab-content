@@ -495,6 +495,11 @@ Discussion of the use of string diagrams to treat [[universal constructions]] su
 
 * Kenji Nakahira, _Diagrammatic category theory_ &lbrack;[arXiv:2307.08891](https://arxiv.org/abs/2307.08891)&rbrack;
 
+A book on higher-categorical diagrams:
+
+* [[Amar Hadzihasanovic]], _Combinatorics of higher-categorical diagrams_ &lbrack;[arXiv:2404.07273](https://arxiv.org/abs/2404.07273)&rbrack;
+
+
 
 
 ### Software
