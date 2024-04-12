@@ -46,6 +46,8 @@ group' by Grothendieck.
 
 * [[arithmetic geometry]]
 
+* [[anabelioid]]
+
 ## References
 
 The notion of anabelian geometry originates in 
@@ -77,6 +79,7 @@ A comprehensive introduction is in
 
 * [[Fedor Bogomolov]], [[Yuri Tschinkel]], *Introduction to birational anabelian geometry* &lbrack;[pdf](http://www.math.nyu.edu/~tschinke/papers/yuri/10msri/msri7.pdf), [arXiv:1011.0883](https://arxiv.org/abs/1011.0883)&rbrack;
 
+* [[Hoshi, Yuichiro]]. Introduction to Mono-anabelian Geometry. Publications mathématiques de Besançon. Algèbre et théorie des nombres (2021), pp. 5-44. doi : 10.5802/pmb.42. http://www.numdam.org/articles/10.5802/pmb.42/
 
 Examples are discussed in
 
