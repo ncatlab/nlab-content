@@ -40,7 +40,7 @@ Partitioning the interval $[1, n]$ into subintervals of unit length, the corresp
 $$T_n = \frac{\log 1 + \log 2}{2} + \frac{\log 2 + \log 3}{2} + \cdots + \frac{\log (n-1) + \log n}{2} = \log (n!) - \frac1{2} \log n = \log \frac{n!}{\sqrt{n}}.$$ 
 $T_n$ underestimates $I_n$ because the graph of $\log$ is "concave down" (meaning $-\log x$ is a [[convex function]]). In other words, the error terms 
 
-$$\int_k^{k+1} \log x\; dx - \frac{\log k + \log (k+1)}{2}  $$ 
+$$\int_k^{k+1} \log x\; dx - \frac{\log k + \log (k+1)}{2}  \qquad (1)$$ 
 are positive, so that the sum of these error terms from $k=1$ to $n-1$, which is $I_n - T_n$, increases with $n$. However, using the error term estimate for the trapezoidal rule, the term (1) is on the order of $1/k^2$ (the maximum value of $|(\log)''(x)| = 1/x^2$ over $[k, k+1]$). Since $\sum 1/k^2$ converges, we see that the increasing sequence $I_n - T_n$ has a uniform upper bound and therefore a limit. Hence the limit 
 
 $$\underset{n \to \infty}{\lim} (I_n - 1) - T_n = 
@@ -52,7 +52,7 @@ exists, and therefore $n! \sim C\frac{n^n \sqrt{n}}{e^n}$ for some constant $C$.
 The following lemma makes reference to the [[Gamma function]]. 
 
 \begin{lemma} 
-$\frac{\sqrt{2\pi}}{C} = \underset{n \to \infty}{\lim} \frac{\Gamma(n + (1/2))}{\Gamma(n) \cdot \sqrt{n}}$; in particular, this limit exists. 
+$\frac{\sqrt{2\pi}}{C} = \underset{n \to \infty}{\lim} \frac{\Gamma(n + \frac1{2})}{\Gamma(n) \cdot \sqrt{n}}$; in particular, this limit exists. 
 \end{lemma} 
 
 \begin{proof} 
@@ -68,17 +68,17 @@ $$\frac{\sqrt{2\pi}}{C} \sim \frac{(2n-1)(2n-3) \ldots 3 \cdot 1}{2 \cdot (2n-2)
 \end{proof} 
 
 \begin{proposition} 
-$\underset{n \to \infty}{\lim} \frac{\Gamma(n + (1/2))}{\Gamma(n) \cdot \sqrt{n}}  = 1$. 
+$\underset{n \to \infty}{\lim} \frac{\Gamma(n + \frac1{2})}{\Gamma(n) \cdot \sqrt{n}}  = 1$. 
 \end{proposition}  
 
 \begin{proof} 
 From log-convexity of $\Gamma$ (see [here](https://ncatlab.org/nlab/show/H%C3%B6lder%27s+inequality#relation_to_logconvex_functions)), we may derive 
 
-$$\frac{\Gamma(x-1/2)}{\Gamma(x - 1)} \leq \frac{\Gamma(x)}{\Gamma(x-1/2)} \leq \frac{\Gamma(x+1/2)}{\Gamma(x)}$$ 
-which implies that the values of $\frac{\Gamma(x+1/2)}{\Gamma(x) \cdot \sqrt{x}}$, with $x$ ranging over half-integers, tend to the same limit $L$ as with $x$ ranging over whole integers. Therefore 
+$$\frac{\Gamma(x-\frac1{2})}{\Gamma(x - 1)} \leq \frac{\Gamma(x)}{\Gamma(x-\frac1{2})} \leq \frac{\Gamma(x+\frac1{2})}{\Gamma(x)}$$ 
+which implies that the values of $\frac{\Gamma(x+\frac1{2})}{\Gamma(x) \cdot \sqrt{x}}$, with $x$ ranging over half-integers, tend to the same limit $L$ as with $x$ ranging over whole integers. Therefore 
 
-$$L^2 = \underset{n \to \infty}{\lim} \frac{\Gamma(n+1)}{\sqrt{n+(1/2)}\cdot \Gamma(n + (1/2))} \cdot \frac{\Gamma(n + (1/2))}{\sqrt{n}\Gamma(n)} 
-= \underset{n \to \infty}{\lim} \frac{n\Gamma(n)}{\sqrt{(n+1/2)n}\cdot \Gamma(n)} = \underset{n \to \infty}{\lim} \frac{n}{\sqrt{(n+1/2)n}},$$ 
+$$L^2 = \underset{n \to \infty}{\lim} \frac{\Gamma(n+1)}{\sqrt{n+\frac1{2}}\cdot \Gamma(n + \frac1{2})} \cdot \frac{\Gamma(n + \frac1{2})}{\sqrt{n}\Gamma(n)} 
+= \underset{n \to \infty}{\lim} \frac{n\Gamma(n)}{\sqrt{(n+\frac1{2})n}\cdot \Gamma(n)} = \underset{n \to \infty}{\lim} \frac{n}{\sqrt{(n+\frac1{2})n}},$$ 
 whence $L^2 = 1$, and therefore $L = 1$. 
 \end{proof} 
 
