@@ -371,3 +371,6 @@ The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to
 [[!redirects L-infinity algebra action]]
 [[!redirects L-infinity algebra actions]]
 
+[[!redirects L-infinity representation]]
+[[!redirects L-infinity representations]]
+
