@@ -1119,9 +1119,45 @@ Graviton**
 ### Apr 2024
  {#Apr2024}
 
-19-21 April 2024
+\linebreak
 
-{#RunningHoTT2024} **Homotopy Type Theory and Computing -- Classical and Quantum**
+{#FieldTheoryAndGravityApr2024} 17 April 2024
+
+Workshop: **Field Theory and Gravity -- Classical and Quantum**
+
+* [[Alberto Cattaneo]] (Univ. Zurich):
+
+  **BV pushforward and applications**
+
+  > In the [[BV formalism]] the [[spaces of fields]] are presented as [[chain complex|complexes]] whose [[cochain cohomology|cohomology]] returns the physical content. Different but equivalent complexes may be used, which turns out to be important conceptually and in practice. One useful operation is that of a [[partial integration]] (BV [[pushforward]]), which produces a [[chain map]] that, under some assumptions, is a [[quasiisomorphism]]. This has several applications: construction of [[observables]] (often as [[L-infinity representation|$L_\infty$-representations]]), [[renormalization]] à la Wilson, highly nontrivial equivalences of theories. I will discuss some examples.
+
+* [[Alberto Cattaneo]] (Univ. Zurich): 
+
+  **Poisson structures from corners of field theories**
+
+  > The [[BV formalism]] and its [[shifted symplectic structure|shifted versions]] in [[field theory]] have a nice compatibility with [[boundary field theory|boundary structures]]. In particular, one such structure (BFV) on the [[boundary of a manifold|boundary]] induces a shifted (possibly degenerated) version on its boundary, which can be interpreted as a [[Poisson structure]] (up to [[homotopy]]). I will present the results for some field theories, in particular, 4D [[BF theory]] and 4D [[gravity]].
+
+* [[Grigorios Giotopoulos]] (NYU AD):
+
+  ...
+
+* [[Urs Schreiber]] (NYU AD):
+
+  **Flux-Quantized 11D Supergravity on Superspace**
+
+  
+
+  > This is joint work with [[Hisham Sati]] and [[Grigorios Giotopoulos]].
+
+* ...
+  
+
+\linebreak
+\linebreak
+
+{#RunningHoTT2024} 19-21 April 2024
+
+Conference: **Homotopy Type Theory and Computing -- Classical and Quantum**
 
 home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html)
 
@@ -1153,7 +1189,7 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   * [[Thorsten Altenkirch]]
 
-  * [[Carlo Angiuli]]
+  * [[Carlo Angiuli]] (online)
 
   * [[Ulrik Buchholtz]]
 
@@ -1173,23 +1209,93 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   * [[Anders Mörtberg]]
 
-  * [[Reed Mullanix]]
-
-  * [[Jennifer Paykin]] (tbc)
-
-  * [[Robert Rand]]
-
-  * [[Jon Sterling]] (tbc)
-
-  * [[David Wärn]]
-
-* local:
-
   * [[David Jaz Myers]]
+
+  * [[Jennifer Paykin]]
+
+  * [[Robert Rand]] (online)
 
   * [[Mitchell Riley]]
 
   * [[Urs Schreiber]]
+
+  * [[Michael Shulman]] (online)
+
+  * [[Jon Sterling]]
+
+  * [[David Wärn]]
+
+
+
+
+**Talks:**
+
+* {#AltenkirchApr2024} [[Thorsten Altenkirch]] (Univ. Nottingham):
+
+  ...
+
+* [[András Kovács]] (Univ. Gothenburg):
+
+  **Optimizing Evaluation for Cubical Type Theories**
+
+  > There are numerous interesting computations in [[cubical type theory]], mostly in relation to [[synthetic homotopy theory]], which are too expensive to perform in existing systems. One way to try to address this is to optimize the involved [[definitions]]. Another way, that I focus on in this talk, is to improve evaluation for the theory itself. I present a recent implementation of a [[cubical type theory|CTT]] with major performance improvements. Broadly speaking, the benefits stem from a) systematically omitting unnecessary computation b) exploiting the [[canonicity]] property of the CTT when computation depends on [[interval]] [[variables]] but not [[free variables]] with [[fibrant types]].
+
+* [[Thomas Lamiaux]] (ENS Paris):
+
+  **Computing Cohomology Rings in Cubical Agda**
+
+  >  In this talk, we will discuss the formalization of [[cohomology rings]] in [Cubical Agda](Agda#CubicalAgda), and how we computed a few basic examples. We will particularly focus on: 1. How the choice of a [[data type]] representation influence formalisation, in our case for representing [[polynomials]] and [[cohomology rings]] 2. How suitable representations can be used to compute cohomology rings 3. Where computation would be helpful, how it is limited in practice, and how we can still recover some computation to help us with our [[proof]].
+
+* [[Axel Ljungström]]:
+
+  **More cellular (co)homology in HoTT**
+
+  >  In this talk, I'll present some ongoing work with [[Anders Mörtberg]] and [[Loïc Pujet]] on the development and computer formalisation of [[cellular homology|cellular homology]] [[cellular cohomology|and cohomology]]. Cellular cohomology was first studied in [[HoTT]] by [[Ulrik Buchholtz|Buchholtz]] and [[Favonia]] who constructed cellular cohomology groups and showed that these define a [[cohomology theory]]. This was done by proving their construction equivalent to the usual construction of cohomology groups via [[Eilenberg-MacLane spaces]]. I will present an alternative approach to cellular (co)homology (à la Buchholtz & Favonia) using a more traditional framework building on the theory of [[cellular approximations]]. One benefit of this approach is that it works uniformly for [[ordinary homology|homology]] and [[ordinary cohomology|cohomology]]. In particular, I will show you some versions of [[cellular approximation theorems]] we can prove [[constructive mathematics|constructively]] in [[HoTT]] and discuss how these can be used to get [[functor|functorial]] cohomology and homology theories. Another benefit of the approach by cellular approximation is that it makes the definition of the [[cup product]] on cellular cohomology rather direct. If time permits, I will discuss also this construction and whether it can aid in cohomology computations, both in the mathematical sense and in the sense of normalisation in constructive proof assistants like [Cubical Agda](Agda#CubicalAgda).
+
+* [[Anders Mörtberg]] (Stockholm University):
+
+  **Computational Proofs in Synthetic Homotopy Theory**
+
+  > ...
+
+
+* [[Jennifer Paykin]] (Intel Labs)
+
+  **Symplectic Types for a Clifford Lambda Calculus**
+
+  > Can [[quantum programming languages]] move beyond [[quantum gate|gate-based]] programming? In this talk I will present work in progress where [[quantum ]]algorithms (specifically, Clifford unitaries over [[qudits]]) are expressed as functions on compact Pauli encodings. Inspired by the fact that projective Cliffords correspond to center-fixing automorphisms on the Pauli group, we develop a [[type system]] where well-typed expressions correspond to symplectic morphisms---that is, [[linear transformations]] that respect the [[symplectic form]]. This language is backed up by a robust [[categorical semantics|categorical]] and [[operational semantics]], and well-typed functions can be efficiently simulated and synthesized into [[quantum circuit|circuits]]. The resulting [[linear type theory|linear type system]] and semantics is a promising candidate for synthetic mathematical reasoning using [[linear homotopy type theory|linear HoTT]].
+
+* [[Robert Rand]] (Univ. Chicago):
+
+  **Verifying the ZX-calculus and its Friends**
+
+  > We seek to verify the [[ZX-calculus]], a powerful tool for representing and reasoning about [[quantum computation]]. ZX-diagrams are typically represented as adjacency-based [[graphs]], reflecting the guiding principle that “only connectivity matters”. In the context of [[proof assistant|formal theorem provers]] like [[Coq]], however, such graphs are difficult to reason about, especially when we seek to give them [[semantics]]. To address this gap, we introduce `VyZX`, a [[software verification|verified]] library for reasoning about the ZX-calculus, using inductive constructs that arise naturally from [[category theory|category theoretic]] definitions. We extend `VyZX` to reason about a variety of [[monoidal categories]], provided they satisfy an appropriate set of [[coherence conditions]].
+
+* [[Urs Schreiber]] (NYU AD):
+
+  **Towards Quantum Programming via Linear Homotopy Types**
+
+  > Remarkably, among the [[(infinity,1)-topos|$\infty$-toposes]] into which [[HoTT]] [[categorical semantics|interprets]] are "[[tangent (infinity,1)-topos|tangent $\infty$-toposes]]" of [[parameterized spectrum|parameterized]] [[module spectra]], which behave like [[categorical semantics|semantics]] for an enhancement of [[HoTT]] by [[linear homotopy type theory|dependent *linear* homotopy types]], neatly combining the [[linear type theory|linear aspect]] of [[type theory|typed]] [[quantum programming languages]] (like [[Proto-Quipper]]) with [[homotopy theory|homotopy-theoretic]] aspects needed for future *[[topological quantum computation|topological quantum]]* [[quantum programming language|languages]]. I will survey this [[linear homotopy type theory|LHoTT]]-perspective on [[quantum systems]], developed jointly with [[Hisham Sati]] ("[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in HoTT]]" [arXiv:2303.02382](https://arxiv.org/abs/2303.02382), "[[schreiber:Entanglement of Sections|Entanglement of Sections]]" [arXiv:2309.07245](https://arxiv.org/abs/2309.07245), "[[schreiber:The Quantum Monadology|The Quantum Monadology]]" [arXiv:2310.15735](https://arxiv.org/abs/2310.15735), "[[schreiber:Quantum and Reality|Quantum and Reality]]" [arXiv:2311.11035](https://arxiv.org/abs/2311.11035)).
+
+* [[Michael Shulman]] (Univ. San Diego):
+
+  **Towards an Implementation of Higher Observational Type Theory**
+
+  > [[higher observational type theory|Higher Observational Type Theory]] is a third style of [[homotopy type theory|Homotopy Type Theory]], contrasting with [[Book HoTT]] and [[cubical type theory|Cubical Type Theory]]. It is characterized by a definition of [[identity types]] by [[recursion]] on the base type: the identity type of a [[product type]] is defined to be a product of identity types, and so on. [[extensional type theory|Extensionality principles]] like [[function extensionality|funext]], [[univalence]], and [[bisimulation]] then hold essentially by definition, rather than only up to [[type equivalence|equivalence]]. Like [[cubical type theory|Cubical Type Theory]], [[higher observational type theory|Higher Observational Type Theory]] can be built by defining a [[fibrant type|fibrancy predicate]] in a non-univalent substrate theory, which in this case is a form of internally parametric type theory. [Altenkirch's talk](#AltenkirchApr2024) describes a [[canonicity]] proof for this substrate; I will sketch a normalization algorithm for it (sans proof), and then demonstrate a prototype implementation of this algorithm. This is joint work in progress with [[Thorsten Altenkirch|Altenkirch]], [[Ambrus Kaposi|Kaposi]], and Uskuplu.
+
+* [[Jonathan Sterling]] (Univ. Cambirdge):
+
+  **Baby steps in higher domain theory**
+
+  > I present some preliminary results obtained with Leoni Pugh concerning partial map classifiers in higher [[domain theory]], realised in a version of [[Emily Riehl|Riehl]] and [[Michael Shulman|Shulman]]’s [[simplicial type theory]] extended by Phoa’s principle for the simplicial interval.
+
+* [[David Wärn]] (Univ. Gothenburg):
+
+  **The zigzag construction**
+
+  >  The zigzag construction gives a more or less explicit [[sequential colimit]] description for certain [[pullbacks]] of [[pushouts]] of [[topological space|spaces]]. It generalises the fact that the [[free groupoid]] on a [[bipartite graph]] can be understood in terms of [[zigzags]] of [[edges]] modulo backtracking. It remains to be understood to what extent this description can be used for computations. This requires understanding what happens in each step of the construction. In this talk, I will present the construction with a view toward generalisations and applications.
+
+* ...
 
 
 \linebreak
