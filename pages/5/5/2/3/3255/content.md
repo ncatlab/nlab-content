@@ -109,6 +109,12 @@ Textbook account:
 
 * {#tomDieck87} [[Tammo tom Dieck]], Theorem II.2.1 in: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
+[[!redirecte cellular approximation theorems]]
+
+[[!redirects cellular approximation]]
+[[!redirects cellular approximations]]
 
 [[!redirects equivariant cellular approximation theorem]]
+
+
 
