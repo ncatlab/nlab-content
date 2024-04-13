@@ -1256,7 +1256,7 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   **Computational Proofs in Synthetic Homotopy Theory**
 
-  > ...
+  > [[cubical type theory|Cubical type theories]] provide computational meaning to [[HoTT]], making it possible to simplify proofs in [[synthetic homotopy theory]] and sometimes even reducing whole arguments purely to computer computations. A classic example is the *Brunerie number* which we recently managed to simplify so that it becomes computable in just a few seconds in [Cubical Agda](Agda#CubicalAgda). I will discuss this and other similar proofs by computation that we have done. I will also discuss various examples of things that we have not managed to compute and work in progress into making Cubical Agda able to compute more things for us.
 
 
 * [[Jennifer Paykin]] (Intel Labs)
