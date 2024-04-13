@@ -112,4 +112,8 @@ On [[cobordism theory]] of [[manifolds with corners]]:
 [[!redirects smooth manifold with boundaries and corners]]
 [[!redirects smooth manifolds with boundaries and corners]]
 
+[[!redirects boundary of a manifold]]
+[[!redirects boundaries of a manifold]]
+[[!redirects boundaries of manifolds]]
+
 
