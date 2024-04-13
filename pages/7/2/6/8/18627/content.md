@@ -46,4 +46,6 @@ Discussion in the convenient context of [[smooth sets]]:
 [[!redirects space of histories]]
 [[!redirects spaces of histories]]
 
+[[!redirects space of fields]]
+[[!redirects spaces of fields]]
 
