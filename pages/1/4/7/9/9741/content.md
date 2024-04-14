@@ -17,13 +17,13 @@
 
 A [[moduli space]] of [[connections on bundles]] over some prescribed [[space]].
 
-Often one considers [[flat connections]] only, see at _[[moduli space of flat connections]]_.
+Often one considers [[flat connections]] ([[local systems]]) only, see at _[[moduli space of flat connections]]_.
 
 ## Properties
 
 ### Compactness
 
-If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then the moduli space of flat connections over $\Sigma$ is compact. 
+If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then the [[moduli space]] of [[flat connections]] over $\Sigma$ is compact. 
 
 ### Over complex manifolds / complex varieties
 
@@ -103,7 +103,7 @@ Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/st
 
 * Nan-Kuo Ho, Chiu-Chu Melissa Liu, _On the connectedness of moduli spaces of flat connections over compact surfaces_, Canad. J. Math. 56(2004) 1228-1236 [doi](https://doi.org/10.4153/CJM-2004-053-3)
 
-Reviews and lecture notes include, for the case of flat connections
+Review and lecture notes, mostly for the case of [[flat connections]]:
 
 * Remi Janner, _Notes on the moduli space of flat connections_, 2005 ([pdf](https://www.researchgate.net/publication/265223952_Notes_on_the_moduli_space_of_flat_connections))
 
@@ -111,11 +111,16 @@ Reviews and lecture notes include, for the case of flat connections
 
 * {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
 
-* {#FockGoncharov14} [[Vladimir Fock]], [[Alexander Goncharov]], _Symplectic double for moduli spaces of G-local systems on surfaces_ ([arXiv:1410.3526](http://arxiv.org/abs/1410.3526))
+* {#FockGoncharov14} [[Vladimir V. Fock]], [[Alexander G. Goncharov]], _Symplectic double for moduli spaces of G-local systems on surfaces_ ([arXiv:1410.3526](http://arxiv.org/abs/1410.3526))
 
 and for the case of general and [[logarithmic connections]]
 
 * {#BiswasMunoz} Indranil Biswas, V.Munoz, _Moduli spaces of connections on a Riemann surface_  ([pdf](http://www.mat.ucm.es/~vmunozve/Moduli.pdf))
+
+Introcuction of [[Fock-Goncharov coordinates]] on [[moduli spaces of flat connections]]:
+
+* {#FockGoncharov06} [[Vladimir V. Fock]], [[Alexander B. Goncharov]], _Moduli spaces of local systems and higher Teichm&#252;ller theory_, Publ. Math. Inst. Hautes &#201;tudes Sci. **103**, 1-211 (2006) &lbrack;[arXiv:math/0311149](https://arxiv.org/abs/math/0311149), [doi:10.1007/s10240-006-0039-4](https://doi.org/10.1007/s10240-006-0039-4)&rbrack;
+
 
 Detailed discussion of moduli space of flat connections also on higher dimensional base spaces is in
 
@@ -127,13 +132,9 @@ Discussion in [[algebraic geometry]] includes
 
 * {#Lurie15} [[Jacob Lurie]], _[MO comment](http://mathoverflow.net/a/226716/381)_ 2015
 
-[[!redirects moduli spaces of connections]]
 
-[[!redirects moduli space of flat connections]]
-[[!redirects moduli spaces of flat connections]]
+[[!redirects moduli spaces of connections]]
 
 [[!redirects moduli stack of connections]]
 [[!redirects moduli stacks of connections]]
 
-[[!redirects moduli stack of flat connections]]
-[[!redirects moduli stacks of flat connections]]
