@@ -1139,15 +1139,13 @@ Workshop: **Field Theory and Gravity -- Classical and Quantum**
 
 * [[Grigorios Giotopoulos]] (NYU AD):
 
-  ...
+  **Supergravity as Super-Cartan Geometry on Super-spacetime**
 
 * [[Urs Schreiber]] (NYU AD):
 
-  **Flux-Quantized 11D Supergravity on Superspace**
+  **Flux-Quantization of 11D Supergravity on Superspace**
 
-  
-
-  > This is joint work with [[Hisham Sati]] and [[Grigorios Giotopoulos]].
+  > This is joint work with [[Hisham Sati]].
 
 * ...
   
