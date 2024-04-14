@@ -1,6 +1,13 @@
 
 * [insitute page](https://grk1670.math.uni-hamburg.de/researchers/shahbazi/)
 
+* [InSpire page](https://inspirehep.net/authors/1071214)
+
+* [GoogleScholar page](https://scholar.google.es/citations?user=EXNc_UsAAAAJ)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=178023)
+
+
 ## Selected writings
 
 On [[generalized Spin(7)-manifold|generalized]] [[Spin(7)-manifolds]] and [[M-theory on G2-manifolds]]:
