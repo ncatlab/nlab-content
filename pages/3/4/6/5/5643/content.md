@@ -241,4 +241,8 @@ Discussion of smooth super $\infty$-groupoids:
 [[!redirects smooth super space]]
 [[!redirects smooth super spaces]]
 
+[[!redirects smooth super set]]
+[[!redirects smooth super sets]]
+
+
 
