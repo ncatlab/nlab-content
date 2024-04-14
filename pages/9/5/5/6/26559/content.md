@@ -1,9 +1,7 @@
 
 > under construction 
 
-> a `pdfLaTeX`ed version of this page is at: *[[schreiber:Flux Quantization]]*
-
-> 
+> this page is based on the [[Encyclopedia of Mathematical Physics 2nd ed|MathPhys Encyclopedia]]-entry *[[schreiber:Flux Quantization|SS24]]* 
 
 > this entry is one section of "[[geometry of physics]]"
 
