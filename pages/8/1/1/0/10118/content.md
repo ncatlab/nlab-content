@@ -25,13 +25,29 @@ The [[Narasimhan–Seshadri theorem]] asserts that the moduli space of [[flat co
 
 ## References
 
+> For more see the references at _[[moduli space of connections]]_.
+
 * {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
 
-For more see the references at _[[moduli space of connections]]_.
+Introducing [[Fock-Goncharov coordinates]] on moduli spaces of flat connections:
+
+* {#FockGoncharov06} [[Vladimir V. Fock]], [[Alexander B. Goncharov]], _Moduli spaces of local systems and higher Teichm&#252;ller theory_, Publ. Math. Inst. Hautes &#201;tudes Sci. **103**, 1-211 (2006) &lbrack;[arXiv:math/0311149](https://arxiv.org/abs/math/0311149), [doi:10.1007/s10240-006-0039-4](https://doi.org/10.1007/s10240-006-0039-4)&rbrack;
+
+
+
+
+
+
 
 [[!redirects moduli spaces of flat connections]]
 
+
+
 [[!redirects moduli stack of flat connections]]
 [[!redirects moduli stacks of flat connections]]
+
+
+
+
 
 [[!redirects moduli stack of local systems]]
