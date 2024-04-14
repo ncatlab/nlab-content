@@ -94,3 +94,8 @@ Discussion in the convenient context of [[smooth sets]]:
 
 [[!redirects law of motion]]
 [[!redirects laws of motion]]
+
+[[!redirects field equation]]
+[[!redirects field equations]]
+
+
