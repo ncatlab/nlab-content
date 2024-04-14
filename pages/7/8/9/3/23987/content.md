@@ -1145,9 +1145,12 @@ Workshop: **Field Theory and Gravity -- Classical and Quantum**
 
   **Flux-Quantization of 11D Supergravity on Superspace**
 
-  > This is joint work with [[Hisham Sati]].
+  > Theories of (higher dimensional) [[supergravity]] famously contain ([[higher gauge field|higher]]) [[gauge fields]]; but traditionally (notably in all [[Lagrangian field theory|Lagrangian formulations]] of [[supergravity]]) these have been discussed only in the case of [[gauge potentials]] given by globally defined [[differential forms]]. In reality, ([[higher gauge field|higher]]) [[gauge fields]] have additional global [[degrees of freedom]] appearing as [[cocycles]] in some [[generalized cohomology theory|generalized]] [[nonabelian differential cohomology]][[cohomology theory|-theory]] and determining the [[torsion subgroup|torsion]] [[charges]] carried by [[small N limit|small numbers]] of [[branes]] sourcing these fields. 
 
-* ...
+  > I will first recall the general mechanism of *[[geometry of physics -- flux quantization|flux quantization]]* that is needed to specify the complete [[gauge potentials]] of [[higher gauge fields]], together with some "well-known" examples, and then address the case of [[D=11 supergravity]]. Here some miracles happen: The [[geometry of physics -- flux quantization|flux quantization]] of the [[supergravity C-field|C-field]] in [[D=11 supergravity]] naturally exists not just on [[phase space]] but on all of [[spacetime]], in fact on [[super-spacetime]], where the existence of a flux-quantized [[supergravity C-field|C-field]] already implies the full [higher-Maxwell](higher+gauge+field#HigherGaugeTheoryOfMaxwellType)-[[Rarita-Schwinger equation|Rarita-Schwinger]]-[[Einstein equation|Einstein]]-[[equations of motion]].
+
+  > This is joint work with [[Grigorios Giotopoulos]] and [[Hisham Sati]] ([[schreiber:Flux Quantization on 11d Superspace|arXiv:2403.16456]]).
+
   
 
 \linebreak
