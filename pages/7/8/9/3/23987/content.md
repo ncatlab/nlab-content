@@ -1984,8 +1984,25 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > This abstract provides an overview of the characterization techniques employed in the study of topological insulators. We discuss both experimental and theoretical approaches utilized to probe their electronic structure, surface states, topological invariants, and transport properties. Experimental techniques encompass a wide range of methods, including angle-resolved photoemission spectroscopy (ARPES), scanning tunneling microscopy/spectroscopy (STM/STS), magneto-transport measurements, and optical spectroscopy. These techniques provide invaluable insights into the band structure, Fermi surface topology, surface states, and the presence of any exotic quantum phenomena.
 
-
   > On the theoretical front, available various computational methods, such as [[density functional theory]] (DFT), tight-binding models, and [[topological indices]], play a pivotal role in predicting and understanding the topological properties of these materials. These theoretical approaches not only aid in interpreting experimental results but also guide the design of novel topological materials with tailored properties.
+
+
+
+### Apr 2024
+
+* {#ErcolessiApr2024} 15 Apr 2024
+
+  Elisa Ercolessi (University of Bologna, Italy):
+
+  **Hybrid Variational Algorithms on a Neutral Atom Platform**
+
+  > [[quantum computing|Quantum Computing]] is seen as a potential breakthrough for the study of hard classical problems as well as for [[quantum many-body physics|quantum many body]] [[quantum systems|systems]]. However, we are in the era of [NISQ](quantum+computation#ReferencesNISQ) devices and still far away from fault-tolerant machines. 
+
+  > This leads us to consider the possibility of hybrid classical-quantum protocols of variational type: they exploit quantum resources to efficiently prepare states that depend on a suitable chosen set of variational parameters, which can then be determined by means of optimization algorithms to be run on a classical computer. The choice of such classical optimizer schemes is to be guided by compatibility requirements with respect to current available quantum platforms.
+
+  > To evaluate the feasibility of such an approach, we present an application of the Quantum Approximate Optimization Algorithm to a typical classical hard combinatorial problem, that has been emulated and tested on a real Rydberg atom quantum machine. 
+ 
+
 
 \linebreak
 
