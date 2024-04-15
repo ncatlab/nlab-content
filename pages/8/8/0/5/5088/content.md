@@ -30,6 +30,8 @@ Note that a strict factorization system is not necessarily an [[orthogonal facto
 
 * The category [[Set]], as defined in a [[material set theory]], has a strict factorization system consisting of the surjections and the inclusions of [[subsets]].  Its associated orthogonal factorization system consists of surjections and [[injections]].  Other categories built out of structured sets have similar strict factorization systems.
 
+* Each [[opfibration]] $f \colon A \rightarrow B$ equipped with a [[splitting]] determines a strict factorisation system on $A$ whose classes of morphisms are the chosen opcartesian lifts and the vertical morphisms (those morphisms sent to identities by $f$).  
+
 ## As distributive laws in a bicategory
 
 One reason strict factorization systems are of interest is that they can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], as shown by [Rosebrugh & Wood (2002)](#RosebrughWood02).
