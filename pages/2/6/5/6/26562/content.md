@@ -216,7 +216,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Constructions of [[probability monads]] on [[metric spaces]], and connections with [[metric space|metric geometry]] and [[Banach spaces]]: [AJK'04](#jung), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
 
-* Constructions of [[probability monads]] on [[topological spaces]], and connections with [[functional analysis]]: [Swirszcz'74](#swirszcz), [Giry'82](#giry'82), [Jones-Plotkin'89](#jones_plotkin89), [Heckmann'96](#Heckmann96), [Keimel'08](#radonkeimel), [GLJ'19](#algebras), [Fritz-Perrone-Rezagholi'21](#monads_supports).
+* Constructions of [[probability monads]] on [[topological spaces]], and connections with [[functional analysis]]: [Swirszcz'74](#swirszcz), [Giry'82](#giry'82), [Jones-Plotkin'89](#jones_plotkin89), [Heckmann'96](#Heckmann96), [Keimel'08](#radonkeimel), [GLJ'19](#algebras), [Fritz-Perrone-Rezagholi'21](#monads_supports), [Kristel-Peterseim'24](#KP24).
 
 * A monad encoding [[probabilistic point processes]] combining probability and nondeterminism: [Dash-Staton'20](#point_processes).
 
@@ -394,6 +394,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#markov_logid} Dexter Kozen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of MFCS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2013.pdf))
 
 * {#krn_ext} Dexter Kozen, Alexandra Silva, Erik Voogd, _Joint Distributions in Probabilistic Semantics_, MFPS 2023. ([arXiv](https://arxiv.org/abs/2309.06913))
+
+* {#KP24} Peter Kristel, Benedikt Peterseim, _A topologically enriched probability monad on the cartesian closed category of CGWH spaces_. ([arXiv](https://arxiv.org/abs/2404.08430))
 
 * {#Lawvere62} [[Bill Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
