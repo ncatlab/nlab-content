@@ -21,7 +21,7 @@
 
 The _dependent sum_ is a [[universal construction]] in [[category theory]]. It generalizes the [[Cartesian product]] to the situation where one factor may _depend_ on the other. It is the [[left adjoint]] to the [[base change]] functor between [[slice categories]].
 
-The [[duality|dual]] notion is that of _[[dependent product]]_. 
+Beware that the term "sum" in "dependent sum" is really referring to **[[coproducts]]*.  The [[duality|dual]] notion is that of _[[dependent product]]_. 
 
 ## Definition
 
@@ -250,7 +250,9 @@ Other references:
 
 * {#Lurie}[[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
-* Peter Bonart. *Towards a General Theory of Dependent Sums* (2024). ([arXiv:2404.08139](https://arxiv.org/abs/2404.08139)).
+Only fairly indirectly related is the notion of "dependent sums" in
+
+* Peter Bonart, *Towards a General Theory of Dependent Sums* (2024). &lbrack;[arXiv:2404.08139](https://arxiv.org/abs/2404.08139)&rbrack;
  
 
 
