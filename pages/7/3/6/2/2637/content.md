@@ -109,6 +109,11 @@ Monograph on [[commutators]] in [[operator algebra]]:
 
 * [[Calvin R. Putnam]], *Commutation Properties of Hilbert Space Operators and Related Topics*, Ergebnisse der Mathematik und ihrer Grenzgebiete **36**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85938-0](https://doi.org/10.1007/978-3-642-85938-0)&rbrack;
 
+See also:
+
+* [[Elisa Ercolessi]], Giuseppe Marmo, Giuseppe Morandi, *From the Equations of Motion to the Canonical Commutation Relations*, Riv. Nuovo Cim. **33** (2010) 401-590 &lbrack;[arXiv:1005.1164](https://arxiv.org/abs/1005.1164), [doi:10.1393/ncr/i2010-10057-x](https://doi.org/10.1393/ncr/i2010-10057-x)&rbrack;
+
+
 [[!redirects canonical commutation relations]]
 
 [[!redirects canonical anti-commutation relation]]
