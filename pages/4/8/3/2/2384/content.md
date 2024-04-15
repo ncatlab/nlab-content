@@ -78,7 +78,7 @@ Introductory material for categories of segments:
 
 ## Theories and models
 
-This section presents category theoretic models taking the form of diagrams. These models can be either presented as functors with properties or as commutative diagrams. Common examples are models for a [[limit sketch]]. The first attempt to formalize biological systems in terms of diagrams (with limits) was initiated by R. Rosen (see the references at the end of the page). However, Rosen's work stays quite abstract and does not treat of any specific biological phenomenon.
+This section presents category theoretic models taking the form of diagrams. These models can be either presented as functors with properties or as commutative diagrams. Common examples are models for a [[limit sketch]]. The first attempt to formalize biological systems in terms of diagrams (with limits) was initiated by Robert Rosen (see the references at the end of the page). However, Rosen's work stays quite abstract and does not treat of any specific biological phenomenon.
 
 ### Stock-flow diagrams and Petri nets
 
@@ -315,9 +315,14 @@ Cell biology:
 
 Systems biology:
 
-* R Rosen, _The representation of biological systems from the standpoint of the theory of categories_ , Bulletin of Mathematical Biophysics, Vol 20. 1958, [pdf]( http://www.few.vu.nl/~rplanque/Onderwijs/MathBio/PapersForProject/Rosen.pdf)
+* Robert Rosen, _The representation of biological systems from the standpoint of the theory of categories_ , Bulletin of Mathematical Biophysics, Vol 20. 1958, [pdf]( http://www.few.vu.nl/~rplanque/Onderwijs/MathBio/PapersForProject/Rosen.pdf)
 
 * IC Baianu, JF Glazebrook and R Brown, _A Category Theory And Higher Dimensional Algebra Approach To Complex Systems Biology, Meta-systems And Ontological Theory Of Levels: Emergence Of Life, Society, Human Consciousness And Artificial Intelligence_, [text](https://planetmath.org/ACATEGORYTHEORYANDHIGHERDIMENSIONALALGEBRAAPPROACHTOCOMPLEXSYSTEMSBIOLOGYMETASYSTEMSANDONTOLOGICALTHEORYOFLEVELS)
+
+* Jan-Hendrik S. Hofmeyr, _A biochemically-realisable relational model of the self-manufacturing cell_, Biosystems Volume 207, September 2021, [doi: 10.1016/j.biosystems.2021.104463](https://doi.org/10.1016/j.biosystems.2021.104463)
+
+* Federico Vega, _The cell as a realization of the (M, R) system_, Biosystems Volume 225, March 2023,
+[doi:10.1016/j.biosystems.2023.104846](https://doi.org/10.1016/j.biosystems.2023.104846
 
 Neuroscience:
 
