@@ -165,7 +165,7 @@ which moreover develops the main toolset and establishes the [[model structure o
 General surveys include
 
 * {#Maltsin05} [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_, Ast&#233;risque, 301, pp. 1-140, (2005) (see
-[html](http://people.math.jussieu.fr/~maltsin/textes.html))
+[html](https://webusers.imj-prg.fr/~georges.maltsiniotis/textes.html))
 
 
 * [[J. F. Jardine]], _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, ([HHA](http://www.intlpress.com/HHA/v8/n1/a3/),  [pdf](http://www.intlpress.com/HHA/v8/n1/a3/v8n1a3.pdf))
