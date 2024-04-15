@@ -249,6 +249,8 @@ and section IV of
 Other references:
 
 * {#Lurie}[[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+
+* Peter Bonart. *Towards a General Theory of Dependent Sums* (2024). ([arXiv:2404.08139](https://arxiv.org/abs/2404.08139)).
  
 
 
