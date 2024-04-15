@@ -246,7 +246,7 @@ The original articles explaining what is now called the Higgs mechanism by [[spo
   
 While all these articles essentially describe the Higgs mechanism, apparently only the one by Peter Higgs explicitly points out that this mechanism predicts the existence of a new, then unobserved, boson, the one therefore now called the _Higgs boson_.
 
-Review includes
+Review:
 
 * {#PDG18} [[Particle Data Group]], [Review of particle physics](http://pdg.lbl.gov/), _Status of Higgs Boson Physics_, 2018 ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-higgs-boson.pdf), [[StatusOfHiggsBosonPhysics2018.pdf:file]])
 
@@ -254,7 +254,12 @@ Review includes
 
 * Sally Dawson, Christoph Englert, Tilman Plehn, _Higgs Physics: It ain't over till it's over_, Physics Reports ([arXiv:1808.01324](https://arxiv.org/abs/1808.01324))
 
-The general theory of [[spontaneous symmetry breaking]] is reviewed in
+* Jochem Kip, Ronald Kleiss, *The Higgs Mechanism with Diagrams: a didactic approach* &lbrack;[arXiv:2404.08329](https://arxiv.org/abs/2404.08329)&rbrack;
+
+  > (discussion via [[Feynman diagrams]])
+
+
+Review of the general theory of [[spontaneous symmetry breaking]]:
 
 * Jeremy Bernstein, _Spontaneous symmetry breaking, gauge theories, the Higgs mechanism and all that_, Rev. Mod. Phys. 46, 7&#8211;48 (1974)  ([pdf](http://www.calstatela.edu/faculty/kaniol/p544/rmp46_p7_higgs_goldstone.pdf))
 
