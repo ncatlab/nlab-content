@@ -710,6 +710,7 @@ $$
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
@@ -1493,6 +1494,10 @@ Discussion in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], *Notes on higher groups and projective spaces*, 2016 ([pdf](https://www2.mathematik.tu-darmstadt.de/~buchholtz/higher-groups.pdf))
 
+
+On extensions of actions on a space to actions on geometric structures defined over it:
+
+* [[Severin Bunk]], [[Carlos S. Shahbazi]]. *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* (2023). ([arXiv:2304.06633](https://arxiv.org/abs/2304.06633)).
 
 ### For discrete geometry
  {#ReferencesForDiscreteGeometry}
