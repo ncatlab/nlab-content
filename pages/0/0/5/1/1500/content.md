@@ -244,6 +244,9 @@ See also:
 
 * Math Overflow, _[Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting)_ .
 
+Further work on their classification using finite groups:
+
+* Agustina Czenky. *Diagramatics for cyclic pointed fusion categories* (2024). ([arXiv:2404.08084](https://arxiv.org/abs/2404.08084)).
 
 On a notion of [[fusion 2-categories]]:
 
