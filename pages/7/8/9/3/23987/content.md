@@ -1238,7 +1238,13 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
 * {#AltenkirchApr2024} [[Thorsten Altenkirch]] (Univ. Nottingham):
 
-  ...
+  **Univalence Without an Interval**
+
+  > We are developing a new formulation of [[univalence|univalent]] [[type theory]] (known as [[HoTT]]) which doesn't use an [[interval type]]. The first step is to formulate a [[type theory]] with internal parametricity which can be modelled using BCH cubes - see our POPL paper [1]. As a next step we identify a [[fibrant type|fibrant]] [[type universe|universe]] using a higher [[coinductive type]].
+
+  > This is joint work with Yorgo Chamoun, [[Ambrus Kaposi]] and [[Mike Shulman]]
+
+  > [1] Altenkirch, T., Chamoun, Y., Kaposi, A., & Shulman, M. (2024). *[Internal parametricity, without an interval](higher+observational+type+theory#AltenkirchChamounKapoilsiShulman24)* Proceedings of the ACM on Programming Languages (POPL) **8** (2024) 2340-2369 &lbrack;[arXiv:2307.06448](https://arxiv.org/abs/2307.06448), [doi:10.1145/3632920](https://doi.org/10.1145/3632920)&rbrack;
 
 * [[András Kovács]] (Univ. Gothenburg):
 
