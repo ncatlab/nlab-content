@@ -48,7 +48,7 @@ Ordinary orthogonal factorization systems can be similarly characterized by:
 
 Strict factorization systems were defined in:
 
-* {#Grandis00} [[Marco Grandis]]. _Weak subobjects and the epi-monic completion of a category_. Journal of Pure and Applied Algebra 154.1-3 (2000): 193-212.
+* {#Grandis00} [[Marco Grandis]]. _Weak subobjects and the epi-monic completion of a category_, Journal of Pure and Applied Algebra **154** 1-3 (2000) 193-212. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(99)00191-7">doi:10.1016/S0022-4049(99)00191-7</a>&rbrack;
 
 See also:
 
