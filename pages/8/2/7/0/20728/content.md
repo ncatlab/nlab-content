@@ -202,7 +202,7 @@ More on this at [[joint and marginal probability]].
   <th markdown="1">[[Radon monad]]</th>
   <td markdown="1">[[compactum#category_of_compacta|Comp]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] (or [[continuous valuations]])</td>
-  <td markdown="1">[[weak topology]] w.r.t. continuous functions</td>
+  <td markdown="1"></td>
   <td markdown="1">[[compact]] [[convex subsets]] of [[locally convex topological vector spaces]]</td>
   <td markdown="1">[Swirszcz '74](#swirszcz), [Keimel '08](#radonkeimel)</td>
  </tr>
@@ -210,7 +210,7 @@ More on this at [[joint and marginal probability]].
   <th markdown="1">[[Radon monad#the_ordered_case|ordered Radon monad]]</th>
   <td markdown="1">[[compact ordered spaces#categories_of_compact_ordered_spaces|CompOrd]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] (or [[continuous valuations]])</td>
-  <td markdown="1">[[weak topology]] w.r.t. continuous functions, [[stochastic order]]</td>
+  <td markdown="1">[[weak topology]] w.r.t. [[continuous functions]], [[stochastic order]]</td>
   <td markdown="1">[[compact]] [[convex subsets]] of [[ordered vector space|ordered]] [[locally convex topological vector spaces]]</td>
   <td markdown="1">[Swirszcz '74](#swirszcz), [Keimel '08](#radonkeimel)</td>
  </tr>
@@ -260,7 +260,23 @@ More on this at [[joint and marginal probability]].
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
   <td markdown="1">closed [[convex subsets]] of [[ordered Banach spaces]]</td>
-  <td markdown="1">[F-P](#orderedkantorovich)</td>
+  <td markdown="1">[F-P '20](#orderedkantorovich)</td>
+ </tr>
+ <tr>
+  <th markdown="1">Baire monad</th>
+  <td markdown="1">[[weakly Hausdorff topological space|Weakly Hausdorff]] quotients of countably-based [[topological spaces]]</td>
+  <td markdown="1">$k$-regular probability measures</td>
+  <td markdown="1">[[weak topology]] w.r.t. bounded [[continuous functions]]</td>
+  <td markdown="1">Full characterization unknown</td>
+  <td markdown="1">[K-P '24](#KP24)</td>
+ </tr>
+ <tr>
+  <th markdown="1">Riesz monad</th>
+  <td markdown="1">[[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]]</td>
+  <td markdown="1">$k$-regular probability measures</td>
+  <td markdown="1">[[weak topology]] w.r.t. bounded [[continuous functions]]</td>
+  <td markdown="1">Full characterization unknown</td>
+  <td markdown="1">[K-P '24](#KP24)</td>
  </tr>
 </table>
 
@@ -319,6 +335,8 @@ More on this at [[joint and marginal probability]].
 * [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
 * [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
+
+* {#KP24} Peter Kristel, Benedikt Peterseim, _A topologically enriched probability monad on the cartesian closed category of CGWH spaces_. ([arXiv](https://arxiv.org/abs/2404.08430))
 
 An account in terms of [[codensity monads]] in:
 
