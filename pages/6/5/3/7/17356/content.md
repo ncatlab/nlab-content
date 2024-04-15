@@ -294,7 +294,7 @@ For more on this see at _[[relation between category theory and type theory]]_.
 
 The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
 
-* {#Jardine02} [[Rick Jardine]], _Cubical homotopy theory: a beginning_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
+* {#Jardine02} [[Rick Jardine]], _Cubical homotopy theory: a beginning_ (2002) ([pdf](https://web.archive.org/web/20201229182153/http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
  
 
 The fact that the [[exponential object]] of two fibrant cubical sets is again fibrant follows from remark 8.4.33 in 
