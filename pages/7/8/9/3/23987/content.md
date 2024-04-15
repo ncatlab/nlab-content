@@ -1992,7 +1992,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * {#ErcolessiApr2024} 15 Apr 2024
 
-  Elisa Ercolessi (University of Bologna, Italy):
+  [[Elisa Ercolessi]] (University of Bologna, Italy):
 
   **Hybrid Variational Algorithms on a Neutral Atom Platform**
 
