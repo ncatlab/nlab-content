@@ -59,6 +59,7 @@ In [[star-autonomous categories]].
 (...)
 
 ### The canonical co-modality
+ {#TheCanonicalCoModality}
 
 The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$", the [[exponential modality]]. 
 In ([Benton 95](#Benton95), [Bierman 95](#Bierman95))
