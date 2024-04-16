@@ -49,7 +49,7 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
 * AB5: an (AB3) category in which [[filtered colimits]] of [[exact sequence]]s exist and are exact;
 
 * AB6: an (AB3) category such that
-  * for every object $A$ in $C$ and any family $B^j$ with $j \in J$ of directed families $B^j = B^j_i$ with $i in I_j$ the intersections of [[subobject]]s  over $j$ commute with direct sums over $j$.
+  * for every object $A$ in $C$ and any family $B^j$ with $j \in J$ of directed families $B^j = B^j_i$ with $i \in I_j$ the intersections of [[subobject]]s  over $j$ commute with direct sums over $j$.
   * Notice that this implies that inf for any family of subobjects exists.
 
 The concepts (AB3--AB6) also have dual forms (AB3\*--AB6\*).
@@ -92,7 +92,6 @@ Various generic classes of examples of additive and abelian categories are of re
 * [[stable (infinity,1)-category]]
 
 
-[[!redirects additive and abelian categories]]
 [[!redirects additive or abelian categories]]
 [[!redirects additive or abelian category]]
 
