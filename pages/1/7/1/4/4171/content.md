@@ -459,6 +459,8 @@ On $n$-plectic formulation of [[gravity]], [[Maxwell theory]] and [[Einstein-Max
 
 * [[Dmitri Vey]], *Multisymplectic formulation of vielbein gravity. De Donder-Weyl formulation, Hamiltonian $(n-1)$-forms*,  Classical and Quantum Gravity **32** 9 (2015) &lbrack;[arxiv:1404.3546](https://arxiv.org/abs/1404.3546), [doi:10.1088/0264-9381/32/9/095005](https://iopscience.iop.org/article/10.1088/0264-9381/32/9/095005)&lbrack;
 
+* Patrick Cabau, Fernand Pelletier. *Partial Nambu-Poisson structures on a convenient manifold* (2024). ([arXiv:2404.08688](https://arxiv.org/abs/2404.08688)).
+
 For [[teleparallel gravity]]
 
 * [[Igor V. Kanatchikov]]. *The De Donder-Weyl Hamiltonian formulation of TEGR and its quantization* (2023) &lbrack;[arXiv:2308.10052](https://arxiv.org/abs/2308.10052)&rbrack;
