@@ -1262,9 +1262,11 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
 * {#BuchholtzApr2024} [[Ulrik Buchholtz]] (Univ. Nottingham)
 
-  **TBA**
+  **Primitive recursive (homotopy) type theory**
 
-  > TBA
+  > I'll present a subsystem of [[Martin-Löf type theory]] where all [[function type|functions]] from [[natural numbers type|Nat]] to [[natural numbers type|Nat]] are [[primitive recursive function|primitive recursive]]. The soundness proof involves a [[Artin gluing|gluing]] construction for a [[sheaf topos]] model constructed from a [[site]] of primitive recursive functions. Then I'll use this as a starting point for some speculations about [[geometric type theory]] and its computational aspects. This is based on joint work with Johannes Schipp von Branitz.
+
+
 
 
 * {#FinsterApr2024} [[Eric Finster]] (Univ. Birmingham):
