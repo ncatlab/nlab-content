@@ -116,4 +116,8 @@ On [[cobordism theory]] of [[manifolds with corners]]:
 [[!redirects boundaries of a manifold]]
 [[!redirects boundaries of manifolds]]
 
+[[!redirects corner of a manifold]]
+[[!redirects corners of a manifold]]
+[[!redirects corners of manifolds]]
+
 
