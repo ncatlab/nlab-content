@@ -1133,9 +1133,9 @@ Workshop: **Field Theory and Gravity -- Classical and Quantum**
 
 * [[Alberto Cattaneo]] (Univ. Zurich): 
 
-  **Poisson structures from corners of field theories**
+  **Gravity: bulk, boundary, corners**
 
-  > The [[BV formalism]] and its [[shifted symplectic structure|shifted versions]] in [[field theory]] have a nice compatibility with [[boundary field theory|boundary structures]]. In particular, one such structure (BFV) on the [[boundary of a manifold|boundary]] induces a shifted (possibly degenerated) version on its boundary, which can be interpreted as a [[Poisson structure]] (up to [[homotopy]]). I will present the results for some field theories, in particular, 4D [[BF theory]] and 4D [[gravity]].
+  > I will review [[D=4 gravity|four-dimensional gravity]] in the [[first-order formulation of gravity|coframe-and-connection formulation]] (a.k.a. Palatini–Cartan formalism) and what it entails on [[boundary of a manifold|boundaries]] (e.g., on [[Cauchy surfaces]]) and on [[corners]] (e.g., surfaces at infinity or surfaces around [[singularities]] in space). This full analysis will require the [[BV-formalism|BV, the BFV and related formalisms]] and their interplay.
 
 * {#GiotopoulosApr2024} [[Grigorios Giotopoulos]] (NYU AD):
 
@@ -1146,7 +1146,7 @@ Workshop: **Field Theory and Gravity -- Classical and Quantum**
   > (This is joint work with [[Hisham Sati]] and [[Urs Schreiber]], cf. [[schreiber:Flux Quantization on 11d Superspace|arXiv:2403.16456]]).
 
 
-* [[Urs Schreiber]] (NYU AD):
+* {#SchreiberGravityApr2024} [[Urs Schreiber]] (NYU AD):
 
   **Flux-Quantization of 11D Supergravity on Superspace**
 
