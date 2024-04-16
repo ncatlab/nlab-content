@@ -60,7 +60,7 @@ Origin of the notion in multivalued [[formal groups]] appearing in [[complex ori
 * [[Victor Buchstaber]], §5 in: _Cobordisms in problems of algebraic topology_,  J Math Sci **7** (1977) 629–653 &lbrack;[doi:10.1007/BF01084983](https://doi.org/10.1007/BF01084983)&rbrack;
 
 
-The notion has in fact been sporadically studied much earlier, e.g. in the context of hypergroups.
+The notion has in fact been sporadically studied much earlier, e.g. in the context of [[hypergroup]]s.
 
 * J. Delsarte, _Hypergroupes et opérateurs de permutation et de transmutation_, La théorie des équations aux dérivées partielles. Nancy, 9-15 avril 1956, pp. 29--45
 Colloq. Internat. CNRS, LXXI [International Colloquia of the CNRS] Centre National de la Recherche Scientifique, Paris, 1956 [MR0116151](https://mathscinet.ams.org/mathscinet/relay-station?mr=MR0116151)
