@@ -1266,11 +1266,13 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   > TBA
 
+
 * {#FinsterApr2024} [[Eric Finster]] (Univ. Birmingham):
 
-  **TBA**
+  **A Tour of Parameterized Spectra**
 
-  > TBA
+  > This talk will be a survey of some of the defining characteristics of the [[tangent (infinity,1)-topos|infinity-topos of]] [[parameterized spectra]]. I will try to describe both "external" properties, such as what this topos classifies as a higher geometric theory, as well as "internal" properties, that is, the various additional axioms satisfied by its [[internal logic]]. Where possible, I will try to explain how to express well-known constructions from [[homotopy theory]] in the [[internal language]] of this topos.
+
 
 * {#GratzerApr2024} [[Daniel Gratzer]] (Aarhus Univ.):
 
@@ -1292,9 +1294,9 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
 * {#LeeApr2024} [[Dongho Lee]] (Univ. Paris-Saclay)
 
-  **TBA**
+  **A Concrete Categorical Semantics for Proto-Quipper Language and Dynamic Lifting**
 
-  > TBA
+  >  In this talk, we discuss a concrete [[categorical semantics]] of [[Proto-Quipper]]-L, a [[quantum circuit]] description language with [[dynamic lifting]]. The language is an extension of [[linear lambda-calculus]] with [[quantum channel]] constants (which represent tree structure of [[quantum gates|gates]]) and [[quantum circuit|circuit]] operations (which are box and unbox) where [[terms]] can have tree shapes. The [[type system]] roughly comes from the [[multiplicative intuitionistic linear logic]] where the term represents the proof. The [[categorical semantics]] of the language is built upon the linear and non-linear model for linear logic [by Benton](linear+type+theory#TheCanonicalCoModality) and coproduct completion as the categorical semantics of [[Proto-Quipper]]-M [by Rios and Selinger](Quipper#RiosSelinger18) while we give a concrete categorical model for diagrams based on graphical calculus. For the computational effect of [[dynamic lifting]] we introduce branching monad and give an interpretation of terms in the [[Kleisli category]].
 
 * {#LjungströmApr2024} [[Axel Ljungström]]:
 
@@ -1312,7 +1314,11 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   **Topological Quantum Gates**
 
-  > TBA
+  cf. [arXiv:2303.02382](https://arxiv.org/abs/2303.02382)
+
+  > Despite the [evident necessity](topological+quantum+computation#ReferencesNeedForTopologicalProtection) of topological protection for realizing scalable [[quantum computers]], the conceptual underpinnings of [[topological quantum computing|topological quantum]] [[logic gates]] had arguably remained shaky. Building on [[schreiber:Anyonic defect branes in TED-K-theory|recent]] [[schreiber:Anyonic topological order in TED K-theory|results]] on [[defect branes]] in [[string theory|string]]/[[M-theory]] and on their [[AdS/CMT duality|holographically dual]] [[anyon|anyonic]] defects in [[condensed matter theory]], here we explain how the specification of realistic [[topological quantum computing|topological]] [[quantum gates]], operating by anyon defect [[braiding]] in [[topological order|topologically ordered]] [[quantum materials]], has a surprisingly slick formulation in [[parameterized homotopy theory|parameterized point-set topology]], which is so fundamental that it lends itself to [[software verification|certification]] in modern [[homotopy type theory|homotopically typed]] [[programming languages]] such as [cubical Agda](Agda#CubicalAgda). We propose that this remarkable confluence of concepts may jointly kickstart the development of topological quantum programming proper by providing a powerful paradigm for simulating and verifying topological quantum computing architectures with high-level certification languages aware of the actual physical principles of realistic topological quantum hardware.
+
+  > In this talk, we will present the description of these topological quantum gates in [[homotopy type theory]] and describe the use of [[cubical type theory]] as a [[software verification|certification language]] for [[topological quantum computing]]. We will focus on the definition of the [[configuration space of points|configuration spaces]] in [[cubical type theory]], which play a crucial role in the construction of the space of [[conformal blocks]] as a [[twisted ordinary cohomology|twisted cohomology]] group.
 
 
 * {#PaykinApr2024} [[Jennifer Paykin]] (Intel Labs):
@@ -1365,7 +1371,6 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   >  The zigzag construction gives a more or less explicit [[sequential colimit]] description for certain [[pullbacks]] of [[pushouts]] of [[topological space|spaces]]. It generalises the fact that the [[free groupoid]] on a [[bipartite graph]] can be understood in terms of [[zigzags]] of [[edges]] modulo backtracking. It remains to be understood to what extent this description can be used for computations. This requires understanding what happens in each step of the construction. In this talk, I will present the construction with a view toward generalisations and applications.
 
-* ...
 
 
 \linebreak
@@ -1376,6 +1381,8 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 * 27 May - 31 May 2024
 
   **Quantum Information and Quantum Matter**
+
+  > ...
 
 
 \linebreak
