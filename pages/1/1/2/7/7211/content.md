@@ -61,12 +61,12 @@ The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersym
 
 Lecture notes include
 
-* F. Ruiz Ruiz, [[Peter van Nieuwenhuizen]], _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.17.3667&rep=rep1&type=pdf))
+* F. Ruiz Ruiz, [[Peter van Nieuwenhuizen]], _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_ ([[Nieuwenhuizen3d.pdf:file]])
 
 
 A complete list of un-gauged supergravities in 3 dimensions was given in 
 
-* [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](http://xxx.lanl.gov/abs/hep-th/9208074))
+* [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](https://arxiv.org/abs/hep-th/9208074))
 
 
 See also
