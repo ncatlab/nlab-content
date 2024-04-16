@@ -167,7 +167,7 @@ Discussion as a [[linear homotopy type theory]]:
 
   > (intended [[categorical semantics]])
 
-* [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
+* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
 
   > ([[inference rules]] for the [[classical modality]] $\natural$)
 
