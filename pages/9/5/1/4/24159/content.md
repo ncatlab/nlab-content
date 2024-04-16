@@ -63,15 +63,18 @@ Thus, if we use the local universe coherence theorem, $U$ represents a "universe
 
 * [[semantics of Set in homotopy type theory]]
 
+
 ## References
 
 * [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_, 2014 [PDF](http://arxiv.org/pdf/1406.0058)
 
 Full proof of [[Awodey's conjecture]] that $\infty$-stack $\infty$-toposes model univalent homotopy type theory:
 
-* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004))
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ &lbrack;[arXiv:1904.07004](https://arxiv.org/abs/1904.07004)&rbrack;
 
 Review:
 
 * {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
 
+
+[[!redirects model of type theory in an infinity1-topos]]
