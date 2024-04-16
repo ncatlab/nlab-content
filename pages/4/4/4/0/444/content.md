@@ -809,7 +809,7 @@ The nerve induced by this cosimplicial object was first considered in
 
 * D. Kan, _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103))
 
-The nerve/[[geometric realization|realization]] adjunction induced from this is the [[Dold?Kan correspondence]]. See there for more details.
+The nerve/[[geometric realization|realization]] adjunction induced from this is the [[Dold-Kan correspondence]]. See there for more details.
 
 
 ## Remarks ## 
