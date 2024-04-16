@@ -978,7 +978,7 @@ This proves the first statement. From this the second follows by the characteriz
 \label{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}
 The [[tensor product of chain complexes]] makes the projective model structure on unbounded chain complexes $Ch_\bullet(R Mod)$ (Prop. \ref{StandardModelStructureOnUnboundedComplexes}) a [[monoidal model category]].
 \end{proposition}
-For the special case that all [[submodules]] of [[free modules]] are again free (such as over $R = \mathbb{Z}$ the [[integers]], by [this Prop.](free+abelian+group#SubgroupsOfFreeAbelianGroupsAreFree), or for $R = k$ a [[field]] by [this Prop](free+module#EveryModuleOverAFieldIsFree), and in general for $R$ a [[principal ideal domain]], by [this Prop.](free+module#submod)) a short proof is given in [Strickland (2020), Prop. 25](#Strickland20). The general statement is also a special case of [Hovey (2001), Cor. 3.7](#Hovey01) [Fausk (2006), Thm. 6.1](#Fausk06) (which state an even more general result about *[[sheaves]]* of chain complexes).
+For the special case that all [[submodules]] of [[free modules]] are again free (such as over $R = \mathbb{Z}$ the [[integers]], by [this Prop.](free+abelian+group#SubgroupsOfFreeAbelianGroupsAreFree), or for $R = k$ a [[field]] by [this Prop](free+module#EveryModuleOverAFieldIsFree), and in general for $R$ a [[principal ideal domain]], by [this Prop.](free+module#submod)) a short proof is given in [Strickland (2020), Prop. 25](#Strickland20). The general statement is also a special case of [Hovey (2001), Cor. 3.7](#Hovey01) [Fausk (2006), Thm. 6.1](#Fausk06) (who state an even more general result about *[[sheaves]]* of chain complexes).
 
 \begin{proposition}
 \label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
