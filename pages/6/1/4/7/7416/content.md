@@ -27,9 +27,9 @@ On [[G-structure]] for $G = Br_\infty$ the infinite [[braid group]]:
 
 * [[Jonathan Beardsley]], *On Braids and Cobordism Theories*, Glasgow (2022) &lbrack;notes: [pdf](https://www.jonathanbeardsley.com/GlasgowNotes2022.pdf), [[Beardsley-BraidsAndCobordism.pdf:file]]&rbrack;
 
-On [[projective geometry]] and [[modules]] over the "[[field with one element]]":
+On [[projective geometry]] viewed in terms of [[modules]] over the "[[field with one element]]":
 
-* {#BeardsleySo24} [[Jonathan Beardsley]], [[So Nakamura]], *Projective Geometries and Simple Pointed Matroids as $\mathbb{F}_1$-modules* &lbrack;[arXiv:2404.04730](https://arxiv.org/abs/2404.04730)&rbrack;
+* {#BeardsleySo24} [[Jonathan Beardsley]], [[So Nakamura]], *Projective geometries and simple pointed  matroids as $\mathbb{F}_1$-modules* &lbrack;[arXiv:2404.04730](https://arxiv.org/abs/2404.04730)&rbrack;
 
 
 
