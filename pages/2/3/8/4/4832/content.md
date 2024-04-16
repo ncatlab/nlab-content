@@ -50,6 +50,8 @@ On the local formulation (allowing decomposition and re-gluing of [[spacetime]])
 
 * {#CattaneoSchiavina17b} [[Alberto Cattaneo]], [[Michele Schiavina]], *BV-BFV approach to General Relativity: Palatini-Cartan-Holst action*, Adv. Theor. Math. Phys. **23**  (2019) 1801-1835 &lbrack;[arXiv:1707.06328](https://arxiv.org/abs/1707.06328), [doi:10.4310/ATMP.2019.v23.n8.a3](https://doi.org/10.4310/ATMP.2019.v23.n8.a3)&rbrack;
 
+* Giovanni Canepa, [[Alberto Cattaneo]], *Corner Structure of Four-Dimensional General Relativity in the Coframe Formalism*, Annales Henri Poincaré **25** (2024) 2585–2639 &lbrack;[arXiv:2202.08684](https://arxiv.org/abs/2202.08684), [doi:10.1007/s00023-023-01360-8](https://doi.org/10.1007/s00023-023-01360-8)&rbrack;
+
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
 and for flux observables:
