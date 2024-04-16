@@ -379,6 +379,9 @@ be an isomorphism for each $b$.
 
 * [[Aurelio Carboni]], [[Max Kelly]], [[Bob Walters]], [[Richard Wood]], _Cartesian Bicategories II_, Theory and Applications of Categories, Vol. 19, 2008, No. 6, pp 93-124. ([arXiv:0708.1921](https://arxiv.org/abs/0708.1921), [tac:19-06](http://www.tac.mta.ca/tac/volumes/19/6/19-06abs.html))
 
+* [[Evan Patterson]], _Transposing cartesian and other structure in double categories_, [arXiv](https://arxiv.org/abs/2404.08835), 2024
+
+
 
 [[!redirects cartesian bicategories]]
 [[!redirects Cartesian bicategory]]
