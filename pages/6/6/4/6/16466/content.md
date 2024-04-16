@@ -1558,6 +1558,8 @@ $$
 
 =--
 
+Categories that do not satisfy sub-exponential growth have come to be known as *Deligne categories*, see e.g. [Hu 2024](#Hu24).
+
 While many linear monoidal categories of interest do not satisfy
 finiteness or [[rigid monoidal category|rigidity]] (def. \ref{DualizableObject}), often they
 are such that all their objects are (formal) [[inductive limits]] over "small" objects
@@ -4666,6 +4668,10 @@ where $Vect$ and $sVect$ are replaced by more exotic targets.
 Discussion relating to [[2-rings]] and the [[spin-statistics theorem]] is in
 
 * {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology ([arXiv:1507.06297](https://arxiv.org/abs/1507.06297))
+
+On Deligne categories:
+
+* {#Hu24} Serina Hu. *An Introduction to Deligne Categories* (2024). ([arXiv:2404.08689](https://arxiv.org/abs/2404.08689)).
 
 [[!redirects Deligne theorem on tensor categories]]
 
