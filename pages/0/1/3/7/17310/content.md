@@ -4,7 +4,7 @@
 ### Context
 #### Algebra
 +-- {: .hide}
-[[!include algebra - contents]]
+
 =--
 =--
 =--
@@ -13,9 +13,8 @@
 * table of contents
 {:toc}
 
-[[!redirects hypergroup]]
+
 [[!redirects hypermagmas]]
-[[!redirects hypergroups]]
 [[!redirects comagma]]
 
 
@@ -61,27 +60,29 @@ Let $G$ be a compact [[Lie group]] and $\hat{G}$ the set of its irreducible repr
 
 * [[hypermonoid]]
 
-* [[canonical hypergroup]]
+* [[hypergroup]]
 
 * [[hyperring]]
 
 * [[hypergraph]]
 
+* [[multivalued group]]
+
 * [[historical notes on quasigroups]]
 
 ## Reference
 
-* S. D. Comer, _Polygroups derived from cogroups_ , J. Algebra **89** no.2 (1984) pp.397-405. 
+See also references at [[hypergroup]].
 
-* P. Corsini, V. Leoreanu-Fotea, _Applications of Hyperstructure Theory_ , Kluwer Dordrecht
+* S. D. Comer, _Polygroups derived from cogroups_ , J. Algebra **89** no.2 (1984) 397--405 <a href="https://doi.org/10.1016/0021-8693(84)90225-4">doi</a> 
+
+* P. Corsini, V. Leoreanu-Fotea, _Applications of yhperstructure theory_ , Kluwer Dordrecht
 2003.
 
-* {#HS90}L. Haddad, Y. Sureau, _Les cogroupes et la construction de Utumi_ , Pacific J. Math. **145** no.1 (1990) pp.17-58. ([abstract](http://projecteuclid.org/euclid.pjm/1102645606))
+* {#HS90}L. Haddad, Y. Sureau, _Les cogroupes et la construction de Utumi_ , Pacific J. Math. **145** no.1 (1990) 17--58. ([abstract](http://projecteuclid.org/euclid.pjm/1102645606))
 
 * L. Haddad, Y. Sureau, _Les groupes, les hypergroupes et l'&#233;nigme des Murngin_ , JPAA **87** (1993) pp.221-235.
 
-* J. Jantosciak, _Transposition Hypergroups: Noncommutative Join Spaces_ , J. Algebra **187** (1997) pp.97-119.
+* Louis H. Rowen, _Residue structures_, [arXiv:2403.09467](https://arxiv.org/pdf/2403.09467)
 
-* {#Lit11}G. L. Litvinov, _Hypergroups and Hypergroup Algebras_ , arXiv:1109.6596 (2011). ([abstract](http://arxiv.org/abs/1109.6596))
-
-* F. Marty,  _Sur une g&#233;n&#233;ralization de la notion de groupe_ , IV Congr&#232;s des Math&#233;maticiens Scandinaves, Stockholm 1934.
+category: algebra
