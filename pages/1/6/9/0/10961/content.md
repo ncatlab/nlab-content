@@ -214,6 +214,10 @@ See also:
 One quote above is taken from the first paragraphs of
  
 * {#SEP} Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
+
+See also
+
+* [[Jürg Fröhlich]], *A Brief Review of the "ETH-Approach to Quantum Mechanics"*, Frontiers in Analysis and Probability. Springer (2020) Cham. &lbrack;[arXiv:1905.06603](https://arxiv.org/abs/1905.06603), [doi:10.1007/978-3-030-56409-4_2](https://doi.org/10.1007/978-3-030-56409-4_2)&rbrack;
  
 
 
