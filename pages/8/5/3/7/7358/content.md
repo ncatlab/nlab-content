@@ -86,7 +86,7 @@ The [[model category]] structure on $\Gamma$-spaces (a [[generalized Reedy model
 
 Discussion of the [[smash product of spectra]] on connective spectra via $\Gamma$-spaces is due to
 
-* {#Lydakis98} Lydakis, _Smash products and $\Gamma$-spaces_, Math. Proc. Cam. Phil. Soc. 126 (1999), 311-328 ([pdf](http://hopf.math.purdue.edu/Lydakis/smash_gamma.pdf))
+* {#Lydakis98} Lydakis, _Smash products and $\Gamma$-spaces_, Math. Proc. Cam. Phil. Soc. 126 (1999), 311-328 ([pdf](https://web.archive.org/web/20210117115922/http://hopf.math.purdue.edu/Lydakis/smash_gamma.pdf))
 
 and of the corresponding [[monoid objects]], hence [[ring spectra]], in 
 
