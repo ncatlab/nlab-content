@@ -354,7 +354,7 @@ Some form of this statement was originally formally conjectured in ([Joyal 11](J
 ### Univalent homotopy type theory and elementary $(\infty,1)$-toposes
  {#HomotopyWithUnivalence}
 
-> More precise information can be found on the [homotopytypetheory wiki](http://ncatlab.org/homotopytypetheory/show/model+of+type+theory+in+an+%28infinity%2C1%29-topos).
+> For more details see *[[model of type theory in an (infinity,1)-topos]]*.
 
 A ([[locally presentable (∞,1)-category|locally presentable]]) [[locally Cartesian closed (∞,1)-category]] (as [above](#HomotopyTypeTheory)) which in addition has a system of [[object classifiers]] is an ([[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf]]-)[[(∞,1)-topos]].
 
