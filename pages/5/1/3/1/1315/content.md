@@ -72,7 +72,7 @@ There are various generalizations of the path groupoid to [[n-groupoids]] and [[
 
 ## Remarks
 
-If $G$ is a Lie group, then internal (i.e. smooth) functors from the path groupoid to the one-object Lie groupoid corresponding to $G$ are in bijection to $Lie(G)$-valued differential forms on $X$. With gauge transformations regarded as morphisms between Lie-algebra values differential forms, this extends naturally to an equivalence of categories
+If $G$ is a Lie group, then internal (i.e. smooth) functors from the path groupoid to the one-object Lie groupoid corresponding to $G$ are in bijection to $Lie(G)$-valued differential forms on $X$. With gauge transformations regarded as morphisms between Lie-algebra valued differential forms, this extends naturally to an equivalence of categories
 $$
   [P_1(X), \mathbf{B}G] \simeq \Omega^2(X, Lie(G))
 $$
