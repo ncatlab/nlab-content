@@ -321,6 +321,8 @@ and a textbook acount is in
 
 * {#DLM} [[Claudio Dappiaggi]], [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
 
+* Angelos Anastopoulos, [[Marco Benini]]. *Gluing algebraic quantum field theories on manifolds* (2024). ([arXiv:2404.09638](https://arxiv.org/abs/2404.09638)).
+
 Relation to [[factorization algebras]]:
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, Communications in Mathematical Physics volume 377, pages 971–997 (2020) ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396), [doi:10.1007/s00220-019-03561-x](https://doi.org/10.1007/s00220-019-03561-x))
