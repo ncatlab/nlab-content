@@ -13,7 +13,8 @@ By contrast, in ([Connes & Consani 15, 2.1](#ConnesConsani15)) the authors defin
 ## Related notions
 
 * [[Gamma-space]]
-* [[Segal's category]].
+* [[Segal's category]]
+* [[symmetric set]]
 
 ## References
 
