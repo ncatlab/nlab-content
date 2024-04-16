@@ -95,6 +95,11 @@ following
 
 * {#CattaneoSchiavina15} [[Alberto Cattaneo]], [[Michele Schiavina]], _BV-BFV approach to General Relativity, Einstein-Hilbert action_, J. Math. Phys. 57, 023515 (2016) ([arXiv:1509.05762](https://arxiv.org/abs/1509.05762))
 
+see also:
+
+* Giovanni Canepa, [[Alberto Cattaneo]], *Corner Structure of Four-Dimensional General Relativity in the Coframe Formalism*, Annales Henri Poincaré **25** (2024) 2585–2639 &lbrack;[arXiv:2202.08684](https://arxiv.org/abs/2202.08684), [doi:10.1007/s00023-023-01360-8](https://doi.org/10.1007/s00023-023-01360-8)&rbrack;
+
+
 Reviewed in:
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
