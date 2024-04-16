@@ -236,6 +236,11 @@ A generalisation of braidings to *lax braidings*, where $B$ is not required to b
 
 * [[Brian Day]], [[Elango Panchadcharam]], [[Ross Street]], _Lax braidings and the lax centre_, Contemporary Mathematics **441** 1 (2007) &lbrack;[pdf](http://science.mq.edu.au/~street/laxcentre.pdf), [[DayPanchadcharamStreet-LaxBraidings.pdf:file]]&rbrack;
 
+On a construction of group-crossed tensor categories
+that depends on both a group action and a grading:
+
+* Mizuki Oikawa. *Center construction for group-crossed tensor categories* (2024). ([arXiv:2404.09972](https://arxiv.org/abs/2404.09972)).
+
 
 [[!redirects braided monoidal category]]
 [[!redirects braided monoidal categories]]
