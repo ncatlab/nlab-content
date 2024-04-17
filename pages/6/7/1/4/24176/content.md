@@ -47,7 +47,7 @@ Let $\hat{A}_0$ be the type of [[representable]] objects of $\mathit{Set}^{A^{\m
 
 * $\hat{A}_0\equiv \sum_{(F : \mathit{Set}^{A^{\mathrm{op}}})} \sum_{(a:A)} \mathbf{y} a \cong F$
 
-This has the unfortunate side affect of raising the [[universe]] level. If $A$ is a [[univalent category]] in a universe $\mathcal{U}$, then in this proof $\mathit{Set}$ must at least be as large as $\mathit{Set}_{\mathcal{U}}$. Hence the univalent category $\mathit{Set}_{\mathcal{U}}$ is in a higher universe than $\mathcal{U}$ hence $\mathit{Set}^{A^{\mathrm{op}}}$ must also be in a higher universe and finally $\hat{A}$ is also in a higher universe than $\mathcal{U}$.
+This has the unfortunate side effect of raising the [[universe]] level. If $A$ is a [[univalent category]] in a universe $\mathcal{U}$, then in this proof $\mathit{Set}$ must at least be as large as $\mathit{Set}_{\mathcal{U}}$. Hence the univalent category $\mathit{Set}_{\mathcal{U}}$ is in a higher universe than $\mathcal{U}$ hence $\mathit{Set}^{A^{\mathrm{op}}}$ must also be in a higher universe and finally $\hat{A}$ is also in a higher universe than $\mathcal{U}$.
 
 Now this can all be avoided by constructing a [[higher inductive type]] $\hat{A}$ with constructors:
 
