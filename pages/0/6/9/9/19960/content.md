@@ -848,6 +848,8 @@ On the other hand, an embedding of the hard-wall model into [[type IIB string th
 
 * [[Akash Singh]], [[K. P. Yogendran]], *Phases of a 10-D Holographic hard wall model* &lbrack;[arXiv:2208.09387](https://arxiv.org/abs/2208.09387)&rbrack;
 
+* Saulo Diles, *On the spectrum of open strings in the Hard-Wall model of AdS/QCD: the role of $S^5$* &lbrack;[arXiv:2404.10183](https://arxiv.org/abs/2404.10183)&rbrack;
+
 
 
 ##### Holographic light-front QCD
