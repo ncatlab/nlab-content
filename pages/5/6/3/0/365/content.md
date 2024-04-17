@@ -179,7 +179,7 @@ $$
   }
 $$
 
-with the left morphism an isomorphism, the a [[lift]] is given by using the [[inverse]] of this isomorphism ${}^{{f \circ i^{-1}}}\nearrow$. Hence in particular there is a lift when $p \in \mathcal{R}$ and so $i \in \mathcal{L}$. The other case is [[formal dual|formally dual]].
+with the left morphism an isomorphism, then a [[lift]] is given by using the [[inverse]] of this isomorphism ${}^{{f \circ i^{-1}}}\nearrow$. Hence in particular there is a lift when $p \in \mathcal{R}$ and so $i \in \mathcal{L}$. The other case is [[formal dual|formally dual]].
 
 **closure under composition**
 
