@@ -28,7 +28,7 @@ Note that $F\colon C \to D$ is cocontinuous if and only if the functor $F^{op}: 
 ## Examples
 
 \begin{example}
-Every [[left adjoint functor]] is contontinuous, since [[left adjoints preserve colimits]]. 
+Every [[left adjoint functor]] is cocontinuous, since [[left adjoints preserve colimits]]. 
 \end{example}
 
 Not every functor is cocontinuous:
