@@ -32,5 +32,7 @@ category: people
 
 [[!redirects V. Hinich]]
 
+[[!redirects V. A. Hinich]]
+
 [[!redirects Hinich]]
 
