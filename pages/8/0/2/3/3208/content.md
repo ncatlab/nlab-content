@@ -209,6 +209,8 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 ## Related concepts
 
+* [[conservative extension]]
+
 * [[algebraic theory]], [[globular theory]]
 
 * [[type theory]]
