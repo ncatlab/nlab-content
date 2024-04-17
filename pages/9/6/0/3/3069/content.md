@@ -330,7 +330,7 @@ $$
 
 1. regarded as a [[category]] by declaring that there is a [[morphisms]] $A \to B$ precisely if $A \subset B$ as subsets of $S$.
 
-Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obtain the followin three [[functors]] between their [[power sets]]:
+Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obtain the following three [[functors]] between their [[power sets]]:
 
 1. $f_! \,\coloneqq\, f(-) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
 
@@ -340,7 +340,7 @@ Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obta
 
    forms [[preimages]] under $f$,
 
-1. $f_ast \,\coloneqq\, T \setminus f\big(S \setminus (-)\big) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
+1. $f_\ast \,\coloneqq\, T \setminus f\big(S \setminus (-)\big) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
 
    forms the [[complement]] of [[images]] of [[complements]].
 
