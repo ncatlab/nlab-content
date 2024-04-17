@@ -1352,6 +1352,8 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
   **Towards Quantum Programming via Linear Homotopy Types**
 
+  notes: [[schreiber:Towards Quantum Programming via Linear Homotopy Types|web]]
+
   > Remarkably, among the [[(infinity,1)-topos|$\infty$-toposes]] into which [[HoTT]] [[categorical semantics|interprets]] are "[[tangent (infinity,1)-topos|tangent $\infty$-toposes]]" of [[parameterized spectrum|parameterized]] [[module spectra]], which behave like [[categorical semantics|semantics]] for an enhancement of [[HoTT]] by [[linear homotopy type theory|dependent *linear* homotopy types]], neatly combining the [[linear type theory|linear aspect]] of [[type theory|typed]] [[quantum programming languages]] (like [[Proto-Quipper]]) with [[homotopy theory|homotopy-theoretic]] aspects needed for future *[[topological quantum computation|topological quantum]]* [[quantum programming language|languages]]. I will survey this [[linear homotopy type theory|LHoTT]]-perspective on [[quantum systems]], developed jointly with [[Hisham Sati]] ("[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in HoTT]]" [arXiv:2303.02382](https://arxiv.org/abs/2303.02382), "[[schreiber:Entanglement of Sections|Entanglement of Sections]]" [arXiv:2309.07245](https://arxiv.org/abs/2309.07245), "[[schreiber:The Quantum Monadology|The Quantum Monadology]]" [arXiv:2310.15735](https://arxiv.org/abs/2310.15735), "[[schreiber:Quantum and Reality|Quantum and Reality]]" [arXiv:2311.11035](https://arxiv.org/abs/2311.11035)).
 
 
