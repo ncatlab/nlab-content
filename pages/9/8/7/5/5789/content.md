@@ -111,6 +111,9 @@ See also:
 
 * Nick Dorey, Boan Zhao, *Supersymmetric quantum mechanics and growth of sheaf cohomology* &lbrack;[arXiv:2209.11834](https://arxiv.org/abs/2209.11834)&rbrack;
 
+* Vyacheslav P. Spiridonov, *Variations of supersymmetric quantum mechanics and superconformal indices* &lbrack;[arXiv:2404.10609](https://arxiv.org/abs/2404.10609)&rbrack;
+
+
 
 
 ### Relation to Morse theory and string theory
