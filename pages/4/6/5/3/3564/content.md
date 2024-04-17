@@ -44,6 +44,12 @@ However, in contexts where there _is_ a separately provided relevant notion of e
 * [[prelattice]]
 * [[Heyting prealgebra object]]
 
+## References
+
+Section 4.1 of:
+
+* [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
 [[!redirects Heyting prealgebras]]
 [[!redirects bicartesian closed preorder]]
 [[!redirects bicartesian closed preorders]]
