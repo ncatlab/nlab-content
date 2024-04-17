@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-In [[order theory]] the term *Galois connection* (due to [Ore 44](#Ore44), who spelled it "connexion") can mean both: "[[adjunction]] between [[posets]]" and "[[dual adjunction]] between [[posets]]"; the former notion is sometimes called "monotone Galois connection" and the latter "antitone Galois connection". In this article the term "Galois connection" shall mean "[[dual adjunction]] between [[posets]]".
+In [[order theory]] the term *Galois connection* (due to [Ore 44](#Ore44), who spelled it "connexion", the French spelling) can mean both: "[[adjunction]] between [[posets]]" and "[[dual adjunction]] between [[posets]]"; the former notion is sometimes called "monotone Galois connection" and the latter "antitone Galois connection". In this article the term "Galois connection" shall mean "[[dual adjunction]] between [[posets]]".
 
 The term _Galois correspondence_ is also in use. For some authors it is synonymous to "Galois connection", others reserve it for its restriction to its [[fixed point of an adjunction|fixed points]], where it becomes an [[adjoint equivalence]].
 
