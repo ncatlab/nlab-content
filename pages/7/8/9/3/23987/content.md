@@ -1167,6 +1167,8 @@ Conference: **Homotopy Type Theory and Computing -- Classical and Quantum**
 
 home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html)
 
+live stream: [nyu.zoom.us/j/99093084110](https://nyu.zoom.us/j/99093084110)
+
 \begin{imagefromfile}
     "file_name": "RunningHoTT2024Logo.jpg",
     "float": "right",
@@ -1228,7 +1230,7 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 * [[David Wärn]]
 
 
-**Schedule:**
+{#RunningHoTT2024Schedule} **Schedule:**
 
 |       | 19th | 20th | 21st |
 |-------|------|------|------|
@@ -1337,15 +1339,20 @@ home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computin
 
 * {#RileyTinyApr2024} [[Mitchell Riley]] (NYU Abu Dhabi):
 
-  **Tiny Types**
+  **Tiny Objects in Type Theory**
 
-  > TBA
+  cf. [arXiv:2403.01939](https://arxiv.org/abs/2403.01939)
+
+  > I will present an extension of [[Martin-Löf Type Theory]] that contains a [[tiny object]]; a [[type]] for which there is a [[right adjoint]] to the formation of [[function types]] as well as the expected [[left adjoint]]. I will suggest a couple of potential applications and sketch a [[normal form|normalisation]] [[algorithm]].
+
 
 * {#RileyLinearApr2024} [[Mitchell Riley]] (NYU Abu Dhabi):
 
   **Linear HoTT and Quipper**
+  
+  notes: [pdf](https://mvr.hosting.nyu.edu/pubs/translation.pdf)
  
-  > TBA
+  > [[linear homotopy type theory|Linear HoTT]] is an [[conservative extension|extension]] of [[HoTT]] with [[linear type]] [[type formation|formers]]. Like the [[Proto-Quipper]] family of [[quantum programming language|languages]], [[linear homotopy type theory|Linear HoTT]] can be used to specify (linear) [[quantum circuits]] [parameterised](quantum+computation#ClassicalControlQuantumData) by (non-linear) [[classical modality|classical]] data. Because we have all of ordinary [[Martin-Löf Type Theory]] at our disposal, there is the prospect of [[software verification|formally verifying]] properties of our [[quantum computing|quantum programs]] in the same language that they are specified. In this talk I will give a new, simpler set of rules for [[linear homotopy type theory|Linear HoTT]] and sketch a translation of [[Quipper]] into this system.
 
 
 * {#SchreiberHoTTApr2024} [[Urs Schreiber]] (NYU AD):
