@@ -835,6 +835,9 @@ Discussion of the logical [[axiom of choice]] in dependent type theory is in
 [[!redirects Martin-Löf type theories]]
 [[!redirects Martin-Löf dependent type theories]]
 
+[[!redirects Martin-Löf Type Theory]]
+[[!redirects Martin-Löf Type Theories]]
+
 [[!redirects Martin-Löf's dependent type theory]]
 [[!redirects Martin-Löf's dependent type theories]]
 
