@@ -32,7 +32,7 @@ Explicitly, a locally $V$-graded category $C$ comprises:
 - for all $v \in V$ and $c, c' \in |C|$, a set $C_v(c, c')$ of $v$-graded morphisms
 - for every $v$-graded morphism $f : c \to c'$ and $p : v' \to v$, a $v'$-graded morphism $p^* f : c \to c'$
 - a $I$-graded identity morphism $1_c$ for each object $c \in |C|$
-- a $v \otimes v'$-graded composite morphism $gf : c \to c''$ for each $v$-graded morphism $f : c \to c'$ and $v'$-graded morphism $g : c' \to c''$
+- a $v \otimes v'$-graded composite morphism $g f : c \to c''$ for each $v$-graded morphism $f : c \to c'$ and $v'$-graded morphism $g : c' \to c''$
 
 satisfying evident laws.
 
