@@ -503,7 +503,6 @@ in his paper "Semisimplicial spectra" (see Proposition 5.8):
 The [[category of unbounded chain complexes]] is [[equivalence of categories|equivalent]] to the
 category of stably simplicial abelian groups,
 with equivalences being given by the same functors
-
 as in the unstable Dold-Kan correspondence, but appropriately
 extended to the above categories.
 =--
