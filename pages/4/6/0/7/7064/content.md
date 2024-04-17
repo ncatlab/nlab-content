@@ -478,6 +478,8 @@ See also
 
 * MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
 
+* Prasit Bhattacharya, Irina Bobkova, J.D. Quigley. *New infinite families in the stable homotopy groups of spheres* (2024). ([arXiv:2404.10062](https://arxiv.org/abs/2404.10062)).
+
 
 ### Image of the J-homomorphism
 
