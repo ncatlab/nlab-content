@@ -126,6 +126,8 @@ That in the absence of [[countable choice]] it is consistent that the [[Dedekind
 
 * {#Bauer22} [[Andrej Bauer]], *The countable reals* ([video](https://www.youtube.com/watch?v=4CBFUojXoq4)). 
 
+* {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
+
 [[!redirects countable set]]
 [[!redirects countable sets]]
 
