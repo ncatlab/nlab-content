@@ -73,6 +73,15 @@ The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]] and m
 
 A more general discussion of this phenomenon in ([Cattaneo–Fiorenza–Longoni](#CattaneoFiorenzaLongoni)). Even more generally, see [[Poincaré duality]] for [[Hochschild cohomology]].
 
+### Integral sections
+
+Just as for vector fields one has the notion of an [[flow of a vector field|integral curve]], so for $k$-vector fields one has a generalization known as **integral sections**. Given a $k$-vector field $X$ on a manifold $M$, and a point $p\in M$, an integral section is a map $\phi: U\subset \mathbb{R}^k \to M$ such that $\phi(0)=p$ and
+$$
+\phi_* (x) (\partial_{x^{\alpha}} \vert_x ) = X_{\alpha} (\phi(x))
+$$ 
+
+See e.g. Section 3.1 in [de León et al. 2015](#deLeon15) and the references cited therein for more.
+
 ## Related concepts
 
 * [[bivector]]
@@ -94,7 +103,9 @@ and on p. 6 of
 
 * [[Claude Roger]], _Gerstenhaber and Batalin-Vilkovisky algebras_, Archivum mathematicum, Volume 45 (2009), No. 4 ([pdf](http://www.emis.de/journals/AM/09-4/roger.pdf))
 
+An exposition of multivector fields and their use in Lagrangian and Hamiltonian theories:
 
+* {#deLeon15} Manuel De León, Modesto Salgado, Silvia Vilarino-Fernández. *Methods of differential geometry in classical field theories: k-symplectic and k-cosymplectic approaches*. World Scientific, 2015. ([arXiv:1409.5604](https://arxiv.org/abs/1409.5604)).
 
 [[!redirects multivector field]]
 [[!redirects multivector fields]]
