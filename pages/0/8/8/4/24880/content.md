@@ -107,7 +107,9 @@ In this guise, the quantum reader monad is reflected by the "green spiders" in t
 ## Properties
  {#Properties}
 
+
 ### Relation to dependent linear types
+ {#RelationToDependentLinearTypes}
 
 We discuss the quantum reader monad as the reader monad induced by $B$-[[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]]. Notation and graphics follows [CQTS (2022)](#CQTS22).
 
@@ -630,7 +632,7 @@ and the evolution of the "classical structures"-monad into the "spider"-ingredie
 
 Also, albeit without explicit mentioning of [[monad|monadic]] structures:
 
-* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], around Lem.  5.61 in *Categories for Quantum Theory*, Oxford University Press 2019 $[$[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)$]$
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], around Lem.  5.61 in *Categories for Quantum Theory*, Oxford University Press 2019 &lbrack;[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)&rbrack;
 
 See also:
 
