@@ -17,13 +17,16 @@
 
 ## Idea
 
-A **vector** is an element in a [[vector space]].
+**Vectors** are the [[elements]] of [[vector spaces]].
 
 The archetypical examples are [[tangent vectors]].
 
 ## Related concepts
 
 * [[wave vector]]
+
+* [[zero vector]]
+
 * [[direction of a vector]]
 
 [[!redirects vectors]]
