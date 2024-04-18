@@ -69,6 +69,32 @@ We say $(X,\omega)$ is a **$n$-plectic manifold** if
 
 =--
 
++-- {: .num_defn}
+###### Definition
+
+
+For $(X,\omega)$ a **$n$-plectic manifold** and $U\subset X$ a submanifold, we say $U$ is a $k$-isotropic, $k$-Lagrangian, and $k$-coisotropic submanifold is for every $p\in U$, the tangent space $T_p U\subset T_p X$ is a $k$-isotropic, $k$-Lagrangian, and $k$-coisotropic subspace, respectively (see [[n-plectic vector space]] for the definition). 
+
+=--
+
++-- {: .num_defn}
+###### Proposition
+
+
+Given a diffeomorphism $f:X\to X$ for $(X,\omega)$ a **$n$-plectic manifold**, its [[graph of a function|graph]] $\Gamma(f)\subset X\times X$ is a $n$-Lagrangian submanifold of the $n$-plectic manifold $(X\times X, \pi_1 ^*\omega - \pi_2 ^* \omega)$ if and only if $f$ is an $n$-plectomorphism, meaning
+$$
+f^*(\omega) = \omega
+$$
+
+See e.g. Proposition 3.7 in [de León & Vilariño 2012](#deLeon12).
+
+=--
+
+
+
+
+
+
 See also the definition at _[[multisymplectic geometry]]_.
 
 ## Examples
@@ -428,6 +454,10 @@ Discussion in the more general context of [[higher differential geometry]]/[[ext
   _[[schreiber:Higher geometric prequantum theory]]_, 
 
   _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_
+
+See also
+
+* {#deLeon12} M. de León, S. Vilariño. *Lagrangian submanifolds in k-symplectic settings* (2012). ([arXiv:1202.3964](https://arxiv.org/abs/1202.3964)).
 
 
 See also the references at [[multisymplectic geometry]] and [[n-symplectic manifold]].
