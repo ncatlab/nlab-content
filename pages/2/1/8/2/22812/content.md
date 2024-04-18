@@ -9,7 +9,7 @@ This page compiles pointers for the collection of seminar notes
 
   * original: [pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf), [[FGA.pdf:file]]
 
-    English translation by [[Tim Hosgood]]: [web version](https://thosgood.com/fga).
+    English translation by [[Tim Hosgood]]: [web version](https://translations.thosgood.com/fga/).
 
     [Wikipedia entry](https://en.wikipedia.org/wiki/Fondements_de_la_G%C3%A9ometrie_Alg%C3%A9brique)
 
@@ -21,13 +21,13 @@ consisting of the following parts:
 
 * [[Alexander Grothendieck]], 
 
-  *Technique de descente et théorèmes d’existence engéométrie algébrique. I:*
+  *Technique de descente et théorèmes d’existence en géométrie algébrique. I:*
 
   *Généralités. Descente par morphismes fidèlement plats*, 
 
   Séminaire N. Bourbaki, 1960, exp. no190, p. 299-327 
 
-  ([numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0), [original pdf](http://www.numdam.org/item/SB_1958-1960__5__299_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-I.pdf), [web version](https://thosgood.com/fga/book/FGA-3-I))
+  ([numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0), [original pdf](http://www.numdam.org/item/SB_1958-1960__5__299_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.i.xml))
 
 * [[Alexander Grothendieck]], 
  
@@ -37,7 +37,7 @@ consisting of the following parts:
 
   Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195 
 
-  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [original pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-II.pdf), [web version](https://thosgood.com/fga/book/FGA-3-II)).
+  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [original pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.ii.xml)).
 
 * [[Alexander Grothendieck]], 
 
@@ -47,7 +47,7 @@ consisting of the following parts:
 
   Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212
 
-  ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [original pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-III.pdf), [web version](https://thosgood.com/fga/book/FGA-3-III)).
+  ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [original pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.iii.xml)).
 
 * (...)
 
