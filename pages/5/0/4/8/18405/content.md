@@ -16,7 +16,10 @@
 
 ## Idea
 
-Given a [[tangent vector field]] on a [[differentiable manifold]] $X$ then its _flow_ is the [[group]] of [[diffeomorphisms]] of $X$ that lets the points of the manifold "flow along the vector field" hence which sends them along _flow lines_ (integral curvs) that are tangent to the vector field.
+Given a [[tangent vector field]] on a [[differentiable manifold]] $X$ then its _flow_ is the [[group]] of [[diffeomorphisms]] of $X$ that lets the points of the manifold "flow along the vector field" hence which sends them along _flow lines_ (integral curves) that are tangent to the vector field. 
+
+Integral curves generalize to *integral sections* for [[multivector field|multivector fields]]. See there for more.
+
 
 ## Definition
 
