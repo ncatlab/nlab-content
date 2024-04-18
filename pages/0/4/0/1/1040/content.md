@@ -44,7 +44,7 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $\mathc
 
 2. All components of $\mu \,\colon\, T T \to T$ are [[monomorphisms]].
 
-3. The [[maps]] $T\eta, \eta T \,\colon\, T \to T T$ are [[equality|equal]]. 
+3. The [[maps]] $T\eta, \eta T \,\colon\, T \to T T$ are [[equality|equal]] (that is, $(T, \eta)$ is a [[well-pointed endofunctor]]). 
 
 4. For every $T$-[[algebra over a monad|algebra]] (aka: $T$-module) $(M,u)$, the corresponding $T$-[[action]] $u\colon T M \to M$ is an [[isomorphism]] (i.e. every algebra is a [[fixed point]]).
 
