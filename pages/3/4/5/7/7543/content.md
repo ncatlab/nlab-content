@@ -521,6 +521,8 @@ See at _[[globular theory]]_ for more.
 
 * [[Segal space]], [[complete Segal space]], [[n-fold complete Segal space]]
 
+* [[Algebraic pattern]]
+
 ## References
 
 The "Segal conditions" are originally due to:
