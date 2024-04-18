@@ -159,21 +159,43 @@ is to be interpreted as follows. The interpretation of the first two terms corre
 
 $$
   \array{
-    &&&& [(\Gamma, x : A, y : B(x))]
+    &&&& 
+   \big[ 
+     (\Gamma, x \colon A, y \colon B(x))
+   \big]
     \\
     &&&&
-    \downarrow^{\mathrlap{[\Gamma, x : A \vdash B(x) : Type]}}
+    \Big\downarrow
+    \mathrlap{
+      {}^{
+        \big[
+          \Gamma, 
+          x \colon A \,\vdash\, B(x) \colon Type
+        \big]
+      }
+    }
     \\
-    [\Gamma] &&\stackrel{[\Gamma \vdash a : A]}{\to}&&
-     [(\Gamma, x : A)]
+    [\Gamma] 
+    &&
+    \overset{
+       [\Gamma \vdash a \colon A]
+     }
+     {\longrightarrow}
+   &&
+     \big[
+       (\Gamma, x \colon A)
+    \big]
     \\
-    & {}_{id}\searrow && \swarrow_{\mathrlap{[\Gamma \vdash A : Type]}}
+    & {}_{id}\searrow 
+      && 
+    \swarrow_{\mathrlap{[\Gamma \vdash A \colon Type]}}
     \\
-    && [\Gamma]
+    && 
+    [\Gamma]
   }
 $$
 
-The interpretation of the substitution statement is then [[generalized the|the]] [[pullback]]
+The interpretation of the [[substitution]] statement is then [[generalized the|the]] [[pullback]]
 
 $$
   [\Gamma \vdash B[a/x] : Type]
