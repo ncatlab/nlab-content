@@ -124,6 +124,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
   [[Mackey functor]]
 
+* [[Parametrized Higher Category Theory and Higher Algebra]]
+
 ## References
 
 Original articles include
@@ -202,6 +204,8 @@ see at _[[spectral Mackey functor]]_ for more references.
 A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation:
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+
+* [[Clark Barwick]], [[Saul Glasman]], [[Denis Nardin]], _Spectral Mackey functors and equivariant algebraic K-theory (II)_, ([arxiv:1505.03098](https://arxiv.org/abs/1505.03098))
 
 A [[universal property]] characterizing equivariant stable homotopy theory:
 
