@@ -22,6 +22,10 @@ On ([[Lie algebra weight system|Lie algebra-]])[[weight systems]] on [[chord dia
 
 * [[Vladimir Hinich]], [[Arkady Vaintrob]], _Cyclic operads and algebra of chord diagrams_, Sel. math., New ser. (2002) 8: 237 ([arXiv:math/0005197](https://arxiv.org/abs/math/0005197))
 
+On [[homotopy limits]] of [[homotopy algebras]] and introducing the notion of the [[dg-nerve]]:
+
+* [[Vladimir Hinich]],  [[Vadim Schechtman]], *On homotopy limit of homotopy algebras*, in: *K-Theory, Arithmetic and Geometry -- Seminar, Moscow University, 1984–1986*, Lecture Notes in Mathematics **1289**, Spinger (2006) 240–264 &lbrack;[doi:10.1007/BFb0078363](https://doi.org/10.1007/BFb0078363)&rbrack;
+
 On [[(infinity,1)-colimits|$\infty$-colimits]] and [[Day convolution]] in the context of [[enriched (infinity,1)-categories|enriched $\infty$-categories]]:
 
 * [[Vladimir Hinich]], *Colimits in enriched ∞-categories and Day convolution*, Theory and Applications of Categories **39** 12 (2023) 365-422 &lbrack;[tac:39-12](http://www.tac.mta.ca/tac/volumes/39/12/39-12abs.html), [arXiv:2101.09538](https://arxiv.org/abs/2101.09538)&rbrack;
