@@ -184,7 +184,7 @@ The original definition of simplicial objects, maps between them, and homotopies
 
 An early discussion of simplicial objects is in:
 
-* [[Alexander Grothendieck]], p. 108 (11 of 21) in: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-III.pdf), [web version](https://thosgood.com/fga/book/FGA-3-III)).
+* [[Alexander Grothendieck]], p. 108 (11 of 21) in: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.iii.xml)).
 
 
 See also:
