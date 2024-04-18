@@ -17,7 +17,7 @@
 
 ## Definition
 
-The additive [[neutral element]] in the [[natural numbers]], [[integers]], [[real numbers]] and [[complex numbers]] is called **zero** and written as $0$.  
+The additive [[neutral element]] in the [[natural numbers]], [[integers]], [[real numbers]] [[complex numbers]] and generally in any [[ring]] is called **zero** and written as $0$.  
 
 More generally, in any [[abelian group]], or even any [[commutative monoid]], the group operation is often called 'addition' and written as $+$, and then the [[neutral element]] is called **zero** and written as $0$.  As a consequence, in any [[ring]], or more generally any [[rig]], the two binary operations are called 'multiplication' and 'addition', and the identity for addition is called **zero**.
 
@@ -36,6 +36,8 @@ Categorifying [[horizontal categorification|horizontally]] instead, we get the n
 All these ideas can be, and have been, categorified further.
 
 ## Related concepts
+
+* [[zero vector]]
 
 * [[zero morphism]]
 
