@@ -9,6 +9,10 @@ An _equivariant symmetric monoidal category_ ([Hill-Hopkins 16](#HillHopkins16))
 
 Motivating applications come from [[equivariant homotopy theory]].
 
+## Related concepts
+
+* [[Parametrized Higher Category Theory and Higher Algebra]]
+
 ## References
 
 
