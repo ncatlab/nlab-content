@@ -28,6 +28,10 @@ On [[chiral algebras]] in relation to [[quantum cohomology]]:
 
 * [[Fyodor Malikov]], [[Vadim Schechtman]], *Deformations of chiral algebras and quantum cohomology of toric varieties* &lbrack;[arXiv:math/0001170](https://arxiv.org/abs/math/0001170)&rbrack;
 
+On [[homotopy limits]] of [[homotopy algebras]] and introducing the notion of the [[dg-nerve]]:
+
+* [[Vladimir Hinich]],  [[Vadim Schechtman]], *On homotopy limit of homotopy algebras*, in: *K-Theory, Arithmetic and Geometry -- Seminar, Moscow University, 1984–1986*, Lecture Notes in Mathematics **1289**, Spinger (2006) 240–264 &lbrack;[doi:10.1007/BFb0078363](https://doi.org/10.1007/BFb0078363)&rbrack;
+
 
 ## Related entries
 
