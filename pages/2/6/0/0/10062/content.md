@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -105,9 +104,9 @@ where $C$ denotes the [[underlying]] ordinary category and $\mathrm{W}_{che} \su
 
 The definition originates with:
 
-* [[Vladimir Hinich]] and [[Vadim Schechtman]],2006, _On homotopy limit of homotopy algebras_, in _K-Theory, Arithmetic and Geometry_: Seminar, Moscow University, 1984–1986, 240–264, Springer Lectur Notes 1289. [doi](https://doi.org/10.1007/BFb0078363)
+* [[Vladimir Hinich]],  [[Vadim Schechtman]], *On homotopy limit of homotopy algebras*, in: *K-Theory, Arithmetic and Geometry -- Seminar, Moscow University, 1984–1986*, Lecture Notes in Mathematics **1289**, Spinger (2006) 240–264 &lbrack;[doi:10.1007/BFb0078363](https://doi.org/10.1007/BFb0078363)&rbrack;
 
-and then
+Further discussion:
 
 * {#BlockSmith14} [[Jonathan Block]], [[Aaron M. Smith]], Def. 2.3 (2.4 in the preprint) of: *The higher Riemann--Hilbert correspondence*, Advances in Mathematics **252** (2014) 382-405 &lbrack;[arXiv:0908.2843](https://arxiv.org/abs/0908.2843), [doi:10.1016/j.aim.2013.11.001](https://doi.org/10.1016/j.aim.2013.11.001)&rbrack;
  
