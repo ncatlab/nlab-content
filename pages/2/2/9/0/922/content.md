@@ -28,6 +28,15 @@ $$H_* C = \mathrm{Tor}^A_*(k,k)\quad \text{and}\quad H^* A = \mathrm{Ext}_C(k,k)
 where $k$ is the [[ground field]]. Notice that such a formulation of Koszul duality using coalgebras and coderived categories avoids various finiteness conditions present when Koszul duality is phrased as relating algebras to algebras.
 
 
+## Alternative guises
+
+The work of O'Brian, Toledo, and Tong throughout the 70s and 80s focused on a Čech version of twisting cochains, using them as a tool to circumvent the non-existence of global resolutions of coherent analytic sheaves by vector bundles in the holomorphic setting. The definition of a twisting cochain in this sense is related to the one above, but not obviously the same. For them, a twisting cochain is a Maurer–Cartan element in some Čech bicomplex given by the endomorphism algebra of a graded vector bundle.
+
+The definition by Bondal and Kapranov ([BK91](#BK91)) of a _twisted complex_ turns out to be a generalisation of the O'Brian–Toledo–Tong notion. They show that, given an arbitrary (not necessarily pretriangulated) dg-category $\mathcal{A}$, the "smallest" dg-category $\mathcal{A}'$ that contains it and in which there exist shifts and functorial cones is exactly the category of twisted complexes in $\mathcal{A}$. Furthermore, if $\mathcal{A}$ is actually pretriangulated then this embedding is a quasi-equivalence (thus allowing us to pull back the shifts and cones, which give a triangulated structure on the homotopy category of $\mathcal{A}$).
+
+For a history and exposition of this side of the twisting cochain story, see e.g. ([Hosgood, §G](#H20)).
+
+
 ## Remarks
 
 John C. Moore was one of the people who studied the subject of 'differential coalgebra', including twisting cochains, in the 1960s and 1970s and gave a survey of the area during his ICM address.
@@ -36,7 +45,7 @@ There are variants of the notion of twisting cochain in a variety of other conte
 
 A [[twisting function]] is an analogue of a twisting cochain in the context of [[simplicial set]]s.
 
-Apart from original usage for the algebraic models for fibrations, twisting cochains and variants are used in [[homological perturbation theory]] (sometimes abbreviated HPT), rational homotopy theory, deformation theory, study of $A_\infty$-categories, Grothendieck duality on complex manifolds (Toledo-Tong) and so on.  
+Apart from original usage for the algebraic models for fibrations, twisting cochains and variants are used in [[homological perturbation theory]] (sometimes abbreviated HPT), rational homotopy theory, deformation theory, study of $A_\infty$-categories, Grothendieck duality on complex manifolds (Toledo-Tong) and so on. 
 
 An old query archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3399&Focus=27888#Comment_27888).
 
@@ -57,6 +66,10 @@ An old query archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/co
 * N. R. O'Brian, Geometry of twisting cochains.  Compositio Math.  63  (1987),  no. 1, 41--62.
 
 * D. Toledo, Yue Lin L.  Tong, _Duality and intersection theory in complex manifolds. I._  Math. Ann.  __237__  (1978), no. 1, 41--77; II. The holomorphic Lefschetz formula.  Ann. of Math. (2) __108__ (1978), no. 3, 519--538.
+
+* {#BK91} A. I. Bondal, M. M. Kapranov, "Enhanced Triangulated Categories", _Math. USSR Sbornik_ __70__ (1991), [pdf](https://ncatlab.org/nlab/files/bondalKaprEnhTRiangCat.pdf)
+
+* {#H20} T. Hosgood, "Chern classes of coherent analytic sheaves: a simplicial approach", PhD thesis (2020), [HAL:tel-02882140](https://theses.hal.science/tel-02882140)
 
 * [[Henri Gillet]], The $K$-theory of twisted complexes, in "Applications of algebraic $K$-theory to algebraic geometry and number theory", Part I, II (Boulder, Colo., 1983), 159--191, Contemp. Math., 55, AMS 1986. 
 
