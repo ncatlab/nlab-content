@@ -62,6 +62,8 @@ The _[[basis theorem]]_, which is equivalent to the [[axiom of choice]], states 
 
   * [[virtual vector space]]
 
+* [[vector]], [[zero vector]]
+
 * [[tensor product of vector spaces]]
 
 * [[real structure]], [[complex structure]], [[quaternionic structure]]
