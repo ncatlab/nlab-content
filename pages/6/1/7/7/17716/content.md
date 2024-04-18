@@ -55,21 +55,58 @@ The program looks to generate results which hold for all atomic orbital $\infty$
 
 For many cases of these atomic orbital $\infty$-categories there is a [[conservative (∞,1)-functor]] to a [[poset]], and so they are [[EI (∞,1)-categories]]. 
 
+## Related concepts
+
+* [[equivariant symmetric monoidal category]]
 
 ## References
 
-Along with an introduction, nine expos&#233;s are planned:
+Along with an introduction, nine expos&#233;s were planned, leading to the following material:
 
 * {#PHCTIntro} [[Clark Barwick]], Emanuele Dotto, [[Saul Glasman]], [[Denis Nardin]], [[Jay Shah]], _Parametrized higher category theory and higher algebra: A general introduction_, ([arXiv:1608.03654](https://arxiv.org/abs/1608.03654))
 
+* [[Clark Barwick]], _Parametrized higher category theory and parameterized higher algebra_, [video](http://www.birs.ca/events/2016/5-day-workshops/16w5133/videos/watch/201602161030-Barwick.html)
+
 * {#PHCTI} [[Clark Barwick]], Emanuele Dotto, [[Saul Glasman]], [[Denis Nardin]], [[Jay Shah]], _Parametrized higher category theory and higher algebra: Expos&#233; I &#8211; Elements of parametrized higher category theory_, ([arXiv:1608.03657](https://arxiv.org/abs/1608.03657))
 
-* {#Shah18} [[Jay Shah]], _Parametrized higher category theory and higher algebra: Expos&#233; II - Indexed homotopy limits and colimits_, ([arXiv:1809.05892](https://arxiv.org/abs/1809.05892))
+* {#Shah18} [[Jay Shah]], _Parametrized higher category theory_, ([arXiv:1809.05892](https://arxiv.org/abs/1809.05892))
+
+* [[Jay Shah]], _Parametrized higher category theory II: Universal constructions_, ([arXiv:2109.11954](https://arxiv.org/abs/2109.11954))
 
 * [[Denis Nardin]], _Parametrized higher category theory and higher algebra: Expos&#233; IV - Stability with respect to an orbital ∞-category_, ([arXiv:1608.07704](https://arxiv.org/abs/1608.07704))
 
-A survey talk is
+On isotropy separation:
 
-* [[Clark Barwick]], _Parametrized higher category theory and parameterized higher algebra_, [video](http://www.birs.ca/events/2016/5-day-workshops/16w5133/videos/watch/201602161030-Barwick.html)
+* [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized Arone-Ching theorem_, ([arxiv:1507.01976](https://arxiv.org/abs/1507.01976))
 
+* [[Saul Glasman]], _Goodwillie calculus and Mackey functors_, ([1507.01976](https://arxiv.org/abs/1507.01976))
 
+On $G$-operads and algebras:
+
+* [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
+
+* [[Shaul Barkan]], [[Rune Haugseng]], [[Jan Steinebrunner]], _Envelopes for Algebraic Patterns_, ([arxiv:2203.00072](https://arxiv.org/abs/1610.03127))
+
+On factorization homology, THH and the $\mathbb{E}_V$ operad:
+
+* [[Asaf Horev]], _Genuine equivariant factorization homology_, ([arXiv:1910.07226](https://arxiv.org/abs/1910.07226))
+
+* [[Jeremy Hahn]], [[Asaf Horev]], [[Inbar Klang]], [[Dylan Wilson]], [[Foling Zou]], _Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra_, ([arXiv:2006.13348](https://arxiv.org/abs/2006.13348))
+
+On presentability, semiadditivity and stability:
+
+* [[Kaif Hilman]], _Parameterized presentability over orbital categories_, ([arxiv:2202.02594](https://arxiv.org/abs/2202.02594))
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _ Parametrized stability and the universal property of global spectra_, ([arXiv:2301.08240](https://arxiv.org/abs/2301.08240)),
+
+* [[Bastiaan Cnossen]], _ Twisted ambidexterity in equivariant homotopy theory_, ([arXiv:2303.00736](https://arxiv.org/abs/2303.00736)), 
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Partial parametrized presentability and the universal property of equivariant spectra_, ([arxiv:2307.11001](https://arxiv.org/abs/2307.11001)) 
+
+* [[Sil Linskens]], _Globalizing and stabilizing global $\infty$-categories_, ([ arXiv:2401.02264](https://arxiv.org/abs/2403.07676))
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Parametrized stability and the universal property of global spectra_, ([arXiv: arXiv:2403.07676](https://arxiv.org/abs/2301.08240))
+
+On noncommutative motives:
+
+* [[Kaif Hilman]], _Parametrised noncommutative motives and equivariant cubical descent in algebraic K-theory_, ([arXiv:2202.02591](https://arxiv.org/abs/2202.02591))
