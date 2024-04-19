@@ -11,6 +11,8 @@ Motivating applications come from [[equivariant homotopy theory]].
 
 ## Related concepts
 
+* [[G-commutative monoid]]
+
 * [[Parametrized Higher Category Theory and Higher Algebra]]
 
 ## References
