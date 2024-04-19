@@ -19,8 +19,10 @@ An **[[algebraic pattern]]** is an [[(∞,1)-category]] $\mathcal{O}$ together w
 
 * a [[full subcategory]] $\mathcal{O}^{\mathrm{el}} \subset \mathcal{O}^{\mathrm{int}}$, whose objects are called _elementary objects_,
 
-subject to the condition that for all $f:X \rightarrow X'$ in $\mathrm{O}$, the space of factorizations of $f$ of the form $X \xrightarrow{i} Y \xrightarrow{a} X'$ with $i \in \mathcal{O}^{\mathrm{int}}$ and $r \in \mathcal{O}^{\mathrm{act}}$ is contractible.
+subject to the condition that for all $f:X \rightarrow X'$ in $\mathcal{O}$, the space of factorizations of $f$ of the form $X \xrightarrow{i} Y \xrightarrow{a} X'$ with $i \in \mathcal{O}^{\mathrm{int}}$ and $r \in \mathcal{O}^{\mathrm{act}}$ is contractible.
 \end{definition}
+
+The pair $(\mathcal{O}^{\mathrm{int}},\mathcal{O}^{\mathrm{act}})$ is a [[factorization system]], with no assumptions made about orthogonality.
 
 It is customary to abusively refer to the quadruple $(\mathcal{O},\mathcal{O}^{\mathrm{int}},\mathcal{O}^{\mathrm{act}},
 \mathcal{O}^{\mathrm{el}})$ simply as $\mathcal{O}$, and to decorate inert morphisms as $\mapsto$ and active morphisms as $\rightsquigarrow$.
@@ -37,8 +39,9 @@ $$
   F(Z) \rightarrow \lim_{\stackrel{E \mapsto Z}{E \in \mathcal{O}^{\mathrm{el}}}}F(E)
 $$
 is an equivalence.
-
 \end{definition}
+
+By Lemma 2.9 of [Chu-Hangseng](#Chu19), these are equivalently given as functors $F:\mathcal{O} \rightarrow \mathcal{C}$ whose restriction to $\mathcal{O}^{\mathrm{int}}$ are right [[(∞,1)-Kan extension|Kan extended]] from $\mathcal{O}^{\mathrm{el}}$.
 
 One example of this is the pattern $\mathbb{F}_*^{\flat}$, whose underlying category is the category $\mathbb{F}_*$ of finite pointed sets with 
 
@@ -46,7 +49,7 @@ One example of this is the pattern $\mathbb{F}_*^{\flat}$, whose underlying cate
 
 * active morphisms given by those $\phi$ with $\phi^{-1}(*) = \{*\}$, and
 
-* elementary objects spanned by $\langle 1 \rangle$
+* elementary objects spanned by $\langle 1 \rangle$.
 
 The resulting [[(∞,1)-category]] of Segal $\mathbb{F}_*^{\flat}$-objects in $\mathcal{C}$ consists of the [[Γ-space|Γ-objects]] in $\mathcal{C}$; hence they are equivalent to [[E-∞ algebra|E∞ algebras]] in $\mathcal{C}$ with the [[cartesian monoidal (∞,1)-category|cartesian symmetric monoidal structure]]. 
 
