@@ -43,6 +43,6 @@ where $\mathrm{Span}(\mathbb{F}_G)$ is the category of [[(∞,1)-category of cor
 
 ## References
 
-* [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
+* [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, (2022) ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
 
 [[!redirects G-commutative monoids]]
