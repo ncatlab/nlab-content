@@ -48,7 +48,7 @@ One example of this is the pattern $\mathbb{F}_*^{\flat}$, whose underlying cate
 
 * elementary objects spanned by $\langle 1 \rangle$
 
-The resulting [[(∞,1)-category]] of Segal $\mathbb{F}_*^{\flat}$-objects in $\mathcal{C}$ consists of the Special $\Gamma$-objects in $\mathcal{C}$ in the sense of [Segal](#Segalreference); hence they are equivalent to [[E-∞ algebra|E∞ algebras]] in $\mathcal{C}$ with the [[cartesian monoidal (∞,1)-category|cartesian symmetric monoidal structure]]. 
+The resulting [[(∞,1)-category]] of Segal $\mathbb{F}_*^{\flat}$-objects in $\mathcal{C}$ consists of the [[Γ-space|Γ-objects]] in $\mathcal{C}$; hence they are equivalent to [[E-∞ algebra|E∞ algebras]] in $\mathcal{C}$ with the [[cartesian monoidal (∞,1)-category|cartesian symmetric monoidal structure]]. 
 
 In particular, applying this to the category $\mathrm{Cat}_\infty$ of small [[(∞,1)-categories]] and applying [[(∞,1)-Grothendieck construction|unstraightening]]  yields a distinguished subcategory of [[cocartesian fibrations]] over $\mathcal{O}$ satisfying [[Segal conditions]].
 These are sometimes called _Segal fibrations_.
@@ -79,7 +79,7 @@ The central concept driving this is that of a Segal morphism.
 $F^*:\mathrm{Fun}(\mathcal{P}, \mathcal{C}) \rightarrow \mathrm{Fun}(\mathcal{O}, \mathcal{C})$
  preserves Segal objects for all $\mathcal{C}$, and a
 
-* _strong Segal morphism_ if for all $Z \in \mathcal{O}$, the associated functor  $\mathcal{O}^{\mathrm{el}}_{/Z} \rightarrow \mathcal{O}^{\mathrm{el}}_{/F(Z)}$ is initial.
+* _strong Segal morphism_ if for all $Z \in \mathcal{O}$, the associated functor  $\mathcal{O}^{\mathrm{el}}_{/Z} \rightarrow \mathcal{O}^{\mathrm{el}}_{/F(Z)}$ is [[final (infinity,1)-functor|initial]].
 
 \end{definition}
 
@@ -138,11 +138,5 @@ Original references:
 Slice patterns and morita equivalences appear in:
 
 * [[Shaul Barkan]], _Arity Approximation of ∞-Operads_, (2022) ([arXiv:2207.07200](https://arxiv.org/abs/2207.07200))
-
-
-Related to the _special $\Gamma$-spaces_ of:
- 
-* {#Segalreference} [[Graeme Segal]], _Categories and Cohomology theories, (1972) ([Topology](https://www.sciencedirect.com/science/article/pii/0040938374900226?via%3Dihub)) 
-
 
 [[!redirects segal object]]
