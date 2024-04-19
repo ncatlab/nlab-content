@@ -28,6 +28,8 @@ Motivating applications come from [[equivariant homotopy theory]].
 
 * [[G-commutative monoid]]
 
+* [[G-operad]]
+
 * [[Parametrized Higher Category Theory and Higher Algebra]]
 
 ## References
@@ -35,4 +37,5 @@ Motivating applications come from [[equivariant homotopy theory]].
 
 * {#HillHopkins16} [[Michael Hill]], [[Michael Hopkins]], _Equivariant symmetric monoidal structures_ ([arXiv:1610.03114](https://arxiv.org/abs/1610.03114))
 
+* [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, (2022) ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
 [[!redirects equivariant symmetric monoidal categories]]
