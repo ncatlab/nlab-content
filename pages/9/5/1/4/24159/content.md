@@ -66,7 +66,7 @@ Thus, if we use the local universe coherence theorem, $U$ represents a "universe
 
 ## References
 
-* [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_, 2014 [PDF](http://arxiv.org/pdf/1406.0058)
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ &lbrack;[arXiv:1406.0058](https://arxiv.org/abs/1406.0058)&rbrack;
 
 Full proof of [[Awodey's conjecture]] that $\infty$-stack $\infty$-toposes model univalent homotopy type theory:
 
