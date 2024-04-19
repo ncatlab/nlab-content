@@ -174,4 +174,8 @@ Standard books include
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+See also:
+
+* Ana Luiza Tenório, Hugo Luiz Mariano. *Grothendieck prelopologies: towards a closed monoidal sheaf category* (2024). ([arXiv:2404.12313](https://arxiv.org/abs/2404.12313)).
+
 [[!redirects Grothendieck topologies]]
