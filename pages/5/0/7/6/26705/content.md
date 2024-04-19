@@ -98,7 +98,7 @@ By Lemma 4.5 of [Chu-Haugseng](#Chu19), for a functor of algebraic patterns to b
 
 Both of these examples are more easily presented via span patterns.
 The theorem relating these is Proposition 5.2.14 of [Barkan-Haugseng-Steinebrunner](#Barkan22).
-We define a pattern $\mathrm{Span}(\mathbb{F}_G)$ whose inert maps are backwards, active maps are forwards, and elementary objects are transitive [[orbit category|G-sets]].
+They define a pattern $\mathrm{Span}(\mathbb{F}_G)$ whose inert maps are backwards, active maps are forwards, and elementary objects are transitive [[orbit category|G-sets]].
 
 \begin{theorem}
   The forgetful functor $\mathbb{F}_{G,*} \rightarrow \mathrm{Span}(\mathbb{F}_G)$ lifts to a Segal morphism of patterns, which induces an equivalence on the categories of Segal obejcts and fibrous patterns.
@@ -108,10 +108,12 @@ We define a pattern $\mathrm{Span}(\mathbb{F}_G)$ whose inert maps are backwards
 
 * The $n$-fold product $\Delta^{\op, n, \natural}$ parameterizes $n$-fold Segal spaces, i.e. [[n-fold category|n-fold ∞-categories]]; the $n$-fold product $\Delta^{\op, n, \flat}$ models $\mathbb{E}_n$-spaces.
 
-* The $n$-fold wreath product $\Theta_n := \Delta \wr \cdots \wr \Delta$ has on its opposite two interesting pattern structures;
+* The $n$-fold [[categorical wreath product|wreath product]] $\Theta_n := \Delta \wr \cdots \wr \Delta$ has on its opposite two interesting pattern structures;
   the pattern $\Theta_n^{\op,\natural}$ models [[(∞,n)-categories]], and the pattern $\Theta_n^{\op,\flat}$ models $\mathbb{E}_n$-spaces.
 
-* Let $\mathcal{S}_m$ denote the $\infty$-category of [[m-finite spaces]]. Then, the pattern $\mathrm{Span}(\mathcal{S}_{m})$ models the [[m-commutative monoids]] of [Harpaz](https://arxiv.org/abs/1703.09764), as developed further by [Carmeli-Schlank-Yanovski](https://arxiv.org/pdf/2007.13089.pdf) and [Ben-Moshe-Schlank](https://arxiv.org/abs/2111.10203)
+* Let $\mathcal{S}_m$ denote the $\infty$-category of [[m-finite spaces]]. Then, the pattern $\mathrm{Span}(\mathcal{S}_{m})$ models [[m-commutative monoids]].
+
+* The opposite $\Omega^{\op}$ of the dendroidal category of [Moerdijk-Weiss](https://arxiv.org/abs/math/0701293) has a pattern structure $\Omega^{\op,\natural}$ whose segal objects are the Dendroidal Segal spaces of [Cisinski-Moerdijk](https://arxiv.org/abs/1010.4956), hence they are [[operads]].
 
 ## Related concepts
 
