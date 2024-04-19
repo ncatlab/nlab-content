@@ -492,7 +492,7 @@ following earlier suggestions by [[Steve Awodey]]. Explicitly, the suggestion th
 
 Details on this higher categorical semantics of [[homotopy type theory]] are in 
 
-* {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
+* {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_ (*From type theory and homotopy theory to Univalent Foundations of Mathematics*), Mathematical Structures in Computer Science **25** 5  (2015) &lbrack;[arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565)&rbrack;
 
 with lecture notes in 
 
