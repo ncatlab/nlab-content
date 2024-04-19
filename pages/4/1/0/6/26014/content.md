@@ -121,6 +121,10 @@ Notes on a more proper treatment of *smooth* 2-groups in the present context is 
 
 * {#KK23} Monica Jinwoo Kang, Sungkyung Kang, *Central extensions of higher groups: Green-Schwartz mechanism and 2-connections* ([arXiv:2311.14666](https://arxiv.org/abs/2311.14666))
 
+On the extension of this notion to [[supergroup|fermionic symmetries]] see e.g.
+
+* Federico Ambrosino, Ran Luo, Yi-Nan Wang, Yi Zhang. *Understanding Fermionic Generalized Symmetries* (2024). ([arXiv:2404.12301](https://arxiv.org/abs/2404.12301)).
+
 Further activity:
 
 * {#CategoricalSymmetries23} *Categorical Symmetries in Quantum Field Theory* (28 Aug -1 Sept 2023) &lbrack;[indico:1131193](https://indico.cern.ch/event/1131193)&rbrack;
