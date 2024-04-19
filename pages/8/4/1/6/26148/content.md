@@ -38,7 +38,7 @@ The quantity $f(y|x)$ can be thought of as a transition [[probability]] or [[con
 The product of stochastic matrices is again a stochastic matrix (and so they form a category, see below).
 Given stochastic matrices $f$ from $X$ to $Y$ and $g$ from $Y$ to $Z$, the entries of the product are 
 $$
-(g\circ f) (z|x) = \sum_X g(z|y)\,f(y|x) .
+(g\circ f) (z|x) = \sum_Y g(z|y)\,f(y|x) .
 $$
 Its probabilistic interpretation is that the random transition from $x$ to $y$ and from $y$ to $z$ are independent, as in a Markov process (hence their product is taken), and all intermediate states $y$ are mutually exclusive, so that the probabilities are summed over all $y$. This formula is sometimes called the *Chapman-Kolmogorov formula*. (See also the generalization to [[Markov kernels]].)
 
