@@ -202,6 +202,21 @@ This is precisely the [[distributivity law]] and [[absorption law]] of the rig.
 
 =--
 
+## In $(\infty,1)$-category theory
+
+The assignment $\mathcal{C} \mapsto \mathrm{CMon}(\mathcal{C})$ satisfies base change for [[presentable (∞,1)-categories]], i.e.
+$$
+  \mathcal{C} \otimes \mathrm{CMon}(\mathcal{S}) \simeq \mathrm{CMon}(\mathcal{S}).
+$$
+
+In particular, $\mathrm{CMon}(S)$ is a [[mode]];
+this implies that for $\mathcal{C}$ a presentably symmetric monoidal(∞,1)-category, $\mathrm{CMon}(\mathcal{C})$ possesses a unique symmetric monoidal structure subject to the condition that the free functor
+$$
+  \mathcal{C} \rightarrow \mathrm{CMon}(\mathcal{C})
+$$
+is symmetric monoidal.
+This is due to [Gepner-Groth-Nikolaus](#Gepner13)
+
 ## Related concepts
 
 * [[tensor product of abelian groups]]
@@ -211,6 +226,11 @@ This is precisely the [[distributivity law]] and [[absorption law]] of the rig.
 * [[tensor product of modules]]
 
 * [[tensor product of algebras over a commutative monad]]
+
+## References
+
+* [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, (2013) ([arXiv:1305.4550](https://arxiv.org/abs/1305.4550))
+
 
 [[!redirects tensor product of commutative monoids]]
 
