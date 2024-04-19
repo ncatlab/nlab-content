@@ -1,4 +1,5 @@
-[[!redirects G-category]]
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,7 +14,7 @@ The starting point of [[Parametrized Higher Category Theory and Higher Algebra]]
 
 \begin{definition}
   The [[∞-category]] of **small $G$-$\infty$-categories** is
-  $$ \mathrm{Cat}_{G,\infty} := \mathrm{Fun}(\mathcal{O}_G^{\op}, \mathrm{Cat}_\infty).$$
+  $$ \mathrm{Cat}_{G,\infty} \coloneqq \mathrm{Fun}(\mathcal{O}_G^{\op}, \mathrm{Cat}_\infty).$$
 \end{definition}
 
 ## Related concepts
