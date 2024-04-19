@@ -24,7 +24,7 @@ The __[[axiom of choice]]__ states that every set has a choice function.
 
 ## Internalisation
 
-In any [[topos]], the definition above can be [[internalisation|internalised]]; we get the notion of a __choice morphism__.
+In any [[topos]], the definition above can be [[internalisation|internalised]]; we get the notions of __[[choice object]]__ and __choice morphism__.
 
 
 [[!redirects choice function]]
