@@ -97,9 +97,9 @@ On presentability, semiadditivity and stability:
 
 * [[Kaif Hilman]], _Parameterized presentability over orbital categories_, ([arxiv:2202.02594](https://arxiv.org/abs/2202.02594))
 
-* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _ Parametrized stability and the universal property of global spectra_, ([arXiv:2301.08240](https://arxiv.org/abs/2301.08240)),
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Parametrized stability and the universal property of global spectra_, ([arXiv:2301.08240](https://arxiv.org/abs/2301.08240)),
 
-* [[Bastiaan Cnossen]], _ Twisted ambidexterity in equivariant homotopy theory_, ([arXiv:2303.00736](https://arxiv.org/abs/2303.00736)), 
+* [[Bastiaan Cnossen]], _Twisted ambidexterity in equivariant homotopy theory_, ([arXiv:2303.00736](https://arxiv.org/abs/2303.00736)), 
 
 * [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Partial parametrized presentability and the universal property of equivariant spectra_, ([arxiv:2307.11001](https://arxiv.org/abs/2307.11001)) 
 
