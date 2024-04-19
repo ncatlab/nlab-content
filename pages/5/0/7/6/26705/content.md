@@ -104,7 +104,7 @@ We define a pattern $\mathrm{Span}(\mathbb{F}_G)$ whose inert maps are backwards
   The forgetful functor $\mathbb{F}_{G,*} \rightarrow \mathrm{Span}(\mathbb{F}_G)$ lifts to a Segal morphism of patterns, which induces an equivalence on the categories of Segal obejcts and fibrous patterns.
 \end{theorem}
 
-* The category $\Delta^{\op}$ has two pattern structures $\Delta^{\op,\natural}, \Delta^{\op, \flat}$, which parameterize [[Segal spaces]] (i.e. [[∞-categories]]) and [[En algebra|E1 algebras]], respectively.
+* The category $\Delta^{\op}$ has two pattern structures $\Delta^{\op,\natural}, \Delta^{\op, \flat}$, which parameterize [[Segal spaces]] (i.e. [[∞-categories]]) and [[E-n algebra|E1 algebras]], respectively.
 
 * The $n$-fold product $\Delta^{\op, n, \natural}$ parameterizes $n$-fold Segal spaces, i.e. [[n-fold category|n-fold ∞-categories]]; the $n$-fold product $\Delta^{\op, n, \flat}$ models $\mathbb{E}_n$-spaces.
 
