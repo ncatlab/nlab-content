@@ -1,7 +1,3 @@
-[[!redirects G-commutative monoids]]
-[[!redirects G-commutative monoid]]
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -46,3 +42,4 @@ where $\mathrm{Span}(\mathbb{F}_G)$ is the category of [[(∞,1)-category of cor
 * [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, (2022) ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
 
 [[!redirects G-commutative monoids]]
+[[!redirects G-commutative monoid]]
