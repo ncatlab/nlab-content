@@ -1167,7 +1167,7 @@ Conference: **Homotopy Type Theory and Computing -- Classical and Quantum**
 
 home page: [nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html)
 
-live stream: [nyu.zoom.us/j/99093084110](https://nyu.zoom.us/j/99093084110)
+live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 
 \begin{imagefromfile}
     "file_name": "RunningHoTT2024Logo.jpg",
