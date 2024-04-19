@@ -25,7 +25,7 @@ The traditional definition of a [[Dirac operator]] is formulated for operators a
 
 When the conceptual importance of the [[Dirac-Ramond operator]] in the [[superstring]] [[worldsheet]] [[2d SCFT]] was realized (an operator in a ([[sheaf of vertex operator algebras|sheaf of]]) [[super vertex operator algebra]]) via the relation in the [[large volume limit]] of its [[index]] (suitably regarded) to the [[Witten genus]], then it seemed suggestive that it should be possible to regard the Dirac-Ramond operator as an actual Dirac operator on the infinite-dimensional [[smooth loop space]] of the underlying manifold, and regard its $S^1$-equivariant [[index of a Dirac operator]] in some precise sense.
 
-A Dirac operator on smooth loop space would also serve to make precise the sense in which [[superstring]] quantum dynamics is [[supersymmetric quantum mechanics]] on [[smooth loop space]], an observation that initially motivated the work by [[Witten]] on supersymmetric quantum mechanics.
+A Dirac operator on a smooth loop space would also serve to make precise the sense in which [[superstring]] quantum dynamics is [[supersymmetric quantum mechanics]] on the [[smooth loop space]], an observation that initially motivated the work by [[Witten]] on supersymmetric quantum mechanics.
 
 The definition of Dirac operators on smooth loop spaces is technically tricky, but constructions do exist. It remains however unclear how these constructions relate to the [[Dirac-Ramond operator]] and a rigorous derivation of the [[Witten genus]] as an (equivariant) [[index of a Dirac operator]] along these lines seems to remain open.
 
@@ -36,7 +36,7 @@ The definition of Dirac operators on smooth loop spaces is technically tricky, b
 
 ## References
 
-The motivation for constructing Dirac operator on smooth loop spaces is mainly due to the observations about the universal [[elliptic genus]] (the [[Witten genus]]) in
+The motivation for constructing Dirac operators on smooth loop spaces is mainly due to the observations about the universal [[elliptic genus]] (the [[Witten genus]]) in
 
 * {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
 
