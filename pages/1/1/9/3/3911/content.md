@@ -194,6 +194,7 @@ along [[representable morphisms of stacks]].
 (...)
 
 ### In generalized cohomology by Umkehr maps via abstract duality 
+ {#InGeneralizedCohomologyByUmkehrMaps}
 
 We discuss now a general abstract reformulation 
 in terms of [[duality]] in [[stable homotopy theory]] and [[higher algebra]] of the above traditional constructions.
