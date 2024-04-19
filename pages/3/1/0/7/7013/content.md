@@ -177,3 +177,8 @@ A discussion of object classifiers, univalent families, and model category prese
 
 [[!redirects locally Cartesian closed infinity,1-category]]
 [[!redirects locally Cartesian closed infinity,1-categories]]
+
+[[!redirects locally Cartesian closed infinity1-category]]
+[[!redirects locally Cartesian closed infinity1-categories]]
+
+
