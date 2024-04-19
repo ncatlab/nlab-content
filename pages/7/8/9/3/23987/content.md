@@ -1237,11 +1237,11 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 | 9:00  | [Buchholtz](#BuchholtzApr2024) | [Lee](#LeeApr2024) | [Shulman](#ShulmanApr2024)  |
 | 10:00 | [Mörtberg](#MörtbergApr2024) | [Riley](#RileyLinearApr2024) | [Kovács](#KovácsApr2024)  |
 | 11:00 | [Lamiaux](#LamiauxApr2024)  | [Paykin](#PaykinApr2024) | [Riley](#RileyTinyApr2024)  |
-| 12:00 | [Ljungström](#LjungströmApr2024) | [Myers](#MyersApr2024) | lunch |
+| 12:00 | [Ljungström](#LjungströmApr2024) | [Finster](#FinsterApr2024) | lunch |
 | 13:00 |  lunch     | lunch |       |
 | 14:00 | [Wärn](#WärnApr2024) | [Gratzer](#GratzerApr2024) |    |
 | 15:00 | [Schreiber](#SchreiberHoTTApr2024) | [Sterling](#SterlingApr2024) |   |
-| 16:00 | [Finster](#FinsterApr2024)    | [Altenkirch](#AltenkirchApr2024) | |
+| 16:00 | [Myers](#MyersApr2024)  | [Altenkirch](#AltenkirchApr2024) | |
 | 17:00 | [Rand](#RandApr2024)  | [Angiuli](#AngiuliApr2024) |    |
 
 **Talks:**
