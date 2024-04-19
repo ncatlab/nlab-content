@@ -229,7 +229,7 @@ This is due to [Gepner-Groth-Nikolaus](#Gepner13)
 
 ## References
 
-* [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, (2013) ([arXiv:1305.4550](https://arxiv.org/abs/1305.4550))
+* {#Gepner13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, (2013) ([arXiv:1305.4550](https://arxiv.org/abs/1305.4550))
 
 
 [[!redirects tensor product of commutative monoids]]
