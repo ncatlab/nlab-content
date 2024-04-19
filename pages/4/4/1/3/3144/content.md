@@ -34,7 +34,6 @@ This may be understood conceptually as follows:
 
 A **simplicial ring** is a [[simplicial object]] in the [[category]] [[Ring]] of [[rings]].
 
-There is an evident notion of [[(∞,1)-category]] of [[module]]s over a simplicial ring. The corresponding [[bifibration]] $sMod \to sRing$ of modules over simplicial ring is equivalently to the [[tangent (∞,1)-category]] of the [[(∞,1)-category]] of simplicial rings.
 
 ## Properties
 
