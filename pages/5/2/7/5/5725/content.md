@@ -16,5 +16,10 @@ On the [[quantum geometric Langlands correspondence]]:
 
 * [[Dennis Gaitsgory]], *Quantum Langlands Correspondence* &lbrack;[arXiv:1601.05279](https://arxiv.org/abs/1601.05279)&rbrack;
 
+Several drafts concerning the proof of the geometric langlands conjecture appear here:
+
+* [Proof of the geometric Langlands conjecture](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)
 
 [[!redirects D. Gaitsgory]]
+
+category: people
