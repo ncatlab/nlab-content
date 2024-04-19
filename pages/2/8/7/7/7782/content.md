@@ -20,7 +20,7 @@
 
 The space of [[infinitesimal space|infinitesimal]] loops in a given [[space]] $X$ -- hence the formal neighbourhood of the constant loops $X \hookrightarrow L X$ -- is often called the _formal loop space_ (as in _[[formal geometry]]_).
 
-Formal loop spaces have application for instance in the theory of [[elliptic genera]], since it was shown that the [[Witten genus]] is the $S^1$-equivariant [[index of a Dirac operator|index]] of a [[Dirac-Ramond operator]] which is like  [[Dirac operator on smooth loop space]], only that due to $S^1$-equivariance (orelse due to a [[large volume limit]]) the index is fully determined by the restriction of that operator to formal loops.
+Formal loop spaces have application for instance in the theory of [[elliptic genera]], since it was shown that the [[Witten genus]] is the $S^1$-equivariant [[index of a Dirac operator|index]] of a [[Dirac-Ramond operator]] which is like  a [[Dirac operator on smooth loop space]], only that due to $S^1$-equivariance (or else due to a [[large volume limit]]) the index is fully determined by the restriction of that operator to formal loops.
 
 ## Properties
 
