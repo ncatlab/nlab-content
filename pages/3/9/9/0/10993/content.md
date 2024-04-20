@@ -50,7 +50,7 @@ A **$J$-relative monad $T$** &lbrack;[ACU15, Def. 2.1](#ACU15)&rbrack; comprises
 
 such that, for each $X, Y, Z \in |A|$, the following equations hold:
 
-- $f = f^\dagger \circ \eta_X$ for each $f \colon TX \to TY$ (**left unitality**);
+- $f = f^\dagger \circ \eta_X$ for each $f \colon JX \to TY$ (**left unitality**);
 
 - $(\eta_X)^\dagger = 1_{TX}$ (**right unitality**);
 
