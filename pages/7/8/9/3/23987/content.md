@@ -1195,7 +1195,7 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 
 * [[Thorsten Altenkirch]]
 
-* [[Carlo Angiuli]] (online)
+* [[Carlo Angiuli]]
 
 * [[Ulrik Buchholtz]]
 
@@ -1217,13 +1217,13 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 
 * [[Jennifer Paykin]]
 
-* [[Robert Rand]] (online)
+* [[Robert Rand]]
 
 * [[Mitchell Riley]]
 
 * [[Urs Schreiber]]
 
-* [[Michael Shulman]] (online)
+* [[Michael Shulman]]
 
 * [[Jon Sterling]]
 
@@ -1389,7 +1389,7 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 
 ### May 2024
 
-* 27 May - 31 May 2024
+* {#QuantumConference2024} 27 May - 31 May 2024
 
   **Quantum Information and Quantum Matter**
 
