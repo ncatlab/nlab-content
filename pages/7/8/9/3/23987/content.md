@@ -1258,9 +1258,9 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 
 * {#AngiuliApr2024} [[Carlo Angiuli]] (Indiana Univ.)
 
-  **TBA**
+  **Normalization: Running Open Terms**
 
-  > TBA
+  > This talk will survey the [[normal form|normalization]] problem for [[type theory]], in anticipation of upcoming talks at this conference by [[Mike Shulman|Shulman]] and [[András Kovács|Kovács]]. I will attempt to define normalization in general, before focusing on the [[simply-typed lambda calculus]], its (beta-eta) normal forms, and normalization by [[evaluation]]. I will also discuss [[dependent types]], the relationship between [[computation]] and normalization, and a forthcoming expository resource.
 
 * {#BuchholtzApr2024} [[Ulrik Buchholtz]] (Univ. Nottingham)
 
