@@ -25,7 +25,7 @@ More precisely, in [[type theory]], a [[term]] belonging to some [[type]] is sai
 For example, the terms of type $\mathbb{N}$ (a [[natural numbers type]]) of canonical form are the [[numerals]]
 $$ S(S(S(\cdots (0)\cdots ))). $$
 
-A type theory is said to enjoy **canonicity** if every closed term (i.e. term in the empty context) computes to a canonical form.  This is held to be an important meta-theoretic property of type theory, especially considered as a programming language or as a computational foundation for mathematics.  It is related to [[normalization]], which says that every *open* term can also be reduced to a "normal form" of some kind.
+A type theory is said to enjoy **canonicity** if every closed term (i.e. a [[term]] in the [[empty context]]) computes to a canonical form.  This is held to be an important meta-theoretic property of type theory, especially considered as a [[programming language]] or as a computational foundation for mathematics.  It is related to [[normalization]], which says that every *open* term can also be reduced to a "[[normal form]]" of some kind.
 
 ## Canonicity vs axioms
 
