@@ -108,6 +108,8 @@ The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a compact clo
 
 * [[linear logic]]
 
+* [[pregroup grammar]]
+
 ## References
 
 The characterization of the free compact closed category over a closed symmetric monoidal category is described in
