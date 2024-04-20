@@ -137,7 +137,7 @@ P(B) \rtwocell^{P(1_B)}_{1_{P(B)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\
 
 #### Lax 2-Functor
 
-To obtain the notion of a __lax functor__ we only require that the coherence morphisms $\gamma_{f,g}$ and $\iota_A$ be $2$-cells, not necessarily $2$-cell isomorphisms.  This prevents us from going back and forth between preimages and images of identity $1$-cells and horizontally composed $1$-cells/$2$-cells.  Similarly, to obtain an __oplax functor__ we reverse the direction of these 2-cells.
+To obtain the notion of a __lax functor__ we only require that the coherence morphisms $\gamma_{f,g}^{-1}$ and $\iota_A^{-1}$ be $2$-cells, not necessarily $2$-cell isomorphisms.  This prevents us from going back and forth between preimages and images of identity $1$-cells and horizontally composed $1$-cells/$2$-cells.  Similarly, to obtain an __oplax functor__ we reverse the direction of these 2-cells.
 
 #### Strict 2-Functor
 
