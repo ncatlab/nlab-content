@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _semifunctor_ is a [[homomorphism]] between [[semicategories]], like a [[functor]] is a homomorphims between [[categories]].
+A _semifunctor_ is a [[homomorphism]] between [[semicategories]], like a [[functor]] is a homomorphism between [[categories]].
 
 ## Definition
 
