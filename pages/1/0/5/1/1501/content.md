@@ -188,6 +188,8 @@ See Theorems 1 and 2 in [Delpeuch](#Delpeuch).
 
 * [[linguistics|natural language syntax]]
 
+* [[pregroup grammar]]
+
 [[!redirects rigid monoidal category]]
 [[!redirects rigid monoidal categories]]
 [[!redirects rigid category]]
