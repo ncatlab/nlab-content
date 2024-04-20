@@ -190,6 +190,8 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories.
 
+* If $V$ is a [[closed monoidal category]], then $V \times V^{op}$ is $*$-autonomous ([Barr 1996](#Barr96)).
+
 * Various [[subcategories]] of Chu constructions are also $*$-autonomous.  For instance, if [[Vect]] is the category of [[vector spaces]] over a [[field]] $k$, then $Chu(Vect,k)$ is the category of vector spaces equipped with a specified "dual" having no further structure than an evaluation map $V\otimes W\to k$.  One often wants to impose nondegeneracy conditions on this "dual", which in turn can be reflected as [[topological vector space|topological]] properties of the original space $V$. 
 Write $(V,V')$ for an object of $Chu(Vect,k)$ and $\langle v,w \rangle$ the evaluation of $w$ on $v$. We say that $(V,V')$ is separated if for each $v \neq 0 \in V$, there exists $v' \in V'$ such that $\langle v,v' \rangle \neq 0$ and we say that it is extensional if for each $v' \neq 0 \in V'$, there exists $v \in V$ such that $\langle v,v' \rangle \neq 0$. Then, the full subcategory $chu(Vect,k)$ of separated, extensional pairs is $*$-autonomous.
 
@@ -288,6 +290,8 @@ According to Tobias Fritz (on the [Category Theory Community Server](https://cat
 >  They apparently didn't know about $\ast$-autonomous categories (which were introduced a few years prior to that), and their statement has slightly weaker assumptions in that they start with a natural isomorphism $\mathscr{C}(A \otimes B, I) \cong \mathscr{C}(A, B^*)$ only, but they also require the induced morphisms $A^* \otimes B^* \to (A \otimes B)^*$ to be isomorphisms.
 
 See also:
+
+* {#Barr96} [[Michael Barr]], *The Chu construction*, Theory Appl. Categories **2** 2 (1996) 17–35 &lbrack;[tac:2-02](http://www.tac.mta.ca/tac/volumes/1996/n2/2-02abs.html)&rbrack;
 
 * [[Michael Barr]], *Topological $\ast$-autonomous categories*, Theory Appl. Categories, 16 (2006) 700–708 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/mack.pdf), [[Barr-TopologicalStarAutonomous.pdf:file]]&rbrack;
 
