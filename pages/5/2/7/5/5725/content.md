@@ -6,7 +6,7 @@ __Dennis Gaitsgory__ is a mathematician at Harvard. His research is in [[represe
 
 On the [[geometric Langlands conjecture]] ([[categorical geometric Langlands conjecture]]):
 
-* [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
+* [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]_ &lbrack;[web](https://people.mpim-bonn.mpg.de/gaitsgde/GL)&rbrack;.
 
 * [[D. Gaitsgory]], [[N. Rozenblyum]], _[[A study in derived algebraic geometry]]_.
 
