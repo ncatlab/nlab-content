@@ -400,6 +400,8 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 ## References
  {#References}
 
+> For more references see also at _[[homotopy type theory]]_.
+
 The earliest occurrence of the univalence axiom is due -- under the name "universe extensionality" -- to:
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
@@ -559,7 +561,12 @@ Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable 
 
 * {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
-For more references see _[[homotopy type theory]]_.
+Application of univalence to [[proof]] transfer:
+
+* Cyril Cohen, Enzo Crance, Assia Mahboubi, *Trocq: Proof Transfer for Free, With or Without Univalence*, in: *Programming Languages and Systems. ESOP 2024*, Lecture Notes in Computer Science **14576**, Springer (2024) &lbrack;[arXiv:2310.14022](https://arxiv.org/abs/2310.14022), [doi:10.1007/978-3-031-57262-3_10](https://doi.org/10.1007/978-3-031-57262-3_10)&rbrack;
+
+
+
 
 [[!redirects univalence]]
 [[!redirects univalent]]
