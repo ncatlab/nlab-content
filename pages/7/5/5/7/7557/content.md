@@ -35,8 +35,7 @@ For instance, if we assume the law of excluded middle, then we can build a term 
 
 Similarly, using the univalence axiom, we can obtain a term $p : (\mathbf{2}=\mathbf{2})$ corresponding to the automorphism of the type $\mathbf{2}$ which switches $0_\mathbf{2}$ and $1_\mathbf{2}$.  Then the term $transport(p,0_\mathbf{2})$ also has type $\mathbf{2}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
 
-It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation while preserving canonicity.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
-
+It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation while preserving canonicity.  Some partial progress towards this can be found in ([Licata 2011](#Licata2011)).
 ## See also
 
 * [[homotopy canonicity]]
@@ -50,7 +49,7 @@ Discussion of canonicity in [[homotopy type theory]] with [[univalence]] is disc
 * [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
 
 
-* [[Dan Licata]], _Canonicity for 2-Dimensional Type theory_  (2011) ([web](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/))
+* {#Licata2011}[[Dan Licata]], _Canonicity for 2-Dimensional Type theory_  (2011) ([web](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/))
 
 [[!redirects canonical form]]
 [[!redirects canonical forms]]
