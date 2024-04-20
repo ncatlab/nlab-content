@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[linear type theory]]:
+
+* [[Philip Wadler]], *Linear Types can Change the World!*, Programming concepts and methods **3**, North Holland  (1990) &lbrack;[pdf](http://www.cs.ioc.ee/ewscs/2010/mycroft/linear-2up.pdf)&rbrack;
+
 
 On [[monads in computer science]]:
 
