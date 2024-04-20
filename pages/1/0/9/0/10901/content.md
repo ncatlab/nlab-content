@@ -154,6 +154,10 @@ Linear type theory as such is made explicit in:
 
 * {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
 
+Exposition:
+
+* [[Philip Wadler]], *Linear Types can Change the World!*, Programming concepts and methods **3**, North Holland  (1990) &lbrack;[pdf](http://www.cs.ioc.ee/ewscs/2010/mycroft/linear-2up.pdf)&rbrack;
+
 
 ### Lambek's syntactic calculus
 
