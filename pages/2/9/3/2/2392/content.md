@@ -27,7 +27,7 @@ The notion of _$(\infty,1)$-operad_ is to that of [[(∞,1)-category]] as [[oper
 
 So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each given type of input and one type of output an [[∞-groupoid]] of operations that take these inputs to that output.
 
-There is a fairly evident notion of [[∞-algebra over an (∞,1)-operad]]s. Examples include
+There is a fairly evident notion of an [[∞-algebra over an (∞,1)-operad]]. Examples include
 
 * [[E-∞ algebra]]s
 
@@ -39,13 +39,24 @@ $(\infty,1)$-Operads form an [[(∞,2)-category]] [[(∞,1)Operad]].
 
 ## Definitions
 
-Two models for $(\infty,1)$-operads exist to date, one by [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]]--[[Ittay Weiss|Weiss]], the other by [[Jacob Lurie|Lurie]]. It is expected though not yet entirely proved that the two are equivalent ([[Higher Algebra]], draft, Remark 2.0.0.8).
+Many equivalent models for $(\infty,1)$-operads exist to date. Some of these include
 
+* The dendroidal model of [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]]--[[Ittay Weiss|Weiss]]
+
+* The $\infty$-category of operators model of [[Jacob Lurie|Lurie]]
+
+* The complete Segal operad model of [[Clark Barwick|Barwick]]
+
+* The equifibered model of [[Rune Haugseng|Haugseng]]-[[Joachim Kock|Kock]] and [[Shaul Barkan|Barkan]]-[[Jan Steinebrunner|Steinebrunner]]
+
+* The analytic monad model of [[David Gepner|Gepner]]-[[Rune Haugseng|Haugseng]], [[Joachim Kock|Kock]]
+
+* The "Symmetric sequences in a closed symmetric monoidal model category" model of [[Clemens Berger|Berger]]-[[Ieke Moerdijk|Moerdijk]]
+
+We focus on the first two.
 The first one models $(\infty,1)$-operads as [[dendroidal set]]s in close analogy to (in fact as a generalization of how) [[simplicial set]]s model [[(∞,1)-category|(∞,1)-categories]].
 
 The second models the [[(∞,1)-category]] version of a [[category of operators]] of an operad.
-
-
 
 
 ### In terms of dendroidal sets
@@ -415,16 +426,10 @@ The [[(∞,1)-algebras over an (∞,1)-operad]] over this $(\infty,1)$-operad ar
 ## Properties
 
 
-### Relation between the two definitions 
+### Equivalence between the two definitions 
   {#relation}
 
-+-- {: .standout}
-
-At the time of this writing there is no discussion in "the literature" of the relation between the definition of $(\infty,1)$-operads in terms of dendroidal sets (Cisinski, Moerdijk, Weiss) and $(\infty,1)$-categories of operators (Lurie). The following are some tentative observations. - [[Urs Schreiber|Urs]]
-
-update: meanwhile this has been worked out by some people. Results should appear in preprint form soon.
-
-=--
+The dendroidal and category of operads models are equivalent, as shown in e.g. [Hinich-Moerdijk](#Hinich22). The following is another strategy to do so.
 
 
 There is an obvious way to regard a [[tree]] as an $(\infty,1)$-category of operators:
@@ -488,8 +493,6 @@ is the **dendroidal nerve** of $A$.
 One expects that $N_d$ induces a [[Quillen adjunction]] and indeed a [[Quillen equivalence]] between the above model category structure on $\mathcal{P}Op_{(\infty,1)}$ and the [[model structure on dendroidal sets]]. The following is as far as I think I can prove aspects of this. -[[Urs Schreiber|Urs]].
 
 =--
-
-
 
 +-- {: .num_prop}
 ###### Proposition
@@ -640,7 +643,7 @@ Hence $C_f$ is a weak equivalence.
 
 * [[cohomology of operads]]
 
-
+* [[algebraic pattern]]
 
 ## References
 
@@ -675,6 +678,10 @@ The equivalence between the [[dendroidal set]]-formulation and the one in terms 
 
 * [[Gijs Heuts]], [[Vladimir Hinich]], [[Ieke Moerdijk]], _The equivalence between Lurie's model and the dendroidal model for infinity-operads_ ([arXiv:1305.3658](http://arxiv.org/abs/1305.3658))
 
+and made symmetric monoidal in
+
+* {#Hinich22} [[Vladimir Hinich]], [[Ieke Moerdijk]], _On the equivalence of the Lurie's ∞-operads and dendroidal ∞-operads_, ([arXiv:2206.14033](https://arxiv.org/abs/2206.14033))
+
 Further equivalence to Barwick's complete Segal operads is discussed in
 
 * Hongyi Chu, [[Rune Haugseng]], [[Gijs Heuts]], _Two models for the homotopy theory of $\infty$-operads_ ([arXiv:1606.03826](https://arxiv.org/abs/1606.03826))
@@ -682,6 +689,12 @@ Further equivalence to Barwick's complete Segal operads is discussed in
 For an account in terms of _analytic_ [[monads]], that is, monads that are cartesian (multiplication and unit transformations are cartesian) and the underlying endofunctor preserves sifted colimits and wide pullbacks (or equivalently all weakly contractible limits), see
 
 * [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
+
+For an account in terms of _symmetric monoidal categories and equifibrations_, see
+
+* [[Rune Haugseng]], [[Joachim Kock]], _∞-operads as symmetric monoidal ∞-categories_, ([arXiv:2106.12975](https://arxiv.org/abs/2106.12975))
+
+* [[Shaul Barkan]], [[Jan Steinebrunner]], _The equifibered approach to ∞-properads_, ([arXiv:2211.02576](https://arxiv.org/abs/2211.02576))
 
 On the [[Eckmann-Hilton argument]] for (∞,1)-operads:
 
