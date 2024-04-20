@@ -42,6 +42,12 @@ Assuming the [[axiom of choice]], [[Stonean locales]] are
 [[spatial]], so the category of hyperstonean locales
 is equivalent to the category of hyperstonean spaces.
 
+## Hyperstonean cover
+
+Given a [[compact Hausdorff space]] $X$, its __hyperstonean cover__ is defined as a continuous map of compact Hausdorff spaces
+$$hX \to X$$
+that under the Gelfand duality corresponds to the canonical inclusion $C(X)\to C(X)^{**}$ into the double dual.
+
 ## References
 
 Hyperstonean spaces were introduced and studied by [[Jacques Dixmier]]:
@@ -52,6 +58,14 @@ An expository account is given by [[Masamichi Takesaki]] in
 
 * [[Masamichi Takesaki]], _Theory of Operator Algebras_, Chapter III, Section 1.
 
+The hyperstonean cover of a [[compact Hausdorff space]] is introduced in
+
+* J. Flachsmeyer, _Topologization of Boolean algebras_, General Topology and Its Relations to Modern Analysis and Algebra IV, Lecture Notes in Mathematics 609 (1977), 81–97.  [doi](http://dx.doi.org/10.1007/bfb0068674).
+
+A bibliography of hyperstonean covers can be found in
+
+* V. K. Zaharov, _Hyperstonean cover and second dual extension_, Acta Mathematica Hungarica 51:1-2 (1988), 125-149.  [doi](http://dx.doi.org/10.1007/bf01903626).
+
 [[!redirects hyperstonean spaces]]
 [[!redirects hyperstonean topological space]]
 [[!redirects hyperstonean topological spaces]]
@@ -59,3 +73,5 @@ An expository account is given by [[Masamichi Takesaki]] in
 [[!redirects normal measures]]
 [[!redirects hyperstonean locale]]
 [[!redirects hyperstonean locales]]
+[[!redirects hyperstonean cover]]
+[[!redirects hyperstonean covers]]
