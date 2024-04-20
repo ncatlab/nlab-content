@@ -1,6 +1,14 @@
 This entry is about the collection of notes
 
-* [[Dennis Gaitsgory]], _Notes on geometric Langlands_, [web](http://www.math.harvard.edu/~gaitsgde/GL/)
+* [[Dennis Gaitsgory]]: 
+
+  \linebreak
+
+  **Notes on geometric Langlands** 
+
+  \linebreak
+
+  &lbrack;[web](https://people.mpim-bonn.mpg.de/gaitsgde/GL)&rbrack;
 
 on the [[categorical geometric Langlands conjecture]], which is formulated as an equivalence of [[stable (infinity,1)-categories]] of
 
