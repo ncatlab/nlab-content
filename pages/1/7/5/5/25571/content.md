@@ -32,6 +32,10 @@ Many locally small categories admit small colimits and [[E-colimits]] for $E$ a 
 
 Evidently, a small-[[cocomplete category]] that is [[well powered category|co-well-powered]] will admit cointersections of all [[epimorphisms]], though not all relevant examples are co-well-powered.
 
+### Extremal epimorphisms
+
+When $E$ is the [[class]] of [[extremal epimorphisms]], such a category is called **Isbell-cocomplete** in §2.2 of [BKR15](#BKR15).
+
 ### Strong epimorphisms
 
 When $E$ is the [[class]] of [[strong epimorphisms]], such a category is called **well-cocomplete**.
@@ -75,6 +79,8 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 * {#Borger1981} R. Börger, [[Walter Tholen]], M. B. Wischnewsky & H. Wolff. _Compact and hypercomplete categories_. Journal of Pure and Applied Algebra 21.2 (1981): 129-144.
 
 * {#Kelly1986} [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
+
+* {#BKR15} [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On reflective and coreflective hulls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]] **56** (2015) 162–208 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/biref.pdf), [[BarrKennisonRaphael-Reflective.pdf:file]]&rbrack;
 
 * {#Walker2019} [[Charles Walker]]. "Distributive laws via admissibility." Applied Categorical Structures 27.6 (2019): 567-617.
 
