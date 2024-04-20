@@ -1,4 +1,4 @@
-__Dennis Gaitsgory__ is a mathematician at Harvard. His research is in representation theory and algebraic geometry, specially D-modules, chiral algebras and geometric Langlands.
+__Dennis Gaitsgory__ is a mathematician at Harvard. His research is in [[representation theory]] and [[algebraic geometry]], specially [[D-modules]], [[chiral algebras]] and [[geometric Langlands]].
 
 * [webpage](http://www.math.harvard.edu/~gaitsgde)
 
