@@ -19,13 +19,15 @@
 
 ## Idea
 
-A **compact bicategory** is a [[bicategory]] in which every 1-cell has a left [[adjoint]] and a right [[adjoint]]. It is the [[horizontal categorification]] of a [[rigid monoidal category]], i.e. a nonsymmetric [[compact closed category]].
+**Compact bicategories** are [[bicategory]] in which every [[1-morphisms]] has a [[left adjoint]] and a [[right  adjoint]]. These are the [[horizontal categorification]] of [[rigid monoidal categories]], i.e. of non-symmetric [[compact closed categories]].
 
-This should be distinguished from a [[compact closed bicategory]], which is a [[monoidal bicategory]] with [[duals]], i.e. the [[vertical categorification]] of a [[compact closed category]].
+This should be distinguished from [[compact closed bicategories]], which are [[monoidal bicategories]] with [[duals]], i.e. the [[vertical categorification]] of [[compact closed categories]].
+
 
 ## Related pages
 
 - [[pregroup grammar]]
+
 - [[rigid monoidal category]]
 
 ## References
