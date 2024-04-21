@@ -14,11 +14,16 @@ For the characterisation of [[categories]] which are [[localizations]] of [[Malt
 
 * [[Marino Gran]] and [[Enrico Vitale]], _Localizations of Maltsev varieties_, Theory and Applications of Categories **5** 12 (1999) 281-291 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1999/n12/5-12abs.html)&rbrack;
 
-On [[regular categories]] and [[protomodular categories]]:
+On [[regular categories]] and [[semi-abelian categories]]:
 
 * [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_, Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
 
 * {#Gran20} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts, Springer (2021) &lbrack;[arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096)&rbrack;
+
+* [[Marino Gran]], Florence Sterck, [[Joost Vercruysse]], _A semi-abelian extension of a theorem by Takeuchi_, J. Pure Appl. Alg. __223__, 10 (2019) 4171-4190, <a href="https://doi.org/10.1016/j.jpaa.2019.01.004">doi</a>
+
+
+* [[Tomas Everaert]], [[Marino Gran]], [[Tim Van der Linden]], _Higher Hopf Formulae for Homology via Galois Theory_, Adv. Math. __223__, 10 (2008) 4171-4190, <a href="https://doi.org/10.1016/j.aim.2007.11.001">doi</a>
 
 On [[Goursat categories]]:
 
