@@ -28,7 +28,7 @@ An _orbital $\infty$-category_ is an [[(∞,1)-category]] satisfying a weak axio
 
 ## Definitions
 
-Given $\mathcal{T}$ an [[(∞,1)-category]], we write $\mathbb{F}_{\mathcal{T}} := \mathcal{T}^{\amalg}$ for its finite [[free coproduct completion|coproduct completion]].
+Given $\mathcal{T}$ an [[(∞,1)-category]], we write $\mathbb{F}_{\mathcal{T}} \coloneqq  \mathcal{T}^{\amalg}$ for its finite [[free coproduct completion|coproduct completion]].
 
 \begin{definition}
   An $\infty$-category $\mathcal{T}$ is **orbital** if $\mathbb{F}_{\mathcal{T}}$ admits finite (co)products.
@@ -42,7 +42,7 @@ Given $\mathcal{T}$ an [[(∞,1)-category]], we write $\mathbb{F}_{\mathcal{T}} 
 
 If $\mathcal{T}$ is orbital, then $\mathbb{F}_{\mathcal{T}}$ is [[disjunctive (∞,1)-category|disjunctive]], so we may form the Burnside category
 $$
-  \mathrm{Span}(\mathbb{F}_{\mathcal{T}}) := A^{\mathrm{eff}}(\mathbb{F}_{\mathcal{T}}),
+  \mathrm{Span}(\mathbb{F}_{\mathcal{T}}) \coloneqq  A^{\mathrm{eff}}(\mathbb{F}_{\mathcal{T}}),
 $$
 the latter denoting the [[(infinity,n)-category of correspondences|(∞,1)-category of correspondences]] constructed by [Barwick]{#Barwick14}.
 
