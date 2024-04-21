@@ -8,6 +8,10 @@
 
 $G$-$\infty$-operads are to [[(∞,1)-operads]] as [[equivariant symmetric monoidal category|equivariant symmetric monoidal categories]] are to [[symmetric monoidal categories]]
 
+## Examples
+
+* [[N-∞ operads]]
+
 ## Related concepts
 
 * [[Parametrized Higher Category Theory and Higher Algebra]]
