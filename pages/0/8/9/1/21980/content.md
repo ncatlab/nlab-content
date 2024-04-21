@@ -26,7 +26,7 @@ The second [[stable homotopy group of spheres]] (the second [[stable stem]]) is 
 \[
   \label{ComplexHopfFibrationGeneratingpi1}
   \array{
-    \pi_1^s &\simeq& \mathbb{Z}/2
+    \pi_2^s &\simeq& \mathbb{Z}/2
   }
 \]
 
