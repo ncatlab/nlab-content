@@ -24,6 +24,20 @@ An _equivariant symmetric monoidal category_ ([Hill-Hopkins 16](#HillHopkins16))
 
 Motivating applications come from [[equivariant homotopy theory]].
 
+## Definition in terms of $\infty$-categories
+
+\begin{definition}
+  If $\mathcal{T}$ is an [[orbital ∞-category]] and $\mathrm{Span}(\mathbb{F}_{\mathcal{T}})$ its [[Burnside category]], then the $\infty$-category of **small $\mathcal{T}$-symmetric monoidal $\infty$-categories** is
+  $$
+    \mathrm{Cat}_{\mathcal{T}}^{\otimes} := \mathrm{Fun}^{\times}(\mathrm{Span}(\mathbb{F}_{\mathcal{T}}), \mathrm{Cat}_{\infty}).
+  $$
+\end{definition}
+In particular, $\mathcal{T}$-symmetric monoidal $\infty$-categories are simply $\mathcal{T}$-commutative monoids in $\mathrm{Cat}_\infty$.
+
+\begin{remark}
+  In the case $\mathcal{T} = \mathcal{O}_G$ is the [[orbit category]] of a finite group, these are called _$G$-symmetric monoidal $\infty$-categories_, which is a source of potential confusion, as they are homotopical lifts of the symmetric monoidal [[Mackey functors]] considered in ([Hill-Hopkins 16](#HillHopkins16)).
+\end{remark}
+
 ## Related concepts
 
 * [[G-commutative monoid]]
