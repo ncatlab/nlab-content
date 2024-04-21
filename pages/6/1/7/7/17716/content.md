@@ -27,7 +27,7 @@ This entry relates to a series of papers, beginning with [Barwick-Dotto-Glasman-
 For $G$ a [[finite group]], various concepts in [[equivariant homotopy theory]] are constructed as [[indexed (∞,1)-category|indexed]] over an [[orbit category]], such as the [[homotopy theory]] of [[topological G-spaces]] or of $G$-[[equivariant spectra]], when regarded via [[Elmendorf's theorem]]. 
 
 {#AtomicOrbital}
- An important ingredient of this program is the concept of an _atomic orbital $\infty$-category_ which is defined in terms of two important properties of the [[orbit category]] of $G$:
+ An important ingredient of this program is the concept of an _atomic [[orbital $\infty$-category]]_ which is defined in terms of two important properties of the [[orbit category]] of $G$:
 
 1. **Orbital**: Fiber products of representable presheaves are finite disjoint unions of representable presheaves, a restatement of the fact that the category of finite $G$-sets has pullbacks ([Mackey decomposition](double+coset#MackeyFormula)), so a version of the [[Beck-Chevalley condition]];
 
