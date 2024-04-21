@@ -37,6 +37,26 @@ $\Kan(3,2)$.
         "unit": "px"
     \end{imagefromfile}
 
+The associativity can be given by $\Kan(2, 1)!$ and $Kan(3, 2)$ illustrated below:
+
+
+\begin{imagefromfile}
+        "file_name": "ass-mor.jpg",
+        "width": 350,
+        "unit": "px"
+    \end{imagefromfile}
+
+In an $n$-groupoid, the only well-defined composition law is the one for $n$-morphisms. This motivates the following definition.
+
+\begin{definition}\label{groupoid}
+An $n$-groupoid ($n\in\N \cup \infty$) $X$ is a simplicial set
+that satisfies $\Kan(m,j)$ for all $0\leq j\leq m \geq 1$ and
+$\Kan!(m,j)$ for all $0 \leq j \leq m$ $\geq n+1$, where
+
+$\Kan(m,j)$:  Any map $\Lambda[m,j]\to X$ extends to a map $\Delta[m]\to X$.
+
+$\Kan!(m,j)$: Any map $\Lambda[m,j]\to X$ extends to a unique map $\Delta[m]\to X$.
+\end{definition}
 
 
 ## Related $n$Lab entries
