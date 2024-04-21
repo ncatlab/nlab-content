@@ -17,13 +17,22 @@ The starting point of [[Parametrized Higher Category Theory and Higher Algebra]]
   $$ \mathrm{Cat}_{G,\infty} \coloneqq \mathrm{Fun}(\mathcal{O}_G^{\op}, \mathrm{Cat}_\infty).$$
 \end{definition}
 
+More generally, often $\mathcal{T}$ will be an [[orbital ∞-category]]; in any case, we make the analogous definition.
+
+\begin{definition}
+  If $\mathcal{T}$ is an [[(∞,1)-category]], then the [[(∞,1)-category]] of **small $\mathcal{T}$-$\infty$-categories** is
+  $$
+     \mathrm{Cat}_{\mathcal{T},\infty} \coloneqq \mathrm{Fun}(\mathcal{T}^{\op}, \mathrm{Cat}_\infty).
+  $$
+\end{definition}
+
 ## Related concepts
 
 * [[G-space]]
 
 * [[equivariant homotopy theory]]
 
-* [[Parametrized Higher Category Theory and Higher Algebra]]
+* [[Parametrized Higher Category Theory and Higher Algebra]], [[orbital ∞-category]], [[equivariant symmetric monoidal category]]
 
 ## References
 
