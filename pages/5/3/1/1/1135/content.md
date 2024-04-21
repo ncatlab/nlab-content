@@ -117,7 +117,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * The categories of [[crossed module|crossed modules]], [[crossed complex]]es, and their friends are semi-abelian; see example 4.2.6 of the Van der Linden paper referenced below.
 
-* the category of cocommutative Hopf algebras over a field. Was proven in papers by Gran/Kadjo/Vercruysse and Gran/Sterck/Vercruyse
+* the category of cocommutative Hopf algebras over a field. Was proven in the paper by Gran, Sterck and Vercruysse referenced below.
 
 ### Dold--Kan correspondence
 
@@ -141,6 +141,11 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 * Dominique Bourn, [[Maria Manuel Clementino]], _Categorical and topological aspects of semi-abelian theories_ , lecture notes Haute Bodeux 2007. ([pdf](http://www.math.yorku.ca/~tholen/HB07BournClementino.pdf))
 
 * [[Tim Van der Linden]], _Homology and homotopy in semi-abelian categories_, [math/0607100](http://arxiv.org/abs/math/0607100).
+[math/0607100](http://arxiv.org/abs/math/0607100).
+
+* [[Marino Gran]], Florence Sterck, [[Joost Vercruysse]], _A semi-abelian extension of a theorem by Takeuchi_, J. Pure Appl. Alg. __217__, 5 (2008) 2231-2267, <a href="https://doi.org/10.1016/j.jpaa.2019.01.004">doi</a>
+
+* [[Tomas Everaert]], [[Marino Gran]], [[Tim Van der Linden]], _Higher Hopf Formulae for Homology via Galois Theory_, Adv. Math. __223__, 10 (2008) 4171-4190, <a href="https://doi.org/10.1016/j.aim.2007.11.001">doi</a>
 
 
 [[!redirects semi-abelian category]]
