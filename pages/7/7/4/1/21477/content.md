@@ -1,15 +1,26 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-A __hyperstonean space__ (French: espace hyperstonien)
-is a [[Stonean space]] such that the union of supports
+A __hyperstonean space__ (French: *espace hyperstonien*)
+is a [[Stonean space]] such that the [[union]] of supports
 of all normal measures is [[everywhere dense]].
 
-A __normal measure__ is a [[Radon measure]] that vanishes
+Here a __normal measure__ is a [[Radon measure]] that vanishes
 on [[nowhere dense]] subsets.
 
 ## Properties
