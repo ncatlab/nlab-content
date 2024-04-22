@@ -66,7 +66,7 @@ and defined equivalently as follows:
    \,,
   $$ 
 
-  over all [[identifications]] $p \colon \mathrm{Id}_A(a, b)$, where 
+  over all [[identifications]] $p \colon \mathrm{Id}_A(a, a')$, where 
 
   $$
     p_\ast \,\colon\, B(a) \overset{\sim}{\to} B(a')
