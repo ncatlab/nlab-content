@@ -9,6 +9,8 @@ On [[higher inductive-inductive types]]:
 
 * [[Ambrus Kaposi]], [[András Kovács]], *Signatures and Induction Principles for Higher Inductive-Inductive Types*, Logical Methods in Computer Science **16** 1 (2020) lmcs:6100 &lbrack;[arXiv:1902.00297](https://arxiv.org/abs/1902.00297), <a href="https://doi.org/10.23638/LMCS-16(1:10)2020">doi:10.23638/LMCS-16(1:10)2020</a>&rbrack;
 
+* [[András Kovács]], *Type-Theoretic Signatures for Algebraic Theories and Inductive Types*, PhD thesis (2022) &lbrack;[pdf](https://andraskovacs.github.io/pdfs/phdthesis_compact.pdf), slides:[pdf](https://andraskovacs.github.io/pdfs/wg6stockholm.pdf)&rbrack;
+
 
 category: people
 
