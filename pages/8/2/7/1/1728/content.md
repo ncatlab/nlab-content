@@ -344,6 +344,17 @@ Lecture notes:
 
 * [[Nils Carqueville]], _Lecture notes on 2-dimensional defect TQFT_ &lbrack;[arXiv:1607.05747](http://arxiv.org/abs/1607.05747)&rbrack;
 
+On the derivation of the relevant topological term in 2d theories with defects through the use of bi-branes and inter-bi-branes:
+
+* [[Ingo Runkel]], Rafal R. Suszek. *Gerbe-holonomy for surfaces with defect networks* (2008). ([arXiv:0808.1419](https://arxiv.org/abs/0808.1419)).
+
+* [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]]. *Bundle Gerbes and Surface Holonomy* (2009). ([arXiv:0901.2085](https://arxiv.org/abs/0901.2085)).
+
+* Rafal R. Suszek. *Defects, dualities and the geometry of strings via gerbes. I. Dualities and state fusion through defects* (2011). ([arXiv:1101.1126](https://arxiv.org/abs/1101.1126)).
+
+* Rafal R. Suszek. *Defects, dualities and the geometry of strings via gerbes II. Generalised geometries with a twist, the gauge anomaly and the gauge-symmetry defect* (2012). ([arXiv:1209.2334](https://arxiv.org/abs/1209.2334)).
+
+
 
 
 #### In Chern-Simons theory
