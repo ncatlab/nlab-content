@@ -1219,7 +1219,7 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
     }
 \end{imagefromfile}
 
-$\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;$[[David Wärn|Wärn]] $\;\;\;$ [[David Jaz Myers|Myers]] $\;\;\;$ [[András Kovács|Kovács]] $\;\;\;$ [[Eric Finster|Finster]] $\;$ [[Urs Schreiber|Schreiber]] $\;\;\;$X $\;\;\;$ [[Thorsten Altenkirch|Altenkirch]] $\;$ [[Thomas Lamiaux|Lamiaux]] $\;$[[Mitchell Riley|Riley]] $\;\;\;$ [[Ulrik Buchholtz|Buchholtz]] $\;\;\;$ [[Dongho Lee|Lee]]
+$\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[David Jaz Myers|Myers]] $\;\;\;$ [[András Kovács|Kovács]] $\;\;\;$ [[Eric Finster|Finster]] $\;$ [[Urs Schreiber|Schreiber]] $\;\;\;$X $\;\;\;$ [[Thorsten Altenkirch|Altenkirch]] $\;$ [[Thomas Lamiaux|Lamiaux]] $\;$[[Mitchell Riley|Riley]] $\;\;\;$ [[Ulrik Buchholtz|Buchholtz]] $\;\;\;$ [[Dongho Lee|Lee]]
 
 
 **Talks:**
@@ -1262,11 +1262,15 @@ $\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;$[[David Wärn|Wärn]] $\;\;\;$ [[
 
   > [[simplicial type theory|Simplicial type theory]] as [introduced by Riehl and Shulman](simplicial+type+theory#RiehlShulman17) and developed by [[Ulrik Buchholtz|Buchholtz]], Martı́nez, Weinberger, and others enables a [[type theory|type-theoretic]] [[synthetic mathematics|synthetic]] study of [[(infinity,1)-categories|∞-categories]]. A major absence from the existing results in simplicial type theory is the absence of basic "generating" ∞-categories e.g., the ∞-categories of [[infinity-groupoid|groupoids]]. We present a work-in-progress construction of a type satisfying the properties expected of the ∞-category of ∞-groupoids or, equivalently, the [[universal left fibration]]. We draw on existing work by Weaver and Licata to construct a [[type universe|universe]] of ∞-groupoids within an extension of [[modal homotopy type theory|multimodal HoTT/homotopy MTT]] tooled for synthetic cubical spaces and argue that it lies within the subcategory of (synthetic) simplicial spaces and satisfies the expected properties ([[complete Segal space|Segalness]], [[Rezk completion|Rezkness]], [[directed univalence axiom|directed univalence]]) and is closed under the expected connectives.
 
+
 * {#KovácsApr2024} [[András Kovács]] (Univ. Gothenburg):
 
   **Optimizing Evaluation for Cubical Type Theories**
 
+  slides: [[Kovacs-Apr2024.pdf:file]]
+
   > There are numerous interesting computations in [[cubical type theory]], mostly in relation to [[synthetic homotopy theory]], which are too expensive to perform in existing systems. One way to try to address this is to optimize the involved [[definitions]]. Another way, that I focus on in this talk, is to improve evaluation for the theory itself. I present a recent implementation of a [[cubical type theory|CTT]] with major performance improvements. Broadly speaking, the benefits stem from a) systematically omitting unnecessary computation b) exploiting the [[canonicity]] property of the CTT when computation depends on [[interval]] [[variables]] but not [[free variables]] with [[fibrant types]].
+
 
 * {#LamiauxApr2024} [[Thomas Lamiaux]] (ENS Paris):
 
@@ -1274,7 +1278,7 @@ $\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;$[[David Wärn|Wärn]] $\;\;\;$ [[
 
   >  In this talk, we will discuss the formalization of [[cohomology rings]] in [Cubical Agda](Agda#CubicalAgda), and how we computed a few basic examples. We will particularly focus on: 1. How the choice of a [[data type]] representation influence formalisation, in our case for representing [[polynomials]] and [[cohomology rings]] 2. How suitable representations can be used to compute cohomology rings 3. Where computation would be helpful, how it is limited in practice, and how we can still recover some computation to help us with our [[proof]].
 
-* {#LeeApr2024} [[Dongho Lee]] (Univ. Paris-Saclay)
+* {#LeeApr2024} [[Dongho Lee]] (Dalhousie Univ.)
 
   **A Concrete Categorical Semantics for Proto-Quipper Language and Dynamic Lifting**
 
