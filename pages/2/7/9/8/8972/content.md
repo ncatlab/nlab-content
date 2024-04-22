@@ -26,7 +26,7 @@ In over 500 pages, the author formally specifies and step-by-step extends establ
 > &lbrack;p. xvii:&rbrack; Types are the central organizing principle of the theory of programming languages. Language features are manifestations of type structure. The syntax of a language is governed by the constructs that define its types, and its semantics is determined by the interactions among those constructs. The soundness of a language design—the absence of ill-defined programs—follows naturally. The purpose of this book is to explain this remark.
 
 
-The preview of the second edition (2016) is available as a [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf). A description of the changes is [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).
+The preview of the second edition (2016) is available as a [PDF file](https://web.archive.org/web/20230816024714/https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf). A description of the changes is [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).
 
 
 
