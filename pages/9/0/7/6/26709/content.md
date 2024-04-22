@@ -1,5 +1,21 @@
 
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,7 +24,7 @@
 
 Let $\mathcal{S}_G$ be the [[(∞,1)-category]] of [[G-spaces]], and let $\mathcal{O}_G$ be the [[orbit category]].
 [[Elmendorf's theorem]] provides an equivalence $\mathcal{S}_G \simeq \mathrm{Fun}(\mathcal{O}_G^{\op},\mathcal{S})$. 
-The starting point of [[Parametrized Higher Category Theory and Higher Algebra]] is to define $G$-$\infty$-categories so that they satisfy Elmendorf's theorem.
+The starting point of [[Parametrized Higher Category Theory and Higher Algebra]] is to define $G$-$\infty$-categories so that they satisfy [[Elmendorf's theorem]].
 
 ## Definition
 
