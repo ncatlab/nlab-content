@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 
 #Content#
 * table of contents
@@ -6,7 +16,7 @@
 
 ## Idea
 
-A $G$-operad is an _$\mathcal{N}_\infty$-operad_ if it is infinitely [[ connected space|connected]], unital, and prescribes binary multiplications on fixed points for all subgroups.
+A [[G-∞-operad|$G$-$\infty$-operad]] is an _$\mathcal{N}_\infty$-operad_ if it is infinitely [[ connected space|connected]], unital, and prescribes binary multiplications on fixed points for all subgroups.
 
 These are meant to model the _equivariant commutative operads_ which contain a non-genuine version of $\mathbb{E}_\infty$.
 
