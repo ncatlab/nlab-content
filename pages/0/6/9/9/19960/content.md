@@ -1420,6 +1420,9 @@ Application to [[thermal field theory|thermal]] [[QCD]]:
 
 * Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, _Effective holographic models for QCD: Thermodynamics and viscosity coefficients_ ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
 
+* Qingxuan Fu, Song He, Li Li, Zhibin Li, *Revisiting holographic model for thermal and dense QCD with a critical point* &lbrack;[arXiv:2404.12109](https://arxiv.org/abs/2404.12109)&rbrack;
+
+
 
 
 [[!redirects AdS-QCD correspondences]]
