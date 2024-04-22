@@ -56,7 +56,7 @@ $$
   X : \Delta^{op} \to \mathcal{C}
 $$
 
-is said to satisfy the **Segal condition** if it sends the [[colimits]] in the [[simplex category]] to [[limits]], hence if the [[Segal maps]] exhibit [[equivalences]]
+is said to satisfy the **Segal condition** if it sends certain [[colimits]] in the [[simplex category]] to [[limits]], i.e. if the [[Segal maps]] exhibit [[equivalences]]
 
 $$
   X_n 
