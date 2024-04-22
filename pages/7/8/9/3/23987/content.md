@@ -1300,6 +1300,8 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 
   **A Concrete Categorical Semantics for Proto-Quipper Language and Dynamic Lifting**
 
+  slides: [[Lee-Apr2024.pdf:file]]
+
   >  In this talk, we discuss a concrete [[categorical semantics]] of [[Proto-Quipper]]-L, a [[quantum circuit]] description language with [[dynamic lifting]]. The language is an extension of [[linear lambda-calculus]] with [[quantum channel]] constants (which represent tree structure of [[quantum gates|gates]]) and [[quantum circuit|circuit]] operations (which are box and unbox) where [[terms]] can have tree shapes. The [[type system]] roughly comes from the [[multiplicative intuitionistic linear logic]] where the term represents the proof. The [[categorical semantics]] of the language is built upon the linear and non-linear model for linear logic [by Benton](linear+type+theory#TheCanonicalCoModality) and coproduct completion as the categorical semantics of [[Proto-Quipper]]-M [by Rios and Selinger](Quipper#RiosSelinger18) while we give a concrete categorical model for diagrams based on graphical calculus. For the computational effect of [[dynamic lifting]] we introduce branching monad and give an interpretation of terms in the [[Kleisli category]].
 
 * {#LjungströmApr2024} [[Axel Ljungström]]:
@@ -3199,7 +3201,6 @@ Researchers:
 
 
 ***
-
 
 \linebreak
 
