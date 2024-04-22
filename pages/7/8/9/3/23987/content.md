@@ -1191,45 +1191,6 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 > The conference is to bring this theoretical progress into contact with efforts to use (`L`)`HoTT` and related languages like [[Proto-Quipper]] for actual ([[quantum computing|quantum]]) [[computing]], [[quantum simulation|simulation]] and [[software verification|verification]].
 
 
-{#RunningHoTTSpeakers} **Speakers:**
-
-* [[Thorsten Altenkirch]]
-
-* [[Carlo Angiuli]]
-
-* [[Ulrik Buchholtz]]
-
-* [[Eric Finster]]
-
-* [[Daniel Gratzer]]
-
-* [[András Kovács]]
-
-* [[Thomas Lamiaux]]
-
-* [[Axel Ljungström]]
-
-* [[Dongho Lee]]
-
-* [[Anders Mörtberg]]
-
-* [[David Jaz Myers]]
-
-* [[Jennifer Paykin]]
-
-* [[Robert Rand]]
-
-* [[Mitchell Riley]]
-
-* [[Urs Schreiber]]
-
-* [[Michael Shulman]]
-
-* [[Jon Sterling]]
-
-* [[David Wärn]]
-
-
 {#RunningHoTT2024Schedule} **Schedule:**
 
 |       | 19th | 20th | 21st |
@@ -1243,6 +1204,23 @@ live stream: [nyu.zoom.us/j/93101580794](https://nyu.zoom.us/j/93101580794)
 | 15:00 | [Schreiber](#SchreiberHoTTApr2024) | [Sterling](#SterlingApr2024) |   |
 | 16:00 | [Myers](#MyersApr2024)  | [Altenkirch](#AltenkirchApr2024) | |
 | 17:00 | [Rand](#RandApr2024)  | [Angiuli](#AngiuliApr2024) |    |
+
+{#RunningHoTT2024GroupPhoto} $\,$
+
+\begin{imagefromfile}
+    "file_name": "RunningHoTT2024Photo1-jpg",
+    "width": 850,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+$\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;$[[David Wärn|Wärn]] $\;\;\;$ [[David Jaz Myers|Myers]] $\;\;\;$ [[András Kovács|Kovács]] $\;\;\;$ [[Eric Finster|Finster]] $\;$ [[Urs Schreiber|Schreiber]] $\;\;\;$X $\;\;\;$ [[Thorsten Altenkirch|Altenkirch]] $\;$ [[Thomas Lamiaux|Lamiaux]] $\;$[[Mitchell Riley|Riley]] $\;\;\;$ [[Ulrik Buchholtz|Buchholtz]] $\;\;\;$ [[Dongho Lee|Lee]]
+
 
 **Talks:**
 
@@ -3219,3 +3197,4 @@ category: reference
 
 
 
+grou
