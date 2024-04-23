@@ -64,16 +64,16 @@ $$
   \,.
 $$
 
-For $\alpha \beta \neq 0$ this is a 1/2 [[BPS state]] of 11d sugra.
+For $\alpha \beta \neq 0$ this is a 1/2 [[BPS state]] of [[11d supergravity]].
 
-In the above [[coordinates]] the metric is ill-defined at $r = - \beta^{1/6} \alpha$, but in fact it may be smoothly continued through this point ([Duff-Gibbons-Townsend 94, section 3](#DuffGibbonsTownsend94)), which is a [[event horizon]]. An actual singularity is at $r = 0$.
+In the above [[coordinates]] the metric is ill-defined at $r = - (\beta/\alpha)^{1/6}$, but in fact it may be smoothly continued through this point ([Duff, Gibbons & Townsend 1994, section 3](#DuffGibbonsTownsend94)), which is an [[event horizon]]. An actual [[curvature]] [[singularity]] is at $r = 0$.
 
 
-The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactification]] [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere|S7]]. For more on this see at _[[AdS-CFT]]_.
+The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactification]] [[anti de Sitter spacetime|$AdS_4$]]$\times$[[7-sphere|$S^7$]]. For more on this see at _[[AdS-CFT]]_.
 
 [[!include black branes in supergravity -- table]]
 
-{#BlackM2AtADESingularity} More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros-Figueroa 10](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] (a [[spherical space form]] in the smooth case, see [there](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)) by a [[finite subgroup of SU(2)]] $G_{ADE} \hookrightarrow SU(2)$, i.e. a finite group in the [[ADE-classification]]
+{#BlackM2AtADESingularity} More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros & Figueroa 2010](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] (a [[spherical space form]] in the smooth case, see [there](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)) by a [[finite subgroup of SU(2)]] $G_{ADE} \hookrightarrow SU(2)$, i.e. a finite group in the [[ADE-classification]]
 
 [[!include ADE -- table]]
 
@@ -263,7 +263,7 @@ The [[black brane|black]] membrane solution of [[11-dimensional supergravity]] w
 
 Its regularity across the [[event horizon]] is due to
 
-* {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys. Lett. B332:321-328, 1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
+* {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]]: _Macroscopic superstrings as interpolating solitons_, Phys. Lett. B **332** (1994) 321-328 &lbrack;[arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124)&rbrack;
 
 Further discussion of such _[[Freund-Rubin compactifications]]_:
 
@@ -300,11 +300,11 @@ A detailed discussion of this [[black brane]]-realization of the [[M2-brane]] an
 
 The generalization of this to $\geq 1/2$ BPS sugra solutions of the form $AdS_4 \times X_7$ is due to
 
-* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]]: _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910 038 (2009) &lbrack;[arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf)&rbrack;
 
-* {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]]: _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. **16** 5 (2012) 1349-1408 &lbrack;[arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [euclid:atmp/1408561553](https://projecteuclid.org/euclid.atmp/1408561553)&rbrack;
 
-Discussion of $G7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
+Discussion of $G_7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
 
  {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
@@ -317,7 +317,7 @@ In [[AdS4-CFT3 duality]]:
 
 Review:
 
-* Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ ([arXiv:2003.13914](https://arxiv.org/abs/2003.13914))
+* Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ &lbrack;[arXiv:2003.13914](https://arxiv.org/abs/2003.13914)&rbrack;
 
 
 
@@ -325,9 +325,10 @@ Review:
 
 ### History
 
-Discussion of the history includes
 
-* [[Mike Duff]], ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
+
+* [[Mike Duff]]: 
+*M-history without the M* &lbrack;[arXiv:1501.04098](http://arxiv.org/abs/1501.04098)&rbrack;
 
 
 
