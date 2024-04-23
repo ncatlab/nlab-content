@@ -49,8 +49,8 @@ $$
 [[preserved limit|preserves]] these [[filtered colimits]].  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$, the canonical morphism
 
 $$
-  \underset{\to_d}{\lim} C(X,F(d)) \xrightarrow{\simeq}
-  C(X, \underset{\to_d}{\lim} F(d))
+  \underset{\underset{d}{\to}}{\lim} C(X,F(d)) \xrightarrow{\simeq}
+  C(X, \underset{\underset{d}{\to}}{\lim} F(d))
 $$
 
 is an [[isomorphism]].
@@ -264,7 +264,7 @@ F: \mathbb{N} \rightarrow Top
 The colimit $X_\infty$ of this sequence is the two-element set $\{0,1\}$ with the indiscrete topology. However, the identity map on this space does not factor through any of the canonical maps $X_n \rightarrow X_\infty$. It follows that 
 the comparison map 
 \[
- colim_n Hom(X_\infty, X_n) \rightarrow Hom(X_\infty, X_\infty)
+ \underset{n}{colim}\ Hom(X_\infty, X_n) \rightarrow Hom(X_\infty, X_\infty)
 \]
 is not surjective, and therefore not an isomorphism. 
 
