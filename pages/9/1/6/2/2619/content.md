@@ -386,18 +386,27 @@ A [[modal type theory]] for tiny objects:
 
 * [[Mitchell Riley]], *A Type Theory with a Tiny Object* &lbrack;[arXiv:2403.01939](https://arxiv.org/abs/2403.01939)&rbrack;
 
+* [[Mitchell Riley]]: *Tiny Objects in Type Theory*, [talk at](CQTS#RileyTinyApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]] @ NYU Abu Dhabi (Apr 2024) &lbrack;slides:[[Riley-TinyTypes-Apr2024.pdf:file]]&rbrack;
 
 
+
+
+[[!redirects tiny objects]]
+
+
+[[!redirects tiny type]]
+[[!redirects tiny types]]
 
 
 [[!redirects small-projective object]]
 [[!redirects small-projective objects]]
 [[!redirects small-projective]]
 
-[[!redirects tiny objects]]
 [[!redirects tiny]]
 
 [[!redirects atomic object]]
 [[!redirects atomic objects]]
 
 [[!redirects absolutely presentable]]
+
+
