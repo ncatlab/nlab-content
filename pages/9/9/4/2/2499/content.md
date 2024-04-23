@@ -1152,6 +1152,9 @@ Review:
 
 * [[Lucrezia Ravera]], *Geometric approach to supergravity in superspace and some applications*, lecture at *Training school on Cartan Geometry*, Masaryk University (Nov 2023) &lbrack;video: [YT](https://youtu.be/tuSXuAtvdRk)&rbrack;
 
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra* &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987)&rbrack;
+
+
 
 See also:
 
