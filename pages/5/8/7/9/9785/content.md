@@ -116,6 +116,8 @@ also
 
 * [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
 
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra* &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987)&rbrack;
+
 
 
 Another, alternative "weak [[decomposable differential form|decomposition]]" of the M2-brane [[extended super-Minkowski spacetime]] was found in 
