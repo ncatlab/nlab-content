@@ -61,11 +61,13 @@ Also notice that the [[de Sitter spacetime]] (not anti-de Sitter) does not have 
 
 * [[AdS/CFT correspondence]], [[AdS/QCD correspondence]]
 
+
 ## References
 
 General discussion:
 
-* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2 and II.3.3 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2-3, II.5, and V.4.4 in: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch II.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]], ch II.5: [[CastellaniDAuriaFre-ChII5.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
+
 
 * [[Renata Kallosh]], J. Rahmfeld, A. Rajaraman, *Near Horizon Superspace*, JHEP 9809:002 (1998) &lbrack;[arXiv:hep-th/9805217](https://arxiv.org/abs/hep-th/9805217)&rbrack;
 
