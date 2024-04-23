@@ -1321,22 +1321,27 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
 
   > We seek to verify the [[ZX-calculus]], a powerful tool for representing and reasoning about [[quantum computation]]. ZX-diagrams are typically represented as adjacency-based [[graphs]], reflecting the guiding principle that “only connectivity matters”. In the context of [[proof assistant|formal theorem provers]] like [[Coq]], however, such graphs are difficult to reason about, especially when we seek to give them [[semantics]]. To address this gap, we introduce `VyZX`, a [[software verification|verified]] library for reasoning about the ZX-calculus, using inductive constructs that arise naturally from [[category theory|category theoretic]] definitions. We extend `VyZX` to reason about a variety of [[monoidal categories]], provided they satisfy an appropriate set of [[coherence conditions]].
 
-* {#RileyTinyApr2024} [[Mitchell Riley]] (NYU Abu Dhabi):
-
-  **Tiny Objects in Type Theory**
-
-  cf. [arXiv:2403.01939](https://arxiv.org/abs/2403.01939)
-
-  > I will present an extension of [[Martin-Löf Type Theory]] that contains a [[tiny object]]; a [[type]] for which there is a [[right adjoint]] to the formation of [[function types]] as well as the expected [[left adjoint]]. I will suggest a couple of potential applications and sketch a [[normal form|normalisation]] [[algorithm]].
-
-
 * {#RileyLinearApr2024} [[Mitchell Riley]] (NYU Abu Dhabi):
 
   **Linear HoTT and Quipper**
+
+  slides: [[Riley-LHoTTandQuipper-Apr2024.pdf:file]]
   
   notes: [pdf](https://mvr.hosting.nyu.edu/pubs/translation.pdf)
  
   > [[linear homotopy type theory|Linear HoTT]] is an [[conservative extension|extension]] of [[HoTT]] with [[linear type]] [[type formation|formers]]. Like the [[Proto-Quipper]] family of [[quantum programming language|languages]], [[linear homotopy type theory|Linear HoTT]] can be used to specify (linear) [[quantum circuits]] [parameterised](quantum+computation#ClassicalControlQuantumData) by (non-linear) [[classical modality|classical]] data. Because we have all of ordinary [[Martin-Löf Type Theory]] at our disposal, there is the prospect of [[software verification|formally verifying]] properties of our [[quantum computing|quantum programs]] in the same language that they are specified. In this talk I will give a new, simpler set of rules for [[linear homotopy type theory|Linear HoTT]] and sketch a translation of [[Quipper]] into this system.
+
+
+
+* {#RileyTinyApr2024} [[Mitchell Riley]] (NYU Abu Dhabi):
+
+  **Tiny Objects in Type Theory**
+
+  slides: [[Riley-TinyTypes-Apr2024.pdf:file]]
+
+  cf. [arXiv:2403.01939](https://arxiv.org/abs/2403.01939)
+
+  > I will present an extension of [[Martin-Löf Type Theory]] that contains a [[tiny object]]; a [[type]] for which there is a [[right adjoint]] to the formation of [[function types]] as well as the expected [[left adjoint]]. I will suggest a couple of potential applications and sketch a [[normal form|normalisation]] [[algorithm]].
 
 
 * {#SchreiberHoTTApr2024} [[Urs Schreiber]] (NYU AD):
@@ -3200,5 +3205,3 @@ category: reference
 
 
 
-
-grou
