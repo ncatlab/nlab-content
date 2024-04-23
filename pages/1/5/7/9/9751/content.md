@@ -48,6 +48,9 @@ Proposal for a non-abelian and [[supersymmetry|supersymmetric]] [[DBI-action]] f
 
 * Sudhakar Panda, [[Dmitri Sorokin]], *Supersymmetric and Kappa-invariant Coincident D0-Branes*, 	JHEP 0302 (2003) 055 &lbrack;[arXivLhep-th/0301065](https://arxiv.org/abs/hep-th/0301065), [doi:10.1088/1126-6708/2003/02/055](https://doi.org/10.1088/1126-6708/2003/02/055)&rbrack;
 
+On [[super anti-de Sitter spacetime|super-$AdS_4$]] (as in [[AdS4/CFT3-duality]]):
+
+* [[Jaume Gomis]], [[Dmitri Sorokin]], [[Linus Wulff]], *The complete $AdS_4 \times \mathbb{C}P^3$ superspace for the type IIA superstring and D-branes*, JHEP 0903:015 (2009) &lbrack;[arXiv:0811.1566](https://arxiv.org/abs/0811.1566)&rbrack;
 
 
 On [[membranes]] in [[D=4 supergravity]] ([[super 2-brane in 4d]]):
@@ -56,7 +59,7 @@ On [[membranes]] in [[D=4 supergravity]] ([[super 2-brane in 4d]]):
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[super p-brane]]
 
