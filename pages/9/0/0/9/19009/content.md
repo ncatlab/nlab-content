@@ -18,6 +18,8 @@ On the [[supergravity Lie 3-algebra]] (see also at *[[M-theory supersymmetry alg
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
 
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra* &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987)&rbrack;
+
 Usage of full [[supergravity]] (retaining the [[gravitino]]) for [[AdS-CMT duality]], with application to [[graphene]]-like systems:
 
 * [[Laura Andrianopoli]], [[Bianca L. Cerchiai]], [[Riccardo D'Auria]], [[Mario Trigiante]], *Unconventional Supersymmetry at the Boundary of $AdS_4$ Supergravity*,  J. High Energ. Phys. **2018** 7 (2018) &lbrack;[arXiv:1801.08081](https://arxiv.org/abs/1801.08081), <a href="https://doi.org/10.1007/JHEP04(2018)007">doi:10.1007/JHEP04(2018)007</a>&rbrack;
