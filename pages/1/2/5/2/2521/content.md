@@ -187,6 +187,11 @@ Generalization of [[Artin's representability theorem]] to supergeometry:
 
 * Nadia Ott, *Artin's theorems in supergeometry* ([arXiv:2110.12816](https://arxiv.org/abs/2110.12816))
 
+On supergeometry in [[field theory]] with [[fermions]]:
+
+* Viola Gattus, Apostolos Pilaftsis, *Supergeometric Approach to Quantum Field Theory* &lbrack;[arXiv:2404.13107](https://arxiv.org/abs/2404.13107)&rbrack;
+
+
 
 [[!redirects supergeometries]]
 
