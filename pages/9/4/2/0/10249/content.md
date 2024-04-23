@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[super anti de Sitter spacetimes]] as [[superspace|super]] [[near horizon geometries]] of [[branes]] in [[supergravity]]:
+
+* [[Renata Kallosh]], J. Rahmfeld, A. Rajaraman, *Near Horizon Superspace*, JHEP 9809:002 (1998) &lbrack;[arXiv:hep-th/9805217](https://arxiv.org/abs/hep-th/9805217)&rbrack;
+
 
 Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "democratic"/"[[pregeometric RR-field|pregeometric]]" [[RR-fields]] subject to [[self-dual higher gauge theory|self-duality]]:
 
