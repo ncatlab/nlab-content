@@ -1,7 +1,5 @@
 
-* [personal page](https://web.mathi.uni-heidelberg.de/physmath/walcher)
-
-* [institute page](https://www.mathi.uni-heidelberg.de/~walcher/)
+* [webpage](https://web.mathi.uni-heidelberg.de/physmath/walcher)
 
 * [inspire page](https://inspirehep.net/authors/984280)
 
