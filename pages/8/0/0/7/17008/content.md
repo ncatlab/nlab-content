@@ -4,4 +4,5 @@
 <img width="600" src="http://ncatlab.org/nlab/files/BraneSolutionsInSupergravity.jpg" >
 
 
-> (table taken from [Blumenhagen-Lüst-Theisen 13, Chapter 18.5](black+brane#BlumenhagenLustTheisen13))
+> (table from [Blumenhagen, Lüst
+ & Theisen 2013, Chapter 18.5](black+brane#BlumenhagenLustTheisen13))
