@@ -36,7 +36,7 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-L
   In fact $OSp(1\vert 64)$ is the smallest simple supergroup that contains the [[M-theory super Lie algebra]]. Moreover, it is generated from its M-theory sub-algebra and the [[special conformal transformations]]  ([Bars-Deliduman-Minic 99, p. 5](#BarsDelidumanMinic99))
 
 
-* The [[super anti de Sitter spacetimes]] are quotients of orthosymplectic super Lie groups:
+* The [[super anti de Sitter spacetimes]] are [[quotient group|quotients]] of orthosymplectic super Lie groups:
 
 | $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
 |-----|---|
@@ -63,7 +63,7 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-L
 &lbrack;[[Farmer-OSpSuperalgebra.pdf:file]]&rbrack;
 
  
-* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.2 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2-3, II.5, and V.4.4 in: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch II.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]], ch II.5: [[CastellaniDAuriaFre-ChII5.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
 
 
 * {#DAuriaFerrareLledoVaradarajan00} [[Riccardo D'Auria]], S. Ferrara, M. A. Lled&#243;, [[Veeravalli Varadarajan]], _Spinor Algebras_, J.Geom.Phys. 40 (2001) 101-128 ([arXiv:hep-th/0010124](http://arxiv.org/abs/hep-th/0010124))
