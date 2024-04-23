@@ -197,6 +197,13 @@ Discussion of [[higher curvature corrections]] in the abelian case:
 
 * Shin Sasaki, _On Non-linear Action for Gauged M2-brane_, JHEP 1002:039, 2010 ([arxiv:0912.0903](https://arxiv.org/abs/0912.0903))
 
+On abelian [[anyons]] (or at least [[Aharonov-Bohm effect|Aharonov-Bohm phases]] described [[AdS/CFT duality|holographically]] via the [[ABJM model]]:
+
+* Shoichi Kawamoto, Feng-Li Lin, *Holographic Anyons in the ABJM Theory*, JHEP 1002:059 (2010) &lbrack;[arXiv:0910.5536](https://arxiv.org/abs/0910.5536)&rbrack;
+
+
+
+
 ### Mass deformation
 
 
