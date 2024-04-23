@@ -89,6 +89,8 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * [[metric cones]]
 
+* See also [Lange 2024](#Lange24)
+
 
 ## Related concepts
 
@@ -200,6 +202,10 @@ See also
 * Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
 
   (which is mainly tailored toward [Thurston's approach](#Thurston)). 
+
+Additional examples:
+
+* {#Lange24} Christian Lange. *Good, but not very good orbifolds* (2024). ([arXiv:2404.14234](https://arxiv.org/abs/2404.14234)).
 
 
 Textbook account:
