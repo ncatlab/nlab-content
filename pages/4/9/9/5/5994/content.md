@@ -49,7 +49,7 @@ is the sum of the
 * bosonic action 
 
   $$
-    S^{bos})(\phi) 
+    S^{bos}(\phi) 
      = 
     \int_\Sigma \langle d \phi \wedge \star d \phi\rangle
   $$
