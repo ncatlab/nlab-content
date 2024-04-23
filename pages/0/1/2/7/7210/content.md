@@ -9,6 +9,10 @@ On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmet
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135 ([spire:266584](http://inspirehep.net/record/266584/), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
 
+On [[super anti de Sitter spacetime|super-$AdS_4$]] ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
+
+* [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], [[Alexander Sevrin]], *The M-theory two-brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$*, Physics Letters B **443** 1-4 (1998) 153-158 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)01340-9">doi:10.1016/S0370-2693(98)01340-9</a>, [inspire:474621](https://inspirehep.net/literature/474621)&rbrack;
+
 On [[supergravity]] and [[duality in string theory]]:
 
 * [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
