@@ -67,9 +67,21 @@ General discussion:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2 and II.3.3 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
+* [[Renata Kallosh]], J. Rahmfeld, A. Rajaraman, *Near Horizon Superspace*, JHEP 9809:002 (1998) &lbrack;[arXiv:hep-th/9805217](https://arxiv.org/abs/hep-th/9805217)&rbrack;
+
 * [[Antoine Van Proeyen]], sections 4.5, 4.7 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030))
 
 * {#KTM22} Sergei Kuzenko, Gabriele Tartaglino-Mazzucchelli, *Supertwistor realisations of AdS superspaces*, The European Physical Journal C **82** 2 (2022) 146 &lbrack;[doi:10.1140/epjc/s10052-022-10072-y](https://doi.org/10.1140/epjc/s10052-022-10072-y), [arXiv:2108.03907](https://arxiv.org/abs/2108.03907)&rbrack;
+
+Specifically on super-$AdS_4$ ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
+
+* [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], [[Alexander Sevrin]], *The M-theory two-brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$*, Physics Letters B **443** 1-4 (1998) 153-158 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)01340-9">doi:10.1016/S0370-2693(98)01340-9</a>, [inspire:474621](https://inspirehep.net/literature/474621), [arXiv:hep-th/9808052](https://arxiv.org/abs/hep-th/9808052)&rbrack;
+
+* [[Jaume Gomis]], [[Dmitri Sorokin]], [[Linus Wulff]], *The complete $AdS_4 \times \mathbb{C}P^3$ superspace for the type IIA superstring and D-branes*, JHEP 0903:015 (2009) &lbrack;[arXiv:0811.1566](https://arxiv.org/abs/0811.1566)&rbrack;
+
+
+
+
 
 The super 3-cocycle for the [[Green-Schwarz superstring]] on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$ is originally due to 
 
