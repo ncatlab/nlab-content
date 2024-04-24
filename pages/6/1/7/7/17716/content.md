@@ -89,9 +89,9 @@ On $G$-operads and algebras:
 
 On factorization homology, THH and the $\mathbb{E}_V$ operad:
 
-* [[Asaf Horev]], _Genuine equivariant factorization homology_, ([arXiv:1910.07226](https://arxiv.org/abs/1910.07226))
+* Asaf Horev, _Genuine equivariant factorization homology_, ([arXiv:1910.07226](https://arxiv.org/abs/1910.07226))
 
-* [[Jeremy Hahn]], [[Asaf Horev]], [[Inbar Klang]], [[Dylan Wilson]], [[Foling Zou]], _Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra_, ([arXiv:2006.13348](https://arxiv.org/abs/2006.13348))
+* [[Jeremy Hahn]], Asaf Horev, [[Inbar Klang]], [[Dylan Wilson]], [[Foling Zou]], _Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra_, ([arXiv:2006.13348](https://arxiv.org/abs/2006.13348))
 
 On presentability, semiadditivity and stability:
 
