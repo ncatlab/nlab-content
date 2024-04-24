@@ -4,7 +4,8 @@
 
 ## Idea
 
-$C_2$-equivariant homotopy groups are particularly amenable to study because they are computed in a range by $\mathbb{R}$-[[motivic homotopy theory|motivic]] homotopy groups of spheres via real Betti realization.
+$C_2$-equivariant homotopy groups are particularly amenable to study because they are computed in a range by $\mathbb{R}$-[[motivic homotopy theory|motivic]] homotopy groups of spheres via real [Betti realization](https://ncatlab.org/nlab/show/motivic+homotopy+theory#RealizationFunctors).
+
 (...)
 
 ## Relation to motivic homotopy groups
