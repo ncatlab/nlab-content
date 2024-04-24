@@ -25,7 +25,7 @@
 
 Given a [[category]] $C$, we may construct the [[free cocompletion]] of $C$, freely adding some [[class]] of [[colimits]]. Often, however, $C$ will already have some colimits, which we wish to preserve. A **conservative cocompletion** of a category $C$ is a cocompletion that preserves the colimits in $C$.
 
-Explicitly, given a class $\Phi$ of colimits, and a [[small category|slall]] $\Phi$-[[cocomplete category]]  $C$, the **$\Phi$-conservative cocompletion** of $C$ is given by taking the closure of $[C^\circ, Set]_\Phi$ under small colimits, where  $[C^\circ, Set]_\Phi$ is the [[full subcategory]] of the [[presheaf category]] $[C^\circ, Set]$ of presheaves sending $\Phi$-colimits in $C$ to $\Phi$-limits in $Set$. When $C$ is instead a [[locally small category]], we consider instead the [[small presheaves]].
+Explicitly, given a class $\Phi$ of colimits, and a [[small category|small]] $\Phi$-[[cocomplete category]]  $C$, the **$\Phi$-conservative cocompletion** of $C$ is given by taking the closure of $[C^\circ, Set]_\Phi$ under small colimits, where  $[C^\circ, Set]_\Phi$ is the [[full subcategory]] of the [[presheaf category]] $[C^\circ, Set]$ of presheaves sending $\Phi$-colimits in $C$ to $\Phi$-limits in $Set$. When $C$ is instead a [[locally small category]], we consider instead the [[small presheaves]].
 
 ## Related concepts
 
