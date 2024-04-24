@@ -18,6 +18,11 @@ As an inspirative and energetic lecturer Connes also directly contibuted to the 
 
 ## Selected writings
 
+On the classification of [type III](von+Neumann+algebra+factor#TypeIII) [[von Neumann algebra factors]]:
+
+* {#Connes75} [[Alain Connes]], *Structure Theory for Type III Factors*, Proceedings of the International Congress of Mathematics, Vancouver 1975, vol 2 (1975) &lbrack;[pdf](http://cm2vivi2002.free.fr/AC-biblio/AC-biblio26.pdf)&rbrack;
+
+
 Introducing the [[cyclic category]] and [[cyclic objects]] ([[cyclic sets]], [[cyclic spaces]]) for [[cyclic homology]]:
 
 * [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **269** (1983), S&#233;rie I, 953-958
