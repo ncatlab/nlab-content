@@ -40,14 +40,52 @@ $$
   \,.
 $$
 
-In this form the definition directly generalizes to [[G-spectra]] and hence to stable equivariant homotopy groups: for $E$ a [[G-spectrum]], then 
+In this form the definition directly generalizes to [[G-spectra]] and hence to stable equivariant homotopy groups: for $E$ a [[G-spectrum]], and $n \in \mathbb{Z}$, write 
 
 $$
-  \pi_n^H(X) \simeq [G/H_+ \wedge \Sigma^\infty S^n, X]^G
+  \pi_n^H(X) \simeq [G/H_+ \wedge S^n, X]^G
   \,.
 $$
 
-where now $\Sigma^\infty S^n \simeq \Sigma^n \mathbb{S}$ is the [[suspension spectrum]] of the [[n-sphere]] and $[-,-]^G$ now denotes the [[hom functor]] in the [[equivariant stable homotopy category]].
+where now $S^n$ is the $n$-fold suspension of the [[suspension spectrum]] of the [[n-sphere]] and $[-,-]^G$ now denotes the [[hom functor]] in the [[equivariant stable homotopy category]]..
+
+In particular, the [[(∞,1)-category]] of $G$-spectra is stable, and hence it is cotensored over the [[(∞,1)-category of spectra]];
+using this structure, we produce a chain of [[natural equivalences]]
+$$
+  \pi_n^H(X) 
+ \simeq \pi_0 \mathrm{Map}(\Sigma^\infty S^n, \mathrm{map}^G(G/H_+, X))
+ \simeq \pi_0 \mathrm{Map}(\Sigma^\infty, S^n, X^H)
+ \simeq \pi_n(X^H),
+$$
+where $X^H$ is the $H$-[[fixed point spectrum]] of $X$
+(e.g. [Schwede 15, prop. 7.2](#Schwede15)).
+
+### Via equivariant cohomology of the point
+ {#ViaEquivariantCohomologyOfThePoint}
+
+The identification via fixed point spectra in turn is the [[equivariant cohomology]] of the point, 
+
+$$
+  E^{-k}_G(\ast)
+  \;\coloneqq\;
+  \left[ \epsilon^\sharp \Sigma^k \mathbb{S} , E\right]_G
+  \;\simeq\;
+  \left[ \Sigma^k \mathbb{S}, F^G E \right]
+  \;\simeq\;
+  \pi_k(F^G E)
+$$
+
+due to the [[base change]] [[adjunction]]
+
+$$
+  G Spectra
+    \underoverset
+      { \underset{ F^G }{\longrightarrow} }
+      {\overset{ \epsilon^\sharp }{\longleftarrow}}
+      { \phantom{AA} \bot \phantom{AA} }
+  Spectra
+$$
+
 
 ### With $\mathrm{RO}(G)$-grading
 
@@ -133,44 +171,9 @@ More generally for $H \hookrightarrow G$ a [[subgroup]] then one writes $\pi_\bu
 
 (e.g. [Schwede 15, p. 16](#Schwede15))
 
-### Via fixed point spectra
-
-Equivalently, the $k$th $G$-equivariant homotopy group of a $G$-equivariant spectrum $E$ is the plain $k$th [[stable homotopy group]] of its [[fixed point spectrum]] $F^G E$
-
-\[
-  \label{ViaFixedPointSpectra}
-  \pi_k^G(E) \simeq \pi_k(F^G E)
-  \,.
-\]
-
-(e.g. [Schwede 15, prop. 7.2](#Schwede15))
 
 
-### Via equivariant cohomology of the point
- {#ViaEquivariantCohomologyOfThePoint}
 
-The identification (eq:ViaFixedPointSpectra) in turn is the [[equivariant cohomology]] of the point, 
-
-$$
-  E^{-k}_G(\ast)
-  \;\coloneqq\;
-  \left[ \epsilon^\sharp \Sigma^k \mathbb{S} , E\right]_G
-  \;\simeq\;
-  \left[ \Sigma^k \mathbb{S}, F^G E \right]
-  \;\simeq\;
-  \pi_k(F^G E)
-$$
-
-due to the [[base change]] [[adjunction]]
-
-$$
-  G Spectra
-    \underoverset
-      { \underset{ F^G }{\longrightarrow} }
-      {\overset{ \epsilon^\sharp }{\longleftarrow}}
-      { \phantom{AA} \bot \phantom{AA} }
-  Spectra
-$$
 
 
 ## Examples
