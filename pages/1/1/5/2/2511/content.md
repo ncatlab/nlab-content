@@ -54,6 +54,10 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
+On the [[M2-brane]] [[Green-Schwarz sigma-model|sigma-model]] on a [[target space|target]]-[[super AdS spacetime]]:
+
+* [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]], §4.1 in: *The $Osp(8|4)$ singleton action from the supermembrane*, Nucl. Phys. B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](https://arxiv.org/abs/hep-th/9807115), <a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>&rbrack;
+
 
 On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fré-Regge formulation of supergravity]], ...):
 
