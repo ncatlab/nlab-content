@@ -28,30 +28,18 @@ A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]]. By th
 
 | $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
 |-----|---|
-| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
-| $\phantom{A}$5$\phantom{A}$ | $\;\;\;\;\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
-| $\phantom{A}$7$\phantom{A}$ | $\;\;\;\;\frac{OSp(6,2 \vert 4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
+| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert4)}{Spin(3,1) \times \mathrm{O}(7)}\;\;\;\;$ |
+| $\phantom{A}$5$\phantom{A}$ | $\;\;\;\;\frac{SU(2,2 \vert 5)}{Spin(4,1)\times \mathrm{O}(5)}\;\;\;\;$ |
+| $\phantom{A}$7$\phantom{A}$ | $\;\;\;\;\frac{OSp(6,2 \vert 4)}{Spin(6,1) \times \mathrm{O}(4)}\;\;\;\;$ |
 
 (Here $Osp(-\vert-)$ denotes [[orthosymplectic super Lie groups]].) 
 
-In particular for $d=4$ (see e.g. Section 3 of [Kuzenko & Tartaglino-Mazzucchelli 2022](#KTM22)):
-
-$$
-  AdS^{4\vert 4\mathcal{N}} 
-  \;=\; 
-  \frac{
-    OSp(
-      \mathcal{N} \vert 4; \mathbb{R}
-    )
-  }
-  {
-    SO(3,1) \times SO(\mathcal{N})
-  }
-  \,.
-$$
+E.g. for $d=4$  this identification &lbrack;[D'Auria & Fré 1983](#DAuriaFré83)&rbrack; relies on the fact that $OSp(8 \vert 4; \mathbb{R})_{bos} \simeq Sp(4;\mathbb{R}) \times O(8)$ and then on the [[exceptional isomorphism]] $Sp(4; \mathbb{R}) \simeq Spin(2,3)$ &lbrack;e.g. [Garret 2013, §2.8](exceptional+isomorphism#Garrett13)&rbrack;.
 
 
-Also notice that the [[de Sitter spacetime]] (not anti-de Sitter) does not have a standard extension to [[supergeometry]], but see [arXiv:1610.01566](https://arxiv.org/abs/1610.01566).
+\begin{remark}
+On the other hand, [[de Sitter spacetime]] (instead of anti-de Sitter) does not have a standard extension to [[supergeometry]], but see [arXiv:1610.01566](https://arxiv.org/abs/1610.01566).
+\end{remark}
 
 ## Related concepts
 
@@ -75,13 +63,17 @@ General discussion:
 
 * {#KTM22} Sergei Kuzenko, Gabriele Tartaglino-Mazzucchelli, *Supertwistor realisations of AdS superspaces*, The European Physical Journal C **82** 2 (2022) 146 &lbrack;[doi:10.1140/epjc/s10052-022-10072-y](https://doi.org/10.1140/epjc/s10052-022-10072-y), [arXiv:2108.03907](https://arxiv.org/abs/2108.03907)&rbrack;
 
-Specifically on super-$AdS_4$ ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
+Specifically concerning super-$AdS_4 \times S^7$ ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
+
+* {#DAuriaFré83} [[Riccardo D'Auria]], [[Pietro Fré]]: *Spontaneous generation of symmetry in the spontaneous compactification of $D=11$ supergravity*, Physics Letters B **121** 2–3 (1983) 141-146 &lbrack;<a href="https://doi.org/10.1016/0370-2693(83)90903-6">doi:10.1016/0370-2693(83)90903-6</a>&rbrack;
+
+* [Castellani, D'Auria & Fré 1991, §3.1](#CastellaniDAuriaFre91)
 
 * [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], [[Alexander Sevrin]], *The M-theory two-brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$*, Physics Letters B **443** 1-4 (1998) 153-158 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)01340-9">doi:10.1016/S0370-2693(98)01340-9</a>, [inspire:474621](https://inspirehep.net/literature/474621), [arXiv:hep-th/9808052](https://arxiv.org/abs/hep-th/9808052)&rbrack;
 
+* [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]], §4.1 in: *The $Osp(8|4)$ singleton action from the supermembrane*, Nucl. Phys. B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](https://arxiv.org/abs/hep-th/9807115), <a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>&rbrack;
+
 * [[Jaume Gomis]], [[Dmitri Sorokin]], [[Linus Wulff]], *The complete $AdS_4 \times \mathbb{C}P^3$ superspace for the type IIA superstring and D-branes*, JHEP 0903:015 (2009) &lbrack;[arXiv:0811.1566](https://arxiv.org/abs/0811.1566)&rbrack;
-
-
 
 
 
@@ -107,3 +99,8 @@ See also the references at _[Green-Schwarz sigma-model -- References -- AdS back
 
 [[!redirects super anti de Sitter super Lie algebra]]
 [[!redirects super anti de Sitter super Lie algebras]]
+
+[[!redirects super AdS]]
+[[!redirects super AdS spacetime]]
+[[!redirects super AdS spacetimes]]
+
