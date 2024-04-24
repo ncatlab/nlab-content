@@ -402,11 +402,11 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 
 > For more references see also at _[[homotopy type theory]]_.
 
-The earliest occurrence of the univalence axiom is due -- under the name "universe extensionality" -- to:
+Arguably, the earliest occurrence of a version of the univalence axiom is due -- under the name "universe extensionality" -- to:
 
 * {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
 
-But these authors refer to a subtly incorrect type of [[equivalences in homotopy type theory]] (see [there](equivalence+in+type+theory#TheIssueWithQuasiInverses) for details).
+Strictly speaking, univalence for *propositions* has a much longer pedigree, this that can and does hold even in [[set-level foundations]], but this is the earliest version of univalence that goes beyond what is possible there.  However, their universe extensionality axiom is stated only for [[h-sets]], and would be incorrect if naively generalized to higher types.  The correct statement that works for higher types requires a better definition of [[equivalences in homotopy type theory]] (see [there](equivalence+in+type+theory#TheIssueWithQuasiInverses) for details), which Voevodsky was the first to give.
 
 For comments on the early history see also:
 
