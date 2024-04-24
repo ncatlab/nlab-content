@@ -255,7 +255,9 @@ associating to a smooth $\mathbb{C}$-scheme $X$ its set of $\mathbb{C}$-points w
 
 $$ \mathrm{H}(\mathbb{C}) \to \infty Grpd. $$
 
-After $T$-stabilization, we obtain a functor from $SH(\mathbb{C})$ to the [[(∞,1)-category of spectra]].
+After $T$-stabilization, we obtain a functor from $SH(\mathbb{C})$ to the [[(∞,1)-category of spectra]], called the _complex Betti realization_
+
+$$ \mathrm{Be}:\mathrm{Sp}(\mathbb{C}) \rightarrow \mathrm{Sp} $$.
 
 **Real realization.** The functor
 
@@ -265,7 +267,10 @@ associating to a smooth $\mathbb{R}$-scheme $X$ its set of $\mathbb{C}$-points w
 
 $$ \mathrm{H}(\mathbb{R}) \to PSh_\infty(\mathcal{O}_{\mathbb{Z}/2}), $$
 
-where $\mathcal{O}_{\mathbb{Z}/2}$ is the [[orbit category]] of $\mathbb{Z}/2$. After $T$-stabilization, we obtain a functor from $SH(\mathbb{R})$ to the (∞,1)-category of [[equivariant stable homotopy theory|genuine]] $\mathbb{Z}/2$-spectra.
+where $\mathcal{O}_{\mathbb{Z}/2}$ is the [[orbit category]] of $\mathbb{Z}/2$. After $T$-stabilization, we obtain a functor from $SH(\mathbb{R})$ to the (∞,1)-category of [[equivariant stable homotopy theory|genuine]] $\mathbb{Z}/2$-spectra, called the _real Betti realization_
+
+
+$$ \mathrm{Be}:\mathrm{Sp}(\mathbb{R}) \rightarrow \mathrm{Sp}_{C_2} $$.
 
 **&#201;tale realization.** Over a separably closed field $k$, we can consider the [[étale homotopy|étale homotopy type]] functor
 
