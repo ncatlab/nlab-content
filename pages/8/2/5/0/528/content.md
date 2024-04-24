@@ -335,6 +335,10 @@ The construction of a Frobenius algebra structure on finite-dimensional Hopf alg
 
 * {#LS69} Richard Larson, [[Moss Sweedler]]. *An Associative Orthogonal Bilinear Form for Hopf Algebras*. American Journal of Mathematics, Vol. 91, No. 1 (Jan., 1969), pp. 75-94 (20 pages). ([doi](https://doi.org/10.2307/2373270))
 
+See also
+
+* Alfons Van Daele. *Reflections on the Larson-Sweedler theorem for (weak) multiplier Hopf algebras* (2024). ([arXiv:2404.15046](https://arxiv.org/abs/2404.15046)).
+
 The proof that $H^*$ can be endowed with the structure of a symmetric special Frobenius object in $\text{Bimod}(H,H)$ is in
 
 * {#FSS11} [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Carl Stigner]]. *Modular invariant Frobenius algebras from ribbon Hopf algebra automorphisms*. Journal of Algebra **363**, 1 August 2012, Pages 29-72. ([doi](https://doi.org/10.1016/j.jalgebra.2012.04.008))
