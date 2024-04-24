@@ -86,6 +86,12 @@ The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzi
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ , Proceedings of the Kompaktkurs "Quantenfeldtheorie auf gekruemmten Raumzeiten" held at Universitaet Potsdam, Germany, in 8.-12.10.2007, organized by C. Baer and K. Fredenhagen ([arXiv:0901.2063](http://arxiv.org/abs/0901.2063))
 
+Enhanced formulation in terms of [[stacks]] of [[categories]] ([[2-sheaves]]) of field theories :
+
+* [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *Haag-Kastler stacks* &lbrack;[arXiv:2404.14510](https://arxiv.org/abs/2404.14510)&rbrack;
+
+
+
 Reviews with emphasis on the AQFT-local-nets point of view:
 
 * [[Robert Wald]], _The Formulation of Quantum Field Theory in Curved Spacetime_ ([arXiv:0907.0416](https://arxiv.org/abs/0907.0416))
