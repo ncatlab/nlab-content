@@ -19,7 +19,7 @@ A morphism $f:X\to Y$ of [[schemes]] is **flat** if the induced map on [[stalks]
 
 A morphism of schemes is **faithfully flat** if it is flat and [[epimorphism|epi]]. 
 
-A morphism of [[affine schemes]] $Spec(B) \to Spec(A)$, hence coming from a [[ring]] [[homomorphism]] $f \colon A \to B$
+A morphism of [[affine schemes]] $Spec(B) \to Spec(A)$, hence coming from a [[ring]] [[homomorphism]] $f \colon A \to B$ is
 
 * flat precisely if $f$ exhibits $B$ as a [[flat module]] over $A$;
 
