@@ -199,6 +199,10 @@ For its relation to the notion of [[generalized symmetries]]:
 
 * [[Daniel S. Freed]], [[Gregory W. Moore]], [[Constantin Teleman]], *Topological symmetry in quantum field theory* &lbrack;[arXiv:2209.07471](https://arxiv.org/abs/2209.07471)&rbrack;
 
+The case of [[Rozansky-Witten theory]]:
+
+* [[Lorenzo Riva]], *Higher categories of push-pull spans, I: Construction and applications* &lbrack;[arXiv:2404.14597](https://arxiv.org/abs/2404.14597)&rbrack;
+
 
 
 [[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
