@@ -26,12 +26,12 @@ On [[equivariant homotopy theory]] and [[equivariant cohomology]]:
 
 * {#Guillou06} [[Bert Guillou]], *Equivariant Homotopy and Cohomology*, lecture notes, 2020 ([pdf](http://www.ms.uky.edu/~guillou/F20/751Notes.pdf), [[GuillouEquivariantHomotopyAndCohomology.pdf:file]])
 
-On computation of stable $C_2$-[[equivariant homotopy groups]] of spheres using the [[equivariant Adams spectral sequence]]:
+On computation of stable $C_2$-[[equivariant homotopy groups]] [[homotopy groups of spheres|of spheres]] using the [[equivariant Adams spectral sequence]]:
 
 * [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-Equivariant Stable Stems_ ([arXiv:2404.14627](https://arxiv.org/abs/2404.14627))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[equivariant homotopy theory]], [[equivariant stable homotopy theory]]
 
