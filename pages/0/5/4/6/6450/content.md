@@ -1,12 +1,22 @@
 
+Moss E. Sweedler is professor emeritus at Cornell. He has pioneered [[Hopf algebra]] theory. His work on noncommutative extensions dealing with [[Sweedler corings]] and related work of his colleague Chase from Cornell on noncommutative [[Galois theory]], predates [[Hopf-Galois extension|Hopf-Galois theory]] from the 1970s.
 
-* [webpage](http://www.math.cornell.edu/People/Faculty/sweedler.html)
+* [institute page](https://math.cornell.edu/moss-e-sweedler)
 
-Moss E. Sweedler was an early researcher in [[Hopf algebras]], authoring 
+* [GoogleScholar page](https://scholar.google.com/citations?user=8Zp7QUIAAAAJ)
 
-* [[M. E. Sweedler]], __Hopf algebras__, Mathematics Lecture Note Series, Benjamin 1969.
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Moss_Sweedler)
 
-and is a professor emeritus at Cornell. His work on noncommutative extensions dealing with [[Sweedler coring]]s and related work of his colleague Chase from Cornell on noncommutative [[Galois theory]], predating [[Hopf-Galois theory]] from the 1970s.
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=37235)
+
+
+
+
+
+## Selected writings
+
+* [[Moss E. Sweedler]]: *Hopf algebras*, Mathematics Lecture Note Series, Benjamin (1969) &lbrack;ISBN:9780805392548&rbrack;
+
 
 
 ## Related entries
