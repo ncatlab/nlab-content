@@ -86,7 +86,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
-* [[conditional expectation|Conditional expectations]]: first expressed categorically in [Panangaden](#panangaden_condexp)  and [CDPP'09](#approx_markov), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) then using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), [FP'20](#pev) and [FGPR'23](#fritz_representable), and finally in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
+* [[conditional expectation|Conditional expectations]]: first expressed categorically in [Panangaden](#panangaden_condexp)  and [CDPP'09](#approx_markov), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) then using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), [FP'20](#pev) and [FGPR'23](#fritz_representable), and finally in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger) and [Perrone-Van Belle'24](#dagger_martingales).
 
 * [[De Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
 
@@ -102,7 +102,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
 
-* [[martingales|Martingales]] Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis).
+* [[martingales|Martingales]] Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis). A version of their convergence theorem using the [[category of couplings]] is given in [Perrone-Van Belle'24](#dagger_martingales).
 
 * Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
@@ -439,6 +439,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#noncommutative_bayes} [[Arthur J. Parzygnat]] and Benjamin P. Russo, _A noncommutative Bayes theorem_, Linear Algebra Applications 644, 2022. ([arXiv](https://arxiv.org/abs/2005.03886))
 
 * {#markov_entropy} [[Paolo Perrone]], _Markov Categories and Entropy_, IEEE Transactions on Information Theory 70(3), 2024. ([arXiv](https://arxiv.org/abs/2212.11719))
+
+* {#dagger_martingales} [[Paolo Perrone]] and Ruben Van Belle, _Convergence of martingales via enriched dagger categories_, 2024. ([arXiv](https://arxiv.org/abs/2404.15191))
 
 * {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv](https://arxiv.org/abs/2110.06591))
 
