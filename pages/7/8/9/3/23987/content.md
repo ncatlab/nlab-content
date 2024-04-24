@@ -2890,7 +2890,21 @@ Stone-von Neumann**
 
   > Every [[bundle]] on a [[manifold]] has a universal [[symmetry group]] which controls all [[equivariance|equivariant]] [[structures]] on the bundle. We modify this idea in two ways: we consider the [[infinitesimal]] version of universal symmetries and allow [[higher structure|higher]], or [[categorification|categorified]] bundles. These appear, for instance, in [[supergravity]], and [[higher gauge theory]], and more generally in [[geometry]] and [[topology]]. We will use a family-version of the [Lurie-Pridham Theorem](formal+moduli+problem#RelationToLInfinityAlgebras) of [[derived geometry|derived]] [[deformation theory]] to construct these higher, infinitesimal analogues of universal symmetry groups. We then use this to provide a unified definition of [[connection on a smooth principal infinity-bundle|connections on higher bundles]] and an algebraic formulation of [[differential cohomology]]. This extends work by [[John Baez|Baez]], [[Urs Schreiber|Schreiber]], [[Konrad Waldorf|Waldorf]], [[Mikhail Kapranov|Kapranov]] and others. Here, the [[curvature]] of a higher connection appears as an [[obstruction]] to infinitesimal equivariance. We elaborate in particular on the [[circle n-bundle with connection|case of higher $U(1)$-bundles]], or n-[[bundle gerbe|gerbes]]. This is joint work with [[Lukas Müller]], [[Joost Nuiten]] and [[Richard Szabo]].
 
-  
+
+\linebreak
+
+### Apr 2024
+
+* [[Alexander Stottmeister]] (Leibniz Universität Hannover):
+
+  **Embezzlement of entanglement and the classification of von
+Neumann algebras**
+
+  cf.: [arXiv:2401.07299](https://arxiv.org/abs/2401.07299)
+
+  > We discuss the [[quantum embezzlement|embezzlement]] of [[quantum entanglement|entanglement]] in the setting of [[von Neumann algebras]] and its relation to the classification of the latter. Embezzlement (of entanglement), introduced by van Dam and Hayden, denotes the task of producing any entangled [[quantum state|state]] to arbitrary precision from a shared entangled resource state, the embezzling state, using local operations without communication while perturbing the resource arbitrarily little.
+
+  > We show that [Connes' classification](von+Neumann+algebra+factor#Connes75) of [type III von Neumann algebras](von+Neumann+algebra+factor#TypeIII) can be given a quantitative operational interpretation in terms of embezzlement. This quantification implies that all type III factors, apart from some type $III_0$ factors, host embezzling states. In contrast, semifinite factors (type I or II) cannot host embezzling
 
 \linebreak
 
