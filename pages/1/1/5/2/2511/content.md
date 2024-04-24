@@ -50,7 +50,9 @@ On [[Fierz identities]] in ([[D=5 supergravity|D=5]]) [[supergravity]]:
 * {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]],  *A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity*, Annals Phys. 139 (1982) 93 &lbrack;<a href="http://dx.doi.org/10.1016/0003-4916(82)90007-0">doi:10.1016/0003-4916(82)90007-0</a>, [spire:167640](http://inspirehep.net/record/167640)&rbrack;
 
 
-On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
+On [[Freund-Rubin compactifications]] of [[11d supergravity]] and identifying [[super AdS spacetime|super $AdS_4\times S^7$]] with a [[coset space]] of [[orthosymplectic super group|$OSp(8 \vert 4)$]]:
+
+* {#DAuriaFré83} [[Riccardo D'Auria]], [[Pietro Fré]]: *Spontaneous generation of symmetry in the spontaneous compactification of $D=11$ supergravity*, Physics Letters B **121** 2–3 (1983) 141-146 &lbrack;<a href="https://doi.org/10.1016/0370-2693(83)90903-6">doi:10.1016/0370-2693(83)90903-6</a>&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
