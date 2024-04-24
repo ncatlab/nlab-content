@@ -38,11 +38,11 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-L
 
 * The [[super anti de Sitter spacetimes]] are [[quotient group|quotients]] of orthosymplectic super Lie groups:
 
-| $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
-|-----|---|
-| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
-| $\phantom{A}$5$\phantom{A}$ | $\;\;\;\;\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
-| $\phantom{A}$7$\phantom{A}$ | $\;\;\;\;\frac{OSp(6,2 \vert 4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
+| $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ | |
+|-----|---|--|
+| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert4)}{Spin(3,1) \times \mathrm{O}(7)}\;\;\;\;$ | [D'Auria & Fré 1983](#DAuriaFré83) |
+| $\phantom{A}$5$\phantom{A}$ | $\;\;\;\;\frac{SU(2,2 \vert 5)}{Spin(4,1)\times \mathrm{O}(5)}\;\;\;\;$ |  |
+| $\phantom{A}$7$\phantom{A}$ | $\;\;\;\;\frac{OSp(6,2 \vert 4)}{Spin(6,1) \times \mathrm{O}(4)}\;\;\;\;$ |  |
 
 
 ## Related concepts
@@ -82,6 +82,12 @@ Appearance of $\mathfrak{osp}(1|2) \times $[[sl(2)]]-[[modular functor]] is foun
 
 
 ### In superstring theory
+
+The identification of [[super AdS spacetime|super $AdS_4\times S^7$]] with a [[coset space]] of $OSp(8 \vert 4)$ is due to:
+
+* {#DAuriaFré83} [[Riccardo D'Auria]], [[Pietro Fré]]: *Spontaneous generation of symmetry in the spontaneous compactification of $D=11$ supergravity*, Physics Letters B **121** 2–3 (1983) 141-146 &lbrack;<a href="https://doi.org/10.1016/0370-2693(83)90903-6">doi:10.1016/0370-2693(83)90903-6</a>&rbrack;
+
+Further discussion:
 
 * [[Igor Bandos]], Jerzy Lukierski, Christian Preitschopf, [[Dmitri Sorokin]], _OSp supergroup manifolds, superparticles and supertwistors_, Phys.Rev.D61:065009, 2000 ([arXiv:hep-th/9907113](https://arxiv.org/abs/hep-th/9907113))
 
