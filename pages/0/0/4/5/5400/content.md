@@ -60,14 +60,12 @@ by the condition that $A$ is a finite $A$-module,
 whereas for a type II$_\infty$ factor $A$ is not a finite $A$-module. 
 
 ### Type III
+ {#TypeIII}
 
-Type III factors are characterized by the condition that the K-theory of finite modules
-is trivial, i.e., only the zero module is finite.
+Type III factors are characterized by the condition that the K-theory of finite modules is trivial, i.e., only the zero module is finite.
 
 Type III factors are further subdivided into three classes,
-according to the structure of the center of their [[modular algebra]],
-which is a commutative von Neumann algebra graded by purely imaginary numbers,
-whose graded components are [[noncommutative L^p-spaces]].
+according to the structure of the center of their [[modular algebra]], which is a commutative von Neumann algebra graded by purely imaginary numbers, whose graded components are [[noncommutative L^p-spaces]].
 
 By the [[von Neumann duality]] for commutative von Neumann algebras,
 the spectrum of this center is a [[measurable space]] equipped with a σ-ideal
@@ -108,6 +106,10 @@ On [[isomorphism]] of factors and proof of a single isomorphism class of approxi
 On decomposing [[von Neumann algebras]] as a [[direct integral]] of factors:
 
 * {#vNeumann49} [[John von Neumann]], _On rings of operators, reduction theory_, Annals of Mathematics Second Series, Vol. 50, No. 2 (1949) &lbrack;[jstor:1969463]( http://www.jstor.org/stable/1969463)&rbrack;
+
+The classification of type III factors:
+
+* {#Connes75} [[Alain Connes]], *Structure Theory for Type III Factors*, Proceedings of the International Congress of Mathematics, Vancouver 1975, vol 2 (1975) &lbrack;[pdf](http://cm2vivi2002.free.fr/AC-biblio/AC-biblio26.pdf)&rbrack;
  
 Recollection of the history which made von Neumann turn to discussion of these "factors", motivated from considerations in the foundations of [[quantum mechanics]] and [[quantum logic]]:
 
