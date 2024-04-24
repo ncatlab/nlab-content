@@ -19,41 +19,43 @@
 
 ## Definition
 
-For $A$ a [[von Neumann algebra]] write $A'$ for its [[commutant]] in the ambient algebra $B(\mathcal{H})$ of [[bounded operator]]s.
+For $A$ a [[von Neumann algebra]] write $A'$ for its [[commutant]] in the ambient algebra $B(\mathcal{H})$ of [[bounded operators]].
 
 +-- {: .num_defn}
 ###### Definition
 
-A von Neumann algebra $A$ is called a **factor** if its [[center]] is trivial
+A von Neumann algebra $A$ is called a **factor** if its [[center]] is trivial, equivalently if $A$ and its [[commutant]] $A'$ generate the full algebra of [[bounded operators]] $B(\mathcal{H})$:
 $$
-  Z(A) := A \cap A' = \mathbb{C}1
+  Z(A) 
+    \coloneqq 
+  A \cap A' 
+    = 
+  \mathbb{C}1
   \,.
 $$
-
-Equivalently: if $A$ and its [[commutant]] $A'$ generate the full algebra of [[bounded operators]] $B(\mathcal{H})$.
 
 =--
 
 ## Properties
 
-Every von Neumann algebra may be written as a [[direct integral]] over factors. ([von Neumann 49](#vNeumann49))
+Every von Neumann algebra may be written as a [[direct integral]] over factors. ([von Neumann 1849](#vNeumann49))
 
 
 ## Classification
 
-Factors are classified in terms of the [[K-theory]] of their categories of finite [[W\*-modules]].
+Factors are classified in terms of the [[K-theory]] of their [[categories]] of finite [[W\*-modules]].
 A [[W\*-module]] over a factor $A$ is _finite_ if it is not isomorphic to its proper submodule.
 
 ### Type I
 
 Type I factors are characterized by the condition that the K-theory of finite modules
-is isomorphic to $\mathbf{Z}$, the group of integers.
+is isomorphic to $\mathbf{Z}$, the group of [[integers]].
 The only factors of this type are of the from $B(H)$, bounded operators on a Hilbert space $H$.
 
 ### Type II
 
 Type II factors are characterized by the condition that the K-theory of finite modules
-is isomorphic to $\mathbf{R}$, the group of real numbers.
+is isomorphic to $\mathbf{R}$, the group of [[real numbers]].
 
 Type II factors are subdivided into two classes: type II$_1$ factors are characterized
 by the condition that $A$ is a finite $A$-module,
@@ -65,14 +67,13 @@ whereas for a type II$_\infty$ factor $A$ is not a finite $A$-module.
 Type III factors are characterized by the condition that the K-theory of finite modules is trivial, i.e., only the zero module is finite.
 
 Type III factors are further subdivided into three classes,
-according to the structure of the center of their [[modular algebra]], which is a commutative von Neumann algebra graded by purely imaginary numbers, whose graded components are [[noncommutative L^p-spaces]].
+according to the structure of the center of their [[modular algebra]], which is a commutative von Neumann algebra graded by purely [[imaginary numbers]], whose graded components are [[noncommutative L^p-spaces]].
 
-By the [[von Neumann duality]] for commutative von Neumann algebras,
-the spectrum of this center is a [[measurable space]] equipped with a σ-ideal
-of negligible sets and the grading yields an action of $\mathbf{R}$, the group of real numbers.
-This object is known as the [[noncommutative flow of weights]].
+By the [[von Neumann duality]] for commutative von Neumann algebras, the spectrum of this center is a [[measurable space]] equipped with a σ-ideal
+of negligible sets and the grading yields an [[group action|action]] of the additive group of [[real numbers]] $\mathbf{R}$.
+This action is known as the *noncommutative flow of weights*.
 
-If the center is trivial (so the spectrum is a point), the factor has type III$_1$.
+If the center is trivial (so that the spectrum is a point), then the factor has type III$_1$.
 If the action of $\mathbf{R}$ is not periodic, then the factor has type III$_0$.
 If the action is periodic with period $\lambda$, a positive real number,
 then the factor has type III$_{\exp(-\lambda)}$.
