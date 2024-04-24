@@ -198,15 +198,17 @@ Survey:
 
 * Jose Bernabeu, _Symmetries and their breaking in the fundamental laws of physics_ ([arXiv:2006.13996](https://arxiv.org/abs/2006.13996))
 
+* Tomas Brauner, *Effective Field Theory for Spontaneously Broken Symmetry* &lbrack;[arXiv:2404.14518](https://arxiv.org/abs/2404.14518)&rbrack;
+
+  > (perspective of [[effective field theory]])
+
+
 
 
 
 Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in the context of the [[Kaluza-Klein mechanism]] is in
 
-* {#Strominger} [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
-
-  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
-[[David Kazhdan]],  [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* {#Strominger} [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in: _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
  
 
 Discussion of spontaneous [[supersymmetry breaking]] is in 
