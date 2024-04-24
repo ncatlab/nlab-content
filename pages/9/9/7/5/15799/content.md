@@ -90,6 +90,10 @@ On the relation between [[functorial quantum field theory]] (axiomatizing the [[
 
 * {#BunkMacManusSchenkel23} [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *Lorentzian bordisms in algebraic quantum field theory* &lbrack;[arXiv:2308.01026](https://arxiv.org/abs/2308.01026)&rbrack;
 
+On [[AQFT on curved spacetimes]] in terms of [[stacks]] of [[categories]] ([[2-sheaves]]) of field theories :
+
+* [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *Haag-Kastler stacks* &lbrack;[arXiv:2404.14510](https://arxiv.org/abs/2404.14510)&rbrack;
+
 
 
 ## Related entries
