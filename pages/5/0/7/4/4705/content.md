@@ -117,8 +117,7 @@ As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[
 
 Discussion of [[Rozansky-Witten theory]] as a [[boundary field theory]]:
 
-* [[Anton Kapustin]], [[Lev Rozansky]], [[Natalia Saulina]], 
-_Three-dimensional topological field theory and symplectic algebraic geometry I_ ([arXiv:0810.5415](https://arxiv.org/abs/0810.5415))
+* [[Anton Kapustin]], [[Lev Rozansky]], [[Natalia Saulina]], _Three-dimensional topological field theory and symplectic algebraic geometry I_ ([arXiv:0810.5415](https://arxiv.org/abs/0810.5415))
 
 
 Relation to [[equivariant cohomology]]:
@@ -135,6 +134,7 @@ reviewed in:
 
 * [[Nils Carqueville]], *Extended defect TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CarquevilleMar2023), [pdf](https://www.carqueville.net/nils/RW.pdf), [[Carqueville-RW.pdf:file]], video:[YT](https://www.youtube.com/watch?v=bwDJSitenVE)&rbrack;
 
+
 Relation to [[super Chern-Simons theory]]:
 
 * [[Nathan Geer]], [[Matthew B. Young]], *Three dimensional topological quantum field theory from $U_q(\mathfrak{gl}(1\vert1))$ and $U(1\vert 1)$ Chern--Simons theory* &lbrack;[arXiv:2210.04286](https://arxiv.org/abs/2210.04286)&rbrack;
@@ -144,6 +144,9 @@ Review:
 * [[Matthew B. Young]], *Non-semisimple TFT and $U(1\vert 1)$ Chern-Simons theory*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023)&lbrack;[web](Center+for+Quantum+and+Topological+Systems#YoungMar2023)&rbrack;
 
 
+On Rozansky-Witten theory as [[extended functorial field theory]]:
+
+* [[Lorenzo Riva]], *Higher categories of push-pull spans, I: Construction and applications* &lbrack;[arXiv:2404.14597](https://arxiv.org/abs/2404.14597)&rbrack;
 
 
 
