@@ -2494,8 +2494,6 @@ See also:
 
 * {#Stolz14} [[Stephan Stolz]], _Topology and Field Theories_, Contemporary Mathematics 613, American Mathematical Society 2014 ([ams:conm-613](https://bookstore.ams.org/conm-613))
 
-* Lorenzo Riva. *Higher categories of push-pull spans, I: Construction and applications* (2024). ([arXiv:2404.14597](https://arxiv.org/abs/2404.14597)).
-
 
 A survey of some further developments and conjectures (especially as related to the [[AGT correspondence]]) is in 
 
