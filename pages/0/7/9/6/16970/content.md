@@ -49,6 +49,27 @@ $$
 
 where now $\Sigma^\infty S^n \simeq \Sigma^n \mathbb{S}$ is the [[suspension spectrum]] of the [[n-sphere]] and $[-,-]^G$ now denotes the [[hom functor]] in the [[equivariant stable homotopy category]].
 
+### With $\mathrm{RO}(G)$-grading
+
+If $V$ is a [[real number|real]] [[orthogonal]] $G$-[[representation]] and $H \subset G$ is a subgroup, then we define the functor $\pi^H_V(-):\mathcal{S}_{G,*} \rightarrow \mathrm{Set}$ by 
+$$
+  \pi^H_V(X) \coloneqq \pi_0 \mathrm{Map}^H_*(S^V,X);
+$$
+for fixed $V$ these are functorial in $H$, and the resulting structure is called a _$V$-Mackey functor_ by [Lewis](#Lewis92).
+
+Similarly, if $\mathrm{RO}(G)$ denotes the [[real number|real]] [[orthogonal]] [[representation ring]] and $V \in \mathrm{RO}(G)$ is a [[real number|real]] [[orthogonal]] [[virtual representation]] of $G$, then we define the functor $\pi^H_V(-):\mathrm{Sp}_{G} \rightarrow \mathrm{Ab}$ by
+$$
+  \pi^H_V(X) \coloneqq \pi_0 \mathrm{Map}^H_*(\mathbb{S}^V,X).
+$$
+These together bear the structure of an $\mathrm{RO}(G)$-graded [[Mackey functor]], i.e. they take the form of a functor
+$$
+  \pi_{\star}^{\bullet}:\mathrm{Sp}_{G} \rightarrow \mathcal{M}_G(\mathrm{Ab})^{\mathrm{RO}(G)}.
+$$
+Often one fixes $H = G$, in which case one simply writes
+$$
+  \pi_{\star} \coloneqq \pi_{\star}^{G}:\mathrm{Sp}_G \rightarrow \mathrm{Ab}^{\mathrm{RO}(G)}.
+$$
+
 ### Via genuine $G$-spectra
 
 Consider [[genuine G-spectra]] modeled on a [[G-universe]] $U$.
@@ -150,7 +171,6 @@ $$
 $$
 
 
-
 ## Examples
 
 ### Of equivariant suspension spectra
@@ -180,7 +200,11 @@ $$
 
 (e.g. [Schwede 15, p. 64](#Schwede15))
 
+In the case $G = C_2$, the [RO(G)](#ROG)-graded stable equivariant homotopy groups $\pi_{s,c}(\mathbb{S}) := \pi_{c + (s-c)\sigma}(\mathbb{S})$ of the sphere have been determined in the following ranges:
 
+* stems $s \leq 25$ and coweights $-1 \leq c \leq 9$ ([Guillou-Isaksen 24](#Guillou24)); 
+
+* $s \leq 7$ and coweights $-9 \leq c \leq -2$ ([Guillou-Isaksen 24](#Guillou24)).
 
 ## Properties
 
@@ -217,6 +241,7 @@ See at *[[equivariant Whitehead theorem]]*.
 
 ## References
 
+* {#Lewis92} [[Gaunce Lewis]], _The equivariant Hurewicz map_ (1992) ([TAMS](https://www.ams.org/journals/tran/1992-329-02/S0002-9947-1992-1049614-9/S0002-9947-1992-1049614-9.pdf))
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
@@ -224,6 +249,8 @@ See at *[[equivariant Whitehead theorem]]*.
 
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+* {#Guillous24} [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-Equivariant Stable Stems_m ([arXiv:2404.14627](https://arxiv.org/abs/2404.14627))
 
 
 [[!redirects equivariant homotopy groups]]
