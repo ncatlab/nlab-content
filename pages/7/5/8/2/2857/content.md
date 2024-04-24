@@ -31,7 +31,13 @@ On computation of [[stable homotopy groups of spheres]] via the [[Adams spectral
 * [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _More stable stems_ ([arXiv:2001.04511](https://arxiv.org/abs/2001.04511))
 
 
+On computation of stable $C_2$-[[equivariant homotopy groups]] of spheres using the [[equivariant Adams spectral sequence]]:
+
+* [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-Equivariant Stable Stems_ ([arXiv:2404.14627](https://arxiv.org/abs/2404.14627))
+
 # Related $n$Lab entries
+
+* [[stable homotopy groups of spheres]]
 
 * [[model structure on simplicial presheaves]]
 
