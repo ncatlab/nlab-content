@@ -70,6 +70,8 @@ $$
   \pi_{\star} \coloneqq \pi_{\star}^{G}:\mathrm{Sp}_G \rightarrow \mathrm{Ab}^{\mathrm{RO}(G)}.
 $$
 
+See more at [[C_2-equivariant homotopy groups of spheres]].
+
 ### Via genuine $G$-spectra
 
 Consider [[genuine G-spectra]] modeled on a [[G-universe]] $U$.
