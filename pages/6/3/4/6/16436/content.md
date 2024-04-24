@@ -24,7 +24,7 @@
 
 ## Idea
 
-A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]] ([[super Klein geometries]]):
+A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]] ([[product manifold|times]] an internal space). By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]] ([[super Klein geometries]]):
 
 | $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
 |-----|---|
@@ -38,7 +38,7 @@ E.g. for $d=4$  this identification &lbrack;[D'Auria & Fré 1983](#DAuriaFré83)
 
 
 \begin{remark}
-On the other hand, [[de Sitter spacetime]] (instead of anti-de Sitter) does not have a standard extension to [[supergeometry]], but see [arXiv:1610.01566](https://arxiv.org/abs/1610.01566).
+On the other hand, [[de Sitter spacetimes]] (instead of anti-de Sitter) do not have a standard extensions to [[supergeometry]]; but see [arXiv:1610.01566](https://arxiv.org/abs/1610.01566).
 \end{remark}
 
 ## Related concepts
