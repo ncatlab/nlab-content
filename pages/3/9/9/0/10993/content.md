@@ -63,7 +63,7 @@ It follows that $T$ is canonically equipped with the structure of a [[functor]].
   T f 
   \;:=\; 
   \big(
-    \eta_{J Y} \circ J f
+    \eta_{Y} \circ J f
   \big)^\dagger
   \,. 
 \]
