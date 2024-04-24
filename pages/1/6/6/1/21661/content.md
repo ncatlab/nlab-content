@@ -96,6 +96,9 @@ See also:
 
 * Magdalena Larfors, Davide Passaro, Robin Schneider, _Heterotic Line Bundle Models on Generalized Complete Intersection Calabi Yau Manifolds_ ([arXiv:2010.09763](https://arxiv.org/abs/2010.09763))
 
+* Steve Abel, Andrei Constantin, Thomas R. Harvey, Andre Lukas, Luca A. Nutricati, *Decoding Nature with Nature's Tools: Heterotic Line Bundle Models of Particle Physics with Genetic Algorithms and Quantum Annealing* &lbrack;[arXiv:2306.03147](https://arxiv.org/abs/2306.03147)&rbrack;
+
+
 
 Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
 
