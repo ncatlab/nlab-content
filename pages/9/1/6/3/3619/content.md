@@ -108,6 +108,8 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 * [[short-range entanglement]]
 
+* [[quantum embezzlement]]
+
 * [[tensor network]]
 
 * [[quantum teleportation]]
