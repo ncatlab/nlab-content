@@ -20,11 +20,12 @@ Then the pair $(\triangleright,\sigma)$ defines the data for the __cocycled [[cr
 
 Conversely, if $H$ is a Hopf algebra, every cocycled product $U\sharp_\sigma H$ with invertible cocycle $\sigma$ is cleft via $\gamma: h\mapsto 1\sharp h$ with convolution inverse $\gamma^{-1}(h) = \sigma^{-1}(Sh_{(2)},h_{(3)})\otimes h_{(1)}$ and the cocycle $\sigma$ built out of $\gamma$ is the same one which helped build the cocycled crossed product.  
 
-Every cleft extension is a particular case of a [[Hopf-Galois extension]].
+Every cleft extension is a particular case of a [[Hopf-Galois extension]]. Any Hopf–Galois extension with the normal basis property is necessarily a cleft extension
+([Doi Takeuchi 1986](#DoiTakeuchi86), Theorem 9).
 
 ## Literature
 
-* Yukio Doi, [[Mitsuhiro Takeuchi]], _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818 [doi](https://doi.org/10.1080/00927878608823337)
+* {#DoiTakeuchi86} Yukio Doi, [[Mitsuhiro Takeuchi]], _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818 [doi](https://doi.org/10.1080/00927878608823337)
 * [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 * Yukio Doi, _Equivalent crossed products for a Hopf
 algebra_, Commun. Alg. 17 (1989) 12  [doi](https://doi.org/10.1080/00927878908823895)
