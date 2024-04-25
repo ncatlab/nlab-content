@@ -41,7 +41,7 @@ There is also a more general cocycled crossed product. For a bialgebra $H$ and a
 
 Let $U$ be an algebra, $H$ a Hopf algebra, $\triangleright : H\otimes U\to U$ a [[measuring]], i.e. a $k$-linear map satisfying $h\triangleright(u v)=\sum (h_{(1)}\triangleright u)(h_{(2)}\triangleright v)$ for all $h\in H$, $u,v\in U$, and which we assume unital, i.e. $h\triangleright 1 = \epsilon(h)1$ for all $h\in H$. We do _not_ assume that $\triangleright$ is an action. 
 
-Let further a (convolution) *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ be given. 
+Let further a (convolution) *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ be given. For readability in longer calculations, one usually writes $\sigma(h,k)$ rather than $\sigma(h\otimes k)$.
 
 We say that $\sigma$ is a **2-cocycle** (relative to the measuring $\triangleright$) if the following two cocycle identities hold
 
@@ -54,6 +54,8 @@ $$
 \sum [h_{(1)}\triangleright\sigma(k_{(1)},m_{(1)})]\sigma(h_{(2)},k_{(2)}m_{(2)})=\sum \sigma(h_{(1)},k_{(1)})\sigma(h_{(2)}k_{(2)},m)
 \,.
 $$
+The 2-cocycle $\sigma$ is normalized if $\sigma(h,1) =
+\epsilon(h)1 = \sigma(1,h)$.
 
 These identities clearly generalize the classical [[factor system]]s in group theory (linearly extended to the case of group algebras, for the finite groups at least). Therefore it is an  example of a nonabelian cocycle in Hopf algebra theory. However, its role in the general theory is less well understood than the group case. 
 
@@ -70,7 +72,7 @@ If so, we call $U\sharp_\sigma H$ **cocycled crossed product algebra**. Map $1\o
 
 If $\sigma(h,k)=\epsilon(h)\epsilon(k)1_U$ then we say that $\sigma$ is a trivial cocycle and then the compatibility conditions above reduce to demanding that the measuring $\triangleright$ is an action. The cocycled crossed product then reduces to the usual smash product algebra.  
 
-**Theorem.** Suppose we are given two measurings $\triangleright,\triangleright':H\otimes U\to A$ with cocycles $\sigma, \tau$ respectively. Then there exists an isomorphism of $H$-extensions of $U$, $i: U\sharp_\sigma H\cong U\sharp_\tau H$ (i.e. an isomorphism of $k$-algebras, left $U$-modules and right $H$-comodules) iff there is an invertible element $f\in Hom_k(H,U)$ such that for all $u\in U$, $h,k\in H$
+**Theorem.** Suppose we are given two measurings $\triangleright,\triangleright':H\otimes U\to A$ with normalized cocycles $\sigma, \tau$ respectively. Then there exists an isomorphism of $H$-extensions of $U$, $i: U\sharp_\sigma H\cong U\sharp_\tau H$ (i.e. an isomorphism of $k$-algebras, left $U$-modules and right $H$-comodules) iff there is an invertible element $f\in Hom_k(H,U)$ such that for all $u\in U$, $h,k\in H$
 
 $$h\triangleright' u = \sum f^{-1}(h_{(1)})(h_{(2)}\triangleright u) f(h_{(3)}),$$
 
@@ -81,15 +83,14 @@ $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
 ## Literature
 
-Related $n$Lab entres include [[crossed product C*-algebra]], [[noncommutative torsor]], [[Hopf-Galois extension]]
+Related $n$Lab entres include [[cleft extension]], [[crossed product C*-algebra]], [[noncommutative torsor]], [[Hopf-Galois extension]]
 
 * Y. Doi, M. Takeuchi, _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818
 * Y. Doi, _Equivalent crossed products for a Hopf
 algebra_, Comm. Alg. __17__ (1989), 3053--3085, [MR91k:16027](http://www.ams.org/mathscinet-getitem?mr=1030610), [doi](ttp://dx.doi.org/10.1080/00927878908823895)
 
 * S. Montgomery, _Hopf algebras and their actions on
-rings_, CBMS Regional Conference Series in Mathematics __82__,
-AMS 1993.
+rings_, CBMS Regional Conference Series in Mathematics __82__, AMS 1993.
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995.
 
 category: algebra, noncommutative geometry
