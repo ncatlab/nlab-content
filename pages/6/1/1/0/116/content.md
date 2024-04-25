@@ -25,9 +25,17 @@
 
 ## Definition ##
 
-Classically, a **group** is a [[monoid]] in which every element has an [[inverse]] (necessarily unique). When written with a view toward [[group objects]] (see Internalization below), one should rather say that a group is a monoid together with an inversion operation. 
+A **group** is an [[algebraic structure]] consisting of a set $G$ and a binary operation $\star$ that satisfies the **group axioms**, being:
 
-An **[[abelian group]]** is a group in which moreover the order in which two elements are multiplied is irrelevant.
+* [[associativity]]: $\forall a,b,c \in G: (a \star b) \star c = a \star (b \star c)$
+* [[identity]]: $\exists e \in G, \forall a \in G: e \star a = a$
+* [[inverse]]: $\forall a \in G, \exists a^{-1} \in G: a  \star  a^{-1} = e$
+
+It follows that $a \star a^{-1} = a^{-1} \star a$, $e \star a = a \star e$, the [[inverse]] $a^{-1}$ is unique $\forall a$, and $G$ is non-empty.
+
+In a broader sense, a group is a [[monoid]] in which every element has a necessarily unique inverse. When written with a view toward [[group objects]] (see Internalization below), one should rather say that a group is a monoid together with an inversion operation.
+
+An **[[abelian group]]** is a group where the order in which two elements are multiplied is irrelevant. That is, it satisfies *commutativity*: $\forall a,b \in G : a \star b = b \star a$.
 
 ## Delooping ##
 
