@@ -1,16 +1,20 @@
-\begin{imagefromfile}
-    "file_name": "RunningHoTT2024Photo1-jpg",
-    "width": 850,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 0
-    }
-\end{imagefromfile}
 
-$\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;$[[David Wärn|Wärn]] $\;\;\;$ [[David Jaz Myers|Myers]] $\;\;\;$ [[András Kovács|Kovács]] $\;\;\;$ [[Eric Finster|Finster]] $\;$ [[Urs Schreiber|Schreiber]] $\;\;\;$X $\;\;\;$ [[Thorsten Altenkirch|Altenkirch]] $\;$ [[Thomas Lamiaux|Lamiaux]] $\;$[[Mitchell Riley|Riley]] $\;\;\;$ [[Ulrik Buchholtz|Buchholtz]] $\;\;\;$ [[Dongho Lee|Lee]]
+$$
+  \begin{aligned}
+   A &= B
+   \\
+   C &= D
+  \end{aligned}
+$$
+
+$$
+  \begin{array}{rcl}
+   A &=& B
+   \\
+   C &=& D
+  \end{array}
+$$
+
 
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.71646pt" height="173.0927pt" viewBox="-61.90549 -61.90549 180.71646 173.0927 "> 
