@@ -76,9 +76,9 @@ Discussion of the origin in [[KK-compactification]] of [[11-dimensional supergra
 
 * {#Roest04} [[Diederik Roest]], _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
-Maximally gauged [[4d supergravity]] was first discussed in
+Maximally gauged [[D=4 supergravity]] was first discussed in
 
-* [[Bernard  de Wit]], [[Hermann Nicolai]], _$N = 8$ supergravity_, Nucl. Phys. B208 (1982) 323
+* [[Bernard  de Wit]], [[Hermann Nicolai]], _$N = 8$ supergravity_, Nucl. Phys. B **208** (1982) 323
 
 and gauged [[D=5 supergravity]] in 
 
