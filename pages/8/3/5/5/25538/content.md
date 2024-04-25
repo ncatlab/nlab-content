@@ -25,7 +25,9 @@
 
 Given a [[category]] $C$, we may construct the [[free cocompletion]] of $C$, freely adding some [[class]] of [[colimits]]. Often, however, $C$ will already have some colimits, which we wish to preserve. A **conservative cocompletion** of a category $C$ is a cocompletion that preserves the colimits in $C$.
 
-Explicitly, given a class $\Phi$ of colimits, and a [[small category|small]] $\Phi$-[[cocomplete category]]  $C$, the **$\Phi$-conservative cocompletion** of $C$ is given by taking the closure of $[C^\circ, Set]_\Phi$ under small colimits, where  $[C^\circ, Set]_\Phi$ is the [[full subcategory]] of the [[presheaf category]] $[C^\circ, Set]$ of presheaves sending $\Phi$-colimits in $C$ to $\Phi$-limits in $Set$. When $C$ is instead a [[locally small category]], we consider instead the [[small presheaves]].
+For a [[small category]] $C$ with $\Phi$-colimits, there is a simple description of the **$\Phi$-conservative completion** (for a class $\Phi$ of colimits). It is the the full subcategory $[C^\circ, Set]_\Phi$ of the [[presheaf category]] on $C$ spanned by the functors sending $\Phi$-colimits in $C$ to limits in the presheaf category.
+
+For a [[large category]], this description does not suffice in general, nor does it suffices to consider categories of [[small presheaves]]: in fact, there are [[locally small categories]] that do not admit locally small conservative cocompletions (see [AV02](#AV02)) (however, they do admit conservative cocompletions that are large and not locally small).
 
 ## Related concepts
 
@@ -35,7 +37,7 @@ Explicitly, given a class $\Phi$ of colimits, and a [[small category|small]] $\P
 
 - J. F Kennison, _On limit-preserving functors_, Illinois Journal of Mathematics 12.4 (1968): 616-619.
 
-- [[Jiřı́ Velebil]] and [[Jiřı́ Adámek]]. _A remark on conservative cocompletions of categories_. Journal of Pure and Applied Algebra 168.1 (2002): 107-124.
+- {#AV02} [[Jiřı́ Adámek]] and [[Jiřı́ Velebil]]. _A remark on conservative cocompletions of categories_. Journal of Pure and Applied Algebra 168.1 (2002): 107-124.
 
 See also Theorem 11.5 of:
 
