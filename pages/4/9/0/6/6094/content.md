@@ -155,6 +155,9 @@ This is ([Lurie 09, example 4.2.8](#Lurie09)).
  
 * {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
+An adaptation of this notion to the setting of spectra in [[stable homotopy theory]] is studied in
+
+* Ralph L. Cohen, Inbar Klang, _Twisted Calabi–Yau ring spectra, string topology, and gauge symmetry_, Tunisian J. Math. __2__:1 (2020) [doi](https://doi.org/10.2140/tunis.2020.2.147)
 
 [[!redirects Calabi-Yau algebras]]
 
