@@ -561,6 +561,10 @@ Lawvere theories, and finitary monads, are identified with certain [[enriched ca
 
 * [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017, [arxiv](https://arxiv.org/abs/1707.08694)
 
+Some properties of Lawvere theories:
+
+* V. Trnková, _Representability and local representability of algebraic theories_, algebra universalis 39.3 (1998): 121-144.
+
 A short introductory/overview note:
 
 * {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, [note](https://anuyts.github.io/files/keml-diagrams.pdf)
