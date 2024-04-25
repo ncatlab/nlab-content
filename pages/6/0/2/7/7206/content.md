@@ -181,11 +181,13 @@ Review of the [[superspace]] formulations:
 
 #### Construction
 
-The maximal $N=8$ supergravity in 4d was obtained by [[KK-reduction]] of [[11-dimensional supergravity]] on a [[torus|7-torus]] in 
+Maximal $N=8$ supergravity in 4d was obtained by [[KK-reduction]] of [[11-dimensional supergravity]] on a [[torus|7-torus]]: 
 
-* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en))
+* {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]]: *The $N=8$ supergravity theory. I. The Lagrangian*, Phys. Lett. B **80** 1-2 (1978) 48-51 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90303-9">doi:10.1016/0370-2693(78)90303-9</a>&rbrack;
 
-* [[Eugene Cremmer]], [[Bernard Julia]], Phys. Lett. 80B (1978) 48; Nucl. Phys. B159 (1979) 141.
+* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], *The $SO(8)$ Supergravity*, Nucl. Phys. B **159** (1979) 141 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90331-6">doi:10.1016/0550-3213(79)90331-6</a>, [spire:140465](http://inspirehep.net/record/140465)&rbrack;
+
+
 
 Its $SO(8)$-[[gauged supergravity|gauged]] version was obtained in 
 
