@@ -25,7 +25,7 @@
 
 ## Definition ##
 
-A **group** is an [[algebraic structure]] consisting of a set $G$ and a binary operation $\star$ that satisfies the **group axioms**, being:
+A **group** is an [[algebraic structure]] consisting of a [[set]] $G$ and a [[binary operation]] $\star$ that satisfies the **group axioms**, being:
 
 * [[associativity]]: $\forall a,b,c \in G: (a \star b) \star c = a \star (b \star c)$
 * [[identity]]: $\exists e \in G, \forall a \in G: e \star a = a$
@@ -33,7 +33,7 @@ A **group** is an [[algebraic structure]] consisting of a set $G$ and a binary o
 
 It follows that $a \star a^{-1} = a^{-1} \star a$, $e \star a = a \star e$, the [[inverse]] $a^{-1}$ is unique $\forall a$, and $G$ is non-empty.
 
-In a broader sense, a group is a [[monoid]] in which every element has a necessarily unique inverse. When written with a view toward [[group objects]] (see Internalization below), one should rather say that a group is a monoid together with an inversion operation.
+In a broader sense, a group is a [[monoid]] in which every element has a (necessarily unique) [[inverse element|inverse]]. When written with a view toward [[group objects]] (see *[Internalization](#Internalization)* below), one should rather say that a group is a monoid together with an inversion operation.
 
 An **[[abelian group]]** is a group where the order in which two elements are multiplied is irrelevant. That is, it satisfies *commutativity*: $\forall a,b \in G : a \star b = b \star a$.
 
@@ -52,7 +52,7 @@ Since for $G, H$ two groups, [[functors]] $\mathbf{B}G \to \mathbf{B}H$ are cano
 Let [[Grpd]] be the 1-[[category]] whose objects are [[groupoids]] and whose [[morphisms]] are [[functors]] (discarding the [[natural transformations]]). Let [[Grp]] be the category of groups. Then the [[delooping]] functor
 
 $$
-  \mathbf{B} : Grp \to Grpd
+  \mathbf{B} \colon Grp \to Grpd
 $$
 
 is a [[full and faithful functor]]. In terms of this functor we may regard groups as the full [[subcategory]] of groupoids on groupoids with a single object.
@@ -66,13 +66,13 @@ And the category of groups is _not_ equivalent to the full sub-2-category of the
 The reason is that two functors:
 
 $$
-  \mathbf{B}f_1, \mathbf{B}f_2 : \mathbf{B}G \to \mathbf{B}H
+  \mathbf{B}f_1, \mathbf{B}f_2 \colon \mathbf{B}G \to \mathbf{B}H
 $$ 
 
-coming from two group homomorphisms $f_1, f_2 : G \to H$ are related by a [[natural transformation]] $\eta_h : \mathbf{B}f_1 \to \mathbf{B}f_2$ with single component $\eta_h : \bullet \mapsto h \in Mor(\mathbf{B} H)$ for each element $h \in H$ such that the homomorphisms $f_1$ and $f_2$ differ by the [[inner automorphism]] $Ad_h : H \to H$
+coming from two group homomorphisms $f_1, f_2 \colon G \to H$ are related by a [[natural transformation]] $\eta_h \colon \mathbf{B}f_1 \to \mathbf{B}f_2$ with single component $\eta_h \colon \bullet \mapsto h \in Mor(\mathbf{B} H)$ for each element $h \in H$ such that the homomorphisms $f_1$ and $f_2$ differ by the [[inner automorphism]] $Ad_h \colon H \to H$
 
 $$
-  (\eta_h : \mathbf{B}f_1 \to \mathbf{B}f_2)
+  (\eta_h \colon \mathbf{B}f_1 \to \mathbf{B}f_2)
   \Leftrightarrow 
   (f_2 = Ad_h \circ f_1)
   \,.
@@ -84,6 +84,7 @@ To fix this, look at the category of [[pointed object|pointed]] groupoids with [
 ## Generalizations
 
 ### Internalization 
+ {#Internalization}
 
 A **[[group object]]** [[internalization|internal to]] a [[category]] $C$ with finite [[product|products]] is an object $G$ together with maps $mult:G\times G\to G$, $id:1\to G$, and $inv:G\to G$ such that various diagrams expressing associativity, unitality, and inverses commute.
 
@@ -154,11 +155,11 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 
 ### Concrete examples
 
-Standard examples of [[finite group]]s include
+Standard examples of [[finite groups]] include the
 
-* [[group of order 2]] $\mathbb{Z}_2$
+* [[group of order 2]]$\;\mathbb{Z}/2\mathbb{Z}$
 
-* [[symmetric group]] $\Sigma_n$
+* [[symmetric group]]$\;\Sigma_n$
 
 * [[cyclic group]]
 
@@ -166,15 +167,15 @@ Standard examples of [[finite group]]s include
 
 * [[Monster group]]
 
-Standard examples of non-finite groups include
+Standard examples of non-finite groups include thr
 
-* group of [[integer]]s $\mathbb{Z}$ (under [[addition]]);
+* group of [[integers]] $\mathbb{Z}$ (under [[addition]]);
 
 * group of [[real number]]s without 0 $\mathbb{R}\setminus \{0\}$ under [[multiplication]].
 
 * [[Prüfer group]]
 
-Standard examples of [[Lie groups]] include
+Standard examples of [[Lie groups]] include the
 
 * [[orthogonal group]]
 
@@ -182,13 +183,13 @@ Standard examples of [[Lie groups]] include
 
 * [[Spin group]], [[spin^c group]]
 
-Standard examples of [[topological group]]s include
+Standard examples of [[topological groups]] include
 
 * [[string group]]
 
 ### Counterexamples
 
-For more see [[counterexamples in algebra]].
+For more see *[[counterexamples in algebra]]*.
 
 1. A non-[[abelian group|abelian]] [[group]], all of whose [[subgroup]]s are [[normal subgroup|normal]]:
 
