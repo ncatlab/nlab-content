@@ -19,4 +19,4 @@
 
 ## References
 
-* {#Guillous24} [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-Equivariant Stable Stems_m ([arXiv:2404.14627](https://arxiv.org/abs/2404.14627))
+* {#Guillous24} [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-Equivariant Stable Stems_, ([arXiv:2404.14627](https://arxiv.org/abs/2404.14627))
