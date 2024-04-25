@@ -28,7 +28,7 @@ A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]] ([[pro
 
 | $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
 |-----|---|
-| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert4)}{Spin(3,1) \times \mathrm{O}(7)}\;\;\;\;$ |
+| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert 4)}{Spin(3,1) \times \mathrm{O}(7)}\;\;\;\;$ |
 | $\phantom{A}$5$\phantom{A}$ | $\;\;\;\;\frac{SU(2,2 \vert 5)}{Spin(4,1)\times \mathrm{O}(5)}\;\;\;\;$ |
 | $\phantom{A}$7$\phantom{A}$ | $\;\;\;\;\frac{OSp(6,2 \vert 4)}{Spin(6,1) \times \mathrm{O}(4)}\;\;\;\;$ |
 
@@ -66,6 +66,11 @@ General discussion:
 Specifically concerning super-$AdS_4 \times S^7$ ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
 
 * {#DAuriaFré83} [[Riccardo D'Auria]], [[Pietro Fré]]: *Spontaneous generation of symmetry in the spontaneous compactification of $D=11$ supergravity*, Physics Letters B **121** 2–3 (1983) 141-146 &lbrack;<a href="https://doi.org/10.1016/0370-2693(83)90903-6">doi:10.1016/0370-2693(83)90903-6</a>&rbrack;
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], pp. 33 in: *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
+
+  > (no discussion of [[superspace]], but of the [[orthosymplectic supergroup|$OSp(8 \vert 4)$]]-[[supersymmetry]])
+
 
 * [Castellani, D'Auria & Fré 1991, §3.1](#CastellaniDAuriaFre91)
 
