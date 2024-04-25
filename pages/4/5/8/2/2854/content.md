@@ -1,4 +1,8 @@
-Let $H$ be a Hopf algebra, a right $H$-[[comodule algebra]] $E$ is an __$H$-extension__ of a subalgebra $U\subset E$ if $U=E^{co H}$ is precisely  the subalgebra of $H$-coinvariants. The $H$-extension $U\subset E$ is **cleft** if there exist a __convolution-invertible $H$-comodule map__ $\gamma:H\to E$. 
+## Definition
+
+Let $H$ be a bialgebra, a right $H$-[[comodule algebra]] $E$ is an __$H$-extension__ of a subalgebra $U\subset E$ if $U=E^{co H}$ is precisely  the subalgebra of $H$-coinvariants. The $H$-extension $U\subset E$ is **cleft** if there exist a __[[convolution algebra#ConvolutionOfMapsFromACoalgebraToAnAlgebra|convolution-invertible]] $H$-comodule map__ $\gamma:H\to E$. In other words, there is also a map $\gamma^{-1}:H\to E$ (the convolution inverse of $\gamma$) such that for all $h\in H$, $\gamma(h_{(1)})\gamma^{-1}(h_{(2)}) = \epsilon(h) = \gamma^{-1}(h_{(1)})\gamma(h_{(2)})$.
+
+## Discussion
 
 If $U\hookrightarrow E$ is a cleft $H$-extension, then the cleavage $\gamma$ can always be chosen normalized in the sense that $\gamma(1)=1$; because if it is not normalized we can rescale $\gamma$ to form a normalized cleavage $\gamma'=\gamma^{-1}(1)\gamma$ (indeed, $1$ is [[grouplike element|group-like]], hence $\gamma(1)$ is invertible with inverse $(\gamma(1))^{-1}=\gamma^{-1}(1)$). 
 
@@ -12,11 +16,12 @@ $$\sigma(h,k) = \sum \gamma(h_{(1)})\gamma(k_{(1)})\gamma^{-1}(h_{(2)}k_{(2)}),\
 
 Then the pair $(\triangleright,\sigma)$ defines the data for the __cocycled [[crossed product algebra]]__ $U\sharp_\sigma H$ which is canonically isomorphic to $B$ as an $H$-extension of $U\cong U\otimes 1\hookrightarrow U\sharp_\sigma H$, and i.e. as a right $H$-comodule algebra with the isomorphism fixing $U$ as given.
 
-Conversely, every cocycled product $U\sharp_\sigma H$ is cleft via $\gamma:
-h\mapsto 1\sharp h$ and the cocycle $\sigma$ built out of $\gamma$ is the same one, which helped build the cocycled crossed product.  
+Conversely, if $H$ is a Hopf algebra, every cocycled product $U\sharp_\sigma H$ is cleft via $\gamma: h\mapsto 1\sharp h$ and the cocycle $\sigma$ built out of $\gamma$ is the same one which helped build the cocycled crossed product.  
 
 Every cleft extension is a particular case of a [[Hopf-Galois extension]].
-   
+
+## Literature
+
 * Y. Doi, [[Mitsuhiro Takeuchi]], _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818 [doi](https://doi.org/10.1080/00927878608823337)
 * [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
