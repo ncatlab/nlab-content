@@ -1,3 +1,4 @@
+[[!redirects C_2-equivariant homotopy groups of spheres]]
 #Content#
 * table of contents
 {:toc}
@@ -60,7 +61,15 @@ The following theorem is Theorem 1.1 of [Heller-Ormsby 17](#Heller17) (with imag
   is a fully faithful symmetric left adjoint whose image is generated under tensor products and colimits by finite etale $k$-algebras.
 \end{theorem}
 
+This yields the following corollary (Thm 3.11 [Heller-Ormsby](#Heller17)):
+\begin{corollary}
+  The map $\pi^{\mathbb{R}}_{m + n\alpha}(\mathbb{S}_{\mathbb{R}}) \rightarrow \pi_{m+n\sigma}(\mathbb{S}_{C_2})$ is 
 
+1. an injection if $m = 2n - 6$ and $n \geq 0$, and
+
+2. an isomorphism if $m \geq 2n - 5$ and $n \geq 0$.
+
+\end{corollary}
 
 ## Related concepts
 
@@ -74,3 +83,5 @@ The following theorem is Theorem 1.1 of [Heller-Ormsby 17](#Heller17) (with imag
 * {#Heller16} [[Jeremiah Heller]], [[Kyle Ormsby]], _Galois equivariance and stable motivic homotopy theory_, ([arXiv:1701.09099](https://arxiv.org/abs/1701.09099))
 
 * {#Guillou24} [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-Equivariant Stable Stems_, ([arXiv:2404.14627](https://arxiv.org/abs/2404.14627))
+
+[[!redirects C_2-equivariant homotopy groups of spheres]]
