@@ -28,10 +28,10 @@
 A **group** is an [[algebraic structure]] consisting of a [[set]] $G$ and a [[binary operation]] $\star$ that satisfies the **group axioms**, being:
 
 * [[associativity]]: $\forall a,b,c \in G: (a \star b) \star c = a \star (b \star c)$
-* [[identity]]: $\exists e \in G, \forall a \in G: e \star a = a$
-* [[inverse]]: $\forall a \in G, \exists a^{-1} \in G: a  \star  a^{-1} = e$
+* [[identity]]: $\exists e \in G, \forall a \in G: e \star a = a \star e = a$
+* [[inverse]]: $\forall a \in G, \exists a^{-1} \in G: a  \star  a^{-1} = a^{-1} \star a = e$
 
-It follows that $a \star a^{-1} = a^{-1} \star a$, $e \star a = a \star e$, the [[inverse]] $a^{-1}$ is unique $\forall a$, and $G$ is non-empty.
+It follows that the [[inverse]] $a^{-1}$ is unique for all $a$ and $G$ is non-empty.
 
 In a broader sense, a group is a [[monoid]] in which every element has a (necessarily unique) [[inverse element|inverse]]. When written with a view toward [[group objects]] (see *[Internalization](#Internalization)* below), one should rather say that a group is a monoid together with an inversion operation.
 
