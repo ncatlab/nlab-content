@@ -11,6 +11,10 @@ On [[equivariant ordinary differential cohomology]] and [[action functionals]] f
 
 * Joe Davighi, [[Ben Gripaios]], [[Oscar Randal-Williams]], _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
 
+On [[smooth infinity-groups|smooth $\infty$-groups]] of [[generalized global symmetries]] of [[quantum field theories]] understood via the [[geometric cobordism hypothesis]]:
+
+* {#GRT23} [[Ben Gripaios]], [[Oscar Randal-Williams]], [[Joseph Tooby-Smith]], *Smooth generalized symmetries of quantum field theories*, J. Geom. Phys.  (2024) &lbrack;[arXiv:2310.16090](https://arxiv.org/abs/2310.16090), <a href="https://doi.org/10.1016/j.geomphys.2024.105212">doi:10.1016/j.geomphys.2024.105212</a>&rbrack;
+
 
 
 category: people
