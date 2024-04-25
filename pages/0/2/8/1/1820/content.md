@@ -606,6 +606,9 @@ See [[combinatorial simplicial model category]].
 
 * [[Cisinski model structure]]
 
+
+* *not* related is the notion of *[[combinatorial category]]*
+
 [[!include locally presentable categories - table]]
 
 [[!include algebraic model structures - table]]
