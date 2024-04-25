@@ -153,7 +153,7 @@ commutes.
 
 It's called a *cone* because one pictures $c$ as sitting at the vertex, and the diagram itself as forming the base of the cone. 
 
-A *[[morphism]]* if such cones is a [[natural transformation]] $\alpha\colon \Delta(c)\to\Delta(c')$ such that the diagram
+A *[[morphism]]* of such cones is a [[natural transformation]] $\alpha\colon \Delta(c)\to\Delta(c')$ such that the diagram
 $$
   \array{
     \Delta(c) 
