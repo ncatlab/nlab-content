@@ -214,7 +214,12 @@ Formulation in terms of [[supergeometry]] (on [[super spacetime]] [[supermanifol
 
 * [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys. Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
 
-The history as of 1990s with an eye towards the development to [[M-theory]] is survey in 
+With focus on the [[Kaluza-Klein compactification]] to 4d [[anti de Sitter spacetime]]:
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
+
+
+The history as of the 1990s, with an eye towards the development to [[M-theory]]:
 
 * {#Duff99} [[Mike Duff]], chapter I of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
