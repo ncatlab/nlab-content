@@ -13,7 +13,7 @@ and $f(c)(1_{A'}) = \epsilon(c)1_{A}$.
 We can instead of $f:C\to Mod_k(A',A)$ consider its adjoint map $\tilde{f}:C\otimes A'\to A$ and the convolution algebra $Mod_k(C,A)$.
 Then, $f$ is a measuring (or some say taht $\tilde{f}$ is a measuring iff the other adjoint $\tilde{f}^*: A'\to Mod_k(C,A)$ is a map of algebras. 
 
-As a special case, we can consider the case of the identity map $A\overset{A}\to A$ and talk about a $C$-measuring of a monoid $A$, including in the general case of a symmetric monoidal category $D$ with unit $\mathbf{1}$, symmetry $\tau$, left and right unit coherences $l$ and $r$,
+As a special case, we can consider the case $A' = A$ and talk about a $C$-measuring of a monoid $A$, including in the general case of a symmetric monoidal category $D$ with unit $\mathbf{1}$, symmetry $\tau$, left and right unit coherences $l$ and $r$,
 a map $\triangleright : C\otimes A\to A$ of a (counital) is a __measuring__ of the comonoid $C$ on a (unital) monoid $(A,\mu_A,\eta_A)$, or we say that $C$ *measures* $A$ if 
 $$
 C\triangleright \mu_A = \mu_A\circ(\triangleright \otimes \triangleright)\circ (C\otimes \tau\otimes A)\circ (\Delta_C\otimes A\otimes A) : C\otimes A\otimes A\to A,
