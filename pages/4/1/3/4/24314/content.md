@@ -16,9 +16,13 @@ This page collects programs, slides, and other resources of [[homotopy type theo
 
 ## Other events ##
 
-* [Cortona](https://unimath.github.io/cortona2022/) UniMath school, July 17-23, 2022, Cortona, Italy
+* [Minneapolis](https://unimath.github.io/minneapolis2024/) School on Univalent Mathematics, July 28 - August 02, 2024, Minneapolis, USA
+
 
 ### Passed ###
+
+* [Cortona](https://unimath.github.io/cortona2022/) UniMath school, July 17-23, 2022, Cortona, Italy
+
 
 * [ECM Minisymposium](https://www.8ecm.si/minisymposia) two days, sometime between 20-26 June 2021
 
