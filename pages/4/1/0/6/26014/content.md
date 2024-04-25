@@ -115,7 +115,7 @@ In the context of [[fusion 2-categories]]:
 
 Work in the direction of *smooth* generalized symmetries:
 
-* {#GRT23} Ben Gripaios, Oscar Randal-Williams, Joseph Tooby-Smith. *Smooth generalized symmetries of quantum field theories*. (2023). [arXiv:2310.16090](https://arxiv.org/abs/2310.16090#).
+* {#GRT23} [[Ben Gripaios]], [[Oscar Randal-Williams]], [[Joseph Tooby-Smith]], *Smooth generalized symmetries of quantum field theories*, J. Geom. Phys.  (2024) &lbrack;[arXiv:2310.16090](https://arxiv.org/abs/2310.16090), <a href="https://doi.org/10.1016/j.geomphys.2024.105212">doi:10.1016/j.geomphys.2024.105212</a>&rbrack;
 
 Notes on a more proper treatment of *smooth* 2-groups in the present context is in:
 
