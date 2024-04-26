@@ -39,7 +39,7 @@ Einstein manifolds are precisely the solutions of [[Einstein's equations]] for p
 
 * [[de Sitter spacetime]], [[anti de Sitter spacetime]]
 
-* all [[quaternion-Kähler manifolds]] are Einstein manifolds see [there](quaternion-Kähler+manifold#AsEinsteinManifolds)
+* all [[quaternion-Kähler manifolds]], see [there](quaternion-Kähler+manifold#AsEinsteinManifolds)
 
 ## Related concepts
 
@@ -47,12 +47,19 @@ Einstein manifolds are precisely the solutions of [[Einstein's equations]] for p
 
 ## References
 
-* [[Nigel Hitchin]], _Compact four-dimensional Einstein manifolds_, J. Diff geom. 9 (1974) 435-441 ([pdf](http://intlpress.com/JDG/archive/1974/9-3-435.pdf))
+* [[Nigel Hitchin]], _Compact four-dimensional Einstein manifolds_, J. Diff Geom. **9** (1974) 435-441 &lbrack;[pdf](http://intlpress.com/JDG/archive/1974/9-3-435.pdf)&rbrack;
 
-* Jongmin Park, Jaewon Shin, Hyun Seok Yang, *Unification of Einstein Manifolds* ([arXiv:2109.00001](https://arxiv.org/abs/2109.00001))
+* Jongmin Park, Jaewon Shin, Hyun Seok Yang, *Unification of Einstein Manifolds* &lbrack;[arXiv:2109.00001](https://arxiv.org/abs/2109.00001)&rbrack;
 
 
 [[!redirects Einstein manifolds]]
 
 [[!redirects Einstein metric]]
 [[!redirects Einstein metrics]]
+
+[[!redirects Einstein space]]
+[[!redirects Einstein spaces]]
+
+[[!redirects Einstein spacetime]]
+[[!redirects Einstein spacetimes]]
+
