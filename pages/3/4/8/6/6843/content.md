@@ -4,6 +4,7 @@
 ## Selected writings
 
 
+
 On the [[BRST complex]] (with focus on its [[cochain cohomology]]):
 
 * [[José Figueroa-O'Farrill]], [[Takashi Kimura]], *The cohomology of BRST complexes* (1988) &lbrack;[pdf](https://www.maths.ed.ac.uk/~jmf/Research/PVBLICATIONS/homol.pdf), [[FigueroaKimuar-BRSTCohomology.pdf:file]]&rbrack;
@@ -12,10 +13,18 @@ and application to the [[NSR string|NSR]] [[superstring]]:
 
 * [[José Figueroa-O'Farrill]], [[Takashi Kimura]], _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys. **124** 1 (1989) 105-132. &lbrack;[euclid:cmp/1104179078](http://projecteuclid.org/euclid.cmp/1104179078)&rbrack;
 
+On the [[gauged WZW model]] and [[equivariant de Rham cohomology]]:
+
+* {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], [[Sonia Stanciu]], _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys. Lett. B **341** (1994) 153-159 &lbrack;[arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196), <a href="https://doi.org/10.1016/0370-2693(94)90304-2">doi:10.1016/0370-2693(94)90304-2</a>&rbrack;
+
 
 On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
+
+On [[charge quantization]] of [[D-branes]] in ([[relative cohomology|relative]]) [[ordinary cohomology]]:
+
+* [[José Figueroa-O’Farrill]], [[Sonia Stanciu]], *D-brane charge, flux quantisation and relative (co)homology*, JHEP 0101 (2001) 006 &lbrack;[arXiv:hep-th/0008038](https://arxiv.org/abs/hep-th/0008038), [doi:10.1088/1126-6708/2001/01/006](https://doi.org/10.1088/1126-6708/2001/01/006)&rbrack;
 
 
 On [[M2-brane 3-algebras]] in the [[BLG model]] for coincident [[M2-branes]]:
@@ -34,6 +43,10 @@ On the [[ADE classification]] of [[black brane|black]] [[BPS state|BPS]]-[[M2-br
 
 * {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
+On symmetric solutions to [[D=11 supergravity]]:
+
+* [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_, Open Physics **11** 1 (2013) 1-36 &lbrack;[arXiv:1112.4967](http://arxiv.org/abs/1112.4967), [doi:10.2478/s11534-012-0160-6](https://doi.org/10.2478/s11534-012-0160-6)&rbrack;
+
 On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solutions]] of [[D=11 supergravity]]:
 
 * {#FFS17} [[José Figueroa-O’Farrill]], Andrea Santi, _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. 349 (2017), 627-660 ([arXiv:1511.08737](https://arxiv.org/abs/1511.08737))
@@ -48,12 +61,13 @@ On [[spin geometry]]:
 * {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 7: _Riemannian holonomy_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture7.pdf))
 
 
+
 On [[supersymmetry]] and [[Spencer cohomology]] in [[D=5 supergravity|D=5]]:
 
 * Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* ([arxiv:2105.05775](https://arxiv.org/abs/2105.05775))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[exceptional Lie algebra]], [[exceptional Lie group]], [[F4]]
 
