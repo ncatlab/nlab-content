@@ -19,11 +19,11 @@
 
 ## Idea
 
-In general a _Freund-Rubin compactification_ ([Freund-Rubin 80](#FreundRubin80)) is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to [[gauge fields]] or more generally [[higher gauge fields]] with [[flux]] ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (an example of [[moduli stabilization]] via [[flux compactification]]).
+In general, a _Freund-Rubin compactification_ &lbrack;[Freund & Rubin 1980](#FreundRubin80)&rbrack; is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to ([[higher gauge field|higher]]) [[gauge fields]] with [[flux]] ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (a basic example of [[moduli stabilization]] via [[flux compactification]]).
 
 One example are [[Kaluza-Klein compactifications]] of 6d [[Einstein-Maxwell theory]] with [[magnetic flux]] on a 2-dimensional [[fiber]] space ([[sphere]] or [[torus]]) ([RDSS 83](#RDSS83)). This serves these days as a toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
  
-In the [[string theory]] literature often _the Freund-Rubin compactification_ refers by default to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round [[7-sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
+In the [[string theory]] literature often _the Freund-Rubin compactification_ refers by default to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round [[7-sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$ (see also at *[[super AdS spacetime]]*).
 
 If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constant]] $\lambda$ the scale of the flux, then this yields $N = 1$ [[supersymmetry]] in the [[effective QFT]] in four dimensions, discussed at _[[M-theory on G2-manifolds]]_. The [[KK-reduction]] on the circle fiber of these solutions to [[type IIA supergravity]] yields type IIA sugra on [[complex projective space]] $\mathbb{C}P^3$ ([Nilsson-Pope 84](#NilssonPope84), [ABJM 08](#ABJM08))
 
@@ -37,17 +37,24 @@ If $X_7 = S^7/G_{ADE}$ is an [[orbifold]] of the round [[7-sphere]] by an finite
 
 * [[AdS-CFT]]
 
+
 ## References
 
 The original article is 
 
-* {#FreundRubin80} [[Peter Freund]], M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980). (<a href="https://doi.org/10.1016/0370-2693(80)90590-0">doi:10.1016/0370-2693(80)90590-0</a>)
+* {#FreundRubin80} [[Peter Freund]], M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B **97** 2 (1980) 233-235 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90590-0">doi:10.1016/0370-2693(80)90590-0</a>&rbrack;
+
 
 Early developments:
 
-* [[Francois Englert]], _Spontaneous Compactification of Eleven-Dimensional Supergravity_, Phys. Lett. B119 (1982) 339 ([spire:180130](http://inspirehep.net/record/180130))
+* [[Francois Englert]], _Spontaneous Compactification of Eleven-Dimensional Supergravity_, Phys. Lett. B **119** 4-6 (1982) 339-342 &lbrack;[spire:180130](http://inspirehep.net/record/180130), <a href="https://doi.org/10.1016/0370-2693(82)90684-0">doi:10.1016/0370-2693(82)90684-0</a>&rbrack;
+
+* {#DAuriaFré83} [[Riccardo D'Auria]], [[Pietro Fré]]: *Spontaneous generation of symmetry in the spontaneous compactification of $D=11$ supergravity*, Physics Letters B **121** 2–3 (1983) 141-146 &lbrack;<a href="https://doi.org/10.1016/0370-2693(83)90903-6">doi:10.1016/0370-2693(83)90903-6</a>&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
+
 
 Identification as [[near horizon geometries]] of [[black brane|black]] [[M2-branes]]:
 
