@@ -75,9 +75,7 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-L
 
 * G.I. Lehrer, R.B. Zhang, _The second fundamental theorem of invariant theory for the orthosymplectic supergroup_ ([arXiv:1407.1058](http://arxiv.org/abs/1407.1058))
 
-Appearance of $\mathfrak{osp}(1|2) \times $[[sl(2)]]-[[modular functor]] is found in the seemingly plain [[sl(2)]]-[[WZW model]] for *fractional* [[level (Chern-Simons theory)|level]] (see [there](Wess-Zumino-Witten+model#FractionalLevelWZWModelReferences)) in:
-
-* [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202**, AMS (1997) &lbrack;[arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202)&rbrack;
+* [[Kevin Coulembier]], *The orthosymplectic supergroup in harmonic analysis*, J. Lie Theory **23** (2013) 55-83 &lbrack;[arXiv:1202.0668](https://arxiv.org/abs/1202.0668)&rbrack;
 
 
 
@@ -111,6 +109,12 @@ Further discussion:
 * {#Bars00} [[Itzhak Bars]], _2T Physics Formulation of Superconformal Dynamics Relating to Twistors and Supertwistors_, Phys.Lett. B483 (2000) 248-256 ([arXiv:hep-th/0004090](https://arxiv.org/abs/hep-th/0004090))
 
 * {#West00} [[Peter West]], _Hidden Superconformal Symmetry in M Theory_, JHEP 0008:007, 2000 ([arXiv:hep-th/0005270](https://arxiv.org/abs/hep-th/0005270))
+
+
+Appearance of $\mathfrak{osp}(1|2) \times $[[sl(2)]]-[[modular functor]] is found in the seemingly plain [[sl(2)]]-[[WZW model]] for *fractional* [[level (Chern-Simons theory)|level]] (see [there](Wess-Zumino-Witten+model#FractionalLevelWZWModelReferences)) in:
+
+* [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202**, AMS (1997) &lbrack;[arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202)&rbrack;
+
 
 ### Representation theory
 
