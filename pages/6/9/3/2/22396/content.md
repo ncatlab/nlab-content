@@ -39,6 +39,8 @@ The following five categories are [[equivalence of categories|equivalent]]:
 
 This result can be seen as a [[measure theory|measure-theoretic]] counterpart of the [[Gelfand duality]] between commutative unital [[C*-algebras]] and [[compact Hausdorff topological spaces]].
 
+See [[Gelfand-type duality for commutative von Neumann algebras]] for more information.
+
 ## Properties
 
 From <https://mathoverflow.net/questions/384346/is-the-opposite-category-of-commutative-von-neumann-algebras-a-topos/384357#384357>:
