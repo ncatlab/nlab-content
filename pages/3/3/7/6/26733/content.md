@@ -88,10 +88,9 @@ By relating the $\mathbb{R}$-motivic and $C_2$-equivariant Adams $E_\infty$-page
 
 \end{theorem}
 
-### The region $c \leq -2$
+### The region $s \geq 0, c \leq -2$
 
-Due to [Bredon 67](#Bredon67)
-
+Due to [Bredon 67](#Bredon67), as recalled e.g. in section 3.3 of [Guillou-Isaksen 24](#Guillou24), when $c \leq -2$ and $s \geq 0$, there are periodicity isomorphisms which recognize negative coweight $C_2$-equivariant homotopy groups as $\rho$-power torsion subgroups of positive-coweight groups.
 (...)
 
 ### The region $s \leq -1$
