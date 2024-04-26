@@ -53,3 +53,7 @@ General:
 * David E. Blair, J. Davidov and O. Muskarov: *Hyperbolic twistor spaces*, Rocky Mountain J. Math. 35 (2005), 1437–1465.
 
 * David E. Blair. *A product twistor space*, Serdica Math. J. 28 (2002), 163–174.
+
+On para-quaternionic contact structures:
+
+* Marina Tchomakova, Stefan Ivanov, Simeon Zamkovoy. *Geometry of paraquaternionic contact structures* (2024). ([arXiv:2404.16713](https://arxiv.org/abs/2404.16713)).
