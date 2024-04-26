@@ -1147,7 +1147,7 @@ Results on the classification of supersymmetry [[super Lie algebras]] (including
 
   also in: [[Mike Duff]] (ed.), _[[The World in Eleven Dimensions]]_
 
-* {#Shnider88} [[Steven Shnider]], _The superconformal algebra in higher dimensions_, Letters in Mathematical Physics November 1988, Volume 16, Issue 4, pp 377-383 ([doi:10.1007/BF00402046](https://doi.org/10.1007/BF00402046))
+* {#Shnider88} [[Steven Shnider]], *The superconformal algebra in higher dimensions*, Letters in Mathematical Physics **16** 4 (1988) 377-383 &lbrack;[doi:10.1007/BF00402046](https://doi.org/10.1007/BF00402046)&rbrack;
 
 * [[Vladimir Dobrev]],  V.B. Petkova,  _All Positive Energy Unitary Irreducible Representations of Extended Conformal Supersymmetry_, Phys.Lett. B162 (1985) 127-132
 
