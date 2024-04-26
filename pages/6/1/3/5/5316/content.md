@@ -296,7 +296,7 @@ $$
 
 such that $e \colon S \to X$ is the line at infinity.
 
-Euivalently this says that $p$ is a [[proper morphism|proper]] [[flat morphism]] with a section contained in the [[smooth locus]] whose [[fibers]] are geometrically integral curves of [[arithmetic genus]] one.
+Equivalently this says that $p$ is a [[proper morphism|proper]] [[flat morphism]] with a section contained in the [[smooth locus]] whose [[fibers]] are geometrically integral curves of [[arithmetic genus]] one.
 
 Write $\mathcal{M}_{cub}$ for the [[moduli stack]] of such [[cubic curves]]. Then the moduli stack of elliptic curves is the non-vanishing locus of the discriminant  $\Delta \in H^0(\mathcal{M}_{cub}, \omega^{12})$
 
