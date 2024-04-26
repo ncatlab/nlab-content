@@ -310,9 +310,9 @@ See also
 * [[Ergin Sezgin]], _11D Supergravity on $AdS_4 \times S^7$ versus $AdS_7 \times S^4$_ ([arXiv:2003.01135](https://arxiv.org/abs/2003.01135))
 
 
-A classification of symmetric solutions is discussed in
+Classification of symmetric solutions:
 
-* [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
+* [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_, Open Physics **11** 1 (2013) 1-36 &lbrack;[arXiv:1112.4967](http://arxiv.org/abs/1112.4967), [doi:10.2478/s11534-012-0160-6](https://doi.org/10.2478/s11534-012-0160-6)&rbrack;
 
 * Linus Wulff, _All symmetric space solutions of eleven-dimensional supergravity_ ([arXiv:1611.06139](https://arxiv.org/abs/1611.06139))
 
