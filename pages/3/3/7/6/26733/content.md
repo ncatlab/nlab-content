@@ -112,7 +112,7 @@ Due to [Bredon 67](#Bredon67), as recalled e.g. in section 3.3 of [Guillou-Isaks
 
 * {#Heller14} [[Jeremiah Heller]], [[Kyle Ormsby]], _Galois equivariance and stable motivic homotopy theory_, (2014) ([arXiv:1401.4728](https://arxiv.org/abs/1401.4728))
 
-* {#Heller16} [[Jeremiah Heller]], [[Kyle Ormsby]], _Galois equivariance and stable motivic homotopy theory_, (2016) ([arXiv:1701.09099](https://arxiv.org/abs/1701.09099))
+* {#Heller16} [[Jeremiah Heller]], [[Kyle Ormsby]], _The stable Galois correspondence for real closed fields_, (2016) ([arXiv:1701.09099](https://arxiv.org/abs/1701.09099))
 
 * {#Belmont20} [[Eva Belmont]], [[Bertrand Guillou]], [[Daniel Isaksen]], _$C_2$-equivariant and $\mathbb{R}$-motivic stable stems, II_, (2020) ([arXiv:2001.02251v1](https://arxiv.org/abs/2001.02251v1))
 
