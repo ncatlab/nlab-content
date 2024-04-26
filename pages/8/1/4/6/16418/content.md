@@ -49,15 +49,18 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-L
 
 * [[orthogonal Lie algebra]]
 
+
 ## References
 
 ### General
 
 
-* {#Kac77b} [[Victor Kac]], pages 9-10 of _A sketch of Lie superalgebra theory_, Comm. Math. Phys. Volume 53, Number 1 (1977), 31-64. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103900590))
+* {#Kac77b} [[Victor Kac]], pages 39-40 of: *A sketch of Lie superalgebra theory*, Comm. Math. Phys. **53** 1 (1977) 31-64 &lbrack;[euclid:1103900590](https://projecteuclid.org/euclid.cmp/1103900590), [doi:10.1007/BF01609166](https://doi.org/10.1007/BF01609166)&rbrack;
 
-* [[Manfred Scheunert]], chapter II, 4.3.A of _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
+* [[Vladimir Rittenberg]], (21)-(22) in: *A guide to Lie superalgebras*, in P. Kramers, A. Rieckers (eds.): *Group Theoretical Methods in Physics*, Lecture Notes in Physics **79** Springer (1978) 3-21 &lbrack;[doi:10.1007/3-540-08848-2_1](https://doi.org/10.1007/3-540-08848-2_1), [[Rittenberg-GuideToLieSuperalgebras.pdf:file]]&rbrack; 
 
+
+* [[Manfred Scheunert]], chapter II, 4.3.A of: *The theory of Lie superalgebras. An introduction*, Lect. Notes Math. **716**, Springer (1979) &lbrack;[doi:10.1007/BFb0070929](https://doi.org/10.1007/BFb0070929)&rbrack;
 
 * {#Farmer84} Richard Joseph Farmer, *Orthosymplectic superalgebras in mathematics and science*, PhD Thesis (1984)
 &lbrack;[[Farmer-OSpSuperalgebra.pdf:file]]&rbrack;
