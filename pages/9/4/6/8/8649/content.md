@@ -156,6 +156,15 @@ Discussion of the [[moduli space of monopoles]] for [[SU(2)]]-[[Yang-Mills theor
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
+### D-brane charge quantization in ordinary cohomology
+ {#ReferencesDBraneChargeQuantizationInOrdinaryCohomology}
+
+Discussion of charge quantization of [[D-branes]] in ([[relative cohomology|relative]]) [[ordinary cohomology]]:
+
+* [[José Figueroa-O’Farrill]], [[Sonia Stanciu]], *D-brane charge, flux quantisation and relative (co)homology*, JHEP 0101 (2001) 006 &lbrack;[arXiv:hep-th/0008038](https://arxiv.org/abs/hep-th/0008038), [doi:10.1088/1126-6708/2001/01/006](https://doi.org/10.1088/1126-6708/2001/01/006)&rbrack;
+
+* Kazuya Yonekura, *Constraints on the topology of Type IIB string theory* &lbrack;[arXiv:2403.04127](https://arxiv.org/abs/2403.04127), [InSpire:2767009](https://inspirehep.net/literature/2767009)&rbrack;
+
 
 [[!include D-brane charge quantization in topological K-theory -- references]]
 
