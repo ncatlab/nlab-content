@@ -69,7 +69,7 @@ Moreover, if $\otimes$ is [[symmetric monoidal category|symmetric]], $\otimes_T$
 
 [[commutative monad|Commutative monads]] admit a notion of [[multimorphism]] of algebras analogous to the notion of [[bilinear]] and [[multilinear map]]. 
 
-**Caveat.** Some authors call the analogue of a bilinear map a _bimorphism_. This is a distinct notion from the one given [[bimorphism|in this page]] (a morphism which is both epi and mono). 
+**Caveat.** Some authors call the analogue of a bilinear map a _bimorphism_. This is a distinct notion from "a morphism which is both epi and mono", which some authors call by the same name.
 A less ambiguous term is [[binary morphism]].
 
 Let $(A,a)$, $(B,b)$ and $(R,r)$ be $T$-algebras. A **binary morphism** of algebras, or **$T$-balanced map**, or **$T$-bilinear** (or **bimorphism**, see the caveat above) from $A$ and $B$ to $R$ is a morphism $f:A\otimes B\to R$ of $C$ such that the following diagram commutes.
