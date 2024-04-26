@@ -32,7 +32,7 @@ Cyclotomic structure is the origin of the [[cyclotomic trace]] map $THH \longrig
 
 Throughout, for $p$ a [[prime number]] write $C_p \subset S^1$ for the [[cyclic group]] $\mathbb{Z}/p\mathbb{Z}$ of order $p$, regarded as a subgroup of the [[circle group]].
 
-A definition says that a cyclotomic spectrum  is an [[circle group]]-[[genuine equivariant spectrum]] $X$ (modeled on [[orthogonal spectra]]) equipped with equivalences to its naive point-set fixed point spectra $\Phi^{C_p} X$ for all the [[cyclic group|cyclic]] [[subgroups]] $C_p \subset S^1$.
+A definition says that a cyclotomic spectrum  is an [[circle group]]-[[genuine equivariant spectrum]] $X$ (modeled on [[orthogonal spectra]]) equipped with equivalences to its geometric fixed point spectra $\Phi^{C_p} X$ for all the [[cyclic group|cyclic]] [[subgroups]] $C_p \subset S^1$.
  
 A more abstract definition was given in [Nikolaus-Scholze 17](#NikolausScholze17):[^HarmonizeLiterature]
 
