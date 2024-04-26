@@ -855,40 +855,42 @@ According to [Palmkvist 13, 3.1](tensor+hierarchy#Palmkvist13), [Lavau-Palmkvist
 
 According to [Kac77b](#Kac77b) the definition of super Lie algebra is originally due to
 
-* [[Felix Berezin]], G. I. Kac, Math. Sbornik 82, 343&#8212;351 (1970) (Russian)
+* [[Felix Berezin]], G. I. Kac, Math. Sbornik 82, 343&#8212;351 (1970) (in Russian)
 
 See also
 
 * {#Kantor70} [[Isaiah Kantor]], _Graded Lie algebras_, Trudy Sem. Vektor. Tenzor. Anal 15 (1970): 227-266.
 
 
-The original references on the classification of super Lie algebras are
+The original references on the classification of super Lie algebras:
 
-* {#Kac77a} [[Victor Kac]], _Lie superalgebras_, Advances in Math. 26 (1977), no. 1, 8--96 (<a href="https://doi.org/10.1016/0001-8708(77)90017-2">doi:10.1016/0001-8708(77)90017-2</a>)
+* {#Kac77a} [[Victor Kac]], _Lie superalgebras_, Advances in Math. **26** 1 (1977) 8-96 &lbrack;<a href="https://doi.org/10.1016/0001-8708(77)90017-2">doi:10.1016/0001-8708(77)90017-2</a>&rbrack;
 
-* {#Kac77b} [[Victor Kac]], _A sketch of Lie superalgebra theory_, Comm. Math. Phys. Volume 53, Number 1 (1977), 31-64. ([euclid:cmp/1103900590](https://projecteuclid.org/euclid.cmp/1103900590))
+* {#Kac77b} [[Victor Kac]]: *A sketch of Lie superalgebra theory*, Comm. Math. Phys. **53** 1 (1977) 31-64 &lbrack;[euclid:1103900590](https://projecteuclid.org/euclid.cmp/1103900590), [doi:10.1007/BF01609166](https://doi.org/10.1007/BF01609166)&rbrack;
 
-See also
+See also:
 
-* [[Werner Nahm]], V. Rittenberg, [[Manfred Scheunert]], _The classification of graded Lie algebras_ , Physics Letters B Volume 61, Issue 4, 12 April 1976, Pages 383&#8211;384 ([publisher](http://www.sciencedirect.com/science/article/pii/0370269376905943))
+* [[Werner Nahm]], [[Vladimir Rittenberg]], [[Manfred Scheunert]], *The classification of graded Lie algebras*, Physics Letters B **61** 4 (1976) 383-384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90594-3">doi:10.1016/0370-2693(76)90594-3</a>&rbrack;
 
 * M. Parker, _Classification Of Real Simple Lie Superalgebras Of Classical Type_, J.Math.Phys. 21 (1980) 689-697 ([spire](http://inspirehep.net/record/157627?ln=en))
 
-Further discussion of classification related specifically to [classification of supersymmetry](#supersymmetry#Classification) is due to
+Further discussion specifically of [classification of supersymmetry](#supersymmetry#Classification):
 
 * {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
 
-* {#Shnider88} [[Steven Shnider]], _The superconformal algebra in higher dimensions_, Letters in Mathematical Physics November 1988, Volume 16, Issue 4, pp 377-383
+* {#Shnider88} [[Steven Shnider]], *The superconformal algebra in higher dimensions*, Letters in Mathematical Physics **16** 4 (1988) 377-383 &lbrack;[doi:10.1007/BF00402046](https://doi.org/10.1007/BF00402046)&rbrack;
 
 * [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
 
 Introductions and surveys:
 
+* [[Vladimir Rittenberg]]: *A guide to Lie superalgebras*, in P. Kramers, A. Rieckers (eds.): *Group Theoretical Methods in Physics*, Lecture Notes in Physics **79** Springer (1978) 3-21 &lbrack;[doi:10.1007/3-540-08848-2_1](https://doi.org/10.1007/3-540-08848-2_1), [[Rittenberg-GuideToLieSuperalgebras.pdf:file]]&rbrack; 
+
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
 
   > (with an eye towards [[supergravity]])
 
-* {#Farmer84} Richard Joseph Farmer, _Orthosymplectic superalgebras in mathematics and science_, PhD Thesis (1984) ([web](http://eprints.utas.edu.au/19542/), [pdf](http://eprints.utas.edu.au/19542/1/whole_FarmerRichardJoseph1985_thesis.pdf))
+* {#Farmer84} Richard J. Farmer, *Orthosymplectic superalgebras in mathematics and science*, PhD Thesis (1984) ([eprints:19542](http://eprints.utas.edu.au/19542), [[Farmer-OSpSuperalgebra.pdf:file]]&rbrack;
 
 * L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161))
 
@@ -898,7 +900,7 @@ Introductions and surveys:
 
 * D. Leites, _Lie superalgebras_, J. Soviet Math. 30 (1985), 2481--2512 ([web](http://dx.doi.org/10.1007/BF02249121))
 
-* [[Manfred Scheunert]], _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
+* [[Manfred Scheunert]], *The theory of Lie superalgebras. An introduction*, Lect. Notes Math. **716** (1979) &lbrack;[doi:10.1007/BFb0070929](https://doi.org/10.1007/BFb0070929)&rbrack;
 
 * D. Westra, _Superrings and supergroups_ ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
