@@ -980,11 +980,11 @@ Discussion in the broader context of [[equivariant ordinary differential cohomol
 * Andreas Kübel, [[Andreas Thom]], _Equivariant Differential Cohomology_, Transactions of the American Mathematical Society (2018) ([doi:10.1090/tran/7315](https://doi.org/10.1090/tran/7315), [arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
  
 
-Discussion in the context of the [[gauged WZW model]] includes
+Discussion in the context of the [[gauged WZW model]]:
 
 * {#Witten92} [[Edward Witten]], appendix of _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
 
-* {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], S Stanciu, _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys.Lett. B341 (1994) 153-159 ([arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196))
+* {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], [[Sonia Stanciu]], _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys. Lett. B **341** (1994) 153-159 &lbrack;[arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196), <a href="https://doi.org/10.1016/0370-2693(94)90304-2">doi:10.1016/0370-2693(94)90304-2</a>&rbrack;
 
 * [[José de Azcárraga]],  J. C. Perez Bueno, _On the general structure of gauged Wess-Zumino-Witten terms_ ([arXiv:hep-th/9802192](http://arxiv.org/abs/hep-th/9802192))
 
