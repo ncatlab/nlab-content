@@ -147,7 +147,7 @@ The (curvature of the)gauged WZW term was recognized/described as a  [[cocycle]]
 
 This is expanded on in 
 
-* {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], S Stanciu, _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys.Lett. B341 (1994) 153-159 ([arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196))
+* {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], [[Sonia Stanciu]], _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys. Lett. B **341** (1994) 153-159 &lbrack;[arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196), <a href="https://doi.org/10.1016/0370-2693(94)90304-2">doi:10.1016/0370-2693(94)90304-2</a>&rbrack;
 
 * [[José de Azcárraga]],  J. C. Perez Bueno, _On the general structure of gauged Wess-Zumino-Witten terms_ ([arXiv:hep-th/9802192](http://arxiv.org/abs/hep-th/9802192))
   
