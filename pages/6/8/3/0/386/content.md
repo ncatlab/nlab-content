@@ -112,7 +112,7 @@ The [[skeleton|skeletal]] version of the **augmented simplex category** $\Delta_
 
 * morphisms  _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
 
-  1. **face maps**: $\;\delta_i^n :\: \mathbf{n-1} \hookrightarrow \mathbf{n}\;$ is the injection whose image leaves out $i \in [n]\quad $ ($n \gt 0$ and $0 \leq i \lt n$);
+  1. **face maps**: $\;\delta_i^n :\: \mathbf{n-1} \hookrightarrow \mathbf{n}\;$ is the injection whose image leaves out $i \in \mathbf{n}\quad $ ($n \gt 0$ and $0 \leq i \lt n$);
 
   1. **degeneracy maps**: $\;\sigma_i^n :\: \mathbf{n+1} \to  \mathbf{n}\;$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i\quad $ ($n \gt 0$ and $0 \leq i \lt n$);
 
