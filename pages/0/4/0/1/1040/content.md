@@ -448,6 +448,10 @@ If furthermore $\mathcal{C}$ is a [[monoidal category with diagonals]] $\Delta_A
 See [1Lab](#1Lab), *Strong idempotent monads*.
 \end{proof}
 
+## Examples
+
+* The free/forgetful adjunction between [[group | groups]] and [[abelian group | abelian groups]] generates an idempotent monad.  
+
 ## Related concepts
 
 * [[idempotent monoid in a monoidal category]]
