@@ -128,7 +128,7 @@ Therefore, in fields where both [[cyclic groups]] as well as [[p-adic integers]]
 
 * "$C_n$" for $\mathbb{Z}\!/\! n \mathbb{Z}$.
 
-Here "$C$" is, of course, for "cyclic".  Other authors may keep the subscript notation but resort to another font 
+Here "$C$" is, of course, for "cyclic".  Other authors may keep the letter "Z" with a subscript but resort to another font, such as 
 
 * "$Z_n$" for $\mathbb{Z}\!/\! n \mathbb{Z}$.
 
@@ -276,7 +276,6 @@ $$
 
 * [[cyclotomic spectrum]]
 
-* [[cyclically ordered group]]
 
 ## References
 
