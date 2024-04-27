@@ -25,7 +25,10 @@ The Lie algebra $\mathfrak{su}(2)$ is equivalently given as follows:
 1. the Lie algebra on 3 [[generators]] $\{\sigma_1, \sigma_2,\sigma_3\}$ subject to the following [[relations]] on their [[Lie bracket]]:
 
    $$
-     [e_i, e_j] = \underset{k}{\sum} \epsilon_{i j k} e_k
+     [e_i, e_j] 
+     \;=\; 
+     \textstyle{\underset{k}{\sum}} 
+     \epsilon_{i j k} e_k
    $$
 
 1. the Lie algebra spanned by ($i$ times) the three [[Pauli matrices]] with [[Lie bracket]] their [[commutator]] in their [[matrix algebra]].
