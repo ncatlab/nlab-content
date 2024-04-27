@@ -87,6 +87,9 @@ Brief review:
 
 Textbook accounts:
 
+* [[Steven Weinberg]]: *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*, Wiley  (1972, 2013) &lbrack;[ISBN:978-0-471-92567-5](https://www.wiley.com/en-us/Gravitation+and+Cosmology%3A+Principles+and+Applications+of+the+General+Theory+of+Relativity-p-9780471925675), [ark:/13960/t13n7rw1f](https://archive.org/details/WeinbergS.GravitationAndCosmology..PrinciplesAndApplicationsOfTheGeneralTheoryOf/page/n1/mode/2up), [spire:1410180](https://inspirehep.net/literature/1410180)&rbrack;
+
+
 * [[P. J. E. Peebles]], *Principles of Physical Cosmology*, Princeton University Press (1993, 2020) &lbrack;[ISBN:9780691209814](https://press.princeton.edu/books/paperback/9780691209814/principles-of-physical-cosmology), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Peebles_PPC.pdf)&rbrack;
 
 * [[John Peacock]], _Cosmological Physics_, Cambridge University Press (1998, 2012) &lbrack;[doi:10.1017/CBO9780511804533](https://doi.org/10.1017/CBO9780511804533), [book webpage](http://www.roe.ac.uk/~jap/book.html)&rbrack;
