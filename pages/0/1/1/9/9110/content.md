@@ -32,6 +32,149 @@ If $X_7 = S^7/G_{ADE}$ is an [[orbifold]] of the round [[7-sphere]] by an finite
 ## Details
  {#Details}
 
+### Preliminaries
+ {#Preliminaries}
+
+We work in the convention where a [[round sphere|round]] [[n-sphere|$n$-sphere]] has *[[negative number|negative]]* [[scalar curvature]] (following [Freund & Rubin 1980, below (4b)](#FreundRubin80), cf. [this Example](Cartan+geometry#RiemannCartanGeometryOfS3)).
+
+Notice that this means that a [[cosmological constant]] $\Lambda$ appears with a *positive* sign on the *right* hand side of [[Einstein's equations]]:
+
+For if we have an [[Einstein manifold|Einstein]]-[[spacetime]], hence with [[Riemann curvature]] of the form 
+
+$$
+  R^{a_1 a_2}
+  \;=\;
+  \tfrac
+    { 2\, \mathrm{R} }
+    { D(D-1) }
+  \,
+  e^{a_1}\, e^{a_2}
+  \,,
+  \;\;\;\;\;\;
+  \text{hence}
+  \;\;\;\;\;\;
+  R^{a_1 a_2}{}_{b_1 b_2}
+  \;=\;
+  \tfrac
+    { 2 \, \mathrm{R} }
+    { D (D-1) }
+  \delta^{a_1 a_2}_{b_1 b_2}
+  \,,
+$$
+
+with [[Ricci curvature]]
+
+$$
+  \mathrm{Ric}_{a b}
+  \;\equiv\;
+  \eta_{a a'}
+  R^{a' c}{}_{b c}
+  \;=\;
+    \tfrac
+      { 2 \, \mathrm{R} }
+      { D (D-1) }  
+  \,
+  \eta_{a a'}
+  \underset{
+    \tfrac{D-1}{2} \delta^{a'}_b
+  }{
+    \underbrace{
+      \delta^{a' \, c}_{b \, c}
+    }
+  }
+  \;=\;
+  \tfrac
+    { \mathrm{R} }
+    { D }
+  \,
+  \eta_{a b}
+$$
+
+and hence with [[scalar curvature]]
+
+$$
+  \mathrm{R}
+  \;=\;
+  \eta^{a b}
+  \mathrm{Ric}_{a b}
+  \,,
+$$
+
+then its [[Einstein tensor]] is
+
+$$
+  \mathrm{G}_{a b}
+  \;\equiv\;
+  \mathrm{Ric}_{a b}
+  -
+  \tfrac{1}{2}
+  \mathrm{R}
+  \, 
+  \eta_{a b}
+  \;=\;
+  \big(
+    \tfrac
+      {1}
+      {D}
+      -
+      \tfrac{1}{2}
+  \big)
+  \,
+  \mathrm{R}
+  \,
+  \eta_{a b}
+  \;=\;
+  -
+  \tfrac
+    { D - 2 }
+    { 2 D }
+  \,
+  \mathrm{R}
+  \;
+  \eta_{a b}
+$$
+
+so that [[Einstein's equations]] equivalently say
+
+$$
+  \mathrm{G}_{a b}
+  \;=\;
+  \Lambda \, \eta_{a b}
+  \;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;
+  \mathrm{R}
+  \;=\;
+  -
+  \tfrac{2 D}{D-2}
+  \,
+  \Lambda
+  \,,
+$$
+
+implying
+
+\begin{equation}
+  \label{CosmologicalConstantAndScalarCurvature}
+  \begin{array}{ccccr}
+    \Lambda \gt 0 
+      &\Leftrightarrow& 
+    \mathrm{R} \lt 0
+      &\Leftrightarrow& 
+    \text{de Sitter spacetime}
+    \\
+    \Lambda \lt 0 
+      &\Leftrightarrow& 
+    \mathrm{R} \gt 0
+      &\Leftrightarrow& 
+    \text{anti de Sitter spacetime}
+  \end{array}
+\end{equation}
+
+
+
+### The general Freund-Rubin solution
+
 Consider a $D \geq 3$-dimensional [[spacetime]] which is the [[product manifold|product]] 
 
 $$
@@ -124,7 +267,7 @@ $$
 
 for some $f \in \mathbb{R}$, and all other components vanishing.
 
-Then the [[stress-energy tensor]] 
+Then its [[energy-momentum tensor]] 
 
 $$
   T_{\mu \nu}
@@ -181,6 +324,7 @@ $$
   \end{array}
 $$
 
+
 Therefore the [[Einstein equation]] $G \;=\; T$ says in this case that
 
 $$
@@ -208,7 +352,7 @@ $$
   \end{array}
 $$
 
-The unique solution to this system of [[linear equations]] for $\mathrm{R}_s$, $\mathrm{R}_{D-s}$ is
+The unique solution to this system of [[linear equations]] for $\mathrm{R}_s$, $\mathrm{R}_{D-s}$ is (see `WolframAlpha` [here](https://www.wolframalpha.com/input?i=LinearSolve%5B+%7B+%7B++1%2Fs+-+1%2F2+%2C++-1%2F2+%7D++%2C+%7B+-1%2F2+++%2C++1%2F%28D-s%29++-+1%2F2++%7D++%7D%2C+%7B++%28s-1%29%21%2F2+%2C+-+%28s-1%29%21%2F2+%7D+%5D))
 
 $$
   \begin{array}{rcl}
@@ -239,7 +383,36 @@ $$
   \end{array}
 $$
 
-This is the result originally reported in [Freund & Rubin 1980 (7)](#FreundRubin80) (their case where $g_s$ is Lorentzian, so that $det(g_s)$ is negative --- except that they seem to drop the joint factor of $(s-1)!$; but for $s=2$ the factor disappears and we get their equation (4) on the nose.)
+This is the result originally reported in [Freund & Rubin 1980 (7)](#FreundRubin80) (the case where their $g_s$ is Lorentzian, so that $det(g_s)$ is negative --- except that they seem to drop the joint factor of $(s-1)!$; but for $s=2$ the factor disappears and we get their equation (4) on the nose.)
+
+{#Conclusion} By comparison with (eq:CosmologicalConstantAndScalarCurvature) this means that for the maximally extended solution
+
+1. $X^{(s)}$ is an [[anti de Sitter spacetime]] $AdS_s$
+
+1. $X^{(D-s)}$ is a [[n-sphere|sphere]] $S^{D-s}$.
+
+
+### Examples
+
+The case of [[D=11 supergravity]] is 
+
+* $D = 11$ 
+
+with the [[supergravity C-field]] [[flux density]] of degree
+
+* $s = 4$.
+
+In this case the above Freund-Rubin solution is
+
+$$
+  AdS_4 \times S^7
+  \,,
+$$
+
+which may be understood as the [[near horizon geometry]] of [[black brane|black]] [[M2-branes]], see [there](M2-brane#AsABlackBrane).
+
+For more see also at *[[AdS4/CFT3-duality]]*.
+
 
 
 ## Related concepts
