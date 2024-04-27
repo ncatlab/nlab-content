@@ -5,7 +5,7 @@
 
 ## Selected writings
 
-Discussion of [[quantum contextuality]] via [[singular cohomology]]:
+Discussion of the [[Giry monad]] extended to [[simplicial sets]] used to characterized [[quantum contextuality]] via [[singular cohomology]] and [[simplicial homotopy theory]]:
 
 * [[Cihan Okay]], [[Sam Roberts]], [[Stephen D. Bartlett]], [[Robert Raussendorf]], *Topological proofs of contextuality in quantum mechanics*, Quantum Information and Computation **17** (2017) 1135-1166 &lbrack;[arXiv:1701.01888](https://arxiv.org/abs/1701.01888), [doi:10.26421/QIC17.13-14-5](https://doi.org/10.26421/QIC17.13-14-5)&rbrack;
 
