@@ -1,10 +1,9 @@
 
 
-
 ## 11d-SuGra from Super C-Field Flux Quantization
  {#11DSugraFromSuperCFieldFluxQuantization}
 
-We discuss (Thm. \ref{11dSuGraEOMFromSuperFluxIdentity} below, following [[schreiber:Super-Flux Quantization of 11d Supergravity|GSS24]]) how the [[equations of motion]] of [[D=11 supergravity]] --- on an $11\vert\mathbf{32}$-dimensional [[super-torsion]]-free [[super spacetime]] $X$ with  [[super vielbein]] $(e,\psi)$ (the [[graviton]]/[[gravitino]]-[[field (physics)|fields]]) --- follow from just the requirement that the [[duality-symmetric higher gauge theory|duality-symmetric]] [[differential form on a supermanifold|super-]][[supergravity C-field|C-field]] [[flux densities]] $(G_4^s, G_7^s) \,\in\, \Omega^4_{dR}(X) \times \Omega^7_{dR}(X)$:
+We discuss (Thm. \ref{11dSuGraEOMFromSuperFluxIdentity} below, following [GSS24, §3](D=11+supergravity#GiotopoulosSatiSchreiber24)) how the [[equations of motion]] of [[D=11 supergravity]] --- on an $11\vert\mathbf{32}$-dimensional [[super-torsion]]-free [[super spacetime]] $X$ with  [[super vielbein]] $(e,\psi)$ (the [[graviton]]/[[gravitino]]-[[field (physics)|fields]]) --- follow from just the requirement that the [[duality-symmetric higher gauge theory|duality-symmetric]] [[differential form on a supermanifold|super-]][[supergravity C-field|C-field]] [[flux densities]] $(G_4^s, G_7^s) \,\in\, \Omega^4_{dR}(X) \times \Omega^7_{dR}(X)$:
 
 1. satisfy their [[Bianchi identities]]
 
@@ -45,7 +44,9 @@ We discuss (Thm. \ref{11dSuGraEOMFromSuperFluxIdentity} below, following [[schre
      \end{array}
    \]
 
-Up to some mild (but suggestive, see below) re-arrangement, the computation is essentially that indicated in [CDF91, §III.8.5](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre) (and apparently nowhere else), and the following may be understood as an exposition of this result, which seems to stand out as the only account that is (i) fully [[first-order formulation of gravity|first-order]] and (ii) [[duality-symmetric higher gauge theory|duality-symmetric]] (in that $G_7$ enters the [[equation of motion|EoMs]] as an independent field, whose [[Hodge duality]] to $G_4$ is imposed  *by the [[Bianchi identity]]* for $G_7^s$, remarkably). 
+Up to some mild (but suggestive, see below) re-arrangement, the computation is essentially that indicated in [CDF91, §III.8.5](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre) (where some of the easy checks are indicated)  which in turn is a mild reformulation of the original claim in [Cremmer & Ferrara 1980](#D=11+supergravity#CremmerFerrara80) and [Brink & Howe 1980](D=11+supergravity#BrinkHowe80) (where less details were given). A full proof is laid out in [GSS24, §3](D=11+supergravity#GiotopoulosSatiSchreiber24), whose notation we follow here.
+
+The following may be understood as an exposition of this result, which seems to stand out as the only account that is (i) fully [[first-order formulation of gravity|first-order]] and (ii) [[duality-symmetric higher gauge theory|duality-symmetric]] (in that $G_7$ enters the [[equation of motion|EoMs]] as an independent field, whose [[Hodge duality]] to $G_4$ is imposed  *by the [[Bianchi identity]]* for $G_7^s$, remarkably). 
 
 Notice that the discussion in [CDF91, §III.8](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre) amplifies the [[superspace]]-[rheonomy principle](D'Auria-Fre+formulation+of+supergravity#Rheonomy) as a constraint that makes the Bianchi identities on (in our paraphrase) a [[supergravity Lie 6-algebra]]-[[L-infinity algebra valued differential form|valued]] higher vielbein be equivalent to the [[equations of motion]] of [[D=11 SuGra]].
 But we may observe that the only rheonomic *constraint* necessary is that (eq:LocalFormOfSuperFluxDensities) on the [[supergravity C-field|C-field]] [[flux density]] --- and this is the one not strictly given by rules in [CDF91, p. 874](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre), cf. around [CDF91, (III.8.41)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre) ---; while the remaining rheonomy condition on the [[gravitino]] [[field strength]] $\rho$ is *implied* (Lem. \ref{SuperBianchiIdentityOnG4InComponents} below), and the [all-important](torsion+constraints+in+supergravity#Examples11dSuGra) [[torsion constraints in supergravity|torsion constraint]] (eq:TorsionConstraint) (which is also outside the rules of rheonomy constraints, cf. [CDF91, (III.8.33)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre)) is naturally regarded as part of the definition of a [[super-spacetime]] in the first place (Def. \ref{SuperSpacetime} below). 
@@ -1029,15 +1030,15 @@ $$
       \delta^a_b\, 
       R^{m n}_{m n}
       \;=\;
-      const\, 
-      (G_4)^a{c_1 \cdots c_3}
-      (G_4)_{b c_1 \cdots c_3}
-      +
-      const\,
+      \tfrac{3}{4! \cdot 4!}
+      \Big(
       \delta^a_b
       \,
       (G_4)^{c_1 \cdots c_4}
       (G_4)_{c_1 \cdots c_4}
+      -8
+      (G_4)^a{c_1 \cdots c_3}
+      (G_4)_{b c_1 \cdots c_3}
       \;\;\;\;
       ({\color{darkblue}\text{Einstein equation}})
       \\
@@ -1052,8 +1053,7 @@ $$
   \end{array}
 $$
 \end{lemma}
-This is indicated in [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
-It follows by solving the super-gravitational Bianchi identities \eqref{GravitationalBianchiIdentities}, using from the previous lemmas only the form of the gravitino field strength (eq:BianchiIdentityForG4sInComponents).
+Essentially this has been claimed in [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
 
 In conlcusion, the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
 
