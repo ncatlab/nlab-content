@@ -21,6 +21,10 @@ and personal recollection:
 
 * [[Steven Weinberg]], *The Red Camaro*, in *George* (1997), reprinted in: [[Steven Weinberg]]: *Facing Up: Science and its Cultural Adversaries*, Harvard University Press (2001) &lbrack;[pdf](https://www.ictp.it/media/1867057/100reasons-Weinberg.pdf), [[Weinberg-RedCamaro.pdf:file]], [ISBN:9780674011205](https://www.hup.harvard.edu/catalog.php?isbn=9780674011205)&rbrack;
 
+On [[gravity]] ([[general relativity]]) and [[cosmology]]:
+
+* [[Steven Weinberg]]: *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*, Wiley  (1972, 2013) &lbrack;[ISBN:978-0-471-92567-5](https://www.wiley.com/en-us/Gravitation+and+Cosmology%3A+Principles+and+Applications+of+the+General+Theory+of+Relativity-p-9780471925675), [ark:/13960/t13n7rw1f](https://archive.org/details/WeinbergS.GravitationAndCosmology..PrinciplesAndApplicationsOfTheGeneralTheoryOf/page/n1/mode/2up), [spire:1410180](https://inspirehep.net/literature/1410180)&rbrack;
+
 
 Introducing [[quark-hadron duality]]:
 
