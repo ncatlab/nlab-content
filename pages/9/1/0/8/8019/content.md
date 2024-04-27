@@ -24,14 +24,14 @@ An ordered group is both a [[poset]] and a [[group]] in a compatible way.  The c
 
 ## Definition
 
-Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|commutative]]), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility condition (*translation invariance*) holds:
+Let $G$ be a [[group]] (not necessarily [[abelian group|commutative]] and yet written additively here), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility condition (*translation invariance*) holds:
 
 *  If $a \leq b$, then $a + c \leq b + c$ and $c + a \leq c + b$.
 
-+-- {: .num_remark} 
-###### Remark 
-An ordered group is *not* the same thing as a [[group object]] in $Pos$. The trouble is that requiring the inversion map $x \mapsto x^{-1}$ to preserve order (i.e., to be monotone, not antitone) is much too restrictive. Rather, an ordered group is a [[monoid object]] in the [[cartesian monoidal category]] $Pos$ which has the [[stuff, structure, property|property]] that its underlying monoid in $Set$ is a group. 
-=-- 
+\begin{remark}
+\label{OrderedGroupsAreInGeneralNotPosetGroups}
+Ordered group are *not* equivalently [[group objects]] [[internalization|in]] [[Pos]]. The trouble is that requiring the inversion map $x \mapsto x^{-1}$ to preserve order (i.e., to be monotone, not antitone) is much too restrictive. Rather, an ordered group is a [[monoid object]] in the [[cartesian monoidal category]] $Pos$ which has the [[stuff, structure, property|property]] that its [[underlying]] [[monoid]] in [[Set]] is a group. 
+\end{remark}
 
 If $G$ is an [[abelian group]], then we have an __ordered abelian group__; in this case, only one direction of translation invariance needs to be checked.
 
