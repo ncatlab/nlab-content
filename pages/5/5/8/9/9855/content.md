@@ -56,3 +56,8 @@ See also
 
 [[!redirects Kronecker delta]]
 [[!redirects Kronecker delta function]]
+
+[[!redirects Kronecker symbol]]
+[[!redirects Kronecker symbols]]
+
+
