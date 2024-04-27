@@ -43,9 +43,9 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 \begin{example}\label{RiemannCartanGeometryOfS3}
 **(Riemann-Cartan geometry of $S^3$)**
-We discuss the [[Riemannian geometry]] of the [[round sphere|round]] [[3-sphere]] $S^3$ as a [[Cartan geometry]], hence via [[frame field]] and [[spin connection]] with vanishing [[torsion]] tensor. 
+We discuss the [[Riemannian geometry]] of the [[round sphere|round]] [[3-sphere]] $S^3$ as a $ISO(3)/O(3)$-[[Cartan geometry]], hence via [[frame field]] and [[spin connection]] with vanishing [[torsion]] tensor (as one encounters it in the [[first-order formulation of gravity]]). 
 
-Among all spheres, this is particularly easy for the $S^3$, since its [[underlying]] [[smooth manifold]] [[diffeomorphism|is]] that of the [[Lie group]] [[SU(2)|$SU(2)$]]. This means that the [[frame field]]  can be chosen to be globally defined 
+Among all [[n-spheres|$n$-spheres]], this is particularly easy for the $S^3$, since its [[underlying]] [[smooth manifold]] [[diffeomorphism|is]] that of the [[Lie group]] [[SU(2)|$SU(2)$]]. This means that the [[frame field]]  can be chosen to be globally defined 
 
 $$
   \big(
