@@ -202,6 +202,10 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 The original article:
 
 * {#KochenSpecker67} [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_, Journal of Mathematics and Mechanics **17** (1967) 59-87 &lbrack;[pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf), [jstor:24902153](https://www.jstor.org/stable/24902153), [doi:10.1007/978-94-010-1795-4_17](https://doi.org/10.1007/978-94-010-1795-4_17)&rbrack;
+
+Relation to [[Bell's theorem]]:
+
+* [[N. David Mermin]], *Hidden Variables and the Two Theorems of John Bell*, Reviews of Modern Physics **65** (1993) 803-815 &lbrack;[doi:10.1103/RevModPhys.65.803](https://doi.org/10.1103/RevModPhys.65.803), [arXiv:1802.10119](https://arxiv.org/abs/1802.10119)&rbrack;
   
 
 Alternative proofs:
