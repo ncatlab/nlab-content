@@ -13,9 +13,13 @@ On [[solid state physics]]:
 
 On [[defect]]$\;$[[anyons]]:
 
-* [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 $[$[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)$]$
+* [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 &lbrack;[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)&rbrack;
 
   > (including a review of [basic homotopy theory](Introduction+to+Topology+--+2))
+
+On [[Bell's theorems]] and the [[Kochen-Specker theorem]]:
+
+* [[N. David Mermin]], *Hidden Variables and the Two Theorems of John Bell*, Reviews of Modern Physics **65** (1993) 803-815 &lbrack;[doi:10.1103/RevModPhys.65.803](https://doi.org/10.1103/RevModPhys.65.803), [arXiv:1802.10119](https://arxiv.org/abs/1802.10119)&rbrack;
 
 
 On [[interpretations of quantum mechanics]] and introducing the catch-phrase "shut up and calculate":
