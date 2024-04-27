@@ -58,6 +58,20 @@ $(f, \bar f) \dashv (u, \bar u)$ in $T$-$Alg_l$ if and only if $f \dashv u$ in $
 
 =--
 
+Dually, one has:
+
+
++-- {: .num_prop #dual}
+###### Proposition
+
+Let $(f, \bar f)$ and $(u, \bar u)$ be [[colax morphisms]] of $T$-algebras.
+Suppose $f \vdash u$ as functors.
+
+1. There is a bijection between lax structures on $f$ and colax structures on $u$.
+2. The adjunction $f \vdash u$ lifts to an adjunction $(f, \bar f) \vdash (u, \bar u)$ if and only if the lax structure $\tilde u$ on $u$ induced by $(f,\bar f)$ is inverse to $\bar u$, i.e. if and only if $(u,\bar u)$ is strong.
+
+=--
+
 
 ## In terms of double categories
 
@@ -91,6 +105,17 @@ The above theorem then asserts
 ###### Corollary
 
 For two [[adjoint functors]] $(L \dashv R)$ between monoidal categories, $L$ is oplax monoidal precisely if $R$ is lax monoidal.
+
+=--
+
+Moreover:
+
++-- {: .un_corollary}
+###### Corollary
+For two [[lax monoidal functors]] $L \dashv R$ between monoidal categories to be [[monoidal adjunction|monoidally adjoint]] it is necessary and sufficient that:
+
+1. $L \dashv R$ as functors
+2. $L$ is strong monoidal, and the inverse of the lax monoidal structure on $L$ is the [[mate]] of the lax monoidal structure of $R$.
 
 =--
 
