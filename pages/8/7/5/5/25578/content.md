@@ -21,9 +21,9 @@ The notion of *enriched groupoids* is the generalization to [[enriched category 
 
 ## Definition
 
-Let $(\mathcal{V}, \times, \ast)$ be a *[[cartesian monoidal category]]* (serving as an [[base of enrichment]]), so that, in particular, 
+Let $(\mathcal{V}, \times, \top)$ be a *[[cartesian monoidal category]]* (serving as an [[base of enrichment]]), so that, in particular, 
 
-* the [[tensor unit]] is a [[terminal object]] $\ast$,
+* the [[tensor unit]] is a [[terminal object]] $\top$,
 
 * for each [[object]] $v \in \mathcal{V}$ there is a [[diagonal morphism]]
 
@@ -69,7 +69,7 @@ $$
   \;\;=\;\;
   \mathcal{C}(X,Y)
   \overset{}{\longrightarrow}
-  \ast
+  \top
   \overset{id_Y}{\longrightarrow}
   \mathcal{C}(Y,Y)
 $$
@@ -90,7 +90,7 @@ $$
   \;\;=\;\;
   \mathcal{C}(X,Y)
   \overset{}{\longrightarrow}
-  \ast
+  \top
   \overset{id_X}{\longrightarrow}
   \mathcal{C}(X,X)
   \,.
