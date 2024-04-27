@@ -25,9 +25,13 @@ Put another way: given a sequence of (higher) categories $C_0, C_1, ..., C_n$ in
 
 So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering some of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
 
-Note that the choice to represent the subset of groupoidal dimensions as a single number $r$ relies on the assumption that this set is upward closed, i.e. it is of the form $\{r+1, r+2, r+3, \ldots\}$.
-This need not be the case, however: ordered groupoids (and in particular the [[horizontal categorification|single object case]] of [[ordered group]]s such as $(\mathbb{Z}, +, \leq)$) are a thing. They have invertible 1-morphisms, but non-invertible 2-morphisms.
-Thus, the concept of an $(n, r)$-category and the periodic table below seem to be missing out on many possible situations.
+**Remark:** This definition does not attempt to cover all possible scenarios w.r.t. triviality or invertibility of morphisms at any given dimension. In particular:
+
+* There is no implication "if a morphism at dimension $k$ always uniquely exists, then a moprphism at dimension $k+1$ always uniquely exists". A counterexample are monoid-[[enriched category|enriched categories]], where we [[horizontal categorification|view monoids as single-object categories]], so that we can see monoid-enriched categories as 2-categories whose *sets* of 1-morphisms are singletons, but whose sets of 2-morphisms are not.
+
+* There is no implication "if all morphisms at dimension $k$ are invertible, then all morphisms at dimension $k+1$ are invertible". A counterexample are ordered groupoids, and in particular the [[horizontal categorification|single object case]] of [[ordered group]]s such as $(\mathbb{Z}, +, \leq)$. They have invertible 1-morphisms, but non-invertible 2-morphisms.
+
+A more fine-grained classification of higher categories can thus be imagined, where we do not specify two numbers $n$ and $r$, but two subsets of $\mathbb{N}$.
 
 ## Definition
 {#Definition}
