@@ -32,7 +32,7 @@ If $X_7 = S^7/G_{ADE}$ is an [[orbifold]] of the round [[7-sphere]] by an finite
 ## Details
  {#Details}
 
-Consider a $D \geq 3$-dimensional spacetime which is the [[product manifold|product]] 
+Consider a $D \geq 3$-dimensional [[spacetime]] which is the [[product manifold|product]] 
 
 $$
   X^{(D)} \;=\; X^{(s)} \times Y^{(D-s)}
