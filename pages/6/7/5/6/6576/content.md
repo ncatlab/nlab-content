@@ -96,6 +96,8 @@ and the two requirements are equivalent.
 
 [[!redirects left invariant differential form]]
 [[!redirects left invariant differential forms]]
+[[!redirects left-invariant differential form]]
+[[!redirects left-invariant differential forms]]
 
 [[!redirects left invariant form]]
 [[!redirects left invariant forms]]
