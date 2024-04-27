@@ -140,9 +140,10 @@ From $x \leq y$ we derive $x^\ast \leq y^\ast$ and $x x^\ast \leq y y^\ast$, and
 
 Thus an inverse semigroup is naturally regarded as an internal semigroup in the category of posets (equivalently, a finite-product preserving functor from the [[Lawvere theory]] of semigroups to [[Pos]]). 
 
-### Connection with ordered groupoids 
+### Relation to ordered groupoids 
+ {#RelationToOrderedGroupoids}
 
-In this section, an *ordered groupoid* means an [[internal category|internal]] [[groupoid]] in the [[finitely complete category]] of posets [[Pos]]. For any finitely complete category $C$, we observe that the forgetful functor $Gpd(C) \to SemiCat(C)$, taking an internal groupoid in $C$ to the underlying [[semicategory]] (remembering only composition of morphisms, forgetting presence of inverses and identity morphisms), has a right adjoint which takes a semicategory to the [[core]] groupoid of the category of idempotents attached to a semicategory (see [here](/nlab/show/semicategory#idempotents) for details). (This observation is formulated in [[internal logic|finite limit logic]], and thus by a Yoneda lemma argument, its validity reduces to that of the observation in the special case $C = Set$.) 
+In this section, an *ordered groupoid* means an [[internal groupoid]] [[internalization|in]] the [[finitely complete category]] of posets [[Pos]]. For any finitely complete category $C$, we observe that the forgetful functor $Gpd(C) \to SemiCat(C)$, taking an internal groupoid in $C$ to the underlying [[semicategory]] (remembering only composition of morphisms, forgetting presence of inverses and identity morphisms), has a right adjoint which takes a semicategory to the [[core]] groupoid of the category of idempotents attached to a semicategory (see [here](/nlab/show/semicategory#idempotents) for details). (This observation is formulated in [[internal logic|finite limit logic]], and thus by a Yoneda lemma argument, its validity reduces to that of the observation in the special case $C = Set$.) 
 
 In particular, this construction may be applied to an inverse semigroup seen as a semigroup in $Pos$: 
 
