@@ -414,6 +414,7 @@ which may be understood as the [[near horizon geometry]] of [[black brane|black]
 For more see also at *[[AdS4/CFT3-duality]]*.
 
 
+\linebreak
 
 ## Related concepts
 
