@@ -23,7 +23,11 @@ An $(n,r)$-category is a [[higher category theory|higher category]] such that, e
 
 Put another way: given a sequence of (higher) categories $C_0, C_1, ..., C_n$ in which each $C_{i+1}$ is of the form $Hom(A, B)$ for some $0$-cells $A$ and $B$ from $C_i$, let us say that $C_n$ is a depth-$n$ Hom-category of $C_0$. (We can also cleanly extend this notion to depth-$\infty$ Hom-categories, by taking the position that there are none). An $(n, r)$-category, then, is one in which every depth-$r$ Hom-category is an $\infty$-groupoid, and, furthermore, every depth-$(n+2)$ Hom-category is a [[point]]. (The appearance of $n+2$ here rather than $n$ allows us to make sense of this definition even when $n$ is as low as $-2$, and suggests that perhaps, had history gone differently, the conventions would be to number these differently.)
 
-So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
+So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering some of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
+
+Note that the choice to represent the subset of groupoidal dimensions as a single number $r$ relies on the assumption that this set is upward closed, i.e. it is of the form $\{r+1, r+2, r+3, \ldots\}$.
+This need not be the case, however: ordered groupoids (and in particular the [[horizontal categorification|single object case]] of [[ordered group]]s such as $(\mathbb{Z}, +, \leq)$) are a thing. They have invertible 1-morphisms, but non-invertible 2-morphisms.
+Thus, the concept of an $(n, r)$-category and the periodic table below seem to be missing out on many possible situations.
 
 ## Definition
 {#Definition}
