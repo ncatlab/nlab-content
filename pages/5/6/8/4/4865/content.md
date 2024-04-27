@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -208,11 +209,22 @@ The theory was then actually constructed (as a [[Lagrangian field theory]]) in
 
 * {#CremmerJuliaScherk78} [[Eugène Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. B **76** (1978) 409 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>&rbrack;
 
-Formulation in terms of [[supergeometry]] (on [[super spacetime]] [[supermanifolds]]: "[[superspace]]") is in 
+The claim of the derivation of $D=11$ supergravity in [[supergeometry]], by solving the [[supergravity torsion constraint|torsion constraint]] and [[Bianchi identities]] on [[super spacetime]] [[supermanifolds]] ("[[superspace]]") is due to
 
 * {#CremmerFerrara80} [[Eugène Cremmer]], [[Sergio Ferrara]], *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys. Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
 
-* [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys. Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
+* {#BrinkHowe80} [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys. Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
+
+and in the mild variation (using a manifestly [[duality-symmetric C-field|duality-symmetric]] super-[[supergravity C-field|C-field]] [[flux density]]) due to
+
+* [Castellani, D'Auria & Fré 1991, §III.8.5](CastellaniDAuriaFré91)
+
+A proof of this claim is laid out in 
+
+* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]* &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456)&rbrack;
+
+using heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
+
 
 With focus on the [[Kaluza-Klein compactification]] to 4d [[anti de Sitter spacetime]]:
 
