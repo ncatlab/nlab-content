@@ -477,6 +477,11 @@ The original article:
 
 * {#Bell64} [[John Bell]], *On the Einstein Podolsky Rosen paradox*, Physics **1** 195 (1964) &lbrack;[doi:10.1103/PhysicsPhysiqueFizika.1.195](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195), [pdf](http://www.drchinese.com/David/Bell_Compact.pdf)&rbrack;
 
+Relation to the [[Kochen-Specker theorem]]:
+
+* [[N. David Mermin]], *Hidden Variables and the Two Theorems of John Bell*, Reviews of Modern Physics **65** (1993) 803-815 &lbrack;[doi:10.1103/RevModPhys.65.803](https://doi.org/10.1103/RevModPhys.65.803), [arXiv:1802.10119](https://arxiv.org/abs/1802.10119)&rbrack;
+
+
   
 Review:
 
