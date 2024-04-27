@@ -1,102 +1,191 @@
 
+energy-momentum tensor of $p$-form flux density
+
 $$
-  R^{a_1 a_2}
+  \mathrm{T}_{a b}
   \;=\;
-  \tfrac
-    { \mathrm{R} }
-    { D(D-1)/2 }
+  +
+  c
   \,
-  e^{a_1}\, e^{a_2}
-  \,,
-  \;\;\;\;
-  \text{hence}
-  \;\;
-  R^{a_1 a_2}{}_{b_1 b_2}
-  \;=\;
-  \tfrac
-    { 2 k }
-    { D (D-1) }
-  \delta^{a_1 a_2}_{b_1 b_2}
-  \,.
+  \Big(
+    \tfrac{1}{2p}
+    (F_p)_{c_1 \cdots c_p}
+    (F_p)^{c_1 \cdots c_p}
+    \,
+    \eta_{a b}
+    -
+    (F_p)_{
+      a
+      \, 
+      c_1 \cdots c_{p-1}
+    }
+    (F_p)
+      _b{}
+      ^{c_1 \cdots c_{p-1}}
+  \Big)
 $$
 
 $$
-  \mathrm{Ric}_{a b}
+  \mathrm{T}
   \;\equiv\;
-  \eta_{a a'}
-  R^{a' c}{}_{b c}
+  \mathrm{T}^a{}_a
   \;=\;
-    \tfrac
-      { 2 \, \mathrm{R} }
-      { D (D-1) }  
+  c
   \,
-  \eta_{a a'}
+  \Big(
+    \tfrac
+     {D}
+     {2p}
+     -
+     1
+  \Big)
+    (F_p)_{c_1 \cdots c_p}
+    (F_p)^{c_1 \cdots c_p}  
+$$
+
+trace of Einstein equation:
+
+$$
+  \mathrm{R}
+  \big(
+    1
+    -
+    \tfrac
+      {D}
+      {2}
+  \big)
+  \;\;=\;\;
+  c
+  \,
+  \Big(
+    \tfrac
+     {D}
+     {2p}
+     -
+     1
+  \Big)
+    (F_p)_{c_1 \cdots c_p}
+    (F_p)^{c_1 \cdots c_p}    
+$$
+hence
+$$
+  \mathrm{R}
+  \;\;=\;\;
+  -
+  c
   \underset{
-    \tfrac{D-1}{2} \delta^{a'}_b
+    \tfrac{D-2p}{(D-2)p}
   }{
     \underbrace{
-      \delta^{a' \, c}_{b \, c}
+    \frac
+      {
+        D/2p - 1
+      }
+      {
+        D/2 - 1
+      }
     }
   }
-  \;=\;
-  \tfrac
-    { \mathrm{R} }
-    { D }
   \,
-  \eta_{a b}
+    (F_p)_{c_1 \cdots c_p}
+    (F_p)^{c_1 \cdots c_p}    
 $$
 
-$$
-  \mathrm{R}
-  \;=\;
-  \eta^{a b}
-  \mathrm{Ric}_{a b}
-$$
+so that the Einstein equation becomes equivalent to
 
 $$
-  \mathrm{G}_{a b}
-  \;\equiv\;
-  \mathrm{Ric}_{a b}
+  \begin{array}{l}
+  \mathrm{R}_{a b}
   -
   \tfrac{1}{2}
-  \mathrm{R}
-  \, 
-  \eta_{a b}
-  \;=\;
-  \big(
-    \tfrac
-      {1}
-      {D}
-      -
-      \tfrac{1}{2}
-  \big)
+  \mathrm{R} \, \eta_{a b}
+  \;\;
+  =
+  \;\;
+  c
   \,
-  \mathrm{R}
+  \Big(
+    \tfrac{1}{2p}
+    (F_p)_{c_1 \cdots c_p}
+    (F_p)^{c_1 \cdots c_p}
+    \,
+    \eta_{a b}
+    -
+    (F_p)_{
+      a
+      \, 
+      c_1 \cdots c_{p-1}
+    }
+    (F_p)
+      _b{}
+      ^{c_1 \cdots c_{p-1}}
+  \Big)
+  \\
+  \mathrm{R}_{a b}
+  \;\;
+  =
+  \;\;
+  c
   \,
-  \eta_{a b}
-  \;=\;
-  -
-  \tfrac
-    { D - 2 }
-    { 2 D }
-  \,
-  \mathrm{R}
-  \;
-  \eta_{a b}
+  \Big(
+    \underset{
+      \tfrac
+        { D - 4 p + 2 }
+        { 4 p - 2 d p }
+    }{
+      \underbrace{
+      \big(
+        \tfrac{1}{2p}
+        -
+        \tfrac
+        {
+          D-2p
+        }
+        {
+          (D-2)p
+        }
+      \big)
+      }
+    }
+    (F_p)_{c_1 \cdots c_p}
+    (F_p)^{c_1 \cdots c_p}
+    \,
+    \eta_{a b}
+    -
+    (F_p)_{
+      a
+      \, 
+      c_1 \cdots c_{p-1}
+    }
+    (F_p)
+      _b{}
+      ^{c_1 \cdots c_{p-1}}
+  \Big)
+  \end{array}
 $$
 
+
 $$
-  \mathrm{G}_{a b}
-  \;=\;
-  \Lambda \, \eta_{a b}
-  \;\;\;\;\;\;\;\;
-  \Leftrightarrow
-  \;\;\;\;\;\;\;\;
-  \mathrm{R}
-  \;=\;
-  -
-  \tfrac{2 D}{D-2}
-  \, 
-  \Lambda
+  \begin{array}{l}
+    (C_3) \wedge \star (D_3)
+    \\
+    \;=\;
+    \epsilon^{a_1 \cdots a_{11}}
+    \tfrac{1}{3!}
+    (C_3)_{a_1 a_2 a_3}
+    \tfrac{1}{8!}
+    \tfrac{1}{3!}
+    \epsilon_{ a_4 \cdots a_{11} b_1 b_2 b_3 }
+    (D_3)^{b_1 b_2 b_3}
+    \\
+    \;=\;
+    -
+    \tfrac{1}{3!}
+    \tfrac{1}{8!}
+    \tfrac{1}{3!}
+    3! \cdot 8!
+    (C_3)_{a_1 a_2 a_3}
+    (D_3)^{a_1 a_2 a_3}
+  \end{array}
 $$
 
