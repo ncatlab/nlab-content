@@ -34,7 +34,7 @@ Equivalently: an [[8-manifold]] equipped with a globalization of the [[Cayley 4-
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
-### Relation to J-twisted Cohomotopy
+### Relation to tangentially twisted Cohomotopy
  {#RelationToJTwistedCohomotopy}
 
 On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[Spin(7)]]-[[G-structure|structure]] is equivalently a choice of [[cocycle]] in [[J-homomorphism|J-]][[twisted Cohomotopy cohomology theory]]. This follows ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS 19, 3.4]]) from 
