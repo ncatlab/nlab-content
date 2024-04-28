@@ -493,12 +493,15 @@ The idempotent monad which exhibits the [[localization]] at the $T$-equivalences
 
 * {#CasacubertaFrei99} [[Carles Casacuberta]], Armin Frei, _Localizations as idempotent approximations to completions_, Journal of Pure and Applied Algebra 142 (1999) 25--33 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
 
-* [[John Frank Adams]], Zbigniew Fiedorowicz, _Localisation and Completion with an addendum on the use of Brown-Peterson homology in stable homotopy_, [arXiv:1012.5020](https://arxiv.org/abs/1012.5020), based on 1973 lectures by Adams
-
 
 and for [[enriched category theory]] in 
 
 * {#LucyshynWright14} [[Rory Lucyshyn-Wright]], _Completion, closure, and density relative to a monad, with examples in functional analysis and sheaf theory_, Theory Appl. Cat. 29 (2014) 31, 896--928 [abs](http://emis.ams.org/journals/TAC/volumes/29/31/29-31abs.html) [arXiv:1406.2361](http://arxiv.org/abs/1406.2361) 
+
+Discussion in [[algebraic topology]] ([[localization of a space|localization]], [[completion of a space|completion]]):
+
+* [[John Frank Adams]], [[Zbigniew Fiedorowicz]], *Localisation and Completion with an addendum on the use of Brown-Peterson homology in stable homotopy*, based on 1973 lectures by Adams &lbrack;[arXiv:1012.5020](https://arxiv.org/abs/1012.5020)&rbrack; 
+
 
 Extension of idempotent monads along subcategory inclusions is discussed in
 
