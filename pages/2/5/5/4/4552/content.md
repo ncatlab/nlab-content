@@ -16,6 +16,11 @@ On [[cyclic homology]] ([[cyclic objects]], [[cyclic spaces]], ... ):
 On [[homotopy types with finite homotopy groups]]:
 
 * [[Jean-Louis Loday]], _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179--202.
+
+On [[crossed group|crossed]] [[simplicial groups]]:
+
+* {#FL91} [[Zbigniew Fiedorowicz]], [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** (1991) 57-87 &lbrack;[doi:10.1090/S0002-9947-1991-0998125-4](https://doi.org/10.1090/S0002-9947-1991-0998125-4)&rbrack;
+
  
 On [[operads]]:
 
