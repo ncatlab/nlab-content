@@ -36,6 +36,10 @@ Hartshorne proves as Proposition 5.15 that the counit of the corresponding adjun
 
 * Robin Hartshorne, _Algebraic geometry_, Graduate Texts in Mathematics 52, Springer 1977
 
+See also
+
+* [[The Stacks Project]], [Tag 0BXD](https://stacks.math.columbia.edu/tag/0BXD).
+
 * _Serre's theorem on Proj_, [mathOverflow](https://math.stackexchange.com/questions/333325/serres-theorem-for-operatornameproj)
 
 ### Noncommutative
