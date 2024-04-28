@@ -67,13 +67,13 @@ A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 
 * {#Loday87}[[Jean-Louis Loday]], _Homologies diédrale et quaternionique_, Adv. in Math. **66** (1987) pp.119-148.
 
-* {#Dunn89}Gerald Dunn, _Dihedral and Quaternionic Homology and Mapping Spaces_, K-theory **3** (1989) pp.141-161.
+* {#Dunn89} Gerald Dunn, _Dihedral and Quaternionic Homology and Mapping Spaces_, K-theory **3** (1989) pp.141-161.
 
-* {#Spalinski95}[[Jan Spalinski|Jan Spaliński]], _Homotopy theory of dihedral and quaternionic sets_, Topology **39** (1995) pp.35-52.
+* {#Spalinski95} [[Jan Spalinski|Jan Spaliński]], _Homotopy theory of dihedral and quaternionic sets_, Topology **39** (1995) pp.35-52.
 
-* {#Krasauskas87}R. Krasauskas, _Skew-simplicial groups_, Lithuanian Math. J. **27** pp.47-54 (1987).
+* {#Krasauskas87} R. Krasauskas, _Skew-simplicial groups_, Lithuanian Math. J. **27** pp.47-54 (1987).
 
-* {#FL91}Zbigniew Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** pp.57-87 (1991).
+* {#FL91} [[Zbigniew Fiedorowicz]], [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** (1991) 57-87 &lbrack;[doi:10.1090/S0002-9947-1991-0998125-4](https://doi.org/10.1090/S0002-9947-1991-0998125-4)&rbrack;
 
 *  {#BM11}[[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Math. Z. **269** (2011) pp.977-1004. ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
 
