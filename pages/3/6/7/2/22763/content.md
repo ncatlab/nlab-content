@@ -24,7 +24,7 @@ A __cancellative midpoint algebra__ is a [[midpoint algebra]] $(M,\vert)$ that s
 
 ## Examples
 
-The [[rational numbers]], [[real numbers]], and the [[complex numbers]] with $a \vert b \coloneqq \frac{a + b}{2}$ are examples of cancellative midpoint algebras. 
+The [[rational numbers]], [[real numbers]], and the [[complex numbers]] with $a \vert b \coloneqq \frac{a + b}{2}$ are examples of cancellative midpoint algebras. In general, this construction over Z[1/2]-[[modules]], or [[abelian groups]] with a well-defined halving operation, produces all and every cancellative midpoint algebra.
 
 The [[trivial group]] with $a \vert b = a \cdot b$ is a cancellative midpoint algebra.
 
