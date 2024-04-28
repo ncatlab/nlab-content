@@ -491,11 +491,14 @@ The idempotent monad which exhibits the [[localization]] at the $T$-equivalences
 
 * {#Day74} [[Brian Day]], _On adjoint-functor factorisation_, Lecture Notes in Math. 420 (1974), 1-19.
 
-* {#CasacubertaFrei99} [[Carles Casacuberta]], Armin Frei, _Localizations as idempotent approximations to completions_, Journal of Pure and Applied Algebra 142 (1999), 25-33 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
+* {#CasacubertaFrei99} [[Carles Casacuberta]], Armin Frei, _Localizations as idempotent approximations to completions_, Journal of Pure and Applied Algebra 142 (1999) 25--33 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
+
+* [[John Frank Adams]], Zbigniew Fiedorowicz, _Localisation and Completion with an addendum on the use of Brown-Peterson homology in stable homotopy_, [arXiv:1012.5020](https://arxiv.org/abs/1012.5020), based on 1973 lectures by Adams
+
 
 and for [[enriched category theory]] in 
 
-* {#LucyshynWright14} [[Rory Lucyshyn-Wright]], _Completion, closure, and density relative to a monad, with examples in functional analysis and sheaf theory_, Theory Appl. Cat. 29 (2014) 31, 896-928 [abs](http://emis.ams.org/journals/TAC/volumes/29/31/29-31abs.html) [arXiv:1406.2361](http://arxiv.org/abs/1406.2361) 
+* {#LucyshynWright14} [[Rory Lucyshyn-Wright]], _Completion, closure, and density relative to a monad, with examples in functional analysis and sheaf theory_, Theory Appl. Cat. 29 (2014) 31, 896--928 [abs](http://emis.ams.org/journals/TAC/volumes/29/31/29-31abs.html) [arXiv:1406.2361](http://arxiv.org/abs/1406.2361) 
 
 Extension of idempotent monads along subcategory inclusions is discussed in
 
@@ -505,7 +508,7 @@ Extension of idempotent monads along subcategory inclusions is discussed in
 
 Discussion of idempotent comonads and their relation to adjoint strings is contained in
 
-* {#RosebrughWood95} [[Robert Rosebrugh]], and [[Richard Wood]] *Distributive adjoint strings.* Theory and applications of categories (1995), pages 119-145.
+* {#RosebrughWood95} [[Robert Rosebrugh]], [[Richard Wood]] *Distributive adjoint strings*, Theory and applications of categories (1995) 119--145.
 
 Formalisation in [[cubical Agda]]:
 
