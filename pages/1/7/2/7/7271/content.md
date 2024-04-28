@@ -24,6 +24,11 @@ Introducing the [[Adams-Hilton model]] for the [[Pontrjagin ring]]-structure on 
 
 * [[John F. Adams]], [[Peter J. Hilton]], *On the chain algebra of a loop space*, Commentarii Mathematici Helvetici **30** (1956) 305–330 &lbrack;[doi:10.1007/BF02564350](https://doi.org/10.1007/BF02564350)&rbrack;
 
+On [[localization of a space|localization]] and [[completion of a space|completion]] in [[algebraic topology]], via [[idempotent monads]]:
+
+* [[John Frank Adams]], [[Zbigniew Fiedorowicz]], *Localisation and Completion with an addendum on the use of Brown-Peterson homology in stable homotopy*, based on 1973 lectures by Adams &lbrack;[arXiv:1012.5020](https://arxiv.org/abs/1012.5020)&rbrack; 
+
+
 
 On [[stable homotopy theory]] and [[generalized (Eilenberg-Steenrod) cohomology]]:
 
