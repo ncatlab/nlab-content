@@ -243,6 +243,9 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
+* [[John Frank Adams]], [[Zbigniew Fiedorowicz]], *Localisation and Completion with an addendum on the use of Brown-Peterson homology in stable homotopy*, based on 1973 lectures by Adams &lbrack;[arXiv:1012.5020](https://arxiv.org/abs/1012.5020)&rbrack; 
+
+
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
 * {#CasacubertaPeschke} [[Carles Casacuberta]], [[Georg Peschke]], *Localizing with respect to self maps of the circle*, Trans. Amer. Math. Soc. **339** (1993) 117-140  &lbrack;[doi:10.1090/S0002-9947-1993-1123451-X](https://doi.org/10.1090/S0002-9947-1993-1123451-X), [pdf](http://www.ub.edu/topologia/casacuberta/articles/cpes.pdf)&rbrack;
