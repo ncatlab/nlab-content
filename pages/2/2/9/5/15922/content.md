@@ -4,7 +4,7 @@
 * [David Hilbert and Paul Bernays](https://plato.stanford.edu/entries/logic-firstorder-emergence/#DaviHilbPaulBern) in *The Emergence of First-Order Logic*, SEP
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Bernays)
 
-## related $n$Lab entries
+## Related entries
 
 * [[ZFC]]
 
