@@ -124,7 +124,7 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 * B. L. Feigin, B. L. Tsygan, _Additive K-theory_, pp.67-203 in LNM 1289 Springer Heidelberg 1986.
 
-* Zbigniew Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** pp.57-87 (1991).
+* {#FL91} [[Zbigniew Fiedorowicz]], [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** (1991) 57-87 &lbrack;[doi:10.1090/S0002-9947-1991-0998125-4](https://doi.org/10.1090/S0002-9947-1991-0998125-4)&rbrack;
 
 * {#Isaacson2010} [[Samuel Isaacson]], _Symmetric cubical sets_, Journal of Pure and Applied Algebra **215** (2011). ([arXiv](https://arxiv.org/abs/0910.4948), [doi:10.1016/j.jpaa.2010.08.001](http://dx.doi.org/10.1016/j.jpaa.2010.08.001))
 
@@ -134,9 +134,9 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 * Walker H. Stern, _Structured topological field theories via crossed simplicial groups_, arXiv:1603.02614 (2016). ([abstract](https://arxiv.org/abs/1603.02614))
 
-* [[Jun Yoshida]], _A general method to construct cube-like categories and applications to homotopy theory_, arXiv:1502.07539. ([abstract](https://arxiv.org/abs/1502.07539))
+* Jun Yoshida, _A general method to construct cube-like categories and applications to homotopy theory_, arXiv:1502.07539. ([abstract](https://arxiv.org/abs/1502.07539))
 
-* [[Jun Yoshida]], _Colimits and limits of crossed groups_, arXiv:1802.06644 (2018). ([abstract](https://arxiv.org/abs/1802.06644))
+* Jun Yoshida, _Colimits and limits of crossed groups_, arXiv:1802.06644 (2018). ([abstract](https://arxiv.org/abs/1802.06644))
 
 
 [[!redirects crossed groups]]
