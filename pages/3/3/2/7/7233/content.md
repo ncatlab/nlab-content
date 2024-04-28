@@ -28,14 +28,14 @@ $G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensi
 ## Definition
 
 ### $G_2$-structure
- {#G2Structure}
+ {#G2Structures}
 
-+-- {: .num_defn #G2Structure}
-###### Definition
+\begin{definition}
+\label{G2Structure}
 
 For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ is a [[G-structure]] for $G = $ [[G2]] $\hookrightarrow GL(7)$.
 
-=--
+\end{definition}
 
 +-- {: .num_remark #CanonicalRiemannianMetric}
 ###### Remark
@@ -47,8 +47,8 @@ A $G_2$-structure in particular implies an [[orthogonal structure]], hence a [[R
 Given the definition of [[G2]] as the [[stabilizer group]] of the [[associative 3-form]] on $\mathbb{R}^7$, there is accordingly an equivalent formulation of def. \ref{G2Structure} in terms of [[differential forms]]:
 
 
-+-- {: .num_defn #Definite3Forms}
-###### Definition
+\begin{definition}
+\label{Definite3Forms}
 
 Write $\Lambda^3_+(\mathbb{R}^7)^\ast \hookrightarrow \Lambda^3(\mathbb{R}^7)^\ast $ for the [[orbit]] of the [[associative 3-form]] $\phi$ under the canonical $GL(7)$-[[action]]. Similarly for $X$ a [[smooth manifold]] of [[dimension]] 7, write 
 
@@ -60,7 +60,7 @@ for the subset of the set of [[differential 3-forms]] on those that, as [[sectio
 
 These are also called the _positive forms_ ([Joyce 00, p. 243](Joyce00)) or the _[[definite differential forms]]_ ([Bryant 05, section 3.1.1](#Bryant05)) on $X$.
 
-=--
+\end{definition}
 
 (e.g. [Bryant 05, definition 2](#Bryant05))
 
