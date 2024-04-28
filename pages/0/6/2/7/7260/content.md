@@ -130,12 +130,13 @@ A visualization of the big observable structures in the universe, drawn to scale
 * {#VisObservableUniverse} American Museum of Natural History, _The known 
 universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
 
-Visualization of local gakaxy densities and voids
+Visualization of observed local galaxy clusters and voids
 
-https://phys.org/news/2019-07-astronomers-vast-void-cosmic-neighborhood.amp
+* Phys.org, *Astronomers map vast void in our cosmic neighborhood* (2019) &lbrack;[web](https://phys.org/news/2019-07-astronomers-vast-void-cosmic-neighborhood.amp)&rbrack;
 
+* A. Dupuy, H. M. Courtois: *Dynamic cosmography of the local Universe: Laniakea and five more watershed superclusters* , Astronony & Astrophysics **678** (2023) A176 &lbrack;[doi:10.1051/0004-6361/202346802](https://doi.org/10.1051/0004-6361/202346802)&rbrack;
 
-A simulation of the [[structure formation]] (see there for more) of these is at
+Comuter simulation of the [[structure formation]] (see there for more) of these is at
 
 * _[The Millennium Simulation Project](http://www.mpa-garching.mpg.de/galform/virgo/millennium/)_
 
