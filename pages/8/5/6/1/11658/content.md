@@ -38,13 +38,15 @@
 
 * [[3-brane in 6d]]
 
+
 ## References
 
 ### General
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.7 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §III.7 in: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;§III.7: [[CastellaniDAuriaFre-ChIII7.pdf:file]]&rbrack;
 
-  (in [[D'Auria-Fré formulation of supergravity]])
+
+  > (in [[D'Auria-Fré/Regge formulation of supergravity]])
 
 * [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
 
