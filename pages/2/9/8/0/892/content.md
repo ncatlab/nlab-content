@@ -22,7 +22,7 @@ Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [
 
 * the set $\TV^S$ of all [[functions]] from $S$ to the set $\TV$ of [[truth values]].  This is often written $2^S$, since there are (at least in [[classical logic]]) exactly $2$ truth values;
 
-* the collection of [[subobjects]] of $X$ in the [[topos]] [[Set]].
+* the collection of [[subobjects]] of $S$ in the [[topos]] [[Set]].
 
 * the [[slice category]] $Inj/S$, where [[Inj]] is the [[wide subcategory]] of [[Set]] with morphisms restricted to [[injection|injections]]. This is similar to the subobject definition but is more unpacked. $Inj/S$ has objects that are injections to $S$ and morphisms that are commuting triangles of injections.
 
