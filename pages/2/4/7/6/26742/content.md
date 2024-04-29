@@ -1,0 +1,1 @@
+I do maths for fun. Currently an undergraduate CS major.
