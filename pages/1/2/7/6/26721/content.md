@@ -44,7 +44,7 @@ If $\mathcal{T}$ is orbital, then $\mathbb{F}_{\mathcal{T}}$ is [[disjunctive (�
 $$
   \mathrm{Span}(\mathbb{F}_{\mathcal{T}}) \coloneqq  A^{\mathrm{eff}}(\mathbb{F}_{\mathcal{T}}),
 $$
-the latter denoting the [[(infinity,n)-category of correspondences|(∞,1)-category of correspondences]] constructed by [Barwick]{#Barwick14}.
+the latter denoting the [[(infinity,n)-category of correspondences|(∞,1)-category of correspondences]] constructed by [Barwick](#Barwick14).
 
 ## Examples
  
@@ -58,11 +58,14 @@ The following are all examples of atomic orbital $\infty$-categories.
 
 * the cyclonic orbit 2-category (see at _[[cyclotomic spectrum]]_); 
 
-* the 2-category of connected finite groupoids and [[covering maps]]; 
+* the 2-category of connected finite groupoids and [[covering maps]] (i.e. the [[global homotopy theory|global]] [[orbit category]]); 
 
 * the category of [[finite sets]] of [[cardinality]] $\leq n$ and [[surjective functions]]; 
 
 * the [[topological categories]] of [[finite number|finite]]-[[dimension|dimensional]] [[inner product spaces]] (over $\mathbb{R}$ and $\mathbb{C}$) of dimension $\leq n$ and orthogonal [[projections]].
+
+For many cases of these atomic orbital $\infty$-categories there is a [[conservative (∞,1)-functor]] to a [[poset]], and so they are [[EI (∞,1)-categories]]. 
+Essentially finite EI orbital _discrete_ categories have been considered by [Wilson](#Wilson17) on work concerning the slice filtration, where they are called _inductive orbital categories_.
 
 
 ## Related concepts
@@ -96,3 +99,7 @@ Many of the original papers on this topic:
 On [[disjunctive (∞,1)-categories]]
 
 * {#Barwick14} [[Clark Barwick]], section 4 of _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+
+On the [[slice filtration]] for inductive orbital categories
+
+* {#Wilson14} [[Dylan Wilson]], _On categories of slices_ ([arXiv:1711.03472v1](https://arxiv.org/abs/1711.03472v1))
