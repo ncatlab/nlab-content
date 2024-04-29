@@ -31,6 +31,6 @@ A **wreath** is a generalisation of a [[distributive law]] between two [[monads]
 * [[Steve Lack]], [[Ross Street]], _The formal theory of monads II_, Special volume celebrating the 70th birthday of Professor Max Kelly.
 J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265. 
 
-
+* Dimitri Chikhladze, _A note on warpings of monoidal structures_, [arXiv:1510.00483](https://arxiv.org/abs/1510.00483) (2015).
 
 [[!redirects wreaths]]
