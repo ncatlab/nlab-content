@@ -97,6 +97,10 @@ A recent paper extending Reynolds' notion of relational parametricity to depende
 
 * [[Robert Atkey]], [[Neil Ghani]] and Patricia Johann, _A Relationally Parametric Model of Dependent Type Theory_, In Proceedings of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2014). 2014. ([web](http://bentnib.org/dtt-parametricity.html))
 
+A proof assistant implementing an [[observational type theory]] with both internal and external [[parametricity]] of variable [[arity]]:
+
+* [Narya](https://github.com/mikeshulman/narya)
+
 [[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
 [[!redirects parametric polymorphism]]
