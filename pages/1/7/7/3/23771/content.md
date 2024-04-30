@@ -223,4 +223,8 @@ The authors of the above article write:
 > * a strictification construction which turns the isomorphism for $\Pi$ types into a definitional equality (in case of bridge, we also need the same for $\Sigma$),
 > * Kan fibrancy, which adds transport and turns the bridge type into a proper identity type. This would also change the correspondence between $\forall U$ and spans into $\forall U$ and equivalences.
 
+A proof assistant under development intended to implement a higher observational type theory, currently implementing internal or external [[parametricity]] of variable [[arity]]:
+
+* [Narya](https://github.com/mikeshulman/narya)
+
 [[!redirects higher observational type theories]]
