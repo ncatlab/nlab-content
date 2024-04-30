@@ -12,9 +12,10 @@ Review of the [[Green-Schwarz mechanism]] with an eye towards [[KK-compactificat
 
 On [[D=6 supergravity]]:
 
-* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
+* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], *Tensor and Vector Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. B **519** (1998) 115-140 &lbrack;[arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059), <a href="https://doi.org/10.1016/S0550-3213(97)00837-7">doi:10.1016/S0550-3213(97)00837-7</a>&rbrack;
 
-* [[Fabio Riccioni]], [[Augusto Sagnotti]], _Some Properties of Tensor Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. Proc. Suppl. 67 (1998) 68-73 ([arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077))
+* [[Fabio Riccioni]], [[Augusto Sagnotti]], *Some Properties of Tensor Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. Proc. Suppl. **67** (1998) 68-73 &lbrack;[arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077), <a href="https://doi.org/10.1016/S0920-5632(98)00121-2">doi:10.1016/S0920-5632(98)00121-2</a>&rbrack;
+ 
 
 
 On [[orientifolds]] and [[RR-field tadpole cancellation]]:
@@ -27,7 +28,7 @@ On [[higher spin gauge theory]] as [[string field theory]] for vanishing [[strin
 
 * {#SagnottiTsulaia03} [[Augusto Sagnotti]], M. Tsulaia, _On higher spins and the tensionless limit of String Theory_, Nucl. Phys. B682:83-116, 2004 ([arXiv:hep-th/0311257](http://arxiv.org/abs/hep-th/0311257))
 
-* [[Auguste Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl. Phys. B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
+* [[Augusto Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl. Phys. B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
 
 * {#Sagnotti11} [[Augusto Sagnotti]], _Notes on Strings and Higher Spins_ ([arXiv:1112.4285](http://arxiv.org/abs/1112.4285)) 
 
