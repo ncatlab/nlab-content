@@ -429,7 +429,7 @@ Introductions and surveys include
 
 * {#WangXu10} [[Guozhen Wang]], [[Zhouli Xu]], _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf), [[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
-* {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
+* {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf]https://www3.nd.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
 
 * {#Hatcher} [[Allen Hatcher]], _Pictures of stable homotopy groups of spheres_ ([html](https://pi.math.cornell.edu/~hatcher/stemfigs/stems.html))
 
