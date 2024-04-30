@@ -189,3 +189,13 @@ $$
   \end{array}
 $$
 
+
+\begin{tikzcd}
+	{F(x) \otimes F(y)} && {F(y) \otimes F(x)} \\
+	{F(x \otimes y)} && {F(y \otimes x)}
+	\arrow["{\beta_{F(x),F(y)}}", from=1-1, to=1-3]
+	\arrow["{\mu_{x,y}}"', from=1-1, to=2-1]
+	\arrow["{\mu_{y,x}}", from=1-3, to=2-3]
+	\arrow["{F(\beta_{x,y})}"', from=2-1, to=2-3]
+\end{tikzcd}
+
