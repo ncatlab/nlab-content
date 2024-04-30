@@ -5,11 +5,16 @@ Paul Townsend is professor for theoretical [[physics]] at Cambridge.
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
 
+
 ## Selected writings
 
 Early discussion of the [[D'Auria-Fré formulation of supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
+
+On [[D=6 supergravity]] formulated on [[superspace]]:
+
+* [[Moustafa A. Awada]], [[Paul Townsend]], [[Germán Sierra]]:  *Six-dimensional simple and extended chiral supergravity in superspace*, Class. Quantum Grav. **2** (1985) L85 &lbrack;[doi:10.1088/0264-9381/2/4/005](https://iopscience.iop.org/article/10.1088/0264-9381/2/4/005)&rbrack;
 
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
