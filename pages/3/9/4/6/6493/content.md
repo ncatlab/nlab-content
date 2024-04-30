@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
-#### Mapping space
+#### Mapping spaces
 +--{: .hide}
 [[!include mapping space - contents]]
 =--
@@ -14,14 +14,50 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-_Inertia orbifold_ is a particular model for the [[free loop space object]] of an [[orbifold]] $X$ (or plain [[groupoid]] or [[smooth groupoid]]/[[stack]] etc.): the [[smooth groupoid]] whose [[objects]] are [[automorphisms]] in $X$ and whose [[morphisms]] are [[conjugation]] of automorphisms by morphisms in $X$. In fact for each fibered category one can construct another fibered category, its inertia and the inertia stacks are a special case of this construction.
+An _inertia orbifold_ $\Lambda \mathcal{X}$ is (a particular representative of) the [[free loop space object]] of an [[orbifold]] $\mathcal{X}$ (or of a plain [[groupoid]] or [[smooth groupoid]]/[[differentiable stack|differentiable]] [[stack]] etc.): the ([[smooth groupoid|smooth]]) [[groupoid]] whose 
+
+* [[objects]] are [[endomorphisms]] (necessarily [[automorphisms]]) in $\mathcal{X}$
+
+\begin{tikzcd}
+  {}
+  \ar[
+    out=180-50, 
+    in=50, 
+    looseness=5, 
+    "g"
+  ]
+  x
+\end{tikzcd}
+
+* [[morphisms]] are [[conjugations]] of such automorphisms $g$ by morphisms (necessarily: [[isomorphisms]]) $f$ in $\mathcal{X}$:
+
+\begin{tikzcd}
+  \ar[
+    out=180-50, 
+    in=50, 
+    looseness=5, 
+    "g"
+  ]
+  x
+  \ar[rr, "f"]
+  &&
+  y
+  \ar[
+    out=180-50, 
+    in=50, 
+    looseness=5, 
+    "f \circ g \circ f^{\mathrlap{-1}}"
+  ]
+\end{tikzcd}
+
+In the special "[[global quotient orbifold|global]]" case where $\mathcal{X} \simeq X\sslash G$ is a [[quotient stack]] ([[action groupoid]]) of a [[group action]], then the points of the inertia orbifold $\Lambda (X \sslash G)$ are the "inert" actions, consisting of elements of [[stabilizer subgroups]] $Stab_G(x)$ (also "isotropy groups") for points $x$ in $X$ (compare also the terminology "inertia group" for "[[stabilizer subgroup]]" as used in [[number theory]], e.g [here](https://en.wikipedia.org/wiki/Ramification_group#Decomposition_group_and_inertia_group)).
 
 
 ## Definition
