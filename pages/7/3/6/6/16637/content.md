@@ -205,7 +205,7 @@ On [[coset]]-realizations:
 
 * {#Choquet-Bruhat+DeWitt-Morette00} [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, Part II, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
 
-* {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 – Published 31 January 1983 ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
+* {#AwadaDuffPope83} [[Moustafa A. Awada]], [[Mike Duff]], [[Christopher Pope]], *$N=8$ Supergravity Breaks Down to $N=1$*, Phys. Rev. Lett. **50** 5 (1983) 294-297 &lbrack;[doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294)&rbrack;
 
 * {#DuffNilssonPope83} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Spontaneous Supersymmetry Breaking by the Squashed Seven-Sphere_, Phys. Rev. Lett. 50, 2043 – Published 27 June 1983; Erratum Phys. Rev. Lett. 51, 846  ([doi:10.1103/PhysRevLett.50.2043](https://doi.org/10.1103/PhysRevLett.50.2043))
 
