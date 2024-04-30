@@ -216,13 +216,6 @@ By the recursion principle of the empty type, for every type $P$, the type $\emp
 $$\emptyset \simeq [\emptyset] \simeq \left(\prod_{P:\mathrm{Prop}} (\emptyset \to P) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} P\right)$$
 \end{proof}
 
-### The empty type as a univalent universe
-
-The empty type can be represented as a univalent universe. We [[inductive definition|inductively define]] the type family $x:\mathbb{0} \vdash \mathrm{El}_\mathbb{0}(x) \; \mathrm{type}$ by defining 
-$$\mathrm{El}_\mathbb{0}(*) \coloneqq \mathbb{0}$$
-The extensionality principle for the unit type then is simply the [[univalence axiom]]:
-$$\mathrm{ext}_\mathbb{0}:\prod_{x:\mathbb{0}} \prod_{y:\mathbb{0}} (x =_\mathbb{0} y) \simeq (\mathrm{El}_\mathbb{0}(x) \simeq \mathrm{El}_\mathbb{0}(y))$$
-The empty type $\mathbb{0}$ represents the empty universe, the universe with no elements up to identification and thus no small types. Thus, the univalence axiom is trivially true. 
 
 ## Related concepts
 
