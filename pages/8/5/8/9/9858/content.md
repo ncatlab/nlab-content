@@ -46,4 +46,8 @@ A cotorsion pair $(\mathcal{D},\mathcal{E})$ is called **complete** if it has en
 
 * [[Mark Hovey]], _Cotorsion pairs and model categories_, Contemp. Math. __436__ (2007) 277-296 [pdf](http://homepages.math.uic.edu/~bshipley/hovey.pdf) [gBooks](https://books.google.hr/books?id=UZ8bCAAAQBAJ) [doi](https://doi.org/10.1090/conm/436/08413)
 
+On the generalization of $n$-cotorsion pairs:
+
+* Huimin Chang, Panyue Zhou. *Mutation of n-cotorsion pairs in triangulated categories* (2024). ([arXiv:2404.18336](https://arxiv.org/abs/2404.18336)).
+
 [[!redirects cotorsion pairs]]
