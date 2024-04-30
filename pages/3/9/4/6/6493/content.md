@@ -57,7 +57,7 @@ An _inertia orbifold_ $\Lambda \mathcal{X}$ is (a particular representative of) 
   ]
 \end{tikzcd}
 
-In the special "[[global quotient orbifold|global]]" case where $\mathcal{X} \simeq X\sslash G$ is a [[quotient stack]] ([[action groupoid]]) of a [[group action]], then the points of the inertia orbifold $\Lambda (X \sslash G)$ are the "inert" actions, consisting of elements of [[stabilizer subgroups]] $Stab_G(x)$ (also "isotropy groups") for points $x$ in $X$ (compare also the terminology "inertia group" for "[[stabilizer subgroup]]" as used in [[number theory]], e.g [here](https://en.wikipedia.org/wiki/Ramification_group#Decomposition_group_and_inertia_group)).
+In the special "[[global quotient orbifold|global]]" case where $\mathcal{X} \simeq X\sslash G$ is a [[quotient stack]] ([[action groupoid]]) of a [[group action]], then the points of the inertia orbifold $\Lambda (X \sslash G)$ are the "inert" actions, consisting of elements of [[stabilizer subgroups]] $Stab_G(x)$ (also "isotropy groups") for points $x$ in $X$ (compare also the terminology "inertia group" for [[stabilizer subgroups]] used in [[number theory]], e.g [here](https://en.wikipedia.org/wiki/Ramification_group#Decomposition_group_and_inertia_group)).
 
 
 ## Definition
