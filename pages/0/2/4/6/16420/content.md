@@ -29,7 +29,8 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 On [[D=6 supergravity]]:
 
-* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
+* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], *Tensor and Vector Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. B **519** (1998) 115-140 &lbrack;[arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059), <a href="https://doi.org/10.1016/S0550-3213(97)00837-7">doi:10.1016/S0550-3213(97)00837-7</a>&rbrack;
+
 
 Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of their [[AdS-CFT duality|AdS-CFT dual]] [[gravity]]/[[string theory]] incarnation:
 
