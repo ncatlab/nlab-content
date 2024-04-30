@@ -47,9 +47,6 @@ The above comparison between OTT and HoTT is taken from
 
 * [[Dan Licata]], _[comment](http://homotopytypetheory.org/2012/11/12/abstract-types-with-isomorphic-types/#comment-2476)_ (2012)
 
-A proof assistant implementing an observational type theory with both internal and external [[parametricity]] of variable [[arity]]:
-
-* [Narya](https://github.com/mikeshulman/narya)
 
 [[!redirects observational type theory]]
 [[!redirects observational type theories]]
