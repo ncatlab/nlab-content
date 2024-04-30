@@ -205,7 +205,7 @@ relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+mo
 
 The first discussion of [[KK-compactification]] of [[11d supergravity]] on  [[fibers]] with [[G2-holonomy]] is due to:
 
-* {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 (1983) ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
+* {#AwadaDuffPope83} [[Moustafa A. Awada]], [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. **50** 5 (1983) 294  &lbrack;[doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294)&rbrack;
 
 * [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Spontaneous Supersymmetry Breaking by the Squashed Seven-Sphere_, Phys. Rev. Lett. 50, 2043 (1983) ([doi:10.1103/PhysRevLett.50.2043](https://doi.org/10.1103/PhysRevLett.50.2043), [erratum](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.846))
 
