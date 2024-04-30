@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -53,15 +54,21 @@ Formulation on [[superspace]]:
 
 * [[Gianguido Dall'Agata]], [[Kurt Lechner]], *$N = 1$, $D = 6$ Supergravity: Duality and non Minimal Couplings*, Nucl. Phys. B **511** (1998) 326-352 &lbrack;[arXiv:hep-th/9707236](https://arxiv.org/abs/hep-th/9707236), <a href="https://doi.org/10.1016/S0550-3213(97)00719-0">doi:10.1016/S0550-3213(97)00719-0</a>&rbrack;
 
+* [[William D. Linch III]], Gabriele Tartaglino-Mazzucchelli, *Six-dimensional Supergravity and Projective Superfields*, JHEP 1208 (2012) 075 &lbrack;[arXiv:1204.4195](https://arxiv.org/abs/1204.4195), <a href="https://doi.org/10.1007/JHEP08(2012)075">doi:10.1007/JHEP08(2012)075</a>&rbrack;
+
+* [[Cesar Arias]], [[William D. Linch III]], Alexander K. Ridgway: Appendix A in: *Superforms in Six-dimensional Superspace*,  J. High Energ. Phys. **2016** 16 (2016). &lbrack;[arXiv:1402.4823](https://arxiv.org/abs/1402.4823), <a href="https://doi.org/10.1007/JHEP05(2016)016">doi:10.1007/JHEP05(2016)016</a>&rbrack;
+
+* [[Cesar Arias]], *The Geometry of 6D, $\mathcal{N} = (1,0)$ Superspace and its Matter Couplings* &lbrack;[arXiv:1511.00335](https://arxiv.org/abs/1511.00335), [spire:1402402](https://inspirehep.net/literature/1402402)&rbrack;
+
+
 Further discussion:
 
-* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
+* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], *Tensor and Vector Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. B **519** (1998) 115-140 &lbrack;[arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059), <a href="https://doi.org/10.1016/S0550-3213(97)00837-7">doi:10.1016/S0550-3213(97)00837-7</a>&rbrack;
 
-
-* [[Fabio Riccioni]], [[Augusto Sagnotti]], _Some Properties of Tensor Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. Proc. Suppl. 67 (1998) 68-73 ([arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077))
+* [[Fabio Riccioni]], [[Augusto Sagnotti]], *Some Properties of Tensor Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. Proc. Suppl. **67** (1998) 68-73 &lbrack;[arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077), <a href="https://doi.org/10.1016/S0920-5632(98)00121-2">doi:10.1016/S0920-5632(98)00121-2</a>&rbrack;
  
+* [[Fabio Riccioni]], *All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B **605** (2001) 245-265 &lbrack;[arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074), <a href="https://doi.org/10.1016/S0550-3213(01)00199-7">doi:10.1016/S0550-3213(01)00199-7</a>&rbrack;
 
-* [[Fabio Riccioni]], _All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B605 (2001) 245-265 ([arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074))
 
 * Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
 
