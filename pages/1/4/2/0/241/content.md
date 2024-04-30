@@ -291,7 +291,7 @@ These are also called Giraud frames in
 
 On 2-monadicity of the opposite of the 2-category of Grothendieck toposes:
 
-* {BungeCarboni1995} [[Marta Bunge]], [[Aurelio Carboni]], _The Symmetric Topos_  ,  JPAA **105** (1995) pp.233-249.
+* {#BungeCarboni1995} [[Marta Bunge]], [[Aurelio Carboni]], _The Symmetric Topos_  ,  JPAA **105** (1995) pp.233-249.
 
 On enrichment of the 2-category of Grothendieck toposes:
 
