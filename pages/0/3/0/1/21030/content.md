@@ -107,6 +107,8 @@ See also
 
 * Shota Komatsu, Adrien Martina, João Penedones, Noé Suchel, Antoine Vuignier, Xiang Zhao, *Gravity from quantum mechanics of finite matrices* &lbrack;[arXiv:2401.16471](https://arxiv.org/abs/2401.16471)&rbrack;
 
+* Chi-Ming Chang, *Witten index of BMN matrix quantum mechanics* &lbrack;[arXiv:2404.18442](https://arxiv.org/abs/2404.18442)&rbrack;
+
 
 
 
