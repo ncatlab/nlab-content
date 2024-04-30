@@ -5,11 +5,11 @@
 
 On [[D=6 supergravity]]:
 
-* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
+* [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], *Tensor and Vector Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. B **519** (1998) 115-140 &lbrack;[arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059), <a href="https://doi.org/10.1016/S0550-3213(97)00837-7">doi:10.1016/S0550-3213(97)00837-7</a>&rbrack;
 
-* [[Fabio Riccioni]], [[Augusto Sagnotti]], _Some Properties of Tensor Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. Proc. Suppl. 67 (1998) 68-73 ([arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077))
-
-* [[Fabio Riccioni]], _All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B605 (2001) 245-265 ([arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074))
+* [[Fabio Riccioni]], [[Augusto Sagnotti]], *Some Properties of Tensor Multiplets in Six-Dimensional Supergravity*, Nucl. Phys. Proc. Suppl. **67** (1998) 68-73 &lbrack;[arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077), <a href="https://doi.org/10.1016/S0920-5632(98)00121-2">doi:10.1016/S0920-5632(98)00121-2</a>&rbrack;
+ 
+* [[Fabio Riccioni]], *All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B **605** (2001) 245-265 &lbrack;[arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074), <a href="https://doi.org/10.1016/S0550-3213(01)00199-7">doi:10.1016/S0550-3213(01)00199-7</a>&rbrack;
 
 On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [[double dimensional reduction]]:
 
