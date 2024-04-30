@@ -127,7 +127,7 @@ On comparing the models:
 
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
 
-* {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, 2019 ([pdf](https://arxiv.org/pdf/1911.05844.pdf))
+* {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, 2019 ([arXiv:1911.05844](https://arxiv.org/abs/1911.05844))
 
 Discussion of implementation in the [[proof assistant]] [[Cubical Agda]]:
 
