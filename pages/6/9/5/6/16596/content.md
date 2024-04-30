@@ -14,8 +14,12 @@ Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-32
 
 * {#BBDFLPPRRTZ} L. Bonora, M. Bregola, [[Riccardo D'Auria]], [[Pietro Fre]], [[Kurt Lechner]], [[Paolo Pasti]], I. Pesando, M. Raciti, F. Riva, [[Mario Tonin]] and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B **277** (1992) &lbrack;[[BonoraSuperGS.pdf:file]]&rbrack;
 
-
 * {#LechnerTonin08} [[Kurt Lechner]], [[Mario Tonin]], _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021 (2008) &lbrack;[arXiv:0802.3869](https://arxiv.org/abs/0802.3869)&rbrack;
+
+Formulation of [[D=6 N=1 supergravity]] on [[superspace]]:
+
+* [[Gianguido Dall'Agata]], [[Kurt Lechner]], *$N = 1$, $D = 6$ Supergravity: Duality and non Minimal Couplings*, Nucl.Phys. B **511** (1998) 326-352 &lbrack;[arXiv:hep-th/9707236](https://arxiv.org/abs/hep-th/9707236), <a href="https://doi.org/10.1016/S0550-3213(97)00719-0">doi:10.1016/S0550-3213(97)00719-0</a>&rbrack;
+
 
 On [[anyons]] described by [[Chern-Simons theory]]:
 
@@ -46,14 +50,17 @@ On the [[Green-Schwarz sigma-model]] for the [[M5-brane]]:
 
 * [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
+
 On [[intersecting brane|intersecting]] [[M2-M5 brane bound states]]:
 
 * [[Kurt Lechner]], _Intersecting M2- and M5-branes_, Phys. Lett. B589 (2004) 147-154 ([arXiv:hep-th/0402078](https://arxiv.org/abs/hep-th/0402078), [doi:10.1016/j.physletb.2004.03.056](https://doi.org/10.1016/j.physletb.2004.03.056))
 
 
-
-## Related $n$Lab entries
+## Related entries
 
 * [[M5-brane]]
 
+
+
 category: people
+
