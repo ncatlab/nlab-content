@@ -14,8 +14,18 @@
 
 ## Idea
 
-A _braided monoidal functor_ is a [[functor]] $F : C \to D$ between [[braided monoidal categories]] that is a [[monoidal functor]] which respects the braiding on both sides.
+A _braided monoidal functor_ is a [[functor]] $F : C \to D$ between [[braided monoidal categories]] that is a [[monoidal functor]] which respects the braiding on both sides, i.e. satisfies the law:
 
+\begin{tikzcd}
+	{F(x) \otimes F(y)} && {F(y) \otimes F(x)} \\
+	{F(x \otimes y)} && {F(y \otimes x)}
+	\arrow["{\beta'_{F(x),F(y)}}", from=1-1, to=1-3]
+	\arrow["{\mu_{x,y}}"', from=1-1, to=2-1]
+	\arrow["{\mu_{y,x}}", from=1-3, to=2-3]
+	\arrow["{F(\beta_{x,y})}"', from=2-1, to=2-3]
+\end{tikzcd}
+
+where $\beta$ is braiding on $C$, $\beta'$ is braiding on $D$, and $\mu$ is the [[monoidal functor|lax monoidal structure]] on $F$.
 
 ## Properties
 
