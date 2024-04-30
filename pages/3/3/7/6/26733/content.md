@@ -5,8 +5,8 @@
 
 ## Idea
 
-[[cyclic group of order 2|$C_2$]]-[[equivariant homotopy theory|equivariant]] [[homotopy groups of spheres]] are particularly amenable to study because they are computed in a range by $\mathbb{R}$-[[motivic homotopy theory|motivic]] homotopy groups via real [Betti realization](motivic+homotopy+theory#RealizationFunctors).
-
+[[cyclic group of order 2|$C_2$]]-[[equivariant homotopy theory|equivariant]] [[homotopy groups of spheres]] are particularly amenable to study because they are computed in a range by $\mathbb{R}$-[[motivic homotopy theory|motivic]] homotopy groups via real [Betti realization](motivic+homotopy+theory#RealizationFunctors) with its Galois action;
+this is special to $C_2$ among finite groups, since the Artin-Schreier theorem implies that it is the only nontrivial finite group occurring as an absolute Galois groups.
 (...)
 
 ## $\mathrm{RO}(G)$-graded vs Mackey functor homotopy groups
@@ -93,11 +93,11 @@ By relating the $\mathbb{R}$-motivic and $C_2$-equivariant Adams $E_\infty$-page
 Due to [Bredon 67](#Bredon67), as recalled e.g. in section 3.3 of [Guillou-Isaksen 24](#Guillou24), when $c \leq -2$ and $s \geq 0$, there are periodicity isomorphisms which recognize negative coweight $C_2$-equivariant homotopy groups as $\rho$-power torsion subgroups of positive-coweight groups.
 (...)
 
-### The region $s \leq -1$
+### The region $(s,c) \leq (-1,-1)$
+The [spectral Mackey functor theorem](https://ncatlab.org/nlab/show/Mackey+functor#spectral_mackey_functors) quickly shows that any map $S^{-n - m\sigma} \rightarrow S^0$ is nullhomotopic when $n,m \in \mathbb{Z}_{\gt 0}$.
 
-(...)
 
-### The region $-1 \leq c \leq \frac{s-5}{2}$ for small $s$
+## The region $-1 \leq c \leq \frac{s-5}{2}$ for small $s$
 
 (...)
 
