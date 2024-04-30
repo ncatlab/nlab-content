@@ -36,6 +36,8 @@ The study of $Vect$ is called _[[linear algebra]]_.
 
 For a field $k$, the category $Vect_k$ is [[ cocomplete category | cocomplete ]]. 
 
+There exist variants with better category-theoretic properties. One example is the category of *bornological* vector spaces, which is both [[cocomplete category | cocomplete ]] and cocomplete, and whose tensor product admits a corresponding [[internal hom]]. See e.g. [Houzel 1973](#Houzel73), [Meyer 1999](#Meyer99), [Meyer 2004](#Meyer04) for more.
+
 ### Splitting lemma
 
 Assuming the [[axiom of choice]] (and essentially by the [[basis theorem]]):
@@ -73,6 +75,16 @@ $$
   Vect(\ast) \simeq Vect
   \,.
 $$
+
+## References
+
+On bornological vector spaces:
+
+* {#Houzel73} Christian Houzel. *Espaces analytiques relatifs et throrrme de finitude*. Math. Ann. v.205 (1973), p.13-54.
+
+* {#Meyer99} Ralf Meyer. *Analytic cyclic cohomology* (1999). ([arXiv:math/9906205](https://arxiv.org/abs/math/9906205)).
+
+* {#Meyer04} Ralf Meyer. *Embeddings of derived categories of bornological modules* (2004). ([arXiv:math/0410596](https://arxiv.org/abs/math/0410596)).
 
 
 category: category
