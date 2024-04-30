@@ -43,17 +43,23 @@
 
 ### General
 
+Formulation on [[superspace]]:
+
+* [[Moustafa A. Awada]], [[Paul Townsend]], [[Germán Sierra]]:  *Six-dimensional simple and extended chiral supergravity in superspace*, Class. Quantum Grav. **2** (1985) L85 &lbrack;[doi:10.1088/0264-9381/2/4/005](https://iopscience.iop.org/article/10.1088/0264-9381/2/4/005)&rbrack;
+
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §III.7 in: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;§III.7: [[CastellaniDAuriaFre-ChIII7.pdf:file]]&rbrack;
 
+  > (in [[D'Auria-Fré-Regge formulation of supergravity]])
 
-  > (in [[D'Auria-Fré/Regge formulation of supergravity]])
+* [[Gianguido Dall'Agata]], [[Kurt Lechner]], *$N = 1$, $D = 6$ Supergravity: Duality and non Minimal Couplings*, Nucl. Phys. B **511** (1998) 326-352 &lbrack;[arXiv:hep-th/9707236](https://arxiv.org/abs/hep-th/9707236), <a href="https://doi.org/10.1016/S0550-3213(97)00719-0">doi:10.1016/S0550-3213(97)00719-0</a>&rbrack;
+
+Further discussion:
 
 * [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
 
 
 * [[Fabio Riccioni]], [[Augusto Sagnotti]], _Some Properties of Tensor Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. Proc. Suppl. 67 (1998) 68-73 ([arXiv:hep-th/9711077](https://arxiv.org/abs/hep-th/9711077))
  
-
 
 * [[Fabio Riccioni]], _All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B605 (2001) 245-265 ([arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074))
 
@@ -64,6 +70,8 @@
   > (relation to [[contact geometry]])
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+
+
 
 {#ReferencesFourZero} For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
 
@@ -105,3 +113,7 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 [[!redirects 6d supergravity]]
 
 [[!redirects 6-dimensional supergravity]]
+
+[[!redirects D=6 N=1 supergravity]]
+
+
