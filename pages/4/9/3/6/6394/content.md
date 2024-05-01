@@ -22,6 +22,11 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 * [[Paul Howe]], *Supergravity in superspace*, Nuclear Physics B **199** 2 (1982) 309-364 \[<a href="https://doi.org/10.1016/0550-3213(82)90349-2">doi:10.1016/0550-3213(82)90349-2</a>\]
 
+On $D=6$ [[spin representations]] and [[supersymmetry]]:
+
+* [[Paul Howe]], [[Germán Sierra]], [[Paul Townsend]], *Supersymmetry in six dimensions*, Nuclear Physics B
+**221** 2 (1983) 331-348 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90582-5">doi:10.1016/0550-3213(83)90582-5</a>&rbrack;
+
 
 On [[Landau-Ginzburg models]] in the sense of [[string theory]] ([[sigma models]] with certain [[potential energy|potentials]]):
 
