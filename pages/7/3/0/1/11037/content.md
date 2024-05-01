@@ -150,7 +150,7 @@ The notion of the cut rule as a [[structural inference rule]] originates (under 
 
 * Wikipedia, _[Cut-elimination theorem](http://en.wikipedia.org/wiki/Cut-elimination_theorem)_
 
-* {#Dos99} Kosta Do&#353;en, _Cut Elimination in Categories_ Dordrecht: Springer Netherlands, 1999.
+* {#Dos99} [[Kosta Došen]], *Cut Elimination in Categories*, Trends in Logic **6**, Springer (1999) &lbrack;[doi:10.1007/978-94-017-1207-1](https://doi.org/10.1007/978-94-017-1207-1)&rbrack;
 
 [[!redirects cut-elimination]]
 [[!redirects cut elimination]]
