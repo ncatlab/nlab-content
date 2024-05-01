@@ -34,9 +34,11 @@ The study of $Vect$ is called _[[linear algebra]]_.
 
 ## Properties
 
-For a field $k$, the category $Vect_k$ is [[ cocomplete category | cocomplete ]] and [[closed monoidal category | closed monoidal]]. 
+### General
 
-There exist variants with better category-theoretic properties. One example is the category of *bornological* vector spaces, which is both [[complete category | complete ]], [[cocomplete category | cocomplete]] and [[closed monoidal category | closed monoidal]]. See e.g. [Houzel 1973](#Houzel73), [Meyer 1999](#Meyer99), [Meyer 2004](#Meyer04) for more.
+For any field $k$, the category $Vect_k$ is [[complete category|complete]], [[cocomplete category| cocomplete]] and [[closed monoidal category|closed monoidal]] with respect to the [[tensor product of vector spaces]].
+
+
 
 ### Splitting lemma
 
@@ -76,15 +78,12 @@ $$
   \,.
 $$
 
-## References
+### Topological vector spaces
 
-On bornological vector spaces:
+There are various categories of [[topological vector spaces]], for instance [[bornological topological vector spaces]].
 
-* {#Houzel73} Christian Houzel. *Espaces analytiques relatifs et throrrme de finitude*. Math. Ann. v.205 (1973), p.13-54.
 
-* {#Meyer99} Ralf Meyer. *Analytic cyclic cohomology* (1999). ([arXiv:math/9906205](https://arxiv.org/abs/math/9906205)).
 
-* {#Meyer04} Ralf Meyer. *Embeddings of derived categories of bornological modules* (2004). ([arXiv:math/0410596](https://arxiv.org/abs/math/0410596)).
 
 
 category: category
