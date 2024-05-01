@@ -68,6 +68,8 @@ possibilities of equipping $X$ with a topology $\tau \subset P(X)$, and hence ma
 
 [[!redirects finer topologies]]
 
+[[!redirects finest topology]]
+
 [[!redirects coarser topology]]
 [[!redirects coarser topologies]]
 
