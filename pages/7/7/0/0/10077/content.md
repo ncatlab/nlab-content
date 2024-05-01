@@ -190,7 +190,7 @@ A duoidal category is the same as an [[intercategory]] with one object and only 
 
 A related concept is discussed in:
 
-* Kosta Došen and Zoran Petrić, _Intermutation_, Applied Categorical Structures 20 (2012): 43-95.
+* [[Kosta Došen]], Zoran Petrić: _Intermutation_, Applied Categorical Structures **20** (2012) 43-95 &lbrack;[arXiv:math/0701325](https://arxiv.org/abs/math/0701325), [doi:10.1007/s10485-010-9228-x](https://doi.org/10.1007/s10485-010-9228-x)&rbrack;
 
 
 [[!redirects duoidal category]]
