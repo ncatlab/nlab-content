@@ -99,9 +99,7 @@ Streamlined proof and exposition is in
 
 The case of 2-component quaternionic spinors in 6d (see at [[SL(2,H)]]) is discussed in more detail in:
 
-* [[Joás Venâncio]], [[Carlos Batista]], _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
-
-
+* [[Joás Venâncio]], [[Carlos Batista]], *Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes*, Advances in Applied Clifford Algebras **31** 71 (2021) &lbrack;[arXiv:2007.04296](https://arxiv.org/abs/2007.04296), [doi:10.1007/s00006-021-01172-1](https://doi.org/10.1007/s00006-021-01172-1)&rbrack;
 
 Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
 
