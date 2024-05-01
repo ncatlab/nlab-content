@@ -17,14 +17,23 @@ On [[D=6 supergravity]] formulated on [[superspace]]:
 * [[Moustafa A. Awada]], [[Paul Townsend]], [[Germán Sierra]]:  *Six-dimensional simple and extended chiral supergravity in superspace*, Class. Quantum Grav. **2** (1985) L85 &lbrack;[doi:10.1088/0264-9381/2/4/005](https://iopscience.iop.org/article/10.1088/0264-9381/2/4/005)&rbrack;
 
 
-On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
+On $D=6$ [[spin representations]] and [[supersymmetry]]:
 
-* A. Achucarro, [[Paul Townsend]], _A Chern-Simons Action for Three-Dimensional anti-De Sitter Supergravity Theories_, Phys. Lett. B180 (1986) 89 (<a href="https://doi.org/10.1016/0370-2693(86)90140-1">doi:10.1016/0370-2693(86)90140-1</a>, [spire:21208](http://inspirehep.net/record/21208))
+* [[Paul Howe]], [[Germán Sierra]], [[Paul Townsend]], *Supersymmetry in six dimensions*, Nuclear Physics B
+**221** 2 (1983) 331-348 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90582-5">doi:10.1016/0550-3213(83)90582-5</a>&rbrack;
 
 
 On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
 * [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
+
+
+On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
+
+* A. Achucarro, [[Paul Townsend]], _A Chern-Simons Action for Three-Dimensional anti-De Sitter Supergravity Theories_, Phys. Lett. B180 (1986) 89 (<a href="https://doi.org/10.1016/0370-2693(86)90140-1">doi:10.1016/0370-2693(86)90140-1</a>, [spire:21208](http://inspirehep.net/record/21208))
+
+
+
 
 Early discussion of the [[duality between type IIA string theory and M-theory]] in view of [[double dimensional reduction]] of the [[M2-brane]]:
 
@@ -74,7 +83,7 @@ On [[supersymmetry and division algebras]], the corresponding [twistor space](tw
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[string theory]], [[M-theory]]
 
