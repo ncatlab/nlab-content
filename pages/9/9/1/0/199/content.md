@@ -34,9 +34,9 @@ The study of $Vect$ is called _[[linear algebra]]_.
 
 ## Properties
 
-For a field $k$, the category $Vect_k$ is [[ cocomplete category | cocomplete ]]. 
+For a field $k$, the category $Vect_k$ is [[ cocomplete category | cocomplete ]] and [[closed monoidal category | closed monoidal]]. 
 
-There exist variants with better category-theoretic properties. One example is the category of *bornological* vector spaces, which is both [[cocomplete category | cocomplete ]] and cocomplete, and whose tensor product admits a corresponding [[internal hom]]. See e.g. [Houzel 1973](#Houzel73), [Meyer 1999](#Meyer99), [Meyer 2004](#Meyer04) for more.
+There exist variants with better category-theoretic properties. One example is the category of *bornological* vector spaces, which is both [[complete category | complete ]], [[cocomplete category | cocomplete]] and [[closed monoidal category | closed monoidal]]. See e.g. [Houzel 1973](#Houzel73), [Meyer 1999](#Meyer99), [Meyer 2004](#Meyer04) for more.
 
 ### Splitting lemma
 
