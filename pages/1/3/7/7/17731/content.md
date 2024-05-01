@@ -2657,7 +2657,7 @@ The traditional component discussion in terms of a [[charge conjugation matrix]]
 
 * {#VanProeyen99} [[Antoine Van Proeyen]], section 3 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
-* {#Laenen} [[Eric Laenen]] _Classical Field Theory_ ([web](http://www.nikhef.nl/~t45/ftip/)) chapter on _Gamma matrices_ ([pdf](http://www.nikhef.nl/~t45/ftip/AppendixE.pdf))
+* {#Laenen} [[Eric Laenen]], *Classical Field Theory* ([web](http://www.nikhef.nl/~t45/ftip/)) chapter on _Gamma matrices_ ([pdf](http://www.nikhef.nl/~t45/ftip/AppendixE.pdf))
 
 The relation to the concept of real structures on complex Spin-representations is highlighted in
 
