@@ -37,7 +37,7 @@ In one more well-developed version of flat space holography, [[scattering amplit
 
 Early comments:
 
-* [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[String98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
+* [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[Strings98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
 
   > (by the title, apparently originally intended to touch on [[AdS-QCD]], but de facto ending with focus on the problem of flat space holography)
 
