@@ -188,6 +188,10 @@ A duoidal category is the same as an [[intercategory]] with one object and only 
 
 * {#FrancoVasilakopoulou} [[Ignacio López Franco]] and [[Christina Vasilakopoulou]], _Duoidal categories, measuring comonoids and enrichment_, [arXiv:2005.01340](https://arxiv.org/abs/2005.01340) (2020).
 
+A related concept is discussed in:
+
+* Kosta Došen and Zoran Petrić, _Intermutation_, Applied Categorical Structures 20 (2012): 43-95.
+
 
 [[!redirects duoidal category]]
 [[!redirects duoidal categories]]
