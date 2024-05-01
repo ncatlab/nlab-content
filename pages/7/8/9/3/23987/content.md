@@ -2908,6 +2908,16 @@ Neumann algebras**
 
 \linebreak
 
+* [[Dmitry Melnikov]] (Federal University of Rio Grande do Norte, Brazil)
+
+  **Chern-Simons States and Quantum Information**
+
+  cf. [arXiv:2312.16683](https://arxiv.org/abs/2312.16683)
+
+  >  In this talk I will review the properties of [[quantum states]] in [[Chern-Simons theories]] from the perspective of [[topological quantum field theory]] paradigm. I will focus on the [[SU(2)|$SU(2)$]] theory but the discussion can be generalized to other [[gauge group|groups]] and other [[TQFTs]]. The discussion will single out a special class of "simple" states, whose properties are akin to the properties of classical geometry states in [[holography]] ([[AdS/CFT]]). [[quantum entanglement|Quantum entanglement]] and its properties will be discussed using the topological presentation, and I will give a few examples of the "topological engineering" of quantum resources and protocols. Time permitting I will also mention possible applications of the topological approach to the [[black hole information paradox]].
+
+\linebreak
+
 
 ## External presentations
  {#ExternalTalk}
