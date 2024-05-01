@@ -42,7 +42,7 @@ But things don\'t always work out this way.
 
 ## Parametric polymorphism
 
-In **parametric polymorphism**, one writes code to define a function *once*, which contains a "type variable" that can be instantiated at many different types to produce different functions.  For instance, we can define a function
+In **parametric polymorphism** or **parametricity**, one writes code to define a function *once*, which contains a "type variable" that can be instantiated at many different types to produce different functions.  For instance, we can define a function
 
 $$ first : A\times A \to A $$
 
@@ -75,6 +75,8 @@ for all functions $f$ with that signature ([Wadler 89](#Wadler89), figure 1).
 
 * [[logical relations]]
 
+* [[parametric dependent type theory]]
+
 ## References
 
 The distinction between ad hoc and parametric polymorphism is originally due to [[Christopher Strachey]]:
@@ -93,16 +95,11 @@ Theorems for free were explained in:
 
 * {#Wadler89} [[Philip Wadler]], _Theorems for free!_, in Proceedings of the fourth international conference on Functional programming languages and computer architecture (FPCA 1989). 1989. ([pdf](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf), [doi:10.1145/99370.99404](https://doi.org/10.1145/99370.99404))
 
-A recent paper extending Reynolds' notion of relational parametricity to dependent types:
-
-* [[Robert Atkey]], [[Neil Ghani]] and Patricia Johann, _A Relationally Parametric Model of Dependent Type Theory_, In Proceedings of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2014). 2014. ([web](http://bentnib.org/dtt-parametricity.html))
-
-A proof assistant implementing an [[observational type theory]] with both internal and external [[parametricity]] of variable [[arity]]:
-
-* [Narya](https://github.com/mikeshulman/narya)
+See also the references at [[parametric dependent type theory]] for the various notions of parametricity in various kinds of [[dependent type theories]]. 
 
 [[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
 [[!redirects parametric polymorphism]]
 [[!redirects polymorphic]]
+
 [[!redirects parametricity]]
