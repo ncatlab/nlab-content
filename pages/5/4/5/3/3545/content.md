@@ -20,43 +20,49 @@
 
 ## Definition
 
-A [[dg-algebra]] $A$ is a **formal dg-algebra** if in the [[homotopy category]] of the [[model structure on dg-algebras]] it is [[isomorphism|isomorphic]] 
+A [[dg-algebra]] $A$ is a **formal dg-algebra** if it is [[quasiisomorphism|quasi-isomorphic]] (i.e.: [[isomorphism|isomorphic]] in the [[homotopy category]] of the [[model structure on dg-algebras]])
 
 $$
-  A \stackrel{\simeq}{\to} H^\bullet(A)
-$$
-
-to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential). Since all dg-algebras are fibrant in the standard model, this is equivalent to the existence of a [[span]]
-
-$$
-  A \stackrel{\simeq_w}{\leftarrow} Q A \stackrel{\simeq}{\to}
+  A 
+  \xrightarrow{\;\;\; \simeq \;\;\;}
   H^\bullet(A)
 $$
 
-of [[quasi-isomorphism]]s of dg-algebras.
+to its [[chain homology and cohomology|chain (co)homology]] regarded as a dg-algebra with trivial differential. 
+
+Since all dg-algebras are fibrant in the standard model, this is equivalent to the existence of a [[span]]
+
+$$
+  A \overset{\;\; \simeq_w \;\;}{\leftarrow} 
+  Q A 
+  \overset{\;\; \simeq \;\;}{\rightarrow}
+  H^\bullet(A)
+$$
+
+of [[quasi-isomorphisms]] of dg-algebras.
 
 
 ## Examples
 
-In [[rational homotopy theory]] [[rational topological space]]s are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
+In [[rational homotopy theory]] [[rational topological spaces]] are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
 
 Examples are
 
-* compact [[Kähler manifolds]] (e.g. smooth projective varieties);
+* compact [[Kähler manifolds]] (e.g. smooth projective varieties),
 
-* [[Lie groups]];
+* [[Lie groups]],
 
-* [[classifying spaces]] $B G$ of [[Lie groups]] $G$;
+* [[classifying spaces]] $B G$ of [[Lie groups]] $G$,
 
-* some [[homogeneous spaces]] $G/H$
+* some [[homogeneous spaces]] $G/H$,
 
-* the unstable [[Thom spaces]] $M U_n$ and $M S O_n$
+* the unstable [[Thom spaces]] $M U_n$ and $M S O_n$,
 
 * the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, 
 
-  whose Sullivan minimal model is the dg-algebra on a single degree-2 generator with trivial differential.
+  whose Sullivan minimal model is the dg-algebra on a single degree-2 generator with trivial differential.,
 
-* [[the little n-disk operad is formal]]
+* [[the little n-disk operad is formal]].
 
 ## Related concepts
 
