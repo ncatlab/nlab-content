@@ -255,6 +255,8 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 * [[Lie algebra object]]
 
+* [[internal crossed module]]
+
 * [[internal locale]]
 
 * [[internal category]] 
