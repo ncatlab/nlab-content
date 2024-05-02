@@ -176,17 +176,27 @@ A duoidal category is the same as an [[intercategory]] with one object and only 
 
 ## References
 
-* [[Marcelo Aguiar]] and [[Swapneel Mahajan]], *Monoidal Functors, Species and Hopf Algebras*, [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf).  Here the notion is called a "2-monoidal category".
+* [[Marcelo Aguiar]], [[Swapneel Mahajan]], *Monoidal Functors, Species and Hopf Algebras*, [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf).  Here the notion is called a "2-monoidal category".
 
 * [[Richard Garner]], _Understanding the small object argument_, [arXiv](http://arxiv.org/abs/0712.0724).  Here the notion is called a "two-fold monoidal category", although [[iterated monoidal category|that term]] is also used for the case when the two units coincide.
 
-* [[Michael Batanin]] and [[Martin Markl]], _Centers and homotopy centers in enriched monoidal categories._ Advances in Mathematics 230 , 4-6 (2012), 1811–1858.  Here apparently the term "duoidal category" was introduced.
+* [[Michael Batanin]], [[Martin Markl]], _Centers and homotopy centers in enriched monoidal categories._ Advances in Mathematics __230__ , 4-6 (2012), 1811--1858.  Here apparently the term "duoidal category" was introduced.
 
-* [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_, [arXiv](http://arxiv.org/abs/1507.08710).  See also _Commutativity and tensor products of theories, monads, and operads_, talk at CT2013, [slides](https://www.dpmms.cam.ac.uk/~ill20/ct2013-talk.pdf)
+* T. Booker, [[Ross Street]], _Tannaka duality and convolution for duoidal categories_, Theory Appl. Categ., 28 (6) (2013) 166--205 [pdf](https://www.emis.de/journals/TAC/volumes/28/6/28-06.pdf) [arXiv:1111.5659](https://arxiv.org/abs/1111.5659)
 
-* Zoran Petri&#263; and [[Todd Trimble]] 2014, _Symmetric bimonoidal intermuting categories and $\omega \times \omega$ reduced bar constructions_, Applied Categorical Structures 22(3): 467-499, [arXiv:0906.2954](http://arxiv.org/abs/0906.2954)
+* [[Richard Garner]], [[Ignacio López Franco]], _Commutativity_, [arXiv:1507.08710](https://arxiv.org/abs/1507.08710).  See also _Commutativity and tensor products of theories, monads, and operads_, talk at CT2013, [slides](https://www.dpmms.cam.ac.uk/~ill20/ct2013-talk.pdf)
 
-* {#FrancoVasilakopoulou} [[Ignacio López Franco]] and [[Christina Vasilakopoulou]], _Duoidal categories, measuring comonoids and enrichment_, [arXiv:2005.01340](https://arxiv.org/abs/2005.01340) (2020).
+* Zoran Petri&#263; and [[Todd Trimble]] 2014, _Symmetric bimonoidal intermuting categories and $\omega \times \omega$ reduced bar constructions_, Applied Categorical Structures 22(3): 467-499, [arXiv:0906.2954](https://arxiv.org/abs/0906.2954)
+
+* {#FrancoVasilakopoulou} [[Ignacio López Franco]], [[Christina Vasilakopoulou]], _Duoidal categories, measuring comonoids and enrichment_, [arXiv:2005.01340](https://arxiv.org/abs/2005.01340) (2020).
+
+On bimonoids in duoidal categories
+
+* [[Gabriella Böhm]], _(Hopf) bimonoids in duoidal categories_, Chapter in _Hopf algebras and their generalizations from a category theoretical point of view_, Springer Lecture Notes in Mathematics __2226__ (2018) (chapter [doi](https://doi.org/10.1007/978-3-319-98137-6_7))
+
+* [[Gabriella Böhm]], Y. Chen, L. Zhang, _On Hopf monoids in duoidal categories_, J. Algebra __394__ (2013) 139--172 (2013) [MR3092715](https://mathscinet.ams.org/mathscinet/relay-station?mr=3092715) [doi](https://doi.org/10.1016%2Fj.jalgebra.2013.07.016)
+
+* Y. Chen, G. Böhm, _Weak bimonoids in duoidal categories_, J. Pure Appl. Math. __218__:12 (2014) 2240--2273 [doi](https://doi.org/10.1016/j.jpaa.2014.04.001)
 
 A related concept is discussed in:
 
