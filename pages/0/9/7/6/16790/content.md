@@ -22,13 +22,22 @@ The [[spacetime]] geometry of a [[black hole]] or [[black brane]] close to the [
 In the following "small" and "large" [[radius]] is in [[units]] of [[Planck length]] $\ell_P$ times a root of the integer charge ("number" $N$) of the branes, i.e. being "near" to the horizon means that 
 
 $$ 
-  r/\ell_P N^{1/k} \ll 1 
+  \frac
+    { r }
+    {
+      \ell_P \, N^{1/k}
+    } 
+  \;\ll\; 1 
 $$
 
 while "far" from the horizon means that 
 
 $$ 
-  r/\ell_P N^{1/k} \gg 1 
+  \frac
+    { r }
+    {  \ell_P \,  N^{1/k} } 
+  \;\gg\; 
+  1 
 $$
 
 (e.g. [AFFHS 98, (2), (7) and below (11)](#AFFHS98)).
