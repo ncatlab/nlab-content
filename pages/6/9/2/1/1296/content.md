@@ -47,7 +47,7 @@ __Serre subcategories in the strong sense__ are those nonempty full subcategorie
 ## References
 
 * {#Serre53} [[Jean-Pierre Serre]], *Groupes d'homotopie et classes de groupes abéliens*, Annals of Mathematics
-Second Series **58** 2 (1953), 258-294 &lbrack;[doi:10.2307/1969789](https://doi.org/10.2307/1969789)&rbrack;
+Second Series **58** 2 (1953) 258-294 &lbrack;[doi:10.2307/1969789](https://doi.org/10.2307/1969789)&rbrack;
 
 * [[The Stacks Project]], *[Serre subcategories](https://stacks.math.columbia.edu/tag/02MN)*
 
