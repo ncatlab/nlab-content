@@ -406,7 +406,7 @@ On original source is
 
 * G. Hochschild, _Lie algebra kernels and cohomology_, Amer. J. Math. __76__, n.3 (1954) 698--716.
 
-The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg--Mac Lane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with [[differential geometry]]:
+The notation/exposition in sections 2 and 3 is adapted from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg--Mac Lane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with [[differential geometry]]:
 
 *  [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, Extensions of Lie algebras ([math.DG/0005042](http://arxiv.org/abs/math/0005042))
 
@@ -416,5 +416,5 @@ A more conceptual picture is in a work of [[Danny Stevenson]] which extends also
 
 There is also
 
-* N. Inassaridze, E. Khmaladze, and M. Ladra, _Non-abelian Cohomology and Extensions of Lie Algebras_ Journal of Lie Theory,   Volume 18 (2008) 413&#8211;432 ([pdf](http://www.rmi.acnet.ge/~khmal/PAPERS/LieTheory2008.pdf))
+* N. Inassaridze, E. Khmaladze, M. Ladra, _Non-abelian cohomology and extensions of Lie algebras_ Journal of Lie Theory __18__ (2008) 413--432 ([pdf](http://www.rmi.acnet.ge/~khmal/PAPERS/LieTheory2008.pdf))
 
