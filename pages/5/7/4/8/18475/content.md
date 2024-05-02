@@ -96,6 +96,10 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 
 ### General
 
+The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), regarding [[AdS4/CFT3-duality]] from a [[condensed matter physics]]-perspective:
+
+* [[Christopher P. Herzog]], [[Pavel Kovtun]], [[Subir Sachdev]], [[Dam Thanh Son]], *Quantum critical transport, duality, and M-theory*, Phys. Rev. D **75** (2007) 085020 &lbrack;[arXiv:hep-th/0701036](https://arxiv.org/abs/hep-th/0701036), [doi:10.1103/PhysRevD.75.085020](https://doi.org/10.1103/PhysRevD.75.085020)&rbrack;
+
 
 Textbooks:
 
