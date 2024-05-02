@@ -65,7 +65,7 @@ The [[KK-compactification]] of vacuum [[11-dimensional supergravity]] on a _[[sm
 
 But when $Y$ is a $G_2$-[[orbifold]] then: 
 
-1. at an [[ADE singularity]] there is _[[enhanced gauge symmetry]] in that the [[gauge group]] (which a priori is copies of the [[abelian group]] $U(1)$ of the [[supergravity C-field]]) becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics below is grabbed));
+1. at an [[ADE singularity]] there is *[[enhanced gauge symmetry]]* in that the [[gauge group]] (which a priori is copies of the [[abelian group]] $U(1)$ of the [[supergravity C-field]]) becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics below is grabbed));
 
 1. at a (non-orbifold) [[conical singularity]] [[chiral fermions]] appear ([Witten 01, p. 3](#Witten01), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01), [Berglund-Brandhuber 02](#BerglundBrandhuber02),  [Bourjaily-Espahbodi 08](#BourjailyEspahbodi08)).
 
@@ -227,15 +227,15 @@ Dedicated [[string phenomenology]] for the case of compactification on [[G2-mani
 
 * {#AcharyaSpence00} [[Bobby Acharya]], B. Spence, _Flux, Supersymmetry and M theory on 7-manifolds_ ([arXiv:hep-th/0007213](http://arxiv.org/abs/hep-th/0007213))
 
-* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and four-dimensional physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([doi:10.1088/0264-9381/19/22/301](https://iopscience.iop.org/article/10.1088/0264-9381/19/22/301/meta), [pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and four-dimensional physics_,  Classical and Quantum Gravity **19** 22 (2002)  &lbrack;[doi:10.1088/0264-9381/19/22/301](https://iopscience.iop.org/article/10.1088/0264-9381/19/22/301/meta), [pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf)&rbrack;
 
-* {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large N Duality_, J. Math. Phys.42:3209-3220, 2001 ([arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256))
+* {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large $N$ Duality_, J. Math. Phys. **42** (2001) 3209-3220 &lbrack;[arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256)&rbrack;
 
-* [[Sergei Gukov]]. *Solitons, Superpotentials and Calibrations*. Nuclear Physics B Volume 574, Issues 1–2, 15 May 2000, Pages 169-188. ([doi](https://doi.org/10.1016/S0550-3213(00)00053-5))
+* [[Sergei Gukov]]. *Solitons, Superpotentials and Calibrations*. Nuclear Physics B **574** 1–2 (2000)  169-188. &lbrack;<a href="https://doi.org/10.1016/S0550-3213(00)00053-5">doi:10.1016/S0550-3213(00)00053-5</a>&rbrack;
 
 * {#BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
 
-* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177), [doi:10.4310/ATMP.2002.v6.n1.a1]( https://dx.doi.org/10.4310/ATMP.2002.v6.n1.a1))
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]]: _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. **6** (2001) &lbrack;[arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177), [doi:10.4310/ATMP.2002.v6.n1.a1]( https://dx.doi.org/10.4310/ATMP.2002.v6.n1.a1)&rbrack;
 
 * {#Witten01} [[Edward Witten]], _Anomaly Cancellation On Manifolds Of $G_2$ Holonomy_ ([arXiv:hep-th/0108165](http://arxiv.org/abs/hep-th/0108165))
 
@@ -399,7 +399,7 @@ instantons might yield [[de Sitter spacetime]].
 
 Suggestion that [[higher curvature corrections]] allow [[de Sitter spacetime]] vacua:
 
-* Johan Blåbäck, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, _Constructing stable de Sitter in M-theory from higher curvature corrections_ ([arXiv:1902.04053](https://arxiv.org/abs/1902.04053))
+* Johan Blåbäck, [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Suvendu Giri, _Constructing stable de Sitter in M-theory from higher curvature corrections_ ([arXiv:1902.04053](https://arxiv.org/abs/1902.04053))
 
 
 See also
