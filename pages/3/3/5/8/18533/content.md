@@ -17,18 +17,23 @@
 
 ## Definition
 
-Let $X \subset \mathbb{R}^n$ be an [[open subset]] of [[Euclidean space]]. One way to state the [[continuous function|continuity]] condition on a [[distribution]] $u$ on $X$, being a [[continuous linear functional]] on the space $C^\infty_c(X)$ of [[bump functions]] is to require that for all [[compact topological space|compact]] [[subspaces]] $K$ there exist constants $C$ and $k$ such that for any $b\in C^\infty_c(X)$ with support in $K$ the [[absolute value]] of $u(b)$ is bounded by $C$ times the [[suprema]] of the [[sums]] of the [[absolute values]] of all [[derivatives]] of $b$ of order bounded by $k$:
+Let $X \subset \mathbb{R}^n$ be an [[open subset]] of [[Euclidean space]]. One way to state the [[continuous function|continuity]] condition on a [[distribution]] $u$ on $X$ --- being a [[continuous linear functional]] on the space $C^\infty_c(X)$ of [[bump functions]] --- is to require that for all [[compact topological space|compact]] [[subspaces]] $K$ there exist constants $C$ and $k$ such that for any $b\in C^\infty_c(X)$ with [[support of a function|support]] in $K$ the [[absolute value]] of $u(b)$ is bounded by $C$ times the [[suprema]] of the [[sums]] of the [[absolute values]] of all [[derivatives]] of $b$ of order bounded by $k$:
 
 $$
   \underset{ {K \subset X} \atop {\text{compact}}}{\forall}
   \left(
     \underset{ {C_K \in \mathbb{R}} \atop {k_K \in \mathbb{N}} }{\exists}
     \left(
-      \underset{b \in C^\infty_c(X)}{\forall}
+      \underset{b \in C^\infty_c(K)}{\forall}
       \left(
         {\vert u(b) \vert} 
         \leq
-        C_K \underset{\vert \alpha\vert \leq k_K}{\sum}sup(\partial^\alpha b)
+        C_K 
+        \underset{
+          \vert \alpha\vert \leq k_K
+        }
+        {\sum}
+        sup(\partial^\alpha b)
       \right)
     \right)
   \right)
@@ -46,7 +51,7 @@ $$
   \left(
     \underset{ {C_K \in \mathbb{R}}  }{\exists}
     \left(
-      \underset{b \in C^\infty_c(X)}{\forall}
+      \underset{b \in C^\infty_c(K)}{\forall}
       \left(
         {\vert u(b) \vert} 
         \leq
@@ -93,7 +98,7 @@ A [[point-supported distribution]] is a sum of [[derivatives]] of the [[delta di
 
 ## References
 
-* {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+* {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer (1983, 1990)
 
 
 [[!redirects order of distributions]]
