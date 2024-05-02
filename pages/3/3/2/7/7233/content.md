@@ -333,12 +333,11 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 
 When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a fibration by a [[K3 surface]] $X_{K3}$. 
 
-For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]].
-([Acharya 98, p.3](#Acharya98)). (For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].)
+For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]] ([Acharya 1098, p.3](#Acharya98)). For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].
 
-In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local [[G2-orbifolds]] are discussed in some detail in ([Atiyah-Witten 01](#AtiyahWitten01)). Families of examples are constructed in [Reidegeld 15](#Reidegeld15).
+In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local [[G2-orbifolds]] are discussed in some detail by [Atiyah & Witten 2001](#AtiyahWitten01). Families of examples are constructed in [Reidegeld 2015](#Reidegeld15).
 
-Codimension-4 ADE singularities in $G_2$-manifolds are discussed in ([Acharya-Gukov 04, section 5.1](AcharyaGukov04), [Barrett 06](#Barrett06)).
+Codimension-4 ADE singularities in $G_2$-manifolds are discussed by [Acharya & Gukov 2004, section 5.1](AcharyaGukov04) and [Barrett 2006](#Barrett06).
 
 ## Properties
 
