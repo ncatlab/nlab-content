@@ -10,7 +10,7 @@ On the category of [[internal categories]] in a [[Malcev category]]:
 
 * {#Gran99} [[Marino Gran]], _Internal categories in Mal’cev categories_, Journal of Pure and Applied Algebra **143** 1-3 (1999) 221-229 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00112-1">doi:10.1016/S0022-4049(98)00112-1</a>&rbrack;
 
-For the characterisation of [[categories]] which are [[localizations]] of [[Maltsev varieties]]:
+For the characterisation of [[categories]] which are [[localization of a category|localizations]] of [[Maltsev varieties]]:
 
 * [[Marino Gran]] and [[Enrico Vitale]], _Localizations of Maltsev varieties_, Theory and Applications of Categories **5** 12 (1999) 281-291 &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1999/n12/5-12abs.html)&rbrack;
 
@@ -24,6 +24,11 @@ On [[regular categories]] and [[semi-abelian categories]]:
 
 
 * [[Tomas Everaert]], [[Marino Gran]], [[Tim Van der Linden]], _Higher Hopf Formulae for Homology via Galois Theory_, Adv. Math. __223__, 10 (2008) 4171-4190, <a href="https://doi.org/10.1016/j.aim.2007.11.001">doi</a>
+
+On [[precrossed modules]] in [[Malcev categories]]:
+
+* T. Everaerta, [[Marino Gran]], _Precrossed modules and Galois theory_, J. Algebra __297__ 1 (2006) 292-309 &lbrack;[doi:10.1016/j.jalgebra.2005.06.034](http://dx.doi.org/10.1016/j.jalgebra.2005.06.034)&rbrack;
+
 
 On [[Goursat categories]]:
 
