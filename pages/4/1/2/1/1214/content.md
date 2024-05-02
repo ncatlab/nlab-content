@@ -45,6 +45,8 @@ The category of [[internal categories]] and functors in a Mal’cev category is 
 
 * [[Goursat category]]
 
+* [[internal crossed module]]
+
 ## References
 
 * {#BorceuxBourn04} [[Francis Borceux]], [[Dominique Bourn]], _[[Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
@@ -53,6 +55,8 @@ The category of [[internal categories]] and functors in a Mal’cev category is 
 
 * {#Gran99} [[Marino Gran]], _Internal categories in Mal’cev categories_, Journal of Pure and Applied Algebra **143** 1-3 (1999) 221-229 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00112-1">doi:10.1016/S0022-4049(98)00112-1</a>&rbrack;
 
+[[!redirects Malcev categories]]
+
 [[!redirects Mal'cev categories]]
 [[!redirects Mal'cev category]]
 [[!redirects Mal'cev category]]
@@ -60,3 +64,6 @@ The category of [[internal categories]] and functors in a Mal’cev category is 
 [[!redirects Malcev category]]
 [[!redirects Maltsev category]]
 [[!redirects Мальцев category]]
+
+
+
