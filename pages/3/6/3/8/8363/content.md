@@ -124,3 +124,4 @@ Full (classical) SOA may be recovered from intuitionistic SOA by adding a simila
 [[!redirects SOA]]
 [[!redirects second order arithmetic]]
 [[!redirects second-order arithmetic]]
+[[!redirects higher-order arithmetic]]
