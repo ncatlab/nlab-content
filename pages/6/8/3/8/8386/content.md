@@ -9,7 +9,7 @@
 =--
 =--
 
-> This page is about the concept of polymorphism in computer science. For the concept in [[type theory]] see [[universe polymorphism]]. For the generalisation of morphisms introduced by [[Shinichi Mochizuki]], see [[poly-morphism]].
+> This page is about the concept of polymorphism of declarations in [[computer science]]. For polymorphism of [[type universes]] see instead at *[[universe polymorphism]]*. For the generalisation of *morphisms* introduced by [[Shinichi Mochizuki]], see *[[poly-morphism]]*.
 
 # Polymorphism
 * table of contents
@@ -95,7 +95,7 @@ Theorems for free were explained in:
 
 * {#Wadler89} [[Philip Wadler]], _Theorems for free!_, in Proceedings of the fourth international conference on Functional programming languages and computer architecture (FPCA 1989). 1989. ([pdf](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf), [doi:10.1145/99370.99404](https://doi.org/10.1145/99370.99404))
 
-See also the references at [[parametric dependent type theory]] for the various notions of parametricity in various kinds of [[dependent type theories]]. 
+See also the references at *[[parametric dependent type theory]]* for the various notions of parametricity in various kinds of [[dependent type theories]]. 
 
 [[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
