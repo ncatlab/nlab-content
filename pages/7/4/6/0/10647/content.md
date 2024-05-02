@@ -68,7 +68,7 @@ For weaker but more general regularity results see also:
 
 A conjecture that all [[compact topological space|compact]] Ricci flat manifolds either have [[special holonomy]] or else are "unstable":
 
-* [[Bobby Acharya]], _Supersymmetry, Ricci Flat Manifolds and the String Landscape_ ([arXiv:1906.06886](https://arxiv.org/abs/1906.06886))
+* {#Acharya19} [[Bobby Acharya]], *Supersymmetry, Ricci Flat Manifolds and the String Landscape*, High Energ. Phys. **2020** 128 (2020) &lbrack;[arXiv:1906.06886](https://arxiv.org/abs/1906.06886), <a href="https://doi.org/10.1007/JHEP08(2020)128">doi:10.1007/JHEP08(2020)128</a>&rbrack;
 
 [[!redirects Ricci curvatures]]
 
