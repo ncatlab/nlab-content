@@ -317,7 +317,8 @@ A textbook account of standard material is in chapter V in vol III of
 
 The definition of the refined [[topological group]] cohomology in terms of degreewise [[abelian sheaf cohomology]] was given in
 
-* [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+* [[Graeme Segal]], _Cohomology of topological groups_,
+Symposia mathematica. Volume IV, pp. 377–387. Convegni del Dicembre del 1968 e del Marzo del 1969. Istituto Nazionale di Alta Matematica, Roma. Academic Press, London–New York, 1970. iv+542 pp.  [PDF](https://dmitripavlov.org/scans/segal-cohomology-of-topological-groups.pdf).
 
 It was later rediscovered for [[Lie group]]s in
 
