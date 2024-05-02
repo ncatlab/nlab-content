@@ -153,7 +153,7 @@ In view of [[alpha']] [[higher curvature corrections]]:
 
 On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
 
-* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
+* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
 * Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
 
