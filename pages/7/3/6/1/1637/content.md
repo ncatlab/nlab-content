@@ -62,11 +62,13 @@ h_{j+1} s_i, & i\le j\\
 h_j s_{i-1}, & i\gt j.
 }\right.$$
 
-Note that we did not explicitly say what $d_i h_j$ should be when $i = j + 1$, but if we look at the rule for $d_{j + 1} h_{j + 1}$, we see this requires $d_{j + 1} h_{j + 1} = d_{j + 1} h_j$, which is the relevant compatibility condition.
+Note that we did not explicitly say what $d_i h_j$ should be when $i = j + 1$, but if we look at the rule for $d_{j + 1} h_{j + 1}$, we see this requires $d_{j + 1} h_{j + 1} = d_{j + 1} h_j$, which is the relevant compatibility condition. 
+
+If we use the cylinder convention, this is equivalent to specifying a homotopy $g \Rightarrow f$. Define $\eta_0 = d_0h_0$, $\eta_{n+1}=d_{n+1}h_n$, and $\eta_j = d_j h_j = d_j h_{j-1}$ for all $1\leq j\leq n$. The map $\eta : X \times \Delta[1] \rightarrow Y$ as seen in the cylinder definition is then formed by the universal property of coproducts. In particular, the set $\Delta[1](n)$ has $n+2$ elements which can be presented as a string of length $n+1$ of the form $(0\cdots01\cdots1)$. The map $\eta_j$ is the restriction of $\eta$ to the string that contains exactly $j$ number of $0$'s in it.  
 
 ##Remark / warning on conventions
 
-The above formulae give one of the, at least,  two  forms of the combinatorial specfication of a homotopy between $f$ and $g$. (When trying to construct a specific homotopy using a combinatorial form, check which convention is being used!) The two forms correspond to different conventions such as saying that this is a homotopy from $g$ to $f$, or reversing the labelling of the $h_i$. 
+The above formulae give one of the, at least,  two  forms of the combinatorial specification of a homotopy between $f$ and $g$. (When trying to construct a specific homotopy using a combinatorial form, check which convention is being used!) The two forms correspond to different conventions such as saying that this is a homotopy from $g$ to $f$, or reversing the labelling of the $h_i$. 
 
 
 ##Commentary##
