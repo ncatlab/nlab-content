@@ -26,6 +26,10 @@ On [[Galois theory]]:
 
 * [[Francis Borceux]], [[George Janelidze]]: *[[Galois Theories]]*, Cambridge Studies in Advanced Mathematics **72**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511619939](https://doi.org/10.1017/CBO9780511619939)&rbrack;
 
+On [[internal crossed modules]]:
+
+* {#Janel2003} [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. **10** 1 (2003) 99–114  &lbrack;[doi:10.1515/GMJ.2003.99](https://doi.org/10.1515/GMJ.2003.99), [pdf](https://www.emis.de/journals/GMJ/vol10/v10n1-8.pdf)&rbrack;
+
 
 
 On [[monoid objects in monoidal categories]]:
