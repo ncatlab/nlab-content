@@ -267,6 +267,10 @@ This last example was one of the first investigated by Whitehead and his proof a
 
 ## Related concepts 
 
+* [[Lie crossed module]]
+
+* [[internal crossed module]]
+
 * [[group]]
 
 * [[2-group]], **crossed module**, [[differential crossed module]]
