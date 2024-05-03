@@ -14,7 +14,9 @@ On the [[Morse–Kelley set theory]]:
 
 On the [[Morse–Sard lemma]]:
 
-* [[Anthony P. Morse]], _The Behavior of a Function on Its Critical Set_, Annals of Mathematics 40:1 (1939), 62–70.  [doi](http://dx.doi.org/10.2307/1968544).
+* [[Anthony P. Morse]], _The Behavior of a Function on Its Critical Set_, Annals of Mathematics 40:1 (1939), 62–70.  [doi](http://dx.doi.org/10.2307/1968544)
+
+
 
 [[!redirects Anthony Morse]]
 [[!redirects A. P. Morse]]
