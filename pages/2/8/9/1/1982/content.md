@@ -23,17 +23,23 @@ Measure theory studies [[measurable spaces]] and [[measure spaces]].
 Measure theory is the field of mathematics that grew out of the [[Lebesgue measure|Lebesgue integral]] and Kolmogorov\'s axioms for [[probability]].  
 
 
-## Some subfields and applications
+## Categories of measure theory
+
+From the [[nPOV]], it is desirable to have a good [[category]] for [[measure theory]].
+
+The article [[categories of measure theory]] provides evidence that the category of compact strictly localizable [[enhanced measurable spaces]] captures the desired features of measure theory as presented in common textbooks on real analysis.
+
+## Some subfields, related fields, and applications
 
 The general measure theory studies general notions and constructions in measure theory, like the connection to integration, the measure spaces, derivation by measure, [[Caratheodory construction]] and so on.
 
 [[probability theory|Probability theory]] studies special class of measures, so called [[probability measure|probability measures]] which are normalized to unity.
 
-Measure theory is very much having a central role in studying so called [[ergodic theory]] of dynamical system.
+Measure theory is very much having a central role in studying so called [[ergodic theory]] of dynamical systems.
 
 [[geometric measure theory|Geometric measure theory]] is the geometric study of measures of subsets of Euclidean space and the measure theoretic aspects of various geometric objects, like the integration of classes of currents and their extremization properties.    
 
-There is a generalization, the noncommutative measure theory, which is more or less the study of [[von Neumann algebra]], see [Connes (1995)](#Connes1995).
+There is a generalization, the noncommutative measure theory, which is more or less the study of [[von Neumann algebras]], see [Connes (1995)](#Connes1995).
 
 ## Related concepts
 
@@ -63,12 +69,10 @@ A classical (slightly dated) concise treatise is
 
 Other texts include
 
-* [[Ernst-Erich Doberkat]], _Measures and all that --- A Tutorial_ ([arxiv/1409.2662](http://arxiv.org/abs/1409.2662))
+* [[Ernst-Erich Doberkat]], _Measures and all that --- A Tutorial_ ([arXiv:1409.2662](http://arxiv.org/abs/1409.2662))
 
 * {#Connes1995} [[Alain Connes]] (1995); _[[Noncommutative Geometry]]_.
    
-
-* D. H. Fremlin (2001); _Measure Theory_; 5 volumes, [web](http://www.essex.ac.uk/maths/people/fremlin/mt.htm).
 
 ### Via topos theory
  {#ReferencesViaToposTheory}
