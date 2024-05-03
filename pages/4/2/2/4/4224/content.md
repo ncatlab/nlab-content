@@ -189,6 +189,9 @@ Discussion of an $(\infty, 1)$-version of Stone duality is in
 [[!redirects Stone duality]]
 [[!redirects Stone dualities]]
 
+[[!redirects Stone spectrum]]
+[[!redirects Stone spectra]]
+
 [[!redirects Stone representation theorem]]
 [[!redirects Stone representation theorems]]
 [[!redirects Stone's representation theorem]]
