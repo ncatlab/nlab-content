@@ -70,13 +70,13 @@ Yet another category equivalent to localizable measurable spaces and measurable 
 ### Relation to von Neumann algebras
  {#RelationToVonNeumannAlgebras}
 
-One version of the [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that the category of [[commutative algebra|commutative]] $W^*$-[[W*-algebra|algebras]] is [[dual equivalence|dual]] to the category of *localizable* measurable spaces.  (As such, arbitrary $W^*$-algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].)  See the [references below](#ReferencesRelationToVonNeumannAlgebras).
+One version of the [[Gelfand duality|Gelfand duality theorem]] states that the category of [[commutative algebra|commutative]] $W^*$-[[W*-algebra|algebras]] is [[dual equivalence|dual]] to the category of *compact strictly localizable* [[enhanced measurable spaces]].  (As such, arbitrary $W^*$-algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].)  See the [references below](#ReferencesRelationToVonNeumannAlgebras).
 
-To make this work correctly, we cannot simply define localizability as a [[property]] of measurable spaces; instead, a __[[localizable measurable space]]__ is a measurable space (a set $X$ with a $\sigma$-algebra $\Sigma$) with a $\sigma$-[[sigma-ideal|ideal]] $\mathcal{N}$ of $\Sigma$ and $\mathcal{P}X$ simultaneously (called the ideal of __[[null sets]]__) such that $\Sigma/\mathcal{N}$ is a [[complete lattice]]; and a [[morphism]] of localizable measurable spaces is a measurable function, with the property that the [[preimage]] of any null set is null, up to an [[equivalence relation]] where $f \cong g$ if $\{ x \;|\; f(x) \neq g(x) \}$ is a null set.
+To make this work correctly, we cannot simply define localizability as a [[property]] of measurable spaces; instead, a __[[localizable measurable space]]__ is a measurable space (a set $X$ with a $\sigma$-algebra $\Sigma$) with a [[σ-ideal]] $\mathcal{N}$ of $\Sigma$ and $\mathcal{P}X$ simultaneously (called the ideal of __negligible sets__ or __[[null sets]]__) such that $\Sigma/\mathcal{N}$ is a [[complete lattice]]; and a [[morphism]] of localizable measurable spaces is a measurable function, with the property that the [[preimage]] of any null set is null, up to an [[equivalence relation]] where $f \cong g$ if for every $m\in\Sigma$ the set $f^{-1}m\oplus g^{-1}m$ is a null set.  For good properties of point-set measurable maps, we need to add the property of __strict localizability__ and __compactness__.  See the article [[categories of measure theory]] for full details.
 
 The requirement that $\Sigma/\mathcal{N}$ be complete is the real localizability condition here; the trick of equipping a measurable space with a $\sigma$-ideal of null sets (or equivalently a $\sigma$-[[filter]] of [[full sets]]) and taking measurable functions only up to equivalence is a common one in other situations.
 
-Localizable measurable spaces can also be studied via the lattice $\Sigma/\mathcal{N}$, which is a [[frame]]; the morphisms correspond to certain [[continuous maps]] between [[locales]], and thus we are studying locales with [[extra structure]], called __[[measurable locales]]__.
+Localizable measurable spaces can also be studied via the lattice $\Sigma/\mathcal{N}$, which is a [[frame]]; the morphisms correspond to certain [[continuous maps]] between [[locales]], and thus we are studying locales with [[extra property]], called __[[measurable locales]]__.
 
 
 ### Relation to Boolean toposes
@@ -133,7 +133,7 @@ For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges,
 ### Relation to von Neumann algebra
  {#ReferencesRelationToVonNeumannAlgebras}
 
-A discussion of the abstract properties of the category of localizable measurable spaces and its relation to [[von Neumann algebras]] is in 
+A discussion of the abstract properties of the category of [[von Neumann algebras]] is in 
 
 * Alain Guichardet, _Sur la cat&#233;gorie des alg&#232;bres de von Neumann_  (French) Bull. Sci. Math. (2) 90 1966 41&#8211;64. ([MSN](http://ams.org/mathscinet-getitem?mr=201989)) ([scan](http://dmitripavlov.org/scans/guichardet.pdf))
 
@@ -141,7 +141,7 @@ A modern treatment of this discussion can be found in
 
 * [[Dmitri Pavlov]], *Gelfand-type duality for commutative von Neumann algebras*, Journal of Pure and Applied Algebra **226** 4 (2022) 106884 &lbrack;[arXiv:2005.05284](https://arxiv.org/abs/2005.05284), [doi:10.1016/j.jpaa.2021.106884](https://doi.org/10.1016/j.jpaa.2021.106884)&rbrack;
 
-A useful series of expositions along these lines is in
+A useful series of expositions along these lines is in the article [[categories of measure theory]], as well as the MathOverflow posts
 
 * [[Dmitri Pavlov]], _On measurable spaces_
 
