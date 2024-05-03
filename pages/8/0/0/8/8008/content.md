@@ -166,6 +166,10 @@ On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenbe
 
 * [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
 
+Relation to [[geometric quantization]]:
+
+* [[Joshua Lackman]], *Geometric Quantization Without Polarizations* &lbrack;[arXiv:2405.01513](https://arxiv.org/abs/2405.01513)&rbrack;
+
 
 [[!redirects C-star algebraic deformation quantizations]]
 
