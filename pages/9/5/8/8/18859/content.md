@@ -51,8 +51,8 @@ If $M$ is assumed only to be a [[promonoidal category|promonoidal]] $\mathbf{2}$
 *  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
  {#Girard}
 
-* [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ ([pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf))
- {#GirardSS}
+* [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_, Advances in Linear Logic, 1995. ([pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf))
+ {#GirardSS} 
 
 [[!redirects phase space semantics for linear logic]]
 [[!redirects linear logic phase space]]
