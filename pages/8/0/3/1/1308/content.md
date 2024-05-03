@@ -104,6 +104,17 @@ $$c_{0.25}(a,b)=c_{0.5}(c_{0.5}(a,b),b)=(a*b)*b=a*(b*b)=a*b=c_{0.5}(a,b).$$
 
 This is relevant in computer science because probability is modelled by the free convex spaces monad, and non-determinism is modelled by the free semilattice monad. These monads are both [[commutative monad|commutative monads]], but there can be no commutative monad that contains both these monads non-degenerately. 
 In particular, the [[convex powerset of distributions monad]] is not commutative.
+### Uniform states are unique
+
+A related guise of this result is the following: If $C$ is a [[distributive monoidal category]] whose unit $I$ is terminal, then any two morphisms $p, q : I \to I + I$ which are symmetric, i.e. invariant under the swap $I + I \cong I+I$, must be equal. From the viewpoint of [[category-theoretic approaches to probability theory|categorical probability]], this says that uniform distributions (if they exist) must be unique.
+
+Every morphism $p : I \to I + \ldots + I$ gives rise to an $n$-ary operation on homsets $\omega_p : C(X,Y)^n \to C(X,Y)$ via
+
+$$\omega_p(f_1,\ldots,f_n) = X \xrightarrow{p \otimes X} (I + \ldots + I) \otimes X \cong X + \ldots + X \xrightarrow{[f_1,\ldots,f_n]} Y$$
+
+The operations $\omega_p$ and $\omega_q$ are idempotent (by terminality of $I$) and commute with each other (by monoidality). Hence if the operations are also symmetric, then they must coincide following the usual Eckmann-Hilton argument. 
+
+We recover the connection to algebraic theories if we take $C$ to be the [[Kleisli category]] of a [[monad]] $T$ which is [[commutative monad|commutative]] and affine.  
 
 ## Related concepts
 
