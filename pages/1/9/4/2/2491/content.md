@@ -11,11 +11,11 @@
 
 Crossed modules of objects in [[semi-abelian categories]], along with precrossed modules, were introduced in:
 
-* {#Janel2003} [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. 10 (2003) 99114 [doi](https://doi.org/10.1515/GMJ.2003.99)
+* {#Janel2003} [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. **10** No. 1 (2003) pp 99–114  [doi](https://doi.org/10.1515/GMJ.2003.99), ([pdf](https://www.emis.de/journals/GMJ/vol10/v10n1-8.pdf)).
 
 The notion can be further generalized to include crossed modules of monoids in even more general contexts (than treated by semi-abelian categories). See:
 
-* [[Gabriella Böhm]], _Crossed modules of monoids I: relative categories_, Appl. Categor. Struct. 27 (2019) 641--662 [doi](https://doi.org/10.1007/s10485-019-09570-0); _Crossed modules of monoids II: Relative Crossed Modules_, Appl Categor Struct 28 (2020) 601--653 [doi](https://doi.org/10.1007/s10485-020-09592-z); _Crossed modules of monoids III: Simplicial monoids of Moore length 1_, Appl. Categor. Struct. 29 (2021) 1--29 [doi](https://doi.org/10.1007/s10485-020-09603-z)
+* [[Gabriella Böhm]], _Crossed modules of monoids I: relative categories_, Appl. Categor. Struct. 27 (2019) 641--662 [doi](https://doi.org/10.1007/s10485-019-09570-0); _Crossed modules of monoids II: Relative Crossed Modules_, Appl Categor Struct 28 (2020) 601--653 [doi](https://doi.org/10.1007/s10485-020-09592-z); _Crossed modules of monoids III: Simplicial monoids of Moore length 1_, Appl. Categor. Struct. 29 (2021) 1--29 [doi](https://doi.org/10.1007/s10485-020-09603-z).
 
 On precrossed modules in [[Malcev categories]]:
 
