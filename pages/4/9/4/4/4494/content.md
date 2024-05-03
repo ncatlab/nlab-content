@@ -17,13 +17,22 @@ On a vast generalization of [[crossed module]]s
 
 * Gabriella Böhm, _Crossed modules of monoids I: relative categories_, Appl. Categor. Struct. 27 (2019) 641--662 [doi](https://doi.org/10.1007/s10485-019-09570-0); _Crossed modules of monoids II: relative crossed modules_, Appl Categor Struct 28 (2020) 601--653 [doi](https://doi.org/10.1007/s10485-020-09592-z); _Crossed modules of monoids III: simplicial monoids of Moore length 1_, Appl. Categor. Struct. 29 (2021) 1--29 [doi](https://doi.org/10.1007/s10485-020-09603-z)
 
-On bimonoids in duoidal categories
+On [[bimonoids]] in [[duoidal categories]]:
 
 * [[Gabriella Böhm]], _(Hopf) bimonoids in duoidal categories_, Chapter in _Hopf algebras and their generalizations from a category theoretical point of view_, Springer Lecture Notes in Mathematics __2226__ (2018) (chapter [doi](https://doi.org/10.1007/978-3-319-98137-6_7))
 
 * [[Gabriella Böhm]], Y. Chen, L. Zhang, _On Hopf monoids in duoidal categories_, J. Algebra __394__ (2013) 139--172 (2013) [MR3092715](https://mathscinet.ams.org/mathscinet/relay-station?mr=3092715) [doi](https://doi.org/10.1016%2Fj.jalgebra.2013.07.016)
 
 * Y. Chen, G. Böhm, _Weak bimonoids in duoidal categories_, J. Pure Appl. Math. __218__:12 (2014) 2240--2273 [doi](https://doi.org/10.1016/j.jpaa.2014.04.001)
+
+On [[internal crossed modules]] of [[monoid objects]]:
+
+* [[Gabriella Böhm]]: _Crossed modules of monoids I: relative categories_, Appl. Categor. Struct. **27** (2019) 641-662 &lbrack;[doi:10.1007/s10485-019-09570-0](https://doi.org/10.1007/s10485-019-09570-0)&rbrack; 
+
+* [[Gabriella Böhm]]: _Crossed modules of monoids II: Relative Crossed Modules_, Appl Categor Struct **28** (2020) 601-653 &lbrack;[doi:10.1007/s10485-020-09592-z](https://doi.org/10.1007/s10485-020-09592-z)&rbrack;
+
+* [[Gabriella Böhm]]: _Crossed modules of monoids III: Simplicial monoids of Moore length 1_, Appl. Categor. Struct. **29** (2021) 1-29 &lbrack;[doi:10.1007/s10485-020-09603-z](https://doi.org/10.1007/s10485-020-09603-z)&rbrack;
+
 
 [[!redirects Gabi Bohm]]
 [[!redirects Gabi Böhm]]
