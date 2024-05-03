@@ -79,6 +79,8 @@ Just as [[multicategories]] are a special case of [[generalized multicategories]
 
 * Wee Liang Gan, _Koszul duality for dioperads_, [arxiv](https://arxiv.org/abs/math/0201074)
 
+* Nicolas Blanco and Noam Zeilberger, _Bifibrations of Polycategories and Classical Linear Logic_, ENTCS 2020, [doi](https://doi.org/10.1016/j.entcs.2020.09.003)
+
 [[!redirects polycategories]]
 [[!redirects dioperad]]
 [[!redirects dioperads]]
