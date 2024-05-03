@@ -1232,6 +1232,10 @@ On geometric quantization of the [[scalar field]]:
 
 * José Luis Alonso, Carlos Bouthelier-Madre, Jesús Clemente-Gallardo, David Martínez-Crespo, *Geometric flavours of Quantum Field theory on a Cauchy hypersurface. Part II: Methods of quantization and evolution* &lbrack;[arXiv:2402.07953](https://arxiv.org/abs/2402.07953)&rbrack;
 
+Discussion of relation to other qusntization schemes:
+
+* [[Joshua Lackman]], *Geometric Quantization Without Polarizations* &lbrack;[arXiv:2405.01513](https://arxiv.org/abs/2405.01513)&rbrack;
+
 
 ### Holographic quantization
 
