@@ -52,7 +52,7 @@ $$
   \tau \coloneqq C_3 + i \phi_3
 $$
 
-of the (flat) supergravity $C$-field $C_3$ and the the 3-form $\phi_3$ of the $G_2$-structure is the natural [[holomorphic function|holomorphic coordinate]] on the [[moduli space]] of the [[KK-compactification]] of a $G_2$-manifold, in M-theoretic higher analogy of the complexified K&#228;hler classes of CY compactifications of 10d string theory ([Harvey-Moore 99, (2.7)](#HarveyMoore99), [Acharya 02, (32) (59) (74)](#Acharya02), [Grigorian-Yau 08, (4.57)](#GrigorianYau08), [Acharya-Bobkov 08, (4)](#AcharyaBobkov08)).
+of the (flat) supergravity $C$-field $C_3$ and the 3-form $\phi_3$ of the $G_2$-structure is the natural [[holomorphic function|holomorphic coordinate]] on the [[moduli space]] of the [[KK-compactification]] of a $G_2$-manifold, in M-theoretic higher analogy of the complexified K&#228;hler classes of CY compactifications of 10d string theory ([Harvey-Moore 99, (2.7)](#HarveyMoore99), [Acharya 02, (32) (59) (74)](#Acharya02), [Grigorian-Yau 08, (4.57)](#GrigorianYau08), [Acharya-Bobkov 08, (4)](#AcharyaBobkov08)).
 
 Notice that restricted to [[associative submanifolds]] this combination becomes $C_3 + i vol$, which also governs the [[membrane instanton]]-contributions ("[[complex volume]]").
 
@@ -75,9 +75,9 @@ But when $Y$ is a $G_2$-[[orbifold]] then:
 
 The [[conical singularities]] are supposed/assumed to be isolated ([Witten 01, section 2](#Witten01)), while the [[ADE singularities]] are supposed/assumed to be of [[codimension]]-4 in the 7-dimensional fibers ([Witten 01, section 3](#Witten01), [Barrett 06](#Barrett06)).
 
-In the absence of a proper microscopic definition of M-theory, the first point is argued for indirectly in at least these ways: 
+In the absence of a proper microscopic definition of M-theory, the first point is argued indirectly in at least these ways: 
 
-1. The fact that under [[KK-compactification]] to [[type IIA string theory]] the singularity becomes special points of intersecting [[D6-branes]] for which the gauge enhancement is known ([Sen 97](#Sen97), [Witten 01, p. 1](#Witten01), based on [Cvetic-Shiu-Uranga 01](#CveticShiuUranga01)).
+1. The fact that under [[KK-compactification]] to [[type IIA string theory]] the singularity becomes special points of intersecting [[D6-branes]] for which the gauge enhancement is folklore ([Sen 97](#Sen97), [Witten 01, p. 1](#Witten01), based on [Cvetic-Shiu-Uranga 01](#CveticShiuUranga01)).
 
 1. The [[duality in string theory|duality]] between M-theory compactified on [[K3]] and [[heterotic string theory]] on a 3-torus ([Acharya-Witten 01](#AcharyaWitten01)). Here it is fairly well understood that at the degeneration points of the K3-[[moduli space]] enhanced nonabelian gauge symmetry appears (e.g. [Acharya-Gukov 04, section 5.1](#AcharyaGukov04)). This comes down ([Intriligator-Seiberg 96](ALE+space#IntriligatorSeiberg96)) to the fact that an [[ADE singularity]] $\mathbb{C}^2/\Gamma$ generically constitutes a point in the [[moduli space]] of [[vacua]] in the [Higgs branch](N%3D2+D%3D4+super+Yang-Mills+theory#ModuliSpacesOfVacua) of a super Yang-Mills theory.
 
