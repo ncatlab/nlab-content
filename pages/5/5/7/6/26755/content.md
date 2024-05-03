@@ -318,7 +318,7 @@ and a (unital) normal \*-homomorphism of [[commutative von Neumann algebras]] to
 
 \begin{theorem}
 ([Pavlov](#Pavlov), Propositions 2.72, 2.73; Theorem 3.20.)
-The following four categories are equivalent:
+The following four categories are equivalent.
 
 * The opposite category of [[commutative von Neumann algebras]] and unital normal \*-homomorphisms.
 
@@ -333,7 +333,7 @@ The following four categories are equivalent:
 We take this theorem as a strong evidence that whatever good category of enhanced measurable spaces
 we end up constructing, it better be equivalent to the above four categories.
 
-In fact, we have already constructed a functor
+We have already constructed a functor
 $$LEMS \to LBAlg^{op}.$$
 In the next section, we construct a functor
 $$LBAlg^{op}\to LEMS$$
