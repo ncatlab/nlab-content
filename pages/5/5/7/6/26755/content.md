@@ -7,9 +7,11 @@ While areas of [[mathematics]] such as [[set theory]], [[algebra]], [[general to
 For example, in Fremlin's [[Measure Theory]] one reads (§234):
 > One of the striking features of measure theory, compared with other comparably abstract branches of pure mathematics, is the relative unimportance of any notion of ‘morphism’. The theory of groups, for instance, is dominated by the concept of ‘homomorphism’, and general topology gives a similar place to ‘continuous function’. In my view, the nearest equivalent in measure theory is the idea of ‘inverse-measure-preserving function’ (234A).
 
-This article reviews existing categories in [[measure theory]], explains what their defects are from the viewpoint of [[measure theory]] and [[real analysis]], and proposes a very satisfying way to resolve these defects.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
+This article reviews existing categories in [[measure theory]], explains why they do not match the existing practice of [[measure theory]] and [[real analysis]], and proposes a very satisfying way to resolve these issues.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
 
-This article concentrates on measure theory as it is used in [[real analysis]], [[probability theory]], [[statistics]], [[stochastic processes]] and other areas of analysis.  The word “defect” used below is understood as a property that does not match the established practice of these subjects, e.g., identifying functions that are equal almost everywhere.  Other areas, such as [[descriptive set theory]] may need other criteria and other categories.
+This article concentrates on measure theory as it is used in [[real analysis]], [[probability theory]], [[statistics]], [[stochastic processes]] and other areas of analysis.  In particular, given the existing practice in these fields, we take it for granted that we must identify functions that are equal almost everywhere.  Other areas, such as [[descriptive set theory]] may need other criteria and other categories.
+
+We also remark that the use of enhanced measurable spaces instead of measure spaces is for strictly esthetic reasons (like avoiding making noncanonical choices of measures), and everything works equally well with traditional [[measure spaces]] instead.
 
 ## Elementary constructions
 
@@ -20,7 +22,7 @@ Elements of $M$ are known as __measurable subsets__ of $X$.
 
 Morphisms of measurable spaces $f\colon(X,M)\to(X',M')$ are known as __measurable maps__.  These are maps of sets $f\colon X\to X'$ that reflect measurable sets, i.e., if $m'\in M'$, then $f^{-1}m'\in M$.
 
-The resulting __category of measurable spaces__ has a serious defect: it does not identify measurable maps that are equal almost everywhere.
+The resulting __category of measurable spaces__ does not identify measurable maps that are equal almost everywhere, so cannot be used directly in real analysis and related fields.
 This is not merely an inconvenience: many important theorems in [[measure theory]] are false unless such an identification is made.  For example, [[L^p-spaces]] would cease to be [[normed spaces]], since plenty of nonzero elements would have norm 0.  The [[Radon–Nikodym theorem]] and the [[Riesz representation theorem]] would fail too.
 
 ### Measure spaces
@@ -37,9 +39,9 @@ is contained in some set $m\in N_\mu$, where
 $$N_\mu=\{m\in M\mid \mu(m)=0\}$$
 is the [[σ-ideal]] of measurable sets with $\mu$-measure 0, also known as __$\mu$-negligible sets__.
 
-### Defect: too much data required
+### Too much data required
 
-A minor defect of the above construction is that requiring a measurable space to be equipped with a specific choice of a measure forces us to make noncanonical choices that may be unnecessary.
+Requiring a measurable space to be equipped with a specific choice of a measure forces us to make noncanonical choices that may be unnecessary.
 
 Many constructions and theorems in [[measure theory]]
 do not require a specific choice of a measure but merely require us to know which measurable sets have measure 0.  Examples include the [[Riesz representation theorem]], the [[Radon–Nikodym theorem]], or (less obviously) the construction of [[L^p-spaces]].  For the latter, observe that $L^1(X,M,\mu)$ is canonically isomorphic to the vector space of finite measures on $(X,M,N_\mu)$ via the [[Radon–Nikodym theorem]]; by taking $1/p$-th powers, we can give a similar definition for general [[L^p-spaces]].
@@ -73,7 +75,7 @@ An enhanced measurable space $(X,M,N)$ is __complete__ if subnegligible sets are
 
 \begin{remark}
 Everything in this article could be done with conventional [[measure spaces]] $(X,M,\mu)$ instead of enhanced measurable spaces.
-Enhanced measurable spaces are only introduced to enhance the clarity of exposition and avoid making noncanonical choices of measures in some constructions.  Also, separating [[measures]] from their underlying spaces makes it slightly easier to formulate some theorems, e.g., the [[Radon–Nikodym theorem]].
+Enhanced measurable spaces are only introduced to enhance the clarity of exposition and avoid making noncanonical choices of measures in some constructions.  Also, separating [[measures]] from their underlying spaces makes the statements of some theorems cleaner, e.g., the [[Radon–Nikodym theorem]] now says that [[measures]] form a [[free module]] of rank one over measurable functions.
 \end{remark}
 
 ### Measures on enhanced measurable spaces
@@ -110,9 +112,9 @@ It is for this reason that it is safe to assume enhanced measurable spaces to be
 Every strictly localizable enhanced measurable space is automatically locally determined, so there is no need for us
 to separately impose the property of local determinedness.
 
-### Defect: postcomposition does not respect equality almost everywhere
+### Postcomposition does not respect equality almost everywhere
 
-If we now attempt to construct a category of [[measure spaces]] or [[enhanced measurable spaces]], we immediately run into a serious defect: postcomposition does not respect equality almost everywhere.
+If we now attempt to construct a category of [[measure spaces]] or [[enhanced measurable spaces]], we immediately run into a serious problem: postcomposition does not respect equality almost everywhere.
 
 To see this, suppose
 $$f,g\colon(X,M,N)\to(X',M',N')$$
@@ -145,10 +147,10 @@ $$f^{-1}m'\oplus g^{-1}m'\in N.$$
 Equality almost everywhere implies weak equality almost everywhere.
 The converse is true if $(X',M',N')$ is countably separated (Fremlin, Proposition 343F), i.e., there is a countable subset $M''\subset M'$ that covers $X'$ and for any two points of $X'$ there is an element of $M''$ that contains exactly one of them.
 
-An enhanced measurable space is countable separated if and only if it admits an injective measurable function into real numbers.  Most measurable spaces (other than some counterexamples) in an introductory real analysis book are countably separated, which explains why the finer equivalence relation of equality almost everywhere is sufficient for many practical purposes.
+An enhanced measurable space is __countably separated__ if it admits an injective measurable function into real numbers.  Most measurable spaces (other than some counterexamples) in an introductory real analysis book are countably separated, which explains why the finer equivalence relation of equality almost everywhere is sufficient for many practical purposes.
 
 
-### Defect: precomposition does not respect equality almost everywhere
+### Precomposition does not respect equality almost everywhere
 
 Just like postcomposition, precomposition does not respect equality (or weak equality) almost everywhere.
 
@@ -589,7 +591,7 @@ The category $CSLEMS$ is equivalent to the following four categories:
 
 ## Summary
 
-The following category is suitable for [[measure theory]].
+The following category is suitable for [[measure theory]] in the sense that it matches the existing practice of [[real analysis]], [[probability theory]], [[stochastic processes]], etc.
 
 * Objects are (complete) compact strictly localizable enhanced measurable spaces $(X,M,N)$.
 
@@ -600,6 +602,8 @@ The following category is suitable for [[measure theory]].
 The following remarks are in order.
 
 * Enhanced measurable spaces $(X,M,N)$ have just the right amount of information: enough to define (weak) equality almost everywhere, not too much to require constructions of noncanonical measures.
+
+* However, one could use conventional [[measure spaces]] $(X,M,\mu)$ instead, using $N_\mu$ as the [[σ-ideal]] of negligible sets.
 
 * To ensure that composition descends to the quotient category, equality almost everywhere must be coarsened to weak equality almost everywhere and measurable maps must reflect negligible sets.
 
@@ -619,6 +623,11 @@ These properties eliminate pathologies and ensure the following desirable proper
 
 * Morphisms of enhanced measurable spaces admit essential images.
 
+## Categorical properties
+
+The category $CSLEMS$ has excellent categorical properties: it is complete and cocomplete, admits a [[closed monoidal structure]] whose product is the measure-theoretic product, is comonadic over sets and over [[compact Hausdorff spaces]].  It also admits a commutative Giry-type [[probability monad]] ([Furber](#Furber)).
+
+
 ## Related concepts
 
 * [[Stone duality]], [[Gelfand duality]]
@@ -631,12 +640,16 @@ These properties eliminate pathologies and ensure the following desirable proper
 
 ## References
 
-* [[Irving E. Segal]],  Equivalences of Measure Spaces.  American Journal of Mathematics 73:2 (1951), 275.  [doi](http://dx.doi.org/10.2307/2372178).
+* {#Segal} [[Irving E. Segal]],  Equivalences of Measure Spaces.  American Journal of Mathematics 73:2 (1951), 275.  [doi](http://dx.doi.org/10.2307/2372178).
 
-* [[Edward Marczewski]], _On compact measures_, Fundamenta Mathematicae 40 (1) (1953) 113–124.  [doi](https://doi.org/10.4064/fm-40-1-113-124).
+* {#Marczewski} [[Edward Marczewski]], _On compact measures_, Fundamenta Mathematicae 40 (1) (1953) 113–124.  [doi](https://doi.org/10.4064/fm-40-1-113-124).
 
-* [[John L. Kelley]],  Decomposition and representation theorems in measure theory.  Mathematische Annalen 163:2 (1966), 89-94.  [doi](http://dx.doi.org/10.1007/bf02052840).
+* {#Kelley} [[John L. Kelley]],  Decomposition and representation theorems in measure theory.  Mathematische Annalen 163:2 (1966), 89-94.  [doi](http://dx.doi.org/10.1007/bf02052840).
 
-* [[David H. Fremlin]], _[[Measure Theory]]_.
+* {#Fremlin} [[David H. Fremlin]], _[[Measure Theory]]_.
 
-* [[Dmitri Pavlov]], _Gelfand-type duality for commutative von Neumann algebras_, Journal of Pure and Applied Algebra 226:4 (2022), 106884, 1–53.  [doi](https://doi.org/10.1016/j.jpaa.2021.106884).
+* {#Pavlov} [[Dmitri Pavlov]], _Gelfand-type duality for commutative von Neumann algebras_, Journal of Pure and Applied Algebra 226:4 (2022), 106884, 1–53.  [doi](https://doi.org/10.1016/j.jpaa.2021.106884).
+
+* [[Robert Furber]], _A Probability Monad on Measure Spaces_, [PDF](https://robertfurber.com/preprints/cemonad-preprint.pdf).
+
+* {#Furber} [[Robert Furber]], _Commutative W\*-algebras as a Markov Category (Extended Abstract)_, [PDF](https://robertfurber.com/abstracts/mcabs.pdf).
