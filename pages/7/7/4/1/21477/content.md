@@ -35,7 +35,7 @@ Every [[Stonean space]] decomposes as a [[coproduct]] of three [[clopen subsets]
 
 * Every [[meager subset]] of $E_3$ is [[nowhere dense]] and every [[Radon measure]] has a [[nowhere dense]] support.  The only normal measure on $E_3$ is the zero measure.
 
-## Equivalent categories
+## Hyperstonean duality
 
 By [[Gelfand-type duality for commutative von Neumann algebras]], the category of hyperstonean spaces and open continuous maps is equivalent to the opposite category of [[localizable Boolean algebras]], the category of [[measurable locales]], and the opposite category of commutative [[von Neumann algebras]].
 
@@ -79,3 +79,4 @@ A bibliography of hyperstonean covers can be found in
 [[!redirects hyperstonean locales]]
 [[!redirects hyperstonean cover]]
 [[!redirects hyperstonean covers]]
+[[!redirects hyperstonean duality]]
