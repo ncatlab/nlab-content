@@ -7,7 +7,9 @@ While areas of [[mathematics]] such as [[set theory]], [[algebra]], [[general to
 For example, in Fremlin's [[Measure Theory]] one reads (§234):
 > One of the striking features of measure theory, compared with other comparably abstract branches of pure mathematics, is the relative unimportance of any notion of ‘morphism’. The theory of groups, for instance, is dominated by the concept of ‘homomorphism’, and general topology gives a similar place to ‘continuous function’. In my view, the nearest equivalent in measure theory is the idea of ‘inverse-measure-preserving function’ (234A).
 
-This article reviews existing categories in [[measure theory]], explains what their defects are, and proposes a very satisfying way to resolve these defects.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
+This article reviews existing categories in [[measure theory]], explains what their defects are from the viewpoint of [[measure theory]] and [[real analysis]], and proposes a very satisfying way to resolve these defects.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
+
+This article concentrates on measure theory as it is used in [[real analysis]], [[probability theory]], [[statistics]], [[stochastic processes]] and other areas of analysis.  The word “defect” used below is understood as a property that does not match the established practice of these subjects, e.g., identifying functions that are equal almost everywhere.  Other areas, such as [[descriptive set theory]] may need other criteria and other categories.
 
 ## Elementary constructions
 
@@ -68,6 +70,11 @@ Any [[measure space]] $(X,M,\mu)$ yields an enhanced measurable space $(X,M,N_\m
 A map of [[measure spaces]] is measurable if and only if it is measurable as a map of enhanced measurable spaces and two maps of [[measure spaces]] are equal almost everywhere if they are equal almost everywhere as maps of enhanced measurable spaces.
 
 An enhanced measurable space $(X,M,N)$ is __complete__ if subnegligible sets are negligible, i.e., $N$ is closed under passage to arbitrary subsets.  This definition generalizes the usual notion of completeness of [[measure spaces]].
+
+\begin{remark}
+Everything in this article could be done with conventional [[measure spaces]] $(X,M,\mu)$ instead of enhanced measurable spaces.
+Enhanced measurable spaces are only introduced to enhance the clarity of exposition and avoid making noncanonical choices of measures in some constructions.  Also, separating [[measures]] from their underlying spaces makes it slightly easier to formulate some theorems, e.g., the [[Radon–Nikodym theorem]].
+\end{remark}
 
 ### Measures on enhanced measurable spaces
 
