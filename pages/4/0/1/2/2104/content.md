@@ -312,6 +312,11 @@ Some discussion of quantization in terms of [[Bohr toposes]] is in
 
 * Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ ([arXiv:1109.1192](http://arxiv.org/abs/1109.1192))
 
+Joint discussion of a variety of quantization schemes:
+
+* [[Joshua Lackman]], *Geometric Quantization Without Polarizations* &lbrack;[arXiv:2405.01513](https://arxiv.org/abs/2405.01513)&rbrack;
+
+
 
 [[!redirects quantizations]]
 
