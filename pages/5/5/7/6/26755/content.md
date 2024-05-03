@@ -2,12 +2,12 @@
 
 ## Introduction
 
-While areas of [[mathematics]] such as [[set theory]], [[algebra]], [[general topology]], [[functional analysis]], [[Lie theory]] have easily identifiable categories of main objects of study (e.g., categories of [[sets]], [[groups]], [[rings]], [[modules]], [[topological spaces]], [[topological vector spaces]], [[C*-algebras]], [[Lie groups]], [[Lie algebras]]), [[measure theory]] is not traditionally associated with a a prominent, easily identifiable category.
+While areas of [[mathematics]] such as [[set theory]], [[algebra]], [[general topology]], [[functional analysis]], [[Lie theory]] have easily identifiable categories of main objects of study (e.g., categories of [[sets]], [[groups]], [[rings]], [[modules]], [[topological spaces]], [[topological vector spaces]], [[C*-algebras]], [[Lie groups]], [[Lie algebras]]), [[measure theory]] is not traditionally associated with a prominent, easily identifiable category.
 
 For example, in Fremlin's [[Measure Theory]] one reads (§234):
 > One of the striking features of measure theory, compared with other comparably abstract branches of pure mathematics, is the relative unimportance of any notion of ‘morphism’. The theory of groups, for instance, is dominated by the concept of ‘homomorphism’, and general topology gives a similar place to ‘continuous function’. In my view, the nearest equivalent in measure theory is the idea of ‘inverse-measure-preserving function’ (234A).
 
-This article review existing categories in [[measure theory]], explains what their defects are, and proposes a very satisfying way to resolve these defects.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
+This article reviews existing categories in [[measure theory]], explains what their defects are, and proposes a very satisfying way to resolve these defects.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
 
 ## Elementary constructions
 
