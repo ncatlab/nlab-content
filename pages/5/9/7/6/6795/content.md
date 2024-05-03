@@ -1,6 +1,12 @@
 
 
-* [webpage](http://physics.tamu.edu/directory/showpeople.php?name=Ergin%20Sezgin&userid=sezgin)
+* [institute page](https://artsci.tamu.edu/physics-astronomy/contact/profiles/ergin-sezgin.html)
+
+* [InSpire page](https://inspirehep.net/authors/989210)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=rNPLc2QAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=262756)
 
 ## Selected writings
 
