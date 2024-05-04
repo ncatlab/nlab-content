@@ -71,7 +71,7 @@ $$
 
 for the subset of the set of [[differential 3-forms]] on those that, as [[sections]] to the exterior power of the [[cotangent bundle]], are pointwise in $\Lambda^3_+(\mathbb{R}^7)^\ast$. 
 
-These are also called the _positive forms_ ([Joyce 00, p. 243](Joyce00)) or the _[[definite differential forms]]_ ([Bryant 05, section 3.1.1](#Bryant05)) on $X$.
+These are also called the _positive forms_ ([Joyce 00, p. 243](#Joyce00)) or the _[[definite differential forms]]_ ([Bryant 05, section 3.1.1](#Bryant05)) on $X$.
 
 \end{definition}
 
@@ -85,7 +85,7 @@ a choice of [[definite 3-form]] $\sigma$ on $X$, def. \ref{Definite3Forms}.
 
 =--
 
-(e.g. [Joyce 00, p. 243](Joyce00), [Bryant 05, section 3.1.1](#Bryant05))
+(e.g. [Joyce 00, p. 243](#Joyce00), [Bryant 05, section 3.1.1](#Bryant05))
 
 Often it is useful to exhibit prop. \ref{G2StructureViaDefinite3Form} in the following way.
 
@@ -292,7 +292,7 @@ Here
 
 =--
 
-For the equivalence of the first items see for instance [Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00). For the equivalence to the vanishing curvature invariant see also [Bryant 05, corollary 1](#Bryant05), and for the equivalence to the vanishing [[torsion of a G-structure]] see [Bryant 05, prop. 2](#Bryant05).
+For the equivalence of the first items see for instance [Joyce 96, p. 294 (4 of 38)](#Joyce96), [Joyce 00, prop. 10.1.3](#Joyce00). For the equivalence to the vanishing curvature invariant see also [Bryant 05, corollary 1](#Bryant05), and for the equivalence to the vanishing [[torsion of a G-structure]] see [Bryant 05, prop. 2](#Bryant05).
 
 
 +-- {: .num_remark}
@@ -458,13 +458,18 @@ Non-compact $G_2$-manifolds were first  constructed in
 
 * [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
 
-[[compact topological space|Compact]] $\,G_2$-manifolds were first found in 
+See also:
 
-* {#Joyce96}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2, 1996 ([Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109))
+* [[Simon Salamon]], Chapter 11 in: *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
+
+
+[[compact topological space|Compact]]$\;G_2$-manifolds were first found in :
+
+* {#Joyce96} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry **43** 2 (1996) &lbrack;[Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109)&rbrack;
  
-* {#Joyce00} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+* {#Joyce00} [[Dominic Joyce]], *Compact manifolds with special holonomy*, Oxford Mathematical Monographs (2000) &lbrack;[ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=us&lang=en&)&rbrack;
 
-Review in 
+Review in:
 
 * [[Dominic Joyce]], _Compact Riemannian manifolds with exceptional holonomy_, Surveys in Differential Geometry
 Volume 6 (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
