@@ -71,6 +71,7 @@ See for instance the introduction of ([Joyce](#Joyce)).
 ## Properties
 
 ### Orientation
+ {#Orientation}
 
 The inclusion $G_2 \hookrightarrow GL(7)$ of def. \ref{As2PlectomorphismsOnR7} factors through the [[special orthogonal group]]
 
@@ -82,6 +83,7 @@ $$
   GL(7)
   \,.
 $$
+
 
 ### Dimension
  {#Dimension}
