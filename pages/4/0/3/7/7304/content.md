@@ -223,6 +223,10 @@ The above [connectivity bound](#EH) implies the following corollary, which may b
 
 ### Dunn's additivity theorem
 
+\begin{theorem}
+  The canonical map $\mathbb{E}_{n}^{\otimes} \otimes \mathbb{E}_{m}^{\otimes} \rightarrow \mathbb{E}_{n + m}^{\otimes}$ is an equivalence.
+\end{theorem}
+
 (...)
 
 ## Related concepts
@@ -244,7 +248,8 @@ A review is in
 
 see around def. 2.21 there.
 
-The $\infty$-categorical universal property is Definition 2.2.5.3 in the textbook
+The $\infty$-categorical universal property is Definition 2.2.5.3 in the following textbook;
+an $\infty$-operadic version of Dunn's additivity theorem is Theorem 5.1.2.2.
 
 * [[Higher Algebra]].
 
