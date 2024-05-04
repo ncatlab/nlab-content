@@ -27,5 +27,5 @@ Dugger and Spivak prove that the resulting [[simplicial category]] is weakly equ
 
 A similar idea is developed for [[complete Segal spaces]] in
 
-* Shaul Barkan, Jan Steinebrunner, _Segalification and the Boardmann-Vogt tensor product_, [arXiv:2301.08650](https://arxiv.org/abs/2301.08650).
+* [[Shaul Barkan]], [[Jan Steinebrunner]], _Segalification and the Boardman-Vogt tensor product_, [arXiv:2301.08650](https://arxiv.org/abs/2301.08650).
 
