@@ -474,6 +474,9 @@ Review in:
 * [[Dominic Joyce]], _Compact Riemannian manifolds with exceptional holonomy_, Surveys in Differential Geometry
 Volume 6 (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
 
+* [[Alexei Kovalev]], *Constructions of compact $G_2$-holonomy manifolds*, in: *Lectures and Surveys on $G_2$-Manifolds and Related Topics*, Springer (2020) &lbrack;[arXiv:1909.11473](https://arxiv.org/abs/1909.11473), [doi:10.1007/978-1-0716-0577-6_2](https://doi.org/10.1007/978-1-0716-0577-6_2)&rbrack;
+
+
 The sufficiency of spin structure for $G_2$-structure is due to
 
 * {#Gray69} A. Gray, _Vector cross products on manifolds_, Trans. Amer. Math. Soc. 141 (1969), 465&#8211;504. 
