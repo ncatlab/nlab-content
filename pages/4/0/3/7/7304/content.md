@@ -20,6 +20,8 @@ The _Boardman-Vogt tensor product_ is a natural [[tensor product]] on [[symmetri
 
 ## Definition
 
+### In the 1-category of symmetric operads
+
 All [[operads]] in the following are colored [[symmetric operads]] enriched over [[Set]], equivalently [[symmetric multicategories]].
 
 Let $\mathcal{P}$ be an operad over a set of colors $C$, and $\mathcal{Q}$ be an operad over a set of colors $D$.
@@ -65,6 +67,19 @@ for all $n \in \mathbb{N}$. These are subject to the following relations
    $$
 
 1. The operations  in $\mathcal{P}$ and $\mathcal{Q}$ [[distributive law|distribute]] over each other in $\mathcal{P} \otimes_{BV} \mathcal{Q}$ in the evident sense (...).
+
+### In the $\infty$-category of $\infty$-operads
+
+Let $\mathrm{Cat}_{\infty,/\mathbb{F}_*}^{\mathrm{Int}-\mathrm{cocart}} \subset \mathrm{Cat}_{\infty,/\mathbb{F}_*}$ denote the (non-full) subcategory of functors to finite pointed sets which posses cocartesian lifts over inert morphisms. 
+
+The full subcategory $\mathrm{Op}_\infty \subset \mathrm{Cat}_{\infty,/\mathbb{F}_*}^{\mathrm{Int}-\mathrm{cocart}}$ spanned by the $\infty$-operads of Lurie is localizing; write $L_{\mathrm{Op}}: \mathrm{Cat}_{\infty,/\mathbb{F}_*}^{\mathrm{Int}-\mathrm{cocart}} \rightarrow \mathrm{Op}_\infty$ for its localization functor.
+
+Then, given $\mathcal{O}^{\otimes},\mathcal{P}^{\otimes} \in \mathrm{Op}_\infty$, their **Boardman-Vogt tensor product** is the localization
+$$
+    \mathcal{O}^{\otimes} \otimes_{\mathrm{BV}} \mathcal{P}^{\otimes} := L_{\mathrm{Op}} \left( \mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes} \rightarrow \mathbb{F}_* \times \mathbb{F}_* \xrightarrow{\wedge} \mathbb{F}_* \right).
+$$
+
+
 
 ## Properties
 
@@ -112,6 +127,8 @@ See ([Weiss, lemma 2.23](#Weiss)).
 
 We may therefore speak of $[P,Q]$ as being the **operad of $P$-algebras in $Q$.
 
+
+
 +-- {: .num_example}
 ###### Example
 
@@ -138,6 +155,31 @@ $$
   [P_2, [P_1, E]]
   \,.
 $$
+
+
+### The $\infty$-categorical universal property of the BV-tensor product
+
+
+  An arrow $\mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes} \rightarrow \mathcal{Q}^{\otimes}$ is a **bifunctor of $\infty$-operads** if it extends to a commutative diagram 
+
+\begin{centre}
+    \begin{xymatrix}
+        \mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes} \ar[r] \ar[d] 
+        & \mathcal{Q}^{\otimes} \ar[d]\\
+         \mathbb{F}_* \times \mathbb{F}_* \ar[r] & \mathbb{F}_*
+    \end{xymatrix}
+\end{centre}
+
+sending pairs of (cocartesian lifts of) inert morphisms in $\mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes}$ to (cocartesian lifts of) inert morphisms in $\mathcal{Q}$.
+
+Let $\mathrm{BiFun}(\mathcal{O}^{\otimes},\mathcal{P}^{\otimes}; \mathcal{Q}^{\otimes}) \subset \mathrm{Fun}_{/\mathbb{F}_*}(\mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes}, \mathcal{Q}^{\otimes})$ be the full subcategory spanned by functors satisfying the above inert morphism condition.
+
+\begin{proposition}
+There is an equivalence of $\infty$-categories
+$$
+  \mathrm{Alg}_{\mathcal{O}^{\otimes} \otimes_{\mathrm{BV}} \mathcal{P}^{\otimes}}(\mathcal{Q}^{\otimes}) \simeq \mathrm{BiFun}(\mathcal{O}^{\otimes},\mathcal{P}^{\otimes}; \mathcal{Q}^{\otimes}) .
+$$
+\end{proposition}
 
 ## Examples
 
