@@ -89,6 +89,8 @@ from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], th
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithPresheaves}
 
+See [[slice of presheaves is presheaves on slice]].
+
 Let $C$ be a [[category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[over category]] of $C$ over $c$. Write
 $PSh(C/c) = [(C/c)^{op}, Set]$ for the [[category of presheaves]] on $C/c$ and write
 $PSh(C)/Y(c)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(c)$ is the [[Yoneda embedding]]. 
