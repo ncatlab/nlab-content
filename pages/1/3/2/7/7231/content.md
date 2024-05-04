@@ -66,7 +66,7 @@ Then the group $G_2 \hookrightarrow GL(7)$ is the [[subgroup]] of the [[general 
 
 =--
 
-See for instance the introduction of ([Joyce](#Joyce)).
+See for instance the introduction of [Joyce 1996](#Joyce96).
 
 ## Properties
 
@@ -88,7 +88,7 @@ $$
 ### Dimension
  {#Dimension}
 
-The [[dimension]] of (the [[manifold]] underlying) $G_2$ is 
+The [[dimension]] of (the [[manifold]] [[underlying]]) $G_2$ is 
 
 $$
   dim(G_2) = 14
@@ -292,11 +292,11 @@ Surveys are in
 
 The definitions are reviewed for instance in 
 
-* {#Joyce} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
+* {#Joyce96} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry **43** 2 (1996) &lbrack;[doi:10.4310/jdg/1214458109](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-43/issue-2/Compact-Riemannian-7-manifolds-with-holonomy-G_2-I/10.4310/jdg/1214458109.full), [pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf)&rbrack;
  
 * {#Ferolito} Ferolito _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
 
-* {#Baez} [[John Baez]], section 4.1 _[G2](http://math.ucr.edu/home/baez/octonions/node14.html)_, of _The Octonions_ ([arXiv:math/0105155](http://arxiv.org/abs/math/0105155))
+* {#Baez} [[John Baez]], section 4.1 _[G2](http://math.ucr.edu/home/baez/octonions/node14.html)_ of: _The Octonions_ ([arXiv:math/0105155](http://arxiv.org/abs/math/0105155))
 
 * Ruben Arenas, _Constructing a Matrix Representation of the Lie Group $G_2$_, 2005 ([pdf](https://www.math.hmc.edu/seniorthesis/archives/2005/rarenas/rarenas-2005-thesis.pdf))
 
