@@ -189,7 +189,39 @@ This is not the symmetric monoidal structure constructed in Higher algebra; howe
 
 Lurie's tensor product comes from an ad-hoc construction involving a left-derived functor from a seldom-used [[monoidal model category]], which doesn't obviously satisfy many nice properties; thus it is likely that the above theorem constructs the "correct" coherences on $\otimes_{\BV}$, and those in [[Higher Algebra]] may be "incorrect."
 
+### Connectivity and the Eckmann-Hilton argument
+
+Let $\mathcal{A}_2^{\otimes}$ be the free unital [[(∞,1)-operad]] with a binary operation (so that it's Stasheff's 2nd operad, i.e. $\mathcal{A}_2$-algebras are [[unital magmas]]). 
+The [[Eckmann-Hilton argument]] states that the canonical map of [[(∞,1)-operads]] $\mathcal{A}_2^{\otimes} \otimes_{\mathrm{BV}} \mathcal{A}_2^{\otimes} \rightarrow \mathrm{Comm}^{\otimes}$ induces an equivalence
+$$
+  \mathrm{Alg}_{\mathcal{A}_2} \mathrm{Alg}_{\mathcal{A}_2}^{\otimes}(\mathcal{C}) \simeq \mathrm{Alg}_{\mathcal{A}_2 \otimes_{\mathrm{BV}} \mathcal{A}_2}(\mathcal{C}) \rightarrow \mathrm{CAlg}(\mathcal{C})
+$$
+whenever $\mathcal{C}$ is a symmetric monoidal 1-category.
+
+We say that a reduced [[(∞,1)-operad]] $\mathcal{O}^{\otimes}$ is $n$-connected if the canonical map $\mathcal{O}^{\otimes} \rightarrow \mathrm{Comm}^{\otimes}$ induces equivalences on the respective categories of algberas in symmetric monoidal $n$-categories.
+
+The following result is proved in [Schlank-Yanovski 19](#Schlank19), where it is called the $\infty$-categorical [[Eckmann-Hilton argument]].
+
+\begin{theorem}{#EH}
+  If $\mathcal{O}^{\otimes}$ is $d_{\mathcal{O}}$-connected and $\mathcal{P}^{\otimes}$ is $d_{\mathcal{P}}$-connected, then the Boardman-Vogt tensor product $\mathcal{O}^{\otimes} \otimes_{\mathrm{BV}} \mathcal{P}^{\otimes}$ is $(d_{\mathcal{O}} + d_{\mathcal{P}} + 2)$-connected.
+\end{theorem}
+
 ## Examples
+
+### Infinite tensor products of reduced $\infty$-operads are $\mathrm{Comm}$.
+
+Let $\mathcal{O}^{\otimes}$ be a reduced $\infty$-operad other than $\mathbb{E}_0$, so that there is a canonical map of operads $\mathrm{triv}^{\otimes} \rightarrow \mathcal{O}^{\otimes}$, inducing a teloscope
+$$
+  \mathcal{O}^{\otimes \infty} \coloneqq \colim \left( \mathcal{O}^{\otimes} \rightarrow \mathcal{O}^{\otimes 2} \rightarrow \mathcal{O}^{\otimes 3} \rightarrow \cdots \right)
+$$
+
+The above [connectivity bound](#EH) implies the following corollary, which may be viewed as an _operadic Eilenberg swindle_.
+
+\begin{corollary}
+  The canonical map $\mathcal{O}^{\otimes \infty} \rightarrow \mathrm{Comm}^{\otimes}$ is an equivalence.
+\end{corollary}
+
+### Dunn's additivity theorem
 
 (...)
 
@@ -223,3 +255,7 @@ It is reviewed in the form used above in the lecture notes
 It was realized to be compatible with the [[symmetric monoidal envelope]] in
 
 * {#Barkan23} [[Shaul Barkan]], [[Jan Steinebrunner]], _Segalification and the Boardman-Vogt tensor product_, [arXiv:2301.08650](https://arxiv.org/abs/2301.08650).
+
+The ∞-categorical [[Eckmann-Hilton argument]] is due to
+
+* {#Schlank19} [[Tomer Schlank]], [[Lior Yanovski]], *The ∞-Categorical Eckmann-Hilton Argument*, Algebr. Geom. Topol. 19 (2019) 3119-3170 ([arXiv:1808.06006](https://arxiv.org/abs/1808.06006), [doi:10.2140/agt.2019.19.3119](https://doi.org/10.2140/agt.2019.19.3119))
