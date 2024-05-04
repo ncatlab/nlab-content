@@ -79,3 +79,19 @@ $$
   \end{array}
 $$
 
+$$
+  \epsilon^{a_1 b_1 b_2 b_3}
+  \nabla_{(a_2}
+  B_{b_1) b_2 b_3}
+$$
+
+$$
+  e_{a_1 a_2}
+  \;\equiv\;
+  e^{a} e^\mu_a \partial_\mu B_{a_1 a_2}
+$$
+
+$$
+  e^\mu_{[a} \partial_\mu B_{a_1 a_2]}
+$$
+
