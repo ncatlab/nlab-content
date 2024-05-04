@@ -62,7 +62,7 @@ lands in $G$.
 
 =--
 
-This appears as ([Joyce prop. 3.1.8](#Joyce))
+This appears as [Joyce 2000, prop. 3.1.8](#Joyce00).
 
 
 ### Via $\mathbb{O}$-Riemannian manifolds
@@ -89,16 +89,18 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 ### General
 
-The classification in [[Berger's theorem]] is due to
+The classification expressed by [[Berger's theorem]] is due to:
 
 * {#Berger} [[Marcel Berger]], _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des vari&#233;t&#233;s riemanniennes_, Bull. Soc. Math. France 83 (1955)
  
 
-For more see
+For more see:
+
+* [[Simon Salamon]], *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
 
 * [[Nigel Hitchin]], _Special holonomy and beyond_, Clay Mathematics Proceedings ([pdf](https://people.maths.ox.ac.uk/hitchin/hitchinlist/clay.pdf))
 
-* {#Joyce} [[Dominic Joyce]], _Compact manifolds with special holonomy_ , Oxford Mathematical Monographs (2000)
+* {#Joyce00} [[Dominic Joyce]], *Compact manifolds with special holonomy*, Oxford Mathematical Monographs (2000) &lbrack;[ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=us&lang=en&)&rbrack;
   
 * Luis J. Boya, _Special holonomy manifolds in physics_ Monograf&#237;as de la Real Academia de Ciencias de Zaragoza. 29: 37&#8211;47, (2006). ([pdf](http://www.unizar.es/acz/05Publicaciones/Monografias/MonografiasPublicadas/Monografia29/037.pdf))
 
