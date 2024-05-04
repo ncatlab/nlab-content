@@ -26,6 +26,19 @@ A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is [[integra
 $G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]]. Accordingly the relation between [[Calabi-Yau manifolds and supersymmetry]] lifts from [[string theory]] to [[M-theory on G2-manifolds]].
 
 ## Definition
+ {#Definition}
+
+The definition of $G_2$-manifold stuctures proceeds in stages:
+
+1. [$G_2$-structure](#G2Structures)
+
+1. [Closed $G_2$-structure](#ClosedG2Structure)
+
+1. [$G_2$-holonomy/manifold structure](#G2Holonomy)
+
+and then there are 
+
+* [Variant structures](#VariantsAndWeakenings).
 
 ### $G_2$-structure
  {#G2Structures}
@@ -40,7 +53,7 @@ For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ 
 +-- {: .num_remark #CanonicalRiemannianMetric}
 ###### Remark
 
-A $G_2$-structure in particular implies an [[orthogonal structure]], hence a [[Riemannian metric]].
+Since the inclusion of $G_2$ into $GL(7)$ factors through [[special orthogonal group|$SO(6)$]] (see [here](G2#Orientation)), a $G_2$-structure induces an [[orthogonal structure]], hence a [[Riemannian metric]].
 
 =--
 
@@ -271,7 +284,7 @@ Here
 
 * $\omega$ is the 3-form $\omega$ corresponding to the given $G_2$-structure via prop. \ref{G2StructureViaDefinite3Form};
 
-* $g$ is the induced [[Riemannian metric]] of remark \ref{CanonicalRiemannianMetric});
+* $g$ is the induced [[Riemannian metric]], via remark \ref{CanonicalRiemannianMetric};
 
 * $\star_g$ is the [[Hodge star operator]] of this metric;
 
@@ -293,6 +306,7 @@ The space of second order torsion invariants of $G_2$-structures is discussed by
 
 
 ### Variants and weakenings
+ {#VariantsAndWeakenings}
 
 There are several variants of the definition of $G_2$-manifolds,
 def.\ref{G2manifold}, given by imposing other constraints on the [[torsion of a Cartan connection|torsion]].
@@ -335,7 +349,7 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 #### With ADE orbifold structure
  {#WithADEOrbifoldStructure}
 
-When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for quadi-realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a [[fibrr bundle|fibration]] by a [[K3 surface]] $X_{K3}$. 
+When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for quadi-realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a [[fiber bundle|fibration]] by a [[K3 surface]] $X_{K3}$. 
 
 For instance, the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]] ([Acharya 1098, p.3](#Acharya98)). For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].
 
