@@ -67,8 +67,11 @@ Second Edition (retitled): *Introduction to Riemannian Manifolds* (2018), Spring
 
 * {#Chavel} Isaac Chavel, _Riemannian geometry &#8211; A modern introduction_ Cambridge University Press (1993)
 
-
 * {#Berger} Marcel Berger, _A panoramic view of Riemannian geometry_
+
+With focus on [[special holonomy]]:
+
+* [[Simon Salamon]], *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
 
 
 With an eye towards application in [[mathematical physics]]:
