@@ -279,15 +279,15 @@ Here
 
 =--
 
-For the equivalence of the first items see for instance ([Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00)). For the equivalence to the vanishing curvature invariant see also ([Bryant 05, corollary 1](#Bryant05)), and for the equivalence to the vanishing [[torsion of a G-structure]] see ([Bryant 05, prop. 2](#Bryant05)).
+For the equivalence of the first items see for instance [Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00). For the equivalence to the vanishing curvature invariant see also [Bryant 05, corollary 1](#Bryant05), and for the equivalence to the vanishing [[torsion of a G-structure]] see [Bryant 05, prop. 2](#Bryant05).
 
 
 +-- {: .num_remark}
 ###### Remark
 
-The higher [[torsion of a G-structure|torsion invariants]] of $G_2$-structures do not necessarily vanish (contrary to the case for instance of [[symplectic structure]] and [[complex structure]], see at [integrability of G-structures -- Examples](integrability+of+G-structures#Examples)). Therefore, even in view of prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes}, a $G_2$-manifold, def. \ref{G2manifold}, does not, in general admit an [[atlas]] be adapted [[coordinate charts]] equal to $(\mathbb{R}^7, \phi)$.
+The higher [[torsion of a G-structure|torsion invariants]] of $G_2$-structures do not necessarily vanish (contrary to the case for instance of [[symplectic structure]] and [[complex structure]], see at *[integrability of G-structures -- Examples](integrability+of+G-structures#Examples)*). Therefore, even in view of prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes}, a $G_2$-manifold, def. \ref{G2manifold}, does not, in general admit an [[atlas]] by adapted [[coordinate charts]] equal to $(\mathbb{R}^7, \phi)$.
 
-The space of second order torsion invariants of $G_2$-structures is for instance in ([Bryant 05 (4.7)](#Bryant05)).
+The space of second order torsion invariants of $G_2$-structures is discussed by [Bryant 05 (4.7)](#Bryant05).
 
 =--
 
@@ -299,7 +299,7 @@ def.\ref{G2manifold}, given by imposing other constraints on the [[torsion of a 
 
 #### With skew-symmetric torsion
 
-Discussion for totally skew symmetric [[torsion of a Cartan connection]] includes ([Friedrich-Ivanov 01, theorem 4.7, theorem 4.8](#FriedrichIvanov01))
+Discussion for totally skew symmetric [[torsion of a Cartan connection]] includes [Friedrich & Ivanov 01, theorem 4.7, theorem 4.8](#FriedrichIvanov01).
 
 
 #### Weak $G_2$-holonomy
@@ -312,28 +312,32 @@ Discussion for totally skew symmetric [[torsion of a Cartan connection]] include
 A 7-dimensional manifold is said to be of _weak $G_2$-holonomy_ if it carries a 3-form $\omega$ with the relation of def. \ref{G2manifold} generalized to
 
 $$
-  \mathbf{d} \omega = \lambda \star \omega
+  \mathbf{d} \omega 
+  \;=\; 
+  \lambda \star \omega
 $$
 
 
 and hence
 
 $$
-  \mathbf{d} \star \omega = 0
+  \mathbf{d} \star \omega 
+   \;=\; 
+  0
 $$
 
 for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-holonomy, by \ref{G2manifold}. 
 
 =--
 
-(See for instance ([Bilal-Derendinger-Sfetsos 02](#BilalDerendingerSfetsos), [Bilal-Metzger 03](#BilalMetzger03)).)
+(See for instance [Bilal & Derendinger-Sfetsos 02](#BilalDerendingerSfetsos, [Bilal & Metzger 03](#BilalMetzger03).)
 
 #### With ADE orbifold structure
  {#WithADEOrbifoldStructure}
 
-When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a fibration by a [[K3 surface]] $X_{K3}$. 
+When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for quadi-realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a [[fibrr bundle|fibration]] by a [[K3 surface]] $X_{K3}$. 
 
-For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]] ([Acharya 1098, p.3](#Acharya98)). For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].
+For instance, the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]] ([Acharya 1098, p.3](#Acharya98)). For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].
 
 In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local [[G2-orbifolds]] are discussed in some detail by [Atiyah & Witten 2001](#AtiyahWitten01). Families of examples are constructed in [Reidegeld 2015](#Reidegeld15).
 
