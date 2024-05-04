@@ -20,16 +20,16 @@ On [[Calabi-Yau orbifolds]]:
 * [[Dominic Joyce]], _Deforming Calabi-Yau orbifolds_, Asian Journal of Mathematics 3.4 (1999): 853-868 ([pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/ajm/1999/0003/0004/AJM-1999-0003-0004-a007.pdf))
 
 
-Construction of [[compact topological space|compact]] [[G2-manifolds]]:
+Construction of [[compact topological space|compact]] [[smooth manifold]] with [[special holonomy]] and particularly [[G2-manifolds]]:
 
 * {#Joyce96}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2, 1996 ([Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109))
  
-* {#Joyce00} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+* {#Joyce00} [[Dominic Joyce]], *Compact manifolds with special holonomy*, Oxford Mathematical Monographs (2000) &lbrack;[ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=us&lang=en&)&rbrack;
 
 * [[Dominic Joyce]], _Compact Riemannian manifolds with exceptional holonomy_, Surveys in Differential Geometry
-Volume 6 (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
+**6** (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
 
-Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]];
+Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
 
 * [[Dominic Joyce]], _A new construction of compact 8-manifolds with holonomy $Spin(7)$_, J. Differential Geom. Volume 53, Number 1 (1999), 89-130 ([euclid:jdg/1214425448](https://projecteuclid.org/euclid.jdg/1214425448))
 
