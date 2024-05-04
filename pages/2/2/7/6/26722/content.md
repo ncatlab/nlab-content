@@ -43,3 +43,7 @@ Classification via indexing systems (each independently proves this):
 * Peter Bonventre, Luis Pereira, _Genuine equivariant operads_, (2017) ([1707.02226](https://arxiv.org/abs/1707.02226))
 
 * [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, (2022) ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
+
+Presentation of algebras in the $C_p$-equivariant case:
+
+* [[Lucy Yang]], _On normed $\mathbb{E}_\infty$-rings in genuine equivariant $C_p$-spectra_, (2023) ([arXiv:2308.16107](https://arxiv.org/abs/2308.16107))
