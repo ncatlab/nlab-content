@@ -170,6 +170,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 2.2 Constructions of $\infty$-Operads
 
+* [[symmetric monoidal envelope]] 
+
 ### 2.3 Disintegration and assembly
 
 #### 2.3.1 Disintegration and assembly
