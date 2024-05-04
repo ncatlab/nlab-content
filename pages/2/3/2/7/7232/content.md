@@ -11,10 +11,15 @@ On [[twistor fibrations]]:
 
 * John Armstrong, [[Simon Salamon]], _Twistor Topology of the Fermat Cubic_, SIGMA 10 (2014), 061, 12 pages ([arXiv:1310.7150](https://arxiv.org/abs/1310.7150))
 
+
+
 On the [[metric cone over complex projective 3-space]] and the [[twistor fibration]]:
 
 * [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
+On [[Riemannian geometry]] and [[special holonomy]]:
+
+* [[Simon Salamon]], *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
 
 
 On [[quaternion-Kähler manifolds]]:
