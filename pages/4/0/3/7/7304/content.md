@@ -157,9 +157,7 @@ $$
 $$
 
 
-### The $\infty$-categorical universal property of the BV-tensor product
-
-
+### The $\infty$-categorical universal property of the BV-tensor product {#Bifunctorprop}
   An arrow $\mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes} \rightarrow \mathcal{Q}^{\otimes}$ is a **bifunctor of $\infty$-operads** if it extends to a commutative diagram 
 
 \begin{centre}
@@ -180,6 +178,16 @@ $$
   \mathrm{Alg}_{\mathcal{O}^{\otimes} \otimes_{\mathrm{BV}} \mathcal{P}^{\otimes}}(\mathcal{Q}^{\otimes}) \simeq \mathrm{BiFun}(\mathcal{O}^{\otimes},\mathcal{P}^{\otimes}; \mathcal{Q}^{\otimes}) .
 $$
 \end{proposition}
+
+### The symmetric monoidal $\infty$-categorical universal property
+The following is Theorem E of [Barkan-Steinebrunner 23](#Barkan23)
+\begin{theorem}
+  The [canonical tensor product of symmetric monoidal $\infty$-categories](https://ncatlab.org/nlab/show/tensor+product+of+commutative+monoids#in_category_theory) uniquely restricts to a tensor product on $\mathrm{Op}_\infty$ such that the [[symmetric monoidal envelope]] is a symmetric monoidal functor.
+\end{theorem}
+
+This is not the symmetric monoidal structure constructed in Higher algebra; however, both it and that of Higher algebra have tensor functors satisfying the above [universal property](#Bifunctorprop), so their tensor functors agree.
+
+Lurie's tensor product comes from an ad-hoc construction involving a left-derived functor from a seldom-used [[monoidal model category]], which doesn't obviously satisfy many nice properties; thus it is likely that the above theorem constructs the "correct" coherences on $\otimes_{\BV}$, and those in [[Higher Algebra]] may be "incorrect."
 
 ## Examples
 
@@ -204,3 +212,14 @@ A review is in
 
 see around def. 2.21 there.
 
+The $\infty$-categorical universal property is Definition 2.2.5.3 in the textbook
+
+* [[Higher Algebra]].
+
+It is reviewed in the form used above in the lecture notes
+
+* {#Haugseng23} [[Rune Haugseng]], _An allegedly somewhat friendly introduction to $\infty$-operads_ ([pdf](https://folk.ntnu.no/runegha/iopd.pdf)) 
+
+It was realized to be compatible with the [[symmetric monoidal envelope]] in
+
+* {#Barkan23} [[Shaul Barkan]], [[Jan Steinebrunner]], _Segalification and the Boardman-Vogt tensor product_, [arXiv:2301.08650](https://arxiv.org/abs/2301.08650).
