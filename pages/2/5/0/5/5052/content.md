@@ -43,7 +43,7 @@ Beware that there are non-isomorphic finite groups whose [[categories of represe
 
 Original statement and proof in the context of [[AQFT]]:
 
-* [[Sergio Doplicher]], [[John Roberts]], ...
+* {#DoplicherRoberts89} [[Sergio Doplicher]], [[John Roberts]], _A new duality theory for compact groups_, Inventiones mathematicae 98.1 (1989): 157-218. ([available here](https://eudml.org/doc/143725))
 
 Generalization to supergroups and streamlined proof:
 
