@@ -450,50 +450,7 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 ### General
 
-The concept goes back to 
-
-* E. Bonan, (1966), _Sur les vari&#233;t&#233;s riemanniennes &#224; groupe d'holonomie G2 ou Spin(7)_, C. R. Acad. Sci. Paris 262: 127&#8211;129.
-
-Non-compact $G_2$-manifolds were first  constructed in
-
-* [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
-
-See also:
-
-* [[Simon Salamon]], Chapter 11 in: *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
-
-
-[[compact topological space|Compact]]$\;G_2$-manifolds were first found in :
-
-* {#Joyce96} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry **43** 2 (1996) &lbrack;[Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109)&rbrack;
- 
-* {#Joyce00} [[Dominic Joyce]], *Compact manifolds with special holonomy*, Oxford Mathematical Monographs (2000) &lbrack;[ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=us&lang=en&)&rbrack;
-
-Review in:
-
-* [[Dominic Joyce]], _Compact Riemannian manifolds with exceptional holonomy_, Surveys in Differential Geometry
-Volume 6 (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
-
-* [[Alexei Kovalev]], *Constructions of compact $G_2$-holonomy manifolds*, in: *Lectures and Surveys on $G_2$-Manifolds and Related Topics*, Springer (2020) &lbrack;[arXiv:1909.11473](https://arxiv.org/abs/1909.11473), [doi:10.1007/978-1-0716-0577-6_2](https://doi.org/10.1007/978-1-0716-0577-6_2)&rbrack;
-
-
-The sufficiency of spin structure for $G_2$-structure is due to
-
-* {#Gray69} A. Gray, _Vector cross products on manifolds_, Trans. Amer. Math. Soc. 141 (1969), 465&#8211;504. 
-
-and the [[compact twisted connected sum G2-manifolds]] due to
-
-* {#Kovalev00} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_, J. Reine Angew. Math. 565 (2003) ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
-
-Review includes
-
-* {#Klemm17} [[Albrecht Klemm]], _Effective Action from M-theory on twisted connected sums_, talk at Ascona Monte Verita, 6 July 2017 ([pdf](http://conf.itp.phys.ethz.ch/string17/talks/Klemm.pdf))
-
-More compact examples are constructed in 
-
-* {#JoyceKarigiannis07} [[Dominic Joyce]], [[Spiro Karigiannis]], _A new construction of compact $G_2$-manifolds by gluing families of Eguchi-Hanson spaces_, arXiv:[1707.09325](https://arxiv.org/abs/1707.09325)
-
-Surveys include
+General survey:
 
 * [[Spiro Karigiannis]], _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
@@ -507,14 +464,60 @@ Surveys include
 
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, [Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005](http://gokovagt.org/proceedings/2005), pp. 75-109 ([arXiv:math/0305124](https://arxiv.org/abs/math/0305124), [webpage](http://gokovagt.org/proceedings/2005/bryant.html), [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf))
 
+The concept of $G_2$-manifolds goes back to 
+
+* E. Bonan, (1966), _Sur les vari&#233;t&#233;s riemanniennes &#224; groupe d'holonomie G2 ou Spin(7)_, C. R. Acad. Sci. Paris 262: 127&#8211;129.
+
+Non-compact $G_2$-manifolds were first  constructed in
+
+* [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
+
+See also:
+
+* [[Simon Salamon]], Chapter 11 in: *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
+
+
+[[compact topological space|Compact]] $\;G_2$-manifolds were first found in:
+
+* {#Joyce96} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry **43** 2 (1996) &lbrack;[Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109)&rbrack;
+ 
+* {#Joyce00} [[Dominic Joyce]], *Compact manifolds with special holonomy*, Oxford Mathematical Monographs (2000) &lbrack;[ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=us&lang=en&)&rbrack;
+
+Review in:
+
+* [[Dominic Joyce]], _Compact Riemannian manifolds with exceptional holonomy_, Surveys in Differential Geometry
+Volume 6 (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
+
+* [Kovalev 2020](#Kovalev20)
+
+
+The sufficiency of spin structure for $G_2$-structure is due to:
+
+* {#Gray69} A. Gray, _Vector cross products on manifolds_, Trans. Amer. Math. Soc. 141 (1969), 465&#8211;504. 
+
+and the [[compact twisted connected sum G2-manifolds]] due to:
+
+* {#Kovalev00} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_, J. Reine Angew. Math. 565 (2003) ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
+
+Review includes
+
+* {#Kovalev20} [[Alexei Kovalev]], *Constructions of compact $G_2$-holonomy manifolds*, in: *Lectures and Surveys on $G_2$-Manifolds and Related Topics*, Springer (2020) &lbrack;[arXiv:1909.11473](https://arxiv.org/abs/1909.11473), [doi:10.1007/978-1-0716-0577-6_2](https://doi.org/10.1007/978-1-0716-0577-6_2)&rbrack;
+
+and from the point of view of [[M-theory on G2-manifolds]]:
+
+* {#Klemm17} [[Albrecht Klemm]], _Effective Action from M-theory on twisted connected sums_, talk at Ascona Monte Verita, 6 July 2017 ([pdf](http://conf.itp.phys.ethz.ch/string17/talks/Klemm.pdf))
+
+More compact examples are constructed in 
+
+* {#JoyceKarigiannis07} [[Dominic Joyce]], [[Spiro Karigiannis]], _A new construction of compact $G_2$-manifolds by gluing families of Eguchi-Hanson spaces_ &lbrack;[arXiv:1707.09325](https://arxiv.org/abs/1707.09325)&rbrack;
+
 
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
 
 * {#Ibort} Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
- 
 
-(but beware of some mistakes in that article...)
+  > (but beware of some mistakes in that article)
 
 For more see the references at _[[exceptional geometry]]_.
 
