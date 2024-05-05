@@ -111,6 +111,11 @@ In the context of [[fusion 2-categories]]:
 
 * Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen, *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
 
+In the context of [[factorization algebra|factorization algebras]], see
+
+* [[Kevin Costello]], [[Owen Gwilliam]]. *Factorization algebra* (2023). ([arXiv:2310.06137](https://arxiv.org/abs/2310.06137)).
+
+in particular Section 6 therein.
 
 
 Work in the direction of *smooth* generalized symmetries:
