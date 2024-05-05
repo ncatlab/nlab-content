@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -16,7 +20,7 @@
 
 ## Idea
 
-The _symmetric monoidal envelope_ (or _May-Thomason envelope_) [[(infinity,1)-functor|∞-functor]] is the [[left adjoint|left]] [[adjoint (infinity,1)-functory|adjoint]] to the canonical inclusion of [[symmetric monoidal (∞,1)-categories]] into [[(∞,1)-operads]].
+The _symmetric monoidal envelope_ (or _May-Thomason envelope_) [[(infinity,1)-functor|∞-functor]] is the [[left adjoint|left]] [[adjoint (infinity,1)-functor|adjoint]] to the canonical inclusion of [[symmetric monoidal (∞,1)-categories]] into [[(∞,1)-operads]].
 
 ## Related concepts
 
