@@ -198,7 +198,7 @@ $$
 $$
 whenever $\mathcal{C}$ is a symmetric monoidal 1-category.
 
-We say that a reduced [[(∞,1)-operad]] $\mathcal{O}^{\otimes}$ is $n$-connected if the canonical map $\mathcal{O}^{\otimes} \rightarrow \mathrm{Comm}^{\otimes}$ induces equivalences on the respective categories of algberas in symmetric monoidal $n$-categories.
+We say that a reduced [[(∞,1)-operad]] $\mathcal{O}^{\otimes}$ is $n$-connected if the canonical map $\mathcal{O}^{\otimes} \rightarrow \mathrm{Comm}^{\otimes}$ induces equivalences on the respective categories of algebras in symmetric monoidal $n$-categories.
 
 The following result is proved in [Schlank-Yanovski 19](#Schlank19), where it is called the $\infty$-categorical [[Eckmann-Hilton argument]].
 
@@ -223,11 +223,39 @@ The above [connectivity bound](#EH) implies the following corollary, which may b
 
 ### Dunn's additivity theorem
 
+Let $C_n$ be the topological [[little n-cubes operad]].
+Then, the canonical maps $C_n,C_m \rightarrow C_{n+m}$ together yield a map $\mu:C_n \otimes C_m \rightarrow C_{n+m}$.
+In the case $n = 1$, [Dunn 88](#Dunn88) constructs a diagram
+
+\begin{centre}
+    \begin{xymatrix}
+        C_n \otimes C_m \ar[rr]^\mu \ar[d]^{\mu'}
+        && C_{n+m}\\ 
+        C_n | C_m 
+        & D_{n} | D_{m} \ar@{=}[r] \ar@{^{(}->}[l]^\simeq
+        & D_{n+m} \ar@{^{(}->}[u]^\simeq
+    \end{xymatrix}
+\end{centre}
+
+where $D_{n+m}$ us the operad of decomposable little $(n+m)$-cubes and $C_{n} | C_{m}$ is the image of $\mu$. The difficult statement in [Dunn 88](#Dunn88) is the statement that $\mu'$ is a local $\Sigma$-equivalence.
+This implies the following.
 \begin{theorem}
-  The canonical map $\mathbb{E}_{n}^{\otimes} \otimes \mathbb{E}_{m}^{\otimes} \rightarrow \mathbb{E}_{n + m}^{\otimes}$ is an equivalence.
+  The topological operads $C_n \otimes C_m \simeq C_{n+m}$ are related by a zigzag of local $\Sigma$-equivalences.
+\end{theorem}
+This theorem is slightly unusual, as the operad $C_n$ is _not_ cofibrant, and the tensor product in the statement is _underived_.
+Simpler proofs of this statement involve the thesis [Brinkmeier 00](#Brinkmeier00) and the recent paper [Barata-Moerdijk 22](#Barata22).
+
+The corresponding statement for the _derived_ tensor product is proved as Theorem 5.1.2.2 in [[Higher Algebra]].
+
+\begin{theorem}
+  The canonical map of $\infty$-operads $\mathbb{E}_{n}^{\otimes} \otimes \mathbb{E}_{m}^{\otimes} \rightarrow \mathbb{E}_{n + m}^{\otimes}$ is an equivalence;
+  hence for any symmetric monoidal $\infty$-category $\mathcal{C}$, the pullback functor
+  $$
+    \mathrm{Alg}^{\otimes}_{\mathbb{E}_{n+m}}(\mathcal{C}) \rightarrow \mathrm{Alg}_{\mathbb{E}_n}^{\otimes} \mathrm{Alg}_{\mathbb{E}_m}^{\otimes}(\mathcal{C}) 
+  $$
+  is an equivalence.
 \end{theorem}
 
-(...)
 
 ## Related concepts
 
@@ -244,9 +272,16 @@ The original reference is
 A review is in
 
 * {#Weiss} [[Ittay Weiss]], _From Operads to Dendroidal Sets_, in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS (2011) ([arXiv:1012.4315](http://arxiv.org/abs/1012.4315))
-  
 
 see around def. 2.21 there.
+
+Underived proofs of Dunn's additivity theorem include
+
+* {#Dunn88} Gerald Dunn, _Tensor product of operads and iterated loop spaces._ (1988) ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/Dunn.pdf))
+
+* {#Brinkmeier00} Michael Brinkmeier, _On Operads_. PhD thesis, Universitat Osnabrüeck, 2000.
+
+* {#Barata22} [[Miguel Barata]], [[Ieke Moerdijk]], _On the additivity of the little cubes operads_ (2022) ([arXiv:2205.12875](https://arxiv.org/abs/2205.12875))
 
 The $\infty$-categorical universal property is Definition 2.2.5.3 in the following textbook;
 an $\infty$-operadic version of Dunn's additivity theorem is Theorem 5.1.2.2.
