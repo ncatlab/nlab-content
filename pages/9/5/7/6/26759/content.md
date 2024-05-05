@@ -16,7 +16,8 @@
 
 ## Idea
 
-The _symmetric monoidal envelope_ (or _May-Thomason envelope_) functor is left adjoint to the inclusion of [[symmetric monoidal (∞,1)-categories]] into [[(∞,1)-operads]].
+The _symmetric monoidal envelope_ (or _May-Thomason envelope_) [[(infinity,1)-functor|∞-functor]] is the [[left adjoint|left]] [[adjoint (infinity,1)-functory|adjoint]] to the canonical inclusion of [[symmetric monoidal (∞,1)-categories]] into [[(∞,1)-operads]].
+
 ## Related concepts
 
 * [[Higher Algebra]], [[(∞,1)-operad]], [[symmetric monoidal (∞,1)-category]]
