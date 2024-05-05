@@ -69,9 +69,9 @@ is a __subnegligible set__, i.e., a subset of an element of $N$.
 
 Any [[measure space]] $(X,M,\mu)$ yields an enhanced measurable space $(X,M,N_\mu)$ with $N_\mu$ as above.
 
-A map of [[measure spaces]] is measurable if and only if it is measurable as a map of enhanced measurable spaces and two maps of [[measure spaces]] are equal almost everywhere if they are equal almost everywhere as maps of enhanced measurable spaces.
+A map of [[measure spaces]] is measurable if and only if it is measurable as a map of enhanced measurable spaces and two maps of [[measure spaces]] are equal almost everywhere if and only if they are equal almost everywhere as maps of enhanced measurable spaces.
 
-An enhanced measurable space $(X,M,N)$ is __complete__ if subnegligible sets are negligible, i.e., $N$ is closed under passage to arbitrary subsets.  This definition generalizes the usual notion of completeness of [[measure spaces]].
+An enhanced measurable space $(X,M,N)$ is __complete__ if subnegligible sets are negligible, i.e., the [[σ-ideal]] $N$ is closed under passage to arbitrary subsets.  This definition generalizes the usual notion of completeness of [[measure spaces]].
 
 \begin{remark}
 Everything in this article could be done with conventional [[measure spaces]] $(X,M,\mu)$ instead of enhanced measurable spaces.
@@ -112,47 +112,10 @@ It is for this reason that it is safe to assume enhanced measurable spaces to be
 Every strictly localizable enhanced measurable space is automatically locally determined, so there is no need for us
 to separately impose the property of local determinedness.
 
-### Postcomposition does not respect equality almost everywhere
-
-If we now attempt to construct a category of [[measure spaces]] or [[enhanced measurable spaces]], we immediately run into a serious problem: postcomposition does not respect equality almost everywhere.
-
-To see this, suppose
-$$f,g\colon(X,M,N)\to(X',M',N')$$
-are [[measurable maps]] that are equal almost everywhere.
-
-Suppose that
-$$h\colon(X',M',N')\to(\{0,1\},2^{\{0,1\}},\{\emptyset\})$$
-is a measurable map.
-Such measurable maps are in bijection with elements of $M'$: the bijection sends $h$ to $h^{-1}\{1\}$, and the inverse bijection sends a subset $m'\in M'$ to its [[characteristic function]] $\chi_{m'}$.
-
-If composition is to be compatible with equality almost everywhere, then $h\circ f$ would have to be equal to $h\circ g$ almost everywhere.
-However,
-$$[h\circ f\ne h\circ g]=f^{-1}m'\oplus g^{-1}m',$$
-where $m'=h^{-1}\{1\}$ is as above.
-There is absolutely no reason why the set $f^{-1}m'\oplus g^{-1}m'$ should be subnegligible.
-
-In fact, [Fremlin](#Fremlin) (Example 343I) constructs an example of a measurable map $f:(X,M,\mu)\to(X,M,\mu)$, where $(X,M,\mu)=\{0,1\}^{\mathfrak{c}}$ is a product of continuum many discrete measurable spaces $\{0,1\}$ such that for every $x\in X$ we have $f(x)\ne x$, but for every $m\in M$, the set $f^{-1}m\oplus m$ is negligible.
-
-Two continuous maps $f,g\colon X\to X'$ of $T_0$-[[topological spaces]] are equal if and only if for every open subset $U'\subset X'$ we have $f^{-1}U'=g^{-1}U'$.  In measure theory, equality of sets should be replaced with equality almost everywhere, which amounts to requiring for every $m'\in M'$ the symmetric difference $f^{-1}m'\oplus g^{-1}m'$ to be negligible.
-
-Thus, making the equivalence relation compatible with postcomposition naturally leads us to a coarser equivalence relation.
-
-\begin{definition}
-Two measurable maps
-$$f,g\colon(X,M,N)\to(X',M',N')$$
-are __weakly equal almost everywhere__ if for every $m'\in M'$ we have
-$$f^{-1}m'\oplus g^{-1}m'\in N.$$
-\end{definition}
-
-Equality almost everywhere implies weak equality almost everywhere.
-The converse is true if $(X',M',N')$ is countably separated (Fremlin, Proposition 343F), i.e., there is a countable subset $M''\subset M'$ that covers $X'$ and for any two points of $X'$ there is an element of $M''$ that contains exactly one of them.
-
-An enhanced measurable space is __countably separated__ if it admits an injective measurable function into real numbers.  Most measurable spaces (other than some counterexamples) in an introductory real analysis book are countably separated, which explains why the finer equivalence relation of equality almost everywhere is sufficient for many practical purposes.
-
-
 ### Precomposition does not respect equality almost everywhere
 
-Just like postcomposition, precomposition does not respect equality (or weak equality) almost everywhere.
+If we now attempt to construct a category of [[measure spaces]] or [[enhanced measurable spaces]],
+we immediately run into a serious problem: precomposition does not respect equality almost everywhere.
 
 To see this, suppose
 $$f,g\colon(X,M,N)\to(X',M',N')$$
@@ -196,6 +159,56 @@ Therefore, it is reasonable to expect that there are no morphisms $(X_1,M_1,N_1)
 
 If $f\colon(X',M',N')\to(X'',M'',N'')$ is a measurable map and $n''\in N''$, consider the restriction of $f$ to a map $f^{-1}n''\to n''$.  The restricted map is measurable in the induced structures.  Since the codomain $n''$ is negligible, we expect $f^{-1}n''$ to be negligible.  This leads us once again to the negligibility reflection condition.
 
+
+### Postcomposition and weak equality almost everywhere
+
+Postcomposition respects equality almost everywhere.
+
+To see this, suppose
+$$f,g\colon(X,M,N)\to(X',M',N')$$
+are [[measurable maps]] that are equal almost everywhere.
+
+Suppose that
+$$h\colon(X',M',N')\to(\{0,1\},2^{\{0,1\}},\{\emptyset\})$$
+is a measurable map.
+Such measurable maps are in bijection with elements of $M'$: the bijection sends $h$ to $h^{-1}\{1\}$, and the inverse bijection sends a subset $m'\in M'$ to its [[characteristic function]] $\chi_{m'}$.
+
+If composition is to be compatible with equality almost everywhere, then $h\circ f$ would have to be equal to $h\circ g$ almost everywhere.
+We have
+$$[h\circ f\ne h\circ g]=f^{-1}m'\oplus g^{-1}m',$$
+where $m'=h^{-1}\{1\}$ is as above.
+Since
+$$f^{-1}m'\oplus g^{-1}m' \subset [f\ne g],$$
+the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible.
+
+The latter condition, i.e., the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible for all $m'\in M'$,
+is very much compatible with the ideology of [[measure theory]]: it says that the preimages of $f$ and $g$ are the same almost everywhere.
+
+It is quite natural to ask whether the converse holds.
+For example, two continuous maps $f,g\colon X\to X'$ of $T_0$-[[topological spaces]] are equal if and only if for every open subset $U'\subset X'$ we have $f^{-1}U'=g^{-1}U'$.
+In measure theory, equality of sets should be replaced with equality almost everywhere,
+which amounts to requiring for every $m'\in M'$ the symmetric difference $f^{-1}m'\oplus g^{-1}m'$ to be negligible.
+
+However, [Fremlin](#Fremlin) (Example 343I) constructs an example of a measurable negligibility-reflecting map $f:(X,M,\mu)\to(X,M,\mu)$, where $(X,M,\mu)=\{0,1\}^{\mathfrak{c}}$ is a product of continuum many discrete measurable spaces $\{0,1\}$ such that for every $x\in X$ we have $f(x)\ne x$, but for every $m\in M$, the set $f^{-1}m\oplus m$ is negligible.
+Thus, the identity map $id_X$ is not equal to $f$ almost everywhere and yet, $id_X$ and $f$ have the same preimages, up to subnegligible sets.
+
+Such a situation is pathological, and is it turns out, it is the condition of having the same preimages up to subnegligible sets
+that produces nonpathological theory when the two conditions differ (they do coincide for many spaces, as we will see below).
+
+These considerations naturally lead us to a coarser equivalence relation.
+
+\begin{definition}
+Two measurable maps
+$$f,g\colon(X,M,N)\to(X',M',N')$$
+are __weakly equal almost everywhere__ if for every $m'\in M'$ we have
+$$f^{-1}m'\oplus g^{-1}m'\in N.$$
+\end{definition}
+
+Equality almost everywhere implies weak equality almost everywhere.
+The converse is true if $(X',M',N')$ is __countably separated__ (Fremlin, Proposition 343F), i.e., there is a countable subset $M''\subset M'$ that covers $X'$ and for any two points of $X'$ there is an element of $M''$ that contains exactly one of them.
+
+An enhanced measurable space is countably separated if and only if it admits an injective measurable function into real numbers.  Most measurable spaces (other than some counterexamples) in an introductory real analysis book are countably separated, which explains why the finer equivalence relation of equality almost everywhere is sufficient for many practical purposes.
+
 ### The category of enhanced measurable spaces
 
 We collect what we have learned so far.
@@ -206,9 +219,9 @@ We collect what we have learned so far.
 
 * Enhanced measurable spaces $(X,M,N)$ have just the right amount of information.
 
-* The equivalence relation of equality almost everywhere must be coarsened to weak equality almost everywhere to ensure it is compatible with postcomposition.
-
 * The condition of measurability of maps, i.e., reflection of measurable sets, must be strengthened to also require reflection of negligible sets, to ensure its compatibility with precomposition.
+
+* The equivalence relation of equality almost everywhere must be coarsened to weak equality almost everywhere to ensure morphisms are fully determined by their preimages up to subnegligible sets.
 
 Assembling these properties together, we arrive at the following definition.
 
@@ -605,7 +618,9 @@ The following remarks are in order.
 
 * However, one could use conventional [[measure spaces]] $(X,M,\mu)$ instead, using $N_\mu$ as the [[σ-ideal]] of negligible sets.
 
-* To ensure that composition descends to the quotient category, equality almost everywhere must be coarsened to weak equality almost everywhere and measurable maps must reflect negligible sets.
+* To ensure that composition descends to the quotient category, measurable maps must reflect negligible sets.
+
+* The equivalence relation of equality almost everywhere must be coarsened to weak equality almost everywhere to ensure morphisms are fully determined by their preimages up to subnegligible sets.
 
 * Completeness is optional, but simplifies some aspects of the presentation.  Local determinacy is implied by strict localizability.
 
