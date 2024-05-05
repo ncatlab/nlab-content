@@ -33,7 +33,7 @@ $$
 
 and hence may in fact be continued non-singularly also at the cone tip.
 
-For $G$ a [[finite group]] with a [[free action|free]] [[action]] on the [[round sphere]] $S^n$, the [[quotient space]] $S^n/G$ exists as a [[Riemannian manifold]]. The metric cone $C(S^n/G)$ on this is singular at the origin as soon as $G$ is not the [[trivial group]]. 
+For $G$ a [[finite group]] with a [[free action|free]] [[action]] on the [[round sphere]] $S^n$ (cf. *[[group actions on spheres]]*), the [[quotient space]] $S^n/G$ exists as a [[Riemannian manifold]]. The metric cone $C(S^n/G)$ on this is singular at the origin as soon as $G$ is not the [[trivial group]]. 
 
 If here $G = \mathbb{Z}_n$ is a [[cyclic group]] one says that this cone is obtained from flat [[Euclidean space]] by introducing a "deficit angle".
 
