@@ -51,9 +51,9 @@ Say a morphism $f : X \to Y$ in $PreSegalCat$ is
 
   is a [[weak homotopy equivalence]] of simplicial sets;
 
-  * _essentially surjective_ if $\tau_1(f)$ is [[essentially surjective functor|essentially surjective]].
+* _essentially surjective_ if $\tau_1(f)$ is [[essentially surjective functor|essentially surjective]].
 
-  * a _categorical equivalence_ if it is both full and faithful as well as essentially surjective.
+* a _categorical equivalence_ if it is both full and faithful as well as essentially surjective.
 
 =--
 
