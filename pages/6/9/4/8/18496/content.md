@@ -81,7 +81,7 @@ for the resulting [[Fréchet space|Fréchet]] [[topological vector space]].
 
 +-- {: .num_defn #CompactlySupportedDistributionsAsContinuousLinearDualsToBumpFunctions}
 ###### Definition
-**(compactly supported distibutions as continuous linear duals to bump functions)**
+**(compactly supported distributions as continuous linear duals to bump functions)**
 
 The space $\mathcal{E}'(\mathbb{R}^n)$ of _compactly supported distributions_ on $\mathbb{R}^n$ is the [[dual space]]
 
