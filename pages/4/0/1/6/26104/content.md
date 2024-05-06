@@ -50,3 +50,6 @@ Lecture notes:
 
 [[!redirects finite-dimensional Hilbert spaces]]
 
+[[!redirects finite dimensional Hilbert space]]
+[[!redirects finite dimensional Hilbert spaces]]
+
