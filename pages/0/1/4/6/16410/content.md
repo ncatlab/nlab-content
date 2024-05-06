@@ -65,7 +65,7 @@ See also
 
 * Wikipedia, _[de Sitter space](http://en.wikipedia.org/wiki/De_Sitter_space)_
 
-Discussion via [[representation theory]]:
+Further discussion of the [[de Sitter group]] and its [[representation theory]]:
 
 * Vladimir Schaub, *A Walk Through $Spin(1,d+1)$* &lbrack;[arXiv:2405.01659](https://arxiv.org/abs/2405.01659)&rbrack;
 
