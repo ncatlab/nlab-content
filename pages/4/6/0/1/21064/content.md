@@ -6,6 +6,7 @@ The [[Poisson bracket]]-formulation of the [[classical mechanics|classical]] [[l
 
 * {#Hoppe82} [[Jens Hoppe]], _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, MIT 1982 ([dspace:1721.1/15717](http://hdl.handle.net/1721.1/15717), [[HoppeMembrane82.pdf:file]])
 
+
 Some exact solutions:
 
 * [[Jens Hoppe]], *Exact algebraic M(em)brane solutions* $[$[arXiv:2107.00569](https://arxiv.org/abs/2107.00569)$]$
@@ -22,17 +23,17 @@ Original articles:
 
 Observation that the spectrum is continuous:
 
-* [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135 ([spire:266584](http://inspirehep.net/record/266584/), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
+* [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B **320** (1989) 135 \[<a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>, [spire:266584](http://inspirehep.net/record/266584/)\]
 
 Review:
 
-* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
+* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In: _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ (1998) 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
   
-* [[Jens Hoppe]], _Membranes and Matrix Models_ ([arXiv:hep-th/0206192](https://arxiv.org/abs/hep-th/0206192))
+* [[Jens Hoppe]], _Membranes and Matrix Models_ \[<a href="https://arxiv.org/abs/hep-th/0206192">arXiv:hep-th/0206192</a>\]
 
-* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. 8:1, 2002; Rev. Mex. Fis. 49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
+* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. **8** 1 (2002) Rev. Mex. Fis. 49S1 (2003) 1-10 \[<a href="http://arxiv.org/abs/hep-th/0201182">arXiv:hep-th/0201182</a>, [spire:582067](https://inspirehep.net/literature/582067)\]
 
-* [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_, 2006 ([pdf](http://web.science.uu.nl/itf/Teaching/2006/vandenOord.pdf))
+* [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_ MSc thesis (2006) ([[vdOoord-Supermembranes.pdf:file]])
 
 * [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ ([arXiv:2103.06666](https://arxiv.org/abs/2103.06666))
 
