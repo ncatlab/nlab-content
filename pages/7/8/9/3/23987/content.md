@@ -2069,7 +2069,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### May 2024
 
-* 06 May 2024
+* {#ZucchiniMay2024} 06 May 2024
 
   [[Roberto Zucchini]] (University of Bologna, Italy): 
 
