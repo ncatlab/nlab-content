@@ -207,9 +207,21 @@ Persistent homology has strong computational limits for large data sets and majo
 
 Potential implementation of TDA on [[quantum computers]]:
 
+* [[Seth Lloyd]], Silvano Garnerone, Paolo Zanardi, *Quantum algorithms for topological and geometric analysis of big data*, Nat Commun **7** 10138 (2016) &lbrack;[arXiv:1408.3106](https://arxiv.org/abs/1408.3106), [doi:10.1038/ncomms10138](https://doi.org/10.1038/ncomms10138)&rbrack;
+
 * He-Liang Huang, Xi-Lin Wang, Peter P. Rohde, Yi-Han Luo, You-Wei Zhao, Chang Liu, Li Li, Nai-Le Liu, Chao-Yang Lu, Jian-Wei Pan, _Demonstration of Topological Data Analysis on a Quantum Processor_, Optica 5(2), 193 (2018) ([arXiv:1801.06316](https://arxiv.org/abs/1801.06316)) 
 
 * {#IMD23} Massimiliano Incudini, Francesco Martini, [[Alessandra Di Pierro]], *Higher-order topological kernels via quantum computation*, 2023 IEEE International Conference on Quantum Computing and Engineering, QCE **1** (2023) &lbrack;[arXiv:2307.07383](https://arxiv.org/abs/2307.07383), [doi:10.1109/QCE57702.2023.00076](https://doi.ieeecomputersociety.org/10.1109/QCE57702.2023.00076)&rbrack;
+
+See also:
+
+* [[Roberto Zucchini]], *A new quantum computational set-up for algebraic topology via simplicial sets* &lbrack;[arXiv:2309.11304](https://arxiv.org/abs/2309.11304), [spire:2700409](https://inspirehep.net/literature/2700409)&rbrack;
+
+
+
+
+
+
 
 
 [[!include cohomotopy in topological data analysis -- references]]
