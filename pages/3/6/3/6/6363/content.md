@@ -248,7 +248,7 @@ Formulation of Gelfand duality in terms of [[category theory]] ([[adjoint functo
 
 Quick exposition is in
 
-* Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.uni-bielefeld.de/~ambrogio/exercise_C_algebras.pdf))
+* Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](https://idellambrogio.github.io/exercise_C_algebras.pdf))
 
 Textbook accounts include
 
