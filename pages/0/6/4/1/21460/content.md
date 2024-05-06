@@ -1,5 +1,7 @@
 
-* [webpage](https://www.unibo.it/sitoweb/roberto.zucchini/en)
+* [institute page](https://www.unibo.it/sitoweb/roberto.zucchini/en)
+
+* [InSpire page](https://inspirehep.net/authors/981921)
 
 
 ## Selected writings
