@@ -99,6 +99,10 @@ For $dim(X)\leq 2n$, the [[cokernel]] group $N_n(X)$ is a [[finite group|finite]
 
 =--
 
+## Algebraic K-theory
+
+For the notion of unstable algebraic K-theory, see [Jansen 2024](#Jansen24).
+
 ## Related concepts
 
 * [[topological K-theory]]
@@ -112,6 +116,10 @@ For $dim(X)\leq 2n$, the [[cokernel]] group $N_n(X)$ is a [[finite group|finite]
 * [[Hiroaki Hamanaka]], [[Akira Kono]]: *An application of unstable K-theory*, Journal of Mathematics of Kyoto University **44** 2 (2004) 451-456 &lbrack;[doi:10.1215/kjm/1250283560](https://doi.org/10.1215/kjm/1250283560)&rbrack;
 
 * [[Hiroaki Hamanaka]]: *Adams $ e $-invariant, Toda bracket and $[X, U (n)]$*, Journal of Mathematics of Kyoto University **43** 4 (2003) 815-827 &lbrack;[doi:10.1215/kjm/1250281737](https://doi.org/10.1215/kjm/1250281737)&rbrack;
+
+On unstable algebraic K-theory:
+
+* {#Jansen24} Mikala Ørsnes Jansen. *Unstable algebraic K-theory: homological stability and other observations* (2024). ([arXiv:2405.02065](https://arxiv.org/abs/2405.02065)).
 
 
 [[!redirects unstable topological K-theory]]
