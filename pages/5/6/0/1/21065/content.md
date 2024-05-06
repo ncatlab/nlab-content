@@ -12,7 +12,7 @@ The [[equations of motion]] of the super membrane are derived via the [[superemb
 
 and the [[Lagrangian density]] for the super membrane is derived via the [[superembedding approach]] in
 
-* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class. Quant. Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
+* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class. Quant. Grav. **22** (2005) 2167-2200 \[<a href="https://arxiv.org/abs/hep-th/0412245">arXiv:hep-th/0412245</a>, <a href="https://doi.org/10.1088/0264-9381/22/11/017">doi:10.1088/0264-9381/22/11/017</a>\]
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
 
@@ -25,7 +25,7 @@ The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz supe
 
 The interpretation of the [[super-membrane]] as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _[[M2-brane]]_ was proposed in 
 
-* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett.B **350** (1995) 184-187 \[<a href="http://arxiv.org/abs/hep-th/9501068">arXiv:hep-th/9501068</a>, <a href="https://doi.org/10.1016/0370-2693(95)00397-4">doi:10.1016/0370-2693(95)00397-4</a>\]
 
 around the time when [[M-theory]] became accepted due to
 
