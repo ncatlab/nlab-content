@@ -2066,7 +2066,18 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > This leads us to consider the possibility of hybrid classical-quantum protocols of variational type: they exploit quantum resources to efficiently prepare states that depend on a suitable chosen set of variational parameters, which can then be determined by means of optimization algorithms to be run on a classical computer. The choice of such classical optimizer schemes is to be guided by compatibility requirements with respect to current available quantum platforms.
 
   > To evaluate the feasibility of such an approach, we present an application of the Quantum Approximate Optimization Algorithm to a typical classical hard combinatorial problem, that has been emulated and tested on a real Rydberg atom quantum machine. 
- 
+
+### May 2024
+
+* 06 May 2024
+
+  [[Roberto Zucchini]] (University of Bologna, Italy): 
+
+  **A New Quantum Computational Setup for Algebraic Topology via Simplicial Sets**
+
+  cf.: [arXiv:2309.11304](https://arxiv.org/abs/2309.11304)
+
+  > We present a [[quantum computing|quantum computational]] framework for [[algebraic topology]] based on [[simplicial set]] theory extending existing approaches limited to [[simplicial complexes]] and aimed mostly to [[topological data analysis]]. The proposed set-up applies to any parafinite simplicial set and proceeds by associating with it a [[finite-dimensional Hilbert space|finite dimensional]] [[simplicial object|simplicial]] [[Hilbert space]], whose [[linear operator|operator]] structure is analyzed. We show in particular how the problem of determining [[simplicial homology|the simplicial set's homology]] can be solved within the simplicial Hilbert framework. We examine further the conditions under which simplicial set theoretic algorithms can be implemented in a quantum computational setting taking into account a [[quantum computer]]'s finite  resources and outline finally a [[quantum algorithm|quantum algorithmic]] scheme capable to compute the [[simplicial homology]] spaces and [[Betti numbers]] of a simplicial set combining a number of basic quantum algorithms.
 
 
 \linebreak
