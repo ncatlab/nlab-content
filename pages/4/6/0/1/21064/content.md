@@ -19,7 +19,7 @@ On the regularized [[light-cone gauge quantization]] of the [[Green-Schwarz sigm
 
 Original articles:
 
-* {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]], [spire:261702](http://inspirehep.net/record/261702))
+* {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], *On the Quantum Mechanics of Supermembranes*, Nucl. Phys. B **305** (1988) 545-581 \[<a href="https://doi.org/10.1016/0550-3213(88)90116-2">doi:10.1016/0550-3213(88)90116-2</a>, [spire:261702](http://inspirehep.net/record/261702), [pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]]\]
 
 Observation that the spectrum is continuous:
 
@@ -31,7 +31,7 @@ Review:
   
 * [[Jens Hoppe]], _Membranes and Matrix Models_ \[<a href="https://arxiv.org/abs/hep-th/0206192">arXiv:hep-th/0206192</a>\]
 
-* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. **8** 1 (2002) Rev. Mex. Fis. 49S1 (2003) 1-10 \[<a href="http://arxiv.org/abs/hep-th/0201182">arXiv:hep-th/0201182</a>, [spire:582067](https://inspirehep.net/literature/582067)\]
+* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], *An Introduction to the Quantum Supermembrane*, Grav. Cosmol. **8** 1 (2002) and Rev. Mex. Fis. 49S1 (2003) 1-10 \[<a href="http://arxiv.org/abs/hep-th/0201182">arXiv:hep-th/0201182</a>, [spire:582067](https://inspirehep.net/literature/582067)\]
 
 * [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_ MSc thesis (2006) ([[vdOoord-Supermembranes.pdf:file]])
 
