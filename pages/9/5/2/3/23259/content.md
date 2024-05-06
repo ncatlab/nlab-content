@@ -22,6 +22,11 @@ Introducing the notion of [[quantum random access memory]]:
 
 * {#GiovanettiyLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310)&rbrack;
 
+On [[quantum algorithms]] ([[quantum computing]]) applied to [[topological data analysis]] ([[persistent homology]]):
+
+* [[Seth Lloyd]], Silvano Garnerone, Paolo Zanardi, *Quantum algorithms for topological and geometric analysis of big data*, Nat Commun **7** 10138 (2016) &lbrack;[arXiv:1408.3106](https://arxiv.org/abs/1408.3106), [doi:10.1038/ncomms10138](https://doi.org/10.1038/ncomms10138)&rbrack;
+
+
 
 On [[quantum machine learning]]:
 
