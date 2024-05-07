@@ -61,7 +61,7 @@ whence some authors also speak of *[[Brandt groupoids]]*.
 
 For more see the references at *[[groupoids]]*.
 
-
+* Josef Niederle, _Monomorphisms in the category of small connected categories with surjective functors_, Archivum Mathematicum 13.4 (1977): 195-199.
 
 
 
