@@ -403,8 +403,9 @@ A comprehensive account and classification of the polyvector extensions of the s
 
 Discussion of the super-[[Lie algebra cohomology]] of the [[super Poincare Lie algebra]] goes back to work on [[Green-Schwarz sigma models]] in
 
-* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], *Superspace geometry and classification of supersymmetric extended objects*, Phys. Rev. Lett. **62**  (1989) 2579-2582 &lbrack;[doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579), [spire:284635](https://inspirehep.net/literature/284635)&rbrack;
  
+
 A rigorous classification of these cocycles was later given in
 
 * {#Brandt12-13} [[Friedemann Brandt]], _Supersymmetry algebra cohomology_ 
