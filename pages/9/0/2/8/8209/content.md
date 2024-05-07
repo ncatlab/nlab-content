@@ -224,6 +224,9 @@ See also:
 
 * Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
 
+* Niko Jokela, Matti Järvinen, Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
+
+  > "[[holographic QCD|Holographic QCD]] has reached the level of sophistication that allows for a detailed reproduction of numerous [[lattice QCD]] outcomes"
 
 
 
