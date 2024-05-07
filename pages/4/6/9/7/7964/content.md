@@ -377,6 +377,9 @@ See also:
 
 * [[Gudrun Hiller]], Tim Höhne, Daniel F. Litim, Tom Steudtner, *Vacuum Stability in the Standard Model and Beyond* &lbrack;[arXiv:2401.08811](https://arxiv.org/abs/2401.08811)&rbrack;
 
+* Thomas Steingasser, *Higgs criticality in and beyond the Standard Model* &lbrack;[arXiv:2405.02415](https://arxiv.org/abs/2405.02415)&rbrack;
+
+
 
 
 
