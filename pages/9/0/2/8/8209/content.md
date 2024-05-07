@@ -214,9 +214,9 @@ Other original articles include:
 
 With emphasis on application to [[neutron stars]]:
 
-* Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
+* [[Carlos Hoyos]], [[Niko Jokela]], [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Transport in strongly coupled quark matter*, Phys. Rev. Lett. **125** (2020) 241601 7Lbrack;[arXiv:2005.14205](https://arxiv.org/abs/2005.14205), [doi:10.1103/PhysRevLett.125.241601](https://doi.org/10.1103/PhysRevLett.125.241601)&rbrack;
 
-* Carlos Hoyos, Niko Jokela, Matti Järvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+* [[Carlos Hoyos]], [[Niko Jokela]], [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter*, Phys. Rev. D **105** 6 (2022) 066014 &lbrack;[arXiv:2109.12122](https://arxiv.org/abs/2109.12122), [doi:10.1103/PhysRevD.105.066014](https://doi.org/10.1103/PhysRevD.105.066014)&rbrack;
 
 See also:
 
@@ -224,12 +224,11 @@ See also:
 
 * Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
 
-* Niko Jokela, Matti Järvinen, Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
+* {#JokelaJärvinenPiispa24} [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
 
   > "[[holographic QCD|Holographic QCD]] has reached the level of sophistication that allows for a detailed reproduction of numerous [[lattice QCD]] outcomes"
 
-* Tuna Demircik, Niko Jokela, Matti Jarvinen, Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
-
+* [[Tuna Demircik]], [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
 
 
 
