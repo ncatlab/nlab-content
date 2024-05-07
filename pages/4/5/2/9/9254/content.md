@@ -217,6 +217,9 @@ See also:
 
 * [[Roberto Zucchini]], *A new quantum computational set-up for algebraic topology via simplicial sets* &lbrack;[arXiv:2309.11304](https://arxiv.org/abs/2309.11304), [spire:2700409](https://inspirehep.net/literature/2700409)&rbrack;
 
+* [[Roberto Zucchini]], *A New Quantum Computational Setup for Algebraic Topology via Simplicial Sets*, [talk at](CQTS##ZucchiniMay2024) [[CQTS]] (May 2024) &lbrack;[[Zucchini-May2024.pdf:file]]&rbrack;
+
+
 
 
 
