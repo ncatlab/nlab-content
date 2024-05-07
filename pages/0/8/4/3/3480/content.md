@@ -575,6 +575,10 @@ Tannaka duality for dg-categories is studied in
 
 * MathOverflow, [Does the Tannaka-Krein theorem come from an equivalence of 2-categories?](http://mathoverflow.net/questions/30453/does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories)
 
+See also
+
+* Lukas Rollier. *Equivariant Tannaka-Krein reconstruction and quantum automorphism groups of discrete structures* (2024). ([arXiv:2405.03364](https://arxiv.org/abs/2405.03364)).
+
 [[!redirects Tannaka reconstruction]]
 
 [[!redirects Tannaka reconstruction theorem]]
