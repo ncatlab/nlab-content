@@ -47,6 +47,10 @@ However, while useful, this approach has the disadvantage of being too broad: th
 
 See also at _[[2-algebraic theory]]_.
 
+### As cartesian double theories
+
+In [Lambert & Patterson, 2023](#LambPatt23), doctrines are treated as [[cartesian category|cartesian]] [[double categories]]. A cartesian double theory is defined to be a small [[double category]] with [[finite products]] and a model of a cartesian double theory to be a finite product-preserving [[lax functor]] out of it.
+
 ### As logics
 
 The word "doctrine" can also be used to design a particular setting for categorical logic (e.g., categories with finite products, [[geometric logic]] etc...; see [[internal logic]]).  This can also be formalized in a more general way using weak higher categories.  This generalization is necessary to treat complicated algebraic structures like symmetric operads or higher operads in a categorical logical way.
@@ -84,6 +88,11 @@ General discussions of the "doctrine" concept:
 * [Doctrines by Dolan and Baez](http://ncatlab.org/johnbaez/show/Doctrines)
 
 * [A duality relative to a limit doctrine](http://www.emis.de/journals/TAC/volumes/10/20/10-20abs.html) by C. Centazzo and E.M. Vitale 
+
+Doctrines are treated as cartesian [[double categories]] in:
+
+* {#LambPatt23} [[Michael Lambert]], [[Evan Patterson]], _Cartesian double theories: A double-categorical framework for categorical doctrines_ &lbrack;[arXiv:2310.05384](https://arxiv.org/abs/2310.05384)&rbrack;
+
 
 A pedadogically aimed study of higher doctrines, using the simple definition of doctrines as (weak) [[n-categories]] described by [[generators and relations]]:
 
