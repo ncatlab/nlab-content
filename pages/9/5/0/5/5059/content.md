@@ -916,7 +916,7 @@ Review from the bigger perspective that also includes worlsheet supermanifolds i
 
 The observation that the Green-Schwarz action functional is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to
 
-* {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en), <a href="https://doi.org/10.1016/0370-2693(85)90507-6">doi:10.1016/0370-2693(85)90507-6</a>)
+* {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, *A $\sigma$-Model Interpretation of Green-Schwarz Covariant Superstring Action*, Phys. Lett. B **152** (1985) 340 &lbrack;<a href="https://doi.org/10.1016/0370-2693(85)90507-6">doi:10.1016/0370-2693(85)90507-6</a>, [spire:15922](https://inspirehep.net/literature/15922)&rbrack;
 
 For more references on this WZW perspective see [below](#ReferencesWZWTerm).
 
@@ -974,7 +974,7 @@ made fully explicit (in "FDA" language) in
 
 The original "brane scan" classification of GS action functionals by WZW terms:
 
-* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire:22286](http://inspirehep.net/record/22286), <a href="https://doi.org/10.1016/0370-2693(87)90896-3">doi:10.1016/0370-2693(87)90896-3</a>, [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]])
+* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 &lbrack;[spire:22286](http://inspirehep.net/record/22286), <a href="https://doi.org/10.1016/0370-2693(87)90896-3">doi:10.1016/0370-2693(87)90896-3</a>, [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]]&rbrack;
 
 A complete rigorous classification of all the relevant cocycles on the [[super Poincaré Lie algebra]] was given in
 
@@ -997,7 +997,7 @@ For $d = 11$ the relevant [[super Lie algebra]] [[Lie algebra cohomology|cocycle
 
 A review is in
 
-* {#Duff87} [[Michael Duff]], _Supermembranes: the first fifteen weeks_, Class. Quant. Grav. 5 (1988) 189 ([doi:10.1088/0264-9381/5/1/023](https://doi.org/10.1088/0264-9381/5/1/023), [spire:248034](https://inspirehep.net/record/248034))
+* {#Duff87} [[Michael Duff]], *Supermembranes: the first fifteen weeks*, Class. Quant. Grav. **5** (1988) 189 &lbrack;[doi:10.1088/0264-9381/5/1/023](https://doi.org/10.1088/0264-9381/5/1/023), [spire:248034](https://inspirehep.net/record/248034)&rbrack;
 
 from which the above table is taken.
 
