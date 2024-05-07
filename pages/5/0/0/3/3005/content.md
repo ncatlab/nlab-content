@@ -359,11 +359,14 @@ Textbook accounts:
 Further references:
 
 
-* [[FGA explained]], [[SGA 1]], 
-
+* [[FGA explained]], [[SGA 1]]
 
 * [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra. Springer 1966.
 
+* [[Jack Duskin]], _Variations on Beck's tripleability criterion_, Reports of the Midwest Category Seminar III. Springer Berlin Heidelberg, 1969.
+
+
+* Yasuo Kawahara, _A Relation Theoretic Proof of a Tripleability Theorem Over Exact Categories_, Bulletin of the Kyushu Institute of Technology. Mathematics, natural science 25 (1978): 31-40.
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
