@@ -2067,6 +2067,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > To evaluate the feasibility of such an approach, we present an application of the Quantum Approximate Optimization Algorithm to a typical classical hard combinatorial problem, that has been emulated and tested on a real Rydberg atom quantum machine. 
 
+
 ### May 2024
 
 * {#ZucchiniMay2024} 06 May 2024
@@ -2074,6 +2075,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   [[Roberto Zucchini]] (University of Bologna, Italy): 
 
   **A New Quantum Computational Setup for Algebraic Topology via Simplicial Sets**
+
+  slides: [[Zucchini-May2024.pdf:file]]
 
   cf.: [arXiv:2309.11304](https://arxiv.org/abs/2309.11304)
 
