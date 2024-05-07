@@ -228,6 +228,9 @@ See also:
 
   > "[[holographic QCD|Holographic QCD]] has reached the level of sophistication that allows for a detailed reproduction of numerous [[lattice QCD]] outcomes"
 
+* Tuna Demircik, Niko Jokela, Matti Jarvinen, Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
+
+
 
 
 
