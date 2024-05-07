@@ -573,7 +573,17 @@ From [CLFH22](#CLFH22):
 
 \linebreak
 
-These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18). 
+On properties of the [[quark-gluon plasma]] in comparison to [[lattice QCD]] results:
+
+[Jokela, Järvinen & Piispa 2924](#JokelaJärvinenPiispa24):
+
+> "[[holographic QCD|Holographic QCD]] has reached the level of sophistication that allows for a detailed reproduction of numerous [[lattice QCD]] outcomes"
+
+\linebreak
+
+NB: These computations so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein & Weissman 2018](#SonnenscheinWeissman18). 
+
+
 
 ## Embedding into the standard model of particle physics
 
@@ -662,9 +672,9 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 With emphasis on application to the [QCD phase diagram](QCD#PhaseDiagram) and to the description of [[neutron stars]]:
 
-* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
+* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur. Phys. J. C. **56** (2021) &lbrack;[arXiv:2110.08281](https://arxiv.org/abs/2110.08281), [doi:10.1140/epjc/s10052-022-10227-x](https://doi.org/10.1140/epjc/s10052-022-10227-x)&rbrack;
 
-* Niko Jokela, *NICER view on holographic QCD* ([arXiv:2111.07940](https://arxiv.org/abs/2111.07940))
+* [[Niko Jokela]], *NICER view on holographic QCD*, EPJ Web of Conferences **258** (2022) 07004 &lbrack;[arXiv:2111.07940](https://arxiv.org/abs/2111.07940), [doi:10.1051/epjconf/202225807004](https://doi.org/10.1051/epjconf/202225807004)&rbrack;
 
 
 
@@ -832,7 +842,7 @@ reviewed in
 
 More developments on improved holographic QCD:
 
-* Takaaki Ishii, [[Matti Järvinen]], Govert Nijs, _Cool baryon and quark matter in holographic QCD_ ([arXiv:1903.06169](https://arxiv.org/abs/1903.06169))
+* Takaaki Ishii, [[Matti Järvinen]], Govert Nijs, _Cool baryon and quark matter in holographic QCD_,  J. High Energ. Phys. **2019** 3 (2019) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2019)003">doi:10.1007/JHEP07(2019)003</a>, [arXiv:1903.06169](https://arxiv.org/abs/1903.06169)&rbrack;
 
 The extreme form of bottom-up holographic model building is explored in
 
@@ -1045,7 +1055,7 @@ See also
 
 In relation to the [[open string]] [[tachyon]]:
 
-* M. Järvinen, E. Kiritsis, F. Nitti, E. Préau, *Tachyon-dependent Chern-Simons terms and the V-QCD Baryon* &lbrack;[arXiv:2209.05868](https://arxiv.org/abs/2209.05868)&rbrack;
+* [[Matti Järvinen]], [[Elias Kiritsis]], F. Nitti, E. Préau, *Tachyon-dependent Chern-Simons terms and the V-QCD Baryon*,  J. High Energ. Phys. **2022** 160 (2022) &lbrack;<a href="https://doi.org/10.1007/JHEP12(2022)160">doi:10.1007/JHEP12(2022)160</a>, [arXiv:2209.05868](https://arxiv.org/abs/2209.05868)&rbrack;
 
 See also:
 
@@ -1253,11 +1263,11 @@ See also:
 
 * Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
 
-* Niko Jokela, Matti Järvinen, Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
+* {#JokelaJärvinenPiispa24} [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
 
   > "[[holographic QCD|Holographic QCD]] has reached the level of sophistication that allows for a detailed reproduction of numerous [[lattice QCD]] outcomes"
 
-* Tuna Demircik, Niko Jokela, Matti Jarvinen, Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
+* [[Tuna Demircik]], [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
 
 
 
@@ -1353,13 +1363,13 @@ With [[magnetic fields]]:
 
 Of relevance in [[neutron stars]]:
 
-* Carlos Hoyos, Niko Jokela, [[Matti Jarvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Transport in strongly coupled quark matter*, Phys.Rev.Lett. 125 (2020) 241601 ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
+* [[Carlos Hoyos]], [[Niko Jokela]], [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Transport in strongly coupled quark matter*, Phys. Rev. Lett. **125** (2020) 241601 7Lbrack;[arXiv:2005.14205](https://arxiv.org/abs/2005.14205), [doi:10.1103/PhysRevLett.125.241601](https://doi.org/10.1103/PhysRevLett.125.241601)&rbrack;
 
-* Carlos Hoyos, Niko Jokela, [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter*, Phys.Rev.D 105 (2022) 6, 066014 ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+* [[Carlos Hoyos]], [[Niko Jokela]], [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter*, Phys. Rev. D **105** 6 (2022) 066014 &lbrack;[arXiv:2109.12122](https://arxiv.org/abs/2109.12122), [doi:10.1103/PhysRevD.105.066014](https://doi.org/10.1103/PhysRevD.105.066014)&rbrack;
 
-* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
+* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur. Phys. J. C. **56** (2021) &lbrack;[arXiv:2110.08281](https://arxiv.org/abs/2110.08281), [doi:10.1140/epjc/s10052-022-10227-x](https://doi.org/10.1140/epjc/s10052-022-10227-x)&rbrack;
 
-* Carlos Hoyos, Niko Jokela, Aleksi Vuorinen, *Holographic approach to compact stars and their binary mergers*, Prog.Part.Nucl.Phys. 126 (2022) 103972 ([arXiv:2112.08422] (https://arxiv.org/abs/2112.08422))
+* [[Carlos Hoyos]], [[Niko Jokela]], Aleksi Vuorinen, *Holographic approach to compact stars and their binary mergers*, Prog. Part. Nucl. Phys. **126** (2022) 103972 &lbrack;[arXiv:2112.08422] (https://arxiv.org/abs/2112.08422), [doi:10.1016/j.ppnp.2022.103972](https://doi.org/10.1016/j.ppnp.2022.103972)&rbrack;
 
 
 See also
@@ -1376,7 +1386,7 @@ See also
 
 * Nicolas Kovensky, Aaron Poole, Andreas Schmitt, *Phases of cold holographic QCD: baryons, pions and rho mesons* &lbrack;[arXiv:2302.10675](https://arxiv.org/abs/2302.10675)&rbrack;
 
-* Jesús Cruz Rojas, Tuna Demircik, Matti Järvinen, *Modulated instabilities and the $AdS_2$ point in dense holographic matter* &lbrack;[arXiv:2405.02399](https://arxiv.org/abs/2405.02399)&rbrack;
+* Jesús Cruz Rojas, [[Tuna Demircik]], [[Matti Järvinen]], *Modulated instabilities and the $AdS_2$ point in dense holographic matter* &lbrack;[arXiv:2405.02399](https://arxiv.org/abs/2405.02399)&rbrack;
 
 
 
