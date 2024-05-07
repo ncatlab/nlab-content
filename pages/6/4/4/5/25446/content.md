@@ -50,6 +50,8 @@ Hence we may divide both sides by $\left|C(Y, X)\right|$ (which is nonzero since
 
 * {#Pultr73} A. Pultr, *Isomorphism types of objects in categories determined by numbers of morphisms*, Acta Scientiarum Mathematicarum **35** (1973) 155-160 &lbrack;[pdf](http://acta.bibl.u-szeged.hu/14440/1/math_035_155-160.pdf)&rbrack;
 
+* Ehsan Momtahan, Afshin Amini, and Babak Amini, _From $Hom (A, X) \cong Hom(B, X)$ to $A \cong B$_, Filomat 32.11 (2018): 4079-4087.
+
 * [[Luca Reggio]], _Polyadic sets and homomorphism counting_, Advances in Mathematics 410 (2022): 108712.
 
 * Shoma Fujino and Makoto Matsumoto, _Lov&aacute;sz's hom-counting theorem by inclusion-exclusion principle_, [arXiv:2206.01994](https://arxiv.org/abs/2206.01994) (2022).
