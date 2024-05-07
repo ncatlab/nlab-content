@@ -1253,6 +1253,12 @@ See also:
 
 * Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
 
+* Niko Jokela, Matti Järvinen, Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
+
+  > "[[holographic QCD|Holographic QCD]] has reached the level of sophistication that allows for a detailed reproduction of numerous [[lattice QCD]] outcomes"
+
+* Tuna Demircik, Niko Jokela, Matti Jarvinen, Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
+
 
 
 ### Application to lepton anomalous magnetic moment
@@ -1369,6 +1375,13 @@ See also
 * Yi Yang, Pei-Hung Yuan, _QCD Phase Diagram by Holography_ ([arXiv:2011.11941](https://arxiv.org/abs/2011.11941))
 
 * Nicolas Kovensky, Aaron Poole, Andreas Schmitt, *Phases of cold holographic QCD: baryons, pions and rho mesons* &lbrack;[arXiv:2302.10675](https://arxiv.org/abs/2302.10675)&rbrack;
+
+* Jesús Cruz Rojas, Tuna Demircik, Matti Järvinen, *Modulated instabilities and the $AdS_2$ point in dense holographic matter* &lbrack;[arXiv:2405.02399](https://arxiv.org/abs/2405.02399)&rbrack;
+
+
+
+
+
 
 
 ### Application to meson physics
