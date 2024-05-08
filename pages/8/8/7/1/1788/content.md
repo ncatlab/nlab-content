@@ -1,4 +1,8 @@
 
+<a href="https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_vuc7b5h2&flashvars">kt</a>
+
+[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_vuc7b5h2?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_vuc7b5h2)
+
 $$
   \begin{array}{l}
     \mathrm{d} B^{a_1 a_2}
