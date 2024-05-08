@@ -311,6 +311,10 @@ The space of second order torsion invariants of $G_2$-structures is discussed by
 There are several variants of the definition of $G_2$-manifolds,
 def.\ref{G2manifold}, given by imposing other constraints on the [[torsion of a Cartan connection|torsion]].
 
+On a kind of [[instantons]] on $G_2$-manifolds:
+
+* Mario Garcia-Fernandez, Jason D. Lotay, Henrique N. Sá Earp, Agnaldo A. da Silva Jr.: *Coupled $G_2$-instantons* &lbrack;[arXiv:2404.12937](https://arxiv.org/abs/2404.12937)&rbrack;
+
 #### With skew-symmetric torsion
 
 Discussion for totally skew symmetric [[torsion of a Cartan connection]] includes [Friedrich & Ivanov 01, theorem 4.7, theorem 4.8](#FriedrichIvanov01).
