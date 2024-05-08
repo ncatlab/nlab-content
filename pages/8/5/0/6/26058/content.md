@@ -26,4 +26,6 @@ $$S(\Phi)=\int_\Sigma 2^{-1}(\|d\Phi\|^2+m^2\Phi^2)+P(\Phi)$$
 
 ### Liouville field theory
 
+See [[Liouville theory]] for more information.
+
 * Colin Guillarmou, Antti Kupiainen, Rémi Rhodes, Vincent Vargas, _Segal's axioms and bootstrap for Liouville Theory_, [arXiv](https://arxiv.org/abs/2112.14859).
