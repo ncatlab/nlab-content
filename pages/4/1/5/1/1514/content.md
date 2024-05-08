@@ -338,10 +338,12 @@ World Scientific, Singapore, 2009.
 The [[worldline]] path integral as a way to compute [[scattering amplitudes]] in [[QFT]] was understood in 
 
 * {#Strassler92} [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
- 
+
+On dicretization of path integrals for [[AKSZ sigma-models]]:
 
 * {#Lackman24} [[Joshua Lackman]], *A Groupoid Construction of Functional Integrals: Brownian Motion and Some TQFTs* &lbrack;[arXiv:2402.05866](https://arxiv.org/abs/2402.05866)&rbrack;
-
+  
+* [[Joshua Lackman]], *A Groupoid Construction of Functional Integrals*, [talk at](CQTS#Lackman24) [[CQTS]] (Feb 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_57ywhlbg?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_57ywhlbg)&rbrack;
 
 ### Stochastic integration theory
 
