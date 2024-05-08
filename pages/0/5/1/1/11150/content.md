@@ -37,6 +37,8 @@ An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d 
 
 * [[Jackiw-Teitelboim gravity]]
 
+* [[list of functorial field theories]]
+
 
 ## References
 
