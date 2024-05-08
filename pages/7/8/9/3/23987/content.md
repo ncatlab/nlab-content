@@ -901,7 +901,9 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
 **Talks:**
 
-* {#LambertMThMath2024} 15 Jan 2024
+{#Talks2024} **Talks:**
+
+* {#Lambert2024} 15 Jan 2024
 
   [[Neil Lambert]]:
 
@@ -909,13 +911,15 @@ at [[CQTS]] @ New York University, Abu Dhabi
 
   slides: [[Lambert-NonRelM2BranesAndADSCFT.pdf:file]]
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_mtb4zktr?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_mtb4zktr)
+
   cf.: [arXiv:2401.14955](https://arxiv.org/abs/2401.14955)
 
   > We discuss a peculiar limit of [[M2-branes]] that leads to a non-relativistic [[ABJM model|Chern-Simons-matter theory]] with an infinite dimensional spacetime [[symmetry group]] and whose dynamics leads to [[quantum mechanics]] on a [[Hitchin moduli space]]. We also discuss the corresponding limit in the [[AdS-CFT correspondence|gravitational dual]] which is described by an eleven-dimensional Membrane-Newton-Cartan theory about a [[background field|background]] with an [[anti de Sitter spacetime|$AdS_2$]] factor.
 
 \linebreak
 
-* {#ShahbaziMThMath2024} 15 Jan 2024
+* {#Shahbazi2024} 15 Jan 2024
 
   [[Carlos Shahbazi]]:
 
@@ -923,6 +927,9 @@ at [[CQTS]] @ New York University, Abu Dhabi
 Dimensional Universal Supergravity**
 
   slides: [[Shahbazi-MTheoryAndMath2024.pdf:file]]
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_vuc7b5h2?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_vuc7b5h2)
+
 
   cf.: [arXiv:2101.07236](pre-metric+electromagnetism#LazaroiuShahbazi23)
 
@@ -936,18 +943,21 @@ Dimensional Universal Supergravity**
 
   **Gauge Theory for String Algebroids**
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_0dgm9qkk?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_0dgm9qkk)
+
   cf.: [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler)  
 
   > In this talk I will explain a [[moment map]] construction for [[string algebroids]], a special type of [[Courant algebroids]] which arise as [[Atiyah algebroids]] of [[principal 2-bundle|higher principal bundles]]. The zero locus of our moment map is given by the solutions of the Calabi system, a coupled system of equations which provides a unifying framework for the classical Calabi problem and the Hull-Strominger system in [[heterotic string theory]]. Our main results are concerned with the geometry of the [[moduli space]] of solutions, and assume a technical condition which is fulfilled in examples. We prove that the [[moduli space]] carries a pseudo-Kähler metric with Kähler potential given by the [[dilaton]] functional, a topological formula for the metric, and an infinitesimal Donaldson-Uhlenbeck-Yau type theorem. Based on joint work with Rubio and Tipler in [arXiv:arXiv:2004.11399](string+algebroid#GarciaFernandezRubioTipler) (to appear in JDG) and ongoing joint work with Álvarez-Cónsul and Tellez.
 
 \linebreak
 
-* {#GiotopoulosMThMath2024} 15 Jan 2024
+* {#Giotopoulos2024} 15 Jan 2024
 
   [[Grigorios Giotopoulos]]:
 
-  **Towards Non-Perturbative Lagrangian Field Theory via
-the Topos of Smooth Sets**
+  **Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets**
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_z8xmdmu5?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_z8xmdmu5)
 
   cf.: [arXiv:2312.16301](smooth+set#GiotopoulosSati23)
 
@@ -955,12 +965,14 @@ the Topos of Smooth Sets**
 
 \linebreak
 
-* {#AlfonsiMThMath2024} 15 Jan 2024
+* {#Alfonsi2024} 15 Jan 2024
 
   [[Luigi Alfonsi]]:
 
   **Towards Non-Perturbative BV-Theory via Derived
 Geometry and the Puzzle of Quantisation**
+
+  video: [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_jtvq9kmw)
 
   cf.: [arXiv:arXiv:2307.15106](BV-BRST+formalism#AlfonsiYoung23)
 
@@ -969,7 +981,7 @@ Geometry and the Puzzle of Quantisation**
 \linebreak
 
 
-* {#SharpeMThMath2024} 15 Jan 2024
+* {#Sharpe2024} 15 Jan 2024
 
   [[Eric Sharpe]]:
 
@@ -978,13 +990,15 @@ Taylor String Theory**
 
   slides: [[Sharpe-MTheoryMath2024.pdf:file]]
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_cn9jvowi?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_cn9jvowi)
+
   cf.: [arXiv:2307.08729](https://arxiv.org/abs/2307.08729)
 
   > In this talk, we will attempt to reconcile two different results on [[D=2 Yang-Mills theory|two-dimensional pure Yang-Mills theory]]. Specifically, we will discuss how the fact that [[D=2 Yang-Mills theory|2d pure Yang-Mills]] is equivalent to a disjoint union of theories, is related to the Gross-Taylor description of 2d pure Yang-Mills as the [[target space|target-space]] field theory of a [[string theory]]. The Gross-Taylor picture can be understood by first rewriting the Yang-Mills partition function (in a [[large N limit|large $N$ limit]]) as a sum of [[correlation functions]] in [[Dijkgraaf-Witten theories]] for the [[symmetric group]] $S_n$, and then interpreting those Dijkgraaf-Witten correlation functions in terms of [[branched covers]], which leads to the string theory description. We first observe that the decomposition of the pure Yang-Mills aligns perfectly with the decomposition of $S_n$ Dijkgraaf-Witten theory, and then discuss decomposition and the branched covers interpretation. We encounter two puzzles, and to solve them, propose that the Gross-Taylor string theory has a [[higher form symmetry|higher-form symmetry]].
 
 \linebreak
 
-* {#MinasianMThMath2024} 16 Jan 2024
+* {#Minasian2024} 16 Jan 2024
 
   [[Ruben Minasian]]:
 
@@ -992,17 +1006,24 @@ Taylor String Theory**
 
   slides: [[Minasian-MTheoryAndMath2024.pdf:file]]
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_k0wbfb7r?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_k0wbfb7r)
+
   > I will review various aspects and somewhat surprising consequences of cancellation of (different types of) [[anomalies]] in [[supergravity]] theories in [[D=8 supergravity|eight]] and [[D=6 supergravity|six]] dimensions. I will also discuss appearance and importance of exotic (singular, non-spin, non-orientable) [[background field|backgrounds]].
+
 
 
 \linebreak
 
-* {#MalekMThMath2024} 16 Jan 2024
+* {#Malek2024} 16 Jan 2024
 
   [[Emanuel Malek]]:
 
   **Kaluza-Klein Spectrometry for String Theory
 Compactifications**
+
+  slides: [[Malek-MTheoryMath2024.pdf:file]]
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_2lse4syo?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_2lse4syo)
 
   cf.: [arXiv:2212.01135](exceptional+field+theory#DuboeufMalekSamtleben23)
 
@@ -1010,11 +1031,13 @@ Compactifications**
   
 \linebreak
 
-* {#HanMThMath2024} 16 Jan 2024
+* {#Han2024} 16 Jan 2024
 
   [[Fei Han]]:
 
   **Cubic Forms, Anomaly Cancellation and Modularity**
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_n4l61ycq?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_n4l61ycq)
 
   cf.: [arXiv:2005.02344](https://arxiv.org/abs/2005.02344)
 
@@ -1022,7 +1045,7 @@ Compactifications**
 
 \linebreak
 
-* {#TanMThMath2024} 16 Jan 2024
+* {#Tan2024} 16 Jan 2024
 
   [[Meng-Chwan Tan]]:
 
@@ -1030,24 +1053,28 @@ Compactifications**
 
   slides: [[Tan-MTheoryAndMath2024.pdf:file]]
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_bdpox4s1?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_bdpox4s1)
+
   cf.: [arXiv:2305.15965](https://arxiv.org/abs/2305.15965)
 
   > We perform a topological-holomorphic [[topological twist|twist]] of [[D=4 N=4 SYM|$\mathcal{N}=4$]] [[super Yang-Mills theory|supersymmetric gauge theory]] on a [[4-manifold|four-manifold]] of the form $M^4 = \Sigma_1 \times \Sigma_2$, and unravel the mathematical implications of its physics. In particular, we consider the cohomology of different linear combinations of the resulting scalar supercharges under [[S-duality]], whence we would be able to derive novel topological and holomorphic invariants of $M^4$ and their [[geometric Langlands duality|Langlands duals]]. As the twisted theory can be topological along $\Sigma_1$ such that we can [[KK-reduction|dimensionally reduce]] it to 2d, via the [[effective field theory|effective]] [[sigma-model]] on $\mathbb{C}_2$, we can also relate these 4d invariants and their Langlands duals to the [[mirror symmetry]] of [[Higgs bundles]] and that of quasi-topological strings described by the [[sheaf]] of [[chiral differential operators]].
 
 \linebreak
 
-* {#HohmMThMath2024} 16 Jan 2024
+* {#Hohm2024} 16 Jan 2024
 
   [[Olaf Hohm]]:
 
   **Double Copy, Double Field Theory & Homotopy
 Algebras**
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_pzxptrqv?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_pzxptrqv)
+
   > The [[double copy]] denotes a technology to relate the [[scattering amplitudes]] of [[Yang-Mills theory]] to those of [[gravity]]. While enormously successful at the level of [[scattering amplitudes]], until recently there was no first-principle understanding of how to derive such relations. Such an understanding would be needed in order to describe, for instance, a double copy of classical solutions. I present an approach based on [[homotopy algebras]] such as [[L-infinity algebras|L-infinity algebras]] that allows one to provide such a first-principle derivation, at least to some finite order in [[perturbation theory]]. To this end I review how to formulate [[Yang-Mills theory]] as an [[L-infinity algebra]], how to "strip off" [[color charge|color]] to obtain a different kind of homotopy algebra and, finally, how to combine two copies of these exotic algebras to obtain the L-infinity algebra of gravity in the form of [[double field theory]].
 
 \linebreak
 
-* {#SaemannMThMath2024} 16 Jan 2024
+* {#Saemann2024} 16 Jan 2024
 
   [[Christian Saemann]]:
 
@@ -1056,11 +1083,13 @@ Theories**
 
   slides: [[Saemann-AtiyahAlgebroids.pdf:file]]
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_c5x3qfyg?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_c5x3qfyg)
+
   > We present an [[Atiyah Lie algebroid|Atiyah algebroid]] picture for [[higher gauge theory|higher]] and groupoid [[gauge theories]]. Common to both is the fact that straightforward definitions of [[curvatures]] are only suitable for partially [[flat bundle|flat]] cases. Instead, one has to adjust the underlying [[cocycle]] relations, leading to new curvatures and gauge transformations. The Atiyah algebroid picture I sketch provides a good idea about the origin of [[adjusted Weil algebra|adjustments]] and why they are required even in the relative conventional case of groupoid gauge theories.
 
 \linebreak
 
-* {#HullMThMath2024} 17 Jan 2024
+* {#Hull2024} 17 Jan 2024
 
   [[Chris Hull]]:
 
@@ -1069,46 +1098,58 @@ Graviton**
 
   slides: [[Hull-MTheoryAndMath2024.pdf:file]]
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_6755b41a?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_6755b41a)
+
   cf.: [arXiv:2307.04748](self-dual+higher+gauge+theory#Hull23)
 
   > [Sen's action](self-dual+higher+gauge+theory#Sen20) for a [[higher gauge field|$p$-form gauge field]] with [[self-dual higher gauge theory|self-dual]] [[field strength]] coupled to a [[spacetime]] [[Riemannian metric|metric]] involves an explicit [[Minkowski metric]] and the presence of this raises questions as to whether the action is [[coordinate]] independent and whether it can be used on a general spacetime [[manifold]]. A natural generalisation of [Sen's action](self-dual+higher+gauge+theory#Sen20) is presented in which the Minkowski metric is replaced by a second metric on spacetime. The theory is covariant and can be formulated on any spacetime. The theory describes a physical sector, consisting of the [[self-dual higher gauge theory|chiral $p$-form gauge field]] coupled to the dynamical metric $g$, plus a shadow sector consisting of a second chiral $p$-form and the second metric. The resulting theory is covariant and can be formulated on any spacetime. A spacetime with two metrics has some interesting geometry and some of this is explored here and used in the construction of the interactions. The action has two [[diffeomorphism]]-like symmetries, one acting only on the physical sector and one acting only on the shadow sector, with the spacetime diffeomorphism symmetry arising as the diagonal subgroup.
 
 \linebreak
 
-* {#HeMThMath2024} 17 Jan 2024
+* {#He2024} 17 Jan 2024
 
   [[Yang-Hui He]]:
 
   **The AI Mathematician**
 
+  video: [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_qaqp5dvg)
+
   > We summarize how [[artificial intelligence|AI]] can approach mathematics in three ways: [[proof assistant|theorem-proving]], [[conjecture]] formulation, and [[natural language|language]] processing. Inspired by initial experiments in [[geometry]] and [[string theory]], we present a number of recent experiments on how various standard [[machine learning|machine-learning]] [[algorithms]] can help with pattern detection across disciplines ranging from [[algebraic geometry]] to [[representation theory]], to [[combinatorics]], and to [[number theory]].
 
 \linebreak
 
-* 17 Jan 2024
+* 17 Jan 2024   (talk canceled last minute and postponed [to 31 Jan](#BlairJan2024))
 
   [[Chris Blair]]:
 
-  (talk canceled last minute and postponed [to 31 Jan](#BlairJan2024))
+  **Geometry and Dualities of Decoupling Limits in String
+Theory and M-Theory**
 
+  cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
+
+  > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
 
 \linebreak
 
-* {#SatiMThMath2024} 17 Jan 2024
+* {#Sati2024} 17 Jan 2024
 
   [[Hisham Sati]]:
 
   **M-Theory and Hypothesis H**
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_780z04ld?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_780z04ld)
+
   > I will survey the ([[cohomotopy|co]])[[homotopy theory|homotopical]] perspective on the [[field (physics)|fields]] and [[branes]] in [[M-theory]], showcasing several recent developments. This talk highlights the [[classical field theory|classical]]/[[prequantum field theory|prequantum]] aspects, while the [talk by Urs Schreiber](#Schreiber2024) will highlight the [[quantum physics|quantum]] aspects.
 
 \linebreak
 
-* {#SchreiberMThMath2024} 17 Jan 2024
+* {#Schreiber2024} 17 Jan 2024
 
   [[Urs Schreiber]]:
 
   **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ysnxjdbb?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ysnxjdbb)
 
   > A famous [[hypothesis]] in [[string theory]] [[D-brane charge quantization in K-theory|says]] that the [[RR-fields]] in [[10d supergravity]] are subject to "[[flux quantization]]" in [[topological K-theory|topological K-cohomology]] theory. From a modernized point of view of [[rational homotopy theory]], analogous reasoning applies to the [[supergravity C-field|C-field]] in [[11d supergravity]] and suggests that its flux should be quantized in the "[[Cohomotopy|unstable CoHomotopy]]" [[cohomology theory]] of [Borsuk](cohomotopy#Borsuk36), [Pontrjagin](cohomotopy#Pontryagin38a) and [Spanier](#Spanier49). I'll survey this "[[schreiber:Hypothesis H]]" with focus on its implications for [[quantum observables]] on [[intersecting branes]]. This is joint work with [[Hisham Sati]]. Notes are available at: *[[schreiber:Hypothesis H|ncatlab.org/schreiber/show/Introduction+to+Hypothesis+H]]*.
 
@@ -1971,6 +2012,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf.: [arXiv:2305.07720](quantum+circuit+diagram#ACGMMR23)
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_j5wpwgl0?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_j5wpwgl0)
+
   > Let $C$ be a [[quantum circuit]] and let $G$ be a set of [[quantum gates]]. A *catalytic embedding* of $C$ over $G$ is a pair $(D,v)$ consisting of a [[quantum state|state]] $v$ and a [[quantum circuit|circuit]] $D$ over $G$ such that for every state $u$ we have $D(u \otimes v) = (C u) \otimes v$. Because the state $v$ is left unchanged by the application of $D$, it is known as a *catalyst*. Catalytic embeddings are useful when the circuit $C$ cannot be exactly represented over the gate set $G$. In such cases, one can leverage the catalyst to implement (any number of occurrences of) $C$ using circuits over $G$.
 
   > In this talk, I will present the theory of catalytic embeddings and discuss applications to the exact and approximate synthesis of quantum circuits.
@@ -2014,10 +2057,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Reversible and Quantum Control-Flow**
 
+  video: [zm](https://nyu.zoom.us/rec/share/cfiHo-BR-a_iLnu3GYuWKDkuTdgD2JhDVob5FckcvkhxtM5tXgf6_jf-pO92c_sZ.cNRBkfboawsJNsW5), [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_13g33vg2?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_13g33vg2)
+
   cf. [arXiv:1804.00952](https://arxiv.org/abs/1804.00952)
 
-  video: [Zoom](https://nyu.zoom.us/rec/share/cfiHo-BR-a_iLnu3GYuWKDkuTdgD2JhDVob5FckcvkhxtM5tXgf6_jf-pO92c_sZ.cNRBkfboawsJNsW5
-)
+
 
   > One perspective on [[quantum algorithms]] is that they are classical [[algorithms]] having access to a [[quantum memory|special kind of memory]] with exotic properties. This perspective suggests that, even in the case of quantum algorithms, the control flow notions of sequencing, conditionals, loops, and [[recursion]] are entirely classical. There is, however, another notion of execution control flow that is itself quantum. In this talk, we shall overview the two paradigms and discuss the issues specific to quantum control.
 
@@ -2077,6 +2121,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   **A New Quantum Computational Setup for Algebraic Topology via Simplicial Sets**
 
   slides: [[Zucchini-May2024.pdf:file]]
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_5ecjgiou?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_5ecjgiou)
 
   cf.: [arXiv:2309.11304](https://arxiv.org/abs/2309.11304)
 
@@ -2739,7 +2785,7 @@ Stone-von Neumann**
 
   slides: [pdf](http://categorified.net/NYUADtalk.pdf)
 
-  video: [YT](https://youtu.be/zvtziTpl2T0), [Zm](https://nyu.zoom.us/rec/share/Q7Ty3uC2Zeiu39sVmZvYh25NavFZn36vWGpjYTzAwRYRS_d4ZWSKQeY3neFMgVxB.c6yUMNTsLexdXnTA)
+  video: [yt](https://youtu.be/zvtziTpl2T0), [Zm](https://nyu.zoom.us/rec/share/Q7Ty3uC2Zeiu39sVmZvYh25NavFZn36vWGpjYTzAwRYRS_d4ZWSKQeY3neFMgVxB.c6yUMNTsLexdXnTA), [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_9advex64?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_9advex64)
 
   cf. [categorified.net/dagger2023.html](http://categorified.net/dagger2023.html)
 
@@ -2755,7 +2801,7 @@ Stone-von Neumann**
 
   slides: [[Dorn-ManifoldDiagramsReport.pdf:file]]
 
-  video: [YT](https://youtu.be/7KK89MuxmX8), [Zm](https://nyu.zoom.us/rec/share/pqfp60d108XRrenD5M1hOnwHiknUmargmTIHwZZUU_Ou4zLhV92a2LZFW0tdYUFQ.y2DKUvtBPKLbGWlL)
+  video: [yt](https://youtu.be/7KK89MuxmX8), [Zm](https://nyu.zoom.us/rec/share/pqfp60d108XRrenD5M1hOnwHiknUmargmTIHwZZUU_Ou4zLhV92a2LZFW0tdYUFQ.y2DKUvtBPKLbGWlL), [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_gu92sis0?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_gu92sis0)
 
   cf.: [arXiv:2208.13758](https://arxiv.org/abs/2208.13758)
 
@@ -2819,6 +2865,8 @@ Stone-von Neumann**
 
   **Central extensions of restricted Lie superalgebras and classification of $p$-nilpotent Lie superalgebras in dimension 4**
 
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_cr3mbbi8?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_cr3mbbi8)
+
   cf.: [arXiv:2401.08313](https://arxiv.org/abs/2401.08313)
 
   > [[ground field|Over a field]] of [[positive characteristic]] $p$, restricted [[Lie algebras]] are of prime interest, mainly due to their link to [[algebraic groups]] and their role in [[representation theory]] and classification. The [[Lie algebra cohomology|cohomology]] associated with restricted Lie algebras is considerably more complicated than the ordinary [[Chevalley-Eilenberg complex|Chevalley-Eilenberg cohomology]] and explicit formulas are only known up to order 2. In this talk, I will explain how to build the first and second restricted cohomology groups for restricted [[Lie superalgebras]] in [[characteristic]] $p$ greater than 3, modifying a previous construction.  I will explain how these groups capture some algebraic structures, such as restricted extensions.  Further, I will show how to apply this construction to classify $p$-nilpotent restricted Lie superalgebras up to dimension 4 over an [[algebraically closed field]] of characteristic $p$ greater than 3. This is a joint work with Sofiane Bouarroudj (NYU Abu Dhabi).
@@ -2833,7 +2881,8 @@ Stone-von Neumann**
 
   cf.: [arXiv:2311.10564](https://arxiv.org/abs/2311.10564)
 
-  video: [Zoom](https://nyu.zoom.us/rec/share/8bjffj-Je12l7blyFz7Zi7RBCdc1rphRMktgS3d91zPXUNB5tCOyN_U87oFiMybc.ntmnfYxBP7S3H8P8)
+  video: [zm](https://nyu.zoom.us/rec/share/8bjffj-Je12l7blyFz7Zi7RBCdc1rphRMktgS3d91zPXUNB5tCOyN_U87oFiMybc.ntmnfYxBP7S3H8P8), [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_6ksi7gp7
+)
 
   > Our understanding of [[M-theory]] is based on a [[duality in string theory|duality web]] connecting different limits of the theory. I'll discuss the extension of this duality web to a wide variety of decoupling limits related by duality to the null reduction of M-theory (and hence to the proposal that M-theory can be described by [[BFSS matrix model|Matrix theory]]). From a modern perspective, these limits involve non-[[relativistic field theory|relativistic]] geometries, leading to new variants of [[supergravity]] in [[D=11 supergravity|11-]] and [[D=10 supergravity|10-dimensions]]. I'll discuss how to systematically explore these corners of M-theory, following the roadmap of [arxiv.org/abs/2311.10564](https://arxiv.org/abs/2311.10564).
 
@@ -2859,18 +2908,20 @@ Stone-von Neumann**
 
   cf. [arXiv:2311.13358](https://arxiv.org/abs/2311.13358), [arXiv:2311.07960](https://arxiv.org/abs/2311.07960)
 
-  video: [Zoom](https://nyu.zoom.us/rec/share/c41GdU--I_-g2XLJ7A6T0HxK6AxI-utrlGb2mStB0XBOaJ3FrvC1JzoL_FsjWrEi.MBPR87t2nBR8f99t
-)
+  video: [zm](https://nyu.zoom.us/rec/share/c41GdU--I_-g2XLJ7A6T0HxK6AxI-utrlGb2mStB0XBOaJ3FrvC1JzoL_FsjWrEi.MBPR87t2nBR8f99t
+), [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_qyu7rg1l)
 
   >  I will talk about [[Liouville theory|Liouville]] [[conformal blocks]] with degenerate primaries and one operator in an irregular representation of the [[Virasoro algebra]]. Using an algebraic approach, we derive modified BPZ equations satisfied by such blocks and subsequently construct corresponding integral representations based on integration over non-compact Lefschetz cycles. The integral representations are then used to derive novel types of [[flat connections]] on the irregular conformal block bundle. 
 
 \linebreak
 
-* 28 Feb 2024
+* {#Lackman24} 28 Feb 2024
   
   [[Joshua Lackman]] (Peking University, China):
 
   **A Groupoid Construction of Functional Integrals**
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_57ywhlbg?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_57ywhlbg)
 
   cf.: [arXiv:2402.05866](https://arxiv.org/abs/2402.05866)
 
@@ -2885,7 +2936,7 @@ Stone-von Neumann**
 
   **On New Invariants and Phases of Supersymmetric Quantum Field Theories**
 
-  video: [Zoom](https://nyu.zoom.us/rec/share/sYGPbeuU0leoUWpzXucAPx9UYVzeb0tN6GjVXalK-5fuKZh8X8czxB-AM6Ky6NDN.c56gKC_K1yxcl-6n)
+  video: [Zm](https://nyu.zoom.us/rec/share/sYGPbeuU0leoUWpzXucAPx9UYVzeb0tN6GjVXalK-5fuKZh8X8czxB-AM6Ky6NDN.c56gKC_K1yxcl-6n), [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_ulzb2kcr)
 
   > In this talk, we will explore a novel approach to study [[supersymmetry|supersymmetric]] [[quantum field theories]] using tools from [[stable homotopy theory]]. We will explain how this approach leads to new invariants that can be used to detect subtle differences between phases that escape the detection of more conventional invariants.
 
@@ -2929,6 +2980,8 @@ Neumann algebras**
   [[Dmitry Melnikov]] (Federal University of Rio Grande do Norte, Brazil)
 
   **Chern-Simons States and Quantum Information**
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_6caip54g?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_6caip54g)
 
   cf. [arXiv:2302.08548](https://arxiv.org/abs/2302.08548), [arXiv:2312.16683](https://arxiv.org/abs/2312.16683)
 
