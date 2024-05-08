@@ -8,5 +8,5 @@ In the [[double category]] of [[spans]], a retrocell boils down to a morphism of
 
 ## References
 
-* [[Robert Paré]], _Retrocells_, [arXiv:2306.06436](https://arxiv.org/abs/2306.06436).
+* [[Robert Paré]], _Retrocells_, Theory and Applications of Categories, Vol. 40, 2024, No. 5, pp 130-179. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/40/5/40-05abs.html), [arXiv:2306.06436](https://arxiv.org/abs/2306.06436)&rbrack;
 
