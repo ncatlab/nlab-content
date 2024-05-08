@@ -1201,6 +1201,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 * [[integral homotopy theory]]
 
+
+
 ## References
 
 ### General
@@ -1209,7 +1211,7 @@ Precursors include
 
 * {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopie et classes de groupes abéliens_, Ann. of Math. 58 (1953) 258-294
 
-The original articles are
+The original articles:
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series **90** 2 (1969) 205-295 &lbrack;[jstor:1970725](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)&rbrack;
 
@@ -1268,21 +1270,18 @@ Survey and review:
 
 * {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
 
-
-
-Review that makes the [[L-infinity algebra]] aspect completely manifest is in
+Review that makes the [[L-infinity algebra]] aspect completely manifest:
 
 * {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
 
-> (which otherwise is about [[Sullivan models of mapping spaces]]).
+  > (which otherwise is about [[Sullivan models of mapping spaces]]).
 
 
 * [[Alexander A. Voronov]], *Rational Homotopy Theory*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.00939](https://arxiv.org/abs/2404.00939)&rbrack;
 
+More on the Quillen model:
 
-More on the relation to Lie theory is in:
-
-* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv](http://arxiv.org/abs/math.AT/0404003))
+* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], *Lie Models in Topology*, Progress in Mathematics **335**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-54430-0](https://doi.org/10.1007/978-3-030-54430-0)&rbrack;
 
 
 The above description of the Quillen approach draws on blog comments by [[Kathryn Hess]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c030961) and by [[David Ben-Zvi]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c031038).
@@ -1321,7 +1320,6 @@ Relation to [[Whitehead products]]:
     
 
 * Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
-
 
 
 
