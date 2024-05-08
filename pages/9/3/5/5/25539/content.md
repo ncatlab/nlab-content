@@ -39,6 +39,12 @@ On variants of [[differential concretification|differentially concretified]] [[i
 
 * [[Severin Bunk]], [[Carlos S. Shahbazi]], *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633](https://arxiv.org/abs/2304.06633)&rbrack;
 
+On [[differential spinors]] (such as [[Killing spinors]]):
+
+* [[Carlos S. Shahbazi]], *Differential spinors and Kundt three-manifolds with skew-torsion* &lbrack;[arXiv:2405.03756](https://arxiv.org/abs/2405.03756)&rbrack;
+
+
+
 
 
 
