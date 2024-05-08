@@ -264,8 +264,7 @@ More discussion of the non-abelian gauge group enhancement at [[orbifold]] singu
 
 * {#CveticShiuUranga01} [[Mirjam Cvetic]], [[Gary Shiu]], [[Angel Uranga]], _Chiral Four-Dimensional $N=1$ Supersymmetric Type IIA Orientifolds from Intersecting D6-Branes_, Nucl. Phys. B615:3-32,2001 ([arXiv:hep-th/0107166](http://arxiv.org/abs/hep-th/0107166))
 
-* {#HalversonMorrison15} [[James Halverson]], [[David Morrison]], _On Gauge Enhancement and Singular Limits in $G_2$ Compactifications of M-theory_,  J. High Energ. Phys. **2016** 100 (2016)
-&lbrack;[arXiv:1507.05965](http://arxiv.org/abs/1507.05965), <a href="https://doi.org/10.1007/JHEP04(2016)100">doi:10.1007/JHEP04(2016)100</a>&rbrack;
+* {#HalversonMorrison15} [[James Halverson]], [[David Morrison]], _On Gauge Enhancement and Singular Limits in $G_2$ Compactifications of M-theory_,  J. High Energ. Phys. **2016** 100 (2016) &lbrack;[arXiv:1507.05965](http://arxiv.org/abs/1507.05965), <a href="https://doi.org/10.1007/JHEP04(2016)100">doi:10.1007/JHEP04(2016)100</a>&rbrack;
 
 
 * [[Antonella Grassi]], [[James Halverson]], Julius L. Shaneson, _Matter From Geometry Without Resolution_, 
