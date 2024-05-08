@@ -29,6 +29,11 @@ On rational models for [[spherical fibrations]] and [[Thom spaces]]:
 
 * {#FelixOpreaTanre16} [[Yves Félix]], John Oprea, [[Daniel Tanré]], _Lie-model for Thom spaces of tangent bundles_, Proc. Amer. Math. Soc. 144 (2016), 1829-1840 ([pdf](http://www.ams.org/journals/proc/2016-144-04/S0002-9939-2015-12829-8/S0002-9939-2015-12829-8.pdf), [doi:10.1090/proc/12829](https://doi.org/10.1090/proc/12829))
 
+On the Quillen Lie model of [[rational homotopy theory]]:
+
+* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], *Lie Models in Topology*, Progress in Mathematics **335**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-54430-0](https://doi.org/10.1007/978-3-030-54430-0)&rbrack;
+
+
 
 
 [[!redirects Daniel Tanre]]
