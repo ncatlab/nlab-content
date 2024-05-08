@@ -20,7 +20,8 @@ Expositions:
 
 * [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]], video:[YT](https://youtu.be/7Bw9CJct8QY)&rbrack;
 
-* [[Grigorios Giotopoulos]], *Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets*, [talk at](M-Theory+and+Mathematics#Giotopoulos2024) *[[M-Theory and Mathematics]]*, [[CQTS]] (Jan 2024)
+* [[Grigorios Giotopoulos]], *Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets*, [talk at](M-Theory+and+Mathematics#Giotopoulos2024) *[[M-Theory and Mathematics]]*, [[CQTS]] (Jan 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_z8xmdmu5?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_z8xmdmu5)&rbrack;
+
 
 
 
