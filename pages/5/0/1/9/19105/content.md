@@ -21,8 +21,12 @@ On [[rational homotopy theory]] with general [[fundamental groups]]:
 
 * [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Homotopy theory of complete Lie algebras and Lie models of simplicial sets_, Journal of Topology (2018) 799-825 ([arXiv:1601.05331](https://arxiv.org/abs/1601.05331), [doi:10.1112/topo.12073](https://doi.org/10.1112/topo.12073))
 
+On the Quillen Lie model of [[rational homotopy theory]]:
 
-## Related $n$Lab entries
+* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], *Lie Models in Topology*, Progress in Mathematics **335**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-54430-0](https://doi.org/10.1007/978-3-030-54430-0)&rbrack;
+
+
+## Related entries
 
 * [[rational homotopy theory]]
 
