@@ -72,8 +72,8 @@ Similarly, the convention $L \dashv_J R$ for relative adjunctions and $L {\,\,}_
 
 Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]],
 
-1. For relative adjunctions, if $L \dashv_J R$, then $RL$ admits the structure of [[relative monad]].
-2. For relative coadjunctions, if $L {\,\,}_J\!\dashv R$, then $LR$ admits the structure of a [[relative comonad]].
+1. For relative adjunctions, if $L \dashv_J R$, then $RL$ admits the structure of a [[relative monad|monad relative to $J$]].
+2. For relative coadjunctions, if $L {\,\,}_J\!\dashv R$, then $LR$ admits the structure of a [[relative comonad|comonad relative to $J$]].
 
 (with the units and counits respectively induced as described above).
 
