@@ -386,7 +386,7 @@ Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-s
 * {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
 
 
-* K. Behrndt, [[Gianguido Dall'Agata]], [[Dieter Lüst]], S. Mahapatra, _Intersecting 6-branes from new 7-manifolds with G_2 holonomy_, JHEP 0208:027,2002 ([arXiv:hep-th/0207117](https://arxiv.org/abs/hep-th/0207117))
+* K. Behrndt, [[Gianguido Dall'Agata]], [[Dieter Lüst]], S. Mahapatra, *Intersecting 6-branes from new 7-manifolds with $G_2$ holonomy*, JHEP 0208:027 (2002) &lbrack;[arXiv:hep-th/0207117](https://arxiv.org/abs/hep-th/0207117)&rbrack;
 
 * [BCLS 05, section 2.9](#BCLS05) 
 
