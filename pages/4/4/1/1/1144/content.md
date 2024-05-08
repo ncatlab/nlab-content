@@ -49,9 +49,8 @@ is formed by taking on each simplex the dg-algebra of ordinary rational [[polyno
 1. In the **Quillen approach** ([Quillen 69](#Quillen69)) the [[loop space]] of the rational space/simplicial set is formed and its [[H-space]] structure strictified to a [[simplicial group]], of which then a [[dg-Lie algebra]] (a strict [[L-infinity-algebra]]) is formed by mimicking the construction of the Lie algebra of a [[Lie group]] from the [[primitive element]]s of its completed [[group ring]]: the group ring of the simplicial group here is a simplicial ring, whose degreewise primitive elements hence yield a [[simplicial Lie algebra]]. The [[Moore complex]] functor maps this to the [[dg-Lie algebra]] functor that models the rational homotopy type in the Quillen approach.
 
 
-The connection between these two approaches is discussed in ([Majewski 00](#Majewski00)): The Sullivan dg-algebra of forms is the [[formal dual]] (the [[Chevalley-Eilenberg algebra]]) of an [[L-infinity algebra]] that may be rectified (see at _[[model structure for L-infinity algebras]]_) to a [[dg-Lie algebra]], and that is the one from Quillen's construction.
+The relation between these two approaches is discussed in [Majewski 2000](#Majewski00). 
 
-(Beware that --  while both rational homotopy types as well as $L_\infty$-algebras are presented by [[formal duals]] of [[dg-algebras]] (via [[Sullivan construction]] and via forming [[Chevalley-Eilenberg algebras]], respectively) -- the class of [[weak equivalences]] in the former case strictly includes that in the latter. See [this remark](model+structure+for+L-infinity+algebras#OndgCoAlgWEs) at _[[model structure for L-∞ algebras]]_.)
 
 $\,$
 
