@@ -55,6 +55,8 @@ The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dedekin
 
 * [[Hasse-Weil L-function]]
 
+* [[Shimizu L-function]]
+
 ## Related entries
 
 * [[special values of L-functions]]
