@@ -2922,13 +2922,33 @@ Neumann algebras**
 
 \linebreak
 
-* [[Dmitry Melnikov]] (Federal University of Rio Grande do Norte, Brazil)
+### May 2024
+
+* 01 May 2024
+
+  [[Dmitry Melnikov]] (Federal University of Rio Grande do Norte, Brazil)
 
   **Chern-Simons States and Quantum Information**
 
   cf. [arXiv:2302.08548](https://arxiv.org/abs/2302.08548), [arXiv:2312.16683](https://arxiv.org/abs/2312.16683)
 
   >  In this talk I will review the properties of [[quantum states]] in [[Chern-Simons theories]] from the perspective of [[topological quantum field theory]] paradigm. I will focus on the [[SU(2)|$SU(2)$]] theory but the discussion can be generalized to other [[gauge group|groups]] and other [[TQFTs]]. The discussion will single out a special class of "simple" states, whose properties are akin to the properties of classical geometry states in [[holography]] ([[AdS/CFT]]). [[quantum entanglement|Quantum entanglement]] and its properties will be discussed using the topological presentation, and I will give a few examples of the "topological engineering" of quantum resources and protocols. Time permitting I will also mention possible applications of the topological approach to the [[black hole information paradox]].
+
+\linebreak
+
+* 08 May 2024
+
+  [[Urtzi Buijs]]:
+
+  **Explicit Quillen models for Cartesian products**
+
+  cf.: [arXiv:2402.18168](https://arxiv.org/abs/2402.18168)
+
+  > [[rational homotopy theory|Rational Homotopy Theory]] studies the [[homotopy type]] of '[[torsion subgroup|torsion]]-free' [[topological spaces]]. This simplification has the advantage that we can associate an [[Sullivan model|algebraic model]] to each space that contains all its rational information. This allows homotopy problems to be addressed computationally.
+
+  > The use of [[differential graded Lie algebras]] to model spaces was developed by [[Daniel Quillen|D. Quillen]] [in the 60s of the last century](rational+homotopy+theory#Quillen69. However, despite having algebraic models for each space, in some cases their effective calculation turns out to be very complex.
+
+  > In this talk we will give explicit minimal Quillen models for the [[product topological space|Cartesian products]] of certain spaces in terms of derivations of their models. The model presented also allows us to explicitly describe a model for the [[diagonal map]]. These explicit models are very useful to address the study of invariants such as the sectional category of a map which generalizes the the [[Lusternik-Schnirelmann category]] and [[topological complexity|Topological complexity]].
 
 \linebreak
 
