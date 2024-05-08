@@ -86,6 +86,12 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
   video: [YT](https://youtu.be/Wnm3yCUzNb0)
 
+* **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ysnxjdbb?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ysnxjdbb)
+
+  talk at *[M-Theory and Mathematics 2024](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2024)*, Jan 2024
+
 ## publications
 
 
