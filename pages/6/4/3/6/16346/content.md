@@ -2398,12 +2398,8 @@ Further discussion in relation to the [[D'Auria-Fre formulation of supergravity]
 
 * [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], *Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
-* J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
+* [[Jordan François]], [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
 
-
-
-
- 
 
 
 [[!redirects super Cartan geometry]]
