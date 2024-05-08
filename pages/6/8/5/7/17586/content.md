@@ -46,8 +46,12 @@ On the [[cobar construction]]:
 
 * [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
 
+On the Quillen Lie model of [[rational homotopy theory]]:
 
-## Related $n$Lab entries
+* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], *Lie Models in Topology*, Progress in Mathematics **335**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-54430-0](https://doi.org/10.1007/978-3-030-54430-0)&rbrack;
+
+
+## Related entries
 
 * [[rational homotopy theory]]
 
