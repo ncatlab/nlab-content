@@ -31,9 +31,11 @@ of its [[Chern-Simons form|Chern-Simons invariant]] and its [[volume]] (e.g. [Ne
 
 
 
-This appears as the action in [[analytically continued Chern-Simons theory]].
+This combination appears also 
 
-(It is, incidentally, also the contribution of a corresponding [[membrane instanton]] [[wrapped brane|wrapping]] a hyperbolic 3-cycle.)
+* as the [[Lagrangian density]] of [[analytically continued Chern-Simons theory]].
+
+* as the contribution of a [[membrane instanton]] [[wrapped brane|wrapping]] a hyperbolic 3-cycle.
 
 ## Properties
 
