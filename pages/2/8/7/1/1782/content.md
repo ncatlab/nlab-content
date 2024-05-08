@@ -455,6 +455,8 @@ Refinement to [[global equivariant stable homotopy theory]]:
 
 ### Examples
 
+* [[Benjamin Antieau]], [[Achim Krause]], [[Thomas Nikolaus]]. *On the K-theory of $\mathbb{Z}/p^n$* (2024). ([arXiv:2405.04329](https://arxiv.org/abs/2405.04329)).
+
 * {#Ananyevskiy} Alexey Ananyevskiy, _On the algebraic $K$-theory of some homogeneous varieties_ ([pdf](http://www.math.uni-bielefeld.de/lag/man/431.pdf))
 
 On the algebraic K-theory of rings being encoded in the respective [[derived categories]]:
