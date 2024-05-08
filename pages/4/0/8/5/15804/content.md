@@ -28,9 +28,9 @@
 
 * L. Bonora, R. Soldati, S. Zalel, _Dirac, Majorana, Weyl in 4d_ ([arXiv:2006.04546](https://arxiv.org/abs/2006.04546))
 
-The notion of differential spinor appears in :
+On differential spinors (generalized [[Killing spinors]]):
 
-* C. S. Shahbazi. *Differential spinors and Kundt three-manifolds with skew-torsion* (2024). ([arXiv:2405.03756](https://arxiv.org/abs/2405.03756)).
+* [[Carlos S. Shahbazi]], *Differential spinors and Kundt three-manifolds with skew-torsion* &lbrack;[arXiv:2405.03756](https://arxiv.org/abs/2405.03756)&rbrack;
 
 
 [[!redirects spinor fields]]
