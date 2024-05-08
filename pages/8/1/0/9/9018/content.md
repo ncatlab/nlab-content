@@ -307,7 +307,8 @@ Survey and further discussion includes
 
 * {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
 
-* Adil Belhaj, _M-theory on G2 manifolds and the method of (p, q) brane webs_ (2004) ([web](http://iopscience.iop.org/0305-4470/37/18/011))
+* Adil Belhaj, _M-theory on $G_2$ manifolds and the method of (p, q) brane webs_, J. Phys. A: Math. Gen. **37** 5067
+(2004) &lbrack;[doi:10.1088/0305-4470/37/18/011](http://iopscience.iop.org/0305-4470/37/18/011)^rbrack;
 
 * Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_ ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
  
@@ -315,29 +316,30 @@ Survey and further discussion includes
 
 * Aaron Kennon, _$G_2$-Manifolds and M-Theory Compactifications_ ([arXiv:1810.12659](https://arxiv.org/abs/1810.12659))
 
-The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]] are discussed in 
+On the corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]]:
 
 * {#HarveyMoore99} [[Jeffrey Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
 
 * {#BBS07} [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
-Discussion of [[duality in string theory|duality]] with [[F-theory on CY4-manifolds]] includes
+On [[duality in string theory|duality]] with [[F-theory on CY4-manifolds]]:
 
 * {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
 
 * {#Belhaj02} Adil Belhaj, _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_ ([arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208))
 
-* [[Mariana Graña]], [[Carlos S. Shahbazi]], [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 &lbrack;[arXiv:1405.3698](http://arxiv.org/abs/1405.3698)&rbrack;
+* [[Mariana Graña]], [[Carlos S. Shahbazi]], [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11 (2014) 046 &lbrack;[arXiv:1405.3698](http://arxiv.org/abs/1405.3698)&rbrack;
 
-Discussion of [[duality in string theory|duality]] with [[heterotic string theory on CY3-manifolds]]:
+On [[duality in string theory|duality]] with [[heterotic string theory on CY3-manifolds]]:
 
-* {#BraunSchaeferNameki17} [[Andreas Braun]], Sakura Schaefer-Nameki, _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
+* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schäfer-Nameki]], _Compact, Singular $G_2$-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04 (2018) 126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
 The [[moduli space]] is discussed in
 
-* {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
+* {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun. Math.Phys. **287** (2009) 459-488
+&lbrack;[arXiv:0802.0723](http://arxiv.org/abs/0802.0723)&rbrack;
 
-* {#AcharyaBobkov08} [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the G2-MSSM_, HEP 1009:001,2010 ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
+* {#AcharyaBobkov08} [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the $G_2$-MSSM_, HEP 1009:001,2010 ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
 
 * [[Spiro Karigiannis]], [[Naichung Conan Leung]]_, _Hodge Theory for $G_2$-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
 
@@ -345,11 +347,11 @@ The [[moduli space]] is discussed in
 ### Phenomenology
  {#ReferencesPhenomenology}
 
-Popular exposition of the [[G2-MSSM]] [[phenomenology]] is in
+Popular exposition of the [[G2-MSSM]] [[phenomenology]]:
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
-Further discussion of [[string phenomenology]] in terms of $M$-theory on $G_2$-manifolds, beyond the original ([Acharya 98](#Acharya98), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)), includes
+Further discussion of [[string phenomenology]] in terms of $M$-theory on $G_2$-manifolds, beyond the original ([Acharya 98](#Acharya98), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)):
 
 * {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
 
