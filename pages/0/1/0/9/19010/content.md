@@ -33,7 +33,7 @@ On the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 On [[super-Cartan geometry]]:
 
-* J. François, [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
+* [[Jordan François]], [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
 
 
 
