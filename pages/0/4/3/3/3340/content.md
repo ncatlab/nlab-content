@@ -29,7 +29,7 @@ There are closely related variants called [[periodic cyclic homology]] and [[neg
 
 ### The chain complex for cyclic homology
 
-Let $A$ be an [[associative algebra]] over a [[ring]] $k$. Write $C_\bullet(A,A)$ for the [[Hochschild homology]] [[chain complex]] of $A$ with coefficients in $A$.
+Let $A$ be an [[associative algebra]] over a [[field]] $k$ of characteristic $0$. Write $C_\bullet(A,A)$ for the [[Hochschild homology]] [[chain complex]] of $A$ with coefficients in $A$.
 
 For each $n \in \mathbb{N}$ let $\lambda : C_n(A,A) \to C_n(A,A)$ be the $k$-linear map that cyclically permutes the elements and introduces a sign:
 
