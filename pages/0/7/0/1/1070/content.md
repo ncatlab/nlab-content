@@ -156,7 +156,7 @@ This perspective is discussed in ([Kashiwara-Schapira, section 13](#KashiwaraSch
 
 In the case that the underlying [[abelian category]] $\mathcal{A}$ has [enough injectives](injective%20object#EnoughInjectives) or [enough projectives](projective%20object#EnoughInjectives), the [[hom sets]] in the derived category may equivalently be obtained as [[homotopy]]-classes of [[chain maps]] from [[projective resolutions]] to [[injective resolutions]] of chain complexes. 
 
-In view of the existence of the injective and projective [[model structure on chain complexes]] this is a special case of the general fact that [[homotopy categories]] of [[model categories]] may be obtained by forming homotopy classes of maps in the model category from  [[cofibrant resolutions]] to [[fibrant resolutions]]. But here we spell out an direct discussion of this fact for chain complexes.
+In view of the existence of the injective and projective [[model structure on chain complexes]] this is a special case of the general fact that [[homotopy categories]] of [[model categories]] may be obtained by forming homotopy classes of maps in the model category from  [[cofibrant resolutions]] to [[fibrant resolutions]]. For more details on the model-category point of view, see e.g. Appendix C of [Toën, Vaquié](#TV2007). But here we spell out an direct discussion of this fact for chain complexes.
 
 
 +-- {: .num_defn}
@@ -217,6 +217,10 @@ and, similarly, in section 7 of
 
 * [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
  {#Schapira}
+
+For the model-category version of this story for an arbitrary ringed site, including details about the tensor, internal hom, and $(-)_!$ and $(-)^*$, see Appendix C of
+
+* {#TV2007} Bertrand Toën, Michel Vaquié, _Algebraization of complex analytic varieties and derived categories_ ([arXiv:math/0703555v1](https://arxiv.org/abs/math/0703555v1))
 
 A detailed treatment of derived categories (including of DG modules over DG 
 rings), with applications to noncommutative algebra, is in the book 
