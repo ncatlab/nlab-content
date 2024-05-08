@@ -173,8 +173,7 @@ Dimensional Universal Supergravity**
 
   [[Grigorios Giotopoulos]]:
 
-  **Towards Non-Perturbative Lagrangian Field Theory via
-the Topos of Smooth Sets**
+  **Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets**
 
   video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_z8xmdmu5?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_z8xmdmu5)
 
