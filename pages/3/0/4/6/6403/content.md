@@ -130,6 +130,11 @@ for [[G2-structures]] in [[M-theory on G2-manifolds]]:
 
 * [[Thomas Friedrich]], Stefan Ivanov, _Parallel spinors and connections with skew-symmetric torsion in string theory_, AsianJ.Math.6:303-336,2002 ([arXiv:math/0102142](http://arxiv.org/abs/math/0102142))
 
+Generalization to "differential spinors":
+
+* [[Carlos S. Shahbazi]], *Differential spinors and Kundt three-manifolds with skew-torsion* &lbrack;[arXiv:2405.03756](https://arxiv.org/abs/2405.03756)&rbrack;
+
+
 
 
 [[!redirects Killing spinors]]
@@ -148,3 +153,6 @@ for [[G2-structures]] in [[M-theory on G2-manifolds]]:
 
 [[!redirects parallel spinor field]]
 [[!redirects parallel spinor fields]]
+
+[[!redirects differential spinor]]
+[[!redirects differential spinors]]
