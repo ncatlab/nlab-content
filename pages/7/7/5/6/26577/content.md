@@ -45,7 +45,7 @@ $$
 P(taxi|yellow) = \frac{P(yellow\,taxi)}{P(yellow)} = \frac{P(taxi)\,P(yellow|taxi)}{P(yellow)}
 $$
 
-In [[categorical probability]], this phenomenon can be modeled by saying that to each "conditional" morphism in the form $\{taxi, not\,taxi\}\to\{colors\,of\,cars\}$ there corresponds a canonical morphism $\{colors\,of\,cars\}\to\{taxi, not\,taxi\}$, called the *Bayesian inverse*.
+In [[categorical probability]], this phenomenon can be modeled by saying that to each "conditional" morphism in the form $\{taxi, not\,taxi\}\to\{colors\,of\,cars\}$ there corresponds a canonical morphism $\{colors\,of\,cars\}\to\{taxi, not\,taxi\}$, called the *Bayesian inverse*. The name, which is kept for historical reasons, is somewhat improper, since we don't actually have an [[inverse morphism]] in the sense of category theory, but simply a reversal of the arrow.
 
 In some cases, this symmetry gives rise to a [[dagger category]].
 
