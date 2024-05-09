@@ -289,6 +289,12 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 
 * {#AnelJoyal} [[Mathieu Anel]], [[André Joyal]], _Sweedler theory of (co)algebras and the bar-cobar constructions_, [pdf](http://mathieu.anel.free.fr/mat/doc/Anel%20-%20Sweedlertheory_v1.1.pdf)
 
+Twisted tensor products of smooth dg algebras:
+
+* [[Dmitri Orlov]]. *Smooth DG algebras and twisted tensor product*, Russian Math. Surveys, 78 (2023), 5, 853–880. ([arXiv:2305.19799](https://arxiv.org/abs/2305.19799)).
+
+* [[Dmitri Orlov]]. *Twisted tensor product, smooth DG algebras, and noncommutative resolutions of singular curves* (2024). ([arXiv:2405.04738](https://arxiv.org/abs/2405.04738)).
+
 [[!redirects differential graded algebras]]
 [[!redirects differential graded module]]
 [[!redirects chain algebra]]
