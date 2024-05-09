@@ -7781,6 +7781,11 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 * {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
 
+Novel developments towards consructing S-matrices without recourse through field theory and without [[Feynman diagrams]], after all:
+
+* Neil Christensen, Bryan Field, *The Constructive Standard Model: Part I*, Phys. Rev. D **98** 016014 (2018) &lbrack;[arXiv:1802.00448](https://arxiv.org/abs/1802.00448), [doi:10.1103/PhysRevD.98.016014](https://doi.org/10.1103/PhysRevD.98.016014)&rbrack;
+
+
 
 [[!include classification of long-range forces -- references]]
 
