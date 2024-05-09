@@ -75,14 +75,17 @@ See also:
 * Minjae Cho, Manki Kim, *A Worldsheet Description of Flux Compactifications* &lbrack;[arXiv:2311.04959](https://arxiv.org/abs/2311.04959)&rbrack;
 
 
-
-
-
 On [[non-geometric string vacuum|non-geometric]] flux vacua:
 
 * [[Ralph Blumenhagen]], A. Deser, E. Plauschinn, F. Rennecke, _Bianchi identities for non-geometric fluxes: from quasi-Poisson structures to Courant algebroids_, [arXiv:1205.1522](http://arxiv.org/abs/1205.1522)
 
 * D. Mylonas, Peter Schupp, [[Richard Szabo]], _Membrane sigma-models and quantization of non-geometric flux backgrounds_, [arxiv/1207.0926](http://arxiv.org/abs/1207.0926)
+
+See also:
+
+* Hiroki Imai, Nobuhito Maru, *Toward Realistic Models in $T^2\!/\!\mathbb{Z}^2$ Flux Compactification* &lbrack;[arXiv:2311.10324](https://arxiv.org/abs/2311.10324)&rbrack;
+
+
 
 [[!redirects flux background]]
 [[!redirects flux compactifications]]
