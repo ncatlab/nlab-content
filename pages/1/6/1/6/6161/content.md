@@ -58,8 +58,8 @@ Let $R = k$ be a [[field]].
 For $R = k$ a [[field]], given two [[chain complexes]] of $k$-[[vector spaces]] $C_\bullet,C'_\bullet \in Ch_\bullet(k Vect)$, for each $n \in \mathbb{N}$ there is an [[isomorphism]]
 
 $$
-   \oplus_k \left(
-     H_k\left(C_\bullet\right) \otimes_k H_{n-k}\left(C'_\bullet\right)
+   \oplus_m \left(
+     H_m\left(C_\bullet\right) \otimes_k H_{n-m}\left(C'_\bullet\right)
    \right)
      \stackrel{\simeq}{\to}
    H_n\left(
