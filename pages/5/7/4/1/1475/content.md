@@ -132,7 +132,7 @@ An alternative proof of Bourbaki-Witt would be along lines similar to those used
 
 +-- {: .num_remark} 
 ###### Remark 
-The Bourbaki-Witt theorem is an example of a fixed-point theorem. We should point out its kinship with the quite remarkable fixed-point theorem due to Pataraia, who observed that the conclusion of the Bourbaki-Witt theorem may be strengthened quite considerably, and proved constructively (!), if we change the hypothesis to say that $s$ is a monotone operator (preserves the order $\leq$) on an inhabited [[dcpo]]. See [[fixed point]] for a brief account, and this [blog post](https://projects.lsv.ens-cachan.fr/topology/?page_id=176) for some appreciative commentary. 
+The Bourbaki-Witt theorem is an example of a fixed-point theorem. We should point out its kinship with the quite remarkable fixed-point theorem due to Pataraia, who observed that the conclusion of the Bourbaki-Witt theorem may be strengthened quite considerably, and proved constructively (!), if we change the hypothesis to say that $s$ is a monotone operator (preserves the order $\leq$) on an inhabited [[dcpo]]. See [[fixed point]] for a brief account, and this [blog post](https://topology.lmf.cnrs.fr/bourbaki-witt-and-dito-pataraia/) for some appreciative commentary. 
 =-- 
 
 
