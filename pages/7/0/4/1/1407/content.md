@@ -580,6 +580,7 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
   > (on [[gauge/string duality]])
 
+* Dean Rickles, *A Brief History of String Theory*, Springer (2014) &lbrack;[doi:10.1007/978-3-642-45128-7](https://doi.org/10.1007/978-3-642-45128-7)&rbrack;
 
 * {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2016/main/Schwarz.pdf), [[SchwarzString2016.pdf:file]])
 
