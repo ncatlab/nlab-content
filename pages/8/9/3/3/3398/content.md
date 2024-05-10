@@ -52,6 +52,8 @@ A functor that preserves all small limits in $C$ that exist is called a __[[cont
 
 * [[hom-functor preserves limits]]
 
+* the [[Yoneda embedding]] preserves limits
+
 ## Preservation of weighted limits
 
 Analogously, an [[enriched functor]] between [[enriched categories]] may preserve [[weighted limits]].  Are there any tricky points that we should mention?
