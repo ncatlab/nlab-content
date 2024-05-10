@@ -76,6 +76,8 @@ Then $\mathbf{Cof}$ is isomorphic to the category of comonoids in $\mathbf{Poly}
 Originally proven in ([Ahman-Uustalu 2016](#AhmanUustalu16)). See ([Spivak-Niu 2021, Theorem 6.26](#SpivakNiu21)) for details. 
 \end{proof}
 
+Comonoids in $\mathbf{Poly}(1, 1)$ are also known as [[polynomial comonads]]. 
+
 ## Examples ##
 
 * Every [[function]] $A \to B$ yields a retrofunctor $disc(A) \nrightarrow disc(B)$ between [[discrete category|discrete categories]]. This defines a fully faithful functor $\mathbf{Set} \to \mathbf{Cof}$. 
