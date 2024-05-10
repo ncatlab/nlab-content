@@ -676,6 +676,9 @@ Formalization of this in [[homotopy type theory]] is in
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
 
+In the context of [[Poincaré duality]] on [[supermanifolds]]:
+
+* Konstantin Eder, [[John Huerta]], Simone Noja, _Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity_ &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 [[!redirects Cartan 2-geometry]]
 
