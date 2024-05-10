@@ -184,4 +184,5 @@ Such a formalization is offered in
 
 For more on this see at _[[higher Cartan geometry]]_ and _[[schreiber:Higher Cartan Geometry]]_.
 
+
 [[!redirects higher Klein geometries]]
