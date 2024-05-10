@@ -2,14 +2,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Category theory
+###Context###
+#### Categorical algebra
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include categorical algebra -- contents]]
 =--
-#### Algebra
+#### 2-Category theory
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include 2-category theory - contents]]
 =--
 =--
 =--
@@ -56,6 +56,8 @@ Any comonad on $A$ induces an augmented [[simplicial object|simplicial]] [[endof
 ## Related concepts
 
 * [[model structure on coalgebras over a comonad]]
+
+* [[polynomial comonad]]
 
 
 ## References
