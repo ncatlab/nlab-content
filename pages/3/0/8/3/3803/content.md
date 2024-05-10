@@ -319,6 +319,9 @@ A review is in
 
 * [[Thomas Tradler]], _Infinity inner products on A-infinity algebras_ ([arXiv:0806.0065](http://arxiv.org/abs/0806.0065))
 
+On [[supermanifolds]]:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], _Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity_ &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 
 
