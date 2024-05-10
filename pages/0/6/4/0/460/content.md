@@ -630,7 +630,7 @@ More interestingly:
 
 The following non-example shows that sobriety is not a hereditary separation property, i.e., [[topological subspaces]] of sober spaces need not be sober:
 
-* The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]).
+* The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]). Generally, the soberification has the set of [[filters]] on the poset as its points.
 
 
 ## Related concepts
