@@ -61,6 +61,7 @@ We can also give an explicit definition, which was more or less already given in
 
 ## Examples
 
+* A [[multicategory]] is a virtual double category with a single object and a single vertical morphism (the identity morphism). 
 * Any double category is an example, and thus also any bicategory
 viewing the arrows as horizontal.
 * For any [[monoidal category]] $V$, there is a virtual double category
