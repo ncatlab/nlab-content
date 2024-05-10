@@ -162,6 +162,11 @@ A [[coherence theorem|coherence]] and [[rectification|strictification]] theorem 
 
 * [[Nick Gurski]], [[Angélica M. Osorno]], *Infinite loop spaces, and coherence for symmetric monoidal bicategories*, Adv. Math. 246 (2013) 1-32 ([arXiv:1210.1174](https://arxiv.org/abs/1210.1174))
 
+Relation to [[differential linear logic]] and [[analytic functors]]:
+
+* [[Marcelo Fiore]], [[Nicola Gambino]], [[Martin Hyland]], _Monoidal bicategories, differential linear logic, and analytic functors_ &lbrack;[arXiv:2405.05774](https://arxiv.org/abs/2405.05774)&rbrack;
+
+
 See also:
 
 * {#DS03} [[Brian Day]] and [[Ross Street]], "Quantum categories, star autonomy, and quantum groupoids", 2003 ([arxiv:0301209](https://arxiv.org/abs/math/0301209))
