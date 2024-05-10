@@ -20,13 +20,13 @@
 
 ## Idea
 
-This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and [[time-reversal symmetry]] (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
+This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and [[time-reversal symmetry]] (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]] are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
 
 Being "invariant" means that every process that can be observerd in our universe can be observed identically in the "mirror" universe, that is there is no experiment in our universe that cannot be duplicated in the mirror universe. 
 
 For some time physicists believed that subsets of the PCT symmetry are respected by nature, but today there are counterexamples known for every subset, for example:
 
-* The [[weak force]] violates parity symmetry.
+* The [[weak nuclear force]] violates parity symmetry.
 
 * Charge symmetry would violate the observation that the universe consists mostly of matter and not of matter and antimatter.
 
