@@ -434,6 +434,11 @@ Further resources:
 
 * _[Geometric models of Nuclear Matter Conference 2014](https://www.kent.ac.uk/smsas/personal/skyrmions/conference.html)_ 
 
+On Skyrmions in relation to [[chiral perturbation theory|chiral]] [[effective field theory]]:
+
+* [[Nicholas S. Manton]], *Robustness of the Hedgehog Skyrmion* &lbrack;[arXiv:2405.05731](https://arxiv.org/abs/2405.05731)&rbrack;
+
+
 
 
 [[!include Skyrmions from rational maps -- references]]
