@@ -187,6 +187,8 @@ Furthermore, this bicategory is actually the horizontal bicategory of a [[double
 
 * [[polynomial monad]]
 
+* [[polynomial comonad]]
+
 * [[integral transform]]
 
 * [[Tambara functor]]
