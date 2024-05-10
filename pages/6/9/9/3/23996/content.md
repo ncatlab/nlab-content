@@ -1088,6 +1088,7 @@ One sees on the left that if the cohomotopy class of $f$ at resolution $1/r$ is 
 \linebreak
 
 ## References
+ {#References}
 
 * {#FranekKrcal16} [[Peter Franek]], [[Marek Krčál]], _On Computability and Triviality of Well Groups_, Discrete Comput Geom **56** (2016) 126 ([arXiv:1501.03641](https://arxiv.org/abs/1501.03641), [doi:10.1007/s00454-016-9794-2](https://doi.org/10.1007/s00454-016-9794-2))
 
