@@ -1,7 +1,7 @@
 
 **[[Yoneda lemma]]**
 
-## Ingredients
+**Ingredients**
 
 * [[category]]
 
@@ -17,7 +17,8 @@
 
 * [[Yoneda embedding]]
 
-## Incarnations
+
+**Incarnations**
 
 * [[Yoneda lemma]]
 
@@ -27,13 +28,13 @@
 
 * [[Yoneda reduction]]
 
-## Properties
+**Properties**
 
 * [[free cocompletion]]
 
 * [[Yoneda extension]]
 
-## Universal aspects
+**Universal aspects**
 
 * [[representable functor]]
 
@@ -41,7 +42,7 @@
 
 * [[universal element]]
 
-## Classification
+**Classification**
 
 * [[classifying space]], [[classifying stack]]
 
@@ -56,13 +57,13 @@
 * [[classifying morphism]]
 
 
-## Induced theorems
+**Induced theorems**
 
 * [[Tannaka duality]]
 
 ...
 
-## In higher category theory
+**In higher category theory**
 
 [[Yoneda lemma for higher categories]]:
 
