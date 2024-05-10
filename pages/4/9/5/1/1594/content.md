@@ -417,9 +417,17 @@ and for [[heterotic string theory|heterotic]] [[string phenomenology]]:
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
 
 * {#ChenRuan01} [[Weimin Chen]], [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _[[Orbifolds in Mathematics and Physics]]_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
- A review with further pointers is in 
+
+Review with further pointers:
 
 * {#Abramovich05} [[Dan Abramovich]], _Lectures on Gromov-Witten invariants of orbifolds_ ([arXiv:math/0512372](http://arxiv.org/abs/math/0512372))
+
+On non-supersymmetric [[flat orbifolds]] of [[supergravity]] theories:
+
+* Anamaria Font, Alexis Hernandez, *Non-Supersymmetric Orbifolds*, Nucl. Phys. B **634** (2002) 51-70 &lbrack;[arXiv:hep-th/0202057](https://arxiv.org/abs/hep-th/0202057)&rbrack;
+
+
+
  
 On orbifolds by [[2-groups]] in view of [[sigma-models]] inspired from [[string theory]]:
 
