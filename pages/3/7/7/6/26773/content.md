@@ -46,5 +46,9 @@ A detailed study of polynomial comonads and their morphisms appears in Chapter 7
 
 * {#NiuSpivak2023} [[Nelson Niu]], [[David Spivak]], _Polynomial Functors: A Mathematical Theory of Interaction_, draft (2023) &lbrack;[arXiv:2312.00990](https://arxiv.org/abs/2312.00990)&rbrack;
 
+The notion of (two-sided) [[comodule]] between polynomial comonads was given in: 
+
+* {#Garner2019} [[Richard Garner]], _Polynomial comonads and comodules_, HoTTEST Seminar (2019) &lbrack;[slides](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Garner-2019-12-11-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=tW6HYnqn6eI)&rbrack;
+
 [[!redirects polynomial comonads]]
 [[!redirects directed container]]
