@@ -672,13 +672,13 @@ A formalization of higher Cartan geometry via [[differential cohesion]] is in
 
 * [[Urs Schreiber]], _[[schreiber:Higher Cartan Geometry]]_, Harmonic analysis seminar, Charles University Prague, 2015
 
-Formalization of this in [[homotopy type theory]] is in
+Formalization in [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
 
-In the context of [[Poincaré duality]] on [[supermanifolds]]:
+In the context of [[Poincaré duality]] on [[supermanifolds]] (cf. also at *[[super Cartan geometry]]*) :
 
-* Konstantin Eder, [[John Huerta]], Simone Noja, _Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity_ &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], _Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity_ &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 [[!redirects Cartan 2-geometry]]
 
