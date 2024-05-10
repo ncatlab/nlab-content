@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -158,19 +159,83 @@ $$
 
 =--
 
+\begin{proposition}
+\label{PreservesLimits}
+The Yoneda embedding $y \colon \mathcal{C} \longrightarrow Func(\mathcal{C}^{op}, Set)$ [[preserved limit|preserves]] [[limits]], hence is a [[continuous functor]].
+\end{proposition}
+\begin{proof}
+  This follows because (1.) [[hom-functors preserve limits]] and (2.) [[limits of presheaves are computed objectwise]]:
+$$
+  \begin{array}{l}
+    y\big(
+      \underset{
+        \underset
+          {i \in I}
+          {\longleftarrow}
+       }{\lim}
+       \,
+      c_i
+    \big)
+    \\
+    \;\equiv\;
+    Hom\big(
+      -
+      ,\,
+      \underset{
+        \underset
+          {i \in I}
+          {\longleftarrow}
+       }{\lim}
+       \,
+      c_i
+    \big)
+    \\
+    \;\simeq\;
+    \underset{
+      \underset
+        {i \in I}
+        {\longleftarrow}
+     }{\lim}
+     \,
+    Hom\big(
+      -
+      ,\,
+      c_i
+    \big)
+    \\
+    \;\simeq\;
+    \underset{
+      \underset
+        {i \in I}
+        {\longleftarrow}
+     }{\lim}
+     \,
+     y(c_i)
+     \,.
+  \end{array}
+$$
+\end{proof}
 
-It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
+\begin{remark}
+In contrast, the Yoneda embedding does not in general preserve [[colimits]]. 
 
-The Yoneda embedding of a [[small category]] $S$ into the category of [[presheaf|presheaves]] on $S$ gives a [[free cocompletion]] of $S$.
+Instead, the Yoneda embedding of a [[small category]] $\mathcal{C}$ is its *[[free cocompletion]]*.
+\end{remark}
 
+\begin{remark}
 If the Yoneda embedding of a category has a [[left adjoint]], then that category is called a _[[total category]]_ .
+\end{remark}
 
 ## Related concepts
 
 * A [[category]] is a _[[total category]]_ if its Yoneda embedding has a [[left adjoint]].
+
 * [[restricted Yoneda embedding]]
+
 * [[(infinity,1)-Yoneda embedding]]
+
 * [[singleton]] injection, the Yoneda embedding for 0-category theory.
+
 * [[Yoneda lemma for bicategories]]
 
 ## References
