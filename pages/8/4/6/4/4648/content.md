@@ -171,6 +171,21 @@ See also the deformation to the [[quantum geometric Langlands correspondence]], 
 
 * [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
 
+Proof of the general case:
+
+* [[Dennis Gaitsgory]], *Proof of the geometric Langlands conjecture* &lbrack;[web](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)&rbrack;
+
+* [[Dennis Gaitsgory]], [[Sam Raskin]], *Proof of the geometric Langlands conjecture I: construction of the functor* &lbrack;[arXiv:2405.03599](https://arxiv.org/abs/2405.03599)&rbrack;
+
+* [[Dima Arinkin]], D. Beraldo, J. Campbell, L. Chen, [[Dennis Gaitsgory]], J. Faergeman, K. Lin, [[Sam Raskin]], [[Nick Rozenblyum]], *Proof of the geometric Langlands conjecture II: Kac-Moody localization and the FLE* &lbrack;[arXiv:2405.03648](https://arxiv.org/abs/2405.03648)&rbrack;
+
+
+
+
+
+
+
+
 
 ### Surveys and reviews
 
