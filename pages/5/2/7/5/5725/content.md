@@ -16,9 +16,14 @@ On the [[quantum geometric Langlands correspondence]]:
 
 * [[Dennis Gaitsgory]], *Quantum Langlands Correspondence* &lbrack;[arXiv:1601.05279](https://arxiv.org/abs/1601.05279)&rbrack;
 
-Several drafts concerning the proof of the geometric langlands conjecture appear here:
+On proof of the [[geometric Langlands conjecture]]:
 
-* [Proof of the geometric Langlands conjecture](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)
+* [[Dennis Gaitsgory]], *Proof of the geometric Langlands conjecture* &lbrack;[web](https://people.mpim-bonn.mpg.de/gaitsgde/GLC/)&rbrack;
+
+* [[Dennis Gaitsgory]], [[Sam Raskin]], *Proof of the geometric Langlands conjecture I: construction of the functor* &lbrack;[arXiv:2405.03599](https://arxiv.org/abs/2405.03599)&rbrack;
+
+* [[Dima Arinkin]], D. Beraldo, J. Campbell, L. Chen, [[Dennis Gaitsgory]], J. Faergeman, K. Lin, [[Sam Raskin]], [[Nick Rozenblyum]], *Proof of the geometric Langlands conjecture II: Kac-Moody localization and the FLE* &lbrack;[arXiv:2405.03648](https://arxiv.org/abs/2405.03648)&rbrack;
+
 
 [[!redirects D. Gaitsgory]]
 
