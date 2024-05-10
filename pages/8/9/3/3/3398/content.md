@@ -48,11 +48,12 @@ A functor that preserves all small limits in $C$ that exist is called a __[[cont
 
 * [[limits preserve limits]]
 
+* [[hom-functors preserve limits]]
+
 * [[adjoints preserve (co-)limits]]
 
-* [[hom-functor preserves limits]]
+* {#ExampleYonedaEmbedding} the [[Yoneda embedding]] preserves limits (see [there](Yoneda+embedding#PreservesLimits))
 
-* the [[Yoneda embedding]] preserves limits
 
 ## Preservation of weighted limits
 
