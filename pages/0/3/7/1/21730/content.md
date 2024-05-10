@@ -76,7 +76,7 @@ Then $\mathbf{Cof}$ is isomorphic to the category of comonoids in $\mathbf{Poly}
 Originally proven in ([Ahman-Uustalu 2016](#AhmanUustalu16)). See ([Spivak-Niu 2021, Theorem 6.26](#SpivakNiu21)) for details. 
 \end{proof}
 
-Comonoids in $\mathbf{Poly}(1, 1)$ are also known as [[polynomial comonads]]. 
+A comonoid in $\mathbf{Poly}(1, 1)$ is also known as [[polynomial comonad]]. 
 
 ## Examples ##
 
