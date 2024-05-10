@@ -84,6 +84,11 @@ The [[model structure on equivariant dgc-algebras]], generalizing the [[projecti
 
 * {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
 
+further discussed in 
+
+* Rekha Santhanam, Soumyadip Thandar, *Equivariant Intrinsic Formality* &lbrack;[arXiv:2301.06824](https://arxiv.org/abs/2301.06824)&rbrack;
+
+
 See also 
 
 * Peter J. Kahn, _Rational Moore G-Spaces_, Transactions of the American Mathematical Society
