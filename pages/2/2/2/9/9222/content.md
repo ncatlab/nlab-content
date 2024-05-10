@@ -38,7 +38,7 @@ A [[section]] of the $1$-density bundle on $X$ is called a _$1$-density on $X$_.
 
 This is the general object against which one has [[integration]] of functions on $X$.
 
-More generally, for $s \in \mathbb{R} - \{0\}$ an **$s$-density** is a section of the [[line bundle]] which is [[associated bundle|associated]] to the principal bundle by the representation
+{#sDensities} More generally, for $s \in \mathbb{R} - \{0\}$ an **$s$-density** is a section of the [[line bundle]] which is [[associated bundle|associated]] to the principal bundle by the representation
 
 $$
   \array{
