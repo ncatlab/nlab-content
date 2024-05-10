@@ -69,12 +69,16 @@ On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex s
 
 * {#AtiyahManton16} [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_ ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816))
 
+On [[Skyrmions]] in relation to [[chiral perturbation theory|chiral]] [[effective field theory]]:
+
+* [[Nicholas S. Manton]], *Robustness of the Hedgehog Skyrmion* &lbrack;[arXiv:2405.05731](https://arxiv.org/abs/2405.05731)&rbrack;
 
 
 
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[Skyrmion]]
 
