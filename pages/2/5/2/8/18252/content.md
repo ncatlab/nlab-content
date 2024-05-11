@@ -97,7 +97,7 @@ Here:
 
 * $k^\times \,\coloneqq\, k \setminus \{0\}$ is the [[group of units]] of $k$;
 
-* $k^{n+1} \coloneqq \underset{n+1\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]], 
+* $k^{n+1} \coloneqq \underset{n+1\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $(n+1)$-[[dimension|dimensional]] $k$-[[vector space]], 
 
   whose elements we will also denote as [[lists]] 
 
@@ -144,7 +144,7 @@ Here:
 
   (equivalently, (eq:RightDirectMultiplicationAction) and  (eq:DualActionOnk) are left actions of the [[opposite group]] $(k^\times)^{op}$)
 
-* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space|produc]] of right $k^\times$-[[G-space|spaces]] by their [[diagonal action]]; 
+* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space|product]] of right $k^\times$-[[G-space|spaces]] by their [[diagonal action]]; 
 
 * $[-]$ denotes its elements as [[equivalence classes]] of elements of the original space;
 
@@ -493,7 +493,7 @@ To see that this is an open cover:
 1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
    at least one of the $x_i$ has to be non-vanishing.
 
-1. These subsets are open in the [[quotient topology]] $k P^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$ (where we write $k^n \setminus \{0\} \overset{\iota}{\hookrightarrow} k^n \overset{pr_i}{\to} k$).
+1. These subsets are open in the [[quotient topology]] $k P^n = (k^{n+1} \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n+1\}}{\prod} k$ (where we write $k^{n+1} \setminus \{0\} \overset{\iota}{\hookrightarrow} k^{n+1} \overset{pr_i}{\to} k$).
 
 
 =--
