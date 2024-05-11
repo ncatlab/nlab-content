@@ -383,7 +383,7 @@ To see this, notice that the [[clopen sets]] in the space are those that are eit
 Another reason that this space is important is because to give a continuous map $\mathbb{N}\cup\{\infty\}\to X$ to a topological space $X$ is to give a convergent sequence in $X$. This can then be used as a foundation: [[Johnstone's topological topos]] is a category of [[sheaves]] on the continuous [[endofunctions]] of $(\mathbb{N}\cup\{\infty\})$, and [[subsequential spaces]] are a subcategory of [[concrete sheaves]]. 
 \end{example}
 
-### Euclidean spaces compactify to Spheres
+### Euclidean spaces compactify to spheres
  {#ExamplesSpheres}
 
 We discuss how the [[one-point compactification]] of [[Euclidean space]] of [[dimension]] $n$ is the [[n-sphere]].
