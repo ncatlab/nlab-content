@@ -22,7 +22,7 @@ An object in a [[monoidal category]] which is equipped with a [[comultiplication
 
 ## Definition
 
-Given a [[monoidal category]] $(\mathcal{C}, \otimes)$ and an [[object]] $A$ in $\mathcal{C}$ equipped with a morphism ("[[co-multiplication]]") $\Delta \colon A \longrightarrow A \otimes A$, and a morphism $\epsilon \colon A \longrightarrow 1$, $\epsilon$ is called a *counit* if the following [[commuting diagram|diagrams commute]]
+Given a [[monoidal category]] $(\mathcal{C}, \otimes)$ and an [[object]] $A$ in $\mathcal{C}$ equipped with a morphism ("[[co-multiplication]]") $\Delta \colon A \longrightarrow A \otimes A$, and a morphism $\epsilon \colon A \longrightarrow I$, $\epsilon$ is called a *counit* if the following [[commuting diagram|diagrams commute]]
 
 
 \begin{tikzcd}[sep=20pt]
@@ -40,10 +40,10 @@ Given a [[monoidal category]] $(\mathcal{C}, \otimes)$ and an [[object]] $A$ in 
   ]
   \ar[
     rr,
-    equals
+    "\lambda^{-1}_{A}"
   ]
   &&
-  A
+  I\otimes A
   \mathrlap{\,,}
 \end{tikzcd}
 \begin{tikzcd}[sep=20pt]
@@ -61,13 +61,13 @@ Given a [[monoidal category]] $(\mathcal{C}, \otimes)$ and an [[object]] $A$ in 
   ]
   \ar[
     rr,
-    equals
+    "\rho^{-1}_A"
   ]
   &&
-  A
+  A\otimes I
   \mathrlap{\,.}
 \end{tikzcd}
-
+where $I$ is the unit of the [[monoidal category]] and $\lambda, \rho$ are the left and right [[monoidal category |unitors]] respectively.
 
 ## Related concepts
 
