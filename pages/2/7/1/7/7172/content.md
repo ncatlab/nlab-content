@@ -38,3 +38,6 @@ On [[flux compactifications]] in terms of [[G-structure]]:
 * [[Green-Schwarz action functional]], [[BPS charges]]
 
 category: people
+
+
+[[!redirects Jerome P. Gauntlett]]
