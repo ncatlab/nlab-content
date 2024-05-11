@@ -29,7 +29,7 @@ $$
 
 ### Coarse underlying space
 
-The [[Weierstrass elliptic function]] $\wp$, regarded as a [[holomorphic function]] with values in the [[Riemann sphere]] $\mathbb{C}P^1$, exhibits the coarse underlying topological space of the [[pillowcase orbifold]] as the [[2-sphere]]:
+The [[Weierstrass elliptic function]] $\wp$, regarded as a [[holomorphic function]] with values in the [[Riemann sphere]] $\mathbb{C}P^1$, exhibits the coarse underlying [[topological space]] of the [[pillowcase orbifold]] as the [[2-sphere]]:
 
 $$
   \wp \;\colon\;
@@ -40,7 +40,7 @@ $$
   \mathbb{C}P^1
 $$
 
-(e.g [Mukase 04, end of 1.4](Weierstrass+elliptic+function#Mukase04), [Eskin-Okounkov 05, p. 1](#EskinOkounkov05), [Goujard-Moeller 18, 2.3](#GoujardMoeller18))
+(e.g [Mukase 2004, end of §1.4](Weierstrass+elliptic+function#Mukase04), [Eskin & Okounkov 2005, p. 1](#EskinOkounkov05), [Goujard & Moeller 2018, §2.3](#GoujardMoeller18))
 
 
 
@@ -50,10 +50,11 @@ $$
 
 ### General
 
-* {#EskinOkounkov05} [[Alex Eskin]], [[Andrei Okounkov]], _Pillowcases and quasimodular forms_, In: Ginzburg V. (ed.) _Algebraic Geometry and Number Theory_, Progress in Mathematics, vol 253. Birkhäuser 2006
- ([arXiv:math/0505545](https://arxiv.org/abs/math/0505545), [doi:10.1007/978-0-8176-4532-8_1](https://doi.org/10.1007/978-0-8176-4532-8_1))
+* {#EskinOkounkov05} [[Alex Eskin]], [[Andrei Okounkov]], _Pillowcases and quasimodular forms_, In: Ginzburg V. (ed.) _Algebraic Geometry and Number Theory_, Progress in Mathematics **253** Birkhäuser (2006) &lbrack;[arXiv:math/0505545](https://arxiv.org/abs/math/0505545), [doi:10.1007/978-0-8176-4532-8_1](https://doi.org/10.1007/978-0-8176-4532-8_1)&rbrack;
 
-* {#GoujardMoeller18} Elise Goujard, Martin Moeller, _Pillowcase covers: Counting Feynman-like graphs associated with quadratic differentials_ ([arXiv:1809.05016](https://arxiv.org/abs/1809.05016))
+* {#GoujardMoeller18} Elise Goujard, Martin Moeller, _Pillowcase covers: Counting Feynman-like graphs associated with quadratic differentials_ &lbrack;[arXiv:1809.05016](https://arxiv.org/abs/1809.05016)&rbrack;
+
+
 
 ### In string theory
  {#ReferencesInStringTheory}
@@ -71,7 +72,7 @@ On [[flux compactification|fluxed]] [[KK-compactification]] of [[D=6 supergravit
 
 and in the broader context of non-supersymmetric [[flat orbifolds]] of [[supergravity]] theories:
 
-* Anamaria Font, Alexis Hernandez, *Non-Supersymmetric Orbifolds*, Nucl. Phys. B **634** (2002) 51-70 &lbrack;[arXiv:hep-th/0202057](https://arxiv.org/abs/hep-th/0202057)&rbrack;
+* Anamaria Font, Alexis Hernandez, *Non-Supersymmetric Orbifolds*, Nucl. Phys. B **634** (2002) 51-70 &lbrack;[arXiv:hep-th/0202057](https://arxiv.org/abs/hep-th/0202057), <a href="https://doi.org/10.1016/S0550-3213(02)00336-X">doi:10.1016/S0550-3213(02)00336-X</a>&rbrack;
 
 
 
