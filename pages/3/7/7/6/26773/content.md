@@ -28,6 +28,8 @@ A **polynomial comonad** on a category is a [[comonad]] whose underlying [[endof
 
 * A morphism of polynomial comonads on $\mathrm{Set}$ is equivalent to a [[retrofunctor]] ([Ahman-Uustalu, 2017](#AhmanUustalu2017)).
 
+* A two-sided [[comodule]] $A \nrightarrow B$ between polynomial comonads on $\mathrm{Set}$, viewed as small categories, is equivalent to a [[parametric right adjoint]] $[A, \mathrm{Set}] \rightarrow [B, \mathrm{Set}]$ between [[functor categories]] ([Garner, 2019](#Garner2019)).
+
 ## References
 
 Polynomial comonads were first studied under the name *directed containers* in: 
@@ -42,13 +44,14 @@ The observation that morphisms of polynomial comonads are the same as retrofunct
 
 * {#AhmanUustalu2017} [[Danel Ahman]], [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings **1827** (2017) 59-73 &lbrack;[PDF](https://ceur-ws.org/Vol-1827/paper11.pdf)&rbrack;
 
+The notion of (two-sided) comodule between polynomial comonads was given in: 
+
+* {#Garner2019} [[Richard Garner]], _Polynomial comonads and comodules_, HoTTEST Seminar (2019) &lbrack;[slides](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Garner-2019-12-11-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=tW6HYnqn6eI)&rbrack;
+
 A detailed study of polynomial comonads and their morphisms appears in Chapter 7 of the (unpublished) book: 
 
 * {#NiuSpivak2023} [[Nelson Niu]], [[David Spivak]], _Polynomial Functors: A Mathematical Theory of Interaction_, draft (2023) &lbrack;[arXiv:2312.00990](https://arxiv.org/abs/2312.00990)&rbrack;
 
-The notion of (two-sided) [[comodule]] between polynomial comonads was given in: 
-
-* {#Garner2019} [[Richard Garner]], _Polynomial comonads and comodules_, HoTTEST Seminar (2019) &lbrack;[slides](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Garner-2019-12-11-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=tW6HYnqn6eI)&rbrack;
 
 [[!redirects polynomial comonads]]
 [[!redirects directed container]]
