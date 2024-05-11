@@ -81,6 +81,10 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * For $\mathcal{G}$ any orbifold, then the [[mapping space]] $\mathcal{G}^{\Pi(S^1)} = \mathcal{G}^{B\mathbb{Z}}$ is again an orbifold, called the [[inertia orbifold]].
 
+* [[pillowcase orbifold]]
+
+* [[spindle orbifold]]
+
 * [[G2-orbifolds]]
 
 * [[lens spaces]]
@@ -449,7 +453,21 @@ and specifically [[flux compactification|fluxed]] [[KK-compactification]] of [[D
 * [[Markus Dierigl]], *Aspects of Six-Dimensional Flux Compactifications*, PhD thesis, Hamburg (2017) &lbrack;[doi:10.3204/PUBDB-2017-09253](https://doi.org/10.3204/PUBDB-2017-09253)&rbrack;
 
 
+On [[supergravity]] [[KK-compactification|KK-compactified]] (and [[branes]] [[wrapped brane|wrapped]] on) [[spindle orbifolds]]:
 
+* [[Pietro Ferrero]], [[Jerome P. Gauntlett]], Juan Manuel Pérez Ipiña, [[Dario Martelli]], [[James Sparks]], *D3-branes wrapped on a spindle*, Phys. Rev. Lett. **126** 111601 (2021) &lbrack;[arXiv:2204.02990](https://arxiv.org/abs/2204.02990), [doi:10.1103/PhysRevLett.126.111601](https://doi.org/10.1103/PhysRevLett.126.111601)&rbrack;
+
+* [[Pietro Ferrero]], [[Jerome P. Gauntlett]], [[Dario Martelli]], [[James Sparks]], *M5-branes wrapped on a spindle*, J. High Energ. Phys. **2021** 2 (2021)
+ &lbrack;[arXiv:2105.13344](https://arxiv.org/abs/2105.13344), <a href="https://doi.org/10.1007/JHEP11(2021)002">doi:10.1007/JHEP11(2021)002</a>&rbrack;
+&rbrack;
+
+
+* Federico Faedo, [[Dario Martelli]], *D4-branes wrapped on a spindle*, J. High Energ. Phys. **2022** 101 (2022) &lbrack;[arXiv:2111.13660](https://arxiv.org/abs/2111.13660), <a href="https://doi.org/10.1007/JHEP02(2022)101">doi:10.1007/JHEP02(2022)10</a>&rbrack;
+
+
+* Christopher Couzens, *A tale of (M)2 twists*, J. High Energ. Phys. **2022** 78 (2022) &lbrack;[arXiv:2112.04462](https://arxiv.org/abs/2112.04462), <a href="https://doi.org/10.1007/JHEP03(2022)078">doi:10.1007/JHEP03(2022)078</a>&rbrack;
+
+* K. C. Matthew Cheung, Jacob H. T. Fry, [[Jerome P. Gauntlett]], [[James Sparks]], *M5-branes wrapped on four-dimensional orbifolds*, J. High Energ. Phys. **2022** 82 (2022) &lbrack;[arXiv:2204.02990](https://arxiv.org/abs/2204.02990), <a href="https://doi.org/10.1007/JHEP08(2022)082">doi:10.1007/JHEP08(2022)082</a>&rbrack;
 
 
 
