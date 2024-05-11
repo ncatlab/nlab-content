@@ -502,7 +502,7 @@ To see that this is an open cover:
 ###### Definition
 **(tautological topological line bundle)
 
-For $k$ a [[topological field]] and $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is topological $k$-[[line bundle]] whose total space is the following [[subspace]] of the [[product space]] of the [[projective space]] $k P^n$ with $k^n$:
+For $k$ a [[topological field]] and $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is the topological $k$-[[line bundle]] whose total space is the following [[subspace]] of the [[product space]] of the [[projective space]] $k P^n$ with $k^{n+1}$:
 
 $$
   T
@@ -519,9 +519,9 @@ $$
 
 where $\langle \vec x\rangle_k \subset k^{n+1}$ is the $k$-[[linear span]] of $\vec x$.
 
-(The space $T$ is the space of pairs consisting of the "name" of a $k$-line in $k^{n+1}$ together with an element of that $k$-line)
+(The space $T$ is the space of pairs consisting of the "name" of a $k$-line in $k^{n+1}$ together with an element of that $k$-line).
 
-This is a bundle over [[projective space]] by the projection function
+This is a bundle over [[projective space]] with projection function
 
 $$
   \array{
