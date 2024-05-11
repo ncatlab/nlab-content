@@ -43,7 +43,9 @@ $$
 (e.g [Mukase 2004, end of §1.4](Weierstrass+elliptic+function#Mukase04), [Eskin & Okounkov 2005, p. 1](#EskinOkounkov05), [Goujard & Moeller 2018, §2.3](#GoujardMoeller18))
 
 
+## Related entries
 
+* [[spindle orbifold][
 
 
 ## References
