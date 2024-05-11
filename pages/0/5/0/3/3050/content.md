@@ -123,7 +123,7 @@ the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equiv
 
 ### Monadic descent of bundles {#ForCodomainFibs}
 
-One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s $cod : [I,C] \to C$, where $[I,C]$ is the [[arrow category]] of $C$ and $cod$ sends any arrow in $C$ to its [[codomain]]. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of monadic descent. We therefore spell out this example is some detail.
+One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s $cod : [I,C] \to C$, where $[I,C]$ is the [[arrow category]] of $C$ and $cod$ sends any arrow in $C$ to its [[codomain]]. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of monadic descent. We therefore spell out this example in some detail.
 
 An object in a [[codomain fibration]] over $Y \in C$ is a morphism $P \to Y$, hence a [[bundle]] in $C$, in the most general sense of bundle. Therefore monadic descent with respect to codomain fibrations encodes [[descent]] of bundles.
 
