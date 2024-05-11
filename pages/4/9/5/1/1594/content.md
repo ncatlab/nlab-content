@@ -327,8 +327,10 @@ See also at _[[orbifold cobordism]]_.
 
 * John Pardon, _Orbifold bordism and duality for finite orbispectra_ ([arXiv:2006.12702](https://arxiv.org/abs/2006.12702))
 
+
+
 ### In string theory
- {#ReferencesInStringTheory}
+{#ReferencesInStringTheory}
 
 
 \begin{imagefromfile}
@@ -343,6 +345,8 @@ See also at _[[orbifold cobordism]]_.
   },
   "caption": "(from [Green 86](string+theory#Green86))" 
 \end{imagefromfile}
+
+
 
 
 In [[perturbative string theory]], orbifolds as [[target spaces]] for a [[string]] [[sigma-model]] were first considered in 
@@ -361,16 +365,7 @@ See also:
 
 * Stefano Giaccari, [[Roberto Volpato]], *A fresh view on string orbifolds* &lbrack;[arXiv:2210.10034](https://arxiv.org/abs/2210.10034)&rbrack;
 
-
-Discussion of [[blow-up]] of orbifold [[singularities]] in string theory:
-
-* [[Paul Aspinwall]], _Resolution of Orbifold Singularities in String Theory_ ([arXiv:hep-th/9403123](https://arxiv.org/abs/hep-th/9403123))
-
-In terms of [[vertex operator algebras]]:
-
-* [[Yi-Zhi Huang]], _Representation theory of vertex operator algebras and orbifold conformal field theory_ ([arXiv:2004.01172](https://arxiv.org/abs/2004.01172))
-
-For [[orbifolds]] in [[string theory]] see also the references at 
+For more references on orbifolds in [[string theory]] see also at
 
 * _[[Riemannian orbifold]]_, _[[toroidal orbifold]]_
 
@@ -381,6 +376,23 @@ For [[orbifolds]] in [[string theory]] see also the references at
 * _[[orientifold]]_
 
 * _[[RR-field tadpole cancellation]]_
+
+
+Review of [[heterotic string theory|heterotic]] [[string phenomenology]] on orbifolds:
+
+
+* [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in: *[[Handbook of Quantum Gravity]]*, Springer (2024) \[<a href="https://doi.org/10.1007/978-981-19-3079-9">doi:10.1007/978-981-19-3079-9</a>, 
+[arXiv:2401.03125](https://arxiv.org/abs/2401.03125)\]
+
+
+Discussion of [[blow-up]] of orbifold [[singularities]] in string theory:
+
+* [[Paul Aspinwall]], _Resolution of Orbifold Singularities in String Theory_ ([arXiv:hep-th/9403123](https://arxiv.org/abs/hep-th/9403123))
+
+In terms of [[vertex operator algebras]]:
+
+* [[Yi-Zhi Huang]], _Representation theory of vertex operator algebras and orbifold conformal field theory_ ([arXiv:2004.01172](https://arxiv.org/abs/2004.01172))
+
 
 Review of orbifolds in the context of string [[KK-compactifications]] and [[intersecting D-brane models]]:
 
@@ -425,6 +437,21 @@ Review with further pointers:
 On non-supersymmetric [[flat orbifolds]] of [[supergravity]] theories:
 
 * Anamaria Font, Alexis Hernandez, *Non-Supersymmetric Orbifolds*, Nucl. Phys. B **634** (2002) 51-70 &lbrack;[arXiv:hep-th/0202057](https://arxiv.org/abs/hep-th/0202057)&rbrack;
+
+and specifically [[flux compactification|fluxed]] [[KK-compactification]] of [[D=6 supergravity]] on the [[pillowcase orbifold]]:
+
+* Christoph Ludeling, *6D supergravity: Warped solution and gravity mediated supersymmetry breaking*, PhD thesis, Hamburg (2006) &lbrack;[doi:10.3204/DESY-THESIS-2006-020](https://doi.org/10.3204/DESY-THESIS-2006-020)&rbrack;
+
+
+* Gero von Gersdorff, *Anomalies on Six Dimensional Orbifolds*, JHEP 0703:083 (2007) &lbrack;[arXiv:hep-th/0612212](https://arxiv.org/abs/hep-th/0612212)&rbrack;
+
+
+* [[Markus Dierigl]], *Aspects of Six-Dimensional Flux Compactifications*, PhD thesis, Hamburg (2017) &lbrack;[doi:10.3204/PUBDB-2017-09253](https://doi.org/10.3204/PUBDB-2017-09253)&rbrack;
+
+
+
+
+
 
 
 
