@@ -103,3 +103,6 @@ On [[disjunctive (∞,1)-categories]]
 On the [[slice filtration]] for inductive orbital categories
 
 * {#Wilson14} [[Dylan Wilson]], _On categories of slices_ ([arXiv:1711.03472v1](https://arxiv.org/abs/1711.03472v1))
+
+[[!redirects orbital category]]
+[[!redirects orbital categories]]
