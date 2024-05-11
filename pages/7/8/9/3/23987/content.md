@@ -1423,8 +1423,9 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
 
   **Quantum Information and Quantum Matter**
 
-  > ...
+  home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-matter.html](https://nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-matter.html)
 
+  (...)
 
 \linebreak
 
