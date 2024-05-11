@@ -140,7 +140,7 @@ $$
 
 ### Exotic smooth structures
 
-It is open whether the 4-sphere admits an [[exotic smooth structure]]. See ([Freedman-Gompf-Morrison-Walker 09](#FreedmanGompfMorrisonWalker09)) for review.
+It is open whether the 4-sphere admits an [[exotic smooth structure]]. See [Freedman, Gompf, Morrison & Walker 2009](#FreedmanGompfMorrisonWalker09) for review.
 
 
 ### $SU(2)$ action
