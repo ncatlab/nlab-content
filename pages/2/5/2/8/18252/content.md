@@ -21,7 +21,7 @@
 
 ## Idea
 
-The canonical [[line bundle]] over a [[projective space]] is sometimes called its "tautological line bundle". For more see at _[[classifying space]]_.
+The canonical [[line bundle]] over a [[projective space]] is sometimes called its "tautological line bundle". (For more background see also at _[[classifying space]]_.)
 
 ## Definition
 
@@ -305,7 +305,7 @@ The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topol
   \,.
 \]
 
-(E.g.: [Tamaki-Kono 06, Part III, Lemma 3.8](#TamakiKono06), bewaring that these authors secretly identify lines with dual lines -- as seen from the inner product used in the second but last line on p. 46. Also see [Conner-Floyd 66, Part I, Prop. 4.3](#ConnerFloyd66) for an alternative perspective in terms of [[coset spaces]].)
+(E.g.: [Tamaki & Kono 2006, Part III, Lemma 3.8](#TamakiKono06), bewaring that these authors secretly identify lines with dual lines -- as seen from the inner product used in the second but last line on their p. 46. Also see [Conner & Floyd 1966, Part I, Prop. 4.3](#ConnerFloyd66) for an alternative perspective in terms of [[coset spaces]].)
 
 Notice how the inclusion of the point at $[v,\, z\!=\!\infty] \leftrightarrow [(v\!=\!0,\,1)]$ in the Thom space interplays with the condition that $v = 0$ is excluded in the base space.
 
@@ -493,7 +493,7 @@ To see that this is an open cover:
 1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
    at least one of the $x_i$ has to be non-vanishing.
 
-1. These subsets are open in the [[quotient topology]] $k P^n = (k^{n+1} \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n+1\}}{\prod} k$ (where we write $k^{n+1} \setminus \{0\} \overset{\iota}{\hookrightarrow} k^{n+1} \overset{pr_i}{\to} k$).
+1. These [[subsets]] are [[open subset|open]] in the [[quotient topology]] $k P^n = (k^{n+1} \setminus \{0\})/\sim$, since their [[pre-image]] under the [[quotient object|quotient]] [[coprojection|co-projection]] $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n+1\}}{\prod} k$ (where we write $k^{n+1} \setminus \{0\} \overset{\iota}{\hookrightarrow} k^{n+1} \overset{pr_i}{\to} k$).
 
 
 =--
@@ -519,9 +519,9 @@ $$
 
 where $\langle \vec x\rangle_k \subset k^{n+1}$ is the $k$-[[linear span]] of $\vec x$.
 
-(The space $T$ is the space of pairs consisting of the "name" of a $k$-line in $k^{n+1}$ together with an element of that $k$-line).
+(The space $T$ is the space of [[pairs]] consisting of the "name" of a $k$-line in $k^{n+1}$ together with an element of that $k$-line).
 
-This is a bundle over [[projective space]] with projection function
+This is a bundle over [[projective space]] via the projection function
 
 $$
   \array{
@@ -545,7 +545,7 @@ The tautological line bundle in def. \ref{TautologicalTopologicalLineBundle} is 
 +-- {: .proof}
 ###### Proof
 
-We claim that there is a local trivialization over the canonical cover of def. \ref{TopologicalProjectiveSpaceStandardOpenCover}. This is given for $i \in \{1, \cdots, n\}$ by
+We claim that there is a local trivialization over the canonical [[open cover]] from def. \ref{TopologicalProjectiveSpaceStandardOpenCover}. This is given for $i \in \{1, \cdots, n\}$ by
 
 $$
   \array{
@@ -558,9 +558,9 @@ $$
   \,.
 $$
 
-This is clearly a [[bijection]] of underlying sets.
+First, this is clearly a [[bijection]] of [[underlying]] sets.
 
-To see that this function and its inverse function are continuous, hence that this is a [[homeomorphism]] notice that this map is the [[extension]] to the [[quotient topological space]] of the analogous map
+To see that this function and its inverse function are [[continuous function|continuous]], hence that this is a [[homeomorphism]] notice that this map is the [[extension]] to the [[quotient topological space]] of the analogous map
 
 $$
   \array{
@@ -571,7 +571,7 @@ $$
   \,.
 $$
 
-This is a [[polynomial]] function on [[Euclidean space]] and since [[polynomials are continuous]], this is continuous. Similarly the [[inverse function]] lifts to a [[rational function]] on a subspace of Euclidean space, and since [[rational functions are continuous]] on their domain of definition, also this lift is continuous. 
+This is a [[polynomial]] function on [[Euclidean space]] and since [[polynomials are continuous]] it is continuous. Similarly, the [[inverse function]] lifts to a [[rational function]] on a subspace of Euclidean space, and since [[rational functions are continuous]] on their domain of definition, also this lift is continuous. 
 
 Therefore by the [[universal property]] of the [[quotient topology]], also the original functions are continuous.
 
