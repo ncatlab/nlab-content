@@ -1,4 +1,6 @@
 
+James Simons (1938-2024)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/James_Harris_Simons)
 
 ## Selected writings
