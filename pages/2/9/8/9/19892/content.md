@@ -22,4 +22,4 @@ The application of [[synthetic mathematics]] to [[probability theory]]. This is 
 
 ## References
 
-* [[Alex Simpson]], _Synthetic probability theory, [slides](http://tobiasfritz.science/2019/cps_workshop/slides/simpson.pdf)
+* [[Alex Simpson]], _Synthetic probability theory_, [slides 1](https://web.archive.org/web/20220827015449/http://mysite.science.uottawa.ca/phofstra/Simpson.pdf), [slides 2](http://tobiasfritz.science/2019/cps_workshop/slides/simpson.pdf)
