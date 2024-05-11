@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[flux compactification]] of [[D=6 supergravity]] on the [[pillowcase orbifold|pillowcase]] [[orbifold]]:
+
+* [[Markus Dierigl]], *Aspects of Six-Dimensional Flux Compactifications*, PhD thesis, Hamburg (2017) &lbrack;[doi:10.3204/PUBDB-2017-09253](https://doi.org/10.3204/PUBDB-2017-09253)&rbrack;
+
 
 On the [[swampland cobordism conjecture]]:
 
