@@ -27,4 +27,6 @@ $G$-$\infty$-operads are to [[(∞,1)-operads]] as [[equivariant symmetric monoi
 * {#Barkan22} [[Shaul Barkan]], [[Rune Haugseng]], [[Jan Steinebrunner]], _Envelopes for Algebraic Patterns_, (2022) ([arXiv:2208.07183](https://arxiv.org/abs/2208.07183))
 
 [[!redirects G-∞-operad]]
+[[!redirects G-∞ operad]]
+[[!redirects G-∞ operads]]
 [[!redirects G-operad]]
