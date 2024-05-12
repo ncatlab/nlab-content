@@ -41,9 +41,9 @@ By [[Gelfand-type duality for commutative von Neumann algebras]], the category o
 
 ## Hyperstonean locales
 
-Hyperstonean locales can be defined as [[Stonean locales]] that admit sufficiently many [[normal valuations]].
+Hyperstonean locales can be defined as [[Stonean locales]] that admit sufficiently many [[normal valuation]]s.
 
-Assuming the [[axiom of choice]], [[Stonean locales]] are [[spatial]], so the category of hyperstonean locales
+Assuming the [[axiom of choice]], [[Stonean locales]] are [[spatial locale|spatial]], so the category of hyperstonean locales
 is equivalent to the category of hyperstonean spaces.
 
 ## Hyperstonean cover
