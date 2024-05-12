@@ -468,7 +468,7 @@ The concept was introduced, in the context of [[monads in computer science]], in
 
 A comprehension development in the context of [[formal category theory]] may be found in:
 
-* {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+* {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014),  doi:[10.1016/j.jpaa.2024.107676](https://doi.org/10.1016/j.jpaa.2024.107676)&rbrack;
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
