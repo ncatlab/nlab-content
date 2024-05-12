@@ -168,6 +168,120 @@ There is a particular subclass of the 2-morphism in this bicategory that is also
 
 Furthermore, this bicategory is actually the horizontal bicategory of a [[double category]], indeed a [[framed bicategory]], in which the vertical arrows are the arrows of $C$, and the cells are diagrams as above but allowing also morphisms $W\to W'$ and $Z\to Z'$ on the left and right.
 
+## The multicategory of single-variable polynomials
+
+Let $\mathcal{E}$ be a category with (chosen) pullbacks and let $\mathcal{D}$ be a class of morphisms in $\mathcal{E}$ called *display maps*.
+
+There is a [[multicategory]] $\mathbf{Poly}(\mathcal{E})$, first introduced by [Garner, 2019](#Garner2019) and attributed to [Weber, 2015](Weber2015), whose: 
+
+* objects are $\mathcal{D}$-maps $p \colon E \rightarrow B$ (that is, a polynomial $* \leftarrow E \rightarrow B \rightarrow *$)
+
+* nullary morphisms $\sigma \colon () \rightarrow p$ are sections of $p$
+\begin{tikzcd}[row sep=scriptsize]
+	B & B \\
+	E & B
+	\arrow[Rightarrow, no head, from=1-1, to=1-2]
+	\arrow["\sigma"', from=1-1, to=2-1]
+	\arrow["p"', from=2-1, to=2-2]
+	\arrow[Rightarrow, no head, from=2-2, to=1-2]
+\end{tikzcd}
+
+* unary morphisms $(\varphi_{1}, \varphi^{\sharp}) \colon (p_{1}) \rightarrow p$ are pairs of morphisms in $\mathcal{E}$ making the following diagram commute
+\begin{tikzcd}[sep=scriptsize]
+	{E_{1}} & {B_{1}} \\
+	\bullet & B \\
+	E & B
+	\arrow["{p_{1}}", from=1-1, to=1-2]
+	\arrow[from=2-1, to=1-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-1, to=1-2]
+	\arrow[from=2-1, to=2-2]
+	\arrow["{\varphi^{\sharp}}"', from=2-1, to=3-1]
+	\arrow["{\varphi_{1}}"', from=2-2, to=1-2]
+	\arrow["p"', from=3-1, to=3-2]
+	\arrow[Rightarrow, no head, from=3-2, to=2-2]
+\end{tikzcd}
+
+* binary morphisms $(\varphi_{1}, \varphi_{2}, \varphi^{\sharp}) \colon (p_{2}, p_{1}) \rightarrow p$ are triples of morphisms in $\mathcal{E}$ making the following diagram commute: 
+\begin{tikzcd}[sep=scriptsize]
+	{E_{2}} & {B_{2}} & {E_{1}} & {B_{1}} \\
+	\bullet & \bullet & \bullet & B \\
+	E &&& B
+	\arrow["{p_{2}}", from=1-1, to=1-2]
+	\arrow["{p_{1}}", from=1-3, to=1-4]
+	\arrow[from=2-1, to=1-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-1, to=1-2]
+	\arrow[from=2-1, to=2-2]
+	\arrow["{\varphi^{\sharp}}"', from=2-1, to=3-1]
+	\arrow["{\varphi_{2}}"', from=2-2, to=1-2]
+	\arrow[Rightarrow, no head, from=2-2, to=2-3]
+	\arrow[from=2-3, to=1-3]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-3, to=1-4]
+	\arrow[from=2-3, to=2-4]
+	\arrow["{\varphi_{1}}"', from=2-4, to=1-4]
+	\arrow[Rightarrow, no head, from=2-4, to=3-4]
+	\arrow["p"', from=3-1, to=3-4]
+\end{tikzcd}
+
+* $n$-ary morphisms $(\varphi_{1}, \varphi_{2}, \ldots, \varphi_{n}, \varphi^{\sharp}) \colon (p_{n}, \ldots, p_{2}, p_{1}) \rightarrow p$ are $n+1$ morphisms in $\mathcal{E}$ making the following diagram commute: 
+\begin{tikzcd}[sep=scriptsize]
+	{E_{n}} & {B_{n}} & {E_{2}} & {B_{2}} & {E_{1}} & {B_{1}} \\
+	\bullet & \bullet & \bullet & \bullet & \bullet & B \\
+	E &&&&& B
+	\arrow["{p_{n}}", from=1-1, to=1-2]
+	\arrow["{p_{2}}", from=1-3, to=1-4]
+	\arrow["{p_{1}}", from=1-5, to=1-6]
+	\arrow[from=2-1, to=1-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-1, to=1-2]
+	\arrow[from=2-1, to=2-2]
+	\arrow["{\varphi^{\sharp}}"', from=2-1, to=3-1]
+	\arrow["{\varphi_{n}}"', from=2-2, to=1-2]
+	\arrow["\cdots"{description}, draw=none, from=2-2, to=2-3]
+	\arrow[from=2-3, to=1-3]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-3, to=1-4]
+	\arrow[from=2-3, to=2-4]
+	\arrow["{\varphi_{2}}"', from=2-4, to=1-4]
+	\arrow[Rightarrow, no head, from=2-4, to=2-5]
+	\arrow[from=2-5, to=1-5]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-5, to=1-6]
+	\arrow[from=2-5, to=2-6]
+	\arrow["{\varphi_{1}}"', from=2-6, to=1-6]
+	\arrow[Rightarrow, no head, from=2-6, to=3-6]
+	\arrow["p"', from=3-1, to=3-6]
+\end{tikzcd}
+
+* identity morphism on an object $p \colon E \rightarrow B$ is the pair $(1_{B}, 1_{E})$. 
+
+* composition of unary morphisms $(\psi, \psi^{\sharp}) \colon p \rightarrow p'$ and $(\varphi, \varphi^{\sharp}) \colon p' \rightarrow p''$ is given by $(\psi \circ \varphi, \varphi^{\sharp} \circ {\bar{\psi}}^{\sharp}) \colon p \rightarrow p''$ as depicted below 
+\begin{tikzcd}[sep=scriptsize]
+	E & {} & B \\
+	\bullet & \bullet & {B'} \\
+	\bullet & \bullet & B \\
+	{E''} & {E''} & {B''}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "p", from=1-1, to=1-3]
+	\arrow[from=2-1, to=1-1]
+	\arrow["{\psi^{\sharp}}"', from=2-1, to=2-2]
+	\arrow["{p'}"', from=2-2, to=2-3]
+	\arrow["\psi"', from=2-3, to=1-3]
+	\arrow[from=3-1, to=2-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=3-1, to=2-2]
+	\arrow["{\bar{\psi}^{\sharp}}"', from=3-1, to=3-2]
+	\arrow["{\varphi^{\sharp} \, \circ \, \bar{\psi}^{\sharp}}"', from=3-1, to=4-1]
+	\arrow[from=3-2, to=2-2]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=3-2, to=2-3]
+	\arrow[from=3-2, to=3-3]
+	\arrow["{\varphi^{\sharp}}"', from=3-2, to=4-2]
+	\arrow["\varphi"', from=3-3, to=2-3]
+	\arrow[Rightarrow, no head, from=3-3, to=4-3]
+	\arrow[Rightarrow, no head, from=4-1, to=4-2]
+	\arrow["{p''}"', from=4-2, to=4-3]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=90}, draw=none, from=2-1, to=0]
+\end{tikzcd}
+Composition extends to $n$-ary morphisms in an analogous way. 
+
+\begin{proposition}
+If the $\mathcal{D}$-maps are [[exponential object|exponentiable]], then the multicategory $\mathbf{Poly}(\mathcal{E})$ is a [[representable multicategory]]. 
+([Garner, 2019](#Garner2019))
+\end{proposition}
 
 ## Related topics
 
@@ -238,11 +352,13 @@ See also
 
 * [[Yde Venema]], _Algebras and Coalgebras_, &#167;6 (p.332-426) in Blackburn, van Benthem, Wolter, _Handbook of modal logic_, Elsevier, 2007.
 
-* [[Mark Weber]], *Polynomials in categories with pullbacks*, Theory and Applications of Categories, Vol. 30, 2015, No. 16, pp 533-598. ([journal](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html))
+* {#Weber2015} [[Mark Weber]], *Polynomials in categories with pullbacks*, Theory and Applications of Categories, Vol. 30, 2015, No. 16, pp 533-598. ([journal](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html))
 
 * Charles Walker, *Universal properties of polynomials*, ([arXiv:1806.10477](https://arxiv.org/abs/1806.10477))
 
 * [[Ross Street]], *Polynomials as spans*, Cahiers de topologie et géométrie différentielle catégoriques, Vol. LXI-2 (2020), pp 113-153 ([pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf))
+
+* {#Garner2019} [[Richard Garner]], _Polynomial comonads and comodules_, HoTTEST Seminar (2019) &lbrack;[slides](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Garner-2019-12-11-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=tW6HYnqn6eI)&rbrack;
 
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
