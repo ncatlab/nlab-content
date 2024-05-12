@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -47,7 +46,7 @@ $$
   }
 $$
 
-is in [[epimorphism]]. In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] with [[finite products]].
+is an [[epimorphism]]. In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] with [[finite products]] (where one may want to require [[regular epimorphisms|regular]], [[effective epimorphisms|effective]], [[split epimorphism|split]], ... epimorphisms, all of which notions coincide in the context of [[Sets]]).
 
 Beware that often it is assumed that the underlying [[object]] $X$ of a transitive action is [[inhabited]] (but not always, see at *[[pseudo-torsor]]).
 
@@ -91,9 +90,9 @@ of some arbitrary element $x \in X$.  In particular, the transitivity of $*$ gua
 
 ## References
 
-* Helmut Wielandt.  _Finite Permutation Groups_.  Academic Press, 1964.
+* Helmut Wielandt, _Finite Permutation Groups_, Academic Press (1964) &lbrack;[ark:/13960/t49q0xd7v](https://archive.org/details/finitepermutatio0000wiel/page/n5/mode/2up)&rbrack;
 
-* [Fundamental theorem of group actions](http://groupprops.subwiki.org/wiki/Fundamental_theorem_of_group_actions) on the Group Properties Wiki.
+* [Group Properties Wiki](https://groupprops.subwiki.org/wiki/Main_Page), *[Fundamental theorem of group actions](http://groupprops.subwiki.org/wiki/Fundamental_theorem_of_group_actions)*
 
 [[!redirects transitive actions]]
 
