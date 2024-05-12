@@ -195,7 +195,7 @@ Every monad that is [induced](monad#RelationBetweenAdjunctionsAndMonads) by an a
 \end{example}
 
 \begin{example}
-Let $d$ be an object in a [[closed category]] $C$. Then the codensity monad of the [[constant functor]] $d : 1 \to C$ is the **double dualization monad** associated to $d$, given by $d^{d^{(-)}}$.
+Let $d$ be an object in a [[closed category]] $C$. Then the $C$-enriched codensity monad of the [[constant functor]] $d : 1 \to C$ is the **double dualization monad** associated to $d$, given by $d^{d^{(-)}}$.
 
 More conceptually, the codensity monad construction may be seen as a generalisation of the double dualisation construction analogous to the generalisation from [[algebras for a monad]] to [[modules over a monad]] (the latter is the perspective that is most natural 2-categorically).
 \end{example}
