@@ -88,6 +88,8 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 * Wikipedia, [n-ary group](https://en.wikipedia.org/wiki/N-ary_group)
 
+* [[Steven Duplij]], *Polyadic Algebraic Structures*, IOP (2022) &lbrack;[ISBN:978-0-7503-2646-9](https://iopscience.iop.org/book/978-0-7503-2648-3)&rbrack; 
+
 [[!redirects n-ary operation]]
 [[!redirects n-ary operations]]
 
