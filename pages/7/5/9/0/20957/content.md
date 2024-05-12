@@ -1,5 +1,5 @@
 
-* [personal page](https://ivv5hpp.uni-muenster.de/u/douplii)
+* [personal page](http://www.uni-muenster.de/IT.StepanDouplii)
 
 * [InSpire page](https://inspirehep.net/authors/1011195)
 
@@ -15,5 +15,8 @@ On unconventional paradigms for [[quantum computation]]:
 
 * [[Steven Duplij]], [[Raimund Vogl]], *Innovative Quantum Computing*, IOP (2023) &lbrack;[ISBN:978-0-7503-5281-9](https://iopscience.iop.org/book/mono/978-0-7503-5281-9)&rbrack; 
 
+On  higher [[arity]] [[algebraic structure]]s:
+
+* [[Steven Duplij]], *Polyadic Algebraic Structures*, IOP (2022) &lbrack;[ISBN:978-0-7503-2646-9](https://iopscience.iop.org/book/978-0-7503-2648-3)&rbrack; 
 
 category: people
