@@ -88,7 +88,7 @@ This statement remains true [[internalization|internal]] to any [[Grothendieck t
 \begin{example}\label{CategoriesOfVectorSpaces}
 **([[Vect]] is Grothendieck abelian)**
 \linebreak
-Taking $R$ in Exp. \ref{CateoriesOfModules} to be a [[field]] it follows that [[categories of vector spaces]] are Gorthendieck abelian. 
+Taking $R$ in Exp. \ref{CateoriesOfModules} to be a [[field]] it follows that [[categories of vector spaces]] are Grothendieck abelian. 
 \end{example}
 
 \begin{example}\label{ChainComplexesInGrothAbCat}
