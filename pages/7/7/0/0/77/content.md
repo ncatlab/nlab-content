@@ -267,6 +267,9 @@ Textbook accounts:
 
 * [[Peter Woit]], Ch. 5 of *Quantum Theory, Groups and Representations: An Introduction*, Springer 2017 &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
 
+
+* [[Pavel Etingof]], *Lie groups and Lie algebras* &lbrack;[arXiv:2201.09397](https://arxiv.org/abs/2201.09397)&rbrack;
+
 Discussion with a view towards [[Chern-Weil theory]]: 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], chapter IV in vol III of: _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
