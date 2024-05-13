@@ -188,6 +188,9 @@ On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT corr
 
 * Ling-Long Gao, [[Yan Liu]], Hong-Da Lyu, *Black hole interiors in holographic topological semimetals* &lbrack;[arXiv:2301.01468](https://arxiv.org/abs/2301.01468)&rbrack;
 
+* Masataka Matsumoto, Mirmani Mirjalali, Ali Vahedi, *Non-Linear Dynamics and Critical Phenomena in the Holographic Landscape of Weyl Semimetals* &lbrack;[arXiv:2405.06484](https://arxiv.org/abs/2405.06484)&rbrack;
+
+
 
 Some of the above material is taken from 
 
