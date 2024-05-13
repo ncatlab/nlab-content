@@ -51,11 +51,17 @@ The composition laws are uniquely determined. (This is equivalently the result o
 
 ## References
 
-* [[André Joyal]]. _Free bicomplete categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 219-224. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
+The construction of free bicompletions of small categories under $\kappa$-small limits and colimits (for a [[regular cardinal]] $\kappa$), essentially using the theory of [[sketches]], is given in:
 
-* [[André Joyal]]. _Free bicompletion of enriched categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 213-218. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
+* H. Kaphengst and H. Reichel, _Finite limit-colimit completions of small categories_, Algebraische Modelle, Kategorien und Gruppoide, pp. 21–33.
 
-The above references do not contain proofs. For a sketch of the existence of free bicompletions of categories, see [this MathOverflow question](https://math.stackexchange.com/questions/1686774/can-we-simultaneously-freely-adjoin-both-limits-and-colimits-to-a-category).
+Some of the general theory of free bicompletions is sketched (without proof) in the following two articles.
+
+* [[André Joyal]], _Free bicomplete categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 219-224. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
+
+* [[André Joyal]], _Free bicompletion of enriched categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 213-218. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
+
+For a sketch of the existence of free bicompletions of categories, see [this MathOverflow question](https://math.stackexchange.com/questions/1686774/can-we-simultaneously-freely-adjoin-both-limits-and-colimits-to-a-category).
 
 The free bicompletion of a category $C$ under nonempty [[products]] and nonempty [[coproducts]] is characterised as the category of nonempty $C$-valued contractible [[coherence spaces]] and $C$-maximal maps in:
 
