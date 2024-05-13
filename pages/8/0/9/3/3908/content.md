@@ -31,7 +31,11 @@ and in view of [[Deligne's theorem on tensor categories]]:
 
 On Calogero-Moser systems and [[double affine Hecke algebra]]s:
 
-* [[Pavel Etingof]], _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
+* [[Pavel Etingof]], _Lectures on Calogero-Moser systems_ ^lbrack;[pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)&rbrack;
+
+On [[Lie groups]] and [[Lie algebras]]:
+
+* [[Pavel Etingof]], *Lie groups and Lie algebras* &lbrack;[arXiv:2201.09397](https://arxiv.org/abs/2201.09397)&rbrack;
 
 category: people
 
