@@ -62,7 +62,7 @@ The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$.
 
 \end{definition}
 
-Often (for instance, when doing forcing categorically) one is interested in *complete* Heyting algebras, which are Heyting algebras than admit *arbitrary* meets and joins (that is, not necessarily finite).
+Often (for instance, when doing forcing categorically) one is interested in *complete* Heyting algebras, which are Heyting algebras that admit *arbitrary* meets and joins (that is, not necessarily finite).
 
 
 \begin{remark}
