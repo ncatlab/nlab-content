@@ -151,29 +151,23 @@ In [FSS 19c](#FSS19c) is offered a proof that combining super-embedding formalis
 
 ### General
 
-Under the name "doubly supersymmetric geometrical approach" the formalism originates in
+Under the name "doubly supersymmetric geometrical approach" the approach originates in:
 
-* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113), <a href="https://doi.org/10.1016/0550-3213(95)00267-V">doi:10.1016/0550-3213(95)00267-V</a>&rbrack;
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
+
+Elaboration and the coinage "super-embedding" is due to:
+
+* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
 
 Review:
 
-* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
-
 * {#Sorokin01} [[Dmitri Sorokin]], *Introduction to the Superembedding Description of Superbranes*, AIP Conference Proceedings **589** 98 (2001) &lbrack;[arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102), [doi:10.1063/1.1419318](https://doi.org/10.1063/1.1419318)&rbrack;
 
-where also the terminology "superembedding approach" is introduced.
+* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9_111-1](https://doi.org/10.1007/978-981-19-3079-9_111-1)&rbrack;
 
-Further review:
-
-* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
-
-
-Derivation of [[BPS state|1/2 BPS]] superembedding via [[rational equivariant homotopy theory|rational]] [[ADE-singularity|ADE-]][[equivariant cohomotopy]]:
-
-* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 ### $\kappa$-Symmetry
 
