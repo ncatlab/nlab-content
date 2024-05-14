@@ -1,7 +1,7 @@
 
 * [personal page](https://globbia.github.io/)
 
-* [institute page](https://www.muni.cz/en/people/247277-gabriele-lobbia)
+* [institute page](https://www.unibo.it/sitoweb/gabriele.lobbia/teachings)
 
 ## Selected writings
 
@@ -11,6 +11,6 @@ On [[distributive laws]] for [[relative monads]]:
 
 [[skew monoidal|Skew monoidal]] closed structures on the category of [[Gray categories]] are considered in:
 
-* [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, (2022). &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358)&rbrack;
+* [[John Bourke]], [[Gabriele Lobbia]], *A skew approach to enrichment for Gray-categories*, Advances in Mathematics vol. 434:109327, 2023. &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358)&rbrack;
 
 category: people
