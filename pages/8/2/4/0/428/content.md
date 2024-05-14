@@ -15,7 +15,7 @@
 
 ## Idea 
 
-The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an [[algebra over a monad|algebra-over-a-monad]] $(A, \rho)$ to the ([[augmented simplicial set|augmented]]) [[simplicial object]] whose structure maps are given by the structure maps of the monad and its action on its algebra:
+The **bar construction** takes an [[algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a category to the [[augmented simplicial object|augmented]] [[simplicial object]] in the [[Eilenberg-Moore category]] of that monad whose structure maps are given by the structure maps of the monad and its action on its algebra:
 
 $$
   \mathrm{B}(T,A)
