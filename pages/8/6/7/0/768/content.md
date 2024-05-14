@@ -20,16 +20,32 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A **classifying space** for some sort of data refers to a [[space]] (or a more general object), usually written $\mathcal{B}(data)$, such that maps $X\to \mathcal{B}(data)$ correspond to data over $X$.
+A **classifying space** for some sort of data is (the [[homotopy type]] of) a [[topological space]] $A$, such that [[homotopy classes]] of maps $X \to A$ correspond to [[equivalence classes]] of that kind of kind of data "parameterized" over suitable base spaces $X$.
 
-The classical example is the classifying space $\mathcal{B}G$ of a [[group]] $G$, which has the property that there is a bijection between [[homotopy]] classes of maps $X\to \mathcal{B}G$ and isomorphism classes of $G$-[[bundle|bundles]] over $X$.  (In fact, one can jack this up to an equivalence of [[groupoid|groupoids]] or $\infty$-[[infinity-groupoid|groupoids]].)  Various improvements of this are possible which classify bundles with extra structure or [[fibration|fibrations]].
+> Beware the similarity with but distinction to *[[moduli stacks]]* $\mathbf{A}$, which are such that not just the [[equivalence classes]] match, but that the full [[infinity-groupoid|$\infty$-groupoid]] of (structured) maps $X \to \mathbf{A}$ is [[equivalence of infinity-groupoids|equivalent]] to the [[infinity-groupoid|$\infty$-groupoid]] of the given kind of data on a suitable stack $X$. Hence a classifying space is "coarser" than a moduli stack --- which sounds like a disadvantage but is often an advantage in applications: classifying spaces serve to reduce information to homotopy classes of maps.
 
-Categorically, the corresponding statement is that [[Grothendieck fibrations]] over a [[category]] $X$ correspond to [[pseudofunctors]] $X^{op}\to Cat$.  Thus $Cat$ is the "classifying space for categories."  Similarly, discrete fibrations over $X$ correspond to [[functors]] $X^{op}\to Set$.
+> (Moduli stacks, in turn -- with [[stacks]] understood in the [[directed homotopy theory|directed]] generality of [[2-sheaves]] etc. --- subsume yet more general kinds of "universes". For instance the [[Grothendieck construction]] in [[category theory]] may be understood as exhibiting [[Cat]] as the moduli object for [[categories]]. Again, the point of classifying *spaces* over moduli stacks is to be more coarse, and hence more informative concerning equivalence classes.)
 
-To see the connection between the two, consider the case when $X$ is a groupoid and we restrict the fibers of the fibration to be isomorphic to a given set $F$.   Then the functor $X^{op}\to Set$ must land in the subcategory of $Set$ consisting of just the [[automorphisms]] of $F$, which is the one-object groupoid corresponding to the [[automorphism group]] $Aut(F)$.  If we further restrict the automorphisms appearing to preserve some given structure on $F$, so that they lie in some smaller group $G$, then the "classifying space" will be the one-object groupoid corresponding to $G$.  Under the [[homotopy hypothesis]], groupoids correspond to [[homotopy 1-types]], and the one-object groupoid of a group $G$ corresponds precisely to the usual topological classifying space $\mathcal{B}G$ (in fact, this is one _construction_ of $\mathcal{B}G$).  For this reason, $\mathbf{B}G$ is often used to denote that one-object groupoid; see the [[delooping hypothesis]] and the discussion at [[category algebra]].
 
-The phrase "classifying space" is also sometimes used for the realization of the nerve of any category, although it is more complicated to say what exactly this space "classifies."  (One answer is "torsors modulo concordance.")
+The classical examples of classifying spaces (both historically and by prevalence of their applications) are traditionally denoted $B G$ and constructed as [[bar constructions]] or [[topological realizations]] of [[nerves]] of suitable [[topological groups]] $G$. Under mild conditions these have the property that they classify $G$-[[principal bundles]] (hence the "data" above being: $G$-[[torsors]]), in that there is [[bijection]] between [[homotopy classes]] of maps $X\to BG$ and [[isomorphism classes]] of $G$-[[principal bundles]] over suitable base spaces $X$. 
+
+Often this case is understood by default when referring to "classifying spaces".
+
+But every [[connected homotopy type]] is [[weak homotopy equivalence|weak equivalently]] $B G$ for *some* topological group and other objects than just ordinary [[principal bundles]] may be classified by these spaces.
+
+For example, [[Eilenberg-MacLane spaces]] $K(G,n)$ have the property that [[homotopy classes]] of maps into them are in bijection with [[cohomology groups]] $H^n(-;G)$ ($G$ a [[discrete group]] and an [[abelian group]] for $n \geq 2$), hence serve as classifying spaces for [[ordinary cohomology]]. 
+
+For $n = 1$ this situation overlaps with the previous one classifying [[principal bundles]]. For higher $n$ and with due care, one may think of $K(G,n)$ as classifying certain [[principal infinity-bundles|principal $\infty$-bundles]] ("[[bundle gerbes]]", "[[bundle 2-gerbes]]", etc.).
+
+In joint generalization of these two situations, there are classifying spaces for $G$-[[principal 2-bundles]] for non-abelian topological [[2-groups]] $G$, etc.
+
+In fact, one may understand *any* connected space $A$ as being the classifying space for generalized [[nonabelian cohomology]] $H^1(-;\Omega A)$ with coefficients in the loop $\infty$-group $\Omega A$.
+
+Traditionally familiar (in [[algebraic topology]] and [[stable homotopy theory]]) is the case of classifying spaces for generalized abelian cohomology theories ([[Whitehead-generalized cohomology theories]]): The [[Brown representability theorem]] says that their classifying spaces are [[infinite-loop spaces]] which, as the degree $n$ ranges, organize into sequences of spaces called *[[spectra]]*.
+
+
 
 ## Examples
 
