@@ -341,7 +341,9 @@ and further discussed in:
 
 *  {#DawsonParePronk10} R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _The span construction_, Theory Appl. Categ. __24__ (2010), No. 13, 302&#8211;377, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html) [MR2720187](http://www.ams.org/mathscinet-getitem?mr=2720187)
 
- 
+* [[Charles Walker]], _Universal properties of bicategories of polynomials_, Journal of Pure and Applied Algebra 223.9 (2019): 3722-3777.
+
+* [[Charles Walker]], _Bicategories of spans as generic bicategories_, [arXiv:2002.10334](https://arxiv.org/abs/2002.10334) (2020).
 
 The structure of a [[k-tuply monoidal (n,r)-category|monoidal]] [[tricategory]] on spans in [[2-categories]] is discussed in  
 
