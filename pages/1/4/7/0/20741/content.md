@@ -132,8 +132,10 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * [[David Spivak]], _Learners' languages_, ([arXiv:2103.01189](https://arxiv.org/abs/2103.01189))
 
-
 * G.S.H. Cruttwell, [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+
+* [[Bruno Gavranović]], Paul Lessard, Andrew Dudzik, Tamara von Glehn, João G. M. Araújo, Petar Veličković, _Categorical Deep Learning: An Algebraic Theory of Architectures_ &lbrack;[arXiv:2402.15332](https://arxiv.org/abs/2402.15332)&rbrack;
+ 
 
 Neural networks field theory:
 
@@ -154,6 +156,8 @@ Topological deep learning for data supported on topological domains such as [[si
 * Mathilde Papillon, Sophia Sanborn, Mustafa Hajij, Nina Miolane, _Architectures of Topological Deep Learning: A Survey on Topological Neural Networks_ ([arXiv:2304.10031](https://arxiv.org/abs/2304.10031))
 
 * Mustafa Hajij et al., _Topological Deep Learning: Going Beyond Graph Data_ ([pdf](https://www.researchgate.net/publication/370134352_Topological_Deep_Learning_Going_Beyond_Graph_Data))
+
+* Theodore Papamarkou, Tolga Birdal, Michael Bronstein, Gunnar Carlsson, Justin Curry, Yue Gao, Mustafa Hajij, Roland Kwitt, Pietro Liò, Paolo Di Lorenzo, Vasileios Maroulas, Nina Miolane, Farzana Nasrin, Karthikeyan Natesan Ramamurthy, Bastian Rieck, Simone Scardapane, Michael T. Schaub, Petar Veličković, Bei Wang, Yusu Wang, Guo-Wei Wei, Ghada Zamzmi, _Position Paper: Challenges and Opportunities in Topological Deep Learning_ &lbrack;[arXiv:2402.08871](https://arxiv.org/abs/2402.08871)&rbrack;
 
 
 ### Relation to tensor networks
