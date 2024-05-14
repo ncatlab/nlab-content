@@ -71,18 +71,22 @@ For $p \in \mathbb{N}$ a [[prime number]], we write
 
 (e.g. [Lurie 10, lecture 22, def. 5](#LurieLecture))
 
+
 ### Axiomatic characterization
 
-+-- {: .num_prop}
++-- {: .num_prop #AxiomaticCharacterization}
 ###### Proposition/Definition
 
-For each [[prime number|prime integer]] $p$ there exists a sequence of [[multiplicative cohomology theory|multiplicative]] [[generalized cohomology theories|generalized cohomology]]/[[generalized homology theories|homology theories]] 
+For each [[prime number|prime integer]] $p$ 
+the _Morava K-theories_ are the [[sequences]] 
 
 $$
-  \{K(n)\}_{n \in \mathbb{N}}
+  \big\{
+    K(n)
+  \big\}_{n \in \mathbb{N}}
 $$ 
 
-with the following properties:
+of [[multiplicative cohomology theory|multiplicative]] [[generalized cohomology theories|generalized cohomology]]/[[generalized homology theories|homology theories]] with the following properties:
 
 1. $K(0)_\ast(X)=H_\ast(X;\mathbb{Q})$ and $\overline{K(0)}_\ast(X)=0$ when $\overline{H}_\ast(X)$ is all [[torsion]].
 
@@ -90,7 +94,7 @@ with the following properties:
 
 1. $K(0)_\ast(pt.)=\mathbb{Q}$ and for $n\neq 0$, $K(n)_\ast(pt.)=\mathbb{F}_p[v_n,v_n^{-1}]$ where $\vert v_n\vert=2p^n-2$.  
 
-   (This [[ring]] is a graded [[field]] in the sense that every graded [[module]] over it is [[free module|free]].  $K(n)_\ast(X)$ is a module over $K(n)_\ast(pt.)$, see [below](#AsInfinityFields))
+   > (This [[ring]] is a graded [[field]] in the sense that every graded [[module]] over it is [[free module|free]].  $K(n)_\ast(X)$ is a module over $K(n)_\ast(pt.)$, see [below](#AsInfinityFields))
 
 1. There is a [[Künneth isomorphism]]: $K(n)_\ast(X\times Y)\cong K(n)_\ast(X)\otimes_{K(n)_\ast(pt.)}K(n)_\ast(Y).$
 
@@ -98,12 +102,14 @@ with the following properties:
 
 1. If $X$ is as above, then $\overline{K(n)}_\ast(X)=K(n)_\ast(pt.)\otimes \overline{H}_\ast(X;\mathbb{Z}/(p))$ for $n$ sufficiently large.
 
-These are called the _Morava K-theories_.
-
-
 =--
 
-Due to the third point one may regard $K(n)$ as a [[∞-field]] among the [[A-infinity rings]]. See [below](#AsInfinityFields).
+([Ravenel 1992, Prop. 1.5.2](#Ravenel92))
+
+\begin{remark}
+Due to the third point in \ref{AxiomaticCharacterization}, one may regard $K(n)$ as a [[∞-field]] among the [[A-infinity rings]]. See [below](#AsInfinityFields).
+\end{remark}
+
 
 ## Properties
 
@@ -268,7 +274,7 @@ A first published account appears in (see at _[[Johnson-Wilson spectrum]]_):
 
 see also
 
-* [[Doug Ravenel]], _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies **128**, Princeton University Press (1992) &lbrack;[ISBN:9780691025728](https://press.princeton.edu/books/paperback/9780691025728/nilpotence-and-periodicity-in-stable-homotopy-theory-am-128-volume), [pdf](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb.pdf), [webpage](https://people.math.rochester.edu/faculty/doug/nilp.html)&rbrack;
+* {#Ravenel92} [[Doug Ravenel]], _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies **128**, Princeton University Press (1992) &lbrack;[ISBN:9780691025728](https://press.princeton.edu/books/paperback/9780691025728/nilpotence-and-periodicity-in-stable-homotopy-theory-am-128-volume), [pdf](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb.pdf), [webpage](https://people.math.rochester.edu/faculty/doug/nilp.html)&rbrack;
 
 Textbook account:
 
