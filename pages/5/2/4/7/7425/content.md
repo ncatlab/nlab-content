@@ -96,7 +96,7 @@ with the following properties:
 
 1. Let $X$ be a p-local finite [[CW-complex]]. If $\overline{K(n)}_\ast(X)$ vanishes then so does $\overline{K(n-1)}_\ast(X)$.
 
-1. If $X$ as above is not contractible then $\overline{K(n)}_\ast(X)=K(n)_\ast(pt.)\otimes \overline{H}_\ast(X;\mathbb{Z}/(p))$.
+1. If $X$ is as above, then $\overline{K(n)}_\ast(X)=K(n)_\ast(pt.)\otimes \overline{H}_\ast(X;\mathbb{Z}/(p))$ for $n$ sufficiently large.
 
 These are called the _Morava K-theories_.
 
