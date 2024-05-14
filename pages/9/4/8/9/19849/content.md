@@ -65,7 +65,17 @@ A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\O
 
 
 
-[[!redirects Two-valued topos]]
+
 [[!redirects two valued topos]]
 [[!redirects Two valued topos]]
 [[!redirects Two-valued topos]]
+
+[[!redirects two-valued toposes]]
+[[!redirects two valued toposes]]
+[[!redirects Two valued toposes]]
+[[!redirects Two-valued toposes]]
+
+[[!redirects two-valued topoi]]
+[[!redirects two valued topoi]]
+[[!redirects Two valued topoi]]
+[[!redirects Two-valued topoi]]
