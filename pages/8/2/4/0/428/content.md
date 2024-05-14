@@ -36,7 +36,7 @@ This simplicial object can be viewed as a [[resolution]] of $A$, in a sense expl
 
 Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a [[monad]] on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the [[Eilenberg-Moore category|category of]] $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
 
-Recall that the ([[augmented simplicial set|augmented]]) [[simplex category]] $\Delta_a$, viz. the category consisting of [[finite set|finite]] [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is [[initial object|initial]] among strict [[monoidal categories]] equipped with a [[monoid object]]. The monoidal product on $\Delta_a$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the [[terminal object]] $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
+Recall that the [[augmented simplicial set|augmented]] [[simplex category]] $\Delta_a$, viz. the category consisting of [[finite set|finite]] [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is [[initial object|initial]] among strict [[monoidal categories]] equipped with a [[monoid object]]. The monoidal product on $\Delta_a$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the [[terminal object]] $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
 
 [^fine1]: N.B.: including the empty ordinal. 
 
