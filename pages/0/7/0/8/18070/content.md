@@ -1730,6 +1730,14 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Christian Blanchet]], *Heisenberg homologies of surface configurations*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BlanchetMar2023)&rbrack;
 
+On the [[Hopf algebra]] structure of configuration spaces of disks:
+
+* Stephen Bigelow, Jules Martel, *Quantum groups from homologies of configuration spaces* &lbrack;[arXiv:2405.06982](https://arxiv.org/abs/2405.06982)&rbrack;
+
+For more references on the *twisted* cohomology of configuration spaces of points see at 
+
+* *[[KZ equation]]* -- *[Braid representations via twisted cohomology of configuration spaces](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)*
+
 Review with focus on the phenomenon of [[representation stability]]:
 
 * {#RollandWilson22}  [[Rita Jimenez Rolland]], [[Jennifer C. H. Wilson]], *Stability properties of moduli spaces*, Notices of the AMS [**69** 4](https://www.ams.org/notices/202204/202204FullIssue.pdf) (April 2022) &lbrack;[arXiv:2201.04096](https://arxiv.org/abs/2201.04096), [pdf](https://www.ams.org/journals/notices/202204/rnoti-p522.pdf), [web](https://www.ams.org/journals/notices/202204/noti2452/noti2452.html)&rbrack;
@@ -1919,9 +1927,6 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 
 * [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
 
-On the [[Hopf algebra]] structure of configuration spaces of disks:
-
-* Stephen Bigelow, Jules Martel. *Quantum groups from homologies of configuration spaces* (2024). ([arXiv:2405.06982](https://arxiv.org/abs/2405.06982)).
 
 
 
