@@ -67,7 +67,7 @@ After the conception of [[gauge theory]], the term _curvature_ was firmly establ
 
   The curvature in this case is the 2-form $F = d A$.
 
-*  A [[connection on a bundle|connection]] on a trivial $G$-[[principal bundle]] for $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ is a $\mathfrak{g}$-valued 1-forfm (see [[groupoid of Lie-algebra valued forms]])
+*  A [[connection on a bundle|connection]] on a trivial $G$-[[principal bundle]] for $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ is a $\mathfrak{g}$-valued 1-form (see [[groupoid of Lie-algebra valued forms]])
  
    $$
      A \in \Omega^1(X) \otimes \mathfrak{g}
