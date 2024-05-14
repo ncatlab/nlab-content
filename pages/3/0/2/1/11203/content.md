@@ -165,6 +165,10 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
   > (in relation to [[holographic entanglement entropy]])
 
+* Chi-Hsien Tai, Wen-Yu Wen, *A study of layered holographic superconductor* &lbrack;[arXiv:2405.07535](https://arxiv.org/abs/2405.07535)&rbrack;
+
+
+
 
 ### High $T_c$-superconductivity
 
