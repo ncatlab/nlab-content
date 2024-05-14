@@ -73,6 +73,10 @@ whilst their modern development can be traced to
 
 *  [[A. I. Bondal]], [[Mikhail Kapranov]], _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
+A bicategory refinement
+
+* Yuki Imamura. *A formal categorical approach to the homotopy theory of dg categories* (2024).  ([arXiv:2405.07873](https://arxiv.org/abs/2405.07873)).
+
 ### Overviews
 
 For concise reviews of the theory, see section 1 of
