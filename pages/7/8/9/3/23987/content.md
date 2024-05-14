@@ -2988,13 +2988,17 @@ Neumann algebras**
 
   >  In this talk I will review the properties of [[quantum states]] in [[Chern-Simons theories]] from the perspective of [[topological quantum field theory]] paradigm. I will focus on the [[SU(2)|$SU(2)$]] theory but the discussion can be generalized to other [[gauge group|groups]] and other [[TQFTs]]. The discussion will single out a special class of "simple" states, whose properties are akin to the properties of classical geometry states in [[holography]] ([[AdS/CFT]]). [[quantum entanglement|Quantum entanglement]] and its properties will be discussed using the topological presentation, and I will give a few examples of the "topological engineering" of quantum resources and protocols. Time permitting I will also mention possible applications of the topological approach to the [[black hole information paradox]].
 
+
 \linebreak
+
 
 * {#BuijsMay24} 08 May 2024
 
   [[Urtzi Buijs]]:
 
   **Explicit Quillen models for Cartesian products**
+
+  slides: [[Buijs-QuillenModels2024.pdf:file]]
 
   cf.: [arXiv:2402.18168](https://arxiv.org/abs/2402.18168)
 
