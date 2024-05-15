@@ -50,10 +50,11 @@ In practice, isometries $E \to F$ between [[normed vector space|normed vector sp
 
 A norm on a vector space is **strictly convex** if, whenever ${\|u\|} = 1 = {\|v\|}$, we have ${\|t u + (1-t)v\|} \lt 1$ for some (hence all!) $t$ in the range $0 \lt t \lt 1$. In brief, no sphere contains a line segment. Examples of strictly convex spaces include spaces of type $L^p$ for $1 \lt p \lt \infty$. 
 
-+-- {: .un_thm} 
-###### Theorem 
+\begin{theorem}
+
 Let $f \colon E \to F$ an isometry between normed vector spaces, and suppose $F$ is strictly convex. Then $f$ is affine. 
-=-- 
+
+\end{theorem}
 
 +-- {: .proof} 
 ###### Proof 
