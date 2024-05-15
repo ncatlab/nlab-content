@@ -308,7 +308,7 @@ Let $Y \to S$ be a [[Cartesian fibration]] of simplicial sets, and $X^\natural$ 
 
 Then 
 
-* $Map_S^\flat(X,Y^\natural)$ is an [[quasi-category]];
+* $Map_S^\flat(X,Y^\natural)$ is a [[quasi-category]];
 
 * $Map_S^\sharp(X, Y^\natural)$ is its [[core]], the maximal [[Kan complex]] inside it.
 
