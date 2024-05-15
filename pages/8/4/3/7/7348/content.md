@@ -130,9 +130,15 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 ## Related concepts
 
-* **immersion**, [[formal immersion of smooth manifolds]], [[submersion]], [[local diffeomorphism]]
+* [[formal immersion of smooth manifolds]]
+
+* [[submersion]]
+
+* [[local diffeomorphism]]
 
 * [[embedding of smooth manifolds]]
+
+* [[isometric immersion]]
 
 * [[regular value]]
 
