@@ -78,6 +78,8 @@ The Jacobson radical of a possibly trivial [[local ring]] $R$ is the set of elem
 
 ## References
 
+Named after [[Nathan Jacobson]].
+
 * EoM: [Jacobson radical](https://encyclopediaofmath.org/wiki/Jacobson_radical)
 
 * Wikipedia, _[Jacobson radical](https://en.wikipedia.org/wiki/Jacobson_radical#Examples)_
