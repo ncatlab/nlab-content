@@ -265,8 +265,8 @@ More on this at [[joint and marginal probability]].
  <tr>
   <th markdown="1">Baire monad</th>
   <td markdown="1">[[weakly Hausdorff topological space|Weakly Hausdorff]] quotients of countably-based [[topological spaces]]</td>
-  <td markdown="1">$k$-regular probability measures</td>
-  <td markdown="1">[[weak topology]] w.r.t. bounded [[continuous functions]]</td>
+  <td markdown="1">[[Baire subset|Baire measures]]</td>
+  <td markdown="1">topology induced by cartesian closedness</td>
   <td markdown="1">Full characterization unknown</td>
   <td markdown="1">[K-P '24](#KP24)</td>
  </tr>
@@ -274,7 +274,7 @@ More on this at [[joint and marginal probability]].
   <th markdown="1">Riesz monad</th>
   <td markdown="1">[[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]]</td>
   <td markdown="1">$k$-regular probability measures</td>
-  <td markdown="1">[[weak topology]] w.r.t. bounded [[continuous functions]]</td>
+  <td markdown="1">topology induced by cartesian closedness</td>
   <td markdown="1">Full characterization unknown</td>
   <td markdown="1">[K-P '24](#KP24)</td>
  </tr>
