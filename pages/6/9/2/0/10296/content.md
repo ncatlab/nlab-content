@@ -1,4 +1,3 @@
-
 # Dual gebras
 * table of contents
 {: toc}
@@ -108,9 +107,33 @@ $$
 \,\,\,\,\,\,\,\,\,\,\epsilon(a) = \langle a, 1_H\rangle
 $$
 
-They are a __strictly dual pair of bigebras__ if the pairing is in also nondegenerate. If $B$ and $H$ are paired then one can quotient out [[biideal]]s $J_B\subset B$, $J_H\subset H$ of all those elements in each of them which pair as zero with all elements in the other bigebra; the quotients $B'$ and $H'$ will then be strictly paired bigebras.  
+They are a __strictly dual pair of bigebras__ if the pairing is also nondegenerate. If $B$ and $H$ are paired then one can quotient out [[biideal]]s $J_B\subset B$, $J_H\subset H$ of all those elements in each of them which pair as zero with all elements in the other bigebra; the quotients $B'$ and $H'$ will then be strictly paired bigebras.  
 
 See also [[dual bialgebra]].
+
+## Dual rings of corings
+
+Let $A$ be a $k$-algebra and $C$ an $A$-[[coring]]. The left dual ${}* C$ of $C$ is defined by
+$$
+{}* C = {}_A Hom(C,k) 
+$$
+where ${}_A Hom(-,-)$ denotes the $k$-module of morphisms of left $A$-modules, with associative multiplication 
+$$
+(f\star g)(c) = g(c_{(1)},f(c_{(2)})).
+$$
+
+$A$ is a sub-$k$-algebra of ${}^* C$ via $i:A\hookrightarrow {}^* C$, $i(a)(c)=\epsilon(c)\cdot_A a$, that is ${}^* C$ is an $A$-ring (see [[ring over a ring]]).
+
+The right dual $C^*$ is defined by
+$$
+C^* = Hom_A(C,k)
+$$
+where $Hom_A(-,-)$ denotes the $k$-module of morphisms of right $A$-modules, with the associative multiplication 
+$$
+(f\star g)(c) = f(g(c_{(1)}),c_{(2)}).
+$$
+
+$A$ is a sub-$k$-algebra of $C^*$ via $j:A\hookrightarrow C^*$, $j(a)(c)= a\cdot_A\epsilon(c)$.
 
 ## Literature
 
@@ -126,19 +149,19 @@ and the entire Chapter VI (titled $()^\circ$) of
 
 Other sources are
 
-* Susan Montgomery, _Hopf algebras and their actions on rings_, AMS 1994, 240 pp.
-* Shahn Majid, _Foundations of quantum group theory_, Cambridge Univ. Press
+* [[Susan Montgomery]], _Hopf algebras and their actions on rings_, AMS 1994, 240 pp.
+* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge Univ. Press
 * Eiichi Abe, _Hopf algebras_, Cambridge Tracts in Mathematics 74, 1977
 
 and for gebras with involution 
 
-* A. van Daele, _Dual pairs of Hopf $\ast$-algebras_,  Bull. London Math. Soc. (1993) 25 (3): 209-230 [doi](http://dx.doi.org/10.1112/blms/25.3.209)
+* A. van Daele, _Dual pairs of Hopf $\ast$-algebras_,  Bull. London Math. Soc. (1993) 25 (3): 209--230 [doi](https://doi.org/10.1112/blms/25.3.209)
 
 Hit-actions are recently studied in
 
 * M. Cohen, S. Westreich, _Hit-actions and commutators for Hopf algebras_, Bull. Math. Soc. Sci. Math. Roumanie __56__(104) No. 3, 2013, 299--313 [pdf](http://ssmr.ro/bulletin/pdf/56-3/articol_4.pdf)
 
-[[Cartier duality]] and related earlier issues on [[linearly compact topological spaces]] due Dieudonn&#233; are in the first chapter of 
+[[Cartier duality]] and related earlier issues on [[linearly compact vector space]]s due Dieudonn&#233; are in the first chapter of 
 
 * [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
 
@@ -152,9 +175,13 @@ Duality of dg-algebras vs. dg-coalgebras is studied recently in great detail in
 
 Some special cases of finite duals are treated in
 
-* Stephen Donkin, _On the Hopf algebra dual of an enveloping algebra_, Math. Proc. Camb. Phil. Soc. (1982), 91, 215-224, [doi](http://dx.doi.org/10.1017/S0305004100059260)
+* Stephen Donkin, _On the Hopf algebra dual of an enveloping algebra_, Math. Proc. Camb. Phil. Soc. (1982), 91, 215-224, [doi](https://doi.org/10.1017/S0305004100059260)
 * Jahn Astrid, _The finite dual of crossed products_, thesis, [pdf](http://theses.gla.ac.uk/6158/1/2015jahnphd.pdf)
 * MathOverflow: [Hopf algebra duality and algebraic groups](http://mathoverflow.net/questions/31237/hopf-algebra-duality-and-algebraic-groups)
+
+Duals of corings are used in
+
+* [[Stefaan Caenepeel]], D. Quinn, S. Raianu, _Duality for finite Hopf algebras explained by corings_. Appl. Categor. Struct. 14 (2006) 531--537
 
 category: algebra
 
