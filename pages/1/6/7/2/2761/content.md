@@ -171,6 +171,8 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 * {#Kerodon} [[Kerodon]], Part 2, Chapter 8: *The Yoneda Embedding* $[$[kerodon:03JA](https://kerodon.net/tag/03JA), esp. [Prop. 8.2.1.3](https://kerodon.net/tag/03M5) and [Thm. 8.2.5.4](https://kerodon.net/tag/03NJ)$]$
 
+* Shay Ben-Moshe, _Uniqueness and $(\infty,2)$-Naturality of Yoneda_ &lbrack;[arXiv:2405.08799](https://arxiv.org/abs/2405.08799)&rbrack;
+
 Discussion in the context of an [[∞-cosmos]]:
 
 * {#RiehlVerity17} [[Emily Riehl]], [[Dominic Verity]], Section 6 of: _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
