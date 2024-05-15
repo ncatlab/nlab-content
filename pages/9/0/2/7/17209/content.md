@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[topology]] a _universal vector bundle_ of some [[rank of a vector bundle|rank]] $n$ is a [[vector bundle]] $\zeta_n \to B GL(n)$ (over a base space to be called a _[[classifying space]]_) such that every other [[vector bundle]] $E \to X$ of rank $n$ over a suitably [[nice topological space]] ([[paracompact topological space]]) arises as the [[pullback bundle]] $E \simeq f^\ast \zeta_n$ of the universal bundle, along some morphisms ([[continuous function]]) $f \colon X \to B GL(n)$ which is unique up to [[homotopy]]:
+In [[topology]] a _universal vector bundle_ of some [[rank of a vector bundle|rank]] $n$ is a [[vector bundle]] $\zeta_n \to B GL(n)$ (over a base space to be called a _[[classifying space]]_) such that every other [[vector bundle]] $E \to X$ of rank $n$ over a suitably [[nice topological space]] ([[paracompact topological space]]) arises as the [[pullback bundle]] $E \simeq f^\ast \zeta_n$ of the universal bundle, along some morphism ([[continuous function]]) $f \colon X \to B GL(n)$ which is unique up to [[homotopy]]:
 
 $$
   \array{
