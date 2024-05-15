@@ -57,7 +57,9 @@ The claim that the definitions above are all equivalent is the __Sherman&#8211;T
 
 ## Properties
 
-A $C^*$-algebra and its enveloping von Neumann algebra have the same [[spectrum]].  The [[functional calculus]] on a $C^*$-algebra (which treats [[continuous functions]]) extends to the functional calculus on its enveloping von Neumann algebra (which treats [[measurable functions]]).  In particular, we can apply a measurable function to an element of a $C^*$-algebra to obtain an element of its enveloping von Neumann algebra.
+A $C^*$-algebra and its enveloping von Neumann algebra rarely have the same [[spectrum]]. For example, consider the $C^*$-algebra $A=C_{0}(\mathbb{N})$, where $\mathbb{N}$ is given the discrete topology. Then, the von Neumann enveloping algebra of $A$ is the set of all bounded sequences, whose spectrum is homeomorphic to the Stone-Čech compactification of $\mathbb{N}$.
+
+The [[functional calculus]] on a $C^*$-algebra (which treats [[continuous functions]]) extends to the functional calculus on its enveloping von Neumann algebra (which treats [[measurable functions]]).  In particular, we can apply a measurable function to an element of a $C^*$-algebra to obtain an element of its enveloping von Neumann algebra.
 
 
 ## Applications
