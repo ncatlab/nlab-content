@@ -170,8 +170,11 @@ Review:
 
 * [[Igor A. Bandos]], *Superembedding approach to Dp-branes, M-branes and multiple D(0)-brane systems*, Phys. Part. Nucl. Lett. **8** (2011) 149-172 &lbrack;[arXiv:0912.2530](https://arxiv.org/abs/0912.2530), [doi:10.1134/S1547477111030046](https://doi.org/10.1134/S1547477111030046)&rbrack;
 
-
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9_111-1](https://doi.org/10.1007/978-981-19-3079-9_111-1)&rbrack;
+
+Related discussion in the bosonic situation:
+
+* [[Igor Bandos]], Wolfgang Kummer, *P-Branes, Poisson-Sigma-Models and Embedding Approach to $(p+1)$-Dimensional Gravity*, Int. J. Mod. Phys. A **14** (1999) 4881-4914 &lbrack;[arXiv:hep-th/9703099](https://arxiv.org/abs/hep-th/9703099), [doi:10.1142/S0217751X99002311](https://doi.org/10.1142/S0217751X99002311)&rbrack;
 
 
 ### $\kappa$-Symmetry
