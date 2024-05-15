@@ -7,8 +7,19 @@ On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Gre
 
 * {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
 
-* [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+* [[Igor Bandos]], *Superembedding approach and generalized action in String/M-theory*, in: *Supersymemtries and Quantum Symmetries*, Lecture Notes in Physics **524**, Springer (1999) &lbrack;[arXiv:hep-th/9807202](https://arxiv.org/abs/hep-th/9807202), [doi:10.1007/BFb0104595](https://doi.org/10.1007/BFb0104595)&rbrack;
+
+* [[Igor A. Bandos]], *Superembedding approach to Dp-branes, M-branes and multiple D(0)-brane systems*, Phys. Part. Nucl. Lett. **8** (2011) 149-172 &lbrack;[arXiv:0912.2530](https://arxiv.org/abs/0912.2530), [doi:10.1134/S1547477111030046](https://doi.org/10.1134/S1547477111030046)&rbrack;
+
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+
+
+
+
+
+
+
+
 
 
 
