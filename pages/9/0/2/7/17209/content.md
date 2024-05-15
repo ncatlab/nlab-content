@@ -92,7 +92,7 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
 [[!redirects universal vector bundles]]
