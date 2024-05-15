@@ -80,6 +80,8 @@ If however $f$ is a _surjective_ isometry between normed vector spaces, then $f$
 
 * [[linear isometry]]
 
+* [[isometric immersion]]
+
 * [[superisometry]]
 
 
