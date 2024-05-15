@@ -9,6 +9,11 @@ On [[rational homotopy theory]] of [[Kähler manifolds]] and the statement that 
 * {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
 
+On [[isometry|isometric]] [[Riemannian immersion|Riemannian]] [[embedding of smooth manifolds|embeddings]]:
+
+* {#BergerBryantGriffith83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-50/issue-3/The-Gauss-equations-and-rigidity-of-isometric-embeddings/10.1215/S0012-7094-83-05039-1.short)&rbrack;
+
+
 On [[rational homotopy theory]]:
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkh&auml;user (2013)
