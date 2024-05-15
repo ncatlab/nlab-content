@@ -6,6 +6,6 @@ Francesco D'Andrea is a mathematician at Department of Mathematics and Applicati
 
 On [[equivariant bundles]] in [[noncommutative geometry]]:
 
-* [[Francesco d'Andrea]], Alessandro de Paris, _On noncommutative equivariant bundles_, Commun. Alg. __47__:12 (2019) 5443--5461 [arXiv:1606.09130](https://arxiv.org/abs/1606.09130) [doi](https://doi.org/10.1080/00927872.2019.16313)
+* [[Francesco d'Andrea]], Alessandro de Paris, _On noncommutative equivariant bundles_, Commun. Alg. __47__:12 (2019) 5443--5461 [arXiv:1606.09130](https://arxiv.org/abs/1606.09130) [doi](https://doi.org/10.1080/00927872.2019.1631320)
 
 category: people
