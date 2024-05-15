@@ -94,6 +94,10 @@ On [[AQFT on curved spacetimes]] in terms of [[stacks]] of [[categories]] ([[2-s
 
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *Haag-Kastler stacks* &lbrack;[arXiv:2404.14510](https://arxiv.org/abs/2404.14510)&rbrack;
 
+A [[higher gauge theory|higher gauge]] [[5d Chern-Simons theory]] analogous to [[semi-topological 4d Chern-Simons theory]]:
+
+* [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
+
 
 
 ## Related entries
