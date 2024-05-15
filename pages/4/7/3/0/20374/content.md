@@ -80,5 +80,9 @@ Relation to the [[Berkovits superstring]]:
 
 * [[Nathan Berkovits]], Rodrigo S. Pitombo, *4D Chern-Simons and the pure spinor $AdS_5 \times S^5$ superstring* &lbrack;[arXiv:2401.03976](https://arxiv.org/abs/2401.03976)&rbrack;
 
+A [[higher gauge theory|higher gauge]] [[5d Chern-Simons theory]] analogous to semi-topological 4d Chern-Simons theory:
+
+* [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
+
 
 
