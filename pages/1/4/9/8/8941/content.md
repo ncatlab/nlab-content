@@ -137,10 +137,7 @@ $$
 
 ## Anti Yetter--Drinfeld modules
 
-The most general coefficients for Hopf cyclic cohomology are called stable anti-Yetter-Drinfeld modules. These kind of modules appeared for the first time  in  different name  in B. Rangipour's PhD thesis under supervision of M. Khalkhali. Later on it was generalized by 
-P.M. Hajac, M. Khalkhali, B. Rangipour, and Y. Sommerhaeuser. The category of AYD modules is not monodical but product of an AYD module   with a YD module results in an AYD module.  By the work of Rangipour--Sutlu one knows that there is such category over Lie algebras and there is a one-to-one correspondence between AYD modules over a Lie algebra and those over the universal enveloping algebra of the Lie algebra. This correspondence is extended by the same authors for bicrossed product Hopf algebras. 
-The true  meaning of the AYD modules in non commutative geometry is not known yet. There are some  attempts by   A. Kaygun--M. Khalkhali to relate them to the curvature of flat  connections similar to the work of T. Brzezi&#324;ski on YD modules, however their identification   are not restricted to AYD and  works for a wide variety of YD type modules. 
-
+The most general coefficients for Hopf cyclic cohomology are called stable anti-Yetter-Drinfeld modules; the definition of [[anti-Yetter-Drinfeld module]]s is very similar.  
 
 ## Literature
 
@@ -158,16 +155,8 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.
 
 * David N. Yetter, _Quantum groups and representations of monoidal categories_, Math. Proc. Cambridge Philos. Soc. 108 (1990), no. 2, 261--290 [MR91k:16028](https://www.ams.org/mathscinet-getitem?mr=1074714) [doi](http://dx.doi.org/10.1017/S0305004100069139)
 
-* [[Gabriella Bohm|Gabriella B&#246;hm]], Dragos Stefan, _(Co)cyclic (co)homology of bialgebroids: An approach via (co)monads_, Comm. Math. Phys. 282 (2008), no.1, 239--286, [arxiv/0705.3190](http://arxiv.org/abs/0705.3190); _A categorical approach to cyclic duality_, J. Noncommutative Geometry __6__ (2012), no. 3, 481--538, [arxiv/0910.4622](http://arxiv.org/abs/0910.4622) 
-
-* Atabey Kaygun, Masoud Khalkhali, _Hopf modules and noncommutative differential geometry_, Lett. in Math. Physics __76:1__, pp 77--91 (2006) [arxiv/math.QA/0512031](http://arxiv.org/abs/math/0512031), [doi](http://dx.doi.org/10.1007/s11005-006-0062-x)
-
 * [[T. Brzeziński]], _Flat connections and (co)modules_, [in:] New Techniques in Hopf Algebras and Graded Ring Theory, S Caenepeel and F Van Oystaeyen (eds), Universa Press, Wetteren, 2007 pp. 35--52   [arXiv:math.QA/0608170](https://arxiv.org/abs/math.QA/0608170)
 
-* P.M. Hajac, M. Khalkhali, B. Rangipour, Y. Sommerhaeuser, _Hopf-cyclic homology and cohomology with coefficients_, C. R. Math. Acad. Sci. Paris __338__(9), 667--672 (2004) [math.KT/0306288](https://arxiv.org/abs/math/0306288); _Stable anti-Yetter--Drinfeld modules_. C. R. Math Acad. Sci. Paris __338__(8), 587--590 (2004)
-
-* B. Rangipour, Serkan S&#252;tl&#252;, _Characteristic classes of foliations via SAYD-twisted cocycles_, [arXiv:1210.5969](https://arxiv.org/abs/1210.5969);
-_SAYD modules over Lie--Hopf algebras_, [arXiv:1108.6101](https://arXiv.org/abs/1108.6101); _Cyclic cohomology of Lie algebras_, [arXiv:1108.2806](https://arxiv.org/abs/1108.2806)
 
 * Florin Panaite, Mihai D. Staic, _Generalized (anti) Yetter--Drinfeld modules as components of a braided T-category_, arXiv:[math.QA/0503413](https://arxiv.org/abs/math/0503413) 
 
@@ -185,7 +174,7 @@ _SAYD modules over Lie--Hopf algebras_, [arXiv:1108.6101](https://arXiv.org/abs/
 
 * V. Ulm, _Actions of Hopf algebras in categories of Yetter--Drinfeld modules_, Comm. Alg. __31__:6, 2719--2743
 
-* L. A. Lambe, D. E. Radford, Algebraic aspects of the quantum Yang–Baxter equation, J. Algebra 154 (1992) 228--288 [doi](https://doi.org/10.1006/jabr.1993.1014)
+* L. A. Lambe, D. E. Radford, _Algebraic aspects of the quantum Yang–Baxter equation_, J. Algebra 154 (1992) 228--288 [doi](https://doi.org/10.1006/jabr.1993.1014)
 
 * D.E. Radford, J. Towber, _Yetter--Drinfel'd categories associated to an arbitrary bialgebra_, J. Pure Appl. Algebra __87__ (1993), 259--279 [MR94f:16060](http://www.ams.org/mathscinet-getitem?mr=1228157) [doi](https://doi.org/10.1016/0022-4049%2893%2990114-9)
 
