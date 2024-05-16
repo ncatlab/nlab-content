@@ -48,9 +48,22 @@ $$
     f(\vec x)\, dvol_{\mathbb{R}^{n+1}}
       & =
     f(r,\theta) 
-   \,\, (r \sin(\theta))^{n-1}\, d r \wedge dvol_{S^{n-1}} \,\wedge r d\theta
+   \,\, (r \sin(\theta))^{n-1}\, d r \wedge r d \theta \wedge dvol_{S^{n-1}}
   \end{aligned}
 $$
+
+
+## Spherical coordinates
+
+One particular polar coordinate system on $\mathbb{R}^{n+1}$ goes by the name of _spherical coordinates_.  This may be defined by induction (on $n$) as follows:
+
+For $n=1$, we use the essentially unique polar coordinate system on the plane $\mathbb{R}^2$, $(r,\theta_1)$, where $r$ gives the distance from the origin and $\theta_1$ gives the signed angle from the positive first-coordinate axis, with orientation pointing towards the positive second-coordinate axis.
+
+For $n=k+1$, we use $(r,\theta_n,\ldots,\theta_1)$, where $r$ gives the distance from a chosen point (typically the origin), $\theta_1,\ldots,\theta_{n-1}$ are given by projection onto $\mathbb{R}^n$ along the *last* coordinate axis, and $\theta_n$ is the *unsigned* angle from the last coordinate axis.  Note the reverse order of the angles, which will give the coordinate system the standard orientation.
+
+Notice that $\theta_1$ is treated differently from the other angles.  For $k \gt 1$, we have $0 \leq \theta_k \leq \pi$, but we have $0 \leq \theta_1 \lt 2 \pi$ instead (or sometimes people use $-\pi \lt \theta_1 \leq \pi$).  For $k \gt 1$, $\theta_k$ is determined relative to the $(k+1)$-th coordinate axis (if we number these from $1$ to $n+1$), but $\theta_1$ is determined relative to the first coordinate axis.  And the system doesn\'t work at all for $\mathbb{R}^1$ ($n = 0$).
+
+(The axis to measure spherical coordinates from is a matter of historical convention, and sometimes people use different conventions.  But a polar coordinate system for $\mathbb{R}^1$ is technically impossible, since one coordinate must be the distance from the origin, which is not enough information on its own, and yet there isn\'t room for another coordinate.  In terms of the decomposition $\mathbb{R}^1 \setminus \{0\} \simeq S^0 \times \mathbb{R}_{\gt0}$, the problem is that $S^0$ is a disconnected discrete space and so has no global coordinate system, even allowing for degeneracy.)
 
 
 ## Related concepts
@@ -67,11 +80,12 @@ See also
 * Wikipedia, _[Spherical coordinare system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)_
 
 
-[[!redirects polar coordinate system]]
+[[!redirects polar coordinate]]
+[[!redirects polar coordinates]]
+[[!redirects polar coordinate systems]]
 [[!redirects polar coordinate systems]]
 
 [[!redirects spherical coordinate]]
 [[!redirects spherical coordinates]]
-[[!redirects spherical coordinate systems]]
 [[!redirects spherical coordinate system]]
 [[!redirects spherical coordinate systems]]
