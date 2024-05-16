@@ -1,4 +1,4 @@
-__Atabey Kaygun__ is a Turkish mathematician, professor at  Istanbul Technical University (with PhD from the University of Western Ontario), specialized in noncommutative geometry, including methods involving [[Hopf algebra]]s and homological algebra, especially [[cyclic homology]]. 
+__Atabey Kaygun__ is a Turkish mathematician, professor at  Istanbul Technical University (with PhD from the Ohio State University), specialized in noncommutative geometry, including methods involving [[Hopf algebra]]s and homological algebra, especially [[cyclic homology]]. 
 
 * [webpage](https://web.itu.edu.tr/kaygun) at Istanbul Technical University
 
