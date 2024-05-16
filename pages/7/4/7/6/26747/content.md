@@ -63,6 +63,8 @@ Parametric dependent type theories are distinguished by the kind of parametricit
 
 * {#KS23} [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* &lbrack;[arXiv:2311.18781](https://arxiv.org/abs/2311.18781)&rbrack; 
 
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
+
 A proof assistant implementing an observational [[parametric type theory]] with both internal and external [[parametricity]] of variable [[arity]]:
 
 * [Narya](https://github.com/mikeshulman/narya)
