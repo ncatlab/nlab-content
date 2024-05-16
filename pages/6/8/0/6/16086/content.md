@@ -27,3 +27,7 @@ A _frame field_ is a [[section]] of a [[frame bundle]] (of a [[manifold]]), henc
 
 
 [[!redirects frame fields]]
+
+[[!redirects coframe field]]
+[[!redirects coframe fields]]
+
