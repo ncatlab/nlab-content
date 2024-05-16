@@ -72,7 +72,7 @@ The Karoubian envelope is also used in the construction of the [[category of pur
 
 * [[Alexandre Grothendieck]], [[Jean-Louis Verdier]].  Exercise 7.5 in _Topos_, Expos&#233; IV of [[SGA 4]], volume 1.
 
-* {#Karoubi78} [[Max Karoubi]], Def. 6.7 of: *K-Theory -- An introduction*, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
+* {#Karoubi78} [[Max Karoubi]], Ch. I, Def. 6.7 of: *K-Theory -- An introduction*, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
 
   > (in the context of [[topological K-theory]], see also at *[[Karoubi envelope]]*)
 
