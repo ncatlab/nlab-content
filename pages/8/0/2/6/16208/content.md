@@ -48,6 +48,10 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 * The main theorem of [[liquid vector spaces]]
   * [github.com/leanprover-community/lean-liquid](https://github.com/leanprover-community/lean-liquid)
 
+* [[high energy physics]]
+
+    * [HEPLean](https://github.com/HEPLean/HepLean), [arXiv:2405.08863](https://arxiv.org/abs/2405.08863)
+
 ## Related concepts
 
 [[!include proof assistants and formalization projects -- list]]
