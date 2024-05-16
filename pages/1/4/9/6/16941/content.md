@@ -46,6 +46,7 @@ a [[square matrix]], the following are equivalent:
 
 * WolframMathWorld, _[Invertible Matrix Theorem](http://mathworld.wolfram.com/InvertibleMatrixTheorem.html)_
 
+* {#SD23} Müge Saadetoğlu, Şakir Mehmet Dinsev, *Inverses and Determinants of $n \times n$ Block Matrices*, Mathematics **11** 17 (2023) 3784 &lbrack;[doi:10.3390/math11173784](https://doi.org/10.3390/math11173784)&rbrack;
 
 [[!redirects inverse matrices]]
 
