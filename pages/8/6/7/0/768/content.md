@@ -190,7 +190,7 @@ $$
   }
 $$
 
-and the projection from the complex Stiefel manifold to the Grassmannian us a $U(n)$-[[principal bundle]]:
+and the projection from the complex Stiefel manifold to the Grassmannian is a $U(n)$-[[principal bundle]]:
 
 $$
   \array{
