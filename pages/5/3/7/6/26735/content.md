@@ -9,5 +9,9 @@ On [[smooth infinity-groups|smooth $\infty$-groups]] of [[generalized global sym
 
 * {#GRT23} [[Ben Gripaios]], [[Oscar Randal-Williams]], [[Joseph Tooby-Smith]], *Smooth generalized symmetries of quantum field theories*, J. Geom. Phys.  (2024) &lbrack;[arXiv:2310.16090](https://arxiv.org/abs/2310.16090), <a href="https://doi.org/10.1016/j.geomphys.2024.105212">doi:10.1016/j.geomphys.2024.105212</a>&rbrack;
 
+On using the [[Lean]] [[proof assistant]] for problems in [[high energy physics]]:
+
+* [[Joseph Tooby-Smith]], *HepLean: Digitalising high energy physics* &lbrack;[arXiv:2405.08863](https://arxiv.org/abs/2405.08863)&rbrack;
+
 
 category: people
