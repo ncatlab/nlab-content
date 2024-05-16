@@ -69,7 +69,9 @@ See also [[open problems in homotopy type theory]]
 
 ## References
 
-The original paper on weak type theory, in the context of [[objective type theory]]:
+* [[Théo Winterhalter]], *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
+
+On quadratic type checking in weak type theory ([[objective type theory]]):
 
 * {#BB21} [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
 
