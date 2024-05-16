@@ -67,7 +67,10 @@ Second Edition (retitled): *Introduction to Riemannian Manifolds* (2018), Spring
 
 * {#Chavel} Isaac Chavel, _Riemannian geometry &#8211; A modern introduction_ Cambridge University Press (1993)
 
-* {#Berger} Marcel Berger, _A panoramic view of Riemannian geometry_
+* {#Berger} [[Marcel Berger]], _A panoramic view of Riemannian geometry_, Springer (2003) &lbrack;[doi:10.1007/978-3-642-18245-7](https://doi.org/10.1007/978-3-642-18245-7)&rbrack;
+
+* [[William M. Boothby]], *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
+
 
 With focus on [[special holonomy]]:
 
