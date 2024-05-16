@@ -60,3 +60,9 @@ See also
 
 
 [[!redirects submanifolds]]
+
+[[!redirects slice chart]]
+[[!redirects slice charts]]
+
+
+
