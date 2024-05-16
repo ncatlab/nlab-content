@@ -50,7 +50,8 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
 * [[high energy physics]]
 
-    * [HEPLean](https://github.com/HEPLean/HepLean), [arXiv:2405.08863](https://arxiv.org/abs/2405.08863)
+    * [HEPLean](https://github.com/HEPLean/HepLean), [arXiv:2405.08863](high+energy+physics#Tooby-Smith24)
+
 
 ## Related concepts
 
