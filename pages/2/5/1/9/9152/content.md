@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Spheres
-+--{: .hide}
++-- {: .hide}
 [[!include spheres -- contents]]
 =--
 #### Geometry
@@ -13,10 +13,10 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
+
 
 ## Idea
 
@@ -38,25 +38,25 @@ $$
   \,,
 $$ 
 
-where $r \colon \mathbb{R}_{\gt 0} \to \mathbb{R}$ denotes the canonical [[coordinate function]] along the [[radius|radial]] direction.
+where $r \colon \mathbb{R}^{n+1} \to \mathbb{R}_{\gt 0}$ denotes the canonical [[coordinate function]] along the [[radius|radial]] direction.
 
 If a [[smooth function]] $\mathbb{R}^{n+1} \to \mathbb{R}$ depends at most on the [[radius]] coordinate $r$ and the [[angle]] $\theta$ of [[vectors]] in $\mathbb{R}^{n+1}$ to any fixed line through the origin, then 
 
 $$
   \label{VolumeElementForFunctionDependingOnRadiusandTheta}
   \begin{aligned}
-    f(\vec x) dvol_{\mathbb{R}^{n+1}}
+    f(\vec x)\, dvol_{\mathbb{R}^{n+1}}
       & =
     f(r,\theta) 
-   \,\, (r \sin(\theta))^{n-1} dvol_{S^{n-1}} \,\wedge r d\theta\, \wedge d r
+   \,\, (r \sin(\theta))^{n-1}\, d r \wedge dvol_{S^{n-1}} \,\wedge r d\theta
   \end{aligned}
 $$
 
-> sign correct?
 
 ## Related concepts
 
 * [[coordinates]]
+
 
 ## References
 
@@ -66,6 +66,7 @@ See also
 
 * Wikipedia, _[Spherical coordinare system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)_
 
+
 [[!redirects polar coordinate system]]
 [[!redirects polar coordinate systems]]
 
@@ -74,4 +75,3 @@ See also
 [[!redirects spherical coordinate systems]]
 [[!redirects spherical coordinate system]]
 [[!redirects spherical coordinate systems]]
-
