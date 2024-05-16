@@ -11,7 +11,12 @@ On [[geometry]] ([[Euclidean space]], [[projective space]], [[rotation groups]],
 
 * {#Berger87} [[Marcel Berger]], *Geometry I*, Springer 1987 ([doi:10.1007/978-3-540-93815-6](https://doi.org/10.1007/978-3-540-93815-6))
 
-## Related $n$Lab entries
+On [[Riemannian geometry]]:
+
+* [[Marcel Berger]], _A panoramic view of Riemannian geometry_, Springer (2003) &lbrack;[doi:10.1007/978-3-642-18245-7](https://doi.org/10.1007/978-3-642-18245-7)&rbrack;
+
+
+## Related entries
 
 * [[Berger's theorem]]
 
