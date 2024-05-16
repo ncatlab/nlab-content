@@ -34,7 +34,7 @@ If $dvol_{S^n} \in \Omega^n(S^n)$ denotes the standard [[volume form]] on the [[
 $$
   dvol_{\mathbb{R}^{n+1}}
   \;=\;
-  r^n d r \wedge dvol_{S^n}
+  r^n\, d r \wedge dvol_{S^n}
   \,,
 $$ 
 
@@ -48,7 +48,7 @@ $$
     f(\vec x)\, dvol_{\mathbb{R}^{n+1}}
       & =
     f(r,\theta) 
-   \,\, (r \sin(\theta))^{n-1}\, d r \wedge r d \theta \wedge dvol_{S^{n-1}}
+   \,\, (r \sin(\theta))^{n-1}\, r d \theta \wedge dvol_{S^{n-1}} \,\wedge d r
   \end{aligned}
 $$
 
@@ -59,9 +59,9 @@ One particular polar coordinate system on $\mathbb{R}^{n+1}$ goes by the name of
 
 For $n=1$, we use the essentially unique polar coordinate system on the plane $\mathbb{R}^2$, that is $(r,\theta_1)$, where $r$ is the distance from the origin and $\theta_1$ is the signed angle from the positive first-coordinate axis, with orientation pointing towards the positive second-coordinate axis.
 
-For $n=k+1$, we use $(r,\theta_n,\ldots,\theta_1)$, where $r$ gives the distance from the origin, $\theta_1,\ldots,\theta_{n-1}$ are given by projection onto $\mathbb{R}^n$ along the *last* coordinate axis, and $\theta_n$ is the *unsigned* angle from the last coordinate axis.  Note the reverse order of the angles, which will give the coordinate system the standard orientation.
+For $n=k+1$, we use $(r,\theta_2,\ldots,\theta_n,\theta_1)$, where $r$ gives the distance from the origin, $\theta_1,\ldots,\theta_{n-1}$ are given by projection onto $\mathbb{R}^n$ along the *last* coordinate axis, and $\theta_n$ is the *unsigned* angle from the last coordinate axis.
 
-Notice that $\theta_1$ is treated differently from the other angles.  For $k \gt 1$, we have $0 \leq \theta_k \leq \pi$, but we have $0 \leq \theta_1 \lt 2 \pi$ instead (or sometimes people use $-\pi \lt \theta_1 \leq \pi$).  For $k \gt 1$, $\theta_k$ is determined relative to the $(k+1)$-th coordinate axis (if we number these from $1$ to $n+1$), but $\theta_1$ is determined relative to the first coordinate axis.  And the system doesn\'t work at all for $\mathbb{R}^1$ ($n = 0$).
+Notice that $\theta_1$ is treated differently from the other angles.  For $k \gt 1$, we have $0 \leq \theta_k \leq \pi$, but we have $0 \leq \theta_1 \lt 2 \pi$ instead (or sometimes people use $-\pi \lt \theta_1 \leq \pi$).  For $k \gt 1$, $\theta_k$ is determined relative to the $(k+1)$-th coordinate axis (if we number these from $1$ to $n+1$), but $\theta_1$ is determined relative to the first coordinate axis.  To get the standard orientation on $\mathbb{R}^n$, $\theta_1$ also has to come after all of the other angles.  And the system doesn\'t work at all for $\mathbb{R}^1$ ($n = 0$).
 
 (The axis to measure spherical coordinates from is a matter of historical convention, and sometimes people use different conventions.  But a polar coordinate system for $\mathbb{R}^1$ is technically impossible, since one coordinate must be the distance from the origin, which is not enough information on its own, and yet there isn\'t room for another coordinate.  In terms of the decomposition $\mathbb{R}^1 \setminus \{0\} \simeq S^0 \times \mathbb{R}_{\gt0}$, the problem is that $S^0$ is a disconnected discrete space and so has no global coordinate system, even allowing for degeneracy.)
 
