@@ -45,7 +45,7 @@ The idea of the cobordism hypothesis is that:
 ### Geometric cobordism hypothesis
  {#GeometricCobordismHypothesis}
 
-More generally, the *geometric* cobordism hypothesis &lbrack;[Grady & Pavlov (2021)](#GradyPavlov21)&rbrack; asserts that general non-topological *geometric* [[functorial field theory|extended functorial field theories]] (such as [[conformal field theory]] as well as the usual [[relativistic quantum field theory|relativistic]] [[AQFT on curved spacetimes|QFT on curved spacetimes]]) are similarly enocded by (1.) local data depending only on the notion of geometry and (2.)  global topological data encoded only in higher dualizability structure.
+More generally, the *geometric* cobordism hypothesis &lbrack;[Grady & Pavlov (2021)](#GradyPavlov21)&rbrack; asserts that general non-topological *geometric* [[functorial field theory|extended functorial field theories]] (such as [[conformal field theory]] as well as the usual [[relativistic quantum field theory|relativistic]] [[AQFT on curved spacetimes|QFT on curved spacetimes]]) are similarly encoded by (1.) local data depending only on the notion of geometry and (2.)  global topological data encoded only in higher dualizability structure.
 
 For example, the [[FRS-theorem on rational 2d CFT]] is, at least in spirit, a realization of this idea: It states that [[rational CFT|rational]] [[2d conformal field theories]], when defined on all possible [[worldsheet]] [[surfaces]], are fully encoded (1.) by local geometric data encoded in [[vertex operator algebras]] or [[conformal nets]] or similar and (2.) global purely topological data (a suitable [[Frobenius algebra|Frobenius]] [[algebra object]] [[internalization|internal to]] the [[modular tensor category]] [[representation category|of representations]] of that [[vertex operator algebra]]/[[conformal net]]).
 
@@ -429,6 +429,7 @@ $$
   Bord^G_n := Bord_n^{(B G, \xi_\chi)}
   \,.
 $$
+
 
 is the $(\infty,n)$-category of **cobordisms with $G$-structure**.
 
