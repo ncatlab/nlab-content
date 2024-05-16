@@ -21,7 +21,10 @@
 
 A *Riemannian immersion* or *isometric immersion* $\Sigma \hookrightarrow X$ of [[Riemannian manifolds]] is an [[immersion]] of their [[underlying]] [[smooth manifolds]] which is also an [[isometry]] with respect to their [[Riemannian metrics]].
 
-The *isometric immersion problem* is to find isometric immersions of Riemannian manifolds into (large-dimensional) [[Euclidean spaces]] (e.g. [Han & Lewicka 2023, p. 1](#HanLewicka23)).
+Simiarly, an *isometric embedding* is an isometric immersion which is also an [[embedding of smooth manifolds]], hence [[embedding of topological spaces|of the underlying topological spaces]].
+
+The *isometric immersion/embedding problem* is to find isometric immersions/embeddings of Riemannian manifolds into (large-dimensional) [[Euclidean spaces]] (e.g. [Han & Hong 2006](#HanHong06), [Han & Lewicka 2023](#HanLewicka23)).
+
 
 
 ## Properties
@@ -54,6 +57,9 @@ Hence an immersion $\Sigma \hookrightarrow X$ of Riemannian manifolds is isometr
 
 * {#BergerBryantGriffith83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-50/issue-3/The-Gauss-equations-and-rigidity-of-isometric-embeddings/10.1215/S0012-7094-83-05039-1.short)&rbrack;
 
+* {#HanHong06} Qing Han, Jia-Xing Hong: *Isometric Embedding of Riemannian Manifolds in Euclidean Spaces*, Mathematical Surveys and Monographs **130**, AMS (2006) &lbrack;[ISBN:0821840711](https://maa.org/press/maa-reviews/isometric-embedding-of-riemannian-manifolds-in-euclidean-spaces)&rbrack;
+
+
 * {#MastroliaRigoliSetti12} Paolo Mastrolia, Marco Rigoli, Alberto G. Setti, §1.3 *Some formulas for immersed submanifolds* in: *Yamabe-type Equations on Complete, Noncompact Manifolds*, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-0376-2](https://doi.org/10.1007/978-3-0348-0376-2)&rbrack;
 
 * {#Giron20} Tristan Pierre Giron, *On the Analysis of Isometric Immersions of Riemannian Manifolds*, PhD thesis (2020) &lbrack;[uuid:cae2f41d-c5a1-4138-9dec-5e824d21044e](https://ora.ox.ac.uk/objects/uuid:cae2f41d-c5a1-4138-9dec-5e824d21044e), [pdf](https://ora.ox.ac.uk/objects/uuid:cae2f41d-c5a1-4138-9dec-5e824d21044e/download_file?safe_filename=ThesisGironTristan.pdf&type_of_work=Thesis)&rbrack;
@@ -63,6 +69,7 @@ Hence an immersion $\Sigma \hookrightarrow X$ of Riemannian manifolds is isometr
 
 * {#Kayban21} Nicholas Kayban, *Riemannian Immersions and Submersions* (2021) &lbrack;[pdf](https://www.math.uwaterloo.ca/~karigian/training/M11-kayban-final-project.pdf), [[Kayban-RiemannianImmersions.pdf:file]]&rbrack;
 
+
 * {#HanLewicka23} Qing Han, Marta Lewicka, *Isometric immersions and applications*, Notices of the AMS 2023 &lbrack;[arXiv:2310.02566](https://arxiv.org/abs/2310.02566)&rbrack;
 
 
@@ -70,4 +77,7 @@ Hence an immersion $\Sigma \hookrightarrow X$ of Riemannian manifolds is isometr
 
 [[!redirects isometric immersion]]
 [[!redirects isometric immersions]]
+
+[[!redirects isometric embedding]]
+[[!redirects isometric embeddings]]
 
