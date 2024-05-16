@@ -1,6 +1,4 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,12 +16,19 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The Gram--Schmidt process is an [[algorithm]] which takes as input an ordered [[basis]] of an [[inner product space]] and produces as output an ordered [[orthonormal basis]]. 
+The *Gram--Schmidt process* is an [[algorithm]] which takes as input an [[linear order|ordered]] [[linear basis]] of an [[inner product space]] and produces as output an [[linear order|ordered]] [[orthonormal basis]]. 
 
-In terms of [[matrix|matrices]], the Gram--Schmidt process is a procedure of factorization of a invertible matrix $M$ in the [[general linear group]] $GL_n(\mathbb{R})$ (or $GL_n(\mathbb{C})$) as a [[matrix product|product]] $M = U T$ where $T$ is an upper triangular matrix and $U$ is an orthonormal (or unitary) matrix; as such it is a special case of the more general [[Iwasawa decomposition]] for a (connected) semisimple [[Lie group]]. 
+In terms of [[matrix|matrices]], the Gram--Schmidt process is a procedure of factorization of a [[invertible matrix]] $M$ in the [[general linear group]] $GL_n(\mathbb{R})$ (or $GL_n(\mathbb{C})$) as a [[matrix product|product]] $M = U T$ where 
 
-Since the factorization depends smoothly on the parameters, the Gram--Schmidt procedure enables the reduction of the structure group of an inner product [[vector bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]] or a [[Kähler manifold]]) from $GL_n$ to the [[orthogonal group]] $O_n$ (or the [[unitary group]] $U_n$). 
+1. $T$ is an [[upper triangular matrix]] 
+
+1. $U$ is an [[orthogonal matrix|orthogonal]] (or [[unitary matrix|unitary]]) matrix.
+
+As such, this is a special case of the more general [[Iwasawa decomposition]] for (connected) [[semisimple Lie group|semisimple]] [[Lie groups]]. 
+
+Since the factorization depends smoothly on the parameters, the Gram--Schmidt procedure enables the [[G-structure|reduction of the structure group]] of an inner product [[vector bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]] or a [[Kähler manifold]]) from $GL_n$ to the [[orthogonal group]] $O_n$ (or the [[unitary group]] $U_n$). 
 
 
 ## Gram--Schmidt process on Hilbert spaces 
@@ -53,7 +58,7 @@ If we apply the Gram--Schmidt process to a well-ordered independent set whose cl
 ## Via Gaussian elimination
  {#ViaGaussianElimination}
 
-There is an alternative algorithm via [[Gaussian elimination]] which for a set of vectors produces an orthogonal basis for its linear span ([Pursell-Trimble 91](#PursellTrimble91)).
+There is an alternative algorithm via [[Gaussian elimination]] which for a set of vectors produces an orthogonal basis for its linear span ([Pursell & Trimble 1991](#PursellTrimble91)).
 
 In the special case that the original vectors are linearly independent and after normalizing the resulting orthogonal basis to an orthonormal basis, the output of this algorithm is an orthonormal basis as produced also by the Gram-Schmidt process.
 
@@ -80,7 +85,7 @@ where
 
 =--
 
-([Pursell-Trimble 91, p. 4](#PursellTrimble91))
+([Pursell & Trimble 1991, p. 4](#PursellTrimble91))
 
 +-- {: .num_prop #OrthogonalBasisOfLinearSpanByLUDecomposition}
 ###### Proposition
@@ -111,7 +116,7 @@ constitute an orthogonalization of the original tuple of vectors $(a_i)$ in that
 
 =--
 
-([Pursell-Trimble 91, top of p. 5](#PursellTrimble91))
+([Pursell & Trimble 1991, top of p. 5](#PursellTrimble91))
 
 +-- {: .num_remark}
 ###### Remark
