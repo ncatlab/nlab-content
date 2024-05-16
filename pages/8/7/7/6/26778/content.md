@@ -14,6 +14,10 @@ Integral coefficients:
 
 * [[Edgar H. Brown]], _The cohomology of $BSO_n$ and $BO_n$ with integer coefficients_, Proceedings of the American Mathematical Society 85:2, 283-288.  [doi](http://dx.doi.org/10.1090/s0002-9939-1982-0652459-1).
 
+* [[Mark Feshbach]], _The Integral Cohomology Rings of the Classifying Spaces of O(n) and SO(n)_, Indiana Univ. Math. J. 32 No. 4 (1983), 511–516.  [doi](https://doi.org/10.1512/iumj.1983.32.32036).
+
+* Feifei Fan, _The cohomology of the classifying space of $PU(4)$_, [arXiv](https://arxiv.org/abs/2405.08256).
+
 Differential cohomology:
 
 * [[Ivan Kolář]], _Gauge-Natural Forms of Chern-Weil Type_, Annals of Global Analysis and Geometry 11: 41–47, 1993.
