@@ -64,7 +64,7 @@ The [[functional calculus]] on a $C^*$-algebra (which treats [[continuous functi
 
 ## Applications
 
-Some astract treatments of [[quantum mechanics]] use $C^*$-algebras, while others use von Neumann algebras.  If a [[physical system]] is described by a $C^*$-algebra in the first case, then it may described by its enveloping von Neumann algebra in the second case.
+Some abstract treatments of [[quantum mechanics]] use $C^*$-algebras, while others use von Neumann algebras.  If a [[physical system]] is described by a $C^*$-algebra in the first case, then it may described by its enveloping von Neumann algebra in the second case.
 
 
 ## References
