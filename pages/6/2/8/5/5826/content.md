@@ -9,6 +9,8 @@
 =--
 =--
 
+\tableofcontents
+
 ## Definition
 
 A [[Lie group]] is __semisimple__ if its [[Lie algebra]] is a [[semisimple Lie algebra]].
