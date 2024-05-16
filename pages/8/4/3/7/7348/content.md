@@ -104,7 +104,13 @@ Concretely, consider the function $\big($[[sin]]$(2-),$ [[sin]]$(-)\big) \;\colo
 
 ### Relation to embeddings
 
-An immersion $f : X \to Y$ is precisely a _local [[embedding of smooth manifolds|embeddings]]_: for every point $x \in X$ there is an [[open neighbourhood]] $x \in U \subset X$ such that $f|_U : U \to Y$ is an [[embedding of smooth manifolds]].
+Immersion are precisely the  "local embeddings": 
+
+\begin{proposition}
+\label{ImmersionsAreLocalEmbeddings}
+A smooth map $f \colon X \to Y$ is an immersion precisely if for every point $x \in X$ there is an [[open neighbourhood]] $x \in U \subset X$ such that $f|_U \colon U \to Y$ is an [[embedding of smooth manifolds]].
+\end{proposition}
+(e.g. [Boothby, III Thm. 4.12](#Boothby))
 
 
 ### Relation to formal immersions
@@ -144,6 +150,8 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 
 ## References
+
+* {#Boothby} [[William M. Boothby]], Def. III 4.3 in: *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
 
 
 * {#Lee12} [[John Lee]], Chapter 4 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
