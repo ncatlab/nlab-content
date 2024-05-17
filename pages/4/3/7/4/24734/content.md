@@ -5,6 +5,8 @@
 
 * [[Henrik Forssell]], [[Håkon Robbestad Gylterud]], [[David Spivak]], *Type theoretical databases*, Journal of Logic and Computation, Volume 30, Issue 1, January 2020, Pages 217–238, ([doi:10.1093/logcom/exaa009](https://doi.org/10.1093/logcom/exaa009), [arXiv:1406.6268](https://arxiv.org/abs/1406.6268))
 
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], *Univalent material set theory* ([arXiv:2312.13024](https://arxiv.org/abs/2312.13024))
+
 On [[constructive set theory]] in [[homotopy type theory]]:
 
 * [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696), talk video:[YT](https://www.youtube.com/watch?v=ALj5hOmwXps)&rbrack;
