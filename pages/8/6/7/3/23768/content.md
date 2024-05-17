@@ -102,7 +102,3 @@ and more widely, often without attribution, for instance in:
 [[!redirects telescope type]]
 [[!redirects telescope types]]
 
-[[!redirects record]]
-[[!redirects records]]
-
-
