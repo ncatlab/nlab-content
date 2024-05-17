@@ -46,9 +46,8 @@ We work in a [[dependent type theory]] with [[identity types]], [[function types
 
 There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
-* [[judgmentally strict equivalence types]]
-* [[propositionally strict equivalence types]]
-* various notions of [[weak equivalence types]]
+* [[definitional isomorphism types]]
+* various notions of (weak) [[equivalence types]]
   * the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]]
   * the type of [[spans]] with contractible fibers
   * the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers
@@ -92,7 +91,7 @@ $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)
 
 See [[fundamental theorem of identity types]] for proofs that these definitions are the same. 
 
-Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq$ and $R$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ and the type of judgmentally strict equivalences for $\simeq$. 
+Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq$ and $R$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ and the type of [[definitional isomorphisms]] for $\simeq$. 
 
 ### Stricter versions of univalence
 
