@@ -3,7 +3,7 @@
 
 * [[equality]] ([[definitional equality|definitional]], [[propositional equality|propositional]], [[computational equality|computational]], [[judgemental equality|judgemental]], [[extensional equality|extensional]], [[intensional equality|intensional]], [[decidable equality|decidable]])
 
-* [[identity type]], [[equivalence in homotopy type theory]]
+* [[identity type]], [[equivalence of types]], [[definitional isomorphism]]
 
 * [[isomorphism]], [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]], [[equivalence in an (∞,1)-category]]
 
