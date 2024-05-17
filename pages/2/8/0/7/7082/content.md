@@ -58,12 +58,6 @@ In [[dependent type theory]], a [[type]] $A$ is a [[contractible type]] if it co
 * a *quasi-invertible function* or *homotopy equivalence*, a family of elements $x:A \vdash f(x):B$ with a family of elements $y:B \vdash g(y):A$ and families of identities $x:A \vdash G(x):g(f(x)) =_A x$ and $y:B \vdash H(y):f(g(y)) =_B y$. 
 * A function $f:A \to B$ which satisfies [[copy induction]], which makes the type $B$ satisfy the [[universal property]] of a [[copy]] of $A$. 
 
-### Strict equivalences
-
-There is also a notion of **strict equivalence** between two types $A$ and $B$, where given families of elements $x:A \vdash f(x)B$ and $y:B \vdash g(y):A$, instead of having families of identities $G(x):g(f(x)) =_A x$ and $H(y):f(g(y)) =_B y$, one has [[judgmental equalities]] $g(f(a)) \equiv a:A$ and $b \equiv f(g(b)):B$ or [[propositional equalities]] $g(f(a)) \equiv_A a \; \mathrm{true}$ and $b \equiv_B f(g(b)) \; \mathrm{true}$, making the families of elements into **judgmentally strict equivalences** and **propositionally strict equivalences** respectively. 
-
-Judgmentally strict equivalences are used in defining [[judgmentally strict equivalence types]], which in turn are used to define [[univalent universes]] in [[Mike Shulman]]'s model of [[higher observational type theory]]. 
-
 ### The isEquiv type family and equivalence types
 
 {#OutlookOnEquivalenceOfDefinitions} As (eventually to be) discussed in the *[Properties](#Properties)*-section below,
@@ -611,24 +605,6 @@ Origin of the notion of type isomorphy in and application to [[programming langu
 [[!redirects weak equivalence of types]]
 [[!redirects weak equivalences of types]]
 
-[[!redirects strict equivalence of types]]
-[[!redirects strict equivalences of types]]
-
-[[!redirects judgmentally strict equivalence of types]]
-[[!redirects judgmentally strict equivalences of types]]
-
-[[!redirects propositionally strict equivalence of types]]
-[[!redirects propositionally strict equivalences of types]]
-
-[[!redirects strict equivalence]]
-[[!redirects strict equivalences]]
-
-[[!redirects judgmentally strict equivalence]]
-[[!redirects judgmentally strict equivalences]]
-
-[[!redirects propositionally strict equivalence]]
-[[!redirects propositionally strict equivalences]]
-
 [[!redirects isEquiv]]
 
 [[!redirects equivalence in homotopy type theory]]
@@ -651,27 +627,6 @@ Origin of the notion of type isomorphy in and application to [[programming langu
 [[!redirects weak equivalences in type theory]]
 [[!redirects weak equivalence in HoTT]]
 [[!redirects weak equivalences in HoTT]]
-
-[[!redirects strict equivalence in homotopy type theory]]
-[[!redirects strict equivalences in homotopy type theory]]
-[[!redirects strict equivalence in type theory]]
-[[!redirects strict equivalences in type theory]]
-[[!redirects strict equivalence in HoTT]]
-[[!redirects strict equivalences in HoTT]]
-
-[[!redirects judgmentally strict equivalence in homotopy type theory]]
-[[!redirects judgmentally strict equivalences in homotopy type theory]]
-[[!redirects judgmentally strict equivalence in type theory]]
-[[!redirects judgmentally strict equivalences in type theory]]
-[[!redirects judgmentally strict equivalence in HoTT]]
-[[!redirects judgmentally strict equivalences in HoTT]]
-
-[[!redirects propositionally strict equivalence in homotopy type theory]]
-[[!redirects propositionally strict equivalences in homotopy type theory]]
-[[!redirects propositionally strict equivalence in type theory]]
-[[!redirects propositionally strict equivalences in type theory]]
-[[!redirects propositionally strict equivalence in HoTT]]
-[[!redirects propositionally strict equivalences in HoTT]]
 
 [[!redirects homotopy isomorphism]]
 [[!redirects h-isomorphism]]
