@@ -41,16 +41,16 @@ $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[mu
 
 There are various different rules one can use for equivalence types, depending upon what notion of equivalence one wishes to use:
 
-* Bitotal correspondences
+* One-To-One correspondences
 * Half-adjoint equivalences
 * Biinvertible functions
 * Functions with contractible fibers
 
-#### Bitotal correspondence types
+#### One-To-One correspondence types
 
 Let $\mathrm{isContr}(A)$ denote the [[isContr]] [[modality]] which says whether the type $A$ is a [[contractible type]], and let 
 $$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$ 
-be the [[uniqueness quantifier]] over the type family $x:A \vdash B(x)$. A binary correspondence between types $A$ and $B$ is simply a binary type family $x:A, y:B \vdash R(x, y)$. A binary correspondence $x:A, y:B \vdash R(x, y)$ is **bitotal** or **one-to-one** if 
+be the [[uniqueness quantifier]] over the type family $x:A \vdash B(x)$. A binary correspondence between types $A$ and $B$ is simply a binary type family $x:A, y:B \vdash R(x, y)$. A binary correspondence $x:A, y:B \vdash R(x, y)$ is **one-to-one** if 
 
 * for all $x:A$ there is a unique $y:B$ such that $R(x, y)$, and
 
@@ -58,11 +58,11 @@ be the [[uniqueness quantifier]] over the type family $x:A \vdash B(x)$. A binar
 
 Written out in the language of dependent type theory, one has 
 
-$$\mathrm{isBitotal}(\chi.\gamma.R) \coloneqq \left(\prod_{x:A} \exists!y:B.R(x, y)\right) \times \left(\prod_{y:B} \exists!x:A.R(x, y)\right)$$
+$$\mathrm{isOneToOne}(\chi.\gamma.R) \coloneqq \left(\prod_{x:A} \exists!y:B.R(x, y)\right) \times \left(\prod_{y:B} \exists!x:A.R(x, y)\right)$$
 
-In the presence of some form of [[function extensionality]], the type $\mathrm{isBitotal}(\chi.\gamma.R)$ is guaranteed to be a [[mere proposition]]. 
+In the presence of some form of [[function extensionality]], the type $\mathrm{isOneToOne}(\chi.\gamma.R)$ is guaranteed to be a [[mere proposition]]. 
 
-The rules for equivalence types then state that equivalences, the elements of equivalence types, are (codes for) [[bitotal correspondences]] (in the same way that functions, the elements of function types, are (codes for) families of elements):
+The rules for equivalence types then state that equivalences, the elements of equivalence types, are (codes for) [[one-to-one correspondences]] (in the same way that functions, the elements of function types, are (codes for) families of elements):
 
 Formation rules for equivalence types:
 
@@ -70,19 +70,19 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}
 
 Introduction rules for equivalence types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isBitotal}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{toEquiv}_{\chi.\gamma.R}(p):A \simeq B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isOneToOne}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{toEquiv}_{\chi.\gamma.R}(p):A \simeq B}$$
 
 Elimination rules for equivalence types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(e, x, y) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{bitotwitn}(e):\mathrm{isBitotal}(\chi.\gamma.\mathrm{toCorr}(e))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{bitotwitn}(e):\mathrm{isOneToOne}(\chi.\gamma.\mathrm{toCorr}(e))}$$
 
 Computation rules for equivalence types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isBitotal}(\chi.\gamma.R)}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(\mathrm{toEquiv}_{\chi.\gamma.R}(p), x, y) \equiv R(x, y) \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isOneToOne}(\chi.\gamma.R)}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(\mathrm{toEquiv}_{\chi.\gamma.R}(p), x, y) \equiv R(x, y) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isBitotal}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{bitotwitn}(\mathrm{toEquiv}_{\chi.\gamma.R}(p)) \equiv p:\mathrm{isBitotal}(\chi.\gamma.R)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isOneToOne}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{bitotwitn}(\mathrm{toEquiv}_{\chi.\gamma.R}(p)) \equiv p:\mathrm{isOneToOne}(\chi.\gamma.R)}$$
 
 Uniqueness rules for equivalence types:
 
@@ -260,11 +260,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 Given types $A$ and $B$ and an equivalence $f:A \simeq B$, one could define the dependent type $x:\mathbb{I} \vdash C(x)$ indexed by the [[interval type]] $\mathbb{I}$ as $C(0) \equiv A$, $C(1) \equiv B$, and $\mathrm{tr}_C(0, 1, p) \equiv f$. 
 
-### Bitotal correspondences
+### One-To-One correspondences
 
 Given types $A$ and $B$ and an equivalence $f:A \simeq B$, one could define a [[correspondence]] $x:A, y:B \vdash R(x, y)$ as the [[dependent identity type]] 
 $$R(x, y) \coloneqq x =_C^p y$$
-where $x:\mathbb{I} \vdash C(x)$ is defined as in the previous section. By the properties of [[dependent identity types]], the correspondence is always a [[bitotal correspondence]]. 
+where $x:\mathbb{I} \vdash C(x)$ is defined as in the previous section. By the properties of [[dependent identity types]], the correspondence is always a [[one-to-one correspondence]]. 
 
 ### Quasi-inverse functions with contractible fibers
 
@@ -280,7 +280,7 @@ By the rules for [[dependent sum types]] and [[dependent product types]], one co
 
 ### Heterogeneous identity types
 
-Given the definition of the equivalence type as the type of encodings for bitotal correspondences, the [[heterogeneous identity type]] is defined by the rule 
+Given the definition of the equivalence type as the type of encodings for one-to-one correspondences, the [[heterogeneous identity type]] is defined by the rule 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash (x =_B^p y) \equiv (x =_{B(a), B(b)}^{\mathrm{tr}_B(p)} y) \; \mathrm{type}}$$
 
