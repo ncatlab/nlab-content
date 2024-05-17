@@ -79,10 +79,18 @@ Cartesian multicategories are also a natural place to talk about the semantics o
 * [[symmetric multicategory]]
 * [[generalized multicategory]]
 * [[Lawvere theory]]
-* A cartesian multicategory with one object is called a [[clone]].
+* A cartesian multicategory with one object is equivalent to an [[abstract clone]]. More generally, cartesian multicategories are equivalent to multisorted abstract clones.
 * [[sequential multicategory]]
 
 ## References
+
+Cartesian multicategories were introduced under the name **[[Gerhard Gentzen|Gentzen]] multicategories** in §10 of:
+
+* [[Joachim Lambek]], _Multicategories revisited_, Categories in Computer Science and Logic 92 (1989): 217-240.
+
+They are called **finite product multicategories** in the following reference. The author proves that cartesian operads are monadic over symmetric operads, which are monadic over operads, which are monadic over $\mathbb{N}$-indexed sets.
+
+* Miles Gould, _Coherence for categorified operadic theories_, PhD thesis, University of Glasgow, 2008.
 
 * [[Claudio Pisani]], _Sequential multicategories_, ([arXiv:1402.0253](https://arxiv.org/abs/1402.0253))
 * [[Nathanael Arkor]] and [[Dylan McDermott]], _Abstract Clones for Abstract Syntax_, 6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021). Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 2021. ([arXiv](https://arxiv.org/abs/2105.00969))
