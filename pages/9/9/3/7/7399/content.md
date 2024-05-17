@@ -124,15 +124,11 @@ The relation to [[super multiplet]] classification via [[adinkras]] is due to
 * {#DoranIgaLandweberMendez-Diez13} [[Charles Doran]], Kevin Iga, [[Greg Landweber]], Stefan Mendez-Diez, _Geometrization of $N$-Extended 1-Dimensional Supersymmetry Algebras_ ([arXiv:1311.3736](https://arxiv.org/abs/1311.3736))
 
 
-[[!redirects child's drawing]]
+
 [[!redirects child's drawing]]
 [[!redirects child's drawings]]
 [[!redirects children's drawing]]
 [[!redirects children's drawings]]
-[[!redirects dessin d'enfant]]
-[[!redirects dessins d'enfant]]
-[[!redirects dessin d'enfants]]
-[[!redirects dessins d'enfants]]
 [[!redirects dessin d'enfant]]
 [[!redirects dessins d'enfant]]
 [[!redirects dessin d'enfants]]
