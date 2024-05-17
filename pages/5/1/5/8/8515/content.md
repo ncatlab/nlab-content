@@ -25,7 +25,7 @@ There are two different kinds of judgmental equalities
 
 * Judgmental equality of types, in [[dependent type theories]] with a separate [[type]] [[judgment]]. 
 
-Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. Similarly, in [[dependent type theory]], one could just work with [[strict equivalence of types]] or some notion of [[weak equivalence of types]] instead of judgmental equality of types. 
+Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. Similarly, in [[dependent type theory]], one could just work with [[definitional isomorphism]] or some notion of [[equivalence of types]] instead of judgmental equality of types. 
 
 ## Judgmental equality of terms
 
@@ -78,11 +78,11 @@ This implies the reflection rule of weak judgmental equalities because one could
 
 $$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{refl}_A(a):a =_A b}$$
 
-Otherwise, the principle of substitution into type families is given by [[strict transport]] across judgmental equality as [[explicit conversion]]:
+Otherwise, the principle of substitution into type families is given by [[definitional transport]] across judgmental equality as [[explicit conversion]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \simeq B(b)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}:B(a) \cong B(b)}$$
 
-where $A \simeq B$ is the [[type of strict equivalences]] defined using [[natural deduction]] [[inference rules]]. If one doesn't have a type of strict equivalences, one could define it by components
+where $A \cong B$ is the [[definitional isomorphism type]] defined using [[natural deduction]] [[inference rules]]. If one doesn't have a type of [[definitional isomorphisms]], one could define it by components
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, y:B(a), \Delta(a) \vdash \mathrm{tr}_{B(-)}^{a \equiv b}(y):B(b)}$$
 
