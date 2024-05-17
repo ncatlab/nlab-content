@@ -37,21 +37,86 @@ $$A \simeq_U B \coloneqq \sum_{f:F_U(A, B)} \mathrm{isEquiv}_U(f)$$
 
 $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[multivalued partial functions]], or the type of $U$-small [[correspondences]]. 
 
-### Rules for weak equivalence types
+### Rules for equivalence types
+
+There are various different rules one can use for equivalence types, depending upon what notion of equivalence one wishes to use:
+
+* Bitotal correspondences
+* Half-adjoint equivalences
+* Biinvertible functions
+* Functions with contractible fibers
+
+#### Bitotal correspondence types
+
+Let $\mathrm{isContr}(A)$ denote the [[isContr]] [[modality]] which says whether the type $A$ is a [[contractible type]], and let 
+$$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$ 
+be the [[uniqueness quantifier]] over the type family $x:A \vdash B(x)$. A binary correspondence between types $A$ and $B$ is simply a binary type family $x:A, y:B \vdash R(x, y)$. A binary correspondence $x:A, y:B \vdash R(x, y)$ is **bitotal** or **one-to-one** if 
+
+* for all $x:A$ there is a unique $y:B$ such that $R(x, y)$, and
+
+* for all $y:B$ there is a unique $x:A$ such that $R(x, y)$. 
+
+Written out in the language of dependent type theory, one has 
+
+$$\mathrm{isBitotal}(\chi.\gamma.R) \coloneqq \left(\prod_{x:A} \exists!y:B.R(x, y)\right) \times \left(\prod_{y:B} \exists!x:A.R(x, y)\right)$$
+
+In the presence of some form of [[function extensionality]], the type $\mathrm{isBitotal}(\chi.\gamma.R)$ is guaranteed to be a [[mere proposition]]. 
+
+The rules for equivalence types then state that equivalences, the elements of equivalence types, are (codes for) [[bitotal correspondences]] (in the same way that functions, the elements of function types, are (codes for) families of elements):
 
 Formation rules for equivalence types:
+
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
 Introduction rules for equivalence types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isBitotal}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{toEquiv}_{\chi.\gamma.R}(p):A \simeq B}$$
+
+Elimination rules for equivalence types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(e, x, y) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{bitotwitn}(e):\mathrm{isBitotal}(\chi.\gamma.\mathrm{toCorr}(e))}$$
+
+Computation rules for equivalence types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isBitotal}(\chi.\gamma.R)}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(\mathrm{toEquiv}_{\chi.\gamma.R}(p), x, y) \equiv R(x, y) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isBitotal}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{bitotwitn}(\mathrm{toEquiv}_{\chi.\gamma.R}(p)) \equiv p:\mathrm{isBitotal}(\chi.\gamma.R)}$$
+
+Uniqueness rules for equivalence types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:A, y:B \vdash \mathrm{toEquiv}_{\chi.\gamma.\mathrm{toCorr}(e)}(\mathrm{bitotwitn}(e)) \equiv e:A \simeq B}$$
+
+#### Half-adjoint equivalence types
+
+A half-adjoint equivalence between types $A$ and $B$ is a record consisting of the following fields:
+
+* a [[function]] $f:A \to B$
+
+* a function $g:B \to A$
+
+* a [[homotopy]] $G:\prod_{x:A} g(f(x)) =_{A} x$
+
+* a homotopy $H:\prod_{y:B} f(g(y)) =_{B} y$
+
+* a homotopy $K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))$ expressing the [[coherence law]] for equivalences, where $\mathrm{ap}_f(f(g(x)), x, G(x))$ is the [[function application to identifications|function application of $f$]] to the [[identification]] $G(x)$. 
+
+Thus, the rules for half-adjoint equivalence types state that half-adjoint equivalence types are [[record types]] with the above fields:
+
+Formation rules for half-adjoint equivalence types:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
+
+Introduction rules for half-adjoint equivalence types:
 $$\frac{
 \begin{array}{c}
 \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
 \Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
 \Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}{c}
+\end{array}
 }{\Gamma \vdash \mathrm{toEquiv}(f, g, G, H, K):A \simeq B}$$
 
-Elimination rules for equivalence types:
+Elimination rules for half-adjoint equivalence types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{func}(e):A \to B}$$
 
@@ -63,9 +128,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{coh}(e):\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))}$$
 
-Computation rules for equivalence types:
-
-* Judgmental computation rules
+Computation rules for half-adjoint equivalence types:
 
 $$\frac{
 \begin{array}{c}
@@ -89,7 +152,7 @@ $$\frac{
 \Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
 \Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
 \end{array}
-}{\Gamma \vdash \mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv G:\prod_{y:B} f(g(y)) =_{B} y}$$
+}{\Gamma \vdash \mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv G:\prod_{x:A} g(f(x)) =_{A} x}$$
 
 $$\frac{
 \begin{array}{c}
@@ -97,7 +160,7 @@ $$\frac{
 \Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
 \Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
 \end{array}
-}{\Gamma \vdash \mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv H:\prod_{x:A} g(f(x)) =_{A} x}$$
+}{\Gamma \vdash \mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv H:\prod_{y:B} f(g(y)) =_{B} y}$$
 
 $$\frac{
 \begin{array}{c}
@@ -107,85 +170,89 @@ $$\frac{
 \end{array}
 }{\Gamma \vdash \mathrm{coh}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))}$$
 
-* Typal computation rules
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{func}(f, g, G, H, K):\mathrm{func}(\mathrm{toEquiv}(f, g, G, H, K)) =_{A \to B} f}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{finv}(f, g, G, H, K):\mathrm{finv}(\mathrm{toEquiv}(f, g, G, H, K)) =_{B \to A} g}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{sec}(f, g, G, H, K):\mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{y:B} f(g(y)) =_{B} y} G}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{ret}(f, g, G, H, K):\mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} g(f(x)) =_{A} x} H}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{coh}(f, g, G, H, K):\mathrm{coh}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))} K}$$
-
-Uniqueness rules for equivalence types:
-
-* Judgmental uniqueness rules
+Uniqueness rules for half-adjoint equivalence types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{toEquiv}(\mathrm{func}(e), \mathrm{finv}(e), \mathrm{sec}(e), \mathrm{ret}(e), \mathrm{coh}(e)) \equiv e:A \simeq B}$$
 
-* Typal uniqueness rules
+#### Bi-invertible function types
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \eta_{A \simeq B}(e):\mathrm{toEquiv}(\mathrm{func}(e), \mathrm{finv}(e), \mathrm{sec}(e), \mathrm{ret}(e), \mathrm{coh}(e)) =_{A \simeq B} e}$$
+A bi-invertible function between types $A$ and $B$ is a record consisting of the following fields:
 
-### Coinductive definition
+* a [[function]] $f:A \to B$
 
-Given two types $A$ and $B$ and two functions $f:A \to B$ and $g:B \to A$, $f$ and $g$ are inverses of each other if for every element $a:A$ and $b:A$, there is an equivalence of types between $f(a) =_B b$ and $a =_A g(b)$:
+* a function $g:B \to A$
 
-$$\mathrm{isInv}(f, g) \coloneqq \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+* a function $h:B \to A$
 
-This leads to a coinductive definition of the type of equivalences
+* a [[homotopy]] $G:\prod_{x:A} g(f(x)) =_{A} x$
 
-$$A \simeq B \coloneqq \sum_{f:A \to B} \sum_{g:B \to A} \prod_{a:A} \prod_{b:B} (f(a) =_B b) \simeq (a =_A g(b))$$
+* a homotopy $H:\prod_{y:B} f(h(y)) =_{B} y$
 
-Formation rule for equivalence types:
+Thus, the rules for bi-invertible function types state that bi-invertible function types are [[record types]] with the above fields:
+
+Formation rules for bi-invertible function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
 
-Introduction rule for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_B(a, b, p):B(a) \simeq B(b) \; \mathrm{type}}$$
+Introduction rules for bi-invertible function types:
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash h:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(h(y)) =_{B} y \\ 
+\end{array}
+}{\Gamma \vdash \mathrm{toEquiv}(f, g, h, G, H):A \simeq B}$$
 
-Elimination rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A}{\Gamma \vdash f(x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash y:B}{\Gamma \vdash f^{-1}(y):A}$$
+Elimination rules for bi-invertible function types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \simeq B \quad \Gamma \vdash x:A \quad \Gamma \vdash y:B}{\Gamma\vdash \mathrm{coh}(f, x, y):(f(x) =_B y) \simeq (x =_A f^{-1}(y))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{func}(e):A \to B}$$
 
-Computation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdl}_B(a, b, p, w):w(a) =_{B(a)} \mathrm{tr}_B(a, b, p)^{-1}(w(b))}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{fsec}(e):B \to A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{apdr}_B(a, b, p, w):\mathrm{tr}_B(a, b, p)(w(a)) =_{B(b)} w(b)}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{fret}(e):B \to A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash w:B(x)}{\Gamma \vdash \mathrm{cohapd}_B(a, b, p, w):\left(\mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b))(\mathrm{apdr}_B(a, b, p, w)) =_{w(a) =_{B(a)} \mathrm{tr}_B(a, b, p)^{-1}(w(b))} \mathrm{apdl}_B(a, b, p, w)\right) \simeq \left(\mathrm{apdr}_B(a, b, p, w) =_{\mathrm{tr}_B(a, b, p)(w(a)) =_{B(b)} w(b)} \mathrm{coh}(\mathrm{tr}_B(a, b, p), w(a), w(b))^{-1}(\mathrm{apdl}_B(a, b, p, w))\right)}$$ 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{sec}(e):\prod_{x:A} \mathrm{finv}(e)(\mathrm{func}(e)(x)) =_A x}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{ret}(e):\prod_{y:B} \mathrm{func}(e)(\mathrm{finv}(e)(y) =_{B} y}$$
+
+Computation rules for bi-invertible function types:
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash h:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(h(y)) =_{B} y \\ 
+\end{array}
+}{\Gamma \vdash \mathrm{func}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv f:A \to B}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash h:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(h(y)) =_{B} y \\ 
+\end{array}
+}{\Gamma \vdash \mathrm{fsec}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv g:B \to A}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash h:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(h(y)) =_{B} y \\ 
+\end{array}
+}{\Gamma \vdash \mathrm{frec}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv h:B \to A}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash h:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(h(y)) =_{B} y \\ 
+\end{array}
+}{\Gamma \vdash \mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv G:\prod_{x:A} g(f(x)) =_{A} x}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash g:B \to A \quad \Gamma \vdash h:B \to A \\ 
+\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(h(y)) =_{B} y \\ 
+\end{array}
+}{\Gamma \vdash \mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) \equiv H:\prod_{y:B} f(h(y)) =_{B} y}$$
+
+Uniqueness rules for bi-invertible function types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{toEquiv}(\mathrm{func}(e), \mathrm{fsec}(e), \mathrm{fret}(e), \mathrm{sec}(e), \mathrm{ret}(e)) \equiv e:A \simeq B}$$
 
 ## Properties
 
@@ -193,11 +260,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \v
 
 Given types $A$ and $B$ and an equivalence $f:A \simeq B$, one could define the dependent type $x:\mathbb{I} \vdash C(x)$ indexed by the [[interval type]] $\mathbb{I}$ as $C(0) \equiv A$, $C(1) \equiv B$, and $\mathrm{tr}_C(0, 1, p) \equiv f$. 
 
-### One-to-one correspondences
+### Bitotal correspondences
 
 Given types $A$ and $B$ and an equivalence $f:A \simeq B$, one could define a [[correspondence]] $x:A, y:B \vdash R(x, y)$ as the [[dependent identity type]] 
 $$R(x, y) \coloneqq x =_C^p y$$
-where $x:\mathbb{I} \vdash C(x)$ is defined as in the previous section. By the properties of [[dependent identity types]], the correspondence is always a [[one-to-one correspondence]]. 
+where $x:\mathbb{I} \vdash C(x)$ is defined as in the previous section. By the properties of [[dependent identity types]], the correspondence is always a [[bitotal correspondence]]. 
 
 ### Quasi-inverse functions with contractible fibers
 
@@ -213,7 +280,7 @@ By the rules for [[dependent sum types]] and [[dependent product types]], one co
 
 ### Heterogeneous identity types
 
-Given the definition of the equivalence type as the type of encodings for one-to-one correspondences, the [[heterogeneous identity type]] is defined by the rule 
+Given the definition of the equivalence type as the type of encodings for bitotal correspondences, the [[heterogeneous identity type]] is defined by the rule 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash (x =_B^p y) \equiv (x =_{B(a), B(b)}^{\mathrm{tr}_B(p)} y) \; \mathrm{type}}$$
 
