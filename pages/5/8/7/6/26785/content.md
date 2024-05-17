@@ -1,4 +1,6 @@
 
+> under construction --- need to make some adjustments
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -153,4 +155,12 @@ Hence an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifol
 
 [[!redirects isometric embedding]]
 [[!redirects isometric embeddings]]
+
+[[!redirects Darboux frame]]
+[[!redirects Darboux frames]]
+
+[[!redirects Darboux coframe]]
+[[!redirects Darboux coframes]]
+
+
 
