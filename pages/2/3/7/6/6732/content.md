@@ -109,6 +109,9 @@ Lecture notes:
 
 * [[Paul Romatschke]], *Quantum Field Theory in Large $N$ Wonderland: Three Lectures* &lbrack;[arXiv:2310.00048](https://arxiv.org/abs/2310.00048)&rbrack;
 
+* Francesco Giacosa, *Introductory visual lecture on QCD at large-$N_c$: bound states, chiral models, and phase diagram* &lbrack;[arXiv:2402.14097](https://arxiv.org/abs/2402.14097)&rbrack;
+
+
 
 
 See also:
