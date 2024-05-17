@@ -49,16 +49,15 @@ There are actually two notions of transport in dependent type theory. One notion
 
 Similarly, there are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
-* [[judgmentally strict equivalence types]]
-* [[propositionally strict equivalence types]]
-* various notions of [[weak equivalence types]]
+* [[definitional isomorphism types]]
+* various notions of (weak) [[equivalence types]]
   * the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]]
   * the type of [[spans]] with contractible fibers
   * the type of [[multivalued partial functions]] which are single-valued and [[total function|total]] and have contractible fibers
   * the type of [[one-to-one correspondences]]
 * type of $U$-small equivalences, given a type universe $U$ and a definition of equivalence above
 
-The transport equivalence is called **judgmentally strict transport** if the equivalence type is a [[judgmentally strict equivalence type]], and similarly it is called **propositionally strict transport** if the equivalence type is a [[propositionally strict equivalence type]]. It is called **weak transport** if the equivalence type is a [[weak equivalence type]]. 
+The transport equivalence is called **strict transport** **definitional transport** or **judgmental transport** if the equivalence type is a [[definitional isomorphism type]]. It is called **(weak) transport** if the equivalence type is a (weak) [[equivalence type]]. 
 
 ### Transport across paths
 
@@ -538,6 +537,12 @@ For the role of transport in defining an equivalent notion of [[univalence]] in 
 [[!redirects propositionally strict transport]]
 [[!redirects propositionally strict transports]]
 
+[[!redirects definitional transport]]
+[[!redirects definitional transports]]
+
+[[!redirects judgmental transport]]
+[[!redirects judgmental transports]]
+
 [[!redirects transporting]]
 
 [[!redirects identity transport]]
@@ -552,10 +557,8 @@ For the role of transport in defining an equivalent notion of [[univalence]] in 
 [[!redirects transport function]]
 [[!redirects transport functions]]
 
-
 [[!redirects transport functor]]
 [[!redirects transport functors]]
-
 
 [[!redirects type of transport functions]]
 [[!redirects types of transport functions]]
