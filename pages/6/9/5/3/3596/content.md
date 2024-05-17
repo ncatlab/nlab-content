@@ -378,7 +378,7 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(y,p) \vdash C(x,y,p):Type \quad \G
 
 If one has [[dependent sum types]], there is a way of defining the identiy type as a [[negative type]]. The idea is that using the inference rules for dependent sum types, the standard J-rule states that the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
 $$\Delta_{A}(x) \coloneqq (x, (x, \mathrm{refl}_A(x))):\sum_{x:A} \sum_{y:A} x =_A y$$
-However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[strict equivalence of types]]: 
+However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[definitional isomorphism]]: 
 
 * Elimination rules for negative identity types:
 
