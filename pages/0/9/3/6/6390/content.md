@@ -140,6 +140,9 @@ Derivation of the supersymmetric [[worldline]] action of the spinning particle i
 
 See also:
 
+* [[Dmitri P. Sorokin]], [[Vladimir I. Tkach]], [[Dmitrij V. Volkov]], [[Aleksandr A. Zheltukhin]], *From the Superparticle Siegel Symmetry to the Spinning Particle Proper Time Supersymmetry*, Phys. Lett. B **216** (1989) 302-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(89)91119-2">doi:10.1016/0370-2693(89)91119-2</a>&rbrack;
+
+
 * Rachel H. Rietdijk, _Spinning particles in general relativity_ Theoretical and Mathematical Physics, Vol. 98, No. 3 (1994)
 
 
