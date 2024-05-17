@@ -440,7 +440,10 @@ Early developments:
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
+* [[Dmitri P. Sorokin]], [[Vladimir I. Tkach]], [[Dmitrij V. Volkov]], *On the relationship between compactified vacua of $D=11$ and $D=10$ supergravities*, Phys. Lett. B **161** (1985) 301-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(85)90766-X">doi:10.1016/0370-2693(85)90766-X</a>&rbrack;
+
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], *Kaluza-Klein supergravity*, Physics Reports **130** 1–2 (1986) 1-142 &lbrack;[spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>&rbrack;
+
 
 
 Identification as [[near horizon geometries]] of [[black brane|black]] [[M2-branes]]:
