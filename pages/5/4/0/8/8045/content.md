@@ -32,6 +32,8 @@ theory_) is a style of [[set theory]] with a primitive global membership relatio
 
 ## References
 
+* {#GS23} [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], *Univalent material set theory* ([arXiv:2312.13024](https://arxiv.org/abs/2312.13024))
+
 Relation to [[structural set theory]] is discussed in
 
 * {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
