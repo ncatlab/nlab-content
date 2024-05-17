@@ -80,7 +80,8 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
 
 * such an orthonormal local frame $V$ is called *adapted* or *Darboux* for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
 
-  $$
+  \[
+    \label{DarbouxFrameProperty}
     \underset
       { a \leq dim(\Sigma) }
       {\forall}
@@ -90,13 +91,14 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
     T_\sigma \Sigma
       \subset
     T_{\widehat{\phi(\sigma)}} \widehat{X}
-  $$
+  \]
 
   ([Berger, Bryant & Griffith 1983, p. 818](#BergerBryantGriffith83))
 
 * such an orthonormal local co-frame $E$ is called *adapted* or *Darboux* for $\phi$ if its last $dim(X)-dim(\Sigma)$-components are transversal to $\Sigma$:
 
-  $$
+  \[
+    \label{DarbouxCoFrameProperty}
     \underset
       { a \gt dim(\Sigma) }
       {\forall}
@@ -104,9 +106,40 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
     \phi^\ast E^a
     \;=\;
     0
-  $$
+  \]
   
   ([Zandi 1988, p. 426](#Zandi88); [Mastrolia, Rigoli & Setti 2012, Def. 1.17](#MastroliaRigoliSetti12); [Giron 2020, §3.2.2](#Giron20); [Chen & Giron 2021, §2.4](#ChenGiron21))
+
+\begin{remark}
+  \label{DarbouxCoFramePullingBackToCoframeOnImmersedManifold}
+  The Darboux co-frame property (eq:DarbouxCoFrameProperty) immediately implies that the pullback of the remaining frame components 
+$$
+  e
+  \;\coloneqq\;
+  \big(
+    e^a 
+    \;\coloneqq\;
+    \phi^\ast E^a
+  \big)_{
+    a \leq dim(\Sigma)  
+  }
+$$
+is a local frame on $\Sigma$. We may summarize this by saying that a local Darboux co-frame $E$ gives
+$$
+  \phi^\ast E^a 
+  \;=\;
+  \left\{
+  \begin{array}{ll}
+    e^a & \text{for}\; a \leq dim(\Sigma)
+    \\
+    0 & \text{for}\; a \geq dim(\Sigma)
+    \,.
+  \end{array}
+  \right.
+$$
+
+Incidentally, this situation of Darboux co-frames, when applied to the bosonic coframe components of [[super spacetimes]], is known as the "embedding condition" in the the "[[super-embedding approach]]" to [[super p-branes]] ([Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)).
+\end{remark}
 
 
 \begin{proposition}
