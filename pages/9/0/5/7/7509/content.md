@@ -277,6 +277,8 @@ This corresponds to the positive dependent sum types.
 
 * [[dependent pushout type]]
 
+* [[record type]]
+
 ## References
 
 A textbook account could be found in section 4.6 of:
