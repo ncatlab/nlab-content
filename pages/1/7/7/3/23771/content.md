@@ -210,6 +210,8 @@ Higher observational type theory was introduced as joint work of [[Thorsten Alte
 
 * {#AgdaCode} Agda code: [github.com/mikeshulman/ohtt](https://github.com/mikeshulman/ohtt)
 
+* [[Mike Shulman]], *Higher Observational Type Theory: An autonomous foundation for univalent mathematics* ([slides](https://home.sandiego.edu/~shulman/papers/chapman-fall2022.pdf))
+
 The following article is about a fragment of higher observational type theory:
 
 * {#AltenkirchChamounKapoilsiShulman24} [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval*, Proceedings of the ACM on Programming Languages (POPL) **8** (2024) 2340-2369 &lbrack;[arXiv:2307.06448](https://arxiv.org/abs/2307.06448), [doi:10.1145/3632920](https://doi.org/10.1145/3632920)&rbrack;
