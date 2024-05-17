@@ -95,6 +95,9 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold Steinacker]], [[Tung Tran]], *Spinorial higher-spin gauge theory from IKKT in Euclidean and Minkowski signatures* &lbrack;[arXiv:2305.19351](https://arxiv.org/abs/2305.19351)&rbrack; 
 
+* [[Harold C. Steinacker]], [[Tung Tran]], *Quantum $\mathfrak{hs}$-Yang-Mills from the IKKT matrix model* &lbrack;[arXiv:2405.09804](https://arxiv.org/abs/2405.09804)&rbrack;
+
+
 
 Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
 
