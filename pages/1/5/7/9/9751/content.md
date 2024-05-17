@@ -3,6 +3,15 @@
 
 ## Selected writings
 
+On [[Freund-Rubin compactification]] of [[D=11 supergravity|D=11]] and [[D=10 supergravity]]:
+
+* [[Dmitri P. Sorokin]], [[Vladimir I. Tkach]], [[Dmitrij V. Volkov]], *On the relationship between compactified vacua of $D=11$ and $D=10$ supergravities*, Phys. Lett. B **161** (1985) 301-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(85)90766-X">doi:10.1016/0370-2693(85)90766-X</a>&rbrack;
+
+Om the [[super particle]] and the [[spinning particle]]:
+
+* [[Dmitri P. Sorokin]], [[Vladimir I. Tkach]], [[Dmitrij V. Volkov]], [[Aleksandr A. Zheltukhin]], *From the Superparticle Siegel Symmetry to the Spinning Particle Proper Time Supersymmetry*, Phys. Lett. B **216** (1989) 302-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(89)91119-2">doi:10.1016/0370-2693(89)91119-2</a>&rbrack;
+
+
 On [[self-dual higher gauge fields]]:
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
@@ -26,7 +35,7 @@ On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Gre
 
 On [[kappa-symmetry]] explained via the [[superembedding approach]]:
 
-* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], V. Tkach and [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A4 (1989) 901-908 ([spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064))
+* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], [[Vladimir Tkach]], [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A **4** 10 (1989) 901-908 &lbrack;[spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064)&rbrack;
 
 
 
