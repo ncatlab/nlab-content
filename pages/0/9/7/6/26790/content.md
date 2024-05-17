@@ -23,6 +23,8 @@ Infinitary record types have an infinite number of fields and require something 
 
 * [[dependent sum type]]
 
+* [[negative type]]
+
 ## Implementations
 
 Most type-theory based proof assistants include primitive record types, with [[dependent sum types]] defined as a particular case of these, rather than requiring general record types to be defined using dependent sum types.  This includes:
