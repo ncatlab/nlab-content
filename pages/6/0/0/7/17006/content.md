@@ -28,6 +28,8 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold C. Steinacker]], [[Tung Tran]], *Spinorial description for Lorentzian $\mathfrak{hs}$-IKKT* &lbrack;[arXiv:2312.16110](https://arxiv.org/abs/2312.16110)&rbrack;
 
+* [[Harold C. Steinacker]], [[Tung Tran]], *Quantum $\mathfrak{hs}$-Yang-Mills from the IKKT matrix model* &lbrack;[arXiv:2405.09804](https://arxiv.org/abs/2405.09804)&rbrack;
+
 
 On [[cosmology]] within the [[IKKT matrix model]]:
 
