@@ -21,41 +21,15 @@ In [[dependent type theory]], the equivalence type is to types what the [[identi
 
 ## Definition
 
-In [[dependent type theory]], the equivalence type between two types $A$ and $B$ is the type $A \simeq B$ whose terms are [[equivalence of types|equivalences]] between $A$ and $B$. Like any other notion of type in dependent type theory, there are two different notions of equivalence types in type theory: strict and weak equivalence types. Strict equivalence types use [[judgmental equality]] in the [[conversion rules]], while weak equivalence types use [[identity types]] in the conversion rules. Weak equivalence types could also be defined analytically from other type formers in the type theory. 
+In [[dependent type theory]], the equivalence type between two types $A$ and $B$ is the type $A \simeq B$ whose terms are [[equivalence of types|equivalences]] between $A$ and $B$. Like any other notion of type in dependent type theory, there are two different notions of equivalence types in type theory: strict and weak equivalence types. Strict equivalence types use [[judgmental equality]] in the [[conversion rules]], while weak equivalence types use [[identity types]] in the conversion rules. 
 
-### Strict equivalence types
-
-Given types $A$ and $B$, one could define the type of [[strict equivalences]] betwen $A$ and $B$. These are given by the following rules:
-
-Formation rule for strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Introduction rule for strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash g(y):A \quad \Gamma, x:A \vdash g(f(x)) \equiv x:A \quad \Gamma, y:B \vdash f(g(y)) \equiv y:B}{\Gamma \vdash \mathrm{toequiv}(x:A.f(x), y:B.g(y)):A \simeq B}$$
-
-Elimination rules for strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \overrightarrow{e}(x):B} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, y:B \vdash \overleftarrow{e}(x):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, x:A \vdash \overleftarrow{e}(\overrightarrow{e}(x)) \equiv x:A} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B, y:B \vdash \overrightarrow{e}(\overleftarrow{e}(y)) \equiv y:B}$$
-
-Computation rules for strict equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash g(y):A \quad \Gamma, x:A \vdash g(f(x)) \equiv x:A \quad \Gamma, y:B \vdash f(g(y)) \equiv y:B}{\Gamma, x:A \vdash \overrightarrow{\mathrm{toequiv}(x:A.f(x), y:B.g(y))}(x) \equiv f(x):B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash f(x):B \quad \Gamma, y:B \vdash g(y):A \quad \Gamma, x:A \vdash g(f(x)) \equiv x:A \quad \Gamma, y:B \vdash f(g(y)) \equiv y:B}{\Gamma, y:B \vdash \overleftarrow{\mathrm{toequiv}(x:A.f(x), y:B.g(y))}(y) \equiv g(y):A}$$
-
-Uniqueness rules for strict equivalence types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, e:A \simeq B \vdash \mathrm{toequiv}(x:A.\overrightarrow{e}(x), y:B.\overleftarrow{e}(y)) \equiv e:A \simeq B}$$
-
-### Weak equivalence types
-
-#### As a dependent sum type of the isEquiv type family
+### As a dependent sum type of the isEquiv type family
 
 Given a notion of the [[isEquiv]] type family on the function type $A \to B$, the equivalence type is defined by 
 
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$ 
 
-#### Locally small equivalence types
+### Locally small equivalence types
 
 Given a [[type universe]] $U$ and a notion of a $U$-small [[isEquiv]] type family for some type $F_U(A, B)$, the locally $U$-small equivalence type is defined by 
 
@@ -63,7 +37,7 @@ $$A \simeq_U B \coloneqq \sum_{f:F_U(A, B)} \mathrm{isEquiv}_U(f)$$
 
 $F_U(A, B)$ could be the type of $U$-small [[spans]], the type of $U$-small [[multivalued partial functions]], or the type of $U$-small [[correspondences]]. 
 
-#### Rules for weak equivalence types
+### Rules for weak equivalence types
 
 Formation rules for equivalence types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
@@ -185,7 +159,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \eta_{A \simeq B}(e):\mathrm{toEquiv}(\mathrm{func}(e), \mathrm{finv}(e), \mathrm{sec}(e), \mathrm{ret}(e), \mathrm{coh}(e)) =_{A \simeq B} e}$$
 
-#### Coinductive definition
+### Coinductive definition
 
 Given two types $A$ and $B$ and two functions $f:A \to B$ and $g:B \to A$, $f$ and $g$ are inverses of each other if for every element $a:A$ and $b:A$, there is an equivalence of types between $f(a) =_B b$ and $a =_A g(b)$:
 
@@ -326,15 +300,3 @@ For the definition of the equivalence type as a dependent sum type, see:
 
 [[!redirects type of strict equivalences]]
 [[!redirects types of strict equivalences]]
-
-[[!redirects judgmentally strict equivalence type]]
-[[!redirects judgmentally strict equivalence types]]
-
-[[!redirects type of judgmentally strict equivalences]]
-[[!redirects types of judgmentally strict equivalences]]
-
-[[!redirects propositionally strict equivalence type]]
-[[!redirects propositionally strict equivalence types]]
-
-[[!redirects type of propositionally strict equivalences]]
-[[!redirects types of propositionally strict equivalences]]
