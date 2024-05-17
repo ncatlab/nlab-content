@@ -370,7 +370,7 @@ in $\mathbf{B}^2 U(1)$, which exhibits indeed the composition operation in $P_{(
 
 ### Equivariant bundle gerbes over the point
 
-For $A \to \hat G \to G$ a [[group]] extension by an [[abelian group]] $G$ classified by a 2-cocycle $c$ in [[group cohomology]], which we may think of as a 2-functopr $c : \mathbf{B}\mathbf{G} \to \mathbf{B}^2 A$, the corresponding [[fiber sequence]]
+For $A \to \hat G \to G$ a [[group]] extension by an [[abelian group]] $G$ classified by a 2-cocycle $c$ in [[group cohomology]], which we may think of as a 2-functor $c : \mathbf{B}\mathbf{G} \to \mathbf{B}^2 A$, the corresponding [[fiber sequence]]
 
 $$
   A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \stackrel{c}{\to}
