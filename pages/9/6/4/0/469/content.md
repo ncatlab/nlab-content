@@ -78,7 +78,7 @@ $$
   \,,
 $$
 
-[[natural transformation|natural]] in all [[variables|arguments]].
+[[natural transformation|natural]] in all [[variables|arguments]] (see ([MacLane (1971), §IV.7, theorem 3](#MacLane97))).
 
 The object $[b,c]$ is called the **[[internal hom]]** of $b$ and $c$. This is commonly also denoted by lower case $hom(b,c)$ (and then sometimes underlined).
 
