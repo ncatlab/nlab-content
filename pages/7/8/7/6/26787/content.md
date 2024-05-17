@@ -17,9 +17,10 @@
 
 ## Definition
 
-In [[dependent type theory]], a **definitional isomorphism** or **judgmental isomorphism** between two types $A$ and $B$ consists of functions $f:A \to B$ and $f^{-1}:B \to A$ such that given the term $x:A$, the term $f^{-1}(f(x))$ reduces to $x$ and given the term $y:B$, the term $f(f^{-1}(y))$ reduces to $y$. Using [[judgmental equality]], one can say that 
+In [[dependent type theory]], a **definitional isomorphism** or **judgmental isomorphism** between two types $A$ and $B$ consists of functions $f:A \to B$ and $f^{-1}:B \to A$ such that given any term $x:A$, the term $f^{-1}(f(x))$ is [[judgmental equality|judgmentally equal]] to $x$ and given any term $y:B$, the term $f(f^{-1}(y))$ is definitionally equal to $y$.  In symbols, 
 $$x:A \vdash f^{-1}(f(x)) \equiv x:A \quad \mathrm{and} \quad y:B \vdash f(f^{-1}(y)) \equiv y:B$$
-If the dependent type theory has [[identity types]], definitional isomorphisms are [[equivalences in type theory|equivalences]] since the [[homotopies]] and [[coherence law]] for (half-adjoint) equivalences are derivable from the judgmental equalities in definitional isomorphisms. 
+
+If the dependent type theory has [[identity types]], definitional isomorphisms are, in particular, [[equivalences in type theory|equivalences]] since the [[homotopies]] and [[coherence law]] for (half-adjoint) equivalences are derivable from the judgmental equalities in definitional isomorphisms. 
 
 One example of a definitional isomorphism in dependent type theory is the [[identity equivalence]], defined by two copies of the [[identity function]] $\lambda \chi.\chi$ and by the fact that the identity function is a definitional [[involution]], where $(\lambda \chi.\chi)((\lambda \chi.\chi)(x))$ reduces to $x$. 
 
@@ -71,9 +72,7 @@ However, the dependent type theory will no longer have [[decidable equality]] if
 
 ## References
 
-A proof assistant which makes use of definitional isomorphisms:
-
-* [Narya](https://github.com/mikeshulman/narya)
+The proof assistant [[Narya]] makes use of definitional isomorphisms to characterize identity/bridge types.
 
 [[!redirects definitional isomorphism]]
 [[!redirects definitional isomorphisms]]
