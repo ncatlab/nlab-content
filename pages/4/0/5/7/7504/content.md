@@ -32,6 +32,8 @@ In [[denotational semantics]], negative types behave well with respect to "[[cal
 
 * [[coinductive type]]
 
+* [[record type]]
+
 * [[unit types]], [[dependent sum types]] and cartesian [[product types]] can be presented both positively and negatively.  The two definitions are equivalent in ordinary type theory, but distinct in [[linear logic]].  The same is true of binary [[sum types]] if we allow [[sequents]] with multiple conclusions.
 
 [[!redirects negative types]]
