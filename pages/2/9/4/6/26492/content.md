@@ -9,7 +9,7 @@ is an [[equivalence of types]].
 
 There is also a **definitional interval type localization** which says that the function
 $$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:mathbb{I}.x:A \to (\mathbb{I} \to A)$$
-is a definitional or [[strict equivalence of types]]. The usual notion of interval type localization can be called **propositional interval type localization**. 
+is a [[definitional isomorphism]]. The usual notion of interval type localization can be called **propositional interval type localization**. 
 
 One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
 
@@ -93,7 +93,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
 
-This makes $\mathrm{const}_{A, \mathbb{I}}$ into a strict equivalence of types, which is always a coherently invertible function.
+This makes $\mathrm{const}_{A, \mathbb{I}}$ into a [[definitional isomorphism]], which is always a coherently invertible function.
 
 ### Interval type localization implies the J-rule
 
