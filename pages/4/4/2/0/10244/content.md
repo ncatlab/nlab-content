@@ -181,7 +181,7 @@ Related discussion in the bosonic situation:
 
 The [[supergeometry|super-geometric]] interpretation of [[kappa-symmetry]] as the odd-graded part of the action of [[super-diffeomorphism]] on the [[super p-brane]] [[worldvolume]], regarded itself as a [[supermanifold]] was first suggested in
 
-* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], V. Tkach and [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A4 (1989) 901-908 ([spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064))
+* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], [[Vladimir Tkach]], [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A **4** 10 (1989) 901-908 &lbrack;[spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064)&rbrack;
 
 Review of this perspective includes
 
