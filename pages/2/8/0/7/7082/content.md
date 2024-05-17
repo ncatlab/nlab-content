@@ -534,6 +534,8 @@ $$
 
 * [[embedding in type theory]]
 
+* [[definitional isomorphism]]
+
 ## References
  {#References}
 
