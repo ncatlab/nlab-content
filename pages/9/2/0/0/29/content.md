@@ -101,6 +101,8 @@ Suppose given $g:hom_A(b,a)$ and $\eta:1_a = g \circ f$ and $\epsilon : f \circ 
 
 * [[EI-category]]
 
+* [[definitional isomorphism]]
+
 ## References
 
 * {#Poincaré1908} [[Henri Poincaré]], *The future of mathematics*, Revue generale des Sciences pures et appliquees, Paris, 19th year, No. 23, December, 1908 ([pdf](https://sites.math.rutgers.edu/courses/535/535-f08/Poincare.pdf))
