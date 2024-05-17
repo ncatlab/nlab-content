@@ -78,7 +78,7 @@ $\mathrm{copy}$ is an [[equivalence of types]] between $A$ and $\mathrm{Copy}(A)
 \end{theorem}
 
 \begin{proof}
-Unary products with judgmental or propositional [[conversion rules]] turn $\mathrm{copy}$ into a [[judgmentally strict equivalence]] and a [[propositionally strict equivalence]] respectively. Unary products with only typal [[conversion rules]] turn $\mathrm{copy}$ and $\mathrm{original}$ into [[quasi-inverse functions]] of each other. One could then define a function $f:\mathrm{QInv}(\mathrm{copy}) \to \mathrm{isEquiv}(\mathrm{copy})$ which takes the quasi-inverse function $(\mathrm{original}, \beta_{\mathrm{Copy}(A)}, \eta_{\mathrm{Copy}(A)})$ to a witness that $\mathrm{copy}$ has [[contractible type|contractible]] [[fiber type|fibers]] and is thus an [[equivalence of types]]. 
+Unary products with judgmental [[conversion rules]] turn $\mathrm{copy}$ into a [[definitional isomorphism]]. Unary products with only typal [[conversion rules]] turn $\mathrm{copy}$ and $\mathrm{original}$ into [[quasi-inverse functions]] of each other. One could then define a function $f:\mathrm{QInv}(\mathrm{copy}) \to \mathrm{isEquiv}(\mathrm{copy})$ which takes the quasi-inverse function $(\mathrm{original}, \beta_{\mathrm{Copy}(A)}, \eta_{\mathrm{Copy}(A)})$ to a witness that $\mathrm{copy}$ has [[contractible type|contractible]] [[fiber type|fibers]] and is thus an [[equivalence of types]]. 
 \end{proof}
 
 ## Extensionality principle for copies
