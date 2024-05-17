@@ -1,5 +1,4 @@
 
-> under construction --- need to make some adjustments
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,35 +19,99 @@
 
 ## Idea
 
-A *Riemannian immersion* or *isometric immersion* $\Sigma \hookrightarrow X$ of [[Riemannian manifolds]] is an [[immersion]] of their [[underlying]] [[smooth manifolds]] which is also an [[isometry]] with respect to their [[Riemannian metrics]].
+A *Riemannian immersion* or *isometric immersion* of [[Riemannian manifolds]] is an [[immersion]] $\Sigma \hookrightarrow X$ of their [[underlying]] [[smooth manifolds]] which is also an [[isometry]] with respect to their [[Riemannian metrics]].
 
 Similarly, an *isometric embedding* is an isometric immersion which is also an [[embedding of smooth manifolds]], hence [[embedding of topological spaces|of the underlying topological spaces]].
 
-The *isometric immersion/embedding problem* is to find isometric immersions/embeddings of Riemannian manifolds into (large-dimensional) [[Euclidean spaces]] (e.g. [Han & Hong 2006](#HanHong06), [Han & Lewicka 2023](#HanLewicka23)).
+The *isometric immersion/embedding problem* is to find isometric immersions/embeddings of Riemannian manifolds into large-dimensional but flat ([[Euclidean spaces|Euclidean]]) spaces (e.g. [Han & Hong 2006](#HanHong06), [Han & Lewicka 2023](#HanLewicka23)).
 
 
 
 ## Properties
 
-### Adapted Darboux coframes
+### Adapted Darboux (co-)frames
  {#AdaptedDarbouxCoframes}
 
-Given an immersion $\phi \colon \Sigma \hookrightarrow X$ into a [[Riemannian manifold]] $X$ --- hence in particular with $dim(\Sigma) \leq dim(X)$ --- then a local orthonormal [[coframe field]] $\big(e^a\big)_{a = 1}^{dim(X)}$ on $X$ (i.e. such that the [[metric tensor]] on $X$ is locally $g = e^a \otimes e_a$) is called a *Darboux frame* ([Berger, Bryant & Griffith 1983](#BergerBryantGriffith83), later  authors also say *Darboux co-frame*, e.g. [Mastrolia, Rigoli & Setti 2012, Def. 1.17](#MastroliaRigoliSetti12), [Giron 2020, §3.2.2](#Giron20), [Chen & Giron 2021, §2.4](#ChenGiron21)) if, locally, the restriction of the frame field to its first $dim(\Sigma)$-components and [[pullback of differential forms|pulled back]] along $\phi$ to $\Sigma$
+Given a [[Riemannian manifold]] $(X,g)$ of [[dimension of a manifold|dimension]] $D$, then 
 
-\[
-  \label{PullbackOfDarbouxFrame}
-  \big(
-    \phi^\ast e^a
-  \big)
-    ^{ dim(\Sigma) }
-    _{ a=1 }
-\]
+* an **orthonormal local frame** is an [[open cover]] $p \colon \widehat{X} \twoheadrightarrow X$ equipped with a $D$-[[tuple]] of [[vector fields]]
 
-is a [[frame field]] for $\Sigma$. 
+  $$
+    V
+    \;\colon\;
+    \mathbb{R}^{D} \xrightarrow{\;\;} T \widehat X
+  $$
+
+  such that at each point $\widehat x \,\in\, \widehat{X}$ we have that
+
+  $$
+    g\big(V,V\big)(x)
+  $$
+
+  is the canonical [[inner product]] on $\mathbb{R}^D$, hence in components
+
+  $$
+    g\big(V_a, V_b\big)(x)
+    \;=\;
+    \delta_{a b}
+    \,;
+  $$
+
+* an **orthonormal local co-frame** is an [[open cover]] $p \colon \widehat{X} \twoheadrightarrow X$ equipped with a $\mathbb{R}^D$-valued [[differential 1-form]]
+
+  $$
+    E
+    \;\colon\;
+    T\widehat{X}
+    \xrightarrow{\;\;}
+    \mathbb{R}^D
+  $$
+
+  such that at each point $\widehat x \,\in\, \widehat{X}$ we have
+
+  $$
+    \delta_{a b} \, E^a \otimes E^b
+    \;=\;
+    g
+    \,.
+  $$
+
+Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into a [[Riemannian manifold]]
+
+* such an orthonormal local frame $V$ is called *adapted* or *Darboux* for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
+
+  $$
+    \underset
+      { a \leq dim(\Sigma) }
+      {\forall}
+    \;\;\;\;\;
+    V_a(\sigma) 
+      \,\in\, 
+    T_\sigma \Sigma
+      \subset
+    T_{\widehat{\phi(\sigma)}} \widehat{X}
+  $$
+
+  ([Berger, Bryant & Griffith 1983, p. 818](#BergerBryantGriffith83))
+
+* such an orthonormal local co-frame $E$ is called *adapted* or *Darboux* for $\phi$ if its last $dim(X)-dim(\Sigma)$-components are transversal to $\Sigma$:
+
+  $$
+    \underset
+      { a \gt dim(\Sigma) }
+      {\forall}
+    \;\;\;\;\;
+    \phi^\ast E^a
+    \;=\;
+    0
+  $$
+  
+  ([Mastrolia, Rigoli & Setti 2012, Def. 1.17](#MastroliaRigoliSetti12); [Giron 2020, §3.2.2](#Giron20); [Chen & Giron 2021, §2.4](#ChenGiron21))
+
 
 \begin{proposition}
 \label{ExistenceOfDarbouxFrames}
-Given an immersion into a Riemannian manifold, local Darboux frames always exist. 
+Given an immersion into a Riemannian manifold, local Darboux (co-)frames always exist. 
 \end{proposition}
 \begin{proof}
   Given an immersion $\iota \colon \Sigma \to X$, consider any point $\sigma \in \Sigma$. Since the immersion is *locally* an [[embedding of smooth manifolds|embedding]] (see [here](immersion+of+smooth+manifolds#ImmersionsAreLocalEmbeddings)), there exists an [[open neighbourhood]] $ \sigma \in U \subset \Sigma$ such that $\phi_{\vert U} \colon U \to X$ is the [[embedding of smooth manifolds|embedding]] of a [[submanifold]]. Therefore (by [this Prop.](submanifold#ExistenceOfSiceCharts)) there exists an [[open neighbourhood]] $U' \subset X$ of $\iota(\sigma) \in X$ which serves as a [[coordinate chart]] $X \supset U' \xrightarrow{\phi} \mathbb{R}^n$ for $X$ and a slice chart for $\Sigma \subset X$ in that it exhibits $\Sigma \cap U'$ as a rectilinear [[hyperplane]] in $\phi(U') \subset \mathbb{R}^n$.
@@ -66,7 +129,7 @@ $$
   \,.
 $$
 
-From this local the [[Gram-Schmidt process]] produces an *orthonormal* local frame, first for $\Sigma$ and then extended to $X$:
+From this local frame the [[Gram-Schmidt process]] produces an *orthonormal* frame, first for $\Sigma$ and then extended to $X$:
 $$
   \big\{ v_1, \cdots, v_{k} \big\}
   \hookrightarrow
@@ -80,11 +143,11 @@ $$
   g(v_a, v_b) = \delta_{a b}
   \,
 $$
-(cf. [Kayban 2021, Prop. 3.1](#Kayban21)).
+This demonstrates the esistence of orthonormal local frames (cf. [Kayban 2021, Prop. 3.1](#Kayban21)).
 
-It just remains to turn this frame into the desired coframe:
+To obtain an orthonormal local coframe we just dualize this local frame:
 
-By construction, the matrix $\big(v_a^\mu\big)_{a,\mu}$ of components (given by $v_a^\mu \partial_\mu = v_a$) is block upper-triangular (the upper diagonal block being the local frame on $\Sigma$), with the total matrix and its upper diagonal block (and thus also its lower diagonal block) being [[invertible matrices]].
+By construction, the matrix $\big(v_a^\mu\big)_{a,\mu}$ of components of the above frame (given by $v_a^\mu \partial_\mu = v_a$) is block diagonal (the upper diagonal block being the local frame on $\Sigma$).
 
 This means (cf. e.g. [here](inverse+matrix#SD23)) that also the [[inverse matrix]] 
 $$
@@ -92,7 +155,7 @@ $$
     \,\coloneqq\, 
   \Big(\big(v_a^\mu\big)_{\mu,a}\Big)^{-1}
 $$
-is block upper-triangular, with its upper left block being the inverse matrix of the original upper left block.
+is block diagonal, with its upper diagonal block being the inverse matrix of the original upper left block.
 
 This gives the desired [[coframe field]]:
 $$
@@ -119,9 +182,9 @@ $$
   e^a_\mu 
   \delta_{a b}
   e^b_\nu
-  \,,
+  \,.
 $$
-and whose pullback to the $\Sigma$-slice is, by the above block-triangular properties, a coframe field on $\Sigma$.
+and which is Darboux by the block-diagonal structure of $\big(e^a_\mu\big)$. 
 \end{proof}
 
 (For the further generality of [[sequences]] of Darboux frames for suitable [[sequences]] of immersions, see [Giron 2020](#Giron20) and [Chen & Giron 2021, Thm. 2.2](#ChenGiron21).)
