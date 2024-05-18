@@ -68,8 +68,7 @@ The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin &
      \,,
    \]
 
-   where $P \coloneqq \tfrac{1}{2}(1 + \Gamma_{p+1} \cdots \Gamma_d)$ is the transversal fermionic projector and
-  $\psi$ are the fermionic components of the co-frame field on $\Sigma$.
+   where $P \coloneqq \tfrac{1}{2}(1 + \Gamma_{p+1} \cdots \Gamma_d)$ is the corresponding transversal fermionic projector and $\psi$ are the fermionic components of the co-frame field on $\Sigma$.
 
 Here we may observe that a co-frame satisfying the bosonic "super-embedding condition" (eq:BosonicSuperEmbeddingCondition) is algebraically what is known in the mathematical literature as a (higher dimensional) *[[Darboux coframe]]* for the given [[immersion]], see [there](Riemannian+immersion#DarbouxCoFramePullingBackToCoframeOnImmersedManifold).
 
