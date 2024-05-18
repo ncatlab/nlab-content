@@ -108,9 +108,15 @@ Immersion are precisely the  "local embeddings":
 
 \begin{proposition}
 \label{ImmersionsAreLocalEmbeddings}
-A smooth map $f \colon X \to Y$ is an immersion precisely if for every point $x \in X$ there is an [[open neighbourhood]] $x \in U \subset X$ such that $f|_U \colon U \to Y$ is an [[embedding of smooth manifolds]].
+A smooth map $f \colon X \to Y$ of [[smooth manifolds]] is an immersion precisely if for every point $x \in X$ there is an [[open neighbourhood]] $x \in U \subset X$ such that $f|_U \colon U \to Y$ is an [[embedding of smooth manifolds]].
 \end{proposition}
 (e.g. [Boothby, III Thm. 4.12](#Boothby))
+
+Since moreover the [[embeddings of smooth manifolds]] admit local slice charts (see [there](embedding+of+differentiable+manifolds#ExistenceOfSiceCharts)) so do immersions.
+
+In the generality of [[supermanifolds]] this is [Varadarajan 2004, Thm. 4.4.3](#Varadarajan04).
+
+
 
 
 ### Relation to formal immersions
@@ -155,6 +161,11 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 
 * {#Lee12} [[John Lee]], Chapter 4 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+
+Discussion in the generality of [[supermanifolds]]:
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], pp. 148 in: _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
+
 
 
 
