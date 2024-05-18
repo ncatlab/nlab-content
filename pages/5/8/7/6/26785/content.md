@@ -78,7 +78,7 @@ Given a [[Riemannian manifold]] $(X,g)$ of [[dimension of a manifold|dimension]]
 
 Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into a [[Riemannian manifold]]
 
-* such an orthonormal local frame $V$ is called *adapted* or *Darboux* (generalizing terminology originating in the [[differential geometry of curves and surfaces]]) for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
+* such an orthonormal local frame $V$ is called *adapted* or *Darboux* (generalizing terminology originating in the [[differential geometry of curves and surfaces]], cf. [Guggenheimer 1977, p. 210](#Guggenheimer77)) for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
 
   \[
     \label{DarbouxFrameProperty}
@@ -93,7 +93,7 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
     T_{\widehat{\phi(\sigma)}} \widehat{X}
   \]
 
-  ([Griffiths & Harris 1979 (1.12)](#GriffithsHarris79); [Berger, Bryant & Griffiths 1983, p. 818](#BergerBryantGriffiths83))
+  ([Sternberg 1964, Def. 2.1 on p. 244](#Sternberg64); [Griffiths & Harris 1979 (1.12)](#GriffithsHarris79); [Berger, Bryant & Griffiths 1983, p. 818](#BergerBryantGriffiths83))
 
 * such an orthonormal local co-frame $E$ is called *adapted* or *Darboux* for $\phi$ if its last $dim(X)-dim(\Sigma)$-components are transversal to $\Sigma$:
 
@@ -108,7 +108,7 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
     0
   \]
   
-  ([Zandi 1988, p. 426](#Zandi88); [Mastrolia, Rigoli & Setti 2012, Def. 1.17](#MastroliaRigoliSetti12); [Giron 2020, §3.2.2](#Giron20); [Chen & Giron 2021, §2.4](#ChenGiron21))
+  ([Sternberg 1964, (2.11) on p. 246](#Sternberg64); [Zandi 1988, p. 426](#Zandi88); [Mastrolia, Rigoli & Setti 2012, Def. 1.17](#MastroliaRigoliSetti12); [Giron 2020, §3.2.2](#Giron20); [Chen & Giron 2021, §2.4](#ChenGiron21))
 
 \begin{remark}
   \label{DarbouxCoFramePullingBackToCoframeOnImmersedManifold}
@@ -228,9 +228,16 @@ Hence an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifol
 
 ## References
 
+* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBNJ:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
+
+
+* {#Guggenheimer77} [[Heinrich W. Guggenheimer]], *Differential Geometry*, Dover (1977) &lbrack;[isbn:9780486634333](https://store.doverpublications.com/products/9780486634333), [ark:/13960/t9t22sk9n](https://archive.org/details/differentialgeom0000gugg/)&rbrack;
+
+
 * {#GriffithsHarris79} [[Phillip Griffiths]], [[Joseph Harris]], *Algebraic geometry and local differential geometry*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 12 no. 3 (1979) 355-452 &lbrack;[numdam:ASENS_1979_4_12_3_355_0](http://www.numdam.org/item/?id=ASENS_1979_4_12_3_355_0)&rbrack;
 
 * {#BergerBryantGriffiths83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](http://dx.doi.org/10.1215/S0012-7094-83-05039-1)&rbrack;
+
 
 * {#Zandi88} Ahmad Zandi, *Minimal immersions of surfaces in quaternionic projective space*, Tsukuba Journal of Mathematics **12** 2 (1988) 423-440 &lbrack;[jstor:43686661](https://www.jstor.org/stable/43686661)&rbrack;
 
