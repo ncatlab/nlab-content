@@ -36,8 +36,11 @@ Expositions of this *differential geometry of curves and surfaces* tend to retai
 
 * [[surface]]
 
+  * [[Darboux frame]]
 
   * [[Theorema Egregium]]
+
+
 
 (...)
 
@@ -57,7 +60,7 @@ Modern accounts:
 
 * Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)&rbrack;
 
-* Anton Petrunin, Sergio Zamora Barrera, *What is differential geometry: curves and surfaces* &lbrack;[arXiv:2012.11814](https://arxiv.org/abs/2012.11814)&rbrack;
+* {#PetruninBarrera20} Anton Petrunin, Sergio Zamora Barrera, *What is differential geometry? curves and surfaces* &lbrack;[arXiv:2012.11814](https://arxiv.org/abs/2012.11814)&rbrack;
 
 See also:
 
