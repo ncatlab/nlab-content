@@ -22,7 +22,7 @@ On [[quantum anomalies]] related to [[spin^c structure]] and [[spin^h structure]
 * {#WWW19} [[Juven Wang]], [[Xiao-Gang Wen]], [[Edward Witten]], _A New SU(2) Anomaly_, Journal of Mathematical Physics **60**  (2019) 052301 &lbrack;[arXiv:1810.00844](https://arxiv.org/abs/1810.00844), [doi:10.1063/1.5082852](https://doi.org/10.1063/1.5082852)&rbrack;
 
 
-Speculation of [[topological phases of matter]] relevant in the [[standard model of particle physics]]:
+Speculation of interacting [[topological phases of matter]] and conformal matter relevant in the [[standard model of particle physics]] if some of the sterile right-handed neutrinos are absent in our quantum vacuum:
 
 * [[Juven Wang]], *Ultra Unification*, Phys. Rev. D **103**  (2021) 105024 &lbrack;[arXiv:2012.15860](https://arxiv.org/abs/2012.15860), [doi:10.1103/PhysRevD.103.105024](https://doi.org/10.1103/PhysRevD.103.105024)&rbrack;
 
