@@ -99,6 +99,22 @@ For $dim(X)\leq 2n$, the [[cokernel]] group $N_n(X)$ is a [[finite group|finite]
 
 =--
 
+An example where not only do the unstable and stable K theory groups not coincide but the latter actually vanishes is provided by the even-dimensional [[sphere|spheres]].
+
++-- {: .num_defn #LimitToKtheory}
+###### Proposition
+(Lemma 4.1 of [Hamanaka 2003](#Ham03)) 
+
+For $n\geq 3$, the $n$ unstable K-theory group of the $2n$-dimensional sphere $S^{2n}$ is
+
+$$
+U_n (S^{2n} ) = \mathbb{Z}/ n!\mathbb{Z},
+$$
+
+whereas $\tilde{K}^1 (S^{2n} ) =0$.
+
+=--
+
 ## Algebraic K-theory
 
 For the notion of unstable algebraic K-theory, see [Jansen 2024](#Jansen24).
@@ -115,7 +131,7 @@ For the notion of unstable algebraic K-theory, see [Jansen 2024](#Jansen24).
 
 * [[Hiroaki Hamanaka]], [[Akira Kono]]: *An application of unstable K-theory*, Journal of Mathematics of Kyoto University **44** 2 (2004) 451-456 &lbrack;[doi:10.1215/kjm/1250283560](https://doi.org/10.1215/kjm/1250283560)&rbrack;
 
-* [[Hiroaki Hamanaka]]: *Adams $ e $-invariant, Toda bracket and $[X, U (n)]$*, Journal of Mathematics of Kyoto University **43** 4 (2003) 815-827 &lbrack;[doi:10.1215/kjm/1250281737](https://doi.org/10.1215/kjm/1250281737)&rbrack;
+* {#Ham03} [[Hiroaki Hamanaka]]: *Adams $ e $-invariant, Toda bracket and $[X, U (n)]$*, Journal of Mathematics of Kyoto University **43** 4 (2003) 815-827 &lbrack;[doi:10.1215/kjm/1250281737](https://doi.org/10.1215/kjm/1250281737)&rbrack;
 
 On unstable algebraic K-theory:
 
