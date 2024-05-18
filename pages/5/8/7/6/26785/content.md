@@ -78,7 +78,7 @@ Given a [[Riemannian manifold]] $(X,g)$ of [[dimension of a manifold|dimension]]
 
 Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into a [[Riemannian manifold]]
 
-* such an orthonormal local frame $V$ is called *adapted* or *Darboux* (generalizing terminology originating in the [[differential geometry of curves and surfaces]], cf. [Guggenheimer 1977, p. 210](#Guggenheimer77)) for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
+* such an orthonormal local frame $V$ is called *adapted* or *Darboux* (generalizing terminology originating in the [[differential geometry of curves and surfaces]], cf. [Guggenheimer 1977, p. 210](#Guggenheimer77), [Petrunin & Barrera 2020, p. 107](differential+geometry+of+curves+and+surfaces#PetruninBarrera20)) for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
 
   \[
     \label{DarbouxFrameProperty}
