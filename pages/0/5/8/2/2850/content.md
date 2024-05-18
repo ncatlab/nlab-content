@@ -60,6 +60,12 @@ Named after:
 
   Engl. transl: [[William Clifford]]: *[[On the hypotheses which underlie geometry]]*, Nature **VIII** (1873) 183-184 &lbrack;[doi:10.1007/978-3-319-26042-6](https://doi.org/10.1007/978-3-319-26042-6)&rbrack;
 
+Original discussion via [[Cartan geometry]] of [[coframe fields]]:
+
+* [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
+
+* [[Élie Cartan]] (translated by Robert Hermann from Cartan's lectures in 1951): *Geometry of Riemannian Spaces*, Lie Groups: History, Frontiers and Applications **XIII**, Math Sci Press (1983) &lbrack;[ark:/13960/s28rzmj9xrv](https://archive.org/details/geometryofrieman0013cart)&rbrack;
+
 Monographs:
 
 * [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_. Graduate Texts in Mathematics 176 (1997), Springer.  ISBN: 0-387-98271-X.
