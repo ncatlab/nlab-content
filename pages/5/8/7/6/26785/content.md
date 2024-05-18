@@ -78,7 +78,7 @@ Given a [[Riemannian manifold]] $(X,g)$ of [[dimension of a manifold|dimension]]
 
 Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into a [[Riemannian manifold]]
 
-* such an orthonormal local frame $V$ is called *adapted* or *Darboux* for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
+* such an orthonormal local frame $V$ is called *adapted* or *Darboux* (generalizing terminology originating in the [[differential geometry of curves and surfaces]]) for $\phi$ if for each $\sigma \in \Sigma$ and each lift $\widehat{\phi(\sigma)} \in \widehat{X}$ of $\phi(\sigma) \in X$ its first $dim(\Sigma)$ components are tangent to $\Sigma$:
 
   \[
     \label{DarbouxFrameProperty}
@@ -93,7 +93,7 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
     T_{\widehat{\phi(\sigma)}} \widehat{X}
   \]
 
-  ([Berger, Bryant & Griffith 1983, p. 818](#BergerBryantGriffith83))
+  ([Griffiths & Harris 1979 (1.12)](#GriffithsHarris79); [Berger, Bryant & Griffiths 1983, p. 818](#BergerBryantGriffiths83))
 
 * such an orthonormal local co-frame $E$ is called *adapted* or *Darboux* for $\phi$ if its last $dim(X)-dim(\Sigma)$-components are transversal to $\Sigma$:
 
@@ -125,7 +125,8 @@ $$
   }
 $$
 is a local frame on $\Sigma$. We may summarize this by saying that a local Darboux co-frame $E$ gives
-$$
+\[
+  \label{DarbouxCoframePullsBackToCoframe}
   \phi^\ast E^a 
   \;=\;
   \left\{
@@ -136,9 +137,10 @@ $$
     \,.
   \end{array}
   \right.
-$$
+\]
+(cf. [Griffiths & Harris 1979 (1.13)](#GriffithsHarris79)).
 
-Incidentally, this situation of Darboux co-frames, when applied to the bosonic coframe components of [[super spacetimes]], is known as the "embedding condition" in the the "[[super-embedding approach]]" to [[super p-branes]] ([Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)).
+Incidentally, this situation (eq:DarbouxCoframePullsBackToCoframe) of Darboux co-frames, when applied to the bosonic coframe components of [[super spacetimes]], has later independently come to be known as the "embedding condition" in the "[[super-embedding approach]]" to [[super p-branes]] &;brack;[Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)&rbrack;, strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95), which is just the first condition in (eq:DarbouxCoframePullsBackToCoframe).
 \end{remark}
 
 
@@ -226,7 +228,9 @@ Hence an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifol
 
 ## References
 
-* {#BergerBryantGriffith83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](http://dx.doi.org/10.1215/S0012-7094-83-05039-1)&rbrack;
+* {#GriffithsHarris79} [[Phillip Griffiths]], [[Joseph Harris]], *Algebraic geometry and local differential geometry*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 12 no. 3 (1979) 355-452 &lbrack;[numdam:ASENS_1979_4_12_3_355_0](http://www.numdam.org/item/?id=ASENS_1979_4_12_3_355_0)&rbrack;
+
+* {#BergerBryantGriffiths83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](http://dx.doi.org/10.1215/S0012-7094-83-05039-1)&rbrack;
 
 * {#Zandi88} Ahmad Zandi, *Minimal immersions of surfaces in quaternionic projective space*, Tsukuba Journal of Mathematics **12** 2 (1988) 423-440 &lbrack;[jstor:43686661](https://www.jstor.org/stable/43686661)&rbrack;
 
