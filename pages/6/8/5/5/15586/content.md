@@ -79,7 +79,7 @@ We can see here how at the end Lawvere's idea of internal set-theoretic 'foundat
 
 ### Remark
 
-Note that already B. Walters and R. Street conceived of their work on [[Yoneda structure|Yoneda structures]] in the early 1970s as a 2-dimensional version of ETCC (cf. Walters [1971](#W71)).
+Note that already R. F. C. Walters and R. Street conceived of their work on [[Yoneda structure|Yoneda structures]] in the early 1970s as a 2-dimensional version of ETCC (cf. Walters [1971](#W71)).
 
 ## Related entries
 
