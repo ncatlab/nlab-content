@@ -348,9 +348,8 @@ The concept originates around the work of [[Eli Cartan]] ([[Cartan geometry]]) a
 
 Textbook accounts:
 
-* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of: _Lectures on differential geometry_, Prentice-Hall 1964, 
+* {#Sternberg64} [[Shlomo Sternberg]], chapter VII of: _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBNJ:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
 
-  2nd edition AMS 1983 ([ISBN:978-0-8218-1385-0](https://bookstore.ams.org/chel-316))
 
 * [[Shoshichi Kobayashi]], _Transformation Groups in Differential Geometry_ 1972, reprinted as: Classics in Mathematics Vol. 70, Springer 1995 ([doi:10.1007/978-3-642-61981-6](https://link.springer.com/book/10.1007/978-3-642-61981-6))
 
