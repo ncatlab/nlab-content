@@ -76,17 +76,17 @@ Elimination rules for equivalence types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(e, x, y) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{bitotwitn}(e):\mathrm{isOneToOne}(\chi.\gamma.\mathrm{toCorr}(e))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash 121\mathrm{witn}(e):\mathrm{isOneToOne}(\chi.\gamma.\mathrm{toCorr}(e))}$$
 
 Computation rules for equivalence types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isOneToOne}(\chi.\gamma.R)}{\Gamma, x:A, y:B \vdash \mathrm{toCorr}(\mathrm{toEquiv}_{\chi.\gamma.R}(p), x, y) \equiv R(x, y) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isOneToOne}(\chi.\gamma.R)}{\Gamma \vdash \mathrm{bitotwitn}(\mathrm{toEquiv}_{\chi.\gamma.R}(p)) \equiv p:\mathrm{isOneToOne}(\chi.\gamma.R)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isOneToOne}(\chi.\gamma.R)}{\Gamma \vdash 121\mathrm{witn}(\mathrm{toEquiv}_{\chi.\gamma.R}(p)) \equiv p:\mathrm{isOneToOne}(\chi.\gamma.R)}$$
 
 Uniqueness rules for equivalence types:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:A, y:B \vdash \mathrm{toEquiv}_{\chi.\gamma.\mathrm{toCorr}(e)}(\mathrm{bitotwitn}(e)) \equiv e:A \simeq B}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma, x:A, y:B \vdash \mathrm{toEquiv}_{\chi.\gamma.\mathrm{toCorr}(e)}(121\mathrm{witn}(e)) \equiv e:A \simeq B}$$
 
 #### Half-adjoint equivalence types
 
