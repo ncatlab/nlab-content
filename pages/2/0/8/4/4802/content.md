@@ -511,6 +511,12 @@ See also at [[field (physics)]] the section on _[Ordinary gravity](field%20%28ph
 
 ## References
 
+Original discussion in [[Élie Cartan]]'s reformulation of [[Riemannian geometry]] ([[Cartan geometry]]):
+
+* [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Chapter 1 of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
+
+
+Review in the context of [[first-order formulation of gravity]]:
 
 * [[Pietro Fré]], §3.2.5, §5.2.1 in: *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
 
