@@ -142,6 +142,19 @@ Since topological manifolds are [[locally compact topological spaces]] ([this ex
 
 =--
 
+\begin{proposition}\label{ExistenceOfSiceCharts}
+**(submanifolds admit slice charts)**
+For $X$ a [[smooth manifold]] and
+$\iota \colon \Sigma \hookrightarrow X$ the [[embedding of smooth manifolds|embedding]] of a [[submanifold]], then there exists *slice charts*:
+
+For each point $\sigma \in \Sigma$ there is a [[coordinate chart]] $X \supset U \xrightarrow{\phi} \mathbb{R}^n$ of $X$ such that $\sigma \in U \subset M$ and $\phi(\Sigma \cap U)$ is a rectilinear [[hyperplane]] in $\phi(U) \subset \mathbb{R}^n$. 
+\end{proposition}
+
+(e.g. [Lee 2012, Thm. 5.8](#Lee12))
+
+hupf
+
+
 ### Embedding into Euclidean space
  {#EmbeddingIntoEuclideanSpace}
 
@@ -386,11 +399,14 @@ Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$
 
 * [[hypersurface]]
 
+
 ## References
 
 Monographs:
 
 * {#Boothby} [[William M. Boothby]], Def. III 4.11 in: *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
+
+* {#Lee12} [[John Lee]], Chapter 5 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
 
 
 Lecture notes:
