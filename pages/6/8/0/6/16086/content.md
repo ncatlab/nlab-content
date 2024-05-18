@@ -5,7 +5,7 @@
 
 ## Definition
 
-A _frame field_ is a [[section]] of a [[frame bundle]] (of a [[manifold]]), hence a collection of [[vector fields]] that form a [[basis of a vector space|basis]] of the [[tangent space]] at each point.
+A _frame field_ is locally a [[section]] of a [[frame bundle]] (of a [[manifold]]), hence a collection of [[vector fields]] that form a [[basis of a vector space|basis]] of the [[tangent space]] at each point.
 
 ## Related concepts
 
@@ -17,6 +17,11 @@ A _frame field_ is a [[section]] of a [[frame bundle]] (of a [[manifold]]), henc
 
 ## References
 
+On [[submanifolds]] of [[Euclidean space]] via (the [[algebraic geometry]] of) their higher-dimensional [[coframe fields]]:
+
+* {#GriffithsHarris79} [[Phillip Griffiths]], [[Joseph Harris]], *Algebraic geometry and local differential geometry*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 12 no. 3 (1979) 355-452 &lbrack;[numdam:ASENS_1979_4_12_3_355_0](http://www.numdam.org/item/?id=ASENS_1979_4_12_3_355_0)&rbrack;
+
+In the context of [[first-order formulation of gravity]]:
 
 * [[Pietro Fré]], §3.2.5 in: *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
 
