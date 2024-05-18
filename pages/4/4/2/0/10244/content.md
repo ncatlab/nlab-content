@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
 =--
 =--
 
@@ -17,13 +21,64 @@
 
 ## Idea
 
-The "doubly supersymmetric geometric approach" ([BPSTV 95](#BPSTV95), [Howe-Sezgin 97](#HoweSezgin97)), also called the _super-embedding approach_ ([Sorokin 99](#Sorokin99)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
+The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin & Volkov 1995](#BPSTV95), [Howe & Sezgin 1997](#HoweSezgin97)), later named the _super-embedding approach_ ([Sorokin 1999](#Sorokin99)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/pBraneEmbedding.jpg" width="800">
 </center>
 
 > graphics grabbed from [FSS 19c](#FSS19c)
+
+
+{#SuperEmbeddingCondition} The central observation of the super-embedding approach is that the [[equations of motion]] of [[super p-brane]] [[sigma-models]] are identified with nothing but a natural **super-embedding condition** on the [[super co-frame field]] on [[target spacetime|target]] [[superspacetime]] relative to the [[embedding of smooth manifolds|embedding]] $\phi \colon \Sigma \to X$ (really just: [[immersion]]) of the [[super p-brane|brane]]'s [[worldvolume]] [[supermanifold]]:
+
+1. on the bosonic components $E^a$ of the [[super co-frame field]] on [[target spacetime|target]] [[super-spacetime]], the *super-embedding condition* is &lbrack;[Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23), strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95)&rbrack;:
+
+   \[
+     \label{BosonicSuperEmbeddingCondition}
+     \phi^\ast
+     \, E^a
+     \;\;
+     =
+     \;\;
+     \left\{
+     \,
+     \begin{array}{l}
+       e^a & \text{for}\; a \leq p
+       \\
+       0   & \text{for}\, a \gt p
+       \mathrlap{\,,}
+     \end{array}
+     \right.
+   \]
+
+   where $e^a$ are the bosonic components of the co-frame field on $\Sigma$, and where $1+p \coloneqq dim(\Sigma)$ is the [[dimension of a manifold|dimension]] of its [[underlying]] bosonic [[smooth manifold|manifold]];
+
+
+1. on the fermionic components $\Psi$ of the [[super co-frame field]] on [[target spacetime|target]] [[super spacetime]] the condition is &lbrack;[Bandos & Sorokin 2023 (5.26)](#BandosSorokin23)&rbrack;
+
+   \[
+     \label{FermionicSuperEmbeddingCondition}
+     \phi^\ast
+     \, P \Psi
+     \;\;
+     =
+     \;\;
+     \psi
+     \,,
+   \]
+
+   where $P \coloneqq \tfrac{1}{2}(1 + \Gamma_{p+1} \cdots \Gamma_d)$ is the transversal fermionic projector and
+  $\psi$ are the fermionic components of the co-frame field on $\Sigma$.
+
+Here we may observe that a co-frame satisfying the bosonic "super-embedding condition" (eq:BosonicSuperEmbeddingCondition) is algebraically what is known in the mathematical literature as a (higher dimensional) *[[Darboux coframe]]* for the given [[immersion]], see [there](Riemannian+immersion#DarbouxCoFramePullingBackToCoframeOnImmersedManifold).
+
+Crucially, the would-be fermionic Darboux-condition $\phi^\ast \overline{P} \Psi = 0$ is *not* imposed (analogous to how the [[superspace]]-formulation of the target [[supergravity]] imposes the [[supergravity torsion constraint|torsion constraint]] just on the bosonic coframe components): Remarkably, it turns out that the freedom in violating this would-be constraint accounts exactly for the presence of [[flux densities]] of [[higher gauge fields]] on the [[super p-brane|brane]]'s [[worldvolume]] for the [[D-branes]] (with their [[Chan-Paton gauge field]]) and for the [[M5-brane]] (with its [[self-dual higher gauge theory|self-dual]] [[B-field]] in the [[D=6 N=(2,0) SCFT]]).
+
+
+
+
+
 
 
 ## Properties
