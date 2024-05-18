@@ -68,6 +68,13 @@ On ([[isometric immersions|isometric]]) [[submanifolds]] of [[Euclidean space]] 
 
 * {#GriffithsHarris79} [[Phillip Griffiths]], [[Joseph Harris]], *Algebraic geometry and local differential geometry*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 12 no. 3 (1979) 355-452 &lbrack;[numdam:ASENS_1979_4_12_3_355_0](http://www.numdam.org/item/?id=ASENS_1979_4_12_3_355_0)&rbrack;
 
+On submanifolds in the generality of [[supermanifolds]]:
+
+* {#Leites80} [[Dimitry A. Leites]], Section III.2 in: *Introduction to the Theory of Supermanifolds*, Russ. Math. Surv. **35** 1 (1980) &lbrack;[doi:10.1070/RM1980v035n01ABEH001545](https://doi.org/10.1070/RM1980v035n01ABEH001545), [MathNet](https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=3160),  [iop](https://iopscience.iop.org/article/10.1070/RM1980v035n01ABEH001545), [pdf](https://www.mathnet.ru/links/200982577ff2b02bc93b2a05da9ce149/rm3160_eng.pdf)&rbrack;
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], Section 4.7 in: _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
+
+
 
 
 [[!redirects submanifolds]]
