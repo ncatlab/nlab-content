@@ -68,6 +68,11 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 ## References
 
+Historical discussion:
+
+* [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Chapter 8 of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
+
+
 Discussion with an eye towards application in ([[particle physics|particle]]) [[physics]]:
 
 * [[Theodore Frankel]], section 2.4 in: _[[The Geometry of Physics - An Introduction]]_
