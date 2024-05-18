@@ -51,12 +51,18 @@ For each point $\sigma \in \Sigma$ there is a [[coordinate chart]] $X \supset U 
 
 ## References
 
-* {#Lee12} [[John Lee]], Chapter 5 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+Textbook account:
 
+* {#Lee12} [[John Lee]], Chapter 5 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
 
 See also
 
 * Wikipedia, _[Submanifold](https://en.wikipedia.org/wiki/Submanifold)_
+
+On ([[isometric immersions|isometric]]) [[submanifolds]] of [[Euclidean space]] via (the [[algebraic geometry]] of) their higher-dimensional [[coframe fields]]:
+
+* {#GriffithsHarris79} [[Phillip Griffiths]], [[Joseph Harris]], *Algebraic geometry and local differential geometry*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 12 no. 3 (1979) 355-452 &lbrack;[numdam:ASENS_1979_4_12_3_355_0](http://www.numdam.org/item/?id=ASENS_1979_4_12_3_355_0)&rbrack;
+
 
 
 [[!redirects submanifolds]]
