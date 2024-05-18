@@ -49,11 +49,14 @@ Historical origins:
 
 Modern accounts:
 
-* Manfredo P. Do Carmo, *Differential Geometry of Curves and Surfaces*, Prentice-Hall (1976) $[$[pdf](http://www2.ing.unipi.it/griff/files/dC.pdf)$]$
+* Manfredo P. Do Carmo, *Differential Geometry of Curves and Surfaces*, Prentice-Hall (1976) &lbrack;[pdf](http://www2.ing.unipi.it/griff/files/dC.pdf)&rbrack;
 
-* Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) $[$[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)$]$
+* [[Heinrich W. Guggenheimer]], *Differential Geometry*, Dover (1977) &lbrack;[isbn:9780486634333](https://store.doverpublications.com/products/9780486634333), [ark:/13960/t9t22sk9n](https://archive.org/details/differentialgeom0000gugg/)&rbrack;
 
-* Anton Petrunin, Sergio Zamora Barrera, *What is differential geometry: curves and surfaces* $[$[arXiv:2012.11814](https://arxiv.org/abs/2012.11814)$]$
+
+* Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)&rbrack;
+
+* Anton Petrunin, Sergio Zamora Barrera, *What is differential geometry: curves and surfaces* &lbrack;[arXiv:2012.11814](https://arxiv.org/abs/2012.11814)&rbrack;
 
 See also:
 
