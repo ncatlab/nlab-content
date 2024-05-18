@@ -21,7 +21,7 @@
 
 ## Idea
 
-The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin & Volkov 1995](#BPSTV95), [Howe & Sezgin 1997](#HoweSezgin97)), later named the _super-embedding approach_ ([Sorokin 1999](#Sorokin99)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
+The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin & Volkov 1995](#BPSTV95), [Howe & Sezgin 1997](#HoweSezgin97)), later named the _super-embedding approach_ ([Sorokin 2000](#Sorokin00)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/pBraneEmbedding.jpg" width="800">
@@ -32,7 +32,7 @@ The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin &
 
 {#SuperEmbeddingCondition} The central observation of the super-embedding approach is that the [[equations of motion]] of [[super p-brane]] [[sigma-models]] are identified with nothing but a natural **super-embedding condition** on the [[super co-frame field]] on [[target spacetime|target]] [[superspacetime]] relative to the [[embedding of smooth manifolds|embedding]] $\phi \colon \Sigma \to X$ (really just: [[immersion]]) of the [[super p-brane|brane]]'s [[worldvolume]] [[supermanifold]]:
 
-1. on the bosonic components $E^a$ of the [[super co-frame field]] on [[target spacetime|target]] [[super-spacetime]], the *super-embedding condition* is &lbrack;[Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23), strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95)&rbrack;:
+1. on the bosonic components $E^a$ of the [[super co-frame field]] on [[target spacetime|target]] [[super-spacetime]], the *super-embedding condition* is &lbrack;[Sorokin 2000 (4.36-37)](#Sorokin00); [Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23), strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95)&rbrack;:
 
    \[
      \label{BosonicSuperEmbeddingCondition}
@@ -55,7 +55,7 @@ The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin &
    where $e^a$ are the bosonic components of the co-frame field on $\Sigma$, and where $1+p \coloneqq dim(\Sigma)$ is the [[dimension of a manifold|dimension]] of its [[underlying]] bosonic [[smooth manifold|manifold]];
 
 
-1. on the fermionic components $\Psi$ of the [[super co-frame field]] on [[target spacetime|target]] [[super spacetime]] the condition is &lbrack;[Bandos & Sorokin 2023 (5.26)](#BandosSorokin23)&rbrack;
+1. on the fermionic components $\Psi$ of the [[super co-frame field]] on [[target spacetime|target]] [[super spacetime]] the condition is &lbrack;[Sorokin 2000 (4.46)](#Sorokin00); [Bandos & Sorokin 2023 (5.26)](#BandosSorokin23)&rbrack;
 
    \[
      \label{FermionicSuperEmbeddingCondition}
@@ -85,7 +85,7 @@ Crucially, the would-be fermionic Darboux-condition $\phi^\ast \overline{P} \Psi
 ### $\kappa$-Symmetry as super-general covariance
  {#KappaSymmetry}
 
-The notorious phenomenon of [[kappa-symmetry]] in [[Green-Schwarz sigma-models]] is revealed by the superembedding approach to be nothing but the odd-graded components of the [[super-diffeomorphism]] [[invariant|invariance]] on the [[worldvolume]], hence: of super-[[general covariance]] ([Sorokin-Tkach-Volkov 89](#SorokinTkachVolkov89), review includes [Sorokin 99, section 4.3](#Sorokin99), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)): 
+The notorious phenomenon of [[kappa-symmetry]] in [[Green-Schwarz sigma-models]] is revealed by the superembedding approach to be nothing but the odd-graded components of the [[super-diffeomorphism]] [[invariant|invariance]] on the [[worldvolume]], hence: of super-[[general covariance]] ([Sorokin-Tkach-Volkov 89](#SorokinTkachVolkov89), review includes [Sorokin 00, section 4.3](#Sorokin0), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)): 
 
 If 
 
@@ -141,7 +141,7 @@ $$
 
 (meaning that this [[subgroup]] is the [[stabilizer subgroup]] of the embedding). 
 
-Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (with $\mathbf{32}$ the irreducible [[Majorana spinor]] representation in 11), hence the local model [[superspace]] for [[super spacetimes]] in [[11-dimensional supergravity]]. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the [spinor bilinear pairing](Majorana+spinor#TheSpinorPairingToVectors) $\overline{\psi}_1 \Gamma \psi_2$ on that subspace lands in $\mathbb{R}^{2,1} \hookrightarrow Iso(2,1) \hookrightarrow Iso(10,1)$ ([Sorokin 99, section 5.1](#Sorokin99)). This is found to be the case for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
+Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (with $\mathbf{32}$ the irreducible [[Majorana spinor]] representation in 11), hence the local model [[superspace]] for [[super spacetimes]] in [[11-dimensional supergravity]]. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the [spinor bilinear pairing](Majorana+spinor#TheSpinorPairingToVectors) $\overline{\psi}_1 \Gamma \psi_2$ on that subspace lands in $\mathbb{R}^{2,1} \hookrightarrow Iso(2,1) \hookrightarrow Iso(10,1)$ ([Sorokin 2000, section 5.1](#Sorokin00)). This is found to be the case for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
 
 
 $$
@@ -209,11 +209,17 @@ Under the name "doubly supersymmetric geometrical approach" the approach origina
 
 * {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113), <a href="https://doi.org/10.1016/0550-3213(95)00267-V">doi:10.1016/0550-3213(95)00267-V</a>&rbrack;
 
-* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
+* {#HoweSezgin97a} [[Paul S. Howe]], [[Ergin Sezgin]], *Superbranes*, Phys. Lett. B **390** (1997) 133-142 &lbrack;[arXiv:hep-th/9607227](https://arxiv.org/abs/hep-th/9607227), <a href="https://doi.org/10.1016/S0370-2693(96)01416-5">doi:10.1016/S0370-2693(96)01416-5</a>&rbrack;
 
-Elaboration and the coinage "super-embedding" is due to:
+* {#HoweSezgin97} [[Paul S. Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
 
-* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
+The terminology "superembedding" arises with:
+
+* [[Paul S. Howe]], O. Raetzel, [[Ergin Sezgin]], *On Brane Actions and Superembeddings*, JHEP 9808 (1998) 011 &lbrack;[arXiv:hep-th/9804051](https://arxiv.org/abs/hep-th/9804051), [doi:10.1088/1126-6708/1998/08/011](https://doi.org/10.1088/1126-6708/1998/08/011)&rbrack;
+
+and a more elaborate discussion originates with:
+
+* {#Sorokin00} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
 
 Review:
@@ -237,11 +243,12 @@ The [[supergeometry|super-geometric]] interpretation of [[kappa-symmetry]] as th
 
 * {#SorokinTkachVolkov89} [[Dmitri Sorokin]], [[Vladimir Tkach]], [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A **4** 10 (1989) 901-908 &lbrack;[spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064)&rbrack;
 
-Review of this perspective includes
+Review of this perspective includes:
 
-* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* {#Sorokin00} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
-* {#HoweSezgin04} [[Paul Howe]], [[Ergin Sezgin]], section 4.3 of _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+* {#HoweSezgin04} [[Paul Howe]], [[Ergin Sezgin]], section 4.3 of: _The supermembrane revisited_, Class. Quant. Grav. **22** (2005) 2167-2200 &lbrack;[arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245)&rbrack;
+
 
 ### For the superstring
 
@@ -275,7 +282,7 @@ following the [[superspace]]-computations in
 
 reviewed in
 
-* [Sorokin 99, Section 5.2](#Sorokin99)
+* [Sorokin 2000, Section 5.2](#Sorokin00)
 
 Discussion for 3+3-dimensional split:
 
