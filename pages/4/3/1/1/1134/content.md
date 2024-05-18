@@ -46,7 +46,7 @@ See at _[[geometry of physics -- supergeometry]]_ the section _[Supermanifolds](
  {#AsLocallyRingedSpace}
 
 We discuss a description of supermanifolds that goes back to 
-([BerezinLeites](BerezinLeites)).
+([Berezin & Leites 1975](#BerezinLeites75)).
 
 ### Definition
 
@@ -116,7 +116,8 @@ Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ whe
 
 =--
 
-([Batchelor 1979](#Batchelor79), reviewed in [Batchelor 1984, §1.13](#Batchelor84))
+([Batchelor 1979](#Batchelor79) reviewed in [Batchelor 1984, §1.13](#Batchelor84); [Rogers 2007, §8.2](#Rogers07))
+
 
 
 +-- {: .num_remark}
@@ -292,9 +293,11 @@ Discussion from the point of view of [[functorial geometry]]:
 
 ### As locally ringed spaces
 
-* {#BerezinLeites} [[Felix Berezin]], D. A. Le&#301;tes, _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976).
+* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]], _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976) &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
 
 * {#Batchelor79} [[Marjorie Batchelor]], *The structure of supermanifolds*, Trans. Amer. Math. Soc. **253** (1979) 329-338 &lbrack;[doi:10.1090/S0002-9947-1979-0536951-0](https://doi.org/10.1090/S0002-9947-1979-0536951-0)&rbrack;
+
+* {#Leites80} [[Dimitry A. Leites]], *Introduction to the Theory of Supermanifolds*, Russ. Math. Surv. **35** 1 (1980) &lbrack;[doi:10.1070/RM1980v035n01ABEH001545](https://doi.org/10.1070/RM1980v035n01ABEH001545), [MathNet](https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=3160),  [iop](https://iopscience.iop.org/article/10.1070/RM1980v035n01ABEH001545), [pdf](https://www.mathnet.ru/links/200982577ff2b02bc93b2a05da9ce149/rm3160_eng.pdf)&rbrack;
 
 * {#Batchelor84} [[Marjorie Batchelor]], *Graded Manifolds and Supermanifolds* in: *Mathematical Aspects of Superspace*, NATO ASI Series **132**, Springer (1984) 91-134 &lbrack;[doi:10.1007/978-94-009-6446-4_4](https://doi.org/10.1007/978-94-009-6446-4_4)&rbrack;
 
@@ -348,7 +351,7 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 ### As manifolds modelled on Grassmann algebras
 
-* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1984  
+* {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
 
 * {#Rogers07} [[Alice Rogers]], *Supermanifolds: Theory and Applications*, World Scientific (2007) &lbrack;[doi:10.1142/1878](https://doi.org/10.1142/1878)&rbrack;
 
@@ -379,9 +382,9 @@ See also:
 
 * [[Pierre Deligne]], P. Etingof, [[Daniel Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-* V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
+* {#Varadarajan04} [[Veeravalli Varadarajan]], *The Concept of a Supermanifold* and *Elementary Theory of Supermanifolds*, Chapters 2 and 4 in: _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
 
-* [[Alberto S. Cattaneo]], Florian Schaetz, _Introduction to supergeometry_, [arxiv/1011.3401](http://arxiv.org/abs/1011.3401)
+* [[Alberto S. Cattaneo]], [[Florian Schaetz]], _Introduction to supergeometry_ &lbrack;[arxiv/1011.3401](http://arxiv.org/abs/1011.3401)&rbrack;
 
 There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra|supersymmetries]] rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
 
