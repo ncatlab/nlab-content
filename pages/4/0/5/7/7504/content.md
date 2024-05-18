@@ -15,9 +15,9 @@
 
 ## Idea
 
-In [[type theory]], a **negative type** is one whose *eliminators* are regarded as primary.  Its constructors are derived from these by the rule that "to construct an element of a negative type, it is necessary and sufficient to specify how that element behaves upon applying all of the eliminators to it".
+In [[type theory]], a **negative type** is one whose *[[term elimination|eliminators]]* are regarded as primary.  Its [[term introduction|constructors]] are derived from these by the rule that "to construct an element of a negative type, it is necessary and sufficient to specify how that element behaves upon applying all of the eliminators to it".
 
-The opposite notion is a [[positive type]], forming two [[polarity in type theory|polarities]].
+The opposite notion is that of a *[[positive type]]*, forming two [[polarity in type theory|polarities of type theory]].
 
 In [[categorical semantics]] of type theory, negative types correspond to "from the right" [[universal properties]] (i.e. for mapping in).
 
