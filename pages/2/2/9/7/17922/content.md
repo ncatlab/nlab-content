@@ -49,11 +49,20 @@ For more see at _[[geometry of physics -- supersymmetry]]_.
 [[!redirects supervielbein]]
 [[!redirects supervielbeins]]
 
-[[!redirects super frame field]]
-[[!redirects super frame fields]]
-
 [[!redirects super-vielbein field]]
 [[!redirects super-vielbein fields]]
 
 [[!redirects supervielbein field]]
 [[!redirects supervielbein fields]]
+
+[[!redirects super frame field]]
+[[!redirects super frame fields]]
+
+[[!redirects super co-frame field]]
+[[!redirects super co-frame fields]]
+
+[[!redirects super coframe field]]
+[[!redirects super coframe fields]]
+
+
+
