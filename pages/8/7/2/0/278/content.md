@@ -122,6 +122,9 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * Manfredo P. Do Carmo, *Differential Geometry of Curves and Surfaces*, Prentice-Hall (1976) &lbrack;[pdf](http://www2.ing.unipi.it/griff/files/dC.pdf)&rbrack;
 
+* [[Heinrich W. Guggenheimer]], *Differential Geometry*, Dover (1977) &lbrack;[isbn:9780486634333](https://store.doverpublications.com/products/9780486634333), [ark:/13960/t9t22sk9n](https://archive.org/details/differentialgeom0000gugg/)&rbrack;
+
+
 * Victor A. Toponogov, *Differential Geometry of Curves and Surfaces --- A Concise Guide*, Springer (2006) &lbrack;[doi:10.1007/b137116](https://doi.org/10.1007/b137116)&rbrack;
 
 * Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) $[$[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)$]$
@@ -134,6 +137,7 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 * [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprint: Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
 
 * [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971) &lbrack;[pdf](http://www.strangebeautiful.com/other-texts/spivak-calc-manifolds.pdf)&rbrack;
+
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
 
@@ -169,7 +173,8 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 With emphasis on [[G-structures]]:
 
-* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964)
+* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBNJ:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
+
 
 With emphasis on [[natural bundles]]:
 
