@@ -414,4 +414,6 @@ Discussion of embeddings of [[spheres]] into each other (generalizing the concep
 [[!redirects embedding of smooth manifolds]]
 [[!redirects embeddings of smooth manifolds]]
 
+[[!redirects embedding of smooth submanifolds]]
+[[!redirects embeddings of smooth submanifolds]]
 
