@@ -18,12 +18,14 @@
 {:toc}
 
 
+
+## Idea
+
+
 > In the wake of the movement of ideas which followed the [[general relativity|general theory of relativity]], I was led to introduce the notion of new geometries, more general than [[Riemannian geometry]], and playing with respect to the different [[Klein geometries]] the same role as the [[Riemannian geometries]] play with respect to [[Euclidean space]]. The vast synthesis that I realized in this way depends  of course on the ideas of [[Felix Klein|Klein]] formulated in his celebrated [[Erlangen program|Erlangen programme]] while at the same time going far beyond it since it includes [[Riemannian geometry]], which had formed a completely isolated branch of geometry, within the compass of a very general scheme in which the notion of [[group]] still plays a fundamental role. 
 
 > &lbrack;[[Élie Cartan]] 1939, as quoted in [Sharpe 1997, p. 171](#Sharpe97)&rbrack;
 
-
-## Idea
 
 **Cartan geometry** is [[geometry]] of [[spaces]] that are locally (infinitesimally, tangentially) like [[coset spaces]] $G/H$, i.e. like [[Klein geometries]].  Intuitively, Cartan geometry studies the geometry of a [[manifold]] by 'rolling without sliding' the 'model geometry' $G/H$ along it. Hence Cartan geometry may be thought of as the globalization of the program of [[Klein geometry]] initiated in the [[Erlangen program]].
 
