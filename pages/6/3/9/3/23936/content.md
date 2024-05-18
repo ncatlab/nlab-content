@@ -53,6 +53,7 @@ Modern accounts:
 
 * [[Heinrich W. Guggenheimer]], *Differential Geometry*, Dover (1977) &lbrack;[isbn:9780486634333](https://store.doverpublications.com/products/9780486634333), [ark:/13960/t9t22sk9n](https://archive.org/details/differentialgeom0000gugg/)&rbrack;
 
+* [[Victor A. Toponogov]], *Differential Geometry of Curves and Surfaces -- A Concise Guide*, Springer (2006) &lbrack;[doi:10.1007/b137116](https://doi.org/10.1007/b137116)&rbrack;
 
 * Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)&rbrack;
 
