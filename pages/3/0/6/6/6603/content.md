@@ -16,7 +16,7 @@ On [[supersymmetry]] and the [[equivariant de Rham complex]]:
 
 On [[differential geometry]] (including [[G-structures]]):
 
-* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), 2nd edition AMS 1983 ([ISBN:978-0-8218-1385-0](https://bookstore.ams.org/chel-316))
+* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBNJ:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
 
 On [[group theory]] and [[physics]]:
 
