@@ -51,6 +51,11 @@ For each point $\sigma \in \Sigma$ there is a [[coordinate chart]] $X \supset U 
 
 ## References
 
+Historical discussion for submanifolds of [[Euclidean space]]:
+
+* [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Part E of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
+
+
 Textbook account:
 
 * {#Lee12} [[John Lee]], Chapter 5 of: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
