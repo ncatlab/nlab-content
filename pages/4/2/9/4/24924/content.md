@@ -68,5 +68,10 @@ Debate between a proponent and a critic :
 
 * {#PeningtonRaju24} *Islands and Black Hole Information ft. [[Suvrat Raju]] and [[Geoff Penington]]*, podcast at *[Theoretically Podcasting](https://www.youtube.com/@theoreticallypodcasting7390)* (9 Mar 2024)  \[<a href="https://youtu.be/ZCIho8geEfI">YT</a>\]
 
+See also:
+
+* [[Samir Mathur]], podcast comment (2024) &lbrack;[x:1789623310348698044](https://x.com/Hassaan_PHY/status/1789623310348698044)&rbrack;
+
+
 
 
