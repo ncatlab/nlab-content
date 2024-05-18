@@ -17,15 +17,21 @@
 
 This page collects hyperlinks related to the textbook
 
-* [[Veeravalli Varadarajan]],
+* [[Veeravalli Varadarajan]]:
 
-  _Supersymmetry for mathematicians: An introduction_, 
+  \linebreak
 
-  Courant Lecture Notes in Mathematics, 
+  **Supersymmetry for mathematicians: An introduction**
 
-  American Mathematical Society, Providence, R.I 2004
+  \linebreak
+
+  Courant Lecture Notes in Mathematics **11**
+
+  American Mathematical Society (2004)
 
   [doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)
+
+  <a href="http://dec1.sinp.msu.ru/~panov/LibBooks/SUSY/(Courant_Lecture_Notes_11)V._S._Varadarajan-Supersymmetry_for_Mathematicians__An_Introduction_(Courant_Lecture_Notes)-American_Mathematical_Society(2004).pdf">pdf</a>
 
 on [[supergeometry]], [[spin geometry]], [[super groups]], the [[super Poincaré group]] and [[supersymmetry]] in [[quantum field theory]].
 
