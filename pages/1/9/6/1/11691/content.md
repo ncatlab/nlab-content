@@ -8,6 +8,10 @@ On [[rational homotopy theory]] of [[Kähler manifolds]] and the statement that 
 
 * {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
+On ([[isometric immersions|isometric]]) [[submanifolds]] of [[Euclidean space]] via (the [[algebraic geometry]] of) their higher-dimensional [[coframe fields]]:
+
+* {#GriffithsHarris79} [[Phillip Griffiths]], [[Joseph Harris]], *Algebraic geometry and local differential geometry*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 12 no. 3 (1979) 355-452 &lbrack;[numdam:ASENS_1979_4_12_3_355_0](http://www.numdam.org/item/?id=ASENS_1979_4_12_3_355_0)&rbrack;
+
 
 On [[isometry|isometric]] [[Riemannian immersion|Riemannian]] [[embedding of smooth manifolds|embeddings]]:
 
