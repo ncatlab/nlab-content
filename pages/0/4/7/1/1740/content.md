@@ -1,5 +1,7 @@
 In the noncommutative case, [[determinant]]s are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree over noncommutative [[ring]]s) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and [[Dieudonné determinant]] are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
 
+A quasideterminant generalizes a ratio of $n\times n$-determinant and a $(n-1)\times(n-1)$ minor. Special cases of useful polynomial determinants like the usual determinant, superdeterminant, quantum determinant and Dieudonné determinant can be obtained as products of quasideterminants.
+
 
 ## Definition
 
@@ -18,9 +20,7 @@ provided the right-hand side is defined (the corresponding inverses exist).
 ## Properties
 
 Up to $n^2$ quasideterminants of a given $A \in M_n(R)$
-may be defined. If all the $n^2$ quasideterminants $|A|_{ij}$ exist
-and are invertible then the inverse $A^{-1}$ of $A$ exists in
-$M_n(R)$ and
+may be defined. If all the $n^2$ quasideterminants $|A|_{ij}$ exist and are invertible then the [[inverse matrix]] $A^{-1}$ of $A$ exists in $M_n(R)$ and
 
 $$
 (|A|_{ji})^{-1} = (A^{-1})^i_j.
