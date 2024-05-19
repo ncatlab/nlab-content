@@ -15,14 +15,33 @@
 
 
 
+## Idea
+
+$n\times n$ matrices with entries in a unital ring $R$ form a unital ring $Mat_{n \times n}(R)$ with unit $I_n$ (diagonal matrix whose each entry at the main diagonal is $1_R$). A matrix $A\in Mat_{n \times n}(R)$ is invertible (also said regular) if it has a two-sided inverse $A^{-1}$ in that unital ring, called the matrix inverse (or inverse matrix) of $A$. In other words, it is a matrix satisfying $A A^{-1} = I_n = A^{-1} A$.
+
+## Variants
+
+#### One-sided inverses
+
+Sometimes one-sided inverses in $Mat_{n \times n}(R)$ are also useful as well as one-sided inverses of rectangular matrices.
+
+#### Schur complement
+
+Sometimes, an inverse matrix does not exist but formulas for some entries of inverse matrix make sense. Related  expressions include [[quasideterminant]]s and [[Schur complement]], see there.
+
+#### Moore--Penrose inverse
+
+A generalized inverse $A^{-1}$ satisfying weaker requirement $A A^{-1} A = I_n$ and $A^{-1} = A^{-1} A A^{-1}$ is sometimes useful, especially in applied mathematics and approximation theory. These identities play role also in [[inverse semigroup]]s.
+
+In the case of matrices, such generalized inverse is known as Moore--Penrose inverse.
+
 ## Properties
 
 +-- {: .num_prop #FundamentalTheoremOfLinearAlgebra}
 ###### Proposition
 **(fundamental theorem of invertible matrices)**
 
-For $n \in \mathbb{N}$ and $A \in Mat_{n \times n}(k)$
-a [[square matrix]], the following are equivalent:
+If $R = k$ is a field, $n \in \mathbb{N}$ and $A \in Mat_{n \times n}(k)$ a [[square matrix]], the following are equivalent:
 
 1. $A$ is an invertible matrix;
 
@@ -31,6 +50,10 @@ a [[square matrix]], the following are equivalent:
 =--
 
 ## Related concepts
+
+* [[quasideterminant]]
+
+* [[Gaussian elimination]]
 
 * [[rank of a matrix]]
 
@@ -42,7 +65,7 @@ a [[square matrix]], the following are equivalent:
 
 ## References
 
-* Wikipedia, _[Invertible matrix](https://en.wikipedia.org/wiki/Invertible_matrix)_
+* Wikipedia, _[Invertible matrix](https://en.wikipedia.org/wiki/Invertible_matrix)_, _[Moore--Penrose inverse](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse)_
 
 * WolframMathWorld, _[Invertible Matrix Theorem](http://mathworld.wolfram.com/InvertibleMatrixTheorem.html)_
 
