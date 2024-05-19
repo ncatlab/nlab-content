@@ -18,15 +18,12 @@
 
 What is called _Gaussian elimination_ is an [[algorithm]] for solving systems of [[linear equations]]. It proceeds by encoding the system as a [[matrix]] equation
 $$
- A x = b
+ A \, x = b
 $$
 where $b$ is a column matrix of free coefficients, $x$ is a column vector of unknowns, and $A$ is the matrix of coefficients. The entire system is therefore encoded by the matrix of the system which is in block form $(A | b)$. The algorithm consists of applying [[elementary row operations]] in a systematic way to bring it into [[upper triangular form]].
 
 ## Variants
 
-### In constructive mathematics
-
-Gaussian elimination only works for [[discrete fields]] such as the [[rational numbers]] or the [[algebraic numbers]]. The algorithm does not work for other types of fields such as [[Heyting fields]], which means that it doesn't work for the [[real numbers]], however defined. 
 
 ### Over noncommutative rings
 
