@@ -1,9 +1,12 @@
+### Disambiguation
 
 There are at least two Alexander Rosenbergs (and one [[Jonathan Rosenberg]]) in mathematics: 
 
 * algebraist Alex (Alexander) Rosenberg (1926-2007) known for [[Hochschild-Kostant-Rosenberg theorem]] and for many other articles in [[algebra]] (cf. [notices](http://www.spelman.edu/~colm/alexnotices.html))
 
 * Alexander L. Rosenberg (or Sasha Rosenberg) who was a  professor until 2012 at [Kansas State University](http://www.math.ksu.edu).  
+
+# Alexander L. Rosenberg
 
 Sasha Rosenberg had defended in 1973 dissertation at Moscow State University studying [[Tannaka duality|Tannakian reconstruction theorems]], mainly using methods of [[functional analysis]]. His main goals were in [[representation theory]]. Until leaving Soviet Union around 1987, Rosenberg worked in applied mathematics; on the side however he was developing some methods in representation theory which included functional analysis and categorical and ring/module theoretic methods, and the noncommutative localization in particular. A main construction, presented at a conference at Baikal (1981), was a new spectrum of a ring, so-called left spectrum, later generalized to a [[spectrum of an abelian category]], used to prove (in the  quasicompact case) the Gabriel-Rosenberg reconstruction theorem for commutative schemes; more [[spectral theory|spectral]] constructions followed. This work outgrown into a wide ongoing work on foundations of [[noncommutative algebraic geometry]], including a natural definition of [[noncommutative scheme]]. More recently he proposed a new framework for nonabelian derived functors, including a new version of algebraic K-theory. Other related entries in $n$Lab include [[Q-category]], [[neighborhood of a topologizing subcategory]], [[sheaf on a noncommutative space]], [[spectral cookbook]]. 
 
