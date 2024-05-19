@@ -41,7 +41,8 @@ engl. transl. __21__ (1991), pp. 51--58.
 
 * I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, N. S. 3 (1997) no.4, pp. 517--546; [doi](https://doi.org/10.1007/s000290050019)
 
-* D.Krob, B.Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm.Math.Phys. 169 (1995), pp. 1--23 [doi](https://doi.org/10.1007/BF02101594)
+* D.Krob, B.Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594)
+arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
 
 * Chapter 16: Quasideterminants and Cohn localization in [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series 330, ed.  A. Ranicki; pp. 220--313, [arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276))
 
