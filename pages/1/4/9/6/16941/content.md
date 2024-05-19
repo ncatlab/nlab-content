@@ -48,6 +48,8 @@ a [[square matrix]], the following are equivalent:
 
 Formulas for inverses of block matrices:
 
+* (Sec. 2 in) D. Krob, B. Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594) arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
+
 * Tzon-Tzer Lu, Sheng-Hua Shiou, *Inverses of $2 \times 2$ block matrices*, Computers & Mathematics with Applications **43** 1–2 (2002) 119-129 &lbrack;<a href="https://doi.org/10.1016/S0898-1221(01)00278-4">doi:10.1016/S0898-1221(01)00278-4</a>&rbrack;
 
 
