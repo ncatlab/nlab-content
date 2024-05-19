@@ -1,4 +1,22 @@
-In the noncommutative case, [[determinant]]s are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree over noncommutative [[ring]]s) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and [[Dieudonné determinant]] are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+Over non-[[commutative ring|commutative]] [[rings]] [[determinants]] are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree in this case) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and [[Dieudonné determinant]] are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
 
 A quasideterminant generalizes a ratio of $n\times n$-determinant and a $(n-1)\times(n-1)$ minor. Special cases of useful polynomial determinants like the usual determinant, superdeterminant, quantum determinant and Dieudonné determinant can be obtained as products of quasideterminants.
 
@@ -49,4 +67,5 @@ arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
 * [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack; 
 
 category: algebra
+
 [[!redirects quasideterminants]]
