@@ -71,10 +71,9 @@ If $R = k$ is a field, $n \in \mathbb{N}$ and $A \in Mat_{n \times n}(k)$ a [[sq
 
 Formulas for inverses of block matrices:
 
-* (Sec. 2 in) D. Krob, B. Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594) arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
+* D. Krob, B. Leclerc, Sec 2 in: _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. **169** (1995) 1-23 &lbrack;[doi:10.1007/BF02101594](https://doi.org/10.1007/BF02101594), [arXiv:hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)&rbrack;
 
 * Tzon-Tzer Lu, Sheng-Hua Shiou, *Inverses of $2 \times 2$ block matrices*, Computers & Mathematics with Applications **43** 1–2 (2002) 119-129 &lbrack;<a href="https://doi.org/10.1016/S0898-1221(01)00278-4">doi:10.1016/S0898-1221(01)00278-4</a>&rbrack;
-
 
 * {#SD23} Müge Saadetoğlu, Şakir Mehmet Dinsev, *Inverses and Determinants of $n \times n$ Block Matrices*, Mathematics **11** 17 (2023) 3784 &lbrack;[doi:10.3390/math11173784](https://doi.org/10.3390/math11173784)&rbrack;
 
