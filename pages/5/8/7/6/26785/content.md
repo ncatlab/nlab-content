@@ -93,7 +93,7 @@ Now given moreover an [[immersion]] $\phi \colon \Sigma \hookrightarrow X$ into 
     T_{\widehat{\phi(\sigma)}} \widehat{X}
   \]
 
-  ([Sternberg 1964, Def. 2.1 on p. 244](#Sternberg64); [Griffiths & Harris 1979 (1.12)](#GriffithsHarris79); [Berger, Bryant & Griffiths 1983, p. 818](#BergerBryantGriffiths83))
+  ([Sternberg 1964, Def. 2.1 on p. 244](#Sternberg64); [Griffiths & Harris 1979 (1.12)](#GriffithsHarris79); [Berger, Bryant & Griffiths 1983, p. 818](#BergerBryantGriffiths83); [Yang 1992, p. 157](#Yang92))
 
 * such an orthonormal local co-frame $E$ is called *adapted* or *Darboux* (generalizing again the terminology from [[differential geometry of curves and surfaces]], [Cartan 1926, p. 211](#Cartan26)) for $\phi$ if its last $dim(X)-dim(\Sigma)$-components are transversal to $\Sigma$:
 
@@ -140,7 +140,7 @@ is a local frame on $\Sigma$. We may summarize this by saying that a local Darbo
 \]
 (cf. [Griffiths & Harris 1979 (1.13)](#GriffithsHarris79)).
 
-Incidentally, this situation (eq:DarbouxCoframePullsBackToCoframe) of Darboux co-frames, when applied to the bosonic coframe components of [[super spacetimes]], has later independently come to be known as the "embedding condition" in the "[[super-embedding approach]]" to [[super p-branes]] &lbrack;[Sorokin 2000 (4.36-37)](super-embedding+approach#Sorokin00); [Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)&rbrack;, strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95), which is just the first condition in (eq:DarbouxCoframePullsBackToCoframe).
+Incidentally, this situation (eq:DarbouxCoframePullsBackToCoframe) of Darboux co-frames, when lifted/applied to the bosonic coframe components of [[super spacetimes]], has later come to be known as the "embedding condition" in the "[[super-embedding approach]]" to [[super p-branes]] &lbrack;[Sorokin 2000 (4.36-37)](super-embedding+approach#Sorokin00); [Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)&rbrack;, strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95), which is just the first condition in (eq:DarbouxCoframePullsBackToCoframe).
 \end{remark}
 
 
@@ -240,8 +240,9 @@ Hence an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifol
 
 * {#BergerBryantGriffiths83} [[Eric Berger]], [[Robert Bryant]], [[Phillip Griffiths]], *The Gauss equations and rigidity of isometric embeddings*, Duke Math. J. **50** 3 (1983) 803-892 &lbrack;[doi:10.1215/S0012-7094-83-05039-1](http://dx.doi.org/10.1215/S0012-7094-83-05039-1)&rbrack;
 
-
 * {#Zandi88} Ahmad Zandi, *Minimal immersions of surfaces in quaternionic projective space*, Tsukuba Journal of Mathematics **12** 2 (1988) 423-440 &lbrack;[jstor:43686661](https://www.jstor.org/stable/43686661)&rbrack;
+
+* {#Yang92} Kichoon Yang, *Embeddings of $G$-Structures*, chapter VII in: *Exterior Differential Systems and Equivalence Problems*, Mathematics and its Applications **73**, Kluwer (1992), Spinger (1992) &lbrack;[doi:10.1007/978-94-015-8068-7_7](https://doi.org/10.1007/978-94-015-8068-7_7)&rbrack;
 
 * {#HanHong06} Qing Han, Jia-Xing Hong: *Isometric Embedding of Riemannian Manifolds in Euclidean Spaces*, Mathematical Surveys and Monographs **130**, AMS (2006) &lbrack;[ISBN:0821840711](https://maa.org/press/maa-reviews/isometric-embedding-of-riemannian-manifolds-in-euclidean-spaces)&rbrack;
 
