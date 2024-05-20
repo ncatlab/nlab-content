@@ -250,6 +250,15 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](fin
 
 \linebreak
 
+### Irreducible representation on $\mathbb{R}^7$
+
+$SO(3)$ has an [[irreducible representation]] as the group of rotations in $\mathbb{R}^3$. Its action preserves both the [[dot product]] and [[cross product]] there. 
+
+But this is also true of $\mathbb{R}^7$. There is an 
+$SO(3)$ [[subgroup]] of [[G2]] for which the irreducible representation of $G_2$ on $\mathbb{R}^7$ remains irreducible when restricted to this subgroup. $SO(3)$ preserves the dot and cross products defined there in terms of the imaginary [[octonions]].
+
+This $7$-dimensional representation may be realized as the space of harmonic cubic homogeneous polynomials on $\mathbb{R}^3$, otherwise known as the space of $f$-orbital wavefunctions.
+
 ## Related concepts
 
 [[!include low dimensional rotation groups -- table]]
