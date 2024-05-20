@@ -35,7 +35,7 @@ On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
 
 
 
-On obtaining [[massive type IIA supergravity]] from a form o [[D=11 supergravity]]:
+On obtaining [[massive type IIA supergravity]] from a form of [[D=11 supergravity]]:
 
 * [[Paul S. Howe]], [[Neil D. Lambert]], [[Peter C. West]], *A New Massive Type IIA Supergravity From Compactification*, Phys. Lett. B **416** (1998) 303-308 &lbrack;[arXiv:hep-th/9707139](https://arxiv.org/abs/hep-th/9707139), <a href="https://doi.org/10.1016/S0370-2693(97)01199-4">doi:10.1016/S0370-2693(97)01199-4</a>&rbrack;
 
@@ -62,6 +62,11 @@ On [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as 
 On deriving the [[equations of motion]] for the [[M5-brane]] via [[superspace]]-methods ([[superembedding approach]]):
 
 * {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
+
+Amplification that the resulting [[higher gauge field]] on the [[M5-brane]] is *not naively* [[self-dual higher gauge field|self-dual]]:
+
+* {#HoweSezginWest97} [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]], *The six-dimensional self-dual tensor*, Physics Letters B **400** 3–4 (1997) 255-259 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(97)00365-1">doi:10.1016/S0370-2693(97)00365-1</a>&rbrack;
+
 
 On [[E11]]-[[exceptional generalized geometry]] for [[D=11 supergravity]]/[[M-theory]]:
 
