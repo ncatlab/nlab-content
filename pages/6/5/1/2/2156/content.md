@@ -161,3 +161,8 @@ Discussion of plain inner products (without star-involution) in terms of [[self-
 
 [[!redirects scalar product]]
 [[!redirects scalar products]]
+
+[[!redirects dot product]]
+[[!redirects dot products]]
+
+
