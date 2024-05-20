@@ -301,9 +301,15 @@ and following the non-covariant form of the [[self-dual higher gauge field|self-
 
 * [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
 
-Discussion in the [[superembedding approach]] is in 
+Discussion in the [[superembedding approach]];
+
+* {#HoweSezgin97} [[Paul S. Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
 
 * {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
+Amplification that the resulting B-field on the M5-brane is *not naively* self-dual:
+
+* {#HoweSezginWest97} [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]], *The six-dimensional self-dual tensor*, Physics Letters B **400** 3–4 (1997) 255-259 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(97)00365-1">doi:10.1016/S0370-2693(97)00365-1</a>&rbrack;
 
 
 Discussion of the equivalence of these superficially different action functionals is in 
