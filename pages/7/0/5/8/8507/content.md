@@ -152,7 +152,9 @@ These relations we discuss in the following.
 
 * [[matrix calculus]]
 
-* [[determinant]]
+* [[determinant]], [[quasideterminant]]
+
+* [[Gaussian elimination]]
 
 ## References
 
@@ -160,6 +162,13 @@ Discussion in the context of [[syzygies]] and [[projective resolutions]] of modu
 
 * [[Pierre Schapira]], _Categories and homological algebra_, lecture notes (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
 
+Linear equations over [[skewfield]]s were studied in
 
+* [[Oystein Ore]], _Linear equations in non-commutative fields_, Ann. Math. __32__:3 (1931) 463--477 [doi](https://doi.org/10.2307/1968245)
+
+and more lately in the theory of [[quasideterminant]]s, see there.
+
+
+category: algebra
 
 [[!redirects linear equations]]
