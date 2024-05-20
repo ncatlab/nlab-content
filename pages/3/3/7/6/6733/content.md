@@ -551,6 +551,10 @@ see
 
 * {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of: _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
+Amplification that the resulting B-field on the M5-brane is *not naively* [[self-dual higher gauge field|self-dual]]:
+
+* {#HoweSezginWest97} [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]], *The six-dimensional self-dual tensor*, Physics Letters B **400** 3–4 (1997) 255-259 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(97)00365-1">doi:10.1016/S0370-2693(97)00365-1</a>&rbrack;
+
 
 A variant adapted to a 3+3-dimensional split in
 
