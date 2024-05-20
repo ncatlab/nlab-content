@@ -195,7 +195,7 @@ exhibiting [[special orthogonal group|SO(4)]] as a [[group extension]] of the [[
 
 =--
 
-(e.g. [Ferolito, section 4](#Ferolito), see also at *[SO(3) -- Irreps](SO(3)#irreducible_representations)*)
+(e.g. [Ferolito, section 4](#Ferolito), see also at *[SO(3) -- Irreps](SO%283%29#irreducible_representations)*)
 
 
 
