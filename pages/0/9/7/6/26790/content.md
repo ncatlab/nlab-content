@@ -19,12 +19,6 @@ Finitary record types can be defined in terms of the [[unit type]] and iterated 
 
 Infinitary record types have an infinite number of fields and require something like [[two-level type theory]] to be implemented. An example of an infinitary record type is any [[semi-simplicial types in homotopy type theory|semi-simplicial type]]. 
 
-## Related concepts
-
-* [[dependent sum type]]
-
-* [[negative type]]
-
 ## Implementations
 
 Most type-theory based proof assistants include primitive record types, with [[dependent sum types]] defined as a particular case of these, rather than requiring general record types to be defined using dependent sum types.  This includes:
@@ -33,6 +27,16 @@ Most type-theory based proof assistants include primitive record types, with [[d
 * [[Agda]]
 * [[Lean]]
 * [[Narya]]
+
+## Related concepts
+
+* [[dependent sum type]]
+
+* [[negative type]]
+
+## References
+
+* Wikipedia, <a href="https://en.wikipedia.org/wiki/Record_(computer_science)">Record (computer science)</a>
 
 [[!redirects record type]]
 [[!redirects record types]]
