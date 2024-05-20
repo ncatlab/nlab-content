@@ -267,6 +267,8 @@ which might be the first paper to mention intensional equality (and the fact tha
 
 where de Bruijn makes a distinction between definitional equality and "book" equality.
 
+* [[Kevin Buzzard]], *Grothendieck's use of equality* ([arXiv:2405.10387](https://arxiv.org/abs/2405.10387))
+
 [[!redirects equal]]
 [[!redirects equals]]
 [[!redirects equality]]
