@@ -288,7 +288,7 @@ $$
 where in the last line we renamed $\theta_1 \theta_2$ to $\epsilon$.
 
 This algebra $\mathbb{R}[\epsilon]/(\epsilon^2)$ 
-is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thouhgt of as the [[algebra of functions]]
+is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thought of as the [[algebra of functions]]
 on a bosonic but [[infinitesimally thickened point]], a 1-dimensional neighbourhood of a point which is "so very small"
 that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be
 even tinier, is actually indistinguishable from zero.
@@ -604,7 +604,7 @@ This [[de Rham complex]] now carries the structure of a
 
 * differential graded-commutative graded commutative superalgebra 
 
-which should be thought of as bracketet as follows
+which should be thought of as bracketed as follows
 
 * differential graded-commutative graded (commutative superalgebra).
 
