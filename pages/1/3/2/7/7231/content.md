@@ -159,7 +159,6 @@ $$
 ###### Proof
 
 Consider [octonionic basic triples](octonion#ElementaryTriples) $(e_1, e_2, e_3) \in \mathbb{O}^3$ and the fact ([this proposition](octonion#BasicTriplesFormAutomorphism)) that these form a [[torsor]] over $G_2$.
-
 The choice of $(e_1,e_2)$ is equivalently a choice of inclusion $\mathbb{H} \hookrightarrow \mathbb{O}$. Then the remaining space of choices for $e_3$ is the [[3-sphere]] (the space of unit imaginary octonions orthogonal to both $e_1$ and $e_2$). This carries a unit group structure, and by the torsor property this is the required subgroup of $SU(2)$.
 
 =--
@@ -196,7 +195,7 @@ exhibiting [[special orthogonal group|SO(4)]] as a [[group extension]] of the [[
 
 =--
 
-(e.g. [Ferolito, section 4](#Ferolito))
+(e.g. [Ferolito, section 4](#Ferolito), see also at *[SO(3) -- Irreps](SO(3)#irreducible_representations)*)
 
 
 
