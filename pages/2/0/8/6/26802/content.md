@@ -1,6 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition
 
-If we view a [[matrix]] with entries in some set $X$ with rows labelled by elements in the index set $I$ and rows labelled by elements in $J$ as a function $A: I\times J\to X$ then a partitioned matrix (also called a block matrix) is a matrix together with partitions of the sets of row labels and column labels. 
+If we view a [[matrix]] with entries in some set $X$ with rows labelled by elements in the index set $I$ and rows labelled by elements in $J$ as a function $A \colon I\times J\to X$ then a *partitioned matrix* (also called a *block matrix*) is a matrix together with partitions of the sets of row labels and column labels. 
 
 For partitions 
 $I = I_1\coprod I_2\coprod\ldots\coprod I_k$, 
@@ -14,8 +31,16 @@ Conversely, $A$ is determined by $A^{J_r}_{L_s}$ for all $1\leq r\leq k$ and $1\
 
 One often uses some ordering on $I$ and $J$ and partitions which respect the ordering. 
 
+## References
+
+See also 
+
+* Wikipedia, *[Block matrix](https://en.wikipedia.org/wiki/Block_matrix)*
+
 category: algebra
 
 [[!redirects partitioned matrices]]
 [[!redirects block matrix]]
 [[!redirects block matrices]]
+
+
