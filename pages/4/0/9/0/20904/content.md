@@ -34,6 +34,8 @@ See at *[[Gershgorin circle theorem]]*.
 
 * [[inverse matrix]]
 
+* [[elementary matrix]]
+
 * [[matrix algebra]]
 
 * [[matrix group]]
