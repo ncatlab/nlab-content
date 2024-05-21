@@ -83,6 +83,8 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * John Myhill, _Recursive equivalence types and combinatorial functions_ , Bull. Amer. Math. Soc. **64** (1958) pp.373-376.
 
+* [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logic_, arXiv:2405.11073 (2024). ([abstract](https://arxiv.org/abs/2405.11073))
+
 * [[Sam Staton]], _Name-passing process calculi: operational models and structural operational semantics_, Technical Report **688** CL University Cambridge 2007. ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.pdf))
 
 * [[Gavin Wraith|G. Wraith]], _Intuitionistic Algebra: Some Recent Developments of Topos Theory_ , Proc. ICM Helsinki (1978) pp.331-337. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
