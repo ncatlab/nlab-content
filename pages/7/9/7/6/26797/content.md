@@ -41,3 +41,6 @@ Distinguish the notion of a row echelon form from the notion of an [[upper trian
 Every matrix over a field (or more generally over a skewfield) can be changed by row operations or, equivalently, by a sequence of multiplications by [[elementary matrices]] from the left.
 
 category: algebra
+
+[[!redirects row echelon matrix]]
+[[!redirects row echelon matrices]]
