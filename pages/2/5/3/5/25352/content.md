@@ -32,6 +32,8 @@ The formalism is applicable to $\lambda$-presentable stable ∞-categories, wher
 
 ## References
 
+* [[Alexander Efimov]], _K-theory and localizing invariants of large categories_ &lbrack;[arXiv:2405.12169](https://arxiv.org/abs/2405.12169)&rbrack;
+
 * [[Alexander Efimov]], *On the K-theory of large triangulated categories*, ICM 2022 &lbrack;video: [YT](https://youtu.be/RUDeLo9JTro)&rbrack;
 
 * [[Marc Hoyois]], _K-theory of dualizable categories (after A. Efimov)_ &lbrack;[pdf](https://hoyois.app.uni-regensburg.de/papers/efimov.pdf)&rbrack;
