@@ -3,10 +3,11 @@ __Carl de Boor__ is one of the founders of the modern approximation theory and t
 * wikipedia [Carl. R. de Boor](https://en.wikipedia.org/wiki/Carl_R._de_Boor); [de Boor's algorithm](https://en.wikipedia.org/wiki/De_Boor%27s_algorithm)
 * [webpage](https://pages.cs.wisc.edu/~deboor)
 
-## Writing
+
+## Selected writings
 
 Textbook on [[linear algebra]]:
 
-* [[Carl de Boor]], _Linear algebra_, [pdf](https://pages.cs.wisc.edu/~deboor/book.pdf)
+* [[Carl de Boor]], _Linear algebra_ (2009) &lbrack;[pdf](https://pages.cs.wisc.edu/~deboor/book.pdf), [[deBoor-LinearAlgebra.pdf:file]]&rbrack;
 
 category: people
