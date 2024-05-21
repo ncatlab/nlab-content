@@ -3284,8 +3284,6 @@ Senior Researcher:
 
 Researchers: 
 
-* [[Adrian Clough]]
-
 * [Tatiana Ezubova](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/researchers/tatiana-ezubova.html)
 
 * [[Grigorios Giotopoulos]]
