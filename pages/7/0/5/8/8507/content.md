@@ -19,11 +19,11 @@ Since generally an _[[equation]]_ is the statement of [[equality]] $\phi(x) = \p
 
 ### In 1-category theory
 
-Typically here a _[[linear function]]_ is taken to mean an _$R$-[[linear map]]_ over some given [[ring]] $R$, hence a [[homomorphism]] $\phi : X \to Z$ or $\psi : Y \to Z$ of $R$-[[modules]] $X, Y, Z \in R$[[Mod]]. If here $Z$ is an $R$-module of [[rank]] greater than 1, one also speaks of a _system of linear equations_.
+Typically here a _[[linear function]]_ is taken to mean an _$R$-[[linear map]]_ over some given [[ring]] $R$, hence a [[homomorphism]] $\phi : X \to Z$ or $\psi : Y \to Z$ of (say left) $R$-[[modules]] $X, Y, Z \in R$[[Mod]]. If here $Z$ is an $R$-module of [[rank]] greater than 1, one also speaks of a _system of linear equations_.
 
 Specifically if $R = k$ is a [[field]] then these are linear maps of $k$-[[vector spaces]] and hence in this case a linear equation is a statement of equality of two [[vectors]] $\phi(x) = \psi(y)$ in some [[vector space]] $Z$ that depend linearly on vectors $x$ in a vector spaces $X$ and $y \in Y$.
 
-Frequently this is considered specifically for the case that $g$ is a [[constant function]], hence just a fixed [[vector]]. In this case the linear equation becomes $\phi(x) = g$ for $x \in X$. If moreover $\phi$ here is represented or representable by a [[matrix]] this is typically written as
+Frequently this is considered specifically for the case that $\psi$ is a [[constant function]], hence just a fixed [[vector]] $g$. In this case the linear equation becomes $\phi(x) = g$ for $x \in X$. If moreover $\phi$ here is represented or representable by a [[matrix]] this is typically written as
 
 $$
   \phi \cdot\vec x = \vec g
