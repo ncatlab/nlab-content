@@ -1,19 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 ## Definition
 
-A rectangular matrix whose entries are in a field, or more generally, in a unital ring, is a __matrix in row echelon form__ if it satisfies the following criteria
+A rectangular [[matrix]] whose entries are in a [[field]], or more generally, in a [[unital ring]], is a __matrix in row echelon form__ if it satisfies the following criteria:
 
-* all rows whose all entries are $0$ are the consecutive bottom rows
+1. all rows whose all entries are $0$ are the consecutive bottom rows;
 
-* the leftmost nonzero entry ("leading entry") in each row is to the right from each column in which there is a nonzero entry in some row above
+1. the leftmost nonzero entry ("leading entry") in each row is to the right from each column in which there is a nonzero entry in some row above.
 
 The second condition is equivalent to saying that all the entries in the same column and below the leading entry of any row are zeros.
 
-A matrix in row echelon form is in __reduced row echelon form__ if in addition the leading entries of all nonzero rows equal $1$.
+A matrix in row echelon form is in __reduced row echelon form__ if in addition 
+
+* the leading entries of all nonzero rows equal $1$.
 
 #### Terminological remarks
 
-Echelon is a French word in military terminology coming from Latin scala, scalae f. for ladder.
+The word *echelon* is a French military term originating from Latin *scala*, *scalae* f. for "ladder".
 
 Being in row echelon form is a property of a matrix, while the terminology suggests that it can be changed (as forms do); this points to useful procedures which involve steps changing matrices (typically row operations) some of which have as an intermediate aim to change ("reduce") a matrix to a matrix in row echelon form. Thus two matrices are related by such an admissible procedure where the latter is in a row echelon form.
 
