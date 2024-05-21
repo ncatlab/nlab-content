@@ -305,7 +305,7 @@ Discussion in the [[superembedding approach]];
 
 * {#HoweSezgin97} [[Paul S. Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
 
-* {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142)&rbrack;
 
 Amplification that the resulting B-field on the M5-brane is *not naively* self-dual:
 
