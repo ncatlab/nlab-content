@@ -46,7 +46,7 @@ This $G$ is called the **complexification** of $K$.
 
 \begin{prop}\label{CosetSpacesOfComplexLieGroupsAreOkaManifolds}
 **([[coset spaces]] of [[complex Lie groups]] are [[Oka manifolds]])** \linebreak
-Every [[complex Lie group]] and every [[coset space]] ([[homogeneous space]]) of complex Lie groups is an [[Oka manifolds]].
+Every [[complex Lie group]] and every [[coset space]] ([[homogeneous space]]) of complex Lie groups is an [[Oka manifold]].
 \end{prop}
 (review in [Forstnerič & Lárusson 11, p. 9](Oka+manifold#ForstnericLarusson11), [Forstnerič 2013, Thm. 2.6](Oka+manifold#Forstneric13))
 
