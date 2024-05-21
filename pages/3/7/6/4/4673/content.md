@@ -78,6 +78,7 @@ See also:
 
 * N.J. Higham, _Functions of matrices. Theory and computation,  Philadelphia, PA: SIAM. 425p., 2008
 
+category: algebra
 
 [[!redirects linear algebra]]
 [[!redirects linear-algebra]]
