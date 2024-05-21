@@ -23,6 +23,8 @@ On [[Efimov K-theory]]:
 
 * [[Alexander Efimov]], *On the K-theory of large triangulated categories*, ICM 2022 &lbrack;video: [YT](https://youtu.be/RUDeLo9JTro)&rbrack;
 
+* [[Alexander Efimov]], _K-theory and localizing invariants of large categories_ &lbrack;[arXiv:2405.12169](https://arxiv.org/abs/2405.12169)&rbrack;
+
 
 
 [[!redirects Alexander I. Efimov]]
