@@ -46,8 +46,9 @@ Historical precursors:
 
 Textbook accounts:
 
-* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+* [[Carl de Boor]], _Linear algebra_ (2009) &lbrack;[pdf](https://pages.cs.wisc.edu/~deboor/book.pdf), [[deBoor-LinearAlgebra.pdf:file]]&rbrack;
 
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
 * Sheldon Axler, *Linear Algebra Done Right*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-11080-6](https://doi.org/10.1007/978-3-319-11080-6)&rbrack;
 
@@ -78,7 +79,6 @@ See also:
 
 * N.J. Higham, _Functions of matrices. Theory and computation,  Philadelphia, PA: SIAM. 425p., 2008
 
-category: algebra
 
 [[!redirects linear algebra]]
 [[!redirects linear-algebra]]
