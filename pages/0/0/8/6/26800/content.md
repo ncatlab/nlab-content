@@ -1,10 +1,26 @@
-# Fundamental theorem of linear algebra
+
+> see also *[[rank-nullity theorem]]*
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
+=--
+=--
+=--
+
+# Fundamental theorem of linear algebra #
+* table of contents
+{:toc}
 
 ## Statement in operator form
 
-If $f:V\to W$ is a linear operator among vector spaces where $V$ is finite-dimensional of dimension $n$ then 
+For $f \colon V\to W$ a [[linear operator]] between [[vector spaces]], where $V$ is [[finite-dimensional vector space|finite-dimensional]] of [[dimension of a vector space|dimension]] $n$, then the [[dimension of a vector space|dimensions]] of the [[kernel]] and the [[image]] of $f$ are related by:
 $$
-dim\,Ker\,f + dim\,Im\,f = n.
+  dim\,Ker\,f + dim\,Im\,f \;=\; n
+  \,.
 $$
 
 ## Statement in the matrix form
@@ -28,3 +44,4 @@ The following 2 refereces have somewhat nonstandard exposition of linear algebra
 
 
 category: algebra
+
