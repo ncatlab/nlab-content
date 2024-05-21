@@ -33,6 +33,12 @@ Note that if the structure on X is such that matrix multiplication is associativ
 
 * [[diagonal matrix]]
 
+* [[elementary matrix]]
+
+* [[block matrix]] ([[partitioned matrix]])
+
+* [[row echelon matrix]]
+
 * [[rank of a matrix]]
 
 * [[inverse matrix]]
