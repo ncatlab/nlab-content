@@ -31,11 +31,19 @@ Conversely, $A$ is determined by $A^{J_r}_{L_s}$ for all $1\leq r\leq k$ and $1\
 
 One often uses some ordering on $I$ and $J$ and partitions which respect the ordering. 
 
+## Properties
+
+[[Gauss elimination procedure]], [[row operation]]s, [[Gauss decomposition]], [[quasideterminant]]s, computation of [[inverse matrix]], make sense and are performed alike the classical case, but with the order of multiplicating blocks essential. However, the determinant does not make sense or does not behave well even when it is still accidentaly defined. 
+
+Heredetary property of quasideterminants: quasideterminant at $(i,j)$ of block quasideterminant at $(I_r,J_s)$ where $i\in I_r$, $j\in J_s$ equals the quasideterminant of the original matrix at $(i,j)$. In particular, inverse of a block matrix has entries of entries which are entries of inverse of the original matrix. Consequently, linear equations may be solved by block version of Gaussian elimination and the result reinterpreted in terms of original matrix labels. 
+
 ## References
 
 See also 
 
 * Wikipedia, *[Block matrix](https://en.wikipedia.org/wiki/Block_matrix)*
+* David C. Lay, Steven R. Lay, Judi J. McDonald, _Linear algebra and its applications_, 6th edition, Pearson Education Ltd. 2022 (Sec. 2.4, Partitioned matrices)
+* Daniel Krob, [[Bernard Leclerc]], _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594) arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
 
 category: algebra
 
