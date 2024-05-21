@@ -380,7 +380,6 @@ See also the Math Overflow discussion [here](http://mathoverflow.net/questions/4
 [[!redirects closed disc]]
 [[!redirects closed discs]]
 
-
 [[!redirects n-disk]]
 [[!redirects n-disks]]
 [[!redirects n-disc]]
