@@ -23,7 +23,10 @@ The second condition is equivalent to saying that all the entries in the same co
 
 A matrix in row echelon form is in __reduced row echelon form__ if in addition 
 
-* the leading entries of all nonzero rows equal $1$.
+* the leading entries of all nonzero rows equal $1$
+* all the other entries in the column of any leading entry of some row are equal to zero (both below and above).
+
+The second condition does not mean that all the entries are $0$ or $1$, as some entries are not leading entries of any row in general (if the matrix is both quadratic and nonsingular then the only possibility is the unit matrix).
 
 #### Terminological remarks
 
