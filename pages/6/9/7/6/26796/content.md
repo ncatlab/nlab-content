@@ -14,7 +14,7 @@
 
 ## Idea
 
-The *Schur complement* of (i,j)-entry of a [[partitioned matrix|block]] $2\times 2$ [[matrix]]
+The *Schur complement* of the $(i,j)$th entry of a [[partitioned matrix|block]] $2\times 2$ [[matrix]]
 
 $$
 \left(
