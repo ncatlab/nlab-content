@@ -36,3 +36,8 @@ In the context of [[first-order formulation of gravity]]:
 [[!redirects coframe field]]
 [[!redirects coframe fields]]
 
+[[!redirects co-frame field]]
+[[!redirects co-frame fields]]
+
+
+
