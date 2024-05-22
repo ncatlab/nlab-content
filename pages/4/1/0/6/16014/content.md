@@ -72,7 +72,7 @@ which may be read as expressing that iterating the previous reasoning does not y
 
 \linebreak
 
-In terms of [[categorical logic]] interpreting propositional logic into a [[Heyting algebra]], the S4 axioms just say ([Bierman & de Paiva 1996](#BiermanPaiva96), [2000](#BiermanPaiva00)) that:
+In terms of [[categorical logic]] interpreting propositional logic into a [[Heyting algebra]], the S4 axioms just say ([Bierman & de Paiva 1996](#BiermanDePaiva96), [2000](#BiermanDePaiva00)) that:
 
 * $\Box$ is a (necessarily [[idempotent comonad|idempotent]]) [[comonad]] which is [[monoidal functor|monoidal]], hence product-preserving; and
 
