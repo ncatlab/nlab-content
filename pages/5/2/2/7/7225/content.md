@@ -17,7 +17,7 @@
 
 ## Definition
 
-For a [[prime number]] $p$, the **Pr&#252;fer $p$-group** is defined uniquely up to [[isomorphism]] as the [[group]] where every element has exactly $p$ $p^{th}$ [[roots]]. It is a [[divisible group|divisible]] [[abelian group]] which can be described in several ways, for example: 
+For a [[prime number]] $p$, the **Pr&#252;fer $p$-group** is defined uniquely up to [[isomorphism]] as the [[p-group|$p$-group]] where every element has exactly $p$ $p^{th}$ [[roots]]. It is a [[divisible group|divisible]] [[abelian group]] which can be described in several ways, for example: 
 
 * It is the [[discrete group]] that is [[Pontrjagin duality|Pontryagin dual]] to the [[compact topological space|compact]] [[topological group]] of [[p-adic integer|p-adic integers]] (for more on this see as _[[Pontryagin duality for torsion abelian groups]]_). 
 
