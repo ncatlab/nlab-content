@@ -16,7 +16,6 @@
 {:toc}
 
 
-
 ## Idea
 
 A *Riemannian immersion* or *isometric immersion* of [[Riemannian manifolds]] is an [[immersion]] $\Sigma \hookrightarrow X$ of their [[underlying]] [[smooth manifolds]] which is also an [[isometry]] with respect to their [[Riemannian metrics]].
@@ -28,6 +27,49 @@ The *isometric immersion/embedding problem* is to find isometric immersions/embe
 
 
 ## Properties
+
+For the following putpose:
+
+\begin{definition}
+\label{LocalCoFrameField}
+A (local) **[[co-frame field]]** on a [[smooth manifold]] $X$ is
+
+1. an [[open cover]] $\widehat{X} \twoheadrightarrow X$
+
+1. [[differential 1-forms]] $E = (E^a)_{a=1}^{dim(X)} \,\in\, \Omega^1_{dR}(\widehat{X})$
+
+such that on double intersections
+
+$$
+  \widehat{X} \!\times_X\! \widehat{X}
+  \underoverset{pr_2}{pr_1}{\rightrightarrows}
+  X
+$$
+
+the induced [[metric tensors]] agree:
+
+$$
+  \delta_{a b} 
+  \,
+  pr_1^\ast E^a 
+  \otimes
+  pr_1^\ast E^b
+  \;\;
+  =
+  \;\;
+  \delta_{a b} 
+  \,
+  pr_2^\ast E^a 
+  \otimes
+  pr_2^\ast E^b
+$$
+
+(where we use the [[Einstein summation convention]], throughout).
+
+A [[pair]] of such local co-frames is regarded as equivalent if their induced metric tensors agree on the common refinement of their respective open covers.
+\end{definition}
+
+
 
 ### Adapted Darboux (co-)frames
  {#AdaptedDarbouxCoframes}
@@ -224,7 +266,102 @@ and which is Darboux by the block-diagonal structure of $\big(e^a_\mu\big)$.
 
 (For the further generality of [[sequences]] of Darboux frames for suitable [[sequences]] of immersions, see [Giron 2020](#Giron20) and [Chen & Giron 2021, Thm. 2.2](#ChenGiron21).)
 
-Hence an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifolds is isometric iff around each point $\iota(\sigma)$ any of its Darboux coframe fields pull back to locally induce the given metric on $\Sigma$.
+\begin{remark}
+In particular, an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifolds is isometric iff around each point $\iota(\sigma)$ any of its Darboux coframe fields pull back to locally induce the given metric on $\Sigma$.
+\end{remark}
+
+
+### Second fundamental form
+ {#SecondFundamentalForm}
+
+Given $X$ a [[Riemannian manifold]] and $\phi \colon \Sigma \to X$ an [[immersion]], choose a Darboux co-frame field $E \equiv (E^a)_{a =1}^{dim(X)}$ (which exists by Prop. \ref{ExistenceOfDarbouxFrames}), hence so that
+
+$$
+  \begin{array}{l}
+  \phi^\ast E^a \;=\; 0
+  &
+  \text{for}
+  \;
+  a \in \big\{dim(\Sigma)+1, \cdots, dim(X)\big\}
+  \\
+  \big( 
+    e^a \;\coloneqq\; \phi^\ast E^a
+  \big)_{a = 1}^{dim(\Sigma)}
+  &
+  \text{is a co-frame on}\; \Sigma
+  \end{array}
+$$
+
+
+For brevity we will say that $a \in \{1, \cdots, dim(X)\}$ is
+
+* *tangential* if $a \in \big\{1, \cdots, dim(\Sigma)\big\}$
+
+* *transversal* if $a \in \big\{dim(\Sigma)+1, \cdots, dim(X)\big\}$.
+
+
+Now let $\Omega$ be the unique [[torsion of a metric connection|torsion]]-free connection for $E$, in that
+
+\[
+  \label{TorsionConstraintOnTarget}
+  \mathrm{d} E^a 
+  -
+  \Omega^a{}_b E^b 
+  \;=\;
+  0
+  \,.
+\]
+
+
+and denote the [[pullback of differential forms|pullback]] of its tangential and transversal components, respectively, by
+
+$$
+  \begin{array}{cccl}
+    \omega^a{}_b 
+      &\coloneqq& 
+    \phi^\ast \Omega^a{}_b
+    &
+    \text{for tangential}\; a,b
+    \\
+    {&#8545;}^a_{b_1 b_2} e^{b_1}
+      &\coloneqq& 
+    \phi^\ast \Omega^a{}_{b_2}
+    &
+    \text{for transversal}\; a
+    \,.
+  \end{array}
+$$
+
+Then the [[pullback of differential forms|pullback]] of the torsion constraint (eq:TorsionConstraintOnTarget) is equivalent to the pair of conditions
+
+$$
+  \left\{
+  \begin{array}{ll}
+    \mathrm{d} e^a - \omega^a{}_b \, e^b \;=\; 0
+    &
+    \text{for tangential}\;a
+    \\
+    {&#8545;}^a_{b_1 b_2} e^{b_1} e^{b_2} \;=\; 0
+    &
+    \text{for transversal}\;a
+  \end{array}
+  \right.
+$$
+
+The first one just says that $\omega$ is the torsion-free connection with respect to the induced coframe $e$ on $\Sigma$.
+
+The second one says that the skew symmetric part ${&#8545;}^a_{[b_1 b_2]} = 0$ vanishes, hence that
+
+$$
+  {&#8545;}^a_{b_1 b_2}
+  \;=\;
+  {&#8545;}^a_{b_2 b_1}
+$$
+
+is symmetric in its indices. This [[tensor]] is called the **second fundamental form** of the immersion $\phi$.
+
+(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Wang 2024, Def. 2.2](Wang24))
+
 
 ## References
 
@@ -256,6 +393,8 @@ Hence an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifol
 * {#Kayban21} Nicholas Kayban, *Riemannian Immersions and Submersions* (2021) &lbrack;[pdf](https://www.math.uwaterloo.ca/~karigian/training/M11-kayban-final-project.pdf), [[Kayban-RiemannianImmersions.pdf:file]]&rbrack;
 
 * {#HanLewicka23} Qing Han, Marta Lewicka, *Isometric immersions and applications*, Notices of the AMS 2023 &lbrack;[arXiv:2310.02566](https://arxiv.org/abs/2310.02566)&rbrack;
+
+* {#Wang24} [[Zuoqin Wang]], *The method of moving frames*, Lecture 11 in: *Riemannian geometry* (2024) &lbrack;[webpage](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/), [pdf](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/Notes/Lec11.pdf), [[Wang-MovingFrames.pdf:file]]&rbrack;
 
 
 [[!redirects Riemannian immersions]]
