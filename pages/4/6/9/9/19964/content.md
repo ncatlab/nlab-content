@@ -348,6 +348,7 @@ Further development:
 
 * Christoph Adam, Alberto Garcia Martin-Caro, Carlos Naya, Andrzej Wereszczynski, *Integral identities and universal relations for solitons* &lbrack;[arXiv2404.05789](https://arxiv.org/abs/2404.05789)&rbrack;
 
+* [[Sven Bjarke Gudnason]], *Nonlinear rigid-body quantization of Skyrmions* &lbrack;[arXiv:2311.11667](https://arxiv.org/abs/2311.11667)&rbrack;
 
 
 
