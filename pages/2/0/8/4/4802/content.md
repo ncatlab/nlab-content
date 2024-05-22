@@ -515,6 +515,11 @@ Original discussion in [[Élie Cartan]]'s reformulation of [[Riemannian geometry
 
 * [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Chapter 1 of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
 
+Lecture notes:
+
+* {#Wang24} [[Zuoqin Wang]], *The method of moving frames*, Lecture 11 in: *Riemannian geometry* (2024) &lbrack;[webpage](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/), [pdf](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/Notes/Lec11.pdf)&rbrack;
+
+
 
 Review in the context of [[first-order formulation of gravity]]:
 
