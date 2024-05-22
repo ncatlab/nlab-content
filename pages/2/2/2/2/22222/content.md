@@ -69,7 +69,7 @@ Hence $Fam(D)$ is the free [[cartesian monoidal category]] over $D$, with $J$ th
 (This is dual to the [[free coproduct completion]], an example of a [[Grothendieck construction]], see [here](free+coproduct+completion#AsAGrothendieckConstruction).)
 
 \begin{theorem}
-A multi-adjoint to $R \col D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is the [[relative adjoint functor | $J$-right adjoint to $K$]], meaning that
+A multi-adjoint to $R \col D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is [[relative coadjoint functor|$J$-coadjoint to $K$]], meaning that
 \[
         \alpha : Hom_{Fam(D)}(K c, J d) \cong Hom_{C}(c, R d),
 \]
