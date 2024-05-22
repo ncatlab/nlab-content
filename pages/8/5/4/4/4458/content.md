@@ -18,12 +18,15 @@ On [[cogroups]] and [[corings]] [[internalization|internal to]] [[associative ri
 
 Introducing the [[diamond lemma]] in [[ring theory]]:
 
-* [[George M. Bergman]], _The diamond lemma for ring theory_, Advances in Mathematics **29** 2 (1978) 178-218 &lbrack;<a href="http://dx.doi.org/10.1016/0001-8708(78)90010-5">doi:10.1016/0001-8708(78)90010-5</a>&rbrack;
+* [[George M. Bergman]], _The diamond lemma for ring theory_, Advances in Mathematics **29** 2 (1978) 178-218 &lbrack;<a href="https://doi.org/10.1016/0001-8708(78)90010-5">doi:10.1016/0001-8708(78)90010-5</a>&rbrack;
 
 Introducing the [[Salamander lemma]]:
 
 * {#Bergman12} [[George Bergman]], _On diagram-chasing in double complexes_, Theory and Applications of Categories **26** (2012) 60-96 &lbrack;[arXiv:1108.0958](http://arxiv.org/abs/1108.0958), [tac:26-03](http://www.tac.mta.ca/tac/volumes/26/3/26-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/26/3/26-03.pdf)&rbrack;
 
+Skewfield of [[noncommutative rational function]]s
+
+* [[George M. Bergman]], _Skew fields of noncommutative rational functions, after Amitsur_. In Séminaire Schützenberger–Lentin–Nivat, Année 1969/1970, No. 16. Paris 1970 [EuDML](http://eudml.org/doc/112813)
 
 category: people
 
