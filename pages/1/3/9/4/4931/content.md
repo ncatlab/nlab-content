@@ -327,16 +327,17 @@ one finds the statement:
 
 Here "Grom" refers to
 
-* [[Mikhail Gromov]], _Convex sets and K&#228;hler manifolds_, Advances in differential geometry and topology. F. Tricerri ed., World Sci., Singapore,
-(1990), 1-38. ([pdf](http://www.ihes.fr/~gromov/PDF/%5B68%5D.pdf))
+* [[Mikhail Gromov]], _Convex sets and K&#228;hler manifolds_, in F. Tricerri (ed.) *Advances in differential geometry and topology*, World Scientific (1990) 1-38 &lbrack;[pdf](http://www.ihes.fr/~gromov/PDF/%5B68%5D.pdf)&rbrack;
 
 where the relevant statement is 1.4.C1 on page 8. Note however that the diffeomorphism considered there is only of $C^1$ class, not $C^\infty$, so this is not a proof either.
 
 A texbook account finally appears in
 
-* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], Thm. 5.3.2 and Appendix C of: _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
+* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], Thm. 5.3.2 and Appendix C of: _Differential Forms_, World Scientific (2019) &lbrack;[doi:10.1142/11058](https://doi.org/10.1142/11058)&rbrack;
 
-See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
+See also the discussion at:
+
+* Math Overflow, *explicit diffeomorphim between open simplex and open ball* &lbrack;[q/41853](https://mathoverflow.net/q/41853/381)&rbrack;
 
 
 ### Combinatorial
