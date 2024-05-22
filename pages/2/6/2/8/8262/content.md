@@ -179,7 +179,7 @@ from [[sSet]] to [[sAb]] is [[strong monoidal functor|strong monoidal]].
 ### Subgroups
  {#Subgroups}
 
-\bgein{proposition}
+\begin{proposition}
 \label{SubgroupsOfFreeAbelianGroupsAreFree}
 Assuming the [[axiom of choice]], then every [[subgroup]] of a free abelian group (def. \ref{FreeAbelianGroup}) is itself a free abelian group.
 \end{proposition}
