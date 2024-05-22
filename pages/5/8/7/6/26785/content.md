@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -28,7 +27,7 @@ The *isometric immersion/embedding problem* is to find isometric immersions/embe
 
 ## Properties
 
-For the following putpose:
+For the following purpose:
 
 \begin{definition}
 \label{LocalCoFrameField}
@@ -166,7 +165,7 @@ $$
     a \leq dim(\Sigma)  
   }
 $$
-is a local frame on $\Sigma$. We may summarize this by saying that a local Darboux co-frame $E$ gives
+constitute a local frame on $\Sigma$. We may summarize this by saying that a local Darboux co-frame $E$ gives
 \[
   \label{DarbouxCoframePullsBackToCoframe}
   \phi^\ast E^a 
@@ -193,7 +192,7 @@ Given an immersion into a Riemannian manifold, local Darboux (co-)frames always 
 \begin{proof}
   Given an immersion $\iota \colon \Sigma \to X$, consider any point $\sigma \in \Sigma$. Since the immersion is *locally* an [[embedding of smooth manifolds|embedding]] (see [here](immersion+of+smooth+manifolds#ImmersionsAreLocalEmbeddings)), there exists an [[open neighbourhood]] $ \sigma \in U \subset \Sigma$ such that $\phi_{\vert U} \colon U \to X$ is the [[embedding of smooth manifolds|embedding]] of a [[submanifold]]. Therefore (by [this Prop.](submanifold#ExistenceOfSiceCharts)) there exists an [[open neighbourhood]] $U' \subset X$ of $\iota(\sigma) \in X$ which serves as a [[coordinate chart]] $X \supset U' \xrightarrow{\phi} \mathbb{R}^n$ for $X$ and a slice chart for $\Sigma \subset X$ in that it exhibits $\Sigma \cap U'$ as a rectilinear [[hyperplane]] in $\phi(U') \subset \mathbb{R}^n$.
 
-Hence in this slice [[coordinate chart]] a local frame for $X$ is given by the $n$ canonical coordinate [[vector fields]] on with the first $k$ of them forming a local chart of $\Sigma$
+Hence in this slice [[coordinate chart]] a local frame for $X$ is given by the $n$ canonical coordinate [[vector fields]], with the first $k$ of them forming a local frame field on $\Sigma$
 
 $$
   \big\{ \partial_1, \cdots, \partial_{k} \big\}
@@ -220,9 +219,9 @@ $$
   g(v_a, v_b) = \delta_{a b}
   \,
 $$
-This demonstrates the esistence of orthonormal local frames (cf. [Kayban 2021, Prop. 3.1](#Kayban21)).
+This demonstrates the existence of orthonormal local frame fields (cf. [Kayban 2021, Prop. 3.1](#Kayban21)).
 
-To obtain an orthonormal local coframe we just dualize this local frame:
+To obtain the desired orthonormal local co-frame field we just dualize this local frame field:
 
 By construction, the matrix $\big(v_a^\mu\big)_{a,\mu}$ of components of the above frame (given by $v_a^\mu \partial_\mu = v_a$) is block diagonal (the upper diagonal block being the local frame on $\Sigma$).
 
@@ -332,7 +331,7 @@ $$
   \end{array}
 $$
 
-Then the [[pullback of differential forms|pullback]] of the torsion constraint (eq:TorsionConstraintOnTarget) is equivalent to the pair of conditions
+Then the [[pullback of differential forms|pullback]] of the torsion constraint (eq:TorsionConstraintOnTarget) is equivalent to thid pair of conditions on $\Sigma$:
 
 $$
   \left\{
@@ -358,9 +357,9 @@ $$
   {&#8545;}^a_{b_2 b_1}
 $$
 
-is symmetric in its indices. This symmetric [[tensor]] on $\Sigma$ is called the **second fundamental form** of the immersion $\phi$.
+is symmetric in its tangential indices $b_i$. This symmetric [[tensor]] on $\Sigma$ is called the **second fundamental form** of the immersion $\phi$.
 
-(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24); for alternative discussion not using co-frames see also [Chavel 1993 §II.2](#Chavel93); [Lee 2018, pp. 225](#Lee18))
+(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24); for alternative discussion not using co-frames see also [Chavel 1993 §II.2](#Chavel93); [Lee 2018, pp. 225](Riemannian+geometry#Lee18))
 
 
 ## References
