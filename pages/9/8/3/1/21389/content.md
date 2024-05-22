@@ -13,6 +13,8 @@ On [[Skyrmions]]:
 
   *Database of Skyrmion Vibrations* &lbrack;[www1.maths.leeds.ac.uk/pure/geometry/SkyrmionVibrations/](http://www1.maths.leeds.ac.uk/pure/geometry/SkyrmionVibrations/)&rbrack;
 
+* [[Sven Bjarke Gudnason]], *Nonlinear rigid-body quantization of Skyrmions* &lbrack;[arXiv:2311.11667](https://arxiv.org/abs/2311.11667)&rbrack;
+
 On the [[Skyrmion model]] with [[omega-meson]]-contribution:
 
 * {#GudnasonSpeight20} [[Sven Bjarke Gudnason]], James Martin Speight, _Realistic classical binding energies in the $\omega$-Skyrme model_ ([arXiv:2004.12862](https://arxiv.org/abs/2004.12862))
