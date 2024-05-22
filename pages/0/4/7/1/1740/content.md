@@ -18,8 +18,7 @@
 
 Over non-[[commutative ring|commutative]] [[rings]] [[determinants]] are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree in this case) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and [[Dieudonné determinant]] are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
 
-A quasideterminant generalizes a ratio of $n\times n$-determinant and a $(n-1)\times(n-1)$ minor. Special cases of useful polynomial determinants like the usual determinant, superdeterminant, quantum determinant and Dieudonné determinant can be obtained as products of quasideterminants.
-
+A quasideterminant generalizes a ratio of $n\times n$-determinant and a $(n-1)\times(n-1)$ minor. Regarding that there are $n^2$ such minors -- complementary to each entry-- there are $n^2$ quasideterminants, indexed by labels of the complementary entry. Special cases when useful polynomial determinants are defined like the usual determinant, superdeterminant, quantum determinant and Dieudonné determinant can be obtained as products of quasideterminants.
 
 ## Definition
 
