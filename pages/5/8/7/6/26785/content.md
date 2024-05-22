@@ -321,13 +321,13 @@ $$
       &\coloneqq& 
     \phi^\ast \Omega^a{}_b
     &
-    \text{for tangential}\; a,b
+    \text{for tangential}\;\text{and tangential}\;b
     \\
     {&#8545;}^a_{b_1 b_2} e^{b_1}
       &\coloneqq& 
     \phi^\ast \Omega^a{}_{b_2}
     &
-    \text{for transversal}\; a
+    \text{for transversal}\;a\;\text{and tangential}\;b_2
     \,.
   \end{array}
 $$
@@ -358,9 +358,9 @@ $$
   {&#8545;}^a_{b_2 b_1}
 $$
 
-is symmetric in its indices. This [[tensor]] is called the **second fundamental form** of the immersion $\phi$.
+is symmetric in its indices. This symmetric [[tensor]] on $\Sigma$ is called the **second fundamental form** of the immersion $\phi$.
 
-(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Wang 2024, Def. 2.2](Wang24))
+(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24); for alternative discussion not using co-frames see also [Chavel 1993 §II.2](#Chavel93); [Lee 2018, pp. 225](#Lee18))
 
 
 ## References
@@ -381,6 +381,9 @@ is symmetric in its indices. This [[tensor]] is called the **second fundamental 
 
 * {#Yang92} Kichoon Yang, *Embeddings of $G$-Structures*, chapter VII in: *Exterior Differential Systems and Equivalence Problems*, Mathematics and its Applications **73**, Kluwer (1992), Spinger (1992) &lbrack;[doi:10.1007/978-94-015-8068-7_7](https://doi.org/10.1007/978-94-015-8068-7_7)&rbrack;
 
+* {#Chavel93} [[Isaac Chavel]], *Riemannian Submanifolds*, §II.2 in: *Riemannian geometry -- A modern introduction*, Cambridge University Press (1993) &lbrack;[doi:10.1017/CBO9780511616822](https://doi.org/10.1017/CBO9780511616822)&rbrack;
+
+
 * {#HanHong06} Qing Han, Jia-Xing Hong: *Isometric Embedding of Riemannian Manifolds in Euclidean Spaces*, Mathematical Surveys and Monographs **130**, AMS (2006) &lbrack;[ISBN:0821840711](https://maa.org/press/maa-reviews/isometric-embedding-of-riemannian-manifolds-in-euclidean-spaces)&rbrack;
 
 
@@ -395,6 +398,7 @@ is symmetric in its indices. This [[tensor]] is called the **second fundamental 
 * {#HanLewicka23} Qing Han, Marta Lewicka, *Isometric immersions and applications*, Notices of the AMS 2023 &lbrack;[arXiv:2310.02566](https://arxiv.org/abs/2310.02566)&rbrack;
 
 * {#Wang24} [[Zuoqin Wang]], *The method of moving frames*, Lecture 11 in: *Riemannian geometry* (2024) &lbrack;[webpage](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/), [pdf](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/Notes/Lec11.pdf), [[Wang-MovingFrames.pdf:file]]&rbrack;
+
 
 
 [[!redirects Riemannian immersions]]
