@@ -68,10 +68,13 @@ Original discussion via [[Cartan geometry]] of [[coframe fields]]:
 
 Monographs:
 
-* [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_. Graduate Texts in Mathematics 176 (1997), Springer.  ISBN: 0-387-98271-X.
-Second Edition (retitled): *Introduction to Riemannian Manifolds* (2018), Springer.  ISBN: 978-3-319-91754-2 ([doi:10.1007/978-3-319-91755-9](https://doi.org/10.1007/978-3-319-91755-9))
+* {#Lee97} [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_, Graduate Texts in Mathematics **176** Springer (1997) &lbrack;ISBN: 0-387-98271-X&rbrack;
 
-* {#Chavel} Isaac Chavel, _Riemannian geometry &#8211; A modern introduction_ Cambridge University Press (1993)
+  second edition (retitled):
+
+  {#Lee18} [[John M. Lee]], *Introduction to Riemannian Manifolds*, Springer (2018) &lbrack;ISBN:978-3-319-91754-2, [doi:10.1007/978-3-319-91755-9](https://doi.org/10.1007/978-3-319-91755-9)&rbrack;
+
+* {#Chavel} [[Isaac Chavel]], *Riemannian geometry -- A modern introduction*, Cambridge University Press (1993) &lbrack;[doi:10.1017/CBO9780511616822](https://doi.org/10.1017/CBO9780511616822)&rbrack;
 
 * {#Berger} [[Marcel Berger]], _A panoramic view of Riemannian geometry_, Springer (2003) &lbrack;[doi:10.1007/978-3-642-18245-7](https://doi.org/10.1007/978-3-642-18245-7)&rbrack;
 
