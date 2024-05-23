@@ -131,6 +131,14 @@ In the unstable range for low $n$ they instead start out as follows
 
 Due to the [[unitary group#SUn | relation to the special unitary group]], the higher homotopy groups of $U(n)$ and $SU(n)$ agree. The $U(2)$ row can be found using the fact that $SU(2)$ is [[diffeomorphism|diffeomorphic]] to the [[3-sphere]] $S^3$. The $U(3)$ row can be found using [Mimura-Toda 63](#MimuraToda63). Otherwise the table is given in columns $\pi_k$, $k= 6,\ldots, 15$, and in rows $U(n)$, $n=4,\ldots,8$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
+The table above equivalently corresponds to the lower-degree [[unstable K-theory]] groups of spheres. In particular, this computes the homotopy groups: 
+
+$$
+\pi_{2n} (U(n)) = U_n (S^{2n} ) = \mathbb{Z}/ n! \mathbb{Z}
+$$ 
+
+(see [[unstable K-theory|there]] for more).
+
 ### In infinite dimension
 
 A good discussion about the various topologies one might place on $U(\mathcal{H})$ and how they all agree and make $U(\mathcal{H})$ a [[Polish space|Polish]] group is in ([Espinoza-Uribe](#EspinozaUribe)).
