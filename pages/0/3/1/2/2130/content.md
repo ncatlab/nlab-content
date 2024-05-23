@@ -40,9 +40,9 @@ A **symplectic manifold** is
 ###### Definition
 
 
-A $2n$-dimensional [[topological manifold]] $X$ is 
+A real __symplectic manifold__ $X$ is 
 
-* a real __symplectic manifold__ 
+* a $2n$-dimensional [[topological manifold]]
 
 * equipped with  a **symplectic atlas**: 
 
