@@ -15,6 +15,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1856,7 +1857,7 @@ For the component notation traditionally used in physics see for instance
 
 For good math/physics discussion with special emphasis on the symplectic Majorana spinors and their role in the [[6d (2,0)-superconformal QFT]] see
 
-* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], *Majorana spinors* &lbrack;[pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf), [[Figueroa-MajoranaSpinors.pdf:file]]&rbrack;
 
 A clean summary of the relation of the real representation to [[Hermitian forms]] over the real [[normed division algebras]] is in
 
