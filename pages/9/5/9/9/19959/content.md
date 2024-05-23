@@ -15,7 +15,7 @@
 
 ## Idea
 
-Ordinary [[substitution]] is a meta-level notion, i.e. an operation *on* [[syntax]].  By contrast, *explicit substitutions* incorporate a notion of substitution as *part* of a syntax. The original calculus of explicit substitutions was introduced by Abadi, Cardelli, Curien and Lévy.
+Ordinary [[substitution]] is a meta-level notion, i.e. an operation *on* [[syntax]].  By contrast, *explicit substitutions* incorporate a notion of substitution as *part* of a syntax. The original calculus of explicit substitutions was introduced by [Abadi, Cardelli, Curien & Lévy 1991](#AbadiCardelliCurienLévy91).
 
 ## Definition/Example
 
@@ -82,7 +82,7 @@ The LSC also has applications in:
 
 ## References
 
-* Martín Abadi, Luca Cardelli, Pierre-Louis Curien, and Jean-Jacques Lévy. *Explicit Substitutions*. J. Funct. Program., 1(4):375–416, 1991. doi:10.1017/S0956796800000186. [link](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/explicit-substitutions/C1B1AFAE8F34C953C1B2DF3C2D4C2125)
+* {#AbadiCardelliCurienLévy91} Martín Abadi, Luca Cardelli, [[Pierre-Louis Curien]], and Jean-Jacques Lévy. *Explicit Substitutions*. J. Funct. Program., 1(4):375–416, 1991. doi:10.1017/S0956796800000186. [link](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/explicit-substitutions/C1B1AFAE8F34C953C1B2DF3C2D4C2125)
 
 * [[Paul-André Melliès]], *Typed $\lambda$-calculi with explicit substitution may not terminate*.  In M. Dezani (ed.), Int. Conf. on Typed Lambda Calculus and Applications, Lecture Notes in Computer Science, 1995.
 
