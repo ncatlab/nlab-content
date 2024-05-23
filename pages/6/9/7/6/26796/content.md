@@ -141,6 +141,8 @@ $$
 
 * Wikipedia, *[Woodbury matrix identity](https://en.wikipedia.org/wiki/Woodbury_matrix_identity)*
 
+* D. H. Carlson, _What are Schur complements, anyway?_, Linear Algebra Appl. 74 (1986) 257--275 [doi](https://doi.org/10.1016/0024-3795(86)90127-8)
+
 category: algebra
 
 [[!redirects Schur complements]]
