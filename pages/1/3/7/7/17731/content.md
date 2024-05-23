@@ -2661,7 +2661,7 @@ The traditional component discussion in terms of a [[charge conjugation matrix]]
 
 The relation to the concept of real structures on complex Spin-representations is highlighted in
 
-* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], *Majorana spinors* &lbrack;[pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf), [[Figueroa-MajoranaSpinors.pdf:file]]&rbrack;
 
 See also 
 
