@@ -2,7 +2,7 @@ This article is about the twisted tensor product of a dga-algebra and a dg-coalg
 
 ##Idea ##
 
-In 1959, Edgar Brown introduced a _twisted tensor product_ to give an algebraic description of a [[fibration]]. The chain complex of a total space of a principal fibration is obtained as a small perturbation (at the level of a differential) of the [[chain complex]] of the trivial fibration (hence a [[tensor product]] of chain complexes of the base and of the fiber). It is the analogue for differential algebra of the [[twisted cartesian product]] construction in the theory of simplicial fibre bundles.
+In 1959, [[Edgar Brown]] introduced a _twisted tensor product_ to give an algebraic description of a [[fibration]]. The chain complex of a total space of a principal fibration is obtained as a small perturbation (at the level of a differential) of the [[chain complex]] of the trivial fibration (hence a [[tensor product]] of chain complexes of the base and of the fiber). It is the analogue for differential algebra of the [[twisted cartesian product]] construction in the theory of simplicial fibre bundles.
 
 ##Definition##
 
@@ -13,8 +13,7 @@ $$
 
 ##Literature##
 
-* Edgar H. Brown Jr. _Twisted tensor products I_, 
-Annals of Math. (2) 69 1959 223--246.
+* [[Edgar H. Brown]] Jr. _Twisted tensor products I_, Annals of Math. (2) 69 (1959) 223--246 [doi](https://doi.org/10.2307/1970101)
 
 * V. A. Smirnov, _Simplicial and operadic methods in algebraic topology_, Translations of mathematical monographs 198, AMS, Providence, Rhode Island 2001. 
 
