@@ -60,6 +60,10 @@ then viewing the identity as a functor of 2-arguments, we get an obvious separat
 
 Categories enriched in the funny tensor product monoidal structure are precisely [[sesquicategories]].
 
+## Failure to respect equivalences
+
+The funny tensor product of categories is not invariant under equivalence. This can easily be seen in the simplest example: let $C$ be the trivial one-object categories and $C'$, $D'$ both be the two-object trivial groupoid (where all hom-sets have a single element). Following the formula above, $C \Box D$ is trivial, while $C' \Box D'$ is equivalent to $\mathbb{Z}$ since there is a non-trivial loop in the pushout which is not forced to be equal to the identity morphism. As such, the funny tensor product does not extend to a monoidal product on the $2$-category of categories.
+
 ## Related pages
 
 * [[Gray tensor product]]
