@@ -56,7 +56,7 @@ Apparently for a long time it was hoped that this would work, but [Mellies](#Mel
 
 ## Categorical Models of Explicit Substitutions
 
-The original calculus of explicit substitutions of Abadi et al, considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. 
+The original calculus of explicit substitutions of Abadi et al (usually called $\lambda\sigma$) considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. 
 
 This explicit substitutions construction is parametric in the kind of logic that the terms stand for. The Calculus of Constructions ([Ritter] (#Ritter)), Intuitionistic Propositional Logic and Intuitionistic Linear Logic ([Ghani2000] (#Ghani2000)) and propositional Constructive Necessity ([Ghani1998] (#Ghani1998)) can be given formalizations and implementations in terms of explicit substitutions calculi. These constructions help to show the correctness of the implementation of the associated type theories.
 
@@ -81,18 +81,18 @@ The LSC also has applications in:
 
 
 ## References
-* Martín Abadi, Luca Cardelli, Pierre-Louis Curien, and Jean-Jacques Lévy. *Explicit Substitutions*. J. Funct. Program., 1(4):375–416, 1991. doi:10.1017/S0956796800000186.
+* Martín Abadi, Luca Cardelli, Pierre-Louis Curien, and Jean-Jacques Lévy. *Explicit Substitutions*. J. Funct. Program., 1(4):375–416, 1991. doi:10.1017/S0956796800000186. [link](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/explicit-substitutions/C1B1AFAE8F34C953C1B2DF3C2D4C2125)
 
 * [[Paul-André Melliès]], *Typed $\lambda$-calculi with explicit substitution may not terminate*.  In M. Dezani (ed.), Int. Conf. on Typed Lambda Calculus and Applications, Lecture Notes in Computer Science, 1995.
 
 * Roel Bloo and Kristoffer H. Rose, *Preservation of Strong Normalisation in Named Lambda Calculi with Explicit Substitution and Garbage Collection*.  In CSN-95: Computer Science in the Netherlands 1995, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5026)
  {#BlooRose}
 
-* Eike Ritter, *Categorical abstract machines for higher-order typed lambda calculi*, Theoretical Computer Science, vol 136, p.125–162, 1994.
+* Eike Ritter, *Categorical abstract machines for higher-order typed lambda calculi*, Theoretical Computer Science, vol 136, p.125–162, 1994. [link](https://www.sciencedirect.com/science/article/pii/0304397594001253)
 
-* Neil Ghani, Valeria de Paiva and Eike Ritter, *Linear Explicit Substitutions*, Journal of the IGPL, Vol, 8(1), pp.7-31, 2000.
+* Neil Ghani, Valeria de Paiva and Eike Ritter, *Linear Explicit Substitutions*, Journal of the IGPL, Vol, 8(1), pp.7-31, 2000. [link](https://www.researchgate.net/profile/Valeria-De-Paiva/publication/2503409_Linear_Explicit_Substitutions/links/0fcfd505c631c267d2000000/Linear-Explicit-Substitutions.pdf)
 
-* Neil Ghani, Valeria de Paiva and Eike Ritter, *Explicit substitutions for constructive necessity*, In Larsen, Kim G. and Skyum, Sven and Winskel, Glynn (eds.), Automata, Languages and Programming, 1998.
+* Neil Ghani, Valeria de Paiva and Eike Ritter, *Explicit substitutions for constructive necessity*, In Larsen, Kim G. and Skyum, Sven and Winskel, Glynn (eds.), Automata, Languages and Programming, 1998. [citeseer]{https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=712ec1a9241700486bb9aba5aba83f51398ec246)
 
 The linear substitution calculus is discussed in:
 
