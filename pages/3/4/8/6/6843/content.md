@@ -18,6 +18,11 @@ On the [[gauged WZW model]] and [[equivariant de Rham cohomology]]:
 * {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], [[Sonia Stanciu]], _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys. Lett. B **341** (1994) 153-159 &lbrack;[arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196), <a href="https://doi.org/10.1016/0370-2693(94)90304-2">doi:10.1016/0370-2693(94)90304-2</a>&rbrack;
 
 
+On [[Majorana spinors]]:
+
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], *Majorana spinors* &lbrack;[pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf), [[Figueroa-MajoranaSpinors.pdf:file]]&rbrack;
+
+
 On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
