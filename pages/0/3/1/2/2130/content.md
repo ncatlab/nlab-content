@@ -85,7 +85,7 @@ $$
   \,
 $$
 
-Equivalently, for $\phi \mathbb{R}^{2n} \to X$ a [[coordinate chart]] of $X$ and $\phi^*\omega = \omega_{i j} d x^i \wedge d x^j$ the symplectic form on this patch, the [[Hamiltonian vector field]] $v_H$ is
+Equivalently, for $\phi : \mathbb{R}^{2n} \to X$ a [[coordinate chart]] of $X$ and $\phi^*\omega = \omega_{i j} d x^i \wedge d x^j$ the symplectic form on this patch, the [[Hamiltonian vector field]] $v_H$ is
 
 $$
   v_H =  \frac{\partial H}{\partial x^i} (\omega^{-1})^{i j} \partial_j
