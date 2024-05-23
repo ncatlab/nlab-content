@@ -81,6 +81,7 @@ The LSC also has applications in:
 
 
 ## References
+
 * Martín Abadi, Luca Cardelli, Pierre-Louis Curien, and Jean-Jacques Lévy. *Explicit Substitutions*. J. Funct. Program., 1(4):375–416, 1991. doi:10.1017/S0956796800000186. [link](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/explicit-substitutions/C1B1AFAE8F34C953C1B2DF3C2D4C2125)
 
 * [[Paul-André Melliès]], *Typed $\lambda$-calculi with explicit substitution may not terminate*.  In M. Dezani (ed.), Int. Conf. on Typed Lambda Calculus and Applications, Lecture Notes in Computer Science, 1995.
@@ -103,6 +104,14 @@ The linear substitution calculus is discussed in:
 * Beniamino Accattoli, Pablo Barenbaum, Damiano Mazza, _Distilling Abstract Machines_, [arxiv](https://arxiv.org/abs/1406.2370)
 
 * Beniamino Accattoli and Ugo Dal Lago, _(Leftmost-outermost) beta reduction is invariant, indeed_, [lmcs](https://lmcs.episciences.org/1627/pdf)
+
+Explicit substitution in [[dependent type theory]]:
+
+* [[Johan Georg Granström]]. *Treatise on Intuitionistic Type Theory*. Springer Science & Business Media, 2 June 2011. ISBN:978-9400717350
+
+* [[Théo Winterhalter]], *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
+
+* [[Daniel Gratzer]], [[G. Alex Kavvos]], [[Andreas Nuyts]], [[Lars Birkedal]]: _Multimodal Dependent Type Theory_, Logical Methods in Computer Science **17** 3 (2021) lmcs:7713 &lbrack;[arXiv:2011.15021](https://arxiv.org/abs/2011.15021), <a href="https://doi.org/10.46298/lmcs-17(3:11)2021">doi:10.46298/lmcs-17(3:11)2021</a>&rbrack;
 
 [[!redirects explicit substitutions]]
 [[!redirects linear substitution calculus]]
