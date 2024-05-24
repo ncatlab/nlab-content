@@ -20,7 +20,7 @@ On [[semi-holomorphic 4d Chern-Simons theory]] and relation to [[integrable syst
 
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[semi-holomorphic 4d Chern-Simons theory]]
 
