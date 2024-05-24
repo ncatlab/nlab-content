@@ -8,8 +8,12 @@ Edgar H. Brown
 * [webpage](http://www.brandeis.edu/facultyguide/person.html?emplid=1ea382383b3eafe98ed7fec4c23acf2f354e1c13)
 
 
+
 ## Selected writings
 
+Introducing [[twisted tensor products]]:
+
+* [[Edgar H. Brown]], Jr. _Twisted tensor products I_, Ann. Math. (II) __69__ 1 (1959) 223-246 &lbrack;[doi:10.2307/1970101](https://doi.org/10.2307/1970101)&rbrack;
 
 On [[Whitehead-generalized cohomology theories]], [[homotopy theory]] ([[localization]] and [[homotopy categories]]) and proving the [[Brown representability theorem]]
 
@@ -34,9 +38,7 @@ based on (including discussion of globally [[Kan fibration|Kan fibrant]] [[simpl
 
 * [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
-Introducing [[twisted tensor product]]
 
-* Edgar H. Brown, Jr. _Twisted tensor products I_, Ann. Math. (II) __69__:1 (1959) 223--246 [doi](https://doi.org/10.2307/1970101)
 
 
 ## Related entries
