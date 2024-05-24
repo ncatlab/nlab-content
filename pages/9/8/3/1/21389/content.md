@@ -17,7 +17,7 @@ On [[Skyrmions]]:
 
 On the [[Skyrmion model]] with [[omega-meson]]-contribution:
 
-* {#GudnasonSpeight20} [[Sven Bjarke Gudnason]], James Martin Speight, _Realistic classical binding energies in the $\omega$-Skyrme model_ ([arXiv:2004.12862](https://arxiv.org/abs/2004.12862))
+* {#GudnasonSpeight20} [[Sven Bjarke Gudnason]], [[James Martin Speight]], _Realistic classical binding energies in the $\omega$-Skyrme model_ ([arXiv:2004.12862](https://arxiv.org/abs/2004.12862))
 
 On [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
 
