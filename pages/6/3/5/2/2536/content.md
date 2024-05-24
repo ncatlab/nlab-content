@@ -447,3 +447,7 @@ Discussion of [[spectral triples]] over Jordan algebras in the [[Connes-Lott mod
 
 [[!redirects special Jordan algebra]]
 [[!redirects special Jordan algebras]]
+
+[[!redirects Jordan product]]
+[[!redirects Jordan products]]
+
