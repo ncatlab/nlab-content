@@ -101,6 +101,11 @@ as well as various of the lectures in the collection
 
 * [[Pierre Deligne]] et al., _[[Quantum Fields and Strings]]_
 
+See also:
+
+* Konstantinos Koutrolikos, *'Just another field theory' approach to $\mathcal{N}=1$ Super Yang-Mills and the origin of intrinsic SuperGeometry* &lbrack;[arXiv:2405.13139](https://arxiv.org/abs/2405.13139)&rbrack;
+
+
 The [[deformation theory]] of SYM theories is discussed in 
 
 * {#SchwarzMovshev} [[Albert Schwarz]], [[Mikhail Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
