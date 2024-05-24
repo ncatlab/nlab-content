@@ -23,4 +23,5 @@ On [[Frobenius manifolds]]:
 
 category:people
 
+[[!redirects Boris A. Dubrovin]]
 [[!redirects B. A. Dubrovin]]
