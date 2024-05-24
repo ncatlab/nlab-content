@@ -250,11 +250,11 @@ On [[matrix models]], [[group field theory|group field theories]], and their [[c
 
 On using [[integrable systems]] in solving [[combinatorics]] problems:
 
-* Paul Zinn-Justin, *Integrability and combinatorics*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.13221](https://arxiv.org/abs/2404.13221)&rbrack;
+* [[Paul Zinn-Justin]], *Integrability and combinatorics*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.13221](https://arxiv.org/abs/2404.13221)&rbrack;
 
 On elliptic [[quantum groups]]:
 
-* Hitoshi Konno, *Elliptic Quantum Groups*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2405.11193](https://arxiv.org/abs/2405.11193)&rbrack;
+* [[Hitoshi Konno]], *Elliptic Quantum Groups*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2405.11193](https://arxiv.org/abs/2405.11193)&rbrack;
 
 
 
