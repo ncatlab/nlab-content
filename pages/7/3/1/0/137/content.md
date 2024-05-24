@@ -78,7 +78,7 @@ A morphism in the category of sheaves of sets over a topological space $X$ is ep
 
 +-- {: .num_example #EpimorphismsOfRings}
 ###### Example
-**(epimorphisms of rings)**
+**(epimorphisms of rings)**{#epiring}
 
 In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, a morphism $f: R\to S$ is epi iff the canonical inclusion of the right module $S_R$ into its extension of scalars along $f$, $S_R\to S_R\otimes_R S$ is
 a bijection (hence isomorphism), or equivalently, the multiplication map $S\otimes S\to S$ factors to an isomorphism $S\otimes_R S\to S$ of $R$-bimodules. 
