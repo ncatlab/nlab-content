@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[linear algebra]] relating bilinear and quadratic forms. For the notion in [[symplectic geometry]] see at _[[polarization]]_. For polarization of light, see _[[wave polarization]]_.
+> This entry is about the notion in [[linear algebra]] relating [[bilinear form|bilinear]] and [[quadratic forms]]. For the notion in [[symplectic geometry]] see at _[[polarization]]_. For polarization of [[waves]] ([[light]]), see _[[wave polarization]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,48 +17,93 @@
 
 ## Idea
 
-Any [[symmetric bilinear form]] $(-) \cdot (-)$ defines a [[quadratic form]] $(-)^2$.  The _polarization identity_ reconstructs the bilinear form from the quadratic form.  More generally, starting from any [[bilinear form]], the polarization identity reconstructs its symmetrization.  A slight variation applies this also to [[sesquilinear forms]], which don\'t require any kind of symmetry to work.  The whole business actually applies to [[bilinear maps]], not just forms (that is, taking arbitrary values, not just values in the [[base field]] or some other [[line]]).  Some kind of linearity is crucial: polarization doesn\'t work without addition (and subtraction); we must also be able to divide by $2$ for the best results.  It is also possible to generalize from quadratic forms to higher-order [[homogenous form]]s if we can divide by larger integers.
+Any [[symmetric bilinear form]] $(-) \cdot (-)$ defines a [[quadratic form]] $(-)^2$.  The _polarization identity_ reconstructs the bilinear form from the quadratic form.  
+
+More generally, starting from any [[bilinear form]], the polarization identity reconstructs its symmetrization.  
+A slight variation applies this also to [[sesquilinear forms]], which don\'t require any kind of symmetry to work.  
+
+The whole business actually applies to [[bilinear maps]], not just forms (that is, taking arbitrary values, not just values in the [[base field]] or some other [[line]]).  Some kind of linearity is crucial: polarization doesn\'t work without [[addition]] (and [[subtraction]]); we must also be able to divide by $2$ for the best results.  It is also possible to generalize from quadratic forms to higher-order homogenous forms if we can divide by larger integers.
 
 
 ## Statements
 
-Let $R$ be a [[commutative ring]].  Let $V$ and $W$ be $R$-[[modules]], and let $m\colon V \times V \to W$ be a [[bilinear map]]; that is, we have an $R$-module [[homomorphism]] $V \otimes V \to W$.  Let $Q\colon V \to W$ be the [[quadratic map]] given by $Q(x) = m(x,x)$; this is *not* an $R$-module homomorphism.
+Let
+
+* $R$ be a [[commutative ring]];
+
+* $V,\, W$ be  $R$-[[modules]];
+
+* $m\colon V \times V \to W$ be a [[bilinear map]],
+
+  (an $R$-module [[homomorphism]] $V \otimes V \to W$ out of their [[tensor product of modules|tensor product]]);
+
+* $Q\colon V \to W$ be the [[quadratic map]] given by $Q(x) \coloneqq m(x,x)$
+
+  (NB: this is *not* an $R$-module homomorphism).
 
 Then we have:
 
-* the _[[parallelogram law]]_: $2 Q(x) + 2 Q(y) = Q(x + y) + Q(x - y)$, and
-* the __polarization identity__: $2 m(x,y) + 2 m(y,x) = Q(x + y) - Q(x - y)$.
+* the _[[parallelogram law]]_: 
+
+  $$
+    2 Q(x) + 2 Q(y) \,=\, Q(x + y) + Q(x - y)
+    \,,
+  $$ 
+
+and
+
+* the __polarization identity__: 
+  
+  $$
+    2 m(x,y) + 2 m(y,x) \,=\, Q(x + y) - Q(x - y)
+    \,.
+  $$
 
 Writing $Q(x)$ as $x^2$ and $m(x,y)$ as $x y$, these read:
 
 * $2 x^2 + 2 y^2 = (x + y)^2 + (x - y)^2$,
+
 * $2 x y + 2 y x = (x + y)^2 - (x - y)^2$.
 
 The polarization identity also has these alternative forms:
 
 * $x y + y x = (x + y)^2 - x^2 - y^2$,
+
 * $x y + y x = x^2 + y^2 - (x - y)^2$;
 
 these may derived by adding or subtracting the parallelogram law and the first polarization identity assuming that multiplication by $2$ is cancellable in $W$; they can also both be proved directly without any such assumption.
 
 The most general form of such expressions is
-$$ k x y + k y x = \sum_i c_i (a_i x + b_i y)^2 $$
+$$ 
+  k x y + k y x = \sum_i c_i (a_i x + b_i y)^2 
+$$
 for any [[finite sequence]] of triples $(a,b,c)$ from $R$ such that
-$$ \sum_i a_i ^ 2 c_i = \sum_i b_i ^ 2 c_i = 0 ,$$
+$$ 
+  \sum_i a_i ^ 2 c_i = \sum_i b_i ^ 2 c_i = 0
+  \,,
+$$
 if
-$$ k = \sum_i a_i b_i c_i .$$
+$$ 
+  k = \sum_i a_i b_i c_i 
+  \,.
+$$
 In the three specific versions of the polarization identity listed above, the values of $a$, $b$, and $c$ are all always $0$, $1$, or $-1$, but there is no reason to restrict ourselves to this or even assume that they are integers (or even rational numbers or more generally members of the [[prime field]] of $R$).  (If we want to allow $R$ to be a [[rig]], then we can use a version of this with sums on both sides of the equation, but that seems like [[centipede mathematics]] since I don\'t know any application of that case.)
 
 Now suppose that $m$ is [[symmetric bilinear map|symmetric]], so that $x y = y x$.  And suppose that multiplication by $2$ is (not merely cancellable but also) invertible in $W$.  (If $1/2 \in R$, then that is more than sufficient.)  Then the polarization identities read:
 
 * $x y = \frac{1}{4} (x + y)^2 - \frac{1}{4} (x - y)^2$,
+
 * $x y = \frac{1}{2} (x + y)^2 - \frac{1}{2} x^2 - \frac{1}{2} y^2$,
+
 * $x y = \frac{1}{2} x^2 + \frac{1}{2} y^2 - \frac{1}{2} (x - y)^2$.
 
 That is, we may recover $m$ from $Q$ (in any of these ways).  The second one is probably the most widely used.  Regardless of the original symmetry of $m$, we may recover its symmetrization $x \circ y = (x y + y x)/2$ (the [[Jordan product]]) in any these ways.  The most general formula for $x \circ y$ is
-$$ x \circ y
-= \frac{\sum_i c_i (a_i x + b_i y)^2}
-{\sum_i 2 a_i b_i c_i} $$
+$$ 
+  x \circ y
+  \;=\;
+  \frac{\sum_i c_i (a_i x + b_i y)^2}
+  {\sum_i 2 a_i b_i c_i} 
+$$
 when the sums of $a^2 c$ and $b^2 c$ are zero (as above) and the sum in the denominator is invertible.  (In that case, one could also normalize the $c$s so that the denominator becomes $1$.)  Notice that $2$ must be invertible to have any hope of recovering $m$ or its symmetrization; but we could recover $x y + y x$ without that.
 
 We can also go the other direction: given a quadratic map $Q$, if $2$ is invertible, then any polarization identity defines a symmetric bilinear map $m$; these all agree iff $Q$ obeys the parallelogram law, and then $Q$ may be recovered from this $m$ once more.
@@ -108,8 +153,14 @@ $$ m(v,\ldots,v) = p!\, Q(v) .$$
 
 * [[cubical structure on a line bundle]]
 
+## Literature
+
+* Wikipedia, *[Polarization identity](https://en.wikipedia.org/wiki/Polarization_identity)*
+
+* [[Encyclopedia of Mathematics]], *[Polarization identity](https://encyclopediaofmath.org/wiki/Polarization_identity)*
 
 [[!redirects polarization identity]]
 [[!redirects polarization identities]]
 [[!redirects polarisation identity]]
+
 [[!redirects polarisation identities]]
