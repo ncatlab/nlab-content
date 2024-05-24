@@ -61,14 +61,19 @@ On combinatorics in [[algebraic topology]]:
 
 * [[Dmitry Kozlov]], *Combinatorial Algebraic Topology*,  Algorithms and Computation in Mathematics **21**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-71962-5](https://doi.org/10.1007/978-3-540-71962-5)&rbrack;
 
-An application of [[Hodge theory]]
+An application of [[Hodge theory]]:
 
 * {#Huh22} [[June Huh]], _Combinatorics and Hodge theory_, Proc. Int. Cong. Math. **1** (2022)
  &lbrack;[doi:10.4171/ICM2022/205](), [pdf](https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/jh.pdf), [[Huh-CombinatoricsAndHodgeTheory.pdf:file]]&rbrack;
 
-A categorification of many counting procedures may be viewed via so called objective linear algebra. Some ideas can be found in 
+A [[categorification]] of many counting procedures may be viewed via so called objective linear algebra:
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
+
+On using [[integrable systems]] for solving combinatorics problems:
+
+* [[Paul Zinn-Justin]], *Integrability and combinatorics*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.13221](https://arxiv.org/abs/2404.13221)&rbrack;
+
 
 
 [[!redirects combinatorial]]
