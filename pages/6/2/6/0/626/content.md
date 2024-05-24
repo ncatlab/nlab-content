@@ -282,11 +282,14 @@ Introductions to and surveys of string diagram calculus:
 
   >   (on surface diagrams)
 
-* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
-
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_ ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
+
+* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
+
+* [[Joseph M. Landsberg]], §2.11 in: *Tensors: Geometry and Applications* (2011) &lbrack;ISBN:978-0-8218-6907-9, [ams:gsm-128](https://bookstore.ams.org/gsm-128)&rbrack;
+
 
 * [[Aleks Kissinger]], _Pictures of Processes: Automated Graph Rewriting for Monoidal Categories and Applications to Quantum Computing_ ([arXiv:1203.0202](https://arxiv.org/abs/1203.0202))
  
