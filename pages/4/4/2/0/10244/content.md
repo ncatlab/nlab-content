@@ -21,7 +21,7 @@
 
 ## Idea
 
-The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin & Volkov 1995](#BPSTV95), [Howe & Sezgin 1997](#HoweSezgin97)), later named the _super-embedding approach_ ([Sorokin 2000](#Sorokin00)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
+The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin & Volkov 1995](#BPSTV95), [Howe & Sezgin 1997](#HoweSezgin97)), later named the _super-embedding approach_ ([Howe, Raetzel & Sezgin 1998](#HoweRaetzelSezgin98), [Sorokin 2000](#Sorokin00)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/pBraneEmbedding.jpg" width="800">
@@ -215,7 +215,7 @@ Under the name "doubly supersymmetric geometrical approach" the approach origina
 
 The terminology "superembedding" arises with:
 
-* [[Paul S. Howe]], O. Raetzel, [[Ergin Sezgin]], *On Brane Actions and Superembeddings*, JHEP 9808 (1998) 011 &lbrack;[arXiv:hep-th/9804051](https://arxiv.org/abs/hep-th/9804051), [doi:10.1088/1126-6708/1998/08/011](https://doi.org/10.1088/1126-6708/1998/08/011)&rbrack;
+* {#HoweRaetzelSezgin98} [[Paul S. Howe]], O. Raetzel, [[Ergin Sezgin]], *On Brane Actions and Superembeddings*, JHEP 9808 (1998) 011 &lbrack;[arXiv:hep-th/9804051](https://arxiv.org/abs/hep-th/9804051), [doi:10.1088/1126-6708/1998/08/011](https://doi.org/10.1088/1126-6708/1998/08/011)&rbrack;
 
 and a more elaborate discussion originates with:
 
@@ -278,7 +278,7 @@ The [[equations of motion]] for the [[M5-brane]] have been derived via the [[sup
 
 following the [[superspace]]-computations in
 
-* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
 
 reviewed in
 
