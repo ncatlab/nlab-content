@@ -58,30 +58,49 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 ### General
 
+Introduction and overview:
+
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
-* Ron Donagi, Eyal Markman, _Spectral covers, algebraically completely integrable, Hamiltonian systems, and moduli of bundles_, pp. 1-119 in Integrable systems and quantum groups (expanded CIME lectures, Montecatini Terme, 1993), Lecture Notes in Math. __1620__ (1996) [arXiv:alg-geom/9507017](http://arxiv.org/abs/alg-geom/9507017), [MR97h:14017](http://www.ams.org/mathscinet-getitem?mr=1397273)
-* Eyal Markman, _Spectral curves and integrable systems_ Compositio Math. __93__ no. 3 (1994), p. 255-290, [numdam](http://www.numdam.org/item?id=CM_1994__93_3_255_0)
-* See [wikipedia](http://en.wikipedia.org/wiki/Integrable_system) for an overview and a list of some famous integrable systems and their respective pages. 
-* M.R. Adams, J. Harnad, J. Hurtubise, _Integrable Hamiltonian systems on rational coadjoint orbits of loop algebras, Hamiltonian systems, transformation groups and spectral transform methods_, Proc. CRM Workshop, Montreal 1989 (1990) pp. 19&#8211;32
-* [[Michèle Audin]], _Hamiltonian systems and their integrability_, SMF/AMS Texts and Monographs, vol. __15__ (2008)
-* A.Levin, M.Olshanetsky, A.Smirnov, A.Zotov, _Characteristic classes and integrable systems. General construction_, [arxiv/1006.0702](https://arxiv.org/abs/1006.0702)
-* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. [arxiv/1105.4170](https://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
-* Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93-154, [MR80e:58028](https://mathscinet.ams.org/mathscinet-getitem?mr=533894), [doi](https://doi.org/10.1007/BF02392090)
-* [[Boris Dubrovin|B. A. Dubrovin]], _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
-* [[Boris Dubrovin|B. A. Dubrovin]], _Integrable systems and Riemann surfaces lecture notes_, [pdf](http://people.sissa.it/~dubrovin/rsnleq_web.pdf)
-* [[Kevin Costello]], [[Edward Witten]], Masahito Yamazaki, _Gauge theory and integrability I_, [arxiv:1709.09993](https://arxiv.org/abs/1709.09993)
 
-Discussion in the context of [[harmonic maps]] is in 
+* Wikipedia, [Integralble system](http://en.wikipedia.org/wiki/Integrable_system) 
+
+See also:
+
+* [[Ron Donagi]], Eyal Markman, _Spectral covers, algebraically completely integrable, Hamiltonian systems, and moduli of bundles_, pp. 1-119 in Integrable systems and quantum groups (expanded CIME lectures, Montecatini Terme, 1993), Lecture Notes in Math. __1620__ (1996) [arXiv:alg-geom/9507017](http://arxiv.org/abs/alg-geom/9507017), [MR97h:14017](http://www.ams.org/mathscinet-getitem?mr=1397273)
+
+* Eyal Markman, _Spectral curves and integrable systems_ Compositio Math. __93__ no. 3 (1994), p. 255-290, [numdam](http://www.numdam.org/item?id=CM_1994__93_3_255_0)
+
+
+* M.R. Adams, J. Harnad, J. Hurtubise, _Integrable Hamiltonian systems on rational coadjoint orbits of loop algebras, Hamiltonian systems, transformation groups and spectral transform methods_, Proc. CRM Workshop, Montreal 1989 (1990) pp. 19&#8211;32
+
+* [[Michèle Audin]], _Hamiltonian systems and their integrability_, SMF/AMS Texts and Monographs, vol. __15__ (2008)
+
+* A.Levin, M.Olshanetsky, A.Smirnov, A.Zotov, _Characteristic classes and integrable systems. General construction_, [arxiv/1006.0702](https://arxiv.org/abs/1006.0702)
+
+* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. [arxiv/1105.4170](https://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
+
+* Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93-154, [MR80e:58028](https://mathscinet.ams.ormathscinet-getitem?mr=533894), [doi](https://doi.org/10.1007/BF02392090)
+
+* [[Boris Dubrovin|B. A. Dubrovin]], _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
+
+* [[Boris A. Dubrovin]], _Integrable systems and Riemann surfaces lecture notes_, [pdf](http://people.sissa.it/
+~dubrovin/rsnleq_web.pdf)
+
+Via [[semi-holomorphic 4d Chern-Simons theory]]:
+
+* [[Kevin Costello]], [[Edward Witten]], [[Masahito Yamazaki]], _Gauge theory and integrability I_, [arxiv:1709.09993](https://arxiv.org/abs/1709.09993)
+
+Discussion in the context of [[harmonic maps]]: 
 
 * [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and vesture for harmonic maps into symmetric spaces_ ([arXiv:1209.1383](https://arxiv.org/abs/1209.1383))
 
 * Michael Gekhtman, Anton Izosimov, *Integrable systems and cluster algebras*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.07287](https://arxiv.org/abs/2403.07287)&rbrack;
 
-See also:
+On using integrable systems for solving [[combinatorics]] problems:
 
+* [[Paul Zinn-Justin]], *Integrability and combinatorics*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.13221](https://arxiv.org/abs/2404.13221)&rbrack;
 
-* Wikipedia, _[Integrable system](https://en.wikipedia.org/wiki/Integrable_system)_
 
 ### In gravity
 
