@@ -240,6 +240,21 @@ On [[rational homotopy theory]] in [[mathematical physics]], such as in [[Hypoth
 
 * [[Alexander A. Voronov]], *Rational Homotopy Theory*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.00939](https://arxiv.org/abs/2404.00939)&rbrack;
 
+On [[topological index|topological indices]] in [[solid state physics]]:
+
+* Hermann Schulz-Baldes, *Topological indices in condensed matter*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.18948](https://arxiv.org/abs/2403.18948)&rbrack;
+
+On [[matrix models]], [[group field theory|group field theories]], and their [[combinatorics]]:
+
+* Sylvain Carrozza, *Tensor models and group field theories: combinatorics, large N and renormalization*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.07834](https://arxiv.org/abs/2404.07834)&rbrack;
+
+On using [[integrable systems]] in solving [[combinatorics]] problems:
+
+* Paul Zinn-Justin, *Integrability and combinatorics*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.13221](https://arxiv.org/abs/2404.13221)&rbrack;
+
+On elliptic [[quantum groups]]:
+
+* Hitoshi Konno, *Elliptic Quantum Groups*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2405.11193](https://arxiv.org/abs/2405.11193)&rbrack;
 
 
 
