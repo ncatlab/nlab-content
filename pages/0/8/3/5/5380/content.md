@@ -569,6 +569,11 @@ See also:
 
 * [[Aurelio Carboni]], [[Marco Grandis]] , _Categories of projective spaces_ , JPAA **110** (1996) pp.241-258.
 
+Discussion in [[synthetic algebraic geometry]]:
+
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], [[David Wärn]]: *Projective Space in Synthetic Algebraic Geometry* &lbrack;[arxiv:2405.13916](https://arxiv.org/abs/2405.13916)&rbrack;
+
+
 [[!redirects projective spaces]]
 
 [[!redirects homogeneous coordinates]]
