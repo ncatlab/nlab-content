@@ -72,6 +72,9 @@ Historical discussion:
 
 * [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Chapter 8 of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
 
+Monograph:
+
+* [[Joseph M. Landsberg]], *Tensors: Geometry and Applications* (2011) &lbrack;ISBN:978-0-8218-6907-9, [ams:gsm-128](https://bookstore.ams.org/gsm-128)&rbrack;
 
 Discussion with an eye towards application in ([[particle physics|particle]]) [[physics]]:
 
