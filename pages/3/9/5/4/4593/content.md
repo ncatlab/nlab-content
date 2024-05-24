@@ -118,6 +118,10 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 
 ## References
 
+General linguistical and philosophical discussion is in 
+
+* [Quantifiers and quantification](https://plato.stanford.edu/entries/quantification) in Stanford Encyclopedia of Philosophy
+
 The identification of universal/existential quantification with [[adjoints]] of [[substitution]]/[[context extension]] ([[dependent product]]/[[dependent sum]]) originates around
 
 * [[William Lawvere]], *Adjointness in Foundations*, Dialectica **23** (1969) 281-296, 
