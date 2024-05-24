@@ -108,6 +108,12 @@ In the generality of [[noncartesian internal categories]]:
 
 * [[Marcelo Aguiar]],  *Internal categories and quantum groups*, PhD thesis, Cornell 1997 ([pdf](http://pi.math.cornell.edu/~maguiar/thesis2.pdf), [[Aguiar_InternalCategoriesAndQuantumGroups.pdf:file]]) 
 
+On elliptic quantum groups:
+
+* [[Hitoshi Konno]], *Elliptic Quantum Groups*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2405.11193](https://arxiv.org/abs/2405.11193)&rbrack;
+
+
+
 
 See also:
 
