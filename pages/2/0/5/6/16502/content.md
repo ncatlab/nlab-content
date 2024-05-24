@@ -22,6 +22,11 @@ On [[synthetic algebraic geometry]]:
 
 * [[Felix Cherubini]], *A Foundation for Synthetic Algebraic Geometry*, talk at *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (Oct 2023) &lbrack;slides:[pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Cherubini-2023-10-18-HoTTEST.pdf), video:[YT](https://www.youtube.com/watch?v=lp4kcmQ0ueY)&rbrack;
 
+On [[projective spaces]] in [[synthetic algebraic geometry]]:
+
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], [[David Wärn]]: *Projective Space in Synthetic Algebraic Geometry* &lbrack;[arxiv:2405.13916](https://arxiv.org/abs/2405.13916)&rbrack;
+
+
 
 
 
