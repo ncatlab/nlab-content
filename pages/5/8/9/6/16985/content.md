@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,8 +51,11 @@ See also
 
 * Lachlan Macdonald, [[Varghese Mathai]], Hemanth Saratchandran, _On the Chern character in Higher Twisted K-theory and spherical T-duality_ ([arXiv:2007.02507](https://arxiv.org/abs/2007.02507))
 
+* [[Gil R. Cavalcanti]], Bart Heemskerk, *Topological Spherical T-duality -- Dimension change from higher degree H-flux* &lbrack;[arXiv:2405.14054](https://arxiv.org/abs/2405.14054)&rbrack;
 
-The realization in [[M-theory]] at the level of rational super homotopy theory is derived in
+
+
+The realization in [[M-theory]] at the level of super [[rational homotopy theory]] is derived in
 
 * {#FiorenzaSatiSchreiber18a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes]]_ ([arXiv:1803.05634](https://arxiv.org/abs/1803.05634))
 
