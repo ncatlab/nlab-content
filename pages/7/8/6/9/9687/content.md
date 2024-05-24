@@ -261,6 +261,11 @@ In relation to [[conformal symmetry]] and [[AdS-CFT duality]] (see also at *[[Ad
 
 * {#KPV22} M. Kirchbach, T. Popov, J.-A. Vallejo, *The Conformal-Symmetry -- Color-Neutrality Connection in Strong Interaction* &lbrack;[arXiv:2208.06484](https://arxiv.org/abs/2208.06484)&rbrack;
 
+* Canberk Güvendik, Thomas Schaefer, Mithat Ünsal, *The metamorphosis of semi-classical mechanisms of confinement: From monopoles on $\mathbb{R}^3 \times S^1$ to center-vortices on $\mathbb{R}^2 \times T^2$* &lbrack;[arXiv:2405.13696](https://arxiv.org/abs/2405.13696)&rbrack;
+
+* E. G. Timoshenko, *Boundary Effects and Confinement in the Theory of Nonabelian Gauge Fields*, PhD thesis (1995) &lbrack;[arXiv:2405.13189](https://arxiv.org/abs/2405.13189)&rbrack;
+
+
 
 
 #### Via monopole condensation
@@ -302,6 +307,9 @@ Discussion of confinement via an interacting field vacuum
 See also:
 
 * {#Simonov18} [[Yuri A. Simonov]], _Field Correlator Method for the confinement in QCD_, Phys. Rev. D 99, 056012 (2019) ([arXiv:1804.08946](https://arxiv.org/abs/1804.08946), [doi:10.1103/PhysRevD.99.056012](https://doi.org/10.1103/PhysRevD.99.056012))
+
+
+
 
 
 ### In super-Yang-Mills theory
