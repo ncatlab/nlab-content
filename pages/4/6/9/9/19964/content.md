@@ -446,7 +446,7 @@ On Skyrmions in relation to [[chiral perturbation theory|chiral]] [[effective fi
 
 
 
-[[!include Skyrme hadrodynamics with vector mesons -- references ]]
+[[!include Skyrme hadrodynamics with vector mesons -- references]]
 
 
 [[!include Skyrme hadrodynamics with heavy mesons -- references]]
