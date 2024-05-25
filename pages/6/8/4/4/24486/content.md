@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+Early discussion of [[connected objects]] (then called *coprime objects*):
+
+* [[Reinhard Börger]], _Multicoreflective subcategories and coprime objects_, Topology and its Applications **33** 2 (1989) 127-142 &lbrack;[pdf](https://core.ac.uk/download/pdf/81149450.pdf)&rbrack;
+
+
 
 On [[superconvex spaces]]:
 
