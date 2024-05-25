@@ -957,6 +957,10 @@ On [[monoidal category|monoidal]] [[univalent categories]] in [[univalent founda
 
 * [[Kobe Wullaert]], [[Ralph Matthes]], [[Benedikt Ahrens]], *Univalent Monoidal Categories* &lbrack;[arXiv:2212.03146](https://arxiv.org/abs/2212.03146)&rbrack;
 
+Some remarks on different monoidal structures on the [[category of sets]]:
+
+* [Set as a monoidal category](https://github.com/punkdit/categories/blob/26b751bbcbe6765fe447e805629ff6416f4c38b1/gmane/science/mathematics/categories/4477), [[categories mailing list]]
+
 
 [[!redirects monoidal category]]
 [[!redirects monoidal categories]]
