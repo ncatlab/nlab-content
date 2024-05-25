@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[type theory]] a _[[type formation rule]]_ is a [[natural deduction]] step roughly of the form
+In [[type theory]] a _type formation rule_ is a [[natural deduction]] step roughly of the form
 
 $$
   \frac{
