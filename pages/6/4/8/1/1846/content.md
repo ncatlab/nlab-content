@@ -58,6 +58,8 @@ $Cl_{n+1}$-action. When $n = 0$ this is what we had above, since a $Cl_0$-module
 
 * [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1970__38_/PMIHES_1970__38__5_0/PMIHES_1970__38__5_0.pdf))
 
+* [[Max Karoubi]], _K-theory: An introduction_. Springer Science & Business Media, 2009. ([doi](https://doi.org/10.1007/978-3-540-79890-3)).
+
 Relation to [[twisted K-theory]]:
 
 * [[Max Karoubi]], _Clifford modules and twisted K-theory_, Proceedings of the International Conference on Clifford algebras (ICCA7) ([arXiv:0801.2794](http://arxiv.org/abs/0801.2794))
