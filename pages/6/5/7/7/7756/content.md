@@ -21,11 +21,13 @@
 
 ## Idea
 
-A __first-order theory__ is a [[theory]] written in the language of [[first-order logic]] i.e it is a set of formulas or sequents (or generally, [[axioms]] over a signature) whose [[quantification|quantifiers]] and variables range over individuals of the underlying domain, but not over subsets of individuals nor over functions or relations of individuals etc. A first-order theory is called [[infinitary logic|infinitary]] when the expressions contain infinite [[disjunctions]] or [[conjunctions]], else it is called _finitary_.
+A __first-order theory__ is a [[theory]] written in the language of [[first-order logic]] i.e it is a set of [[formulas]] or [[sequents]] (or generally, [[axioms]] over a [[signature (in logic)|signature]]) whose [[quantification|quantifiers]] and [[variables]] range over individuals of the underlying domain, but not over subsets of individuals nor over functions or relations of individuals etc. 
 
-Another name for a first-order theory is _elementary theory_ which is found in the older literature but by now has gone extinct, though it has left its traces in names like [[elementary topos]], [[elementary embedding]], [[ETCC]] etc.
+A first-order theory is called [[infinitary logic|infinitary]] when the expressions contain infinite [[disjunctions]] or [[conjunctions]], else it is called _finitary_.
 
-The characterization of set-theoretic [[models]] of (finitary) first-order theories is the topic of traditional [[model theory]].
+Another name for a first-order theory is _elementary theory_ which is found in the older literature but by now has gone extinct, though it has left its traces in names like *[[elementary topos]]*, *[[elementary embedding]]*, *[[ETCC]]* etc.
+
+The characterization of [[set theory|set-theoretic]] [[models]] of (finitary) first-order theories is the topic of traditional [[model theory]].
 
 ## Examples
 
