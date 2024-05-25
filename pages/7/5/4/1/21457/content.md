@@ -1,5 +1,5 @@
 
-* [webpage](https://www.chalmers.se/en/staff/Pages/jakob-palmkvist.aspx)
+* [webpage](https://www.palmkvist.nu)
 
 
 ## Selected writings
