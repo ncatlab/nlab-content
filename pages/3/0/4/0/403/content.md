@@ -429,6 +429,8 @@ but it seems that the definition is not actually contained in there, certainly n
 
 The observation that (internal) categories are [[monads]] in the [[bicategory of spans]]:
 
+* {#Bunge66} [[Marta Bunge]], *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
+
 * {#Bénabou67} [[Jean Bénabou]], §5.4.3 in: *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
 * [[Jean Celeyrette]], *Catégories internes et fibrations* & *Cohomologie de Gel'fand-Fuks*, PhD thesis, Paris (1975) &lbrack;[pdf](/nlab/files/celeyrette-thesis-1975.pdf)&rbrack;
