@@ -11,7 +11,7 @@
 
 On [[categories of presheaves]]:
 
-* {#Bunge66} [[Marta Bunge]], *Categories of Set-Valued Functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
+* {#Bunge66} [[Marta Bunge]], *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
 
 On [[internal presheaves]] in [[elementary toposes]]:
 
