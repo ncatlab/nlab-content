@@ -19,7 +19,7 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |2011|Vancouver|[website](http://www.mat.uc.pt/~ct2011/)| |
 |2010|Genoa|[archive](https://web.archive.org/web/20120115044855/http://ct2010.disi.unige.it/)| |
 |2009|Cape Town|[website](http://137.158.44.70/~janelidze/ct2009/Index.html)| |
-|2008|Calais|[website](http://www-lmpa.univ-littoral.fr/CT08/)| |
+|2008|Calais|[website](http://www-lmpa.univ-littoral.fr/CT08/)|[slides](https://www-lmpa.univ-littoral.fr/CT08/program.html)|
 |2007|Carvoeiro|[website](https://www.mat.uc.pt/~categ/ct2007/)| |
 |2006|Nova Scotia|[website](https://www.mscs.dal.ca/~selinger/ct2006/)| |
 |2005|*Data missing*|*Data missing*| |
