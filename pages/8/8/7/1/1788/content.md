@@ -1,4 +1,16 @@
 
+dd
+
+<div style="margin:-30px -20px 0px 0px;">
+<a href="https://arxiv.org/pdf/2303.02382v1#page=33">
+<img src="/schreiber/files/TypingOfPrograms.jpg" width="900"> 
+</a>
+</div>
+
+dd
+
+$\text{fillingfactor}$
+
 $$
   &#8545;
 $$
