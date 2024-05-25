@@ -51,6 +51,12 @@ See also:
 * Marta Bunge reported at the category conference in Calais in June 2008 about her joint work with [[Claudio Hermida]] about some aspects of [[Diaconescu's theorem|Diaconescu-type]] results in [[2-category|categorical dimension 2]]. Her slides from Calais can be found [here](http://saxo.univ-littoral.fr/CT08/slides/Bunge.pdf).  There are also some conjectural statements about higher n, with an interesting definition when an n-functor between strict n-categories should be called a fibered n-category. 
 
 
+## Related entries
+
+* [[connected object]]
+
+
 category: people
 
 [[!redirects M. Bunge]]
+
