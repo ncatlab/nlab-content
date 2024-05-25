@@ -283,6 +283,10 @@ The same method of proof shows that for an arbitrary family of [[connected space
 
 ## References
 
+Called **abstractly exclusively unary** in:
+
+* {#Bunge66} [[Marta Bunge]], *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
+
 * R. E. Hoffmann. *A categorical concept of connectedness*. Résumés Coll. Amiens. [[Cahiers]]. XIV-2 (1973). ([pdf](http://www.numdam.org/item/CTGDC_1973__14_2_153_0.pdf) page 34)
 
 * Reinhard Börger, _Multicoreflective subcategories and coprime objects_, Topology and its Applications 33.2 (1989): 127-142.
