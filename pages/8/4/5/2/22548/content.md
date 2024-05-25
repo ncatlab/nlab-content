@@ -61,10 +61,9 @@ Lecture notes:
 
 * [[Scott Aaronson]], Chapters 18-21 of: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
-Implementation in [[Quipper]]:
+Formulation in [[Quipper]]:
 
 * Safat Siddiqui, Mohammed Jahirul Islam, Omar Shehab, §4.3, §4.5 in: *Five Quantum Algorithms Using Quipper* &lbrack;[arXiv:1406.4481](https://arxiv.org/abs/1406.4481)&rbrack;
-
 
 
 See also: 
@@ -76,6 +75,10 @@ See also:
 On compiling Shor's algorithm to [[su(2)-anyon]] [[braid representation|braid]] [[quantum gates]] (i.e. implementation in [[topological quantum computation]]):
 
 * M. Baraban, Nicholas E. Bonesteel, Steven H. Simon, *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) &lbrack;[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)&rbrack;
+
+On (requirements for) actual implementation of Shor's algorithm on a [[quantum computer]]:
+
+* [[Craig Gidney]], Martin Ekerå, *How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits*, Quantum **5** (2021) 433 &lbrack;[doi:10.22331/q-2021-04-15-433](https://doi.org/10.22331/q-2021-04-15-433), [pdf](https://quantum-journal.org/papers/q-2021-04-15-433/pdf/), video:[YT](https://youtu.be/upTipX9yXNg)&rbrack;
 
 
 [[!redirects Shor algorithm]]
