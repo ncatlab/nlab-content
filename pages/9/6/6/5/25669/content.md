@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Early discussion of [[connected objects]] (then called *Z-objects*):
+
+* [[Rudolf-E. Hoffmann]]: *A categorical concept of connectedness*. Résumés Coll. Amiens. [[Cahiers]] XIV-2 (1973) 34-35 &lbrack;[[Hoffmann-Connectedness.pdf:file]], [numdam:CTGDC_1973__14_2_153_0](http://www.numdam.org/item/?id=CTGDC_1973__14_2_153_0)&rbrack;
+
+
 Early discussion of the notion of [[center of a category]]:
 
 * {#Hoffmann75} [[Rudolf-E. Hoffmann]], *Über das Zentrum einer Kategorie*, Math. Nachr. **68** (1975) 299-306 &lbrack;[doi:10.1002/mana.19750680122](https://doi.org/10.1002/mana.19750680122)&rbrack;
