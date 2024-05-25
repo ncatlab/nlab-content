@@ -283,13 +283,17 @@ The same method of proof shows that for an arbitrary family of [[connected space
 
 ## References
 
-Called **abstractly exclusively unary** in:
+Connected objects were called *abstractly exclusively unary objects* in:
 
-* {#Bunge66} [[Marta Bunge]], *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
+* {#Bunge66} [[Marta Bunge]], [p. 32](https://ncatlab.org/nlab/files/Bunge-CategoriesOfSetValuedFunctors.pdf#page=47) of: *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
 
-* R. E. Hoffmann. *A categorical concept of connectedness*. Résumés Coll. Amiens. [[Cahiers]]. XIV-2 (1973). ([pdf](http://www.numdam.org/item/CTGDC_1973__14_2_153_0.pdf) page 34)
+and were called *Z-objects* in:
 
-* Reinhard Börger, _Multicoreflective subcategories and coprime objects_, Topology and its Applications 33.2 (1989): 127-142.
+* [[Rudolf-E. Hoffmann]]: *A categorical concept of connectedness*. Résumés Coll. Amiens. [[Cahiers]] XIV-2 (1973) 34-35 &lbrack;[[Hoffmann-Connectedness.pdf:file]], [numdam:CTGDC_1973__14_2_153_0](http://www.numdam.org/item/?id=CTGDC_1973__14_2_153_0)&rbrack;
+
+and *coprime objects* in:
+
+* [[Reinhard Börger]], [p. 136](https://core.ac.uk/download/pdf/81149450.pdf#page=10) of: _Multicoreflective subcategories and coprime objects_, Topology and its Applications **33** 2 (1989) 127-142 &lbrack;[pdf](https://core.ac.uk/download/pdf/81149450.pdf)&rbrack;
 
 
 [[!redirects connected object]]
