@@ -37,9 +37,9 @@ But prominent claims of experimental detection of (these kinds of) Majorana zero
 
 * [by *Science* in 2022](https://retractionwatch.com/2022/11/17/another-majorana-particle-paper-retracted-this-time-from-science/) &lbrack;[doi:10.1126/science.adf7575](https://www.science.org/doi/10.1126/science.adf7575)&rbrack;, cf. further commentary by [[Sergey M. Frolov|S.M. Frolov]] [here](https://espressospin.org/2022/11/17/the-fallen-angel-particle/); 
 
-* and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241). 
+* and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378), [Mourik 2024](#Mourik24) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241). 
 
-While some (probably most) researchers now dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22) and [Das Sarma 22, p. 9](#DasSarma22).
+While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Legg 24](#Legg24).
 
 ## References
 
@@ -146,6 +146,14 @@ See also:
 * {#Frolov21} [[Sergey M. Frolov]], *So, You Think You Discovered a New State of Matter?*, Physics **14** 68 (2021) &lbrack;[physics.aps:v14/68](https://physics.aps.org/articles/v14/68)&rbrack;
 
 * [[Sergey M. Frolov]], *Quantum computing’s reproducibility crisis: Majorana fermions*, Nature **592** (2021) 350-352 &lbrack;[doi:10.1038/d41586-021-00954-8](https://doi.org/10.1038/d41586-021-00954-8)&rbrack;
+
+* {#Mourik24} [[Vincent Mourik]], *You uncovered unreliable research. What happens next?*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/j6fQsTpU2-g?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
+
+* Charles Gould, *Debunking the data behind the "Chiral Majorana fermion modes" claim*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/fIIx8LL9r0c?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
+
+* {#Legg24} Henry Legg, *Nonlocal conductance as a measure of topological superconducting phases*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/OmUaLewy6Fs?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
+
+\linebreak
 
 [[!include anyons in topological superconductors -- references]]
 
