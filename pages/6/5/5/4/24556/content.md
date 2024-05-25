@@ -12,4 +12,8 @@ On (non-)detection of [[Majorana zero modes]] in [[experiment]]:
 
 * {#Frolov22} [[Sergey M. Frolov]], [[Vincent Mourik]], *Majorana Fireside Podcast, Episode 1: The Microsoft TGP paper live review* &lbrack;[video](https://www.youtube.com/watch?v=RnYghkDaHH0), conclusion at: [1:01:31](https://www.youtube.com/watch?v=RnYghkDaHH0&t=3691s)&rbrack;
 
+
+* [[Vincent Mourik]], *You uncovered unreliable research. What happens next?*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/j6fQsTpU2-g?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
+
+
 category: people
