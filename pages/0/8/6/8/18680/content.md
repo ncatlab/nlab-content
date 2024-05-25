@@ -366,6 +366,9 @@ and in view of [[linear homotopy type theory]]:
 [[!redirects linear dependent type theory]]
 [[!redirects linear dependent type theories]]
 
+[[!redirects dependent linear type]]
+[[!redirects dependent linear types]]
+
 [[!redirects linear dependent homotopy type theory]]
 [[!redirects linear dependent homotopy type theories]]
 
@@ -378,6 +381,6 @@ and in view of [[linear homotopy type theory]]:
 [[!redirects linear homotopy-type theory]]
 [[!redirects linear homotopy-type theories]]
 
+[[!redirects linear homotopy type]]
+[[!redirects linear homotopy types]]
 
-[[!redirects dependent linear type]]
-[[!redirects dependent linear types]]
