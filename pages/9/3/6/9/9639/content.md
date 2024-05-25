@@ -145,6 +145,9 @@ category: physics
 [[!redirects fractional quantum Hall effect]]
 [[!redirects fractional quantum Hall effects]]
 
+[[!redirects integer quantum Hall effect]]
+[[!redirects integer quantum Hall effect]]
+
 [[!redirects quantum Hall material]]
 [[!redirects quantum Hall materials]]
 
