@@ -78,10 +78,12 @@ On their [[elliptic genera]]
 
 
 [[!redirects error correcting codes]]
+
 [[!redirects error-correcting code]]
 [[!redirects error-correcting codes]]
 
 [[!redirects error correction]]
 [[!redirects error corrections]]
+
 [[!redirects error-correction]]
 [[!redirects error-corrections]]
