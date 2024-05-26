@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -78,7 +77,7 @@ expected of the [[B-field]] [[flux]] $H_3$ and the [[RR-field]] [[fluxes]] $F_{2
 
 A conceptual picture of why [[topological K-theory]] would capture [[D-brane]] charge was suggested in [Witten 98, Section 3](#Witten98): The [[tachyon condensation]] expected (this is _[[Sen's conjecture]]_ from [Sen 98](Sen's+conjecture#ReferencesForSuperstrings)) for [[open strings]] between [[D-brane]]/[[anti-D-branes]] plausibly implements on their [[Chan-Paton gauge field|Chan-Paton]] [[vector bundles]] the defining [[equivalence relation]] ([here](topological+K-theory#eq:DefiningEquivalenceRelation)) of [[topological K-theory]], as indicated in the figure.
 
-While plausible and widely accepted in the string theory [[folklore]], this picture remains to be checked (see [below](#CheckingChenConjecture)).
+While plausible and widely accepted in the string theory [[folklore]], this picture remains to be checked (see [below](#CheckingSenConjecture)).
 
 
 ## Open problems
@@ -93,7 +92,7 @@ is an [[M-brane]]/[[supergravity C-field|C-field]] [[Dirac charge quantization|c
 
 
 ### Checking Sen's conjecture
- {#CheckingChenConjecture}
+ {#CheckingSenConjecture}
 
 While the proposal of  [Witten 98, Section 3](#Witten98) to explain the K-theory charge quantization conjecture via [[Sen's conjecture]] on [[tachyon condensation]] for [[open string|open]] [[superstrings]] stretched between [[D-brane]]/[[anti D-brane]] pairs has become widely accepted [[folklore]], the closest available towards an actual check of this argument via [[Sen's conjecture|open superstring tachyon condensation]] seems to be [Erler 13](#Erler13) which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=32)) with:
 
@@ -103,7 +102,7 @@ See also [Erler 19](#Erler19) which still lists this (on [p. 112](https://arxiv.
 
 > Are there topological invariants of the open string star algebra representing D-brane charges?
 
-As mentioned above, Sen's conjecture motivates the equivalence relation that suggests classifying the Chan-Paton bundles of D-brane-antibrane systems in topological K-theory. In particular, the rank of such bundles is not restricted, which in particular is argued to be required by the schematic construction of lower-dimensional D-branes as bound states of [[D9-brane|D9 brane-antibrane]] systems in [[type II supergravity|IIB]]. In (Hořava 1998)[#Horava98], a similar construction is proposed for IIA using the [[tachyon|unstable]] D9 branes. As before, it is argued that in order to be able to construct (by using the same $2^k$-fold construction) any number of lower-dimensional branes , one should be able to add an arbitrary number of D9 branes, thus requiring *stabilization* in the sense of cohomology. However, in Section 4 therein, it is argued that if one only concentrates on obtaining [[D0-brane|D0-branes]] from unstable D9-branes, then for that particular construction sixteen unstable D9-branes, i.e. $U(16)$-bundles, are sufficient to describe any number $N$ of D0-branes. The $N\to\infty$ limit is discussed to connect to [[BFSS matrix model|Matrix theory]], so that at least in this context [[unstable K-theory]] is supposed to suffice.
+
 
 
 ### Incompatibility with S-duality
@@ -111,7 +110,6 @@ As mentioned above, Sen's conjecture motivates the equivalence relation that sug
 Taken at face value, the K-theory conjecture applied to [[type IIB string theory]] breaks the expected [[S-duality]] symmetry of the theory: Under this [[duality in string theory|duality]] the [[B-field]] $H_3$-flux form and the [[RR-field]] 3-flux $F_3$ appear on the same footing and in particular mix as [[linear combinations]] (jointly coupling to _[[(p,q)-strings]]_), while in [[twisted K-theory]] $H_3$ is part of the twist, while $F_3$ is part of what is being twisted, with no evident way to mix these two concepts.
 
 (see also [Evslin 06, Sec. 8.3](#Evslin06))
-
 
 
 ### Spurious fractional D-brane charges
@@ -138,6 +136,22 @@ However, a highly non-trivial check in [DMW 00](#DMW00) successfully matched
 the first non-trivial differential in the [[Atiyah-Hirzebruch spectral sequence]] for [[topological K-theory]], applied on the RR-flux component $F_4$, to a constraint on the [[supergravity C-field|C-fied]] flux $G_4$ obtained from a [[path integral]]-argument in [[D=11 supergravity]].
 
 Incidentally, this and related conditions on the [[supergravity C-field|C-field]] derived in [DMW 00](#DMW00) from a [[path integral]]-argument in [[D=11 supergravity]] are all implied also by the [[Hypothesis H]] that the [[supergravity C-field|C-field]], in turn, is [[Dirac charge quantization|charge quantized]] in [[twisted Cohomotopy theory]] ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds|FSS 19]]).
+
+
+### Unstable K-theory?
+ {#UnstableKTheory}
+
+In view of potential lifts to [[M-theory]] discussed [above](#LiftToMTheory), it is noteworthy that the [[double dimensional reduction]] of [[supergravity C-field]] [[flux]] to [[RR-field]] [[flux]] (under the supposed [[duality between M-theory and type IIA string theory]]) does *not at face value* produce the high-degree RR-flux forms and their low-degree [[Hodge duality|Hodge duals]] --  notably the RR 10-form and its dual 0-form (related to [[exotic brane|exotic]] [[D8-branes]] and [[D(-2)-branes]]) do not appear (recalled in [Sati & Schreiber 2024, Ex. 2.13](#SatiSchreiber24); they are supposed to appear only in [[massive type IIA string theory]], whose relation to flux quantization and [[M-theory]] is at best subtle).
+
+But without these forms to complete the potential image of a [[Chern character]] map for [[KU]]-theory on 10-dimensional manifolds, the usual motivation for flux quantization in K-theory breaks down.
+
+What could still work in this case is [[flux quantization]] in some unstable [[nonabelian cohomology]] theory (for exposition see *[[geometry of physics -- flux quantization]]*), such as [[unstable K-theory]], where the degree of [[Chern class|Chern forms]] is bounded above.
+
+There are some further hints that make this plausible:
+
+As mentioned above, [[Sen's conjecture]] motivates the equivalence relation that suggests classifying the [[Chan-Paton bundles]] of D-brane-[[anti D-brane|antibrane]] systems in topological K-theory. In particular, the [[rank of a vector bundle|rank]] of such bundles is not restricted, which is argued to be required by the schematic construction of lower-dimensional D-branes as bound states of [[D9-brane|D9 brane-antibrane]] systems in [[type II supergravity|IIB]]. 
+
+But in [Hořava 1998](#Horava98), a similar construction is proposed for IIA using the [[tachyon|unstable]] [[D9 branes]]. As before, it is argued there that in order to be able to construct (by using the same $2^k$-fold construction) any number of lower-dimensional branes, one should be able to add an arbitrary number of D9 branes, thus requiring *[[stabilization]]* in the sense of [[Whitehead-generalized cohomology theory]]. However, in Section 4 therein, it is then argued that if one only concentrates on obtaining [[D0-brane|D0-branes]] from unstable D9-branes, then for that particular construction sixteen unstable D9-branes, i.e. $U(16)$-bundles, are sufficient to describe any number $N$ of D0-branes. The $N\to\infty$ limit is argued to connect to [[BFSS matrix model|Matrix theory]], so that at least in this situation [[unstable K-theory]] may be a valid flux/charge quantization law.
 
 ## Properties
 
