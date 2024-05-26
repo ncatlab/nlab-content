@@ -1,4 +1,6 @@
 
+[`cubical Agda`](/nlab/show/Agda#CubicalAgda)
+
 dd
 
 <div style="margin:-30px -20px 0px 0px;">
