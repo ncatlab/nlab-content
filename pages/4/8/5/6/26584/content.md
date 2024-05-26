@@ -125,6 +125,8 @@ For the notion of unstable algebraic K-theory, see [Jansen 2024](#Jansen24).
 
 * [[unstable Cohomotopy]]
 
+* [[D-brane charge quantization in K-theory]]
+
 ## References
 
 * {#HK03} [[Hiroaki Hamanaka]], [[Akira Kono]]: *On $[X, U(n)]$ when $\text{dim}(X)$ is $2n$*, Journal of Mathematics of Kyoto University **43** 2 (2003) 333-348 &lbrack;[doi:10.1215/kjm/1250283730](https://doi.org/10.1215/kjm/1250283730)&lbrack;
