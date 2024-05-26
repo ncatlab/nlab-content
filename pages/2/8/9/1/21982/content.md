@@ -111,6 +111,8 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
 
+* {#SatiSchreiber24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) \[<a href="https://arxiv.org/abs/2402.18473">arXiv:2402.18473</a>\]
+
 Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in Ktheory
 
 * [[Volker Braun]], *K-Theory Torsion* &lbrack;<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>&rbrack;
