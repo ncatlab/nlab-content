@@ -120,6 +120,7 @@ On adiabatic quantum computation combined with [[parameterized quantum system|pa
 
 
 ### Geometric phase gates, holonomic quantum computation
+ {#ReferencesGeometricPhaseGates}
 
 References which consider quantum gates operating by (nonabelian) geometric Berry phases due to adiabatic parameter movement (*holonomic quantum computation*):
 
