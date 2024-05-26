@@ -204,7 +204,7 @@ With emphasis on implementing [[homotopy type theory]] and [[univalent foundatio
 
 * [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* (2019) &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
-
+* {#MyersRiley24} [[David Jaz Myers]], [[Mitchell Riley]], *Introductory Course on Cubical Agda* (2023-34) &lbrack;[github](https://github.com/CQTS/summer23-homework/tree/master/homework)&rbrack;
 
 
 
