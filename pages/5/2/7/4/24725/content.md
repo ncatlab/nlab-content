@@ -24,7 +24,7 @@ Web:
 
 * [Github page for the 1lab](https://github.com/plt-amy/1lab)
 
-The name "1lab" is apparently a reference to (the name of) the "[[nLab|$n$Lab]]", with the specification $n = 1$ meant to highlight this focus on [[univalent category|type-theoretic]] [[1-categories]] (as opposed to [[higher category theory|higher categories]], whose type-theoretic formulation remains underdeveloped, generally).
+The name "1lab" is apparently a reference to (the name of) the "[[nLab|$n$Lab]]", with the specification $n = 1$ meant to highlight the focus on [[univalent category|type-theoretic]] [[1-categories]] (as opposed to [[higher category theory|higher categories]], whose type-theoretic formulation remains underdeveloped, generally).
 
 
 ## Related entries
