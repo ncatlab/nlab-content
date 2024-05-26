@@ -1,4 +1,13 @@
 
+
+* $\;\;\;$[[nLab:topological quantum computation|topological]] $\;\;\;\;\;$[[nLab:quantum computation|quantum]] $\;\;\;$ [[nLab:computation]]
+
+* $\;\;\;$[[nLab:dependent linear type theory|dependent]]$\;\;\;\;\;\;\;\;$[[nLab:linear type theory|linear]] $\;\;\;\;\;\;$ [[nLab:type theory]]
+
+* [[nLab:parameterized stable homotopy theory|parameterized]]$\;\;\;\;\;$[[nLab:stable homotopy theory|stable]]$\;\;\;\;\;\;$ [[nLab:algebraic topology|alg. topology]]
+
+
+
 [`cubical Agda`](/nlab/show/Agda#CubicalAgda)
 
 dd
