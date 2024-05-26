@@ -492,7 +492,11 @@ Implementation in [[Agda]]:
 
 * [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
-Leibniz's original paragraph (from an unpublished manuscript probably written after 1683) is reproduced in the Latin Original in
+and in [cubical Agda](Agda#CubicalAgda):
+
+* [[1lab]], *Transport* &lbrack;[#12111](https://1lab.dev/1Lab.Path.html#12111)&rbrack;
+
+[[Gottfried Leibniz|Leibniz]]'s original paragraph (from an unpublished manuscript probably written after 1683) is reproduced in the Latin original in:
 
 * {#Gerhard1890} K. Gerhard (ed.), Section XIX, [p. 228](https://archive.org/details/diephilosophisc00gerhgoog/page/228/mode/2up) in: *Die philosophischen Schriften von Gottfried Wilhelm Leibniz*, Siebenter Band, Weidmannsche Buchhandlung (1890) &lbrack;[archive.org](https://archive.org/details/diephilosophisc00gerhgoog/page/n7/mode/2up)&rbrack;
 
