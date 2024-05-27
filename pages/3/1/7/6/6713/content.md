@@ -312,7 +312,7 @@ General review:
 
 * [[Pietro Fre]], _The Branes: Three Viewpoints_,  In: _Gravity, a Geometrical Course_ Springer 2013 ([spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7))
 
-* [[Constantin Bachas]], *D-branes* &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456)&rbrack;
+* [[Constantin Bachas]], *D-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
