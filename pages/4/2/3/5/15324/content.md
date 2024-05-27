@@ -23,7 +23,7 @@ On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for [[D-bran
 
 On [[D-branes]]:
 
-* [[Constantin Bachas]], *D-branes* &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456)&rbrack;
+* [[Constantin Bachas]]: *D-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
 
