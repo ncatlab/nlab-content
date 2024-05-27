@@ -78,7 +78,11 @@ On compiling Shor's algorithm to [[su(2)-anyon]] [[braid representation|braid]] 
 
 On (requirements for) actual implementation of Shor's algorithm on a [[quantum computer]]:
 
-* [[Craig Gidney]], Martin Ekerå, *How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits*, Quantum **5** (2021) 433 &lbrack;[doi:10.22331/q-2021-04-15-433](https://doi.org/10.22331/q-2021-04-15-433), [pdf](https://quantum-journal.org/papers/q-2021-04-15-433/pdf/), video:[YT](https://youtu.be/upTipX9yXNg)&rbrack;
+* {#GidneyEkerå21} [[Craig Gidney]], Martin Ekerå, *How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits*, Quantum **5** (2021) 433 &lbrack;[doi:10.22331/q-2021-04-15-433](https://doi.org/10.22331/q-2021-04-15-433), [pdf](https://quantum-journal.org/papers/q-2021-04-15-433/pdf/), video:[YT](https://youtu.be/upTipX9yXNg)&rbrack;
+
+  > &lbrack;[p. 2](https://quantum-journal.org/papers/q-2021-04-15-433/pdf#page=2):&rbrack; Although Shor’s algorithms run in polynomial time, and although there has been significant historical work focusing on reducing the cost of Shor’s algorithms and large scale quantum computing architectures, the constant factors hidden by the asymptotic notation remain substantial. These constant factors must be overcome, by heavy optimization at all levels, in order to make the algorithms practical.
+
+  > Current quantum computers are far from being capable of executing Shor’s algorithms for cryptographically relevant problem sizes."
 
 
 [[!redirects Shor algorithm]]
