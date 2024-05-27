@@ -1,4 +1,50 @@
 
+**[[nLab:braiding]] of**
+
+**[[nLab:Laughlin wavefunctions]]** of 
+$\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ ---[[nLab:quantum field theory|Quantum Field Theory]]---
+
+**[[nLab:anyon|anyonic]] [[nLab:topological order]]**
+
+([[su(2)|$\mathfrak{su}(2)$]]-[[conformal blocks]])
+
+\linebreak
+
+$\;\;\;\;\;$ $\Bigg\updownarrow$ &lbrack;[[Anyonic defect branes in TED-K-theory|Sati & S. 2023a]]/[[Anyonic topological order in TED K-theory|2023b]]&rbrack;
+
+\linebreak
+
+
+**[[nLab:Gauss-Manin connection]] on**
+
+**[[nLab:twisted de Rham cohomology|twisted cohomology]] of** $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ ---[[nLab:algebraic topology|Algebraic Topology]]---
+
+**[[nLab:configuration space of points|configuration space of]] [[nLab:anyons]]**
+
+([hypergeometric WZW construction](/nlab/show/Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces))
+
+\linebreak
+
+$\;\;\;\;\;$ $\Bigg\updownarrow$ &lbrack;[[Topological Quantum Gates in Homotopy Type Theory|Myers, Sati & S. 2024]]&rbrack;
+
+\linebreak
+
+
+**[[nlab:type transport]] of**
+
+**[[nLab:0-truncated type|0-truncated]] [[nLab:function types]] into** $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ ---[[nLab:homotopy type theory|Homotopy Type Theory]]---
+
+**[[nLab:braid group|braid]]-[[nLab:dependent type|dependent]] [[nLab:Eilenberg-MacLane type|EM-types]]**
+
+(MSS construction)
+
+
+
+
+\linebreak
+
+\linebreak
+
 
 * $\;\;\;$[[nLab:topological quantum computation|topological]] $\;\;\;\;\;$[[nLab:quantum computation|quantum]] $\;\;\;$ [[nLab:computation]]
 
