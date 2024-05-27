@@ -57,10 +57,13 @@ Under the expected [[K-theory classification of topological phases of matter]], 
 
 (...)
 
-(For the moment see the references at *[[topological insulator]]* etc.)
+> (For the time being see the references at *[[topological insulator]]* etc.)
 
 
 [[!redirects time reversal symmetry]]
+
+[[!redirects time reversal]]
+[[!redirects time-reversal]]
 
 
 
