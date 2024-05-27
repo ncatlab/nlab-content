@@ -295,6 +295,8 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](
 
 * M. Gerstenhaber, S. D. Schack, _Algebras, bialgebras, quantum groups, and algebraic deformations_, in: Deformation theory and quantum groups with applications to mathematical physics (Amherst, MA, 1990), 51-92, Contemp. Math. __134__, Amer. Math. Soc. 1992.
 
-* Gregory Ginot, Sinan Yalin, _Deformation theory of bialgebras, higher Hochschild cohomology and formality_, [arxiv/1606.01504](http://arxiv.org/abs/1606.01504)
+* [[Gregory Ginot]], [[Sinan Yalin]], *Deformation theory of bialgebras, higher Hochschild cohomology and formality*, &lbrack;[arxiv/1606.01504](http://arxiv.org/abs/1606.01504)&rbrack;
+
+
 [[!redirects deformation]]
 [[!redirects deformations]]
