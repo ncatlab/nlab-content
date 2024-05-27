@@ -43,14 +43,21 @@ See also:
 
 Review:
 
+> see also at *[quantum computation -- References - Limits of NISQ](quantum+computation#NISQLimitations)*
+
 * [[Scott Aaronson]], *How Much Structure Is Needed for Huge Quantum Speedups?*, talk at: *28th Solvay Physics Conference* in Brussels on May 21, 2022 &lbrack;[arXiv:2209.06930](https://arxiv.org/abs/2209.06930), slides: [ppt](https://www.scottaaronson.com/talks/aar-solvay.ppt)&rbrack;
+
+* Torsten Hoefler, Thomas Haener, [[Matthias Troyer]], *Disentangling Hype from Practicality: On Realistically Achieving Quantum Advantage*, Communications of the ACM **66**  5 (May 2023) 82-87 &lbrack;[arXiv:2307.00523](https://arxiv.org/abs/2307.00523), [acm pdf](https://dl.acm.org/doi/pdf/10.1145/3571725), [doi:10.1145/3571725](https://doi.org/10.1145/3571725)&rbrack;
+
+  > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
+
 
 
 Emphasis of the need of [[topological quantum computation|topological stabilization]]:
 
 * {#DasSarma22} [[Sankar Das Sarma]], *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
 
-  > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
+  > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough &lbrack;\cdots&rbrack; bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
 
 See also:
 
