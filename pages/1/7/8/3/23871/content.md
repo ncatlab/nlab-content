@@ -52,10 +52,9 @@ Early discussion of [[topological quantum computation]] in $SU(2)$-[[Chern-Simon
 
 More concrete discussion of these phenomena in terms of [[anyons]]:
 
-* S. Trebst, M. Troyer, Z. Wang and A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008)
-&lbrack;[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)&rbrack;
+* [[Simon Trebst]], [[Matthias Troyer]], [[Zhenghan Wang]], A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008) &lbrack;[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)&rbrack;
 
-* C. Gils, E. Ardonne, S. Trebst, D. A. Huse, A. W. W. Ludwig, M. Troyer, and Z. Wang,  *Anyonic quantum spin chains: Spin-1 generalizations and topological stability*, Phys. Rev. B **87** (2013), 235120
+* C. Gils, E. Ardonne, [[Simon Trebst]], D. A. Huse, A. W. W. Ludwig, [[Matthias Troyer]], [[Zhenghan Wang]],  *Anyonic quantum spin chains: Spin-1 generalizations and topological stability*, Phys. Rev. B **87** (2013), 235120
 &lbrack;[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)&rbrack;
 
 * {#DasSarmaFreedmanNayak15} [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], *Majorana zero modes and topological quantum computation*, npj Quantum Inf **1** 15001 (2015) &lbrack;[doi:10.1038/npjqi.2015.1](https://doi.org/10.1038/npjqi.2015.1)&rbrack;
