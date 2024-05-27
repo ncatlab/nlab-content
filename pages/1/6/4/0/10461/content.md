@@ -30,6 +30,15 @@ and with focus on [[abelian anyons]] in terms of [[modular tensor categories]]:
 
 * Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) ([doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0))
 
+More on [[anyons]]:
+
+* [[Simon Trebst]], [[Matthias Troyer]], [[Zhenghan Wang]], A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008) &lbrack;[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)&rbrack;
+
+  > ([[Fibonacci anyons]])
+
+* C. Gils, E. Ardonne, [[Simon Trebst]], D. A. Huse, A. W. W. Ludwig, [[Matthias Troyer]], [[Zhenghan Wang]],  *Anyonic quantum spin chains: Spin-1 generalizations and topological stability*, Phys. Rev. B **87** (2013), 235120
+&lbrack;[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)&rbrack;
+
 
 On identifying [[topological order]] via [[topological entanglement entropy]] of the ground state:
 
