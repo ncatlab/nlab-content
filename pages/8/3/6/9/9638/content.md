@@ -435,7 +435,7 @@ in particular in [[quantum machine learning]]:
 
 * Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
 
-{#NISQLimitations} On the limitations of NISQ machines:
+{#NISQLimitations} On the limitations of NISQ machines in achieving any [[quantum advantage]]:
 
 * {#LeymannBarzen20} Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. **5** 044007 (2020) &lbrack;[doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d)&rbrack;
 
@@ -456,6 +456,11 @@ in particular in [[quantum machine learning]]:
   > "there is no proposed application of NISQ computing with commercial value for which quantum advantage has been demonstrated"
 
   > "Nor are there persuasive theoretical arguments indicating that commercially viable applications will be found that do not use quantum error-correcting codes and fault-tolerant quantum computing."
+
+* Torsten Hoefler, Thomas Haener, [[Matthias Troyer]], *Disentangling Hype from Practicality: On Realistically Achieving Quantum Advantage*, Communications of the ACM **66**  5 (May 2023) 82-87 &lbrack;[arXiv:2307.00523](https://arxiv.org/abs/2307.00523), [acm pdf](https://dl.acm.org/doi/pdf/10.1145/3571725), [doi:10.1145/3571725](https://doi.org/10.1145/3571725)&rbrack;
+
+  > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
+
 
 * IEEE Spectrum, *Quantum Computing’s Hard, Cold Reality Check* (Dec. 2023) &lbrack;[web](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
 
