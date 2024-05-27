@@ -41,7 +41,7 @@ See also:
 
 * Wikipedia, *[Quantum supremacy](https://en.wikipedia.org/wiki/Quantum_supremacy)*
 
-Review:
+Review and outlook:
 
 > see also at *[quantum computation -- References - Limits of NISQ](quantum+computation#NISQLimitations)*
 
@@ -50,6 +50,8 @@ Review:
 * Torsten Hoefler, Thomas Haener, [[Matthias Troyer]], *Disentangling Hype from Practicality: On Realistically Achieving Quantum Advantage*, Communications of the ACM **66**  5 (May 2023) 82-87 &lbrack;[arXiv:2307.00523](https://arxiv.org/abs/2307.00523), [acm pdf](https://dl.acm.org/doi/pdf/10.1145/3571725), [doi:10.1145/3571725](https://doi.org/10.1145/3571725)&rbrack;
 
   > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
+
+* Ryan Babbush, Jarrod R. McClean, Michael Newman, [[Craig Gidney]], Sergio Boixo, Hartmut Neven, *Focus beyond Quadratic Speedups for Error-Corrected Quantum Advantage*, PRX Quantum **2** 010103 (2021) &lbrack;[doi:10.1103/PRXQuantum.2.010103](https://doi.org/10.1103/PRXQuantum.2.010103)&rbrack;
 
 
 
