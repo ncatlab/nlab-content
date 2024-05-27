@@ -431,16 +431,33 @@ in particular in [[quantum machine learning]]:
 
 * Nikolaj Moll et al., *Quantum optimization using variational algorithms on near-term quantum devices*, Quantum Science and Technology, Volume 3, Number 3 2018 ([arXiv:1710.01022](https://arxiv.org/abs/1710.01022))
 
-* {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  **2** 79 (2018) &lbrack;[arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79)&rbrack;
+* {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum **2** 79 (2018) &lbrack;[arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79)&rbrack;
 
-* Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) ([doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526))
+* Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
 
-* Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. 5 044007 (2020) ([doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d))
+{#NISQLimitations} On the limitations of NISQ machines:
 
-* Olivier Ezratty, *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518)&rbrack;
+* {#LeymannBarzen20} Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. **5** 044007 (2020) &lbrack;[doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d)&rbrack;
+
+* {#Ezratty} Olivier Ezratty, *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518), [InSpire:2660378](https://inspirehep.net/literature/2660378)&rbrack;
 
   > "no one has yet successfully implemented a use case matching the original definition of the NISQ regime."
 
+  > "Totally outside the NISQ relevant algorithms class are integer and discrete log factoring algorithms &lbrack;[[Shor's algorithm]]&rbrack;, oracle based search algorithms &lbrack;[[Grover's algorithm]]&rbrack;, and all algorithms relying on a quantum Fourier transform"
+
+  > "most NISQ experiments have been run with fewer than 30 qubits and should therefore better be labelled as “pre-NISQ”. While they are elegant proofs of concepts, they do not yet demonstrate any speed up over classical computing"
+
+* Olivier Ezratty, *Where are we heading with NISQ?*, blog post (2023) &lbrack;[web](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/), [pdf](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/?output=pdf)&rbrack;
+
+  > NISQ is not at all ready for prime time quantum computing despite all the fuss about “quantum computing being business ready”. Not only have we not yet reached any quantum computing advantage, but in many cases, even if it worked, the most common NISQ algorithms using a variational approach, have prohibitively long execution times particularly in the promising chemical simulations domain.
+
+* {#Preskill23} [[John Preskill]], *Crossing the Quantum Chasm: From NISQ to Fault Tolerance*, talk at Q2B 2023 Silicon Valley (2023) &lbrack;[pdf](http://theory.caltech.edu/~preskill/talks/Preskill-Q2B-2023), [[Preskill-Crossing.pdf:file]]&rbrack;
+
+  > "there is no proposed application of NISQ computing with commercial value for which quantum advantage has been demonstrated"
+
+  > "Nor are there persuasive theoretical arguments indicating that commercially viable applications will be found that do not use quantum error-correcting codes and fault-tolerant quantum computing."
+
+* IEEE Spectrum, *Quantum Computing’s Hard, Cold Reality Check* (Dec. 2023) &lbrack;[web](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
 
 
 ### Quantum programming via monads
