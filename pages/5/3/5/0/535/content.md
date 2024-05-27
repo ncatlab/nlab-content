@@ -68,7 +68,7 @@ Discussion in [[relativistic field theory]]:
 
 See also:
 
-* Wikipeida, *[Causal set](http://en.wikipedia.org/wiki/Causal_sets)*
+* Wikipedia, *[Causal set](http://en.wikipedia.org/wiki/Causal_sets)*
 
 
 * [[Tim Porter]], _[[PorterDipath.pdf:file]]_
