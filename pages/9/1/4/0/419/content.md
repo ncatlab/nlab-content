@@ -413,7 +413,7 @@ See at _[[model structure on simplicial presheaves]]_ the section _[Closed monoi
 ### Monoidal presheaves
  {#MonoidalPresheaves}
 
-More generally, if a [[small category]] $\mathcal{S}$ has [[finite products]] and $\mathcal{M}$ is a [[cofibrantly generated model category|cofibrantly generated]] [[symmetric monoidal model category]], then the [[functor category]] $Func\big(\mathcal{S}^{op}, \mathcal{M}\big)$ with its object-wise [[monoidal category]]-structure and with the [[projective model structure on functors]] is itself a monoidal model category ([Pavlov & Scholbach 2018, inside proof of Prop. 7.9](#PavlovScholbach18)).
+More generally, if a [[small category]] $\mathcal{S}$ has [[finite products]] and $\mathcal{M}$ is a [[cofibrantly generated model category|cofibrantly generated]] [[symmetric monoidal model category]], then the [[functor category]] $Func\big(\mathcal{S}^{op}, \mathcal{M}\big)$ with its object-wise [[monoidal category]]-structure and with the [[projective model structure on functors]] is itself a monoidal model category (see [Yalin 2012, Lem. 3.8](#Yalin12); [White 2017, Cor. 5.20](#White17); [Pavlov & Scholbach 2018, inside proof of Prop. 7.9](#PavlovScholbach18)).
  
 
 ### Homological algebra and stable homotopy theory
@@ -438,7 +438,7 @@ The standard example of a monoidal model category whose unit is not cofibrant is
 
 * The category [[Cat]] with cartesian product and the [[folk model structure]].
 
-* The category [[Gray]] of [[strict 2-category|strict 2-categories]] with the [[Gray tensor product]] and the [[model structure on 2-categories|Lack model structure]].
+* The category [[Gray]] of [[strict 2-category|strict 2-categories]] with the [[Gray tensor product]] and the [[Lack model structure]].
 
 
 
@@ -572,6 +572,12 @@ On enhancement of monoidal model categories up to [[strong monoidal functor|stro
 and for monoidal [[simplicial model categories]]:
 
 * [[Haldun Özgür Bayındır]], [[Boris Chorny]], *Admissible replacements for simplicial monoidal model categories*, Algebr. Geom. Topol. **23** (2023) 43-73 &lbrack;[arXiv:2008.00515](https://arxiv.org/abs/2008.00515), [doi:10.2140/agt.2023.23.43](https://doi.org/10.2140/agt.2023.23.43)&rbrack;
+
+See also:
+
+* {#Yalin12} [[Sinan Yalin]], Lem 3.8 in version 1 of: *Classifying spaces and moduli spaces of algebras over a prop* &lbrack;[arXiv:1207.2964v1](https://arxiv.org/abs/1207.2964v1)&rbrack;
+
+* {#White17} [[David White]], *Model Structures on Commutative Monoids in General Model Categories*, Journal of Pure and Applied Algebra, **221** 12 (2017) 3124-3168 &lbrack;[arXiv:1403.6759](https://arxiv.org/abs/1403.6759), [doi:10.1016/j.jpaa.2017.03.001](https://doi.org/10.1016/j.jpaa.2017.03.001)&rbrack;
 
 
 [[!redirects monoidal model categories]]
