@@ -22,6 +22,8 @@ on aspects of [[quantum gravity]].
 
 **Contents:**
 
+> for the time being in no particular order
+
 \linebreak
 
 On [[perturbative quantum gravity]]:
@@ -63,6 +65,13 @@ On [[black hole thermodynamics]] in [[perturbative quantum gravity]]:
 On the [[soft graviton theorem]]:
 
 * [[Martin Beneke]], Patrick Hager, Robert Szafron, *Soft-Collinear Gravity and Soft Theorems*, in section *Effective Quantum Gravity* of *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09336](https://arxiv.org/abs/2210.09336)&rbrack;
+
+\linebreak
+
+On [[D-branes]]:
+
+* [[Constantin Bachas]]: *D-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2311.18456](https://arxiv.org/abs/2311.18456), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+
 
 \linebreak
 
