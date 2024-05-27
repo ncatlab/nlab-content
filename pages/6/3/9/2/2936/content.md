@@ -194,7 +194,7 @@ For another proof, see theorem 3.1.1 of [Berberian](#Ber).
 
 * A [[local compactum|locally compact Hausdorff space]] is Polish iff it is second-countable. 
 
-* If $X, Y$ are Polish and $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ (the space of continuous maps with the compact-open topology) is also Polish. (See for example A.10 [here](http://www.math.tamu.edu/~kerr/book/appendixA.pdf).) 
+* If $X, Y$ are Polish and $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ (the space of continuous maps with the compact-open topology) is also Polish. (See for example A.10 [here](#KerrLi2016).) 
 
 * If $X$ is Polish, then the space $P(X)$ of Borel probability measures $\mu$ equipped with the Prokhorov metric is also Polish. Definitions: for $x \in X$ and $A \subset X$ nonempty, put $d(x, A) = \inf \{d(x, a): a \in A\}$, and for $\alpha \gt 0$ define $A_\alpha = \{x \in X: d(x, A) \lt \alpha\}$ and $\emptyset_\alpha = \emptyset$. Define the *Prokhorov metric* $d_P$ by 
 $$d_P(\mu, \nu) = \inf \{\alpha \gt 0: \forall_{Borel\; A} \mu(A) \lt \nu(A_\alpha) + \alpha \; and \; \nu(A) \lt \mu(A_\alpha) + \alpha\}.$$ 
@@ -223,6 +223,9 @@ would thus contain $\chi$ and also exclude any substructure; we conclude that th
 =-- 
 
 ##References##
+
+* David Kerr, Hanfeng Li, _Ergodic Theory_. Springer Monographs in Mathematics (2016). doi:10.1007/978-3-319-49847-8 
+{#KerrLi2016}
 
 * [Polish spaces](http://golem.ph.utexas.edu/category/2008/08/polish_spaces.html), blog discussion, $n$-category caf&#233;, 2008-
 
