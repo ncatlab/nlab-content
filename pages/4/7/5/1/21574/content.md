@@ -82,4 +82,6 @@ in [[2Cat]], there is a functor $k: \mathcal{B} \times \mathcal{E}_{semi} \right
 [[!redirects canonical model structure on 2Cat]]
 [[!redirects canonical model structures on 2Cat]]
 
+[[!redirects Lack model structure]]
+[[!redirects Lack model structures]]
 
