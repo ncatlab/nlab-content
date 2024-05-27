@@ -164,6 +164,9 @@ With emhasis on laboratory realization:
 
 * Chenxu Liu, et al., III.C (pp. 18) of:  *Quantum Memory: A Missing Piece in Quantum Computing Units* &lbrack;[arXiv:2309.14432](https://arxiv.org/abs/2309.14432)&rbrack;
 
+* Samuel Jaques, Arthur G. Rattew, *QRAM: A Survey and Critique* &lbrack;[arXiv:2305.10310](https://arxiv.org/abs/2305.10310)&rbrack;
+
+
 
 With Qiskit:
 
