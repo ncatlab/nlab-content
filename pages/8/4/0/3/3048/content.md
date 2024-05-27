@@ -11,6 +11,10 @@ On [[deformation theory]] in terms of [[L-infinity algebra|$L_\infty$-algebras]]
 
 * [[Martin Markl]], _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012 ([ISBN:978-0-8218-8979-4](http://www.ams.org/bookstore-getitem/item=CBMS-116), [toc pdf](https://www.gbv.de/dms/goettingen/721467989.pdf))
 
+On [[wheeled PROPs]] and [[graph complexes]]:
+
+* [[Martin Markl]], [[Sergei Merkulov]], [[Sergey Shadrin]], _Wheeled PROPs, graph complexes and the master equation_, Journal of Pure and Applied Algebra **213** (2009) &lbrack;[doi:10.1016/j.jpaa.2008.08.007](https://doi.org/10.1016/j.jpaa.2008.08.007), [arXiv:math/0610683](https://arxiv.org/abs/math/0610683)&rbrack;
+
 
 On [[monoidal enriched categories]]:
 
