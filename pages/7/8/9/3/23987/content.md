@@ -1419,16 +1419,62 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
 
 ### May 2024
 
-* {#QuantumConference2024} 27 May - 31 May 2024
+{#QuantumConference2024} 27 May - 31 May 2024
 
-  **Quantum Information and Quantum Matter**
+**Quantum Information and Quantum Matter**
 
-  home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-matter.html](https://nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-matter.html)
-
-  (...)
+home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-matter.html](https://nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-matter.html)
 
 \linebreak
 
+**Talks:**
+
+* Herbert Schoeller (RWTH Aachen University):
+
+  **Universal Properties of the Boundary Charge**
+
+  > The boundary charge is an interesting observable to characterize [[ground state]] properties of [[topological insulator|insulators]]. Its universal properties and relevance for topology, bulk-boundary correspondence, integer and fractional [[quantum Hall effect]], [[charge quantization]], universal fluctuations, and characterization of [[phase transitions]] is reviewed in this talk. In particular, it is demonstrated that two fundamental invariants characterize the properties of the boundary charge, which are present independent of symmetries, and are the basis for the explanation of the [[quantum Hall effect]] and the rational quantization of boundary and interface charges. 
+
+* Christina Psaroudaki (École Normale Supérieure (ENS)):
+
+  **Quantum Functionalities of Magnetic Skyrmions**
+
+  > [Magnetic nanoskyrmions](skyrmion#ReferencesInSolidStatePhysics) develop quantized helicity excitations, and the quantum tunneling between nanoskyrmions possessing distinct helicities is indicative of the quantum nature of these particles. Experimental methods capable of non-destructively resolving the quantum aspects of topological spin textures, their local dynamical response, and their functionality now promise practical device architectures for quantum operations. With abilities to measure, engineer, and control matter at the atomic level, nanoskyrmions present opportunities to translate ideas into solid-state technologies. This talk aims to discuss the basic concept of a magnetic skyrmion qubit, its advantages, and challenges in this new research avenue in quantum magnetism and quantum information.
+
+* Ajit C Balram (Homi Bhabha National Institute, India):
+
+  **Fingerprints of Composite Fermion Lambda Levels in Scanning Tunneling Microscopy**
+
+  > Composite fermion (CF) is a topological quasiparticle that emerges from a non-perturbative attachment of [[vortices]] to electrons in strongly correlated two-dimensional materials. Similar to non-interacting fermions that form Landau levels in a magnetic field, CFs can fill analogous "Lambda'' levels, giving rise to the fractional quantum Hall (FQH) effect of electrons. Here, we show that Lambda levels can be directly visualized through the characteristic peak structure in the signal obtained via spectroscopy with the scanning tunneling microscopy (STM) on a FQH state. Complementary to transport, which probes low-energy properties of CFs, we show that *high-energy* features in STM spectra can be interpreted in terms of Lambda levels. We numerically demonstrate that STM spectra can be accurately modeled using Jain's CF theory. Our results show that STM provides a powerful tool for revealing the anatomy of FQH states and identifying physics beyond the non-interacting CF paradigm.
+
+* Yuxin Zhao (University of Hong Kong):
+
+  **Projective Crystal Symmetry and Novel Topological Phases**
+
+  >  Roughly a decade after the birth of [[quantum mechanics]], [[Eugene Wigner|E. Wigner]] pointed out a fundamental principle of [[quantum mechanics]]: symmetry groups are [[projective representation|projectively represented]]. He applied this principle to study the [[Poincaré group]]. While the [[Poincaré group]] is the unique spacetime group of [[relativistic particles]], its counterpart in [[condensed matter theory|condensed matter]] consists of various [[space groups]] for [[crystals]] and the [[time reversal]]. In this sense, the projective representation of condensed-matter spacetime groups is much richer and of fundamental importance. However, projective crystal symmetry was not systematically investigated until recently. In this talk, I will introduce the general theory of projective crystal symmetry algebras and show some of their novel consequences in topological matter. Particularly, they can lead to $k$-space non-[[symmorphic space group|symmorphic]] symmetries, which can significantly expand the framework of crystalline topological phases.
+
+* [[Leandro Aolita]] (Quantum Research Center, TII, Abu Dhabi):
+
+  **Tensor Network Use Cases: From Quantum Process Tomography to Computational Fluid Dynamics**
+
+  >  In this talk, I will describe two recent applications of [[tensor networks]]. In the first part, I will present an efficient technique for quantum process learning, a quintessential primitive to characterize quantum devices. This combines a tensor network representation of the target [[quantum channel]] with a data-driven optimization inspired by unsupervised [[machine learning]]. These results go far beyond state-of-the-art, providing a practical and timely tool for benchmarking quantum circuits in current and near-term quantum computers. In the second part, in turn, I will briefly describe a recently developed (classical) quantum-inspired algorithm for solving the [[Navier-Stokes equation]] in complex geometries, based on tensor trains. This is a full-stack method to solve for incompressible fluids with memory and runtime scaling poly-logarithmically in the mesh size. Our framework is based on [[matrix product states]] (a.k.a tensor trains), a powerful compressed representation of [[quantum states]]. It is complete in that it solves for flows around immersed objects of arbitrary geometries, with non-trivial boundary conditions, and self-consistent in that it can retrieve the solution directly from the compressed encoding, i.e. without ever passing through the expensive dense-vector representation. This machinery lays the foundations for a new generation of potentially radically more efficient solvers of real-life fluid problems.
+
+* [[Ingo Roth]] (Quantum Research Center, TII, Abu Dhabi):
+
+  **Robustly Learning the Hamiltonian Dynamics of a Superconducting Quantum Processor**
+
+  > The required precision to perform [[quantum simulations]] beyond the capabilities of classical computers imposes major experimental and theoretical challenges. The key to solving these issues are highly precise ways of characterizing analog quantum simulators. Here, we report on theoretical and experimental work on estimating the free Hamiltonian parameters of bosonic excitations in a [superconducting-qubit](superconductivity#SuperconductingQBitsReferences) analog quantum simulator from measured time-series. We achieve the required levels of precision in estimating the Hamiltonian parameters by maximally exploiting the model structure, making it robust against noise and state-preparation and measurement (SPAM) errors. Our learning algorithm is highly scalable both in terms of the required amounts of data and post-processing. To achieve this, we develop a new super-resolution technique for frequency extraction from matrix time-series and make use of constrained manifold optimization for the eigenspace reconstruction. For up to 14 coupled superconducting qubits on two Sycamore processors, we identify the Hamiltonian parameters - verifying the implementation on one of them up to sub-MHz precision - and construct a spatial implementation error map for a grid of 27 qubits. Our results constitute a fully characterized, highly accurate implementation of an analog dynamical quantum simulation and introduce a diagnostic toolkit for understanding, calibrating, and improving analog quantum processors.
+
+* Enrique Solano (Kipu Quantum, Berlin, Germany):
+
+  **Useful Quantum Computing in the NISQ Era**
+
+  > I will describe digital, analog, and digital-analog quantum computing paradigms. Furthermore, I will discuss the possibility of reaching [[quantum advantage]] for industry use cases with current quantum computers in trapped ions, superconducting circuits, neutral atoms, and photonic systems.
+
+(...)
+
+
+\linebreak
 
 ***
 
