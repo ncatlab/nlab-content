@@ -19,7 +19,7 @@
 ## Idea
 
 
-**Substructural logic** is a general term for [[logics]] in which the *[[structural inference rules]]*:
+**Substructural logic** is a general term for [[formal logics]] in which the *[[structural inference rules]]*:
 
 * the [[contraction rule]]
 
@@ -29,19 +29,21 @@
 
 are not necessarily assumed, or only with restrictions.
 
-Some particular substructural logics include:
+Among substructural logics are the following:
 
-* [[linear logic]], perhaps the best-known to category theorists, omits the contraction and weakening rules.  "Noncommutative linear logic" omits also the exchange rule.
+* [[linear logic]], perhaps the best-known to category theorists, which omits the [[contraction rule|contraction]] and [[weakening rules]] (if also the [[exchange rule]] is omitted, one speaks of  *noncommutative linear logic*);
 
-* [[affine logic]] omits only the contraction rule.  One might call it "coaffine logic" if we omit only the weakening rule.
+* [[affine logic]] which omits only the [[contraction rule]]. (one might call it *coaffine logic* if also the [[weakening rule]] is omitted);
 
-* Some forms of [[relevant logic]] and [[paraconsistent logic]] can be regarded as substructural logics (often of the coaffine variety).
+* some forms of [[relevant logic]] and [[paraconsistent logic]] (often of the coaffine variety).
+
 
 ## Related concepts
 
 * [[bunched logic]]
 
 * [[structural rules]]
+
 
 ## References
 
