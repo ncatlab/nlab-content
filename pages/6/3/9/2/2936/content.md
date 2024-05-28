@@ -20,7 +20,7 @@ The convenience of Baire space is attested to by the fact that in [[descriptive 
 
 ## Properties 
 
-Much of the material here is adapted from [Marker](#Marker), who in turn cites the text by Kechris as a main source. 
+Much of the material here is adapted from [Marker](#Marker), who in turn cites the text by [Kechris](#Kechris) as a main source. 
 
 * A countable product $X = \prod_n X_n$ of Polish spaces is Polish. Indeed, each $X_n$ is metrizable by a complete metric $d_n$ that takes values in $[0, 1]$, and then we may define another such complete metric on $X$ by 
 $$d(f, g) = \sum_n \frac1{2^{n+1}} d_n(f(n), g(n)).$$ 
@@ -29,6 +29,8 @@ The metric topology on $X$ coincides with the product topology.
 In particular, the [[Hilbert cube]] $[0, 1]^\mathbb{N}$ is Polish. 
 
 * A subspace of a Polish space $X$ is Polish iff it is a [[G-delta set]] of $X$. See [Marker](#Marker), Theorem 1.33. 
+
+* If $X, Y$ are Polish and $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ (the space of continuous maps with the [[compact-open topology]]) is also Polish.  See A.10 of [Kerr and Li](#KerrLi2016).
 
 ### "Universal" Polish spaces 
 
@@ -193,9 +195,7 @@ For another proof, see theorem 3.1.1 of [Berberian](#Ber).
 * For a metric space $X$, let $K(X)$ be the set of nonempty [[compact space|compact]] subsets of $X$, equipped with the [[Hausdorff metric]]. If $X$ is a separable complete metric space, then so is $K(X)$. 
 
 * A [[local compactum|locally compact Hausdorff space]] is Polish iff it is second-countable. 
-
-* If $X, Y$ are Polish and $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ (the space of continuous maps with the compact-open topology) is also Polish. (See for example A.10 [here](#KerrLi2016).) 
-
+ 
 * If $X$ is Polish, then the space $P(X)$ of Borel probability measures $\mu$ equipped with the Prokhorov metric is also Polish. Definitions: for $x \in X$ and $A \subset X$ nonempty, put $d(x, A) = \inf \{d(x, a): a \in A\}$, and for $\alpha \gt 0$ define $A_\alpha = \{x \in X: d(x, A) \lt \alpha\}$ and $\emptyset_\alpha = \emptyset$. Define the *Prokhorov metric* $d_P$ by 
 $$d_P(\mu, \nu) = \inf \{\alpha \gt 0: \forall_{Borel\; A} \mu(A) \lt \nu(A_\alpha) + \alpha \; and \; \nu(A) \lt \mu(A_\alpha) + \alpha\}.$$ 
 Then the map $u_X: X \to P(X)$ sending $x$ to the [[Dirac measure]] $\delta_x$ is continuous. If $x_n$ is a countable dense set of $X$, then the set of rational convex combinations $\sum_{i=1}^n q_n \delta_{x_n}$ (with $0 \leq q_n \leq 1$ and $\sum_i q_i = 1$) is a countable dense subset of $P(X)$. More at [[Giry monad]]. 
@@ -224,41 +224,46 @@ would thus contain $\chi$ and also exclude any substructure; we conclude that th
 
 ## Polish spaces of mappings ##
 
-In his study of wild knots, Kulnikov studied the space of embeddings of $S^1$ in $S^3$, and implicit in his work, though perhaps not explicitly proved, is the fact that this space is a Polish space.  More generally, we can show that the space of embeddings of any compact Polish space $X$ in a Polish space $Y$ is again a Polish space. For this we first give the space $C(X,Y)$ a metric by 
+In his study of wild knots, [Kulnikov](#Kulnikov) studied the space of [[embeddings]] of $S^1$ in $S^3$, and implicit in his work, though perhaps not explicitly proved, is the fact that this space is a Polish space.  More generally, we can show that the space of embeddings of a compact Polish space $X$ in a Polish space $Y$ is again a Polish space. For this we first give the space $Y^X$ the metric 
 
 $$ d(f,g) = \sup_{x \in X} d(f(x),g(x))  $$
 
-Since $X$ is compact the supremum is well-defined, and one can show 
+where the supremum is well-defined because $X$ is compact.  The topology coming from this metric is called the ''uniform topology''.
 
 +-- {: .num_prop} 
-###### Proposition 
-If $X$ is a compact Polish space and $Y$ a Polish space, then $C(X,Y)$ with the above metric is a Polish space.
+###### Proposition
+If $X$ is a compact Polish space and $Y$ is a Polish space, then $Y^X$ with the above metric is a Polish space, and its uniform topology is the compact-open topology.
 =-- 
+
++-- {: .proof} 
+###### Proof 
+Given any compact metric space $X$ and metric space $Y$, the uniform topology on $Y^X$ agrees with the compact-open topology.  If $X$ is any locally compact Polish space and $Y$ is a Polish space, $Y^X$ with its compact-open topology is a Polish space, by A.10 of [Kerr and Li](#KerrLi2016).
+=--
 
 We then have:
 
 +-- {: .num_prop} 
 ###### Proposition 
-Let $X$ be a compact Polish space and $Y$ a Polish space.  Let $\mathrm{Emb}(X,Y)$ be the space of embeddings of $X$ in $Y$, with its induced topology as a subspace of $C(X,Y)$.  Then $\mathrm{Emb}(X,Y)$ is a Polish space.
+Let $X$ be a compact Polish space and $Y$ a Polish space.  Let $\mathrm{Emb}(X,Y) \subseteq Y^X$ be the space of embeddings of $X$ in $Y$, with its subspace topology. Then $\mathrm{Emb}(X,Y)$ is a Polish space.
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
 Since $X$ is compact and $Y$ is Hausdorff, a map $f : X \to Y$ is an embedding, i.e. $f$ is a homeomorphism from $X$ to its image, if and only if $f$ is injective.  Thus we have
 
-$$ \mathrm{Emb}(X,Y) = \{ f \in C(X,Y) : \forall x, y \in X \; f(x) \ne f(y) \} $$
+$$ \mathrm{Emb}(X,Y) = \{ f \in Y^X: \forall x, y \in X \; f(x) \ne f(y) \} $$
 
-It is sufficient to show that $\mathrm{Emb}(X,Y)$ is a $G_\delta$ set, i.e. a countable intersection of open subsets of $C(X,Y)$.  For this we consider the sets
+To show $\mathrm{Emb}(X,Y)$ is a Polish space it is sufficient to show that is a $G_\delta$, i.e. a countable intersection of open subsets of $Y^X$ ([Marker](#Marker), Theorem 1.33).  For this we consider the sets
 
-$$ O_{m,n} = \{ f \in C(X,Y) \; \vert \; \forall x, y \in X \; d(x,y) \ge 1/m \implies d(f(x),d(y)) \gt 1/n \} $$
+$$ O_{m,n} = \{ f \in Y^X \; \vert \; \forall x, y \in X \; d(x,y) \ge 1/m \implies d(f(x),d(y)) \gt 1/n \} $$
 
 If each set $O_{m,n}$ is open then $\mathrm{Emb}(X,Y)$ is a $G_\delta$, since 
 
-$$ \mathrm{Emb}(X,Y) = \bigcap_m \bigcup_n O_{m,n} $$
+$$ \mathrm{Emb}(X,Y) = \bigcap_{m = 1}^\infty \bigcup_{n = 1}^\infty O_{m,n} $$
 
 To complete the proof we show $O_{m,n}$ is open.  Note that for each $m,n$ and $x,y \in X$ the set
 
-$$ O_{m,n,x,y} = \{ f \in C(X,Y) \; \vert \; d(x,y) \ge 1/m \implies d(f(x),d(y)) \gt 1/n \} $$
+$$ O_{m,n,x,y} = \{ f \in Y^X \; \vert \; d(x,y) \ge 1/m \implies d(f(x),d(y)) \gt 1/n \} $$
 
 is open.  Then we use a lemma: if $K$ is a compact topological space and $A$ is an arbitrary topological space, and $U \subseteq K \times A$ is open, then
 
@@ -276,7 +281,7 @@ is indeed open.
 * David Kerr, Hanfeng Li, _Ergodic Theory_. Springer Monographs in Mathematics (2016). doi:10.1007/978-3-319-49847-8 
 {#KerrLi2016}
 
-* [Polish spaces](http://golem.ph.utexas.edu/category/2008/08/polish_spaces.html), blog discussion, $n$-category caf&#233;, 2008-
+* [Polish spaces](http://golem.ph.utexas.edu/category/2008/08/polish_spaces.html), blog discussion, $n$-Category Caf&#233;, 2008.
 
 * David Marker, _Descriptive Set Theory_, UIC Course Notes (Fall 2002) ([pdf](http://homepages.math.uic.edu/~marker/math512/dst.pdf)) 
 {#Marker} 
@@ -285,6 +290,7 @@ is indeed open.
 {#Ber} 
   
 * A.S. Kechris, _Classical descriptive set theory_, Springer-Verlag (1994). 
+{#Kechris}
 
 Internal groupoids in Polish spaces are considered in
 
@@ -293,5 +299,6 @@ Internal groupoids in Polish spaces are considered in
 The space of embeddings of $S^1$ in $S^3$ was studied using Polish spaces in
 
 * Vadim Kulikov, A non-classification result for wild knots, Transactions AMS, 369 (2017), 5829-5853.   ([arXiv](https://arxiv.org/abs/1504.02714)).
+{#Kulikov}
 
 [[!redirects Polish spaces]]
