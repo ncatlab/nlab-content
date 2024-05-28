@@ -195,6 +195,7 @@ joint workshop with the [Quantum Research Center](https://www.tii.ae/quantum) (Q
 
   **[Superconducting qubits](superconductivity#SuperconductingQBitsReferences)**
 
+
 Break: 10:40 - 11:10
 
 * 11:10 - 11:15
@@ -1530,43 +1531,140 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > While altermagnetic materials are characterized by a vanishing net magnetic moment, their symmetry in principle allows for the existence of an anomalous Hall effect (AHE). Here we introduce a model with altermagnetism in which the emergence of an AHE is driven by interactions. This model is grounded in a modified Kane-Mele framework with antiferromagnetic (AFM) spin-spin correlations. Quantum Monte Carlo simulations show that the system undergoes a finite temperature phase transition governed by a primary AFM order parameter accompanied by a secondary one of Haldane type. The emergence of both orders turns the metallic state of the system, away from half-filling, to an altermagnet with a finite anomalous Hall conductivity. A mean field ansatz corroborates these results, which pave the way into the study of correlation induced altermagnets with finite [[Berry curvature]]. 
 
-* Gianluigi Catelani (Quantum Research Center, TII, Abu Dhabi)
+* [[Gianluigi Catelani]] (Quantum Research Center, TII, Abu Dhabi)
 
-* Felix von Oppen (Dahlem Center for Complex Quantum Systems, Freie Universität Berlin)
+  > More accurate control and reduced error rates are needed for [superconducting](superconductivity#SuperconductingQBitsReferences) [[quantum circuits|circuits]] to move beyond the current [NISQ era](quantum+computation#ReferencesNISQ), and improving our understanding of superconducting qubits can help towards this goal. In this talk I will discuss two recent advances and their impacts on [[qubit]] control and errors. After briefly reviewing the standard tunnel model of a [[Josephson junction]], I will introduce a more realistic model which is needed to accurately describe spectroscopic data &lbrack;1&rbrack;. Next, I will show how a form of so-called “gap engineering’’, in which the values of the superconducting gap on the two sides of a junction are properly chosen, can mitigate errors related to quasiparticles &lbrack;2&rbrack;. Finally, I will consider implications for a proposed topological qubit implementation (see &lbrack;3&rbrack; and references there). 
 
-* [[Robert-Jan Slager]] (University of Cambridge)
+  > &lbrack;1&rbrack; D. Willsch et al., Nat Phys (2024)
 
-* Xiong-Jun Liu (International Center for Quantum Materials, Peking University)
+  > &lbrack;2&rbrack; G. Marchegiani et al., PRX Quantum 3, 040338 (2022)
 
-* Pramod Padmanabhan (Indian Institute of Technology Bhubaneswar)
+  > &lbrack;3&rbrack; J. Krause et al., [arXiv:2403.03351](https://arxiv.org/abs/2403.03351)
 
-* Po-Yao Chang (National Tsing Hua University in Taiwan)
 
-* [[Tim Byrnes]] (NYU Shanghai)
+* Felix von Oppen (Dahlem Center for Complex Quantum Systems, Freie Universität Berlin):
 
-* Arijeet Pal (University College, London)
+  **Theory of the Quantum Twisting Microscope**
 
-* Alioscia Hamma (University of Naples Federico II)
+  >  2D van der Waals systems have become a major quantum materials platforn, exhibiting a plethora of correlated electronic phases. Beyond conventional transport experiments, much information on van-der-Waals materials derives from local probes such as scanning tunneling microscopy as well as scanning single-electron-transitor and scanning SQUID measurements. The quantum twisting microscope is a powerful new instrument complementing previously existing local probes. Rather than measuring the local tunneling current at the atomic scale as in scanning tunneling microscopy, it relies on coherent tunneling across a twistable finite-area junction formed at the interface between van der Waals systems placed on a scanning tip with a flat pyramidal top and a substrate. Due to the finite contact area, tunneling is momentum conserving up to reciprocal lattice vectors of the tip and sample layers. In this talk, I discuss the theory of the quantum twisting microscope. While elastic tunneling dominates the tunneling current at small twist angles, the momentum mismatch between the K-points of tip and sample at large twist angles can only be bridged by inelastic scattering. The latter allows for probing collective-mode dispersions along certain lines in reciprocal space by measuring the tunneling current as a function of twist angle and bias voltage. We illustrate this modality of the quantum twisting microscope by developing a systematic theory for measuring phonon dispersions using graphene-graphene junctions. In addition to providing a case study for probing collective modes, our results inform the quest to understand the origin of superconductivity in twisted bilayer graphene.
 
-* [[Markus Müller]] (RWTH Aachen University, Germany)
+* [[Robert-Jan Slager]] (University of Cambridge):
 
-* Tobias Haug (Quantum Research Center, TII, Abu Dhabi)
+  **Non-abelian Phases, Geometry and Quantised Responses**
 
-* [[Chandrashekar Radhakrishnan]] (NYU Shanghai)
+  >  In this talk I will talk about non-Abelian band topology and the connection to Riemannian geometry. I will discuss how these ideas culminate in the prediction of quantized shift photoconductivities and show that this response may be recast in terms of the integrated torsion tensor and the non-Abelian Berry connection constituting Chern-Simons forms. Physically, I will motivate that the topological quantization emerges purely from virtual transitions contributing to the optical response and discuss possible generalisations.
 
-* Elio König (Max Planck Institute for Solid State Research)
+* Xiong-Jun Liu (International Center for Quantum Materials, Peking University):
 
-* Aditi Mitra (NYU New York)
+  **Quantum Critical States in Quasiperiodic Lattices: From Non-Interacting to Correlated**
 
-* Nadia Boutabba (Institute of Applied Technology, FCHS)
+  >  The disordered quantum systems host three types of fundamental quantum states, the extended, localized, and critical states, of which the multifractal critical states are much less understood compared with the former two. Conventionally the characterization of the quantum critical states relies on arduous numerical verification. In this talk, I will present a systematic analytic and numerical study of the critical states in quasiperiodic systems, with or without particle-particle interactions. Through the Avila global theory, a Fields Medal work which we introduce for the first time to cold atoms, we propose a class of exactly solvable models, dubbed mosaic lattice models, hosting novel types of exact mobility edges separating localized from quantum critical or extended states, With these exactly solvable models, we discover a universal mechanism for the critical states that the such states are due to the vanishing Lyapunov exponent and the incommensurately distributed hopping zeros in the thermodynamic limit, which also serve as a rigorous characterization of the critical states. We further show that in the presence of interactions, the critical states turn into the many-body counterparts upon the finite-size scaling analysis, giving a many-body critical phase, which is an exotic phase in-between the thermal phase and many-body localization. Based on the considerable progresses in spin-orbit coupled optical Raman lattices, which have been widely applied to simulate topological phases, we discuss our latest experimental realization of the present predictions. Future important issues will be commented.
 
-* Ken Shiozaki (Yukawa Institute for Theoretical Physics, Kyoto University)
+* Pramod Padmanabhan (Indian Institute of Technology Bhubaneswar):
 
-* [[Asif Equbal]] (NYU AD)
+  **Braid and Higher Simplex Operators in Integrable Quantum Computing**
 
-* Frederico Brito (Quantum Research Center, TII, Abu Dhabi)
+  > Two-qubit Yang-Baxter or braiding gates casts quantum computing as a scattering process. Due to the many conserved quantities this procedure is less noisy. Generalising this to 3-and higher-qubit gates relies on solutions to the tetrahedron and higher simplex equations. We will construct such gates systematically using Clifford algebras. The resulting gates are potentially more effective in simulating different quantum algorithms. 
 
-* [[Urs Schreiber]] (NYU AD)
+* Po-Yao Chang (National Tsing Hua University in Taiwan):
+
+  **Entanglement Diagnosis of Many-Body Systems: Applications to Non-Unitary Conformal Field Theory and Topological Quantum Field Theories**
+
+  > Entanglement measures provide powerful tools for diagnosing quantum many-body phases of matter. In particular, in (1+1)-dimensional systems with conformal symmetry, entanglement entropy exhibits logarithmic scaling, where the coefficient determines the central charge of the underlying conformal field theory (CFT). However, in the absence of the unitary condition, the central charge can be negative, leading to negative entanglement entropy. To address this issue, we propose the generalized entanglement entropy to extract the negative central charges in several examples. In addition, in (2+1)-dimensional systems described by topological quantum field theories (TQFT), the sub-leading term of the entanglement entropy is referred to as the topological entanglement entropy (TEE), which contains information about the topological data of the quasiparticles. In this talk, I would like to discuss the TEE for different bipartitions.
+
+* [[Tim Byrnes]] (NYU Shanghai):
+
+  **Unified Framework for Efficiently Computable Quantum Circuits**
+
+  > [[quantum circuits|Quantum circuits]] consisting of Clifford and matchgates are two classes of circuits that are known to be efficiently simulatable on a classical computer. We introduce a unified framework that shows in a transparent way the special structure that allows these circuits can be efficiently simulatable. The approach relies on analyzing the operator spread within a network of basis operators during the evolution of quantum circuit. Quantifying the complexity of a calculation by the number of operators with amplitude above a threshold value, we show that there is a generic form of the complexity curve involving an initial exponential growth, saturation, then exponential decay in the presence of decoherence. Our approach is naturally adaptable into a numerical procedure, where errors can be consistently controlled as a function of the complexity of the simulation.
+
+* Arijeet Pal (University College, London):
+
+  **Long Range Entanglement in Measurement Induced Phases**
+
+  >  In this talk, I will describe two recent applications of [[tensor networks]]. In the first part, I will present an efficient technique for quantum process learning, a quintessential primitive to characterize quantum devices. This combines a tensor network representation of the target quantum channel with a data-driven optimization inspired by unsupervised machine learning. These results go far beyond state-of-the-art, providing a practical and timely tool for benchmarking quantum circuits in current and near-term quantum computers. In the second part, in turn, I will briefly describe a recently developed (classical) quantum-inspired algorithm for solving the Navier-Stokes equation in complex geometries, based on tensor trains. This is a full-stack method to solve for incompressible fluids with memory and runtime scaling poly-logarithmically in the mesh size. Our framework is based on matrix-product states (a.k.a tensor trains), a powerful compressed representation of quantum states. It is complete in that it solves for flows around immersed objects of arbitrary geometries, with non-trivial boundary conditions, and self-consistent in that it can retrieve the solution directly from the compressed encoding, i.e. without ever passing through the expensive dense-vector representation. This machinery lays the foundations for a new generation of potentially radically more efficient solvers of real-life fluid problems.
+
+* Alioscia Hamma (University of Naples Federico II):
+
+  **Non-stabilizerness in Quantum Mechanics**
+
+  > We all know that [[quantum entanglement|entanglement]] is important in [[quantum mechanics]]. However, quantum behavior needs a second ingredient, the so-called non-stabilizerness property, commonly known as magic. Without it, no quantum computer would be able to outperform a classical one, but not only. Quantum chaos would not ensue, and quantum thermodynamics would not be the same. [[Bell's inequalities]] would not be violated, and [[black holes]] would always be easy to decode. Quantum many-body systems would be boring. Also all the probabilities that come from the Born rule would be trivial. Finally, without non-stabilizerness there would also be no gravity, according to the [[AdS/CFT correspondence|AdS/CFT conjecture]].  All these features are captured by the notion of Stabilizer Entropy (SE), which we will introduce and explain in this talk.
+
+* [[Markus Müller]] (RWTH Aachen University, Germany):
+
+  **The Dawn of Quantum Fault-Tolerance**
+
+  >  The construction of scalable fault-tolerant [[quantum computers]] remains a fundamental scientific and technological challenge, due to the influence of unavoidable noise. In my talk, I will first introduce basic concepts of [[quantum error correction]], which allows one to protect quantum information during storage and processing. I will in my talk present new theory concepts and recent collaborative experimental advances towards fault-tolerant quantum error correction on various physical quantum computing platforms. Specifically, I will present new fault-tolerance preserving protocols for autonomous quantum error correction &lbrack;1&rbrack;, which do not require in-sequence measurements of qubits, which are often slow or technically challenging in many state-of-the-art physical quantum processor platforms. I will also show how quantum cellular automata can be designed to give rise to emergent many-body dynamics with quantum error-correcting capabilities &lbrack;2&rbrack;. Towards universal fault-tolerant quantum computing with logical qubits --- eventually outperforming computations executed on their physical qubit counterparts --- I will present new protocols &lbrack;3&rbrack; and first experimental demonstrations &lbrack;4&rbrack; of fault-tolerant code switching.
+
+  > &lbrack;1&rbrack; S. Heußen et al., Measurement-free fault-tolerant quantum error correction in near-term devices, PRX Quantum 5, 010333 (2024)
+
+  > &lbrack;2&rbrack; T. L. M. Guedes et al., Quantum cellular automata for quantum error correction and density classification, arXiv:2309.03608 (2023)
+
+  > &lbrack;3&rbrack; F. Butt et al., Fault-Tolerant Code Switching Protocols for Near-Term Quantum Processors, arXiv:2306.17686 (2023) [PRX Quantum, in press]
+
+  > &lbrack;4&rbrack; I. Pogorelov, F. Butt et al., Experimental fault-tolerant code switching, arXiv:2403.13732 (2024)
+
+* Tobias Haug (Quantum Research Center, TII, Abu Dhabi):
+
+  **Efficient Algorithms for Quantum Magic**
+
+  >  Nonstabilizerness or magic characterizes the resources needed to run fault-tolerant quantum computers and is a necessary condition for quantum advantage. The resource theory of magic quantifies the amount of magic in quantum states, which characterizes the cost of preparing states on quantum computers as well as the runtime of a class of classical simulation algorithms. Here, we provide efficient algorithms to quantify magic on quantum computers &lbrack;1,2&rbrack; and [[matrix product states]] &lbrack;3,4&rbrack;. We use these methods to experimentally study the transition from classically simulable stabilizer states into intractable quantum states, and demonstrate their application for state discrimination and certification. Our work also gives novel insight into the magic of critical many-body quantum systems. We reveal that stabilizer entropy, a measure of nonstabilizerness, is in general not extremal even at the critical point. We show that stabilizer entropies can be used to determine the critical point of the transverse field Ising model, and find evidence of magic becoming long-range close to the critical point. Our works open up the exploration of quantum complexity in many-body quantum systems and quantum computers.
+
+
+* [[Chandrashekar Radhakrishnan]] (NYU Shanghai):
+
+  **Generalization of Quantum Discord**
+
+  > An important aim of quantum information theory is to understand and quantify the various quantum properties and correlations. This is done by constructing measures and in understanding the operational relevance of information theoretic quantities. The best-known measure of nonclassical correlations is quantum discord &lbrack;1,2&rbrack;. In this talk, I will introduce a generalisation of quantum discord to multipartite systems using quantum conditional mutual information &lbrack;3&rbrack;. For the tripartite case, we show that the discord can be decomposed into contributions resulting from changes induced by nonclassical correlation breaking measurements in the conditional mutual information and tripartite mutual information. I will also discuss its relation to bipartite nonclassical correlations and monogamy of nonclassical correlations. 
+
+* Elio König (Max Planck Institute for Solid State Research):
+
+  **Zero Is Not Nothing**
+
+  > The interplay of [[topological phase of matter|topological]] [[electronic band structures]] and strong interparticle interactions provides a promising path toward the constructive design of robust, long-range entangled many-body systems. Most recent theories unveil that non-trivial topology is crucially manifested in the zeros of the fermionic Green’s function in Mott insulating systems and demonstrate the occurrence of topological band structures of zeros, and – by bulk-boundary correspondence – of topological edge states of zeros &lbrack;1&rbrack;. In this talk, I will spend some time reviewing topological Green's function zeros and discussing their physical meaning and potential ways to probe them. I will then spend most of the time presenting an exactly soluble local model Hamiltonian &lbrack;2&rbrack; based on the Toric Code coupled to fermionic degrees of freedom. I'll demonstrate the appearance of Green’s function zeros in a non-trivial, integrable limit of the model and employ controlled perturbation theory to demonstrate their topological band structure. I'll further show that, within this model, Green’s function zeros acquire a finite ''lifetime'' before the Higgs transition, at which they disappear. The local nature of the model allows us to straightforwardly calculate the quantized Hall response.
+
+  > &lbrack;1&rbrack; N. Wagner, ..., EJK, ..., G. Sangiovanni, Nat Commun 14, 7531 (2023).
+
+  > &lbrack;2&rbrack; S. Bollmann, C. Setty, U. Seifert, EJK [arXiv:2312.14926](https://arxiv.org/abs/2312.14926)
+
+* Aditi Mitra (NYU New York):
+
+  **Topological Defects in Floquet Circuits**
+
+  > I will discuss how one may construct Floquet models from a [[fusion category]], and how this formalism is a natural way to construct [[topological defects]]: non-local operators that can be deformed in the space and time direction without changing the physics. One of these topological defects is the "duality defect" that implements the Kramers-Wannier duality transformation and is a "non-invertible symmetry" as it projects out states of a given parity. I will highlight the consequence of the duality defect on Floquet time-evolution, first for the exactly solvable Floquet-Ising model, and then by adding integrability breaking perturbations to the model.
+
+
+* Nadia Boutabba (Institute of Applied Technology, FCHS):
+
+  **Optically Dense Atomic Systems: From Pulse Shaping to Atomic Localization via Mangneto Optical Rotation**
+
+  > The quantum control of atomic systems can be achieved through the manipulation of their optical properties, i.e the coherence. In EIT systems, a transparency window is achieved via the interference of two laser beams. In this context, our research investigates shaped laser wave-forms to obtain desirable absorption dispersion spectra, controllable refractive index and induces the atomic population inversion. For instance, q-deformed hyperbolic pulse manipulates the system’s dynamic by adjusting the scaling asymmetry factor q of the q-deformed pulse. In addition, the QEXP pulse opens a transparency window in the absorption spectra. In contrast, in the classical scenario where the laser is non-shaped, we control the optical properties of atomic systems via the SGC: spontaneously generated coherence or the MOR.
+
+
+
+* Ken Shiozaki (Yukawa Institute for Theoretical Physics, Kyoto University):
+
+  **A Discrete Formulation of Three Dimensional Winding Number**
+
+  >  For a continuous map from a three-dimensional oriented closed manifold to $U(N)$, the group of $N$ by $N$ unitary matrices, an integer-valued quantity known as the three-dimensional winding number is defined. We discuss a method to compute the winding number using a discrete approximation of the manifold, ensuring that the result is manifestly quantized. Our approach is a three-dimensional analog of the Fukui-Hatsugai-Suzuki method for calculating the first Chern number.
+
+* [[Asif Equbal]] (NYU AD):
+
+  **Quantum Vision for Health: Pioneering Light-Activated Spin Sensing**
+
+* Frederico Brito (Quantum Research Center, TII, Abu Dhabi):
+
+  **Experimental Investigation of Geometric Quantum Speed Limits in Open Quantum Systems**
+
+  > The Quantum Speed Limit (QSL) is a fundamental lower bound on the evolution time for quantum systems undergoing general physical processes and may have important consequences for quantum computing. Here, we study the geometric quantum speed limits of a qubit subject to decoherence in an ensemble of chloroform molecules in a Nuclear Magnetic Resonance experiment.  To do so, we controlled the system-reservoir interaction and the spin relaxation rates by adding a paramagnetic salt, which allowed us to observe both Markovian and non-Markovian open system dynamics for the qubit. We used two distinguishability measures of quantum states to assess the speed of the qubit evolution: the quantum Fisher information (QFI) and Wigner-Yanase skew information (WY). We observed crossovers between QSLs related to the QFI and WY metrics for non-Markovian dynamics and low salt concentrations. The WY metric sets the tighter QSL for high concentrations and Markovian dynamics. We also show that QSLs are sensitive even to small fluctuations in spin magnetization.
+
+
+* [[Urs Schreiber]] (NYU AD):
+
+  **[[schreiber:Towards Certified Topological Quantum Programming via Linear Homotopy Types]]**
+
+  > Beyond the present [NISQ era](/nlab/show/quantum+computation#ReferencesNISQ), useful heavy-duty [[nLab:quantum computation|quantum programs]] will arguably necessitate (1.) *[[nLab:topological quantum computation|topological]]* [[nLab:quantum circuits]] for error-protection and (2.) (classical-)[[nLab:software verification|computer-verified certificates of correctness]] --- hence essentially a formal verification logic of the underlying [[nLab:topological phases of matter|topological]] [[nLab:quantum system|quantum processes]] --- which may seem a tall order. But we have recently shown that the [[nLab:conservative extension|(conservative) extension]] of the ([[nLab:programming language|programming]] & [[nLab:software verification|certification]]-)language of "[[nLab:homotopy type theory|Homotopy Type Theory]]" (`HoTT`) by "[[nLab:linear homotopy type theory|linear homotopy types]]" (`LHoTT`, for which prototypes exist [on paper](/nlab/show/dependent+linear+type+theory#Riley22Thesis)) namely: by [classically-controlled](quantum+computation#ClassicalControlQuantumData) [[nLab:topological quantum computation|topological quantum]] [[nLab:data types]], naturally lends itself to just this purpose. In this talk I will give an introduction to and survey of this approach to *Topological Quantum Programming Certification via Linear Homotopy Types*, developed at [[nLab:CQTS]] @ NYUAD ("[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in HoTT]]" [arXiv:2303.02382](https://arxiv.org/abs/2303.02382), "[[schreiber:Entanglement of Sections]]" [arXiv:2309.07245](https://arxiv.org/abs/2309.07245), "[[schreiber:The Quantum Monadology]]" [arXiv:2310.15735](https://arxiv.org/abs/2310.15735), "[[schreiber:Quantum and Reality]]" [arXiv:2311.11035](https://arxiv.org/abs/2311.11035)).
+
 
 
 
