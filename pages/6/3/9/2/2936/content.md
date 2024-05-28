@@ -290,7 +290,7 @@ Internal groupoids in Polish spaces are considered in
 
 * Martino Lupini, _Polish groupoids and functorial complexity_. ([arxiv](http://arxiv.org/abs/1407.6671))
 
-The space of embeddings of $S^1$ in $S^3$ was studied in
+The space of embeddings of $S^1$ in $S^3$ was studied using Polish spaces in
 
 * Vadim Kulikov, A non-classification result for wild knots, Transactions AMS, 369 (2017), 5829-5853.   ([arXiv](https://arxiv.org/abs/1504.02714)).
 
