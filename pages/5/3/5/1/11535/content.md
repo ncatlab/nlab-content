@@ -1,1 +1,1 @@
- - [webpage](http://sites.google.com/site/homotopytheory/)
+ - [webpage](https://sanathdevalapurkar.github.io/)
