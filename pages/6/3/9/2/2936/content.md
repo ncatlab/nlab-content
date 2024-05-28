@@ -222,6 +222,55 @@ $$U_{f; a_1, \ldots, a_n} \coloneqq \{\omega \in 2^X: \; \omega(a_1) = 1, \ldots
 would thus contain $\chi$ and also exclude any substructure; we conclude that the collection of substructures forms a closed subset $C$ of $2^X$. Then the Cantor-Bendixson theorem (i.e., Corollary \ref{CH}) shows that ${|C|}$ is either countable or the continuum. 
 =-- 
 
+## Polish spaces of mappings ##
+
+In his study of wild knots, Kulnikov studied the space of embeddings of $S^1$ in $S^3$, and implicit in his work, though perhaps not explicitly proved, is the fact that this space is a Polish space.  More generally, we can show that the space of embeddings of any compact Polish space $X$ in a Polish space $Y$ is again a Polish space. For this we first give the space $C(X,Y)$ a metric by 
+
+$$ d(f,g) = \sup_{x \in X} d(f(x),g(x))  $$
+
+Since $X$ is compact the supremum is well-defined, and one can show 
+
++-- {: .num_prop} 
+###### Proposition 
+If $X$ is a compact Polish space and $Y$ a Polish space, then $C(X,Y)$ with the above metric is a Polish space.
+=-- 
+
+We then have:
+
++-- {: .num_prop} 
+###### Proposition 
+Let $X$ be a compact Polish space and $Y$ a Polish space.  Let $\mathrm{Emb}(X,Y)$ be the space of embeddings of $X$ in $Y$, with its induced topology as a subspace of $C(X,Y)$.  Then $\mathrm{Emb}(X,Y)$ is a Polish space.
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since $X$ is compact and $Y$ is Hausdorff, a map $f : X \to Y$ is an embedding, i.e. $f$ is a homeomorphism from $X$ to its image, if and only if $f$ is injective.  Thus we have
+
+$$ \mathrm{Emb}(X,Y) = \{ f \in C(X,Y) : \forall x, y \in X \; f(x) \ne f(y) \} $$
+
+It is sufficient to show that $\mathrm{Emb}(X,Y)$ is a $G_\delta$ set, i.e. a countable intersection of open subsets of $C(X,Y)$.  For this we consider the sets
+
+$$ O_{m,n} = \{ f \in C(X,Y) \; \vert \; \forall x, y \in X \; d(x,y) \ge 1/m \implies d(f(x),d(y)) \gt 1/n \} $$
+
+If each set $O_{m,n}$ is open then $\mathrm{Emb}(X,Y)$ is a $G_\delta$, since 
+
+$$ \mathrm{Emb}(X,Y) = \bigcap_m \bigcup_n O_{m,n} $$
+
+To complete the proof we show $O_{m,n}$ is open.  Note that for each $m,n$ and $x,y \in X$ the set
+
+$$ O_{m,n,x,y} = \{ f \in C(X,Y) \; \vert \; d(x,y) \ge 1/m \implies d(f(x),d(y)) \gt 1/n \} $$
+
+is open.  Then we use a lemma: if $K$ is a compact topological space and $A$ is an arbitrary topological space, and $U \subseteq K \times A$ is open, then
+
+$$   \{ a \in A \; \vert \; \forall k \in K \;\; (k,a) \in U \} $$
+
+is open.  Thanks to this and the fact that $K^2$ is compact, the set
+
+$$ O_{m,n} = \{ f \in C(X,Y) \; \vert \; \forall (x,y) \in X^2 \;\; f \in O_{m,n,x,y} \} $$ 
+
+is indeed open.
+=-- 
+
 ##References##
 
 * David Kerr, Hanfeng Li, _Ergodic Theory_. Springer Monographs in Mathematics (2016). doi:10.1007/978-3-319-49847-8 
@@ -239,6 +288,10 @@ would thus contain $\chi$ and also exclude any substructure; we conclude that th
 
 Internal groupoids in Polish spaces are considered in
 
-* Martino Lupini, _Polish groupoids and functorial complexity_, [arxiv/1407.6671](http://arxiv.org/abs/1407.6671)
+* Martino Lupini, _Polish groupoids and functorial complexity_. ([arxiv](http://arxiv.org/abs/1407.6671))
+
+The space of embeddings of $S^1$ in $S^3$ was studied in
+
+* Vadim Kulikov, A non-classification result for wild knots, Transactions AMS, 369 (2017), 5829-5853.   ([arXiv](https://arxiv.org/abs/1504.02714)).
 
 [[!redirects Polish spaces]]
