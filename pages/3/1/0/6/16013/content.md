@@ -1,6 +1,6 @@
 
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/&#201;variste_Galois)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/%C3%89variste_Galois)
 
 * [MacTutorBiographies page](https://mathshistory.st-andrews.ac.uk/Biographies/Galois/)
 
