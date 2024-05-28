@@ -87,7 +87,7 @@ The modern version of the model that produces the correct fermionic content (and
 
 * {#Connes06} [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](https://arxiv.org/abs/hep-th/0608226))
 
-* {#ChamseddineConnesMarcolli07} [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv. Theor. Math. Phys.11:991-1089,2007 ([arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241))
+* {#ChamseddineConnesMarcolli07} [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv. Theor. Math. Phys. **11** (2007) 991-1089 &lbrack;[arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241), [doi:10.4310/ATMP.2007.v11.n6.a3](https://doi.org/10.4310/ATMP.2007.v11.n6.a3)&rbrack;
 
 A more succinct version of the axioms of the model is claimed in
 
@@ -102,11 +102,11 @@ A more succinct version of the axioms of the model is claimed in
 
 Introduction of a [[scalar field]] to fix the prediction of the [[Higgs particle]] [[mass]]:
 
-* {#ChamseddineConnes12} [[Ali Chamseddine]], [[Alain Connes]], _Resilience of the Spectral Standard Model_, JHEP 1209 (2012) 104 ([arXiv:1208.1030](https://arxiv.org/abs/1208.1030))
+* {#ChamseddineConnes12} [[Ali Chamseddine]], [[Alain Connes]], *Resilience of the Spectral Standard Model*, JHEP 1209 (2012) 104 &lbrack;[arXiv:1208.1030](https://arxiv.org/abs/1208.1030), <a href="https://doi.org/10.1007/JHEP09(2012)104">doi:10.1007/JHEP09(2012)104</a>&rbrack;
 
 Implementation of [[Pati-Salam model]] ($SU(5)$-[[GUT]]):
 
-* [[Ali Chamseddine]], [[Alain Connes]], Walter D. van Suijlekom, _Beyond the Spectral Standard Model: Emergence of Pati-Salam Unification_, JHEP 1311 (2013) 132 ([arXiv:1304.8050](https://arxiv.org/abs/1304.8050))
+* [[Ali Chamseddine]], [[Alain Connes]], Walter D. van Suijlekom, _Beyond the Spectral Standard Model: Emergence of Pati-Salam Unification_, JHEP 1311 (2013) 132 &lbrack;[arXiv:1304.8050](https://arxiv.org/abs/1304.8050)&rbrack;
 
 * Hosein Karimi Khozani, _Symmetry Breaking and Proton Decay in Spectral Pati-Salam Model_ ([arXiv:1905.04533](https://arxiv.org/abs/1905.04533))
 
