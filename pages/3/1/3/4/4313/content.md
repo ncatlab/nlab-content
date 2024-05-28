@@ -98,6 +98,11 @@ Generalization to factorization categories
 
 * Matthew Ballard, Dragos Deliu, David Favero, M. Umut Isik, [[Ludmil Katzarkov]], _Resolutions in factorization categories_, [arXiv:1212.3264](https://arxiv.org/abs/1212.3264)
 
+On their relation to [[noncommutative geometry|noncommutative]] [[resolution of singularities|resolutions]]:
+
+* Nicolas M. Addington, [[Ed Segal]], [[Eric Sharpe]]. *D-brane probes, branched double covers, and noncommutative resolutions*. Advances in Theoretical and Mathematical Physics 18, no. 6 (2014): 1369-1436. ([arXiv:1211.2446](https://arxiv.org/abs/1211.2446)).
+
+
 
 [[!redirects matrix factorization]]
 [[!redirects matrix factorizations]]
