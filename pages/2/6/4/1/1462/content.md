@@ -63,7 +63,7 @@ $$
     \\
     & \nearrow && \searrow
     \\
-    C && \stackrel{f}{\to} && d
+    c && \stackrel{f}{\to} && d
   }
 $$
 
