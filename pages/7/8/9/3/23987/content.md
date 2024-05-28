@@ -1471,7 +1471,104 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > I will describe digital, analog, and digital-analog quantum computing paradigms. Furthermore, I will discuss the possibility of reaching [[quantum advantage]] for industry use cases with current quantum computers in trapped ions, superconducting circuits, neutral atoms, and photonic systems.
 
-(...)
+* [[Javad Shabani]] (NYU New York):
+
+  **Experimental Routes in Realization of Topological Josephson Junctions**
+
+  > [[Majorana zero modes|Majorana bound states]], which are their own antiparticles, are predicted to emerge as zero-energy modes localized at the boundary between a [[topological superconductor]] and a topologically trivial region. Unlike [[BCS superconductors]], nature has not provided us unambiguous topological superconductors. However, it was realized that by interfacing [[BCS superconductors]] and [[semiconductors]] with strong [[spin-orbit coupling]] it is possible to create a system that can host topological states. Hence epitaxial superconductors and semiconductors have emerged as an attractive materials system with atomically sharp interfaces and broad flexibility in device fabrications incorporating [[Josephson junctions]]. We discuss the basics of topological superconductivity and provide insight on how to go beyond current state-of-the-art experiments. We argue that the ultimate success in realizing Majorana bound state physics relies on the observation of non-trivial fusion and [[braiding]] experiments.
+
+
+* [[Frank Schindler]] (Imperial College London):
+
+  **Interaction-Induced Crystalline Topology of Excitons**
+
+  > [[topological phase of matter|Topological]] [[electron band structure|band theory]] has celebrated various successes over the last few years, such as the recent classifications of crystalline materials based on their [[space group]] symmetry. We are currently witnessing a drive to generalise this theory to the case where interactions between electrons become relevant, with much work focused on [[ground states]]. As an alternative direction, we here study the topology of interaction-induced excitations, specifically excitons in semiconductors. In my talk, I will give a pedagogical introduction to the classification and bulk-boundary correspondence of exciton band structures based on inversion symmetry.
+
+
+* [[Adrien Bouhon]] (Nordic Institute for Theoretical Physics, Sweden):
+
+  **From the Homotopy Groups of Real Grassmannians to the Quantum Geometry of Many-Band Systems**
+
+  > I first review the [[homotopy theory|homotopy]] classification of [[electron band structure|band structures]] for [[crystal|crystalline]] systems described by a real Bloch Hamiltonian. These systems, both of fermionic or bosonic types, abound in nature as they merely require the combination of an anti-unitary symmetry (e.g. time reversal) and a twofold unitary symmetry (i.e. inversion, Pi-rotation, or mirror). The relevant [[classifying spaces]], i.e. the real [[Grassmannians]] and the real [[flag manifolds]], exhibit a rich geometric structure leading to a manifold of topological phases in all dimensions. I then introduce a completely general framework, based on the Pluecker imbedding of Grassmannians, to capture the Riemannian geometry of these "real" topological phases, that naturally extends to many-band contexts. While this approach permits the systematic homotopy-based modeling of few-band systems --- greatly facilitating the design of such phases in synthetic matter --- it culminates with the definition of a new $\mathbb{Z}$ invariant capturing the [[Euler class]] of many-band (i.e. beyond rank-2) subspaces.
+
+
+* András Pályi (Budapest University of Technology and Economics):
+
+  **Weyl Points Beyond Band Structures: Classical Mechanics, Spin Qubits, Josephson Junctions**
+
+  > In the past decade, research on [[Weyl semimetals]] has evolved into a major theme within [[condensed-matter physics]]. Defining characteristics of Weyl semimetals are Weyl points, i.e., touching points (a.k.a. degeneracy points or conical intersections) between neighbouring energy bands in the [[electronic band structure]]. Further characteristics of such a Weyl point are its robustness against fluctuations, and the linear energy dispersion in its vicinity. In this talk, I will discuss the simple mathematical origin of the robustness of Weyl points, and illustrate that similar degeneracy points appear in a plethora of physical systems described by parameter-dependent matrices, e.g., in the frequency spectrum of coupled linear oscillators &lbrack;1&rbrack;, and in the energy spectrum of interacting spin [[qubits]] &lbrack;2,3,4&rbrack; or [[Josephson junctions]] &lbrack;5,6&rbrack;. I will also highlight universal patterns describing the creation, annihiliation, merger, and separation of Weyl points as control parameters are varied &lbrack;6,7&rbrack;. Interestingly, much of this universal behaviour is described by known results from a specific branch of mathematics called singularity theory.
+
+  > &lbrack;1&rbrack; Z. Guba, Gy. Frank, G. Pinter, A. Palyi, Weyl points in ball-and-spring mechanical systems, [arXiv:2302.08241](https://arxiv.org/abs/2302.08241)
+
+  > &lbrack;2&rbrack; Z. Scherubl, A. Palyi, et al., Observation of spin-orbit coupling induced Weyl points in a two-electron double quantum dot, Comms. Phys. 2, 108 (2019), [arXiv:1804.06447](https://arxiv.org/abs/1804.06447)
+
+  > &lbrack;3&rbrack; Gy. Frank, Z. Scherubl, Sz. Csonka, G. Zarand, A. Palyi, Magnetic degeneracy points in interacting two-spin systems: geometrical patterns, topological charge distributions, and their stability, Phys. Rev. B 101, 245409 (2020), [arXiv:1910.02831](https://arxiv.org/abs/1910.02831)
+
+  > &lbrack;4&rbrack; A. Sen, Gy. Frank, B. Kolok, J. Danon, A. Palyi, Classification and magic magnetic-field directions for spin-orbit-coupled double quantum dots, Phys. Rev. B 108, 245406 (2023), [arXiv:2307.02958](https://arxiv.org/abs/2307.02958)
+
+  > &lbrack;5&rbrack; Gy. Frank, D. Varjas, G. Pinter, A. Palyi, Weyl-point teleportation, Phys. Rev. B 109, 205415 (2024), [arXiv:2112.14556](https://arxiv.org/abs/2112.14556)
+
+  > &lbrack;6&rbrack; Gy. Frank, G. Pinter, A. Palyi, Singularity theory of Weyl-point creation and annihilation, [arXiv:2309.05506](https://arxiv.org/abs/2309.05506)
+
+  > &lbrack;7&rbrack; G. Pinter, Gy. Frank, D. Varjas, A. Palyi, Birth Quota of Non-Generic Degeneracy Points, [arXiv:2202.05825](https://arxiv.org/abs/2202.05825) 
+
+* Rafael Chaves (International Institute of Physics (IIF-UFRN))
+
+  **Enhancing Non-Classicality Detection with Interventional Data**
+
+  > Generalizations of [[Bell's theorem]], particularly within quantum networks, are now being analyzed through the causal inference lens. However, the exploration of interventions, a central concept in causality theory, remains unexplored. As will be discussed, if we are not limited to observational data and can intervene in our experimental setup, then we can witness quantum violations of classical causal bounds even when no Bell-like violation is possible. That is, through interventions, the quantum behavior of a system that would seem classical otherwise can be demonstrated. We will then present a photonic experiment implementing those ideas and consider applications of this framework for measurement-based quantum computation, quantification of causality in quantum gates and quantum network protocols.
+
+  > &lbrack;1&rbrack; M. Gachechiladze et al. "Quantifying causal influences in the presence of a quantum common cause." Physical Review Letters 125, 230401 (2020).
+
+  > &lbrack;1&rbrack; I. Agresti et al. "Experimental test of quantum causal influences." Science Advances 8, eabm1515 (2022).
+
+  > &lbrack;1&rbrack; P. Lauand et al. "Quantum non-classicality in the simplest causal network." arXiv preprint arXiv:2404.12790 (2024).
+
+* [[Sonia Haddad]] (University of Tunis El Manar):
+
+  **Altermagnetism Emerging from Electronic Correlations**
+
+  > While altermagnetic materials are characterized by a vanishing net magnetic moment, their symmetry in principle allows for the existence of an anomalous Hall effect (AHE). Here we introduce a model with altermagnetism in which the emergence of an AHE is driven by interactions. This model is grounded in a modified Kane-Mele framework with antiferromagnetic (AFM) spin-spin correlations. Quantum Monte Carlo simulations show that the system undergoes a finite temperature phase transition governed by a primary AFM order parameter accompanied by a secondary one of Haldane type. The emergence of both orders turns the metallic state of the system, away from half-filling, to an altermagnet with a finite anomalous Hall conductivity. A mean field ansatz corroborates these results, which pave the way into the study of correlation induced altermagnets with finite [[Berry curvature]]. 
+
+* Gianluigi Catelani (Quantum Research Center, TII, Abu Dhabi)
+
+* Felix von Oppen (Dahlem Center for Complex Quantum Systems, Freie Universität Berlin)
+
+* [[Robert-Jan Slager]] (University of Cambridge)
+
+* Xiong-Jun Liu (International Center for Quantum Materials, Peking University)
+
+* Pramod Padmanabhan (Indian Institute of Technology Bhubaneswar)
+
+* Po-Yao Chang (National Tsing Hua University in Taiwan)
+
+* [[Tim Byrnes]] (NYU Shanghai)
+
+* Arijeet Pal (University College, London)
+
+* Alioscia Hamma (University of Naples Federico II)
+
+* [[Markus Müller]] (RWTH Aachen University, Germany)
+
+* Tobias Haug (Quantum Research Center, TII, Abu Dhabi)
+
+* [[Chandrashekar Radhakrishnan]] (NYU Shanghai)
+
+* Elio König (Max Planck Institute for Solid State Research)
+
+* Aditi Mitra (NYU New York)
+
+* Nadia Boutabba (Institute of Applied Technology, FCHS)
+
+* Ken Shiozaki (Yukawa Institute for Theoretical Physics, Kyoto University)
+
+* [[Asif Equbal]] (NYU AD)
+
+* Frederico Brito (Quantum Research Center, TII, Abu Dhabi)
+
+* [[Urs Schreiber]] (NYU AD)
+
+
 
 
 \linebreak
@@ -3362,6 +3459,5 @@ Researchers:
 
 
 category: reference
-
 
 
