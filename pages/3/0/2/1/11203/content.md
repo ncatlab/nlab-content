@@ -181,6 +181,10 @@ Via [[topological phases of matter]]:
 [[!redirects superconductor]]
 [[!redirects superconductors]]
 
+[[!redirects BCS superconductor]]
+[[!redirects BCS superconductors]]
+
+
 [[!redirects topological superconductor]]
 [[!redirects topological superconductors]]
 
@@ -191,9 +195,9 @@ Via [[topological phases of matter]]:
 [[!redirects type II superconductors]]
 
 
-
 [[!redirects Meissner effect]]
 [[!redirects Meissner-Ochsenfeld effect]]
+
 
 
 
