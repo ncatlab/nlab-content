@@ -25,6 +25,12 @@ Introducing [[superspace]] and [[superfields]] for [[supersymmetry|supersymmetri
 
 * [[Abdus Salam]], [[John Strathdee]], _Superfields and Fermi-Bose symmetry_, Physical Review D11, 1521-1535 (1975) ([doi:10.1142/9789812795915_0051](https://doi.org/10.1142/9789812795915_0051))
 
+On [[D=7 supergravity]]:
+
+* [[Ergin Sezgin]], [[Abdus Salam]], *Maximal extended supergravity theory in seven dimensions*, Physics Letters B
+**118** 4–6 (1982) 359-364 &lbrack;<a href="https://doi.org/10.1016/0370-2693(82)90204-0">doi:10.1016/0370-2693(82)90204-0</a>&rbrack;
+
+
 On [[supergravity]]:
 
 * [[Abdus Salam]], [[Ergin Sezgin]] (eds.), *Supergravities in Diverse Dimensions*, Elsevier & World Scientific (1990) &lbrack;[doi:10.1142/0277](https://doi.org/10.1142/0277)&rbrack;
