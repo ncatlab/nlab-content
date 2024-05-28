@@ -103,7 +103,7 @@ An early observation that the 0-mode sector of a [[2d SCFT]] is a [[spectral tri
 
 The suggestion to understand, conversely, the [[string theory|string]]'s [[worldvolume]] [[2d SCFT]] as a higher spectral triple is due to
 
-*  {#Chamseddine97} [[Ali Chamseddine]], _An Effective Superstring Spectral Action_, Phys.Rev. D56 (1997) 3555-3567 ([arXiv:hep-th/9705153](http://arxiv.org/abs/hep-th/9705153)),
+* {#Chamseddine97} [[Ali Chamseddine]], *An Effective Superstring Spectral Action*, Phys.Rev. D **56** (1997) 3555-3567 &lbrack;[arXiv:hep-th/9705153](http://arxiv.org/abs/hep-th/9705153), [doi:10.1103/PhysRevD.56.3555](https://doi.org/10.1103/PhysRevD.56.3555)&rbrack;
 
 which claims to show that the corresponding [[spectral action]] reproduces the correct effective background action known in [[string theory]]. A more expository account of this perspective is in
 
