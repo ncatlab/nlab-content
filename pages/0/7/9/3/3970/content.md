@@ -23,9 +23,9 @@ The generalization of the notion of [[accessible functor]]  from [[category theo
 
 \begin{definition}
 An [[(∞,1)-functor]] 
-$F \;\colon\; C \to D$ is **accessible** if $C$ is an [[accessible (∞,1)-category]] and there is a [[regular cardinal]] $\kappa$ such that $F$ preserves $\kappa$-small [[filtered (infinity,1)-category|filtered]]$\,$[[(infinity,1)-colimits|$(\infty,1)$-colimits]].
+$F \;\colon\; C \to D$ is **accessible** if $C$ is an [[accessible (∞,1)-category]] and there is a [[regular cardinal]] $\kappa$ such that $F$ preserves $\kappa$-[[filtered (infinity,1)-category|filtered]]$\,$[[(infinity,1)-colimits|$(\infty,1)$-colimits]].
 \end{definition}
-This appears as [[Higher Topos Theory|HTT, def. 5.4.2.5]].
+This appears as [[Higher Topos Theory|HTT, def. 5.4.2.5]] (and [[Higher Topos Theory|HTT, def. 5.3.4.5]]).
 
 
 ## Properties
