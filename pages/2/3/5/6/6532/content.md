@@ -9,6 +9,10 @@ On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept 
 
 * [[Bernard de Wit]], [[Henning Samtleben]], _The end of the $p$-form hierarchy_, JHEP 0808:015, 2008 ([arXiv:0805.4767](https://arxiv.org/abs/0805.4767))
 
+On [[D=7 supergravity]]:
+
+* [[Henning Samtleben]], Martin Weidner, *The maximal $D=7$ supergravities*, Nucl.Phys. B **725** (2005) 383-419 &lbrack;[arXiv:hep-th/0506237](https://arxiv.org/abs/hep-th/0506237), [doi:10.1016/j.nuclphysb.2005.07.028](https://doi.org/10.1016/j.nuclphysb.2005.07.028)&rbrack;
+
 
 On [[tensor hierarchies]] in [[gauged supergravity]] and possible relation to [[U-duality]] and [[M-theory]]:
 
