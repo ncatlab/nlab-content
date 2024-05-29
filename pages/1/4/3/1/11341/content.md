@@ -66,11 +66,11 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 The original article is
 
-* {#Gepner87} [[Doron Gepner]], _Space-time supersymmetry in compactified string theory and superconformal models_, Nucl. Phys. B296 (1987) 757.
+* {#Gepner87} [[Doron Gepner]], *Space-time supersymmetry in compactified string theory and superconformal models*, Nucl. Phys. B **296** (1987) 757 &lbrack;<a href="https://doi.org/10.1016/0550-3213(88)90397-5">doi:10.1016/0550-3213(88)90397-5</a>&rbrack;
 
-Lecture notes include
+Lecture notes include:
 
-* [[Doron Gepner]], _Lectures On $N=2$ String Theory_, 1989 ([[Gepner89.pdf:file]], [spire:277718/](http://inspirehep.net/record/277718/))
+* [[Doron Gepner]], _Lectures On $N=2$ String Theory_, 1989 &lbrack;[[Gepner89.pdf:file]], [spire:277718/](http://inspirehep.net/record/277718/)&rbrack;
 
 Further discussion in
 
