@@ -1497,21 +1497,22 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   **Weyl Points Beyond Band Structures: Classical Mechanics, Spin Qubits, Josephson Junctions**
 
-  > In the past decade, research on [[Weyl semimetals]] has evolved into a major theme within [[condensed-matter physics]]. Defining characteristics of Weyl semimetals are Weyl points, i.e., touching points (a.k.a. degeneracy points or conical intersections) between neighbouring energy bands in the [[electronic band structure]]. Further characteristics of such a Weyl point are its robustness against fluctuations, and the linear energy dispersion in its vicinity. In this talk, I will discuss the simple mathematical origin of the robustness of Weyl points, and illustrate that similar degeneracy points appear in a plethora of physical systems described by parameter-dependent matrices, e.g., in the frequency spectrum of coupled linear oscillators &lbrack;1&rbrack;, and in the energy spectrum of interacting spin [[qubits]] &lbrack;2,3,4&rbrack; or [[Josephson junctions]] &lbrack;5,6&rbrack;. I will also highlight universal patterns describing the creation, annihiliation, merger, and separation of Weyl points as control parameters are varied &lbrack;6,7&rbrack;. Interestingly, much of this universal behaviour is described by known results from a specific branch of mathematics called singularity theory.
+  > In the past decade, research on [[Weyl semimetals]] has evolved into a major theme within [[condensed-matter physics]]. Defining characteristics of Weyl semimetals are Weyl points, i.e., touching points (a.k.a. degeneracy points or conical intersections) between neighbouring energy bands in the [[electronic band structure]]. Further characteristics of such a Weyl point are its robustness against fluctuations, and the linear energy dispersion in its vicinity. In this talk, I will discuss the simple mathematical origin of the robustness of Weyl points, and illustrate that similar degeneracy points appear in a plethora of physical systems described by parameter-dependent matrices, e.g., in the frequency spectrum of coupled linear oscillators &lbrack;[1](#PalyiMay2024Ref1)&rbrack;, and in the energy spectrum of interacting spin [[qubits]] &lbrack;[2](#PalyiMay2024Ref2),[3](#PalyiMay2024Ref3),[4](#PalyiMay2024Ref4)&rbrack; or [[Josephson junctions]] &lbrack;[5](#PalyiMay2024Ref5),[6](#PalyiMay2024Ref6)&rbrack;. I will also highlight universal patterns describing the creation, annihiliation, merger, and separation of Weyl points as control parameters are varied &lbrack;[6](#PalyiMay2024Ref6),[7](#PalyiMay2024Ref7)&rbrack;. Interestingly, much of this universal behaviour is described by known results from a specific branch of mathematics called singularity theory.
 
-  > &lbrack;1&rbrack; Z. Guba, Gy. Frank, G. Pinter, A. Palyi, Weyl points in ball-and-spring mechanical systems, [arXiv:2302.08241](https://arxiv.org/abs/2302.08241)
+  > {#PalyiMay2024Ref1} &lbrack;1&rbrack; Z. Guba, Gy. Frank, G. Pinter, A. Palyi, Weyl points in ball-and-spring mechanical systems, [arXiv:2302.08241](https://arxiv.org/abs/2302.08241)
 
-  > &lbrack;2&rbrack; Z. Scherubl, A. Palyi, et al., Observation of spin-orbit coupling induced Weyl points in a two-electron double quantum dot, Comms. Phys. 2, 108 (2019), [arXiv:1804.06447](https://arxiv.org/abs/1804.06447)
+  > {#PalyiMay2024Ref2} &lbrack;2&rbrack; Z. Scherubl, A. Palyi, et al., Observation of spin-orbit coupling induced Weyl points in a two-electron double quantum dot, Comms. Phys. 2, 108 (2019), [arXiv:1804.06447](https://arxiv.org/abs/1804.06447)
 
-  > &lbrack;3&rbrack; Gy. Frank, Z. Scherubl, Sz. Csonka, G. Zarand, A. Palyi, Magnetic degeneracy points in interacting two-spin systems: geometrical patterns, topological charge distributions, and their stability, Phys. Rev. B 101, 245409 (2020), [arXiv:1910.02831](https://arxiv.org/abs/1910.02831)
+  > {#PalyiMay2024Ref3} &lbrack;3&rbrack; Gy. Frank, Z. Scherubl, Sz. Csonka, G. Zarand, A. Palyi, Magnetic degeneracy points in interacting two-spin systems: geometrical patterns, topological charge distributions, and their stability, Phys. Rev. B 101, 245409 (2020), [arXiv:1910.02831](https://arxiv.org/abs/1910.02831)
 
-  > &lbrack;4&rbrack; A. Sen, Gy. Frank, B. Kolok, J. Danon, A. Palyi, Classification and magic magnetic-field directions for spin-orbit-coupled double quantum dots, Phys. Rev. B 108, 245406 (2023), [arXiv:2307.02958](https://arxiv.org/abs/2307.02958)
+  > {#PalyiMay2024Ref4} &lbrack;4&rbrack; A. Sen, Gy. Frank, B. Kolok, J. Danon, A. Palyi, Classification and magic magnetic-field directions for spin-orbit-coupled double quantum dots, Phys. Rev. B 108, 245406 (2023), [arXiv:2307.02958](https://arxiv.org/abs/2307.02958)
 
-  > &lbrack;5&rbrack; Gy. Frank, D. Varjas, G. Pinter, A. Palyi, Weyl-point teleportation, Phys. Rev. B 109, 205415 (2024), [arXiv:2112.14556](https://arxiv.org/abs/2112.14556)
+  > {#PalyiMay2024Ref5} &lbrack;5&rbrack; Gy. Frank, D. Varjas, G. Pinter, A. Palyi, Weyl-point teleportation, Phys. Rev. B 109, 205415 (2024), [arXiv:2112.14556](https://arxiv.org/abs/2112.14556)
 
-  > &lbrack;6&rbrack; Gy. Frank, G. Pinter, A. Palyi, Singularity theory of Weyl-point creation and annihilation, [arXiv:2309.05506](https://arxiv.org/abs/2309.05506)
+  > {#PalyiMay2024Ref6} &lbrack;6&rbrack; Gy. Frank, G. Pinter, A. Palyi, Singularity theory of Weyl-point creation and annihilation, [arXiv:2309.05506](https://arxiv.org/abs/2309.05506)
 
-  > &lbrack;7&rbrack; G. Pinter, Gy. Frank, D. Varjas, A. Palyi, Birth Quota of Non-Generic Degeneracy Points, [arXiv:2202.05825](https://arxiv.org/abs/2202.05825) 
+  > {#PalyiMay2024Ref7} &lbrack;7&rbrack; G. Pinter, Gy. Frank, D. Varjas, A. Palyi, Birth Quota of Non-Generic Degeneracy Points, [arXiv:2202.05825](https://arxiv.org/abs/2202.05825) 
+
 
 * Rafael Chaves (International Institute of Physics (IIF-UFRN))
 
