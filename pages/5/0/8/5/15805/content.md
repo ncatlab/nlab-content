@@ -11,6 +11,13 @@
 =--
 
 
+\tableofcontents
+
+
+## Idea
+
+(...)
+
 ## Related concepts
 
 * [[theta angle]]
@@ -33,12 +40,23 @@ See also
 
 * Wikipedia, _[CP violation](http://en.wikipedia.org/wiki/CP_violation)_
 
+Argument for absence of CP-violation for the [[strong nuclear force]] ([[QCD]]):
+
+* Wen-Yuan Ai, Juan S. Cruz, Bjorn Garbrecht, Carlos Tamarit, *Absence of CP violation in the strong interactions* &lbrack;[arXiv:2001.07152](https://arxiv.org/abs/2001.07152)&rbrack; 
+
+  published as: *Consequences of the order of the limit of infinite spacetime volume and the sum over topological sectors for C P violation in the strong interactions* 
+Phys. Lett. B **822** (2021) 136616 &lbrack;[doi:10.1016/j.physletb.2021.136616](https://doi.org/10.1016/j.physletb.2021.136616)&rbrack;
+
+* Wen-Yuan Ai, Bjorn Garbrecht, Carlos Tamarit, *CP conservation in the strong interactions*, Universe **10** 5 (2024) 189 &lbrack;[arXiv:2404.16026](https://arxiv.org/abs/2404.16026), [doi:10.3390/universe10050189](https://doi.org/10.3390/universe10050189)&rbrack;
+
+
+
+
 On [[flavour physics]], [[CP violation]] and [[flavour anomalies]]:
 
 * [[Antonio Pich]], _Flavour Dynamics and Violations of the CP Symmetry_, Lectures at the 2017 and 2019 CERN - Latin-American Schools of High-Energy Physics ([arXiv:1805.08597](https://arxiv.org/abs/1805.08597))
 
-
-Discussion in the context of [[string theory]] is in
+Discussion in the context of [[string theory]]:
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
