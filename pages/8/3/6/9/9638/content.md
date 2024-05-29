@@ -67,7 +67,7 @@ Already for presently available [NISQ](#ReferencesNISQ) machines, classically-[[
     "caption": "(from [BLSF 19, Fig. 1](#BenedettiLloydSackFiorentini19))"
 \end{imagefromfile}
 
-{#DynamicLifting} Here the classical control itself is generally conditioned on [[quantum measurement]]-outcomes --- notably syndrome-measurements for [[quantum error correction]] --- available only during runtime, a more subtle mechanism that has come to be called "[[dynamic lifting]]":
+{#DynamicLifting} Here the classical control itself is generally conditioned on [[quantum measurement]]-outcomes --- notably syndrome-measurements for [[quantum error correction]] --- available only during runtime, a mechanism that in the [[quantum programming languages]]-community ([[Quipper]]) has come to be called "[[dynamic lifting]]":
 
 \begin{imagefromfile}
     "file_name": "SQRAMschema-WithDynLifting.jpg",
