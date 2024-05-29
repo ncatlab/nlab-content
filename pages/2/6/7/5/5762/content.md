@@ -26,7 +26,7 @@ and see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standp
 ([[Niels Bohr]], [1920](https://en.wikiquote.org/wiki/Niels_Bohr))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Bohr-Sommerfeld quantization]]
 
