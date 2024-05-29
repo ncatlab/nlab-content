@@ -38,9 +38,6 @@ Related to the [[fractional superstring]].
 ### General
 
 
-
-
-
 #### ZF type
 
 Introducing parafermion [[2d CFT]]:
@@ -61,8 +58,13 @@ Further discussion:
 
 * [[Paul Fendley]], *Parafermionic edge zero modes in $\mathbb{Z}_n$-invariant spin chains*,  J. Stat. Mech. (2012) P11020 $[$[doi:10.1088/1742-5468/2012/11/P11020](https://iopscience.iop.org/article/10.1088/1742-5468/2012/11/P11020)$]$
 
+#### Coset WZW-type
 
+More general construction as [[coset space|coset]]-[[WZW models]] (2d current algebra CFT):
 
+* [[Doron Gepner]], *New conformal field theories associated with Lie algebras and their partition functions*, Nuclear Physics B **290** (1987) 10-24 &lbrack;<a href="https://doi.org/10.1016/0550-3213(87)90176-3">doi:10.1016/0550-3213(87)90176-3</a>&rbrack;
+
+* [[Peter Bouwknegt]], Bolin Han, *Coupled free fermion conformal field theories* &lbrack;[arXiv:2403.03471](https://arxiv.org/abs/2403.03471)&rbrack;
 
 
 
