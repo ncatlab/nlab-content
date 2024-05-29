@@ -178,13 +178,13 @@ where the [[action]] of the [[product group]] is via its canonical embedding $U(
 +-- {: .num_prop #ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}
 ###### Proposition
 
-For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the real [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmannian]] is a $O(n)$-[[principal bundle]]
+For all $n \leq k \in \mathbb{N}$, the canonical [[coprojection]] from the real [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmannian]] is a $O(n)$-[[principal bundle]]
 
 $$
   \array{
     O(n) &\hookrightarrow& V_n(\mathbb{R}^k)
     \\
-    && \downarrow 
+    && \big\downarrow 
     \\
     && Gr_n(\mathbb{R}^k)
   }
@@ -208,7 +208,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By ([this cor.](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) and [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup)).
+By [this cor.](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) and [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup).
 
 =--
  
