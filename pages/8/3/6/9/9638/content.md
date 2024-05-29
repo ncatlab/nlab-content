@@ -37,7 +37,7 @@ Specifically, _[[topological quantum computation]]_ is (or is meant to be) quant
 ### Classical control, quantum data
  {#ClassicalControlQuantumData}
 
-Any practical quantum computer will be *[[classically controlled quantum computation|classically controlled]]* ([Knill 96](#Knill96), [Ömer 03](#Omer03), [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07), [Devitt 14](#Devitt14), in line with the general idea of *[[parameterized quantum systems]]*):
+Any practical quantum computer will be *[[classically controlled quantum computation|classically controlled]]* (an idea that may be traced back to [Knill 96](#Knill96), [Ömer 03](#Omer03) with more pronounced discussion in [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07), [Devitt 14](#Devitt14)) in line with the general idea of *[[parameterized quantum systems]]*:
 
 \begin{imagefromfile}
     "file_name": "ClassicallyControlledQuantumComputation.jpg",
@@ -52,7 +52,11 @@ Any practical quantum computer will be *[[classically controlled quantum computa
     "caption": "From [Miszczak 11](#Miszczak11)"
 \end{imagefromfile}
 
-{#DynamicLifting} But in general the classical control itself may be conditioned on [[quantum measurement]]-outcomes available only during runtime, a more subtle mechanism that (at least in the [[Quipper]]-community) has come to be called "[[dynamic lifting]]":
+{#NeedForClassicalControl} $\,$
+
+> Irrespective of the actual quantum code chosen to protect a quantum computer, it is well known that operating such as system requires extensive classical control infrastructure. This is not simply related to the control of the physical device hardware needed to operate a qubit (lasers, signal generators etc...), but it is also required to decode [[quantum error correction|error correction]] information produced by the computer. &lbrack;[Devitt 14](#Devitt14), [p. 2](https://arxiv.org/pdf/1405.4943#page=2)&rbrack;
+
+{#DynamicLifting} Moreover, in general the classical control itself may be conditioned on [[quantum measurement]]-outcomes available only during runtime, a more subtle mechanism that (at least in the [[Quipper]]-community) has come to be called "[[dynamic lifting]]":
 
 \begin{imagefromfile}
     "file_name": "SQRAMschema-WithDynLifting.jpg",
@@ -64,7 +68,7 @@ Any practical quantum computer will be *[[classically controlled quantum computa
         "right": 0, 
         "left": 10
     },
-    "caption": "SQRAM model adapted from [Nagarajan, Papanikolaou & Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07)"
+    "caption": "SQRAM model adapted from [Nagarajan, Papanikolaou and Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07)"
 \end{imagefromfile}
 
 
