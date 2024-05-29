@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -466,20 +467,26 @@ in particular in [[quantum machine learning]]:
 
 
 
-### Noisy intermediate-scale quantum computing
+### Noisy intermediate-scale quantum (NISQ) computing
  {#ReferencesNISQ}
 
-* Nikolaj Moll et al., *Quantum optimization using variational algorithms on near-term quantum devices*, Quantum Science and Technology, Volume 3, Number 3 2018 ([arXiv:1710.01022](https://arxiv.org/abs/1710.01022))
+The origin of the notion
+
+* Nikolaj Moll et al., *Quantum optimization using variational algorithms on near-term quantum devices*, Quantum Science and Technology **3** 3 (2018) &lbrack[arXiv:1710.01022](https://arxiv.org/abs/1710.01022), [doi:10.1088/2058-9565/aab822](https://doi.org/10.1088/2058-9565/aab822)&rbrack;
 
 * {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum **2** 79 (2018) &lbrack;[arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79)&rbrack;
 
-* Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
+
+
 
 {#NISQLimitations} On the limitations of NISQ machines in achieving any [[quantum advantage]]:
 
+* Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances **10** 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
+
+
 * {#LeymannBarzen20} Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. **5** 044007 (2020) &lbrack;[doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d)&rbrack;
 
-* {#Ezratty} Olivier Ezratty, *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518), [InSpire:2660378](https://inspirehep.net/literature/2660378)&rbrack;
+* {#Ezratty} [[Olivier Ezratty]], *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518), [InSpire:2660378](https://inspirehep.net/literature/2660378)&rbrack;
 
   > "no one has yet successfully implemented a use case matching the original definition of the NISQ regime."
 
@@ -487,9 +494,13 @@ in particular in [[quantum machine learning]]:
 
   > "most NISQ experiments have been run with fewer than 30 qubits and should therefore better be labelled as “pre-NISQ”. While they are elegant proofs of concepts, they do not yet demonstrate any speed up over classical computing"
 
-* Olivier Ezratty, *Where are we heading with NISQ?*, blog post (2023) &lbrack;[web](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/), [pdf](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/?output=pdf)&rbrack;
+* [[Olivier Ezratty]], *Where are we heading with NISQ?*, blog post (2023) &lbrack;[web](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/), [pdf](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/?output=pdf)&rbrack;
 
   > NISQ is not at all ready for prime time quantum computing despite all the fuss about “quantum computing being business ready”. Not only have we not yet reached any quantum computing advantage, but in many cases, even if it worked, the most common NISQ algorithms using a variational approach, have prohibitively long execution times particularly in the promising chemical simulations domain.
+
+* Jonathan Wei Zhong Lau, Kian Hwee Lim, Harshank Shrotriya, Leong Chuan Kwek, *NISQ computing: where are we and where do we go?*, AAPPS Bull. **32** 27 (2022) &lbrack;[doi:10.1007/s43673-022-00058-z](https://doi.org/10.1007/s43673-022-00058-z)&rbrack;
+ 
+  > However, quantum computers are still far from achieving all that they have promised. While early-stage quantum computers have been developed, the problems of noisy calculations and scalability of quantum computers still plague the field. As opposed to the far future, where quantum computers can be as big as we wish them to be and are capable of performing fully controllable operations (termed as the fault-tolerant era), we are currently working in the *Noisy Intermediate-Scale Quantum* (NISQ) era, which is an operational definition that implies that the quantum computers available to us now are subject to substantial error rates and they are constrained in size (in terms of the number of qubits). While it is already a scientific achievement to get to this stage, such quantum computers are still incapable of showing any significant advantages over classical computers. As such, some people in the community have already expressed fear that there will be a ‘Quantum winter’, or a scenario where quantum computing devices remain noisy and are unable to scale up in terms of qubit size, preventing us from ever achieving a meaningful advantage over classical computers.
 
 * {#Preskill23} [[John Preskill]], *Crossing the Quantum Chasm: From NISQ to Fault Tolerance*, talk at Q2B 2023 Silicon Valley (2023) &lbrack;[pdf](http://theory.caltech.edu/~preskill/talks/Preskill-Q2B-2023), [[Preskill-Crossing.pdf:file]]&rbrack;
 
