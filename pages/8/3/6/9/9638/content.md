@@ -37,26 +37,37 @@ Specifically, _[[topological quantum computation]]_ is (or is meant to be) quant
 ### Classical control, quantum data
  {#ClassicalControlQuantumData}
 
-Any practical quantum computer will be *[[classically controlled quantum computation|classically controlled]]* (an idea that may be traced back to [Knill 96](#Knill96), [Ömer 03](#Omer03) with more pronounced discussion in [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07), [Devitt 14](#Devitt14)) in line with the general idea of *[[parameterized quantum systems]]*:
+Any practical quantum computer will be *[[classically controlled quantum computation|classically controlled]]* (an idea that may be traced back to [Knill 96](#Knill96), [Ömer 03](#Omer03), for more pronounced discussion see [Devitt 14](#Devitt14)).
 
 \begin{imagefromfile}
     "file_name": "ClassicallyControlledQuantumComputation.jpg",
     "width": 400,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -30,
         "bottom": 20,
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Miszczak 11](#Miszczak11)"
+    "caption": "(from  [Miszczak 11, Fig. 9](#Miszczak11))"
 \end{imagefromfile}
 
-{#NeedForClassicalControl} $\,$
+Already for presently available [NISQ](#ReferencesNISQ) machines, classically-[[parameterized quantum systems]] have been considered in contexts such as [[quantum machine learning]] &lbrack;[BLSF 19](#BenedettiLloydSackFiorentini19)&rbrack;:
 
-> Irrespective of the actual quantum code chosen to protect a quantum computer, it is well known that operating such as system requires extensive classical control infrastructure. This is not simply related to the control of the physical device hardware needed to operate a qubit (lasers, signal generators etc...), but it is also required to decode [[quantum error correction|error correction]] information produced by the computer. &lbrack;[Devitt 14](#Devitt14), [p. 2](https://arxiv.org/pdf/1405.4943#page=2)&rbrack;
+\begin{imagefromfile}
+    "file_name": "HybridQuantumComputing.jpg",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [BLSF 19, Fig. 1](#BenedettiLloydSackFiorentini19))"
+\end{imagefromfile}
 
-{#DynamicLifting} Moreover, in general the classical control itself may be conditioned on [[quantum measurement]]-outcomes available only during runtime, a more subtle mechanism that (at least in the [[Quipper]]-community) has come to be called "[[dynamic lifting]]":
+{#DynamicLifting} Here the classical control itself is generally conditioned on [[quantum measurement]]-outcomes --- notably syndrome-measurements for [[quantum error correction]] --- available only during runtime, a more subtle mechanism that has come to be called "[[dynamic lifting]]":
 
 \begin{imagefromfile}
     "file_name": "SQRAMschema-WithDynLifting.jpg",
@@ -64,22 +75,42 @@ Any practical quantum computer will be *[[classically controlled quantum computa
     "unit": "px",
     "margin": {
         "top": -20,
+        "bottom": -10,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(SQRAM model adapted from [Nagarajan, Papanikolaou and Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07))"
+\end{imagefromfile}
+
+{#NeedForClassicalControl} $\,$
+
+&lbrack;[Devitt 14](#Devitt14), [p. 2](https://arxiv.org/pdf/1405.4943#page=2):&rbrack;
+
+> Irrespective of the actual quantum code chosen to protect a quantum computer, it is well known that operating such as system requires extensive classical control infrastructure. This is not simply related to the control of the physical device hardware needed to operate a qubit (lasers, signal generators etc...), but it is also required to decode [[quantum error correction|error correction]] information produced by the computer. 
+
+&lbrack;[KESWDSC 23](#KESWDSC23), [p. 2](https://arxiv.org/pdf/2311.07121#page=2):&rbrack;
+
+> Apart from the requirements on the quantum hardware, the successful execution of [[quantum error correction|QEC codes]] depends on the classical control system. The classical control system is responsible for all classical aspects of quantum computing and includes executing the quantum control and
+measurement signals, acquiring the readout signals, andperforming classical processing operations, all in a synchronized manner. In QEC, the control system is also responsible for mapping the local physical measurements into logical measurement results or logical Pauli frame updates through an algorithmic procedure called decoding. To reach
+useful quantum computation with QEC, i.e., perform faultolerant non-Clifford gates, the control unit is required to perform quantum gates that depend on the decoding output. Moreover, to prevent a diverging classical calculation latency, it is crucial for the control system to close a tight loop, with ultra-low latency, from the physical quantum measurement through the classical decoding procedure to a conditional feed-forward quantum operation. Thus, the success of fault-tolerant quantum computation depends on minimizing the QEC feed-forward latency. 
+
+\begin{imagefromfile}
+    "file_name": "CRKAW-QECCP.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
     },
-    "caption": "SQRAM model adapted from [Nagarajan, Papanikolaou and Williams 2007, Fig 1](#NagarajanPapanikolaouWilliams07)"
+    "caption": "(QECCP schematics fom [KESWDSC 23, Fig. 2](#KESWDSC23))"
 \end{imagefromfile}
 
 
+For more on technical details of classical control requirements see also [CRKAW 24](#CRKAW24).
 
-See the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
-
-The paradigm of [[classically controlled quantum computation]] applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be embedded in and called from a more comprehensive classical computing environment. 
-
-This, in turn, applies particularly to applications like [[quantum machine learning]] ([Benedetti, Lloyd, Sack & Fiorentini 19](#BenedettiLloydSackFiorentini19), [TensorFlow Quantum](#TensorFlow), for more see the references [there](machine+learning#ReferencesQuantumMachineLearning)).
-
-
+Generally, see the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
 
 
 
@@ -392,11 +423,16 @@ Theory of [[classically controlled quantum computing]] and [[parameterized quant
 
 * {#Miszczak11} [[Jarosław Adam Miszczak]], *Models of quantum computation and quantum programming languages*, Bull. Pol. Acad. Sci.-Tech. Sci., Vol. 59, No. 3 (2011), pp. 305-324 ([arXiv:1012.6035](https://arxiv.org/abs/1012.6035))
 
-* {#Devitt14} [[Simon J. Devitt]], *Classical Control of Large-Scale Quantum Computers*, In: S. Yamashita, S. Minato  (eds.) *Reversible Computation* Lecture Notes in Computer Science, vol 8507. Springer 2014 ([arXiv:1405.4943](https://arxiv.org/abs/1405.4943), [doi:10.1007/978-3-319-08494-7_3](https://doi.org/10.1007/978-3-319-08494-7_3))
+* {#Devitt14} [[Simon J. Devitt]], *Classical Control of Large-Scale Quantum Computers*, In: S. Yamashita, S. Minato  (eds.) *Reversible Computation* Lecture Notes in Computer Science **8507**, Springer (2014) &lbrack;[arXiv:1405.4943](https://arxiv.org/abs/1405.4943), [doi:10.1007/978-3-319-08494-7_3](https://doi.org/10.1007/978-3-319-08494-7_3)&rbrack;
 
 * Jarrod R McClean, Jonathan Romero, Ryan Babbush and Alán Aspuru-Guzik, *The theory of variational hybrid quantum-classical algorithms*, New Journal of Physics, Volume 18, February 2016 ([doi:10.1088/1367-2630/18/2/023023](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023))
 
-* Murray Thom (D-Wave), *[Three Truths and the Advent of Hybrid Quantum Computing](https://medium.com/d-wave/three-truths-and-the-advent-of-hybrid-quantum-computing-1941ba46ff8c)*, Jun 25, 2019
+* Murray Thom (D-Wave), *[Three Truths and the Advent of Hybrid Quantum Computing](https://medium.com/d-wave/three-truths-and-the-advent-of-hybrid-quantum-computing-1941ba46ff8c)* (Jun 25, 2019)
+
+* {#KESWDSC23} Yaniv Kurman, Lior Ella, Ramon Szmuk, Oded Wertheim, Benedikt Dorschner, Sam Stanwyck, Yonatan Cohen: *Control Requirements and Benchmarks for Quantum Error Correction* &lbrack;[arXiv:2311.07121](https://arxiv.org/abs/2311.07121)&rbrack;
+
+
+* {#CRKAW24} Daan Camps, Ermal Rrapaj, Katherine Klymko, Brian Austin, Nicholas J. Wright: *Evaluation of the Classical Hardware Requirements for Large-Scale Quantum Computations*, ISC High Performance 2024 Research Paper Proceedings (39th International Conference), Hamburg, Germany (2024) 1-12 &lbrack;[doi:10.23919/ISC.2024.10528937](https://doi.org/10.23919/ISC.2024.10528937)&rbrack;
 
 Application of classically controlled quantum computation:
 
@@ -417,7 +453,7 @@ Application of classically controlled quantum computation:
 
 in particular in [[quantum machine learning]]:
 
-* {#BenedettiLloydSackFiorentini19} Marcello Benedetti, Erika Lloyd, Stefan Sack, Mattia Fiorentini, *Parameterized quantum circuits as machine learning models*, Quantum Science and Technology 4, 043001 (2019) ([arXiv:1906.07682](https://arxiv.org/abs/1906.07682))
+* {#BenedettiLloydSackFiorentini19} Marcello Benedetti, Erika Lloyd, Stefan Sack, Mattia Fiorentini, *Parameterized quantum circuits as machine learning models*, Quantum Science and Technology **4** 043001 (2019) &lbrack;[arXiv:1906.07682](https://arxiv.org/abs/1906.07682)&rbrack;
 
 * D. Zhu et al. *Training of quantum circuits on a hybrid quantum computer*, Science Advances, 18 Oct 2019: Vol. 5, no. 10, eaaw9918 ([doi: 10.1126/sciadv.aaw9918](https://advances.sciencemag.org/content/5/10/eaaw9918))
 
