@@ -11,6 +11,10 @@ On [[topological T-duality]] in relation to [[T-folds]]:
 
 * [[Peter Bouwknegt]], [[Ashwin S. Pande]], *Topological T-duality and T-folds*, Advances in Theoretical and Mathematical Physics **13** 5 (2009) &lbrack;[arXiv:0810.4374](https://arxiv.org/abs/0810.4374), [doi:10.4310/ATMP.2009.v13.n5.a6](https://dx.doi.org/10.4310/ATMP.2009.v13.n5.a6)&rbrack;
 
+On [[parafermions]] via [[coset space|coset]] [[WZW-model]] [[2d CFTs]]:
+
+* [[Peter Bouwknegt]], Bolin Han, *Coupled free fermion conformal field theories* &lbrack;[arXiv:2403.03471](https://arxiv.org/abs/2403.03471)&rbrack;
+
 
 
 category: people
