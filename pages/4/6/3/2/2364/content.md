@@ -70,7 +70,7 @@ Note that the [[ordinary cohomology]] $HP^*(X,R)=\prod_k H^{n+2k}(X,R)$ is a [[c
 +-- {: .num_example}
 ###### Example 
 
-$g_m(x,y)=xy$, $[p]_m(x)=(x+1)^p-1$, $v_0=p$, $v_1=1$, $v_i=0$ for all $i \gt 1$.
+$g_m(x,y)=xy+x+y$, $[p]_m(x)=(x+1)^p-1$, $v_0=p$, $v_1=1$, $v_i=0$ for all $i \gt 1$.
 The regularity conditions are trivial.
 Hence we know that $K^*(X)=MP^*(X)\otimes_{MP(\bullet)} \mathbb{Z}$ is a cohomology theory.
 
