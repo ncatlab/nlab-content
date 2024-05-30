@@ -1,16 +1,6 @@
 
+quantum magic states:
 
-<div style="float:right;margin:-100px 400px 0px 0px;">
-<a href="https://arxiv.org/pdf/2303.02382#page=21">
-<img src="/schreiber/files/TQG.jpg" width="200"> 
-</a>
-</div>
+* Sergei Bravyi, [[Alexei Kitaev]], *Universal Quantum Computation with ideal Clifford gates and noisy ancillas*, Phys. Rev. A **71** 022316 (2005) &lbrack;[arXiv:quant-ph/0403025](https://arxiv.org/abs/quant-ph/0403025), [doi:10.1103/PhysRevA.71.022316](https://doi.org/10.1103/PhysRevA.71.022316)&rbrack;
 
 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
-d;sdlfk ;slfk s;dlfk s;dlfk s;dlfk ;sdlfk s;dlkf s;ldkf ;sdlfk ;sldfk ;sdlkf 
