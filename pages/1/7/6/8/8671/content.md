@@ -20,6 +20,10 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 
 * [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
 
+On [[quantum gravity]] via [[causal sets]]:
+
+* [[Steven Carlip]], *Causal Sets and an Emerging Continuum* &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059)&rbrack;
+
 
 ## Related entries
 
