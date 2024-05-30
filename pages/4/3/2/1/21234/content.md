@@ -13,4 +13,11 @@ Interpretation in [[holographic QCD]] of the [[Schwinger effect]] as exhibited b
 
 * [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], _Electric Field Quench in AdS/CFT_, J. High Energ. Phys. 2014 ([arXiv:1407.0798](https://arxiv.org/abs/1407.0798))
 
+On strongly-coupled [[topological semimetals]]:
+
+* [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], *Holographic Floquet states: (I) A strongly coupled Weyl semimetal*, J. High Energ. Phys. **2017** 127 (2017)  &lbrack;[arXiv:1611.03702](https://arxiv.org/abs/1611.03702), <a href="https://doi.org/10.1007/JHEP05(2017)127">doi:10.1007/JHEP05(2017)127</a>&rbrack;
+
+
+
+
 category: people
