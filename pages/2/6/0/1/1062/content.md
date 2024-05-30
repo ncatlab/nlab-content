@@ -111,7 +111,7 @@ See also [[dg-category]].
 * John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html), blog
 * C. Weibel, [[An Introduction to Homological Algebra]], Cambridge Univ. Press
 * [[Daniel Murfet]], _Localisation of ringoids_, [pdf](http://therisingsea.org/notes/LocalisationOfRingoids.pdf) 2006 notes
-* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. MR0340375
+* N. Popescu, _[[Abelian categories with applications to rings and modules]]_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. MR0340375
 
 [[!redirects Ab-enriched category]]
 [[!redirects Ab-enriched categories]]
