@@ -67,6 +67,9 @@ MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preblob/949), [ps](http://www.mpi
 [[!redirects Sasha Rosenberg]]
 [[!redirects Sasha Rozenberg]]
 [[!redirects A. L. Rosenberg]]
+[[!redirects Alexander L. Rosenberg]]
 [[!redirects Rosenberg]]
 
 category: people, algebraic geometry, noncommutative geometry
+
+
