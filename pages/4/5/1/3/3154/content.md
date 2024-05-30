@@ -28,7 +28,7 @@ Rosenberg's available papers and online resources include:
 
 * A. L. Rosenberg, _Almost quotient categories, sheaves and localizations_, 181 p. Seminar on supermanifolds __25__, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
-* A. L. Rosenberg, _Non-commutative affine semischemes and schemes_, Seminar on supermanifolds __26__, Dept. Math., U. Stockholm (1988)
+* A. L. Rosenberg, _Non-commutative affine semischemes and schemes_, Seminar on supermanifolds __26__, Dept. Math., U. Stockholm (1988) [pdf](https://www2.irb.hr/users/zskoda/rosenStock1988.pdf)
 
 * A. L.  Rosenberg, _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
 
