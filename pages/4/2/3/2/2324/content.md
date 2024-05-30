@@ -92,7 +92,13 @@ ${}_R Mod\to Qcoh(Spec R)$ between the category of $R$-modules and the category 
 
 * {#Hartschorne66} Robin Hartshorne, _Algebraic geometry_, Springer 1977
 
-* Demazure, Gabriel, _Algebraic groups_
+On an approach on schemes as locally representable sheaves on the site of affine schemes see
+
+* Demazure, [[P. Gabriel]], _Algebraic groups_
+
+* [[Daniel Murfet]], _Schemes via noncommutative localisation_ (2005) [pdf](http://therisingsea.org/notes/SchemesFromLocalisation.pdf)
+
+> In this note we give an exposition of the well-known results of [[Pierre Gabriel|Gabriel]], which show how to define affine schemes in terms of the theory of noncommutative localisation.
 
 For [[affine schemes]] in [[cubical type theory]], see:
 
