@@ -53,7 +53,7 @@ $Q^*_S = S^{-1}R\otimes_R - : R-mod\to S^{-1}R-mod$, $M\mapsto S^{-1}R\otimes_R 
 
 ### As a Gabriel localization
 
-To each multiplicative set $S\subset R$ the set of all left ideals $I\subset R$ such that $\{z\in R| z r\in I\}\cap S\neq 0$ is a [[Gabriel filter]] $\mathcal{F}_S$. If $S$ is left Ore it is sufficient to ask that $I\cap S\neq\emptyset$. The [[Gabriel localization]] functor corresponding to this filter is isomorphic to $Q^*_S$ if $S$ is left Ore.
+Given any multiplicative set $S\subset R$, the set of all left ideals $I\subset R$ such that $\forall r\in R$ $\{z\in R| z r\in I\}\cap S\neq 0$ is a [[Gabriel filter]] $\mathcal{F}_S$. If $S$ is left Ore it is sufficient to ask that $I\cap S\neq\emptyset$. The [[Gabriel localization]] functor corresponding to this filter is isomorphic to $Q^*_S$ if $S$ is left Ore.
 
 ## Properties
 
