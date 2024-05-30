@@ -20,9 +20,10 @@ _Opetopes_ are one of the [[geometric shapes for higher structures|geometric sha
 
 A [[syntax|syntactic]] formalization of [[opetopic ∞-categories]] in the [variant by Palm](#opetopic+omega-category#DefinitionByPalm) is _[[opetopic type theory]]_ ([Finster 12](#Finster12)).
 
-## Etymology ##
-Judging from the abstract of ([Baez-Dolan 97](#BaezDolan97)), the word "opetope" seems to derive from [[operad]]/operation + [[polytope]].
-The paper actually notes that the first two syllables are pronounced as in "operation".
+\begin{remark}\label{Etymology}
+**(etymology)**
+Judging from the abstract of [Baez & Dolan 1997](#BaezDolan97), the word "opetope" seems to derive from *[[operad]]*/*operation* + *[[polytope]]*. The paper notes that the first two syllables are meant to be pronounced as in "operation".
+\end{remark}
  
 ## References ##
 
