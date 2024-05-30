@@ -293,10 +293,9 @@ See also
 
 * Wikipedia, _[Gram-Schmidt process](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process)_
 
-The formulation via Gaussian elimination is due to
+The formulation of Gram-Schmidt via [[Gaussian elimination]] is due to
 
-* {#PursellTrimble91} Lyle Pursell, S. Y. Trimble, _Gram-Schmidt orthogonalization by Gauss Elimination_, The American Mathematical Monthly
-Vol. 98, No. 6 (1991), pp. 544-549 ([jstor:2324877](https://www.jstor.org/stable/2324877))
+* {#PursellTrimble91} [[Lyle E. Pursell]], S. Y. Trimble, *Gram-Schmidt orthogonalization by Gauss elimination*, The American Mathematical Monthly  **98** 6 (1991) 544-549 &lbrack;[doi:10.1080/00029890.1991.11995755](https://doi.org/10.1080/00029890.1991.11995755), [jstor:2324877](https://www.jstor.org/stable/2324877)&rbrack;
 
 
 [[!redirects Gram–Schmidt process]]
