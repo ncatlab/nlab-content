@@ -98,9 +98,20 @@ The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically wit
 
 ## References
 
+On [[algebraic schemes]] and algebraic groups via [[functorial geometry]]:
+
+* [[Michel Demazure]], [[Pierre Gabriel]], _Groupes algebriques_, tome 1,  avec un appendice _Corps de classes local_ par [[Michiel Hazewinkel|Hazewinkel M]], Mason and Cie, Paris (1970) 
+
+  > (later volumes never appeared)
+
+English translation:
+
+* [[Michel Demazure]], [[Peter Gabriel]], *Introduction to algebraic geometry and algebraic groups*, North-Holland mathematics studies **39** (1980) &lbrack;[ISBN:9780080871509](https://shop.elsevier.com/books/introduction-to-algebraic-geometry-and-algebraic-groups/demazure/978-0-444-85443-8)&rbrack;
+
+See also:
+
 * [[Gerhard P. Hochschild]], *Basic Theory of Algebraic Groups and Lie Algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
 
-* M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970; English edition is _Introduction to algebraic geometry and algebraic groups_, North-Holland, Amsterdam 1980 (North-Holland)
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, [[SGA3]] 
 
