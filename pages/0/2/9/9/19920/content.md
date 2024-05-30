@@ -1,4 +1,5 @@
-Nicolaas Govert de Bruijn (known as Dick) was a Dutch mathematician, famous for the [[Automath]] project.
+
+Nicolaas Govert ("Dick") de Bruijn (1918-2012) was a Dutch mathematician, famous for his *[[Automath]]* project.
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn)
 
@@ -13,6 +14,10 @@ Introducing the notion of [[type telescopes]]:
 
 * [[Nicolaas de Bruijn]], §3.1 *Telescopic mappings in typed lambda calculus*, Information and Computation **91** 2 (1991) 189-204 &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90066-B">doi:10.1016/0890-5401(91)90066-B</a>&rbrack;
 
+On [[types]] ([[type theory]]) in [[mathematics]]:
+
+* [[Nicolaas G. de Bruijn]], *On the roles of types in mathematics*, Cahier du Centre de Logique **8** (1992) &lbrack;[pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf), [[deBriujn-TypesInMath.pdf:file]]&rbrack;
+
 
 ## Related entries
 
@@ -22,5 +27,11 @@ Introducing the notion of [[type telescopes]]:
 
 * [[type telescope]]
 
+
 [[!redirects Dick de Bruijn]]
 [[!redirects N.G. de Bruijn]]
+[[!redirects Nicolaas G. de Bruijn]]
+
+
+
+
