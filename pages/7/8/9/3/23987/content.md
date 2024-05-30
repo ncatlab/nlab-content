@@ -1534,6 +1534,8 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
 * [[Gianluigi Catelani]] (Quantum Research Center, TII, Abu Dhabi)
 
+  **Improved Modelling of Superconducting Qubits**
+
   > More accurate control and reduced error rates are needed for [superconducting](superconductivity#SuperconductingQBitsReferences) [[quantum circuits|circuits]] to move beyond the current [NISQ era](quantum+computation#ReferencesNISQ), and improving our understanding of [superconducting qubits](superconductivity#SuperconductingQBitsReferences) can help towards this goal. In this talk I will discuss two recent advances and their impacts on [[qubit]] control and errors. After briefly reviewing the standard tunnel model of a [[Josephson junction]], I will introduce a more realistic model which is needed to accurately describe spectroscopic data &lbrack;1&rbrack;. Next, I will show how a form of so-called “gap engineering’’, in which the values of the superconducting gap on the two sides of a junction are properly chosen, can mitigate errors related to quasiparticles &lbrack;2&rbrack;. Finally, I will consider implications for a proposed topological qubit implementation (see &lbrack;3&rbrack; and references there). 
 
   > &lbrack;1&rbrack; D. Willsch et al., Nat Phys (2024)
