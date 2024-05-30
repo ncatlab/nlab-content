@@ -120,13 +120,15 @@ Discussion for [[supergeometry]]:
 
 See also
 
-* {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
 
 * [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies Volume 39 (1980) ([ISBN:9780080871509](https://www.elsevier.com/books/introduction-to-algebraic-geometry-and-algebraic-groups/demazure/978-0-444-85443-8))
 
 * [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
 
 * {#Low16} [[Zhen Lin Low]], _Categories of spaces built from local models_, doctoral thesis (2016) ([web](https://www.repository.cam.ac.uk/handle/1810/256998),[doi.org/10.17863/CAM.384](https://doi.org/10.17863/CAM.384))
+
+* {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
+
 
 [[!redirects functors of points]]
 
