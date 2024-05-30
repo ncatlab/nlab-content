@@ -7,7 +7,7 @@
 ## Idea
  {#Idea}
 
-The concept of _causal set_ -- or *causet*, for short -- is a [[concept with an attitude]]: In itself it is just a [[partially ordered set]] (or *poset*, for short), but meant to be understood as a set of [[spacetime]] [[events]] subject to the relation of [[causality]].
+The concept of _causal set_ -- or *causet*, for short -- is a [[concept with an attitude]]: In itself it is just a [[partially ordered set]] (or *poset*, for short), but meant to be understood as a set of [[spacetime]] [[events]] subject to the [[relation]] of [[causality]].
 
 As such, causal sets play a role in:
 
@@ -60,11 +60,14 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 
 ## References
 
-Discussion in [[relativistic field theory]]:
+Discussion in [[relativistic field theory]] and [[quantum gravity]]:
 
 * Nomaan X, *Quantum Field Theory On Causal Sets*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2306.04800](https://arxiv.org/abs/2306.04800)&rbrack;
 
 * Stav Zalel, *Covariant Growth Dynamics*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.10582](https://arxiv.org/abs/2302.10582)&rbrack;
+
+* [[Steven Carlip]], *Causal Sets and an Emerging Continuum* &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059)&rbrack;
+
 
 See also:
 
