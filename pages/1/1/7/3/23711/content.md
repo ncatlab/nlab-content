@@ -99,7 +99,7 @@ General monographs:
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
-Review with emphasis on [mass terms](#MassTerms)
+Review with emphasis on [mass terms](#MassTerms):
 
 * {#Schnyder18} [[Andreas P. Schnyder]], *Accidental and symmetry-enforced band crossings in topological semimetals*, lecture notes (2018) $[$[pdf](https://www.fkf.mpg.de/6431357/topo_lecture_notes_schnyder_TMS18.pdf), [[Schnyder-Semimetals-2018.pdf:file]]$]$
 
@@ -154,14 +154,15 @@ following:
 
 * {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 ([arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005))
 
-Example:
+Pedagogical example:
 
 * {#DelftTopologyCourse} Delft Topology Course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)* - [First try](https://topocondmat.org/w4_haldane/haldane_model.html#first-try), [Second try](https://topocondmat.org/w4_haldane/haldane_model.html#second-try)
 
 
 Related discussion of Dirac mass terms is in:
 
-* {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 $[$[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)$]$
+* {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
+
 
 Lists of actual semi-metals:
 
@@ -176,6 +177,15 @@ and other numerical calculuations:
 * *The study of magnetic topological semimetals by first principles calculations*, npj Computational Materials **5** 96 (2019) &lbrack;[doi:10.1038/s41524-019-0237-5](https://doi.org/10.1038/s41524-019-0237-5)&rbrack;
 
 * *Topological semimetals from the perspective of first-principles calculations*, Journal of Applied Physics **128** (2020) 191101 &lbrack;[doi:10.1063/5.0025396](https://doi.org/10.1063/5.0025396)&rbrack;
+
+{#ReferencesStronglyCoupled} On strongly-coupled topological semimetals:
+
+* [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], *Holographic Floquet states: (I) A strongly coupled Weyl semimetal*, J. High Energ. Phys. **2017** 127 (2017)  &lbrack;[arXiv:1611.03702](https://arxiv.org/abs/1611.03702), <a href="https://doi.org/10.1007/JHEP05(2017)127">doi:10.1007/JHEP05(2017)127</a>&rbrack;
+
+* Diana M Kirschbaum, Monika Lužnik, Gwenvredig Le Roy,  Silke Paschen, *How to identify and characterize strongly correlated topological semimetals*, J. Phys. Mater. **7** (2024) 012003 &lbrack;[doi:10.1088/2515-7639/ad0f30a](https://iopscience.iop.org/article/10.1088/2515-7639/ad0f30)&rbrack;
+
+* Yongjun Ahn, Matteo Baggioli, Yan Liu, Xin-Meng Wu, *Chiral magnetic waves in strongly coupled Weyl semimetals*, J. High Energ. Phys. **2024** 124 (2024) &lbrack;[arXiv:2401.07772](https://arxiv.org/abs/2401.07772), <a href="https://doi.org/10.1007/JHEP03(2024)124">doi:10.1007/JHEP03(2024)124</a>&rbrack;
+
 
 
 ### Holographic description 
