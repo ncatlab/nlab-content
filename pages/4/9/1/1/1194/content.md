@@ -648,14 +648,14 @@ Surveys of and introductions:
 
 * [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
 
-* [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
+* [[Thomas Streicher]], _Investigations into intensional type theory_, Habilitation 2003 &lbrack;[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf)&rbrack; 
 
 * {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
 
-* Herman Geuvers, _Introduction to type theory_, Lecture notes (2008)  &lbrack;[pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf)&rbrack;
+* [[Herman Geuvers]], _Introduction to type theory_, Lecture notes (2008)  &lbrack;[pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf)&rbrack;
 
-* N. G. de Bruijn, _On the roles of types in mathematics_, Cahier du Centre de Logique (vol 8) ([pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf))
+* [[Nicolaas G. de Bruijn]], *On the roles of types in mathematics*, Cahier du Centre de Logique **8** (1992) &lbrack;[pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf), [[deBriujn-TypesInMath.pdf:file]]&rbrack;
 
 * [[Bart Jacobs]], _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) &lbrack;[ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]]&rbrack;
 
@@ -730,6 +730,7 @@ Further online resources include
 
 * [types mailing list](http://lists.seas.upenn.edu/mailman/listinfo/types-list)
 * [types-announce mailing list](http://lists.seas.upenn.edu/mailman/listinfo/types-announce)
+
 
 
 [[!redirects type theories]]
