@@ -1532,7 +1532,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > While altermagnetic materials are characterized by a vanishing net magnetic moment, their symmetry in principle allows for the existence of an anomalous Hall effect (AHE). Here we introduce a model with altermagnetism in which the emergence of an AHE is driven by interactions. This model is grounded in a modified Kane-Mele framework with antiferromagnetic (AFM) spin-spin correlations. Quantum Monte Carlo simulations show that the system undergoes a finite temperature phase transition governed by a primary AFM order parameter accompanied by a secondary one of Haldane type. The emergence of both orders turns the metallic state of the system, away from half-filling, to an altermagnet with a finite anomalous Hall conductivity. A mean field ansatz corroborates these results, which pave the way into the study of correlation induced altermagnets with finite [[Berry curvature]]. 
 
-* [[Gianluigi Catelani]] (Quantum Research Center, TII, Abu Dhabi)
+* [[Gianluigi Catelani]] (Quantum Research Center, TII, Abu Dhabi):
 
   **Improved Modelling of Superconducting Qubits**
 
