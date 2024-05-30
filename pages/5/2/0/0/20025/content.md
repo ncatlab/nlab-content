@@ -52,7 +52,7 @@ matrix. This is the [[Gauss decomposition]] with respect to the lower Borel subg
 
 An application of Gauss elimination to a particular system yields the [[Gram-Schmidt orthogonalization]]:
 
-* Lyle Pursell, S. Y. Trimble, _Gram-Schmidt orthogonalization by Gauss elimination_, The American Mathematical Monthly  __98__:6 (1991) 544--549 [doi](https://doi.org/10.1080/00029890.1991.11995755)
+* [[Lyle E. Pursell]], S. Y. Trimble, _Gram-Schmidt orthogonalization by Gauss elimination_, The American Mathematical Monthly  **98** 6 (1991) 544-549 &lbrack;[doi:10.1080/00029890.1991.11995755](https://doi.org/10.1080/00029890.1991.11995755), [jstor:2324877](https://www.jstor.org/stable/2324877)&rbrack;
 
 [[!redirects Gaussian eliminations]]
 
