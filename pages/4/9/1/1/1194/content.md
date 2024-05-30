@@ -657,15 +657,16 @@ Surveys of and introductions:
 
 * N. G. de Bruijn, _On the roles of types in mathematics_, Cahier du Centre de Logique (vol 8) ([pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf))
 
-* [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics 141, North Holland, Elsevier (1999) 
+* [[Bart Jacobs]], _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) &lbrack;[ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]]&rbrack;
 
-  _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) ([ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]])
+* [[Bart Jacobs]], *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf), [webpage](http://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html)&rbrack;
 
-* [[Robert Constable]], *The Triumph of Types: Creating a Logic of Computational Reality*, lecture at *[Types, Semantics and Verification](http://www.cs.uoregon.edu/research/summerschool/summer11/)*, Oregon (2011) &lbrack;[pdf](http://www.cs.uoregon.edu/research/summerschool/summer11/lectures/Triumph-of-Types-Extended.pdf), [[ConstableTriumphOfTypes.pdf:file]]&rbrack;
 
-* {#Bauer17} [[Andrej Bauer]], _Spartan Type Theory_, UniMath School, 2017 ([pdf](http://math.andrej.com/wp-content/uploads/2017/12/Spartan-Type-Theory.pdf))
+* {#Constable11} [[Robert Constable]], *The Triumph of Types: Creating a Logic of Computational Reality*, lecture at *[Types, Semantics and Verification](http://www.cs.uoregon.edu/research/summerschool/summer11/)*, Oregon (2011) &lbrack;[pdf](http://www.cs.uoregon.edu/research/summerschool/summer11/lectures/Triumph-of-Types-Extended.pdf), [[ConstableTriumphOfTypes.pdf:file]]&rbrack;
 
-* wikipedia: _[type theory](http://en.wikipedia.org/wiki/Type_theory)_, _[intuitionistic type theory](http://en.wikipedia.org/wiki/Intuitionistic_type_theory)_, [typed lambda calculus](http://en.wikipedia.org/wiki/Typed_lambda_calculus), [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), [Per Martin-L&#246;f](http://en.wikipedia.org/wiki/Per_Martin-L&#246;f)
+* {#Bauer17} [[Andrej Bauer]], _Spartan Type Theory_, UniMath School (2017) &lbrack;[pdf](http://math.andrej.com/wp-content/uploads/2017/12/Spartan-Type-Theory.pdf)&rbrack;
+
+* Wikipedia: _[type theory](http://en.wikipedia.org/wiki/Type_theory)_, _[intuitionistic type theory](http://en.wikipedia.org/wiki/Intuitionistic_type_theory)_, [typed lambda calculus](http://en.wikipedia.org/wiki/Typed_lambda_calculus), [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), [Per Martin-L&#246;f](http://en.wikipedia.org/wiki/Per_Martin-L&#246;f)
 
 Textbook accounts on type theory in [[programming languages]]:
 
