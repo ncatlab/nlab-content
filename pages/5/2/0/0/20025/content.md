@@ -50,6 +50,10 @@ matrix. This is the [[Gauss decomposition]] with respect to the lower Borel subg
 
 * Wikipedia, _[Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)_
 
+An application of Gauss elimination to a particular system yields the [[Gram-Schmidt orthogonalization]]:
+
+* Lyle Pursell, S. Y. Trimble, _Gram-Schmidt orthogonalization by Gauss elimination_, The American Mathematical Monthly  __98__:6 (1991) 544--549 [doi](https://doi.org/10.1080/00029890.1991.11995755)
+
 [[!redirects Gaussian eliminations]]
 
 [[!redirects Gauss elimination]]
