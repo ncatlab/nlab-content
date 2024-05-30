@@ -69,7 +69,7 @@ On non-trivial [[braid group statistics|braiding]] of nodal points in the [[Bril
 
 See also:
 
-* [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* \[<a href="https://arxiv.org/abs/2208.12824">arXiv:2208.12824</a>\]
+* [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase*, Nature Communications **15** 1144 (2024) \[<a href="https://arxiv.org/abs/2208.12824">arXiv:2208.12824</a>, [doi:10.1038/s41467-024-45302-2](https://doi.org/10.1038/s41467-024-45302-2)\]
 
 * Huahui Qiu et al., *Minimal non-abelian nodal braiding in ideal metamaterials*, Nature Communications **14** 1261 (2023) \[<a href="https://doi.org/10.1038/s41467-023-36952-9">doi:10.1038/s41467-023-36952-9</a>\]
 
