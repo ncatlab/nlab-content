@@ -180,7 +180,7 @@ Other related entries include
 
 * Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic geometry I. Schemes with examples and exercises_, Advanced Lectures in Mathematics. Vieweg + Teubner, Wiesbaden, 2010. viii+615 pp. [Springerlink book](http://www.springerlink.com/content/kt5u74/#section=748613&page=1)
 
-* M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 (functor of points approach, mainly) 
+* [[Michel Demazure]], [[Pierre Gabriel]], _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 (functor of points approach, mainly) 
 {#DG}
 
 * Michel Demazure, lectures on p-divisible groups [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
