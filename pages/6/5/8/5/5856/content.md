@@ -57,5 +57,8 @@ The essential image of the functor $G_{\mathcal{F}}$ is the localized category. 
 
 ## References
 
+* [[Pierre Gabriel]], [[Des Categories Abeliennes]]
+* [[Pierre Gabriel]], _La localisation dans les anneaux non commutatifs_, Séminaire Dubreil (1959-1960), exposé 2, 1--35 numdam:[pdf](http://www.numdam.org/item/SD_1959-1960__13_1_A2_0.pdf)
+* [[A. L. Rosenberg]], _Non-commutative affine semischemes and schemes_, Seminar on supermanifolds __26__, Dept. Math., U. Stockholm (1988) [pdf](https://www2.irb.hr/users/zskoda/rosenStock1988.pdf)
 * [[Zoran Škoda]], _Localizations for construction of quantum coset spaces_, in "Noncommutative geometry and Quantum groups", W.Pusz,  P.M. Hajac, eds. Banach Center Publications vol.61, pp. 265--298, Warszawa 2003, [math.QA/0301090](http://arxiv.org/abs/math.QA/0301090).
 * [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series __330__, ed. [[A. Ranicki]]; pp. 220&#8211;313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
