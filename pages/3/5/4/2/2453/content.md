@@ -5,6 +5,8 @@
 
 ## Definition
 
+### For a ring
+
 If $S\subset R$ is a left [[Ore set]] in a [[monoid]] (or a [[ring]]) $R$, then we call the pair $(j,S^{-1}R)$ where $j:R\to S^{-1}R$ is a morphism of monoids (rings) the __left Ore localization__ of $R$ with respect to $S$ if it is the  universal object in the category $C = C(R,S)$
 whose objects are the pairs $(f,Y)$ where $f : R \rightarrow Y$ is a morphism of rings from $R$ into a
 ring $Y$ such that the image $f(S)$ of $S$ consists of units (=multiplicatively invertible elements), and
@@ -44,8 +46,18 @@ It is a long and at points tricky to work out all the details of this definition
 a ring. Even the commutativity of the addition needs work (there is an alternative definition of addition in which $\tilde{s}$ above is not required to be in $S$ but the  product $\tilde{s}r_1$ is in $S$; this approach is manifestly commutative but it has some other drawbacks).
 At the end, one shows that the map $j = j_S : R \rightarrow S^{-1}R$ given by $i(r) = 1^{-1}r$ is a homomorphism of rings, which is 1-1 iff the 2-sided ideal $I_S = \{ n \in R \,|\,\exists s \in S,\, sn = 0\}$ is zero.
 
-Basic property of Ore localization is flatness: $S^{-1}R$ is flat $R$-bimodule. 
-The left Ore localization $j : R\to S^{-1}R$ induced a flat localization functor for the category of left $R$-modules or the category of right $R$-modules. The localization functor is the extension of scalars along $l_S: R\to S^{-1}R$, that is (in the case of left $R$-modules) $M\mapsto S^{-1}R\otimes_R M$ is the flat localization functor $Q^*_S:{}_R Mod\to {}_{S^{-1}R}Mod$ and the restriction of scalars is its right adjoint $Q_{S*}$ which is fully faithful and it has its own right adjoint (the localization functor is affine).
+### For the category of modules
+
+One defines a localization functor which is the extension of scalars
+$Q^*_S = S^{-1}R\otimes_R - : R-mod\to S^{-1}R-mod$, $M\mapsto S^{-1}R\otimes_R M$. The localization functor is exact ("flat"), has a fully faithful right adjoint, namely the restriction of scalars $Q_{S*}$ and the latter has its own right adjoint (the localization functor is affine). In particular, it realizes $S^{-1}R-mod$ as a reflective subcategory of $R-mod$ and the composition endofunctor $Q_{S*} Q^*_S$ is underlying the corresponding [[idempotent monad]] in $R-mod$. The component of the unit of its adjunction $\eta_R:R\to S^{-1} R$ equals the canonical localization map $j$ and $\eta_M = j\otimes_R\id_M$.
+
+### As a Gabriel localization
+
+To each multiplicative set $S\subset R$ the set of all left ideals $I\subset R$ such that $\{z\in R| z r\in I\}\cap S\neq 0$ is a [[Gabriel filter]] $\mathcal{F}_S$. If $S$ is left Ore it is sufficient to ask that $I\cap S\neq\emptyset$. The [[Gabriel localization]] functor corresponding to this filter is isomorphic to $Q^*_S$ if $S$ is left Ore.
+
+## Properties
+
+Basic property of Ore localization is flatness: $S^{-1}R$ is a flat $R$-bimodule.
 
 ## Related concepts
 
@@ -54,6 +66,10 @@ The left Ore localization $j : R\to S^{-1}R$ induced a flat localization functor
 * [[localization of a ring]]
 
 * [[Cohn localization]]
+
+* [[noncommutative localization]]
+
+* [[Gabriel localization]]
 
 ## References
 
