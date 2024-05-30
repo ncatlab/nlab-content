@@ -39,8 +39,11 @@ Introducing the [[nuclear matrix model]] for [[baryons]]/[[nucleons]] in the [[W
 
 * {#HashimotoMatsuoMorita19} [[Koji Hashimoto]], [[Yoshinori Matsuo]], [[Takeshi Morita]], _Nuclear states and spectra in holographic QCD_, JHEP12 (2019) 001 ([arXiv:1902.07444](https://arxiv.org/abs/1902.07444))
 
-holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
+* [[Koji Hashimoto]], Yoshinori Matsuo, *Nuclear binding energy in holographic QCD*, Phys. Rev. D **104** 026006 (2021) &lbrack;[arXiv:2103.03563](https://arxiv.org/abs/2103.03563), [doi:10.1103/PhysRevD.104.026006](https://doi.org/10.1103/PhysRevD.104.026006)&rbrack;
 
+On strongly-coupled [[topological semimetals]]:
+
+* [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], *Holographic Floquet states: (I) A strongly coupled Weyl semimetal*, J. High Energ. Phys. **2017** 127 (2017)  &lbrack;[arXiv:1611.03702](https://arxiv.org/abs/1611.03702), <a href="https://doi.org/10.1007/JHEP05(2017)127">doi:10.1007/JHEP05(2017)127</a>&rbrack;
 
 On the binding energy of [[nucleons]] via [[AdS/QCD]]:
 
