@@ -120,7 +120,7 @@ In &lbrack;[Dolan 2011](#Dolan11)&rbrack; is indicated a category of "toric [[qu
 =--
 
 \begin{example}\label{TangentInfinityTopos}
-  Given an [[(\infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$, its [[tangent (infinity,1)-topos|tangent $\infty$-topos]] $T \mathbf{H}$ carries the [[external tensor product|external]] [[smash product of spectra]].
+  Given an [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$, its [[tangent (infinity,1)-topos|tangent $\infty$-topos]] $T \mathbf{H}$ carries the [[external tensor product|external]] [[smash product of spectra]].
 
 Similarly, given a [[stable (infinity,1)-category|stable $\infty$-category]] $\mathcal{A}$ (or more generally a [[Joyal locus]], see there for more), the [[(infinity,1)-category]] $\int_{\mathcal{X} \in Grpd_\infty} Func(\mathcal{X}, \mathcal{A})$ of [[infinity-Grpd|$Grpd_\infty$]]-[[parameterized stable homotopy theory|parameterized]] $\mathcal{A}$-objects (is an [[(infinity,1)-topos|$\infty$-topos]] and) should carry the corresponding [[external tensor product]].
 \end{example}
