@@ -331,7 +331,7 @@ Here "Grom" refers to
 
 where the relevant statement is 1.4.C1 on page 8. Note however that the diffeomorphism considered there is only of $C^1$ class, not $C^\infty$, so this is not a proof either.
 
-A texbook account finally appears in
+A series of exercises covering the statement appears as Exercises 5.3.i–5.3.iv in
 
 * {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], Thm. 5.3.2 and Appendix C of: _Differential Forms_, World Scientific (2019) &lbrack;[doi:10.1142/11058](https://doi.org/10.1142/11058)&rbrack;
 
