@@ -299,6 +299,11 @@ On [[topological semimetals]] which gap to topologically ordered phases:
 
 * Jinmin Yi, Xuzhe Ying, Lei Gioia, [[Anton A. Burkov]], *Topological order in interacting semimetals*, Phys. Rev. B **107** 115147 (2023) &lbrack;[arXi:2301.03628](https://arxiv.org/abs/2301.03628), [doi:10.1103/PhysRevB.107.115147](https://doi.org/10.1103/PhysRevB.107.115147)&rbrack;
 
+* Hongshuang Liu, Jiashuo Liang, Taiyu Sun, Liying Wang: *Recent progress in topological semimetal and its realization in Heusler compounds*, Materials Today Physics
+**41** (2024) 101343 &lbrack;[doi:10.1016/j.mtphys.2024.101343](https://doi.org/10.1016/j.mtphys.2024.101343)&rbrack;
+
+
+
 
 
 ### Other articles
