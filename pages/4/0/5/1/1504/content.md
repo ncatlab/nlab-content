@@ -462,6 +462,11 @@ Introduction and survey:
 
 * Carlo Maccaferri, *String Field Theory*, in: *Oxford Research Encyclopedia of Physics* &lbrack;[arXiv:2308.00875](https://arxiv.org/abs/2308.00875)&rbrack;
 
+* [[Ashoke Sen]], [[Barton Zwiebach]]: *String Field Theory: A Review*, in *[[Handbook of Quantum Gravity]]*, Springer (2023-) &lbrack;[arXiv:2405.19421](https://arxiv.org/abs/2405.19421), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+
+
+
+
 
 ### Bosonic string field theory
  {#ReferencesBosonicSFT}
