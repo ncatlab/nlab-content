@@ -55,6 +55,10 @@ reviewed in
 * [[Ashoke Sen]], *D-instanton amplitudes in string theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Sen2023)&rbrack;
 
 
+On [[string field theory]]:
+
+* [[Ashoke Sen]], [[Barton Zwiebach]]: *String Field Theory: A Review*, in *[[Handbook of Quantum Gravity]]*, Springer (2023-) &lbrack;[arXiv:2405.19421](https://arxiv.org/abs/2405.19421), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+
 
 
 ## Related entries
