@@ -77,8 +77,19 @@ $$
 
 See the references at _[[Chern class]]_ and _[[characteristic class]]_.
 
-In [[complex geometry]]
+In [[complex geometry]]:
 
 * {#Huybrechts04} [[Daniel Huybrechts]], _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
 
+In [[solid state physics]] (Chern-class of [[Berry connections]], such as for characterizing [[topological phases of matter]]):
+
+* {#FukuiHatsugaiSuzuki05} Takahiro Fukui, Yasuhiro Hatsugai, Hiroshi Suzuki, *Chern Numbers in Discretized Brillouin Zone: Efficient Method of Computing (Spin) Hall Conductances*, J. Phys. Soc. Jpn. **74** (2005) 1674-1677 &lbrack;[arXiv:cond-mat/0503172](https://arxiv.org/abs/cond-mat/0503172), [doi:10.1143/JPSJ.74.1674](https://doi.org/10.1143/JPSJ.74.1674)&rbrack;
+
+
 [[!redirects first Chern classes]]
+
+[[!redirects first Chern number]]
+[[!redirects first Chern numbers]]
+
+
+
