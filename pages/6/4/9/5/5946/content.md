@@ -1,6 +1,11 @@
-__Daniel Murfet__ is an algebraic geometer; his PhD advisor was [[Amnon Neeman]]. Daniel keeps a blog [The Rising Sea](http://therisingsea.org) which is not very active, but hosts lots of (nice and reliable) Daniel's expositional notes (pdf files) on algebraic geometry, homological algebra and some category theory.
+__Daniel Murfet__ is an algebraic geometer; his PhD advisor was [[Amnon Neeman]]. 
 
-* [gScholar](https://scholar.google.com/citations?user=ilWvLq0AAAAJ) profile
+* [gScholar page](https://scholar.google.com/citations?user=ilWvLq0AAAAJ)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=144058)
+
+Daniel keeps a blog, *[The Rising Sea](http://therisingsea.org)*, which, while inactive now, still hosts lots of (nice and reliable) expository notes on [[algebraic geometry]], [[homological algebra]] and some [[category theory]].
+
 
 
 ## Selected writings
@@ -32,4 +37,10 @@ A bicategory of [[Landau-Ginzburg model]]s where matrix factorizations supply mo
 
 * [[Nils Carqueville]], Daniel Murfet, _Adjunctions and defects in Landau-Ginzburg models_, Advances in Mathematics 289 (2016) 480--566 [doi](https://doi.org/10.1016/j.aim.2015.03.033)
 
+Relating [[quantum error correction]] to [[linear logic]]:
+
+* [[Daniel Murfet]], William Troiani, *Linear Logic and Quantum Error Correcting Codes* &lbrack;[arXiv:2405.19051](https://arxiv.org/pdf/2405.19051)&rbrack;
+
+
 [[!redirects D. Murfet]]
+
