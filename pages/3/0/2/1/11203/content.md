@@ -78,6 +78,9 @@ Introducing the [[dimer model]]:
 
 * Daniel S. Rokhsar and Steven A. Kivelson, *Superconductivity and the Quantum Hard-Core Dimer Gas*, Phys. Rev. Lett. 61, 2376 – Published 14 November 1988 ([arXiv:10.1103/PhysRevLett.61.2376](https://doi.org/10.1103/PhysRevLett.61.2376))
 
+Argument that superconductors are actually [[topological order|topologically ordered]] [[phases of matter]]:
+
+* [[Thors Hans Hansson]], Vadim Oganesyan, S. L. Sondhi, *Superconductors are topologically ordered*, Annals Of Physics **313** 497 (2004) &lbrack;[arXiv:cond-mat/0404327](https://arxiv.org/abs/cond-mat/0404327), [doi:10.1016/j.aop.2004.05.006](https://doi.org/10.1016/j.aop.2004.05.006)&rbrack;
 
 ### Vortices and flux quantization
 
