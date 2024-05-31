@@ -19,13 +19,22 @@
 
 ## Definition
 
-The Wu manifold is defined as:
+The *Wu manifold* is the [[coset space]]
+
 $$
-W=SU(3)/SO(3).
+  W
+  \coloneqq
+  SU(3)/SO(3)
+  \,,
 $$
 
-## Examples
+namely the [[quotient space]] of the [[Lie group]] [[SU(3)]] by the right multiplication [[group action|action]] of its [[subgroup]] [[SO(3)]].
 
-\begin{example}
-The [[Wu manifold]] $W=SU(3)/SO(3)$ is a [[simply connected]] [[rational homology sphere|rational $5$-homology sphere]] (with non-trivial [[homology]] groups $H_0(W)\cong\mathbb{Z}$, $H_2(W)\cong\mathbb{Z}_2$ and $H_5(W)\cong\mathbb{Z}$), but isn't a [[homotopy sphere|homotopy $5$-sphere]].
-\end{example}
+## Properties
+
+\begin{proposition}
+The [[Wu manifold]] $W=SU(3)/SO(3)$ is a [[simply connected]] [[rational homology sphere|rational $5$-homology sphere]] (with non-trivial [[homology]] groups $H_0(W)\cong\mathbb{Z}$, $H_2(W)\cong\mathbb{Z}_2$ and $H_5(W)\cong\mathbb{Z}$); but it is not [[homotopy sphere|homotopy]] [[5-sphere]].
+\end{proposition}
+
+[[!redirects Wu manifolds]]
+
