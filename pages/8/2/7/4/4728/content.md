@@ -55,6 +55,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[minimal surface]]
 
+* [[3-manifold]], [[4-manifold]], [[8-manifold]]
+
 ## References
 
 * [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
