@@ -28,11 +28,13 @@ With "Majorana anyons" ($k = 2$) and "Fibonacci anyons" ($k = 3$) this class sub
 
 {#NonRealizationOfMZZInNanowires} Notably [[Majorana anyons]] (in the guise of "[[Majorana zero modes]]" in super/semi-conducting nanowires) are (or were until recently, see [arXiv:2106.11840v4](https://arxiv.org/abs/2106.11840v4), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) at the focus of attention of an intense effort to finally provide a practical proof of principle for the old idea of [[topological quantum computation]] (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)). After initial claims had to be retracted [in 2021](https://www.nature.com/articles/d41586-021-00612-z) &lbrack;[doi:10.1038/s41586-021-03373-x](https://doi.org/10.1038/s41586-021-03373-x), [doi:10.5281/zenodo.4587841](https://doi.org/10.5281/zenodo.4587841), [doi:10.5281/zenodo.4545812](https://doi.org/10.5281/zenodo.4545812), [TU Delft press release](https://www.delta.tudelft.nl/article/majorana-not-fraud-confirmation-bias#)&rbrack; and again [in 2022](http://retractionwatch.com/2022/04/24/authors-retract-second-majorana-paper-from-nature/) &lbrack;[doi:10.1038/s41586-022-04704-2](https://doi.org/10.1038/s41586-022-04704-2)&rbrack; (further claims are under criticism, see e.g. [doi:10.5281/zenodo.6344447](https://doi.org/10.5281/zenodo.6344447), [doi:10.5281/zenodo.6325378](https://doi.org/10.5281/zenodo.6325378) and the list [here](https://twitter.com/spinespresso/status/1503352928656138241)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22), but see [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a) and [Frolov 22](#Frolov22).
 
-In any case, Majorana anyons are known not to be universal (not all [[quantum gates]] may be approximated with Majorana braiding). The simplest universal $\mathfrak{su}(2)$-anyon species are the Fibonacci anyons at [[level (Chern-Simons theory)|level]] $k = 3$ (e.g. [Simeon 2021](#Simeon21), also [Kolganov, Mironov & Morozon (2023)](#KolganovMironovMorozon23)).
+In any case, Majorana anyons are known not to be universal (not all [[quantum gates]] may be approximated with Majorana braiding). The simplest universal $\mathfrak{su}(2)$-anyon species are the Fibonacci anyons at [[level (Chern-Simons theory)|level]] $k = 3$ (e.g. [Simeon 2021](#Simeon21), also [Kolganov, Mironov & Morozon 2023](#KolganovMironovMorozon23)).
 
 ## Related concepts
 
 * [[parafermion]]
+
+* [[Majorana zero mode]]
 
 * [[Majorana dimer]]
 
@@ -83,7 +85,7 @@ The general strategy of realizing [[Majorana zero modes]] in supercondocuting/se
 
 * Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
 
-* Yuval Oreg, Gil Refael, and Felix von Oppen, *Helical Liquids and Majorana Bound States in Quantum Wires*, Phys. Rev. Lett. **105** (2010) 177002 &lbrack;[doi:10.1103/PhysRevLett.105.177002](https://doi.org/10.1103/PhysRevLett.105.177002)&rbrack;
+* {#OregRefaelvonOppen10} Yuval Oreg, Gil Refael, [[Felix von Oppen]], *Helical Liquids and Majorana Bound States in Quantum Wires*, Phys. Rev. Lett. **105** (2010) 177002 &lbrack;[doi:10.1103/PhysRevLett.105.177002](https://doi.org/10.1103/PhysRevLett.105.177002), [arXiv:1003.1145](https://arxiv.org/abs/1003.1145)&rbrack;
 
 reviewed in:
 
