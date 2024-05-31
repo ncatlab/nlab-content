@@ -89,6 +89,12 @@ The [[Yoneda lemma]] exactly guarantees that the data encoded is enough to recov
 
 * [[Yoneda lemma]]
 
+## References
+
+See also
+
+* Gert Vercleyen. *On Low-Rank Multiplicity-Free Fusion Categories* (2024). ([arXiv:2405.20075](https://arxiv.org/abs/2405.20075)).
+
 [[!redirects Wigner 6-j symbols]]
 [[!redirects Wigner 6j symbol]]
 [[!redirects Wigner 6j symbols]]
