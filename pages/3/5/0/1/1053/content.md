@@ -499,6 +499,8 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 ## References
 
+### General
+
 The original article:
 
 * {#Girard1987} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
@@ -617,7 +619,33 @@ See also
 
 *  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied [[fragments]].
 
-Discussion of application of linear logic to [[quantum logic]], [[quantum computing]] and generally to [[quantum physics]]:
+
+
+Discussion of [[linear type theory]] without [[units]]: 
+
+* [[Robin Houston]], _Linear Logic without Units_ ([arXiv:1305.2231](http://arxiv.org/abs/1305.2231))
+
+
+Discussion of [[inductive types]] in the context of [[linear type theory]]:
+
+* St&#233;phane Gimenez, _Towards Generic Inductive Constructions inSystems of Nets_ &lbrack;[pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.pdf)&rbrack;
+
+
+The [[categorical semantics ]]of differential linear logic is introduced in:
+
+* {#Blute-Cockett-Seely06} [[Richard Blute]], [[Robin Cockett]], [[Robert Seely]], _Differential Categories_, Mathematical structures in computer science 16.6 (2006): 1049--1083. ([pdf](https://pdfs.semanticscholar.org/82b0/f9533b451d174f407b35e1c39e2376138ac2.pdf)) 
+
+
+
+The antithesis interpretation is
+
+* {#Shulman2018} [[Michael Shulman]], 2018. _Linear logic for constructive mathematics_. [arXiv:1805.07518](https://arxiv.org/abs/1805.07518).
+
+  > (This is a prepublication version that does not yet include the name 'antithesis interpretation', which was suggested by a referee.  We must link to the published version when available.)
+
+### In relation to quantum computing
+
+Discussion of application of linear logic to [[quantum logic]], [[quantum computing]] and generally to [[quantum physics]] (See also at *[[quantum programming languages]]*):
 
 * {#Pratt92} [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
 
@@ -645,37 +673,15 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 * {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
   
 
-See also at *[[quantum programming languages]]*
 
 Application of linear logic to [[matrix factorization]] in [[Landau–Ginzburg models]]:
 
 * [[Daniel Murfet]], _The cut operation on matrix factorisations_, Journal of Pure and Applied Algebra
 **222** 7 (2018) 1911-1955 &lbrack;[arXiv:1402.4541](https://arxiv.org/abs/1402.4541), [doi:10.1016/j.jpaa.2017.08.014](https://doi.org/10.1016/j.jpaa.2017.08.014)&rbrack;
 
+Relating linear logic to [[quantum error correction]]:
 
-Discussion of [[linear type theory]] without [[units]] is in 
-
-* [[Robin Houston]], _Linear Logic without Units_ ([arXiv:1305.2231](http://arxiv.org/abs/1305.2231))
-
-
-Discussion of [[inductive types]] in the context of [[linear type theory]] is in 
-
-* St&#233;phane Gimenez, _Towards Generic Inductive Constructions in
-Systems of Nets_ ([pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.pdf))
-
-
-The categorical semantics of differential linear logic is introduced in:
-
-* [[Richard Blute]], [[Robin Cockett]], [[Robert Seely]], _Differential Categories_, Mathematical structures in computer science 16.6 (2006): 1049--1083. ([pdf](https://pdfs.semanticscholar.org/82b0/f9533b451d174f407b35e1c39e2376138ac2.pdf)) 
-{#Blute-Cockett-Seely06}
-
-
-The antithesis interpretation is
-
-* [[Michael Shulman]], 2018. _Linear logic for constructive mathematics_. [arXiv:1805.07518](https://arxiv.org/abs/1805.07518).
-{#Shulman2018}
-
-(This is a prepublication version that does not yet include the name 'antithesis interpretation', which was suggested by a referee.  We must link to the published version when available.)
+* [[Daniel Murfet]], William Troiani, *Linear Logic and Quantum Error Correcting Codes* &lbrack;[arXiv:2405.19051](https://arxiv.org/pdf/2405.19051)&rbrack;
 
 
 
