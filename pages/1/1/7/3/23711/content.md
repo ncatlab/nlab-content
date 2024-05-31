@@ -97,6 +97,9 @@ Review:
 
 * [[Anton A. Burkov]], *Topological semimetals*, Nature Materials **15** (2016) 1145–1148 &lbrack;[doi:10.1038/nmat4788](https://doi.org/10.1038/nmat4788), [arXiv:1610.07866](https://arxiv.org/abs/1610.07866)&rbrack;
 
+* Jinyu Zou, Zhuoran He & Gang Xu, *The study of magnetic topological semimetals by first principles calculations*, npj Computational Materials **5** 96 (2019) &lbrack;[doi:10.1038/s41524-019-0237-5](https://doi.org/10.1038/s41524-019-0237-5)&rbrack;
+
+
 General monographs:
 
 * [[Tomáš Bzdušek]], *Symmetry and topology of nodal semimetals*, ETH (2017) &lbrack;[doi:10.3929/ethz-b-000216959](https://doi.org/10.3929/ethz-b-000216959)&rbrack;
@@ -105,9 +108,9 @@ General monographs:
 
 Review with emphasis on [mass terms](#MassTerms):
 
-* {#Schnyder18} [[Andreas P. Schnyder]], *Accidental and symmetry-enforced band crossings in topological semimetals*, lecture notes (2018) $[$[pdf](https://www.fkf.mpg.de/6431357/topo_lecture_notes_schnyder_TMS18.pdf), [[Schnyder-Semimetals-2018.pdf:file]]$]$
+* {#Schnyder18} [[Andreas P. Schnyder]], *Accidental and symmetry-enforced band crossings in topological semimetals*, lecture notes (2018) &lbrack;[pdf](https://www.fkf.mpg.de/6431357/topo_lecture_notes_schnyder_TMS18.pdf), [[Schnyder-Semimetals-2018.pdf:file]]&rbrack;
 
-* {#Schnyder20} [[Andreas P. Schnyder]], *Topological semimetals*, lecture notes (2020) $[$[pdf](https://www.fkf.mpg.de/7143520/topological_semimetals.pdf), [[Schnyder-Semimetals-2020.pdf:file]]$]$
+* {#Schnyder20} [[Andreas P. Schnyder]], *Topological semimetals*, lecture notes (2020) &lbrack;[pdf](https://www.fkf.mpg.de/7143520/topological_semimetals.pdf), [[Schnyder-Semimetals-2020.pdf:file]]&rbrack;
 
 
 For references on *[[graphene]]* see also there.
@@ -170,7 +173,7 @@ Related discussion of Dirac mass terms is in:
 
 Lists of actual semi-metals:
 
-* Md. Rakibul Karim Akand. *Catalog of magnetic topological semimetals*, : AIP Advances **10** 095222 (2020) &lbrack;[doi:10.1063/5.0020096](https://doi.org/10.1063/5.0020096)&rbrack;
+* Md. Rakibul Karim Akand. *Catalog of magnetic topological semimetals*, AIP Advances **10** 095222 (2020) &lbrack;[doi:10.1063/5.0020096](https://doi.org/10.1063/5.0020096)&rbrack;
 
 Simulation of Dirac semimetals with [[lattice field theory]]:
 
@@ -201,6 +204,9 @@ and relation to [[topological order]]:
 * Dan Sehayek, Manisha Thakurathi, [[Anton A. Burkov]], *Charge density waves in Weyl semimetals*, Phys. Rev. B **102** 115159 (2020) &lbrack;[doi:10.1103/PhysRevB.102.115159](https://doi.org/10.1103/PhysRevB.102.115159)&rbrack;
 
 * Jinmin Yi, Xuzhe Ying, Lei Gioia, [[Anton A. Burkov]], *Topological order in interacting semimetals*, Phys. Rev. B **107** 115147 (2023) &lbrack;[arXi:2301.03628](https://arxiv.org/abs/2301.03628), [doi:10.1103/PhysRevB.107.115147](https://doi.org/10.1103/PhysRevB.107.115147)&rbrack;
+
+* Hongshuang Liu, Jiashuo Liang, Taiyu Sun, Liying Wang: *Recent progress in topological semimetal and its realization in Heusler compounds*, Materials Today Physics
+**41** (2024) 101343 &lbrack;[doi:10.1016/j.mtphys.2024.101343](https://doi.org/10.1016/j.mtphys.2024.101343)&rbrack;
 
 
 
