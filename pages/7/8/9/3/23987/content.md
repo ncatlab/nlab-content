@@ -1547,7 +1547,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
   > &lbrack;3&rbrack; J. Krause et al., [arXiv:2403.03351](https://arxiv.org/abs/2403.03351)
 
 
-* Felix von Oppen (Dahlem Center for Complex Quantum Systems, Freie Universität Berlin):
+* [[Felix von Oppen]] (Dahlem Center for Complex Quantum Systems, Freie Universität Berlin):
 
   **Theory of the Quantum Twisting Microscope**
 
