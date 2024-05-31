@@ -231,6 +231,9 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 * [[Jason Alicea]], [[Matthew Fisher]], [[Marcel Franz]], [[Yong-Baek Kim]],  *Strongly Interacting Topological Phases*, report on Banff workshop [15w5051](http://www.birs.ca/events/2015/5-day-workshops/15w5051) (2015) &lbrack;[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf), [[AliceaEtAl-InteractingTopPhases.pdf:file]]&rbrack;
 
+* [[Xiao-Gang Wen]], *Zoo of quantum-topological phases of matter*, Rev. Mod. Phys. **89** 41004 (2017) &lbrack;[arXiv:1610.03911](https://arxiv.org/abs/1610.03911), [doi:10.1103/RevModPhys.89.041004](https://doi.org/10.1103/RevModPhys.89.041004)&rbrack;
+
+
 Textbook accounts:
 
 * {#ZCZW19} [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
@@ -238,6 +241,8 @@ Textbook accounts:
   Part III of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
 * [[Tudor D. Stanescu]], Section 6.2 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+
+* Masaki Oshikawa, Yong Baek Kim, Kirill Shtengel, Chetan Nayak, Sumanta Tewari, *Topological degeneracy of non-Abelian states for dummies*, Annals of Physics **322** 6 (2007) 1477-1498 &lbrack;[doi:10.1016/j.aop.2006.08.001](https://doi.org/10.1016/j.aop.2006.08.001), [arXiv:cond-mat/0607743](https://arxiv.org/abs/cond-mat/0607743)&rbrack;
 
 
 Further review:
@@ -276,9 +281,7 @@ Argument that [[superconductors]] are actually topologically ordered phases:
 
 * [[Thors Hans Hansson]], Vadim Oganesyan, S. L. Sondhi, *Superconductors are topologically ordered*, Annals Of Physics **313** 497 (2004) &lbrack;[arXiv:cond-mat/0404327](https://arxiv.org/abs/cond-mat/0404327), [doi:10.1016/j.aop.2004.05.006](https://doi.org/10.1016/j.aop.2004.05.006)&rbrack;
 
-See also:
 
-* [[Xiao-Gang Wen]], *Zoo of quantum-topological phases of matter*, Rev. Mod. Phys. **89** 41004 (2017) &lbrack;[arXiv:1610.03911](https://arxiv.org/abs/1610.03911), [doi:10.1103/RevModPhys.89.041004](https://doi.org/10.1103/RevModPhys.89.041004)&rbrack;
 
 On [[topological semimetals]] with degenerate ground states:
 
@@ -286,7 +289,15 @@ On [[topological semimetals]] with degenerate ground states:
 
 On [[topological semimetals]] which gap to topologically ordered phases:
 
-* Jinmin Yi, Xuzhe Ying, Lei Gioia, A. A. Burkov, *Topological order in interacting semimetals*, Phys. Rev. B **107** 115147 (2023) &lbrack;[arXi:2301.03628](https://arxiv.org/abs/2301.03628), [doi:10.1103/PhysRevB.107.115147](https://doi.org/10.1103/PhysRevB.107.115147)&rbrack;
+* Chong Wang, Lei Gioia, [[Anton A. Burkov]], *Fractional Quantum Hall Effect in Weyl Semimetals*, Phys. Rev. Lett. **124** 096603 (2020) &lbrack;[doi:10.1103/PhysRevLett.124.096603](https://doi.org/10.1103/PhysRevLett.124.096603)&rbrack;
+
+* Manisha Thakurathi, [[Anton A. Burkov]], *Theory of the fractional quantum Hall effect in Weyl semimetals*, Phys. Rev. B **101** 235168 (2020) &lbrack;[doi:10.1103/PhysRevB.101.235168](https://doi.org/10.1103/PhysRevB.101.235168), [arXiv:2005.13545](https://arxiv.org/abs/2005.13545)&rbrack;
+
+  > "while we focused on fully gapped states \[...\] it also makes sense to consider gapless strongly correlated states with the same property. Such states may be accessed easily within the formalism, presented above
+
+* Dan Sehayek, Manisha Thakurathi, [[Anton A. Burkov]], *Charge density waves in Weyl semimetals*, Phys. Rev. B **102** 115159 (2020) &lbrack;[doi:10.1103/PhysRevB.102.115159](https://doi.org/10.1103/PhysRevB.102.115159)&rbrack;
+
+* Jinmin Yi, Xuzhe Ying, Lei Gioia, [[Anton A. Burkov]], *Topological order in interacting semimetals*, Phys. Rev. B **107** 115147 (2023) &lbrack;[arXi:2301.03628](https://arxiv.org/abs/2301.03628), [doi:10.1103/PhysRevB.107.115147](https://doi.org/10.1103/PhysRevB.107.115147)&rbrack;
 
 
 
