@@ -93,6 +93,10 @@ After the synthesis of graphene, which is an effectively 2-dimensional material 
 
 ### General
 
+Review:
+
+* [[Anton A. Burkov]], *Topological semimetals*, Nature Materials **15** (2016) 1145–1148 &lbrack;[doi:10.1038/nmat4788](https://doi.org/10.1038/nmat4788), [arXiv:1610.07866](https://arxiv.org/abs/1610.07866)&rbrack;
+
 General monographs:
 
 * [[Tomáš Bzdušek]], *Symmetry and topology of nodal semimetals*, ETH (2017) &lbrack;[doi:10.3929/ethz-b-000216959](https://doi.org/10.3929/ethz-b-000216959)&rbrack;
@@ -108,9 +112,9 @@ Review with emphasis on [mass terms](#MassTerms):
 
 For references on *[[graphene]]* see also there.
 
-Discussion focusing on 3-dimensional semi-metals:
+Discussion focusing on 3-dimensional semi-metals with nodal lines:
 
-* A. A. Burkov, M. D. Hook, Leon Balents,  *Topological nodal semimetals*, Phys. Rev. B **84** (2011) 235126 ([arXiv:1110.1089](https://arxiv.org/abs/1110.1089), [doi:10.1103/PhysRevB.84.235126](https://doi.org/10.1103/PhysRevB.84.235126))
+* [[Anton A. Burkov]], M. D. Hook, Leon Balents,  *Topological nodal semimetals*, Phys. Rev. B **84** (2011) 235126 &lbrack;[arXiv:1110.1089](https://arxiv.org/abs/1110.1089), [doi:10.1103/PhysRevB.84.235126](https://doi.org/10.1103/PhysRevB.84.235126)&rbrack;
 
 * [[Ari M. Turner]], [[Ashvin Vishwanath]], Part I of: *Beyond Band Insulators: Topology of Semi-metals and Interacting Phases*, in: *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) 293-324 $[$[arXiv:1301.0330](https://arxiv.org/abs/1301.0330), [ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)$]$
 
@@ -182,9 +186,22 @@ and other numerical calculuations:
 
 * [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], *Holographic Floquet states: (I) A strongly coupled Weyl semimetal*, J. High Energ. Phys. **2017** 127 (2017)  &lbrack;[arXiv:1611.03702](https://arxiv.org/abs/1611.03702), <a href="https://doi.org/10.1007/JHEP05(2017)127">doi:10.1007/JHEP05(2017)127</a>&rbrack;
 
-* Diana M Kirschbaum, Monika Lužnik, Gwenvredig Le Roy,  Silke Paschen, *How to identify and characterize strongly correlated topological semimetals*, J. Phys. Mater. **7** (2024) 012003 &lbrack;[doi:10.1088/2515-7639/ad0f30a](https://iopscience.iop.org/article/10.1088/2515-7639/ad0f30)&rbrack;
+* Diana M Kirschbaum, Monika Lužnik, Gwenvredig Le Roy,  Silke Paschen, *How to identify and characterize strongly correlated topological semimetals*, J. Phys. Mater. **7** (2024) 012003 &lbrack;[doi:10.1088/2515-7639/ad0f30a](https://iopscience.iop.org/article/10.1088/2515-7639/ad0f30), [arXiv:2308.11318](https://arxiv.org/abs/2308.11318)&rbrack;
 
 * Yongjun Ahn, Matteo Baggioli, Yan Liu, Xin-Meng Wu, *Chiral magnetic waves in strongly coupled Weyl semimetals*, J. High Energ. Phys. **2024** 124 (2024) &lbrack;[arXiv:2401.07772](https://arxiv.org/abs/2401.07772), <a href="https://doi.org/10.1007/JHEP03(2024)124">doi:10.1007/JHEP03(2024)124</a>&rbrack;
+
+and relation to [[topological order]]:
+
+* Chong Wang, Lei Gioia, [[Anton A. Burkov]], *Fractional Quantum Hall Effect in Weyl Semimetals*, Phys. Rev. Lett. **124** 096603 (2020) &lbrack;[doi:10.1103/PhysRevLett.124.096603](https://doi.org/10.1103/PhysRevLett.124.096603)&rbrack;
+
+* Manisha Thakurathi, [[Anton A. Burkov]], *Theory of the fractional quantum Hall effect in Weyl semimetals*, Phys. Rev. B **101** 235168 (2020) &lbrack;[doi:10.1103/PhysRevB.101.235168](https://doi.org/10.1103/PhysRevB.101.235168), [arXiv:2005.13545](https://arxiv.org/abs/2005.13545), [arXiv:2005.13545](https://arxiv.org/abs/2005.13545)&rbrack;
+
+  > "while we focused on fully gapped states \[...\] it also makes sense to consider gapless strongly correlated states with the same property. Such states may be accessed easily within the formalism, presented above
+
+* Dan Sehayek, Manisha Thakurathi, [[Anton A. Burkov]], *Charge density waves in Weyl semimetals*, Phys. Rev. B **102** 115159 (2020) &lbrack;[doi:10.1103/PhysRevB.102.115159](https://doi.org/10.1103/PhysRevB.102.115159)&rbrack;
+
+* Jinmin Yi, Xuzhe Ying, Lei Gioia, [[Anton A. Burkov]], *Topological order in interacting semimetals*, Phys. Rev. B **107** 115147 (2023) &lbrack;[arXi:2301.03628](https://arxiv.org/abs/2301.03628), [doi:10.1103/PhysRevB.107.115147](https://doi.org/10.1103/PhysRevB.107.115147)&rbrack;
+
 
 
 
