@@ -16,6 +16,9 @@ On [[categorical algebra|categorical]] [[universal algebra]] ([[monads]]):
 
 * [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
 
+On algebra objects: 
+
+* [[Michael Johnson]], [[R. F. C. Walters]], _Algebra objects and algebra families for finite limit theories_, Journal of Pure and Applied Algebra, **83**, 3 (1992) 283-293. &lbrack; <a href="https://doi.org/10.1016/0022-4049(92)90047-J">doi:10.1016/0022-4049(92)90047-J</a> &rbrack;
 
 On [[closed bicategories]] and [[locally internal categories]]:
 
