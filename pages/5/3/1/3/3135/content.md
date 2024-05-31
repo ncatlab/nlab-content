@@ -349,5 +349,6 @@ For [[U(ℋ)]]:
 [[!redirects infinite unitary groups]]
 
 [[!redirects U(n)]]
+[[!redirects U(N)]]
 
 
