@@ -58,8 +58,6 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 ## Related concepts
 
-* [[irreducible 3-manifold]]
-
 * [[atoroidal 3-manifold]]
 
 * [[Seifert 3-manifold]]
@@ -130,3 +128,18 @@ Computations of Vafa-Witten invariants of 3-manifolds are given in
 
 
 [[!redirects 3-manifolds]]
+
+[[!redirects 3-fold]]
+[[!redirects 3-folds]]
+
+[[!redirects 3-dimensional manifold]]
+[[!redirects 3-dimensional manifolds]]
+
+[[!redirects three-dimensional manifold]]
+[[!redirects three-dimensional manifolds]]
+
+[[!redirects 3d manifold]]
+[[!redirects 3d manifolds]]
+
+
+
