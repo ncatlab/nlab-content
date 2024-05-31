@@ -44,7 +44,7 @@ map $Q\to P\times E$ equivariant with respect to the homomorphism $Spin^h(n) \to
 
 The canonical inclusions
 $$Spin(n)\to Spin^c(n)\to Spin^h(n)$$
-allow promotions of [[spin-structures]] to [[spin^c-structures]] to [[spin^h-structures]]. The converse is not true: just as $\mathbb{CP}^2$ is a spin$^c$ manifold with no spin structure, the _Wu manifold_ $SU(3)/SO(3)$ is a spin$^h$ manifold with no spin$^c$ structure ([MathOverflow discussion](https://mathoverflow.net/questions/304471/spin-h-structures)).
+allow promotions of [[spin-structures]] to [[spin^c-structures]] to [[spin^h-structures]]. The converse is not true: just as $\mathbb{CP}^2$ is a spin$^c$ manifold with no spin structure, the [[Wu manifold]] $SU(3)/SO(3)$ is a spin$^h$ manifold with no spin$^c$ structure ([MathOverflow discussion](https://mathoverflow.net/questions/304471/spin-h-structures)).
 
 ## Obstructions to existence
 
