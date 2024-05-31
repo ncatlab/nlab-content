@@ -43,17 +43,19 @@ While many researchers began to dismiss the whole approach of "Majorana zero mod
 
 ## References
 
-### General
+### MZM in nanowires
 
-The general strategy of realizing [[Majorana zero modes]] in supercondocuting/semiconducting nanowires is due to
+The general strategy of realizing [[Majorana zero modes]] in supercondocuting/semiconducting nanowires is motivated by the [[Kitaev spin chain]]:
 
 * {#Kitaev01} [[Alexei Kitaev]], *Unpaired Majorana fermions in quantum wires*,  Physics-Uspekhi, **44** 10S (2001) 131-136 &lbrack;[arXiv:cond-mat/0010440](https://arxiv.org/abs/cond-mat/0010440), [doi:10.1070/1063-7869/44/10S/S29](https://iopscience.iop.org/article/10.1070/1063-7869/44/10S/S29)&rbrack;
+
+further developed in:
 
 * {#FuKane08} [[Liang Fu]], [[Charles Kane]], *Superconducting Proximity Effect and Majorana Fermions at the Surface of a Topological Insulator*, Phys. Rev. Lett. **100** (2008) 096407 &lbrack;[doi:10.1103/PhysRevLett.100.096407](https://doi.org/10.1103/PhysRevLett.100.096407)&rbrack;
 
 * {#LutchynSayDasSarma10} Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
 
-* {#OregRefaelvonOppen10} Yuval Oreg, Gil Refael, and Felix von Oppen, *Helical Liquids and Majorana Bound States in Quantum Wires*, Phys. Rev. Lett. **105** (2010) 177002 &lbrack;[doi:10.1103/PhysRevLett.105.177002](https://doi.org/10.1103/PhysRevLett.105.177002)&rbrack;
+* {#OregRefaelvonOppen10} Yuval Oreg, Gil Refael, [[Felix von Oppen]], *Helical Liquids and Majorana Bound States in Quantum Wires*, Phys. Rev. Lett. **105** (2010) 177002 &lbrack;[doi:10.1103/PhysRevLett.105.177002](https://doi.org/10.1103/PhysRevLett.105.177002), [arXiv:1003.1145](https://arxiv.org/abs/1003.1145)&rbrack;
 
 * [[Lukasz Fidkowski]], [[Alexei Kitaev]], *The effects of interactions on the topological classification of free fermion systems*, Phys. Rev. B **81** (2010) 134509  &lbrack;[arXiv:0904.2197](https://arxiv.org/abs/0904.2197), [doi:10.1103/PhysRevB.81.134509](https://doi.org/10.1103/PhysRevB.81.134509)&rbrack;
 
