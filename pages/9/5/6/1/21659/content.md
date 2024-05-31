@@ -23,18 +23,57 @@
 
 With [[Sp(1)]] denoting the [[quaternion unitary group]], 
 we define the [[Spin^h group|Spin$^h$ group]]
-$$Spin^h(n) = (Spin(n) \times Sp(1))/(\mathbf{Z}/2),$$
+$$
+  Spin^h(n) 
+  \coloneqq 
+  \big(
+    Spin(n) \times Sp(1)
+  \big)/
+  \big(
+    \mathbf{Z}/2
+  \big)
+  \,,
+$$
 in complete analogy to the [[Spin^c group|Spin$^c$ group]]
-$$Spin^c(n) = (Spin(n) \times U(1))/(\mathbf{Z}/2),$$
+$$
+  Spin^c(n) 
+  \coloneqq
+  \big(
+    Spin(n) \times U(1)
+  \big)/
+  \big(
+    \mathbf{Z}/2
+  \big)
+  \,,
+$$
 and the [[Spin group]]
-$$Spin(n) = (Spin(n) \times O(1))/(\mathbf{Z}/2).$$
+$$
+  Spin(n) 
+  \coloneqq 
+  \big(
+    Spin(n) \times O(1)
+  \big)
+  /
+  \big(
+    \mathbf{Z}/2
+  \big)
+  \,.
+$$
 
 We have a canonical [[double covering]], which is a [[homomorphism]] of [[Lie groups]]:
-$$Spin^h(n) \to SO(n)\times SO(3).$$
+$$
+  Spin^h(n) \longrightarrow SO(n)\times SO(3)
+  \,.
+$$
 It induces canonical homomorphisms of Lie groups
-$$Spin^h(n) \to SO(n)$$
+$$
+  Spin^h(n) \to SO(n)
+$$
 and
-$$Spin^h(n) \to SO(3).$$
+$$
+  Spin^h(n) \to SO(3)
+  \,.
+$$
 
 A __spin$^h$-structure__ on a [[principal bundle]] $P\to B SO(n)$
 is a [[lift]] through the canonical map $B Spin^h(n) \to B SO(n)$.
@@ -44,7 +83,17 @@ map $Q\to P\times E$ equivariant with respect to the homomorphism $Spin^h(n) \to
 
 The canonical inclusions
 $$Spin(n)\to Spin^c(n)\to Spin^h(n)$$
-allow promotions of [[spin-structures]] to [[spin^c-structures]] to [[spin^h-structures]]. The converse is not true: just as $\mathbb{CP}^2$ is a spin$^c$ manifold with no spin structure, the [[Wu manifold]] $SU(3)/SO(3)$ is a spin$^h$ manifold with no spin$^c$ structure ([MathOverflow discussion](https://mathoverflow.net/questions/304471/spin-h-structures)).
+allow promotions of [[spin-structures]] to [[spin^c-structures]] to [[spin^h-structures]]. 
+
+\begin{remark}
+\label{CounterExamplesToSpinCImplyingSpin}
+The converse fails, for instance by the following [[counter-examples]]:
+
+* The [[complex projective plane|$\mathbb{CP}^2$]] is a spin$^c$ manifold with no spin structure
+
+* The [[Wu manifold]] $SU(3)/SO(3)$ is a spin$^h$ manifold with no spin$^c$ structure (cf. [MO:q/304471](https://mathoverflow.net/q/304471/381)).
+
+\end{remark}
 
 ## Obstructions to existence
 
