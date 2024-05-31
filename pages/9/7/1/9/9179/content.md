@@ -92,17 +92,15 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 ## References
 
-### Early history
 
-A discussion of Pauli's thoughts leading him to the prediction of the neutrino:
+A discussion of [[Wolfgang Pauli]]'s thoughts leading him to the prediction of the neutrino:
 
 * {#AP06} Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
 
 * [[Francesco Vissani]], *First steps towards understanding neutrinos* &lbrack;[arXiv:2310.07834](https://arxiv.org/abs/2310.07834)&rbrack;
 
 
-
-### General
+Review:
 
 * [[Goran Senjanovic]], _LHC and the neutrino paradigm_, talk at CERN EP seminar 2011 ([cern:148714](https://indico.cern.ch/event/148714), [recording](https://youtu.be/VVoMUHokn2U))
 
@@ -111,6 +109,9 @@ A discussion of Pauli's thoughts leading him to the prediction of the neutrino:
 * M. Sajjad Athar, A. Fatima, S. K. Singh, *Neutrinos and their interactions with matter* &lbrack;[arXiv:2206.13792](https://arxiv.org/abs/2206.13792)&rbrack;
 
 * *Theory of Neutrino Physics -- Snowmass TF11 (aka NF08) Topical Group Report* &lbrack;[arXiv:2209.07983](https://arxiv.org/abs/2209.07983)&rbrack;
+
+* Ken-ichi Hikasa, *CPT, Majorana fermions, and particle physics beyond the Standard Model* &lbrack;[arXiv:2405.19774](https://arxiv.org/abs/2405.19774)&rbrack;
+
 
 
 See also
