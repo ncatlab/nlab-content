@@ -18,7 +18,7 @@
 
 ## Definition
 
-For $G$ a [[group]] (tyically a [[finite group]]), consider a [[G-set]] $(S, \rho)$, hence a [[set]] $S$ (typically a [[finite set]]), equipped with an [[action]] of $G$
+For $G$ a [[group]] (typically a [[finite group]]), consider a [[G-set]] $(S, \rho)$, hence a [[set]] $S$ (typically a [[finite set]]), equipped with an [[action]] of $G$
 
 $$
   \rho \;\colon\; G \times S \longrightarrow S
@@ -174,7 +174,7 @@ The [[image]] of the comparison morphism $\beta = K(k[-])$ (Def. \ref{Comparison
 ###### Remark
 **(virtual permutation representations from [[equivariant stable cohomotopy]] into [[equivariant K-theory]])**
 
-Under the identitification
+Under the identification
 
 1. of the [[Burnside ring]] with the [[equivariant stable cohomotopy]] of the point 
 
