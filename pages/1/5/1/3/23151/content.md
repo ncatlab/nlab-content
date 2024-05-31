@@ -582,7 +582,6 @@ On [[accessible category|accessibility]] of free coproduct completions:
 
 * {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  §5.2.2 (pp. 116) in: _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics **104**, American Mathematical Society (1989) &lbrack;[ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104)&rbrack;
 
-
 On [[limits]] in free coproduct completions:
 
 * {#HuTholen95} [[Hongde Hu]], [[Walter Tholen]], *Limits in  free  coproduct completions*, Journal of  Pure  and  Applied  Algebra 105 (1995) 277-291 (<a href="https://doi.org/10.1016/0022-4049(94)00153-7">doi:10.1016/0022-4049(94)00153-7</a>, [pdf](https://core.ac.uk/download/pdf/82604415.pdf))
@@ -602,6 +601,11 @@ As [[categorical semantics]] for [[dependent linear type theories]] (in the cont
 * {#FuKishidaSelinger20} [[Peng Fu]], [[Kohei Kishida]], [[Peter Selinger]], _Linear Dependent Type Theory for Quantum Programming Languages_, LICS '20: Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer ScienceJuly 2020 Pages 440–453 ([arXiv:2004.13472](https://arxiv.org/abs/2004.13472), [doi:10.1145/3373718.3394765](https://dl.acm.org/doi/10.1145/3373718.3394765), [pdf](https://depend.cs.uni-saarland.de/lics-icalp/papers/B5.F), [video](https://www.youtube.com/watch?v=GUT8j4V6Nzg))
 
 and its [followups](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics).
+
+Algebras in the free coproduct completion are considered in: 
+
+* [[Michael Johnson]], [[R. F. C. Walters]], _Algebra objects and algebra families for finite limit theories_, Journal of Pure and Applied Algebra, **83**, 3 (1992) 283-293. &lbrack; <a href="https://doi.org/10.1016/0022-4049(92)90047-J">doi:10.1016/0022-4049(92)90047-J</a> &rbrack;
+
 
 [[!redirects free coproduct completions]]
 
