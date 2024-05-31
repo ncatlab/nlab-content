@@ -46,28 +46,33 @@ For the traditional definition see at _[[differentiable manifold]]_.
 
 ### Patching as idempotent splitting
 
-In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation:
+The lecture notes [Lawvere 1973, Ex. 3.21](#Lawvere73) reported a somewhat surprising observation:
 
-In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidean spaces. More precisely:
+In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a [[category of open subsets]] of [[Euclidean spaces]]. More precisely:
 
-Let $Diff$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Diff$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
+Let [[Diff|$Diff$]] be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a [[finite number|finite]]-[[dimension of a manifold|dimensional]], [[second-countable topological space|second-countable]], [[Hausdorff space|Hausdorff]], [[smooth manifold|$C^\infty$]] [[manifold]] without [[boundary of a manifold|boundary]].  
 
-+-- {: .num_theorem} 
-###### Theorem 
-The subcategory $i: Open \hookrightarrow Diff$ exhibits $Diff$ as an idempotent-splitting completion of $Open$. 
-=-- 
+Let $i \colo Open \hookrightarrow Diff$ be the [[full subcategory]] whose objects are the [[open subspaces]] of [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[Cartesian spaces]]. 
+
+\begin{theorem}
+\label{IdSplittingCompletionTheorem}
+
+The [[subcategory]] $i \colon Open \hookrightarrow Diff$ exhibits $Diff$ as an idempotent-splitting completion of $Open$. 
+
+\end{theorem}
 
 +-- {: .proof} 
 ###### Proof 
+
 By a general [[Karoubi envelope#def2|lemma for idempotent splittings]], it suffices to prove that 
 
-* Every smooth manifold is a smooth retract of an open set in Euclidean space; 
+* Every smooth manifold is a smooth [[retract]] of an open set in Euclidean space; 
 
 * If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an [[embedding of smooth manifolds|embedded]] submanifold. 
 
 For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarrow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
 
-For the second statement, assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
+For the second statement (cf. [Zack 2014](#Zack14)), assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
 
 $$U \stackrel{f}{\longrightarrow} \mathbb{R}^n \cong T_0(U) \stackrel{\pi}{\longrightarrow} \ker\; d p(0).$$ 
 
@@ -321,11 +326,27 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 ## Classes of examples
 
-* [[CR manifold]]
+* [[2-manifolds]]
+
+* [[3-manifolds]]
+
+* [[4-manifolds]]
+
+* [[8-manifolds]]
+
+With [[extra structure|extra]] [[structure]]:
+
+* [[complex manifold]]
 
 * [[symplectic manifold]]
 
-* etc.
+* [[analytic manifold]]
+
+* [[CR manifold]]
+
+* etc. ...
+
+
 
 ## Related concepts
 
@@ -417,13 +438,13 @@ The general abstract framework of [[higher geometry]] referred to above is discu
 * {#StrSp} [[Jacob Lurie]], _[[Structured Spaces]]_
 
 
-The proof that idempotents split in the category of smooth manifolds was adapted from this MO answer: 
+The proof of Thm. \ref{IdSplittingCompletionTheorem} above makes use of the observation in
 
-* Zack (http://mathoverflow.net/users/300/zack), Idempotents split in category of smooth manifolds?, URL (version: 2014-04-06): http://mathoverflow.net/q/162556 ([web](http://mathoverflow.net/a/162556/2926)) 
+* {#Zack14} [Zack](http://mathoverflow.net/users/300/zack), *Idempotents split in category of smooth manifolds?* (2014) &lbrack;[MO:q/162556](http://mathoverflow.net/q/162556)&rbrack; 
 
-Which provides a solution to exercise 3.21 in
+and provides a solution to exercise 3.21 in:
 
-* [[William Lawvere]], _Perugia Notes - Theory of Categories over a Base Topos_ , Ms. Universit&#224; di Perugia 1973.
+* {#Lawvere73} [[William Lawvere]], _Perugia Notes - Theory of Categories over a Base Topos_ , Ms. Universit&#224; di Perugia 1973 &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1972-perugia-lecture-notes.pdf), [[LawverePerugia1972.pdf:file]]&rbrack;
 
 The [above comment](#LawvereComment) by Lawvere is taken from 
 
