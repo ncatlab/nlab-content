@@ -681,7 +681,7 @@ Application of linear logic to [[matrix factorization]] in [[Landau–Ginzburg m
 
 Relating linear logic to [[quantum error correction]]:
 
-* [[Daniel Murfet]], William Troiani, *Linear Logic and Quantum Error Correcting Codes* &lbrack;[arXiv:2405.19051](https://arxiv.org/pdf/2405.19051)&rbrack;
+* [[Daniel Murfet]], William Troiani, *Linear Logic and Quantum Error Correcting Codes* &lbrack;[arXiv:2405.19051](https://arxiv.org/abs/2405.19051)&rbrack;
 
 
 
