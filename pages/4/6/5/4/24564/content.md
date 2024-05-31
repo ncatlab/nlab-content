@@ -51,7 +51,7 @@ The general strategy of realizing [[Majorana zero modes]] in supercondocuting/se
 
 further developed in:
 
-* {#FuKane08} [[Liang Fu]], [[Charles Kane]], *Superconducting Proximity Effect and Majorana Fermions at the Surface of a Topological Insulator*, Phys. Rev. Lett. **100** (2008) 096407 &lbrack;[doi:10.1103/PhysRevLett.100.096407](https://doi.org/10.1103/PhysRevLett.100.096407)&rbrack;
+* {#FuKane08} [[Liang Fu]], [[Charles Kane]], *Superconducting Proximity Effect and Majorana Fermions at the Surface of a Topological Insulator*, Phys. Rev. Lett. **100** (2008) 096407 &lbrack;[doi:10.1103/PhysRevLett.100.096407](https://doi.org/10.1103/PhysRevLett.100.096407), [arXiv:0707.1692](https://arxiv.org/abs/0707.1692)&rbrack;
 
 * {#LutchynSayDasSarma10} Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
 
