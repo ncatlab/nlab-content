@@ -484,6 +484,10 @@ In relation to the [[Penrose tiling]]:
 
 * Zhi Li, [[Latham Boyle]], *The Penrose Tiling is a Quantum Error-Correcting Code* &lbrack;[arXiv:2311.13040](https://arxiv.org/abs/2311.13040)&rbrack;
 
+Relating quantum error correction to [[linear logic]]:
+
+* [[Daniel Murfet]], William Troiani, *Linear Logic and Quantum Error Correcting Codes* &lbrack;[arXiv:2405.19051](https://arxiv.org/pdf/2405.19051)&rbrack;
+
 
 ### Experimental realization
 
