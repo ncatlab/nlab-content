@@ -361,7 +361,7 @@ An introduction to Unimodular [[gravity]] at the classical and quantum level and
 
 \linebreak
 
-On generic random [[tree]]s and two-dimensional causal triangulations:
+On generic random [[trees]] and two-dimensional [[causal set|causal]] [[triangulations]]:
 
 * Bergfinnur Durhuus, Thordur Jonsson, [[John Wheater]], *From Trees to Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.15247](https://arxiv.org/abs/2211.15247)&rbrack;
 
@@ -401,6 +401,12 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]]:
 On the [[super-embedding formalism]] for describing [[super p-branes]]:
 
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes* &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
+
+\linebreak
+
+On [[string field theory]]:
+
+* [[Ashoke Sen]], [[Barton Zwiebach]]: *String Field Theory: A Review*, in *[[Handbook of Quantum Gravity]]*, Springer (2023-) &lbrack;[arXiv:2405.19421](https://arxiv.org/abs/2405.19421), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
  
 \linebreak
