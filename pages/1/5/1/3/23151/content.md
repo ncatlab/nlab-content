@@ -604,7 +604,7 @@ and its [followups](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantic
 
 Algebras in the free coproduct completion are considered in: 
 
-* [[Michael Johnson]], [[R. F. C. Walters]], _Algebra objects and algebra families for finite limit theories_, Journal of Pure and Applied Algebra, **83**, 3 (1992) 283-293. &lbrack; <a href="https://doi.org/10.1016/0022-4049(92)90047-J">doi:10.1016/0022-4049(92)90047-J</a> &rbrack;
+* [[Michael Johnson]], [[R. F. C. Walters]], _Algebra objects and algebra families for finite limit theories_, Journal of Pure and Applied Algebra **83** 3 (1992) 283-293 &lbrack;<a href="https://doi.org/10.1016/0022-4049(92)90047-J">doi:10.1016/0022-4049(92)90047-J</a>&rbrack;
 
 
 [[!redirects free coproduct completions]]
