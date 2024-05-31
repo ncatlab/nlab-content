@@ -18,6 +18,11 @@ On [[string junctions]] in relation to [[Lie algebras]] and [[Lie algebra repres
 
 * Oliver DeWolfe, Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]], _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 ([arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028))
 
+On [[string field theory]]:
+
+* [[Ashoke Sen]], [[Barton Zwiebach]]: *String Field Theory: A Review*, in *[[Handbook of Quantum Gravity]]*, Springer (2023-) &lbrack;[arXiv:2405.19421](https://arxiv.org/abs/2405.19421), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
+
+
 ## Related entries
 
 * [[string field theory]]
