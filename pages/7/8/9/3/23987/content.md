@@ -323,7 +323,9 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   > C) Robert-Wagner $GL(N)$ foam evaluation and its application to constructing link homology theories will be explained as well.
 
+
 \linebreak
+
 
 * {#KitchlooMar2023} [[Nitu Kitchloo]] (John Hopkins University):
 
@@ -1644,12 +1646,13 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
   > The quantum control of atomic systems can be achieved through the manipulation of their optical properties, i.e the coherence. In EIT systems, a transparency window is achieved via the interference of two laser beams. In this context, our research investigates shaped laser wave-forms to obtain desirable absorption dispersion spectra, controllable refractive index and induces the atomic population inversion. For instance, q-deformed hyperbolic pulse manipulates the system’s dynamic by adjusting the scaling asymmetry factor q of the q-deformed pulse. In addition, the QEXP pulse opens a transparency window in the absorption spectra. In contrast, in the classical scenario where the laser is non-shaped, we control the optical properties of atomic systems via the SGC: spontaneously generated coherence or the MOR.
 
 
-
 * Ken Shiozaki (Yukawa Institute for Theoretical Physics, Kyoto University):
 
   **A Discrete Formulation of Three Dimensional Winding Number**
 
-  >  For a continuous map from a three-dimensional oriented closed manifold to $U(N)$, the group of $N$ by $N$ unitary matrices, an integer-valued quantity known as the three-dimensional winding number is defined. We discuss a method to compute the winding number using a discrete approximation of the manifold, ensuring that the result is manifestly quantized. Our approach is a three-dimensional analog of the Fukui-Hatsugai-Suzuki method for calculating the first Chern number.
+  >  For a [[continuous map]] from a [[3-manifold|three-dimensional]] [[oriented manifold|oriented]] [[closed manifold]] to [[U(N)|$U(N)$]], the [[group]] of $N$ by $N$ [[unitary matrices]], an integer-valued quantity known as the three-dimensional [[winding number]] is defined. We discuss a method to compute the winding number using a discrete approximation of the manifold, ensuring that the result is manifestly quantized. Our approach is a three-dimensional analog of the [Fukui-Hatsugai-Suzuki method](first+Chern+class#FukuiHatsugaiSuzuki05) for calculating the [[first Chern number]].
+
+
 
 * [[Asif Equbal]] (NYU AD):
 
