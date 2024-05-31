@@ -268,14 +268,17 @@ See also:
 Int. J. Mod. Phys. B7, 4227 (1993). 
 
 
-### Topologically ordered materials
+### Examples of topologically ordered materials
 
-Definite examples of topologically ordered materials remain somewhat elusive, but a few candidates have been discussedL
+Definite examples of topologically ordered materials remain somewhat elusive, but a few candidates have been discussed:
 
 Argument that [[superconductors]] are actually topologically ordered phases:
 
 * [[Thors Hans Hansson]], Vadim Oganesyan, S. L. Sondhi, *Superconductors are topologically ordered*, Annals Of Physics **313** 497 (2004) &lbrack;[arXiv:cond-mat/0404327](https://arxiv.org/abs/cond-mat/0404327), [doi:10.1016/j.aop.2004.05.006](https://doi.org/10.1016/j.aop.2004.05.006)&rbrack;
 
+See also:
+
+* [[Xiao-Gang Wen]], *Zoo of quantum-topological phases of matter*, Rev. Mod. Phys. **89** 41004 (2017) &lbrack;[arXiv:1610.03911](https://arxiv.org/abs/1610.03911), [doi:10.1103/RevModPhys.89.041004](https://doi.org/10.1103/RevModPhys.89.041004)&rbrack;
 
 On [[topological semimetals]] with degenerate ground states:
 
