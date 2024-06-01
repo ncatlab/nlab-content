@@ -1111,7 +1111,7 @@ A textbook account focusing on [[n-fold complete Segal spaces]] and related mode
 
 One axiomatic characterization is in 
 
-* {#BarwickSchommerPries}[[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+* {#BarwickSchommerPries} [[Clark Barwick]], [[Chris Schommer-Pries]], *On the Unicity of the Homotopy Theory of Higher Categories*, J. Amer. Math. Soc. **34** (2021) 1011-1058  &lbrack;[arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/), [doi:10.1090/jams/972](https://doi.org/10.1090/jams/972)&rbrack;
  
 
 Comparison of models ($\Theta_{n+1}$-spaces and [[enriched (infinity,1)-categories]] in $\Theta_n$-spaces) is in 
