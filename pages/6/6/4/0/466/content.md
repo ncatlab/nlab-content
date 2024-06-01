@@ -330,7 +330,7 @@ For general references see any text on [[category theory]], as listed in the ref
 The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Saunders Mac Lane]] at Paris Gare du Nord:
 
 
-* Yoshiki Kinoshita, *Nobuo Yoneda (1930-1996)* 
+* [[Yoshiki Kinoshita]], *Nobuo Yoneda (1930-1996)* 
 
   & 
 
