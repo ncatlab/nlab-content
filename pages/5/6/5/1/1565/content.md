@@ -39,7 +39,7 @@ A _rig_ is a [[set]] $R$ with binary operations of addition and multiplication, 
 
 In a ring, absorption follows from distributivity, since $0\cdot x + 0\cdot x = (0+0)\cdot x = 0\cdot x$ and we can cancel one copy to obtain $0\cdot x = 0$.  In a [[rig]], however, we have to assert absorption separately.
 
-More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in [[commutative monoid]]s, where abelian groups and commitative monoids have suitable monoidal structures (they are not the cartesian ones).
+More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in [[commutative monoid]]s, where abelian groups and commutative monoids have suitable monoidal structures (they are not the cartesian ones).
 
 Equivalently, a rig is the [[hom-set]] of a category with a single object that is [[enriched category|enriched]] in the category of [[commutative monoids]].
 
