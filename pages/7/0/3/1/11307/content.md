@@ -6,15 +6,15 @@ supervised by Shokichi Iyanaga.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Nobuo_Yoneda)
 
-* Yoshiki Kinoshita, *Nobuo Yoneda (1930-1996)* 
+* [[Yoshiki Kinoshita]], *Nobuo Yoneda (1930-1996)* 
 
   & 
 
   [[Saunders MacLane]], *The Yoneda Lemma*,
 
-  Math. Japonica, **47**, No. 1 (1998) 155-156
+  Math. Japonica **47** 1 (1998) 155-156
 
-  ([pdf](https://dmitripavlov.org/scans/yoneda.pdf) [[MathJaponica_YonedaObituary.pdf:file]], also: [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda))
+  &lbrack;[pdf](https://dmitripavlov.org/scans/yoneda.pdf), [[MathJaponica_YonedaObituary.pdf:file]], also: [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda)&rbrack;
 
 
 <img src="http://ncatlab.org/nlab/files/YonedaObituary.jpg">
