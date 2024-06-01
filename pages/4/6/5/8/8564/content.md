@@ -235,7 +235,7 @@ Some authors have tried to define a principal ideal domain as a [[Noetherian rin
 
 * Wikipedia, _[Principal ideal domain](http://en.wikipedia.org/wiki/Principal_ideal_domain)_
 
-* Eric Wofsey, _Principal Ideal Domains_, (written for Mathcamp 2009) [pdf](http://www.math.harvard.edu/~waffle/pids.pdf)
+* Eric Wofsey, _Principal Ideal Domains_, (written for Mathcamp 2009) [pdf](https://web.archive.org/web/20161213182507/http://www.math.harvard.edu/~waffle/pids.pdf)
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
