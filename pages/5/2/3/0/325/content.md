@@ -107,15 +107,23 @@ Again, in the literature $t^{op}$ is often confused with $t$.
 
 ### The oppositization 1-functor
 
-If we let $Cat$ stand for the 1-category of small categories, there is an functor $op: Cat \to Cat$ sending each category to its opposite and each functor to its opposite, and 
+If we let [[Cat|$Cat$]] denote the [[1-category]] of [[strict category|strict]] [[small categories]] with [[functors]] between them, then there is an [[functor]] $op \colon Cat \to Cat$ sending each category to its opposite and each functor to its opposite, and 
 
-$$ op^2 = 1_{Cat}. $$ 
+$$ 
+  op^2 
+  \;=\; 
+  id_{Cat}
+  \,.
+$$ 
 
-Up to natural isomorphism, there are only two functors $F: Cat \to Cat$ that are equivalences: the identity functor $1: Cat \to Cat$ and the functor $op : Cat \to Cat$.  In other words, the [[2-group]] Aut(Cat) of all autoequivalences  of the 1-category $Cat$ is equivalent to the group $\mathbb{Z}/2$ viewed as a discrete 2-group.
+In fact, up to [[natural isomorphism]], there are only two functors $F \colon Cat \to Cat$ that are [[equivalence of categories|equivalences]]: the [[identity functor]] $id_{CaT}$ and the oppositization functor $op$.  In other words, the [[automorphism 2-group]] $Aut(Cat)$ of all [[autoequivalences]]  of the 1-category $Cat$ is equivalent to the group [[cyclic group of order 2|$\mathbb{Z}/2$]] viewed as a 0-truncated [[2-group]].
 
-To see this, note that any autoequivalence of the 1-category $Cat$ fixes the terminal object 1 up to unique isomorphism, and the arrow category 2 is the unique minimal generator (i.e. it is a generator and no proper subobject is a generator) so it is also fixed up to isomorphism.  Since every category is functorially a colimit of copies of 2, once we know whether the autoequivalence fixes or swaps the two maps $1 \to 2$ the autoequivalence is determined up to a natural isomorphism, so every such autoequivalence is naturally isomorphic to either the identity or $op$.  For this argument and related questions touching on higher category theory see [Campion](#Campion).
+To see this, note that any autoequivalence of the 1-category $Cat$ fixes the [[terminal object]] $\ast$ up to unique [[isomorphism]], and the [[arrow category]] 2 is the unique minimal generator (i.e. it is a generator and no proper [[subobject]] is a generator) so it is also fixed up to isomorphism.  Since every category is functorially a [[colimit]] of copies of 2, once we know whether the autoequivalence fixes or swaps the two maps $1 \to 2$ the autoequivalence is determined up to a natural isomorphism, so every such autoequivalence is naturally isomorphic to either the identity or $op$.  
+
+For this argument and related questions touching on higher category theory see [Toën 2005, Thm. 6.3](#Toën05); [Barwick & Schommer-Pries (2011,21), Rem. 13.16](#BarwickSchommerPries11); [Ara, Groth & Gutiérrez 2013, 15](#AraGrothGutiérrez15) (cf. also [Campion 2015](#Campion15)).
 
 ### The oppositization 2-functor
+ {#TheOppositization2Functor}
 
 There are many advantages to treating $Cat$ as a 2-category with natural transformations as 2-morphisms.  Then the above three constructions of the opposite category,
 opposite functor, and opposite natural transformation
@@ -286,9 +294,17 @@ For the definition in enriched category theory see page 12 of
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
-For autoequivalences of $Cat$ see:
+On classification of the autoequivalences of $Cat$ (and more generally of [[(infinity,1)Cat|$(\infty,1)$Cat]], [[(infinity,n)Cat|$(\infinity,n)Cat$]] and of [[(infinity,1)Operad|$(\infty,1)Operad$]]):
 
-* {#Campion} [[Tim Campion]], Does the category of categories-mod-natural-isomorphism have any nonobvious autoequivalences?, [MathOverflow](https://mathoverflow.net/questions/223424/does-the-category-of-categories-mod-natural-isomorphism-have-any-nonobvious-auto).
+* {#Toën05} [[Bertrand Toën]], *Vers une axiomatisation de la théorie des catégories supérieures*, K-Theory **34** 3 (2005) 233-263 &lbrack;[arXiv:math/0409598](https://arxiv.org/abs/math/0409598), [doi:10.1007/s10977-005-4556-6](http://dx.doi.org/10.1007/s10977-005-4556-6)&rbrack;
+
+* {#BarwickSchommerPries11} [[Clark Barwick]], [[Chris Schommer-Pries]], Rem. 3.16 in: *On the Unicity of the Homotopy Theory of Higher Categories*, J. Amer. Math. Soc. **34** (2021) 1011-1058  &lbrack;[arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/), [doi:10.1090/jams/972](https://doi.org/10.1090/jams/972)&rbrack;
+
+* {#AraGrothGutiérrez15} [[Dimitri Ara]], [[Moritz Groth]], [[Javier J. Gutiérrez]]: *On autoequivalences of the $(\infty,1)$-category of $\infty$-operads*, Mathematische Zeitschrift **281** 3 (2015) 807-848 &lbrack;[arXiv:1312.4994](https://arxiv.org/abs/1312.4994), [doi:10.1007/s00209-015-1509-5](https://doi.org/10.1007/s00209-015-1509-5)&rbrack;
+
+and discussion for the case of [[Ho(Cat)]]:
+
+* {#Campion15} [[Tim Campion]], *Does the category of categories-mod-natural-isomorphism have any nonobvious autoequivalences?* (2015) &lbrack;[MO:q/223424](https://mathoverflow.net/q/223424/381)&rbrack;
 
 
 [[!redirects opposite categories]]
