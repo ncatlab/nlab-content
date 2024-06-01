@@ -106,7 +106,12 @@ See also:
 
 
 
+[[!redirects CP^N sigma-models]]
 
+[[!redirects CPN sigma-model]]
+[[!redirects CPN sigma-models]]
+
+[[!redirects CP^n sigma-model]]
 [[!redirects CP^n sigma-models]]
 
 [[!redirects CP^1 sigma-model]]
