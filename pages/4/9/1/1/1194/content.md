@@ -691,7 +691,7 @@ Further discussion of type theory in the context of ([[functional programming|fu
 
 Discussion aimed at [[foundations]] include
 
-* {#Taylor99} [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/))
+* {#Taylor99} [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](https://www.paultaylor.eu/~pt/prafm/html/index.html))
  
 
 * {#Taylor} [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
