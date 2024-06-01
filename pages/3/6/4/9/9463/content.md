@@ -13,7 +13,7 @@ On [[Hurewicz cofibrations]]:
 * [[Javier Gutiérrez]], *Cofibrations*, ([pdf](https://www.math.ru.nl/~gutierrez/files/Lecture08.pdf), [[Gutierrez_Cofibrations.pdf:file]])
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[dendroidal set]]
 
