@@ -105,15 +105,25 @@ induced by the same map $C_{obj}\to D_{mor}$ as $t$.
 
 Again, in the literature $t^{op}$ is often confused with $t$.
 
+### The oppositization 1-functor
+
+If we let $Cat$ stand for the 1-category of small categories, there is an functor $op: Cat \to Cat$ sending each category to its opposite and each functor to its opposite, and 
+
+$$ op^2 = 1_{Cat}. $$ 
+
+Up to natural isomorphism, there are only two functors $F: Cat \to Cat$ that are equivalences: the identity functor $1: Cat \to Cat$ and the functor $op : Cat \to Cat$.  In other words, the [[2-group]] Aut(Cat) of all autoequivalences  of the 1-category $Cat$ is equivalent to the group $\mathbb{Z}/2$ viewed as a discrete 2-group.
+
+To see this, note that any autoequivalence of the 1-category $Cat$ fixes the terminal object 1 up to unique isomorphism, and the arrow category 2 is the unique minimal generator (i.e. it is a generator and no proper subobject is a generator) so it is also fixed up to isomorphism.  Since every category is functorially a colimit of copies of 2, once we know whether the autoequivalence fixes or swaps the two maps $1 \to 2$ the autoequivalence is determined up to a natural isomorphism, so every such autoequivalence is naturally isomorphic to either the identity or $op$.  For this argument and related questions touching on higher category theory see [Campion](#Campion).
+
 ### The oppositization 2-functor
 
-The above three constructions of the opposite category,
+There are many advantages to treating $Cat$ as a 2-category with natural transformations as 2-morphisms.  Then the above three constructions of the opposite category,
 opposite functor, and opposite natural transformation
-combine together into the __oppositization 2-functor__
-$$Cat^{co}\to Cat,$$
-where $Cat^{co}$ denotes the 2-cell dual of the [[2-category]] $Cat$,
-with the direction of 2-morphisms reversed
-and the direction of 1-morphisms preserved.
+combine together to give the __oppositization 2-functor__
+$$op: Cat^{co}\to Cat,$$
+where $Cat^{co}$ denotes the 2-cell dual of the [[2-category]] $Cat$, with the direction of 2-morphisms reversed and the direction of 1-morphisms preserved.
+
+
 
 ### In enriched category theory ##
 
@@ -155,14 +165,10 @@ See
 
 * [[opposite (∞,1)-category]]
 
-
-
-## Properties
+ 
+## The nerve of the opposite category
 
 The [[nerve]] $N(C^{op})$ of $C^{op}$ is the [[simplicial set]] that is degreewise the same as $N(C)$, but in each degree with the order of the face and the order of the degeneracy maps reversed. See [[opposite quasi-category]] for more details.
-
-
-
 
 ## Classes of examples
 
@@ -276,11 +282,13 @@ See at _[FinSet -- Properties -- Opposite category](FinSet#OppositeCategory)_. S
 
 * [[Saunders MacLane]], §II.2 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-
-
 For the definition in enriched category theory see page 12 of 
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+For autoequivalences of $Cat$ see:
+
+* {#Campion} [[Tim Campion]], Does the category of categories-mod-natural-isomorphism have any nonobvious autoequivalences?, [MathOverflow](https://mathoverflow.net/questions/223424/does-the-category-of-categories-mod-natural-isomorphism-have-any-nonobvious-auto).
 
 
 [[!redirects opposite categories]]
