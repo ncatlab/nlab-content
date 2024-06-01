@@ -453,7 +453,7 @@ Discussion of sketches the generality of [[enriched category theory]]:
 
 ### Generalisations
 
-A generalisation internal to a [[2-category]] is discussed in:
+Generalisation internal to a [[2-category]] are discussed in:
 
 * Yoshiki Kinoshita, [[John Power]], and Makoto Takeyama. _Sketches_, Journal of Pure and Applied Algebra 143.1-3 (1999): 275-291.
 
@@ -461,6 +461,9 @@ A generalisation internal to a [[2-category]] is discussed in:
 
 * [[Ross Street]]. _Complete objects with respect to a theory_.
 
+Generalising the approach of Kinoshita, Power, and Takeyama, a notion of sketch relative to an [[algebraic weak factorisation system]] is defined in:
+
+* [[John Bourke]] and [[Richard Garner]], _Algebraic weak factorisation systems II: Categories of weak maps_, Journal of Pure and Applied Algebra 220, 2016. [arXiv:1412.6560](http://arxiv.org/abs/1412.6560), [doi:10.1016/j.jpaa.2015.06.003](https://doi.org/10.1016/j.jpaa.2015.06.003).
 
 
 [[!redirects sketches]]
