@@ -70,7 +70,9 @@ The set of diagrams can be taken to be empty. The set of cones can be taken to b
 A model of this sketch necessarily sends the vertex $v_{1}$ to a product of the empty diagram, hence to a one element set $1$; sends the vertex $v_{2}$ to any set $X$; and sends the arrow from $v_{1}$ to $v_{2}$ to an arrow from $1$ to $X$, that is, to an element of $X$, as required. 
 \end{example}
 
-\begin{example} \label{ExampleSketchUnitalMagmas} A sketch, more precisely a finite product sketch, for the theory of unital magmas (sets with a binary operation which has a two sided unit) can be constructed as follows. The directed graph can be taken to be the following.
+\begin{example} \label{ExampleSketchUnitalMagmas} A sketch, more precisely a finite product sketch, for the theory of [[unital magmas]] ([[sets]] equipped with a [[binary operation]] which has a two sided [[neutral element]]) can be constructed as follows. 
+
+The directed graph can be taken to be the following:
 
 \begin{centre}
   \begin{tikzpicture}
@@ -92,7 +94,7 @@ A model of this sketch necessarily sends the vertex $v_{1}$ to a product of the 
   \end{tikzpicture}
 \end{centre}
 
-The set of diagrams can be taken to have six elements, the first consisting of  
+The set of diagrams can be taken to have six elements, the first consisting of:
 
 \begin{centre}
   \begin{tikzpicture}
@@ -453,17 +455,17 @@ Discussion of sketches the generality of [[enriched category theory]]:
 
 ### Generalisations
 
-Generalisation internal to a [[2-category]] are discussed in:
+Discussion in the generality of [[internalization]] into [[2-categories]]:
 
-* Yoshiki Kinoshita, [[John Power]], and Makoto Takeyama. _Sketches_, Journal of Pure and Applied Algebra 143.1-3 (1999): 275-291.
+* {#KinoshitaPowerTakeyama99} [[Yoshiki Kinoshita]], [[John Power]], Makoto Takeyama, *Sketches*, Journal of Pure and Applied Algebra **143** 1-3 (1999) 275-291 \[<a href="https://doi.org/10.1016/S0022-4049(98)00114-5">doi:10.1016/S0022-4049(98)00114-5</a>\]
 
-* [[Ross Street]]. _Pointwise extensions and sketches in bicategories_ (2014), ([arXiv:1409.6427](https://arxiv.org/abs/1409.6427)).
+* [[Ross Street]] *Pointwise extensions and sketches in bicategories* &lbrack;[arXiv:1409.6427](https://arxiv.org/abs/1409.6427)&rbrack;
 
-* [[Ross Street]]. _Complete objects with respect to a theory_.
+* [[Ross Street]], _Complete objects with respect to a theory_
 
-Generalising the approach of Kinoshita, Power, and Takeyama, a notion of sketch relative to an [[algebraic weak factorisation system]] is defined in:
+Generalising the approach of [Kinoshita, Power & Takeyama 1999](#KinoshitaPowerTakeyama99), a notion of sketch relative to an [[algebraic weak factorisation system]] is defined in:
 
-* [[John Bourke]] and [[Richard Garner]], _Algebraic weak factorisation systems II: Categories of weak maps_, Journal of Pure and Applied Algebra 220, 2016. [arXiv:1412.6560](http://arxiv.org/abs/1412.6560), [doi:10.1016/j.jpaa.2015.06.003](https://doi.org/10.1016/j.jpaa.2015.06.003).
+* [[John Bourke]], [[Richard Garner]], _Algebraic weak factorisation systems II: Categories of weak maps_, Journal of Pure and Applied Algebra **220** (2016) &lbrack;[arXiv:1412.6560](http://arxiv.org/abs/1412.6560), [doi:10.1016/j.jpaa.2015.06.003](https://doi.org/10.1016/j.jpaa.2015.06.003)&rbrack;
 
 
 [[!redirects sketches]]
