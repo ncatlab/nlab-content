@@ -125,6 +125,7 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 [[!include topology - countability axioms]]
 
+[[!redirects second-countable]]
 
 [[!redirects second-countable space]]
 [[!redirects second-countable spaces]]
