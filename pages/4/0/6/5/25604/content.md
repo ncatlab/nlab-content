@@ -110,7 +110,7 @@ This means mainly that
 * which is compatibly lifted for each [[pair]] of [[pairs]] of [[objects]] of $C$ to a [[morphisms]] on [[hom-objects]] in $V$:
 
   $$  
-    \otimes_{\mathbf{C}}\big( (c,d),\, (c',c') \big)
+    \otimes_{\mathbf{C}}\big( (c,d),\, (c',d') \big)
     \,\colon\,
     \mathbf{C}(c,c') \otimes \mathbf{C}(d,d')
     \longrightarrow
