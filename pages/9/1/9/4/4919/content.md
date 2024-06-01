@@ -18,6 +18,11 @@ On [[coherence theorems]] for [[tricategories]]:
 
 * [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
 
+On [[sketches]] [[internalization|internalized]] in [[2-categories]]:
+
+* {#KinoshitaPowerTakeyama99} [[Yoshiki Kinoshita]], [[John Power]], Makoto Takeyama, *Sketches*, Journal of Pure and Applied Algebra **143** 1-3 (1999) 275-291 \[<a href="https://doi.org/10.1016/S0022-4049(98)00114-5">doi:10.1016/S0022-4049(98)00114-5</a>\]
+
+
 On [[monads in computer science]], such as the (local) [[state monad]]:
 
 * {#PlotkinPower02} [[Gordon Plotkin]], [[John Power]], Section 3 of: *Notions of computation determine monads* In: M. Nielsen, U. Engberg, (eds.) FOSSACS 2002. LNCS, Lecture Notes in Computer Science **2303** 342-356 Springer (2002) &lbrack;[doi:10.1007/3-540-45931-6_24p](https://doi.org/10.1007/3-540-45931-6_24)&rbrack;
