@@ -26,8 +26,8 @@ An _inverter_ is a particular kind of [[2-limit]] in a [[2-category]], which uni
 Let $f,g\colon A\rightrightarrows B$ be a pair of parallel 1-morphisms in a 2-category and $\alpha\colon f\to g$ a 2-morphism.  The **inverter** of $\alpha$ is a universal object $V$ equipped with a morphism $v\colon V\to A$ such that $\alpha v$ is invertible.
 
 More precisely, universality means that for any object $X$, the induced functor
-$$Hom(X,V) \to Hom(X,A)$$
-is fully faithful, and its [[replete image]] consists precisely of those morphisms $u\colon X\to A$ such that $\alpha u$ is invertible.  If the above functor is additionally an *isomorphism* of categories onto the exact subcategory of such $u$, then we say that $V\xrightarrow{v} A$ is a **strict inverter**.
+$$Hom(X, v) : Hom(X,V) \to Hom(X,A)$$
+is fully faithful (so that $v$ is [[representably fully faithful]]), and its [[replete image]] consists precisely of those morphisms $u\colon X\to A$ such that $\alpha u$ is invertible.  If the above functor is additionally an *isomorphism* of categories onto the exact subcategory of such $u$, then we say that $V\xrightarrow{v} A$ is a **strict inverter**.
 
 Inverters and strict inverters can be described as a certain sort of [[weighted limit|weighted]] 2-limit, where the diagram shape is the [[walking structure|walking]] 2-morphism
 
