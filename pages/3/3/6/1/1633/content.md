@@ -9,7 +9,7 @@
 =--
 =--
 
-# Locally compact spaces
+# Contents
 * table of contents
 {: toc}
 
