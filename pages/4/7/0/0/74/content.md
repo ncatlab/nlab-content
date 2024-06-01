@@ -48,13 +48,14 @@ This is achieved notably by combining enriched category theory with [[model cate
 an [[enriched model category]] or more generally an [[enriched homotopical category]] is an enriched category with extra information on how it behaves as a model in higher category. Notably [[sSet-model categories]] serve as models for [[(∞,1)-category theory]].
 
 
-##Literature##
+## Literature
+ {#Literature}
 
-Textbook accounts include
+Monographs:
 
-* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
+* [[Max Kelly]], *Basic Concepts of Enriched Category Theory*, Lecture Notes in Mathematics **64**, Cambridge University Press (1982)
 
-  Republished as: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+  Republished as: Reprints in Theory and Applications of Categories **10** (2005) 1-136 &lbrack;[tac:10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 * [[Francis Borceux]], Vol 2, chapter 6 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
