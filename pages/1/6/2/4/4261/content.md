@@ -30,10 +30,6 @@ On the [[Oka principle]]:
 
 On [[Alexandrov spaces]]:
 
-* Yu. Burago, [[Mikhail Gromov|M. Gromov]], [[Grigori Perelman|G. Perelman]], _Alexandrov spaces with curvature bounded below_, Russ. Math. Surveys 1992. [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/386.pdf)
-
-On [[Alexandrov spaces]]:
-
 * [[Yuri Burago]], [[Mikhail Gromov]], [[Grigori Perelman]], *Alexandrov spaces with curvature bounded below*, Russ. Math. Surveys **41** 3 (1992) 1-54 &lbrack;[doi:10.1070/RM1992v047n02ABEH000877](https://doi.org/10.1070%2FRM1992v047n02ABEH000877), [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/386.pdf)&rbrack;
 
 
