@@ -21,10 +21,26 @@ A [[topological space]], for which every (countable) open covering has an inner-
 
 ## Properties
 
+Orthocompactness generalizes other notations of compactness:
+
+* [[compact|Compact]] spaces are orthocompact as finite open refinements are inner-preserving in particular.
+* (Countably) [[metacompact]] spaces are (countably) orthocompact as point finite open refinements are inner-preserving in particular.
+* (Countably) [[paracompact]] spaces are (countably) orthocompact as locally finite open refinements are inner-preserving in particular.
+
+\begin{prop}
+Closed subsets of (countably) orthocompact spaces are (countably) orthocompact.
+\end{prop}
+
+\begin{prop}
+Orthocompact spaces are countably orthocompact and countably orthocompact [[Lindelöf spaces]] are orthocompact.
+\end{prop}
+\begin{proof} Follows directly from the fact that every [[open cover]] of a [[Lindelöf space]] has a countable sub-cover.
+\end{proof}
+
 \begin{prop}
 [[P-spaces]] are countably orthocompact.
 \end{prop}
-\begin{proof} Follows directly from the fact that _every_ countable [[open covering]] of a [[P-space]] is already inner-preserving.
+\begin{proof} Follows directly from the fact that _every_ countable [[open cover]] of a [[P-space]] is already inner-preserving.
 \end{proof}
 
 ([Dontchev 98](#Dontchev98))
@@ -32,7 +48,7 @@ A [[topological space]], for which every (countable) open covering has an inner-
 \begin{prop}
 Spaces with [[Alexandroff topology]] are orthocompact.
 \end{prop}
-\begin{proof} Follows directly from the fact that _every_ [[open covering]] of a space with [[Alexandroff topology]] is already inner-preserving.
+\begin{proof} Follows directly from the fact that _every_ [[open cover]] of a space with [[Alexandroff topology]] is already inner-preserving.
 \end{proof}
 
 ([Dontchev 98](#Dontchev98))
